@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/What_is_ZEC_and_Zcash.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Βασικά στοιχεία του Zcash
 
-## TL;DR
+## Με λίγα λόγια
 
 - Το **ZEC** είναι ένα ψηφιακό νόμισμα με προτεραιότητα την ιδιωτικότητα, βασισμένο στο blockchain Zcash
 - Σε αντίθεση με το Bitcoin, το ZEC υποστηρίζει πλήρως **θωρακισμένες (ιδιωτικές) συναλλαγές** με τη χρήση αποδείξεων μηδενικής γνώσης

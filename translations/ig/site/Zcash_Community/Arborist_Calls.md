@@ -1,56 +1,56 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Arborist_Calls.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
 # Arborist Calls
 
-Zcash Arborist Calls bụ nzukọ mmepe protocol ugboro ugboro lekwasịrị anya na atụmatụ nkwalite netwọkụ, ọrụ mmejuputa node nkwekọrịta, ịdabere na obere akpa na akụrụngwa, yana nyocha protocol.
+Zcash Arborist Calls bụ ọgbakọ mmepe usorooru [protocol] na-eme ugboro ugboro, nke lekwasịrị anya n'ịhazi network upgrade, ọrụ mmejuputa consensus node, ihe ndabere e-akpa ego [wallet] na akụrụngwa [infrastructure], na nchọpụta usorooru.
 
-Zcash Foundation na-elekọta Arborist Calls Zcash Foundation:
+Ọ bụ Arborist Calls na-elekọta ibe gọọmentị nke Zcash Foundation:
 
-**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
+**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)****
 
 <p>
   <a
     href="/arborist-calls"
     className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
   >
-    Chọọ ebe nchekwa oku ahụ
+    Chọọ n'ebe nchekwa ọkpụkpọ
   </a>
 </p>
 
-## Otu esi esonye
+## Otu Esi Eso
 
-Oku ndị a na-agbanwe n'etiti oge abụọ na-emegharị ugboro ugboro ka ndị na-enye aka na mpaghara dị iche iche wee nwee ike isonye. Jiri ibe Zcash Foundation gọọmentị maka faịlụ kalenda dị ugbu a na njikọ Zoom:
+Ọkpụkpọ ndị a na-agbanwe n'etiti oge abụọ a na-eme ugboro ugboro, ka ndị na-enye aka nọ na mpaghara dị iche iche nwee ike isonye. Jiri ibe gọọmentị Zcash Foundation maka faịlụ kalenda na njikọ Zoom dị ugbu a:
 
-- Oge oge **15:00 UTC**
+- Oge **15:00 UTC**
 
-Ibe Ntọala bụ isi iyi nke eziokwu maka njikọ ndebanye aha, faịlụ kalenda, na ohere nzukọ n'ihi na njikọ nzukọ nwere ike ịgbanwe.
+Ibe Foundation bụ isi mmalite eziokwu maka njikọ ndebanye aha, faịlụ kalenda, na ohere ịbanye n'ọgbakọ n'ihi na njikọ ọgbakọ nwere ike ịgbanwe.
 
-## Ihe ndetu, Agenda, na Ndekọ
+## Notes, Atụmatụ Ọgbakọ, na Ndekọ
 
-- Atumatu na nkeji zuru ezu: [ihe ndetu osisi arboretum](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Ebe nchekwa enwere ike ịchọgharị na wiki a: [Arborist Calls ebe nchekwa ihe ochie](/arborist-calls)
-- Ndekọ ndị ọhụrụ: [Ndepụta egwu Zcash Arborist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Mkparịta ụka gbasara nyocha na mmepe Zcash: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- Mkparịta ụka ogologo oge: [Ọgbakọ Obodo Zcash](https://forum.zcashcommunity.com/)
+- Atụmatụ ọgbakọ na minutes zuru ezu: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- Ebe nchekwa a pụrụ ịchọ na wiki a: [Arborist Calls ebe nchekwa](/arborist-calls)
+- Ndekọ ndị na-adịbeghị anya: [Zcash ndepụta ọkpụkpọ Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Mkparịta ụka R&D nke Zcash: [Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
+- Mkparịta ụka ogologo: [Zcash Community Forum](https://forum.zcashcommunity.com/)
 
-## Ònye Kwesịrị Ịga
+## Onye Kwesịrị Iso
 
 Arborist Calls bara uru maka:
 
-- Ndị injinia na ndị nchọpụta protocol
-- Ndị mmepe akụrụngwa Node, obere akpa, SDK, na lightwallet
-- Ndị nnata onyinye nke ọrụ ha metụtara nkwekọrịta, mmelite netwọkụ, ma ọ bụ ndabere usoro
-- Ndị otu obodo chọrọ ịgbaso mkpebi teknụzụ n'ihu ọha
+- Ndị injinia usorooru na ndị nchọpụta
+- Ndị mmepe node, e-akpa ego, SDK, na akụrụngwa lightwallet
+- Ndị natara ikike ndị ọrụ ha metụtara consensus, network upgrade, ma ọ bụ ihe ndabere usorooru
+- Ndị otu obodo chọrọ ịgbaso mkpebi teknụzụ a na-eme n'ihu ọha
 
-## Ndepụta egwu
+## Ndepụta Ọkpụkpọ
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
-    title="Zcash Arborist Call Playlist"
+    title="Zcash Ndepụta Ọkpụkpọ Arborist Call"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

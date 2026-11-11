@@ -1,10 +1,10 @@
-# Guia de Estilo do ZecHub
+# Guia de estilo do ZecHub
 
-O estilo do ZecHub é simples e acessível. Damos as boas-vindas a todos e focamos na comunidade Zcash.
+O estilo do ZecHub é simples e acessível. Damos as boas-vindas a todos e focamos na comunidade do Zcash.
 
 ## Princípios
 
-1. **Pronto para ajudar** - Demonstre aos usuários de Zcash que estamos do lado deles.
+1. **Pronto para ajudar** - Demonstre aos usuários do Zcash que estamos do lado deles.
 
 2. **Breve e direto ao ponto:**  Transmita a mensagem mais simples possível. Comece pelo ponto mais importante.
 
@@ -36,15 +36,15 @@ O estilo do ZecHub é simples e acessível. Damos as boas-vindas a todos e focam
 
     | Use isto    | Em vez disto |
     |-------------|-----------------|
-    | por exemplo | e.g.            |
-    | isto é      | i.e.            |
+    | Por exemplo | e.g.            |
+    | Isto é      | i.e.            |
 
 ## Tweets
 
-> Este guia geral de estilo destina-se à redação de artigos ou guias do utilizador para o ZecHub. Também se aplica a tweets e outras declarações curtas: mantenha-os breves, apresente o ponto principal logo no início e omita a pontuação final em linhas curtas.
+> Este guia geral de estilo destina-se à redação de artigos ou guias do usuário para o ZecHub. Também se aplica a tweets e outras declarações curtas: mantenha-os breves, apresente o ponto principal logo no início e omita a pontuação final em linhas curtas.
 
 ---
 
 <small>
-O guia de estilo do ZecHub é adaptado do <a href="https://learn.microsoft.com/en-us/style-guide/">Guia de Estilo de Redação da Microsoft</a> com modificações. Consulte o guia da Microsoft quando precisar.
+O guia de estilo do ZecHub é adaptado do <a href="https://learn.microsoft.com/en-us/style-guide/">Guia de estilo de redação da Microsoft</a> com modificações. Consulte o guia da Microsoft quando precisar.
 </small>

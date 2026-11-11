@@ -6,15 +6,15 @@
 
 [Site](https://zodl.com/) - [GitHub](https://github.com/zodl-inc) - [X/Twitter](https://x.com/zodl_app) - [Discord](https://discord.gg/zodl)
 
-## Declaração de Missão
+## Declaração de missão
 
-A ZODL vislumbra um mundo sem vigilância financeira em massa, onde pessoas que cumprem a lei possam transacionar livremente e com privacidade. A organização acredita que não há soberania sem privacidade, e que a privacidade financeira deve ser o padrão e o acesso ao mercado um direito humano.
+A ZODL vislumbra um mundo sem vigilância financeira em massa, onde pessoas que cumprem a lei possam realizar transações livremente e com privacidade. A organização acredita que não há soberania sem privacidade, e que a privacidade financeira deve ser o padrão e o acesso ao mercado um direito humano.
 
-## Contexto e História
+## Contexto e história
 
-A ZODL (Zcash Open Development Lab) foi fundada no início de 2026 por Josh Swihart, o ex-CEO da Electric Coin Company (ECC). Em janeiro de 2026, toda a equipe de engenharia e produto da ECC pediu demissão após uma disputa de governança com a Bootstrap, o conselho sem fins lucrativos 501(c)(3) que supervisiona a ECC. A equipe central que havia originalmente projetado, implementado e mantido os sistemas mais críticos da Zcash migrou para a ZODL para continuar seu trabalho de forma independente.
+A ZODL (Zcash Open Development Lab) foi fundada no início de 2026 por Josh Swihart, o ex-CEO da Electric Coin Company (ECC). Em janeiro de 2026, toda a equipe de engenharia e produto da ECC pediu demissão após uma disputa de governança com a Bootstrap, o conselho sem fins lucrativos 501(c)(3) que supervisiona a ECC. A equipe central que havia originalmente projetado, implementado e mantido os sistemas mais críticos do Zcash migrou para a ZODL para continuar seu trabalho de forma independente.
 
-A carteira Zashi, anteriormente desenvolvida e mantida pela ECC, foi rebatizada como ZODL sob a nova organização. Os utilizadores não precisaram de tomar qualquer ação, pois a aplicação foi rebatizada automaticamente com a atualização seguinte.
+A carteira Zashi, anteriormente desenvolvida e mantida pela ECC, foi rebatizada como ZODL sob a nova organização. Os usuários não precisaram tomar nenhuma ação, pois o app foi rebatizado automaticamente com a atualização seguinte.
 
 ## Financiamento
 
@@ -24,25 +24,25 @@ Em março de 2026, a ZODL levantou mais de $25 milhões em financiamento seed de
 - **a16z crypto**
 - **Winklevoss Capital**
 - **Coinbase Ventures**
-- **Cypherpunk Technologies** ($5M investment)
+- **Cypherpunk Technologies** (investimento de $5M)
 - **Chapter One**
 - **David Friedberg**
 - **Balaji Srinivasan**
 - Investidores-anjo adicionais dos setores de cripto e tecnologia
 
-O capital está a ser utilizado para expandir o desenvolvimento tanto do protocolo Zcash como da carteira ZODL.
+O capital está sendo utilizado para expandir o desenvolvimento tanto do protocolo Zcash quanto da carteira ZODL.
 
 ## Liderança
 
-- **Josh Swihart** - CEO & Fundador (ex-CEO da Electric Coin Company)
+- **Josh Swihart** - CEO e fundador (ex-CEO da Electric Coin Company)
 
-A equipe mais ampla é composta pelos criadores e desenvolvedores originais do protocolo Zcash, que anteriormente construíram e mantiveram a Zcash na ECC. Isso inclui profundo conhecimento em criptografia, provas de conhecimento zero e engenharia de protocolos.
+A equipe mais ampla é composta pelos criadores e desenvolvedores originais do protocolo Zcash, que anteriormente construíram e mantiveram o Zcash na ECC. Isso inclui profundo conhecimento em criptografia, provas de conhecimento zero e engenharia de protocolos.
 
 ## Produtos
 
-### Carteira ZODL (anteriormente Zashi)
+### ZODL Wallet (anteriormente Zashi)
 
-ZODL é uma carteira móvel de autocustódia projetada para transações privadas com Zcash. Combina um profundo conhecimento ao nível do protocolo com um design intuitivo, ocultando a complexidade enquanto mantém a segurança.
+ZODL é uma carteira móvel de autocustódia projetada para transações privadas com Zcash. Combina um profundo conhecimento no nível do protocolo com um design intuitivo, ocultando a complexidade enquanto mantém a segurança.
 
 **Plataformas:**
 - [iOS (App Store)](https://apps.apple.com/us/app/zodl-zcash-wallet/id1672392439)
@@ -50,51 +50,51 @@ ZODL é uma carteira móvel de autocustódia projetada para transações privada
 - [F-Droid](https://f-droid.org/en/packages/co.electriccoin.zcash.foss/)
 - [GitHub](https://github.com/zodl-inc)
 
-**Principais Recursos:**
+**Principais recursos:**
 
-- **Blindada por Padrão:** Todas as transações usam os pools blindados da Zcash, ocultando remetente, destinatário e valores das transações usando criptografia de conhecimento zero
-- **Blindagem com Um Toque:** Converta ZEC transparentes em fundos privados com um único toque
+- **Blindada por padrão:** Todas as transações usam os pools blindados do Zcash, ocultando remetente, destinatário e valores das transações usando criptografia de conhecimento zero
+- **Blindagem com um toque:** Converta ZEC transparentes em fundos privados com um único toque
 - **CrossPay:** Envie ZEC blindado enquanto os destinatários recebem seus ativos preferidos (BTC, stablecoins etc.)
-- **Swaps Privados:** Swaps integrados alimentados por NEAR Intents, evitando exchanges centralizadas
+- **Conversões privadas:** Conversões integradas viabilizadas por NEAR Intents, evitando corretoras centralizadas
 - **Integração com Keystone:** Suporte a carteira de hardware para armazenamento a frio de ZEC blindado por meio de assinatura de transações air-gapped
 - **Pagamentos Flexa:** Gaste ZEC em grandes varejistas, incluindo GameStop, Chipotle, Sheetz e Barnes & Noble
-- **Integração com Coinbase:** Compre ZEC diretamente dentro da carteira sem registro separado em exchange
-- **Mensagens Criptografadas:** Privacidade em nível Zcash para memos blindados junto com ou independentemente de transações
-- **Unified Addresses:** Gerenciamento simplificado de endereços entre os pools Transparent, Sapling e Orchard
+- **Integração com Coinbase:** Compre ZEC diretamente dentro da carteira sem registro separado em corretora
+- **Mensagens criptografadas:** Privacidade em nível do Zcash para memorandos blindados junto com ou independentemente de transações
+- **Endereços unificados:** Gerenciamento simplificado de endereços entre os pools Transparent, Sapling e Orchard
 - **Suporte a Tor:** Privacidade aprimorada em nível de rede para a transmissão de transações
 
-**Compromissos com a Privacidade:**
+**Compromissos com a privacidade:**
 - Nenhum rastreamento da atividade da carteira, histórico de transações ou comportamento do usuário
 - Apenas relatórios de falha anonimizados são coletados, sem capacidade de vincular dados a usuários específicos
 
-### Desempenho e Impacto
+### Desempenho e impacto
 
-Desde seu lançamento original como Zashi em 2024, a carteira impulsionou um crescimento significativo no ecossistema Zcash:
+Desde seu lançamento original como Zashi em 2024, a carteira impulsionou um crescimento significativo no ecossistema do Zcash:
 
 - Fez o pool blindado Orchard crescer de aproximadamente 1M ZEC para 4M ZEC durante 2025 (mais de 400% de aumento)
-- Processou mais de $600 milhões em swaps de ZEC desde outubro de 2025
+- Processou mais de $600 milhões em conversões de ZEC desde outubro de 2025
 
-## Papel no Ecossistema Zcash
+## Papel no ecossistema do Zcash
 
-A ZODL desempenha um papel duplo no ecossistema Zcash:
+A ZODL desempenha um papel duplo no ecossistema do Zcash:
 
-1. **Desenvolvimento de Protocolo:** A equipe continua avançando o software e as ferramentas centrais do protocolo Zcash, trabalhando ao lado de outras equipes do ecossistema, como a Zcash Foundation e a Zingo Labs
-2. **Produtos Voltados ao Usuário:** Construção e manutenção da principal carteira de consumo para Zcash, com foco em tornar pagamentos digitais privados acessíveis a usuários convencionais
-3. **Crescimento do Pool Blindado:** As inovações da carteira da ZODL foram descritas como "o maior fator isolado responsável por colocar a Zcash de volta no mapa"
-4. **Código Aberto:** Todo o trabalho é open-source, permitindo que qualquer pessoa inspecione o código do protocolo, audite a carteira e verifique as implementações
+1. **Desenvolvimento de protocolo:** A equipe continua avançando o software e as ferramentas centrais do protocolo Zcash, trabalhando ao lado de outras equipes do ecossistema, como a Zcash Foundation e a Zingo Labs
+2. **Produtos voltados ao usuário:** Construção e manutenção da principal carteira de consumo para o Zcash, com foco em tornar pagamentos digitais privados acessíveis a usuários convencionais
+3. **Crescimento do pool blindado:** As inovações da carteira da ZODL foram descritas como "o maior fator isolado responsável por colocar o Zcash de volta no mapa"
+4. **Código aberto:** Todo o trabalho é de código aberto, permitindo que qualquer pessoa inspecione o código do protocolo, audite a carteira e verifique as implementações
 
-## Filosofia: Guardião do Soberano
+## Filosofia: Guardião do soberano
 
-A filosofia orientadora da ZODL está centrada no conceito de "Guardião do Soberano" -- a crença de que os indivíduos devem manter controle total sobre sua privacidade financeira e soberania. A organização prioriza deliberadamente a soberania do usuário em vez do controle da plataforma, construindo ferramentas que capacitam indivíduos em vez de intermediários.
+A filosofia orientadora da ZODL está centrada no conceito de "Guardião do soberano" -- a crença de que os indivíduos devem manter controle total sobre sua privacidade financeira e soberania. A organização prioriza deliberadamente a soberania do usuário em vez do controle da plataforma, construindo ferramentas que capacitam indivíduos em vez de intermediários.
 
 ## Recursos
 
 - [Site da ZODL](https://zodl.com/)
-- [Página Sobre a ZODL](https://zodl.com/about/)
+- [Página sobre a ZODL](https://zodl.com/about/)
 - [X/Twitter](https://x.com/zodl_app)
 - [Josh Swihart no X](https://x.com/jswihart)
 
-## Veja Também
+## Veja também
 
 - [Electric Coin Company](Electric_Coin_Company.md)
 - [Zcash Foundation](Zcash_Foundation.md)

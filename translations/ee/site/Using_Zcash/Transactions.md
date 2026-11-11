@@ -3,26 +3,26 @@
 </a>
 
 
-# Adzɔnuwo ƒe asitsatsa
+# Gaɖoɖowo
 
-ZEC nye dijitaal nunɔamesi si wozãna le afisiafi hena fexexe, si naa ameŋunyatakakawo takpɔkpɔ ƒe mɔnu sesẽ siwo na wòsɔ na asitsatsa vovovowo abe xɔlɔ̃wo ƒe fexexe, nuƒle, alo nudzɔdzɔ ene. Be ame ŋutɔ ƒe nyawo kple dedienɔnɔ nadzi ɖe edzi la, ele vevie be nàse alesi asitsatsa ƒomevi vovovowo wɔa dɔe le Zcash me gɔme.
+ZEC nye digital asset si wo zã geɖe na fexexe, eye ɣaɣla [privacy] ƒe nɔnɔme sesẽ le eŋu, si na wòŋu wòate ŋu azãe na gaɖoɖowo vovovo abe xɔlɔ̃wo ƒe fexexe, nuƒleƒle alo nuƒeƒo ene. Be wòakpɔ ɣaɣla kple dedienɔnɔme fɔ̃, ele be nàse ale si gaɖoɖowo ƒe ƒomevi vovovowo wɔa dɔe le Zcash me.
 
 ## TL;DR
 
-- Zcash doa alɔ asitsatsa ƒomevi eve: **shielded**, si naa nyatakakaawo nɔa ɣaɣla, kple **transparent**, si ŋlɔa wo ɖe dutoƒo.
-- Adrɛs siwo wokpɔ ta na la dzea egɔme kple `u` or `z`. Adrɛs siwo me kɔ la dzea egɔme kple `t` eye wowɔa nu abe Bitcoin adrɛs ene.
-- Tiatia la nye tɔwò le fe ɖesiaɖe si nàxe me. Ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla nye tiatia si Zcash naa wò, ke menye nɔnɔme si ame bubu atso nya me na wò o.
-- Asiɖeɖe le nudzraɖoƒe aɖe ŋue nye afisi amewo ƒe adzamenyawo buna le wu. Ne gaɖeɖe le gaglãgbe koe gaɖɔliƒea doa alɔe la, ke wò ŋutɔ kpɔ ga la ta ne wonya ɖo ko.
-- Fewo kplɔnɛ ɖo [ZIP 317 ƒe xexlẽdzesi](https://zips.z.cash/zip-0317) eye wòatsi kple asitsatsa la ƒe lolome. Gakotoku siwo gakpɔtɔ le flat fee xoxoa ɖom ɖa la ate ŋu akpɔe be woƒe asitsatsa tsi megbe.
-- Zcash ƒe asitsatsa akpa gãtɔ ƒe nuwuwu ƒe kɔkɔme le ete [ZIP 203 ƒe xexlẽdzesi](https://zips.z.cash/zip-0203). Ne asitsatsa aɖe wu enu hafi woɖe tome la, mate ŋu aɖo kpe edzi le eƒe nuwuwu ƒe kɔkɔme ma megbe o eye ate ŋu ahiã be woagaɖoe ɖa ake.
+- Zcash tše gaɖoɖo ƒe ƒomevi eve: **ɣaɣla [shielded]**, si ɖea nyawo ɣla, kple **nuwo ƒe ʋuʋuɖi [transparent]**, si dea wo ɖe ame gbogbo ƒe ŋkume.
+- Ɣaɣla gaɖoƒe ƒe dzesiwo dzena kple `u` alo `z`. Nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo dzena kple `t` eye wonɔa wɔwɔm abe Bitcoin gaɖoƒe ƒe dzesi ene.
+- Tiaa wòa ɖe fexexe sia fexexe dzi. Ɣaɣla nye tiɖoɖo si Zcash na wò, menye ɖoɖo si ame bubu tia na wò o.
+- Gaɖeɖe tso gatrɔƒe me nye afi si amewo bu ɣaɣla zi geɖe le. Ne gatrɔƒea tše nuwo ƒe ʋuʋuɖi gaɖeɖe ko la, ɖe gaawo ɣla wò ŋutɔ le woƒe vaɖo megbe.
+- Adzɔwo wɔa ɖe [ZIP 317](https://zips.z.cash/zip-0317) nu eye wonɔa gɔme ɖe gaɖoɖoa ƒe lolome nu. Gakotokuwo siwo gale adzɔ ƒe xoxo kpuie ƒoƒo zãm la ate ŋu akpɔ woƒe gaɖoɖowo ƒe memli.
+- Geɖe Zcash gaɖoɖowo ƒe nuwuwu kɔƒe le [ZIP 203](https://zips.z.cash/zip-0203) te. Ne gaɖoɖo aɖe ƒe ɣeyiɣi va yi hafi woaku gae la, mate ŋu aɖo kpeɖeŋu o le nuwuwu kɔƒe ma megbe, eye ele be woaɖoe ake.
 
-## Asitsatsa Siwo Ŋu Wokpɔ Akpoxɔnu Le
+## Ɣaɣla Gaɖoɖowo
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/bZM3o_eIovU"
-    title="Zcash Explained: Zcash Shielded Transactions"
+    title="Zcash Ƒe Nuxlɔ̃ame: Zcash Ɣaɣla Gaɖoɖowo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -31,157 +31,157 @@ ZEC nye dijitaal nunɔamesi si wozãna le afisiafi hena fexexe, si naa ameŋunya
 
 ---
 
-Asitsatsa siwo wokpɔ ta na la dzɔna ne ètsɔ ZEC yi wò gakotoku si wokpɔ ta na la me. Wò gakotoku ƒe adrɛs si ŋu woxe mɔ ɖo la dzea egɔme kple a `u` or `z`. Ne èle asitsatsa siwo ŋu wokpɔ ta na ɖom ɖa la, wò kple ame siwo nèwɔa asitsadɔ kplii la, miate ŋu alé adzamenyawo ƒe ɖoɖo aɖe si mate ŋu adzɔ le dutoƒo fexexe ƒe nyatakakadzraɖoƒewo o.
+Ɣaɣla gaɖoɖowo dzɔna ne nètsɔ ZEC de wò ɣaɣla gakotoku me. Wò ɣaɣla gakotoku gaɖoƒe ƒe dzesi dzena kple `u` alo `z`. Ne miele ɣaɣla gaɖoɖowo ɖom la, wò kple amewo siwo kplɔm nèle gaɖoɖo wɔm la ate ŋu aɖe ɣaɣla ƒe kadodo si menɔ fexexe network siwo ƒe nuwo doa go tso gɔmedzedze me o.
 
-Adzɔnu si wokpɔ ta na la ɖoɖo ɖa le bɔbɔe wu ne èzã gakotoku si doa alɔ Zcash network si li fifia kple pool siwo wokpɔ ta na fifia. Hafi nàɖo ŋu ɖe gakotoku ŋu hena ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ la, kpɔe ɖa be edoa alɔ dɔdɔ si wotsɔ akpoxɔnu ɖo, xɔxɔ si ŋu akpoxɔnu le, kple ta si nèɖo be yeazã hã. Ne èle ZEC ɖem le asitɔtrɔ me la, kpɔe ɖa be asitɔtrɔa doa alɔ gaɖeɖe siwo ŋu wokpɔa akpoxɔnu le alo esiwo woɖena le gaglãgbe hã. Ne gaɖeɖe le gaglãgbe koe wòdoa alɔe la, ke tsɔ gaawo yi gakotoku si me woate ŋu akpɔ akpoxɔnu le me ne wova ɖo.
+Ɣaɣla gaɖoɖo ɖoɖo fɔ bɔbɔe ne nàzã gakotoku si tše Zcash network si le fifia kple ɣaɣla gaƒuƒoƒowo siwo le fifia. Hafi nàtsɔ gakotoku aɖe aɖo ŋu be wòakpɔ ɣaɣla la, kpɔ be ɣaɣla dɔɖoɖo, ɣaɣla xɔxɔ, kple gaƒuƒoƒo si nèdi be nàzã tše edzi. Ne nèle ZEC ɖem tso gatrɔƒe me la, kpɔ be gatrɔƒea tše ɣaɣla alo nuwo ƒe ʋuʋuɖi gaɖeɖe dzi. Ne eya ko tše nuwo ƒe ʋuʋuɖi gaɖeɖe dzi la, tsɔ gaawo de gakotoku si ate ŋu aɖe wo ɣla me le woƒe vaɖo megbe.
 
-Asitsatsa siwo ŋu wokpɔ ta na zazã atsɔ aɖo ga ɖa ahaxɔe nye mɔ nyuitɔ si dzi woato akpɔ ame ŋutɔ ƒe nyatakakawo ta eye woaɖe afɔku si le fexexe ŋuti nyatakakawo ƒe dodo me dzi akpɔtɔ.
+Ɣaɣla gaɖoɖowo ƒe zazã be woaɖo ga ɖa eye woaxɔe nye mɔ nyuitɔ si wɔa be ɣaɣla nanɔ anyi eye wòaɖe fexexe ƒe nyawo ƒe gɔmeɖeɖe ƒe afɔku gbɔ.
 
-## Asitsatsa Siwo Le Gaglãgbe
+## Nuwo Ƒe Ʋuʋuɖi Gaɖoɖowo
 
-Asitsatsa siwo me kɔ la wɔa dɔ abe alesi Bitcoin ƒe asitsatsa wɔa dɔe ene. Asitsatsa ŋuti nyatakakawo dzena le dutoƒo le blockchain la dzi, siwo dometɔ aɖewoe nye adrɛs siwo me kɔ kple asixɔxɔ siwo me kɔ. Ele be woaƒo asa na asitsatsa le gaglãgbe ne ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ nye nu vevitɔ.
+Nuwo ƒe ʋuʋuɖi gaɖoɖowo wɔa dɔ abe Bitcoin gaɖoɖowo ene. Gaɖoɖoa ƒe nyawo doa go na ame gbogbo le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] dzi, eye nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo kple nuƒoƒowo hã le eme. Ele be woage ɖa le nuwo ƒe ʋuʋuɖi gaɖoɖowo ŋu ne ɣaɣla nye nu si hiã.
 
-Adrɛs siwo me kɔ la gakpɔtɔ ɖea vi le nɔnɔme aɖewo me, vevietɔ ne asitɔtrɔ alo dɔwɔƒe aɖe medoa alɔ adrɛs siwo wokpɔ ta na o. Ne èxɔ ZEC ɖe adrɛs si me kɔ la, bu eŋu kpɔ be yeakpɔ eta hafi axe fe emegbe.
+Nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo gale vi na nɔnɔme aɖewo me, vevietɔ ne gatrɔƒe alo subɔsubɔ aɖe metsi ɣaɣla gaɖoƒe ƒe dzesiwo o. Ne nèxɔ ZEC ɖe nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi aɖe dzi la, bu be nàɖee ɣla hafi nàwɔ fexexe siwo ava le emegbe.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/R-krX1UpsIg"
-    title="Learn Zcash shielded wallets!"
+    title="Srɔ̃ Zcash ɣaɣla gakotokuwo!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-## Mɔ Blɔɖe Si Si Nàto Akpɔe le Nɔnɔmetata Me
+## Mɔ Bɔbɔe Aɖe Si Nàte Ŋu Atsɔ Aɖe Eme
 
-Asitsatsa si me kɔ nye posugbalẽvi. Posudɔwɔla la tsɔnɛ yina na amewo, gake amesiame si akpɔ egbɔ le mɔa dzi ate ŋu axlẽ gbedasi la, akpɔ amesi ɖoe ɖa eye wòakpɔ amesi axɔe.
+Nuwo ƒe ʋuʋuɖi gaɖoɖo nye poskagbalẽ. Posdɔla tsɔe ɖo, gake ame sia ame si kpɔe le mɔa dzi ate ŋu axlẽ mesajia, akpɔ ame si dɔe, eye wakpɔ ame si xɔe.
 
-Asitsatsa si wotsɔ akpoxɔnu wɔe nye agbalẽkotoku si wotre nu na. Posudɔwɔƒea gakpɔtɔ ɖo kpe edzi be lɛta ŋutɔŋutɔ si me posufe ŋutɔŋutɔ le la to ɖoɖoa me, eye ame aɖeke mate ŋu awɔ ɖeka alo aɖo lɛta ɖeka ɖa zi eve o. Nusi le agbalẽkotokua me nɔa amesi ɖoe ɖa kple amesi xɔe dome.
+Ɣaɣla gaɖoɖo nye agbalẽ ƒe akpɔɖe si woɖe dɔe. Posdɔsubɔ hã dea kpe be agbalẽ vavã si me pos adzɔ vavã le va to ɖoɖo la me, eye ame aɖeke mate ŋu aƒo ɖeka o alo aɖo agbalẽ ma ke zi eve o. Nu si le akpɔɖea me nɔa ame si dɔe kple ame si xɔe dome.
 
-Akpa vevitɔe nye be Zcash na nètsoa nya me le esi nàɖo ɖa ŋu, fexexe to fexexe me.
+Nu vevi lae nye be Zcash na wò nàtia nu si nàɖo, fexexe sia fexexe.
 
-## Zcash Fewo ƒe Fewo
+## Zcash Adzɔwo
 
-Zcash mezãa gas-mɔ̃ siwo le abe Ethereum ene o. Woxea Zcash ƒe asitsatsa ƒe fewo le ZEC me, zi geɖe la, wodzidzenɛ le **zatoshis** me. ZEC ɖeka sɔ kple zatoshi 100,000,000.
+Zcash mezãa Ethereum ƒe gas units o. Woƒea Zcash gaɖoɖo ƒe adzɔwo le ZEC me, eye woɖea wɔnɔa wɔnɔa le **zatoshis** me. ZEC ɖeka sɔ kple zatoshis 100,000,000.
 
-[ZIP 317 ƒe xexlẽdzesi](https://zips.z.cash/zip-0317) ɖe fexexe ƒe mɔnu si bɔ si dzina ɖe edzi kple asitsatsa ƒe sesẽme. Le esi teƒe be woazã asitsatsa ɖesiaɖe si nye 1,000-zatoshi flat fe xoxoa la, wotu fe si wozãna ɖaa ɖe "nuwɔna siwo me susu le" abe nusiwo wotsɔ de eme, nusiwo woɖe tso eme, kple nuwɔna siwo wokpɔ ta na dzi. Zi geɖe la, asitsatsa bɔbɔewo dzea egɔme abe zatoshi 10,000, alo ZEC 0.0001 ene, eye asitsatsa siwo sesẽ wu ate ŋu abia geɖe wu.
+[ZIP 317](https://zips.z.cash/zip-0317) dea adzɔ ƒe mɔ si wɔnɔa kple gaɖoɖoa ƒe kpekpeɖeŋu ɖo. Le teƒe si gaɖoɖo sia ame zãa zatoshi 1,000 ƒe adzɔ kpuie xoxo la, adzɔ si woɖo ɖe mɔ nu la tu ɖe "logical actions" abe inputs, outputs, kple ɣaɣla actions ene. Gaɖoɖo bɔbɔewo dzena geɖe le zatoshis 10,000 alo ZEC 0.0001 gbɔ, eye gaɖoɖowo siwo kpe ɖe eŋu wu la ate ŋu ahiã nu geɖe wu.
 
-Le gakotoku siwo li fifia ƒe akpa gãtɔ me la, mele be wòahiã be ezãlawo natsɔ asi abu ZIP 317 ƒe fewo o. Ele be gakotokua natia fe si sɔ le eɖokui si. Ne gakotoku aɖe gakpɔtɔ zãa flat fee xoxoa alo na nèɖoa fe si le ZIP 317 ƒe fetu si wozãna ɖaa teƒe sã la, ate ŋu ahe asitsatsa la ɖe megbe, aɖee le nu vevitɔ me, node aɖewo atsɔe aƒu gbe, alo ado kpo relay kakaɖedzitɔe.
+Le gakotoku siwo le fifia me geɖe la, mele be zazãlawo nakɔ ZIP 317 ƒe adzɔwo wo ŋutɔ o. Ele be gakotoku la natia adzɔ si dze le eɖokui ŋutɔ. Ne gakotoku aɖe gale adzɔ kpuie xoxo zãm alo na wò nàɖo adzɔ si le ZIP 317 ƒe adzɔ si woɖo ɖe mɔ nu te ŋutɔ la, woate ŋu amem gaɖoɖoa, aɖe eƒe teƒe, node aɖewo akpɔe gbe, alo mate ŋu awɔ relay dedie o.
 
-## Kuxiwo Gbɔkpɔkpɔ le Asitsatsa Siwo Tsi Me
+## Nɔnɔme Si Wòate Ŋu Aɖe Gaɖoɖowo Si Tsitre La Ƒe Kuxiwo
 
-Zcash ƒe asitsatsa menye mamlɛtɔ le esi wòdze le wò gakotoku me ta ko o. Eva zua mamlɛtɔ na zazã dzro ko ne woɖee ɖe xɔtunu aɖe me eye wòxɔ kpeɖodzi siwo sɔ na wò nɔnɔmea vɔ. Ðewohĩ asitɔtrɔ kple dɔwɔnawo abia kpeɖodzi geɖe wu alesi gakotoku aɖe ɖenɛ fiana le gɔmedzedzea me.
+Zcash gaɖoɖo menye nu mamlɛtɔ le esime ko wòkpɔe le wò gakotoku me o. Ena zu nu mamlɛtɔ na zazã bɔbɔe ne woaku eɖe gaɖoɖowo ƒuƒoƒe [block] me eye wòxɔ confirmation si sɔ na wòƒe nɔnɔme. Gatrɔƒewo kple subɔsubɔwo ate ŋu ahiã confirmations geɖe wu ale si gakotoku aɖe fia le gɔmedzedze me.
 
-Zã nyametsotsoti sia hafi nàgbugbɔ aɖoe ɖa:
+Zã tiatia ƒe ati sia hafi nàɖo ga ake:
 
-1. **Ðe wò gakotokua ɖea asitsatsa ƒe ID fianaa?**
-   - Ne ao la, ke ɖewohĩ gakotokua mewɔ asitsatsa la alo ɖe gbeƒãe haɖe o. Kpɔ sync ƒe nɔnɔme, internet kadodo, gakotoku ƒe tɔtrɔ, kple gakotoku ƒe vodada ƒe gbedasi ɖesiaɖe ɖa.
-   - Ne ègblɔ be ẽ la, kɔpi asitsatsa ƒe ID la eye nàyi edzi.
-2. **Ðe woɖo kpe asitsatsa la dzi le block aɖe mea?**
-   - Ne ègblɔ be ẽ la, lala kpeɖodzi agbɔsɔsɔme si wò gakotoku, asitɔtrɔ, asitsala, alo dɔwɔƒe bia.
-   - Ne ao la, ke yi edzi.
-3. **Ðe asitsatsa la ɖo eƒe nuwuwu ƒe kɔkɔƒea?**
-   - Ne ao la, mègatsɔ asi aɖo ga ma ke ɖe wò haɖe o. Ðewohĩ asitsatsa gbãtɔa aɖo kpe edzi kokoko.
-   - Ne ẽ la, womate ŋu aku asitsatsa la le eƒe nuwuwu ƒe kɔkɔme ma megbe o. Wò gakotoku ate ŋu ade dzesii be ewu enu alo do kpo nu, eye ahiã be nàwɔ asitsatsa yeye aɖe.
-4. **Ðe asitsatsa la dzena le server alo explorer ɖeka dzi gake medzena le bubu dzi oa?**
-   - Bu esia abe network visibility nya ene, ke menye kpeɖodzi be asitsatsa la do kpo nu o. Node vovovowo ateŋu akpɔ mempool ƒe nukpɔkpɔ vovovowo.
-   - Lala, gbugbɔ trɔ asi le wò gakotokua ŋu, alo trɔ ɖe server bubu si dzi nèka ɖo ŋu ne wò gakotokua doa alɔ ema.
-5. **Ðe asitsatsa la bu le edze abe woɖo kpe edzi enea?**
-   - Kɔsɔkɔsɔ kpui ƒe ɖoɖo yeye ate ŋu aɖe asitsatsa aɖe ɖa le kɔsɔkɔsɔ nyuitɔ kekeake me hena ɣeyiɣi aɖe.
-   - Lala be woagawɔ block bubuwo. Ne asitsatsa la trɔ gbɔ la, yi edzi nànɔ lalam be woaɖo kpe edzi. Ne metrɔ gbɔ o eye emegbe wòwu enu la, wɔ asitsatsa yeye.
-6. **Ðe gakotokua le biabiam tso asiwò be nàgbugbɔ aɖoe ɖaa?**
-   - Wɔ ɖe gakotokua ƒe mɔfiame si li fifia dzi ne èkpɔe ɖa be asitsatsa si nèwɔ va yi ƒe ɣeyiɣia wu enu, edo kpo nu, alo megale dɔ wɔm o ko hafi.
-   - Ne mèka ɖe edzi o la, bia kpekpeɖeŋu hafi nàgaɖoe ɖa ake.
+1. **Wò gakotoku fia gaɖoɖo ƒe ID aɖe?**
+   - Ne ao la, ɖewohĩ gakotoku la mede gaɖoɖoa alo mede dɔe haɖe o. Kpɔ sync ƒe nɔnɔme, internet ƒe kadodo, gakotoku ƒe version, kple gakotoku ƒe vodada mesaj aɖeke.
+   - Ne ɛ̃ la, kpɔ gaɖoɖo ƒe ID la eye nàyi edzi.
+2. **Woɖe kpe ɖe gaɖoɖoa ŋu le gaɖoɖowo ƒuƒoƒe aɖe me?**
+   - Ne ɛ̃ la, lalaa na confirmations ƒe nọmba si wò gakotoku, gatrɔƒe, asitsɔla, alo subɔsubɔ hiã.
+   - Ne ao la, yi edzi.
+3. **Gaɖoɖoa va ɖo eƒe nuwuwu kɔƒe?**
+   - Ne ao la, megado fexexe ma ke ɖe asi o. Gaɖoɖo gɔmedzela la ate ŋu akpɔ kpeɖeŋu hã.
+   - Ne ɛ̃ la, woate ŋu aku gaɖoɖoa le nuwuwu kɔƒe ma megbe o. Wò gakotoku ate ŋu akpɔe be eƒe ɣeyiɣi va yi alo eda gbɔ, eye ɖewohĩ nàwɔ gaɖoɖo yeye aɖe.
+4. **Gaɖoɖoa doa go le server alo explorer ɖeka dzi gake menɔ bubu dzi o?**
+   - Bu be enye network ƒe nukpɔkpɔ kuxi, menye ɖase be gaɖoɖoa da gbɔ o. Node vovovowo ate ŋu akpɔ mempool ƒe nu vovovo.
+   - Lalaa, sync wò gakotoku ake, alo trɔ yi server si wòka ɖo dzi bubu aɖe gbɔ ne wò gakotoku tše eŋu.
+5. **Gaɖoɖoa bu tso eme megbe esi wòdoa go be woɖe kpe ɖe eŋu?**
+   - Chain ƒe ɖoɖo ake kpuie aɖe ate ŋu atso gaɖoɖo aɖe le chain nyuitɔ dzi le ɣeyiɣi kpuie aɖe me.
+   - Lalaa na gaɖoɖowo ƒuƒoƒewo bubu. Ne gaɖoɖoa trɔ va la, yi edzi lalaa na confirmations. Ne metrɔ va o eye eƒe ɣeyiɣi va yi emegbe la, wɔ gaɖoɖo yeye aɖe.
+6. **Gakotoku la bia be nàɖo ga ake?**
+   - Dze gakotoku la ƒe gɔmeɖeɖe si le fifia yome ne èkpɔ be gaɖoɖo si do ŋgɔ la ƒe ɣeyiɣi va yi, eda gbɔ, alo menɔ asɔ nyɛ o megbe ko.
+   - Ne mèka ɖe eŋu o la, bia kpeɖeŋu hafi nàɖo ga ake.
 
-## Wole Lalam, Woƒe Ɣeyiɣia Wui, Woda Ðe Go, Kple Wogawɔ Reorged
+## Le Mɔ Lalam, Ɣeyiɣi Va Yi, Woɖe Ɖa, Kple Reorged
 
-- **Pending** fia be wowɔ asitsatsa la alo woɖe gbeƒãe gake womekue ɖe block me haɖe o.
-- **Ewu enu** fia be asitsatsa la ƒe nuwuwu ƒe kɔkɔme va yi. Le ZIP 203 te la, womate ŋu aku asitsatsa si ƒe ɣeyiɣia wu enu ƒe kɔkɔme le kɔkɔme ma megbe o.
-- **Dropped** fia be node ɖeka alo esi wu nenema megadzraa asitsatsa la ɖo ɖe woƒe mempool me o. Esia ateŋu adzɔ le ɣeyiɣia ƒe nuwuwu, fetu suewo, mempool ƒe ɖoɖo, gbugbɔgadzedze ƒe nuwɔna, alo relay ƒe vovototowo ta.
-- **Reorged** fia be block si me asitsatsa la nɔ tsã la meganye kɔsɔkɔsɔ nyuitɔ ƒe akpa aɖeke o. Woate ŋu agaku asitsatsa la emegbe, alo ate ŋu atrɔ ava nɔ lalam ne egakpɔtɔ le dɔ wɔm.
+- **Le mɔ lalam** fia be woɖo gaɖoɖoa alo woɖe eƒe nyaɖeɖe gake wonyeku eɖe gaɖoɖowo ƒuƒoƒe me haɖe o.
+- **Ɣeyiɣi va yi** fia be gaɖoɖoa ƒe nuwuwu kɔƒe va yi. Le ZIP 203 nu la, woate ŋu aku gaɖoɖo si ƒe nuwuwu kɔƒe le eme le kɔƒe ma megbe o.
+- **Woɖe ɖa** fia be node ɖeka alo geɖe megale gaɖoɖoa ɖe woƒe mempool me o. Esia ate ŋu ava tso nuwuwu, adzɔ si le te, mempool ƒe ɖoɖo, restart ƒe nɔnɔme, alo relay ƒe vovototo me.
+- **Reorged** fia be gaɖoɖowo ƒuƒoƒe si me gaɖoɖoa nɔ tsã la menye akpa si le chain nyuitɔ dzi o. Woate ŋu aku gaɖoɖoa ake emegbe, alo ate ŋu atrɔ ayi mɔ lalam me ne eƒe dɔwɔwɔ gale nyuie.
 
-## Ɣekaɣie Mele Be Woagaɖoe Ðe Amewo O
+## Esime Mègale Be NàƉo Ga Ake O
 
-Mègagbugbɔe ɖo ɖa enumake le esi asitsatsa aɖe le ŋgɔ, ele blewu, alo bu le anyigbayeyedila ɖeka si ta ko o. Ne wogbugbɔ ɖoe ɖa kaba akpa ate ŋu ahe tɔtɔ vɛ eye le alesi gakotokua tu ga yeyeae nu la, ate ŋu ade afɔku me be woaxee zi eve.
+Megado ga enumake le esime gaɖoɖo aɖe le mɔ lalam, memli, alo menɔ explorer ɖeka dzi o ta. Gaɖoɖo ake kaba ate ŋu ana nuwo nakpɔ tsɔtsɔ, eye le mɔ si gakotoku la wɔa fexexe yeye la nu, ate ŋu atsɔ afɔku vɛ be nàfe ga zi eve.
 
-Lala alo nàxɔ kpekpeɖeŋu gbã ne:
+Lalaa alo bia kpeɖeŋu gbã ne:
 
-- Asitsatsa ƒe ID le asitsatsa la ŋu eye mewu enu o.
-- Server ɖeka ɖenɛ fiana evɔ bubu ya meɖenɛ fiana o.
-- Woɖe tome nɛ nyitsɔ laa gake kpeɖodzi siwo bu le eŋu le reorg si ate ŋu adzɔ megbe.
-- Subɔsubɔha si xɔa nyatakakawo mewu kpeɖodzigbalẽwo xlẽxlẽ nu o.
-- Wò gakotokua gakpɔtɔ le wɔwɔm ɖekae.
+- Gaɖoɖoa ƒe ID le eme eye eƒe ɣeyiɣi meva yi haɖe o.
+- Server ɖeka fia eya gake bubu menɔ fia o.
+- Woaku e le nyitsɔ gake confirmations bu le reorg aɖe ƒe agbagba megbe.
+- Subɔsubɔ si xɔna ga la mewu confirmations ƒe xexlẽ haɖe o.
+- Wò gakotoku gale sync wɔm.
 
-Zi geɖe la, enyo wu be woagbugbɔ aɖoe ɖa ne gakotokua de dzesii kɔte be asitsatsa la do alo do kpo nu vɔ, alo ne kpekpeɖeŋunana ɖo kpe edzi be asitsatsa gbãtɔa mate ŋu aɖo kpe edzi o.
+Ena dedie geɖe be nàɖo ga ake ne gakotoku la fia kɔkɔe be gaɖoɖoa ƒe ɣeyiɣi va yi alo eda gbɔ, alo ne kpeɖeŋu ƒe amewo dea kpe be gaɖoɖo gɔmedzela la mate ŋu akpɔ kpeɖeŋu o.
 
-## Ameŋunyatakakawo Ŋuti Dzesidede
+## Kpɔkpɔ Si MeƉea Ɣaɣla Ɖe Afɔku Me O
 
-Àte ŋu akpɔ asitsatsa ƒe nɔnɔme veviwo evɔ màɖe nyatakaka geɖe ɖe go wu alesi wòhiã o:
+Nàte ŋu akpɔ gaɖoɖo ƒe nɔnɔme bɔbɔe ne mèɖe nyawo geɖe wu si hiã o:
 
-- Kpɔe ɖa be wò gakotokua wɔ ɖeka bliboe hã.
-- Kpɔe ɖa be gakotokua ƒe dɔwɔnua le yeye hã.
-- Kpɔe ɖa be asitsatsa ƒe ID le asitsatsa la ŋu hã.
-- Kpɔe ɖa be woɖo kpe asitsatsa la dzi, wole lalam, eƒe ɣeyiɣia wu enu, alo do kpo nu hã.
-- Kpɔ block ƒe kɔkɔme si li fifia eye nàtsɔe asɔ kple asitsatsa ƒe nuwuwu ƒe kɔkɔme ne wò gakotokua ɖee fia.
-- Le asitsatsa siwo me kɔ gome la, block explorer ateŋu aɖe dutoƒo asitsatsa, adrɛswo, asixɔxɔwo, kple kpeɖodziwo afia.
-- Le adzɔnuwɔna siwo wokpɔ ta na gome la, block explorer ateŋu aɖee afia be asitsatsa aɖe li, gake mateŋu aɖe ame si woɖo tae, amesi xɔe, ga home, alo nuŋlɔɖi ŋuti nyatakakawo afia o.
+- Kpɔ be wò gakotoku sync blibo.
+- Kpɔ be gakotoku app la le fifia.
+- Kpɔ be gaɖoɖoa ƒe ID le eme.
+- Kpɔ be woɖe kpe ɖe gaɖoɖoa ŋu, ele mɔ lalam, eƒe ɣeyiɣi va yi, alo eda gbɔ.
+- Kpɔ gaɖoɖowo ƒuƒoƒe ƒe kɔƒe si le fifia eye nàtsɔe asɔ kple gaɖoɖoa ƒe nuwuwu kɔƒe ne wò gakotoku fiae.
+- Na nuwo ƒe ʋuʋuɖi gaɖoɖowo, gaɖoɖowo ƒuƒoƒe ƒe explorer ate ŋu afia gaɖoɖo si le ame gbogbɔ ƒe ŋkume, gaɖoƒe ƒe dzesiwo, nuƒoƒowo, kple confirmations.
+- Na ɣaɣla gaɖoɖowo, gaɖoɖowo ƒuƒoƒe ƒe explorer ate ŋu afia be gaɖoɖo aɖe le eme, gake mate ŋu afia ɣaɣla ame si dɔe, ame si xɔe, gaƒoƒo, alo nya kpui ƒe nyawo o.
 
-## Nusiwo Womagblɔ Le Dutoƒo O
+## Nu Si Mèle Be Nàma Ɖe Ame Gbɔ O
 
-Mègatsɔ esiawo da ɖe dutoƒo dzeɖoɖo, hadomenyatakakadzraɖoƒe, alo nyawo yometiti me gbeɖe o:
+Mèɖoa nyawo siawo ɖe dzoɖoɖo me, social media dzi, alo issue tracker aɖe me kpɔ o:
 
-- Nuku ƒe nyagbe alo hayahaya ƒe nyagbe
-- Gazazã ƒe safui, ame ŋutɔ ƒe safui, alo gakotoku ƒe kɔpi
+- Gadzraɖoɖi nya alo nya si wɔa be woagatrɔ axɔe
+- Gazazãsafui, private key, alo gakotoku ƒe backup
 - Full Viewing Key
-- Screenshots siwo ɖe ga si susɔ, adrɛs blibowo, nuŋlɔɖiwo, QR codewo, alo exchange account ŋuti nyatakakawo fia
-- Ame ŋutɔ ƒe dzesidegbalẽviwo alo akɔntabubu gbugbɔgaxɔ ŋuti nuŋlɔɖiwo
+- Foto siwo fia gaƒoƒowo, gaɖoƒe ƒe dzesi blibowo, nya kpuiwo, QR codes, alo gatrɔƒe ƒe account ƒe nyawo
+- Ame ƒe dzesi ƒe agbalẽwo alo account ƒe gatrɔxɔ ƒe agbalẽwo
 
-Asitsatsa ƒe ID nye dutoƒo le kɔsɔkɔsɔa dzi, gake ate ŋu atsɔ wò kpekpeɖeŋubiabia la aƒo ƒu kple wò dzesideŋkɔ kokoko. Ne ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla le vevie la, ke gblɔe na kpekpeɖeŋunamɔ̃ si dzi nèka ɖo ko.
+Gaɖoɖo ƒe ID le ame gbogbɔ ƒe ŋkume le ɖoɖonu dzi, gake ate ŋu akaka wòƒe kpeɖeŋu ƒe biabia ɖe wò ameŋkume hã. Ne ɣaɣla le vevie na wò la, ma e na kpeɖeŋu ƒe mɔ si nèka ɖo dzi ko.
 
-## Nusiwo Kpekpeɖeŋunahawo Hiã
+## Nu Si Kpeɖeŋu Ƒe Ƒomeawo Hia
 
-Ne èle gakotoku, asitɔtrɔ, alo dɔwɔƒe ƒe kpekpeɖeŋu biam be woana kpekpeɖeŋu la, gblɔ nyatakaka suetɔ kekeake siwo ŋu viɖe le ko:
+Ne nèle gakotoku, gatrɔƒe, alo subɔsubɔ ƒe kpeɖeŋu biam la, ma nyawo si hiã ko:
 
 - Gakotoku alo subɔsubɔ ƒe ŋkɔ
-- App ƒe tɔtrɔ kple dɔwɔɖoɖo
-- Eɖanye asitsatsa la nye esi wokpɔ ta na, edze ƒã, alo le adrɛs siwo wokpɔ ta na kple esiwo me kɔ dome o
-- Transaction ID, ne èvo le ɖokuiwò me be yeamae
-- Ɣeyiɣi si woɖo ɖa si wobu
-- Nenye be gakotokua wɔ ɖeka bliboe
-- Fifia ƒe nɔnɔme si gakotokua ɖe fia
-- Vodada ƒe gbedasi tututu, kple ame ŋutɔ ƒe nyatakakawo ɖeɖe ɖa
-- Screenshot si me woɣla ga si susɔ, adrɛswo, nuŋlɔɖiwo, kple akɔntabubu ŋuti nyatakakawo
+- App ƒe version kple operating system
+- Ne gaɖoɖoa nye ɣaɣla, nuwo ƒe ʋuʋuɖi, alo ɣaɣla kple nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo dome
+- Gaɖoɖo ƒe ID, ne èdi be nàmae
+- Ɣeyiɣi si èdɔe ɖe eŋu kpuie
+- Ne gakotoku la sync blibo
+- Nɔnɔme si gakotoku la fia le fifia
+- Vodada mesaj tututɔ, esi woɖe nyawo siwo nye ame ŋutɔ ƒetɔ ɖa
+- Foto si woɣla gaƒoƒowo, gaɖoƒe ƒe dzesiwo, nya kpuiwo, kple account ƒe nyawo le eme
 
-Kpekpeɖeŋunahawo mehiã wò nuku ƒe nyagbe, gazazã ƒe safui, ame ŋutɔ ƒe safui, alo nukpɔkpɔ blibo ƒe safui o.
+Kpeɖeŋu ƒe ƒomeawo mehia wò gadzraɖoɖi nya, gazazãsafui, private key, alo full viewing key o.
 
-## Vodada Siwo Bɔ
+## Vodadawo Si Dzɔna Zi Geɖe
 
-- **Ne míetsɔe be gakotoku ɖesiaɖe si ŋlɔ ZEC ateŋu aɖoe ɖa le adzame.** Gakotoku geɖe siwo me gaku geɖe le doa alɔ Zcash ƒe akpa si me kɔ la ɖeɖeko. Kpɔ gakotokua ƒe tadeaguƒe siwo wodo alɔe ɖa hafi nàɖo ŋu ɖe eŋu be nànya ame ŋutɔ ƒe nyawo. The [Gakotokuwo](https://zechub.wiki/using-zcash/wallets) axaa yɔ esia na tiatia ɖesiaɖe.
-- **Gaɖeɖe yi adrɛs si me kɔ eye woagblẽ ga la ɖe afima.** Gaɖeɖea ŋutɔ nye dutoƒo, eye ʋuʋu ɖesiaɖe si ava emegbe tso adrɛs ma dzi hã nɔa dutoƒo. Kpɔ ga la ta ne wonya ɖo ko.
-- **Adzamenyawo wɔwɔ abe nane si nèʋuna zi ɖeka ene.** Asitsatsa ɖesiaɖe nye tiatia si to vovo. Shielded ɖoɖo ɖa egbea meɖea ga si nèxe le gaglãgbe si nèxe le kwasiɖa si va yi me la ɖa o.
-- **Adrɛs si me kɔ zazã ake na nusianu.** Esi wònye be dɔwɔna si me kɔ la dzena tegbee ta la, adrɛs ɖeka si wogbugbɔ zã la doa ka kple fexexe siwo me susu aɖeke menɔ be woatsɔ aƒo ka na wo o vivivi.
-- **Nudɔdɔ kple fetu si do xoxo.** Gakotoku siwo mexɔ ZIP 317 o ate ŋu aɖo flat fe xoxoa ɖa kokoko, si ate ŋu ana asitsatsa aɖe nanɔ anyi si dzi womeɖo kpee o.
-- **Resending before expiry.** Asitsatsa si le lalam ateŋu aɖo kpe edzi kokoko vaseɖe esime wòawu enu. Kpɔ ɣeyiɣi ƒe nuwuwu ƒe nɔnɔme ɖa hafi nàwɔ fexexe bubu.
+- **Bu be gakotoku sia ame si de ZEC ɖe eƒe xexlẽ me ate ŋu aɖoe kple ɣaɣla.** Multi-coin gakotoku aɖewo tše Zcash ƒe nuwo ƒe ʋuʋuɖi akpa ko. Kpɔ gakotoku la ƒe gaƒuƒoƒowo siwo wòte ŋu azã hafi nàɖo ŋu be wòanɔ ɣaɣla ƒe ɖoɖo me. [Wallets](https://zechub.wiki/using-zcash/wallets) axa sia fia esia na tiatia sia ame.
+- **Gaɖeɖe yi nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi dzi eye nètsɔ gaawo le afi ma.** Gaɖeɖe la ŋutɔ le ame gbogbɔ ƒe ŋkume, eye mɔɖoɖo sia ame si ava tso gaɖoƒe ƒe dzesi ma me hã anɔ ame gbogbɔ ƒe ŋkume. Ɖe gaawo ɣla le woƒe vaɖo megbe.
+- **Bu be ɣaɣla nye nu si nàtsɔ dze egɔme zi ɖeka ko.** Gaɖoɖo sia ame nye tiatia tɔxɛ. Ɣaɣla dɔɖoɖo egbe mate ŋu aɖe nuwo ƒe ʋuʋuɖi fexexe si nèwɔ le kwasiɖa si va yi me o.
+- **Zã nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi ɖeka na nu sia ame.** Elabena nuwo ƒe ʋuʋuɖi ƒe nɔwɔwo doa go tegbee, gaɖoƒe ƒe dzesi ɖeka si nèzã ake hena kakaa fexexewo ƒe kadodo kpuie kpuie, togbɔ be menɔ be woakaka wo o hã.
+- **Dɔ ga kple adzɔ si ƒe gɔmeɖeɖe va tsi.** Gakotokuwo siwo mexɔ ZIP 317 haɖe o ate ŋu agale adzɔ kpuie xoxo dɔm, si ate ŋu aɖe gaɖoɖo aɖe ɖe afi aɖe esi woɖe kpe ɖe eŋu o.
+- **Ɖo ga ake hafi nuwuwu.** Gaɖoɖo si le mɔ lalam ate ŋu akpɔ kpeɖeŋu va se ɖe esime eƒe ɣeyiɣi ava yi. Kpɔ nuwuwu ƒe nɔnɔme hafi nàwɔ fexexe bubu.
 
-## Ɖo ŋku edzi
+## Nya Vevi
 
-Taflatse de dzesii be mɔ si le dedie wu si dzi nàto azã ZEC enye asitsatsa siwo wokpɔ ta na zazã ɣesiaɣi si ame si ɖoe ɖa, amesi xɔe, gakotoku, kple dɔwɔƒea katã do alɔ wo. Gakotoku kple asitɔtrɔ aɖewo doa alɔe [adrɛs siwo wowɔ ɖekae](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), si ateŋu aƒo Zcash xɔla ƒomevi geɖewo nu ƒu ɖe adrɛs ɖeka me.
+Míeɖe wò ŋku ɖe edzi be mɔ si wɔa dedie wu na ZEC ƒe zazã nye ɣaɣla gaɖoɖowo ƒe zazã ɣesiaɣi si ame si dɔe, ame si xɔe, gakotoku, kple subɔsubɔ la katã tše wo ŋu. Gakotoku aɖewo kple gatrɔƒe aɖewo tše [unified addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), si ate ŋu atsɔ Zcash receiver ƒe ƒomevi vovovo ade gaɖoƒe ƒe dzesi ɖeka me.
 
-## Nunɔamesiwo
+## Nu Siwo Nàzã
 
-- [ZIP 203: Asitsatsa ƒe Nuwuwu](https://zips.z.cash/zip-0203)
-- [ZIP 317: Fetu si Woxena Ðe Amewo ƒe Ðoɖo Nu](https://zips.z.cash/zip-0317)
-- [Zcash ƒe ZIPwo](https://zips.z.cash/)
+- [ZIP 203: Gaɖoɖo Ƒe Nuwuwu](https://zips.z.cash/zip-0203)
+- [ZIP 317: Transfer Ƒe Adzɔ Si Nɔa Ŋutinya Nu](https://zips.z.cash/zip-0317)
+- [Zcash ZIPs](https://zips.z.cash/)
 
-## Axa Siwo Do Ƒome Kplii
+## Axa Siwo Kplɔe Ɖo
 
-- [Gakotokuwo](/using-zcash/wallets) - gakotoku siwo doa alɔ shielded sending, eye esiwo me kɔ ko
-- [Fexexe ŋuti nyatakakawo](/zcash-tech/payment-disclosures) - alesi dɔla ate ŋu aɖo kpe fexexe ɖeka si wokpɔ ta na ƒe nyatakaka tiatia aɖewo dzi
-- [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](/using-zcash/shielded-pools) - Sapling kple Orchard, ta siwo me wò ga si wokpɔ ta na la le
-- [Nuŋlɔɖiwo](/using-zcash/memos) - gbedasi siwo wotsɔ nya ɣaɣlawo ŋlɔe siwo ate ŋu azɔ mɔ kple asitsatsa si wokpɔ ta na
-- [Adrɛs Siwo Wotsɔna Ðoa Nui Siwo Me Kɔkɔe](/using-zcash/transparent-exchange-addresses) - TEX adrɛswo kple nusita exchangewo zãa wo
-- [Vidzikpɔkpɔ ƒe Asitɔtrɔ](/using-zcash/custodial-exchanges) - si exchanges doa alɔ shielded gaɖeɖe
+- [Gakotokuwo](/using-zcash/wallets) - gakotoku kae tše ɣaɣla dɔɖoɖo, eye gakotoku kae nye nuwo ƒe ʋuʋuɖi ko
+- [Fexexe ƒe ɖeɖefiawo](/zcash-tech/payment-disclosures) - ale si ame si dɔe ate ŋu aɖe ɖase na ɣaɣla fexexe ɖeka ƒe nyawo siwo wòtia
+- [Ɣaɣla Gaƒuƒoƒowo](/using-zcash/shielded-pools) - Sapling kple Orchard, gaƒuƒoƒowo siwo me wò ɣaɣla gaawo le
+- [Nya Kpuiwo](/using-zcash/memos) - mesaj siwo woŋlɔ ɣla eye wòate ŋu anɔ ɣaɣla gaɖoɖo aɖe kplɔm
+- [Nuwo Ƒe Ʋuʋuɖi Gatrɔƒe Ƒe Gaɖoƒe Ƒe Dzesiwo](/using-zcash/transparent-exchange-addresses) - TEX gaɖoƒe ƒe dzesiwo kple nu si ta gatrɔƒewo zãa wo
+- [Asikplɔ-dzralá Gatrɔƒewo](/using-zcash/custodial-exchanges) - gatrɔƒe kae tše ɣaɣla gaɖeɖewo
 
 ## ZEC yi ZAT ƒe Trɔla

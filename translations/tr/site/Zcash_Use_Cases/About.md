@@ -47,6 +47,9 @@ Ortak fonları tutmak için shielded adresler kullanın ve bakiyelerin ve işlem
 ###  [ABD'de Kâr Amacı Gütmeyen Bir Kuruluş Olarak Özel Bağışları Kabul Edin](/zcash-use-cases/accept-private-donations-as-a-us-nonprofit)
 501(c)(3) olarak shielded ZEC kabul edin ve yine de bağışçılara ihtiyaç duydukları makbuzları ve IRS formlarını verin
 
+###  [Nereye Bağış Yapılır ZEC](/zcash-use-cases/where-to-donate-zec)
+ZEC kabul eden ve bunlardan hangilerinin shielded bağışları kabul ettiğini öğrenin
+
 ###  [Gazeteciler İçin Gizlilik Kurulumu](/zcash-use-cases/journalist-privacy-setup)   
 Tüm işlemler için shielded adresler kullanın ve izlenebilir ödemelerden kaçınarak kaynaklarınızı koruyun. Güvenli iletişim için memo alanlarını dikkatli kullanın
 

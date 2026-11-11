@@ -1,185 +1,185 @@
-# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="developer icon"/> Pay for AI Services Privately with Shielded ZEC
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="developer icon"/> Ƒe AI Dɔwɔƒewo ƒe Fexexe [Pay] Le Ɣaɣla [Shielded] ZEC me
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Gɔmedzela - 10 min
+  Gɔmedzedzila - 10 min
 </span>
 
 
 ## TL;DR
 
-- **NanoGPT** xɔa shielded ZEC tẽ, kple akɔnta aɖeke kple email aɖeke o
-- Nu suetɔ kekeake si woatsɔ akpe ɖe eŋue nye **$0.10**, eyata àte ŋu adoe kpɔ be kotoku me tɔtrɔ hã
-- Gaxɔgbalẽvi la ɖina le abe **sɛkɛnd 30** me, le kpeɖodzi gbãtɔ dzi
-- Le dɔwɔna siwo mexɔa ZEC o gome la, zã **CrossPay** nàtsɔ azã ZEC si wokpɔ ta na eye nàna woaxe wo le USDC me
-- Nusi wu enu ɖe ​​kɔsɔkɔsɔ dzi nɔ te ɖe **ta si me wò ZEC le** dzi, eye screen la megblɔnɛ na wò gbeɖe o
+- **NanoGPT** xɔ ɣaɣla ZEC tsitotsito, eye akɔnt kple email mele mkpa o
+- Kaƒomɔ ƒe gaɖoɖo [top up] si meŋu wu wòate ŋu awɔe lae nye **$0.10**, ale wòate ŋu ado kpɔe kple ga sue aɖe
+- Wɔde credit le ɣeyiɣi si le **sekondi 30** me, le ƒoɖiɖi gbãtɔ dzi
+- Na dɔwɔƒe siwo mexɔ ZEC o la, zã **CrossPay** nàtsɔ afɔ ɣaɣla ZEC eye woaxɔ wòƒe fexexe le USDC me
+- Nu si va le ɖoɖonu [chain] dzi la dze **gaƒuƒoƒo [pool] si me wòƒe ZEC le** ŋu, eye screen la megblɔa na wò gbeɖe o
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ame kae wòwɔe na?
 
-- Amesiame si medi be woatsɔ AI ƒe nudɔdɔ si wobla ɖe yewoƒe ŋkɔ ŋu o
-- Dɔwɔlawo ƒe fexexe ɖe nutsotso ta dɔwɔƒe ƒe agbalẽvi manɔmee
-- Ame siwo le dukɔ siwo me ga si woxena na AI dɔwɔƒewo do kpo nu le kaɖi dzi
-- Ame sia ame si adi be yematsɔ e-mail ade asi na ame aɖe be wòate kpɔɖeŋu aɖe kpɔ o
-
-<br/>
-
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
-
-Zi geɖe la, AI ƒe fexexe fia kaɖi, e-mail, kple akɔnta. Ema blaa nya ɖesiaɖe si nàŋlɔ ɖe wò se nu, eye fexexe ƒe dɔwɔƒea hã kpɔae.
-
-Wobui be crypto aɖɔ esia ɖo, gake mɔfiame akpa gãtɔ do xoxo. Subɔsubɔhawo trɔa nusi woxɔna, eye azɔlizɔzɔ si woŋlɔ ƒe ɖeka enye sia ana nàto mɔ si megawɔa dɔ o dzi.
+- Ame sia ame si mefia be AI ƒe subscription nakɔ ɖe eƒe ŋkɔ ŋu o
+- Mɔ̃ ƒe ɖoɖoŋlɔlawo [developers] siwo le inference ƒe fexexe wɔm kple corporate card manɔmee
+- Ame siwo le dukɔ siwo me card fexexewo na AI dɔwɔƒewo medzea o
+- Ame sia ame si wòfia be yemaɖe email aɖe na be wòakpɔ model aɖe gbɔ o
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Why Zcash?
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Kuxi La
 
-Fexexe si wokpɔ ta na la ɣlaa amesi ɖoe ɖa, amesi xɔe kple ga homea. Woxea fe na subɔsubɔdɔa, eye ame aɖeke si le kɔsɔkɔsɔa kpɔm la menyaa amesi xe fe alo ga home si wòxe o.
+AI ƒe fexexe zi geɖe hia card, email, kple akɔnt. Esia ɖoa prompt sia prompt si nèŋlɔ la katã kple wòƒe seŋuŋkɔ, eye fexexe ƒe amedzra la hã kpɔea.
 
-Ne èxe **tso** ga siwo wokpɔ ta na ko hafi ema anɔ anyi. Axa sia ku ɖe ɣeyiɣi si wòalé ɖe te kple ɣeyiɣi si me wòalé ɖe te ŋu koŋ.
-
-<br/>
-
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
-
-- ZEC le **shielded** ƒe dadasɔ me
-- Gakotoku si ate ŋu aɖoe ɖe adrɛs ɖeka dzi. Azɔlizɔzɔ sia zãa **Noir Wallet**, si nye web-kpɔkplɔ ƒe kpeɖeŋutɔ, eyata sisi bliboa nɔa fesre ɖeka me. Zkool kple Zodl wɔa dɔ le mɔ ɖeka nu
-- Anɔ abe $1 ene be woatsɔ akplɔe ɖo
-
-> **Coming from an exchange?** Exchange akpa gãtɔ, siwo dome Binance hã le, ɖea ZEC ɖe **adrɛs siwo me kɔ** dzi ko, eye womaxɔ a `u1...` adrɛs abe teƒe si woayi ene. Ðe ga le wò ŋutɔ wò adrɛs si me kɔ la dzi gbã, tsɔe ta le wò gakotoku me, emegbe nàxee tso ga si susɔ si wokpɔ ta na la me.
+Crypto ele be wòaɖe kuxi sia ɖa, gake mɔfiame geɖewo va xoxo. Dɔwɔƒewo trɔa nu siwo woxɔ, eye mɔfiame si woŋlɔ ƒe sia ƒe si va yi la aɖo wò le mɔ si megawɔ o dzi.
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Route 1: Pay NanoGPT directly
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Nukatae Zcash?
 
-[NanoGPT ƒe ŋkɔ](https://nano-gpt.com/) na wò 200+ ƒe kpɔɖeŋuwo, siwo dometɔ aɖewoe nye GPT, Claude, Gemini kple nɔnɔmetata ƒe kpɔɖeŋuwo, eye wòxɔa ZEC le dzɔdzɔme nu.
+Ɣaɣla fexexe ɖea ame si dɔ ga la, ame si xɔe la, kple ga home la ɣa. Dɔwɔƒe la xɔa fexexe, eye ame aɖeke si le ɖoɖonu la kpɔm meanya ame si wɔ fexexe la alo ga home si wòƒe o.
 
-### Afɔɖeɖe 1: Ʋui. Womede asi agbalẽ te o
+Esia blibo ko ne nèfɔ ga **tso** ɣaɣla ga siwo le asiwò me. Axalã sia gblɔa ɣeyiɣi si me esia le nyateƒe kple ɣeyiɣi si me menye nyateƒe o.
 
-Yi nano-gpt.com eye nàdze eŋudɔwɔwɔ gɔme. Session ɖesiaɖe nye ŋkɔmaɖemaɖe le gɔmedzedzea me eye app la ŋutɔ gblɔna nenema: *"Èle NanoGPT zãm xoxo le adzame."* Akɔntabubu aɖeke meli woawɔ o eye email aɖeke meli woatsɔ ade asi o.
+<br/>
 
-### Afɔɖeɖe 2: Dzra dzesi si woatsɔ age ɖe eme ɖo gbã
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Nu Si Wòhia
 
-Hafi nàde ga eme la, ʋu **Nɔnɔmewo** eye nàwɔ dzesi si woatsɔ age ɖe eme, emegbe nàdzrae ɖo ɖe teƒe aɖe si le dedie.
+- ZEC le ɣaɣla balance me
+- Gakotoku [wallet] si ate ŋu aɖo ga ɖe gaɖoƒe ƒe dzesi [address] si woƒoa wɔ kple mɔ geɖe dzi. Mɔfiame sia zãa **Noir Wallet**, browser ƒe extension aɖe, ale be mɔ la katã nali le fesi ɖeka me. Zkool kple Zodl hã wɔa dɔ nenema
+- Ga si le $1 ƒe teƒe be nàte ŋu adze ɖe eŋu
 
-> **Afɔɖeɖe sia kpɔa wò ga ta.** Ga si susɔ si womeyɔ o la nɔa wò web-browser ƒe nyatakaka siwo le teƒea me. Klɔ wò cookies me dzesi si nèdzra ɖo manɔmee eye ga si susɔ la nu yi, eye akɔntabubu aɖeke meli si dzi nàxɔe le o. Wɔ esia hafi nàde ga eme, ke menye le ema megbe o.
+> **Ètso gatrɔƒe [exchange] aɖe gbɔ oa?** Gatrɔƒe geɖe, siwo me Binance hã le, ɖea ZEC ɖe gaɖoƒe siwo ƒe nuwo ƒe ʋuʋuɖi [transparent] koe dzi, eye womaxɔ `u1...` gaɖoƒe ƒe dzesi abe afi si woaɖo ga ɖo ene o. Ɖe ga ɖe wò ŋutɔ ƒe nuwo ƒe ʋuʋuɖi gaɖoƒe dzi gbã, ɣlae le wò gakotoku me, ekema nàfɔ ga tso ɣaɣla balance me.
 
-### Afɔɖeɖe 3: Tsɔ dadasɔ kpee
+<br/>
 
-Ʋu **Balance**, tia **Custom**, eye nàŋlɔ ga home aɖe. Nu suetɔ kekeakee nye **$0.10** eye esi sɔ gbɔ wue nye $5,000. NanoGPT gblɔa nusi wòƒlena na wò, abe GPT 5.5 ƒe nyabiase 12 alo nɔnɔmetata 18 ene ɖe $1 nu.
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Mɔ 1: Ƒe NanoGPT ƒe fexexe tsitotsito
+
+[NanoGPT](https://nano-gpt.com/) naa model 200+ na wò, siwo me GPT, Claude, Gemini, kple aworan modelwo le, eye wòxɔa ZEC le eŋutɔ me.
+
+### Afɔ 1: Ʋu eŋu. Ŋkɔŋlɔɖeɖe mele o
+
+Yi nano-gpt.com eye nàdze eŋu zãzã. Session sia session le ɣaɣla me le gɔmedzedze me, eye app la ŋutɔ gblɔe be: *"Èle NanoGPT zãm le ɣaɣla me xoxo."* Akɔnt aɖeke mele be nàwɔ o, eye email aɖeke mele be nàɖe na o.
+
+### Afɔ 2: Ɖo dzesi ƒe token da ɖe aga gbã
+
+Hafi nàtsɔ ga aɖe aɖo eme la, ʋu **Settings** eye nàwɔ dzesiɖoɖe ƒe token, ekema nàda ɖe afi dedie aɖe.
+
+> **Afɔ sia ɖea wòƒe ga dzi.** Anonymous balance le wò browser ƒe local data me. Ne nàtso wò cookies me hafi token si èda ɖe aga mele asiwò o la, balance la bu, eye akɔnt aɖeke mele be woatsɔ aɖe gbɔe o. Wɔ esia hafi nàɖo ga eme, menye emegbe o.
+
+### Afɔ 3: Tsɔ balance kpe ɖe eŋu
+
+Ʋu **Balance**, tia **Custom**, eye nàŋlɔ ga home aɖe. Ga si meŋu wu wòate ŋu awɔe lae nye **$0.10** eye ga si wɔna wu lae nye $5,000. NanoGPT gblɔa nu si wòate ŋu aƒle, abe GPT 5.5 prompt 12 alo aworan 18 kple $1 ene.
 
 ![NanoGPT add balance screen showing the custom amount and the ten cent minimum](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
 
-### Afɔɖeɖe 4: Tia Zcash
+### Afɔ 4: Tia Zcash
 
-Tia **Digital gawo**, emegbe **Zcash** tso grid la me.
+Tia **Digital currencies**, ekema nàtia **Zcash** tso grid la me.
 
-Àxɔ QR code, fexexe ƒe adrɛs, kple **transfer minimum** le ZEC me ɖe ga home si nètia ta. Woɖoa xexlẽdzesi ma ƒe asi le ɣeyiɣi si me axaa le agba me.
+Àxɔ QR code, fexexe ƒe gaɖoƒe, kple **transfer minimum** le ZEC me na ga home si ètia. Wode asi na numera sia ƒe home le ɣeyiɣi si me axa la ʋu.
 
 ![NanoGPT Zcash deposit screen with the QR code, unified address and transfer minimum](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
 
-### Afɔɖeɖe 5: Ðoe ɖa tso wò gakotoku me
+### Afɔ 5: Ɖo ga tso wò gakotoku me
 
-Ŋlɔ adrɛs la ɖe wò gakotokua me, ŋlɔ ga homea ɖe eme, eye nàɖoe ɖa. Netwɔƒe ƒe fetu anɔ abe **0.00015 ZEC** ene.
+Kɔpi gaɖoƒe la ɖe wò gakotoku me, ŋlɔ ga home la, eye nàɖo ga. Network adzɔ [fee] la le **0.00015 ZEC** ƒe teƒe.
 
-> **Ðoe ɖa vie wu esi le sue wu.** Woɖoa asi si woyɔ la ne axaa tsɔ agba eye ZEC ʋu hafi wò asitsatsa ɖo kpe edzi. Nu suetɔ kekeake ɖoɖo ɖe anyigba **$0.99** ɖe $1.00 teƒe le dodokpɔ me. Dɔdɔ si wu nenema vie la ɖiɖi $1.17 ɖe $1 si woyɔna be $1 ma ke ta, elabena NanoGPT tsɔa nusi nèɖona ɖa ŋutɔŋutɔ ƒe kafukafu.
+> **Ɖo ga si wu minimum la vie.** Wode quote la ƒe home le ɣeyiɣi si me axa la ʋu, eye ZEC ate ŋu atrɔ hafi wòƒe gaɖoɖo [transaction] na ƒoɖiɖi. Ɖoɖo ƒe tututu ɖe minimum la dzi na **$0.99** va ɖo teƒe $1.00 le dodokpɔ me. Ɖoɖo si wu eŋu vie na $1.17 va ɖo na nominal $1 ma ke, elabena NanoGPT na credit na nu si nèɖo vavã.
 
 ![Noir Wallet send screen with the NanoGPT address pasted in and the network fee shown](/content-images/noir-send-6380a5f4ef.webp)
 
-### Afɔɖeɖe 6: Lala abe sɛkɛnd 30 ene
+### Afɔ 6: Lala le sekondi 30 ƒe teƒe
 
-Wò gakotokua aɖe asitsatsa si le lalam afia, emegbe aɖo kpe edzi. NanoGPT tsɔa ga si susɔ la dea **kpeɖodzi gbãtɔ** dzi, eyata mehiã be nàlala etɔ̃awo katã o.
+Wò gakotoku afia gaɖoɖo la be ele lala me, ekema wòanɔ ƒoɖiɖim. NanoGPT naa balance la credit le **ƒoɖiɖi gbãtɔ** dzi, ale menahia be nàlala na etɔ̃awo katã o.
 
 ![Wallet confirmation showing the amount sent and the transaction hash](/content-images/noir-sent-2d476e94b9.webp)
 
-Nusi susɔ la adze eye àte ŋu azãe enumake.
+Balance la ɖea afia eye àte ŋu azãe enumake.
 
 ![NanoGPT balance page showing the credited amount and deposit history](/content-images/nanogpt-balance-0b0c0c86ba.webp)
 
 <br/>
 
-## <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="send icon"/> Route 2: Services that do not take ZEC
+## <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="send icon"/> Mɔ 2: Dɔwɔƒe siwo mexɔ ZEC o
 
-AI dɔwɔƒe akpa gãtɔ mexɔa ZEC o. **Venice.ai** kple **OpenRouter** siaa xɔa USDC ɖe eteƒe, eye OpenRouter na nètia kɔsɔkɔsɔ si dzi gaxɔgbalẽvia ɖo.
+AI dɔwɔƒe geɖe mexɔ ZEC o. **Venice.ai** kple **OpenRouter** xɔa USDC ɖe eƒe teƒe, eye OpenRouter na wòate ŋu atia ɖoɖonu si checkout la akpɔ fexexe le eŋu.
 
-Le amesiawo gome la, zã **CrossPay** le [Zodl](/zcash-organizations/zodl). Èzãa ZEC si wokpɔ ta na eye woxea fe na amesi xɔe la le nunɔamesi si wobia la me, si woɖona to NEAR Intents dzi ɖɔliɖɔli si le titina manɔmee eye KYC manɔmee.
+Na esiawo la, zã **CrossPay** le [Zodl](/zcash-organizations/zodl) me. Èfɔ ɣaɣla ZEC eye ame si xɔe la kpɔ fexexe le asset si wobia me, woato NEAR Intents me, centralised gatrɔƒe kple KYC mele o.
 
-1. Xɔ subɔsubɔdɔa ƒe fexexe ƒe adrɛs kple nunɔamesi kple kɔsɔkɔsɔ si wòkpɔ mɔ na, ​​le kpɔɖeŋu me USDC le Base dzi
-2. Ʋu Zodl eye nàtia **CrossPay** .
-3. Ŋlɔ adrɛs ma, tia nunɔamesi si dɔwɔƒea di, eye nàŋlɔ ga homea
-4. Ðoe ɖa tso wò ga si susɔ si nèkpɔ ta na la me
+1. Xɔ dɔwɔƒe la ƒe fexexe gaɖoƒe, asset, kple ɖoɖonu si wòle be wòaxɔ, abe USDC le Base ene
+2. Ʋu Zodl eye nàtia **CrossPay**
+3. Ŋlɔ gaɖoƒe ma, tia asset si dɔwɔƒe la di, eye nàŋlɔ ga home la
+4. Ɖo ga tso wò ɣaɣla balance me
 
-Wò ZEC aŋgbawo le akpoxɔnu me. Subɔsubɔha la kpɔa USDC ƒe fexexe dzro aɖe va ɖona eye mesrɔ̃nɛ gbeɖe be edze egɔme abe ZEC ene o.
+Wòƒe ZEC doa le ɣaɣla me. Dɔwɔƒe la kpɔa USDC fexexe mama aɖe si va ɖo eye menya be wòdze egɔme abe ZEC ene o.
 
-> Swap afɔ la dzena le teƒe si woɖo tae ƒe kɔsɔkɔsɔa dzi, eyata USDC ƒe fexexe ŋutɔ nye dutoƒo abe USDC ƒe fexexe bubu ɖesiaɖe ene. Nusi nɔa adzame enye Zcash ƒe akpa kple kadodo si le wo ame evea dome.
+> Ɖɔli ɖɔli [swap] ƒe akpa la doa le afi si woɖo ga ɖo ƒe ɖoɖonu dzi, eyata USDC fexexe ŋutɔ le du me abe USDC fexexe bubu siawo katã ene. Nu si nɔ ɣaɣla me lae nye Zcash ƒe akpa kple kadodo si le wo eve la dome.
 
 <br/>
 
-## <img src="/content-images/triangle-exclamation-7a4c4150be.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> What is revealed at each step
+## <img src="/content-images/triangle-exclamation-7a4c4150be.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Nu si woɖea fia le afɔ sia afɔ me
 
-Esiae nye akpa si mɔfiala akpa gãtɔ tia.
+Eyae nye akpa si mɔfiame geɖe dzea egbe.
 
-| Nukae dzɔna | Nusi subɔsubɔdɔa srɔ̃na | Nusi yia edzi le kɔsɔkɔsɔ me |
+| Nu si dzɔ | Nu si dɔwɔƒe la nya | Nu si yi ɖoɖonu dzi |
 |---|---|---|
-| Browsing kple biabia | Naneke o. Akɔnta aɖeke meli o, email aɖeke meli o | Naneke meli o |
-| Wotsɔa gaxɔgbalẽvi ƒe adrɛs naa | Naneke meli o | Naneke meli o |
-| Èxea fe **tso Sapling** | Adrɛs si wotsɔ de gaxɔ me si nèzã | Naneke o. Akpoxɔnu na akpoxɔnu |
-| Èxea fe **tso Ironwood** | Nenema ke | **Agbɔsɔsɔ kple block ƒe kɔkɔme** |
-| Èxea fe **tso adrɛs si me kɔ** | Nenema ke | Ga home kple wò t-adrɛs |
-| Nusiwo le etame dometɔ ɖesiaɖe | Wò IP, negbe ɖe nèzã Tor alo VPN | Meku ɖe eŋu o |
+| Kpɔkpɔ kple prompt wɔwɔ | Nusi kee o. Akɔnt mele o, email mele o | Nusi kee o |
+| Wona deposit gaɖoƒe | Nusi kee o | Nusi kee o |
+| Èfɔ ga **tso Sapling me** | Deposit gaɖoƒe si èzã | Nusi kee o. Ɣaɣla tso ɣaɣla me |
+| Èfɔ ga **tso Ironwood me** | Nenema | **Ga home kple gaɖoɖowo ƒuƒoƒe [block] ƒe kɔkɔme** |
+| Èfɔ ga **tso nuwo ƒe ʋuʋuɖi gaɖoƒe aɖe me** | Nenema | Ga home la kple wò t-address |
+| Nu sia nu si le dzi | Wò IP, ne mèzã Tor alo VPN o | Mele be wòaɖe eme o |
 
-### Nusita ta la le vevie
+### Nukatae gaƒuƒoƒo la le vevie
 
-NanoGPT ƒe gadzraɖoƒe ƒe adrɛs nye adrɛs si wowɔ ɖekae. Decoding ɖeka si woɖe ɖe go le August 2026 me ɖea receiver eve pɛpɛpɛ fiana: **Sapling** kple **Orchard**.
+NanoGPT ƒe deposit gaɖoƒe nye unified address. Ɖeɖe esi woɖe tso address si woɖe le August 2026 me la fia receiver eve pɛ: **Sapling** kple **Orchard**.
 
-Esi wònye be ƒe... [Ironwood](/zcash-tech/ironwood) upgrade activated on 28 July 2026, Orchard nye gazazã ɖeɖeko eye asixɔxɔ yeye aɖeke mateŋu age ɖe eme o. Ema gblẽ **Sapling ɖi abe amesi ko xɔa fetu ate ŋu adze anyi ŋutɔŋutɔ** ene.
+Tso esi [Ironwood](/zcash-tech/ironwood) upgrade la dze egɔme le 28 July 2026 la, Orchard nye nu si woate ŋu afɔ ga tso eme koe, eye value yeye aɖeke mate ŋu age ɖe eme o. Esia wɔ be **Sapling koe nye receiver si me fexexe aɖe ate ŋu adze vavã**.
 
-Eyata ne wò ZEC le Sapling xoxo la, fexexea nye Sapling na Sapling eye naneke tso eŋu mele dutoƒo o. Gake ne èʋu yi Ironwood la, fexexe ʋua asixɔxɔ le ta aɖe ƒe liƒo dzi, eye [ʋuƒo si wotsɔ trɔa asi le nu ŋu](/zcash-tech/the-turnstile) taa ga home kple kɔkɔme togbɔ be ame si ɖoe ɖa kple amesi xɔe la nɔa ɣaɣla hã.
+Eyata ne wòƒe ZEC le Sapling me xoxo la, fexexe la tso Sapling yi Sapling eye nu aɖeke tso eŋu mele du me o. Gake ne ètrɔ yi Ironwood la, fexexe wɔa value ƒe zɔzɔ tso gaƒuƒoƒo aɖe yi bubu me, eye [the turnstile](/zcash-tech/the-turnstile) ɖea ga home la kple kɔkɔme la fia togbɔ be ame si dɔe kple ame si xɔe la nɔ ɣaɣla me hã.
 
-Screen-awo dzena ɖeka le mɔ eveawo siaa nu. Sapling ƒe ga sue aɖe léle ɖe asi hena fexexe nye eɖɔɖɔɖo bɔbɔetɔ kekeake.
-
-<br/>
-
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
-
-- Gadede eme hafi adzra dzesi si wotsɔ de asi na amewo ɖo, emegbe nàkɔ cookies ŋu
-- Ðo ɖa pɛpɛpɛ transfer minimum kple anyidzedze cent kpuie
-- Agbagbadzedze be woaɖe asi le asitɔtrɔ aɖe ŋu tẽ ayi a `u1...` adrɛs
-- Ne míetsɔe be fexexea nye ame ŋutɔ tɔ evɔ màlé ŋku ɖe ta si me nèzã ga tsoe ŋu o
-- Fexexe ɖe kadodo si sɔ dzi esime womenɔ nya bliboa kpɔm o
+Screenawo kpɔa ɖeka le mɔ evea me. Be nàkpɔ Sapling balance sue aɖe ɖe aga na fexexewo nye nu si le bɔbɔe wu.
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Vodadawo Si Wòle Be Nàƒo Nu Tso
 
-Ate ŋu:
-
-- Zã frontier AI models account, email alo card manɔmee
-- Fetu le ZEC si wotsɔ akpoxɔnu wɔe me eye nànya nusi tututu ema wɔna kple nusi meɣlana o
-- Miɖo dɔwɔƒe siwo mese Zcash ŋkɔ kpɔ o gbɔ, to CrossPay dzi
-
-<br/>
-
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
-
-- [Ironwood](/zcash-tech/ironwood) - nusitae ta si me wò ga bɔbɔ nɔna la trɔ
-- [Turnstile ƒe ʋuƒoa](/zcash-tech/the-turnstile) - nusi va zua dutoƒo ne asixɔxɔ tso tadeaguƒewo
-- [Gakotokuwo](/using-zcash/wallets) - gakotoku siwo dzi wodzrana ɖo
-- [ZODL](/zcash-organizations/zodl) - gakotoku si le megbe na CrossPay
+- Gaɖoɖo hafi nàda sign-in token ɖe aga, ekema nàtso cookies me
+- Gaɖoɖo ƒe tututu ɖe transfer minimum la dzi eye cent ɖeka meva ɖo o
+- Nàdi be yemaɖe ga tsitotsito tso gatrɔƒe aɖe me ayi `u1...` gaɖoƒe dzi
+- Nàbu be fexexe la le ɣaɣla me ne mèkpɔ gaƒuƒoƒo si me nèfɔ ga tso o
+- Fexexe le connection mama aɖe dzi ne ta vevi lae nye be womanya wò o
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Nunya Si Èkpɔ
 
-**Afɔɖeɖe 1 le 1 me**
+Àte ŋu:
 
-Miexe fe ɖe AI subɔsubɔdɔ aɖe si ŋu ZEC si wotsɔ akpoxɔnu le ta eye mienya nusi wòɖe fia.
+- Azã frontier AI modelwo manɔ akɔnt, email, alo card aɖeke me o
+- Afɔ ga le ɣaɣla ZEC me eye nànya nyuie nu si esia ɣla kple nu si meɣla o
+- Aɖo ɖe dɔwɔƒe siwo mese Zcash ŋkɔ kpɔ o gbɔ, to CrossPay me
 
 <br/>
 
-## Afɔɖeɖe si kplɔe ɖo
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Nu Siwo Kɔ ɖe Eŋu
 
-- [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Kadodo Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity)
+- [Ironwood](/zcash-tech/ironwood) - nukatae gaƒuƒoƒo si me wòƒe ga le la trɔ
+- [The Turnstile](/zcash-tech/the-turnstile) - nu si va le du me ne value tso gaƒuƒoƒo aɖe yi bubu me
+- [Gakotokuwɔwo](/using-zcash/wallets) - gakotokuwɔ kaewo wɔnɔa dzi ɖaa
+- [ZODL](/zcash-organizations/zodl) - gakotoku si le CrossPay megbe
+
+<br/>
+
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Ŋgɔyiyi
+
+**Afɔ 1 tso 1 me**
+
+Èwɔ AI dɔwɔƒe ƒe fexexe kple ɣaɣla ZEC eye ènya nu si wòɖe fia.
+
+<br/>
+
+## Afɔ Si Kplɔe ɖo
+
+- [Ɖo Ga Manɔ Wò Ŋkɔ Kadodo Me](/zcash-use-cases/send-money-without-linking-identity)
 
 <br/>

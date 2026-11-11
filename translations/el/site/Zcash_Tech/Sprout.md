@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Sprout.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Sprout
@@ -18,19 +18,19 @@
 
 Το Sprout δημιούργησε δύο είδη διευθύνσεων. Οι διαφανείς διευθύνσεις (t-addresses) λειτουργούν όπως το Bitcoin, με τις λεπτομέρειες ορατές στο δημόσιο καθολικό. Οι θωρακισμένες διευθύνσεις (z-addresses) στέλνουν κεφάλαια στο [θωρακισμένο pool](../using-zcash/shielded-pools) του Sprout, όπου ο αποστολέας, ο παραλήπτης και το ποσό παραμένουν κρυμμένα. Το τέχνασμα είναι το [zk-SNARKs](../zcash-tech/zk-snarks), αποδείξεις μηδενικής γνώσης που επιτρέπουν σε μια συναλλαγή να δείχνει ότι είναι έγκυρη, χωρίς διπλή δαπάνη και με υπόλοιπα που συμφωνούν, χωρίς να αποκαλύπτει καμία από τις λεπτομέρειες. Το Sprout ήταν η πρώτη φορά που αυτό λειτούργησε σε παραγωγή σε ένα ενεργό κρυπτονόμισμα.
 
-![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
+![Οι διαφανείς συναλλαγές αποκαλύπτουν τον αποστολέα, τον δέκτη και το ποσό, ενώ οι θωρακισμένες συναλλαγές Sprout κρύβουν και τα τρία αλλά παραμένουν επαληθεύσιμες](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
 ## Η Τελετή
 
 Το zk-SNARKs στο Sprout χρειαζόταν ένα σύνολο δημόσιων παραμέτρων και η ασφαλής δημιουργία τους απαιτούσε μια εφάπαξ ρύθμιση που ονομαζόταν Τελετή. Έξι συμμετέχοντες σε ξεχωριστές, μακρινές τοποθεσίες δημιούργησαν ο καθένας ένα μυστικό τμήμα, που ονομαζόταν toxic waste. Αν κάποιος επανασυναρμολογούσε ποτέ όλα τα τμήματα, θα μπορούσε να πλαστογραφήσει ZEC από το τίποτα. Ο σχεδιασμός μετέτρεψε αυτόν τον κίνδυνο σε έναν απλό κανόνα: εφόσον τουλάχιστον ένας συμμετέχων κατέστρεφε το τμήμα του, το πλήρες μυστικό δεν θα μπορούσε ποτέ να ανακατασκευαστεί, άρα η παραχάραξη θα παρέμενε αδύνατη. Στους συμμετέχοντες που έχουν κατονομαστεί δημόσια περιλαμβάνονται οι Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd και Derek Hinch της NCC Group. Ένας συμμετέχων επέλεξε να παραμείνει ανώνυμος.
 
-![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
+![Η Τελετή: έξι συμμετέχοντες δημιουργούν ιδιωτικά τμήματα και στη συνέχεια καταστρέφουν τα τοξικά απόβλητα, αφήνοντας μόνο τις δημόσιες παραμέτρους Sprout](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Η προέλευση
 
 Το Sprout είναι η βάση πάνω στην οποία χτίζεται κάθε μεταγενέστερη αλλαγή. Όταν ο μηχανισμός αναβάθμισης δικτύου έφτασε με το Overwinter, χαρακτήρισε τους αρχικούς κανόνες ως consensus branch id 0, που απλώς σημαίνει ότι δεν έχει εφαρμοστεί ακόμη καμία αναβάθμιση. Όλα όσα ακολούθησαν (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 και έπειτα) βρίσκονται στην αλυσίδα που ξεκίνησε το Sprout. Η κυκλοφορία ανακοινώθηκε τον Αύγουστο του 2016 για γένεση στις 28 Οκτωβρίου, η Τελετή πραγματοποιήθηκε τις προηγούμενες εβδομάδες και η ενσωματωμένη χρονική σήμανση του μπλοκ γένεσης αναγράφει 28 Οκτωβρίου 2016, στις 07:56 UTC.
 
-![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
+![Χρονογραμμή από την ανακοίνωση του Αυγούστου 2016 έως την Τελετή παραμέτρων και την κυκλοφορία του Sprout στις 28 Οκτωβρίου 2016](/content-images/sprout-timeline-348766352a.webp)
 
 ## Γλωσσάρι
 

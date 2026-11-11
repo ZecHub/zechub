@@ -2,140 +2,140 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# FROST y custodia con umbral para ZEC blindado
+# FROST y custodia de umbral [threshold custody] para ZEC blindado [shielded]
 
-> Para conocer todos los detalles criptográficos del protocolo FROST, consulta la [página técnica de FROST](FROST.md).
+> Para conocer todos los detalles criptográficos del protocolo FROST, consulta la página técnica de [FROST](FROST.md).
 
-La custodia con umbral FROST sigue apareciendo en las conversaciones sobre Zcash — fue la categoría principal del ZecHub Hackathon 2026 — pero el concepto no siempre se explica en un lenguaje sencillo. Esta página cubre qué significa, cuándo realmente la necesitas, las compensaciones, y qué herramientas la admiten hoy.
+La custodia de umbral FROST sigue surgiendo en las conversaciones sobre Zcash — fue la categoría principal en el Hackathon 2026 de ZecHub — pero el concepto no siempre se explica en lenguaje sencillo. Esta página abarca qué significa, cuándo realmente la necesitas, las ventajas y desventajas, y qué herramientas la admiten hoy.
 
 ---
 
-## TL;DR
+## En resumen
 
-- **FROST** permite que un grupo de poseedores de claves controle colectivamente una dirección blindada de Zcash sin que ninguna persona tenga la clave privada completa.
-- Un umbral **t-de-n** significa: t personas deben cofirmar para gastar; cualquier grupo de t-1 o menos no puede mover los fondos por sí solo.
-- Las transacciones se ven como cualquier otra transacción blindada — no hay ninguna huella on-chain que revele que se usó firma con umbral.
-- Esto es fundamentalmente diferente del multisig transparente (que es público on-chain y Zcash ha soportado durante mucho tiempo) — FROST funciona dentro del pool blindado.
-- Es útil para DAOs, exchanges, servicios de custodia, ahorros compartidos y tesorerías de equipo — en cualquier lugar donde un único punto de fallo en las claves sea inaceptable.
+- **FROST** permite que un grupo de titulares de claves controle colectivamente una dirección Zcash blindada sin que ninguna persona posea la clave privada completa.
+- Un umbral **t-de-n** significa que t personas deben firmar conjuntamente para gastar; t-1 o menos no pueden mover los fondos por sí solas.
+- Las transacciones se ven como cualquier otra transacción blindada — no hay ninguna huella on-chain que revele que se utilizó la firma de umbral.
+- Esto es fundamentalmente distinto de la multifirma transparente (que es pública on-chain y que Zcash admite desde hace tiempo) — FROST funciona dentro del pool blindado.
+- Es útil para DAO, exchanges, servicios de custodia, ahorros conjuntos y tesorerías de equipos — en cualquier lugar donde un único punto de fallo de claves sea inaceptable.
 
 ---
 
 ## ¿Qué es FROST en lenguaje sencillo?
 
-Imagina que tres socios comerciales tienen cada uno una parte de una clave. Para gastar desde su wallet compartida, dos de los tres deben ponerse de acuerdo y cofirmar. La transacción resultante se ve idéntica a un envío individual normal — ningún observador puede saber por la blockchain que participaron varias personas.
+Imagina que tres socios comerciales poseen cada uno una parte de una clave. Para gastar desde su billetera compartida, dos de los tres deben estar de acuerdo y firmar conjuntamente. La transacción resultante se ve idéntica a un envío individual normal — ningún observador puede saber por la blockchain que participaron varias personas.
 
-FROST (**Flexible Round-Optimized Schnorr Threshold Signatures**) es el protocolo criptográfico que hace esto posible para Zcash blindado. Fue creado por Chelsea Komlo (University of Waterloo / Zcash Foundation) e Ian Goldberg.
+FROST (**Firmas de umbral Schnorr flexibles y optimizadas por rondas**) es el protocolo criptográfico que hace esto posible para Zcash blindado [shielded]. Fue creado por Chelsea Komlo (Universidad de Waterloo / Zcash Foundation) e Ian Goldberg.
 
 Las propiedades clave:
 
-- **Umbral**: solo t firmantes de n necesitan participar (por ejemplo, 2-de-3, 3-de-5)
-- **Blindado**: funciona dentro del pool de privacidad Orchard — los importes, el remitente y el destinatario permanecen privados
-- **Indistinguible**: la firma final se ve como cualquier otra transacción blindada de Zcash
-- **Sin custodia**: ninguna parte tiene nunca la clave completa — ni siquiera el coordinador
+- **Umbral**: solo deben participar firmantes t-de-n (p. ej., 2-de-3, 3-de-5)
+- **Blindado**: funciona dentro del pool de privacidad Orchard — los montos, el remitente y el receptor permanecen privados
+- **Indistinguible**: la firma final se parece a cualquier otra transacción blindada de Zcash
+- **Sin custodia**: ninguna parte posee nunca la clave completa — ni siquiera el coordinador
 
 ---
 
-## ¿Cuándo deberías usar custodia con umbral?
+## ¿Cuándo deberías usar custodia de umbral?
 
-La custodia con umbral tiene sentido cuando **perder una clave o a una persona no debería significar perder los fondos**.
+La custodia de umbral tiene sentido cuando **perder una clave o a una persona no debería significar perder los fondos**.
 
-| Situación | Por qué ayuda la custodia con umbral |
+| Situación | Por qué ayuda la custodia de umbral |
 |-----------|----------------------------|
-| **Tesorería de DAO o de equipo** | Ningún administrador puede drenar fondos unilateralmente; requiere consenso |
-| **Exchange o custodio** | Distribuye el riesgo de las claves entre zonas de seguridad o empleados |
-| **Almacenamiento en frío personal (con familiares de confianza)** | 2-de-3 entre tú + dos familiares — si mueres o pierdes el acceso, los fondos no se pierden |
-| **Depósito en garantía** | Comprador, vendedor y árbitro tienen cada uno una participación; los fondos se liberan cuando dos están de acuerdo |
-| **Desembolso de subvenciones de alto valor** | Estilo ZCG: requiere múltiples firmantes independientes antes de pagar |
-| **Gestión de claves para desarrolladores** | Previene amenazas internas — ningún ingeniero individual puede drenar un fondo del protocolo |
+| **Tesorería de DAO o equipo** | Ningún administrador individual puede vaciar los fondos unilateralmente; requiere consenso |
+| **Exchange o custodio** | Distribuye el riesgo de claves entre zonas de seguridad o empleados |
+| **Almacenamiento en frío personal (con familiares de confianza)** | 2-de-3 entre tú y dos familiares — si mueres o pierdes el acceso, los fondos no se pierden |
+| **Depósito en garantía** | Comprador, vendedor y árbitro poseen cada uno una participación; los fondos se liberan cuando dos están de acuerdo |
+| **Desembolso de subvenciones de alto valor** | Al estilo de ZCG: requiere múltiples firmantes independientes antes de pagar |
+| **Gestión de claves de desarrolladores** | Evita amenazas internas — ningún ingeniero individual puede vaciar un fondo de protocolo |
 
-Probablemente **no** necesites custodia con umbral para una wallet personal que controlas tú solo, montos pequeños, o situaciones en las que la sobrecarga adicional de coordinación supera la reducción del riesgo.
+Probablemente **no** necesitas custodia de umbral para una billetera personal que controlas por tu cuenta, montos pequeños o situaciones donde la coordinación adicional pese más que la reducción de riesgo.
 
 ---
 
-## ¿En qué se diferencia del multisig transparente?
+## ¿En qué se diferencia de la multifirma transparente?
 
-Zcash ha soportado durante mucho tiempo el multisig transparente — se requieren múltiples claves para gastar desde una t-address. Pero el multisig transparente tiene un coste de privacidad significativo: **la estructura multisig, todas las claves públicas y todos los firmantes son visibles en la blockchain**.
+Zcash admite desde hace tiempo la multifirma transparente — múltiples claves necesarias para gastar desde una dirección t. Pero la multifirma transparente tiene un costo de privacidad significativo: **la estructura de multifirma, todas las claves públicas y todos los firmantes son visibles en la blockchain**.
 
-FROST resuelve esto operando dentro del pool blindado:
+FROST resuelve esto al operar dentro del pool blindado:
 
-| | Multisig transparente | Umbral FROST (blindado) |
+| | Multifirma transparente | Umbral FROST (blindado) |
 |--|---------------------|--------------------------|
 | Pool | Transparente (público) | Orchard (blindado) |
-| Firmantes visibles on-chain | Sí — todas las claves públicas quedan expuestas | No — indistinguible de un gasto con un solo firmante |
-| Importes visibles | Sí | No |
-| Coordinación requerida | Script on-chain | Ronda de comunicación off-chain |
+| Firmantes visibles on-chain | Sí — todas las claves públicas quedan expuestas | No — indistinguible de un gasto de un solo firmante |
+| Montos visibles | Sí | No |
+| Coordinación necesaria | Script on-chain | Ronda de comunicación off-chain |
 | Privacidad | Ninguna | Privacidad blindada completa |
 
 ---
 
-## Compensaciones y limitaciones
+## Ventajas, desventajas y limitaciones
 
-FROST es potente, pero viene con compensaciones reales que deberías entender antes de usarlo:
+FROST es potente, pero implica ventajas y desventajas reales que deberías comprender antes de utilizarlo:
 
 ### Sobrecarga de coordinación
-Los firmantes deben estar en línea al mismo tiempo (o casi) para completar una ronda de firma. Si tus t firmantes están repartidos en distintas zonas horarias o tienen conexiones poco fiables, gastar requiere una coordinación que una wallet individual no necesita.
+Los firmantes deben estar conectados simultáneamente (o casi) para completar una ronda de firma. Si tus firmantes t están repartidos entre zonas horarias o tienen conexiones poco fiables, gastar requiere una coordinación que una billetera individual no necesita.
 
 ### No hay firma si el quórum no está disponible
-Si no hay suficientes poseedores de claves disponibles (enfermos, de viaje, sin responder), los fondos quedan temporalmente imposibles de gastar. Elige tu umbral y el número de participaciones con cuidado — 2-de-3 es más resiliente que 2-de-2.
+Si no hay suficientes titulares de claves disponibles (por enfermedad, viaje o falta de respuesta), los fondos no se pueden gastar temporalmente. Elige cuidadosamente tu umbral y número de participaciones — 2-de-3 es más resiliente que 2-de-2.
 
 ### Ceremonia de generación de claves
-Configurar FROST requiere una ceremonia de generación distribuida de claves (DKG) en la que los n participantes estén en línea juntos. Esto ocurre una sola vez, pero debe hacerse con cuidado — si los participantes se ven comprometidos durante la DKG, la seguridad se debilita.
+Configurar FROST requiere una ceremonia de generación distribuida de claves (DKG) en la que los n participantes estén conectados juntos. Es un evento único, pero debe realizarse cuidadosamente — si los participantes se ven comprometidos durante la DKG, la seguridad queda socavada.
 
 ### Las herramientas aún están madurando
-FROST para Zcash blindado es relativamente nuevo. El estándar IETF (draft-irtf-cfrg-frost) es maduro, pero las integraciones en wallets son limitadas. Espera algunas asperezas en comparación con una wallet estándar de clave única.
+FROST para Zcash blindado es relativamente nuevo. El estándar IETF (draft-irtf-cfrg-frost) es maduro, pero las integraciones con billeteras son limitadas. Espera algunas asperezas en comparación con una billetera estándar de una sola clave.
 
 ### Complejidad de recuperación
-Perder una participación no es el fin del mundo (ese es justamente el objetivo del umbral), pero los planes de recuperación deben documentarse con antelación. ¿Quién guarda las copias de respaldo? ¿Qué ocurre si se pierden dos participaciones al mismo tiempo?
+Perder una participación no es el fin del mundo (ese es el objetivo del umbral), pero los planes de recuperación deben documentarse de antemano. ¿Quién conserva las copias de seguridad? ¿Qué sucede si se pierden dos participaciones simultáneamente?
 
 ---
 
-## ¿Quién está construyendo con FROST en Zcash?
+## ¿Quién está desarrollando con FROST en Zcash?
 
 ### Zcash Foundation — frost.zfnd.org
-La Zcash Foundation ha lanzado una implementación funcional de FROST y un sitio de demostración. Esta es la implementación de referencia utilizada para pruebas y desarrollo.
+La Zcash Foundation ha entregado una implementación funcional de FROST y un sitio de demostración. Esta es la implementación de referencia utilizada para pruebas y desarrollo.
 
-### Demo FROST de Ywallet
-Ywallet tuvo una integración temprana de demo FROST, explicada en la [guía de la Demo FROST de Ywallet](/guides/Ywallet_FROST_Demo). Ywallet ya no recibe mantenimiento y no se actualizará para Ironwood, así que lee la guía como referencia y no como algo que se pueda ejecutar hoy. Zkool, del mismo desarrollador, es el sucesor que recibe mantenimiento e incluye multisig FROST entre sus funciones.
+### Demostración de Ywallet FROST
+Ywallet tuvo una integración de demostración temprana de FROST, explicada en la guía de demostración de [Ywallet FROST](/guides/Ywallet_FROST_Demo). Ywallet ya no recibe mantenimiento y no se actualizará para Ironwood, así que lee la guía como contexto y no como algo que ejecutar hoy. Zkool, del mismo desarrollador, es el sucesor mantenido e incluye la multifirma FROST entre sus funciones.
 
-### ZecHub Hackathon 2026 — Proyectos de la categoría FROST
+### Hackathon 2026 de ZecHub — Proyectos de la categoría FROST
 
-La categoría FROST fue la más competitiva en el ZecHub Hackathon 2026. Proyectos destacados:
+La categoría FROST fue la más competitiva en el Hackathon 2026 de ZecHub. Proyectos destacados:
 
 - **ZecVault** — depósito en garantía blindado 2-de-3 liquidado en mainnet (umbral FROST)
-- **Steward** — custodia con umbral para Zcash blindado con una UX centrada en la recuperación
+- **Steward** — custodia de umbral para Zcash blindado con una UX centrada en la recuperación
 
 ### Coinbase
-Coinbase construyó una implementación de FROST en producción para sus sistemas de firma con umbral (para Bitcoin), con modificaciones que eliminan la etapa de preprocesamiento y distribuyen el rol de agregador entre todos los participantes. Su experiencia valida el modelo de seguridad de FROST a escala de producción.
+Coinbase desarrolló una implementación de producción de FROST para sus sistemas de firma de umbral (para Bitcoin), con modificaciones que eliminan la etapa de preprocesamiento y distribuyen el rol de agregador entre todos los participantes. Su experiencia valida el modelo de seguridad de FROST a escala de producción.
 
 ---
 
 ## Cómo funciona una sesión de firma (simplificado)
 
-1. **Configuración (una vez):** Los n participantes ejecutan una ceremonia de generación distribuida de claves (DKG). Cada uno obtiene una participación privada; se deriva una clave pública compartida. Ninguna parte conoce la clave privada completa.
+1. **Configuración (una vez):** Los n participantes ejecutan una ceremonia de generación distribuida de claves (DKG). Cada uno recibe una participación privada; se deriva una clave pública compartida. Ninguna parte conoce la clave privada completa.
 
-2. **Coordinar a los firmantes:** Cuando se necesita un gasto, un coordinador (que puede ser uno de los firmantes) recopila compromisos de t participantes dispuestos a firmar.
+2. **Coordinar firmantes:** Cuando se necesita un gasto, un coordinador (que puede ser uno de los firmantes) recopila compromisos de t participantes dispuestos a firmar.
 
 3. **Ronda 1:** Cada firmante participante genera un nonce y transmite un compromiso (público, no sensible).
 
-4. **Ronda 2:** Cada firmante participante calcula su firma parcial usando su participación privada y la transmite.
+4. **Ronda 2:** Cada firmante participante calcula su firma parcial utilizando su participación privada y la transmite.
 
-5. **Agregación:** El coordinador combina las t firmas parciales en una firma Schnorr final — indistinguible on-chain de una firma de una sola parte.
+5. **Agregación:** El coordinador combina las t firmas parciales en una firma final Schnorr — indistinguible on-chain de una firma de una sola parte.
 
-6. **Difusión:** La transacción se difunde a la red de Zcash como de costumbre.
+6. **Difusión:** La transacción se transmite a la red Zcash de forma normal.
 
 Si algún firmante envía una firma parcial incorrecta, el protocolo lo identifica y aborta (queda excluido de futuras sesiones). La coordinación ocurre off-chain — la blockchain solo ve la transacción final.
 
 ---
 
-## Elegir tus parámetros de umbral
+## Elección de los parámetros de umbral
 
 | Configuración | Resiliencia | Riesgo |
 |-------|-----------|------|
-| 1-de-1 | Sin resiliencia — punto único de fallo | Pérdida de la clave = pérdida permanente |
-| 2-de-2 | Deben estar ambos firmantes — sin tolerancia a fallos | Uno no disponible = fondos congelados |
-| 2-de-3 | Una participación puede perderse o no estar disponible | Menor margen de seguridad que 3-de-5 |
+| 1-de-1 | Sin resiliencia — punto único de fallo | Pérdida de clave = pérdida permanente |
+| 2-de-2 | Deben estar ambos firmantes — sin tolerancia a fallos | Uno no disponible = fondos bloqueados |
+| 2-de-3 | Se puede perder o no estar disponible una participación | Margen de seguridad menor que 3-de-5 |
 | 3-de-5 | Se pueden perder dos participaciones; seguridad sólida | Mayor sobrecarga de coordinación |
-| 3-de-7 | Nivel institucional; tolera dos fallos | Alto coste de coordinación |
+| 3-de-7 | Nivel institucional; tolera dos fallos | Alto costo de coordinación |
 
 Un punto de partida práctico para la mayoría de los equipos: **2-de-3** (resiliente, coordinación mínima) o **3-de-5** (institucional, mayor seguridad).
 
@@ -143,16 +143,16 @@ Un punto de partida práctico para la mayoría de los equipos: **2-de-3** (resil
 
 ## Páginas relacionadas
 
-- [FROST — Análisis técnico en profundidad](FROST.md) — detalles criptográficos del protocolo (DKG, rondas de firma, pruebas de seguridad)
-- [Guía de la Demo FROST de Ywallet](/guides/Ywallet_FROST_Demo) — información de contexto; Ywallet ya no recibe mantenimiento
-- [Viewing Keys](Viewing_Keys.md) — acceso de solo lectura a direcciones blindadas (complementario a la custodia con umbral)
-- [Activos blindados de Zcash](Zcash_Shielded_Assets.md) — FROST también es una infraestructura clave para la emisión de ZSA
+- [FROST — Análisis técnico detallado](FROST.md) — detalles criptográficos del protocolo (DKG, rondas de firma, pruebas de seguridad)
+- [Ywallet Guía de demostración de FROST](/guides/Ywallet_FROST_Demo) — contexto; Ywallet ya no recibe mantenimiento
+- [Claves de visualización](Viewing_Keys.md) — acceso de solo lectura a direcciones blindadas (complementario a la custodia de umbral)
+- [Zcash Activos blindados](Zcash_Shielded_Assets.md) — FROST también es infraestructura clave para la emisión de ZSA
 
 ## Recursos
 
-- [Artículo de investigación de FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [Artículo de investigación de FROST (Komlo y Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
 - [Borrador del estándar IETF de FROST (draft-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
-- [Implementación FROST de Zcash Foundation](https://frost.zfnd.org)
-- [Chelsea Komlo — What are Threshold Signatures? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
-- [Coinbase — Threshold Digital Signatures](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROAST — Firmas Schnorr robustas asíncronas con umbral (Blockstream)](https://eprint.iacr.org/2022/550.pdf)
+- [Implementación de Zcash Foundation FROST](https://frost.zfnd.org)
+- [Chelsea Komlo — ¿Qué son las firmas de umbral? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Coinbase — Firmas digitales de umbral](https://www.coinbase.com/blog/threshold-digital-signatures)
+- [ROAST — Firmas de umbral Schnorr asíncronas robustas (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

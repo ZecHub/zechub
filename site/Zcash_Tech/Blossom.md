@@ -12,6 +12,19 @@ Blossom is a Zcash [network upgrade](../start-here/network-upgrades). It was dep
 
 Why this matters. When you send ZEC, you wait for the network to confirm it in a block. If blocks are slow, you wait longer. Before Blossom, a new block was expected about every 150 seconds. Blossom cut that target in half, to 75 seconds, so confirmations come sooner and the chain can carry more transactions in the same amount of time. It did this without creating more ZEC or moving the timing of future halvings.
 
+## TL;DR
+
+- Blossom was Zcash's third network upgrade, activating at mainnet block 653,600 (December 11, 2019 UTC), deployed by ZIP 206 with its core change in ZIP 208.
+- It cut the target block spacing from 150 seconds to 75 seconds — blocks arrive about twice as often, so first confirmations come sooner and throughput roughly doubles.
+- To keep issuance steady, it halved the per-block reward and doubled the halving interval from 840,000 to 1,680,000 blocks.
+- Total ZEC created per unit of time and the real-time timing of future halvings did not change.
+- It was a mandatory bilateral change: every node had to upgrade to stay on the chain.
+
+## Visual analogy
+
+Blossom is a bus network doubling its departures. Buses now come every 75 seconds instead of every 150, so you wait half as long (faster confirmations) and the network carries twice the passengers (throughput). To keep the driver payroll the same, each driver's per-trip pay is halved — same total salary spend, just paid out over twice as many trips.
+
+
 ## Faster blocks
 
 Blossom's core change is simple. The Zcash target block spacing, the time the network aims for between one block and the next, dropped from 150 seconds to 75 seconds ([ZIP 208](https://zips.z.cash/zip-0208)). Blocks are found by proof of work, so the real gap between them varies, but the network now aims for a block about every 75 seconds instead of every 150.
@@ -36,6 +49,15 @@ Blossom was a bilateral consensus change, which means every node had to upgrade 
 ## Where Blossom fits
 
 Blossom was Zcash's third network upgrade. It followed Overwinter and Sapling, and it came before Heartwood and Canopy. Unlike Sapling, which reworked Zcash's shielded cryptography, Blossom was focused on scale and speed. Its main job was block timing, not new privacy features.
+
+## Common Mistakes
+
+- **Thinking faster blocks meant more ZEC.** Halving the per-block reward while doubling the block rate keeps emission exactly the same per unit of time.
+- **Assuming halvings happen sooner in real time.** The halving interval doubled from 840,000 to 1,680,000 blocks, so halving dates in real time did not move.
+- **Reading "75 seconds" as a guarantee.** It is a proof-of-work target; actual gaps between blocks vary around it.
+- **Treating Blossom as a privacy upgrade.** Its job was block timing and scale — unlike Sapling, it changed no cryptography.
+- **Thinking node operators could skip it.** Blossom was a bilateral consensus change; an un-upgraded node forks off the network.
+
 
 ## Glossary
 
@@ -95,5 +117,13 @@ Because Blossom also halved the reward paid per block and doubled the halving in
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Related Pages
+
+- [Sapling](./Sapling.md) — the previous upgrade (cryptography, not timing)
+- [Heartwood](./Heartwood.md) — the next upgrade in the series
+- [Full Nodes](./Full_Nodes.md) — what running a node through mandatory upgrades involves
+- [Network Upgrades index](../start-here/network-upgrades) — the full upgrade timeline
+
 
 Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Sapling](../zcash-tech/sapling) · Next: [Heartwood](../zcash-tech/heartwood)

@@ -1,68 +1,68 @@
 # Cómo ejecutar Zebra en Akash Network
 
-Guía paso a paso para desplegar un nodo completo Zebra de Zcash usando [Akash Console](https://console.akash.network).
+Guía paso a paso para desplegar un nodo completo [full node] de Zebra Zcash usando [Akash Console](https://console.akash.network).
 
-### Qué vas a desplegar
+### Qué estás desplegando
 
 Un nodo completo de Zebra que:
 
--> Sincronizará toda la blockchain de Zcash (100GB+ para mainnet, ~40GB para testnet)
+-> Sincronizará toda la blockchain [blockchain] de Zcash (más de 100 GB para mainnet, ~40 GB para testnet)
 
--> Costará aproximadamente $15/mes dependiendo de los precios del token AKT
+-> Costará aproximadamente $15/mes según los precios del token [token] AKT
 
--> Tardará desde varias horas hasta días en sincronizarse por completo
+-> Tardará de varias horas a días en sincronizarse por completo
 
--> Usará 4 vCPUs, 16GB RAM, 350GB de almacenamiento (mainnet) o 2 vCPUs, 8GB RAM, 50GB (testnet)
+-> Usará 4 vCPU, 16 GB de RAM, 350 GB de almacenamiento (mainnet) o 2 vCPU, 8 GB de RAM, 50 GB (testnet)
 
 
 ### Importante: Mapeo de puertos en Akash
 
-Cuando expones un puerto en Akash (por ejemplo, el puerto 8233 para el P2P de Zebra), **NO se vincula a ese puerto exacto** en la IP pública del proveedor. En su lugar, el proveedor asigna un puerto alto aleatorio (como 31234 o 42567) y hace reverse-proxy hacia el puerto 8233 de tu contenedor.
+Cuando expones un puerto en Akash (p. ej., el puerto 8233 para Zebra P2P), **NO se vincula a ese puerto exacto** en la IP pública del proveedor. En su lugar, el proveedor asigna un puerto alto aleatorio (como 31234 o 42567) y lo redirige mediante proxy inverso al puerto 8233 de tu contenedor.
 
-Esto es así por diseño: los proveedores ejecutan múltiples despliegues, y habría conflictos si todos intentaran usar directamente el puerto 8233.
+Esto es así por diseño: los proveedores ejecutan varios despliegues y habría conflictos si todos intentaran usar el puerto 8233 directamente.
 
 **Lo que esto significa para ti:**
 
 -> Configuras el puerto 8233 en el SDL (el puerto P2P estándar de Zebra)
 
--> Akash te da una URI como *provider.com:31234*
+-> Akash te proporciona una URI como *provider.com:31234*
 
--> Otros nodos de Zcash se conectan a ti en *provider.com:31234*
+-> Otros nodos [nodes] de Zcash se conectan a ti en *provider.com:31234*
 
--> Dentro de tu contenedor, Zebra sigue escuchando en 8233
+-> Dentro de tu contenedor, Zebra sigue escuchando en el 8233
 
 
-Esto se gestiona automáticamente. Simplemente usa la URI que Akash te proporcione.
+Esto se gestiona automáticamente. Solo usa la URI que Akash te proporciona.
 
 ### Requisitos previos
 
-1. Extensión del navegador **Keplr Wallet** instalada (Chrome/Brave/Firefox)
-2. **Tokens AKT** - Consigue entre 50 y 100 AKT en un exchange (Coinbase, Kraken, Osmosis)
-3. **5 minutos** para hacer clic en la interfaz de Console
+1. Extensión de navegador **Keplr Wallet** instalada (Chrome/Brave/Firefox)
+2. **Tokens AKT**: Obtén entre 50 y 100 AKT de un exchange [exchange] (Coinbase, Kraken, Osmosis)
+3. **5 minutos** para navegar por la interfaz de Console
 
-#### Paso 1: Conecta tu wallet
+#### Paso 1: Conecta tu billetera [wallet]
 
 -> Ve a [https://console.akash.network](https://console.akash.network)
 
--> Haz clic en **"Connect Wallet"** arriba a la derecha
+-> Haz clic en **«Connect Wallet»** en la parte superior derecha
 
--> Elige **Keplr** (o tu wallet de Cosmos preferida)
+-> Elige **Keplr** (o tu billetera Cosmos preferida)
 
 -> Aprueba la conexión cuando aparezca Keplr
 
 
-Tu saldo de AKT debería aparecer arriba a la derecha. Si es cero, primero recarga tu wallet.
+Tu saldo de AKT debería aparecer en la parte superior derecha. Si es cero, primero añade fondos a tu billetera.
 
-#### Paso 2: Crear el despliegue
+#### Paso 2: Crea el despliegue
 
--> Haz clic en el botón **"Deploy"** (gran botón azul, en el centro de la página)
+-> Haz clic en el botón **«Deploy»** (botón azul grande, en el centro de la página)
 
--> Elige **"Build your template"** (o pasa directamente a subir el SDL)
+-> Elige **«Build your template»** (o pasa directamente a cargar el SDL)
 
 
-##### Opción A: Subir archivo SDL (recomendado)
+##### Opción A: Cargar archivo SDL (recomendado)
 
-[![Desplegar en Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Opción B: Usar el editor SDL
 
@@ -72,69 +72,69 @@ Si quieres pegar manualmente [el SDL](https://github.com/akash-network/awesome-a
 
 -> Pégalo en el editor SDL
 
--> Modifícalo según sea necesario (consulta la sección de configuración más abajo)
+-> Modifícalo según sea necesario (consulta la sección de configuración a continuación)
 
--> Haz clic en **"Create Deployment"**
-
-
-#### Paso 3: Revisar y aprobar el depósito
-
-La Console te mostrará:
-
--> **Depósito del despliegue**: ~5 AKT (lo recuperas cuando cierras el despliegue)
-
--> **Costo estimado**: Basado en el precio definido en tu SDL
-
-Haz clic en **"Approve"** y firma la transacción en Keplr.
-
-#### Paso 4: Elegir un proveedor
-
-Después de ~ 30 segundos, verás ofertas de proveedores. Cada oferta muestra:
-
--> **Precio por bloque** (en AKT o USDC)
-
--> **Costo mensual estimado**
-
--> **Detalles del proveedor** (uptime, región, etc.)
+-> Haz clic en **«Create Deployment»**
 
 
-**No elijas simplemente el más barato.** Revisa:
+#### Paso 3: Revisa y aprueba el depósito
 
--> % de uptime (apunta a > 95%)
+Console te mostrará:
 
--> Región (más cerca de ti = mejor latencia, aunque para nodos blockchain no importa mucho)
+-> **Depósito del despliegue**: ~5 AKT (lo recuperarás cuando cierres el despliegue)
 
--> Estado auditado (marca verde = más confiable)
+-> **Coste estimado**: Basado en los precios de tu SDL
+
+Haz clic en **«Approve»** y firma la transacción [transaction] en Keplr.
+
+#### Paso 4: Elige un proveedor
+
+Después de unos 30 segundos, verás ofertas de los proveedores. Cada oferta muestra:
+
+-> **Precio por bloque [block]** (en AKT o USDC)
+
+-> **Coste mensual estimado**
+
+-> **Detalles del proveedor** (tiempo de actividad, región, etc.)
 
 
-Haz clic en **"Accept Bid"** en el proveedor que elijas y firma en Keplr.
+**No elijas simplemente el más barato.** Comprueba:
 
-#### Paso 5: Esperar el despliegue
+-> Porcentaje de tiempo de actividad (procura que sea > 95 %)
 
-La Console hará lo siguiente:
+-> Región (cuanto más cerca de ti, mejor latencia, aunque no importa mucho para los nodos de blockchain)
 
--> Creará el lease con el proveedor elegido
+-> Estado auditado (marca de verificación verde = más confiable)
 
--> Enviará el manifest (le dice al proveedor qué ejecutar)
+
+Haz clic en **«Accept Bid»** en el proveedor elegido y firma en Keplr.
+
+#### Paso 5: Espera al despliegue
+
+Console:
+
+-> Creará el arrendamiento con el proveedor elegido
+
+-> Enviará el manifiesto (indica al proveedor qué ejecutar)
 
 -> Iniciará tu contenedor
 
-Esto tarda 1-2 minutos. Verás actualizaciones de estado en la interfaz.
+Esto tarda entre 1 y 2 minutos. Verás actualizaciones de estado en la interfaz.
 
-#### Paso 6: Verificar que está en ejecución
+#### Paso 6: Verifica que esté funcionando
 
 Una vez desplegado, verás:
 
 -> Pestaña **Services**: Muestra tu servicio *zebra* con su estado
 
--> Pestaña **Logs**: Logs en vivo del contenedor
+-> Pestaña **Logs**: Registros en vivo del contenedor
 
--> Pestaña **Leases**: Detalles sobre tu despliegue (DSEQ, proveedor, costo)
+-> Pestaña **Leases**: Detalles de tu despliegue (DSEQ, proveedor, coste)
 
 
-##### Revisar los logs
+##### Comprueba los registros
 
-Haz clic en **Logs** y deberías ver Zebra iniciándose:
+Haz clic en **Logs** y deberías ver cómo se inicia Zebra:
 
 ```bash
 Loading config from environment variables
@@ -143,18 +143,18 @@ Listening for peer connections on [::]:8233
 Starting initial sync...
 ```
 
-La sincronización tardará **de horas a días** dependiendo de la red. Observa:
+La sincronización tardará **de horas a días** según la red. Observa:
 
 -> Alturas de bloque en aumento
 
--> Conexiones de pares (deberían ser 10-30 pares)
+-> Conexiones de pares (deberían ser entre 10 y 30 pares)
 
 -> Ausencia de errores repetidos
 
 
-#### Paso 7: Obtener la dirección de tu nodo
+#### Paso 7: Obtén la dirección [address] de tu nodo
 
-Haz clic en la pestaña **Leases**, luego en **URIs**.
+Haz clic en la pestaña **Leases** y luego en **URIs**.
 
 Verás algo como:
 
@@ -164,15 +164,15 @@ zebra-8233: provider-hostname.com:31234
 
 Este es el **endpoint P2P público** de tu nodo. Otros nodos de Zcash se conectarán a ti en esta dirección.
 
-**Ten en cuenta el mapeo de puertos:** Configuraste el puerto 8233 en el SDL, pero Akash lo asignó a un puerto público diferente (31234 en este ejemplo). Esto es normal; consulta la sección "Mapeo de puertos en Akash" al principio si esto te confunde. Tu nodo es accesible en el puerto que Akash muestre aquí, no necesariamente en 8233.
+**Ten en cuenta el mapeo de puertos:** Configuraste el puerto 8233 en el SDL, pero Akash lo asignó a un puerto público diferente (31234 en este ejemplo). Esto es normal; consulta la sección «Mapeo de puertos en Akash» al principio si te resulta confuso. Tu nodo es accesible en el puerto que Akash muestra aquí, no necesariamente en el 8233.
 
-Si habilitaste RPC (comentado por defecto en el SDL), también verás aquí el endpoint RPC con su propio puerto mapeado.
+Si habilitaste RPC (comentado de forma predeterminada en el SDL), también verás aquí el endpoint RPC con su propio puerto mapeado.
 
 ### Opciones de configuración
 
 #### Cambiar a Testnet
 
-El SDL usa Mainnet por defecto. Para usar Testnet en su lugar:
+El SDL usa Mainnet de forma predeterminada. Para usar Testnet:
 
 -> **Comenta la configuración de Mainnet** en la sección *env*:
 
@@ -217,7 +217,7 @@ El SDL usa Mainnet por defecto. Para usar Testnet en su lugar:
      - size: 50Gi  # Down from 150Gi
    ```
 
--> **Opcional: Baja el precio** en *profiles.placement.akash.pricing*:
+-> **Opcional: Reduce los precios** en *profiles.placement.akash.pricing*:
 
    ```yaml
    amount: 5000  # Down from 10000
@@ -225,7 +225,7 @@ El SDL usa Mainnet por defecto. Para usar Testnet en su lugar:
 
 #### Habilitar acceso RPC
 
-RPC está deshabilitado por defecto por seguridad. Para habilitarlo:
+RPC está deshabilitado de forma predeterminada por seguridad. Para habilitarlo:
 
 **Para Mainnet:**
 
@@ -265,9 +265,9 @@ RPC está deshabilitado por defecto por seguridad. Para habilitarlo:
      proto: tcp
    ```
 
-**Advertencia**: Si estableces *global: true* para RPC, lo estás exponiendo a internet. Zebra usa autenticación por cookie por defecto, pero aun así, no lo hagas a menos que sepas lo que estás haciendo.
+**Advertencia**: Si estableces *global: true* para RPC, lo estarás exponiendo a internet. Zebra usa autenticación mediante cookies de forma predeterminada, pero aun así, no lo hagas a menos que sepas lo que haces.
 
-**Recordatorio sobre el mapeo de puertos**: Incluso si expones RPC globalmente, Akash lo mapeará a un puerto alto aleatorio (no 8232/18232). Revisa las URI en tu despliegue para ver el endpoint público real. Para *global: false* (recomendado), el endpoint RPC solo es accesible dentro de la red de despliegue de Akash, no desde la internet pública.
+**Recordatorio sobre el mapeo de puertos**: Aunque expongas RPC globalmente, Akash lo mapeará a un puerto alto aleatorio (no 8232/18232). Consulta las URI de tu despliegue para ver el endpoint público real. Para *global: false* (recomendado), el endpoint RPC solo es accesible dentro de la red de despliegue de Akash, no desde internet público.
 
 #### Habilitar métricas (Prometheus)
 
@@ -289,23 +289,23 @@ Para recopilar métricas de monitorización:
      proto: tcp
    ```
 
-#### Ajustar recursos/precio
+#### Ajustar recursos/precios
 
-Si no estás recibiendo ofertas o quieres optimizar el costo:
+Si no recibes ofertas o quieres optimizar el coste:
 
-**Para proveedores con menos recursos**, reduce en la sección *profiles.compute.zebra.resources*:
+**Para proveedores con especificaciones más bajas**, reduce en la sección *profiles.compute.zebra.resources*:
 
 -> CPU: *units: 2* (mínimo para una velocidad de sincronización razonable)
 
--> Memoria: *size: 12Gi* (mínimo para estabilidad)
+-> Memoria: *size: 12Gi* (mínimo para la estabilidad)
 
 -> Almacenamiento: *size: 120Gi* (mínimo para mainnet)
 
 **Para atraer más ofertas**, aumenta en *profiles.placement.akash.pricing*:
 
--> Mainnet: Prueba con *amount: 1000000* uakt/block
+-> Mainnet: Prueba *amount: 1000000* uakt/block
 
--> Testnet: Prueba con *amount: 1000000* uakt/block
+-> Testnet: Prueba *amount: 1000000* uakt/block
 
 ### Actualizar tu despliegue
 
@@ -313,28 +313,28 @@ Si no estás recibiendo ofertas o quieres optimizar el costo:
 
 -> Ve a **My Deployments** en Console
 
--> Encuentra tu despliegue de Zebra
+-> Busca tu despliegue de Zebra
 
--> Haz clic en **"Update Deployment"**
+-> Haz clic en **«Update Deployment»**
 
 -> Edita el SDL
 
--> Haz clic en **"Update"** y aprueba en Keplr
+-> Haz clic en **«Update»** y aprueba en Keplr
 
-**Nota**: Al actualizar se reiniciará tu contenedor. El nodo reanudará desde su estado guardado (almacenamiento persistente), pero espera 1-2 minutos de inactividad.
+**Nota [Note]**: La actualización reiniciará tu contenedor. El nodo se reanudará desde su estado guardado (almacenamiento persistente), pero espera entre 1 y 2 minutos de inactividad.
 
 ### Monitorización
 
-#### Vía Console
+#### Mediante Console
 
--> Pestaña **Logs**: Logs en vivo del contenedor
+-> Pestaña **Logs**: Registros en vivo del contenedor
 
--> Pestaña **Shell**: Obtén una shell dentro del contenedor (útil para depuración)
+-> Pestaña **Shell**: Obtén una shell dentro del contenedor (útil para depurar)
 
--> Pestaña **Events**: Eventos de Kubernetes (casi inútiles a menos que algo esté roto)
+-> Pestaña **Events**: Eventos de Kubernetes (casi inútiles salvo que algo esté roto)
 
 
-#### Vía RPC (si está habilitado)
+#### Mediante RPC (si está habilitado)
 
 Si habilitaste RPC, puedes consultar tu nodo como un nodo completo normal de zebrad (¡porque lo es!)
 
@@ -344,75 +344,75 @@ Cuando termines o quieras dejar de pagar:
 
 -> Ve a **My Deployments**
 
--> Encuentra tu despliegue de Zebra
+-> Busca tu despliegue de Zebra
 
--> Haz clic en **"Close Deployment"**
+-> Haz clic en **«Close Deployment»**
 
 -> Confirma y firma en Keplr
 
-Tu depósito de 5 AKT será reembolsado. El **almacenamiento persistente** debería conservarse por parte del proveedor, pero no confíes en ello: trátalo como a cualquier otro proveedor cloud.
+Se te reembolsará tu depósito de 5 AKT. El **almacenamiento persistente** debería conservarse por el proveedor, pero no dependas de ello: trátalo como cualquier otro proveedor de nube.
 
 ### Solución de problemas
 
-#### Error "Insufficient funds"
+#### Error «Insufficient funds»
 
-Necesitas más AKT. Recarga tu wallet de Keplr.
+Necesitas más AKT. Añade fondos a tu billetera Keplr.
 
 #### No aparecen ofertas
 
-Puede ser que:
+Puede que:
 
--> Tu precio es demasiado bajo (aumenta *amount* en el SDL)
+-> Tus precios sean demasiado bajos (aumenta *amount* en SDL)
 
--> Tus requisitos de recursos son demasiado altos para los proveedores disponibles (reduce CPU/memoria/almacenamiento)
+-> Tus requisitos de recursos sean demasiado altos para los proveedores disponibles (reduce CPU/memoria/almacenamiento)
 
--> Espera más tiempo (a veces las ofertas tardan 60-90 segundos en aparecer)
+-> Debas esperar más tiempo (a veces las ofertas tardan entre 60 y 90 segundos en aparecer)
 
 
-#### El despliegue se queda en "pending"
+#### El despliegue se queda en «pending»
 
-Es posible que el proveedor tenga problemas. Cierra el despliegue y prueba con otro proveedor.
+El proveedor podría tener problemas. Cierra el despliegue e inténtalo con otro proveedor.
 
-#### Los logs de Zebra muestran "No peers connected"
+#### Los registros de Zebra muestran «No peers connected»
 
-Esto es normal durante los primeros minutos. Zebra descubrirá pares automáticamente. Si persiste después de 10+ minutos, podrías tener un problema de red (poco probable en Akash).
+Esto es normal durante los primeros minutos. Zebra descubrirá pares automáticamente. Si persiste después de más de 10 minutos, podrías tener un problema de red (poco probable en Akash).
 
-#### Errores "Out of memory" en los logs
+#### Errores «Out of memory» en los registros
 
-Escatimaste demasiado en RAM. Cierra el despliegue y vuelve a desplegar con al menos 12Gi de memoria (se recomiendan 16Gi).
+Escatimaste en RAM. Cierra el despliegue y vuelve a desplegar con al menos 12 Gi de memoria (se recomiendan 16 Gi).
 
-#### La sincronización tarda eternamente
+#### La sincronización tarda una eternidad
 
-Define "eternamente":
+Define «eternidad»:
 
 -> **Horas**: Normal
 
--> **Días**: También es normal para mainnet desde cero
+-> **Días**: También normal para mainnet desde cero
 
--> **Semanas**: Algo va mal, revisa los logs en busca de errores
-
-
-### Gestión de costos
-
-Supervisa tu gasto en la Console:
-
--> **My Deployments** -> Tu despliegue -> Muestra la estimación de "Cost per month"
-
--> El saldo de tu wallet de Keplr disminuirá con el tiempo
+-> **Semanas**: Algo va mal; revisa los registros en busca de errores
 
 
-Cuando tu saldo sea bajo, Akash cerrará automáticamente tu despliegue. **Recarga tu wallet periódicamente** o configura alertas.
+### Gestión de costes
 
-#### Reducir costos
+Supervisa tus gastos en Console:
 
--> **Usa Testnet** para pruebas no productivas (50% más barato)
+-> **My Deployments** -> Tu despliegue -> Muestra la estimación de «Cost per month»
+
+-> El saldo de tu billetera Keplr disminuirá con el tiempo
+
+
+Cuando tu saldo sea bajo, Akash cerrará automáticamente tu despliegue. **Recarga [top up] tu billetera periódicamente** o configura alertas.
+
+#### Reducir costes
+
+-> **Usa Testnet** para pruebas no productivas (50 % más barato)
 
 -> **Reduce CPU/memoria** si no necesitas una sincronización rápida
 
--> **Elige proveedores más baratos** (no siempre es buena idea: el uptime importa)
+-> **Elige proveedores más baratos** (no siempre es prudente: el tiempo de actividad importa)
 
 
-### Mainnet vs Testnet
+### Mainnet frente a Testnet
 
 ```markdown
 ----------------------------------------------------------------------------------
@@ -429,7 +429,7 @@ Cuando tu saldo sea bajo, Akash cerrará automáticamente tu despliegue. **Recar
 ----------------------------------------------------------------------------------
 ```
 
-Empieza con Testnet si solo estás probando el proceso de despliegue. Consulta la sección "Cambiar a Testnet" de arriba para la configuración.
+Empieza con Testnet si solo estás probando el proceso de despliegue. Consulta la sección «Cambiar a Testnet» anterior para obtener la configuración.
 
 ### Recursos adicionales
 
@@ -441,4 +441,4 @@ Empieza con Testnet si solo estás probando el proceso de despliegue. Consulta l
 
 **Exploradores de Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Discord de Akash**: [https://discord.akash.network](https://discord.akash.network) (para problemas con proveedores)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (para problemas con proveedores)

@@ -1,12 +1,12 @@
-# Ngosipụta Ywallet FROST
+# Ywallet FROST ngosi
 
-> **A naghịzi elekọta Ywallet.** Onye nrụpụta ya ekwenyela na agaghị emelite ya maka Ironwood (NU6.3), yabụ na ọ gaghịzi eso usoro ndị a, a gaghịkwa emecha usoro ndị dị n'okpuru na mainnet. A na-edebe ibe a maka ntụaka. Zkool, sitere n'aka otu onye nrụpụta ahụ, bụ onye ga-anọchi ya ma na-akwado ọtụtụ FROST.
+> **A naghị elekọta Ywallet ọzọ.** Onye mmepụta [developer] ya ekwenyela na agaghị emelite ya maka Ironwood (NU6.3), ya mere ọ nweghịzi ike iso chain ahụ, a pụghịkwa imezu usoro ndị dị n'okpuru na mainnet. E debere ibe a maka ntụaka. Zkool, sitere n'aka otu onye mmepụta ahụ, bụ onye nọchiri anya ya a na-elekọta ma na-akwado multisig nke FROST.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/3IZgxDqQNbw"
-    title="FROST + Ywallet Transaction Demo"
+    title="FROST + Ywallet Azụmahia ngosi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -14,11 +14,11 @@
 </div>
 
 
-## Chịkọta ihe nchekwa FROST
+## Kọmpaịlụ bin FROST
 
-[Njikọ GitHub](https://github.com/ZcashFoundation/frost-zcash-demo)
+[GitHub njikọ](https://github.com/ZcashFoundation/frost-zcash-demo)
 
-Jiri repo dị n'elu wee soro ntuziaka maka nchịkọta: 
+Jiri repo dị n'elu ma soro ntuziaka maka ịkọmpaịlụ: 
 
 ```bash
 cargo build --bin trusted-dealer
@@ -27,9 +27,9 @@ cargo build --bin coordinator
 cargo build --bin participant
 ```
 
-Bin ga-abụ folda ebumnuche.
+Bin ga-adị n'ime folda target.
 
-## Mepụta FROST UA
+## Mepụta UA FROST
 
 `./generateFROST_UA.sh`
 
@@ -37,41 +37,41 @@ Bin ga-abụ folda ebumnuche.
 
 ## Bubata UFVK n'ime Ywallet
 
-Akaụntụ -> Pịa + mado ufvk site na nzọụkwụ dị n'elu
+Accounts -> Pịa + ma mado ufvk sitere na nzọụkwụ dị n'elu
 
-## Mepụta azụmahịa na Ywallet
+## Mepụta Azụmahia na Ywallet
 
-Mado na UA ọ bụla wee ziga tx. Chekwaa faịlụ ahụ.
+Mado UA ọ bụla ma ziga tx. Chekwaa faịlụ ahụ.
 
-## Malite usoro mbinye aka FROST 
+## Bido usoro ntinye signature nke FROST
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-Ntinye mbụ bụ ebe tx raw dị site na nzọụkwụ dị n'elu
-Ntinye nke abụọ bụ ebe na aha nke tx mbinye aka ịchọrọ ịgbasa
-Nke a bụ akụkụ ebe ị na-agwa FROST nke mgbanwe ịchọrọ ka onye ọ bụla bịanye aka na ya
+ntinye mbụ bụ ebe raw tx sitere na nzọụkwụ dị n'elu dị
+ntinye nke abụọ bụ ebe na aha tx ejirila signature nke ịchọrọ ịgbasa
+Nke a bụ akụkụ ebe ị na-agwa FROST Azụmahia nke ịchọrọ ka onye ọ bụla tinye signature na ya
 
-## Onye nhazi mmalite
+## Bido Coordinator
 
 `./runCoordinator.sh`
 
-Nke a na-ahazi mbinye aka nke onye ọ bụla sonyere ma mepụta mbinye aka otu
+Nke a na-ahazi signature nke onye ọ bụla sonyere ma mepụta signature otu
 
-## Mee ka onye ọ bụla so na ya bịanye aka maka azụmahịa a
+## Mee ka Onye Nsonyere ọ bụla tinye signature maka Azụmahia a
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## Mezue azụmahịa a bịanyere aka na ya
+## Mechaa Azụmahia ejirila signature
 
-Na windo nhazi, detuo mbinye aka otu nke ewepụtara wee mado ya na windo mbinye aka FROST.
-Nke a ga-emecha mbinye aka FROST ma wepụta 'mysingedtx'
+N'ime mpio coordinator, detuo signature otu e wepụtara ma mado ya n'ime mpio ntinye signature nke FROST.
+Nke a ga-emecha ntinye signature nke FROST ma wepụta 'mysingedtx'
 
 
-## Kwusaa azụmahịa gị na Ywallet
+## Gbasaa Azụmahia gị na Ywallet
 
-Pịa 'More' n'akụkụ aka nri ala nke Ywallet wee chọta 'Broadcast'. Chọta 'mysignedtx' wee pịa 'OK'.
+Pịa 'More' n'akụkụ ala aka nri nke Ywallet ma chọta 'Broadcast'. Chọta 'mysignedtx' ma pịa ok.
 
-Ọ bụrụ na ihe niile arụọ, ị ga-enweta ID azụmahịa :)
+Ọ bụrụ na ihe niile arụ ọrụ, ị ga-enweta ID Azụmahia :)

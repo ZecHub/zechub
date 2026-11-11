@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Verifying_Zcash_Releases.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Επαλήθευση εκδόσεων του Zcash
 
-## TL;DR
+## Με λίγα λόγια
 
 - Η λήψη ενός binary του Zcash δεν σημαίνει ότι έχεις αυτό που δημοσίευσε το έργο. Η επαλήθευση είναι ο τρόπος να ξεχωρίσεις τη διαφορά.
 - Ένα checksum αποδεικνύει ότι το αρχείο έφτασε άθικτο. Μια **υπογραφή** αποδεικνύει ποιος το παρήγαγε. Χρειάζεσαι και τα δύο, και ένα checksum από μόνο του αποδεικνύει πολύ λίγα.

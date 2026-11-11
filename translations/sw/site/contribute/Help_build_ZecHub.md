@@ -4,32 +4,32 @@
 
 # Saidia Kujenga ZecHub 
 
-Kama wewe ni mwanachama wa jumuiya ya Zcash, na unataka kuchangia katika kujenga ZecHub, kuna mambo machache ambayo yana manufaa sana.
+Ikiwa wewe ni mwanachama wa jumuiya ya Zcash, na ungependa kuchangia katika kujenga ZecHub, kuna mambo kadhaa yenye manufaa makubwa.
 
-Tengeneza viungo vya jarida na uviongeze kwenye ukurasa wa GitHub wa jarida: -> [Bonyeza hapa kwa maelekezo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+Pitia viungo kwa ajili ya jarida la habari [newsletter] na uviongeze kwenye ukurasa wa GitHub wa jarida la habari: -> [Bofya hapa kwa maelekezo](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Angalia hati za wiki, pendekeza marekebisho, na upendekeze kurasa mpya katika GitHub
+Hakiki ukweli katika hati za wiki, pendekeza marekebisho, na pendekeza kurasa mpya katika GitHub
 
-Unda maudhui ya video katika kategoria zifuatazo:
+Unda maudhui ya video katika makundi yafuatayo:
 ```
 * Zcash explainer videos
 * Zcash wallet guide/tutorials
 * Third-party application demos
 ```
 
-Tengeneza miundo kama vile mabango/michoro/uhuishaji kwa ajili ya mfumo ikolojia wa Zcash na Faragha 
+Tengeneza miundo kama vile mabango/michoro/uhuishaji kwa ajili ya mfumo wa ikolojia wa Zcash na faragha [Privacy] 
 
-Tafsiri yoyote kati ya kurasa zilizopo za wiki.
+Tafsiri ukurasa wowote wa wiki uliopo.
 
 Kuripoti hitilafu
 
 ### Zawadi
 
-Kiasi hakijawekwa katika ZEC. Tumia [sera ya kiasi cha fadhila](https://bounties.zechub.wiki/docs/bounty-amounts): chagua muda wa USD kwa darasa la kazi, badilisha papo hapo, ingiza ZEC ubaoni. Sera hiyo ndiyo chanzo cha ukweli.
+Kiasi hakijawekwa kwa ukomo katika ZEC. Tumia sera ya [viwango vya zawadi](https://bounties.zechub.wiki/docs/bounty-amounts): chagua masafa ya USD kwa aina ya kazi, badilisha kwa bei ya sasa, ingiza ZEC kwenye ubao. Sera hiyo ndiyo chanzo rasmi cha ukweli.
 
-Mtiririko wa kazi wa wachangiaji na aina za kazi: [Kuchangia ZecHub](https://zechub.wiki/contribute/contributing-guide).
+Mtiririko wa kazi wa wachangiaji na aina za kazi: [Kuchangia katika ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
-Muhtasari wa jukwaa:
+Mwongozo wa jukwaa:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -42,25 +42,25 @@ Muhtasari wa jukwaa:
   />
 </div>
 
-Tunachapisha kazi zilizo wazi kwenye [ZEC Bounties](https://bounties.zechub.wiki/). Unaweza kupendekeza zawadi hapo pia. PR iliyounganishwa si sawa na zawadi iliyoidhinishwa au kulipwa.
+Tunachapisha kazi zilizo wazi kwenye [ZEC Bounties](https://bounties.zechub.wiki/). Unaweza pia kupendekeza zawadi huko. PR iliyounganishwa si sawa na zawadi iliyoidhinishwa au kulipwa.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
 
 
-[Zawadi za ZEC](https://bounties.zechub.wiki/)
+[ZEC Bounties](https://bounties.zechub.wiki/)
 
-[Masuala ya GitHub ya ZecHub](https://github.com/ZecHub/zechub/issues)
+[ZecHub Masuala ya GitHub](https://github.com/ZecHub/zechub/issues)
 
-[Masuala ya GitHub ya ZecHub-Wiki](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub Masuala](https://github.com/ZecHub/zechub-wiki/issues)
 
 
 
-Ikiwa kuna njia zingine ambazo ungependa kuchangia, tafadhali tuma ujumbe kwa ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge nasi [Discord](https://discord.gg/zcash).
+Ikiwa kuna njia nyingine ambazo ungependa kuchangia, tafadhali tuma ujumbe kwa ZecHub ([@ZecHub](https://twitter.com/zechub)) kwenye Twitter au Jiunge na [Discord](https://discord.gg/zcash).
 
 ____
 
-**Ili kufanya malipo, ZecHub inawataka wachangiaji wote kujaza fomu ya tamko yenye Jina lao na Lindwa:**
+**Ili kufanya malipo, ZecHub inahitaji wachangiaji wote kujaza fomu ya tamko yenye Jina lao na ya Faragha [Shielded]:**
 
 **( Zcash | Namada | Penumbra | Ycash ) anwani**
 

@@ -4,6 +4,16 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Exchange non-custodial
 
+## In breve
+
+* Un exchange non-custodial (custodia di terzi) ti consente di scambiare monete dal tuo portafoglio. Mantieni le tue chiavi private e nessun conto di exchange detiene i tuoi fondi.
+* Mantenere le tue chiavi ti protegge da hack e fallimenti degli exchange. La privacy è una questione separata.
+* Il deposito che invii da un'altra chain, come Solana o Ethereum, è pubblico su quella chain. Il servizio di scambio vede anche i tuoi indirizzi e i dati di connessione.
+* Alcuni percorsi di scambio inviano ZEC a un indirizzo trasparente, che è pubblico.
+* Il tuo ZEC diventa privato una volta che si trova in un indirizzo schermato. Schermalo nel tuo portafoglio prima di spenderlo.
+
+## Spiegazione fondamentale
+
 [Zcash Exchange non-custodial](/dex)
 
 Nel mondo in continua evoluzione del trading di criptovalute, gli exchange non-custodial, noti anche come exchange decentralizzati o DEX, consentono agli utenti di fare trading senza affidare i propri fondi a un conto di exchange. Mantieni le tue chiavi, ma questo non significa che nessun altro sia coinvolto. A seconda del percorso, uno scambio può passare attraverso un sito web o un'app per portafogli, un servizio di routing, smart contract, solver e bridge.
@@ -12,21 +22,21 @@ Gli exchange elencati sopra ti consentono di ottenere e scambiare Zcash dal tuo 
 
 ### **Comprendere gli exchange non-custodial**
 
-Gli exchange non-custodial, noti anche come exchange decentralizzati (DEX), sono piattaforme che facilitano il trading di criptovalute senza richiedere agli utenti di depositare i propri fondi nell'exchange stesso. Gli utenti mantengono invece il controllo delle proprie chiavi private e fanno trading dai propri portafogli. Gli scambi cross-chain si affidano comunque ad altre parti per quotare, instradare e regolare lo scambio (vedi sotto).
+Gli exchange non-custodial (senza custodia di terzi), noti anche come exchange decentralizzati (DEX), sono piattaforme che facilitano la negoziazione di criptovalute senza richiedere agli utenti di depositare i propri fondi nell'exchange stesso. Gli utenti mantengono invece il controllo delle proprie chiavi private e negoziano dai propri portafogli. Gli scambi cross-chain dipendono comunque da altre parti per quotare, instradare e regolare lo scambio (vedi sotto).
 
 Ciò può migliorare la sicurezza, poiché gli utenti non si affidano all'exchange per custodire i propri asset, riducendo il rischio di hack o cattiva gestione. Tuttavia, non rende di per sé privato uno swap. Le transazioni sugli exchange non-custodial spesso utilizzano smart contract, che sono pubblici, e il servizio utilizzato può comunque vedere i tuoi indirizzi e i dettagli della connessione.
 
 Un vantaggio fondamentale degli exchange di criptovalute non-custodial risiede nel maggiore controllo che offrono agli utenti sui propri asset. Poiché questi exchange non trattengono gli asset, gli utenti godono della piena proprietà e autorità sulle proprie valute digitali.
 
-### **Exchange non-custodial vs exchange custodial**
+### **Exchange non-custodial vs exchange custodial (custodia di terzi)**
 
 **#1 Sicurezza**: gli exchange non-custodial eliminano la necessità di conservare fondi in un conto di exchange centrale. Gli utenti mantengono il controllo delle proprie chiavi private, riducendo il rischio di hack, attacchi interni e fallimenti della piattaforma che gli exchange custodial possono subire. Gli swap cross-chain possono comunque trattenere fondi per breve tempo in un indirizzo di deposito o in un bridge durante la regolazione dello scambio.
 
-**#2 Privacy**: gli scambi non-custodial di solito non richiedono un conto di exchange, quindi spesso non è necessario registrarsi con un'email o un documento d'identità. Questo non equivale all'anonimato. Il deposito inviato sulla rete di origine (ad esempio Solana o Ethereum) è pubblico su quella chain, e il servizio può comunque vedere gli indirizzi del portafoglio, l'indirizzo IP e i dettagli dello scambio. La privacy sul lato di Zcash dipende da dove finisce il tuo ZEC (vedi sotto).
+**#2 Privacy**: gli scambi non-custodial di solito non richiedono un account su un exchange, quindi spesso eviti di registrarti con un'email o un documento d'identità. Questo non equivale all'anonimato. Il deposito che invii sulla rete di origine (ad esempio, Solana o Ethereum) è pubblico su quella chain, e il servizio può comunque vedere gli indirizzi del tuo portafoglio, il tuo indirizzo IP e i dettagli dello scambio. La privacy sul lato Zcash dipende da dove arrivano i tuoi ZEC (vedi sotto).
 
 **#3 Decentralizzazione**: gli exchange non-custodial sono più in linea con l'etica decentralizzata delle criptovalute. Gli utenti hanno maggiore autonomia e controllo sulle proprie attività di trading, in linea con i principi più ampi della tecnologia blockchain.
 
-Quando si tratta di exchange custodial, il livello di decentralizzazione è spesso piuttosto minimo nella maggior parte degli exchange centralizzati, che portano il team o i responsabili dell'exchange a gestire i dati o le informazioni degli utenti sull'exchange.
+Quando si tratta di exchange custodial, il livello di decentralizzazione è spesso piuttosto minimo nella maggior parte degli exchange centralizzati, il che porta il team o i funzionari dell'exchange a gestire i dati o le informazioni degli utenti sull'exchange.
 
 **#4 Adattabilità alle normative in evoluzione**: gli exchange non-custodial sono spesso più adattabili ai contesti normativi in evoluzione. Poiché non detengono i fondi degli utenti, potrebbero avere minori difficoltà di conformità rispetto agli exchange custodial.
 
@@ -67,6 +77,16 @@ NEAR Intents inoltre [sottopone a controlli i flussi di preventivo integrati](ht
 - Dati di connessione. I termini di 1Click affermano che Intents Technology può raccogliere metadati delle richieste, indirizzi IP e indirizzi dei portafogli, mentre l'informativa sulla privacy di near.com elenca indirizzo IP, posizione, browser e informazioni sul dispositivo.
 - Qualsiasi elemento aggiunto dall'app, come altri indirizzi di portafogli connessi. Le app possono inoltre sottoporre il tuo portafoglio ai propri controlli di conformità.
 
+## Immagine / Analogia
+
+Un exchange custodial (custodia di terzi) funziona come una banca. Apri un conto, lasci il tuo denaro nel suo caveau e chiedi alla banca di fare trading per te.
+
+Uno scambio non-custodial (autocustodia) funziona come uno sportello di cambio valuta in una strada affollata. Passi i contanti attraverso lo sportello, ricevi una valuta diversa in cambio e non lasci mai denaro al cassiere. Le persone per strada possono vederti avvicinarti e consegnare i contanti, proprio come chiunque può vedere il tuo deposito sulla chain di origine. Il cassiere vede il tuo volto e l'importo.
+
+Cosa fare al termine della finestra dipende da te. Metti le nuove monete in una busta sigillata, usa un indirizzo schermato e nessuno potrà seguirle da lì.
+
+## Implicazioni pratiche
+
 ### **Dove verificare termini e assistenza**
 
 I termini cambiano, quindi leggi le versioni attuali prima di uno swap di importo elevato.
@@ -85,3 +105,23 @@ Gli exchange non-custodial, o DEX, ti consentono di fare trading dal tuo portafo
 Sebbene gli exchange non-custodial offrano vantaggi interessanti, è importante riconoscere che possono presentare svantaggi, quali potenziali problemi di liquidità e una curva di apprendimento più ripida per gli utenti meno esperti.
 
 Come per qualsiasi decisione finanziaria, i trader dovrebbero valutare attentamente le proprie priorità, la tolleranza al rischio e la familiarità con la tecnologia prima di scegliere tra opzioni di exchange non-custodial e custodial.
+
+## Errori comuni
+
+- **Considerare "non-custodial" come "privato".** Mantenere le tue chiavi protegge i tuoi fondi dal fallimento di un exchange. Il deposito sulla chain di origine è pubblico e il servizio vede i tuoi indirizzi e il tuo indirizzo IP.
+- **Lasciare gli ZEC ottenuti dallo scambio su un indirizzo trasparente.** Se il percorso effettua il pagamento a un indirizzo t1 o t3, sposta gli ZEC a un indirizzo schermato nel tuo portafoglio prima di spenderli.
+- **Saltare il controllo dell'indirizzo di rimborso.** Uno scambio non riuscito può tornare all'indirizzo di rimborso che hai fornito e i rimborsi non sono garantiti. Controlla quell'indirizzo prima di inviare.
+- **Interpretare "nessun KYC" come "nessun controllo".** La maggior parte dei servizi verifica gli indirizzi dei portafogli rispetto ai database di conformità, quindi uno scambio segnalato può subire ritardi o essere bloccato.
+
+## Pagine correlate
+
+- [DEX](/using-zcash/dex): exchange non-custodial (senza custodia di terzi) che supportano ZEC.
+- [Scambi centralizzati](/using-zcash/centralized-swaps): servizi di scambio istantaneo che funzionano senza un account su un exchange.
+- [Exchange custodial](/using-zcash/custodial-exchanges): exchange che detengono i tuoi fondi in un account.
+- [Pool schermate](/using-zcash/shielded-pools): dove i tuoi ZEC diventano privati dopo uno scambio.
+- [Indirizzi unificati](/using-zcash/unified-addresses): l'indirizzo `u1` che la maggior parte dei portafogli ti fornisce per ricevere ZEC.
+- [Solana ZECverso schermato](/using-zcash/solana-zec-to-shielded): spostare ZEC da Solana a un indirizzo schermato.
+- [Usare ZEC in modo privato](/guides/using-zec-privately): cosa fare con i tuoi ZEC una volta ricevuti.
+- [Chi può vedere il tuo pagamento Zcash](/start-here/who-can-see-your-zcash-payment): cosa rimane visibile su ciascun lato di un pagamento.
+
+**Ultimo aggiornamento:** ottobre 2026

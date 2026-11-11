@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Zcash_Community_Grants.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/>  Zcash Community Grants
@@ -22,7 +22,7 @@
 
 Το πρόγραμμα Παγκόσμιων Πρεσβευτών βοηθά το Zcash να αποκτήσει ευρύτερη διεθνή εκπροσώπηση και να διοργανώνει δια ζώσης εκδηλώσεις της κοινότητας σε όλο τον κόσμο. 
 
-Αρκετά ακόμη έργα έχουν εξεταστεί από την Επιτροπή Επιχορηγήσεων Zcash, δες μια [Πλήρη, ενημερωμένη λίστα](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) υποβληθέντων έργων.
+Αρκετά ακόμη έργα έχουν εξεταστεί από την Επιτροπή Επιχορηγήσεων του Zcash, δες μια [πλήρη, ενημερωμένη λίστα](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745) υποβληθέντων έργων.
 
 ## Οργανωτική δομή
 
@@ -34,7 +34,7 @@
 
 ## Πόροι
 
-[Zcash ανάπτυξη και διακυβέρνηση](https://z.cash/zcash-development-and-governance/)
+[ανάπτυξη και διακυβέρνηση του Zcash](https://z.cash/zcash-development-and-governance/)
 
 
 

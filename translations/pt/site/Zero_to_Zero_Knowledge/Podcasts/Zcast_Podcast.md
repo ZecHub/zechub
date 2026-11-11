@@ -4,7 +4,7 @@
 
 # Podcast Zcast
 
-[Zcast - Zcash em Espanhol](https://zcashesp.com/zcast/)
+[Zcast - Zcash em espanhol](https://zcashesp.com/zcast/)
 
 
 
@@ -14,4 +14,4 @@
 * [🎙️ O perfil de um verdadeiro Zcasher 💪 - EP 003](https://www.youtube.com/watch?v=uBeE1p3dDJw)
 * [ 😎 #ZookoEnZcast Conseguimos! 💪 - EP 004 ](https://www.youtube.com/watch?v=M5qkbFPeISw)
 * [🎙️ Rumo à Zcon4 ✈️ - EP 005](https://www.youtube.com/watch?v=Svi0GyQ2JJc)
-* [🎙️ Como aproveitar o ecossistema da Zcash 💪 - EP 006](https://youtu.be/eecILLGwHrQ)
+* [🎙️ Como aproveitar o ecossistema do Zcash 💪 - EP 006](https://youtu.be/eecILLGwHrQ)

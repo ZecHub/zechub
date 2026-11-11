@@ -1,26 +1,26 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/IPFS_File_Sharing.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aza Axɛ"/>
 </a>
 
-# P2P Faɛl Mamã kple IPFS kple Brave Browser
+# P2P Fayil Maɖeɖe Kple IPFS kple Brave Browser
 
-Míate ŋu azã IPFS atsɔ ama nyadzɔdzɔgblɔmɔnuwo ƒe faɛl gãwo le mía dome le Hatiwo ƒe mɔ nu.
+Míate ŋu azã IPFS be míamaɖe media fayil gãwo na míewo le ame kple ame dome [Peer-to-Peer] mɔ nu.
 
-Eyata nukae nye kuxia: IPFS agbowo mewɔa dɔ na faɛl gãwo o, woawu enu.
+Eya ta nya kae nye: IPFS mɔnuɖoƒewo [gateways] mewɔa dɔ na fayil gãwo o, woƒe ɣeyiɣi ava yi.
 
-**Nudidiwo**: [IPFS Dɔwɔƒe](https://docs.ipfs.tech/install/ipfs-desktop/) + [Browser Brave](https://brave.com/)
+**Nusiwo hiã**: [IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) + [Brave Browser](https://brave.com/)
 
-tldr, Video la le eƒe nuwuwu.
+Tldr, Video la le nuwuwu.
 
-Míate ŋu azã esia le mía dome le ZF AV Club hena nyadzɔdzɔgblɔmɔ̃ gãwo ƒe faɛlwo tsɔtsɔ yi teƒe bubu eye míaŋlɔe ɖi na mi katã elabena eƒe modzakaɖeɖe kple super fafɛ!!
+Míate ŋu azã esia le ZF AV Club me be míatrɔ media fayil gãwo, eye míade eƒe nyawo ɖe agbalẽ me na mi katã elabena edo dzidzɔ eye wònyo ŋutɔ!!
 
-*PLUS*, míawɔ dɔ aduadu kple IPFS ƒe ƒuƒoƒo si le Protocol Labs tẽe be míawɔ zazã ƒe nɔnɔme sia.
-Viɖe bubu si do tso kadodo siwo wowɔ le dWeb Camp me!
+*PLUS*, míawɔ dɔ kple IPFS ƒe team le Protocol Labs tɔgbui be míana zã nyawo sia nakpɔ ŋgɔ.
+Viɖe bubu si va tso kadodo siwo wɔ le dWeb Camp me!
 
-Ne womede IPFS ɖe mɔ̃ si xɔa nyatakakawo dzi o KPLEE nèzã browser si menye Brave o: Ahiã be nàlala be agbo aɖe natsɔ faɛl la ade eme. *Esia atrɔ vodada 504 ɖe faɛl gãwo dzi.*
+Ne wòmetsɔ IPFS de mɔ̃xɔ̃ƒe si le fayil la xɔm me OKE eye wòzã browser si menye Brave o la: Ele be nàlala be mɔnuɖoƒe la nade fayil la. *Esia atsɔ 504 vodada ava le fayil gãwo ŋu.*
 
-Next: Alesi nàwɔ pin peoples bubuwo ƒe faɛlwo le wò mɔ̃a dzi ale be míagakpɔ teƒe ɖeka si do kpo nu ƒe kuxia ne node gbãtɔa yi offline.
+Emegbe: Aleke nàte ŋu ada ame bubuwo ƒe fayilwo ɖe wò mɔ̃xɔ̃ƒe dzi be míaɖe ɖeka koe nye kuxiƒe [single point of failure] la le ɣeyiɣi si ɣaɣla dzesi ŋɔŋlɔ gbãtɔ la mele internet dzi o.
 
-[Video si le video sia me ƒe gomekpɔkpɔ le emee nye [https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4](https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4)](https://cdn.discordapp.com/attachments/1154434684558770237/1154435234276835338/IPFSdesktop_getStartedbrave_ZFAV_20230921.mp4)
+[Video si le video sia me ƒe maɖeɖe ƒe kadodo nye [https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4](https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4)](https://cdn.discordapp.com/attachments/1154434684558770237/1154435234276835338/IPFSdesktop_getStartedbrave_ZFAV_20230921.mp4)
 
-Video si le video sia me ƒe gomekpɔkpɔ le emee nye [https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4](https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4)
+Video si le video sia me ƒe maɖeɖe ƒe kadodo nye [https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4](https://ipfs.io/ipfs/QmU8SDV1ozFf2n7FVq52jxuQ3jKjHXj48V6k4xbDqojmNy?filename=MadBitcoinsOnABoat_kaiber.mp4)

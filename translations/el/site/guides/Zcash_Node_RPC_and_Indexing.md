@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Zcash_Node_RPC_and_Indexing.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Πρακτικός οδηγός: κόμβος RPC του Zcash και ευρετηρίαση blockchain
 
-Αυτή η σελίδα είναι ένας οδηγός συνταγών για την επικοινωνία με έναν ενεργό πλήρη κόμβο Zcash μέσω JSON-RPC και για τη σύνδεση ενός indexer που μπορούν να αναζητούν τα ελαφριά πορτοφόλια και οι explorers. **Δεν** είναι ένας δεύτερος οδηγός εγκατάστασης.
+Αυτή η σελίδα είναι ένας οδηγός συνταγών για την επικοινωνία με έναν ενεργό πλήρη κόμβο Zcash μέσω JSON-RPC και για τη σύνδεση ενός indexer που μπορούν να αναζητούν τα light wallets και οι explorers. **Δεν** είναι ένας δεύτερος οδηγός εγκατάστασης.
 
 Για το πώς να ενεργοποιήσεις τη στοίβα μετά το `zcashd` (Zebra + Zallet, προαιρετικό Zaino, θύρες, volumes, εκκίνηση δύο φάσεων), χρησιμοποίησε τη σελίδα [στοίβα Z3](/zcash-tech/z3-stack) και το [αποθετήριο Z3](https://github.com/ZcashFoundation/z3). Για υπόβαθρο σχετικά με τους κόμβους συναίνεσης, δες τους [πλήρεις κόμβους](/zcash-tech/full-nodes) και τον [πλήρη κόμβο Zebra](/zcash-tech/zebra-full-node).
 
@@ -12,7 +12,7 @@
 
 ---
 
-## Συνοπτικά
+## Με λίγα λόγια
 
 * Το **JSON-RPC** είναι ο τρόπος με τον οποίο οι διαχειριστές και τα πορτοφόλια ρωτούν έναν κόμβο για την κορυφή της αλυσίδας, τα peers και, σε μια διεργασία πορτοφολιού, τα υπόλοιπα. Στο Z3, το Zebra παρέχει RPC κόμβου· το Zallet παρέχει RPC πορτοφολιού.
 * Το **Regtest** είναι το κατάλληλο μέρος για να μάθεις τις κλήσεις. Ο rpc-router του Z3 στο `http://127.0.0.1:8181` δέχεται `zebra` / `zebra` και προωθεί μεθόδους κόμβου στο Zebra και μεθόδους πορτοφολιού στο Zallet.
@@ -28,7 +28,7 @@
 | --- | --- | --- | --- |
 | Κορυφή αλυσίδας, peers, `getblockchaininfo` | JSON-RPC του Zebra | 8232 | Cookie auth |
 | Υπόλοιπο πορτοφολιού, διευθύνσεις, αποστολή | RPC του Zallet | 28232 | Ξεχωριστή διεργασία· beta λογισμικό |
-| Compact blocks για ελαφριά πορτοφόλια | gRPC του Zaino | 8137 | Μόνο με το `--profile indexer`· απλό κείμενο h2c |
+| Compact blocks για light wallets | gRPC του Zaino | 8137 | Μόνο με το `--profile indexer`· απλό κείμενο h2c |
 | Proxy JSON-RPC explorer / faucet | JSON-RPC του Zaino | 8237 | Μόνο αξιόπιστο δίκτυο |
 | Εξάσκηση σε όλα τα παραπάνω χωρίς συγχρονισμό | rpc-router regtest Z3 | 8181 | Όνομα χρήστη `zebra` / κωδικός πρόσβασης `zebra` |
 
@@ -84,7 +84,7 @@ docker compose --env-file .env.mainnet up -d
 
 ### Zaino (ό,τι παρέχει το Z3)
 
-Το Zaino διαβάζει το Zebra και παρέχει ένα API gRPC συμβατό με lightwalletd, μαζί με ένα proxy JSON-RPC. Το Zallet **δεν** χρειάζεται το ανεξάρτητο container Zaino· ενσωματώνει βιβλιοθήκες Zaino και επικοινωνεί με το Zebra μέσω JSON-RPC. Εκκίνησε το ανεξάρτητο Zaino όταν θέλεις εξωτερικά ελαφριά πορτοφόλια, explorers ή faucets:
+Το Zaino διαβάζει το Zebra και παρέχει ένα API gRPC συμβατό με lightwalletd, μαζί με ένα proxy JSON-RPC. Το Zallet **δεν** χρειάζεται το ανεξάρτητο container Zaino· ενσωματώνει βιβλιοθήκες Zaino και επικοινωνεί με το Zebra μέσω JSON-RPC. Εκκίνησε το ανεξάρτητο Zaino όταν θέλεις εξωτερικά light wallets, explorers ή faucets:
 
 ```bash
 docker compose --env-file .env.mainnet --profile indexer up -d
@@ -134,7 +134,7 @@ grpcurl -plaintext \
 
 **Δημόσια έκθεση του JSON-RPC του Zaino ή του indexer gRPC του Zebra.** Αυτά τα endpoints προορίζονται για loopback ή αξιόπιστο ιδιωτικό δίκτυο.
 
-**Υπόθεση ότι κάθε ελαφρύ πορτοφόλι μιλά ήδη Zaino.** Έλεγξε την τρέχουσα έκδοση του πορτοφολιού σε σχέση με το πρωτόκολλο που υλοποιεί πραγματικά.
+**Υπόθεση ότι κάθε light wallet μιλά ήδη Zaino.** Έλεγξε την τρέχουσα έκδοση του πορτοφολιού σε σχέση με το πρωτόκολλο που υλοποιεί πραγματικά.
 
 ---
 

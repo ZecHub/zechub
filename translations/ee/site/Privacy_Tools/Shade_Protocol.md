@@ -4,70 +4,70 @@
 
 ![Shade Protocol Logo](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
-## Nukae nye Shade Protocol?
+## Nu kae nye Shade Protocol?
 
-Shade Protocol nye DeFi (Decentralized Finance) ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖo si kpɔa ame ŋutɔ ƒe nyawo ta si ƒe taɖodzinue nye be yeana ganyawo ŋuti nu vovovowo esime wòle ekpɔm be ezãlawo ƒe nya ɣaɣlawo kple dedienɔnɔ le wo si. Wotue ɖe Secret Network dzi, Shade Protocol léa fɔ ɖe ganyawo ƒe nɔnɔme si wotu ɖe ame ŋutɔ ƒe nyawo dzi wɔwɔ ŋu, si naa dɔwɔnuwo abe stablecoins, nunɔamesi siwo wowɔ, gadodo ƒe mɔnuwo, kple bubuwo ezãlawo. Shade Protocol ƒe adzɔnu vevitɔe nye Silk Stablecoin, si ƒoa ameŋunyatakakawo ƒe nɔnɔmewo kple asixɔxɔ ƒe liƒo nu ƒu.
+Shade Protocol nye ɣaɣla [privacy] ƒe DeFi (Ha nuɖo agni [decentralized] ƒe Gamedzedze) ƒe nɔnɔme si di be yeaɖe gadzedze ƒe nuwo geɖe na, eye wòana zazãla ƒe ɣaɣla kple dedienyenye nɔ anyi. Woɖo e ɖe Secret Network dzi, eye Shade Protocol tsɔe ɖo ŋgɔ be wòawɔ gadzedze ƒe nɔnɔme si tsɔ ɣaɣla ɖo ŋgɔ, eye wòana dɔwɔnu [tools] abe stablecoin, asinu siwo wodea asi be wòanɔ asinu bubu teƒe, fiafiagaƒe, kple bubuwo ene. Shade Protocol ƒe nusi kɔtɔe wu nye Silk Stablecoin, si tsɔ ɣaɣla ƒe nɔnɔme kple asixɔxɔ ƒe tsitotsito ƒo ƒu.
 
-## Mɔ̃ɖaŋununya si Wozã 
+## Teknolodzɔ Si Wozã 
 
-**Adzame Nyatakakadzraɖoƒe**
+**Secret Network**
 
-Wotu Shade Protocol ɖe Secret Network, si nye layer 1 blockchain si naa ameŋunyatakakawo takpɔkpɔ smart contracts dzi. Secret Network zãa nyatakaka siwo wotsɔ nya ɣaɣlawo ŋlɔ, nusiwo woɖe tso eme, kple nɔnɔme tsɔ kpɔa egbɔ be asitsatsa ƒe nya ɣaɣlawo le ɣaɣla, si kpɔa ezãla ƒe nyatakakawo ta be woagaɖe wo ɖe go le dutoƒo agbalẽ me o.
+Shade Protocol ƒe tutu le Secret Network dzi, si nye layer 1 blockchain [blockchain] si naa ɣaɣla wɔm ɖe mɔ̃ŋlɔ ƒe dɔwɔwɔ [smart contract] dzi. Secret Network zãa nyatakaka siwo woŋlɔ ɣaɣla [encryption], emetsonuwo, kple nɔnɔme be gaɖoɖo [transaction] ƒe ɣaɣla nanɔ anyi, eye wòaxa mɔ na be woagblɔ zazãla ƒe nyatakaka ɖe dukɔ bliboa ƒe agbalẽ dzi.
 
 ![Secret Network Diagram](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
-Secret Network na be dɔwɔlawo te ŋu tua dɔwɔɖoɖo siwo woɖe ɖe vovo kple nyatakaka siwo wotsɔ nya ɣaɣlawo ŋlɔ, le Secret kple blockchain bubuwo dzi le wo ɖokui si to cross chain communication dzi, si ʋua zazã yeye sẽŋuwo na Web3.
+Secret Network naa mɔ̃ ƒe ɖoɖoŋlɔla [developer]wo te ŋu wɔ ha nuɖo agni [decentralized] ƒe dɔwɔwɔwo kple nyatakaka siwo woŋlɔ ɣaɣla, le Secret ŋutɔ dzi kple blockchain [blockchain] bubuwo dzi to ɖoɖonu geɖe dome [cross-chain] ƒe nyamedzodzro me, eye wòʋu mɔ na zã nyawo [use case] yeye siwo ŋusẽ le na Web3.
 
-**Cosmos SDK kple Tendermint Nu vevi**
+**Cosmos SDK kple Tendermint Core**
 
-Wowɔ Cosmos be woatsɔ aƒo blockchains heterogeneous nu ƒu to mɔ nyuitɔ kple egbegbe tɔ siwo dzi woato atu blockchains siawo gɔme to dɔwɔnu yeyewo abe Tendermint kple Cosmos SDK zazã me. 
-Ðoɖowɔɖia zãa Cosmos SDK, si nye modular ɖoɖo si wotsɔ tu blockchain dɔwɔɖoɖo siwo woate ŋu akeke ɖe enu eye woate ŋu awɔ dɔ aduadu. Esia na Shade Protocol kpɔa viɖe tso Cosmos lãwo ƒe agbenɔnɔ ƒe sesẽ kple dɔwɔwɔ aduadu me.
+Cosmos ƒe tɔgbi nye be wòaɖe mɔ na blockchain [blockchain] siwo to vovototo me nɔ be woakplɔ ɖe ɖokuiwo ŋu, to mɔ nyui kple yeye siwo na woatɔ blockchain [blockchain] siawo kple dɔwɔnu [tools] yeye abe Tendermint kple Cosmos SDK ene me.  
+Protocol la zãa Cosmos SDK, si nye mɔɖeɖe ƒe akpa geɖe si wotsɔ wɔ blockchain [blockchain] ƒe dɔwɔwɔ siwo ate ŋu akpɔ dzi kple awɔ dɔ kple wo nɔviwo. Esia naa Shade Protocol ŋutega be wòakpɔ ŋusẽ kple dɔwɔwɔ kple bubuwo ƒe nɔnɔme si le Cosmos ƒe nɔnɔme me.
 
 ![Cosmos SDK and Tendermint Core Diagram](/content-images/83dfbb311bfd6ce22d1c9468160d8e33b4c5ce8e-ed16bb7658.webp)
 
-Le nukpɔsusu ɖeka kple network ƒe dedienɔnɔ gome la, Shade Protocol zãa Tendermint Core, si naa Byzantine Fault Tolerant (BFT) ƒe nukpɔsusu ɖeka, si naa dedienɔnɔ gã kple nuwuwu kabakaba.
+Na gbegbɔgblɔ ɖi [consensus] kple network la ƒe dedienyenye, Shade Protocol zãa Tendermint Core, si naa Byzantine Fault Tolerant (BFT) gbegbɔgblɔ ɖi [consensus], eye wòna dedienyenye gã kple nu ƒe wɔwɔ ƒe nuwuwu kabakaba.
 
-**Adzamenyawo Takpɔkpɔ Ganyawo Gbɔkpɔkpɔ le Dɔwɔƒewo**
+**Ha Nuɖo Agni ƒe Gamedzedze Si Tsɔ Ɣaɣla Ɖo Ŋgɔ**
 
-DeFi zãa nya ɣaɣlawo takpɔkpɔ ƒe mɔnu deŋgɔwo abe asitsatsa siwo wotsɔ nya ɣaɣlawo ŋlɔe, sidzedze zero ƒe kpeɖodziwo, kple ame ŋutɔ ƒe smart contracts tsɔ léa zãla ƒe adzamenyawo kple nyatakakawo ƒe nya ɣaɣlawo ɖe te le blockchain networkwo dzi. To mɔ̃ɖaŋunuwo abe Secret Network ƒe adzame nubablawo kple Cosmos SDK zazã hena dɔwɔwɔ aduadu me la, egbɔkpɔnu siawo wɔnɛ be woate ŋu awɔ asitsatsa ɣaɣlawo, ame ŋutɔ ƒe nunɔamesiwo dzi kpɔkpɔ, kple nyatakakawo ɖeɖe ɖe go tiatiatɔe, si kpɔa egbɔ be ganyawo ƒe dɔwɔnawo gakpɔtɔ le dedie eye wowɔ ɖe ameŋunyatakakawo ŋuti sewo dzi. Mɔnu sia kpɔa ezãlawo ta tso amewo yometiti kple ametafatafa me, si naa ganyawo ƒe ablɔɖe si woɖe ɖe vovo esime wole ameŋunyatakakawo ŋuti dzidzenuwo dzi wɔm.
+DeFi si tsɔ ɣaɣla [privacy] ɖo ŋgɔ zãa ŋgɔyiyi ƒe kryptografi mɔwo abe gaɖoɖo [transaction] siwo woŋlɔ ɣaɣla, zero-knowledge [zero-knowledge] ɖaseɖigbalɛ [proof]wo, kple mɔ̃ŋlɔ ƒe dɔwɔwɔ [smart contract] siwo nye ame ŋutɔ ƒe nu ene, be zazãla ƒe ɣaɣla kple nyatakaka ƒe ɣaɣla nanɔ anyi le blockchain [blockchain] ƒe networkwo dzi. To teknolodzɔwo abe Secret Network ƒe secret contracts kple Cosmos SDK si naa woawɔ dɔ kple bubuwo ene ƒe zãzã me la, nyawo siawo naa gaɖoɖo [transaction] siwo nye ame ŋutɔ ƒe nu, asinuwo ƒe dzikpɔkpɔ si nye ame ŋutɔ ƒe nu, kple nyatakaka tɔxɛ ɣaɣla [selective disclosure], eye wòna gadzedze ƒe dɔwɔwɔwo nɔ dedie eye woawɔ ɖe ɣaɣla ƒe sewo nu. Mɔ sia doa zazãlawo ɖe teƒe le yometoto kple aʋatsɔtsɔ ŋu, eye wònaa ha nuɖo agni [decentralized] ƒe gadzedze ƒe ablɔɖe, esime wòle ɣaɣla ƒe dzidzime sewo te.
 
-## Dɔbiagbalẽviwo
+## Dɔwɔwɔwo
 
-**Vɔvɔli kple Seda ƒe Dzesiwo**
+**Shade kple Silk Tokenwo**
 
-Shade Protocol zãa nukpɔkpɔ ƒe safuiwo na eƒe dzesi vevi eveawo: Vɔvɔli ($SHD) kple Seda ($SILK). Vɔvɔli ($SHD) wɔa dɔ geɖe, ewɔa dɔ abe gaxɔ, dziɖuɖu, kple gakpɔkpɔ mama ƒe dzesi ene le lãwo ƒe agbenɔnɔ ƒe ɖoɖoa me. Wozãnɛ le gadede asi, dziɖuɖu ŋuti aɖaŋuɖoɖowo, gazazã ƒe ɖoɖowɔwɔ, asitsatsa, kple gagbalẽwo me. Seda ($SILK), le go bubu me, nye ɖoɖowɔɖia ƒe adzamenyawo gbɔ kpɔkpɔ ƒe susu stablecoin, pegged ɖe kusi vovovowo ƒe xexeame katã ƒe ga kple adzɔnuwo abe sika, Bitcoin, USD, Euro, kple Yen.
+Shade Protocol zãa nukpɔsafui [viewing key]wo na eƒe token [token] vevi evea: Shade ($SHD) kple Silk ($SILK). Shade ($SHD) wɔa dɔ geɖe, eye wònye gadzraɖoƒe [treasury], dziɖuɖu [governance], kple ga si woma ƒe token [token] le nɔnɔme la me. Wozãa e le ga ƒuƒoƒo [staking], dziɖuɖu [governance] ƒe ɖoɖowo, tsi tsɔtsɔ na, gaɖoɖo [transaction]wo, kple ga si wode ɖe asi [bond]wo me. Silk ($SILK) hã nye protocol la ƒe stablecoin si tsɔ ɣaɣla [privacy] ɖo ŋgɔ, eye wode eƒe asixɔxɔ ɖe dukɔwo ƒe ga kple asinu siwo le xexeame katã ƒe ƒoƒo vovovo dzi, abe sika, Bitcoin, USD, Euro, kple Yen ene.
 
 ![Shade and Silk Tokens - Part 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
 ![Shade and Silk Tokens - Part 2](/content-images/IUC9YWfErTebCBsMkdbCnjSWGEY-4ed6d5cedf.webp)
 
-### Adzame
+### Ɣaɣla
 
-Susu vevi siwo tae zãlawo ate ŋu alɔ̃ Shade Protocol dometɔ ɖekae nye adzamenyawo si wònana. Wokpɔa asitsatsa siwo le Shade dzi ta be amewo nagakpɔ wo o, si wɔnɛ be ganyawo ŋuti nyatakakawo gakpɔtɔ nye nya ɣaɣlawo. To vovo na dutoƒo blockchain xoxo siwo me amesiame kpɔa asitsatsa ŋuti nyatakakawo le la, Shade Protocol dzesiwo zãa nyatakaka siwo wotsɔ ɣla, nusiwo dona, kple nɔnɔmewo, si fia be nyatakaka veviwo nɔa ɣaɣla ɖe ŋku siwo le ŋku lém ɖe eŋu. Esia nana be ezãlawo ƒe nyatakakawo kple dedienɔnɔ nyona ɖe edzi, si wɔnɛ be ame ɖekaɖekawo te ŋu wɔa ganyawo ŋuti dɔwɔnawo evɔ womeɖea woƒe nyatakakawo alo asitsatsa ŋutinyawo ɖe go o, si wɔnɛ be wokpɔa wo ta tso ŋɔdzinu siwo ate ŋu ado mo ɖa me eye wokpɔa ganyawo ŋuti nya ɣaɣlawo ta.
+Ta vevi si ta zazãlawo ate ŋu atɔ Shade Protocol ƒe nudzɔdzɔ wɔe nye ɣaɣla [privacy] si wònaa. Gaɖoɖo [transaction]wo le Shade dzi nye ɣaɣla [shielded] tso dukɔ bliboa ƒe nukpɔkpɔ ŋu, eye esia na be gadzedze ƒe nyatakaka nɔ ame ŋutɔ ƒe nu. To vovototo me tso blockchain [blockchain] dukɔ bliboa tɔxɛ siwo me gaɖoɖo [transaction] ƒe nyatakakawo ɖea fia na amewo katã la, Shade Protocol token [token]wo zãa nyatakaka siwo woŋlɔ ɣaɣla [encryption], emetsonuwo, kple nɔnɔmewo, si fia be nyatakaka siwo megbɔna o nɔ ɣaɣla tso ame siwo le nukpɔkpɔ le agbagba ŋu. Esia doa zazãla ƒe ɣaɣla kple dedienyenye ɖe ŋgɔ, eye wòna amewo te ŋu wɔ gadzedze ƒe dɔwo manaa woƒe ame ŋutɔ ƒe nyatakaka alo gaɖoɖo [transaction] ƒe xexlẽme nado go o, eye wòtoa mɔ na afɔku siwo ate ŋu ava eye wòle gadzedze ƒe nyatakaka ɣaɣla kpɔm.
 
-### Asixɔxɔ si Li ke
+### Asixɔxɔ Si Nɔ Tsitotsito
 
-Silk Stablecoin naa asixɔxɔ ƒe liƒo, si le vevie ŋutɔ na ezãla siwo di be yewoaƒo asa na tɔtrɔ si do ƒome kple cryptocurrencies zi geɖe. Wotsɔa seda blaa nunɔamesiwo ƒe kusi aɖe, si kpena ɖe eŋu be eƒe asixɔxɔ nɔa anyi le ɣeyiɣi aɖe megbe. Stablecoin ɖesiaɖe kpɔa eƒe asixɔxɔ tso teƒe aɖe koŋ, zi geɖe la, wotsɔa wo sɔna kple United States dɔlar. Gake mɔnu sia hea afɔku veviwo vɛ, eye zi geɖe la, womedea dzesii o. Seda ɖea afɔku siawo dzi kpɔtɔna to eƒe liƒo me léle ɖe asi le xexeame ƒe tɔtrɔ kpata dome evɔ meɖoa ŋu ɖe asixɔxɔ ƒe dzesi ɖeka abe United States dɔlar ene ŋu o. Ke boŋ wotu Silk ƒe asixɔxɔ ɖe dzesi si woda kpekpeme na si woyɔna be Silk Currency Basket dzi. Kusi sia me xexeame ƒe ga tiatia aɖewo (USD, CAD, EUR, JPY) kple adzɔnuwo abe Bitcoin kple sika ene le. To ga kple nunɔamesi geɖewo dede eme me la, Silk kpɔa peg ƒe liƒo geɖe wu ne wotsɔe sɔ kple ga ɖekaɖekawo. Numekuku kple dodokpɔ geɖe ɖee fia be sika kple Bitcoin, abe asixɔxɔ ƒe nudzraɖoƒe siwo ŋu kakaɖedzi le ene, wɔa dɔ wu ga xoxowo, si tae wotsɔ wo de kusia me.
+Silk Stablecoin naa asixɔxɔ ƒe tsitotsito, si le vevie na zazãla siwo di be woage ɖa tso asixɔxɔ ƒe dzidzimegblẽ si wotsɔa kplɔa crypto-gaawo yome zi geɖe ŋu. Wode Silk ƒe asixɔxɔ ɖe asinuwo ƒe ƒoƒo dzi, si kpena ɖe eƒe asixɔxɔ ƒe nɔnɔ teƒe le ɣeyiɣi me. Stablecoin siawo katã kpɔa woƒe asixɔxɔ tso teƒe aɖe, eye zi geɖe wodea woƒe asixɔxɔ ɖe US dollar dzi. Ke mɔ sia tsɔa afɔku gã, si amewo menya o zi geɖe, va. Silk le afɔku siawo dom ɖa to asixɔxɔ ƒe tsitotsito ƒe dzadzɛ ɖe xexeame katã ƒe asixɔxɔ ƒe dzidzimegblẽ me, eye meɖea e ɖe asixɔxɔ ɖeka dzi abe US dollar ene o. Le esime la, Silk ƒe asixɔxɔ tso index si wode dzito na, si woyɔna be Silk Currency Basket, me. Ƒoƒo sia me dukɔwo ƒe ga (USD, CAD, EUR, JPY) kple asinuwo abe Bitcoin kple sika le. To ga kple asinu geɖe ƒe tsɔtsɔ ɖe eƒe me la, Silk kpɔa asixɔxɔ ƒe tsitotsito gã wu dukɔ ɖeka ƒe ga. Dɔlékpɔkpɔ gã kple dodokpɔwo fia be sika kple Bitcoin, siwo nye asixɔxɔ ƒe dzraƒe siwo woate ŋu akpɔ dzi, le ŋusẽ kple dukɔwo ƒe ga ƒe mɔ na, eye esia ɖe woƒe tsɔtsɔ ɖe ƒoƒo la me ƒe nyuitɔɖoɖo fia.
 
-### Decentralisation ƒe ɖoɖowɔwɔ
+### Ha Nuɖo Agni
 
-Abe DeFi ƒe mɔ̃ ene la, Shade Protocol wɔa dɔ titina dziɖuɖu aɖeke manɔmee, si naa ezãlawo kpɔa ɖokuisinɔnɔ le ganyawo gome. Shade Protocol's dziɖuɖu si woɖe ɖe vovo la ɖea mɔ na eƒe nuto si me dzesiwo le be woakpɔ gome le nyametsotsowɔwɔ me tẽ. Token xɔlawo ateŋu ado tɔtrɔwo ƒe susu ɖa, ada akɔ ɖe afɔɖeɖewo ŋu, eye woawɔ akpa aɖe le ɖoɖowɔɖia ƒe ŋgɔyiyi kple mɔfiame me. Esia nana be woama dziɖuɖua ɖe amesiwo kpɔ gome le eme ƒe ƒuƒoƒo vovovowo me tsɔ wu be dziɖuɖumegã aɖe nalée ɖe asi. To blockchain mɔ̃ɖaŋununya zazã me la, dziɖuɖu ƒe ɖoɖoa le gaglãgbe, le dedie, eye metrɔna o, si doa lãwo ƒe agbenɔnɔ ƒe ɖoɖo si xɔa amewo katã ɖe eme wu eye wòte ŋu nɔa te ɖe nɔnɔme sesẽwo nu wu.
+Elabena Shade Protocol nye DeFi ƒe platform, ewɔa dɔ manɔ dziɖuɖu ƒe teƒe ɖeka ƒe kontrol te o, eye wònaa zazãlawo gadzedze ƒe ɖokui wɔnɔanyi. Shade Protocol ƒe ha nuɖo agni [decentralized] ƒe dziɖuɖu [governance] naa eƒe token [token] ƒe tɔlawo ƒe ha la te ŋu anɔ te ŋutɔ le nyametsotso ƒe mɔ me. Token [token] ƒe tɔlawo ate ŋu aɖo tɔtrɔwo ɖe ŋgɔ, akaka ɖe dɔwɔwɔwo ŋu, eye woatsɔ asi kpe ɖe protocol la ƒe ŋgɔyiyi kple afi si wòle yi la ŋu. Esia na be woama kontrol la le ame geɖe siwo le nyawo me ƒe asi, le esime meɖele dziɖula ɖeka ƒe asi o. To blockchain [blockchain] teknolodzɔ ƒe zãzã me la, dziɖuɖu [governance] ƒe mɔ la nye nuwo ƒe ʋuʋuɖi [transparent], dedie, eye mele tɔtrɔ ate ŋu o, si wɔa nɔnɔme si wɔ ɖe ame geɖe ƒe hiãhiã nu eye wòle ŋusẽ me.
 
-### Dɔwɔwɔ ɖekae
+### Dɔwɔwɔ Kple Bubuwo
 
-Cosmos lãwo ƒe agbenɔnɔ ƒe akpa aɖe nyenye fia be Shade Protocol ateŋu awɔ nu kple blockchain bubuwo bɔbɔe, si ana gazazã nanyo ɖe edzi eye wòana mɔnukpɔkpɔ geɖe ezãlawo be woawɔ woƒe nunɔamesiwo ŋudɔ le network vovovowo dzi. To ameŋunyatakakawo takpɔkpɔ ƒe mɔ̃ɖaŋununya siwo tso Secret Network la zazã me la, Shade Protocol kpɔa egbɔ be cross chain dɔwɔna siawo lé nya ɣaɣlawo kple fɔmaɖimaɖi me ɖe asi. Menye ɖeko dɔwɔwɔ aduadu sia doa ŋusẽ dɔwɔwɔ siwo woɖe ɖe vovo ƒe asitɔtrɔ kple dɔwɔwɔ ko o, ke edoa blockchain ƒe lãwo ƒe agbenɔnɔ ƒe ɖoɖo si do ƒome kple wo nɔewo eye wòsẽ wu hã ɖe ŋgɔ, si ɖea ŋuɖoɖo ɖe kadodo siwo sa ɖe aga ŋu dzi kpɔtɔna eye wòdoa ganyawo gbɔ kpɔnu siwo woɖe ɖe vovo ƒe zazã ɖe ŋgɔ le mɔ si keke ta wu nu.
+Nenye be wòle Cosmos nutinɔnɔ me la, e fia be Shade Protocol ate ŋu akaka ɖoɖonu bubuwo siwo nye gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain]wo ŋu bɔbɔe, eye wòana ga ƒe tsidzidzime nava anyi, eye wòana mɔ geɖe na zãlawo be woazã woƒe nuwo le network vovovowo me. Ne wòzã ɣaɣla [privacy] ƒe teknoloji siwo tso Secret Network la, Shade Protocol dea dzi be ɖoɖonu geɖe dome dɔwɔwɔ siawo nɔ ɣaɣla me eye woƒe nyateƒe nɔ anyi. Ɖoɖo sia ƒe nɔewo dome kadodo menoa ha nuɖo agni [decentralized] dɔwɔwɔwo ƒe bɔbɔe kple wɔnɔnɔ dzi ɖe edzi ko o, ke boŋ ena gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe nutinɔnɔ siwo kadodo le dome eye womegbɔna ŋu gɔmeɖe network siwo tɔ ɖe wo ŋutɔwo ŋu la ɖo, eye wòdoa ha nuɖo agni ƒe ga ƒe dɔwɔwɔwo ƒe zãɖoɖo fafa ɖe edzi.
 
 ![Interoperability Diagram](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 
-## Nyanuwuwuw
+## Nuƒoƒo
 
-Shade Protocol nye mɔɖela ƒe dɔ le DeFi ƒe teƒea, si naa ganyawo gbɔ kpɔnu siwo wotu ɖe mɔ̃ɖaŋununya sesẽ dzi si wotu ɖe ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ dzi. To stablecoin si me ame ŋutɔ ƒe nyatakakawo takpɔkpɔ ƒe nɔnɔmewo le nana kple ganyawo ŋuti dɔwɔnu gbogbo aɖewo toto vɛ me la, Shade Protocol ɖoe be yeawɔ nu ɖe ezãla siwo dea asixɔxɔ dedienɔnɔ, liƒo, kple dziɖuɖu ƒe ɖoɖowɔwɔ ŋu la gbɔ.
+Shade Protocol nye dɔ gã aɖe si wɔa ŋgɔ le DeFi ƒe teƒe, eye wònaa gadzedze ƒe nyawo siwo tsɔ ɣaɣla [privacy] ɖo ŋgɔ, si wotu ɖe teknolodzɔ si ŋusẽ le me dzi. To stablecoin si me ɣaɣla ƒe nɔnɔme le kple gadzedze ƒe dɔwɔnu [tools] bliboa ƒe tutu me la, Shade Protocol di be yeaɖo zazãla siwo dea asixɔxɔ le dedienyenye, tsitotsito, kple ha nuɖo agni [decentralized] me ƒe hiãhiã nu.
 
-Shade Protocol's gɔmeɖose siwo nye ɖekawɔwɔ kple asixɔxɔ léle naa gɔmeɖoanyi sesẽ na liƒo kple ezãla ƒe nuteƒekpɔkpɔ si me kuxi aɖeke mele o, si na wòɖoe be wòanye etsɔme kplɔla le DeFi ɖoɖowɔɖiwo me. Esi dziɖuɖu si trɔna ɖe nɔnɔmewo ŋu, si woate ŋu atrɔ asi le eŋu, kple mɔfiame si me kɔ nyuie si dzi woato ato Shade Protocol gɔmedzenu yeyewo vɛ ta la, ɖikeke mele eme o be dzidziɖedzi kabakaba ƒe ŋutete lolo ŋutɔ.
+Shade Protocol ƒe ɖokui ƒoƒo kple asixɔxɔ ƒe xɔxɔ ƒe sewo naa teƒe si ŋusẽ le me na tsitotsito kple zazãla ƒe nudzɔdzɔ si le bɔbɔe, eye wòɖo e ɖe teƒe be wòanɔ ŋgɔ le DeFi protocolwo me le etsɔme. Kple dziɖuɖu [governance] si ate ŋu atrɔ ɖe ɣeyiɣi ƒe hiãhiã nu, eye wòate ŋu akpɔ dzi, kple mɔŋɔŋlɔ si me woɖe mɔ ɖe Shade Protocol ƒe gɔmedzedze yeye ƒe vava ŋu kɔkɔe la, ŋutegawo na tsitsi kabakaba le vevie ŋutɔ.
 
-#### Numekugbalẽwo ƒe Kadodowo
+#### Kadodo Ƒe Kadodowo
  
-[Shade Protocol nyatakakadzraɖoƒe](https://shadeprotocol.io/)
+[Shade Protocol asaɖa me nuto](https://shadeprotocol.io/)
 
 [Medium (Shade Protocol) ](https://medium.com/@shadeprotocoldevs/what-is-shade-protocol-efc1ef7aeabf)
 

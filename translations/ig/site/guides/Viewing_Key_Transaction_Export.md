@@ -2,37 +2,37 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Exporting Transaction History from a Viewing Key
+# Mbupụ Akụkọ Azụmahia site na Viewing Key
 
-Most wallet exports are thin. ZODL's tax export, for example, gives you dates, amounts and fees for the previous calendar year, but no transaction IDs, no memos and no addresses. That isn't enough for bookkeeping, for checking a wallet migration, or for working out what happened to a payment.
+Ọtụtụ mbupụ e-akpa ego [wallet] dị ntakịrị. Dịka ọmụmaatụ, mbupụ ụtụ isi nke ZODL na-enye gị ụbọchị, ego ole, na ugwo [fees] maka afọ kalenda gara aga, ma ọ naghị enye ID Azụmahia [transaction], memo, ma ọ bụ Adreesị akpa ego [addresses]. Nke ahụ ezughị maka idebe akwụkwọ ego, ịlele mbugharị e-akpa ego, ma ọ bụ ịchọpụta ihe mere n'otu Kwụọ ụhwọ [payment].
 
-Ị adịghị mkpa mkpụrụ okwu gị iji nweta foto zuru ezu. a n'otu full ikiri igodo (UFVK, malite na `uview1`) can see every incoming and outgoing transaction in an account, and two tools can turn that into a file you keep: the Zkool GraphQL server and zingo-cli. This guide collects the approaches from [isiokwu a na-ekwu okwu ya bụ:](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) na emelite ha maka ntọhapụ ndị dị ugbu a.
+Ị chọghị Mkpuru mgbake [seed phrase] gị iji hụ nkọwa zuru ezu. Unified full viewing key (UFVK, na-amalite na `uview1`) nwere ike ịhụ Azụmahia ọ bụla na-abata na nke na-apụ n'ime akaụntụ, ngwá ọrụ [tools] abụọ nwekwara ike ime ka nke a bụrụ faịlụ ị na-edobe: sava GraphQL nke Zkool na zingo-cli. Ntuziaka a na-achịkọta ụzọ ndị dị na [mkparịta ụka forum a](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) ma na-emelite ha maka nsụgharị dị ugbu a.
 
-A nwalere ya na Septemba 2026 site n'iji Zkool 6.30.0 na zingo-cli si zingolib 6.0.0.
+A nwalere ya na Septemba 2026 na Zkool 6.30.0 na zingo-cli sitere na zingolib 6.0.0.
 
-## Tupu ị malite .
+## Tupu ịmalite
 
-Ihe abụọ dị gị mkpa:
+Ị chọrọ ihe abụọ:
 
-1. ** UFVK** maka akaụntụ ahụ. [Igodo Nlele](/zcash-tech/viewing-keys) na-akọwa ihe ọ ga-ekpughe nakwa etu esi ebupụ otu.
-2. **A birth height**, the block to start scanning from. Jiri a elu si tupu gị mbụ azụmahịa. Tọọ ya kwa elu na okenye akụkọ ihe mere eme bụ silently efu. Tọgharịa ya ala ma iṅomi dị nnọọ ewe ogologo oge. Sapling ebighị (419200) mgbe niile mma ma nwere ike iri awa ka iṅomie.
+1. **UFVK** maka akaụntụ ahụ. [Viewing Keys](/zcash-tech/viewing-keys) na-akọwa ihe ọ na-ekpughe na otu esi ebupụ otu.
+2. **Ogologo ọmụmụ**, ya bụ block [block] a ga-amalite nyocha site na ya. Jiri ogo dị tupu Azụmahia mbụ gị. Ọ bụrụ na ịtọọ ya elu nke ukwuu, akụkọ ochie ga-efu nwayọ nwayọ. Ọ bụrụ na ịtọọ ya ala nke ukwuu, nyocha ahụ ga-ewe ogologo oge karịa. Mmegharị Sapling (419200) na-adị mma mgbe niile ma o nwere ike iwe awa iji nyochaa.
 
-## Mee ka ọ bụrụ ihe nzuzo .
+## Debe ya na nzuzo
 
-Igodo nlele enweghị ike imefu ego, mana ọ na-egosi akụkọ ihe mere eme gị dum nye onye ọbụla ji ya.
+Viewing key enweghị ike imefu ego, mana ọ na-egosi onye ọ bụla jidere ya akụkọ gị dum.
 
-- Etinyela ya na webụsaịtị maọbụ ihe nchọpụta ngọngọ. Bubata ya n'ime sọftụwia ị ji aka gị rụọ ọrụ.
-- The server you sync from sees your IP address and which transactions you download in full. Both tools below fetch each of your transactions by ID to read memos and fees, and [ZIP 307 Ụlọ Ọrụ Na-ezipụ Akwụkwọ](https://zips.z.cash/zip-0307) notes that this tells the server which transactions are yours. Syncing from your own Zebra node with Zaino or lightwalletd avoids that. The [Zingolib na Zaino Nkuzi](/guides/zingolib-and-zaino-tutorial) na-agagharị site n'otu ihe e mere.
-- zingo-cli 6 na eziga ịkwụ ụgwọ site n'aka Nym mixnet, mana mmekọrịta ya ka jikọtara ya na sava ahụ ozugbo, yabụ isi ihe dị n'elu metụtara ya.
-- Nye ngwaọrụ ndị a igodo nlele, ọ bụghị mkpụrụ. Ihe nkesa Zkool GraphQL enweghị ntinye aka na ndabara, API ya ga-enyeghachi mkpụrụ nke akaụntụ ọ bụla e kere site na otu, ma nwee ike izipu ego.
-- Debe ihe nkesa na igwe nke gị. Iwu Docker n'okpuru naanị ege ntị na `127.0.0.1`.
-- Ngwaọrụ abụọ ahụ na-echekwa igodo gị na akụkọ ihe mere eme nke ọma. Hichapụ data ọrụ mgbe ị mechara ma debe mbupụ ebe ezoro ezo.
+- Etinyela ya na weebụsaịtị ma ọ bụ block explorer. Bubata ya n'ime sọftụwia ị na-agba n'onwe gị.
+- Sava ị na-emekọrịta na ya na-ahụ adreesị IP gị na Azụmahia ndị ị na-ebudata nke ọma. Ngwá ọrụ abụọ dị n'okpuru na-enweta Azụmahia gị nke ọ bụla site na ID iji gụọ memo na ugwo, na [ZIP 307](https://zips.z.cash/zip-0307) na-ekwu na nke a na-agwa sava ahụ Azụmahia ndị bụ nke gị. Iji node nke Zebra gị na Zaino ma ọ bụ lightwalletd emekọrịta na-ezere nke ahụ. [Zingolib na Zaino Nkuzi](/guides/zingolib-and-zaino-tutorial) na-akọwa usoro nhazi.
+- zingo-cli 6 na-ezipụ Kwụọ ụhwọ site na Nym mixnet, mana mmekọrịta ya ka na-ejikọ na sava ozugbo, ya mere isi okwu dị n'elu metụtara ya kwa.
+- Nye ngwá ọrụ ndị a viewing key, ọ bụghị seed. Sava GraphQL nke Zkool enweghị nbanye na ndabara, API ya ga-eweghachikwa seed nke akaụntụ ọ bụla e sitere na otu kee, ma nwee ike izipu ego.
+- Debe sava ahụ n'igwe nke gị. Iwu Docker dị n'okpuru na-ege ntị naanị na `127.0.0.1`.
+- Ngwá ọrụ abụọ ahụ na-echekwa key na akụkọ gị na-enweghị Nzobe ederede [encryption]. Hichapụ data ọrụ ahụ mgbe ị mechara ma debe mbupụ ahụ n'ebe e zoro ezo.
 
-## Nhọrọ 1: Zkool GraphQL
+## Nhọrọ 1: GraphQL nke Zkool
 
-`zkool_graphql` is Zkool's wallet engine as a standalone server. It's a separate program from the Zkool app. The simplest way to run it is the official Docker image (amd64 and arm64). There's also a Linux x86-64 binary on the [Zkool wepụtara peeji ya.](https://github.com/hhanh00/zkool2/releases); ọ chọrọ glibc 2.38 maọbụ nke ọhụrụ, ya mere Ubuntu 24.04 na-arụ ọrụ Debian 12 adịghị arụ.
+`zkool_graphql` bụ engine e-akpa ego nke Zkool dịka sava nọọrọ onwe ya. Ọ bụ mmemme dị iche na ngwa Zkool. Ụzọ kachasị mfe isi gbaa ya bụ image Docker gọọmenti (amd64 na arm64). E nwekwara binary x86-64 nke Linux na ibe mwepụta [Zkool](https://github.com/hhanh00/zkool2/releases); ọ chọrọ glibc 2.38 ma ọ bụ nke ọhụrụ, yabụ Ubuntu 24.04 na-arụ ọrụ ebe Debian 12 anaghị arụ ọrụ.
 
-### 1. Bido ihe nkesa ahụ.
+### 1. Malite sava ahụ
 
 ```bash
 docker run -d --name zkool-export \
@@ -42,11 +42,11 @@ docker run -d --name zkool-export \
   --db-path /data/zkool.db
 ```
 
-Ọ na-agbakọ site n'aka: `https://zec.rocks` ọ gwụla ma ị gbakwunye `--lwd-url` with your own server. On first start it downloads the Sapling parameters (about 50 MB). If that fails, `docker start zkool-export` nwaa ọzọ.
+Ọ na-emekọrịta site na `https://zec.rocks` ma ọ gwụla ma ị tinye `--lwd-url` na sava nke gị. Na mbido mbụ, ọ na-ebudata parampat Sapling (ihe dị ka 50 MB). Ọ bụrụ na nke ahụ ada, `docker start zkool-export` na-agbalị ọzọ.
 
-Mepee ya . `http://127.0.0.1:8000/graphiql` Ị nwere ike ịtinye nke ọ bụla n'ime nzọụkwụ ndị ọzọ ebe ahụ ma gbaa ya.
+Mepee `http://127.0.0.1:8000/graphiql` na ihe nchọgharị. Ị nwere ike itinye usoro nke ọ bụla na-esote ebe ahụ ma gbaa ya.
 
-### 2. Ịkpọbata igodo ahụ n'ime ụlọ gị
+### 2. Bubata key
 
 ```graphql
 mutation {
@@ -60,30 +60,30 @@ mutation {
 }
 ```
 
-Ọ na-eweghachi ID nke akaụntụ ọhụrụ, bụ 1 n'elu ihe nkesa dị ọhụrụ.
+Ọ na-eweghachite ID akaụntụ ọhụrụ ahụ, nke bụ 1 n'ọrụ sava ọhụrụ.
 
-- Na-edozi mgbe niile. `birth`. Ọ bụrụ na o nweghị ya Zkool ga-amalite n'ụlọ ahụ ọ nọ ugbu a ma hụ ihe niile.
-- `useInternal: true` na-eme ka Zkool nyochaa mgbanwe adreesị doro anya. Debe ya maka igodo sitere na ZODL, otu ntọala ahụ [Nkwụghachi Ego Ndị E Nwere n'Ụlọ Ọrụ Ahụ](/using-zcash/recovering-funds) eji maka mkpụrụ ZODL.
+- Tọọ `birth` mgbe niile. Enweghị ya, Zkool na-amalite site na block dị ugbu a ma ọ dịghị achọta ihe ọ bụla.
+- `useInternal: true` na-eme ka Zkool lelee Adreesị akpa ego mgbanwe Oha [transparent] kwa. Debe ya maka key sitere na ZODL, otu ntọala ahụ [Iweghachite Ego](/using-zcash/recovering-funds) ji maka seed ZODL.
 
-### 3. Nkọwapụta
+### 3. Mekọrịta
 
 ```graphql
 mutation { synchronizeAccount(idAccount: 1) }
 ```
 
-Nke a na-agba ruo mgbe sync gafere. Ejikwala ya tinye ihe ọ bụla ọzọ n'ime usoro ahụ ma ọ bụ nke gị. `fast: true`Ọ na-agbada nbudata azụmahịa zuru ezu, nke bụ ebe memos, ụgwọ na mmepụta si abịa.
+Nke a na-agba ruo mgbe mmekọrịta gwụsịrị. Etinyela `fast: true`. Ọ na-awụpụ ibudata Azụmahia zuru ezu, nke bụ ebe memo, ugwo na outputs si abịa.
 
-The number it returns is the height it was aiming for, not proof it got there. A network error can end the sync early without reporting anything, so check:
+Nọmba ọ na-eweghachite bụ ogo ọ na-achọ iru, ọ bụghị proof [proof] na ọ ruru ebe ahụ. Njehie netwọk nwere ike ịkwụsị mmekọrịta ahụ n'oge na-enweghị ịkọ ihe ọ bụla, ya mere lelee:
 
 ```graphql
 { currentHeight accounts { id name height } }
 ```
 
-Ọ bụrụ na akaụntụ ahụ bụ `height` dị n'azụ. `currentHeight`, na-agba ọsọ sync ọzọ. Ọ gara n'ihu site ebe ọ kwụsịrị.
+Ọ bụrụ na `height` akaụntụ ahụ dị n'azụ `currentHeight`, gbaa mmekọrịta ahụ ọzọ. Ọ ga-aga n'ihu site n'ebe ọ kwụsịrị.
 
-### 4. Mbupụ ahịa
+### 4. Mbupụ
 
-Chekwaa nke a dị ka: `history.graphql`:
+Chekwaa nke a dịka `history.graphql`:
 
 ```graphql
 {
@@ -96,9 +96,9 @@ Chekwaa nke a dị ka: `history.graphql`:
 }
 ```
 
-Hapụ ihe ndị ahụ. `height` arụmụka ma ọ bụrụ na ị pụtara ya. Ọ setịpụrụ a kacha nta, otú ahụ forum atụ si `height: 3000000` na-atụfu ihe niile tupu a kụọ ya.
+Hapụ arụmụka `height` ma ọ gwụla ma ị bu n'obi ya. Ọ na-etinye nke kacha nta, ya mere `height: 3000000` atụ forum ahụ na-ahapụ ihe niile tupu block ahụ.
 
-Chọta ya dị ka JSON:
+Nweta ya dịka JSON:
 
 ```bash
 jq -n --rawfile q history.graphql '{query: $q}' |
@@ -106,15 +106,15 @@ jq -n --rawfile q history.graphql '{query: $q}' |
     -H 'content-type: application/json' --data-binary @- > history.json
 ```
 
-N'ihe ọ bụla azụmahịa kwesịrị igosi a ụgwọ n'elu 0, Ngwuputa ụgwọ ọrụ iche. Ọ bụrụ na otu onye gosiri `"fee": "0"` na enweghị akwụkwọ, nkọwa ya ebughi. Zkool na-ewepụta azụmahịa niile n'otu oge mgbe nyocha ahụ gasịrị, otu ọdịda kwụsịrị ndị ọzọ nwayọ. Iji depụta ihe ọ bụla metụtara:
+Azụmahia ọ bụla kwesịrị igosi ugwo karịrị 0, ewezuga ụgwọ ọrụ ịgwụputa [mining]. Ọ bụrụ na otu egosi `"fee": "0"` na enweghị memo, nkọwa ya ebudataghị. Zkool na-enweta Azụmahia zuru ezu otu otu mgbe nyocha gasịrị, otu ọdịda na-akwụsịkwa ndị fọdụrụ nwayọ. Iji depụta ndị ọ metụtara:
 
 ```bash
 jq -r '.data.transactionsByAccount[] | select(.fee == "0") | .txid' history.json
 ```
 
-Ọ bụrụ na ihe ọ bụla apụta, mekọrịta ọzọ mgbe nkeji ole na ole gasịrị ma bupụ ya.
+Ọ bụrụ na ihe ọ bụla apụta, mekọrịta ọzọ ka nkeji ole na ole gachara ma bupụkwa ọzọ.
 
-Mgbe ahụ, dozie ya na CSV, otu ahịrị kwa azụmahịa:
+Mgbe ahụ, mee ya CSV dị larịị, otu ahịrị maka Azụmahia ọ bụla:
 
 ```bash
 jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
@@ -124,24 +124,24 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   | @csv' history.json > history.csv
 ```
 
-### Ịgụpụta ihe ọ na-ewepụ.
+### Ịgụ ihe mmepụta
 
-| Field | Ihe ọ pụtara |
+| Mpaghara | Ihe ọ pụtara |
 |---|---|
-| `value` | Mgbanwe zuru oke na akaụntụ dị na ZEC, gụnyere ụgwọ. Ọ dịghị mma maka izipu. |
-| `fee` | Ụgwọ na ZEC. Mgbe ị natara ụgwọ, onye zitere ya kwụrụ ya mana ọ nọghị na ya `value`. |
-| `time` | Oge mkpọchi na UTC, na-enweghị ihe nrịbama mpaghara oge |
-| `notes` | Ihe akaụntị natara n'azụmahịa a, tinyere mgbanwe. Ihe ndetu ezitere gị dị ebe a. Ihe ntinye doro anya enweghị adreesị. |
-| `spends` | Ihe ndekọ akaụntụ ahụ kwuru na azụmahịa a ejirila mee ihe |
-| `outputs` | Ihe azụmahịa ahụ zigara: mmepụta ọ bụla doro anya, tinyere ịkwụ ụgwọ echekwara na adreesị ndị ọzọ yana ndetu ha |
-| `pool` | 0 doro anya, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 mpụga (ụgwọ dị na ya), 1 nke ime (mgbanwe) |
+| `value` | Mgbanwe net na akaụntụ n'ime ZEC, tinyere ugwo. Ọ dị njọ maka izipu. |
+| `fee` | Ugwo n'ime ZEC. N'ahịa ị natara, onye zitere ya kwụrụ ya, ọ nọghị na `value`. |
+| `time` | Oge block na UTC, na-enweghị akara mpaghara oge |
+| `notes` | Ihe akaụntụ ahụ natara n'Azụmahia a, tinyere mgbanwe. Memo ezitere gị nọ ebe a. Ntinye Oha enweghị adreesị. |
+| `spends` | Note [note] nke akaụntụ ahụ ji mee Azụmahia a |
+| `outputs` | Ihe Azụmahia ahụ zipụrụ: output Oha ọ bụla, tinyere Kwụọ ụhwọ nke e chebere echebe [shielded] na Adreesị akpa ego ndị ọzọ na memo ha |
+| `pool` | 0 Oha, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `scope` | 0 mpụga (Kwụọ ụhwọ na-abata), 1 ime (mgbanwe) |
 
-Ngwa Zkool nwekwara Export Transactions, Memos and Notes na menu akaụntụ ahụ, mana ndị a bụ ihe mkpofu tebụl: ego dị na zatoshis, akara oge Unix, yana memos n'ime faịlụ ọzọ.
+Ngwa Zkool nwekwara Mbupụ Azụmahia, Memo na Notes na menu akaụntụ, mana ndị ahụ bụ raw table dumps: ego n'ime zatoshis, Unix timestamps, na memo n'ime faịlụ dị iche.
 
 ## Nhọrọ 2: zingo-cli
 
-zingo-cli bụ obere akpa iwu nke Zingo. Enweghị nbudata ebudatara, yabụ ị na -eji Rust:
+zingo-cli bụ e-akpa ego command-line nke Zingo. Enweghị nbudata e wuru mbụ, yabụ ị ji Rust wuo ya:
 
 ```bash
 git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
@@ -151,9 +151,9 @@ cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym -
 cp zingo-netutils/target/release/nym-proxy target/release/
 ```
 
-I kwesịrị . `nym-proxy` ọbụna iji mekọrịta. zingo-cli 6 agaghị ejikọta na ihe nkesa ọ bụla n'enweghị ya.
+Ị chọrọ `nym-proxy` ọbụna naanị iji mekọrịta. zingo-cli 6 agaghị ejikọta na sava ọ bụla na-enweghị ya.
 
-Ntugharị mbụ na-emepụta obere akpa ego, syncs ya ma bipụta akụkọ ihe mere eme:
+Ọgba ọsọ mbụ na-emepụta e-akpa ego naanị maka ilele, na-emekọrịta ya ma na-ebipụta akụkọ:
 
 ```bash
 ./target/release/zingo-cli --data-dir "$HOME/zingo-export" \
@@ -162,12 +162,12 @@ Ntugharị mbụ na-emepụta obere akpa ego, syncs ya ma bipụta akụkọ ihe
   --waitsync transactions > transactions.txt
 ```
 
-- `--data-dir` ga-abụrịrị ụzọ zuru oke.
-- `--viewkey` na nke a: `--birthday` naanị tinye mgbe e kere obere akpa ahụ. Hapụ ha ka emechara ya.
-- zingo-cli na amalite offline site n'echiche. `--server` na-ahọrọ ihe nkesa ahụ ma gụnye ya dịka ikike gị ịbanye n'ịntanetị.
-- Igodo ahụ na-agwụ n'akụkọ ihe mere eme gị, yabụ kpochapụ ya mgbe emesịrị.
+- `--data-dir` ga-abụ ụzọ zuru oke.
+- `--viewkey` na `--birthday` na-emetụta naanị mgbe a na-emepụta e-akpa ego. Hapụ ha mgbe nke ahụ gasịrị.
+- zingo-cli na-amalite offline na ndabara. `--server` na-ahọrọ sava ahụ ma bụrụkwa nkwenye gị ịga online.
+- Key ahụ na-abanye n'akụkọ shell gị, yabụ hichapụ ya emechaa.
 
-Ọ na-agba ọsọ n'oge ọzọ:
+Ọgba ọsọ ndị ọzọ:
 
 ```bash
 Z="./target/release/zingo-cli --data-dir $HOME/zingo-export"
@@ -176,43 +176,43 @@ $Z --offline value_transfers > value_transfers.txt
 $Z --offline messages > memos.json
 ```
 
-`--offline` na-agụ ihe a jikọtarala n'emeghị ka netwọk ahụ metụ.
+`--offline` na-agụ ihe emekọrịtalarị na-enweghị imetụ netwọk aka.
 
-- `transactions` na-enye otu ntinye kwa azụmahịa: txid, oge (UTC), elu, ụdị (`received`, `sent`, `shield` or `send-to-self`), uru, ụgwọ na akwụkwọ ndị metụtara.
-- `value_transfers` na-enye otu ntinye kwa ịkwụ ụgwọ, yabụ iziga mmadụ abụọ bụ ihe ndekọ abụọ, nke ọ bụla nwere adreesị onye nnata yana memos.
-- `messages` na-edepụta memos dị ka JSON.
+- `transactions` na-enye otu ntinye maka Azụmahia ọ bụla: txid, oge (UTC), ogo, ụdị (`received`, `sent`, `shield` ma ọ bụ `send-to-self`), uru, ugwo na notes ndị metụtara.
+- `value_transfers` na-enye otu ntinye maka Kwụọ ụhwọ ọ bụla, yabụ izigara mmadụ abụọ bụ ntinye abụọ, nke ọ bụla nwere Adreesị akpa ego onye nnata na memo.
+- `messages` na-edepụta memo dịka JSON.
 
-Ihe ole na ole ị ga-ama gbasara mmepụta:
+Ihe ole na ole ị ga-ama gbasara ihe mmepụta:
 
-- `transactions` na nke a: `value_transfers` bipụta ederede nkịtị nke yiri ntakịrị JSON mana ọ bụghị.
-- Ọnụ ego ndị ahụ dị na zatoshis (100,000,000 ruo 1 ZEC) ma bụrụkwa nke ziri ezi mgbe nile. `kind` Ọ na-agwa gị ebe ị ga. Maka izipu, `value` bụ ihe ndị ọzọ nwetara, na-enweghị ego.
-- A na-egosi ụgwọ ahụ dị ka "adịghị adị" mgbe azụmahịa jiri ego doro anya nke abụghị gị. Naanị ederede edetu gosipụtara.
-- Ọ bụrụ na sync ada, njehie ahụ ga-aga n'ọnụ ụzọ ọ bụghị faịlụ ahụ ma zingo-cli ka na-apụ apụ. Lelee ọnụ tupu ịtụkwasị obi `transactions.txt`.
+- `transactions` na `value_transfers` na-ebipụta ederede nkịtị nke yitere JSON ntakịrị mana ọ bụghị JSON.
+- Ego dị na zatoshis (100,000,000 ruo 1 ZEC) ma na-adị mma mgbe niile. `kind` na-agwa gị ntụzịaka. Maka izipu, `value` bụ ihe zigara ndị ọzọ, na-enweghị ugwo.
+- Ugwo na-apụta dịka "adịghị" mgbe Azụmahia na-emefu ego Oha na-abụghị nke gị. Naanị memo ederede ka a na-egosi.
+- Ọ bụrụ na mmekọrịta ada, njehie ahụ na-aga na terminal, ọ bụghị na faịlụ, ma zingo-cli ka na-apụ n'ụzọ nkịtị. Lelee terminal tupu ịtụkwasị `transactions.txt` obi.
 
-nke dismad's [Onye enyemaka ZongoHelper](https://github.com/dismad/zingoHelper) nwere a `exportToJSON.sh` edemede nke na-agbanwe agbanwe `transactions` edere ya tupu zingo-cli 6, a haziri maka testnet, akara ụfọdụ Sapling na ntinye uzo dị ka ebe nchekwa, ma chọọ ngwaọrụ GNU, n'ihi ya ọ gaghị agba ọsọ na ngwaahịa macOS. Na -emeso mmepụta ya dịka mmalite wee lelee mkpokọta ahụ.
+[zingoHelper](https://github.com/dismad/zingoHelper) nke dismad nwere script `exportToJSON.sh` nke na-agbanwe `transactions` ka ọ bụrụ JSON. Edere ya tupu zingo-cli 6, ahaziri ya maka testnet, na-akanye ụfọdụ Sapling na-apụ na ntinye Oha dịka placeholders, ma chọọ GNU tools, yabụ ọ gaghị agba na macOS ọkọlọtọ. Were ihe mmepụta ya dịka ebe mmalite ma lelee nchịkọta ego.
 
-## Ihe igodo nlele apụghị ịgwa gị.
+## Ihe viewing key enweghị ike ịgwa gị
 
-- ** Ọnụahịa.** Ọ dịghị ngwá ọrụ ọ bụla na-edekọ ọnụ ahịa ZEC n'oge azụmahịa nke ọ bụla. Tinye fiat ụkpụrụ onwe gị.
-- ** Transparent akụkọ ihe mere eme, ma ọ bụrụ na igodo adịghị agụnye ya.** The uzo akụkụ nke a UFVK bụ nhọrọ n'okpuru [ZIP 316  Ihe e dere n'ala ala peeji](https://zips.z.cash/zip-0316). na zingo-cli, `$Z --offline parse_viewkey uview1...` na-egosi nke ọdọ mmiri a isi ekpuchi.
-- **Onye kwụrụ gị ụgwọ.** Ịkwụ ụgwọ ndị e chebere adịghị ebu adres onye zitere ya. Ọ gwụla ma onye ahụ ziteworo tinye otu na memo, ọ dịghị ebe ọ bụla.
-- ** Ụfọdụ nkọwapụta na-apụ apụ.** Adreesị ebe, ego na memo maka izipu ezoro ezo ka a ga - eweghachite site n'iji igodo ahụ mepee. Akpaego nwere ike iwulite azụmahịa nke mere na ọ gaghị ekwe omume, ma ọtụtụ anaghị eme ya.
+- **Ọnụahịa.** Ngwá ọrụ abụọ ahụ anaghị edekọ ọnụahịa ZEC n'oge Azụmahia ọ bụla. Tinye uru fiat n'onwe gị.
+- **Akụkọ Oha, ma ọ bụrụ na key enweghị ya.** Akụkụ Oha nke UFVK bụ nhọrọ n'okpuru [ZIP 316](https://zips.z.cash/zip-0316). Site na zingo-cli, `$Z --offline parse_viewkey uview1...` na-egosi pool [pool] ndị key na-ekpuchi.
+- **Onye kwụrụ gị.** Kwụọ ụhwọ nke e chebere echebe anaghị ebu Adreesị akpa ego onye zitere ya. Ma ọ bụrụ na onye zitere ya etinyeghị otu na memo, ọ nọghị ebe ọ bụla.
+- **Ụfọdụ nkọwa na-apụ.** A na-enweta Adreesị akpa ego ebe a na-eziga, ego ole na memo maka izipu nke e chebere echebe site n'iji key decrypt. E-akpa ego nwere ike iwube Azụmahia nke na-agaghị ekwe omume, agbanyeghị ọtụtụ anaghị eme ya.
 
 ## Ngwá ọrụ ndị ọzọ
 
-| Ngwaọrụ | Ihe ị nwetara |
+| Ngwá ọrụ | Ihe ị na-enweta |
 |---|---|
-| ZODL | CSV ụtụ isi nwere ụbọchị, ego, ụgwọ na akara. Naanị afọ kalenda gara aga, ọ na-ahapụ azụmahịa nchekwa, enweghị txid, memo ma ọ bụ adreesị. |
-| Ngwa Zkool | Mbupụ tebụl ndị a na-anaghị emepụta site na menu akaụntụ |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Na-ebubata UFVK na `importvk`. `listreceived` n'elu RPC returns natara ndetu nwere txid na memo, mana enweghị ozi na enweghị ụgwọ. |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` a kọwara ya nke ọma mana e jiri ya mee nnwale, Zallet na-ebubata naanị igodo nlele Sapling, ọ bụghị UFVKs |
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Na-ebubata UFVK na `wallet init-fvk`, mgbe ahụ `wallet list-tx`Ụdị CSV ya enweghị txid ma ọ bụ adreesị, ọrụ ahụ kwukwara na ekwesighi iji ya na mmepụta. |
+| ZODL | CSV ụtụ isi nwere ụbọchị, ego, ugwo na tag. Naanị afọ kalenda gara aga, na-awụpụ Azụmahia shielding, enweghị txid, memo ma ọ bụ adreesị. |
+| ngwa Zkool | Mbupụ raw table sitere na menu akaụntụ |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Na-ebubata UFVK na `importvk`. `listreceived` site na RPC na-eweghachite notes natara nwere txid na memo, mana enweghị izipu na ugwo. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` zuru ezu mana akara ya bụ experimental, na Zallet na-ebubata naanị viewing key Sapling, ọ bụghị UFVK |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Na-ebubata UFVK na `wallet init-fvk`, emesịa `wallet list-tx`. Ụdị CSV ya enweghị txid ma ọ bụ adreesị, ọrụ ahụ na-ekwukwa ka ị ghara iji ya na production. |
 
-## Ihe ndị metụtara ya
+## Njikọ ndị metụtara
 
-- [Igodo Nlele](/zcash-tech/viewing-keys)
-- [Nkwụghachi Ego Ndị E Nwere n'Ụlọ Ọrụ Ahụ](/using-zcash/recovering-funds)
+- [Viewing Keys](/zcash-tech/viewing-keys)
+- [Iweghachite Ego](/using-zcash/recovering-funds)
 - [Zingolib na Zaino Nkuzi](/guides/zingolib-and-zaino-tutorial)
-- [Forum: Ịbupụ akụkọ azụmahịa na JSON/CSV site UFVK/mkpụrụ.](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
-- [Ebe a na-ekwu okwu: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
+- [Forum: Mbupụ akụkọ Azụmahia na JSON/CSV site na UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [Forum: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
 - [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)

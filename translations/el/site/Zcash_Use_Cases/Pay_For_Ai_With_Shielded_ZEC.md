@@ -69,7 +69,7 @@
 
 Άνοιξε το **Balance**, επίλεξε **Custom** και εισήγαγε ένα ποσό. Το ελάχιστο είναι **$0,10** και το μέγιστο είναι $5.000. Το NanoGPT σου λέει τι αγοράζει αυτό, περίπου 12 prompts GPT 5.5 ή 18 εικόνες για $1.
 
-![NanoGPT add balance screen showing the custom amount and the ten cent minimum](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
+![Οθόνη προσθήκης υπολοίπου NanoGPT που δείχνει το προσαρμοσμένο ποσό και το ελάχιστο των δέκα σεντ](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
 
 ### Βήμα 4: Επίλεξε Zcash
 
@@ -77,7 +77,7 @@
 
 Θα λάβεις έναν κωδικό QR, μια διεύθυνση πληρωμής και ένα **ελάχιστο μεταφοράς** σε ZEC για το ποσό που επέλεξες. Αυτή η τιμή καθορίζεται τη στιγμή που φορτώνει η σελίδα.
 
-![NanoGPT Zcash deposit screen with the QR code, unified address and transfer minimum](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
+![Οθόνη κατάθεσης Zcash του NanoGPT με τον κωδικό QR, την ενοποιημένη διεύθυνση και το ελάχιστο μεταφοράς](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
 
 ### Βήμα 5: Στείλε από το πορτοφόλι σου
 
@@ -85,17 +85,17 @@
 
 > **Στείλε λίγο πάνω από το ελάχιστο.** Η τιμή καθορίζεται όταν φορτώνει η σελίδα και το ZEC μπορεί να μετακινηθεί πριν επιβεβαιωθεί η συναλλαγή σου. Στις δοκιμές, η αποστολή ακριβώς του ελάχιστου κατέληξε σε **$0,99** αντί για $1,00. Η αποστολή λίγο παραπάνω κατέληξε σε $1,17 για το ίδιο ονομαστικό $1, επειδή το NanoGPT πιστώνει ό,τι στέλνεις πραγματικά.
 
-![Noir Wallet send screen with the NanoGPT address pasted in and the network fee shown](/content-images/noir-send-6380a5f4ef.webp)
+![Οθόνη αποστολής του Noir Wallet με επικολλημένη τη διεύθυνση NanoGPT και εμφανές το τέλος δικτύου](/content-images/noir-send-6380a5f4ef.webp)
 
 ### Βήμα 6: Περίμενε περίπου 30 δευτερόλεπτα
 
 Το πορτοφόλι σου θα εμφανίσει τη συναλλαγή ως εκκρεμή και έπειτα ως επιβεβαιωμένη. Το NanoGPT πιστώνει το υπόλοιπο με την **πρώτη επιβεβαίωση**, οπότε δεν χρειάζεται να περιμένεις και τις τρεις.
 
-![Wallet confirmation showing the amount sent and the transaction hash](/content-images/noir-sent-2d476e94b9.webp)
+![Επιβεβαίωση πορτοφολιού που δείχνει το ποσό που στάλθηκε και το hash συναλλαγής](/content-images/noir-sent-2d476e94b9.webp)
 
 Το υπόλοιπο εμφανίζεται και μπορείς να το ξοδέψεις αμέσως.
 
-![NanoGPT balance page showing the credited amount and deposit history](/content-images/nanogpt-balance-0b0c0c86ba.webp)
+![Σελίδα υπολοίπου NanoGPT που δείχνει το πιστωμένο ποσό και το ιστορικό καταθέσεων](/content-images/nanogpt-balance-0b0c0c86ba.webp)
 
 <br/>
 

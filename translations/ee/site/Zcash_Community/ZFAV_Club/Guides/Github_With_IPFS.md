@@ -2,73 +2,73 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Subɔ GitHub Repo kple IPFS 
+# Ɖe GitHub Repo kple IPFS 
 
-## Kpɔkplɔyiɖeme
+## Gɔmedzedze
 
-Le mɔfiame sia me la míesrɔ̃ alesi woawɔ git cloneable URL na wò GitHub nudzraɖoƒe si wosubɔ to IPFS CID zazã me. Esia ɖea vi be woakpɔ egbɔ be nyatakakawo li eɖanye anyigba ƒe nuto ka mee wole o, tsitretsitsi ɖe mɔxexeɖedɔléle nu ŋu eye abe nyatakaka veviwo ƒe dzraɖoƒe si nɔa anyi ɖaa ene!
+Le mɔfia sia me la, míesrɔ ale si nàwɔ Git URL si woate ŋu aklɔn na wò GitHub repository, eye woɖea eƒe dɔ kple IPFS CID. Esia le vevie be nuawo nɔ anyi togbɔ be nèli le afi kae le xexeame o, be woate ŋu akpe ɖe asi me, eye wòazu heheɖoƒe si me nyatakaka xɔasiwo nɔ ɣeyiɣi didi!
 
-De dzesii: Nyatakaka siwo woda ɖe IPFS dzi la li na *katã* network zãlawo. Àdi be yeatsɔ ame ŋutɔ ƒe nyatakaka/nya veviwo aɣla le mia gbɔ.
-
-
-## De IPFS Kubo ɖe wò kɔmpiuta dzi
-
-Wɔ ɖe ɖoɖo ƒe mɔfiame siwo wona dzi [le afisia](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
-
-Le kpɔɖeŋu sia me la míezãa Linux, OS ƒe tɔtrɔ bubuwo li. 
-
-Kpɔe ɖa be ɖoɖowɔɖiwo kpɔ dzidzedze to "ipfs --version" zazã me. 
+Didienu: Nyatakaka si wòde ɖe IPFS dzi la, network ƒe zazã katã ate ŋu akpɔe. Àte ŋu adi be nàwɔ ɣaɣlaŋlɔŋlɔ [encryption] na wò nyatakaka siwo nye wò tɔ alo siwo xɔ asi le teƒe si dzi.
 
 
-## Clone Nudzraɖoƒe 
+## Ɖo IPFS Kubo
 
-Be nàdze egɔme la, tia Git nudzraɖoƒe si nèdi be yeaxɔ & awɔ eƒe nɔnɔmetata:
+Dze installation ƒe mɔfia si woɖo [afi](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions) la yome.
 
-Du Sedede: "git clone." https://github.com/zechub/zechub"
+Le kpɔɖeŋu sia me la, míezã Linux, OS ƒe version bubuwo hã li. 
+
+Kpɔ be installation la dzi nyuie to "ipfs --version" zazã me. 
+
+
+## Klɔn Repository 
+
+Be nàdze egɔme la, tia Git repository si nèdi be nàhost, eye nàklɔne:
+
+Wɔ command sia: "git clone https://github.com/zechub/zechub"
 
 ![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 
-Fifia, be woadzrae ɖo be woawɔ eƒe nɔnɔmetata to IPFS dzi.
+Azɔ la, na wòanɔ dzadzra be woaklɔne to IPFS dzi.
 
-cd zechub ƒe nya
-git update-server-nyatakakawo
-
-
-Ðe Git ƒe nuwo ɖa:
-
-mv nuwo/pack/*.pack .
-git unpack-nuawo < *.pack
-rm -f *.pack nuwo/pack/* .
-
-Esia wɔwɔ ana IPFS naɖe nuwo ɖa ne èwɔ Git ƒe nudzraɖoƒea yeyee emegbe.
+cd zechub
+git update-server-info
 
 
-## Tsɔe kpe ɖe IPFS ŋu 
+Ʋu Git ƒe objectwo:
 
-Ne èwɔe vɔ ko la, nudzraɖoƒe ma sɔ gbe be woasubɔe. Nusi susɔ be nàwɔ koe nye be nàtsɔe akpe ɖe IPFS ŋu:
+mv objects/pack/*.pack .
+git unpack-objects < *.pack
+rm -f *.pack objects/pack/*
+
+Esia wɔwɔ ana IPFS nate ŋu awɔ objectwo ƒe deduplication ne nàtrɔ Git repository la emegbe.
+
+
+## Kpe ɖe IPFS ŋu 
+
+Ne nèwu esia wɔwɔ vɔ la, repository ma dzadzra be woaɖe eƒe dɔ. Nu si susɔ koe nye be nàkpe ɖe IPFS ŋu:
 
 $ pwd
 
-/kɔda/myrepo
+/code/myrepo
 
-$ ipfs tsɔ -r kpee.
+$ ipfs add -r .
 
 ![](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
-CID si do tso eme: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
+CID si wòkpɔe: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
 ![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Si nya nu! Fifia wotsɔ wò nudzraɖoƒea da ɖe network la dzi.
+Enyo ŋutɔ! Azɔ wò repository la yia ɖe network la dzi.
 
 
-## Kloe to IPFS zazã me 
+## Klɔn kple IPFS 
 
-Ele be nàte ŋu axɔ github nudzraɖoƒea azɔ to:
+Azɔ la, ele be nàte ŋu axɔ github repository la kple:
 
-git ƒe nɔnɔmetata http://ipfs.io/ipfs/"yourCID"
+git clone http://ipfs.io/ipfs/"yourCID"
 
-Alo àte ŋu adi & axɔe to wò IPFS node si le mia gbɔ zazã me. 
+Ke boŋ la, àte ŋu adi eye nàxɔe kple wòƒe IPFS ɣaɣla dzesi ŋɔŋlɔ. 
 
-De dzesii Mamlɛtɔ: Repo agbalẽdzraɖoƒe si le IPFS dzi mexɔa yeyewo kpe ɖe github nudzraɖoƒe ŋutɔŋutɔ ŋu o. Wokafui be nàgbugbɔ akɔ agbalẽdzraɖoƒea ɖe edzi le ɣeyiɣi aɖewo me. 
+Didienu mamlɛtɔ: Repo ƒe folder si le IPFS dzi la mexɔa updatewo ɖo kple github repository si le nyateƒe me o. Woɖe eƒe susu be nàde folder la ɖe dzi ake le ɣeyiɣiwo ƒe dome.

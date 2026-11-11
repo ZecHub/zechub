@@ -6,7 +6,7 @@
 
 Pretty Good Privacy (PGP) é um pacote de software criptográfico que fornece comunicação segura por canais inseguros. O PGP usa uma combinação de criptografia e assinaturas digitais para garantir que apenas o destinatário pretendido possa ler uma mensagem e que o remetente seja quem diz ser.
 
-## Ferramentas Disponíveis
+## Ferramentas disponíveis
 
 Existem muitas ferramentas PGP diferentes disponíveis, mas algumas das mais populares incluem:
 
@@ -16,21 +16,21 @@ Existem muitas ferramentas PGP diferentes disponíveis, mas algumas das mais pop
 
 ![Ferramentas PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
-## Como Gerar Chaves
+## Como gerar chaves
 
 Para usar PGP, você precisa gerar um par de chaves: Como gerar chaves PGP:
 
 1. Abra seu software PGP.
-2. Clique no botão "Generate Key".
+2. Clique no botão "Gerar chave".
 3. Insira seu nome e endereço de e-mail.
 4. Escolha o comprimento da chave. Quanto maior o comprimento da chave, mais seguras serão suas chaves.
-5. Clique no botão "Generate".
+5. Clique no botão "Gerar".
 
 Seu par de chaves PGP será gerado.
 
-![Gerar Chaves](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
+![Gerar chaves](/content-images/15721ce1-0a77-4ebe-87f4-33e1455f2a40-7699b1771d.webp)
 
-## Como Usar PGP para E-mail
+## Como usar PGP para e-mail
 
 Depois de gerar um par de chaves PGP, você pode usá-lo para criptografar e descriptografar e-mails. Para criptografar um e-mail, você precisa conhecer a chave pública do destinatário. Em seguida, você pode usar sua ferramenta PGP para criptografar o e-mail usando a chave pública do destinatário.
 
@@ -38,15 +38,15 @@ O e-mail criptografado será ilegível para qualquer pessoa que não tenha a cha
 
 ![E-mail PGP](/content-images/dafb761d-f399-40c9-9323-526ba3bd0bc4-98503ad98b.webp)
 
-## Boas Práticas
+## Boas práticas
 
 Aqui estão algumas boas práticas para usar PGP:
 
 * Mantenha sua chave privada em segurança. A chave privada é a parte mais importante do seu par de chaves PGP. Se alguém obtiver sua chave privada, poderá descriptografar quaisquer mensagens que tenham sido criptografadas com sua chave pública.
 
-![Boas Práticas 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
+![Boas práticas 1](/content-images/39a6fae4-a9a1-4061-a97c-4a9b975f6383-eced005c8b.webp)
 
-![Boas Práticas 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
+![Boas práticas 2](/content-images/6c15d6bb-556b-4ff5-b647-3363c8cbb8fd-50ca49a070.webp)
 
 * Compartilhe sua chave pública com pessoas em quem você confia. Você pode compartilhar sua chave pública enviando-a diretamente a elas ou fazendo upload dela para um servidor de chaves PGP.
 * Use senhas fortes para seu chaveiro PGP. Seu chaveiro PGP é um arquivo que armazena suas chaves PGP. É importante usar uma senha forte para proteger esse arquivo.
@@ -56,24 +56,24 @@ Aqui estão algumas boas práticas para usar PGP:
 
 * Abra seu software PGP.
 * Abra o e-mail que você deseja criptografar.
-* Clique no botão "Encrypt".
+* Clique no botão "Criptografar".
 * Insira a chave pública do destinatário.
-* Clique no botão "Encrypt".
+* Clique no botão "Criptografar".
 * O e-mail será criptografado.
 
-![Criptografar E-mail](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
+![Criptografar e-mail](/content-images/a06cd9da-8bc8-45e0-ae2b-83e45aa8163e-6edd4a03ea.webp)
 
 ---
 
-![Fluxo de Criptografia](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
+![Fluxo de criptografia](/content-images/da1499e9-fc87-46b2-93ed-28d43cf1fd86-86fdc87d10.webp)
 
 ## Como descriptografar um e-mail com PGP
 
 * Abra seu software PGP.
 * Abra o e-mail criptografado.
-* Clique no botão "Decrypt".
+* Clique no botão "Descriptografar".
 * Insira sua chave privada.
-* Clique no botão "Decrypt".
+* Clique no botão "Descriptografar".
 * O e-mail será descriptografado.
 
-![Descriptografar E-mail](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)
+![Descriptografar e-mail](/content-images/beae714c-020f-4c1e-aa4f-3dd9430670cc-1e9d38f1ef.webp)

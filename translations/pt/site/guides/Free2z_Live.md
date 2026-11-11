@@ -9,8 +9,8 @@ Free2Z é uma plataforma para criadores e apoiadores se conectarem e alcançarem
 ## Crie sua conta
 
 Atualmente, há duas maneiras de criar sua conta no Free2Z:  
-1. Escolher um nome de usuário e uma senha.  
-2. Conectar sua conta do Twitter.  
+1. Escolha um nome de usuário e uma senha.  
+2. Conecte sua conta do Twitter.  
 
 Para criar uma conta ou fazer login, visite https://free2z.cash/ e clique no botão 'CREATE'.
 
@@ -38,7 +38,7 @@ No momento está bem sem graça, então vamos deixá-lo mais interessante config
 
 Você pode ver o resultado no topo da página.
 
-![Página de perfil após personalização](/content-images/resultatpage-f4ddacb8b8.webp)
+![Página de perfil após a personalização](/content-images/resultatpage-f4ddacb8b8.webp)
 
 Ah, muito melhor! Se você tiver algumas habilidades artísticas, pode fazer sua página de perfil no Free2Z ficar incrível! Escreva uma boa descrição para sua página. Você pode falar sobre si mesmo ou descrever o tipo de conteúdo que outras pessoas podem esperar de você. (Dica: use sintaxe Markdown para personalizar sua descrição!)
 
@@ -46,7 +46,7 @@ Ah, muito melhor! Se você tiver algumas habilidades artísticas, pode fazer sua
 
 Não se esqueça de fornecer seu endereço blindado de Zcash, para que apoiadores possam doar diretamente para você!
 
-![Campo de endereço blindado de Zcash](/content-images/p2p-address-b89f035bd9.webp)
+![Campo de endereço blindado do Zcash](/content-images/p2p-address-b89f035bd9.webp)
 
 A última etapa para concluir a configuração da sua página é definir um 'Member Price'. Este é o preço em 2Zs (Tuzies) que outros usuários pagarão para assinar sua página! (Mais sobre 2Zs adiante).
 
@@ -67,7 +67,7 @@ Você pode ver seus créditos de 2Zs no cabeçalho da sua página de perfil.
 
 ![Saldo de 2Zs / Tuzies no cabeçalho](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
-Você pode comprar mais 2Zs com Zcash clicando no seu saldo de 2Zs. O valor mínimo para compra é 0.05 ZEC, e a taxa de conversão atual é 0.05 ZEC = 10 2Zs.
+Você pode comprar mais 2Zs com Zcash clicando no seu saldo de 2Zs. O valor mínimo para compra é 0,05 ZEC, e a taxa de conversão atual é 0,05 ZEC = 10 2Zs.
 
 ![Interface de compra de 2Zs](/content-images/buy-tuzies-e82c626047.webp)
 
@@ -81,13 +81,13 @@ Para assinar uma página, tudo o que você precisa fazer é clicar no ícone de 
 
 ![Botão de assinatura na página do criador](/content-images/subscribe-to-creator-76c306d924.webp)
 
-Você verá a quantia mínima para assinar. Verifique se você tem tuzis suficientes e clique em assinar.
+Você verá a quantia mínima para assinar. Verifique se você tem Tuzies suficientes e clique em assinar.
 
 ![Janela de confirmação de assinatura](/content-images/confirm-subscribe-7381923e36.webp)
 
 ### Doe usando 2Zs ou Zcash
 
-Você pode doar diretamente na página, clicando no ícone Fund creator.
+Você pode doar diretamente na página do criador, clicando no ícone Fund creator.
 
 ![Botão Fund creator](/content-images/fund-creator-ac59aee7bf.webp)
 
@@ -128,7 +128,7 @@ Para iniciar uma transmissão ao vivo, basta clicar no botão **Go Live**, e o a
 
 ![Selecione um apelido para a transmissão ao vivo](/content-images/select-nickname-414444b992.webp)
 
-E pronto! Quando você inicia uma transmissão ao vivo, seu perfil mostrará um ícone indicando que você está ao vivo, para que seus assinantes possam entrar na transmissão.
+E pronto! Quando você inicia uma transmissão ao vivo, seu perfil mostrará um ícone indicando que você está ao vivo, para que seus assinantes possam entrar na transmissão ao vivo.
 
 ![Entrando em uma transmissão ao vivo](/content-images/join-livestream-679334ba53.webp)
 
@@ -136,7 +136,7 @@ Quando as pessoas entram na transmissão ao vivo, elas podem conversar, pedir pa
 
 ![Exemplo de uma sessão Free2Z Live](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Exemplo de sessão Free2Z Live)_
+_(Exemplo de sessão do Free2Z Live)_
 
 Free2Z Live é versátil e poderoso. Na próxima seção, fornecerei uma visão geral de suas funcionalidades e ferramentas.
 
@@ -163,7 +163,7 @@ Algumas das principais opções aqui são:
 
 Para encerrar uma transmissão ao vivo, você deve clicar no botão 'Leave' e depois clicar em 'End meeting for all' para encerrar a reunião para todos os participantes.
 
-![Painel de interação inferior direito](/content-images/free2z-live-right-c83cb6d209.webp)
+![Painel de interação no canto inferior direito](/content-images/free2z-live-right-c83cb6d209.webp)
 
 Os botões no canto inferior direito contêm funções relacionadas à interação da transmissão ao vivo, como:  
 - **Chat**: Isso permite que os participantes conversem entre si e com o anfitrião durante a transmissão ao vivo.  

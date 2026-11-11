@@ -5,7 +5,7 @@
 Ένα ενδιαφέρον θέμα σήμερα!  
 Το πρωτόκολλο **CryptoNote** επιτρέπει ισχυρή on-chain ιδιωτικότητα. Σήμερα μαθαίνουμε όλα τα βασικά χαρακτηριστικά του και πώς έχει υλοποιηθεί από αρκετά αξιόλογα έργα ιδιωτικότητας.
 
-![CryptoNote intro](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
+![Εισαγωγή στο CryptoNote](/content-images/FrXr5P8WIAAvx36-88db0c8250.webp)
 
 ---
 
@@ -35,7 +35,7 @@
 
 Το **μέγεθος του δακτυλίου** επηρεάζει σημαντικά το σύνολο ανωνυμίας. Οι μεγαλύτεροι δακτύλιοι παρέχουν καλύτερη ιδιωτικότητα.
 
-![Ring Signatures explanation](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Επεξήγηση των υπογραφών δακτυλίου](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
 **Σύγκριση με το Zcash**:  
 Το σύνολο ανωνυμίας του Zcash είναι ο συνολικός αριθμός συναλλαγών που έχουν πραγματοποιηθεί *ποτέ* σε ένα δεδομένο θωρακισμένο pool (πολύ μεγαλύτερο από τα τυπικά μεγέθη δακτυλίου του CryptoNote).
@@ -48,7 +48,7 @@
 
 Αντί να αποκρύπτει μόνο τον αποστολέα, το Ring CT επίσης **συσκοτίζει τα ποσά της συναλλαγής** μεταξύ αποστολέα και παραλήπτη.
 
-![Ring CT diagram](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
+![Διάγραμμα του Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Χρησιμοποιεί:
 - Κρυπτογραφία ελλειπτικών Curve
@@ -59,7 +59,7 @@
 
 Οι **Stealth Addresses** προσθέτουν επίσης διευθύνσεις μίας χρήσης για τον παραλήπτη.
 
-![Stealth Addresses + Proofs](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Κρυφές διευθύνσεις + αποδείξεις](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
@@ -74,7 +74,7 @@
 2. Εκτέλεσε πολυάριθμες λειτουργίες ανάγνωσης/εγγραφής στο scratchpad
 3. Κάνε hash ολόκληρο το scratchpad για να παραχθεί η τελική τιμή
 
-![CryptoNight mining](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
+![Εξόρυξη CryptoNight](/content-images/FrXvNs3XsAA37LG-5779657f5c.webp)
 
 (Σημείωση: Το Monero έχει έκτοτε απομακρυνθεί από το CryptoNight προς άλλους αλγόριθμους.)
 
@@ -86,7 +86,7 @@
 
 Αυτό δημιουργεί μια πολύ ομαλότερη καμπύλη έκδοσης με την πάροδο του χρόνου.
 
-![Dynamic emission curve](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
+![Δυναμική καμπύλη έκδοσης](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
 **Σύνδεση με το Zcash**:  
 Οι προγραμματιστές του Zcash έχουν συζητήσει την υλοποίηση μιας ομαλότερης καμπύλης έκδοσης στο μέλλον, ενδεχομένως μέσω ενός «Zcash Posterity Fund».

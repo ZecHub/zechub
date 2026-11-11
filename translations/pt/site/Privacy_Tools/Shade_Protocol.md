@@ -2,17 +2,17 @@
 
 # Shade Protocol
 
-![Logo do Shade Protocol](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
+![Logotipo do Shade Protocol](/content-images/Af8EzlNiwGr4FTFX7oqdBuE-71316827d0.webp)
 
 ## O que é o Shade Protocol?
 
-Shade Protocol é um ecossistema DeFi (Finanças Descentralizadas) com preservação de privacidade que busca oferecer um conjunto de produtos financeiros, ao mesmo tempo em que garante a privacidade e a segurança do usuário. Construído sobre a Secret Network, o Shade Protocol se concentra em criar um ambiente financeiro centrado na privacidade, oferecendo aos usuários ferramentas como stablecoins, ativos sintéticos, plataformas de empréstimo e muito mais. O principal produto do Shade Protocol é a Silk Stablecoin, que combina recursos de privacidade com estabilidade de preço.
+Shade Protocol é um ecossistema DeFi (Finanças Descentralizadas) que preserva a privacidade e busca oferecer um conjunto de produtos financeiros, ao mesmo tempo em que garante a privacidade e a segurança do usuário. Construído sobre a Secret Network, o Shade Protocol se concentra em criar um ambiente financeiro centrado na privacidade, oferecendo aos usuários ferramentas como stablecoins, ativos sintéticos, plataformas de empréstimo e muito mais. O principal produto do Shade Protocol é a Silk Stablecoin, que combina recursos de privacidade com estabilidade de preço.
 
 ## Tecnologia utilizada 
 
 **Secret Network**
 
-Shade Protocol é construído sobre a Secret Network, uma blockchain de camada 1 que oferece contratos inteligentes com preservação de privacidade. A Secret Network usa entradas, saídas e estado criptografados para garantir a privacidade das transações, protegendo os dados dos usuários de serem expostos no livro-razão público.
+Shade Protocol é construído sobre a Secret Network, uma blockchain de camada 1 que oferece contratos inteligentes que preservam a privacidade. A Secret Network usa entradas, saídas e estados criptografados para garantir a privacidade das transações, protegendo os dados dos usuários de serem expostos no livro-razão público.
 
 ![Diagrama da Secret Network](/content-images/1-yyZ5hFOw6z8zXX_rgJn5iw-9091067aa1.webp)
 
@@ -27,15 +27,15 @@ O protocolo utiliza o Cosmos SDK, um framework modular para construir aplicaçõ
 
 Para consenso e segurança da rede, o Shade Protocol emprega o Tendermint Core, que fornece consenso Byzantine Fault Tolerant (BFT), garantindo alta segurança e finalidade rápida.
 
-**Finanças Descentralizadas com preservação de privacidade**
+**Finanças descentralizadas que preservam a privacidade**
 
-DeFi com preservação de privacidade aproveita técnicas criptográficas avançadas, como transações criptografadas, provas de conhecimento zero e contratos inteligentes privados, para manter a privacidade do usuário e a confidencialidade dos dados em redes blockchain. Ao usar tecnologias como os contratos secretos da Secret Network e o Cosmos SDK para interoperabilidade, essas soluções permitem transações confidenciais, gestão privada de ativos e divulgação seletiva, garantindo que as atividades financeiras permaneçam seguras e em conformidade com regulamentações de privacidade. Essa abordagem protege os usuários contra rastreamento e fraude, oferecendo liberdade financeira descentralizada ao mesmo tempo em que segue padrões de privacidade.
+DeFi que preserva a privacidade aproveita técnicas criptográficas avançadas, como transações criptografadas, provas de conhecimento zero e contratos inteligentes privados, para manter a privacidade do usuário e a confidencialidade dos dados em redes blockchain. Ao usar tecnologias como os contratos secretos da Secret Network e o Cosmos SDK para interoperabilidade, essas soluções permitem transações confidenciais, gestão privada de ativos e divulgação seletiva, garantindo que as atividades financeiras permaneçam seguras e em conformidade com regulamentações de privacidade. Essa abordagem protege os usuários contra rastreamento e fraude, oferecendo liberdade financeira descentralizada ao mesmo tempo em que segue padrões de privacidade.
 
 ## Aplicações
 
 **Tokens Shade e Silk**
 
-Shade Protocol utiliza viewing keys para seus dois principais tokens: Shade ($SHD) e Silk ($SILK). Shade ($SHD) desempenha múltiplos papéis, atuando como token de tesouraria, governança e compartilhamento de receita dentro do ecossistema. Ele é usado em staking, propostas de governança, provisão de liquidez, transações e títulos. Já Silk ($SILK) é a stablecoin do protocolo focada em privacidade, atrelada a uma cesta diversificada de moedas globais e commodities, como ouro, Bitcoin, dólar americano, euro e iene.
+Shade Protocol utiliza chaves de visualização para seus dois principais tokens: Shade ($SHD) e Silk ($SILK). Shade ($SHD) desempenha múltiplos papéis, atuando como token de tesouro, governança e compartilhamento de receita dentro do ecossistema. Ele é usado em staking, propostas de governança, provisão de liquidez, transações e garantias. Já Silk ($SILK) é a stablecoin do protocolo focada em privacidade, atrelada a uma cesta diversificada de moedas globais e commodities, como ouro, Bitcoin, dólar americano, euro e iene.
 
 ![Tokens Shade e Silk - Parte 1](/content-images/9wTrxCdx8AoRcCwsGub13QXuY-807ed3b400.webp)
 
@@ -43,7 +43,7 @@ Shade Protocol utiliza viewing keys para seus dois principais tokens: Shade ($SH
 
 ### Privacidade
 
-Um dos principais motivos pelos quais os usuários podem preferir o Shade Protocol é a privacidade que ele oferece. As transações no Shade ficam protegidas da visualização pública, garantindo que os dados financeiros permaneçam confidenciais. Diferentemente das blockchains públicas tradicionais, em que os detalhes das transações são visíveis para todos, os tokens do Shade Protocol utilizam entradas, saídas e estados criptografados, o que significa que informações sensíveis permanecem ocultas de olhares curiosos. Isso aumenta a privacidade e a segurança do usuário, permitindo que indivíduos participem de atividades financeiras sem expor suas informações pessoais ou histórico de transações, protegendo assim contra ameaças potenciais e preservando a confidencialidade financeira.
+Um dos principais motivos pelos quais os usuários podem preferir o Shade Protocol é a privacidade que ele oferece. As transações no Shade são blindadas da visualização pública, garantindo que os dados financeiros permaneçam confidenciais. Diferentemente das blockchains públicas tradicionais, em que os detalhes das transações são visíveis para todos, os tokens do Shade Protocol utilizam entradas, saídas e estados criptografados, o que significa que informações sensíveis permanecem ocultas de olhares curiosos. Isso aumenta a privacidade e a segurança do usuário, permitindo que indivíduos participem de atividades financeiras sem expor suas informações pessoais ou histórico de transações, protegendo assim contra ameaças potenciais e preservando a confidencialidade financeira.
 
 ### Valor estável
 
@@ -55,7 +55,7 @@ Como uma plataforma DeFi, o Shade Protocol opera sem controle central, oferecend
 
 ### Interoperabilidade
 
-Fazer parte do ecossistema Cosmos significa que o Shade Protocol pode interagir facilmente com outras blockchains, aumentando a liquidez e oferecendo mais oportunidades para que os usuários aproveitem seus ativos em diferentes redes. Ao utilizar tecnologias com preservação de privacidade da Secret Network, o Shade Protocol garante que essas atividades cross-chain mantenham confidencialidade e integridade. Essa interoperabilidade não apenas aumenta a flexibilidade e a funcionalidade das aplicações descentralizadas, mas também promove um ecossistema blockchain mais interconectado e robusto, reduzindo a dependência de redes isoladas e promovendo uma adoção mais ampla de soluções de finanças descentralizadas.
+Fazer parte do ecossistema Cosmos significa que o Shade Protocol pode interagir facilmente com outras blockchains, aumentando a liquidez e oferecendo mais oportunidades para que os usuários aproveitem seus ativos em diferentes redes. Ao utilizar tecnologias que preservam a privacidade da Secret Network, o Shade Protocol garante que essas atividades cross-chain mantenham confidencialidade e integridade. Essa interoperabilidade não apenas aumenta a flexibilidade e a funcionalidade das aplicações descentralizadas, mas também promove um ecossistema blockchain mais interconectado e robusto, reduzindo a dependência de redes isoladas e promovendo uma adoção mais ampla de soluções de finanças descentralizadas.
 
 ![Diagrama de interoperabilidade](/content-images/3zIwSJHEwP9tkn4aI0do0lhgFTE-2aed930de0.webp)
 

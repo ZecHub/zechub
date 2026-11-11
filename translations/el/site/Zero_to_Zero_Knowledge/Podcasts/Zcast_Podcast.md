@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Podcast Zcast
@@ -9,7 +9,7 @@
 
 
 * [🎙️ Πώς και γιατί δημιουργήθηκε το Zcast; 🎙️ - EP 000](https://www.youtube.com/watch?v=I4qMRmY-7Rg)
-* [Zcash και ο αντίκτυπός του στην ισπανόφωνη κοινότητα 🔥 - EP 001](https://www.youtube.com/watch?v=fdAKb-0nJXs)
+* [Ο αντίκτυπος του Zcash στην ισπανόφωνη κοινότητα 🔥 - EP 001](https://www.youtube.com/watch?v=fdAKb-0nJXs)
 * [🎙️ Πρώτος μυστηριώδης καλεσμένος στο Zcast 👨‍💻 - EP 002](https://www.youtube.com/watch?v=eOQUsFLERGI)
 * [🎙️ Το προφίλ ενός αληθινού Zcasher 💪 - EP 003](https://www.youtube.com/watch?v=uBeE1p3dDJw)
 * [ 😎 #ZookoEnZcast Τα καταφέραμε! 💪 - EP 004 ](https://www.youtube.com/watch?v=M5qkbFPeISw)

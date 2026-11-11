@@ -1,6 +1,6 @@
 {
   "locale": "zh",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Simplified Chinese",
     "native_name": "简体中文",
@@ -8,13 +8,113 @@
     "script": "Hans",
     "dir": "ltr",
     "language_lead": [],
-    "last_review": null
+    "last_review": "2026-11-08"
   },
   "style": {
     "variety": "natural, fluent Simplified Chinese",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Simplified Chinese usage; do not force awkward coinages."
+    "register": "neutral",
+    "english_in_brackets": "first-use",
+    "loanwords": "translate",
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Simplified Chinese usage; do not force awkward coinages.",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "\"\"",
+    "abbreviations_with_full_stop": [
+      "."
+    ],
+    "notes": "Reviewer (register): neutral\nReviewer (numerals): western\nReviewer (decimal_separator): .\nReviewer (quotes): \"\"\nReviewer (abbreviations_with_full_stop): ."
   },
   "terms": {
+    "wallet": {
+      "target": "钱包",
+      "forms": [
+        "钱包"
+      ],
+      "context": "钱包 as standalone term; keep English in product names (e.g. Nym Mixnet Wallet Setup → keep English)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-1"
+    },
+    "shielded": {
+      "target": "屏蔽",
+      "forms": [
+        "屏蔽"
+      ],
+      "rejected": [
+        {
+          "text": "已屏蔽"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-2"
+    },
+    "transaction": {
+      "target": "交易",
+      "forms": [
+        "交易"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-3"
+    },
+    "privacy": {
+      "target": "隐私",
+      "forms": [
+        "隐私"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-5"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool",
+        "pools",
+        "Pool",
+        "Pools"
+      ],
+      "context": "keep English as standalone term; translate as 池 in compounds (e.g. Shielded Pools → 屏蔽池)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-6"
+    },
+    "proof": {
+      "target": "证明",
+      "forms": [
+        "证明"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-10"
+    },
     "node": {
       "target": "节点",
       "forms": [
@@ -40,17 +140,2107 @@
       ],
       "reviewed_at": "2026-10-10",
       "source": "prompt_head_zh.txt"
+    },
+    "transparent": {
+      "target": "透明",
+      "forms": [
+        "透明"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-12"
+    },
+    "exchange": {
+      "target": "交易所",
+      "forms": [
+        "交易所"
+      ],
+      "rejected": [
+        {
+          "text": "货币兑换处"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-16"
+    },
+    "memo": {
+      "target": "备忘录",
+      "forms": [
+        "备忘录"
+      ],
+      "rejected": [
+        {
+          "text": "备注"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-19",
+      "context": "备忘录 in page body; UI label Memos uses 备注 (shorter, standard in apps)"
+    },
+    "viewing-key": {
+      "target": "viewing key",
+      "keep_english": true,
+      "forms": [
+        "viewing key",
+        "viewing keys",
+        "view key",
+        "view keys"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-26"
+    },
+    "fee": {
+      "target": "手续费",
+      "forms": [
+        "手续费"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-22"
+    },
+    "swap": {
+      "target": "兑换",
+      "forms": [
+        "兑换"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-27"
+    },
+    "custodial": {
+      "target": "托管",
+      "forms": [
+        "托管"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "零知识",
+      "forms": [
+        "零知识"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "网络升级",
+      "forms": [
+        "网络升级"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-32"
+    },
+    "mining": {
+      "target": "挖矿",
+      "forms": [
+        "挖矿"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-20"
+    },
+    "miner": {
+      "target": "矿工",
+      "forms": [
+        "矿工"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-39"
+    },
+    "full-node": {
+      "target": "全节点",
+      "forms": [
+        "全节点"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-34"
+    },
+    "turnstile": {
+      "target": "turnstile",
+      "keep_english": true,
+      "forms": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-37"
+    },
+    "spending-key": {
+      "target": "花费密钥",
+      "forms": [
+        "花费密钥"
+      ],
+      "rejected": [
+        {
+          "text": "支出密钥"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "助记词",
+      "forms": [
+        "助记词"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-50"
+    },
+    "light-client": {
+      "target": "轻客户端",
+      "forms": [
+        "轻客户端"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-55"
+    },
+    "token": {
+      "target": "代币",
+      "forms": [
+        "代币"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-28"
+    },
+    "chain": {
+      "target": "链",
+      "forms": [
+        "链"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "跨链",
+      "forms": [
+        "跨链"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-52"
+    },
+    "faucet": {
+      "target": "水龙头",
+      "forms": [
+        "水龙头"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-49"
+    },
+    "developer": {
+      "target": "开发者",
+      "forms": [
+        "开发者"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-33"
+    },
+    "dashboard": {
+      "target": "仪表板",
+      "forms": [
+        "仪表板"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-51",
+      "context": "仪表板 in page body; UI menu uses 仪表盘 (common variant)"
+    },
+    "visualizer": {
+      "target": "visualizer",
+      "keep_english": true,
+      "forms": [
+        "visualizer",
+        "visualizers",
+        "Visualizer",
+        "visualiser"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-62",
+      "context": "keep English as standalone term; UI phrase uses 可视化工具"
+    },
+    "use-case": {
+      "target": "用例",
+      "forms": [
+        "用例"
+      ],
+      "context": "用例 as standalone term; 使用场景 in menu labels (e.g. Zcash Use Cases → Zcash 使用场景)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-53"
+    },
+    "brand": {
+      "target": "品牌",
+      "forms": [
+        "品牌"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-61"
+    },
+    "treasury": {
+      "target": "金库",
+      "forms": [
+        "金库"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-57"
+    },
+    "top-up": {
+      "target": "充值",
+      "forms": [
+        "充值"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-58"
+    },
+    "tools": {
+      "target": "工具",
+      "forms": [
+        "工具"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-25"
+    },
+    "newsletter": {
+      "target": "新闻简报",
+      "forms": [
+        "新闻简报"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-45"
+    },
+    "address": {
+      "target": "地址",
+      "forms": [
+        "地址"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-4"
+    },
+    "block": {
+      "target": "区块",
+      "forms": [
+        "区块"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-7"
+    },
+    "blockchain": {
+      "target": "blockchain",
+      "keep_english": true,
+      "forms": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "rejected": [
+        {
+          "text": "区块链"
+        }
+      ],
+      "context": "keep English as standalone term; translate as 区块链 in compounds (e.g. Blockchain Explorers → 区块链浏览器)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-15"
+    },
+    "signature": {
+      "target": "签名",
+      "forms": [
+        "签名"
+      ],
+      "rejected": [
+        {
+          "text": "亲笔签名"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-17"
+    },
+    "commitment": {
+      "target": "commitment",
+      "keep_english": true,
+      "forms": [
+        "commitment",
+        "Commitment",
+        "commitments",
+        "Commitments"
+      ],
+      "rejected": [
+        {
+          "text": "承诺"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-21"
+    },
+    "nullifier": {
+      "target": "nullifier",
+      "keep_english": true,
+      "forms": [
+        "nullifier",
+        "Nullifier",
+        "nullifiers",
+        "Nullifiers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-40"
+    },
+    "note": {
+      "target": "note",
+      "keep_english": true,
+      "forms": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "可信设置",
+      "forms": [
+        "可信设置"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-46"
+    },
+    "consensus": {
+      "target": "共识",
+      "forms": [
+        "共识"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-29"
+    },
+    "governance": {
+      "target": "治理",
+      "forms": [
+        "治理"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-36"
+    },
+    "grant": {
+      "target": "拨款",
+      "forms": [
+        "拨款"
+      ],
+      "rejected": [
+        {
+          "text": "资助"
+        }
+      ],
+      "context": "拨款 for general/standalone use; 资助 in programme names (e.g. CoinHolder Grants → 资助, ZIPs & Grants → 资助)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-24"
+    },
+    "halving": {
+      "target": "减半",
+      "forms": [
+        "减半"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-43"
+    },
+    "staking": {
+      "target": "质押",
+      "forms": [
+        "质押"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-30"
+    },
+    "finalizer": {
+      "target": "finalizer",
+      "keep_english": true,
+      "forms": [
+        "finalizer",
+        "Finalizer",
+        "finalizers",
+        "Finalizers"
+      ],
+      "rejected": [
+        {
+          "text": "终局化器"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-44"
+    },
+    "bond": {
+      "target": "bond",
+      "keep_english": true,
+      "forms": [
+        "bond",
+        "Bond",
+        "bonds",
+        "Bonds",
+        "bonding",
+        "Bonding",
+        "unbonding",
+        "Unbonding",
+        "unbond",
+        "Unbond"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-47"
+    },
+    "encryption": {
+      "target": "加密",
+      "forms": [
+        "加密"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-14"
+    },
+    "decentralized": {
+      "target": "去中心化",
+      "forms": [
+        "去中心化"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-31"
+    },
+    "on-chain": {
+      "target": "链上",
+      "forms": [
+        "链上"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-35"
+    },
+    "bridge": {
+      "target": "桥",
+      "forms": [
+        "桥"
+      ],
+      "rejected": [
+        {
+          "text": "跨链桥"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-42"
+    },
+    "payment": {
+      "target": "支付",
+      "forms": [
+        "支付"
+      ],
+      "context": "支付 as standalone term; 付款 in menu labels (e.g. Accept Payments → 接受付款)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "智能合约",
+      "forms": [
+        "智能合约"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "不可关联",
+      "forms": [
+        "不可关联"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-60"
+    },
+    "permissionless": {
+      "target": "无需许可",
+      "forms": [
+        "无需许可"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-59"
+    },
+    "scaling": {
+      "target": "扩容",
+      "forms": [
+        "扩容"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "选择性披露",
+      "forms": [
+        "选择性披露"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "硬件钱包",
+      "forms": [
+        "硬件钱包"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-zh.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "接受付款",
+      "context": "payment=支付 standalone; 付款 in menu labels",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "Avalanche RedBridge",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-61"
+    },
+    "Block Explorers": {
+      "target": "区块浏览器",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "区块链浏览器",
+      "context": "blockchain is kept English standalone but translated as 区块链 in this compound",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-64"
+    },
+    "Brand": {
+      "target": "品牌",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "BTCPayServer 插件",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "BTCPayServer Zcash 插件",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "购买 ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-16"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "CoinHolder 定向追溯性资助",
+      "context": "grant=拨款 standalone; 资助 in programme names",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-51"
+    },
+    "Community": {
+      "target": "社区",
+      "context": "社区 as standalone; keep English in product/programme names (e.g. Community Building)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "社区博客",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "Community Building",
+      "keep_english": true,
+      "context": "community=社区 standalone; kept as English programme name here",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "社区论坛",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "社区链接",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "社区项目",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "贡献",
+      "rejected": [
+        {
+          "text": "参与贡献"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "托管型交易所",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "仪表盘",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-13"
+    },
+    "Developers": {
+      "target": "开发者",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-10"
+    },
+    "Donate": {
+      "target": "捐赠",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-8"
+    },
+    "Donations": {
+      "target": "捐赠",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "生态系统",
+      "context": "生态系统 as standalone; shortened to 生态 in compounds (e.g. Zcash Ecosystem Security → 生态安全)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "交易所",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-19"
+    },
+    "Explore": {
+      "target": "探索",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-9"
+    },
+    "Extras": {
+      "target": "附加内容",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "水龙头",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "面向 Fork 与维护者",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "自由职业隐私",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "完整探索",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "术语表与常见问题",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "术语表与常见问题",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "治理",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-4"
+    },
+    "Guides": {
+      "target": "指南",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "如何参与",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "记者隐私",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "保存记录",
+      "rejected": [
+        {
+          "text": "记录保存"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-35"
+    },
+    "Memos": {
+      "target": "备注",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "手机充值",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-25"
+    },
+    "More": {
+      "target": "更多",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "导航",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "新闻简报",
+      "rejected": [
+        {
+          "text": "通讯"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Nym Mixnet Wallet Setup",
+      "keep_english": true,
+      "context": "wallet=钱包 standalone; kept as English product name here",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "组织",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-49"
+    },
+    "Overview": {
+      "target": "概览",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "支付 AI",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "支付处理器",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "支付请求 URI",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "播客",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "隐私工具",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "私密社区金库",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Raspberry Pi 4 全节点",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Raspberry pi 4 Zebra 节点",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Raspberry Pi zcashd 节点",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Raspberry Pi Zebra 节点",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "找回资金",
+      "rejected": [
+        {
+          "text": "追回资金"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-28"
+    },
+    "Research": {
+      "target": "研究",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "私密转账",
+      "rejected": [
+        {
+          "text": "私自转账"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "屏蔽池",
+      "context": "pool is kept English standalone but translated as 池 in this compound",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-21"
+    },
+    "Shop": {
+      "target": "商店",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "网站地图",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "从这里开始",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-31"
+    },
+    "Store": {
+      "target": "商店",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "工具",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "交易",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "透明交易所地址",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "教程",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "使用场景",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "使用 Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "使用 Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "在 DeFi 中使用 ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "私密使用 ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "视觉识别",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "可视化工具",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Zcash 网络可视化",
+      "rejected": [
+        {
+          "text": "可视化 Zcash 网络"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Zcash 地址可视化",
+      "rejected": [
+        {
+          "text": "可视化 Zcash 地址"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "钱包",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Ywallet FROST 演示",
+      "rejected": [
+        {
+          "text": "YWallet FROST 示威"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "Zcash 社区",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Zcash 生态安全",
+      "context": "ecosystem=生态系统 standalone; shortened to 生态 in this compound",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "Zcash 治理",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Zcash 改进提案",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Zcash 媒体",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Zcash 组织",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "Zcash 播客",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Zcash 技术",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "Zcash 使用场景",
+      "context": "use-case=用例 standalone; 使用场景 in menu labels",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "Zcon 存档",
+      "rejected": [
+        {
+          "text": "Zcon 档案"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Zcon Vozes 存档",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Zenith 安装",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "零知识与诱饵系统对比",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "零知识 vs 诱饵",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "Zgo 支付处理器",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Zingolib 和 Zaino 教程",
+      "rejected": [
+        {
+          "text": "Zingolib 和 Zaino 补习"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs 与资助",
+      "context": "grant=拨款 standalone; 资助 in programme names",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "Zkool 多重签名",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@zwang1111"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-zh.md#navigation-62"
     }
   },
   "changelog": [
     {
-      "version": 1,
-      "date": "2026-10-10",
+      "version": 2,
+      "date": "2026-11-08",
       "terms": [
-        "node"
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
       ],
-      "phrases": [],
-      "summary": "Imported from the runner's hand-written prompt_head_zh.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Imported glossary-review-zh.md and menus-review-zh.md (reviewed by @zwang1111): 62 terms, 104 UI phrases, style answers. Rule-3 context fields document deliberate term/compound splits."
     }
   ]
 }

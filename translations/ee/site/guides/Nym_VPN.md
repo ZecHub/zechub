@@ -1,10 +1,10 @@
 # Nym VPN 
 
-Nym nye mix network (mixnet) si le tɔtrɔm, kɔmpiuta network ƒe xɔtuɖoɖo ƒomevi aɖe na ame ŋutɔ ƒe nyawo tsɔtsɔ aɣla si tsyɔa zãla ƒe metadata dzi, mãa dzɔtsoƒe kple teƒe si woɖo tae ƒe IP adrɛswo. Enaa kadodo vovovowo, siwo dometɔ aɖewoe nye gbedasiwo ɖoɖo ɖe amewo, faɛlwo ɖoɖo ɖe amewo, fexexe ƒe asitsatsa, kple nyatakakadzraɖoƒe veviwo dzi yiyi. Wotu dɔa ɖe kɔmpiutadziɖoɖo siwo woate ŋu azã femaxee kple esiwo woate ŋu azã faa dzi eye woɖee ɖe vovo, eye node siwo le wo ɖokui si ƒe hatsotso si woma le xexeame katã léa be na.Nym VPN & Mixnet xɔa fetu le ZEC si wokpɔ ta na me! 
+Nym nye mix network si le trɔ̃m (mixnet), computer network infrastructure ƒomevi na ɣaɣla [privacy] si ɖea eƒe zazãlawo ƒe metadata, eye wòɖea IP address si tsoe kple si woɖo le vovo. Ewɔa be nyaɖoɖo ƒomevi vovovo nanɔ ame manya o, siwo ƒe wɔnawo ƒomevie nye meseɖoɖo, file ƒe trɔtrɔ, fexexe [payment] ƒe gaɖoɖo [transaction], kple web ƒe nyatakakadzraɖoɖo le website gblɔetɔwo dzi. Woɖo dɔa ɖe software si nye ablɔɖe kple open-source dzi, eye wònye ha nuɖo agni [decentralized], ɣaɣla dzesi ŋɔŋlɔ [node] siwo le xexeame blibo me eye woƒe ɖokui nye ɖe asi le eŋu.Nym VPN & Mixnet xɔa fexexe le ɣaɣla [shielded] ZEC me! 
 
-[Nym Blog ƒe Nyatakaka](https://nym.com/blog/nymvpn-with-zcash) | [Kpɔ Nym VPN ƒe kɔpi](https://nym.com)
+[Nym Blog ƒe Nusiaŋlɔ](https://nym.com/blog/nymvpn-with-zcash) | [Wɔ download na Nym VPN](https://nym.com)
 
-## Nufiame
+## Fiafia
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -18,54 +18,53 @@ Nym nye mix network (mixnet) si le tɔtrɔm, kɔmpiuta network ƒe xɔtuɖoɖo �
 </div>
    
 
-### Access geo restricted content
+### Va geographi ƒe nugbegbe me
 
-To anyigba ƒe mɔxeɖenuwo dzi be nàge ɖe nyatakakadzraɖoƒewo, nyatakakadzraɖoƒewo, alo nyatakaka siwo mele miaƒe nutoa me o la me.
+Va geographi ƒe nugbegbe dzi be nàkpɔ streaming service, website, alo emenyawo siwo menɔ wòƒe nutome o.
 
-### Do wò dedienɔnɔ ɖe ŋgɔ le dutoƒo WiFi dzi
+### Ɖe wòƒe dzɔdzɔenyenye ɖe dzi le WiFi si nye tɔxɛ me
 
-Takpɔ wò nyatakakawo ta tso kɔmpiutadzidzelawo si me ne èle dutoƒo Wi-Fi zãm le kɔfidzraƒewo, yameʋudzeƒewo, alo amedzrodzeƒewo.
+Ɖe wòƒe datawo ɖe asi tso hackers gbɔ ne èle Wi-Fi si nye tɔxɛ zãm le cafe, airport, alo hotel me.
 
-### Adzamenyawo Deŋgɔ Le Ðeka Me 
+### ɣaɣla ƒe ŋusẽ si Blibo Le Ɖeka Me
 
-Ta wò nyatakakawo ta
-De wò internet kadodoa me be nàɣla wò Internet dzi dɔwɔnawo ɖe ISPwo, boblodolawo, kple nyatakakawo yometitiwo.
+Ɖe wòƒe ɣaɣla ɖe asi.
+Wɔ ɣaɣlaŋlɔŋlɔ [encryption] na wòƒe internet ƒe kadodo be nàɣla wòƒe online nudzɔdzɔwo na ISP, ad ƒe wɔnawo kple data trackerwo.
 
-### Nye ŋkɔmaɖemaɖe le Internet dzi
+### Nɔ ame manya o le internet dzi
 
-Mitsyɔ nu wò IP adrɛs dzi be ame ƒe ŋkɔ naganɔ eŋu ne èle nu me dzrom o, eye nàƒo asa na amewo ƒe nɔnɔmetatawo wɔwɔ alo boblododo siwo ŋu nèɖo taɖodzinu ɖo.
+Ɣla wòƒe IP address be nànɔ ame manya o ne èle web ƒe nyatakakadzraɖoɖo wɔm, eye nàtsi le ame ƒe nɔnɔwo ƒe xexlẽ kple ad siwo woɖoa na wò tɔxɛ me.
 
-### Ƒo asa na bandwidth throttling
+### Ƒo asa le bandwidth ƒe ɖeɖi ɖa
 
-Xɔ mɔ na ISP-wo be woagaɖe wò internet dzi kadodoa dzi akpɔtɔ ne èle Internet dzi kpɔm alo le fefem o.
+Ƒo asa le ISPwo ƒe wòƒe internet ƒe kadodo ɖeɖi ɖa ne èle streaming alo game wɔm.
 
-### Xɔ mɔ ɖe ŋkuléle ɖe nu ŋu kple ŋkuléle ɖe nu ŋu nu
+### Ƒo asa le kpɔkpɔ kple nugbegbe ɖa
 
-To mɔɖeɖe ɖe nu ŋu eye nàge ɖe nyatakakadzraɖoƒe alo hadomenyatakakadzraɖoƒe siwo woxe mɔ na le dukɔ siwo me mɔxexeɖedɔa nu le me.
+Va nugbegbe ŋu eye nàkpɔ website alo social media siwo woɖe mɔ na le dukɔ siwo me nuɖoɖo sesẽ le.
 
-### Gadzraɖoƒe si le dedie le Internet dzi
+### Wɔ online bank dzɔdzɔe
 
-Takpɔ ganyawo ŋuti nyatakaka veviwo ne èle gadzraɖoƒe le Internet dzi alo le ga xem.
+Ɖe ga ƒe nyatakaka siwo le ŋusẽ ɖe asi ne èle online bank zãm alo fexexe wɔm.
 
-### Ƒo asa na asixɔxɔ si le tɔtrɔm
+### Ƒo asa le asiwo ƒe vovototo ƒe teƒe me
 
-Ɣla afi si nèle be nàƒo asa na vovototodedeameme le asixɔxɔ ŋu le teƒe si yameʋuɖoɖo, amedzrodzeƒewo, alo adzɔnuwo le ta.
+Ɣla wòƒe nɔƒe be nàtsi le asiwo ƒe vovototo si wotu ɖe nɔƒe ŋu na ndege, hotel, alo nuƒoƒowo me.
 
-### Ta wò crypto ƒe asitsatsa ta
+### Ɖe wòƒe crypto gaɖoɖowo ɖe asi
 
-Takpɔ wò cryptocurrency dɔwɔnawo kple NymVPN ƒe fexexe siwo ŋu kadodo mele o kple metadata takpɔkpɔ deŋgɔ.
+Ɖe wòƒe cryptocurrency ƒe nudzɔdzɔwo ɖe asi kple NymVPN ƒe kadodo manɔ anyi [unlinkable] fexexewo kple metadata ƒe ɖeɖeasi si le ŋusẽ.
 
 
-## Nym VPN ƒe Ðoɖowɔɖi ƒe Mɔfiamewo:
+## Nym VPN ƒe Ɖoɖo ƒe Fiafiawo:
 
 [iOS](https://vimeo.com/1083490444/81e95709b0) 
 
-[MacOS ƒe ŋkɔ](https://vimeo.com/1080779573/78844dc8db)
+[MacOS](https://vimeo.com/1080779573/78844dc8db)
 
-[Fesrewo](https://vimeo.com/1085710809/52876930a6)
+[Windows](https://vimeo.com/1085710809/52876930a6)
 
-[Android ƒe ŋkɔ](https://vimeo.com/1096218590?share=copy)
+[Android](https://vimeo.com/1096218590?share=copy)
 
 
-Srɔ̃ nu tso [Nym x Zcash ƒe ƒoƒo ɖekae ŋu](https://nym.com/blog/zcash-ltgt-nym)
- 
+Srɔ̃ nu tso [Nym x Zcash ƒe kadodo](https://nym.com/blog/zcash-ltgt-nym)

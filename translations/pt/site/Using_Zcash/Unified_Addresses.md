@@ -1,50 +1,87 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Unified_Addresses.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Endereços Unificados
+# Endereços unificados
 
-> Um endereço para todo o Zcash. Partilhe-o, e a wallet do remetente encontra a forma mais privada de lhe pagar.
+> Um endereço para todo o Zcash. Compartilhe-o, e a carteira do remetente encontrará a forma mais privada de fazer um pagamento para você.
 
-Um endereço unificado (UA) é um único endereço Zcash que reúne vários recetores num só. Os recetores são as partes de um endereço que aceitam fundos num conjunto de valor específico: Ironwood, Sapling e transparente. Um UA começa por `u1` na mainnet e foi definido em [ZIP 316](https://zips.z.cash/zip-0316), introduzido com a atualização de rede NU5 a 31 de maio de 2022.
+## Resumo
 
-Antes dos endereços unificados, receber ZEC significava pensar em tipos de endereço. Um endereço `zs` recebia fundos Sapling, um endereço `t` recebia fundos transparentes, e enviar entre tipos exigia passos adicionais. Um UA acaba com isso. Partilha um endereço, e as wallets tratam do resto.
+* Um endereço unificado (UA) é um endereço Zcash que reúne vários receivers: Ironwood, Sapling e transparente.
+* Os UAs da mainnet começam com `u1`. A ZIP 316 os definiu, e eles chegaram com a atualização NU5 em 31 de maio de 2022.
+* A carteira do remetente escolhe o pool mais privado que ambas as carteiras suportam. Você nunca escolhe um pool por conta própria.
+* Seu UA continuou funcionando quando o pool Ironwood entrou em operação em julho de 2026. Você não precisou compartilhar um novo endereço.
+* Sua carteira pode criar um UA novo para cada remetente, e todos eles fazem pagamentos para a mesma conta.
 
-## Como funciona
+## Explicação principal
 
-Quando alguém envia para o seu UA, a wallet dessa pessoa lê os recetores no seu interior e escolhe o conjunto mais privado suportado por ambas as wallets:
+Um endereço unificado (UA) é um único endereço Zcash que reúne vários receivers em um só. Receivers são as partes de um endereço que aceitam fundos em um pool de valor específico: Ironwood, Sapling e transparente. Um UA começa com `u1` na mainnet e foi definido na [ZIP 316](https://zips.z.cash/zip-0316), introduzida com a atualização da rede NU5 em 31 de maio de 2022.
 
-1. Se ambas as wallets suportarem o conjunto blindado atual, o pagamento chega blindado. Nada público toca na cadeia.
-2. Se o remetente apenas puder enviar a partir de um conjunto mais antigo, a wallet recorre ao melhor recetor que ambos partilham, como Sapling.
-3. Se o remetente apenas puder enviar fundos transparentes, o pagamento chega ao recetor transparente do seu UA, e a sua wallet pode blindá-lo a partir daí.
+Antes dos endereços unificados, receber ZEC significava pensar nos tipos de endereço. Um endereço `zs` recebia fundos Sapling, um endereço `t` recebia fundos transparentes, e enviar entre tipos exigia etapas extras. Um UA acaba com isso. Você compartilha um endereço, e as carteiras resolvem o restante.
 
-Nunca tem de gerir isto pessoalmente. O endereço mantém-se igual; o encaminhamento acontece no seu interior.
+### Como funciona
 
-## Porque é importante agora
+Quando alguém envia para seu UA, a carteira dessa pessoa lê os receivers dentro dele e escolhe o pool mais privado que ambas as carteiras suportam:
 
-Zcash continua a evoluir. Quando o conjunto Ironwood foi ativado com NU6.3 a 28 de julho de 2026, os detentores de UAs não precisaram de um novo endereço: as wallets simplesmente começaram a escolher o recetor Ironwood dentro dos endereços que as pessoas já tinham. Os utilizadores com endereços autónomos mais antigos tiveram de migrar. Os detentores de UAs não fizeram nada.
+1. Se ambas as carteiras suportam o pool blindado atual, o pagamento chega blindado. Nada público toca a chain.
+2. Se o remetente só puder enviar de um pool mais antigo, a carteira recorre ao melhor receiver que vocês dois compartilham, como Sapling.
+3. Se o remetente só puder enviar fundos transparentes, o pagamento chega ao receiver transparente do seu UA, e sua carteira pode blindá-lo a partir dali.
 
-Este é o objetivo do design. Novos conjuntos chegam com futuras atualizações de rede, e um endereço unificado absorve-os sem que ninguém tenha de voltar a partilhar endereços ou mover fundos manualmente. Consulte os [conjuntos de valorZcash atuais](/using-zcash/shielded-pools) para ver a lista atual de conjuntos.
+Você nunca gerencia isso por conta própria. O endereço permanece o mesmo; o roteamento acontece dentro dele.
 
-## Um endereço novo para cada remetente
+### Por que isso importa agora
 
-As wallets podem gerar muitos endereços unificados diversificados para uma conta. Cada um deposita nos mesmos fundos, mas nenhum par deles pode ser associado na cadeia. Dê um UA diferente a cada pessoa ou serviço que lhe pague, e nenhum par poderá comparar endereços para descobrir que paga para a mesma wallet.
+O Zcash continua recebendo atualizações. Quando o pool Ironwood foi ativado com a NU6.3 em 28 de julho de 2026, os detentores de UA não precisaram de um novo endereço: as carteiras simplesmente começaram a escolher o receiver Ironwood dentro dos endereços que já possuíam. Usuários que mantinham endereços independentes mais antigos tiveram de migrar. Os detentores de UA não fizeram nada.
 
-## Ferramentas relacionadas
+Este é o objetivo do design. Novos pools chegam com futuras atualizações da rede, e um endereço unificado os absorve sem que ninguém precise compartilhar novamente endereços ou mover fundos manualmente. Consulte [Zcash pools de valor](/using-zcash/shielded-pools) para ver a composição atual dos pools.
 
-- **Chaves de visualização.** Cada conta tem chaves de visualização unificadas que partilham o que um UA recebe (ou tudo o que envia) sem partilhar autoridade de gasto. Prefixos `uview` e `uivk`. Consulte [chaves de visualização](/zcash-tech/viewing-keys).
-- **Endereços TEX.** Algumas exchanges, atualmente a Binance, exigem que os depósitos cheguem de uma origem transparente. Um endereço TEX ([ZIP 320](https://zips.z.cash/zip-0320)) é um complemento apenas transparente do seu UA precisamente para esse caso. Consulte [endereços transparentes para exchanges](/using-zcash/transparent-exchange-addresses).
-- **Pedidos de pagamento.** Um UA pode ser incorporado num URI de pedido de pagamento com um montante e uma nota pré-preenchidos. Consulte [URIs de pedido de pagamento](/using-zcash/payment-request-uris).
+### Um endereço novo para cada remetente
 
-## Factos rápidos
+As carteiras podem gerar muitos endereços unificados diversificados para uma conta. Cada um deles faz pagamentos para os mesmos fundos, mas nenhum par deles pode ser vinculado on-chain. Dê um UA diferente a cada pessoa ou serviço que faz pagamentos para você, e nenhum par poderá comparar endereços para descobrir que paga para a mesma carteira.
+
+## Visual / Analogia
+
+Imagine uma porta de entrada com três aberturas para correspondências. A abertura mais nova deixa as cartas em um cofre trancado (Ironwood). A segunda as deixa em uma gaveta trancada (Sapling). A terceira as deixa em uma bandeja aberta que qualquer pessoa pode ler pela janela (transparente).
+
+O carteiro é a carteira do remetente. Ela usa a abertura mais privada pela qual consegue passar. Você fornece um endereço para a porta e, quando a casa ganha um novo cofre, o endereço na porta permanece o mesmo.
+
+## Análise detalhada
+
+### Ferramentas relacionadas
+
+- **Chaves de visualização.** Cada conta tem chaves de visualização unificadas que compartilham o que um UA recebe (ou tudo o que ele envia) sem compartilhar autoridade de gastos. Prefixos `uview` e `uivk`. Consulte [chaves de visualização](/zcash-tech/viewing-keys).
+- **Endereços TEX.** Algumas corretoras, atualmente Binance, exigem que os depósitos cheguem de uma origem transparente. Um endereço TEX ([ZIP 320](https://zips.z.cash/zip-0320)) é um acompanhante exclusivamente transparente do seu UA exatamente para esse caso. Consulte [endereços transparentes para corretoras](/using-zcash/transparent-exchange-addresses).
+- **Solicitações de pagamento.** Um UA pode ser incorporado em uma URI de solicitação de pagamento com um valor e um memorando preenchidos previamente. Consulte [URIs de solicitação de pagamento](/using-zcash/payment-request-uris).
+
+### Fatos rápidos
 
 | | |
 |---|---|
 | Prefixo | `u1` (mainnet) |
 | Codificação | bech32m |
-| Definido em | [ZIP 316](https://zips.z.cash/zip-0316) |
+| Definido na | [ZIP 316](https://zips.z.cash/zip-0316) |
 | Introduzido | NU5, 31 de maio de 2022 |
-| Contém | Recetores Ironwood, Sapling e transparentes |
-| Chave de gasto | Uma por conta, partilhada por todos os seus UAs |
+| Contém | Receivers Ironwood, Sapling e transparentes |
+| Chave de gastos | Uma por conta, compartilhada por todos os seus UAs |
 
-Veja quais as wallets que suportam endereços unificados na página de [wallets](/wallets).
+Verifique quais carteiras suportam endereços unificados na página de [carteiras](/wallets).
+
+## Erros comuns
+
+- **Compartilhar um endereço `zs` ou `t` antigo.** Um endereço independente alcança apenas um pool e não inclui os novos. Compartilhe seu UA.
+- **Dar o mesmo UA para todos.** Duas pessoas que fazem pagamentos para você podem comparar notes e ver o mesmo endereço. Dê a cada remetente um UA novo da sua carteira.
+- **Esperar que todo pagamento para um UA seja privado.** Um remetente que só pode enviar fundos transparentes paga para seu receiver transparente, e esse pagamento é público. Depois, blinde-o pela sua carteira.
+
+## Páginas relacionadas
+
+- [Pools blindados](/using-zcash/shielded-pools): os pools de valor por trás de cada receiver em um UA.
+- [Endereços unificados (técnico)](/zcash-tech/unified-addresses): como a ZIP 316 cria e codifica um UA.
+- [Chaves de visualização](/zcash-tech/viewing-keys): compartilhe o que um UA recebe sem compartilhar autoridade de gastos.
+- [Endereços transparentes para corretoras](/using-zcash/transparent-exchange-addresses): o formato TEX para corretoras que precisam de uma origem transparente.
+- [URIs de solicitação de pagamento](/using-zcash/payment-request-uris): um UA com o valor e o memorando preenchidos.
+- [Carteiras](/using-zcash/wallets): quais carteiras criam e fazem pagamentos para endereços unificados.
+- [Corretoras não custodiantes](/using-zcash/non-custodial-exchanges): o que verificar quando uma conversão paga ZEC para sua carteira.
+- [Quem pode ver seu pagamento Zcash](/start-here/who-can-see-your-zcash-payment): o que permanece visível quando um pagamento usa cada receiver.
+
+**Última atualização:** outubro de 2026

@@ -1,43 +1,147 @@
 {
   "locale": "pt",
-  "version": 2,
+  "version": 3,
   "meta": {
     "language_name": "Portuguese",
     "native_name": "Português",
     "engine": "llm",
     "script": "Latn",
     "dir": "ltr",
-    "language_lead": [],
-    "last_review": null
+    "language_lead": [
+      "@andybarlac"
+    ],
+    "last_review": "2026-10-27"
   },
   "style": {
-    "variety": "natural, fluent Portuguese (pt-PT/neutral)",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Portuguese usage; do not force awkward coinages.",
+    "variety": "natural, fluent Brazilian Portuguese (pt-BR)",
+    "register": {
+      "default": "você",
+      "ui": "você",
+      "text": {
+        "você": "Address the reader as \"você\" (verbs in the third person singular, imperative \"use\", \"clique\", \"baixe\"), in tutorials and technical pages alike. Never use \"tu\" or \"vós\"."
+      }
+    },
+    "english_in_brackets": "never",
+    "loanwords": "keep-english",
+    "loanwords_text": "Common technical loanwords (e.g. blockchain, token, pool, staking, halving) stay in English where that is the natural Brazilian usage; do not force awkward coinages. The terminology list below wins over this rule (wallet → carteira, smart contract → contrato inteligente).",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ",",
+    "quotes": "straight double quotes \"…\"",
     "abbreviations_with_full_stop": [
-      "abr",
-      "ago",
       "aprox",
       "cap",
-      "dez",
       "etc",
       "ex",
-      "fev",
-      "jan",
-      "jul",
-      "jun",
       "máx",
       "mín",
-      "nov",
       "nº",
-      "out",
       "pág",
-      "set",
       "Sr",
       "Sra",
       "vol"
+    ],
+    "writing_rules": [
+      "Write Brazilian Portuguese, not European Portuguese: usuário (not utilizador), arquivo (not ficheiro), tela (not ecrã), celular (not telemóvel), registro (not registo), equipe (not equipa), baixar for download (not transferir), aplicativo or app (not aplicação for a mobile app), and the gerund for ongoing actions (está usando, not está a usar).",
+      "Zcash is masculine, because it is a protocol: \"o Zcash\", \"do Zcash\", \"no Zcash\", \"ao Zcash\", never \"a Zcash\" / \"da Zcash\". Names of organisations keep the gender of their own noun (a Zcash Foundation, a Zcash Community Grants).",
+      "Use sentence case in headings, titles and menu labels, not English Title Case (\"Chave de visualização\", not \"Chave de Visualização\").",
+      "When an English term is kept, do not add a Portuguese gloss or the English in brackets; at its first use it may be written in quotes or in italics.",
+      "Abbreviated months (jan, fev, mar, abr, mai, jun, jul, ago, set, out, nov, dez) take no full stop.",
+      "Zallet is feminine, because it is a carteira: a Zallet, da Zallet, na Zallet, à Zallet (Andy's answer). Zcash and Zebra stay masculine."
     ]
   },
   "terms": {
+    "wallet": {
+      "target": "carteira",
+      "forms": [
+        "carteira",
+        "carteiras"
+      ],
+      "context": "carteira; product names that contain Wallet stay in English (Brave Wallet).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-1"
+    },
+    "shielded": {
+      "target": "blindado",
+      "forms": [
+        "blindado",
+        "blindada",
+        "blindados",
+        "blindadas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-2"
+    },
+    "transaction": {
+      "target": "transação",
+      "forms": [
+        "transação",
+        "transações"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-3"
+    },
+    "privacy": {
+      "target": "privacidade",
+      "forms": [
+        "privacidade"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-5"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool",
+        "pools",
+        "Pool",
+        "Pools"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Não há termo equivalente no português brasileiro.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-6"
+    },
+    "proof": {
+      "target": "prova",
+      "forms": [
+        "prova",
+        "provas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Apesar da sugestão para manter em inglês, aqui se usa a palavra no contexto de criptomoedas, também, no sentido da prova matemática ou no contexto criptográfico.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-10"
+    },
     "node": {
       "target": "nó",
       "forms": [
@@ -65,6 +169,2140 @@
       ],
       "reviewed_at": "2026-10-10",
       "source": "prompt_head_pt.txt"
+    },
+    "transparent": {
+      "target": "transparente",
+      "forms": [
+        "transparente",
+        "transparentes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-12"
+    },
+    "exchange": {
+      "target": "corretora",
+      "forms": [
+        "corretora",
+        "corretoras"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-15"
+    },
+    "memo": {
+      "target": "memorando",
+      "forms": [
+        "memorando",
+        "memorandos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-17"
+    },
+    "viewing-key": {
+      "target": "chave de visualização",
+      "forms": [
+        "chave de visualização",
+        "chaves de visualização"
+      ],
+      "context": "Lowercase generic viewing key = chave de visualização. The capitalised protocol names Viewing Key, Full Viewing Key and Incoming Viewing Key stay in English (a Full Viewing Key), as do Unified Address and other protected names.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-23"
+    },
+    "fee": {
+      "target": "taxa",
+      "forms": [
+        "taxa",
+        "taxas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-20"
+    },
+    "swap": {
+      "target": "conversão",
+      "forms": [
+        "conversão",
+        "conversões"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-27"
+    },
+    "custodial": {
+      "target": "custodiante",
+      "forms": [
+        "custodiante",
+        "custodiantes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "conhecimento zero",
+      "forms": [
+        "conhecimento zero"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-22"
+    },
+    "network-upgrade": {
+      "target": "atualização da rede",
+      "forms": [
+        "atualização da rede",
+        "atualizações da rede"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-32"
+    },
+    "mining": {
+      "target": "mineração",
+      "forms": [
+        "mineração"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-21"
+    },
+    "miner": {
+      "target": "minerador",
+      "forms": [
+        "minerador",
+        "mineradores"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-39"
+    },
+    "full-node": {
+      "target": "nó integral",
+      "forms": [
+        "nó integral",
+        "nós integrais"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-35"
+    },
+    "turnstile": {
+      "target": "catraca",
+      "forms": [
+        "catraca",
+        "catracas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-36"
+    },
+    "spending-key": {
+      "target": "chave de gastos",
+      "forms": [
+        "chave de gastos",
+        "chaves de gastos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "frase semente",
+      "forms": [
+        "frase semente",
+        "frases semente"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-49"
+    },
+    "light-client": {
+      "target": "light client",
+      "keep_english": true,
+      "forms": [
+        "light client",
+        "light clients",
+        "Light client",
+        "Light Client"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-54"
+    },
+    "token": {
+      "target": "token",
+      "keep_english": true,
+      "forms": [
+        "token",
+        "tokens",
+        "Token",
+        "Tokens"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-28"
+    },
+    "chain": {
+      "target": "chain",
+      "keep_english": true,
+      "forms": [
+        "chain",
+        "chains",
+        "Chain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Não há termo equivalente em português brasileiro, e os usuários já são familiarizados com o termo.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "cross-chain",
+      "keep_english": true,
+      "forms": [
+        "cross-chain",
+        "Cross-chain",
+        "Cross-Chain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-52"
+    },
+    "faucet": {
+      "target": "faucet",
+      "keep_english": true,
+      "forms": [
+        "faucet",
+        "faucets",
+        "Faucet",
+        "Faucets"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-50"
+    },
+    "developer": {
+      "target": "desenvolvedor",
+      "forms": [
+        "desenvolvedor",
+        "desenvolvedores"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-33"
+    },
+    "dashboard": {
+      "target": "painel",
+      "forms": [
+        "painel",
+        "painéis"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-51"
+    },
+    "visualizer": {
+      "target": "visualizador",
+      "forms": [
+        "visualizador",
+        "visualizadores"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-62"
+    },
+    "use-case": {
+      "target": "caso de uso",
+      "forms": [
+        "caso de uso",
+        "casos de uso"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-53"
+    },
+    "brand": {
+      "target": "marca",
+      "forms": [
+        "marca",
+        "marcas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-61"
+    },
+    "treasury": {
+      "target": "tesouro",
+      "forms": [
+        "tesouro",
+        "tesouros"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-56"
+    },
+    "top-up": {
+      "target": "recarga",
+      "forms": [
+        "recarga",
+        "recargas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-58"
+    },
+    "tools": {
+      "target": "ferramenta",
+      "forms": [
+        "ferramenta",
+        "ferramentas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-26"
+    },
+    "newsletter": {
+      "target": "newsletter",
+      "keep_english": true,
+      "forms": [
+        "newsletter",
+        "newsletters",
+        "Newsletter",
+        "Newsletters"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-46"
+    },
+    "address": {
+      "target": "endereço",
+      "forms": [
+        "endereço",
+        "endereços"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-4"
+    },
+    "block": {
+      "target": "bloco",
+      "forms": [
+        "bloco",
+        "blocos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-7"
+    },
+    "blockchain": {
+      "target": "blockchain",
+      "keep_english": true,
+      "forms": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Não há termo equivalente em português brasileiro, e os usuários já são familiarizados com o termo.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-16"
+    },
+    "signature": {
+      "target": "assinatura",
+      "forms": [
+        "assinatura",
+        "assinaturas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-19"
+    },
+    "commitment": {
+      "target": "compromisso",
+      "forms": [
+        "compromisso",
+        "compromissos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Não há um equivalente em português brasileiro para commitment neste sentido criptográfico da palavra. Compromisso seria a palavra que mais se aproximaria, pelo contexto.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-24"
+    },
+    "nullifier": {
+      "target": "nulificador",
+      "forms": [
+        "nulificador",
+        "nulificadores"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "O mais próximo em português seria anulador ou nulificador. Se preferir, pode de mantido em inglês.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-40"
+    },
+    "note": {
+      "target": "note",
+      "keep_english": true,
+      "forms": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "configuração confiável",
+      "forms": [
+        "configuração confiável",
+        "configurações confiáveis"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-45"
+    },
+    "consensus": {
+      "target": "consenso",
+      "forms": [
+        "consenso"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-29"
+    },
+    "governance": {
+      "target": "governança",
+      "forms": [
+        "governança"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-37"
+    },
+    "grant": {
+      "target": "subsídio",
+      "forms": [
+        "subsídio",
+        "subsídios"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-25"
+    },
+    "halving": {
+      "target": "halving",
+      "keep_english": true,
+      "forms": [
+        "halving",
+        "Halving",
+        "halvings",
+        "Halvings"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-43"
+    },
+    "staking": {
+      "target": "staking",
+      "keep_english": true,
+      "forms": [
+        "staking",
+        "Staking",
+        "stake",
+        "Stake",
+        "stakes",
+        "Stakes",
+        "staked",
+        "Staked"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Não há equivalente no português. Sempre é traduzido pelos tradutores como “aposta”.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-30"
+    },
+    "finalizer": {
+      "target": "finalizador",
+      "forms": [
+        "finalizador",
+        "finalizadores"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Assim como o termo “nullifier”, este também não tem um correspondente exato em português, se a palavra mais próxima.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-44"
+    },
+    "bond": {
+      "target": "garantia",
+      "forms": [
+        "garantia",
+        "garantias"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-48"
+    },
+    "encryption": {
+      "target": "criptografia",
+      "forms": [
+        "criptografia"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-14"
+    },
+    "decentralized": {
+      "target": "descentralizado",
+      "forms": [
+        "descentralizado",
+        "descentralizada",
+        "descentralizados",
+        "descentralizadas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-31"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain",
+        "On-chain",
+        "off-chain",
+        "Off-chain",
+        "onchain",
+        "Onchain",
+        "offchain",
+        "Offchain"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-34"
+    },
+    "bridge": {
+      "target": "ponte",
+      "forms": [
+        "ponte",
+        "pontes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "O termo é o mesmo para uma ponte física, mas é entendido também neste sentido quando se trata de criptomoedas.",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-42"
+    },
+    "payment": {
+      "target": "pagamento",
+      "forms": [
+        "pagamento",
+        "pagamentos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "contrato inteligente",
+      "forms": [
+        "contrato inteligente",
+        "contratos inteligentes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-55"
+    },
+    "unlinkable": {
+      "target": "não vinculável",
+      "forms": [
+        "não vinculável",
+        "não vinculáveis"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-60"
+    },
+    "permissionless": {
+      "target": "sem permissão",
+      "forms": [
+        "sem permissão"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-59"
+    },
+    "scaling": {
+      "target": "escalabilidade",
+      "forms": [
+        "escalabilidade"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-47"
+    },
+    "selective-disclosure": {
+      "target": "divulgação seletiva",
+      "forms": [
+        "divulgação seletiva",
+        "divulgações seletivas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-57"
+    },
+    "hardware-wallet": {
+      "target": "carteira de hardware",
+      "forms": [
+        "carteira de hardware",
+        "carteiras de hardware"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "glossary.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "Aceitar pagamentos",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-60"
+    },
+    "Akash Network Zcashd": {
+      "target": "Zcashd na Akash Network",
+      "rejected": [
+        {
+          "text": "Rede Akash Zcashd"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-99"
+    },
+    "Akash Network Zebra": {
+      "target": "Zebra na Akash Network",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-2"
+    },
+    "Avalanche RedBridge": {
+      "target": "RedBridge na Avalanche",
+      "rejected": [
+        {
+          "text": "Avalanche RedBridge"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-61"
+    },
+    "Block Explorers": {
+      "target": "Exploradores de blocos",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "Exploradores de blockchain",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-64"
+    },
+    "Brand": {
+      "target": "Marca",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-50"
+    },
+    "Brave Wallet Guide": {
+      "target": "Guia da Brave Wallet",
+      "context": "Brave Wallet is a product name and stays in English.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md"
+    },
+    "BTCPayServer Plugin": {
+      "target": "Plugin do BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "Plugin Zcash para BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "Comprar ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-16"
+    },
+    "Close": {
+      "target": "Fechar",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#common-3"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "Subsídios retroativos direcionados aos detentores de moedas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-51"
+    },
+    "Community": {
+      "target": "Comunidade",
+      "context": "The community menu and the word in general.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md"
+    },
+    "Community Blogs": {
+      "target": "Blogs da comunidade",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "Community Building",
+      "context": "Title of a page section, kept in English as the reviewer confirmed.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md"
+    },
+    "Community Forum": {
+      "target": "Fórum da comunidade",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "Links da comunidade",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "Projetos da comunidade",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "Contribuir",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "Corretoras custodiantes",
+      "rejected": [
+        {
+          "text": "Exchanges custodiais"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "NFT Cypherpunk Zero"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "Painel",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-13"
+    },
+    "Developers": {
+      "target": "Desenvolvedores",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-10"
+    },
+    "Donate": {
+      "target": "Doar",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-8"
+    },
+    "Donations": {
+      "target": "Doações",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "Ecossistema",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "Corretoras",
+      "rejected": [
+        {
+          "text": "Exchanges"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-19"
+    },
+    "Explore": {
+      "target": "Explorar",
+      "context": "Verb: the menu button that opens the explore menu.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md"
+    },
+    "Extras": {
+      "target": "Extras",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "Faucets",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Torneiras"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "Para forks e mantenedores",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-53"
+    },
+    "Free2Z Livestreaming": {
+      "target": "Transmissão ao vivo Free2Z",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-92"
+    },
+    "Freelance Privacy": {
+      "target": "Privacidade para freelancers",
+      "rejected": [
+        {
+          "text": "Privacidade freelance"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "Exploração completa",
+      "context": "Noun: the page that lists everything to explore.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md"
+    },
+    "Glossary & FAQ's": {
+      "target": "Glossário e perguntas frequentes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "Glossário e FAQs",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "Governança",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-4"
+    },
+    "Guides": {
+      "target": "Guias",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-2"
+    },
+    "Hardened Zebrad": {
+      "target": "Zebrad reforçado",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-93"
+    },
+    "How to Participate": {
+      "target": "Como participar",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "Privacidade para jornalistas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "Manter registros",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-35"
+    },
+    "Language": {
+      "target": "Idioma",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#common-1"
+    },
+    "Memos": {
+      "target": "Memorandos",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-24"
+    },
+    "Migration Guide Zcashd To Zebrad Zallet": {
+      "target": "Guia de Migração Zcashd para Zebrad Zallet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-94"
+    },
+    "Mobile Top Ups": {
+      "target": "Recargas de celular",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-25"
+    },
+    "More": {
+      "target": "Mais",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-14"
+    },
+    "My First Zcash Workbook": {
+      "target": "Meu Primeiro Livro de Exercícios Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-95"
+    },
+    "Navigation": {
+      "target": "Navegação",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "Newsletter",
+      "keep_english": true,
+      "rejected": [
+        {
+          "text": "Boletim"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Configuração da Nym Mixnet na carteira",
+      "rejected": [
+        {
+          "text": "Nym Mixnet Wallet Setup"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "Organizações",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-49"
+    },
+    "Overview": {
+      "target": "Visão geral",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "Pagar por IA",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "Processadores de pagamento",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "URIs de solicitação de pagamento",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-26"
+    },
+    "Places to Spend ZEC": {
+      "target": "Lugares para gastar ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-91"
+    },
+    "Podcast": {
+      "target": "Podcast",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "Ferramentas de privacidade",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "Tesouro privado da comunidade",
+      "rejected": [
+        {
+          "text": "Tesouraria privada da comunidade"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Nó integral no Raspberry Pi 4",
+      "rejected": [
+        {
+          "text": "Nó completo no Raspberry Pi 4"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Nó Zebra no Raspberry Pi 4",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Nó Raspberry Pi Zcashd",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Nó Raspberry Pi Zebra",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "Recuperação de fundos",
+      "rejected": [
+        {
+          "text": "Recuperar fundos"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-28"
+    },
+    "Research": {
+      "target": "Pesquisa",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-39"
+    },
+    "Search": {
+      "target": "Pesquisar",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#common-2"
+    },
+    "Send Money Privately": {
+      "target": "Enviar dinheiro com privacidade",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "Pools blindados",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-21"
+    },
+    "Shop": {
+      "target": "Loja",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "Mapa do site",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-42"
+    },
+    "Spend Zcash": {
+      "target": "Gastar Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-90"
+    },
+    "Start Here": {
+      "target": "Comece aqui",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-31"
+    },
+    "Store": {
+      "target": "Loja",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "Ferramentas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "Transações",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "Endereços transparentes de corretoras",
+      "rejected": [
+        {
+          "text": "Endereços transparentes de exchanges"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "Tutoriais",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "Casos de uso",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "Usar Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Usar Zcash",
+      "rejected": [
+        {
+          "text": "Usando Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Usar ZEC em DeFi",
+      "rejected": [
+        {
+          "text": "Usando ZEC em DeFi"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "Usar ZEC com privacidade",
+      "rejected": [
+        {
+          "text": "Usando ZEC com privacidade"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-56"
+    },
+    "Verifying Zcash Releases": {
+      "target": "Verificando lançamentos do Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-96"
+    },
+    "Viewing Key Transaction Export": {
+      "target": "Exportação das transações da chave de visualização",
+      "rejected": [
+        {
+          "text": "Exportação de transações da Viewing Key"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-97"
+    },
+    "Visual Identity": {
+      "target": "Identidade visual",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "Visualizador",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Visualizando a rede Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Visualizando endereços Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "Carteiras",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Demo FROST do Ywallet",
+      "rejected": [
+        {
+          "text": "Demo do Ywallet FROST"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-63"
+    },
+    "Zallet Quick Reference Guide": {
+      "target": "Guia de referência rápida da Zallet",
+      "rejected": [
+        {
+          "text": "Zallet Quick Reference Guide"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-89"
+    },
+    "Zcash Community": {
+      "target": "Comunidade Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Segurança do ecossistema Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "Governança do Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Propostas de melhoria do Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Mídia Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Organizações Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "Podcasts sobre Zcash",
+      "rejected": [
+        {
+          "text": "Podcasts Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Tecnologia do Zcash",
+      "rejected": [
+        {
+          "text": "Tecnologia Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "Casos de uso do Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "Arquivo da Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Arquivo da Zcon Vozes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Instalação do Zenith",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "Conhecimento zero vs. sistemas de engodo",
+      "rejected": [
+        {
+          "text": "Conhecimento zero vs. sistemas de iscas"
+        },
+        {
+          "text": "Conhecimento Zero vs Sistemas de Engodo"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "Conhecimento zero vs iscas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "Processador de pagamentos Zgo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Tutorial de Zingolib e Zaino",
+      "rejected": [
+        {
+          "text": "Tutorial do Zingolib e Zaino"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs e subsídios",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "Multisig do Zkool",
+      "rejected": [
+        {
+          "text": "Zkool Multisig"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@andybarlac"
+      ],
+      "reviewed_at": "2026-10-27",
+      "source": "menus.md#navigation-62"
     }
   },
   "changelog": [
@@ -83,6 +2321,194 @@
       "terms": [],
       "phrases": [],
       "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"out. …\")."
+    },
+    {
+      "version": 3,
+      "date": "2026-10-27",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zcashd",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Brave Wallet Guide",
+        "Buying ZEC",
+        "Close",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2Z Livestreaming",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "Hardened Zebrad",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Language",
+        "Memos",
+        "Migration Guide Zcashd To Zebrad Zallet",
+        "Mobile Top Ups",
+        "More",
+        "My First Zcash Workbook",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Places to Spend ZEC",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Search",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Spend Zcash",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Verifying Zcash Releases",
+        "Viewing Key Transaction Export",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zallet Quick Reference Guide",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Native Brazilian Portuguese review by Andy (@andybarlac, Zcash Brazil): 62 terms, 193 menu labels and the style questions, plus his follow-up answers (newsletter, note and light-client kept in English, bond = garantia, criptografia, \"do Zcash\", \"a Zallet\"). Portuguese now targets pt-BR. Steward edits: plural forms, menu rows aligned where two rows of the kit disagreed, contexts for deliberate splits."
     }
   ]
 }

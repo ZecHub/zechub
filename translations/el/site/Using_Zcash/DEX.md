@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/DEX.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Αποκεντρωμένα ανταλλακτήρια
 
-Το ZecHub δεν υποστηρίζει καμία συγκεκριμένη υπηρεσία Αποκεντρωμένου Ανταλλακτηρίου, κάνε τη δική σου έρευνα.
+Το ZecHub δεν υποστηρίζει καμία συγκεκριμένη υπηρεσία αποκεντρωμένου ανταλλακτηρίου, κάνε τη δική σου έρευνα.
 
 Κάθε επικεφαλίδα `###` παρακάτω είναι μία κάρτα στο https://zechub.wiki/dex.
 Πρόσθεσε, επεξεργάσου ή αφαίρεσε ένα μπλοκ εδώ· το wiki το αντλεί από αυτό το αρχείο.

@@ -1,31 +1,31 @@
-[![Editar Página](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
+[![Editar página](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
 
-# Mensageiros Seguros
+# Mensageiros seguros
 
 ## Criptografia de ponta a ponta
 
-No contexto dos mensageiros seguros, a criptografia de ponta a ponta existe como um método de segurança que mantém uma conversa protegida. À medida que as mensagens viajam de um dispositivo para outro, ninguém, incluindo o aplicativo de comunicação do qual você está enviando a mensagem, nem terceiros, poderá ler as mensagens elegíveis. Além disso, muitos provedores de serviços de mensagens inovadores e proeminentes, como Facebook, Whatsapp e Zoom, já estão utilizando a tecnologia de criptografia de ponta a ponta. 
+No contexto dos mensageiros seguros, a criptografia de ponta a ponta é um método de segurança que mantém uma conversa protegida. À medida que as mensagens trafegam de um dispositivo para outro, ninguém, incluindo o aplicativo de comunicação pelo qual você está enviando a mensagem, nem terceiros, poderá ler as mensagens. Além disso, muitos provedores de serviços de mensagens inovadores e proeminentes, como Facebook, WhatsApp e Zoom, já estão utilizando a tecnologia de criptografia de ponta a ponta. 
 
-## Razões pelas quais a E2EE é necessária?
+## Por que a E2EE é necessária?
 
-Para obter maiores benefícios, a tecnologia de criptografia de ponta a ponta desempenha um papel fundamental em situações em que a segurança dos dados é necessária, incluindo, entre outras, os setores de finanças, comunicação e saúde. Ela permite que as organizações cumpram de forma fluida a privacidade de dados, as regulamentações de segurança e também as leis.
+Para obter maiores benefícios, a tecnologia de criptografia de ponta a ponta desempenha um papel fundamental em situações em que a segurança dos dados é necessária, incluindo, entre outras, os setores de finanças, comunicação e saúde. Ela permite que as organizações cumpram de forma fluida as regulamentações e leis de privacidade e segurança de dados.
 
-**Privacidade de Dados**: Com a criptografia de ponta a ponta, diz-se que apenas o destinatário pretendido de uma mensagem ou dado pode acessá-lo e descriptografá-lo. Isso significa que até mesmo o provedor do serviço de mensagens, como Facebook e WhatsApp, não pode ler o conteúdo. Esse nível imersivo de privacidade de dados é importante para usuários e organizações que não querem que informações sensíveis sejam divulgadas, sejam transações financeiras, comunicações empresariais ou conversas privadas sensíveis, ficando protegidas contra acesso não autorizado.
+**Privacidade de dados**: Com a criptografia de ponta a ponta, apenas o destinatário pretendido de uma mensagem ou dado pode acessá-lo e descriptografá-lo. Isso significa que até mesmo o provedor do serviço de mensagens, como Facebook e WhatsApp, não pode ler o conteúdo. Esse nível de privacidade de dados é importante para usuários e organizações que não querem que informações sensíveis sejam divulgadas, sejam transações financeiras, comunicações empresariais ou conversas privadas, protegendo-as contra acesso não autorizado.
 
-**Segurança de Dados**: Esse forte nível de tecnologia permite proteger os dados contra possíveis violações, mesmo enquanto ainda estão em trânsito ou em repouso.
-À medida que os dados trafegam por servidores ou pela internet, eles ficam expostos a muitos fatores que os tornam vulneráveis à interceptação por acesso não autorizado, como hackers. Com a tecnologia de criptografia de ponta a ponta, os dados transmitidos podem até ser interceptados, mas permanecem ilegíveis desde que o remetente ou o destinatário detenha a chave de criptografia. Isso potencialmente reduziria o nível de violações e vazamentos de dados, ao mesmo tempo em que garante que as comunicações de indivíduos e organizações permaneçam seguras.
+**Segurança de dados**: Esse alto nível de tecnologia permite proteger os dados contra possíveis violações, mesmo enquanto estão em trânsito ou em repouso.
+À medida que os dados trafegam por servidores ou pela internet, eles ficam expostos a muitos fatores que os tornam vulneráveis à interceptação por pessoas não autorizadas, como hackers. Com a tecnologia de criptografia de ponta a ponta, os dados transmitidos podem ser interceptados, mas permanecem ilegíveis desde que o remetente ou o destinatário não tenha a chave de criptografia. Isso potencialmente reduziria o número de violações e vazamentos de dados, ao mesmo tempo em que garante que as comunicações de indivíduos e organizações permaneçam seguras.
 
-**Confiança e Controle do Usuário**: Com a criptografia de ponta a ponta, indivíduos e organizações são capacitados a se comunicar livremente porque sabem que suas mensagens, arquivos e outras informações sensíveis estão protegidos contra acesso não autorizado. Da mesma forma, a tecnologia ajuda a proteger indivíduos e organizações contra interferência e vigilância governamental.
+**Confiança e controle do usuário**: Com a criptografia de ponta a ponta, indivíduos e organizações podem se comunicar livremente porque sabem que suas mensagens, arquivos e outras informações sensíveis estão protegidos contra acesso não autorizado. Da mesma forma, a tecnologia ajuda a proteger indivíduos e organizações contra interferência e vigilância governamental.
 
-### Alguns Mensageiros Seguros Populares
+### Alguns mensageiros seguros populares
 
 **Zcash Encrypted Memos**
 
-As carteiras desktop e mobile de Zcash têm um recurso integrado que permite aos usuários enviar mensagens criptografadas com transações privadas blindadas. O tamanho do memo/mensagem pode ter até 512 bytes por transação, com taxas de transação inferiores a 1 centavo de dólar americano. Devido à forma de preservação de privacidade com que as transações são detectadas e ao tempo de bloco da rede, as mensagens podem levar até 1 minuto ou mais para serem recebidas. 
+As carteiras desktop e mobile do Zcash têm um recurso integrado que permite aos usuários enviar mensagens criptografadas com transações privadas blindadas. O tamanho do memorando/mensagem pode ter até 512 bytes por transação, com taxas de transação inferiores a 1 centavo de dólar americano. Devido à forma de preservação de privacidade com que as transações são detectadas e ao tempo de bloco da rede, as mensagens podem levar até 1 minuto ou mais para serem recebidas. 
 
 Experimente: https://z.cash/wallets 
 
-![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Memorandos criptografados do Zcash](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **Aplicativo Signal**
 

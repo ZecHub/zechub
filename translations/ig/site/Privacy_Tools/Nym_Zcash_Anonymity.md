@@ -2,63 +2,63 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nym Mixnet amaghị aha maka Zcash
+# Nym Mixnet Amaghị aha [Anonymity] maka Zcash
 
-> Nkwenye ikpeazụ: Ọktoba 18, 2026
+> E nyochara ikpeazụ: Ọktoba 18, 2026
 
-Ọdọ mmiri ndị e ji Zcash kpuchie na-ezochi ego, ndị na-eziga, na ndị nnata n'usoro. Ha anaghị ezochi ụzọ netwọk dị n'etiti obere akpa na sava lightwallet. Mixnet Nym's na-agbakwụnye na nchekwa netwọk na-efu. Site na Ọktoba 2026, njikọta ahụ dị ndụ na obere akpa mmepụta (Zingo, Zkool).
+Zcash pool nke e chebere echebe [shielded] na-ezo ego ole, ndị zitere, na ndị natara on-chain. Ha anaghị ezo ụzọ netwọk dị n'etiti e-akpa ego [wallet] na sava lightwallet. Mixnet nke Nym na-agbakwunye nchedo oyi akwa netwọk ahụ na-efu. Ruo Ọktoba 2026, njikọta ahụ na-arụ ọrụ n'ime e-akpa ego mmepụta (Zingo, Zkool).
 
-Isi mmalite: [Otu Nym si etinye aha na obere akpa Zcash](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 Ọktoba 2026).
+Isi mmalite: [Otu Nym si agbakwunye amaghị aha na e-akpa ego Zcash](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 Ọktoba 2026).
 
-## Ihe echekwara
+## Ihe e chebere
 
-Nym na-agbaji ngwugwu azụmahịa (nke na-abụkarị 7–15 KB nke data mmefu na ihe akaebe ZK) n'ime ngwugwu Sphinx ma na-ebuga ha site na mixnet. Nke a:
+Nym na-ekewa ngwugwu Azụmahia [transaction] (nke na-adịkarị 7–15 KB nke data mmefu na proof [proof] ZK) n'ime ngwugwu Sphinx ma na-eziga ha site na mixnet. Nke a:
 
-- Na-ezochi IP nke onye zitere ya na sava lightwallet
-- Na-agwakọta okporo ụzọ ahụ na okporo ụzọ Nym ndị ọzọ
-- Na-enye ihe dị ka bit iri na asaa nke entropy na ntọala ndabara, yana aha njirimara e hotara n'elu ndị ọrụ 100,000
+- Na-ezo IP onye zitere n'aka sava lightwallet
+- Na-agwakọta okporo ụzọ ya na okporo ụzọ Nym ndị ọzọ
+- Na-enye ihe dị ka bits 17 nke entropi [entropy] na ntọala ndabara, yana otu amaghị aha a kpọtụrụ aha nke karịrị ndị ọrụ 100,000
 
-Ịkwụ ụgwọ na arịrịọ ọnụahịa na Zingo v7 na-agbaso ụzọ a site na ndabara.
+Kwụọ ụhwọ [payment] na arịrịọ ọnụahịa n'ime Zingo v7 na-agbaso ụzọ a na ndabara.
 
-## Ihe a na-echebeghị
+## Ihe anaghị echebe
 
-Mmekọrịta nke usoro a, ajụjụ ndị na-emebi ihe, ịchọta azụmahịa, na okporo ụzọ mempool na-eji njikọ indexer nkịtị ugbu a. Metadata ọkwa ngwaọrụ ma ọ bụ ọkwa ngwa dị n'èzí ngwugwu agwakọtara dịkwa n'èzí oke Nym's.
+Mmekọrịta chain [chain], ajụjụ nullifier [nullifier], mbudata Azụmahia, na okporo ụzọ mempool na-eji njikọ indexer nkịtị ugbu a. Metadata nke ọkwa ngwaọrụ ma ọ bụ ọkwa ngwa n'èzí ngwugwu agwakọtara nọkwa n'èzí oke ọrụ Nym.
 
-Ọ bụrụ na ụdị ihe iyi egwu gị chọrọ izochi okporo ụzọ mmekọrịta, jikọta obere akpa mixnet na ọkwa sistemụ NymVPN. Lee [Nym VPN](/guides/nym-vpn).
+Ọ bụrụ na ụdị iyi egwu gị chọrọ izo okporo ụzọ mmekọrịta, jikọta e-akpa ego mixnet nke ime na NymVPN nke ọkwa sistemụ. Lee [Nym VPN](/guides/nym-vpn).
 
-## Obere akpa
+## E-akpa ego
 
-| Obere akpa | Ọnọdụ | Ihe ndetu |
+| E-akpa ego | Ọnọdụ | Ihe edeturu |
 | --- | --- | --- |
-| Zingo v7 | Dị ndụ, ndabara | `makers run-cli` ngwugwu `nym-proxy`Oge ahụ na-amalite na-anọghị n'ịntanetị; `--online`, `--remember-online`, or `--server` na-enye nkwenye. |
-| Zkool | Ndụ | Njikọta mixnet nke ndị obodo. |
-| Ndị ọzọ | Site na NymVPN | Mee obere akpa ahụ site na usoro Mixnet dị larịị sistemụ. |
+| Zingo v7 | Na-arụ ọrụ, ndabara | `makers run-cli` na-agụnye `nym-proxy`. Oge ọrụ na-amalite na-anọghị n'ịntanetị; `--online`, `--remember-online`, ma ọ bụ `--server` na-enye nkwenye. |
+| Zkool | Na-arụ ọrụ | Njikọta mixnet nke ime. |
+| Ndị ọzọ | Site na NymVPN | Ziga e-akpa ego ahụ site na ọnọdụ Mixnet nke ọkwa sistemụ. |
 
-Nkọwa ntọala maka ụzọ ọkwa obere akpa dị na [Ụzọ Zcash Wallet Traffic Gafee Nym Mixnet](/guides/nym-mixnet-wallet-setup).
+Nkọwa nhazi maka ụzọ ọkwa e-akpa ego dị na [Ziga okporo ụzọ e-akpa ego Zcash n'elu Mixnet Nym](/guides/nym-mixnet-wallet-setup).
 
-## Mgbanwe azụmaahịa
+## Ọnọdụ mgbanwe
 
-Mgbasa ozi Nym-routed aga nwayọ nwayọ karịa clearnet (~3.4 s). Tor dị ngwa ngwa (~3.7×) mana ọ na-eji iyi FIFO na-agwakọtaghị, yabụ onye mmegide zuru ụwa ọnụ ka nwere ike ijikọ. Ịbawanye ntọala onye ọrụ Nym nke a na-ekerịta na-eme ka aha njirimara dịkwuo mma karịa itinye oge ọzọ.
+Mgbasa ozi a zigaara site na Nym ji ihe dị ka ugboro 12.5 nwayọọ karịa clearnet (~3.4 s). Tor dị ngwa karịa (~3.7×) mana ọ na-eji iyi FIFO na-enweghị ịgwakọta, ya mere onye mmegide zuru ụwa ọnụ ka nwere ike ijikọ ha. Ịmụba ọnụ ọgụgụ ndị ọrụ Nym nkekọ na-eme ka amaghị aha bawanye nke ọma karịa ịgbakwunye igbu oge ọzọ.
 
-## Ịdị ọcha nke ngwa-oyi akwa: nym-swizzle-zcash
+## Ịdị ọcha [hygiene] nke ọkwa ngwa: nym-swizzle-zcash
 
-Nchedo oyi akwa netwọk ezughị. Ọbụlagodi na mixnet ma ọ bụ VPN zuru oke, sava lightwallet ka nwere ike ijikọ nnọkọ site na ilele ụkpụrụ oyi akwa ngwa:
+Nchedo oyi akwa netwọk ezughị. Ọbụna ma mixnet ma ọ bụ VPN zuru oke, sava lightwallet ka nwere ike ijikọ oge ọrụ site n'ịhụ ụkpụrụ ọkwa ngwa:
 
-- Nchịkọta isi mmalite ọrụ: mmekọrịta ndị ahịa malitegharịa site na kpọmkwem `previous end + 1`, yabụ sava ahụ nwere ike ịhazi nnọkọ site na ogologo blọk naanị ya.
-- Mmekọrịta-wee-zipu: Mmekọrịta obere akpa ego ozugbo tupu agbasa ozi, na-ahapụ sava ahụ ka ọ kọwaa azụmahịa ahụ na nnọkọ mmekọrịta gara aga.
+- Ịjikọ ebe ịga n'ihu: ndị ahịa na-amaliteghachi mmekọrịta kpọmkwem site na `previous end + 1`, ya mere sava ahụ nwere ike ijikọ oge ọrụ site n'ịdị elu block naanị ya.
+- Mmekọrịta wee ziga: e-akpa ego na-emekọrịta ozugbo tupu ha agbasa Azụmahia, nke na-eme ka sava ahụ kwuo na Azụmahia ahụ sitere n'oge mmekọrịta gara aga.
 
-Ihe [`nym-swizzle-zcash`](https://nym.com/docs/developers/swizzle/zcash) Igbe ahụ na-emejuputa iwu ịdị ọcha Zcash-specific nke na-eleba anya n'ihe abụọ ahụ `nym-swizzle` ihe ndị mbụ dị mkpa n'ime amụma maara ihe gbasara agbụ ígwè maka ndị ahịa dị mfe.
+Crate [`nym-swizzle-zcash`](https://nym.com/docs/developers/swizzle/zcash) na-etinye atumatu ịdị ọcha kpọmkwem maka Zcash nke na-edozi ha abụọ. Ọ na-akwakọba primitives `nym-swizzle` izugbe n'ime atumatu maara chain maka light client [light client].
 
-**Akara nhazi nke ọnụọgụgụ.** A na-agbasa arịrịọ gaa na grid netwọk zuru oke nwere mkpụrụ ndụ dị ka ụbọchị. A na-agbakọta mmalite ahụ ma mechie njedebe ya. Oke ya bụ ihe a kapịrị ọnụ, na-arị elu, ma na-ekewapụ. Nyocha nhazi na-anọ n'ime oke ahụ ka a ghara ikpughe ebe mmalite ọrụ kpọmkwem. Amaghị aha sitere na nkpọkọ (ọtụtụ obere akpa ego na-ewepụta otu ókèala) kama mkpọtụ.
+**Oke mmekọrịta e kewara ọkwa [Quantised sync ranges].** A na-agbasawanye arịrịọ n'ime grid netwọk dum nwere sel hà ụbọchị. A na-eme ka mmalite gbadaa ma mee ka njedebe gbagoo. Oke ndị a bụ nke a na-ekpebi n'ihu, na-arị elu, ma ghara ịdaba n'otu ebe. Nlele reorg na-anọ n'ime oke a gbasawanyere ka a ghara ikpughe ebe ịga n'ihu kpọmkwem. Amaghị aha na-esite na nkukota (ọtụtụ e-akpa ego na-ewepụta otu ókèala) karịa mkpọtụ.
 
-**Mgbasa ozi agbachiri agbachi.** A na-egbu oge izipu azụmahịa site na nkesa exponential (nkezi blọk 144 ≈ awa 3, mkpuchi blọk 576 ≈ awa 12) nke kwekọrọ na nhazi oge mbufe ZIP 318. Nkwụsịtụ gafere oge usoro nkịtị, yabụ a na-anọgide na-eme usoro. A na-ewu azụmahịa ahụ naanị n'oge ọkụ megide ntụnye ọhụrụ. Mmekọrịta na mgbasa ozi kwesịrị iji sava dị iche iche.
+**Mgbasa ozi ekewapụrụ.** A na-egbu oge iziga Azụmahia site na nkesa exponential (nkezi blocks 144 ≈ awa 3, oke blocks 576 ≈ awa 12) dabara na nhazi mbufe ZIP 318. Igbu oge karịrị ogologo ndụ usoro a na-ahụkarị, ya mere a na-echekwa nhazi oge. A na-ewu Azụmahia naanị n'oge iziga ya megide tip ọhụrụ. Mmekọrịta na mgbasa ozi kwesịrị iji sava dị iche iche.
 
-Igbe ahụ na-ekpughe `BlockSource` na `TxBroadcaster` àgwà, na-achịkọta maka `wasm32-unknown-unknown`, ọ nweghịkwa nchịkọta netwọk nke ya. Lee [Akwụkwọ Nym](https://nym.com/docs/developers/swizzle/zcash) maka API zuru oke na ihe atụ.
+Crate ahụ na-ekpughe traits `BlockSource` na `TxBroadcaster`, na-agbakọta maka `wasm32-unknown-unknown`, ọ nweghịkwa stack netwọk nke ya. Lee dọkụmenti [Nym](https://nym.com/docs/developers/swizzle/zcash) maka API zuru ezu na atụ.
 
 ## Isi mmalite
 
-- [Otu Nym si etinye aha na obere akpa Zcash](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 Ọktoba 2026
-- [nym-swizzle-zcash: Amụma Ịdị ọcha maka Ndị Ahịa Zcash Light](https://nym.com/docs/developers/swizzle/zcash) — Akwụkwọ Nym
+- [Otu Nym si agbakwunye amaghị aha na e-akpa ego Zcash](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 Ọktoba 2026
+- [nym-swizzle-zcash: Atumatu Ịdị Ọcha maka Light Clients Zcash](https://nym.com/docs/developers/swizzle/zcash) — Dọkụmenti Nym
 - [Zingo + Nym](https://zingolabs.org/zingo/blog/zingo-nym/) — Zingo Labs
-- [Ụzọ Zcash Wallet Traffic Gafee Nym Mixnet](/guides/nym-mixnet-wallet-setup) — ZecHub
+- [Ziga okporo ụzọ e-akpa ego Zcash n'elu Mixnet Nym](/guides/nym-mixnet-wallet-setup) — ZecHub
 - [Nym VPN](/guides/nym-vpn) — ZecHub

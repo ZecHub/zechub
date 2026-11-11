@@ -1,187 +1,187 @@
-# Hashing Kple Ðokuitsɔtsɔna: Akunyawɔwɔ ƒe Agbalẽkotoku si Wotre Nu
-##### Numekuku Gbãtɔ tso [Annkkitaaa](https://github.com/Annkkitaaa)
+# Hashing kple Adzɔgbeɖeɖe: Akpa ƒe Gɔmeɖeɖe Si Wotsɔ Ƒo Tso
+##### Gɔmesese Ƒe Nudzodzro Tso [Annkkitaaa](https://github.com/Annkkitaaa) Ɖe
 
-![alt nuŋɔŋlɔ](/content-images/image-15-0c16784b27.webp)
+![alt text](/content-images/image-15-0c16784b27.webp)
 
-### Alesi woatu nya ɣaɣla aɖe ɖe dutoƒo eye womate ŋu aka alakpa tso eŋu gbeɖe o
+### Ale si nàte ŋu aɖo nya vevi ɣa le ame katã ƒe ŋkume eye màte ŋu aɖagblɔa
 
-> **Series:** *Zcash tso Gɔmeɖose Gbãtɔwo me* . **Nyati 3 lia . Hashing kple Ðokuitsɔtsɔna**
-> **Nyaselawo:** ame yeyewo. Míetuae ɖe [Nyati 1 (agble siwo seɖoƒe li na) .](article-1-finite-fields.md) kple [Se 2 lia (elliptic curves) .](article-2-elliptic-curves.md), gake nusi wokpɔna le susu me la tsi tre ɖe eɖokui si.
-> **Nusi nàgblẽ ɖi:** hash dɔwɔwɔwo gɔmesese nyuie, nusi "ɣla" kple "babla" fia ŋutɔŋutɔ, kple alesi Zcash tua nuŋlɔɖi ƒe ŋugbedodo siwo léa ame ŋutɔ ƒe fexexe ɖesiaɖe ɖe te.
+> **Ƒometɔwo:** *Zcash Tso Gɔmedzedze ƒe Nunya Me* . **Agbalẽ 3 . Hashing kple Adzɔgbeɖeɖe**
+> **Ame siwo wòŋlɔ na:** Ame yeyeawo. Míetso [Agbalẽ 1 (finite fields)](article-1-finite-fields.md) kple [Agbalẽ 2 (elliptic curves)](article-2-elliptic-curves.md) dzi, gake gɔmesese la tsɔa eɖokui ko tsi.
+> **Nu si nàkpɔ le egbe megbe:** Hash ƒe dɔwɔnuwo ƒe gɔmesese nyui, nu si "ɣaɣla" kple "kadodo" gɔme nye vavã, kple ale si Zcash wɔa didienu ƒe adzɔgbeɖeɖewo siwo dea teƒe fexexe siawo katã.
 
-Le [Nyati 0 lia me](article-0-shielded-transaction.md) míeɖɔ "magic sealed envelope": nane si nàte ŋu atsɔ abla ɖe dutoƒo board si ɖo kpe edzi be envelope li esime nèle nusi le eme ɣlam, eye màte ŋu aɖɔli emegbe gbeɖe o. Míedo ŋugbe be míaɖe alesi nu ma tɔgbe ate ŋu adzɔe me. Esiae nye nyati ma. Míehiã nu eve: **hash functions** kple **commitments**.
-
----
-
-## 1. Nu ka tae wòle be nàtsɔ ɖe le eme?
-
-Tsɔe be ègblɔ nusi ado tso tiatia aɖe me ɖi eye nèdi be yeaɖo kpe edzi, *le ema megbe*, be yeyɔe do ŋgɔ. Màte ŋu aɖe gbeƒã wò nyagblɔɖia ko o (si kpɔa ŋusẽ ɖe amewo dzi, alo kpea nutsotso siwo nètrɔe). Eye màte ŋu aɣlae bliboe o (ekema màte ŋu aɖo kpe naneke dzi emegbe o).
-
-Nusi dim nèle enye mɔ si dzi nàto **xe asixɔxɔ aɖe fifia, le dutoƒo, ale be:**
-
-- ame aɖeke mate ŋu agblɔ nusi nètu ɖe eme o (enɔa ɣaɣla fifia), eye
-- emegbe, ne èɖee ɖe go la, **màte ŋu aka alakpa** le nusi wònye ŋu o.
-
-Woyɔa "lock now, reveal later, no lying" gadget sia be **commitment**, eye wòle afisiafi le Zcash me. Wotu nuŋlɔɖi aɖe ƒe asixɔxɔ kple etɔ ɖe adzɔgbeɖeɖe aɖe me le ɣeyiɣi si me wowɔ nuŋlɔɖia. Be míatu adzɔgbeɖeɖewo ɖo la, míehiã woƒe dɔsɔ gbã: hash dɔwɔwɔ.
+Le [Agbalẽ 0](article-0-shielded-transaction.md) me la, míɖe "akpa ƒe gɔmeɖeɖe si wotsɔ ƒo tso" nu: nu si nàte ŋu aɖe ɖe kpekpeƒe ƒe kplɔdzi be akpa li, eye wòɣe nu si le eme ɣla, eye màte ŋu aɖe tɔe ɖo teƒe le megbe o. Mído ŋugbe be míatsɔe afia ale si nu sia ate ŋu ava eme. Agbalẽ sia nye esia. Míahiã nu eve: **hash ƒe dɔwɔnuwo** kple **adzɔgbeɖeɖewo**.
 
 ---
 
-## 2. Nusi wokpɔna le susu me: asibidɛ ƒe dzesi na nyatakakawo
+## 1. Nu ka ta wòle be nàtsɔe na?
 
-**hash dɔwɔwɔ** xɔa nyatakaka ɖesiaɖe kura, ŋɔŋlɔdzesi ɖeka alo agbalẽdzraɖoƒe blibo, eye wògbãnɛ ɖe anyi va zua ka kpui aɖe si ƒe lolome le ɖoɖo nu si woyɔna be **digest** alo **hash**. Bu eŋu be enye **asibidɛ ƒe dzesi na nyatakakawo.**
+Bu be nèɖe ame si awɔ dɔ dzi ƒe tiŋu ɖe gɔme eye nèdi be nàɖe fia, *le emegbe*, be nèɖe egɔme tsã. Màte ŋu aɖe wòŋgɔɖoɖo la afia ko o (esia ate ŋu akpɔ ameawo ƒe susu ɖe edzi, alo ana woabu be nètrɔe). Eye màte ŋu aɖe eɣla blibo hã o (ekema màte ŋu aɖe naneke afia le megbe o).
 
-![alt nuŋɔŋlɔ](/content-images/image-16-52fdf62c87.webp)
+Nu si nèdi nye mɔ aɖe si nàtsɔ **aɖo asixɔxɔ me fifia le ame katã ƒe ŋkume, ale be:**
 
-Nɔnɔme ene le asibidɛ ƒe dzesi nyui si wotsɔa nya ɣaɣlawo ŋlɔna ŋu. Lé wo ɖe asi abe nusiwo wokpɔna le susu me ene, ke menye nusiwo sɔ kple wo nɔewo o:
+- Ame aɖeke mate ŋu aka nu si nèɖo ɖe eme o (eaganɔ ɣaɣla fifia), eye
+- Le megbe, ne èɖe eɖe go la, **màte ŋu aɖagblɔ** nu si wònye o.
 
-| Nuwo ƒe nunɔamesiwo | Gɔmesese si me kɔ | Nusita wòle vevie |
+Woyɔ "ɖo fifia, ɖe go le megbe, mègblɔ alakpa o" ƒe mɔsia be **adzɔgbeɖeɖe [commitment]**, eye eli afi sia afi le Zcash. Wode didienu ƒe asixɔxɔ kple etɔ ƒe dzesi ɖe adzɔgbeɖeɖe me enumake ne wowɔ didienu la. Be míatu adzɔgbeɖeɖewo, ele be míatsɔ wo ƒe dɔwɔnu vevitɔ: hash ƒe dɔwɔnu la adze egɔme.
+
+---
+
+## 2. Gɔmesese la: asidzedze na data
+
+**Hash ƒe dɔwɔnu [hash function]** xɔ data ɖesiaɖe, alɔŋlɔ ƒe ŋkekevi aɖe alo agbalẽxɔxɔ blibo aɖe, eye wòtsɔe wɔa alɔŋlɔ kpui, si ƒe lolome menye be wòtrɔna o, si woyɔna be **digest** alo **hash**. Bu be enye **asidzedze na data.**
+
+![alt text](/content-images/image-16-52fdf62c87.webp)
+
+Asidzedze crypto ƒe nyui aɖe si le tɔxɛ ene. Mìatsɔ wo anɔ mia ƒe susu me abe gɔmesesewo ene, menye abe equationwo ene o:
+
+| Tɔxɛ | Gɔmesese bɔbɔe | Nu ka ta wòle vevie |
 |---|---|---|
-| **Nu si woɖo ɖi** | Nya ɖeka ma ke tsɔtsɔ de eme ɣesiaɣi naa asibidɛ ƒe dzesi ɖeka ma ke | Àte ŋu agbugbɔ alé ŋku ɖe asibidɛ ƒe dzesi aɖe ŋu ɣesiaɣi |
-| **Ŋgɔyiyi kabakaba** | Asibidɛ ƒe dzesi ƒe kɔmpiuta zazã le kabakaba | Ewɔa dɔ be woazãe le afisiafi |
-| **Mɔ ɖeka (si te ŋu nɔa te ɖe nɔnɔmetata do ŋgɔ)** | Ne wona asibidɛ ƒe dzesi la, màte ŋu akpɔ nya si wotsɔ de eme si wɔe be | Ɣla nyatakaka gbãtɔwo |
-| **Ete ŋu nɔa te ɖe ʋufɔku nu** | Màte ŋu akpɔ nyawo tsɔtsɔ de eme vovovo eve siwo ƒe asibidɛ ƒe dzesi ɖeka le o | Ame aɖeke mate ŋu awɔ match |
+| **Metrɔna o** | Nu si wotsɔ de eme ɖeka na asidzedze ɖeka ɣesiaɣi | Nàte ŋu aɖetrɔ asidzedze aɖe ɣesiaɣi |
+| **Wòdoa ŋgɔ kabakaba** | Asidzedze ƒe wɔwɔ le kabakaba | Wòle bɔbɔe be woatsɔe awɔ dɔ afi sia afi |
+| **Mɔ ɖeka ko (preimage resistant)** | Ne wòkpɔ asidzedze aɖe la, màte ŋu akpɔ nu si wɔe o | Wòɣla data gbãtɔ la |
+| **Metrɔna o ɖe woƒe tsitsitɔ me** | Màte ŋu akpɔ nu vovovo eve siwo ƒe asidzedze ɖeka o | Ame aɖeke mate ŋu awɔ nudzɔdzɔ aɖe o |
 
-Eye nuwɔna ɖeka bubu si nana asibidɛwo sena le wo ɖokui me be enye akunyawɔwɔ kloe:
+Eye nɔnɔme bubu aɖe hã li si wɔa be asidzedzewo nakpɔ ɖe ame ŋu abe nukunu ene:
 
-### Avalanche ƒe ŋusẽkpɔɖeamedzi (woɖo kpe edzi) .
+### Avalanche ƒe nɔnɔme (wode kpe ɖe edzi)
 
-Trɔ nyawo tsɔtsɔ de eme to agbɔsɔsɔ suetɔ kekeake me eye asibidɛ ƒe dzesi atrɔ *keŋkeŋ*, eye meɖi xoxoa o. Gbedasi siwo to vovo le ŋɔŋlɔdzesi ɖeka nu ƒe asibidɛ ŋutɔŋutɔ eve siwo nye SHA-256 ye nye esi:
+Trɔ nu si wotsɔ de eme la kpuie eye asidzedze la atrɔ *blibo*, eye wòmeganye abe etɔ gbãtɔ ene o. Afisiae SHA-256 asidzedze vavã eve siwo tso gbedeasi eve siwo ƒe alɔŋlɔ ɖeka ko vovo me:
 
 ```
 H("Pay Bob 5 ZEC") = 6e2dc1a954c70cc865f18ea8cb70b7b56eeaf6ca42b380824a55d65dc342f34b
 H("Pay Bob 6 ZEC") = 76abc346d8d3053f76a9ae18b617af71f02729a73ec6a51732d2d94934e4217f
 ```
 
-Le hex xexlẽdzesi 64 dome la, **59 to vovo.** Ŋɔŋlɔdzesi ɖeka le eme, asibidɛ ƒe dzesi si medo ƒome kura o do goe. Esia tae màte ŋu atutu nya aɖe ɖe asibidɛ si woɖo taɖodzinu na ŋu o: dzesi aɖeke meli si nye "dzoxɔxɔ / fafa" si nàkplɔ ɖo o.
+Hex ƒe digit 64 dometɔ, **59 vovo.** Alɔŋlɔ ɖeka ko wode eme, eye asidzedze si meka ɖe etɔ aɖeke ŋu o do go. Esiae ta màte ŋu atrɔ nu si wotsɔ de eme la vievie be nàva ɖo asidzedze si nèdi la gbɔ o: "xɔe dze ɖe eme / xɔe dzo le eme" ƒe dzesi aɖeke meli be nàto o.
 
 ---
 
-## 3. Tso asibidɛ ƒe dzesi dzi va ɖo ɖokuitsɔtsɔna dzi
+## 3. Tso asidzedze me yi adzɔgbeɖeɖe gbɔ
 
-Susu aɖe si tea ame kpɔ gake wògblẽ lae nye esi: be nàtsɔ ɖokuiwò ana ɖe asixɔxɔ ɣaɣla aɖe ŋu `v`, ɖeko wòta eƒe asibidɛ ƒe dzesi `H(v)`.
+Mɔ si dze abe eƒe nyuie gake wogbãe: be nàwɔ adzɔgbeɖeɖe na asixɔxɔ ɣaɣla `v`, ɖe eƒe asidzedze `H(v)` afia ko.
 
-Esia *bla* wò nyuie (màte ŋu agblɔ emegbe be eto vovo o `v`, elabena ema ahiã be woadze wo nɔewo dzi). Gake e **do kpo ɣla.** Ne asixɔxɔ siwo ate ŋu anɔ anyi ƒe hatsotso la le sue la, ɖeko amedzidzela aɖe tsɔa asibidɛ ƒoa ame ɖesiaɖe si di be yeaxɔ ɖoƒea eye wòtsɔa wo sɔna kple wo nɔewo. Ðokuitsɔtsɔna be "ẽ" alo "ao"? Wowɔa hash na wo ame evea siaa eye wosrɔ̃a esi nètia enumake. Determinism, mía xɔlɔ̃ ɣeyiɣi kpui aɖee nye sia, le nya ɣaɣla la ɖem ɖe go fifia.
+Esia *kada* wò nyuie (màte ŋu agblɔ le megbe be `v` bubu nènye o, elabena esia ahiã be nàkpɔ nu eve siwo ƒe asidzedze ɖeka). Gake e**meɣlana o.** Ne asixɔxɔ siwo ate ŋu anɔ la meganɔ agbã o la, avuɖela aɖe atsɔ asidzedze awɔ na asixɔxɔ siawo katã eye wòatsɔ wo asɔ kple tɔwò. Èwɔ adzɔgbeɖeɖe na "ɛ̃" alo "ao"? Wòwɔ hash na wo eve eye wòka ɖe nu si nètia dzi enumake. Nu si medze ŋgɔ o, si nye mia ƒe xɔlɔ kpuie va yi la, le ɖeŋu dzi ɖe ɣaɣla la go.
 
-Nya ɖeka si woɖɔ ɖoe nye: **randomness.**
+Dɔɖɔɖo la nye nya ɖeka: **nudzudzɔ.**
 
-> **Ðokuitsɔtsɔna nye wò asixɔxɔ ƒe asibidɛ ƒe dzesi si wotsaka kple xexlẽdzesi yeye si woɖo ɖe ɖoɖo nu:**
-> `commitment = H(v, r)` afi ka `r` nye adzame "ŋkuʋuʋu" ƒe asixɔxɔ si wowɔ le vome.
+> **Adzɔgbeɖeɖe nye wò ƒe asixɔxɔ ƒe asidzedze si wotsɔ xɔ nudzudzɔ yeye aɖe ɖe eme:**
+> `commitment = H(v, r)` afi si `r` nye asixɔxɔ nudzudzɔ "blinding" si woɣla.
 
-Fifia nenema ke `v` hea ɖokuitsɔtsɔna si ƒe dzedzeme to vovo ɣesiaɣi, elabena `r` la to vovo. Nu eve siwo míedi la katã lé ɖe asi mlɔeba:
+Fifia, `v` ma ke wɔa adzɔgbeɖeɖe si kpɔa ɖe ame ŋu abe bubu ene ɣesiaɣi, elabena `r` vovo. Tɔxɛ eve si míedi la katã va eme fifia:
 
-![alt nuŋɔŋlɔ](/content-images/image-17-3ec4617665.webp)
+![alt text](/content-images/image-17-3ec4617665.webp)
 
-Be **ʋu** (ɖee afia) ɖokuitsɔtsɔna la emegbe la, ètaae `v` kple `r`; ame sia ame gbugbɔa akɔntabubuwo `H(v, r)` eye wòléa ŋku ɖe eŋu be esɔ. Wotu wò ɖe eme.Emae nye akunyawɔwɔ ƒe agbalẽkotoku si wotre nu tsoe tso Nyati 0 lia me, si wowɔ wònye nu ŋutɔŋutɔ.
+Be nà**ʋu** (aɖe afia) adzɔgbeɖeɖe la le megbe la, nàɖe `v` kple `r` afia; ame sia ame atsɔ `H(v, r)` awɔ ake eye wòakpɔ be wòsɔ kple tɔ gbãtɔ la. Wòɖo wò ɖe eme. Esiae nye akpa ƒe gɔmeɖeɖe si wotsɔ ƒo tso le Agbalẽ 0 me, si va zu nu vavã.
 
-> **Eve takeaways be woatsɔ tegbee:** *binding* tso hash la be etsi tre ɖe gododo nu; *ɣladodo* tsoa ŋkumaʋumaʋu si dzɔna le vome gbɔ `r`.
+> **Nya eve si nèle be nàtsɔ anɔ ɣesiaɣi:** *kadodo* tsoa hash ƒe nɔnɔme si mete ŋu akpɔ asidzedze ma ke o; *ɣaɣla* tsoa blinding ƒe nudzudzɔ `r`.
 
 ---
 
-## 4. Mɔ eve siwo dzi woato atu agbalẽkotokua
+## 4. Mɔ eve si woatsɔ atu akpa la
 
-Nuɖaɖamɔnu eve li siwo bɔ, eye Zcash zãa evea siaa.
+Mɔ siwo wozã zi geɖe nye eve, eye Zcash zãa wo eve.
 
-| | **Adzɔgbeɖeɖe si wotu ɖe hash dzi** | **Pedersen ƒe ɖokuitsɔtsɔna** (tso Se 2 lia me) |
+| | **Adzɔgbeɖeɖe si wotu kple hash** | **Pedersen adzɔgbeɖeɖe** (tso Agbalẽ 2 me) |
 |---|---|---|
-| Nuɖaɖa ƒe mɔnu | `H(v, r)` | `v.G + r.H` (fia asi ʋuƒo aɖe dzi) |
-| Bebeƒe tso | nusiwo dzɔna le vome `r` | nusiwo dzɔna le vome `r` |
-| Babla tso | ƒoƒo ƒe tsitretsitsi | mɔ̃ si wotsɔ ƒoa mɔ̃e (ECDLP) |
-| Ŋusẽ tɔxɛ | bɔbɔe eye wòwɔa dɔ kabakaba | adzɔgbeɖeɖeawo **tsɔ wo kpe ɖe wo nɔewo ŋu** (homomorphic) |
+| Mɔ si wotsɔ wɔe | `H(v, r)` | `v.G + r.H` (teƒewo le curve aɖe dzi) |
+| Ɣaɣla tsoa | `r` si menye nudzudzɔ o | `r` si menye nudzudzɔ o |
+| Kadodo tsoa | Asidzedze ma ke ƒe mabu | Elliptic-curve ƒe mɔɣaɣla (ECDLP) |
+| Ŋusẽ tɔxɛ | Eme bɔbɔe eye wòle kabakaba | Adzɔgbeɖeɖewo **dea kple wo nɔewo** (homomorphic) |
 
-Fli mamlɛtɔ ma tae Pedersen ƒe ŋugbedodowo le vevie ŋutɔ le Zcash me ɖo. Elabena `commit(v_1) + commit(v_2)` nye nusi sɔ `commit(v_1 + v_2)`, ɖoɖowɔɖia ateŋu aɖo kpe edzi emegbe be **ga si woge ɖe eme sɔ kple ga si dona** to ŋugbedodowo tsɔtsɔ kpee me, wo katã womaɖe ga home ɖeka pɛ hã afia o. Míele nyateƒenya ma dzram ɖo na Se 6 lia.
-
----
-
-## 5. Aɖaŋu aɖe si menya kpɔna dzea sii bɔbɔe o si trɔa asi le Zcash katã ŋu: ZK-xɔlɔ̃wɔwɔ hashing
-
-Gɔmesese aɖe si ŋgɔdonya akpa gãtɔ to lae nye esi, eye eya tututue nye "akɔntabubu do go mɔ̃ɖaŋudɔwɔwɔ" nya si dze be míate gbe ɖe edzi.
-
-SHA-256 nye asibidɛ nyui aɖe ŋutɔ na gbesiagbe kɔmpiuta zazã. Gake Zcash menye *kɔntabubu* hashes ko o; ele be **ɖo kpe edzi, le sidzedze zero ƒe kpeɖodzi me, be wobu hash aɖe nyuie** (Se 5 lia ɖe nusitae me). Eye nusi lée enye si: zero-sidzedze ƒe kpeɖodzi wɔa dɔ le gbe si nye **finite-field arithmetic** (Se 1), esime wotu SHA-256 tso bit-twiddling dɔwɔwɔwo (shifts, ANDs, XORs) me. Bit-twiddling mawo katã ɖeɖefia le agblede akɔntabubu me xɔ asi ŋutɔ, si wɔnɛ be kpeɖodziwo lolona eye wowɔa blewu.
-
-Eyata Zcash cryptographers wɔ hash functions siwo ƒe ememenuwo nye *xoxo* field arithmetic, si wɔe be woƒe asi bɔbɔ be woaɖo kpe edzi:
-
-![alt nuŋɔŋlɔ](/content-images/image-18-89ade807ad.webp)
-
-Mɔ̃ɖaŋudɔwɔwɔ ƒe nyaƒoɖeamenu ɖeka sia, *"ele be wòaxɔ asi be woaɖo kpe edzi,"* tae Zcash to hash dɔwɔwɔ tɔxɛwo vɛ eye wòxɔe tsɔ wu be wòaɖo SHA-256 gbɔ le afisiafi.
+Mizɔzɔ mamlɛtɔ lae nye nu si wɔa be Pedersen adzɔgbeɖeɖewo nanɔ vevie ŋutɔ le Zcash. Elabena `commit(v_1) + commit(v_2)` nye `commit(v_1 + v_2)` si le eɖokui me, protocol la ate ŋu aɖe fia le megbe be **ga si ge ɖe eme sɔ kple ga si do go** to adzɔgbeɖeɖewo ƒe tsɔtsɔ kpe ɖe wo nɔewo ŋu, togbɔ be womeɖe asixɔxɔ aɖeke afia o. Míele nya sia ɖom ɖe teƒe na Agbalẽ 6.
 
 ---
 
-## 6. Afisi esia le le Zcash
+## 5. Nu sue aɖe si wɔa Zcash katã: Hashing si dze ZK ŋu
 
-Zcash zã hash vovovowo le eƒe aɖaŋuwo katã me, wo dometɔ ɖesiaɖe tia na dɔa:
+Afisiae gɔmesese aɖe si gɔmedzedze geɖe megblɔna o, eye nye "mathematics kple engineering ƒe kadodo" teƒe si dze be woade dzesi na.
 
-| Aɖaŋuwɔwɔ | Hashes siwo wozã | Afisi |
+SHA-256 nye asidzedze nyui ŋutɔ na computer dɔwɔwɔ ɣesiaɣi. Gake Zcash menye be wòwɔa hashes ko o; ele be wòa**ɖe ɖaseɖigbalɛ, le zero-knowledge ɖaseɖigbalɛ aɖe ƒe me, be wowɔ hash aɖe ɖe mɔ si sɔ me** (Agbalẽ 5 aɖe gɔme na nu ka ta). Eye afisiae kuxi la le: zero-knowledge ɖaseɖigbalɛ aɖe wɔa dɔ le **finite-field arithmetic** (Agbalẽ 1) ƒe gbegbɔgblɔ me, ke SHA-256 wotu tso bit-twiddling dɔwɔwɔwo (shifts, ANDs, XORs) me. Be woatsɔ bit-twiddling sia katã aɖe fia le field arithmetic me la xɔa ga sɔŋ, eye wòwɔa be ɖaseɖigbalɛwo nanɔ gã eye woatsi afɔ.
+
+Eya ta Zcash ƒe crypto ƒe amedɔwɔlawo wɔ hash ƒe dɔwɔnuwo siwo ƒe emetɔwo nye field arithmetic xoxo, eye esia wɔa be wòle bɔbɔe be woaɖe wo ƒe ɖaseɖigbalɛ:
+
+![alt text](/content-images/image-18-89ade807ad.webp)
+
+Engineering ƒe nusẽ ɖeka sia, *"ele be eƒe ɖaseɖigbalɛ nanɔ bɔbɔe,"* nye nu ka ta Zcash ƒo hash ƒe dɔwɔnu tɔxɛwo eye wòzã wo ɖe teƒe be wòaɖe asi ɖe SHA-256 ŋu afi sia afi.
+
+---
+
+## 6. Afi si esia le le Zcash
+
+Zcash zã hashes vovovo le eƒe nunyonamewo me, eye wotia ɖeka ɖeka na dɔ si wòwɔ:
+
+| Nunyoname | Hashes si wozã | Afi si wozã wo |
 |---|---|---|
-| **Sprout** (gbãtɔ kekeake) | **SHA-256** ƒe ƒuƒoƒo | De dzesi adzɔgbeɖeɖewo kple ati la |
-| **Sapling** | **Pedersen ƒe hashes**, kpe ɖe **BLAKE2** | Pedersen ɖe note ŋugbedodowo kple Merkle-ti la ta; BLAKE2 na safui ƒe dzɔtsoƒe kple nullifiers |
-| **Orchard** (fifia) | **Sinsemilla**, tsɔ kpe ɖe **Poseidon** ŋu | Sinsemilla na nuŋlɔɖi ƒe ŋugbedodowo kple Merkle-ti la; Poseidon na nullifier, wo katã wowɔ na akɔntabubu ƒe nutome suewo |
+| **Sprout** (gbãtɔtɔ) | **SHA-256** | Didienu ƒe adzɔgbeɖeɖewo kple ati la |
+| **Sapling** | **Pedersen hashes**, kple **BLAKE2** | Pedersen na didienu ƒe adzɔgbeɖeɖewo kple Merkle ati la; BLAKE2 na kɔsiɖoɖo kple gaɣaɣla ɖeɖe dzesiwo |
+| **Orchard** (fifia) | **Sinsemilla**, kple **Poseidon** | Sinsemilla na didienu ƒe adzɔgbeɖeɖewo kple Merkle ati la; Poseidon na gaɣaɣla ɖeɖe dzesi la, wo katã wotu na arithmetic circuits |
 
-Ŋkɔ siwo wòle be woade dzesii enye **Pedersen** kple **Sinsemilla** (hashes siwo wotu ɖe ɖokuitsɔtsɔna ƒe atsyã me tso curve points me, eyata wonyia "adds up" superpower la dome eye woɖoa kpe edzi le asi bɔbɔe me) kple **Poseidon** (field-arithmetic hash si wotu ɖe taɖodzinu aɖe ta na zero-knowledge circuits). Ne Se 0 gblɔ be wotre nuŋlɔɖi aɖe me nyawo nu wòzu adzɔgbeɖeɖe la, *esia* nye mɔ̃ si le nutrenua wɔm.
+Ŋkɔ siwo ele be nàde dzesi nye **Pedersen** kple **Sinsemilla** (adzɔgbeɖeɖe ƒe nɔnɔme ƒe hashes si wotu tso curve ƒe teƒewo me, eya ta woɖe "dea kple wo nɔewo" ƒe ŋusẽtɔxɛ la kple wo eye wo ƒe ɖaseɖigbalɛ wɔna bɔbɔe) kple **Poseidon** (field-arithmetic hash si wotu tsitotsito na zero-knowledge circuits). Ne Agbalẽ 0 gblɔ be didienu ƒe emetɔwo woɖo ɖe adzɔgbeɖeɖe me la, *esia*e nye mɔ si wɔa ɖoɖo la.
 
-Eyata wotu ʋuƒo si le ʋuʋu ɖi tso Se 0 lia me, *"aleke agbalẽkotoku si wotre nu na ate ŋu aɣla emenyawo evɔ womate ŋu awɔe o?"*, fifia wotu: **ɣla eɖokui tso ŋkumaʋumaʋu ƒe nusi dzɔna le vome, babla tso ʋufɔku ƒe tsitretsitsi alo curve trapdoor gbɔ.**
-
----
-
-## 7. Nya aɖe si wogblɔna be yeaɖe asi le nyaa ŋu anukwaretɔe
-
-Míewɔe bɔbɔe be nuwo me nakɔ. Ðokuitsɔtsɔna ƒe ɖoɖo ŋutɔŋutɔwo gblɔa alesi tututu woawɔe `v` kple `r` woŋlɔ wo ɖe kɔpi me eye generator kawoe wozãna; "ɣla" kple "babla" ɖesiaɖe va le viviwo me (deblibo vs akɔntabubu) kple dedienɔnɔ ƒe gɔmesese siwo sɔ pɛpɛpɛ; eye míeɖe Pedersen, Sinsemilla, alo Poseidon ƒe ememenuwo fia o. Emawo dometɔ aɖeke metrɔa nukpɔsusua o: ɖokuitsɔtsɔna nye asibidɛ ƒe dzesi kpe ɖe nusiwo dzɔna le vome ŋu si ɣlana fifia eye wòblana tegbee. Nyatakakaawo trɔna, wotsɔa aflaga ɖoa wo ŋu, ne protocol nyatia hiã wo.
+Eya ta, nya si wometsɔ ɖo nu le Agbalẽ 0 me, *"Aleke akpa ƒe gɔmeɖeɖe si wotsɔ ƒo tso ate ŋu aɣla eƒe emetɔwo eye womegate ŋu aɖu eƒe aɖa o?"*, va ɖo nu fifia: **ɣaɣla tsoa blinding ƒe nudzudzɔ aɖe me, kadodo tsoa asidzedze ma ke ƒe mabu alo curve ƒe mɔɣaɣla la me.**
 
 ---
 
-## 8. Kpuie ko la
+## 7. Nya vavã aɖe si ele be míagblɔ
 
-- **hash dɔwɔwɔ** nye **asibidɛ ƒe dzesi na nyatakakawo**: nusi woɖo ɖi, yi ŋgɔ kabakaba, mɔ ɖeka dzi, si te ŋu nɔa te ɖe ƒoƒo nu, kple **avalanche ƒe ŋusẽkpɔɖeamedzi** (bit ɖeka le eme, asibidɛ si to vovo kura do goe).
-- **Ðokuitsɔtsɔna** na nète ŋu **tua asixɔxɔ aɖe le dutoƒo fifia eye nàɖee afia emegbe evɔ màte ŋu aka alakpa o.**
-- Asibidɛ ƒe dzesi ƒuƒlu tata `H(v)` blana gake **meɣlaa** o. Nusi gbãa ŋku le vome tsɔtsɔ kpee, . `H(v, r)`, ɖɔe ɖo be: **ɣla ɖe `r`, babla tso ƒoƒo ƒe tsitretsitsi me.**
-- Zcash zãa **hash-based** kple **Pedersen** ƒe ŋugbedodowo siaa; Pedersen ƒe ŋugbedodowo kpe ɖe eŋu **add up**, si Se 6 lia awɔ ŋudɔ atsɔ aɖo kpe asixɔxɔ ƒe dadasɔ dzi le adzame.
-- Esi wòle be **woɖo kpe hashes dzi** le zero-sidzedze kpeɖodziwo me ta la, Zcash zãa **ZK-xɔlɔ̃wɔwɔ** hashes siwo wotu tso agble me akɔntabubu (**Pedersen**, **Sinsemilla**, **Poseidon**) tsɔ wu SHA-256 le afisiafi.
+Míwɔe bɔbɔe be wòanɔ kɔ. Adzɔgbeɖeɖe ƒe mɔ vavãwo ɖe gɔme tsitotsito ale si wowɔ `v` kple `r` ƒe encoding kple generators si wozã; "ɣaɣla" kple "kadodo" ɖeka ɖeka ƒe nɔnɔme vovovo li (perfect kple computational) siwo ƒe dedienyawo le nyuie; eye mímeɖe Pedersen, Sinsemilla, alo Poseidon ƒe emetɔwo fia o. Nu sia aɖeke metrɔa gɔmesese la o: adzɔgbeɖeɖe nye asidzedze kple nudzudzɔ si ɣla nu fifia eye wòkada nu ɣesiaɣi. Nya tsitotsitowo ava gbɔ, woatsɔ dzesi afia wo, ne protocol ƒe agbalẽ la hiã wo.
 
 ---
 
-## Nyagɔmeɖegbalẽ
+## 8. Nuxexlẽ
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+- **Hash ƒe dɔwɔnu** nye **asidzedze na data**: metrɔna o, wòdoa ŋgɔ kabakaba, mɔ ɖeka ko, asidzedze ma ke mabu, kple **avalanche ƒe nɔnɔme** (bit ɖeka de eme, asidzedze bubu blibo do go).
+- **Adzɔgbeɖeɖe** na wò mɔ be nà**ɖo asixɔxɔ aɖe le ame katã ƒe ŋkume fifia eye nàɖe eɖe go le megbe, si màte ŋu aɖagblɔ le egɔme o.**
+- Ne nèɖe asidzedze ƒe `H(v)` ko afia la, ekada wò gake e**meɣlana o**. Ne nètsɔ blinding ƒe nudzudzɔ, `H(v, r)`, kpe ɖe eme la, esia wɔ dɔɖɔɖo la: **ɣaɣla tsoa `r`, kadodo tsoa asidzedze ma ke ƒe mabu.**
+- Zcash zãa adzɔgbeɖeɖewo si wotu kple **hash** kple **Pedersen**; Pedersen adzɔgbeɖeɖewo hã **dea kple wo nɔewo**, si Agbalẽ 6 azã be wòaɖe asixɔxɔ ƒe sɔsɔ ɣaɣla.
+- Elabena ele be woa**ɖe hashes ƒe ɖaseɖigbalɛ** le zero-knowledge ɖaseɖigbalɛwo ƒe me la, Zcash zãa hashes si **dze ZK ŋu** si wotu tso field arithmetic me (**Pedersen**, **Sinsemilla**, **Poseidon**) ɖe teƒe be wòazã SHA-256 afi sia afi.
+
+---
+
+## Nya ƒe gɔmesesewo
+
+| Nya | Gɔmesese le English me |
 |---|---|
-| **Hash function** | Egbãa nyatakaka ɖesiaɖe ɖe asibidɛ kpui si ƒe lolome le ɖoɖo nu (digest) |
-| **Digest** | Asibidɛ ƒe dzesi si dona tso hash dɔwɔwɔ aɖe me |
-| **Preimage resistance** | Mateŋu atrɔ digest aɖe atrɔ ayi eƒe nyawo tsɔtsɔ de eme (mɔ ɖeka dzi) |
-| **Collision resistance** | Mete ŋu kpɔ input eve siwo ƒe digest ɖeka le o |
-| **Avalanche effect** | Tɔtrɔ sue aɖe si wotsɔ dea eme trɔa digest |
-| **Commitment** | Do asixɔxɔ aɖe fifia, ɖee fia emegbe, mate ŋu aka alakpa le eŋu o |
-| **Blinding factor (`r`)** | Xexlẽdzesi yeye si wowɔ le vome si naa ɖokuitsɔtsɔna ɣlaa |
-| **ZK-friendly hash** | Hash si wotu tso agble me akɔntabubu me eyata exɔ asi be woaɖo kpe |
+| **Hash function** | Wòtsɔ data ɖesiaɖe wɔa asidzedze kpui si ƒe lolome metrɔna o (digest) |
+| **Digest** | Asidzedze si do go tso hash ƒe dɔwɔnu aɖe me |
+| **Preimage resistance** | Màte ŋu atrɔ digest aɖe yi nu si wotsɔ de eme gbãtɔ gbɔ o (mɔ ɖeka ko) |
+| **Collision resistance** | Màte ŋu akpɔ nu eve siwo ƒe digest ɖeka o |
+| **Avalanche effect** | Nu sue aɖe si wotrɔ le input la me trɔa digest la blibo |
+| **Commitment** | Ɖo asixɔxɔ aɖe fifia, ɖe eɖe go le megbe, màte ŋu aɖagblɔ le egɔme o |
+| **Blinding factor (`r`)** | Nudzudzɔ yeye si wɔa be adzɔgbeɖeɖe aɖe naɣla nu |
+| **ZK-friendly hash** | Hash si wotu tso field arithmetic me be eƒe ɖaseɖigbalɛ nanɔ bɔbɔe |
 
 ---
 
-## Nyabiasewo ƒe Nyabiasewo
+## Ƒoƒo biabiawo
 
-**Nukatae màtsɔ asixɔxɔa ade nyatakakadzraɖoƒea ko tsɔ wu be nàtsɔ ɖokuiwò anae o?**
-Encryption ku ɖe *nya ɣaɣla si nàte ŋu aɖe emegbe* ŋu. Ðokuitsɔtsɔna ku ɖe *babla* ŋu: kakaɖedzi be màte ŋu atrɔ wò ŋuɖoɖo emegbe o. Dɔ vovovowo wɔwɔ.
+**Nu ka ta wometsɔ encryption wɔ na asixɔxɔ la ɖe teƒe be woawɔ adzɔgbeɖeɖe na eo?**
+Encryption le ku ɖe *ɣaɣla si nàte ŋu aʋu le megbe* ŋu. Adzɔgbeɖeɖe le ku ɖe *kadodo* ŋu: kafukafu be màte ŋu atrɔ wò ŋuɖoɖo le megbe o. Dɔ vovovo ewɔm.
 
-**Ne adzɔgbeɖeɖewo ɣla asixɔxɔa la, aleke ame aɖe awɔ alé ŋku ɖe seawo ŋu?**
-Emae nye akpa si sidzedze zero ƒe kpeɖodziwo wɔna (Se 5 lia): woɖo kpe edzi be asixɔxɔ ɣaɣla la ɖoa seawo dzi evɔ womeɖenɛ fiana o.
+**Ne adzɔgbeɖeɖewo ɣla asixɔxɔ la, aleke ame aɖeke akpɔ be seawo wɔ dɔa?**
+Esia nye zero-knowledge ɖaseɖigbalɛwo ƒe dɔ (Agbalẽ 5): wòɖea ɖaseɖigbalɛ be asixɔxɔ si woɣla la de seawo dzi, togbɔ be womeɖe eɖe go o.
 
-**Ðe SHA-256 gblẽ, elabena Zcash ƒoa asa nɛ le teƒe aɖewoa?**
-Ao, SHA-256 nyo eye Zcash gakpɔtɔ zãnɛ. Ðeko wòxɔ asi be *ɖo kpe edzi le nutome sue aɖe me*, si tae ZK-xɔlɔ̃ hashes li na dɔ ma koŋ.
+**SHA-256 gbãa, elabena Zcash metsɔe zãa le teƒewo aɖewo oa?**
+Ao. SHA-256 nyo eye Zcash gale zãe. Eƒe ɖaseɖigbalɛ wɔwɔ *le circuit aɖe ƒe me* ko xɔa ga sɔŋ, eye esiae ta hashes si dze ZK ŋu li na dɔ sia tɔxɛ.
 
-**Afikae random la le `r` tso, eye amekae lénɛ ɖe te?**
-Wowɔe yeyee ne wowɔ nuŋlɔɖia eye nuŋlɔɖia tɔ nyae. Enye nusi na nuŋlɔɖi ɖesiaɖe le etɔxɛ eye wònye ame ŋutɔ tɔ ƒe akpa aɖe.
+**Afikae `r` si menye nudzudzɔ o tsoa, eye ame kae léa eŋu?**
+Wogbɔna eya yeye ne wowɔ didienu la, eye didienu la ƒe tɔ kae nyae. Enye akpa aɖe si wɔa be didienu ɖeka ɖeka nanɔ tɔxɛ eye nanɔ ɣaɣla.
 
 ---
 
-### Do wò susuŋudɔwɔwɔ kpɔ
+### Do kpe wò ƒe gɔmesese ŋu
 
-Ètsɔ ɖokuiwò na wò tiatiawɔblɔɖe ƒe nyagblɔɖi abe `H(v, r)` eye nàtae. Xɔ̃wò aɖe te tɔ ɖe edzi be ele be nàta agbalẽ dzɔdzɔe `H(v)` be wòanɔ bɔbɔe wu. Le nyagbe ɖeka me la, nukatae ema nye susu gbegblẽ ne nu eve koe ate ŋu ado tso eme? *(Ðo eŋu le ete.)*
+Èwɔ adzɔgbeɖeɖe na wò ŋuɖoɖo ku ɖe ametiŋu la ŋu abe `H(v, r)` ene eye nèɖe eɖe go. Xɔlɔ aɖe gblɔ be ele be nàɖe `H(v)` ko afia be wòanɔ bɔbɔe. Le nyagblɔ ɖeka me, nu ka ta esia menyo o ne emetɔ eve ko ate ŋu anɔ? *(Ŋuɖoɖo le anyi.)*
 
-<details><summary>Answer</summary>
+<details><summary>Ŋuɖoɖo</summary>
 
-Esi nu eve koe do tso eme ta la, xɔ̃wòa ate ŋu awɔ akɔntabubu ko `H("win")` kple `H("lose")` wo ɖokui eye nàtsɔ wo asɔ kple wò digest si wota, asrɔ̃ wò nyagblɔɖi enumake. Hash ƒuƒlu la blana gake meɣlaa eɖokui o; nusiwo dzɔna le vome `r` ye nye nusi xea mɔ na akɔntabubu kple ŋkuléle ɖe nu ŋu ƒe amedzidzedze sia.
+Elabena emetɔ eve ko li, wò xɔlɔ la ate ŋu awɔ `H("win")` kple `H("lose")` le eɖokuiŋu eye wòasɔ wo kple digest si nèɖe afia la, eye wòanya wò ŋuɖoɖo enumake. Hash si menye kpeɖeŋu si aɖeke o kada nu gake eɣlana o; `r` si menye nudzudzɔ o koe tsena guess-and-check ƒe avuɖeɖe sia ŋu.
 </details>
 
 ---
 
-### Nukae kplɔe ɖo
+### Nu si ava yi
 
-**Nyati 4 lia . Merkle atiwo:** fifia la, adzɔgbeɖeɖe miliɔn geɖe le mía si le dzidzim ɖe edzi. Nyati 4 lia fia alesi Zcash ɖoa wo ɖe ati ɖeka si ƒe ke ƒe asibidɛ sue la tsi tre ɖi na ŋutinya bliboa, kple alesi nàte ŋu aɖo kpe edzi be wò nuŋlɔɖia le ati ma me evɔ màɖe wo dometɔ si afia o. Emae nye Se 0 ƒe "dukɔa ƒe habɔbɔ" ƒe nɔnɔme ŋutɔŋutɔ.
+**Agbalẽ 4 . Merkle atiwo:** Fifia, adzɔgbeɖeɖe miliɔn geɖewo le ƒoƒom. Agbalẽ 4 fia ale si Zcash dea wo ɖe ati ɖeka me, si ƒe root asidzedze kpui la tsi ɖe ŋutinyawo katã ƒe teƒe, kple ale si nàte ŋu aɖe ɖaseɖigbalɛ be wò didienu le ati ma me, togbɔ be mèɖe afia be afikae wòle o. Esiae nye Agbalẽ 0 ƒe "kpekpeƒe ƒe kplɔdzi" ƒe nɔnɔme vavã.
 
-*Zcash ƒe akpa aɖe tso Gɔmeɖose Gbãtɔwo *series na [ZecHub](https://zechub.org). CC BY-SA 4.0 si ŋu mɔɖegbalẽ le.*
+*Enye akpa aɖe le* Zcash Tso Gɔmedzedze ƒe Nunya Me *ƒometɔwo me na [ZecHub](https://zechub.org). Wona mɔ CC BY-SA 4.0.*

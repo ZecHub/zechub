@@ -1,162 +1,162 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Lightwallet_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Axa Aƒe"/>
 </a>
 
 
-# Zcash Kekeli ƒe Nuŋlɔɖiwo
+# Zcash Lightwallet Nodes
 
 ## TL;DR
 
-* Ame akpa gãtɔ zãa Zcash to gakotoku si me kɔ dzi, si mewɔa blockchain bliboa ƒe kɔpi o. Ke boŋ eƒoa nu kple server si wɔ dɔ ma xoxo.
-* Kɔmpiutadziɖoɖo eve subɔa gakotoku siwo me kɔ egbea: **lightwalletd**, si nye subɔsubɔdɔ gbãtɔ si woŋlɔ ɖe Go me, kple **Zaino**, si nye indexer yeye si woŋlɔ ɖe Rust me.
-* Wò safuiwo medzona le wò mɔ̃a dzi gbeɖe o, eye server la mate ŋu azã wò ga alo axlẽ ga homeawo kple nuŋlɔɖi siwo le asitsatsa siwo ŋu wokpɔ ta na bliboe me o.
-* Nusi server la le nyuie be yeasrɔ̃e nye wò IP adrɛs kple wò dɔwɔna ƒe ɣeyiɣi — shielded transactions kpɔa nusi yia blockchain dzi ta, ke menye wò kadodo kple server la o.
-* Tor ɖea IP ƒe dzesidenu la ɖa; ele gakotoku siwo dzi wotu wo ɖo me `zcash_client_backend`, eye le ZODL me la, enye ɖoɖo aɖe le Ðoɖo Deŋgɔwo me.
-* Àteŋu atrɔ server si wò gakotoku zãna, alo awɔ wò ŋutɔ tɔwò — lightwalletd kple Zaino siaa nye ʋuʋu dzɔtsoƒe.
+* Ame geɖe kekeawo zãa Zcash to wɔa dɔ kple light wallet, si menɔa blockchain bliboa gɔme o. Le esime ma teƒe la, eƒoa nu kple server si wɔ dɔ ma xoxo.
+* Mɔ̃ ƒe ɖoɖowo eve le light wallets ƒe subɔsubɔ wɔm egbe: **lightwalletd**, subɔsubɔ gbãtɔ si wotu kple Go, kple **Zaino**, indexer yeye si wotu kple Rust.
+* Wò safuiwo menoa wò mɔ̃ dzi o, eye server la mate ŋu azã wò ga alo axle asixɔxɔwo kple nya kpuiawo si le ɣaɣla gaɖoɖowo me o.
+* Nu si server la ate ŋu asrɔ̃e nyuiee lae nye wò IP address kple wò dɔwɔwɔ ƒe gaƒoƒo — ɣaɣla gaɖoɖowo ɣlãa nu si le blockchain dzi, ke menɣlãa wò kadodo kple server la o.
+* Tor ɖea IP dzesi la ɖa; eŋu wɔnɔ wallet siwo wotu ɖe `zcash_client_backend` dzi me, eye le ZODL me la, e nye ɖoɖo le Advanced Settings me.
+* Àte ŋu atrɔ server si wò gakotoku zãa, alo nàwɔ tɔwò — lightwalletd kple Zaino siaa nye mɔ̃ si le fɔfɔ̃e.
 
-## Numeɖeɖe Vevitɔ
+## Nyati Gbegbe
 
-Ame akpa gãtɔ zãa Zcash to gakotoku si me kɔ dzi, si mewɔa blockchain bliboa ƒe kɔpi o. Ke boŋ eƒoa nu kple server si wɔ dɔ ma xoxo. Axa sia ɖe nusiwo server mawo nye, nusiwo woateŋu akpɔ tso ŋuwò kple esiwo womateŋu akpɔ tso ŋuwò o, alesi nàɖo wò kadodoa to Tor dzi, kple alesi nàtrɔ server si wò gakotoku zãna la me.
+Ame geɖe kekeawo zãa Zcash to wɔa dɔ kple light wallet, si menɔa blockchain bliboa gɔme o. Le esime ma teƒe la, eƒoa nu kple server si wɔ dɔ ma xoxo. Axa sia aɖe nyateƒe le server siawo ŋu, nu si woate ŋu akpɔ tso gbɔwò kple nu si womate ŋu akpɔ o, aleke nàto wò kadodo ɖe Tor dzi, kple aleke nàtrɔ server si wò gakotoku zãa.
 
-Kɔmpiutadziɖoɖo eve subɔa gakotoku siwo me kɔ egbea. **lightwalletd** nye subɔsubɔdɔ gbãtɔ, si woŋlɔ ɖe Go me. **Zaino** nye indexer yeye si woŋlɔ ɖe Rust me, si wotu abe zcashd ƒe asixɔxɔ dzi ɖeɖe kpɔtɔ dɔa ƒe akpa aɖe ene.
+Mɔ̃ ƒe ɖoɖowo eve le light wallets ƒe subɔsubɔ wɔm egbe. **lightwalletd** nye subɔsubɔ gbãtɔ, si wotu kple Go. **Zaino** nye indexer yeye si wotu kple Rust, eye wotu eŋu le zcashd ƒe deprecation dɔwɔwɔ me.
 
-### Nusi kekeli gakotoku ƒe dɔwɔƒe wɔna
+### Nu si light wallet server wɔa
 
-Gakotoku ƒe dɔwɔƒe si me kɔ la nɔa wò gakotoku kple Zcash blockchain dome eye wònaa wòkpɔa kɔsɔkɔsɔa ƒe bandwidth-efficient. Ewɔa nu etɔ̃ na wò.
+Light wallet server nɔa wò gakotoku kple Zcash blockchain dome, eye wònaa ɖoɖonu la ƒe nukpɔkpɔ si me data ƒe zãzã medze dɔ ge o. Ewɔ nu etɔ na wò.
 
-Esubɔa xɔtunu siwo le gbadzaa. Le esi teƒe be wòaɖo block blibowo la, eɖoa agbalẽvi sue aɖe si me nusiwo gakotoku hiã be woatsɔ ade dzesi ga si woxe la koe le ɖe eƒe adrɛs si wokpɔ ta na, ade dzesi ga si wozã ɖe eƒe nuŋlɔɖiwo ŋu, eye wòawɔ asitɔtrɔ le eƒe ɖasefowo ŋu.
+Enaa compact blocks. Le gaɖoɖowo ƒuƒoƒewo bliboa teƒe la, eɖoa wɔnɔnu si kplɔ nu si gakotoku hia ko, be wòanya fexexe si va na eƒe ɣaɣla gaɖoƒe ƒe dzesi, nya dzi be woza eƒe didienuwo, eye wòatrɔ eƒe witnesses.
 
-Eɖoa wò asitsatsa ɖe amewo gbɔ. Ne èɖoe ɖa la, wò gakotokua tsɔa asitsatsa si nèwu enu la dea asi na server la, eye wòɖea gbeƒãe na network la.
+Etsɔa wò gaɖoɖowo yi. Ne nèɖo ga la, wò gakotoku naa gaɖoɖo si woɖo nu blibo la server la, eye server la ɖee gbe le network la me.
 
-Eɖoa kɔsɔkɔsɔ ƒe nyabiasewo ŋu, abe kɔkɔme si li fifia kple fetu ŋuti nyatakaka siwo wò gakotokua hiã ene.
+Eɖoa biabiawo ŋu tso ɖoɖonu la ŋu, abe fifi ƒe kɔkɔme kple adzɔ ƒe nyatakaka si wò gakotoku hia ene.
 
-Wò gakotokua gakpɔtɔ wɔa ame ŋutɔ ƒe dɔa le mia gbɔ. Eléa wò safuiwo ɖe asi, eɖea mɔxenuwo me kpɔ be yeake ɖe wò nuŋlɔɖiwo ŋu, eye wòtua asitsatsa ɖe wò mɔ̃a dzi hedea asi ete.
+Wò gakotoku gale asixɔxɔ dɔa wɔm le afi si nèle. Etsɔa wò safuiwo ɖe asi, eɣe ɣaɣlaŋlɔŋlɔ le gaɖoɖowo ƒuƒoƒewo ŋu be wòakpɔ wò didienuwo, eye wòwɔa eye wòdea asi gaɖoɖowo ŋu le wò mɔ̃ dzi.
 
-### Nusiwo server la ate ŋu akpɔ kple esiwo mate ŋu akpɔ o
+### Nu si server la ate ŋu akpɔ kple nu si mate ŋu akpɔ o
 
-Esiae nye akpa si me vodada le bɔbɔe. Wò safuiwo medzona le wò mɔ̃a dzi gbeɖe o, gake ema mesɔ kple server la ƒe naneke masrɔ̃ tso ŋuwò o.
+Eyae nye akpa si wòasu be woawɔ vodada le. Wò safuiwo menoa wò mɔ̃ dzi o, ke esia menye be server la mesrɔ̃ naneke tso gbɔwò o.
 
-Nusi ŋu woƒo nu tsoe le afisiae nye... [Zcash gakotoku app ŋɔdzidoname kpɔɖeŋu](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), si sɔ be nàxlẽ bliboe ne ètsɔ ɖe le esia me. Eɖoa futɔ ƒomevi vovovowo ɖi. Amesi le vevie na axa sia enye futɔ si ate ŋu akpɔ ʋuwo ƒe zɔzɔ le wò gakotoku kple internet dome, kple le server kple internet dome. Amesiame si le server la zãm la le nɔnɔme ma ƒe akpa aɖe me le dzɔdzɔme nu, elabena wò gakotokua doa ka kpli wo tẽ.
+Nya si woɖo le afi sia nye [Zcash gakotoku app ƒe threat model](https://zcash.readthedocs.io/en/latest/rtd_pages/wallet_threat_model.html), si nyo be nàxlẽ blibo ne esia le vevie na wò. Eɖe futɔwo ƒe ƒomevi vovovowo fia. Esi le vevie na axa sia nye futɔ si ate ŋu awɔ kpɔkpɔ ɖe traffic si le wò gakotoku kple internet dome, kple si le server la kple internet dome. Ame si nɔa server la dzi la le teƒe ma ƒe akpa me le wɔnɔtɔe me, elabena wò gakotoku kpena ɖe eŋu tẽe.
 
-Dze egɔme kple nusiwo wokpɔ ta na. Le futɔ ɖesiaɖe si le kpɔɖeŋua me, si me amesi gblẽ nu le server la ŋu hã le ŋu la, "mateŋu asrɔ̃ zãla ƒe nya ɣaɣlawo ƒe safuiwo dometɔ aɖeke o (safuiwo zazã, safuiwo kpɔkpɔ, nuku ƒe nyagbe, kple bubuawo)", mateŋu afi wò ga o, eye mateŋu ana nàɖo ga si mèɖoe be yeaɖo ɖa o. Ga home kple nuŋlɔɖi siwo le asitsatsa siwo ŋu wokpɔ ta na bliboe me nɔa nya ɣaɣlawo me.
+Míadze egɔme kple nu si woɣlã. Le futɔ siawo katã ŋu, tso wɔnɔtɔ si ɖo server la ɖe asi me hã, "mate ŋu asrɔ̃ naneke tso user la ƒe cryptographic key material (spending keys, viewing keys, seed phrase, etc.) ŋu o", mate ŋu afi wò ga o, eye mate ŋu awɔ be nàɖo ga si mewɔa be nàɖo o. Asixɔxɔwo kple nya kpuiawo si le ɣaɣla gaɖoɖowo blibo me la gale ɣaɣlaŋlɔŋlɔ me.
 
-Emegbe nusiwo womekpɔ ta na o hã li. Afɔku ƒe kpɔɖeŋua yɔ esiawo be wonye gbɔdzɔgbɔdzɔ siwo wonya ɖe futɔ si léa ŋku ɖe ʋuwo ƒe zɔzɔ ŋu:
+Emegbe la, nu si woɣlã o lae nye. Threat model la bu esiawo be wonye gbɔdzɔdzɔ siwo woanya tso traffic ƒe kpɔla ƒe ŋu:
 
-| Gbɔdzɔgbɔdzɔ | Alesi |
+| Gbɔdzɔdzɔ | Aleke |
 |:--|:--|
-| Gblɔ amesi nènye | "Futɔ la nya zãla ƒe IP adrɛs, si ateŋu akplɔ wo ayi zãla ƒe amenyenye ŋutɔŋutɔ gbɔ" |
-| Afisi nèle gbɔgblɔ teti | Wò IP didi "le geolocation database me be woatsɔ asɔ kple woƒe teƒe" |
-| Ema gbɔgblɔ kple ɣeyiɣi si nèɖo alo xɔ adzɔnu si wotsɔ akpoxɔnu wɔe | Dɔdɔ "zãa bandwidth geɖe wu, si dzena togbɔ be kadodoa nye nya ɣaɣla hã". Kpɔɖeŋua de dzesii be nuwɔna si nye dɔdɔ kple xɔxɔ dzena na server la ŋutɔ |
-| Adzɔnu agbɔsɔsɔme si nèwɔ le ɣeyiɣi aɖe megbe xexlẽ | Bandwidth ƒe nɔnɔme mawo ke, siwo wokpɔ le ɣeyiɣi didi aɖe me |
-| Spotting fexexe ƒe ɖoɖo siwo gbugbɔna | Lé ŋku ɖe ɣeyiɣi si me dɔwɔna dzɔna ŋu |
-| Dɔwɔwɔ le eŋu nenye be adrɛs aɖe nye tɔwò | Futɔ si nya adrɛs xoxo "ateŋu aɖo ga ɖe adrɛs ma eye wòakpɔe ɖa be bandwidth spikes li hã" tso wò gakotoku me tsɔe vɛ |
+| Nyanya ame si nèle | "Futɔ la nya user la ƒe IP address, si ate ŋu akplɔ wo yi user la ƒe ame dzidzɔtɔ gbɔ" |
+| Nyanya afi si nèle ƒe teƒe kɔkɔe | Wòɖea wò IP address kpɔ "le geolocation database me be woaɖo eƒe teƒe kɔkɔe" |
+| Nyanya be nèɖo alo nèxɔ ɣaɣla gaɖoɖo, kple gaƒoƒo si me wòwɔe | Gaɖoɖo "zãa bandwidth geɖe, si doa ŋku na ame, togbɔ be woɣlã kadodo la". Model la de dzesi be gaɖoɖo kple xɔxɔ ƒe wɔwɔ doa ŋku na server la ŋutɔ |
+| Bu gaɖoɖo nenie nèwɔ le ɣeyiɣi me | Bandwidth ƒe nɔnɔ ma ke, si woakpɔ le ɣeyiɣi didi me |
+| Kpɔ fexexe ƒe nɔnɔ si gbugbɔna | Kpɔkpɔ ɖe ɣeyiɣi si me dɔwɔwɔ wɔa |
+| Ɖoɖo be gaɖoƒe ƒe dzesi aɖe nye tɔwò | Futɔ si nya gaɖoƒe ƒe dzesi aɖe xoxo "ate ŋu aɖo ga yi gaɖoƒe ƒe dzesi ma dzi eye wòakpɔ be bandwidth ƒe dzedze gã aɖe ava tso wò gakotoku gbɔ" ne wòele eŋu xɔm |
 
-Kpɔɖeŋua de dzesii hã be nya dzro la tsɔe be "kakaɖedzi ƒe ƒomedodo aɖe le zãla kple lightwalletd server dɔwɔla dome".
+Model la gblɔ hã be nɔnɔ gbɔtɔ la bua be "kakaɖedzi ƒe kadodo le user la kple lightwalletd server ƒe dɔwɔla la dome".
 
-Eyata nya kpui si woagblɔ kpuie anukwaretɔe nye esia. Gakotoku ƒe dɔwɔƒe si me kɔ mate ŋu azã wò ga o, eye mate ŋu axlẽ ga home alo nuŋlɔɖi siwo le wò asitsatsa siwo ŋu wokpɔ ta na o. Nusi wòle nyuie be nàsrɔ̃e nye wò IP adrɛs kple ɣeyiɣi si me nàwɔ dɔ, eye ame eve mawo ne wotsɔ wo katã ƒo ƒu ate ŋu agblɔ nya geɖe tso ame aɖe ŋu. Asitsatsa siwo wotsɔ akpoxɔnu wɔe la kpɔa nusi yia edzi le blockchain la dzi ta. Womeɣlaa wò kadodo kple server la le wo ɖokui si o.
+Eyata, nyateƒe ƒe tatae nye esi. Light wallet server mate ŋu azã wò ga o, eye mate ŋu axle asixɔxɔwo alo nya kpuiawo si le wò ɣaɣla gaɖoɖowo me o. Nu si wònɔ teƒe nyui me be wòasrɔ̃e lae nye wò IP address kple wò dɔwɔwɔ ƒe gaƒoƒo, eye esiawo eve katã ate ŋu agblɔ nu geɖe tso ame aɖe ŋu. Ɣaɣla gaɖoɖowo ɣlãa nu si le blockchain dzi. Womeɣlãa wò kadodo kple server la ƒe nu o.
 
-## Nukpɔkpɔ / Nusɔsrɔ̃
+## Nɔnɔ Kpɔɖeŋu / Sɔsɔme
 
-Bu dutoƒogbalẽdzraɖoƒe aɖe si me wodzraa nyadzɔdzɔgbalẽ ɖesiaɖe si wota kpɔ ɖo ŋu kpɔ. Node blibo nye nuxlẽla si tsɔa nudzraɖoƒe bliboa yia aƒemee. Gakotoku si me kɔ nye nuxlẽla si biaa agbalẽdzraɖoƒedzikpɔla be wòana gbesiagbe nuɖuɖumeŋusẽ aɖe boŋ — agbalẽ tsɛ aɖe si tsɔa nusi sɔ gbɔ ko be wòate ŋu ade dzesii ne nane ku ɖe wo ŋu.
+Bu public library aɖe si le nyadzɔdzɔsia katã si woŋlɔ kpɔe ŋu. Full node nye xlẽla si tsɔ archive bliboa yi aƒeme. Light wallet nye xlẽla si bia be librarian la nana daily digest na ye ɖe teƒe la — axa mebɔbɔ aɖe si kplɔ nu siɖeɖe ko be wòakpɔ be nu aɖe ku ɖe eŋu hã.
 
-Wotre digest la nu: agbalẽdzraɖoƒedzikpɔla la ƒoa wo nu ƒu evɔ mete ŋu xlẽa nu siwo le vevie na wò o, eye wò ŋutɔe tsɔa wò ŋutɔ wò safui ʋunɛ le aƒeme. Emae nye compact block la, eye ʋuʋua nye trial-decryption le wò mɔ̃a dzi.
+Woɣlã digest la: librarian la ƒo eƒu ƒeɖeŋu be wòate ŋu axle nu si le vevie na wò o, eye nèʋuae le aƒeme kple wò safui ŋutɔ. Eyae nye compact block la, eye ʋuʋu lae nye trial-decryption le wò mɔ̃ dzi.
 
-Gake agbalẽdzraɖoƒedzikpɔla la gakpɔtɔ kpɔa nuxlẽla si ge ɖe eme, ɣeyiɣi si me woge ɖe eme, kple alesi wotsɔ agbalẽ babla aɖe si loloe. Emae nye IP adrɛs kple ɣeyiɣi si woatsɔ awɔe — woate ŋu akpɔe tso kplɔ̃a dzi, aleke kee wotre agbalẽkotokua nu nyuie o. Tor sɔ kple amedɔdɔ si ƒe ŋkɔ womeyɔ o ɖoɖo ɖa: agbalẽdzraɖoƒedzikpɔla gakpɔtɔ tsɔa agbalẽ babla ma ke dea asi na ame, gake meganya amesi ƒe aƒe me wòyi o.
+Ke librarian la gblẽa kpɔa reader kae va ge, gaƒoƒo kae wòva, kple bundle la ƒe bɔbɔ nenie wòtsɔ dzoe. Eyae nye IP address kple gaƒoƒo — woakpɔe le desk la gbɔ, alo envelope la wɔ ɣaɣla nyuie o. Tor le abe ame si dɔ courier si me ame menya o ene: librarian la naa bundle ma ke, ke meganya aƒe si wòyi o.
 
-## Deep Dive (Tsi me tsi goglo).
+## Nyati Didime
 
-### Mɔzɔzɔ to Tor dzi
+### To Kadodo ɖe Tor Dzi
 
-Tor gblẽa kadodo si le wò IP adrɛs kple wò gakotoku ƒe ʋuɖoɖo dome, si ɖea dzesidenu sesẽtɔ kekeake si le kplɔ̃ si le etame la ɖa.
+Tor ƒe ɖoɖo ɖea kadodo si le wò IP address kple wò gakotoku ƒe traffic dome ɖa, eye esia ɖea dzesi sesẽtɔ si le tabia si le dzi ɖa.
 
-Kpekpeɖeŋu le Rust agbalẽdzraɖoƒe siwo dzi Zcash gakotoku geɖe tu ɖo la me. zcash_client_backend de Tor module si wotu ɖe edzi [Arti](https://tpo.pages.torproject.net/core/arti/), Tor ƒe Rust dɔwɔwɔ, ale be gakotoku ate ŋu aɖo mɔ na sync, asitsatsa ƒe gbeƒãɖeɖe, kple asixɔxɔ didi to Tor dzi evɔ maɖo Tor ƒe asisi ɖe vovo o.
+Kpekpeɖeŋu le Rust libraries si Zcash wallets geɖe tu ɖo ɖe wo dzi me. zcash_client_backend kplɔ Tor module si wotu ɖe [Arti](https://tpo.pages.torproject.net/core/arti/) dzi, si nye Rust ƒe implementation na Tor, ale be gakotoku aɖe ate ŋu ato sync, gaɖoɖo ƒe gbeɖeɖe, kple asiwo ƒe nudzodzro ɖe Tor dzi, eye mehiã be woatsɔ Tor client aɖe kplɔe o.
 
-Zaino dɔwɔlawo hã ʋlia nya ma ke, eye woyɔ ŋɔdzidoname ƒe kpɔɖeŋua tẽ: "ehiã be woazã ʋuɖoɖo ƒe ɖoɖo siwo womeyɔ o (abe Nym alo Tor ene) atsɔ atɔtɔ asisiwo ƒe dzedzeme tso Zcash ƒe indexing servers gbɔ".
+Zaino mɔ̃ ƒe ɖoɖoŋlɔlawo wɔ argument ma ke, eye wozã threat model la tẽe: "hiã be woazã anonymous transport protocols (abe Nym alo Tor ene) be woaɣlã clients ƒe ame nyanyanya tso Zcash ƒe indexing servers gbɔ".
 
-Le **ZODL** me la, Tor nye ɖoɖo aɖe le Ðoɖo Deŋgɔwo me. Gakotokua ƒe dodo ŋuti nuŋlɔɖiwo fia asi zãlawo ɖe asi kadodo ƒe nɔnɔme "kple Tor ƒe dɔwɔwɔ le Ðoɖo Deŋgɔwo me" ne "wodi be yewoaɖe metadata ƒe ɖeɖefia dzi akpɔtɔ", eye dɔwɔnua gblɔ be yeaʋu Tor hafi agbugbɔ gakotoku aɖe aɖo, si nye ɣeyiɣi si me IP yeye aɖe abla ɖe gakotoku ŋutinya blibo aɖe ŋu ne menye nenema o.
+Le **ZODL** me la, Tor nye ɖoɖo le Advanced Settings me. Gakotoku la ƒe release notes fia users be woazã manual connection mode "kple Tor ƒe dɔwɔwɔ le Advanced Settings me" ne wole "metadata ƒe kpekpeɖeŋu ƒe ɖeɖe dzi dim", eye app la bia be wòaɖe Tor dɔ le esime nèle gakotoku aɖe gbugbɔm, si nye ɣeyiɣi si IP yeye aɖe akpɔ kadodo kple gakotoku ƒe ŋutinya bliboa le mɔ bubu me.
 
-Nuxlɔ̃ame eve. Tor ɣlaa wò IP ɖe server la, gake metrɔa nusi server la srɔ̃na tso biabia siwo nèwɔ me o. Eye onion routing naa latency kpena ɖe eŋu, eyata syncing xɔa ɣeyiɣi didi wu. Wò ŋutɔ wò server zazã ƒoa asa na kakaɖedzibiabia la le mɔ bubu nu, elabena ɣemaɣi la, wòe nye dɔwɔla la.
+Nudzodzro eve le. Tor ɣlãa wò IP tso server la gbɔ, ke metrɔa nu si server la srɔ̃a tso biabia siwo nèwɔ la ŋu o. Eye onion routing kplɔa ɣeyiɣi didi, eyata syncing xɔa ɣeyiɣi geɖe. Wò server ŋutɔ ƒe wɔwɔ ɖea kakaɖedzi ƒe biabia la ɖe mɔ bubu me, elabena dɔwɔla lae nye wò.
 
-### Zaino, si nye Rust ƒe xexlẽdzesifiala
+### Zaino, Rust indexer la
 
-[Zaino](/zcash-tech/zaino) nye indexer si Zingo ƒe ƒuƒoƒoa ŋlɔ ɖe Rust me, si wotu be wòaxɔ ɖe lightwalletd teƒe abe zcashd deprecation dɔa ƒe akpa aɖe ene. Esubɔa kekeli ƒe asisiwo, asisi blibowo, kple block explorers, xlẽa kɔsɔkɔsɔ nyatakaka siwo le "Zebra alo zcashd blibo validator" si.
+[Zaino](/zcash-tech/zaino) nye indexer si wotu kple Rust tso Zingo team la gbɔ, be wòaxɔ lightwalletd ƒe teƒe le zcashd deprecation dɔwɔwɔ la me. Esubɔa light clients, full clients, kple block explorers, eye wòxlẽa ɖoɖonu ƒe data si woɖea ɖe asi le "Zebra alo zcashd full validator" aɖe gbɔ.
 
-Ele ŋgɔyiyi wɔm vevie, kple eƒe tɔtrɔ 0.8.0 si woɖe ɖe go le August 2026. Eƒe taɖodzinue nye be yeanɔ megbe awɔ ɖeka kple lightwalletd le afisi wòanya wɔ le, ale be gakotokuwo ateŋu afia asi edzi evɔ womagbugbɔe aŋlɔe o.
+Wole eƒe ɖoɖo yina dzi vevie, eye version 0.8.0 do go le August 2026. Edi be wòanɔ backward compatible kple lightwalletd afi si wòate ŋu, ale be wallets ate ŋu aɖo eŋu mekpɔ woŋlɔ wo gake o.
 
-Zaino ŋutɔ ƒe axa le esi si dzi xɔtuɖaŋu ƒe nɔnɔmetatawo le, eyata axa sia ƒo nu tso eƒe akpa si wòwɔna abe kekeli gakotoku ƒe dɔwɔƒe ene ŋu ko.
+Zaino le eya ŋutɔ ƒe axa kple architecture diagrams, eyata axa sia ƒe nya nye eƒe dɔ abe light wallet server ene ko.
 
-### Wò ŋutɔ tɔwò ƒe duƒuƒu
+### Wò Ŋutɔ Ƒe Wɔwɔ
 
-Tiatia sesẽtɔ kekeakee nye be nànye wò ŋutɔ wò dɔwɔla, si ɖea kakaɖedzi ƒe nyabiasea ɖa keŋkeŋ. Server eveawo siaa nye esiwo woate ŋu azã: [lightwalletd](https://github.com/zcash/lightwalletd) le Yi kple [Zaino](https://github.com/zingolabs/zaino) le Rust me. Wo ame evea siaa xlẽa nu tso validator blibo gbɔ, eyata àdi hã [Zebra](/zcash-tech/zebra-full-node).
+Mɔ sesẽtɔe nye be nànye wò ŋutɔ ƒe dɔwɔla, si ɖea kakaɖedzi ƒe biabia la ɖa bliboe. Server evea siaa nye mɔ̃ si le fɔfɔ̃e: [lightwalletd](https://github.com/zcash/lightwalletd) le Go me kple [Zaino](https://github.com/zingolabs/zaino) le Rust me. Woƒe siaa xlẽa tso full validator aɖe gbɔ, eyata nàdi [Zebra](/zcash-tech/zebra-full-node) hã.
 
-## Nusiwo wòfia ŋutɔŋutɔ
+## Nuzãzã Ƒe Kpekpeɖeŋu
 
-### Server ƒe xexlẽdzesiwo
+### Server Ƒe ƒeƒe
 
-The [hosh.zec.rocks](https://hosh.zec.rocks/zec) dashboard léa ŋku ɖe dutoƒo serverwo kple woƒe lãmesẽ ŋu, eye wònye teƒe si woakpɔ nusi tututu le edzi yim le. [status.zec.rocks](https://status.zec.rocks/) ɖea subɔsubɔ ƒe nɔnɔme fiana.
+[hosh.zec.rocks](https://hosh.zec.rocks/zec) dashboard la le public servers kple woƒe nɔnɔ nyui ƒe kpɔkpɔ wɔm, eye nye teƒe si nàkpɔ nu si le dɔ wɔm nyateƒe. [status.zec.rocks](https://status.zec.rocks/) fia subɔsubɔ ƒe nɔnɔ.
 
-Server siwo woŋlɔ ɖe dashboard ma dzi le nyati sia ŋɔŋlɔɣi:
+Servers siwo le dashboard ma dzi le esime woŋlɔ axa sia:
 
-| Server | De dzesiiwo |
+| Server | Nudzodzro |
 |:--|:--|
-| zec.kpewo:443 | Woŋlɔ nutome ƒe nuwuƒewo ɖe eƒe axadzi le na.zec.rocks, eu.zec.rocks, ap.zec.rocks kple sa.zec.rocks |
-| zec-node.keke ƒe gakotoku.com: 443 | Le Cake Wallet ƒe domenyiŋusẽfianu dzi |
-| zec.0xrpc.io: 443 kple edzivɔ | 0xRPC ye le edzi kpɔm, si naa dutoƒo nuwuƒe femaxee na kɔsɔkɔsɔ geɖe eye wòbiaa nudzɔdzɔwo be woatsɔ axe ŋutete |
-| zaino.unsafe.zec.rocks:443 | Zaino kpɔɖeŋu aɖe. De dzesi amedzroxɔla ƒe ŋkɔ, bu eŋu abe dodokpɔ ene |
-| testnet.zec.kpewo: 443 | Testnet, kple Zaino testnet ƒe kpɔɖeŋu si woŋlɔ ɖe zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | Woɖe regional endpoints fia kplee le na.zec.rocks, eu.zec.rocks, ap.zec.rocks kple sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Le Cake Wallet ƒe domain dzi |
+| zec.0xrpc.io:443 | 0xRPC wɔnɔa eŋu, si naa public endpoints fɔfɔ̃e na ɖoɖonu geɖe eye bia be woanɔ donation wɔm be woaɣlɔ capacity ƒe fi |
+| zaino.unsafe.zec.rocks:443 | Zaino instance aɖe. Ɖo ŋku hostname la dzi, eye nàbu be eƒe nɔnɔ le dodom |
+| testnet.zec.rocks:443 | Testnet, kple Zaino testnet instance si woɖe fia le zaino.testnet.unsafe.zec.rocks |
 
-Kpɔ dashboard la ɖa tsɔ wu be nàka ɖe xexlẽdzesi sia dzi. Dɔdzikpɔlawo vaa eye wodzona, eye axa si le abe esia ene tsina.
+Kpɔ dashboard la ɖe teƒe la, eye mègakakaɖe asi ɖe list sia dzi o. Dɔwɔlawo vaa eye woyia, eye axa si abe esi ene ƒe ɣeyiɣi lia.
 
-### Server si le wò gakotokua me tɔtrɔ
+### Server ƒe Trɔtrɔ Le Wò Gakotoku Me
 
-Enyo be nàwɔe ne èdi be yeatia dɔwɔƒe aɖe si dzi nèka ɖo, akaka dɔwɔnawo ɖe dɔwɔƒewo dome, alo afia asi wò ŋutɔ tɔwò.
+Enyo nàwɔe ne wòdi be nàtia dɔwɔla si dzi nèka ɖe, nàma dɔwɔwɔ ɖe dɔwɔlawo dome, alo nàɖo asi ɖe tɔwò ŋutɔ.
 
-Menu ƒe mɔ siwo le ete la sɔ esime wowɔ axa sia yeyee, gake gakotoku ƒe ŋgɔdonyawo ʋãna, eyata bu wo abe aɖaŋuɖoɖo ene tsɔ wu be nàwɔ nu ɖe ​​wo ŋu abe mɔ si sɔ pɛpɛpɛ ene. Di Advanced Settings alo server ƒe tiatia aɖe.
+Menu ƒe mɔ siwo le ete la nɔ eteŋu le esime woɖe axa sia yeyee, ke gakotoku ƒe interfacewo trɔa afi, eyata nàbu wo be wonye mɔfiawo ko, menye mɔ dzadzɛ aɖe o. Di Advanced Settings alo server ƒe option aɖe.
 
 #### ZODL
 
-Tsã la, enye Zashi. Cog si le ɖusime le etame, emegbe Advanced Settings. Tor hã nɔa screen ɖeka ma ke dzi. ZODL hã naa Switch server ƒe mɔ kpui aɖe ne sync ƒe kpododonu tso server la ƒe ɣeyiɣi si do xoxo gbɔ.
+Tsã la woyɔe be Zashi. Cog si le ƒeƒe dzi ƒe akpa mia, eye emegbe Advanced Settings. Tor le screen ma ke dzi. ZODL hã naa Switch server shortcut ne sync ƒe vodada aɖe va tso be server la meyɛ yeyee o.
 
 #### Ywallet
 
-Cog si le etame le ɖusime, emegbe Zcash tab.
+Cog si le ƒeƒe dzi ƒe akpa mia, eye emegbe Zcash tab la.
 
 ![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
 
 #### Zingo
 
-Hamburger ƒe nuɖuɖu si le miame ƒe dzogoe si le etame, emegbe Settings, emegbe nàʋu ayi anyime.
+Hamburger menu si le ƒeƒe dzi ƒe akpa mia, eye emegbe Settings, eye nàyi anyi.
 
 ![Zingo server settings](/content-images/ea8f7672-e644-41a5-a422-db131740404a-2626f5fa79.webp)
 
 #### eZcash
 
-Hamburger ƒe nuɖuɖu si le miame ƒe dzogoe si le etame, emegbe Settings, emegbe Advanced.
+Hamburger menu si le ƒeƒe dzi ƒe akpa mia, eye emegbe Settings, eye emegbe Advanced.
 
 ![eZcash server settings](/content-images/655c0172-61a0-4322-b8cf-4eee4bb53b51-0b93df2e71.webp)
 
-Woɖe screenshots mawo le March 2025 me, eye dɔwɔnuawo ɖo esiwo woɖe ɖe go tso ɣemaɣi, eyata ɖewohĩ buttons la ʋu.
+Woɖe screenshot siawo le March 2025, eye apps lawo do releases tso ɣeyiɣi ma megbe, eyata buttons lawo ate ŋu atrɔ afi.
 
-## Vodada Siwo Bɔ
+## Vodadawo Si Wɔa Zi Geɖe
 
-**Esusu be server ateŋu axlẽ wò adzɔnuwo**. Mate ŋui o. Wò safuiwo nɔa wò mɔ̃a dzi, eye ga home kple nuŋlɔɖi siwo le asitsatsa siwo ŋu wokpɔ ta na bliboe me nɔa nya ɣaɣlawo me — le futɔ si gblẽ nu le dɔwɔƒea ŋu gɔ̃ hã ŋu.
+**Bubu be server la ate ŋu axle wò gaɖoɖowo**. Mate ŋu o. Wò safuiwo nɔa wò mɔ̃ dzi, eye asixɔxɔwo kple nya kpuiawo si le ɣaɣla gaɖoɖowo blibo me la gale ɣaɣlaŋlɔŋlɔ me — le futɔ si ɖo server la ɖe asi me hã.
 
-**Xexlẽ "shielded" abe "anonymous connection"**. Asitsatsa siwo wotsɔ akpoxɔnu wɔe la kpɔa nusi yia edzi le blockchain la dzi ta. Wò IP adrɛs kple ɣeyiɣi si me nàwɔ wò dɔa nye ƒuƒoƒo si to vovo, eye ƒuƒoƒo ma tututue dɔwɔƒea kpɔna.
+**Xexlẽ "shielded" be enye "anonymous connection"**. Ɣaɣla gaɖoɖowo ɣlãa nu si le blockchain dzi. Wò IP address kple wò dɔwɔwɔ ƒe gaƒoƒo nye layer bubu, eye layer ma pɛpɛe nye nu si server la kpɔa.
 
-**Ne míetsɔe be Tor ɖe trace ɖesiaɖe ɖa**. Tor ɣlaa wò IP ɖe server la, gake metrɔa nusi server la srɔ̃na tso biabia siwo nèwɔ me o, eye wòtsɔa latency kpena ɖe syncing ŋu.
+**Bu be Tor ɖea dzesi siawo katã ɖa**. Tor ɣlãa wò IP tso server la gbɔ, ke metrɔa nu si server la srɔ̃a tso biabia siwo nèwɔ la ŋu o, eye ekplɔa ɣeyiɣi didi ɖe syncing ŋu.
 
-**Kakaɖedzi na server ƒe xexlẽdzesi le wiki ƒe axa dzi**. Dɔdzikpɔlawo vaa afima eye wodzona. Le ŋku ɖe eŋu [hosh.zec.rocks](https://hosh.zec.rocks/zec) na nusi le du dzi ŋutɔŋutɔ hafi nàfia asi wò gakotokua ɖe naneke ŋu.
+**Kakaɖe asi ɖe server list si le wiki axa dzi**. Dɔwɔlawo vaa eye woyia. Kpɔ [hosh.zec.rocks](https://hosh.zec.rocks/zec) be nànya nu si le dɔ wɔm nyateƒe hafi nàɖo wò gakotoku ɖe naneke ŋu.
 
-## Totoɖeme
+## Nuxexlẽ Ƒe Tata
 
-Gakotoku siwo me kɔ naa ta si wotsɔ akpoxɔnu wɔe si me disk ƒe teƒe mele o la wò, si nye asitsatsa nyui aɖe. Ðeko nàgblɔ nusi nèle asitsadɔ wɔm la eme nakɔ. Server la mate ŋu axɔ wò ga alo axlẽ wò ga home siwo wokpɔ ta na o, gake ele teƒe nyui aɖe be wòakpɔ wò IP adrɛs kple ɣeyiɣi si nèle asitsadɔ wɔm. Mɔ to Tor dzi, eɖoe koŋ tia wò dɔwɔla, alo nàƒu du na wò ŋutɔ tɔ.
+Light wallets naa wò ɣaɣla gaƒuƒoƒo la mehiã disk ƒe teƒe geɖe o, eye esia nye trade nyui. Ke nànya nyuie nu si nèle trɔm. Server la mate ŋu axɔ wò ga alo axle wò ɣaɣla asixɔxɔwo o, ke enɔ teƒe nyui me be wòakpɔ wò IP address kple ɣeyiɣi si nèwɔ gaɖoɖo. To kadodo ɖe Tor dzi, tia wò dɔwɔla kple susu, alo nàwɔ tɔwò ŋutɔ.
 
-## Axa Siwo Do Ƒome Kplii
+## Axawo Si Kplɔe ɖo
 
-- [Amekae Ate Ŋu Akpɔ Wò Zcash Fexexe](/start-here/who-can-see-your-zcash-payment) — gɔmedzelawo ƒe nukpɔsusu le biabia ma ke ŋu.
-- [Nusi Block Explorer Ate Ŋu Akpɔ](/zcash-tech/what-a-block-explorer-can-see) — nusi wokpɔna le kɔsɔkɔsɔ me, si to vovo na le server la dzi.
-- [Zaino](/zcash-tech/zaino) — xɔtuɖaŋu ƒe nɔnɔmetatawo kple akpa si Rust indexer wɔna si keke ta wu.
-- [Zebra ƒe Node Bliboe](/zcash-tech/zebra-full-node) — validator si kekeli gakotoku server xlẽna tso.
-- [Zcash Gakotoku ƒe Ðoɖowɔwɔ](/zcash-tech/zcash-wallet-syncing) — alesi wò gakotokua wɔa dɔ tso compact blocks siwo server ɖona ɖa ŋu.
+- [Ame Kae Ate Ŋu Akpɔ Wò Zcash Fexexe](/start-here/who-can-see-your-zcash-payment) — nukpɔkpɔ ƒe gɔmedzedze le biabia ma ke ŋu.
+- [Nu Si Block Explorer Ate Ŋu Akpɔ](/zcash-tech/what-a-block-explorer-can-see) — nu si doa ŋku le ɖoɖonu dzi, to vovo na nu si doa ŋku le server la gbɔ.
+- [Zaino](/zcash-tech/zaino) — architecture diagrams kple Rust indexer la ƒe dɔ didi.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator si light wallet server xlẽa tsoe gbɔ.
+- [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — ale si wò gakotoku wɔa compact blocks si server la ɖoa ɖe asi.
 
-**Wowɔ yeyee zi mamlɛtɔ:** August 2026
+**Wotrɔe nyateƒe:** August 2026

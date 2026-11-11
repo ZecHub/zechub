@@ -17,32 +17,32 @@ O whitepaper original do CryptoNote foi publicado sob o pseudônimo **"Nicolas v
 
 ---
 
-## Principais Funcionalidades do CryptoNote
+## Principais funcionalidades do CryptoNote
 
-O Protocolo CryptoNote oferece três funcionalidades principais:
+O protocolo CryptoNote oferece três funcionalidades principais:
 
-1. **Não rastreabilidade e não vinculação** das transações
-2. **Prova de Trabalho igualitária** (resistente a ASIC) 
+1. **Não rastreabilidade e não vinculabilidade** das transações
+2. **Prova de trabalho igualitária** (resistente a ASIC) 
 3. **Emissão dinâmica**
 
 ---
 
-## 1. Não rastreabilidade - Assinaturas em Anel
+## 1. Não rastreabilidade - Assinaturas em anel
 
-A não rastreabilidade é alcançada principalmente com o uso de **Assinaturas em Anel**.
+A não rastreabilidade é alcançada principalmente com o uso de **Assinaturas em anel**.
 
 Ao enviar uma transação, sua chave pública real é misturada com várias chaves isca (o "anel") - todas contendo a mesma quantidade de moedas. Isso torna extremamente difícil determinar quem realmente enviou as moedas.
 
 O **tamanho do anel** afeta significativamente o conjunto de anonimato. Anéis maiores proporcionam melhor privacidade.
 
-![Explicação das Assinaturas em Anel](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
+![Explicação das assinaturas em anel](/content-images/FrXteGHXgAANE0F-f11593a0d9.webp)
 
-**Comparação com Zcash**:  
+**Comparação com o Zcash**:  
 O conjunto de anonimato do Zcash é o número total de transações *já feitas* em um determinado pool blindado (muito maior do que os tamanhos típicos de anel do CryptoNote).
 
 ---
 
-## Ring CT (Transações Confidenciais)
+## Ring CT (Transações confidenciais)
 
 O modelo **Ring CT** melhorou muito a privacidade nas moedas baseadas em CryptoNote.
 
@@ -51,19 +51,19 @@ Em vez de esconder apenas o remetente, o Ring CT também **ofusca os valores das
 ![Diagrama do Ring CT](/content-images/FrXuivgWYAAze7B-260071c1b3.webp)
 
 Ele usa:
-- Criptografia de Curva Elíptica
+- Criptografia de curva elíptica
 - Compromissos de Pedersen
-- Criptografia Homomórfica
+- Criptografia homomórfica
 
 **Provas** são usadas para mostrar que o valor é maior que 0 e está dentro de intervalos válidos **sem revelar os valores reais**.
 
 **Endereços furtivos** também adicionam endereços de uso único para o destinatário.
 
-![Endereços furtivos + Provas](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
+![Endereços furtivos + provas](/content-images/FrXut5aWAAMhuRb-f3ce8ea3fd.webp)
 
 ---
 
-## 2. Prova de Trabalho igualitária (ePoW)
+## 2. Prova de trabalho igualitária (ePoW)
 
 O CryptoNote busca criar um sistema de mineração mais justo ao ser resistente a ASICs.
 
@@ -88,7 +88,7 @@ Isso cria uma curva de emissão muito mais suave ao longo do tempo.
 
 ![Curva de emissão dinâmica](/content-images/FrXv8wpXoAEjUxW-e2bbaebced.webp)
 
-**Conexão com Zcash**:  
+**Conexão com o Zcash**:  
 Desenvolvedores do Zcash discutiram implementar uma curva de emissão mais suave no futuro, potencialmente por meio de um "Zcash Posterity Fund".
 
 ---

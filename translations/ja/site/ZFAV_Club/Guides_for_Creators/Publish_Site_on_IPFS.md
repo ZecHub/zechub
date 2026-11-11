@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# IPFS 上でサイトを公開する
+# IPFSでサイトを公開する
 
 <a href="">
     <img src="/content-images/IPFS-40c2e22732.webp" alt="" width="800" height="400"/>
@@ -10,45 +10,46 @@
 
 
 
-## IPFS とは
+## IPFSの概要
 
-IPFS（InterPlanetary File System）は、ファイルの保存と共有を分散化する方法を実現するために設計されたピアツーピアプロトコルおよびネットワークです。
+IPFS（InterPlanetary File System）は、ファイルを保存・共有するための分散型の方法を構築するよう設計されたピアツーピア（peer-to-peer）プロトコルおよびネットワークです。
 
-インターネットの伝統的なクライアント-サーバー型モデルとは異なり、IPFS ではユーザーがファイルを直接お互いに共有できるようになり、中央集権的なサーバーに依存してコンテンツを保存・配布する必要がありません。
+従来のインターネットにおけるクライアント・サーバーモデルとは異なり、IPFSではコンテンツの保存・配信を中央集権型サーバーに依存せず、ユーザー同士が直接ファイルを共有できます。
 
-IPFS のファイルは *コンテンツアドレッシング* を使用して参照されます。これは、各ファイルがその内容に基づいて一意のハッシュまたは CONTENT IDENTIFIER（CID）が割り当てられ、このハッシュがネットワークからファイルを取得するために使用されることを意味します。
+IPFS内のファイルは、コンテンツアドレッシング（content-addressing）を使用してアドレス指定されます。つまり、各ファイルにはその内容に基づく一意のハッシュまたはコンテンツ識別子（CONTENT IDENTIFIER、CID）が付与され、このハッシュを使用してネットワークからファイルを取得します。
 
-ユーザーがファイルを IPFS に追加すると、ファイルはブロックと呼ばれる小さなピースに分割され、各ブロックには CID が割り当てられます。これらのブロックはネットワーク上のさまざまなノードに保存されるため、ファイルは複数のソースから簡単に取得できます。
+ユーザーがIPFSにファイルを追加すると、そのファイルはブロック（blocks）と呼ばれる小さな断片に分割され、各ブロックにCIDが付与されます。これらのブロックはネットワーク内の異なるノードに保存されるため、複数のソースからファイルを簡単に取得できます。
 
-これにより冗長性と障害耐性が確保され、またどのノードも単一の故障点や制御ポイントになることが難しくなります。
+これにより冗長性と耐障害性が確保されると同時に、1つのノードが単一障害点または制御点になることを困難にします。
 
-**読む: [IPFS とは](https://blog.infura.io/post/an-introduction-to-ipfs)**
+**読む: [IPFSの概要](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
-## サイトの作成
+## サイトを作成する
 
 この例では、シンプルなウェブサイトを作成します。
 
-[サンプルサイト](https://squirrel.surf/)
+[サイトの例](https://squirrel.surf/)
 
-**ステップ1:** ネットワーク設計に不慣れな場合は、ウェブサイトの主なコンテンツを記述してください。タイトル、本文、他のページやサイトへのリンク、フッターなどを含めてください。
+**ステップ1:** ウェブデザインに不慣れな場合は、タイトル、本文、他のページ／サイトへのリンク、フッターを含むウェブサイトの主要コンテンツを作成します。
 
-**ステップ2:** [HTMLテンプレート](https://nicepage.com/html-templates)を使用して、作成したテキストを貼り付けます。ウェブサイトのスタイルシート（.CSS）を作成することもオプションです。
+**ステップ2:** [HTMLテンプレート!](https://nicepage.com/html-templates)を使用し、作成したテキストを適切に貼り付けます。必要に応じて、ウェブサイト用の.CSSスタイルシートも作成します。
 
-**ステップ3:** ディレクトリを保存します。すべての .html ページと画像は同じフォルダーに配置する必要があります。
+**ステップ3:** ディレクトリを保存します。すべての.htmlページと画像は同じフォルダー内に置く必要があります。
 
-## ノードの設定
+## ノードを設定する
 
-[公式サイト](https://docs.ipfs.tech/install/ipfs-desktop/)から IPFS をダウンロードしてインストールしてください。
+[公式ウェブサイト](https://docs.ipfs.tech/install/ipfs-desktop/)からIPFSをダウンロードしてインストールします。
 
-### IPFS の初期化:
+### IPFSを初期化する:
 
-デスクトップアプリを使用している場合は、初期化を実行する必要はありません。
+デスクトップアプリケーションを使用している場合、初期化は必要ありません。
 
-ターミナルまたはコマンドプロンプトを開き、以下のコマンドを実行します: ipfs init
+ターミナルまたはコマンドプロンプトで、次のコマンドを実行します: ipfs init
 
-### **サイトフォルダーを IPFS に追加**:
+### **サイトフォルダーをIPFSに追加する**:
 
-ウェブサイトのファイルが含まれるフォルダーを選択し、「Add Folder（フォルダーを追加）」オプションに移動してください。
+ウェブサイトのファイルが入ったフォルダーを選択し、「フォルダーを追加」オプションに移動します。
+
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -56,70 +57,75 @@ IPFS のファイルは *コンテンツアドレッシング* を使用して�
 
 –
 
-ターミナルを使用している場合は、以下のコマンドを実行します: ipfs add -r folder_name でフォルダーを再帰的に IPFS に追加します。
+ターミナルを使用する場合は、次のコマンドを実行します: ipfs add -r folder_name。これにより、フォルダー全体が再帰的にIPFSへ追加されます。
 
-### IPFS 上でサイトをピン留めする:
+### IPFSにサイトをピン留めする:
 
-ウェブサイトのファイルが IPFS に追加された後、それらをネットワーク上に残すために **ピン留め** する必要があります。
-
-–
-
-ターミナルを使用している場合は、以下のコマンドを実行します: ipfs pin add **hash**
-
-**hash** = 前のステップで追加したフォルダーの CID
-
-または、[Pinata](https://pinata.cloud/) や [Dolpin](https://dolpin.io/) のようなサービスを使用してディレクトリをピン留めすることもできます。
-
-これは非常に時間を節約します！
+ウェブサイトのファイルをIPFSに追加したら、ネットワーク上で利用可能な状態を維持するために、それらを**ピン留め**する必要があります。
 
 –
 
-### IPFS 上でウェブサイトにアクセスする:
+ターミナルを使用する場合は、次のコマンドを実行します: If using Terminal, Run command: ipfs pin add **hash**
 
-ウェブサイトは今や IPFS 上に公開されており、フォルダーのハッシュを使用してアクセスできます。ウェブサイトにアクセスするには https://ipfs.io/ipfs/**hash** にアクセスしてください。
+**hash** = 前のステップで追加したフォルダーのCIDです。
 
-**hash** = フォルダーの CID
+また、[Pinata](https://pinata.cloud/)や[Dolpin](https://dolpin.io/)などのサービスを使用して、ディレクトリをピン留めすることもできます。
 
-この場合、CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
+大幅に時間を節約できます！
+
+–
+
+### IPFS上でウェブサイトにアクセスする:
+
+ウェブサイトはIPFS上に公開され、フォルダーのハッシュを使用してアクセスできます。ウェブサイトにアクセスするには、https://ipfs.io/ipfs/**hash**にアクセスします。
+
+**hash** = フォルダーのCIDです。
+
+この例では、CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3 です。
 
 ## IPNS
 
-Interplanetary Naming System（IPNS）は、ウェブサイトに関連する IPFS CID を更新しながらも静的なリンクを提供できるようにするキーです。
+Interplanetary Naming System（IPNS）を使用すると、ウェブサイトに関連付けられたIPFS CIDを更新しても、固定リンクを提供し続けることができます。これはキーとして提供されます。
+
 
 <a href="">
     <img src="/content-images/dns-query.a0134a75-9ef7817f80.webp" alt="" width="400" height="100"/>
 </a>
 
-IPFS デスクトップアプリケーションのサイトフォルダー設定メニューで、**Publish to IPNS（IPNS に公開）** を選択してください。
+
+IPFSデスクトップアプリケーションでサイトフォルダーの設定メニューを開き、「IPNSに公開」を選択します。
 
 <a href="">
     <img src="/content-images/IPNS-2fe62cc369.webp" alt="" width="400" height="200"/>
 </a>
 
-キー: “k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n”
 
-また、このキーを使用してサイトをゲートウェイ経由で表示することもできます: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
+キー: 「k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n」
 
-## DNS リンク
+ゲートウェイ経由でサイトを表示するためにも使用できます: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
 
-サイトは作成されました。今度は、URL をコンテンツにポイントする方法が必要です。
+## DNSリンク
 
-すでにウェブアドレスを所有している場合は、TXTレコード _dnslink(your domain) を追加して新しいレコードを設定できます。プロバイダーによって自動で埋まる場合もあります。
+サイトは作成できたので、次はURLをコンテンツへ向ける方法が必要です。
+
+すでにウェブアドレスを所有している場合は、TXTレコード _dnslink(ドメイン) を使用して新しいレコードを追加できます。プロバイダーによっては自動入力される場合があります。
+
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
-ネットワークを通じて変更が反映されるまで時間がかかるため、それを確認するには少し時間がかかります。
 
-*おめでとうございます！今やあなたは検閲に耐えるウェブサイトを持っています。*
+表示できるようになるまで、ネットワーク全体に伝播する時間がかかります。
+
+*おめでとうございます！これで検閲耐性のあるウェブサイトが完成しました。*
 
 ____
 
 **リソース**
 
-[IPFS ドキュメンテーション](https://docs.ipfs.tech/)
+[IPFSドキュメント](https://docs.ipfs.tech/)
 
-[IPNS ドキュメンテーション](https://docs.ipfs.tech/concepts/ipns/)
+[IPNSドキュメント](https://docs.ipfs.tech/concepts/ipns/)
 
-[DNS リンクドキュメント](https://dnslink.io/#introduction)
+[DNSリンクのドキュメント](https://dnslink.io/#introduction)

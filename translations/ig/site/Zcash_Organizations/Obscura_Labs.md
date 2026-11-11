@@ -1,212 +1,212 @@
 # Obscura Labs
 <img width="369" height="434" alt="obscuralabs" src="/content-images/5fda3e74-750c-487e-92e9-3cacc15f9b4b-b41e98d3e5.webp" />
 
-[Gaa na ebe nrụọrụ weebụ](https://www.obscuralabs.org/)
+[Gaa na weebụsaịtị](https://www.obscuralabs.org/)
 
-## Nkwupụta Ozi
+## Nkwupụta Ebumnuche
 
-Obscura Labs bụ ụlọọrụ nọọrọ onwe ya nke edebanyere aha na Naịjirịa ma tinye uche n'Africa na ahịa ndị ọzọ na-apụta.
+Obscura Labs bụ otu nọọrọ onwe ya edebanyere aha na Nigeria, nke lekwasịrị anya n'ụzọ atụmatụ na Africa na ahịa ndị ọzọ na-apụta.
 
-Ebumnuche ya bụ iwulite akụrụngwa, ngwa ọrụ, na ụzọ nnabata ndị bara uru nke na-eme ka nnweta, ịba uru, mwepu, na ogologo oge nke usoro okike Zcash gafee Africa.
+Ebumnuche ya bụ iwulite akụrụngwa, ngwá ọrụ [tools], na ụzọ bara uru nke ikwado nnabata, nke na-eme ka ịnweta, uru, decentralized [decentralization], na iguzogide ogologo oge nke usoro gburugburu Zcash kawanye mma n'ofe Africa.
 
-The organization aims to support the use of privacy-preserving financial technology by improving access to reliable infrastructure, supporting developers and businesses, educating users, and strengthening local Zcash communities.
+Otu a na-achọ ịkwado iji teknụzụ ego na-echekwa Nzuzo [privacy] site n'ime ka ịnweta akụrụngwa a pụrụ ịdabere na ya kawanye mma, ịkwado ndị mmepụta [developers] na azụmahịa, ịkụziri ndị ọrụ ihe, na ime ka obodo Zcash dị n'ógbè ahụ sie ike.
 
-## Ihe Ndị E Merela
+## Ndabere
 
-Obscura Labs bụ Chidi Olisa, onye isi nke Zcash Nigeria guzobere ya.
+Obscura Labs bụ Chidi Olisa hiwere, onye ndu Zcash Nigeria.
 
-Before establishing Obscura Labs, Chidi contributed to the Zcash ecosystem through community building, education, advocacy, localized content creation, user support, and initiatives designed to introduce people in Nigeria and other parts of Africa to financial privacy and Zcash.
+Tupu o hiwe Obscura Labs, Chidi nyere aka na usoro gburugburu Zcash site n'iwulite obodo, agụmakwụkwọ, nkwado, imepụta ọdịnaya dabara n'ógbè, ịkwado ndị ọrụ, na atụmatụ e mere iji webata ndị nọ na Nigeria na akụkụ ndị ọzọ nke Africa na Nzuzo ego na Zcash.
 
-Engagement with users, students, developers, businesses, and community members highlighted several barriers to broader Zcash adoption across Africa. These included limited infrastructure, difficulty accessing ZEC through local currencies, insufficient developer support, a shortage of localized educational resources, and limited integration with everyday payment systems.
+Mmekọrịta ya na ndị ọrụ, ụmụ akwụkwọ, ndị mmepụta, azụmahịa, na ndị otu obodo mere ka a mata ọtụtụ ihe mgbochi nye nnabata Zcash sara mbara n'ofe Africa. Ndị a gụnyere akụrụngwa pere mpe, ihe isi ike n'inweta ZEC site na ego obodo, nkwado ezughị ezu maka ndị mmepụta, ụkọ ihe mmụta edoziri maka ógbè, na njikọta pere mpe na usoro Kwụọ ụhwọ [payment] a na-eji kwa ụbọchị.
 
-E kere Obscura Labs na nzaghachi nye ihe ịma aka ndị a.
+E kere Obscura Labs iji zaghachi ihe ịma aka ndị a.
 
-The organization is based on the view that awareness alone is not sufficient for sustainable adoption. Communities also require reliable infrastructure, accessible products, developer tools, financial access, education, and long-term institutional support.
+Otu a dabere n'echiche na ịmara ihe naanị ya ezughị maka nnabata na-adịgide adịgide. Obodo chọkwara akụrụngwa a pụrụ ịdabere na ya, ngwaahịa dị mfe ịnweta, ngwá ọrụ onye mmepụta, ohere ego, agụmakwụkwọ, na nkwado ụlọ ọrụ ogologo oge.
 
 ## Ọhụụ
 
-Ọhụụ Obscura Labs bụ inye aka mee ka Africa bụrụ otu n'ime mpaghara kachasị ike maka akụrụngwa Zcash, nnabata, na uto usoro okike.
+Ọhụụ Obscura Labs bụ inyere Africa aka ịbụ otu n'ime mpaghara kachasị ike maka akụrụngwa Zcash, nnabata, na uto nke usoro gburugburu.
 
-The organization aspires to become a leading African contributor to the Zcash ecosystem by:
+Otu a na-achọ ịghọ onye na-enye aka n'Africa nke ndu na usoro gburugburu Zcash site na:
 
-* Na-arụ ọrụ nke ọma Zcash akụrụngwa.
-* Imeziwanye ohere ịbanye na ZEC na ịkwụ ụgwọ nzuzo.
-* Nkwado ndị ọrụ, ndị mmepe, azụmaahịa, na òtù obodo.
-* Ịmepụta ngwá ọrụ na ọrụ ndị bara uru.
-* Na-agba ume mmepe nke obodo Zcash na-adịgide adịgide.
-* Ịbawanye ọdịiche dị iche iche nke akụrụngwa Zcash na isonye na usoro okike.
+* Ịrụ akụrụngwa Zcash a pụrụ ịdabere na ya.
+* Ime ka ịnweta ZEC na Kwụọ ụhwọ na-echekwa Nzuzo kawanye mma.
+* Ịkwado ndị ọrụ, ndị mmepụta, azụmahịa, na òtù obodo.
+* Iwulite ngwá ọrụ na ọrụ bara uru.
+* Ịgba ume mmepe nke obodo Zcash na-adịgide adịgide.
+* Ịbawanye ụdị dịgasị iche iche nke mpaghara ala nke akụrụngwa Zcash na ikere òkè n'usoro gburugburu.
 
-## Mpaghara Ndị Dị Mkpa
+## Mpaghara Atụmatụ
 
-Obscura Labs na-eme atụmatụ ibido ilekwasị anya n'ọrụ ya n'akụkụ anọ dị mkpa.
+Obscura Labs na-eme atụmatụ ilekwasị ọrụ ya anya na mpaghara atụmatụ anọ na mbụ.
 
-### Mmepe akụrụngwa
+### Mmepe Akụrụngwa
 
-Ihe owuwu a pụrụ ịdabere na ya dị mkpa maka wallets, ngwa, ndị mmepe, mgbanwe, ọrụ ịkwụ ụgwọ, na ndị ọrụ iji soro netwọk Zcash na-emekọrịta ihe.
+Akụrụngwa a pụrụ ịdabere na ya dị mkpa ka e-akpa ego [wallets], ngwa, ndị mmepụta, exchange, ọrụ Kwụọ ụhwọ, na ndị ọrụ nwee ike iso netwọk Zcash emekọrịta.
 
-Obscura Labs operates and develops Zcash infrastructure within Africa to improve network accessibility, geographic diversity, reliability, and resilience. This work is intended to reduce reliance on a small number of infrastructure operators and provide dependable services for users and developers in African markets.
+Obscura Labs na-arụ ma na-emepụta akụrụngwa Zcash n'ime Africa iji mee ka ịnweta netwọk, ụdị dịgasị iche iche nke mpaghara ala, ntụkwasị obi, na ike iguzogide kawanye mma. E bu n'uche na ọrụ a ga-ebelata ịdabere n'ọnụ ọgụgụ ole na ole nke ndị na-arụ akụrụngwa ma nye ndị ọrụ na ndị mmepụta nọ n'ahịa Africa ọrụ a pụrụ ịdabere na ya.
 
-Ihe owuwu akụrụngwa nwere ike ịgụnye:
+Atụmatụ akụrụngwa nwere ike ịgụnye:
 
-* Zcash ọha na eze mainnet RPC njedebe.
-* Zcash testnet ọha na eze RPC njedebe.
-* Zebra zuru ọnụ.
+* Ebe njedebe RPC mainnet ọha nke Zcash.
+* Ebe njedebe RPC testnet ọha nke Zcash.
+* full node Zebra.
 * Ọrụ lightwalletd.
 * Ndị na-akụ mkpụrụ DNS.
-* Nlekọta nke akụrụngwa ọha.
-* API ndị na-elekwasị anya na ndị mmepe.
-* Ngwá ọrụ na akwụkwọ ntinye.
-* Ọrụ ndị ọzọ na-ebelata ihe mgbochi iji wuo na Zcash.
+* Nlekọta akụrụngwa ọha.
+* API ndị lekwasịrị anya na onye mmepụta.
+* Ngwá ọrụ njikọta na akwụkwọ.
+* Ọrụ ndị ọzọ na-ebelata ihe mgbochi n'iwulite na Zcash.
 
-By making infrastructure more accessible, Obscura Labs aims to support developers, wallets, applications, businesses, and services integrating with the Zcash ecosystem.
+Site n'ime ka akụrụngwa dị mfe ịnweta, Obscura Labs chọrọ ịkwado ndị mmepụta, e-akpa ego, ngwa, azụmahịa, na ọrụ ndị na-ejikọta na usoro gburugburu Zcash.
 
-### Nkuchi na Inweta Ego
+### Nnabata na Ịnweta Ego
 
-Maka Zcash ka ọ baa uru na ọnọdụ kwa ụbọchị, ndị mmadụ ga-enwerịrị ike inweta, chekwaa, jiri, ma gbanwee ZEC na enweghị esemokwu na-enweghị isi.
+Ka Zcash wee baa uru n'ọnọdụ kwa ụbọchị, ndị mmadụ ga-enwe ike inweta, chekwaa, jiri, ma gbanwee ZEC n'enweghị esemokwu na-enweghị isi.
 
-Obscura Labs na-akwado atụmatụ ndị e mere iji meziwanye:
+Obscura Labs na-akwado atụmatụ e bu n'uche ime ka ihe ndị a kawanye mma:
 
-* Nweta n'etiti ZEC na ego mpaghara Afrịka.
-* Fiat na-arịgo ma na-apụ.
-* Ịzụ ahịa azụmaahịa.
-* Mmekọrịta ịkwụ ụgwọ.
-* Ịkwụ ụgwọ gafere ókèala.
-* Onye ọrụ na-abanye.
-* Ịnweta obere akpa ego.
-* Iji ZEC eme ihe site n'aka ndị mmadụ na ụlọ ọrụ.
+* Ịnweta n'etiti ZEC na ego obodo Africa.
+* Ụzọ ịbanye na ịpụ na ego fiat.
+* Nnabata nke ndị ahịa.
+* Njikọta Kwụọ ụhwọ.
+* Kwụọ ụhwọ gafere ókèala.
+* Ịnabata ndị ọrụ.
+* Ịnweta e-akpa ego.
+* Ojiji bara uru nke ZEC site n'aka ndị mmadụ n'otu n'otu na azụmahịa.
 
-Particular attention is given to services that address challenges commonly experienced in African markets, including currency instability, financial exclusion, expensive cross-border transfers, limited access to global payment systems, and increasing financial surveillance.
+A na-elekọta ọrụ ndị na-edozi nsogbu a na-ahụkarị n'ahịa Africa nke ọma, gụnyere enweghị nkwụsi ike ego, mwepu ego, nnyefe gafere ókèala dị ọnụ, ịnweta usoro Kwụọ ụhwọ zuru ụwa ọnụ pere mpe, na nlekota ego na-arị elu.
 
-### Ọganihu na Ịma Ọkwa nke Obodo
+### Uto Obodo na Mmata
 
-Obscura Labs na-akwado mmepe nke obodo Zcash na-adịgide adịgide n'ofe Africa.
+Obscura Labs na-akwado mmepe obodo Zcash na-adịgide adịgide n'ofe Africa.
 
-Mmemme obodo ya nwere ike ịgụnye:
+Atụmatụ obodo ya nwere ike ịgụnye:
 
-* Ụlọ ọrụ nkuzi.
-* Mgbasa ozi mahadum.
+* Ọmụmụ ihe nkuzi.
+* Ịga mahadum.
 * Ihe omume obodo.
-* Ọdịnaya dị na mpaghara.
-* Nsụgharị.
-* Ọzụzụ ndị mmepe.
-* Onye ọrụ na-abanye.
-* Mmekọrịta gburugburu ebe obibi.
-* Mmemme mmepe ndị na-enye onyinye.
-* Nkwado maka mpaghara Zcash obodo.
+* Ọdịnaya edoziri maka ógbè.
+* Ntughari.
+* Ọzụzụ ndị mmepụta.
+* Ịnabata ndị ọrụ.
+* Mmekọrịta usoro gburugburu.
+* Mmemme mmepe ndị na-enye aka.
+* Nkwado maka obodo Zcash mpaghara.
 
-The organizations objective is not limited to increasing general awareness. It also seeks to help communities develop the knowledge and resources needed to educate users, support local adoption, train developers, and produce future advocates and ecosystem contributors.
+Ebumnuche otu a abụghị naanị ịbawanye mmata n'ozuzu. Ọ na-achọkwa inyere obodo aka iwulite ihe ọmụma na akụrụngwa dị mkpa iji kụziere ndị ọrụ ihe, kwado nnabata mpaghara, zụọ ndị mmepụta, ma mepụta ndị nkwado n'ọdịnihu na ndị na-enye aka n'usoro gburugburu.
 
-### Imekọ Ihe Ọnụ n'Ihe Gbasara Ecosystem
+### Mmekọrịta Usoro Gburugburu
 
-Obscura Labs works with organizations, developers, educators, researchers, businesses, infrastructure operators, and community leaders throughout the Zcash ecosystem.
+Obscura Labs na-arụkọ ọrụ na òtù, ndị mmepụta, ndị nkụzi, ndị nyocha, azụmahịa, ndị na-arụ akụrụngwa, na ndị ndu obodo n'ofe usoro gburugburu Zcash.
 
-Ebumnuche nke imekọ ihe ọnụ a bụ ịkwado atụmatụ ndị:
+E bu n'uche na mmekorita a ga-akwado atụmatụ ndị:
 
-* Nkwado nzuzo ego.
-* Mee ka netwọkụ Zcash sie ike.
-* Meziwanye ojiji nke ZEC.
-* Gbasaa ohere maka akụrụngwa Zcash.
-* Na-agba ume mmepe nke mepere emepe.
-* Kwado obodo Zcash na-apụta.
-* Increase ecosystem participation from Africa and other emerging markets.
+* Na-akwalite Nzuzo ego.
+* Na-eme ka netwọk Zcash sie ike.
+* Na-eme ka ojiji ZEC dị mfe.
+* Na-agbasa ịnweta akụrụngwa Zcash.
+* Na-agba ume mmepe mepere emepe.
+* Na-akwado obodo Zcash ndị na-apụta.
+* Na-abawanye ikere òkè n'usoro gburugburu sitere na Africa na ahịa ndị ọzọ na-apụta.
 
-Obscura Labs operates independently while working toward shared objectives with other Zcash ecosystem participants.
+Obscura Labs na-arụ ọrụ n'onwe ya ebe ọ na-arụ ọrụ maka ebumnuche ndị ya na ndị ọzọ sonyere n'usoro gburugburu Zcash kesara.
 
-## Mmemme Ndị A Na-eme Ugbu A
+## Atụmatụ Ugbu a
 
-Ọ bụ ezie na Obscura Labs nọ na mmalite nke mmepe, ọtụtụ atụmatụ amalitelarị.
+Ọ bụ ezie na Obscura Labs ka nọ na mmalite mmepe, ọtụtụ atụmatụ amalitela.
 
-### Ihe owuwu nke DNS Seeder Africa
+### Akụrụngwa African DNS Seeder
 
-Obscura Labs na-arụ ọrụ DNS seeder akụrụngwa si Africa.
+Obscura Labs na-arụ akụrụngwa DNS seeder site na Africa.
 
-DNS seeders help new Zcash nodes discover peers when connecting to the network. Increasing the geographic distribution of seeders contributes to the decentralization and resilience of the Zcash peer-to-peer network.
+DNS seeders na-enyere node ọhụrụ Zcash aka ịchọpụta ndị otu ha mgbe ha na-ejikọta na netwọk. Ịbawanye nkesa mpaghara ala nke seeders na-enye aka na decentralized na ike iguzogide nke netwọk onye na onye Zcash.
 
-### Zebra Node Akụrụngwa
+### Akụrụngwa Node Zebra
 
-Nzukọ ahụ na-arụ ọrụ Zebra n'ime Africa.
+Otu a na-arụ node Zebra n'ime Africa.
 
-Zebra bụ mmejuputa nke onwe nke usoro nkwekọrịta Zcash. Infrastructure arụ ọrụ Zebra na-enye aka na nnweta netwọkụ, mmejupụta mmejuputara, yana nkesa mpaghara nke ọnụ Zcash .
+Zebra bụ mmejuputa nọọrọ onwe ya nke ụkpụrụ consensus Zcash. Ịrụ akụrụngwa Zebra na-enye aka n'ịnweta netwọk, ụdị dịgasị iche iche nke mmejuputa, na nkesa mpaghara ala nke node Zcash.
 
 ### Ọrụ lightwalletd
 
-Obscura Labs na-arụ ọrụ lightwalletd akụrụngwa iji kwado njikọ akpa ego Zcash.
+Obscura Labs na-arụ akụrụngwa lightwalletd iji kwado njikọta e-akpa ego Zcash.
 
-lightwalletd provides blockchain data to light-client wallets without requiring each wallet user to operate a complete Zcash node. Reliable lightwalletd services are therefore important for mobile wallets and other lightweight Zcash applications.
+lightwalletd na-enye e-akpa ego light client data blockchain n'emeghị ka onye ọrụ e-akpa ego ọ bụla rụọ node Zcash zuru ezu. Ya mere, ọrụ lightwalletd a pụrụ ịdabere na ya dị mkpa maka e-akpa ego mkpanaaka na ngwa Zcash ndị ọzọ dị fechaa.
 
 ### Nlekọta Akụrụngwa
 
-Obscura Labs na-emepe usoro nlekota na ọnọdụ ọha maka akụrụngwa ya.
+Obscura Labs na-emepụta usoro nlekọta na ọkwa ọha maka akụrụngwa ya.
 
-Usoro ndị a bu n'obi iji melite arụmọrụ nghọta site n'ikwe ka ndị ọrụ na mmepe nyochaa nnweta na ọnọdụ nke ọrụ ọha na eze nwere.
+E bu n'uche na usoro ndị a ga-eme ka nghọta ọrụ kawanye mma site n'ikwe ka ndị ọrụ na ndị mmepụta lelee ịdị na ọkwa nke ọrụ ọha a pụrụ ịnweta.
 
 ### ZecFiat
 
-ZecFiat bụ atụmatụ Obscura Labs lekwasịrị anya n'ịkwalite nnweta n'etiti ZEC na ego mpaghara Afrịka.
+ZecFiat bụ atụmatụ Obscura Labs lekwasịrị anya n'ime ka ịnweta n'etiti ZEC na ego obodo Africa kawanye mma.
 
-Ebumnuche a bụ iji belata ihe mgbochi maka ndị mmadụ na azụmaahịa na-achọ inweta, jiri, ma ọ bụ gbanwere ZEC. Ebumnobi ya sara mbara bụ ime ka Zcash dịkwuo irè n'ime ahịa ebe enwere ike ịnweta ọrụ cryptocurrency na usoro ego mba ụwa.
+E bu n'uche na ọrụ a ga-ebelata ihe mgbochi nye ndị mmadụ n'otu n'otu na azụmahịa chọrọ inweta, iji, ma ọ bụ gbanwee ZEC. Ebumnuche ya sara mbara bụ ime ka Zcash baa uru karịa n'ime ahịa ebe ịnweta ọrụ cryptocurrency na usoro ego mba ụwa nwere ike ịdị pere mpe.
 
-Further information about ZecFiat’s structure, supported markets, availability, and operating model is expected as the initiative develops.
+A na-atụ anya ozi ndị ọzọ gbasara usoro ZecFiat, ahịa ọ na-akwado, ịdị, na ụdị ọrụ ya ka atụmatụ ahụ na-etolite.
 
-## Òtù Ndị Na-agba Egwuregwu
+## Ndị Otu ahụ
 
-Obscura Labs was founded by Chidi Olisa, who also leads the Zcash Nigeria community and Gentle Fox is an infrastructure engineer and contributor at Obscura Labs, supporting the deployment, maintenance, and reliability of the organization's infrastructure and services.
+Obscura Labs bụ Chidi Olisa hiwere, onye na-edukwa obodo Zcash Nigeria, Gentle Fox bụkwa injinia akụrụngwa na onye na-enye aka na Obscura Labs, na-akwado mbugharị, nlekọta, na ntụkwasị obi nke akụrụngwa na ọrụ otu a.
 
-The organization is currently in its early development stage. As it grows, Obscura Labs intends to establish a small team of part-time contributors with experience in areas including:
+Otu a nọ ugbu a na mmalite mmepe. Ka ọ na-etolite, Obscura Labs chọrọ iguzobe obere otu ndị na-enye aka nwa oge nwere ahụmịhe n'akụkụ gụnyere:
 
 * Ọrụ akụrụngwa.
-* Software na mmepe ngwaahịa.
+* Mmepe sọftụwia na ngwaahịa.
 * Agụmakwụkwọ.
 * Mmepe obodo.
-* Mmekọrịta azụmahịa na ịkwụ ụgwọ.
-* Nkwado gburugburu ebe obibi.
+* Njikọta azụmahịa na Kwụọ ụhwọ.
+* Nkwado usoro gburugburu.
 * Nkwurịta okwu.
-* Ọchịchị na ọrụ nhazi.
+* Gọọmentị [governance] na ọrụ nhazi.
 
-Obscura Labs is also engaging experienced professionals, industry experts, and Zcash ecosystem contributors who may provide strategic guidance or serve as advisors and board members.
+Obscura Labs na ndị ọkachamara nwere ahụmịhe, ndị ọkachamara ụlọ ọrụ, na ndị na-enye aka n'usoro gburugburu Zcash na-emekọrịtakwa, ndị nwere ike inye ntụziaka atụmatụ ma ọ bụ jee ozi dịka ndị ndụmọdụ na ndị otu bọọdụ.
 
-## Otú E Si Hazie Ọgbakọ
+## Nhazi Otu
 
-Obscura Labs bụ ụlọ ọrụ nwere onwe ha edebanyere aha na Naijiria.
+Obscura Labs bụ otu nọọrọ onwe ya edebanyere aha na Nigeria.
 
-The organization is being developed with a focus on establishing the governance, expertise, and operational capacity required to support sustainable growth and long-term contributions to the Zcash ecosystem.
+A na-emepụta otu a n'ilekwasị anya n'iguzobe Gọọmentị, nka, na ikike ọrụ dị mkpa iji kwado uto na-adịgide adịgide na onyinye ogologo oge na usoro gburugburu Zcash.
 
-Ọdịdị nhazi ya a na-eme atụmatụ nwere ike ịgụnye:
+Nhazi otu ya e mere atụmatụ nwere ike ịgụnye:
 
-* Onye guzobere ya na onye isi ya.
-* Obere ìgwè na-arụ ọrụ.
-* Part-time technical and community contributors.
-* Kọmitii ma ọ bụ òtù na-achị isi yiri ya.
+* Onye hibere ya na ndu nchịkwa.
+* Obere otu ọrụ.
+* Ndị na-enye aka nka na obodo nwa oge.
+* Bọọdụ ma ọ bụ otu ọchịchị yiri ya.
 * Ndị ndụmọdụ nọọrọ onwe ha.
-* Mmekọrịta na òtù ndị na-ahụ maka gburugburu ebe obibi na ndị obodo.
+* Mmekọrịta na òtù usoro gburugburu na obodo mpaghara.
 
-Enwere ike ibipụta ozi ndị ọzọ gbasara usoro ọchịchị ya, ọnọdụ iwu, ndị otu ụlọ ọrụ, na usoro nhazi ka nzukọ ahụ na-etolite.
+Enwere ike ibipụta ozi ndị ọzọ gbasara nhazi Gọọmentị ya, ọkwa iwu, ndị otu bọọdụ, na atumatu nhazi ka otu a na-etolite.
 
-## Nkwado ego
+## Ego
 
-At launch, Obscura Labs is expected to be funded primarily through:
+Mgbe a malitere, a na-atụ anya na a ga-akwado Obscura Labs ego karịsịa site na:
 
 * Onyinye.
-* Mmekọrịta mmekọrịta.
-* Onyinye ego.
-* Ecosystem-kwekọrọ ekwekọ ego ohere.
-* Nkwado maka akụrụngwa, ngwaahịa, ma ọ bụ atụmatụ obodo.
+* Mmekọrịta atụmatụ.
+* Ikike [grants].
+* Ohere ego dabara na usoro gburugburu.
+* Nkwado maka atụmatụ akụrụngwa, ngwaahịa, ma ọ bụ obodo kpọmkwem.
 
-A ga-eji ego mbido iji kwado ọrụ akụrụngwa, mmepe ngwaahịa, atụmatụ obodo, mmefu nhazi, na mbanye nke ndị na-enye aka.
+A ga-eji ego mbụ kwado ọrụ akụrụngwa, mmepe ngwaahịa, atụmatụ obodo, mmefu nhazi, na ịkpọrọ ndị na-enye aka.
 
-Over time, Obscura Labs intends to develop a sustainable funding model that allows it to consistently deliver measurable value to the Zcash ecosystem while maintaining its independence.
+Ka oge na-aga, Obscura Labs chọrọ ịmepụta ụdị ego na-adịgide adịgide nke na-enye ya ohere ịnye uru a pụrụ ịtụ n'usoro gburugburu Zcash mgbe niile, ebe ọ na-edobe nnwere onwe ya.
 
-## Ọrụ na Zcash Ecosystem
+## Ọrụ na Usoro Gburugburu Zcash
 
-Obscura Labs is part of a growing group of independent organizations contributing to Zcash through infrastructure, software development, education, community support, and adoption initiatives.
+Obscura Labs bụ akụkụ nke otu òtù nọọrọ onwe ha na-eto eto na-enye aka na Zcash site na akụrụngwa, mmepe sọftụwia, agụmakwụkwọ, nkwado obodo, na atụmatụ nnabata.
 
-Its work is intended to increase geographic and organizational diversity within the ecosystem by establishing additional Zcash infrastructure and development capacity in Africa.
+E bu n'uche na ọrụ ya ga-abawanye ụdị dịgasị iche iche nke mpaghara ala na nke nhazi n'ime usoro gburugburu site n'iguzobe akụrụngwa Zcash na ikike mmepe ọzọ n'Africa.
 
-Ọrụ ndị otu ahụ na-enye aka n'ọtụtụ ebumnuche gburugburu ebe obibi:
+Ọrụ otu a na-enye aka n'ọtụtụ ebumnuche sara mbara nke usoro gburugburu:
 
-* Imeziwanye decentralization nke akụrụngwa Zcash.
-* Ịgbasawanye ohere maka ọrụ Zcash na mpaghara ndị na-adịghị arụ ọrụ.
-* Ịkwado mmepe nke nkà na ụzụ mpaghara.
-* Ịgbasawanye ọnụ ọgụgụ nke ndị na-enye onyinye na gburugburu ebe obibi.
-* Imeziwanye ohere maka teknụzụ ego na-echekwa nzuzo.
-* Nkwado ndị ọrụ na azụmaahịa site na iji ZEC eme ihe.
+* Ime ka decentralized nke akụrụngwa Zcash kawanye mma.
+* Ịbawanye ịnweta ọrụ Zcash na mpaghara ndị anaghị enweta ọrụ zuru ezu.
+* Ịkwado mmepe nka na ụzụ mpaghara.
+* Ịgbasa ọnụ ọgụgụ ndị na-enye aka n'usoro gburugburu nọọrọ onwe ha.
+* Ime ka ịnweta teknụzụ ego na-echekwa Nzuzo kawanye mma.
+* Ịkwado nnabata ZEC bara uru site n'aka ndị ọrụ na azụmahịa.

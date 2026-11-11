@@ -6,7 +6,7 @@
 
 Κυκλοφόρησε το 2019 και αυτό το πρωτόκολλο βασίζεται στο Zerocoin. Χρησιμοποιείται στο νόμισμα **Firo** (πρώην Zcoin) για να επιτρέπει ιδιωτικές on-chain συναλλαγές. Μοιάζει με το Zcash από ορισμένες απόψεις, αλλά διαφέρει σημαντικά στις περισσότερες.
 
-![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+![Εισαγωγή στο Lelantus](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
@@ -15,7 +15,7 @@
 - **Zcash** - Βασίζεται στο πρωτόκολλο **Zerocash**  
 - **Firo (Zcoin)** - Βασίζεται στο πρωτόκολλο **Zerocoin**
 
-![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Σύγκριση Zerocash με Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -28,7 +28,7 @@
 - **Sigma** - Σύστημα σταθερών ονομαστικών αξιών
 - **Lelantus 1.0** - Δεν διέθετε σωστές αποδείξεις ασφάλειας
 
-![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Εξέλιξη πρωτοκόλλου](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
@@ -38,7 +38,7 @@
 
 Αυτό δημιούργησε μικρότερα σύνολα ανωνυμίας και άνοιξε τον δρόμο για επιθέσεις χρονισμού μεταξύ των λειτουργιών έκδοσης και εξαργύρωσης (καθώς και για το πρόβλημα των «μολυσμένων ρεστών»).
 
-![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![Ονομαστικές αξίες Sigma](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
@@ -53,7 +53,7 @@
 
 **Περιορισμός**: Το μέγεθος του συνόλου περιορίζεται επί του παρόντος στα **65.000 κέρματα**.
 
-![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
+![Πλεονεκτήματα του Lelantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
@@ -65,7 +65,7 @@
 
 Το coin commitment δημοσιεύεται και αποθηκεύεται στο καθολικό όταν δημιουργείται το κέρμα (μέσω συναλλαγών Mint ή Spend).
 
-![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Διάγραμμα δέσμευσης νομίσματος](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 
@@ -77,7 +77,7 @@
 
 Όπως στο Zcash, οι διαφανείς συναλλαγές πρέπει να επιλέγονται ρητά από εσένα.
 
-![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![Ροή Lelantus](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
@@ -87,7 +87,7 @@
 
 Αυτές οι αποδείξεις χρησιμοποιούνται επίσης στο **Triptych** (που αναφέρεται στο νήμα μας για το CryptoNote).
 
-![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![Αποδείξεις ενός από πολλά](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
@@ -103,7 +103,7 @@
 
 Αυτό καθιστά πολύ δυσκολότερο τον εντοπισμό της προέλευσης μιας συναλλαγής μέσω ανάλυσης δικτύου.
 
-![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
+![Επεξήγηση Dandelion++](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
@@ -117,7 +117,7 @@
 
 Αυτά τα χαρακτηριστικά αντιστοιχούν στα θωρακισμένα περιουσιακά στοιχεία του Zcash.
 
-![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Ανακοίνωση Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
 
 ---
 

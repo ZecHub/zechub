@@ -1,69 +1,69 @@
-# Asitelefon Dzi Top-up Zã Zcash
+# Kaƒomɔ ƒe gaɖoɖo [top up] kple Zcash
 
-Le mɔfiame sia me la, àsrɔ̃ alesi nàƒle yameʋuɖoɖo kple ZEC.
+Le mɔfia sia me la, àsrɔ ale si nàƒle kaƒomɔ ƒe ƒoƒo kple ZEC.
 
-## Wɔ ɖe afɔɖeɖe siawo dzi:
+## Wɔ nu siawo:
 
-### 1. Wɔ akɔntabubu aɖe
-Sasrã [Coinsbee.com ƒe nyatakakadzraɖoƒea](https://www.coinsbee.com/en/shop/mobile-top-ups/) eye nàwɔ akɔntabubu aɖe.
+### 1. Ɖo akɔnt
+Yi [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) eye nàɖo akɔnt.
 
-### 2. Tia wò dukɔ kple wò network
-Yi miame ƒe dzogoe si le etame eye nàtia wò dukɔ; emegbe tia asitelefon ƒe gaxɔgbalẽvi eye nàtia network si nèdi be yeatsɔ akpe ɖe eŋu (le kpɔɖeŋu me: MTN).
+### 2. Tia wò dukɔ kple network
+Yi ɖe axɔ me keke dzi le gome kɔkɔe eye nàtia wò dukɔ; emegbe nàtia kaƒomɔ ƒe kredit eye nàtia network si nèdi be nàwɔ kaƒomɔ ƒe gaɖoɖo na (kpɔɖeŋu: MTN).
 
 ![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
-### 3. Kpe nyatakakawo ɖo tsitotsito eye nàƒlee
-Kpe nyatakaka siwo sɔ la ɖo eye nàzi "Ƒle Fifia" ƒe dzesi dzi. Ʋu kekea be nàkpɔ wò nudɔdɔa, zi yi edzi dzi, eye nàtsɔ $ZEC aɖo kpe nuƒle la dzi.
+### 3. Ɖo nyawo me eye nàƒle nu
+Ɖo nyawo siwo le eteƒe me eye nàzi "Ƒle Fifia" button. Ʋu wò keke me akpa nàkpɔ wò order, zi continue, eye nàɖo fexexe [payment] la kple $ZEC.
 
 ![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
-### 4. Fexexe ŋuti nyatakakawo
-Woana ga home si sɔ le $ZEC me, tsɔ kpe ɖe adrɛs si me kɔ si dzi wòle be woaɖo ga la ɖo ŋu.
+### 4. Fexexe ƒe nyawo
+Woana $ZEC ƒe asime si sɔ kple ga si nàxe, kple nuwo ƒe ʋuʋuɖi [transparent] gaɖoƒe ƒe dzesi [address] si wòana ga la ɖo ɖe.
 
 ![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
-### 5. Ðo ga si nèxe la ɖa
-Kpɔ ga home kple adrɛs la ƒe kɔpi eye nàde eme nyuie. Le nuŋlɔɖiwo ƒe akpaa dzi la, tsɔ wò ŋutɔ wò adrɛs si wokpɔ ta na la kpee nenye be woagbugbɔ ga la ana.
+### 5. Ɖo fexexe la ɖa
+Kɔpi eye nàtsɔ ga si sɔ kple gaɖoƒe ƒe dzesi la ade eme kple dzudzɔ. Le nya kpui [memo] ƒe afi la, de wò ŋutɔ ƒe ɣaɣla [shielded] gaɖoƒe ƒe dzesi eme ne woatrɔ ga ade na wò.
 
 ![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
-### 6. Dɔwɔwɔ tso eŋu
-Ne wonya ɖo ga la ɖa ko la, woawɔ wò biabiaa ŋudɔ le aɖabaƒoƒo ʋɛ aɖewo ko me.
+### 6. Wole wɔwɔm
+Ne woɖo ga la ɖa vɔ la, woawɔ wò biabia le minut aɖewo megbe.
 
 ![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
-### 7. Kpeɖodzinya
-Hey... Nye fli la xɔ kafukafu! Àte ŋu aɖo kpe wò e-mail hã dzi le fexexe ƒe ɖoɖoa me ale be woana nànya to e-mail dzi ne wonya wu asitsatsa la nu ko.
+### 7. Ɖoɖo kpeɖeŋu
+Hey… Wotsɔ kredit de nye kaƒomɔ ƒe xexeme! Àte ŋu aɖo kpe wò email hã le fexexe ƒe mɔnu me ale be ne gaɖoɖo [transaction] la wu la, wòanye email me ƒe nyanya.
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
-## Top-up ƒle akɔnta manɔmee
+## Kaƒomɔ ƒe gaɖoɖo ƒleɖe manɔ akɔnt me o
 
-Mɔnu si le etame bia be nàwɔ Coinsbee ƒe akɔnta. Ne èdi be yemawɔe o la, CardsRelay dzraa asitelefon dzi gadodo na ZEC ŋkɔ ŋɔŋlɔ manɔmee.
+Mɔ si le dzi la hia be nàɖo Coinsbee akɔnt. Ne mèdi be nàwɔe o la, CardsRelay dzra kaƒomɔ ƒe gaɖoɖowo na ZEC manɔ register wɔwɔ o.
 
-### 1. Tia dukɔ si me nèle kple dɔwɔƒe si nèwɔa dɔ le
-Sasrã [CardsRelay](https://cardsrelay.com) eye nàʋu Mobile Top Ups ƒe akpaa. Wodoa alɔ dɔwɔƒe siwo wu 750 le xexeame katã.
+### 1. Tia wò dukɔ kple operator
+Yi [CardsRelay](https://cardsrelay.com) eye nàʋu Mobile Top Ups ƒe akpa la. Operator siwo wu 750 le xexeame katã wɔa dɔ kplee.
 
-### 2. Ŋlɔ xexlẽdzesia kple ga homea
-Kpe asitelefon xexlẽdzesi si woatsɔ axɔe la ɖo eye nàtia asixɔxɔ si woatsɔ akpe ɖe eŋu. Ga home si woɖe fia la nye ga home ɖeka si wotsɔ ƒo ƒui, eye wometsɔ ga si woatsɔ aɖɔli gae ƒe dzeside bubu aɖeke kpee emegbe o.
+### 2. Ɖo xexeme kple ga si nàxe
+Ɖo kaƒomɔ ƒe xexeme si wòatsɔ kredit ade la eye nàtia kaƒomɔ ƒe gaɖoɖo ƒe asime. Ɖe si wofia la nye ga katã si wòaxe ɖeka, eye womegatsɔ gatrɔƒe [exchange] ƒe asime ƒe kpekpeɖeŋu bubu akpe ɖe eme emegbe o.
 
-### 3. Ŋlɔ wò e-mail la ɖe eme
-Ele be woaɖo e-mail adrɛs ale be woate ŋu atsɔ kpeɖodzinya la ayi na ame, eye woɖoa kpe edzi hafi wowɔa nudɔdɔa. Womewɔa akɔnta aɖeke o eye womebiaa amenyenyegbalẽ aɖeke o.
+### 3. Ɖo wò email
+Email ƒe gaɖoƒe ƒe dzesi hia be woate ŋu aɖo kpeɖeŋu la ɖa, eye woyea eƒe nyateƒe kpɔa hafi woatsɔ order la aɖo. Wometsɔ akɔnt aɖe wɔ o eye womabia wò ŋutinya ƒe agbalẽwo o.
 
-### 4. Xe fe kple ZEC
-Tia Zcash le nuƒleƒe. Woxɔa ZEC tẽ tsɔ wu be ame etɔ̃lia natrɔe. Woɖea fexexe ƒe adrɛs kple ga home si tututu woaxe la fiana.
+### 4. Ɖe fexexe kple ZEC
+Tia Zcash le checkout. Woxɔa ZEC tẽ, ke menye be ame bubu aɖe atrɔe o. Wofia fexexe ƒe gaɖoƒe ƒe dzesi kple ga si tututu nàxe.
 
-### 5. Kpeɖodzinya
-Wowɔa dɔ tso ga si wotsɔ kpe ɖe eŋu la ŋu eye woɖoa kpe edzi to e-mail dzi, zi geɖe le sɛkɛnd ʋɛ aɖewo ko me.
+### 5. Ɖoɖo kpeɖeŋu
+Wowɔa kaƒomɔ ƒe gaɖoɖo la eye kpeɖeŋu la va email me, zi geɖe le sekond aɖewo me.
 
-CardsRelay hã dzraa nunana gbalẽviwo na adzɔha siwo ade 2,500, eye woxɔa Monero kple Zano kpe ɖe Zcash ŋu. Payzy ME FZ Ltd ye kpɔa edzi.
+CardsRelay hã dzra nunana ƒe kadawo na ŋkɔ kple dzesi [brand] siwo ƒe xexeme 2,500 kloe, eye woxɔa Monero kple Zano kpe ɖe Zcash ŋu. Payzy ME FZ Ltd nye eƒe dɔwɔƒe.
 
 ---
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
-### Teƒe Bubu Siwo Nàzã ZEC
+### Teƒe Bubuwo Si Nàte Ŋu Atsɔ ZEC Aƒle Nu Le
 
-Nyitsɔ laa la, Zcash kpɔ dɔwɔwɔ ƒe akpa yeye geɖewo teƒe, si wɔe be wògaɖea vi wu na gbesiagbe zazã. Internet dzi fiase kple asitsala geɖe lɔ̃na ɖe ZEC dzi be enye fexexemɔnu na adzɔnuwo kple dɔwɔnawo, vevietɔ esiwo tsɔa asitsatsa siwo me ame ŋutɔ ƒe nyatakakawo mele o ɖoa nɔƒe gbãtɔ. 
+Le nyɛe siawo me la, Zcash kpɔ dɔwɔƒe yeye geɖewo, eye esia wɔe be wòanye nu si wòate ŋu azã le gbe sia gbe ƒe agbe me wu. Nyadzraƒe kple asitsala geɖewo le internet dzi xɔa ZEC abe fexexe ƒe mɔnu na nudzɔdzɔ kple dɔwo ene, vevietɔ esiwo dea asi na ɣaɣla [privacy] ƒe gaɖoɖowo.  
 
-Ne dɔwɔƒe aɖe le asiwò eye nèdi be yeadze ZEC ƒe fexexe xɔxɔ gɔmea? Kple [Fe kple Zash](https://paywithz.cash/), woate ŋu atsɔ wò dɔwɔƒea akpe ɖe dɔwɔƒe siwo xɔa ZEC ɖe dɔ siwo wowɔna ta la ƒe ŋkɔwo ŋu.
+Ne èle asitsala ƒe dɔ me eye nèdi be nàdze ZEC ƒe fexexewo xɔxɔ gɔme? Kple [PayWithZash](https://paywithz.cash/) la, woate ŋu atsɔ wò asitsala akpe ɖe asitsalawo ƒe xexeme siwo xɔa ZEC na dɔ siwo wona.

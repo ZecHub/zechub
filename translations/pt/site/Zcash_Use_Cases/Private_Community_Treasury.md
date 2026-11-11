@@ -1,4 +1,4 @@
-# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="ícone de jornalista"/>  Gerencie um Tesouro Comunitário Privado com Zcash
+# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="ícone de jornalista"/>  Gerencie um tesouro comunitário privado com o Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -7,10 +7,10 @@
 
 ## TL;DR
 
-- Use endereços protegidos para manter fundos compartilhados
+- Use endereços blindados para manter fundos compartilhados
 - Limite a visibilidade dos saldos e das transações
 - Separe funções operacionais da identidade pública
-- Use memos para responsabilização interna
+- Use memorandos para prestação de contas interna
 
 <br/>
 
@@ -24,7 +24,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O Problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O problema
 
 Fundos comunitários em blockchains públicas expõem:
 - Saldo total do tesouro
@@ -38,16 +38,16 @@ Isso cria riscos:
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> Por que Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> Por que o Zcash?
 
-Zcash permite que comunidades:
+O Zcash permite que as comunidades:
 - Mantenham fundos de forma privada
 - Executem transações sem expor detalhes
-- Mantenham responsabilização interna sem exposição pública
+- Mantenham a prestação de contas interna sem exposição pública
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que Você Precisa
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que você precisa
 
 - Uma carteira Zcash (ou várias carteiras para separação de funções)
 - Processos internos claros para gerenciar fundos
@@ -55,15 +55,15 @@ Zcash permite que comunidades:
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia Passo a Passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia passo a passo
 
-### Passo 1: Crie um Endereço de Tesouro Protegido
+### Passo 1: Crie um endereço de tesouro blindado
 
 - Gere um **z-address** para o tesouro
 - Isso se torna a conta principal de custódia
 
 
-### Passo 2: Defina Funções
+### Passo 2: Defina funções
 
 Separe as responsabilidades:
 - Tesoureiro (controla os fundos)
@@ -74,32 +74,32 @@ Evite vincular essas funções a identidades públicas.
 
 
 
-### Passo 3: Receba Fundos Privadamente
+### Passo 3: Receba fundos de forma privada
 
-- Aceite contribuições por meio do endereço protegido
-- Incentive contribuidores a enviar a partir de carteiras protegidas
+- Aceite contribuições por meio do endereço blindado
+- Incentive contribuidores a enviar a partir de carteiras blindadas
 
 
 
-### Passo 4: Rastreie as Transações Internamente
+### Passo 4: Rastreie as transações internamente
 
 Use:
-- Memos da carteira
+- Memorandos da carteira
 - Registros off-chain (por exemplo, documentos compartilhados)
 
-Exemplo de memo: 
- - Subsídio #12 - Pagamento ao Desenvolvedor
+Exemplo de memorando: 
+ - Subsídio #12 - Pagamento ao desenvolvedor
 
 
 
-### Passo 5: Execute Pagamentos Privadamente
+### Passo 5: Execute pagamentos de forma privada
 
-- Envie fundos por meio de transações protegidas (z → z)
+- Envie fundos por meio de transações blindadas (z → z)
 - Evite expor publicamente as identidades dos destinatários
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelamento"/> Erros Comuns a Evitar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelamento"/> Erros comuns a evitar
 
 - Usar endereços transparentes para o tesouro  
 - Publicar saldos da carteira publicamente  
@@ -122,7 +122,7 @@ Sua comunidade pode:
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de elos de corrente"/> Relacionado
 
 - [Quem pode ver o seu pagamento em Zcash](/start-here/who-can-see-your-zcash-payment)
-- [Envie dinheiro sem associar a sua identidade](/zcash-use-cases/send-money-without-linking-identity)
+- [Envie dinheiro sem associar sua identidade](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
@@ -135,6 +135,6 @@ Você entende como gerenciar fundos compartilhados de forma privada.
 
  <br/>
 
-## Próximo Passo
+## Próximo passo
 
-- [Configuração de Privacidade para Jornalistas](/zcash-use-cases/journalist-privacy-setup)
+- [Configuração de privacidade para jornalistas](/zcash-use-cases/journalist-privacy-setup)

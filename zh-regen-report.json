@@ -1,0 +1,453 @@
+{
+  "schema": 1,
+  "headSha": "aa9290fd99492eaf2e2d6698919d42e301d47f19",
+  "dryRun": false,
+  "committed": true,
+  "branch": "i18n/sync-aa9290fd",
+  "title": "i18n sync aa9290fd — 36 units: 36 pages complete",
+  "findings": {
+    "curatedPages": 232,
+    "locales": 20,
+    "pairs": 4640,
+    "stale": 124,
+    "missing": 75,
+    "orphan": 0,
+    "decurated": 0,
+    "highSeverity": 44
+  },
+  "planned": 41,
+  "pending": 41,
+  "attempted": 41,
+  "totals": {
+    "synced": 36,
+    "noChange": 0,
+    "failed": 5,
+    "held": 0,
+    "deferredPages": 0,
+    "timedOut": 0,
+    "engineDown": 0,
+    "brandHeld": 0,
+    "quarantined": 0,
+    "pages": 36,
+    "locales": 1,
+    "menuTitles": 1,
+    "menuTitlesFailed": null
+  },
+  "results": [
+    {
+      "page": "Glossary_and_FAQs/FAQ.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Glossary_and_FAQs/Gallery/Infographics.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "FAIL",
+      "changedLines": 0,
+      "note": "translator error: fail: no Han script"
+    },
+    {
+      "page": "guides/Ledger_Shielded_ZEC.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "FAIL",
+      "changedLines": 0,
+      "note": "translator error: fail: mask loss — duplicated 1 (refused: block 10 still wrong after 2 attempts (repeated ⟦Q47⟧))"
+    },
+    {
+      "page": "Start_Here/Developer_Resources.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "FAIL",
+      "changedLines": 0,
+      "note": "reorder damage: 1 new finding(s) — label-leading-space at line 39: \"如果您要迁移现有配置，ZecHub 提供了从 [ 到 zcashd 以及 Zebra 和 Zallet](/guides\""
+    },
+    {
+      "page": "tutorials/shieldedNewsletter/daoAddresses.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "FAIL",
+      "changedLines": 0,
+      "note": "translator error: fail: no Han script"
+    },
+    {
+      "page": "Using_Zcash/Solswap.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "FAIL",
+      "changedLines": 0,
+      "note": "reorder damage: 2 new finding(s) — label-leading-space at line 5: \"已经在 Solana 上持有 ZEC（例如，来自以 ZEC 向持有者支付的代币）？请不要兑换它。使用 [ 将该代币转入一\"; label-leading-space at line 95: \"通过 Phantom 的兑换按钮购买的 ZEC 代币无法从 Phantom 进行屏蔽。该代币是 Solana 上的 Om\""
+    },
+    {
+      "page": "Zcash_Tech/FROST_Threshold_Custody.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Freelance_Privacy_Setup.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Journalist_Privacy_Setup.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Private_Community_Treasury.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Receive_Donations_Privately.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Sign_in_With_Zcash.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zcash_Use_Cases/Where_To_Donate_ZEC.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Cryptonote.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Hash_Functions.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Lelantus.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Podcasts/pgp_for_crypto_podcast.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Podcasts/Shielded_Transaction_Podcast.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Podcasts/The_Zcash_Podcast.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Podcasts/The_ZK_Podcast.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/TEEs.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Zcash_Addresses.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/AI_tools.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/IPFS_File_Sharing.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/Livestream_Setup.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/Publish_Site_on_IPFS.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/Serve_Github_Repo_with_IPFS.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    },
+    {
+      "page": "ZFAV_Club/Guides_for_Creators/Video_Subtitle_Generation_with_Translation.md",
+      "locale": "zh",
+      "engine": "llm",
+      "status": "missing",
+      "mode": "full",
+      "gate": "ok",
+      "changedLines": 0,
+      "note": ""
+    }
+  ],
+  "heldItems": [],
+  "brandHeldPages": [],
+  "quarantinedItems": [],
+  "timedOutItems": [],
+  "deferredPageList": []
+}

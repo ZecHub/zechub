@@ -10,7 +10,7 @@ ZEC στην ανοιχτή αγορά όπως οποιοσδήποτε άλλ�
 *Το Zcash ETF*, το πρώτο αμερικανικό spot Zcash exchange-traded product, και είναι
 πλέον ένας από τους μεγαλύτερους μεμονωμένους κατόχους ZEC που υπάρχουν.
 
-![How the Grayscale Zcash ETF works: investors buy ZCSH shares through a brokerage and receive price exposure only, while the trust holds the ZEC at Coinbase Custody in transparent wallets; Authorized Participants create and redeem shares in baskets of 10,000 for cash, and the Sponsor's Fee is paid out of the trust's ZEC, so ZEC per share declines over time](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
+![Πώς λειτουργεί το Grayscale Zcash ETF: οι επενδυτές αγοράζουν μετοχές ZCSH μέσω χρηματιστηριακής και λαμβάνουν μόνο έκθεση στην τιμή, ενώ το καταπίστευμα διακρατεί τα ZEC στο Coinbase Custody σε διαφανή πορτοφόλια· οι Εξουσιοδοτημένοι Συμμετέχοντες δημιουργούν και εξαγοράζουν μετοχές σε παρτίδες των 10.000 έναντι μετρητών και η Αμοιβή του Χορηγού καταβάλλεται από τα ZEC του καταπιστεύματος, οπότε τα ZEC ανά μετοχή μειώνονται με την πάροδο του χρόνου](https://raw.githubusercontent.com/ZecHub/zechub/main/assets/ZCSH_ETP_Structure.png)
 
 ## Το ίδιο fund, τρία στάδια
 

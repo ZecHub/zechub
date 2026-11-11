@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zero_to_Zero_Knowledge/Podcasts/The_z2z_Podcast.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Το podcast Z2Z
 
-Το podcast Z2Z φιλοξενεί συζητήσεις μεγάλης διάρκειας μεταξύ του Ian Sagstetter (από την Electric Coin Company) και άλλων μελών της κοινότητας Zcash.
+Το podcast Z2Z φιλοξενεί συζητήσεις μεγάλης διάρκειας μεταξύ του Ian Sagstetter (από το Electric Coin Company) και άλλων μελών της κοινότητας Zcash.
 
 Το podcast καλύπτει μια ποικιλία διαφορετικών θεμάτων, αλλά εστιάζει κυρίως στην Zcash και στην εμπειρία των χρηστών της.
 

@@ -6,16 +6,16 @@
 # O que é o ZecHub?
 ---
 
-ZecHub é um hub de educação descentralizado para Zcash. O objetivo do [ZecHub](http://zechub.xyz) é fornecer uma plataforma educacional onde membros da comunidade possam trabalhar juntos na criação, validação e promoção de conteúdo que apoie o ecossistema Zcash. Fazemos isso por meio de alguns mecanismos.
+ZecHub é um hub de educação descentralizado para o Zcash. O objetivo do [ZecHub](http://zechub.xyz) é fornecer uma plataforma educacional onde membros da comunidade possam trabalhar juntos na criação, validação e promoção de conteúdo que apoie o ecossistema do Zcash. Fazemos isso por meio de alguns mecanismos.
 
 1. [Tutoriais](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
 2. [Documentação wiki](https://zechub.wiki/)
 3. [Um podcast entrevistando membros da comunidade](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
-4. [Um boletim semanal de Zcash.](https://zechub.substack.com/)
+4. [Uma newsletter semanal do Zcash.](https://zechub.substack.com/)
 
-Os tutoriais, blogs de formato curto e o boletim são open source e hospedados no GitHub, o que significa que qualquer pessoa da comunidade pode contribuir. Isso garante que o conteúdo seja preciso e que o próprio canal não sofra com um único ponto de falha.
+Os tutoriais, blogs de formato curto e a newsletter são open source e hospedados no GitHub, o que significa que qualquer pessoa da comunidade pode contribuir. Isso garante que o conteúdo seja preciso e que o próprio canal não sofra com um único ponto de falha.
 
-Se é novo no Zcash, use [este guia](/start-here/new-user-guide).****
+Se você é novo no Zcash, use [este guia](/start-here/new-user-guide).****
 
 ## Como fazer alterações no ZecHub
 
@@ -59,8 +59,8 @@ Doações: [aqui](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z
 
 
 
-**AVISO LEGAL: O ZecHub é uma iniciativa completamente independente e open source fundada por membros da comunidade Zcash. Nada contido neste repositório do GitHub deve ser considerado aconselhamento financeiro ou de investimento - é apenas para fins informativos.**
+**AVISO LEGAL: O ZecHub é uma iniciativa completamente independente e open source fundada por membros da comunidade do Zcash. Nada contido neste repositório do GitHub deve ser considerado aconselhamento financeiro ou de investimento - é apenas para fins informativos.**
 
 ---
 
-*Se você quiser adicionar ou sugerir edições para esta página da wiki, acesse o [repositório do github do ZecHub](https://github.com/ZecHub/zechub) e envie um pull request.*
+*Se você quiser adicionar ou sugerir edições para esta página da wiki, acesse o [repositório do GitHub do ZecHub](https://github.com/ZecHub/zechub) e envie um pull request.*

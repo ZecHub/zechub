@@ -4,7 +4,7 @@
 
 ![](/content-images/image-2023-11-18-152209271-6bea8ac30e.webp)
 
-# Mɔfiamewo na Wɔlawo
+# Mɔfiamewo na Nuwɔlawo
 
 <a href="/ZFAV-Club/Guides-for-Creators/AI_tools">
     <img src="/content-images/aitools-e218ab1d0f.webp" alt="" width="400" height="200"/>
@@ -12,8 +12,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -25,8 +25,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -38,8 +38,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -51,8 +51,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -64,8 +64,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -77,8 +77,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -90,8 +90,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -103,8 +103,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 
@@ -116,8 +116,8 @@
 
 <aside>
   
-#### Xlẽ ɣeyiɣi
-| 2 mins |
+#### Xexlẽ ƒe ɣeyiɣi
+| Minuti 2 |
 
 </aside>
 

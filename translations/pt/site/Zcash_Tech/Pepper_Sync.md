@@ -6,149 +6,149 @@
 
 ## TL;DR
 
-* Pepper Sync é o motor de sincronização introduzido no Zingo! 2.0, a wallet open-source de Zcash criada pela Zingo Labs.
-* Utiliza sincronização não linear em vez de analisar a cadeia em grandes blocos sequenciais, por isso o seu saldo e as suas transações aparecem muito mais cedo.
-* O progresso é guardado continuamente. Se a ligação cair ou a aplicação fechar, a sincronização retoma de onde parou em vez de recomeçar.
-* Pode gastar antes de a sincronização estar concluída.
-* As transações shielded mantêm-se privadas durante todo o processo.
+* O Pepper Sync é o mecanismo de sincronização introduzido no Zingo! 2.0, a carteira Zcash de código aberto criada pela Zingo Labs.
+* Usa sincronização não linear em vez de analisar a chain em grandes blocos sequenciais, por isso seu saldo e suas transações aparecem muito mais cedo.
+* O progresso é salvo continuamente. Se a conexão cair ou o app fechar, a sincronização continua de onde parou em vez de recomeçar.
+* Você pode gastar antes de a sincronização terminar.
+* As transações blindadas permanecem privadas durante todo o processo.
 
-## Explicação Principal
+## Explicação principal
 
-Zingo 2.0 é a versão mais recente da wallet Zingo!, uma wallet leve e open-source criada para a comunidade Zcash. A grande estrela desta versão é o Pepper Sync, uma grande atualização que repensa por completo a forma como as wallets se ligam à blockchain.
+O Zingo 2.0 é a versão mais recente da carteira Zingo!, uma carteira leve e de código aberto criada para a comunidade Zcash. A grande estrela desta versão é o Pepper Sync, uma grande atualização que repensa por completo como as carteiras se conectam à blockchain.
 
-No passado, a sincronização podia parecer dolorosamente lenta, propensa a erros e pesada em recursos, chegando por vezes a obrigar os utilizadores a recomeçar do zero. O Pepper Sync muda tudo isso. Torna a sincronização mais rápida, mais fluida, mais fiável e menos exigente para o seu dispositivo, preservando totalmente a privacidade das transações shielded.
+No passado, a sincronização podia parecer dolorosamente lenta, propensa a erros e pesada em recursos, às vezes obrigando os usuários a recomeçar do zero. O Pepper Sync muda tudo isso. Torna a sincronização mais rápida, mais fluida, mais confiável e menos exigente para seu dispositivo, preservando totalmente a privacidade das transações blindadas.
 
-Quer seja um utilizador totalmente novo a experimentar Zcash pela primeira vez, quer seja um membro antigo da comunidade a gerir várias wallets shielded, o Pepper Sync torna a experiência muito mais prática e agradável.
+Seja você um usuário totalmente novo testando o Zcash pela primeira vez ou um membro de longa data da comunidade gerenciando várias carteiras blindadas, o Pepper Sync torna a experiência muito mais prática e agradável.
 
-### Funcionalidades principais do Pepper Sync
+### Recursos principais do Pepper Sync
 
 O Pepper Sync introduz várias melhorias:
 
-- Sincronização Muito Mais Rápida - A sua wallet fica pronta em minutos, não em horas.
-- Atualizações Inteligentes - Os dados são processados em blocos mais pequenos, evitando reanálises completas.
-- Resistente a Interrupções - Se a sua ligação cair, a sincronização retoma onde ficou.
-- Leve e Eficiente - Otimizado para telemóveis, portáteis e outros dispositivos com menos potência.
-- Feedback Mais Claro - Atualizações de progresso em tempo real reduzem a confusão.
-- Preservação da Privacidade - As transações shielded mantêm-se privadas durante todo o processo.
+- Sincronização muito mais rápida - Sua carteira fica pronta em minutos, não em horas.
+- Atualizações inteligentes - Os dados são processados em blocos menores, evitando novas análises completas.
+- Resistente a interrupções - Se sua conexão cair, a sincronização continua de onde parou.
+- Leve e eficiente - Otimizado para celulares, laptops e outros dispositivos menos potentes.
+- Feedback mais claro - Atualizações de progresso em tempo real reduzem a confusão.
+- Preservação da privacidade - As transações blindadas permanecem privadas durante todo o processo.
 
-### O que melhorou em relação ao passado
+### O que melhorou em relação a antes
 
-As versões mais antigas do Zingo frustravam frequentemente os utilizadores com longos tempos de sincronização, tratamento de erros pouco claro e elevado consumo de recursos. O Pepper Sync resolve estes problemas comuns:
+As versões mais antigas do Zingo frequentemente frustravam os usuários com longos tempos de sincronização, tratamento de erros pouco claro e alto uso de recursos. O Pepper Sync resolve esses problemas comuns:
 
-| Funcionalidade    | Versões Anteriores do Zingo            | Zingo 2.0 com Pepper Sync                   |
+| Funcionalidade    | Versões anteriores do Zingo            | Zingo 2.0 com Pepper Sync                   |
 | ----------------- | -------------------------------------- | ------------------------------------------- |
-| Velocidade de Sync| Mais lenta, especialmente na configuração inicial | Sincronização inicial e contínua muito mais rápida |
-| Tratamento de Erros | Bloqueios ocasionais e falhas pouco claras | Maior estabilidade com recuperação automática |
-| Experiência do Utilizador | A sincronização parecia "opaca" para os recém-chegados | Transparente, com estado e atualizações mais claros |
-| Desempenho do Dispositivo | Uso elevado de CPU/memória      | Otimizado para utilização suave de recursos |
+| Velocidade de sincronização| Mais lenta, especialmente na configuração inicial | Sincronização inicial e contínua muito mais rápida |
+| Tratamento de erros | Travamentos ocasionais e falhas pouco claras | Maior estabilidade com recuperação automática |
+| Experiência do usuário | A sincronização parecia "opaca" para os novos usuários | Transparente, com status e atualizações mais claros |
+| Desempenho do dispositivo | Alto uso de CPU/memória                 | Otimizado para uso fluido de recursos       |
 
-Em resumo: a sincronização é agora mais rápida, mais fiável e mais fácil de compreender.
+Em resumo: a sincronização agora é mais rápida, mais confiável e mais fácil de entender.
 
-## Visual / Analogia
+## Visual / analogia
 
-Pense numa sincronização de wallet antiga como ler um livro muito comprido desde a primeira página, em voz alta, antes de poder dizer seja o que for sobre ele. Se parar a meio, começa novamente na página um. O Pepper Sync lê o mesmo livro, mas guarda um marcador, lê primeiro os capítulos que lhe interessam e deixa-o falar sobre a história antes de terminar a última página.
+Pense em uma sincronização de carteira antiga como ler um livro muito longo desde a primeira página, em voz alta, antes de poder dizer qualquer coisa sobre ele. Se parar no meio, você começa novamente na página um. O Pepper Sync lê o mesmo livro, mas guarda um marcador, lê primeiro os capítulos que interessam a você e permite que você fale sobre a história antes de terminar a última página.
 
-O marcador é a parte importante. Todas as versões anteriores tratavam uma sincronização interrompida como trabalho perdido; o Pepper Sync trata-a como uma pausa.
+O marcador é a parte importante. Todas as versões anteriores tratavam uma sincronização interrompida como trabalho perdido; o Pepper Sync a trata como uma pausa.
 
 ### Guias visuais
 
-- Fluxo Detalhado - Mostra o processo completo. ![Fluxo Detalhado](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+- Fluxo detalhado - Mostra o processo completo. ![Fluxo detalhado](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Fluxo Simplificado - Vista rápida para utilizadores do dia a dia. ![Fluxo Simplificado](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+- Fluxo simplificado - Visão rápida para usuários do dia a dia. ![Fluxo simplificado](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
-## Análise Aprofundada
+## Análise aprofundada
 
-### Como funciona o Pepper Sync (visão simples)
+### Como o Pepper Sync funciona (visão simples)
 
-Em vez de reanalisar a blockchain em blocos enormes e pesados, o Pepper Sync funciona em passos pequenos e geríveis — guardando sempre o seu lugar à medida que avança.
+Em vez de reanalisar a blockchain em blocos enormes e pesados, o Pepper Sync funciona em etapas pequenas e gerenciáveis — sempre salvando seu progresso à medida que avança.
 
-1. Ligar - A wallet verifica a ligação com a rede.
-2. Obter Blocos - Os dados são descarregados incrementalmente.
+1. Conectar - A carteira verifica sua conexão com a rede.
+2. Buscar blocos - Os dados são baixados de forma incremental.
 3. Verificar - As transações são validadas.
-4. Tratar Notas Shielded - A privacidade é preservada em todos os momentos.
-5. Atualizar Saldos - A wallet atualiza-se de forma segura.
-6. Guardar Progresso - Para e retoma sem problemas.
-7. Concluir - A wallet está pronta para transacionar.
+4. Processar notes blindadas - A privacidade é preservada o tempo todo.
+5. Atualizar saldos - A carteira é atualizada com segurança.
+6. Salvar progresso - Para e continua sem problemas.
+7. Concluir - A carteira está pronta para realizar transações.
 
-## Implicações Práticas
+## Implicações práticas
 
-### Quem beneficia do Pepper Sync?
+### Quem se beneficia do Pepper Sync?
 
-- Novos Utilizadores - Podem configurar wallets rapidamente sem desanimar com atrasos.
-- Utilizadores Diários - A sincronização fiável torna os pagamentos shielded práticos para uso diário.
-- Developers e Testers - Tempos de sincronização mais curtos significam ciclos de teste mais rápidos.
-- Dispositivos Móveis e Leves - O Zingo funciona agora de forma eficiente mesmo em hardware com recursos limitados.
+- Novos usuários - Podem configurar carteiras rapidamente sem se desanimar com atrasos.
+- Usuários diários - A sincronização confiável torna os pagamentos blindados práticos para o uso diário.
+- Desenvolvedores e testadores - Tempos de sincronização mais curtos significam ciclos de teste mais rápidos.
+- Dispositivos móveis e leves - O Zingo agora funciona de forma eficiente mesmo em hardware com recursos limitados.
 
-### Porque é importante para o Zcash
+### Por que isso importa para o Zcash
 
-Zcash foi construído em torno de transações shielded, uma das ferramentas de privacidade mais poderosas em criptomoedas. Mas a privacidade só é útil se for acessível.
+O Zcash é construído em torno de transações blindadas, uma das ferramentas de privacidade mais poderosas em criptomoedas. Mas a privacidade só é útil se for acessível.
 
 O Pepper Sync ajuda ao:
 
-- Reduzir as barreiras à entrada - Os novos utilizadores podem começar rapidamente.
-- Apoiar a usabilidade no dia a dia - Os endereços shielded tornam-se mais fáceis de confiar.
-- Incentivar o crescimento do ecossistema - Uma melhor experiência de wallet impulsiona mais adoção, apps e serviços.
+- Reduzir as barreiras de entrada - Novos usuários podem começar rapidamente.
+- Apoiar a usabilidade no dia a dia - Os endereços blindados se tornam mais fáceis de confiar.
+- Incentivar o crescimento do ecossistema - Uma melhor experiência de carteira impulsiona mais adoção, apps e serviços.
 
-Ao melhorar a experiência da wallet, o Pepper Sync fortalece todo o ecossistema Zcash.
+Ao melhorar a experiência da carteira, o Pepper Sync fortalece todo o ecossistema Zcash.
 
-### Como começar: onboarding com Zingo 2.0
+### Como começar: onboarding com o Zingo 2.0
 
-1. Descarregar a Wallet - Obtenha a versão correta na [página de releases do GitHub do Zingo](https://github.com/zingolabs/zingolib)
-2. Configurar a Sua Wallet - Crie uma nova ou restaure a partir de uma seed phrase existente. [Zingo 2.0 com Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Deixar o Pepper Sync Correr - Observe os indicadores de progresso enquanto a sua wallet é atualizada. [Execução do Pepper Sync](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Começar a Usar Zcash - Envie e receba ZEC shielded assim que a sincronização estiver concluída.
-5. Ficar Tranquilo com as Interrupções - Se a aplicação fechar ou a ligação cair, o Pepper Sync retoma automaticamente.
+1. Baixe a carteira - Obtenha a versão correta na [página de releases do GitHub do Zingo](https://github.com/zingolabs/zingolib)
+2. Configure sua carteira - Crie uma nova ou restaure-a a partir de uma frase semente existente. [Zingo 2.0 com Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Deixe o Pepper Sync funcionar - Observe os indicadores de progresso enquanto sua carteira é atualizada. [Execução do Pepper Sync](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Comece a usar o Zcash - Envie e receba ZEC blindado assim que a sincronização terminar.
+5. Fique tranquilo com as interrupções - Se o app fechar ou a conexão cair, o Pepper Sync continua automaticamente.
 
-## Erros Comuns
+## Erros comuns
 
-**Tratar o Pepper Sync como se fosse uma wallet autónoma**. O Pepper Sync é o motor de sincronização dentro da wallet Zingo!, não uma aplicação separada. Instala o Zingo; o Pepper Sync é o que funciona por baixo.
+**Tratar o Pepper Sync como se fosse uma carteira autônoma**. O Pepper Sync é o mecanismo de sincronização dentro da carteira Zingo!, não um aplicativo separado. Você instala o Zingo; o Pepper Sync é o que funciona por trás dele.
 
-**Assumir que uma sincronização mais rápida significa privacidade mais fraca**. A velocidade vem da forma como os dados dos blocos são obtidos, ordenados e colocados em cache, não de revelar mais informação. As transações shielded mantêm-se privadas durante todo o processo.
+**Presumir que uma sincronização mais rápida significa privacidade mais fraca**. A velocidade vem de como os dados dos blocos são buscados, ordenados e armazenados em cache, não de revelar mais informações. As transações blindadas permanecem privadas durante todo o processo.
 
-**Assumir que tem de estar totalmente sincronizado antes de poder gastar**. Gastar antes de a sincronização estar concluída é uma das funcionalidades de destaque do Pepper Sync, por isso não tem de esperar que a wallet alcance a ponta da cadeia.
+**Presumir que você deve estar totalmente sincronizado antes de poder gastar**. Gastar antes de a sincronização terminar é um dos principais recursos do Pepper Sync, então você não precisa esperar a carteira alcançar a ponta da chain.
 
 ## FAQ - Perguntas comuns
 
-**P: Tenho de reanalisar sempre que abro a wallet?**
+**P: Preciso reanalisar sempre que abro a carteira?**
 
-R: Não. O Pepper Sync guarda o progresso, por isso só atualiza a partir do último ponto.
+R: Não. O Pepper Sync salva o progresso, então você atualiza somente a partir do último ponto.
 
-**P: O que acontece se a minha internet se desligar?**
+**P: O que acontece se minha internet desconectar?**
 
 R: A sincronização pausa e continua mais tarde sem recomeçar.
 
-**P: A minha privacidade está segura durante a sincronização?**
+**P: Minha privacidade fica segura durante a sincronização?**
 
-R: Sim. As transações shielded mantêm-se totalmente privadas.
+R: Sim. As transações blindadas permanecem totalmente privadas.
 
-**P: Quanto tempo demora a primeira sincronização?**
+**P: Quanto tempo leva a primeira sincronização?**
 
 R: Normalmente minutos em vez de horas, dependendo do seu dispositivo e da sua internet.
 
-**P: Posso usar a wallet antes de a sincronização terminar?**
+**P: Posso usar a carteira antes de a sincronização terminar?**
 
-R: Sim. O Pepper Sync suporta gastos antes de a sincronização estar concluída, por isso não precisa de esperar que a wallet alcance a ponta da cadeia.
+R: Sim. O Pepper Sync permite gastar antes de a sincronização terminar, então você não precisa esperar a carteira alcançar a ponta da chain.
 
 ## Conclusão
 
-Com o Pepper Sync do Zingo 2.0, a sincronização já não é o maior ponto de dor das wallets shielded. Agora é rápida, estável e fácil de usar, reduzindo a barreira para os recém-chegados e tornando o uso diário muito mais prático.
+Com o Pepper Sync do Zingo 2.0, a sincronização deixou de ser o maior problema das carteiras blindadas. Agora ela é rápida, estável e fácil de usar, reduzindo a barreira para novos usuários e tornando o uso diário muito mais prático.
 
-Para os utilizadores, isso significa menos espera e mais privacidade. Para os developers, significa uma base mais sólida sobre a qual construir. Para o ecossistema Zcash, é mais um passo em direção a tornar as transações shielded acessíveis a todos.
+Para os usuários, isso significa menos espera e mais privacidade. Para os desenvolvedores, significa uma base mais sólida sobre a qual construir. Para o ecossistema Zcash, é mais um passo para tornar as transações blindadas acessíveis a todos.
 
-Zingo 2.0 com Pepper Sync não é apenas uma atualização; é um salto em frente para uma cripto privada e utilizável.
+O Zingo 2.0 com Pepper Sync não é apenas uma atualização; é um salto à frente para criptomoedas privadas e fáceis de usar.
 
-## Páginas Relacionadas
+## Páginas relacionadas
 
-- [Sincronização de Wallets Zcash](/zcash-tech/zcash-wallet-syncing) — como funciona a sincronização de wallets em todo o ecossistema Zcash.
-- [Nós Lightwallet](/zcash-tech/lightwallet-nodes) — a infraestrutura com a qual uma wallet leve como o Zingo se sincroniza.
-- [Zaino](/zcash-tech/zaino) — o indexador desenvolvido pela equipa do Zingo.
-- [Wallets](/wallets) — o diretório completo de wallets Zcash e das suas funcionalidades.
+- [Sincronização de carteiras Zcash](/zcash-tech/zcash-wallet-syncing) — como funciona a sincronização de carteiras em todo o ecossistema Zcash.
+- [Nós Lightwallet](/zcash-tech/lightwallet-nodes) — a infraestrutura com a qual uma carteira leve como o Zingo se sincroniza.
+- [Zaino](/zcash-tech/zaino) — o indexador desenvolvido pela equipe do Zingo.
+- [Carteiras](/wallets) — o diretório completo de carteiras Zcash e seus recursos.
 
-## Aprendizagem Adicional
+## Aprendizado adicional
 
-- [Repositório GitHub do Zingo!](https://github.com/zingolabs/zingolib)
-- [Fórum da Comunidade Zcash](https://forum.zcashcommunity.com/)
-- Anúncios Oficiais - [Twitter do Zingo Labs](https://twitter.com/ZingoLabs)
+- [Repositório do Zingo! no GitHub](https://github.com/zingolabs/zingolib)
+- [Fórum da comunidade Zcash](https://forum.zcashcommunity.com/)
+- Anúncios oficiais - [Twitter do Zingo Labs](https://twitter.com/ZingoLabs)
 
 ___
 ___

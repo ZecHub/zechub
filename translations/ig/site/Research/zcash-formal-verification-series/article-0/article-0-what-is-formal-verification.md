@@ -1,185 +1,185 @@
 ![alt text](image-1.png)
-# Gịnị Bụ Ịchọpụta na Onye ahụ Ọ̀ Dị Mma?
+# Gịnị Bụ Nnyocha Nkwenye Iwu [Formal Verification]?
 
-### Otu ị si egosi na ihe omume ziri ezi, kama ịtụ anya naanị ka ọ bụrụ eziokwu.
+### Otu esi egosi na mmemme ziri ezi, kama naanị inwe olileanya na ọ dị otu a
 
-> **Series:** *Formal Verification Series* · **Part 1 of 3** Ihe ndị a bụ ihe e dere na ya.
-> **Ndị na-ege ntị:** ndị bịara ọhụrụ. Enweghị mgbakọ na mwepụ, mmemme ma ọ bụ nzụlite nzuzo echere.
-> **What you'll leave with:** a clear understanding of what it means to *prove* software correct, why that is fundamentally different from testing it, what a machine-checked proof is, and the precise (and honest) limits of what such a proof can promise.
+> **Usoro isiokwu:** *Usoro Nnyocha Nkwenye Iwu* · **Nkebi 1 n'ime 3**
+> **Ndị e lekwasịrị anya:** ndị mbido kpamkpam. A naghị ewere na ị maara mgbakọ na mwepụ, mmemme kọmputa, ma ọ bụ cryptography.
+> **Ihe ị ga-eji pụọ:** nghọta doro anya banyere ihe ọ pụtara *igosipụta* na software ziri ezi, ihe mere nke a ji dị nnọọ iche na ịnwale ya, ihe proof igwe nyochara bụ, na oke ziri ezi (na nke e ji ezi obi kwuo) nke ụdị proof dị otu a nwere ike ikwe nkwa.
 
-Most software is trusted because it has been *tested*: we run it on many inputs and watch it behave. Formal verification asks a bolder question. Can we *prove*, with mathematical certainty, that a system does what it should for **every** possible input, including the ones no one ever thought to try? This article builds that idea from the ground up. Intuition first, no symbols until they are earned.
-
----
-
-## 1. Gịnị mere o ji dị mkpa ka ị mata?
-
-Nke a bụ akụkọ mere eme, ọ bụkwa ya kpatara usoro isiokwu ndị a ji dịrị.
-
-In 2022, the privacy-focused cryptocurrency Zcash launched a new shielded pool named Orchard, letting people transact with the amounts hidden. For four years it worked flawlessly and passed repeated professional audits. Then, in May 2026, a security researcher reasoning carefully about the underlying mathematics (with help from AI tooling) found a single **under-constrained** spot in the system's math. That one gap could have let an attacker create an *unlimited* amount of counterfeit money, and because the amounts were hidden, nobody would have seen it happen. The flaw had been present the entire time.
-
-It was not caught by testing. Every test had passed for four years. It was caught by someone *reasoning about the math*. And when the team fixed it, they did not simply patch and move on. They wrote a **machine-checked mathematical proof**, over 2,700 individual theorems, that the replacement could not contain that class of flaw at all.
-
-Nke ahụ bụ nkwenye iwu, na nke a ka ọ ga-azụtara gị: ọbụghị "anyị nwara ọtụtụ okwu ma ha arụ ọrụ", kama "anyị gosipụtara ya maka ikpe niile". Maka usoro ebe otu ihe atụfuru dị oke egwu (ego, ụgbọelu, ngwaọrụ ọgwụ, cryptography), ọdịiche ahụ bụ ihe nile.
-
-Onye sayensị kọmputa Edsger Dijkstra kpọrọ ebe a na-adịghị ahụ anya n'ule ọtụtụ iri afọ gara aga, ọ ka bụkwa eziokwu:
-
-> *Ule nwere ike igosi* ọnụnọ nke ụmụ ahụhụ, mana ọ dịghị mgbe ha na-anọghị.**
-
-If a test passes, you have learned that the system works *on that input*. You have learned nothing about the inputs you did not try, and the dangerous bugs are almost always in the cases nobody tried.
+A na-atụkwasị ọtụtụ software obi n'ihi na a *nwalerela* ha: anyị na-agba ha n'ọtụtụ ntinye ma na-ekiri otú ha si arụ ọrụ. Nnyocha nkwenye iwu na-ajụ ajụjụ siri ike karịa. Anyị nwere ike *igosipụta*, n'ịdị n'aka nke mgbakọ na mwepụ, na usoro na-eme ihe kwesịrị ekwesị maka **ntinye ọ bụla** o nwere ike inweta, gụnyere ndị ọ dịghị onye chepụtara ịnwale? Edemede a na-ewulite echiche ahụ malite na isi ya. Mmalite bụ nghọta, enweghị akara mgbakọ na mwepụ ruo mgbe ha dị mkpa.
 
 ---
 
-## 2. Ọgụgụ isi: inyocha ọnụ ụzọ vs. ime ka ụlọ ahụ dị ọcha
+## 1. Gịnị mere ị ga-eji lekọta nke a?
 
-Were ya na ị bụ onye nlekọta nke otu ụlọ nwere ọtụtụ puku ọnụ ụzọ, ọrụ gị bụkwa ịhụ na e mechiri ha nile n'abalị.
+Nke a bụ akụkọ mere n'ezie, ọ bụkwa ihe kpatara usoro isiokwu a ji dị.
 
-- **The testing approach:** walk around and try a sample of doors. Try fifty, a hundred, five hundred. Every one you try is locked, so your confidence grows. But you have not tried them all, and the one unlocked door might be one you skipped.
-- **The formal-verification approach:** examine the *locking system itself* and prove, from its design, that pressing the "lock" button necessarily engages every door. Now you do not need to try individual doors at all. You have shown that *no possible door can be left unlocked*, because the mechanism makes it impossible.
+Na 2022, cryptocurrency nke lekwasịrị anya na Nzuzo [privacy] Zcash wepụtara pool nke e chebere echebe ọhụrụ a kpọrọ Orchard, nke mere ka ndị mmadụ nwee ike ime azụmahịa ebe e zoro ego ole ha ji eme ya. Ruo afọ anọ, ọ rụrụ ọrụ nke ọma n'enweghị mmejọ ma gafee nyocha ndị ọkachamara ugboro ugboro. Mgbe ahụ, na Mee 2026, onye nchọpụta nchekwa nke ji nlezianya tụlee mgbakọ na mwepụ dị n'okpuru ya (site n'enyemaka ngwaọrụ AI) chọpụtara otu ebe **a naghị amanye nke ọma** n'ime mgbakọ na mwepụ nke usoro ahụ. Otu oghere ahụ nwere ike ime ka onye mwakpo mepụta ego adịgboroja na-enweghị oke, ma n'ihi na e zoro ego ole ha bụ, ọ dịghị onye ga-ahụ na nke a mere. Mmejọ ahụ anọwo ebe ahụ oge niile.
 
-Ihe dị iche bụ n'etiti **ịtụle eziokwu** na **igosi ihe onwunwe nke imepụta. Nyocha ule. Nnyocha nyocha gosipụtara. Nke ahụ bụ echiche dum, ma ihe ọ bụla ọzọ bụ igwe maka ịme ya kpamkpam.
+Ọ bụghị ịnwale ka chọpụtara ya. Nnwale ọ bụla agafewo ruo afọ anọ. Ọ bụ mmadụ *tụlere mgbakọ na mwepụ ahụ* ka chọpụtara ya. Mgbe ndị otu ahụ doziri ya, ha emeghị naanị patch wee gaa n'ihu. Ha dere **proof mgbakọ na mwepụ nke igwe nyochara**, nke nwere ihe karịrị theorems 2,700 n'otu n'otu, na-egosi na nke nọchiri ya enweghị ike ịnwe ụdị mmejọ ahụ ma ọlị.
+
+Nke a bụ nnyocha nkwenye iwu, nke a bụkwa ihe ọ na-enye gị: ọ bụghị …anyị nwara ọtụtụ ọnọdụ, ha wee rụọ ọrụ…, kama …anyị gosiri na ọ dị irè n'ọnọdụ ọ bụla…. Maka usoro ebe otu ọnọdụ a na-ahụghị nwere ike ibute ọdachi (ego, ụgbọelu, ngwaọrụ ahụike, cryptography), ọdịiche ahụ bụ ihe niile.
+
+Onye ọkà mmụta sayensị kọmputa Edsger Dijkstra nyere ntụpọ nzuzo dị n'ịnwale aha ọtụtụ iri afọ gara aga, ma ọ ka bụ eziokwu:
+
+> **Ịnwale nwere ike igosi na bugs dị, mana ọ gaghị egosi na ha adịghị.**
+
+Ọ bụrụ na nnwale agafe, ihe ị mụtara bụ na usoro ahụ na-arụ ọrụ *na ntinye ahụ*. Ị mụtaghị ihe ọ bụla gbasara ntinye ndị ị nwaghị, ma bugs dị ize ndụ fọrọ nke nta ka ha bụrụ ndị dị n'ọnọdụ ndị ọ dịghị onye nwara.
+
+---
+
+## 2. Nghọta mbụ: ilele ụzọ ọnụ ụzọ na igosi na ụlọ ahụ ziri ezi
+
+Cheedị na ị na-ahụ maka ụlọ nwere otu puku ọnụ ụzọ, ọrụ gị bụ ikwe nkwa na a kpọchiri ọnụ ụzọ niile n'abalị.
+
+- **Ụzọ ịnwale:** jee gburugburu ma nwalee ụfọdụ ọnụ ụzọ. Nwale iri ise, otu narị, ma ọ bụ narị ise. Ọnụ ụzọ ọ bụla i nwara akpọchiri, ya mere ntụkwasị obi gị na-abawanye. Mana ị nwabeghị ha niile, otu ọnụ ụzọ na-akpọchighị nwere ike ịbụ nke ị mafere.
+- **Ụzọ nnyocha nkwenye iwu:** nyochaa *usoro mkpọchi ahụ n'onwe ya* ma gosi, site n'otú e siri chepụta ya, na ịpị bọtịnụ …kpọchie… ga-eme ka ọnụ ụzọ ọ bụla kpọchie. Ugbu a, ọ dịghị mkpa ịnwale ọnụ ụzọ nke ọ bụla. I gosila na *ọ dịghị ọnụ ụzọ ọ bụla nwere ike ịhapụ na-akpọchighị*, n'ihi na usoro ahụ na-eme ka nke ahụ ghara ikwe omume.
+
+Ọdịiche ahụ dị n'etiti **ịhọrọ ụfọdụ ihe dị adị ma nyochaa ha** na **igosipụta njirimara nke atụmatụ ahụ**. Ịnwale na-ahọrọ ụfọdụ. Nnyocha nkwenye iwu na-egosi. Nke ahụ bụ echiche dum, ihe ọ bụla ọzọ bụ ngwaọrụ maka ime ya n'ụzọ siri ike.
 
 ![alt text](image-2.png)
 
 ---
 
-## 3. Ogidi atọ nke nyocha ọ bụla a na-eme n'ụzọ iwu kwadoro
+## 3. Ogidi atọ nke nnyocha nkwenye iwu ọ bụla
 
-Nnyocha ọ bụla e mere, n'agbanyeghị otú o si dị elu, na-esite kpọmkwem n'ihe atọ. Jide nke a n'ụzọ doro anya ma ndị ọzọ bụ nkọwa zuru ezu.
+Nnyocha nkwenye iwu ọ bụla, n'agbanyeghị ogo ọ dị elu, bụ kpọmkwem ihe atọ ka e ji wuo ya. Ghọta ndị a nke ọma, ihe fọdụrụ bụ nkọwa.
 
-| Ogidi | Nkọwa doro anya | Ihe atụ nke ụlọ |
+| Ogidi | Ihe ọ pụtara n'ụzọ dị mfe | Ọmụmaatụ ụlọ |
 |---|---|---|
-| **Nkọwapụta** | Nkọwa zuru oke nke ihe "ezi" *pụtara* | "A ga-akpọchi ụzọ niile n'abalị" |
-| **Sistemụ** | Ihe a na-enyocha (mmemme, sekit, usoro) | Ụlọ ahụ na usoro mkpọchi ya |
-| **Ihe akaebe** | Esemokwu siri ike na sistemụ ahụ na-agbaso nkọwapụta mgbe niile | Ngosipụta ezi uche dị na ya na ịpị "mkpọchi" na-akpọchi ụzọ niile |
+| **Nkọwapụta** | Okwu doro anya nke ihe …ziri ezi… *pụtara* | …A ga-akpọchi ọnụ ụzọ ọ bụla n'abalị… |
+| **Usoro** | Ihe ahụ a na-enyocha n'ezie (mmemme, sekit, protocol) | Ụlọ ahụ na usoro mkpọchi ya |
+| **Proof** | Arụmụka siri ike na usoro ahụ na-emezu nkọwapụta mgbe niile | Ngosipụta ezi uche na ịpị …kpọchie… na-akpọchi ọnụ ụzọ niile |
 
-Ihe nke anọ, bụ́ ihe na-adịchaghị akpali mmadụ ikwu okwu mere ka a tụkwasị ya obi:
+Ihe nke anọ, nke dị jụụ karị, na-eme ka ihe niile bụrụ nke a pụrụ ịtụkwasị obi:
 
-- **Onye na-enyocha igwe.** Ihe akaebe a abụghị nke mmadụ dere ma ọ bụ naanị anya. A na -enye ya mmemme (onye enyemaka ihe ngosi, akpọkwara onye nyocha usoro iwu) nke na -enyocha *nzọụkwụ ezi uche dị iche iche*. Mmadụ nwere ike ịfụ ha aka ma ọ bụkwanụ mee njehie aghụghọ; igwe agaghị anabata nzọụkwụ nke anaghị esochi nlezianya. Ọ bụ ya mere anyị ji sị nsonaazụ ahụ bụ **machine-checked**.
+- **Onye nyocha igwe.** Ọ bụghị mmadụ na-ede proof ahụ ka e ji anya lelee ya naanị. A na-enye ya mmemme (a **proof assistant**, nke a na-akpọkwa **theorem prover**) nke na-enyocha *nzọụkwụ ezi uche ọ bụla*. Mmadụ nwere ike ikwu ihe na-enweghị ihe akaebe ma ọ bụ mehie obere mmejọ; igwe agaghị anabata nzọụkwụ na-esoghị n'ụzọ kpọmkwem. Nke a bụ ihe mere anyị ji asị na nsonaazụ ya bụ **nke igwe nyochara**.
 
 ![alt text](image-3.png)
 
-Proof assistants you may hear named include **Lean**, **Rocq** (formerly Coq), and **Isabelle**. They are, in effect, extraordinarily strict logic-checking engines. The Zcash proof in our opening story was written in **Lean**. Notably, modern AI models are increasingly used to help *write* these proofs, with humans guiding them, which has shortened efforts that once took years down to weeks. The machine still checks every step, so the speed-up does not cost any certainty.
+Ụfọdụ proof assistants ị nwere ike ịnụ aha ha gụnyere **Lean**, **Rocq** (nke bụbu Coq), na **Isabelle**. N'ezie, ha bụ engines pụrụ iche siri ike nke na-enyocha ezi uche. E dere proof Zcash dị n'akụkọ mmalite anyị na **Lean**. N'ụzọ pụtara ìhè, a na-eji ụdị AI ọgbara ọhụrụ enyere aka *ide* proofs ndị a, ebe ụmụ mmadụ na-eduzi ha; nke a emeela ka ọrụ ndị na-ewerebu afọ daa ruo izu ole na ole. Igwe ahụ ka na-enyocha nzọụkwụ ọ bụla, ya mere mmụba ọsọ ahụ anaghị ebelata n'aka ọ bụla.
 
 ---
 
-## 4. Ihe àmà bụ n'ezie ihe a na-ekwu okwu ya.
+## 4. Ihe proof bụ n'ezie
 
-The word "proof" can feel intimidating, so let's demystify it with a concrete, checkable example. No cryptography, just school arithmetic.
+Okwu …proof… nwere ike ịdị egwu, ya mere ka anyị mee ka ọ dị mfe site n'ọrụ atụ doro anya ma a pụrụ inyocha. Enweghị cryptography, naanị mgbakọ ụlọ akwụkwọ.
 
-** Nkwupụta:** maka nọmba ọ bụla zuru ezu. `n`, ego ahụ bụ: `0 + 1 + 2 + ... + n` hà nhata `n(n+1)/2`.
+**Nkwupụta:** maka ọnụọgụ zuru ezu ọ bụla `n`, nchikọta `0 + 1 + 2 + ... + n` hà `n(n+1)/2`.
 
-Ị nwere ike *nyochaa* nke a. `n = 5` na-enye ya. `0+1+2+3+4+5 = 15`, na `5 × 6 / 2 = 15`. ✓ Ọ dabara. Gbalịa ya `n = 10`: ngụkọta bụ: `55`, na usoro ahụ nyere `10 × 11 / 2 = 55`✓ (A na-agbakọ ma kwado ha; n'eziokwu, ihe ahụ e kwuru bụ eziokwu maka onye ọ bụla nọ ebe a. `n` site na 0 ruo 999 mgbe enyocha ya ozugbo.)
+Ị nwere ike *ịnwale* nke a. `n = 5` na-enye `0+1+2+3+4+5 = 15`, na `5 × 6 / 2 = 15`. ✓ Ha kwekọrọ. Nwale `n = 10`: nchikọta ya bụ `55`, usoro ahụ na-enye `10 × 11 / 2 = 55`. ✓ (A gbakọọla ma kwado ihe ndị a; n'ezie nkwupụta a na-adị irè maka `n` ọ bụla site na 0 ruo 999 mgbe a nyochara ya ozugbo.)
 
-Ma iji nyochaa uru, ọbụlagodi otu puku n'ime ha, anaghị erute "maka ọnụ ọgụgụ zuru ezu ọ bụla". Enwere ọtụtụ ndị na-enweghị njedebe. Ihe akaebe a mechiri oghere ahụ enweghị ngwụcha na arụmụka nwere oke, site na iji usoro akpọrọ induction:
+Mana ịnwale ụkpụrụ, ọbụna otu puku n'ime ha, agaghị eru …maka ọnụọgụ zuru ezu **ọ bụla**…. Ha enweghị njedebe. **Proof** na-emechi oghere na-enweghị njedebe ahụ site n'ọrụ nwere njedebe, na-eji usoro a na-akpọ **induction**:
 
-1. ** Ihe ndabere:** maka `n = 0`, ego ahụ bụ naanị `0`, na usoro ahụ nyere `0 × 1 / 2 = 0`Ha kwetara. ✓
-2. ** Nzọụkwụ na-akpali akpali:** *were* usoro ahụ dị maka ụfọdụ ọnụọgụ. `k`Ugbu a gbakwunye nọmba na-esote, `k+1`. Ihe ruru ruo `k+1` is `(sum up to k) + (k+1) = k(k+1)/2 + (k+1)`. A akara nke algebra rearranges a ka `(k+1)(k+2)/2`, nke bụ kpọmkwem usoro na-eme ka a mara ihe dị iche. `k+1` n'ọnọdụ nke `k`. ✓
+1. **Ikpe Base:** maka `n = 0`, nchikọta ahụ bụ naanị `0`, usoro ahụ na-enye `0 × 1 / 2 = 0`. Ha kwekọrọ. ✓
+2. **Nzọụkwụ induction:** *chee na* usoro ahụ dị irè maka ọnụọgụ ụfọdụ `k`. Ugbu a tinye ọnụọgụ na-esote, `k+1`. Nchikọta ruo `k+1` bụ `(sum up to k) + (k+1) = k(k+1)/2 + (k+1)`. Otu ahịrị algebra na-ahazigharị nke a ka ọ bụrụ `(k+1)(k+2)/2`, nke bụ kpọmkwem usoro ahụ mgbe `k+1` nọchiri `k`. ✓
 
-Since it holds at the start (0) and each step carries it to the next number, it holds for **all** whole numbers, forever, in one finite argument. That is a proof. A proof assistant does exactly this reasoning, but mechanically verifies that every step, including the "line of algebra," genuinely follows from what came before.
+Ebe ọ bụ na ọ dị irè na mmalite (0), ma nzọụkwụ ọ bụla na-ebuga ya n'ọnụọgụ na-esote, ọ dị irè maka ọnụọgụ zuru ezu **niile**, ruo mgbe ebighị ebi, site n'otu arụmụka nwere njedebe. Nke ahụ bụ proof. Proof assistant na-eme kpọmkwem ụdị echiche a, mana ọ na-eji usoro igwe achọpụta na nzọụkwụ ọ bụla, gụnyere …otu ahịrị algebra ahụ…, na-esite n'ezie n'ihe bu ya ụzọ.
 
-> Ihe a na-akpọ "mmụba" bụ ihe dị mkpa: onye ahụ ga-enwe ike iji aka ya chọpụta ma ò nwere ebe ọ bụla okwu ndị e kwuru n'amaokwu Baịbụl ụfọdụ si. Ọ bụrụkwa na o nweghị, anyị agaghị enwe ike ikwucha nke ọma otú ahụ ka ànyị sị na ha esighị.
+> Echiche dị mkpa ị ga-anabata: proof na-atụgharị …ọnọdụ na-enweghị njedebe… ka ọ bụrụ **arụmụka nwere njedebe, a pụrụ inyocha**. Nke ahụ bụ ike pụrụ iche ịnwale na-enweghị n'usoro ya.
 
 ---
 
-## Ebe ụmụ ahụhụ na-ebi n'ezie
+## 5. Ebe bugs na-adị n'ezie
 
-Nyocha nyocha dị ike n'ihi na ọ bụ ihe doro anya banyere * ebe* njehie si abịa. Ọ bụla ntụpọ na usoro iwu-nyochaa usoro a ga - achọpụta otu n'ime ebe atọ:
+Nnyocha nkwenye iwu dị ike n'akụkụ ụfọdụ n'ihi nghọta doro anya banyere *ebe* bugs si apụta na mbụ. Mmejọ ọ bụla n'usoro na-enyocha iwu na-esite n'otu n'ime ebe atọ:
 
-| Isi mmalite nke njehie | Ihe ọ pụtara | Ànyị nwere ike igosi na ọ dị mma? |
+| Isi iyi bug | Ihe ọ pụtara | Anyị nwere ike iji proof wepụ ya? |
 |---|---|---|
-| **Nkọwapụta ahụ** | Mgbakọ na mwepụ ma ọ bụ iwu ndị ahụ n'onwe ha ezighi ezi (ọnọdụ na-efu, nkọwa na-adịghị mma) | **Ee**, ozugbo, nke a bụ ebe obibi nke nkwenye iwu kwadoro |
-| **Mmejuputa ya** | Koodu ahụ anaghị eme ihe ziri ezi nke ọma | N'otu aka; ọtụtụ mgbe ọdịda ndị dị otú ahụ na-ahapụ ihe akaebe a na-ahụ anya |
-| **Echiche gbajiri agbaji** | Ihe usoro dum dabere na ya na-aghọ ụgha | Mba; echiche bụ ntọala a na-apụghị ịgbanwe agbanwe |
+| **Nkọwapụta** | Mgbakọ na mwepụ ma ọ bụ iwu n'onwe ha ezighi ezi (ọnọdụ furu efu, nkọwa na-adịghị mma) | **Ee**, ozugbo; nke a bụ ebe nnyocha nkwenye iwu na-arụ ọrụ kacha mma |
+| **Mmejuputa** | Code anaghị eme nkọwapụta ziri ezi n'eziokwu | N'akụkụ ụfọdụ; mgbe ụfọdụ ọdịda ndị a na-ahapụ ihe akaebe a pụrụ ịchọpụta |
+| **Echiche a dabere na ya dara ada** | Ihe usoro dum dabere na ya ghọrọ ihe na-adịghị ezi | Mba; echiche ndị ahụ bụ ntọala a na-apụghị ibelata |
 
-This taxonomy matters more than it looks, and Parts 2 and 3 turn on it. The deepest, most dangerous bugs, the ones that can hide forever, tend to live in the **specification**: the mathematical description of what the system is supposed to do. And the specification is exactly what a machine-checked proof can examine directly, all cases at once. That is why serious formal-verification efforts aim there first.
+Nhazi a dị mkpa karịa ka ọ dị ka ọ bụ, Nkebi 2 na 3 daberekwa na ya. Bugs kachasị omimi ma dị ize ndụ, ndị nwere ike izo ruo mgbe ebighị ebi, na-adịkarị na **nkọwapụta**: nkọwa mgbakọ na mwepụ nke ihe usoro ahụ kwesịrị ime. Nkọwapụta ahụ bụkwa kpọmkwem ihe proof igwe nyochara nwere ike nyochaa ozugbo, n'ọnọdụ niile n'otu oge. Nke a bụ ihe mere mgbalị siri ike nke nnyocha nkwenye iwu ji elekwasị anya ebe ahụ mbụ.
 
 ![alt text](image-4.png)
 
 ---
 
-## 6. Ihe kachasị mkpa ị ga-echebara echiche n'ọhịa dum bụ:
+## 6. Ndụmọdụ kacha mkpa n'ọrụ a dum
 
-Formal verification is powerful, but its promise is precise, and misunderstanding it leads people astray. So state it carefully:
+Nnyocha nkwenye iwu dị ike, mana nkwa ya doro anya, aghọtahie ya na-eduhie ndị mmadụ. Ya mere, kwuo ya nke ọma:
 
-> ** Ihe akaebe na-ekwe nkwa *na usoro ahụ* ga - emezu nkọwapụta, n'okpuru nkwupụta nke echiche. Ọ dịghị ihe ọzọ.**
+> **Proof na-ekwe nkwa na *usoro* na-emezu *nkọwapụta*, n'okpuru *echiche ndị ekwuru*. Ọ dịghị ihe ọzọ.**
 
-Ihe anọ na-eso ya, nke ọ bụla n'ime ha dịkwa mkpa:
+Nsonaazụ anọ na-esite na nke a, nke ọ bụla dịkwa mkpa:
 
-- **If the specification is wrong, the proof is worthless.** If you prove "every door locks" but the real requirement was "every *window* locks," you have proven the wrong thing, perfectly. Verification checks that you built *what you specified*, not that you specified the right thing.
-- ** Ọ bụrụ na nkọwa a bụ ihe ezighi ezi, nkwa ahụ ga-ebelata.** Ihe akaebe banyere ntakịrị njehie nke "nhazi" nwere ike igosi obere karịa ka ị chere ma ọ ka na-agafe nyocha niile. Nke a mere njirimara ndị dị n'obi nkwenye kwesịrị ịdị mkpụmkpụ, ọkọlọtọ, yana ụmụ mmadụ nwere ike nyochaa ya.
-- ** Ọ bụrụ na echiche ndị ahụ ada, nkwa a ga-akwụsị.** Ihe akaebe dabere n'echiche ("ihe mkpọchi anaghị emebi"). Ọ bụrụ n 'iche bụ ụgha n'eziokwu, nkwubi okwu agaghị adị.
-- **It does not mean "no bugs ever."** It means "no bugs of the kind ruled out by this specification, given these assumptions." A narrower, more honest, and far more useful claim.
+- **Ọ bụrụ na nkọwapụta ezighi ezi, proof ahụ abaghị uru.** Ọ bụrụ na i gosipụta …ọnụ ụzọ ọ bụla na-akpọchi… ma ihe achọrọ n'ezie bụ …windo *ọ bụla* na-akpọchi…, ị gosila ihe na-ezighi ezi n'ụzọ zuru oke. Nnyocha nkwenye na-enyocha na i wuru *ihe i kọwapụtara*, ọ bụghị na i kọwapụtara ihe kwesịrị ekwesị.
+- **Ọ bụrụ na e kwuru nkọwa n'ụzọ nwere obere mmejọ, nkwa ahụ na-adị warara n'enweghị mkpọtụ.** Proof gbasara nkọwa …balance… nwere ntakịrị mmejọ nwere ike igosi ihe na-erughị ka i chere, ebe ọ ka na-agafe nyocha ọ bụla. Nke a bụ ihe mere nkọwa ndị dị n'obi nnyocha nkwenye ji kwesị ịdị mkpụmkpụ, ọkọlọtọ, ma ndị mmadụ nwee ike nyochaa ha n'ihu ọha.
+- **Ọ bụrụ na echiche ndị e dabere na ha ada ada, nkwa ahụ na-akwụsị ịdị irè.** Proofs na-adabere n'echiche (…akụrụngwa mkpọchi adịghị agbaji n'anụ ahụ…). Ọ bụrụ na echiche ahụ ezighi ezi n'ezi ụwa, nkwubi okwu ahụ ekwesịghị ịdị irè.
+- **Ọ pụtaghị …enweghị bugs mgbe ọ bụla….** Ọ pụtara …enweghị bugs nke ụdị nkọwapụta a wepụrụ, ma ọ bụrụ na echiche ndị a dị irè…. Nke a bụ nkwupụta warara, nke e ji ezi obi kwuo, ma baa uru karịa nke ukwuu.
 
-Ọ na-agwa gị * kpọmkwem* ihe ị na - enweta. Dịka anyị ga - ahụ n'akụkụ nke 3, ndị otu Zcash kwuru ọkwa ha na echiche ha hoo haa ("anyị gosipụtara ịdị mma, n'okpuru nkwenye a akpọrọ aha, ọ bụghị nzuzo") bụ ụdị ịkwụwa aka ọtọ ahụ.
+Kama ime ka nnyocha nkwenye iwu ghara ịdị ike, izi ezi a bụ ike ya. Ọ na-agwa gị *kpọmkwem* ihe ị na-enweta. Dị ka anyị ga-ahụ na Nkebi 3, ndị otu Zcash ikwu oke na echiche ha n'ụzọ doro anya (…anyị gosiri ịdị mma nke supply, n'okpuru echiche ndị a akpọrọ aha, ọ bụghịkwa Nzuzo…) bụ ihe atụ nke ezi obi ahụ.
 
 ![alt text](image-5.png)
 
 ---
 
-## 7. Onye na-ekwu eziokwu mgbe ọ bụla o kwuru ihe ga-eme ka a ghara ijide ya.
+## 7. Nkwupụta eziokwu
 
-To keep this readable we simplified. Real specifications are written in precise formal languages, not English sentences; there are several *styles* of formal verification (interactive theorem proving, model checking, SMT-based methods) suited to different problems; and writing these proofs remains skilled, effortful work even with AI assistance. We also skipped how a proof assistant represents logic internally. None of this changes the core: a specification, a system, and a machine-checked proof that the two agree, under stated assumptions. The detail returns as we need it.
-
----
-
-## 8. Nchịkọta nke Ihe Ndị E Dere na Ya
-
-- **Ule** na-enyocha ihe ntinye ma nwee ike igosi nje dị, ọ bụghị mgbe ahụhụ adịghị. Nje ndị ahụ dị ize ndụ zoro n'okwu ikpe nke onye ọbụla anaghị enyocha.
-- **Nnyocha nyocha** na-egosi ihe onwunwe maka ọnọdụ ọ bụla, n'ime njedebe, arụmụka a pụrụ ịlele.
-- Nnyocha ọ bụla nwere ogidi atọ: nkọwapụta (ihe ziri ezi pụtara), usoro (ihe a na-enyocha) yana ihe akaebe nke ha kwenyere, gbakwunyere onye enyemaka akaebe (dị ka Lean) nke igwe nyocha nzọụkwụ niile.
-- Ihe akaebe (dịka ọmụmaatụ, site na ntinye) dara ọtụtụ ikpe n'ime otu arụmụka njedebe.
-- Nje na-ebi n'ime nkọwapụta, mmejuputa iwu ma ọ bụ nkwenye mebiri emebi. Nyocha nyocha nke ọma lekwasịrị anya kpọmkwem na nkọwapụta ahụ, ebe ndị miri emi karị, ihe nzuzo zoro ezo nwere ike ibi ndụ.
-- Nkwado ahụ bụ nke ziri ezi: usoro a na-ezute nkọwapụta, n'okpuru nkwupụta ekwuru. Ihe ezighi ezi, nkọwa akọwapụtara ma ọ bụ nkwenye agbajiri ya, ọ dịghịkwa mgbe ọ pụtara "enweghị ahụhụ".
+Iji mee ka nke a dị mfe ịgụ, anyị mere ka ihe ụfọdụ dị mfe. A na-ede ezigbo nkọwapụta n'asụsụ iwu doro anya, ọ bụghị n'ahịrịokwu Bekee; e nwere ọtụtụ *ụdị* nnyocha nkwenye iwu (interactive theorem proving, model checking, ụzọ dabere na SMT) dabara nsogbu dị iche iche; ide proofs ndị a ka bụ ọrụ chọrọ nka na mgbalị, ọbụna mgbe AI na-enyere aka. Anyị hapụkwara otu proof assistant si anọchi ezi uche n'ime ya. Ọ dịghị nke ọ bụla n'ime ihe ndị a na-agbanwe isi ihe ahụ: nkọwapụta, usoro, na proof igwe nyochara nke na-egosi na ha kwekọrọ, n'okpuru echiche ndị ekwuru. Anyị ga-alaghachi na nkọwa ndị ahụ mgbe ha dị anyị mkpa.
 
 ---
 
-## Akwụkwọ ọkọwa okwu
+## 8. Nchịkọta
 
-| Oge okwu | Nkọwa Bekee dị mfe |
+- **Ịnwale** na-ahọrọ ntinye ụfọdụ ma nwee ike igosi na bug dị, ma ọ gaghị egosi na bugs adịghị. Bugs dị ize ndụ na-ezo n'ọnọdụ ndị ọ dịghị onye họrọ ịnwale.
+- **Nnyocha nkwenye iwu** na-egosi na njirimara dị irè maka ọnọdụ **ọ bụla** o nwere ike ime, n'arụmụka nwere njedebe a pụrụ inyocha.
+- Nnyocha nkwenye ọ bụla nwere ogidi atọ: **nkọwapụta** (ihe ziri ezi pụtara), **usoro** (ihe a nyochara), na **proof** na-egosi na ha kwekọrọ, tinyere **proof assistant** (dịka **Lean**) nke igwe na-eji enyocha nzọụkwụ ọ bụla.
+- **Proof** (dịka ọmụmaatụ, site na **induction**) na-achịkọta ọnọdụ na-enweghị njedebe ka ọ bụrụ otu arụmụka nwere njedebe.
+- Bugs na-adị na **nkọwapụta**, **mmejuputa**, ma ọ bụ **echiche dara ada**. Nnyocha nkwenye iwu na-elekwasị nkọwapụta anya ozugbo, nke bụ ebe bugs kasị omimi ma zoro ezo na-adịkarị.
+- Nkwa ahụ doro anya: usoro ahụ na-emezu **nkọwapụta ahụ**, n'okpuru **echiche ndị ekwuru**. Nkọwapụta na-ezighi ezi, nkọwa ekwuru n'ụzọ na-adịghị mma, ma ọ bụ echiche dara ada na-eme ka ọ ghara ịdị irè, ọ pụtaghịkwa …enweghị bugs mgbe ọ bụla….
+
+---
+
+## Nkọwa okwu
+
+| Okwu | Ihe ọ pụtara n'ụzọ dị mfe |
 |---|---|
-| **Formal verification** | Na-egosi, n'ụzọ mgbakọ na mwepụ, na sistemụ na-emezu nkọwapụta maka ikpe niile |
-| **Specification** | Nkọwa zuru oke nke ihe "omume ziri ezi" pụtara |
-| **System** | Mmemme, sekit, ma ọ bụ usoro a na-enyocha n'ezie |
-| **Proof** | Usoro dị oke mma nke usoro ezi uche dị na ya nke na-eme ka mkpesa maka ikpe niile dị |
-| **Proof assistant / theorem prover** | Ngwanrọ (Lean, Rocq, Isabelle) nke na-enyocha nzọụkwụ ọ bụla nke ihe akaebe |
-| **Machine-checked** | Kọmputa kwadoro ya site na nzọụkwụ site na nzọụkwụ, ọ bụghị naanị site na ọgụgụ mmadụ |
-| **Induction** | Usoro nnwale: eziokwu na mbido, nzọụkwụ ọ bụla na-ebuga ya na nke ọzọ |
-| **Assumption** | Ọnọdụ ihe akaebe ahụ dabere na ya; ọ bụrụ na ọ bụ ụgha, nkwa ahụ nwere ike ọ gaghị ejide ya |
+| **Formal verification** | Igosipụta, site na mgbakọ na mwepụ, na usoro na-emezu nkọwapụta maka ọnọdụ niile |
+| **Specification** | Okwu doro anya nke ihe …omume ziri ezi… pụtara |
+| **System** | Mmemme, sekit, ma ọ bụ protocol n'ezie a na-enyocha |
+| **Proof** | Usoro nwere njedebe nke nzọụkwụ ezi uche na-egosi nkwupụta maka ọnọdụ niile |
+| **Proof assistant / theorem prover** | Software (Lean, Rocq, Isabelle) nke na-enyocha nzọụkwụ ọ bụla nke proof |
+| **Machine-checked** | Kọmputa nyochara ya nzọụkwụ site na nzọụkwụ, ọ bụghị naanị site n'ịgụ mmadụ |
+| **Induction** | Usoro proof: ọ dị irè na mmalite, nzọụkwụ ọ bụla na-ebuga ya n'ọnọdụ na-esote |
+| **Assumption** | Ọnọdụ proof dabere na ya; ọ bụrụ na ọ bụ ụgha, nkwa ahụ nwere ike ghara ịdị irè |
 
 ---
 
-## Ajụjụ ndị a na-ajụkarị
+## Ajụjụ a na-ajụkarị
 
-**Nnyocha e mere n'ụzọ iwu kwadoro ọ̀ na-anọchi ule?**
-Mba. Ha na-emeju ibe ha. Nnyocha na-ejide nsogbu ndị dị irè ma ọ bụ echiche ụgha n'ụzọ dị ọnụ ala; nkwenye na-ewepụ ụdị ahụhụ niile nke ule nwere ike ghara ịnwale.
+**Nnyocha nkwenye iwu ọ na-anọchi ịnwale?**
+Mba. Ha na-akwado ibe ha. Ịnwale na-achọpụta nsogbu bara uru na echiche na-ezighi ezi n'ụzọ dị ọnụ ala; nnyocha nkwenye na-ewepụ klas bugs dum nke ịnwale nwere ike ghara ịhọrọ mgbe ọ bụla.
 
-** Ọ bụrụ na ọ dị ike, gịnị kpatara anaghị enyocha ihe niile n'ụzọ iwu?**
-Ọ dị oke ọnụ ma chọọ nkà ọkachamara, ọ bụ ezie na enyemaka AI na-ebelata ụgwọ ahụ. A debere ya maka sistemụ ebe ahụhụ a na-adịghị ahụkebe ga-abụ ihe jọgburu onwe ya, nke bụkwa kpọmkwem ebe ego ya bara uru.
+**Ọ bụrụ na ọ dị ike otú a, gịnị mere na a naghị eme nnyocha nkwenye iwu maka ihe niile?**
+Ọ dị ọnụ ahịa ma na-achọ nka pụrụ iche, n'agbanyeghị na enyemaka AI na-ebelata ọnụ ahịa ahụ. A na-edobe ya maka usoro ebe bug na-adịkarịghị ga-ebute ọdachi, nke bụ kpọmkwem ebe ọnụ ahịa ya na-akwụ ụgwọ.
 
-** Enwere ike ịlele usoro nyocha nke ọma ka ọ daa?**
-Yes, if the specification was wrong, a definition was mis-stated, an assumption did not hold, or the failure lies outside what was specified. The proof only covers what it claims to cover.
+**Usoro e mere nnyocha nkwenye iwu maka ya ọ ka nwere ike ada ada?**
+Ee, ọ bụrụ na nkọwapụta ezighi ezi, e kwuru nkọwa n'ụzọ na-adịghị mma, echiche adịghị irè, ma ọ bụ ọdịda ahụ dị n'èzí ihe e kọwapụtara. Proof ahụ na-ekpuchi naanị ihe ọ na-ekwu na ọ na-ekpuchi.
 
-** Ihe akaebe igwe enyocha ọ bụ ihe a pụrụ ịtụkwasị obi karịa nke mmadụ?**
-Maka ihe àmà ndị buru ibu ma dị mgbagwoju anya, n'ozuzu ya ee. Igwe ahụ agaghị eleghara oghere na-adịghị apụtacha ìhè anya ma ọ bụ nabata aka e ji eme ka a mara ebe o chere ihu, ọ bụ ezie na ọ ka tụkwasịrị obi ná nkọwapụta nke usoro ọrụ nakwa n'ihe ndị e kwuru banyere ha.
+**Proof igwe nyochara ọ na-adị ntụkwasị obi karịa nke mmadụ mere?**
+Maka proofs buru ibu ma gbagwojuru anya, n'ozuzu ee. Igwe agaghị eleghara obere oghere anya ma ọ bụ nakwere okwu enweghị ihe akaebe, n'agbanyeghị na ọ ka na-atụkwasị nkọwapụta na nkọwa e nyere ya obi.
 
-** Ọ bụrụ na AI enyere aka dee ihe àmà ahụ, gịnị mere ị ga-eji tụkwasị ya obi?**
-N'ihi na onye enyemaka nyocha ahụ nyochaa usoro ọ bụla n'ụzọ akụrụngwa. AI na-atụ aro nzọụkwụ; igwe gosipụtara ha. A jụrụ ụzọ ezighi ezi, yabụ AI na -eme ka ọrụ rụọ ngwa ngwa ma ghara imebi nkwa ahụ.
+**Ọ bụrụ na AI na-enyere aka ide proof, gịnị mere anyị ga-eji tụkwasị ya obi?**
+N'ihi na proof assistant na-enyocha nzọụkwụ ọ bụla n'usoro igwe. AI na-atụ aro nzọụkwụ; igwe na-achọpụta ha. A na-ajụ naanị nzọụkwụ na-ezighi ezi, ya mere AI na-eme ka ọrụ ahụ dị ngwa n'ebelataghị nkwa ahụ.
 
 ---
 
-### Nwalee ihe ị ma banyere ya .
+### Nwale nghọta gị
 
-Ị na-egosi na ngwanrọ ụlọ akụ "anaghị ekwe ka ego dị n'akaụntụ gaa ebe ọ ga-efu". Otu afọ mgbe e mesịrị, a ka nwere ego furu efu. Olee otú ha abụọ pụrụ isi bụrụ eziokwu ozugbo? * (Zaa ajụjụ ndị ahụ n'okpuru.)*
+I gosipụtara na software ụlọ akụ …anaghị ekwe ka balance akaụntụ gaa n'okpuru efu…. Otu afọ gachara, ego ka na-efu. Olee otu ihe abụọ ahụ nwere ike isi bụrụ eziokwu n'otu oge? *(Azịza dị n'okpuru.)*
 
-<details><summary>Answer</summary>
+<details><summary>Azịza</summary>
 
-The proof guaranteed exactly one property: balances never go negative. Money can go missing in ways that property never addressed, for example a bug that moves funds to the wrong (still non-negative) account, or a flaw in a part of the system that was never specified. The verification did precisely what it promised and nothing more. This is the Section 6 caveat in action: a proof covers the specification, not every conceivable notion of "correct."
+Proof ahụ kwere nkwa kpọmkwem otu njirimara: balances anaghị aga n'okpuru efu. Ego nwere ike ifu n'ụzọ njirimara ahụ na-adịghị ekwu maka ya, dịka bug na-ebuga ego n'akaụntụ na-ezighi ezi (nke ka na-adịghị n'okpuru efu), ma ọ bụ mmejọ n'akụkụ usoro a na-akọwapụtaghị mgbe ọ bụla. Nnyocha nkwenye ahụ mere kpọmkwem ihe o kwere nkwa, ọ dịghịkwa ihe ọzọ. Nke a bụ ndụmọdụ Nkebi 6 na-arụ ọrụ: proof na-ekpuchi nkọwapụta, ọ bụghị echiche ọ bụla a pụrụ iche n'echiche banyere …ihe ziri ezi….
 </details>
 
 ---
 
-### Gịnị na-esote?
+### Ihe na-esote
 
-**Part 2 · The Orchard Bug:** we turn to the real 2026 story in full. A privacy system hid amounts using cryptographic proofs, and one under-constrained line in its math meant those proofs could be made to lie, allowing unlimited invisible counterfeiting. We will see exactly what "an under-constrained circuit" means, why this class of bug can hide forever, and why it has happened more than once.
+**Nkebi 2 · Bug Orchard:** anyị ga-atụgharị ugbu a n'akụkọ 2026 n'ezie n'uju. Usoro Nzuzo zoro ego ole e ji eme azụmahịa site na cryptographic proofs, ma otu ahịrị a naghị amanye nke ọma n'ime mgbakọ na mwepụ ya pụtara na a pụrụ ime ka proofs ndị ahụ kwuo ụgha, nke na-ekwe ka e mee ego adịgboroja a na-apụghị ịhụ anya na-enweghị oke. Anyị ga-ahụ kpọmkwem ihe …sekit a naghị amanye nke ọma… pụtara, ihe mere klas bug a ji nwee ike izo ruo mgbe ebighị ebi, na ihe mere ọ ji mee ihe karịrị otu ugboro.
 
-*Akụkụ nke usoro nyocha ọfụma maka* [ZecHub](https://zechub.org).*
+*Ọ bụ akụkụ nke* Formal Verification *series maka [ZecHub](https://zechub.org).*

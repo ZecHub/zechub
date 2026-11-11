@@ -1,50 +1,50 @@
-# Ntuziaka Ụdị ZecHub
+# ZecHub Ntuziaka ụdị edemede [Style Guide]
 
-Ụdị ZecHub dị mfe ma bụrụ onye a na-abịakwute. Anyị nabatara mmadụ niile ma lekwasị anya n'obodo Zcash.
+Ụdị edemede ZecHub dị mfe ma dịrị mfe ịbịaru nso. Anyị na-anabata onye ọ bụla ma na-elekwasị anya n'obodo Zcash.
 
-## Ụkpụrụ Ndị E Ji Eme Ihe
+## Ụkpụrụ
 
-1. ** Njikere inye aka** - Gosi ndị ọrụ Zcash na anyị nọ n'akụkụ ha.
+1. **Dị njikere inye aka** - Gosi ndị ọrụ Zcash na anyị nọ n'akụkụ ha.
 
-2. ** Na-ekwu okwu nkenke ma kwuo kpọmkwem ihe ị chọrọ ikwu:** Gwa ya otú ọ ga-esi kọwaa gị. Malite n'ihe kacha mkpa i kwesịrị ịgwa ya.
+2. **Dị mkpirikpi ma kwuo isi okwu:** Nyefee ozi kachasị mfe o kwere mee. Bido n'ihe kacha mkpa.
 
-3. ** Onye ọrụ-centric:** Anyị na ede maka ndị ọrụ mbụ, mmepe nke abụọ, na onye ọ bụla ọzọ atọ.
+3. **Lezie ndị ọrụ anya:** Anyị na-ede maka ndị ọrụ mbụ, ndị mmepụta nke abụọ, na onye ọ bụla ọzọ nke atọ.
 
-## Ihe Ndị Bụ́ Isi E Kwesịrị Ịma
+## Ihe ndị bụ isi
 
-- **Nweta isi okwu**. Malite na ihe kachasị mkpa. Okwu ndị dị n'ihu maka skimming. Mee ka nhọrọ onye ọrụ ahụ doo anya yana usoro ọzọ.
+- **Gaa n'isi okwu ahụ**. Bido n'ihe kacha mkpa. Tinye mkpụrụokwu ndị dị mkpa n'ihu ka ọ dị mfe ilegharị anya. Mee ka nhọrọ na usoro ọzọ onye ọrụ ga-eme doo anya.
 
-- **Dee ka ị na-ekwu okwu** Ndị ọrụ anyị bụ ndị mmadụ. Gwa ha okwu n'edemede.
+- **Dee dịka ị na-ekwu okwu**. Ndị ọrụ anyị bụ ezigbo mmadụ. Gwa ha okwu n'ede.
 
-- **Kwuo okwu nkenke**. Nye ndị ọrụ ihe ọmụma zuru ezu ka ha wee dozie nsogbu ma ọ bụ mee nhọrọ.
+- **Dị mkpirikpi**. Nye ndị ọrụ ozi zuru ezu iji dozie nsogbu ma ọ bụ mee nhọrọ.
 
-- **Skip periods in titles**. Remove the end punctuation on titles, headings, subheads, UI titles, and list items with three or fewer words. Periods are used in paragraphs and body copy.
+- **Hapụ ntụpọ n'aha**. Wepụ akara edemede ngwụcha n'aha, isiokwu, obere isiokwu, aha UI [UI], na ihe dị na ndepụta nwere okwu atọ ma ọ bụ ole na ole. A na-eji ntụpọ n'ahịrịokwu na n'ederede isi.
 
-  - Ihe Nlereanya: Pịa bọtịnụ Send->Pịa bọtịn Ziga.
+  - Ihe atụ: Pịa bọtịnụ Zipu->Pịa bọtịnụ Zipu
 
-- ** Mgbe ị na-enwe obi abụọ, zere iji mkpụrụedemede mee ihe. Naanị jiri isi okwu ma ọ bụ aha dị ka Zcash, yana okwu mbụ nke isiokwu ma ọ bụkwanụ ahịrịokwu.
+- **Mgbe ị na-enwe obi abụọ, zere iji mkpụrụedemede ukwu**. Jiri mkpụrụedemede ukwu naanị n'aha pụrụ iche ma ọ bụ aha dịka Zcash, nakwa n'okwu mbụ nke isiokwu ma ọ bụ nkebiokwu.
 
-  - Examples: How to Send ZEC with Unified Address. → How to send ZEC with unified address
+  - Ihe atụ: Otu esi ezipu ZEC na Adreesị akpa ego jikọtara ọnụ. → Otu esi ezipu ZEC na adreesị akpa ego jikọtara ọnụ
 
-- **Detuo ederede na-adịghị ike**. Ọtụtụ oge, bido ahịrịokwu ọ bụla site n'ime ngwaa ị nwere ike ma e kwesịrị ka a degharịa ya.
+- **Degharịa edemede na-esighị ike**. Ọtụtụ mgbe, jiri ngwaa bido nkwupụta ọ bụla. Ekwesịrị idegharị You can na there were.
 
-  - Ihe Nlereanya: Ị nwere ike izipu ma nata ZEC site na ekwentị mkpanaaka gị->Ziga ma nweta ZEC na ekwentị gị.
+  - Ihe atụ: Ị nwere ike izipu ma nata ZEC site na ekwentị mkpanaaka gị->Zipu ma nata ZEC site na ekwentị gị
 
-- Ejila naanị otu oghere mgbe ị gachara oge na colon.
+- **Ejila oghere gabiga ókè**. Jiri naanị otu oghere mgbe ntụpọ na kọlụm gasịrị.
 
-- **Zere okwu ndị na-abụghị Bekee** dịka de facto ma ọ bụ ad hoc. Zere mkpirisi Latin nke ahịrịokwu bekee a maara nke ọma.
+- **Zere okwu na-abụghị Bekee** dịka de facto ma ọ bụ ad hoc. Zerekwa ndebiri Latin nke nkebiokwu Bekee ndị a na-ahụkarị.
 
     | Jiri nke a    | Kama nke a |
     |-------------|-----------------|
-    | ọmụmaatụ | e.g.            |
-    | nke ahụ bụ     | i.e.            |
+    | dịka ọmụmaatụ | e.g.            |
+    | ya bụ     | i.e.            |
 
-## Tweets ndị ọzọ
+## Ozi Twitter [Tweets]
 
-> Ntuziaka a na-edekarị maka ide edemede ma ọ bụ ntuziaka onye ọrụ nke ZecHub. Ọ dịkwa mma iji tweet na mkpirisi okwu ndị ọzọ: mee ka ha dị nkenke, buru ụzọ tinye isi ihe ahụ n'ihu, ma hapụ akara njedebe na obere ahịrị.
+> Ntuziaka ụdị edemede a n'ozuzu bụ maka ide akụkọ ma ọ bụ ntuziaka onye ọrụ maka ZecHub. Ọ metụtakwara ozi Twitter na nkwupụta ndị ọzọ dị mkpirikpi: mee ka ha dị mkpirikpi, tinye isi okwu n'ihu, ma hapụ akara edemede ngwụcha n'ahịrị dị mkpirikpi.
 
 ---
 
 <small>
-ZecHub style guide is adapted from <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Writing Style Guide</a> with modifications. Consult Microsoft guide when you need to.
+Emegharịala ntuziaka ụdị edemede ZecHub site na <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Ntuziaka ụdị edemede</a> ma tinye mgbanwe. Lelee ntuziaka Microsoft mgbe ịchọrọ ime otú ahụ.
 </small>

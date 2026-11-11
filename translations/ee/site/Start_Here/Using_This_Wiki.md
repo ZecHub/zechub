@@ -3,28 +3,28 @@
 </a>
 
 
-# Wiki sia zazã
+# Ale si nàzã Wiki
 
-Esiawo dometɔ aɖewo ate ŋu agbɔ eme. Míexɔe! Nyatakaka geɖe le afisia. Afɔɖeɖe ɖesiaɖe ƒe mɔfiame bɔbɔe aɖe si te gbe ɖe alesi wòle be nàzɔ wiki la dzi enye si.
+Esia dometɔ aɖewo ate ŋu adze le wò ŋu na wò be enyo o. Míesee! Nyadzɔdzɔ geɖe le afisia. Ƒoɖoɖo bɔbɔe, afɔ ɖe afɔ, si fia ale si wòle be nàto wiki la me ene sia.
 
-## Yeye le Zcash me
+## Wòle yeyee le Zcash me
 
-Ne ènye ame yeye le Zcash la, teƒe nyui aɖee nye esia be nàfɔ le du dzi. Nu gbãtɔ si wòle be nàwɔe nye be nàlé ŋku ɖe axa siawo ŋu:
+Ne ènye ame yeye le Zcash me, afisia nye teƒe nyui be nàse nuwo gɔme nyuie. Nu gbãtɔ si wòle be nàwɔe nye be nàkpɔ axa siawo:
 
-[Zcash Zãla Yeye ƒe Mɔfiame](https://zechub.wiki/start-here/new-user-guide#content)
+[Zcash Mɔfiame na Zãla Yeye](https://zechub.wiki/start-here/new-user-guide#content)
 
-[Zcash Dɔwɔnuwo](https://zechub.wiki/start-here/zcash-resources#content)
+[Zcash Nusiwo woate ŋu akpe ɖe ŋuwò](https://zechub.wiki/start-here/zcash-resources#content)
 
-[Zcash ƒe Gɔmeɖosewo](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
+[Zcash Gɔmedzedze Nuwo](https://zechub.wiki/start-here/what-is-zec-and-zcash#content)
 
-## Dzra ɖo be yeazã Zcash
+## Wòɖo ŋu azã Zcash
 
-Ne èxlẽ intro docs, kple dɔwɔnu siwo do ƒome kpli wo vɔ la, kpɔ [ZEC zazã](https://zechub.wiki/guides/using-zec-privately#content) kple [Nufiamewo](https://youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O&si=4vleWUbCGbNJu1-M) videowo be woadze ZEC zazã gɔme.
+Le esime nèxlẽ gɔmedzedze ƒe nuŋɔŋlɔwo kple nusiwo wotsɔ kpe ɖe wo ŋu la vɔ, kpɔ [Ale si woazã ZEC](https://zechub.wiki/guides/using-zec-privately#content) kple [Fiafiawo](https://youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O&si=4vleWUbCGbNJu1-M) ƒe videoawo be nànya ale si woazã ZEC.
 
-## Nyee nye Zcash nutoa me tɔ
+## Nye Zcash ƒe nutoa me tɔ
 
-Ne nutoa me tɔe nènye la, ewɔ nuku ŋutɔ! Nu nyuitɔ si nàte ŋu awɔ be nànɔ nyatakaka yeyewo xɔm enye be nàdze Kwasiɖa sia Kwasiɖa ƒe nyadzɔdzɔgbalẽ [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) eye nàkplɔ akɔntabubu siwo katã le [List of Zcash community pages](https://zechub.wiki/zcash-community/community-links#content).
+Ne ènye nutoa me tɔ, eya nye nu dzeani! Nu nyuitɔ si nàwɔ be nànɔ nyadzɔdzɔwo ƒe yometɔe nye be nàlé Weekly nyadzɔdzɔgbalẽ [newsletter] [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) yome, eye nàlé akɔnta katã siwo le [Xexlẽ Zcash nutoa me ƒe axawo](https://zechub.wiki/zcash-community/community-links#content) la yome.
 
-## Medi be madzɔ nu na ZecHub
+## Mele be makpe ɖe ZecHub ŋu
 
-Nyo ŋutɔ! Taflatse xlẽ [Nukae nye ZecHub](https://zechub.wiki/start-here/what-is-zechub#content) eye emegbe nàkpɔ [Kpe asi ɖe ZecHub tutu ŋu](https://zechub.wiki/contribute/help-build-zechub) be nàsrɔ̃ ale si woadzɔ nu.
+Enyo! Taflatse xlẽ [Nukae nye ZecHub](https://zechub.wiki/start-here/what-is-zechub#content), eye ekema nàkpɔ [Kpe ɖe ZecHub tutu ŋu](https://zechub.wiki/contribute/help-build-zechub) be nàsrɔ ale si nàkpe ɖe eŋu.

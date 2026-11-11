@@ -70,7 +70,7 @@ m_Sapling / purpose' / coin_type' / account'
 | Outgoing Viewing Key | Να ανακτά λεπτομέρειες εξερχόμενης πληρωμής | — |
 | Diversified address | Να λαμβάνει | — |
 
-Το Orchard το απλοποίησε αυτό σε σχέση με το Sapling: σύμφωνα με το [Orchard Βιβλίο](https://zcash.github.io/orchard/design/keys.html), το ιδιωτικό κλειδί nullifier `nsk` αφαιρέθηκε, το `nk` έγινε στοιχείο πεδίου αντί για σημείο καμπύλης και το `ovk` πλέον παράγεται από το πλήρες viewing key αντί να διατηρείται χωριστά.
+Το Orchard το απλοποίησε αυτό σε σχέση με το Sapling: σύμφωνα με το [Βιβλίο του Orchard](https://zcash.github.io/orchard/design/keys.html), το ιδιωτικό κλειδί nullifier `nsk` αφαιρέθηκε, το `nk` έγινε στοιχείο πεδίου αντί για σημείο καμπύλης και το `ovk` πλέον παράγεται από το πλήρες viewing key αντί να διατηρείται χωριστά.
 
 Πάνω από αυτό βρίσκεται το [ZIP 316, *Ενοποιημένες διευθύνσεις και ενοποιημένα viewing keys*](https://zips.z.cash/zip-0316) — Αναθεώρηση 0 Ενεργή, Αναθεώρηση 1 Αποσυρμένη, Αναθεώρηση 2 Προσχέδιο — το οποίο ομαδοποιεί κλειδιά ανά pool σε ένα **Ενοποιημένο Full Viewing Key** («συνδυάζει πολλαπλά Full Viewing Key… στοιχεία») και ένα **Ενοποιημένο Incoming Viewing Key**. Η διάκριση που πρέπει να σέβεται ένας προγραμματιστής πορτοφολιού: ένα UFVK αποκαλύπτει τόσο εισερχόμενη όσο και εξερχόμενη δραστηριότητα, ενώ ένα UIVK μόνο εισερχόμενη.
 
@@ -164,7 +164,7 @@ m(userA)/9'/5'/15'/0'/(userA's unique id)/(userB's unique id)
 - [ZIP 224: Θωρακισμένο πρωτόκολλο Orchard](https://zips.z.cash/zip-0224)
 - [ZIP 312: FROST για multisignatures εξουσιοδότησης δαπάνης](https://zips.z.cash/zip-0312) — κατάσταση Προσχέδιο
 - [ZIP 316: Ενοποιημένες διευθύνσεις και ενοποιημένα viewing keys](https://zips.z.cash/zip-0316)
-- [Το βιβλίο του Orchard — Κλειδιά και διευθύνσεις](https://zcash.github.io/orchard/design/keys.html)
+- [Βιβλίο του Orchard — Κλειδιά και διευθύνσεις](https://zcash.github.io/orchard/design/keys.html)
 - [Προδιαγραφή πρωτοκόλλου Zcash](https://zips.z.cash/protocol/protocol.pdf) — στοιχεία κλειδιών, §5.6.4
 
 **Dash — πρωτόκολλο και ανακοινώσεις**

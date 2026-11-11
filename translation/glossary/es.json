@@ -1,6 +1,6 @@
 {
   "locale": "es",
-  "version": 2,
+  "version": 3,
   "meta": {
     "language_name": "Spanish",
     "native_name": "Español",
@@ -8,11 +8,18 @@
     "script": "Latn",
     "dir": "ltr",
     "language_lead": [],
-    "last_review": null
+    "last_review": "2026-11-08"
   },
   "style": {
     "variety": "natural, fluent Spanish",
+    "register": "informal",
+    "english_in_brackets": "first-use",
+    "loanwords": "keep-english",
     "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Spanish usage; do not force awkward coinages.",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ",",
+    "quotes": "«»",
     "abbreviations_with_full_stop": [
       "abr",
       "ago",
@@ -38,9 +45,95 @@
       "Sra",
       "UU",
       "vol"
-    ]
+    ],
+    "notes": "Reviewer (register): informal\nReviewer (numerals): western\nReviewer (decimal_separator): ,\nReviewer (quotes): «»\nReviewer (abbreviations_with_full_stop): ."
   },
   "terms": {
+    "wallet": {
+      "target": "billetera",
+      "forms": [
+        "billetera"
+      ],
+      "context": "billetera as standalone; keep English in compound tech terms (hardware wallet)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "shielded": {
+      "target": "blindado",
+      "forms": [
+        "blindado",
+        "protegido"
+      ],
+      "context": "blindado as standalone; compounds use current page rendering",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Context-dependent: pool blindado, nota protegida. Default: blindado.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-2"
+    },
+    "transaction": {
+      "target": "transacción",
+      "forms": [
+        "transacción"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-3"
+    },
+    "privacy": {
+      "target": "privacidad",
+      "forms": [
+        "privacidad"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-5",
+      "context": "privacidad as standalone; compound menu labels keep current rendering"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "keep English as standalone; compounds use current page rendering"
+    },
+    "proof": {
+      "target": "prueba",
+      "forms": [
+        "prueba"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-10"
+    },
     "node": {
       "target": "nodo",
       "forms": [
@@ -66,7 +159,2038 @@
         "@steward (legacy prompt head)"
       ],
       "reviewed_at": "2026-10-10",
-      "source": "prompt_head_es.txt"
+      "source": "prompt_head_es.txt",
+      "context": "nodo as standalone; Raspberry Pi menu labels keep English product names"
+    },
+    "transparent": {
+      "target": "transparente",
+      "forms": [
+        "transparente"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-12",
+      "context": "transparente as standalone; compound labels keep current rendering"
+    },
+    "exchange": {
+      "target": "exchange",
+      "keep_english": true,
+      "forms": [
+        "exchange"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Intercambio = the act of swapping. Exchange = the platform.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-16",
+      "context": "keep English as standalone; compounds use current rendering"
+    },
+    "memo": {
+      "target": "memo",
+      "keep_english": true,
+      "forms": [
+        "memo",
+        "memos",
+        "Memo",
+        "Memos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "claves de visualización",
+      "forms": [
+        "claves de visualización"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Ref: zcashesp.com",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-26"
+    },
+    "fee": {
+      "target": "tarifa",
+      "forms": [
+        "tarifa",
+        "comisión"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "swap": {
+      "target": "swap",
+      "keep_english": true,
+      "forms": [
+        "swap",
+        "swaps",
+        "Swap",
+        "Swaps",
+        "swapping",
+        "swapped"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-27"
+    },
+    "custodial": {
+      "target": "en custodia",
+      "forms": [
+        "en custodia",
+        "custodia"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Non-custodial: sin custodia. Self-custody: autocustodia.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-18",
+      "context": "en custodia as standalone; menu label uses Exchanges custodios"
+    },
+    "zero-knowledge": {
+      "target": "zero-knowledge",
+      "keep_english": true,
+      "forms": [
+        "zero-knowledge"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Standard term. Used with Spanish: tecnología Zero Knowledge.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-23",
+      "context": "keep English as standalone term; menu labels keep Zero Knowledge"
+    },
+    "network-upgrade": {
+      "target": "actualización de red",
+      "forms": [
+        "actualización de red"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "mining": {
+      "target": "minado",
+      "forms": [
+        "minado",
+        "minar"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "miner": {
+      "target": "minero",
+      "forms": [
+        "minero"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "full-node": {
+      "target": "nodo completo",
+      "forms": [
+        "nodo completo"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "nodo completo as standalone; compound labels keep current rendering"
+    },
+    "turnstile": {
+      "target": "turnstile",
+      "keep_english": true,
+      "forms": [
+        "turnstile",
+        "turnstiles",
+        "Turnstile",
+        "Turnstiles"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-37"
+    },
+    "spending-key": {
+      "target": "claves de gasto",
+      "forms": [
+        "claves de gasto"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "frase semilla",
+      "forms": [
+        "frase semilla"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "light-client": {
+      "target": "cliente ligero",
+      "forms": [
+        "cliente ligero"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "token": {
+      "target": "token",
+      "keep_english": true,
+      "forms": [
+        "token"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "chain": {
+      "target": "red",
+      "forms": [
+        "red",
+        "cadena"
+      ],
+      "context": "red as standalone (short for blockchain network); keep English in compound terms (on-chain, cross-chain)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "cross-chain": {
+      "target": "cross-chain",
+      "keep_english": true,
+      "forms": [
+        "cross-chain"
+      ],
+      "context": "keep English: compound term used as-is in Spanish crypto",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "faucet": {
+      "target": "faucet",
+      "keep_english": true,
+      "forms": [
+        "faucet"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "developer": {
+      "target": "desarrollador",
+      "forms": [
+        "desarrollador"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "dashboard": {
+      "target": "panel",
+      "forms": [
+        "panel"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Pronounced panél.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-51"
+    },
+    "visualizer": {
+      "target": "visor",
+      "forms": [
+        "visor"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Visor de direcciones de la red.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-62"
+    },
+    "use-case": {
+      "target": "caso de uso",
+      "forms": [
+        "caso de uso"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "caso de uso as standalone; compound labels keep current rendering"
+    },
+    "brand": {
+      "target": "marca",
+      "forms": [
+        "marca"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-61"
+    },
+    "treasury": {
+      "target": "tesorería",
+      "forms": [
+        "tesorería"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "tesorería as standalone; compound labels keep current rendering"
+    },
+    "top-up": {
+      "target": "recarga",
+      "forms": [
+        "recarga"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "recarga as standalone; compound labels keep current rendering"
+    },
+    "tools": {
+      "target": "herramientas",
+      "forms": [
+        "herramientas"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "herramientas as standalone; compound labels keep current rendering"
+    },
+    "newsletter": {
+      "target": "boletín",
+      "forms": [
+        "boletín"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "address": {
+      "target": "dirección",
+      "forms": [
+        "dirección"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Domicilio = residence. Dirección = crypto address.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-4",
+      "context": "dirección as standalone; compound labels keep current rendering"
+    },
+    "block": {
+      "target": "bloque",
+      "forms": [
+        "bloque"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-7",
+      "context": "bloque as standalone; compound labels keep current rendering"
+    },
+    "blockchain": {
+      "target": "blockchain",
+      "keep_english": true,
+      "forms": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-15",
+      "context": "keep English as standalone; compound labels keep current rendering"
+    },
+    "signature": {
+      "target": "firma",
+      "forms": [
+        "firma"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-17"
+    },
+    "commitment": {
+      "target": "compromiso",
+      "forms": [
+        "compromiso"
+      ],
+      "context": "Cryptographic sense, not engagement",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Cryptographic sense, not everyday promise. See reviewer examples.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-21"
+    },
+    "nullifier": {
+      "target": "anulador",
+      "forms": [
+        "anulador",
+        "anulación"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "note": {
+      "target": "nota",
+      "forms": [
+        "nota"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Zcash sense: nota sin gastar (unspent note), nota protegida (shielded note).",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "configuración confiable",
+      "forms": [
+        "configuración confiable"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "consensus": {
+      "target": "consenso",
+      "forms": [
+        "consenso"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-29"
+    },
+    "governance": {
+      "target": "gobernanza",
+      "forms": [
+        "gobernanza"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "gobernanza as standalone; compound labels keep current rendering"
+    },
+    "grant": {
+      "target": "subvención",
+      "forms": [
+        "subvención",
+        "beca"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md",
+      "context": "subvención as standalone; programme names keep current rendering"
+    },
+    "halving": {
+      "target": "halving",
+      "keep_english": true,
+      "forms": [
+        "halving"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "staking": {
+      "target": "staking",
+      "keep_english": true,
+      "forms": [
+        "staking"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "finalizer": {
+      "target": "finalizador",
+      "forms": [
+        "finalizador"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Not finalista. Eg: nodo finalizador.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-44"
+    },
+    "bond": {
+      "target": "bond",
+      "keep_english": true,
+      "forms": [
+        "bond",
+        "Bond",
+        "bonds",
+        "Bonds",
+        "bonding",
+        "Bonding",
+        "unbonding",
+        "Unbonding",
+        "unbond",
+        "Unbond"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-47"
+    },
+    "encryption": {
+      "target": "cifrado",
+      "forms": [
+        "cifrado",
+        "encriptación"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "RAE also accepts encriptación/encriptar.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-14"
+    },
+    "decentralized": {
+      "target": "descentralizado",
+      "forms": [
+        "descentralizado"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain"
+      ],
+      "context": "keep English: compound term used as-is in Spanish crypto",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "bridge": {
+      "target": "puente",
+      "forms": [
+        "puente"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "payment": {
+      "target": "pago",
+      "forms": [
+        "pago"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-8",
+      "context": "pago as standalone; compound labels keep current rendering"
+    },
+    "smart-contract": {
+      "target": "contrato inteligente",
+      "forms": [
+        "contrato inteligente"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "invinculable",
+      "forms": [
+        "invinculable"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Que no se puede enlazar, asociar o conectar.",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-60"
+    },
+    "permissionless": {
+      "target": "sin permisos",
+      "forms": [
+        "sin permisos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md#terms-59"
+    },
+    "scaling": {
+      "target": "escalabilidad",
+      "forms": [
+        "escalabilidad"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "selective-disclosure": {
+      "target": "divulgación selectiva",
+      "forms": [
+        "divulgación selectiva"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    },
+    "hardware-wallet": {
+      "target": "hardware wallet",
+      "keep_english": true,
+      "forms": [
+        "hardware wallet"
+      ],
+      "context": "keep English: industry standard compound term",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "glossary-review-es.md"
+    }
+  },
+  "phrases": {
+    "Akash Network": {
+      "target": "Akash Network",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-60",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-2",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Brand": {
+      "target": "Brand",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-50",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "BTCPayServer Plugin": {
+      "target": "BTCPayServer Plugin",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-65",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "BTCPayServer Zcash Plugin",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-4",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Buying ZEC": {
+      "target": "Buying ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-16",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Community": {
+      "target": "Community",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-11",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Community Building": {
+      "target": "Community Building",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-80",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Community Forum": {
+      "target": "Community Forum",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-42",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Community Links": {
+      "target": "Community Links",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-41",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Community Projects": {
+      "target": "Community Projects",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-43",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Contribute": {
+      "target": "Contribute",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-12",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "DAO": {
+      "target": "DAO",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-6",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Dashboard": {
+      "target": "Dashboard",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-13",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Developers": {
+      "target": "Developers",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-10",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Donate": {
+      "target": "Donate",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-8",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Donations": {
+      "target": "Donations",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-37",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Ecosystem": {
+      "target": "Ecosystem",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-39",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Explore": {
+      "target": "Explore",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-9",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Extras": {
+      "target": "Extras",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-18",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Faucets": {
+      "target": "Faucets",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-17",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "For Forks & Maintainers": {
+      "target": "For Forks & Maintainers",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#exploreMenu-13",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#exploreMenu-15",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#exploreMenu-14",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-53",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Full Explore": {
+      "target": "Full Explore",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#exploreMenu-1",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Glossary & FAQ's": {
+      "target": "Glossary & FAQ's",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-78",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Glossary & FAQs": {
+      "target": "Glossary & FAQs",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#exploreMenu-11",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Governance": {
+      "target": "Governance",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-4",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Guides": {
+      "target": "Guides",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-2",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "How to Participate": {
+      "target": "How to Participate",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-24",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Keeping Records": {
+      "target": "Keeping Records",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-35",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Memos": {
+      "target": "Memos",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-24",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "More": {
+      "target": "More",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-14",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Navigation": {
+      "target": "Navigation",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#sideMenu-1",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Newsletter": {
+      "target": "Boletín",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-7",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Configuración de la billetera de la Mixnet de Nym",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-81",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-54",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Organizations": {
+      "target": "Organizations",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-49",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Overview": {
+      "target": "Resumen",
+      "rejected": [
+        {
+          "text": "Visión General"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-72",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Pay for AI": {
+      "target": "Pay for AI",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-79",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Podcast": {
+      "target": "Podcast",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-33",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-58",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Recovering Funds": {
+      "target": "Recovering Funds",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-28",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Research": {
+      "target": "Research",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-39",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Shop": {
+      "target": "Shop",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-73",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Sitemap": {
+      "target": "Sitemap",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-42",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Start Here": {
+      "target": "Start Here",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-31",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Store": {
+      "target": "Store",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-44",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Tools": {
+      "target": "Tools",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-29",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Tutorials": {
+      "target": "Tutorials",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-3",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Use Cases": {
+      "target": "Use Cases",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-30",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Use Zcash": {
+      "target": "Use Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-15",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Using Zcash": {
+      "target": "Using Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-52",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Using ZEC in DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-55",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Visual Identity": {
+      "target": "Visual Identity",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-53",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Visualizer": {
+      "target": "Visualizer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-5",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Ywallet FROST Demo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-63",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcash Community": {
+      "target": "Zcash Community",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-60",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Zcash Ecosystem Security",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-46",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Zcash Improvement Proposals",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-68",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcash Organizations": {
+      "target": "Zcash Organizations",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-65",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcash Podcasts": {
+      "target": "Zcash Podcasts",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-45",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcash Tech": {
+      "target": "Zcash Tech",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-76",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcon Archive": {
+      "target": "Zcon Archive",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-48",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Zcon Vozes Archive",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#menuLabels-68",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zenith Installation": {
+      "target": "Zenith Installation",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-70",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Zingolib and Zaino Tutorial",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-69",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zkool Multisig": {
+      "target": "Multifirma de Zkool",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md#navigation-62",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Wallets": {
+      "target": "Billeteras",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Exchanges": {
+      "target": "Exchanges",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Block Explorers": {
+      "target": "Block Explorers",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Shielded Pools": {
+      "target": "Shielded Pools",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "Transparent Exchange Addresses",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Transactions": {
+      "target": "Transacciones",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Mobile Top Ups": {
+      "target": "Mobile Top Ups",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Payment Request URIs": {
+      "target": "Payment Request URIs",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Payment Processors": {
+      "target": "Payment Processors",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Accept Payments": {
+      "target": "Accept Payments",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Freelance Privacy": {
+      "target": "Freelance Privacy",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Journalist Privacy": {
+      "target": "Journalist Privacy",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Private Community Treasury": {
+      "target": "Private Community Treasury",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Send Money Privately": {
+      "target": "Enviar dinero de forma privada",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Community Blogs": {
+      "target": "Blogs comunitarios",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Zcash Media": {
+      "target": "Zcash Media",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering",
+      "keep_english": true
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "NFT Cypherpunk Zero",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "Subvenciones retroactivas dirigidas por poseedores",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Zgo Payment Processor": {
+      "target": "Zgo Payment Processor",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Using ZEC Privately": {
+      "target": "Usar ZEC de forma privada",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Raspberry Pi Zcashd Node",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Raspberry Pi Zebra Node",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Avalanche RedBridge": {
+      "target": "RedBridge de Avalanche",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Blockchain Explorers": {
+      "target": "Blockchain Explorers",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Visualizar la red de Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Visualizing Zcash Addresses",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "Zero Knowledge vs Sistemas señuelo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Raspberry Pi 4 Full Node",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Raspberry pi 4 Zebra Node",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs & Grants",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zcash Governance": {
+      "target": "Zcash Governance",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "Zero Knowledge vs señuelos",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Custodial Exchanges": {
+      "target": "Exchanges custodios",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "context": "UI menu label; may differ from base term rendering"
+    },
+    "Zcash Use Cases": {
+      "target": "Zcash Use Cases",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
+    },
+    "Privacy Tools": {
+      "target": "Privacy Tools",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-08",
+      "source": "menus-review-es.md",
+      "keep_english": true,
+      "context": "keep English in UI menu label"
     }
   },
   "changelog": [
@@ -85,6 +2209,181 @@
       "terms": [],
       "phrases": [],
       "summary": "Gate only (not sent to the model): abbreviations written with a full stop, so the sentence-boundary gate stops reading them as sentence ends (e.g. \"oct. …\")."
+    },
+    {
+      "version": 3,
+      "date": "2026-11-08",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "Avalanche RedBridge",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Import 62 terms + 69 UI phrases from Mayra's (@MBB_Caffepoesia) native review. Key decisions: billetera, blindado (context-dep), red for chain, compromiso, anulador, invinculable."
     }
   ]
 }

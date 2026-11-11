@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
 </a>
 
-# Guia para Novos Usuários de Zcash
+# Guia para novos usuários do Zcash
 
 ## Resumo rápido
 
-- **Compre ZEC** numa exchange compatível (Gemini, BitcoinVN, etc.)
+- **Compre ZEC** em uma corretora compatível (Gemini, BitcoinVN, etc.)
 - **Configure uma carteira blindada** (recomendamos Zodl, Zingo ou Zkool)
-- **Retire** o seu ZEC da exchange para a sua carteira blindada
-- **Envie uma transação blindada** — o seu primeiro pagamento privado em Zcash
+- **Retire** seu ZEC da corretora para sua carteira blindada
+- **Envie uma transação blindada** — seu primeiro pagamento privado no Zcash
 - **Junte-se à comunidade** no fórum ou no Discord
 
 ---
 
-Novo no Zcash? Este guia vai orientar você no processo de entrada como usuário de Zcash e detentor de *ZEC*.
+É novo no Zcash? Este guia vai orientar você no processo de entrada como usuário do Zcash e detentor de *ZEC*.
 
 ---
 
@@ -22,7 +22,7 @@ Novo no Zcash? Este guia vai orientar você no processo de entrada como usuário
 
 Para usar a rede Zcash, você precisará comprar sua moeda, *ZEC*.
 
-A maneira mais fácil de adquirir ZEC é [comprá-lo na Gemini](https://www.gemini.com/prices/zcash) ou [em qualquer uma destas exchanges](https://zechub.wiki/using-zcash/custodial-exchanges).
+A maneira mais fácil de adquirir ZEC é [comprá-lo na Gemini](https://www.gemini.com/prices/zcash) ou [em qualquer uma destas corretoras](https://zechub.wiki/using-zcash/custodial-exchanges).
 
 Uma observação importante é que você não precisa comprar 1 *ZEC* inteiro.
 
@@ -77,7 +77,7 @@ Aqui está um tutorial sobre como fazer isso.
 
 **Envie uma transação blindada**
 
-Depois de depositar algum ZEC na sua carteira, você está pronto para enviar uma transação totalmente blindada e privada. Uma transação blindada é uma transferência de ZEC que protege totalmente a privacidade de cada participante. Aqui estão algumas dicas úteis ao usar ZEC blindado.
+Depois de depositar algum ZEC em sua carteira, você já pode enviar uma transação totalmente blindada e privada. Uma transação blindada é uma transferência de ZEC que protege totalmente a privacidade de cada participante. Aqui estão algumas dicas úteis ao usar ZEC blindado.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -109,7 +109,7 @@ A comunidade é apaixonada e muito acolhedora com novos membros. Às vezes as co
 ## Páginas relacionadas
 
 - [O que são ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Entenda o básico antes de começar
-- [Comprar ZEC](/using-zcash/buying-zec) — Lista completa de exchanges que oferecem retiradas blindadas
+- [Comprar ZEC](/using-zcash/buying-zec) — Lista completa de corretoras que oferecem retiradas blindadas
 - [Carteiras](/using-zcash/wallets) — Compare todas as carteiras Zcash por recursos e plataforma
-- [Pools Blindados](/using-zcash/shielded-pools) — Entenda por que as transações blindadas são importantes
+- [Pools blindados](/using-zcash/shielded-pools) — Entenda por que as transações blindadas são importantes
 - [Transações](/using-zcash/transactions) — Como enviar e receber ZEC com privacidade

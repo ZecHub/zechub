@@ -2,16 +2,16 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Ihe na-esote bụ nchịkọta nke ọtụtụ mgbasa ozi metụtara Zcon na ebe dị mfe ịchọta.
+Ihe ndị a bụ nchịkọta nke ọtụtụ mgbasa ozi metụtara Zcon n’otu ebe dị mfe ịchọta.
 
 # Zcon
-Zcon bụ ogbako kwa afọ nke [Zcash Foundation](https://zfnd.org/).
+Zcon bụ ọgbakọ a na-enwe kwa afọ nke [Zcash Foundation](https://zfnd.org/) na-ahazi.
 
-## Zcon0: Nzuzo site na A ruo Zcon
+## Zcon0: Nzuzo [Privacy] site na A ruo Zcon
 
-Zcon0 bụ nzukọ mbụ anyị na-eme kwa afọ, ọ gara nke ọma. Anyị nọrọ June 26-28th 2018 na Montreal mara mma
+Zcon0 bụ ọgbakọ mbụ anyị na-enwe kwa afọ, ọ gara nke ọma nke ukwuu. Anyị nọrọ na Montreal mara mma site na June 26-28, 2018.
 
-[Zcon0 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+[Ndepụta ọkpụkpọ Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -25,11 +25,11 @@ Zcon0 bụ nzukọ mbụ anyị na-eme kwa afọ, ọ gara nke ọma. Anyị n�
 </div>
 
 
-## Zcon1: Zero to Privacy Hero
+## Zcon1: Dike Nzuzo na-enweghị ihe ọmụma ruo Dike Nzuzo
 
-the second annual privacy and technology conference hosted by the Zcash Foundation, was held in Split, Croatia on June 22 to 24th 2019.
+Ọgbakọ nke abụọ a na-enwe kwa afọ gbasara Nzuzo na teknụzụ, nke Zcash Foundation kwadoro, mere na Split, Croatia site na June 22 ruo 24, 2019.
 
-[Zcon1 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+[Ndepụta ọkpụkpọ Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -43,11 +43,11 @@ the second annual privacy and technology conference hosted by the Zcash Foundati
 </div>
 
 
-## Zcon2: Nzuzo Na-agbada
+## Zcon2: Nzuzo Ruo N’isi
 
-Zcon2 weere ọnọdụ na Tuesday, June 8th na Wednesday, June 9th 2021. Zcon 2 bụ ọgbakọ a na-ahụ anya
+Zcon2 mere na Tuzdee, June 8 na Wenezdee, June 9, 2021. Zcon2 bụ ọgbakọ e mere n’ịntanetị.
 
-[Zcon2 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+[Ndepụta ọkpụkpọ Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -61,11 +61,11 @@ Zcon2 weere ọnọdụ na Tuesday, June 8th na Wednesday, June 9th 2021. Zcon 2
 </div>
 
 
-## Zcon3: Koodu naanị anaghị egbutu ya
+## Zcon3: Naanị Koodu Ezughị
 
-Emere Zcon3 na Las Vegas site na Ọgọstụ 7-9th 2022.
+Zcon3 mere na Las Vegas site na August 7-9, 2022.
 
-[Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+[Zcon3 Ndepụta ọkpụkpọ](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -79,11 +79,11 @@ Emere Zcon3 na Las Vegas site na Ọgọstụ 7-9th 2022.
 </div>
 
 
-## Zcon4: E Debeghị Ọdịnihu
+## Zcon4: Ederebeghị Ọdịnihu
 
-Nzukọ ahụ n'onwe ya ga-eme na Barcelona, Spain July 30-31, 2023 ma a ga-ebi ndụ site na ebe ahụ. 
+Ọgbakọ a na-enwe n’onwe mmadụ ga-adị na Barcelona, Spain na July 30-31, 2023, a ga-ebukwa ya ozugbo site n’ebe ọgbakọ ahụ dị. 
 
-[Zcon4 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+[Ndepụta ọkpụkpọ Zcon4](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -97,11 +97,11 @@ Nzukọ ahụ n'onwe ya ga-eme na Barcelona, Spain July 30-31, 2023 ma a ga-ebi 
   />
 </div>
 
-## ZconV: Zcash Unified
+## ZconV: Zcash Emeela ka Ọ bụrụ Otu
 
-ZconV weere ọnọdụ na Mee 6th-10th, 2024. Zcon V bụ ogbako a na-ahụ anya
+ZconV mere na May 6-10, 2024. ZconV bụ ọgbakọ e mere n’ịntanetị.
 
-[ZconV Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+[Ndepụta ọkpụkpọ ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -114,11 +114,11 @@ ZconV weere ọnọdụ na Mee 6th-10th, 2024. Zcon V bụ ogbako a na-ahụ any
   />
 </div>
 
-## ZconVI: Njikọ Aka Site n'Ime Ka Ọ Gbasasịa
+## ZconVI: Mmekọrịta Site na Decentralization
 
-ZconVI weere ọnọdụ na Machị 4th-7th, 2025.
+ZconVI mere na March 4-7, 2025. ZconVI bụ ọgbakọ e mere n’ịntanetị.
 
-[ZconVI Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+[Ndepụta ọkpụkpọ ZconVI](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -131,6 +131,3 @@ ZconVI weere ọnọdụ na Machị 4th-7th, 2025.
     loading="lazy"
   />
 </div>
-
-
-

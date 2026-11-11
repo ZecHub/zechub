@@ -80,6 +80,8 @@ Die wichtigste Erkenntnis: Privatsphäre hängt davon ab, innerhalb der abgeschi
 
 - [SoChain](https://sochain.com/zec) ([Testnet](https://sochain.com/zectest))
 
+- [ZecZcash Explorer](https://zeczcash.com/explorer)
+
 ### Visuelle Anleitung
 
 Hier sind vier gute Beispiele für verschiedene Blockchain-Explorer:

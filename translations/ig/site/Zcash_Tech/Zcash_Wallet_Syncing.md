@@ -2,94 +2,94 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nkwekọrịta obere akpa Zcash
+# Ịmekọrịta e-akpa ego Zcash
 
-## TL;DR
+## Nchịkọta
 
-* N'ihi na azụmahịa Zcash echekwara zoo nkọwa ha, sava enweghị ike ịchọ naanị obere akpa ego dị ka ọ nwere ike maka mkpụrụ ego doro anya dịka Bitcoin ma ọ bụ Ethereum.
-* Obere obere akpa ego na-ebudata ntakịrị  kọmpat blocks ?? site na sava pụrụ iche (lightwalletd) ma mebie data dị mkpa n'onwe ha na igodo nzuzo ha.
-* Ịkọwapụta na ịhazi ihe ndị ahụ ga-ewe oge, ya mere obere akpa ego ji usoro nkwekọrịta ngwa ngwa mee ka i nwee ike iji ego gị n'oge.
-* Ụzọ ndị a ma ama: Warp Sync (YWallet), Spend-before-sync (Zcash Mobile Wallet SDK V2), Blaze Sync, na DAGSync.
-* Ụzọ ndị a na-ejikarị nchekwa ma ọ bụ ike nhazi maka ngwa synchronization.
+* N'ihi na Azụmahia [transaction] nke e chebere echebe [shielded] Zcash na-ezo nkọwa ha, sava enweghị ike ịchọ nguzozi e-akpa ego n'ụzọ dị mfe dịka o nwere ike isi mee maka mkpụrụ ego Oha [transparent] dịka Bitcoin ma ọ bụ Ethereum.
+* E-akpa ego dị ọkụ na-ebudata obere “compact blocks” site na sava pụrụ iche (lightwalletd) ma jiri igodo nzuzo ha decrypt data dị mkpa n'onwe ha.
+* Ime decrypt na ịhazi block ndị ahụ na-ewe oge, ya mere e-akpa ego na-eji ụzọ imekọrịta ngwa ngwa eme ka ị nwee ike iji ego gị ngwa ngwa.
+* Ụzọ ndị a ma ama: Warp Sync (YWallet), Spend-before-sync (Zcash Mobile Wallet SDK V2), Blaze Sync (Zecwallet), na DAGSync a tụrụ aro.
+* Ụzọ ndị a na-atụkarị mgbanwe n'etiti ebe nchekwa ọzọ ma ọ bụ ike nhazi ọzọ maka imekọrịta ngwa ngwa.
 
-## Nkọwa nke isi ihe dị na ya.
+## Nkọwa Isi
 
-### Otu Zcash syncing si arụ ọrụ
+### Ka imekọrịta Zcash si arụ ọrụ
 
-Zcash uses zero-knowledge proofs to shield transaction details from unauthorized parties. This privacy makes syncing harder for light wallets because they do not store the full blockchain locally and instead rely on a server for the necessary information. With Bitcoin or Ethereum, servers can index the blockchain and return account data quickly. But with Zcash, the server cannot see transaction details. So how can a light wallet sync its balance and history without downloading and decrypting the entire blockchain itself?
+Zcash na-eji proof zero-knowledge chebe nkọwa Azụmahia pụọ n'aka ndị na-enweghị ikike. Nzuzo [privacy] a na-eme ka imekọrịta siere e-akpa ego dị ọkụ ike n'ihi na ha anaghị echekwa blockchain [blockchain] dum n'ógbè ha, kama ha na-adabere na sava maka ozi dị mkpa. Site na Bitcoin ma ọ bụ Ethereum, sava nwere ike idekọta blockchain ma weghachite data akaụntụ ngwa ngwa. Mana site na Zcash, sava enweghị ike ịhụ nkọwa Azụmahia. Ya mere, kedu ka e-akpa ego dị ọkụ ga-esi mekota nguzozi na akụkọ ya n'ebughị ma decrypt blockchain dum n'onwe ya?
 
-Zcash solves this problem by combining multiple approaches. It has a specialized server, lightwalletd, that filters data from a full node and keeps only what's needed for transaction identification. This data is called compact blocks, and it is much smaller than the original blocks. Light wallets first download these compact blocks from the lightwalletd server and then decrypt them with their private keys.
+Zcash na-edozi nsogbu a site n'ijikọta ụzọ dị iche iche. O nwere sava pụrụ iche, lightwalletd, nke na-enyocha data sitere na full node ma debe naanị ihe a chọrọ iji mata Azụmahia. A na-akpọ data a compact blocks, ọ dịkwa ntakịrị karịa block mbụ. E-akpa ego dị ọkụ na-ebu ụzọ ebudata compact blocks ndị a site na sava lightwalletd, wee jiri igodo nzuzo ha decrypt ha.
 
-Ọbụna ịkọwapụta na nhazi nke mgbochi ndị a nwere ike iwe oge dị ukwuu, karịsịa mgbe enwere ọtụtụ azụmahịa kwa ngọngọ. Ya mere obere akpa eji ụzọ dị iche iche iji mee ka mmekọrịta ọsọ ma kwe ka ị jiri ego gị ngwa ngwa o kwere omume.
+Ọbụna ime decrypt na ịhazi compact blocks ndị a nwere ike iwe oge dị ukwuu, karịsịa mgbe enwere ọtụtụ Azụmahia n'otu block. Ya mere, e-akpa ego na-eji ụzọ dị iche iche mee ka imekọrịta dị ngwa ma mee ka ị jiri ego gị ozugbo o kwere mee.
 
-## Ihe Anya / Ntụle
+## Ihe Anya / Ntụnyere
 
-Think of the blockchain as a huge mailroom full of locked boxes. With a transparent coin, the mailroom clerk can read the labels and instantly tell you which boxes are yours. With Zcash, the labels are hidden — so your wallet has to take its keys and quietly check the boxes itself to find the ones it can open. The syncing methods below are different strategies for checking those boxes faster.
+Chee blockchain dịka nnukwu ụlọ nzipu ozi jupụtara n'igbe akpọchiri akpọchi. N'ihe gbasara mkpụrụ ego Oha, onye ọrụ ụlọ nzipu ozi nwere ike ịgụ aha dị n'igbe ndị ahụ ma gwa gị ozugbo ndị bụ nke gị. Site na Zcash, a na-ezo aha ndị ahụ — ya mere e-akpa ego gị ga-eji igodo ya lelee igbe ndị ahụ nwayọọ nwayọọ n'onwe ya ịchọta ndị ọ pụrụ imeghe. Ụzọ imekọrịta ndị dị n'okpuru bụ usoro dị iche iche maka ilele igbe ndị ahụ ngwa ngwa.
 
-## Ịbanye n'Okpuru Mmiri Dị Omimi
+## Nkọwa Miri Emi
 
-### Nkwekọrịta Warp
+### Warp Sync
 
-Warp sync bụ atụmatụ YWallet nke na-agbafe usoro etiti nke decrypting ma hazie kọmpụta ọ bụla, na-awụli elu ozugbo na nsonaazụ ikpeazụ.
+Warp sync bụ atụmatụ YWallet nke na-awụli nzọụkwụ etiti nke ime decrypt na ịhazi compact block ọ bụla, wee gaa kpọmkwem na nsonaazụ ikpeazụ.
 
-Iji mee nke ahụ, ọ na-eji mgbakọ na mwepụ na nkà izo ya ezo eme ihe iji gbakọọ nsonaazụ ikpeazụ n'agaghị site nzọụkwụ nke ọ bụla.
+Iji mee nke a, ọ na-eji mgbakọ na cryptography gbakọọ nsonaazụ ikpeazụ na-agafeghị nzọụkwụ ọ bụla.
 
-Warp sync nwere ike ịhazi ọtụtụ puku blocks kwa sekọnd, ngwa ngwa karịa usoro mmekọrịta oge niile. Nke a pụtara na ndị ọrụ YWallet nwere ike ịnụ ụtọ arụmọrụ ọsọ ọsọ ma dị mma, ọbụlagodi narị otu narị puku azụmahịa na natara ndetu n'ime akaụntụ ha.
+Warp sync nwere ike ịhazi ọtụtụ puku block kwa nkeji, ngwa ngwa karịa usoro imekọrịta a na-emebu. Nke a pụtara na ndị ọrụ YWallet nwere ike ịnụ ụtọ arụmọrụ ngwa ngwa ma dị larịị, ọbụna mgbe ha nwere ọtụtụ narị puku Azụmahia na note ha natara n'akaụntụ ha.
 
-E wezụga usoro a na-agba ọsọ, YWallet nwere ike ịhazi ọtụtụ blocks n'otu oge ahụ, kesaa ibu gafee ngwaike gị dịnụ iji mee ka usoro ahụ dịkwuo mfe.
+Ewezuga usoro ịwụli nzọụkwụ a, YWallet nwere ike ịhazi ọtụtụ block n'otu oge, na-ekesa ibu ọrụ n'ofe hardware ị nwere iji mee ka usoro ahụ dịkwuo ngwa ngwa.
 
-Gụkwuo na . [Nkwekọrịta Warp](https://ywallet.app/warp/)
+Gụkwuo maka [Warp Sync](https://ywallet.app/warp/)
 
-> A na-akọwa sync warp ebe a dị ka usoro nhazi. Ywallet n'onwe ya anaghịzi edobe ma agaghị emelite maka Ironwood, yabụ ọ bụghị obere akpa iji wụnye taa.
+> A kọwara Warp sync ebe a dịka usoro imekọrịta. Ywallet n'onwe ya anaghịzi enweta nlekọta, a gaghị emelitekwa ya maka Ironwood, ya mere ọ bụghị e-akpa ego ị ga-etinye taa.
 
-### Na-emefu tupu ịmekọrịta
+### Spend-before-sync
 
-Spend-before-sync bụ ihe ọhụrụ dị na Zcash Mobile Wallet SDK V2 nke na -enye ndị ọrụ ohere itinye ego ozugbo ha mepere obere akpa, n'echeghị ka mmekọrịta zuru ezu. Njirimara a na -eme ka nchọpụta nke wallet ahụ nwee ike ịbawanye ma meziwanye ahụmahụ onye ọrụ.
+Spend-before-sync bụ atụmatụ ọhụrụ na Zcash Mobile Wallet SDK V2 nke na-enye ndị ọrụ ohere iji ego ozugbo ha meghere e-akpa ego ha, na-echeghị ka imekọrịta e-akpa ego dum gwụ. Atụmatụ a na-eme ka ịchọpụta nguzozi e-akpa ego a pụrụ iji kwụọ ụgwọ dị ngwa ma melite ahụmịhe onye ọrụ.
 
-Spend-before-sync works by using a compact-blocks synchronization algorithm that processes blocks from the lightwalletd server in a non-linear order. This means that instead of waiting for one block to be fully processed before moving on, wallets can use a bit more memory and processing power to scan different sections of the blockchain. Usually, it scans different ranges, looking for newer transactions while the older blocks are downloaded and processed. If a recent, unspent note is discovered, it will be made available immediately.
+Spend-before-sync na-arụ ọrụ site n'iji algorithm imekọrịta compact-blocks nke na-ahazi block sitere na sava lightwalletd n'usoro na-adịghị ahịrị kwụ ọtọ. Nke a pụtara na kama ichere ka ahazie otu block kpamkpam tupu aga n'ihu, e-akpa ego nwere ike iji ntakịrị ebe nchekwa na ike nhazi ọzọ nyochaa ngalaba dị iche iche nke blockchain. Ọtụtụ mgbe, ọ na-enyocha oke dị iche iche, na-achọ Azụmahia ọhụrụ ebe a na-ebudata ma na-ahazi block ochie. Ọ bụrụ na achọpụtara note ọhụrụ a na-emefubeghị, a ga-eme ka ọ dị ozugbo.
 
 <a href="">
     <img src="/content-images/363d08df-b7b7-461b-a386-251d9ad702ca-a857cd8385.webp" alt="" width="140" height="150"/>
 </a>
 
-### Nkwado Ọkụ ọkụ
+### Blaze Sync
 
-Ndị otu Zecwallet mepụtara, Blaze sync bụ algorithm nke na-emekọrịta ihe maka obere akpa ego ndị na - enyocha blockchain azụ n'azụ, malite site na elu kachasị dị nso ma rụọ ọrụ.
+Ndị otu Zecwallet mepụtara Blaze sync, algorithm imekọrịta maka e-akpa ego dị ọkụ nke na-enyocha blockchain azụ azụ, malite na block kachasị elu na nke kachasị ọhụrụ wee na-alaghachi azụ.
 
-Nke a na-enye ohere ka obere akpa ahụ chọta akwụkwọ ego ejiri tupu ndị natara, ebe ọ na -eme ka ederede edere n'oge gara aga enweghị ike ịnweta ya n'echeghị usoro nhazi zuru ezu iji mezue.
+Nke a na-enye e-akpa ego ohere ịchọta note emefuru tupu ndị a natara, ebe ọ na-eme ka note ndị emefubeghị na mbụ dị n'ọrụ na-echeghị ka usoro imekọrịta dum gwụ.
 
-E wezụga nke ahụ, ọ na-eji Out-of-Order Sync site decoupling components of the sync from each other  nbudata blocks, ịrụ ikpe decryptions, and updating witnesses  ma hazie ya dị ka ihe yiri. Nke a na-ewe karịa ebe nchekwa na CPU ego ma enwekwu mmekọrịta ọsọ X5.
+Ewezuga nke ahụ, ọ na-eji Out-of-Order Sync site n'ikewapụ ihe mejupụtara sync n'ebe ibe ha nọ — ibudata block, ime trial decryptions, na imelite witnesses — ma hazie ha n'otu oge. Nke a na-achọ ebe nchekwa na akụrụngwa CPU karịa, mana ọ na-abawanye ọsọ sync ugboro X5.
 
 ### DAGSync
 
-DAGSync bụ algorithm synchronization a chọrọ iji meziwanye ahụmịhe onye ọrụ nke obere akpa Zcash site na ime ka mmekọrịta dị ngwa.
+DAGSync bụ algorithm imekọrịta a tụrụ aro nke chọrọ imezi ahụmịhe onye ọrụ nke e-akpa ego nke e chebere echebe Zcash site n'ime ka imekọrịta dị ngwa.
 
-Ọ na-eji a [Directed Acyclic Graph (DAG) Arụtụ aka na-eduzi ihe osise eserese](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) iji gosipụta ihe ndị dị n'etiti akwụkwọ, ndị akaebe na ndị nkwụsịtụ na obere akpa Zcash.
+Ọ na-eji [Directed Acyclic Graph (DAG)](https://words.str4d.xyz/dagsync-graph-aware-zcash-wallets/) anọchi anya ndabere dị n'etiti note, witnesses, na nullifier n'ime e-akpa ego Zcash.
 
-A DAG is a data structure that consists of nodes and edges, where each edge has a direction that indicates a relationship between two nodes. A DAG has no cycles, meaning that there is no way to start from a node and follow the edges back to the same node.
+DAG bụ nhazi data nke nwere node na edges, ebe edge ọ bụla nwere ntụziaka nke na-egosi mmekọrịta dị n'etiti node abụọ. DAG enweghị cycles, nke pụtara na ọ nweghị ụzọ isi malite na node ma soro edges laghachi n'otu node ahụ.
 
 <a href="">
     <img src="/content-images/eee7e08d-5c98-4c88-a48e-12f7a92a195f-316493530f.webp" alt="" width="110" height="230"/>
 </a>
 
-## Ihe Ndị A Pụrụ Ime n'Ọrụ Ahụ
+## Ihe Ọ Pụtara N'ọrụ
 
-N'ụzọ na-akpali mmasị, usoro ndị a niile bu n'obi ịza ajụjụ nke Zcash Security welitere na post ya na June 2016. [Ozi nzuzo nwere ike ịba ụba](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) and its relationship with private payment systems. Some even take the extra step of downloading all memo data from servers, except for data exclusive to an address, increasing privacy at the cost of a bit of extra resources.
+N'ụzọ na-adọrọ mmasị, usoro ndị a niile na-achọ ịza ajụjụ Zcash Security welitere na post ya gbasara [Scalable Private Messaging](https://zecsec.com/posts/scalable-private-money-needs-scalable-private-messaging/) na mmekọrịta ya na sistemụ Kwụọ ụhwọ [payment] nzuzo. Ụfọdụ na-agakwa n'ihu ibudata data memo niile site na sava, ewezuga data pụrụ iche maka Adreesị akpa ego, na-abawanye Nzuzo n'ọnụ ahịa ntakịrị akụrụngwa ọzọ.
 
-Ọzọkwa, Zcash Foundation na-ele anya ndị ọzọ iji melite arụmọrụ nke obere akpa ego. Nke ahụ bụ ikpe maka [Nchịkọta Ozi Echefuola (OMR)](https://zfnd.org/oblivious-message-retrieval/), ihe owuwu nke ntọala ahụ na-amụ iji chọpụta ma ọ bụrụ na o nwere ike ịza nsogbu arụmọrụ ndị a metụtara ndị ọrụ obere akpa Zcash.
+Ọzọkwa, Zcash Foundation anọwo na-eleba anya n'alternatives ndị ọzọ iji melite arụmọrụ e-akpa ego dị ọkụ. Nke ahụ bụ ọnọdụ [Oblivious Message Retrieval (OMR)](https://zfnd.org/oblivious-message-retrieval/), nhazi foundation ahụ na-amụ “iji chọpụta ma ọ na-enye azịza nwere ike idozi nsogbu arụmọrụ ndị mere n'oge na-adịbeghị anya nke metụtara ndị ọrụ e-akpa ego Zcash.”
 
-## Ihe Ndị A Na-emekarịhie Emeghị
+## Njehie Ndị A Na-ahụkarị
 
-** Iche na ihe nkesa lightwalletd maara nguzo gị.** Ihe nkesa ahụ na-enye naanị kọmpụta dị mkpụmkpụ; obere akpa gị decrypts ma sụgharịa ha n'ógbè ya site na igodo nke aka gị.
+**Iche na sava lightwalletd maara nguzozi gị.** Sava ahụ na-ebunye naanị compact blocks; e-akpa ego gị na-eji igodo nke gị decrypt ma kọwaa ha n'ógbè gị.
 
-**Ikwụsị mmekọrịta n'oge.** Ụzọ ụfọdụ na-eme ka ego ndị a pụrụ iji mee ihe ugbu a dị tupu e mezue njikọ zuru ezu, ma akụkọ ochie na ndetu nwere ike ịbụ nke ka na-aga n'ihu.
+**Ịkwụsị sync ngwa ngwa.** Ụfọdụ usoro na-eme ka ego ọhụrụ a pụrụ iji kwụọ ụgwọ dị tupu sync zuru ezu agwụ, mana akụkọ ochie na note nwere ike ka na-aga n'ihu.
 
-**Itule Zcash sync ozugbo na uzo-mgbasa ozi.** Ụzọ dị nwayọ nwere ike ịbụ ụgwọ nke ichekwa nzuzo, ọ bụghị ntụpọ  obere akpa ahụ na -arụ ọrụ nke sava ego ọha ga -eme site n'ịgụ akaụntụ gị.
+**Iji sync Zcash atụnyere sync chain Oha kpọmkwem.** Ụzọ dị nwayọọ nwere ike ịbụ ọnụ ahịa ichekwa Nzuzo, ọ bụghị ntụpọ — e-akpa ego na-arụ ọrụ nke sava mkpụrụ ego ọha gaara arụ site n'ịgụ akaụntụ gị n'ihu ọha.
 
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara
 
-- [Lightwallet Nodes (Nọmba nke obere akpa ego)](/zcash-tech/lightwallet-nodes) — the lightwalletd infrastructure that light wallets rely on.
-- [Igodo Nlele](/zcash-tech/viewing-keys)  igodo wallets na-eji achọpụta ma mebie akwụkwọ ego ha.
-- [Pepper Sync (Nkeji nke abụọ)](/zcash-tech/pepper-sync)  ụzọ ọzọ maka mmekọrịta obere akpa Zcash.
-- [FROST](/zcash-tech/frost)  ikike ikesa akara maka ZEC echekwara.
+- [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) — akụrụngwa lightwalletd nke e-akpa ego dị ọkụ na-adabere na ya.
+- [Viewing Keys](/zcash-tech/viewing-keys) — igodo e-akpa ego na-eji achọpụta ma decrypt note nke ha.
+- [Pepper Sync](/zcash-tech/pepper-sync) — ụzọ ọzọ maka imekọrịta e-akpa ego Zcash.
+- [FROST](/zcash-tech/frost) — ikike nbinye aka ekesara maka ZEC nke e chebere echebe.

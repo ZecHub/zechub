@@ -6,9 +6,9 @@ Coleção de gravações das Zcash Engineering Office Hours.
 
 # Zcash Engineering Office Hours
 
-Sessões técnicas regulares que abordam o protocolo Zcash, provas de conhecimento zero, desenvolvimento de aplicações, ZIPs e temas de engenharia do ecossistema. Apresentadas principalmente por Mark Henderson [](https://x.com/shieldedmark), com participação da Shielded Labs, ZcashMe, Edge e outros contribuidores. As sessões ao vivo realizam-se normalmente nos palcos do Discord da Zcash (muitas vezes via Luma); as gravações são publicadas pela [Zcash Brasil](https://www.youtube.com/@zcashbrasil).
+Sessões técnicas regulares que abordam o protocolo Zcash, provas de conhecimento zero, desenvolvimento de aplicativos, ZIPs e temas de engenharia do ecossistema. Apresentadas principalmente por Mark Henderson [](https://x.com/shieldedmark), com participação da Shielded Labs, ZcashMe, Edge e outros colaboradores. As sessões ao vivo normalmente são realizadas nos palcos do Discord do Zcash (muitas vezes via Luma); as gravações são publicadas pela [Zcash Brasil](https://www.youtube.com/@zcashbrasil).
 
-A série inclui tanto análises aprofundadas autónomas como a sub-série contínua **Protocol Study** (leitura orientada da Especificação do Protocolo Zcash).
+A série inclui tanto análises aprofundadas independentes quanto a sub-série contínua **Protocol Study** (leitura orientada da especificação do protocolo Zcash).
 
 [Playlist das Zcash Engineering Office Hours](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
 

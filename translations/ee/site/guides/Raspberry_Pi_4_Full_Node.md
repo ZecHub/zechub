@@ -1,47 +1,47 @@
-# Zã Ŋkuléle Ðe Nuwo Ŋu le Raspberry Pi 4 (Zebra + Zallet) dzi
+# Ƒu ɣaɣla dzesi ŋɔŋlɔ blibo le Raspberry Pi 4 dzi (Zebra + Zallet)
 
-*Tso zcashd-mɔ̃ gbãtɔ me. Zcashd va ɖo eƒe Automatic End of Support stop le July 18, 2026, eyata mɔ̃ sia zãa **Zebra** (mɔa ƒe nu blibo si dzi Zcash Foundation lé ɖe asi) kple **Zallet** (kɔntabugbɔgafe si wotu be wòaxɔ na zcash d's built in wallet).*
+*Wotsɔe va tso gɔmedzedze ƒe zcashd-based guide me. zcashd va ɖo eƒe automatic End-of-Support tɔƒe le July 18, 2026, eyata fifia guide sia zã **Zebra** (ɣaɣla dzesi ŋɔŋlɔ blibo si le fifia, si Zcash Foundation kpɔna) kple **Zallet** (gakotoku si wotu be wòaxɔ zcashd ƒe gakotoku si le eme la teƒe).*
 
-## Nu si nàsrɔ̃ le emee nye be:
-- Alesi nàtsɔ Ubuntu Server 22.04+ (64-bit) awɔ flash eye nàwɔe le Raspberry Pi 4 dzi be wòazã ta manɔmee
-- Alesi nàdze Zebra zazã gɔme, to Docker alo mɔ̃ si wowɔ xoxo dzi
-- Alesi nàdze Zallet zazã gɔme, alesi nàwɔe kple ale si nàdzidze egɔme la le akpa sia.
-- Alesi woatrɔ asi le zcashd ƒe configuration/wallet si li xoxo ŋu ayi Zallet me la enye eƒe tiatiawɔƒe.
+## Nu si nàsrɔ
+- Ale si nàtsɔ aflɛshi eye nàɖo Ubuntu Server 22.04+ (64-bit) ɖe Raspberry Pi 4 dzi ne wòatsɔe awɔ dɔ si me screen mele o
+- Ale si nàde Zebra eye nàwɔ dɔ kplii, to Docker alo binary si woɖo xoxo me dzi
+- Ale si nàde, nàɖo, eye nàdze Zallet gɔme, si me gakotoku ɣaɣlaŋlɔŋlɔ ƒe ɖoɖo hã le
+- Ale si nàtrɔ zcashd ƒe config/gakotoku si le asiwò xoxo la atsɔe ade Zallet me ne èdi
 
-## Nu kae trɔ tso mɔfiamegbalẽ xoxoa gbɔ?
-Mɔfiagbalẽ sia ƒe gɔmeɖeɖe si do ŋgɔ la fia alesi woaƒo zcashd ɖe Pi 4 dzii  enye nuƒola ɖeka tɔ, eye esia xɔ gaƒoƒo 3 x4 elabena susu mele Pi 4 ŋu be wòatsɔ awɔ parallel (`-j$(nproc)`Zebra kple Zallet siaa tsɔa ARM64 ŋɔŋlɔdzesi eve siwo wowɔ xoxo la kpakple Docker nɔnɔmetatawo yia asitelefon dzi, eyata le go geɖe me la megahiã be nàƒo nu tso nusianu ŋu tso afisi wòtso va Pi ŋutɔ gbɔ o.
+## Nu si trɔ tso guide xoxo la me
+Guide sia ƒe version si do ŋgɔ la fia ale si woaƒo **zcashd** native ɖe Pi 4 dzi — ƒoƒo si wɔ dɔ kple thread ɖeka, eye wòxɔ gaƒoƒo 3–4 elabena Pi 4 ƒe memory medze na parallel (`-j$(nproc)`) build o. Zebra kple Zallet katã dona **official pre-built ARM64 binaries kple Docker images** fifia, eyata zi geɖe la mele be nàƒo naneke tso source me ɖe Pi ŋutɔ dzi o.
 
-## Nusiwo Nɔa Vevie na Ame Si Wonyee
-- Raspberry Pi 4 (woaɖo aɖaŋu be woaŋlɔ RAM si ƒe lolome le GB 4 alo esi wu nenema)
-- microSD kaɖiti (32 GB+) na OS la
-- SSD/HDD si le gota kple USB 3.0  ** Zebra hiã abe 300 GB ene na Mainnet data siwo woɣla**, eye wòyina ɖe edzi ne ɣeyiɣiawo va yina, eyata mègadze agbagba be yeazã microSD kaɖidɔa ɖeɖe ko o
-- Kɔmpiuta si me microSD-kadodo ƒe teƒe le (si nana be OS nɔnɔmetata la nɔa keklẽm)
-- Ethernet alo Wi-Fi si ŋu ka le la ƒe kadodoe.
-- Aƒeme ƒe akɔdzeanyi kple SSH dzi mɔ̃a ŋu dɔ wɔwɔ nyuie
+## Nu si wòahiã
+- Raspberry Pi 4 (woɖe 4 GB RAM alo nu si wu ema dzi)
+- microSD card (32 GB+) na OS
+- SSD/HDD si le gota kple USB 3.0 support — **Zebra hia 300 GB kple afɔɖe na Mainnet data si wowɔ cache na**, eye ele dzidzime le tsitsi me, eyata mègaƒe ƒomegã be nàwɔ esia tso microSD card ɖeka dzi o
+- Kɔmputa si me microSD card ƒe slot le (be nàflɛshi OS image la)
+- Ethernet si wokaka kple kabel alo Wi-Fi
+- Dɔwɔwɔ kple command line to SSH me si nèse egɔme vie
 
-## Afɔ 1: Flash Ubuntu Server 22.04+ (64-bit)
-Zebra kple Zallet ƒe binary siwo wodzrana do ŋgɔ kpakple Docker nɔnɔmetatawo bia **glibc 2.34+**, si fia be **Ubuntu Server 22.04 alo yeye wu (64-bit/aarch64) **.
+## Afɔ 1: Flɛshi Ubuntu Server 22.04+ (64-bit)
+Zebra kple Zallet ƒe pre-built binaries kple Docker images hia **glibc 2.34+**, si fia be **Ubuntu Server 22.04 alo yeyee (64-bit/aarch64)**.
 
-1. Ðo Raspberry Pi Imager ɖe wò kɔmpiuta gãa dzi.
-2. Tsɔ wò microSD-ƒonɔamesi la de eme.
-3. Tia ** General-purpose OS bubu → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (alo yeye wu).
-4. Zã Imager ƒe ŋgɔyiyiwo (gear icon) be nàtsɔ awɔ hostname, na SSH eye ne ehiã la ɖo Wi-Fi ŋuti nyatakakawo le headless gbãtɔ me.
-5. Ŋlɔ nɔnɔmetata la ɖe eme, tsɔ kaɖidɔa de eme eye nàtsɔ Pi-a ade dɔwɔwɔ me.
-6. SSH le: `ssh <username>@<pi-hostname-or-ip>`
+1. De Raspberry Pi Imager ɖe wò kɔmputa vevi la dzi.
+2. Ɖe wò microSD card la ɖe eme.
+3. Tia **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (alo nu si yeyee).
+4. Zã Imager ƒe advanced options (gear icon) be nàɖo hostname ɖi, nàna SSH nadzɔ, eye nàɖo Wi-Fi ƒe credentials ne wòahiã, na headless first boot.
+5. Ŋlɔ image la ɖe card la dzi, ɖe card la ɖe eme, eye nàtsɔ ŋusẽ na Pi la.
+6. Ge ɖe eme to SSH me: `ssh <username>@<pi-hostname-or-ip>`
 
-## Afɔɖeɖe 2: Do Ŋgɔdzraɖoƒea Ðe Go Eye Nàtsɔe Akeke Nuwo Ðo
-1. Ƒo wò SSD/HDD si le gota la ɖe USB 3.0 dzi.
-2. De dzesi mɔ̃a: `lsblk`
-3. Ðoɖo (ne yeyee) eye nàtsɔe, le kpɔɖeŋu me be: `/mnt/zcash-data`, si ƒe dzidzenu le ɖeka. `mkfs`/`fstab` Edzena le eɖokui si ne èdze egɔme.
+## Afɔ 2: Tsɔ eye nàmount external storage
+1. Ɖe wò external SSD/HDD la kple USB 3.0.
+2. Dzro device la: `lsblk`
+3. Format (ne wòle yeye) eye nàmounte, le kpɔɖeŋu me ɖe `/mnt/zcash-data`, kple `mkfs`/`fstab` ƒe ɖoɖo si wonya, be wòa-mount eɖokui ne woagbugbɔ atsɔ mɔ dzi.
 
-## Afɔɖeɖe 3: Wɔ ɖoɖo ɖe wò nyatakakawo ŋu.
+## Afɔ 3: Trɔ system la yeyee
 ```bash
 sudo apt update && sudo apt full-upgrade -y
 sudo reboot
 ```
 
-## Afɔɖeɖe 4: Ðo Zebra ɖo eye nàzãe.
-### Tiatia A  Docker (woaɖo aɖaŋu nɛ)
+## Afɔ 4: De eye nàwɔ dɔ kple Zebra
+### Tɔtrɔ A — Docker (woɖe eŋu)
 ```bash
 sudo apt install -y docker.io
 sudo usermod -aG docker $USER   # log out/in after this
@@ -51,9 +51,9 @@ docker run -d \
   -v /mnt/zcash-data/zebra:/home/zebra/.cache/zebra \
   zfnd/zebra:latest
 ```
-Kpɔ ŋgɔyiyi si wɔm nèle la ɖa: `docker logs -f zebra`
+Kpɔ ale si wòli ɖe edzi: `docker logs -f zebra`
 
-### Etsɔtsotso B  Nuƒle si wodzra ɖo ɖi to agbawo ƒe nudzraɖoƒe dzi.
+### Tɔtrɔ B — Binary si woɖo xoxo me to cargo binstall me
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 source "$HOME/.cargo/env"
@@ -61,29 +61,29 @@ cargo install cargo-binstall
 cargo binstall zebrad
 zebrad start
 ```
-Esia hea nu si wotsɔ ɖo anyi xoxo la ɖe emee. `aarch64` binary  womebia be woaƒo wo nu ƒu o.
+Esia dea `aarch64` binary si woɖo xoxo me — ƒoƒo mele be nàwɔ o.
 
-**Ne èle ɣeyiɣi ɖeka me:** àkpɔ mɔ be esia axɔ ɣeyiɣi aɖe  Zi geɖe la, nyatakaka siwo wogblɔna tso ɣeaɖeɣi ƒe akpa gbãtɔ ŋu (si anɔ abe gaƒoƒo 2) tsoa nuƒomɔ̃ si de ŋgɔ wu Pi 4 ƒe CPU gbɔ. Eya ta ne èzãa Nuƒomɔnu ŋutɔŋutɔ le wò Pi 4 dzi la, ɖewohĩ eƒe didime awu nenema ke.
+**Le sync ƒe ɣeyiɣi ŋu:** Ɖo ŋku edzi be esia axɔ ɣeyiɣi — first-sync ƒe xexlẽ si woƒoa gbeɖe (le gaƒoƒo 2 ƒe ŋkuɣiwo me) tsoa reference hardware si ŋusẽ wu Pi 4 ƒe CPU, eyata wò sync ƒe ɣeyiɣi ŋutɔ ɖe Pi 4 hardware dzi ate ŋu akɔ.
 
-## Afɔɖeɖe 5: Ðo Zallet Ðe Te
-Zallet le **alpha** me fifia  nɔ mɔ kpɔm na tɔtrɔ gãwo, eye mègabu eŋu be enye ga gbogbo aɖe si woate ŋu akpɔ.
+## Afɔ 5: De Zallet
+Zallet le **alpha** me fifia — exexe siwo agbã naneke ate ŋu ava, eye mègaɖe eŋu be wòanye production-ready custody na ga geɖe haɖe o.
 
-### Tiatia A  Docker (woaɖo aɖaŋu nɛ)
+### Tɔtrɔ A — Docker (woɖe eŋu)
 ```bash
 docker pull zodlinc/zallet:latest
 ```
-Nɔnɔmetata sia doa ARM64 (to Nix-based build dzi) eye wòzɔna tso file system si me nu sue aɖe le, siwo ŋu kpe aɖeke mele o  tsɔ ɖoɖo kple nyatakakadzraɖoƒewo to mɔ ɖeka koŋ dzi. `--datadir` kple gbeɖiɖi ƒe ŋusẽkpɔɖeamedziwo (Kpɔ Afɔɖeɖe 6).
+Image sia dea ARM64 (to Nix-based build me) eye wòwɔ dɔ tso filesystem sue si me shell mele o me — na configuration kple data paths kpuie to `--datadir` kple volume mounts me (kpɔ Afɔ 6).
 
-### Tiatia B  Wɔ tso dzɔtsoƒe dzi
+### Tɔtrɔ B — Ƒo tso source me
 ```bash
 # Requires Rust 1.85+ (see Step 4B for rustup install)
 sudo apt install -y clang libclang-dev protobuf-compiler
 cargo install --locked --git https://github.com/zcash/wallet.git
 ```
-Zallet ƒe aɖakawo meʋu ɖe crates.io dzi haɖe le alpha-ɣeyiɣi o, eyata fififi tso git repo tẽe nye mɔ si womezãna na Docker o la.
+Zallet ƒe crates mede ɖe crates.io dzi haɖe le alpha ƒe ɣeyiɣi me o, eyata ƒome si wokpɔ dzi le be woade tso git repo la me kpuie la nye mɔ si nye Docker o.
 
-## Afɔɖeɖe 6: Ðoɖo Zallet ŋu
-Wɔwɔe `zallet.toml` le wò datadir (le kpɔɖeŋu me, "DAT" si nètia la dzi) `/mnt/zcash-data/zallet`):
+## Afɔ 6: Ɖo Zallet ɖi
+Wɔ `zallet.toml` le datadir si wòtia me (le kpɔɖeŋu me, `/mnt/zcash-data/zallet`):
 ```toml
 [builder.limits]
 [consensus]
@@ -101,58 +101,58 @@ validator_address = "127.0.0.1:8232"   # Zebra's JSON-RPC endpoint
 [rpc]
 bind = ["127.0.0.1:SOMEPORT"]
 ```
-Trɔ asi le eŋu. `validator_address` ne Zebra le dɔ wɔm ɖe host/port bubu dzi, eye nàɖo wo me be: `validator_cookie_auth`/`validator_user`/`validator_password` le ete `[indexer]` be wò Zebra RPC auth setup la nasɔ.
+Trɔ `validator_address` ne Zebra le host/port bubu dzi, eye nàɖo `validator_cookie_auth`/`validator_user`/`validator_password` ɖe `[indexer]` te be wòawɔ sɔ kple wò Zebra RPC auth ƒe ɖoɖo.
 
-**Migrating from zcashd?** If you still have an old `zcash.conf`:
+**Ètso zcashd me va?** Ne `zcash.conf` xoxo gale asiwò:
 ```bash
 zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
-## Afɔɖeɖe 7: Ðo ga si nàzã atsɔ adzra wò gadzɛwo ɖo.
-Zallet zãa nya vevi siwo katã le edzi la tsɔ dea dzesi wo. `age`/`rage`:
+## Afɔ 7: Ɖo gakotoku ɣaɣlaŋlɔŋlɔ ɖi
+Zallet tsɔ `age`/`rage` ɣaɣlana key material katã:
 ```bash
 cargo install rage
 rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
 ```
-Esia naa be woata kɔmpiuta ƒe safui kple mɔʋunya si wodzra ɖo le eɖokui si  ** dzraa mɔʋunuawo; màte ŋu ake ɖe ameŋkumenuwo ŋuti nyatakaka siwo me nyawo mele o.**
+Esia aɖe public key kple passphrase si wowɔ ɖokuiwɔwɔe afia — **Dzra passphrase la ɖo; mèate ŋu agbɔ identity file la o ne melé asiwò o.**
 
-## Afɔɖeɖe 8: Wɔ gaɖaba la ƒe kɔpi eye nàdze egɔme.
+## Afɔ 8: Dzra gakotoku la ɖe gɔme eye nàdzoe
 ```bash
 zallet -d /mnt/zcash-data/zallet init-wallet-encryption
 zallet -d /mnt/zcash-data/zallet generate-mnemonic
 ```
-** Woƒua du ko `generate-mnemonic` zi ɖeka** negbe ɖe nèɖoe koŋ di be nu siwo ŋu nàzã ga ɖo la nanye esiwo to vovo tso wo nɔewo gbɔ.
+**Wɔ `generate-mnemonic` teƒe ɖeka ko** ne menye be èdi spending roots vovovo geɖe le wo ɖokuiwo me.
 
 ```bash
 zallet -d /mnt/zcash-data/zallet start
 ```
 
-## Step 9: Migrating an existing zcashd wallet (optional)
+## Afɔ 9: Trɔ zcashd gakotoku si le asiwò xoxo (ne èdi)
 ```bash
 zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
 ```
-Esia bia be woana agbalẽa me nyawo nanɔ bɔbɔe. `db_dump` (si wotu ɖe Berkeley DB 6.2.23)  tso zcashd ƒe ɖoɖowɔɖi alo teƒe si wodzidzee le. Ne mègaɖo zcashD o la, esia nye ʋɔtrudɔwɔwɔ ɖeka aɖe si mewu enu keŋkeŋ haɖe le Zallet me o.
+Esia hia `db_dump` utility (si woƒo kple Berkeley DB 6.2.23) — tso system install alo zcashd ƒe source-build si nèwɔ ɖe afi me. Ne zcashd mele asiwò o fifia, esia nye migration afɔ ɖeka si mele ɖe eɖokui me blibo ɖe Zallet me haɖe.
 
-## Afɔɖeɖe 10: Kpɔe ɖa be nuwo katã le dɔ wɔm nyuie hã.
+## Afɔ 10: Kpɔ be nu katã wɔ dɔ
 ```bash
 zallet -d /mnt/zcash-data/zallet help
 ```
-Kpɔ egbɔ be gaɖaka la ɖo eŋu, eye ne Zebra wu kadodoa nu ko la, eƒe gadzɛwo kple adrɛswo sɔ ɖe alesi wokpɔ mɔe.
+Kpɔ be gakotoku la ƒoa nu, eye ne Zebra wu sync wɔwɔ nu la, kpɔ be balances/gaɖoƒe ƒe dzesiwo sɔ kple nu si nèle mɔm la.
 
-## Kuxiwo Gbɔ Kpɔkpɔ
-- ** Zebra ƒe ɖoɖowo kple dɔdɔwo le ARM dzi:** ne èle mɔ̃a me la, ɖo Rust ARM toolchain  x86_64 dɔwɔɖoɖo siwo le zɔzɔm ɖe ARM-mɔ̃awo ŋu anɔ bɔbɔe wu. Esia nye nu si Zebra ŋutɔ gblɔ be ele eme wɔm.
-- ** Nuɖuxɔ si le dzidzim ɖe edzi:** Zebra ƒe ~300 GB teƒea yi edzi nɔ dzedzem  Ðoɖowɔƒe.
-- ** Docker ƒe mɔɖeɖewo me gblẽ:** log out/back in after adding your user to the `docker` ƒuƒoƒo, alo zazã le mɔ aɖe nu `sudo` le ɣeyiɣi ma me.
-- **Zallet container has no shell:** the official `zodlinc/zallet` nɔnɔmetata nye esi tso gɔmedzedzea me ke  woɖenɛ ɣesiaɣi `--datadir` eye nàtsɔ wò datawo ƒe nuŋlɔɖi la awɔ babla.
+## Kuxiwo ƒe ɖɔɖɔ
+- **Zebra build/runtime kuxiwo le ARM dzi:** Ne nèƒoa tso source me, de Rust ARM toolchain — x86_64 build tools siwo le ARM hardware dzi wɔwɔ aƒu ɣeyiɣi wu, le Zebra ŋutɔ ƒe documentation nu.
+- **Storage yɔna:** Zebra ƒe ~300 GB footprint gale tsitsi me — ɖo teƒe bubu ɖe aga.
+- **Docker permission errors:** Do go eye nàge gbɔ va me after nàtsɔ wò user kpe `docker` group la ŋu, alo zã `sudo` le fifia.
+- **Zallet container me shell mele o:** Official `zodlinc/zallet` image la tsoa scratch me kple ta — na `--datadir` kpuie ɣesiaɣi eye nàmount wò data directory abe volume ene.
 
-## Dzɔdzinadzraɖo ŋuti nyatakakawo kple zcashd mɔfiagbalẽ xoxoa dome nyawoe nye esia.
-Zebra kple Zallet me le bɔbɔe wu CPU dzi ne wole ɖoɖo wɔm tsɔ wu be woaƒo zcashd nu ƒu, elabena èle binary/container siwo wowɔ xoxo la zãm. RAM 4 GB nye afisi dze nyuie; kpɔ egbɔe be wota kɔmpiuta si ŋu wotrɔ asi le na wò ƒe dɔwɔwɔwo ɖe edzi eye nàkpɔ alesi woawɔ esiawoe hã ɖa. `htop` eye ne èkpɔ be woɖɔli nu geɖe la, bu 8 GB Pi 4 ƒe tɔtrɔa ŋu.
+## Hardware ƒe nyatiawo sɔ kple zcashd guide xoxo la
+Zebra kple Zallet le CPU ŋu bɔbɔe wu zi geɖe le ɖoɖo me tso esi nèle pre-built binaries/containers wɔm, eye womeƒoa zcashd o. 4 GB RAM nye gɔmedzeɖoƒe nyui; kpɔe kple `htop` eye bu Pi 4 ƒe 8 GB variant ŋu ne èkpɔ swapping geɖe.
 
-## Ga Bubuwo
-- [Zebra-gbalẽa](https://zebra.zfnd.org)  Zebra ƒe agbalẽwo le dɔ wɔm kple wo nɔewo
-- [Zallet Agbalẽa](https://zcash.github.io/zallet/)  Zallet ƒe agbalẽ si le dukɔa me la dzi.
-- [zcashd Xexea Me Ƒe Kpekpeɖeŋunaɖoɖo ƒe Nuwuwu Ŋuti Nyatakakawo](https://z.cash/support/zcashd-deprecation)
+## Nuŋlɔɖi bubuwo
+- [Zebra Book](https://zebra.zfnd.org) — Zebra ƒe official documentation
+- [Zallet Book](https://zcash.github.io/zallet/) — Zallet ƒe official documentation
+- [zcashd End-of-Support ƒe nyadzɔdzɔ](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-*Ne èkpɔe be mɔfiame sia nyo la, ke bu kpekpeɖeŋu si nàna ZecHub ŋu: [insert current ZecHub donation shielded address from zechub.wiki/donation  mele afi sia o elabena nyemete ŋu kpɔ be egale fifi laa hã oa].*
+*Ne guide sia kpe ɖe ŋuwò la, bu be nàkpe ɖe ZecHub ŋu: [de ZecHub ƒe donation ɣaɣla gaɖoƒe ƒe dzesi si le fifia tso zechub.wiki/donation me — wometsɔ de eme afisia o elabena nyemate ŋu akpɔ be egale fifia o].*

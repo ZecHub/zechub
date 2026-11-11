@@ -2,25 +2,25 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ntughari na ntụgharị vidiyo
+# Ịmepụta na ịtụgharị asụsụ nke ndepụta okwu vidiyo
 
-Ngwá ọrụ ndị e ji mee ihe n'akwụkwọ ntuziaka a:
+Ngwá ọrụ [Tools] e ji mee ihe n'akwụkwọ ntụziaka a:
 
 1. CapCut
-2. [CapCut SRT Mbupụ](https://www.biyaoyun.com/capcutsrt)
-3. Onye nchịkọta ederede
-4. [Online Ndepụta Okwu Translator & Editor](https://www.syedgakbar.com/projects/dst)
+2. [Mbupụ SRT nke CapCut](https://www.biyaoyun.com/capcutsrt)
+3. Onye ndezi ederede
+4. [Onye ntụgharị asụsụ na onye ndezi ndepụta okwu n'ịntanetị](https://www.syedgakbar.com/projects/dst)
 
-Malite ma mbubata ikpeazụ dezie nke gị video n'ime CapCut. Alternatively, i nwere ike iji CapCuts dezie video tupu na-aga n'ihu usoro a.
+Bido site n'ibubata ndezi ikpeazụ nke vidiyo gị na CapCut. N'aka nke ọzọ, ị nwere ike iji CapCut dezie vidiyo ahụ tupu ịga n'ihu na usoro a.
 
-Na ikpeazụ video kwajuru na CapCut, na-eji [CapCut SRT Export](https://www.biyaoyun.com/capcutsrt) iji nweta faịlụ ndepụta okwu, na akara oge, site na ọrụ CapCut.
+Mgbe ebugorola vidiyo ikpeazụ ahụ na CapCut, jiri [Mbupụ SRT nke CapCut](https://www.biyaoyun.com/capcutsrt) nweta faịlụ ndepụta okwu, nke nwere oge akara, site na ọrụ CapCut.
 
-Open the SRT file in a text editor and watch through the video, while reading along in the SRT file, making changes to the SRT file when errors are found. Use search and replace to **replace all** for each mistake.
+Mepee faịlụ SRT ahụ n'ime onye ndezi ederede ma lelee vidiyo ahụ, ka ị na-agụ faịlụ SRT ahụ, na-eme mgbanwe na faịlụ SRT mgbe achọpụtara njehie. Jiri ọchụchọ na nnọchi dochie **ha niile** maka njehie ọ bụla.
 
-Ntuziaka: Lelee vidiyo ahụ na 2x mgbe ị na-enyocha subs
+Ndụmọdụ: Lelee vidiyo ahụ n'ogo 2x mgbe ị na-enyocha ndepụta okwu
 
-Mgbe mbụ transcript e enyocha na gbazie, bulite SRT faịlụ ka [Online Ndepụta Okwu Translator & Editor](https://www.syedgakbar.com/projects/dst) ịsụgharị faịlụ SRT n'asụsụ ọ bụla ọzọ maka obere ego.
+Mgbe enyochala ma mezie ederede mbụ ahụ, bulite faịlụ SRT ahụ na [Onye ntụgharị asụsụ na onye ndezi ndepụta okwu n'ịntanetị](https://www.syedgakbar.com/projects/dst) iji tụgharịa faịlụ SRT ahụ gaa n'asụsụ ọ bụla ọzọ maka ugwo dị ntakịrị.
 
-Ekwesịrị ịlele faịlụ SRT a sụgharịrị site na iji sọftụwia na-edezi vidiyo site n'aka onye na-aghọta asụsụ ahụ a tụgharịrị.
+Onye ghọtara asụsụ atụgharịrị kwesịrị iji sọftụwia ndezi vidiyo nyochaa faịlụ SRT atụgharịrị.
 
-Mgbe ụfọdụ, faịlụ SRT ndị a sụgharịrị na-achọ mgbanwe na koodu oge nke dị mfe ịchọta ma dozie ya na ọtụtụ ngwanrọ nhazi vidiyo.
+Faịlụ SRT atụgharịrị na-achọ mgbe ụfọdụ mgbanwe n'oge akara, nke dị mfe ịchọta ma dozie site n'iji ọtụtụ sọftụwia ndezi vidiyo.

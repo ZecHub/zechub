@@ -4,129 +4,129 @@
 
 # Zakura Node
 
-Zakura bụ mmemme n'efu, nke mepere emepe maka Zcash, nke e wuru maka nha. [Zebra](Zebra_Full_Node.md) ma mepụta ya site na mmekorita dị n'etiti **Valar Group** na **Project Tachyon**, Zakura na-enye mmekorita ngwa ngwa, ịkpụcha blọk ala, na oyi akwa ndakọrịta maka ihe nketa. `zcashd` ngwaọrụ. E wepụtara ụdị 1.0.0 na Julaị 15, 2026.
+Zakura bụ mmejuputa full node mepere emepe, nke a na-akwụghị ụgwọ maka Zcash, e wuru ya maka nnukwu ogo. E kewapụrụ ya na [Zebra](Zebra_Full_Node.md) ma mepụta ya site na mmekorita dị n'etiti **Valar Group** na **Project Tachyon**, Zakura na-enye mmekọrịta ngwa ngwa nke ukwuu, mbelata block nke e wuru n'ime ya, na oyi akwa ndakọrịta maka ngwaọrụ ochie nke `zcashd`. E wepụtara ụdị 1.0.0 na Julaị 15, 2026.
 
 ---
 
-## TL;DR
+## Nchịkọta
 
-- Zakura is a **consensus-compatible Zcash full node** — an alternative to Zebra and zcashd, forked from Zebra.
-- Mmekọrịta Blockchain dị ihe dị ka **5× ọsọ karịa Zebra**; bootstrapping snapshot ga-agwụ n'ime **n'okpuru nkeji 2**.
-- **Ịchacha ngọngọ nkịtị** na-enye ndị ọrụ ohere ịgba ọsọ n'ime oghere zuru oke na obere oghere diski dị oke njọ (ihe osise pruned nke ruru 11 GB megide 300 GB maka n'ime oghere Zebra zuru oke).
-- Ụdị ndakọrịta nke **zcashd RPC** na-ekwe ka obere akpa na njikọta ndị dị adị rụọ ọrụ na-enweghị mgbanwe.
-- Oyi akwa mbufe P2P nke **nwale** (nke ndabara agbanyụrụ) na-elekwasị anya na mgbasa nke obere ngọngọ 500ms site na asịrị na-eguzogide DoS.
-- Dakọtara na **Ironwood (NU6.3)**, mmelite netwọkụ Zcash malitere n'etiti afọ 2026.
-- **Zakura Common** (v1.3.0, Ọgọst 2026) na-eme ka obere akpa nzuzo eji arụ azụmahịa nkeonwe dị ngwa: site na ihe karịrị sekọnd 3 ruo ihe na-erughị 200 ms n'ọtụtụ oge, dịka ụkpụrụ Zakura si dị.
-- Onye isi ya bụ **Sean Bowe** (onye hiwere Zcash, Project Tachyon) na **Dev Ojha** (Valar Group).
+- Zakura bụ **full node Zcash nke dakọtara na consensus** — nhọrọ ọzọ karịa Zebra na zcashd, nke e kewapụrụ na Zebra.
+- Mmekọrịta blockchain dị ihe dịka **ugboro 5 ngwa ngwa karịa Zebra**; ịmalite site na snapshot na-ewe **erughị nkeji 2**.
+- **Mbelata block e wuru n'ime ya** na-enye ndị na-arụ ọrụ ohere ịgba full node site na obere oghere diski karịa nke ukwuu (~11 GB snapshot e belatara ma e jiri ya tụnyere 300 GB maka node Zebra zuru ezu).
+- **Ụdị ndakọrịta RPC nke zcashd** na-eme ka e-akpa ego [wallet] na njikọta ndị dị adị rụọ ọrụ n'enweghị mgbanwe.
+- **Oyi akwa nnwale maka mbufe P2P** (agbanyụrụ ya na ndabara) na-achọ mgbasa block n'okpuru 500ms nke gossip na-eguzogide DoS.
+- Ọ dakọtara na **Ironwood (NU6.3)**, network upgrade nke Zcash a rụrụ ọrụ n'etiti 2026.
+- **Zakura Common** (v1.3.0, Ọgọst 2026) na-eme ngwa ngwa cryptography e-akpa ego ji arụ Azụmahia nzuzo: site n'ihe karịrị sekọnd 3 ruo n'okpuru 200 ms n'ọtụtụ ọnọdụ, dịka nyocha Zakura siri kwuo.
+- Ndị na-edu ya bụ **Sean Bowe** (onye hibere Zcash ọnụ, Project Tachyon) na **Dev Ojha** (Valar Group).
 
 ---
 
 ## Gịnị bụ Zakura?
 
-Zakura bụ Zcash zuru oke nke e mere site na mmalite ruo n'ọkwa iji dị njikere maka mmepụta. Ọ bụ ezie na ọ na-ejikọta nkwekọrịta na Zebra - nke pụtara na ọ na-akwado ma na-agbaso otu iwu usoro Zcash - Zakura na-ewebata mmezi injinia dị mkpa iji belata ihe mgbochi iji mee Zcash zuru oke.
+Zakura bụ full node Zcash e mere site na ntọala ka ọ dị njikere maka mmepụta n'ogo buru ibu. Ọ bụ ezie na ọ na-ekerịta ndakọrịta consensus na Zebra — nke pụtara na ọ na-enyocha ma na-agbaso otu iwu protocol nke Zcash — Zakura na-eweta nkwalite injinia dị mkpa nke ebumnuche ha bụ ibelata ihe mgbochi dị n'ịgba full node Zcash.
 
-Ọrụ a bụ ọrụ jikọrọ aka n'etiti **Ọrụ Tachyon** (nke Sean Bowe, otu n'ime ndị injinia mbụ nke Zcash dere) na **Valar Group** (nke Dev Ojha duziri). Ha na-elekwasị anya n'ịkwalite usoro Zcash nke ọgbọ na-abịa, Zakura na-arụkwa ọrụ dị ka ebe ntụaka maka ọrụ ahụ.
+Ọrụ a bụ njikọ aka n'etiti **Project Tachyon** (nke Sean Bowe na-edu, otu n'ime ndị injinia cryptographic mbụ nke Zcash) na **Valar Group** (nke Dev Ojha na-edu). Ha abụọ na-elekwasị anya na nkwalite protocol ọgbọ na-esote nke Zcash, ma Zakura na-arụ ọrụ dị ka node ntụaka maka ọrụ ahụ.
 
 ---
 
-## Isi Atụmatụ
+## Akụkụ Ndị Dị Mkpa
 
-### Mmekọrịta Agbụ 5× Ngwa Ngwa
+### Mmekọrịta Chain Ngwa Ngwa Ugboro 5
 
-Zakura na-enweta njikọ blockchain dị ihe dị ka 5× ngwa ngwa ma e jiri ya tụnyere Zebra. Nke a na-eme ka ọ dịkwuo irè maka ndị ọrụ chọrọ ịgbagharị node ngwa ngwa ma ọ bụ gbakee site na oge ọrụ.
+Zakura na-enweta mmekọrịta blockchain dị ihe dịka ugboro 5 ngwa ngwa ma e jiri ya tụnyere Zebra. Nke a na-eme ka ọ baa uru karịa nke ukwuu maka ndị na-arụ ọrụ chọrọ ịmalite node ngwa ngwa ma ọ bụ nwetaghachi mgbe nkwụsị ọrụ gasịrị.
 
-### Foto Bootstrapping
+### Ịmalite Site na Snapshot
 
-Zakura na-ebipụta foto ndị e wuru n'usoro nke na-ebelata oge mmekọrịta mbụ nke ukwuu:
+Zakura na-ebipụta snapshot chain arụgoro nke na-ebelata oge mmekọrịta mbụ nke ukwuu:
 
 | Usoro Bootstrap | Oge |
 |-----------------|------|
-| Foto nchekwa | ~ Nkeji 37 |
-| Foto e gbubiri gbubiri | **N'okpuru nkeji 2** |
-| Zebra (mmekọrịta zuru oke) | ~Awa 20 |
+| Snapshot archive | ~37 nkeji |
+| Snapshot e belatara | **N'okpuru nkeji 2** |
+| Zebra (mmekọrịta zuru ezu) | ~awa 20 |
 
-Foto ndị e gbubiri egbu dị ihe dị ka **11 GB**, nke na-eme ka eriri n'ime **680× dị ngwa ngwa** ma e jiri ya tụnyere njikọta site na mmalite.
+Snapshot e belatara dị ihe dịka **11 GB**, na-eme ka ịmalite node bụrụ **ugboro 680 ngwa ngwa** ma e jiri ya tụnyere mmekọrịta site na genesis.
 
-### Ịkwacha Native Block
+### Mbelata Block E Wuru N'Imé Ya
 
-Zakura na-akwado ịkpụcha blọk a na-ahazi, na-enye ndị na-arụ ọrụ n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime n'ime.
+Zakura na-akwado mbelata block a pụrụ ịhazi, na-enye ndị na-arụ ọrụ node ohere ikpebi ole akụkọ chain ha ga-edobe. Nke a na-eme ka ịgba full node dị irè n'ọrụ na hardware nwere nchekwa pere mpe — bara uru maka validators, ndị mmepụta, na ndị na-eweta akụrụngwa na-adịghị mkpa chain akụkọ ihe mere eme zuru ezu.
 
-### zcashd RPC Compatibility Mode
+### Ụdị Ndakọrịta RPC nke zcashd
 
-Zakura nwere ụdị ndakọrịta nke na-emegharị ihe nketa ahụ `zcashd` Njikọ JSON-RPC. Obere akpa ego, mgbanwe, na njikọta dị adị nke dabere na `zcashd` Ndị RPC nwere ike ịgbanwe gaa na Zakura n'achọghị mgbanwe koodu.
+Zakura gụnyere ụdị ndakọrịta nke na-emepụtaghachi interface JSON-RPC ochie nke `zcashd`. E-akpa ego, exchanges, na njikọta ndị dị adị na-adabere na RPC `zcashd` nwere ike ịgbanwee gaa na Zakura na-enweghị mkpa mgbanwe koodu.
 
-### Oyi akwa njem P2P nnwale
+### Oyi Akwa Nnwale Maka Mbufe P2P
 
-Zakura na-ebuga ya na usoro njem ọgbọ na-esote, nke a na-akpọ "peer-to-peer" ugbu a. Mgbe etinyere ya, ọ na-elekwasị anya na:
+Zakura ji oyi akwa mbufe peer-to-peer ọgbọ na-esote abịa, nke ugbu a **agbanyụrụ na ndabara**. Mgbe agbanyere ya, ọ na-achọ:
 
-- Mgbasa nke obere nsogbu kacha njọ nke dị n'okpuru 500ms na netwọk ahụ
-- Nchịkọta Mempool maka nnyefe azụmahịa dị irè karị
-- Usoro asịrị na-eguzogide DoS iji melite iguzogide netwọk
+- Mgbasa block kachasị njọ n'okpuru 500ms n'ofe network
+- Ịkpakọba mempool maka ibufe Azụmahia nke ọma karị
+- Protocol gossip na-eguzogide DoS iji meziwanye nkwụsi ike network
 
-Oyi akwa a na-anọchite anya ihe ngosi nke mmezi ọkwa netwọkụ Zcash n'ọdịnihu nke a na-emepụta n'okpuru Project Tachyon.
+Oyi akwa a bụ nhụchalụ nke nkwalite ọkwa network Zcash n'ọdịnihu a na-emepụta n'okpuru Project Tachyon.
 
-### Ironwood (NU6.3) Dakọtara
+### Dakọtara na Ironwood (NU6.3)
 
-Zakura dakọtara nke ọma na mmelite netwọkụ Ironwood (NU6.3), nke arụpụtara na isi Zcash na etiti afọ 2026.
+Zakura dakọtara nke ọma na network upgrade Ironwood (NU6.3), nke arụpụtara na mainnet Zcash n'etiti 2026.
 
 ---
 
-## Zakura Common: Ngwa ngwa ngwa cryptography obere akpa
+## Zakura Common: Cryptography E-akpa Ego Ngwa Ngwa Karị
 
-Na Ọgọst 2026, ndị otu Zakura wepụtara Zakura Common, otu ngwa ngwa nke ọbá akwụkwọ cryptography nke obere akpa Zcash na nodes na-adabere na ya. Zakura gbanwere gaa na stack ọhụrụ na ụdị 1.3.0, Vizor Wallet sokwa na obere akpa mbụ jikọtara ya.
+N'Ọgọst 2026, otu Zakura wepụtara Zakura Common, otu fork e mere ngwa ngwa nke ọbá akwụkwọ cryptography nke e-akpa ego na node Zcash na-adabere na ya. Zakura gbanwere gaa na stack ọhụrụ ahụ na ụdị 1.3.0, ma Vizor Wallet bụ otu n'ime e-akpa ego mbụ jikọtara ya.
 
 ![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
 
-Dịka ihe Zakura kwuru si dị:
+Dịka nyocha nke Zakura n'onwe ya si kwuo:
 
-| Ọrụ | Ọsọ ọsọ |
+| Ọrụ | Ọsọ mgbakwunye |
 |--|--|
-| Mmepụta ihe akaebe na ekwentị | ihe karịrị 14× (desktọpụ: ihe karịrị 5×) |
-| Ịhazi Sinsemilla | ihe karịrị 21× |
-| nkwenye zk-SNARK | 4–8× |
-| Nkọwapụta nnwale | ihe karịrị 1.5× |
+| Ịmepụta proof na mobile | karịa 14× (desktop: karịa 5×) |
+| Hashing Sinsemilla | karịa 21× |
+| Nyocha zk-SNARK | 4–8× |
+| Decryption nnwale | karịa 1.5× |
 
-Maka ndị ọrụ, mgbanwe kachasị apụta ìhè bụ oge ichere. Ịrụpụta azụmahịa nkeonwe na-ewe obere akpa ego ihe karịrị sekọnd atọ. Site na Zakura Common, ọ nwere ike were ihe na-erughị 200 ms n'ọtụtụ oge. Nke a bụ oge ngwaọrụ gị ji akwado azụmahịa ahụ, ọ bụghị oge netwọk kwesịrị iji kwado ya.
+Maka ndị ọrụ, mgbanwe kacha apụta ìhè bụ oge ichere. Iwulite Azụmahia nzuzo na-ewe e-akpa ego ihe karịrị sekọnd atọ. Site na Zakura Common, ọ nwere ike iwe ihe na-erughị 200 ms n'ọtụtụ ọnọdụ. Nke a bụ oge ngwaọrụ gị na-etinye n'ịkwadebe Azụmahia, ọ bụghị oge network chọrọ iji kwado ya.
 
 
 ---
 
-## Otu Zakura si ejikọta ya na Zcash Nodes ndị ọzọ
+## Otu Zakura Si Metụta Node Zcash Ndị Ọzọ
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-| Asụsụ | C++ (a kpụrụ site na Bitcoin) | Nchara | Nchara (a kpụrụ site na Zebra) |
-| Ọnọdụ | Akwụsịla | Na-arụ ọrụ | Na-arụ ọrụ (v1.0.0, Julaị 2026) |
-| Ọsọ mmekọrịta | Ntọala ntọala | ~1× | ~5× ọsọ ọsọ |
-| Ịchacha ngọngọ | Mba | Mba | Ee |
-| zcashd RPC compat | Native | Partial | Ee (ụdị compat) |
-| Foto ntanye mmalite | Mba | Mba | Ee (ihe na-erughị nkeji 2) |
-| P2P nnwale | Mba | Mba | Ee (nhọrọ) |
+| Asụsụ | C++ (e kewapụrụ na Bitcoin) | Rust | Rust (e kewapụrụ na Zebra) |
+| Ọnọdụ | Akwụsịla iji ya | Na-arụ ọrụ | Na-arụ ọrụ (v1.0.0, Julaị 2026) |
+| Ọsọ mmekọrịta | Ntọala | ~1× | ~5× ngwa ngwa |
+| Mbelata block | Mba | Mba | Ee |
+| Ndakọrịta RPC zcashd | Nke e wuru n'ime ya | Nke akụkụ | Ee (ụdị ndakọrịta) |
+| Ịmalite site na snapshot | Mba | Mba | Ee (erughị nkeji 2) |
+| P2P nnwale | Mba | Mba | Ee (nhọrọ onye ọrụ) |
 
 ---
 
-## Na-amalite
+## Ịmalite
 
-Nhọrọ nbudata, foto, na akwụkwọ nhazi dị na:
+Nhọrọ nbudata, snapshot, na akwụkwọ nhazi dị na:
 
-- **Budata ma hazie ntuziaka:** [zakura.com/download](https://zakura.com/download/)
-- **Nseta eserese nke agbụ:** [zakura.com/snapshots](https://zakura.com/snapshots/)
-- **Koodu isi mmalite:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Ntuziaka nbudata na nhazi:** [zakura.com/download](https://zakura.com/download/)
+- **Snapshot chain:** [zakura.com/snapshots](https://zakura.com/snapshots/)
+- **Koodu isi:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
 
 ---
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara Ya
 
-- [Zebra zuru oke](Zebra_Full_Node.md) — e si n'elu Zcash gbapụta Zakura site na njikọ zuru oke.
-- [Ihe ngosi Zaino](Zaino.md) - ihe ndeksi dabere na Rust dakọtara na Zebra na Zakura
-- [Ọnụ zuru ezu](Full_Nodes.md) - nchịkọta nke nhọrọ Zcash zuru oke
-- [Ọnụọgụ obere akpa](Lightwallet_Nodes.md) - nhọrọ ndị ahịa dị mfe
+- [Zebra Full Node](Zebra_Full_Node.md) — full node elu nke Zcash nke e kewapụrụ Zakura na ya
+- [Zaino Indexer](Zaino.md) — indexer dabere na Rust nke dakọtara na Zebra na Zakura
+- [Full Nodes](Full_Nodes.md) — nchịkọta nhọrọ full node Zcash
+- [Lightwallet Nodes](Lightwallet_Nodes.md) — nhọrọ ndị ahịa dị fechaa
 
-## akụrụngwa
+## Akụrụngwa
 
-- [Na-ewebata Zakura - ọkwa](https://zakura.com/announcements/introducing-zakura/)
+- [Iwebata Zakura — ọkwa](https://zakura.com/announcements/introducing-zakura/)
 - [Zakura GitHub](https://github.com/zakura-core/zakura)
 - [Weebụsaịtị Zakura](https://zakura.com/)
 - [Zakura na X/Twitter](https://x.com/ZakuraZcash)
-- [Ọrụ Tachyon](https://electriccoin.co/blog/)
-- [Nkwupụta nkịtị Zakura](https://zakura.com/announcements/zakura-common/)
+- [Project Tachyon](https://electriccoin.co/blog/)
+- [Ọkwa Zakura Common](https://zakura.com/announcements/zakura-common/)

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Solana_ZEC_to_Shielded.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Έχεις ZEC στο Solana; Μετέφερέ το σε θωρακισμένο Zcash
@@ -34,7 +34,7 @@
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
+![Ο πίνακας About Zcash του Phantom που εμφανίζει τη διεύθυνση συμβολαίου A7bd…QXaS στο δίκτυο Solana](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Το Phantom τη συντομεύει σε `A7bd…QXaS`, οπότε σύγκρινε τον πρώτο και τον τελευταίο χαρακτήρα ή αναζήτησε την πλήρη διεύθυνση στο [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS). Οποιοδήποτε άλλο token «ZEC» στο πορτοφόλι σου, ανεξάρτητα από το όνομα ή το λογότυπό του, δεν είναι αυτό. Άφησέ το ήσυχο.
 
@@ -61,11 +61,11 @@ A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 
 Το πορτοφόλι σου εμφανίζει δύο είδη διεύθυνσης:
 
-![A Zcash wallet's Receive screen with a shielded address starting u1 and a transparent address starting t1](/content-images/02-zodl-receive-c98cd378fb.webp)
+![Οθόνη Receive ενός πορτοφολιού Zcash με θωρακισμένη διεύθυνση που αρχίζει από u1 και διαφανή διεύθυνση που αρχίζει από t1](/content-images/02-zodl-receive-c98cd378fb.webp)
 
 | Ξεκινά με | Τύπος | Τι βλέπει το κοινό |
 |---|---|---|
-| `u1` | Unified Address | Τίποτα για εσένα, αλλά μόνο όταν η πληρωμή καταλήγει σε θωρακισμένο pool |
+| `u1` | ενοποιημένη διεύθυνση | Τίποτα για εσένα, αλλά μόνο όταν η πληρωμή καταλήγει σε θωρακισμένο pool |
 | `t1` | Διαφανής διεύθυνση | Τη διεύθυνσή σου και το ποσό, για πάντα, όπως στο Solana |
 
 Χρησιμοποίησε μια `u1` που το πορτοφόλι σου επισημαίνει ως θωρακισμένη. Μια `u1` είναι ένα πακέτο δεκτών και ορισμένα πορτοφόλια βάζουν σε αυτήν έναν διαφανή δέκτη δίπλα στον θωρακισμένο. Ένας αποστολέας που μπορεί να πληρώσει μόνο διαφανείς διευθύνσεις θα χρησιμοποιήσει εκείνον και η πληρωμή σου θα καταλήξει δημόσια, παρότι επικόλλησες μια `u1`. Η θωρακισμένη διεύθυνση του πορτοφολιού δοκιμής μας δεν έχει διαφανή δέκτη, οπότε αυτό δεν μπορούσε να συμβεί. Το [Θωρακισμένα pools](/using-zcash/shielded-pools) καλύπτει τους δέκτες με περισσότερες λεπτομέρειες. Ορισμένα πορτοφόλια εμφανίζουν νέα `u1` κάθε φορά που ανοίγεις το Receive· αυτό είναι φυσιολογικό και όλες ανήκουν σε εσένα. Το στιγμιότυπο λήψης και το πεδίο παραλήπτη του near.com σε αυτή τη σελίδα χρησιμοποιούν διαφορετικά προθέματα `u1` γι’ αυτόν τον λόγο.
@@ -76,7 +76,7 @@ A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 
 ## Μετέφερέ το
 
-Η διαδρομή έχει δύο μέρη: βάλε το ZEC σου στο NEAR Intents από το Phantom και έπειτα στείλε το στη διεύθυνση Zcash σου. Χρησιμοποιήσαμε το [solswap.org](https://solswap.org), έναν ιστότοπο φτιαγμένο από το NEAR για χρήστες Solana, για το πρώτο μέρος και το [near.com](https://near.com), τη δική του εφαρμογή του NEAR, για το δεύτερο. Ο οδηγός ZecHubΠώς να κάνεις swap για ZEC στο πορτοφόλι Phantom](/using-zcash/solswap) του [ καλύπτει τις οθόνες του solswap με περισσότερες λεπτομέρειες. Μη χρησιμοποιήσεις το δικό του κουμπί **Swap** του Phantom γι’ αυτό: ήδη κατέχεις το token και το swap του δεν σε οδηγεί πουθενά.
+Η διαδρομή έχει δύο μέρη: βάλε το ZEC σου στο NEAR Intents από το Phantom και έπειτα στείλε το στη διεύθυνση Zcash σου. Χρησιμοποιήσαμε το [solswap.org](https://solswap.org), έναν ιστότοπο φτιαγμένο από το NEAR για χρήστες Solana, για το πρώτο μέρος και το [near.com](https://near.com), τη δική του εφαρμογή του NEAR, για το δεύτερο. Ο οδηγός του ZecHub [Πώς να κάνεις swap για ZEC στο πορτοφόλι Phantom](/using-zcash/solswap) καλύπτει τις οθόνες του solswap με περισσότερες λεπτομέρειες. Μη χρησιμοποιήσεις το δικό του κουμπί **Swap** του Phantom γι’ αυτό: ήδη κατέχεις το token και το swap του δεν σε οδηγεί πουθενά.
 
 Κράτησε λίγο SOL στο Phantom για τα τέλη Solana.
 
@@ -86,11 +86,11 @@ A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 2. Πάτησε **Deposit**. Ρύθμισε το **Asset** σε **Zcash**, το **Network** σε **Solana** και τη μέθοδο σε **Wallet**.
 3. Εισήγαγε το ποσό (ή πάτησε **Max**) και ενέκρινε τη συναλλαγή στο Phantom.
 
-![solswap Deposit screen with Zcash as the asset, Solana as the network and Wallet as the method](/content-images/03-solswap-deposit-425691e62f.webp)
+![Οθόνη Deposit του solswap με το Zcash ως asset, το Solana ως network και το Wallet ως method](/content-images/03-solswap-deposit-425691e62f.webp)
 
 Η κατάθεσή μας έφτασε στο μπλοκ Solana στις 15:09:08 (UTC+1) και το solswap την εμφάνισε ως **Completed** εννέα δευτερόλεπτα αργότερα.
 
-![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
+![Ιστορικό καταθέσεων του solswap που εμφανίζει Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 Το ZEC σου βρίσκεται τώρα στο υπόλοιπό σου NEAR Intents. Το κλειδί σου Phantom εξουσιοδοτεί κάθε μετακίνηση από αυτό, οι solvers NEAR Intents εκτελούν την παράδοση και το NEAR Intents μπορεί να διατηρεί υπόλοιπο για έλεγχο συμμόρφωσης (δες τις σημειώσεις εμπιστοσύνης παρακάτω).
 
@@ -98,22 +98,22 @@ A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 
 Το solswap έχει και σελίδα **Withdraw**, αλλά δεν λειτούργησε για εμάς. Τα **Received amount** και **Fee** παρέμεναν στο «–» και το κουμπί δεν έκανε τίποτα, είτε επιλέγαμε το Zcash είτε το Solana ως δίκτυο.
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
+![Φόρμα Withdraw του solswap με το ποσό που ελήφθη και το τέλος κολλημένα σε παύλα](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 Αν συμβεί αυτό σε εσένα, το ZEC σου δεν έχει κολλήσει. Το υπόλοιπο συνδέεται με το κλειδί του πορτοφολιού σου, όχι με τον ιστότοπο, οπότε κάθε εφαρμογή NEAR Intents στην οποία συνδέεσαι με αυτό το πορτοφόλι μπορεί να το προσπελάσει. Ολοκληρώσαμε στο near.com:
 
 1. Πήγαινε στο `near.com` και συνδέσου με το ίδιο πορτοφόλι Phantom.
 2. Το υπόλοιπό σου στο solswap εμφανίζεται στην ενότητα **Move legacy assets** (το near.com αποκαλεί τα υπόλοιπα από παλαιότερες εφαρμογές NEAR Intents «legacy»). Πάτησε **Withdraw** στη γραμμή ZEC. Δεν χρειάζεσαι το **Move**.
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
+![Σελίδα Move legacy assets του near.com που εμφανίζει 0.0026 ZEC με κουμπιά Move και Withdraw](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. Ρύθμισε το **Network** σε **Zcash**, επικόλλησε τη διεύθυνση `u1` του πορτοφολιού σου ως **Recipient** και έλεγξε τους πρώτους και τελευταίους έξι χαρακτήρες με το πορτοφόλι σου.
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
+![Φόρμα Withdraw legacy asset του near.com με το Zcash ως network και έναν δέκτη u1, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. Πάτησε **Review withdrawal**, διάβασε τη σύνοψη και πάτησε **Send**.
 
-![near.com Review send screen: network Zcash, recipient receives at least 0.00233164 ZEC, fee 0 ZEC, you pay 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
+![Οθόνη Review send του near.com: δίκτυο Zcash, ο παραλήπτης λαμβάνει τουλάχιστον 0.00233164 ZEC, τέλος 0 ZEC, εσύ πληρώνεις 0.00266336 ZEC](/content-images/08-nearcom-review-b6053f675b.webp)
 
 5. Το Phantom σου ζητά να **Sign Message** για το near.com. Αυτή η υπογραφή είναι που εξουσιοδοτεί το NEAR Intents να μετακινήσει το υπόλοιπό σου. Δεν κοστίζει SOL, αλλά αυτό δεν την κάνει ακίνδυνη: ένας ιστότοπος-απομίμηση μπορεί να εμφανίσει το ίδιο αίτημα και να αδειάσει το υπόλοιπό σου NEAR Intents με αυτό. Πριν πατήσεις **Confirm**, έλεγξε όλα τα παρακάτω και πάτησε **Cancel** αν αποτύχει έστω ένα:
    - Ο ιστότοπος που αναφέρεται στο αίτημα είναι το `near.com`. (Η κατάθεση στο βήμα 1 ήταν ένα συνηθισμένο αίτημα συναλλαγής Phantom από το `solswap.org`· έλεγξε εκεί το όνομα με τον ίδιο τρόπο.)
@@ -121,13 +121,13 @@ A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
    - Το μήνυμα είναι αναγνώσιμο κείμενο όπως στο στιγμιότυπο οθόνης. Αν είναι ακατανόητη ακολουθία χαρακτήρων ή ο ιστότοπος δεν ταιριάζει με εκείνον στη γραμμή διευθύνσεων, απόρριψέ το.
    - Δεν ζητά ποτέ τη φράση ανάκτησης. Η υπογραφή δεν περιλαμβάνει ποτέ την πληκτρολόγησή της.
 
-![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
+![Αίτημα Sign Message του Phantom από το near.com στο δίκτυο Solana](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. Το near.com εμφανίζει **Processing send**, **Sending** και **Complete**. Το **View on explorer** ανοίγει την εγγραφή NEAR Intents της μεταφοράς.
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
+![Οθόνη κατάστασης του near.com: Sending 0.0023 ZEC, και τα τρία βήματα ολοκληρώθηκαν](/content-images/10-nearcom-complete-c641093c46.webp)
 
-![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
+![Εγγραφή εξερευνητή NEAR Intents: δημιουργήθηκε στις 3:59:28 PM, έγινε ανάληψη στη διεύθυνση u1 στις 4:07:55 PM, με το αναγνωριστικό συναλλαγής ανάληψης Zcash](/content-images/11-intents-explorer-f93f87814e.webp)
 
 ### Πόσο κόστισε η δοκιμή μας και πόσο χρόνο χρειάστηκε
 
@@ -159,19 +159,19 @@ A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 
 Έφτασε θωρακισμένο. Το ZEC μας πήγε σε διεύθυνση `u1` και κατέληξε απευθείας στο θωρακισμένο pool Ironwood. Δεν υπήρξε διαφανές βήμα και δεν υπήρχε τίποτα να θωρακιστεί με το χέρι. Το πορτοφόλι το εμφάνισε ως **Receiving…** με εικονίδιο ασπίδας στις 16:07 (UTC+1), καθώς συνέλεγε επιβεβαιώσεις.
 
-![Zcash wallet activity showing Receiving 0.00241336 ZEC with a shield icon](/content-images/12-zodl-receiving-cb9f41511d.webp)
+![Δραστηριότητα πορτοφολιού Zcash που εμφανίζει Receiving 0.00241336 ZEC με εικονίδιο ασπίδας](/content-images/12-zodl-receiving-cb9f41511d.webp)
 
 Για να το ελέγξεις μόνος σου, άνοιξε τη συναλλαγή στο πορτοφόλι σου και αντέγραψε το αναγνωριστικό συναλλαγής.
 
-![Zcash wallet transaction details with the transaction ID and timestamp](/content-images/13-zodl-tx-details-b08434d680.webp)
+![Λεπτομέρειες συναλλαγής πορτοφολιού Zcash με το αναγνωριστικό συναλλαγής και τη χρονική σήμανση](/content-images/13-zodl-tx-details-b08434d680.webp)
 
 Επικόλλησέ το στο [block explorer Zcash](https://mainnet.zcashexplorer.app). Μη σε μπερδέψει η σύνοψη. Η δική μας γράφει **Shielded Inputs / Outputs 0 / 0** και **Transferred from/to shielded pool 0.0 ZEC**, επειδή η σύνοψη του explorer δεν μετρά ακόμη το Ironwood. Οι διευθύνσεις `t1` που βλέπεις είναι στην πλευρά αποστολής (το ZEC που δαπάνησε και τα ρέστα που κράτησε), όχι οι δικές σου.
 
-![Explorer summary for the transaction: two transparent inputs, one transparent output, 0/0 shielded](/content-images/14-explorer-summary-6153afb265.webp)
+![Σύνοψη εξερευνητή για τη συναλλαγή: δύο διαφανείς εισόδους, μία διαφανή έξοδο, 0/0 θωρακισμένες](/content-images/14-explorer-summary-6153afb265.webp)
 
 Κάνε κλικ στο **Raw TX: JSON** και αναζήτησε το `ironwood`. Ένα αρνητικό `valueBalance` εκεί σημαίνει ότι το ZEC εισέρχεται στο pool Ironwood. Το δικό μας ήταν `-0.00241336`, ακριβώς ό,τι έφτασε, και τίποτα στη συναλλαγή δεν δείχνει ποιος το έλαβε.
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
+![Ακατέργαστο JSON συναλλαγής με την ενότητα ironwood επισημασμένη: valueBalance -0.00241336 (προστέθηκε επισήμανση)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 Το [Τι μπορεί να δει ένας block explorer](/zcash-tech/what-a-block-explorer-can-see) εξηγεί τα υπόλοιπα πεδία.
 

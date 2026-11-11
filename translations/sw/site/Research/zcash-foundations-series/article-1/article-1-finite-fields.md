@@ -1,75 +1,75 @@
-# Finite Fields: Nambari System Cryptography Anaishi Katika
-##### Utafiti wa awali kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
+# Sehemu zenye Kikomo: Mfumo wa Namba Ambamo Kriptografia Huishi
+##### Utafiti Asilia kutoka [Annkkitaaa](https://github.com/Annkkitaaa)
 
-! ![ alt maandishi](/content-images/image-5-6e8a8950f8.webp)
+![alt text](/content-images/image-5-6e8a8950f8.webp)
 
-### Kwa nini "wrapping kuzunguka" ni msingi siri ya Zcash
+### Kwa nini “kuzunguka” ndio msingi wa siri wa Zcash
 
-> **Series:** *Zcash kutoka Kanuni za Kwanza* . **Kifungu cha 1 .
-> ** Wasikilizaji: ** wageni. Tunadhani tu shule ya kawaida hesabu (kuongeza, kuzidisha, kugawanya). Hakuna cryptography kabla au hisabati ya juu.
-> ** Nini wewe kuondoka na: ** uelewa intuitive na sahihi ya mashamba finite, kwa nini cryptographers kuzitumia, na ambapo wao kuonyesha juu ndani ya Zcash.
+> **Mfululizo:** *Zcash kuanzia Kanuni za Msingi* . **Makala ya 1 . Sehemu zenye Kikomo**
+> **Walengwa:** wanaoanza. Tunachukulia kuwa unajua tu hesabu za kawaida za shuleni (kujumlisha, kuzidisha, kugawanya). Hakuna ujuzi wa awali wa kriptografia au hisabati ya juu unaohitajika.
+> **Utachobaki nacho:** uelewa wa kiintuitivu na sahihi wa sehemu zenye kikomo, kwa nini wanakriptografia huzitumia, na mahali zinapoonekana ndani ya Zcash.
 
-Katika [Kifungu cha 0](article-0-shielded-transaction.md) we met five characters: the note, the commitment, the note commitment tree, the nullifier, and the zero-knowledge proof. We left a loose end hanging: *where do all the keys and secret recipes actually come from?* They come from numbers. But not the ordinary numbers you grew up with. They come from a special, self-contained number system called a **finite field**, and almost every piece of cryptography in Zcash is built on top of it.
+Katika [Makala ya 0](article-0-shielded-transaction.md) tulikutana na wahusika watano: dokezo [note], commitment, mti wa commitment wa dokezo, nullifier, na thibitisho la maarifa sifuri [zero-knowledge proof]. Tuliacha swali lisilojibiwa: *funguo zote na mbinu za siri hutoka wapi hasa?* Hutoka kwenye namba. Lakini si namba za kawaida ulizokulia nazo. Hutoka kwenye mfumo maalumu wa namba unaojitosheleza unaoitwa **uga wenye kikomo [finite field]**, na karibu kila sehemu ya kriptografia katika Zcash imejengwa juu yake.
 
-Makala hii inapata wazo hilo polepole. Kama ilivyoahidiwa, intuition kwanza. Hakuna formula mpaka wao kulipa kwa wenyewe.
-
----
-
-## 1. Kwa nini unapaswa kuhangaikia jambo hilo?
-
-Nambari za kawaida zina tatizo kwa cryptography: kuna infinitely wengi wao, na wao kuvuja habari.
-
-Fikiria nini kinatokea wakati idadi anapata * kubwa. * Kama mimi kukuambia mahesabu siri zinazozalishwa `8,142,067`, you already know quite a lot: it's a seven-digit number, it's odd, it's "fairly large." Size is a clue. And clues are exactly what a privacy system cannot afford to give away.
-
-Cryptography anataka mfumo wa idadi ambapo:
-
-- kuna **finitely wengi** maadili, hivyo kompyuta unaweza kuhifadhi yoyote ya yao hasa na hakuna rounding na hakuna overflow,
-- maadili ** wala kuvuja ukubwa wao **, kwa sababu mfumo hana dhana halisi ya "kubwa",
-- bado unaweza ** kuongeza, kutoa, kuzidisha, na kugawanya ** kwa uhuru na reversibly, kwa sababu mapishi cryptographic haja algebra halisi ya kazi, na
-- nafasi inaweza kufanywa **astronomically kubwa **, hivyo nadhani ni matumaini.
-
-Hiyo orodha ya matakwa ina jina. Ni ** uwanja wa mwisho **. Hebu kujenga intuition kwa moja kabla ya kuandika ishara moja.
+Makala hii inajenga wazo hilo polepole. Kama tulivyoahidi, kiintuisheni kwanza. Hakuna fomula hadi zitakapokuwa na manufaa.
 
 ---
 
-## 2. Intuition: saa
+## 1. Kwa nini ujali?
 
-Tayari unatumia uwanja wa mwisho kila siku. Ni saa kwenye ukuta wako.
+Namba za kawaida zina tatizo kwa kriptografia: zipo zisizo na kikomo, na hufichua taarifa.
 
-On a 12-hour clock, numbers *wrap around*. Start at 10 o'clock, add 5 hours, and you don't land on "15 o'clock," you land on **3 o'clock**. The clock has only twelve positions, and counting past the top simply loops back to the start.
+Fikiria kinachotokea namba inapokuwa *kubwa zaidi*. Nikikuambia hesabu ya siri ilitoa `8,142,067`, tayari unajua mengi: ni namba yenye tarakimu saba, ni witiri, na ni “kubwa kwa kiasi.” Ukubwa ni kidokezo. Na vidokezo ndivyo hasa mfumo wa faragha hauwezi kumudu kutoa.
 
-! ![ alt maandishi](/content-images/image-9-30b39f4cc5.webp)
+Kriptografia inahitaji mfumo wa namba ambapo:
 
-Mambo matatu tu yaliyotokea ndiyo kusudi la makala hii:
+- kuna thamani **zenye kikomo**, ili kompyuta iweze kuhifadhi yoyote kati yake kwa usahihi bila kukadiria au kufurika,
+- thamani **hazifichui ukubwa wake**, kwa sababu mfumo hauna dhana halisi ya “kubwa zaidi,”
+- bado unaweza **kujumlisha, kutoa, kuzidisha, na kugawanya** kwa uhuru na kwa kurejesheka, kwa sababu mbinu za kriptografia zinahitaji aljebra halisi ili zifanye kazi, na
+- nafasi inaweza kufanywa kuwa **kubwa kupita kiasi**, ili kubahatisha kusiwe na matumaini.
 
-1. Kuna nafasi kumi na mbili, bila kujali muda gani unauhesabu.
-2. **Kuongeza bado kazi.** Unaweza kuongeza masaa siku nzima; wewe daima kutua juu ya nafasi halali saa.
-3. ** ukubwa kusimamishwa jambo. * "3 saa" haina kukuambia kama kuhesabiwa 3 masaa au 15 au 27. wrap-karibu * erased ukubwa habari. * kwamba kufuta ni hasa faragha ya kirafiki mali tulitaka.
-
-Hii wrap-karibu hesabu ina jina rasmi: ** modular hesabu **. saa kazi "modulo 12," imeandikwa ** mod 12 **. Wataalam wa hisabati wanapendelea kuhesabu nafasi kuanzia 0, hivyo "saa mod 12" kweli ina nafasi `0, 1, 2, ..., 11`. saa mod 7 ingekuwa na nafasi `0` kupitia `6`.
-
-> ** sheria moja: ** kwa mahesabu chochote "mod p", kufanya hesabu ya kawaida, kisha kugawanya na `p` na kuweka tu mabaki.
-> Mfano mod 7: `5 + 4 = 9`, na `9` majani mabaki `2` baada ya kugawanywa na `7`, so `5 + 4 = 2 (mod 7)`.
+Orodha hiyo ya matamanio ina jina. Ni **uga wenye kikomo**. Hebu tujenge intuisheni yake kabla ya kuandika alama hata moja.
 
 ---
 
-## 3. Kutoka saa hadi shamba
+## 2. Intuisheni: saa
 
-Saa inaruhusu sisi kuongeza. ** shamba ** ni kuboresha: mfumo wa idadi ambapo wote nne shughuli tabia, ikiwa ni pamoja na gumu moja, mgawanyiko.
+Tayari unatumia uga wenye kikomo kila siku. Ni saa iliyo ukutani kwako.
 
-Bila rasmi, ** shamba ** ni mkusanyiko wowote wa "nambari" ambapo unaweza ** kuongeza, kutoa, kuzidisha, na kugawanya ** (na chochote isipokuwa sifuri), na sheria zote zinazojulikana bado zinashikilia: utaratibu hauna maana kwa kuongeza au kuzidishwa, brackets inaweza kuunganishwa tena, kuna `0` na a `1`, na kila idadi ina hasi na (isipokuwa `0`), na kuanzisha uhusiano wa kirafiki.
+Kwenye saa ya saa 12, namba *huzunguka*. Anza saa 10, ongeza saa 5, na hufiki “saa 15,” bali unafika **saa 3**. Saa ina nafasi kumi na mbili pekee, na kuhesabu kupita kilele hurudi tu mwanzo.
 
-Nambari rational ni uwanja. idadi halisi ni shamba. nini tunataka ni * mwisho * moja.
+![alt text](/content-images/image-9-30b39f4cc5.webp)
 
-Hapa ni matokeo ya kichwa cha habari, na ni nzuri:
+Mambo matatu yametokea sasa ambayo ndiyo kiini cha makala hii:
 
-> ** Kuchukua namba nzima `0, 1, ..., p-1` na kufanya yote mod hesabu `p`. If `p` ni idadi ya msingi, matokeo ni uwanja wa mwisho.** Sisi kuandika `F_p` (Soma "F sub p").
+1. **Ulimwengu una kikomo.** Kuna nafasi kumi na mbili hasa, haijalishi unahesabu kwa muda gani.
+2. **Kujumlisha bado hufanya kazi.** Unaweza kuongeza saa siku nzima; daima unafika kwenye nafasi halali ya saa.
+3. **Ukubwa haukuwa muhimu tena.** “Saa 3” haikuambii kama ulihesabu saa 3 au 15 au 27. Kuzunguka *kumeondoa taarifa ya ukubwa.* Kuondoa huko ndicho hasa sifa rafiki kwa faragha tulichotaka.
 
-So `F_7 = {0, 1, 2, 3, 4, 5, 6}` na saa-style hesabu mod 7 ni uwanja halisi ya mwisho. Hebu kuona ni kupumua.
+Hesabu hii ya kuzunguka ina jina rasmi: **hesabu moduli [modular arithmetic]**. Saa hufanya kazi “modulo 12,” huandikwa **mod 12**. Wanahisabati hupendelea kuhesabu nafasi kuanzia 0, kwa hiyo “saa mod 12” kwa kweli ina nafasi `0, 1, 2, ..., 11`. Saa mod 7 ingekuwa na nafasi `0` hadi `6`.
 
-### Kuzidisha katika F_7 (kuthibitishwa)
+> **Kanuni moja:** ili kuhesabu kitu chochote “mod p,” fanya hesabu ya kawaida, kisha gawa kwa `p` na ubaki na masalio pekee.
+> Mfano mod 7: `5 + 4 = 9`, na `9` huacha salio `2` baada ya kugawanywa kwa `7`, kwa hiyo `5 + 4 = 2 (mod 7)`.
 
-Kila kuingia ni `(row x column) mod 7`:
+---
+
+## 3. Kutoka saa hadi uga
+
+Saa hutuwezesha kujumlisha. **Uga** ni toleo lililoboreshwa: mfumo wa namba ambamo vitendo vyote vinne hufanya kazi, ikiwemo kigumu, kugawanya.
+
+Kwa maelezo yasiyo rasmi, **uga** ni mkusanyiko wowote wa “namba” ambamo unaweza **kujumlisha, kutoa, kuzidisha, na kugawanya** (kwa chochote isipokuwa sifuri), na kanuni zote zinazofahamika bado zinashikilia: mpangilio haujalishi katika kujumlisha au kuzidisha, mabano yanaweza kupangwa upya, kuna `0` na `1`, na kila namba ina hasi na (isipokuwa `0`) kinyume chake.
+
+Namba za uwiano ni uga. Namba halisi ni uga. Tunachotaka ni uga *wenye kikomo*.
+
+Haya ndiyo matokeo makuu, na ni mazuri:
+
+> **Chukua namba kamili `0, 1, ..., p-1` na ufanye hesabu zote mod `p`. Ikiwa `p` ni namba tasa, matokeo ni uga wenye kikomo.** Tunauandika `F_p` (husomwa “F chini ya p”).
+
+Kwa hiyo `F_7 = {0, 1, 2, 3, 4, 5, 6}` yenye hesabu ya mtindo wa saa mod 7 ni uga wenye kikomo halisi. Hebu tuuone ukifanya kazi.
+
+### Kuzidisha katika F_7 (kumethibitishwa)
+
+Kila ingizo ni `(row x column) mod 7`:
 
 | x | 0 | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|---|
@@ -81,150 +81,150 @@ Kila kuingia ni `(row x column) mod 7`:
 | **5** | 0 | 5 | 3 | 1 | 6 | 4 | 2 |
 | **6** | 0 | 6 | 5 | 4 | 3 | 2 | 1 |
 
-Angalia safu kwa ajili ya `1` kupitia `6`: kila moja ina kila thamani nonzero `1..6` Hiyo "hakuna kurudia, hakuna kitu kukosa" muundo ni alama inayoonekana ya uwanja.
+Tazama safu za `1` hadi `6`: kila moja ina kila thamani isiyo sifuri `1..6` mara moja hasa. Muundo huo wa “hakuna marudio, hakuna kinachokosekana” ni alama inayoonekana ya uga.
 
-### Ugawaji: uchawi ambao unahitaji msingi
+### Kugawanya: uchawi unaohitaji namba tasa
 
-Idadi ni tu "kuzidisha kwa kinyume". Katika `F_7`, kinyume (au ** kinyume **) cha idadi `a` ni thamani `a^(-1)` ambayo `a x a^(-1) = 1`. Kusoma yao moja kwa moja kutoka meza:
+Kugawanya ni “kuzidisha kwa kinyume.” Katika `F_7`, kinyume (au **inverse**) cha namba `a` ni thamani `a^(-1)` ambayo `a x a^(-1) = 1`. Tukiyachukua moja kwa moja kutoka kwenye jedwali:
 
 | `a` | 1 | 2 | 3 | 4 | 5 | 6 |
 |---|---|---|---|---|---|---|
 | `a⁻¹` | 1 | 4 | 5 | 2 | 3 | 6 |
 
-Angalia moja: `2 x 4 = 8 = 1 (mod 7)`. Hivyo "gawanya na 2" katika `F_7` inamaanisha "kuzidisha kwa 4". Kila kipengele nonzero ina mpenzi. ** Hiyo ni nini hufanya `F_7` shamba.**
+Hakiki moja: `2 x 4 = 8 = 1 (mod 7)`. Kwa hiyo “gawanya kwa 2” katika `F_7` inamaanisha “zidisha kwa 4.” Kila elementi isiyo sifuri ina mwenzi. **Hicho ndicho kinachofanya `F_7` kuwa uga.**
 
 ---
 
-## 4. Kwa nini moduli ni lazima iwe ya msingi
+## 4. Kwa nini moduli lazima iwe tasa
 
-Hii ni wazo moja muhimu zaidi katika makala, hivyo hebu kufanya hivyo halisi badala ya abstract.
+Hili ndilo wazo muhimu zaidi katika makala hii, kwa hiyo hebu tulifanye la kivitendo badala ya dhahania.
 
-Angalia nini mapumziko kama sisi naively kujaribu kujenga "shamba" mod `6` (na `6` ni * sio * msingi):
+Tazama kinachoharibika tukijaribu kwa urahisi kujenga “uga” mod `6` (na `6` *si* tasa):
 
-> Je, kuna yeyote `x` na `2 x x = 1 (mod 6)`? Kuangalia wote: `2x0=0, 2x1=2, 2x2=4, 2x3=0, 2x4=2, 2x5=4`Jibu `1` kamwe inaonekana.** Hivyo `2` hana mbadala mod 6. mbaya zaidi, `2 x 3 = 6 = 0 (mod 6)`: nambari mbili zisizo na sifuri zinazidishwa ili kutoa sifuri.
+> Je, kuna `x` yoyote ambayo `2 x x = 1 (mod 6)`? Tukizikagua zote: `2x0=0, 2x1=2, 2x2=4, 2x3=0, 2x4=2, 2x5=4`. **Jibu `1` halitokei kamwe.** Kwa hiyo `2` haina kinyume mod 6. Mbaya zaidi, `2 x 3 = 6 = 0 (mod 6)`: namba mbili zisizo sifuri zilizidishwa na kutoa sifuri.
 
-Hiyo sentensi ya pili ni janga kwa ajili ya hesabu. vitu mbili si sifuri kuzidisha kwa sifuri (aitwaye ** zero mgawanyiko **) ina maana mgawanyo ni kuvunjwa, na mfumo na kugawanyika kuvunjWA si uwanja. hutokea hasa kwa sababu `6` sababu kama `2 x 3`.
+Sentensi hiyo ya pili ni janga kwa hesabu. Vitu viwili visivyo sifuri kuzidishwa na kutoa sifuri (vinavyoitwa **kigawanyaji sifuri [zero divisor]**) kunamaanisha kugawanya kumeharibika, na mfumo wenye kugawanya kilichoharibika si uga. Hutokea hasa kwa sababu `6` inaweza kugawanywa kuwa `2 x 3`.
 
-Mkuu, kwa ufafanuzi, hana mambo kama hayo. Hivyo mod mkuu, hakuna zero divisors inaweza kuonekana, kila kipengele nonzero anapata safi kinyume, na muundo ni uwanja sahihi.
+Namba tasa, kwa ufafanuzi, haina vigawanyaji kama hivyo. Kwa hiyo mod namba tasa, hakuna vigawanyaji sifuri vinavyoweza kutokea, kila elementi isiyo sifuri hupata kinyume safi, na muundo huo ni uga sahihi.
 
-! ![ alt maandishi](/content-images/image-8-573914db92.webp)
+![alt text](/content-images/image-8-573914db92.webp)
 
-> ** Reusable moja-lineer kwa ajili ya makala yako: ** * prime modulus katika, safi mgawanyiko nje. *
+> **Sentensi moja inayoweza kutumika tena katika makala zako:** *moduli tasa ikiingia, ugawanyaji safi hutoka.*
 
 ---
 
-## 5. formula moja ya thamani ya mkutano: jinsi kompyuta kupata inverse
+## 5. Fomula moja inayofaa kuifahamu: jinsi kompyuta hupata vinyume
 
-Sisi kusoma inverses nje ya meza kwa `F_7`, lakini Zcash ya msingi ina mamia ya tarakimu; hakuna meza inawezekana. Kuna njia ya mkato classic, na ni formula tu katika makala hii.
+Tulisoma vinyume kutoka kwenye jedwali kwa `F_7`, lakini namba tasa ya Zcash ina mamia ya tarakimu; hakuna jedwali linalowezekana. Kuna njia ya mkato maarufu, na ndiyo fomula pekee katika makala hii.
 
-**Fermat's Little Theorem** anasema kwamba kwa ajili ya msingi `p` na yoyote nonzero `a`:
+**Nadharia Ndogo ya Fermat** inasema kwamba kwa namba tasa `p` na `a` yoyote isiyo sifuri:
 
 ```
 a^(p-1) = 1   (mod p)
 ```
 
-Rearrange ni (peel mbali moja sababu ya `a`) na unapata kinyume kwa bure:
+Ipange upya (ondoa kipengele kimoja cha `a`) na unapata kinyume bila gharama:
 
 ```
 a^(-1) = a^(p-2)   (mod p)
 ```
 
-Mtihani katika `F_7` (`p = 7`, so `p - 2 = 5`): kinyume cha `2` inapaswa kuwa `2^5 = 32 = 4 (mod 7)`Na kwa hakika meza yetu ilisema `2^(-1) = 4`Kompyuta kuongeza kwa nguvu kubwa sana haraka, hivyo hii anarudi "kupata kinyume" katika haraka, hesabu sahihi hata kwa primes kubwa.
+Ijaribu katika `F_7` (`p = 7`, kwa hiyo `p - 2 = 5`): kinyume cha `2` kinapaswa kuwa `2^5 = 32 = 4 (mod 7)`. Na kwa kweli jedwali letu lilisema `2^(-1) = 4`. Kompyuta hupandisha namba kwa vipeo vikubwa kwa kasi sana, kwa hiyo hii hubadilisha “pata kinyume” kuwa hesabu ya haraka na sahihi hata kwa namba tasa kubwa sana.
 
-Huna haja ya kukumbuka hii. Unahitaji kujua kwamba ** mgawanyiko katika uwanja wa mwisho ni haraka, sahihi operesheni **, ambayo ni kwa nini cryptographers ni furaha ya kujenga juu yake.
+Huhitaji kukariri hili. Unahitaji kujua kwamba **kugawanya katika uga wenye kikomo ni tendo la haraka na sahihi**, na ndiyo hasa sababu wanakriptografia wanafurahia kujenga juu yake.
 
 ---
 
-## 6. Kwa nini cryptography akaanguka katika upendo na mashamba finite
+## 6. Kwa nini kriptografia ilizipenda sana sehemu zenye kikomo
 
-Kuweka intuition pamoja, hapa ni kesi nzima katika ukurasa mmoja.
+Tukiunganisha intuisheni, hapa kuna hoja yote kwenye ukurasa mmoja.
 
-| Mali ya `F_p` | Kwa nini mfumo wa faragha unataka |
+| Sifa ya `F_p` | Kwa nini mfumo wa faragha huitaka |
 |---|---|
-| **Mwisho** | Kompyuta huhifadhi kipengele chochote haswa; hakuna mzunguko, hakuna kufurika, hakuna uvujaji wa sehemu inayoelea |
-| **Funga** | Hufuta "ukubwa," kwa hivyo thamani haitoi chochote kuhusu jinsi ilivyotengenezwa |
-| **Shughuli zote nne zinafanya kazi** | Mapishi ya kidijitali (funguo, ahadi, uthibitisho) yanahitaji aljebra halisi, si kuhesabu tu |
-| **Ukubwa unaoweza kuchaguliwa** | Chagua prime ya biti 255 au biti 381 na sehemu ina elementi nyingi zaidi kuliko atomi katika ulimwengu unaoonekana; kukisia hakuna matumaini |
-| **Hasa na ya uhakika** | Wahusika wawili waaminifu wanaohesabu kitu kimoja hupata matokeo yanayofanana kila wakati, ambayo uthibitisho hutegemea |
+| **Yenye kikomo** | Kompyuta huhifadhi elementi yoyote kwa usahihi; hakuna kukadiria, kufurika, au ukungu wa namba za nukta zinazoelea |
+| **Kuzunguka** | Hufuta “ukubwa,” kwa hiyo thamani haifichui chochote kuhusu jinsi ilivyotolewa |
+| **Vitendo vyote vinne hufanya kazi** | Mbinu za kriptografia (funguo, commitments, thibitisho) zinahitaji aljebra halisi, si kuhesabu pekee |
+| **Ukubwa unaoweza kuchaguliwa** | Chagua namba tasa ya biti 255 au biti 381 na uga una elementi nyingi kuliko atomi zilizopo katika ulimwengu unaoweza kuonekana; kubahatisha hakutakuwa na matumaini |
+| **Sahihi na bainifu** | Wahusika wawili waaminifu wanaohesabu kitu kilekile hupata matokeo yanayofanana daima, jambo ambalo thibitisho hutegemea |
 
-uwanja wa mwisho ni, katika kifungu kimoja, ** kikamilifu kufungwa, kikamilifu sahihi, kikamili kubwa uwanja kwa ajili ya hesabu.** Kila kitu kingine katika Zcash ni kujengwa kwa kucheza ndani yake.
-
----
-
-## 7. Ambapo hii anaishi katika Zcash
-
-You don't have to take "Zcash uses finite fields" on faith. Here's the concrete map (the deeper machinery is for later articles; this is just to show the fingerprints are real).
-
-- ** Sapling ** (a zamani kulindwa kubuni) hujenga uthibitisho wake juu ya curve aitwaye ** BLS12-381 **, ambayo msingi uwanja anatumia prime kwamba ni ** 381 bits ** muda mrefu. Kila uratibu, muhimu, na ushahidi kipengele ni kipengele cha uwanja wa mwisho kujengwa juu ya kwamba prime.
-- ** Orchard ** (sasa ulinzi kubuni) inatumia jozi ya curves kuitwa ** Pallas na Vesta ** (ya "Pasta" curves), ambayo mashamba kutumia primes takriban **255 bits ** muda mrefu.
-- The **note commitment**, the **nullifier**, and the numbers inside a **zero-knowledge proof** from Article 0 are all, at bottom, elements of one of these finite fields. When the protocol says "compute this commitment," it means "do this arithmetic mod that prime."
-
-! ![ alt maandishi](/content-images/image-7-c81fe982f0.webp)
-
-Hivyo jibu kwa Sura ya 0 ya wazi swali, * "ambapo mapishi siri kuja kutoka?" *, huanza hapa: ** kila kitu huanza kama hesabu katika uwanja wa mwisho. * Katika makala ijayo sisi kuchukua uwanja huo na kujenga mali halisi, pointi juu ya curve elliptic, ambayo kuwa funguo na ahadi.
+Uga wenye kikomo ni, kwa maneno machache, **uwanja wa michezo uliofungwa kikamilifu, sahihi kikamilifu, na mkubwa kupita kiasi kwa hesabu.** Kila kitu kingine katika Zcash hujengwa kwa kucheza ndani yake.
 
 ---
 
-## 8. Mtu anayetoa taarifa kwa uaminifu
+## 7. Mahali hili linapoishi katika Zcash
 
-Ili kukaa wageni-kirafiki sisi kurahisishwa baadhi ya mambo ya kweli. mashamba Finite si tu kuja katika `F_p` ladha; unaweza pia kujenga mashamba na `p^n` elements (called **extension fields**), and those matter for the "pairings" that Sapling's proof system relies on. We also skipped the full list of field axioms and glossed over how primes of this size are chosen and validated. None of that changes the intuition you now hold; it refines it. We'll add the precision back, with flags, when a later article needs it.
+Huhitaji kuamini tu kwamba “Zcash hutumia sehemu zenye kikomo.” Hapa kuna ramani halisi (mitambo ya kina ni ya makala zijazo; hii ni kuonyesha tu kwamba alama hizo ni halisi).
+
+- **Sapling** (muundo wa zamani wa faragha) hujenga thibitisho zake juu ya mviringo unaoitwa **BLS12-381**, ambao uga wake wa msingi hutumia namba tasa yenye urefu wa **biti 381**. Kila kiolezo, ufunguo, na elementi ya thibitisho ni elementi ya uga wenye kikomo uliojengwa juu ya namba tasa hiyo.
+- **Orchard** (muundo wa sasa wa faragha) hutumia jozi ya miviringo iitwayo **Pallas and Vesta** (miviringo ya “Pasta”), ambayo sehemu zake hutumia namba tasa zenye urefu wa takribani **biti 255**.
+- **Commitment ya dokezo**, **nullifier**, na namba zilizo ndani ya **thibitisho la maarifa sifuri** kutoka Makala ya 0 zote, kimsingi, ni elementi za mojawapo ya sehemu hizi zenye kikomo. Itifaki inaposema “hesabu commitment hii,” inamaanisha “fanya hesabu hii mod namba tasa hiyo.”
+
+![alt text](/content-images/image-7-c81fe982f0.webp)
+
+Kwa hiyo jibu la swali wazi la Makala ya 0, *“mbinu za siri hutoka wapi?”*, linaanza hapa: **kila kitu huanza kama hesabu katika uga wenye kikomo.** Katika makala inayofuata tutachukua uga huo na kujenga vitu halisi, pointi kwenye mviringo wa duaradufu, ambazo huwa funguo na commitments.
+
+---
+
+## 8. Kanusho la uaminifu
+
+Ili kubaki rafiki kwa wanaoanza, tulirahisisha mambo machache ya kweli. Sehemu zenye kikomo haziji tu katika umbo la `F_p`; unaweza pia kujenga sehemu zenye elementi `p^n` (zinazoitwa **sehemu za upanuzi [extension fields]**), na hizo ni muhimu kwa “pairings” ambazo mfumo wa thibitisho wa Sapling hutegemea. Pia tuliruka orodha kamili ya aksiomu za uga na kupita haraka jinsi namba tasa za ukubwa huu huchaguliwa na kuthibitishwa. Hakuna kati ya hayo yanayobadilisha intuisheni uliyo nayo sasa; yanaiweka sahihi zaidi. Tutarudisha usahihi huo, kwa alama, wakati makala ya baadaye itakapouhitaji.
 
 ---
 
 ## 9. Muhtasari
 
-- Cryptography inahitaji mfumo wa idadi ambayo ni ** kumalizika, sahihi, ukubwa-kipofu, kikamilifu invertible, na kubwa.** Mfumo huo ni ** uwanja wa mwisho **.
-- Intuition ni ** saa **: hesabu kwamba ** wraps karibu ** (arithmetic modular), ambayo conveniently erases "ukubwa" wa idadi.
-- Kufanya hesabu na namba `0..p-1` mod a **prime** `p` inatoa uwanja halisi `F_p`, ambapo unaweza pia ** kugawanywa ** kwa sababu kila kipengele si sifuri ina inverse.
-- Moduli ** lazima kuwa msingi **: moduli composite inajenga zero divisors (kama `2 x 3 = 0 mod 6`) na kuvunja mgawanyiko.
-- Kompyuta kupata inverses haraka kupitia ** Fermat ya Little Theorem ** (`a^(-1) = a^(p-2)`).
-- Katika ** Zcash **, kila muhimu, ahadi, nullifier, na uthibitisho kipengele ni hatimaye kipengele cha uwanja kubwa mwisho (255-bit Pasta mashamba kwa Orchard, 381-bit shamba kwa Sapling ya BLS12-381).
+- Kriptografia inahitaji mfumo wa namba ambao ni **wenye kikomo, sahihi, usiojali ukubwa, unaoweza kugeuzwa kikamilifu, na mkubwa sana.** Mfumo huo ni **uga wenye kikomo**.
+- Intuisheni ni **saa**: hesabu ambayo **huzunguka** (hesabu moduli), na kwa urahisi hufuta “ukubwa” wa namba.
+- Kufanya hesabu kwa namba `0..p-1` mod namba tasa `p` hutoa uga halisi `F_p`, ambamo unaweza pia **kugawanya** kwa sababu kila elementi isiyo sifuri ina kinyume.
+- Moduli **lazima iwe tasa**: moduli changamano huunda vigawanyaji sifuri (kama `2 x 3 = 0 mod 6`) na huharibu kugawanya.
+- Kompyuta hupata vinyume haraka kupitia **Nadharia Ndogo ya Fermat** (`a^(-1) = a^(p-2)`).
+- Katika **Zcash**, kila ufunguo, commitment, nullifier, na elementi ya thibitisho hatimaye ni elementi ya uga mkubwa wenye kikomo (sehemu za Pasta za biti 255 kwa Orchard, uga wa biti 381 kwa BLS12-381 ya Sapling).
 
 ---
 
-## Orodha ya maneno
+## Faharasa
 
-| Muhula | Maana ya Kiingereza cha kawaida |
+| Neno | Maana kwa lugha rahisi |
 |---|---|
-| **Modular arithmetic** | Hesabu inayojikunja baada ya kufikia thamani isiyobadilika, kama saa |
-| **mod p** | "Gawanya kwa `p` na ubaki na iliyobaki" |
-| **Field** | Mfumo wa nambari ambapo kuongeza, kutoa, kuzidisha, na kugawanya kazi zote |
-| **Finite field `F_p`** | Nambari `0..p-1` na hesabu iliyofanywa mod prime `p` |
-| **Inverse (reciprocal)** | Kipengele `a^(-1)` na `a x a^(-1) = 1`"kugawanya kwa `a`"inamaanisha kuzidisha kwa hilo |
-| **Zero divisor** | Thamani mbili zisizo na sifuri ambazo bidhaa yake ni sifuri; kitu kinachoharibu moduli ya mchanganyiko |
-| **Prime** | Nambari nzima kubwa kuliko 1 bila vipengele isipokuwa 1 na yenyewe |
+| **Modular arithmetic** | Hesabu inayozunguka baada ya kufikia thamani maalumu, kama saa |
+| **mod p** | “Gawa kwa `p` na ubaki na salio” |
+| **Field** | Mfumo wa namba ambamo kujumlisha, kutoa, kuzidisha, na kugawanya vyote hufanya kazi |
+| **Finite field `F_p`** | Namba `0..p-1` zenye hesabu inayofanywa mod namba tasa `p` |
+| **Inverse (reciprocal)** | Elementi `a^(-1)` ambayo `a x a^(-1) = 1`; “kugawanya kwa `a`” kunamaanisha kuizidisha nayo |
+| **Zero divisor** | Thamani mbili zisizo sifuri ambazo zao ni sifuri; kitu kinachoharibu moduli changamano |
+| **Prime** | Namba kamili kubwa kuliko 1 isiyo na vigawanyaji isipokuwa 1 na yenyewe |
 
 ---
 
-## FAQ
+## Maswali Yanayoulizwa Mara kwa Mara
 
-**Kwa nini si tu kutumia integers kawaida au decimals?**
-Decimals pande zote na drift; integers kukua bila bound na kuvuja ukubwa. mashamba Finite ni sahihi, bounded, na ukubwa-kipofu, ambayo cryptography inahitaji.
+**Kwa nini tusitumie tu namba kamili au desimali za kawaida?**
+Desimali hukadiria na kupotoka; namba kamili hukua bila kikomo na hufichua ukubwa. Sehemu zenye kikomo ni sahihi, zina mipaka, na hazijali ukubwa, ambavyo kriptografia inahitaji.
 
-**Je, "kuzunguka" hupoteza habari?**
-Kwa makusudi, ndiyo. Kufuta ukubwa wa maadili ya kati ni kipengele, si mdudu, kwa faragha.
+**Je, “kuzunguka” kunapoteza taarifa?**
+Kwa makusudi, ndiyo. Kufuta ukubwa wa thamani za kati ni sifa, si hitilafu, kwa faragha.
 
-**Je, prime kubwa daima ni salama zaidi?**
-Kwa ufupi, uwanja mkubwa zaidi unamaanisha maadili zaidi ya uwezekano na kukisia zaidi, lakini usalama hutegemea ujenzi wote, si ukubwa wa uwanja pekee. Makala za baadaye hufanya hili kuwa sahihi.
+**Je, namba tasa kubwa zaidi huwa salama zaidi daima?**
+Kwa ujumla, uga mkubwa zaidi unamaanisha thamani zinazowezekana zaidi na kubahatisha kwa ugumu zaidi, lakini usalama hutegemea muundo mzima, si ukubwa wa uga pekee. Makala za baadaye zitafafanua hili kwa usahihi.
 
-** Kwa nini hizi primes maalum (255-bit, 381-bit) katika Zcash?**
-Wao ni kuchaguliwa hivyo pembe kujengwa juu yao kuwa na muundo sahihi na ufanisi kwa mfumo ushahidi. "Muundo sahihi" kwamba ni mada ya makala mbili zifuatazo.
+**Kwa nini namba tasa hizi maalumu (biti 255, biti 381) katika Zcash?**
+Huchaguliwa ili miviringo inayojengwa juu yake iwe na muundo na ufanisi unaofaa kwa mfumo wa thibitisho. “Muundo unaofaa” huo ndio mada ya makala mbili zinazofuata.
 
 ---
 
-### Jaribu ufahamu wako wa ndani
+### Jaribu intuisheni yako
 
-In `F_7`, ni nini `5 - 6`? (Kumbuka: kukaa ndani `{0,...,6}` kwa wrapping kuzunguka.) * ((Jibu chini.) *
+Katika `F_7`, `5 - 6` ni nini? (Kumbuka: baki ndani ya `{0,...,6}` kwa kuzunguka.) *(Jibu hapa chini.)*
 
-<details><summary>Answer</summary>
+<details><summary>Jibu</summary>
 
-`5 - 6 = -1`, na `-1` iliyofungwa katika `F_7` is `6` (kwa sababu `6 + 1 = 7 = 0`). So `5 - 6 = 6 (mod 7)`. Kuondoa kamwe majani shamba; ni tu wraps njia nyingine.
+`5 - 6 = -1`, na `-1` ikizungushwa ndani ya `F_7` ni `6` (kwa sababu `6 + 1 = 7 = 0`). Kwa hiyo `5 - 6 = 6 (mod 7)`. Kutoa hakuondoki kamwe kwenye uga; kunazunguka tu upande mwingine.
 </details>
 
 ---
 
-### Ni nini kinachofuata
+### Kinachofuata
 
-** Kifungu cha 2. curves elliptic:** sisi kuchukua uwanja wa mwisho sisi tu kujengwa na kuitumia kuteka aina ya ajabu ya curve ambayo pointi inaweza kuwa "aliongeza" pamoja. Pointi hizo kuwa funguo Zcash na ahadi, na wao kuficha moja-njia trapdoor kwamba inafanya mfumo wote faragha inawezekana. Intuition kwanza, kama siku zote.
+**Makala ya 2 . Miviringo ya duaradufu:** tunachukua uga wenye kikomo tulioujenga sasa na kuutumia kuchora aina ya ajabu ya mviringo ambao pointi zake zinaweza “kujumlishwa” pamoja. Pointi hizo huwa funguo na commitments za Zcash, na huficha mtego wa njia moja unaowezesha mfumo mzima wa faragha. Intuisheni kwanza, kama kawaida.
 
-* Sehemu ya * Zcash kutoka Kanuni za Kwanza * mfululizo kwa [ZecHub](https://zechub.org). Leseni CC BY-SA 4.0.*
+*Sehemu ya* mfululizo wa Zcash kuanzia Kanuni za Msingi *kwa [ZecHub](https://zechub.org). Imepewa leseni ya CC BY-SA 4.0.*

@@ -4,131 +4,135 @@
 
 # Ironwood
 
-> Ironwood wɔ dɔ le Zcash mainnet dzi le block 3,428,143 le July 28, 2026 UTC, eye wòle agbe tso ɣemaɣi.
+> Ironwood wo dze egɔme le Zcash mainnet dzi le gaɖoɖowo ƒuƒoƒe 3,428,143 dzi le July 28, 2026 UTC, eye wòle dɔ wɔm tso ɣeyiɣi ma me.
 
-Nusi nàtsɔ adzoe: nusi Ironwood trɔna, nusita nudzodzoe aɖe si le ga ɣaɣla me nye nu sesẽ, kple alesi turnstile la nana ame aɖeke ɖoa kpe edzi be womewɔ ZEC aɖeke o.
+Nusi nàxlẽ tso eme nye: nusi Ironwood trɔ, alekee ŋudzedze si le ga si woɣe ɖa me le vevie, kple ale si gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe [turnstile] na ame sia ame ate ŋu akpɔe ɖe edzi be womeda ZEC aɖeke o.
 
-Ironwood is a Zcash [network ƒe ŋgɔyiyi](../start-here/network-upgrades), si woyɔna le se nu be NU6.3, si to ta yeye si wotsɔ akpoxɔnu wɔe si xɔ ŋkɔ ma ke vɛ. A [ta si ŋu wokpɔ akpoxɔnu le](../using-zcash/shielded-pools) nye ga gbogbo siwo ƒe ga homewo kple wo tɔ nɔa ɣaɣla ɖe [zero-sidzedze nya ɣaɣlawo ƒe nuŋɔŋlɔ](../zcash-tech/zk-snarks). Ironwood li be woatsɔ axe mɔ ɖe gbeɖiɖi ƒe nugbagbevi aɖe si wokpɔ le Orchard shielded pool si li fifia me nu ahalé ŋku ɖe eŋu, eye wòana mɔnu sesẽtɔ nasu nutoa me tɔwo si be woakpɔe ɖa be ZEC ƒe agbɔsɔsɔ bliboa nye anukwareɖiɖi hã. Wogblɔ eƒe se siwo dzi woda asi ɖo le [ZIP 258 ƒe xexlẽdzesi](https://zips.z.cash/zip-0258).
+Ironwood nye Zcash [mɔ̃ ƒe sewo trɔtrɔ network upgrade](../start-here/network-upgrades), si woyɔe le nyateƒe me be NU6.3, eye wòtsɔ ɣaɣla [shielded] gaƒuƒoƒo [pool] yeye si ŋkɔe nye ma ke va. [ɣaɣla gaƒuƒoƒo](../using-zcash/shielded-pools) nye ga si ƒe asimekaka kple ame siwo tɔe wole be woɣe wo dometɔ ɖa kple [zero-knowledge cryptography](../zcash-tech/zk-snarks) ƒe ƒuƒoƒo. Ironwood li be wòakpɔ ŋudzedze si le ɖoɖonu ƒe nyateƒenyenye me si woɖe kpɔ le Orchard ɣaɣla gaƒuƒoƒo me la dzi, eye wòana nutoa ƒe amewo mɔ sesĩe wu be woakpɔe ɖe edzi be ZEC ƒe ga blibo la le nyateƒe me. Womeɖo gbegbɔgblɔ ɖi [consensus] ƒe sewo ɖe [ZIP 258](https://zips.z.cash/zip-0258) me.
 
-Nusitae esia le vevie ɖo. Ne ga si le gaglãgbe abe Bitcoin ene ta la, amesiame ate ŋu akpɔe ɖa be womewɔ aʋatso gaku aɖeke o to dutoƒo agbalẽ gã la xexlẽ me. Ga si wokpɔ ta na la ɣlaa ga homeawo, eyata màte ŋu akpɔe ko o. Ke boŋ ele be nya ɣaɣlawo ŋutɔ naka ɖe edzi be ame aɖeke mate ŋu awɔ ga le adzame o. Ironwood le vevie elabena wokpɔ nudzodzoe aɖe le kakaɖedzinya ma me na Orchard ta la. Dodoɖeŋgɔa xea vovototoa eye wònaa mɔnu amesiame si dzi wòato aɖo kpe edzi be ZEC ƒe agbɔsɔsɔ bliboa gakpɔtɔ nye anukwareɖiɖi.
+Nukatae esia le vevie. Le ga si ƒe ʋuʋuɖi [transparent] le kekeake abe Bitcoin ene me la, ame sia ame ate ŋu axlẽ akɔnta si woɖe fia na amewo la akpɔe ɖe edzi be womeda ga aɖeke o. Ga si wòle ɣaɣla me ɣe asimekaka la ɖa, eyata mèate ŋu akpɔe kple ŋku ko o. Le esia ta la, ele be cryptography ŋutɔ naɖo kpe ɖe edzi be ame aɖeke mate ŋu awɔ ga ɣeɣe o. Ironwood le vevie elabena woɖe ŋudzedze kpɔ le kaɖedzi sia me le Orchard gaƒuƒoƒo ta. Mɔ̃ ƒe sewo trɔtrɔ sia tɔ agbɔ dzi le fifia, eye wòna ame sia ame mɔ be wòakpɔe ɖe edzi be ZEC ƒe ga blibo la le nyateƒe me.
 
-Nu yeyee le Zcash mea? Dze egɔme kple [Nukae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash) kple [Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools), emegbe nàtrɔ ava afisia.
+Èye yɔe le Zcash me? Dze egɔme kple [Nu kae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash) kple [Ɣaɣla Gaƒuƒoƒowo](../using-zcash/shielded-pools), eye nàtrɔ va afi sia.
 
 ![Ironwood value migration flow: value leaves the Orchard pool, passes through the turnstile checkpoint, and enters the new Ironwood pool](/content-images/ironwood-flow-8af7a58b99.webp)
 
-## Nusitae Ironwood hiã
+## Nukatae wòhia be Ironwood nanɔ anyi
 
-Le May 2026 ƒe nuwuwu la, dedienɔnɔ ŋuti numekula si le eɖokui si Taylor Hornby, le ɖoɖowɔɖi ƒe agbalẽdzikpɔkpɔ me na... [Labs Siwo Wotsɔ Akpoxɔnu Wɔe](../zcash-organizations/shielded-labs), tsɔ agbanɔamedzi ɖe gbeɖiɖi ƒe nugbagbevi aɖe ɖe go le Orchard ta si wotsɔ akpoxɔnu wɔe la me. Orchard nye Zcash ƒe ta yeyetɔ si ŋu wokpɔ akpoxɔnu le ɣemaɣi, eye vodadaa nɔ eƒe nutome si me sidzedze zero mele o ƒe akpa si le abe elliptic-curve ene, si zãa... [Halo](../zcash-tech/halo) 2 kpeɖodziɖoɖo.
+Le May 2026 ƒe nuwuwu me la, dedienɔnɔƒe ƒe nudzidziɖola si wòle ɖeke me o, Taylor Hornby, le protocol ƒe audit si wòwɔ na [Shielded Labs](../zcash-organizations/shielded-labs) ta me la, gblɔ ŋudzedze si le ɖoɖonu ƒe nyateƒenyenye me le Orchard ɣaɣla gaƒuƒoƒo me kple dzidzɔ. Orchard nye Zcash ƒe ɣaɣla gaƒuƒoƒo yeye wu le ɣeyiɣi ma me, eye vodada la le elliptic-curve ƒe akpa aɖe si le eƒe zero-knowledge circuit me, si zazã na [Halo](../zcash-tech/halo) 2 ƒe ɖaseɖigbalɛ [proof] wɔwɔ ƒe ɖoɖonu.
 
-1. Gbeɖiɖi ƒe vodada fia be akɔntabubu si ɖo kpe edzi be asitsatsa aɖe sɔ la meka ɖe edzi bliboe o.
-2. Le susu me la, amedzidzela ate ŋu azã vodadaa atsɔ awɔ asixɔxɔ si mesɔ o le Orchard-ta la me eye wòazã ga si menye wo tɔ ŋutɔŋutɔ o, eye wòagblẽ dzesi aɖeke ɖi si node dzɔdzɔe aɖe alé o.
-3. Zcash ƒe turnstile gakpɔtɔ ɖo asixɔxɔ agbɔsɔsɔme si ate ŋu ado le Orchard me gbeɖe o, eyata womate ŋu adzi ga si woatsɔ anae katã ɖe dzi o, gake ta la ŋutɔ ƒe nya ɣaɣlawo megaka ɖe edzi be gaku ɖesiaɖe si woɣla ɖe eme la nye nu ŋutɔŋutɔ o.
+1. Ŋudzedze si le ɖoɖonu ƒe nyateƒenyenye me fia be matematiki si ɖo kpe ɖe edzi be gaɖoɖo [transaction] aɖe le nyateƒe me la meɖo kpe ɖe edzi blibo o.
+2. Le teori me la, dziɖula aɖe ate ŋu azã vodada la awɔ asimekaka si menye nyateƒe o le Orchard gaƒuƒoƒo me, eye wòazã ga si menye etɔ o, eye ɣaɣla dzesi ŋɔŋlɔ [node] biasa aɖeke makpɔ eƒe dziɖoɖo o.
+3. Zcash ƒe gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe hã wɔ se na asimekaka si ate ŋu ado go tso Orchard me, eyata womate ŋu awɔ ga blibo la nadzi o, ke hã gaƒuƒoƒo la ŋutɔ ƒe cryptography megblɔ be ga si woɣe ɖa siwo katã le eme la nye nyateƒe o.
 
 ![The bug explained: a transaction puts in 5 ZEC, but the flawed proof still passes when 7 ZEC come out, creating 2 ZEC from nothing](/content-images/ironwood-bug-8f689d6f61.webp)
 
-Xexlẽdzesi siwo le etame la nye nɔnɔmetata si wowɔ bɔbɔe. Gblẽƒe ŋutɔŋutɔe nye nutome suea ƒe akɔntabubu ƒe akpa aɖe koŋ, ke menye gaku siwo gena ɖe eme kple esiwo dona le eme ƒe xexlẽme ŋutɔŋutɔ o. Nya si wòle be woaɖe ɖa koe nye be gbeɖiɖi ƒe vodada ate ŋu ana woawɔ asixɔxɔ le ta la me evɔ womakpɔe o.
+Xexlẽdzesi siwo le dzi la nye nɔnɔmetata bɔbɔe. Vodada vavã la le circuit la ƒe matematiki ƒe akpa aɖe me, menye be woxlẽ ga siwo ge ɖe eme kple siwo ge doa go abe ale ene o. Nu si wòle be nàɖe asi ɖe eme nye be ŋudzedze si le ɖoɖonu ƒe nyateƒenyenye me ate ŋu ana asimekaka nanɔ gaƒuƒoƒo la me wo makpɔe o.
 
-Vevietɔ la, kpeɖodzi aɖeke meli be wozã nudzodzoea kpɔ o, kpeɖodzi aɖeke meli be ekpɔ ŋusẽ ɖe ezãlawo ƒe ga dzi o, eye kpeɖodzi aɖeke meli be ZEC ƒe agbɔsɔsɔ bliboa trɔ o. Woke ɖe eŋu to dedienɔnɔ ŋuti numekuku me eye woɖɔe ɖo hafi nuveviwɔame ɖesiaɖe si wonya.
+Le vevie ŋutɔ la, ɖase aɖeke mele be woɖe vodada la dzi kpɔ o, ɖase aɖeke mele be eɖo nu vɔ̃ ɖe zãlawo ƒe ga dzi o, eye ɖase aɖeke mele be ZEC ƒe ga blibo la trɔ o. Wokpɔe to dedienɔnɔƒe ƒe nudzidzi me, eye wotɔe dɔ le haɖe aɖeke va kpɔ o.
 
-## Alesi amewo ɖo eŋui
+## Ŋuɖoɖo
 
-Zcash nutoa me tɔwo ɖoa ɖɔɖɔɖowo ɖe afɔɖeɖe vovovowo tsɔ wu be woaɖo wo katã zi ɖeka.
+Zcash nutoa la ɖo nuwɔwɔwo le akpa akpa me, menye zi ɖeka me o.
 
 ![Ironwood response timeline: the Orchard bug is found in May 2026, the pool is paused in June 2026, the circuit is fixed in NU6.2, and Ironwood activated at block 3,428,143 on July 28, 2026](/content-images/ironwood-timeline-36243f0cd7.webp)
 
-1. Le June 2026 ƒe gɔmedzedze la, ɣeyiɣi kpui aɖe ƒe afɔɖeɖe aɖe na Orchard-ta la megawɔ dɔ o esime wonɔ dzadzram ɖo ɖe eŋu bliboe.
-2. NU6.2 ƒe tɔtrɔa ɖɔ Orchard nutome suea ŋutɔ ɖo, si xe mɔ na gbeɖiɖi ƒe afɔku si le ete la.
-3. NU6.3 ƒe tɔtrɔ, Ironwood, to ta yeye si ŋu wokpɔ ta na kple dutoƒokpɔƒe vɛ ale be asixɔxɔ nate ŋu adzo le Orchard ta xoxoa me le agbalẽdzikpɔkpɔ blibo te.
+1. Le June 2026 ƒe gɔmedzedze me la, nuwɔwɔ kpui aɖe tsi Orchard gaƒuƒoƒo la ƒe dɔ wɔwɔ te vaseɖe esime woɖo nuwɔwɔ blibo la ɖo.
+2. NU6.2 mɔ̃ ƒe sewo trɔtrɔ la trɔ Orchard circuit ŋutɔ, eye wòtɔ ɖoɖonu ƒe nyateƒenyenye ƒe vɔ̃ɖi si le gɔme la.
+3. NU6.3 mɔ̃ ƒe sewo trɔtrɔ, Ironwood, tsɔ ɣaɣla gaƒuƒoƒo yeye kple akpɔkpɔƒe si amewo katã nakpɔ va, ale be asimekaka nate ŋu ado go tso Orchard gaƒuƒoƒo xoxo me le audit blibo te.
 
 ![The fix in NU6.2: the corrected proof requires inputs to equal outputs, so a valid 5 ZEC output passes while an attempt to output 7 ZEC is rejected](/content-images/ironwood-fix-bb4f70ddc9.webp)
 
-## Nusi Ironwood ta la wɔna
+## Nusi Ironwood gaƒuƒoƒo la wɔna
 
-NU6.2 kpɔ Orchard nutome ta na asitsatsa yeyewo katã, gake asixɔxɔ si wowɔ le se xoxoawo te gakpɔtɔ le Orchard ƒe ta la me. Ironwood naa asixɔxɔ ma nyea teƒe si le dzadzɛ eye wònaa mɔnu si dzi woato adzro eme ne ele ʋuʋum.
+NU6.2 de Orchard circuit la yɔ ɖe gaɖoɖo yeyeawo katã ta, ke asimekaka si woɖe gbe le se xoxoawo te la gale Orchard gaƒuƒoƒo me. Ironwood na asimekaka ma teƒe dzadzɛ kple mɔ si woato awɔ audit le eƒe yiɖoɖo me.
 
-Ironwood ta la nye asixɔxɔ ƒe ta si wokpɔ ta na si NU6.3 wɔ le block 3,428,143. Wotue ɖe nutome sue si woɖɔ ɖo dzi eye wozãa quantum-recoverable note format (aɖaŋu si na woate ŋu axɔ ga ne... [quantum kɔmpiutawo](../zcash-tech/post-quantum-security) ever break today’s cryptography), si gɔme woɖe le [ZIP ƒe 2005](https://zips.z.cash/zip-2005).
+Ironwood gaƒuƒoƒo la nye ɣaɣla asimekaka ƒe gaƒuƒoƒo si NU6.3 wɔ le gaɖoɖowo ƒuƒoƒe 3,428,143 dzi. Wotu wò ɖe circuit si woɖo nyuie dzi, eye wòzã didienu [note] ƒe nɔnɔ si ate ŋu aɖe ga gbɔ le quantum ƒe nuwɔwɔ megbe (nɔnɔ aɖe si na gawo ate ŋu agbugbɔ ava ne [quantum computers](../zcash-tech/post-quantum-security) tsã cryptography si miezã egbe la dzi), si woɖo ɖe [ZIP 2005](https://zips.z.cash/zip-2005) me.
 
-1. Le dɔwɔwɔ vɔ megbe la, Orchard-ta xoxoa va zua gazazã ɖeɖeko, eyata asixɔxɔ yeye aɖeke mate ŋu age ɖe eme o.
-2. Asixɔxɔ yeye si wokpɔ ta na la sina yia Ironwood me boŋ.
-3. Shielded ZEC léa ameŋunyatakakawo ŋuti kakaɖedzi sesẽ mawo ke siwo ɣlaa ame si ɖoe ɖa, amesi xɔe, kple ga home la me ɖe asi.
+1. Le dɔwɔwɔ ƒe gɔmedzedze megbe la, Orchard gaƒuƒoƒo xoxo la trɔ zu teƒe si wòate ŋu azã ga ado go ko, eyata asimekaka yeye aɖeke mate ŋu age ɖe eme o.
+2. Asimekaka yeye si woɣe ɖa la ge ɖe Ironwood me ɖe eteƒe.
+3. Le Ironwood me la, ɣaɣla ZEC na ɣaɣla si ɣe sender, receiver, kple asimekaka dometɔ ɖa nɔ anyi. ZEC ƒe yiɖoɖo tso Orchard me yi Ironwood me fia asimekaka si woɖo yi.
 
-## Trɔtrɔmɔ̃a
+## Gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe
 
-Susu vevitɔ si le Ironwood enye mɔ si dzi woatrɔ asi le, si nye akɔntabubu ƒe teƒe si wòle be gaku ɖesiaɖe nato ne ele ʋuʋum tso Orchard ta xoxoa me yi Ironwood.
+Nusese vevi le Ironwood me nye gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe, akɔnta ƒe akpɔkpɔƒe si ga sia ga to le esi wòle tso Orchard gaƒuƒoƒo xoxo me yi Ironwood me.
 
-> Nusi ahuhɔ̃eʋɔtru wɔna na gadzraɖoƒe ƒe nudzraɖoƒe na ga ɣaɣla. Màte ŋu akpɔ ememe kokoko o, gake àte ŋu axlẽ nusi tututu gena ɖe eme kple nusi dona.
+> Gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe wɔ na ga si le ɣaɣla me nusi aɣeyeyi ƒe agbo le bank ƒe gaƒuƒoƒe me wɔna. Mèkpɔ nusi le eme o hã, ke nàte ŋu axlẽ nusi ge ɖe eme kple nusi doa go tso eme tututu.
 
-1. Woxlẽa ga siwo dona le Orchard le dutoƒo kpeɖodziƒe hafi gena ɖe Ironwood.
-2. Esia wɔnɛ be amesiame léa ŋku ɖe alesi gbegbe ZEC ʋunae ŋu, si doa ŋusẽ kakaɖedzi le nu ŋutɔŋutɔ si le tsatsam ŋu.
-3. Ne ɖe wowɔ ZEC aʋatso aɖe to vodada si do ŋgɔ dzi la, ʋuʋu ƒe akɔntabubu siae wòadze le.
+1. Woxlẽ ga siwo le dodom go tso Orchard me le akpɔkpɔƒe si ame sia ame nakpɔ me hafi woage ɖe Ironwood me.
+2. Esia na ame sia ame ate ŋu awɔ audit na ZEC si le trɔmɔ̃ wɔm, eye wòde dzideƒo ɖe ga si le mɔ me vavã la ƒe blibo dzi.
+3. Ne woɖe ZEC aɖeke si menye nyateƒe o gbe kple ŋudzedze si va do ŋgɔ la, eƒe dzesi ado go le trɔmɔ̃ ƒe akɔnta sia dzi.
 
-Turnstiles menye nu yeye na Zcash o. Netwɔƒea zã wo do ŋgɔ, le liƒo siwo le Sprout, Sapling, kple Orchard tadeaguƒewo dome, ale be asixɔxɔ si le ʋuʋum le tadeaguƒewo dome la nɔa anyi si woate ŋu adzro eye ta aɖeke mate ŋu aɖe asi le nusi wu esi wòge ɖe eme le se nu o.
+Gaɖoɖowo ƒe xexlẽdzikpɔɖeƒewo menye nu yeye na Zcash o. Network la zã wo kpɔ xoxo le Sprout, Sapling, kple Orchard gaƒuƒoƒowo ƒe liƒoawo me, ale be asimekaka si le trɔmɔ̃ le gaƒuƒoƒowo dome la nɔ audit te, eye gaƒuƒoƒo aɖeke magaɖe ga geɖe wu esi wòge ɖe eme le mɔ si le nyateƒe me o.
 
-Se siwo dzi woda asi ɖo la nana asixɔxɔ ƒe ƒuƒoƒo ɖesiaɖe, si me Ironwood hã le, nɔa network la ƒe ga ƒe seɖoƒe si sɔ gbɔ wu me, eyata ga si susɔ la mate ŋu azu nu gbegblẽ gbeɖe o.
+Gbegbɔgblɔ ɖi ƒe sewo lé asimekaka ƒe gaƒuƒoƒo siawo katã, kple Ironwood hã, le network la ƒe ga ƒe seƒe gãtɔ te, eyata gaƒuƒoƒowo ƒe asimekaka mate ŋu azu nyagblẽ o.
 
-## Nusi wòle be ezãlawo nawɔ
+## Nusi wòle be zãlawo nawɔ
 
-Gakotokuwo kple node kɔmpiutadziɖoɖowo kpɔa esia ƒe akpa gãtɔ gbɔ le wo ɖokui si, gake tɔtrɔ ŋutɔŋutɔa le bɔbɔe: le ɣeyiɣi aɖe megbe la, tsɔ nusiwo wotsɔ akpoxɔnu lé ɖe asi la tso Orchard-ta xoxoa me to ʋuƒoa me yi Ironwood-ta la me. Wɔ ɖe mɔfiame si tso wò gakotokua nana gbɔ dzi, eye nàwɔ yeye ɣesiaɣi ɖe asiɖeɖe le eŋu si ŋu wodo alɔe ŋu hafi nàxe mɔ ɖe dɔwɔwɔ nu.
+Gakotoku [wallet] kple ɣaɣla dzesi ŋɔŋlɔ ƒe software wɔ esia ƒe akpa gãtɔ le eɖokui si, ke nusi trɔ le ŋutilã me nye bɔbɔe: ɣeyiɣi yi ɖe edzi la, trɔ ɣaɣla ga si nèle le Orchard gaƒuƒoƒo xoxo me to gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe me yi Ironwood gaƒuƒoƒo me. Yiɖoɖo sia sia fia eƒe asimekaka le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] dzi, eyata gakotoku siwo de asi le [ZIP 318](https://zips.z.cash/zip-0318) ŋu la ma wo ɖe asimekaka biasa me eye woɖo wo yi ɣeyiɣi me. Ɖo tofia si tso wò gakotoku nana me, eye nàkpɔ be wò software le version si woɖe asi ɖo.
 
-## Nyagɔmeɖegbalẽ
+## Nyagbalẽ
 
-| Nyagbe | Plain-Eŋlisigbe me gɔmesese |
+| Nyagbegbe | Eŋlisigbe bɔbɔe ƒe gɔgblɔ |
 |---|---|
-| Shielded pool | Ga siwo ƒe agbɔsɔsɔme kple aƒetɔwo ɣla to zero-knowledge cryptography |
-| Soundness bug | Vodada si na be asitsatsa si mesɔ o to kpeɖodzi ƒe ɖaseɖigbalẽa me abe ɖe wòsɔ ene |
-| Turnstile | Dutoƒokpɔƒe si xlẽa asixɔxɔ si le ʋuʋum le tadeaguƒewo dome ale be nuawo nanɔ anyi si woate ŋu adzro |
-| Spend-only | Ta si me nàte ŋu azã ga le, gake màte ŋu atsɔ asixɔxɔ yeye akpe ɖe | ŋu o
-| Network upgrade (NU) | Tɔtrɔ si wowɔ ɖekae ɖe Zcash ƒe se siwo dzi woda asi ɖo ŋu, si wowɔ dɔ le block ƒe kɔkɔme si woɖo ɖi |
-| Quantum-recoverable note | Nuŋlɔɖi ƒe ɖoɖo si wowɔ ale be woate ŋu axɔ ga ne quantum kɔmpiutawo gblẽ egbegbe nya ɣaɣlawo me gbeɖeka |
+| Shielded pool | Ga si ƒe asimekaka kple ame siwo tɔe wole be woɣe wo dometɔ ɖa kple zero-knowledge cryptography |
+| Soundness bug | Vodada si na gaɖoɖo si menye nyateƒe o to ɖaseɖigbalɛ ƒe kpɔkpɔ abe ne wòle nyateƒe ene |
+| Turnstile | Akpɔkpɔƒe si ame sia ame nakpɔ si xlẽ asimekaka si le trɔmɔ̃ le gaƒuƒoƒowo dome, ale be ga blibo la nanɔ audit te |
+| Spend-only | Gaƒuƒoƒo si nàte ŋu azã ga ado go tso eme, ke mèate ŋu aɖe asimekaka yeye age ɖe eme o |
+| Network upgrade (NU) | Trɔtrɔ si wode ɖe Zcash ƒe gbegbɔgblɔ ɖi ƒe sewo me le ɣeyiɣi ɖeka me, si dze egɔme le gaɖoɖowo ƒuƒoƒe ƒe teƒe si woɖo ɖi dzi |
+| Quantum-recoverable note | Didienu ƒe nɔnɔ si woɖo ɖi be ga nate ŋu agbugbɔ ava ne quantum computers tsã cryptography si miezã egbe la dzi |
 
-## Nyabiasewo ƒe Nyabiasewo
+## Biabia siwo wodziana kpɔ
 
-Ðe wògblẽ nu le nye ZEC ŋua? Ao, kpeɖodzi aɖeke meli be wozã nudzodzoea kpɔ o, mekpɔ ŋusẽ aɖeke ɖe ezãlawo ƒe ga dzi o, eye tɔtrɔ aɖeke meli le nusiwo katã wotsɔ vɛ ŋu o.
+Ɖe ZEC nye tɔ ɖo nu? Ao. Ɖase aɖeke mele be woɖe vodada la dzi kpɔ o, eɖo nu vɔ̃ aɖeke ɖe zãlawo ƒe ga dzi o, eye ga blibo la meɖe asi o.
 
-Ðe wòhiã be mawɔ nanea? Na wò gakotoku kple node ƒe kɔmpiutadziɖoɖoa nawɔ yeye ɖe asiɖeɖe le eŋu si wodo alɔe ŋu hafi nàxe mɔ ɖe dɔwɔwɔ nu. Wò gakotokua tsɔa ga yia Ironwood le ɣeyiɣi aɖe megbe ne èle ga zãm, eyata naneke meli si nàtsɔ asi awɔ kaba o. Wɔ ɖe wò gakotoku dɔwɔƒea ƒe mɔfiamewo dzi.
+Ɖe ele be mawɔ naneke? Nàlé wò gakotoku kple ɣaɣla dzesi ŋɔŋlɔ ƒe software le version si woɖe asi ɖo. Ne èzã Orchard ƒe ga ado go la, wòtrɔe yi Ironwood me, eye asimekaka si to ƒoƒo la le ʋuʋuɖi. Gakotoku aɖewo tsɔ trɔmɔ̃ si ɖo asimekaka biasa yi le ɣeyiɣi me va, ale be wò ga ƒe kadodo mekɔ o. Ɖo tofia si tso wò gakotoku nana me.
 
-Ðe Zcash gakpɔtɔ nye ame ŋutɔ tɔa? Ɛ̃. Ironwood léa ameŋunyatakaka siwo wokpɔ ta na si ɣlaa ame si ɖoe ɖa, amesi xɔe, kple ga home ma ke ɖe asi. Dodoɖeŋgɔ sia ku ɖe nuzazãwo ƒe fɔmaɖimaɖi ŋu, ke menye ame ŋutɔ ƒe nyawo ŋu o.
+Ɖe Zcash gale ɣaɣla me? Èe. Fexexe [payment] siwo le Ironwood me ɣe sender, receiver, kple asimekaka dometɔ ɖa, abe ale si Orchard ƒe fexexewo wɔ ene. Asimekaka si le trɔmɔ̃ le gaƒuƒoƒowo dome, abe tso Orchard yi Ironwood ene la, le ʋuʋuɖi. Mɔ̃ ƒe sewo trɔtrɔ sia ku ɖe ga blibo ƒe nyateƒenyenye ŋu.
 
-Ðe wowɔ nudzodzoea ŋudɔ kpɔa? Kpeɖodzi aɖeke meli si fia be nenemae wònɔ o. Woke ɖe eŋu to dedienɔnɔ ŋuti numekuku me, woɖee fia le agbanɔamedzi me, eye woɖɔe ɖo hafi nuveviwɔame ɖesiaɖe si wonya.
+Ɖe woɖe vodada la dzi kpɔ kpɔ? Ɖase aɖeke mele be woɖe edzi kpɔ o. Wokpɔe to dedienɔnɔƒe ƒe nudzidzi me, wogblɔe kple dzidzɔ, eye wotɔe dɔ hafi haɖe aɖeke ava.
 
-Nukae dzɔna ɖe Orchard ta xoxoa dzi? Eva zua gazazã ɖeɖeko. Asixɔxɔ yeye aɖeke mate ŋu age ɖe eme o, eye asixɔxɔ si li xoxo la ʋuna yia Ironwood to ʋuƒoa dzi, afisi wowɔa ʋuʋua ƒe agbalẽ le dutoƒo.
+Nu kae ava dzɔ na Orchard gaƒuƒoƒo xoxo la? Atrɔ zu teƒe si wòate ŋu azã ga ado go ko. Asimekaka yeye aɖeke mate ŋu age ɖe eme o, eye asimekaka si le eme la trɔ yi Ironwood me to gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe me, afi si woawɔ audit na trɔmɔ̃ la le ʋuʋuɖi.
 
-## Do wò nugɔmesese kpɔ
+## Do wò gɔmesese kpɔ
 
-Ne woɣla ZEC si le ta siwo ŋu wokpɔ ta na me la, aleke ame aɖe ate ŋu aɖo kpe edzi be Orchard ƒe nugbagbevi la mekɔ nusiwo katã wotsɔ vɛ la ɖe dzi le adzame o?
+Ne ZEC si le ɣaɣla gaƒuƒoƒowo me le ɣaɣla, alekee ame aɖeke ate ŋu akpɔe ɖe edzi be Orchard ƒe ŋudzedze la mewɔ ga blibo la nadzi le ɣeɣe me o?
 
 <details>
-<summary>Answer</summary>
+<summary>Ɖoŋu</summary>
 
-To ʋuƒoa dzi. Woxlẽa gaku ɖesiaɖe si dona le Orchard-ta xoxoa me le dutoƒokpɔƒe aɖe ne ele gegem ɖe Ironwood. Ne asixɔxɔ geɖe dze agbagba be yeadzo wu esi woge ɖe eme le se nu la, akɔntabubua mada asɔ o, eyata aʋatsonu ɖesiaɖe si nugbagbevi la ate ŋu ahe vɛ hafi la ado ɖe agbo ma dzi.
+To gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe me. Woxlẽ ga sia sia si le dodom go tso Orchard gaƒuƒoƒo xoxo me le akpɔkpɔƒe si ame sia ame nakpɔ me esi wòle gedze Ironwood me. Ne asimekaka geɖe wu esi ge ɖe eme le mɔ si le nyateƒe me la di be yeado go, akɔnta la manɔ sɔsɔme o, eyata ga si menye nyateƒe o si ŋudzedze la ate ŋu awɔ la ado go le agbo ma.
 </details>
 
-### Nunɔamesiwo
+### Nuŋɔŋlɔwo
 
-[ZIP 258: NU6.3 Network Upgrade ƒe dɔwɔwɔ](https://zips.z.cash/zip-0258)
+[ZIP 258: NU6.3 Mɔ̃ Ƒe Sewo Trɔtrɔ Ƒe Dɔwɔwɔ](https://zips.z.cash/zip-0258)
 
-[ZIP 257: Orchard Ɣeyiɣi kpui aɖe ƒe Afɔkuwo Dzi Ðeɖe Akpɔtɔ kple NU6.2 Network Upgrade ƒe dɔwɔwɔ](https://zips.z.cash/zip-0257)
+[ZIP 257: Orchard Ƒe Vodada Ƒe Ɖeɖe Teƒe Kpui kple NU6.2 Mɔ̃ Ƒe Sewo Trɔtrɔ Ƒe Dɔwɔwɔ](https://zips.z.cash/zip-0257)
 
-[ZIP 2005: Ironwood ƒe Agbɔsɔsɔme Gbugbɔgaxɔ](https://zips.z.cash/zip-2005)
+[ZIP 2005: Ironwood Quantum Ƒe Gbugbɔɖegbɔ](https://zips.z.cash/zip-2005)
 
-[Ironwood: Ta Yeye si Wotsɔ Akpoxɔnu Wɔe na Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
+[ZIP 229: Version 6 Gaɖoɖo Ƒe Nɔnɔ](https://zips.z.cash/zip-0229)
 
-### Kpɔe hã
+[ZIP 318: Tso Orchard Yi Ironwood Ƒe Trɔmɔ̃](https://zips.z.cash/zip-0318)
 
-[Zcash Network ƒe Ðɔɖɔɖowo](../start-here/network-upgrades)
+[Ironwood: Ɣaɣla Gaƒuƒoƒo Yeye na Zcash](https://zodl.com/ironwood-a-new-shielded-pool-for-zcash/)
 
-[Ta Siwo Wotsɔ Akpoxɔnu Wɔe](../using-zcash/shielded-pools)
+### Kpɔ hã
+
+[Zcash Mɔ̃ Ƒe Sewo Trɔtrɔwo](../start-here/network-upgrades)
+
+[Ɣaɣla Gaƒuƒoƒowo](../using-zcash/shielded-pools)
 
 [Halo](../zcash-tech/halo)
 
-[zk-SNARKs ƑE NUÐEÐEŊUTI](../zcash-tech/zk-snarks)
+[zk-SNARKs](../zcash-tech/zk-snarks)
 
-[Post Quantum Dedienɔnɔ](../zcash-tech/post-quantum-security)
+[Quantum Megbe ƒe Dedienɔnɔ](../zcash-tech/post-quantum-security)
 
-[Labs Siwo Wotsɔ Akpoxɔnu Wɔe](../zcash-organizations/shielded-labs)
+[Shielded Labs](../zcash-organizations/shielded-labs)
 
-[Nukae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash)
+[Nu kae nye ZEC kple Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
 
-Siwo kplɔ wo nɔewo ɖo: [Network Upgrades ƒe dzesi](../start-here/network-upgrades) · Si do ŋgᴐ: [NU6.2](../zcash-tech/nu6-2)
+Xexlẽƒe: [Mɔ̃ Ƒe Sewo Trɔtrɔwo ƒe index](../start-here/network-upgrades) · Ɖoŋgɔ: [NU6.2](../zcash-tech/nu6-2)

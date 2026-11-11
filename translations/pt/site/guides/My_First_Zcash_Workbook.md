@@ -1,4 +1,4 @@
-# Meu Primeiro Caderno de Exercícios do Zcash
+# Meu primeiro caderno de exercícios do Zcash
 
 ---
 
@@ -8,7 +8,7 @@
 
 Este guia fornece uma visão geral do principal percurso de aprendizagem do caderno, dividido em nove grandes seções. Ele não substitui o próprio livro; em vez disso, é um recurso complementar que resume o fluxo educativo e destaca informações importantes para instrutores, estudantes e educadores da comunidade.
 
-O caderno está disponível gratuitamente para download em PDF:
+O caderno está disponível gratuitamente para baixar em PDF:
 
 [Visão geral](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
 
@@ -18,9 +18,9 @@ O caderno está disponível gratuitamente para download em PDF:
 
 ---
 
-## 1. O que é Zcash?
+## 1. O que é o Zcash?
 
-Esta primeira seção apresenta aos leitores a ideia de dinheiro digital e por que a privacidade importa em uma sociedade digital moderna. Ela compara os sistemas financeiros tradicionais com blockchains transparentes, destacando como a maioria dos registros públicos expõe a atividade dos usuários. O Zcash é descrito como uma alternativa de dinheiro digital que preserva a privacidade, permitindo que os usuários façam trocas com segurança sem revelar informações financeiras pessoais.
+Esta primeira seção apresenta aos leitores a ideia de dinheiro digital e por que a privacidade importa em uma sociedade digital moderna. Ela compara os sistemas financeiros tradicionais com blockchains transparentes, destacando como a maioria dos registros públicos expõe a atividade dos usuários. O Zcash é descrito como uma alternativa de dinheiro digital que preserva a privacidade, permitindo que os usuários façam transações com segurança sem revelar informações financeiras pessoais.
 
 O caderno enfatiza que privacidade não significa esconder irregularidades, mas proteger pessoas comuns contra exposição indevida, vigilância e exploração de dados. Os aprendizes são conduzidos por exemplos simples que mostram como o Zcash foi criado para dar às pessoas um controle real sobre sua vida financeira e como transações financeiras comuns revelam mais informações pessoais do que imaginamos.
 
@@ -39,7 +39,7 @@ O caderno também aborda a história do lançamento do Zcash, seus princípios f
 Esta parte explica os fundamentos técnicos do protocolo Zcash em uma linguagem acessível. Os conceitos-chave incluem:
 
 - Endereços transparentes vs. blindados  
-- Viewing Key e divulgação controlada  
+- Chave de visualização e divulgação controlada  
 - O papel dos mineradores/validadores  
 - Como as provas de conhecimento zero validam transações  
 - Como a privacidade é preservada ao mesmo tempo em que se garante que a rede permaneça descentralizada e segura  
@@ -48,15 +48,15 @@ Diagramas e metáforas visuais no caderno ajudam a simplificar esses conceitos p
 
 ---
 
-## 4. Usando Zcash no dia a dia
+## 4. Usando o Zcash no dia a dia
 
 A quarta seção foca em exemplos reais de uso. Ela mostra como alguém pode enviar e receber Zcash usando carteiras móveis, como os códigos QR facilitam pagamentos e como os usuários empregam transações blindadas para proteção pessoal, confidencialidade empresarial ou transferências internacionais.
 
-Os exemplos mostram situações do mundo real, incluindo dar gorjetas a artistas, transferir dinheiro para parentes no exterior, apoiar ONGs anonimamente ou utilizar Zcash como uma mesada digital privada para um adolescente.
+Os exemplos mostram situações do mundo real, incluindo dar gorjetas a artistas, transferir dinheiro para parentes no exterior, apoiar ONGs anonimamente ou utilizar o Zcash como uma mesada digital privada para um adolescente.
 
 ---
 
-## 5. Construindo com Zcash
+## 5. Construindo com o Zcash
 
 Esta seção destaca como desenvolvedores, designers, pesquisadores e educadores podem construir sobre o Zcash. Ela apresenta conceitos como:
 
@@ -64,7 +64,7 @@ Esta seção destaca como desenvolvedores, designers, pesquisadores e educadores
 - SDKs para desenvolvedores  
 - Grupos de trabalho da comunidade  
 - O papel dos colaboradores no desenvolvimento de código aberto  
-- Como as atualizações de rede do Zcash melhoram o protocolo  
+- Como as atualizações da rede do Zcash melhoram o protocolo  
 
 Os leitores passam a entender como o Zcash evolui ao longo do tempo e como colaboradores globais ajudam a expandir ferramentas, infraestrutura, aplicações e recursos educacionais.
 
@@ -74,9 +74,9 @@ Os leitores passam a entender como o Zcash evolui ao longo do tempo e como colab
 
 Esta seção ensina hábitos fundamentais de segurança digital:
 
-- Proteger chaves e frases-semente  
+- Proteger chaves e frases semente  
 - Evitar golpes  
-- Entender carteiras custodiais vs. não custodiais  
+- Entender carteiras custodiantes vs. não custodiantes  
 - Praticar uma boa higiene de senhas  
 - Evitar compartilhar publicamente informações sensíveis da carteira  
 
@@ -92,7 +92,7 @@ O caderno também descreve as organizações envolvidas no ecossistema, incluind
 
 ---
 
-## 8. Conheça os criadores - "As Pessoas que Fizeram Isso!"
+## 8. Conheça os criadores - "As pessoas que fizeram isso!"
 
 Esta seção destaca os talentosos colaboradores que tornaram *Meu Primeiro Zcash* possível. Eles incluem:
 
@@ -102,7 +102,7 @@ Um estudante do ensino médio interessado em privacidade, computadores, criptogr
 
 **Pacu (@thecodebuffet)** 
 
-Desenvolvedor de carteiras Zcash de longa data, anteriormente na ECC trabalhando em SDKs e tecnologia Light Client, agora contribuindo para o ecossistema com uma bolsa da ZCG.
+Desenvolvedor de carteiras Zcash de longa data, anteriormente na ECC trabalhando em SDKs e tecnologia Light Client, agora contribuindo para o ecossistema com um subsídio da ZCG.
 
 **Marek** 
 
@@ -122,7 +122,7 @@ Zcash Arborist, responsável por anotações da comunidade e colaborador das ini
 
 **Tripleyouww** 
 
-Coordenador de Suporte à Comunidade na Zcash Foundation.  
+Coordenador de suporte à comunidade na Zcash Foundation.  
 
 **Mass Adoption Alliance** 
 
@@ -138,8 +138,8 @@ Esses perfis mostram aos leitores que o Zcash é mantido por uma comunidade dive
 
 A seção final convida os leitores a se tornarem parte do ecossistema Zcash. As oportunidades incluem:
 
-- Aderir ao Discord Global da Zcash  
-- Participar em chamadas comunitárias e grupos de trabalho  
+- Entrar no Discord Global do Zcash  
+- Participar de chamadas comunitárias e grupos de trabalho  
 - Contribuir para futuras traduções do livro de exercícios  
 - Apoiar a educação de código aberto  
 - Criar conteúdo, contribuições de código, trabalhos artísticos ou feedback  

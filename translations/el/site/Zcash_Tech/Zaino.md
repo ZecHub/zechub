@@ -1,8 +1,8 @@
-# Zaino Ευρετητής
+# Ευρετητής Zaino
 
 Το Zaino είναι ένας ευρετητής Rust για το blockchain Zcash. Διαβάζει δεδομένα της αλυσίδας από έναν πλήρη κόμβο Zebra και παρέχει τα δεδομένα που χρειάζονται τα πορτοφόλια, οι explorers, τα faucets και άλλες υπηρεσίες, χωρίς να καθιστά το ίδιο το Zebra υπεύθυνο για κάθε ευρετήριο που απευθύνεται σε clients.
 
-## Συνοπτικά
+## Με λίγα λόγια
 
 * Το **Zebra** επικυρώνει την αλυσίδα Zcash.
 * Το **Zaino** ευρετηριάζει τα δεδομένα αλυσίδας του Zebra και εκθέτει APIs που απευθύνονται σε clients.
@@ -55,23 +55,23 @@ docker compose --env-file .env.<network> --profile indexer up -d
 
 Εκτέλεσε πρώτα την κανονική ρύθμιση Z3 και περίμενε να συγχρονιστεί το Zebra πριν ξεκινήσεις εξαρτώμενες υπηρεσίες στο mainnet ή το testnet.
 
-Το Zaino εκθέτει δύο είδη δικτυακής υπηρεσίας. Η υπηρεσία gRPC είναι το API που απευθύνεται σε lightwallet. Η υπηρεσία JSON-RPC προορίζεται για loopback ή αξιόπιστα ιδιωτικά δίκτυα, εκτός αν ένα εξωτερικό επίπεδο παρέχει προστασία. Μην εκθέτεις στο δημόσιο διαδίκτυο ένα JSON-RPC endpoint χωρίς πιστοποίηση ή κρυπτογράφηση.
+Το Zaino εκθέτει δύο είδη δικτυακής υπηρεσίας. Η υπηρεσία gRPC είναι το API για light wallet. Η υπηρεσία JSON-RPC προορίζεται για loopback ή αξιόπιστα ιδιωτικά δίκτυα, εκτός αν ένα εξωτερικό επίπεδο παρέχει προστασία. Μην εκθέτεις στο δημόσιο διαδίκτυο ένα JSON-RPC endpoint χωρίς πιστοποίηση ή κρυπτογράφηση.
 
 ## Μερικά διαγράμματα που δείχνουν πώς λειτουργεί το Zaino
 
 ### Εσωτερική αρχιτεκτονική Zaino
 
-![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Εσωτερική αρχιτεκτονική Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Αρχιτεκτονική ζωντανής υπηρεσίας Zaino
 
-![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Αρχιτεκτονική ζωντανής υπηρεσίας Zebra](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Αρχιτεκτονική συστήματος Zaino
 
-![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Αρχιτεκτονική συστήματος Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
-## Συνήθη λάθη
+## Συνηθισμένα λάθη
 
 **Αντιμετώπιση του Zaino ως πλήρους κόμβου.** Το Zaino δεν είναι ο επικυρωτής. Το Zebra επικυρώνει την αλυσίδα· το Zaino ευρετηριάζει δεδομένα από το Zebra.
 
@@ -83,11 +83,11 @@ docker compose --env-file .env.<network> --profile indexer up -d
 
 ## Πού μπορώ να μάθω περισσότερα;
 
-* [Zaino Αποθετήριο GitHub](https://github.com/zingolabs/zaino)
-* [Zaino Εκδόσεις ](https://github.com/zingolabs/zaino/releases)
-* [Zaino Παραγόμενη τεκμηρίωση ](https://zingolabs.github.io/zaino/)
+* [Αποθετήριο GitHub του Zaino](https://github.com/zingolabs/zaino)
+* [Εκδόσεις Zaino](https://github.com/zingolabs/zaino/releases)
+* [Παραγόμενη τεκμηρίωση Zaino](https://zingolabs.github.io/zaino/)
 * [Αποθετήριο ανάπτυξης Z3](https://github.com/ZcashFoundation/z3)
 * [Τεκμηρίωση Zebra ](https://zebra.zfnd.org/)
-* [Zaino Επιχορήγηση και συζήτηση έργου](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Επιχορήγηση και συζήτηση έργου Zaino](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
 
 **Τελευταία ενημέρωση:** Αύγουστος 2026

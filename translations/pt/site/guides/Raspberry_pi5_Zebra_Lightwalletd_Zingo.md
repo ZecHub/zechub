@@ -4,7 +4,7 @@
 
 # RPi5 Zebra lightwalletd com Zingo
 
-## Tutorial em Vídeo
+## Tutorial em vídeo
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -33,7 +33,7 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Configurar zebrad.toml
 
-adicione:
+Adicione:
 
 `listen_addr = '127.0.0.1:8232'`
 
@@ -45,7 +45,7 @@ adicione:
 
 ## Compilar lightwalletd
 
-* instalar go
+* Instale o Go
 
 ```bash
 wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
@@ -53,7 +53,7 @@ sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.ta
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* instalar lightwalletd
+* Instale o lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
@@ -65,7 +65,7 @@ export PATH=$PATH:~/go/bin
 
 ## Sincronizar lightwalletd
 
-* observe a mudança no data-dir
+* Observe a mudança no data-dir
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
@@ -98,7 +98,7 @@ yarn dist:linux
 
 ## Iniciar Zingo-PC
 
-* Pode usar o appimage ou o binário na pasta unpacked
+* Você pode usar o appimage ou o binário na pasta unpacked
 * Aproveite! :)
 
 # Fontes

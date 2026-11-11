@@ -1,4 +1,4 @@
-# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="ícone de finanças"/> Aceite Pagamentos como Comerciante com Zcash
+# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="ícone de finanças"/> Aceite pagamentos como comerciante com o Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -9,7 +9,7 @@
 
 - Aceite pagamentos usando um endereço blindado
 - Evite expor os dados de transação dos clientes
-- Use memos ou sistemas off-chain para rastreamento de pedidos
+- Use memorandos ou sistemas off-chain para rastreamento de pedidos
 - Mantenha a receita do negócio privada
 
 <br/>
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O Problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O problema
 
 Os pagamentos tradicionais com cripto expõem:
 - O comportamento de compra do cliente
@@ -37,9 +37,9 @@ Isso leva a:
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> Por que Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> Por que o Zcash?
 
-Zcash permite:
+O Zcash permite:
 - Pagamentos privados de clientes
 - Rastreamento confidencial de receita
 - Proteção da atividade comercial
@@ -47,7 +47,7 @@ Zcash permite:
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que Você Precisa
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que você precisa
 
 - Uma carteira Zcash com suporte a transações blindadas
 - Um fluxo de pagamento simples (manual ou integrado)
@@ -56,25 +56,25 @@ Zcash permite:
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia Passo a Passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia passo a passo
 
-### Etapa 1: Configure um Endereço de Pagamento
+### Etapa 1: Configure um endereço de pagamento
 
 - Gere um endereço blindado (z)
 - Use-o para receber pagamentos
 
 
-### Etapa 2: Exiba as Instruções de Pagamento
+### Etapa 2: Exiba as instruções de pagamento
 
 Para cada transação:
-- Mostre seu z-address
+- Mostre seu endereço z
 - Informe o valor do pagamento
-- Opcionalmente inclua uma referência no memo
+- Opcionalmente, inclua uma referência no memorando
 
-### Etapa 3: Rastreie os Pedidos
+### Etapa 3: Rastreie os pedidos
 
 Use:
-- Memos (ex.: ID do pedido)
+- Memorandos (ex.: ID do pedido)
 - Ou rastreamento off-chain (banco de dados, planilha)
 
 
@@ -82,13 +82,13 @@ Exemplo:
 - Pedido #4821
 
 
-### Etapa 4: Confirme o Pagamento
+### Etapa 4: Confirme o pagamento
 
 - Monitore as transações blindadas recebidas
-- Faça a correspondência do memo ou valor com o pedido
+- Faça a correspondência do memorando ou valor com o pedido
 
 
-### Etapa 5: Mantenha uma Boa Higiene de Privacidade
+### Etapa 5: Mantenha uma boa higiene de privacidade
 
 - Evite reutilizar endereços publicamente, se possível
 - Não exponha o histórico de transações
@@ -97,7 +97,7 @@ Exemplo:
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelamento"/> Erros Comuns a Evitar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelamento"/> Erros comuns a evitar
 
 - Usar endereços transparentes para pagamentos  
 - Publicar provas de transação publicamente  
@@ -121,7 +121,7 @@ Você pode:
 
 
 - [Carteiras](/wallets)
-- [Quem pode ver o seu pagamento em Zcash](/start-here/who-can-see-your-zcash-payment)
+- [Quem pode ver seu pagamento em Zcash](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 
@@ -133,7 +133,7 @@ Agora você pode executar fluxos de pagamento privados para negócios.
 
 <br/>
 
-## Próxima Etapa
+## Próxima etapa
 
-- [Gerencie uma Tesouraria Comunitária Privada](/zcash-use-cases/private-community-treasury)
+- [Gerencie um tesouro comunitário privado](/zcash-use-cases/private-community-treasury)
 <br/>

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Heartwood.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Heartwood
@@ -18,7 +18,7 @@
 
 Η συναλλαγή coinbase είναι η ειδική συναλλαγή που καταβάλλει μια ανταμοιβή μπλοκ. Πριν από το Heartwood, οι έξοδοί της έπρεπε να είναι διαφανείς, οπότε τα νεοδημιουργημένα ZEC ενός εξορύκτη ξεκινούσαν πάντα σε μια δημόσια διεύθυνση. Το Heartwood άλλαξε τους κανόνες συναίνεσης έτσι ώστε, σύμφωνα με το ZIP 213, οι συναλλαγές coinbase να μπορούν να περιέχουν εξόδους Sapling. Με απλά λόγια, οι εξορύκτες μπορούν πλέον να λαμβάνουν ανταμοιβές απευθείας σε θωρακισμένες διευθύνσεις Sapling. Οι διαφανείς έξοδοι coinbase εξακολουθούν να υποστηρίζονται, επομένως αυτή είναι μια νέα επιλογή και όχι υποχρεωτική αλλαγή.
 
-![Before Heartwood a miner's block reward had to go to a transparent public address. After Heartwood coinbase transactions may contain Sapling outputs, so the reward can go straight to a shielded address](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
+![Πριν από το Heartwood, η ανταμοιβή μπλοκ ενός εξορύκτη έπρεπε να πηγαίνει σε μια διαφανή δημόσια διεύθυνση. Μετά το Heartwood, οι συναλλαγές coinbase μπορούν να περιέχουν εξόδους Sapling, επομένως η ανταμοιβή μπορεί να πηγαίνει απευθείας σε μια θωρακισμένη διεύθυνση](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## Γιατί πρώτα το Sapling
 
@@ -28,13 +28,13 @@
 
 Το Heartwood άλλαξε επίσης σε τι δεσμεύεται μια κεφαλίδα μπλοκ. Το πεδίο κεφαλίδας που προηγουμένως ονομαζόταν hashFinalSaplingRoot επαναχρησιμοποιήθηκε και μετονομάστηκε σε hashLightClientRoot. Πλέον δεσμεύεται στη ρίζα ενός Merkle Mountain Range (MMR), μιας εξελισσόμενης δομής που χτίζεται πάνω στα δεδομένα κεφαλίδας και τα μεταδεδομένα προηγούμενων μπλοκ, όπως χρονικές σημάνσεις, στόχοι δυσκολίας, ρίζες Sapling, συσσωρευμένη εργασία και αριθμοί συναλλαγών. Αυτή η δέσμευση επιτρέπει σε ένα light client ή σε μια εξωτερική αλυσίδα να επαληθεύει την απόδειξη εργασίας του Zcash χρησιμοποιώντας μια μικρή απόδειξη, της οποίας το μέγεθος αυξάνεται μόνο λογαριθμικά με το μήκος της αλυσίδας. Το όφελος είναι καλύτερα πορτοφόλια light client και ευκολότερη ενσωμάτωση τρίτων και cross-chain, επειδή ένας client δεν χρειάζεται πλέον να κατεβάζει κάθε μπλοκ για να εμπιστεύεται την εργασία πίσω από την αλυσίδα.
 
-![FlyClient flow: each block's header data is committed into a Merkle Mountain Range root (hashLightClientRoot), which lets a light client verify proof-of-work with a small logarithmic-size proof](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
+![Ροή FlyClient: τα δεδομένα κεφαλίδας κάθε μπλοκ δεσμεύονται σε μια ρίζα Merkle Mountain Range (hashLightClientRoot), η οποία επιτρέπει σε έναν light client να επαληθεύει το proof-of-work με μια μικρή απόδειξη λογαριθμικού μεγέθους](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
 ## Πού εντάσσεται το Heartwood
 
 Το Heartwood είναι ένα βήμα σε μια σειρά αναβαθμίσεων του Zcash, καθεμία από τις οποίες προσθέτει ένα στοιχείο στο οποίο βασίζεται η επόμενη. Τα Overwinter και Sapling ήρθαν το 2018, το Blossom το 2019 και το Heartwood το 2020 στο μπλοκ 903.000. Το Canopy ακολούθησε αργότερα το 2020 στο μπλοκ 1.046.400. Το Sapling είναι ο βασικός κρίκος σε αυτή την αλυσίδα για το Heartwood: ο αποδοτικός μηχανισμός θωρακισμένων συναλλαγών του ήταν η τεχνική προϋπόθεση που κατέστησε δυνατό το θωρακισμένο coinbase.
 
-![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
+![Χρονολόγιο αναβαθμίσεων του Zcash: Overwinter και Sapling το 2018, Blossom το 2019 και Heartwood το 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
 ## Γλωσσάρι
 

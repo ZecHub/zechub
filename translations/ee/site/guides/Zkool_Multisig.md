@@ -1,14 +1,14 @@
-# Zkool Multisig Mɔfiame
+# Zkool Asi geɖe ƒe dzesi [Multisig] ƒe Mɔfiame
 
-Mɔfiame sia na afɔɖeɖe ɖesiaɖe ƒe azɔlizɔzɔ le alesi woawɔ multisig asitsatsa to Zkool zazã me ŋu. Elɔ akɔntabubuwo wɔwɔ, ga ɖoɖo ɖa alo xɔxɔ, kple ɖoɖowɔwɔ ɖe distributed key generation (DKG) na multisig ɖe eme. Wotsɔa screenshots kpena ɖe afɔɖeɖe vevi ɖesiaɖe ŋu.
+Mɔfiame sia dea afɔ ɖe afɔ ƒe mɔfia tso ale si nàwɔ asi geɖe ƒe dzesi ƒe gaɖoɖowo kple Zkool ene. Eme le akɔntawo ƒe ṣẹwɔwɔ, ga ɖoɖo alo xexlẽ, kple kiyiwo ƒe dede le ƒome ƒe mɔnu me [Distributed Key Generation (DKG)] ƒe ɖoɖowɔwɔ na asi geɖe ƒe dzesi. Woɖe foto le afɔ vevi ɖe sia ɖe ta.
 
-## Nufiame
+## Nufiamɔ
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/eagkCIv3BlQ"
-    title="Zkool Demo | The Successor to Ywallet"
+    title="Zkool Ƒe Fiaɖuɖu | Ywallet Ƒe Nɔƒo"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -16,43 +16,43 @@ Mɔfiame sia na afɔɖeɖe ɖesiaɖe ƒe azɔlizɔzɔ le alesi woawɔ multisig a
 </div>
 
 
-## 1. Akɔntabubu ƒe Dɔwɔwɔ
+## 1. Akɔnta Ƒe Ŋutinu Wɔwɔ
 
 
-1. Ʋu **Zkool app** eye nàyi **Akɔnta Yeye**.
+1. Ʋu **Zkool ƒe app** la, eye nàyi **New Account**.
 
 
 ![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
-3. Ŋlɔ **Akɔntabubu ƒe Ŋkɔ** (le kpɔɖeŋu me, Anabelle). 
+3. Ŋlɔ **Account Name** (kpɔɖeŋu, Anabelle).  
    
 
 ![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
-4. Ne èdi be yeatrɔ **Zã Ememe Tɔtrɔ** alo **Gbugbɔ Gbugbɔ Akɔntabuƒe** ne ehiã.
+4. Ne ele be wòhia la, trɔ **Use Internal Change** alo **Restore Account** yi.
 
 
-5. Le ewɔwɔ vɔ megbe la, akɔnta la adze le wò **Akɔntabubu ƒe Ŋkɔgbalẽ** me. 
+5. Ne wòwu nu la, akɔnta la ado go le wò **Account List** me.  
 
 
 ![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
 
 
-## 2. Ga Xɔxɔ
+## 2. Ga Xexlẽ
 
-Akɔntabubu ɖesiaɖe wɔa adrɛs ƒomevi geɖe:
+Akɔnta ɖe sia ɖe wɔa gaɖoƒe ƒe dzesi ƒomevi geɖewo:
 
-**Unified Address**
+**Gaɖoƒe ƒe dzesi si ƒo ƒu [Unified Address]**
 
-**Orchard only Address**
+**Orchard koe ƒe gaɖoƒe ƒe dzesi**
 
-**Sapling Adrɛs**
+**Sapling ƒe gaɖoƒe ƒe dzesi**
   
-**Adrɛs si me kɔ**
+**Nuwo ƒe ʋuʋuɖi ƒe gaɖoƒe ƒe dzesi**
 
 
-Tia ƒomevi si nèdi be yeazã eye nàmae be nàxɔ ga. 
+Tia ƒomevi si wòdi be yàzã, eye nàmae na amewo be woɖo ga ɖe eme.  
 
 
 ![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
@@ -61,75 +61,74 @@ Tia ƒomevi si nèdi be yeazã eye nàmae be nàxɔ ga.
 
 
 
-## 3. Gawo Ðoɖoɖa
+## 3. Ga Ɖoɖo
 
-1. Yi **Amexɔla** ƒe akpaa dzi. 
+1. Yi ɖe **Recipient** ƒe akpa.
 
 
 ![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
 
 
-3. Ŋlɔ **amesiwo xɔe ƒe adrɛs**. 
+3. Ɖe **ame si wòle ga ɖo ge nɛ ƒe gaɖoƒe ƒe dzesi** la ɖe eme.  
 
-4. Tsɔ **ga home** kple **memo** si nàtia. 
+4. Ɖo **ga home** la kple **nya kpui** si wòate ŋu akpe ɖe eŋu.  
 
-5. To asitsatsa ŋuti nyatakakawo me eye **ɖo kpe edzi**. 
+5. Kpɔ gaɖoɖo la ƒe nyawo katã me, eye nà**ɖe edzi**.  
 
 
-Ne èwu enu vɔ la, ga si susɔ la trɔna le wò gakɔnta ƒe xexlẽdzesiwo me. 
+Ne wòwu nu la, ga si le akɔnta la me atrɔ le wò akɔntawo ƒe xexlẽ la me.  
 
 
 ![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
-## 4. Multisig Dɔwɔnawo wɔwɔ: Ðoɖowɔwɔ ɖe Safui Dzidzime Si Woma (Multisig) .
+## 4. Asi Geɖe Ƒe Dzesi Ƒe Gaɖoɖowo Wɔwɔ: Kiyiwo Ƒe Dede le Ƒome Ƒe Mɔnu Me Ɖoɖowɔwɔ (Asi Geɖe Ƒe Dzesi)
 
-Multisig le Zkool zãa **Distributed Key Generation (DKG)** tsɔ kpɔa egbɔ be gomekpɔla geɖewo kpɔa akɔnta si woama dzi.
+Asi geɖe ƒe dzesi le Zkool me zãa **Kiyiwo ƒe Dede le Ƒome Ƒe Mɔnu Me (DKG)** be ame geɖe nanɔ akɔnta ɖeka ƒe dzikpɔkpɔ me.
 
 
 
-### Afɔɖeɖe 1: Dze DKG gɔme
-Tia **Ŋkɔ** na gakotoku si woama (le kpɔɖeŋu me, Anabelle).
+### Afɔ 1: DKG Ƒe Gɔmedzedze
+Tia **Ŋkɔ** na gakotoku si woma ƒo ƒu (kpɔɖeŋu, Anabelle).
 
-Ðo **Gomenɔlawo ƒe Xexlẽme**.
-  
-Tia wò **Gomenɔla ƒe ID**.
-  
-Ðe **Amesiwo De Asi Anyi ƒe Agbɔsɔsɔ Si Wobia (Dzidzenu)** gɔme.
+Ɖo **Haxɔlawo Ƒe Xexlẽ**.
+
+Tia wò **Haxɔla Ƒe ID**.
+
+Ɖo **Ame siwo ƒe Asiwo Wɔa DƆ Ƒe Xexlẽ (Threshold)**.
     
-Tia **Gadodo ƒe Akɔntabubu**.
+Tia **Akɔnta si ƒe Ga Wozãa**.
   
 
 ![img7](/content-images/8a90ca85-5439-4937-b16d-a570e69d55f0-1477202a57.webp)
 
 
 
-### Afɔɖeɖe 2: Tsɔ Gomenɔlawo ƒe Adrɛswo Kpe Ðe Eŋu
-- Enter each participants **Unified Address** (recommended).
+### Afɔ 2: Haxɔlawo Ƒe Gaɖoƒe Ƒe Dzesiwo Kpe Ɖe Eŋu
+- Ɖe haxɔla ɖe sia ɖe ƒe **Gaɖoƒe ƒe dzesi si ƒo ƒu** la ɖe eme (wodea aɖaŋu).
 
 
-**De dzesii:** Ne èzã Orchard ɖeɖeko alo Sapling ɖeɖeko ƒe adrɛs la, multisig la aɖo seɖoƒe na pool ma ɖeɖeko (Orchard alo Sapling). 
-Esia fia be gakotoku si woama la mate ŋu axɔ ga tso ta bubuwo gbɔ o. 
-Ne èdi be yeawɔ ɖeka nyuie wu eye wòate ŋu atrɔ ɖe nɔnɔmewo ŋu la, zã **Adrɛs Siwo Wowɔ Ðeka** ɣesiaɣi. 
+**Nudzɔdzɔ:** Ne wozã Orchard koe alo Sapling koe ƒe gaɖoƒe ƒe dzesi la, asi geɖe ƒe dzesi la anɔ gaƒuƒoƒo ma koe me (Orchard alo Sapling).  
+Esia fia be gakotoku si woma ƒo ƒu la mate ŋu axɔ ga tso gaƒuƒoƒo bubuwo me o.  
+Be wòakpɔ mɔ na nuzãzã kple tɔtrɔ geɖe wu la, zã **Gaɖoƒe ƒe dzesiwo siwo ƒo ƒu** ɣesiaɣi.  
 
 
-### Afɔɖeɖe 3: Du DKG Rounds
-Lala be gomekpɔlawo katã naɖɔli **round 1** kple **round 2** packages. 
+### Afɔ 3: Wɔ DKG Ƒe Ƒoƒowo
+Lalae ne haxɔlawo katã wɔ **ƒoƒo 1** kple **ƒoƒo 2** ƒe paketiwo ƒe maxlẽ ɖe wo nɔewo dome.  
 
 
 ![img8](/content-images/cdaf6e00-3cb0-4774-8a96-5ded19bf31c4-b6bb50bbab.webp)
 
 
 
-### Afɔɖeɖe 4: Wòawu Adrɛs si Woma Nu
-Ne wowu enu vɔ la, wowɔa **adrɛs si woama**. 
+### Afɔ 4: Wu Gaɖoƒe Ƒe Dzesi si Woma ƒo Ƒu la Nu
+Ne wòwu nu la, woawɔ **gaɖoƒe ƒe dzesi si woma ƒo ƒu**.  
 
 
 ![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
 
 
 
-## Nyanuwuwuw
+## Nuƒoƒo
 
-Zkool zazã me la, àte ŋu: awɔ akɔntabubuwo, aɖo ga ɖa ahaxɔe, eye nàɖo **multisig gakotoku** to Distributed Key Generation zazã me. Esia naa **dedienɔnɔ si nyo wu** kple **nuwɔwɔ aduadu kple ame ŋutɔ ƒe gadzikpɔkpɔ**. 
-
+Kple Zkool, àte ŋu: awɔ akɔntawo, aɖo ga kple axɔ ga, eye nàɖo **asi geɖe ƒe dzesi ƒe gakotoku** wɔ kple Kiyiwo Ƒe Dede le Ƒome Ƒe Mɔnu Me. Esia nana **dedie kpɔkpɔ si sesĩe wu** kple **ga ƒe dzikpɔkpɔ si woma wɔ ɖekawɔwɔ kple ɣaɣla me**.

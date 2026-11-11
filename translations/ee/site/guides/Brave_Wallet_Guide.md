@@ -1,19 +1,19 @@
-# Alesi Nàɖo Shielded Zcash (ZEC) ɖa ahaxɔe kple Brave Wallet: Afɔɖeɖe ɖesiaɖe ƒe Ameŋunyatakakawo Ŋuti Mɔfiame
+# Aleke Nàdzo Eye Nàxɔ ɣaɣla [Shielded] Zcash (ZEC) Kple Brave Wallet: Afiɖoɖo ƒe Fiafia Le ɣaɣla [Privacy] Ŋu
 
-Brave Wallet nye crypto gakotoku si le dedie, si nye dzɔdzɔme tɔ si wotu ɖe Brave ƒe web-browser la me tẽ - mehiã be woakekee ɖe enu o.
-
-
-## Nusitae ZEC ƒe Kpekpeɖeŋu si Wokpɔna Le Vevie
+Brave Wallet nye crypto gakotoku [wallet] si le dzidzedze me, eye woɖe wò ɖe Brave browser me - medi be nàtsɔ extensions o.
 
 
-Zcash nye cryptocurrencies ɖeka kolia siwo naa adzamenyawo le gɔmedzedzea me kple asitsatsa siwo wokpɔ ta na la dometɔ ɖeka.
-
-Fifia Brave Wallet doa alɔ Orchard shielded ZEC, si wɔnɛ be woate ŋu awɔ ame ŋutɔ ƒe asitsatsa ame bubuwo ƒe kɔmpiutadziɖoɖowo manɔmee.
-
-Fifia zãlawo ateŋu aɖo/xɔ ZEC evɔ womaɖe balance alo metadata afia o - wo katã le Brave browser me.
+## Nu Ka Ta ɣaɣla [Shielded] ZEC ƒe Kpekpeɖeŋu Le Vevi
 
 
-## Nufiame
+Zcash nye crypto gaƒomekpuie aɖewo dome, siwo na ɣaɣla [privacy] le gɔmedzedze me kple ɣaɣla [shielded] gaɖoɖowo [transactions].
+
+Brave Wallet tše Orchard ɣaɣla [shielded] ZEC dzi fifia, eye wòna ame ŋu wɔ gaɖoɖowo [transactions] siwo le ɣa me, esi womehia third-party software o.
+
+Azɔ, zazãwo ate ŋu adzo/xɔ ZEC tanpa be woafia woƒe balance alo metadata o - katã le Brave browser me.
+
+
+## Fiafia
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -27,49 +27,49 @@ Fifia zãlawo ateŋu aɖo/xɔ ZEC evɔ womaɖe balance alo metadata afia o - wo 
 </div>
 
 
-## Akpa 1: Brave Wallet Ðoɖo
+## Akpa 1: Ɖo Brave Wallet Ɖe Teƒe
 
-**Afɔɖeɖe siwo wowɔ:**
+**Afɔɖewo siwo woƒo:**
 
-1. Ʋu Brave Browser (desktop ɖeɖeko fifia) .
+1. Ʋu Brave Browser (desktop ko le fifia)
 
-2. Zi Wallet ƒe dzesi dzi alo yi brave://wallet
+2. Zi Wallet ƒe icon dzi alo yi brave://wallet
 
-3. Ðo wò gakotokua (wɔe alo tsɔe vɛ) .
+3. Ɖo wò gakotoku [wallet] ɖe teƒe (wòawɔ yeye alo wòaɖo wɔnɛ)
 
-4. Ge ɖe crypto dashboard la me
+4. Kpɔ crypto ɖoɖowo ƒuƒopé [dashboard] la
 
 
 ![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
-## Akpa 2: Zcash (ZEC) tsɔtsɔ kpe ɖe Brave Wallet ŋu
+## Akpa 2: Ɖe Zcash (ZEC) Kpe Brave Wallet Ŋu
 
-**Afɔɖeɖe siwo wowɔ:**
+**Afɔɖewo siwo woƒo:**
 
-1. Le Gakotoku ƒe dashboard me la, zi "Manage Assets" dzi.
+1. Le Wallet ɖoɖowo ƒuƒopé [dashboard] la me, zi "Manage Assets" dzi
 
-2. Di ZEC eye nàna wòawɔ dɔ
+2. Di ZEC eye na mɔ nɛ
 
-3. ZEC adze le wò gakotoku me azɔ
+3. ZEC do go le wò gakotoku [wallet] me fifia
 
 
 ![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
-## Part 3: Receiving Shielded ZEC (Unified Address)
+## Akpa 3: Xɔ ɣaɣla [Shielded] ZEC (Unified Address)
 
-**Afɔɖeɖe siwo wowɔ:**
+**Afɔɖewo siwo woƒo:**
 
-1. Zi ZEC dzi le wò nunɔamesiwo me
+1. Zi ZEC dzi le wò assets me
 
-2. Tia "Xɔe".
+2. Tia "Receive"
 
-3. Brave generates a Unified Address (UA) - one address that supports both shielded and transparent transactions
+3. Brave wɔ Unified Address (UA) na wò - gaɖoƒe ƒe dzesi [address] ɖeka si tše ɣaɣla [shielded] kple nuwo ƒe ʋuʋuɖi [transparent] gaɖoɖowo [transactions] evea
 
-4. Kpɔ QR-kɔda la ƒe kɔpi alo nàwɔ scan
+4. Kɔpi alo scan QR code la
 
-5. Ma wò UA kple amesi ɖoe ɖa
+5. Na wò UA la ame si adzoa nɛ
 
 
 
@@ -77,19 +77,19 @@ Fifia zãlawo ateŋu aɖo/xɔ ZEC evɔ womaɖe balance alo metadata afia o - wo 
 
 
 
-## Akpa 4: Shielded ZEC dɔdɔ le Adzame
+## Akpa 4: Dzo ɣaɣla [Shielded] ZEC Le ɣa Me
 
-**Afɔɖeɖe siwo wowɔ:**
+**Afɔɖewo siwo woƒo:**
 
-1. Tia ZEC -> Ðo ɖa
+1. Tia ZEC -> Send
 
-2. Paste the recipient's Unified Address or shielded address
+2. Ɖe ame si axɔe la ƒe Unified Address alo ɣaɣla [shielded] gaɖoƒe ƒe dzesi [address] la
 
-3. Ŋlɔ ga home si woaxe ɖe eta
+3. Ɖe gaƒe la
 
-4. Ðo kpe asitsatsa ŋuti nyatakakawo dzi
+4. Ɖo kpe gaɖoɖo [transaction] la ƒe nyawo ŋu
 
-5. Zi Send dzi - wotsɔa ga ɖoa ame ŋutɔ gbɔ azɔ, to Orchard pool la zazã me
+5. Zi Send dzi - azɔ, woɖo ga la le ɣa me, kple Orchard gaƒuƒoƒo [pool] la
 
 
 ![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
@@ -97,19 +97,19 @@ Fifia zãlawo ateŋu aɖo/xɔ ZEC evɔ womaɖe balance alo metadata afia o - wo 
 
 
 
-## Adrɛs Ƒomeviwo
+## Gaɖoƒe Ƒe Dzesi [Address] Ƒomeviwo
 
-Zcash adrɛs ƒomevi ɖesiaɖe ŋuti numeɖeɖee nye esi:
+Efiafia le Zcash gaɖoƒe ƒe dzesi [address] ƒomevi ɖe sia ɖe ŋu:
 
-**t-addr (t1...)** - Adrɛs siwo me kɔ la wɔa dɔ abe Bitcoin adrɛswo ene, si fia be asitsatsa nye dutoƒo le blockchain la dzi. Wo zazã le bɔbɔe wu kple gakotoku siwo menye Zcash o gake womenaa ame ŋutɔ ƒe nyatakakawo o.
+**t-addr (t1...)** - Nuwo ƒe ʋuʋuɖi [Transparent] gaɖoƒe ƒe dzesiwo wɔ dɔ abe Bitcoin gaɖoƒe ƒe dzesiwo ene, si fia be gaɖoɖowo [transactions] le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] la dzi le ame sia ame ƒe nukpɔkpɔ me. Wɔwɔ wɔn kple gakotokuwo si menye Zcash tɔ o le bɔbɔe, gake womena ɣaɣla [privacy] o.
 
-**z-addr (zs...)** - Adrɛs siwo wokpɔ ta na zãa Zcash ƒe ameŋunyatakakamɔnu (Sprout/Sapling) tsɔ ɣlaa amesi ɖoe ɖa, amesi xɔe, kple ga home. View keys alo aƒetɔa koe ate ŋu aɖe nyatakakawo afia tsitotsito.
+**z-addr (zs...)** - Ɣaɣla [Shielded] gaɖoƒe ƒe dzesiwo zã Zcash ƒe ɣaɣla [privacy] ƒe mɔnu (Sprout/Sapling) be woaɣla ame si dzoe, ame si xɔe, kple gaƒe la. Nukpɔsafuiwo [viewing keys] alo etɔ aɖe ko ate ŋu aɖe nyawo fia.
 
-**UA (u... or QR)** - Unified Addresses combine multiple address types (transparent, shielded, Orchard) into one. This allows maximum compatibility while preferring privacy where possible.
+**UA (u... or QR)** - Unified Addresses ƒo gaɖoƒe ƒe dzesi [address] ƒomevi geɖewo (nuwo ƒe ʋuʋuɖi [transparent], ɣaɣla [shielded], Orchard) ɖe ɖeka me. Esia na mɔnu si wòate ŋu awɔ dɔ kple nu geɖewo, eye wòɖo ɣaɣla [privacy] dzi fifia si wòate ŋui.
 
 
 
-## De ŋgɔ
+## Nunya ƒe Nuwo
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -123,13 +123,13 @@ Zcash adrɛs ƒomevi ɖesiaɖe ŋuti numeɖeɖee nye esi:
 </div>
     
 
-## Nyataƒoƒo: Wowɔ Ameŋunyatakakawo Ŋuti Nyatakakawo Ŋudɔ
+## Ƒoƒoƒo: Wòate Ŋu Azã ɣaɣla [Privacy] Le Ŋutɔ Me
 
-Esi Brave Wallet kple ZEC si wokpɔ ta na ta la, ame ŋutɔ ate ŋu akpɔ ame ŋutɔ ƒe nyawo gbɔ kpɔkpɔ fifia - kɔmpiutadziɖoɖo tɔxɛ alo sidzedze deŋgɔ aɖeke mehiã o.
+Kple Brave Wallet kple ɣaɣla [shielded] ZEC, ɣaɣla [privacy] le ame sia ame ƒe asi me fifia - special software alo nyanya didi mele be wòahiã o.
 
-Enyo ŋutɔ na nyadzɔdzɔŋlɔlawo, aʋawɔlawo, alo ame siwo tsia dzi ɖe ame ŋutɔ ƒe nyawo ŋu.
+Enyo na nyadzɔdzɔŋlɔlawo, activists, alo amewo siwo tsɔ ɣaɣla [privacy] de asi.
 
-Te wò asitsatsa gbãtɔ si wotsɔ akpoxɔnu wɔe kpɔ egbea le Brave me!
+Mekpɔ be nàwɔ wòƒe ɣaɣla [shielded] gaɖoɖo [transaction] gbãtɔ egbe le Brave me!
 
 
-**Nɔ ame ŋutɔ ƒe nyawo gbɔ. Nɔ anyi faa. Ðo ZEC ɖa le adzame kple Brave Wallet.**
+**Nànɔ ɣa me. Nànɔ ablɔɖe. Dzo ZEC le ɣa me kple Brave Wallet.**

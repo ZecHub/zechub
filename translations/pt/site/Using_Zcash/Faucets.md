@@ -7,7 +7,7 @@
 <img width="2138" height="878" alt="Screenshot_2025-10-30_10-36-45" src="/content-images/bba0da3b-7064-4680-9535-a0dfcf50cc00-1827fccf4b.webp" />
 
 
-Faucets são serviços que distribuem pequenas quantidades de criptomoeda gratuitamente. São frequentemente usados por programadores para experimentar com criptomoeda e por utilizadores para obter pequenas quantidades de criptomoeda sem terem de a comprar. Normalmente limitam a quantidade de criptomoeda que um utilizador pode receber durante um determinado período de tempo.
+Faucets são serviços que distribuem pequenas quantidades de criptomoeda gratuitamente. São frequentemente usados por desenvolvedores para experimentar com criptomoeda e por usuários para obter pequenas quantidades de criptomoeda sem precisar comprá-la. Normalmente limitam a quantidade de criptomoeda que um usuário pode receber durante um determinado período de tempo.
 
 Mainnet: <a href="https://zecfaucet.com">zecfaucet</a>
 

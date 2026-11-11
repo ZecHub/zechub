@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Financial_Privacy_Foundation.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Ίδρυμα οικονομικής ιδιωτικότητας (FPF)
@@ -34,7 +34,7 @@
 
 Περισσότερες πληροφορίες για το FPF X FPF μπορείς να δεις στον ιστότοπο του Ταμείου οικονομικής ιδιωτικότητας (FPF) [εδώ](https://www.financialprivacyfoundation.org/grants) και, αν εξακολουθείς να ενδιαφέρεσαι για το πρόγραμμα FPF X FPF, μπορείς να επισκεφθείς το έγγραφο με τις συχνές ερωτήσεις εδώ: [Συχνές ερωτήσεις](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_16b6c85b5eb645c9847536d2fdb72434.pdf). 
 
-Αν ενδιαφέρεσαι να γίνεις Εθελοντής Αξιολογητής για αυτόν τον γύρο του προγράμματος FPF X FPF, επισκέψου αυτόν τον [σύνδεσμο](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Για περαιτέρω ερωτήσεις σχετικά με το Πρόγραμμα επιχορηγήσεων FPF X FPF, μπορείς να ρωτήσεις απευθείας στέλνοντας email στο [FPF](mailto:info@financialprivacyfoundation.org).
+Αν ενδιαφέρεσαι να γίνεις εθελοντής αξιολογητής για αυτόν τον γύρο του προγράμματος FPF X FPF, επισκέψου αυτόν τον [σύνδεσμο](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf). Για περαιτέρω ερωτήσεις σχετικά με το πρόγραμμα επιχορηγήσεων FPF X FPF, μπορείς να ρωτήσεις απευθείας στέλνοντας email στο [FPF](mailto:info@financialprivacyfoundation.org).
 
 ## Πόροι 
 [Ταμείο οικονομικής ιδιωτικότητας](https://www.financialprivacyfoundation.org/_files/ugd/9ba471_679a364148984518be3b728cf1df04d8.pdf)

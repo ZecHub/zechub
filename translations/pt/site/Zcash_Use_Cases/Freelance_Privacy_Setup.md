@@ -1,4 +1,4 @@
-# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Ícone de freelancer"/> Configuração de Privacidade para Freelancers com Zcash
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Ícone de freelancer"/> Configuração de privacidade para freelancers com Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -7,9 +7,9 @@
 
 ## TL;DR
 
-- Receba pagamentos por meio de endereços shielded
+- Receba pagamentos por meio de endereços blindados
 - Separe identidades por cliente (se necessário)
-- Use memos para controle interno
+- Use memorandos para controle interno
 - Mantenha sua renda privada
 
 
@@ -23,7 +23,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O Problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O problema
 
 Freelancers que usam criptomoedas públicas expõem:
 - Sua renda
@@ -38,50 +38,50 @@ Isso pode levar a:
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> Por que Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> Por que o Zcash?
 
-Zcash permite que você:
+O Zcash permite que você:
 - Receba pagamentos de forma privada
 - Oculte seus ganhos
 - Proteja as relações com clientes
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que Você Precisa
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que você precisa
 
-- Uma carteira Zcash com suporte a memo
-- Entendimento básico de endereços shielded
+- Uma carteira de Zcash com suporte a memorandos
+- Entendimento básico de endereços blindados
 
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia Passo a Passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia passo a passo
 
-### Etapa 1: Criar um Endereço de Pagamento
+### Etapa 1: Criar um endereço de pagamento
 
-Gere um endereço shielded (z).
+Gere um endereço blindado (z).
 
 Opcionalmente:
 - Use endereços diferentes para clientes diferentes
 
 
-### Etapa 2: Compartilhar o Endereço com o Cliente
+### Etapa 2: Compartilhar o endereço com o cliente
 
 Envie seu endereço z diretamente ao seu cliente.
 
 Evite:
 - Publicá-lo publicamente se não for necessário
 
-### Etapa 3: Usar Memos para Controle
+### Etapa 3: Usar memorandos para controle
 
 Ao receber pagamentos:
-- Peça aos clientes para incluir um memo (por exemplo, ID da fatura)
+- Peça aos clientes para incluir um memorando (por exemplo, ID da fatura)
 
-Isto ajuda você a:
+Isso ajuda você a:
 - Rastrear pagamentos sem expor dados publicamente
 
 
-### Etapa 4: Manter a Separação de Identidade
+### Etapa 4: Manter a separação de identidade
 
 Se necessário:
 - Use carteiras ou endereços separados por cliente
@@ -89,12 +89,12 @@ Se necessário:
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelar"/> Erros Comuns a Evitar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelar"/> Erros comuns a evitar
 
 - Usar endereços transparentes para pagamentos  
 - Reutilizar o mesmo endereço para todos os clientes  
 - Vincular publicamente a carteira à identidade  
-- Não rastrear pagamentos (levando a confusão)
+- Não rastrear pagamentos (levando à confusão)
 
 
 <br/>
@@ -122,7 +122,7 @@ Agora você entende como receber renda de forma privada.
 
 <br/>
 
-## Próxima Etapa
+## Próxima etapa
 
-- [Aceitar Pagamentos como um Comerciante](/zcash-use-cases/accept-payments-as-a-merchant)
+- [Aceitar pagamentos como um comerciante](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

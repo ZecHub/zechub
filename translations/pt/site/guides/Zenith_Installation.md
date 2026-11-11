@@ -1,6 +1,6 @@
-# Instalação da Carteira de Nó Completo Zenith GUI  
+# Instalação da carteira de nó integral Zenith GUI  
 
-## Tutorial em Vídeo
+## Tutorial em vídeo
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -48,11 +48,11 @@
 > nano ~/.config/zebrad.toml
 
 
-#### escutar consultas RPC em localhost
+#### Escutar consultas RPC em localhost
 
 > listen_addr = "127.0.0.1:8232"
 
-#### usar automaticamente múltiplas threads de CPU
+#### Usar automaticamente múltiplas threads de CPU
 
 parallel_cpu_threads = 0
 
@@ -60,7 +60,7 @@ enable_cookie_auth = false
 
 ## Instalar Zenith
 
-**Baixe o tar.gz e extraia-o no seu diretório home**
+**Baixe o tar.gz e extraia-o no seu diretório pessoal**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
@@ -73,7 +73,7 @@ enable_cookie_auth = false
 > git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### Instalar Dependências
+### Instalar dependências
 
 > sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
@@ -92,7 +92,7 @@ enable_cookie_auth = false
 
 > nano configure
 
-**altere o triple para: "aarch64-unknown-linux-gnu" em ambas as linhas.**
+**Altere o triple para: "aarch64-unknown-linux-gnu" em ambas as linhas.**
 
 > nano Setup.hs
  
@@ -136,26 +136,26 @@ zebraPort = 8232
 
 ## Raspi-config
 
-> [baixar o gldriver-test mais recente](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [Baixe o gldriver-test mais recente](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  **vá em advanced e selecione opengl => GL (Full KMS)**
+  **Vá para avançado e selecione opengl => GL (Full KMS)**
 
-  **reinicie**
+  **Reinicie**
 
 
 
-## Executar zenith
+## Executar o Zenith
 
  ./zenith gui
- or
+ ou
  ./zenith tui
- or
+ ou
  ./zenithserver
 
-## RPC's
+## RPCs
 
-[como fazer](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
+[Como fazer](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

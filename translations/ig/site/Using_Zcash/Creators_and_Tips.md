@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ngwaọrụ Zcash maka ndị okike: Ntuzi na Ikpo okwu profaịlụ
+# Zcash Ngwá ọrụ maka Ndị Okike: Inye Ntù & Ikpo Okwu Profaịlụ
 
-> **Nduzi zuru oke maka ngwaọrụ nchekwa nzuzo na profaịlụ nke e wuru na Zcash maka ndị na-emepụta ọdịnaya, ndị cypherpunks, na obodo ndị na-echebara nzuzo echiche.**
+> **Ntuziaka zuru ezu gbasara ngwá ọrụ inye ntù na profaịlụ na-echekwa Nzuzo [privacy], nke e wuru na Zcash maka ndị na-emepụta ọdịnaya, cypherpunks, na obodo na-ahụ Nzuzo n'anya.**
 
 ---
 
-## Tebulu ọdịnaya
+## Ndepụta Ihe Ndị Dị N'ime Ya
 
 1. [Zcash.me](#zcashme)
 2. [TIPZ](#tipz)
    - [Ihe Mere Nzuzo Ji Dị Mkpa Maka Ndị Okike](#why-privacy-matters-for-creators)
-3. [Anya / Ihe atụ](#visual--analogy)
-4. [Peeji ndị metụtara ya](#related-pages)
+3. [Ihe Anya / Ntụnyere](#visual--analogy)
+4. [Peeji Ndị Metụtara Ya](#related-pages)
 
 ---
 
-## TL;DR
+## N'Ụzọ Dị Mkpirikpi
 
-* Ngwaọrụ Zcash abụọ na-enyere ndị okike aka inweta ụgwọ n'onwe ha. Zcash.me na-enye gị ibe profaịlụ nwere adreesị nchekwa gị, TIPZ na-enyekwa ndị na-akwado ya ohere izitere gị ndụmọdụ.
-* Na Zcash.me, ị na-ekerịta otu njikọ, `zcash.me/[username]`, nke na-egosi adreesị gị na akaụntụ mmekọrịta gị.
-* Site na TIPZ, ndị na-akwado ya nwere ike itinye ego na ego dijitalụ ndị ọzọ, ndụmọdụ ọ bụla na-erute gị dịka ZEC.
-* Ngwaọrụ abụọ a na-arịọ maka adreesị gị otu (`u1...`).
-* Ndụmọdụ maka adreesị echekwara na-eme ka ego na nguzozi gị ghara ịpụta ìhè n'ihu ọha.
+* Ngwá ọrụ abụọ nke Zcash na-enyere ndị okike aka ịnata ụgwọ na nzuzo. Zcash.me na-enye gị peeji profaịlụ nwere adreesị gị nke e chebere echebe, ebe TIPZ na-eme ka ndị na-akwado gị nwee ike izitere gị ntù.
+* Site na Zcash.me, ị na-ekekọrịta otu njikọ, `zcash.me/[username]`, nke na-egosi adreesị gị jikọtara ọnụ [unified address] na akaụntụ mgbasa ozi mmekọrịta gị.
+* Site na TIPZ, ndị na-akwado gị nwere ike inye ntù n'ego cryptocurrency [cryptocurrency] ndị ọzọ, ntù ọ bụla eruo gị dị ka ZEC nke e chebere echebe.
+* Ngwá ọrụ abụọ ahụ na-arịọ maka adreesị gị jikọtara ọnụ (`u1...`).
+* Ntù ezitere na adreesị nke e chebere echebe na-eme ka ego ị na-enweta na nguzozi gị ghara ịpụta n'ihu ọha.
 
 ## Nkọwa Isi
 
@@ -34,41 +34,41 @@
 
 #### Nchịkọta
 
-**Zcash.me** bụ ebe a na-edebe profaịlụ na ikpo okwu nchọpụta nke na-eme ka ọ dịrị onye ọ bụla mfe ịchọta ma ziga ZEC nye ndị ọrụ Zcash. Ọ na-eje ozi dị ka "Linktree maka Zcash" - ụzọ dị mfe iji kesaa adreesị echekwara gị na ọnụnọ mmekọrịta gị na otu njikọ.
+**Zcash.me** bụ ndekọ profaịlụ na ikpo okwu nchọpụta nke na-eme ka ọ dịrị onye ọ bụla mfe ịchọta ma ziga ZEC nye ndị ọrụ Zcash. Ọ na-arụ ọrụ dịka “Linktree maka Zcash” — ụzọ dị mfe isi kesaa adreesị gị nke e chebere echebe na ọnụnọ mgbasa ozi mmekọrịta gị site n'otu njikọ.
 
-| ihe              | Nkọwa |
+| Ihe              | Nkọwa |
 |-------------------|---------|
 | **Weebụsaịtị**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
-| **Ụdị profaịlụ**| `zcash.me/[username]` |
-| **Ọnọdụ**        | Ndụ (nwere atụmatụ ndị a na-emepe) |
+| **Ụdị Profaịlụ**| `zcash.me/[username]` |
+| **Ọnọdụ**        | Na-arụ ọrụ (nwere atụmatụ ka na-emepụta) |
 
-#### Isi Atụmatụ
+#### Njirimara Ndị Bụ Isi
 
-##### Dị ugbu a
-- **Peeji Profaịlụ ahaziri ahazi** - Peeji ahaziri ahazi nwere aha njirimara, akụkọ ndụ, avatar, na ebe
-- **Ngosipụta Adreesị Ekpuchiri** - Pịa otu bọtịnụ detuo maka adreesị gị ejikọtara ọnụ
-- **Njikọ Njikọ Mmekọrịta** - X, LinkedIn, Telegram, na weebụsaịtị ahaziri iche
-- **Sistemụ Nyocha** - Akara akwadoro maka ntụkwasị obi obodo
-- **Nduzi Ntugharị** - Soro ndị nnọchi anya kachasị elu na ndị ndu obodo
-- **Ọnọdụ Ọrụ** - Na-egosi oge ikpeazụ na-arụ ọrụ.
+##### Ndị Dị Ugbu a
+- **Peeji Profaịlụ Ahaziri Ahazi** - Peeji nke onwe nwere aha njirimara, nkọwa onwe, avatar, na ebe ị nọ
+- **Ngosi Adreesị Nke E Chebere Echebe** - Bọtịnụ iji otu pịa depụta adreesị gị jikọtara ọnụ
+- **Mmekọrịta Njikọ Mgbasa Ozi Mmekọrịta** - X, LinkedIn, Telegram, na weebụsaịtị ahaziri ahazi
+- **Usoro Nkwenye** - Baajị enwetara nkwenye maka ntụkwasị obi obodo
+- **Tebụl Ndị Na-eduga na Ntugharị** - Soro ndị kacha atụgharị mmadụ na ndị isi obodo
+- **Ọnọdụ Ọrụ** - Na-egosi oge ikpeazụ onye ahụ rụrụ ọrụ.
 
-##### Na-abịa oge adịghị anya
-| atụmatụ            | Nkọwa |
+##### Ndị Na-abịa N'oge Na-adịghị Anya
+| Njirimara            | Nkọwa |
 |--------------------|-------------|
-| Maapụ Ọnọdụ       | Chọta ndị ọrụ Zcash dị nso |
-| Ọnụọgụgụ Ikpo Okwu| Lee usoro uto |
-| Ntuli Aka Obodo    | Votu na isiokwu gburugburu ebe obibi |
-| Akụkọ na Ọkwa | Mmelite gọọmentị |
-| Ọgbakọ              | Mkparịta ụka obodo |
-| Ngwa Mkpanaka         | Ahụmịhe ekwentị zuru oke |
+| Maapụ Ebe       | Chọta ndị ọrụ Zcash nọ gị nso |
+| Ọnụọgụ Ikpo Okwu| Lee metrik uto |
+| Ntuli Aka Obodo    | Tọọ vootu n'isiokwu ecosystem |
+| Akụkọ & Ọkwa | Mmelite gọọmentị |
+| Ogbako              | Mkparịta ụka obodo |
+| Ngwa Mkpanaaka         | Ahụmịhe mkpanaaka zuru ezu |
 
-#### Na-amalite
-1. Gaa leta [https://zcash.me/](https://zcash.me/) wee pịa **Sonye**.
-2. Họrọ aha njirimara pụrụ iche, tinye akụkọ ndụ na foto profaịlụ.
-3. Mado adreesị Zcash gị nke ejikọtara ọnụ (`u1...`)
-4. Jikọọ akaụntụ mmekọrịta gị.
-5. Kekọrịta njikọ gị: `zcash.me/[yourusername]`
+#### Otu Esi Ebido
+1. Gaa na [https://zcash.me/](https://zcash.me/) wee pịa **Join**.
+2. Họrọ aha njirimara pụrụ iche, tinye nkọwa onwe na foto profaịlụ.
+3. Tapawa adreesị gị jikọtara ọnụ nke Zcash (`u1...`)
+4. Jikọọ akaụntụ mgbasa ozi mmekọrịta gị.
+5. Kesaa njikọ gị: `zcash.me/[yourusername]`
 
 ---
 
@@ -78,50 +78,50 @@
 
 #### Nchịkọta
 
-**TIPZ** bụ **usoro ntinye ego nkeonwe** nke e wuru maka ndị okike na ndị cypherpunks. Ndị na-akwado ya na-enye uru na nnukwu ego dijitalụ ọ bụla; a na-agbanwe ya ozugbo ma na-ebuga ya dị ka **e chebere ZEC**.
+**TIPZ** bụ **protocol inye ntù nke nzuzo** e mere kpọmkwem maka ndị okike na cypherpunks. Ndị na-akwado nwere ike inye ntù n'ego cryptocurrency ọ bụla bụ isi; a na-agbanwe ya na akpaghị aka ma ziga ya dị ka **ZEC nke e chebere echebe**.
 
-| ihe              | Nkọwa |
+| Ihe              | Nkọwa |
 |-------------------|---------|
 | **Weebụsaịtị**       | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
-| **Ụdị profaịlụ**| `tipz.cash/@[username]` |
-| **Ọnọdụ**        | Ndụ |
+| **Ụdị Profaịlụ**| `tipz.cash/@[username]` |
+| **Ọnọdụ**        | Na-arụ ọrụ |
 
-> *"tipz.cash bụ usoro inye onyinye nkeonwe maka ndị okike na ndị cypherpunks."*
+> *“tipz.cash bụ protocol inye ntù nke nzuzo maka ndị okike na cypherpunks.”*
 
 #### Ihe Mere Nzuzo Ji Dị Mkpa Maka Ndị Okike
 
-##### Nnwere Onwe Ego
-- Ụgwọ ikpo okwu 0%
-- Enweghị njide na njide onwe onye
-- Enweghị ndị na-eme etiti
+##### Nnwere Onwe Nke Ego
+- 0% ugwo ikpo okwu
+- Ọ bụghị Onye nlekota & njide onwe
+- Enweghị ndị etiti
 
-##### Nzuzo-Nhazi Mbụ
-- Ntunye ọ bụla na-abịa dị ka ZEC.
-- Ntụle obere akpa nkeonwe
-- Ozi ezoro ezo nwere ndụmọdụ
-- Nhọrọ aha onye okike zuru oke
+##### Nhazi Buru Nzuzo Ụzọ
+- Ntù ọ bụla na-erute dị ka ZEC nke e chebere echebe.
+- Nguzozi e-akpa ego nke nzuzo
+- Izi ozi nwere Nzobe ederede tinyere ntù
+- Nhọrọ amaghị onye okike kpamkpam
 
-##### Ịkwụ Ụgwọ nke Cross-Chain
+##### Kwụọ ụhwọ Cross-Chain
 | Ego | Netwọk |
 |----------|---------|
 | ETH      | Ethereum |
-| USDC     | Ọtụtụ agbụ ígwè |
+| USDC     | Ọtụtụ chain |
 | SOL      | Solana |
-| ZEC      | Zcash ozugbo |
+| ZEC      | Zcash kpọmkwem |
 
-##### Nchedo Onye Okike
-- Enweghị ihe egwu iwepụ ikpo okwu
-- Na-eguzogide nyocha
+##### Nchedo Ndị Okike
+- Enweghị ihe ize ndụ iwepụ na ikpo okwu
+- Na-eguzogide mmachibido
 - Achọghị KYC
 
 ---
 
-## Anya / Ihe atụ
+## Ihe Anya / Ntụnyere
 
-Otu ite dị n'elu tebụl kọfị bụ iko. Onye ọ bụla nọ n'ime ụlọ ahụ hụrụ onye tụbara mkpụrụ ego na otú ite ahụ si ju.
+Ite ntù n'elu kọnọdụ ụlọ kọfị bụ iko. Onye ọ bụla nọ n'ime ụlọ ahụ na-ahụ onye tụbara mkpụrụ ego na otú ite ahụ juru.
 
-Adreesị e ji ihe mkpuchi kpuchie na-arụ ọrụ dị ka igbe ozi akpọchiri akpọchi nwere oghere. Ndị fan na-etinye envelopu nwere mkpụrụ ego na akwụkwọ ndetu, naanị onye mepụtara ya na-emepe igbe ahụ. TIPZ na-agbakwụnye mgbanwe ego n'ọnụ ụzọ: fan nwere ike ịbịa na ETH ma ọ bụ SOL, ihe na-adaba na igbe ozi bụ ZEC.
+Adreesị nke e chebere echebe na-arụ ọrụ dịka igbe ozi akpọchiri akpọchi nwere oghere. Ndị na-akwado na-atụba envelopu nwere mkpụrụ ego na note n'ime ya, naanị onye okike na-emeghe igbe ahụ. TIPZ na-agbakwunye exchange ego n'ọnụ ụzọ: onye na-akwado nwere ike iji ETH ma ọ bụ SOL bịa, ihe nke na-adaba n'ime igbe ozi bụ ZEC.
 
 ```
 TIPZ Payment Flow
@@ -131,12 +131,12 @@ Fan -> tipz.cash Protocol -> Creator's Wallet (Shielded ZEC)
 Fan selects amount + message -> Protocol auto-converts -> Creator receives private shielded ZEC.
 ```
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara Ya
 
-- [Adreesị Ndị Ejikọtara Ọnụ](/using-zcash/unified-addresses): nke `u1...` adreesị ngwaọrụ abụọ ahụ.
-- [Obere akpa](/using-zcash/wallets): họrọ obere akpa iji nata ndụmọdụ ndị e ji kpuchie.
-- [Ihe ncheta](/using-zcash/memos): otu akwụkwọ ndetu nkeonwe si aga njem na ụgwọ nchekwa.
-- [URIs nke arịrịọ ịkwụ ụgwọ](/using-zcash/payment-request-uris): a `zcash:` njikọ ma ọ bụ koodu QR nke na-achọ ego a kapịrị ọnụ.
-- [Ndị Nhazi Ịkwụ Ụgwọ](/using-zcash/payment-processors): ngwaọrụ maka ire ngwaahịa na ọrụ maka ZEC.
+- [Adreesị Jikọtara Ọnụ](/using-zcash/unified-addresses): adreesị `u1...` nke ngwá ọrụ abụọ ahụ na-arịọ.
+- [E-akpa ego](/using-zcash/wallets): họrọ e-akpa ego iji nata ntù nke e chebere echebe.
+- [Memo](/using-zcash/memos): otu note nke nzuzo si eso Kwụọ ụhwọ nke e chebere echebe aga.
+- [URI Arịrịọ Kwụọ ụhwọ](/using-zcash/payment-request-uris): njikọ `zcash:` ma ọ bụ koodu QR nke na-arịọ ego e setịpụrụ.
+- [Ndị Na-ahazi Kwụọ ụhgwọ](/using-zcash/payment-processors): ngwá ọrụ maka ire ngwongwo na ọrụ maka ZEC.
 
 **Emelitere ikpeazụ:** Ọktoba 2026

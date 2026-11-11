@@ -3,20 +3,20 @@
 </a>
 
 
-# Azụmahịa
+# Azụmahia [Transactions]
 
-ZEC bụ ihe onwunwe dijitalụ a na-ejikarị eme ihe maka ịkwụ ụgwọ, na-enye atụmatụ nzuzo siri ike nke na-eme ka ọ dabara adaba maka azụmahịa dị iche iche dịka ịkwụ ndị enyi, ịzụta ihe, ma ọ bụ inye onyinye. Iji mee ka nzuzo na nchekwa dịkwuo elu, ọ dị mkpa ịghọta otu ụdị azụmahịa dị iche iche si arụ ọrụ na Zcash.
+ZEC bụ akụ dijitalụ a na-ejikarị eme Kwụọ ụhwọ [payments], nke na-enye atụmatụ Nzuzo [privacy] siri ike nke na-eme ka ọ dabara maka Azụmahia dị iche iche dịka ịkwụ enyi ego, ịzụta ihe, ma ọ bụ inye onyinye. Iji bulie Nzuzo na nchekwa elu, ọ dị mkpa ịghọta ka ụdị Azụmahia dị iche iche si arụ ọrụ n'ime Zcash.
 
-## TL;DR
+## Nchịkọta
 
-- Zcash na-akwado ụdị azụmahịa abụọ: **kpuchiri**, nke na-edebe nkọwa ndị ahụ n'ezoghị ọnụ, na **ghere oghe**, nke na-edekọ ha n'ihu ọha.
-- Adreesị echekwara na-amalite na `u` or `z`Adreesị doro anya na-amalite na `t` ma na-akpa àgwà dị ka adreesị Bitcoin.
-- Nhọrọ gị dịịrị gị na ụgwọ ọ bụla. Nzuzo bụ nhọrọ Zcash na-enye gị, ọ bụghị ọnọdụ onye ọzọ kpebiri maka gị.
-- Ịpụpụ n'ebe a na-agbanwe ego bụ ebe a na-ahụkarị ka ndị mmadụ ghara inwe nzuzo. Ọ bụrụ na mgbanwe ego ahụ na-akwado naanị iwepụ ego doro anya, chebe ego ahụ n'onwe gị ozugbo ha rutere.
-- Ụgwọ na-esochi [ZIP 317](https://zips.z.cash/zip-0317) ma na-eto ka ọnụọgụ azụmahịa ahụ si dị. Obere akpa ego ndị ka na-eziga ụgwọ ochie ahụ nwere ike ime ka azụmahịa ha na-egbu oge.
-- Ọtụtụ azụmahịa Zcash nwere njedebe dị elu n'okpuru [ZIP 203](https://zips.z.cash/zip-0203)Ọ bụrụ na azụmahịa agwụ tupu e gwupụta ya, ọ gaghị ekwe omume igosi na ogologo oge ahụ agwụchara, ọ nwekwara ike ịchọ ka ezipụ ya ọzọ.
+- Zcash na-akwado ụdị Azụmahia abụọ: **nke e chebere echebe [shielded]**, nke na-edobe nkọwa ya na nzuzo, na **Oha [transparent]**, nke na-edekọ ha n'ihu ọha.
+- Adreesị akpa ego nke e chebere echebe na-amalite na `u` ma ọ bụ `z`. Adreesị akpa ego Oha na-amalite na `t` ma na-arụ ọrụ nke yiri Adreesị akpa ego Bitcoin.
+- Nhọrọ ahụ bụ nke gị n'oge Kwụọ ụhwọ ọ bụla. Nzuzo bụ nhọrọ Zcash na-enye gị, ọ bụghị ntọala onye ọzọ ga-ekpebi maka gị.
+- Ịwepụ ego n'aka exchange bụ ebe ndị mmadụ na-atụfu Nzuzo ha ọtụtụ mgbe. Ọ bụrụ na exchange ahụ na-akwado naanị iwepụ ego Oha, chebe ego ahụ n'onwe gị ozugbo ọ rutere.
+- Ugwo [fees] na-agbaso [ZIP 317](https://zips.z.cash/zip-0317) ma na-abawanye dabere n'otú Azụmahia ahụ hà. E-akpa ego ndị ka na-ezipụ ugwo ochie a kapịrị ọnụ nwere ike ịhụ Azụmahia ha ka ọ na-egbu oge.
+- Ọtụtụ Azụmahia Zcash nwere ogo njedebe n'okpuru [ZIP 203](https://zips.z.cash/zip-0203). Ọ bụrụ na Azụmahia agwụ tupu a gwupụta ya, enweghị ike ikwenye ya ma ogo njedebe ahụ gafee, ma o nwere ike ịdị mkpa iziga ya ọzọ.
 
-## Azụmahịa Ekpuchiri Echekwa
+## Azụmahia Echebere Echebe
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -31,17 +31,17 @@ ZEC bụ ihe onwunwe dijitalụ a na-ejikarị eme ihe maka ịkwụ ụgwọ, n
 
 ---
 
-Azụmahịa nchekwa na-eme mgbe ị bufere ZEC n'ime obere akpa nchekwa gị. Adreesị obere akpa nchekwa gị na-amalite na `u` or `z`Mgbe ị na-eziga azụmahịa echekwara, gị na ndị ị na-emekọrịta ihe nwere ike idobe ọkwa nzuzo nke agaghị ekwe omume na netwọk ịkwụ ụgwọ ọha na eze site na ndabara.
+Azụmahia e chebere echebe na-eme mgbe ị bugara ZEC n'ime e-akpa ego gị nke e chebere echebe. Adreesị akpa ego e-akpa ego gị nke e chebere echebe na-amalite na `u` ma ọ bụ `z`. Mgbe ị na-ezipụ Azụmahia e chebere echebe, gị na ndị gị na ha na-azụkọ ahịa nwere ike idobe ọkwa Nzuzo na-agaghị ekwe omume na netwọk Kwụọ ụhwọ ndị na-eme ka ihe pụta ìhè n'ihu ọha na mbụ.
 
-Izipu azụmahịa echekwara dị mfe karịa mgbe ị na-eji obere akpa ego nke na-akwado netwọk Zcash dị ugbu a na ọdọ mmiri echekwara ugbu a. Tupu ị dabere na obere akpa ego maka nzuzo, lelee ma ọ na-akwado izipu nchekwa, nnata nchekwa, na ọdọ mmiri ị na-eme atụmatụ iji. Mgbe ị na-ewepụ ZEC na mgbanwe ego, lelee ma mgbanwe ego ahụ na-akwado mwepụ nchekwa ma ọ bụ nke doro anya. Ọ bụrụ na ọ na-akwado mwepụ ego doro anya, bufee ego ahụ n'ime obere akpa nchekwa mgbe ha rutere.
+Izipụ Azụmahia e chebere echebe dị mfe karịa mgbe ị na-eji e-akpa ego na-akwado netwọk Zcash ugbu a na pool e chebere echebe ugbu a. Tupu ịdabere na e-akpa ego maka Nzuzo, lelee ma ọ na-akwado izipu echebere echebe, ịnata echebere echebe, na pool ị na-ezube iji. Mgbe ị na-ewepụ ZEC n'aka exchange, lelee ma exchange ahụ na-akwado iwepụ ego echebere echebe ma ọ bụ Oha. Ọ bụrụ na ọ na-akwado naanị iwepụ ego Oha, bugharịa ego ahụ n'ime e-akpa ego nwere ike ichebe ego mgbe ọ rutere.
 
-Iji azụmahịa echekwara echekwa iji zipu ma nata ego bụ ụzọ kachasị mma isi chekwaa nzuzo ma belata ihe egwu nke ịpụpụta data ịkwụ ụgwọ.
+Iji Azụmahia e chebere echebe eziga ma nata ego bụ ụzọ kacha mma isi chekwaa Nzuzo ma belata ihe ize ndụ nke ikpughe data Kwụọ ụhwọ.
 
-## Azụmahịa ndị doro anya
+## Azụmahia Oha
 
-Azụmahịa doro anya na-arụ ọrụ otu aka ahụ dịka azụmahịa Bitcoin. Nkọwa azụmahịa na-apụta ìhè n'ihu ọha na blockchain, gụnyere adreesị doro anya na ụkpụrụ doro anya. A ga-ezere azụmahịa doro anya mgbe nzuzo dị mkpa.
+Azụmahia Oha na-arụ ọrụ yiri Azụmahia Bitcoin. Nkọwa Azụmahia na-ahụ anya n'ihu ọha na blockchain, gụnyere Adreesị akpa ego Oha na uru Oha. E kwesịghị iji Azụmahia Oha mgbe Nzuzo bụ ihe kacha mkpa.
 
-Adreesị ndị na-apụta ìhè ka bara uru n'ọnọdụ ụfọdụ, ọkachasị mgbe mgbanwe ma ọ bụ ọrụ anaghị akwado adreesị echekwara. Ọ bụrụ na ị nata ZEC na adreesị doro anya, tụlee ichebe ya tupu ị kwụọ ụgwọ ma emechaa.
+Adreesị akpa ego Oha ka bara uru n'ọnọdụ ụfọdụ, karịchaa mgbe exchange ma ọ bụ ọrụ anaghị akwado Adreesị akpa ego e chebere echebe. Ọ bụrụ na ị nata ZEC n'Adreesị akpa ego Oha, tụlee ichebe ya tupu i mee Kwụọ ụhwọ ndị ọzọ.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -54,134 +54,134 @@ Adreesị ndị na-apụta ìhè ka bara uru n'ọnọdụ ụfọdụ, ọkacha
   />
 </div>
 
-## Ụzọ Dị Mfe Isi See Ya
+## Ụzọ Dị Mfe Isi Hụta Ya N'uche
 
-Azụmahịa doro anya bụ kaadị ozi. Onye na-eziga ozi na-ebuga ya, mana onye ọ bụla na-ejikwa ya n'ụzọ nwere ike ịgụ ozi ahụ, hụ onye zitere ya ma hụ onye natara ya.
+Azụmahia Oha dị ka kaadị nzipu ozi. Onye na-ebuga ozi na-ebuga ya, mana onye ọbụla jidere ya n'ụzọ nwere ike ịgụ ozi ahụ, hụ onye zitere ya, ma hụ onye na-anata ya.
 
-Azụmahịa e ji ihe mkpuchi kpuchie bụ envelopu e mechiri emechi. Ụlọ ọrụ ozi ka na-akwado na akwụkwọ ozi ezi nwere ozi ezi gafere na sistemụ ahụ, ọ dịghịkwa onye nwere ike ịmepụta otu ma ọ bụ ziga otu akwụkwọ ozi ahụ ugboro abụọ. Ihe dị na envelopu ahụ na-anọ n'etiti onye zitere ya na onye natara ya.
+Azụmahia e chebere echebe dị ka envelopu e mechiri emechi. Ọrụ nzipu ozi ahụ ka na-akwado na ezigbo leta nwere ezigbo stampụ gafere na sistemụ ahụ, ọ nweghịkwa onye nwere ike ịmepụta nke ụgha ma ọ bụ zipụ otu leta ahụ ugboro abụọ. Ihe dị n'envelopu ahụ na-adị n'etiti onye zitere ya na onye na-anata ya.
 
-Akụkụ dị mkpa bụ na Zcash na-enye gị ohere ikpebi nke ị ga-eziga, ịkwụ ụgwọ site na ịkwụ ụgwọ.
+Akụkụ dị mkpa bụ na Zcash na-ahapụ gị ikpebi nke ị ga-eziga, Kwụọ ụhwọ ọ bụla.
 
-## Ụgwọ Zcash
+## Ugwo Zcash
 
-Zcash anaghị eji ụdị gas dị ka Ethereum. A na-akwụ ụgwọ azụmahịa Zcash na ZEC, nke a na-atụkarị na **zatoshis**. Otu ZEC hà nhata zatoshis 100,000,000.
+Zcash anaghị eji nkeji gas ụdị Ethereum. A na-akwụ ugwo Azụmahia Zcash na ZEC, nke a na-atụkarị na **zatoshis**. Otu ZEC hà zatoshis 100,000,000.
 
-[ZIP 317](https://zips.z.cash/zip-0317) na-akọwa usoro ụgwọ nkịtị nke na-eme ka azụmahịa sie ike. Kama azụmahịa ọ bụla site na iji ụgwọ nkịtị nke 1,000-zatoshi ochie, ụgwọ nkịtị dabere na "ihe omume ezi uche dị na ya" dịka ntinye, mmepụta, na ihe omume echekwara. Azụmahịa dị mfe na-amalitekarị ihe dị ka zatoshi 10,000, ma ọ bụ 0.0001 ZEC, azụmahịa ndị ka mgbagwoju anya nwekwara ike ịchọ ihe karịrị.
+[ZIP 317](https://zips.z.cash/zip-0317) na-akọwa usoro ugwo a na-ahụkarị nke na-agbaso mgbagwoju anya Azụmahia. Kama ka Azụmahia ọ bụla jiri ugwo ochie a kapịrị ọnụ nke zatoshis 1,000, ugwo a na-ahụkarị dabere na “omume ezi uche” dịka ntinye, mmepụta, na omume echebere echebe. Azụmahia dị mfe na-amalitekarị n'ihe dị ka zatoshis 10,000, ma ọ bụ 0.0001 ZEC, Azụmahia ndị dị mgbagwoju anya nwekwara ike ịchọ karịa.
 
-N'ọtụtụ obere akpa ego dị ugbu a, ndị ọrụ ekwesịghị iji aka ha gbakọọ ụgwọ ZIP 317. Obere akpa ego kwesịrị ịhọrọ ụgwọ kwesịrị ekwesị na akpaghị aka. Ọ bụrụ na obere akpa ego ka na-eji ụgwọ nkịtị ochie ma ọ bụ na-enye gị ohere ịtọ ụgwọ dị ala karịa ụgwọ nkịtị ZIP 317, azụmahịa ahụ nwere ike igbu oge, wepụ ihe dị mkpa, wepụ ya site na ụfọdụ nodes, ma ọ bụ ghara iziga ya nke ọma.
+N'ọtụtụ e-akpa ego ugbu a, ndị ọrụ ekwesịghị ịgbakọ ugwo ZIP 317 n'onwe ha. E-akpa ego kwesịrị ịhọrọ ugwo dabara adaba n'onwe ya. Ọ bụrụ na e-akpa ego ka na-eji ugwo ochie a kapịrị ọnụ ma ọ bụ kwe ka ị tọọ ugwo dị anya n'okpuru ugwo ZIP 317 a na-ahụkarị, Azụmahia ahụ nwere ike igbu oge, bụrụ nke e nyere obere mkpa, ụfọdụ node nwere ike ịtụfu ya, ma ọ bụ ghara iziga ya nke ọma.
 
-## Ịchọpụta nsogbu azụmahịa ndị siri ike
+## Ịgwọ Azụmahia Ndị Raparara Arapara
 
-Azụmahịa Zcash abụghị nke ikpeazụ naanị n'ihi na ọ pụtara na obere akpa gị. Ọ na-aghọ nke ikpeazụ maka ojiji nkịtị mgbe e gwupụtara ya n'ime blọk ma nweta nkwenye zuru oke maka ọnọdụ gị. Mgbanwe na ọrụ nwere ike ịchọ nkwenye karịa nke obere akpa na-egosi na ndabara.
+Azụmahia Zcash anaghị aghọ nke ikpeazụ naanị n'ihi na ọ pụtara n'e-akpa ego gị. Ọ na-adị nke ikpeazụ maka ojiji nkịtị mgbe a gwupụtara ya n'ime block ma nata nkwenye zuru ezu dabere n'ọnọdụ gị. Exchange na ọrụ nwere ike ịchọ nkwenye karịa nke e-akpa ego na-egosi na ndabara.
 
-Jiri osisi mkpebi a tupu izipu ya ọzọ:
+Jiri osisi mkpebi a tupu iziga ọzọ:
 
-1. **Akpa gị ọ na-egosi njirimara azụmahịa?**
-   - Ọ bụrụ na ọ bụghị, obere akpa ahụ nwere ike ọ gaghị emepụta ma ọ bụ gbasaa azụmahịa ahụ. Lelee ọnọdụ mmekọrịta, njikọ ịntanetị, ụdị obere akpa, na ozi njehie obere akpa ọ bụla.
-   - Ọ bụrụ ee, detuo ID azụmahịa ahụ wee gaa n'ihu.
-2. **Ekwenyela azụmahịa ahụ n'otu ngọngọ?**
-   - Ọ bụrụ ee, chere maka ọnụọgụ nkwenye nke obere akpa gị, mgbanwe, onye ahịa, ma ọ bụ ọrụ gị chọrọ.
+1. **E-akpa ego gị ọ na-egosi ID Azụmahia?**
+   - Ọ bụrụ na mba, o nwere ike ịbụ na e-akpa ego emepụtabeghị ma ọ bụ agbasaabeghị Azụmahia ahụ. Lelee ọnọdụ mmekọrịta, njikọ ịntanetị, ụdị e-akpa ego, na ozi njehie e-akpa ego ọ bụla.
+   - Ọ bụrụ na ee, detuo ID Azụmahia ahụ ma gaa n'ihu.
+2. **A kwadoro Azụmahia ahụ n'ime block?**
+   - Ọ bụrụ na ee, chere ọnụọgụ nkwenye e-akpa ego gị, exchange, onye ahịa, ma ọ bụ ọrụ gị chọrọ.
    - Ọ bụrụ na mba, gaa n'ihu.
-3. **Azụmahịa ahụ erutela oge njedebe ya?**
-   - Ọ bụrụ na ọ bụghị, ezipụla otu ụgwọ ahụ n'aka gị. Azụmahịa mbụ ahụ ka nwere ike ịkwado.
-   - Ọ bụrụ ee, agaghị enwe ike igwu azụmahịa ahụ mgbe oge njedebe ahụ gasịrị. Akpa ego gị nwere ike igosi na ọ gwụchara ma ọ bụ na ọ daa, ị nwekwara ike ịmepụta azụmahịa ọhụrụ.
-4. **Azụmahịa ahụ ọ na-apụta n'otu sava ma ọ bụ ihe nchọgharị mana ọ bụghị na nke ọzọ?**
-   - Were nke a dị ka nsogbu ịhụ ụzọ netwọk, ọ bụghị ihe akaebe na azụmahịa ahụ dara. Nọdụ dị iche iche nwere ike inwe echiche dị iche iche nke ndị otu.
-   - Chere, megharịa obere akpa gị, ma ọ bụ gbanwee gaa na sava ọzọ a pụrụ ịtụkwasị obi ma ọ bụrụ na obere akpa gị na-akwado nke ahụ.
-5. **Azụmahịa ahụ ọ kwụsịrị mgbe a chọpụtara na ekwenyela ya?**
-   - Nhazigharị obere usoro nwere ike iwepụ azụmahịa nwa oge na usoro kacha mma.
-   - Chere maka ngọngọ ndị ọzọ. Ọ bụrụ na azụmahịa ahụ alọghachi, gaa n'ihu na-eche nkwenye. Ọ bụrụ na ọ laghachighị ma mechaa gwụ, mepụta azụmahịa ọhụrụ.
-6. **Akpa ego a ọ na-arịọ gị ka i zigaghachi ya ọzọ?**
-   - Soro ntuziaka dị ugbu a nke obere akpa ego ahụ naanị mgbe ị nyochachara na azụmahịa gara aga agwụla, dara ada, ma ọ bụ na ọ dịghịzi irè.
-   - Ọ bụrụ na obi adịghị gị mma, jụọ enyemaka tupu izipu ya ọzọ.
+3. **Azụmahia ahụ eruola ogo njedebe ya?**
+   - Ọ bụrụ na mba, ezigala otu Kwụọ ụhwọ ahụ ọzọ n'onwe gị ugbu a. Azụmahia mbụ ahụ ka nwere ike ikwenye.
+   - Ọ bụrụ na ee, enweghị ike igwu Azụmahia ahụ ma ogo njedebe ahụ gafee. E-akpa ego gị nwere ike kaa ya dị ka nke kubiela ma ọ bụ dara ada, ma ị nwere ike ịchọ ịmepụta Azụmahia ọhụrụ.
+4. **Azụmahia ahụ ọ na-apụta n'otu sava ma ọ bụ explorer mana ọ bụghị na nke ọzọ?**
+   - Were nke a dị ka nsogbu nke ịhụ anya netwọk, ọ bụghị ihe àmà na Azụmahia dara ada. Node dị iche iche nwere ike inwe echiche mempool dị iche iche.
+   - Chere, mekọrịta e-akpa ego gị ọzọ, ma ọ bụ gbanwee gaa sava ọzọ a tụkwasịrị obi ma ọ bụrụ na e-akpa ego gị na-akwado nke ahụ.
+5. **Azụmahia ahụ ọ furu efu mgbe ọ pụtachara dịka nke ekwenyere?**
+   - Nhazigharị chain dị mkpirikpi nwere ike wepụ Azụmahia nwa oge na chain kacha mma.
+   - Chere block ndị ọzọ. Ọ bụrụ na Azụmahia ahụ alọghachi, gaa n'ihu na-eche nkwenye. Ọ bụrụ na ọ lọtaghị ma kubie mgbe e mesịrị, mepụta Azụmahia ọhụrụ.
+6. **E-akpa ego ọ na-arịọ gị ka ị ziga ọzọ?**
+   - Soro nduzi e-akpa ego ugbu a naanị mgbe ị lechara na Azụmahia gara aga akubiela, dara ada, ma ọ bụ ghara ịdị irè ọzọ.
+   - Ọ bụrụ na ị maghị n'aka, jụọ ndị nkwado tupu iziga ọzọ.
 
-## Na-echere, gwụchara, a tụfuru ya, ma hazie ya ọzọ
+## Na-echere, Kubiela, Atụfuru, na Emegharịrị
 
-- **Na-echere** pụtara na e mepụtara ma ọ bụ gbasaa azụmahịa ahụ mana e mebeghị ya n'ime ngọngọ.
-- **Agwụla** pụtara na ogologo njedebe nke azụmahịa ahụ agafeela. N'okpuru ZIP 203, a gaghị achọta azụmahịa nwere ogologo njedebe mgbe ogologo ahụ gasịrị.
-- **Akwụsịla** pụtara na otu ma ọ bụ karịa nodes anaghịzi echekwa azụmahịa ahụ na mempool ha. Nke a nwere ike ime n'ihi njedebe, obere ụgwọ, amụma mempool, omume mmaliteghachi, ma ọ bụ ọdịiche relay.
-- **Emegharịrị** pụtara na ngọngọ nke nwere azụmahịa ahụ na mbụ abụghịzi akụkụ nke usoro kacha mma. Enwere ike igwu azụmahịa ahụ ọzọ ma emechaa, ma ọ bụ ọ nwere ike ịlaghachi na-echere ma ọ bụrụ na ọ ka dị irè.
+- **Na-echere** pụtara na e mepụtala ma ọ bụ gbasaa Azụmahia ahụ mana egwubeghị ya n'ime block.
+- **Kubiela** pụtara na ogo njedebe Azụmahia ahụ agafeela. N'okpuru ZIP 203, enweghị ike igwu Azụmahia nwere ogo njedebe ma ogo ahụ gafee.
+- **Atụfuru** pụtara na otu node ma ọ bụ karịa anaghị edobe Azụmahia ahụ na mempool ha ọzọ. Nke a nwere ike ime n'ihi njedebe, ugwo dị ala, iwu mempool, omume ịmaliteghachi, ma ọ bụ ọdịiche n'izisa.
+- **Emegharịrị** pụtara na block nke nwere Azụmahia ahụ na mbụ abụghịzi akụkụ nke chain kacha mma. Enwere ike igwu Azụmahia ahụ ọzọ mgbe e mesịrị, ma ọ bụ ọ nwere ike ịlaghachi na ọnọdụ na-echere ma ọ bụrụ na ọ ka dị irè.
 
-## Mgbe A Na-agaghị Ezipụ Ọzọ
+## Mgbe Ị Na-ekwesịghị Izipụ Ọzọ
 
-Ezila ozi ọzọ ozugbo naanị n'ihi na azụmahịa na-echere, na-aga nwayọ, ma ọ bụ na-efunahụ otu onye na-eme nchọpụta. Izighachi ozi n'oge nwere ike ịkpata mgbagwoju anya, dabere n'otú obere akpa si arụ ọrụ ịkwụ ụgwọ ọhụrụ ahụ, nwere ike itinye ego ịkwụ ụgwọ ugboro abụọ.
+Ezigala ọzọ ozugbo naanị n'ihi na Azụmahia na-echere, na-adị nwayọ, ma ọ bụ na-efu n'otu explorer. Izipụ ọzọ ngwa ngwa nwere ike ịkpata mgbagwoju anya, ma dabere n'otú e-akpa ego si emepụta Kwụọ ụhwọ ọhụrụ ahụ, ọ nwere ike iweta ihe ize ndụ ịkwụ ugboro abụọ.
 
 Chere ma ọ bụ nweta nkwado mbụ mgbe:
 
-- Azụmahịa ahụ nwere njirimara azụmahịa ma ọ gwụbeghị.
+- Azụmahia ahụ nwere ID Azụmahia ma ọ kubiebeghị.
 - Otu sava na-egosi ya ebe nke ọzọ anaghị egosi ya.
-- E gwupụtara ya n'oge na-adịbeghị anya mana o furu efu nkwenye mgbe emechara nhazigharị.
-- Ọrụ nnata ahụ agwụchabeghị ịgụta nkwenye.
-- Akpa ego gị ka na-arụkọ ọrụ.
+- A gwupụtara ya n'oge na-adịbeghị anya mana ọ tufuru nkwenye mgbe enwere ike inwe reorg.
+- Ọrụ na-anata ego akwụsịbeghị ịgụ nkwenye.
+- E-akpa ego gị ka na-emekọrịta.
 
-Ọ na-adịkarị mma izipu ọzọ naanị mgbe obere akpa ego ahụ gosipụtara nke ọma na azụmahịa ahụ agwụla ma ọ bụ daa, ma ọ bụ mgbe nkwado kwadoro na azụmahịa mbụ ahụ enweghị ike ikwenye.
+Ọ na-adịkarị nchebe iziga ọzọ naanị mgbe e-akpa ego doro anya kaa Azụmahia ahụ dị ka nke kubiela ma ọ bụ dara ada, ma ọ bụ mgbe nkwado kwadoro na Azụmahia mbụ enweghị ike ikwenye.
 
-## Nlele Nchekwa Nzuzo
+## Nlele Ndị Na-echekwa Nzuzo
 
-Ị nwere ike ịlele ọnọdụ azụmahịa bụ isi na-ekpugheghị ozi karịa ka ọ dị mkpa:
+Ị nwere ike ịlele ọnọdụ Azụmahia bụ isi na-ekpugheghị ozi karịa ka ọ dị mkpa:
 
-- Lelee ma obere akpa gị ọ bụla adabara nke ọma.
-- Lelee ma ngwa obere akpa ahụ ọ dị ọhụrụ.
-- Lelee ma azụmahịa ahụ nwere njirimara azụmahịa.
-- Lelee ma azụmahịa ahụ ekwenyela, ọ na-echere, ọ gwụchara, ma ọ bụ ọ daa.
-- Lelee ogologo blọk dị ugbu a ma tụnyere ya na ogologo njedebe azụmahịa ma ọ bụrụ na obere akpa gị egosi ya.
-- Maka azụmahịa doro anya, onye na-eme nchọpụta blọk nwere ike igosi azụmahịa ọha, adreesị, ụkpụrụ, na nkwenye.
-- Maka azụmahịa echekwara, onye na-eme nchọpụta ngọngọ nwere ike igosi na azụmahịa dị, mana ọ nweghị ike igosi onye zitere ya, onye nnata, ego ole, ma ọ bụ nkọwa ndetu.
+- Lelee ma e-akpa ego gị emekọrịtala nke ọma.
+- Lelee ma ngwa e-akpa ego bụ nke emelitere.
+- Lelee ma Azụmahia ahụ nwere ID Azụmahia.
+- Lelee ma ekwenyerela Azụmahia ahụ, ọ na-echere, akubiela, ma ọ bụ dara ada.
+- Lelee ogo block ugbu a ma jiri ya tụnyere ogo njedebe Azụmahia ahụ ma ọ bụrụ na e-akpa ego gị egosi ya.
+- Maka Azụmahia Oha, block explorer nwere ike igosi Azụmahia ọha, Adreesị akpa ego, uru, na nkwenye.
+- Maka Azụmahia e chebere echebe, block explorer nwere ike igosi na Azụmahia dị, mana ọ nweghị ike igosi onye zitere echebere echebe, onye natara ya, ego, ma ọ bụ nkọwa memo [memo].
 
-## Ihe A Na-agaghị Ekesa n'Ọha
+## Ihe Ị Na-ekwesịghị Ịkekọrịta N'ihu Ọha
 
-Etinyela ihe ndị a na mkparịta ụka ọha, mgbasa ozi ọha, ma ọ bụ ihe na-enyocha nsogbu:
+Etinyela ihe ndị a na nkata ọha, mgbasa ozi mmekọrịta, ma ọ bụ tracker nsogbu:
 
-- Ahịrịokwu mkpụrụ ma ọ bụ okwu mgbake
-- Igodo mmefu ego, igodo nkeonwe, ma ọ bụ nkwado ndabere obere akpa ego
+- Mkpuru mgbake [Seed phrase] ma ọ bụ ahịrịokwu mgbake
+- Igodo ego [Spending key], igodo nzuzo, ma ọ bụ ndabere e-akpa ego
 - Full Viewing Key
-- Nseta ihuenyo na-egosi nguzozi, adreesị zuru ezu, ndetu, koodu QR, ma ọ bụ nkọwa akaụntụ mgbanwe
-- Akwụkwọ njirimara nkeonwe ma ọ bụ ndekọ mgbake akaụntụ
+- Nseta ihuenyo na-egosi ego fọdụrụ, Adreesị akpa ego zuru ezu, memo, koodu QR, ma ọ bụ nkọwa akaụntụ exchange
+- Akwụkwọ njirimara onwe ma ọ bụ ndekọ mgbake akaụntụ
 
-NJ azụmahịa bụ nke ọha na eze n'usoro a, mana ọ ka nwere ike ijikọ ajụjụ nkwado gị na njirimara gị. Ọ bụrụ na nzuzo dị mkpa, kesaa ya naanị na ọwa nkwado a tụkwasịrị obi.
+ID Azụmahia bụ ọha na chain, mana ọ ka nwere ike ijikọ ajụjụ nkwado gị na njirimara gị. Ọ bụrụ na Nzuzo dị mkpa, kesaa ya naanị n'ọdụ nkwado a tụkwasịrị obi.
 
 ## Ihe Ndị Otu Nkwado Chọrọ
 
-Mgbe ị na-arịọ maka enyemaka maka obere akpa ego, mgbanwe, ma ọ bụ nkwado ọrụ, kesaa naanị ozi kacha nta bara uru:
+Mgbe ị na-arịọ e-akpa ego, exchange, ma ọ bụ nkwado ọrụ maka enyemaka, kesaa naanị ozi kacha nta bara uru:
 
-- Aha obere akpa ma ọ bụ ọrụ
+- Aha e-akpa ego ma ọ bụ ọrụ
 - Ụdị ngwa na sistemụ arụmọrụ
-- Ma azụmahịa ahụ bụ nke a na-echebe, nke doro anya, ma ọ bụ n'etiti adreesị echekwara na nke doro anya
-- NJ azụmahịa, ọ bụrụ na ị nwere ahụ iru ala ịkekọrịta ya
-- E zigara oge dịka atụmatụ si dị
-- Ma obere akpa ahụ ọ dabara nke ọma
-- Ọnọdụ dị ugbu a nke obere akpa egosiri
-- Ozi njehie kpọmkwem, e wepụrụ data nkeonwe
-- Nseta ihuenyo nwere nguzozi, adreesị, ndetu, na nkọwa akaụntụ zoro ezo
+- Ma Azụmahia ahụ bụ nke e chebere echebe, Oha, ma ọ bụ n'etiti Adreesị akpa ego echebere echebe na Oha
+- ID Azụmahia, ma ọ bụrụ na ị dị njikere ịkekọrịta ya
+- Oge e zipụrụ ya nke dị nso
+- Ma e-akpa ego emekọrịtala nke ọma
+- Ọnọdụ ugbu a e-akpa ego na-egosi
+- Ozi njehie kpọmkwem, ewepụrụ data nzuzo
+- Nseta ihuenyo nke ezoro ego fọdụrụ, Adreesị akpa ego, memo, na nkọwa akaụntụ
 
-Ndị otu nkwado anaghị achọ mkpụrụ okwu gị, igodo mmefu, igodo nkeonwe, ma ọ bụ igodo nlele zuru oke.
+Ndị otu nkwado anaghị achọ Mkpuru mgbake gị, Igodo ego, igodo nzuzo, ma ọ bụ full viewing key.
 
-## Mmejọ Ndị A Na-emekarị
+## Njehie Ndị A Na-ahụkarị
 
-- **Echere m na ndepụta akpa ọ bụla ZEC nwere ike izipu ya n'onwe ya.** Ọtụtụ obere akpa ego nwere ọtụtụ ego na-akwado akụkụ doro anya nke Zcash naanị. Lelee ọdọ mmiri ndị a na-akwado akpa ahụ tupu ị dabere na ya maka nzuzo. [Obere akpa](https://zechub.wiki/using-zcash/wallets) peeji ahụ depụtara nke a maka nhọrọ ọ bụla.
-- **Ịpụ ego ahụ gaa na adreesị doro anya wee hapụ ego ahụ ebe ahụ.** Mwepụ ego ahụ n'onwe ya bụ nke ọha, mmegharị ọ bụla ọzọ site na adreesị ahụ ga-anọgidekwa na-abụ nke ọha. Chebe ego ahụ ozugbo ha rutere.
-- **Ịnagide nzuzo dị ka ihe ị na-agbanye otu ugboro.** Azụmahịa ọ bụla bụ nhọrọ dị iche. Izipu ihe nchebe taa anaghị emebi ụgwọ doro anya ị kwụrụ n'izu gara aga.
-- **Ịji adreesị doro anya ọzọ maka ihe niile.** Ebe ọ bụ na ihe omume doro anya na-apụta ìhè mgbe niile, otu adreesị ejirila nwayọọ nwayọọ jikọta ụgwọ ndị na-enweghị ihe kpatara ya iji jikọọ.
-- **Izipu ozi nwere ụgwọ ndabara ochie.** Obere akpa ego ndị na-ejighi ZIP 317 nwere ike izipu ụgwọ ochie ahụ, nke nwere ike ime ka azụmahịa ghara ịdị mma.
-- **Zipu ozi ọzọ tupu oge agwụ.** Azụmaahịa na-echere ka nwere ike ikwenye ruo mgbe ọ ga-agwụ. Lelee ọnọdụ njedebe tupu ịmepụta ụgwọ ọzọ.
+- **Iche na e-akpa ego ọ bụla depụtara ZEC nwere ike iziga ya na nzuzo.** Ọtụtụ e-akpa ego ọtụtụ-mkpụrụ ego na-akwado naanị akụkụ Oha nke Zcash. Lelee pool e-akpa ego na-akwado tupu ị dabere na ya maka Nzuzo. Peeji [Wallets](https://zechub.wiki/using-zcash/wallets) depụtara nke a maka nhọrọ ọ bụla.
+- **Iwepụ ego gaa Adreesị akpa ego Oha ma hapụ ego ahụ ebe ahụ.** Iwepụ ego ahụ n'onwe ya bụ nke ọha, mmegharị ọ bụla na-esote site n'Adreesị akpa ego ahụ ga-adịkwa ọha. Chebe ego ahụ ozugbo ọ rutere.
+- **Iwere Nzuzo dịka ihe ị na-agbanye otu ugboro.** Azụmahia ọ bụla bụ nhọrọ dị iche. Izipụ echebere echebe taa anaghị ewepụ Kwụọ ụhwọ Oha i mere n'izu gara aga.
+- **Iji otu Adreesị akpa ego Oha maka ihe niile.** N'ihi na ọrụ Oha na-adị anya ruo mgbe ebighị ebi, otu Adreesị akpa ego eji ugboro ugboro na-eji nwayọọ nwayọọ ejikọta Kwụọ ụhwọ ndị na-enweghị ihe mere a ga-eji jikọta ha.
+- **Izipụ site n'ugwo ndabara ochie.** E-akpa ego ndị anabatabeghị ZIP 317 ka nwere ike iziga ugwo ochie a kapịrị ọnụ, nke nwere ike ime ka Azụmahia nọrọ na-enweghị nkwenye.
+- **Izipụ ọzọ tupu njedebe.** Azụmahia na-echere ka nwere ike ikwenye ruo mgbe ọ kubiri. Lelee ọnọdụ njedebe tupu ịmepụta Kwụọ ụhwọ ọzọ.
 
-## Ihe ndetu
+## Rịba Ama
 
-Biko mara na ụzọ kachasị mma iji ZEC bụ iji azụmahịa echekwara mgbe ọ bụla onye zitere ya, onye nnata, obere akpa ego, na ọrụ niile na-akwado ha. Ụfọdụ obere akpa ego na mgbanwe ego na-akwado [adreesị ejikọtara ọnụ](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is, n'ime%20the%20broader%20Zcash%20ecosystem.), nke nwere ike ijikọta ọtụtụ ụdị ndị nnata Zcash n'otu adreesị.
+Biko mara na ụzọ kacha nchebe iji ZEC bụ iji Azụmahia e chebere echebe mgbe onye zitere, onye natara, e-akpa ego, na ọrụ niile na-akwado ha. Ụfọdụ e-akpa ego na exchange na-akwado [unified addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/#:~:text=The%20unified%20address%20(UA)%20is,within%20the%20broader%20Zcash%20ecosystem.), nke nwere ike ijikọta ọtụtụ ụdị nnata Zcash n'otu Adreesị akpa ego.
 
-## akụrụngwa
+## Akụrụngwa
 
-- [ZIP 203: Ngwụcha Azụmahịa](https://zips.z.cash/zip-0203)
-- [ZIP 317: Usoro Ụgwọ Mbufe Nhazi](https://zips.z.cash/zip-0317)
-- [ZIP Zcash](https://zips.z.cash/)
+- [ZIP 203: Njebisi Azụmahia](https://zips.z.cash/zip-0203)
+- [ZIP 317: Usoro Ugwo Nbufe Kwesịrị Nha](https://zips.z.cash/zip-0317)
+- [Zcash ZIPs](https://zips.z.cash/)
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara Ya
 
-- [Obere akpa](/using-zcash/wallets) - obere akpa ego ole na-akwado izipu ihe nchekwa, na nke na-apụta ìhè naanị
-- [Mkpughe ịkwụ ụgwọ](/zcash-tech/payment-disclosures) - otu onye zitere ga-esi gosi nkọwa ahọpụtara nke otu ịkwụ ụgwọ echekwara
-- [Ọdọ Mmiri E Kpuchiri Ekpuchi](/using-zcash/shielded-pools) - Sapling na Orchard, ọdọ mmiri ndị ego nchekwa gị bi na ha
-- [Ihe ncheta](/using-zcash/memos) - ozi ezoro ezo nke nwere ike ịgagharị na azụmahịa echekwara
-- [Adreesị Mgbanwe Na-enweghị Ntụgharị](/using-zcash/transparent-exchange-addresses) - Adreesị TEX na ihe kpatara mgbanwe ji eji ha
-- [Mgbanwe Ụlọ Nlereanya](/using-zcash/custodial-exchanges) - mgbanwe ndị na-akwado mwepụ nchekwa
+- [E-akpa ego](/using-zcash/wallets) - e-akpa ego ndị na-akwado izipu echebere echebe, na ndị bụ naanị Oha
+- [Ngosipụta Kwụọ ụhwọ](/zcash-tech/payment-disclosures) - ka onye zitere nwere ike isi gosi nkọwa ahọpụtara nke otu Kwụọ ụhwọ echebere echebe
+- [Pool Echebere Echebe](/using-zcash/shielded-pools) - Sapling na Orchard, pool ego gị echebere echebe bi na ya
+- [Memo](/using-zcash/memos) - ozi ezoro ezo nwere ike iso Azụmahia echebere echebe
+- [Transparent Exchange Addresses](/using-zcash/transparent-exchange-addresses) - Adreesị TEX na ihe mere exchange ji eji ha
+- [Exchange Onye nlekota](/using-zcash/custodial-exchanges) - exchange ndị na-akwado iwepụ ego echebere echebe
 
-## Ihe Ntụgharị ZEC gaa na ZAT
+## ZEC gaa ZAT Ntụgharịkọta

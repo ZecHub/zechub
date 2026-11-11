@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Creators_and_Tips.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Εργαλεία Zcash για δημιουργούς: Φιλοδωρήματα και πλατφόρμες προφίλ
@@ -30,7 +30,7 @@
 
 ### Zcash.me
 
-![Zcash.me Logo](/content-images/_unavailable.svg)
+![Λογότυπο Zcash.me](/content-images/_unavailable.svg)
 
 #### Επισκόπηση
 
@@ -74,7 +74,7 @@
 
 ### TIPZ
 
-![TIPZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![Λογότυπο TIPZ](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 #### Επισκόπηση
 

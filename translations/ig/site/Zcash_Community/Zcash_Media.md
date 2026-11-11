@@ -2,16 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Mgbasa Ozi
+# Zcash Media
 
-"Our role in this collaborative effort is to educate, inspire, and excite current and future Zcashers, building a base of supporters that rivals the largest projects and beyond."
+“Ọrụ anyị n'ime mbọ nkwado a bụ ịkụziri, ịkpali, na ime ka ndị Zcashers nke ugbu a na nke ọdịnihu nwee mkpali, site n'iwulite ntọala ndị nkwado ga-asọrịta mpi na ọrụ kachasị ukwuu ma gafee ha.”
 
+## Nzụlite
 
-## Ihe Ndị Mere Tupu E Mee Ya
+[37 LAINES](https://www.37laines.com/) mepụtara maka ọdịmma ọha, vidio mmụta nke Zcash Media gbadoro ụkwụ na Zcash na crypto. A na-akwado ya site na mmemme [Zcash Community Grants](https://x.com/ZcashCommGrants), ma ọ ghọọla onye dị mkpa n'ime gburugburu obibi Zcash.
 
-Emepụtara site na [37 LAINES](https://www.37laines.com/) for the public good, Zcash Media's educational videos are all about Zcash and crypto. It is funded by the [Zcash Community Grants](https://x.com/ZcashCommGrants) usoro ihe omume, ma ghọọ onye ọkpụkpọ dị mkpa na gburugburu ebe obibi Zcash.
-
-## Vidio
+## Vidiọ
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -23,4 +22,3 @@ Emepụtara site na [37 LAINES](https://www.37laines.com/) for the public good, 
     loading="lazy"
   />
 </div>
-    

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Μέρη για να ξοδέψεις ZEC
@@ -54,7 +54,7 @@
 
 **Ιστότοπος**: το sheemprende.com έχει αποσυρθεί και δεν είναι πλέον προσβάσιμο. Βρες τη στο [Free2Z](https://free2z.cash/SheEmprende) | [Πλατφόρμα X](https://twitter.com/SheEmprende_)
 
-**Zcash Unified Address:** 
+**Ενοποιημένη διεύθυνση Zcash:** 
 
 ```
 u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9erv3udraj435hl7r6pz3q5ehdjnha2ve9c4ley9l0wh8um9s0zlvqungxexjerfkp8gjvemgtp6pgm694txw5p0mw4at49jzwcxygy7c72gceph340zscg7kscqhqw2yzg3alkh
@@ -76,7 +76,7 @@ u1pu63k8tfcf0v06qr6f9qn3qpfh2hj8wjnc3wchguaqy2jc9xxmf4f424jns282qfwzvs6qq3tcd9er
 
 **Social media:** [Instagram](https://www.instagram.com/somos_dulceros) | [Πλατφόρμα X](https://twitter.com/RosaMRangel) | [Free2Z](https://free2z.cash/Criptodulceros/zpage/criptodulceros-01)
 
-**Zcash Unified Address:** 
+**Ενοποιημένη διεύθυνση Zcash:** 
 
 ```
 u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83rv8vpy98k7ztghur22z6fdrjpvjscjxtdwfj5w0dfj6jv6pw3ns5lx257lsndfe0ul2mer22kzanphyjvaxgxydfkwm9rvww78gd2n9xadfdyxr50430d3hwz59c4hhjaq5qyh
@@ -110,7 +110,7 @@ u12vp85edmrkqy9uvall4wqqn2s9fx8nm5phsxu2nyme5yh8hn5xh8mv3qgunynskjy3t0w89234a83r
 
 [Linktree](https://linktr.ee/Papelesacolor)
 
-**Zcash Unified Address** 
+**Ενοποιημένη διεύθυνση Zcash** 
 
 ```
 u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykaxrsdraepu08qhu5f6e3udmpl72a8vtsclwwvx9ux2mmk5jyy83asu5957pwac07jhmpgn7unz96dljetqylp34l5mvj3grjwqm7wmdxgcyehhnntafrl5r727klaklt29lykvg
@@ -140,7 +140,7 @@ u1u7unmxgr6efh0l94hz0ag6zku4rjeuuarhql5xsnt744e2lu0dsmhrye5a6mlahw067atgh6x0ykax
 
 [Instagram](https://instagram.com/emprendedorasdigitalesve) |  [Πλατφόρμα](https://twitter.com/EmpreDigiVE) | [Telegram](https://t.me/emprendedorasdigitalesve) | [LinkedIn](https://www.linkedin.com/company/emprendedorasdigitalesve/) 
 
-**Unified Address:** 
+**Ενοποιημένη διεύθυνση:** 
 
 ```
 u14g5wzyan35s5fq4glf7hsf0wteuskr3dgfs25wkr2tk5dq6sqrfpq8pqmme5yp7c3eq42tlssgv5hw7def5anezwzgyp857uw2gjjk7zwxdz9p6m8uxg05mhsgwxnxndn42k4mxmxftuqpmvet4vl7uf8a0m5q2e65lwyl8fq0425ys6ny8un6g5j07t0vxlwauhps605zypydl9h44
@@ -207,7 +207,7 @@ u1l2lxdx2en962h3utm24fthm0r9q5cxc4705jeatq4lckm92k06htdk8jear9tsay7w8xz4najnv0mp
 
 [Instagram](https://instagram.com/karinbeautystudio) 
 
-**Unified Address:** 
+**Ενοποιημένη διεύθυνση:** 
 
 ```
 u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g9hqqk07m9eff222ljyg9ge2d7upx9ycr9lqzmwmww05npwypmw5t2cvt32tnuylnud4qts3hq2af5w50t3czatklrv5f7spwpfasjdr3rm7qpklpmvv5fc5vpl2spyysvvwra
@@ -231,7 +231,7 @@ u1nvhfur5lruk4lzy7v5j4wqs65rvslk7tvgxvcjpe7f8u08vjs98rsg9sralpnwgzzkevtr6k2flh7g
 
 [Instagram](https://instagram.com/coronadebrillitos) 
 
-**Zcash Unified Address** 
+**Ενοποιημένη διεύθυνση Zcash** 
 
 ```
 u154h5wxyqf5lr4hdraqzc2n8x8398x6u95km2z7ryx8k5tdpjym59xqvlz54kq6pd96q5xrsxrmtcpl886s3kayxzfy4lhhdegr2a9ahghtuv9gwgc74wc6xf7p48gktq065nxzgvyvt7ka3jm0nzm8skydyjp8n2s47wu769j87f9vk84gz6mxzvrfjzm09m2zew80msv7efueeltfx
@@ -265,7 +265,7 @@ Free2Z | [Telegram](https://t.me/Lexihel) | [YouTube](https://youtube.com/@tecno
 
 Το Tecnopapapi δέχεται κρυπτονομίσματα (συμπεριλαμβανομένου του 3ZEC) και άλλες μεθόδους πληρωμής. 
 
-**Unified Address**
+**Ενοποιημένη διεύθυνση**
 
 ```
 u1sa0tnr9ac7ul8ad3ftdk4pgcxuq8j9vagjwz7apf8lylryhhklu4j68745trlga62a68qtfaqllmmdpv6zghw560qgzgughejre4ekmqvzf6agtu82a8qx2s3nj3gu50ye6r06rce595rvp0k4t28ecn5kzqu53q99guuzmrej94hr4u6l34rctvwsyzdhtq2ap070qrnvcwg4tgj66
@@ -283,7 +283,7 @@ Altos Mirandinos, Valles. del Tuy, Guarenas, Guatire, La Guaira, Διεθνές 
 
 Ο κ. Mendoza δείχνει το πορτοφόλι zingo του. | Φωτογραφία: Edickson Gonzalez 
 
-**Zcash Unified Address:**
+**Ενοποιημένη διεύθυνση Zcash:**
 
 ```
 u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kstdfjnwz2d34w5ahjeae7hvag73mf3t3ect7qcuxd6yycgzwu8pchhqu23m4cmkezrxtcvzdxc7a7n4xkcqqkzwrtudzsmd947dgg0am974me4cwedn0pp7xchpqwr0n6y9uc32
@@ -353,7 +353,7 @@ u10jd0tcj24p9rcju047lymtp9nx38h90j09rnr4ru6e8476822saywgn6phe373q78myrf2ew2j6kst
 
 (Σύντομα στο [free2z.cash](http://free2z.cash). )
 
-**Zcash Unified Address** 
+**Ενοποιημένη διεύθυνση Zcash** 
 
 ```
 u10wuf4pauet00u3n4sp7l0jjer28stp5l8q3peq4ffrpvhfm0zn8up3xwewy64fyeps6r6ctv3yfmwvrrnrsseet3ety9aj48kqk52el0m0xee87t87fu86wtxq357gxz2j978rgyy799pex3amwhtc3mt2yz544tn6dcqcq48sy2lvsfp2vqjhe9skchgpgsqzjnhcnflhe2w2l465s

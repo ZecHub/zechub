@@ -2,124 +2,123 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ta Nyatakakadzraɖoƒe aɖe ɖe IPFS dzi 
+# Ɖe Website ɖe IPFS dzi 
 
 ![](/content-images/IPFS-40c2e22732.webp)
 
-## IPFS ƒe ŋgɔdonya 
+## Nyaɖeɖe tso IPFS ŋu 
 
-IPFS (InterPlanetary File System) nye hatiwo ƒe ɖoɖo kple network si wowɔ be woawɔ mɔnu si woɖe ɖe vovo si dzi woato adzra faɛlwo ɖo ahama wo. 
+IPFS (InterPlanetary File System) nye peer-to-peer protocol kple network si wo wɔ be wòawɔ mɔ ha nuɖo agni [decentralized] na filewo ƒe dzadzra kple mama. 
 
-To vovo na internet ƒe client-server ƒe kpɔɖeŋu si wozãna tsã la, IPFS ɖea mɔ na ezãlawo be woama faɛlwo kple wo nɔewo tẽ, tsɔ wu be woaɖo ŋu ɖe dɔwɔƒe si le titina ŋu be wòadzra nyatakakawo ɖo ahama wo. 
+Vovototo le internet ƒe client-server model blema la kple IPFS dome elabena IPFS na mɔ ezãlawo be woama filewo na wo nɔewo tẽ, ɖe woate ŋu akpɔ server aɖe si wozu ɖoƒe ɖeka na nuwo ƒe dzadzra kple mama dzi o. 
 
-Wozãa *content-addressing* tsɔ ɖoa ​​adrɛs na faɛl siwo le IPFS me, si fia be wonaa hash tɔxɛ alo CONTENT IDENTIFIER (CID) faɛl ɖesiaɖe si wotu ɖe eƒe emenyawo dzi, eye wozãa hash sia tsɔ xɔa faɛl la tso network la me.
+Wona IPFS me filewo ƒe gaɖoƒe ƒe dzesi [address] kple *content-addressing*, si fia be wona hash tɔxɛ kple CONTENT IDENTIFIER (CID) na file sia file tso eƒe emetsonu me, eye wozã hash sia be woatsɔ afɔ file la le network la me.
 
-Ne zãla aɖe tsɔ faɛl aɖe kpe ɖe IPFS ŋu la, womaa faɛl la ɖe akpa sue siwo woyɔna be blocks me, eye wonaa CID block ɖesiaɖe. Emegbe wodzraa block siawo ɖo ɖe node vovovowo dzi le network la me, ale be woate ŋu axɔ faɛl la tso teƒe geɖe bɔbɔe. 
+Ne ezãla aɖe tsɔ file aɖe ɖe IPFS me la, woma file la akɔ ɖe akpa suewo si woyɔ be gaɖoɖowo ƒuƒoƒe [blocks], eye wona CID na gaɖoɖowo ƒuƒoƒe sia sia. Wodzra gaɖoɖowo ƒuƒoƒe siawo ɖe ɣaɣla dzesi ŋɔŋlɔ [node] vovovowo dzi le network la me, ale be woate ŋu afɔ file la bɔbɔe tso teƒe geɖewo. 
 
-Esia kpɔa egbɔ be wowɔa dɔ geɖe wu eye woɖea mɔ ɖe vodadawo ŋu esime wònana wòsesẽna hã be node ɖeka ɖesiaɖe nazu kpododonu alo dziɖuɖu ƒe teƒe ɖeka. 
+Esia nana be nuwo ƒe kopiwɔwɔ kple mɔɖeɖe le vodada me nanɔ anyi, eye wònana be ɣaɣla dzesi ŋɔŋlɔ ɖeka manɔ anyi abe vodada kple kontrol ƒe teƒe ɖeka ene o. 
 
-Xlẽ [IPFS ƒe ŋgɔdonya aɖe](https://blog.infura.io/post/an-introduction-to-ipfs)
-
-
-
-## Wò Nyatakakadzraɖoƒea wɔwɔ 
-
-Le kpɔɖeŋu sia ta la míele nyatakakadzraɖoƒe bɔbɔe aɖe wɔm. 
-
-[Kpɔɖeŋu Nyatakakadzraɖoƒe](https://squirrel.surf)
-
-
-**Afɔɖeɖe 1:** Ne mènya web design o la, ŋlɔ nya vevi siwo le wò nyatakakadzraɖoƒea si me Tanya, Main Body of text hã le, kple kadodo siwo yi axa bubuwo/nyatakakadzraɖoƒe & afɔtiwo gbɔ.
-
-**Afɔɖeɖe 2:** Zã [HTML ƒe nɔnɔmetata!](https://nicepage.com/html-templates) Kpe nuŋɔŋlɔ si nèŋlɔ la ɖe edzi. Tiatia be nàwɔ .CSS ƒe atsyãgbalẽ hã na wò nyatakakadzraɖoƒea. 
-
-**Afɔɖeɖe 3:** Dzra wò agbalẽdzraɖoƒea ɖo. Ele be .html axawo + nɔnɔmetatawo katã nanɔ Folder ɖeka me. 
+Xlẽ [Nyaɖeɖe tso IPFS ŋu](https://blog.infura.io/post/an-introduction-to-ipfs)
 
 
 
-## Node aɖe ɖoɖo anyi
+## Wò Site ƒe Wɔwɔ 
 
-Wɔ IPFS ƒe kɔpi eye nàdae ɖe wò kɔmpiuta dzi tso [Official website](https://docs.ipfs.tech/install/ipfs-desktop/).
+Le kpɔɖeŋu sia me la, míele website bɔbɔe aɖe wɔm. 
+
+[Kpɔɖeŋu Site](https://squirrel.surf)
+
+
+**Afɔ 1:** Ne mènya web design nyuie o la, ŋlɔ emetsonu vevi na wò website, si me Title, nuŋlɔŋlɔ vevi, linkwo ɖe axa bubuwo/site bubuwo kple footerwo le.
+
+**Afɔ 2:** Zã [HTML template!](https://nicepage.com/html-templates). Tsɔ nuŋlɔŋlɔ si nèŋlɔ la de eme ɖe eƒe teƒewoe. Wòate ŋu awɔ .CSS stylesheet hã na wò website, ne wòdi. 
+
+**Afɔ 3:** Dzra wò directory ɖo. Ele be .html axa katã kple aworanwo nanɔ Folder ɖeka me. 
+
+
+
+## Ɣaɣla dzesi ŋɔŋlɔ ƒe ƒoƒo
+
+Wɔ download eye nàɖo IPFS tso [Website nyateƒe](https://docs.ipfs.tech/install/ipfs-desktop/) dzi.
 
 
 
 ### Dze IPFS gɔme: 
 
-Ne èle Desktop Application zãm la, mahiã be nàdze egɔme o. 
+Ne èzã Desktop Application la, mele be nàdze egɔme o. 
 
-Zã Terminal alo sedede ƒe nyatakakadzraɖoƒea, Run command: <mark>ipfs ƒe gɔmedzedze </mark>. 
+Ne èzã Terminal alo command prompt la, wɔ command sia: <mark>ipfs init </mark>. 
 
 
 
-**Tsɔ Site Folder kpe ɖe IPFS ŋu**: 
+**Tsɔ Site Folder de IPFS me**: 
 
-Tia agbalẽdzraɖoƒe si me wò nyatakakadzraɖoƒea ƒe faɛlwo le eye nàyi Add Folder ƒe tiatia la dzi.
+Tia folder si me wò website ƒe filewo le, eye nàyi Add Folder option la gbɔ.
 
 ![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
-Ne èle Terminal zãm la, Run ƒe sedede: <mark>ipfs add -r "agbalẽdzraɖoƒe ƒe ŋkɔ".</mark> be woatsɔ agbalẽdzraɖoƒe bliboa akpe ɖe IPFS ŋu zi gbɔ zi geɖe.
+Ne èzã Terminal la, wɔ command sia: <mark>ipfs add -r "folder_name"</mark> be nàtsɔ folder blibo la ade IPFS me le mɔ si me wòatsɔ akpaawo katã adze anyi.
 
+### Ɖe Site la ɖe IPFS dzi: 
 
-### Pin Site le IPFS dzi: 
-
-Ne wonya tsɔ wò nyatakakadzraɖoƒe ƒe faɛlwo kpe ɖe IPFS ŋu ko la, ele be nà **pin** wo be nàkpɔ egbɔ be wogale network la dzi.
-
---
-
-Ne èle Terminal zãm la, Run sedede: Ne èle Terminal zãm la, Run sedede: <mark>ipfs pin tsɔ "hash" kpee.</mark> 
-
-"hash" = CID na agbalẽdzraɖoƒe si nètsɔ kpe ɖe eŋu le afɔɖeɖe si do ŋgɔ me.
-
-
-Alo, àte ŋu atsɔ dɔwɔƒewo abe [Pinata](https://pinata.cloud) alo [Dolpin](https://dolpin.io)
-
-Eɖea ɣeyiɣi geɖe dzi kpɔtɔna! 
+Ne wotsɔ wò website ƒe filewo de IPFS me vɔ la, ele be nà**pin** wo be wòakpɔ edzi be woanɔ anyi le network la me.
 
 --
 
-### Yi wò nyatakakadzraɖoƒea le IPFS dzi: 
+Ne èzã Terminal la, wɔ command sia: <mark>ipfs pin add "hash"</mark> 
 
-Wota wò nyatakakadzraɖoƒea ɖe IPFS dzi fifia eye woate ŋu azã hash si le agbalẽdzraɖoƒea atsɔ age ɖe eme. Ne èdi be yeage ɖe wò nyatakakadzraɖoƒea la, àte ŋu ayi https://ipfs.io/ipfs/"hash" 
-
-"hash" = CID si le agbalẽdzraɖoƒea.
-
-Le míaƒe nya me la, CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3".
+"hash" = CID na folder si nètsɔ de eme le afɔ si va yi me.
 
 
-## IPNS ƒe dɔwɔwɔ 
+Ke boŋ wòate ŋu aɖe directorywo hã ɖe dzi kple subɔsubɔwo abe [Pinata](https://pinata.cloud) alo [Dolpin](https://dolpin.io) ene
 
-Interplanetary Naming System (IPNS) na be nàte ŋu awɔ IPFS CID siwo do ƒome kple wò nyatakakadzraɖoƒea yeyee eye nàgasubɔ kadodo si meʋãna o kokoko. Wotsɔe na abe safui ene. 
+Eɖe gaƒoƒo geɖe! 
+
+--
+
+### Ge ɖe wò website me le IPFS dzi: 
+
+Wò website la ɖe IPFS dzi fifia, eye wòate ŋu age ɖe eme kple folder la ƒe hash. Be nàge ɖe wò website me la, wòate ŋu ayi https://ipfs.io/ipfs/"hash" 
+
+"hash" = Folder la ƒe CID.
+
+Le míatɔ ƒe nɔnɔme me la, CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
+
+
+## IPNS 
+
+Interplanetary Naming System (IPNS) na mɔ wò be nàtrɔ IPFS CID siwo wotsi kple wò website la, eye nàɖe link ɖeka si metsrɔna o afia. Wonae abe key ene. 
 
 ![](/content-images/dns-query.a0134a75-9ef7817f80.webp)
 
-Le ɖoɖowo ƒe nyawo me na wò nyatakakadzraɖoƒea foldre le IPFS kplɔ̃dzi dɔwɔnu dzi tia Ta ɖe IPNS. 
+Le settings menu na wò site foldre le IPFS desktop application me la, tia Publish to IPNS.  
 
 ![](/content-images/IPNS-2fe62cc369.webp)
 
-Safui: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n".
+Key: "k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n"
 
-Woate ŋu azãe hã atsɔ akpɔ míaƒe nyatakakadzraɖoƒea to agbo aɖe dzi: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
+Wòate ŋu azãe hã be wòakpɔ míatɔ ƒe site la to gateway aɖe dzi: https://ipfs.io/ipns/k51qzi5uqu5di670a6uxywo17b2be1eyhoa2cl0qlwpfxn5p9ypcu8jbzgnj4n
 
 
-## DNS ƒe Kadodo 
+## DNS Link 
  
-Wowɔ nyatakakadzraɖoƒea, fifia míehiã mɔnu aɖe si dzi míato afia URL aɖe ɖe emenyawo ŋu. 
+Woɖo site la vɔ, fifia ele be míakpɔ mɔ si woatsɔ atia URL ɖe emetsonu la ŋu. 
 
-Ne web adrɛs le asiwò xoxo la, àteŋu atsɔ nuŋlɔɖi yeye akpe ɖe eŋu to TXT nuŋlɔɖi "_dnslink(your domain)" zazã me. Le provider nu la, ate ŋu auto populate. 
+Ne xɔ web gaɖoƒe ƒe dzesi aɖe xoxo la, wòate ŋu akpe ɖe record yeye aɖe ŋu kple TXT record "_dnslink(your domain)". Eya ate ŋu aɖe eɖokui ɖe eme le provider la ƒe kpekpeɖeŋu nu. 
 
 ![](/content-images/example-c2a9edb28b.webp)
 
-Axɔ ɣeyiɣi hafi nàkakae to network la dzi hafi nàte ŋu akpɔe. 
+Ehiã ɣeyiɣi be wòaɖo ɖe network la katã me hafi nàte ŋu akpɔe. 
 
-Míele kafuwòm! Èɖo nyatakakadzraɖoƒe aɖe si me woɖea mɔ ɖe nu ŋu le. 
+Míele wò dzi! Èɖo website si womeate ŋu awɔ dɔ vɔ̃ ɖe eŋu bɔbɔe o. 
 
 
-**Nunɔamesiwo**
+**Nuŋkɔwo**
 
-[IPFS ƒe Nuŋlɔɖiwo](https://docs.ipfs.tech)
+[IPFS ƒe Dokumentiwo](https://docs.ipfs.tech)
 
-[IPNS ƒe Nuŋlɔɖiwo](https://docs.ipfs.tech/concepts/ipns/)
+[IPNS ƒe Dokumentiwo](https://docs.ipfs.tech/concepts/ipns/)
 
-[DNS ƒe kadodo Docs](https://dnslink.io/#introduction)
+[DNS link ƒe Dokumentiwo](https://dnslink.io/#introduction)

@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/GrapheneOS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Graphene OS
 
-## Συνοπτικά
+## Με λίγα λόγια
 
 - Το **GrapheneOS** είναι ένα μη κερδοσκοπικό, ανοιχτού κώδικα λειτουργικό σύστημα για κινητές συσκευές, εστιασμένο στην ιδιωτικότητα και την ασφάλεια, με πλήρη συμβατότητα με καθημερινές εφαρμογές Android
 - Βασικά πλεονεκτήματα: ενισχυμένο sandbox εφαρμογών, κώδικας ασφαλής ως προς τη μνήμη και mitigations εκμεταλλεύσεων, επαληθευμένη εκκίνηση με υποστήριξη υλικού, λεπτομερή δικαιώματα και προστασία της θύρας USB-C όταν η συσκευή είναι κλειδωμένη

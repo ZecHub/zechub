@@ -4,7 +4,7 @@
 
 # Arborist Calls
 
-As Arborist Calls da Zcash são reuniões recorrentes de desenvolvimento do protocolo, focadas no planeamento de atualizações da rede, no trabalho de implementação de nós de consenso, nas dependências de wallets e infraestruturas, e na investigação do protocolo.
+As Arborist Calls do Zcash são reuniões recorrentes de desenvolvimento do protocolo, focadas no planejamento de atualizações da rede, no trabalho de implementação de nós de consenso, nas dependências de carteiras e infraestrutura, e na pesquisa do protocolo.
 
 A página oficial das Arborist Calls é mantida pela Zcash Foundation:
 
@@ -20,33 +20,33 @@ A página oficial das Arborist Calls é mantida pela Zcash Foundation:
   </a>
 </p>
 
-## Como Participar
+## Como participar
 
-As chamadas alternam entre dois horários recorrentes para que contribuintes de diferentes regiões possam participar. Utilize a página oficial da Zcash Foundation para obter os ficheiros de calendário atuais e os links do Zoom:
+As chamadas alternam entre dois horários recorrentes para que colaboradores de diferentes regiões possam participar. Use a página oficial da Zcash Foundation para obter os arquivos de calendário atuais e os links do Zoom:
 
 - **15:00 UTC** horário
 
 
-A página da Foundation é a fonte de verdade para links de registo, ficheiros de calendário e acesso à reunião, porque os links das reuniões podem mudar.
+A página da Foundation é a fonte de referência para links de registro, arquivos de calendário e acesso à reunião, porque os links das reuniões podem mudar.
 
-## Notas, Agendas e Gravações
+## Notas, agendas e gravações
 
 - Agendas completas e atas: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- Arquivo pesquisável nesta wiki: [Arborist Calls arquivo](/arborist-calls)
-- Gravações recentes: [Zcash lista de reprodução de Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Discussão de I&D: [Zcash I&D Discord](https://discord.gg/xpzPR53xtU)
-- Discussão aprofundada: [Zcash Fórum da Comunidade](https://forum.zcashcommunity.com/)
+- Arquivo pesquisável nesta wiki: [Arquivo das Arborist Calls](/arborist-calls)
+- Gravações recentes: [Lista de reprodução das Arborist Calls do Zcash](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- Discussão de P&D: [Discord de P&D do Zcash](https://discord.gg/xpzPR53xtU)
+- Discussão aprofundada: [Fórum da Comunidade Zcash](https://forum.zcashcommunity.com/)
 
-## Quem Deve Participar
+## Quem deve participar
 
 As Arborist Calls são úteis para:
 
-- Engenheiros e investigadores de protocolo
-- Programadores de nós, wallets, SDKs e infraestruturas lightwallet
-- Beneficiários de bolsas cujo trabalho envolva consenso, atualizações de rede ou dependências do protocolo
-- Membros da comunidade que queiram acompanhar a tomada de decisões técnicas em público
+- Engenheiros e pesquisadores de protocolo
+- Desenvolvedores de nós, carteiras, SDKs e infraestrutura lightwallet
+- Beneficiários de subsídios cujo trabalho envolva consenso, atualizações da rede ou dependências do protocolo
+- Membros da comunidade que queiram acompanhar a tomada pública de decisões técnicas
 
-## Playlist
+## Lista de reprodução
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

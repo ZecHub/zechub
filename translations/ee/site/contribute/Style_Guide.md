@@ -1,50 +1,50 @@
-# ZecHub ƒe Atsyã Mɔfiame
+# ZecHub Ƒe Ŋlɔnu ƒe Nɔnɔme Ƒe Fiafia [Style Guide]
 
-ZecHub ƒe atsyã le bɔbɔe eye woate ŋu ate ɖe eŋu. Míexɔa amesiame nyuie eye míetsɔa míaƒe susu ɖoa Zcash nutoa me tɔwo ŋu.
+ZecHub ƒe ŋlɔnu ƒe nɔnɔme le bɔbɔe eye ame sia ame ate ŋu axlẽe bɔbɔe. Míewɔ dzidzɔ na ame sia ame, eye míetsɔ míaƒe ŋku ɖo Zcash ƒe nutoa dzi.
 
-## Gɔmeɖosewo
+## Gbedasiwo [Principles]
 
-1. **Dzra ɖo be yeakpe ɖe ame ŋu** - Ðee fia Zcash zãlawo be míele woƒe akpa dzi.
+1. **Le klalo be nàkpe ɖe ame ŋu [Ready to assist]** - Fia na Zcash zãlawo be míele woƒe gbɔ.
 
-2. **Kpuie eye wòɖo nya la gbɔ:** Gblɔ gbedasi bɔbɔetɔ kekeake si nàte ŋui. Dze egɔme kple nya vevitɔ kekeake.
+2. **Kpui eye nàɖo eƒe nyateƒe [Brief and to the point]:** Gblɔ nyasaɖa si bɔbɔe wu si nàte ŋu. Dze egɔme kple nu si le vevie wu.
 
-3. **Zãla-tsi dzi:** Míeŋlɔa nu na zãlawo gbã, dɔwɔlawo evelia, eye ame bubu ɖesiaɖe etɔ̃lia.
+3. **Zãla ƒe hiãhiã me nɔ [User-centered]:** Míeŋlɔ na zãlawo gbã, na mɔ̃ ƒe ɖoɖoŋlɔlawo evelia, eye na ame bubuawo etɔlia.
 
-## Gɔmeɖosewo
+## Gɔmedzedze [Basics]
 
-- **Tsɔ nya la gbɔ**. Dze egɔme kple nya vevitɔ kekeake. Front-load nya veviwo na skimming. Na zãla ƒe tiatia kple afɔɖeɖe siwo kplɔe ɖo me nakɔ.
+- **Ɖo eƒe nyateƒe [Get to the point]**. Dze egɔme kple nu si le vevie wu. Tsɔ nya veviwo ɖo ŋgɔ be ame nate ŋu akpɔ wo kaba. Na zãla ƒe tiatiawo kple afɔɖewo nanɔ kɔ.
 
-- **Ŋlɔ nu abe alesi nèƒoa nu ene**. Míaƒe zãlawo nye ame ŋutɔŋutɔwo. Ƒo nu kpli wo le agbalẽ me.
+- **Ŋlɔ ale si nàgblɔe [Write like you speak]**. Míatɔ zãlawo nye amegbetɔwo vavã. Ɖo nu na wo to ŋlɔŋlɔ me.
 
-- **Nya kpuie**. Na nyatakaka si sɔ ezãlawo be woakpɔ kuxi aɖe gbɔ alo awɔ tiatia aɖe.
+- **Nànɔ kpui [Be brief]**. Na nyanya si sɔ be zãlawo nakpɔ be woaɖɔ kuxi aɖe ɖe eme alo woatia nu aɖe.
 
-- **Tsi ɣeyiɣiwo le tanyawo me**. Ðe nuwuƒe ƒe dzesidenu si le tanyawo, tanyawo, tanya suewo, UI ƒe tanyawo dzi, eye nàŋlɔ nusiwo me nya etɔ̃ alo esi mede nenema o le. Wozãa ɣeyiɣiwo le memamawo kple ŋutilã ƒe kɔpi me.
+- **Mègatsɔ full stop le tanya me o [Skip periods in titles]**. Ɖe esia ɖa le tanya, ta, tanya sue, UI ƒe tanya, kple list ƒe nu siwo me nya etɔ alo si wu menɔ o ƒe nuwuwu. Wotsɔ full stop le kpuiewo kple ŋlɔnu ƒe ŋutilã me.
 
-  - Kpɔɖeŋuwo: Zi Send ƒe dzesi dzi->Zi Send ƒe dzesi dzi
+  - Medewo: Zi Send ƒe button dzi->Zi Send ƒe button dzi
 
-- **Ne ɖikeke le ŋuwò la, ƒo asa na ŋɔŋlɔdzesi gãwo**. Ŋkɔnya ŋutɔŋutɔwo alo ŋkɔwo abe Zcash ene, kpakple tanya alo nyagbe ƒe nya gbãtɔ koe nàŋlɔ kple ŋɔŋlɔdzesi gãwo.
+- **Ne mèka ɖe edzi o la, mègaɖo ŋlɔdzesiwo ƒe gãgã o [When in doubt, avoid capitalization]**. Ɖo ŋlɔdzesi gã na ŋkɔ vavãwo alo ŋkɔwo abe Zcash ene ko, kple tanya alo nyagblɔɖi ƒe nya gbãtɔ.
 
-  - Examples: How to Send ZEC with Unified Address. → How to send ZEC with unified address
+  - Medewo: Aleke nàaɖo ZEC ɖa kple Unified Address. → Aleke nàaɖo ZEC ɖa kple unified address
 
-- **Gbugbɔ ŋlɔ nuŋɔŋlɔ si gbɔdzɔ**. Zi geɖe la, tsɔ dɔwɔnya dze nya ɖesiaɖe gɔme. Àte ŋui eye ele be woagbugbɔ ŋku alé ɖe wo ŋu.
+- **Gaŋlɔŋlɔ gbɔgbɔ [Rewrite weak writing]**. Zi geɖe la, dze nyagblɔɖi sia kple wɔwɔnya aɖe. Ele te ŋu be kple wonɔ wo ate ŋu awɔ tɔtrɔ le wo me.
 
-  - Kpɔɖeŋuwo: Àte ŋu aɖo ZEC ɖa ahaxɔe tso wò asitelefon dzi->Ðo ZEC ɖa eye nàxɔe kple wò telefon
+  - Medewo: Àte ŋu aɖo ZEC ɖa eye nàxɔe tso wò mobail telefon me->Ɖo ZEC ɖa eye nàxɔe kple wò telefon
 
-- **Mèganye spacey o**. Zã teƒe ɖeka ko le dzinukpɔkpɔ kple eve megbe.
+- **Mègatsɔ teƒe geɖe o [Don't be spacey]**. Tsɔ teƒe ɖeka ko le full stop kple colon megbe.
 
-- **Ƒo asa na nya siwo menye Eŋlisigbe me tɔ o** abe de facto alo ad hoc ene. Ƒo asa na Eŋlisigbe me nyagbe siwo bɔ ƒe kpukpui siwo wozãna le latingbe me.
+- **Ɖe asi le nya siwo menye English o ŋu [Avoid non-English words]** abe de facto alo ad hoc ene. Ɖe asi le Latin ƒe abidada siwo tsɔ nyaaŋlɔwo ƒe English nyagblɔɖiwo nɔ ŋu.
 
-    | Zã esia | Le esia teƒe la, |
+    | Tsɔ esia | Le esia ƒe teƒe |
     |-------------|-----------------|
-    | le kpɔɖeŋu me | e.g.            |
-    | si nye | i.e. |
+    | le kpɔɖeŋu me | e.g. |
+    | esiae nye | i.e. |
 
-## Tweets ƒe nyawo
+## Tweets
 
-> Atsyã ƒe mɔfiame gbadza sia nye nyatiwo alo zãla ƒe mɔfiamewo ŋɔŋlɔ na ZecHub. Eku ɖe tweet kple nya kpui bubuwo hã ŋu: na woanɔ kpuie, tsɔ nya la de ŋgɔ, eye nàdzo le nuwuƒe ƒe nuŋɔŋlɔmedzesiwo dzi le fli kpuiwo dzi.
+> Nɔnɔme ƒe fiafia sia le gbogbɔ me la nye be woaŋlɔ article alo zãla ƒe fiafia na ZecHub. Eƒe sewo wɔ dɔ na tweets kple nyagblɔɖi kpui bubuawo hã: na woanɔ kpui, tsɔ nu vevi wu ɖo ŋgɔ, eye mègatsɔ nuwuwu ƒe dzesi le fli kpuiwo me o.
 
 ---
 
 <small>
-ZecHub style guide is adapted from <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Writing Style Guide</a> with modifications. Consult Microsoft guide when you need to.
+ZecHub ƒe nɔnɔme ƒe fiafia wotsɔe tso <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Ŋlɔnu ƒe Nɔnɔme Ƒe Fiafia</a> me eye wowɔ tɔtrɔwo le eŋu. Ɖe asi le Microsoft ƒe fiafia ŋu ne èhiãe.
 </small>

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zallet_Quick_Reference_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Οδηγός γρήγορης αναφοράς Zallet
@@ -395,7 +395,7 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 
 | Παράμετρος         | Τύπος   | Απαιτείται | Περιγραφή                         |
 |-------------------|--------|------------|-----------------------------------|
-| unified_address   | string | ναι        | Unified Address προς επιθεώρηση   |
+| unified_address   | string | ναι        | Ενοποιημένη διεύθυνση προς επιθεώρηση   |
 
 ---
 
@@ -474,7 +474,7 @@ zallet rpc z_viewtransaction '"<txid>"'
 
 ## Σχετικές σελίδες
 
-- [Οδηγός μετεγκατάστασης: zcashd σε Zebrad και Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — βήμα προς βήμα μεταφορά από υπάρχουσα εγκατάσταση zcashd
+- [Οδηγός μετάβασης: zcashd σε Zebrad και Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — βήμα προς βήμα μεταφορά από υπάρχουσα εγκατάσταση zcashd
 - [Πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node) — η υλοποίηση κόμβου με την οποία λειτουργεί το Zallet
 - [Πλήρεις κόμβοι](/zcash-tech/full-nodes) — τι συνεπάγεται η εκτέλεση ενός πλήρους κόμβου και γιατί μπορεί να θέλεις έναν
 - [Πορτοφόλια](/using-zcash/wallets) — ελαφρύτερες επιλογές πορτοφολιού, αν ένας πλήρης κόμβος είναι περισσότερος από όσο χρειάζεσαι

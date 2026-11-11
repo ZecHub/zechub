@@ -1,58 +1,58 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Verifying_Zcash_Releases.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aɖe Axɔ"/>
 </a>
 
-# Zcash Gɔmeɖeɖewo Dzɔdzɔdzɔmesewo Dodokpɔ
+# Zcash Ƒe Tatawo Ƒe Ɖaseɖiɖi
 
 ## TL;DR
 
-- Menye nu ɖeka aɖe koe wònye be nàɖe Zcash ƒe nuŋlɔɖi si le Internet dzi la ɖe go o. Alesi nèwɔe nye alesi nàwɔ akpɔ vovototoa adze sii nyuie wu.
-- Ne èŋlɔ nu siwo katã le agbalẽa me la, àkpɔe be wo dometɔ aɖewo nye esiwo ŋu wòhiã vevie wu. - g09 04-E.
-- Zebra ɖe agbalẽ aɖe si me nyawo le la ɖe go. `SHA256SUMS` file plus a **Sigstore** bundle that ties the release to a specific GitHub Actions workflow, tag and commit  key management mehiã o.
-- Zallet ta GPG ƒe asinuŋɔŋlɔgbalẽwo (`.asc`) tsɔ kpe ɖe SLSA ƒe afi si wòtso kple SBOM ŋu.
-- Zcash ƒe asiɖetukpa trɔ le 2026 tso Electric Coin Company yi Zcash Open Development Lab (ZODL). Ne èkpɔa nu xoxowo la, àhiã na safui yeye  eye woade asi agbalẽ me kple safu eveawo siaa be nàte ŋu akpɔe ɖa.
-- `gpg` Eɖea **aɖakavi** si de asi agbalẽ aɖe te la fiana, ke menye gbãtɔ ƒe dzesi si woyɔ le nyatakakaa me o. Ne ameŋɔŋlɔgbalẽvia medze nyuie o la, zi geɖe enye aɖiƒomɔ̃ sue aɖe ko, ke Menye amedzidzedzee o.
-- Ne mɔnu sia medze edzi o la, mègawɔ binary-gbalẽa ŋu dɔ o.
+- Zcash binary ƒe kɔɖeɖe mele abe esiwo projekti la dze le gome ene o. Ɖaseɖiɖi nye ale si nàte ŋu aɖe vovototo la.
+- Checksum dea ɖase be file la va de nyuie. **Asidede agbalẽ te [signature]** dea ɖase be ame kae wɔe. Èhiã wo evea, eye checksum ɖeka koe meɖea ɖase geɖe o.
+- Zebra doa `SHA256SUMS` file kple **Sigstore** bundle, si ƒoa tata la kple GitHub Actions workflow, tag kple commit aɖe ɖe te — key ƒe kpɔkpɔ mele be wòawɔ o.
+- Zallet doa **GPG** asidede agbalẽ te siwo woƒo ɖe eŋu (`.asc`) kple SLSA provenance kple SBOM.
+- Zcash ƒe asidede agbalẽ te ƒe key trɔ le 2026 tso Electric Coin Company yi Zcash Open Development Lab (ZODL). Ne nèɖe tata xoxowo ƒe ɖase kpɔ la, èhiã key yeye la — eye handover statement la wode asidede agbalẽ te ɖe eŋu kple key evea, ale nàte ŋu aɖe key ƒe trɔtrɔ la ŋutɔ ƒe ɖase.
+- `gpg` gblɔa **subkey** si de asidede agbalẽ te file aɖe ŋu, menye primary key si woŋlɔ ɖe announcementwo me o. Fingerprint si wòkpɔ abe eƒe nɔnɔ mesɔ o ene la enye subkey zi geɖe, menye attack o.
+- Ne ɖaseɖiɖi la gbã la, megbe binary la o.
 
-*Wotsɔ kpe ɖe Zebra ŋu. `v6.3.0` kple Zallet, `v0.1.0-beta.2` on 2026-08-18.*
+*Woɖe ɖase kpɔ tso Zebra `v6.3.0` kple Zallet `v0.1.0-beta.2` dzi le 2026-08-18.*
 
-## Nu si tae nya sia le vevie na Zcash wu la ŋuti numeɖeɖewo:
+## Nu ka ta esia le vevie wu na Zcash
 
-A tampered wallet binary can exfiltrate a spending key or a viewing key. Unlike a compromised password, that loss is permanent: there is no rollback, no chargeback and no support desk. Shielded transactions protect what happens *on chain* — they offer no protection at all when the software you are running was replaced before it ever reached you.
+Gakotoku [wallet] binary si woɖe asi ɖe eŋu ate ŋu afia gazazãsafui [spending key] alo nukpɔsafui [viewing key] ɖe ame bubu. To vovototo na password si woɖe asi ɖe eŋu la, esia ƒe buabu la nye mamateŋu: trɔtrɔ megale o, gaɖeɖe megale o, eye kpekpeƒe si dea kpe ɖe ame ŋu hã mele o. Ɣaɣla [shielded] gaɖoɖowo [transactions] kpɔa nu si wɔm le *ɖoɖonu dzi [on-chain]* laa — gake woɖea ŋu kpɔɣe aɖeke o ne software si nèle zaza la wotrɔe hafi wòva de asiwò.
 
-Esia nye amedzidzedze ƒe mɔ ʋɛ siwo dzi ɖoɖowɔɖi me nu ɣaɣlawo ŋuti dedienɔnɔ ŋu nyawo mele vevie o la dometɔ ɖeka. Ðɔɖɔɖowɔwɔ ye le eme si nana wòtea ŋu wɔa esiawo katã.
+Esia nye attack ƒe mɔ viwo dometɔ aɖe si me protocol la ƒe ɣaɣla [privacy] ƒe laylayawoa mehia le gbeɖeka o. Ɖaseɖiɖi nye layer si kpɔa eŋu.
 
-## Afɔku ƒe kpɔɖeŋu  nusiwo ŋu woke ɖo le dodokpɔa me kple esiwo dzi womeke ɖo o
+## Attack ƒe model — nu si ɖaseɖiɖi dea kple nu si wòmede o
 
-** Tɔmelã siwo woɖe:**
+**Edea:**
 
-- Wowɔ nu kple nɔnɔmetata si ŋu wotrɔ asi le alo wota agbalẽ aɖe tso teƒe bubu ke menye tso dɔwɔƒea ƒe nyatakakadzraɖoƒea o.
-- Ame si le titina ƒe asiɖeɖe ɖe ame ŋu ne wole wo xɔm.
-- CDN si ŋu wowɔ nu ɖo nyuie alo nyatakakadzraɖoƒe aɖe si dzi woxɔa ame le.
-- Nu gbegblẽ wɔwɔ le mɔ dzi.
+- Mirror si woɖe asi ɖe eŋu alo file si wotrɔ eye wowɔe tso afi aɖe si menye projekti la ƒe release axɔme o.
+- Ame si tsia le download ƒe mɔ dome wɔa ɖɔli ɖɔli [swap].
+- CDN si woɖe asi ɖe eŋu alo distribution host si woɖe asi ɖe eŋu.
+- Nɔnɔ gbegblẽ si dzɔ le mɔ dzi.
 
-**Mele asi ɖe ge o:**
+**Mede o:**
 
-- Ame si wɔa dɔ le asitelefon dzi la dea dzesi nu gbegblẽ siwo wowɔ. Asitɔtrɔ sia ana woakpɔe be eƒe ŋkɔa nye nyateƒe; eɖea ame si wɔ dɔa, ke menye amesi ɖoe o.
-- Aʋawɔwɔ si me afɔku le, eye wòna wowɔ nuŋɔŋlɔ aɖe gake enye vɔ̃ɖivɔ̃ɖi. Esiae nye nusi ŋu woagate ŋu awɔ nuwo ɖo kple afisi wodzɔe tso ƒe ɖaseɖiɖiwo li be woate ŋu akpɔ egbɔ.
-- Ne ame aɖe kpɔ ŋusẽ ɖe nyatakaka si nèŋlɔ kple esiwo dzi wòzãe la siaa dzi la, ekema kpeɖodzi aɖeke meli o.
+- Maintainer si dea asidede agbalẽ te code vɔ̃ ŋu. Asidede agbalẽ te la aɖea ɖase nyuie; ede ɖase be eƒe afi kae wòtso, menye be eƒe taɖodzinu nyo o.
+- Build host si woɖe asi ɖe eŋu wɔa artifact si wode asidede agbalẽ te ɖo, gake wòvɔ̃. Esia tae reproducible builds kple provenance attestations li be woakpɔe ɖe anyi.
+- Key si nèkplɔ tso afi ma ke si woɖe asi ɖe eŋu binary la tso. Ne attack wɔla aɖe le file la kple key si nèle kpɔm ɖe eŋu la evea ƒe dziɖuɖu me la, ɖaseɖiɖi megblɔ naneke na wò o.
 
-Nu mamlɛtɔa nye esi ŋu mɔfiamewo dometɔ akpa gãtɔ ƒoa asa ɖo. ** Afi si nàkpɔ safui le la hã le vevie abe alesi wòate ŋu azã sededea ene.**
+Nu mamlɛtɔ siae nye esi guide geɖewo metsoa o. **Afi si nèkplɔ key la tso le vevie abe command la ƒe wowɔ ene.**
 
 ---
 
-## Akpa 1  Zebra: checksum kple Sigstore
+## Akpa 1 — Zebra: checksums kple Sigstore
 
-Zebra ɖea nu siawo ɖe go le eƒe magazine ɖesiaɖe me:
+Zebra doa asset siawo le release ɖe sia ɖe ta:
 
-| Nunɔamese | Taɖodzi |
+| Asset | Taɖodzinu |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` | nudzraɖoƒe si me nu eve le |
-| `zebrad-<version>-<arch>.tar.gz.sha256` | ɖesiaɖe ƒe faɛl ƒe ɖaseɖigbalẽ |
-| `SHA256SUMS` | checksums na xɔtuɖaŋuwo katã |
-| `SHA256SUMS.sigstore.json` | Sigstore bundle ƒe asidede agbalẽ te `SHA256SUMS` |
+| `zebrad-<version>-<arch>.tar.gz` | binary archive la |
+| `zebrad-<version>-<arch>.tar.gz.sha256` | checksum si le file ɖe sia ɖe ta |
+| `SHA256SUMS` | checksumwo na architecturewo katã |
+| `SHA256SUMS.sigstore.json` | Sigstore bundle si dea asidede agbalẽ te `SHA256SUMS` ŋu |
 
-### Afɔɖeɖe 1  Download
+### Afɔ 1 — Kɔe
 
 ```bash
 BASE=https://github.com/ZcashFoundation/zebra/releases/download/v6.3.0
@@ -61,21 +61,21 @@ curl -sLO $BASE/SHA256SUMS
 curl -sLO $BASE/SHA256SUMS.sigstore.json
 ```
 
-### Afɔɖeɖe 2  Kpɔe ɖa be èkpɔ ga si wotsɔ kpɔ egbɔa hã.
+### Afɔ 2 — Kpɔ checksum la
 
 ```bash
 sha256sum -c --ignore-missing SHA256SUMS
 ```
 
-Nuwɔna ŋutɔŋutɔ:
+Output vavã:
 
 ```
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-`--ignore-missing` wohiã le afisia elabena: `SHA256SUMS` Eɖea mɔ̃ ɖe sia ɖe si le asiwò la me eye ɖeka pɛ ko nèɖe. Ne mele eme o la, màte ŋu akpɔe adze sii gbeɖe o. `sha256sum` le nyatakaka dem tso archiv si mele aarch64 me o ŋu be enye vodada eye àte ŋu axlẽ mɔɖeɖe aɖe abe nusi gblẽ ene.
+`--ignore-missing` hiã le afisia elabena `SHA256SUMS` ku ɖe architecturewo katã ŋu eye wòkɔ ɖeka ko. Ne womewɔe o la, `sha256sum` agblɔ be aarch64 archive si mele o la gbã, eye àte ŋu axɔ be pass aɖe nye fail.
 
-Dɔwɔƒe ɖeka ƒe dɔwɔgbalẽwo hã wɔa dɔ:
+Per-file ƒe tɔ hã wɔa dɔ:
 
 ```bash
 sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
@@ -85,17 +85,17 @@ sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-**Mɔ sia ɖeɖe mesɔ gbɔ o.** Èxɔ numedzodzro la tso teƒe ɖeka kple binary. Ame ɖesiaɖe si ate ŋu axɔ ɖe ame aɖe te la, ate ŋu atsɔ evelia hã aɖo eteƒe. Numedzodzro ƒe kpeɖodzia ɖoa kpe nyateƒenyenye dzi; afɔɖeɖe bubu ɖo kpe dzɔtsoƒe dzi.
+**Afɔ sia ɖeka meɖo o.** Wòkplɔ checksum la tso afi ma ke si binary la tso. Ame si ate ŋu atrɔ ɖeka la ate ŋu atrɔ evelia. Checksum la dea ɖase be file la menɔ vɔ̃ o; afɔ si kplɔe ɖo la dea ɖase eƒe afi.
 
-### Afɔ 2b  Nusia ke ko wòdzroa Windows me hã.
+### Afɔ 2b — Kpɔkpɔ ma ke le Windows dzi
 
-PowerShell me le o. `-c` to mɔ si dzi nàtsɔ adzro nu me le, ale be nàte ŋu atsɔe asɔ kple esi nèwɔ la:
+PowerShell mewɔa `-c` verify mode o, eya ta nèle tsitre nètsɔ asi sɔe:
 
 ```powershell
 Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorithm SHA256 | Format-List
 ```
 
-Nuwɔna ŋutɔŋutɔ:
+Output vavã:
 
 ```
 Algorithm : SHA256
@@ -103,19 +103,19 @@ Hash      : 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 Path      : \\wsl$\Ubuntu\home\briefking\verify\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 
-Tsɔe sɔ kple Linux ƒe dzidzedze si dze le axa sia me:
+Sɔe kple Linux ƒe result si va yi le axa sia me:
 
 ```
 86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e
 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 ```
 
-**Nɔnɔme siwo sɔ.** Hex mefia be nu si wotsɔna dea ga wo o, eye esiae nye aʋatsoɣeyiɣi ɖeka aɖe koŋ le Windows dzi.
+**Asiɖeɖe ma ke.** Hex mekpɔa case o, eye esia nye false alarm si dzɔ akpa geɖe wu le Windows dzi.
 
-Windows-ƒonɔamesi eve bubuwo:
+Windows ƒe trap bubu eve:
 
-- **Menye asiɖeɖe le mɔa dzi ƒe dzesi aɖeke li si míalé ŋku ɖe eŋu o.** Le Linux me la, `sha256sum -c` Etrɔna 1 le vodada me eye nuŋlɔɖi ate ŋu awɔ dɔ ɖe edzi. `Get-FileHash` Ðeko wòŋlɔa nu si woƒo ƒu la ɖi  eye miawoe ate ŋu atsɔe asɔ kple esi me míedzro, gake miate ŋu ada vo le eme to ŋkuléle ɖe eŋu dzi.
-- **Mɔ̃e nye be ame ƒe ŋku mate ŋu axlẽ ŋɔŋlɔdzesi 64 o.** Na aŋutrɔa nawɔ esia:
+- **Exit code aɖeke mele be nàkpɔ o.** Le Linux dzi, `sha256sum -c` trɔna yi 1 ne wògbã, eye script ate ŋu awɔ nu ɖe eŋu. `Get-FileHash` doa hash ko — sɔsɔ la nye tɔwò be nàwɔe, eye nàte ŋu anɔ gbɔe ne nèkɔe kpɔ kpuie.
+- **Hex character 64 ƒe nukpɔkpɔ kple ŋku mekpɔa ŋusẽ o.** Na shell la na wɔe:
 
 ```powershell
 $expected = "86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e"
@@ -123,13 +123,13 @@ $actual = (Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorith
 if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 ```
 
-> **Le macOS dzi:** dɔwɔnawo le ɖeka, gake BSD userland me tɔwoe. `shasum` wu be woagblɔe ko. `sha256sum`  zazã `shasum -a 256 -c --ignore-missing SHA256SUMS`MacOS mele axa sia ŋlɔla si o, eyata woŋlɔa se ma le Apple ƒe dɔwɔnuwo me tsɔ wu be woaƒoe. Ne èkpɔe le macOS dzi la, taflatse ʋu PR aɖe nàtsɔ aɖo kpe edzi alo aɖɔlii.
+> **Le macOS dzi:** Mɔnu la le ale ma kee, gake BSD userland wɔa `shasum` ɖe `sha256sum` teƒe — zã `shasum -a 256 -c --ignore-missing SHA256SUMS`. Axa sia ƒe ŋlɔla mekpɔ macOS mɔ aɖeke o, eya ta woŋlɔ command ma tso Apple ƒe tooling me, menye be wowɔe o. Ne nèɖea ɖase kpɔ le macOS dzi la, taflatse ɖe PR aɖe be nàɖe ɖase alo natrɔe.
 
-### Afɔ 3  Kpɔ Sigstore ƒe nubabla la dzi
+### Afɔ 3 — Ɖe Sigstore bundle ƒe ɖase kpɔ
 
-Sigstore tsɔ nu si me agbe didi le la ɖɔli kple esi ƒe agbenɔƒe nɔa kpuie eye wòdo ƒome kple ame aɖe, siwo dzi wolé ŋku ɖo. Ame aɖeke mekpɔa mɔ be woafi woƒe safui o.
+Sigstore tsɔ certificate siwo nɔa agbe hã me kpui, siwo woƒoa kple CI identity, va ɖe signing key siwo nɔa anyi ɣe didi teƒe, eye wodea wo ɖe public transparency log me. Ame aɖeke mekpɔa release key si woate ŋu aɖu o.
 
-Mɔ si dzi woato awɔ dɔe tẽ la zãa mɔ sia. `cosign`:
+Mɔ bɔbɔe la zãa `cosign`:
 
 ```bash
 cosign verify-blob \
@@ -139,21 +139,21 @@ cosign verify-blob \
   SHA256SUMS
 ```
 
-Wo ame evea siaa. `--certificate-*` flags nye nu vevitɔ. ** Ne womeli o la, ɖeko nèɖo kpe edzi be ame aɖe si le afi aɖe da asi ɖe nyatakaka sia dzi.** Woƒe zazã na nèle eɖem fiae be dɔwɔɖoɖo aɖe si nɔ Zebra ƒe nudzraɖoƒe mee te agbalẽa ɖo eye GitHub OIDC ŋlɔla aɖee to eme hafi de asi ete.
+`--certificate-*` flag evea nye nu si tae wòwɔe. **Ne womeli o la, nèle ɖaseɖiɖi be ame aɖe le afi aɖe de asidede agbalẽ te file la ŋu ko.** Kple wo la, nèle ɖaseɖiɖi be workflow aɖe le Zebra repository me de asidede agbalẽ te eŋu, si GitHub ƒe OIDC issuer dea ɖase.
 
-> ️ ** Version matters.** Xexlẽ ƒe ɖoɖo xoxowo mate ŋu axlẽ Sigstore bundle format si li fifia o. Etsɔ cosign na xlẽa esiwo le etame la `v2.4.1` enana be:
+> ⚠️ **Version le vevie.** Cosign build xoxowo mate ŋu axlẽ Sigstore bundle format yeye o. Ne wowɔ esiwo va yi la kple cosign `v2.4.1` la, wòana:
 >
 > ```
-> Vodada: nuƒlegbalẽvi mele mɔ̃a me o, taflatse na nyatakaka si le amewo katã gbɔ la mí.
+> Error: bundle does not contain cert for verification, please provide public key
 > ```
 >
-> Ðaseɖigbalẽ aɖe le *aƒletɔ* la me  ele ete. `verificationMaterial.certificate.rawBytes`, si nye xoxowo me la mele wo dim o. Esia enye client ƒe seɖoƒe, menye ɖeɖekoe le eme o. Ne èdo edzi la, ɖo cosign dzi tsɔ wu be nàƒo nya ta be downloada gblẽ. Cosign siwo wotsɔna dea asi na amewo zi geɖe nɔa megbe ŋutɔ ne wole nu dem tso eŋu.
+> Certificate le bundle la me vavã — ele `verificationMaterial.certificate.rawBytes` te, si release xoxowo mekpena o. Client ƒe ŋusẽ gbãe nye esia, menye release si gbã o. Ne nèkpɔe la, ƒo cosign yi version yeye teƒe be nàbu be download la vɔ̃. Cosign si woɖoa le distribution package me la nɔa megbe le upstream ŋu zi geɖe.
 
-Afɔ eve siwo kplɔe ɖo la fia alesi woada gbe ɖe nu ɖeka ma ke dzi kple asi, si nyo be woa se le nusianu me  eye enye mɔ nyui aɖe ne wò cosign ƒe wɔwɔme mewɔ dɔ o.
+Afɔ eve si kplɔe ɖo fia ale si nàɖe bundle ma ke ƒe ɖase kple asi, si nyo be nàse gɔme le eŋu ɣe sia ɣi — eye enye mɔ si ate ŋu akpe ɖe wò ŋu ne wò cosign build mete ɖe eme o.
 
-### Afɔ 4  Xlẽ nu si tututu wogblɔ le ɖaseɖigbalẽa me.
+### Afɔ 4 — Xlẽ nu si certificate la gblɔa vavã
 
-Àte ŋu adzro nu siwo le eme la me kpɔna evɔ màtsɔ ɖeke kpe ɖe eŋu o. `cosign`, si nyo na gɔmesese nusi dzi nèle ŋu ɖom ɖo. Ʋu ɖaseɖigbalẽa:
+Àte ŋu akpɔ bundle la me ne `cosign` mele o, si nyo na nu si nèle dziɖuɖu ɖem ɖe eŋu la ƒe gɔmesese. Ɖe certificate la:
 
 ```bash
 python3 -c "
@@ -164,7 +164,7 @@ open('cert.der','wb').write(base64.b64decode(d['verificationMaterial']['certific
 openssl x509 -in cert.der -inform DER -noout -issuer -ext subjectAltName
 ```
 
-Zebra v6.3.0 ƒe dɔwɔwɔ ŋutɔŋutɔ:
+Output vavã na Zebra v6.3.0:
 
 ```
 issuer=O = sigstore.dev, CN = sigstore-intermediate
@@ -172,9 +172,9 @@ X509v3 Subject Alternative Name: critical
     URI:https://github.com/ZcashFoundation/zebra/.github/workflows/zfnd-release-binaries.yml@refs/tags/v6.3.0
 ```
 
-Subject Alternative Name nye ŋkɔ. Eyɔa nuɖanuƒe, dɔwɔmɔnu ƒe nuŋlɔɖi kple dzesi la be Sigstore dea asi bubu me meta datawo ŋu le ɖoɖo bubuwo dzi:
+Subject Alternative Name la nye identity la. Eyae mea repository la, workflow file ŋutɔ, kple tag la. Sigstore dea build metadata bubu ɖe custom extensionwo me:
 
-| Field | Asixɔxɔ na v6.3.0 |
+| Field | Value na v6.3.0 |
 |---|---|
 | OIDC issuer | `https://token.actions.githubusercontent.com` |
 | Source repository | `https://github.com/ZcashFoundation/zebra` |
@@ -184,11 +184,11 @@ Subject Alternative Name nye ŋkɔ. Eyɔa nuɖanuƒe, dɔwɔmɔnu ƒe nuŋlɔɖi
 | Workflow run | `.../actions/runs/31424510487/attempts/1` |
 | Repository visibility | `public` |
 
-Wo dometɔ ɖesiaɖe ate ŋu adzro. Ele be commit hash la nasɔ kple tag si le nudzraɖoƒe; ele be workflow ƒe dɔwɔwɔ nanɔ anyi eye wòanye dutoƒo tɔ.
+Woate ŋu akpɔ esiawo katã ɖe eŋu. Commit hash la ele be wòasɔ kple tag si le repository la me; workflow run la ele be wòanɔ anyi eye wòanye public.
 
-### Afɔɖeɖe 5  Wɔ dzesi si dzi woŋlɔ nu ɖo la ŋuti numekuku le mɔ aɖe nu.
+### Afɔ 5 — Ɖe asidede agbalẽ te la ƒe ɖase kple cryptography
 
-Àte ŋu azã OpenSSL atsɔ aɖɔ asii:
+Àte ŋu akpɔ asidede agbalẽ te la ƒe ɖase tẽ kple OpenSSL:
 
 ```bash
 python3 -c "
@@ -200,57 +200,57 @@ openssl x509 -in cert.der -inform DER -pubkey -noout > pub.pem
 openssl dgst -sha256 -verify pub.pem -signature sig.bin SHA256SUMS
 ```
 
-Nuwɔna ŋutɔŋutɔ:
+Output vavã:
 
 ```
 Verified OK
 ```
 
-Eŋlɔa nusi wòɖo asii hã ɖe agbalẽvi la me. Kae be eɖi mia gbɔ nyatakakawo:
+Bundle la hã ŋlɔ digest si wòde asidede agbalẽ te eŋu. Ɖe ɖase be esɔ kple file si le asiwò:
 
 ```
 bundle digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 ```
 
-### Afɔɖeɖe 6  Nu siwo woŋlɔ ɖe agbalẽ si me nyawo le la ŋuti kɔna nyuie
+### Afɔ 6 — Transparency log ƒe entry
 
-Rekor ƒe nuŋlɔɖi aɖe le nubabla la me si ɖo kpe edzi be woɖe asi le agbalẽa ŋu ɖe dutoƒo, eye eƒe akpa aɖewo koe nye:
+Bundle la tsɔ Rekor entry, si dea ɖase be woɖo asidede agbalẽ te la ɖe public log si woate ŋu atsɔ nu akpe ɖe eŋu ko me:
 
-| Field | Asixᴐxᴐ |
+| Field | Value |
 |---|---|
 | Rekor log index | `2412071838` |
 | Entry type | `hashedrekord v0.0.1` |
-| Integrated at | 2026-08-10 19:43:09 UTC ƒe ɣeyiɣia me |
+| Integrated at | 2026-08-10 19:43:09 UTC |
 
-Esiae na be woate ŋu akpɔ nusi nye tofloko ƒe ŋudɔwɔwɔ nyuie. Ŋlɔɖesi si medzɔ kpɔ le nuŋlɔɖi me o, alo eɖe eɖokui fia le ɣeyiɣi manyatalenu aɖe dzi la enye dzesi si ta wòle be woawɔ nu ɖo. Tsɔ ɖekawɔwɔa kple ɖeviawo ɖeɖefia sɔ kplii.
+Esiae wɔa be key ƒe zazã kple ɣeɣẽ mate ŋu anɔ ɣa. Asidede agbalẽ te si meva ɖe log la me o, alo si va le ɣeyiɣi si mesɔ o la, nye dzesi si wòle be nàwɔ nu ɖe eŋu. Sɔ integration time la kple release ƒe announcement.
 
-> **Nɔnɔme le OpenSSL mɔa dzi:** eɖea dzesi si nye ɖaseɖigbalẽ ƒe kpeɖeŋutɔ, gake eya ŋutɔ meɖoa asi ɖe ɖaseɖimenuwo ŋu be woado Sigstore tɔ o alo kpɔa nuŋlɔɖi siwo ku ɖe agbalẽawo ŋuti la hã gbɔ. `cosign verify-blob` wɔa etɔ̃awo katã. Zã OpenSSL nàse alesi wowɔa dɔe gɔme; zã `cosign` wò ga si nèxɔ la.
+> **Nudzɔdzɔ le OpenSSL ƒe mɔ la ŋu:** Eɖea asidede agbalẽ te la ƒe ɖase kple certificate la ƒe public key, gake eya ɖeka meɖea certificate chain la ƒe ɖase yi Sigstore ƒe root gbɔ o, eye mekpena log entry la ƒe inclusion proof o. `cosign verify-blob` wɔa etɔ̃ katã. Zã OpenSSL be nàse mechanism la gɔme; zã `cosign` abe wò ƒe kpɔkpɔ vavã ene.
 
 ---
 
-## Akpa 2  Zallet: GPG ƒe asinuŋɔŋlɔwo
+## Akpa 2 — Zallet: GPG ƒe asidede agbalẽ tewo
 
-Zallet ɖea ga bubu aɖewo ɖe go:
+Zallet doa asset ƒe ƒomevi bubu:
 
-| Nunɔamese | Taɖodzi |
+| Asset | Taɖodzinu |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` | nudzraɖoƒe si me nu eve le |
-| `.tar.gz.asc` | GPG ƒe asidede agbalẽ te si woɖe ɖa |
-| `.tar.gz.intoto.jsonl` | SLSA ƒe afisi wòtso ƒe ɖaseɖiɖi |
-| `.tar.gz.provenance.json` | afisi wotso ƒe metadata |
-| `.tar.gz.sbom.spdx` | kɔmpiutadziɖoɖowo ƒe agbalẽ si ku ɖe nuwo ŋu |
+| `zallet-<version>-<platform>.tar.gz` | binary archive la |
+| `.tar.gz.asc` | GPG ƒe asidede agbalẽ te si woƒo ɖe eŋu |
+| `.tar.gz.intoto.jsonl` | SLSA provenance ƒe attestation |
+| `.tar.gz.provenance.json` | provenance metadata |
+| `.tar.gz.sbom.spdx` | software ƒe didzɔdzɔ agbalẽ |
 
-### Afɔɖeɖe 1  Nya nu si tututu nèdi be yeatsɔ adzra ɖo hafi nàyi aɖadie
+### Afɔ 1 — Kpɔ signing key la ƒe nyateƒe hafi nàdii
 
-Ʋu nuɖuxɔ la * gbã*, ne mèhe nyaʋi aɖeke o:
+Wɔ ɖaseɖiɖi la *gbã*, ne key aɖeke meva eme o:
 
 ```bash
 gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-Nuwɔna ŋutɔŋutɔ:
+Output vavã:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -259,11 +259,11 @@ gpg:                issuer "sysadmin@zodl.com"
 gpg: Can't check signature: No public key
 ```
 
-Menye vodadae wònye o. Efiaa wò be asinuŋɔŋlɔ aɖe li eye eyɔa safui si tututu nèhiã hafi nàdze egɔme dia nu la na wò. De dzesi asibidɛ kple amesi ŋlɔ agbalẽae, emegbe xɔ safua le afisi ŋu nyatakakaawo mele o.
+Esia menye gbãgbã o. Egblɔa na wò be asidede agbalẽ te le anyi eye wòfia key ŋutɔ si nèhiã, **hafi** nàdze didi gɔme. De dzesi ɖe fingerprint kple issuer la ŋu, eye nàkplɔ key la tso afi si mele download la ŋu o.
 
-> `gpg` prints time stamps le miaƒe nutoa me ƒe game dzi. Eʋe si dze la fiaa nu siwo nèŋlɔ ɖi be nàxlẽ kple gbe bubuwoe `WAT` (UTC+1); ŋkɔ ma ke xlẽna be: `18:18:44 UTC` le teƒe bubu. Ɣeyiɣi ma ke mee wòdzɔnae ɖo. Mègabu ɣeyiɣi ƒe vovototo be enye nusi mesɔ o.
+> `gpg` doa timestampwo le wòƒe local timezone me. Output si le etɔ̃ la fia `WAT` (UTC+1); asidede agbalẽ te ma ke xlea `18:18:44 UTC` le afi bubu. Ɣeyiɣi ma kee. Mebua timezone ƒe vovototo abe mismatch ene o.
 
-### Afɔ 2  Ʋu nu vevi la eye nàkpɔe ɖa be ele eme hã.
+### Afɔ 2 — Ɖe key la eme eye nàɖe ɖase kpɔ
 
 ```bash
 curl -sL https://apt.z.cash/zodl.asc -o zodl.asc
@@ -272,7 +272,7 @@ gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-Nuwɔna ŋutɔŋutɔ:
+Output vavã:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -285,19 +285,19 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-`Good signature` Nu eve aɖewo le nya siwo wogblɔ la me si nana amewo tɔtɔna, eye wo ame evea siaa sɔ.
+`Good signature`e nye nu si nèdi. Nu eve le output ma me si wɔa ame geɖe nu ɖa, eye wo evea katã sɔ.
 
-### Nu si tae asibidɛ ƒe dzesi mesɔ kple esi le boblododoa me o la ŋuti nya aɖe li.
+### Nu ka ta fingerprint la mesɔ kple announcement la o
 
-ZODL ƒe safuiwo tɔtrɔ ŋuti nyafiagbalẽa yɔ asibidɛ dzidzeƒe be Fingerprint (asibidenu) `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1`Gake . `gpg --verify` woƒo nu tso eŋu na mí. `1FE9 9324 …  23F0 617F`Edze abe ɖe womesɔ o ene gake mele nenema o.
+ZODL key ƒe trɔtrɔ statement la mea fingerprint `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1`. Gake `gpg --verify` gblɔ `1FE9 9324 …  23F0 617F`. Esia wɔnɛ abe mismatch ene, gake menye nenema o.
 
-`gpg` Etsɔ **aɖakavi** si na wowɔ asinuŋɔŋlɔ la. Nyatakakaa yɔna ame siwo nye **aƒakavi gbãtɔ.* Wò ŋutɔ kpɔ ƒomedodo sia:
+`gpg` gblɔa **subkey** si wɔ asidede agbalẽ te la. Announcement la mea **primary key**. Ɖe woƒe kadodo ƒe ɖase kple asiwò:
 
 ```bash
 gpg --list-keys --with-subkey-fingerprints sysadmin@zodl.com
 ```
 
-Nuwɔna ŋutɔŋutɔ:
+Output vavã:
 
 ```
 pub   rsa4096 2026-03-23 [SCEA]
@@ -307,39 +307,39 @@ sub   rsa4096 2026-03-23 [SEA]
       1FE99324758F296718B457067F4BBBBA23F0617F
 ```
 
-Ŋkɔa enye: `sub` line nye asitelefon ƒe dzesi; the `pub` line nye primary. Ŋutinya ɖeka, key package ɖeka. Esia tae verification output prints **both** fingerprints  compare the *primary* against any published announcement, eye wobua subkey line be enye nusi fiaa wò afisi ke la ƒe akpa aɖe wɔ dɔ le.
+`sub` ƒe fli nye signing subkey la; `pub` ƒe fli nye primary key la. Identity ɖeka, key package ɖeka. Esiae ta verification output la doa fingerprint **evea** — sɔ *primary* la kple announcement si woɖo ɖe anyi, eye nàkpɔ subkey ƒe fli la abe esi fia key ƒe akpa kae wɔ dɔ la ene.
 
-Ne ame aɖe ɖe asi le safuiwo ŋu alea la, eɖea tame: woate ŋu atrɔa asifɔvi si dzi woade dzesi ɖo alo agblẽe evɔ womagatsɔ woƒe ŋkɔ kple kakaɖedzi aƒu gbe o.
+Key ƒe mamã sia nye taɖodzinu: woate ŋu atrɔ alo aɖe signing subkey aɖe le mɔ me, eye primary identity kple eƒe trust si ƒo nu la manɔ ƒu o.
 
-### Nu ka gɔ̃e nye esia? `[unknown]` Nuxlɔ̃ame ƒe mɔnuwo:
+### Nu si `[unknown]` ƒe warning la gɔmee
 
 ```
 gpg: WARNING: The key's User ID is not certified with a trusted signature!
 ```
 
-Menye asinuŋɔŋlɔa ƒe kuxie o. Asinuŋusẽ si le eme la nye esi ŋu gɔmesese nyui aɖe nɔna  ema tae míeyia edzi nɔa asi trɔm ɖe eŋu ɖo `Good signature` Nuxlɔ̃ame la gblɔ nya bubu: mègblɔ na wò GnuPG si le afima be yexɔe se be amesi ƒe ŋkɔ wòle lae ʋɔtrua nye o.
+Esia **menye** kuxi aɖeke le asidede agbalẽ te la ŋu o. Asidede agbalẽ te la sɔ kple cryptography — esiae `Good signature` gblɔa. Warning la gblɔ nu bubu: mèfia wòƒe local GnuPG haɖe be nèxɔe se be key sia nye ame si wògblɔ be ye nyee.
 
-GnuPG ɖe nyabiase eve me:
+GnuPG maa biabia eve:
 
-1. **Ðe safui sia de asi agbalẽa ŋɔŋlɔ me?**  ame si ɖo eŋu ye gblɔe `Good signature`Menye amegbetɔwoe kpɔ ŋusẽ ɖe edzi o.
-2. **Ðe safui sia nye ZODL tɔa?**  womegblɔ nya aɖeke le asitelefon dzi o. Àte ŋu ato asibidɛ ƒe dzesi si wotsɔ sɔ kple teƒe bubu aɖe la dzi anya ne eyae wònye hã.
+1. **Key sia de asidede agbalẽ te file sia ŋu oa?** — `Good signature`e ɖoa eŋu. Cryptographic, ame ƒe buɖoɖo mele eme o.
+2. **Key sia nye ZODL tɔa?** — Cryptography meɖoa eŋu kura o. Nèɖoa eŋu ne nèsɔ fingerprint la kple afi bubu si wòate ŋu axɔ se.
 
-Àkpɔ nuxlɔ̃ame sia le ɖaseɖigbalẽ ɖesiaɖe kloe dzi negbe ɖe nède asi na safui la tẽe ko. Mègabu esia be enye kpododonu o. **Mè** bu akɔntabubu si me mele o ŋu ne èle wo zãm kple wò mɔfianuwo alo kpeɖeŋutɔ siwo li, eye mèzãa woƒe ŋkɔwo nyuie o. `Good signature` be enye kpododonu.
+Àkpɔ warning sia le verification geɖe ŋu ne mède asidede agbalẽ te key la ŋu le local o. Megbɔe abe failure ene o. **Gake** kpɔ be `Good signature` mele o abe failure ene.
 
-### Afɔ 3  Kpɔe ɖa be ɖe wòle klalo ŋutɔ hã.
+### Afɔ 3 — Ɖe key ƒe trɔtrɔ la ŋutɔ ƒe ɖase kpɔ
 
-Zcash ƒe asiɖeɖe ɖe agbalẽwo dzi ʋu tso Electric Coin Company yi Zcash Open Development Lab le 2026, esi woɖo ZODL le January 2026 me to ECC-dɔwɔƒe si nye mɔ̃ɖaŋudɔ kple nuwo ŋuti dɔwɔha tsã la gbɔ.
+Zcash ƒe release signing trɔ tso Electric Coin Company yi Zcash Open Development Lab le 2026, le ZODL si wowɔ le January 2026 tso ECC engineering kple product team xoxowo me megbe.
 
-| | Safui xoxo aɖe | Safui yeye |
+| | Key xoxo | Key yeye |
 |---|---|---|
-| Asibidɛ ƒe dzesi | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
-| UID | Zcash Aƒetɔ ƒe Asidede Asi ƒe Safui (ECC) `<sysadmin@z.cash>` | Zcash Ŋgɔyidɔwo ƒe Dɔwɔƒe si Woʋu (ZODL) `<sysadmin@zodl.com>` |
-| Ƒomevi | RSA 3072-bit, wowɔ le 2023-06-19 | RSA 4096-bit, si wowɔ le 2026-03-23, awu enu le 2028-03-22 |
-| Wotae le | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| Fingerprint | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| UID | Zcash Master Signing Key (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
+| Type | RSA 3072-bit, wowɔe le 2023-06-19 | RSA 4096-bit, wowɔe le 2026-03-23, eƒe ɣeyiɣi awu le 2028-03-22 |
+| Woɖoe ɖe anyi le | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
-Ɣeyiɣi si me wota agbalẽa: Wowɔ safui yeye le 2026-03-23, woɖe gbeƒãe le 20 26-03-27, wole asi kpem ɖe eŋu tso ƒe 2026-04-23 dzi, eye woɖo be woaɖɔli ECC safui xoxo la le 6/23-2026.
+Ɣeyiɣi si woɖo ɖe anyi: wowɔ key yeye la le 2026-03-23, woɖe gbeƒãe le 2026-03-27, signing blibo tso 2026-04-23, wowɔ plan be woaɖe ECC ƒe key xoxo la ƒe mɔ le 2026-06-23.
 
-Ne ame aɖe gblɔ be yeate ŋu aɖo kpe edzi le nyatakakadzraɖoƒe si dzi wòŋlɔa nu ɖo la, ekema eya ŋutɔ ƒe ŋkɔ koe wòle be woaɖo kpee. Nuŋɔŋlɔ nyuitɔ nye nyagbe **si me saɖaga eveawo katã ŋlɔe ɖi**; ale be ʋɔtrua xoxo naxɔ ɖe yeyea ta. ZODL ka nya sia tututu:
+Key trɔtrɔ ƒe announcement le website aɖe dzi ƒe trust kpɔtɔ nye website la ƒe trust ko. Mɔ sɔŋ la nye statement si **key evea de asidede agbalẽ te ɖe eŋu**, ale key xoxo la tsɔa ɖase na key yeye la. ZODL doa esia ŋutɔ:
 
 ```bash
 curl -sL https://zodl.com/security/key-transition.txt.asc -o key-transition.txt.asc
@@ -348,7 +348,7 @@ gpg --import zcash.asc
 gpg --verify key-transition.txt.asc
 ```
 
-Nusiwo dzɔ ŋutɔŋutɔ (si le kpuie  asiɖeɖe eve ɖe agbalẽ ɖeka dzi):
+Output vavã (woɖe eme kpui — asidede agbalẽ te eve le document ɖeka ŋu):
 
 ```
 gpg: Signature made Fri Mar 27 01:11:14 2026 WAT
@@ -365,22 +365,22 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-Evelia. `Good signature` ne èka ɖe ECC-ƒle le ɖoɖo xoxoa me dzi la, ekema fifia woagaɖo ŋu ɖe ZODL ƒle ŋuti eye màgahiã be nàxɔ edzi ase o. `zodl.com`, `apt.z.cash`, alo forum ƒe nuŋɔŋlɔ. Esia nye nɔnɔme si wòle be nàdi ɣesiaɣi si dɔ aɖe trɔ asi le safuiwo ŋu  eye wòhiã be woabia nya tso eŋu ne mele afi ma o la ŋuti.
+`Good signature` ƒe result eve le document ɖeka ŋu, tso key xoxo la kple key yeye la gbɔ. Ne nèxɔ ECC ƒe key la se le release xoxowo ta la, trust ma yi edzi va ZODL ƒe key la gbɔ, ne mele be nàxɔ `zodl.com`, `apt.z.cash`, alo forum post aɖe se o. Esiae nye nɔnɔ si nàdi ne projekti aɖe trɔa key — eye ne mele o la, ele be nàbiae.
 
-### Afi kae nàkpɔ safui le  eye afi ka màgate ŋu akpɔe o?
+### Afi si nàkplɔ key — kple afi si mele be nàkplɔe o
 
-Woɖo wo ɖe hatsotso si nyo wu la me:
+Woɖo wo ɖe fli tso nyuitɔ yi vɔ̃tɔ:
 
-1. **Nya si me nyawo wotsɔ asi ɖo le nyatia ƒe gbãtɔa te** abe alesi wòdze le etame ene. Ne wotrɔe la, enye esi sesẽ wu.
-2. **Aƒe si le vovo na download la.** Binary tso GitHub; key tso `apt.z.cash`Ehiã be nu eve siawo siaa nanɔ ame si dze mía dzi la ŋu.
-3. **Aƒetrɔdzrala, si wotafa kple asibidɛ aɖe.** Ame sia ame ate ŋu adaa mɔ̃vi ɖe akpa gãtɔ dzi be yeate ŋu anya amesi wònye. Asibidenu tsɔtsɔ sɔnae nana esia nɔa dedie  menye asitelefon la o.
-4. **Agbalẽa ƒe axa si nye evelia tɔ.** Kakaɖedzi aɖeke meli o. Ame sia ame si ate ŋu aɖɔli ɖeka la, ate ŋu atrɔ asi le evelia hã ŋu.
+1. **Statement si key si va yi de asidede agbalẽ te ɖe eŋu**, abe esiwo va yi ene. Eyae nye mɔ si sesĩe wu le trɔtrɔ megbe.
+2. **Afi si mele download la ŋu o.** Binary la tso GitHub; key la tso `apt.z.cash`. Attack wɔla aɖe hiã wo evea.
+3. **Keyserver, si woɖe eŋu kpɔ kple fingerprint si woɖo ɖe anyi.** Ame ɖe sia ɖe ate ŋu aɖo key si gblɔa identity ɖe sia ɖe ɖe keyserver geɖe dzi. Fingerprint ƒe sɔsɔe wɔa be esia nanɔ dedie — menye keyserver la o.
+4. **Axa ma ke kple binary la.** Ɖasekpe ʋee koe le eme. Ame si ate ŋu atrɔ ɖeka la ate ŋu atrɔ evelia.
 
-Tsɔa asibidɛ ƒe dzesi blibo la sɔ kple gbãtɔ si le eme. Aʋawɔnuvi kpuiwo nye esiwo ŋu woate ŋu awɔ avu ɖo bɔbɔe eye wozã wo tsɔ wɔ amedzidzedze ŋutɔŋutɔ hãe.
+Ɣesiaɣi sɔ **full** fingerprint la kple **primary** key la. Key ID kpuiwo ate ŋu asɔ kple bubu kpuie, eye woza wo le attack vavãwo me.
 
-## Akpa 3  Womewɔ Numekuku Nyuie O
+## Akpa 3 — Ɖaseɖiɖi si gbã
 
-Ne ènya alesi vodada le la, ekema ko hafi wòɖea vi. Esia enye esi dzɔ ŋutɔŋutɔ to nulɔ̃ŋkɔ ɖeka ƒe kpeɖeɖe ɖe nuŋlɔɖi si ŋu kakaɖedzi le me:
+Ɖaseɖiɖi anɔ nyuitɔ ko ne nènya ale si failure wɔa nɔnɔ. Esi le etɔ̃ nye vavã aɖe, si wowɔe to null byte ɖeka ƒe tsɔtsɔ kpe ɖe archive si sɔ ŋu:
 
 ```bash
 cp zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -389,16 +389,16 @@ printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```
 
-Nuwɔna ŋutɔŋutɔ:
+Output vavã:
 
 ```
 tampered.tar.gz: FAILED
 sha256sum: WARNING: 1 computed checksum did NOT match
 ```
 
-Ʋuʋu ƒe dzesi: `1`.
+Exit code: `1`.
 
-Tsɔa nuŋɔŋlɔ eveawo ɖe wo nɔewo xa:
+Tsɔ digest evea ɖo kple wo nɔewo:
 
 ```bash
 sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -409,54 +409,54 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 8d4e2e22adcb014e006fafc71a974f987ba11297587f593cf89eb9bb1feff0b5  tampered.tar.gz
 ```
 
-One byte appended to a 66,992,676-byte file. The two hashes share nothing — not a prefix, not a pattern. There is no partial match and no "close enough": a checksum either matches exactly or the file is not the file you wanted.
+Byte ɖeka ko woƒo kpe ɖe file si ƒe size nye 66,992,676-byte ŋu. Hash evea mekpɔ nu aɖeke ɖeka o — menye prefix, menye pattern o. Partial match alo "eɖevi kpuie" mele o: checksum aɖe asɔ tututu, alo file la menye file si nèdi o.
 
-### Nu kae wòle be nàwɔ ne esia dzɔ?
+### Nu si nàwɔ ne esia dzɔ
 
-1. **Mègawɔ binary la o.** Mègatsɔe ɖe eme, mègazãnɛ le mɔ bubu aɖeke nu o. `chmod +x` it.
-2. **Tsɔe kpɔ ake le nyatakakadzraɖoƒe si dzi woɖe wo ɖo la.** Nusiwo gblẽna wue nye download siwo ŋu wotrɔ asi le.
-3. **Ne edzɔ be megadzɔe o la, trɔ kadodoa ƒe mɔ.** Kadodo bubu alo VPN. Ne èdze agbagba gake wògbe edzi le Internet dzi ko la, ke ɖeko nàtrɔ asi le eŋu ne mèwɔe nenema o.
-4. ** Ka ɖe edzi be checksum file si sɔ na version nyuitɔ le asiwò. ** Ne ètsɔ v6.3.0 kple v6.2.3 ƒe xexlẽdzesiwo asɔ la, àdo kpo nu nyuie.
-5. **Ne egagbe kokoko la, gblɔe.** Ʋu nya aɖe le ɖoɖowɔƒea ƒe nudzraɖoƒe alo zã dedienɔnɔ ŋuti kadodo si le afi sia. `SECURITY.md` ne èbu be ɖe wowɔe le susu me la, kpɔ agbalẽ si nye "Agbadzedzewo" ƒe axa 12 lia. [Zcash Ecosystem Security (Zakawo ƒe Habɔbɔa Ƒe Dedienɔnɔ)](/zcash-community/zcash-ecosystem-security) axa si dzi woato ana amewo nanya nu tso eŋu.
-6. ** Miɖe nuwɔwɔa.** Nuŋlɔɖi si wotsɔ ɖe ame ŋu la nye kpeɖodzi. Mègaɖee ɖa hafi nàtsɔe ayi na ʋɔnudrɔ̃lawo o.
+1. **Megbe binary la o.** Megaɖe eƒe nuwo o, mega`chmod +x`e o.
+2. **Ɖe egɔme tso official release page la dzi.** Failure geɖewo nye download si mewu o.
+3. **Ne egbã ake la, trɔ network ƒe mɔ.** Connection bubu, alo VPN. Failure si kplɔa wò to networkwo katã me la to vovo na esi mele nenema o.
+4. **Ɖe ɖase be checksum file sɔ la nye version sɔ la tɔ.** V6.3.0 ƒe sɔsɔ kple v6.2.3 ƒe sumwo agbã nyuie.
+5. **Ne egbã ha la, ɖe report.** Ɖe issue le projekti la ƒe repository me, alo zã security contact si le `SECURITY.md` me ne nèsusu be wowɔe kple taɖodzinu. Kpɔ [Zcash Ecosystem Security](/zcash-community/zcash-ecosystem-security) axa la ne nàkpɔ disclosure ƒe channelwo.
+6. **Dzra artifact la ɖo.** Binary si woɖe asi ɖe eŋu nye ɖase. Megbloe hafi nàɖe report.
 
-A signature failure is more serious than a checksum failure. A checksum mismatch is usually corruption; a valid-file-but-bad-signature is not something that happens by accident.
+Asidede agbalẽ te ƒe failure sesĩ wu checksum ƒe failure. Checksum mismatch zi geɖe nye nɔnɔ gbegblẽ; file si sɔ gake asidede agbalẽ te la mesɔ o menye nu si dzɔa kple accident o.
 
 ---
 
-## Akpa 4  Numedzodzro ƒe nuŋlɔɖi
+## Akpa 4 — Reference table
 
-| Dɔwɔna | Nusiwo woɖe ɖe go siwo wota le | Method | Afisi safuia tso |
+| Projekti | Afi si woɖoa releasewo | Mɔnu | Afi si key la tsoa |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Safui aɖeke meli o — CI ƒe dzesidenu to GitHub OIDC dzi |
-| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` - gɔmedzeƒe `0338 34DD…58E2 6AB1`, asidede subkey dzi `1FE9 9324…23F0 617F` |
-| **zcashd** | *xɔ dzudzɔ* | — | Wotɔ ɖe block 3,417,100 dzi le 2026-07-18 dzi. Mègaɖoe ɖe wò kɔmpiuta dzi o. |
-| **Zodl** (si woyɔna tsã be Zashi) | Dɔdamɔnudzraƒe / Google Play; `zodl-inc` le GitHub | Store signing; standalone Android binaries GPG-signed | ZODL safui ɖe tɔtrɔ ƒe nyagbɔgblɔ ɖesiaɖe me |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | Key mele o — CI identity to GitHub OIDC |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — primary `0338 34DD…58E2 6AB1`, signing subkey `1FE9 9324…23F0 617F` |
+| **zcashd** | *woɖe eƒe dɔ wui* | — | Etsi le gaɖoɖowo ƒuƒoƒe [block] 3,417,100 le 2026-07-18. Megbe o. |
+| **Zodl** (tsã woyɔe be Zashi) | App Store / Google Play; `zodl-inc` le GitHub dzi | Store signing; standalone Android binaries GPG-signed | ZODL ƒe key le transition statement nu |
 
-> **Name note:** Zashi was rebranded to **Zodl** in 2026  first on the App Store, then on Google Play. Kpekpeɖeŋu xoxo siwo ku ɖe "Zashi" ŋu la ɖɔ gaɖaka ƒe dzidzime ɖeka ma ke.
-
----
-
-## Akpa 5  Asitelefon kple asinudɔwɔƒe ƒe gaɖɔɖonuwo
-
-Ne èɖe mɔ be woadoe ɖe Internet dzi tẽ la, ale si nèdzea agbagba ɖoa kpe edzii ya ato vovo.
-
-**App stores.** You cannot check a signature yourself. The store signs the package and you are trusting the store's review and the developer account's integrity. What you *can* verify is that you have the right app: confirm the publisher name and the package identifier against the project's official site, not against search results. Impersonation apps are common, and a store listing is not evidence of authenticity.
-
-**Standalone Android APKs.** Woateŋu *aɖo kpe edzi. ZODL taa GPG-signed standalone Android binaries to GitHub Releases dzi, eyata Part 2 workflow la wɔa dɔe. Tia mɔ sia ne èdi be woaɖɔli nu siwo le eme ɖo.
-
-**Hardware wallets.** Ðɔkta la ɖoa kpe eƒe firmware dzi, eyata nu si ŋu kakaɖedzi le ye nye hardwarea ke menye wò kɔmpiuta ƒe nuŋlɔɖi o. Kpɔe ɖe: [Keystone Zashi (Keystone Zashi)](/guides/keystone-zashi)  Woƒlea nu le dɔwɔƒe si wɔa mɔ̃a ŋu tẽe.  Wodzraa nuwo ƒe amesinɔnɔ me ɖo tso asitsadɔwɔƒea va se ɖe nudzrala dzi.
+> **Ŋkɔ ƒe dzesi:** Woɖe Zashi ƒe ŋkɔ trɔ yi **Zodl** le 2026 — gbã le App Store, emegbe le Google Play. Guide xoxowo si gblɔa "Zashi" ƒe nu la gblɔa gakotoku ƒe dzidzime ma ke ƒe nu.
 
 ---
 
-## Nu bubu siwo nàxlẽ le afi sia
+## Akpa 5 — Mobile kple hardware walletwo
 
-- [Zcash Ecosystem Security (Zakawo ƒe Habɔbɔa Ƒe Dedienɔnɔ)](/zcash-community/zcash-ecosystem-security)  Nyatakakawo ɖeɖe ɖe go kple dedienɔnɔ ŋuti kadodoawo
-- [Zebra ƒe Dzogoe Blibo la](/zcash-tech/zebra-full-node)  Zebra ƒe ɖoɖowɔɖi le eƒe dzigbɔdzedze megbe
-- [Zallet Ŋgɔdzesidenu Kpatawo](/using-zcash/zallet-quick-reference-guide)  ne èzãa Zallet
-- [Sigstore ƒe agbalẽwo](https://docs.sigstore.dev/)
-- [SLSA ƒe afi si wotso la dzi ɖe edzi](https://slsa.dev/)
+Ɖaseɖiɖi wɔa dɔ to mɔ bubu ne nèɖe direct downloadwo ŋu.
+
+**App storewo.** Màte ŋu akpɔ asidede agbalẽ te la ƒe ɖase kple asiwò o. Store la dea asidede agbalẽ te package la ŋu eye nèle store la ƒe review kple developer account la ƒe nɔnɔ sɔŋ ƒe trust me. Nu si nàte ŋu aɖe ɖase kpɔe nye be app sɔŋ kae le asiwò: Ɖe publisher ƒe ŋkɔ kple package identifier la ƒe ɖase tso projekti la ƒe official site me, menye tso search resultwo me o. App siwo wɔa amedzra le geɖe, eye store listing menye authenticity ƒe ɖase o.
+
+**Android APKwo siwo le tsitotsito me.** Woate ŋu aɖe esiawo ƒe ɖase kpɔ. ZODL doa Android binarywo siwo le tsitotsito me eye wode GPG asidede agbalẽ te wo ŋu to GitHub Releases, eya ta Akpa 2 ƒe mɔnu la wɔa dɔ. Tia mɔ sia ne nèdi ɖoɖonu si wòate ŋu akpɔ ɖe eŋu.
+
+**Hardware walletwo.** Mɔ la ƒe dzidzɔme dea ɖase eya ŋutɔ ƒe firmware, eya ta trust ƒe gɔmeƒe nye hardware la, menye file si le wò mɔ dzi o. Kpɔ [Keystone Zashi](/guides/keystone-zashi) na mɔnu si wɔa device-verification. Ƒle tso manufacturer la gbɔ tẽ — supply-chain tampering dzɔna le factory kple fiala ƒe dome.
 
 ---
 
-*Wotsɔ sedede siwo le axa sia wɔ dɔe ɖe Zebra ŋu. `v6.3.0` kple Zallet, `v0.1.0-beta.2` le 2026-08-18. Release tooling changes: ne output to vovo na esi woɖe fiae la, ke ɖo ŋu ɖe wò ŋutɔ ƒe agbagbadzedzewo dzi eye taflatse ʋu PR.*
+## Xexlẽnu bubuwo
+
+- [Zcash Ecosystem Security](/zcash-community/zcash-ecosystem-security) — disclosure policy kple security contactwo
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — Zebra ƒe installation le ɖaseɖiɖi megbe
+- [Zallet Quick Reference Guide](/using-zcash/zallet-quick-reference-guide) — Zallet ƒe zazã
+- [Sigstore ƒe documentation](https://docs.sigstore.dev/)
+- [SLSA provenance ƒe levelwo](https://slsa.dev/)
+
+---
+
+*Woƒo commandwo si le axa sia me ɖe Zebra `v6.3.0` kple Zallet `v0.1.0-beta.2` ŋu le 2026-08-18. Release tooling trɔna: ne output la to vovo na esi woɖe fia le afisia la, xɔ wòƒe run ŋutɔ se eye taflatse ɖe PR aɖe.*

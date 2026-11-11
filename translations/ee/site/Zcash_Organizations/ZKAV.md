@@ -3,35 +3,35 @@
 </a>
 
 # <img src="/content-images/image-2024-02-03-170636194-b507a57ff1.webp" alt="Alt Text" width="50"/>    ZKAV Club
-[Nyatakakadzraɖoƒe](https://zkav.club) - [GitHub ƒe ŋkɔ](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter dzi](https://x.com/ZkAv_Club) - [YouTube dzi](https://www.youtube.com/@ZkAv_Club)
+[Nuto](https://zkav.club) - [GitHub](https://github.com/copernicus-mogley/zkav.club) - [X/Twitter](https://x.com/ZkAv_Club) - [YouTube](https://www.youtube.com/@ZkAv_Club)
 
-*The Zcash Foundation ye do alɔe be dɔ gã sia si le anyigba dzi la ƒe taɖodzinue nye be yeakpɔ ŋusẽ ɖe xexeame katã dzi to nutoa me kple nutome ƒe nuwɔnawo me. Kpekpe nuwɔwɔwo ƒe habɔbɔ aɖe be woasrɔ̃ nu ahawɔ dɔ ɖekae atsɔ ado nyadzɔdzɔwo kple ŋutinya siwo ʋãa ame, fiaa nu, eye woama Zcash kple ganyawo ƒe adzamenyawo ƒe ŋugbedodo* ɖe dzi ahakaka wo.
+*The Zcash Foundation de asi na mía; dɔa sia si tso dukɔme tɔwo ƒe asi me la di be yeaɖo xexeame blibo ŋu to nutoa kple nutome ƒe wɔwɔwo me. Èyɔ nuwɔla ƒe ha be woasrɔ nu eye woawɔ dɔ ɖekae be woakɔ nyadzɔdzɔwo kple nya siwo doa ŋusẽ, fia nu, eye woma Zcash kple ga ƒe ɣaɣla [privacy] ƒe ŋugbedodo la.*
 
-## Dɔdasi Ŋuti Nyatakaka
-Míenye xexeame katã ƒe ƒuƒoƒo si me nyatakakawo wɔlawo tsɔ ɖe le eme na ame ŋutɔ ƒe nyawo, Zcash, kple nuto tutu. 
-Míawɔ ɖeka atu teƒe aɖe si míama nyatakakawo, aɖaŋuwo kple nunɔamesiwo atsɔ akpe ɖe nyatakaka siwo ƒo nu tso nyati siwo ŋu míetsɔ ɖe le ŋu la wɔwɔ kple wo tata ŋu. 
-Míedi be ŋutinya siwo ame siwo te ɖe nuwɔna la ŋu wu la agblɔ, agblɔ woƒe didi vevie kple nuteƒekpɔkpɔ siwo wonɔ agbe la be woatsɔ adzamenyawo ŋuti hehenana kple Zcash ava xexeame ƒe akpa sia akpa.
-Zk Av Club ƒe taɖodzinu ɣeyiɣi didi enye be woaɖo nyadzɔdzɔgblɔmɔnuwo wɔlawo ƒe habɔbɔ aɖe si si ŋutete le, si le klalo eye wokpɔa ga le be woaɖe gbeƒã ahama nyadzɔdzɔ siwo ku ɖe Zcash kple ame ŋutɔ ƒe nyawo ŋu si sɔ na nutoa me tɔwo kple esiwo wozãna le xexeame katã.
+## Dɔ Ƒe Nyaɖeɖe
+Míenye nuwo ƒe wɔla ƒe xexea blibo ƒe ha si dea dzɔdzɔme na ɣaɣla, Zcash, kple hadede tutu.
+Míaɖekae míatu teƒe aɖe be míama nyadzɔdzɔwo, nusrɔsrɔwo kple nuɖuɖuwo, be woakpe ɖe nuwo ƒe wɔwɔ kple tata ŋu, si wɔnɔna le nyati siwo dea dzɔdzɔme na mí ŋu.
+Míedi be ame siwo le dɔa gbɔ kekeake la nana woagblɔ woƒe nya, eye woama woƒe dzidzɔ kple agbenɔnɔ ƒe nuteƒewɔwɔ be ɣaɣla ƒe nufiala kple Zcash nadzɔ le xexeame ƒe akpa sia akpa.
+Zk Av Club ƒe ɣeyiɣi didi ƒe taɖodzinu nye be yeatu media wɔla siwo ŋu wòate ŋu, siwo le yready, eye woga le asi na ƒe network, be woatsi nyadzɔdzɔwo tso Zcash kple ɣaɣla ŋu, siwo ƒe gɔme le nutoa me eye xexea blibo ƒe amewo hã nana woaɖu.
 
-## Nuwɔwɔ aduadu & Habɔbɔwo 
-Zk Av Club awɔ kpekpewo edziedzi le internet dzi eye woawɔ dɔ aduadu kple nutoa me wɔnawo be woana numedzodzrowo nanɔ bɔbɔe le nyati siwo me xexeame katã ƒe Zcash kple ameŋunyatakakawo ŋuti habɔbɔwo tsɔ ɖe le ŋu. 
-Esi míaƒe susu le odio/nukpɔkpɔ le internet dzi wɔwɔ ŋu ta la, esia anye ɣeyiɣi kple teƒe si míasrɔ̃ nu geɖe tso nyadzɔdzɔgblɔmɔnuwo ƒe nuhiahiãwo kple nusiwo ŋu nutoa me Zcash kple nuto siwo léa fɔ ɖe ame ŋutɔ ƒe nyawo ŋu le le xexeame godoo ƒe dzimaɖitsitsiwo ŋu eye míawɔ afɔɖeɖe.
+## Hadede Kple Hatiwɔwɔ
+Zk Av Club ana internet dzi ƒe hadɔwɔwɔwo ɣesiaɣi, eye wòawɔ dɔ kple nutoa ƒe nudzɔdzɔwo be woawɔ adzɔdzɔ tso nyati siwo dea dzɔdzɔme na xexea blibo ƒe Zcash kple ɣaɣla ƒe hadewo ŋu.
+Esi míaƒe ŋkuléle le internet dzi ƒe gbe kple nuku ƒe nuwɔwɔ ŋu ta la, afi siae anɔ be amewo asrɔ nu tso media ƒe hiahiãwo kple nutoa ƒe Zcash kple ɣaɣla ŋu wɔnɔla ƒe hadewo ƒe dzɔdzɔwo ŋu le xexeame blibo me, eye woawɔ nu.
 
 ## Nudzɔdzɔwo
-Nudzɔdzɔwo aʋu eye woaxe femaxee, eye woate ŋu anye nɔnɔme geɖewo abe nuƒoƒo, Q+A, AMA, dɔwɔƒewo, kuxiwo gbɔ kpɔkpɔ, susuŋudɔwɔwɔ alo nu bubu aɖe keŋkeŋ. 
-Dzeɖoɖo ɖesiaɖe, eɖanye mɔnu ka kee ɖale o, alé Zcash ƒe susu ɖe ame ŋutɔ ƒe nyawo ŋu abe tanya ene kple abe nuwɔna ene. Womate ŋu asusui be wolɔ̃ ɖe edzi o.
+Nudzɔdzɔwo anɔ hɔ̃ eye woanye fɛtɔ, eye woate ŋu anɔ le mɔ geɖewo me abe nufiafiawo, Q+A, AMA, dɔwɔƒewo, kuxi fɔfɔ, susu ƒe mama kple nu bubu aɖe keŋkeŋ ene.
+Adzɔdzɔ ɖe sia ɖe, togbɔ be mɔ kae woazã hã, anɔ Zcash ƒe ŋkuléle le ɣaɣla ŋu abe nyati kple nɔnɔme ene. Mígate ŋu aɖe mɔ na woƒe dzɔdzɔme o.
 
-## Ame ka
-Míenye xexeame katã ƒe gbe kple nuteƒekpɔkpɔwo ƒe habɔbɔ.
-To nutoa me la, míado ŋusẽ ame ɖesiaɖe eye míado ŋusẽe be wòagblɔ Zcash ŋutinya la to eya ŋutɔ ƒe nukpɔsusu me, le woawo ŋutɔ ƒe nyawo nu. 
-Míado nunɔamesiwo kple kadodo siwo ʋãa nyatakakawo wɔlawo eye wodoa alɔ wo ale be woate ŋu atsɔ woƒe gbe tɔxɛa ava xexeame katã ƒe ameŋunyatakakawo ŋuti dzeɖoɖoa me.
-Míekpɔa kadodowo ƒe nyatakakadzraɖoƒe si le nu ƒom hele wo wɔm le gbegbɔgblɔ vovovowo me, eye wo katã wole nu ɖum tso nyatakaka kple nyatakaka siwo Zk Av Club ma me, eye wole asi kpem ɖe wo ŋu. Míakɔ mía nɔewo ɖe dzi eye míawɔ ɖeka atu ŋusẽ si hiã be míatsɔ Zcash kple adzamenyawo ava xexeame. Wɔ ɖeka kpli mí!
-Míele amesiame kpem eye míexɔe nyuie be wòanye Zk Av Club ƒe akpa aɖe! Ame sia ame si di vevie be yeakpɔ ame ŋutɔ ƒe nyawo gbɔ eye wòdi be yeaku nu me le odio/nukpɔkpɔ kple internet mɔ̃ɖaŋununya yeyewo me ate ŋu ade kpekpewo eye wòakpɔ gome le eme vaseɖe afisi eya ŋutɔ ƒe akɔfafa le. 
+## Ame Kae Míenye
+Míenye xexea blibo ƒe gbe kple agbenɔnɔ ƒe hadɔ.
+To hadede me la, míana ŋusẽ eye míatsɔ ame ɖe sia ɖe ƒe gbe ɖe ŋgɔ be wòagblɔ Zcash ƒe nya to eya ŋutɔ ƒe ŋkuléle me, le eya ŋutɔ ƒe mɔ nu.
+Míana nuɖuɖuwo kple kadodo siwo akpa ɖe nuwɔlawo ŋu eye woaɖe asi le woŋu, ale be woatsɔ woƒe gbe tɔxɛ va xexea blibo ƒe ɣaɣla ƒe adzɔdzɔ me.
+Míekpɔe be kadodo ƒe web aɖe li, siwo doa gbe eye wɔnɔa nu le gbegbɔgblɔ vovovo me, eye woƒe nuɖuɖu tso Zk Av Club ƒe nyadzɔdzɔwo kple nuwo siwo woma la me, eye woatsɔ nu akpe ɖe eŋu. Míado asi mía nɔewo ŋu, eye míaɖekae míatu ŋusẽ si hiã be míatsɔ Zcash kple ɣaɣla ava xexea me. Va ɖe mía ŋu!
+Woyɔ ame sia ame eye woawoe woe be woanɔ Zk Av Club ƒe akpa! Ame sia ame si le ɣaɣla ƒe dzidzɔ le eŋu eye wòdi be yeatso gbe/nuku kple internet ƒe mɔ yeyewo kpɔ la ate ŋu ava hadɔwɔwɔwo eye wòakpɔ gome ɖe alesi wòse be eŋutɔ ƒe dzidzɔ le ene.
 
-## Mɔfiamewo na Wɔlawo
+## Mɔfiame Na Nuwɔlawo
 [Kadodo](https://github.com/ZecHub/zechub/blob/main/site/ZFAV_Club/Guides_for_Creators.md)
 
-## Nudzɔdzɔ siwo Va Yi
-A [kadodo](https://forum.zcashcommunity.com/t/zk-av-club-2025-wrap-up/54044) na ZKAV ƒe dɔwɔnawo katã gbugbɔgagblɔ le ƒe 2025 me.
+## Xoxo ƒe Nudzɔdzɔwo
+[Kadodo](https://forum.zcashcommunity.com/t/zk-av-club-2025-wrap-up/54044) aɖe yi nyadzɔdzɔ si ƒo ZKAV ƒe dɔwɔwɔwo katã le 2025 me ƒe ta.
 
-[Zcon ƒe Ɣeyiɣiwo](https://www.youtube.com/playlist?list=PL9eB_cR4oMehVbHMbia-IPPtO4H1UEMy7) tso Zcon4 hã gbɔ [Afisia](https://www.youtube.com/live/S-Obx1mWFB4?si=yE54LktZT4Uv244u) kple [Afisia](https://youtu.be/z7SXAhYh7Bk?si=Pmw09w2KvLcPPQmL)
+[Zcon ƒe Ɣeyiɣiwo](https://www.youtube.com/playlist?list=PL9eB_cR4oMehVbHMbia-IPPtO4H1UEMy7) tso Zcon4, kple [Afisia](https://www.youtube.com/live/S-Obx1mWFB4?si=yE54LktZT4Uv244u) kple [Afisia](https://youtu.be/z7SXAhYh7Bk?si=Pmw09w2KvLcPPQmL)

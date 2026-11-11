@@ -2,43 +2,43 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# zecd  Shielded-First Wallet Server (Onye na - ahụ maka obere akpa ego nke mbụ)
+# zecd — Sava e-akpa ego nke Ebu Ụzọ na Nke E Chebere Echebe
 
-zecd is a shielded-first wallet server for Zcash, built on [librustzcash](https://github.com/zcash/librustzcash) a na-ekpughere site n'asụsụ JSON-RPC nke Bitcoin Core. Ọ na - enye ndị mmepe na ndị ntinye ego ụgwọ ihe amaara, API dakọtara maka mmekọrịta Zcash  ma mee ka Orchard (olulu mmiri kachasị onwe ya) ndabara. Emepụtara site [zec.rocks](https://zec.rocks), zecd ezubere iji dochie anya . `zcashd`bụ obere akpa arụ ọrụ na oge a, igwe ojii-nwa afọ deployments.
+zecd bụ sava e-akpa ego nke ebu ụzọ mee maka nke e chebere echebe maka Zcash, nke e wuru n'elu [librustzcash](https://github.com/zcash/librustzcash) ma wepụta ya site n'olumba JSON-RPC nke Bitcoin Core. Ọ na-enye ndị onye mmepụta [developers] na ndị na-ejikọta Kwụọ ụhwọ [payment] API maara nke ọma, nke dakọtara na Bitcoin, maka iso Zcash emekọrịta — ebe ọ na-eme Orchard (pool [pool] nke nwere Nzuzo [privacy] kacha elu) ka ọ bụrụ nke ndabara. [zec.rocks](https://zec.rocks) mepụtara ya, a haziri zecd iji dochie ọrụ e-akpa ego nke `zcashd` n'ime nrụnye oge a nke sitere n'igwe ojii.
 
-**Oge a:** 0.5.0-rc3 (July 13, 2026)  na Ironwood (NU6.3) nkwado. Wụnye site na `cargo install zecd` ma ọ bụ jiri onyinyo Docker.
-
----
-
-## TL;DR
-
-- zecd bụ **wallet daemon (server) ** ọ bụghị ọnụ zuru oke. Ọ na-ejikwa igodo, nyocha, nkwenye, na RPC n'ekwughị usoro P2P nke Zcash .
-- Ọ na-ekwu okwu ** Bitcoin Core's JSON-RPC dialect**: otu usoro aha, ụdị ubi, auth, na koodu njehie  ọtụtụ ndị ahịa RPC nke Bitcoin na Zcash arụ ọrụ n'ime igbe.
-- **Orchard (shielded) adreesị bụ ndabara**; uzo doro anya (t-address) na nkwado Sapling chọrọ ntinye aka maka obere akpa.
-- Ọ na-ejikọta ya na ** onye nwe onwe ya. [Zebra](Zebra_Full_Node.md) zuru ọnụ** site na mpaghara JSON-RPC  enweghị lightwalletd chọrọ.
-- ** Ọdịnaya na-enweghị ihe ọ bụla site n'ịmepụta**: obere akpa ahụ dum nwere ike weghachite naanị mkpụrụ okwu, na -eme ka ndekọ data dị.
-- ** Ọ bụghị ihe na-adaba maka zcashd**: emejuputa naanị usoro nke Zcash RPC, yana ọdịiche dị iche iche ebumnuche maka nzuzo na nchekwa.
-- Ụgwọ na-eso **ZIP-317** (deterministic ụgwọ ngụkọta oge); onye ọrụ kpọmkwem ụgwọ a jụrụ.
-- Na-akwado **shielded memos (ZIP-302)** site na ebe a maara nke ọma Bitcoin RPC.
+**Ụdị ugbu a:** 0.5.0-rc3 (Julaị 13, 2026) — nwere nkwado Ironwood (NU6.3). Wụnye site na `cargo install zecd` ma ọ bụ jiri onyonyo Docker gọọmentị.
 
 ---
 
-## Olee Nsogbu zecd Na-edozi?
+## Nkọwa nkenke
 
-`zcashd` bụ Zcash mbụ ọnụ na obere akpa jikọtara  forked si Bitcoin C ++ codebase ke 2016. N'ime oge, nke a kere esemokwu: koodu siri ike ịnọgide na-enwe, wallet dị nnọọ ejikọta ya node, na adreesị doro anya ka e gosipụtara dịka nhọrọ klas mbụ n'akụkụ ndị echekwara.
-
-zecd na-ekewapụ ọrụ akpa ego site na nkwekọrịta. Ọ bụ ** akwa nchekwa echekwara nke** n'etiti ngwa yana Zebra zuru ọnụ, na -enye:
-
-- Ntinye aka nke Rust dị ọcha, nke oge a wuru na librustzcash (otu ọba akwụkwọ ahụ Zodl na Zingo)
-- Nzuzo-site na ndabara (adreesị Orchard ma ọ bụrụ na ahaziri ya)
-- Otu interface RPC dakọtara na Bitcoin nke wepụrụ mkpa ịmụ ihe akụrụngwa Zcash akọwapụtara.
-- Ọdịnaya na-enweghị ala, nke nwere ike iweghachite mkpụrụ kwesịrị ekwesị maka nkwakọ ngwaahịa na igwe ojii.
+- zecd bụ **daemon e-akpa ego (sava)** — ọ bụghị full node. Ọ na-ahụ maka mkpịsị ugodi, nyocha, ịnye ihe akaebe, na RPC na-enweghị ikwu usoro P2P nke Zcash.
+- Ọ na-ekwu **olumba JSON-RPC nke Bitcoin Core**: otu aha usoro, ụdị ogige, nkwenye, na koodu njehie — ọtụtụ ndị ahịa Bitcoin RPC na-arụ ọrụ na Zcash ozugbo n'enweghị nhazi ọzọ.
+- **Adreesị Orchard (nke e chebere echebe) bụ nke ndabara**; nkwado Oha [transparent] (t-address) na Sapling chọrọ ka e nyere ya ikike n'ụzọ doro anya maka e-akpa ego ọ bụla.
+- Ọ na-ejikọ na **full node [Zebra](Zebra_Full_Node.md) nke ị kwadoro n'onwe gị** site na JSON-RPC mpaghara — ọ dịghị lightwalletd achọrọ.
+- **Ọ nweghị ọnọdụ e debere n'ichepụta ya**: enwere ike iweghachi e-akpa ego dum site na Mkpuru mgbake [seed phrase] naanị, nke na-eme ka ndekọ data bụrụ ihe a pụrụ ịtụfu.
+- **Ọ bụghị nnọchi ozugbo maka zcashd**: ọ na-arụ naanị obere akụkụ nke usoro RPC Zcash, nwere ọdịiche nhazi e bu n'obi maka Nzuzo na nchekwa.
+- Ugwo [fee] na-agbaso **ZIP-317** (ngụkọta ugwo ekpebiela); a na-ajụ ugwo onye ọrụ kọwara.
+- Ọ na-akwado memo [memo] ndị e chebere echebe (ZIP-302) site n'elu RPC Bitcoin a maara nke ọma.
 
 ---
 
-## Ihe owuwu ụlọ
+## Kedu Nsogbu Ka zecd Na-edozi?
 
-zecd na-arụ ọrụ n'ụdị atọ:
+`zcashd` bụ node mbụ na e-akpa ego jikọtara ọnụ nke Zcash — nke e kewapụtara n'usoro koodu C++ nke Bitcoin na 2016. Ka oge na-aga, nke a kpatara ihe isi ike: koodu ahụ siri ike idobe, e-akpa ego ahụ jikọtara node ahụ nke ọma, a na-egosipụtakwa adreesị Oha dị ka nhọrọ klaasị mbụ n'akụkụ ndị e chebere echebe.
+
+zecd na-ekewa ọrụ e-akpa ego na consensus [consensus]. Ọ bụ **ọkwa e-akpa ego pụrụ iche** nke na-anọdụ n'etiti ngwa na full node Zebra, ma na-enye:
+
+- Mmejuputa Rust dị ọcha, nke oge a, nke e wuru n'elu librustzcash (ọbá akwụkwọ ahụ nke na-enye Zodl na Zingo ike)
+- Nhazi Nzuzo-ka-ọ-bụ-nke-ndabara (adreesị Orchard ma e wezụga ma ahaziri ya n'ụzọ ọzọ)
+- Ntinye RPC dakọtara na Bitcoin nke na-ewepụ mkpa ịmụ ngwá ọrụ pụrụ iche nke Zcash
+- Nhazi na-enweghị ọnọdụ edobere, nke Mkpuru mgbake nwere ike iweghachi, dabara maka nrụnye container na igwe ojii
+
+---
+
+## Nhazi
+
+zecd na-arụ ọrụ n'ụdị ọkwa atọ:
 
 ```
 Your app / Bitcoin RPC client
@@ -50,109 +50,109 @@ Your app / Bitcoin RPC client
    (full node — consensus, mempool, chain data)
 ```
 
-zecd na-ekwurịta okwu Zebra ** naanị site na mpaghara JSON-RPC**  enweghị netwọkụ ibe, ọ nweghị ndị ọzọ indexers, enweghị lightwalletd. Njikọ zebra bụ ụma nke obodo: zecd ga-ajụ izipu nzere nye onye ọbịa zuru ụwa ọnụ ma ọ bụrụ na ahaziri ya maka ọdụ ụgbọ mmiri echekwara (dịka WireGuard ma ọ bụ SSH).
+zecd na-ekwurịta okwu na Zebra **naanị site na JSON-RPC mpaghara** — enweghị netwọkụ peer-to-peer, enweghị indexer nke ndị ọzọ, enweghịkwa lightwalletd. Ejiri nlezianya mee njikọ Zebra ka ọ bụrụ naanị nke mpaghara: zecd ga-ajụ iziga nzere na host enwere ike ịga n'ụwa niile ma e wezụga ma ahaziri ya n'ụzọ doro anya maka ọwara echekwara n'èzí usoro (dịka WireGuard ma ọ bụ SSH).
 
 ---
 
-## Ihe Ndị Bụ́ Isi E Ji Mara Ya
+## Njirimara Ndị Dị Mkpa
 
-### Shielded-First, Orchard by Default
+### Nke E Chebere Echebe Mbụ, Orchard Dị Ka Ndabara
 
-zecd na-eji Orchard Unified Addresses dị ka ụdị adreesị ndabara. Sapling and transparent (t-address) pools require explicit configuration per wallet. Nke a imewe belata ihe ize ndụ nke mberede uzo eziga  a nkịtị nzuzo ọnyà ke okenye Zcash tooling.
+zecd na-eji Adreesị Njikọrịta Orchard dị ka ụdị adreesị ndabara. Pool Sapling na Oha (t-address) chọrọ nhazi doro anya maka e-akpa ego ọ bụla. Nhazi a na-ebelata ihe ize ndụ nke izipu Oha na mberede — ọnyà Nzuzo a na-ahụkarị n'ngwá ọrụ Zcash ochie.
 
-Iwu nzuzo nwere ike ịhazi ya kwa oku ma ọ bụ n'ụwa niile na-akpọtụrụ gị. `[spend] privacy_policy`:
+A pụrụ ịhazi iwu Nzuzo maka oku ọ bụla ma ọ bụ n'ụwa niile na `[spend] privacy_policy`:
 
-| Amụma | Àgwà |
+| Iwu | Omume |
 |--------|----------|
-| `AllowRevealedRecipients` (ndabara) | A na-ezigara ndị nnata doro anya akwụkwọ ikike; a na-ekpughe ego na onye nnata n'usoro |
-| `AllowRevealedAmounts` | Na-ekwe ka ndị na-eziga ozi n'ofe ọdọ mmiri (Sapling↔Orchard) mana ha jụrụ ndị nnata doro anya |
-| `FullPrivacy` | Naanị ndị e zipụrụ ihe niile n'ime otu ọdọ mmiri; ha anaghị anabata ndị nnata doro anya na ndị na-agafe agafe |
-| `AllowFullyTransparent` | Na-enyekwa ohere ka e ziga ego sitere na UTXO doro anya |
+| `AllowRevealedRecipients` (ndabara) | Na-ekwe ka e ziga ndị nnata Oha; na-ekpughe ego na onye nnata on-chain |
+| `AllowRevealedAmounts` | Na-ekwe ka e ziga n'etiti pool (Sapling↔Orchard) mana na-ajụ ndị nnata Oha |
+| `FullPrivacy` | Naanị izipu e chebere echebe kpamkpam n'ime otu pool; na-ajụ ndị nnata Oha na izipu n'etiti pool |
+| `AllowFullyTransparent` | Na-ekwekwa ka e ziga t→t site na UTXO Oha kwadoro |
 
-### Bitcoin Core RPC ndakọrịta
+### Ndakọrịta Bitcoin Core RPC
 
-zecd na-emejuputa asụsụ JSON-RPC nke Bitcoin Core site n'ịgbaso:
+zecd na-emejuputa olumba JSON-RPC nke Bitcoin Core na nnabata n'ihe ndị a:
 
-- Aha usoro (dịka. `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
-- Aha ubi na ụdị dị iche iche n'azịza ha.
-- JSON-RPC 1.0 envelopu owuwu
-- Onye edemede bụ isi, `rpcauth` ntinye, na kuki faịlụ nyocha
-- Koodu njehie na HTTP ọnọdụ mapping (HTTP 500 nwere ahụ njehie, 401 semantics)
+- Aha usoro (dịka `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
+- Aha na ụdị ogige n'ime nzaghachi
+- Nhazi mkpuchi JSON-RPC 1.0
+- Nkwenye isi, ndenye `rpcauth`, na nkwenye faịlụ kuki
+- Koodu njehie na nhazi ọkwa HTTP (HTTP 500 nwere ahụ njehie, semantics 401)
 
-Nke a pụtara na ọtụtụ ọba akwụkwọ ịkwụ ụgwọ Bitcoin dị ugbu a, njikọta mgbanwe, yana ngwaọrụ nlekota nwere ike iso Zcash site na zecd jiri obere ma ọ bụ enweghị ngbanwe koodu.
+Nke a pụtara na ọtụtụ ọbá akwụkwọ Kwụọ ụhwọ Bitcoin dị, njikọta exchange, na ngwá ọrụ nlekota nwere ike iso Zcash emekọrịta site na zecd na obere mgbanwe koodu ma ọ bụ enweghị ya.
 
-Ihe nkwekọrịta (140+ nyocha) na-agba ọsọ ọ bụla PR megide daemon regtest dị ndụ ma kwadoro ya maka netwọọdụ ule ọha.
+Nnwale nnabata (nlele karịrị 140) na-arụ na PR ọ bụla megide daemon regtest dị ndụ, e nyochakwara ya megide testnet ọha.
 
-### Memo ndị a na-echebe (ZIP-302)
+### Memo Ndị E Chebere Echebe (ZIP-302)
 
-zecd na-ekpughe atụmatụ ncheta echekwara nke Zcash site n'elu Bitcoin RPC maara ihe  ihe adịghị adị na ngwa ọrụ Bitcoin ọkọlọtọ:
+zecd na-ewepụta njirimara memo e chebere echebe nke Zcash site n'elu RPC Bitcoin a maara nke ọma — ihe na-adịghị na ngwá ọrụ Bitcoin ọkọlọtọ:
 
-- `sendtoaddress` na-anabata ihe ncheta hex nhọrọ dị ka paramita ọzọ (ruo 512 bytes; jụrụ maka ndị nnata doro anya)
-- Ihe ndekọ akụkọ azụmahịa sitere na: `listtransactions` na nke a: `gettransaction` gụnyere: `memo` (hex) na `memoStr` (decoded ederede) ubi mgbe ihe mmepụta na-ebu otu
-- Zero-amount sends to a shielded recipient are supported for memo-only use cases (the `z_sendmany` "memo-only-send" pattern)
+- `sendtoaddress` na-anabata memo hex nhọrọ dịka parampat ọzọ n'azụ (ruo bytes 512; a na-ajụ ya maka ndị nnata Oha)
+- Ndenye akụkọ Azụmahia [transaction] sitere na `listtransactions` na `gettransaction` gụnyere ogige `memo` (hex) na `memoStr` (ederede a tụgharịrị) mgbe mmepụta nwere otu
+- A na-akwado izipu ego efu na onye nnata e chebere echebe maka Ojiji [use case] memo naanị (ụdị `z_sendmany` “memo-only-send”)
 
-Nke a na-eme ka zecd dabara adaba maka ngwa ndị chọrọ ozi nzuzo, n'elu agbụ yana ịkwụ ụgwọ.
+Nke a na-eme zecd ka ọ dabara maka ngwa chọrọ iziga ozi nzuzo, on-chain, n'akụkụ Kwụọ ụhwọ.
 
-### Ndị Na-enweghị Ala Site n'Ọmụma E Kere Ha
+### Enweghị Ọnọdụ E Debere n'Nhazi
 
-zecd na-anọgide ** enweghị ọnọdụ nke mkpụrụ osisi naanị nwere ike weghachite. nchekwa data wallet (`data.sqlite`) bụ kpamkpam na-ewepụtara mkpụrụ okwu  kpuchie ego a natara n'enweghị ihe ọ bụla; uzo ego na-natara ruo haziri ọdịiche ịgba.
+zecd anaghị edebe **ọnọdụ ọ bụla na-adịghị on-chain nke mweghachi Mkpuru mgbake naanị agaghị ewughachi**. Ebe nchekwa e-akpa ego (`data.sqlite`) sitere kpamkpam na Mkpuru mgbake — a na-eweghachi ego e chebere echebe n'enweghị ọnọdụ; a na-eweghachi ego Oha ruo oke oghere a haziri.
 
-Iji weghachite obere akpa site na mkpụrụ:
+Iji weghachi e-akpa ego site na mkpụrụ:
 
 ```sh
 zecd init --restore --birthday <block-height>
 ```
 
-Nke a na-eme ka ndekọ data **disposable**: akpa enweghị olu na-adịgide adịgide, wughachi site mkpụrụ kwa mmalite, anaghị efunahụ ihe ọ bụla dị mkpa. Ndị ọrụ nwere ibu ọrụ maka ịdebe adreesị ha nyere  zecd naanị echeta adres mgbe ha natara ego on-chain.
+Nke a na-eme ka ndekọ data bụrụ **ihe a pụrụ ịtụfu**: container na-enweghị olu na-adịgide adịgide, nke e wughachiri site na mkpụrụ mgbe ọ bụla ọ malitere, anaghị efunahụ ihe ọ bụla dị mkpa. Ndị na-arụ ọrụ nwere ọrụ ịdebe adreesị ha na-enye — zecd na-echeta naanị adreesị ozugbo ha natara ego on-chain.
 
-Akara aha na-anọghị n'ụma. N'ihi na akara enweghị isi iyi ma enweghi ike ịmegharị site na mkpụrụ, zecd anaghị akwado ha. Ịkpọ oku usoro mkpado weghachite a `method-not-found` njehie (`-32601`).
+A kpachapụrụ anya hapụ labels. Ebe labels enweghị isi mmalite on-chain, enweghị ike iwughachi ha site na mkpụrụ, zecd anaghị akwado ha ma ọlị. Ịkpọ usoro label na-ewepụta njehie `method-not-found` (`-32601`).
 
-### Enweghị lightwalletd Dependency
+### Enweghị Ndabere lightwalletd
 
-zecd na-enweta kọmpụta dị n'ime, ọnọdụ osisi, yana visibiliti mempool ozugbo site na Zebra JSON-RPC. Enweghị lightwalletd iji rụọ ọrụ ma ọ bụ debe  belata mgbagwoju anya arụmọrụ maka nkesa nke onwe ya.
+zecd na-enweta block kọmpat, ọnọdụ osisi, na ọhụhụ mempool kpọmkwem site na JSON-RPC nke Zebra. Enweghị lightwalletd a ga-arụ ma ọ bụ debe — nke na-ebelata mgbagwoju anya arụmọrụ maka nrụnye onye kwadoro n'onwe ya.
 
-### Ntinye igwe ojii na nke a kwadoro ya
+### Nrụnye Sịte n'Igwe Ojii na Container
 
-Ezubere usoro ụlọ zecd na-enweghị steeti maka gburugburu Docker na Kubernetes:
+E mepụtara nhazi na-enweghị ọnọdụ edobere nke zecd maka gburugburu Docker na Kubernetes:
 
-- Full Docker Compose stack (Nke a bụ ihe dị mkpa maka usoro nhazi.`zebra → zecd`) dị na nchekwa data.
-- Ihe na-egosi ahụike n'ọdụ ụgbọ mmiri. `9233` na configurable njikere-enyocha (`synced` or `connected`)
-- Nhọrọ ndekọ JSON ahaziri maka pipeline nchịkọta logs.
-- ZIP-317 ụgwọ ọrụ  enweghị ego oracle ma ọ bụ nhazi akwụkwọ ntuziaka.
-- `bootstrap_from_keys` (default on): ndekọ data efu na-esote ya. `keys.toml` na-arụ ọrụ akpaaka mgbe ịmalitere  gbasaa site n'ịwụnye otu Nzuzo ma malite na PVC efu
+- Stack Compose Docker zuru ezu (`zebra → zecd`) dị na repository
+- Endpoint ahụike na port `9233` nwere probes njikere enwere ike ịhazi (`synced` ma ọ bụ `connected`)
+- Nhọrọ ndekọ JSON ahaziri maka pipeline nchịkọta ndekọ
+- Ugwo ekpebiela ZIP-317 — enweghị fee oracle ma ọ bụ nhazi ugwo aka
+- `bootstrap_from_keys` (ndabara agbanyere): ndekọ data efu n'akụkụ `keys.toml` na-ewughachi e-akpa ego na-akpaghị aka mgbe mmalite — tinye ya site n'ịkwado otu Secret ma malite na PVC efu
 
 ---
 
-## Ụdị Nlekọta Ndị Nne na Nna Na-elekọta Ụmụaka
+## Ụdị Nlekọta Ego
 
-zecd na-akwado ụdị atọ nke njide igodo, dabara maka ntinye dị iche iche na ihe nchedo:
+zecd na-akwado ụdị nlekọta mkpịsị ugodi atọ, dabara maka nrụnye na mkpa nchekwa dị iche iche:
 
-### 1. Unencrypted (Ntọala  Auto-Unlock)
+### 1. Enweghị Nzobe Ederede (Ndabara — Mepee Na-akpaghị Aka)
 
-Mnemonic mkpụrụ na-eme ka mmadụ nwee ike icheta ihe. `keys.toml` a na-ekpuchi ya n'ime akwụkwọ njirimara afọ (age identity file)`identity.txt`) Na ndabara. `auto_unlock = true`, mkpụrụ a na-ekpuchi n'ime ebe nchekwa mgbe mmalite ya mere eziga bụ unattended na ọ dịghị onye ọzọ. `walletpassphrase` a chọrọ oku.
+A na-ekpuchi mnemonic mkpụrụ dị na `keys.toml` n'ime **faịlụ njirimara age** (`identity.txt`). Site na `auto_unlock = true` ndabara, a na-emeghe mkpụrụ ahụ n'ime ebe nchekwa mgbe mmalite ka izipu nwee ike ịbụ nke anaghị elekọta anya, ọ nweghịkwa oku `walletpassphrase` achọrọ.
 
-Nke kachasị mma maka: ndị na-arụ ọrụ ịkwụ ụgwọ akpaaka, mgbanwe ego ọkụ, gburugburu ebe nrụpụta.
+Kachasị mma maka: ndị nhazi Kwụọ ụhwọ akpaghị aka, e-akpa ego hot nke exchange, gburugburu onye mmepụta.
 
 ```sh
 zecd init --datadir ./data --wallet default --account-name primary
 ```
 
-> Ụlọ ahịa `identity.txt` **n'èzí** ndekọ data na mainnet  onye ọ bụla gụrụ faịlụ abụọ ahụ nwere ikike imefu.
+> Chekwaa `identity.txt` **n'èzí** ndekọ data na mainnet — onye ọ bụla gụrụ faịlụ abụọ ahụ nwere ikike imefu ego.
 
-### 2. E ji ihe nzuzo ezochi (Nwere Nchedo Passphrase)
+### 2. Eji Passphrase Chebe (Ederede Nzuzo Chebere)
 
-A na-eji paswọọdụ (afọ scrypt) kechie mnemonic kama iji faịlụ njirimara. Akpa ego ahụ malitere ekpochi; `walletpassphrase "<pass>" <timeout>` na-emechi ya maka oge enyere ma mechie onwe gị mgbe ọ gwụchara  kwekọrọ n'omume obere akpa ego Bitcoin Core.
+A na-ekpuchi mnemonic ahụ site na passphrase (age scrypt) kama faịlụ njirimara. E-akpa ego na-amalite ekpochiri; `walletpassphrase "<pass>" <timeout>` na-emeghe ya maka oge enyere wee kpochie ya ọzọ na-akpaghị aka mgbe oge gwụsịrị — dabara na omume e-akpa ego ezoro ezo nke Bitcoin Core.
 
-Nke kachasị mma maka: obere akpa ọkụ ebe a na-achọghị ikike iji ego emefu; usoro ọrụ onye njikwa mmekọrịta.
+Kachasị mma maka: e-akpa ego hot ebe a naghị achọ ikike imefu ego na-enweghị nlekọta; usoro ọrụ onye na-arụ ọrụ na-emekọrịta.
 
 ```sh
 zecd init --datadir ./data --encrypt
 # later: walletpassphrase "my-passphrase" 300
 ```
 
-### 3. Nche-Naanị (UFVK  Ọ dịghị Spend Key)
+### 3. Nlele Naanị (UFVK — Enweghị Mkpịsị Ugodi Imefu Ego)
 
-Ejiri ya na Unified Full Viewing Key (UFVK) nke ebuputara site n'akpa ego ọzọ. Nwere ike ịnata, nyochaa ma kọọ nguzozi  mana enweghị ike ịbịanye aka na azụmahịa. Ezigbo maka nyocha, akwụkwọ ọnụahịa, ma ọ bụ ntinye ederede dị iche na obere akpa mbinye aka.
+A malitere ya site na Unified Full Viewing Key (UFVK) e bugara site n'e-akpa ego ọzọ. Ọ nwere ike ịnata, nyocha, ma kọọ ego fọdụrụ — mana enweghị ike ịbanye aka na Azụmahia. Ọ dabara nke ọma maka nlekota, ịnye invoice, ma ọ bụ node nyocha dị iche na e-akpa ego na-abanye aka.
 
 ```sh
 # On the signing wallet's host:
@@ -164,58 +164,58 @@ zecd init --datadir ./data-watch --ufvk "uview1..." --birthday <height>
 
 ---
 
-## Ndabere na Iweghachite
+## Ndabere na Mweghachi
 
-Enwere ike iweghachite ego site na naanị ihe ncheta. Ihe ọ bụla ọzọ bụ ebe nchekwa.
+Enwere ike iweghachi ego site na **mnemonic naanị**. Ihe ọ bụla ọzọ bụ cache.
 
-| Ihe ochie | Ọnọdụ | Ihe ọ na-echebe | Ịkwado azụ? |
+| Ihe | Ebe | Ihe ọ na-echebe | Mee ndabere? |
 |----------|----------|-----------------|----------|
-| **Mkpọpụta okwu iri abụọ na anọ** | Egosiri otu ugboro na `zecd init` | Ego ahụ — mfu = mfu na-adịgide adịgide | **Ee — n'ịntanetị (akwụkwọ/HSM)** |
-| `keys.toml` | `<wallet dir>/keys.toml` | Mkpụrụ ezoro ezo + ụbọchị ọmụmụ + netwọk | **Ee — dị ka ihe nzuzo** |
-| `identity.txt` | `[keys] age_identity` | Decrypt na-ewepụ njehie `keys.toml` (imefu ikike) | **Ee — iche na `keys.toml`** |
-| Ogologo ụbọchị ọmụmụ | N'ime `keys.toml` | Na-eme ka mgbake dị ngwa ngwa (ogologo ọ bụla tupu tx mbụ) | Dekọọ na ihe ncheta |
-| `data.sqlite` | `<wallet dir>/data.sqlite` | Cache obere akpa - arụgharịrị site na mkpụrụ mgbe eweghachiri ya | Mba — a na-atụfu ihe a na-atụfu |
-| `blocks/` | `<wallet dir>/blocks/` | Ebe nchekwa ngọngọ dị obere | Mba — ọ dịghị mgbe ị ga-ebufe ya; ọ nwere ike ito nke ukwuu |
-| `.cookie` | `<datadir>/.cookie` | Kuki RPC nke epemeral | Mba — emegharịrị ya na mmalite |
+| **mnemonic okwu 24** | E gosiri otu ugboro na `zecd init` | Ego — ọnwụ = ọnwụ na-adịgide adịgide | **Ee — offline (akwụkwọ/HSM)** |
+| `keys.toml` | `<wallet dir>/keys.toml` | Mkpụrụ ezoro ezo + ụbọchị ọmụmụ + netwọkụ | **Ee — dịka Secret** |
+| `identity.txt` | `[keys] age_identity` | Na-emeghe `keys.toml` (ikike imefu ego) | **Ee — iche na `keys.toml`** |
+| Elu ụbọchị ọmụmụ | N'ime `keys.toml` | Na-eme mweghachi ngwa ngwa (elu ọ bụla tupu tx mbụ) | Detuo ya na mnemonic |
+| `data.sqlite` | `<wallet dir>/data.sqlite` | Cache e-akpa ego — ewughachiri site na mkpụrụ mgbe mweghachi | Mba — ihe a pụrụ ịtụfu |
+| `blocks/` | `<wallet dir>/blocks/` | Cache block kọmpat | Mba — ebula ya; ọ nwere ike ibu nnukwu |
+| `.cookie` | `<datadir>/.cookie` | Kuki RPC nwa oge | Mba — e megharịrị mgbe mmalite |
 
-> **Directory data ga-abụ onye ọbịa.** zecd's single instance lock (`<datadir>/.lock`) bụ OS advisory mkpọchi  ọ dịghị span ụsụụ ndị agha. mgbe ịkọrọ a data directory agụ-dee gafee igwe (NFS, Kubernetes `ReadWriteMany`)  abụọ zecd instances ga-emerụ akpa ego DB. Jiri `ReadWriteOnce` mpịakọta na Kubernetes.
+> **Ndekọ data ga-abụrịrị nke host mpaghara.** Mkpọchi nke otu instance nke zecd (`<datadir>/.lock`) bụ mkpọchi ndụmọdụ OS — ọ naghị agafe hosts. Ekesala ndekọ data ka e gụọ ma dee n'ofe igwe (NFS, Kubernetes `ReadWriteMany`) — instance zecd abụọ ga-emebi DB e-akpa ego. Jiri olu `ReadWriteOnce` na Kubernetes.
 
 ---
 
-## Usoro RPC Safelist
+## Ndepụta Nchekwa Usoro RPC
 
-Maka nkenye ebe a ga-enwe ọdachi nke nzere, zecd na-akwado igbochi elu RPC ka usoro nhọrọ:
+Maka nrụnye ebe ntapu nzere ga-abụ ọdachi, zecd na-akwado ịmachibido elu RPC na obere usoro ahọpụtara:
 
 ```toml
 [rpc]
 allowed_methods = ["getblockchaininfo", "getbalance", "getnewaddress", "listtransactions"]
 ```
 
-Ụzọ ọ bụla na-adịghị n'ime ndepụta ahụ laghachiri `-32601` (HTTP 404)  enweghị ike ịmata ya site na usoro nke adịghị adị, n'ihi ya onye nkesa a kpọchiri akpọchi anaghị ekpughe ihe ọ bụla banyere ihe o mebiri. Onye natara akwụkwọ ọnụahịa nwere ike ịkwụsị ọrụ ahụ ma mee ka ndị ahịa ghara ịnweta ozi ha mgbe niile. `sendtoaddress`, `sendmany`, na `stop` iji belata radius mgbawa site na onye ahịa nwere nsogbu.
+Usoro ọ bụla na-adịghị na ndepụta na-eweghachi `-32601` (HTTP 404) — enweghị ihe dị iche na usoro na-adịghị adị, ya mere sava ekpochiri anaghị ekpughe ihe ọ gbanyụrụ. Onye na-enye invoice maka nnata naanị nwere ike gbanyụọ `sendtoaddress`, `sendmany`, na `stop` iji belata oke mbibi sitere n'aka onye ahịa e mebiri.
 
 ---
 
-## Isi ihe dị iche na Bitcoin Core RPC
+## Isi Ọdịiche na Bitcoin Core RPC
 
-Ndị mmepe na-esi n'ọrụ Bitcoin ma ọ bụ zcashd agagharị kwesịrị ịma maka ọdịiche ndị a:
+Ndị onye mmepụta na-esi na Bitcoin ma ọ bụ ngwá ọrụ zcashd kwaga kwesịrị ịma ọdịiche ndị a e bu n'obi:
 
-| Àgwà | Isi Bitcoin | zecd |
+| Omume | Bitcoin Core | zecd |
 |----------|-------------|------|
-| Ụdị adreesị | `1...` / `bc1...` | `u1...` (Unified Address) (Orchard) - enweghị ike ịkọwa ya dị ka adreesị Bitcoin site n'aka ndị ahịa na-akọwapụta eriri |
-| Aha ndị e ji mee ihe | Ụlọ ahịa akara zuru oke | Emebeghị ya - `setlabel`, `listlabels`, wdg. nloghachi `-32601` |
-| Ụgwọ | A na-ahazi onye ọrụ; ahịa ụgwọ | ZIP-317 naanị ihe dị mkpa; `settxfee`, `fee_rate`, `subtractfeefromamount` jụrụ na `-8` |
-| Ihe ncheta | Anaghị akwado ya | `sendtoaddress` na-anabata ozi hex; akụkọ ihe mere eme nwere `memo` + `memoStr` ubi |
-| Nkwenye imefu ego | 1 | 3 (mgbanwe nkeonwe) / 10 (ndị ọzọ) — enwere ike ịhazi site na `trusted_confirmations` / `untrusted_confirmations` |
-| `listsinceblock` na nhazigharị | Na-aga azụ na ndụdụ | Nlaghachi `-5` (Achọtaghị ngọngọ) ọ bụrụ na e weghachitere cursor — weghachite ntọala na oku na-enweghị paramita |
-| Ndị nnata abụọ na `sendmany` | Njehie | JSON parser na-agbaji ihe abụọ (mmeri ikpeazụ) tupu zecd ahụ ha — edekwala otu adreesị ahụ ugboro abụọ |
-| Balance during initial sync | Blọk ma ọ bụ ikpo ọkụ | Na-arụ ọrụ nguzozi nkebi — akpaghị aka ọnụ ụzọ ámá na-arụ ọrụ `GET /readyz` (na-eweghachi 503 ruo mgbe emechara njikọ zuru oke ma wepụ ihe ndị metụtara nkwalite) |
-| `minconf 0` in `getbalance` | Nha nha 0-conf | E nyere ya dịka 1 — ego echekwara agaghị emefu ego a na-egwupụtaghị |
+| Ụdị adreesị | `1...` / `bc1...` | `u1...` (Adreesị Njikọrịta Orchard) — ndị ahịa na-enyocha string enweghị ike ịkọwa ya dịka adreesị Bitcoin |
+| Labels | Ebe nchekwa label zuru ezu | Emebeghị ya — `setlabel`, `listlabels`, wdg. na-eweghachi `-32601` |
+| Ugwo | Onye ọrụ na-ahazi; ahịa ugwo | ZIP-317 ekpebiela naanị; `settxfee`, `fee_rate`, `subtractfeefromamount` ka a na-ajụ na `-8` |
+| Memo | Akwadoghị | `sendtoaddress` na-anabata memo hex; akụkọ nwere ogige `memo` + `memoStr` |
+| Nkwenye iji mefu | 1 | 3 (mgbanwe nke onwe) / 10 (onye nke atọ) — a pụrụ ịhazi ya site na `trusted_confirmations` / `untrusted_confirmations` |
+| `listsinceblock` n'oge reorg | Na-alaghachi na fork | Na-eweghachi `-5` (Ahụghị Block) ma ọ bụrụ na ewepụrụ cursor na reorg — jiri oku na-enweghị parampat tọọ ntọala ọzọ |
+| Ndị nnata abụọ n'ime `sendmany` | Njehie | JSON parser na-ejikọta ndị abụọ (nke ikpeazụ meriri) tupu zecd ahụ ha — edepụtala otu adreesị ugboro abụọ |
+| Ego fọdụrụ n'oge sync mbụ | Na-egbochi ma ọ bụ na-ekpo ọkụ | Na-enye ego fọdụrụ akụkụ ụfọdụ — jiri `GET /readyz` chịkwaa automation (na-eweghachi 503 ruo mgbe sync zuru oke ma wepụ backlog nkwalite) |
+| `minconf 0` n'ime `getbalance` | Ego fọdụrụ 0-conf | A na-enye ya dịka 1 — note e chebere echebe anaghị enwe ike imefu mgbe a na-egwupụtabeghị ya |
 
 ---
 
-## Mmalite ngwa-ngwa
+## Mmalite Ngwa Ngwa
 
-** Ihe ndị dị mkpa:** Zebra na-agba ọsọ n'ógbè ahụ. `rpc.listen_addr = 127.0.0.1:18234` (nza ule).
+**Ihe achọrọ tupu e amalite:** Zebra na-agba n'ógbè nwere `rpc.listen_addr = 127.0.0.1:18234` (testnet).
 
 Wụnye site na crates.io (0.4.3+):
 
@@ -223,7 +223,7 @@ Wụnye site na crates.io (0.4.3+):
 cargo install zecd
 ```
 
-Ma ọ bụ wuo site na isi iyi:
+Ma ọ bụ wuo site na isi mmalite:
 
 ```sh
 git clone https://github.com/zecrocks/zecd && cd zecd
@@ -239,7 +239,7 @@ zecd --datadir ./data --testnet \
     --rpcuser zec --rpcpassword secret --rpcbind 127.0.0.1 --rpcport 18232
 ```
 
-** Na-emekọrịta site na curl:**
+**Jiri curl emekọrịta:**
 
 ```sh
 curl -s --user zec:secret --data-binary \
@@ -247,7 +247,7 @@ curl -s --user zec:secret --data-binary \
   -H 'content-type: text/plain;' http://127.0.0.1:18232/
 ```
 
-** Na-emekọrịta site na Python (iji ọbá akwụkwọ Bitcoin RPC):**
+**Jiri Python emekọrịta (iji ọbá akwụkwọ Bitcoin RPC):**
 
 ```python
 from bitcoinrpc.authproxy import AuthServiceProxy
@@ -261,7 +261,7 @@ print(rpc.listtransactions("*", 20))
 rpc.sendtoaddress(addr, 0.001, "", "", False, "48656c6c6f205a6563617368")  # hex memo
 ```
 
-** Na-eweghachi site na mkpụrụ:**
+**Weghachi site na mkpụrụ:**
 
 ```sh
 zecd --datadir ./data init --restore --birthday 2500000
@@ -270,12 +270,12 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 ---
 
-## Port ndị a na-ahọrọghị ahọpụtara
+## Ports Ndabara
 
-| Netwọk | zecd RPC | Zebra RPC (azụ azụ) | Ahụike |
+| Netwọkụ | RPC zecd | RPC Zebra (backend) | Ahụike |
 |---------|----------|---------------------|--------|
 | Mainnet | 8232 | 8234 | 9233 |
-| Netwọk Nnwale | 18232 | 18234 | 9233 |
+| Testnet | 18232 | 18234 | 9233 |
 
 ---
 
@@ -283,34 +283,34 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 | | zcashd | Zaino | zecd |
 |--|--------|-------|------|
-| Ọrụ | Ọnụ zuru ezu + obere akpa | Indexer (na-anọchi lightwalletd) | Naanị ihe nkesa obere akpa |
-| Asụsụ | C++ | Nchara | Nchara |
-| Ọkwa | Akwụsịla | Na-arụ ọrụ | Na-arụ ọrụ (v0.5.0-rc3, Julaị 2026) |
-| Ọdọ mmiri ndabara | Ihe doro anya | N/A | Orchard (nke e ji ihe nchekwa kpuchie) |
-| Asụsụ RPC | zcashd-specific | gRPC (lightwalletd) | Isi Bitcoin JSON-RPC |
-| Chọrọ node zuru oke | Ee (onwe gị) | Zebra ma ọ bụ zcashd | Zebra |
-| Mgbake na-enweghị steeti | No | N/A | Ee (naanị mkpụrụ) |
-| Ihe ncheta echekwara | Ee (`z_sendmany`) | N/A | Ee (elu Bitcoin RPC) |
-| Naanị elekere anya (UFVK) | Ee | Ee | Ee |
-| Igwe ojii | No | N'akụkụ nkebi | Ee |
-| Wụnye | Mwube/abụọ | Wuo | `cargo install zecd` |
+| Ọrụ | Full node + e-akpa ego | Indexer (na-edochi lightwalletd) | Sava e-akpa ego naanị |
+| Asụsụ | C++ | Rust | Rust |
+| Ọnọdụ | Agwụla | Na-arụ ọrụ | Na-arụ ọrụ (v0.5.0-rc3, Julaị 2026) |
+| Pool ndabara | Oha | N/A | Orchard (nke e chebere echebe) |
+| Olumba RPC | Nke pụrụ iche nke zcashd | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
+| Chọrọ full node | Ee (onwe ya) | Zebra ma ọ bụ zcashd | Zebra |
+| Mweghachi na-enweghị ọnọdụ | Mba | N/A | Ee (mkpụrụ naanị) |
+| Memo e chebere echebe | Ee (`z_sendmany`) | N/A | Ee (elu Bitcoin RPC) |
+| Nlele naanị (UFVK) | Ee | Ee | Ee |
+| Nke sitere n'igwe ojii | Mba | Akụkụ ụfọdụ | Ee |
+| Wụnye | Wuo/binary | Wuo | `cargo install zecd` |
 
 ---
 
-## Peeji ndị metụtara ya
+## Peeji Ndị Metụtara Ya
 
-- [Zebra Full Node (Nọmba zuru ezu)](Zebra_Full_Node.md)  zuru ọnụ zecd jikọọ na-
-- [Zaino Indexer (Nkọwapụta)](Zaino.md)  ọzọ indexer obibia (anọchi lightwalletd)
-- [Zakura Node (Nọmba nke Zaku)](Zakura_Node.md)  ọzọ zuru ọnụ mmejuputa iwu (fork nke Zebra)
-- [Igodo Nlele](Viewing_Keys.md)  otú zecd si enyocha agbụ ahụ site na iji igodo nlele akaụntụ.
-- [Akpa ego](/using-zcash/wallets)  ihe gbasara ego n'akpa uwe.
+- [Zebra Full Node](Zebra_Full_Node.md) — full node nke zecd na-ejikọ na ya
+- [Zaino Indexer](Zaino.md) — usoro indexer ọzọ (na-edochi lightwalletd)
+- [Zakura Node](Zakura_Node.md) — mmejuputa full node ọzọ (fork nke Zebra)
+- [Viewing Keys](Viewing_Keys.md) — otu zecd si eji mkpịsị ugodi nlele akaụntụ enyocha chain
+- [E-akpa ego](/using-zcash/wallets) — nchịkọta gburugburu e-akpa ego
 
-## Akụnụba
+## Akụrụngwa
 
 - [zecd GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
-- [zecd Operations Runbook (Akwụkwọ ndekọ ọrụ nke ụlọọrụ na-ahụ maka mmepe)](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
+- [zecd Akwụkwọ ntuziaka arụmọrụ](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
 - [zec.rocks](https://zec.rocks)
-- [librustzcash  isi Zcash cryptography library](https://github.com/zcash/librustzcash)
-- [ZIP-317: Usoro Nkwụnye ego Ntugharị nke ruru eru.](https://zips.z.cash/zip-0317)
-- [ZIP-302: Nchekwa Memos echekwara](https://zips.z.cash/zip-0302)
-- [Akpa ego Zodl (librustzcash-dakọtara)](https://github.com/zodl-inc/zodl-ios)
+- [librustzcash — ọbá akwụkwọ cryptography isi nke Zcash](https://github.com/zcash/librustzcash)
+- [ZIP-317: Usoro Ugwo Mbufe Ruru Ọnụ](https://zips.z.cash/zip-0317)
+- [ZIP-302: Memo Ndị E Chebere Echebe](https://zips.z.cash/zip-0302)
+- [Zodl e-akpa ego (dakọtara na librustzcash)](https://github.com/zodl-inc/zodl-ios)

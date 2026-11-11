@@ -4,12 +4,11 @@
 
 # Arborist Calls
 
-Zcash Arborist Calls 是定期举行的协议开发会议，重点关注网络升级规划、共识节点实现工作、wallet 和基础设施依赖项，以及协议研究。
+Zcash Arborist Calls 是定期举行的协议开发者 [developer] 会议，重点讨论网络升级 [network upgrade] 规划、共识 [consensus] 节点 [node] 实现工作、钱包 [wallet] 与基础设施依赖项，以及协议研究。
 
-官方的 Arborist Calls 页面由 Zcash Foundation 维护：
+官方 Arborist Calls 页面由 Zcash Foundation 维护：
 
-**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
-
+**[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)****
 
 <p>
   <a
@@ -22,29 +21,28 @@ Zcash Arborist Calls 是定期举行的协议开发会议，重点关注网络�
 
 ## 如何加入
 
-会议在两个固定时段之间轮换举行，以便不同地区的贡献者都能参与。请使用 Zcash Foundation 官方页面获取最新的日历文件和 Zoom 链接：
+会议在两个定期时段之间交替举行，以便不同地区的贡献者参与。请使用官方 Zcash Foundation 页面获取当前日历文件和 Zoom 链接：
 
 - **15:00 UTC** 时段
 
+由于会议链接可能变更，基金会页面是注册链接、日历文件和会议访问方式的权威来源。
 
-由于会议链接可能会变更，因此 Foundation 页面是注册链接、日历文件和会议访问方式的权威来源。
-
-## 笔记、议程与录像
+## Note、议程和录音
 
 - 完整议程和会议纪要：[arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- 本维基上的可搜索存档：[Arborist Calls 存档](/arborist-calls)
+- 本 wiki 上可搜索的存档：[Arborist Calls 存档](/arborist-calls)
 - 最近的录音：[Zcash Arborist Call 播放列表](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
 - Zcash R&D 讨论：[Zcash R&D Discord](https://discord.gg/xpzPR53xtU)
-- 长篇讨论：[Zcash 社区论坛](https://forum.zcashcommunity.com/)
+- 长篇讨论：[Zcash Community Forum](https://forum.zcashcommunity.com/)
 
 ## 谁应该参加
 
-Arborist Calls 适合以下人群：
+Arborist Calls 对以下人群很有帮助：
 
 - 协议工程师和研究人员
-- 节点、wallet、SDK 以及 lightwallet 基础设施开发者
-- 工作涉及共识、网络升级或协议依赖项的资助接受者
-- 希望公开跟进技术决策过程的社区成员
+- 节点、钱包、SDK 和 lightwallet 基础设施开发者
+- 工作涉及共识、网络升级或协议依赖项的拨款 [grant] 获得者
+- 希望公开关注技术决策过程的社区成员
 
 ## 播放列表
 
@@ -52,7 +50,7 @@ Arborist Calls 适合以下人群：
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=lFFtNRmUsdmSQ1qM&list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G"
-    title="Zcash Arborist Call Playlist"
+    title="Zcash Arborist Call 播放列表"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

@@ -1,24 +1,24 @@
-# Zcashのマイニングプール
+# Zcash マイニング（Mining）プール（Pools）
 
-## Zcashのマイニングプールとは？
+## Zcash マイニングプールとは何ですか？
 
-Zcashのマイニングプールは、個々のマイナーが計算能力（ハッシュレート）を組み合わせることを可能にするサービスです。リソースをプールすることで、参加者はネットワークのブロックを解く確率を高め、ソロマイニングの予測不可能な宝くじのような仕組みに頼るのではなく、一貫したより少額の報酬を得られます。
-
----
-
-## Zcashのマイニングプール一覧:
+Zcash マイニングプールは、個々のマイナー（miners）が計算能力（ハッシュレート（hashrate））を結集できるサービスです。リソースをプールすることで、参加者はネットワークのブロック（blocks）を解決する確率を高め、ソロマイニングの予測不能な抽選システムに頼るのではなく、安定した少額の支払いを得られます。
 
 ---
 
-### [Slush Pool（Braiins Pool）](https://braiins.com/pool)
+## Zcash マイニングプールの一覧：
+
+---
+
+### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
 
 <a href="https://braiins.com/pool">
     <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
 </a>
 
-- ウェブサイト: [Slush Pool（Braiins Pool）](https://braiins.com/pool)
-- プライベート支払い: YES
-- プールタイプ: Pay Per Share
+- ウェブサイト: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
+- 非公開支払い: はい
+- プールタイプ: シェアごとの支払い（Pay Per Share）
 - プール手数料: 2%
 
 ---
@@ -30,8 +30,8 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [Luxor](https://luxor.tech/)
-- プライベート支払い: YES
-- プールタイプ: Pay Per Share
+- 非公開支払い: はい
+- プールタイプ: シェアごとの支払い
 - プール手数料: 3%
 
 ---
@@ -43,8 +43,8 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [Flypool](https://zcash.flypool.org/)
-- プライベート支払い: YES
-- プールタイプ: Pay Per Last N 
+- 非公開支払い: はい
+- プールタイプ: 直近Nシェアごとの支払い（Pay Per Last N）
 - プール手数料: 1%
 
 ---
@@ -56,8 +56,8 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [2Miners](https://zec.2miners.com/)
-- プライベート支払い: No
-- プールタイプ: Pay Per Last N 
+- 非公開支払い: いいえ
+- プールタイプ: 直近Nシェアごとの支払い
 - プール手数料: 1%
 
 ---
@@ -69,8 +69,8 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [Nanopool](https://zec.nanopool.org/)
-- プライベート支払い: No
-- プールタイプ: Pay Per Last N 
+- 非公開支払い: いいえ
+- プールタイプ: 直近Nシェアごとの支払い
 - プール手数料: 1%
 
 ---
@@ -82,8 +82,8 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [Poolin](https://www.poolin.com/)
-- プライベート支払い: No
-- プールタイプ: Pay Per Share
+- 非公開支払い: いいえ
+- プールタイプ: シェアごとの支払い
 - プール手数料: 3%
 
 ---
@@ -95,8 +95,8 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [Antpool](https://v3.antpool.com/home)
-- プライベート支払い: No
-- プールタイプ: Pay Per Share
+- 非公開支払い: いいえ
+- プールタイプ: シェアごとの支払い
 - プール手数料: 3%
 
 ---
@@ -108,21 +108,21 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [ViaBTC](https://www.viabtc.com/en/)
-- プライベート支払い: No
-- プールタイプ: Pay Per Share+
+- 非公開支払い: いいえ
+- プールタイプ: シェアごとの支払い+
 - プール手数料: 4%
 
 ---
 
-### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
+### [Foundry Zcash マイニングプール](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
     <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
-- ウェブサイト: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
-- プライベート支払い: No
-- プールタイプ: Pay Per Last N Shares
+- ウェブサイト: [Foundry Zcash マイニングプール](https://foundrydigital.com/foundry-zcash-pool/)
+- 非公開支払い: いいえ
+- プールタイプ: 直近Nシェアごとの支払い
 - プール手数料: 非公開
 
 ---
@@ -134,9 +134,9 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [suprnova](https://zec.suprnova.cc/)
-- プライベート支払い: No
-- プールタイプ: Pay Per Last N Shares
-- プール手数料: 0,5% - 1%
+- 非公開支払い: いいえ
+- プールタイプ: 直近Nシェアごとの支払い
+- プール手数料: 0.5% - 1%
 
 ---
 
@@ -147,19 +147,19 @@ Zcashのマイニングプールは、個々のマイナーが計算能力（ハ
 </a>
 
 - ウェブサイト: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- プライベート支払い: Bitcoin (BTC) で支払い
-- プールタイプ: Hashrate Marketplace / Proxy Pool
-- プール手数料: 0,5% - 1%
+- 非公開支払い: Bitcoin（BTC）で支払いを受けます
+- プールタイプ: ハッシュレートマーケットプレイス / プロキシプール
+- プール手数料: 0.5% - 1%
 
 ---
 
-### [Sovright Mining Pool](https://mining.sovright.com/)
+### [Sovright マイニングプール](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
     <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
 </a>
 
-- ウェブサイト: [Sovright Mining Pool](https://mining.sovright.com/)
-- プライベート支払い: YES
-- プールタイプ: Pay Per Last N Shares (PPLNS)
+- ウェブサイト: [Sovright マイニングプール](https://mining.sovright.com/)
+- 非公開支払い: はい
+- プールタイプ: 直近Nシェアごとの支払い（PPLNS）
 - プール手数料: 1%

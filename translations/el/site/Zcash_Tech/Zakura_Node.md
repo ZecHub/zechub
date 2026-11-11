@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zakura_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Κόμβος Zakura
@@ -49,7 +49,7 @@
 
 ### Εγγενές pruning μπλοκ
 
-Το Zakura υποστηρίζει παραμετροποιήσιμο pruning μπλοκ, επιτρέποντας στους χειριστές κόμβων να ορίσουν πόσο ιστορικό της αλυσίδας θα διατηρούν. Αυτό καθιστά πρακτική την εκτέλεση πλήρους κόμβου σε hardware με περιορισμένο χώρο αποθήκευσης — χρήσιμο για validators, προγραμματιστές και παρόχους υποδομής που δεν χρειάζονται ολόκληρη την ιστορική αλυσίδα.
+Το Zakura υποστηρίζει παραμετροποιήσιμο pruning μπλοκ, επιτρέποντας στους χειριστές κόμβων να ορίσουν πόσο ιστορικό της αλυσίδας θα διατηρούν. Αυτό καθιστά πρακτική την εκτέλεση πλήρους κόμβου σε hardware με περιορισμένο χώρο αποθήκευσης — χρήσιμο για επικυρωτές, προγραμματιστές και παρόχους υποδομής που δεν χρειάζονται ολόκληρη την ιστορική αλυσίδα.
 
 ### Λειτουργία συμβατότητας RPC zcashd
 
@@ -75,7 +75,7 @@
 
 Τον Αύγουστο του 2026, η ομάδα Zakura κυκλοφόρησε το Zakura Common, ένα σύνολο επιταχυνόμενων forks των βιβλιοθηκών κρυπτογραφίας στις οποίες βασίζονται τα πορτοφόλια και οι κόμβοι Zcash. Το Zakura μετακινήθηκε στη νέα στοίβα στην έκδοση 1.3.0 και το πορτοφόλι Vizor είναι μεταξύ των πρώτων πορτοφολιών που την ενσωμάτωσαν.
 
-![Private Zcash payment: zk-SNARK verification 4 to 8 times faster, transaction building from over 3 seconds to under 200 ms, proof generation over 14 times faster on mobile, hashing 21 times faster, trial decryption 1.5 times faster, and open source libraries that need no protocol upgrade](/content-images/zakuracommonspeedups.webp)
+![Ιδιωτική πληρωμή Zcash: επαλήθευση zk-SNARK 4 έως 8 φορές ταχύτερη, δημιουργία συναλλαγών από πάνω από 3 δευτερόλεπτα σε λιγότερο από 200 ms, παραγωγή αποδείξεων πάνω από 14 φορές ταχύτερη σε κινητό, κατακερματισμός 21 φορές ταχύτερος, δοκιμαστική αποκρυπτογράφηση 1,5 φορές ταχύτερη και βιβλιοθήκες ανοιχτού κώδικα που δεν χρειάζονται αναβάθμιση πρωτοκόλλου](/content-images/zakuracommonspeedups.webp)
 
 Σύμφωνα με τα δικά του benchmarks Zakura:
 

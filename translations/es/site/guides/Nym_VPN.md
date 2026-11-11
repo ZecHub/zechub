@@ -1,8 +1,8 @@
 # Nym VPN 
 
-Nym es una red mixta (mixnet) en evolución, un tipo de infraestructura de red informática para la privacidad que oculta los metadatos del usuario, separando las direcciones IP de origen y destino. Anonimiza varios tipos de comunicación, incluyendo mensajería, transferencia de archivos, transacciones de pago y navegación web en sitios web básicos. El proyecto está construido sobre software libre y de código abierto, y está descentralizado, mantenido por un conjunto distribuido de nodos independientes en todo el mundo. ¡Nym VPN & Mixnet acepta pagos en ZEC blindado!
+Nym es una red de mezcla (mixnet) en evolución, un tipo de infraestructura de red informática para la privacidad [privacy] que oculta los metadatos de los usuarios y separa las direcciones IP de origen y destino. Anonimiza diversos tipos de comunicación, incluidos los mensajes, las transferencias de archivos, las transacciones de pago [payment] y la navegación web en sitios web básicos. El proyecto se basa en software libre y de código abierto y es descentralizado [decentralized], mantenido por un conjunto distribuido de nodos [nodes] independientes en todo el mundo. Nym VPN & Mixnet acepta pagos en ZEC blindado [shielded]. 
 
-[Publicación del blog de Nym](https://nym.com/blog/nymvpn-with-zcash) | [Descargar Nym VPN](https://nym.com)
+[NymArtículo de blog](https://nym.com/blog/nymvpn-with-zcash) | [Descargar Nym VPN](https://nym.com)
 
 ## Tutorial
 
@@ -10,7 +10,7 @@ Nym es una red mixta (mixnet) en evolución, un tipo de infraestructura de red i
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/gSeECj4ddYA"
-    title="Cómo comprar NymVPN con Zcash (ZEC)"
+    title="How to Buy NymVPN with Zcash (ZEC)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -18,42 +18,42 @@ Nym es una red mixta (mixnet) en evolución, un tipo de infraestructura de red i
 </div>
    
 
-### Accede a contenido restringido geográficamente
+### Accede a contenido con restricciones geográficas
 
-Elude las restricciones geográficas para acceder a servicios de streaming, sitios web o contenido no disponible en tu región.
+Evita las restricciones geográficas para acceder a servicios de streaming, sitios web o contenido no disponible en tu región.
 
-### Refuerza tu seguridad en redes WiFi públicas
+### Mejora tu seguridad en redes WiFi públicas
 
-Protege tus datos de los hackers cuando uses redes Wi-Fi públicas en cafeterías, aeropuertos u hoteles.
+Protege tus datos de los hackers al usar redes Wi-Fi públicas en cafeterías, aeropuertos u hoteles.
 
-### Privacidad avanzada en uno
+### Privacidad avanzada en un solo lugar
 
-Protege tu privacidad  
-Cifra tu conexión a internet para ocultar tus actividades en línea de los ISP, anunciantes y rastreadores de datos.
+Protege tu privacidad.
+Cifra tu conexión a internet para ocultar tus actividades en línea de los proveedores de servicios de internet, anunciantes y rastreadores de datos.
 
-### Sé anónimo en línea
+### Mantente anónimo en línea
 
 Oculta tu dirección IP para permanecer anónimo mientras navegas, evitando la elaboración de perfiles o los anuncios dirigidos.
 
-### Evita la limitación de ancho de banda
+### Evita la limitación del ancho de banda
 
-Impide que los ISP ralenticen tu conexión a internet cuando haces streaming o juegas.
+Evita que los proveedores de servicios de internet reduzcan la velocidad de tu conexión a internet al hacer streaming o jugar.
 
 ### Evita la vigilancia y la censura
 
-Elude la censura y accede a sitios web o redes sociales bloqueados en países restrictivos.
+Evita la censura y accede a sitios web o redes sociales bloqueados en países restrictivos.
 
-### Banca en línea segura
+### Protege tu banca en línea
 
-Protege la información financiera sensible al acceder a la banca en línea o realizar pagos.
+Protege la información financiera confidencial al acceder a la banca en línea o realizar pagos.
 
 ### Evita los precios dinámicos
 
-Oculta tu ubicación para evitar la discriminación de precios basada en la ubicación para vuelos, hoteles o productos.
+Oculta tu ubicación para evitar la discriminación de precios basada en la ubicación en vuelos, hoteles o productos.
 
-### Protege tus transacciones de cripto
+### Protege tus transacciones de criptomonedas
 
-Protege tus actividades con criptomonedas con los pagos no vinculables de NymVPN y la protección avanzada de metadatos.
+Protege tus actividades con criptomonedas con los pagos invinculables [unlinkable] de NymVPN y la protección avanzada de metadatos.
 
 
 ## Guías de instalación de Nym VPN:
@@ -67,4 +67,4 @@ Protege tus actividades con criptomonedas con los pagos no vinculables de NymVPN
 [Android](https://vimeo.com/1096218590?share=copy)
 
 
-Conoce la [integración de Nym x Zcash](https://nym.com/blog/zcash-ltgt-nym)
+Conoce la integración de [Nym x Zcash](https://nym.com/blog/zcash-ltgt-nym)

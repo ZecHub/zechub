@@ -1,99 +1,99 @@
-# Zero to Zero Knowledge: Hash Dɔwɔnawo
+# Zero to Zero Knowledge: Hash ƒe dɔwɔnuwo [Hash Functions]
 
-**Series ƒe ŋgɔdonya** 
-Míexɔ mi nyuie ɖe nu yeye siwo kplɔ wo nɔewo ɖo me: **Zero to Zero Knowledge**! 
+**Ƒeƒle ƒe gɔmedzedze**  
+Woezɔ na mi le ƒeƒle yeye sia me: **Zero to Zero Knowledge**!  
 
-Le nyati sia me la, míasrɔ̃ nu vevi siwo ku ɖe mɔ̃ɖaŋununya vovovo siwo yia míaƒe ameŋunyatakakawo takpɔkpɔ ƒe ɖoɖowo me ŋu.
+Le ƒeƒle sia me la, míeasrɔ gɔmedzedzeƒe nyanya tso teknolojia vovovo geɖe siwo wozãna le míaƒe ɣaɣla ƒe protocolwo me ŋu.
 
 ---
 
-## Akpa 1: Hash ƒe Dɔwɔwɔwo
+## Akpa 1: Hash ƒe dɔwɔnuwo
 
-Egbea míedze egɔme kple **Hash Functions** - nya ɣaɣlawo ƒe akpa vevi aɖe si wozãna le blockchains me. Emegbe le nyati sia si kplɔ wo nɔewo ɖo me la, míaƒo nu tso nyati aɖewo siwo ɖoa ŋu ɖe woƒe nunɔamesiwo ŋu la ŋu.
+Egbe míedze egɔme kple **Hash ƒe dɔwɔnuwo [Hash Functions]** - cryptography ƒe akpa vevi aɖe si wozãna le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonuwo me. Le ƒeƒle sia me megbe la, míatsɔ nya aɖewo siwo ɖo wɔnɔwo ɖe eƒe nɔnɔwo ŋu aɖe.
 
-### Nukae nye Hash Function?
+### Nu kae nye Hash ƒe dɔwɔnu?
 
-Hash Functions xɔa input si didi ɖesiaɖe eye wòwɔa output si ƒe didime woɖo ɖi.
+Hash ƒe dɔwɔnuwo xɔ nu si ƒe didime ate ŋu anɔ aleke kee, eye wowɔ eme na nuɖeɖe si ƒe didime le ɖoɖo me.
 
-- **Gbedasi si woatsɔ awɔ hash** = Nyawo tsɔtsɔ de eme 
-- **Algorithm si wozãna** = Hash Function 
-- **Emetsonu si do tso eme** = Hash Value 
+- **Mesedzi si woawɔ hash na** = Nudzɔdzɔ  
+- **Algorithm si wozãna** = Hash ƒe dɔwɔnu  
+- **Nuɖeɖe si do tso eme** = Hash ƒe asixɔxɔ  
 
 
 ![Hash Function diagram](/content-images/Fn_NkFHXgAEtgse-474c24c373.webp)
 
-### Wò ŋutɔ te ekpɔ!
+### Wò ŋutɔ nàte ŋu ado eŋu!
 
-Mina míase nu gɔme le asi me to dɔwɔnu sia zazã me! 
-Ŋlɔ nuŋɔŋlɔ ɖesiaɖe si nèdi be nàkpɔ emetsonu si ƒe didime woɖo ɖi. Lé ŋku ɖe alesi emetsonua toa vovo le hashing algorithm vovovoawo nu.
+Mina míakpɔ egɔme kple asiɖeɖe le dɔwɔnu sia zãm!  
+Ɖo nuŋlɔɖi ɖe eme aleke kee be nàkpɔ nuɖeɖe si ƒe didime le ɖoɖo me. Kpɔ ale si nuɖeɖe la trɔna ɖe hash wɔwɔ ƒe algorithm vovovowo nu.
 
-**Tee kpɔ:** https://cryptii.com/pipes/hash-function
-
----
-
-### Cryptographic Hash Dɔwɔnawo ƒe Nɔnɔmewo
-
-Ele be **nɔnɔme 3 siawo** nanɔ Cryptographic Hash Functions si:
-
-1. **Mɔ ɖeka** - Ele be wòanye nusi mate ŋu adzɔ o be woatrɔ hash dɔwɔwɔ 
-2. **Collision Resistant** - Mele be input vovovo eve nawɔ hash ɖe output ɖeka dzi o 
-3. **Deterministic** - Le nyawo tsɔtsɔ de eme ɖesiaɖe gome la, ele be hash dɔwɔwɔ nana emetsonu ɖeka ɣesiaɣi
+**Do eŋu:** https://cryptii.com/pipes/hash-function
 
 ---
 
-### Hash ƒe Dɔwɔwɔ Siwo Bɔ
+### Cryptographic Hash ƒe dɔwɔnuwo ƒe nɔnɔwo
 
-Hash Functions ƒe hatsotso vovovowo li. Kpɔɖeŋu aɖewo:
+Cryptographic Hash ƒe dɔwɔnuwo ele be woanɔ kple **nɔnɔ 3 siawo**:
 
-- Dedienɔnɔ ƒe Hashing Algorithm (**SHA-3**) 
-- Gbedasɛ Digest ƒe Dɔwɔɖoɖo 5 (**MD5**) 
-- **BLAKE2b** - Wozãnɛ le Zcash safui ƒe dzɔtsoƒe me
-
-**Ŋgɔdonya aɖe na BLAKE2**: https://www.blake2.net
+1. **Mɔ ɖeka** - Eŋu nɔa vevie be wòatrɔ hash ƒe dɔwɔnu aɖe ƒe dɔwɔwɔ megbe  
+2. **Woɖea woaƒe teƒe vovovo** - Nudzɔdzɔ vovovo eve mate ŋu awɔ hash ɖe nuɖeɖe ma ke ŋu o  
+3. **Wɔwɔ si mele trɔtrɔ me o** - Na nudzɔdzɔ ɖe sia ɖe, hash ƒe dɔwɔnu aɖe ana nuɖeɖe ma ke ɣe sia ɣe
 
 ---
 
-### Hash Dɔwɔnawo Zazã le Xexeame Ŋutɔŋutɔ
+### Hash ƒe dɔwɔnu siwo wozãna zi geɖe
 
-#### 1. Integrity Hashing (Nyatakakawo ƒe Fɔmaɖimaɖi Me Dzodzro)
-Nyatakakawo ƒe blibonyenye me dzodzro nye "Integrity Hashing" ƒe kpɔɖeŋu. Wozãa wo tsɔ wɔa checksums le data files dzi eye wonaa kakaɖedzi be wosɔ na ezãla.
+Hash ƒe dɔwɔnu ƒe ƒomevi geɖe li. Woƒe kpɔɖeŋu aɖewo nye:
+
+- Secure Hashing Algorithm (**SHA-3**)  
+- Message Digest Algorithm 5 (**MD5**)  
+- **BLAKE2b** - Wozãna le Zcash ƒe kɔkɔe kplɔɖeɖe me
+
+**Gɔmedzedze na BLAKE2**: https://www.blake2.net
+
+---
+
+### Hash ƒe dɔwɔnuwo ƒe zãzã le xexeame
+
+#### 1. Nyatakakawo ƒe blibonyenye hash wɔwɔ (Nyatakakawo ƒe blibonyenye ƒe kpekpeɖeŋuwo)
+Nyatakakawo ƒe blibonyenye ƒe kpekpeɖeŋuwo nye "Nyatakakawo ƒe blibonyenye hash wɔwɔ" ƒe kpɔɖeŋu aɖe. Wozãna wo be woawɔ checksumwo na nyatakaka ƒe faɛlwo, eye woana kakaɖedzi na ezãla aɖe be nuwo le ete ŋu.
 
 ![Integrity Hashing example](/content-images/Fn_Or0MWIAI6sgx-9aab89b808.webp)
 
-#### 2. Merkle Atiwo (Hash Atiwo)
-**hash tree** alo **Merkle tree** nye alɔwo kple aŋgba ƒe node siwo wotsɔ data block ƒe cryptographic hash de dzesii.
+#### 2. Merkle ƒe atiwo (Hash ƒe atiwo)
+**Hash ƒe ati** alo **Merkle ƒe ati** wɔe kple alɔ̃wo kple atiaƒe ƒe ɣaɣla dzesi ŋɔŋlɔwo, siwo dzi wode cryptographic hash na nyatakaka ƒe gaɖoɖowo ƒuƒoƒe aɖe.
 
 ![Merkle Tree diagram](/content-images/Fn_O7ndWIAY5PA-8e30e442ed.webp)
 
-Merkle atiwo nye **cryptographic commitment scheme** ƒe kpɔɖeŋu. Wobua ati ƒe Ke be enye ɖokuitsɔtsɔna eye aŋgba ƒe ƒuƒoƒo siwo woɖo kpe edzi be wonye ɖokuitsɔtsɔna gbãtɔ ƒe akpa aɖe.
+Merkle ƒe atiwo nye **cryptographic adzɔgbeɖeɖe ƒe ɖoɖo** ƒe kpɔɖeŋu aɖe. Wokpɔna ati la ƒe Root be enye adzɔgbeɖeɖe, eye wode ɖase be atiaƒe ƒe ɣaɣla dzesi ŋɔŋlɔwo le adzɔgbeɖeɖe gɔmedze la me.
 
-Woɖoa kpe nyatakaka siwo wodzra ɖo alo wotsɔ yi P2P networkwo dzi dzi, eye wokpɔa egbɔ be wometrɔ nyatakaka siwo woxɔ tso hatiwo gbɔ o.
+Wonɔa nyatakaka si wode ɖe P2P networkwo dzi alo si wotra la kpɔm, eye wonye be nyatakaka si tso wɔnɔviwo gbɔ va la metrɔ o.
 
-#### 3. De dzesi Ðokuitsɔtsɔna Ati le Zcash me
-Le Zcash **Sapling** & **Orchard** shielded pools me la, wozãa **Note Commitment Tree** tsɔ ɖoa kpe edzi be asitsatsawo sɔ ɖe nukpɔsusu ɖeka nu esime woɣla ame si ɖoe ɖa, amesi xɔe & ga home siwo wozã la bliboe.
+#### 3. Didienu ƒe adzɔgbeɖeɖe ƒe ati le Zcash
+Le Zcash **Sapling** kple **Orchard** ɣaɣla gaƒuƒoƒowo me la, wozãna **Didienu ƒe adzɔgbeɖeɖe ƒe ati** be woakpɔ be gaɖoɖowo sɔ ɖe gbegbɔgblɔ ɖi nu, le esime woɣla dɔla, xɔla kple ga siwo wozã la ɖe bliboa.
 
-#### 4. Asidede Hash (Bitcoin ƒe atsyã ƒe mɔxenuwo)
-**SHA256** nye "Signature hash" ƒe kpɔɖeŋu si wozãna tsɔ zia block ɖesiaɖe ƒe tɔtrɔmanɔmanɔ dzi le Bitcoin kɔsɔkɔsɔa me. Tomenukulawo zãa hash si le block si do ŋgɔ me + A hash si nye asitsatsa siwo katã le block si li fifia me (hashMerkleRoot) + Timestamp + random value / network difficulty na block yeyewo.
+#### 4. Asidede agbalẽ te ƒe hash (Bitcoin ƒe nɔnɔ nu gaɖoɖowo ƒuƒoƒewo)
+**SHA256** nye "Asidede agbalẽ te ƒe hash" ƒe kpɔɖeŋu aɖe si wozãna be gaɖoɖowo ƒuƒoƒe ɖe sia ɖe le Bitcoin ƒe ɖoɖonu me nanɔ ɖe etɔ̃ me. Nukulawo zãna gaɖoɖowo ƒuƒoƒe si va yi la ƒe hash + gaɖoɖowo katã ƒe hash le gaɖoɖowo ƒuƒoƒe si li fifia me (hashMerkleRoot) + Ɣeyiɣi ƒe dzesi + xexlẽme si menye ɖoɖo me o / network ƒe sesẽ na gaɖoɖowo ƒuƒoƒe yeye.
 
 ![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
-#### 5. Equihash (Zcash Tomenukuƒe)
-**Equihash** nye hashing algorithm si wozãna le Zcash. Wozãnɛ hã le networkwo abe Komodo & Horizen ene.
+#### 5. Equihash (Zcash Nukuku)
+**Equihash** nye hash wɔwɔ ƒe algorithm si wozãna le Zcash nukuku me. Wozãnae hã le networkwo abe Komodo kple Horizen ene me.
 
-**Equihash: Dɔwɔwɔ ƒe Kpeɖodzi si Mesɔ O Si Wotu Ðe Dzigbezã Kuxi si Wozãna Le Mɔ Gãwo Nu Dzi** (Biryukov kple Khovratovich): https://eprint.iacr.org/2015/946
+**Equihash: Asymmetric Proof-of-Work Based on the Generalized Birthday Problem** (Biryukov kple Khovratovich): https://eprint.iacr.org/2015/946
 
 ---
 
-### Nuxexlẽ Bubuwo
+### Nuxexlẽ bubuwo
 
-Be woatu gɔmesese geɖe wu ɖo le hash dɔwɔwɔ ƒomevi vovovoawo kple wo zazã siwo do ƒome kplii ŋu la, esia nye dɔwɔnu nyui aɖe ŋutɔ: 
+Be nàgase Hash ƒe dɔwɔnu ƒe ƒomevi vovovoawo kple wɔnɔƒe zãzãwo nyuie wu la, esi nye nuƒoɖeŋu nyui aɖe:  
 https://en.wikipedia.org/wiki/Hash_function
 
 ---
 
-**Ka si ZecHub (@ZecHub)** 
-X ka gbãtɔ: https://x.com/ZecHub/status/1621240109663227906  
+**Kakaɖi tso ZecHub (@ZecHub) gbɔ**  
+X ƒe kakaɖi gɔmedze: https://x.com/ZecHub/status/1621240109663227906  
 
 ---
 
-*Woƒo axa sia nu ƒu tso Zero to Zero Knowledge ƒe ka gbãtɔ me na ZecHub wiki.*
+*Wotsɔ Zero to Zero Knowledge ƒe kakaɖi gɔmedze la wɔ axa sia na ZecHub wiki.*

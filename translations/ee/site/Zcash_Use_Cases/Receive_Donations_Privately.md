@@ -1,128 +1,128 @@
-# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Receive Donations Privately with Zcash
+# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Xɔ nunanawo kple ɣaɣla le Zcash dzi
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Gɔmedzela - 5 min
+  Ametɔxɛ̃ — dakika 5
 </span>
 
 
-## TL;DR
+## Nyatakaka kpuie
 
-- Zã **adrɛs si wokpɔ ta na (z)**.
-- Mègagblɔ adrɛs si me kɔ (t) si me kɔ la le dutoƒo gbeɖe o
-- De dzi ƒo na nunalaawo be woaɖo wo ɖa tso gakotoku siwo ŋu wokpɔ ta na me
-- Ƒo asa na wò dzesideŋkɔa tsɔtsɔ do ƒome kple asitsatsa
-
-<br/>
-
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-- Nuwɔlawo le nudzɔdzɔwo xɔm
-- Nudzɔla siwo le ʋuʋu ɖi
-- Nutoa me tɔwo ƒe gadodo
-- Ame sia ame si di be woana gakpekpeɖeŋu ye ŋutɔ
+- Zã **ɣaɣla [shielded] (z) gaɖoƒe ƒe dzesi**
+- Mègamaɖe nuwo ƒe ʋuʋuɖi [transparent] (t) gaɖoƒe ƒe dzesi fia amewo katã o
+- De dzi ɖe nunanaƒolaawo ŋu be woaɖo ga tso gakotoku ɣaɣlawɔlawo me
+- Nàtsi woaɖe wò ameƒomevi ƒe dzesi kple gaɖoɖowo [transactions] ƒoƒo teƒe
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
-
-Cryptocurrencies akpa gãtɔ ɖea nusianu ɖe ​​go:
-- Wò gakotoku ƒe ga si susɔ
-- Ame si ɖo ga ɖe wò
-- Wò asitsatsa ŋutinya bliboa
-
-Esia hea afɔku gãwo vɛ:
-- Ganyawo ŋuti nyatakakawo ƒe bu
-- Taɖodzinu alo ŋkuléle ɖe ame ŋu
-- Nudzɔlawo ƒe nuɖeɖe ɖe go le dutoƒo
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Ame kawoe wòwɔe na?
+- Nuŋlɔla siwo xɔa nunanawo
+- Open-source ƒe amedzrowɔlawo
+- Hame siwo ƒoa ga nu
+- Ame sia ame si di be wòaxɔ gaƒe kpekpeɖeŋu le ɣaɣla me
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Kuxi la
 
-Zcash shielded ƒe asitsatsa ɣla:
-- Adrɛs si woɖo ɖa
-- Adrɛs si xɔe
-- Asitsatsa ƒe ga home
+Crypto ga geɖe ɖee nu sia nu fia:
+- Wò gakotoku [wallet] ƒe ga home
+- Ame si ɖo ga ɖa na wò
+- Wò gaɖoɖowo katã ƒe ŋutinya
 
-Esia na be nàte ŋu axɔ ga **evɔ màɖe wò ganyawo ƒe nɔnɔmetata ɖe go o**.
+Esia doa afɔku gãwo:
+- Ga ƒe ɣaɣla [privacy] ƒe bu
+- Ame ƒe dzadzraɖo alo kpɔkpɔ
+- Nunanaƒolaawo ƒe nuɖeɖefia le amewo ƒe ŋkume
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Nu ka ta Zcash?
 
-- Zcash gakotoku si doa alɔ adrɛs siwo wokpɔ ta na:
+Zcash ƒe gaɖoɖo ɣaɣlawɔlawo ɣlaa:
+- Amedzidɔla ƒe gaɖoƒe ƒe dzesi
+- Amesi xɔ ga ƒe gaɖoƒe ƒe dzesi
+- Gaɖoɖo la ƒe ga home
+
+Esia na wò ŋu nàxɔ ga **eye mèfia wò ga ƒe kadodo le amewo ŋkume o**.
+
+<br/>
+
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Nu si wòahiã
+
+- Zcash gakotoku si wɔa dɔ kple gaɖoƒe ƒe dzesi ɣaɣlawɔlawo:
   - Zodl
   - Zingo!
-  - Gakotoku bubu siwo wodo alɔe
+  - Gakotoku bubu siwo wɔa dɔ
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Mɔfiame kple mɔfiame ƒe kplɔɖeŋu
 
-### Afɔɖeɖe 1: Wɔ Adrɛs si Wokpɔna
-Ʋu wò gakotoku eye nàwɔ **z-adrɛs**.
-Zi geɖe la, esia dzea egɔme tso: `zs...`
+### Mɔfiame 1: Wɔ Gaɖoƒe Ƒe Dzesi Ɣaɣlawɔla
+Ʋu wò gakotoku dzi eye nàwɔ **z-gaɖoƒe ƒe dzesi**.
+Esia dzia egɔme zi geɖe kple: `zs...`
 
 
-### Afɔɖeɖe 2: Ma Wò Adrɛs Si Wokpɔ Ðe Edzi Ko
+### Mɔfiame 2: Maɖe Wò Gaɖoƒe Ƒe Dzesi Ɣaɣlawɔla Ko Fia
 
-- Ta wò z-adrɛs ɖe:
-  - Nyatakakadzraɖoƒe
-  - Hadomegbenɔnɔ ƒe nyatakakadzraɖoƒewo
-  - Nudzɔdzɔ ƒe axawo
+- De wò z-gaɖoƒe ƒe dzesi ɖe:
+  - Nyaɖeɖeƒe
+  - Hame ƒe media
+  - Nunana ƒe axa me
 
-**MÈGAMA adrɛs si me kɔ (t) si me kɔ o.**
+**Mègamaɖe nuwo ƒe ʋuʋuɖi (t) gaɖoƒe ƒe dzesi fia o.**
 
-### Afɔɖeɖe 3: Mɔfiame Nunalawo (Woate ŋu atiae gake wokafui) .
+### Mɔfiame 3: Kplɔ Nunanaƒolaawo (Edi be woawɔe o, gake woaɖe dzi)
 
-De dzi ƒo na nunala be:
-- Zã gakotoku siwo doa alɔ asitsatsa siwo ŋu wokpɔ ta na
-- Ðoe ɖa tso ta siwo ŋu wokpɔ akpoxɔnuwo le (menye esiwo me kɔ o) .
+De dzi ɖe nunanaƒolaawo ŋu be woa:
+- Zã gakotoku siwo wɔa dɔ kple gaɖoɖo ɣaɣlawɔlawo
+- Ɖo ga tso gaƒuƒoƒo [pool] ɣaɣlawɔlawo me (menye nuwo ƒe ʋuʋuɖi o)
 
-### Afɔɖeɖe 4: Lé Adzamenyawo Ŋuti Dzadzɛnyenye Veviwo Me Ðe Asi
+### Mɔfiame 4: Lé Ɣaɣla Ƒe Nɔnɔme Vevie ƒe Mɔwo Me
 
-- Ƒo asa na adrɛs ɖeka ma ke gbugbɔgazã le dzesidenu siwo medo ƒome o me
-- Mègatsɔ wò adrɛs do ƒome kple ame ŋutɔ ƒe ŋkɔ le dutoƒo o negbe ɖe wòhiã hafi
-
-<br/>
-
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
-
-- Adrɛs si me kɔ (t) si me kɔ la mama 
-- Wò gakotokua dada ɖe ame ŋutɔ ƒe dzesidegbalẽvi xa 
-- Ga si woxɔna tso teƒe siwo me kɔ la xɔxɔ akpoxɔnu manɔmee 
-- Adrɛs ɖeka ma ke zazã ake le nya siwo ƒo xlãe geɖe me 
+- Nàtsi woazã gaɖoƒe ƒe dzesi ma ke le ameƒomevi siwo me kaɖe o dome o
+- Mètsɔ wò gaɖoƒe ƒe dzesi ƒo wò ameƒomevi ƒe dzesi kple amewo ŋkume negbe nɛhiãe o
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Vodada Siwo Wòle Be Nàtsi Wo
 
-Ate ŋu:
-- Xɔ nudzɔdzɔwo le ɖokuiwò si
-- Ta wò kpeɖeŋutɔwo ta
-- Ƒo asa na wò ganyawo ɖeɖe ɖe go
+- Maɖe nuwo ƒe ʋuʋuɖi (t) gaɖoƒe ƒe dzesi fia  
+- De wò gakotoku kple wò ameƒomevi ƒe dzesi ɖe teƒe ɖeka  
+- Xɔ ga tso nuwo ƒe ʋuʋuɖi ƒe teƒewo me eye mèwɔe ɣaɣlawɔla o  
+- Zã gaɖoƒe ƒe dzesi ma ke le nɔnɔme vovovowo me  
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Nɛɖo
 
-- [Ame ŋutɔ ƒe nyawo - Shielded vs Transparent](/zcash-tech/what-a-block-explorer-can-see)
+Àte ŋu:
+- Xɔ nunanawo le ɣaɣla me
+- Dze wò kpekpeɖelawo ŋu
+- Tsi woaɖe wò ga ƒe dɔwɔwɔwo fia
+
+<br/>
+
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Nu siwo ƒe kadodo le
+
+- [Nu si gaɖoɖowo ƒuƒoƒe [Block] ƒe didiɖeɖe te ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see)
 - [Gakotokuwo](/wallets)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Ŋgɔyiyi
 
-**Afɔɖeɖe 1 le 6 me**
+**Mɔfiame 1 le 6 me**
 
-Èsrɔ̃ alesi nàxɔ ga le ɖokuiwò si.
+Wòsronu ale si nàxɔ ga le ɣaɣla me.
 
 <br/>
 
-## Afɔɖeɖe si kplɔe ɖo
+## Mɔfiame Si Kplɔe ɖo
 
-Yi wò mɔzɔzɔa dzi:
+Yi dzi le wò mɔzɔzɔ me:
 
-- [Ðo Ga Ðo Ðe Ame Ŋu Matsɔ Kadodo Dzesidede Ame Ŋu O](/zcash-use-cases/send-money-without-linking-identity)
+- [Ɖo Ga Eye Mèƒo Wò Ameƒomevi Ƒe Dzesi Kplee O](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

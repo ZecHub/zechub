@@ -4,7 +4,7 @@ Olá, tudo bem? O ZecHub realmente se destaca quando o assunto são wikis. Hoje,
 
 **O que é Free2Z?**
 
-O Free2Z surgiu como uma plataforma centrada em privacidade, criada para capacitar criadores a mostrar seu conteúdo ao mundo e receber doações usando Zcash, o dinheiro digital conhecido por seus recursos únicos de privacidade.
+O Free2Z surgiu como uma plataforma centrada na privacidade, criada para capacitar criadores a mostrar seu conteúdo ao mundo e receber doações usando o Zcash, o dinheiro digital conhecido por seus recursos únicos de privacidade.
 
 **Como faço para entrar na comunidade?**
 
@@ -17,11 +17,11 @@ O Free2Z surgiu como uma plataforma centrada em privacidade, criada para capacit
 
 ![](/content-images/IMG-9360-5deeba8c68.webp)
 
-* Certifique-se também de adicionar seu endereço Zcash no campo da carteira para receber doações e gorjetas de apoiadores.
+* Certifique-se também de adicionar seu endereço do Zcash no campo da carteira para receber doações e gorjetas de apoiadores.
 
 ![](/content-images/IMG-9361-5c9ce21046.webp)
 
-**FUNCIONALIDADES**
+**Funcionalidades**
 
 **ZPages:** O ZPages permite que criadores compartilhem seus trabalhos escritos com uma comunidade mais ampla. Um aspecto particularmente interessante de escrever nesta plataforma é que seu público pode apoiar seu trabalho por meio de doações, o que é uma ótima forma de demonstrar apreço.
 
@@ -29,7 +29,7 @@ O Free2Z surgiu como uma plataforma centrada em privacidade, criada para capacit
 
 **Conhecendo os 2Zs**
 
-Estes são pontos que valem $0.01 na plataforma. Com 2Zs, as pessoas podem apoiar seus criadores favoritos por meio de doações e assinaturas. Elas também podem participar de atividades da comunidade, como votações, comentários em ZPages, impulsionamento de conteúdo e recursos de transmissão ao vivo.
+Estes são pontos que valem $0,01 na plataforma. Com 2Zs, as pessoas podem apoiar seus criadores favoritos por meio de doações e assinaturas. Elas também podem participar de atividades da comunidade, como votações, comentários em ZPages, impulsionamento de conteúdo e recursos de transmissão ao vivo.
 
 ![](/content-images/IMG-9370-4264be0de0.webp)
 
@@ -45,7 +45,7 @@ Clique no ícone do seu perfil, e uma lista suspensa aparecerá. Selecione "Stre
 [https://free2z.cash/Cjfrankie/broadcast](https://free2z.cash/Cjfrankie/broadcast)
 
 
-**Beta Privado**
+**Beta privado**
 
 Esta opção promete oferecer criptografia de ponta a ponta, reuniões privadas e um link exclusivo de reunião que pode ser enviado aos participantes.
 

@@ -1,84 +1,84 @@
-# Ntuziaka onye na-ewu ihe ZecHub hackathon
+# ZecHub nduzi maka onye na-ewu ihe na hackathon
 
-## TL;DR
+## Nchịkọta
 
-- Mara ihe mere ị na-ewu tupu i dee koodu, uru bara uru karịa mgbagwoju anya
-- Mee ka ihe dị mfe, obere echiche e mere nke ọma na-emeri nnukwu echiche a hapụrụ n'emechaghị emecha.
-- Mụta ihe owuwu Zcash na mbido, ọ bụ akụkụ kachasị elu nke ịrịgo ahụ.
-- Ọ bụrụ na ngwa gị akpali ego, ọ ga-arụ ọrụ n'elu mainnet, wuo ya na testnet, wee gosipụta ya na mainnet
-- Ihe odide na ngosipụta doro anya pụrụ ịdị mkpa karịa ngwaahịa ahụ n'onwe ya .
-- Mmeri bụ ihe na-amalite, ọ na-ewulite aha gị ma mepee ụzọ n'obodo.
-
-<br/>
-
-## Onye ka nke a bụ maka ya?
-
-- Ndị na-ewu ụlọ oge mbụ abanye ZecHub ma ọ bụ Zcash hackathon
-- Ndị mmepe sitere na gburugburu ebe obibi ndị ọzọ bụ ndị ọhụrụ nye Zcash.
-- Onye ọbụla chọrọ ime ka ọrụ hackathon bụrụ ihe ga-adịgide adịgide.
+- Mara ihe kpatara ị na-ewu ihe tupu ịde koodu, uru ọ bara karịrị mgbagwoju anya
+- Mee ka ọ dị mfe, obere echiche e mere nke ọma karịrị nnukwu echiche a hapụrụ akwụsịghị
+- Mụta usoro akụrụngwa Zcash n'isi, ọ bụ akụkụ kachasị sie ike nke ịrị elu ahụ
+- Ọ bụrụ na ngwa gị na-ebufe ego, ọ ga-arụ ọrụ na mainnet, wuo ya na testnet, wee gosi proof ya na mainnet
+- Akwụkwọ ntụaka na ngosi doro anya nwere ike ịdị mkpa karịa ngwaahịa ahụ n'onwe ya
+- Imeri bụ ahịrị mmalite, ọ na-ewulite aha ọma gị ma na-emeghe ohere n'obodo
 
 <br/>
 
-## Malite site n'ịjụ ihe mere i ji mee ya .
+## Ònye ka nke a bụ maka ya
 
-Before you open your editor, know what problem you are solving and why anyone would care. A good test is simple: if the thing you are building did not exist, would anyone miss it? Build something you would use yourself. Privacy is the reason Zcash exists, so understand why privacy matters to the people you are building for, then let that shape the whole project.
+- Ndị na-ewu ihe mbụ ha na-abanye na hackathon ZecHub ma ọ bụ Zcash
+- Ndị mmepụta sitere na gburugburu ebe obibi ndị ọzọ bụ ndị ọhụrụ na Zcash
+- Onye ọ bụla chọrọ ime ka ọrụ hackathon bụrụ ihe na-adịgide adịgide
 
 <br/>
 
-## Mụta ụzọ nke mbụ.
+## Malite n'ihe kpatara ya
 
-The most common surprise for builders from other chains is the learning curve for Zcash infrastructure, not the coding. Give yourself time to understand how the pieces fit before you design your app. Start with the core stack, often called Z to the third: zebrad, a light server, and a wallet. Then get familiar with the developer tools:
+Tupu imepee nchịkọta okwu gị, mara nsogbu ị na-edozi na ihe kpatara onye ọ bụla ga-eji lekọta ya. Nnwale ọma dị mfe: ọ bụrụ na ihe ị na-ewu adịghị, ò nwere onye ga-atụ uche ya? Wuo ihe ị ga-eji n'onwe gị. Nzuzo [privacy] bụ ihe mere Zcash ji dị, ya mere ghọta ihe kpatara Nzuzo ji dị ndị ị na-ewu maka ha mkpa, wee hapụ ya ka ọ kpụzie ọrụ ahụ dum.
 
-1. Gụọ peeji onye nrụpụta na wiki ahụ: [zechub.wiki/ndị mmepe](https://zechub.wiki/developers), ọ bụ ebe mbụ a na- atụ aro ka anyị kwụsịtụ .
-2. Chọpụta zingolib na zingo-cli, nke oku ya kpuchie ọtụtụ ihe oru ngo chọrọ n'ofe egwu.
-3. Lee akwụkwọ ahụ bụ librustzcash na akpa ego ZODL maka ihe owuwu ụlọ dị ala.
-4. For a FROST project, use the Zcash Foundation's frostd and frost-core from crates.io, and lean on AI to help with definitions, though using FROST securely still takes real effort and time
+<br/>
+
+## Mụta usoro ahụ mbụ
+
+Ihe na-eju ndị na-ewu ihe sitere na chain ndị ọzọ anya ugboro ugboro bụ usoro mmụta maka akụrụngwa Zcash, ọ bụghị ide koodu. Nye onwe gị oge ịghọta ka akụkụ ndị ahụ si ejikọta tupu ịmepụta ngwa gị. Malite na usoro isi, nke a na-akpọkarị Z to the third: zebrad, sava dị ọkụ, na e-akpa ego [wallet]. Mgbe ahụ, mata ngwá ọrụ ndị onye mmepụta [developer] na-eji:
+
+1. Gụọ ibe onye mmepụta na wiki na [zechub.wiki/developers](https://zechub.wiki/developers), ọ bụ ebe mbụ akwadoro ka ị gaa
+2. Nyochaa zingolib na zingo-cli, nke oku ya na-ekpuchi ọtụtụ ihe ọrụ chọrọ n'ofe track dị iche iche
+3. Lee librustzcash na e-akpa ego ntụaka ZODL maka ihe nrụpụta dị n'ogo dị ala
+4. Maka ọrụ FROST, jiri frostd nke Zcash Foundation na frost-core sitere na crates.io, ma dabere na AI maka enyemaka na nkọwa, n'agbanyeghị na iji FROST n'enweghị nsogbu ka chọrọ mgbalị na oge n'ezie
 
 <br/>
 
 ## Ghọta ihe mainnet pụtara
 
-Several tracks require your app to interact with Zcash mainnet. In practice this means your project, or someone using it, including an AI agent, sends or receives real funds on mainnet, or it builds and improves the tools that make this possible. If your app makes transactions, you must demonstrate them on mainnet in your submission.
+Ọtụtụ track chọrọ ka ngwa gị nwee mmekọrịta na mainnet Zcash. N'omume, nke a pụtara na ọrụ gị, ma ọ bụ onye na-eji ya, gụnyere onye nnọchi AI, na-eziga ma ọ bụ na-anata ezigbo ego na mainnet, ma ọ bụ na ọ na-ewu ma na-emezi ngwá ọrụ na-eme ka nke a kwe omume. Ọ bụrụ na ngwa gị na-eme Azụmahia [transaction], ị ga-egosi ha na mainnet n'ihe ị nyefere.
 
-Build on testnet while you develop. Mainnet activity costs real ZEC and will only get more expensive over time, so testnet is the recommended place to iterate. Switch to mainnet for the final proof. Keep one detail in mind as you design your flow: when funds arrive at a shielded address, your wallet has to scan and find them before they can be spent, and that scan takes a little time. Build that short wait into your app rather than assuming incoming funds are ready to use straight away.
-
-<br/>
-
-## Mee ka ọ dị mfe nghọta .
-
-A simple, well-executed idea has beaten a complex one many times. Judges have watched a basic concept win over a more technically ambitious project in the same event, because it solved a real problem and was easy to understand. Take on less than you think you can finish. Overlooking details, scoping too big, and skipping research are the mistakes that cost builders prizes. Make your project easy to understand and easy to run, from the core concept to the first command.
+Wuo na testnet mgbe ị na-emepụta ya. Ọrụ mainnet na-efu ezigbo ZEC ma ọ ga-adịkwu ọnụ ka oge na-aga, ya mere testnet bụ ebe akwadoro iji megharịa ọrụ. Gbanwee gaa mainnet maka proof ikpeazụ. Buru otu nkọwa n'uche mgbe ị na-emepụta usoro gị: mgbe ego rutere na Adreesị akpa ego nke e chebere echebe [shielded], e-akpa ego gị ga-enyocha ma chọta ha tupu e nwee ike imefu ha, nyocha ahụ na-ewekwa obere oge. Tinye obere nchere ahụ n'ime ngwa gị kama iche na ego na-abata dị njikere iji ozugbo.
 
 <br/>
 
-## Nweta nkeji iri atọ mbụ .
+## Mee ka ọ dị mfe
 
-Reviewers form a strong impression quickly, so presentation, topic, and visuals carry real weight, alongside how novel your solution is. Documentation and a clear demo are not afterthoughts. Communicating your idea is sometimes more important than the idea itself, because if no one understands what you built, it cannot succeed. Judging tends to balance technical depth, user experience, originality, and practical utility, and strong documentation lifts all of them.
-
-<br/>
-
-## Lee ụzọ ndị siri ike ma dị gịrịgịrị .
-
-If you want less crowded competition, the harder tracks often have fewer entries simply because fewer people attempt them. The Accounting track is a good option for beginners who want to avoid on-chain transaction work. FROST is powerful and underused, and it makes a strong foundation for a project. The community does not prescribe what to build, so building on a capable tool the ecosystem already has, rather than starting from zero, is a smart move.
+Echiche dị mfe, e mepụtara nke ọma, emeriela nke mgbagwoju anya ọtụtụ ugboro. Ndị ikpe ahụwo echiche bụ isi na-emeri ọrụ nwere ebumnuche teknụzụ ka elu n'otu mmemme, n'ihi na ọ doziri ezigbo nsogbu ma dị mfe nghọta. Nabata ọrụ dị nta karịa nke ị chere na ị nwere ike ịrụcha. Ileghara nkọwa anya, ịtọ oke ọrụ buru ibu, na ịwụpụ nyocha bụ mmejọ na-anapụ ndị na-ewu ihe ihe nrite. Mee ka ọrụ gị dị mfe nghọta ma dị mfe ịrụ, site na echiche bụ isi ruo n'iwu mbụ.
 
 <br/>
 
-## Mgbe hackathon ahụ gasịrị.
+## Merie n'ime sekọnd 30 mbụ
 
-Mmeri abụghị njedebe nke ụzọ. Imeri na-ewulite pọtụfoliyo gị na aha ọma, mepee ọnụ ụzọ n'obodo ahụ ma nwee ike iduga ego site na atụmatụ.
-
-1. Were oru ngo siri ike ka ọ bụrụ ihe a chọrọ na ZecHub DAO ma ọ bụ Zcash Community Grants, yana ụzọ map, usoro dị iche iche, na atụmatụ mmefu ego.
-2. Nọrọ na-arụsi ọrụ ike n'obodo ahụ, Discord, na X.
-3. Soro nzukọ R&D Arborist, biputere echiche ma rịọ maka nzaghachi.
-4. Nọgide na-ewu ụlọ ọbụlagodi ma ị gaghị emeri, lezie anya maka hackathon ọzọ
+Ndị nyocha na-etolite echiche siri ike ngwa ngwa, ya mere ngosi, isiokwu, na ihe a na-ahụ anya nwere nnukwu arọ, tinyere otú azịza gị si bụrụ ihe ọhụrụ. Akwụkwọ ntụaka na ngosi doro anya abụghị ihe a ga-echeta n'ikpeazụ. Ikesa echiche gị na-adị mgbe ụfọdụ mkpa karịa echiche ahụ n'onwe ya, n'ihi na ọ bụrụ na ọ nweghị onye ghọtara ihe ị wuru, ọ gaghị enwe ike ịga nke ọma. Ikpe na-achọkarị ịhazigharị omimi teknụzụ, ahụmịhe onye ọrụ, ịdị iche, na uru bara uru, akwụkwọ ntụaka siri ike na-ebulikwa ha niile.
 
 <br/>
 
-## Peeji ndị metụtara ya
+## Lee track ndị siri ike ma dị obere
 
-- [Akụrụngwa Onye Mmepụta](https://zechub.wiki/developers) - ebe mbụ ndị na-ewu Zcash ga-akwụsị.
-- [Zebra Full Node (Nọmba zuru ezu)](https://zechub.wiki/zcash-tech/zebra-full-node) - ọnụ na isi nke ikpo okwu ahụ.
-- [FROST](https://zechub.wiki/zcash-tech/frost) - ntinye aka n'ókè maka oru ngo di elu.
+Ọ bụrụ na ịchọrọ asọmpi na-adịghị eju ebe, track ndị siri ike na-enwekarị ntinye ole na ole naanị n'ihi na mmadụ ole na ole na-anwa ha. Accounting track bụ nhọrọ ọma maka ndị mbido chọrọ izere ọrụ Azụmahia on-chain. FROST dị ike ma a naghị eji ya nke ọma, ọ na-emekwa ntọala siri ike maka ọrụ. Obodo anaghị ekpebi ihe ị ga-ewu, ya mere iwulite n'elu ngwá ọrụ nwere ikike nke gburugburu ebe obibi nwere ugbu a, kama ịmalite site na efu, bụ ihe amamihe dị na ya.
 
 <br/>
 
-<small>This guide was shaped by insights from ZecHub core contributors squirrel, Dismad, and Tron.</small>
+## Mgbe hackathon gasịrị
+
+Imeri abụghị njedebe nke ụzọ. Imeri na-ewulite pọtụfoliyo na aha ọma gị, na-emeghe ohere n'obodo, ma nwee ike iduga n'inweta ego site na atụmatụ.
+
+1. Kwalite ọrụ siri ike dịka atụmatụ nye DAO ZecHub ma ọ bụ Zcash Community Grants, tinyere ụzọ ọrụ, ihe mgbaru ọsọ, na ihe kpatara mmefu ego
+2. Nọgide na-arụsi ọrụ ike n'obodo site na forum, Discord, na X
+3. Soro nzukọ Arborist R and D, bipụta echiche, ma rịọ nzaghachi
+4. Nọgide na-ewu ihe ọbụna ma ọ bụrụ na ị merighị, ma lezie anya maka hackathon ọzọ
+
+<br/>
+
+## Ibe metụtara ya
+
+- [Akụrụngwa Onye Mmepụta](https://zechub.wiki/developers) - ebe mbụ ndị na-ewu Zcash ga-aga
+- [Zebra Full Node](https://zechub.wiki/zcash-tech/zebra-full-node) - node dị na ntọala nke usoro ahụ
+- [FROST](https://zechub.wiki/zcash-tech/frost) - signature ọnụ ụzọ maka ọrụ ndị dị elu
+
+<br/>
+
+<small>Ejiri nghọta sitere n'aka ndị nyere aka n'isi ZecHub, squirrel, Dismad, na Tron, kpụzie nduzi a.</small>

@@ -1,5 +1,5 @@
 <a href="https://github.com/ZecHub/zechub/edit/main/site/Zcash_Community/Zcash_Engineering_Office_Hours.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 Συλλογή από καταγραφές του Zcash Engineering Office Hours.

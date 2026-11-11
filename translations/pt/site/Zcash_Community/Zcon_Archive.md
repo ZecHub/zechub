@@ -7,9 +7,9 @@ A seguir está uma coleção da maioria das mídias relacionadas ao Zcon em um l
 # Zcon
 Zcon é uma conferência anual organizada pela [Zcash Foundation](https://zfnd.org/).
 
-## Zcon0: Privacidade de A a Zcon
+## Zcon0: privacidade de A a Zcon
 
-Zcon0 foi a nossa primeira conferência anual, e correu incrivelmente bem. Passámos de 26 a 28 de junho de 2018 na bela Montreal
+Zcon0 foi a nossa primeira conferência anual, e correu incrivelmente bem. Passamos de 26 a 28 de junho de 2018 na bela Montreal
 
 [Playlist do Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
@@ -25,9 +25,9 @@ Zcon0 foi a nossa primeira conferência anual, e correu incrivelmente bem. Pass�
 </div>
 
 
-## Zcon1: Do Zero ao Herói da Privacidade
+## Zcon1: do zero ao herói da privacidade
 
-a segunda conferência anual sobre privacidade e tecnologia organizada pela Zcash Foundation, realizou-se em Split, Croácia, de 22 a 24 de junho de 2019.
+A segunda conferência anual sobre privacidade e tecnologia organizada pela Zcash Foundation foi realizada em Split, Croácia, de 22 a 24 de junho de 2019.
 
 [Playlist do Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
@@ -43,9 +43,9 @@ a segunda conferência anual sobre privacidade e tecnologia organizada pela Zcas
 </div>
 
 
-## Zcon2: Privacidade Até ao Fim
+## Zcon2: privacidade até o fim
 
-Zcon2 teve lugar na terça-feira, 8 de junho, e na quarta-feira, 9 de junho de 2021. Zcon2 foi uma conferência virtual
+Zcon2 aconteceu na terça-feira, 8 de junho, e na quarta-feira, 9 de junho de 2021. Zcon2 foi uma conferência virtual
 
 [Playlist do Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
@@ -61,9 +61,9 @@ Zcon2 teve lugar na terça-feira, 8 de junho, e na quarta-feira, 9 de junho de 2
 </div>
 
 
-## Zcon3: Só Código Não Basta
+## Zcon3: só código não basta
 
-Zcon3 teve lugar em Las Vegas de 7 a 9 de agosto de 2022.
+Zcon3 aconteceu em Las Vegas de 7 a 9 de agosto de 2022.
 
 [Playlist do Zcon3](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
@@ -79,7 +79,7 @@ Zcon3 teve lugar em Las Vegas de 7 a 9 de agosto de 2022.
 </div>
 
 
-## Zcon4: O Futuro Ainda Não Foi Escrito
+## Zcon4: o futuro ainda não foi escrito
 
 A conferência presencial será em Barcelona, Espanha, nos dias 30 e 31 de julho de 2023, e será transmitida ao vivo a partir do local. 
 
@@ -99,7 +99,7 @@ A conferência presencial será em Barcelona, Espanha, nos dias 30 e 31 de julho
 
 ## ZconV: Zcash Unified
 
-ZconV teve lugar de 6 a 10 de maio de 2024. ZconV foi uma conferência virtual
+ZconV aconteceu de 6 a 10 de maio de 2024. ZconV foi uma conferência virtual
 
 [Playlist do ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
@@ -114,9 +114,9 @@ ZconV teve lugar de 6 a 10 de maio de 2024. ZconV foi uma conferência virtual
   />
 </div>
 
-## ZconVI: Sinergia Através da Descentralização
+## ZconVI: sinergia através da descentralização
 
-ZconVI teve lugar de 4 a 7 de março de 2025. ZconVI foi uma conferência virtual
+ZconVI aconteceu de 4 a 7 de março de 2025. ZconVI foi uma conferência virtual
 
 [Playlist do ZconVI](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
 

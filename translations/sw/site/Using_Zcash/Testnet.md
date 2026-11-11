@@ -1,144 +1,144 @@
 # Zcash Testnet
 
-## Zcash Testnet ni nini?
+## Testnet ya Zcash Ni Nini?
 
-**Zcash Testnet** ni blockchain sambamba na mtandao halisi mkuu wa Zcash (Mainnet) ambao huiga itifaki, sheria, na mantiki halisi ya miamala - lakini ikiwa na tofauti mbili muhimu:
+**Zcash Testnet** ni blockchain sambamba na mtandao mkuu halisi wa Zcash (Mainnet) unaorudia itifaki, sheria na mantiki ya miamala [transactions] kwa usahihi kabisa - lakini ukiwa na tofauti mbili kuu:
 
-1. **Sarafu hazina thamani halisi ya kifedha** - zinaitwa **TAZ**, si ZEC, na hutumika kwa majaribio pekee. 
-2. **Maboresho ya mtandao, zana, na programu hujaribiwa hapa kwanza** kabla ya kutekelezwa kwenye blockchain halisi ya Zcash. 
+1. **Sarafu hazina thamani halisi ya kifedha** - zinaitwa **TAZ**, siyo ZEC, na hutumika kwa majaribio pekee.  
+2. **Maboresho ya mtandao [network upgrades], vifaa [tools], na programu hujaribiwa hapa kwanza** kabla ya kutekelezwa kwenye blockchain halisi ya Zcash.  
 
-Kwa maneno mengine, Testnet ni kama **sandbox au mazingira ya majaribio** ambapo watengenezaji, wakaguzi, na wajenzi wanaweza kujaribu mawazo bila kuhatarisha pesa halisi.
+Kwa maneno mengine, Testnet ni kama **mazingira ya majaribio au ya uchunguzi** ambapo wasanidi programu [developers], wakaguzi, na wajenzi wanaweza kujaribu mawazo bila kuhatarisha fedha halisi.
 
 
 ## Kwa Nini Testnet Ipo?
 
-Testnet ni muhimu kwa ajili ya maendeleo ya blockchain kwa sababu **blockchain halisi kama Zcash hazibadiliki** - mara tu miamala inapothibitishwa kwenye mtandao mkuu, haiwezi kutenduliwa. Testnet hutoa **nakala salama** ya kujaribu, kujaribu, na kutatua vipengele kabla ya kuvitumia kwenye Mainnet.
+Testnet ni muhimu sana kwa maendeleo ya blockchain kwa sababu **blockchain halisi kama Zcash haiwezi kubadilishwa** - mara miamala inapothibitishwa kwenye mtandao mkuu, haiwezi kutenduliwa. Testnet hutoa **nakala salama** ya kufanyia majaribio, kupima, na kutatua hitilafu za vipengele kabla ya kuvitekeleza kwenye Mainnet.
 
 ### Matumizi ya Testnet
 
-#### 1. Ukuzaji na Ujumuishaji wa Programu
+#### 1. Maendeleo na Uunganishaji wa Programu
 
-Wasanidi programu wanaojenga pochi, soko la kubadilishana, programu za uchimbaji madini, au zana za faragha wanaweza kuzijaribu kwa usalama kwenye Testnet. Uwezo ni pamoja na:
+Wasanidi programu wanaojenga pochi [wallets], masoko ya kubadilishana sarafu [exchanges], programu za uchimbaji [mining], au vifaa vya faragha [privacy] wanaweza kuvijaribu kwa usalama kwenye Testnet. Uwezo unajumuisha:
 
-- Kutuma na kupokea miamala 
-- Kuchimba vitalu vipya kwa sarafu za TAZ zisizo na thamani yoyote 
-- Kujenga violesura vya mtumiaji na API 
-- Kujaribu vipengele vya faragha ya miamala (wazi dhidi ya ulinzi) 
+- Kutuma na kupokea miamala  
+- Kuchimba block mpya kwa sarafu za TAZ zisizo na thamani  
+- Kujenga violesura vya watumiaji na API  
+- Kujaribu vipengele vya faragha vya miamala (uwazi [transparent] dhidi ya ya faragha [shielded])  
 
-**Mfano:** 
-Zana kama [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) tumia Testnet kutengeneza miamala na kujaribu utendaji kazi wa mali iliyolindwa ya Zcash. 
+**Mfano:**  
+Vifaa kama [`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) hutumia Testnet kutengeneza miamala na kujaribu utendakazi wa mali za faragha wa Zcash.  
 
-**Hali halisi:** 
-Msanidi programu wa pochi anaweza kuunganisha programu kwenye sehemu ya mwisho ya Testnet RPC na kuiga mzunguko mzima wa maisha - kuunda anwani, kutuma miamala iliyolindwa, na kuthibitisha salio - kabla ya kuanza kutumika kwenye Mainnet.
+**Hali ya matumizi halisi:**  
+Msanidi programu wa pochi anaweza kuunganisha programu kwenye mwisho wa RPC wa Testnet na kuiga mzunguko kamili wa maisha - kuunda anwani [addresses], kutuma miamala ya faragha, na kuthibitisha salio - kabla ya kuanza kutumia Mainnet.
 
-#### 2. Kujaribu Uboreshaji wa Mtandao
+#### 2. Kujaribu Maboresho ya Mtandao
 
-Zcash huboresha itifaki yake kuu mara kwa mara (k.m., NU6.1, NU6.2 na Ironwood). Testnet huwasha uboreshaji mpya **kabla ya Mainnet**, hivyo kuruhusu watengenezaji na jamii kutambua na kurekebisha hitilafu.
+Zcash huboresha itifaki yake kuu mara kwa mara (kwa mfano, NU6.1, NU6.2 na Ironwood). Testnet huwasha maboresho mapya **kabla ya Mainnet**, na kuruhusu wasanidi programu na jumuiya kutambua na kurekebisha hitilafu.
 
-**Mfano:** 
-Sheria mpya ya makubaliano au aina ya muamala husukumwa kwanza hadi Testnet. Baada ya majaribio yaliyofanikiwa, huamilishwa kwenye Mainnet kwa urefu wa block uliopangwa mapema.
+**Mfano:**  
+Sheria mpya ya makubaliano [consensus] au aina mpya ya muamala husukumwa kwanza kwenye Testnet. Baada ya majaribio yenye mafanikio, huwashwa kwenye Mainnet katika urefu wa block uliopangwa mapema.
 
-#### 3. Utekelezaji wa Nodi za Kujaribu
+#### 3. Kujaribu Utekelezaji wa Node
 
-Zcash's maintained node is **Zebra** (the Rust-based node maintained by the Zcash Foundation) and the maintained wallet is [Zallet](https://github.com/zcash/zallet). `zcashd`, utekelezaji wa nodi asilia, ulifikia kikomo chake cha mwisho wa usaidizi kiotomatiki tarehe 18 Julai 2026 na hauendelezwi tena - tazama [Mwongozo wa uhamiaji wa zcashd hadi Zebra na Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet)Testnet huwezesha upimaji wa nodi katika hali halisi bila hatari ya kifedha.
+Node inayotunzwa ya Zcash ni **Zebra** (node inayotegemea Rust inayotunzwa na Zcash Foundation) na pochi inayotunzwa ni [Zallet](https://github.com/zcash/zallet). `zcashd`, utekelezaji wa awali wa node, ulifikia kusimamishwa kwake kiotomatiki kwa mwisho wa usaidizi tarehe 18 Julai 2026 na hautunzwa tena - tazama [zcashd ya kuhamia Zebra na Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet). Testnet huwezesha majaribio ya node katika hali halisi bila hatari ya kifedha.
 
-Wasanidi programu wa nodi wanaweza:
+Wasanidi programu wa node wanaweza:
 
-- Thibitisha uenezaji wa vitalu 
-- Jaribu violesura vya RPC 
-- Angalia tabia ya nodi chini ya mzigo 
-- Jaribu mwingiliano wa programu za uchimbaji madini 
+- Kuthibitisha uenezaji wa block  
+- Kujaribu violesura vya RPC  
+- Kuchunguza tabia ya node chini ya mzigo  
+- Kujaribu mwingiliano wa programu za uchimbaji  
 
 #### 4. Kujifunza na Elimu
 
-Waanziaji wanaweza kujifunza vipengele vya Zcash kama vile uchimbaji madini, kuunda miamala iliyolindwa, na kutumia Anwani Zilizounganishwa. 
-Mafunzo na nyaraka za jumuiya hutoa ufikiaji wa **mabomba ya Testnet, wachunguzi, na miongozo**.
+Waanzilishi wanaweza kujifunza vipengele vya Zcash kama vile uchimbaji, kuunda miamala ya faragha, na kutumia Anwani Zilizounganishwa.  
+Mafunzo na nyaraka za jumuiya hutoa ufikiaji wa **vyanzo vya sarafu za bure vya Testnet, vivinjari, na miongozo**.
 
 
-## Kesi za Matumizi Halisi za Testnet
+## Matumizi Halisi ya Testnet
 
-### 1. Upimaji wa Wasanidi Programu (Pochi / Programu)
+### 1. Majaribio ya Wasanidi Programu (Pochi / Programu)
 
-- Unganisha kwenye Zcash Testnet 
-- Omba TAZ kutoka kwa bomba 
-- Tuma miamala iliyolindwa 
-- Thibitisha faragha na uthabiti wa kiolesura 
+- Unganisha kwenye Testnet ya Zcash  
+- Omba TAZ kutoka kwenye chanzo cha sarafu za bure  
+- Tuma miamala ya faragha  
+- Thibitisha faragha na uthabiti wa UI  
 
-Hakuna ZEC halisi inayopotea hata kama makosa yatatokea.
+Hakuna ZEC halisi inayopotea hata makosa yanapotokea.
 
-### 2. Upimaji wa Ujumuishaji wa Exchange
+### 2. Majaribio ya Uunganishaji wa Soko la Kubadilishana Sarafu
 
-- Endesha nodi ya Testnet 
-- Tumia sehemu za mwisho za Zebrad JSON-RPC kusindika miamala 
-- Jaribu mantiki ya kuweka/kutoa pesa kiotomatiki 
+- Endesha node ya Testnet  
+- Tumia miisho ya JSON-RPC ya Zebrad kuchakata miamala  
+- Jaribu mantiki ya kiotomatiki ya amana/utoaji  
 
-Huhakikisha kanuni salama ya uzalishaji na kuzuia upotevu wa kifedha.
+Huhakikisha msimbo salama wa uzalishaji na huzuia hasara ya kifedha.
 
-### 3. Majaribio ya Usanidi wa Uchimbaji Madini
+### 3. Majaribio ya Usanidi wa Uchimbaji
 
-- Tumia violezo vya uchimbaji madini 
-- Uthibitishaji wa kizuizi cha jaribio 
-- Fuatilia zawadi za uchimbaji madini (TAZ pekee) 
-- Rekebisha utendaji wa uchimbaji madini 
+- Tumia violezo vya uchimbaji  
+- Jaribu uthibitishaji wa block  
+- Chunguza zawadi za uchimbaji (TAZ pekee)  
+- Boresha utendaji wa uchimbaji  
 
-Huzuia muda wa mapumziko au mapato yanayopotea wakati wa kuhamia Mainnet.
+Huzuia muda wa kutofanya kazi au mapato yaliyopotea wakati wa kuhamia Mainnet.
 
-### 4. Utafiti wa Kitaaluma/Itifaki
+### 4. Utafiti wa Kielimu / Itifaki
 
-Watafiti wanaweza kujaribu uvumbuzi kama vile **uthibitisho usio na takwimu**, **uboreshaji wa uthibitisho wa maarifa**, au majaribio mengine ya itifaki kwa kutumia Testnet. 
-Watumiaji wa hali ya juu wanaweza pia kuendesha **Testnets maalum au mazingira ya majaribio ya kawaida** kwa majaribio maalum.
+Watafiti wanaweza kujaribu ubunifu kama **uthibitishaji usio na hali**, **uboreshaji wa thibitisho la maarifa sifuri [zero-knowledge proof]**, au majaribio mengine ya itifaki kwa kutumia Testnet.  
+Watumiaji wa hali ya juu wanaweza pia kuendesha **Testnet maalumu au mazingira ya regtest** kwa majaribio mahususi.
 
 
-## Tofauti Muhimu Kati ya Mainnet na Testnet
+## Tofauti Kuu Kati ya Mainnet na Testnet
 
-| Kipengele | Mtandao Mkuu | Mtandao wa Majaribio |
+| Kipengele               | Mainnet           | Testnet                  |
 |-----------------------|-----------------|--------------------------|
-| Thamani ya sarafu | ZEC Halisi | TAZ (hakuna thamani ya fedha) |
-| Hatari | Hatari ya kifedha | Salama kwa ajili ya majaribio |
-| Maboresho ya itifaki | Uzalishaji | Uanzishaji wa mapema |
-| Zawadi za uchimbaji madini | Utoaji halisi | Zawadi ya majaribio pekee |
-| Huduma ya mtandao | Miamala ya moja kwa moja | Majaribio na uundaji |
+| Thamani ya sarafu        | ZEC halisi         | TAZ (haina thamani ya kifedha)  |
+| Hatari                  | Hatari ya kifedha   | Salama kwa majaribio         |
+| Maboresho ya itifaki     | Uzalishaji       | Uwashaji wa mapema         |
+| Zawadi za uchimbaji        | Utoaji halisi    | Zawadi ya majaribio pekee         |
+| Matumizi ya mtandao       | Miamala ya moja kwa moja| Majaribio na maendeleo  |
 
 ## Dhana Potofu za Kawaida
 
-- **Sarafu za Testnet zina thamani fulani** -> Si kweli, TAZ hazina thamani yoyote. 
-- **Kupoteza sarafu za Testnet ni muhimu** -> Si kweli, hakuna thamani halisi inayopotea. 
-- **Testnet na Mainnet zinafanana** -> Si kweli, Testnet huwekwa upya mara nyingi na haina usalama wa kiuchumi kama Mainnet.
+- **Sarafu za Testnet zina thamani** -> Si kweli, TAZ hazina thamani.  
+- **Kupoteza sarafu za Testnet kuna athari** -> Si kweli, hakuna thamani halisi inayopotea.  
+- **Testnet na Mainnet zinafanana kabisa** -> Si kweli, Testnet huwekwa upya mara nyingi na hailindwi kiuchumi kama Mainnet.
 
 ---
 
-## TAZ ni nini?
+## TAZ Ni Nini?
 
-**TAZ** ni toleo la Testnet la sarafu za Zcash: 
+**TAZ** ni toleo la Testnet la sarafu za Zcash:  
 
-- Si pesa halisi; haiwezi kubadilishwa kwa ZEC au fiat 
-- Inatumika kwa ajili ya majaribio, ukuzaji, na kujifunza 
-- Hufuata sheria zote za Zcash: zinaweza kutumwa, kuchimbwa, na kutumika katika anwani zilizolindwa 
+- Si fedha halisi; haziwezi kubadilishwa kwa ZEC au fedha za kawaida  
+- Hutumika kwa majaribio, maendeleo, na kujifunza  
+- Hufuata sheria zote za Zcash: zinaweza kutumwa, kuchimbwa, na kutumika katika anwani za faragha  
 
-**Mfano:** 
-Msanidi programu anaweza kutuma TAZ 100 kutoka anwani moja ya Testnet hadi nyingine ili kujaribu kipengele cha pochi bila kuhatarisha ZEC halisi. 
+**Mfano:**  
+Msanidi programu anaweza kutuma TAZ 100 kutoka anwani moja ya Testnet hadi nyingine ili kujaribu kipengele cha pochi bila kuhatarisha ZEC halisi.  
 
-Fikiria TAZ kama **"pesa ya kuchezea" kwa ajili ya Zcash Testnet**.
+Fikiria TAZ kama **“fedha za kuchezea” kwa Testnet ya Zcash**.
 
 
-## Mifereji ya maji ni nini?
+## Vyanzo vya Sarafu za Bure Ni Nini?
 
-**Bomba** ni huduma inayotoa sarafu za TAZ bila malipo kwa ajili ya majaribio:
+**Chanzo cha sarafu za bure [faucet]** ni huduma inayotoa sarafu za TAZ bila malipo kwa ajili ya majaribio:
 
-- Kwa kawaida tovuti au API 
-- Watumiaji hutoa anwani ya Testnet; bomba hutuma kiasi kidogo cha TAZ 
-- Huepuka hitaji la kuchimba TAZ kwa mikono 
+- Kwa kawaida ni tovuti au API  
+- Watumiaji hutoa anwani ya Testnet; chanzo cha sarafu za bure hutuma kiasi kidogo cha TAZ  
+- Huondoa hitaji la kuchimba TAZ kwa mkono  
 
-**Mfano:** 
-1. Tembelea bomba la Testnet (k.m., [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
-2. Ingiza anwani yako ya Testnet 
-3. Omba TAZ 
-4. Pokea TAZ mara moja ili uanze kupima 
+**Mfano:**  
+1. Tembelea chanzo cha sarafu za bure cha Testnet (kwa mfano, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. Weka anwani yako ya Testnet  
+3. Omba TAZ  
+4. Pokea TAZ mara moja ili kuanza majaribio  
 
-**Kwa nini ni muhimu:** 
-- Upimaji salama bila kuhatarisha ZEC 
-- Upatikanaji kwa wanaoanza na watengenezaji programu 
-- Uundaji wa haraka wa pochi, soko la hisa, na programu
+**Kwa Nini Ni Muhimu:**  
+- Majaribio salama bila kuhatarisha ZEC  
+- Ufikiaji kwa waanzilishi na wasanidi programu  
+- Utengenezaji wa haraka wa pochi, masoko ya kubadilishana sarafu, na programu
 
 
 
@@ -146,17 +146,17 @@ Fikiria TAZ kama **"pesa ya kuchezea" kwa ajili ya Zcash Testnet**.
 
 ### Zkool
 
-- Pochi ya akaunti nyingi kwa watumiaji wa hali ya juu wa Zcash 
-- Inasaidia misemo ya mbegu, funguo za kutazama, anwani zinazoonekana wazi na zilizolindwa 
-- Inaweza kuunganishwa na Mainnet, Testnet, au Regtest kupitia nodi kamili au seva za lightwallet
+- Pochi ya akaunti nyingi kwa watumiaji wa hali ya juu wa Zcash  
+- Inasaidia maneno ya kurejesha pochi [seed phrases], funguo za kutazama [viewing keys], anwani za uwazi na za faragha  
+- Inaweza kuunganisha kwenye Mainnet, Testnet, au Regtest kupitia full node au seva za lightwallet
 
 ### Zingo!
 
-- Pochi ya simu inalenga faragha na urahisi 
-- Husaidia anwani zilizolindwa na zilizounganishwa 
-- Imesasishwa ili kuunga mkono itifaki za Testnet (ikiwa ni pamoja na NU6 Testnet)
+- Pochi ya simu inayolenga faragha na urahisi  
+- Inasaidia anwani za faragha na zilizounganishwa  
+- Imesasishwa kusaidia itifaki za Testnet (ikiwemo Testnet ya NU6)
 
-## Kuwezesha Testnet katika Pochi
+## Kuwasha Testnet Katika Pochi
 
 ### Pochi ya Zkool
 
@@ -171,10 +171,10 @@ Fikiria TAZ kama **"pesa ya kuchezea" kwa ajili ya Zcash Testnet**.
   />
 </div>
 
-**Vidokezo:** 
-- Pochi inaweza kuwashwa upya inapobadilisha mitandao 
-- Akaunti za Mainnet ZEC hazijaathiriwa 
-- Tumia seva ya Testnet lightwallet ikiwa imeombwa
+**Vidokezo:**  
+- Pochi inaweza kuanza upya wakati wa kubadilisha mitandao  
+- Akaunti za ZEC za Mainnet haziathiriki  
+- Tumia seva ya lightwallet ya Testnet ukiombwa
 
 ### Pochi ya Zingo!
 
@@ -190,19 +190,19 @@ Fikiria TAZ kama **"pesa ya kuchezea" kwa ajili ya Zcash Testnet**.
 </div>
 
 
-Mara tu pochi zikiwa zimewezeshwa, zinaweza kutuma na kupokea TAZ, kujaribu miamala iliyolindwa, na kujaribu kwa usalama.
+Baada ya kuwashwa, pochi zinaweza kutuma na kupokea TAZ, kujaribu miamala ya faragha, na kufanya majaribio kwa usalama.
 
 
-## Baada ya Kuwezesha Testnet
+## Baada ya Kuwasha Testnet
 
-- Miamala hufanya kazi kama Mainnet lakini ikiwa na thamani ya **sifuri TAZ** 
-- Miamala iliyolindwa, anwani nyingi, na vipengele vya faragha vinaweza kujaribiwa 
-- Wasanidi programu wanaweza kutatua na kujaribu vipengele bila kuhatarisha ZEC halisi
+- Miamala hufanya kazi kama Mainnet lakini kwa **TAZ zisizo na thamani**  
+- Miamala ya faragha, anwani nyingi, na vipengele vya faragha vinaweza kujaribiwa  
+- Wasanidi programu wanaweza kutatua hitilafu na kujaribu vipengele bila kuhatarisha ZEC halisi
 
 
 ## Muhtasari wa Haraka
 
-- **Zcash Testnet** ni mazingira salama ya sanduku la mchanga kwa ajili ya kujenga, kupima, na kujaribu 
-- Mifano ya matumizi: majaribio ya wasanidi programu, majaribio ya nodi, ujumuishaji wa ubadilishanaji, utafiti, na elimu 
-- Sarafu za TAZ** zinatumika badala ya ZEC na hazina thamani halisi 
-- Testnet ni muhimu kabla ya kusambaza vipengele moja kwa moja kwenye Mainnet
+- **Testnet ya Zcash** ni mazingira salama ya majaribio ya kujenga, kujaribu, na kufanya uchunguzi  
+- Matumizi: majaribio ya wasanidi programu, majaribio ya node, uunganishaji wa soko la kubadilishana sarafu, utafiti, na elimu  
+- **Sarafu za TAZ** hutumika badala ya ZEC na hazina thamani halisi  
+- Testnet ni muhimu kabla ya kutekeleza vipengele moja kwa moja kwenye Mainnet

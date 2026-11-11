@@ -1,4 +1,4 @@
-# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="ícone de jornalista"/> Configuração de Privacidade para Jornalistas com Zcash
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="ícone de jornalista"/> Configuração de privacidade para jornalistas com Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -10,7 +10,7 @@
 - Use endereços blindados para todas as transações
 - Nunca exponha publicamente a identidade da carteira
 - Proteja as fontes evitando pagamentos rastreáveis
-- Use memos com cuidado para comunicação segura
+- Use memorandos com cuidado para comunicação segura
 
 <br/>
 
@@ -24,7 +24,7 @@
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O Problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O problema
 
 Jornalistas enfrentam:
 - Vigilância
@@ -48,7 +48,7 @@ Zcash oferece:
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que Você Precisa
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O que você precisa
 
 - Uma carteira Zcash com suporte a blindagem
 - Canal de comunicação seguro (fora da blockchain)
@@ -56,21 +56,21 @@ Zcash oferece:
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia Passo a Passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia passo a passo
 
 
-### Etapa 1: Crie uma Carteira Dedicada
+### Etapa 1: Crie uma carteira dedicada
 
 - Use uma carteira apenas para trabalho sensível
 - Não misture com transações pessoais
 
-### Etapa 2: Use Apenas Endereços Blindados
+### Etapa 2: Use apenas endereços blindados
 
 - Sempre faça transações usando z-addresses
 - Evite completamente transações transparentes
 
 
-### Etapa 3: Proteja os Pagamentos às Fontes
+### Etapa 3: Proteja os pagamentos às fontes
 
 Se estiver pagando fontes:
 - Use transações blindadas (z → z)
@@ -78,13 +78,13 @@ Se estiver pagando fontes:
 - Não reutilize endereços
 
 
-### Etapa 4: Tenha Cuidado com os Memos
+### Etapa 4: Tenha cuidado com os memorandos
 
-- NÃO inclua informações sensíveis nos memos
+- NÃO inclua informações sensíveis nos memorandos
 - Use referências neutras ou codificadas, se necessário
 
 
-### Etapa 5: Mantenha a Segurança Operacional
+### Etapa 5: Mantenha a segurança operacional
 
 - Evite vincular a carteira à sua identidade
 - Não confirme publicamente as transações
@@ -93,11 +93,11 @@ Se estiver pagando fontes:
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelamento"/> Erros Comuns a Evitar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelamento"/> Erros comuns a evitar
 
 - Usar endereços transparentes  
 - Reutilizar endereços entre fontes  
-- Incluir dados sensíveis nos memos  
+- Incluir dados sensíveis nos memorandos  
 - Vincular a carteira à identidade pública  
 
 <br/>
@@ -113,8 +113,8 @@ Você pode:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de links em cadeia"/> Relacionado
 
-- [Quem pode ver o seu Zcash pagamento](/start-here/who-can-see-your-zcash-payment)
-- [Enviar dinheiro sem vincular identidade](/zcash-use-cases/send-money-without-linking-identity)
+- [Quem pode ver seu pagamento em Zcash](/start-here/who-can-see-your-zcash-payment)
+- [Enviar dinheiro sem vincular a identidade](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
@@ -131,7 +131,7 @@ Agora você entende:
 
 <br/> 
 
-## O que Vem a Seguir?
+## O que vem a seguir?
 
 - [Ir para a página inicial](/)
 - [Explorar caminhos para desenvolvedores](/developers)
