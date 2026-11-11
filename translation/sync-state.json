@@ -5609,7 +5609,7 @@
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
       "src": "sha256:c13a3922a4d3368d43e44b7eabccaf186935c0ac1f6e458f6fad14244aeb0120",
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -5721,7 +5721,7 @@
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
       "src": "sha256:559ff3a50c2701df6f753dcfb3a7ffc4e0783874d3e23afee7c039eb1bc0e69b",
       "src_commit": "70bbafb301df561d82123a60f31f964d766e79e9",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6417,7 +6417,7 @@
     "Zcash_Organizations/Electric_Coin_Company.md": {
       "src": "sha256:49a1ddaa2a10431f5528fe322a21dd095aa0f16c38dc1ca4bbfabfbcc2db5f2d",
       "src_commit": "07787fa757e24df03458bca7d68cc9eb4cc3b298",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6481,7 +6481,7 @@
     "Zcash_Organizations/Zcash_Community_Grants.md": {
       "src": "sha256:1211aa35260da5fe75855fb7dba5a62b685b85567e1cc2cc5bcf6d57fc6f3c29",
       "src_commit": "8a2839e166263d5316bd6216c0c9fa4a1c7e3a16",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6513,7 +6513,7 @@
     "Zcash_Tech/Blossom.md": {
       "src": "sha256:71b30876f53bce7747855fec114eaa6f8e4673eb6b95bc7da4b3acf0893166ea",
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6553,7 +6553,7 @@
     "Zcash_Tech/Full_Nodes.md": {
       "src": "sha256:2e391e54815a653c1b230147f5c20084413e721bd952910d28d4f646e2ccdfc5",
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6569,7 +6569,7 @@
     "Zcash_Tech/Heartwood.md": {
       "src": "sha256:9145779db9ed475c33191de35ad27c39f277fe310665a4e0fd4bce61a3a16114",
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6625,7 +6625,7 @@
     "Zcash_Tech/NU6_1.md": {
       "src": "sha256:eff5943eebcafc1a6ddfdd4fcef1aa9ff6a0012582056fefd28d37319c030f36",
       "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6697,7 +6697,7 @@
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
       "src": "sha256:8dc9e5c5ab4e39899ef3ad8c4b41002a4e07a9d4eb1c6da01d801adc23302b18",
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6793,7 +6793,7 @@
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
       "src": "sha256:a87c689c7e9d70784f00d23c942d9cdb89ea133e4cd94df1e0532eebb9c08519",
       "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -6809,7 +6809,7 @@
     "Zcash_Tech/Zebra_Full_Node.md": {
       "src": "sha256:70fe1aa67bf5f4a852d19b46856c2445b6425c7e212ef849d49c5decd0b6f431",
       "src_commit": "606dbb8c7c444df801342cbe0a6898d21b143fd9",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -7009,7 +7009,7 @@
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
       "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -7121,7 +7121,7 @@
     "guides/Crosslink_Feature_Net.md": {
       "src": "sha256:cfb3579385f3f96fa2d3199d13f3955404bf1d45d1f60e6b76732f008ea64086",
       "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -7153,7 +7153,7 @@
     "guides/Keystone_Zashi.md": {
       "src": "sha256:15b7c09661a203c63219c5a4858db18a8e6fffa339f92fcfb2bd38fbe2ac37b9",
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "seed",
       "tool": "codex-regen+handfix",
       "edited": false
@@ -7273,7 +7273,7 @@
     "guides/Visualizing_Zcash_Addresses.md": {
       "src": "sha256:c8f08a26b7e3f2ee82e5b4dac5c186a42eabb7855098391d7f80ec2a377d026f",
       "src_commit": "fd0376b581bd0ee289bbb635db12a73197ace6a7",
-      "engine": "gt",
+      "engine": "llm",
       "mode": "full",
       "tool": "codex-regen+handfix",
       "edited": false
