@@ -64,11 +64,41 @@ The important part is that Zcash lets you decide which one to send, payment by p
 
 ## Zcash Fees
 
-Zcash does not use Ethereum-style gas units. Zcash transaction fees are paid in ZEC, usually measured in **zatoshis**. One ZEC equals 100,000,000 zatoshis.
+Let your wallet calculate the network fee, and review it before sending. Fees are paid in ZEC: **1 ZEC = 100,000,000 zatoshis**. A fee in US dollars also depends on the ZEC exchange rate.
 
-[ZIP 317](https://zips.z.cash/zip-0317) defines a conventional fee mechanism that scales with transaction complexity. Instead of every transaction using the old 1,000-zatoshi flat fee, the conventional fee is based on "logical actions" such as inputs, outputs, and shielded actions. Simple transactions commonly start around 10,000 zatoshis, or 0.0001 ZEC, and more complex transactions can require more.
+### Why two payments can have different fees
 
-In most current wallets, users should not need to manually calculate ZIP 317 fees. The wallet should choose an appropriate fee automatically. If a wallet still uses the old flat fee or lets you set a fee far below the ZIP 317 conventional fee, the transaction may be delayed, deprioritized, dropped by some nodes, or fail to relay reliably.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) calculates the conventional fee from **logical actions**, rather than a percentage of the amount sent:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Logical actions measure transaction components. For example, an Orchard-only transaction uses its number of Orchard actions; a Sapling-only transaction uses the larger of its spend and output counts. Contributions from different pools are added. Transparent components use a size-based calculation. See ZIP 317 for the complete formula, including Ironwood and legacy Sprout.
+
+Spending many small received notes or using several pools can therefore cost more than a simpler payment of the same value. A recipient count alone is not a fee calculator: change and padding also matter.
+
+These examples start with an already calculated logical-action count:
+
+| Logical actions | At 5,000 zatoshis per action | At 1,000 zatoshis per action |
+| --- | --- | --- |
+| 2 | 10,000 zatoshis / 0.0001 ZEC | 2,000 zatoshis / 0.00002 ZEC |
+| 3 | 15,000 zatoshis / 0.00015 ZEC | 3,000 zatoshis / 0.00003 ZEC |
+| 10 | 50,000 zatoshis / 0.0005 ZEC | 10,000 zatoshis / 0.0001 ZEC |
+
+### Which marginal fee applies
+
+**Checked 11 November 2026:** ZIP 317 lists revision 2 and [ZIP 2009](https://zips.z.cash/zip-2009) as proposed. Before revision 2, the marginal fee is 5,000 zatoshis. Revision 2 specifies 1,000, giving a 2,000-zatoshi minimum rather than 10,000.
+
+The proposal specifies Mainnet height **3,590,000**, expected around 19 November 2026, and Testnet height **4,465,026**. A calendar estimate is not the activation condition. For wallets, the relevant height is the block in which the transaction is expected to be mined; nodes use the next block's height. Recheck the linked specifications and your wallet's release guidance as deployment changes.
+
+Do not manually force the lower fee just because a proposal or software release mentions it. ZIP 2009 requires nodes to ship the new relay policy before wallets adopt the fee; nodes using the old parameters can refuse to relay the lower-fee transaction. Testnet and Mainnet also have different activation heights.
+
+### If the estimate looks wrong
+
+Check that your wallet is up to date and synced. Compare its network fee with the sending service's withdrawal charge separately: a service quote is not the ZIP 317 formula. For a pending payment, use the [troubleshooting steps below](#troubleshooting-stuck-transactions) before sending again.
+
+ZIP 317 is a wallet and node policy, not a consensus rule requiring this exact fee. Paying the conventional fee improves relay compatibility; it does not promise a confirmation time.
 
 ## Troubleshooting Stuck Transactions
 
