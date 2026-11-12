@@ -19,6 +19,7 @@
 //   --files limits to translation paths (translations/<loc>/site/<page>).
 //   --fix   copies the English cells into place.
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
+import { pathToFileURL } from "node:url";
 
 export const HEADERS = new Set([
   "term", "terms", "parameter", "parameters", "param", "field", "fields", "flag", "flags",
@@ -96,4 +97,6 @@ function main() {
   if (!fix) console.log(`verbatim columns OK — ${checked} translation(s).`);
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) main();
+// Compare file URLs after platform-specific path conversion and URL escaping.
+// Importing the helpers from an eval or another module must not run the CLI.
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) main();
