@@ -185,3 +185,7 @@ test("an inline triple-backtick span does not open a fence", () => {
   const a = "```inline```\nNext.\n";
   assert.equal(hashPage(a), hashPage("```inline``` \nNext.\t\n"));
 });
+
+test("a whitespace-only prose line keeps the existing normalization", () => {
+  assert.equal(normalizeMarkdown("Before.\n     \nAfter.\n"), "Before.\n  \nAfter.\n");
+});
