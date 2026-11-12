@@ -40,6 +40,36 @@ Overwinter was the first Zcash network upgrade after the October 2016 mainnet la
 
 ![Timeline from the October 2016 Sprout launch, through the 2016 to 2018 stretch with no upgrade framework, to Overwinter in June 2018](/content-images/overwinter-timeline-689d9bcf20.webp)
 
+
+## TL;DR
+
+- Overwinter was Zcash's first network upgrade after launch, activating at mainnet block 347,500 (June 26, 2018 UTC), defined by ZIPs 200, 201, 202, 203, and 143.
+- It added no shielded features — its job was infrastructure: a safe, standard way to change consensus rules on a live network.
+- ZIP 200 introduced the Network Upgrade Mechanism: every upgrade now declares a consensus branch id and an activation height.
+- ZIP 143 signatures commit to the branch id, giving two-way replay protection; ZIP 202 added the version 3 "Overwintered" transaction format with a version group id.
+- ZIP 203 added transaction expiry, so stuck unmined transactions clear from the mempool on their own.
+
+## Core Explanation
+
+Changing the rules of a live blockchain is dangerous: two versions of the network can disagree, or a transaction meant for one chain can be copied onto another. Before Overwinter, Zcash had no standard, replay-safe way to coordinate a rule change. ZIP 200 gave every upgrade two handles: a consensus branch id naming the current rule set, and an activation height (the block where new rules begin), giving software maintainers a clear update window. ZIP 201 handles peer behavior: nodes prefer peers on the same version and disconnect from different-branch peers at activation, so the network splits cleanly along the new rules.
+
+## Visual analogy
+
+Overwinter is the safety harness installed before the trapeze act: the audience sees nothing new, but every later somersault (Sapling onward) is only possible because the rules for changing rules now exist. Replay protection works like tickets stamped with the show's date — last week's ticket opens no doors today, and today's ticket opens no doors next week, in either direction.
+
+## Deep Dive
+
+The replay-protection scheme signs transactions with a signature that commits to the current chain's consensus branch id, so a transaction signed for one branch is simply invalid on any other — that is what "two-way" means. The version 3 format carries an fOverwintered flag and a version group id marking which consensus rules a transaction belongs to. As a side benefit, the new signature scheme also sped up transparent transaction validation. Expiry height lets wallets declare "drop me if unmined by block N", keeping the mempool clean.
+
+## Common Mistakes
+
+- **Expecting new privacy features from Overwinter.** It shipped none; it hardened the upgrade path.
+- **Assuming upgrades activate at a fixed clock time.** They activate at a block height (347,500 for Overwinter), so the wall-clock minute varies.
+- **Thinking replay protection only works one way.** It is two-way: neither the old chain nor the new accepts the other's transactions.
+- **Believing expiry cancels confirmed transactions.** Only unmined transactions are dropped at their expiry height.
+- **Dismissing Overwinter as unimportant.** Without its machinery, Sapling and every later upgrade could not have activated cleanly.
+
+
 ## Glossary
 
 | Term | Plain-English meaning |
@@ -104,5 +134,13 @@ Because it built the machinery that every later upgrade depends on. Overwinter i
 [What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
+
+
+## Related Pages
+
+- [Sprout](./Sprout.md) — the launch state Overwinter upgraded
+- [Sapling](./Sapling.md) — the first feature upgrade Overwinter's machinery enabled
+- [Full Nodes](./Full_Nodes.md) — what running a node through upgrades involves
+
 
 Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Sprout](../zcash-tech/sprout) · Next: [Sapling](../zcash-tech/sapling)
