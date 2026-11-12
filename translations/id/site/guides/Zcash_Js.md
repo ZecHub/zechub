@@ -1,4 +1,4 @@
-# Zcash Panduan Developer JS
+# Panduan Developer Zcash JS
 
 **zcash.js** (`@zcashlabs/zcash.js`) adalah SDK TypeScript/JavaScript eksperimental yang dirilis oleh Zcash Labs pada 26 Oktober 2026. SDK ini memungkinkan developer membangun dompet, light client, dashboard, dan aplikasi yang berinteraksi dengan jaringan Zcash dari Node.js dan browser.
 

@@ -1,4 +1,4 @@
-# Zcash Nduzi Onye Mmepụta JS
+# Nduzi Onye Mmepụta Zcash JS
 
 **zcash.js** (`@zcashlabs/zcash.js`) bụ SDK TypeScript/JavaScript nnwale nke Zcash Labs wepụtara na 26 Ọktoba 2026. Ọ na-enye ndị mmepụta ohere iwulite e-akpa ego [wallets], light client, dashboard, na ngwa na-emekọrịta ihe na netwọk Zcash site na Node.js na ihe nchọgharị weebụ.
 

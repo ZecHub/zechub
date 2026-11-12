@@ -1,4 +1,4 @@
-# Zcash Guida per sviluppatori JS
+# Guida per sviluppatori Zcash JS
 
 **zcash.js** (`@zcashlabs/zcash.js`) è un SDK sperimentale per TypeScript/JavaScript pubblicato da Zcash Labs il 26 ottobre 2026. Consente agli sviluppatori di creare portafogli, light client, dashboard e applicazioni che interagiscono con la rete di Zcash da Node.js e dal browser.
 

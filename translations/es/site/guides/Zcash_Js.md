@@ -1,4 +1,4 @@
-# Zcash Guía del desarrollador [Developer Guide] de JS
+# Guía del desarrollador [Developer Guide] de Zcash JS
 
 **zcash.js** (`@zcashlabs/zcash.js`) es un SDK [SDK] experimental de TypeScript/JavaScript lanzado por Zcash Labs el 26 de octubre de 2026. Permite a los desarrolladores [developers] crear billeteras [wallets], clientes ligeros [light clients], paneles [dashboards] y aplicaciones que interactúan con la red [network] Zcash desde Node.js y el navegador.
 
