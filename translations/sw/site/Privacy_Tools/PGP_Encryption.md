@@ -2,17 +2,17 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Faragha Nzuri Sana (PGP)
+# Pretty Good Privacy (PGP)
 
-Faragha Nzuri Sana (PGP) ni kifurushi cha programu ya kriptografia kinachowezesha mawasiliano salama kupitia njia zisizo salama. PGP hutumia mchanganyiko wa usimbaji fiche [encryption] na sahihi za kidijitali ili kuhakikisha kwamba ni mpokeaji aliyekusudiwa pekee anayeweza kusoma ujumbe na kwamba mtumaji ndiye anayedai kuwa yeye.
+Pretty Good Privacy (PGP) ni kifurushi cha programu ya kriptografia kinachowezesha mawasiliano salama kupitia njia zisizo salama. PGP hutumia mchanganyiko wa usimbaji fiche [encryption] na sahihi za kidijitali ili kuhakikisha kwamba ni mpokeaji aliyekusudiwa pekee anayeweza kusoma ujumbe na kwamba mtumaji ndiye anayedai kuwa yeye.
 
 ## Vifaa Vinavyopatikana [Available Tools]
 
 Kuna vifaa [tools] vingi tofauti vya PGP vinavyopatikana, lakini baadhi ya vilivyo maarufu zaidi ni:
 
-* **[GPG](https://gpgtools.org/)**: GPG ni utekelezaji wa PGP wa bure na wa chanzo huria unaopatikana kwa Windows, macOS, na Linux.
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail ni kiteja cha kibiashara cha barua pepe cha PGP kinachopatikana kwa Windows na macOS.
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope ni kiendelezi cha bure na cha chanzo huria cha PGP kwa Gmail na Thunderbird.
+* **[GnuPG (GPG)](https://gnupg.org/)**: Kifaa cha mstari wa amri cha bure na cha chanzo huria cha OpenPGP. Chagua kifurushi au kiolesura cha picha kinachofaa kwa mfumo wako wa uendeshaji.
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: Kiteja cha bure na cha chanzo huria cha barua pepe cha kompyuta ya mezani chenye usaidizi wa ndani wa OpenPGP tangu toleo la 78. Hahitajii Mailvelope ili kusimba barua pepe fiche.
+* **[Mailvelope](https://mailvelope.com/)**: Kiendelezi cha kivinjari cha chanzo huria kinachoongeza OpenPGP kwenye huduma za barua pepe za wavuti zinazotumika, zikiwemo Gmail. Ni kifaa cha barua pepe za wavuti, si kiendelezi cha Thunderbird.
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 

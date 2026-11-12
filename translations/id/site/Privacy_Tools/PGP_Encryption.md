@@ -10,9 +10,9 @@ Pretty Good Privacy (PGP) adalah paket perangkat lunak kriptografi yang menyedia
 
 Ada banyak alat PGP berbeda yang tersedia, tetapi beberapa yang paling populer meliputi:
 
-* **[GPG](https://gpgtools.org/)**: GPG adalah implementasi PGP gratis dan open-source yang tersedia untuk Windows, macOS, dan Linux.
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail adalah klien email PGP komersial yang tersedia untuk Windows dan macOS.
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope adalah ekstensi PGP gratis dan open-source untuk Gmail dan Thunderbird.
+* **[GnuPG (GPG)](https://gnupg.org/)**: Alat baris perintah OpenPGP gratis dan open-source. Pilih paket atau frontend grafis yang sesuai untuk sistem operasi kamu.
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: Klien email desktop gratis dan open-source dengan dukungan OpenPGP bawaan sejak versi 78. Klien ini tidak memerlukan Mailvelope untuk mengenkripsi email.
+* **[Mailvelope](https://mailvelope.com/)**: Ekstensi browser open-source yang menambahkan OpenPGP ke layanan webmail yang didukung, termasuk Gmail. Ini adalah alat webmail, bukan ekstensi untuk Thunderbird.
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 

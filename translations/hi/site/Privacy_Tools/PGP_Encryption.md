@@ -10,9 +10,9 @@ Pretty Good Privacy (PGP) एक क्रिप्टोग्राफिक �
 
 कई अलग-अलग PGP टूल्स उपलब्ध हैं, लेकिन उनमें से कुछ सबसे लोकप्रिय ये हैं:
 
-* **[GPG](https://gpgtools.org/)**: GPG एक निःशुल्क और ओपन-सोर्स PGP implementation है, जो Windows, macOS, और Linux के लिए उपलब्ध है।
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail एक व्यावसायिक PGP ईमेल क्लाइंट है, जो Windows और macOS के लिए उपलब्ध है।
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope Gmail और Thunderbird के लिए एक निःशुल्क और ओपन-सोर्स PGP extension है।
+* **[GnuPG (GPG)](https://gnupg.org/)**: एक निःशुल्क, ओपन-सोर्स OpenPGP कमांड-लाइन टूल। अपने ऑपरेटिंग सिस्टम के लिए उपयुक्त पैकेज या ग्राफ़िकल फ्रंटएंड चुनें।
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: संस्करण 78 से अंतर्निहित OpenPGP समर्थन वाला एक निःशुल्क, ओपन-सोर्स डेस्कटॉप ईमेल क्लाइंट। ईमेल एन्क्रिप्ट करने के लिए इसे Mailvelope की आवश्यकता नहीं है।
+* **[Mailvelope](https://mailvelope.com/)**: एक ओपन-सोर्स ब्राउज़र एक्सटेंशन जो Gmail सहित समर्थित वेबमेल सेवाओं में OpenPGP जोड़ता है। यह एक वेबमेल टूल है, Thunderbird के लिए एक्सटेंशन नहीं।
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 

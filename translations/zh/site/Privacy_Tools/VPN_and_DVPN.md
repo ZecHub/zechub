@@ -37,14 +37,14 @@ __去中心化 VPN（dVPN）__：相比之下，dVPN 利用 blockchain 和点对
 
 7. __价格与功能__：评估不同提供商提供的成本和功能，找到符合您需求和预算的服务。
 
-# 接受 Zcash 的 VPN
+# VPN 服务和 Zcash 支付
 
-Zcash（ZEC）是一种为增强隐私而设计的加密货币，因此深受希望在金融交易 [transaction] 中保持匿名的人士青睐。虽然并非所有 VPN 服务都直接接受 Zcash，但一些服务可能通过中介服务接受加密货币支付 [payment]。不过，务必直接向 VPN 提供商确认最新的支付选项。以下是一些已知接受加密货币支付的 VPN 服务：
+Zcash 的支付 [payment] 支持情况必须逐一向各提供商核实。接受加密货币 [cryptocurrency] 并不一定包括 ZEC，而向第三方交易所 [exchange] 或经销商付款与直接向 VPN 提供商支付不同。以下服务的支付政策各不相同；请在汇款前核实当前接受的货币。
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-   Mullvad VPN 是备受好评的 VPN 服务，以其对用户隐私和安全的坚定承诺而闻名。它是少数接受加密货币（包括
-   Zcash）作为支付方式的 VPN 提供商之一。Mullvad 的核心功能包括：
+Mullvad VPN 是一项专注于隐私 [privacy] 的 VPN 服务。其 [当前支付常见问题](https://mullvad.net/en/pricing)列出了接受的支付 [payment] 方式。
+加密货币支持并不意味着直接支持每一种币种。Mullvad 的核心功能包括：
 
    __无日志政策__：Mullvad 遵循严格的无日志政策，这意味着它不会存储任何与您在线活动相关的数据。
 
@@ -56,7 +56,7 @@ Zcash（ZEC）是一种为增强隐私而设计的加密货币，因此深受希
 
    __匿名账户创建__：系统会为用户分配随机生成的账户号码，无需在注册时提供个人信息。
 
-   __Zcash 支付__：Mullvad 接受 Zcash 作为支付选项，允许用户以更强的隐私支付订阅费用。Mullvad VPN。
+__加密货币支付 [Cryptocurrency payments]__：已发布的列表列出了 Bitcoin、Bitcoin Cash 和 Monero，而非 Zcash。第三方交易所或经销商属于独立服务；请勿将其描述为 Mullvad 直接接受 ZEC。
 
 3. [__Nym VPN（dVPN）__](https://nym.com/)
    
@@ -71,9 +71,9 @@ Zcash（ZEC）是一种为增强隐私而设计的加密货币，因此深受希
 
    __强隐私__：Nym VPN 的设计以隐私为核心，且不要求用户在创建账户时提供个人信息。
 
-   有关 Zcash 钱包 [wallet] 专用路由，请参阅 [通过 Nym Mixnet 路由 Zcash 钱包流量](./Nym_Mixnet_Wallet_Setup.md)。
+有关 Zcash 钱包专用路由，请参阅 [通过 Nym Mixnet 路由 Zcash 钱包流量](../guides/Nym_Mixnet_Wallet_Setup.md)。
 
-## 支持 zcash 支付的其他 VPN：-
+## 值得查看的其他 VPN 提供商
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)

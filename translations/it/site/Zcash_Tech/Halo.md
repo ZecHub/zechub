@@ -28,13 +28,13 @@ Halo è un sistema trustless di prove ricorsive a conoscenza zero scoperto da Se
 
 ### Nessun trusted setup
 
-zk-SNARKs si basa su una stringa di riferimento comune (CRS) come parametro pubblico per la generazione e la verifica delle prove. Questa CRS deve essere generata in anticipo da una parte fidata. Fino a poco tempo fa, elaborate computazioni sicure multi-parte (MPC), come quelle effettuate dalla rete Aztec e da Zcash, erano necessarie per mitigare il rischio durante questa [cerimonia di trusted setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
+Alcune costruzioni zk-SNARK, come Groth16, richiedono un trusted setup per generare i propri parametri pubblici, spesso chiamati stringa di riferimento comune (CRS). La CRS viene condivisa con i prover e i verificatori; non è il segreto che deve essere distrutto. Il materiale segreto intermedio ("scorie tossiche") prodotto da tale setup deve essere eliminato. Una computazione sicura multi-parte può distribuire questa fiducia: la cerimonia è sicura se almeno un partecipante segue il protocollo e distrugge il proprio contributo segreto. Consulta la [spiegazione di ECC sui parametri pubblici e sulle scorie tossiche](https://zodl.com/snark-parameters/).
 
-Le precedenti pool schermate Sprout e Sapling di Zcash utilizzavano i sistemi zk-proving BCTV14 e Groth16. Pur essendo sicuri, presentavano limitazioni: non erano scalabili perché legati a una singola applicazione, il "rifiuto tossico" (residui di materiale crittografico generati durante la cerimonia di genesi) poteva persistere e occorreva un elemento di fiducia, seppur minimo, per ritenere accettabile la cerimonia.
+Le precedenti pool schermate Sprout e Sapling di Zcash utilizzavano rispettivamente i sistemi di prova con trusted setup BCTV14 e Groth16. I loro parametri pubblici restano disponibili per la generazione e la verifica delle prove. Il dubbio riguarda l'eventuale conservazione del materiale segreto della configurazione, che potrebbe consentire prove false; la pubblicazione del CRS stesso è prevista e non rivela tale materiale segreto.
 
-Halo elimina il trusted setup comprimendo ripetutamente più istanze di problemi complessi attraverso cicli di curve ellittiche, così che le prove computazionali possano ragionare efficientemente su sé stesse (ammortizzazione annidata). Un effetto collaterale è che la stringa di riferimento strutturata, ovvero l'output di una cerimonia, diventa aggiornabile, consentendo applicazioni come gli smart contract.
+Halo combina la composizione ricorsiva delle prove con uno schema di commitment polinomiale basato su un argomento di prodotto interno. I suoi parametri pubblici non richiedono una cerimonia di trusted setup né la distruzione di una trapdoor segreta di configurazione. Il libro [Halo 2 descrive questi parametri pubblici di gruppo](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Questo è diverso dal rendere aggiornabile una stringa di riferimento strutturata generata da una cerimonia.
 
-Halo offre agli utenti due importanti garanzie sulla sicurezza di un sistema di prove a conoscenza zero su larga scala. Innanzitutto, consente agli utenti di dimostrare che nessuna persona coinvolta nella cerimonia di genesi ha creato una backdoor segreta per eseguire transazioni fraudolente. In secondo luogo, consente agli utenti di dimostrare che il sistema è rimasto sicuro nel tempo, anche durante aggiornamenti e modifiche.
+Eliminare questo requisito di setup evita di dover fare affidamento sulla distruzione del materiale segreto della cerimonia per le prove Halo. Questo non dimostra che una precedente cerimonia Sprout o Sapling non sia stata compromessa, né certifica che tutte le successive modifiche al protocollo siano sicure. Le prove ricorsive attestano i calcoli codificati nei loro circuiti, secondo le assunzioni del sistema di prova. Circuiti e implementazioni corretti restano fondamentali; la [spiegazione del deployment di Halo 2](https://zodl.com/technical-explainer-halo-on-zcash/) di ECC rileva esplicitamente il rischio di nuovi bug o difetti di progettazione.
 
 [La spiegazione di Sean Bowe presso Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo trasforma ogni documento verificato in un timbro sul documento *successivo*
 
 ### Perché è importante eliminare il trusted setup
 
-Nei sistemi più vecchi, il "sigillo" (la CRS) proveniva da una cerimonia. I partecipanti dovevano distruggere il materiale intermedio e tutti dovevano fidarsi del fatto che lo avessero fatto. Il sigillo di Halo è prodotto solo dalla matematica: non c'è nulla da distruggere, nulla da divulgare e nessuna cerimonia di cui fidarsi.
+Nei sistemi più vecchi con trusted setup, il "sigillo" pubblico (la CRS) proveniva da una cerimonia. I partecipanti dovevano distruggere il loro materiale intermedio segreto mantenendo disponibili i parametri pubblici. Halo evita quella cerimonia e la relativa trapdoor segreta del setup. Questo non elimina la necessità di proteggere le chiavi di spesa degli utenti né di verificare le ipotesi e l'implementazione del sistema di prove.
 
 ---
 
@@ -120,7 +120,7 @@ Inoltre, Halo 2 è distribuito con le licenze open source [MIT e Apache 2.0](htt
 | Credenza comune | Cosa accade realmente |
 | --- | --- |
 | "Halo è un futuro aggiornamento che Zcash sta aspettando." | Orchard, attivo su mainnet dal NU5 (2022), funziona già su Halo 2. |
-| "Nessun trusted setup significa nessun parametro." | Halo usa ancora parametri strutturati; la differenza è che non contengono rifiuti tossici e possono essere generati e aggiornati senza una cerimonia di cui i partecipanti debbano fidarsi. |
+| "Nessun trusted setup significa nessun parametro." | Halo usa ancora parametri pubblici. Non richiedono una cerimonia in cui ci si debba fidare che i partecipanti distruggano il materiale segreto della configurazione. |
 | "Halo 2 e il documento Halo sono la stessa cosa." | Il [documento](https://eprint.iacr.org/2019/1021.pdf) descrive lo schema di commitment polinomiale e l'ammortizzazione annidata; Halo 2 è l'implementazione Rust in produzione con uno schema di accumulazione e un'aritmetizzazione PLONKish. |
 | "La ricorsione aiuta solo a scalare la verifica dei blocchi." | La ricorsione comprime anche la computazione a livello applicativo: vedi le prove di spazio-tempo/replica di Filecoin e il lavoro sulla VDF per Ethereum. |
 

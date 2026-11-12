@@ -28,15 +28,15 @@ Halo adalah sistem proof zero-knowledge rekursif tanpa kepercayaan yang ditemuka
 
 ### Tanpa trusted setup
 
-zk-SNARKs bergantung pada common reference string (CRS) sebagai parameter publik untuk pembuktian dan verifikasi. CRS ini harus dibuat terlebih dahulu oleh pihak tepercaya. Hingga baru-baru ini, komputasi multi-pihak aman (MPC) yang rumit — seperti yang dilakukan oleh jaringan Aztec dan Zcash — diperlukan untuk memitigasi risiko selama [upacara trusted setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/) ini.
+Beberapa konstruksi zk-SNARK, seperti Groth16, memerlukan trusted setup untuk menghasilkan parameter publiknya, yang sering disebut common reference string (CRS). CRS dibagikan kepada pembukti dan verifier; CRS bukanlah rahasia yang harus dimusnahkan. Materi perantara rahasia ("toxic waste") yang dihasilkan oleh setup semacam itu harus dibuang. Komputasi multi-pihak aman dapat mendistribusikan kepercayaan tersebut: upacara ini aman jika setidaknya satu peserta mengikuti protokol dan memusnahkan kontribusi rahasianya. Lihat [penjelasan ECC tentang parameter publik dan toxic waste](https://zodl.com/snark-parameters/).
 
-Pool terlindungi Sprout dan Sapling terdahulu milik Zcash menggunakan sistem zk-proving BCTV14 dan Groth16. Walaupun aman, sistem-sistem tersebut memiliki keterbatasan: tidak dapat diskalakan karena terikat pada satu aplikasi, "limbah beracun" (sisa material kriptografis yang dihasilkan selama upacara genesis) dapat tetap ada, dan terdapat unsur kepercayaan (meskipun sangat kecil) dalam menyatakan upacara tersebut dapat diterima.
+Pool terlindungi Sprout dan Sapling terdahulu milik Zcash menggunakan sistem proving dengan trusted setup, masing-masing BCTV14 dan Groth16. Parameter publiknya tetap tersedia untuk pembuktian dan verifikasi. Kekhawatirannya adalah apakah material setup rahasia disimpan, yang dapat memungkinkan proof palsu; mempublikasikan CRS itu sendiri merupakan hal yang diharapkan dan tidak mengungkapkan material rahasia tersebut.
 
-Halo menghilangkan trusted setup dengan berulang kali menciutkan beberapa instans masalah sulit secara bersama-sama dalam siklus kurva eliptik, sehingga proof komputasional dapat digunakan untuk menalar tentang dirinya sendiri secara efisien (amortisasi bersarang). Efek sampingnya adalah structured reference string (hasil dari sebuah upacara) dapat ditingkatkan, sehingga memungkinkan aplikasi seperti smart contract.
+Halo menggabungkan komposisi proof rekursif dengan skema polynomial commitment yang didasarkan pada argumen inner product. Parameter publiknya tidak memerlukan upacara trusted setup ataupun penghancuran trapdoor rahasia dari setup. Buku [Halo 2 menjelaskan parameter grup publik ini](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Hal ini berbeda dengan menjadikan structured reference string yang dihasilkan oleh upacara dapat ditingkatkan.
 
-Halo memberikan pengguna dua jaminan penting mengenai keamanan sistem proof zero-knowledge berskala besar. Pertama, sistem ini memungkinkan pengguna membuktikan bahwa tidak seorang pun yang terlibat dalam upacara genesis telah menciptakan backdoor rahasia untuk menjalankan transaksi curang. Kedua, sistem ini memungkinkan pengguna menunjukkan bahwa sistem tetap aman seiring waktu, bahkan ketika telah mengalami pembaruan dan perubahan.
+Menghapus persyaratan penyiapan ini menghindarkan ketergantungan pada penghancuran material rahasia upacara untuk proof Halo. Hal ini tidak membuktikan bahwa upacara Sprout atau Sapling sebelumnya tidak dikompromikan, maupun menjamin bahwa semua perubahan protokol berikutnya aman. Proof rekursif membuktikan komputasi yang dikodekan dalam sirkuitnya, berdasarkan asumsi sistem proof. Sirkuit dan implementasi yang benar tetap penting; penjelasan deployment [Halo 2](https://zodl.com/technical-explainer-halo-on-zcash/) dari ECC secara eksplisit mencatat risiko bug baru atau kelemahan desain.
 
-[Sean BowePenjelasan di Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Penjelasan Sean Bowe di Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
 ---
 
@@ -50,7 +50,7 @@ Halo mengubah setiap dokumen yang telah diverifikasi menjadi cap pada dokumen *b
 
 ### Mengapa menghilangkan trusted setup penting
 
-Dalam sistem lama, "segel" (CRS) berasal dari sebuah upacara. Para peserta harus menghancurkan material perantara, dan semua orang harus memercayai bahwa mereka melakukannya. Segel Halo dihasilkan oleh matematika saja: tidak ada yang perlu dihancurkan, tidak ada yang dapat bocor, dan tidak ada upacara yang perlu dipercayai.
+Dalam sistem lama dengan trusted setup, "segel" publik (CRS) berasal dari sebuah upacara. Para peserta harus menghancurkan material perantara rahasia mereka sambil menjaga parameter publik tetap tersedia. Halo menghindari upacara tersebut dan trapdoor setup rahasianya. Hal ini tidak menghilangkan kebutuhan untuk melindungi spending key pengguna atau memeriksa asumsi dan implementasi sistem proof.
 
 ---
 
@@ -120,7 +120,7 @@ Selain itu, Halo 2 berada di bawah [lisensi open-source MIT dan Apache 2.0](http
 | Keyakinan umum | Keadaan sebenarnya |
 | --- | --- |
 | "Halo adalah peningkatan masa depan yang sedang ditunggu oleh Zcash." | Orchard, yang aktif di mainnet sejak NU5 (2022), sudah berjalan menggunakan Halo 2. |
-| "Tanpa trusted setup berarti tidak ada parameter sama sekali." | Halo tetap menggunakan parameter terstruktur; perbedaannya adalah parameter tersebut tidak mengandung limbah beracun dan dapat dibuat serta ditingkatkan tanpa upacara yang harus dipercayai peserta. |
+| "Tanpa trusted setup berarti tidak ada parameter sama sekali." | Halo tetap menggunakan parameter publik. Parameter tersebut tidak memerlukan upacara yang mengharuskan peserta dipercaya untuk menghancurkan materi penyiapan rahasia. |
 | "Halo 2 dan makalah Halo adalah hal yang sama." | Makalah [](https://eprint.iacr.org/2019/1021.pdf) menjelaskan skema komitmen polinomial dan amortisasi bersarang; Halo 2 adalah implementasi produksi Rust dengan skema akumulasi dan aritmetisasi PLONKish. |
 | "Rekursi hanya membantu menskalakan verifikasi blok." | Rekursi juga mengompresi komputasi tingkat aplikasi — lihat proof of spacetime/replication Filecoin dan pekerjaan VDF untuk Ethereum. |
 

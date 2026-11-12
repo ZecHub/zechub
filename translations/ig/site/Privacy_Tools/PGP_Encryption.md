@@ -10,9 +10,9 @@ Pretty Good Privacy (PGP) bụ ngwugwu sọftụwia kriptogafik nke na-enye nkwu
 
 Enwere ọtụtụ ngwá ọrụ PGP dị iche iche, mana ụfọdụ n'ime ndị kacha ewu ewu gụnyere:
 
-* **[GPG](https://gpgtools.org/)**: GPG bụ mmejuputa PGP n'efu na nke mepere emepe nke dị maka Windows, macOS, na Linux.
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail bụ onye ahịa email PGP azụmahịa nke dị maka Windows na macOS.
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope bụ mgbatị PGP n'efu na nke mepere emepe maka Gmail na Thunderbird.
+* **[GnuPG (GPG)](https://gnupg.org/)**: Ngwá ọrụ ahịrị iwu OpenPGP n'efu, nke mepere emepe. Họrọ ngwugwu ma ọ bụ ihu eserese dabara na sistemụ arụmọrụ gị.
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: Onye ahịa email desktọọpụ n'efu, nke mepere emepe, nke nwere nkwado OpenPGP arụnyere kemgbe ụdị 78. Ọ dịghị mkpa Mailvelope iji mee Nzobe ederede email.
+* **[Mailvelope](https://mailvelope.com/)**: Mgbatị ihe nchọgharị mepere emepe nke na-agbakwunye OpenPGP na ọrụ webmail akwadoro, gụnyere Gmail. Ọ bụ ngwá ọrụ webmail, ọ bụghị mgbatị maka Thunderbird.
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
