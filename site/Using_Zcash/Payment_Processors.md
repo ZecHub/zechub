@@ -17,7 +17,7 @@ Support for privacy assets changes often, so each row carries its own verified d
 | [ZGo](https://zgo.cash/) | Non-custodial | Yes, Sapling and Orchard | No, hosted service | Prepaid session, price not published | No KYC stated, regions not stated | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Customer self-custody, merchant settles in fiat | Customer spends shielded, receiving side not documented | No | 1% per payment | US and 37 SEPA countries, ZEC in EU unconfirmed | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Non-custodial by default | No, transparent address only | No | 0.5%, or 1% with conversion | Global except where prohibited, no KYC to start | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Custodial, despite marketing | Not documented | No | 0.5% API, 1.5% white label | No KYC to receive | 2026-07-29 |
+| [Plisio — payments suspended](https://plisio.net/) | Custodial, despite marketing | Not documented | No | 0.5% API, 1.5% white label | No KYC to receive | 2026-07-29 |
 | [Binance Pay](https://pay.binance.com/en) | Custodial, off-chain | No, shielded deposits rejected | No | Free wallet to wallet, 0.8% payouts | Geo-restricted, ZEC delisted in FR, ES, IT, PL | 2026-07-29 |
 
 </div>
@@ -150,10 +150,13 @@ Available globally except where the law prohibits it. You do not need KYC to sta
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **Payments suspended — checked 12 November 2026.** Plisio's [homepage](https://plisio.net/) says incoming and outgoing payments are temporarily suspended while restoration work is underway. Check with the provider before sending funds. Its Zcash-specific page currently returns 404; this does not establish that ZEC has been delisted. The fee, custody and address-support details below were last reviewed on 29 July 2026 and have not been reverified.
+
 - **Support Type**: Transparent (not documented)
-- **Description**: Plisio is a cryptocurrency payment gateway that allows businesses to accept Zcash payments.
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
+- **Description**: Plisio is a cryptocurrency payment gateway that has listed Zcash support. Payment processing is currently suspended; see the dated notice above.
+- **URL**: [Plisio](https://plisio.net/)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Treat it as custodial. Plisio's marketing calls it non-custodial, but its own help pages describe balances held on the platform, cold storage and a withdrawal process. The non-custodial claim could not be confirmed.
