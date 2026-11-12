@@ -221,6 +221,7 @@ guides/Visualizing_Zcash_Addresses.md
 guides/Visualizing_the_Zcash_Network.md
 guides/Ywallet_FROST_Demo.md
 guides/Zcash_Devtool.md
+guides/Zcash_Js.md
 guides/Zcash_Improvement_Proposals.md
 guides/Zcash_Node_RPC_and_Indexing.md
 guides/Zenith_Installation.md
