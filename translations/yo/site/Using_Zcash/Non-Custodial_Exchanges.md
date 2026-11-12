@@ -4,29 +4,39 @@
 
 # <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Non-Custodial Exchanges
 
+## TL;DR
+
+* Pààrọ̀ owó tí kìí ṣe ti àkóso jẹ́ kí o pààrọ̀ owó láti inú àpò owó rẹ. O máa ń pa kọ́kọ́rọ́ ìkọ̀kọ̀ rẹ mọ́, kò sì sí àkọọ́lẹ̀ pàṣípààrọ̀ tí ó lè gba owó rẹ.
+* Pípa àwọn kọ́kọ́rọ́ rẹ mọ́ ń dáàbò bò ọ́ lọ́wọ́ àwọn ìkọlù àti ìkùnà. Ìpamọ́ jẹ́ ìbéèrè ọ̀tọ̀.
+* Isanwo ti o fi ranṣẹ lati inu ẹwọn miiran, bii Solana tabi Ethereum, jẹ gbogbo eniyan lori ẹwọn yẹn. Iṣẹ iyipada naa tun rii awọn adirẹsi ati data asopọ rẹ.
+* Àwọn ọ̀nà ìyípadà kan ń fi ZEC sí àdírẹ́sì tí ó ṣe kedere, èyí tí gbogbo ènìyàn mọ̀.
+* ZEC rẹ yóò di ẹni ìkọ̀kọ̀ nígbà tí ó bá wà ní àdírẹ́sì tí a fi ààbò pamọ́. Fi pamọ́ sínú àpò owó rẹ kí o tó ná an.
+
+## Àlàyé Pàtàkì
+
 [Àwọn Pàṣípààrọ̀ tí kìí ṣe ti Zcash](/dex)
 
 Nínú ayé ìṣòwò owó oní-nọ́ńbà tí ń yípadà nígbà gbogbo, àwọn pàṣípààrọ̀ tí kìí ṣe ti ìpamọ́, tí a tún mọ̀ sí Decentralized Exchanges tàbí DEXs, jẹ́ kí àwọn olùlò ṣòwò láìfi owó wọn sí àkọọ́lẹ̀ pàṣípààrọ̀ kan. O máa ń pa àwọn kọ́kọ́rọ́ tìrẹ mọ́, ṣùgbọ́n èyí kò túmọ̀ sí pé kò sí ẹlòmíràn tí ó ní ipa nínú rẹ̀. Ní ìbámu pẹ̀lú ipa ọ̀nà náà, pàṣípààrọ̀ kan lè kọjá nípasẹ̀ ojú-òpó wẹ́ẹ̀bù tàbí àpù àpò owó, iṣẹ́ ìtọ́sọ́nà, àwọn àdéhùn ọlọ́gbọ́n, àwọn olùṣètò àti àwọn afárá.
 
 Àwọn pàṣípààrọ̀ tí a kọ sí òkè yìí ń jẹ́ kí o gba àti pàṣípààrọ̀ Zcash láti inú àpò owó rẹ. Bí pàṣípààrọ̀ ṣe jẹ́ ti ìkọ̀kọ̀ sinmi lórí iṣẹ́ náà, nẹ́tíwọ́ọ̀kì tí o ń sanwó láti ọ̀dọ̀ rẹ̀, àti bóyá ZEC rẹ yóò dé sí àdírẹ́sì tí a dáàbò bò. Àwọn apá ìsàlẹ̀ yìí ṣàlàyé ìyàtọ̀ náà.
 
-### **Lílóye Pàṣípààrọ̀ Tí Kì í Ṣe Ààbò**
+### **Lílóye Pàṣípààrọ̀ Tí Kì í Ṣe ti Ààbò**
 
-Àwọn pàṣípààrọ̀ tí kìí ṣe ti àkóso, tí a tún mọ̀ sí Decentralized Exchanges (DEXs) jẹ́ àwọn ìtàkùn tí ó ń mú kí ìṣòwò owó-orí-aláìsí-ètò rọrùn láìsí pé kí àwọn olùlò fi owó wọn sínú pàṣípààrọ̀ náà fúnra rẹ̀. Dípò bẹ́ẹ̀, àwọn olùlò máa ń ṣàkóso àwọn kọ́kọ́rọ́ ìkọ̀kọ̀ wọn, wọ́n sì máa ń ṣòwò láti inú àpò owó wọn. Àwọn pàṣípààrọ̀ oní-ẹ̀gbẹ́ ṣì gbẹ́kẹ̀lé àwọn ẹgbẹ́ mìíràn láti fa ọ̀rọ̀, darí àti yanjú ìṣòwò náà (wo ìsàlẹ̀).
+Àwọn pàṣípààrọ̀ tí kìí ṣe ti àkóso, tí a tún mọ̀ sí Decentralized Exchanges (DEXs), jẹ́ àwọn ìpìlẹ̀ tí ó mú kí ìṣòwò owó-orí-aláìsí-ètò rọrùn láìsí pé kí àwọn olùlò fi owó wọn sínú pàṣípààrọ̀ náà fúnra rẹ̀. Dípò bẹ́ẹ̀, àwọn olùlò máa ń ṣàkóso àwọn kọ́kọ́rọ́ ìkọ̀kọ̀ wọn, wọ́n sì máa ń ṣòwò láti inú àpò owó wọn. Àwọn pàṣípààrọ̀ oní-ẹ̀gbẹ́-ẹ̀gbẹ́ ṣì gbẹ́kẹ̀lé àwọn ẹgbẹ́ mìíràn láti fa ọ̀rọ̀, darí àti yanjú ìṣòwò náà (wo ìsàlẹ̀).
 
 Èyí lè mú ààbò sunwọ̀n síi, nítorí pé àwọn olùlò kò gbẹ́kẹ̀lé pàṣípààrọ̀ náà láti di dúkìá wọn mú, èyí tí ó dín ewu ìkọlù tàbí àìṣàkóso rẹ̀ kù. Kò sọ pàṣípààrọ̀ náà di ìkọ̀kọ̀ fúnrarẹ̀. Àwọn ìṣòwò lórí pàṣípààrọ̀ tí kì í ṣe ti àkóso sábà máa ń lo àwọn àdéhùn ọlọ́gbọ́n, èyí tí ó jẹ́ ti gbogbo ènìyàn, iṣẹ́ tí o ń lò sì lè rí àwọn àdírẹ́sì àti àwọn àlàyé ìsopọ̀ rẹ.
 
 Àǹfààní pàtàkì ti àwọn pàṣípààrọ̀ owó oní-nọ́ńbà tí kìí ṣe ti àkóso wà nínú agbára ìṣàkóso tí wọ́n ń fún àwọn olùlò lórí dúkìá wọn. Nítorí pé àwọn pàṣípààrọ̀ wọ̀nyí kò ní dúkìá náà mọ́, àwọn olùlò ní agbára àti àṣẹ lórí owó oní-nọ́ńbà wọn pátápátá.
 
-### **Paṣipaarọ Ti Ko Ni Itọju Ati Paṣipaarọ Ile-itọju**
+### **Paṣipaarọ Ti kii ṣe ti Ile-iṣẹ́ Ati Paṣipaarọ Abojuto**
 
 **#1 Ààbò**: Pààrọ̀ tí kì í ṣe ti ilé ìpamọ́ mú kí owó wà nínú àkọọ́lẹ̀ pàṣípààrọ̀ àárín gbùngbùn. Àwọn olùlò máa ń ṣàkóso àwọn kọ́kọ́rọ́ ìkọ̀kọ̀ wọn, èyí tí ó máa ń dín ewu àwọn ìkọlù, àwọn ìkọlù inú àti àwọn ìkùnà ìdúró tí àwọn pàṣípààrọ̀ pàṣípààrọ̀ lè ní kù. Pààrọ̀ pàṣípààrọ̀ oní-ẹ̀rọ-ìdápamọ́ ṣì lè di owó mú fún ìgbà díẹ̀ nínú àdírẹ́sì ìdókòwò tàbí afárá nígbà tí ìṣòwò náà bá parí.
 
-**#2 Ìpamọ́**: Àwọn ìyípadà tí kìí ṣe ti àkóso kìí sábà nílò àkọọ́lẹ̀ pàṣípààrọ̀, nítorí náà o sábà máa ń forúkọ sílẹ̀ pẹ̀lú ìmeeli tàbí ID. Ìyẹn kìí ṣe ohun kan náà pẹ̀lú àìdámọ̀. Owó tí o fi ránṣẹ́ sí nẹ́tíwọ́ọ̀kì orísun (fún àpẹẹrẹ Solana tàbí Ethereum) jẹ́ ti gbogbo ènìyàn lórí ẹ̀wọ̀n yẹn, iṣẹ́ náà sì tún lè rí àwọn àdírẹ́sì àpò owó rẹ, àdírẹ́sì IP àti àwọn àlàyé ìyípadà náà. Ìpamọ́ ní apá Zcash sinmi lórí ibi tí ZEC rẹ bá dé (wo ìsàlẹ̀).
+**#2 Ìpamọ́**: Àwọn ìyípadà tí kìí ṣe ti àkóso kìí sábà nílò àkọọ́lẹ̀ pàṣípààrọ̀, nítorí náà o sábà máa ń forúkọ sílẹ̀ pẹ̀lú ìmeeli tàbí ID. Ìyẹn kìí ṣe ohun kan náà pẹ̀lú àìdámọ̀. Owó tí o fi ránṣẹ́ sí nẹ́tíwọ́ọ̀kì orísun (fún àpẹẹrẹ, Solana tàbí Ethereum) jẹ́ ti gbogbo ènìyàn lórí ẹ̀wọ̀n yẹn, iṣẹ́ náà sì tún lè rí àwọn àdírẹ́sì àpò owó rẹ, àdírẹ́sì IP àti àwọn àlàyé ìyípadà náà. Ìpamọ́ ní apá Zcash sinmi lórí ibi tí ZEC rẹ bá dé (wo ìsàlẹ̀).
 
 **#3 Ìpínpínsípò**: Pípàṣípààrọ̀ tí kìí ṣe ti ilé ìfowópamọ́ bá ìlànà àìṣètò owó kripto mu. Àwọn olùlò ní agbára àti ìṣàkóso tó ga jù lórí ìgbòkègbodò ìṣòwò wọn, ní ìbámu pẹ̀lú àwọn ìlànà gbígbòòrò ti ìmọ̀ ẹ̀rọ blockchain.
 
-Nígbà tí ó bá kan Ìpàṣípààrọ̀ Ààbò, ìpele Ìpínsípòpọ̀ kìí sábàá tóbi púpọ̀ nínú ọ̀pọ̀lọpọ̀ àwọn ìpàṣípààrọ̀ tí ó ń fa kí ẹgbẹ́ ìpàṣípààrọ̀ tàbí àwọn aláṣẹ máa ṣàkóso dátà tàbí ìwífún lórí ìpàṣípààrọ̀ náà.
+Nígbà tí ó bá kan Ìpàṣípààrọ̀ Ààbò, ìpele Ìpínsípòpọ̀ kìí sábàá tóbi púpọ̀ nínú ọ̀pọ̀lọpọ̀ àwọn ìpàṣípààrọ̀ tí ó wà ní àárín gbùngbùn, èyí tí ó ń fa kí ẹgbẹ́ ìpàṣípààrọ̀ tàbí àwọn aláṣẹ máa ṣàkóso dátà tàbí ìwífún lórí ìpàṣípààrọ̀ náà.
 
 **#4 Ìyípadà sí Àwọn Òfin**: Pípàṣípààrọ̀ tí kìí ṣe ti ilé ìpamọ́ sábà máa ń yípadà sí àwọn àyíká ìlànà tí ń yípadà. Níwọ́n ìgbà tí wọn kò ní owó olùlò, wọ́n lè ní àwọn ìpèníjà ìtẹ̀léra díẹ̀ ní ìfiwéra pẹ̀lú pípàṣípààrọ̀ àwọn ilé ìpamọ́.
 
@@ -54,11 +64,11 @@ Fún àpẹẹrẹ, ẹ wo ìyípadà tí a ṣe nípasẹ̀ iṣẹ́ NEAR Inte
 
 - **Àwòrán ojú-òpó wẹ́ẹ̀bù tàbí àpò owó tí o ń lò. Intents Technology tàbí ẹni-kẹta tí ó ní àwọn òfin tirẹ̀ lè ṣiṣẹ́ rẹ̀.
 - **1Click**: iṣẹ́ ìtọ́sọ́nà àti ìforúkọsílẹ̀ tí Intents Technology Limited ń ṣe. O máa ń fi owó ránṣẹ́ sí àdírẹ́sì ìdókòwò tí a ṣe fún ìsanwó rẹ. Àwọn ìwé náà sọ pé 1Click kò gba ìtọ́jú, ṣùgbọ́n àwọn òfin náà sọ pé àwọn dúkìá lè wà ní ìpamọ́ tàbí kí wọ́n ti mọ́ inú àwọn ètò afárá nígbà tí ìfiránṣẹ́ bá ń lọ lọ́wọ́.
-- **Ìlànà náà**: àwọn àdéhùn ọlọ́gbọ́n tí ó wà ní NEAR Intents.
+- **Ìlànà náà**: àwọn àdéhùn ọlọ́gbọ́n NEAR Intents.
 - **Àwọn Olùdásílẹ̀**: àwọn ẹgbẹ́ kẹta tí wọ́n ń kún ìforúkọsílẹ̀ náà.
-- **Àwọn Afárá**: ZEC ìbílẹ̀ ń gbé lórí Afárá PoA, èyí tí Intents Technology ń ṣiṣẹ́.
+- **Àwọn Afárá**: ZEC ìbílẹ̀ ń gbéra kọjá Afárá PoA, èyí tí Intents Technology ń ṣiṣẹ́.
 
-Àwọn ohun tó sún mọ́ ibẹ̀ pẹ̀lú [awọn iṣàn ìṣirò ti a ṣepọ ti awọn iboju](https://docs.near-intents.org/security-compliance/risk-and-compliance) lòdì sí ọ̀pọ̀lọpọ̀ ibi ìpamọ́ data AML, ó sì sọ pé ìbòjútó yàtọ̀ síra nípasẹ̀ ìṣàn àti ìṣọ̀kan. Lábẹ́ àwọn ìlànà rẹ̀, ìyípadà tí a fi àmì sí lè pẹ́, dí, dì í mú tàbí kí a kọ̀ ọ́ sílẹ̀.
+NEAR Intents pẹ̀lú [awọn iṣàn ìṣirò ti a ṣepọ ti awọn iboju](https://docs.near-intents.org/security-compliance/risk-and-compliance) lòdì sí ọ̀pọ̀lọpọ̀ ibi ìpamọ́ data AML, ó sì sọ pé ìbòjútó yàtọ̀ síra nípasẹ̀ ìṣàn àti ìṣọ̀kan. Lábẹ́ àwọn ìlànà rẹ̀, ìyípadà tí a fi àmì sí lè pẹ́, dí, dì í mú tàbí kí a kọ̀ ọ́ sílẹ̀.
 
 ### **Ohun tí o máa ń pín nígbà tí o bá ń pààrọ̀**
 
@@ -67,13 +77,23 @@ Fún àpẹẹrẹ, ẹ wo ìyípadà tí a ṣe nípasẹ̀ iṣẹ́ NEAR Inte
 - Dátà ìsopọ̀. Àwọn ọ̀rọ̀ 1Click sọ pé Intents Technology lè kó àwọn ìbéèrè metadata, àwọn àdírẹ́sì IP àti àdírẹ́sì àpò owó jọ, àti ìlànà ìpamọ́ lórí near.com ṣàkójọ àdírẹ́sì IP, ibi tí ó wà, ẹ̀rọ aṣàwárí àti ìwífún nípa ẹ̀rọ.
 - Ohunkóhun tí àpù náà bá fi kún un, bíi àwọn àdírẹ́sì àpò owó mìíràn tí a so pọ̀. Àwọn àpù náà tún lè ṣiṣẹ́ àpò owó rẹ nípasẹ̀ àwọn àyẹ̀wò ìtẹ̀léra wọn.
 
+## Ìwòran / Àfiwé
+
+Pààrọ̀ owó ìpamọ́ ń ṣiṣẹ́ bí báńkì. O ṣí àkọ́ọ́lù, o fi owó rẹ sílẹ̀ nínú àkójọ owó rẹ̀, o sì ní kí báńkì náà ṣòwò fún ọ.
+
+Pípàṣípààrọ̀ tí kì í ṣe ti àkóso ń ṣiṣẹ́ bí fèrèsé pàṣípààrọ̀ owó ní ojú pópó tí ó kún fún èrò. O máa ń fi owó ránṣẹ́ láti ojú fèrèsé, o máa ń gba owó mìíràn padà, o kò sì ní fi owó sílẹ̀ fún akọ̀wé. Àwọn ènìyàn ní ojú pópó lè rí ọ tí o bá ń rìn sókè tí o sì ń fi owó rẹ fún ọ, gẹ́gẹ́ bí ẹnikẹ́ni ṣe lè rí owó tí o fi sílẹ̀ lórí ẹ̀wọ̀n orísun. Akọ̀wé náà rí ojú rẹ àti iye owó náà.
+
+Ohun tó máa ṣẹlẹ̀ lẹ́yìn fèrèsé náà wà ní ọwọ́ rẹ. Fi àwọn owó tuntun náà sínú àpò ìwé tí wọ́n ti dì, lo àdírẹ́sì tí wọ́n fi ààbò pamọ́ sí, ẹnikẹ́ni kò sì lè tẹ̀lé wọn láti ibẹ̀.
+
+## Àwọn Àbájáde Tó Wúlò
+
 ### **Ibi ti a le ṣayẹwo Awọn ofin ati atilẹyin**
 
 Àwọn òfin máa ń yípadà, nítorí náà ka àwọn ẹ̀yà tó wà lọ́wọ́lọ́wọ́ kí o tó ṣe àyípadà ńlá.
 
 - **Bẹ̀rẹ̀ pẹ̀lú àpù tí o ń lò.** Òun ni ibi tí o ti lè kàn sí. Àwọn ọ̀rọ̀ API 1Click sọ pé Intents Technology kò ní ìbáṣepọ̀ tààrà pẹ̀lú àwọn olùlò àpù tí a kọ́ sórí rẹ̀.
-- **Àwọn Èrò Tó Wà Nítòsí:** Àwọn òfin àti ìlànà ìpamọ́ ní near.com/terms àti near.com/privacy, pẹ̀lú [Àwọn òfin API 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) àti [ewu ati ibamu](https://docs.near-intents.org/security-compliance/risk-and-compliance).
-- **Àtẹ̀lé àti ìtìlẹ́yìn:** wá ìyípadà kan lórí [Olùṣàwárí Nítòsí Èrò](https://explorer.near-intents.org) tàbí béèrè nínú ìbéèrè náà [Telegram Tó Wà Nítòsí](https://t.me/near_intents).
+- **NEAR Intents:** àwọn òfin àti ìlànà ìpamọ́ ní near.com/terms àti near.com/privacy, pẹ̀lú [Àwọn òfin API 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) àti [ewu ati ibamu](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+- **Àtẹ̀lé àti ìtìlẹ́yìn:** wá ìyípadà kan lórí [Olùṣàwárí NEAR Intents](https://explorer.near-intents.org) tàbí béèrè nínú ìbéèrè náà [NEAR Intents Telegram](https://t.me/near_intents).
 - **Àdápadà owó:** a lè fi ìyípadà tí ó kùnà padà sí àdírẹ́sì àdápadà owó tí o fúnni, ṣùgbọ́n àwọn òfin near.com sọ pé a kò ṣe ìdánilójú àdápadà owó. Àwọn òfin 1Click tún sọ pé a kò gbé àwọn ìbéèrè àdápadà owó fún àṣìṣe olùlò tí ó wà lábẹ́ USD 300 yẹ̀ wò.
 
 Nísinsìnyí, ẹ jẹ́ kí a ṣe àwárí díẹ̀ lára àwọn pàṣípààrọ̀ tí kìí ṣe ti ilé ìfowópamọ́ tí ó rọrùn fún ìṣòwò Zcash. Lílo àwọn ìpèsè wọ̀nyí yóò fún ọ ní ọ̀nà tí ó rọrùn láti gba owó Zcash púpọ̀ sí i.
@@ -85,3 +105,23 @@ Nísinsìnyí, ẹ jẹ́ kí a ṣe àwárí díẹ̀ lára àwọn pàṣípà
 Bó tilẹ̀ jẹ́ pé àwọn pàṣípààrọ̀ tí kì í ṣe ti ilé ìfowópamọ́ ní àwọn àǹfààní tó lágbára, ó ṣe pàtàkì láti mọ̀ pé wọ́n lè ní àwọn àléébù, bí ìṣòro owó tó lè ṣẹlẹ̀ àti ìṣòro ẹ̀kọ́ tó ga jù fún àwọn olùlò tí kò ní ìrírí púpọ̀.
 
 Gẹ́gẹ́ bí ó ti rí pẹ̀lú ìpinnu ìnáwó èyíkéyìí, àwọn oníṣòwò gbọ́dọ̀ ṣe àyẹ̀wò àwọn ohun pàtàkì wọn, ìfaradà ewu, àti mímọ̀ pẹ̀lú ìmọ̀ ẹ̀rọ náà kí wọ́n tó yan láàrín àwọn àṣàyàn pàṣípààrọ̀ tí kìí ṣe ti àkóso àti ti àkóso.
+
+## Àwọn Àṣìṣe Tó Wọ́pọ̀
+
+- **Ṣíṣe àkíyèsí "tí kì í ṣe ti àkóso" gẹ́gẹ́ bí "ìkọ̀kọ̀".** Pípa kọ́kọ́rọ́ rẹ mọ́ ń dáàbò bo owó rẹ lọ́wọ́ ìkùnà pàṣípààrọ̀. Ifipamọ́ tó wà lórí ẹ̀rọ orísun náà jẹ́ ti gbogbo ènìyàn, iṣẹ́ náà sì ń wo àwọn àdírẹ́sì àti àdírẹ́sì IP rẹ.
+- **Lílọ kúrò ní ZEC ni a yípadà sí àdírẹ́sì tí ó ṣe kedere.** Tí ọ̀nà náà bá san owó sí àdírẹ́sì t1 tàbí t3, gbé ZEC sí àdírẹ́sì tí a dáàbò bò nínú àpò owó rẹ kí o tó ná owó náà.
+- **Fífo àyẹ̀wò àdírẹ́sì àtúnpadà.** Ìyípadà tí ó kùnà lè padà sí àdírẹ́sì àtúnpadà tí o fúnni, a kò sì ní ìdánilójú àtúnpadà. Ṣàyẹ̀wò àdírẹ́sì yẹn kí o tó fi ránṣẹ́.
+- **Kíkà "kò sí KYC" gẹ́gẹ́ bí "kò sí àyẹ̀wò".** Ọ̀pọ̀lọpọ̀ iṣẹ́ ń ṣe àyẹ̀wò àpò owó lòdì sí àwọn ibi ìkópamọ́ ìpamọ́, nítorí náà, ìyípadà tí a fi àmì sí lè pẹ́ tàbí kí a dí i lọ́wọ́.
+
+## Àwọn ojú ìwé tó jọra
+
+- [DEX](/using-zcash/dex): awọn paṣipaarọ ti kii ṣe ti ile-itọju ti o ṣe atilẹyin fun ZEC.
+- [Àwọn Ìyípadà Àárín Gbùngbùn](/using-zcash/centralized-swaps): awọn iṣẹ paṣipaarọ lẹsẹkẹsẹ ti o ṣiṣẹ laisi akọọlẹ paṣipaarọ.
+- [Àwọn Pípàṣípààrọ̀ Ààbò](/using-zcash/custodial-exchanges): awọn paṣipaarọ ti o ni awọn owo rẹ ninu akọọlẹ kan.
+- [Àwọn Adágún Tí A Dáàbò Bo](/using-zcash/shielded-pools): níbi tí ZEC rẹ ti di ìkọ̀kọ̀ lẹ́yìn ìyípadà kan.
+- [Àwọn Àdírẹ́sì Ìṣọ̀kan](/using-zcash/unified-addresses): naa `u1` adirẹsi ọpọlọpọ awọn apamọwọ fun ọ lati gba ZEC.
+- [Solana ZEC sí Ààbò](/using-zcash/solana-zec-to-shielded): gbigbe ZEC lati Solana si adirẹsi ti a daabobo.
+- [Lilo ZEC ni ikọkọ](/guides/using-zec-privately): kini lati ṣe pẹlu ZEC rẹ nigbati o ba de.
+- [Ta ló lè rí ìsanwó Zcash rẹ](/start-here/who-can-see-your-zcash-payment): ohun tí ó máa hàn ní gbogbo ẹ̀gbẹ́ ìsanwó.
+
+**Ìmúdàgba ìkẹyìn:** Oṣù Kẹwàá 2026

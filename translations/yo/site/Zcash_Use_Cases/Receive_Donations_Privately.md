@@ -2,127 +2,127 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Olùbẹ̀rẹ̀ - Ìṣẹ́jú márùn-ún.
+  Olùbẹ̀rẹ̀ - ìṣẹ́jú 5
 </span>
 
 
 ## TL;DR
 
-- Lo adirẹsi tí a fi ààbò pamọ́ sí.
-- Má ṣe pín àdírésì tí ó hàn gbangba níta fún gbogbo ènìyàn.
-- Gba awọn oluranlọwọ niyanju lati fi ranṣẹ lati inu apo-owo ti o wa ni aabo.
-- Má ṣe jẹ́ kí wọ́n mọ ẹni tó o jẹ́ nínú àwọn nǹkan tí ò ń rà lọ́wọ́ wọn.
+- Lo àdírẹ́sì **tí a fi ààbò (z) ṣe**
+- Má ṣe pín àdírẹ́sì tó ṣe kedere (t) ní gbangba láé
+- Gba awọn olufunni niyanju lati fi ranṣẹ lati awọn apamọwọ ti a daabobo
+- Yẹra fún sísopọ̀ ìdánimọ̀ rẹ mọ́ àwọn ìṣòwò
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Who is this for?
-- Àwọn olùdásílẹ̀ tí ó ń gba ọrẹ
-- Àwọn olùkópa-ìmọ̀ àdáni tí ó wà ní ṣíṣí sílẹ̀
-- Àwọn ìjọ tó ń kó owó jọ
-- Ẹnikẹni ti o ba fẹ atilẹyin owo aladani.
+- Àwọn olùdásílẹ̀ ń gba àwọn ẹ̀bùn
+- Àwọn olùkópa orísun ṣíṣí sílẹ̀
+- Àwọn agbègbè ń kó owó jọ
+- Ẹnikẹni ti o ba fẹ atilẹyin owo ikọkọ
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> The Problem
 
-Ọ̀pọ̀lọpọ̀ àwọn owó-ìpamọ́ máa ń tú gbogbo rẹ̀ fó:
-- Àkójọ owó rẹ.
-- Ta ló rán owó sí ọ?
-- Gbogbo ìtàn ìnáwó rẹ
+Pupọ julọ awọn owo oni-nọmba n ṣafihan ohun gbogbo:
+- Ìwọ̀n owó àpò rẹ
+- Ta ló fi owó ránṣẹ́ sí ọ
+- Gbogbo ìtàn ìṣòwò rẹ
 
-Èyí ń fa ewu ńlá:
-- Àìní ìpamọ́ nípa ọ̀ràn ìṣúnná owó
-- Ìdánwò tàbí ìwòràn
-- Àwọn olùfúnni-níyè ní ìhùwàsí sí gbogbo ènìyàn
+Èyí ń fa àwọn ewu tó le koko:
+- Pípàdánù ìpamọ́ owó
+- Àfojúsùn tàbí ìṣọ́ra
+- Ifihan gbangba ti awọn olurannileti
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Why Zcash?
 
-Àwọn ìnáwó tí a fi ààbò Zcash pamọ́:
-- Adirẹsi Olùfúnni
-- Adirẹsi Olùgba Ọjà
-- Iye ti iṣowo naa
+Awọn iṣowo ti a daabobo Zcash tọju:
+- Àdírẹ́sì olùránṣẹ́
+- Àdírẹ́sì olùgbà
+- Iye iṣowo naa
 
-Eyi jẹ ki o gba owo **laisi fi aworan iṣowo rẹ han**.
+Èyí á jẹ́ kí o lè gba owó **láìsí pé o fi àwòrán ìnáwó rẹ hàn**.
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Iwe apamọwọ Zcash ti o ṣe atilẹyin awọn adirẹsi ipamọ:
-  - Zodl (ì í ì)
+- Àpò Zcash kan tí ó ń ṣe àtìlẹ́yìn fún àwọn àdírẹ́sì tí a dáàbò bò:
+  - Zodl
   - Zingo!
-  - Àwọn àpò owó mìíràn tí a gbà níyànjú
+  - Àwọn àpò owó míràn tí a lè ṣe àtìlẹ́yìn
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Step-by-Step Guide
 
-### Igbese 1: Ṣẹda Adirẹsi Aṣọ́ kan
-Ṣípòwé rẹ àti ṣe àdàkọ ìsọfúnni.
-Èyí sábà máa ń bẹ̀rẹ̀ pẹ̀lú: `zs...`
+### Igbesẹ 1: Ṣẹda Adirẹsi Abojuto
+Ṣí àpò owó rẹ kí o sì ṣe àdírẹ́sì **z**.
+Èyí sábà máa ń bẹ̀rẹ̀ pẹ̀lú: `zs...`
 
 
-### Ìgbésẹ̀ Kejì: Fi Àdírẹ́sì Rẹ Tó Wà ní Ibi Tí Kò Ti Ní Èèyàn Rí Sójú Rere Sọ fún Wọn
+### Igbesẹ 2: Pin adirẹsi Idaabobo Rẹ Nikan
 
-- Ṣe atẹjade adirẹsi z rẹ lori:
-  - Ìkànnì orí Íńtánẹ́è̀tì
-  - Àwọn ìkànnì àjọlò orí Íńtánẹ́è̀tì
-  - Àwọn ojúewé ìfúnni
+- Ṣe àtẹ̀jáde àdírẹ́sì z rẹ ní:
+  - Oju opo wẹẹbu
+  - Àwọn ìkànnì àwùjọ
+  - Àwọn ojú ìwé ẹ̀bùn
 
-**KÒ SÍ ìjápọ̀ tí ó ṣe kedere.**
+**Má ṣe pín àdírẹ́sì tí ó ṣe kedere (t) fún ẹnikẹ́ni.**
 
-### Ìgbésẹ̀ kẹta: Ṣíṣe Àlàyé fún Àwọn Olùfúnni (Kì í ṣe dandan, àmọ́ a gbà á níyànjú)
+### Igbesẹ 3: Ṣàmójútó Àwọn Olùfúnni (Àṣàyàn ṣùgbọ́n a ṣeduro rẹ̀)
 
-Gba àwọn olùfúnni níyànjú láti:
-- Lo àwọn àpamọ́ tí ó ń ṣe ìsòwò aláàbò
-- Fi àlẹmọ ránṣẹ́ láti inú àwọn ìkùdu (kò ṣe kedere)
+Gba awọn olufunni niyanju lati:
+- Lo awọn apamọwọ ti o ṣe atilẹyin fun awọn iṣowo aabo
+- Firánṣẹ́ láti inú àwọn adágún tí a dáàbò bò (kì í ṣe kedere)
 
-### Ìgbésẹ̀ Kẹrin: Máa Ṣọ́ra fún Àìní Aláìléwu Nípa Ọ̀ràn Kíkójú Ọrọ̀ Ara Ẹni
+### Igbesẹ 4: Ṣetọju Ipamọ Ipilẹ
 
-- Yẹra fún lílo adirẹsi kan náà ní orí àwọn orúkọ tí kò bá ara wọn tan.
-- Má ṣe jẹ́ kí àwọn èèyàn mọ ibi tó o ń gbé àyàfi tí ìyẹn bá pọn dandan fún ẹ láti mọ̀ ọ́n dáadáa.
+- Yẹra fún àtúnlo àdírẹ́sì kan náà káàkiri àwọn ìdámọ̀ tí kò bá ara wọn mu
+- Má ṣe so àdírẹ́sì rẹ pọ̀ mọ́ ìdánimọ̀ ara ẹni ní gbangba àyàfi tí ó bá jẹ́ dandan
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Common Mistakes to Avoid
 
-- Pín àdírẹ́sì tí ó ṣe kedere (t) 
-- Fífi àpamọ́ owó rẹ síwájú àwọn nǹkan ìdánimọ̀ ara ẹni 
-- Gbígba owó láti àwọn orísun tí ó ṣe kedere láìfi ìbòjú bo ọ̀ràn náà. 
-- Lílò adirẹsi kan náà ní oríṣiríṣi ọ̀nà. 
+- Pínpín àdírẹ́sì tí ó ṣe kedere (t) 
+- Fi àpò owó rẹ ránṣẹ́ pẹ̀lú ìdánimọ̀ ara ẹni 
+- Gbigba owo lati awọn orisun ti o han gbangba laisi aabo 
+- Lílo àdírẹ́sì kan náà ní ọ̀pọ̀lọpọ̀ ibi 
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Result
 
-O lè:
-- Gba ọrẹ ní ìdákọ́ńkó̀
-- Dáàbò bo àwọn tó ń tì ọ́ lẹ́yìn.
-- Má ṣe jẹ́ kí àwọn èèyàn mọ bí owó tó o ná ti pọ̀ tó.
+O le:
+- Gba awọn ẹbun ni ikọkọ
+- Dabobo awọn alatilẹyin rẹ
+- Yẹra fún fífi ìṣípayá ìgbòkègbodò ìnáwó rẹ hàn
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Ìpamọ́ - Ààbò àti Ọ̀nà Tó Ṣe kedere](/zcash-tech/what-a-block-explorer-can-see)
-- [Àwọn àpamọ́ owó](/wallets)
+- [Ohun tí Olùṣàwárí Àkọsílẹ̀ lè rí](/zcash-tech/what-a-block-explorer-can-see)
+- [Àwọn Àpò Ìpamọ́](/wallets)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progress
 
-**Igbesẹ 1 nínú 6**
+**Igbese 1 ninu 6**
 
-O ti kọ́ bí o ṣe lè gba owó ní ìdákọ́ńkọ́.
+O ti kọ́ bí a ṣe ń gba owó ní ìkọ̀kọ̀.
 
 <br/>
 
-## Ìgbésẹ̀ Tó Ń Bọ̀ Sí I
+## Igbese to nbo
 
-Tẹ̀síwájú nínú ìrìnàjò rẹ:
+Tẹ̀síwájú ìrìnàjò rẹ:
 
-- [Fi Owó Ránṣẹ́ Láìjẹ́ Pé Ìwọ Ni Ẹni Náà](/zcash-use-cases/send-money-without-linking-identity)
+- [Fi owo ranṣẹ laisi asopọ idanimọ](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

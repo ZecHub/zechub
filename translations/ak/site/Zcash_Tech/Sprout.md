@@ -6,11 +6,11 @@
 
 > Zcash fii ase wɔ October 28, 2016, a Sprout shielded pool no ka ho.
 
-> **Kɔkɔbɔ:** NU7 ma ZEC da so ara wɔ Sprout pool no mu no ntumi nsɛe no bere a ayɛ adwuma pɛn (mainnet a wɔde asi wɔn ani so sɛ wɔbɛyɛ 5 November 2026, gyinaesi a etwa to 20 October 2026; hwɛ [ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259)). Sɛ wokura Sprout sika a, kenkan [Sika a wɔresan agye](../using-zcash/recovering-funds) na di kan tu wɔn kɔ mmeae foforo.
+> **Kɔkɔbɔ:** NU7 ma ZEC da so ara wɔ Sprout pool no mu no ntumi nsɛe no bere a ayɛ adwuma pɛn (mainnet dwumadie sorokɔ 3,543,405, wɔde asi wɔn ani so sɛ 5 November 2026; hwɛ [ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259)). Sɛ wokura Sprout sika a, kenkan [Sika a wɔresan agye](../using-zcash/recovering-funds) na di kan tu wɔn kɔ mmeae foforo.
 
 Nea wobɛfa akɔ: Sprout ne baabi a Zcash fii ase, bere a edi kan a kokoam, sika a wotumi di ho adanse tuu mmirika wɔ live blockchain so.
 
-Sprout yɛ Zcash network no mfitiaseɛ a wɔde sii hɔ, ɛnyɛ akyiri yi [network upgrade a wɔde yɛ adwuma](../start-here/network-upgrades). Ɛkɔɔ so traa ase wɔ genesis block no mu wɔ Ɔkɔtɔberɛ 28, 2016. ZIP biara nni hɔ a wɔde nɔma ahyɛ mu a ɛkyerɛkyerɛ Sprout: ZIP dwumadie no hyɛɛ aseɛ akyiri yi wɔ Overwinter, enti wɔde mfitiaseɛ Zcash Protocol Specification ne Zerocash adansiɛ a wɔsii wɔ so na ɛkyerɛkyerɛ Sprout mu. No [Electric Coin Company](../zcash-organizations/electric-coin-company) (saa bere no na Zerocoin Electric Coin Company), a Zooko Wilcox di wɔn anim no na ɛyɛɛ na wɔde menae. Sprout de zk-SNARK shielded transactions a edi kan a mfaso wɔ so ne mfitiase shielded pool no bae, sɛnea ɛbɛyɛ a nkurɔfo betumi de ZEC a nea ɔde kɔmaa, nea ogye, ne sika dodow a wɔde asie bere a netɛw no da so ara hwɛ sɛ sika a aka no aka ho no bae. Edin no kyerɛɛ nkɔnsɔnkɔnsɔn a ɛyɛ mmerante ne mmabaa a ɛrefifi a na kuw no hwɛ kwan sɛ ebenyin.
+Sprout yɛ Zcash network no mfitiaseɛ a wɔde sii hɔ, ɛnyɛ akyiri yi [network upgrade a wɔde yɛ adwuma](../start-here/network-upgrades). Ɛkɔɔ so traa ase wɔ genesis block no mu wɔ Ɔkɔtɔberɛ 28, 2016. ZIP biara nni hɔ a wɔde nɔma ahyɛ mu a ɛkyerɛkyerɛ Sprout: ZIP dwumadie no hyɛɛ aseɛ akyiri yi wɔ Overwinter, enti wɔde mfitiaseɛ Zcash Protocol Specification ne Zerocash adansiɛ a wɔsii wɔ so na ɛkyerɛkyerɛ Sprout mu. No [Electric Coin Company](../zcash-organizations/electric-coin-company) (saa bere no na Zerocoin Electric Coin Company), a Zooko Wilcox, di wɔn anim no na ɛyɛɛ na wɔde menae. Sprout de zk-SNARK shielded transactions a edi kan a mfaso wɔ so ne mfitiase shielded pool no bae, sɛnea ɛbɛyɛ a nkurɔfo betumi de ZEC a nea ɔde kɔmaa, nea ogye, ne sika dodow a wɔde asie bere a netɛw no da so ara hwɛ sɛ sika a aka no aka ho no bae. Edin no kyerɛɛ nkɔnsɔnkɔnsɔn a ɛyɛ mmerante ne mmabaa a ɛrefifi a na kuw no hwɛ kwan sɛ ebenyin.
 
 Nea enti a eyi ho hia. Ɔmanfoɔ blockchain biara a ɛwɔ hɔ ansa na Sprout reba no de wo sikatua bɛto gua: obiara bɛtumi ahunu deɛ ɔtuaa hena ne dodoɔ. Sprout ne network a edi kan a ɛte ase, a enni kwan a ɛde saa nsɛm no siee na ɛda so ara kyerɛe sɛ obiara nsisi. Ɛno ho hia ma sikasɛm mu kokoamsɛm a ɛyɛ mpapahwekwa, nea wohwɛ kwan fi sika anaa sikakorabea krataa a obiara ntumi nkenkan mu. Ɛsan nso daa no adi sɛ kokoamsɛm a emu yɛ den a ɛwɔ nkɔnsɔnkɔnsɔn mu betumi ayɛ adwuma wɔ nneyɛe mu, asen krataa so nhyehyɛe. Afahyɛ a wɔde wɔn ho to so a wɔde sii hɔ a ɛmaa ɛyɛɛ yiye no bɛyɛɛ nea wɔde gyina so maa akyiri yi cryptography adwuma, na nhyehyɛe a ɛyɛ brɛoo, a ɛyɛ den sɛ wɔbɛkae adanse a Sprout de kɔmaa no no ne nea ɛhyɛɛ kuw no ma wɔkyekyee Sapling mfe abien akyi no pɛpɛɛpɛ.
 
@@ -47,9 +47,9 @@ Sprout ne nnyinaso a nsakrae biara a ɛbɛba akyiri yi de si so. Bere a network-
 
 So Sprout sesa me ZEC anaa me kokoam nsɛm nnɛ? Dabi Sprout yɛ abakɔsɛm, launch a efii nkɔnsɔnkɔnsɔn a wo ZEC te ase no ase. Wo sika ne wo kokoamsɛm nnɛ gyina sika kotoku ne shielded pool a wode di dwuma mprempren no so, ɛnyɛ biribiara a ɛsɛ sɛ woyɛ wɔ Sprout.
 
-Dɛn nti na ZIP nɔma biara nni hɔ ma Sprout? ZIP nhyehyɛe no fii ase akyiri yi, denam Overwinter upgrade no so. Sprout yɛ mfitiaseɛ a wɔde sii hɔ, a Zcash Protocol Specification ne Zerocash adansiɛ a egyina so kyerɛkyerɛɛ mu. ZIP 200 ka Sprout ho asɛm wɔ akyi hwɛ mu nko ara, sɛ consensus branch id 0, mfitiaseɛ ansa na wɔayɛ nkɔsoɔ biara.
+Dɛn nti na ZIP nɔma biara nni hɔ ma Sprout? ZIP nhyehyɛe no fii ase akyiri yi, denam Overwinter upgrade no so. Sprout yɛ mfitiaseɛ a wɔde sii hɔ, a Zcash Protocol Specification ne Zerocash adansiɛ a ɛgyina so kyerɛkyerɛɛ mu. ZIP 200 ka Sprout ho asɛm wɔ akyi hwɛ mu nko ara, sɛ consensus branch id 0, mfitiaseɛ ansa na wɔayɛ nkɔsoɔ biara.
 
-So na ɛsɛ sɛ mede me ho to nnipa baanum a wɔwɔ Afahyɛ no mu no so? Wɔkyekyeree nhyehyɛe no enti na wuhia wɔn mu biako pɛ sɛ wobɛka nokware. Ná wɔn mu biara kura kokoam asɛm bi, na bere tenten a obiako a ɔde ne ho hyɛɛ mu no sɛee wɔn de no, na wontumi nsan nkyekye ahintasɛm mũ no nyinaa da na obiara ntumi nnyɛ ZEC. Wɔabobɔ nnipa baanum a wɔde wɔn ho hyɛɛ mu no din wɔ baguam na obiako ammɔ ne din.
+So na ɛsɛ sɛ mede me ho to nnipa baanum a wɔwɔ Afahyɛ no mu no so? Wɔkyekyeree nhyehyɛe no enti na wuhia wɔn mu biako pɛ sɛ wobɛka nokware. Ná wɔn mu biara kura kokoam asɛm bi, na bere tenten a obiako a ɔde ne ho hyɛɛ mu no sɛee wɔn de no, na wontumi nsan nkyekye ahintasɛm mũ no nyinaa da na obiara ntumi nnyɛ ZEC. Wɔabobɔ wɔn a wɔde wɔn ho hyɛɛ mu no mu baanum din wɔ baguam na obiako ammɔ ne din.
 
 So Sprout pool no ne nea me sika kotoku de di dwuma mprempren? Ebia ɛnte saa. Sprout ne ɔtare a edi kan a wɔabɔ ho ban, nanso akyiri yi nneɛma a wɔyɛɛ no foforo te sɛ Sapling de nhyehyɛe a wɔde abɔ ho ban ntɛmntɛm bae, na sika kotoku dodow no ara de atare foforo di dwuma nnɛ. Sprout da so ara ho hia efisɛ adwuma a ɛdaa adi sɛ kokoam, nkitahodi a wotumi di ho adanse no betumi akɔ so wɔ live network so.
 
@@ -62,7 +62,7 @@ Wɔtaa frɛ Sprout sɛ network upgrade a ɛwɔ activation height. Dɛn nti na ɛ
 <details>
 <summary>Answer</summary>
 
-Sprout yɛ Zcash, ɛnyɛ akyiri yi upgrade. Ɛyɛ adwuma firi genesis block (block 0) wɔ October 28, 2016, enti activation height biara nni hɔ a yɛbɛtwe adwene asi so. Network-upgrade mechanism no bae akyiri yi na ɛde Sprout's mmara no too so sɛ consensus branch id 0, mfitiaseɛ ansa na upgrade biara aba.
+Sprout yɛ Zcash, ɛnyɛ akyiri yi upgrade. Ɛyɛ adwuma firi genesis block (block 0) wɔ October 28, 2016, enti activation height biara nni hɔ a yɛbɛtwe adwene asi so. Network-upgrade nhyehyɛe no bae akyiri yi na ɛde Sprout's mmara no too so sɛ consensus branch id 0, mfitiaseɛ ansa na upgrade biara aba.
 </details>
 
 ### Akadeɛ
@@ -77,7 +77,7 @@ Sprout yɛ Zcash, ɛnyɛ akyiri yi upgrade. Ɛyɛ adwuma firi genesis block (blo
 
 ### Hwɛ nso
 
-[Atare a Wɔabɔ Ho Ban](../using-zcash/shielded-pools)
+[Atare a Wɔabɔ ho Ban](../using-zcash/shielded-pools)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 

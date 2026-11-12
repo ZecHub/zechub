@@ -60,7 +60,7 @@ Community engagement and rewards platform designed for Zcash communities, Web3 p
 
 ### Zcash Grants Hub
 Community-focused grants dashboard designed to simplify how Zcash grants are discovered, tracked, and reviewed. It brings grant applications, milestones, budgets, discussions, and analytics into one place by pulling live data from the Zcash Community Grants GitHub repository. The platform aims to provide a clearer and more user-friendly experience for applicants, committee members, and community reviewers.  
-[Visit](https://staging.zgrantshub.com/)
+[Visit](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ AI platform that provides access to multiple leading AI models while supporting 
 ### zk.poker
 A peer-to-peer poker platform that combines end-to-end encryption, mental poker, and Zcash privacy technology. It is designed so that the operator does not need to know players' cards or directly hold the betting funds.  
 [Visit](https://zkbtc.org/)
+
+### ZKöy
+A Werewolf-style party game for groups in the same room. Players join from their phones; every night choice and vote is sealed as a shielded memo on Zcash testnet, and when the game ends the seed, salt and viewing key are revealed so anyone can check the result on-chain.  
+[Visit](https://zkoy.fun)
 
 ---
 
