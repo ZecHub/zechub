@@ -120,4 +120,3 @@ Additional limitations:
 ---
 
 *This guide is based on `@zcashlabs/zcash.js@0.1.1` (October 2026). The SDK is under active development — always prefer the official documentation for the latest API and limitations.*
-```
