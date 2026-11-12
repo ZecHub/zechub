@@ -36,19 +36,6 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Website: [Flypool](https://zcash.flypool.org/)
-- Private Payouts: YES
-- Pool Type: Pay Per Last N 
-- Pool fee: 1%
-
----
-
 ### [2Miners](https://zec.2miners.com/)
 
 <a href="https://zec.2miners.com/">

@@ -1,14 +1,29 @@
-# **SOL/USDC -> ZEC Swap Using Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+# SOL/USDC to ZEC Swap Using encrypt.trade
+
+> Swap SOL or USDC on Solana into ZEC, with the cross-chain step routed through NEAR Intents.
 
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Swap from Solana into Zcash, with the cross-chain step routed through NEAR Intents.*  
 
 ---
 
-###  Introduction  
+## TL;DR
+
+* [encrypt.trade](https://encrypt.trade/zec) wraps SOL or USDC into encrypted tokens (eSOL/eUSDC), then swaps them to ZEC through NEAR Intents.
+* Amounts are hidden on Solana, but your wallet address and its use of the app are public.
+* ZEC is delivered to a transparent (t1/t3) address only, so it is visible on the Zcash chain until you shield it.
+* Shield the ZEC in your wallet as soon as it arrives.
+* The app and NEAR Intents both screen wallets for compliance.
+
+---
+
+## Core Explanation
 [**encrypt.trade**](https://encrypt.trade/zec) is a Solana app run by JMD Labs Inc. It lets you swap **SOL or USDC** on Solana into **Zcash (ZEC)**. Your tokens are first wrapped into encrypted versions so the amounts are hidden on Solana, then swapped to ZEC through NEAR Intents.
 
 The swap is private in some ways but not all. The app's own [docs](https://docs.encifher.io/docs) say your interaction with the chain is not anonymous: people can see that your wallet used the app, but not how much you moved. The ZEC also arrives at a transparent address, so it stays visible on the Zcash chain until you shield it.
