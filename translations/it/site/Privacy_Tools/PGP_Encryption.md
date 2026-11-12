@@ -10,9 +10,9 @@ Pretty Good Privacy (PGP) è un pacchetto software crittografico che fornisce co
 
 Esistono molti strumenti PGP diversi, ma alcuni dei più popolari includono:
 
-* **[GPG](https://gpgtools.org/)**: GPG è un'implementazione PGP gratuita e open-source disponibile per Windows, macOS e Linux.
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail è un client email PGP commerciale disponibile per Windows e macOS.
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope è un'estensione PGP gratuita e open-source per Gmail e Thunderbird.
+* **[GnuPG (GPG)](https://gnupg.org/)**: Uno strumento da riga di comando OpenPGP gratuito e open-source. Scegli il pacchetto o il frontend grafico adatto al tuo sistema operativo.
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: Un client email desktop gratuito e open-source con supporto integrato per OpenPGP dalla versione 78. Non necessita di Mailvelope per crittografare le email.
+* **[Mailvelope](https://mailvelope.com/)**: Un'estensione browser open-source che aggiunge OpenPGP ai servizi di webmail supportati, incluso Gmail. È uno strumento per webmail, non un'estensione per Thunderbird.
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 

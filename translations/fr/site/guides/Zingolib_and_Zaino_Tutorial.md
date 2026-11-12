@@ -25,7 +25,7 @@
 [Architecture du système](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- L'utilisateur Zcash installe/compile Zingolib, ce qui donne accès à zingo-cli. Il peut envoyer/recevoir des ZEC selon ses besoins.
+- Zcash L'utilisateur installe/compile Zingolib, ce qui donne accès à zingo-cli. Il peut envoyer/recevoir des ZEC selon ses besoins.
 - zingo-cli se connecte à zaino soit localement, soit via un canal sécurisé en ligne (l'utilisateur Zcash n'a pas à se soucier de la façon dont cela fonctionne !)
 - Zaino permet d'accéder soit à zebrad, soit à zcashd            
 - Un zebrad entièrement synchronisé est la source de vérité (plus de portefeuilles ici !)

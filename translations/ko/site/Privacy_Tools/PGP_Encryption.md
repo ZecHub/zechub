@@ -10,9 +10,9 @@ Pretty Good Privacy (PGP)는 보안이 취약한 채널을 통해 안전한 통�
 
 다양한 PGP 도구가 있지만, 가장 인기 있는 몇 가지 도구는 다음과 같습니다:
 
-* **[GPG](https://gpgtools.org/)**: GPG는 Windows, macOS 및 Linux에서 사용할 수 있는 무료이고 오픈소스인 PGP 구현입니다.
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail은 Windows와 macOS에서 사용 가능한 상용 PGP 이메일 클라이언트입니다.
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope는 Gmail과 Thunderbird에 사용되는 무료이고 오픈소스인 PGP 확장 프로그램입니다.
+* **[GnuPG (GPG)](https://gnupg.org/)**: 무료 오픈소스 OpenPGP 명령줄 도구입니다. 운영 체제에 맞는 패키지 또는 그래픽 프런트엔드를 선택하세요.
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: 버전 78부터 OpenPGP 지원이 내장된 무료 오픈소스 데스크톱 이메일 클라이언트입니다. 이메일을 암호화하는 데 Mailvelope가 필요하지 않습니다.
+* **[Mailvelope](https://mailvelope.com/)**: Gmail을 비롯한 지원되는 웹메일 서비스에 OpenPGP를 추가하는 오픈소스 브라우저 확장 프로그램입니다. 이는 웹메일 도구이며 Thunderbird용 확장 프로그램이 아닙니다.
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 
