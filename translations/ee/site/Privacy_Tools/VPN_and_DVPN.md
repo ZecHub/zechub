@@ -37,14 +37,14 @@ Ne ètia VPN ƒe dɔwɔla aɖe la, ele be nàbu dedienyenye ƒe nusiwo gbɔ:
 
 7. __Xexlẽme Kple Nɔnɔwo__: Kpɔ xexlẽme kple nɔnɔ siwo dɔwɔla vovovowo naa be nàkpɔ esi sɔ kple wò hiãhiãwo kple wò ga ƒe kadodo.
 
-# VPNs Siwo Xɔa Zcash
+# VPN dɔwɔwɔwo kple Zcash fexexe
 
-Zcash (ZEC) nye cryptocurrency si wowɔ be ɣaɣla nasẽ wu, eye esia ta ame siwo di be woŋkɔ manya le wo ƒe gaɖoɖowo [transactions] me la dii e. Togbɔ be VPN ƒe dɔwɔƒe katã mexɔa Zcash tẽ o hã la, ɖewohĩ aɖewo axɔ cryptocurrency ƒe fexexe [payment] to dɔwɔƒe bubuwo gbɔ. Ke ele be nàbia VPN ƒe dɔwɔla la tẽ na fexexe ƒe mɔnu yeye akpa. VPN ƒe dɔwɔƒe ɖe aɖewo siwo wogblɔ be woxɔa cryptocurrency ƒe fexexe lae nye esiwo:
+Na dɔwɔla ɖe sia ɖe ta la, ele be woakpɔ Zcash ƒe fexexe [payment] xɔxɔ ɖa. Cryptocurrency xɔxɔ menye be eɖea ZEC hã dzesi be, eye gaɖoɖo na ame etɔ̃ ƒe gatrɔƒe alo gaƒlelarɔla to vovo le VPN dɔwɔla la ƒe fexexe tẽ ŋu. Dɔwɔƒewo siwo le ete la ƒe fexexe ƒe sewo to vovo; do kpe ga siwo woxɔ fifia la ŋu hafi nàdɔ ga.
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-   Mullvad VPN nye VPN ƒe dɔwɔla si ame geɖewo bɔbɔe ŋutɔ, si wotsɔa ɣaɣla kple dedienyenye ƒe zãlawo ƒe dzadzra dea asi sesẽe. Enye VPN ƒe dɔwɔla ʋɛ aɖe siwo xɔa cryptocurrency, siwo me 
-   Zcash hã le, abe fexexe ƒe mɔnu ene. Mullvad ƒe nɔnɔ veviwoe nye:
+Mullvad VPN nye VPN ƒe dɔwɔla si ɣaɣlae wòtsɔa wɔnɛ. Eƒe [fexexe ƒe FAQ yeye](https://mullvad.net/en/pricing) ƒoa fexexe ƒe mɔnu siwo wokpɔa dzi la ƒe xexlẽ.
+Cryptocurrency ƒe kpekpeɖeŋu menye be wòkpe ɖe ga ƒe ƒome gbogbo ŋu tẽ o. Mullvad ƒe nɔnɔ veviwoe nye:
 
    __No-Logs Policy__: Mullvad ɖoa no-logs policy sesẽ dzi, si fia be meɖea data aɖeke tso wò internet dzi ƒe nɔnɔwo ŋu ɖo o.
 
@@ -56,7 +56,7 @@ Zcash (ZEC) nye cryptocurrency si wowɔ be ɣaɣla nasẽ wu, eye esia ta ame si
 
    __Account Ƒe Wɔwɔ Si Me Ŋkɔ Manya__: Wona account ƒe number si wowɔ zi ɖeka hã na zãlawo, eye esia ɖea ameŋkɔ ƒe hiãhiã ɖa le ŋkɔŋlɔɖoɖo me.
 
-   __Zcash Fexexe__: Mullvad xɔa Zcash abe fexexe ƒe mɔnu ene, eye esia na zãlawo ate ŋu axe wo ƒe subscription ƒe fe kple ɣaɣla si sesẽ wu.Mullvad VPN.
+__Crypto ga ƒe fexexewo [Cryptocurrency payments]__: Woɖe list la meŋlɔ Bitcoin, Bitcoin Cash kple Monero, ke menye Zcash o. Ame bubu ƒe gatrɔƒe alo dzraɖola nye dɔwɔƒe bubu; Mègblɔe be Mullvad xɔa ZEC tɔxɛ kpọ kpọ.
 
 3. [__Nym VPN (dVPN)__](https://nym.com/)
    
@@ -71,9 +71,9 @@ Zcash (ZEC) nye cryptocurrency si wowɔ be ɣaɣla nasẽ wu, eye esia ta ame si
 
    __Ɣaɣla Sesẽ__: Nym VPN wowɔe kple ɣaɣla le susu me, eye mehia be zãlawo nana ameŋkɔ ƒe nyawo le account ƒe wɔwɔ me o.
 
-   Na Zcash gakotoku [wallet]-tɔxɛ ƒe routing la, kpɔ [Route Zcash Wallet Traffic Over the Nym Mixnet](./Nym_Mixnet_Wallet_Setup.md).
+Na Zcash gakotoku-tɔxɛ ƒe routing la, kpɔ [Ɖo mɔ na Zcash gakotoku ƒe trafik wo le Nym Mixnet dzi](../guides/Nym_Mixnet_Wallet_Setup.md).
 
-## VPN Bubuwo Siwo Dea Mɔ Na zcash ƒe Fexexe:-
+## VPN ƒe dɔwɔlawo bubu siwo nàkpɔ nyocha
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)

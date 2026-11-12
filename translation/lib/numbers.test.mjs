@@ -9,6 +9,59 @@ const errors = (en, tr, opts) => compare(en, tr, opts).filter((f) => f.severity 
 const values = (fs) => fs.map((f) => `${f.kind}:${f.value}`).sort();
 const nums = (s) => numbers(proseLines(s, [], { keepInlineCode: true })).map((n) => n.value);
 
+// Unary signs carry meaning; punctuation between dates/ranges does not.
+test("unary negative amounts keep their sign during extraction", () => {
+  assert.deepEqual(nums("Changes: -25 ZEC, -25.5%, -1,234 ZEC; +25 ZEC."),
+    ["-25", "-25.5", "-1234", "25"]);
+});
+
+test("removing or inventing a negative amount blocks translation", () => {
+  for (const [en, tr] of [["Change: -25 ZEC.", "Cambio: 25 ZEC."],
+                          ["Change: 25 ZEC.", "Cambio: -25 ZEC."]]) {
+    assert.deepEqual(values(errors(en, tr)),
+      ["number-added:" + (tr.includes("-25") ? "-25" : "25"),
+       "number-missing:" + (en.includes("-25") ? "-25" : "25")].sort());
+  }
+});
+
+test("Unicode minus variants preserve the same negative value", () => {
+  for (const minus of ["−", "﹣", "－"]) {
+    assert.deepEqual(errors("Change: -25 ZEC.", `Cambio: ${minus}２５ ZEC.`), []);
+    assert.ok(errors("Change: 25 ZEC.", `Cambio: ${minus}25 ZEC.`).length);
+  }
+});
+
+test("negative currency values work on either side of a currency symbol", () => {
+  assert.deepEqual(nums("-$25, $-25, -€25, €-25, -£25, -₹25"),
+    ["-25", "-25", "-25", "-25", "-25", "-25"]);
+  assert.ok(errors("Change: -$25.", "Cambio: $25.").length);
+});
+
+test("negative grouped amounts and magnitude localisations remain equivalent", () => {
+  assert.deepEqual(errors("Change: -1,234.50 ZEC.", "Cambio: −1.234,50 ZEC."), []);
+  assert.deepEqual(errors("Change: -25 million ZEC.", "变化：-2500万 ZEC。"), []);
+});
+
+test("date separators, ranges and hyphenated identifiers are not unary signs", () => {
+  assert.deepEqual(nums("2026-11-12; 25-50; 25–50; 25 -50; ZIP-316; x-25."),
+    ["2026", "11", "12", "25", "50", "25", "50", "25", "50", "316", "25"]);
+});
+
+test("Markdown list markers do not negate their positive list contents", () => {
+  assert.deepEqual(nums("- 25 ZEC\n  - 26 ZEC\n1. -27 ZEC\n-28 ZEC"),
+    ["25", "26", "-27", "-28"]);
+});
+
+test("negative zero is equivalent to zero, but negative small amounts are not", () => {
+  assert.deepEqual(errors("Change: -0 ZEC.", "Cambio: 0 ZEC."), []);
+  assert.ok(errors("Change: -5 ZEC.", "Cambio: 5 ZEC.").length);
+});
+
+test("a newly introduced sign reversal survives inherited-finding subtraction", () => {
+  const en = "Change: -25 ZEC.";
+  assert.ok(introduced(compare(en, "Cambio: 25 ZEC."), compare(en, en)).length);
+});
+
 // ---- the three real defects, as minimal pages ------------------------------
 
 test("Gemma: digits fused with letters the English never had", () => {

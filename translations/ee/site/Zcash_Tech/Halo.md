@@ -28,13 +28,13 @@ Halo nye zero-knowledge ɖaseɖigbalɛ ƒe ɖoɖo si me mɔ̃ ƒe ɖoɖo xexlẽ
 
 ### Mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o
 
-zk-SNARKs doa asi ɖe reference string ƒe ɖoɖo (CRS) aɖe ŋu abe dukɔ ƒe parameter na ɖasefia kple ɖasekpɔkpɔ ene. Ele be ame si wòle mɔ̃ na la nawɔ CRS sia ɖo do ŋgɔ. Va se ɣeyiɣi kpui aɖe ko si va yi me la, secure multi-party computations (MPC) siwo le sesĩe — abe esi Aztec network kple Zcash wɔe ene — hia be woadze agbagba akpɔ afɔku si le [trusted setup ceremony](https://zkproof.org/2021/06/30/setup-ceremonies/amp/) sia me la ɖa.
+zk-SNARK ƒe tutuwo aɖewo, abe Groth16 ene, hia mɔ̃ ƒe ɖoɖo xexlẽnuwo be woawɔ woƒe ame katã ƒe parameterwo, si woyɔna be common reference string (CRS). Woma CRS la na ɖasefiawo kple ɖasekpɔlawo; menye ɣaɣla si wòle be wòatsrɔ̃ o. Ele be woaɖe ɣaɣla ƒe titina nu si tututu ma ƒe wɔwɔ hea, si woyɔna be "toxic waste", ɖa. Dedie multi-party computation [secure multi-party computation] ate ŋu ama mɔ̃ sia nava dze ame geɖewo dome: Ceremonia la nye dedie ne ame ɖeka le hã le eƒe katãwo dome de asi protocol la me eye wòatsrɔ̃ eƒe ɣaɣla ƒe kpekpeɖeŋu. Kpɔ ECC ƒe [ame katã ƒe parameterwo kple toxic waste ƒe gɔmeɖeɖe](https://zodl.com/snark-parameters/).
 
-Zcash ƒe Sprout kple Sapling ɣaɣla gaƒuƒoƒowo tsã zã BCTV14 kple Groth16 zk-proving ƒe ɖoɖowo. Esiwo nye dedie hã la, woƒe seɖoƒe le: womate ŋu akpɔ nu ƒe dziyiyi o elabena wodze ɖe dɔwɔwɔ ɖeka ko ŋu, "toxic waste" (crypto ƒe nu siwo wɔ le genesis vɔsa me ƒe akpa siwo tsi) ate ŋu anɔ anyi, eye mɔ̃ ƒe akpa aɖe — togbɔ be eŋutɔe kpui — le woƒe bu be vɔsa la nyo.
+Zcash ƒe Sprout kple Sapling ɣaɣla gaƒuƒoƒowo zã mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted-setup] ƒe ɖaseɖigbalɛ ƒe ɖoɖowo, BCTV14 kple Groth16 le woƒe ɖeɖe me. Woƒe dukɔ ƒe parameterwo [public parameters] gale afɔku hã be woatsɔ awɔ ɖaseɖigbalɛ kple akpɔe. Nɔnɔme si ƒe amegã le nye be, ɖoɖo ƒe nyagbe nuwo [secret setup material] wɔe ɖe asi mea, si ate ŋu ana ɖaseɖigbalɛ siwo menye nyateƒe o nadzɔ; CRS ŋutɔ ƒe tata afia wɔwɔ le mɔ̃ me eye mena nyagbe nuwo ma ƒe ɖeɖe o.
 
-Halo ɖea mɔ̃ ƒe ɖoɖo xexlẽnuwo ɖa to sesĩe nuxaxa ƒe nɔnɔme geɖe ƒoƒo ɖe ɖeka me enuenu le elliptic curves ƒe wɔwɔwo dzi, ale be xexlẽme ƒe ɖasewo ate ŋu azã wo ŋutɔ gbɔɖeɖe nyuie (nested amortization). Eƒe nu vevie aɖe nye be structured reference string la (vɔsa ƒe nusi do go) ate ŋu woatrɔe, si na dɔwɔwɔwo abe mɔ̃ŋlɔ ƒe dɔwɔwɔ [smart contract] ene.
+Halo ƒoa recursive ɖaseɖigbalɛ ƒe ɖoɖo kple polynomial adzɔgbeɖeɖe ƒe ɖoɖo si tso inner product ƒe argument me. Eƒe dukɔ ƒe parameterwo mehia mɔ̃ ƒe ɖoɖo xexlẽnuwo ƒe vɔsa alo ɣaɣla setup trapdoor ƒe tsrɔ̃. [Halo 2 ƒe agbalẽ la gblɔ dukɔ ƒe group parameterwo siawo ŋuti](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Esia to vɔsa me wodzi structured reference string si ate ŋu woatrɔe la gbɔ.
 
-Halo naa ame siwo zãe la ɖasekpeɖeŋu eve vevi tso zero-knowledge ɖaseɖigbalɛ ƒe ɖoɖo gã aɖe ƒe dedienyenye ŋu. Gbãtɔ, ena be woaɖo ɖase be ame aɖeke si le genesis vɔsa la me mewɔ mɔ dzeɖe eme aɖe si nye ɣaɣla be wòatsɔ awɔ gaɖoɖo siwo menyo o. Evelia, ena be woafia be ɖoɖo la nɔ dedie le ɣeyiɣi me, togbɔ be wotrɔe eye wotsɔ yeyewo kpe ɖe edzi.
+Ɖoɖo sia ƒe hiãhiãɖeɖe le ɖa be woagatsɔ ɣaɣla nu siwo wozã le vɔsa me ƒe tsrɔ̃tsrɔ̃ akɔ ɖe Halo ƒe ɖaseɖigbalɛwo ŋu o. Menye ɖase be Sprout alo Sapling ƒe vɔsa si do ŋgɔ la mekpɔ nu vɔ̃ aɖeke o, eye menana ɖase be protocol ƒe tɔtrɔ siwo va emegbe la katã le dedie o. Ɖaseɖigbalɛ siwo le wo ŋutɔ dzi [recursive proofs] dea ɖase ɖe akɔnta siwo wode ɖe woƒe sɛkuitiwo me la ŋu, le ɖaseɖigbalɛ ƒe ɖoɖo la ƒe dzitsinya me. Sɛkuiti siwo le ete kple wɔnana siwo le ete la gale vevie; ECC ƒe [Halo 2 ƒe ɖoɖo ƒe gɔmeɖeɖe](https://zodl.com/technical-explainer-halo-on-zcash/) gblɔ kpuie be afɔɖeɖe yeye alo ɖoɖo ƒe vodada yeyewo ƒe afɔku le eme.
 
 [Sean Bowe ƒe gɔmeɖeɖe le Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo trɔa agbalẽ si wokpɔ ɖeŋu la ɖe dzesi aɖe dzi le agbalẽ *si kplɔ
 
 ### Nu ka ta mɔ̃ ƒe ɖoɖo xexlẽnuwo ƒe ɖeɖa le vevie
 
-Le ɖoɖowo tsã me la, "seal" (CRS) tsoa vɔsa aɖe me. Ele be ame siwo va le vɔsa la me nagbã nudzɔdzɔ ƒe akpa siwo li le dome, eye ele be ame sia ame naxɔ dzi ase be wowɔe. Halo ƒe seal tsoa mathematics ko me: nusi aɖeke mele be woagbã o, nusi aɖeke mele be wòatsi o, eye vɔsa aɖeke mele be woaxɔ dzi ase o.
+Le mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted setup] tsã me la, "seal" si ame kata ate ŋu akpɔ (CRS) tsoa vɔsa aɖe me. Ele be ame siwo va le vɔsa la me nagbã woƒe nudzɔdzɔ ƒe akpa ɣaɣla siwo li le dome, eye woade mɔ na ame sia ame nakpɔ parameter siwo le wazi. Halo ƒe mɔ meɖo vɔsa la kple eƒe ɖoɖo ɣaɣla ƒe trapdoor o. Eya meɖe be mele be woaɣlɔlã zãlawo ƒe gazazãsafuiwo o, alo be woatsi ɖaseɖigbalɛ [proof] ƒe ɖoɖo siwo woɖe asi le kple eƒe dɔwɔwɔ kpɔ o.
 
 ---
 
@@ -120,7 +120,7 @@ Tsɔ kpe ɖe eŋu la, Halo 2 le [MIT kple Apache 2.0 ƒe dɔwɔnu si ƒe teƒe �
 | Nusi ame geɖe xɔe se | Nusi nye nyateƒe |
 | --- | --- |
 | "Halo nye yayra si gbɔna la si Zcash le lala ɖe." | Orchard, si le mainnet dzi tso NU5 (2022) me, le Halo 2 dzi xoxo. |
-| "Mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o fia be parameters aɖeke mele o." | Halo gale zã structured parameters; vovototoe nye be toxic waste mele wo me o, eye woate ŋu awɔ wo ɖo kple atrɔ wo me vɔsa si ame siwo va eme la hia be woaxɔe dzi ase o. |
+| "Mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o fia be parameters aɖeke mele o." | Halo gale zã public parameters. Menye be woahĩa vɔsa aɖe si me wòle be ame siwo va eme la axɔe dzi ase be woatsrɔ secret setup material la o. |
 | "Halo 2 kple Halo ƒe agbalẽ nye nu ma ke." | [agbalẽ](https://eprint.iacr.org/2019/1021.pdf) la ɖe polynomial adzɔgbeɖeɖe ƒe ɖoɖo kple nested amortization me; Halo 2 nye nyadzɔdzɔ me Rust ƒe dɔwɔwɔ si me accumulation scheme kple PLONKish arithmetisation le. |
 | "Gbugbɔ ƒoƒo kpena ɖe gaɖoɖowo ƒuƒoƒe [block] ƒe kpɔɖeŋu wɔwɔ ƒe nu ƒe dziyiyi ko ŋu." | Gbugbɔ ƒoƒo hã fɔa application ƒe xexlẽme ɖe kpuie me — kpɔ Filecoin ƒe spacetime/replication ƒe ɖasewo kple VDF ƒe dɔwɔwɔ na Ethereum. |
 

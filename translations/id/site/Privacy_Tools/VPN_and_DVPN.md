@@ -37,13 +37,14 @@ Saat memilih layanan VPN, penting untuk mempertimbangkan faktor keamanan berikut
 
 7. __Harga dan Fitur__: Evaluasi biaya dan fitur yang ditawarkan oleh berbagai penyedia untuk menemukan satu yang sesuai dengan kebutuhan dan anggaran kamu.
 
-# VPN yang Menerima Zcash
+# Layanan VPN dan pembayaran Zcash
 
-Zcash (ZEC) adalah mata uang kripto yang dirancang untuk privasi yang ditingkatkan, menjadikannya pilihan favorit bagi individu yang mencari anonimitas dalam transaksi keuangan mereka. Meskipun tidak semua layanan VPN menerima Zcash secara langsung, beberapa mungkin menerima pembayaran cryptocurrency melalui layanan perantara. Namun, sangat penting untuk memeriksa langsung ke penyedia VPN untuk opsi pembayaran terbaru. Berikut adalah beberapa layanan VPN yang dikenal menerima pembayaran cryptocurrency:
+Dukungan pembayaran Zcash harus diperiksa untuk setiap penyedia. Menerima cryptocurrency tidak selalu mencakup ZEC, dan membayar exchange atau penjual kembali pihak ketiga berbeda dengan membayar penyedia VPN secara langsung. Layanan di bawah ini memiliki kebijakan pembayaran yang berbeda; verifikasi mata uang yang saat ini diterima sebelum mengirim dana.
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-Mullvad VPN adalah layanan VPN yang sangat dihormati dan dikenal karena komitmen kuatnya terhadap privasi dan keamanan pengguna. Ini adalah salah satu dari sedikit penyedia VPN yang menerima cryptocurrency, termasuk Zcash, sebagai metode pembayaran. Fitur utama Mullvad meliputi:
+Mullvad VPN adalah layanan VPN yang berfokus pada privasi. [FAQ pembayaran terkini](https://mullvad.net/en/pricing) mencantumkan metode pembayaran yang diterima.
+Dukungan cryptocurrency tidak berarti dukungan langsung untuk setiap koin. Fitur utama Mullvad meliputi:
 
 __Kebijakan Tanpa-Log__: Mullvad mengikuti kebijakan tanpa-log yang ketat, artinya ia tidak menyimpan data apa pun yang terkait dengan aktivitas daring kamu.
 
@@ -55,7 +56,7 @@ __Mode Bridge__: Ini memiliki mode bridge yang dapat membantu melewati langkah-l
 
 __Pembuatan Akun Anonim__: Pengguna diberikan nomor akun yang dibuat secara acak, sehingga tidak memerlukan informasi pribadi saat mendaftar.
 
-__Pembayaran Zcash__: Mullvad menerima Zcash sebagai opsi pembayaran, yang memungkinkan pengguna untuk membayar langganan mereka dengan privasi yang lebih ditingkatkan.Mullvad VPN.
+__Pembayaran mata uang kripto__: Daftar yang dipublikasikan mencantumkan Bitcoin, Bitcoin Cash, dan Monero, bukan Zcash. Exchange atau reseller pihak ketiga adalah layanan terpisah; jangan menggambarkannya sebagai penerimaan langsung ZEC oleh Mullvad.
 
 3. [__Nym VPN (dVPN)__](https://nym.com/)
    
@@ -69,9 +70,9 @@ __Operasi Node__: Pengguna dapat mengoperasikan node untuk berkontribusi pada ja
 
 __Privasi Kuat__: Nym VPN dirancang dengan mengutamakan privasi, dan tidak mengharuskan pengguna untuk memberikan informasi pribadi selama pembuatan akun.
 
-Untuk perutean khusus dompet Zcash, lihat [Rute Lalu Lintas Dompet Zcash Melalui Nym Mixnet](./Nym_Mixnet_Wallet_Setup.md).
+Untuk perutean khusus dompet Zcash, lihat [Rute Lalu Lintas Dompet Zcash Melalui Nym Mixnet](../guides/Nym_Mixnet_Wallet_Setup.md).
 
-## VPN lain yang mendukung pembayaran zcash:-
+## Penyedia VPN lain yang perlu diperiksa
 
 3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)

@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC स्वैप Encrypt.trade का उपयोग करके**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# encrypt.trade का उपयोग करके SOL/USDC को ZEC में स्वैप करें
+
+> Solana पर SOL या USDC को ZEC में स्वैप करें, जिसमें क्रॉस-चेन चरण NEAR Intents के माध्यम से रूट किया जाता है।
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Solana से Zcash में स्वैप करें, जिसमें क्रॉस-चेन चरण NEAR Intents के माध्यम से रूट किया जाता है।*  
+---
+
+## संक्षेप में
+
+* [encrypt.trade](https://encrypt.trade/zec) SOL या USDC को एन्क्रिप्टेड टोकनों (eSOL/eUSDC) में रैप करता है, फिर उन्हें NEAR Intents के माध्यम से ZEC में स्वैप करता है।
+* राशियाँ Solana पर छिपी रहती हैं, लेकिन आपके wallet का पता और ऐप का उसका उपयोग सार्वजनिक होता है।
+* ZEC केवल एक पारदर्शी (t1/t3) पते पर भेजा जाता है, इसलिए जब तक आप उसे शील्ड नहीं करते, वह Zcash chain पर दिखाई देता है।
+* ZEC प्राप्त होते ही उसे अपने wallet में शील्ड करें।
+* ऐप और NEAR Intents दोनों अनुपालन के लिए wallets की जाँच करते हैं।
 
 ---
 
-###  परिचय  
-[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. द्वारा संचालित एक Solana ऐप है। यह आपको Solana पर **SOL या USDC** को **Zcash (ZEC)** में स्वैप करने देता है। आपके टोकन को पहले एन्क्रिप्टेड संस्करणों में रैप किया जाता है ताकि Solana पर राशियाँ छिपी रहें, फिर NEAR Intents के माध्यम से उन्हें ZEC में स्वैप किया जाता है।
+## मूल स्पष्टीकरण
+[**encrypt.trade**](https://encrypt.trade/zec) JMD Labs Inc. द्वारा संचालित एक Solana ऐप है। यह आपको Solana पर **SOL या USDC** को **Zcash (ZEC)** में स्वैप करने देता है। आपके टोकन पहले एन्क्रिप्टेड संस्करणों में रैप किए जाते हैं, जिससे राशियाँ Solana पर छिपी रहती हैं, और फिर उन्हें NEAR Intents के माध्यम से ZEC में स्वैप किया जाता है।
 
 यह स्वैप कुछ मायनों में निजी है, लेकिन पूरी तरह नहीं। ऐप के अपने [docs](https://docs.encifher.io/docs) में कहा गया है कि चेन के साथ आपकी इंटरैक्शन गुमनाम नहीं होती: लोग देख सकते हैं कि आपके वॉलेट ने ऐप का उपयोग किया, लेकिन यह नहीं कि आपने कितनी राशि स्थानांतरित की। ZEC भी एक पारदर्शी पते पर आता है, इसलिए जब तक आप उसे शील्ड नहीं करते, वह Zcash चेन पर दिखाई देता रहता है।
 

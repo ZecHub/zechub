@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # MetaMask Zcash Snap Integration Guide
+
+> Hold and send shielded ZEC from the MetaMask browser extension, using ChainSafe's Zcash Snap and the WebZjs web wallet.
+
+## TL;DR
+
+* The ChainSafe Zcash Snap adds shielded ZEC to MetaMask on desktop (Chrome, Edge, Firefox). No separate Zcash software is needed.
+* Your Zcash keys are derived from your MetaMask recovery phrase. That one phrase now protects both your ETH and your ZEC.
+* You manage ZEC through the WebZjs wallet at webzjs.chainsafe.dev, not in MetaMask's own asset list.
+* Your account gets a unified address, so senders pay you in the most private pool they support.
+* Fund it by swapping (for example ETH to ZEC) or by withdrawing ZEC from an exchange to your shielded address.
+* Recovery: reinstall MetaMask and the Snap, then import your existing recovery phrase.
+
+## Core Explanation
+
+A MetaMask Snap is a small, sandboxed add-on that teaches MetaMask a new blockchain. The Zcash Snap, built by ChainSafe and audited by Hacken, lets MetaMask derive Zcash keys from your existing recovery phrase and sign Zcash transactions.
+
+MetaMask itself does not show a ZEC balance. Instead, the WebZjs web wallet connects to the Snap, syncs with the Zcash network through a lightwalletd server, and shows your addresses and balance. Shielded proofs are computed in your browser with WebAssembly, which is why sends can take a moment.
+
+The steps below cover installing the Snap, connecting WebZjs, funding the wallet, sending and receiving, and checking the parts of your unified address.
+
+## Full Guide
 
 For a full walkthrough and visual explanation, watch this [**YouTube guide**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 

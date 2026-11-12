@@ -6,8 +6,9 @@ import { spawnSync } from "node:child_process";
 import { mkdtempSync, writeFileSync, rmSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
-const script = new URL("./check-links.mjs", import.meta.url).pathname;
+const script = fileURLToPath(new URL("./check-links.mjs", import.meta.url));
 
 function run(root) {
   return spawnSync(process.execPath, [script, "--offline", "--root", root], {
