@@ -70,6 +70,36 @@ Consensus rules keep every value pool, including Ironwood, within the network's 
 
 Wallets and node software handle most of this automatically, but the practical shift is simple: over time, move shielded holdings from the old Orchard pool through the turnstile into the Ironwood pool. Each move shows its amount on the blockchain, so wallets that follow [ZIP 318](https://zips.z.cash/zip-0318) split it into standard amounts and send them over time. Follow the guidance from your wallet provider, and keep your software on a supported release.
 
+
+## TL;DR
+
+- Ironwood (NU6.3) activated at mainnet block 3,428,143 (July 28, 2026 UTC); its consensus rules are specified in ZIP 258.
+- It exists to contain and audit a soundness bug found in the Orchard shielded pool — disclosed in May 2026 by Taylor Hornby during a protocol audit for Shielded Labs.
+- There is no evidence the bug was ever exploited, no evidence of impact to user funds, and no evidence the total supply changed.
+- The response was staged: Orchard paused (June 2026), circuit fixed (NU6.2), then a fresh pool with a public migration checkpoint (Ironwood).
+- The turnstile counts every coin moving from Orchard into Ironwood, and Ironwood notes use a quantum-recoverable format (ZIP 2005).
+
+## Core Explanation
+
+A soundness bug means the math proving a transaction valid no longer fully guarantees it: in theory an attacker could have forged invalid value inside Orchard and spent funds that were not theirs, invisibly to normal nodes. Zcash's turnstile still capped how much value could leave Orchard, so total supply could not be inflated — but the pool's own cryptography no longer guaranteed every hidden coin was real. Ironwood gives that value a clean destination: a new shielded pool built on the corrected circuit, with a public accounting checkpoint between the old pool and the new one.
+
+## Visual analogy
+
+The old Orchard pool is a vault with a hairline flaw in its lock. Rather than trust it, the bank builds a new vault next door and moves the contents through a glass corridor where every item is counted. Nobody sees inside anyone's boxes — but everyone can see the counter, and the books must balance.
+
+## Deep Dive
+
+After activation the old Orchard pool becomes spend-only: no new value may enter, and newly shielded value flows into Ironwood instead. Moving ZEC from Orchard to Ironwood reveals the amount moved, so wallets following ZIP 318 split migrations into standard amounts sent over time. Turnstiles are not new to Zcash — the network has used them at the Sprout, Sapling, and Orchard pool boundaries so value moving between pools stays auditable and no pool can release more than legitimately entered. Consensus rules keep every pool, including Ironwood, within the network's maximum money limit, so pool balances can never go negative.
+
+## Common Mistakes
+
+- **Believing funds were stolen or the supply inflated.** No evidence of either; the bug was found by research and fixed before known harm.
+- **Thinking Ironwood is the bug fix itself.** NU6.2 fixed the Orchard circuit; Ironwood adds the clean pool and the audited migration path.
+- **Confusing which pool closed.** Orchard becomes spend-only — Sapling and Sprout rules are unchanged by this upgrade.
+- **Expecting migration to be as private as normal transfers.** Orchard-to-Ironwood moves show their amount on the blockchain.
+- **Assuming shielded users need do nothing.** Over time, follow your wallet's guidance and keep software on a supported release.
+
+
 ## Glossary
 
 | Term | Plain-English meaning |
@@ -134,5 +164,14 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 [What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
+
+
+## Related Pages
+
+- [NU6_2](./NU6_2.md) — the upgrade that fixed the Orchard circuit
+- [Post_Quantum_Security](./Post_Quantum_Security.md) — the quantum-recoverable note format's motivation
+- [What a Block Explorer Can See](./What_a_Block_Explorer_Can_See.md) — what the turnstile's public accounting reveals
+- [Halo](./Halo.md) — the proving system whose circuit held the bug
+
 
 Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [NU6.2](../zcash-tech/nu6-2)
