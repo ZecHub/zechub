@@ -10,19 +10,6 @@ Zcash mining pools are services that allow individual miners to combine their co
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Website: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Private Payouts: YES
-- Pool Type: Pay Per Share
-- Pool fee: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -152,3 +139,10 @@ Zcash mining pools are services that allow individual miners to combine their co
 - Pool Fee: 1%
 
 
+---
+
+## Former Zcash pools
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool is not a current Zcash mining option. Its [official pool FAQ](https://academy.braiins.com/braiins-pool/faqs/pool) lists Bitcoin as the supported coin and says it has no plans to support altcoins (checked 12 November 2026).
