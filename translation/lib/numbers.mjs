@@ -271,6 +271,15 @@ function foldMyriads(l) {
       (m, a, c) => fold(m, Number(a) * 1e4 + Number(c.replace(/,/g, ""))));
 }
 
+// Keep an adjacent unary minus, including typographic minus characters and
+// currency forms such as -$25 / $-25. A hyphen after a word or digit belongs
+// to an identifier, date or range; a spaced Markdown bullet is not a sign.
+function negativeAt(line, index) {
+  const before = line.slice(0, index);
+  if (/[\d%]\s+-$/.test(before)) return false; // "25 -50" is a range
+  return /(?:^|[^\p{L}\p{N}_%])[-−﹣－]\p{Sc}?$/u.test(before);
+}
+
 export function numbers(lines) {
   const out = [];
   lines.map(foldMyriads).forEach((l, i) => {
@@ -281,10 +290,14 @@ export function numbers(lines) {
       const vals = parts.flatMap((p) => normaliseNumber(p));
       const after = l.slice(m.index + m[0].length);
       const sc = SCALE.find(([re]) => re.test(after));
-      vals.forEach((v, j) => out.push({
-        value: v, line: i + 1,
-        scaled: j === vals.length - 1 && sc ? canon(Number(v) * sc[1]) : v,
-      }));
+      const negative = negativeAt(l, m.index);
+      vals.forEach((v, j) => {
+        // A split raw match (e.g. "25 50") carries a sign only on its first
+        // value. Negative zero is still zero, not a changed amount.
+        const value = negative && j === 0 && Number(v) !== 0 ? `-${v}` : v;
+        out.push({ value, line: i + 1,
+          scaled: j === vals.length - 1 && sc ? canon(Number(value) * sc[1]) : value });
+      });
     }
   });
   return out;
