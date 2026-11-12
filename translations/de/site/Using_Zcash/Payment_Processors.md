@@ -4,7 +4,7 @@
 
 # Zcash-Zahlungsabwickler
 
-Möglichkeiten, als Händler ZEC zu akzeptieren, direkt nebeneinandergestellt. Jeder Eintrag wurde anhand der eigenen Website und API des Anbieters am **29. Juli 2026** überprüft.
+Möglichkeiten, als Händler ZEC zu akzeptieren, direkt nebeneinandergestellt. Jeder Eintrag wurde anhand der eigenen Website und API des Anbieters am **29. Juli 2026** überprüft, mit Ausnahme von Zcash Payment Service, das am **1. November 2026** hinzugefügt wurde.
 
 Die Unterstützung für Privacy-Assets ändert sich häufig, daher trägt jede Zeile ihr eigenes Verifizierungsdatum. Wenn du dies erst Monate später liest, prüfe die Website des Anbieters, bevor du integrierst.
 
@@ -14,10 +14,11 @@ Die Unterstützung für Privacy-Assets ändert sich häufig, daher trägt jede Z
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Nicht-verwahrend | Ja, Orchard über Unified Addresses | Ja, Open Source | 1 % pro Zahlung, kostenlos bei Selbsthosting | Kein KYC, Regionen nicht angegeben | 2026-07-29 |
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Nicht-verwahrend, nur View Key | Ja, nur shielded (Sapling, Orchard, UA) | Ja, Open Source | Keine, du zahlst nur Netzwerkgebühren | Global, kein KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | Nicht-verwahrend, nur Incoming Viewing Key | Ja, nur shielded (Sapling und Orchard) | Ja, nur Selbsthosting, Open Source | Keine, du zahlst nur Netzwerkgebühren | Kein Konto, kein KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | Nicht-verwahrend | Ja, Sapling und Orchard | Nein, gehosteter Dienst | Im Voraus bezahlte Sitzung, Preis nicht veröffentlicht | Kein KYC angegeben, Regionen nicht angegeben | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Kundenseitige Selbstverwahrung, Händler rechnet in Fiat ab | Kunde zahlt shielded, Empfangsseite nicht dokumentiert | Nein | 1 % pro Zahlung | USA und 37 SEPA-Länder, ZEC in der EU unbestätigt | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Standardmäßig nicht-verwahrend | Nein, nur transparente Adresse | Nein | 0,5 %, oder 1 % mit Konvertierung | Global außer dort, wo es verboten ist, kein KYC zum Start | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Verwahrend, trotz Marketing | Nicht dokumentiert | Nein | 0,5 % API, 1,5 % White Label | Kein KYC zum Empfangen | 2026-07-29 |
+| [Plisio — Zahlungen ausgesetzt](https://plisio.net/) | Verwahrend, trotz Marketing | Nicht dokumentiert | Nein | 0,5 % API, 1,5 % White Label | Kein KYC zum Empfangen | 2026-07-29 |
 | [Binance Pay](https://pay.binance.com/en) | Verwahrend, off-chain | Nein, shielded Einzahlungen werden abgelehnt | Nein | Kostenlos von Wallet zu Wallet, 0,8 % Auszahlungen | Geografisch eingeschränkt, ZEC in FR, ES, IT, PL delistet | 2026-07-29 |
 
 </div>
@@ -36,7 +37,7 @@ Wenn ein Anbieter etwas nicht veröffentlicht, steht im Eintrag „nicht angegeb
 
 ### Welchen man wählen sollte
 
-Für die meiste Privatsphäre und Kontrolle nutze **BTCPay Server** oder ein selbstgehostetes **CipherPay**. Beide sind shielded, Open Source und halten keine Gelder für dich.
+Für die meiste Privatsphäre und Kontrolle nutze **BTCPay Server**, ein selbstgehostetes **CipherPay** oder **Zcash Payment Service**, wenn du deiner Website etwas Code hinzufügen kannst. Alle drei sind shielded, Open Source und halten keine Gelder für dich.
 
 Für Zahlungen in einem Laden statt online nutze **Flexa**.
 
@@ -89,6 +90,29 @@ Eine Einschränkung, die man kennen sollte: Das Plugin verwendet eine einzige Zc
 Für die Software selbst gibt es keine Gebühr. Du zahlst Zcash-Netzwerkgebühren und was auch immer dein Hosting kostet.
 
 **Zuletzt verifiziert:** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **Support-Typ**: Nur Shielded (Sapling und Orchard)
+- **Beschreibung**: Ein kostenloser, selbstgehosteter Zcash-Zahlungsabwickler für Onlinehändler, der als Docker-Container betrieben oder als Rust-Crate eingebettet werden kann.
+- **URL**: [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+Ein kostenloser Open-Source-(MIT)-Zahlungsabwickler, entwickelt von Andrew Arnott, der ihn bereits für reale Zahlungen in seiner eigenen App nutzt.
+
+Es hält ausschließlich einen Incoming Viewing Key (einen UIVK). Es kann eingehende Zahlungen sehen, sie aber nicht ausgeben – daher kann selbst ein kompromittierter Server deine Gelder nicht bewegen. Der Schlüssel bleibt auf deinem eigenen Server, sodass auch kein Unternehmen deine Zahlungen sieht.
+
+Jeder Checkout erhält eine neue Unified Address mit Sapling- und Orchard-Empfängern und ohne transparenten Empfänger. Zahlungen gehen direkt an Ihre eigene Wallet.
+
+Es gibt keine Gebühr, kein Konto und keine Nutzungsanzeige. Du zahlst Zcash-Netzwerkgebühren und dein Hosting.
+
+Es ist ausschließlich selbst gehostet: ein Docker-Container oder eine Rust-Crate innerhalb einer App, die Sie bereits betreiben. Es liest die Blockchain von einem lightwalletd-Server Ihrer Wahl, sodass Sie keinen vollständigen Knoten benötigen.
+
+Die Einrichtung erfordert Code, kein Plugin. Beim Checkout fragt Ihre Website den Dienst nach einer Zahlungsadresse und einem QR-Code, und der Dienst teilt Ihrer Website über signierte Webhooks mit, wenn das Geld eingegangen ist. Es gibt einen npm-Client für JavaScript- und TypeScript-Backends sowie einen Open-Source-[Demo-Shop](https://github.com/nerdcash/zcash-payment-demo-store), den Sie als Vorlage verwenden können. Es gibt kein Plugin für Shopify oder WooCommerce, daher benötigen Sie Kontrolle über den Code Ihrer Website oder eine Entwicklerin bzw. einen Entwickler, die oder der sie hat.
+
+Zu beachten: Es ist neu: Das Repository wurde im Juni 2026 gestartet, der npm-Client ist bei Version 0.1, es gibt noch keine getaggten Releases und kein veröffentlichtes Sicherheitsaudit. Seine API verfügt über keinen eigenen Login, daher sollten Sie sie in einem privaten Netzwerk betreiben und niemals für das Internet öffnen. Und wie bei jeder abgeschirmten Zahlung benötigt eine Rückerstattung, dass der Käufer Ihnen eine Adresse gibt.
+
+**Zuletzt verifiziert:** 2026-11-01
 
 ---
 
@@ -150,13 +174,16 @@ Weltweit verfügbar, außer dort, wo das Gesetz es verbietet. Du brauchst kein K
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio-Logo" class="processor-logo processor-logo-wide" />
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **Zahlungen ausgesetzt — geprüft am 12. November 2026.** Die [Homepage](https://plisio.net/) von Plisio besagt, dass eingehende und ausgehende Zahlungen vorübergehend ausgesetzt sind, während Wiederherstellungsarbeiten laufen. Prüfe vor dem Senden von Geldmitteln beim Anbieter nach. Die spezifische Seite für Zcash gibt derzeit 404 zurück; daraus lässt sich nicht schließen, dass ZEC delistet wurde. Die unten stehenden Angaben zu Gebühren, Verwahrung und Adressunterstützung wurden zuletzt am 29. Juli 2026 überprüft und seither nicht erneut verifiziert.
+
 - **Support-Typ**: Transparent (nicht dokumentiert)
-- **Beschreibung**: Plisio ist ein Zahlungs-Gateway für Kryptowährungen, das es Unternehmen ermöglicht, Zcash-Zahlungen zu akzeptieren.
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
+- **Beschreibung**: Plisio ist ein Zahlungs-Gateway für Kryptowährungen, das Unterstützung für Zcash gelistet hat. Die Zahlungsabwicklung ist derzeit ausgesetzt; siehe den datierten Hinweis oben.
+- **URL**: [Plisio](https://plisio.net/)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio-Logo" width="200" hidden />
 
-Behandle es als verwahrend. Plisios Marketing bezeichnet es als nicht-verwahrend, aber die eigenen Hilfeseiten beschreiben Guthaben, die auf der Plattform gehalten werden, Cold Storage und einen Auszahlungsprozess. Die Behauptung, nicht-verwahrend zu sein, konnte nicht bestätigt werden.
+Betrachten Sie es als verwahrend. Plisio's Marketing bezeichnet es als nicht verwahrend, aber die eigenen Hilfeseiten beschreiben auf der Plattform gehaltene Guthaben, Cold Storage und einen Auszahlungsprozess. Die Behauptung, nicht verwahrend zu sein, konnte nicht bestätigt werden.
 
 Plisio sagt nie, welche Zcash-Adresstypen verwendet werden, also gehe von transparent aus, bis jemand das Gegenteil bestätigt.
 

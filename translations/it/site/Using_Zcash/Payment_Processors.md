@@ -4,7 +4,7 @@
 
 # Processori di pagamento Zcash
 
-Modi per accettare ZEC come commerciante, messi a confronto fianco a fianco. Ogni voce è stata verificata rispetto al sito e all'API del fornitore stesso il **29 luglio 2026**.
+Modi per accettare ZEC come commerciante, messi a confronto fianco a fianco. Ogni voce è stata verificata rispetto al sito e all'API del fornitore stesso il **29 luglio 2026**, ad eccezione di Zcash Payment Service, aggiunto il **1 novembre 2026**.
 
 Il supporto per gli asset privacy cambia spesso, quindi ogni riga riporta la propria data di verifica. Se stai leggendo questa pagina mesi dopo, controlla il sito del fornitore prima di integrare il servizio.
 
@@ -13,12 +13,13 @@ Il supporto per gli asset privacy cambia spesso, quindi ogni riga riporta la pro
 | Processore | Custodia | ZEC schermati | Self-host | Commissione del commerciante | Aree / KYC | Verificato |
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Non-custodial | Sì, Orchard via Unified Addresses | Sì, open source | 1% per pagamento, gratis se self-hosted | Nessun KYC, regioni non indicate | 2026-07-29 |
-| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial (senza custodia di terzi), solo chiavi di visualizzazione | Sì, solo schermati (Sapling, Orchard, UA) | Sì, open source | Nessuna, paghi solo le commissioni di rete | Globale, nessun KYC | 2026-07-29 |
+| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial, solo chiavi di visualizzazione | Sì, solo schermati (Sapling, Orchard, UA) | Sì, open source | Nessuna, paghi solo le commissioni di rete | Globale, nessun KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | Non-custodial, solo chiave di visualizzazione in entrata | Sì, solo schermati (Sapling e Orchard) | Sì, solo self-hosted, open source | Nessuna, paghi solo le commissioni di rete | Nessun account, nessun KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | Non-custodial | Sì, Sapling e Orchard | No, servizio ospitato | Sessione prepagata, prezzo non pubblicato | Nessun KYC indicato, regioni non indicate | 2026-07-29 |
-| [Flexa](https://flexa.co/) | Autocustodia del cliente, il commerciante regola in fiat | Il cliente spende ZEC schermati, lato ricezione non documentato | No | 1% per pagamento | USA e 37 paesi SEPA, ZEC nell'UE non confermato | 2026-07-29 |
+| [Flexa](https://flexa.co/) | Autocustodia del cliente, il commerciante regola in fiat | Il cliente effettua pagamenti schermati, lato ricezione non documentato | No | 1% per pagamento | USA e 37 paesi SEPA, ZEC nell'UE non confermato | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Non-custodial per impostazione predefinita | No, solo indirizzo trasparente | No | 0,5%, oppure 1% con conversione | Globale salvo dove proibito, nessun KYC per iniziare | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Custodial, nonostante il marketing | Non documentato | No | 0,5% API, 1,5% white label | Nessun KYC per ricevere | 2026-07-29 |
-| [Binance Pay](https://pay.binance.com/en) | Custodial (custodia di terzi), off-chain | No, i depositi schermati vengono rifiutati | No | Gratis da portafoglio a portafoglio, 0,8% per i payout | Con restrizioni geografiche, ZEC rimosso in FR, ES, IT, PL | 2026-07-29 |
+| [Plisio — pagamenti sospesi](https://plisio.net/) | Custodial (custodia di terzi), nonostante il marketing | Non documentato | No | 0,5% API, 1,5% white label | Nessun KYC per ricevere | 2026-07-29 |
+| [Binance Pay](https://pay.binance.com/en) | Custodial, off-chain | No, i depositi schermati vengono rifiutati | No | Gratis da portafoglio a portafoglio, 0,8% per i pagamenti in uscita | Con restrizioni geografiche, ZEC rimosso in FR, ES, IT, PL | 2026-07-29 |
 
 </div>
 
@@ -36,7 +37,7 @@ Quando un fornitore non pubblica qualcosa, la voce riporta "non indicato" o "non
 
 ### Quale scegliere
 
-Per la massima privacy e il massimo controllo, usa **BTCPay Server** o una versione self-hosted di **CipherPay**. Entrambi sono schermati, open source e non detengono fondi per te.
+Per la massima privacy e il massimo controllo, usa **BTCPay Server**, una versione self-hosted di **CipherPay** oppure **Zcash Payment Service** se puoi aggiungere un po' di codice al tuo sito. Tutti e tre sono schermati, open source e non detengono fondi per te.
 
 Per accettare pagamenti in un negozio fisico anziché online, usa **Flexa**.
 
@@ -89,6 +90,29 @@ Una limitazione da conoscere: il plugin usa un singolo portafoglio di Zcash per 
 Non ci sono commissioni per il software in sé. Paghi le commissioni di rete di Zcash e i costi del tuo hosting.
 
 **Ultima verifica:** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **Tipo di supporto**: solo schermato (Sapling e Orchard)
+- **Descrizione**: Un processore di pagamenti Zcash gratuito e self-hosted per commercianti online, eseguito come container Docker o incorporato come crate Rust.
+- **URL**: [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+Un processore gratuito e open source (MIT) sviluppato da Andrew Arnott, che lo usa già per pagamenti reali nella sua app.
+
+Conserva soltanto una chiave di visualizzazione in entrata (una UIVK). Può vedere l'arrivo dei pagamenti ma non può spenderli, quindi nemmeno un server compromesso può spostare i tuoi fondi. La chiave rimane sul tuo server, quindi nessuna azienda vede i tuoi pagamenti.
+
+Ogni checkout riceve un nuovo indirizzo unificato con ricevitori Sapling e Orchard e nessun ricevitore trasparente. I pagamenti arrivano direttamente al tuo portafoglio.
+
+Non ci sono commissioni, account né contatori di utilizzo. Paghi le commissioni di rete di Zcash e il tuo hosting.
+
+È disponibile solo in modalità self-hosted: un container Docker, oppure un crate Rust all'interno di un'app che già esegui. Legge la chain da un server lightwalletd che scegli tu, quindi non ti serve un full node (nodo completo).
+
+Configurarlo richiede codice, non un plugin. Al momento del checkout, il tuo sito chiede al servizio un indirizzo di pagamento e un codice QR, e il servizio comunica al tuo sito quando arriva il denaro tramite webhook firmati. Esistono un client npm per JavaScript e backend TypeScript, e un [negozio demo](https://github.com/nerdcash/zcash-payment-demo-store) open source da cui prendere esempio. Non esiste un plugin per Shopify o WooCommerce, quindi devi controllare il codice del tuo sito, o affidarti a uno sviluppatore che lo controlli.
+
+Aspetti da valutare. È nuovo: il repository è stato avviato a giugno 2026, il client npm è alla versione 0.1, non ci sono ancora release contrassegnate da tag e non è stato pubblicato alcun audit di sicurezza. La sua API non dispone di un proprio accesso, quindi mantienila su una rete privata e non esporla mai a internet. E come per qualsiasi pagamento schermato, un rimborso richiede che l'acquirente ti fornisca un indirizzo.
+
+**Ultima verifica:** 2026-11-01
 
 ---
 
@@ -150,10 +174,13 @@ Disponibile a livello globale tranne dove la legge lo vieta. Non hai bisogno di 
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
-- **Support Type**: Trasparente (non documentato)
-- **Description**: Plisio è un gateway di pagamento in criptovalute che consente alle aziende di accettare pagamenti in Zcash.
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **Pagamenti sospesi — verificato il 12 novembre 2026.** La [homepage](https://plisio.net/) di Plisio afferma che i pagamenti in entrata e in uscita sono temporaneamente sospesi mentre sono in corso i lavori di ripristino. Verifica con il provider prima di inviare fondi. La pagina specifica per Zcash restituisce attualmente un errore 404; ciò non dimostra che ZEC sia stato rimosso. I dettagli riportati di seguito su commissione, custodia e supporto degli indirizzi sono stati esaminati l'ultima volta il 29 luglio 2026 e non sono stati riverificati.
+
+- **Tipo di supporto**: Trasparente (non documentato)
+- **Descrizione**: Plisio è un gateway di pagamento in criptovalute che ha aggiunto il supporto per Zcash. L'elaborazione dei pagamenti è attualmente sospesa; vedi l'avviso datato sopra.
+- **URL**: [Plisio](https://plisio.net/)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Consideralo custodial. Il marketing di Plisio lo definisce non-custodial, ma le sue stesse pagine di assistenza descrivono saldi detenuti sulla piattaforma, cold storage e una procedura di prelievo. L'affermazione non-custodial non ha potuto essere confermata.

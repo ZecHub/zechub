@@ -20,7 +20,7 @@ Mit Hardware-Sicherheitsschlüsseln wie dem YubiKey stecken Sie den Hardware-Sch
 
 ## Welche Vorteile bietet die Verwendung eines Hardware-Sicherheitsschlüssels?
 
-Hardware-Sicherheitsschlüssel bieten mehrere Vorteile gegenüber herkömmlichen passwortbasierten Authentifizierungsmethoden. Sie sind deutlich schwerer anzugreifen als Passwörter, die leicht durch Brute-Force-, Social-Engineering- oder Phishing-Angriffe kompromittiert werden können. Sicherheitsschlüssel erzeugen bei jeder Verwendung einen eindeutigen Code, wodurch es für Angreifer nahezu unmöglich wird, den Code vorherzusagen oder zu reproduzieren. Sie sind außerdem einfach zu verwenden und zu konfigurieren und erfordern keine zusätzliche Software oder Treiber, die auf Ihrem Gerät installiert werden müssen.
+Bei Verwendung mit FIDO U2F oder FIDO2/WebAuthn authentifiziert sich ein Hardware-Sicherheitsschlüssel durch das Signieren einer neuen Challenge, statt einen Code zu erzeugen, den Sie eingeben müssen. Der Dienst speichert einen öffentlichen Schlüssel, während der private Schlüssel auf dem Authenticator verbleibt. Zugangsdaten sind auf den jeweiligen Dienst beschränkt, und der Browser überprüft die Identität der Relying Party, um Phishing abzuwehren. Diese Vorteile beschreiben die FIDO-Authentifizierung, nicht jede Methode, die ein Schlüssel mit mehreren Protokollen unterstützen kann. Prüfen Sie, ob Ihr Dienst, Browser, Gerät und Verbindungstyp die Methode unterstützen, die Sie verwenden möchten. Siehe [Yubicos WebAuthnEinführung](https://developers.yubico.com/WebAuthn/) sowie den [FIDO2/WebAuthn-Leitfaden für Entwickler](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## Sind Hardware-Sicherheitsschlüssel mit allen Geräten und Betriebssystemen kompatibel?
 

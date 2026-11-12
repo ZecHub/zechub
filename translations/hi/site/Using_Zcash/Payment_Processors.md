@@ -1,186 +1,213 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Payment_Processors.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
 </a>
 
 # Zcash भुगतान प्रोसेसर
 
-एक व्यापारी के रूप में ZEC स्वीकार करने के तरीके, साथ-साथ तुलना किए गए। हर प्रविष्टि को प्रदाता की अपनी साइट और API के आधार पर **29 जुलाई 2026** को जांचा गया था।
+व्यापारी के रूप में ZEC स्वीकार करने के तरीके, साथ-साथ तुलना किए गए हैं। Zcash Payment Service को छोड़कर, जिसे **1 नवंबर 2026** को जोड़ा गया था, हर प्रविष्टि को प्रदाता की अपनी साइट और API के विरुद्ध **29 जुलाई 2026** को जाँचा गया था।
 
-privacy assets के लिए समर्थन अक्सर बदलता रहता है, इसलिए हर पंक्ति में उसकी अपनी सत्यापित तिथि दी गई है। यदि आप इसे कई महीनों बाद पढ़ रहे हैं, तो इंटीग्रेट करने से पहले प्रदाता की साइट जांच लें।
+गोपनीयता एसेट्स के लिए समर्थन अक्सर बदलता है, इसलिए हर पंक्ति में अपनी सत्यापित तिथि दी गई है। यदि आप इसे महीनों बाद पढ़ रहे हैं, तो इंटीग्रेट करने से पहले प्रदाता की साइट जाँच लें।
 
 <div class="processor-table">
 
-| Processor | Custody | Shielded ZEC | Self-host | Merchant fee | Regions / KYC | Verified |
+| प्रोसेसर | अभिरक्षा | शील्डेड ZEC | स्वयं-होस्ट | व्यापारी शुल्क | क्षेत्र / KYC | सत्यापित |
 |:--|:--|:--|:--|:--|:--|:--|
-| [CipherPay](https://www.cipherpay.app) | Non-custodial | हाँ, Unified Addresses के माध्यम से Orchard | हाँ, open source | प्रति भुगतान 1%, self-host करने पर निःशुल्क | KYC नहीं, क्षेत्र बताए नहीं गए | 2026-07-29 |
-| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-custodial, केवल view key | हाँ, केवल shielded (Sapling, Orchard, UA) | हाँ, open source | कोई नहीं, आप केवल network fees देते हैं | वैश्विक, KYC नहीं | 2026-07-29 |
-| [ZGo](https://zgo.cash/) | Non-custodial | हाँ, Sapling और Orchard | नहीं, hosted service | Prepaid session, कीमत प्रकाशित नहीं | KYC का उल्लेख नहीं, क्षेत्र बताए नहीं गए | 2026-07-29 |
-| [Flexa](https://flexa.co/) | ग्राहक self-custody, merchant को fiat में settlement | ग्राहक shielded खर्च करता है, receiving side प्रलेखित नहीं | नहीं | प्रति भुगतान 1% | US और 37 SEPA देश, EU में ZEC अपुष्ट | 2026-07-29 |
-| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | डिफ़ॉल्ट रूप से Non-custodial | नहीं, केवल transparent address | नहीं | 0.5%, या conversion के साथ 1% | जहाँ निषिद्ध न हो वहाँ वैश्विक, शुरू में KYC नहीं | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Custodial, marketing के बावजूद | प्रलेखित नहीं | नहीं | 0.5% API, 1.5% white label | प्राप्त करने के लिए KYC नहीं | 2026-07-29 |
-| [Binance Pay](https://pay.binance.com/en) | Custodial, off-chain | नहीं, shielded deposits अस्वीकृत | नहीं | wallet-to-wallet निःशुल्क, payouts 0.8% | Geo-restricted, FR, ES, IT, PL में ZEC delist | 2026-07-29 |
+| [CipherPay](https://www.cipherpay.app) | गैर-अभिरक्षात्मक | हाँ, Unified Addresses के माध्यम से Orchard | हाँ, ओपन सोर्स | प्रति भुगतान 1%, स्वयं-होस्ट होने पर निःशुल्क | कोई KYC नहीं, क्षेत्र घोषित नहीं | 2026-07-29 |
+| [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | गैर-अभिरक्षात्मक, केवल view key | हाँ, केवल शील्डेड (Sapling, Orchard, UA) | हाँ, ओपन सोर्स | कोई नहीं, आप केवल नेटवर्क शुल्क देते हैं | वैश्विक, कोई KYC नहीं | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | गैर-अभिरक्षात्मक, केवल incoming view key | हाँ, केवल शील्डेड (Sapling और Orchard) | हाँ, केवल स्वयं-होस्ट, ओपन सोर्स | कोई नहीं, आप केवल नेटवर्क शुल्क देते हैं | कोई खाता नहीं, कोई KYC नहीं | 2026-11-01 |
+| [ZGo](https://zgo.cash/) | गैर-अभिरक्षात्मक | हाँ, Sapling और Orchard | नहीं, होस्टेड सेवा | प्रीपेड सत्र, मूल्य प्रकाशित नहीं | कोई KYC घोषित नहीं, क्षेत्र घोषित नहीं | 2026-07-29 |
+| [Flexa](https://flexa.co/) | ग्राहक की स्वयं-अभिरक्षा, व्यापारी fiat में निपटान करता है | ग्राहक शील्डेड खर्च करता है, प्राप्तकर्ता पक्ष का दस्तावेज़ीकरण नहीं | नहीं | प्रति भुगतान 1% | अमेरिका और 37 SEPA देश, EU में ZEC अपुष्ट | 2026-07-29 |
+| [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | डिफ़ॉल्ट रूप से गैर-अभिरक्षात्मक | नहीं, केवल पारदर्शी पता | नहीं | 0.5%, या रूपांतरण के साथ 1% | प्रतिबंधित स्थानों को छोड़कर वैश्विक, शुरुआत के लिए कोई KYC नहीं | 2026-07-29 |
+| [Plisio — भुगतान निलंबित](https://plisio.net/) | मार्केटिंग के बावजूद अभिरक्षात्मक | दस्तावेज़ीकृत नहीं | नहीं | 0.5% API, 1.5% white label | प्राप्त करने के लिए कोई KYC नहीं | 2026-07-29 |
+| [Binance Pay](https://pay.binance.com/en) | अभिरक्षात्मक, ऑफ-चेन | नहीं, शील्डेड जमा अस्वीकृत | नहीं | wallet से wallet निःशुल्क, 0.8% भुगतान-निकासी | भौगोलिक रूप से प्रतिबंधित, FR, ES, IT, PL में ZEC डीलिस्टेड | 2026-07-29 |
 
 </div>
 
-### कॉलम का अर्थ
+### कॉलमों का अर्थ
 
-**Custody** का मतलब है कि प्रोसेसर आपका ZEC अपने पास रखता है या नहीं। Non-custodial का मतलब है कि यह उस wallet में जाता है जिसे आप नियंत्रित करते हैं।
+**अभिरक्षा** यह बताती है कि क्या प्रोसेसर आपका ZEC रखता है। गैर-अभिरक्षात्मक का अर्थ है कि यह आपके नियंत्रण वाले wallet में जाता है।
 
-**Shielded ZEC** का मतलब है कि क्या आपको shielded pool में भुगतान मिल सकता है। Transparent only का मतलब है कि राशि और addresses blockchain पर सार्वजनिक होते हैं।
+**शील्डेड ZEC** यह बताता है कि क्या आपको शील्डेड pool में भुगतान मिल सकता है। केवल पारदर्शी का अर्थ है कि राशि और पते blockchain पर सार्वजनिक होते हैं।
 
-**Self-host** का मतलब है कि क्या आप software को स्वयं चला सकते हैं, बीच में किसी कंपनी के बिना।
+**स्वयं-होस्ट** यह बताता है कि क्या आप बीच में किसी कंपनी के बिना सॉफ़्टवेयर स्वयं चला सकते हैं।
 
-**Merchant fee** में Zcash network fees शामिल नहीं हैं, जो हर स्थिति में किसी न किसी को देनी पड़ती हैं।
+**व्यापारी शुल्क** में Zcash नेटवर्क शुल्क शामिल नहीं है, जो हर स्थिति में किसी न किसी को देना होता है।
 
-जहाँ कोई प्रदाता कुछ प्रकाशित नहीं करता, वहाँ प्रविष्टि में अनुमान लगाने के बजाय "बताया नहीं गया" या "प्रलेखित नहीं" लिखा है। यह "नहीं" के समान नहीं है।
+जहाँ कोई प्रदाता कुछ प्रकाशित नहीं करता, वहाँ अनुमान लगाने के बजाय प्रविष्टि में "घोषित नहीं" या "दस्तावेज़ीकृत नहीं" कहा गया है। यह "नहीं" जैसा नहीं है।
 
-### कौन-सा चुनें
+### किसे चुनें
 
-अधिकतम privacy और नियंत्रण के लिए, **BTCPay Server** या self-hosted **CipherPay** का उपयोग करें। दोनों shielded हैं, open source हैं, और आपके लिए धन नहीं रखते।
+सबसे अधिक गोपनीयता और नियंत्रण के लिए **BTCPay Server**, स्वयं-होस्टेड **CipherPay**, या **Zcash Payment Service** का उपयोग करें यदि आप अपनी साइट में थोड़ा कोड जोड़ सकते हैं। तीनों शील्डेड, ओपन सोर्स हैं और आपके लिए कोई धनराशि नहीं रखते।
 
-दुकान में, ऑनलाइन के बजाय, भुगतान लेने के लिए **Flexa** का उपयोग करें।
+ऑनलाइन के बजाय दुकान में भुगतान लेने के लिए **Flexa** का उपयोग करें।
 
-यदि आपको hosted gateway चाहिए जहाँ transparent payments स्वीकार्य हों, तो **NOWPayments** या **Plisio** का उपयोग करें।
+ऐसे होस्टेड gateway के लिए जहाँ पारदर्शी भुगतान स्वीकार्य हों, **NOWPayments** या **Plisio** का उपयोग करें।
 
-एक चेतावनी दोहराने लायक है: transparent-only processor blockchain पर हर भुगतान राशि और address प्रकाशित कर देता है। और किसी भी hosted non-custodial processor के साथ आप अपनी viewing key सौंप देते हैं, इसलिए कंपनी आपके भुगतानों को देख सकती है, भले ही वह उन्हें खर्च न कर सके। इससे बचने का एकमात्र तरीका self-hosting है।
+एक चेतावनी दोहराने योग्य है: केवल-पारदर्शी प्रोसेसर blockchain पर हर भुगतान राशि और पते को प्रकाशित करता है। और किसी भी होस्टेड गैर-अभिरक्षात्मक प्रोसेसर के साथ आप अपनी viewing key सौंपते हैं, इसलिए कंपनी आपके भुगतान देख सकती है, भले ही वह उन्हें खर्च न कर सके। इससे बचने का एकमात्र तरीका स्वयं-होस्टिंग है।
 
 <div class="processor-note">
 
-**ZGo सेवा चेतावनी, 29 जुलाई 2026।** इस पेज की जांच के दौरान api.zgo.cash पर ZGo backend ने हर endpoint पर HTTP 503 लौटाया। प्रोजेक्ट छोड़ा नहीं गया है और उसका maintainer इस महीने समुदाय में सक्रिय था, लेकिन उस पर निर्भर होने से पहले पुष्टि कर लें कि सेवा चल रही है।
+**ZGo सेवा चेतावनी, 29 जुलाई 2026।** इस पृष्ठ की जाँच के दौरान api.zgo.cash पर ZGo backend ने हर endpoint पर HTTP 503 लौटाया। परियोजना छोड़ी नहीं गई है और उसका मेंटेनर इस महीने समुदाय में सक्रिय था, लेकिन भरोसा करने से पहले पुष्टि करें कि सेवा चल रही है।
 
 </div>
 
 ---
 
-## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" class="processor-logo" />
-- **Support Type**: Shielded (Orchard, Unified Addresses के माध्यम से)
-- **Description**: मिनटों में Zcash स्वीकार करें, Non-custodial, खरीदार का शून्य डेटा, कोई बिचौलिया नहीं।
+## [CipherPay](https://www.cipherpay.app) <img src="/content-images/cipherpay-mark.png" alt="CipherPay लोगो" class="processor-logo" />
+- **समर्थन प्रकार**: शील्डेड (Unified Addresses के माध्यम से Orchard)
+- **विवरण**: मिनटों में Zcash स्वीकार करें, गैर-अभिरक्षात्मक, खरीदार का शून्य डेटा, कोई बिचौलिया नहीं।
 - **URL**: [CipherPay](https://www.cipherpay.app)
-<img src="/content-images/cipherpay-mark.png" alt="CipherPay logo" width="200" hidden />
+<img src="/content-images/cipherpay-mark.png" alt="CipherPay लोगो" width="200" hidden />
 
-आप CipherPay को केवल view-only key देते हैं, इसलिए भुगतान सीधे आपके अपने wallet में जाता है और यह कभी धन अपने पास नहीं रखता। यह हर invoice के लिए एक नया address इस्तेमाल करता है।
+आप CipherPay को केवल-देखने वाली key देते हैं, इसलिए भुगतान सीधे आपके अपने wallet में जाते हैं और यह कभी धनराशि नहीं रखता। यह हर invoice के लिए एक नया पता उपयोग करता है।
 
-केवल Orchard। Sapling या transparent का कोई समर्थन नहीं है, भले ही repository README में Sapling का उल्लेख हो।
+केवल Orchard। Sapling या पारदर्शी समर्थन नहीं है, भले ही repository README में Sapling का उल्लेख है।
 
-इसकी लागत प्रति भुगतान 1% है, और यदि आप इसे स्वयं चलाते हैं तो बिल्कुल कुछ नहीं। पूरा सिस्टम open source है, Rust binary के रूप में SQLite के साथ या Docker image के रूप में। KYC नहीं है, और खरीदारों को account की जरूरत नहीं होती।
+इसकी लागत प्रति भुगतान 1% है, और यदि आप इसे स्वयं चलाते हैं तो बिल्कुल कुछ नहीं। पूरी चीज़ ओपन सोर्स है, SQLite के साथ Rust binary के रूप में या Docker image के रूप में। कोई KYC नहीं है, और खरीदारों को खाते की आवश्यकता नहीं है।
 
-Integrations में Shopify, WooCommerce, एक REST API, hosted checkout, payment links, और in-person QR शामिल हैं।
+इंटीग्रेशन में Shopify, WooCommerce, REST API, होस्टेड checkout, भुगतान लिंक और प्रत्यक्ष QR शामिल हैं।
 
-ध्यान देने लायक दो बातें हैं। यह फरवरी 2026 में लॉन्च हुआ था और इसका कोई प्रकाशित security audit नहीं है। और hosted tier में operator आपकी viewing key अपने पास रखता है, इसलिए वह आपके भुगतानों को देख सकता है। Self-hosting इससे बचा देती है। Shielded payments final भी होते हैं, इसलिए refund के लिए खरीदार को आपको एक address देना होगा।
+विचार करने के लिए दो बातें। यह फरवरी 2026 में लॉन्च हुआ और इसका कोई प्रकाशित सुरक्षा audit नहीं है। और होस्टेड tier में ऑपरेटर आपकी viewing key रखता है, इसलिए वह आपके भुगतान देख सकता है। स्वयं-होस्टिंग इसे हटाती है। शील्डेड भुगतान अंतिम भी होते हैं, इसलिए refund के लिए खरीदार को आपको एक पता देना होगा।
 
 **अंतिम सत्यापन:** 2026-07-29
 
 ---
 
-## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" class="processor-logo" />
-- **Support Type**: केवल Shielded (Sapling, Orchard, Unified Address)
-- **Description**: BTCPay Server एक open-source, self-hosted cryptocurrency payment processor है।
+## [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) <img src="/content-images/btcpay-mark.png" alt="BTCPay Server लोगो" class="processor-logo" />
+- **समर्थन प्रकार**: केवल शील्डेड (Sapling, Orchard, Unified Address)
+- **विवरण**: BTCPay Server एक ओपन-सोर्स, स्वयं-होस्टेड cryptocurrency भुगतान प्रोसेसर है।
 - **URL**: [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin)
-<img src="/content-images/btcpay-mark.png" alt="BTCPay Server logo" width="200" hidden />
+<img src="/content-images/btcpay-mark.png" alt="BTCPay Server लोगो" width="200" hidden />
 
-Custody के मामले में यह सबसे मजबूत विकल्प है। इसका wallet backend केवल view-only है और कोई seed या secret key नहीं रखता, इसलिए compromised server भी आपका पैसा खर्च नहीं कर सकता।
+अभिरक्षा के मामले में सबसे मज़बूत विकल्प। इसका wallet backend केवल-देखने वाला है और कोई seed या secret key नहीं रखता, इसलिए compromise हुआ server भी आपका धन खर्च नहीं कर सकता।
 
-केवल shielded, जिसमें Sapling, Orchard और Unified Addresses शामिल हैं। कोई transparent fallback नहीं है, इसलिए उसके आधार पर योजना न बनाएं।
+केवल शील्डेड, जिसमें Sapling, Orchard और Unified Addresses शामिल हैं। कोई पारदर्शी fallback नहीं है, इसलिए उसके आधार पर योजना न बनाएँ।
 
-इसे install करने के लिए आपको feat/zec branch पर btcpay-zcash Docker fork चाहिए, साथ ही Zkool या Zingo जैसे wallet से export की गई viewing key। डिफ़ॉल्ट रूप से यह remote lightwalletd से बात करता है, या आप Zebra और lightwalletd स्वयं चला सकते हैं।
+इसे स्थापित करने के लिए आपको feat/zec branch पर btcpay-zcash का Docker fork चाहिए, साथ ही Zkool या Zingo जैसे wallet से निर्यात की गई viewing key चाहिए। डिफ़ॉल्ट रूप से यह एक remote lightwalletd से बात करता है, या आप स्वयं Zebra और lightwalletd चला सकते हैं।
 
-एक सीमा जानना जरूरी है: plugin एक instance पर हर store के लिए एक ही Zcash wallet का उपयोग करता है, इसलिए इसे shared server पर न चलाएँ। Per-store wallets पर काम चल रहा है।
+जानने योग्य एक सीमा: plugin किसी instance पर हर store के लिए एक ही Zcash wallet उपयोग करता है, इसलिए इसे साझा server पर न चलाएँ। प्रति-store wallets पर काम चल रहा है।
 
-सॉफ़्टवेयर स्वयं कोई शुल्क नहीं लेता। आप Zcash network fees और hosting की अपनी लागत देते हैं।
+सॉफ़्टवेयर के लिए कोई शुल्क नहीं है। आप Zcash नेटवर्क शुल्क और अपने hosting की लागत देते हैं।
 
 **अंतिम सत्यापन:** 2026-07-29
 
 ---
 
-## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" class="processor-logo" />
-- **Support Type**: Shielded (Sapling और Orchard)
-- **Description**: ZGo एक electronic payment platform है जो सीधे आपके ग्राहक से आपके पास जाता है, बिना किसी third party के।
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **समर्थन प्रकार**: केवल शील्डेड (Sapling और Orchard)
+- **विवरण**: ऑनलाइन व्यापारियों के लिए एक निःशुल्क, स्वयं-होस्टेड Zcash भुगतान प्रोसेसर, जो Docker container के रूप में चलता है या Rust crate के रूप में embedded होता है।
+- **URL**: [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+Andrew Arnott द्वारा बनाया गया एक निःशुल्क, ओपन-सोर्स (MIT) प्रोसेसर, जो इसे अपने app में वास्तविक भुगतानों के लिए पहले से उपयोग करते हैं।
+
+यह केवल incoming viewing key (एक UIVK) रखता है। यह भुगतानों को आते देख सकता है, लेकिन उन्हें खर्च नहीं कर सकता, इसलिए compromise हुआ server भी आपकी धनराशि नहीं हटा सकता। key आपके अपने server पर रहती है, इसलिए कोई कंपनी भी आपके भुगतान नहीं देखती।
+
+हर checkout को Sapling और Orchard receivers वाला नया unified address मिलता है और कोई पारदर्शी receiver नहीं होता। भुगतान सीधे आपके अपने wallet में जाते हैं।
+
+कोई शुल्क, खाता या उपयोग मीटर नहीं है। आप Zcash नेटवर्क शुल्क और अपनी hosting देते हैं।
+
+यह केवल स्वयं-होस्टेड है: एक Docker container, या उस app के भीतर Rust crate जिसे आप पहले से चलाते हैं। यह आपके चुने हुए lightwalletd server से chain पढ़ता है, इसलिए आपको पूर्ण नोड की आवश्यकता नहीं है।
+
+इसे सेट करने के लिए code चाहिए, plugin नहीं। आपकी साइट checkout पर भुगतान पता और QR code के लिए सेवा से पूछती है, और सेवा signed webhooks के माध्यम से आपकी साइट को बताती है कि धन कब पहुँचता है। JavaScript और TypeScript backends के लिए npm client है, और कॉपी करने के लिए एक ओपन-सोर्स [demo store](https://github.com/nerdcash/zcash-payment-demo-store) है। कोई Shopify या WooCommerce plugin नहीं है, इसलिए आपको अपनी साइट के code का नियंत्रण चाहिए, या ऐसा developer चाहिए जिसके पास यह हो।
+
+विचार करने योग्य बातें। यह नया है: repository जून 2026 में शुरू हुई, npm client संस्करण 0.1 पर है, अभी कोई tagged releases नहीं हैं और कोई प्रकाशित सुरक्षा audit नहीं है। इसके API का अपना login नहीं है, इसलिए इसे निजी network पर रखें और कभी internet पर न खोलें। और किसी भी शील्डेड भुगतान की तरह, refund के लिए खरीदार को आपको एक पता देना होगा।
+
+**अंतिम सत्यापन:** 2026-11-01
+
+---
+
+## [ZGo](https://zgo.cash/) <img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo लोगो" class="processor-logo" />
+- **समर्थन प्रकार**: शील्डेड (Sapling और Orchard)
+- **विवरण**: ZGo एक इलेक्ट्रॉनिक भुगतान प्लेटफ़ॉर्म है जो बिना किसी तीसरे पक्ष के सीधे आपके ग्राहक से आपके पास जाता है।
 - **URL**: [ZGo](https://zgo.cash/)
-<img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo logo" width="200" hidden />
+<img src="/content-images/zgo-prp2-497679039b.webp" alt="ZGo लोगो" width="200" hidden />
 
-एक ऐसा till जिसे आप browser में चलाते हैं, इसलिए laptop, tablet या phone checkout बन जाता है। एक WooCommerce plugin और REST API भी है। इसे Vergara Technologies ने बनाया था और इसे Zcash Community Grants से funding मिली थी, जिसमें zcashd से Zebra की ओर स्थानांतरण भी शामिल था।
+एक cash register जिसे आप browser में चलाते हैं, इसलिए laptop, tablet या phone checkout बन जाता है। एक WooCommerce plugin और REST API भी है। इसे Vergara Technologies ने बनाया था और Zcash Community Grants ने वित्तपोषित किया था, जिसमें zcashd से Zebra की ओर बदलाव भी शामिल है।
 
-धन ग्राहक से सीधे आपके wallet में जाता है, बीच में कोई नहीं होता।
+धनराशि ग्राहक से सीधे आपके wallet में जाती है, बीच में कोई नहीं होता।
 
-Shielded, जिसमें Unified Addresses के माध्यम से Sapling और Orchard शामिल हैं, और यह ZIP 321 का पालन करता है। कोई वर्तमान स्रोत यह नहीं कहता कि यह transparent addresses संभालता है, इसलिए यह पेज अब ऐसा दावा नहीं करता।
+शील्डेड, Unified Addresses के माध्यम से Sapling और Orchard को कवर करता है, और यह ZIP 321 का पालन करता है। कोई वर्तमान स्रोत नहीं कहता कि यह पारदर्शी पतों को संभालता है, इसलिए यह पृष्ठ अब ऐसा दावा नहीं करता।
 
-आप वास्तव में इसे self-host नहीं कर सकते। ZGo आपके लिए Zcash infrastructure चलाता है और कोई deployment guide प्रकाशित नहीं करता। Source maintainer के अपने Git server पर सार्वजनिक है, हालांकि GitLab copy जिसे लोग आमतौर पर पाते हैं वह 2022 की पुरानी mirror है।
+आप वास्तव में इसे स्वयं-होस्ट नहीं कर सकते। ZGo आपके लिए Zcash infrastructure चलाता है और कोई deployment guide प्रकाशित नहीं करता। स्रोत मेंटेनर के अपने Git server पर सार्वजनिक है, हालाँकि लोगों को आम तौर पर मिलने वाली GitLab copy पुराना 2022 mirror है।
 
-यह निःशुल्क भी नहीं है। ZGo prepaid sessions बेचता है और WooCommerce के लिए Pro session चाहिए, लेकिन pricing page इस समय पहुँच से बाहर है, इसलिए यहाँ कोई राशि नहीं दी गई है।
+यह निःशुल्क भी नहीं है। ZGo प्रीपेड सत्र बेचता है और WooCommerce के लिए Pro सत्र चाहिए, लेकिन मूल्य पृष्ठ वर्तमान में पहुँच से बाहर है, इसलिए यहाँ कोई आँकड़ा नहीं दिया गया है।
 
 **अंतिम सत्यापन:** 2026-07-29
 
 ---
 
-## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa logo" class="processor-logo" />
-- **Support Type**: ग्राहक shielded खर्च करता है, receiving side प्रलेखित नहीं
-- **Description**: Flexa एक payments network है जो ग्राहकों को self-custody wallet से retail locations पर Zcash सहित digital assets खर्च करने देता है।
+## [Flexa](https://flexa.co/) <img src="/content-images/flexa-mark.png" alt="Flexa लोगो" class="processor-logo" />
+- **समर्थन प्रकार**: ग्राहक शील्डेड खर्च करता है, प्राप्तकर्ता पक्ष का दस्तावेज़ीकरण नहीं
+- **विवरण**: Flexa एक भुगतान नेटवर्क है जो ग्राहकों को स्वयं-अभिरक्षा wallet से खुदरा स्थानों पर Zcash सहित digital assets खर्च करने देता है।
 - **URL**: [Flexa](https://flexa.co/)
-<img src="/content-images/flexa-mark.png" alt="Flexa logo" width="200" hidden />
+<img src="/content-images/flexa-mark.png" alt="Flexa लोगो" width="200" hidden />
 
-Flexa checkout gateway नहीं है, इसलिए यह यहाँ के अन्य विकल्पों का विकल्प नहीं है। ग्राहक Zodl जैसा Flexa-enabled wallet खोलता है, एक one-time code दिखाता है, और दुकान उसे scan करती है। कोई ZEC invoice नहीं होता और न ही कोई e-commerce plugin।
+Flexa checkout gateway नहीं है, इसलिए यह यहाँ के अन्य विकल्पों का विकल्प नहीं है। ग्राहक Flexa-सक्षम wallet, जैसे Zodl, खोलता है, एक बार इस्तेमाल होने वाला code दिखाता है और दुकान उसे scan करती है। कोई ZEC invoice और कोई e-commerce plugin नहीं है।
 
-ग्राहक अपने coins का नियंत्रण भुगतान के क्षण तक स्वयं रखता है। व्यापारी के रूप में आपको कभी ZEC प्राप्त नहीं होता। Flexa आपकी चुनी हुई currency में settlement करता है, इसलिए crypto वाला हिस्सा वही संभालते हैं।
+भुगतान करने के क्षण तक ग्राहक अपने सिक्के स्वयं रखता है। व्यापारी के रूप में आपको कभी ZEC नहीं मिलता। Flexa आपके चुने हुए currency में आपका निपटान करता है, इसलिए crypto पक्ष वे संभालते हैं।
 
-Flexa की अपनी announcement Zcash integration को shielded ZEC से भुगतान के रूप में वर्णित करती है। Flexa किस address type पर प्राप्त करता है, यह कहीं प्रकाशित नहीं है।
+Flexa की अपनी घोषणा Zcash integration को शील्डेड ZEC से भुगतान के रूप में वर्णित करती है। Flexa को किस प्रकार का पता प्राप्त होता है, यह कहीं प्रकाशित नहीं है।
 
-शुल्क प्रति भुगतान 1% है, जिसमें conversion और custody बिना अतिरिक्त लागत के शामिल हैं।
+शुल्क प्रति भुगतान 1% है, जिसमें रूपांतरण और अभिरक्षा बिना अतिरिक्त लागत शामिल हैं।
 
-यह United States में और जुलाई 2026 से 37 SEPA देशों और क्षेत्रों में काम करता है। विशेष रूप से ZEC को यूरोप में खर्च किया जा सकता है या नहीं, यह नहीं बताया गया है।
+यह संयुक्त राज्य अमेरिका में और जुलाई 2026 से 37 SEPA देशों एवं क्षेत्रों में काम करता है। विशेष रूप से ZEC को यूरोप में खर्च किया जा सकता है या नहीं, यह घोषित नहीं है।
 
 **अंतिम सत्यापन:** 2026-07-29
 
 ---
 
-## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" class="processor-logo processor-logo-wide" />
-- **Support Type**: केवल Transparent
-- **Description**: NOWPayments एक crypto payment gateway है जो merchants को Zcash payments और donations आसानी से स्वीकार करने में सक्षम बनाता है।
+## [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) <img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments लोगो" class="processor-logo processor-logo-wide" />
+- **समर्थन प्रकार**: केवल पारदर्शी
+- **विवरण**: NOWPayments एक crypto भुगतान gateway है जो व्यापारियों को Zcash भुगतान और दान आसानी से स्वीकार करने देता है।
 - **URL**: [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments)
-<img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments logo" width="200" hidden />
+<img src="/content-images/nowpayments-wordmark.png" alt="NOWPayments लोगो" width="200" hidden />
 
-कोई shielded support नहीं। उनका documentation आपको Zcash के लिए transparent address सेट करने को कहता है, और ZEC एकमात्र coin है जिसे वे इस तरह अलग से बताते हैं। आपको मिलने वाला हर भुगतान blockchain पर सार्वजनिक होता है।
+कोई शील्डेड समर्थन नहीं। उनका दस्तावेज़ आपको Zcash के लिए एक पारदर्शी पता सेट करने को कहता है, और ZEC ही एकमात्र coin है जिसे वे इस तरह अलग से उल्लेखित करते हैं। आपको मिलने वाला हर भुगतान blockchain पर सार्वजनिक है।
 
-डिफ़ॉल्ट रूप से Non-custodial। उनके FAQ में कहा गया है कि वे धन संग्रहित नहीं करते और private keys कभी अपने पास नहीं रखते। एक optional custody balance है, इसलिए यदि आपको पूरी पुष्टि चाहिए तो अपने account settings जांच लें।
+डिफ़ॉल्ट रूप से गैर-अभिरक्षात्मक। उनके FAQ में कहा गया है कि वे धनराशि store नहीं करते और कभी private keys नहीं रखते। वैकल्पिक custody balance है, इसलिए यदि आपको निश्चित होना है तो अपनी account settings जाँचें।
 
-सीधे भुगतान के लिए शुल्क 0.5% है, या multi-currency, fixed-rate, या "fee paid by user" भुगतानों के लिए 1%, इसके ऊपर network fees अलग से।
+सीधे भुगतान के लिए शुल्क 0.5% है, या multi-currency, fixed-rate, अथवा "fee paid by user" भुगतानों के लिए 1% है, जिसमें नेटवर्क शुल्क अतिरिक्त है।
 
-जहाँ कानून इसे प्रतिबंधित नहीं करता वहाँ वैश्विक रूप से उपलब्ध। crypto स्वीकार करना शुरू करने के लिए KYC की जरूरत नहीं, केवल fiat withdraw करने के लिए।
-
-**अंतिम सत्यापन:** 2026-07-29
-
----
-
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
-- **Support Type**: Transparent (प्रलेखित नहीं)
-- **Description**: Plisio एक cryptocurrency payment gateway है जो businesses को Zcash payments स्वीकार करने देता है।
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
-<img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
-
-इसे custodial मानें। Plisio की marketing इसे non-custodial कहती है, लेकिन उसके अपने help pages platform पर रखे गए balances, cold storage और withdrawal process का वर्णन करते हैं। Non-custodial होने का दावा पुष्ट नहीं किया जा सका।
-
-Plisio कभी नहीं बताता कि वह कौन-से Zcash address types का उपयोग करता है, इसलिए जब तक कोई और पुष्टि न करे, transparent मानें।
-
-Wallet निःशुल्क है, gateway और API की लागत 0.5% है, और White Label 1.5% है। White Label उनकी hosted service का rebrand है, self-hosting नहीं।
-
-भुगतान प्राप्त करने के लिए KYC की जरूरत नहीं है, और प्रतिबंधित देशों की कोई सूची प्रकाशित नहीं है।
+जहाँ कानून निषिद्ध करता है, वहाँ को छोड़कर वैश्विक रूप से उपलब्ध। crypto स्वीकारना शुरू करने के लिए आपको KYC नहीं चाहिए, केवल fiat निकालने के लिए चाहिए।
 
 **अंतिम सत्यापन:** 2026-07-29
 
 ---
 
-## [Binance Pay](https://pay.binance.com/en) <img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" class="processor-logo" />
-- **Support Type**: केवल Transparent, shielded deposits अस्वीकृत
-- **Description**: Binance Pay एक cryptocurrency payment platform है जो Zcash payments का समर्थन करता है।
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio लोगो" class="processor-logo processor-logo-wide" />
+
+> **भुगतान निलंबित — 12 नवंबर 2026 को जाँचा गया।** Plisio का [homepage](https://plisio.net/) कहता है कि बहाली का काम चलने के दौरान आने वाले और जाने वाले भुगतान अस्थायी रूप से निलंबित हैं। धन भेजने से पहले प्रदाता से जाँच लें। इसका Zcash-विशिष्ट पृष्ठ वर्तमान में 404 लौटाता है; इससे यह सिद्ध नहीं होता कि ZEC को डीलिस्ट कर दिया गया है। नीचे दिए गए शुल्क, अभिरक्षा और पता-समर्थन विवरणों की अंतिम समीक्षा 29 जुलाई 2026 को हुई थी और इन्हें फिर से सत्यापित नहीं किया गया है।
+
+- **समर्थन प्रकार**: पारदर्शी (दस्तावेज़ीकृत नहीं)
+- **विवरण**: Plisio एक cryptocurrency भुगतान gateway है जिसने Zcash समर्थन सूचीबद्ध किया है। भुगतान प्रसंस्करण वर्तमान में निलंबित है; ऊपर दिनांकित सूचना देखें।
+- **URL**: [Plisio](https://plisio.net/)
+<img src="/content-images/plisio-wordmark.png" alt="Plisio लोगो" width="200" hidden />
+
+इसे अभिरक्षात्मक मानें। Plisio की मार्केटिंग इसे गैर-अभिरक्षात्मक कहती है, लेकिन इसके अपने help pages platform पर रखे balances, cold storage और withdrawal प्रक्रिया का वर्णन करते हैं। गैर-अभिरक्षात्मक दावे की पुष्टि नहीं हो सकी।
+
+Plisio कभी नहीं बताता कि वह किन Zcash पता प्रकारों का उपयोग करता है, इसलिए जब तक कोई अन्यथा पुष्टि न करे, इसे पारदर्शी मानें।
+
+wallet निःशुल्क है, gateway और API की लागत 0.5% है, और White Label की 1.5%। White Label उनकी होस्टेड सेवा का rebrand है, स्वयं-होस्टिंग नहीं।
+
+भुगतान प्राप्त करने के लिए आपको KYC की आवश्यकता नहीं है, और प्रतिबंधित देशों की कोई सूची प्रकाशित नहीं है।
+
+**अंतिम सत्यापन:** 2026-07-29
+
+---
+
+## [Binance Pay](https://pay.binance.com/en) <img src="/content-images/binancepay-mark.png" alt="Binance Pay लोगो" class="processor-logo" />
+- **समर्थन प्रकार**: केवल पारदर्शी, शील्डेड जमा अस्वीकृत
+- **विवरण**: Binance Pay एक cryptocurrency भुगतान प्लेटफ़ॉर्म है जो Zcash भुगतानों का समर्थन करता है।
 - **URL**: [Binance Pay](https://pay.binance.com/en)
-<img src="/content-images/binancepay-mark.png" alt="Binance Pay logo" width="200" hidden />
+<img src="/content-images/binancepay-mark.png" alt="Binance Pay लोगो" width="200" hidden />
 
-Binance shielded addresses से भेजे गए ZEC को अस्वीकार करता है। यही अस्वीकृति TEX addresses बनाए जाने का कारण थी।
+Binance शील्डेड पतों से भेजे गए ZEC को अस्वीकार करता है। वही अस्वीकृति TEX पतों के बनाए जाने का कारण है।
 
-यह पूरी तरह custodial है। भुगतान Binance Pay wallets के बीच off-chain चलते हैं, और आपको verified Binance account चाहिए।
+यह पूरी तरह अभिरक्षात्मक है। भुगतान Binance Pay wallets के बीच ऑफ-चेन होते हैं, और आपको सत्यापित Binance account चाहिए।
 
-Wallet-to-wallet transfers निःशुल्क हैं, merchant payouts की लागत 0.8% है जिसकी सीमा 5 USD तक है, और Mini Program merchants 1% देते हैं।
+wallet-से-wallet transfers निःशुल्क हैं, व्यापारी payout की लागत 0.8% है जो 5 USD तक सीमित है, और Mini Program व्यापारी 1% देते हैं।
 
-इस पर निर्भर होने से पहले अपने क्षेत्र में इसकी उपलब्धता जांच लें। Binance Pay कुछ देशों और industries में उपलब्ध नहीं है, 2023 से France, Spain, Italy और Poland के users के लिए ZEC delist किया जा चुका है, और MiCA के तहत EEA में सेवा बाधित हुई है।
+इस पर निर्भर होने से पहले अपने स्थान पर उपलब्धता जाँच लें। Binance Pay कुछ देशों और उद्योगों में उपलब्ध नहीं है, ZEC को 2023 से France, Spain, Italy और Poland के उपयोगकर्ताओं के लिए डीलिस्ट किया गया है, और MiCA के तहत EEA में सेवा बाधित हुई है।
 
 **अंतिम सत्यापन:** 2026-07-29
 
@@ -188,18 +215,18 @@ Wallet-to-wallet transfers निःशुल्क हैं, merchant payouts 
 
 ### अब ZEC स्वीकार नहीं करते
 
-इन दोनों को पहले यहाँ सूचीबद्ध किया गया था। 29 जुलाई 2026 को हर प्रदाता की अपनी live currency list जांची गई और Zcash दोनों से गायब है।
+ये दोनों पहले यहाँ सूचीबद्ध थे। 29 जुलाई 2026 को प्रत्येक प्रदाता की अपनी लाइव currency सूची जाँची गई और Zcash दोनों से हट चुका है।
 
-**CoinPayments** अपनी v2 coin list, legacy list, या live currencies API में ZEC को सूचीबद्ध नहीं करता, और उसका Zcash लेख अब homepage पर redirect होता है।
+**CoinPayments** अपनी v2 coin list, legacy list या live currencies API में ZEC सूचीबद्ध नहीं करता, और उसका Zcash article अब homepage पर redirect करता है।
 
-**CoinGate** अपने supported currencies page या public API में ZEC को सूचीबद्ध नहीं करता। किसी delisting की घोषणा नहीं की गई, इसलिए कारण और तिथि अज्ञात हैं।
+**CoinGate** अपने supported currencies पृष्ठ या public API में ZEC सूचीबद्ध नहीं करता। किसी डीलिस्टिंग की घोषणा नहीं हुई थी, इसलिए कारण और तिथि अज्ञात हैं।
 
-यदि इनमें से कोई Zcash को वापस लाता है, तो इसे नई verified date के साथ फिर जोड़ दें।
+यदि इनमें से कोई Zcash को वापस लाता है, तो इसे नई सत्यापित तिथि के साथ फिर जोड़ें।
 
-### इस पेज को सटीक बनाए रखना
+### इस पृष्ठ को सटीक बनाए रखना
 
-Privacy coin support बदलता रहता है, इसलिए यह पेज उतना ही अच्छा है जितनी इसकी आख़िरी जांच। जब आप इसकी समीक्षा करें:
+Privacy coin समर्थन बदलता रहता है, इसलिए यह पृष्ठ केवल अपनी अंतिम जाँच जितना ही अच्छा है। इसकी समीक्षा करते समय:
 
-1. प्रदाता की अपनी currency list या API जांचें। ऊपर हटाए गए दोनों processors के लिए third-party lists पुरानी निकली थीं।
-2. जांचें कि कौन-से Zcash address types समर्थित हैं। "Supports Zcash" का मतलब आमतौर पर केवल transparent addresses होता है।
-3. तालिका में और उस प्रदाता के section में verified date अपडेट करें।
+1. प्रदाता की अपनी currency सूची या API जाँचें। ऊपर हटाए गए दोनों प्रोसेसरों के लिए third-party सूचियाँ पुरानी थीं।
+2. जाँचें कि कौन-से Zcash पता प्रकार समर्थित हैं। "Zcash समर्थन करता है" का सामान्यतः अर्थ केवल पारदर्शी पते होता है।
+3. तालिका और उस प्रदाता के अनुभाग में सत्यापित तिथि अपडेट करें।

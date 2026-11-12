@@ -57,8 +57,8 @@ GrapheneOSでは、ネットワーク権限、センサー権限、デバイス�
 
 - 2GBの空きメモリと32GBの空きストレージ容量。
 - USBケーブル（AまたはC）
-- 対応オペレーティングシステム：Windows 10、Windows 11、macOS Big Sur（11 - 13）、Arch Linux、Debian（10 - 12）、Ubuntu（22.04、22.10、23.04）、ChromeOS、GrapheneOS、Google Android（標準Pixel OS）
-- 対応ブラウザ：Chromium（Ubuntuでは非対応）、Vanadium（GrapheneOS）、Google Chrome、Microsoft Edge、Brave Browser。
+- 対応するホストオペレーティングシステムと、WebUSBをサポートするブラウザを使用してください。対応バージョンとブラウザパッケージの制限については、現在の[公式WebUSB前提条件](https://grapheneos.org/install/web#prerequisites)を確認してください。サポートが終了した古いシステムは公式には対応していません。
+- ウェブインストーラーは、対応するAndroidデバイス、ChromeOS、またはGrapheneOSからも実行できます。すべてのChromiumパッケージがWebUSBをサポートしているとは限らないため、公式ガイドのブラウザ固有の注意事項に従ってください。
 
 以下のリンクからインストールガイドを確認し、インストールプロセスに従ってください
 
@@ -68,8 +68,8 @@ GrapheneOSでは、ネットワーク権限、センサー権限、デバイス�
 
 - 少なくとも2GBの空きメモリと32GBの空きストレージ容量が必要です
 - USBケーブル（AまたはC）
-- 対応オペレーティングシステム：Windows 10、Windows 11、macOS Big Sur（11）、macOS Monterey（12）、macOS Ventura（13）、Arch Linux、Debian 10（buster）、Debian 11（bullseye）、Debian 12（bookworm）、Ubuntu 20.04 LTS、Ubuntu 22.04 LTS、Ubuntu 22.10、Ubuntu 23.04
-- Android、ChromeOS、またはGrapheneOSのWebインストーラー
+- [現在のコマンドライン前提条件](https://grapheneos.org/install/cli#prerequisites)でサポートされているホストオペレーティングシステムを使用し、必要なツールについてはそのガイドに従ってください。
+- Android、ChromeOS、GrapheneOSのホストではWebインストーラーを使用してください。これらはサポート対象のコマンドラインインストールホストとしては記載されていません。
 
 以下のリンクからインストールガイドを確認し、インストールプロセスに従ってください 
 
@@ -89,7 +89,7 @@ GrapheneOSでは、ネットワーク権限、センサー権限、デバイス�
 
 **安全なロック画面** 不正アクセスを防ぐため、PIN、パスワード、生体認証などの安全なロック画面を使用してください。
 
-**Androidデバイスのルート化を避ける** ルート化やブートローダーのロック解除はデバイスのセキュリティを弱める可能性があるため、避けてください。
+**インストール後にブートローダーを再ロックする** 公式のインストール手順では、完全な検証済みブートを有効にするため、[ブートローダーを一時的にアンロックする](https://grapheneos.org/install/web#unlocking-the-bootloader)ことでGrapheneOSをフラッシュし、その後、使用前に[再びロックする](https://grapheneos.org/install/web#locking-the-bootloader)必要があります。アンロックと再ロックはいずれもすべてのユーザーデータを消去するため、まずバックアップを取り、公式の手順を順番に従ってください。インストールしたオペレーティングシステムをルート化しないでください。
 
 **アプリの入手元を確認する** 悪意のあるソフトウェアのインストールを避けるため、アプリとその入手元の信頼性を確認してください。
 

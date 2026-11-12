@@ -57,8 +57,8 @@ Wie im Abschnitt zu den Best Practices beschrieben, wird empfohlen, den empfohle
 
 - 2GB freier Arbeitsspeicher und 32GB freier Speicherplatz.
 - USB-Kabel (A oder C)
-- Unterstütztes Betriebssystem : Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 and 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Unterstützte Browser: Chromium (unter Ubuntu nicht unterstützt), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- Verwende ein unterstütztes Host-Betriebssystem und einen Browser mit funktionierender WebUSB-Unterstützung. Prüfe die aktuellen [offiziellen WebUSBVoraussetzungen](https://grapheneos.org/install/web#prerequisites) auf unterstützte Versionen und Einschränkungen bei Browser-Paketen; ältere Systeme, deren Lebenszyklus beendet ist, werden offiziell nicht unterstützt.
+- Der Web-Installer kann auch auf einem unterstützten Android-Gerät, ChromeOS oder GrapheneOS ausgeführt werden. Befolge die browserspezifischen Hinweise im offiziellen Leitfaden, statt davon auszugehen, dass jedes Chromium-Paket WebUSB unterstützt.
 
 Sehen Sie sich den Installationsleitfaden über den untenstehenden Link an und folgen Sie dem Installationsprozess
 
@@ -68,8 +68,8 @@ Sehen Sie sich den Installationsleitfaden über den untenstehenden Link an und f
 
 - Sie sollten mindestens 2GB freien Arbeitsspeicher und 32GB freien Speicherplatz zur Verfügung haben
 - USB-Kabel (A oder C)
-- Unterstütztes Betriebssystem Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Web Installer von Android, ChromeOS oder GrapheneOS
+- Verwenden Sie ein Hostbetriebssystem, das von den [aktuellen Voraussetzungen für die Befehlszeile](https://grapheneos.org/install/cli#prerequisites) unterstützt wird, und befolgen Sie diese Anleitung für die erforderlichen Tools.
+- Android-, ChromeOS- und GrapheneOS-Hosts sollten den Web Installer verwenden; sie sind nicht als unterstützte Hosts für die Befehlszeileninstallation aufgeführt.
 
 Sehen Sie sich den Installationsleitfaden über den untenstehenden Link an und folgen Sie dem Installationsprozess 
 
@@ -89,7 +89,7 @@ Sehen Sie sich den Installationsleitfaden über den untenstehenden Link an und f
 
 **Sicherer Sperrbildschirm** Verwenden Sie einen sicheren Sperrbildschirm, wie etwa eine PIN, ein Passwort oder biometrische Authentifizierung, um unbefugten Zugriff zu verhindern.
 
-**Vermeiden Sie das Rooten Ihres Android-Geräts** Vermeiden Sie das Rooten oder Entsperren des Bootloaders, da dies die Gerätesicherheit schwächen kann.
+**Sperren Sie den Bootloader nach der Installation wieder** Der offizielle Installationsprozess erfordert, [den Bootloader vorübergehend zu entsperren](https://grapheneos.org/install/web#unlocking-the-bootloader), um GrapheneOS zu flashen, und ihn dann [vor der Verwendung wieder zu sperren](https://grapheneos.org/install/web#locking-the-bootloader), um vollständiges Verified Boot zu aktivieren. Durch das Entsperren und erneute Sperren werden jeweils alle Nutzerdaten gelöscht. Erstellen Sie daher zuerst ein Backup und befolgen Sie die offiziellen Schritte in der angegebenen Reihenfolge. Rooten Sie das installierte Betriebssystem nicht.
 
 **Überprüfen Sie App-Quellen** Überprüfen Sie die Echtheit von Apps und ihrer Quellen, um die Installation bösartiger Software zu vermeiden.
 

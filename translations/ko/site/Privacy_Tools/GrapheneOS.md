@@ -55,10 +55,10 @@ GrapheneOS에서는 네트워크 권한, 센서 권한 또는 기기 잠금 상�
 
 **웹 USB 기반 설치** 웹 인스톨러 방법을 사용하여 GrapheneOS를 설치하려면 일반적으로 다음과 같은 자원과 물품이 필요합니다:
 
-- 2GB의 자유 메모리 및 32GB의 자유 저장 공간.
+- 2GB의 여유 메모리 및 32GB의 여유 저장 공간.
 - USB 케이블(A 또는 C)
-- 지원되는 운영체제: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 및 23.04), ChromeOS, GrapheneOS, Google Android (스토크 Pixel OS)
-- 지원되는 브라우저: Chromium(ubuntu에서는 지원되지 않음), Vanadium(GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- 정상적으로 작동하는 WebUSB 지원 기능을 갖춘 지원 호스트 운영체제와 브라우저를 사용하세요. 지원되는 버전 및 브라우저 패키징 제한 사항은 최신 [공식 WebUSB 사전 요구 사항](https://grapheneos.org/install/web#prerequisites)을 확인하세요. 지원 종료된 이전 시스템은 공식적으로 지원되지 않습니다.
+- 웹 설치 프로그램은 지원되는 Android 기기, ChromeOS 또는 GrapheneOS에서도 실행할 수 있습니다. 모든 Chromium 패키지가 WebUSB을 지원한다고 가정하지 말고, 공식 가이드의 브라우저별 참고 사항을 따르세요.
 
 아래 링크를 통해 설치 가이드를 확인하고 설치 절차를 따르세요
 
@@ -66,10 +66,10 @@ GrapheneOS에서는 네트워크 권한, 센서 권한 또는 기기 잠금 상�
 
 **명령줄 설치** 명령줄 설치는 기술적으로 익숙하지 않은 사용자에게는 권장되지 않으며, 아래 도구 및 자원이 명령줄 설치에 필요합니다.
 
-- 최소 2GB의 자유 메모리와 32GB의 자유 저장 공간을 확보해야 합니다.
+- 최소 2GB의 여유 메모리와 32GB의 여유 저장 공간을 확보해야 합니다.
 - USB 케이블(A 또는 C)
-- 지원되는 운영체제: Windows 10, Windows 11, macOS Big Sur (11), macOS Monterey (12), macOS Ventura (13), Arch Linux, Debian 10 (buster), Debian 11 (bullseye), Debian 12 (bookworm), Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 22.10, Ubuntu 23.04
-- Android, ChromeOS 또는 GrapheneOS에서의 웹 인스톨러
+- [현재 명령줄 사전 요구 사항](https://grapheneos.org/install/cli#prerequisites)에서 지원하는 호스트 운영체제를 사용하고, 필요한 도구는 해당 가이드를 따르세요.
+- Android, ChromeOS 및 GrapheneOS 호스트는 웹 인스톨러를 사용해야 하며, 지원되는 명령줄 설치 호스트로는 나열되지 않습니다.
 
 아래 링크를 통해 설치 가이드를 확인하고 설치 절차를 따르세요 
 
@@ -89,7 +89,7 @@ GrapheneOS에서는 네트워크 권한, 센서 권한 또는 기기 잠금 상�
 
 **보안 잠금 화면 사용** PIN, 비밀번호 또는 생체 인증과 같은 보안 잠금 화면을 사용하여 무단 접근을 방지하세요.
 
-**Android 기기 루팅 피하기** 기기를 루팅하거나 부트로더의 잠금을 해제하지 마세요. 이는 기기 보안을 약화시킬 수 있습니다.
+**설치 후 부트로더 다시 잠그기** 공식 설치 과정에서는 완전한 검증 부팅을 활성화하기 위해 [부트로더를 일시적으로 잠금 해제하여](https://grapheneos.org/install/web#unlocking-the-bootloader) GrapheneOS를 플래시한 뒤, [사용 전에 다시 잠가야 합니다](https://grapheneos.org/install/web#locking-the-bootloader). 잠금 해제와 재잠금은 각각 모든 사용자 데이터를 삭제하므로, 먼저 백업하고 공식 단계를 순서대로 따르세요. 설치된 운영체제를 루팅하지 마세요.
 
 **앱 출처 확인** 앱과 그 출처의 진위를 확인하여 악성 소프트웨어 설치를 방지하세요.
 

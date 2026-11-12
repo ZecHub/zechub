@@ -20,7 +20,7 @@ YubiKey जैसी hardware security keys के साथ, आपको ब�
 
 ## हार्डवेयर सुरक्षा कुंजी उपयोग करने के क्या लाभ हैं?
 
-हार्डवेयर सुरक्षा कुंजियाँ पारंपरिक password-आधारित authentication methods की तुलना में कई लाभ प्रदान करती हैं। इन पर हमला करना passwords की तुलना में कहीं अधिक कठिन होता है, क्योंकि passwords को brute force, social engineering या phishing attacks के माध्यम से आसानी से समझौता किया जा सकता है। सुरक्षा कुंजियाँ हर बार उपयोग होने पर एक unique code उत्पन्न करती हैं, जिससे हमलावरों के लिए उस code का अनुमान लगाना या उसकी नकल करना लगभग असंभव हो जाता है। इन्हें उपयोग करना और configure करना भी आसान है, और आपके डिवाइस पर किसी अतिरिक्त software या drivers को install करने की आवश्यकता नहीं होती।
+FIDO U2F या FIDO2/WebAuthn के साथ उपयोग किए जाने पर, हार्डवेयर सुरक्षा कुंजी आपके टाइप करने के लिए code उत्पन्न करने के बजाय एक नई चुनौती पर हस्ताक्षर करके प्रमाणीकरण करती है। सेवा public key रखती है, जबकि private key authenticator पर ही रहती है। credentials सेवा तक सीमित होते हैं, और browser phishing से बचाव के लिए relying party की पहचान की जाँच करता है। ये लाभ FIDO authentication का वर्णन करते हैं, न कि उन सभी तरीकों का जिनका बहु-protocol कुंजी समर्थन कर सकती है। जाँच लें कि आपकी सेवा, browser, डिवाइस और connection type उस तरीके का समर्थन करते हैं जिसे आप उपयोग करना चाहते हैं। [Yubico का WebAuthn परिचय](https://developers.yubico.com/WebAuthn/) और [FIDO2/WebAuthn developer guide](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/) देखें।
 
 ## क्या हार्डवेयर सुरक्षा कुंजियाँ सभी डिवाइसों और operating systems के साथ compatible होती हैं?
 

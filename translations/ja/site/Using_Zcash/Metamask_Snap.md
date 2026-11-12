@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # MetaMask Zcash Snap 統合ガイド
+
+> MetaMaskブラウザ拡張機能から、ChainSafeのZcash SnapおよびWebZjsウェブウォレットを使用して、シールドされた（shielded）ZECを保有・送信できます。
+
+## 要約
+
+* ChainSafe Zcash Snapは、デスクトップ（Chrome、Edge、Firefox）上のMetaMaskにシールドされた（shielded）ZECを追加します。Zcash専用のソフトウェアは必要ありません。
+* Zcashキーは、MetaMaskのリカバリーフレーズから導出されます。この1つのフレーズが、現在ではETHとZECの両方を保護します。
+* ZECは、MetaMask自身の資産リストではなく、webzjs.chainsafe.devにあるWebZjsウォレットを通じて管理します。
+* アカウントには統合アドレス（address）が付与されるため、送信者は対応している中で最もプライバシー（privacy）の高いプール（pool）で支払います。
+* ETHからZECへのスワップ（swap）を行うか、取引所（exchange）からZECをシールドされたアドレスへ出金して資金を入れます。
+* 復元：MetaMaskとSnapを再インストールしてから、既存のリカバリーフレーズをインポートします。
+
+## 基本的な説明
+
+MetaMask Snapは、MetaMaskに新しいブロックチェーン（blockchain）を認識させる、小規模でサンドボックス化されたアドオンです。ChainSafeが開発し、Hackenが監査したZcash Snapにより、MetaMaskは既存のリカバリーフレーズからZcashキーを導出し、Zcashトランザクション（transactions）に署名できます。
+
+MetaMask自体にはZECの残高は表示されません。代わりに、WebZjsウェブウォレットがSnapに接続し、lightwalletdサーバーを介してZcashネットワークと同期して、あなたのアドレスと残高を表示します。シールドされたproof（Shielded proofs）はWebAssemblyを使用してブラウザ内で計算されるため、送信には少し時間がかかることがあります。
+
+以下の手順では、Snapのインストール、WebZjsの接続、ウォレット（wallet）への資金の入金、送受信、および統合アドレス（unified address）の構成要素の確認について説明します。
+
+## 完全ガイド
 
 完全な手順と視覚的な解説については、こちらの[**YouTubeガイド**](https://www.youtube.com/watch?v=UJh9Ilkohdw)をご覧ください。 
 

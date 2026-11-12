@@ -57,8 +57,8 @@ GrapheneOS कुछ विशेष सुविधाओं के लिए �
 
 - 2GB free memory और 32GB free storage space।
 - USB Cable (A या C)
-- Supported Operating System : Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 and 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Supported Browsers: Chromium (Ubuntu के साथ supported नहीं), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser।
+- समर्थित host operating system और कार्यरत WebUSB support वाले browser का उपयोग करें। समर्थित versions और browser packaging restrictions के लिए वर्तमान [official WebUSB prerequisites](https://grapheneos.org/install/web#prerequisites) देखें; पुराने end-of-life systems आधिकारिक रूप से समर्थित नहीं हैं।
+- वेब installer समर्थित Android device, ChromeOS या GrapheneOS से भी चल सकता है। हर Chromium package द्वारा WebUSB support किए जाने का अनुमान लगाने के बजाय आधिकारिक guide में browser-specific notes का पालन करें।
 
 नीचे दिए गए लिंक के माध्यम से installation Guide देखें और installation process का पालन करें
 
@@ -68,8 +68,8 @@ GrapheneOS कुछ विशेष सुविधाओं के लिए �
 
 - आपके पास कम से कम 2GB free memory और 32GB free storage space उपलब्ध होना चाहिए
 - USB Cable (A या C)
-- Supported Operating System Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Android, ChromeOS या GrapheneOS से Web Installer
+- [वर्तमान command-line आवश्यकताओं](https://grapheneos.org/install/cli#prerequisites) द्वारा समर्थित host operating system का उपयोग करें, और आवश्यक tools के लिए उस guide का पालन करें।
+- Android, ChromeOS और GrapheneOS hosts को web installer का उपयोग करना चाहिए; वे समर्थित command-line installation hosts के रूप में सूचीबद्ध नहीं हैं।
 
 नीचे दिए गए लिंक के माध्यम से installation Guide देखें और installation process का पालन करें 
 
@@ -89,7 +89,7 @@ GrapheneOS कुछ विशेष सुविधाओं के लिए �
 
 **Secure Lock Screen** अनधिकृत पहुँच को रोकने के लिए एक सुरक्षित lock screen का उपयोग करें, जैसे PIN, password, या biometric authentication।
 
-**Avoid Rooting Your Android Device** अपने Android डिवाइस को root करने या bootloader unlock करने से बचें, क्योंकि इससे डिवाइस की सुरक्षा कमज़ोर हो सकती है।
+**इंस्टॉलेशन के बाद Bootloader को फिर से लॉक करें** आधिकारिक इंस्टॉलेशन प्रक्रिया में [bootloader को अस्थायी रूप से unlock करना](https://grapheneos.org/install/web#unlocking-the-bootloader) आवश्यक है ताकि GrapheneOS को flash किया जा सके, फिर पूर्ण verified boot सक्षम करने के लिए उपयोग से पहले [इसे फिर से लॉक करना](https://grapheneos.org/install/web#locking-the-bootloader) आवश्यक है। unlock करने और फिर से लॉक करने पर हर बार सभी user data मिट जाते हैं, इसलिए पहले backup लें और आधिकारिक चरणों का क्रम से पालन करें। इंस्टॉल किए गए operating system को root न करें।
 
 **Verify App Sources** apps और उनके sources की प्रामाणिकता की जाँच करें ताकि malicious software install करने से बचा जा सके।
 

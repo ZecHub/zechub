@@ -13,8 +13,8 @@ RedBridge підтримує широкий спектр сценаріїв ви
 
 ### Технічні компоненти
 
-**Децентралізований оракул ZavaX**
-Опис: оракул ZavaX є ключовим елементом мосту, забезпечуючи міжланцюгові цінові фіди та уможливлюючи довірчо-незалежні конвертації ZEC в AVAX.
+**Децентралізований ZavaX Oracle**
+Опис: ZavaX Oracle є ключовим для мосту, забезпечуючи міжланцюгові цінові фіди та уможливлюючи довірчо-незалежну конвертацію ZEC у AVAX.
 [Посилання на оракул](https://zavax-oracle.red.dev)
 
 **Контракт міжланцюгового мосту**
@@ -25,20 +25,20 @@ RedBridge підтримує широкий спектр сценаріїв ви
 
 ## Результати та документація
 
-**Zcash Elastic Subnet Bridge on Avalanche**: [Грантова пропозиція](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Zcash Elastic Subnet Bridge on Avalanche**: [Грантова пропозиція](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Нижче наведено ключові результати та технічні ресурси, завершені для проєкту Zcash Avalanche RedBridge:
 
-Результат 1.1: Попередній PoC, який підтримує запити до testnet-транзакцій Zcash із testnet-підмережі Avalanche через CLI, опублікований на GitHub, а також із одно-вузловою підмережею в testnet Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Результат 1.1: Попередній PoC, який підтримує запити до testnet-транзакцій Zcash із testnet-підмережі Avalanche через CLI, опублікований на GitHub, а також із одновузловою підмережею в testnet Avalanche. https://github.com/red-dev-inc/redbridge-oracle
 
-Результат 2.1: [Архітектура](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Результат 2.1: [Архітектура](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Етап 3 31 березня 2024
 
 Результат 3.1 завершено; у ньому представлено наш аналіз щодо використання FROST замість BLS для порогових підписів у мосту ZavaX. Ця зміна використовує аудитовані бібліотеки від Zcash Foundation і сприяє кращій інтеграції та безпеці. https://github.com/ZcashFoundation/frost
 
-Результат 3.2 UX та UI дизайн для GUI завершено, із детальним описом наших покращень безпеки для підмережі оракула ZavaX, підтверджених результатами тестування на проникнення. Для отримання додаткової інформації, зокрема щодо конфігурації сервера та результатів тестування, див. [Оцінка безпеки](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Звіт аудиту](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Результат 3.2 UX та UI дизайн для GUI завершено, із детальним описом наших покращень безпеки для підмережі ZavaX Oracle, підтверджених результатами тестування на проникнення. Для отримання додаткової інформації, зокрема щодо конфігурації сервера та результатів тестування, див. [Оцінка безпеки](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Звіт аудиту](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Крім того, команда провела ребрендинг із ZavaX на redbridge і змінила наш токен стейкінгу із ZAX на RBR.
 
 ### Етап 4 30 квітня 2024
@@ -51,9 +51,9 @@ RedBridge підтримує широкий спектр сценаріїв ви
 Результат 6.1 Успішне проходження аудиту програмного забезпечення
 Результат 6.2 Публікація аудитованого вихідного коду в публічному репозиторії GitHub
 
-Погляньте на [репозиторій GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Ознайомтеся з [репозиторієм GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Для отримання додаткових технічних деталей користувачам рекомендується переглянути репозиторій і документацію проєкту RedBridge, щоб [ознайомитися](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) зі специфікою інтеграції, фреймворками тестування та протоколами безпеки.
+Для отримання додаткових технічних деталей користувачам рекомендується переглянути репозиторій і документацію проєкту RedBridge, щоб [ознайомитися](https://github.com/red-dev-inc/red-bridge) зі специфікою інтеграції, фреймворками тестування та протоколами безпеки.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

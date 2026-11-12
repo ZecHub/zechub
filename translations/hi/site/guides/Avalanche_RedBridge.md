@@ -25,20 +25,20 @@ Support for DeFi and DApps: Zcash धारक अब privacy से समझ�
 
 ## Deliverables and Documentation
 
-**Avalanche पर Zcash Elastic Subnet Bridge**: [Grant Proposal](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
-नीचे Zcash Avalanche RedBridge project के लिए पूर्ण किए गए प्रमुख deliverables और technical resources दिए गए हैं:
+**Avalanche पर Zcash Elastic Subnet Bridge**: [अनुदान प्रस्ताव](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
+नीचे Zcash Avalanche RedBridge परियोजना के लिए पूर्ण किए गए प्रमुख डिलिवरेबल्स और तकनीकी संसाधन दिए गए हैं:
 
-Deliverable 1.1: प्रारंभिक PoC जो testnet Avalanche subnet से एक CLI के माध्यम से testnet Zcash transactions को query करने का समर्थन करता है, GitHub पर प्रकाशित, और Avalanche testnet पर one node subnet के साथ। https://github.com/red-dev-inc/zavax-oracle
+डिलिवरेबल 1.1: प्रारंभिक PoC जो CLI के माध्यम से testnet Avalanche सबनेट से testnet Zcash ट्रांज़ैक्शनों को क्वेरी करने का समर्थन करता है, GitHub पर प्रकाशित है, और Avalanche testnet पर एक नोड सबनेट के साथ है। https://github.com/red-dev-inc/redbridge-oracle
 
-Deliverable 2.1: [Architecture](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+डिलिवरेबल 2.1: [Architecture](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Milestone 3 March 31, 2024
 
 Deliverable 3.1 पूर्ण हो चुका है, जिसमें ZavaX bridge में threshold signatures के लिए BLS की बजाय FROST अपनाने पर हमारा विश्लेषण प्रस्तुत किया गया है। यह बदलाव Zcash Foundation की audited libraries का लाभ उठाता है और बेहतर integration तथा security को सक्षम बनाता है। https://github.com/ZcashFoundation/frost
 
-Deliverable 3.2 GUI के लिए UX और UI design पूर्ण हो चुका है, जिसमें ZavaX Oracle subnet के लिए हमारे security enhancements का विवरण दिया गया है, जिन्हें penetration testing results का समर्थन प्राप्त है। अधिक जानकारी के लिए, जिसमें server configuration और testing outcomes शामिल हैं, देखें [Security Assesment](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Audit Report](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Deliverable 3.2 GUI के लिए UX और UI डिज़ाइन पूर्ण हो चुका है, जिसमें ZavaX Oracle subnet के लिए हमारे सुरक्षा संवर्द्धनों का विवरण दिया गया है, जिन्हें penetration testing results का समर्थन प्राप्त है। अधिक जानकारी के लिए, जिसमें server configuration और testing outcomes शामिल हैं, देखें [सुरक्षा आकलन](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[ऑडिट रिपोर्ट](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 इसके अतिरिक्त, टीम ने ZavaX से redbridge के रूप में rebrand किया और अपने staking token को ZAX से RBR में बदल दिया।
 
 ### Milestone 4 April 30, 2024
@@ -51,9 +51,9 @@ Milestone 6 June 30, 2024
 Deliverable 6.1 software audit का सफलतापूर्वक पास होना
 Deliverable 6.2 audited source code को एक public GitHub repo में प्रकाशित करना
 
-[GitHub repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) पर एक नज़र डालें
+[GitHub repo](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture) पर एक नज़र डालें
   
-अधिक technical details के लिए, उपयोगकर्ताओं को RedBridge project के repository और documentation की समीक्षा करने के लिए प्रोत्साहित किया जाता है ताकि वे integration specifics, testing frameworks, और security protocols को [explore](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) कर सकें।
+अधिक तकनीकी विवरणों के लिए, उपयोगकर्ताओं को RedBridge परियोजना के रिपॉज़िटरी और दस्तावेज़ों की समीक्षा करने के लिए प्रोत्साहित किया जाता है ताकि वे एकीकरण की बारीकियों, परीक्षण फ्रेमवर्कों और सुरक्षा प्रोटोकॉल का [अन्वेषण](https://github.com/red-dev-inc/red-bridge) कर सकें।
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

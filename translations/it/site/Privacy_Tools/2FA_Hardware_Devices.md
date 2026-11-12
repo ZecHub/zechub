@@ -20,7 +20,7 @@ Con le chiavi di sicurezza hardware come la YubiKey, basta inserire la chiave ha
 
 ## Quali sono i vantaggi dell'uso di una chiave di sicurezza hardware?
 
-Le chiavi di sicurezza hardware offrono diversi vantaggi rispetto ai metodi di autenticazione tradizionali basati su password. Sono molto più difficili da attaccare delle password, che possono essere facilmente compromesse tramite forza bruta, ingegneria sociale o attacchi di phishing. Le chiavi di sicurezza generano un codice univoco ogni volta che vengono usate, rendendo quasi impossibile per gli attaccanti prevedere o replicare il codice. Sono inoltre facili da usare e configurare e non richiedono l'installazione di alcun software o driver aggiuntivo sul tuo dispositivo.
+Quando viene usata con FIDO U2F o FIDO2/WebAuthn, una chiave di sicurezza hardware autentica firmando una nuova challenge, anziché generare un codice da digitare. Il servizio conserva una chiave pubblica, mentre la chiave privata rimane sull'autenticatore. Le credenziali sono limitate al servizio e il browser verifica l'identità della relying party per contrastare il phishing. Questi vantaggi descrivono l'autenticazione FIDO, non tutti i metodi che una chiave multi-protocollo può supportare. Verifica che il servizio, il browser, il dispositivo e il tipo di connessione supportino il metodo che intendi usare. Consulta [l'introduzione di Yubico a WebAuthn](https://developers.yubico.com/WebAuthn/) e la guida per sviluppatori di [FIDO2/WebAuthn](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## Le chiavi di sicurezza hardware sono compatibili con tutti i dispositivi e sistemi operativi?
 
