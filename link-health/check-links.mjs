@@ -310,7 +310,18 @@ async function checkExternal(url) {
     if (r.status === 405 || r.status === 403 || r.status === 501) r = await attempt("GET");
 
     if (r.status >= 200 && r.status < 300) return { state: "ok", status: r.status };
-    if (r.status >= 300 && r.status < 400) return { state: "redirect", status: r.status, to: r.location };
+    if (r.status >= 300 && r.status < 400) {
+      // Signed-out GitHub edit links lead to login, not a new content location.
+      // Keep them unverified instead of advising replacement with /login.
+      try {
+        const from = new URL(url);
+        const to = new URL(r.location, from);
+        if (from.origin === "https://github.com" && to.origin === from.origin && to.pathname === "/login") {
+          return { state: "blocked", status: r.status, detail: "GitHub login required" };
+        }
+      } catch { /* Keep malformed locations in the existing redirect report. */ }
+      return { state: "redirect", status: r.status, to: r.location };
+    }
     if (BLOCKED.has(r.status)) {
       // Retry-After in seconds only; the HTTP-date form is rare and ignored.
       const wait = /^\d+$/.test(String(r.retryAfter ?? "").trim()) ? Number(r.retryAfter) : null;

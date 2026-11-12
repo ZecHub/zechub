@@ -23,6 +23,10 @@ are skipped, since those are examples rather than live links.
 | Redirects | 3xx, worth pointing at the final destination |
 | Duplicate URLs | The same external link repeated within one page |
 
+GitHub links that redirect to GitHub's sign-in page are also reported as
+**Could not verify**. Keep an "Edit this page" link pointed at its edit target:
+the sign-in redirect does not mean the content moved.
+
 Rate limits (429), server errors (5xx) and network failures from the fast sweep
 get one more probe at the end, one request at a time per host with a pause
 before each (longer if the host sends `Retry-After`, capped at 30 seconds), so
