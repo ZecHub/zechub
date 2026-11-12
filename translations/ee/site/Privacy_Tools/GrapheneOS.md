@@ -57,8 +57,8 @@ Abe ale si woƒo nu tsoe le nɔnɔme nyuitɔ ƒe akpa me ene la, woɖe eŋu be w
 
 - Memory bliboa 2GB kple storage ƒe teƒe bliboa 32GB.
 - USB Cable (A alo C)
-- Operating System siwo wodea alɔ: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 kple 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Browser siwo wodea alɔ: Chromium (womedea alɔ le Ubuntu dzi o), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- Zã host operating system si wodea alɔ kple browser si ƒe WebUSB ƒe taage naa dɔ. Kpɔ [official WebUSB ƒe hiãhiãwo ](https://grapheneos.org/install/web#prerequisites) le fifia be nànya version siwo wodea alɔ kple browser ƒe package ƒe dɔxɔsewo; system xoxowo siwo ƒe agbe nu va yi la, womedea alɔ kple dziƒo o.
+- Web installer la hã ate ŋu adu du tso Android mɔ̃ si wodea alɔ, ChromeOS alo GrapheneOS dzi. Di browser sia tɔ ƒe nɔnɔmetatawo yome le guide officiel la me, eye mègabu be Chromium ƒe package ɖe sia ɖe ƒe WebUSB taage le o.
 
 Kpɔ installation Guide la to link si le ete la dzi, eye nàto installation ƒe mɔnu la me
 
@@ -68,8 +68,8 @@ Kpɔ installation Guide la to link si le ete la dzi, eye nàto installation ƒe 
 
 - Ele be memory bliboa 2GB kple storage ƒe teƒe bliboa 32GB nanɔ asiwò
 - USB Cable (A alo C)
-- Operating System siwo wodea alɔ Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Web Installer tso Android, ChromeOS alo GrapheneOS
+- Zã host operating system siwo [wodea alɔ le command-line ƒe nuƒoƒo siwo hiã fifia me](https://grapheneos.org/install/cli#prerequisites), eye nàdze ɖe mɔfiame ma yome akpɔ dɔwɔnu siwo hiã la.
+- Android, ChromeOS kple GrapheneOS hosts la nàzã web installer; womede wo ƒe ŋkɔ o be wodea alɔ wo abe command-line ƒe installation hosts ene.
 
 Kpɔ installation Guide la to link si le ete la dzi, eye nàto installation ƒe mɔnu la me 
 
@@ -89,7 +89,7 @@ Kpɔ installation Guide la to link si le ete la dzi, eye nàto installation ƒe 
 
 **Xɔtutu Screen Si Dedie** Zã xɔtutu screen si dedie, abe PIN, nyagbegbe, alo biometric authentication ene, be nàxe mɔ na mɔkpɔmɔkpɔ si me mɔɖeɖe mele o.
 
-**Mègawɔ Root Na Wò Android Device O** Mègawɔ root alo mègavɔ bootloader la o, elabena esia ate ŋu ana device ƒe dedienyenye nasẽ o.
+**Tɔ Bootloader La Gbegbe Le Installation Megbe** Installation ƒe mɔnu si nye official la bia be wòa[vɔ bootloader la ƒe ɣeyiɣi vi aɖe ko](https://grapheneos.org/install/web#unlocking-the-bootloader) be wòaflash GrapheneOS, eye emegbe wòa[tɔe gagbɔŋutɔ hafi wòazãe](https://grapheneos.org/install/web#locking-the-bootloader) be verified boot bliboa nadzɔ. Vɔvɔ kple tɔtɔ siawo fũa zãlawo ƒe data katã, eyata wɔ backup gbã eye nàwɔ official ƒe afɔwo le wo ƒe ɖoɖo nu. Mègawɔ root na operating system si woɖoe o.
 
 **Ɖe App Ƒe Dzɔƒewo Ɖe Edzi** Ɖe appwo kple woƒe dzɔƒewo ƒe nyateƒe ɖe edzi be nàxe mɔ na software vɔ̃ ƒe installation.
 

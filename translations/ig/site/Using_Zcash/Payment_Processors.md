@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
-# Zcash Ndị na-ahazi Kwụọ ụhwọ
+# Ndị na-ahazi Kwụọ ụhwọ Zcash
 
-Ụzọ ndị ahịa si anabata ZEC, tụnyere ibe ha n'akụkụ. E nyochara ntinye ọ bụla megide saịtị na API nke onye na-eweta ya n'onwe ya na **29 Julaị 2026**.
+Ụzọ ndị ahịa si anabata ZEC, tụnyere ibe ha n'akụkụ. E nyochara ntinye ọ bụla megide saịtị na API nke onye na-eweta ya n'onwe ya na **29 Julaị 2026**, ewezuga Zcash Payment Service, nke agbakwunyere na **1 Novemba 2026**.
 
 Nkwado maka akụ Nzuzo na-agbanwe ugboro ugboro, ya mere ahịrị ọ bụla nwere ụbọchị nyochara nke ya. Ọ bụrụ na ị na-agụ nke a ọnwa ole na ole ka e mesịrị, lelee saịtị onye na-eweta ya tupu ị jikọta ya.
 
@@ -14,10 +14,11 @@ Nkwado maka akụ Nzuzo na-agbanwe ugboro ugboro, ya mere ahịrị ọ bụla n
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Ọ bụghị Onye nlekota | Ee, Orchard site na Unified Addresses | Ee, open source | 1% maka Kwụọ ụhwọ ọ bụla, n'efu ma ọ bụrụ na ịnabata ya n'onwe gị | Enweghị KYC, ekwughị mpaghara | 2026-07-29 |
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Ọ bụghị Onye nlekota, naanị view key | Ee, naanị nke e chebere echebe (Sapling, Orchard, UA) | Ee, open source | Ọ dịghị, ị na-akwụ naanị ugwo netwọk | Ụwa niile, enweghị KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | Ọ bụghị Onye nlekota, naanị incoming view key | Ee, naanị nke e chebere echebe (Sapling na Orchard) | Ee, naanị ịnabata onwe gị, open source | Ọ dịghị, ị na-akwụ naanị ugwo netwọk | Enweghị akaụntụ, enweghị KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | Ọ bụghị Onye nlekota | Ee, Sapling na Orchard | Mba, ọrụ anabatara | Oge a kwụrụ tupu oge eruo, ebipụtaghị ọnụahịa | Ekwughị enweghị KYC, ekwughị mpaghara | 2026-07-29 |
-| [Flexa](https://flexa.co/) | Onye ahịa na-elekọta onwe ya, onye azụmaahịa na-anata ego fiat | Onye ahịa na-emefu nke e chebere echebe, edeghị akụkụ na-anata ihe | Mba | 1% maka Kwụọ ụhwọ ọ bụla | US na mba SEPA 37, ZEC na EU ekwenyebeghị | 2026-07-29 |
+| [Flexa](https://flexa.co/) | Onye ahịa na-elekọta onwe ya, onye azụmaahịa na-anata ego fiat | Onye ahịa na-emefu nke e chebere echebe, edeghị akụkụ na-anata ihe | Mba | 1% maka Kwụọ ụhgwọ ọ bụla | US na mba SEPA 37, ZEC na EU ekwenyebeghị | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Ọ bụghị Onye nlekota dịka ndabara | Mba, naanị Adreesị akpa ego Oha | Mba | 0.5%, ma ọ bụ 1% na ntụgharị | Ụwa niile ewezuga ebe amachibidoro, enweghị KYC iji malite | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Onye nlekota, n'agbanyeghị mgbasa ozi | Edeghị | Mba | 0.5% API, 1.5% white label | Enweghị KYC iji nata | 2026-07-29 |
+| [Plisio — a kwụsịla Kwụọ ụhgwọ](https://plisio.net/) | Onye nlekota, n'agbanyeghị mgbasa ozi | Edeghị | Mba | 0.5% API, 1.5% white label | Enweghị KYC iji nata | 2026-07-29 |
 | [Binance Pay](https://pay.binance.com/en) | Onye nlekota, off-chain | Mba, a jụrụ nkwụnye ego nke e chebere echebe | Mba | E-akpa ego gaa e-akpa ego n'efu, 0.8% nkwụpụta | Amachibidoro n'ebe ụfọdụ, ewepụla ZEC na FR, ES, IT, PL | 2026-07-29 |
 
 </div>
@@ -36,7 +37,7 @@ Ebe onye na-eweta ya anaghị ebipụta ihe, ntinye ahụ na-ekwu “ekwughị�
 
 ### Nke ị ga-ahọrọ
 
-Maka Nzuzo na njikwa kacha elu, jiri **BTCPay Server** ma ọ bụ **CipherPay** ị nabatara n'onwe gị. Ha abụọ bụ nke e chebere echebe, open source, ha anaghị ejide ego gị.
+Maka Nzuzo na njikwa kacha elu, jiri **BTCPay Server**, **CipherPay** ị nabatara n'onwe gị, ma ọ bụ **Zcash Payment Service** ma ọ bụrụ na ị nwere ike itinye obere koodu na saịtị gị. Ha atọ bụ nke e chebere echebe, open source, ha anaghị ejide ego gị.
 
 Maka ịnara Kwụọ ụhwọ n'ụlọ ahịa kama n'ịntanetị, jiri **Flexa**.
 
@@ -89,6 +90,29 @@ Otu mmachi ị ga-amata: plugin ahụ na-eji e-akpa ego Zcash otu maka ụlọ a
 Enweghị ugwo maka sọftụwia ahụ n'onwe ya. Ị na-akwụ ugwo netwọk Zcash na ihe ọ bụla nnabata gị na-efu.
 
 **Nyochara ikpeazụ:** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **Ụdị nkwado**: naanị nke e chebere echebe [Shielded] (Sapling na Orchard)
+- **Nkọwa**: Ihe nhazi Kwụọ ụhwọ Zcash nke n'efu, nke a na-akwado n'onwe ya maka ndị ahịa n'ịntanetị, nke a na-agba dị ka container Docker ma ọ bụ tinye ya n'ime dị ka crate Rust.
+- **URL**: [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+Ngwa nhazi [processor] efu, nke isi mmalite ya mepere emepe [open-source] (MIT), nke Andrew Arnott wuru, onye na-ejizi ya eme Kwụọ ụhwọ n'ezie n'ime app nke ya.
+
+Ọ na-ejide naanị Incoming Viewing Key (UIVK). Ọ pụrụ ịhụ Kwụọ ụhwọ ka ha na-abata, ma ọ pụghị imefu ha; ya mere, ọbụna sava e mebiri emebi apụghị ibugharị ego gị. Igodo ahụ na-anọgide na sava nke gị, ya mere ọ nweghị ụlọ ọrụ na-ahụ Kwụọ ụhwọ gị.
+
+Nkwụ ụgwọ ọ bụla na-enweta Adreesị akpa ego jikọtara ọnụ ọhụrụ nke nwere ndị nnata Sapling na Orchard, ọ nweghịkwa nke Oha. A na-eziga Kwụọ ụhwọ ozugbo n'e-akpa ego nke unu.
+
+Enweghị ugwo, akaụntụ, ma ọ bụ mita eji atụ ojiji. Ị na-akwụ ugwo netwọk Zcash na ụgwọ nnabata gị.
+
+Ọ bụ naanị nke a na-akwado n'onwe gị: otu Docker container, ma ọ bụ Rust crate n'ime ngwa ị na-agba ugbu a. Ọ na-agụ chain ahụ site na sava lightwalletd ị họrọ, ya mere ị chọghị full node.
+
+Nhazi ya chọrọ koodu, ọ bụghị plugin. Saịtị gị na-arịọ ọrụ ahụ maka Adreesị akpa ego maka Kwụọ ụhwọ na koodu QR mgbe a na-akwụ ụgwọ, ọrụ ahụ na-agwakwa saịtị gị mgbe ego ruru site na webhook ndị ebinyere aka. E nwere onye ahịa npm maka azụ azụ JavaScript na TypeScript, yana [ụlọ ahịa ngosi](https://github.com/nerdcash/zcash-payment-demo-store) mepere emepe nke a ga-eṅomi. Enweghị Shopify ma ọ bụ plugin WooCommerce, yabụ ị ga-enwerịrị ikike ijikwa koodu saịtị gị, ma ọ bụ onye mmepụta nwere ya.
+
+Ihe ndị a ga-atụle. Ọ dị ọhụrụ: repository ahụ malitere na June 2026, npm client dị na ụdị 0.1, enwebeghị releases e tinyere tag, ọ nweghịkwa security audit e bipụtara. API ya enweghị login nke ya, ya mere debe ya na netwọkụ nzuzo ma emeghela ya na ịntanetị. Dịka ọ dị na Kwụọ ụhwọ [payment] ọ bụla nke e chebere echebe [shielded], nkwụghachi ego chọrọ ka onye zụrụ ya nye gị Adreesị akpa ego.
+
+**Emechara nkwenye ikpeazụ:** 2026-11-01
 
 ---
 
@@ -150,10 +174,13 @@ Ugwo bụ 0.5% maka Kwụọ ụhwọ kwụ ọtọ, ma ọ bụ 1% maka ọtụ
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
-- **Ụdị nkwado**: Oha (edeghị)
-- **Nkọwa**: Plisio bụ gateway Kwụọ ụhwọ cryptocurrency nke na-enye azụmaahịa ohere ịnabata Kwụọ ụhgwọ Zcash.
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **A kwụsịla Kwụọ ụhwọ — enyochara na 12 Novemba 2026.** Plisio's [ibe mbụ](https://plisio.net/) kwuru na a kwụsịtụla Kwụọ ụhwọ na-abata na nke na-apụ ka ọrụ iweghachi ya na-aga n'ihu. Kpọtụrụ onye na-enye ọrụ ahụ tupu izipu ego. Ibe ya kpọmkwem maka Zcash na-eweghachi 404 ugbu a; nke a egosịghị na ewepụla ZEC n’ndepụta. A nyochara nkọwa ugwo, nlekọta, na nkwado Adreesị akpa ego ndị dị n'okpuru ikpeazụ na 29 Julaị 2026, ma enyochabeghị ha ọzọ.
+
+- **Ụdị Nkwado**: Oha [Transparent] (edeghị ya n'akwụkwọ)
+- **Nkọwa**: Plisio bụ ụzọ mbata Kwụọ ụhwọ maka cryptocurrency nke depụtara nkwado Zcash. Akwụsịla nhazi Kwụọ ụhwọ ugbu a; lee ọkwa e dere ụbọchị ya dị n'elu.
+- **URL**: [Plisio](https://plisio.net/)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Were ya dịka Onye nlekota. Mgbasa ozi Plisio na-akpọ ya onye na-abụghị Onye nlekota, mana ibe enyemaka nke ya kọwara balances a jidere n'elu ikpo okwu, cold storage na usoro iwepụ ego. Enweghị ike ikwenye nkwupụta na ọ bụghị Onye nlekota.

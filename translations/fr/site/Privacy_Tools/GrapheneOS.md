@@ -57,8 +57,8 @@ Comme indiqué dans la section des bonnes pratiques, il est recommandé d’util
 
 - 2GB de mémoire libre et 32GB d’espace de stockage libre.
 - Câble USB (A ou C)
-- Système d’exploitation pris en charge : Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 and 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Navigateurs pris en charge : Chromium (non pris en charge avec Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- Utilisez un système d’exploitation hôte pris en charge et un navigateur dont la prise en charge de WebUSB fonctionne. Consultez les [prérequis officiels actuels de WebUSB](https://grapheneos.org/install/web#prerequisites) pour connaître les versions prises en charge et les restrictions relatives aux paquets de navigateurs ; les systèmes plus anciens en fin de vie ne sont pas officiellement pris en charge.
+- L’installateur web peut également fonctionner depuis un appareil Android pris en charge, ChromeOS ou GrapheneOS. Suivez les remarques spécifiques à chaque navigateur dans le guide officiel plutôt que de supposer que chaque paquet Chromium prend en charge WebUSB.
 
 Consultez le guide d’installation via le lien ci-dessous et suivez le processus d’installation
 
@@ -68,8 +68,8 @@ Consultez le guide d’installation via le lien ci-dessous et suivez le processu
 
 - Vous devez disposer d’au moins 2GB de mémoire libre et de 32GB d’espace de stockage libre
 - Câble USB (A ou C)
-- Système d’exploitation pris en charge Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Installateur Web depuis Android, ChromeOS ou GrapheneOS
+- Utilisez un système d’exploitation hôte pris en charge par les [prérequis actuels de la ligne de commande](https://grapheneos.org/install/cli#prerequisites), et suivez ce guide pour les outils requis.
+- Les hôtes Android, ChromeOS et GrapheneOS doivent utiliser l’installateur Web ; ils ne sont pas répertoriés comme hôtes pris en charge pour l’installation en ligne de commande.
 
 Consultez le guide d’installation via le lien ci-dessous et suivez le processus d’installation
 
@@ -89,7 +89,7 @@ Consultez le guide d’installation via le lien ci-dessous et suivez le processu
 
 **Écran de verrouillage sécurisé** Utilisez un écran de verrouillage sécurisé, comme un PIN, un mot de passe ou une authentification biométrique, pour empêcher les accès non autorisés.
 
-**Évitez de rooter votre appareil Android** Évitez de rooter ou de déverrouiller le bootloader, car cela peut affaiblir la sécurité de l’appareil.
+**Reverrouillez le bootloader après l’installation** Le processus d’installation officiel exige de [déverrouiller temporairement le bootloader](https://grapheneos.org/install/web#unlocking-the-bootloader) pour flasher GrapheneOS, puis de [le reverrouiller avant utilisation](https://grapheneos.org/install/web#locking-the-bootloader) afin d’activer le démarrage vérifié intégral. Le déverrouillage comme le reverrouillage effacent toutes les données utilisateur ; sauvegardez-les donc d’abord et suivez les étapes officielles dans l’ordre. Ne rootez pas le système d’exploitation installé.
 
 **Vérifiez les sources des applications** Vérifiez l’authenticité des applications et de leurs sources afin d’éviter d’installer des logiciels malveillants.
 

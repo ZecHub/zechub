@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Anleitung zur Integration von MetaMask Zcash Snap
+
+> Halte und sende abgeschirmte ZEC über die Browser-Erweiterung MetaMask mit dem Zcash Snap von ChainSafe und der Web-Wallet WebZjs.
+
+## Kurz gesagt
+
+* ChainSafe Zcash Snap ermöglicht abgeschirmtes ZEC in MetaMask auf dem Desktop (Chrome, Edge, Firefox). Keine separate Zcash-Software ist erforderlich.
+* Deine Zcash-Schlüssel werden aus deiner MetaMask-Wiederherstellungsphrase abgeleitet. Diese eine Phrase schützt nun sowohl dein ETH als auch dein ZEC.
+* Du verwaltest ZEC über die WebZjs-Wallet unter webzjs.chainsafe.dev, nicht in der eigenen Asset-Liste von MetaMask.
+* Dein Konto erhält eine einheitliche Adresse, sodass Absender dir über den privatesten Pool zahlen, den sie unterstützen.
+* Finanziere es durch Swaps (zum Beispiel ETH gegen ZEC) oder indem du ZEC von einer Börse an deine abgeschirmte Adresse auszahlen lässt.
+* Wiederherstellung: Installiere MetaMask und Snap erneut und importiere dann deine bestehende Wiederherstellungsphrase.
+
+## Kernerklärung
+
+Ein MetaMask Snap ist ein kleines, in einer Sandbox ausgeführtes Add-on, das MetaMask eine neue Blockchain beibringt. Das von ChainSafe entwickelte und von Hacken geprüfte Zcash Snap ermöglicht es MetaMask, Zcash-Schlüssel aus Ihrer bestehenden Wiederherstellungsphrase abzuleiten und Zcash-Transaktionen zu signieren.
+
+MetaMask selbst zeigt kein ZEC-Guthaben an. Stattdessen verbindet sich die WebZjs-Web-Wallet mit Snap, synchronisiert sich über einen lightwalletd-Server mit dem Zcash-Netzwerk und zeigt deine Adressen und dein Guthaben an. Shielded Proofs werden mit WebAssembly in deinem Browser berechnet, weshalb das Senden einen Moment dauern kann.
+
+Die folgenden Schritte umfassen die Installation von Snap, das Verbinden von WebZjs, das Aufladen der Wallet, das Senden und Empfangen sowie die Überprüfung der Bestandteile Ihrer einheitlichen Adresse.
+
+## Vollständige Anleitung
 
 Für eine vollständige Schritt-für-Schritt-Anleitung und visuelle Erklärung sieh dir diesen [**YouTube-Leitfaden**](https://www.youtube.com/watch?v=UJh9Ilkohdw) an: 
 

@@ -1,4 +1,29 @@
-# Panduan Integrasi MetaMask Zcash
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+# Panduan Integrasi MetaMask Zcash Snap
+
+> Simpan dan kirim ZEC terlindungi dari ekstensi browser MetaMask, menggunakan Zcash Snap milik ChainSafe dan dompet web WebZjs.
+
+## Singkatnya
+
+* ChainSafe Zcash Snap menambahkan ZEC terlindungi ke MetaMask di desktop (Chrome, Edge, Firefox). Tidak diperlukan perangkat lunak Zcash terpisah.
+* Kunci Zcash kamu berasal dari frasa pemulihan MetaMask kamu. Satu frasa tersebut kini melindungi ETH kamu dan ZEC kamu.
+* Kamu mengelola ZEC melalui dompet WebZjs di webzjs.chainsafe.dev, bukan dalam daftar aset milik MetaMask sendiri.
+* Akun kamu mendapatkan alamat terpadu, sehingga pengirim membayar kamu melalui pool paling privat yang mereka dukung.
+* Danai dengan melakukan swap (misalnya ETH ke ZEC) atau dengan menarik ZEC dari exchange ke alamat terlindungi kamu.
+* Pemulihan: instal ulang MetaMask dan Snap, lalu impor frasa pemulihan kamu yang sudah ada.
+
+## Penjelasan Inti
+
+Sebuah MetaMask Snap adalah add-on kecil yang terisolasi dalam sandbox dan mengajarkan MetaMask sebuah blockchain baru. Zcash Snap, yang dibuat oleh ChainSafe dan diaudit oleh Hacken, memungkinkan MetaMask menurunkan key Zcash dari frasa pemulihan kamu yang sudah ada dan menandatangani transaksi Zcash.
+
+MetaMask sendiri tidak menampilkan saldo ZEC. Sebagai gantinya, dompet web WebZjs terhubung ke Snap, melakukan sinkronisasi dengan jaringan Zcash melalui server lightwalletd, dan menampilkan alamat serta saldo kamu. Proof terlindungi dihitung di browser kamu dengan WebAssembly, sehingga pengiriman dapat memerlukan waktu sejenak.
+
+Langkah-langkah di bawah ini mencakup pemasangan Snap, menghubungkan WebZjs, mendanai dompet, mengirim dan menerima, serta memeriksa bagian-bagian dari alamat terpadu kamu.
+
+## Panduan Lengkap
 
 Untuk panduan lengkap dan penjelasan visual, tonton [**panduan YouTube ini**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
@@ -136,10 +161,10 @@ Untuk **Mainnet Zcash**;
 
 ## **7. Periksa Komponen Alamat**
 
-1. Buka bagian **Terima** - Unified Address kamu akan ditampilkan secara default.  
-2. Salin Unified Address dan kunjungi [Block ExplorerZcash](https://mainnet.zcashexplorer.app/).  
-3. Tempelkan Unified Address kamu ke dalam bilah pencarian.  
-4. Sekarang kamu akan melihat semua komponen dari Unified Address, yang meliputi:
+1. Buka bagian **Terima** - Alamat Terpadumu akan ditampilkan secara default.  
+2. Salin Alamat Terpadu dan kunjungi [ZcashPenjelajah Blok](https://mainnet.zcashexplorer.app/).  
+3. Tempel Alamat Terpadumu ke dalam bilah pencarian.  
+4. Kamu sekarang akan melihat semua komponen Alamat Terpadu, yang mencakup:
 ``` 
    Orchard Address  
    Sapling Address  

@@ -4,7 +4,7 @@
 
 # Pemroses Pembayaran Zcash
 
-Cara menerima ZEC sebagai merchant, dibandingkan secara berdampingan. Setiap entri telah diperiksa terhadap situs dan API penyedia itu sendiri pada **29 Juli 2026**.
+Cara menerima ZEC sebagai merchant, dibandingkan secara berdampingan. Setiap entri telah diperiksa terhadap situs dan API penyedia itu sendiri pada **29 Juli 2026**, kecuali Zcash Payment Service, yang ditambahkan pada **1 November 2026**.
 
 Dukungan untuk aset privasi sering berubah, jadi setiap baris menyertakan tanggal verifikasi masing-masing. Jika kamu membaca ini beberapa bulan kemudian, periksa kembali situs penyedia sebelum kamu melakukan integrasi.
 
@@ -14,11 +14,12 @@ Dukungan untuk aset privasi sering berubah, jadi setiap baris menyertakan tangga
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Non-kustodial | Ya, Orchard melalui Unified Addresses | Ya, open source | 1% per pembayaran, gratis jika self-hosted | Tanpa KYC, wilayah tidak disebutkan | 2026-07-29 |
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non-kustodial, hanya viewing key | Ya, hanya terlindungi (Sapling, Orchard, UA) | Ya, open source | Tidak ada, kamu hanya membayar biaya jaringan | Global, tanpa KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | Non-kustodial, hanya incoming viewing key | Ya, hanya terlindungi (Sapling dan Orchard) | Ya, hanya self-hosted, open source | Tidak ada, kamu hanya membayar biaya jaringan | Tanpa akun, tanpa KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | Non-kustodial | Ya, Sapling dan Orchard | Tidak, layanan terhosting | Sesi prabayar, harga tidak dipublikasikan | KYC tidak disebutkan, wilayah tidak disebutkan | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Self-kustodial pelanggan, merchant menyelesaikan dalam fiat | Pelanggan menggunakan transaksi terlindungi, sisi penerima tidak didokumentasikan | Tidak | 1% per pembayaran | AS dan 37 negara SEPA, ZEC di EU belum dikonfirmasi | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Non-kustodial secara default | Tidak, hanya alamat transparan | Tidak | 0,5%, atau 1% dengan konversi | Global kecuali di tempat yang dilarang, tanpa KYC untuk memulai | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Kustodial, terlepas dari pemasarannya | Tidak didokumentasikan | Tidak | 0,5% API, 1,5% white label | Tanpa KYC untuk menerima | 2026-07-29 |
-| [Binance Pay](https://pay.binance.com/en) | Kustodial, off-chain | Tidak, deposit terlindungi ditolak | Tidak | Gratis wallet ke wallet, 0,8% pembayaran | Terbatas secara geografis, ZEC dihapus dari daftar di FR, ES, IT, PL | 2026-07-29 |
+| [Plisio — pembayaran ditangguhkan](https://plisio.net/) | Kustodial, terlepas dari pemasarannya | Tidak didokumentasikan | Tidak | 0,5% API, 1,5% white label | Tanpa KYC untuk menerima | 2026-07-29 |
+| [Binance Pay](https://pay.binance.com/en) | Kustodial, off-chain | Tidak, deposit terlindungi ditolak | Tidak | Gratis dompet ke dompet, 0,8% pembayaran | Terbatas secara geografis, ZEC dihapus dari daftar di FR, ES, IT, PL | 2026-07-29 |
 
 </div>
 
@@ -36,7 +37,7 @@ Jika penyedia tidak memublikasikan sesuatu, entri tersebut akan bertuliskan "tid
 
 ### Mana yang harus kamu pilih
 
-Untuk privasi dan kontrol maksimal, gunakan **BTCPay Server** atau **CipherPay** yang di-host sendiri. Keduanya bersifat terlindungi, open source, dan tidak menyimpan dana milikmu.
+Untuk privasi dan kontrol maksimal, gunakan **BTCPay Server**, **CipherPay** yang di-host sendiri, atau **Zcash Payment Service** jika kamu dapat menambahkan sedikit kode ke situsmu. Ketiganya bersifat terlindungi, open source, dan tidak menyimpan dana milikmu.
 
 Untuk menerima pembayaran di toko alih-alih secara daring, gunakan **Flexa**.
 
@@ -89,6 +90,29 @@ Satu batasan yang perlu kamu ketahui: plugin ini menggunakan satu dompet Zcash u
 Tidak ada biaya untuk perangkat lunaknya sendiri. Kamu membayar biaya jaringan Zcash dan biaya hosting apa pun yang kamu keluarkan.
 
 **Terakhir diverifikasi:** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **Tipe Dukungan**: Hanya terlindungi (Sapling dan Orchard)
+- **Deskripsi**: Sebuah pemroses pembayaran Zcash gratis yang di-host sendiri untuk pedagang online, dijalankan sebagai container Docker atau disematkan sebagai crate Rust.
+- **URL**: [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+Prosesor gratis dan open-source (MIT) yang dibangun oleh Andrew Arnott, yang sudah menggunakannya untuk pembayaran nyata di aplikasinya sendiri.
+
+Ia hanya menyimpan viewing key untuk menerima (UIVK). Ia dapat melihat pembayaran masuk, tetapi tidak dapat membelanjakannya, sehingga bahkan server yang disusupi tidak dapat memindahkan dana kamu. Key tersebut tetap berada di server kamu sendiri, sehingga tidak ada perusahaan yang juga melihat pembayaran kamu.
+
+Setiap checkout mendapatkan alamat terpadu baru dengan receiver Sapling dan Orchard serta tanpa receiver transparan. Pembayaran langsung masuk ke dompet kamu sendiri.
+
+Tidak ada biaya, akun, maupun meter penggunaan. Kamu membayar biaya jaringan Zcash serta hosting kamu.
+
+Hanya dapat dihosting sendiri: satu container Docker, atau crate Rust di dalam aplikasi yang sudah kamu jalankan. Ini membaca chain dari server lightwalletd yang kamu pilih, jadi kamu tidak memerlukan full node.
+
+Menyiapkannya memerlukan kode, bukan plugin. Situsmu meminta alamat pembayaran dan kode QR kepada layanan saat checkout, lalu layanan memberi tahu situsmu saat uang diterima melalui webhook yang ditandatangani. Tersedia klien npm untuk JavaScript dan backend TypeScript, serta [toko demo](https://github.com/nerdcash/zcash-payment-demo-store) open-source untuk dijadikan contoh. Tidak ada plugin Shopify atau WooCommerce, jadi kamu memerlukan kendali atas kode situsmu, atau developer yang memilikinya.
+
+Hal-hal yang perlu dipertimbangkan. Proyek ini masih baru: repositorinya dimulai pada Juni 2026, klien npm berada pada versi 0.1, belum ada rilis bertag, dan belum ada audit keamanan yang dipublikasikan. API-nya tidak memiliki login sendiri, jadi gunakan di jaringan privat dan jangan pernah membukanya ke internet. Dan seperti pembayaran terlindungi lainnya, pengembalian dana mengharuskan pembeli memberikan alamat.
+
+**Terakhir diverifikasi:** 2026-11-01
 
 ---
 
@@ -150,10 +174,13 @@ Tersedia secara global kecuali di mana hukum melarangnya. Kamu tidak memerlukan 
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
-- **Tipe Dukungan**: Transparan (tidak didokumentasikan)
-- **Deskripsi**: Plisio adalah gateway pembayaran cryptocurrency yang memungkinkan bisnis untuk menerima pembayaran Zcash.
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **Pembayaran dihentikan sementara — diperiksa 12 November 2026.** [Halaman beranda](https://plisio.net/) Plisio menyatakan bahwa pembayaran masuk dan keluar dihentikan sementara selama pekerjaan pemulihan berlangsung. Periksa dengan penyedia sebelum mengirim dana. Halaman khusus untuk Zcash saat ini mengembalikan 404; hal ini tidak membuktikan bahwa ZEC telah dihapus dari daftar. Detail biaya, kustodi, dan dukungan alamat di bawah terakhir ditinjau pada 29 Juli 2026 dan belum diverifikasi ulang.
+
+- **Jenis Dukungan**: Transparan (tidak didokumentasikan)
+- **Deskripsi**: Plisio adalah gateway pembayaran cryptocurrency yang telah mencantumkan dukungan Zcash. Pemrosesan pembayaran saat ini ditangguhkan; lihat pemberitahuan bertanggal di atas.
+- **URL**: [Plisio](https://plisio.net/)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Anggaplah ini sebagai kustodial. Pemasaran Plisio menyebutnya non-kustodial, tetapi halaman bantuan mereka sendiri menjelaskan tentang saldo yang disimpan di platform, cold storage, dan proses penarikan. Klaim non-kustodial tersebut tidak dapat dikonfirmasi.

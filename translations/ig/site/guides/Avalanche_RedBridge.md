@@ -25,20 +25,20 @@ Nkọwa: Na-ahụ na a na-echekwa atụmatụ Nzuzo nke Zcash n'oge usoro bridgi
 
 ## Ihe A Nyefere na Akwụkwọ Nkọwa
 
-**Zcash Elastic Subnet Bridge na Avalanche**: [Atụmatụ ikike](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Zcash Elastic Subnet Bridge na Avalanche**: [Atụmatụ ikike](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 N'okpuru ebe a bụ ihe ndị dị mkpa a nyefere na akụ nka na ụzụ e mechara maka ọrụ Zcash Avalanche RedBridge:
 
-Ihe enyere 1.1: PoC mbụ nke na-akwado ịjụ maka Azụmahia Zcash testnet sitere na subnet Avalanche testnet site na CLI, nke e bipụtara na GitHub ma nwee subnet node otu na Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
+Ihe enyere 1.1: PoC mbụ nke na-akwado ịjụ maka Azụmahia Zcash testnet sitere na subnet Avalanche testnet site na CLI, nke e bipụtara na GitHub ma nwee subnet node otu na Avalanche testnet. https://github.com/red-dev-inc/redbridge-oracle
 
-Ihe enyere 2.1: [Nhazi](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Ihe enyere 2.1: [Nhazi](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Ọkpụkpụ Ọrụ 3 Maachị 31, 2024
 
 Ihe enyere 3.1 ezuola, na-egosi nyocha anyị banyere ịnakwere FROST karịa BLS maka signature threshold na bridge ZavaX. Mgbanwe a na-eji ọba akwụkwọ a nyochala sitere na Zcash Foundation ma na-eme ka njikọta na nchekwa ka mma. https://github.com/ZcashFoundation/frost
 
-Ihe enyere 3.2 Nhazi UX na UI maka GUI ezuola, na-akọwa mmelite nchekwa anyị maka subnet ZavaX Oracle, nke nsonaazụ ule penetration kwadoro. Maka nkọwa ndị ọzọ, gụnyere nhazi sava na nsonaazụ ule [Ntụle Nchekwa](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Akụkọ Nyocha](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Ihe enyere 3.2 Nhazi UX na UI maka GUI ezuola, na-akọwa mmelite nchekwa anyị maka subnet ZavaX Oracle, nke nsonaazụ ule penetration kwadoro. Maka nkọwa ndị ọzọ, gụnyere nhazi sava na nsonaazụ ule [Ntụle Nchekwa](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Akụkọ Nyocha](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Na mgbakwunye, otu ahụ gbanwere akara site na ZavaX gaa redbridge ma gbanwee token Mkpọchi ego dijitalụ ha site na ZAX gaa RBR.
 
 ### Ọkpụkpụ Ọrụ 4 Eprel 30, 2024
@@ -51,9 +51,9 @@ Ihe enyere 5.1 GUI: njikọta bridge n'ime Core ma ọ bụ Webapp
 Ihe enyere 6.1 Ịgafe nyocha sọftụwia nke ọma
 Ihe enyere 6.2 Ibipụta koodu isi a nyochala n'ime repo GitHub ọhaneze
 
-Lelee repo [GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Lelee [repo GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Maka nkọwa nka na ụzụ ndị ọzọ, a na-agba ndị ọrụ ume ka ha nyochaa repository na akwụkwọ nkọwa maka ọrụ RedBridge iji [chọpụta](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) nkọwa njikọta, usoro ule, na protocol nchekwa.
+Maka nkọwa nka na ụzụ ndị ọzọ, a na-agba ndị ọrụ ume ka ha nyochaa repository na akwụkwọ nkọwa maka ọrụ RedBridge iji [nyochaa](https://github.com/red-dev-inc/red-bridge) nkọwa njikọta, usoro ule, na protocol nchekwa.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
