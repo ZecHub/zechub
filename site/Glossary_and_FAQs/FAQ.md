@@ -70,7 +70,7 @@ Decisions are written into the specification and ratified on-chain when the netw
 
 First read [our guide to block explorers](/guides/blockchain-explorers). Then check [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Transactions expire after approximately 25 minutes (20 blocks) and funds are returned automatically.
+There is no fixed 25-minute expiry or automatic refund timer. Check the expiry height recorded by your wallet and whether the original payment was mined. If it expired without being mined, it did not settle on-chain; expiry does not create a refund transaction. Let the wallet sync before following its retry guidance. See [transaction troubleshooting](/using-zcash/transactions#troubleshooting-stuck-transactions) and [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Common reasons a transaction may not appear:**
 

@@ -186,7 +186,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Testnet | A separate blockchain for testing upgrades and features before mainnet. |
 | Trailing Finality Layer (TFL) | Research into adding a finality layer behind Zcash's proof-of-work chain so recent blocks can be finalized without replacing mining. Crosslink is the design that came out of it. |
 | Transaction | A payment between users, submitted to the network and eventually confirmed in a block. |
-| Transaction Expiry | Transactions expire after approximately 25 minutes (20 blocks) if unconfirmed; funds return automatically. |
+| Transaction Expiry | A block-height limit on when an unmined payment can be included. An ordinary payment with a nonzero expiry height N can be mined in block N or earlier, but not N+1. A height of 0 disables expiry. This is not an automatic refund timer. [ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | Default fee is 0.0001 ZEC. Higher fees get priority; very low fees may cause delays or expiry. |
 | Transparent Address | Also called taddr. Starts with t. Fully public (like Bitcoin). |
 | Transparent Transaction | A transaction exclusively between transparent addresses - everything is publicly visible. |
