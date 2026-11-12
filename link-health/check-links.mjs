@@ -16,7 +16,7 @@
 
 import { readFile, writeFile, readdir, stat } from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { join, dirname, basename, relative } from "node:path";
+import { join, dirname, basename, relative, resolve } from "node:path";
 
 // ── args ─────────────────────────────────────────────────────────────────────
 
@@ -257,9 +257,11 @@ function routeExists(route, mdFiles, appRoutes) {
   // The app falls back to a loose match inside the same folder, so a report that
   // ignored this would flag links that actually resolve in production.
   const wanted = normalize(basename(clean));
-  const folder = dirname(target);
+  // walk() uses native separators and may start from an absolute --root.
+  // Compare directories in one form without changing filename matching.
+  const folder = dirname(resolve(target));
   const sibling = mdFiles.find(
-    (f) => dirname(f) === folder && normalize(basename(f)) === wanted,
+    (f) => dirname(resolve(f)) === folder && normalize(basename(f)) === wanted,
   );
   if (sibling) return { ok: true, how: `fuzzy → ${sibling}` };
 
