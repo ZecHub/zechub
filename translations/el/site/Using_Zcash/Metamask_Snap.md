@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
-# MetaMask Zcash Οδηγός ενσωμάτωσης Snap
+# Οδηγός ενσωμάτωσης MetaMask Zcash Snap
 
 > Διατήρησε και στείλε θωρακισμένα ZEC από την επέκταση προγράμματος περιήγησης MetaMask, χρησιμοποιώντας το Zcash Snap του ChainSafe και το web wallet WebZjs.
 

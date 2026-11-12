@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# MetaMask Zcash Snap Panduan Integrasi
+# Panduan Integrasi MetaMask Zcash Snap
 
 > Simpan dan kirim ZEC terlindungi dari ekstensi browser MetaMask, menggunakan Zcash Snap milik ChainSafe dan dompet web WebZjs.
 

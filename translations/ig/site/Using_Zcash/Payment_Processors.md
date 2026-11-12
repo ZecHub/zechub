@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
-# Zcash Ndị na-ahazi Kwụọ ụhwọ
+# Ndị na-ahazi Kwụọ ụhwọ Zcash
 
 Ụzọ ndị ahịa si anabata ZEC, tụnyere ibe ha n'akụkụ. E nyochara ntinye ọ bụla megide saịtị na API nke onye na-eweta ya n'onwe ya na **29 Julaị 2026**, ewezuga Zcash Payment Service, nke agbakwunyere na **1 Novemba 2026**.
 

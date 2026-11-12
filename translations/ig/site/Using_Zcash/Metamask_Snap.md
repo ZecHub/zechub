@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# MetaMask Zcash Ntuziaka Njikọta Snap
+# Ntuziaka Njikọta MetaMask Zcash Snap
 
 > Jide ma ziga ZEC nke e chebere echebe site na mgbatị ihe nchọgharị MetaMask, site n'iji Zcash Snap nke ChainSafe na e-akpa ego weebụ WebZjs.
 

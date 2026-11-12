@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Procesadores de pago [Payment Processors]
+# Procesadores de pago [Payment Processors] de Zcash
 
 Formas de aceptar ZEC como comerciante, comparadas lado a lado. Cada entrada se verificó con el propio sitio y la API del proveedor el **29 de julio de 2026**, salvo Zcash Payment Service, añadida el **1 de noviembre de 2026**.
 

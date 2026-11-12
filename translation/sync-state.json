@@ -8741,7 +8741,7 @@
       "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Non-Custodial_Exchanges.md": {
@@ -10231,7 +10231,7 @@
       "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -15477,7 +15477,7 @@
       "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -17679,7 +17679,7 @@
       "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -17703,7 +17703,7 @@
       "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
