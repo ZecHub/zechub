@@ -7429,6 +7429,30 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md": {
+      "src": "sha256:ff4e65b72ab486d7dc066cf4bc0e22d218d74e021e30516f7d997646f50e0002",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "el": {
@@ -9283,6 +9307,22 @@
     "Zcash_Tech/Outgoing_View_Keys.md": {
       "src": "sha256:37d531d73c53b1a9c10e5bc4d630d595ff57a568e5bbf2e1d4341648d3f543c0",
       "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -11144,6 +11184,22 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -16719,6 +16775,30 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md": {
+      "src": "sha256:ff4e65b72ab486d7dc066cf4bc0e22d218d74e021e30516f7d997646f50e0002",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ig": {
@@ -18576,6 +18656,22 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra+handfix",
+      "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -20435,6 +20531,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ja": {
@@ -22289,6 +22401,30 @@
     "Zcash_Community/ZFAV_Club/Guides/Website_On_IPFS.md": {
       "src": "sha256:91c94c8143a8c17e9ae391edc2e2da15f61a63a6df46aee36630c41e67abc800",
       "src_commit": "ae320f633c40c6b51f87dc1024b241a0e1e833df",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md": {
+      "src": "sha256:ff4e65b72ab486d7dc066cf4bc0e22d218d74e021e30516f7d997646f50e0002",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -26009,6 +26145,22 @@
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "ru": {
@@ -29721,6 +29873,30 @@
     "Zcash_Tech/Outgoing_View_Keys.md": {
       "src": "sha256:37d531d73c53b1a9c10e5bc4d630d595ff57a568e5bbf2e1d4341648d3f543c0",
       "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md": {
+      "src": "sha256:ff4e65b72ab486d7dc066cf4bc0e22d218d74e021e30516f7d997646f50e0002",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -37153,6 +37329,30 @@
     "Research/zcash-formal-verification-series/article-2/article-2-ironwood-proving-money-cannot-be-faked.md": {
       "src": "sha256:6ffea4dd1f37204036a4e1c70e8871a80c901240fe47d15778df042a4db60621",
       "src_commit": "bbdfa9edfcd5a357f45622afa079ac817318c5a6",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "guides/Zcash_Js.md": {
+      "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
+      "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
+    },
+    "Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md": {
+      "src": "sha256:ff4e65b72ab486d7dc066cf4bc0e22d218d74e021e30516f7d997646f50e0002",
+      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
