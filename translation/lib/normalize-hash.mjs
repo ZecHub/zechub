@@ -126,7 +126,7 @@ export function normalizeMarkdown(text) {
         openFence = fence[1];
         return line;
       }
-      if (/^(?: {4}|\t)/.test(line)) return line;
+      if (/^(?: {4}|\t).*\S/.test(line)) return line;
       return line.replace(/[ \t]+$/, (run) => (/^ {2,}$/.test(run) ? "  " : ""));
     })
     .join("\n");
