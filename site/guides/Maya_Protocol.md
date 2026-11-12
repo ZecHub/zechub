@@ -1,6 +1,27 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Maya Decentralised Exchange
 
----
+> Maya Protocol is a cross-chain DEX for native swaps (for example ETH or BTC to ZEC) without wrapped tokens, accounts or KYC.
+
+## TL;DR
+
+* Maya swaps native coins across blockchains: you send one asset and receive another on its own chain. No wrapped tokens, no account, no KYC.
+* It is a fork of THORChain, built with the Cosmos SDK and secured by node operators who bond capital (Proof of Bond).
+* Its native token is $CACAO. Liquidity providers earn swap fees and are covered by Impermanent Loss Protection (ILP) after 50 days.
+* Maya is a backend: you use it through a frontend or wallet such as THORWallet, CacaoSwap, Asgardex, Ctrl Wallet or KeepKey.
+* The tutorial video shows an ETH to ZEC swap on LeoDex, one of these frontends.
+* If you receive ZEC at a transparent (t1) address, shield it in your wallet afterwards for privacy.
+
+## Core Explanation
+
+A centralized exchange holds your coins and needs your identity. Maya instead uses a network of nodes that control vaults on each supported chain. You send coins to a Maya vault, at least two-thirds of the nodes confirm the deposit, and the matching asset is sent from another vault to your address on the destination chain.
+
+Node operators put up a bond that can be slashed if they misbehave, which gives them a financial reason to stay honest. Maya adds features on top of THORChain, such as liquidity nodes and its own reserve design, and also works as a second, independent network next to it.
+
+The sections below cover how Maya works, Proof of Bond, how it differs from THORChain and which wallets support it.
 
 ## Tutorial
 
@@ -29,7 +50,7 @@ In this manner, users can send one type of token on one blockchain and receive a
 
 ## What is Proof of Bond?
 
-Proof of Bond (PoB) is a consensus mechanism where node operators must commit a bond (usually in the form of the network's native token) to participate in the network. This bond acts as a form of economic security, ensuring that nodes act honestly and maintain the network's integrity2. If a node tries to act maliciously or fails to perform its duties, its bond can be slashed, meaning a portion of it is taken away as a penalty.
+Proof of Bond (PoB) is a consensus mechanism where node operators must commit a bond (usually in the form of the network's native token) to participate in the network. This bond acts as a form of economic security, ensuring that nodes act honestly and maintain the network's integrity. If a node tries to act maliciously or fails to perform its duties, its bond can be slashed, meaning a portion of it is taken away as a penalty.
 
 In Maya Protocol, this mechanism helps to produce economic value from the staked resources of node operators, increasing capital efficiency. Similarly, in THORChain, node operators bond RUNE (the native token) to secure the network and ensure cooperation among participants.
 
@@ -43,7 +64,7 @@ Rather than following the Pure Bond Model, Maya is contemplating a shift to a Li
 
 ### Impermanent Loss Protection
 
-A system that protects liquidity providers from the temporary loss (LPs) they may experience when providing liquidity, due to the constant fluctuations in the prices of crypto assets.
+A system that protects liquidity providers (LPs) from the temporary loss they may experience when providing liquidity, due to the constant fluctuations in the prices of crypto assets.
 ILP holds 10% of the $CACAO supply (10 million $CACAO) and is continuously replenished by 10% of the protocol fees. ILP becomes active 50 days after a liquidity deposit, with coverage capped at 100%.
 
 The duration of ILP coverage depends on the performance of the ASSET and $CACAO. Full coverage is achieved after 150 days if ASSET performs better, and after 450 days if $CACAO performs better. ILP is both paid out and reset upon complete withdrawal but is not affected by partial withdrawals. For top-ups, ILP is reset but not paid out.
@@ -58,7 +79,7 @@ At the genesis of Maya Protocol, the available CACAO reserves were only 10% of t
 
 Still, despite its differences, Maya also serves as a complementary solution to THORChain, offering redundancy, extension and validation, and integrating new networks not existing in the current THORChain implementation.
 
-Also, Maya's goal is to become a *backend* for other services to build upon, in hopes of seeing plenty of new *frontends*, or DEX services built upon Maya's infraestructure.
+Also, Maya's goal is to become a *backend* for other services to build upon, in hopes of seeing plenty of new *frontends*, or DEX services built upon Maya's infrastructure.
 
 ## Maya Protocol wallet integration
 
@@ -67,7 +88,7 @@ Here's a list with some of the services already supporting Maya:
 
 [Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+El Dorado: no longer online, its domain does not resolve.
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 
