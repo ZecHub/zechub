@@ -84,6 +84,11 @@ node link-health/check-links.mjs --concurrency 20   # more parallel requests
 
 Outputs `link-health.json` for machines and `link-health.md` for the issue body.
 
+Run from the repository root. `--root <dir>` narrows the scanned Markdown files;
+it accepts relative or absolute paths, including paths with spaces. The loose
+route lookup uses the scanned files in either case, comparing absolute native
+directory paths. It does not search additional folders outside the scan.
+
 The workflow runs on Mondays and can be started by hand from the Actions tab.
 Because a GitHub issue body is capped, the dashboard shows the first 40 rows per
 category and says how many were left out; the complete list is attached to the
