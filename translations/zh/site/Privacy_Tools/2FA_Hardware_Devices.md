@@ -20,7 +20,7 @@
 
 ## 使用硬件安全密钥有哪些好处？
 
-与传统的基于密码的身份验证方法相比，硬件安全密钥具有多项优势。它们比密码更难被攻击，而密码很容易因暴力破解、社会工程或网络钓鱼攻击而泄露。安全密钥每次使用时都会生成唯一代码，使攻击者几乎不可能预测或复制该代码。它们也易于使用和配置，无需在您的设备上安装任何额外软件或驱动程序。
+当与FIDO U2F 或 FIDO2/WebAuthn配合使用时，硬件安全密钥会通过签署新的质询进行身份验证，而不是生成供您输入的代码。服务会保存公钥，而私钥则保留在验证器 [authenticator] 中。凭据 [credentials] 的适用范围限定于该服务，浏览器会检查依赖方 [relying party] 的身份以抵御网络钓鱼 [phishing]。这些优势描述的是FIDO身份验证，而非多协议密钥可能支持的每一种方法。请确认您的服务、浏览器、设备和连接类型支持您打算使用的方法。请参阅[Yubico 的WebAuthn简介](https://developers.yubico.com/WebAuthn/)以及[FIDO2/WebAuthn开发者指南](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/)。
 
 ## 硬件安全密钥是否兼容所有设备和操作系统？
 

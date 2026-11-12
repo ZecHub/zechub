@@ -25,20 +25,20 @@ Nuxlɔɖi: Ena be Zcash ƒe ɣaɣla ƒe nɔnɔmeawo nanɔ anyi le ga ƒe lẽ ƒ
 
 ## Dɔwo Kple Agbalẽwo
 
-**Zcash Elastic Subnet Bridge le Avalanche**: [Ga ƒe Kpekpeɖeŋu Ƒe Ɖoɖoɖo](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Zcash Elastic Subnet Bridge le Avalanche**: [Ga ƒe Kpekpeɖeŋu Ƒe Ɖoɖoɖo](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Dɔ veviwo kple mɔ̃ŋlɔ ƒe nuɖoɖowo si wowɔ na Zcash Avalanche RedBridge ƒe dɔa nye esiwoe:
 
-Dɔ 1.1: PoC gɔmedzedze si doa alɔ̃ be woabia testnet Zcash gaɖoɖowo tso testnet Avalanche subnet me kple CLI, eye wodo eɖe GitHub, kple node ɖeka subnet le Avalanche testnet dzi. https://github.com/red-dev-inc/zavax-oracle
+Dɔ 1.1: PoC gɔmedzedze si doa alɔ̃ be woabia testnet Zcash gaɖoɖowo tso testnet Avalanche subnet me kple CLI, eye wodo eɖe GitHub, kple node ɖeka subnet le Avalanche testnet dzi. https://github.com/red-dev-inc/redbridge-oracle
 
-Dɔ 2.1: [Ɖoɖoɖo Ƒe Nɔnɔme](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Dɔ 2.1: [Ɖoɖoɖo ƒe Nɔnɔme](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Dzidzimekpɔkpɔ 3 March 31, 2024
 
 Dɔ 3.1 wu enu, eye wòtsɔ míaƒe xexlẽɖeŋu na tso FROST ƒe zãm ɖe BLS nu na threshold signatures le ZavaX ga ƒe lẽ me. Trɔtrɔ sia zã agbalẽdzraɖoƒe si wowɔ audit na tso Zcash Foundation me, eye wòna ƒomevi dede kple dedie nyuie wu. https://github.com/ZcashFoundation/frost
 
-Dɔ 3.2 UX kple UI ƒe ɖoɖo na GUI wu enu, eye wòɖe míaƒe dedie ƒe ɖeɖeawo fia na ZavaX Oracle subnet, si penetration testing ƒe emetsonuwo de asi. Na nyatakaka geɖe, si me server ƒe ɖoɖo kple dodokpɔ ƒe emetsonuwo hã le la, [Dedie Ƒe Kpɔkpɔ](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Audit Ƒe Nyaŋlɔɖi](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Dɔ 3.2 UX kple UI ƒe ɖoɖo na GUI wu enu, eye wòɖe míaƒe dedie ƒe ɖeɖeawo fia na ZavaX Oracle subnet, si penetration testing ƒe emetsonuwo de asi. Na nyatakaka geɖe, si me server ƒe ɖoɖo kple dodokpɔ ƒe emetsonuwo hã le la, [Dedie Ƒe Kpɔkpɔ](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Audit Ƒe Nyaŋlɔɖi](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Kpe ɖe eŋu la, team la trɔ woƒe ŋkɔ tso ZavaX yi redbridge, eye wotrɔ woƒe ga ƒuƒoƒo token tso ZAX yi RBR.
 
 ### Dzidzimekpɔkpɔ 4 April 30, 2024
@@ -51,9 +51,9 @@ Dzidzimekpɔkpɔ 6 June 30, 2024
 Dɔ 6.1 Software audit ƒe nusiwo katã wɔ nyuie
 Dɔ 6.2 Audit si wowɔ ƒe source code la ƒe tata ɖe GitHub repo si amewo katã ate ŋu akpɔ
 
-Kpɔ [GitHub repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) ɖeka
+Kpɔ [GitHub ƒe nudzraɖoƒe la ɖeka](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Na mɔ̃ŋlɔ ƒe nyatakaka geɖe, wode asi na zazãlawo be woaxlẽ RedBridge ƒe dɔa ƒe repository kple agbalẽwo be woa[tsɔ woƒe ŋku akpɔ](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) ƒomevi dede ƒe nyatakakaawo, dodokpɔ ƒe frameworkwo, kple dedie ƒe mɔnuwo.
+Na mɔ̃ŋlɔ ƒe nyatakaka geɖe, wode asi na zazãlawo be woaxlẽ RedBridge ƒe dɔa ƒe repository kple agbalẽwo be woa[tsɔ woƒe ŋku akpɔ](https://github.com/red-dev-inc/red-bridge) ƒomevi dede ƒe nyatakakaawo, dodokpɔ ƒe frameworkwo, kple dedie ƒe mɔnuwo.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

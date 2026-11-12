@@ -25,20 +25,20 @@
 
 ## Παραδοτέα και τεκμηρίωση
 
-**Γέφυρα Zcash Elastic Subnet στο Avalanche**: [Πρόταση επιχορήγησης](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Γέφυρα Zcash Elastic Subnet στο Avalanche**: [Πρόταση επιχορήγησης](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Παρακάτω παρατίθενται τα βασικά παραδοτέα και οι τεχνικοί πόροι που ολοκληρώθηκαν για το έργο Zcash Avalanche RedBridge:
 
-Παραδοτέο 1.1: Προκαταρκτικό PoC που υποστηρίζει την αναζήτηση συναλλαγών testnet του Zcash από ένα subnet Avalanche testnet με CLI, δημοσιευμένο στο GitHub και με ένα subnet ενός κόμβου στο Avalanche testnet. https://github.com/red-dev-inc/zavax-oracle
+Παραδοτέο 1.1: Προκαταρκτικό PoC που υποστηρίζει την αναζήτηση συναλλαγών testnet του Zcash από ένα subnet Avalanche testnet με CLI, δημοσιευμένο στο GitHub και με ένα subnet ενός κόμβου στο Avalanche testnet. https://github.com/red-dev-inc/redbridge-oracle
 
-Παραδοτέο 2.1: [Αρχιτεκτονική](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Παραδοτέο 2.1: [Αρχιτεκτονική](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Ορόσημο 3, 31 Μαρτίου 2024
 
 Το παραδοτέο 3.1 έχει ολοκληρωθεί, παρουσιάζοντας την ανάλυσή μας για την υιοθέτηση του FROST αντί του BLS για υπογραφές κατωφλίου στη γέφυρα ZavaX. Αυτή η αλλαγή αξιοποιεί ελεγμένες βιβλιοθήκες από το Zcash Foundation και διευκολύνει καλύτερη ενσωμάτωση και ασφάλεια. https://github.com/ZcashFoundation/frost
 
-Ο σχεδιασμός UX και UI του παραδοτέου 3.2 για GUI ολοκληρώθηκε, περιγράφοντας λεπτομερώς τις βελτιώσεις ασφάλειάς μας για το subnet ZavaX Oracle, με υποστήριξη από αποτελέσματα δοκιμών διείσδυσης. Για περισσότερες λεπτομέρειες, συμπεριλαμβανομένων της διαμόρφωσης διακομιστή και των αποτελεσμάτων δοκιμών [Αξιολόγηση ασφάλειας](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Έκθεση ελέγχου](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Ο σχεδιασμός UX και UI του παραδοτέου 3.2 για GUI ολοκληρώθηκε, περιγράφοντας λεπτομερώς τις βελτιώσεις ασφάλειάς μας για το υποδίκτυο ZavaX Oracle, με υποστήριξη από αποτελέσματα δοκιμών διείσδυσης. Για περισσότερες λεπτομέρειες, συμπεριλαμβανομένων της διαμόρφωσης διακομιστή και των αποτελεσμάτων δοκιμών [Αξιολόγηση ασφάλειας](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Έκθεση ελέγχου](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Επιπλέον, η ομάδα μετονομάστηκε από ZavaX σε redbridge και άλλαξε το token staking από ZAX σε RBR.
 
 ### Ορόσημο 4, 30 Απριλίου 2024
@@ -51,9 +51,9 @@
 Παραδοτέο 6.1: Επιτυχής ολοκλήρωση ελέγχου λογισμικού
 Παραδοτέο 6.2: Δημοσίευση του ελεγμένου πηγαίου κώδικα σε δημόσιο αποθετήριο GitHub
 
-Ρίξε μια ματιά στο [αποθετήριο GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Ρίξε μια ματιά στο [αποθετήριο GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Για περισσότερες τεχνικές λεπτομέρειες, ενθαρρύνεσαι να εξετάσεις το αποθετήριο και την τεκμηρίωση για το έργο RedBridge, ώστε να [εξερευνήσεις](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) τις λεπτομέρειες ενσωμάτωσης, τα πλαίσια δοκιμών και τα πρωτόκολλα ασφαλείας.
+Για περισσότερες τεχνικές λεπτομέρειες, ενθαρρύνεσαι να εξετάσεις το αποθετήριο και την τεκμηρίωση για το έργο RedBridge, ώστε να [εξερευνήσεις](https://github.com/red-dev-inc/red-bridge) τις λεπτομέρειες ενσωμάτωσης, τα πλαίσια δοκιμών και τα πρωτόκολλα ασφαλείας.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

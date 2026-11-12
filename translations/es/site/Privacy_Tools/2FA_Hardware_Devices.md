@@ -20,7 +20,7 @@ Con llaves de seguridad físicas como la YubiKey, simplemente conectas la llave 
 
 ## ¿Cuáles son los beneficios de utilizar una llave de seguridad física?
 
-Las llaves de seguridad físicas ofrecen varias ventajas frente a los métodos tradicionales de autenticación basados en contraseñas. Son mucho más difíciles de atacar que las contraseñas, que pueden verse comprometidas fácilmente mediante ataques de fuerza bruta, ingeniería social o phishing. Las llaves de seguridad generan un código único cada vez que se utilizan, lo que hace casi imposible que los atacantes predigan o repliquen el código. También son fáciles de usar y configurar, y no requieren instalar software ni controladores adicionales en tu dispositivo.
+Cuando se utiliza con FIDO U2F o FIDO2/WebAuthn, una llave de seguridad física se autentica firmando un desafío nuevo, en lugar de generar un código para que lo escribas. El servicio conserva una clave pública, mientras que la clave privada permanece en el autenticador. Las credenciales se limitan al servicio, y el navegador verifica la identidad de la parte de confianza para resistir el phishing. Estas ventajas describen la autenticación FIDO, no todos los métodos que puede admitir una llave multiprotocolo. Comprueba que tu servicio, navegador, dispositivo y tipo de conexión admitan el método que pretendes utilizar. Consulta la introducción de [Yubico WebAuthn](https://developers.yubico.com/WebAuthn/) y la guía para desarrolladores de [FIDO2/WebAuthn](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## ¿Son compatibles las llaves de seguridad físicas con todos los dispositivos y sistemas operativos?
 

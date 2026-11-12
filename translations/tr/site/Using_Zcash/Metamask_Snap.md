@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # MetaMask Zcash Snap Entegrasyon Rehberi
+
+> ChainSafe'nin Zcash Snap'ını ve WebZjs web cüzdanını kullanarak, MetaMask tarayıcı uzantısından korumalı ZEC tutun ve gönderin.
+
+## Kısaca
+
+* ChainSafe Zcash Snap, masaüstünde (Chrome, Edge, Firefox) MetaMask'e korumalı ZEC ekler. Ayrı bir Zcash yazılımına gerek yoktur.
+* Zcash anahtarlarınız, MetaMask kurtarma ifadenizden türetilir. Bu tek ifade artık hem ETH'nizi hem de ZEC'nizi korur.
+* ZEC'u webzjs.chainsafe.dev adresindeki WebZjs cüzdanı aracılığıyla yönetirsiniz; MetaMask'nin kendi varlık listesinde değil.
+* Hesabınız birleşik bir adres alır, böylece gönderenler size destekledikleri en gizli havuzdan ödeme yapar.
+* Bunu takas yoluyla (örneğin ETH'yi ZEC ile) veya bir borsadan ZEC'ü korumalı adresinize çekerek fonlayın.
+* Kurtarma: MetaMask ve Snap'yi yeniden yükleyin, ardından mevcut kurtarma ifadenizi içe aktarın.
+
+## Temel Açıklama
+
+Bir MetaMask Snap, MetaMask'e yeni bir blokzinciri öğreten küçük, sandbox ortamında çalışan bir eklentidir. ChainSafe tarafından geliştirilen ve Hacken tarafından denetlenen Zcash Snap, MetaMask'in mevcut kurtarma ifadenizden Zcash anahtarlarını türetmesine ve Zcash işlemlerini imzalamasına olanak tanır.
+
+MetaMask kendisi bir ZEC bakiyesi göstermez. Bunun yerine, WebZjs web cüzdanı Snap'e bağlanır, lightwalletd sunucusu üzerinden Zcash ağıyla senkronize olur ve adreslerinizi ve bakiyenizi gösterir. Korumalı kanıtlar tarayıcınızda WebAssembly ile hesaplanır; bu nedenle gönderimler biraz zaman alabilir.
+
+Aşağıdaki adımlar; Snap yüklemeyi, WebZjs bağlamayı, cüzdana fon yatırmayı, gönderip almayı ve birleşik adresinizin bölümlerini kontrol etmeyi kapsar.
+
+## Tam Kılavuz
 
 Tam bir adım adım anlatım ve görsel açıklama için bu [**YouTube rehberini**](https://www.youtube.com/watch?v=UJh9Ilkohdw) izleyin: 
 

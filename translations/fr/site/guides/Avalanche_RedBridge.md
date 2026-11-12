@@ -13,8 +13,8 @@ Prise en charge de la DeFi et des DApps : les détenteurs de Zcash peuvent déso
 
 ### Composants techniques
 
-**Oracle décentralisé ZavaX**
-Description : l’oracle ZavaX est essentiel au pont, fournissant des flux de prix cross-chain et permettant des conversions ZEC vers AVAX sans confiance.
+**Oracle décentralisé ZavaX Oracle**
+Description : l’ZavaX Oracle est essentiel au pont, fournissant des flux de prix inter-chaînes et permettant des conversions ZEC vers AVAX sans confiance.
 [Lien vers l’oracle](https://zavax-oracle.red.dev)
 
 **Contrat de pont cross-chain**
@@ -25,20 +25,20 @@ Description : garantit que les fonctionnalités de confidentialité de Zcash son
 
 ## Livrables et documentation
 
-**Pont Elastic Subnet Zcash sur Avalanche** : [Proposition de subvention](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Pont Elastic Subnet Zcash sur Avalanche** : [Proposition de subvention](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Voici les principaux livrables et ressources techniques réalisés pour le projet Zcash Avalanche RedBridge :
 
-Livrable 1.1 : PoC préliminaire prenant en charge l’interrogation des transactions Zcash de testnet depuis un sous-réseau Avalanche de testnet avec une CLI, publié sur GitHub et avec un sous-réseau à un nœud sur le testnet Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Livrable 1.1 : PoC préliminaire prenant en charge l’interrogation des transactions Zcash de testnet depuis un sous-réseau Avalanche de testnet avec une CLI, publié sur GitHub et avec un sous-réseau à un nœud sur le testnet Avalanche. https://github.com/red-dev-inc/redbridge-oracle
 
-Livrable 2.1 : [Architecture](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Livrable 2.1 : [Architecture](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Jalons 3 31 mars 2024
 
 Le livrable 3.1 est terminé et présente notre analyse de l’adoption de FROST au lieu de BLS pour les signatures à seuil dans le pont ZavaX. Ce changement s’appuie sur des bibliothèques auditées de la Zcash Foundation et facilite une meilleure intégration et une meilleure sécurité. https://github.com/ZcashFoundation/frost
 
-Livrable 3.2 conception UX et UI pour l’interface graphique terminée, détaillant nos améliorations de sécurité pour le sous-réseau ZavaX Oracle, appuyées par les résultats des tests de pénétration. Pour plus de détails, y compris la configuration du serveur et les résultats des tests [Évaluation de sécurité](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Rapport d’audit](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Livrable 3.2 conception UX et UI pour l’interface graphique terminée, détaillant nos améliorations de sécurité pour le sous-réseau ZavaX Oracle, appuyées par les résultats des tests de pénétration. Pour plus de détails, y compris la configuration du serveur et les résultats des tests [Évaluation de sécurité](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Rapport d’audit](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 En outre, l’équipe a changé de marque, passant de ZavaX à redbridge, et a remplacé son jeton de staking de ZAX à RBR.
 
 ### Jalons 4 30 avril 2024
@@ -51,9 +51,9 @@ Jalons 6 30 juin 2024
 Livrable 6.1 réussite de l’audit logiciel
 Livrable 6.2 publication du code source audité dans un dépôt GitHub public
 
-Jetez un œil au [dépôt GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Jetez un œil au [dépôt GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Pour plus de détails techniques, les utilisateurs sont encouragés à consulter le dépôt et la documentation du projet RedBridge afin d’[explorer](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) les spécificités de l’intégration, les frameworks de test et les protocoles de sécurité.
+Pour plus de détails techniques, les utilisateurs sont encouragés à consulter le dépôt et la documentation du projet RedBridge afin d’[explorer](https://github.com/red-dev-inc/red-bridge) les spécificités de l’intégration, les frameworks de test et les protocoles de sécurité.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

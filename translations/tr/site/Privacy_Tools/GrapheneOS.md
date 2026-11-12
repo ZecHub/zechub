@@ -57,8 +57,8 @@ En iyi uygulamalar bölümünde belirtildiği gibi, önerilen resmî kurulum kı
 
 - 2 GB boş bellek ve 32 GB boş depolama alanı.
 - USB Kablosu (A veya C)
-- Desteklenen İşletim Sistemleri : Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 ve 23.04), ChromeOS, GrapheneOS, Google Android (stok Pixel OS)
-- Desteklenen Tarayıcılar: Chromium (Ubuntu ile desteklenmez), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- Desteklenen bir ana işletim sistemi ve çalışan WebUSB desteğine sahip bir tarayıcı kullanın. Desteklenen sürümler ve tarayıcı paketleme kısıtlamaları için mevcut [resmî WebUSBön koşulları](https://grapheneos.org/install/web#prerequisites)nı kontrol edin; kullanım ömrünü doldurmuş eski sistemler resmî olarak desteklenmez.
+- Web yükleyicisi, desteklenen bir Android cihazından, ChromeOS veya GrapheneOS üzerinden de çalıştırılabilir. Her Chromium paketinin WebUSB desteği sunduğunu varsaymak yerine resmî kılavuzdaki tarayıcıya özgü notları izleyin.
 
 Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini takip edin
 
@@ -68,8 +68,8 @@ Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini t
 
 - En az 2 GB boş belleğiniz ve 32 GB boş depolama alanınız olmalıdır
 - USB Kablosu (A veya C)
-- Desteklenen İşletim Sistemleri Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Android, ChromeOS veya GrapheneOS üzerinden Web Installer
+- [mevcut komut satırı ön koşulları](https://grapheneos.org/install/cli#prerequisites) tarafından desteklenen bir ana işletim sistemi kullanın ve gerekli araçlar için bu kılavuzu takip edin.
+- Android, ChromeOS ve GrapheneOS ana bilgisayarlarında web installer kullanılmalıdır; bunlar desteklenen komut satırı kurulum ana bilgisayarları arasında listelenmemiştir.
 
 Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini takip edin 
 
@@ -89,7 +89,7 @@ Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini t
 
 **Güvenli Kilit Ekranı** Yetkisiz erişimi önlemek için PIN, parola veya biyometrik kimlik doğrulama gibi güvenli bir kilit ekranı kullanın.
 
-**Android Cihazınızı Root Etmekten Kaçının** Root işlemi yapmaktan veya bootloader kilidini açmaktan kaçının; çünkü bu, cihaz güvenliğini zayıflatabilir.
+**Kurulumdan Sonra Bootloader'ı Yeniden Kilitleyin** Resmî kurulum süreci, [bootloader'ın geçici olarak kilidinin açılmasını](https://grapheneos.org/install/web#unlocking-the-bootloader) GrapheneOS yüklemek için, ardından tam doğrulanmış önyüklemeyi etkinleştirmek üzere kullanımdan önce [yeniden kilitlenmesini](https://grapheneos.org/install/web#locking-the-bootloader) gerektirir. Kilidi açma ve yeniden kilitleme işlemlerinin her ikisi de tüm kullanıcı verilerini siler; bu nedenle önce yedek alın ve resmî adımları sırasıyla izleyin. Kurulu işletim sistemini rootlamayın.
 
 **Uygulama Kaynaklarını Doğrulayın** Kötü amaçlı yazılım yüklemekten kaçınmak için uygulamaların ve kaynaklarının gerçekliğini doğrulayın.
 

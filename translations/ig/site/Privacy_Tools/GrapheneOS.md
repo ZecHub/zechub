@@ -57,19 +57,19 @@ Dịka e kwuru na ngalaba omume kacha mma, a tụrụ aro ka e jiri ntuziaka nr�
 
 - 2GB nke ebe nchekwa efu na 32GB nke ohere nchekwa efu.
 - Eriri USB (A ma ọ bụ C)
-- Sistemu arụmọrụ akwadoro: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 na 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Browsers akwadoro: Chromium (anaghị akwado ya na Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Brave Browser.
+- Jiri sistemu arụmọrụ onye nnabata akwadoro na browser nke nwere nkwado WebUSB na-arụ ọrụ. Lelee ihe ndị a chọrọ ugbu a nke [official WebUSB prerequisites](https://grapheneos.org/install/web#prerequisites) maka ụdị akwadoro na mmachi nke nkwakọ browser; a naghị akwado sistemu ochie ruru ọgwụgwụ ndụ ha n’ụzọ gọọmentị.
+- Onye nrụnye weebụ nwekwara ike isi na ngwaọrụ Android akwadoro rụọ ọrụ, ChromeOS ma ọ bụ GrapheneOS. Soro ndetu kpọmkwem maka browser dị na ntuziaka gọọmentị kama iche na ngwugwu Chromium ọ bụla na-akwado WebUSB.
 
 Lelee Ntuziaka nrụnye site na njikọ dị n'okpuru ma soro usoro nrụnye ahụ
 
-[GrapheneOSNtuziaka Web Installer](https://grapheneos.org/install/web#prerequisites)
+[GrapheneOS Ntuziaka Web Installer](https://grapheneos.org/install/web#prerequisites)
 
 **Nrụnye Command Line** A naghị atụ aro nrụnye command line maka ndị ọrụ na-enweghị nkà nka, a chọkwara ngwá ọrụ [tools] na akụrụngwa ndị a maka Nrụnye Command Line;
 
 - Ị kwesịrị ịnwe opekata mpe 2GB nke ebe nchekwa efu na 32GB nke ohere nchekwa efu
 - Eriri USB (A ma ọ bụ C)
-- Sistemu arụmọrụ akwadoro Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Web Installer sitere na Android, ChromeOS ma ọ bụ GrapheneOS
+- Jiri sistemu arụmọrụ nnabata nke [ihe ndị dị mkpa ugbu a maka ahịrị iwu](https://grapheneos.org/install/cli#prerequisites) kwadoro, ma soro nduzi ahụ maka ngwá ọrụ achọrọ.
+- Ndị nnabata Android, ChromeOS na GrapheneOS kwesịrị iji web installer; edepụtaghị ha dị ka ndị nnabata akwadoro maka ntinye ahịrị iwu.
 
 Lelee Ntuziaka nrụnye site na njikọ dị n'okpuru ma soro usoro nrụnye ahụ 
 
@@ -89,7 +89,7 @@ Lelee Ntuziaka nrụnye site na njikọ dị n'okpuru ma soro usoro nrụnye ah�
 
 **Ihuenyo Mkpọchi Nchekwa** Jiri ihuenyo mkpọchi nchekwa, dịka PIN, password, ma ọ bụ biometric authentication, iji gbochie ohere enweghị ikike.
 
-**Zere Rooting Ngwaọrụ Android Gị** Zere rooting ma ọ bụ imeghe bootloader, n'ihi na nke a nwere ike ime ka nchekwa ngwaọrụ daa mbà.
+**Kpọchie Bootloader Ọzọ Mgbe Echichara Wụnye** Usoro nwụnye gọọmentị chọrọ [imeghe bootloader nwa oge](https://grapheneos.org/install/web#unlocking-the-bootloader) iji flash GrapheneOS, emesịa [kpọchie ya ọzọ tupu e jiri ya](https://grapheneos.org/install/web#locking-the-bootloader) iji mee ka verified boot zuru oke rụọ ọrụ. Imeghe na ịkpọchi ọzọ nke ọ bụla na-ehichapụ data onye ọrụ niile, ya mere chekwaa ndabere tupu i malite ma soro usoro gọọmentị n'usoro. Ejila root na sistemụ arụmọrụ awụnyerela.
 
 **Nyochaa Ebe Ngwa Si** Nyochaa eziokwu nke ngwa na ebe ha si bịa iji zere ịwụnye software ọjọọ.
 

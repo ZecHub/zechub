@@ -13,8 +13,8 @@
 
 ### المكونات التقنية
 
-**أوراكل ZavaX اللامركزي**
-الوصف: يُعد أوراكل ZavaX عنصراً أساسياً في الجسر، إذ يوفر تغذيات أسعار عبر السلاسل ويتيح تحويلات ZEC إلى AVAX دون الحاجة إلى الثقة.
+**ZavaX Oracle اللامركزي**
+الوصف: يُعد ZavaX Oracle عنصراً أساسياً في الجسر، إذ يوفر تغذيات أسعار عبر السلاسل ويتيح تحويلات ZEC إلى AVAX دون الحاجة إلى الثقة.
 [رابط إلى الأوراكل](https://zavax-oracle.red.dev)
 
 **عقد الجسر الذكي عبر السلاسل**
@@ -25,20 +25,20 @@
 
 ## المخرجات والتوثيق
 
-**جسر Zcash Elastic Subnet على Avalanche**: [مقترح المنحة](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**جسر Zcash للشبكة الفرعية المرنة على Avalanche**: [مقترح المنحة](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 فيما يلي المخرجات الرئيسية والموارد التقنية المُنجزة لمشروع Zcash Avalanche RedBridge:
 
-المخرج 1.1: إثبات مفهوم أولي يدعم الاستعلام عن معاملات Zcash على الشبكة التجريبية من شبكة Avalanche فرعية تجريبية باستخدام واجهة سطر الأوامر، وقد نُشر على GitHub مع شبكة فرعية أحادية العقدة على الشبكة التجريبية لـ Avalanche. https://github.com/red-dev-inc/zavax-oracle
+المخرج 1.1: إثبات مفهوم أولي يدعم الاستعلام عن معاملات Zcash على الشبكة التجريبية من شبكة Avalanche فرعية تجريبية باستخدام واجهة سطر الأوامر، وقد نُشر على GitHub مع شبكة فرعية أحادية العقدة على الشبكة التجريبية لـ Avalanche. https://github.com/red-dev-inc/redbridge-oracle
 
-المخرج 2.1: [البنية المعمارية](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+المخرج 2.1: [البنية المعمارية](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### المرحلة 3 31 مارس 2024
 
 اكتمل المخرج 3.1، مقدماً تحليلنا لاعتماد FROST بدلاً من BLS للتواقيع الحدّية في جسر ZavaX. ويستفيد هذا التحول من المكتبات الخاضعة للتدقيق من Zcash Foundation، كما يسهّل تكاملاً وأمناً أفضل. https://github.com/ZcashFoundation/frost
 
-اكتمل المخرج 3.2 الخاص بتصميم UX وUI للواجهة الرسومية، موضحاً تحسيناتنا الأمنية لشبكة ZavaX Oracle الفرعية والمدعومة بنتائج اختبارات الاختراق. لمزيد من التفاصيل، بما في ذلك إعدادات الخادم ونتائج الاختبار [التقييم الأمني](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[تقرير التدقيق](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+اكتمل المخرج 3.2 لتصميم UX وUI للواجهة الرسومية، موضحًا تحسيناتنا الأمنية لشبكة ZavaX Oracle الفرعية، والمدعومة بنتائج اختبارات الاختراق. لمزيد من التفاصيل، بما في ذلك إعدادات الخادم ونتائج الاختبار [تقييم الأمان](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[تقرير التدقيق](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 بالإضافة إلى ذلك، أعاد الفريق إطلاق الهوية التجارية من ZavaX إلى redbridge وغيّر رمز التخزين الخاص به من ZAX إلى RBR.
 
 ### المرحلة 4 30 أبريل 2024
@@ -51,9 +51,9 @@
 المخرج 6.1 اجتياز ناجح لتدقيق البرمجيات
 المخرج 6.2 نشر الشيفرة المصدرية المُدققة في مستودع GitHub عام
 
-ألقِ نظرة على [مستودع GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+ألقِ نظرة على [مستودع GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-لمزيد من التفاصيل التقنية، يُشجَّع المستخدمون على مراجعة المستودع والتوثيق الخاص بمشروع RedBridge من أجل [استكشاف](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) تفاصيل التكامل وأطر الاختبار والبروتوكولات الأمنية.
+لمزيد من التفاصيل التقنية، يُشجَّع المستخدمون على مراجعة المستودع والتوثيق الخاص بمشروع RedBridge من أجل [استكشاف](https://github.com/red-dev-inc/red-bridge) تفاصيل التكامل وأطر الاختبار والبروتوكولات الأمنية.
 
 
 ![الصورة 1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

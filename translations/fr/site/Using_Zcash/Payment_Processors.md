@@ -4,20 +4,21 @@
 
 # Processeurs de paiement Zcash
 
-Différentes façons d’accepter des paiements en ZEC en tant que commerçant, comparées côte à côte. Chaque entrée a été vérifiée par rapport au site et à l’API du prestataire lui-même le **29 juillet 2026**.
+Différentes façons d’accepter des paiements en ZEC en tant que commerçant, comparées côte à côte. Chaque entrée a été vérifiée par rapport au site et à l’API du prestataire lui-même le **29 juillet 2026**, à l’exception de Zcash Payment Service, ajouté le **1er novembre 2026**.
 
 Le support des actifs de confidentialité change souvent, donc chaque ligne comporte sa propre date de vérification. Si vous lisez ceci plusieurs mois plus tard, vérifiez le site du prestataire avant d’intégrer sa solution.
 
 <div class="processor-table">
 
-| Processor | Custody | Shielded ZEC | Self-host | Merchant fee | Regions / KYC | Verified |
+| Prestataire | Garde | ZEC protégés | Auto-hébergement | Frais commerçant | Régions / KYC | Vérifié |
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Non dépositaire | Oui, Orchard via Unified Addresses | Oui, open source | 1 % par paiement, gratuit si auto-hébergé | Pas de KYC, régions non indiquées | 2026-07-29 |
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Non dépositaire, viewing key uniquement | Oui, shielded uniquement (Sapling, Orchard, UA) | Oui, open source | Aucun, vous ne payez que les frais réseau | Mondial, pas de KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | Non dépositaire, incoming viewing key uniquement | Oui, shielded uniquement (Sapling et Orchard) | Oui, auto-hébergé uniquement, open source | Aucun, vous ne payez que les frais réseau | Pas de compte, pas de KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | Non dépositaire | Oui, Sapling et Orchard | Non, service hébergé | Session prépayée, prix non publié | Aucun KYC indiqué, régions non indiquées | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Auto-garde côté client, règlement commerçant en monnaie fiat | Le client dépense en shielded, côté réception non documenté | Non | 1 % par paiement | États-Unis et 37 pays SEPA, ZEC dans l’UE non confirmé | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Non dépositaire par défaut | Non, adresse transparente uniquement | Non | 0,5 %, ou 1 % avec conversion | Mondial sauf là où c’est interdit, pas de KYC au départ | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Dépositaire, malgré le marketing | Non documenté | Non | 0,5 % API, 1,5 % marque blanche | Pas de KYC pour recevoir | 2026-07-29 |
+| [Plisio — paiements suspendus](https://plisio.net/) | Dépositaire, malgré le marketing | Non documenté | Non | 0,5 % API, 1,5 % marque blanche | Pas de KYC pour recevoir | 2026-07-29 |
 | [Binance Pay](https://pay.binance.com/en) | Dépositaire, hors chaîne | Non, dépôts shielded rejetés | Non | Gratuit de wallet à wallet, 0,8 % pour les versements | Restrictions géographiques, ZEC retiré en FR, ES, IT, PL | 2026-07-29 |
 
 </div>
@@ -36,7 +37,7 @@ Lorsqu’un prestataire ne publie pas une information, l’entrée indique « no
 
 ### Lequel choisir
 
-Pour un maximum de confidentialité et de contrôle, utilisez **BTCPay Server** ou une instance auto-hébergée de **CipherPay**. Les deux prennent en charge le shielded, sont open source et ne détiennent pas vos fonds.
+Pour un maximum de confidentialité et de contrôle, utilisez **BTCPay Server**, une instance auto-hébergée de **CipherPay**, ou **Zcash Payment Service** si vous pouvez ajouter un peu de code à votre site. Tous trois prennent en charge le shielded, sont open source et ne détiennent pas vos fonds.
 
 Pour accepter des paiements dans une boutique physique plutôt qu’en ligne, utilisez **Flexa**.
 
@@ -89,6 +90,29 @@ Une limite à connaître : le plugin utilise un seul wallet Zcash pour toutes le
 Le logiciel lui-même ne facture aucun frais. Vous payez les frais réseau de Zcash et vos éventuels coûts d’hébergement.
 
 **Dernière vérification :** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **Type de prise en charge** : Shielded uniquement (Sapling et Orchard)
+- **Description** : Un processeur de paiement Zcash gratuit et auto-hébergé pour les commerçants en ligne, exécuté dans un conteneur Docker ou intégré sous forme de crate Rust.
+- **URL** : [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+Un processeur gratuit et open source (MIT), développé par Andrew Arnott, qui l’utilise déjà pour des paiements réels dans sa propre application.
+
+Il ne détient jamais qu’une clé de visualisation entrante (une UIVK). Il peut voir les paiements arriver, mais ne peut pas les dépenser ; ainsi, même un serveur compromis ne peut pas déplacer vos fonds. La clé reste sur votre propre serveur, de sorte qu’aucune entreprise ne voit non plus vos paiements.
+
+Chaque paiement reçoit une nouvelle adresse unifiée avec des récepteurs Sapling et Orchard, sans récepteur transparent. Les paiements sont directement envoyés vers votre propre wallet.
+
+Il n’y a ni frais, ni compte, ni compteur d’utilisation. Vous payez les frais de réseau Zcash et votre hébergement.
+
+Il est uniquement auto-hébergé : un conteneur Docker ou une crate Rust au sein d’une application que vous exécutez déjà. Il lit la chaîne depuis un serveur lightwalletd de votre choix, vous n’avez donc pas besoin d’un nœud complet.
+
+La configuration nécessite du code, pas un plugin. Votre site demande au service une adresse de paiement et un code QR au moment du paiement, et le service indique à votre site lorsque l'argent arrive via des webhooks signés. Il existe un client npm pour JavaScript et les backends TypeScript, ainsi qu'une [boutique de démonstration](https://github.com/nerdcash/zcash-payment-demo-store) open source dont vous pouvez vous inspirer. Il n'existe pas de plugin pour Shopify ni pour WooCommerce, vous devez donc contrôler le code de votre site, ou faire appel à un développeur qui y a accès.
+
+Éléments à prendre en compte. C’est nouveau : le dépôt a démarré en juin 2026, le client npm est en version 0.1, il n’y a pas encore de versions publiées avec un tag et aucun audit de sécurité n’a été publié. Son API ne dispose pas de son propre système de connexion, alors gardez-le sur un réseau privé et ne l’exposez jamais à internet. Et comme pour tout paiement blindé, un remboursement nécessite que l’acheteur vous fournisse une adresse.
+
+**Dernière vérification :** 2026-11-01
 
 ---
 
@@ -150,11 +174,14 @@ Disponible dans le monde entier sauf là où la loi l’interdit. Vous n’avez 
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Logo de Plisio" class="processor-logo processor-logo-wide" />
-- **Support Type**: Transparent (non documenté)
-- **Description**: Plisio est une passerelle de paiement en cryptomonnaie qui permet aux entreprises d’accepter des paiements en Zcash.
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
-<img src="/content-images/plisio-wordmark.png" alt="Logo de Plisio" width="200" hidden />
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **Paiements suspendus — vérifié le 12 novembre 2026.** La [page d’accueil](https://plisio.net/) de Plisio indique que les paiements entrants et sortants sont temporairement suspendus pendant que les travaux de rétablissement sont en cours. Vérifiez auprès du prestataire avant d’envoyer des fonds. Sa page spécifique à Zcash renvoie actuellement une erreur 404 ; cela ne permet pas d’établir que ZEC a été retiré. Les informations ci-dessous relatives aux frais, à la garde et à la prise en charge des adresses ont été examinées pour la dernière fois le 29 juillet 2026 et n’ont pas été revérifiées.
+
+- **Type de prise en charge** : Transparent (non documenté)
+- **Description** : Plisio est une passerelle de paiement en cryptomonnaies qui a répertorié la prise en charge de Zcash. Le traitement des paiements est actuellement suspendu ; consultez l’avis daté ci-dessus.
+- **URL** : [Plisio](https://plisio.net/)
+<img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Considérez-le comme dépositaire. Le marketing de Plisio le présente comme non dépositaire, mais ses propres pages d’aide décrivent des soldes détenus sur la plateforme, du cold storage et un processus de retrait. L’affirmation de non-dépositaire n’a pas pu être confirmée.
 

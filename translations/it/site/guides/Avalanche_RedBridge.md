@@ -13,8 +13,8 @@ Supporto per DeFi e DApp: i detentori di Zcash possono ora partecipare a varie p
 
 ### Componenti tecnici
 
-**Oracolo decentralizzato ZavaX**
-Descrizione: l'oracolo ZavaX è cruciale per il bridge, fornendo feed di prezzo cross-chain e abilitando conversioni trustless da ZEC ad AVAX.
+**Oracolo decentralizzato ZavaX Oracle**
+Descrizione: l'ZavaX Oracle è cruciale per il bridge, fornendo feed dei prezzi cross-chain e abilitando conversioni trustless da ZEC ad AVAX.
 [Link all'oracolo](https://zavax-oracle.red.dev)
 
 **Contratto del bridge cross-chain**
@@ -25,20 +25,20 @@ Descrizione: garantisce che le funzionalità di privacy di Zcash siano preservat
 
 ## Deliverable e documentazione
 
-**Zcash Elastic Subnet Bridge su Avalanche**: [Proposta di grant](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
-Di seguito i deliverable chiave e le risorse tecniche completati per il progetto Zcash Avalanche RedBridge:
+**Zcash Elastic Subnet Bridge su Avalanche**: [Proposta di finanziamento](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
+Di seguito sono riportati i deliverable chiave e le risorse tecniche completati per il progetto Zcash Avalanche RedBridge:
 
-Deliverable 1.1: PoC preliminare che supporta l'interrogazione di transazioni di Zcash testnet da una subnet Avalanche testnet tramite una CLI, pubblicato su GitHub e con una subnet a singolo nodo sulla testnet di Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Deliverable 1.1: PoC preliminare che supporta l'interrogazione di transazioni di Zcash testnet da una subnet Avalanche testnet tramite una CLI, pubblicato su GitHub e con una subnet a singolo nodo sulla testnet di Avalanche. https://github.com/red-dev-inc/redbridge-oracle
 
-Deliverable 2.1: [Architettura](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Consegna 2.1: [Architettura](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Milestone 3 - 31 marzo 2024
 
 Il Deliverable 3.1 è completo e presenta la nostra analisi sull'adozione di FROST al posto di BLS per le firme a soglia nel bridge ZavaX. Questo cambiamento sfrutta librerie sottoposte ad audit dalla Zcash Foundation e facilita una migliore integrazione e sicurezza. https://github.com/ZcashFoundation/frost
 
-Deliverable 3.2 - Design UX e UI per la GUI completato, con dettagli sui nostri miglioramenti di sicurezza per la subnet dell'oracolo ZavaX, supportati dai risultati dei penetration test. Per maggiori dettagli, inclusi la configurazione del server e gli esiti dei test [Security Assesment](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Audit Report](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Deliverable 3.2 - Design UX e UI per la GUI completato, con dettagli sui nostri miglioramenti di sicurezza per la subnet ZavaX Oracle, supportati dai risultati dei penetration test. Per maggiori dettagli, inclusi la configurazione del server e gli esiti dei test [Valutazione della sicurezza](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Rapporto di audit](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Inoltre, il team ha effettuato un rebranding da ZavaX a redbridge e ha cambiato il token di staking da ZAX a RBR.
 
 ### Milestone 4 - 30 aprile 2024
@@ -51,9 +51,9 @@ Milestone 6 - 30 giugno 2024
 Deliverable 6.1 - Superamento con successo dell'audit del software
 Deliverable 6.2 - Pubblicazione del codice sorgente sottoposto ad audit in un repository GitHub pubblico
 
-Dai un'occhiata al [repository GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Dai un'occhiata al [repository GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Per maggiori dettagli tecnici, gli utenti sono invitati a esaminare il repository e la documentazione del progetto RedBridge per [esplorare](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) le specifiche dell'integrazione, i framework di test e i protocolli di sicurezza.
+Per maggiori dettagli tecnici, ti invitiamo a consultare il repository e la documentazione del progetto RedBridge per [esplorare](https://github.com/red-dev-inc/red-bridge) le specifiche dell'integrazione, i framework di test e i protocolli di sicurezza.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
