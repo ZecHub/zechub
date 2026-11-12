@@ -8,6 +8,19 @@ Ironwood is the shielded pool that arrived with the July 2026 network upgrade. E
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- Website: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Pairs: ZEC/BTC
+- Supports: Transparent
+- Deposit Time: About 30 minutes (24 confirmations)
+- Ironwood: Not applicable, transparent addresses only
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
