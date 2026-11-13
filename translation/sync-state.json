@@ -5525,8 +5525,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+handfix",
@@ -7391,8 +7391,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "c91be3158d602cb0006f8d79b250130c9ddbb8c6",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -9747,8 +9747,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "b93280ad2cd1f16f760f35e63397484b1f6dbad2",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -16817,8 +16817,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "full",
       "tool": "google/gemma-4-26b-a4b+handfix+mdxfix",
@@ -17259,8 +17259,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "0112da1d9be77d4b6aff8f61412c466c7f6894d6",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -20581,8 +20581,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+itglossary+handfix+itdizcash",
@@ -24345,8 +24345,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "seed",
       "tool": "qwen3-14b+handfix",
@@ -30007,8 +30007,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "9dbb4fcc0af8ed485eed72ec4f0257473436345a",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -31873,8 +31873,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+handfix",
@@ -33755,8 +33755,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "seed",
       "tool": "gpt-5.4+handfix",
@@ -36063,8 +36063,8 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "bb47d6d60a303b4718f16c94989a58c641817e1f",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
