@@ -7761,11 +7761,11 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "eaa2c902ebfcd9c6b965430907983c8fae0a0f45",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "19375d4c0d86039bc170e2df63421539113cf40b",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "diff",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
