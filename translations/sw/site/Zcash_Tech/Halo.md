@@ -28,13 +28,13 @@ Halo ni mfumo wa thibitisho la maarifa sifuri usiohitaji uaminifu na unaojirudia
 
 ### Hakuna usanidi unaoaminika
 
-zk-SNARKs hutegemea mfuatano wa pamoja wa marejeleo (CRS) kama kigezo cha umma cha kuthibitisha na kuhakiki. CRS hii lazima itengenezwe mapema na mhusika anayeaminika. Hadi hivi karibuni, ukokotoaji tata salama wa wahusika wengi (MPC) — kama ule uliofanywa na mtandao wa Aztec na Zcash — ulikuwa muhimu kupunguza hatari iliyohusika wakati wa [sherehe ya usanidi unaoaminika](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
+Baadhi ya miundo ya zk-SNARK, kama Groth16, huhitaji usanidi unaoaminika [trusted setup] ili kuzalisha vigezo vyake vya umma, ambavyo mara nyingi huitwa mfuatano wa pamoja wa marejeleo (CRS). CRS hushirikiwa na wathibitishaji na wahakiki; si siri inayopaswa kuharibiwa. Nyenzo za siri za kati (“taka zenye sumu” [toxic waste]) zinazozalishwa na usanidi kama huo lazima zitupwe. Ukokotoaji salama wa wahusika wengi unaweza kusambaza uaminifu huo: sherehe ni salama ikiwa angalau mshiriki mmoja anafuata itifaki na kuharibu mchango wake wa siri. Tazama maelezo ya ECC kuhusu [vigezo vya umma na taka zenye sumu](https://zodl.com/snark-parameters/).
 
-Mabwawa ya faragha ya awali ya Zcash ya Sprout na Sapling yalitumia mifumo ya kuthibitisha ya zk ya BCTV14 na Groth16. Ingawa hii ilikuwa salama, ilikuwa na vikwazo: haikuweza kupanua uwezo kwa sababu ilifungwa kwenye programu moja, “taka zenye sumu” (mabaki ya nyenzo za kificho zilizotengenezwa wakati wa sherehe ya mwanzo) zingeweza kubaki, na kulikuwa na kipengele cha uaminifu (japokuwa kidogo sana) katika kuamua kwamba sherehe ilikubalika.
+Mabwawa ya faragha ya awali ya Zcash ya Sprout na Sapling yalitumia mifumo ya uthibitishaji ya usanidi unaoaminika [trusted setup], BCTV14 na Groth16 mtawalia. Vigezo vyake vya umma vinaendelea kupatikana kwa ajili ya kuthibitisha na uhakiki. Wasiwasi ni iwapo nyenzo za siri za usanidi zilihifadhiwa, jambo ambalo lingeweza kuruhusu mathibitisho ya uongo; kuchapisha CRS yenyewe kunatarajiwa na hakufichui nyenzo hizo za siri.
 
-Halo huondoa usanidi unaoaminika kwa kuunganisha mara kwa mara vielelezo vingi vya matatizo magumu pamoja katika mizunguko ya mikunjo ya eliptiki, ili mathibitisho ya ukokotoaji yaweze kutumiwa kujielezea kwa ufanisi (ugawaji wa gharama uliopachikwa). Athari ya pembeni ni kwamba mfuatano wa marejeleo uliopangiliwa (matokeo ya sherehe) unaweza kuboreshwa, na hivyo kuwezesha programu kama mikataba mahiri [smart contracts].
+Halo huunganisha utungaji rejeshi wa mathibitisho [proof] na mpango wa commitment wa polinomu unaotegemea hoja ya bidhaa ya ndani. Vigezo vyake vya umma havihitaji sherehe ya usanidi unaoaminika [trusted setup] au uharibifu wa trapdoor ya siri ya usanidi. Kitabu cha [Halo 2 kinaelezea vigezo hivi vya umma vya kikundi](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Hili ni tofauti na kufanya mfuatano wa marejeleo uliopangiliwa [structured reference string] uliotengenezwa na sherehe uweze kuboreshwa.
 
-Halo huwapa watumiaji uhakikisho mbili muhimu kuhusu usalama wa mfumo mkubwa wa thibitisho la maarifa sifuri. Kwanza, huwawezesha watumiaji kuthibitisha kwamba hakuna yeyote aliyehusika katika sherehe ya mwanzo aliyeunda njia ya siri ya kutekeleza miamala ya udanganyifu. Pili, huwaruhusu watumiaji kuonyesha kwamba mfumo umeendelea kuwa salama kadiri muda ulivyopita, hata baada ya kufanyiwa masasisho na mabadiliko.
+Kuondoa hitaji hili la usanidi huepusha utegemezi wa uharibifu wa nyenzo za siri za sherehe kwa ajili ya mathibitisho [proofs] ya Halo. Hii haithibitishi kwamba sherehe ya awali ya Sprout au Sapling haikuathiriwa, wala haithibitishi kwamba mabadiliko yote ya baadaye ya itifaki ni salama. Mathibitisho rejeshi hushuhudia hesabu zilizosimbwa katika saketi zake, kwa kuzingatia dhana za mfumo wa thibitisho. Saketi sahihi na utekelezaji bado ni muhimu; maelezo ya ECC kuhusu utekelezaji wa [Halo 2 yanaeleza wazi hatari ya hitilafu mpya au kasoro za muundo](https://zodl.com/technical-explainer-halo-on-zcash/).
 
 [Sean Bowe's maelezo katika Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo hugeuza kila hati iliyohakikiwa kuwa muhuri kwenye hati *inayofuata*, hadi 
 
 ### Kwa nini kuondoa usanidi unaoaminika ni muhimu
 
-Katika mifumo ya zamani, “muhuri” (CRS) ulitokana na sherehe. Washiriki walipaswa kuharibu nyenzo za kati, na kila mtu alipaswa kuamini kwamba walifanya hivyo. Muhuri wa Halo hutengenezwa na hisabati pekee: hakuna cha kuharibu, hakuna cha kuvuja, na hakuna sherehe ya kuamini.
+Katika mifumo ya zamani yenye usanidi unaoaminika [trusted setup], “muhuri” wa umma (CRS) ulitokana na sherehe. Washiriki walipaswa kuharibu nyenzo zao za siri za kati huku vigezo vya umma vikiendelea kupatikana. Halo huepuka sherehe hiyo na trapdoor yake ya siri ya usanidi. Hii haiondoi hitaji la kulinda funguo za kutumia pesa za watumiaji au kukagua dhana na utekelezaji wa mfumo wa thibitisho.
 
 ---
 
@@ -120,7 +120,7 @@ Aidha, Halo 2 iko chini ya leseni za chanzo huria za [MIT na Apache 2.0](https:/
 | Imani ya kawaida | Hali halisi ni ipi |
 | --- | --- |
 | “Halo ni uboreshaji wa baadaye ambao Zcash inasubiri.” | Orchard, inayotumika kwenye mainnet tangu NU5 (2022), tayari hutumia Halo 2. |
-| “Kutokuwa na usanidi unaoaminika kunamaanisha kutokuwa na vigezo kabisa.” | Halo bado hutumia vigezo vilivyopangiliwa; tofauti ni kwamba havina taka zenye sumu na vinaweza kutengenezwa na kuboreshwa bila sherehe ambayo washiriki wanapaswa kuiamini. |
+| “Kutokuwa na usanidi unaoaminika kunamaanisha kutokuwa na vigezo kabisa.” | Halo bado hutumia vigezo vya umma. Havihitaji sherehe ambayo washiriki wanapaswa kuaminika kuharibu nyenzo za siri za usanidi. |
 | “Halo 2 na makala ya Halo ni kitu kimoja.” | [makala](https://eprint.iacr.org/2019/1021.pdf) yanaeleza mpango wa commitment za polinomu na ugawaji wa gharama uliopachikwa; Halo 2 ni utekelezaji wa uzalishaji wa Rust wenye mpango wa mkusanyiko na arithmetization ya PLONKish. |
 | “Ujirudiaji husaidia tu kupanua uhakiki wa block.” | Ujirudiaji pia hubana ukokotoaji wa kiwango cha programu — tazama mathibitisho ya Filecoin ya muda wa nafasi/urudufu na kazi ya VDF kwa Ethereum. |
 

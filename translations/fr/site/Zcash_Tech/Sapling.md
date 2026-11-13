@@ -12,6 +12,18 @@ Sapling a été la deuxième mise à niveau majeure du réseau Zcash, activée p
 
 Pourquoi c’est important. Avant Sapling, effectuer un paiement réellement privé signifiait attendre plusieurs minutes pendant que votre ordinateur utilisait des gigaoctets de mémoire pour construire la preuve. C’était trop lent et trop lourd pour la plupart des gens, si bien que beaucoup d’utilisateurs, d’exchanges et de commerces ont évité les transactions shielded et ont envoyé des ZEC à découvert à la place. Sapling a réduit ce travail à quelques secondes et environ 40 mégaoctets de mémoire. Ce seul changement a rendu les ZEC shielded pratiques à utiliser au quotidien, sur des téléphones ordinaires et sur des hardware wallets.
 
+## En bref
+
+- Sapling a été la deuxième mise à niveau majeure du réseau Zcash, activée au bloc 419 200 (29 octobre 2018, 02:15 UTC) — le deuxième anniversaire de Zcash.
+- Elle a reconstruit les transactions shielded autour de deux circuits conçus pour cet usage (Spend et Output), remplaçant le circuit JoinSplit unique et lent de Sprout (ZIP 205, ZIP 243).
+- Résultat : la construction des preuves est passée de plusieurs minutes et gigaoctets de mémoire à quelques secondes et environ 40 Mo — suffisamment légère pour les téléphones et les hardware wallets.
+- Nouvelles fonctionnalités : adresses diversifiées (de nombreuses adresses de paiement non corrélables à partir d’une seule clé), viewing keys pour un accès d’audit uniquement, et dissociation de la génération de preuves de la signature.
+- Ses paramètres provenaient d’une cérémonie multipartite en deux phases (Powers of Tau + MPC Sapling) ; la sécurité est assurée si ne serait-ce qu’un seul participant était honnête.
+
+## Analogie visuelle
+
+Sprout était un coursier privé qui acheminait chaque lettre à la main à travers le pays — parfaitement privé, mais lent et épuisant. Sapling a transformé ce même coursier en cycliste avec un sac à dos léger : toujours privé, mais assez rapide pour les livraisons quotidiennes. Et les nouvelles clés de visualisation reviennent à donner à un auditeur une fenêtre claire sur le registre du coursier sans jamais lui remettre les clés de la cargaison.
+
 ## Ce qui a changé
 
 Au cœur de Sapling se trouve une méthode plus rapide pour construire la preuve à divulgation nulle de connaissance qui préserve la confidentialité d’une transaction shielded. Le design Sprout d’origine utilisait un seul circuit de preuve (le circuit JoinSplit), lent et gourmand en mémoire. Sapling l’a remplacé par deux circuits conçus pour cet usage, un circuit Spend et un circuit Output, décrits dans la Spécification du protocole Zcash. Le résultat est une forte baisse du coût. Selon Electric Coin Company, une transaction shielded peut être construite en seulement quelques secondes en utilisant environ 40 mégaoctets de mémoire. La référence Sprout avant Sapling était bien plus lourde, de l’ordre de plusieurs minutes et de plusieurs gigaoctets de mémoire (ces chiffres côté Sprout sont la référence approximative la plus couramment citée).
@@ -35,6 +47,14 @@ Les circuits de Sapling reposent sur un ensemble de paramètres publics qui deva
 Sapling a suivi Overwinter, la mise à niveau de juin 2018 qui a préparé le mécanisme de mise à niveau du réseau. Electric Coin Company a fixé la hauteur d’activation du mainnet dans zcashd 2.0.0, publié en août 2018, et le réseau est passé aux règles de Sapling lorsque le bloc 419 200 a été miné. On-chain, ce moment est marqué par le consensus branch id de Sapling.
 
 ![Chronologie du lancement de Zcash jusqu’à l’activation de Sapling](/content-images/sapling-timeline-6cad184c30.webp)
+
+## Erreurs fréquentes
+
+- **Supposer que les paiements protégés ont toujours été utilisables.** Avant Sapling, la construction des preuves prenait des minutes et nécessitait des gigaoctets de mémoire ; la plupart des utilisateurs, plateformes d’échange et boutiques évitaient donc entièrement les transactions protégées.
+- **Considérer les adresses de Sapling comme identiques à celles de Sprout.** Sapling a introduit ses propres types d’adresses et de clés (ainsi que des adresses diversifiées et des clés de visualisation) ; les clés Sprout ne sont pas interopérables avec les adresses Sapling.
+- **Croire que la configuration de confiance était « le secret d’une seule entreprise ».** Il s’agissait d’une cérémonie multipartite : les preuves ne pouvaient être falsifiées que si tous les participants collaboraient.
+- **Penser que Sapling a modifié l’émission ou les soldes.** Il a modifié la manière dont les transactions protégées sont construites — aucun montant ZEC n’a été affecté.
+- **Supposer que la génération des preuves et la signature doivent avoir lieu sur le même appareil.** Le découplage de Sapling permet précisément aux wallets matériels de conserver les clés de dépense isolées pendant qu’un autre appareil construit les preuves.
 
 ## Glossaire
 
@@ -88,5 +108,12 @@ Sous Sprout, la construction d’une transaction shielded prenait plusieurs minu
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
+
+## Pages associées
+
+- [Clés de visualisation](./Viewing_Keys.md) — la fonctionnalité de partage d’audit introduite par Sapling
+- [Sprout](./Sprout.md) — le protocole blindé d’origine remplacé par Sapling
+- [Blossom](./Blossom.md) — la prochaine mise à niveau de la série (synchronisation des blocs, pas cryptographie)
+- [zk_SNARKS](./zk_SNARKS.md) — la technologie à divulgation nulle de connaissance derrière les circuits
 
 Série : [Index des mises à niveau du réseau](../start-here/network-upgrades) · Précédent : [Overwinter](../zcash-tech/overwinter) · Suivant : [Blossom](../zcash-tech/blossom)

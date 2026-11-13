@@ -4,21 +4,22 @@
 
 # Processadores de pagamentos do Zcash
 
-Formas de aceitar ZEC como comerciante, comparadas lado a lado. Cada entrada foi verificada no próprio site e na API do fornecedor em **29 de julho de 2026**.
+Formas de aceitar ZEC como comerciante, comparadas lado a lado. Cada entrada foi verificada no próprio site e na API do fornecedor em **29 de julho de 2026**, exceto Zcash Payment Service, adicionada em **1 de novembro de 2026**.
 
 O suporte a ativos de privacidade muda com frequência, por isso cada linha inclui sua própria data de verificação. Se você estiver lendo isto meses depois, verifique o site do fornecedor antes de integrar.
 
 <div class="processor-table">
 
-| Processor | Custody | Shielded ZEC | Self-host | Merchant fee | Regions / KYC | Verified |
+| Processador | Custódia | Blindado ZEC | Auto-hospedagem | Taxa do comerciante | Regiões / KYC | Verificado |
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | Não custodial | Sim, Orchard via Unified Addresses | Sim, open source | 1% por pagamento, grátis se hospedado por conta própria | Sem KYC, regiões não informadas | 2026-07-29 |
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | Não custodial, apenas chave de visualização | Sim, apenas blindado (Sapling, Orchard, UA) | Sim, open source | Nenhuma, você paga apenas as taxas de rede | Global, sem KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | Não custodial, apenas chave de visualização de entrada | Sim, apenas blindado (Sapling e Orchard) | Sim, apenas hospedado por conta própria, open source | Nenhuma, você paga apenas as taxas de rede | Sem conta, sem KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | Não custodial | Sim, Sapling e Orchard | Não, serviço hospedado | Sessão pré-paga, preço não publicado | KYC não informado, regiões não informadas | 2026-07-29 |
 | [Flexa](https://flexa.co/) | Autocustódia do cliente, o comerciante recebe em moeda fiduciária | O cliente gasta fundos blindados, lado recebedor não documentado | Não | 1% por pagamento | EUA e 37 países SEPA, ZEC na UE não confirmado | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | Não custodial por padrão | Não, apenas endereço transparente | Não | 0,5%, ou 1% com conversão | Global, exceto onde proibido, sem KYC para começar | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | Custodiante, apesar do marketing | Não documentado | Não | 0,5% API, 1,5% white label | Sem KYC para receber | 2026-07-29 |
-| [Binance Pay](https://pay.binance.com/en) | Custodiante, off-chain | Não, depósitos blindados rejeitados | Não | Grátis de carteira para carteira, 0,8% em pagamentos ao comerciante | Restrito geograficamente, ZEC removido em FR, ES, IT, PL | 2026-07-29 |
+| [Plisio — pagamentos suspensos](https://plisio.net/) | Custodiante, apesar do marketing | Não documentado | Não | 0,5% API, 1,5% white label | Sem KYC para receber | 2026-07-29 |
+| [Binance Pay](https://pay.binance.com/en) | Custodiante, off-chain | Não, depósitos blindados rejeitados | Não | Grátis de carteira para carteira, 0,8% em saques | Restrito geograficamente, ZEC removido em FR, ES, IT, PL | 2026-07-29 |
 
 </div>
 
@@ -36,7 +37,7 @@ Quando um fornecedor não publica alguma informação, a entrada diz "não infor
 
 ### Qual escolher
 
-Para ter o máximo de privacidade e controle, use **BTCPay Server** ou **CipherPay** hospedado por conta própria. Ambos são blindados, open source e não mantêm fundos para você.
+Para ter o máximo de privacidade e controle, use **BTCPay Server**, **CipherPay** hospedado por conta própria ou **Zcash Payment Service** se você puder adicionar um pouco de código ao seu site. Os três são blindados, open source e não mantêm fundos para você.
 
 Para aceitar pagamentos em uma loja física em vez de online, use **Flexa**.
 
@@ -89,6 +90,29 @@ Uma limitação importante: o plugin usa uma única carteira Zcash para todas as
 O próprio software não cobra nenhuma taxa. Você paga as taxas de rede do Zcash e seus custos de hospedagem.
 
 **Última verificação:** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **Tipo de suporte**: Apenas blindado (Sapling e Orchard)
+- **Descrição**: Um processador de pagamentos Zcash gratuito e auto-hospedado para comerciantes online, executado como um contêiner Docker ou incorporado como uma crate Rust.
+- **URL**: [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+Um processador gratuito e de código aberto (MIT), desenvolvido por Andrew Arnott, que já o usa para pagamentos reais em seu próprio app.
+
+Ela mantém apenas uma chave de visualização de entrada (uma UIVK). Ela consegue ver os pagamentos chegando, mas não pode gastá-los, portanto nem mesmo um servidor comprometido pode mover seus fundos. A chave permanece no seu próprio servidor, então nenhuma empresa vê seus pagamentos.
+
+Cada checkout recebe um novo endereço unificado com receptores Sapling e Orchard e nenhum transparente. Os pagamentos vão diretamente para sua própria carteira.
+
+Não há taxa, conta nem medidor de uso. Você paga as taxas de rede do Zcash e sua hospedagem.
+
+É apenas auto-hospedado: um container Docker ou uma crate Rust dentro de um app que você já executa. Ele lê a chain de um servidor lightwalletd que você escolher, então você não precisa de um nó integral.
+
+Configurá-lo exige código, não um plugin. Seu site pede ao serviço um endereço de pagamento e um código QR no checkout, e o serviço informa ao seu site quando o dinheiro chega por meio de webhooks assinados. Há um cliente npm para JavaScript e backends TypeScript, e uma [loja de demonstração](https://github.com/nerdcash/zcash-payment-demo-store) de código aberto para você copiar. Não há plugin para Shopify nem WooCommerce, portanto você precisa ter controle do código do seu site ou contar com um desenvolvedor que o tenha.
+
+Pontos a ponderar. Ele é novo: o repositório começou em junho de 2026, o cliente npm está na versão 0.1, ainda não há lançamentos com tag e não há uma auditoria de segurança publicada. Sua API não tem login próprio, portanto mantenha-a em uma rede privada e nunca a exponha à internet. E, como em qualquer pagamento blindado, um reembolso exige que o comprador forneça a você um endereço.
+
+**Última verificação:** 2026-11-01
 
 ---
 
@@ -150,10 +174,13 @@ Disponível globalmente, exceto onde a lei o proíbe. Você não precisa de KYC 
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **Pagamentos suspensos — verificado em 12 de novembro de 2026.** A [página inicial](https://plisio.net/) de Plisio informa que os pagamentos recebidos e enviados estão temporariamente suspensos enquanto o trabalho de restauração está em andamento. Verifique com o provedor antes de enviar fundos. Sua página específica para Zcash atualmente retorna 404; isso não estabelece que ZEC foi removido da listagem. Os detalhes sobre taxa, custódia e suporte a endereços abaixo foram revisados pela última vez em 29 de julho de 2026 e não foram verificados novamente.
+
 - **Tipo de suporte**: Transparente (não documentado)
-- **Descrição**: Plisio é um gateway de pagamentos em criptomoedas que permite às empresas aceitar pagamentos em Zcash.
-- **URL**: [Plisio](https://plisio.net/accept-zcash)
+- **Descrição**: Plisio é um gateway de pagamentos de criptomoedas que listou suporte a Zcash. O processamento de pagamentos está atualmente suspenso; consulte o aviso datado acima.
+- **URL**: [Plisio](https://plisio.net/)
 <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" width="200" hidden />
 
 Trate-a como custodiante. O marketing da Plisio a chama de não custodial, mas suas próprias páginas de ajuda descrevem saldos mantidos na plataforma, cold storage e um processo de saque. A alegação de não custodial não pôde ser confirmada.

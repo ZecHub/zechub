@@ -45,6 +45,36 @@ Les clés de visualisation unifiées fonctionnent de la même façon pour la con
 
 NU5 a suivi les mises à niveau antérieures de Zcash : Overwinter, Sapling, Blossom, Heartwood et Canopy. Il a été activé sur le réseau principal le 31 mai 2022. Le cycle de courbes de Orchard a été choisi parce qu’il prend en charge la récursivité, ce qui constitue une base pour de futurs travaux de mise à l’échelle. NU5 est le prédécesseur direct de la lignée de mises à niveau NU6 et NU6.x, qui s’est appuyée sur le pool Orchard avant de le corriger par la suite.
 
+## En bref
+
+- NU5 a été activé sur le mainnet au bloc 1,687,104 (31 mai 2022 UTC) — la plus importante mise à niveau cryptographique de Zcash depuis Sapling, déployée par ZIP 252.
+- Il a lancé le pool protégé Orchard, le premier pool Zcash construit sur Halo 2 — un système de preuve ne nécessitant aucune configuration de confiance.
+- Il a introduit les Unified Addresses et les clés de visualisation unifiées (ZIP 316) : une seule chaîne d’adresse pouvant regrouper des récepteurs pour plusieurs pools.
+- Il a fait passer les transactions au format version 5 (ZIP 225) et rendu les identifiants de transaction non malléables (ZIP 244).
+- Orchard fonctionne sur le cycle de courbes Pallas/Vesta, qui prend en charge les preuves récursives — une base pour les futurs travaux de mise à l’échelle et la lignée NU6.x.
+
+## Explication fondamentale
+
+Le problème de la configuration de confiance : Sprout (2016) et Sapling (2018) ont chacun nécessité une cérémonie unique pour générer des paramètres secrets, et la sécurité reposait sur le fait qu’au moins un participant détruise son fragment. Si chaque participant avait secrètement conservé une copie, des ZEC contrefaits auraient été possibles. Orchard élimine entièrement cette hypothèse : Halo 2 n’utilise aucune configuration de confiance ni chaîne de référence structurée, il n’existe donc aucun secret susceptible d’être mal utilisé un jour.
+
+NU5 regroupait plusieurs changements de consensus, activés simultanément : le pool Orchard (ZIP 224), le format de transaction version 5 (ZIP 225), les adresses unifiées (ZIP 316), la non-malléabilité de l’identifiant de transaction (ZIP 244), les encodages canoniques des points Jubjub (ZIP 216) et le relais pair à pair des transactions v5 (ZIP 239). Il mettait également à jour les ZIP 32, 203, 209, 212, 213, 221 et 401 afin de prendre en compte le nouveau pool.
+
+## Analogie visuelle
+
+Les anciens pools sont comme des coffres-forts dont la combinaison a été générée lors d’une cérémonie collective unique — vous faites confiance à ce que chaque participant ait déchiqueté son exemplaire. Orchard est un coffre-fort dont la serrure se revérifie à chaque utilisation : aucune cérémonie, aucun secret maître, rien qui aurait pu être conservé. Les adresses unifiées sont une carte de visite qui répertorie chaque entrée — transparent, Sapling, Orchard — et le visiteur choisit la porte qu’il peut réellement ouvrir.
+
+## Approfondissement
+
+Halo 2 utilise une arithmétisation PLONKish sur le cycle de courbes Pallas et Vesta — deux courbes compatibles avec les pairings qui se complètent, ce qui permet la récursion : des preuves qui vérifient d’autres preuves. Cette récursion constitue la base sur laquelle reposent les travaux ultérieurs de mise à l’échelle de Zcash. La structure des transactions v5 sépare les régions transparentes, Sapling et Orchard, et abandonne les champs Sprout ; l’ancien format version 4 est resté valide après l’activation. ZIP 244 recalcule l’identifiant de transaction à partir de ce qu’une transaction fait, et non à partir des preuves et signatures qui l’autorisent, éliminant ainsi les vecteurs de malléabilité.
+
+## Erreurs courantes
+
+- **Penser que NU5 a supprimé la configuration de confiance pour tous les pools.** Seul Orchard ne nécessite pas de cérémonie ; les paramètres de Sapling existent toujours, donc la garantie d’absence de configuration s’applique aux fonds détenus dans Orchard.
+- **Supposer que les anciennes adresses ou les anciens wallets ont cessé de fonctionner.** NU5 a ajouté des options ; les types d’adresses propres à chaque pool et le format de transaction v4 sont restés valides.
+- **Confondre Orchard avec Halo 2.** Orchard est le protocole/pool blindé ; Halo 2 est le système de preuve qu’il utilise.
+- **Considérer les adresses unifiées comme le seul type d’adresse.** Elles constituent un format supplémentaire que vous pouvez adopter lorsque votre wallet les prend en charge.
+- **Croire que NU5 a modifié l’émission ou la confidentialité existante.** Il a ajouté un pool et des formats ; ZEC existant et sa confidentialité n’ont pas été affectés.
+
 ## Glossaire
 
 | Terme | Signification en langage clair |
@@ -109,5 +139,13 @@ Orchard est construit sur le système de preuve Halo 2, qui ne nécessite aucune
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Pages connexes
+
+- [Halo](./Halo.md) — le système de preuve sans configuration de confiance derrière Orchard
+- [Adresses unifiées](./Unified_Addresses.md) — approfondissement de l’adressage ZIP 316
+- [Sapling](./Sapling.md) — l’ancien pool protégé, toujours lié à sa cérémonie
+- [NU6](./NU6.md) — la prochaine mise à niveau, construite sur le pool Orchard
+- [zk_SNARKS](./zk_SNARKS.md) — la technologie de preuve à divulgation nulle de connaissance sous-jacente
 
 Série : [Index des mises à niveau du réseau](../start-here/network-upgrades) · Précédent : [Canopy](../zcash-tech/canopy) · Suivant : [NU6](../zcash-tech/nu6)
