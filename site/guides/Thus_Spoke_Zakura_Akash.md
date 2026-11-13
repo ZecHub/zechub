@@ -29,9 +29,9 @@ They are **not** the ports on the provider's public IP.
 | Service | Container listen | SDL `as` | How it shows up on the lease |
 | --- | --- | --- | --- |
 | `app` (dashboard + HTTP API) | 8080 | 80 (HTTP) | Ingress hostname, often on 80/443 — **open this URI in a browser** |
-| `lightwalletd` | 9067 | 9067 (TCP, global) | `host:<random-high-port>` |
-| `zakura` RPC | 18232 | 18232 (TCP, global) | `host:<random-high-port>` |
-| `zakura` P2P | 18233 | 18233 (TCP, global) | `host:<random-high-port>` |
+| `lightwalletd` | 9067 | 9067 (TCP, global) | `host:&lt;random-high-port&gt;` |
+| `zakura` RPC | 18232 | 18232 (TCP, global) | `host:&lt;random-high-port&gt;` |
+| `zakura` P2P | 18233 | 18233 (TCP, global) | `host:&lt;random-high-port&gt;` |
 
 After the lease is ready, **Leases → URIs** is the source of truth. Open the **`app`** URI for the dashboard (the same UI `ths` opens locally). Point compact clients at the **lightwalletd** URI (`THS_LIGHTWALLETD_TLS=false`). Do not type `:8080`, `:80`, or `:9067` on the provider IP unless a dedicated IP lease made those ports public.
 
@@ -64,4 +64,4 @@ Create the deployment from the template, accept a bid, wait until `app` logs sho
 
 - [Zakura on Akash](/guides/akash-network-zakura) — Mainnet/Testnet validating node
 - [Zebra on Akash](/guides/akash-network-zebra)
-- Book: <https://github.com/zcashlabs/thus-spoke-zakura/tree/main/book>
+- Book: [github.com/zcashlabs/thus-spoke-zakura/tree/main/book](https://github.com/zcashlabs/thus-spoke-zakura/tree/main/book)

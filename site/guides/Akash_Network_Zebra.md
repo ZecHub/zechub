@@ -304,7 +304,7 @@ RPC is disabled by default for security. To enable it:
 
 **Warning**: If you set *global: true* for RPC, you're exposing it to the internet. Zebra uses cookie auth by default, but still - don't do this unless you know what you're doing.
 
-If you expose RPC with `global: true`, the public address is still a **lease URI** (`host:<random-high-port>`), not `host:8232`. With `global: false` (this template), RPC stays on the deployment network (`zebra:8232` for lightwalletd). Dedicated IP leases are a separate paid option and are not in the SDL.
+If you expose RPC with `global: true`, the public address is still a **lease URI** (`host:&lt;random-high-port&gt;`), not `host:8232`. With `global: false` (this template), RPC stays on the deployment network (`zebra:8232` for lightwalletd). Dedicated IP leases are a separate paid option and are not in the SDL.
 
 #### Enable Metrics (Prometheus)
 

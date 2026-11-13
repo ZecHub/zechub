@@ -68,5 +68,5 @@ Default is **pruned** (~11 GiB snapshot, 64 GiB disk). For full history set `SNA
 
 - [Zebra on Akash](/guides/akash-network-zebra) — Zcash Foundation `zebrad` (full history, no snapshot)
 - [Thus Spoke Zakura on Akash](/guides/thus-spoke-zakura-akash) — Regtest dashboard + app (v0.4.1)
-- Zakura source: <https://github.com/zakura-core/zakura>
-- Snapshots: <https://zakura.com/snapshots/>
+- Zakura source: [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- Snapshots: [zakura.com/snapshots/](https://zakura.com/snapshots/)
