@@ -59,8 +59,8 @@ Ikpo okwu maka itinye obodo n'ọrụ na inye ụgwọ ọrụ, e mere ya maka o
 [Gaa leta](https://gleyo.app/)
 
 ### Ebe Ikike Zcash
-Dashboard [dashboard] ikike [grants] lekwasịrị anya n'obodo, e mere iji mee ka ụzọ e si achọpụta, soro, ma nyochaa ikike Zcash dị mfe. Ọ na-achịkọta arịrịọ ikike, ihe dị ịrịba ama, mmefu ego, mkparịta ụka, na nyocha n'otu ebe site n'ịdọpụta data dị ndụ site na ebe nchekwa Zcash Community Grants GitHub. Ikpo okwu a chọrọ inye ahụmịhe doro anya ma dị mfe iji maka ndị na-achọ itinye akwụkwọ, ndị òtù kọmitii, na ndị nleba anya obodo.  
-[Gaa leta](https://staging.zgrantshub.com/)
+Dashboard ikike [grants dashboard] lekwasịrị anya n'obodo, e mere iji mee ka ụzọ e si achọpụta, soro, ma nyochaa ikike Zcash dị mfe. Ọ na-achịkọta arịrịọ ikike, ihe dị ịrịba ama, mmefu ego, mkparịta ụka, na nyocha n'otu ebe site n'ịdọpụta data dị ndụ site na ebe nchekwa Zcash Community Grants GitHub. Ikpo okwu a chọrọ inye ahụmịhe doro anya ma dị mfe iji maka ndị na-achọ itinye akwụkwọ, ndị òtù kọmitii, na ndị nleba anya obodo.  
+[Gaa leta](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Ikpo okwu AI nke na-enye ohere na ọtụtụ ụdị AI ndị isi ma na-akwado 
 ### zk.poker
 Ikpo okwu poker peer-to-peer nke na-ejikọta Nzobe ederede site na mmalite ruo n'ọgwụgwụ, poker uche, na teknụzụ Nzuzo Zcash. E mere ya ka onye na-arụ ọrụ ghara ịma kaadị ndị egwuregwu ma ọ bụ jide ego nzọ ozugbo.  
 [Gaa leta](https://zkbtc.org/)
+
+### ZKöy
+Egwuregwu oriri dị ka Werewolf maka ndị otu nọ n'otu ọnụ ụlọ. Ndị egwuregwu na-esonye site na ekwentị ha; nhọrọ ọ bụla n'abalị na votu ọ bụla ka a na-akachi dị ka memo nke e chebere echebe (shielded) na testnet Zcash, ma mgbe egwuregwu ahụ kwụsịrị, a na-ekpughe seed, salt na viewing key ka onye ọ bụla wee nwee ike ịlele nsonaazụ ya on-chain.  
+[Gaa leta](https://zkoy.fun)
 
 ---
 

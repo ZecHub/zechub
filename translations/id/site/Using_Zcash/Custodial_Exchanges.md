@@ -8,6 +8,19 @@ Ironwood adalah pool terlindungi yang hadir bersama peningkatan jaringan Juli 20
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Logo AltQuick" width="200" height="100"/>
+</a>
+
+- Website: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Pasangan: ZEC/BTC
+- Mendukung: Transparan
+- Waktu Deposit: Sekitar 30 menit (24 konfirmasi)
+- Ironwood: Tidak berlaku, hanya alamat transparan
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

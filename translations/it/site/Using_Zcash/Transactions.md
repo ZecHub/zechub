@@ -64,36 +64,72 @@ La parte importante è che Zcash ti permette di decidere quale inviare, pagament
 
 ## Commissioni Zcash
 
-Zcash non utilizza unità di gas in stile Ethereum. Le commissioni delle transazioni di Zcash vengono pagate in ZEC, solitamente misurate in **zatoshis**. Uno ZEC equivale a 100.000.000 zatoshis.
+Lascia che il tuo portafoglio calcoli la commissione di rete e controllala prima di inviare. Le commissioni vengono pagate in ZEC: **1 ZEC = 100.000.000 zatoshis**. Una commissione in dollari statunitensi dipende anche dal tasso di cambio di ZEC.
 
-[ZIP 317](https://zips.z.cash/zip-0317) definisce un meccanismo di commissione convenzionale che si adatta alla complessità della transazione. Invece di utilizzare per ogni transazione la vecchia commissione fissa di 1.000 zatoshi, la commissione convenzionale si basa su "azioni logiche", come input, output e azioni schermate. Le transazioni semplici partono comunemente da circa 10.000 zatoshi, ovvero 0,0001 ZEC, mentre le transazioni più complesse possono richiedere di più.
+### Perché due pagamenti possono avere commissioni diverse
 
-Nella maggior parte dei portafogli attuali, gli utenti non dovrebbero dover calcolare manualmente le commissioni ZIP 317. Il portafoglio dovrebbe scegliere automaticamente una commissione appropriata. Se un portafoglio utilizza ancora la vecchia commissione fissa o ti consente di impostare una commissione molto inferiore alla commissione convenzionale ZIP 317, la transazione potrebbe essere ritardata, declassata in priorità, scartata da alcuni nodi o non essere inoltrata in modo affidabile.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) calcola la commissione convenzionale in base alle **azioni logiche** e non come percentuale dell'importo inviato:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Le azioni logiche misurano i componenti di una transazione. Per esempio, una transazione solo Orchard usa il numero delle sue azioni Orchard; una transazione solo Sapling usa il valore maggiore tra il numero di spese e quello di output. I contributi delle diverse pool vengono sommati. I componenti trasparenti usano un calcolo basato sulla dimensione. Consulta la ZIP 317 per la formula completa, inclusi Ironwood e Sprout legacy.
+
+Spendere molte piccole note ricevute o usare diverse pool può quindi costare più di un pagamento più semplice dello stesso valore. Il solo numero di destinatari non basta per calcolare la commissione: contano anche il resto e il padding.
+
+Questi esempi partono da un numero di azioni logiche già calcolato:
+
+| Azioni logiche | A 5.000 zatoshi per azione | A 1.000 zatoshi per azione |
+| --- | --- | --- |
+| 2 | 10.000 zatoshi / 0,0001 ZEC | 2.000 zatoshi / 0,00002 ZEC |
+| 3 | 15.000 zatoshi / 0,00015 ZEC | 3.000 zatoshi / 0,00003 ZEC |
+| 10 | 50.000 zatoshi / 0,0005 ZEC | 10.000 zatoshi / 0,0001 ZEC |
+
+### Quale commissione marginale si applica
+
+**Verificato l'11 novembre 2026:** ZIP 317 elenca la revisione 2 e [ZIP 2009](https://zips.z.cash/zip-2009) come proposte. Prima della revisione 2, la commissione marginale è di 5.000 zatoshi. La revisione 2 la fissa a 1.000, con un minimo di 2.000 zatoshi anziché 10.000.
+
+La proposta specifica l'altezza **3.590.000** su Mainnet, prevista intorno al 19 novembre 2026, e l'altezza **4.465.026** su Testnet. Una stima basata sul calendario non è la condizione di attivazione. Per i portafogli, l'altezza rilevante è quella del blocco in cui si prevede che la transazione venga minata; i nodi usano l'altezza del blocco successivo. Ricontrolla le specifiche collegate e le indicazioni sulle versioni del tuo portafoglio man mano che il deployment cambia.
+
+Non forzare manualmente la commissione più bassa solo perché una proposta o una nuova versione del software ne parla. La ZIP 2009 richiede che i nodi adottino la nuova policy di inoltro prima che i portafogli applichino la nuova commissione. I nodi che usano i vecchi parametri possono rifiutarsi di inoltrare la transazione con la commissione più bassa. Inoltre Testnet e Mainnet hanno altezze di attivazione diverse.
+
+### Se la stima sembra sbagliata
+
+Verifica che il tuo portafoglio sia aggiornato e sincronizzato. Confronta separatamente la commissione di rete del portafoglio con il costo di prelievo del servizio da cui invii: il preventivo di un servizio non è la formula ZIP 317. Per un pagamento in sospeso, segui i [passaggi di risoluzione dei problemi qui sotto](#troubleshooting-stuck-transactions) prima di inviare di nuovo.
+
+ZIP 317 è una policy dei portafogli e dei nodi, non una regola di consenso che impone esattamente questa commissione. Pagare la commissione convenzionale migliora la compatibilità con l'inoltro delle transazioni, ma non garantisce un tempo di conferma.
 
 ## Risoluzione dei problemi delle transazioni bloccate
 
 Una transazione di Zcash non è definitiva solo perché appare nel tuo portafoglio. Diventa definitiva per l'uso ordinario dopo essere stata inclusa in un blocco e aver ricevuto un numero sufficiente di conferme per la tua situazione. Gli exchange e i servizi possono richiedere più conferme di quelle mostrate dal portafoglio per impostazione predefinita.
 
+La scadenza è un'**altezza di blocco**, non un conto alla rovescia fisso. Per un pagamento ordinario con un'altezza di scadenza diversa da zero, quell'altezza è l'ultimo blocco in cui può essere minato. Per esempio, un pagamento che scade all'altezza 3539 può essere incluso nel blocco 3539, mentre il blocco 3540 è troppo tardi. Un'altezza di scadenza pari a 0 significa che il pagamento ordinario non ha scadenza. Vedi [ZIP 203](https://zips.z.cash/zip-0203).
+
+I valori predefiniti non sono scadenze universali. ZIP 203 prevede 40 blocchi dopo Blossom, circa 50 minuti con un intervallo obiettivo di 75 secondi. La modifica NU7 proposta raccomanda 120 blocchi con un intervallo obiettivo di 25 secondi, anche in questo caso circa 50 minuti ([ZIP 218](https://zips.z.cash/zip-0218)). Le impostazioni e le implementazioni dei portafogli possono variare, e anche gli intervalli effettivi tra i blocchi cambiano. Invece di calcolare i tempi per un nuovo invio, controlla l'altezza di scadenza della transazione specifica.
+
+La scadenza non annulla un pagamento già minato né crea una transazione di rimborso. Se la transazione originale è scaduta senza essere minata, non è mai stata regolata on-chain. Il tuo portafoglio potrebbe dover eseguire la sincronizzazione prima di mostrare di nuovo come spendibili i fondi associati.
+
 Utilizza questo albero decisionale prima di inviare nuovamente:
 
-1. **Il tuo portafoglio mostra un ID transazione?**
-   - Se no, il portafoglio potrebbe non aver ancora creato o trasmesso la transazione. Controlla lo stato di sincronizzazione, la connessione internet, la versione del portafoglio ed eventuali messaggi di errore del portafoglio.
-   - Se sì, copia l'ID transazione e continua.
+1. **Il tuo portafoglio mostra un ID della transazione?**
+   - Se no, il portafoglio potrebbe non aver ancora creato o trasmesso la transazione. Controlla lo stato della sincronizzazione, la connessione a internet, la versione del portafoglio ed eventuali messaggi di errore del portafoglio.
+   - Se sì, copia l'ID della transazione e continua.
 2. **La transazione è confermata in un blocco?**
-   - Se sì, attendi il numero di conferme richiesto dal tuo portafoglio, exchange, esercente o servizio.
+   - Se sì, attendi il numero di conferme richiesto dal tuo portafoglio, exchange, commerciante o servizio.
    - Se no, continua.
-3. **La transazione ha raggiunto la sua altezza di scadenza?**
-   - Se no, non inviare ancora manualmente lo stesso pagamento. La transazione originale potrebbe ancora essere confermata.
-   - Se sì, la transazione non può essere inclusa in un blocco dopo quell'altezza di scadenza. Il tuo portafoglio potrebbe contrassegnarla come scaduta o non riuscita e potresti dover creare una nuova transazione.
-4. **La transazione appare su un server o explorer ma non su un altro?**
-   - Consideralo un problema di visibilità della rete, non la prova che la transazione sia fallita. Nodi diversi possono avere visualizzazioni diverse della mempool.
-   - Attendi, risincronizza il portafoglio oppure passa a un altro server affidabile se il tuo portafoglio lo supporta.
+3. **La transazione non minata ha superato la sua altezza di scadenza diversa da zero?**
+   - Se no, non inviare ancora manualmente di nuovo lo stesso pagamento. La transazione originale potrebbe ancora essere confermata.
+   - Se sì, lascia sincronizzare il portafoglio e verifica che la transazione originale non sia stata minata a quell'altezza o prima. Poi segui le indicazioni del portafoglio per creare una transazione sostitutiva, se necessario.
+4. **La transazione compare su un server o un explorer ma non su un altro?**
+   - Consideralo un problema di visibilità nella rete, non una prova che la transazione sia fallita. Nodi diversi possono avere visioni diverse della mempool.
+   - Attendi, risincronizza il tuo portafoglio o passa a un altro server affidabile, se il tuo portafoglio lo consente.
 5. **La transazione è scomparsa dopo essere apparsa come confermata?**
    - Una breve riorganizzazione della chain può rimuovere temporaneamente una transazione dalla chain migliore.
    - Attendi altri blocchi. Se la transazione ricompare, continua ad attendere le conferme. Se non ricompare e in seguito scade, crea una nuova transazione.
-6. **Il portafoglio ti chiede di inviare nuovamente?**
+6. **Il portafoglio ti chiede di inviare di nuovo?**
    - Segui le indicazioni attuali del portafoglio solo dopo aver verificato che la transazione precedente sia scaduta, fallita o non più valida.
-   - Se non sei sicuro, chiedi assistenza prima di inviare nuovamente.
+   - Se non sei sicuro, chiedi all'assistenza prima di inviare di nuovo.
 
 ## In attesa, scadute, scartate e riorganizzate
 

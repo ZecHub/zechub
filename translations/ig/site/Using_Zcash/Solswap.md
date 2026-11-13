@@ -39,7 +39,7 @@ Bọtịnụ **Mgbawe** nke Phantom nwekwara ZEC n'usoro, mana nke ahụ na-enye
 - Họrọ **ZEC** dịka **token ebe ị na-aga** gị.
 - Gbaa mbọ hụ na Zcash dị site na mpaghara Mgbawe.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

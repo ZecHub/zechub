@@ -38,11 +38,11 @@ Dalam Namada, set terlindungi dianggap sebagai barang publik yang non-eksklusif 
 
 ## Transaksi Aset Terlindungi
 
-Dalam hal transfer terlindungi, baik itu melibatkan Ethereum non-fungible token (NFT), ATOM, atau NAM, semuanya tidak dapat dibedakan satu sama lain. Ini berarti fitur pelindung privasi yang disediakan oleh MASP (Protokol Sapling Modified Accumulator), versi yang telah ditingkatkan dari sirkuit Sapling Zcash, berlaku secara seragam untuk semua jenis aset. Sirkuit MASP memungkinkan semua aset di dalam ekosistem Namada untuk berbagi set terlindungi yang sama. Pendekatan ini memastikan bahwa jaminan privasi tidak terfragmentasi di antara aset-aset individual. Terlepas dari volume transaksi yang terkait dengan aset tertentu, perlindungan privasi tetap konsisten dan independen.
+MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)) memperluas sirkuit Sapling milik Zcash untuk mendukung transfer terlindungi atas aset native maupun non-native. Berbagi pool yang sama tidak berarti privasi menjadi independen dari penggunaan suatu aset. Dokumentasi Namada menjelaskan bahwa aset dengan jenis yang sama berbagi satu anonymity set, dan bahwa pola shielding serta unshielding yang bersifat publik masih dapat mengungkap asal suatu aset.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-Dengan menyatukan set terlindungi di berbagai aset yang berbeda, Namada memastikan bahwa privasi dijaga secara seragam, terlepas dari jenis aset spesifik yang terlibat dalam transfer terlindungi. Pendekatan ini mendorong kerangka kerja privasi yang kohesif di dalam protokol dan meningkatkan kerahasiaan transaksi yang melibatkan NFT Ethereum, ATOM, NAM, dan aset lain yang didukung. Namada juga memungkinkan transfer privat dari token fungible dan non-fungible menggunakan zk-SNARKs baru, memastikan kerahasiaan untuk token native maupun non-native sama seperti yang dilakukan pada Zcash.
+Misalnya, jika hanya satu akun yang melindungi BTC lalu kemudian menariknya kembali ke akun yang sama, titik masuk dan titik keluar publik tersebut dapat dikaitkan meskipun dana dipindahkan secara privat di dalam MASP. Jika lebih banyak akun yang melindungi BTC, penarikan berikutnya bisa saja berasal dari akun mana pun di antara akun-akun tersebut. Pola partisipasi dan transaksi yang relevan itulah yang penting; ukuran pool bersama saja tidak menjamin privasi yang sama untuk setiap aset.
 
 ## Biaya Lebih Rendah dan Transaksi Cepat
 

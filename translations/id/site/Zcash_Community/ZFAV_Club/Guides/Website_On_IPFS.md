@@ -14,9 +14,7 @@ Berbeda dengan model client-server tradisional pada internet, IPFS memungkinkan 
 
 File di IPFS dialamatkan menggunakan *content-addressing*, yang berarti setiap file diberikan hash unik atau CONTENT IDENTIFIER (CID) berdasarkan kontennya, dan hash ini digunakan untuk mengambil file tersebut dari jaringan.
 
-Saat seorang pengguna menambahkan file ke IPFS, file tersebut dipecah menjadi potongan-potongan kecil yang disebut blok, dan setiap blok diberikan sebuah CID. Blok-blok ini kemudian disimpan pada node yang berbeda di dalam jaringan, sehingga file tersebut dapat diambil dengan mudah dari berbagai sumber.
-
-Hal ini memastikan redundansi dan toleransi kesalahan sekaligus mempersulit satu node mana pun untuk menjadi titik kegagalan atau kendali tunggal.
+IPFS menyimpan konten sebagai blok-blok yang diidentifikasi oleh CID. Menambahkan file akan menyimpannya di node Anda; file tersebut tidak otomatis disalin ke node lain. Pastikan ada salinan yang tetap online dan dapat dijangkau, atau atur remote pinning, agar pembaca lain dapat mengambilnya. Lihat persistensi [IPFS](https://docs.ipfs.tech/concepts/persistence/).
 
 Baca [Pengantar ke IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)
 
@@ -33,57 +31,57 @@ Situs Contoh [](https://squirrel.surf)
 
 **Langkah 2:** Gunakan templat [HTML!](https://nicepage.com/html-templates) Tempelkan teks yang telah Anda tulis dengan sesuai. Opsional untuk juga membuat stylesheet .CSS bagi situs web Anda.
 
-**Langkah 3:** Simpan direktori Anda. Semua halaman .html + gambar harus berada dalam Folder yang sama.
-
-
+**Langkah 3:** Letakkan halaman beranda Anda di `index.html` pada root folder situs. Sertakan gambar dan CSS-nya dengan menggunakan path relatif seperti `style.css` agar semuanya juga berfungsi di bawah URL gateway IPFS.
 
 ## Menyiapkan sebuah Node
 
-Unduh dan instal IPFS dari [Situs web resmi](https://docs.ipfs.tech/install/ipfs-desktop/).
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) mengelola node untuk Anda. Biarkan tetap berjalan selama Anda membagikan situs Anda.
 
+Untuk [jalur baris perintah](https://docs.ipfs.tech/how-to/command-line-quick-start/), inisialisasi repositori baru satu kali:
 
+```sh
+ipfs init
+```
 
-### Inisialisasi IPFS:
+Kemudian jalankan node dan biarkan terminal ini tetap terbuka:
 
-Jika Anda menggunakan Aplikasi Desktop, Anda tidak perlu melakukan inisialisasi.
+```sh
+ipfs daemon
+```
 
-Menggunakan Terminal atau command prompt, Jalankan perintah: <mark>ipfs init </mark>.
-
-
+Jalankan perintah lainnya di terminal kedua. Jangan memulai daemon kedua jika IPFS Desktop sudah mengelola repositori ini.
 
 **Tambahkan Folder Situs ke IPFS**:
 
-Pilih folder yang berisi file situs web Anda dan navigasikan ke opsi Tambahkan Folder.
+Di IPFS Desktop, pilih folder yang berisi file situs web Anda menggunakan opsi Add Folder.
 
 ![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
-Jika menggunakan Terminal, Jalankan perintah: <mark>ipfs add -r "folder_name"</mark> untuk menambahkan seluruh folder secara rekursif ke IPFS.
+Untuk cara melalui CLI, jalankan perintah ini dari direktori induk folder situs Anda:
 
+```sh
+ipfs add -r folder_name
+```
+
+Ganti `folder_name` dengan nama folder Anda (beri tanda kutip pada nama yang mengandung spasi). Simpan CID pada baris `added ... folder_name` terakhir: CID tersebut mengidentifikasi seluruh direktori, bukan hanya `index.html`.
 
 ### Pin Situs pada IPFS:
 
-Setelah file situs web Anda ditambahkan ke IPFS, Anda perlu melakukan **pin** pada file tersebut untuk memastikan file tetap tersedia di jaringan.
+Perintah CLI `ipfs add` secara default menyematkan konten yang diimpor secara lokal. Periksa sematan folder dengan:
 
---
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-Jika menggunakan Terminal, Jalankan perintah: Jika menggunakan Terminal, Jalankan perintah: <mark>ipfs pin add "hash"</mark>
-
-"hash" = CID dari folder yang Anda tambahkan pada langkah sebelumnya.
-
-
-Sebagai alternatif, Anda juga dapat menyematkan direktori menggunakan layanan seperti [Pinata](https://pinata.cloud) atau [Dolpin](https://dolpin.io)
-
-Ini sangat menghemat banyak waktu!
-
---
+Ganti `YOUR_FOLDER_CID` dengan CID dari langkah sebelumnya; output-nya seharusnya menampilkan `recursive`. Pinning melindungi salinan di node ini dari garbage collection, tetapi tidak membuat komputer yang dimatikan tetap online. Agar konten tetap tersedia saat node Anda offline, atur [remote pinning](https://docs.ipfs.tech/how-to/work-with-pinning-services/) dan pastikan layanan remote telah selesai melakukan pinning.
 
 ### Akses situs web Anda di IPFS:
 
-Situs web Anda sekarang telah dipublikasikan di IPFS dan dapat diakses menggunakan hash dari folder tersebut. Untuk mengakses situs web Anda, Anda dapat mengunjungi https://ipfs.io/ipfs/"hash"
+Pertama, periksa situs Anda melalui gateway lokal di `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` (gunakan port gateway yang ditampilkan oleh daemon Anda jika berbeda). Garis miring di akhir memungkinkan tautan relatif diselesaikan di dalam direktori.
 
-"hash" = CID dari folder tersebut.
+Gateway publik seperti `https://ipfs.io/ipfs/YOUR_FOLDER_CID/` dapat menyajikannya setelah gateway tersebut dapat mengambil konten dari node yang dapat dijangkau. Pratinjau lokal yang berhasil tidak membuktikan bahwa konten tersedia secara publik.
 
 Dalam kasus kami CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
@@ -107,11 +105,17 @@ Ini juga dapat digunakan untuk melihat situs kami melalui gateway: https://ipfs.
  
 Situs telah dibuat, sekarang kita membutuhkan cara untuk mengarahkan URL ke konten tersebut.
 
-Jika Anda sudah memiliki alamat web, Anda dapat menambahkan record baru menggunakan TXT record `_dnslink(domain Anda)`. Tergantung pada penyedianya, data ini mungkin akan terisi secara otomatis.
+Untuk `example.com`, tambahkan catatan DNS berikut dan ganti `YOUR_FOLDER_CID` dengan CID direktori Anda:
+
+| Jenis | Nama | Nilai |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Beberapa penyedia DNS menambahkan zona secara otomatis; cukup masukkan `_dnslink` di sana. Jika menggunakan nama IPNS di atas, nilainya dapat diganti dengan `dnslink=/ipns/YOUR_IPNS_NAME`. Lihat [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 ![](/content-images/example-c2a9edb28b.webp)
 
-Akan membutuhkan waktu untuk menyebar melalui jaringan sebelum Anda dapat melihatnya.
+Setelah propagasi DNS selesai, coba `https://ipfs.io/ipns/example.com/`. Menyajikan situs secara langsung di `https://example.com/` juga memerlukan gateway yang mendukung DNSLink serta konfigurasi HTTPS; record TXT saja tidak menyiapkan hal-hal tersebut. Ikuti [panduan domain kustom](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
 Selamat! Anda telah menyiapkan situs web yang tahan terhadap sensor.
 
