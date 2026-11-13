@@ -110,7 +110,7 @@ There are two smaller costs as well. Light wallets download about 200 KB more pe
 
 - **ZIP status:** Proposed. Owners Dev Ojha and Evan Forbes; created 13 March 2026.
 - **Coinholder poll:** closed 14 September 2026, with 99.9% support. The poll signals preference; it does not change consensus rules by itself.
-- **Timeline:** in a Zcash Community Forum announcement on 17 September, the development organisations agreed a schedule of code complete by 30 September, NU7 on testnet on 6 October, and a final decision on 20 October. The mainnet activation height is now set at 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), targeted for about 5 November 2026.
+- **Timeline:** in a Zcash Community Forum announcement on 17 September, the development organisations agreed a schedule of code complete by 30 September, NU7 on testnet on 6 October, and a final decision on 20 October. NU7 activated on mainnet at height 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)) on 6 November 2026 (UTC), so the 25-second target is now live.
 - **Implementation:** tracked in Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) and in Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## What this means for you
