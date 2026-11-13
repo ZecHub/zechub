@@ -8,6 +8,19 @@ Ironwood 是随 2026 年 7 月网络升级[network upgrade]而来的屏蔽 pool�
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- 网站：[AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- 交易对：ZEC/BTC
+- 支持：透明
+- 充值时间：约 30 分钟（24 个确认）
+- Ironwood：不适用，仅支持透明地址
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

@@ -102,7 +102,7 @@ Esiawo nye platform ƒe kpɔɖeŋuwo siwo naa mɔ na Zcash Network ƒe data:
 
 [Zcash Gaɖoɖowo ƒuƒoƒe ƒe Kpɔla](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics ƒe kadodonu ŋuti nyatakakawo](https://docs.coinmetrics.io/network-data/network-data-overview) — Dzidzenuwo ŋuti nuŋlɔɖiwo kple kadodowo yi nunɔamesi siwo ŋu wole fifia gbɔ.
 
 Àte ŋu akpe ɖe network la ƒe ŋgɔyiyi ŋu hã to testwo ƒe dɔwɔwɔ alo nyonyo yeyeawo ƒe ɖeɖegbe kple metrics ƒe nana me.
 

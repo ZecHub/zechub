@@ -8,6 +8,19 @@ Ironwood — це екранований пул, що з’явився з он�
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Логотип AltQuick" width="200" height="100"/>
+</a>
+
+- Вебсайт: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Пари: ZEC/BTC
+- Підтримка: Прозорі адреси
+- Час депозиту: Близько 30 хвилин (24 підтвердження)
+- Ironwood: Не застосовується, лише прозорі адреси
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

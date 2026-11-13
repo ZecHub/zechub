@@ -50,6 +50,11 @@ Zcash 不仅关乎理论上的隐私[privacy] — 它还关乎**实用的日常�
 ###  [在哪里捐赠 ZEC](/zcash-use-cases/where-to-donate-zec)
 查找接受 ZEC 的非营利组织，以及其中哪些接受屏蔽赠与
 
+###  [开展 ZEC 筹款活动](/zcash-use-cases/run-a-zec-fundraising-campaign)
+为一个目标筹集 ZEC，展示捐赠者可以信赖的进展，并让每一笔捐赠都保持隐私（privacy）
+###  [捐赠 ZEC 并申请美国税收减免](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+私密地捐赠 ZEC，同时仍能获得申请抵扣所需的文件
+
 ###  [记者隐私设置](/zcash-use-cases/journalist-privacy-setup)   
 对所有交易使用屏蔽地址，并通过避免可追踪的支付来保护消息来源。谨慎使用备忘录[memo]进行安全通信
 

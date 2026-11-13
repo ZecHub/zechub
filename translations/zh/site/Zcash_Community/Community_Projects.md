@@ -60,7 +60,7 @@
 
 ### Zcash 拨款 [Grants] 中心
 以社区为中心的拨款仪表板 [dashboard]，旨在简化 Zcash 拨款的发现、跟踪和审查流程。它通过从 Zcash Community Grants GitHub 仓库提取实时数据，将拨款申请、里程碑、预算、讨论和分析汇集于一处。该平台旨在为申请人、委员会成员和社区审查者提供更清晰、更易用的体验。  
-[访问](https://staging.zgrantshub.com/)
+[访问](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Zcash 原生信贷和投票基础设施，支持选择性披露 [selective discl
 ### zk.poker
 点对点扑克平台，结合端到端加密、心理扑克和 Zcash 隐私技术。其设计使运营方无需知晓玩家的牌，也无需直接持有投注资金。  
 [访问](https://zkbtc.org/)
+
+### ZKöy
+一款适合同处一室的多人玩的狼人杀式派对游戏。玩家用手机加入游戏；每个夜晚的选择和投票都会作为屏蔽(shielded)备忘录(memo)封存在Zcash测试网上，游戏结束时会公开种子、盐值和viewing key，任何人都可以在链上(on-chain)核验结果。  
+[访问](https://zkoy.fun)
 
 ---
 

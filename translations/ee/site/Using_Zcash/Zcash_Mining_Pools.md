@@ -10,19 +10,6 @@ Zcash nukuku gaƒuƒoƒowo nye dɔwɔƒewo si wɔnate ŋu na nukulawo ƒo woƒe 
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Nyatakakadzraɖoƒe: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Ame ŋutɔ ƒe xexlẽwo: Ɛ̃
-- Gaƒuƒoƒo ƒome: Xe asi ɖe akpa ɖe sia ɖe dzi
-- Gaƒuƒoƒo adzɔ: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Zcash nukuku gaƒuƒoƒowo nye dɔwɔƒewo si wɔnate ŋu na nukulawo ƒo woƒe 
 - Ame ŋutɔ ƒe xexlẽwo: Ɛ̃
 - Gaƒuƒoƒo ƒome: Xe asi ɖe akpa ɖe sia ɖe dzi
 - Gaƒuƒoƒo adzɔ: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Nyatakakadzraɖoƒe: [Flypool](https://zcash.flypool.org/)
-- Ame ŋutɔ ƒe xexlẽwo: Ɛ̃
-- Gaƒuƒoƒo ƒome: Xe asi ɖe akpa N mamlɛtɔwo dzi 
-- Gaƒuƒoƒo adzɔ: 1%
 
 ---
 
@@ -163,3 +137,11 @@ Zcash nukuku gaƒuƒoƒowo nye dɔwɔƒewo si wɔnate ŋu na nukulawo ƒo woƒe 
 - Ame ŋutɔ ƒe xexlẽwo: Ɛ̃
 - Gaƒuƒoƒo ƒome: Xe asi ɖe akpa N ƒe xexlẽwo mamlɛtɔwo dzi (PPLNS)
 - Gaƒuƒoƒo adzɔ: 1%
+
+---
+
+## Zcash gaƒuƒoƒo xoxowo
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool menye Zcash nukuku ƒe mɔnu si li fifia o. Eƒe [gaƒuƒoƒo ƒe nyabiase siwo wobiana zi geɖe (FAQ) ƒe ɖoɖo aɖaŋuɖoɖo](https://academy.braiins.com/braiins-pool/faqs/pool) ɖe Bitcoin fia abe ga si wòdoa alɔ na ene, eye wògblɔ be ɖoɖo aɖeke meli be yeadoa alɔ altcoins (ga dijitaal bubu siwo menye Bitcoin o) o (wokpɔe le November 12, 2026 dzi).
