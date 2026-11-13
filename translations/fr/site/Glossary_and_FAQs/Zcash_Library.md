@@ -179,14 +179,14 @@ Un glossaire complet des principaux termes, concepts et ressources liés à Zcas
 
 ## T
 
-| Term | Definition |
+| Terme | Définition |
 |------|-----------|
 | Tachyon | Le programme de mise à l’échelle de Zcash. Il ne fait pas partie de NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) et n’a pas de date d’activation. Il fait évoluer les wallets pour qu’ils n’aient plus à scanner chaque bloc, en s’orientant vers un état de wallet accompagné de preuves, une synchronisation oblivious et un état de nœud élagable, avec pour objectif un débit shielded de plusieurs milliers de transactions par seconde. [Site du projet](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (monnaie de test sans valeur). |
 | Testnet | Une blockchain distincte pour tester les mises à niveau et les fonctionnalités avant le mainnet. |
 | Trailing Finality Layer (TFL) | Recherche visant à ajouter une couche de finalité derrière la chaîne à preuve de travail de Zcash afin que les blocs récents puissent être finalisés sans remplacer le minage. Crosslink est la conception issue de ces travaux. |
 | Transaction | Un paiement entre utilisateurs, soumis au réseau puis finalement confirmé dans un bloc. |
-| Transaction Expiry | Les transactions expirent après environ 25 minutes (20 blocs) si elles ne sont pas confirmées ; les fonds reviennent automatiquement. |
+| Transaction Expiry | Une limite de hauteur de bloc déterminant jusqu’à quand un paiement non miné peut être inclus. Un paiement ordinaire avec une hauteur d’expiration non nulle N peut être miné dans le bloc N ou avant, mais pas dans N+1. Une hauteur de 0 désactive l’expiration. Il ne s’agit pas d’un minuteur de remboursement automatique. [ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | Les frais par défaut sont de 0.0001 ZEC. Des frais plus élevés obtiennent la priorité ; des frais très faibles peuvent entraîner des retards ou une expiration. |
 | Transparent Address | Également appelée taddr. Commence par t. Entièrement publique (comme Bitcoin). |
 | Transparent Transaction | Une transaction exclusivement entre adresses transparentes - tout est visible publiquement. |

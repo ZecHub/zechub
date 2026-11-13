@@ -181,15 +181,15 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 
 | Neno | Ufafanuzi |
 |------|-----------|
-| Tachyon | Programu ya kupanua uwezo ya Zcash. Si sehemu ya NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) na haina tarehe ya uamilishaji. Husogeza pochi kutoka kuskani kila block kuelekea hali ya pochi inayobeba thibitisho, usawazishaji usio na ufahamu na hali ya node inayoweza kupunguzwa, kwa lengo la kufikia uwezo wa miamala ya faragha wa maelfu ya miamala kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
+| Tachyon | Programu ya kupanua uwezo [scaling] ya Zcash. Si sehemu ya NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) na haina tarehe ya uamilishaji. Husogeza pochi [wallets] kutoka kuskani kila block kuelekea hali ya pochi inayobeba thibitisho [proof], usawazishaji usio na ufahamu na hali ya node inayoweza kupunguzwa, kwa lengo la kufikia uwezo wa miamala ya faragha [shielded] wa maelfu ya miamala [transactions] kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
 | TAZ | Tokeni ya majaribio ya Zcash (sarafu ya majaribio isiyo na thamani). |
-| Testnet | Blockchain tofauti ya kupima maboresho na vipengele kabla ya mainnet. |
-| Trailing Finality Layer (TFL) | Utafiti wa kuongeza tabaka la uhakika wa mwisho nyuma ya mnyororo wa proof-of-work wa Zcash ili block za hivi karibuni ziweze kuthibitishwa kikamilifu bila kuchukua nafasi ya uchimbaji. Crosslink ndiyo muundo uliotokana nao. |
-| Transaction | Malipo kati ya watumiaji, yanayowasilishwa kwenye mtandao na hatimaye kuthibitishwa katika block. |
-| Transaction Expiry | Miamala huisha muda baada ya takribani dakika 25 (block 20) ikiwa haijathibitishwa; fedha hurudi kiotomatiki. |
-| Transaction Fee | Ada chaguo-msingi ni 0.0001 ZEC. Ada za juu hupata kipaumbele; ada za chini sana zinaweza kusababisha ucheleweshaji au kuisha muda. |
+| Testnet | Blockchain tofauti ya kupima maboresho ya mtandao [upgrades] na vipengele kabla ya mainnet. |
+| Trailing Finality Layer (TFL) | Utafiti wa kuongeza tabaka la uhakika wa mwisho nyuma ya mnyororo wa proof-of-work wa Zcash ili block za hivi karibuni ziweze kuthibitishwa kikamilifu bila kuchukua nafasi ya uchimbaji [mining]. Crosslink ndiyo muundo uliotokana nao. |
+| Transaction | Malipo [payment] kati ya watumiaji, yanayowasilishwa kwenye mtandao na hatimaye kuthibitishwa katika block. |
+| Transaction Expiry | Kikomo cha urefu wa block kinachoamua wakati ambapo malipo ambayo hayajachimbwa yanaweza kujumuishwa. Malipo ya kawaida yenye urefu wa kuisha muda N usio sifuri yanaweza kuchimbwa katika block N au ya awali, lakini si N+1. Urefu wa 0 huzima kuisha muda. Hiki si kipima muda cha kurejesha fedha kiotomatiki. [ZIP 203](https://zips.z.cash/zip-0203) |
+| Transaction Fee | Ada [fee] chaguo-msingi ni 0.0001 ZEC. Ada za juu hupata kipaumbele; ada za chini sana zinaweza kusababisha ucheleweshaji au kuisha muda. |
 | Transparent Address | Pia huitwa taddr. Huanza kwa t. Ni ya umma kabisa (kama Bitcoin). |
-| Transparent Transaction | Muamala unaofanyika pekee kati ya anwani za uwazi - kila kitu kinaonekana hadharani. |
+| Transparent Transaction | Muamala unaofanyika pekee kati ya anwani za uwazi [transparent] - kila kitu kinaonekana hadharani. |
 | Turnstile | Kanuni ya uhasibu inayofuatilia kiasi cha thamani kinachoingia na kutoka katika kila bwawa la faragha, ili hakuna bwawa linaloweza kutoa zaidi ya kilichoingia ndani yake. Hutumika katika kila mpito wa bwawa katika historia ya Zcash, na kwa sasa inalinda uhamishaji kutoka Orchard hadi Ironwood. [Maelezo zaidi](/zcash-tech/the-turnstile) |
 
 ## U

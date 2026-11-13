@@ -4,7 +4,7 @@
 
 # Viewing Key'ler
 
-Shielded adresler, Zcash blokzincirinde mümkün olduğunca az bilgi açığa çıkararak işlem yapmanızı sağlar. Peki *gerçekten* belirli bir tarafa neye sahip olduğunuzu veya ne gönderdiğinizi göstermeniz gerektiğinde ne olur? Her shielded adresin, harcama yetkisi vermeden okuma erişimi tanıyan bir viewing key'i vardır. Viewing key'ler [ZIP 310](https://zips.z.cash/zip-0310) ile tanıtıldı ve Sapling ağ yükseltmesinde protokole eklendi.
+Shielded adresler, Zcash blokzincirinde mümkün olduğunca az bilgi açığa çıkararak işlem yapmanızı sağlar. Peki *gerçekten* belirli bir tarafa neye sahip olduğunuzu veya ne gönderdiğinizi göstermeniz gerektiğinde ne olur? Bir viewing key, harcama yetkisi vermeden okuma erişimi tanır. Viewing key'ler Sprout için zaten mevcuttu; Sapling, alınan bir notun harcandığını tespit etme gibi yetenekler ekledi. [ZIP 310](https://zips.z.cash/zip-0310), viewing key'leri getiren yükseltme değil, Sapling viewing key'lerinin güvenlik özelliklerini belgeleyen bilgilendirici bir taslaktır.
 
 Viewing key, seçici açıklama aracıdır: kimin neyi göreceğini siz seçersiniz ve bunu yapmak için asla harcama yetkisini teslim etmezsiniz.
 
@@ -12,7 +12,7 @@ Viewing key, seçici açıklama aracıdır: kimin neyi göreceğini siz seçersi
 
 Bir görüntüleme anahtarı, korumalı bir Zcash adresinin veya hesabının faaliyetlerine **salt okunur** erişim verir: ona sahip olan kişi gelen (ve tam görüntüleme anahtarları için giden) işlemleri görebilir, ancak asla harcama yapamaz.
 
-- **Nedir:** shielded havuzların seçici açıklama aracı. [ZIP 310](https://zips.z.cash/zip-0310)'da tanıtıldı, Sapling ağ yükseltmesiyle protokole eklendi.
+- **Nedir:** havuz ve anahtar türüne göre yetenekleri değişen shielded havuzların seçici açıklama aracı. [ZIP 310](https://zips.z.cash/zip-0310), bir Sapling tam görüntüleme anahtarının neleri açığa çıkardığını ve hangi bilgilerin garanti edildiğini, doğrulanmadığını, tanımsız veya açığa çıkarılmamış olduğunu belgeler.
 - **Ne sağlar:** yatırımların algılanması (`uivk…` incoming keys) veya bir hesap için tam gelen/giden görünürlüğü (`uview…` unified full viewing keys) ile eski Sapling `zxviews…` anahtarları.
 - **Ne sağlamaz:** harcama yetkisi. Viewing key sahibinin yaptığı hiçbir şey fonları hareket ettiremez.
 - **Bugün nerede çalışır:** [Zallet](https://github.com/zcash/zallet) içinde dışa/içe aktarma (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) ve Zkool gibi cüzdanlarda salt izleme hesapları; güncel destek matrisi için [Wallets](/using-zcash/wallets) sayfasına bakın.

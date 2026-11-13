@@ -184,13 +184,13 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Tachyon | Zcash'in ölçeklendirme programı. NU7'nin parçası değildir ([ZIP 259](https://zips.z.cash/zip-0259)) ve etkinleştirme tarihi yoktur. Cüzdanları her bloğu taramaktan uzaklaştırıp kanıt taşıyan cüzdan durumuna, oblivious senkronizasyona ve budanabilir düğüm durumuna yönlendirir; amaç, shielded işlem hacmini saniyede binlerce işleme çıkarmaktır. [Proje sitesi](https://tachyon.z.cash/overview/) |
 | TAZ | Testnet Zcash (değersiz test para birimi). |
 | Testnet | Mainnet'ten önce yükseltmeleri ve özellikleri test etmek için kullanılan ayrı bir blokzincir. |
-| Trailing Finality Layer (TFL) | Madenciliğin yerine geçmeden, Zcash’in proof-of-work zincirinin arkasına bir kesinlik katmanı eklenerek son blokların kesinleştirilmesini sağlamaya yönelik araştırma. Crosslink, bu çalışmadan ortaya çıkan tasarımdır. |
+| Trailing Finality Layer (TFL) | Madenciliğin yerine geçmeden, Zcash'in proof-of-work zincirinin arkasına bir kesinlik katmanı eklenerek son blokların kesinleştirilmesini sağlamaya yönelik araştırma. Crosslink, bu çalışmadan ortaya çıkan tasarımdır. |
 | Transaction | Kullanıcılar arasındaki, ağa gönderilen ve sonunda bir blok içinde onaylanan ödeme. |
-| Transaction Expiry | İşlemler onaylanmazsa yaklaşık 25 dakika (20 blok) sonra sona erer; fonlar otomatik olarak geri döner. |
+| Transaction Expiry | Kazılmamış bir ödemenin ne zamana kadar dahil edilebileceğine ilişkin blok yüksekliği sınırı. Sıfır olmayan N sona erme yüksekliğine sahip sıradan bir ödeme, N bloğunda veya daha önce kazılabilir; ancak N+1'de kazılamaz. 0 yüksekliği sona ermeyi devre dışı bırakır. Bu, otomatik para iadesi zamanlayıcısı değildir. [ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | Varsayılan ücret 0.0001 ZEC'tir. Daha yüksek ücretler öncelik alır; çok düşük ücretler gecikmelere veya sona ermeye neden olabilir. |
 | Transparent Address | taddr olarak da adlandırılır. t ile başlar. Tamamen herkese açıktır (Bitcoin gibi). |
 | Transparent Transaction | Yalnızca transparent adresler arasındaki bir işlem - her şey kamuya açık şekilde görünür. |
-| Turnstile | Her shielded havuza ne kadar değer girdiğini ve çıktığını takip eden muhasebe kuralı; böylece hiçbir havuz, içine girenden daha fazlasını dışarı veremez. Zcash tarihindeki her havuz geçişinde kullanılmıştır ve şu anda Orchard’dan Ironwood’a geçişi korumaktadır. [Daha fazla bilgi](/zcash-tech/the-turnstile) |
+| Turnstile | Her shielded havuza ne kadar değer girdiğini ve çıktığını takip eden muhasebe kuralı; böylece hiçbir havuz, içine girenden daha fazlasını dışarı veremez. Zcash tarihindeki her havuz geçişinde kullanılmıştır ve şu anda Orchard'dan Ironwood'a geçişi korumaktadır. [Daha fazla bilgi](/zcash-tech/the-turnstile) |
 
 ## U
 

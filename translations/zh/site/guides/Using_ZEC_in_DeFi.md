@@ -260,7 +260,7 @@ DZap 集成通过为 DeFi 用户提供更便捷的访问方式，帮助扩大 cb
 
 [Morpho](https://markets.morpho.org/fixed) 是一个去中心化借贷协议，提供资本效率极高的借贷市场。
 
-[Clearstar Labs](clearstar.xyz) 通过 Morpho 引入 cbAssets Vault，使 cbZEC 等资产能够用于借贷市场。
+[Clearstar Labs](https://clearstar.xyz) 通过 Morpho 引入 cbAssets Vault，使 cbZEC 等资产能够用于借贷市场。
 
 通过该金库，用户可以：
 

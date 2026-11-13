@@ -4,7 +4,7 @@
 
 # Clés de visualisation
 
-Les adresses blindées vous permettent d'effectuer des transactions tout en révélant aussi peu que possible sur la blockchain Zcash. Alors, que se passe-t-il lorsque vous *devez* montrer à une partie précise ce que vous détenez ou ce que vous avez envoyé ? Chaque adresse blindée possède une clé de visualisation qui accorde un accès en lecture sans accorder la capacité de dépenser. Les clés de visualisation ont été introduites dans [ZIP 310](https://zips.z.cash/zip-0310) et ajoutées au protocole lors de la mise à niveau du réseau Sapling.
+Les adresses blindées vous permettent d'effectuer des transactions tout en révélant aussi peu que possible sur la blockchain Zcash. Alors, que se passe-t-il lorsque vous *devez* montrer à une partie précise ce que vous détenez ou ce que vous avez envoyé ? Une clé de visualisation accorde un accès en lecture sans accorder la capacité de dépenser. Des clés de visualisation existaient déjà pour Sprout ; Sapling a ajouté des capacités telles que la détection du moment où une note reçue est dépensée. [ZIP 310](https://zips.z.cash/zip-0310) est un projet de document informatif qui décrit les propriétés de sécurité des clés de visualisation Sapling, et non la mise à niveau qui a introduit les clés de visualisation.
 
 Une clé de visualisation est l'outil de divulgation sélective : vous choisissez qui voit quoi, sans jamais céder d'autorité de dépense pour y parvenir.
 
@@ -12,7 +12,7 @@ Une clé de visualisation est l'outil de divulgation sélective : vous choisisse
 
 Une clé de visualisation donne un accès **en lecture seule** à l’activité d’une adresse ou d’un compte protégés Zcash : toute personne qui la détient peut voir les transactions entrantes (et, pour les Full Viewing Keys, sortantes), mais ne peut jamais dépenser les fonds.
 
-- **Ce que c'est :** l'outil de divulgation sélective des pools blindés. Introduit dans [ZIP 310](https://zips.z.cash/zip-0310), ajouté au protocole lors de la mise à niveau réseau Sapling.
+- **Ce que c'est :** l'outil de divulgation sélective des pools blindés, dont les capacités diffèrent selon le pool et le type de clé. [ZIP 310](https://zips.z.cash/zip-0310) documente ce que révèle une clé de visualisation complète Sapling et quelles informations sont garanties, non vérifiées, indéfinies ou non révélées.
 - **Ce qu'il permet :** la détection des dépôts (clés entrantes `uivk…`) ou une visibilité complète des entrées/sorties d'un compte (clés de visualisation complètes unifiées `uview…`), ainsi que les clés Sapling `zxviews…` historiques.
 - **Ce qu'il ne permet pas :** l'autorisation de dépenser. Rien de ce que fait le détenteur d'une clé de visualisation ne peut déplacer des fonds.
 - **Où cela fonctionne aujourd'hui :** export/import dans [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) et comptes en lecture seule dans des wallets tels que Zkool ; consultez la page [Wallets](/using-zcash/wallets) pour la matrice de prise en charge actuelle.
@@ -187,4 +187,4 @@ Utilisez les clés de visualisation selon les besoins, et privilégiez la clé l
 - [Zkool README](https://github.com/hhanh00/zkool2/blob/main/README.md) — types de comptes et de clés pris en charge
 - [ECC, explication des clés de visualisation](https://electriccoin.co/blog/explaining-viewing-keys/)
 - [ECC, divulgation sélective et clés de visualisation](https://electriccoin.co/blog/viewing-keys-selective-disclosure/)
-- [ECC, Zcash Viewing Keyprésentation vidéo](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)
+- [ECC, Zcash Viewing Key Présentation vidéo](https://www.youtube.com/watch?v=NXjK_Ms7D5U&t=199s)

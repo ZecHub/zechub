@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Guida utente di Ledger Shielded ZEC
+
+> Conserva, ricevi e invia ZEC privati (schermati) con il tuo portafoglio hardware Ledger in Ledger Wallet Desktop.
+
+## In breve
+
+* Dal 23 settembre 2026, Ledger Wallet Desktop supporta gli ZEC schermati. Un account Zcash ha un saldo trasparente e un saldo privato nella pool Ironwood.
+* Per ora solo desktop. Il supporto mobile è annunciato come "in arrivo".
+* Ti servono un Nano S Plus, Nano X, Stax o Flex (non il modello Nano S originale), Ledger Wallet Desktop 4.21+ e l'ultima app Zcash.
+* Fai clic su **Abilita schermato** una sola volta: il tuo Ledger esporta le chiavi di visualizzazione affinché l'app desktop possa trovare i tuoi fondi privati. Le chiavi di spesa non lasciano mai il dispositivo.
+* Quando puoi, ricevi all'indirizzo privato (u1...). Spostare ZEC dal tuo saldo trasparente a quello privato funziona, ma collega i due.
+* Ogni invio viene esaminato e firmato sullo schermo di Ledger. Controlla lì gli indirizzi, carattere per carattere.
+
+## Spiegazione essenziale
+
+Zcash ha due tipi di saldo. Il saldo trasparente ZEC (indirizzi t1) funziona come Bitcoin: gli importi e gli indirizzi sono pubblici. Il saldo schermato ZEC si trova in una pool schermata, dove mittente, destinatario e importo sono crittografati on-chain.
+
+Ledger conserva le tue chiavi di spesa sul dispositivo hardware. Per mostrare un saldo privato, Ledger Wallet Desktop necessita di una Full Viewing Key unificata (UFVK). Il dispositivo la esporta una sola volta e l'app desktop la usa per analizzare la blockchain alla ricerca delle tue note schermate. Una chiave di visualizzazione può vedere la tua cronologia schermata, ma non può spendere, quindi trattala come informazione privata.
+
+I passaggi seguenti coprono l'installazione dell'app Zcash, l'aggiunta di un account, l'abilitazione del saldo schermato, la ricezione, la schermatura di ZEC trasparenti e l'invio dal saldo schermato.
+
+## Panoramica
 
 Il 23 settembre 2026 Ledger ha aggiunto il supporto nativo schermato per ZEC a Ledger Wallet Desktop. Un account di Zcash ora contiene un saldo trasparente e un saldo privato nella pool Ironwood di Zcash. Le tue chiavi private restano sul tuo Ledger, e ogni transazione viene esaminata e firmata sul dispositivo.
 

@@ -4,7 +4,7 @@
 
 # Viewing Keys
 
-Abgeschirmte Adressen ermöglichen es dir, Transaktionen durchzuführen und dabei so wenig wie möglich auf der Zcash blockchain offenzulegen. Was passiert also, wenn du *doch* einer bestimmten Partei zeigen musst, was du besitzt oder was du gesendet hast? Jede abgeschirmte Adresse verfügt über einen Viewing Key, der Lesezugriff gewährt, ohne die Möglichkeit zum Ausgeben einzuräumen. Viewing Keys wurden in [ZIP 310](https://zips.z.cash/zip-0310) eingeführt und mit dem Sapling-Netzwerkupgrade in das Protokoll aufgenommen.
+Abgeschirmte Adressen ermöglichen es dir, Transaktionen durchzuführen und dabei auf der Zcash-Blockchain so wenig wie möglich offenzulegen. Was passiert also, wenn du *doch* einer bestimmten Partei zeigen musst, was du besitzt oder was du gesendet hast? Ein Viewing Key gewährt Lesezugriff, ohne die Möglichkeit zum Ausgeben einzuräumen. Viewing Keys gab es bereits für Sprout; Sapling fügte Funktionen hinzu, etwa die Erkennung, wenn eine empfangene Note ausgegeben wird. [ZIP 310](https://zips.z.cash/zip-0310) ist ein Informationsentwurf, der die Sicherheitseigenschaften von Sapling Viewing Keys dokumentiert, nicht das Upgrade, mit dem Viewing Keys eingeführt wurden.
 
 Ein Viewing Key ist das Werkzeug für selektive Offenlegung: Du entscheidest, wer was sieht, und musst dafür niemals die Ausgabeberechtigung weitergeben.
 
@@ -12,7 +12,7 @@ Ein Viewing Key ist das Werkzeug für selektive Offenlegung: Du entscheidest, we
 
 Ein Viewing Key gewährt **schreibgeschützten** Zugriff auf die Aktivitäten einer shielded Zcash-Adresse oder eines Kontos: Wer ihn besitzt, kann eingehende (und bei Full Viewing Keys auch ausgehende) Transaktionen sehen, aber niemals Geld ausgeben.
 
-- **Was es ist:** das Werkzeug zur selektiven Offenlegung der abgeschirmten Pools. Eingeführt in [ZIP 310](https://zips.z.cash/zip-0310), wurde es mit dem Netzwerk-Upgrade Sapling zum Protokoll hinzugefügt.
+- **Was es ist:** das Werkzeug zur selektiven Offenlegung der abgeschirmten Pools, dessen Möglichkeiten je nach Pool und Schlüsseltyp unterschiedlich sind. [ZIP 310](https://zips.z.cash/zip-0310) dokumentiert, was ein Sapling vollständiger Viewing Key offenlegt und welche Informationen garantiert, ungeprüft, undefiniert oder nicht offengelegt sind.
 - **Was es ermöglicht:** das Erkennen von Einzahlungen (`uivk…`eingehende Schlüssel) oder vollständige Ein-/Ausgangstransparenz für ein Konto (`uview…`vereinheitlichte vollständige Viewing Keys) sowie ältere Sapling `zxviews…`-Schlüssel.
 - **Was es nicht ermöglicht:** Ausgabebefugnis. Nichts, was der Inhaber eines Viewing Keys tut, kann Mittel bewegen.
 - **Wo es heute funktioniert:** Export/Import in [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) und reine Beobachtungskonten in Wallets wie Zkool; siehe die Seite [Wallets](/using-zcash/wallets) für die aktuelle Unterstützungsmatrix.
@@ -152,7 +152,7 @@ Da die [ZIP-318](https://zips.z.cash/zip-0318)-Migration eine zufällig gestalte
 - **Für Börsen und Zahlungsabwickler:** Laden Sie den Incoming Viewing Key des Kontos (oder den UFVK für vollständige Abdeckung) auf einen Erkennungsknoten und gleichen Sie Kundeneinzahlungen automatisch ab, genau wie bei einer transparenten Adresse — der Spending Key des Kunden verlässt jedoch niemals die Cold Storage.
 - **Für Prüfer und Proof-of-Reserves:** Ein Full Viewing Key macht aus „Vertrauen Sie uns“ „Überprüfen Sie dies“: Salden und vollständige Transaktionshistorie der überwachten Konten, ohne jede Möglichkeit, darauf zuzugreifen. Kombinieren Sie dies mit [Zahlungsoffenlegungen](/zcash-tech/payment-disclosures) für einmalige Nachweise zu einer einzelnen Zahlung.
 - **Für die Due Diligence:** Geben Sie einer Gegenpartei den Key für das für die Zusammenarbeit relevante Konto, nicht für Ihr gesamtes Wallet. Endet die Beziehung, rotieren Sie das Konto.
-- **Für die Wahl von Tools:** Zallet exportiert UFVKs und importiert Sapling erweiterte Full Viewing Keys; Zkool akzeptiert Unified und Legacy Keys als reine Beobachtungskonten. Prüfen Sie die Seite [Wallets](/using-zcash/wallets) auf die aktuelle IronwoodBereitschaftsmatrix, bevor Sie ein Wallet standardmäßig einsetzen.
+- **Für die Wahl von Tools:** Zallet exportiert UFVKs und importiert Sapling erweiterte Full Viewing Keys; Zkool akzeptiert Unified und Legacy Keys als reine Beobachtungskonten. Prüfen Sie die Seite [Wallets](/using-zcash/wallets) auf die aktuelle Ironwood-Bereitschaftsmatrix, bevor Sie ein Wallet standardmäßig einsetzen.
 - **Die Kosten der Offenlegung sind dauerhaft:** Jeder zusätzliche Inhaber eines Keys ist eine permanente Privacy-Kreditlinie, die Sie nicht schließen können. Stellen Sie Keys pro Beziehung aus, begrenzen Sie sie auf ein Konto und dokumentieren Sie, wer was besitzt.
 
 ## Häufige Fehler

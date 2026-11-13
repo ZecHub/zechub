@@ -186,8 +186,8 @@ Um glossário abrangente de termos-chave, conceitos e recursos relacionados ao Z
 | Testnet | Uma blockchain separada para testar atualizações e funcionalidades antes da mainnet. |
 | Trailing Finality Layer (TFL) | Pesquisa sobre a adição de uma camada de finalidade por trás da chain proof-of-work do Zcash, para que blocos recentes possam ser finalizados sem substituir a mineração. Crosslink é o design que resultou desse trabalho. |
 | Transaction | Um pagamento entre usuários, enviado à rede e eventualmente confirmado em um bloco. |
-| Transaction Expiry | As transações expiram após aproximadamente 25 minutos (20 blocos) se não forem confirmadas; os fundos retornam automaticamente. |
-| Transaction Fee | A taxa padrão é 0.0001 ZEC. Taxas mais altas recebem prioridade; taxas muito baixas podem causar atrasos ou expiração. |
+| Transaction Expiry | Um limite de altura de bloco para quando um pagamento não minerado pode ser incluído. Um pagamento comum com uma altura de expiração diferente de zero N pode ser minerado no bloco N ou antes, mas não no N+1. Uma altura de 0 desativa a expiração. Isto não é um temporizador de reembolso automático. [ZIP 203](https://zips.z.cash/zip-0203) |
+| Transaction Fee | A taxa padrão é 0,0001 ZEC. Taxas mais altas recebem prioridade; taxas muito baixas podem causar atrasos ou expiração. |
 | Transparent Address | Também chamado de taddr. Começa com t. Totalmente público (como o Bitcoin). |
 | Transparent Transaction | Uma transação exclusivamente entre endereços transparentes - tudo é publicamente visível. |
 | Turnstile | A regra contábil que acompanha quanto valor entra e sai de cada pool blindado, para que nenhum pool possa liberar mais do que recebeu. Foi usada em todas as transições de pool na história do Zcash e está atualmente protegendo a migração de Orchard para Ironwood. [Mais informações](/zcash-tech/the-turnstile) |

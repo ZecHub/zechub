@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie https://github.com/ZecHub/zechub/pull/2238t Ibe"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
 # Duga Okporo ụzọ e-akpa ego Zcash Gafee Mixnet Nym
@@ -13,7 +13,7 @@ Nym na-agbakwunye ọkwa Nzuzo [privacy] netwọk dị iche. Ruo Septemba 2026, 
 1. **Họrọ njikọta Nym nke e-akpa ego nwere n'onwe ya mgbe ọ dị.**
 2. Ma ọ bụghị ya, jiri **ụdị Mixnet NymVPN n'ọkwa sistemụ** ka e wee duzie okporo ụzọ netwọk e-akpa ego ahụ site na Nym n'ịdabereghị na nkwado proxy pụrụ iche nke e-akpa ego.
 
-Maka nkọwa izugbe gbasara VPN na dVPN, lee [VPN & dVPN](./VPN_and_DVPN.md).
+Maka nkọwa izugbe gbasara VPN na dVPN, lee [VPN na dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## Ihe Nym na-agbakwunye — na ihe ọ na-adịghị eme
 

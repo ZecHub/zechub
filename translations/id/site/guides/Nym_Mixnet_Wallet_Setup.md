@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Halaman Edihttps://github.com/ZecHub/zechub/pull/2238t"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
 </a>
 
 # Rutekan Lalu Lintas Dompet Zcash Melalui Mixnet Nym
@@ -13,7 +13,7 @@ Nym menambahkan lapisan privasi jaringan terpisah. Per September 2026, pendekata
 1. **Utamakan integrasi Nym bawaan dompet jika tersedia.**
 2. Jika tidak, gunakan **mode Mixnet NymVPN tingkat sistem** agar lalu lintas jaringan dompet dirutekan melalui Nym tanpa bergantung pada dukungan proxy khusus dompet.
 
-Untuk latar belakang umum tentang VPN dan dVPN, lihat [VPN & dVPN](./VPN_and_DVPN.md).
+Untuk latar belakang umum tentang VPN dan dVPN, lihat [VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## Yang ditambahkan Nym — dan yang tidak
 

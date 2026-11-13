@@ -260,7 +260,7 @@
 
 Το [Morpho](https://markets.morpho.org/fixed) είναι ένα αποκεντρωμένο πρωτόκολλο δανεισμού που παρέχει μια αγορά δανεισμού υψηλής κεφαλαιακής αποδοτικότητας.
 
-Το [Clearstar Labs](clearstar.xyz) εισάγει το cbAssets Vault μέσω του Morpho, επιτρέποντας assets όπως το cbZEC να χρησιμοποιούνται στην αγορά δανεισμού.
+Το [Clearstar Labs](https://clearstar.xyz) εισάγει το cbAssets Vault μέσω του Morpho, επιτρέποντας assets όπως το cbZEC να χρησιμοποιούνται στην αγορά δανεισμού.
 
 Μέσω αυτού του vault, οι χρήστες μπορούν να:
 

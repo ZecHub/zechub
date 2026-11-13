@@ -4,7 +4,7 @@
 
 # Nukpɔsafui [Viewing Keys]
 
-Ɣaɣla [Shielded] gaɖoƒe ƒe dzesiwo na wò nàwɔ gaɖoɖo le Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] dzi eye nàɖe nu vi aɖe ko fia. Ke aleke wòawɔ ne èhiã be nàfia ame aɖe si tɔxɛ nu si le asiwò alo nu si nèdɔ ɖa? Ɣaɣla gaɖoƒe ƒe dzesi sia tɔxɛ wo katã si ɖe nukpɔsafui si na ame ŋu nàxlẽ nu, gake mena mɔ be wòazã ga o. Woɖe nukpɔsafuiwo gɔme le [ZIP 310](https://zips.z.cash/zip-0310) me eye wotsɔe kpe ɖe protocol la ŋu le Sapling mɔ̃ ƒe sewo trɔtrɔ [network upgrade] me.
+Ɣaɣla gaɖoƒe ƒe dzesiwo na wò nàwɔ gaɖoɖo le Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] dzi eye nàɖe nu vi aɖe ko fia. Ke aleke wòawɔ ne èhiã be nàfia ame aɖe si tɔxɛ nu si le asiwò alo nu si nèdɔ ɖa? Nukpɔsafui [viewing key] na mɔ be ame nàxlẽ nu, gake mena mɔ be wòazã ga o. Nukpɔsafuiwo nɔ xoxo ɖe Sprout ta; Sapling kpe ŋusẽ bubuwo ɖe eŋu, abe ale si wòate ŋu anya ne wozã didienu si woɖo ɖa xɔ la ene. [ZIP 310](https://zips.z.cash/zip-0310) nye nyatakaka ƒe tata si na ɖase le Sapling nukpɔsafuiwo ƒe dedienɔnɔ ŋuti, menye mɔ̃ ƒe sewo trɔtrɔ si tsɔ nukpɔsafuiwo va la o.
 
 Nukpɔsafui nye dɔwɔnu na nyatakaka tɔxɛ ɣaɣla [selective disclosure]: wòe tia ame siakɛ nakpɔ nu si, eye mètsɔ gazazãsafui [spending key] na ame aɖeke be wòawɔe o.
 
@@ -12,7 +12,7 @@ Nukpɔsafui nye dɔwɔnu na nyatakaka tɔxɛ ɣaɣla [selective disclosure]: wò
 
 Nukpɔsafui na mɔ na **nuxexlẽ ko** le ɣaɣla Zcash gaɖoƒe ƒe dzesi alo akɔunt ƒe nusiwo wɔna me: ame si le esiwɔ ate ŋu akpɔ gaɖoɖowo siwo va (eye, ne enye nukpɔsafui blibo, gaɖoɖowo siwo do go hã), gake mate ŋu azã ga le ɣeyiɣi aɖeke me o.
 
-- **Nu si wònye:** Nyatakaka tɔxɛ ɣaɣla ƒe dɔwɔnu le ɣaɣla gaƒuƒoƒowo [pools] me. Woɖe egɔme le [ZIP 310](https://zips.z.cash/zip-0310) me, eye wotsɔe kpe ɖe protocol la ŋu le Sapling mɔ̃ ƒe sewo trɔtrɔ me.
+- **Nu si wònye:** Nyatakaka tɔxɛ ɣaɣla [selective disclosure] ƒe dɔwɔnu le ɣaɣla gaƒuƒoƒowo me, eye eƒe ŋutete vovototo le gaƒuƒoƒo kple safui ƒe ƒome kple ƒome me. [ZIP 310](https://zips.z.cash/zip-0310) ɖe nu si Sapling nukpɔsafui blibo [full viewing key] aɖe fia kple nyatakaka siwo wòɖo kplikpaa, siwo wometsɔ kpɔ ɖe edzi o, siwo meɖe fia o, alo siwo womafia o.
 - **Nu si wòna mɔ na:** Ga siwo va ƒe kpɔkpɔ (`uivk…` incoming keys) alo akɔunt ƒe nukpɔkpɔ blibo si va eye si do go (`uview…` unified full viewing keys), kple xoxo Sapling `zxviews…` keys.
 - **Nu si wòmena mɔ na o:** Ga zazã ƒe mɔ. Nu aɖeke si ame si le nukpɔsafui aɖe si wɔ la mate ŋu aɖe ga yi o.
 - **Afisi wòwɔ dɔ egbe:** Dɔdɔdɔ go/dzɔdzɔ le [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) me, kple watch-only akɔuntwo le gakotokuwo abe Zkool ene; kpɔ [Gakotokuwo](/using-zcash/wallets) ƒe axa na kpekpeɖeŋu ƒe nɔnɔme si le fifia.

@@ -260,7 +260,7 @@ Jifunze Zaidi: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x83358
 
 [Morpho](https://markets.morpho.org/fixed) ni itifaki ya ukopeshaji iliyogatuliwa inayotoa soko la ukopeshaji lenye ufanisi mkubwa wa mtaji.
 
-[Clearstar Labs](clearstar.xyz) huanzisha cbAssets Vault kupitia Morpho, ikiruhusu mali kama cbZEC kutumika katika soko la ukopeshaji.
+[Clearstar Labs](https://clearstar.xyz) huanzisha cbAssets Vault kupitia Morpho, ikiruhusu mali kama cbZEC kutumika katika soko la ukopeshaji.
 
 Kupitia hifadhi hii, watumiaji wanaweza:
 
