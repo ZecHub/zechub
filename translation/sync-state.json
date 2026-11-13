@@ -9683,11 +9683,11 @@
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
-      "src": "sha256:c8f08a26b7e3f2ee82e5b4dac5c186a42eabb7855098391d7f80ec2a377d026f",
-      "src_commit": "b93280ad2cd1f16f760f35e63397484b1f6dbad2",
+      "src": "sha256:157b1fa310ca068c6ab7c7ab431e8835ffdca2fe5a54c4815f2745c986f83b70",
+      "src_commit": "504934fde6edf3a63d06c77e272701efa88028bd",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "diff",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
@@ -10755,11 +10755,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "e929ccc0f887a914d451ae9900904a5e2cb2f8e2",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "504934fde6edf3a63d06c77e272701efa88028bd",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "diff",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
