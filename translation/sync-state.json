@@ -28279,11 +28279,11 @@
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
-      "src": "sha256:e7af6d973faff1e3eb6ebd8f113020443bea6e2ca943013555c69c8968978fe4",
-      "src_commit": "9dbb4fcc0af8ed485eed72ec4f0257473436345a",
+      "src": "sha256:066abf790cd98c8a255f584aabb139692891ea612ea17bb25b458df55fa0277c",
+      "src_commit": "2f3704a0b1c8b8f79ae32e308d618d5cbdb4299d",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "diff",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
