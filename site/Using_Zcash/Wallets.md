@@ -63,7 +63,7 @@
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: CrossPay | Multi Coin | Spend before Sync | Swaps
-- NU7: Not Ready
+- NU7: Compatible
 
 ---
 
