@@ -12,6 +12,18 @@ Blossom ni Zcash [uboreshaji wa mtandao](../start-here/network-upgrades). Ilitek
 
 Kwa nini hili ni muhimu. Unapotuma ZEC, unasubiri mtandao uthibitishe katika block. Ikiwa block ni za polepole, unasubiri kwa muda mrefu zaidi. Kabla ya Blossom, block mpya ilitarajiwa takriban kila sekunde 150. Blossom ilipunguza lengo hilo kwa nusu, hadi sekunde 75, hivyo uthibitisho hupatikana mapema na mnyororo unaweza kubeba miamala mingi zaidi katika muda uleule. Ilifanya hivi bila kuunda ZEC zaidi au kubadilisha muda wa kupunguzwa kwa nusu siku zijazo.
 
+## TL;DR (Kwa ufupi)
+
+- Blossom ulikuwa uboreshaji wa mtandao (network upgrade) wa tatu wa Zcash, ulioanza kutumika kwenye block 653,600 ya mainnet (Desemba 11, 2019 UTC). Ulianzishwa na ZIP 206, na mabadiliko yake ya msingi yamo katika ZIP 208.
+- Ulipunguza muda lengwa kati ya block (target block spacing) kutoka sekunde 150 hadi sekunde 75. Block huwasili takriban mara mbili zaidi, hivyo uthibitisho wa kwanza hupatikana mapema zaidi na uwezo wa kupitisha miamala (transaction) takriban huongezeka mara mbili.
+- Ili utoaji wa sarafu ubaki thabiti, ulipunguza kwa nusu zawadi ya kila block na kuongeza mara mbili muda kati ya kupunguzwa kwa nusu (halving), kutoka block 840,000 hadi block 1,680,000.
+- Jumla ya ZEC inayozalishwa kwa kila kipindi cha muda haikubadilika, wala nyakati halisi za kupunguzwa kwa nusu kwa siku zijazo.
+- Yalikuwa mabadiliko ya lazima ya pande mbili: kila node ililazimika kuboreshwa ili ibaki kwenye mnyororo (chain).
+
+## Mfano wa kuona
+
+Blossom ni kama mtandao wa mabasi unaoongeza maradufu idadi ya safari zake. Sasa mabasi huja kila sekunde 75 badala ya kila sekunde 150, hivyo unasubiri nusu ya muda (uthibitisho wa haraka zaidi) na mtandao hubeba abiria mara mbili zaidi (uwezo wa kupitisha [throughput]). Ili jumla ya mishahara ya madereva ibaki ileile, malipo ya kila dereva kwa kila safari hupunguzwa kwa nusu. Jumla ya matumizi ya mishahara inabaki ileile, ila inalipwa kwa safari mara mbili zaidi.
+
 ## Block za kasi zaidi
 
 Mabadiliko ya msingi ya Blossom ni rahisi. Muda lengwa kati ya block wa Zcash [target block spacing], yaani muda ambao mtandao hulenga kati ya block moja na inayofuata, ulipungua kutoka sekunde 150 hadi sekunde 75 ([ZIP 208](https://zips.z.cash/zip-0208)). Block hupatikana kwa thibitisho la kazi [proof of work], hivyo pengo halisi kati yake hutofautiana, lakini mtandao sasa hulenga block moja takriban kila sekunde 75 badala ya kila sekunde 150.
@@ -36,6 +48,14 @@ Blossom ulikuwa mabadiliko ya makubaliano ya pande mbili [bilateral consensus ch
 ## Nafasi ya Blossom
 
 Blossom ulikuwa uboreshaji wa tatu wa mtandao wa Zcash. Ulifuata Overwinter na Sapling, na ulikuja kabla ya Heartwood na Canopy. Tofauti na Sapling, ambao ulifanyia upya kriptografia ya faragha ya Zcash, Blossom ulilenga uwezo na kasi. Jukumu lake kuu lilikuwa muda wa block, si vipengele vipya vya faragha.
+
+## Makosa ya Kawaida
+
+- **Kudhani kwamba block za haraka zaidi zilimaanisha ZEC zaidi.** Kupunguza kwa nusu zawadi ya kila block huku kiwango cha block kikiongezwa mara mbili kunaweka utoaji (emission) sawa kabisa kwa kila kipimo cha muda.
+- **Kudhani kwamba kupunguzwa kwa nusu (halving) hutokea mapema zaidi kwa muda halisi.** Kipindi cha kupunguzwa kwa nusu kiliongezeka mara mbili kutoka block 840,000 hadi block 1,680,000, hivyo tarehe za kupunguzwa kwa nusu kwa muda halisi hazikubadilika.
+- **Kusoma “sekunde 75” kama hakikisho.** Ni lengo la thibitisho la kazi (proof-of-work); mapengo halisi kati ya block hutofautiana kulizunguka lengo hilo.
+- **Kuchukulia Blossom kama uboreshaji wa faragha (privacy).** Kazi yake ilikuwa muda wa block na kupanua uwezo (scaling); tofauti na Sapling, haikubadilisha usimbaji fiche wowote.
+- **Kudhani kwamba waendeshaji wa node wangeweza kuuruka.** Blossom ilikuwa mabadiliko ya makubaliano (consensus) ya pande mbili; node ambayo haijaboreshwa hujitenga na mtandao kupitia mgawanyiko (fork).
 
 ## Faharasa
 
@@ -95,5 +115,12 @@ Kwa sababu Blossom pia ilipunguza kwa nusu zawadi inayolipwa kwa kila block na i
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Kurasa Zinazohusiana
+
+- [Sapling](./Sapling.md) — uboreshaji uliotangulia (kriptografia, si muda)
+- [Heartwood](./Heartwood.md) — uboreshaji unaofuata katika mfululizo huu
+- [Full Nodes](./Full_Nodes.md) — kile kinachohusika katika kuendesha node kupitia maboresho ya lazima
+- [Orodha ya Maboresho ya Mtandao](../start-here/network-upgrades) — ratiba kamili ya maboresho
 
 Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Sapling](../zcash-tech/sapling) · Inayofuata: [Heartwood](../zcash-tech/heartwood)

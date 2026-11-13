@@ -64,36 +64,72 @@ Jambo muhimu ni kwamba Zcash inakuwezesha kuamua ni ipi utume, malipo kwa malipo
 
 ## Ada za Zcash
 
-Zcash haitumii vipimo vya gesi vya mtindo wa Ethereum. Ada za muamala za Zcash hulipwa kwa ZEC, kwa kawaida hupimwa kwa **zatoshis**. ZEC moja ni sawa na zatoshis 100,000,000.
+Ruhusu pochi yako ikokotoe ada ya mtandao, na uikague kabla ya kutuma. Ada hulipwa kwa ZEC: **ZEC 1 = zatoshis 100,000,000**. Ada kwa dola za Marekani pia hutegemea kiwango cha ubadilishaji cha ZEC.
 
-[ZIP 317](https://zips.z.cash/zip-0317) hufafanua utaratibu wa ada wa kawaida unaolingana na ugumu wa muamala. Badala ya kila muamala kutumia ada ya zamani isiyobadilika ya zatoshi 1,000, ada ya kawaida hutegemea “vitendo vya kimantiki” kama vile ingizo, matokeo, na vitendo vya faragha. Miamala rahisi kwa kawaida huanzia zatoshi 10,000, au 0.0001 ZEC, na miamala tata zaidi inaweza kuhitaji zaidi.
+### Kwa nini malipo mawili yanaweza kuwa na ada tofauti
 
-Katika pochi nyingi za sasa, watumiaji hawapaswi kuhitaji kukokotoa ada za ZIP 317 wenyewe. Pochi inapaswa kuchagua ada inayofaa kiotomatiki. Ikiwa pochi bado inatumia ada ya zamani isiyobadilika au inakuwezesha kuweka ada iliyo chini sana ya ada ya kawaida ya ZIP 317, muamala unaweza kuchelewa, kupewa kipaumbele cha chini, kuondolewa na baadhi ya node, au kushindwa kusambazwa kwa uhakika.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) hukokotoa ada ya kawaida kutokana na **vitendo vya kimantiki** (logical actions), badala ya asilimia ya kiasi kinachotumwa:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Vitendo vya kimantiki (logical actions) hupima vipengele vya muamala. Kwa mfano, muamala wa Orchard pekee hutumia idadi ya vitendo vyake vya Orchard; muamala wa Sapling pekee hutumia idadi kubwa zaidi kati ya idadi ya matumizi (spends) na matokeo (outputs) yake. Michango kutoka mabwawa (pools) tofauti hujumlishwa. Vipengele vya uwazi (transparent) hutumia hesabu inayotegemea ukubwa. Tazama ZIP 317 kwa fomula kamili, ikijumuisha Ironwood na Sprout ya zamani.
+
+Kwa hiyo, kutumia madokezo (notes) mengi madogo yaliyopokelewa au kutumia mabwawa (pools) kadhaa kunaweza kugharimu zaidi kuliko malipo rahisi zaidi ya thamani ileile. Idadi ya wapokeaji pekee haitoshi kukokotoa ada (fee): chenji na ujazaji (padding) pia huathiri ada.
+
+Mifano hii inaanza na idadi ya vitendo vya kimantiki (logical actions) ambayo tayari imekokotolewa:
+
+| Vitendo vya kimantiki | Kwa zatoshi 5,000 kwa kila kitendo | Kwa zatoshi 1,000 kwa kila kitendo |
+| --- | --- | --- |
+| 2 | zatoshi 10,000 / 0.0001 ZEC | zatoshi 2,000 / 0.00002 ZEC |
+| 3 | zatoshi 15,000 / 0.00015 ZEC | zatoshi 3,000 / 0.00003 ZEC |
+| 10 | zatoshi 50,000 / 0.0005 ZEC | zatoshi 10,000 / 0.0001 ZEC |
+
+### Ni ada ipi ya pambizoni inayotumika
+
+**Imekaguliwa tarehe 11 Novemba 2026:** ZIP 317 inaorodhesha marekebisho ya 2 na [ZIP 2009](https://zips.z.cash/zip-2009) kama yaliyopendekezwa. Kabla ya marekebisho ya 2, ada ya ziada kwa kila sehemu (marginal fee) ni zatoshi 5,000. Marekebisho ya 2 yanabainisha 1,000, hivyo kiwango cha chini kinakuwa zatoshi 2,000 badala ya 10,000.
+
+Pendekezo hili linabainisha kimo cha Mainnet cha **3,590,000**, kinachotarajiwa karibu tarehe 19 Novemba 2026, na kimo cha Testnet cha **4,465,026**. Makadirio ya kalenda si sharti la kuanzishwa. Kwa pochi, kimo kinachohusika ni kile cha block ambamo muamala unatarajiwa kuchimbwa; node hutumia kimo cha block inayofuata. Tafadhali kagua tena vipimo vilivyounganishwa na mwongozo wa matoleo ya pochi yako kadri utekelezaji unavyobadilika.
+
+Usilazimishe ada ya chini kwa mkono kwa sababu tu pendekezo au toleo la programu linaitaja. ZIP 2009 inahitaji node zianze kutumia sera mpya ya kusambaza miamala kabla pochi hazijaanza kutumia ada hiyo; node zinazotumia vigezo vya zamani zinaweza kukataa kusambaza muamala wenye ada ya chini. Pia Testnet na Mainnet zina urefu tofauti wa block ambapo mabadiliko huanza kutumika (activation heights).
+
+### Ikiwa makadirio yanaonekana si sahihi
+
+Hakikisha kwamba pochi yako imesasishwa na imesawazishwa. Linganisha ada ya mtandao ya pochi hiyo na gharama ya kutoa pesa ya huduma inayotuma, ukizitazama kila moja peke yake: makadirio ya bei ya huduma si fomula ya ZIP 317. Kwa malipo yanayosubiri, fuata [hatua za utatuzi wa matatizo zilizo hapa chini](#troubleshooting-stuck-transactions) kabla ya kutuma tena.
+
+ZIP 317 ni sera ya pochi na ya node, si kanuni ya makubaliano (consensus) inayolazimisha ada (fee) hii hasa. Kulipa ada ya kawaida huboresha uwezekano wa muamala kusambazwa na node nyingine; haiahidi muda wa uthibitisho.
 
 ## Kutatua Matatizo ya Miamala Iliyokwama
 
 Muamala wa Zcash si wa mwisho kwa sababu tu unaonekana kwenye pochi yako. Unakuwa wa mwisho kwa matumizi ya kawaida baada ya kuchimbwa kwenye block na kupokea idadi ya kutosha ya uthibitisho kwa hali yako. Masoko ya kubadilishana sarafu na huduma zinaweza kuhitaji uthibitisho zaidi kuliko pochi inavyoonyesha kwa chaguo-msingi.
 
+Muda wa kuisha ni **urefu wa block** (block height), si hesabu ya muda maalum. Kwa malipo ya kawaida yenye urefu wa kuisha usio sifuri, urefu huo ndio block ya mwisho ambayo malipo yanaweza kuchimbwa ndani yake. Kwa mfano, malipo yanayoisha kwenye urefu wa 3539 yanaweza kujumuishwa kwenye block 3539; block 3540 imechelewa. Urefu wa kuisha wa 0 unamaanisha kwamba malipo ya kawaida hayana muda wa kuisha. Tazama [ZIP 203](https://zips.z.cash/zip-0203).
+
+Thamani za chaguo-msingi si tarehe za mwisho zinazotumika kila mahali. ZIP 203 inabainisha block 40 baada ya Blossom, takriban dakika 50 kwa nafasi lengwa ya sekunde 75 kati ya block. Mabadiliko ya NU7 yanayopendekezwa yanapendekeza block 120 kwa nafasi lengwa ya sekunde 25, ambayo pia ni takriban dakika 50 ([ZIP 218](https://zips.z.cash/zip-0218)). Mipangilio ya pochi na utekelezaji wake vinaweza kutofautiana, na vipindi halisi kati ya block hubadilika. Angalia urefu wa kuisha muda (expiry height) wa muamala husika badala ya kupima muda kabla ya kuutuma tena.
+
+Kuisha kwa muda wa matumizi hakubatilishi malipo ambayo tayari yamechimbwa wala hakuundi muamala wa kurejesha pesa. Ikiwa muamala wa awali uliisha muda wake bila kuchimbwa, haukuwahi kukamilika on-chain. Huenda pochi yako ikahitaji kusawazishwa kabla ya kuonyesha tena fedha husika kuwa zinaweza kutumika.
+
 Tumia mti huu wa maamuzi kabla ya kutuma tena:
 
-1. **Je, pochi yako inaonyesha kitambulisho cha muamala?**
-   - Ikiwa hapana, huenda pochi haijaunda au kusambaza muamala bado. Angalia hali ya usawazishaji, muunganisho wa intaneti, toleo la pochi, na ujumbe wowote wa hitilafu wa pochi.
+1. **Je, pochi (wallet) yako inaonyesha kitambulisho cha muamala (transaction ID)?**
+   - Ikiwa hapana, huenda pochi bado haijaunda au kutangaza muamala. Kagua hali ya usawazishaji, muunganisho wa intaneti, toleo la pochi, na ujumbe wowote wa hitilafu wa pochi.
    - Ikiwa ndiyo, nakili kitambulisho cha muamala na uendelee.
-2. **Je, muamala umethibitishwa katika block?**
-   - Ikiwa ndiyo, subiri idadi ya uthibitisho inayohitajika na pochi yako, soko la kubadilishana sarafu, mfanyabiashara, au huduma.
+2. **Je, muamala umethibitishwa ndani ya block?**
+   - Ikiwa ndiyo, subiri idadi ya uthibitisho inayohitajika na pochi yako, soko la kubadilishana sarafu (exchange), mfanyabiashara, au huduma yako.
    - Ikiwa hapana, endelea.
-3. **Je, muamala umefikia urefu wake wa mwisho wa muda?**
-   - Ikiwa hapana, usitume tena malipo yale yale mwenyewe bado. Muamala wa awali unaweza bado kuthibitishwa.
-   - Ikiwa ndiyo, muamala hauwezi kuchimbwa baada ya urefu huo wa mwisho wa muda. Pochi yako inaweza kuuonyesha kuwa umeisha muda au umeshindwa, na huenda ukahitaji kuunda muamala mpya.
-4. **Je, muamala unaonekana kwenye seva au kitafutaji kimoja lakini si kingine?**
-   - Chukulia hili kama tatizo la mwonekano wa mtandao, si uthibitisho kwamba muamala umeshindwa. Node tofauti zinaweza kuwa na mitazamo tofauti ya mempool.
-   - Subiri, sawazisha tena pochi yako, au badili hadi seva nyingine inayoaminika ikiwa pochi yako inaunga mkono hilo.
+3. **Je, muamala ambao haujachimbwa umepita urefu wake wa kuisha muda usio sifuri (nonzero expiry height)?**
+   - Ikiwa hapana, usitume tena malipo hayo hayo kwa mkono kwa sasa. Muamala wa awali bado unaweza kuthibitishwa.
+   - Ikiwa ndiyo, acha pochi isawazishe na uhakikishe kwamba muamala wa awali haukuchimbwa katika urefu huo au kabla yake. Kisha fuata mwongozo wa pochi kuhusu kuunda muamala mbadala ikiwa unahitajika.
+4. **Je, muamala unaonekana kwenye seva moja au kichunguzi kimoja lakini si kwenye kingine?**
+   - Lichukulie hili kama tatizo la mwonekano ndani ya mtandao, si thibitisho (proof) kwamba muamala umeshindwa. Node tofauti zinaweza kuwa na mwonekano tofauti wa mempool.
+   - Subiri, sawazisha pochi yako upya, au badili kwenda seva nyingine unayoiamini ikiwa pochi yako inaruhusu hivyo.
 5. **Je, muamala ulitoweka baada ya kuonekana umethibitishwa?**
-   - Upangaji upya mfupi wa mnyororo unaweza kuondoa kwa muda muamala kutoka kwenye mnyororo bora.
-   - Subiri block zaidi. Ikiwa muamala unarudi, endelea kusubiri uthibitisho. Ikiwa haurudi na baadaye unaisha muda, unda muamala mpya.
+   - Upangaji upya mfupi wa mnyororo (chain) unaweza kuondoa muamala kwa muda kutoka kwenye mnyororo bora.
+   - Subiri block zaidi. Ikiwa muamala utarudi, endelea kusubiri uthibitisho. Ikiwa haurudi na baadaye muda wake ukaisha, unda muamala mpya.
 6. **Je, pochi inakuomba utume tena?**
-   - Fuata mwongozo wa sasa wa pochi baada tu ya kuthibitisha kwamba muamala uliotangulia umeisha muda, umeshindwa, au hauhalali tena.
-   - Ikiwa huna uhakika, omba usaidizi kabla ya kutuma tena.
+   - Fuata mwongozo wa sasa wa pochi tu baada ya kukagua kwamba muamala uliotangulia umeisha muda, umeshindwa, au si halali tena.
+   - Ikiwa huna uhakika, uliza timu ya usaidizi kabla ya kutuma tena.
 
 ## Inasubiri, Imeisha Muda, Imeondolewa, na Imepangwa Upya
 

@@ -37,14 +37,14 @@ Wakati wa kuchagua huduma ya VPN, ni muhimu kuzingatia vipengele vifuatavyo vya 
 
 7. __Bei na Vipengele__: Tathmini gharama na vipengele vinavyotolewa na watoa huduma tofauti ili kupata inayolingana na mahitaji na bajeti yako.
 
-# VPN Zinazokubali Zcash
+# Huduma za VPN na malipo ya Zcash
 
-Zcash (ZEC) ni sarafu-fiche iliyoundwa kwa faragha iliyoimarishwa, na kuifanya kuwa chaguo linalopendwa na watu wanaotafuta kutotambulika katika miamala yao ya kifedha. Ingawa si huduma zote za VPN zinazokubali Zcash moja kwa moja, baadhi zinaweza kukubali malipo ya sarafu-fiche kupitia huduma za kati. Hata hivyo, ni muhimu kuthibitisha moja kwa moja na mtoa huduma wa VPN kuhusu chaguo za malipo zilizo za kisasa zaidi. Hizi ni baadhi ya huduma za VPN zinazojulikana kukubali malipo ya sarafu-fiche:
+Uwezo wa kupokea malipo kwa Zcash unapaswa kuthibitishwa kwa kila mtoa huduma. Kukubali sarafu-fiche hakumaanishi lazima kujumuisha ZEC, na kumlipa soko la kubadilishana sarafu (exchange) au muuzaji wa kati ni tofauti na kumlipa mtoa huduma wa VPN moja kwa moja. Huduma zilizo hapa chini zina sera tofauti za malipo; thibitisha sarafu zinazokubaliwa kwa sasa kabla ya kutuma fedha.
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-   Mullvad VPN ni huduma ya VPN inayoheshimika sana, inayojulikana kwa dhamira yake thabiti kwa faragha na usalama wa mtumiaji. Ni miongoni mwa watoa huduma wachache wa VPN wanaokubali sarafu-fiche, ikiwemo 
-   Zcash, kama njia ya malipo. Vipengele vya msingi vya Mullvad ni pamoja na:
+Mullvad VPN ni huduma ya VPN inayolenga faragha. [Maswali yake ya sasa kuhusu malipo](https://mullvad.net/en/pricing) yanaorodhesha njia za malipo zinazokubaliwa.
+   Kukubali sarafu-fiche hakumaanishi kukubali moja kwa moja kila sarafu. Vipengele vya msingi vya Mullvad ni pamoja na:
 
    __Sera ya Kutohifadhi Kumbukumbu__: Mullvad hufuata sera kali ya kutohifadhi kumbukumbu, ikimaanisha kwamba haihifadhi data yoyote inayohusiana na shughuli zako za mtandaoni.
 
@@ -56,7 +56,7 @@ Zcash (ZEC) ni sarafu-fiche iliyoundwa kwa faragha iliyoimarishwa, na kuifanya k
 
    __Uundaji wa Akaunti Bila Kutambulika__: Watumiaji hupewa nambari ya akaunti inayozalishwa kwa nasibu, hivyo kuondoa hitaji la taarifa binafsi wakati wa kujisajili.
 
-   __Malipo kwa Zcash__: Mullvad hukubali Zcash kama chaguo la malipo, hivyo kuruhusu watumiaji kulipia usajili wao kwa faragha iliyoimarishwa.Mullvad VPN.
+__Malipo kwa sarafu za kidijitali__: Orodha iliyochapishwa inataja Bitcoin, Bitcoin Cash na Monero, si Zcash. Soko la kubadilishana sarafu (exchange) au muuzaji wa kati ni huduma tofauti, hivyo usieleze huduma hiyo kama Mullvad kukubali ZEC moja kwa moja.
 
 3. [__Nym VPN (dVPN)__](https://nym.com/)
    
@@ -71,9 +71,9 @@ Zcash (ZEC) ni sarafu-fiche iliyoundwa kwa faragha iliyoimarishwa, na kuifanya k
 
    __Faragha Imara__: Nym VPN imeundwa ikizingatia faragha, na haihitaji watumiaji kutoa taarifa binafsi wakati wa kuunda akaunti.
 
-   Kwa uelekezaji mahususi wa pochi ya Zcash, tazama [Elekeza Trafiki ya Pochi ya Zcash Kupitia Mixnet ya Nym](./Nym_Mixnet_Wallet_Setup.md).
+Kwa uelekezaji mahususi wa pochi ya Zcash, tazama [Elekeza Trafiki ya Pochi ya Zcash Kupitia Mixnet ya Nym](../guides/Nym_Mixnet_Wallet_Setup.md).
 
-## VPN Nyingine Zinazosaidia malipo ya zcash:-
+## Watoa Huduma Wengine wa VPN wa Kuangalia
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)

@@ -21,7 +21,7 @@ Veriler sunucular veya internet üzerinden yol alırken, bilgisayar korsanları 
 
 **Zcash Şifreli Memo’lar**
 
-Zcash masaüstü ve mobil cüzdanları, kullanıcıların özel shielded işlemlerle şifreli mesajlar göndermesine olanak tanıyan yerleşik bir özelliğe sahiptir. Memo/mesaj boyutu işlem başına 512 bayta kadar olabilir ve işlem ücretleri 1 ABD sentinden daha düşüktür. İşlemlerin gizliliği koruyan şekilde tespit edilmesi ve ağın blok süresi nedeniyle, mesajların alınması 1 dakika veya daha uzun sürebilir. 
+Zcash shielded memoları destekleyen cüzdanlar, kullanıcıların shielded ödemelere şifreli mesajlar eklemesine olanak tanır. Her shielded çıktının kendi 512 baytlık memo alanı vardır; bu, işlemin tamamı için tek bir 512 baytlık hak değildir. Metin biçimi ve cüzdan desteği için [Memolar](/using-zcash/memos) sayfasına bakın. İşlem ücretleri ZEC ile ödenir ve [ZIP 317](https://zips.z.cash/zip-0317), işlemin karmaşıklığına bağlı olan geleneksel bir ücret tanımlar. ABD doları cinsinden maliyet de ZEC döviz kuruyla birlikte değişir, bu nedenle 1 ABD sentinin altında bir ücret garanti edilmez. Göndermeden önce cüzdanın ücret teklifini kontrol edin. Mesajın iletilmesi işlemin yayılmasına, onay politikasına ve alıcı cüzdanın senkronizasyonuna bağlıdır; anlık bir sohbet değildir.
 
 Deneyin: https://z.cash/wallets 
 

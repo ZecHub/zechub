@@ -64,35 +64,71 @@ Korumalı bir işlem mühürlü bir zarftır. Posta hizmeti, gerçek posta ücre
 
 ## Zcash Ücretleri
 
-Zcash, Ethereum tarzı gas birimleri kullanmaz. Zcash işlem ücretleri ZEC ile ödenir ve genellikle **zatoshi** cinsinden ölçülür. Bir ZEC, 100.000.000 zatoshiye eşittir.
+Ağ ücretini cüzdanınızın hesaplamasına izin verin ve göndermeden önce kontrol edin. Ücretler ZEC ile ödenir: **1 ZEC = 100.000.000 zatoshi**. Ücretin ABD doları karşılığı ayrıca ZEC döviz kuruna da bağlıdır.
 
-[ZIP 317](https://zips.z.cash/zip-0317), işlem karmaşıklığıyla ölçeklenen standart bir ücret mekanizmasını tanımlar. Her işlemin eski 1.000-zatoshi sabit ücretini kullanması yerine, standart ücret girdiler, çıktılar ve korumalı eylemler gibi "mantıksal eylemlere" dayanır. Basit işlemler genellikle yaklaşık 10.000 zatoshi, yani 0,0001 ZEC ile başlar ve daha karmaşık işlemler daha fazlasını gerektirebilir.
+### Neden iki ödemenin ücretleri farklı olabilir
 
-Güncel cüzdanların çoğunda kullanıcıların ZIP 317 ücretlerini manuel olarak hesaplaması gerekmez. Cüzdan uygun bir ücreti otomatik olarak seçmelidir. Bir cüzdan hâlâ eski sabit ücreti kullanıyorsa veya ZIP 317 standart ücretinin çok altında bir ücret belirlemenize izin veriyorsa işlem gecikebilir, önceliği düşürülebilir, bazı düğümler tarafından bırakılabilir ya da güvenilir şekilde iletilemeyebilir.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation), standart ücreti gönderilen tutarın bir yüzdesi olarak değil, **mantıksal eylemlere** göre hesaplar:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Mantıksal eylemler işlem bileşenlerini ölçer. Örneğin, yalnızca Orchard içeren bir işlem, sahip olduğu Orchard eylemlerinin sayısını kullanır; yalnızca Sapling içeren bir işlem ise harcama ve çıktı sayılarından büyük olanı kullanır. Farklı havuzlardan gelen katkılar toplanır. Şeffaf bileşenler boyuta dayalı bir hesaplama kullanır. Ironwood ve eski Sprout dahil olmak üzere formülün tamamı için ZIP 317'ye bakın.
+
+Bu nedenle çok sayıda küçük alınmış notu harcamak veya birden fazla havuz kullanmak, aynı değerdeki daha basit bir ödemeden daha pahalıya mal olabilir. Alıcı sayısı tek başına bir ücret hesaplayıcısı değildir: para üstü ve dolgu da önemlidir.
+
+Bu örnekler, önceden hesaplanmış bir mantıksal eylem sayısıyla başlar:
+
+| Mantıksal eylemler | Eylem başına 5.000 zatoshi ile | Eylem başına 1.000 zatoshi ile |
+| --- | --- | --- |
+| 2 | 10.000 zatoshi / 0,0001 ZEC | 2.000 zatoshi / 0,00002 ZEC |
+| 3 | 15.000 zatoshi / 0,00015 ZEC | 3.000 zatoshi / 0,00003 ZEC |
+| 10 | 50.000 zatoshi / 0,0005 ZEC | 10.000 zatoshi / 0,0001 ZEC |
+
+### Hangi marjinal ücret uygulanır
+
+**11 Kasım 2026'da kontrol edildi:** ZIP 317, revizyon 2'yi listeliyor ve [ZIP 2009](https://zips.z.cash/zip-2009) önerilen durumda. Revizyon 2'den önce marjinal ücret 5.000 zatoshi'dir. Revizyon 2 bu değeri 1.000 olarak belirliyor; böylece asgari ücret 10.000 yerine 2.000 zatoshi oluyor.
+
+Öneri, Mainnet yüksekliği olarak **3,590,000** (19 Kasım 2026 civarında bekleniyor) ve Testnet yüksekliği olarak **4,465,026** belirtmektedir. Takvim tahmini, etkinleştirme koşulu değildir. Cüzdanlar için geçerli yükseklik, işlemin kazılması beklenen bloktur; düğümler ise bir sonraki bloğun yüksekliğini kullanır. Dağıtım sürecinde değişiklikler oldukça bağlantılı spesifikasyonları ve cüzdanınızın sürüm yönergelerini yeniden kontrol edin.
+
+Bir öneri veya yazılım sürümünde geçiyor diye düşük ücreti elle zorlamayın. ZIP 2009, cüzdanlar ücreti benimsemeden önce düğümlerin yeni aktarım politikasını yayınlamasını gerektirir; eski parametreleri kullanan düğümler düşük ücretli işlemi aktarmayı reddedebilir. Testnet ve Mainnet'in etkinleştirme yükseklikleri de farklıdır.
+
+### Tahmin yanlış görünüyorsa
+
+Cüzdanınızın güncel ve senkronize olduğunu kontrol edin. Cüzdanın ağ ücretini, gönderim hizmetinin para çekme ücretinden ayrı olarak karşılaştırın: bir hizmetin fiyat teklifi ZIP 317 formülü değildir. Bekleyen bir ödeme için, yeniden göndermeden önce [aşağıdaki sorun giderme adımlarını](#troubleshooting-stuck-transactions) uygulayın.
+
+ZIP 317, belirli bir ücreti zorunlu kılan bir mutabakat kuralı değil, bir cüzdan ve düğüm politikasıdır. Geleneksel ücreti ödemek aktarım uyumluluğunu artırır, ancak belirli bir onay süresini garanti etmez.
 
 ## Takılı Kalan İşlemlerde Sorun Giderme
 
 Bir Zcash işlemi yalnızca cüzdanınızda göründüğü için kesinleşmiş sayılmaz. Bir bloğa kazıldıktan ve durumunuz için yeterli sayıda onay aldıktan sonra normal kullanım için kesinleşir. Borsalar ve hizmetler, bir cüzdanın varsayılan olarak gösterdiğinden daha fazla onay isteyebilir.
 
+Son kullanma süresi sabit bir geri sayım değil, bir **blok yüksekliğidir**. Sıfırdan farklı bir son kullanma yüksekliğine sahip sıradan bir ödeme için bu yükseklik, ödemenin madencilikle bloğa eklenebileceği son bloktur. Örneğin, 3539 yüksekliğinde süresi dolan bir ödeme 3539 numaralı bloğa dahil edilebilir; 3540 numaralı blok ise çok geçtir. Sıradan bir ödeme için 0 son kullanma yüksekliği, sürenin hiç dolmayacağı anlamına gelir. Bkz. [ZIP 203](https://zips.z.cash/zip-0203).
+
+Varsayılan değerler evrensel son tarihler değildir. ZIP 203, Blossom sonrasında 40 blok belirtir; bu, 75 saniyelik hedef blok aralığında yaklaşık 50 dakikaya karşılık gelir. Önerilen NU7 değişikliği ise 25 saniyelik hedef blok aralığında 120 blok önerir; bu da yaklaşık 50 dakikadır ([ZIP 218](https://zips.z.cash/zip-0218)). Cüzdan ayarları ve uygulamaları farklılık gösterebilir, gerçek blok aralıkları da değişkenlik gösterir. Yeniden göndermeyi zamanlamaya göre yapmak yerine ilgili işlemin sona erme yüksekliğini kontrol edin.
+
+Süre dolumu, zaten madenciliği yapılmış bir ödemeyi geri almaz veya bir iade işlemi oluşturmaz. Orijinal işlem madenciliği yapılmadan süresi dolduysa, zincir üzerinde hiçbir zaman kesinleşmemiştir. İlgili fonların yeniden harcanabilir olarak görünmesi için cüzdanınızın önce senkronize olması gerekebilir.
+
 Yeniden göndermeden önce bu karar ağacını kullanın:
 
-1. **Cüzdanınız bir işlem kimliği gösteriyor mu?**
-   - Hayırsa, cüzdan işlemi henüz oluşturmuş veya yayınlamış olmayabilir. Senkronizasyon durumunu, internet bağlantısını, cüzdan sürümünü ve cüzdan hata mesajlarını kontrol edin.
+1. **Cüzdanınız bir işlem kimliği (transaction ID) gösteriyor mu?**
+   - Hayırsa, cüzdan işlemi henüz oluşturmamış veya yayınlamamış olabilir. Senkronizasyon durumunu, internet bağlantısını, cüzdan sürümünü ve varsa cüzdan hata mesajını kontrol edin.
    - Evetse, işlem kimliğini kopyalayın ve devam edin.
 2. **İşlem bir blokta onaylandı mı?**
-   - Evetse, cüzdanınızın, borsanızın, satıcınızın veya hizmetinizin gerektirdiği onay sayısını bekleyin.
+   - Evetse, cüzdanınızın, borsanızın, satıcınızın veya hizmetinizin gerektirdiği onay sayısına ulaşılmasını bekleyin.
    - Hayırsa, devam edin.
-3. **İşlem son kullanma yüksekliğine ulaştı mı?**
-   - Hayırsa, henüz aynı ödemeyi manuel olarak yeniden göndermeyin. Asıl işlem hâlâ onaylanabilir.
-   - Evetse, işlem bu son kullanma yüksekliğinden sonra kazılamaz. Cüzdanınız işlemi süresi dolmuş veya başarısız olarak işaretleyebilir ve yeni bir işlem oluşturmanız gerekebilir.
-4. **İşlem bir sunucuda veya gezginde görünürken diğerinde görünmüyor mu?**
-   - Bunu işlemin başarısız olduğunun kanıtı olarak değil, ağ görünürlüğü sorunu olarak değerlendirin. Farklı düğümlerin farklı mempool görünümleri olabilir.
+3. **Madencilik yapılmamış işlem, sıfır olmayan son geçerlilik yüksekliğini (expiry height) geçti mi?**
+   - Hayırsa, aynı ödemeyi henüz manuel olarak yeniden göndermeyin. Orijinal işlem hâlâ onaylanabilir.
+   - Evetse, cüzdanın senkronize olmasını bekleyin ve orijinal işlemin o yükseklikte veya öncesinde madencilik yoluyla bloğa eklenmediğini doğrulayın. Ardından, gerekirse yedek bir işlem oluşturmak için cüzdanın yönergelerini izleyin.
+4. **İşlem bir sunucuda veya blok gezgininde görünüyor ama diğerinde görünmüyor mu?**
+   - Bunu işlemin başarısız olduğunun kanıtı olarak değil, bir ağ görünürlüğü sorunu olarak değerlendirin. Farklı düğümler farklı mempool görünümlerine sahip olabilir.
    - Bekleyin, cüzdanınızı yeniden senkronize edin veya cüzdanınız destekliyorsa başka bir güvenilir sunucuya geçin.
 5. **İşlem onaylanmış göründükten sonra kayboldu mu?**
-   - Kısa bir zincir yeniden düzenlemesi, işlemi geçici olarak en iyi zincirden çıkarabilir.
-   - Daha fazla blok bekleyin. İşlem geri dönerse onayları beklemeye devam edin. Geri dönmez ve daha sonra süresi dolarsa yeni bir işlem oluşturun.
+   - Kısa bir zincir yeniden düzenlemesi (reorganization), bir işlemi geçici olarak en iyi zincirden kaldırabilir.
+   - Daha fazla blok bekleyin. İşlem geri gelirse onayları beklemeye devam edin. Geri gelmez ve daha sonra süresi dolarsa yeni bir işlem oluşturun.
 6. **Cüzdan sizden yeniden göndermenizi mi istiyor?**
-   - Cüzdanın mevcut yönlendirmesini, yalnızca önceki işlemin süresinin dolduğunu, başarısız olduğunu veya artık geçerli olmadığını kontrol ettikten sonra uygulayın.
+   - Cüzdanın güncel yönergelerini ancak önceki işlemin süresinin dolduğunu, başarısız olduğunu veya artık geçerli olmadığını kontrol ettikten sonra izleyin.
    - Emin değilseniz, tekrar göndermeden önce destek ekibine danışın.
 
 ## Beklemede, Süresi Dolmuş, Bırakılmış ve Yeniden Düzenlenmiş
