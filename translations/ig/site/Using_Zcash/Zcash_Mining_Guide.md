@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Peeji"/>
+</a>
+
 # Zcash Ntuziaka Ịgwụputa: Isonyere Pool Ịgwụputa Site na Ngwaike Nkeonwe
+
+> Duo GPU gị ma ọ bụ ASIC gị gaa n'otu pool, kesaa ọrụ ahụ na ndị ọzọ na-egwụputa [miners], ma nweta ịkwụ ụgwọ ZEC na-adịgide adịgide kama ichere ọtụtụ afọ maka block nke unu ga-egwụputa naanị gị.
+
+## TL;DR
+
+* Zcash na-eji proof of work nke Equihash. ASICs na-achị network ahụ, ya mere a na-ejikarị GPUs eme ihe ntụrụndụ na nnwale.
+* Ịgwụputa (mining) naanị gị anaghị ahụkarị block mgbe ngwá ọrụ (tools) gị dị ntakịrị. Pool na-ejikọta hashrate ma na-akwụ gị òkè nke block ọ bụla ọ chọtara.
+* Ị chọrọ ihe atọ: Adreesị akpa ego (address) nke e-akpa ego (wallet) Zcash maka ịnata ego, ngwaike ịgwụputa, na sọftụwia ịgwụputa (ma ọ bụ dashboard nke ASIC wuru n'ime ya).
+* Pools dị iche site n'ugwo (fee) (ihe dị ka 0-2%), ụzọ ịkwụ ụgwọ (PPLNS, PPS+), opekempe ego a na-akwụ, na ebe sava dị.
+* Buru ụzọ lelee uru ọ ga-eweta: ọnụahịa ọkụ eletrik, ọnụahịa ngwaike, na ọnụahịa ZEC na-ekpebi ma ịgwụputa ọ ga-aba uru ma ọlị.
+* Ụzọ dị elu: gbaa node Zebra nke gị ma gwụputa site na RPC `getblocktemplate` ya.
+
+## Nkọwa Isi
+
+Ịgwụputa [mining] bụ ụzọ e si emepụta block Zcash ọhụrụ. Ndị na-egwụputa [miners] na-asọ mpi idozi mgbagwoju anya Equihash; onye mbụ nwetara azịza ziri ezi na-agbakwunye block na-esote ma nweta ụgwọ ọrụ block ahụ. Ka hashrate (ike mgbakọ) Unu na-enye na-abawanye, ka Unu na-emeri ugboro ugboro, mana n'ihe gbasara network nke taa, otu igwe ịgwụputa nọ n'ụlọ agaghị enwe ike imeri n'onwe ya ọ fọrọ obere ka ọ bụrụ mgbe ọ bụla.
+
+Mining pool na-edozi nke a. Pool ahụ na-enye onye na-egwụputa ọ bụla obere akụkụ ọrụ a na-akpọ shares. Share ọ bụla a nabatara na-egosi na Unu nyere aka n'ike hashrate. Mgbe onye ọ bụla nọ na pool ahụ chọtara block, a na-ekewa ụgwọ ọrụ ahụ dịka shares si dị, a na-akwụkwa Unu ụgwọ na-akpaghị aka ozugbo ego dị n'akaụntụ Unu gafere ego kacha nta pool ahụ kwadoro.
+
+Nhazi a nwere akụkụ ise, nke a kọwara nzọụkwụ site na nzọụkwụ n'okpuru:
+
+1. Adreesị akpa ego nke e-akpa ego (wallet address) iji nata ụgwọ a na-akwụ gị.
+2. Ngwaike (hardware): GPU n'ime kọmputa (PC), ma ọ bụ Equihash ASIC.
+3. Akaụntụ pool (ma ọ bụ naanị Adreesị akpa ego gị, maka pool ndị na-achọghị ndebanye aha).
+4. Ngwanrọ ịgwụputa (mining software) e duziri gaa na sava stratum nke pool ahụ, nwere `YOUR_ADDRESS.WORKER_NAME` dịka aha onye ọrụ.
+5. Nlekota: shares a nabatara, hashrate, okpomọkụ na ego fọdụrụ a na-akwụbeghị.
 
 ## Okwu Mmalite
 
@@ -107,6 +136,25 @@ Pool ịgwụputa na-ekesa ọrụ ma kesaa ụgwọ ọrụ dabere na ọnụeg
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### Nleba anya Foundry Zcash Pool
+
+Maka ndị ọrụ pool Foundry Zcash:
+
+- Nyochaa arụmọrụ onye na-egwụputa (miner) site na dashboard nke Foundry pool.
+- Lelee:
+  - Ndị ọrụ (workers) na-arụ ọrụ
+  - Hashrate a kọrọ akụkọ ya
+  - Shares a nabatara
+  - Ụgwọ ọrụ a tụrụ anya ya
+  - Ọnọdụ ịkwụ ụgwọ (payout)
+
+Ebe ọ bụ na Foundry na-eji ụdị ụgwọ ọrụ PPLNS, ụgwọ ọrụ ịgwụputa (mining) na-adabere n'òkè (shares) e nyere n'ime oge ụgwọ ọrụ nke pool ahụ, ọ bụghị naanị na hashrate nke oge ahụ.
+
+Usoro nlekota a na-atụ aro:
+- Tụlee hashrate dị na ASIC dashboard na hashrate nke Foundry kọrọ.
+- Nyochaa shares a jụrụ, shares ochie (stale shares), ma ọ bụ njikọ na-adịghị kwụsiri ike.
+- Nọgide na-enwe njikọ network kwụsiri ike, n'ihi na oge network adịghị na-ebelata shares e zitere na ụgwọ ọrụ nwere ike ịbịa.
+
 ## Sovright: Pool Testnet na Netwọk Relay
 
 Sovright (sovright.com) na-agba pool ịgwụputa Stratum V2 na netwọk relay block dị iche. Ha na-arụ ọrụ dị iche iche, yabụ a kọwara ha iche iche n'okpuru.
@@ -118,37 +166,19 @@ Pool Sovright na-agba na testnet Zcash ọhaneze (NU6, Stratum V2), ọ bụgh�
 - Ọ dịghị akaụntụ achọrọ iji malite. Tụọ CPU ma ọ bụ ASIC Equihash miner gị gaa pool ahụ, shares gị ga-apụta na dashboard dị ndụ.
 - Sovright na-ebipụtakwa proxy Stratum V2 open source maka ndị miners chọrọ ịhọrọ block templates nke ha kama ịnara naanị ọrụ pool:
 
-### Nleba Anya Foundry Zcash Pool
-
-Maka ndị ọrụ Foundry Zcash Pool:
-
-- Nyochaa arụmọrụ miner site na dashboard pool Foundry.
-- Lelee:
-  - Ndị ọrụ na-arụ ọrụ
-  - Ọnụego hash a kọrọ
-  - Shares anabatara
-  - Ọrụ ụgwọ a tụrụ anya ya
-  - Ọnọdụ nkwụghachi
-
-N'ihi na Foundry na-eji usoro ụgwọ ọrụ PPLNS, ụgwọ ọrụ ịgwụputa dabere na shares ị nyere n'ime windo ụgwọ ọrụ pool karịa naanị ọnụego hash ozugbo.
-
-Usoro nleba anya akwadoro:
-- Tulee ọnụego hash dashboard ASIC na ọnụego hash Foundry kọrọ.
-- Nyochaa shares ajụrụ, shares mebiela, ma ọ bụ enweghị nkwụsi ike njikọ.
-- Debe njikọ netwọk kwụsiri ike n'ihi na oge nkwụsị na-ebelata shares ezigara na ụgwọ ọrụ enwere ike inweta.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Tụọ miner gị gaa proxy kama pool ozugbo:
+  Tụọ onye na-egwụputa gị (miner) n'ebe proxy ahụ kama ịtụ ya ozugbo na pool:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  jiri aha onye ọrụ dịka `yourname.rig1`.
-- Ibe nghọta Sovright na-ekwu na e nwere iwu “gụnye ha niile” maka azụmahia nke e chebere echebe, n'adịghị ka ụfọdụ pool na-enyocha ha ma wepụ ha. Block ọ bụla na-enweta attestation aka akara ka e wee nwee ike nyochaa iwu ahụ n'onwe ya.
-- Mepụta akaụntụ na mining.sovright.com (Google ma ọ bụ nbanye email) iji soro ndị ọrụ nke gị kama data dashboard atụ.
+  site n'iji aha worker dị ka `yourname.rig1`.
+- Peeji Oha (transparency) nke Sovright na-ekwupụta iwu …gụnye ihe niile… maka Azụmahia (transaction) nke e chebere echebe (shielded), n'adịghị ka ụfọdụ pool ndị na-ewepụ ha. Block ọ bụla na-enweta nkwenye e debanyere aka (signed attestation) ka e nwee ike inyocha iwu ahụ n'onwe ya.
+- Mepụta akaụntụ na mining.sovright.com (banye site na Google ma ọ bụ email) iji soro ndị worker nke gị kama data ihe atụ dị na dashboard.
 
 ### Netwọk Relay (relay.sovright.com)
 

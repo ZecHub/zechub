@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
+</a>
+
 # Zcash Panduan Penambangan: Bergabung dengan Pool Penambangan menggunakan Hardware Pribadi
+
+> Arahkan GPU atau ASIC kamu ke sebuah pool, bagi pekerjaan dengan penambang lain, dan dapatkan pembayaran ZEC yang stabil alih-alih menunggu bertahun-tahun untuk menemukan blok secara solo.
+
+## TL;DR
+
+* Zcash menggunakan proof of work Equihash. ASIC mendominasi jaringan, jadi GPU terutama untuk penghobi dan pengujian.
+* Penambangan solo jarang menemukan blok untuk perangkat kecil. Sebuah pool menggabungkan hashrate dan membayarmu bagian dari setiap blok yang ditemukannya.
+* Kamu memerlukan tiga hal: alamat dompet Zcash untuk pembayaran, perangkat keras penambangan, dan perangkat lunak penambangan (atau dashboard bawaan ASIC).
+* Pool berbeda-beda dalam hal biaya (sekitar 0-2%), metode pembayaran (PPLNS, PPS+), pembayaran minimum, dan lokasi server.
+* Periksa profitabilitas terlebih dahulu: harga listrik, biaya perangkat keras, dan harga ZEC menentukan apakah penambangan menguntungkan atau tidak.
+* Rute lanjutan: jalankan node Zebra milikmu sendiri dan menambanglah melalui RPC `getblocktemplate`-nya.
+
+## Penjelasan Inti
+
+Penambangan adalah cara blok Zcash baru dibuat. Para penambang berlomba memecahkan teka-teki Equihash; solusi valid pertama menambahkan blok berikutnya dan mendapatkan block reward. Semakin besar hashrate yang kamu sumbangkan, semakin sering kamu menang, tetapi melawan jaringan saat ini, satu rig rumahan hampir tidak akan pernah menang sendirian.
+
+Mining pool mengatasi hal itu. Pool memberikan potongan pekerjaan yang lebih kecil kepada setiap penambang, yang disebut share. Setiap share yang diterima membuktikan bahwa kamu telah menyumbangkan hashrate. Ketika siapa pun di pool menemukan blok, hadiahnya dibagi sesuai jumlah share, dan kamu dibayar secara otomatis setelah saldomu melewati batas minimum pool.
+
+Pengaturannya terdiri dari lima bagian, yang dibahas langkah demi langkah di bawah ini:
+
+1. Alamat dompet untuk menerima pembayaran.
+2. Perangkat keras: GPU di PC, atau ASIC Equihash.
+3. Akun pool (atau cukup alamat kamu, untuk pool tanpa registrasi).
+4. Software penambangan yang diarahkan ke server stratum milik pool, dengan `YOUR_ADDRESS.WORKER_NAME` sebagai nama pengguna.
+5. Pemantauan: share yang diterima, hashrate, suhu, dan saldo yang belum dibayar.
 
 ## Pendahuluan
 
@@ -107,6 +136,25 @@ Pool penambangan mendistribusikan pekerjaan dan membagikan hadiah berdasarkan ha
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### Memantau Pool Foundry Zcash
+
+Untuk pengguna Pool Zcash Foundry:
+
+- Pantau kinerja penambang melalui dashboard pool Foundry.
+- Periksa:
+  - Worker aktif
+  - Hashrate yang dilaporkan
+  - Share yang diterima
+  - Estimasi hadiah
+  - Status pembayaran
+
+Karena Foundry menggunakan model imbalan PPLNS, imbalan penambangan bergantung pada share yang dikontribusikan selama jendela imbalan pool, bukan hanya pada hashrate sesaat.
+
+Praktik pemantauan yang direkomendasikan:
+- Bandingkan hashrate di dashboard ASIC dengan hashrate yang dilaporkan Foundry.
+- Selidiki share yang ditolak, share basi, atau koneksi yang tidak stabil.
+- Jaga konektivitas jaringan tetap stabil karena downtime mengurangi jumlah share yang dikirimkan dan potensi reward.
+
 ## Sovright: Pool Testnet dan Jaringan Relay
 
 Sovright (sovright.com) menjalankan pool penambangan Stratum V2 dan jaringan relay blok terpisah. Keduanya memiliki fungsi berbeda, sehingga dibahas secara terpisah di bawah.
@@ -118,37 +166,19 @@ Pool Sovright berjalan pada testnet Zcash publik (NU6, Stratum V2), bukan mainne
 - Tidak diperlukan akun untuk memulai. Arahkan miner CPU atau ASIC Equihash ke pool dan share kamu akan muncul di dashboard langsung.
 - Sovright juga menerbitkan proxy Stratum V2 open source bagi penambang yang ingin memilih template blok mereka sendiri alih-alih hanya mengambil pekerjaan dari pool:
 
-### Memantau Foundry Zcash Pool
-
-Untuk pengguna Foundry Zcash Pool:
-
-- Pantau performa miner melalui dashboard pool Foundry.
-- Periksa:
-  - Worker aktif
-  - Hashrate yang dilaporkan
-  - Share yang diterima
-  - Perkiraan hadiah
-  - Status pembayaran
-
-Karena Foundry menggunakan model hadiah PPLNS, hadiah penambangan bergantung pada share yang dikontribusikan selama jendela hadiah pool, bukan hanya hash rate sesaat.
-
-Praktik pemantauan yang direkomendasikan:
-- Bandingkan hashrate dashboard ASIC dengan hashrate yang dilaporkan Foundry.
-- Selidiki share yang ditolak, share basi, atau ketidakstabilan koneksi.
-- Pertahankan konektivitas jaringan yang stabil karena waktu henti mengurangi share yang dikirimkan dan potensi hadiah.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Arahkan miner kamu ke proxy alih-alih langsung ke pool:
+  Arahkan penambang kamu ke proxy, bukan langsung ke pool:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  menggunakan nama worker seperti `yourname.rig1`.
-- Halaman transparansi Sovright menyatakan kebijakan "include all" untuk transaksi terlindungi, tidak seperti beberapa pool yang memfilternya. Setiap blok mendapat atestasi yang ditandatangani sehingga kebijakan tersebut dapat diperiksa secara independen.
-- Buat akun di mining.sovright.com (masuk dengan Google atau email) untuk melacak worker kamu sendiri alih-alih data dashboard contoh.
+  dengan nama worker seperti `yourname.rig1`.
+- Halaman transparansi Sovright menyatakan kebijakan "include all" untuk transaksi terlindungi, tidak seperti beberapa pool yang menyaringnya. Setiap blok mendapatkan atestasi bertanda tangan sehingga kebijakan tersebut dapat diperiksa secara independen.
+- Buat akun di mining.sovright.com (masuk dengan Google atau email) untuk memantau worker kamu sendiri, bukan data contoh di dashboard.
 
 ### Jaringan Relay (relay.sovright.com)
 

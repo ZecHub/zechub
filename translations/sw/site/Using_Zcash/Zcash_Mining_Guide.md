@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
+</a>
+
 # Zcash Mwongozo wa Uchimbaji [Mining]: Kujiunga na Bwawa la Uchimbaji kwa Vifaa Binafsi
+
+> Elekeza GPU au ASIC yako kwenye bwawa, gawana kazi na wachimbaji wengine, na upate malipo thabiti ya ZEC badala ya kusubiri miaka mingi kupata block peke yako.
+
+## Kwa ufupi (TL;DR)
+
+* Zcash hutumia uthibitisho wa kazi (proof of work) wa Equihash. ASIC zinatawala mtandao, kwa hivyo GPU hutumiwa hasa na wapenda burudani na kwa majaribio.
+* Uchimbaji wa peke yako (solo mining) mara chache hupata block kwa mipangilio midogo. Bwawa (pool) huunganisha nguvu ya hashi (hashrate) na hukulipa sehemu ya kila block linalopata.
+* Unahitaji vitu vitatu: anwani ya pochi ya Zcash kwa ajili ya malipo, vifaa vya uchimbaji, na programu ya uchimbaji (au dashibodi iliyojengewa ndani ya ASIC).
+* Mabwawa yanatofautiana kwa ada (takriban 0-2%), njia ya malipo (PPLNS, PPS+), kiwango cha chini cha malipo na eneo la seva.
+* Kwanza, kagua faida: bei ya umeme, gharama ya vifaa na bei ya ZEC ndivyo vinavyoamua kama uchimbaji unalipa kabisa.
+* Njia ya hali ya juu: endesha node yako mwenyewe ya Zebra na uchimbe kupitia RPC yake ya `getblocktemplate`.
+
+## Maelezo ya Msingi
+
+Uchimbaji (mining) ndio njia ambayo block mpya za Zcash hutengenezwa. Wachimbaji hushindana kutatua fumbo la Equihash; suluhisho halali la kwanza huongeza block inayofuata na kupata zawadi ya block. Kadiri unavyochangia nguvu zaidi ya hashi (hashrate), ndivyo unavyoshinda mara nyingi zaidi, lakini dhidi ya mtandao wa leo, kifaa kimoja cha uchimbaji cha nyumbani hakingeweza kushinda peke yake karibu kamwe.
+
+Bwawa la uchimbaji (mining pool) hutatua hilo. Bwawa humpa kila mchimbaji vipande vidogo vya kazi vinavyoitwa hisa (shares). Kila hisa inayokubaliwa inathibitisha kwamba umechangia nguvu ya hashi (hashrate). Mtu yeyote katika bwawa anapopata block, zawadi hugawanywa kulingana na hisa, na unalipwa kiotomatiki mara salio lako linapozidi kiwango cha chini cha bwawa.
+
+Usanidi una sehemu tano, ambazo zimeelezwa hatua kwa hatua hapa chini:
+
+1. Anwani ya pochi ya kupokea malipo.
+2. Vifaa: GPU kwenye kompyuta (PC), au ASIC ya Equihash.
+3. Akaunti ya bwawa (pool), au anwani yako tu kwa mabwawa yasiyohitaji usajili.
+4. Programu ya uchimbaji (mining) iliyoelekezwa kwenye seva ya stratum ya bwawa, ikitumia `YOUR_ADDRESS.WORKER_NAME` kama jina la mtumiaji.
+5. Ufuatiliaji: hisa zilizokubaliwa, kiwango cha hash (hashrate), halijoto na salio ambalo bado halijalipwa.
 
 ## Utangulizi
 
@@ -107,6 +136,25 @@ Mabwawa ya uchimbaji husambaza kazi na kugawana zawadi kulingana na kiwango chak
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### Ufuatiliaji wa Bwawa la Zcash la Foundry
+
+Kwa watumiaji wa Bwawa la Foundry Zcash:
+
+- Fuatilia utendaji wa mchimbaji kupitia dashibodi ya bwawa la Foundry.
+- Angalia:
+  - Wafanyakazi (workers) walio hai
+  - Hashrate iliyoripotiwa
+  - Hisa (shares) zilizokubaliwa
+  - Zawadi zinazokadiriwa
+  - Hali ya malipo
+
+Kwa kuwa Foundry hutumia mfumo wa zawadi wa PPLNS, zawadi za uchimbaji hutegemea hisa (shares) zilizochangiwa katika kipindi cha zawadi cha bwawa badala ya kasi ya uchimbaji (hashrate) ya papo hapo pekee.
+
+Mbinu zinazopendekezwa za ufuatiliaji:
+- Linganisha hashrate inayoonyeshwa kwenye dashibodi ya ASIC na hashrate inayoripotiwa na Foundry.
+- Chunguzeni shares zilizokataliwa, shares zilizopitwa na wakati (stale shares), au kutokuwa thabiti kwa muunganisho.
+- Dumisheni muunganisho thabiti wa mtandao kwa sababu muda wa kukatika hupunguza shares zinazowasilishwa na zawadi zinazowezekana.
+
 ## Sovright: Bwawa la Testnet na Mtandao wa Relay
 
 Sovright (sovright.com) huendesha bwawa la uchimbaji la Stratum V2 na mtandao tofauti wa relay wa block. Hufanya kazi tofauti, kwa hiyo yanaelezewa kando hapa chini.
@@ -118,37 +166,19 @@ Bwawa la Sovright huendeshwa kwenye testnet ya umma ya Zcash (NU6, Stratum V2), 
 - Hakuna akaunti inayohitajika ili kuanza. Elekeza mchimbaji wa CPU au ASIC wa Equihash kwenye bwawa na shares zako zitaonekana kwenye dashibodi ya moja kwa moja.
 - Sovright pia huchapisha proksi ya Stratum V2 yenye msimbo wazi kwa wachimbaji wanaotaka kuchagua templeti zao za block badala ya kupokea tu kazi za bwawa:
 
-### Kufuatilia Bwawa la Foundry Zcash
-
-Kwa watumiaji wa Bwawa la Foundry Zcash:
-
-- Fuatilia utendaji wa mchimbaji kupitia dashibodi ya bwawa la Foundry.
-- Angalia:
-  - Wafanyakazi wanaotumika
-  - Kiwango cha hash kilichoripotiwa
-  - Shares zilizokubaliwa
-  - Zawadi zinazokadiriwa
-  - Hali ya malipo
-
-Kwa sababu Foundry hutumia muundo wa zawadi wa PPLNS, zawadi za uchimbaji hutegemea shares zilizotolewa katika dirisha la zawadi la bwawa badala ya kiwango cha hash cha wakati huo pekee.
-
-Mbinu zinazopendekezwa za ufuatiliaji:
-- Linganisha kiwango cha hash cha dashibodi ya ASIC na kiwango cha hash kinachoripotiwa na Foundry.
-- Chunguza shares zilizokataliwa, shares zilizopitwa na wakati, au uthabiti wa muunganisho.
-- Dumisha muunganisho thabiti wa mtandao kwa sababu muda wa kutofanya kazi hupunguza shares zinazotumwa na zawadi zinazowezekana.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Elekeza mchimbaji wako kwenye proksi badala ya bwawa moja kwa moja:
+  Elekeza mchimbaji wako kwenye proksi badala ya kuelekeza moja kwa moja kwenye bwawa:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  kwa kutumia jina la mfanyakazi kama `yourname.rig1`.
-- Ukurasa wa uwazi wa Sovright unasema sera ya “jumuisha zote” kwa miamala ya faragha, tofauti na baadhi ya mabwawa yanayozichuja. Kila block hupata uthibitisho uliotiwa sahihi ili sera iweze kuchunguzwa kwa kujitegemea.
-- Unda akaunti katika mining.sovright.com (ingia kwa Google au barua pepe) ili kufuatilia wafanyakazi wako badala ya data ya dashibodi ya mfano.
+  ukitumia jina la mfanyakazi (worker) kama `yourname.rig1`.
+- Ukurasa wa uwazi wa Sovright unaeleza sera ya “kujumuisha yote” kwa miamala ya faragha, tofauti na baadhi ya mabwawa yanayoichuja. Kila block hupata uthibitisho uliotiwa saini ili sera hiyo iweze kukaguliwa kwa kujitegemea.
+- Fungua akaunti kwenye mining.sovright.com (ingia kwa Google au barua pepe) ili kufuatilia wafanyakazi wako mwenyewe badala ya data ya mfano kwenye dashibodi.
 
 ### Mtandao wa Relay (relay.sovright.com)
 
