@@ -196,7 +196,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin | Multisig
-- NU7: Not Ready
+- NU7: Compatible
 
 ---
 
