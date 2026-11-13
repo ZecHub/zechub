@@ -41,7 +41,7 @@ const root = fileURLToPath(new URL("../", import.meta.url));
 // gt   — build-time offline Google-Translate-static whole-page regeneration.
 const ENGINE = {
   it: "llm", fr: "llm", es: "llm", pt: "llm", de: "llm", ar: "llm",
-  zh: "llm", hi: "llm", ru: "llm", ja: "llm", ko: "llm", tr: "llm", uk: "llm", el: "llm",
+  zh: "llm", hi: "llm", ru: "llm", ja: "llm", ko: "llm", tr: "llm", uk: "llm", el: "llm", fa: "llm",
   sw: "nllb", yo: "nllb", ig: "nllb",
   ak: "gt", ee: "gt",
 };
@@ -53,6 +53,7 @@ const SEED_TOOL = {
   it: "gpt-5.4", fr: "gpt-5.4", es: "gpt-5.4", pt: "gpt-5.4", de: "gpt-5.4",
   ar: "gpt-5.4", zh: "gpt-5.4", hi: "gpt-5.4", ru: "gpt-5.4", tr: "gpt-5.4",
   uk: "gpt-5.4", ja: "qwen3-14b", ko: "qwen3-14b", el: "codex/gpt-5.6-terra",
+  fa: "codex/gpt-5.6-terra",
   sw: "nllb-200-3.3B", yo: "nllb-200-3.3B", ig: "nllb-200-3.3B",
   ak: "gt-static", ee: "gt-static",
 };
