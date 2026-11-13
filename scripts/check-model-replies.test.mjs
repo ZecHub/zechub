@@ -8,13 +8,14 @@ import { strict as assert } from "node:assert";
 import { execFileSync, spawnSync } from "node:child_process";
 import { copyFileSync, mkdirSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
+import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { after, before, test } from "node:test";
 
 import { anchorKey, findModelReplies, findReplacedAnchors, loadPatterns, stripMarkers } from "../translation/lib/model-replies.mjs";
 
-const GATE = new URL("./check-model-replies.mjs", import.meta.url).pathname;
-const LIST = new URL("../translation/model-replies.json", import.meta.url).pathname;
+const GATE = fileURLToPath(new URL("./check-model-replies.mjs", import.meta.url));
+const LIST = fileURLToPath(new URL("../translation/model-replies.json", import.meta.url));
 const P = loadPatterns(LIST);
 const ids = (tr, en = "") => findModelReplies(tr, en, P).map((h) => h.id);
 
@@ -151,6 +152,7 @@ const run = (...args) => {
 before(() => {
   repo = mkdtempSync(join(tmpdir(), "check-model-replies-"));
   git("init", "-q", "-b", "main");
+git("config", "core.autocrlf", "false");
   mkdirSync(join(repo, "translation"), { recursive: true });
   copyFileSync(LIST, join(repo, "translation/model-replies.json"));
   w("site/lib.md", "# Library\n\n## B\n\nBlock.\n");

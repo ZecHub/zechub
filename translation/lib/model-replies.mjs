@@ -43,6 +43,19 @@ export function stripMarkers(line) {
   return s;
 }
 
+// Keep the whole marker: a shorter run or a text-suffixed line is code,
+// not a closer. Leading whitespace tolerance is unchanged.
+function openingFence(line) {
+  const f = line.trimStart().match(/^(`{3,}|~{3,})(.*)$/);
+  if (!f || (f[1][0] === "`" && f[2].includes("`"))) return null;
+  return f[1];
+}
+
+function closesFence(line, marker) {
+  const f = line.trimStart().match(/^(`{3,}|~{3,})[ \t]*$/);
+  return !!f && f[1][0] === marker[0] && f[1].length >= marker.length;
+}
+
 function proseLines(text) {
   const out = [];
   const lines = text.split(/\r?\n/);
@@ -56,9 +69,9 @@ function proseLines(text) {
   for (; i < lines.length; i++) {
     const raw = lines[i];
     const t = raw.trim();
-    if (fence) { if (t.startsWith(fence)) fence = null; continue; }
-    const f = t.match(/^(```|~~~)/);
-    if (f) { fence = f[1]; continue; }
+    if (fence) { if (closesFence(raw, fence)) fence = null; continue; }
+    const f = openingFence(raw);
+    if (f) { fence = f; continue; }
     if (comment) { if (t.includes("-->")) comment = false; continue; }
     if (t.startsWith("<!--") && !t.includes("-->")) { comment = true; continue; }
     out.push({ line: i + 1, raw });
@@ -112,8 +125,8 @@ export function splitBlocks(text) {
   let cur = [], start = 0, fence = null;
   text.split(/\r?\n/).forEach((l, i) => {
     const t = l.trim();
-    if (fence) { if (t.startsWith(fence)) fence = null; }
-    else { const f = t.match(/^(```|~~~)/); if (f) fence = f[1]; }
+    if (fence) { if (closesFence(l, fence)) fence = null; }
+    else { fence = openingFence(l); }
     if (!fence && t === "" ) { if (cur.length) out.push({ start, lines: cur }); cur = []; return; }
     if (!cur.length) start = i + 1;
     cur.push(l);
@@ -134,7 +147,7 @@ function blockKey(b) {
   const sx = setextAnchor(b.lines);
   if (sx) return sx;
   const f = b.lines[0].trim();
-  if (/^(```|~~~)/.test(f)) return "code";
+  if (openingFence(b.lines[0])) return "code";
   const h = f.match(/^(#{1,6})\s/);
   if (h) return "h" + h[1].length;
   if (f.startsWith("|")) return "table";
