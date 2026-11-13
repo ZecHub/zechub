@@ -102,7 +102,7 @@ Haya ni majukwaa ya mfano yanayoruhusu ufikiaji wa data ya Mtandao wa Zcash:
 
 [Kivinjari cha Block cha Zcash](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics data za mtandao](https://docs.coinmetrics.io/network-data/network-data-overview) — nyaraka za vipimo na viungo vya taarifa za sasa kuhusu mali zinazoshughulikiwa.
 
 Unaweza pia kuchangia katika maendeleo ya mtandao kwa kuendesha majaribio au kupendekeza maboresho mapya na kutoa vipimo.
 

@@ -8,6 +8,19 @@ Ironwood ni bwawa la faragha [shielded pool] lililowasili pamoja na uboreshaji w
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Nembo ya AltQuick" width="200" height="100"/>
+</a>
+
+- Tovuti: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Jozi: ZEC/BTC
+- Inaauni: Uwazi (transparent)
+- Muda wa kuweka amana: Takriban dakika 30 (uthibitisho 24)
+- Ironwood: Haihusiki, anwani za uwazi pekee
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

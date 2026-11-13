@@ -12,6 +12,18 @@ Blossom, bir Zcash [ağ yükseltmesi](../start-here/network-upgrades)dir. [ZIP 2
 
 Bu neden önemlidir? ZEC gönderdiğinizde, ağın bunu bir blok içinde onaylamasını beklersiniz. Bloklar yavaşsa, daha uzun beklersiniz. Blossom'dan önce yeni bir blok yaklaşık her 150 saniyede bir bekleniyordu. Blossom bu hedefi yarıya, yani 75 saniyeye indirdi; böylece onaylar daha erken gelir ve zincir aynı süre içinde daha fazla işlem taşıyabilir. Bunu daha fazla ZEC üretmeden veya gelecekteki yarılanmaların zamanlamasını kaydırmadan yaptı.
 
+## Özet
+
+- Blossom, Zcash'in üçüncü ağ yükseltmesiydi; ana ağda 653.600 numaralı blokta (11 Aralık 2019 UTC) etkinleşti, ZIP 206 ile devreye alındı ve temel değişikliği ZIP 208'de tanımlandı.
+- Hedef blok aralığını 150 saniyeden 75 saniyeye indirdi. Bloklar yaklaşık iki kat daha sık geldiği için ilk onaylar daha erken gelir ve işlem kapasitesi kabaca iki katına çıkar.
+- İhracı sabit tutmak için blok başına ödülü yarıya indirdi ve yarılanma aralığını 840.000 bloktan 1.680.000 bloğa çıkararak iki katına çıkardı.
+- Birim zamanda oluşturulan toplam ZEC miktarı ve gelecekteki yarılanmaların gerçek zamanlı takvimi değişmedi.
+- Bu, zorunlu ve çift taraflı bir değişiklikti: zincirde kalmak için her düğümün yükseltme yapması gerekiyordu.
+
+## Görsel benzetme
+
+Blossom, sefer sayısını iki katına çıkaran bir otobüs ağı gibidir. Otobüsler artık 150 saniyede bir yerine 75 saniyede bir geliyor; böylece yarı yarıya daha az beklersiniz (daha hızlı onaylar) ve ağ iki kat daha fazla yolcu taşır (işlem hacmi). Şoförlere ödenen toplam maaşı aynı tutmak için her şoförün sefer başına ücreti yarıya indirilir: toplam maaş gideri aynı kalır, yalnızca iki kat daha fazla sefere yayılarak ödenir.
+
 ## Daha hızlı bloklar
 
 Blossom'un temel değişikliği basittir. Zcash'in hedef blok aralığı, yani ağın bir blok ile sonraki blok arasındaki süre için hedeflediği zaman, 150 saniyeden 75 saniyeye düştü ([ZIP 208](https://zips.z.cash/zip-0208)). Bloklar proof of work ile bulunur, bu yüzden aralarındaki gerçek süre değişkenlik gösterir; ancak ağ artık yaklaşık her 150 saniyede bir yerine yaklaşık her 75 saniyede bir blok hedeflemektedir.
@@ -36,6 +48,14 @@ Blossom iki taraflı bir uzlaşma değişikliğiydi; bu da her düğümün zinci
 ## Blossom'un yeri
 
 Blossom, Zcash'in üçüncü ağ yükseltmesiydi. Overwinter ve Sapling'den sonra geldi, Heartwood ve Canopy'den önce yer aldı. Zcash'in shielded kriptografisini yeniden düzenleyen Sapling'in aksine, Blossom ölçek ve hıza odaklanmıştı. Ana görevi blok zamanlamasıydı, yeni gizlilik özellikleri değil.
+
+## Sık Yapılan Hatalar
+
+- **Daha hızlı blokların daha fazla ZEC anlamına geldiğini düşünmek.** Blok başına ödülü yarıya indirip blok hızını ikiye katlamak, birim zamandaki emisyonu tam olarak aynı tutar.
+- **Halving'lerin gerçek zamanda daha erken gerçekleştiğini varsaymak.** Halving aralığı 840.000 bloktan 1.680.000 bloğa iki katına çıktı, bu yüzden halving tarihleri gerçek zamanda değişmedi.
+- **"75 saniye"yi bir garanti olarak okumak.** Bu bir proof-of-work hedefidir; bloklar arasındaki gerçek süreler bu değerin etrafında değişir.
+- **Blossom'i bir gizlilik yükseltmesi olarak görmek.** Görevi blok zamanlaması ve ölçeklenebilirlikti; Sapling'nin aksine hiçbir kriptografiyi değiştirmedi.
+- **Düğüm operatörlerinin bunu atlayabileceğini düşünmek.** Blossom iki taraflı bir konsensüs değişikliğiydi; yükseltilmemiş bir düğüm ağdan çatallanarak ayrılır.
 
 ## Sözlük
 
@@ -95,5 +115,12 @@ Blossom, Zcash bloklarının yaklaşık iki kat daha sık gelmesini sağladı. B
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## İlgili Sayfalar
+
+- [Sapling](./Sapling.md) — önceki yükseltme (zamanlama değil, kriptografi)
+- [Heartwood](./Heartwood.md) — serideki bir sonraki yükseltme
+- [Tam Düğümler](./Full_Nodes.md) — zorunlu yükseltmeler boyunca bir düğüm çalıştırmanın neleri gerektirdiği
+- [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) — yükseltmelerin tam zaman çizelgesi
 
 Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [Sapling](../zcash-tech/sapling) · Sonraki: [Heartwood](../zcash-tech/heartwood)
