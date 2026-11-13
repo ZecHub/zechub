@@ -1,107 +1,107 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ledger Shielded ZEC उपयोगकर्ता मार्गदर्शिका
+# Ledger शील्डेड ZEC उपयोगकर्ता गाइड
 
-> अपने Ledger हार्डवेयर वॉलेट के साथ Ledger Wallet Desktop में निजी (shielded) ZEC रखें, प्राप्त करें और भेजें।
+> Ledger Wallet Desktop में अपने Ledger हार्डवेयर वॉलेट (hardware wallet) के साथ निजी (शील्डेड) ZEC रखें, प्राप्त करें और भेजें।
 
-## संक्षेप में
+## TL;DR
 
-* 23 सितंबर 2026 से, Ledger Wallet Desktop शील्डेड ZEC का समर्थन करता है। एक Zcash खाते में पारदर्शी बैलेंस और Ironwood पूल में निजी बैलेंस होता है।
-* फिलहाल केवल Desktop। Mobile समर्थन की घोषणा “जल्द आ रहा है” के रूप में की गई है।
-* आपको एक Nano S Plus, Nano X, Stax या Flex (मूल Nano S नहीं), Ledger Wallet Desktop 4.21+ और नवीनतम Zcash ऐप चाहिए।
-* **Enable shielded** पर एक बार क्लिक करें: आपका Ledger एक viewing key निर्यात करता है, ताकि desktop ऐप आपके निजी फंड ढूँढ सके। spending keys कभी डिवाइस से बाहर नहीं जातीं।
-* जब संभव हो, निजी पते (u1...) पर प्राप्त करें। अपने पारदर्शी बैलेंस से ZEC को निजी में स्थानांतरित करना काम करता है, लेकिन दोनों को जोड़ देता है।
-* हर भेजने की प्रक्रिया Ledger स्क्रीन पर समीक्षा की जाती है और हस्ताक्षरित होती है। वहाँ पतों को अक्षर-दर-अक्षर जाँचें।
+* 23 सितंबर 2026 से Ledger Wallet Desktop शील्डेड (shielded) ZEC को सपोर्ट करता है। एक Zcash खाते में एक ट्रांसपेरेंट (transparent) बैलेंस और Ironwood पूल (pool) में एक निजी बैलेंस होता है।
+* फ़िलहाल केवल डेस्कटॉप। मोबाइल सपोर्ट को “जल्द आ रहा है” के रूप में घोषित किया गया है।
+* आपको Nano S Plus, Nano X, Stax या Flex (मूल Nano S नहीं), Ledger Wallet Desktop 4.21+ और नवीनतम Zcash ऐप की आवश्यकता है।
+* एक बार **शील्डेड सक्षम करें** पर क्लिक करें: आपका Ledger एक व्यूइंग की (viewing key) एक्सपोर्ट करता है ताकि डेस्कटॉप ऐप आपके निजी फ़ंड ढूँढ सके। स्पेंडिंग की (spending key) कभी डिवाइस से बाहर नहीं जातीं।
+* जब संभव हो, निजी एड्रेस (address) (u1...) पर प्राप्त करें। अपने ट्रांसपेरेंट बैलेंस से ZEC को निजी बैलेंस में ले जाना काम करता है, लेकिन इससे दोनों आपस में जुड़ जाते हैं।
+* हर भेजे जाने वाले लेनदेन की समीक्षा और हस्ताक्षर Ledger की स्क्रीन पर होते हैं। वहाँ एड्रेस को अक्षर-दर-अक्षर जाँचें।
 
-## मूल व्याख्या
+## मुख्य व्याख्या
 
-Zcash में दो प्रकार के बैलेंस होते हैं। पारदर्शी ZEC (t1 पते) Bitcoin की तरह काम करता है: राशियाँ और पते सार्वजनिक होते हैं। शील्डेड ZEC एक शील्डेड पूल में रहता है, जहाँ भेजने वाला, प्राप्तकर्ता और राशि on-chain एन्क्रिप्टेड होते हैं।
+Zcash में दो प्रकार के बैलेंस होते हैं। ट्रांसपेरेंट ZEC (t1 एड्रेस) Bitcoin की तरह काम करता है: राशियाँ और एड्रेस सार्वजनिक होते हैं। शील्डेड ZEC एक शील्डेड पूल में रहता है, जहाँ भेजने वाला, प्राप्त करने वाला और राशि ऑन-चेन (on-chain) एन्क्रिप्टेड होते हैं।
 
-Ledger आपके spending keys को hardware device पर रखता है। निजी शेष राशि दिखाने के लिए, Ledger Wallet Desktop को एक Unified Full Viewing Key (UFVK) की आवश्यकता होती है। डिवाइस इसे एक बार export करता है, और desktop app इसका उपयोग आपके shielded notes के लिए blockchain को scan करने में करता है। एक viewing key आपके shielded इतिहास को देख सकती है, लेकिन खर्च नहीं कर सकती, इसलिए इसे निजी जानकारी मानें।
+Ledger आपकी स्पेंडिंग की को हार्डवेयर डिवाइस पर रखता है। निजी बैलेंस दिखाने के लिए Ledger Wallet Desktop को एक यूनिफ़ाइड Full Viewing Key (UFVK) की आवश्यकता होती है। डिवाइस इसे एक बार एक्सपोर्ट करता है, और डेस्कटॉप ऐप इसका उपयोग आपके शील्डेड नोट (note) खोजने के लिए ब्लॉकचेन (blockchain) को स्कैन करने में करता है। व्यूइंग की आपका शील्डेड इतिहास देख सकती है लेकिन खर्च नहीं कर सकती, इसलिए इसे निजी जानकारी की तरह मानें।
 
-नीचे दिए गए चरणों में Zcash ऐप इंस्टॉल करना, खाता जोड़ना, निजी शेष राशि सक्षम करना, प्राप्त करना, पारदर्शी ZEC को शील्ड करना और निजी शेष राशि से भेजना शामिल है।
+नीचे दिए गए चरणों में Zcash ऐप इंस्टॉल करना, खाता जोड़ना, निजी बैलेंस सक्षम करना, प्राप्त करना, ट्रांसपेरेंट ZEC को शील्ड करना और निजी बैलेंस से भेजना शामिल है।
 
 ## अवलोकन
 
-23 सितंबर 2026 को Ledger ने Ledger Wallet Desktop में मूल shielded ZEC जोड़ा। अब एक Zcash खाते में Zcash के Ironwood पूल में एक पारदर्शी बैलेंस और एक निजी बैलेंस होता है। आपकी निजी कुंजियाँ आपके Ledger पर रहती हैं, और हर लेनदेन की समीक्षा और हस्ताक्षर डिवाइस पर किए जाते हैं।
+23 सितंबर 2026 को Ledger ने Ledger Wallet Desktop में नेटिव शील्डेड ZEC जोड़ा। एक Zcash खाता अब एक ट्रांसपेरेंट बैलेंस और Zcash के Ironwood पूल में एक निजी बैलेंस रखता है। आपकी प्राइवेट की आपके Ledger पर रहती हैं, और हर लेनदेन (transaction) की समीक्षा और हस्ताक्षर डिवाइस पर होते हैं।
 
-**केवल डेस्कटॉप।** Ledger की घोषणा में कहा गया है कि shielded ZEC "केवल Ledger Wallet Desktop पर उपलब्ध है। इस समय मोबाइल समर्थन उपलब्ध नहीं है, लेकिन जल्द आ रहा है।" डेस्कटॉप ऐप भी यही सूचना दिखाता है। 15 अक्टूबर 2026 को जाँच की गई।
+**केवल डेस्कटॉप।** Ledger की घोषणा में कहा गया है कि शील्डेड ZEC “केवल Ledger Wallet Desktop पर उपलब्ध है। मोबाइल सपोर्ट इस समय उपलब्ध नहीं है, लेकिन जल्द आ रहा है।” डेस्कटॉप ऐप भी यही सूचना दिखाता है। 15 अक्टूबर 2026 को जाँचा गया।
 
 ## तैयारी
 
-- एक Ledger डिवाइस जिस पर Zcash ऐप चलता हो: Nano S Plus, Nano X, Stax या Flex। वर्तमान Zcash ऐप मूल Nano S के लिए नहीं बनाया गया है।
-- Ledger Wallet Desktop 4.21 या बाद का संस्करण, केवल [ledger.com](https://www.ledger.com) से डाउनलोड किया गया हो। इस मार्गदर्शिका में संस्करण 4.24.0 का उपयोग किया गया है।
-- आपके Ledger पर नवीनतम Zcash ऐप (इस मार्गदर्शिका के लिखे जाने पर 3.9.4)।
-- परीक्षण के लिए थोड़ी मात्रा में ZEC। नीचे दिया गया हर चरण mainnet पर 0.001 ZEC के साथ किया गया था। प्रत्येक लेनदेन पर एक छोटा नेटवर्क शुल्क लगता है (हमारे परीक्षण में 0.00015 ZEC)।
-- आपका 24-शब्दों वाला रिकवरी वाक्यांश कागज़ पर ही रहे। इसे कभी कंप्यूटर में टाइप न करें या साझा न करें।
+- एक Ledger डिवाइस जो Zcash ऐप चलाता हो: Nano S Plus, Nano X, Stax या Flex। वर्तमान Zcash ऐप मूल Nano S के लिए नहीं बना है।
+- Ledger Wallet Desktop 4.21 या बाद का संस्करण, केवल [ledger.com](https://www.ledger.com) से डाउनलोड किया हुआ। इस गाइड में संस्करण 4.24.0 का उपयोग किया गया।
+- आपके Ledger पर नवीनतम Zcash ऐप (यह गाइड लिखते समय 3.9.4)।
+- परीक्षण के लिए थोड़ी मात्रा में ZEC। नीचे दिया गया हर चरण मेननेट पर 0.001 ZEC के साथ किया गया। हर लेनदेन पर एक छोटा नेटवर्क शुल्क (fee) लगता है (हमारे परीक्षण में 0.00015 ZEC)।
+- आपका 24-शब्दों वाला रिकवरी फ़्रेज़ कागज़ पर ही रहे। इसे कभी कंप्यूटर में टाइप न करें और न ही किसी से साझा करें।
 
-## चरण-दर-चरण मार्गदर्शिका (Ledger Wallet Desktop)
+## चरण-दर-चरण गाइड (Ledger Wallet Desktop)
 
 **1. Zcash ऐप इंस्टॉल या अपडेट करें**
-- Ledger Wallet खोलें, अपना Ledger कनेक्ट और अनलॉक करें, और **My Ledger** खोलें। डिवाइस पर कनेक्शन की अनुमति दें।
-- ऐप कैटलॉग में **Zcash** खोजें, फिर **Install** पर क्लिक करें, या यदि यह पहले से इंस्टॉल है तो **Update** पर क्लिक करें।
-- अपने Ledger पर Zcash ऐप खोलें। स्क्रीन पर "Zcash app is ready" लिखा होगा। संस्करण जाँचने के लिए दाईं ओर स्क्रॉल करके **App info** पर जाएँ।
+- Ledger Wallet खोलें, अपना Ledger कनेक्ट और अनलॉक करें, और **मेरा Ledger** खोलें। डिवाइस पर कनेक्शन की अनुमति दें।
+- ऐप कैटलॉग में **Zcash** खोजें, फिर **इंस्टॉल** पर क्लिक करें, या यदि यह पहले से इंस्टॉल है तो **अपडेट** पर क्लिक करें।
+- अपने Ledger पर Zcash ऐप खोलें। स्क्रीन पर “Zcash ऐप तैयार है” दिखता है। संस्करण जाँचने के लिए दाईं ओर **ऐप जानकारी** तक स्क्रॉल करें।
 
 **2. एक Zcash खाता जोड़ें**
-- Ledger Wallet में **Add account** चुनें। **Select asset** में Zcash खोजें और wrapped token, जैसे Binance-Peg Zcash Token, के बजाय **Zcash (ZEC)** चुनें।
-- आपके Ledger पर Zcash ऐप खुला होने पर, Ledger Wallet आपका खाता खोज लेता है। **Select the accounts you want to add** के अंतर्गत उसे चुनें और **Confirm** पर क्लिक करें।
-- खाता पृष्ठ पर **Available balance**, **Transparent balance** और **Private balance**, साथ ही **Enable shielded** बटन दिखता है।
+- Ledger Wallet में **खाता जोड़ें** चुनें। **एसेट चुनें** में Zcash खोजें और **Zcash (ZEC)** चुनें, न कि कोई रैप्ड टोकन (token) जैसे Binance-Peg Zcash टोकन।
+- आपके Ledger पर Zcash ऐप खुला होने पर Ledger Wallet आपका खाता ढूँढ लेता है। **वे खाते चुनें जिन्हें आप जोड़ना चाहते हैं** के अंतर्गत उस पर टिक करें और **पुष्टि करें** पर क्लिक करें।
+- खाता पेज पर **उपलब्ध बैलेंस**, **ट्रांसपेरेंट बैलेंस** और **निजी बैलेंस** दिखते हैं, साथ ही एक **शील्डेड सक्षम करें** बटन भी।
 
-![Ledger Wallet Desktop में Zcash खाता, जिसमें केवल डेस्कटॉप सूचना, पारदर्शी और निजी शेष राशि, तथा “Enable shielded” बटन दिख रहा है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Ledger Wallet Desktop में Zcash खाता, जिसमें केवल डेस्कटॉप से संबंधित सूचना, ट्रांसपेरेंट और निजी बैलेंस, तथा Enable shielded बटन दिखाए गए हैं](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. निजी बैलेंस सक्षम करें**
-- **Enable shielded** पर क्लिक करें। **Enable Zcash private balance** विंडो में चार चरण होते हैं: Birthday, UFVK, Device और Confirmation।
-- **Birthday:** नए खाते के लिए birthday height को आज की तारीख पर ही रखें। "This account received shielded ZEC in the past" को केवल तभी चुनें जब आपको पता हो कि ऐसा हुआ था, क्योंकि block 0 से स्कैन करने में बहुत समय लग सकता है।
-- **UFVK और Device:** Ledger Wallet आपके Ledger से आपका Unified Full Viewing Key (UFVK) एक्सपोर्ट करने को कहता है। डिवाइस की स्क्रीन पढ़ें और स्वीकृत करें। यदि "Device connection lost" दिखे, तो सुनिश्चित करें कि Zcash ऐप खुला है, तुरंत स्वीकृत करें और **Retry** पर क्लिक करें।
-- जब **UFVK successfully imported** दिखे, तो **Start sync** पर क्लिक करें। syncing पूरा होने पर बटन "Last sync" समय के साथ **Update balance** में बदल जाता है।
-- viewing key आपके कंप्यूटर पर रहती है। यह आपके shielded फंड खोज सकती है, लेकिन उन्हें खर्च नहीं कर सकती।
+- **शील्डेड सक्षम करें** पर क्लिक करें। **Zcash निजी बैलेंस सक्षम करें** विंडो में चार चरण हैं: बर्थडे, UFVK, डिवाइस और पुष्टि।
+- **बर्थडे:** नए खाते के लिए बर्थडे हाइट को आज की तारीख पर ही रहने दें। “इस खाते ने पहले शील्डेड ZEC प्राप्त किया था” पर तभी टिक करें जब आपको पता हो कि ऐसा हुआ था, क्योंकि ब्लॉक (block) 0 से स्कैन करने में काफ़ी समय लग सकता है।
+- **UFVK और डिवाइस:** Ledger Wallet आपके Ledger से आपकी यूनिफ़ाइड Full Viewing Key (UFVK) एक्सपोर्ट करने के लिए कहता है। डिवाइस पर स्क्रीनें पढ़ें और स्वीकृति दें। यदि आपको “डिवाइस कनेक्शन टूट गया” दिखे, तो सुनिश्चित करें कि Zcash ऐप खुला है, तुरंत स्वीकृति दें और **फिर से प्रयास करें** पर क्लिक करें।
+- जब आपको **UFVK सफलतापूर्वक इम्पोर्ट हुई** दिखे, तो **सिंक शुरू करें** पर क्लिक करें। सिंक पूरा होने पर बटन “अंतिम सिंक” समय के साथ **बैलेंस अपडेट करें** में बदल जाता है।
+- व्यूइंग की आपके कंप्यूटर पर रहती है। यह आपके शील्डेड फ़ंड ढूँढ सकती है लेकिन उन्हें खर्च नहीं कर सकती।
 
-![Enable Zcash private balance window showing UFVK successfully imported and the Start sync button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
+![Enable Zcash private balance विंडो, जिसमें UFVK के सफलतापूर्वक इम्पोर्ट होने की सूचना और Start sync बटन दिखाया गया है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
 
-**4. ZEC प्राप्त करें और अपने Ledger पर दोनों पतों को सत्यापित करें**
-- **Receive** पर क्लिक करें और अपना Zcash खाता चुनें। Ledger Wallet एक **Address for Zcash 1** (पारदर्शी, t1 से शुरू) और एक **Private address for Zcash 1** (u1 से शुरू) दिखाता है। पुराने पते मान्य बने रहते हैं।
-- आपका Ledger "Verify Zcash addresses", फिर दो पृष्ठों में **Private address**, और फिर **Public Address** दिखाता है। किसी भी पते को साझा करने से पहले हर अक्षर की स्क्रीन से तुलना करें, फिर डिवाइस पर पुष्टि करें।
-- निजी पते को प्राथमिकता दें; पारदर्शी पते का उपयोग केवल तब करें जब भेजने वाला किसी और चीज़ का समर्थन नहीं करता।
+**4. ZEC प्राप्त करें और अपने Ledger पर दोनों एड्रेस सत्यापित करें**
+- **प्राप्त करें** पर क्लिक करें और अपना Zcash खाता चुनें। Ledger Wallet एक **Zcash 1 के लिए एड्रेस** (ट्रांसपेरेंट, t1 से शुरू) और एक **Zcash 1 के लिए निजी एड्रेस** (u1 से शुरू) दिखाता है। पहले के एड्रेस मान्य रहते हैं।
+- आपका Ledger “Zcash एड्रेस सत्यापित करें”, दो पेजों में **निजी एड्रेस**, फिर **सार्वजनिक एड्रेस** दिखाता है। किसी भी एड्रेस को साझा करने से पहले हर अक्षर की तुलना स्क्रीन से करें, फिर डिवाइस पर पुष्टि करें।
+- निजी एड्रेस को प्राथमिकता दें; ट्रांसपेरेंट एड्रेस का उपयोग केवल तभी करें जब भेजने वाला किसी और चीज़ को सपोर्ट न करता हो।
 
-![Ledger Wallet Receive window showing the transparent address and the private address for Zcash 1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-03-receive-addresses.png)
+![Ledger Wallet की Receive विंडो, जिसमें Zcash 1 के लिए ट्रांसपेरेंट एड्रेस और निजी एड्रेस दिखाए गए हैं](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-03-receive-addresses.png)
 
-![Ledger device screens: Verify Zcash addresses, Private address in two pages, then Public Address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
+![Ledger डिवाइस की स्क्रीन: Verify Zcash addresses, दो पेज में Private address, फिर Public Address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
 
-**5. पारदर्शी ZEC को अपने निजी बैलेंस में स्थानांतरित करें**
-- **Send** पर क्लिक करें। **Self transfer** के अंतर्गत **Send to private balance** चुनें।
-- एक राशि दर्ज करें या 25%, 50%, 75% अथवा **Max** का उपयोग करें। नेटवर्क शुल्क जाँचें, फिर **Review** पर क्लिक करें।
-- अपने Ledger पर क्रम से देखें: "Review transaction to send ZEC", "Transfer from public to private address", राशि, दो पृष्ठों में आउटपुट पता, शुल्क और expiry height। जाँचें कि आउटपुट पता चरण 4 के आपके निजी पते से मेल खाता है, फिर **Sign transaction** पर दोनों बटन दबाएँ।
-- Ledger Wallet **Transaction sent** दिखाता है। लेनदेन विवरण में प्रकार **Private (Ironwood)** पढ़ता है।
-- Ledger Wallet नोट करता है कि self transfer आपके shielded फंड को आपके सार्वजनिक पते से जोड़ देता है। सीधे अपने निजी पते पर प्राप्त करने से वे असंबद्ध रहते हैं।
+**5. ट्रांसपेरेंट ZEC को अपने निजी बैलेंस में ले जाएँ**
+- **भेजें** पर क्लिक करें। **सेल्फ़ ट्रांसफ़र** के अंतर्गत **निजी बैलेंस में भेजें** चुनें।
+- राशि दर्ज करें या 25%, 50%, 75% या **अधिकतम** का उपयोग करें। नेटवर्क शुल्क जाँचें, फिर **समीक्षा** पर क्लिक करें।
+- अपने Ledger पर इन चरणों से गुज़रें: “ZEC भेजने के लिए लेनदेन की समीक्षा करें”, “सार्वजनिक से निजी एड्रेस में ट्रांसफ़र”, राशि, दो पेजों में आउटपुट एड्रेस, शुल्क और एक्सपायरी हाइट। जाँचें कि आउटपुट एड्रेस चरण 4 वाले आपके निजी एड्रेस से मेल खाता है, फिर **लेनदेन पर हस्ताक्षर करें** पर दोनों बटन दबाएँ।
+- Ledger Wallet **लेनदेन भेजा गया** दिखाता है। लेनदेन विवरण में प्रकार **निजी (Ironwood)** दिखता है।
+- Ledger Wallet बताता है कि सेल्फ़ ट्रांसफ़र आपके शील्डेड फ़ंड को आपके सार्वजनिक एड्रेस से जोड़ देता है। सीधे अपने निजी एड्रेस पर प्राप्त करने से वे आपस में नहीं जुड़ते।
 
-![Send ZEC window in Ledger Wallet with the Self transfer option Send to private balance](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-05-send-to-private-balance.png)
+![Ledger Wallet की Send ZEC विंडो, जिसमें Self transfer विकल्प Send to private balance दिखाया गया है](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-05-send-to-private-balance.png)
 
-![Ledger device review screens for moving ZEC from the transparent balance to the private address, ending with Sign transaction and Transaction signed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-06-device-review-shielding.png)
+![ट्रांसपेरेंट बैलेंस से निजी एड्रेस पर ZEC स्थानांतरित करने के लिए Ledger डिवाइस की समीक्षा स्क्रीन, जिनके अंत में Sign transaction और Transaction signed आते हैं](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-06-device-review-shielding.png)
 
-- लेनदेन की पुष्टि होने के बाद, पारदर्शी बैलेंस घटता है और निजी बैलेंस बढ़ता है। नए shielded फंड खर्च करने के लिए पर्याप्त confirmations मिलने तक "maturing" के रूप में दिखते हैं।
+- लेनदेन की पुष्टि होने के बाद ट्रांसपेरेंट बैलेंस घटता है और निजी बैलेंस बढ़ता है। नए शील्डेड फ़ंड तब तक “मैच्योर हो रहे हैं” के रूप में दिखते हैं जब तक उन्हें खर्च करने के लिए पर्याप्त पुष्टियाँ न मिल जाएँ।
 
-![शील्ड करने के बाद Zcash खाता: पारदर्शी शेष राशि कम हुई, निजी शेष राशि बढ़ी और परिपक्व हो रही के रूप में दिखाई गई](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![शील्डिंग के बाद Zcash खाता: ट्रांसपेरेंट बैलेंस घटा हुआ, निजी बैलेंस बढ़ा हुआ और परिपक्व होने की प्रक्रिया में दिखाया गया](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. अपने निजी बैलेंस से ZEC भेजें**
-- निजी बैलेंस खर्च योग्य हो जाने पर **Send** पर क्लिक करें और **Transfer from** को **Private balance** पर सेट करें।
-- प्राप्तकर्ता का पता पेस्ट करें और राशि दर्ज करें। आप 512 bytes तक का एन्क्रिप्टेड **Memo (optional)** जोड़ सकते हैं, जिसे केवल प्राप्तकर्ता पढ़ सकता है।
-- अपने Ledger पर प्राप्तकर्ता, राशि और शुल्क की समीक्षा करें, फिर **Sign transaction** पर दोनों बटन दबाएँ।
+- जब निजी बैलेंस खर्च करने योग्य हो जाए, तो **भेजें** पर क्लिक करें और **यहाँ से ट्रांसफ़र** को **निजी बैलेंस** पर सेट करें।
+- प्राप्तकर्ता का एड्रेस पेस्ट करें और राशि दर्ज करें। आप 512 बाइट तक का एक एन्क्रिप्टेड **मेमो (वैकल्पिक)** जोड़ सकते हैं, जिसे केवल प्राप्तकर्ता ही पढ़ सकता है।
+- अपने Ledger पर प्राप्तकर्ता, राशि और शुल्क की समीक्षा करें, फिर **लेनदेन पर हस्ताक्षर करें** पर दोनों बटन दबाएँ।
 
-![Sent transaction from the private balance in Ledger Wallet transaction details](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-08-private-send.png)
+![Ledger Wallet के लेनदेन विवरण में निजी बैलेंस से भेजा गया लेनदेन](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-08-private-send.png)
 
 ## जानने योग्य बातें
 
-- Ledger पर shielded ZEC अभी केवल डेस्कटॉप के लिए है (15 अक्टूबर 2026 को जाँच की गई)।
+- Ledger पर शील्डेड ZEC फ़िलहाल केवल डेस्कटॉप पर है (15 अक्टूबर 2026 को जाँचा गया)।
 - Ledger Wallet का निजी बैलेंस Ironwood पूल का उपयोग करता है।
-- Ledger कहता है कि आप अपने लेनदेन इतिहास का read-only access किसी कर सलाहकार के साथ साझा कर सकते हैं। आपके viewing key वाला कोई भी व्यक्ति आपका shielded इतिहास देख सकता है, इसलिए इसे केवल सोच-समझकर साझा करें।
-- इस मार्गदर्शिका में डिवाइस स्क्रीन Ledger के Speculos emulator (Nano S Plus) से कैप्चर की गई थीं, जिस पर Zcash ऐप 3.9.4 चल रहा था और जो Zcash mainnet पर Ledger Wallet Desktop 4.24.0 से कनेक्ट था। एक भौतिक Ledger वही ऐप चलाता है और वही स्क्रीन दिखाता है।
+- Ledger के अनुसार आप अपने लेनदेन इतिहास की केवल-पढ़ने वाली पहुँच किसी टैक्स सलाहकार के साथ साझा कर सकते हैं। आपकी व्यूइंग की रखने वाला कोई भी व्यक्ति आपका शील्डेड इतिहास देख सकता है, इसलिए इसे केवल सोच-समझकर ही साझा करें।
+- इस गाइड में डिवाइस की स्क्रीनें Ledger के Speculos एमुलेटर (Nano S Plus) से कैप्चर की गई थीं, जो Zcash ऐप 3.9.4 चला रहा था और Zcash मेननेट पर Ledger Wallet Desktop 4.24.0 से कनेक्टेड था। एक भौतिक Ledger वही ऐप चलाता है और वही स्क्रीनें दिखाता है।
 
 ## अतिरिक्त सहायता
 
-- [Ledger Wallet में नया: मूल Shielded Zcash समर्थन](https://www.ledger.com/blog-native-shielded-zcash-support) (Ledger की घोषणा)
+- [Ledger Wallet में नया: नेटिव शील्डेड Zcash सपोर्ट](https://www.ledger.com/blog-native-shielded-zcash-support) (Ledger की घोषणा)
 - [Ledger सहायता केंद्र](https://support.ledger.com)
-- [ZecHub Wallets पृष्ठ](/using-zcash/wallets)
-- [Shielded Pools](/using-zcash/shielded-pools) और [Viewing Keys](/zcash-tech/viewing-keys), ZecHub पर
-- एक अन्य hardware wallet विकल्प: [Keystone Zashi उपयोगकर्ता मार्गदर्शिका](/guides/keystone-zashi)
+- [ZecHub वॉलेट पेज](/using-zcash/wallets)
+- ZecHub पर [शील्डेड पूल](/using-zcash/shielded-pools) और [व्यूइंग की](/zcash-tech/viewing-keys)
+- एक अन्य हार्डवेयर वॉलेट विकल्प: [Keystone Zashi उपयोगकर्ता गाइड](/guides/keystone-zashi)

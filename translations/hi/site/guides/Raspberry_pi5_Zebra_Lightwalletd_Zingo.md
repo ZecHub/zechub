@@ -18,34 +18,34 @@
 </div>
 
 
-## निर्भरताएँ
+## डिपेंडेंसी (Dependencies)
 
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 ```
 
-## Zebra को कम्पाइल करें
+## Zebra का कंपाइलेशन
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
 
-## zebrad.toml को कॉन्फ़िगर करें
+## zebrad.toml का कॉन्फ़िगरेशन
 
-जोड़ें:
+यह जोड़ें:
 
 `listen_addr = '127.0.0.1:8232'`
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Zebra को सिंक करें
+## Zebra का सिंक
 
 * `zebrad start`
 
-## lightwalletd को कम्पाइल करें
+## lightwalletd का कंपाइलेशन
 
-* go इंस्टॉल करें
+* Go इंस्टॉल करें
 
 ```bash
 wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
@@ -63,14 +63,14 @@ make install
 export PATH=$PATH:~/go/bin
 ```
 
-## lightwalletd को सिंक करें
+## lightwalletd का सिंक
 
-* data-dir में बदलाव पर ध्यान दें
+* data-dir में हुए बदलाव पर ध्यान दें
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
 
-## NodeJS इंस्टॉल करें
+## NodeJS का इंस्टॉलेशन
 
 ```bash
  curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
@@ -78,13 +78,13 @@ export PATH=$PATH:~/go/bin
  sudo apt update
  sudo apt install nodejs
 ```
-यदि आपको कोई त्रुटि मिलती है, तो NodeJS इंस्टॉल करने के कुछ वैकल्पिक तरीके [यहाँ](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) दिए गए हैं।
+यदि आपको कोई त्रुटि मिलती है, तो [यहाँ](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) NodeJS इंस्टॉल करने के कुछ वैकल्पिक तरीके दिए गए हैं।
 
-## Yarn इंस्टॉल करें
+## Yarn का इंस्टॉलेशन
 
 `corepack enable`
 
-## Zingo इंस्टॉल करें
+## Zingo का इंस्टॉलेशन
 
 ```bash
 git clone https://github.com/zingolabs/zingo-pc.git
@@ -96,9 +96,9 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Zingo-PC शुरू करें
+## Zingo-PC की शुरुआत
 
-* appimage, या unpacked फ़ोल्डर में मौजूद binary का उपयोग कर सकते हैं
+* आप AppImage या अनपैक किए गए फ़ोल्डर में मौजूद बाइनरी का उपयोग कर सकते हैं
 * आनंद लें! :)
 
 # स्रोत

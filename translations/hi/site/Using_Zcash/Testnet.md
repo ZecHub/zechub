@@ -1,164 +1,164 @@
-# Zcash Testnet
+# Zcash टेस्टनेट
 
-## Zcash Testnet क्या है?
+## Zcash टेस्टनेट क्या है?
 
-**Zcash Testnet** वास्तविक Zcash main network (Mainnet) के समानांतर चलने वाली एक blockchain है, जो बिल्कुल वही protocol, नियम और transaction logic दोहराती है - लेकिन दो मुख्य अंतर के साथ:
+**Zcash टेस्टनेट (Testnet)** असली Zcash मुख्य नेटवर्क (मेननेट, Mainnet) के समानांतर चलने वाला एक ब्लॉकचेन (blockchain) है। इसमें वही प्रोटोकॉल, नियम और लेनदेन (transaction) का तर्क हूबहू लागू होता है, लेकिन दो मुख्य अंतर हैं:
 
-1. **Coins का कोई वास्तविक मौद्रिक मूल्य नहीं होता** - इन्हें **TAZ** कहा जाता है, ZEC नहीं, और इनका उपयोग केवल testing के लिए किया जाता है।  
-2. **वास्तविक Zcash blockchain पर deployment से पहले network upgrades, tools, और software की testing यहीं पहले की जाती है।**  
+1. **कॉइन का कोई वास्तविक मौद्रिक मूल्य नहीं होता** - इन्हें ZEC नहीं, बल्कि **TAZ** कहा जाता है और इनका उपयोग केवल परीक्षण के लिए होता है।  
+2. **नेटवर्क अपग्रेड (network upgrade), उपकरण (tools) और सॉफ़्टवेयर का परीक्षण पहले यहीं होता है**, उसके बाद ही इन्हें असली Zcash ब्लॉकचेन पर लागू किया जाता है।  
 
-दूसरे शब्दों में, Testnet एक **sandbox या experimental environment** की तरह है, जहाँ developers, auditors, और builders वास्तविक धन को जोखिम में डाले बिना विचारों को आज़मा सकते हैं।
+दूसरे शब्दों में, टेस्टनेट एक **सैंडबॉक्स या प्रायोगिक वातावरण** की तरह है, जहाँ डेवलपर (developer), ऑडिटर और बिल्डर असली पैसे का जोखिम उठाए बिना अपने विचार आज़मा सकते हैं।
 
 
-## Testnet क्यों मौजूद है?
+## टेस्टनेट क्यों मौजूद है?
 
-Testnet blockchain development के लिए अत्यंत महत्वपूर्ण है क्योंकि **Zcash जैसी वास्तविक blockchains immutable होती हैं** - एक बार main network पर transactions confirm हो जाएँ, तो उन्हें वापस नहीं किया जा सकता। Testnet, Mainnet पर deploy करने से पहले प्रयोग, testing, और debugging के लिए एक **सुरक्षित replica** प्रदान करता है।
+ब्लॉकचेन विकास के लिए टेस्टनेट बहुत ज़रूरी है, क्योंकि **Zcash जैसे असली ब्लॉकचेन अपरिवर्तनीय होते हैं**। मुख्य नेटवर्क पर लेनदेन की पुष्टि हो जाने के बाद उसे पलटा नहीं जा सकता। टेस्टनेट एक **सुरक्षित प्रतिकृति** देता है, जहाँ मेननेट पर लागू करने से पहले फ़ीचर के साथ प्रयोग, उनका परीक्षण और डीबग किया जा सकता है।
 
-### Testnet के उपयोग
+### टेस्टनेट के उपयोग
 
-#### 1. Software Development & Integration
+#### 1. सॉफ़्टवेयर विकास और इंटीग्रेशन
 
-जो developers wallets, exchanges, mining software, या privacy tools बना रहे होते हैं, वे उन्हें Testnet पर सुरक्षित रूप से test कर सकते हैं। क्षमताओं में शामिल हैं:
+वॉलेट (wallet), एक्सचेंज (exchange), माइनिंग (mining) सॉफ़्टवेयर या गोपनीयता (privacy) उपकरण बनाने वाले डेवलपर टेस्टनेट पर इनका सुरक्षित परीक्षण कर सकते हैं। इसमें ये क्षमताएँ शामिल हैं:
 
-- Transactions भेजना और प्राप्त करना  
-- zero-value TAZ coins के साथ नए blocks mine करना  
-- User interfaces और APIs बनाना  
-- Transaction privacy features (transparent बनाम shielded) की testing करना  
+- लेनदेन भेजना और प्राप्त करना  
+- शून्य-मूल्य वाले TAZ कॉइन के साथ नए ब्लॉक (block) माइन करना  
+- यूज़र इंटरफ़ेस और API बनाना  
+- लेनदेन की गोपनीयता से जुड़े फ़ीचर का परीक्षण (ट्रांसपेरेंट (transparent) बनाम शील्डेड (shielded))  
 
 **उदाहरण:**  
-[`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) जैसे tools, transactions generate करने और Zcash shielded asset functionalities की testing के लिए Testnet का उपयोग करते हैं।  
+[`zcash_tx_tool`](https://github.com/QED-it/zcash_tx_tool) जैसे उपकरण लेनदेन बनाने और Zcash शील्डेड एसेट की कार्यक्षमता का परीक्षण करने के लिए टेस्टनेट का उपयोग करते हैं।  
 
 **वास्तविक परिदृश्य:**  
-एक wallet developer software को Testnet RPC endpoint से connect कर सकता है और पूरा lifecycle simulate कर सकता है - addresses बनाना, shielded transactions भेजना, और balances validate करना - Mainnet पर live जाने से पहले।
+कोई वॉलेट डेवलपर अपने सॉफ़्टवेयर को टेस्टनेट के RPC एंडपॉइंट से जोड़कर पूरे जीवनचक्र का अनुकरण कर सकता है: एड्रेस (address) बनाना, शील्डेड लेनदेन भेजना और बैलेंस सत्यापित करना। यह सब मेननेट पर लाइव होने से पहले किया जाता है।
 
-#### 2. Network Upgrades की Testing
+#### 2. नेटवर्क अपग्रेड का परीक्षण
 
-Zcash समय-समय पर अपने core protocol को upgrade करता है (जैसे NU6.1, NU6.2 और Ironwood)। Testnet पर नए upgrades **Mainnet से पहले** activate किए जाते हैं, जिससे developers और community bugs की पहचान कर उन्हें ठीक कर सकें।
+Zcash समय-समय पर अपने मूल प्रोटोकॉल को अपग्रेड करता है (जैसे NU6.1, NU6.2 और Ironwood)। टेस्टनेट नए अपग्रेड को **मेननेट से पहले** सक्रिय करता है, ताकि डेवलपर और समुदाय बग पहचानकर उन्हें ठीक कर सकें।
 
 **उदाहरण:**  
-किसी नए consensus rule या transaction type को पहले Testnet पर भेजा जाता है। सफल testing के बाद, यह Mainnet पर पूर्वनिर्धारित block height पर activate होता है।
+कोई नया कंसेंसस (consensus) नियम या लेनदेन का नया प्रकार पहले टेस्टनेट पर लाया जाता है। सफल परीक्षण के बाद वह पहले से तय ब्लॉक ऊँचाई पर मेननेट पर सक्रिय होता है।
 
-#### 3. Node Implementations की Testing
+#### 3. नोड इम्प्लीमेंटेशन का परीक्षण
 
-Zcash का रखरखाव किया गया नोड **Zebra** (Zcash Foundation द्वारा रखरखाव किया गया Rust-आधारित नोड) है और रखरखाव किया गया वॉलेट [Zallet](https://github.com/zcash/zallet) है। मूल नोड कार्यान्वयन `zcashd` 18 जुलाई 2026 को स्वचालित सहायता-समाप्ति रुकावट पर पहुँच गया और अब इसका रखरखाव नहीं किया जाता - [zcashd से Zebra और Zallet माइग्रेशन गाइड](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) देखें। टेस्टनेट बिना वित्तीय जोखिम के वास्तविक परिस्थितियों में नोड्स का परीक्षण करने में सक्षम बनाता है।
+Zcash का अनुरक्षित नोड (node) **Zebra** है (Rust पर आधारित नोड, जिसका अनुरक्षण Zcash Foundation करता है), और अनुरक्षित वॉलेट [Zallet](https://github.com/zcash/zallet) है। मूल नोड इम्प्लीमेंटेशन `zcashd` 18 जुलाई 2026 को अपने स्वचालित एंड-ऑफ़-सपोर्ट पड़ाव पर पहुँच गया और अब उसका अनुरक्षण नहीं होता। इसके लिए [zcashd से Zebra और Zallet माइग्रेशन गाइड](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) देखें। टेस्टनेट पर बिना किसी वित्तीय जोखिम के वास्तविक परिस्थितियों में नोड का परीक्षण किया जा सकता है।
 
-Node developers यह कर सकते हैं:
+नोड डेवलपर ये काम कर सकते हैं:
 
-- Block propagation को validate करना  
-- RPC interfaces की testing करना  
-- Load के तहत node behavior का अवलोकन करना  
-- Mining software interactions की testing करना  
+- ब्लॉक प्रसार को सत्यापित करना  
+- RPC इंटरफ़ेस का परीक्षण  
+- लोड के दौरान नोड के व्यवहार का अवलोकन  
+- माइनिंग सॉफ़्टवेयर के साथ इंटरैक्शन का परीक्षण  
 
-#### 4. Learning & Education
+#### 4. सीखना और शिक्षा
 
-शुरुआती उपयोगकर्ता mining, shielded transactions बनाना, और Unified Address का उपयोग करना जैसी Zcash features सीख सकते हैं।  
-Community tutorials और documentation **Testnet faucets, explorers, और guides** तक पहुँच प्रदान करते हैं।
-
-
-## Testnet के वास्तविक उपयोग के मामले
-
-### 1. Developer Testing (Wallet / App)
-
-- Zcash Testnet से connect करें  
-- Faucet से TAZ प्राप्त करें  
-- Shielded transactions भेजें  
-- Privacy और UI stability सत्यापित करें  
-
-गलतियाँ होने पर भी कोई वास्तविक ZEC नहीं खोता।
-
-### 2. Exchange Integration Testing
-
-- एक Testnet node चलाएँ  
-- Transactions process करने के लिए Zebrad JSON-RPC endpoints का उपयोग करें  
-- Automated deposit/withdrawal logic की testing करें  
-
-यह production code को सुरक्षित बनाता है और वित्तीय नुकसान से बचाता है।
-
-### 3. Mining Setup Trials
-
-- Mining templates का उपयोग करें  
-- Block validation की testing करें  
-- Mining rewards का अवलोकन करें (केवल TAZ)  
-- Mining performance को tune करें  
-
-यह Mainnet पर जाने के समय downtime या कमाई के नुकसान से बचाता है।
-
-### 4. Academic / Protocol Research
-
-Researchers, Testnet का उपयोग करके **stateless verification**, **zero-knowledge proof optimization**, या अन्य protocol experiments जैसी innovations की testing कर सकते हैं।  
-Advanced users विशेष प्रयोगों के लिए **custom Testnets या regtest environments** भी चला सकते हैं।
+शुरुआती उपयोगकर्ता Zcash के फ़ीचर सीख सकते हैं, जैसे माइनिंग, शील्डेड लेनदेन बनाना और यूनिफ़ाइड एड्रेस का उपयोग।  
+सामुदायिक ट्यूटोरियल और दस्तावेज़ों के ज़रिए **टेस्टनेट फॉसेट, एक्सप्लोरर और गाइड** उपलब्ध होते हैं।
 
 
-## Mainnet और Testnet के बीच मुख्य अंतर
+## टेस्टनेट के वास्तविक उपयोग के मामले
 
-| Feature               | Mainnet           | Testnet                  |
+### 1. डेवलपर परीक्षण (वॉलेट / ऐप)
+
+- Zcash टेस्टनेट से जुड़ें  
+- किसी फॉसेट से TAZ का अनुरोध करें  
+- शील्डेड लेनदेन भेजें  
+- गोपनीयता और UI की स्थिरता सत्यापित करें  
+
+गलतियाँ होने पर भी कोई असली ZEC नहीं खोता।
+
+### 2. एक्सचेंज इंटीग्रेशन का परीक्षण
+
+- टेस्टनेट नोड चलाएँ  
+- लेनदेन प्रोसेस करने के लिए Zebrad JSON-RPC एंडपॉइंट का उपयोग करें  
+- स्वचालित जमा/निकासी के तर्क का परीक्षण करें  
+
+इससे प्रोडक्शन कोड सुरक्षित रहता है और वित्तीय नुकसान से बचाव होता है।
+
+### 3. माइनिंग सेटअप के परीक्षण
+
+- माइनिंग टेम्पलेट का उपयोग करें  
+- ब्लॉक सत्यापन का परीक्षण करें  
+- माइनिंग पुरस्कार देखें (केवल TAZ)  
+- माइनिंग प्रदर्शन को बेहतर बनाएँ  
+
+इससे मेननेट पर जाते समय डाउनटाइम या कमाई के नुकसान से बचा जा सकता है।
+
+### 4. अकादमिक / प्रोटोकॉल अनुसंधान
+
+शोधकर्ता टेस्टनेट का उपयोग करके **स्टेटलेस सत्यापन**, **ज़ीरो-नॉलेज (zero-knowledge) प्रूफ (proof) ऑप्टिमाइज़ेशन** जैसे नवाचारों या अन्य प्रोटोकॉल प्रयोगों का परीक्षण कर सकते हैं।  
+उन्नत उपयोगकर्ता विशेष प्रयोगों के लिए **कस्टम टेस्टनेट या रेगटेस्ट वातावरण** भी चला सकते हैं।
+
+
+## मेननेट और टेस्टनेट के बीच मुख्य अंतर
+
+| फ़ीचर               | मेननेट           | टेस्टनेट                  |
 |-----------------------|-----------------|--------------------------|
-| Coins का मूल्य        | वास्तविक ZEC     | TAZ (कोई मौद्रिक मूल्य नहीं) |
-| जोखिम                  | वित्तीय जोखिम    | testing के लिए सुरक्षित   |
-| Protocol upgrades     | Production       | प्रारंभिक activation     |
-| Mining rewards        | वास्तविक issuance| केवल test reward         |
-| Network utility       | Live transactions| testing और development   |
+| कॉइन का मूल्य        | असली ZEC         | TAZ (कोई मौद्रिक मूल्य नहीं)  |
+| जोखिम                  | वित्तीय जोखिम   | परीक्षण के लिए सुरक्षित         |
+| प्रोटोकॉल अपग्रेड     | प्रोडक्शन       | जल्दी सक्रियण         |
+| माइनिंग पुरस्कार        | असली जारीकरण    | केवल परीक्षण पुरस्कार         |
+| नेटवर्क उपयोगिता       | लाइव लेनदेन| परीक्षण और विकास  |
 
-## सामान्य भ्रांतियाँ
+## आम गलतफ़हमियाँ
 
-- **Testnet coins की कुछ कीमत होती है** -> गलत, TAZ का मूल्य शून्य है।  
-- **Testnet coins खोना मायने रखता है** -> गलत, कोई वास्तविक मूल्य नहीं खोता।  
-- **Testnet और Mainnet एक जैसे हैं** -> गलत, Testnet अक्सर reset होता है और Mainnet की तरह आर्थिक रूप से सुरक्षित नहीं होता।
+- **टेस्टनेट कॉइन का कोई मूल्य होता है** -> गलत, TAZ का मूल्य शून्य है।  
+- **टेस्टनेट कॉइन खोना मायने रखता है** -> गलत, कोई असली मूल्य नहीं खोता।  
+- **टेस्टनेट और मेननेट एक जैसे हैं** -> गलत, टेस्टनेट अक्सर रीसेट होता है और मेननेट की तरह आर्थिक रूप से सुरक्षित नहीं है।
 
 ---
 
 ## TAZ क्या है?
 
-**TAZ** Zcash coins का Testnet संस्करण है:  
+**TAZ** Zcash कॉइन का टेस्टनेट संस्करण है:  
 
-- वास्तविक पैसा नहीं; इसे ZEC या fiat में exchange नहीं किया जा सकता  
-- Testing, development, और learning के लिए उपयोग किया जाता है  
-- सभी Zcash नियमों का पालन करता है: भेजा जा सकता है, mine किया जा सकता है, और shielded addresses में उपयोग किया जा सकता है  
-
-**उदाहरण:**  
-एक developer, wallet feature की testing के लिए बिना वास्तविक ZEC को जोखिम में डाले, एक Testnet address से दूसरे पर 100 TAZ भेज सकता है।  
-
-TAZ को **Zcash Testnet के लिए "play money"** की तरह समझें।
-
-
-## Faucets क्या हैं?
-
-एक **faucet** ऐसी service है जो testing के लिए मुफ्त TAZ coins देती है:
-
-- आमतौर पर websites या APIs  
-- Users एक Testnet address देते हैं; faucet थोड़ी-सी TAZ भेज देता है  
-- TAZ को manually mine करने की आवश्यकता से बचाता है  
+- यह असली पैसा नहीं है। इसे ZEC या फ़िएट मुद्रा में बदला नहीं जा सकता  
+- इसका उपयोग परीक्षण, विकास और सीखने के लिए होता है  
+- यह Zcash के सभी नियमों का पालन करता है: इसे भेजा जा सकता है, माइन किया जा सकता है और शील्डेड एड्रेस में उपयोग किया जा सकता है  
 
 **उदाहरण:**  
-1. किसी Testnet faucet पर जाएँ (जैसे, [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
-2. अपना Testnet address दर्ज करें  
+कोई डेवलपर असली ZEC का जोखिम उठाए बिना किसी वॉलेट फ़ीचर का परीक्षण करने के लिए एक टेस्टनेट एड्रेस से दूसरे पर 100 TAZ भेज सकता है।  
+
+TAZ को **Zcash टेस्टनेट का “खेल का पैसा”** समझें।
+
+
+## फॉसेट क्या हैं?
+
+**फॉसेट (faucet)** एक सेवा है, जो परीक्षण के लिए मुफ़्त TAZ कॉइन देती है:
+
+- आमतौर पर ये वेबसाइट या API होते हैं  
+- उपयोगकर्ता एक टेस्टनेट एड्रेस देते हैं और फॉसेट थोड़ी मात्रा में TAZ भेजता है  
+- इससे TAZ को मैन्युअल रूप से माइन करने की ज़रूरत नहीं पड़ती  
+
+**उदाहरण:**  
+1. किसी टेस्टनेट फॉसेट पर जाएँ (जैसे [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
+2. अपना टेस्टनेट एड्रेस दर्ज करें  
 3. TAZ का अनुरोध करें  
-4. Testing शुरू करने के लिए तुरंत TAZ प्राप्त करें
+4. परीक्षण शुरू करने के लिए तुरंत TAZ प्राप्त करें  
 
-**यह क्यों महत्वपूर्ण है:**  
-- ZEC को जोखिम में डाले बिना सुरक्षित testing  
-- शुरुआती उपयोगकर्ताओं और developers के लिए सुलभता  
-- Wallets, exchanges, और apps के लिए तेज prototyping  
+**यह क्यों मायने रखता है:**  
+- ZEC का जोखिम उठाए बिना सुरक्षित परीक्षण  
+- शुरुआती उपयोगकर्ताओं और डेवलपर के लिए सुलभता  
+- वॉलेट, एक्सचेंज और ऐप की तेज़ प्रोटोटाइपिंग
 
 
 
-## Zkool और Zingo! Wallets
+## Zkool और Zingo! वॉलेट
 
 ### Zkool
 
-- उन्नत Zcash उपयोगकर्ताओं के लिए multi-account wallet  
-- Seed phrases, viewing keys, transparent और shielded addresses को support करता है  
-- Full nodes या lightwallet servers के माध्यम से Mainnet, Testnet, या Regtest से connect हो सकता है
+- उन्नत Zcash उपयोगकर्ताओं के लिए मल्टी-अकाउंट वॉलेट  
+- सीड फ्रेज़ (seed phrase), व्यूइंग की (viewing key), ट्रांसपेरेंट और शील्डेड एड्रेस को सपोर्ट करता है  
+- फुल नोड (full node) या लाइटवॉलेट सर्वर के ज़रिए मेननेट, टेस्टनेट या रेगटेस्ट से जुड़ सकता है
 
 ### Zingo!
 
-- Privacy और simplicity पर केंद्रित mobile wallet  
-- Shielded और unified addresses को support करता है  
-- Testnet protocols (जिसमें NU6 Testnet शामिल है) के support के लिए update किया गया
+- गोपनीयता और सरलता पर केंद्रित मोबाइल वॉलेट  
+- शील्डेड और यूनिफ़ाइड एड्रेस को सपोर्ट करता है  
+- टेस्टनेट प्रोटोकॉल (NU6 टेस्टनेट सहित) के सपोर्ट के लिए अपडेट किया गया है
 
-## Wallets में Testnet सक्षम करना
+## वॉलेट में टेस्टनेट का सक्रियण
 
-### Zkool Wallet
+### Zkool वॉलेट
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -172,11 +172,11 @@ TAZ को **Zcash Testnet के लिए "play money"** की तरह स�
 </div>
 
 **सुझाव:**  
-- Network बदलते समय wallet restart हो सकता है  
-- Mainnet ZEC accounts अप्रभावित रहते हैं  
-- यदि prompt मिले तो Testnet lightwallet server का उपयोग करें
+- नेटवर्क बदलते समय वॉलेट रीस्टार्ट हो सकता है  
+- मेननेट के ZEC अकाउंट पर कोई असर नहीं पड़ता  
+- कहा जाए तो टेस्टनेट लाइटवॉलेट सर्वर का उपयोग करें
 
-### Zingo! Wallet
+### Zingo! वॉलेट
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -190,19 +190,19 @@ TAZ को **Zcash Testnet के लिए "play money"** की तरह स�
 </div>
 
 
-एक बार सक्षम हो जाने पर, wallets TAZ भेज और प्राप्त कर सकते हैं, shielded transactions की testing कर सकते हैं, और सुरक्षित रूप से प्रयोग कर सकते हैं।
+सक्रिय होने के बाद वॉलेट TAZ भेज और प्राप्त कर सकते हैं। आप शील्डेड लेनदेन का परीक्षण और सुरक्षित रूप से प्रयोग कर सकते हैं।
 
 
-## Testnet सक्षम करने के बाद
+## टेस्टनेट सक्रिय करने के बाद
 
-- Transactions Mainnet की तरह काम करते हैं लेकिन **zero-value TAZ** के साथ  
-- Shielded transactions, multiple addresses, और privacy features की testing की जा सकती है  
-- Developers वास्तविक ZEC को जोखिम में डाले बिना features को debug और test कर सकते हैं
+- लेनदेन मेननेट की तरह ही काम करते हैं, लेकिन **शून्य-मूल्य वाले TAZ** के साथ  
+- शील्डेड लेनदेन, कई एड्रेस और गोपनीयता फ़ीचर का परीक्षण किया जा सकता है  
+- डेवलपर असली ZEC का जोखिम उठाए बिना फ़ीचर को डीबग कर सकते हैं और उनका परीक्षण कर सकते हैं
 
 
-## त्वरित सारांश
+## संक्षिप्त सारांश
 
-- **Zcash Testnet** निर्माण, testing, और प्रयोग के लिए एक सुरक्षित sandbox environment है  
-- उपयोग के मामले: developer testing, node testing, exchange integration, research, और education  
-- ZEC के स्थान पर **TAZ coins** का उपयोग किया जाता है और उनका कोई वास्तविक मूल्य नहीं होता  
-- Mainnet पर features को live deploy करने से पहले Testnet आवश्यक है
+- **Zcash टेस्टनेट** निर्माण, परीक्षण और प्रयोग के लिए एक सुरक्षित सैंडबॉक्स वातावरण है  
+- उपयोग के मामले (use case): डेवलपर परीक्षण, नोड परीक्षण, एक्सचेंज इंटीग्रेशन, अनुसंधान और शिक्षा  
+- ZEC की जगह **TAZ कॉइन** का उपयोग होता है, जिनका कोई वास्तविक मूल्य नहीं है  
+- मेननेट पर फ़ीचर लाइव करने से पहले टेस्टनेट अनिवार्य है

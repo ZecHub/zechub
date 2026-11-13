@@ -1,130 +1,130 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Zgo_Payment_Processor.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पेज संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZGo Payment Processor: कस्टडी छोड़े बिना Zcash स्वीकार करना
+# ZGo भुगतान (Payment) प्रोसेसर: कस्टडी के बिना Zcash स्वीकार करना
 
-ZGo, Zcash के लिए एक non-custodial payment processor है। ग्राहक अपने wallet से ZEC में भुगतान करता है, ZGo उस transaction के लिए Zcash blockchain की निगरानी करता है, और राशि shielded transfer के माध्यम से सीधे व्यापारी के wallet में पहुँच जाती है। ZGo बीच में कभी भी धन अपने पास नहीं रखता।
+ZGo Zcash के लिए एक नॉन-कस्टोडियल (non-custodial) भुगतान प्रोसेसर है। ग्राहक अपने वॉलेट (wallet) से ZEC में भुगतान करता है। ZGo लेनदेन (transaction) के लिए Zcash ब्लॉकचेन (blockchain) की निगरानी करता है। राशि शील्डेड (shielded) ट्रांसफ़र के ज़रिए सीधे व्यापारी के वॉलेट में पहुँचती है। बीच में ZGo कभी भी पैसा अपने पास नहीं रखता।
 
-यह guide बताती है कि payment flow कैसे काम करता है, account कैसे सेट up करें, और ZGo को Xero तथा WooCommerce के साथ कैसे integrate करें। इसमें उन दो गलतियों को भी शामिल किया गया है जो पहली बार setup करते समय सबसे ज़्यादा समस्याएँ पैदा करती हैं।
+यह गाइड बताती है कि भुगतान की प्रक्रिया कैसे काम करती है, अकाउंट कैसे सेट अप करें और ZGo को Xero और WooCommerce के साथ कैसे इंटीग्रेट करें। इसमें उन दो गलतियों के बारे में भी बताया गया है जिनकी वजह से पहली बार सेटअप करते समय ज़्यादातर समस्याएँ आती हैं।
 
 ## इस पेज पर
 
-1. [ZGo का उपयोग क्यों करें](#why-use-zgo)
+1. [ZGo का उपयोग क्यों](#why-use-zgo)
 2. [ZGo कैसे काम करता है](#how-zgo-works)
-3. [Account सेट up करना](#setting-up-an-account)
+3. [अकाउंट का सेटअप](#setting-up-an-account)
 4. [Xero के साथ ZGo](#zgo-with-xero)
 5. [WooCommerce के साथ ZGo](#zgo-with-woocommerce)
 6. [विशेषताएँ](#features)
-7. [सामान्य गलतियाँ](#common-mistakes)
+7. [आम गलतियाँ](#common-mistakes)
 8. [निष्कर्ष](#conclusion)
 9. [संसाधन](#resources)
 
-## ZGo का उपयोग क्यों करें
+## ZGo का उपयोग क्यों
 
-अधिकांश cryptocurrency payment processor custodial होते हैं। धन पहले processor के account में पहुँचता है और बाद में व्यापारी को भेजा जाता है, जिसका मतलब है कि एक third party अस्थायी रूप से उस पैसे को नियंत्रित करती है और उसे फ्रीज़, विलंबित, या उस पर रिपोर्ट कर सकती है।
+ज़्यादातर क्रिप्टोकरेंसी भुगतान प्रोसेसर कस्टोडियल होते हैं। राशि पहले प्रोसेसर के अकाउंट में आती है और बाद में व्यापारी को भेजी जाती है। इसका मतलब है कि कुछ समय के लिए पैसा किसी तीसरे पक्ष के नियंत्रण में रहता है। वह तीसरा पक्ष इसे फ़्रीज़ कर सकता है, इसमें देरी कर सकता है या इसकी रिपोर्ट कर सकता है।
 
-ZGo इसका उल्टा तरीका अपनाता है। भुगतान ग्राहक के wallet से सीधे व्यापारी के wallet में Zcash shielded transaction के माध्यम से जाता है। Processor केवल invoice बनाता है और confirmation के लिए blockchain पर नज़र रखता है। इसमें कोई intermediary balance नहीं होता, कोई withdrawal flow नहीं होता, और कोई third party नहीं होती जो settlement को रोक सके।
+ZGo इसके ठीक विपरीत तरीका अपनाता है। भुगतान Zcash शील्डेड लेनदेन के ज़रिए ग्राहक के वॉलेट से सीधे व्यापारी के वॉलेट में जाते हैं। प्रोसेसर सिर्फ़ इनवॉइस बनाता है और पुष्टि के लिए ब्लॉकचेन पर नज़र रखता है। इसमें कोई बीच का बैलेंस नहीं होता, निकासी की कोई प्रक्रिया नहीं होती और कोई तीसरा पक्ष सेटलमेंट को रोक नहीं सकता।
 
-किसी व्यापारी के लिए इसका अर्थ तीन व्यावहारिक बातें हैं: आने वाले ZEC पर पूर्ण custody, डिफ़ॉल्ट रूप से shielded transaction privacy, और किसी centralized provider के online या solvent बने रहने पर निर्भरता नहीं।
+व्यापारी के लिए इसके तीन व्यावहारिक मतलब हैं: आने वाले ZEC पर पूरी कस्टडी, डिफ़ॉल्ट रूप से शील्डेड लेनदेन की गोपनीयता (privacy) और किसी केंद्रीकृत प्रदाता के ऑनलाइन या सॉल्वेंट बने रहने पर कोई निर्भरता नहीं।
 
 ## ZGo कैसे काम करता है
 
-चाहे ZGo standalone इस्तेमाल किया जाए, Xero के माध्यम से, या WooCommerce के माध्यम से, payment flow एक जैसा रहता है:
+ZGo का उपयोग अलग से किया जाए, Xero के ज़रिए किया जाए या WooCommerce के ज़रिए, भुगतान की प्रक्रिया हर बार एक जैसी रहती है:
 
-1. व्यापारी ZGo में payment request बनाता है, जो amount, invoice ID, और एक Zcash receiving address के साथ QR code के रूप में दिखाई देती है।
-2. ग्राहक QR को Zcash wallet से scan करता है (WordPress plugin पर Orchard, Sapling, और Transparent address types सभी supported हैं) और payment approve करता है।
-3. Transaction ग्राहक के wallet से व्यापारी के wallet तक shielded transfer के रूप में Zcash network पर broadcast की जाती है।
-4. ZGo उस transaction के लिए Zcash blockchain की निगरानी करता है।
-5. पाँच confirmations के बाद, ZGo payment को final के रूप में mark करता है और किसी भी connected integration (Xero, WooCommerce, या webhook) को notify करता है।
+1. व्यापारी ZGo में भुगतान अनुरोध बनाता है। यह एक QR कोड के रूप में दिखता है जिसमें राशि, इनवॉइस ID और एक Zcash प्राप्ति एड्रेस (address) होता है।
+2. ग्राहक Zcash वॉलेट से QR स्कैन करता है और भुगतान को मंज़ूरी देता है। WordPress प्लगइन पर Orchard, Sapling और ट्रांसपेरेंट (transparent), तीनों प्रकार के एड्रेस समर्थित हैं।
+3. लेनदेन ग्राहक के वॉलेट से व्यापारी के वॉलेट में शील्डेड ट्रांसफ़र के रूप में Zcash नेटवर्क पर ब्रॉडकास्ट किया जाता है।
+4. ZGo लेनदेन के लिए Zcash ब्लॉकचेन की निगरानी करता है।
+5. पाँच पुष्टियों के बाद ZGo भुगतान को अंतिम मान लेता है और किसी भी जुड़े हुए इंटीग्रेशन (Xero, WooCommerce या वेबहुक) को सूचित करता है।
 
-पाँच-confirmation threshold सबसे महत्वपूर्ण संख्या है। इससे पहले की कोई भी स्थिति payment in progress है, payment received नहीं। Order fulfilment, inventory updates, और व्यापारी की ओर से कोई भी irreversible action step 5 तक प्रतीक्षा करनी चाहिए।
+पाँच पुष्टियों की सीमा सबसे अहम संख्या है। इससे पहले की कोई भी स्थिति प्रगति पर चल रहा भुगतान है, प्राप्त भुगतान नहीं। ऑर्डर पूरा करना, इन्वेंटरी अपडेट करना और व्यापारी की ओर से कोई भी ऐसा कदम जिसे वापस नहीं लिया जा सकता, चरण 5 तक रुकना चाहिए।
 
-ZGo desktop या mobile पर किसी भी modern browser में चलता है, और किसी भी पक्ष को install की आवश्यकता नहीं होती। ग्राहक को एक Zcash wallet चाहिए; व्यापारी को एक Zcash wallet और एक ZGo account चाहिए।
+ZGo डेस्कटॉप या मोबाइल के किसी भी आधुनिक ब्राउज़र में चलता है। किसी भी पक्ष को कुछ इंस्टॉल करने की ज़रूरत नहीं होती। ग्राहक को Zcash वॉलेट चाहिए। व्यापारी को Zcash वॉलेट और ZGo अकाउंट चाहिए।
 
 <img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
-## Account सेट up करना
+## अकाउंट का सेटअप
 
-ZGo account बनाने के लिए, थोड़ी-सी ZEC राशि वाले एक Zcash wallet की आवश्यकता होती है। यह छोटी ZEC balance account-initialization transaction की on-chain fee को कवर करती है। इसके लिए कोई भी प्रमुख Zcash wallet काम करेगा; मौजूदा विकल्पों के लिए [ZecHub Wallets](https://zechub.wiki/wallets) देखें।
+ZGo अकाउंट बनाने के लिए ऐसा Zcash वॉलेट चाहिए जिसमें थोड़ा ZEC हो। यह छोटा ZEC बैलेंस अकाउंट-इनिशियलाइज़ेशन लेनदेन का ऑन-चेन शुल्क (fee) चुकाने के काम आता है। इसके लिए कोई भी प्रमुख Zcash वॉलेट काम करता है। मौजूदा विकल्पों के लिए [ZecHub वॉलेट](https://zechub.wiki/wallets) देखें।
 
-मूल setup:
+बुनियादी सेटअप:
 
-1. Browser में [zgo.cash](https://zgo.cash/) खोलें।
-2. व्यापारी के नियंत्रण वाले Zcash wallet का उपयोग करके account बनाएँ। इस wallet में keys होनी चाहिए। Exchange deposit address काम नहीं करेगा (देखें [सामान्य गलतियाँ](#common-mistakes))।
-3. छोटी initialization transaction भेजकर wallet verify करें।
-4. Receiving address configure करें। इस account के माध्यम से processed सभी payments इसी wallet में आएँगी।
+1. ब्राउज़र में [zgo.cash](https://zgo.cash/) खोलें।
+2. व्यापारी के नियंत्रण वाले Zcash वॉलेट से अकाउंट बनाएँ। Keys इसी वॉलेट के पास होनी चाहिए। एक्सचेंज (exchange) का डिपॉज़िट एड्रेस काम नहीं करेगा (देखें [आम गलतियाँ](#common-mistakes))।
+3. छोटा इनिशियलाइज़ेशन लेनदेन भेजकर वॉलेट को वेरिफ़ाई करें।
+4. प्राप्ति एड्रेस कॉन्फ़िगर करें। इस अकाउंट से प्रोसेस होने वाले सभी भुगतान इसी वॉलेट में आएँगे।
 
-एक बार account active हो जाने के बाद, वही व्यापारी ZGo का उपयोग one-off payments (जैसे pop-up event में एक single QR code) के लिए कर सकता है या इसे Xero या WooCommerce के माध्यम से स्थायी setup में जोड़ सकता है।
+अकाउंट सक्रिय होने के बाद वही व्यापारी ZGo का उपयोग एक बार के भुगतानों के लिए कर सकता है (जैसे किसी पॉप-अप इवेंट में एक QR कोड), या Xero या WooCommerce के ज़रिए इसे स्थायी सेटअप में जोड़ सकता है।
 
 ## Xero के साथ ZGo
 
-[Xero](https://www.xero.com/) एक cloud accounting platform है जिसका उपयोग कई small और mid-size businesses करती हैं। ZGo–Xero integration व्यापारी को Xero में invoice जारी करने, ग्राहक से ZEC में भुगतान लेने, और transaction confirm होते ही Xero में invoice को अपने-आप paid mark करने की सुविधा देता है।
+[Xero](https://www.xero.com/) एक क्लाउड अकाउंटिंग प्लेटफ़ॉर्म है जिसका उपयोग कई छोटे और मध्यम आकार के व्यवसाय करते हैं। ZGo–Xero इंटीग्रेशन से व्यापारी Xero में इनवॉइस जारी कर सकता है और ग्राहक उसका भुगतान ZEC में कर सकता है। लेनदेन की पुष्टि होते ही Xero इनवॉइस को अपने आप भुगतान किया हुआ मार्क कर देता है।
 
 यह कैसे काम करता है:
 
-1. व्यापारी सामान्य तरीके से Xero में invoice बनाता है।
-2. ZGo invoice के साथ एक Zcash payment option जोड़ता है।
-3. ग्राहक अपने wallet के माध्यम से ZEC में भुगतान करता है।
-4. ZGo उस transaction के लिए [Zcash blockchain](https://z.cash/) की निगरानी करता है।
-5. पाँच confirmations के बाद, ZGo payment की सूचना वापस Xero को देता है, जो invoice को settled mark कर देता है।
+1. व्यापारी हमेशा की तरह Xero में इनवॉइस बनाता है।
+2. ZGo इनवॉइस में Zcash भुगतान का विकल्प जोड़ता है।
+3. ग्राहक अपने वॉलेट से ZEC में भुगतान करता है।
+4. ZGo लेनदेन के लिए [Zcash ब्लॉकचेन](https://z.cash/) की निगरानी करता है।
+5. पाँच पुष्टियों के बाद ZGo भुगतान की जानकारी Xero को देता है, और Xero इनवॉइस को सेटल्ड मार्क कर देता है।
 
-ZEC व्यापारी के wallet में पहुँचता है, किसी ZGo-controlled या Xero-controlled account में नहीं। Xero में accounting record अपने-आप on-chain settlement के साथ sync में रहता है।
+ZEC व्यापारी के वॉलेट में आता है, न कि ZGo या Xero के नियंत्रण वाले किसी अकाउंट में। Xero का अकाउंटिंग रिकॉर्ड ऑन-चेन सेटलमेंट के साथ अपने आप सिंक रहता है।
 
-पहली बार setup के लिए, यह dedicated walkthrough देखें: [Xero Integration Configuration](https://hedgedoc.vergara.tech/s/4iXC67fmb)।
+पहली बार सेटअप के लिए यह विस्तृत गाइड देखें: [Xero इंटीग्रेशन कॉन्फ़िगरेशन](https://hedgedoc.vergara.tech/s/4iXC67fmb)।
 
 ## WooCommerce के साथ ZGo
 
-[WooCommerce](https://woocommerce.com/) और [WordPress](https://wordpress.org/) पर चलने वाली online shops के लिए, ZGo एक dedicated plugin प्रदान करता है। यह plugin checkout पर Zcash को payment method के रूप में जोड़ता है और payment confirm होने पर order state को अपने-आप संभालता है।
+[WooCommerce](https://woocommerce.com/) और [WordPress](https://wordpress.org/) पर चलने वाली ऑनलाइन दुकानों के लिए ZGo एक खास प्लगइन देता है। यह प्लगइन चेकआउट पर Zcash को भुगतान के तरीके के रूप में जोड़ता है और भुगतान की पुष्टि होने पर ऑर्डर की स्थिति अपने आप संभालता है।
 
 <img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
-WooCommerce store के भीतर end-to-end flow:
+WooCommerce स्टोर के अंदर पूरी प्रक्रिया:
 
-1. ग्राहक checkout तक पहुँचता है और payment method के रूप में Zcash चुनता है।
-2. Plugin payment request बनाता है और checkout page पर QR code दिखाता है।
-3. ग्राहक अपने wallet से भुगतान करता है।
-4. Transaction Zcash network पर broadcast होती है और ZGo उसकी निगरानी शुरू कर देता है।
-5. पाँच confirmations के बाद, ZGo plugin को payment final होने की सूचना देता है।
-6. Plugin WooCommerce order को paid mark करता है और order database को update करता है।
+1. ग्राहक चेकआउट पर पहुँचता है और भुगतान के तरीके के रूप में Zcash चुनता है।
+2. प्लगइन भुगतान अनुरोध बनाता है और चेकआउट पेज पर QR कोड दिखाता है।
+3. ग्राहक अपने वॉलेट से भुगतान करता है।
+4. लेनदेन Zcash नेटवर्क पर ब्रॉडकास्ट होता है और ZGo उसकी निगरानी शुरू करता है।
+5. पाँच पुष्टियों के बाद ZGo प्लगइन को बताता है कि भुगतान अंतिम है।
+6. प्लगइन WooCommerce ऑर्डर को भुगतान किया हुआ मार्क करता है और ऑर्डर डेटाबेस अपडेट करता है।
 
-Order केवल तब paid होता है जब step 6 पूरा होता है। इससे पहले की अवस्थाएँ (broadcast, शुरुआती confirmations) ग्राहक को "payment received, awaiting confirmation" के रूप में दिखाई जा सकती हैं, लेकिन inventory, fulfilment, और कोई भी downstream automation final state की प्रतीक्षा करनी चाहिए।
+ऑर्डर का भुगतान तभी पूरा माना जाता है जब चरण 6 पूरा हो जाए। पहले की स्थितियाँ (ब्रॉडकास्ट, शुरुआती पुष्टियाँ) ग्राहक को “भुगतान प्राप्त हुआ, पुष्टि की प्रतीक्षा है” के रूप में दिखाई जा सकती हैं। लेकिन इन्वेंटरी, ऑर्डर पूरा करना और आगे का कोई भी ऑटोमेशन अंतिम स्थिति तक रुकना चाहिए।
 
-Plugin WordPress के भीतर एक administrative dashboard भी install करता है, जहाँ व्यापारी orders और incoming ZEC payments की निगरानी सामान्य WooCommerce order view के साथ कर सकता है। Plugin सभी मौजूदा Zcash address types को support करता है: Orchard, Sapling, और Transparent। किसी भी compliant wallet से भुगतान करने वाले ग्राहक transaction पूरी कर सकते हैं।
+प्लगइन WordPress के अंदर एक एडमिनिस्ट्रेटिव डैशबोर्ड (dashboard) भी इंस्टॉल करता है। वहाँ व्यापारी सामान्य WooCommerce ऑर्डर व्यू के साथ-साथ ऑर्डर और आने वाले ZEC भुगतानों की निगरानी कर सकता है। प्लगइन सभी मौजूदा Zcash एड्रेस प्रकारों को सपोर्ट करता है: Orchard, Sapling और ट्रांसपेरेंट। किसी भी संगत वॉलेट से भुगतान करने वाले ग्राहक लेनदेन पूरा कर सकते हैं।
 
 ## विशेषताएँ
 
-**Non-custodial.** Payments ग्राहक के wallet से व्यापारी के wallet तक shielded transactions के माध्यम से सीधे जाती हैं। ZGo बीच में कभी भी धन अपने पास नहीं रखता, और व्यापारी पूरे समय पूर्ण नियंत्रण बनाए रखता है।
+**नॉन-कस्टोडियल।** भुगतान शील्डेड लेनदेन के ज़रिए ग्राहक के वॉलेट से सीधे व्यापारी के वॉलेट में जाते हैं। बीच में ZGo कभी भी राशि अपने पास नहीं रखता, और पूरी प्रक्रिया में नियंत्रण व्यापारी के पास रहता है।
 
-**Flexible deployment.** ZGo का उपयोग किसी pop-up market में केवल एक दोपहर के लिए, एक स्थायी point-of-sale setup के लिए, या Xero अथवा WooCommerce integrations के माध्यम से online store के backend के रूप में किया जा सकता है।
+**लचीली तैनाती।** ZGo का उपयोग किसी पॉप-अप मार्केट में एक दोपहर के लिए, स्थायी पॉइंट-ऑफ़-सेल सेटअप के लिए, या Xero या WooCommerce इंटीग्रेशन के ज़रिए किसी ऑनलाइन स्टोर के बैकएंड के रूप में किया जा सकता है।
 
-**Browser-based.** न ग्राहक पक्ष पर और न ही व्यापारी पक्ष पर किसी install की आवश्यकता है। ZGo desktop या mobile पर किसी भी modern browser में चलता है।
+**ब्राउज़र-आधारित।** ग्राहक या व्यापारी, किसी को भी कुछ इंस्टॉल करने की ज़रूरत नहीं होती। ZGo डेस्कटॉप या मोबाइल के किसी भी आधुनिक ब्राउज़र में चलता है।
 
-**Wallet compatibility.** प्रमुख Zcash wallets, जिनमें Orchard, Sapling, और Transparent address types को support करने वाले wallets शामिल हैं, ग्राहक पक्ष पर अतिरिक्त configuration के बिना ZGo invoice का भुगतान कर सकते हैं।
+**वॉलेट संगतता।** प्रमुख Zcash वॉलेट ZGo इनवॉइस का भुगतान कर सकते हैं, जिनमें Orchard, Sapling और ट्रांसपेरेंट एड्रेस प्रकारों को सपोर्ट करने वाले वॉलेट भी शामिल हैं। इसके लिए ग्राहक को कोई अतिरिक्त कॉन्फ़िगरेशन नहीं करना पड़ता।
 
-**Integrations.** Xero (accounting) और WooCommerce (e-commerce) के साथ direct integrations, दो सबसे सामान्य merchant workflows को out of the box कवर करते हैं।
+**इंटीग्रेशन।** Xero (अकाउंटिंग) और WooCommerce (ई-कॉमर्स) के साथ सीधे इंटीग्रेशन से व्यापारियों के दो सबसे आम वर्कफ़्लो शुरू से ही कवर हो जाते हैं।
 
-## सामान्य गलतियाँ
+## आम गलतियाँ
 
-**पाँच confirmations से पहले order को paid मान लेना।** Broadcast की गई transaction, confirmed payment के समान नहीं होती। Transaction अभी भी confirm होने में विफल हो सकती है या replace की जा सकती है। केवल पाँच confirmations के बाद ही ZGo payment को final के रूप में report करता है, और केवल तभी downstream order को paid mark किया जाना चाहिए। यदि कोई व्यापारी inventory या fulfilment को broadcast event पर trigger होने के लिए configure करता है, तो fraudulent या failed payments वास्तविक नुकसान का कारण बनेंगी।
+**पाँच पुष्टियों से पहले ऑर्डर को भुगतान किया हुआ मान लेना।** ब्रॉडकास्ट किया गया लेनदेन, पुष्टि हो चुके भुगतान जैसा नहीं होता। हो सकता है कि लेनदेन की पुष्टि न हो या उसे बदल दिया जाए। ZGo पाँच पुष्टियों के बाद ही भुगतान को अंतिम बताता है, और तभी आगे के सिस्टम में ऑर्डर को भुगतान किया हुआ मार्क करना चाहिए। अगर व्यापारी इन्वेंटरी या ऑर्डर पूरा करने की प्रक्रिया को ब्रॉडकास्ट होते ही शुरू होने के लिए कॉन्फ़िगर करता है, तो धोखाधड़ी वाले या विफल भुगतानों से असली नुकसान होगा।
 
-**ZGo को exchange deposit address की ओर point करना।** यह Zcash address जैसा दिखता है, लेकिन exchange deposit addresses का नियंत्रण व्यापारी के पास नहीं, बल्कि exchange के पास होता है। Exchange के पास keys होती हैं, जिसका अर्थ है कि धन भी exchange के नियंत्रण में होता है, और इससे non-custodial processor इस्तेमाल करने का उद्देश्य ही समाप्त हो जाता है। ZGo में configure किया गया wallet address ऐसा wallet होना चाहिए जिसकी seed phrase पर व्यापारी का सीधा नियंत्रण हो।
+**ZGo में एक्सचेंज का डिपॉज़िट एड्रेस डालना।** यह Zcash एड्रेस जैसा दिखता है, लेकिन एक्सचेंज के डिपॉज़िट एड्रेस एक्सचेंज के नियंत्रण में होते हैं, व्यापारी के नहीं। Keys एक्सचेंज के पास होती हैं, यानी राशि भी एक्सचेंज के पास होती है। इससे नॉन-कस्टोडियल प्रोसेसर इस्तेमाल करने का मकसद ही खत्म हो जाता है। ZGo में कॉन्फ़िगर किया गया वॉलेट एड्रेस ऐसे वॉलेट का होना चाहिए जिसकी सीड फ्रेज़ (seed phrase) सीधे व्यापारी के नियंत्रण में हो।
 
-**ZGo को wallet समझ लेना।** ZGo एक payment processor है, wallet नहीं। यह keys store नहीं करता, balances hold नहीं करता, और न ही व्यापारी को धन खर्च करने देता है। ZGo जिस धन को route करता है उसे प्राप्त करने के लिए व्यापारी के नियंत्रण में एक अलग Zcash wallet आवश्यक है।
+**ZGo को वॉलेट समझना।** ZGo एक भुगतान प्रोसेसर है, वॉलेट नहीं। यह न keys स्टोर करता है, न बैलेंस रखता है और न ही व्यापारी को राशि खर्च करने देता है। ZGo जो पैसा आगे भेजता है, उसे प्राप्त करने के लिए व्यापारी के नियंत्रण में एक अलग Zcash वॉलेट ज़रूरी है।
 
 ## निष्कर्ष
 
-ZGo व्यापारियों को Zcash payments स्वीकार करने का एक ऐसा तरीका देता है जिसमें उन्हें custody नहीं छोड़नी पड़ती, किसी intermediary पर निर्भर नहीं रहना पड़ता, और public chain पर transaction details उजागर नहीं करनी पड़तीं। दोनों integrations (Xero और WooCommerce) सबसे सामान्य merchant workflows को कवर करती हैं; बाकी सभी स्थितियों के लिए ZGo को किसी भी browser से standalone उपयोग किया जा सकता है।
+ZGo व्यापारियों को Zcash भुगतान स्वीकार करने का ऐसा तरीका देता है जिसमें उन्हें कस्टडी नहीं छोड़नी पड़ती, किसी बिचौलिए पर निर्भर नहीं रहना पड़ता और लेनदेन का विवरण किसी सार्वजनिक चेन (chain) पर उजागर नहीं होता। दोनों इंटीग्रेशन (Xero और WooCommerce) व्यापारियों के सबसे आम वर्कफ़्लो कवर करते हैं। बाकी हर ज़रूरत के लिए ZGo का उपयोग किसी भी ब्राउज़र से अलग से किया जा सकता है।
 
-Setup के लिए रास्ता छोटा है: एक Zcash wallet लें, [zgo.cash](https://zgo.cash/) पर account बनाएँ, और फिर या तो सीधे payment requests बनाना शुरू करें या संबंधित integration install करें।
+सेटअप का रास्ता छोटा है: एक Zcash वॉलेट लें, [zgo.cash](https://zgo.cash/) पर अकाउंट बनाएँ, और फिर सीधे भुगतान अनुरोध बनाना शुरू करें या संबंधित इंटीग्रेशन इंस्टॉल करें।
 
 ## संसाधन
 
 - [ZGo की आधिकारिक वेबसाइट](https://zgo.cash/)
-- [Xero Integration Configuration walkthrough](https://hedgedoc.vergara.tech/s/4iXC67fmb)
+- [Xero इंटीग्रेशन कॉन्फ़िगरेशन गाइड](https://hedgedoc.vergara.tech/s/4iXC67fmb)
 - [WooCommerce](https://woocommerce.com/) और [WordPress](https://wordpress.org/)
 - [Xero](https://www.xero.com/)
-- [Zcash project का homepage](https://z.cash/)
-- [ZecHub Wallets](https://zechub.wiki/wallets), compatible Zcash wallets की सूची
-- [ZecHub Payment Processors overview](https://zechub.wiki/payment-processors), अन्य Zcash payment options के संदर्भ में ZGo
-- [BTCPayServer Zcash Plugin](https://zechub.wiki/guides/btcpayserver-zcash-plugin), self-hosted alternative के लिए संबंधित ZecHub guide
+- [Zcash प्रोजेक्ट का होमपेज](https://z.cash/)
+- [ZecHub वॉलेट](https://zechub.wiki/wallets), संगत Zcash वॉलेट की सूची
+- [ZecHub भुगतान प्रोसेसर का अवलोकन](https://zechub.wiki/payment-processors), अन्य Zcash भुगतान विकल्पों के संदर्भ में ZGo
+- [BTCPayServer Zcash प्लगइन](https://zechub.wiki/guides/btcpayserver-zcash-plugin), सेल्फ़-होस्टेड विकल्प के लिए संबंधित ZecHub गाइड

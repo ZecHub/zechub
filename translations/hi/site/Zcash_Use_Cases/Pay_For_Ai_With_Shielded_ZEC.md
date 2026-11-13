@@ -1,4 +1,4 @@
-# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="developer icon"/> Shielded ZEC के साथ निजी तौर पर AI सेवाओं के लिए भुगतान करें
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="developer icon"/> शील्डेड ZEC से AI सेवाओं का निजी भुगतान
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -6,180 +6,180 @@
 </span>
 
 
-## संक्षेप में
+## TL;DR
 
-- **NanoGPT** सीधे shielded ZEC स्वीकार करता है, बिना किसी account और बिना email के
-- न्यूनतम top-up **$0.10** है, इसलिए आप बहुत कम रकम से इसे आजमा सकते हैं
-- क्रेडिट लगभग **30 सेकंड** में, पहली confirmation पर पहुंच जाता है
-- जो सेवाएं ZEC स्वीकार नहीं करतीं, उनके लिए **CrossPay** का उपयोग करें ताकि आप shielded ZEC खर्च कर सकें और उन्हें USDC में भुगतान हो जाए
-- chain पर अंततः क्या दिखाई देगा, यह इस पर निर्भर करता है कि आपका ZEC **किस pool में है**, और स्क्रीन यह कभी नहीं बताती
+- **NanoGPT** शील्डेड (shielded) ZEC सीधे स्वीकार करता है। इसमें न कोई अकाउंट चाहिए, न कोई ईमेल
+- न्यूनतम टॉप-अप (top-up) **$0.10** है, इसलिए आप इसे बहुत कम पैसों में आज़मा सकते हैं
+- क्रेडिट लगभग **30 सेकंड** में, पहली पुष्टि (confirmation) पर ही आ जाता है
+- जो सेवाएँ ZEC स्वीकार नहीं करतीं, उनके लिए **CrossPay** का उपयोग करें। इससे आप शील्डेड ZEC खर्च करते हैं और भुगतान (payment) USDC में पहुँचता है
+- ऑन-चेन (on-chain) क्या दिखाई देगा, यह इस पर निर्भर करता है कि **आपके ZEC किस पूल (pool) में हैं**, और स्क्रीन पर यह कभी नहीं बताया जाता
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> यह किसके लिए है?
 
-- कोई भी जो नहीं चाहता कि उसकी AI subscription उसके नाम से जुड़ी हो
-- Developers जो corporate card के बिना inference के लिए भुगतान कर रहे हैं
-- वे लोग जिनके देशों में AI सेवाओं के लिए card payment विफल हो जाती है
-- कोई भी जो किसी model को आजमाने के लिए अपना email नहीं देना चाहता
+- हर वह व्यक्ति जो नहीं चाहता कि AI सब्सक्रिप्शन उसके नाम से जुड़ा हो
+- कॉर्पोरेट कार्ड के बिना इन्फ़रेंस (inference) का भुगतान करने वाले डेवलपर (developer)
+- ऐसे देशों के लोग जहाँ AI सेवाओं को कार्ड से भुगतान विफल हो जाता है
+- हर वह व्यक्ति जो कोई मॉडल आज़माने के लिए अपना ईमेल नहीं देना चाहता
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> समस्या
 
-सामान्य तौर पर AI के लिए भुगतान करने का मतलब है एक card, एक email, और एक account। इससे आपका हर prompt आपकी कानूनी पहचान से जुड़ जाता है, और payment processor भी यह सब देखता है।
+AI के भुगतान के लिए आमतौर पर एक कार्ड, एक ईमेल और एक अकाउंट चाहिए होता है। इससे आपका लिखा हर प्रॉम्प्ट आपकी कानूनी पहचान से जुड़ जाता है, और भुगतान प्रोसेसर भी इसे देख पाता है।
 
-Crypto को यह समस्या हल करनी चाहिए, लेकिन अधिकतर guides पुराने हो चुके हैं। सेवाएं क्या स्वीकार करती हैं, यह बदलता रहता है, और एक साल पहले लिखा गया walkthrough आपको ऐसे रास्ते पर भेज देगा जो अब काम नहीं करता।
+क्रिप्टो से यह समस्या हल होनी चाहिए, लेकिन ज़्यादातर गाइड पुरानी हो चुकी हैं। सेवाएँ समय-समय पर बदलती रहती हैं कि वे क्या स्वीकार करती हैं। एक साल पहले लिखी गई गाइड आपको ऐसे रास्ते पर भेज देगी जो अब काम नहीं करता।
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Zcash क्यों?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="lock icon"/> Zcash ही क्यों?
 
-एक shielded payment भेजने वाले, पाने वाले और राशि, तीनों को छिपा देती है। सेवा को भुगतान मिल जाता है, और chain को देखने वाला कोई भी व्यक्ति यह नहीं जान पाता कि किसने कितना भुगतान किया।
+शील्डेड भुगतान भेजने वाले, पाने वाले और राशि को छिपा देता है। सेवा को भुगतान मिल जाता है, लेकिन चेन (chain) पर नज़र रखने वाला कोई भी यह नहीं जान पाता कि भुगतान किसने किया या कितना किया।
 
-लेकिन यह तभी सही है जब आप **shielded funds से** भुगतान करें। यह पेज साफ तौर पर बताता है कि यह कब सही है और कब नहीं।
+यह तभी लागू होता है जब आप शील्डेड फ़ंड **से** भुगतान करते हैं। यह पेज साफ़ बताता है कि यह कब लागू होता है और कब नहीं।
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आपको क्या चाहिए
 
-- **shielded** balance में ZEC
-- ऐसा wallet जो unified address पर भेज सके। यह walkthrough **Noir Wallet** का उपयोग करता है, जो एक browser extension है, ताकि पूरा flow एक ही window में रहे। Zkool और Zodl भी इसी तरह काम करते हैं
-- साथ-साथ करने के लिए लगभग $1
+- **शील्डेड** बैलेंस में ZEC
+- एक ऐसा वॉलेट (wallet) जो यूनिफाइड एड्रेस (unified address) पर भेज सके। यह गाइड **Noir Wallet** का उपयोग करती है, जो एक ब्राउज़र एक्सटेंशन है, ताकि पूरी प्रक्रिया एक ही विंडो में हो जाए। Zkool और Zodl भी इसी तरह काम करते हैं
+- साथ-साथ करके देखने के लिए लगभग $1
 
-> **क्या आप किसी exchange से आ रहे हैं?** Binance सहित अधिकांश exchanges, ZEC को केवल **transparent** addresses पर withdraw करते हैं, और वे destination के रूप में `u1...` address स्वीकार नहीं करेंगे। पहले अपने खुद के transparent address पर withdraw करें, फिर अपने wallet में उसे shield करें, और उसके बाद shielded balance से भुगतान करें।
+> **क्या आप एक्सचेंज (exchange) से आ रहे हैं?** Binance सहित ज़्यादातर एक्सचेंज ZEC को केवल **ट्रांसपेरेंट (transparent)** एड्रेस पर ही निकालते हैं, और वे `u1...` एड्रेस को गंतव्य के रूप में स्वीकार नहीं करते। पहले अपने ट्रांसपेरेंट एड्रेस पर निकासी करें, उसे अपने वॉलेट में शील्ड करें, फिर शील्डेड बैलेंस से भुगतान करें।
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> मार्ग 1: NanoGPT को सीधे भुगतान करें
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> रास्ता 1: NanoGPT को सीधा भुगतान
 
-[NanoGPT](https://nano-gpt.com/) आपको 200+ models देता है, जिनमें GPT, Claude, Gemini और image models शामिल हैं, और यह मूल रूप से ZEC स्वीकार करता है।
+[NanoGPT](https://nano-gpt.com/) आपको 200 से अधिक मॉडल देता है, जिनमें GPT, Claude, Gemini और इमेज मॉडल शामिल हैं, और यह ZEC को सीधे स्वीकार करता है।
 
-### चरण 1: इसे खोलें। Signup की जरूरत नहीं है
+### चरण 1: इसे खोलें। कोई साइनअप नहीं
 
-nano-gpt.com पर जाएं और इसका उपयोग शुरू करें। हर session default रूप से anonymous होता है और app खुद यही कहता है: *"You are already using NanoGPT privately."* बनाने के लिए कोई account नहीं है और देने के लिए कोई email नहीं है।
+nano-gpt.com पर जाएँ और इसका उपयोग शुरू करें। हर सेशन डिफ़ॉल्ट रूप से गुमनाम होता है और ऐप ख़ुद यह बताता है: *“आप पहले से ही NanoGPT का निजी रूप से उपयोग कर रहे हैं।”* कोई अकाउंट नहीं बनाना पड़ता और कोई ईमेल नहीं देना पड़ता।
 
-### चरण 2: पहले एक sign-in token सुरक्षित कर लें
+### चरण 2: पहले साइन-इन टोकन सेव करें
 
-पैसे डालने से पहले **Settings** खोलें और एक sign-in token बनाएं, फिर उसे कहीं सुरक्षित रख लें।
+पैसे डालने से पहले **Settings** खोलें और एक साइन-इन टोकन (token) बनाएँ, फिर उसे किसी सुरक्षित जगह पर रखें।
 
-> **यह कदम आपके पैसे की सुरक्षा करता है।** एक anonymous balance आपके browser के local data में रहती है। यदि आपने token सुरक्षित नहीं किया और cookies साफ कर दीं, तो balance चली जाएगी, और उसे वापस पाने के लिए कोई account भी नहीं होगा। यह काम deposit करने से पहले करें, बाद में नहीं।
+> **यह चरण आपके पैसों की सुरक्षा करता है।** गुमनाम बैलेंस आपके ब्राउज़र के लोकल डेटा में रहता है। अगर आप सेव किए गए टोकन के बिना अपनी कुकी साफ़ कर देते हैं, तो बैलेंस चला जाता है और उसे वापस पाने के लिए कोई अकाउंट नहीं होता। यह काम जमा करने से पहले करें, बाद में नहीं।
 
-### चरण 3: balance जोड़ें
+### चरण 3: बैलेंस जोड़ना
 
-**Balance** खोलें, **Custom** चुनें, और राशि दर्ज करें। न्यूनतम **$0.10** है और अधिकतम $5,000। NanoGPT आपको बताता है कि इससे क्या खरीदा जा सकता है, लगभग 12 GPT 5.5 prompts या $1 में 18 images।
+**Balance** खोलें, **Custom** चुनें और राशि डालें। न्यूनतम राशि **$0.10** है और अधिकतम $5,000 है। NanoGPT बताता है कि उस राशि से आपको क्या मिलेगा: $1 में लगभग 12 GPT 5.5 प्रॉम्प्ट या 18 इमेज।
 
-![NanoGPT add balance screen showing the custom amount and the ten cent minimum](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
+![NanoGPT की बैलेंस जोड़ने वाली स्क्रीन, जिसमें कस्टम राशि और दस सेंट की न्यूनतम राशि दिखाई गई है](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
 
-### चरण 4: Zcash चुनें
+### चरण 4: Zcash का चयन
 
-**Digital currencies** चुनें, फिर grid से **Zcash** चुनें।
+**Digital currencies** चुनें, फिर ग्रिड में से **Zcash** चुनें।
 
-आपको एक QR code, एक payment address, और चुनी गई राशि के लिए ZEC में एक **transfer minimum** मिलेगा। यह संख्या पेज लोड होने के समय की कीमत पर आधारित होती है।
+आपको एक QR कोड, एक भुगतान एड्रेस (address) और आपकी चुनी हुई राशि के लिए ZEC में एक **न्यूनतम ट्रांसफ़र राशि** मिलेगी। यह राशि पेज लोड होने के समय की कीमत पर तय होती है।
 
-![NanoGPT Zcash deposit screen with the QR code, unified address and transfer minimum](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
+![NanoGPT की Zcash जमा स्क्रीन, जिसमें QR कोड, यूनिफ़ाइड एड्रेस और न्यूनतम ट्रांसफ़र राशि दिखाई गई है](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
 
-### चरण 5: अपने wallet से भेजें
+### चरण 5: अपने वॉलेट से भेजें
 
-address को अपने wallet में copy करें, राशि दर्ज करें, और भेजें। network fee लगभग **0.00015 ZEC** है।
+एड्रेस को अपने वॉलेट में कॉपी करें, राशि डालें और भेजें। नेटवर्क शुल्क (fee) लगभग **0.00015 ZEC** है।
 
-> **न्यूनतम से थोड़ा अधिक भेजें।** quote की कीमत पेज लोड होने के समय तय होती है और आपकी transaction confirm होने से पहले ZEC की कीमत बदल सकती है। testing में ठीक न्यूनतम भेजने पर **$1.00** की बजाय **$0.99** पहुंचे। थोड़ा अधिक भेजने पर उसी nominal $1 के लिए $1.17 पहुंचे, क्योंकि NanoGPT उतना credit देता है जितना आप वास्तव में भेजते हैं।
+> **न्यूनतम राशि से थोड़ा अधिक भेजें।** कोटेशन पेज लोड होने के समय की कीमत पर तय होता है और आपके लेनदेन (transaction) की पुष्टि होने से पहले ZEC की कीमत बदल जाती है। परीक्षण में ठीक न्यूनतम राशि भेजने पर $1.00 की जगह **$0.99** जमा हुए। थोड़ा अधिक भेजने पर उसी नाममात्र $1 के लिए $1.17 जमा हुए, क्योंकि NanoGPT उतनी राशि क्रेडिट करता है जितनी आप वास्तव में भेजते हैं।
 
-![Noir Wallet send screen with the NanoGPT address pasted in and the network fee shown](/content-images/noir-send-6380a5f4ef.webp)
+![Noir Wallet की भेजने वाली स्क्रीन, जिसमें NanoGPT एड्रेस पेस्ट किया गया है और नेटवर्क शुल्क दिखाया गया है](/content-images/noir-send-6380a5f4ef.webp)
 
 ### चरण 6: लगभग 30 सेकंड प्रतीक्षा करें
 
-आपका wallet transaction को pending, फिर confirming दिखाएगा। NanoGPT balance को **पहली confirmation** पर credit कर देता है, इसलिए आपको तीनों confirmations का इंतजार नहीं करना पड़ता।
+आपका वॉलेट लेनदेन को पहले लंबित और फिर पुष्टि होते हुए दिखाएगा। NanoGPT **पहली पुष्टि** पर ही बैलेंस क्रेडिट कर देता है, इसलिए आपको तीनों पुष्टियों का इंतज़ार नहीं करना पड़ता।
 
-![Wallet confirmation showing the amount sent and the transaction hash](/content-images/noir-sent-2d476e94b9.webp)
+![वॉलेट की पुष्टि स्क्रीन, जिसमें भेजी गई राशि और लेनदेन हैश दिखाया गया है](/content-images/noir-sent-2d476e94b9.webp)
 
-balance दिखाई दे जाएगी और आप उसे तुरंत खर्च कर सकते हैं।
+बैलेंस दिखाई देने लगता है और आप उसे तुरंत खर्च कर सकते हैं।
 
-![NanoGPT balance page showing the credited amount and deposit history](/content-images/nanogpt-balance-0b0c0c86ba.webp)
+![NanoGPT का बैलेंस पेज, जिसमें जमा की गई राशि और जमा इतिहास दिखाया गया है](/content-images/nanogpt-balance-0b0c0c86ba.webp)
 
 <br/>
 
-## <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="send icon"/> मार्ग 2: वे सेवाएं जो ZEC स्वीकार नहीं करतीं
+## <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="send icon"/> रास्ता 2: वे सेवाएँ जो ZEC स्वीकार नहीं करतीं
 
-अधिकांश AI सेवाएं ZEC स्वीकार नहीं करतीं। **Venice.ai** और **OpenRouter** दोनों USDC स्वीकार करते हैं, और OpenRouter आपको चुनने देता है कि checkout किस chain पर settle होगा।
+ज़्यादातर AI सेवाएँ ZEC स्वीकार नहीं करतीं। **Venice.ai** और **OpenRouter** दोनों इसकी जगह USDC लेते हैं, और OpenRouter आपको यह चुनने देता है कि चेकआउट किस चेन पर सेटल हो।
 
-ऐसे मामलों में [Zodl](/zcash-organizations/zodl) में **CrossPay** का उपयोग करें। आप shielded ZEC खर्च करते हैं और प्राप्तकर्ता को उसी asset में भुगतान मिलता है जो उसने मांगा है, NEAR Intents के माध्यम से route होकर, बिना किसी centralised exchange और बिना KYC के।
+ऐसी सेवाओं के लिए [Zodl](/zcash-organizations/zodl) में **CrossPay** का उपयोग करें। आप शील्डेड ZEC खर्च करते हैं और पाने वाले को वही एसेट मिलता है जो उसने माँगा था। यह भुगतान किसी केंद्रीकृत एक्सचेंज और KYC के बिना NEAR Intents के ज़रिए भेजा जाता है।
 
-1. सेवा का payment address, और वह asset तथा chain पता करें जिसकी वह अपेक्षा करती है, उदाहरण के लिए Base पर USDC
+1. सेवा का भुगतान एड्रेस और वह एसेट व चेन पता करें जिसकी सेवा अपेक्षा करती है, उदाहरण के लिए Base पर USDC
 2. Zodl खोलें और **CrossPay** चुनें
-3. वह address दर्ज करें, सेवा द्वारा मांगा गया asset चुनें, और राशि दर्ज करें
-4. अपने shielded balance से भेजें
+3. वह एड्रेस डालें, वह एसेट चुनें जो सेवा चाहती है, और राशि डालें
+4. अपने शील्डेड बैलेंस से भेजें
 
-आपका ZEC shielded अवस्था से बाहर निकलता है। सेवा को एक सामान्य USDC payment आती हुई दिखती है और उसे कभी पता नहीं चलता कि इसकी शुरुआत ZEC के रूप में हुई थी।
+आपके ZEC शील्डेड रूप में ही बाहर जाते हैं। सेवा को एक सामान्य USDC भुगतान आता हुआ दिखता है और उसे कभी पता नहीं चलता कि इसकी शुरुआत ZEC के रूप में हुई थी।
 
-> swap वाला भाग destination chain पर दिखाई देता है, इसलिए USDC payment खुद उतनी ही सार्वजनिक होती है जितनी कोई भी दूसरी USDC payment। जो चीज निजी रहती है, वह Zcash वाला हिस्सा और दोनों के बीच का संबंध है।
+> स्वैप (swap) का हिस्सा गंतव्य चेन पर दिखाई देता है, इसलिए USDC भुगतान अपने आप में उतना ही सार्वजनिक है जितना कोई भी दूसरा USDC भुगतान। जो निजी रहता है, वह है Zcash वाला हिस्सा और दोनों के बीच का संबंध।
 
 <br/>
 
-## <img src="/content-images/triangle-exclamation-7a4c4150be.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> हर चरण पर क्या उजागर होता है
+## <img src="/content-images/triangle-exclamation-7a4c4150be.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> हर चरण में क्या उजागर होता है
 
-यही वह हिस्सा है जिसे अधिकांश guides छोड़ देती हैं।
+ज़्यादातर गाइड इसी हिस्से को छोड़ देती हैं।
 
-| क्या होता है | सेवा क्या सीखती है | chain पर क्या जाता है |
+| क्या होता है | सेवा को क्या पता चलता है | ऑन-चेन क्या जाता है |
 |---|---|---|
-| Browse करना और prompts भेजना | कुछ नहीं। कोई account नहीं, कोई email नहीं | कुछ नहीं |
-| एक deposit address जारी होता है | कुछ नहीं | कुछ नहीं |
-| आप **Sapling से** भुगतान करते हैं | वह deposit address जिसे आपने उपयोग किया | कुछ नहीं। Shielded से shielded |
-| आप **Ironwood से** भुगतान करते हैं | वही | **राशि और block height** |
-| आप **transparent address से** भुगतान करते हैं | वही | राशि और आपका t-address |
-| ऊपर दिए गए किसी भी मामले में | आपका IP, जब तक आप Tor या VPN का उपयोग न करें | लागू नहीं |
+| ब्राउज़िंग और प्रॉम्प्टिंग | कुछ नहीं। न कोई अकाउंट, न कोई ईमेल | कुछ नहीं |
+| एक डिपॉज़िट एड्रेस जारी होता है | कुछ नहीं | कुछ नहीं |
+| आप **Sapling से** भुगतान करते हैं | आपके द्वारा उपयोग किया गया डिपॉज़िट एड्रेस | कुछ नहीं। शील्डेड से शील्डेड |
+| आप **Ironwood से** भुगतान करते हैं | वही | **राशि और ब्लॉक (block) ऊँचाई** |
+| आप **ट्रांसपेरेंट एड्रेस से** भुगतान करते हैं | वही | राशि और आपका t-एड्रेस |
+| ऊपर में से कोई भी | आपका IP, जब तक आप Tor या VPN का उपयोग न करें | लागू नहीं |
 
-### pool का महत्व क्यों है
+### पूल क्यों मायने रखता है
 
-NanoGPT का deposit address एक unified address है। August 2026 में जारी किए गए एक address को decode करने पर ठीक दो receivers दिखते हैं: **Sapling** और **Orchard**।
+NanoGPT का डिपॉज़िट एड्रेस एक यूनिफाइड एड्रेस है। अगस्त 2026 में जारी किए गए एक एड्रेस को डिकोड करने पर ठीक दो रिसीवर दिखते हैं: **Sapling** और **Orchard**।
 
-चूंकि [Ironwood](/zcash-tech/ironwood) upgrade 28 July 2026 को सक्रिय हुआ था, Orchard अब केवल spend-only है और उसमें कोई नई value नहीं डाली जा सकती। इसका मतलब है कि **Sapling ही एकमात्र receiver बचता है जहां payment वास्तव में पहुंच सकती है**।
+28 जुलाई 2026 को [Ironwood](/zcash-tech/ironwood) अपग्रेड सक्रिय होने के बाद से Orchard केवल खर्च करने के लिए है और उसमें कोई नया मूल्य नहीं जा सकता। इसलिए **Sapling ही एकमात्र रिसीवर बचता है जिसमें भुगतान वास्तव में पहुँच सकता है**।
 
-इसलिए यदि आपका ZEC पहले से Sapling में है, तो payment Sapling से Sapling होगी और उसके बारे में कुछ भी सार्वजनिक नहीं होगा। लेकिन यदि आप Ironwood पर migrate कर चुके हैं, तो भुगतान value को एक pool boundary के पार ले जाता है, और [the turnstile](/zcash-tech/the-turnstile) राशि और height प्रकाशित करता है, भले ही sender और receiver छिपे रहें।
+इसलिए अगर आपके ZEC पहले से Sapling में हैं, तो भुगतान Sapling से Sapling होता है और उसके बारे में कुछ भी सार्वजनिक नहीं होता। लेकिन अगर आप Ironwood में माइग्रेट कर चुके हैं, तो भुगतान करने पर मूल्य एक पूल की सीमा पार करता है, और [टर्नस्टाइल](/zcash-tech/the-turnstile) (turnstile) राशि और ऊँचाई प्रकाशित कर देता है, भले ही भेजने वाला और पाने वाला छिपे रहें।
 
-दोनों ही स्थितियों में स्क्रीन बिल्कुल एक जैसी दिखती हैं। भुगतान के लिए थोड़ा सा Sapling balance बनाए रखना सबसे सरल समाधान है।
+दोनों ही स्थितियों में स्क्रीन एक जैसी दिखती है। भुगतान के लिए एक छोटा Sapling बैलेंस रखना सबसे आसान उपाय है।
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> बचने योग्य सामान्य गलतियां
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> बचने योग्य आम गलतियाँ
 
-- sign-in token सुरक्षित करने से पहले deposit कर देना, और फिर cookies साफ कर देना
-- ठीक transfer minimum भेजना और एक cent कम पहुंचना
-- किसी exchange से सीधे `u1...` address पर withdraw करने की कोशिश करना
-- यह मान लेना कि payment निजी है, बिना यह जांचे कि आपने किस pool से खर्च किया
-- सामान्य connection पर भुगतान करना जबकि पूरा उद्देश्य पहचान छिपाना था
+- साइन-इन टोकन सेव करने से पहले जमा करना, फिर कुकी साफ़ कर देना
+- ठीक न्यूनतम ट्रांसफ़र राशि भेजना और एक सेंट कम जमा होना
+- किसी एक्सचेंज से सीधे `u1...` एड्रेस पर निकासी करने की कोशिश करना
+- यह जाँचे बिना कि आपने किस पूल से खर्च किया, यह मान लेना कि भुगतान निजी है
+- सामान्य कनेक्शन पर भुगतान करना, जबकि पूरा उद्देश्य ही पहचाने न जाना था
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> परिणाम
 
-आप यह कर सकते हैं:
+अब आप:
 
-- बिना account, email या card के frontier AI models का उपयोग
-- shielded ZEC में भुगतान और यह ठीक-ठीक समझना कि इससे क्या छिपता है और क्या नहीं
-- CrossPay के माध्यम से उन सेवाओं तक पहुंचना जिन्होंने Zcash का नाम भी नहीं सुना
+- बिना अकाउंट, ईमेल या कार्ड के अग्रणी AI मॉडल का उपयोग कर सकते हैं
+- शील्डेड ZEC में भुगतान कर सकते हैं और ठीक-ठीक जानते हैं कि इससे क्या छिपता है और क्या नहीं
+- CrossPay के ज़रिए उन सेवाओं तक पहुँच सकते हैं जिन्होंने कभी Zcash के बारे में सुना भी नहीं है
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
 
-- [Ironwood](/zcash-tech/ironwood) - आपके funds जिस pool में हैं, उसमें क्या बदलाव हुआ
-- [The Turnstile](/zcash-tech/the-turnstile) - जब value pools के बीच जाती है तो क्या सार्वजनिक हो जाता है
-- [Wallets](/using-zcash/wallets) - कौन से wallets maintained हैं
-- [ZODL](/zcash-organizations/zodl) - CrossPay के पीछे का wallet
+- [Ironwood](/zcash-tech/ironwood) - आपके फ़ंड जिस पूल में रहते हैं, वह क्यों बदला
+- [टर्नस्टाइल](/zcash-tech/the-turnstile) - जब मूल्य एक पूल से दूसरे पूल में जाता है तो क्या सार्वजनिक होता है
+- [वॉलेट](/using-zcash/wallets) - किन वॉलेट का रखरखाव किया जाता है
+- [ZODL](/zcash-organizations/zodl) - CrossPay के पीछे का वॉलेट
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> प्रगति
 
-**1 में से चरण 1**
+**चरण 1 में से 1**
 
-आपने shielded ZEC के साथ एक AI सेवा के लिए भुगतान किया है और आपको पता है कि उससे क्या उजागर हुआ।
+आपने शील्डेड ZEC से एक AI सेवा का भुगतान कर दिया है और आप जानते हैं कि इससे क्या उजागर हुआ।
 
 <br/>
 
 ## अगला चरण
 
-- [पहचान को जोड़े बिना पैसे भेजें](/zcash-use-cases/send-money-without-linking-identity)
+- [पहचान जोड़े बिना पैसे भेजना](/zcash-use-cases/send-money-without-linking-identity)
 
 <br/>

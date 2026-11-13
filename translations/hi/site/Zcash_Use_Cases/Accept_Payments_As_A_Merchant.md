@@ -1,129 +1,139 @@
-# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> व्यापारी के रूप में Zcash से भुगतान स्वीकृत करें
+# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> Zcash के साथ मर्चेंट (merchant) के रूप में भुगतान (payment) स्वीकार करना
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  प्रारंभिक - 5 मिनट
+  शुरुआती - 5 मिनट
 </span>
 
-## TL;DR
+## संक्षेप में (TL;DR)
 
-- छिपे हुए पता का उपयोग करके भुगतान स्वीकृत करें
-- ग्राहक लेनदेन डेटा को प्रकट न करें
-- ऑर्डर ट्रैकिंग के लिए मेमो या ऑफ-चेन सिस्टम का उपयोग करें
-- व्यवसाय आय की गोपनीयता बनाए रखें
+- शील्डेड (shielded) एड्रेस (address) का उपयोग करके भुगतान स्वीकार करें
+- ग्राहक के लेनदेन (transaction) डेटा को उजागर होने से बचाएँ
+- ऑर्डर ट्रैकिंग के लिए मेमो (memo) या ऑफ़-चेन सिस्टम का उपयोग करें
+- व्यवसाय की आय को निजी रखें
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> यह किसके लिए है?
 
-- ऑनलाइन व्यापारी
+- ऑनलाइन मर्चेंट
 - सेवा प्रदाता
 - छोटे व्यवसाय
-- क्रिप्टो मित्र दुकान
+- क्रिप्टो-अनुकूल दुकानें
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> समस्या
 
-पारंपरिक क्रिप्टो भुगतान प्रकट करते हैं:
-- ग्राहक खरीद व्यवहार
-- व्यापारी आय
-- लेनदेन इतिहास
+पारंपरिक क्रिप्टो भुगतान इन्हें उजागर करते हैं:
+- ग्राहक की खरीदारी का व्यवहार
+- मर्चेंट की आय
+- लेनदेन का इतिहास
 
-इससे होता है:
-- ग्राहक गोपनीयता की कमी
-- प्रतिस्पर्धी सूचना के रिसाव
-- आपके लिए अवांछित वित्तीय पारदर्शिता
+इसके परिणामस्वरूप:
+- ग्राहक की गोपनीयता (privacy) का नुकसान होता है
+- प्रतिस्पर्धी जानकारी लीक होती है
+- ऐसी वित्तीय पारदर्शिता बनती है जो शायद आप न चाहें
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> क्यों Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcash क्यों?
 
-Zcash इसकी अनुमति देता है:
-- ग्राहक भुगतान के लिए गोपनीयता
-- आय के रहस्य के ट्रैकिंग
-- व्यवसाय गतिविधि के संरक्षण
+Zcash इन्हें संभव बनाता है:
+- ग्राहकों से निजी भुगतान
+- आय की गोपनीय ट्रैकिंग
+- व्यावसायिक गतिविधि की सुरक्षा
+
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आपको क्या चाहिए
 
-- छिपे हुए लेनदेन के समर्थन वाला Zcash वॉलेट
-- एक सरल भुगतान प्रवाह (मैनुअल या एंटीग्रेटेड)
+- शील्डेड लेनदेन को सपोर्ट करने वाला एक Zcash वॉलेट (wallet)
+- एक सरल भुगतान प्रक्रिया (मैनुअल या इंटीग्रेटेड)
 - वैकल्पिक: ऑर्डर ट्रैकिंग सिस्टम
+
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-दर-चरण मार्गदर्शन
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-दर-चरण गाइड
 
-### चरण 1: भुगतान पता सेटअप करें
+### चरण 1: भुगतान एड्रेस सेट करें
 
-- एक छिपे हुए (z) पता जनरेट करें
-- इसका उपयोग भुगतान प्राप्त करने के लिए करें
+- एक शील्डेड (z) एड्रेस बनाएँ
+- भुगतान प्राप्त करने के लिए इसका उपयोग करें
 
-### चरण 2: भुगतान निर्देश प्रदर्शित करें
 
-प्रत्येक लेनदेन के लिए:
-- अपना z-पता प्रदर्शित करें
-- भुगतान राशि प्रदान करें
-- वैकल्पिक: मेमो संदर्भ शामिल करें
+### चरण 2: भुगतान निर्देश दिखाएँ
+
+हर लेनदेन के लिए:
+- अपना z-एड्रेस दिखाएँ
+- भुगतान राशि बताएँ
+- वैकल्पिक रूप से एक मेमो संदर्भ शामिल करें
 
 ### चरण 3: ऑर्डर ट्रैक करें
 
-उपयोग करें:
-- मेमो (जैसे, ऑर्डर संख्या)
-- या ऑफ-चेन ट्रैकिंग (डेटाबेस, स्प्रैडशीट)
+इनका उपयोग करें:
+- मेमो (जैसे, ऑर्डर ID)
+- या ऑफ़-चेन ट्रैकिंग (डेटाबेस, स्प्रेडशीट)
+
 
 उदाहरण:
 - ऑर्डर #4821
 
-### चरण 4: भुगतान के पुष्टि
 
-- आने वाले छिपे हुए लेनदेन की निगरानी करें
-- मेमो या राशि को ऑर्डर से मैच करें
+### चरण 4: भुगतान की पुष्टि करें
 
-### चरण 5: गोपनीयता हाइजीन बरकरार रखें
+- आने वाले शील्डेड लेनदेन की निगरानी करें
+- मेमो या राशि का ऑर्डर से मिलान करें
 
-- संभवतः पब्लिक एड्रेस के पुनः उपयोग से बचें
-- लेनदेन इतिहास को प्रकट न करें
-- आवश्यकता हो तो अलग-अलग व्यवसाय इकाई के लिए अलग वॉलेट बनाएं
+
+### चरण 5: गोपनीयता की स्वच्छता बनाए रखें
+
+- यदि संभव हो तो एड्रेस का सार्वजनिक रूप से दोबारा उपयोग करने से बचें
+- लेनदेन का इतिहास उजागर न करें
+- आवश्यकता हो तो अलग-अलग व्यावसायिक इकाइयों के लिए अलग वॉलेट रखें
+
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> टालने योग्य सामान्य गलतियाँ
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> इन आम गलतियों से बचें
 
-- भुगतान के लिए प्रकट एड्रेस का उपयोग  
-- लेनदेन प्रूफ को पब्लिक में प्रकाशित करना  
-- ग्राहक पहचान को ब्लॉकचेन डेटा से जोड़ना  
-- भुगतान के अंतर्देशीय ट्रैकिंग करना  
+- भुगतान के लिए ट्रांसपेरेंट (transparent) एड्रेस का उपयोग करना  
+- लेनदेन के प्रूफ (proof) सार्वजनिक रूप से प्रकाशित करना  
+- ग्राहक की पहचान को ब्लॉकचेन (blockchain) डेटा से जोड़ना  
+- भुगतानों को ठीक से ट्रैक न करना  
+
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> परिणाम
 
-आप कर सकते हैं:
-- गोपनीय भुगतान स्वीकृत करें
-- अपने ग्राहकों की सुरक्षा करें
-- अपने व्यवसाय डेटा को गोपनीय रखें
+आप:
+- निजी रूप से भुगतान स्वीकार कर सकते हैं
+- अपने ग्राहकों की सुरक्षा कर सकते हैं
+- अपने व्यवसाय के डेटा को गोपनीय रख सकते हैं
+
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
 
-- [वॉलेट्स](/wallets)
-- [आपका Zcash भुगतान](/start-here/who-can-see-your-zcash-payment) कौन देख सकता है
+
+- [वॉलेट](/wallets)
+- [आपका Zcash भुगतान कौन देख सकता है](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> प्रगति
 
-**6 में से 4 चरण**
+**चरण 6 में से 4**
 
-अब आप व्यवसाय के लिए गोपनीय भुगतान प्रवाह चला सकते हैं।
+अब आप व्यवसाय के लिए निजी भुगतान प्रक्रियाएँ चला सकते हैं।
 
 <br/>
 
 ## अगला चरण
 
-- [एक गोपनीय समुदाय कोष चलाएँ](/zcash-use-cases/private-community-treasury)
+- [निजी सामुदायिक कोष का संचालन](/zcash-use-cases/private-community-treasury)
 <br/>

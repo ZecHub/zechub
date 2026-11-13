@@ -1,38 +1,38 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/ZECD.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पेज संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# zecd — Shielded-First Wallet सर्वर
+# zecd — शील्डेड-फर्स्ट वॉलेट सर्वर
 
-zecd, Zcash के लिए एक shielded-first wallet सर्वर है, जो [librustzcash](https://github.com/zcash/librustzcash) पर बनाया गया है और Bitcoin Core की JSON-RPC dialect के माध्यम से उपलब्ध कराया गया है। यह डेवलपर्स और payment integrators को Zcash के साथ इंटरैक्ट करने के लिए एक परिचित, Bitcoin-compatible API देता है — जबकि Orchard (सबसे निजी pool) को डिफ़ॉल्ट बनाता है। [zec.rocks](https://zec.rocks) द्वारा विकसित, zecd को आधुनिक, cloud-native deployments में `zcashd` की wallet functionality को प्रतिस्थापित करने के लिए डिज़ाइन किया गया है।
+zecd, Zcash के लिए एक शील्डेड-फर्स्ट (shielded-first) वॉलेट सर्वर है, जो [librustzcash](https://github.com/zcash/librustzcash) पर बना है और Bitcoin Core की JSON-RPC बोली (dialect) के माध्यम से उपलब्ध है। यह डेवलपर और भुगतान इंटीग्रेटर (payment integrators) को Zcash के साथ इंटरैक्ट करने के लिए एक परिचित, Bitcoin-संगत API देता है — साथ ही Orchard (सबसे निजी पूल) को डिफ़ॉल्ट बनाता है। [zec.rocks](https://zec.rocks) द्वारा विकसित, zecd को आधुनिक, क्लाउड-नेटिव डिप्लॉयमेंट में `zcashd` की वॉलेट कार्यक्षमता की जगह लेने के लिए डिज़ाइन किया गया है।
 
-**वर्तमान संस्करण:** 0.5.0-rc3 (13 जुलाई, 2026) — Ironwood (NU6.3) समर्थन के साथ। `cargo install zecd` के माध्यम से इंस्टॉल करें या आधिकारिक Docker image का उपयोग करें।
+**वर्तमान संस्करण:** 0.5.0-rc3 (13 जुलाई 2026) — Ironwood (NU6.3) समर्थन के साथ। `cargo install zecd` के माध्यम से इंस्टॉल करें या आधिकारिक Docker इमेज का उपयोग करें।
 
 ---
 
-## संक्षेप में
+## TL;DR
 
-- zecd एक **wallet daemon (सर्वर)** है — full नोड नहीं। यह Zcash P2P protocol बोले बिना keys, scanning, proving, और RPC को संभालता है।
-- यह **Bitcoin Core की JSON-RPC dialect** बोलता है: वही method names, field shapes, auth, और error codes — कई Bitcoin RPC clients Zcash के साथ सीधे काम कर सकते हैं।
-- **Orchard (shielded) addresses डिफ़ॉल्ट हैं**; transparent (t-address) और Sapling समर्थन के लिए प्रति wallet स्पष्ट opt-in आवश्यक है।
-- यह local JSON-RPC के माध्यम से **self-hosted [Zebra](Zebra_Full_Node.md) full नोड** से जुड़ता है — lightwalletd की आवश्यकता नहीं।
-- **डिज़ाइन से stateless**: पूरा wallet केवल seed phrase से पुनर्प्राप्त किया जा सकता है, जिससे data directory disposable बन जाती है।
-- **zcashd का drop-in replacement नहीं**: Zcash RPC methods के केवल एक subset को लागू करता है, privacy और safety के लिए जानबूझकर किए गए design differences के साथ।
-- Fees **ZIP-317** का पालन करती हैं (deterministic fee calculation); user-specified fees अस्वीकार कर दी जाती हैं।
-- परिचित Bitcoin RPC surface के माध्यम से **shielded memos (ZIP-302)** का समर्थन करता है।
+- zecd एक **वॉलेट डेमन (सर्वर)** है — फुल नोड नहीं। यह Zcash P2P प्रोटोकॉल का उपयोग किए बिना कुंजियों, स्कैनिंग, प्रूविंग और RPC को संभालता है।
+- यह **Bitcoin Core की JSON-RPC बोली** बोलता है: वही मेथड नाम, फ़ील्ड संरचना, ऑथ और एरर कोड — कई Bitcoin RPC क्लाइंट बिना किसी बदलाव के Zcash के साथ काम करते हैं।
+- **Orchard (शील्डेड) एड्रेस डिफ़ॉल्ट हैं**; ट्रांसपेरेंट (t-address) और Sapling समर्थन के लिए प्रत्येक वॉलेट में स्पष्ट रूप से ऑप्ट-इन करना आवश्यक है।
+- यह स्थानीय JSON-RPC के माध्यम से एक **सेल्फ-होस्टेड [Zebra](Zebra_Full_Node.md) फुल नोड** से जुड़ता है — lightwalletd की आवश्यकता नहीं।
+- **डिज़ाइन से स्टेटलेस**: पूरा वॉलेट केवल सीड फ्रेज़ से पुनर्प्राप्त किया जा सकता है, जिससे डेटा डायरेक्टरी डिस्पोज़ेबल बन जाती है।
+- **zcashd का ड्रॉप-इन विकल्प नहीं**: यह गोपनीयता और सुरक्षा के लिए जानबूझकर किए गए डिज़ाइन अंतरों के साथ, Zcash RPC मेथड के केवल एक उपसमूह को लागू करता है।
+- शुल्क **ZIP-317** (निर्धारक शुल्क गणना) का पालन करते हैं; उपयोगकर्ता द्वारा निर्दिष्ट शुल्क अस्वीकार कर दिए जाते हैं।
+- परिचित Bitcoin RPC सतह के माध्यम से **शील्डेड मेमो (ZIP-302)** का समर्थन करता है।
 
 ---
 
 ## zecd किस समस्या का समाधान करता है?
 
-`zcashd`, Zcash का मूल नोड और wallet संयुक्त रूप से था — जिसे 2016 में Bitcoin के C++ codebase से fork किया गया था। समय के साथ, इससे friction पैदा हुआ: code को maintain करना कठिन है, wallet नोड के साथ tightly coupled है, और transparent addresses को shielded addresses के साथ first-class विकल्पों की तरह प्रस्तुत किया जाता है।
+`zcashd`, Zcash का मूल नोड और वॉलेट एक साथ था — जिसे 2016 में Bitcoin के C++ कोडबेस से फ़ोर्क किया गया था। समय के साथ इससे कठिनाइयाँ पैदा हुईं: कोड को बनाए रखना कठिन है, वॉलेट नोड से कसकर जुड़ा हुआ है, और ट्रांसपेरेंट एड्रेस को शील्डेड एड्रेस के साथ प्रथम-श्रेणी विकल्पों के रूप में प्रस्तुत किया जाता है।
 
-zecd wallet की ज़िम्मेदारी को consensus से अलग करता है। यह एक **समर्पित wallet layer** है जो applications और Zebra full नोड के बीच बैठती है, और प्रदान करती है:
+zecd वॉलेट की ज़िम्मेदारी को कंसेंसस (consensus) से अलग करता है। यह एक **समर्पित वॉलेट परत** है जो एप्लिकेशन और Zebra फुल नोड के बीच स्थित है, और यह प्रदान करता है:
 
-- librustzcash पर आधारित एक साफ़, आधुनिक Rust implementation (वही library जो Zodl और Zingo को शक्ति देती है)
-- privacy-by-default design (जब तक अलग से configure न किया जाए, Orchard addresses)
-- एक Bitcoin-compatible RPC interface जो Zcash-specific tooling सीखने की आवश्यकता को हटाता है
-- stateless, seed-recoverable architecture जो containerized और cloud deployments के लिए उपयुक्त है
+- librustzcash (वही लाइब्रेरी जो Zodl और Zingo को शक्ति देती है) पर बना एक साफ़, आधुनिक Rust कार्यान्वयन
+- डिफ़ॉल्ट रूप से गोपनीयता वाला डिज़ाइन (जब तक अन्यथा कॉन्फ़िगर न किया जाए, Orchard एड्रेस)
+- एक Bitcoin-संगत RPC इंटरफ़ेस, जो Zcash-विशिष्ट टूलिंग सीखने की आवश्यकता को समाप्त करता है
+- कंटेनरीकृत और क्लाउड डिप्लॉयमेंट के लिए उपयुक्त स्टेटलेस, सीड से पुनर्प्राप्त करने योग्य आर्किटेक्चर
 
 ---
 
@@ -50,109 +50,109 @@ Your app / Bitcoin RPC client
    (full node — consensus, mempool, chain data)
 ```
 
-zecd, Zebra के साथ **केवल local JSON-RPC** के माध्यम से संवाद करता है — कोई peer-to-peer networking नहीं, कोई third-party indexers नहीं, कोई lightwalletd नहीं। Zebra connection को जानबूझकर local-only रखा गया है: zecd credentials को globally-routable host पर भेजने से इंकार करेगा, जब तक कि out-of-band secured tunnel (जैसे WireGuard या SSH) के लिए स्पष्ट रूप से configure न किया गया हो।
+zecd, Zebra के साथ **केवल स्थानीय JSON-RPC के माध्यम से** संचार करता है — कोई पीयर-टू-पीयर नेटवर्किंग नहीं, कोई थर्ड-पार्टी इंडेक्सर नहीं, कोई lightwalletd नहीं। Zebra कनेक्शन जानबूझकर केवल स्थानीय रखा गया है: zecd किसी ग्लोबली-रूटेबल होस्ट को क्रेडेंशियल भेजने से इनकार कर देगा, जब तक कि उसे किसी आउट-ऑफ-बैंड सुरक्षित टनल (जैसे WireGuard या SSH) के लिए स्पष्ट रूप से कॉन्फ़िगर न किया गया हो।
 
 ---
 
 ## मुख्य विशेषताएँ
 
-### Shielded-First, डिफ़ॉल्ट रूप से Orchard
+### शील्डेड-फर्स्ट, डिफ़ॉल्ट रूप से Orchard
 
-zecd, Orchard Unified Addresses को डिफ़ॉल्ट address type के रूप में उपयोग करता है। Sapling और transparent (t-address) pools के लिए प्रति wallet स्पष्ट configuration आवश्यक है। यह design accidental transparent sends के जोखिम को कम करता है — जो पुराने Zcash tooling में एक सामान्य privacy pitfall है।
+zecd डिफ़ॉल्ट एड्रेस प्रकार के रूप में Orchard यूनिफ़ाइड एड्रेस का उपयोग करता है। Sapling और ट्रांसपेरेंट (t-address) पूल के लिए प्रत्येक वॉलेट में स्पष्ट कॉन्फ़िगरेशन आवश्यक है। यह डिज़ाइन गलती से ट्रांसपेरेंट एड्रेस पर भेजने के जोखिम को कम करता है — जो पुराने Zcash टूलिंग में गोपनीयता की एक आम चूक है।
 
-Privacy policy को प्रति call या globally `[spend] privacy_policy` में configure किया जा सकता है:
+गोपनीयता नीति को प्रति कॉल या `[spend] privacy_policy` में वैश्विक रूप से कॉन्फ़िगर किया जा सकता है:
 
-| Policy | व्यवहार |
+| नीति | व्यवहार |
 |--------|----------|
-| `AllowRevealedRecipients` (डिफ़ॉल्ट) | transparent recipients को sends की अनुमति देता है; on-chain राशि और recipient प्रकट करता है |
-| `AllowRevealedAmounts` | cross-pool sends (Sapling↔Orchard) की अनुमति देता है लेकिन transparent recipients को अस्वीकार करता है |
-| `FullPrivacy` | केवल एक pool के भीतर पूरी तरह shielded sends; transparent recipients और cross-pool को अस्वीकार करता है |
-| `AllowFullyTransparent` | transparent UTXOs से वित्तपोषित t→t sends की भी अनुमति देता है |
+| `AllowRevealedRecipients` (डिफ़ॉल्ट) | ट्रांसपेरेंट प्राप्तकर्ताओं को भेजने की अनुमति देता है; राशि और प्राप्तकर्ता को ऑन-चेन प्रकट करता है |
+| `AllowRevealedAmounts` | क्रॉस-पूल भेजने (Sapling↔Orchard) की अनुमति देता है, लेकिन ट्रांसपेरेंट प्राप्तकर्ताओं को अस्वीकार करता है |
+| `FullPrivacy` | केवल एक पूल के भीतर पूरी तरह शील्डेड भेजना; ट्रांसपेरेंट प्राप्तकर्ताओं और क्रॉस-पूल को अस्वीकार करता है |
+| `AllowFullyTransparent` | ट्रांसपेरेंट UTXO से वित्तपोषित t→t भेजने की भी अनुमति देता है |
 
-### Bitcoin Core RPC Compatibility
+### Bitcoin Core RPC संगतता
 
-zecd, Bitcoin Core की JSON-RPC dialect को निम्न क्षेत्रों में conformance के साथ लागू करता है:
+zecd Bitcoin Core की JSON-RPC बोली को निम्नलिखित सभी में अनुरूपता के साथ लागू करता है:
 
-- Method names (उदा. `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
-- responses में field names और types
-- JSON-RPC 1.0 envelope structure
-- Basic auth, `rpcauth` entries, और cookie file authentication
-- Error codes और HTTP status mapping (error body के साथ HTTP 500, 401 semantics)
+- मेथड नाम (जैसे `getblockchaininfo`, `getbalance`, `getnewaddress`, `listtransactions`, `sendtoaddress`, `sendmany`)
+- प्रतिक्रियाओं में फ़ील्ड नाम और प्रकार
+- JSON-RPC 1.0 एनवेलप संरचना
+- बेसिक ऑथ, `rpcauth` प्रविष्टियाँ और कुकी फ़ाइल प्रमाणीकरण
+- एरर कोड और HTTP स्टेटस मैपिंग (एरर बॉडी के साथ HTTP 500, 401 सिमेंटिक्स)
 
-इसका अर्थ है कि कई मौजूदा Bitcoin payment libraries, exchange integrations, और monitoring tools, बहुत कम या बिना code changes के, zecd के माध्यम से Zcash के साथ इंटरैक्ट कर सकते हैं।
+इसका अर्थ है कि कई मौजूदा Bitcoin भुगतान लाइब्रेरी, एक्सचेंज इंटीग्रेशन और मॉनिटरिंग उपकरण बहुत कम या बिना किसी कोड बदलाव के zecd के माध्यम से Zcash के साथ इंटरैक्ट कर सकते हैं।
 
-Conformance suite (140+ checks) हर PR पर एक live regtest daemon के विरुद्ध चलती है और इसे सार्वजनिक testnet के विरुद्ध भी validate किया गया था।
+अनुरूपता सूट (140+ जाँचें) हर PR पर एक लाइव regtest डेमन के विरुद्ध चलता है और इसे सार्वजनिक टेस्टनेट के विरुद्ध भी सत्यापित किया गया था।
 
-### Shielded Memos (ZIP-302)
+### शील्डेड मेमो (ZIP-302)
 
-zecd, परिचित Bitcoin RPC surface के माध्यम से Zcash की shielded memo feature को उपलब्ध कराता है — जो standard Bitcoin tooling में उपलब्ध नहीं है:
+zecd, Zcash की शील्डेड मेमो सुविधा को परिचित Bitcoin RPC सतह के माध्यम से उपलब्ध कराता है — जो मानक Bitcoin टूलिंग में उपलब्ध नहीं है:
 
-- `sendtoaddress` एक अतिरिक्त trailing parameter के रूप में वैकल्पिक hex memo स्वीकार करता है (अधिकतम 512 bytes; transparent recipients के लिए अस्वीकार)
-- `listtransactions` और `gettransaction` से transaction history entries में `memo` (hex) और `memoStr` (decoded text) fields शामिल होते हैं जब किसी output में memo होता है
-- shielded recipient को zero-amount sends memo-only use cases के लिए समर्थित हैं (यानी `z_sendmany` का "memo-only-send" pattern)
+- `sendtoaddress` एक अतिरिक्त अंतिम पैरामीटर के रूप में वैकल्पिक hex मेमो स्वीकार करता है (512 बाइट तक; ट्रांसपेरेंट प्राप्तकर्ताओं के लिए अस्वीकार)
+- `listtransactions` और `gettransaction` से मिलने वाली लेनदेन इतिहास की प्रविष्टियों में `memo` (hex) और `memoStr` (डिकोड किया गया टेक्स्ट) फ़ील्ड शामिल होते हैं, जब किसी आउटपुट में मेमो हो
+- केवल-मेमो उपयोग के मामलों के लिए शील्डेड प्राप्तकर्ता को शून्य-राशि भेजना समर्थित है (`z_sendmany` “memo-only-send” पैटर्न)
 
-इससे zecd उन applications के लिए उपयुक्त बनता है जिन्हें payments के साथ private, on-chain messaging की आवश्यकता होती है।
+इससे zecd उन एप्लिकेशन के लिए उपयुक्त बनता है जिन्हें भुगतान के साथ-साथ निजी, ऑन-चेन मैसेजिंग की आवश्यकता होती है।
 
-### डिज़ाइन से Stateless
+### डिज़ाइन से स्टेटलेस
 
-zecd **कोई भी off-chain state persist नहीं करता जिसे seed-only restore फिर से न बना सके**। Wallet database (`data.sqlite`) पूरी तरह seed phrase से derivable है — shielded funds बिना शर्त recover हो जाते हैं; transparent funds configured gap limit तक recover होते हैं।
+zecd **ऐसी कोई ऑफ़-चेन स्थिति संग्रहीत नहीं करता जिसे केवल-सीड रीस्टोर दोबारा न बना सके**। वॉलेट डेटाबेस (`data.sqlite`) पूरी तरह सीड फ्रेज़ से प्राप्त किया जा सकता है — शील्डेड फ़ंड बिना शर्त पुनर्प्राप्त होते हैं; ट्रांसपेरेंट फ़ंड कॉन्फ़िगर की गई गैप सीमा तक पुनर्प्राप्त होते हैं।
 
-Seed से wallet restore करने के लिए:
+सीड से वॉलेट रीस्टोर करने के लिए:
 
 ```sh
 zecd init --restore --birthday <block-height>
 ```
 
-इससे data directory **disposable** बन जाती है: यदि किसी container में persistent volume न हो और हर startup पर seed से पुनर्निर्माण हो, तो कुछ भी महत्वपूर्ण नहीं खोता। Operators उन addresses को track करने के लिए ज़िम्मेदार हैं जिन्हें वे वितरित करते हैं — zecd केवल उन्हीं addresses को याद रखता है जिन्हें on-chain funds प्राप्त हुए हों।
+इससे डेटा डायरेक्टरी **डिस्पोज़ेबल** बन जाती है: बिना स्थायी वॉल्यूम वाला कंटेनर, जिसे हर शुरुआत में सीड से दोबारा बनाया जाता है, कुछ भी महत्वपूर्ण नहीं खोता। ऑपरेटर उन एड्रेस को ट्रैक करने के लिए ज़िम्मेदार हैं जो वे दूसरों को देते हैं — zecd किसी एड्रेस को तभी याद रखता है जब उस पर ऑन-चेन फ़ंड प्राप्त हो चुके हों।
 
-Labels जानबूझकर अनुपस्थित हैं। क्योंकि labels का कोई on-chain source नहीं है और उन्हें seed से पुनर्निर्मित नहीं किया जा सकता, zecd उनका समर्थन ही नहीं करता। Label methods को call करने पर `method-not-found` error (`-32601`) मिलता है।
+लेबल जानबूझकर अनुपस्थित हैं। चूँकि लेबल का कोई ऑन-चेन स्रोत नहीं होता और उन्हें सीड से दोबारा नहीं बनाया जा सकता, zecd उनका समर्थन ही नहीं करता। लेबल मेथड कॉल करने पर `method-not-found` एरर (`-32601`) लौटता है।
 
-### lightwalletd पर कोई निर्भरता नहीं
+### कोई lightwalletd निर्भरता नहीं
 
-zecd, compact blocks, tree state, और mempool visibility को सीधे Zebra के JSON-RPC से प्राप्त करता है। चलाने या maintain करने के लिए कोई lightwalletd नहीं है — जिससे self-hosted deployments के लिए operational complexity कम होती है।
+zecd कॉम्पैक्ट ब्लॉक, ट्री स्टेट और मेमपूल दृश्यता सीधे Zebra के JSON-RPC से प्राप्त करता है। संचालित करने या बनाए रखने के लिए कोई lightwalletd नहीं है — जिससे सेल्फ-होस्टेड डिप्लॉयमेंट की परिचालन जटिलता कम होती है।
 
-### Cloud-Native और Containerized Deployments
+### क्लाउड-नेटिव और कंटेनरीकृत डिप्लॉयमेंट
 
-zecd की stateless architecture, Docker और Kubernetes environments के लिए डिज़ाइन की गई है:
+zecd का स्टेटलेस आर्किटेक्चर Docker और Kubernetes वातावरण के लिए डिज़ाइन किया गया है:
 
-- Repository में पूर्ण Docker Compose stack (`zebra → zecd`) उपलब्ध है
-- port `9233` पर health endpoint, configurable readiness probes (`synced` या `connected`) के साथ
-- log aggregation pipelines के लिए structured JSON logging विकल्प
-- ZIP-317 deterministic fees — किसी fee oracle या manual fee configuration की आवश्यकता नहीं
-- `bootstrap_from_keys` (डिफ़ॉल्ट रूप से on): `keys.toml` के बगल में empty data directory startup पर wallet को auto-rebuild कर देती है — एक Secret mount करके और empty PVC के साथ start करके deploy करें
+- रिपॉज़िटरी में पूर्ण Docker Compose स्टैक (`zebra → zecd`) उपलब्ध है
+- कॉन्फ़िगर करने योग्य रेडीनेस प्रोब (`synced` या `connected`) के साथ पोर्ट `9233` पर हेल्थ एंडपॉइंट
+- लॉग एग्रीगेशन पाइपलाइन के लिए संरचित JSON लॉगिंग विकल्प
+- ZIP-317 निर्धारक शुल्क — कोई शुल्क ओरेकल या मैन्युअल शुल्क कॉन्फ़िगरेशन नहीं
+- `bootstrap_from_keys` (डिफ़ॉल्ट रूप से चालू): `keys.toml` के बगल में एक खाली डेटा डायरेक्टरी स्टार्टअप पर वॉलेट को स्वचालित रूप से दोबारा बना देती है — एक Secret माउंट करके और खाली PVC के साथ शुरू करके डिप्लॉय करें
 
 ---
 
-## Custody Models
+## कस्टडी मॉडल
 
-zecd तीन key-custody models का समर्थन करता है, जो अलग-अलग deployment और security requirements के लिए उपयुक्त हैं:
+zecd तीन की-कस्टडी मॉडल का समर्थन करता है, जो विभिन्न डिप्लॉयमेंट और सुरक्षा आवश्यकताओं के लिए उपयुक्त हैं:
 
-### 1. Unencrypted (डिफ़ॉल्ट — Auto-Unlock)
+### 1. अनएन्क्रिप्टेड (डिफ़ॉल्ट — ऑटो-अनलॉक)
 
-`keys.toml` में seed mnemonic को **age identity file** (`identity.txt`) में wrap किया जाता है। डिफ़ॉल्ट `auto_unlock = true` के साथ, startup पर seed memory में decrypt हो जाता है ताकि sends unattended हों और किसी `walletpassphrase` call की आवश्यकता न पड़े।
+`keys.toml` में सीड नेमोनिक को एक **age आइडेंटिटी फ़ाइल** (`identity.txt`) से रैप किया जाता है। डिफ़ॉल्ट `auto_unlock = true` के साथ, स्टार्टअप पर सीड को मेमोरी में डिक्रिप्ट किया जाता है, ताकि भेजना बिना निगरानी के हो सके और किसी `walletpassphrase` कॉल की आवश्यकता न हो।
 
-इनके लिए सबसे उपयुक्त: automated payment processors, exchange hot wallets, developer environments.
+इनके लिए सर्वोत्तम: स्वचालित भुगतान प्रोसेसर, एक्सचेंज हॉट वॉलेट, डेवलपर वातावरण।
 
 ```sh
 zecd init --datadir ./data --wallet default --account-name primary
 ```
 
-> Mainnet पर `identity.txt` को data directory के **बाहर** रखें — जो भी दोनों files पढ़ सकता है, उसके पास spend authority होगी।
+> मेननेट पर `identity.txt` को डेटा डायरेक्टरी के **बाहर** संग्रहीत करें — जो कोई भी दोनों फ़ाइलें पढ़ लेता है, उसके पास खर्च करने का अधिकार होता है।
 
-### 2. Encrypted (Passphrase-Protected)
+### 2. एन्क्रिप्टेड (पासफ़्रेज़-सुरक्षित)
 
-Mnemonic को identity file के बजाय passphrase (age scrypt) के साथ wrap किया जाता है। Wallet locked अवस्था में start होता है; `walletpassphrase "<pass>" <timeout>` इसे निर्दिष्ट अवधि के लिए unlock करता है और timeout पर auto-relock करता है — Bitcoin Core के encrypted wallet behavior के अनुरूप।
+नेमोनिक को आइडेंटिटी फ़ाइल के बजाय पासफ़्रेज़ (age scrypt) से रैप किया जाता है। वॉलेट लॉक अवस्था में शुरू होता है; `walletpassphrase "<pass>" <timeout>` इसे दी गई अवधि के लिए अनलॉक करता है और टाइमआउट होने पर स्वचालित रूप से फिर से लॉक कर देता है — जो Bitcoin Core के एन्क्रिप्टेड वॉलेट व्यवहार के अनुरूप है।
 
-इनके लिए सबसे उपयुक्त: hot wallets जहाँ unattended spend authority आवश्यक नहीं; interactive operator workflows.
+इनके लिए सर्वोत्तम: ऐसे हॉट वॉलेट जहाँ बिना निगरानी के खर्च करने का अधिकार आवश्यक नहीं है; इंटरैक्टिव ऑपरेटर वर्कफ़्लो।
 
 ```sh
 zecd init --datadir ./data --encrypt
 # later: walletpassphrase "my-passphrase" 300
 ```
 
-### 3. Watch-Only (UFVK — No Spend Key)
+### 3. वॉच-ओनली (UFVK — कोई स्पेंड की नहीं)
 
-किसी अन्य wallet से export की गई Unified Full Viewing Key (UFVK) के साथ initialize किया जाता है। यह receive, scan, और balances report कर सकता है — लेकिन transactions sign नहीं कर सकता। Monitoring, invoicing, या signing wallet से अलग audit नोड्स के लिए आदर्श।
+इसे किसी अन्य वॉलेट से निर्यात किए गए Unified Full Viewing Key (UFVK) के साथ इनिशियलाइज़ किया जाता है। यह फ़ंड प्राप्त कर सकता है, स्कैन कर सकता है और बैलेंस रिपोर्ट कर सकता है — लेकिन लेनदेन पर हस्ताक्षर नहीं कर सकता। हस्ताक्षर करने वाले वॉलेट से अलग मॉनिटरिंग, इनवॉइसिंग या ऑडिट नोड के लिए आदर्श।
 
 ```sh
 # On the signing wallet's host:
@@ -164,58 +164,58 @@ zecd init --datadir ./data-watch --ufvk "uview1..." --birthday <height>
 
 ---
 
-## Backup और Recovery
+## बैकअप और पुनर्प्राप्ति
 
-Funds केवल **mnemonic से ही** recover किए जा सकते हैं। बाकी सब कुछ cache है।
+फ़ंड **केवल नेमोनिक से** पुनर्प्राप्त किए जा सकते हैं। बाकी सब कुछ कैश है।
 
-| Artifact | स्थान | यह क्या सुरक्षित करता है | Backup लें? |
+| आर्टिफ़ैक्ट | स्थान | यह किसकी सुरक्षा करता है | बैकअप लें? |
 |----------|----------|-----------------|----------|
-| **24-word mnemonic** | `zecd init` पर एक बार दिखाया जाता है | Funds — खोने का अर्थ स्थायी हानि | **हाँ — offline (paper/HSM)** |
-| `keys.toml` | `<wallet dir>/keys.toml` | Encrypted seed + birthday + network | **हाँ — Secret के रूप में** |
-| `identity.txt` | `[keys] age_identity` | `keys.toml` को decrypt करता है (spend authority) | **हाँ — `keys.toml` से अलग** |
-| Birthday height | `keys.toml` के भीतर | restore को तेज बनाता है (पहले tx से पहले की कोई भी height) | mnemonic के साथ रिकॉर्ड करें |
-| `data.sqlite` | `<wallet dir>/data.sqlite` | Wallet cache — restore पर seed से फिर बनता है | नहीं — disposable |
-| `blocks/` | `<wallet dir>/blocks/` | Compact block cache | नहीं — कभी ship न करें; बड़ा हो सकता है |
-| `.cookie` | `<datadir>/.cookie` | Ephemeral RPC cookie | नहीं — startup पर फिर बनती है |
+| **24-शब्दों का नेमोनिक** | `zecd init` पर एक बार दिखाया जाता है | फ़ंड — खोना = स्थायी नुकसान | **हाँ — ऑफ़लाइन (कागज़/HSM)** |
+| `keys.toml` | `<wallet dir>/keys.toml` | एन्क्रिप्टेड सीड + बर्थडे + नेटवर्क | **हाँ — Secret के रूप में** |
+| `identity.txt` | `[keys] age_identity` | `keys.toml` को डिक्रिप्ट करता है (खर्च करने का अधिकार) | **हाँ — `keys.toml` से अलग** |
+| बर्थडे हाइट | `keys.toml` के अंदर | रीस्टोर को तेज़ बनाता है (पहले tx से पहले की कोई भी हाइट) | नेमोनिक के साथ दर्ज करें |
+| `data.sqlite` | `<wallet dir>/data.sqlite` | वॉलेट कैश — रीस्टोर पर सीड से दोबारा बनाया जाता है | नहीं — डिस्पोज़ेबल |
+| `blocks/` | `<wallet dir>/blocks/` | कॉम्पैक्ट ब्लॉक कैश | नहीं — कभी साथ न भेजें; बड़ा हो सकता है |
+| `.cookie` | `<datadir>/.cookie` | अस्थायी RPC कुकी | नहीं — स्टार्टअप पर फिर से बनाई जाती है |
 
-> **Data directory host-local होनी चाहिए।** zecd का single-instance lock (`<datadir>/.lock`) एक OS advisory lock है — यह hosts के बीच लागू नहीं होता। कभी भी data directory को machines के बीच read-write mode में साझा न करें (NFS, Kubernetes `ReadWriteMany`) — दो zecd instances wallet DB को corrupt कर देंगे। Kubernetes में `ReadWriteOnce` volumes का उपयोग करें।
+> **डेटा डायरेक्टरी होस्ट-लोकल होनी चाहिए।** zecd का सिंगल-इंस्टेंस लॉक (`<datadir>/.lock`) एक OS एडवाइज़री लॉक है — यह कई होस्ट तक नहीं फैलता। किसी डेटा डायरेक्टरी को कभी भी कई मशीनों के बीच रीड-राइट रूप में साझा न करें (NFS, Kubernetes `ReadWriteMany`) — दो zecd इंस्टेंस वॉलेट DB को दूषित कर देंगे। Kubernetes में `ReadWriteOnce` वॉल्यूम का उपयोग करें।
 
 ---
 
-## RPC Method Safelist
+## RPC मेथड सेफ़लिस्ट
 
-ऐसे deployments के लिए जहाँ credential leak विनाशकारी हो सकता है, zecd RPC surface को चुने हुए methods के subset तक सीमित करने का समर्थन करता है:
+उन डिप्लॉयमेंट के लिए जहाँ क्रेडेंशियल लीक होना विनाशकारी होगा, zecd RPC सतह को मेथड के एक चुने हुए उपसमूह तक सीमित करने का समर्थन करता है:
 
 ```toml
 [rpc]
 allowed_methods = ["getblockchaininfo", "getbalance", "getnewaddress", "listtransactions"]
 ```
 
-सूची में न होने वाला कोई भी method `-32601` (HTTP 404) लौटाता है — जो ऐसे method से अलग नहीं दिखता जो अस्तित्व में ही नहीं है, इसलिए एक locked-down server यह प्रकट नहीं करता कि उसने क्या disable किया है। A receive-only invoicer, compromised client से blast radius कम करने के लिए `sendtoaddress`, `sendmany`, और `stop` को disable कर सकता है।
+सूची में शामिल न किया गया कोई भी मेथड `-32601` (HTTP 404) लौटाता है — जिसे ऐसे मेथड से अलग नहीं पहचाना जा सकता जो मौजूद ही नहीं है, इसलिए लॉक-डाउन सर्वर यह बिल्कुल प्रकट नहीं करता कि उसने क्या अक्षम किया है। केवल-प्राप्ति वाला इनवॉइसर किसी समझौता किए गए क्लाइंट से होने वाले नुकसान के दायरे को कम करने के लिए `sendtoaddress`, `sendmany` और `stop` को अक्षम कर सकता है।
 
 ---
 
 ## Bitcoin Core RPC से मुख्य अंतर
 
-Bitcoin या zcashd tooling से migrate कर रहे डेवलपर्स को इन जानबूझकर किए गए divergences के बारे में पता होना चाहिए:
+Bitcoin या zcashd टूलिंग से माइग्रेट करने वाले डेवलपर को इन जानबूझकर किए गए अंतरों के बारे में पता होना चाहिए:
 
 | व्यवहार | Bitcoin Core | zecd |
 |----------|-------------|------|
-| Address format | `1...` / `bc1...` | `u1...` (Orchard Unified Address) — string-parsing clients द्वारा Bitcoin address के रूप में parse नहीं किया जा सकता |
-| Labels | पूर्ण label store | लागू नहीं — `setlabel`, `listlabels` आदि `-32601` लौटाते हैं |
-| Fees | user-settable; fee market | केवल ZIP-317 deterministic; `settxfee`, `fee_rate`, `subtractfeefromamount` को `-8` के साथ अस्वीकार किया जाता है |
-| Memos | समर्थित नहीं | `sendtoaddress` hex memo स्वीकार करता है; history में `memo` + `memoStr` fields होते हैं |
-| Spend के लिए confirmations | 1 | 3 (अपना change) / 10 (third-party) — `trusted_confirmations` / `untrusted_confirmations` के माध्यम से configurable |
-| Reorg पर `listsinceblock` | fork तक पीछे चलता है | यदि cursor reorg में हट गया हो तो `-5` (Block not found) लौटाता है — parameterless call के साथ re-baseline करें |
-| `sendmany` में duplicate recipients | Error | JSON parser duplicates को zecd के देखने से पहले collapse कर देता है (last wins) — एक ही address को दो बार सूचीबद्ध न करें |
-| Initial sync के दौरान balance | Blocks या warm-up | partial balance serve करता है — automation को `GET /readyz` पर gate करें (पूरी तरह synced होने और enhancement backlog drain होने तक 503 लौटाता है) |
-| `getbalance` में `minconf 0` | 0-conf balance | 1 के रूप में serve किया जाता है — unmined shielded note कभी spendable नहीं होती |
+| एड्रेस फ़ॉर्मेट | `1...` / `bc1...` | `u1...` (Orchard यूनिफ़ाइड एड्रेस) — स्ट्रिंग-पार्सिंग क्लाइंट इसे Bitcoin एड्रेस के रूप में पार्स नहीं कर सकते |
+| लेबल | पूर्ण लेबल स्टोर | लागू नहीं — `setlabel`, `listlabels` आदि `-32601` लौटाते हैं |
+| शुल्क | उपयोगकर्ता द्वारा सेट करने योग्य; शुल्क बाज़ार | केवल ZIP-317 निर्धारक; `settxfee`, `fee_rate`, `subtractfeefromamount` को `-8` के साथ अस्वीकार किया जाता है |
+| मेमो | समर्थित नहीं | `sendtoaddress` hex मेमो स्वीकार करता है; इतिहास में `memo` + `memoStr` फ़ील्ड होते हैं |
+| खर्च के लिए आवश्यक पुष्टियाँ | 1 | 3 (स्वयं का चेंज) / 10 (थर्ड-पार्टी) — `trusted_confirmations` / `untrusted_confirmations` के माध्यम से कॉन्फ़िगर करने योग्य |
+| रीऑर्ग पर `listsinceblock` | फ़ोर्क तक वापस जाता है | यदि कर्सर रीऑर्ग में हट जाता है तो `-5` (Block not found) लौटाता है — बिना पैरामीटर वाली कॉल से फिर से बेसलाइन करें |
+| `sendmany` में डुप्लिकेट प्राप्तकर्ता | एरर | zecd के देखने से पहले ही JSON पार्सर डुप्लिकेट को एक कर देता है (अंतिम मान्य रहता है) — एक ही एड्रेस को दो बार सूचीबद्ध न करें |
+| प्रारंभिक सिंक के दौरान बैलेंस | ब्लॉक करता है या वार्म-अप | आंशिक बैलेंस देता है — ऑटोमेशन को `GET /readyz` पर निर्भर रखें (पूरी तरह सिंक होने और एन्हांसमेंट बैकलॉग खाली होने तक 503 लौटाता है) |
+| `getbalance` में `minconf 0` | 0-conf बैलेंस | 1 के रूप में माना जाता है — शील्डेड नोट माइन हुए बिना कभी खर्च करने योग्य नहीं होता |
 
 ---
 
-## Quick Start
+## त्वरित शुरुआत
 
-**पूर्व-आवश्यकताएँ:** Zebra local रूप से `rpc.listen_addr = 127.0.0.1:18234` (testnet) के साथ चल रहा हो।
+**पूर्वापेक्षाएँ:** `rpc.listen_addr = 127.0.0.1:18234` (टेस्टनेट) के साथ स्थानीय रूप से चल रहा Zebra।
 
 crates.io से इंस्टॉल करें (0.4.3+):
 
@@ -223,7 +223,7 @@ crates.io से इंस्टॉल करें (0.4.3+):
 cargo install zecd
 ```
 
-या source से build करें:
+या स्रोत से बिल्ड करें:
 
 ```sh
 git clone https://github.com/zecrocks/zecd && cd zecd
@@ -231,10 +231,10 @@ cargo build --release
 ```
 
 ```sh
-# 1. एक testnet wallet initialize करें (24-word mnemonic और एक account generate करता है)
+# 1. Initialize a testnet wallet (generates a 24-word mnemonic and an account)
 zecd --datadir ./data --testnet init --wallet default --account-name primary
 
-# 2. daemon start करें (background में sync करता है, port 18232 पर JSON-RPC serve करता है)
+# 2. Start the daemon (syncs in background, serves JSON-RPC on port 18232)
 zecd --datadir ./data --testnet \
     --rpcuser zec --rpcpassword secret --rpcbind 127.0.0.1 --rpcport 18232
 ```
@@ -247,7 +247,7 @@ curl -s --user zec:secret --data-binary \
   -H 'content-type: text/plain;' http://127.0.0.1:18232/
 ```
 
-**Python के माध्यम से इंटरैक्ट करें (Bitcoin RPC library का उपयोग करते हुए):**
+**Python के माध्यम से इंटरैक्ट करें (Bitcoin RPC लाइब्रेरी का उपयोग करके):**
 
 ```python
 from bitcoinrpc.authproxy import AuthServiceProxy
@@ -261,21 +261,21 @@ print(rpc.listtransactions("*", 20))
 rpc.sendtoaddress(addr, 0.001, "", "", False, "48656c6c6f205a6563617368")  # hex memo
 ```
 
-**Seed से restore करें:**
+**सीड से रीस्टोर करें:**
 
 ```sh
 zecd --datadir ./data init --restore --birthday 2500000
-# prompted होने पर अपनी 24-word mnemonic paste करें
+# paste your 24-word mnemonic when prompted
 ```
 
 ---
 
-## डिफ़ॉल्ट Ports
+## डिफ़ॉल्ट पोर्ट
 
-| Network | zecd RPC | Zebra RPC (backend) | Health |
+| नेटवर्क | zecd RPC | Zebra RPC (बैकएंड) | हेल्थ |
 |---------|----------|---------------------|--------|
-| Mainnet | 8232 | 8234 | 9233 |
-| Testnet | 18232 | 18234 | 9233 |
+| मेननेट | 8232 | 8234 | 9233 |
+| टेस्टनेट | 18232 | 18234 | 9233 |
 
 ---
 
@@ -283,34 +283,34 @@ zecd --datadir ./data init --restore --birthday 2500000
 
 | | zcashd | Zaino | zecd |
 |--|--------|-------|------|
-| भूमिका | Full नोड + wallet | Indexer (lightwalletd को प्रतिस्थापित करता है) | केवल wallet सर्वर |
+| भूमिका | फुल नोड + वॉलेट | इंडेक्सर (lightwalletd की जगह लेता है) | केवल वॉलेट सर्वर |
 | भाषा | C++ | Rust | Rust |
-| स्थिति | Deprecated | Active | Active (v0.5.0-rc3, जुलाई 2026) |
-| डिफ़ॉल्ट pool | Transparent | N/A | Orchard (shielded) |
-| RPC dialect | zcashd-specific | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
-| Full नोड आवश्यक | हाँ (स्वयं) | Zebra या zcashd | Zebra |
-| Stateless recovery | नहीं | N/A | हाँ (केवल seed) |
-| Shielded memos | हाँ (`z_sendmany`) | N/A | हाँ (Bitcoin RPC surface) |
-| Watch-only (UFVK) | हाँ | हाँ | हाँ |
-| Cloud-native | नहीं | आंशिक | हाँ |
-| Install | Build/binary | Build | `cargo install zecd` |
+| स्थिति | अप्रचलित | सक्रिय | सक्रिय (v0.5.0-rc3, जुलाई 2026) |
+| डिफ़ॉल्ट पूल | ट्रांसपेरेंट | लागू नहीं | Orchard (शील्डेड) |
+| RPC बोली | zcashd-विशिष्ट | gRPC (lightwalletd) | Bitcoin Core JSON-RPC |
+| फुल नोड आवश्यक | हाँ (स्वयं) | Zebra या zcashd | Zebra |
+| स्टेटलेस पुनर्प्राप्ति | नहीं | लागू नहीं | हाँ (केवल सीड से) |
+| शील्डेड मेमो | हाँ (`z_sendmany`) | लागू नहीं | हाँ (Bitcoin RPC सतह) |
+| वॉच-ओनली (UFVK) | हाँ | हाँ | हाँ |
+| क्लाउड-नेटिव | नहीं | आंशिक | हाँ |
+| इंस्टॉलेशन | बिल्ड/बाइनरी | बिल्ड | `cargo install zecd` |
 
 ---
 
-## संबंधित पेज
+## संबंधित पृष्ठ
 
-- [Zebra Full Node](Zebra_Full_Node.md) — वह full नोड जिससे zecd जुड़ता है
-- [Zaino Indexer](Zaino.md) — वैकल्पिक indexer approach (lightwalletd को प्रतिस्थापित करता है)
-- [Zakura Node](Zakura_Node.md) — एक अन्य full नोड implementation (Zebra का fork)
-- [Viewing Keys](Viewing_Keys.md) — zecd account viewing keys का उपयोग करके chain को कैसे scan करता है
-- [Wallets](/using-zcash/wallets) — wallet ecosystem का अवलोकन
+- [Zebra फुल नोड](Zebra_Full_Node.md) — वह फुल नोड जिससे zecd जुड़ता है
+- [Zaino इंडेक्सर](Zaino.md) — वैकल्पिक इंडेक्सर दृष्टिकोण (lightwalletd की जगह लेता है)
+- [Zakura नोड](Zakura_Node.md) — एक अन्य फुल नोड कार्यान्वयन (Zebra का फ़ोर्क)
+- [व्यूइंग की](Viewing_Keys.md) — zecd अकाउंट व्यूइंग की का उपयोग करके चेन को कैसे स्कैन करता है
+- [वॉलेट](/using-zcash/wallets) — वॉलेट इकोसिस्टम का अवलोकन
 
 ## संसाधन
 
 - [zecd GitHub (zecrocks/zecd)](https://github.com/zecrocks/zecd)
-- [zecd Operations Runbook](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
+- [zecd ऑपरेशंस रनबुक](https://github.com/zecrocks/zecd/blob/main/docs/OPERATIONS.md)
 - [zec.rocks](https://zec.rocks)
-- [librustzcash — मुख्य Zcash cryptography library](https://github.com/zcash/librustzcash)
-- [ZIP-317: Proportional Transfer Fee Mechanism](https://zips.z.cash/zip-0317)
-- [ZIP-302: Shielded Memos](https://zips.z.cash/zip-0302)
-- [Zodl wallet (librustzcash-compatible)](https://github.com/zodl-inc/zodl-ios)
+- [librustzcash — मुख्य Zcash क्रिप्टोग्राफ़ी लाइब्रेरी](https://github.com/zcash/librustzcash)
+- [ZIP-317: आनुपातिक ट्रांसफ़र शुल्क तंत्र](https://zips.z.cash/zip-0317)
+- [ZIP-302: शील्डेड मेमो](https://zips.z.cash/zip-0302)
+- [Zodl वॉलेट (librustzcash-संगत)](https://github.com/zodl-inc/zodl-ios)

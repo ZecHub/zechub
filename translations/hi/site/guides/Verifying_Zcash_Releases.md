@@ -2,57 +2,57 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Releases का सत्यापन
+# Zcash रिलीज़ का सत्यापन
 
-## संक्षेप में
+## संक्षेप में (TL;DR)
 
-- किसी Zcash binary को डाउनलोड करना, परियोजना द्वारा प्रकाशित वही binary प्राप्त करने के समान नहीं है। सत्यापन ही वह तरीका है जिससे आप दोनों में अंतर कर सकते हैं।
-- checksum यह साबित करता है कि फ़ाइल सही-सलामत पहुँची। एक **signature** यह साबित करता है कि इसे किसने बनाया। आपको दोनों की आवश्यकता है, और अकेले checksum बहुत कम साबित करता है।
-- Zebra एक `SHA256SUMS` फ़ाइल और एक **Sigstore** bundle प्रकाशित करता है, जो release को एक विशेष GitHub Actions workflow, tag और commit से जोड़ता है — key management की आवश्यकता नहीं।
-- Zallet detached **GPG** signatures (`.asc`) को SLSA provenance और एक SBOM के साथ प्रकाशित करता है।
-- Zcash signing key 2026 में Electric Coin Company से Zcash Open Development Lab (ZODL) में बदली गई। यदि आपने पुराने releases सत्यापित किए थे, तो आपको नई key की आवश्यकता है — और handover statement दोनों keys से signed है, इसलिए आप rotation का भी स्वयं सत्यापन कर सकते हैं।
-- `gpg` उस **subkey** को रिपोर्ट करता है जिसने फ़ाइल पर sign किया, न कि announcement में नामित primary key को। जो fingerprint गलत दिखता है, वह आमतौर पर subkey होता है, हमला नहीं।
-- यदि सत्यापन विफल हो जाए, तो binary को न चलाएँ।
+- Zcash बाइनरी (binary) डाउनलोड करना और प्रोजेक्ट द्वारा प्रकाशित बाइनरी प्राप्त करना एक ही बात नहीं है। सत्यापन (verification) से ही आप यह अंतर पहचान सकते हैं।
+- चेकसम (checksum) यह साबित करता है कि फ़ाइल बिना बदले पहुँची है। **सिग्नेचर** (signature) यह साबित करता है कि उसे किसने बनाया। आपको दोनों चाहिए, और केवल चेकसम से बहुत कम साबित होता है।
+- Zebra एक `SHA256SUMS` फ़ाइल और एक **Sigstore** बंडल (bundle) प्रकाशित करता है, जो रिलीज़ को किसी विशेष GitHub Actions वर्कफ़्लो (workflow), टैग और कमिट से जोड़ता है। इसमें की (key) संभालने की कोई ज़रूरत नहीं होती।
+- Zallet अलग (detached) **GPG** सिग्नेचर (`.asc`) प्रकाशित करता है। इनके साथ SLSA प्रोवेनेंस (provenance) और एक SBOM भी होते हैं।
+- Zcash की साइनिंग की 2026 में Electric Coin Company से बदलकर Zcash Open Development Lab (ZODL) की हो गई। अगर आपने पुरानी रिलीज़ सत्यापित की थीं, तो अब आपको नई की चाहिए। हैंडओवर स्टेटमेंट पर दोनों की के सिग्नेचर हैं, इसलिए आप की के बदलाव (rotation) को भी सत्यापित कर सकते हैं।
+- `gpg` उस **सबकी** (subkey) को दिखाता है जिसने फ़ाइल साइन की, न कि घोषणाओं में बताई गई प्राइमरी की (primary key) को। जो फ़िंगरप्रिंट (fingerprint) गलत लगता है, वह आम तौर पर सबकी होता है, कोई हमला नहीं।
+- अगर सत्यापन विफल हो जाए, तो बाइनरी न चलाएँ।
 
-*Zebra `v6.3.0` और Zallet `v0.1.0-beta.2` के विरुद्ध 2026-08-18 को सत्यापित।*
+*2026-08-18 को Zebra `v6.3.0` और Zallet `v0.1.0-beta.2` पर सत्यापित।*
 
-## Zcash के लिए यह अधिक महत्वपूर्ण क्यों है
+## Zcash के लिए यह और भी ज़रूरी क्यों है
 
-किसी छेड़छाड़ किए गए wallet binary से spending key या viewing key बाहर भेजी जा सकती है। compromised password के विपरीत, यह हानि स्थायी होती है: न rollback है, न chargeback, और न कोई support desk। Shielded transactions *on chain* होने वाली चीज़ों की रक्षा करती हैं — लेकिन यदि जो software आप चला रहे हैं, वह आपके पास पहुँचने से पहले ही बदल दिया गया हो, तो वे कोई सुरक्षा नहीं देतीं।
+छेड़छाड़ की गई वॉलेट (wallet) बाइनरी आपकी स्पेंडिंग की (spending key) या व्यूइंग की (viewing key) चुरा सकती है। पासवर्ड चोरी होने के विपरीत, यह नुकसान स्थायी होता है। इसमें कोई रोलबैक, कोई चार्जबैक और कोई सपोर्ट डेस्क नहीं होता। शील्डेड (shielded) लेनदेन (transaction) *ऑन-चेन* (on-chain) होने वाली गतिविधि की रक्षा करते हैं। लेकिन अगर आपका सॉफ़्टवेयर आप तक पहुँचने से पहले ही बदल दिया गया हो, तो उनसे कोई सुरक्षा नहीं मिलती।
 
-यह उन कुछ attack paths में से एक है जहाँ protocol की privacy guarantees बिल्कुल भी प्रासंगिक नहीं रहतीं। सत्यापन वही परत है जो इसे कवर करती है।
+यह उन गिने-चुने हमलों में से एक है जहाँ प्रोटोकॉल की गोपनीयता (privacy) गारंटी का कोई महत्व नहीं रह जाता। इससे बचाने वाली परत सत्यापन ही है।
 
-## Threat model — सत्यापन क्या पकड़ता है और क्या नहीं
+## खतरे का मॉडल: सत्यापन क्या पकड़ता है और क्या नहीं
 
 **पकड़ता है:**
 
-- छेड़छाड़ किया गया mirror या परियोजना के release page के अलावा कहीं और से परोसी गई modified फ़ाइल।
-- डाउनलोड के दौरान man-in-the-middle swap।
-- compromised CDN या hijacked distribution host।
-- transit के दौरान हुई आकस्मिक corruption।
+- छेड़छाड़ किया गया मिरर, या प्रोजेक्ट के रिलीज़ पेज के बजाय कहीं और से दी गई बदली हुई फ़ाइल।
+- डाउनलोड के समय मैन-इन-द-मिडल हमले में फ़ाइल का बदला जाना।
+- हैक किया गया CDN या कब्ज़े में लिया गया डिस्ट्रिब्यूशन होस्ट।
+- ट्रांसफ़र के दौरान फ़ाइल का अनजाने में खराब हो जाना।
 
 **नहीं पकड़ता:**
 
-- ऐसा maintainer जो malicious code पर sign करे। signature सही सत्यापित होगा; यह origin साबित करता है, intent नहीं।
-- compromised build host जो signed-but-malicious artifact बनाए। reproducible builds और provenance attestations इसी जोखिम को सीमित करने के लिए होते हैं।
-- ऐसी key जिसे आपने binary वाले उसी compromised source से प्राप्त किया हो। यदि attacker फ़ाइल और उसके विरुद्ध जाँची जाने वाली key दोनों को नियंत्रित करता है, तो सत्यापन आपको कुछ नहीं बताता।
+- ऐसा मेंटेनर जो दुर्भावनापूर्ण कोड साइन करता है। सिग्नेचर सही तरह से सत्यापित होगा। यह केवल स्रोत साबित करता है, इरादा नहीं।
+- हैक किया गया बिल्ड होस्ट जो साइन किया हुआ लेकिन दुर्भावनापूर्ण आर्टिफ़ैक्ट बनाता है। रिप्रोड्यूसिबल बिल्ड और प्रोवेनेंस अटेस्टेशन इसी जोखिम को कम करने के लिए होते हैं।
+- ऐसी की जो आपको उसी हैक किए गए स्रोत से मिली जहाँ से बाइनरी मिली थी। अगर हमलावर के नियंत्रण में फ़ाइल और उसे जाँचने वाली की, दोनों हों, तो सत्यापन से आपको कुछ पता नहीं चलता।
 
-अधिकांश guides इसी अंतिम बिंदु को छोड़ देती हैं। **आप key कहाँ से प्राप्त करते हैं, यह command चलाने जितना ही महत्वपूर्ण है।**
+ज़्यादातर गाइड यही आखिरी बात छोड़ देते हैं। **कमांड चलाना जितना ज़रूरी है, उतना ही ज़रूरी यह भी है कि आपको की कहाँ से मिलती है।**
 
 ---
 
-## भाग 1 — Zebra: checksums और Sigstore
+## भाग 1: Zebra, चेकसम और Sigstore
 
-Zebra प्रत्येक release के लिए ये assets प्रकाशित करता है:
+Zebra हर रिलीज़ के लिए ये एसेट प्रकाशित करता है:
 
-| Asset | उद्देश्य |
+| एसेट | उद्देश्य |
 |---|---|
-| `zebrad-<version>-<arch>.tar.gz` | binary archive |
-| `zebrad-<version>-<arch>.tar.gz.sha256` | प्रति-फ़ाइल checksum |
-| `SHA256SUMS` | सभी architectures के लिए checksums |
-| `SHA256SUMS.sigstore.json` | `SHA256SUMS` पर sign किया गया Sigstore bundle |
+| `zebrad-<version>-<arch>.tar.gz` | बाइनरी आर्काइव |
+| `zebrad-<version>-<arch>.tar.gz.sha256` | हर फ़ाइल का चेकसम |
+| `SHA256SUMS` | सभी आर्किटेक्चर के चेकसम |
+| `SHA256SUMS.sigstore.json` | `SHA256SUMS` को साइन करने वाला Sigstore बंडल |
 
-### चरण 1 — डाउनलोड
+### चरण 1: डाउनलोड
 
 ```bash
 BASE=https://github.com/ZcashFoundation/zebra/releases/download/v6.3.0
@@ -61,21 +61,21 @@ curl -sLO $BASE/SHA256SUMS
 curl -sLO $BASE/SHA256SUMS.sigstore.json
 ```
 
-### चरण 2 — checksum जाँचें
+### चरण 2: चेकसम की जाँच
 
 ```bash
 sha256sum -c --ignore-missing SHA256SUMS
 ```
 
-वास्तविक output:
+वास्तविक आउटपुट:
 
 ```
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-यहाँ `--ignore-missing` आवश्यक है क्योंकि `SHA256SUMS` हर architecture को कवर करता है और आपने केवल एक डाउनलोड किया है। इसके बिना, `sha256sum` अनुपस्थित aarch64 archive को failure के रूप में रिपोर्ट करता है और आप pass को fail समझ सकते हैं।
+यहाँ `--ignore-missing` ज़रूरी है, क्योंकि `SHA256SUMS` में हर आर्किटेक्चर के चेकसम हैं और आपने केवल एक आर्काइव डाउनलोड किया है। इसके बिना `sha256sum` मौजूद न होने वाले aarch64 आर्काइव को विफलता बताता है, और आप सफल जाँच को विफल समझ सकते हैं।
 
-प्रति-फ़ाइल variant भी काम करता है:
+हर फ़ाइल वाला तरीका भी काम करता है:
 
 ```bash
 sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
@@ -85,17 +85,17 @@ sha256sum -c zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz.sha256
 zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz: OK
 ```
 
-**केवल यह चरण पर्याप्त नहीं है।** आपने checksum को binary वाली उसी जगह से डाउनलोड किया है। जो कोई एक को बदल सकता है, वह दूसरे को भी बदल सकता है। checksum integrity साबित करता है; अगला चरण origin साबित करता है।
+**केवल यह चरण काफ़ी नहीं है।** आपने चेकसम उसी जगह से डाउनलोड किया जहाँ से बाइनरी डाउनलोड की। जो एक फ़ाइल बदल सकता है, वह दूसरी भी बदल सकता है। चेकसम अखंडता साबित करता है। अगला चरण स्रोत साबित करता है।
 
-### चरण 2b — Windows पर यही जाँच
+### चरण 2b: Windows पर यही जाँच
 
-PowerShell में `-c` verify mode नहीं होता, इसलिए आपको manually तुलना करनी होती है:
+PowerShell में `-c` वेरिफ़ाई मोड नहीं है, इसलिए आपको खुद तुलना करनी होगी:
 
 ```powershell
 Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorithm SHA256 | Format-List
 ```
 
-वास्तविक output:
+वास्तविक आउटपुट:
 
 ```
 Algorithm : SHA256
@@ -103,19 +103,19 @@ Hash      : 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 Path      : \\wsl$\Ubuntu\home\briefking\verify\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 
-इसे इस पेज में पहले दिए गए Linux result से तुलना करें:
+इसकी तुलना इसी पेज पर पहले दिए गए Linux परिणाम से करें:
 
 ```
 86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e
 86326F5324F4E59CC2008C15F94407CC8D5FEACF75D64942164BB5F08ECA8C5E
 ```
 
-**मान एक जैसे हैं।** Hex में case का महत्व नहीं होता, और Windows पर यह सबसे आम false alarm है।
+**दोनों मान एक जैसे हैं।** हेक्स में बड़े-छोटे अक्षरों का कोई फ़र्क नहीं होता। Windows पर यह सबसे आम झूठी चेतावनी है।
 
-Windows से जुड़ी दो और आम गलतियाँ:
+Windows से जुड़े दो और जाल:
 
-- **जाँचने के लिए कोई exit code नहीं है।** Linux पर `sha256sum -c` failure पर 1 लौटाता है और script उस पर कार्य कर सकती है। `Get-FileHash` केवल hash प्रिंट करता है — तुलना आपको करनी है, और सरसरी नज़र से गलती भी आपकी ही हो सकती है।
-- **64 hex characters को आँखों से पढ़ना अविश्वसनीय है।** shell को यह काम करने दें:
+- **जाँचने के लिए कोई एग्ज़िट कोड नहीं है।** Linux पर `sha256sum -c` विफल होने पर 1 लौटाता है, और स्क्रिप्ट उसके आधार पर कार्रवाई कर सकती है। `Get-FileHash` केवल हैश दिखाता है। तुलना आपको करनी होती है, और जल्दी में देखने से आप गलती कर सकते हैं।
+- **64 हेक्स अक्षरों को आँख से पढ़ना भरोसेमंद नहीं है।** यह काम शेल को करने दें:
 
 ```powershell
 $expected = "86326f5324f4e59cc2008c15f94407cc8d5feacf75d64942164bb5f08eca8c5e"
@@ -123,11 +123,11 @@ $actual = (Get-FileHash .\zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz -Algorith
 if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 ```
 
-> **macOS पर:** workflow वही है, लेकिन BSD userland `sha256sum` के बजाय `shasum` देता है — `shasum -a 256 -c --ignore-missing SHA256SUMS` का उपयोग करें। इस पेज के लेखक के पास macOS मशीन उपलब्ध नहीं थी, इसलिए यह command Apple के tooling के आधार पर documented है, चलाकर नहीं। यदि आप macOS पर सत्यापन करते हैं, तो कृपया इसकी पुष्टि या सुधार के लिए PR खोलें।
+> **macOS पर:** वर्कफ़्लो वही है, लेकिन BSD यूज़रलैंड में `sha256sum` के बजाय `shasum` होता है, इसलिए `shasum -a 256 -c --ignore-missing SHA256SUMS` का उपयोग करें। इस पेज के लेखक के पास macOS मशीन नहीं थी, इसलिए यह कमांड चलाकर नहीं, बल्कि Apple के टूल के दस्तावेज़ के आधार पर लिखी गई है। अगर आप macOS पर सत्यापन करते हैं, तो कृपया इसकी पुष्टि या सुधार के लिए एक PR खोलें।
 
-### चरण 3 — Sigstore bundle का सत्यापन करें
+### चरण 3: Sigstore बंडल का सत्यापन
 
-Sigstore, long-lived signing keys की जगह CI identity से बंधे short-lived certificates का उपयोग करता है, जिन्हें public transparency log में रिकॉर्ड किया जाता है। किसी के पास ऐसी release key नहीं होती जिसे चुराया जा सके।
+Sigstore लंबे समय तक चलने वाली साइनिंग की के बजाय कम अवधि के सर्टिफ़िकेट (certificate) इस्तेमाल करता है। ये सर्टिफ़िकेट किसी CI पहचान से जुड़े होते हैं और एक सार्वजनिक ट्रांसपेरेंसी लॉग (transparency log) में दर्ज होते हैं। किसी के पास कोई रिलीज़ की नहीं होती जिसे चुराया जा सके।
 
 सीधा तरीका `cosign` का उपयोग करता है:
 
@@ -139,21 +139,21 @@ cosign verify-blob \
   SHA256SUMS
 ```
 
-ये दो `--certificate-*` flags ही पूरा उद्देश्य हैं। **इनके बिना आप केवल यह पुष्टि कर रहे होते हैं कि किसी ने, कहीं, फ़ाइल पर sign किया।** इनके साथ आप यह पुष्टि कर रहे हैं कि इसे Zebra repository के workflow ने sign किया था, और GitHub के OIDC issuer द्वारा authenticate किया गया था।
+असली बात ये दो `--certificate-*` फ़्लैग ही हैं। **इनके बिना आप केवल यह पुष्टि करते हैं कि किसी ने, कहीं, फ़ाइल साइन की है।** इनके साथ आप पुष्टि करते हैं कि फ़ाइल Zebra रिपॉज़िटरी के एक वर्कफ़्लो ने साइन की थी, और GitHub के OIDC इश्यूअर ने उसे प्रमाणित किया था।
 
-> ⚠️ **Version महत्वपूर्ण है।** पुराने cosign builds वर्तमान Sigstore bundle format को नहीं पढ़ सकते। ऊपर की command को cosign `v2.4.1` के साथ चलाने पर यह मिलता है:
+> ⚠️ **वर्ज़न मायने रखता है।** cosign के पुराने बिल्ड मौजूदा Sigstore बंडल फ़ॉर्मेट नहीं पढ़ सकते। cosign `v2.4.1` के साथ ऊपर वाली कमांड चलाने पर यह आता है:
 >
 > ```
 > Error: bundle does not contain cert for verification, please provide public key
 > ```
 >
-> bundle में वास्तव में certificate मौजूद है — यह `verificationMaterial.certificate.rawBytes` के अंतर्गत होता है, जिसे पुराने releases नहीं खोजते। यह client limitation है, कोई broken release नहीं। यदि आपको यह मिले, तो डाउनलोड को खराब मानने के बजाय cosign upgrade करें। distribution-packaged cosign अक्सर upstream से काफी पीछे होता है।
+> बंडल में सर्टिफ़िकेट *मौजूद* है। वह `verificationMaterial.certificate.rawBytes` के अंदर है, जहाँ पुराने रिलीज़ उसे नहीं खोजते। यह क्लाइंट की सीमा है, रिलीज़ की खराबी नहीं। अगर आपके साथ ऐसा हो, तो डाउनलोड को खराब मानने के बजाय cosign अपग्रेड करें। डिस्ट्रिब्यूशन के पैकेज में मिलने वाला cosign अक्सर अपस्ट्रीम से काफ़ी पीछे होता है।
 
-अगले दो चरण दिखाते हैं कि वही bundle manually कैसे सत्यापित किया जाए, जिसे समझना उपयोगी है — और जब आपका cosign build सहयोग न करे, तब यह व्यावहारिक fallback भी है।
+अगले दो चरण दिखाते हैं कि इसी बंडल को हाथ से कैसे सत्यापित करें। यह समझना हर हाल में उपयोगी है, और जब आपका cosign बिल्ड काम न करे, तब यह एक व्यावहारिक विकल्प भी है।
 
-### चरण 4 — certificate वास्तव में क्या दावा करता है, इसे पढ़ें
+### चरण 4: पढ़ें कि सर्टिफ़िकेट वास्तव में क्या दावा करता है
 
-आप `cosign` के बिना भी bundle inspect कर सकते हैं, जो यह समझने के लिए उपयोगी है कि आप किस पर trust कर रहे हैं। certificate निकालें:
+आप `cosign` के बिना भी बंडल की जाँच कर सकते हैं। इससे यह समझने में मदद मिलती है कि आप किस पर भरोसा कर रहे हैं। सर्टिफ़िकेट निकालें:
 
 ```bash
 python3 -c "
@@ -164,7 +164,7 @@ open('cert.der','wb').write(base64.b64decode(d['verificationMaterial']['certific
 openssl x509 -in cert.der -inform DER -noout -issuer -ext subjectAltName
 ```
 
-Zebra v6.3.0 के लिए वास्तविक output:
+Zebra v6.3.0 का वास्तविक आउटपुट:
 
 ```
 issuer=O = sigstore.dev, CN = sigstore-intermediate
@@ -172,9 +172,9 @@ X509v3 Subject Alternative Name: critical
     URI:https://github.com/ZcashFoundation/zebra/.github/workflows/zfnd-release-binaries.yml@refs/tags/v6.3.0
 ```
 
-Subject Alternative Name ही identity है। यह repository, exact workflow file और tag का नाम देता है। Sigstore custom extensions में अतिरिक्त build metadata भी embed करता है:
+Subject Alternative Name ही पहचान है। इसमें रिपॉज़िटरी, सटीक वर्कफ़्लो फ़ाइल और टैग का नाम होता है। Sigstore कस्टम एक्सटेंशन में बिल्ड से जुड़ी और जानकारी भी जोड़ता है:
 
-| Field | v6.3.0 के लिए मान |
+| फ़ील्ड | v6.3.0 के लिए मान |
 |---|---|
 | OIDC issuer | `https://token.actions.githubusercontent.com` |
 | Source repository | `https://github.com/ZcashFoundation/zebra` |
@@ -184,11 +184,11 @@ Subject Alternative Name ही identity है। यह repository, exact work
 | Workflow run | `.../actions/runs/31424510487/attempts/1` |
 | Repository visibility | `public` |
 
-इनमें से प्रत्येक को जाँचा जा सकता है। commit hash repository में tag से मेल खाना चाहिए; workflow run मौजूद और public होना चाहिए।
+इनमें से हर मान की जाँच की जा सकती है। कमिट हैश रिपॉज़िटरी के टैग से मेल खाना चाहिए, और वर्कफ़्लो रन मौजूद व सार्वजनिक होना चाहिए।
 
-### चरण 5 — cryptographically signature सत्यापित करें
+### चरण 5: सिग्नेचर का क्रिप्टोग्राफ़िक सत्यापन
 
-आप OpenSSL से सीधे signature की पुष्टि कर सकते हैं:
+आप OpenSSL से सीधे सिग्नेचर की पुष्टि कर सकते हैं:
 
 ```bash
 python3 -c "
@@ -200,57 +200,57 @@ openssl x509 -in cert.der -inform DER -pubkey -noout > pub.pem
 openssl dgst -sha256 -verify pub.pem -signature sig.bin SHA256SUMS
 ```
 
-वास्तविक output:
+वास्तविक आउटपुट:
 
 ```
 Verified OK
 ```
 
-bundle signed digest को भी रिकॉर्ड करता है। पुष्टि करें कि यह आपकी local फ़ाइल से मेल खाता है:
+बंडल में वह डाइजेस्ट भी दर्ज होता है जिसे साइन किया गया था। पुष्टि करें कि यह आपकी लोकल फ़ाइल से मेल खाता है:
 
 ```
 bundle digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 local  digest : 3eb5de0634f637e793d0411b6c7108802a36e1219f9151803ecc6108fd0f59f6
 ```
 
-### चरण 6 — transparency log entry
+### चरण 6: ट्रांसपेरेंसी लॉग एंट्री
 
-bundle में एक Rekor entry होती है जो साबित करती है कि signature को public, append-only log में प्रकाशित किया गया था:
+बंडल में एक Rekor एंट्री होती है। यह साबित करती है कि सिग्नेचर एक सार्वजनिक, केवल-जोड़ने-योग्य (append-only) लॉग में प्रकाशित किया गया था:
 
-| Field | Value |
+| फ़ील्ड | मान |
 |---|---|
 | Rekor log index | `2412071838` |
 | Entry type | `hashedrekord v0.0.1` |
 | Integrated at | 2026-08-10 19:43:09 UTC |
 
-यही वह चीज़ है जो silent key misuse को detect करने योग्य बनाती है। ऐसा signature जो कभी log में दिखाई ही न दे, या अविश्वसनीय समय पर दिखाई दे, एक ऐसा संकेत है जिस पर कार्रवाई की जानी चाहिए। integration time की तुलना release announcement से करें।
+इसी से की के चुपचाप गलत उपयोग का पता लगाया जा सकता है। अगर कोई सिग्नेचर लॉग में कभी दिखा ही नहीं, या किसी असंभव समय पर दिखा, तो यह कार्रवाई करने लायक संकेत है। जोड़े जाने के समय की तुलना रिलीज़ की घोषणा से करें।
 
-> **OpenSSL path पर टिप्पणी:** यह certificate की public key के विरुद्ध signature को सत्यापित करता है, लेकिन अपने आप certificate chain को Sigstore root तक validate नहीं करता और न ही log entry की inclusion proof जाँचता है। `cosign verify-blob` ये तीनों काम करता है। mechanism समझने के लिए OpenSSL का उपयोग करें; वास्तविक जाँच के लिए `cosign` का उपयोग करें।
+> **OpenSSL वाले तरीके पर नोट:** यह सर्टिफ़िकेट की पब्लिक की से सिग्नेचर सत्यापित करता है। लेकिन यह अपने आप सर्टिफ़िकेट चेन (chain) को Sigstore के रूट तक प्रमाणित नहीं करता, और न ही लॉग एंट्री का इनक्लूज़न प्रूफ़ (proof) जाँचता है। `cosign verify-blob` ये तीनों काम करता है। प्रक्रिया समझने के लिए OpenSSL का उपयोग करें, और असली जाँच के लिए `cosign` का।
 
 ---
 
-## भाग 2 — Zallet: GPG signatures
+## भाग 2: Zallet, GPG सिग्नेचर
 
-Zallet एक अलग प्रकार के assets प्रकाशित करता है:
+Zallet अलग तरह के एसेट प्रकाशित करता है:
 
-| Asset | उद्देश्य |
+| एसेट | उद्देश्य |
 |---|---|
-| `zallet-<version>-<platform>.tar.gz` | binary archive |
-| `.tar.gz.asc` | detached GPG signature |
-| `.tar.gz.intoto.jsonl` | SLSA provenance attestation |
-| `.tar.gz.provenance.json` | provenance metadata |
-| `.tar.gz.sbom.spdx` | software bill of materials |
+| `zallet-<version>-<platform>.tar.gz` | बाइनरी आर्काइव |
+| `.tar.gz.asc` | अलग GPG सिग्नेचर |
+| `.tar.gz.intoto.jsonl` | SLSA प्रोवेनेंस अटेस्टेशन |
+| `.tar.gz.provenance.json` | प्रोवेनेंस मेटाडेटा |
+| `.tar.gz.sbom.spdx` | सॉफ़्टवेयर बिल ऑफ़ मटीरियल्स |
 
-### चरण 1 — key खोजने से पहले signing key की पहचान करें
+### चरण 1: साइनिंग की खोजने से पहले उसकी पहचान करें
 
-बिना कोई key import किए, *पहले* verification चलाएँ:
+कोई की इम्पोर्ट किए बिना *पहले* सत्यापन चलाएँ:
 
 ```bash
 gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-वास्तविक output:
+वास्तविक आउटपुट:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -259,11 +259,11 @@ gpg:                issuer "sysadmin@zodl.com"
 gpg: Can't check signature: No public key
 ```
 
-यह failure नहीं है। यह बताता है कि signature मौजूद है और ठीक कौन-सी key आपको चाहिए, **इससे पहले कि आप उसे ढूँढना शुरू करें।** fingerprint और issuer नोट करें, फिर key को डाउनलोड से स्वतंत्र स्रोत से प्राप्त करें।
+यह विफलता नहीं है। इससे पता चलता है कि सिग्नेचर मौजूद है, और खोज शुरू करने से **पहले** ही यह भी पता चल जाता है कि आपको कौन सी की चाहिए। फ़िंगरप्रिंट और इश्यूअर नोट करें, फिर की को डाउनलोड से अलग किसी स्रोत से प्राप्त करें।
 
-> `gpg` timestamps आपकी local timezone में प्रिंट करता है। ऊपर का output `WAT` (UTC+1) दिखाता है; वही signature कहीं और `18:18:44 UTC` के रूप में दिखेगा। क्षण वही है। timezone difference को mismatch न मानें।
+> `gpg` टाइमस्टैम्प आपके लोकल टाइमज़ोन में दिखाता है। ऊपर के आउटपुट में `WAT` (UTC+1) दिख रहा है, जबकि किसी दूसरी जगह यही सिग्नेचर `18:18:44 UTC` दिखाएगा। दोनों एक ही क्षण हैं। टाइमज़ोन के अंतर को बेमेल न समझें।
 
-### चरण 2 — key import करें और सत्यापित करें
+### चरण 2: की इम्पोर्ट करें और सत्यापित करें
 
 ```bash
 curl -sL https://apt.z.cash/zodl.asc -o zodl.asc
@@ -272,7 +272,7 @@ gpg --verify zallet-v0.1.0-beta.2-linux-amd64.tar.gz.asc \
              zallet-v0.1.0-beta.2-linux-amd64.tar.gz
 ```
 
-वास्तविक output:
+वास्तविक आउटपुट:
 
 ```
 gpg: Signature made Tue Jul 28 19:18:44 2026 WAT
@@ -285,19 +285,19 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-`Good signature` वही है जो आप चाहते थे। इस output में दो बातें लोगों को भ्रमित करती हैं, और दोनों सामान्य हैं।
+आपको `Good signature` ही चाहिए था। इस आउटपुट की दो बातें लोगों को उलझाती हैं, और दोनों सामान्य हैं।
 
-### fingerprint announcement से मेल क्यों नहीं खाता
+### फ़िंगरप्रिंट घोषणा से मेल क्यों नहीं खाता
 
-ZODL key transition statement fingerprint `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` बताता है। लेकिन `gpg --verify` ने `1FE9 9324 …  23F0 617F` रिपोर्ट किया। यह mismatch जैसा दिखता है, लेकिन है नहीं।
+ZODL के की ट्रांज़िशन स्टेटमेंट में फ़िंगरप्रिंट `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` बताया गया है। लेकिन `gpg --verify` ने `1FE9 9324 …  23F0 617F` दिखाया। यह बेमेल लगता है, पर है नहीं।
 
-`gpg` उस **subkey** को रिपोर्ट करता है जिसने sign किया। announcement **primary key** का नाम लेता है। संबंध स्वयं पुष्टि करें:
+`gpg` उस **सबकी** को दिखाता है जिसने सिग्नेचर बनाया। घोषणा में **प्राइमरी की** का नाम है। इनके संबंध की पुष्टि खुद करें:
 
 ```bash
 gpg --list-keys --with-subkey-fingerprints sysadmin@zodl.com
 ```
 
-वास्तविक output:
+वास्तविक आउटपुट:
 
 ```
 pub   rsa4096 2026-03-23 [SCEA]
@@ -307,39 +307,39 @@ sub   rsa4096 2026-03-23 [SEA]
       1FE99324758F296718B457067F4BBBBA23F0617F
 ```
 
-`sub` पंक्ति signing subkey है; `pub` पंक्ति primary है। एक identity, एक key package। यही कारण है कि verification output **दोनों** fingerprints प्रिंट करता है — किसी भी प्रकाशित announcement से *primary* की तुलना करें, और subkey पंक्ति को इस रूप में लें कि key के किस हिस्से ने काम किया।
+`sub` वाली लाइन साइनिंग सबकी है और `pub` वाली लाइन प्राइमरी की है। पहचान एक है और की पैकेज भी एक। इसीलिए सत्यापन आउटपुट **दोनों** फ़िंगरप्रिंट दिखाता है। किसी भी प्रकाशित घोषणा से *प्राइमरी* की की तुलना करें। सबकी वाली लाइन केवल यह बताती है कि की के किस हिस्से ने काम किया।
 
-Keys को इस तरह विभाजित करना जानबूझकर किया जाता है: एक signing subkey को primary identity और उसके संचित trust को छोड़े बिना rotate या revoke किया जा सकता है।
+की को इस तरह बाँटना जानबूझकर किया जाता है। इससे प्राइमरी पहचान और उस पर बने भरोसे को छोड़े बिना साइनिंग सबकी को बदला या रद्द किया जा सकता है।
 
-### `[unknown]` warning का क्या अर्थ है
+### `[unknown]` चेतावनी का अर्थ
 
 ```
 gpg: WARNING: The key's User ID is not certified with a trusted signature!
 ```
 
-यह **signature की समस्या नहीं है।** signature cryptographically valid है — यही `Good signature` बताता है। warning कुछ और कहती है: आपने अपनी local GnuPG को यह नहीं बताया है कि आप मानते हैं कि यह key वास्तव में उसी की है जिसका यह दावा करती है।
+यह सिग्नेचर की कोई समस्या **नहीं** है। सिग्नेचर क्रिप्टोग्राफ़िक रूप से मान्य है, और `Good signature` यही बताता है। चेतावनी कुछ और कहती है: आपने अपने लोकल GnuPG को यह नहीं बताया है कि आप मानते हैं कि यह की उसी की है जिसका वह दावा करती है।
 
-GnuPG दो प्रश्न अलग-अलग रखता है:
+GnuPG दो सवालों को अलग रखता है:
 
-1. **क्या इस key ने इस फ़ाइल पर sign किया?** — `Good signature` इसका उत्तर देता है। यह cryptographic है, इसमें मानव निर्णय नहीं।
-2. **क्या यह key वास्तव में ZODL की है?** — इसका उत्तर cryptography बिल्कुल नहीं देती। आप इसे fingerprint को किसी स्वतंत्र स्रोत से मिलाकर स्थापित करते हैं।
+1. **क्या इस की ने यह फ़ाइल साइन की?** इसका जवाब `Good signature` देता है। यह क्रिप्टोग्राफ़िक जाँच है, इसमें इंसानी आकलन नहीं होता।
+2. **क्या यह की ZODL की है?** क्रिप्टोग्राफ़ी इसका जवाब बिल्कुल नहीं देती। इसे आप किसी स्वतंत्र स्रोत से फ़िंगरप्रिंट मिलाकर तय करते हैं।
 
-लगभग हर verification पर आपको यह warning दिखेगी, जब तक कि आप key को local रूप से explicitly sign न करें। इसे failure न मानें। **लेकिन** `Good signature` का न होना failure मानें।
+जब तक आप की को लोकल रूप से साइन नहीं करते, लगभग हर सत्यापन में आपको यह चेतावनी दिखेगी। इसे विफलता न मानें। लेकिन `Good signature` न दिखे, तो उसे विफलता **ज़रूर** मानें।
 
-### चरण 3 — key transition का स्वयं सत्यापन करें
+### चरण 3: की ट्रांज़िशन का भी सत्यापन करें
 
-Zcash release signing 2026 में Electric Coin Company से Zcash Open Development Lab में चली गई, जब जनवरी 2026 में पूर्व ECC engineering और product team द्वारा ZODL का गठन हुआ।
+Zcash की रिलीज़ साइनिंग 2026 में Electric Coin Company से Zcash Open Development Lab के पास चली गई। यह तब हुआ जब जनवरी 2026 में ECC की पूर्व इंजीनियरिंग और प्रोडक्ट टीम ने ZODL बनाया।
 
-| | Old key | New key |
+| | पुरानी की | नई की |
 |---|---|---|
-| Fingerprint | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
+| फ़िंगरप्रिंट | `B1C9 095E AA18 48DB B54D 9DDA 1D05 FDC6 6B37 2CFE` | `0338 34DD 49DE CF9D BB99 34BC 6C93 CA8E 58E2 6AB1` |
 | UID | Zcash Master Signing Key (ECC) `<sysadmin@z.cash>` | Zcash Open Development Lab (ZODL) `<sysadmin@zodl.com>` |
-| Type | RSA 3072-bit, created 2023-06-19 | RSA 4096-bit, created 2026-03-23, expires 2028-03-22 |
-| Published at | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
+| प्रकार | RSA 3072-बिट, 2023-06-19 को बनाई गई | RSA 4096-बिट, 2026-03-23 को बनाई गई, 2028-03-22 को समाप्त |
+| कहाँ प्रकाशित | `https://apt.z.cash/zcash.asc` | `https://apt.z.cash/zodl.asc` |
 
-Published timeline: नई key 2026-03-23 को बनाई गई, 2026-03-27 को announce हुई, 2026-04-23 से exclusive signing, पुरानी ECC key revocation 2026-06-23 के लिए planned।
+प्रकाशित समय-सीमा: नई की 2026-03-23 को बनाई गई और 2026-03-27 को घोषित हुई। 2026-04-23 से केवल इसी से साइनिंग हो रही है। पुरानी ECC की को 2026-06-23 को रद्द करने की योजना थी।
 
-किसी website पर rotation announcement उतनी ही भरोसेमंद होती है जितनी वह website। सही mechanism एक ऐसा statement है जो **दोनों keys से clear-signed हो**, ताकि पुरानी key नई key के लिए vouch करे। ZODL ठीक यही प्रकाशित करता है:
+वेबसाइट पर की बदलने की घोषणा उतनी ही भरोसेमंद होती है जितनी वह वेबसाइट। सही तरीका ऐसा स्टेटमेंट है जिस पर **दोनों की से क्लियर-साइन** किया गया हो, ताकि पुरानी की नई की की पुष्टि करे। ZODL ठीक यही प्रकाशित करता है:
 
 ```bash
 curl -sL https://zodl.com/security/key-transition.txt.asc -o key-transition.txt.asc
@@ -348,7 +348,7 @@ gpg --import zcash.asc
 gpg --verify key-transition.txt.asc
 ```
 
-वास्तविक output (संक्षिप्त — एक document पर दो signatures):
+वास्तविक आउटपुट (संक्षिप्त, एक दस्तावेज़ पर दो सिग्नेचर):
 
 ```
 gpg: Signature made Fri Mar 27 01:11:14 2026 WAT
@@ -365,22 +365,22 @@ Primary key fingerprint: 0338 34DD 49DE CF9D BB99  34BC 6C93 CA8E 58E2 6AB1
      Subkey fingerprint: 1FE9 9324 758F 2967 18B4  5706 7F4B BBBA 23F0 617F
 ```
 
-एक ही document पर दो `Good signature` results, पुरानी key और नई key से। यदि आप पहले के releases के लिए ECC key पर trust करते थे, तो अब यह trust बिना `zodl.com`, `apt.z.cash`, या किसी forum post पर भरोसा किए ZODL key तक आगे बढ़ जाता है। यही वह गुण है जिसे किसी project के keys rotate करने पर देखना चाहिए — और इसका अभाव पूछताछ योग्य है।
+एक ही दस्तावेज़ पर दो `Good signature` परिणाम हैं, एक पुरानी की से और एक नई की से। अगर आप पिछली रिलीज़ के लिए ECC की पर भरोसा करते थे, तो वह भरोसा अब ZODL की पर भी लागू होता है। इसके लिए आपको `zodl.com`, `apt.z.cash` या किसी फ़ोरम पोस्ट पर भरोसा नहीं करना पड़ता। जब भी कोई प्रोजेक्ट अपनी की बदले, तो यही खूबी देखें। अगर यह न हो, तो इसके बारे में पूछना उचित है।
 
-### key कहाँ से प्राप्त करें — और कहाँ से नहीं
+### की कहाँ से लें और कहाँ से नहीं
 
-सबसे अच्छे से सबसे खराब तक क्रमबद्ध:
+सबसे अच्छे से सबसे खराब क्रम में:
 
-1. **पिछली key से signed statement**, जैसा ऊपर है। rotation के बाद सबसे मजबूत विकल्प।
-2. **डाउनलोड से स्वतंत्र स्रोत।** binary GitHub से आया; key `apt.z.cash` से आई। attacker को दोनों चाहिए।
-3. **एक keyserver, जिसे प्रकाशित fingerprint से cross-check किया गया हो।** अधिकांश keyservers पर कोई भी किसी भी identity का दावा करती key upload कर सकता है। fingerprint comparison ही इसे सुरक्षित बनाता है — keyserver नहीं।
-4. **वही page जहाँ binary है।** लगभग कोई आश्वासन नहीं। जो एक को बदल सकता है, वह दूसरे को भी बदल सकता है।
+1. **पिछली की द्वारा साइन किया गया स्टेटमेंट**, जैसा ऊपर दिखाया गया है। की बदलने के बाद यह सबसे मज़बूत विकल्प है।
+2. **डाउनलोड से अलग कोई स्रोत।** बाइनरी GitHub से आई और की `apt.z.cash` से। हमलावर को दोनों पर नियंत्रण चाहिए।
+3. **कीसर्वर, जिसकी जाँच प्रकाशित फ़िंगरप्रिंट से की गई हो।** ज़्यादातर कीसर्वर पर कोई भी किसी भी पहचान का दावा करने वाली की अपलोड कर सकता है। इसे सुरक्षित फ़िंगरप्रिंट की तुलना बनाती है, कीसर्वर नहीं।
+4. **बाइनरी वाला ही पेज।** इससे लगभग कोई भरोसा नहीं मिलता। जो एक चीज़ बदल सकता है, वह दूसरी भी बदल सकता है।
 
-हमेशा **full** fingerprint की तुलना **primary** key से करें। short key IDs में टकराव कराना बहुत आसान है और वास्तविक हमलों में उनका उपयोग हुआ है।
+हमेशा **पूरे** फ़िंगरप्रिंट की तुलना **प्राइमरी** की से करें। छोटी की ID की नकल बहुत आसानी से बन जाती है, और असली हमलों में इसका इस्तेमाल हो चुका है।
 
-## भाग 3 — एक विफल सत्यापन
+## भाग 3: विफल होने वाला सत्यापन
 
-सत्यापन तभी उपयोगी है जब आपको पता हो कि failure कैसा दिखता है। यहाँ एक वास्तविक उदाहरण है, जो valid archive में एक single null byte जोड़कर बनाया गया:
+सत्यापन तभी उपयोगी है जब आपको पता हो कि विफलता कैसी दिखती है। यह एक वास्तविक उदाहरण है, जो एक मान्य आर्काइव के अंत में एक null बाइट जोड़कर बनाया गया:
 
 ```bash
 cp zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -389,16 +389,16 @@ printf '\x00' >> tampered.tar.gz
 sha256sum -c tampered.sha256
 ```
 
-वास्तविक output:
+वास्तविक आउटपुट:
 
 ```
 tampered.tar.gz: FAILED
 sha256sum: WARNING: 1 computed checksum did NOT match
 ```
 
-Exit code: `1`.
+एग्ज़िट कोड: `1`।
 
-दोनों digests को साथ-साथ रखें:
+दोनों डाइजेस्ट को साथ-साथ रखें:
 
 ```bash
 sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
@@ -409,54 +409,54 @@ sha256sum zebrad-6.3.0-x86_64-unknown-linux-gnu.tar.gz tampered.tar.gz
 8d4e2e22adcb014e006fafc71a974f987ba11297587f593cf89eb9bb1feff0b5  tampered.tar.gz
 ```
 
-66,992,676-byte की फ़ाइल में सिर्फ एक byte जोड़ा गया। दोनों hashes में कुछ भी समान नहीं है — न prefix, न pattern। यहाँ कोई partial match नहीं, कोई "लगभग सही" नहीं: या तो checksum ठीक-ठीक मेल खाता है, या फ़ाइल वह नहीं है जो आप चाहते थे।
+66,992,676 बाइट की फ़ाइल में केवल एक बाइट जोड़ा गया। फिर भी दोनों हैश में कुछ भी समान नहीं है, न कोई प्रीफ़िक्स और न कोई पैटर्न। इसमें आंशिक मेल या “लगभग ठीक” जैसा कुछ नहीं होता। चेकसम या तो पूरी तरह मेल खाता है, या फ़ाइल वह नहीं है जो आप चाहते थे।
 
-### जब ऐसा हो तो क्या करें
+### ऐसा होने पर क्या करें
 
-1. **binary को न चलाएँ।** इसे extract न करें, `chmod +x` भी न करें।
-2. **official release page से फिर प्रयास करें।** अधिकांश failures truncated downloads होते हैं।
-3. **यदि दूसरी बार भी fail हो, तो network path बदलें।** दूसरा connection, या VPN। जो failure networks बदलने पर भी बना रहे, वह अलग प्रकृति का है।
-4. **पुष्टि करें कि आपके पास सही version के लिए सही checksum file है।** v6.3.0 की तुलना v6.2.3 sums से करेंगे तो सही रूप से fail होगा।
-5. **यदि फिर भी fail हो, तो इसकी रिपोर्ट करें।** project repository में issue खोलें, या यदि आपको कुछ जानबूझकर किया गया लगता है तो `SECURITY.md` में दिए गए security contact का उपयोग करें। disclosure channels के लिए [Zcash Ecosystem Security](/zcash-community/zcash-ecosystem-security) पेज देखें।
-6. **artifact को सुरक्षित रखें।** छेड़छाड़ किया गया binary एक सबूत है। रिपोर्ट करने से पहले इसे delete न करें।
+1. **बाइनरी न चलाएँ।** उसे एक्सट्रैक्ट न करें और उस पर `chmod +x` न चलाएँ।
+2. **आधिकारिक रिलीज़ पेज से फिर से कोशिश करें।** ज़्यादातर विफलताएँ अधूरे डाउनलोड की वजह से होती हैं।
+3. **दूसरी बार भी विफल हो, तो नेटवर्क बदलें।** किसी दूसरे कनेक्शन या VPN का उपयोग करें। जो विफलता हर नेटवर्क पर होती है, वह उस विफलता से अलग है जो केवल एक नेटवर्क पर होती है।
+4. **पक्का करें कि आपके पास सही वर्ज़न की सही चेकसम फ़ाइल है।** v6.3.0 की तुलना v6.2.3 के चेकसम से करेंगे, तो विफलता आना ही सही परिणाम है।
+5. **फिर भी विफल हो, तो इसकी रिपोर्ट करें।** प्रोजेक्ट की रिपॉज़िटरी में एक issue खोलें। अगर आपको जानबूझकर की गई छेड़छाड़ का शक हो, तो `SECURITY.md` में दिए गए सुरक्षा संपर्क का उपयोग करें। डिस्क्लोज़र चैनलों के लिए [Zcash इकोसिस्टम सुरक्षा](/zcash-community/zcash-ecosystem-security) पेज देखें।
+6. **आर्टिफ़ैक्ट को संभालकर रखें।** छेड़छाड़ की गई बाइनरी सबूत है। रिपोर्ट करने से पहले उसे न हटाएँ।
 
-signature failure, checksum failure से अधिक गंभीर है। checksum mismatch आमतौर पर corruption होता है; valid-file-but-bad-signature ऐसी चीज़ नहीं है जो दुर्घटनावश होती हो।
+सिग्नेचर का विफल होना चेकसम के विफल होने से ज़्यादा गंभीर है। चेकसम का बेमेल होना आम तौर पर फ़ाइल खराब होने की वजह से होता है। लेकिन फ़ाइल सही हो और सिग्नेचर गलत, ऐसा गलती से नहीं होता।
 
 ---
 
-## भाग 4 — संदर्भ तालिका
+## भाग 4: संदर्भ तालिका
 
-| Project | Releases published at | Method | key कहाँ से आती है |
+| प्रोजेक्ट | रिलीज़ कहाँ प्रकाशित होती हैं | तरीका | की कहाँ से आती है |
 |---|---|---|---|
-| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | कोई key नहीं — GitHub OIDC के माध्यम से CI identity |
-| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc` — primary `0338 34DD…58E2 6AB1`, signing subkey `1FE9 9324…23F0 617F` |
-| **zcashd** | *retired* | — | 2026-07-18 को block 3,417,100 पर halted। install न करें। |
-| **Zodl** (formerly Zashi) | App Store / Google Play; GitHub पर `zodl-inc` | Store signing; standalone Android binaries GPG-signed | transition statement के अनुसार ZODL key |
+| **Zebra** | `github.com/ZcashFoundation/zebra/releases` | `SHA256SUMS` + Sigstore bundle | कोई की नहीं, GitHub OIDC के ज़रिए CI पहचान |
+| **Zallet** | `github.com/zcash/zallet/releases` | Detached GPG `.asc`, SLSA provenance, SBOM | `apt.z.cash/zodl.asc`: प्राइमरी `0338 34DD…58E2 6AB1`, साइनिंग सबकी `1FE9 9324…23F0 617F` |
+| **zcashd** | *बंद* | — | 2026-07-18 को ब्लॉक 3,417,100 पर रोक दिया गया। इंस्टॉल न करें। |
+| **Zodl** (पहले Zashi) | App Store / Google Play; GitHub पर `zodl-inc` | Store signing; standalone Android binaries GPG-signed | ट्रांज़िशन स्टेटमेंट के अनुसार ZODL की |
 
-> **नामकरण पर टिप्पणी:** Zashi को 2026 में **Zodl** के रूप में rebrand किया गया — पहले App Store पर, फिर Google Play पर। पुराने guides जो "Zashi" का उल्लेख करते हैं, वही wallet lineage बताते हैं।
+> **नाम पर नोट:** 2026 में Zashi का नया नाम **Zodl** रखा गया। यह बदलाव पहले App Store पर और फिर Google Play पर हुआ। “Zashi” का उल्लेख करने वाले पुराने गाइड उसी वॉलेट श्रृंखला के बारे में हैं।
 
 ---
 
-## भाग 5 — Mobile और hardware wallets
+## भाग 5: मोबाइल और हार्डवेयर वॉलेट
 
-जैसे ही आप direct downloads से बाहर जाते हैं, सत्यापन अलग तरह से काम करता है।
+सीधे डाउनलोड के अलावा दूसरे तरीकों में सत्यापन अलग तरह से काम करता है।
 
-**App stores.** आप स्वयं signature जाँच नहीं सकते। store package पर sign करता है और आप store की review प्रक्रिया तथा developer account की integrity पर भरोसा कर रहे होते हैं। जो आप *सत्यापित* कर सकते हैं, वह यह है कि आपके पास सही app है: publisher name और package identifier को project की official site से confirm करें, search results से नहीं। impersonation apps आम हैं, और किसी store listing का होना authenticity का प्रमाण नहीं है।
+**ऐप स्टोर।** आप खुद सिग्नेचर की जाँच नहीं कर सकते। पैकेज को स्टोर साइन करता है, और आप स्टोर की समीक्षा और डेवलपर (developer) अकाउंट की विश्वसनीयता पर भरोसा करते हैं। आप यह *ज़रूर* सत्यापित कर सकते हैं कि आपके पास सही ऐप है। पब्लिशर का नाम और पैकेज आइडेंटिफ़ायर प्रोजेक्ट की आधिकारिक साइट से मिलाएँ, सर्च रिज़ल्ट से नहीं। नकली ऐप आम हैं, और स्टोर पर ऐप का दिखना उसके असली होने का सबूत नहीं है।
 
-**Standalone Android APKs.** इनका सत्यापन *किया जा सकता है*। ZODL GitHub Releases के माध्यम से GPG-signed standalone Android binaries प्रकाशित करता है, इसलिए भाग 2 वाला workflow लागू होता है। यदि आप एक जाँच योग्य chain चाहते हैं, तो इस path को प्राथमिकता दें।
+**स्टैंडअलोन Android APK।** इन्हें सत्यापित *किया जा सकता* है। ZODL GitHub Releases के ज़रिए GPG से साइन की गई स्टैंडअलोन Android बाइनरी प्रकाशित करता है, इसलिए भाग 2 वाला वर्कफ़्लो इन पर लागू होता है। अगर आप जाँचने योग्य भरोसे की श्रृंखला चाहते हैं, तो यही तरीका अपनाएँ।
 
-**Hardware wallets.** device अपने firmware की स्वयं attestation करता है, इसलिए trust anchor आपके machine पर मौजूद फ़ाइल नहीं बल्कि hardware होता है। device-verification flow के लिए [Keystone Zashi](/guides/keystone-zashi) देखें। निर्माता से सीधे खरीदें — supply-chain tampering factory और buyer के बीच होती है।
+**हार्डवेयर वॉलेट (hardware wallet)।** डिवाइस खुद अपने फ़र्मवेयर को प्रमाणित करता है, इसलिए भरोसे का आधार हार्डवेयर है, आपकी मशीन पर रखी कोई फ़ाइल नहीं। डिवाइस सत्यापन की प्रक्रिया के लिए [Keystone Zashi](/guides/keystone-zashi) देखें। डिवाइस सीधे निर्माता से खरीदें, क्योंकि सप्लाई चेन में छेड़छाड़ फ़ैक्टरी और खरीदार के बीच होती है।
 
 ---
 
 ## आगे पढ़ें
 
-- [Zcash Ecosystem Security](/zcash-community/zcash-ecosystem-security) — disclosure policy और security contacts
-- [Zebra पूर्ण नोड](/zcash-tech/zebra-full-node) — सत्यापन के बाद Zebra install करना
-- [Zallet त्वरित संदर्भ मार्गदर्शिका](/using-zcash/zallet-quick-reference-guide) — Zallet का उपयोग
-- [Sigstore documentation](https://docs.sigstore.dev/)
-- [SLSA provenance levels](https://slsa.dev/)
+- [Zcash इकोसिस्टम सुरक्षा](/zcash-community/zcash-ecosystem-security): डिस्क्लोज़र नीति और सुरक्षा संपर्क
+- [Zebra फुल नोड](/zcash-tech/zebra-full-node): सत्यापन के बाद Zebra इंस्टॉल करना
+- [Zallet त्वरित संदर्भ गाइड](/using-zcash/zallet-quick-reference-guide): Zallet का उपयोग
+- [Sigstore दस्तावेज़ीकरण](https://docs.sigstore.dev/)
+- [SLSA प्रोवेनेंस स्तर](https://slsa.dev/)
 
 ---
 
-*इस पेज के commands Zebra `v6.3.0` और Zallet `v0.1.0-beta.2` के विरुद्ध 2026-08-18 को चलाए गए थे। release tooling बदलती रहती है: यदि output यहाँ दिखाए गए से अलग हो, तो अपने स्वयं के run पर भरोसा करें और कृपया एक PR खोलें।*
+*इस पेज की कमांड 2026-08-18 को Zebra `v6.3.0` और Zallet `v0.1.0-beta.2` पर चलाई गई थीं। रिलीज़ टूल बदलते रहते हैं। अगर आपका आउटपुट यहाँ दिखाए गए आउटपुट से अलग है, तो अपने परिणाम पर भरोसा करें और कृपया एक PR खोलें।*

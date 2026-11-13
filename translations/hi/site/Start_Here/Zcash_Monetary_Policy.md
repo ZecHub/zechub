@@ -1,15 +1,15 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash की मूल बातें
+# Zcash की बुनियादी बातें
 
-## Zcash की अर्थव्यवस्था क्या है?
+## Zcash का अर्थशास्त्र क्या है?
 
-Zcash का मौद्रिक आधार Bitcoin की 21 मिलियन ZEC मुद्रा इकाइयों की निश्चित आपूर्ति के समान है। हर 75 सेकंड में, Zcash ब्लॉकचेन पर एक नया [ब्लॉक](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) माइन किया जाता है और 1.5625 ZEC का ब्लॉक रिवॉर्ड प्रचलन में आता है। यह ब्लॉक रिवॉर्ड माइनरों और [Zcash विकास निधि](https://zips.z.cash/zip-1014) के बीच वितरित किया जाता है।
+Zcash का मौद्रिक आधार Bitcoin की तरह ही 21 मिलियन ZEC मुद्रा इकाइयों की निश्चित आपूर्ति है। हर 75 सेकंड में Zcash ब्लॉकचेन (blockchain) पर एक नए [ब्लॉक](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) की माइनिंग (mining) होती है और 1.5625 ZEC का ब्लॉक रिवॉर्ड (block reward) प्रचलन में आता है। यह ब्लॉक रिवॉर्ड माइनर (miner) और [Zcash डेवलपमेंट फ़ंड](https://zips.z.cash/zip-1014) के बीच बाँटा जाता है।
 
-block reward की मात्रा लगभग हर चार वर्ष में आधी हो जाती है, जब तक कि पूरे 21 मिलियन ZEC प्रचलन में नहीं आ जाते। Zcash की मुद्रास्फीति लगभग बिल्कुल Bitcoin की तरह चलती है। यह ध्यान देना महत्वपूर्ण है कि जैसे-जैसे नए coins बनाए जाते हैं, मुद्रास्फीति कम होती जाती है, और हर halvening पर इसकी दर में महत्वपूर्ण गिरावट आती है।
+ब्लॉक रिवॉर्ड की राशि लगभग हर चार साल में आधी हो जाती है, जब तक कि सभी 21 मिलियन ZEC प्रचलन में न आ जाएँ। Zcash की मुद्रास्फीति लगभग पूरी तरह से Bitcoin की मुद्रास्फीति जैसी ही है। यह ध्यान देना महत्वपूर्ण है कि जैसे-जैसे नए कॉइन बनते हैं, मुद्रास्फीति घटती जाती है, और हर हॉल्विंग (halvening) पर यह दर काफ़ी कम हो जाती है।
 
 ## संसाधन
 
-[Zcash की अर्थव्यवस्था क्या है?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Zcash का अर्थशास्त्र क्या है?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)

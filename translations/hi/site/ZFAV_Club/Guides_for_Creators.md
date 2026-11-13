@@ -4,7 +4,7 @@
 
 ![](/content-images/image-2023-11-18-152209271-6bea8ac30e.webp)
 
-# निर्माताओं के लिए मार्गदर्शन
+# क्रिएटर के लिए गाइड
 
 <a href="/ZFAV-Club/Guides-for-Creators/AI_tools">
     <img src="/content-images/aitools-e218ab1d0f.webp" alt="" width="400" height="200"/>

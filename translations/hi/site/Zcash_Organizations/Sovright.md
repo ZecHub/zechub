@@ -1,40 +1,40 @@
 # Sovright
 ![Sovright](/content-images/sovright-16a27c0d24.webp)
 
-**Sovright** एक अमेरिकी 501(c3) गैर-लाभकारी संस्था है, जो मानव स्वायत्तता के समर्थन के लिए समर्पित है। Zcash अवसंरचना, mining, protocol development, और ecosystem support पर प्रारंभिक ध्यान के साथ, यह परियोजना ऐसे tools और services बनाती है जिनका उद्देश्य private digital currency infrastructure को मजबूत करना और Zcash network की दीर्घकालिक resilience का समर्थन करना है।
+**Sovright** अमेरिका की एक 501(c3) गैर-लाभकारी संस्था है, जो मानव स्वायत्तता के समर्थन के लिए समर्पित है। Zcash इंफ्रास्ट्रक्चर, माइनिंग (mining), प्रोटोकॉल विकास और इकोसिस्टम सहायता पर ध्यान केंद्रित करते हुए, यह परियोजना ऐसे उपकरण (tools) और सेवाएँ बनाती है जिनका उद्देश्य निजी डिजिटल मुद्रा के इंफ्रास्ट्रक्चर को मज़बूत करना और Zcash नेटवर्क की दीर्घकालिक मज़बूती का समर्थन करना है।
 
-Sovright को पहले **Bootstrap** के नाम से जाना जाता था। मूल नाम संस्था के उस शुरुआती लक्ष्य को दर्शाता था, जिसमें शून्य से एक Zcash infrastructure company खड़ी करना शामिल था।
+Sovright को पहले **Bootstrap** के नाम से जाना जाता था। मूल नाम संगठन के उस शुरुआती लक्ष्य को दर्शाता था, जिसमें एक Zcash इंफ्रास्ट्रक्चर कंपनी को शून्य से खड़ा करना था।
 
-[साइट देखें](https://sovright.com/)
+[साइट पर जाएँ](https://sovright.com/)
 
 ## नाम
 
-**Sovright** नाम, **sovereign** और **right** का एक संयुक्त रूप है। यह संस्था के व्यक्तिगत sovereignty, privacy, और इस अधिकार पर केंद्रित दृष्टिकोण को दर्शाता है कि personal data, money, communications, compute, और online activity को कैसे नियंत्रित किया जाए, इसका चयन व्यक्ति स्वयं कर सके।
+**Sovright** नाम **sovereign** (संप्रभु) और **right** (अधिकार) शब्दों से मिलकर बना है। यह संगठन के व्यक्तिगत संप्रभुता, गोपनीयता (privacy) और इस अधिकार पर ध्यान को दर्शाता है कि व्यक्तिगत डेटा, धन, संचार, कंप्यूट और ऑनलाइन गतिविधियों पर नियंत्रण कैसे रखा जाए, यह चुनने का अधिकार व्यक्ति के पास हो।
 
-Sovright का कार्य Zcash से शुरू हुआ, जो एक privacy-preserving cryptocurrency है और shielded transactions का समर्थन करने के लिए zero-knowledge cryptography का उपयोग करती है। समय के साथ, संस्था का ध्यान private money से आगे बढ़कर व्यापक infrastructure चिंताओं तक फैल गया, जिनमें secure communications, resilient networks, private compute, और secure AI interactions शामिल हैं।
+Sovright का काम Zcash से शुरू हुआ, जो एक गोपनीयता-संरक्षक क्रिप्टोकरेंसी है और शील्डेड (shielded) लेनदेन (transactions) के समर्थन के लिए ज़ीरो-नॉलेज (zero-knowledge) क्रिप्टोग्राफ़ी का उपयोग करती है। समय के साथ, संगठन का ध्यान निजी धन से आगे बढ़कर व्यापक इंफ्रास्ट्रक्चर से जुड़े विषयों तक फैल गया, जिनमें सुरक्षित संचार, मज़बूत नेटवर्क, निजी कंप्यूट और सुरक्षित AI इंटरैक्शन शामिल हैं।
 
-## Mining Pool
+## माइनिंग पूल
 
-Sovright एक Zcash mining pool संचालित करता है, यहाँ:
+Sovright एक Zcash माइनिंग पूल (pool) संचालित करता है:
 
 [mining.sovright.com](https://mining.sovright.com/)
 
-Sovright Mining Pool को miner sovereignty का समर्थन करने और mining pool concentration को कम करने के लिए डिज़ाइन किया गया है। Proof-of-work networks में mining pool concentration एक बार-बार उभरने वाली चिंता है, क्योंकि कुछ ही pools अंततः network hashrate के बड़े हिस्से को नियंत्रित करने लगते हैं। इससे decentralization कमजोर हो सकती है और बड़े pool operators के व्यवहार पर निर्भरता बढ़ सकती है।
+Sovright माइनिंग पूल को माइनर (miner) संप्रभुता का समर्थन करने और माइनिंग पूल के केंद्रीकरण को कम करने के लिए बनाया गया है। प्रूफ-ऑफ-वर्क (proof-of-work) नेटवर्क में माइनिंग पूल का केंद्रीकरण एक बार-बार उठने वाली चिंता है, क्योंकि कुछ ही पूल नेटवर्क हैशरेट के बड़े हिस्से पर नियंत्रण कर सकते हैं। इससे डिसेंट्रलाइज़ेशन (decentralization) कमज़ोर हो सकता है और प्रमुख पूल संचालकों के व्यवहार पर निर्भरता बढ़ सकती है।
 
-Sovright Mining Pool solo miners, छोटे operators, और अन्य प्रतिभागियों के लिए है, जो अधिक decentralized Zcash mining ecosystem का समर्थन करना चाहते हैं। यह pool transparent payout logic, auditability, और न्यूनतम operational fees पर जोर देता है।
+Sovright माइनिंग पूल सोलो माइनर, छोटे संचालकों और ऐसे अन्य प्रतिभागियों के लिए है जो एक अधिक डिसेंट्रलाइज़्ड (decentralized) Zcash माइनिंग इकोसिस्टम का समर्थन करना चाहते हैं। यह पूल ट्रांसपेरेंट (transparent) भुगतान (payout) तर्क, ऑडिट-योग्यता और न्यूनतम परिचालन शुल्क (fees) पर ज़ोर देता है।
 
-वर्तमान testnet version payouts प्रदान नहीं करता है और केवल testing के लिए है।
+वर्तमान टेस्टनेट संस्करण कोई भुगतान नहीं करता और केवल परीक्षण के लिए है।
 
 ## (जल्द आ रहा है)
 
-### Network Resilience
+### नेटवर्क की मज़बूती
 
-Network resilience उस infrastructure की reliability और robustness को संदर्भित करता है, जो Zcash transactions को वहन करता है। Private transactions केवल cryptography पर ही निर्भर नहीं करतीं, बल्कि उनके नीचे मौजूद network infrastructure की availability और reliability पर भी निर्भर करती हैं।
+नेटवर्क की मज़बूती का अर्थ उस इंफ्रास्ट्रक्चर की विश्वसनीयता और सुदृढ़ता से है जो Zcash लेनदेन को आगे पहुँचाता है। निजी लेनदेन केवल क्रिप्टोग्राफ़ी पर ही नहीं, बल्कि उनके नीचे मौजूद नेटवर्क इंफ्रास्ट्रक्चर की उपलब्धता और विश्वसनीयता पर भी निर्भर करते हैं।
 
-Sovright, Zcash की व्यावहारिक security और usability को बनाए रखने के लिए network resilience को कार्य का एक आधारभूत क्षेत्र मानता है।
+Sovright नेटवर्क की मज़बूती को Zcash की व्यावहारिक सुरक्षा और उपयोगिता बनाए रखने के लिए काम का एक बुनियादी क्षेत्र मानता है।
 
-### Financial Sovereignty
+### वित्तीय संप्रभुता
 
-Financial sovereignty उस क्षमता को संदर्भित करती है, जिसमें व्यक्ति intermediaries की अनुमति पर निर्भर हुए बिना अपने funds को नियंत्रित और access कर सके। Zcash के संदर्भ में, इसमें private payments, self-custody, और ऐसी infrastructure शामिल है जो users को अपनी शर्तों पर transact करने की अनुमति देती है।
+वित्तीय संप्रभुता का अर्थ है व्यक्तियों की वह क्षमता जिससे वे बिचौलियों की अनुमति पर निर्भर हुए बिना अपने धन को नियंत्रित और उपयोग कर सकें। Zcash के संदर्भ में, इसमें निजी भुगतान (payments), स्व-अभिरक्षा (self-custody) और ऐसा इंफ्रास्ट्रक्चर शामिल है जो उपयोगकर्ताओं को अपनी शर्तों पर लेनदेन करने देता है।
 
-Sovright financial access और user-controlled money को व्यक्तिगत sovereignty के मुख्य घटक मानता है।
+Sovright वित्तीय पहुँच और उपयोगकर्ता-नियंत्रित धन को व्यक्तिगत संप्रभुता के मुख्य घटक मानता है।
