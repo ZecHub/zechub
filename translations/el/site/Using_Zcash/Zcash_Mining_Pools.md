@@ -10,19 +10,6 @@
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Λογότυπο Slush Pool (Braiins Pool)" width="200" height="100"/>
-</a>
-
-- Ιστότοπος: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Ιδιωτικές πληρωμές: ΝΑΙ
-- Τύπος pool: Πληρωμή ανά μερίδιο
-- Τέλη pool: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@
 - Ιδιωτικές πληρωμές: ΝΑΙ
 - Τύπος pool: Πληρωμή ανά μερίδιο
 - Τέλη pool: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Ιστότοπος: [Flypool](https://zcash.flypool.org/)
-- Ιδιωτικές πληρωμές: ΝΑΙ
-- Τύπος pool: Πληρωμή ανά τελευταίες N 
-- Τέλη pool: 1%
 
 ---
 
@@ -163,3 +137,11 @@
 - Ιδιωτικές πληρωμές: ΝΑΙ
 - Τύπος pool: Πληρωμή ανά τελευταίες N μερίδια (PPLNS)
 - Τέλη pool: 1%
+
+---
+
+## Πρώην pools Zcash
+
+### Slush Pool (Braiins Pool)
+
+Το Braiins Pool δεν είναι προς το παρόν επιλογή για εξόρυξη Zcash. Οι [επίσημες συχνές ερωτήσεις του pool](https://academy.braiins.com/braiins-pool/faqs/pool) αναφέρουν το Bitcoin ως το υποστηριζόμενο νόμισμα και ότι δεν σχεδιάζει να υποστηρίξει altcoins (έλεγχος στις 12 Νοεμβρίου 2026).

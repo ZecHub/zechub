@@ -10,19 +10,6 @@
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- الموقع الإلكتروني: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- المدفوعات الخاصة: نعم
-- نوع المجمع: الدفع لكل حصة
-- رسوم المجمع: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@
 - المدفوعات الخاصة: نعم
 - نوع المجمع: الدفع لكل حصة
 - رسوم المجمع: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- الموقع الإلكتروني: [Flypool](https://zcash.flypool.org/)
-- المدفوعات الخاصة: نعم
-- نوع المجمع: الدفع لكل آخر N
-- رسوم المجمع: 1%
 
 ---
 
@@ -163,3 +137,11 @@
 - المدفوعات الخاصة: نعم
 - نوع المجمع: الدفع لكل آخر N من الحصص (PPLNS)
 - رسوم المجمع: 1%
+
+---
+
+## مجمعات Zcash السابقة
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool ليس حاليًا خيارًا متاحًا لتعدين Zcash. إذ تذكر [الأسئلة الشائعة الرسمية للمجمع](https://academy.braiins.com/braiins-pool/faqs/pool) أن Bitcoin هي العملة المدعومة، وأنه لا توجد خطط لدعم العملات البديلة (تم التحقق في 12 نوفمبر 2026).

@@ -50,6 +50,11 @@ Akzeptiere shielded ZEC als 501(c)(3) und stelle Spendern dennoch die benötigte
 ###  [Wo du spenden kannst ZEC](/zcash-use-cases/where-to-donate-zec)
 Finde gemeinnützige Organisationen, die ZEC akzeptieren, und erfahre, welche von ihnen shielded Spenden annehmen
 
+###  [Eine ZEC-Spendenkampagne durchführen](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Sammle ZEC für ein Ziel, zeige Fortschritte, denen Spender vertrauen können, und halte jede Spende privat
+###  [ZEC spenden und in den USA steuerlich absetzen](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Spende ZEC privat und erhalte trotzdem die Unterlagen, die du für die steuerliche Absetzung brauchst
+
 ###  [Datenschutz-Setup für Journalisten](/zcash-use-cases/journalist-privacy-setup)   
 Nutze für alle Transaktionen shielded addresses und schütze Quellen, indem du nachverfolgbare Zahlungen vermeidest. Verwende Memos sorgfältig für eine sichere Kommunikation
 
