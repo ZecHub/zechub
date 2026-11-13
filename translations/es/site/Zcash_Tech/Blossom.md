@@ -12,6 +12,18 @@ Blossom es una Zcash [actualización de red network upgrade](../start-here/netwo
 
 Por qué esto importa. Cuando envías ZEC, esperas a que la red la confirme en un bloque. Si los bloques son lentos, esperas más. Antes de Blossom, se esperaba un bloque nuevo aproximadamente cada 150 segundos. Blossom redujo ese objetivo a la mitad, a 75 segundos, por lo que las confirmaciones llegan antes y la cadena puede transportar más transacciones en el mismo tiempo. Lo hizo sin crear más ZEC ni modificar el momento de futuros halvings.
 
+## TL;DR
+
+- Blossom fue la tercera actualización de red [network upgrade] de Zcash. Se activó en el bloque 653.600 de la red principal (11 de diciembre de 2019 UTC), se desplegó mediante ZIP 206 y su cambio principal está en ZIP 208.
+- Redujo el espaciado objetivo de bloques de 150 segundos a 75 segundos. Los bloques llegan aproximadamente el doble de seguido, por lo que las primeras confirmaciones llegan antes y la capacidad de procesamiento casi se duplica.
+- Para mantener estable la emisión, redujo a la mitad la recompensa por bloque y duplicó el intervalo del halving de 840.000 a 1.680.000 bloques.
+- No cambiaron ni el total de ZEC creado por unidad de tiempo ni el momento real de los futuros halvings.
+- Fue un cambio bilateral obligatorio: todos los nodos tuvieron que actualizarse para permanecer en la red.
+
+## Analogía visual
+
+Blossom es como una red de autobuses que duplica sus salidas. Ahora los autobuses pasan cada 75 segundos en lugar de cada 150, así que esperas la mitad de tiempo (confirmaciones más rápidas) y la red transporta el doble de pasajeros (rendimiento [throughput]). Para que la nómina de los conductores siga siendo la misma, el pago por viaje de cada conductor se reduce a la mitad: el gasto total en salarios es el mismo, solo que se reparte entre el doble de viajes.
+
 ## Bloques más rápidos
 
 El cambio principal de Blossom es sencillo. El espaciado objetivo de bloques de Zcash, el tiempo que la red busca mantener entre un bloque y el siguiente, bajó de 150 segundos a 75 segundos ([ZIP 208](https://zips.z.cash/zip-0208)). Los bloques se encuentran mediante prueba de trabajo [proof of work], por lo que la separación real entre ellos varía, pero ahora la red aspira a un bloque aproximadamente cada 75 segundos en lugar de cada 150.
@@ -36,6 +48,14 @@ Blossom fue un cambio de consenso bilateral, lo que significa que cada nodo tuvo
 ## Dónde encaja Blossom
 
 Blossom fue la tercera actualización de red de Zcash. Siguió a Overwinter y Sapling, y llegó antes de Heartwood y Canopy. A diferencia de Sapling, que reformuló la criptografía blindada de Zcash, Blossom se centró en la escala y la velocidad. Su principal función era el tiempo de los bloques, no nuevas funciones de privacidad.
+
+## Errores comunes
+
+- **Creer que bloques más rápidos significaban más ZEC.** Reducir a la mitad la recompensa por bloque mientras se duplica la tasa de bloques mantiene la emisión exactamente igual por unidad de tiempo.
+- **Suponer que los halvings ocurren antes en tiempo real.** El intervalo de halving se duplicó de 840.000 a 1.680.000 bloques, por lo que las fechas de halving en tiempo real no se movieron.
+- **Interpretar «75 segundos» como una garantía.** Es un objetivo de prueba de trabajo; la separación real entre bloques varía en torno a él.
+- **Tratar Blossom como una mejora de privacidad.** Su función era la temporización de los bloques y la escalabilidad; a diferencia de Sapling, no cambió ninguna criptografía.
+- **Pensar que los operadores de nodos podían omitirla.** Blossom fue un cambio de consenso bilateral; un nodo no actualizado se separa de la red mediante una bifurcación.
 
 ## Glosario
 
@@ -95,5 +115,12 @@ Porque Blossom también redujo a la mitad la recompensa pagada por bloque y dupl
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Páginas relacionadas
+
+- [Sapling](./Sapling.md): la actualización anterior (criptografía, no calendario)
+- [Heartwood](./Heartwood.md): la siguiente actualización de la serie
+- [Nodos completos](./Full_Nodes.md): lo que implica mantener un nodo en funcionamiento durante las actualizaciones obligatorias
+- [Índice de actualizaciones de red](../start-here/network-upgrades): la cronología completa de las actualizaciones
 
 Serie: [Índice de actualizaciones de red](../start-here/network-upgrades) · Anterior: [Sapling](../zcash-tech/sapling) · Siguiente: [Heartwood](../zcash-tech/heartwood)

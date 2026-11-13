@@ -1,69 +1,93 @@
-# Mobile Top-up Iji Zcash
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Mobile_Top_Ups.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-N'ime ntuziaka a, ị ga-amụta otu esi eji ZEC zụta oge ekwentị [airtime].
+# Mobile Top Ups site na Zcash
 
-## Soro usoro ndị a:
+> Jiri ZEC tinye ego n'ekwentị prepaid, ma ị mepụtara akaụntụ ma ọ bụ na ị meghị.
 
-### 1. Mepụta akaụntụ [account]
+## Nchịkọta dị mkpirikpi (TL;DR)
+
+* I nwere ike iji ZEC zụta airtime ekwentị prepaid n'ụlọ ahịa gift-card dị n'ịntanetị dịka Coinsbee na CardsRelay.
+* Coinsbee chọrọ akaụntụ. CardsRelay chọrọ naanị adreesị email maka nkwenye.
+* Ha abụọ na-egosi gị ọnụọgụ ZEC kpọmkwem na Adreesị akpa ego (address) maka Kwụọ ụhwọ (payment) mgbe ị na-akwụ ụgwọ. Zipu kpọmkwem ọnụọgụ ahụ tupu akwụkwọ ụgwọ (invoice) ahụ agwụ.
+* Memo (ozi dị mkpirikpi e tinyere na azụmahịa) na-eru naanị Adreesị akpa ego nke e chebere echebe (shielded). Ọ bụrụ na Adreesị akpa ego maka Kwụọ ụhwọ bụ Oha (transparent), a gaghị ebuga memo, ya mere debe ID ịtụ order gị maka arịrịọ nkwụghachi ọ bụla.
+* Ntinye ego (top up) na-arụkarị ọrụ naanị maka nọmba prepaid. Lelee nọmba ahụ na netwọkụ ahụ tupu ị kwụọ ụgwọ.
+
+## Nkọwa Isi
+
+Ntinye ego ekwentị na-agbakwunye airtime ma ọ bụ kredit data na nọmba ekwentị prepaid. Ọtụtụ ụlọ ahịa na-ere gift card maka crypto na-erekwa Ntinye ego maka ọtụtụ narị netwọkụ ekwentị gburugburu ụwa, ụfọdụ n'ime ha na-anabata ZEC.
+
+Usoro ahụ bụ otu ebe niile: họrọ mba na netwọkụ, tinye nọmba ekwentị na ọnụọgụ, kwụọ akwụkwọ ụgwọ ahụ na ZEC, ma chere ka kredit ahụ bịa. N'okpuru ebe a bụ nhọrọ abụọ: Coinsbee (achọrọ akaụntụ) na CardsRelay (enweghị akaụntụ).
+
+## Nhọrọ 1: Coinsbee (achọrọ akaụntụ)
+
+### 1. Mepụta akaụntụ
 Gaa na [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) ma mepụta akaụntụ.
 
-### 2. Họrọ mba [country] na netwọk [network] gị
-Pịgharịa gaa n'akụkụ aka ekpe nke elu ma họrọ mba gị; mesịa họrọ kredit ekwentị mkpanaaka ma họrọ netwọk ịchọrọ itinye ego na ya (ọmụmaatụ: MTN).
+### 2. Họrọ mba gị na netwọkụ gị
+Họrọ mba gị n'akụkụ aka ekpe dị n'elu, họrọ kredit ekwentị, ma họrọ netwọkụ ị chọrọ itinye ego na ya (dịka ọmụmaatụ, MTN).
 
 ![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. Dejupụta nkọwa ma zụta
-Dejupụta nkọwa ziri ezi ma pịa bọtịnụ …Zụta Ugbu a…. Mepee ụgbọ ịzụ ahịa iji hụ iwu gị, pịa gaa n'ihu, ma kwado ịzụta ahụ site na $ZEC.
+Tinye nọmba ekwentị na ọnụọgụ, wee pịa "Buy Now". Mepee ụgbọ ịzụ ahịa (cart) ka ị hụ order gị, pịa continue, ma họrọ ZEC dịka ụzọ Kwụọ ụhwọ.
 
 ![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
-### 4. Nkọwa Kwụọ ụgwọ [payment]
-A ga-enye ego hà na $ZEC, tinyere Adreesị akpa ego Oha ebe a ga-eziga ego ahụ.
+### 4. Nkọwa Kwụọ ụhwọ
+Akwụkwọ ụgwọ ahụ na-egosi ọnụọgụ na ZEC na Adreesị akpa ego ebe a ga-ezipu ego ahụ. N'ọmụmaatụ dị n'okpuru, Adreesị akpa ego ahụ bụ Oha.
 
 ![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Zipu Kwụọ ụhwọ
-Detuo ma mado ego na Adreesị akpa ego ahụ nke ọma. N'ọhịa memo, tinye Adreesị akpa ego nke e chebere echebe gị ma ọ bụrụ na a ga-eweghachi ego.
+Detuo ọnụọgụ na Adreesị akpa ego ahụ nke ọma ma zipu ọnụọgụ zuru ezu tupu oge ngụgharị akwụkwọ ụgwọ ahụ agwụ. A gaghị emezu akwụkwọ ụgwọ a kwụghị ụgwọ zuru ezu ma ọ bụ nke gwụrụ agwụ.
+
+Atụkwasịla obi na mpaghara memo maka nkwụghachi: a na-ebuga memo naanị na Adreesị akpa ego nke e chebere echebe, Kwụọ ụhwọ e zitere na Adreesị akpa ego Oha anaghị ebu memo. Kama nke ahụ, debe ID order gị. Onye na-enye ọrụ Kwụọ ụhwọ na-ahụ maka akwụkwọ ụgwọ Coinsbee, [ebe enyemaka](https://help.coinsbee.com/en/support/home/) ya na-akọwa otu esi arịọ nkwụghachi n'aka onye na-enye ọrụ ahụ ma ọ bụrụ na a kwụghị order ụgwọ zuru ezu ma ọ bụ na ọ gwụrụ agwụ.
 
 ![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. Nhazi
-Ozugbo ezigara ego ahụ, a ga-ahazi arịrịọ gị n'ime nkeji ole na ole.
+Ozugbo e kwenyesiri Kwụọ ụhwọ ahụ, a na-ahazikarị order ahụ n'ime nkeji ole na ole.
 
 ![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Nkwenye
-Ndewo… Etinyela ego n'ahịrị m! Ị nwekwara ike ikwenye email gị n'oge usoro Kwụọ ụhwọ ka e wee gwa gị site na email ozugbo Azụmahia [transaction] ahụ gwụchara.
+Kredit ahụ na-abata n'ahịrị ekwentị ahụ. Ọ bụrụ na i kwenyesie email gị mgbe ị na-akwụ ụgwọ, ị ga-anatakwa email ozugbo order ahụ zuru oke.
 
 ![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
-## Ịzụta Ntinye ego na-enweghị akaụntụ
+## Nhọrọ 2: CardsRelay (enweghị akaụntụ)
 
-Usoro dị n'elu chọrọ ka e mepụta akaụntụ Coinsbee. Ọ bụrụ na ị chọghị ime nke ahụ, CardsRelay na-ere Ntinye ego ekwentị mkpanaaka maka ZEC na-enweghị ndebanye aha.
+Ọ bụrụ na ị chọghị imepụta akaụntụ, CardsRelay na-ere Ntinye ego ekwentị maka ZEC na-enweghị ndebanye aha.
 
-### 1. Họrọ mba na onye na-arụ ọrụ
-Gaa na [CardsRelay](https://cardsrelay.com) ma mepee ngalaba Mobile Top Ups. A na-akwado ihe karịrị ndị na-arụ ọrụ 750 n'ụwa niile.
+### 1. Họrọ mba gị na onye na-arụ netwọkụ gị
+Gaa na [CardsRelay](https://cardsrelay.com) ma mepee ngalaba Mobile Top Ups. A na-akwado ihe karịrị ndị na-arụ netwọkụ 750 n'ụwa niile.
 
-### 2. Tinye nọmba na ego
-Dejupụta nọmba ekwentị mkpanaaka a ga-etinye ego na ya ma họrọ uru Ntinye ego ahụ. Ọnụahịa e gosiri bụ otu mkpokọta zuru ezu, na-enweghị mgbakwunye mgbanwe ọnụego exchange n'ụzọ dị iche n'ikpeazụ.
+### 2. Tinye nọmba na ọnụọgụ
+Dejupụta nọmba ekwentị a ga-etinye kredit na ya ma họrọ uru Ntinye ego ahụ. Ọnụahịa e gosiri bụ otu ngụkọta zuru oke, na-enweghị mgbakwunye ọnụego exchange dị iche a ga-agbakwunye emesịa.
 
 ### 3. Tinye email gị
-A chọrọ Adreesị email ka e wee nwee ike izipu nkwenye ahụ, a na-enyochakwa ya tupu etinye iwu ahụ. E nweghị akaụntụ a na-emepụta, a naghị arịọkwa akwụkwọ njirimara.
+Achọrọ adreesị email ka e wee nwee ike izipu nkwenye ahụ, a na-enyochakwa ya tupu etinye order ahụ. A naghị emepụta akaụntụ, a naghị arịọkwa akwụkwọ njirimara ọ bụla.
 
-### 4. Kwụọ ụhwọ site na ZEC
-Họrọ Zcash mgbe ị na-akwụ ụgwọ. A na-anabata ZEC ozugbo kama ka ndị ọzọ gbanwee ya. A na-egosi Adreesị akpa ego Kwụọ ụhwọ na ego kpọmkwem.
+### 4. Jiri ZEC kwụọ ụgwọ
+Họrọ Zcash mgbe ị na-akwụ ụgwọ. A na-anabata ZEC ozugbo kama ka onye ọzọ gbanwee ya. A na-egosi Adreesị akpa ego maka Kwụọ ụhwọ na ọnụọgụ kpọmkwem.
 
 ### 5. Nkwenye
-A na-ahazi Ntinye ego ahụ, nkwenye eruteekwa site na email, na-adịkarị n'ime sekọnd ole na ole.
+A na-ahazi Ntinye ego ahụ, nkwenye na-abịakwa site na email, na-abụkarị n'ime sekọnd ole na ole.
 
-CardsRelay na-erekwa kaadị onyinye maka Akara ngosi [brand] ruru ihe dị ka 2,500, ma na-anabata Monero na Zano yana Zcash. Payzy ME FZ Ltd na-arụ ya.
-
----
+CardsRelay na-erekwa gift card maka ihe dịka Akara ngosi (brand) 2,500, ma na-anabata Monero na Zano tinyere Zcash. Ọ bụ Payzy ME FZ Ltd na-arụ ya.
 
 ![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
-### Ebe Ndị Ọzọ Ị Ga-eji ZEC Kwụọ ụhwọ
+## Idozi Nsogbu
 
-N'oge na-adịbeghị anya, Zcash ahụla ọtụtụ mpaghara ngwa ọhụrụ, na-eme ka ọ baa uru karịa maka iji kwa ụbọchị. Ọtụtụ ụlọ ahịa n'ịntanetị na ndị ahịa na-anabata ZEC dịka usoro Kwụọ ụhwọ maka ngwongwo na ọrụ, ọkachasị ndị na-ebute Azụmahia ndị na-akwado Nzuzo [privacy] ụzọ.  
+* **Kredit ahụ abịaghị ma ọlị.** Ntinye ego na-arụkarị ọrụ naanị maka nọmba prepaid. Lelee nọmba ahụ maka mmejọ ndepụta, ma jide n'aka na ị họrọrọ netwọkụ ziri ezi (nọmba a kwagara n'oge na-adịbeghị anya nwere ike ka na-egosi nke ochie).
+* **E nyeghachiri ego order ahụ kama imezu ya.** Ụfọdụ netwọkụ na-egbochi ọnụ ọgụgụ Ntinye ego nọmba nwere ike ịnata kwa ụbọchị ma ọ bụ kwa ọnwa, netwọkụ na-enwekwa nkwụsịtụ mgbe ụfọdụ. Nwaa ọzọ emesịa ma ọ bụ kpọtụrụ ndị nkwado ụlọ ahịa ahụ.
+* **Akwụkwọ ụgwọ ahụ gwụrụ agwụ ma ọ bụ a kwụghị ya ụgwọ zuru ezu.** Ụlọ ahịa ahụ anaghị emezu order ahụ. Jiri ID order gị rịọ nkwụghachi site n'ebe enyemaka ụlọ ahịa ahụ.
 
-Ị nwere azụmahịa ma chọọ ịmalite ịnakwere Kwụọ ụhwọ ZEC? Site na [PayWithZash](https://paywithz.cash/), enwere ike itinye azụmahịa gị n'ime ndepụta azụmahịa ndị na-anabata ZEC maka ọrụ ha na-enye.
+## Ebe Ndị Ọzọ Ị Ga-eji ZEC
+
+Ọtụtụ ụlọ ahịa dị n'ịntanetị na ndị ahịa na-anabata ZEC maka ngwongwo na ọrụ, karịsịa ndị na-elekọta Kwụọ ụhwọ nzuzo.
+
+Ọ bụrụ na ị nwere azụmahịa ma chọọ ịnabata ZEC, [Kwụọ ụgwọ na Zcash](https://paywithz.cash/) nwere ike itinye azụmahịa gị na ndepụta ya nke ndị ahịa na-anabata ZEC.

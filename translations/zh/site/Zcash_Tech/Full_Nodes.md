@@ -102,7 +102,7 @@ DNS 种子节点通过内置服务器公开其他可靠节点的列表。这使�
 
 [Zcash 区块浏览器](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics 网络数据](https://docs.coinmetrics.io/network-data/network-data-overview) — 指标文档以及当前资产覆盖范围的链接。
 
 你也可以通过运行测试或提出新的改进建议并提供指标，为网络的发展做出贡献。
 

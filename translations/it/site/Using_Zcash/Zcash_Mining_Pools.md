@@ -10,19 +10,6 @@ Le pool di mining di Zcash sono servizi che consentono ai miner individuali di c
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Sito web: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Pagamenti privati: SÌ
-- Tipo di pool: Pay Per Share
-- Commissione della pool: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Le pool di mining di Zcash sono servizi che consentono ai miner individuali di c
 - Pagamenti privati: SÌ
 - Tipo di pool: Pay Per Share
 - Commissione della pool: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Sito web: [Flypool](https://zcash.flypool.org/)
-- Pagamenti privati: SÌ
-- Tipo di pool: Pay Per Last N 
-- Commissione della pool: 1%
 
 ---
 
@@ -163,3 +137,11 @@ Le pool di mining di Zcash sono servizi che consentono ai miner individuali di c
 - Pagamenti privati: SÌ
 - Tipo di pool: Pay Per Last N Shares (PPLNS)
 - Commissione della pool: 1%
+
+---
+
+## Ex pool di Zcash
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool non è attualmente un'opzione per il mining di Zcash. Le sue [FAQ ufficiali della pool](https://academy.braiins.com/braiins-pool/faqs/pool) indicano Bitcoin come unica moneta supportata e affermano che non ci sono piani per supportare le altcoin (verificato il 12 novembre 2026).

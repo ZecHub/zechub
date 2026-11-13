@@ -102,7 +102,7 @@ DNS-сидеры предоставляют список других надёж
 
 [Zcash Обозреватель блокчейна](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics данные сети](https://docs.coinmetrics.io/network-data/network-data-overview) — документация по метрикам и ссылки на текущее покрытие активов.
 
 Вы также можете внести вклад в развитие сети, запуская тесты, предлагая новые улучшения и предоставляя метрики.
 

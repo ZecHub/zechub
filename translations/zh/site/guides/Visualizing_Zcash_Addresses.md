@@ -5,8 +5,8 @@
 
 # 可视化 Zcash 地址 [address]
 
-如果你是第一次了解 Zcash，你会立即发现可能发生两类 [交易 transaction](https://zechub.wiki/using-zcash/transactions)：*透明 [transparent]* 和 *屏蔽 [shielded]*。
-此外，如果你一直关注 Zcash 生态系统的最新发展，你可能已经了解 [统一地址 Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/)，即 UA。
+如果你是第一次了解 Zcash，你会立即发现可能发生两类[交易（transaction）](https://zechub.wiki/using-zcash/transactions)：*透明 [transparent]* 和 *屏蔽 [shielded]*。
+此外，如果你一直关注 Zcash 生态系统的最新发展，你可能已经了解[统一地址（Unified Addresses）](https://zips.z.cash/zip-0316)，即 UA。
 当 Zcash 行业的人们谈论*屏蔽*交易时，他们指的是涉及为 Sapling 或 Orchard 协议编码的地址的交易。 
 UA 的设计旨在将*任何*类型的屏蔽或透明交易统一到单个地址中。这种泛化是简化未来 UX 的关键。本指南旨在通过具体的视觉示例补充对 UA 的理解。
 

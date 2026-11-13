@@ -7,7 +7,7 @@
 
 1. **Brave：**当今市场上最知名且最安全的浏览器之一。它会拦截侵犯隐私 [privacy] 的广告和追踪器。它会阻止第三方数据存储。
 
-2. **Mulvad：**一款注重隐私的网络浏览器，由 Mullvad VPN 与 Tor Project 合作开发。其设计旨在尽量减少追踪和指纹识别。
+2. **Mullvad：**一款注重隐私的网络浏览器，由 Mullvad VPN 与 Tor Project 合作开发。其设计旨在尽量减少追踪和指纹识别。
 
 3. **Tor：**该浏览器会拦截 Flash、RealPlayer、QuickTime 等插件：这些插件可能被操纵以泄露你的 IP 地址。我们不建议在 Tor Browser 中安装额外的附加组件或插件。
 

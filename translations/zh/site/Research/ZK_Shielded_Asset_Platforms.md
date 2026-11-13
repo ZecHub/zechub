@@ -95,5 +95,5 @@ published: 2024-01-12
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)：** TOMO 是一个第 1 层公共 blockchain。TomoChain 是在 TomoChain 上开发的隐私协议，旨在创建安全且不可追踪的交易 -**资产兑换**：是- [白皮书](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction（原名 TomoChain）](https://viction.xyz/ecosystem)：** VIC（原名 TOMO）是一个第 1 层公共 blockchain。TomoChain 是在 TomoChain 上开发的隐私协议，旨在创建安全且不可追踪的交易 -**资产兑换**：是- [白皮书](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

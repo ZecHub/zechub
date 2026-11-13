@@ -95,5 +95,5 @@ Kwa mfano, fikiria orodha ya NFT kwenye Solana; hali yake ya umma (kwa mfano, be
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO ni blockchain ya umma ya safu ya 1. TomoChain ni itifaki ya faragha iliyotengenezwa kwenye TomoChain na iliyoundwa kuunda miamala salama isiyoweza kufuatiliwa -**Kubadilisha Mali**: Ndiyo- [Waraka mweupe](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (zamani TomoChain)](https://viction.xyz/ecosystem)**: VIC (zamani TOMO) ni blockchain ya umma ya safu ya 1. TomoChain ni itifaki ya faragha iliyotengenezwa kwenye TomoChain na iliyoundwa kuunda miamala salama isiyoweza kufuatiliwa -**Kubadilisha Mali**: Ndiyo- [Waraka mweupe](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

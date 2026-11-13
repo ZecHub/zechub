@@ -10,19 +10,6 @@ Zcash madencilik havuzları, bireysel madencilerin hesaplama güçlerini (hashra
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Web sitesi: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Özel Ödemeler: EVET
-- Havuz Türü: Pay Per Share
-- Havuz ücreti: %2
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Zcash madencilik havuzları, bireysel madencilerin hesaplama güçlerini (hashra
 - Özel Ödemeler: EVET
 - Havuz Türü: Pay Per Share
 - Havuz ücreti: %3
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Web sitesi: [Flypool](https://zcash.flypool.org/)
-- Özel Ödemeler: EVET
-- Havuz Türü: Pay Per Last N 
-- Havuz ücreti: %1
 
 ---
 
@@ -163,3 +137,11 @@ Zcash madencilik havuzları, bireysel madencilerin hesaplama güçlerini (hashra
 - Özel Ödemeler: EVET
 - Havuz Türü: Pay Per Last N Shares (PPLNS)
 - Havuz Ücreti: %1
+
+---
+
+## Eski Zcash havuzları
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool şu anda geçerli bir Zcash madencilik seçeneği değildir. [Resmi havuz SSS sayfası](https://academy.braiins.com/braiins-pool/faqs/pool), desteklenen coin olarak Bitcoin'i listeliyor ve altcoin'leri desteklemeye yönelik bir planı olmadığını belirtiyor (12 Kasım 2026'da kontrol edildi).

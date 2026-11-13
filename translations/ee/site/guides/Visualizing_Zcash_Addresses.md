@@ -5,10 +5,10 @@
 
 # Zcash ƒe gaɖoƒe ƒe dzesiwo [addresses] ƒe nɔnɔmetata
 
-Ne wò le Zcash srɔ̃m zi gbãtɔ la, àkpɔ enumake be [gaɖoɖowo transactions](https://zechub.wiki/using-zcash/transactions) ƒe ƒomevi eve li siwo ate ŋu ava: *nuwo ƒe ʋuʋuɖi* [transparent] kple *ɣaɣla* [shielded].
-Kpeɖeŋu la, ne èlé ŋku ɖe ŋgɔyiyi yeyewo ŋu le Zcash ƒe xexeame la, ate ŋu nèsrɔ̃ nu tso [Hãkɔntɔ Gaɖoƒe ƒe dzesiwo Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), alo UA-wo ŋu.
-Ne amewo le Zcash ƒe dɔwɔƒe me ƒo nu tso *ɣaɣla* gaɖoɖowo ŋu la, wogblɔna be gaɖoɖowo siwo me gaɖoƒe ƒe dzesiwo le, siwo woɖo ɖe sapling alo orchard protocolwo ta.
-Wo wɔ UA-wo be woaɖe *gaɖoɖo* ƒe ɣaɣla alo nuwo ƒe ʋuʋuɖi ƒomevi siawo katã ƒoƒu ɖe gaɖoƒe ƒe dzesi ɖeka me. Ƒomeviwo siawo ƒe ɖekawɔwɔ nye afɔsi ƒe vevi si ana UX nava bɔbɔe ɖe ŋgɔ. Mɔfia sia ƒe taɖodzinu nye be wòakpe ɖe UA-wo ƒe gɔmesese ŋu kple nɔnɔmetata ƒe kpɔɖeŋu siwo le ŋgɔ ŋutɔ.
+Ne wò le Zcash srɔ̃m zi gbãtɔ la, àkpɔe enumake be [gaɖoɖo](https://zechub.wiki/using-zcash/transactions) (transactions) ƒomevi eve li siwo ate ŋu adzɔ: *nuwo ƒe ʋuʋuɖi* (transparent) kple *ɣaɣla* (shielded).
+Gawu la, ne èle ŋku ɖom ŋgɔyiyi yeyetɔwo ŋu le Zcash ƒe xexeame la, ɖewohĩ èsrɔ̃ nu tso [Gaɖoƒe ƒe Dzesi Ɖekawɔwɔwo](https://zips.z.cash/zip-0316) (Unified Addresses), alo UA-wo ŋu.
+Ne amewo le Zcash ƒe dɔwɔƒe me ƒo nu tso *ɣaɣla* gaɖoɖowo ŋu la, wole gaɖoɖo siwo me gaɖoƒe ƒe dzesi siwo wotrɔ asi le na sapling alo orchard protocol-wo le la ŋu ƒom.
+Wowɔ UA-wo be woaƒo gaɖoɖo ɣaɣla alo nuwo ƒe ʋuʋuɖi ƒomevi *ɖesiaɖe* nu ƒu ɖe gaɖoƒe ƒe dzesi ɖeka me. Ɖekawɔwɔ sia nye safui si ana UX nava bɔbɔe le etsɔme. Mɔfiame sia ƒe taɖodzinu enye be wòakpe ɖe ŋuwò nàse UA-wo gɔme nyuie to nɔnɔmetata ƒe kpɔɖeŋu siwo me kɔ la dzi.
 
 ## Zcash ƒe gaɖoƒe ƒe dzesiwo ƒe ƒomeviwo
 

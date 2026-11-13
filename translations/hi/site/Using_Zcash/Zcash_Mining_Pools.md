@@ -10,19 +10,6 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- वेबसाइट: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Private Payouts: हाँ
-- पूल प्रकार: Pay Per Share
-- पूल शुल्क: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 - Private Payouts: हाँ
 - पूल प्रकार: Pay Per Share
 - पूल शुल्क: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- वेबसाइट: [Flypool](https://zcash.flypool.org/)
-- Private Payouts: हाँ
-- पूल प्रकार: Pay Per Last N 
-- पूल शुल्क: 1%
 
 ---
 
@@ -163,3 +137,11 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 - Private Payouts: हाँ
 - पूल प्रकार: Pay Per Last N Shares (PPLNS)
 - पूल शुल्क: 1%
+
+---
+
+## पूर्व Zcash पूल
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool वर्तमान में Zcash माइनिंग का विकल्प नहीं है। इसके [आधिकारिक पूल FAQ](https://academy.braiins.com/braiins-pool/faqs/pool) में Bitcoin को समर्थित कॉइन के रूप में सूचीबद्ध किया गया है और कहा गया है कि इसकी altcoins को सपोर्ट करने की कोई योजना नहीं है (12 नवंबर 2026 को जाँचा गया)।

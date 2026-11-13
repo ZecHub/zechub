@@ -36,6 +36,36 @@ Heartwood, Zcash upgrades की एक श्रृंखला का एक �
 
 ![Zcash upgrades की समयरेखा: 2018 में Overwinter और Sapling, 2019 में Blossom, और 2020 में Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## TL;DR
+
+- Heartwood mainnet block 903,000 (16 जुलाई 2020 UTC) पर activate हुआ, और इसे ZIP 250 द्वारा two-way replay protection के लिए एक नए consensus branch id के साथ deploy किया गया।
+- ZIP 213 (Shielded Coinbase): coinbase transactions में Sapling outputs हो सकते हैं, जिससे miners block rewards सीधे एक shielded address में प्राप्त कर सकते हैं।
+- ZIP 221 (FlyClient): header का hashLightClientRoot अब एक Merkle Mountain Range के प्रति commit करता है, जिससे light clients ऐसे proofs के साथ proof-of-work verify कर सकते हैं जिनका आकार केवल logarithmically बढ़ता है।
+- Transparent coinbase outputs अब भी पूरी तरह समर्थित हैं — shielded coinbase एक नया विकल्प है, अनिवार्यता नहीं।
+- Activation घड़ी के समय पर नहीं, बल्कि एक block height पर होता है, इसलिए सटीक मिनट अलग-अलग dashboards और timezones में भिन्न होता है।
+
+## मुख्य व्याख्या
+
+Heartwood से पहले, किसी miner के नए mint हुए ZEC को अपनी शुरुआत एक transparent address में करनी पड़ती थी, इसलिए कोई भी miner की आय पर नज़र रख सकता था और यह trace कर सकता था कि वह कहाँ गई। ZIP 213 ने consensus नियम में ढील दी ताकि coinbase transaction Sapling outputs को भुगतान कर सके, जिससे miner की कमाई अस्तित्व में आने के पहले ही क्षण से निजी रहती है। यह विशेष रूप से Sapling को लक्षित करता है क्योंकि Sapling की कुशल proving ने coinbase के भीतर shielding को व्यावहारिक बना दिया; Sprout के भारी proofs वहाँ संभव नहीं थे।
+
+ZIP 221 ने header field hashFinalSaplingRoot को hashLightClientRoot के रूप में नए उद्देश्य के लिए इस्तेमाल किया। अब यह पिछले blocks के header डेटा पर बनी Merkle Mountain Range के प्रति प्रतिबद्ध (commit) करता है — timestamps, difficulty targets, Sapling roots, संचित कार्य (accumulated work), और transaction की संख्याएँ। इससे एक light client या कोई दूसरी chain हर block डाउनलोड करने की बजाय एक छोटे proof के ज़रिए Zcash के proof-of-work को सत्यापित कर सकती है।
+
+## दृश्य उपमा
+
+पहले: हर miner का वेतन एक सार्वजनिक सूचना-पट्ट पर लगाया जाता था — राशि और उसका पूरा सिलसिला कोई भी पढ़ सकता था। अब: वेतन एक मुहरबंद लिफ़ाफ़े में आ सकता है। और अब हर नया block अपने साथ एक छोटी-सी लाख की मुहर लेकर आता है, जो उससे पहले के हर block का सार बताती है, ताकि कोई अजनबी हर पन्ना पढ़ने के बजाय एक नज़र में ही काम की पूरी chain की पुष्टि कर सके।
+
+## गहन विश्लेषण
+
+नियम में यह बदलाव एक पृष्ठभूमि लिए हुए था: Sapling ने shielded coinbase पर लगे मूल प्रतिबंध को बढ़ाकर Sapling आउटपुट तक भी लागू कर दिया था, और Heartwood ने उस प्रतिबंध को हटाकर उन्हें अनुमति दे दी — यह इस बात का स्पष्ट उदाहरण है कि कैसे एक अपग्रेड की आंतरिक व्यवस्था अगले अपग्रेड की नींव बन जाती है। MMR commitment का लाभ हल्के wallets और क्रॉस-चेन इंटीग्रेशन में मिलता है, जहाँ पहले Zcash के कार्य को सत्यापित करने के लिए पूरी चेन डाउनलोड करनी पड़ती थी। एक्टिवेशन के समय जोड़ा गया consensus branch id दोनों दिशाओं में replay सुरक्षा देता है: नए नियमों के तहत बनाया गया लेनदेन पुरानी चेन पर दोबारा नहीं चलाया जा सकता, और पुराने नियमों के तहत बनाया गया लेनदेन नई चेन पर भी नहीं।
+
+## आम गलतियाँ
+
+- **यह मान लेना कि shielded coinbase अनिवार्य हो गया।** Transparent coinbase आउटपुट अब भी मान्य हैं; यह miners पर निर्भर है कि वे कौन-सा विकल्प चुनें।
+- **यह मान लेना कि Sprout shielded coinbase प्राप्त कर सकता है।** केवल Sapling आउटपुट की अनुमति है, क्योंकि Sprout में proving बहुत अधिक संसाधन लेती थी।
+- **यह समझना कि FlyClient के बाद फुल नोड की ज़रूरत नहीं रहती।** यह light clients और cross-chain verifiers के काम आता है, पर नेटवर्क का आधार अब भी फुल नोड ही हैं।
+- **सक्रियण के लिए घड़ी का कोई तय समय खोजना।** सक्रियण ब्लॉक 903,000 पर तय था, इसलिए वास्तविक घड़ी का मिनट अलग-अलग हो सकता है।
+- **hashLightClientRoot को पुराने hashFinalSaplingRoot के साथ भ्रमित करना।** उसी फ़ील्ड को नया उपयोग और नया नाम दिया गया।
+
 ## शब्दावली
 
 | शब्द | सरल अर्थ |
@@ -95,5 +125,12 @@ Coinbase outputs का transparent होना अनिवार्य था
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## संबंधित पृष्ठ
+
+- [Sapling](./Sapling.md) — वह कुशल तंत्र जिसने shielded coinbase को संभव बनाया
+- [Canopy](./Canopy.md) — इस श्रृंखला का अगला अपग्रेड
+- [फुल नोड](./Full_Nodes.md) — पूर्ण सत्यापन अब भी क्या प्रदान करता है
+- [एक Block Explorer क्या देख सकता है](./What_a_Block_Explorer_Can_See.md) — transparent बनाम shielded coinbase क्या उजागर करता है
 
 श्रृंखला: [Network Upgrades index](../start-here/network-upgrades) · पिछला: [Blossom](../zcash-tech/blossom) · अगला: [Canopy](../zcash-tech/canopy)

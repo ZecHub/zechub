@@ -12,6 +12,18 @@ NU6 bụ Zcash [network upgrade](../start-here/network-upgrades), nke [ZIP 253](
 
 Ihe kpatara nke a ji dị mkpa. E mere atụmatụ ka Zcash's [Ego Mmepe](../zcash-tech/canopy) kwụsị n'akụkụ halving nke Nọvemba 2024, nke bụ nke abụọ n'akụkọ ya. NU6 mere ka nkwado ahụ gaa n'ihu, mana kama inye ndị nnata e debere ego mkpụrụ ego ọ bụla, ọ debere otu òkè n'ime protocol ka obodo nwee ike ikpebi n'ọdịnihu ihe ha ga-eme ya. Ọ mekwara ka oghere nta dị na ndekọ ego mechie, ya mere ugbu a a pụrụ ibu amụma kpọmkwem mkpokọta ZEC ga-adịrị mgbe niile.
 
+## TL;DR (Nchịkọta mkpirikpi)
+
+- NU6 malitere ọrụ na mainnet na block 2,726,400 (Nọvemba 23, 2024 UTC), site na ZIP 253.
+- Ọ mere ka 20% nke block subsidy gaa n'ihu na-aga na mmepe mgbe halving nke Nọvemba 2024 gachara: 8% gaara Zcash Community Grants (ZCG), 12% gaara n'ime Deferred Dev Fund Lockbox ọhụrụ (ZIP 2001).
+- Lockbox ahụ bụ nchekwa dị n'ime protocol nke na-enweghị onye akọwapụtara ka o mefuo ya. NU6 ji ebumnuche hapụ ajụjụ Gọọmentị (governance) ahụ ka o meghere, NU6.1 (2025) wee zaa ya emesia.
+- ZIP 236 na-achọ ugbu a ka Azụmahia (transaction) coinbase ọ bụla kwekọọ kpọmkwem, ya mere ndị na-egwụputa (miners) enweghịzi ike ịnara ihe na-erughị ihe ruuru ha wee were amaghị ama kpọọ ZEC ọkụ. Ngụkọta ego a ga-enwe n'ọdịnihu na-aghọ ihe a ga-ebu amụma ya kpọmkwem.
+- Ọ dịghị ihe gbanwere n'ego dị n'akaụntụ, Nzuzo (privacy), na iwu Azụmahia: NU6 bụ nkwalite gbasara ego nkwado na ndekọ ego.
+
+## Ihe atụ a na-ahụ anya
+
+Chee echiche maka NU6 dị ka ezinụlọ nke na-akwụ ndị na-ewu ya ego enyemaka a kwadoro akwado, ma mara na a haziri ka ụbọchị ịkwụ ụgwọ ahụ kwụsị. Kama ịkwụsị Kwụọ ụhwọ (payment), NU6 na-ekewa ego enyemaka ahụ: otu akụkụ na-aga n'ihu na kọmitii ikike (grant) obodo, akụkụ nke ọzọ na-abanye n'igbe nchekwa ezinụlọ nke a ka na-ekwupụtabeghị koodu ya. Igbe nchekwa ahụ na-edowe ego ahụ iche ruo mgbe ezinụlọ ahụ ga-emesịa kwekọrịta n'iwu maka imeghe ya — nkwekọrịta ahụ bụ NU6.1.
+
 ## Ihe NU6 gbanwere
 
 NU6 gara n'ihu iziga 20% nke block subsidy gaa na nkwado mmepe mgbe halving nke Nọvemba 2024 gachara, iwu akọwara na [ZIP 1015](https://zips.z.cash/zip-1015). Ọ kewara 20% ahụ ụzọ abụọ.
@@ -52,6 +64,14 @@ NU6 bụ otu isiakwụkwọ n'akụkọ ka ukwuu banyere otú Zcash si akwụ �
 3. NU6.1 (2025) zara ajụjụ NU6 hapụrụ ghe oghe, onye na-achịkwa ego ndị edobere, site n'ịga n'ihu na 8% nke block subsidy na-aga Zcash Community Grants ma duzie 12% n'ime ego ndị ndị ji coin na-achịkwa nke lockbox kụrụ mkpụrụ mbụ ya.
 
 ![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
+
+## Mmejọ Ndị A Na-emekarị
+
+- **Iche na NU6 gbanwere iwu gbasara ego (monetary policy).** Usoro nkesa ego ọhụrụ (emission schedule) na oge halving agbanweghị; ihe NU6 gbanwere bụ onye na-anata òkè nke enyemaka block (subsidy), ọ bụghị ole ZEC ọhụrụ a na-ewepụta.
+- **Ịgwakọta lockbox na e-akpa ego (wallet) nke otu foundation.** Deferred Dev Fund Lockbox bụ value pool nke chain nke consensus na-esochi, ọ bụghị Adreesị akpa ego (address) onye ọ bụla nwere ike iji mefuo ego.
+- **Iche na NU6.1 na NU6 bụ otu upgrade ahụ.** NU6 mepụtara nchekwa ahụ; NU6.1 kpebiri onye na-achịkwa ya: 8% gaa ZCG, 12% gaa n'otu ego ndị nwe coin na-achịkwa.
+- **Ikwenye na iwu exact-balance (ZIP 236) na-agbanwe coin ndị ọrụ.** Ọ na-ejikọ naanị Azụmahia (transaction) coinbase, ya bụ ego issuance a na-akwụ n'otu block ọ bụla. Ọ naghị emetụta ego dị adị ma ọ bụ Azụmahia nkịtị.
+- **Ịgụ òkè 20% maka mmepe dị ka ihe ọhụrụ.** Ego 20% maka mmepe dịgoro kemgbe Canopy; NU6 gara n'ihu na ya gafere halving ma kewaa ya 8% ZCG / 12% lockbox.
 
 ## Nkọwa okwu
 
@@ -115,5 +135,14 @@ NU6 guzobere Deferred Dev Fund Lockbox mana ọ kọwaghị onye na-achịkwa ya
 [Gịnị bụ ZEC na Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
+
+## Peeji ndị metụtara ya (Related Pages)
+
+| Ibe | Ihe mere o ji metụta ya |
+|---|---|
+| [Canopy](./Canopy.md) | mepụtara ego mmepe nke NU6 haziri ọzọ |
+| [NU6.1](./NU6_1.md) | kpebiri onye na-achịkwa ego dị na lockbox |
+| [NU6.2](./NU6_2.md) | mmelite ndozi mberede Orchard n'otu usoro ahụ |
+| [Ego Mmepe (Development Fund)](../start-here/development-fund) | akụkọ ihe mere banyere inye ego nke dị n'azụ òkè 20% |
 
 Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [NU5](../zcash-tech/nu5) · Nke na-esote: [NU6.1](../zcash-tech/nu6-1)

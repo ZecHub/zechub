@@ -60,7 +60,7 @@ Zcash toplulukları, Web3 projeleri ve Web2 kuruluşları için tasarlanmış to
 
 ### Zcash Hibe Merkezi
 Zcash hibelerinin bulunmasını, takip edilmesini ve incelenmesini kolaylaştırmak için tasarlanmış, topluluk odaklı hibe panosu. Zcash Community Grants GitHub deposundan canlı veri çekerek hibe başvurularını, kilometre taşlarını, bütçeleri, tartışmaları ve analizleri tek bir yerde toplar. Platform; başvuru sahipleri, komite üyeleri ve topluluk inceleyicileri için daha açık ve kullanıcı dostu bir deneyim sunmayı amaçlar.  
-[Ziyaret et](https://staging.zgrantshub.com/)
+[Ziyaret et](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Zcash dâhil olmak üzere kripto para ödemelerini desteklerken birden çok önd
 ### zk.poker
 Uçtan uca şifreleme, zihinsel poker ve Zcash gizlilik teknolojisini birleştiren eşler arası poker platformu. İşletmecinin oyuncuların kartlarını bilmesine veya bahis fonlarını doğrudan elinde tutmasına gerek kalmayacak şekilde tasarlanmıştır.  
 [Ziyaret et](https://zkbtc.org/)
+
+### ZKöy
+Aynı odadaki gruplar için Kurt Adam tarzı bir parti oyunu. Oyuncular telefonlarından katılır. Her gece yapılan seçimler ve oylar, Zcash testnet üzerinde korumalı bir not olarak mühürlenir. Oyun bittiğinde seed, salt ve görüntüleme anahtarı açıklanır, böylece herkes sonucu zincir üzerinde doğrulayabilir.  
+[Ziyaret et](https://zkoy.fun)
 
 ---
 

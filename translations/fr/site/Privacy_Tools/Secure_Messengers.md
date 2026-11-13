@@ -21,7 +21,7 @@ Lorsque les données transitent par des serveurs ou sur internet, elles sont exp
 
 **Mémos chiffrés Zcash**
 
-Les portefeuilles Zcash pour ordinateur et mobile disposent d’une fonctionnalité intégrée qui permet aux utilisateurs d’envoyer des messages chiffrés avec des transactions privées blindées. La taille du mémo/message peut aller jusqu’à 512 octets par transaction, avec des frais de transaction inférieurs à 1 centime de dollar américain. En raison de la manière respectueuse de la vie privée dont les transactions sont détectées et du temps de bloc du réseau, les messages peuvent prendre jusqu’à 1 minute ou plus avant d’être reçus. 
+Les portefeuilles Zcash qui prennent en charge les mémos blindés permettent aux utilisateurs de joindre des messages chiffrés à des paiements blindés. Chaque sortie blindée possède son propre champ mémo de 512 octets ; il ne s’agit pas d’une limite unique de 512 octets pour l’ensemble de la transaction. Consultez [Mémos](/using-zcash/memos) pour le format du texte et la prise en charge par les portefeuilles. Les frais de transaction sont payés en ZEC, et la [ZIP 317](https://zips.z.cash/zip-0317) définit des frais conventionnels qui dépendent de la complexité de la transaction. Le coût en dollars américains varie également selon le taux de change du ZEC, de sorte que des frais inférieurs à 1 centime de dollar américain ne sont pas garantis. Vérifiez l’estimation des frais affichée par le portefeuille avant d’envoyer. La réception des messages dépend de la propagation de la transaction, de la politique de confirmation et de la synchronisation du portefeuille du destinataire ; il ne s’agit pas d’une messagerie instantanée.
 
 Essayez-les : https://z.cash/wallets 
 

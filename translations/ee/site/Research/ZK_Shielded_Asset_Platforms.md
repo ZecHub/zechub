@@ -95,5 +95,5 @@ Le kpɔɖeŋu me la, bu NFT si woɖe le Solana dzi be woaɖe asi le eŋu; eƒe p
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO nye layer 1 public blockchain. TomoChain nye ɣaɣla protocol si woɖo le TomoChain dzi, eye wodze eyɔ be wòawɔ gaɖoɖowo nadzɔ eye womate ŋu aka do o -**Asset Swap**: Ao- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (si woyɔna tsã be TomoChain)](https://viction.xyz/ecosystem)**: VIC (si woyɔna tsã be TOMO) nye layer 1 public gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu. TomoChain nye ɣaɣla protocol si wowɔ ɖe TomoChain dzi, eye woɖoe be wòawɔ gaɖoɖo siwo le dedie eye womate ŋu akpɔ wo ƒe afɔtoƒe o -**Asset Swap**: Ɛ̃- [Whitepaper](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

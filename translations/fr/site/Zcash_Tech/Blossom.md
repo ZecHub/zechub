@@ -12,6 +12,18 @@ Blossom est une [mise à niveau du réseau](../start-here/network-upgrades) Zcas
 
 Pourquoi c’est important. Lorsque vous envoyez des ZEC, vous attendez que le réseau les confirme dans un bloc. Si les blocs sont lents, vous attendez plus longtemps. Avant Blossom, un nouveau bloc était attendu environ toutes les 150 secondes. Blossom a réduit cet objectif de moitié, à 75 secondes, de sorte que les confirmations arrivent plus tôt et que la chaîne peut transporter davantage de transactions pendant la même durée. Elle l’a fait sans créer plus de ZEC ni déplacer le calendrier des futures réductions de moitié.
 
+## En bref
+
+- Blossom a été la troisième mise à niveau du réseau Zcash, activée au bloc 653 600 du mainnet (11 décembre 2019 UTC), déployée par la ZIP 206, avec son changement central dans la ZIP 208.
+- Elle a réduit l’espacement cible des blocs de 150 secondes à 75 secondes : les blocs arrivent environ deux fois plus souvent, les premières confirmations sont donc plus rapides et le débit double à peu près.
+- Pour garder une émission stable, elle a divisé par deux la récompense par bloc et doublé l’intervalle entre les halvings, qui est passé de 840 000 à 1 680 000 blocs.
+- La quantité totale de ZEC créée par unité de temps n’a pas changé. Le calendrier réel des futurs halvings n’a pas changé non plus.
+- C’était un changement bilatéral obligatoire : chaque nœud devait être mis à niveau pour rester sur la chaîne.
+
+## Analogie visuelle
+
+Blossom est un réseau de bus qui double ses départs. Les bus passent désormais toutes les 75 secondes au lieu de toutes les 150, donc vous attendez deux fois moins longtemps (confirmations plus rapides) et le réseau transporte deux fois plus de passagers (débit). Pour que la masse salariale des chauffeurs reste la même, la rémunération de chaque chauffeur par trajet est divisée par deux : la dépense salariale totale est identique, mais elle est simplement répartie sur deux fois plus de trajets.
+
 ## Des blocs plus rapides
 
 Le changement central de Blossom est simple. L’espacement cible des blocs de Zcash, c’est-à-dire le temps que le réseau vise entre un bloc et le suivant, est passé de 150 secondes à 75 secondes ([ZIP 208](https://zips.z.cash/zip-0208)). Les blocs sont trouvés par preuve de travail, donc l’intervalle réel entre eux varie, mais le réseau vise désormais un bloc environ toutes les 75 secondes au lieu de toutes les 150.
@@ -36,6 +48,14 @@ Blossom était un changement bilatéral du consensus, ce qui signifie que chaque
 ## Où se situe Blossom
 
 Blossom était la troisième mise à niveau du réseau de Zcash. Elle a suivi Overwinter et Sapling, et elle est arrivée avant Heartwood et Canopy. Contrairement à Sapling, qui a retravaillé la cryptographie protégée de Zcash, Blossom était axée sur l’échelle et la rapidité. Son rôle principal concernait le timing des blocs, pas de nouvelles fonctionnalités de confidentialité.
+
+## Erreurs courantes
+
+- **Croire que des blocs plus rapides signifiaient plus de ZEC.** Diviser par deux la récompense par bloc tout en doublant la cadence des blocs maintient l’émission exactement identique par unité de temps.
+- **Supposer que les halvings surviennent plus tôt en temps réel.** L’intervalle entre halvings a doublé, passant de 840 000 à 1 680 000 blocs, de sorte que les dates des halvings en temps réel n’ont pas bougé.
+- **Interpréter « 75 secondes » comme une garantie.** Il s’agit d’un objectif de preuve de travail ; les intervalles réels entre les blocs varient autour de cette valeur.
+- **Considérer Blossom comme une amélioration de la confidentialité.** Son rôle concernait la cadence des blocs et la montée en charge ; contrairement à Sapling, il n’a modifié aucune cryptographie.
+- **Penser que les opérateurs de nœuds pouvaient s’en passer.** Blossom était un changement de consensus bilatéral ; un nœud non mis à jour se retrouve séparé du réseau par un fork.
 
 ## Glossaire
 
@@ -95,5 +115,12 @@ Parce que Blossom a également divisé par deux la récompense versée par bloc 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Pages connexes
+
+- [Sapling](./Sapling.md) — la mise à niveau précédente (cryptographie, pas calendrier)
+- [Heartwood](./Heartwood.md) — la prochaine mise à niveau de la série
+- [Nœuds complets](./Full_Nodes.md) — ce qu'implique l'exploitation d'un nœud lors des mises à niveau obligatoires
+- [Index des mises à niveau du réseau](../start-here/network-upgrades) — la chronologie complète des mises à niveau
 
 Série : [Index des mises à niveau du réseau](../start-here/network-upgrades) · Précédent : [Sapling](../zcash-tech/sapling) · Suivant : [Heartwood](../zcash-tech/heartwood)

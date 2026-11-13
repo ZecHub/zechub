@@ -36,6 +36,36 @@ Heartwood bụ otu nzọụkwụ n'usoro network upgrade Zcash, nke nke ọ bụ
 
 ![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## Nchịkọta dị mkpirikpi (TL;DR)
+
+- Heartwood malitere ịrụ ọrụ na mainnet block 903,000 (July 16, 2020 UTC), nke ZIP 250 webatara ya, ya na consensus branch id ọhụrụ maka nchebe replay n'akụkụ abụọ.
+- ZIP 213 (Shielded Coinbase): Azụmahia coinbase nwere ike ịnwe Sapling outputs, ka ndị na-egwụputa (miners) wee nwee ike ịnata ụgwọ block ozugbo n'ime Adreesị akpa ego nke e chebere echebe.
+- ZIP 221 (FlyClient): hashLightClientRoot nke header ugbu a na-eme commitment na Merkle Mountain Range, nke na-ekwe ka light client jiri proof ndị na-eto naanị n'ụzọ logarithm kwado proof-of-work.
+- A ka na-akwado coinbase outputs Oha (transparent) n'uju. Shielded coinbase bụ nhọrọ ọhụrụ, ọ bụghị iwu mmanye.
+- Mmalite ọrụ na-eme na elu block, ọ bụghị n'oge elekere, ya mere nkeji kpọmkwem na-adị iche n'etiti dashboard dị iche iche na mpaghara oge dị iche iche.
+
+## Nkọwa Isi
+
+Tupu Heartwood, ZEC ọhụrụ onye na-egwụputa (miner) mepụtara ga-amalite ndụ ya n'ime Adreesị akpa ego (address) Oha (transparent), nke mere na onye ọ bụla nwere ike ịhụ ego onye na-egwụputa na-enweta ma chọpụta ebe ọ gara. ZIP 213 mere ka iwu consensus dị nro, ka Azụmahia (transaction) coinbase nwee ike ịkwụ ụgwọ n'ime Sapling outputs, si otú a na-eme ka ụgwọ onye na-egwụputa bụrụ ihe nzuzo site n'oge mbụ ọ malitere ịdị adị. Ọ na-elekwasị anya na Sapling kpọmkwem n'ihi na proof Sapling na-arụ nke ọma mere ka ichebe echebe n'ime coinbase bụrụ ihe a pụrụ ime; proof ndị dị arọ nke Sprout apụghị ịrụ ọrụ ebe ahụ.
+
+ZIP 221 jiri mpaghara header hashFinalSaplingRoot mee ihe ọzọ dị ka hashLightClientRoot. Ugbu a, ọ na-eme commitment nye Merkle Mountain Range e wuru n'elu data header nke block ndị bu ụzọ — oge (timestamps), ebumnuche isi ike (difficulty targets), roots Sapling, ọrụ a chịkọbara (accumulated work), na ọnụọgụ Azụmahia. Light client ma ọ bụ chain ọzọ nwere ike iji obere proof nyochaa proof-of-work nke Zcash kama ibudata block ọ bụla.
+
+## Ihe atụ a na-ahụ anya
+
+Tupu mgbe ahụ: e debere ụgwọ ọrụ onye na-egwụputa ọ bụla n'ọkwa ọha, onye ọ bụla nwere ike ịgụ ego ole ọ bụ na ụzọ o si gaa. Ugbu a: ụgwọ ọrụ ahụ nwere ike ịbịa n'ime envelopu a kara akara. Ọzọkwa, block ọhụrụ ọ bụla na-ebu ugbu a obere akara wax nke na-achịkọta block niile bu ya ụzọ, ka onye ọbịa wee nwee ike ilegharị anya otu ugboro kwado chain ọrụ ahụ niile, kama ịgụ peeji ọ bụla.
+
+## Nyocha Miri Emi
+
+Mgbanwe iwu a nwere akụkọ ihe mere eme: Sapling agbatịwo mmachibido izizi e nyere coinbase nke e chebere echebe ka o kpuchikwa mmepụta Sapling, Heartwood wepụrụ mmachi ahụ iji kwe ka ha dịrị. Nke a bụ ezigbo ihe atụ nke otu ngwa ime ime (plumbing) nke otu nkwalite si ghọọ ntọala nke nkwalite na-esote ya. Commitment MMR na-aba uru n'e-akpa ego dị fechaa na n'njikọ cross-chain. Na mbụ, inyocha ọrụ Zcash chọrọ ibudata chain niile. Njirimara alaka consensus (consensus branch id) a gbakwunyere mgbe a malitere ya na-enye nchekwa megide imegharị Azụmahia (replay protection) n'akụkụ abụọ: Azụmahia e wuru n'okpuru iwu ọhụrụ apụghị imegharị ya na chain ochie, ọ bụkwa otu ahụ n'ụzọ nke ọzọ.
+
+## Ndudue Ndị A Na-emekarị
+
+- **Iche na coinbase nke e chebere echebe (shielded coinbase) ghọrọ ihe a manyere mmadụ ime.** Mmepụta coinbase Oha (transparent) ka dị irè; ndị na-egwụputa (miners) na-ahọrọ.
+- **Iche na Sprout nwere ike ịnata coinbase nke e chebere echebe.** Ọ bụ naanị mmepụta Sapling ka a na-anabata — ịme proof nke Sprout chọrọ akụrụngwa karịrị akarị.
+- **Ikwere na FlyClient na-ewepụ mkpa full node.** Ọ na-arụrụ light client na ndị na-enyocha cross-chain ọrụ; full node ka na-eguzozi network ahụ.
+- **Ịchọ oge elekere a kapịrị ọnụ maka mmalite ọrụ.** Akọwapụtara mmalite ọrụ na block 903,000, ya mere nkeji elekere ahụ na-agbanwe agbanwe.
+- **Ịgbagwoju hashLightClientRoot na hashFinalSaplingRoot ochie anya.** Ọ bụ otu mpaghara ahụ ka e nyere ọrụ ọhụrụ ma gbanwee aha ya.
+
 ## Ndepụta okwu
 
 | Okwu | Ihe ọ pụtara n'asụsụ dị mfe |
@@ -95,5 +125,12 @@ Coinbase outputs aghaghị ịbụ Oha, ya mere ụgwọ ọhụrụ onye na-egw
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Peeji Ndị Metụtara Ya
+
+- [Sapling](./Sapling.md) — usoro ọrụ dị irè nke mere ka coinbase nke e chebere echebe (shielded coinbase) kwe omume
+- [Canopy](./Canopy.md) — mmelite na-esote n'usoro a
+- [Full Nodes](./Full_Nodes.md) — ihe nkwenye zuru ezu ka na-enye
+- [Ihe Block Explorer Nwere Ike Ịhụ](./What_a_Block_Explorer_Can_See.md) — ihe coinbase Oha (transparent) na coinbase nke e chebere echebe na-ekpughe
 
 Usoro: [Ndekọ Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [Blossom](../zcash-tech/blossom) · Nke na-esote: [Canopy](../zcash-tech/canopy)

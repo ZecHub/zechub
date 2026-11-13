@@ -36,6 +36,36 @@ Heartwood es un paso en una serie de actualizaciones de Zcash, cada una añadien
 
 ![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## TL;DR
+
+- Heartwood se activó en el bloque 903.000 de la mainnet (16 de julio de 2020 UTC), desplegada mediante ZIP 250 con un nuevo consensus branch id para la protección bidireccional contra repetición (replay protection).
+- ZIP 213 (Coinbase blindado): las transacciones coinbase pueden contener salidas Sapling, de modo que los mineros pueden recibir las recompensas de bloque directamente en una dirección blindada.
+- ZIP 221 (FlyClient): el campo hashLightClientRoot del encabezado ahora se compromete con un Merkle Mountain Range, lo que permite a los clientes ligeros verificar la prueba de trabajo (proof-of-work) con pruebas que crecen solo de forma logarítmica.
+- Las salidas coinbase transparentes siguen siendo totalmente compatibles. El coinbase blindado es una opción nueva, no una obligación.
+- La activación ocurre a una altura de bloque, no a una hora del reloj, por lo que el minuto exacto varía entre paneles y zonas horarias.
+
+## Explicación principal
+
+Antes de Heartwood, los ZEC recién acuñados de un minero tenían que empezar su existencia en una dirección transparente, por lo que cualquiera podía observar los ingresos de un minero y rastrear adónde iban. ZIP 213 flexibilizó la regla de consenso [consensus] para que la transacción coinbase pueda pagar a salidas Sapling, manteniendo privado el pago de un minero desde el primer momento de su existencia. Se centra específicamente en Sapling porque la generación eficiente de pruebas de Sapling hizo viable el blindaje dentro de la coinbase; las pesadas pruebas de Sprout no eran factibles allí.
+
+ZIP 221 reutilizó el campo de encabezado hashFinalSaplingRoot como hashLightClientRoot. Ahora se compromete con un Merkle Mountain Range construido sobre los datos de encabezado de bloques anteriores: marcas de tiempo, objetivos de dificultad, raíces Sapling, trabajo acumulado y número de transacciones. Así, un cliente ligero (light client) u otra red puede verificar la prueba de trabajo (proof-of-work) de Zcash con una prueba pequeña en lugar de descargar cada bloque.
+
+## Analogía visual
+
+Antes, la paga de cada minero se publicaba en un tablón de anuncios público: cualquiera podía leer el importe y el rastro. Ahora, la paga puede llegar en un sobre sellado. Además, cada nuevo bloque lleva un pequeño sello de lacre que resume todos los bloques anteriores. Así, un desconocido puede confirmar toda la cadena de trabajo con un vistazo en lugar de leer cada página.
+
+## Análisis en profundidad
+
+El cambio de regla tenía historia: Sapling había ampliado la prohibición original sobre el coinbase blindado para cubrir también las salidas de Sapling, y Heartwood levantó esa restricción para permitirlas, un claro ejemplo de cómo la infraestructura de una actualización se convierte en la base de la siguiente. El compromiso (commitment) MMR da sus frutos en las billeteras ligeras y en la integración cross-chain, donde verificar el trabajo de Zcash antes requería descargar la cadena completa. El identificador de rama de consenso (consensus branch id) añadido en la activación ofrece protección bidireccional contra la repetición: una transacción creada bajo las nuevas reglas no puede repetirse en la red antigua, y viceversa.
+
+## Errores comunes
+
+- **Creer que el coinbase blindado (shielded coinbase) se volvió obligatorio.** Las salidas de coinbase transparentes siguen siendo válidas; los mineros eligen.
+- **Suponer que Sprout puede recibir coinbase blindado.** Solo se permiten salidas Sapling; la generación de pruebas de Sprout consumía demasiados recursos.
+- **Creer que FlyClient elimina la necesidad de nodos completos.** Sirve a los clientes ligeros y a los verificadores cross-chain; los nodos completos siguen siendo el ancla de la red.
+- **Buscar una hora fija de activación.** La activación se definió en el bloque 903.000, por lo que el minuto exacto según el reloj varía.
+- **Confundir hashLightClientRoot con el antiguo hashFinalSaplingRoot.** Se reutilizó el mismo campo y se le cambió el nombre.
+
 ## Glosario
 
 | Término | Significado en lenguaje sencillo |
@@ -78,11 +108,11 @@ Las salidas Coinbase debían ser transparentes, por lo que la recompensa recién
 
 [ZIP 221: FlyClient - Cambios en la capa de consenso](https://zips.z.cash/zip-0221)
 
-[Heartwoodactualización de red](https://z.cash/upgrade/heartwood/)
+[Actualización de red Heartwood](https://z.cash/upgrade/heartwood/)
 
 ### Véase también
 
-[ZcashActualizaciones de red](../start-here/network-upgrades)
+[Zcash Actualizaciones de red](../start-here/network-upgrades)
 
 [Pools blindados](../using-zcash/shielded-pools)
 
@@ -95,5 +125,12 @@ Las salidas Coinbase debían ser transparentes, por lo que la recompensa recién
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Páginas relacionadas
+
+- [Sapling](./Sapling.md) — el mecanismo eficiente que hizo viable el coinbase blindado
+- [Canopy](./Canopy.md) — la siguiente actualización de la serie
+- [Nodos completos](./Full_Nodes.md) — lo que la verificación completa sigue aportando
+- [Lo que puede ver un explorador de bloques](./What_a_Block_Explorer_Can_See.md) — lo que revela el coinbase transparente frente al blindado
 
 Serie: [Índice de actualizaciones de red](../start-here/network-upgrades) · Anterior: [Blossom](../zcash-tech/blossom) · Siguiente: [Canopy](../zcash-tech/canopy)
