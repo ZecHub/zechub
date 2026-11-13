@@ -6,7 +6,7 @@ This page explains ZIP 218 from its own text: what changes, what does not, and w
 
 ## The short version
 
-| | Today | After ZIP 218 |
+| | Before NU7 | After ZIP 218 (NU7) |
 |---|---|---|
 | Block target spacing | 75 seconds | 25 seconds |
 | Blocks per day | 1,152 | 3,456 |
@@ -22,7 +22,7 @@ Three times as many blocks, each paying a third as much. The supply schedule sta
 
 ## Why change the block time
 
-The main goal is **lower waiting time**. Today a payment waits 75 seconds on average for its first confirmation, whatever the network load. At 25 seconds that falls to 25 seconds on average. The ZIP names point-of-sale payments, exchange deposits and cross-chain bridges as the uses that feel this most.
+The main goal is **lower waiting time**. Before NU7 a payment waited 75 seconds on average for its first confirmation, whatever the network load. At 25 seconds that falls to 25 seconds on average. The ZIP names point-of-sale payments, exchange deposits and cross-chain bridges as the uses that feel this most.
 
 Two points from the ZIP are worth keeping in mind:
 
@@ -99,7 +99,7 @@ These are recommendations for implementations rather than consensus rules:
 
 Faster blocks are not free. A stale block is a valid block that loses the race to be included in the chain because another block reached the network first. The shorter the gap between blocks, the more often this happens, and the ZIP ties the stale rate to block propagation, verification time and mining centralisation risk.
 
-- **Today:** about 0.4%, which the ZIP notes may understate the underlying rate because hashpower is concentrated in pools.
+- **Before NU7:** about 0.4%, which the ZIP notes may understate the underlying rate because hashpower is concentrated in pools.
 - **Theoretical at 25 seconds:** about 3.26%, based on measured Zcash propagation delays.
 - **Devnet test:** 99 geographically distributed Zebra nodes producing full 2 MB blocks at 25-second spacing measured a 4.86% stale rate and a 0.37% fork rate. The only tuning needed was TCP configuration. Because that devnet was more decentralised than today's mainnet, the ZIP treats these as close to worst-case figures.
 - **Reference point:** the ZIP uses Ethereum's historical proof-of-work stale rate of 5.4% as its safety threshold. Both devnet figures sit below it.
