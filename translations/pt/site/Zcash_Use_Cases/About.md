@@ -50,6 +50,11 @@ Aceite ZEC blindado como uma 501(c)(3) e continue fornecendo aos doadores os rec
 ###  [Onde doar ZEC](/zcash-use-cases/where-to-donate-zec)
 Encontre organizações sem fins lucrativos que aceitam ZEC e quais delas aceitam doações blindadas
 
+###  [Faça uma campanha de arrecadação de fundos em ZEC](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Arrecade ZEC para um único objetivo, mostre um progresso em que os doadores possam confiar e mantenha cada doação privada
+###  [Doe ZEC e solicite uma dedução fiscal nos EUA](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Doe ZEC de forma privada e ainda receba a documentação de que você precisa para deduzi-lo
+
 ###  [Configuração de privacidade para jornalistas](/zcash-use-cases/journalist-privacy-setup)   
 Use endereços blindados para todas as transações e proteja as fontes evitando pagamentos rastreáveis. Use memorandos com cuidado para uma comunicação segura
 
