@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Panduan Pengguna ZEC Terlindungi di Ledger
+
+> Simpan, terima, dan kirim ZEC privat (terlindungi) dengan dompet hardware Ledger kamu di Ledger Wallet Desktop.
+
+## Ringkasan
+
+* Sejak 23 September 2026, Ledger Wallet Desktop mendukung ZEC terlindungi. Satu akun Zcash memiliki saldo transparan dan saldo privat di pool Ironwood.
+* Untuk desktop saja saat ini. Dukungan mobile diumumkan sebagai "segera hadir".
+* Kamu memerlukan Nano S Plus, Nano X, Stax, atau Flex (bukan Nano S versi asli), Ledger Wallet Desktop 4.21+ dan aplikasi Zcash terbaru.
+* Klik **Aktifkan terlindungi** sekali: Ledger kamu mengekspor viewing key agar aplikasi desktop dapat menemukan dana privat kamu. Spending key tidak pernah meninggalkan perangkat.
+* Terima ke alamat privat (u1...) saat kamu bisa. Memindahkan ZEC dari saldo transparan ke saldo privat berfungsi, tetapi menghubungkan keduanya.
+* Setiap pengiriman ditinjau dan ditandatangani di layar Ledger. Periksa alamat di sana, karakter demi karakter.
+
+## Penjelasan Inti
+
+Zcash memiliki dua jenis saldo. ZEC transparan (alamat t1) berfungsi seperti Bitcoin: jumlah dan alamat bersifat publik. ZEC terlindungi berada di pool terlindungi, tempat pengirim, penerima, dan jumlahnya dienkripsi on-chain.
+
+Ledger menyimpan spending key kamu pada perangkat hardware. Untuk menampilkan saldo privat, Ledger Wallet Desktop memerlukan Unified Full Viewing Key (UFVK). Perangkat tersebut mengekspornya sekali, dan aplikasi desktop menggunakannya untuk memindai blockchain guna mencari catatan terlindungi kamu. Viewing key dapat melihat riwayat terlindungi kamu tetapi tidak dapat digunakan untuk membelanjakan, jadi perlakukan sebagai informasi privat.
+
+Langkah-langkah di bawah mencakup pemasangan aplikasi Zcash, penambahan akun, pengaktifan saldo privat, penerimaan, melindungi ZEC transparan, dan pengiriman dari saldo privat.
+
+## Gambaran umum
 
 Pada 23 September 2026, Ledger menambahkan dukungan terlindungi native untuk ZEC ke Wallet Desktop Ledger. Satu akun Zcash kini menyimpan saldo transparan dan saldo privat di pool Ironwood milik Zcash. Private key kamu tetap berada di Ledger kamu, dan setiap transaksi ditinjau serta ditandatangani di perangkat.
 

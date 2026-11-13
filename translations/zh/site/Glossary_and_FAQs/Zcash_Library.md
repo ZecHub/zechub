@@ -186,7 +186,7 @@
 | Testnet | 一个独立的 blockchain，用于在主网之前测试升级和功能。 |
 | Trailing Finality Layer (TFL) | 研究如何在 Zcash 的工作量证明链之后添加最终性层，使近期区块无需取代挖矿即可被最终确认。Crosslink 是由此产生的设计。 |
 | Transaction | 用户之间的一次支付，提交至网络并最终在一个区块中得到确认。 |
-| Transaction Expiry | 如果交易未经确认，将在约 25 分钟（20 个区块）后过期；资金会自动退回。 |
+| Transaction Expiry | 对尚未挖出的支付可被纳入的区块高度限制。具有非零过期高度 N 的普通支付可以在区块 N 或更早的区块中被挖出，但不能在 N+1 中被挖出。高度为 0 会禁用过期。这不是自动退款计时器。[ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | 默认手续费为 0.0001 ZEC。较高手续费可获得优先处理；极低手续费可能导致延迟或过期。 |
 | Transparent Address | 也称为 taddr。以 t 开头。完全公开（类似 Bitcoin）。 |
 | Transparent Transaction | 仅在透明地址之间进行的交易 - 所有内容均公开可见。 |

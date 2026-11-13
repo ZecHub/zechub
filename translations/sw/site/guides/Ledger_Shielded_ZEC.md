@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Ledger Mwongozo wa Mtumiaji wa Faragha [Shielded] wa ZEC
+
+> Hifadhi, pokea na tuma ZEC za faragha (shielded) ukitumia hardware wallet yako ya Ledger katika Wallet Desktop ya Ledger.
+
+## Kwa ufupi
+
+* Tangu 23 Septemba 2026, Ledger Wallet Desktop inaunga mkono ZEC ya faragha [shielded]. Akaunti moja ya Zcash ina salio la uwazi [transparent] na salio la faragha [private] katika bwawa la Ironwood.
+* Kwa sasa, ni kwa kompyuta ya mezani pekee. Usaidizi wa simu umetangazwa kuwa “unakuja hivi karibuni”.
+* Unahitaji Nano S Plus, Nano X, Stax au Flex (si Nano S ya asili), Ledger Wallet Desktop 4.21+ na programu ya hivi karibuni ya Zcash.
+* Bofya **Washa faragha** mara moja: Ledger yako husafirisha ufunguo wa kutazama [viewing key] ili programu ya kompyuta ya mezani iweze kupata fedha zako za faragha. Funguo za kutumia pesa [spending keys] haziondoki kamwe kwenye kifaa.
+* Pokea kwenye anwani ya faragha [private address] (u1...) unapoweza. Kuhamisha ZEC kutoka salio lako la uwazi hadi la faragha kunawezekana, lakini huunganisha hayo mawili.
+* Kila utumaji hukaguliwa na kutiwa sahihi kwenye skrini ya Ledger. Kagua anwani hapo, herufi kwa herufi.
+
+## Maelezo ya Msingi [Core Explanation]
+
+Zcash ina aina mbili za salio. Salio la uwazi ZEC (anwani za t1) hufanya kazi kama Bitcoin: kiasi na anwani ni za umma. Salio la faragha ZEC hupatikana katika bwawa la faragha, ambako mtumaji, mpokeaji na kiasi vimesimbwa fiche on-chain.
+
+Ledger huhifadhi funguo zako za kutumia pesa [spending keys] kwenye kifaa cha hardware. Ili kuonyesha salio la faragha, Wallet Desktop ya Ledger inahitaji Full Viewing Key Iliyounganishwa (UFVK). Kifaa huihamisha mara moja, na programu ya kompyuta huitumia kuchanganua blockchain kwa ajili ya madokezo yako ya faragha [shielded notes]. Ufunguo wa kutazama [viewing key] unaweza kuona historia yako ya faragha lakini hauwezi kutumia pesa, kwa hivyo uchukulie kama taarifa ya faragha.
+
+Hatua zilizo hapa chini zinahusu kusakinisha programu ya Zcash, kuongeza akaunti, kuwezesha salio la faragha [private balance], kupokea, kuhamisha ZEC za uwazi hadi kwenye faragha, na kutuma kutoka salio la faragha.
+
+## Muhtasari
 
 Tarehe 23 Septemba 2026, Ledger iliongeza usaidizi wa asili wa faragha kwa ZEC kwenye Wallet Desktop ya Ledger. Akaunti moja ya Zcash sasa inashikilia salio la uwazi [transparent] na salio la faragha katika bwawa [pool] la Zcash la Ironwood. Funguo zako za faragha hubaki kwenye Ledger yako, na kila muamala [transaction] hukaguliwa na kutiwa sahihi kwenye kifaa.
 

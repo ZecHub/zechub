@@ -260,7 +260,7 @@ Daha Fazla Bilgi: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x83
 
 [Morpho](https://markets.morpho.org/fixed), sermaye verimliliği yüksek bir borç verme piyasası sunan merkeziyetsiz bir borç verme protokolüdür.
 
-[Clearstar Labs](clearstar.xyz), Morpho aracılığıyla cbAssets Vault'u sunarak cbZEC gibi varlıkların borç verme piyasasında kullanılmasını sağlar.
+[Clearstar Labs](https://clearstar.xyz), Morpho aracılığıyla cbAssets Vault'u sunarak cbZEC gibi varlıkların borç verme piyasasında kullanılmasını sağlar.
 
 Bu kasa aracılığıyla kullanıcılar şunları yapabilir:
 

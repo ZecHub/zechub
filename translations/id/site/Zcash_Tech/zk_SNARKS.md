@@ -148,13 +148,13 @@ Prosedur pengaturan membantu verifikator dengan meringkas sirkuit & menghasilkan
 
 **Jenis pengaturan pra-pemrosesan**:
 
-Trusted Setup per sirkuit - Dijalankan satu kali per sirkuit. Bersifat spesifik untuk sebuah sirkuit & keacakan rahasia (Common Reference String) harus dijaga kerahasiaannya + dimusnahkan.
+Trusted setup per sirkuit - Dijalankan secara terpisah untuk setiap sirkuit. Common reference string (CRS) yang dihasilkan memuat parameter publik yang digunakan oleh pembukti dan verifikator. Material penyiapan perantara yang rahasia ("limbah beracun"), bukan CRS, yang harus dirahasiakan dan dimusnahkan. [Penjelasan parameter publik](https://zodl.com/snark-parameters/) milik ECC membedakan keduanya.
 
-Pengaturan yang terkompromi dalam metode ini berarti pembuktian (prover) yang tidak jujur dapat membuktikan pernyataan yang salah.
+Jika materi pengaturan rahasia yang diperlukan disimpan atau dipulihkan, seorang prover yang tidak jujur mungkin dapat menghasilkan proof atas pernyataan palsu. Dalam upacara MPC, keamanan dapat bergantung pada setidaknya satu peserta yang mengikuti protokol dan menghancurkan kontribusi rahasianya.
 
-Setup Terpercaya namun Universal - Hanya perlu menjalankan trusted setup satu kali dan setelah itu dapat melakukan pra-pemrosesan beberapa sirkuit secara deterministik.
+Setup Tepercaya namun universal - Satu setup tepercaya menghasilkan parameter yang dapat digunakan untuk menurunkan kunci pembuktian dan verifikasi untuk beberapa sirkuit dalam batas ukuran yang didukung. Ini tetap mengandung asumsi penghancuran rahasia; universal bukan berarti transparan.
 
-Setup Transparan (Tanpa Trusted Setup) - Algoritma preprocessing tidak menggunakan keacakan rahasia sama sekali.
+Setup transparan (tanpa trusted setup) - Parameter publik dapat dihasilkan tanpa trapdoor setup rahasia yang seseorang harus dipercaya untuk menghancurkannya. Hal ini tidak berarti bahwa pembuatan proof tidak menggunakan keacakan atau bahwa sistem tidak memiliki parameter publik. Buku [Halo 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) memberikan contoh parameter grup publik.
 
 
 **Jenis konstruksi SNARK proof**:

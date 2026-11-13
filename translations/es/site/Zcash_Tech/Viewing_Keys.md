@@ -4,7 +4,7 @@
 
 # Claves de visualización [Viewing Keys]
 
-Las direcciones blindadas [Shielded] te permiten realizar transacciones mientras revelas lo menos posible en la blockchain Zcash. Entonces, ¿qué sucede cuando *sí* necesitas mostrarle a una parte específica lo que posees o lo que enviaste? Toda dirección blindada tiene una clave de visualización que concede acceso de lectura sin otorgar la capacidad de gastar. Las claves de visualización se introdujeron en [ZIP 310](https://zips.z.cash/zip-0310) y se añadieron al protocolo en la actualización de red [network upgrade] Sapling.
+Las direcciones blindadas [shielded addresses] te permiten realizar transacciones mientras revelas lo menos posible en la blockchain Zcash. Entonces, ¿qué sucede cuando *sí* necesitas mostrarle a una parte específica lo que posees o lo que enviaste? Una clave de visualización [viewing key] concede acceso de lectura sin otorgar la capacidad de gastar. Las claves de visualización ya existían para Sprout; Sapling añadió capacidades como detectar cuándo se gasta una nota [note] recibida. [ZIP 310](https://zips.z.cash/zip-0310) es un borrador informativo que documenta las propiedades de seguridad de las claves de visualización de Sapling, no la actualización que introdujo las claves de visualización.
 
 Una clave de visualización es la herramienta para la divulgación selectiva [selective disclosure]: eliges quién ve qué y nunca entregas autoridad de gasto para hacerlo.
 
@@ -12,7 +12,7 @@ Una clave de visualización es la herramienta para la divulgación selectiva [se
 
 Una clave de visualización concede acceso **de solo lectura** a la actividad de una dirección o cuenta blindada Zcash: quien la posee puede ver las transacciones entrantes (y, para las claves de visualización completas, salientes), pero nunca puede gastar.
 
-- **Qué es:** la herramienta de divulgación selectiva de los pools blindados. Introducida en [ZIP 310](https://zips.z.cash/zip-0310), añadida al protocolo en la actualización de red Sapling.
+- **Qué es:** la herramienta de divulgación selectiva [selective-disclosure] de los pools blindados [shielded pools], con capacidades que varían según el pool y el tipo de clave. [ZIP 310](https://zips.z.cash/zip-0310) documenta qué revela una clave de visualización completa [full viewing key] de Sapling y qué información está garantizada, no verificada, no definida o no revelada.
 - **Qué concede:** detección de depósitos (claves entrantes `uivk…`) o visibilidad completa de entrada/salida para una cuenta (claves de visualización completas unificadas `uview…`), y claves heredadas Sapling `zxviews…`.
 - **Qué no concede:** autoridad de gasto. Nada de lo que haga el titular de una clave de visualización puede mover fondos.
 - **Dónde funciona hoy:** exportación/importación en [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) y cuentas de solo visualización en billeteras como Zkool; consulta la página [Billeteras](/using-zcash/wallets) para ver la matriz de compatibilidad actual.

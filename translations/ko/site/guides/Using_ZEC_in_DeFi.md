@@ -220,7 +220,7 @@ Hydrex는 Base 생태계 내 거래 과정을 단순화하여 cbZEC에 대한 �
 
 ---
 
-### Curve(Base)
+### Curve (Base)
 
 [Curve Finance](https://www.curve.finance/dex/base/swap)는 슬리피지를 줄이도록 최적화된 AMM 메커니즘을 사용하여 유사한 특성의 자산을 거래하도록 설계된 탈중앙화 거래소입니다.
 
@@ -234,7 +234,7 @@ cbZEC와 Curve의 통합은 다음을 가능하게 합니다.
 
 Curve는 Base DeFi 생태계 내 cbZEC 유동성을 강화하는 데 도움이 됩니다.
 
-자세히 알아보기: [Curve(Base)](https://www.curve.finance/dex/base/pools/0xDEcb02dbB077a21C91CA122B97FeC756c1bBbB04)
+자세히 알아보기: [Curve (Base)](https://www.curve.finance/dex/base/pools/0xDEcb02dbB077a21C91CA122B97FeC756c1bBbB04)
 
 ---
 
@@ -260,7 +260,7 @@ DZap 통합은 DeFi 사용자에게 더 쉬운 접근을 제공함으로써 cbZE
 
 [Morpho](https://markets.morpho.org/fixed)는 자본 효율성이 매우 높은 대출 시장을 제공하는 탈중앙화 대출 프로토콜입니다.
 
-[Clearstar Labs](clearstar.xyz)는 Morpho를 통해 cbAssets Vault를 도입하여 cbZEC와 같은 자산을 대출 시장에서 사용할 수 있게 합니다.
+[Clearstar Labs](https://clearstar.xyz)는 Morpho를 통해 cbAssets Vault를 도입하여 cbZEC와 같은 자산을 대출 시장에서 사용할 수 있게 합니다.
 
 이 볼트를 통해 사용자는 다음을 할 수 있습니다.
 

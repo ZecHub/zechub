@@ -70,7 +70,7 @@ As decisões são registradas na especificação e ratificadas on-chain quando a
 
 Leia primeiro [nosso guia sobre exploradores de blocos](/guides/blockchain-explorers). Depois, consulte o [Explorador de blocos do Zcash](https://mainnet.zcashexplorer.app).
 
-As transações expiram após aproximadamente 25 minutos (20 blocos), e os fundos são devolvidos automaticamente.
+Não há um vencimento fixo de 25 minutos nem um temporizador de reembolso automático. Verifique a altura de expiração registrada pela sua carteira e se o pagamento original foi minerado. Se ele expirou sem ser minerado, não foi liquidado on-chain; a expiração não cria uma transação de reembolso. Deixe a carteira sincronizar antes de seguir as orientações para tentar novamente. Consulte [solução de problemas de transações](/using-zcash/transactions#troubleshooting-stuck-transactions) e [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Motivos comuns pelos quais uma transação pode não aparecer:**
 

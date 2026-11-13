@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # توجيه حركة مرور محفظة Zcash عبر Mixnet الخاصة بـ Nym
@@ -13,7 +13,7 @@
 1. **فضّل تكامل Nym الأصلي في المحفظة عند توفره.**
 2. وإلا، استخدم **وضع Mixnet على مستوى النظام في NymVPN** بحيث تُوجَّه حركة مرور شبكة المحفظة عبر Nym من دون الاعتماد على دعم وكيل خاص بالمحفظة.
 
-للاطلاع على معلومات عامة حول VPN وdVPN، راجع [VPN وdVPN](./VPN_and_DVPN.md).
+للاطلاع على معلومات عامة حول VPN وdVPN، راجع [VPN وdVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## ما الذي تضيفه Nym — وما الذي لا تضيفه
 

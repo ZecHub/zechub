@@ -1,4 +1,4 @@
-# Zcash Ọbá akwụkwọ
+# Ọbá akwụkwọ Zcash
 
 Nkowa okwu zuru oke nke isiokwu, echiche, na akụrụngwa ndị metụtara Zcash. Nke a bụ otu ọbá akwụkwọ maka ịchọ okwu sitere na ndetu mwepụta, mkparịta ụka ọgbakọ, ma ọ bụ ndekọ mgbanwe e-akpa ego.
 
@@ -186,7 +186,7 @@ Nkowa okwu zuru oke nke isiokwu, echiche, na akụrụngwa ndị metụtara Zcas
 | Testnet | Blockchain dị iche maka ịnwale mmelite na atụmatụ tupu mainnet. |
 | Trailing Finality Layer (TFL) | Nnyocha gbasara itinye oyi akwa ikpeazụ n'azụ chain proof-of-work nke Zcash ka e wee nwee ike mechie block ndị na-adịbeghị anya na-enweghị dochie ịgwụputa. Crosslink bụ atụmatụ sitere na ya pụta. |
 | Transaction | Kwụọ ụhwọ n'etiti ndị ọrụ, nke a na-etinye na network ma mechaa kwado ya n'ime block. |
-| Transaction Expiry | Azụmahia na-agwụ mgbe ihe dị ka nkeji 25 (block 20) gachara ma ọ bụrụ na ekwenyeghị ya; ego ahụ na-alọghachi ozugbo. |
+| Transaction Expiry | Oke ịdị elu block na-ekpebi mgbe a pụrụ itinye Kwụọ ụhwọ a na-egwupụtabeghị. Enwere ike ịgwọpụta Kwụọ ụhwọ nkịtị nke nwere ịdị elu ngwụcha N na-abụghị efu n'ime block N ma ọ bụ nke bu ya ụzọ, ma ọ bụghị na N+1. Ịdị elu nke 0 na-ewepụ ngwụcha. Nke a abụghị oge nkwụghachi ego akpaka. [ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | Ugwo ndabara bụ 0.0001 ZEC. Ugwo dị elu na-ebute ụzọ; ugwo dị ala nke ukwuu nwere ike ịkpata igbu oge ma ọ bụ ngwụcha. |
 | Transparent Address | A na-akpọkwa ya taddr. Ọ na-amalite na t. Ọ bụ nke ọha zuru oke (dị ka Bitcoin). |
 | Transparent Transaction | Azụmahia nke dị naanị n'etiti Adreesị akpa ego Oha — ihe niile na-ahụ anya n'ihu ọha. |

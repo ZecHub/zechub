@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Ledger Ɣaɣla [Shielded] ZEC Zãla ƒe Mɔfia
+
+> Lé, xɔ eye dɔ ɣaɣla (ɣaɣla) ZEC kple wò Ledger asikplɔwo dzra mɔ le Ledger Wallet Desktop me.
+
+## Nu si le eme kpuie
+
+* Ɣe 23 September 2026 dzi, Ledger Wallet Desktop doa alɔ ɣaɣla [shielded] ZEC. Zcash account ɖeka si ƒe nuwo ƒe ʋuʋuɖi [transparent] balance kple asitsotso ƒe balance le Ironwood gaƒuƒoƒo me.
+* Desktop ko wozã fifia. Woɖe gbe be mobile ƒe kpekpeɖeŋu "va kpɔe tso ɣeyiɣi kpui me".
+* Ele be wòanye kple Nano S Plus, Nano X, Stax alo Flex (menye Nano S gbedoxɔtɔ la o), Ledger Wallet Desktop 4.21+ kple Zcash app yeyetɔ.
+* Zi **Ɖo ɣaɣla dzi** [Enable shielded] zi ɖeka: wò Ledger doa nukpɔsafui [viewing key] ɖe go ale be desktop app la nakpɔ wò asitsotsowo. Gazazãsafui [spending key]wo medoa mɔkeke la dzi kpɔ o.
+* Xɔe ɖe asitsotso ƒe gaɖoƒe ƒe dzesi (u1...) dzi ne wòate ŋu. Ɖe ZEC tso wò nuwo ƒe ʋuʋuɖi balance me yi asitsotso me la ate ŋu awɔ dɔ, gake ekɔ ɖe eveawo.
+* Woate ŋu akpɔ gaɖoɖo ɖe sia ɖe dzi eye woaɖe asi ɖe eŋu le Ledger screen dzi. Kpɔ gaɖoƒe ƒe dzesiwo ɖe afi ma, agbalẽ ƒe dzesi ɖe sia ɖe.
+
+## Gɔmeɖeɖe Vevi [Core Explanation]
+
+Zcash ƒe balance ƒomevi eve le. Nuwo ƒe ʋuʋuɖi [transparent] ZEC (t1 gaɖoƒe ƒe dzesiwo) wɔa dɔ abe Bitcoin ene: Ga ƒe home kple gaɖoƒe ƒe dzesiwo le dukɔ ƒe ŋkume. Ɣaɣla [shielded] ZEC nɔa ɣaɣla gaƒuƒoƒo [pool] me, afi si ɣaɣlaŋlɔŋlɔ [encryption] le ame si dɔe, ame si xɔe kple ga ƒe home la dzi ɖoɖonu dzi [on-chain].
+
+Ledger dzra wò gazazãsafuiwo ɖe asikplɔ dzi. Be nàfia ɣaɣla balance, Ledger Wallet Desktop hia Unified Full Viewing Key (UFVK). Asikplɔ la ɖe e go zi ɖeka, eye desktop app la tsɔe le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la me di wò ɣaɣla didienuwo. Nukpɔsafui [viewing key] ate ŋu akpɔ wò ɣaɣla ŋutinya, gake mate ŋu azã ga o, eyata nàbu e be enye nya si wòle ŋutɔ.
+
+Afɔku siwo gbɔna la ƒe nuye nye be wòaɖo Zcash app la, nàtsɔ account aɖe akpe ɖe eŋu, nàna ɣaɣla [private] balance la nadɔ, nàxɔ ga, nàɣaɣla nuwo ƒe ʋuʋuɖi ZEC eye nàdo ga tso ɣaɣla balance la me.
+
+## Nukpɔkpɔ gbogblo
 
 Le September 23, 2026 la, Ledger tsɔ ɣaɣla ZEC si wòle eŋutɔ me kpe ɖe Ledger Wallet Desktop ŋu. Azɔ Zcash ƒe akɔnt ta ɖeka me le nuwo ƒe ʋuʋuɖi ƒe balance kple ame ŋutɔ ƒe balance le Zcash ƒe Ironwood gaƒuƒoƒo [pool] me. Wò ame ŋutɔ ƒe sarɔ̃wo nɔ anyi le wò Ledger dzi, eye woɖea gaɖoɖo [transaction] ɖe asi, dea kpɔe, eye wɔnɔa dzesi le mɔkeke la dzi.
 

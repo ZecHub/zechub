@@ -4,7 +4,7 @@
 
 # Funguo za kutazama
 
-Anwani za faragha [shielded addresses] hukuruhusu kufanya miamala huku ukifichua kiasi kidogo iwezekanavyo kwenye blockchain ya Zcash. Hivyo, nini hutokea unapohitaji kumwonyesha mhusika maalumu unachomiliki, au ulichotuma? Kila anwani ya faragha ina ufunguo wa kutazama [viewing key] unaotoa ufikiaji wa kusoma bila kutoa uwezo wa kutumia pesa. Funguo za kutazama zilianzishwa katika [ZIP 310](https://zips.z.cash/zip-0310) na kuongezwa kwenye itifaki katika uboreshaji wa mtandao [network upgrade] wa Sapling.
+Anwani za faragha [shielded addresses] hukuruhusu kufanya miamala huku ukifichua kiasi kidogo iwezekanavyo kwenye blockchain ya Zcash. Hivyo, nini hutokea unapohitaji *kweli* kumwonyesha mhusika maalumu unachomiliki, au ulichotuma? Ufunguo wa kutazama [viewing key] hutoa ufikiaji wa kusoma bila kutoa uwezo wa kutumia pesa. Funguo za kutazama tayari zilikuwepo kwa ajili ya Sprout; Sapling iliongeza uwezo kama vile kugundua wakati dokezo lililopokelewa linapotumiwa. [ZIP 310](https://zips.z.cash/zip-0310) ni rasimu ya taarifa inayorekodi sifa za usalama za funguo za kutazama za Sapling, wala si uboreshaji ulioanzisha funguo za kutazama.
 
 Ufunguo wa kutazama ni kifaa cha selective disclosure: unachagua ni nani aone nini, na kamwe humpi mamlaka ya kutumia pesa ili kufanya hivyo.
 
@@ -12,7 +12,7 @@ Ufunguo wa kutazama ni kifaa cha selective disclosure: unachagua ni nani aone ni
 
 Ufunguo wa kutazama hutoa ufikiaji wa **kusoma pekee** shughuli za anwani au akaunti ya faragha ya Zcash: yeyote anayeushikilia anaweza kuona miamala inayoingia (na, kwa funguo kamili za kutazama, inayotoka), lakini hawezi kamwe kutumia pesa.
 
-- **Ni nini:** Kifaa cha selective disclosure cha mabwawa ya faragha [shielded pools]. Kilianzishwa katika [ZIP 310](https://zips.z.cash/zip-0310), na kuongezwa kwenye itifaki katika uboreshaji wa mtandao wa Sapling.
+- **Ni nini:** Kifaa cha selective disclosure cha mabwawa ya faragha, chenye uwezo unaotofautiana kulingana na bwawa na aina ya ufunguo. [ZIP 310](https://zips.z.cash/zip-0310) kinaeleza kile ambacho ufunguo kamili wa kutazama wa Sapling hufichua na taarifa zipi zimehakikishwa, hazijathibitishwa, hazijafafanuliwa au hazijafichuliwa.
 - **Kinachotoa:** Utambuzi wa amana (funguo za kuingia za `uivk…`) au uwezo kamili wa kuona kinachoingia/kinachotoka kwa akaunti (funguo kamili zilizounganishwa za kutazama za `uview…`), pamoja na funguo za zamani za Sapling `zxviews…`.
 - **Kisichotoa:** Mamlaka ya kutumia pesa. Hakuna chochote anachofanya mmiliki wa ufunguo wa kutazama kinachoweza kuhamisha fedha.
 - **Mahali kinapofanya kazi leo:** Kuuza nje/kuingiza katika [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) na akaunti za kutazama pekee katika pochi kama Zkool; tazama ukurasa wa [Pochi](/using-zcash/wallets) kwa jedwali la sasa la usaidizi.

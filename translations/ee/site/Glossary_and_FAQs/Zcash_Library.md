@@ -181,12 +181,12 @@ Nya veviwo, nunyaɖeɖewo, kple nuŋuti siwo kɔ ɖe Zcash ŋu ƒe nyagbalẽ bl
 
 | Nya | Gɔmeɖeɖe |
 |------|-----------|
-| Tachyon | Zcash ƒe nu ƒe dziyiyi [scaling] ƒe ɖoɖo. Menye NU7 ƒe akpa ([ZIP 259](https://zips.z.cash/zip-0259)) o, eye dɔmedzeŋkeke aɖeke mele eŋu o. Etsɔa gakotokuwo tso gaɖoɖowo ƒuƒoƒe sia ɖe sia ƒe kpɔkpɔ me yi gakotoku ƒe nɔnɔ si ɖaseɖigbalɛ [proof] le, nyatakaka manya sync kple ɣaɣla dzesi ŋɔŋlɔ ƒe nɔnɔ si woate ŋu atso akpa aɖe, eye wòdi be ɣaɣla gaɖoɖowo nakpe ɖe alafa geɖe ƒe gaɖoɖowo le sekondi sia sekondi me ŋu. [Dɔa ƒe nɔƒe](https://tachyon.z.cash/overview/) |
-| TAZ | Testnet Zcash (test ƒe ga si me home aɖeke mele o). |
-| Testnet | Gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu bubu aɖe hena mɔ̃ ƒe sewo trɔtrɔwo kple nɔnɔ yeyewo ƒe dodokpɔ hafi mainnet. |
-| Trailing Finality Layer (TFL) | Nunyanya si le ɖe finality layer aɖe tsɔtsɔ ɖe Zcash ƒe proof-of-work ɖoɖonu megbe, ale be woate ŋu akaka gaɖoɖowo ƒuƒoƒe yeyeawo ɖo ne woatrɔ nukuku o. Crosslink nye ɖoɖo si do tso eŋu. |
-| Transaction | Fexexe si dzɔa ameawo dome, si wotsɔ ɖo network la ŋu eye wòkaka ɖo le gaɖoɖowo ƒuƒoƒe aɖe me mlɔeba. |
-| Transaction Expiry | Ne womekaka gaɖoɖowo ɖo o le minuti 25 kple gaɖoɖowo ƒuƒoƒe 20 ƒe ŋkeke me la, wova; ga la gatrɔa gbɔ ɖokui. |
+| Tachyon | Zcash ƒe nu ƒe dziyiyi [scaling] ƒe ɖoɖo. Menye NU7 ƒe akpa ([ZIP 259](https://zips.z.cash/zip-0259)) o, eye dɔmedzeŋkeke aɖeke mele eŋu o. Etsɔa gakotoku [wallet]wo tsoa gaɖoɖowo ƒuƒoƒe [block] sia ɖe sia ƒe kpɔkpɔ me yi gakotoku ƒe nɔnɔ si ɖaseɖigbalɛ [proof] le, manya sync kple ɣaɣla dzesi ŋɔŋlɔ [node] ƒe nɔnɔ si woate ŋu atso akpa aɖe, eye wòdi be ɣaɣla [shielded] gaɖoɖowo nakpe ɖe alafa geɖe ƒe gaɖoɖowo le sekondi sia sekondi me ŋu. [Dɔa ƒe nɔƒe](https://tachyon.z.cash/overview/) |
+| TAZ | Testnet Zcash (dodokpɔ ƒe ga si me home aɖeke mele o). |
+| Testnet | Gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] bubu aɖe hena mɔ̃ ƒe sewo trɔtrɔwo [network upgrade] kple nɔnɔ yeyewo ƒe dodokpɔ hafi mainnet. |
+| Trailing Finality Layer (TFL) | Nunyanya si le ɖe finality layer aɖe tsɔtsɔ ɖe Zcash ƒe proof-of-work ɖoɖonu [chain] megbe, ale be woate ŋu akaka gaɖoɖowo ƒuƒoƒe yeyeawo ɖo ne woatrɔ nukuku [mining] o. Crosslink nye ɖoɖo si do tso eŋu. |
+| Transaction | Fexexe [payment] si dzɔa ameawo dome, si wotsɔ ɖo network la ŋu eye wòkaka ɖo le gaɖoɖowo ƒuƒoƒe aɖe me mlɔeba. |
+| Transaction Expiry | Gaɖoɖowo ƒuƒoƒe ƒe teƒe ƒe se si dea ɣeyiɣi si me woate ŋu atsɔ fexexe si womewu kuku o ade eme. Fexexe gbɔtɔ si ƒe ɣeyiɣi va ƒe teƒe N menye 0 o la, woate ŋu awu kuku le gaɖoɖowo ƒuƒoƒe N alo esi va do ŋgɔe me, ke menye N+1 me o. Teƒe 0 naa ɣeyiɣi va ƒe dɔwɔwɔ tsi. Menye ga ƒe trɔtrɔ ɖokui ƒe gaƒoƒo o. [ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | Adzɔ [fee] si wodea ɖo le gɔmedzeƒe nye 0.0001 ZEC. Adzɔ siwo kɔ wu la xɔa gɔmedze; adzɔ siwo menɔ eme o aɖeate ŋu ana gaɖoɖo nadze ɣeyiɣi alo nava. |
 | Transparent Address | Wogayɔe be taddr hã. Edzea egɔme kple t. Eƒe nuwo katã le ʋuʋuɖi me (abe Bitcoin ene). |
 | Transparent Transaction | Gaɖoɖo si dzɔa nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo dome koe — nu sia nu le ʋuʋuɖi me na ame sia ame. |

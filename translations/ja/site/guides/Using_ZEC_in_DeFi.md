@@ -49,7 +49,7 @@ Maya Protocolは、分散性、流動性、トランザクションのプライ�
 
 SolanaラップドZECを利用することで、ユーザーはKaminoのEarnおよびLending機能にアクセスでき、分散型の流動性提供および貸付メカニズムを通じてZECを生産的な資産として利用できます。これにより、Zcashの機能はプライベートな支払い資産から、分散型金融活動に参加できる資産へと拡張されます。
 
-Kaminoとの統合により、Zcashは、高速なトランザクション、低い手数料、幅広いスマートコントラクトベースの金融アプリケーションを特徴とするSolanaDeFiエコシステムに参入する機会を得ます。
+Kaminoとの統合により、Zcashは、高速なトランザクション、低い手数料、幅広いスマートコントラクトベースの金融アプリケーションを特徴とするSolana DeFiエコシステムに参入する機会を得ます。
 
 詳細：[Kamino 詳細](https://kamino.com/docs/learn/guides)
 
@@ -136,7 +136,7 @@ cbZECは、ZECユーザーがZcashエコシステムへのエクスポージャ�
 
 [Baseネットワーク](https://www.base.org/)を通じて、cbZECはEthereum Layer-2環境内で利用できるZECの表現として機能します。これにより、ユーザーはメインのEthereumネットワークと比較して低いトランザクション手数料と迅速な確認で、資産を交換し、流動性を提供し、貸付市場にアクセスし、さまざまなDeFiサービスを利用できます。
 
-cbZECをさまざまなBaseDeFiプラットフォームに統合すること[](https://x.com/base/status/2094848959986409953?s=20)により、Zcashの有用性は単なる支払い資産から、幅広い分散型金融活動で利用できる資産へと拡張されます。
+cbZECをさまざまなBase DeFiプラットフォームに[統合](https://x.com/base/status/2094848959986409953?s=20)することで、Zcashの有用性は単なる支払い資産から、幅広い分散型金融活動で利用できる資産へと拡張されます。
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
@@ -160,7 +160,7 @@ cbZECのサポートにより、ユーザーは以下を行えます。
 - cbZEC流動性を提供してトランザクション手数料を獲得する。
 - Baseの中核的な流動性エコシステムに参加する。
 
-この統合により、AerodromeはZcashユーザーがBaseDeFi市場にアクセスする主要な経路の1つとなります。
+この統合により、AerodromeはZcashユーザーがBaseのDeFi市場にアクセスする主要な経路の1つとなります。
 
 詳細：[Aerodrome Slipstream](https://aerodrome.finance/swap?from=0x833589fcd6edb6e08f4c7c32d4f71b54bda02913&to=0xb2000000000000000000008501b13360000cb2ec&chain0=8453&chain1=8453)
 
@@ -232,7 +232,7 @@ cbZECとCurveの統合により、以下が可能になります。
 - より効率的な流動性提供。
 - より安定したcbZEC市場の発展。
 
-Curveは、BaseDeFiエコシステム内におけるcbZECの流動性強化に役立ちます。
+Curveは、BaseのDeFiエコシステム内におけるcbZECの流動性強化に役立ちます。
 
 詳細：[Curve (Base)](https://www.curve.finance/dex/base/pools/0xDEcb02dbB077a21C91CA122B97FeC756c1bBbB04)
 
@@ -260,7 +260,7 @@ DZapの統合は、DeFiユーザーにより簡単なアクセスを提供する
 
 [Morpho](https://markets.morpho.org/fixed)は、高い資本効率を持つ貸付市場を提供する分散型貸付プロトコルです。
 
-[Clearstar Labs](clearstar.xyz)は、Morphoを通じてcbAssets Vaultを導入し、cbZECのような資産を貸付市場で利用可能にします。
+[Clearstar Labs](https://clearstar.xyz)は、Morphoを通じてcbAssets Vaultを導入し、cbZECのような資産を貸付市場で利用可能にします。
 
 このボールトを通じて、ユーザーは以下を行えます。
 

@@ -70,7 +70,7 @@ A na-ede mkpebi n’ime nkọwapụta ahụ ma kwado ha on-chain mgbe network na
 
 Buru ụzọ gụọ [ntuziaka anyị gbasara ndị nyocha block](/guides/blockchain-explorers). Mgbe ahụ lelee [Zcash Onye Nchọpụta Block](https://mainnet.zcashexplorer.app).
 
-Azụmahia na-agwụ mgbe ihe dị ka nkeji 25 (block 20) gachara, a na-eweghachikwa ego ahụ ozugbo.
+Enweghị oge ngwụcha nkeji 25 a kapịrị ọnụ ma ọ bụ oge nkwụghachi ego akpaka. Lelee ogo ngwụcha e dekọrọ na e-akpa ego [wallet] gị na ma egwupụtara Kwụọ ụhwọ mbụ. Ọ bụrụ na ọ gwụrụ n'egwupụtaghị ya, emeghị ya na on-chain [on-chain]; ngwụcha anaghị emepụta Azụmahia nkwụghachi ego. Kwe ka e-akpa ego ahụ mekọrịta tupu ị soro ntụziaka ịnwale ọzọ ya. Hụ [nchọpụta nsogbu Azụmahia](/using-zcash/transactions#troubleshooting-stuck-transactions) na [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Ihe ndị a na-ahụkarị mere Azụmahia nwere ike ghara ịpụta:**
 

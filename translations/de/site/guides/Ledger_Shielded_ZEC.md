@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Ledger Shielded ZEC Benutzerhandbuch
+
+> Halte, empfange und sende private (shielded) ZEC mit deiner Ledger Hardware-Wallet in Ledger Wallet Desktop.
+
+## Kurz gesagt
+
+* Seit dem 23. September 2026 unterstützt Ledger Wallet Desktop abgeschirmte ZEC. Ein Zcash-Konto hat ein transparentes Guthaben und ein privates Guthaben im Ironwood-Pool.
+* Vorerst nur Desktop. Mobile Unterstützung ist als „kommt bald“ angekündigt.
+* Sie benötigen ein Nano S Plus, Nano X, Stax oder Flex (nicht das ursprüngliche Nano S), Ledger Wallet Desktop 4.21+ und die neueste Zcash-App.
+* Klicken Sie einmal auf **Abschirmung aktivieren**: Ihr Ledger exportiert einen Viewing Key, damit die Desktop-App Ihre privaten Mittel finden kann. Spending Keys verlassen das Gerät niemals.
+* Empfangen Sie, wenn möglich, an die private Adresse (u1...). Das Verschieben von ZEC aus Ihrem transparenten Guthaben in den privaten Bereich funktioniert, verknüpft jedoch beide.
+* Jede Überweisung wird auf dem Bildschirm des Ledger überprüft und signiert. Prüfen Sie die Adressen dort Zeichen für Zeichen.
+
+## Grundlegende Erklärung
+
+Zcash hat zwei Arten von Guthaben. Transparentes ZEC (t1-Adressen) funktioniert wie Bitcoin: Beträge und Adressen sind öffentlich. Abgeschirmtes ZEC befindet sich in einem abgeschirmten Pool, in dem Sender, Empfänger und Betrag on-chain verschlüsselt sind.
+
+Ledger bewahrt Ihre Ausgabeschlüssel auf dem Hardwaregerät auf. Um ein privates Guthaben anzuzeigen, benötigt Ledger Wallet Desktop einen Unified Full Viewing Key (UFVK). Das Gerät exportiert ihn einmal, und die Desktop-App verwendet ihn, um die blockchain nach Ihren shielded Notes zu durchsuchen. Ein Viewing Key kann Ihre shielded Historie einsehen, aber keine Ausgaben tätigen. Behandeln Sie ihn daher als private Information.
+
+Die folgenden Schritte behandeln die Installation der Zcash-App, das Hinzufügen eines Kontos, das Aktivieren des privaten Guthabens, das Empfangen, das Abschirmen von transparenten ZEC und das Senden aus dem privaten Guthaben.
+
+## Überblick
 
 Am 23. September 2026 fügte Ledger native Shielded-Unterstützung für ZEC zu Ledger Wallet Desktop hinzu. Ein Zcash-Konto enthält nun ein transparentes Guthaben und ein privates Guthaben im Ironwood-Pool von Zcash. Ihre privaten Schlüssel verbleiben auf Ihrem Ledger, und jede Transaktion wird auf dem Gerät überprüft und signiert.
 

@@ -148,13 +148,13 @@ Kurulum prosedürleri, bir devreyi özetleyip açık parametreler üreterek doğ
 
 **Ön işleme kurulum türleri**:
 
-Devre başına Güvenilir Kurulum - Devre başına bir kez çalıştırılır. Bir devreye özeldir ve gizli rastgeleliğin (Common Reference String) gizli tutulması ve yok edilmesi gerekir. 
+Devre başına güvenilir kurulum - Her devre için ayrı ayrı gerçekleştirilir. Ortaya çıkan ortak referans dizgesi (CRS), kanıtlayıcılar ve doğrulayıcılar tarafından kullanılan herkese açık parametreleri içerir. Gizli tutulması ve yok edilmesi gereken şey CRS değil, gizli ara kurulum malzemesidir ("toxic waste"). ECC'ın [herkese açık parametre açıklaması](https://zodl.com/snark-parameters/) ikisini birbirinden ayırır.
 
-Bu yöntemde tehlikeye girmiş bir kurulum, dürüst olmayan bir ispatlayıcının yanlış ifadeleri kanıtlayabilmesi anlamına gelir. 
+Gerekli gizli kurulum materyali saklanır veya geri elde edilirse, dürüst olmayan bir ispatlayıcı yanlış ifadelerin ispatlarını üretebilir. Bir MPC töreninde güvenlik, en az bir katılımcının protokolü izlemesine ve gizli katkısını yok etmesine bağlı olabilir.
 
-Güvenilir ama Evrensel Kurulum - Güvenilir kurulumu yalnızca bir kez çalıştırması gerekir ve ardından birden fazla devreyi deterministik olarak ön işleyebilir. 
+Güvenilir ama evrensel kurulum - Tek bir güvenilir kurulum, desteklenen boyut sınırları içindeki birden fazla devre için ispatlama ve doğrulama anahtarlarının türetilmesinde kullanılabilecek parametreler üretir. Bu yaklaşım hâlâ gizli bilginin imha edilmesi varsayımını taşır; evrensel, şeffaf anlamına gelmez.
 
-Şeffaf Kurulum (Güvenilir Kurulum Yok)- Ön işleme algoritması hiçbir gizli rastgelelik kullanmaz. 
+Şeffaf kurulum (güvenilir kurulum yok) - Kamu parametreleri, birinin yok edeceğine güvenilmesi gereken gizli bir kurulum arka kapısı olmadan üretilebilir. Bu, ispatlamanın hiç rastgelelik kullanmadığı veya sistemin kamu parametreleri olmadığı anlamına gelmez. [Halo 2 kitabı](https://zcash.github.io/halo2/background/pc-ipa.html#setup) kamu grup parametrelerine bir örnek verir.
 
 
 **SNARK kanıt yapısı türleri**:

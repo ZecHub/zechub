@@ -4,7 +4,7 @@
 
 # Viewing Keys
 
-Alamat terlindungi memungkinkan Anda bertransaksi dengan mengungkap sesedikit mungkin informasi pada blockchain Zcash. Jadi, apa yang terjadi ketika Anda *perlu* menunjukkan kepada pihak tertentu apa yang Anda miliki, atau apa yang Anda kirim? Setiap alamat terlindungi memiliki viewing key yang memberikan akses baca tanpa memberikan kemampuan untuk membelanjakan dana. Viewing key diperkenalkan pada [ZIP 310](https://zips.z.cash/zip-0310) dan ditambahkan ke protokol dalam peningkatan jaringan Sapling.
+Alamat terlindungi memungkinkan Anda bertransaksi dengan mengungkap sesedikit mungkin informasi pada blockchain Zcash. Jadi, apa yang terjadi ketika Anda *perlu* menunjukkan kepada pihak tertentu apa yang Anda miliki, atau apa yang Anda kirim? Sebuah viewing key memberikan akses baca tanpa memberikan kemampuan untuk membelanjakan. Viewing key sudah ada untuk Sprout; Sapling menambahkan kemampuan seperti mendeteksi ketika note yang diterima dibelanjakan. [ZIP 310](https://zips.z.cash/zip-0310) adalah draf informasional yang mendokumentasikan properti keamanan viewing key Sapling, bukan peningkatan yang memperkenalkan viewing key.
 
 Viewing key adalah tools untuk pengungkapan selektif: Anda memilih siapa yang dapat melihat apa, dan Anda tidak pernah menyerahkan otoritas spending untuk melakukannya.
 
@@ -12,7 +12,7 @@ Viewing key adalah tools untuk pengungkapan selektif: Anda memilih siapa yang da
 
 Sebuah viewing key memberikan akses **hanya-baca** ke aktivitas alamat atau akun Zcash terlindungi: siapa pun yang memilikinya dapat melihat transaksi masuk (dan, untuk full viewing key, transaksi keluar), tetapi tidak pernah dapat membelanjakan.
 
-- **Apa itu:** alat pengungkapan selektif dari pool terlindungi. Diperkenalkan dalam [ZIP 310](https://zips.z.cash/zip-0310), ditambahkan ke protokol dalam peningkatan jaringan Sapling.
+- **Apa itu:** alat pengungkapan selektif dari pool terlindungi, dengan kemampuan yang berbeda menurut pool dan jenis key. [ZIP 310](https://zips.z.cash/zip-0310) mendokumentasikan informasi yang diungkapkan oleh viewing key penuh Sapling serta informasi yang dijamin, tidak diverifikasi, tidak didefinisikan, atau tidak diungkapkan.
 - **Apa yang diberikannya:** deteksi deposit (`uivk…` incoming keys) atau visibilitas masuk/keluar penuh untuk sebuah akun (`uview…` unified full viewing keys), serta key lama Sapling `zxviews…`.
 - **Apa yang tidak diberikannya:** otoritas untuk membelanjakan. Tidak ada tindakan pemegang viewing key yang dapat memindahkan dana.
 - **Di mana ini berfungsi saat ini:** ekspor/impor di [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) dan akun watch-only di dompet seperti Zkool; lihat halaman [Dompet](/using-zcash/wallets) untuk matriks dukungan terkini.

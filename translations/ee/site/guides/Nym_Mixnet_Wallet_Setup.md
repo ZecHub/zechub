@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Axa"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Axa ƒe trɔtrɔ"/>
 </a>
 
 # Ɖo Zcash Gakotoku [wallet] Ƒe Network Trafiki To Nym Mixnet Dzi
@@ -13,7 +13,7 @@ Nym tsɔa network ɣaɣla [privacy] ƒe keke mawu bubu kpe ɖe eŋu. Le Septembe
 1. **Tia gakotoku ƒe Nym integration si wotu ɖe eme le eŋu ne wònɔ anyi.**
 2. Ne menye nenema o la, zã **system-level NymVPN Mixnet mode** be woato gakotoku ƒe network trafiki to Nym dzi, eye wòmagaɖe asi ɖe gakotoku tɔxɛ proxy ƒe kpekpeɖeŋu ŋu o.
 
-Ne nàdi VPN kple dVPN ƒe nyagblɔɖi gbogblɔ, kpɔ [VPN & dVPN](./VPN_and_DVPN.md).
+Ne nàdi VPN kple dVPN ƒe nyagblɔɖi gbogblɔ, kpɔ [VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## Nu si Nym tsɔna kpe ɖe eŋu — kple nu si wòmeɖe wɔm o
 

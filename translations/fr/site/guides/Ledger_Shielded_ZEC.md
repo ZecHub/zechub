@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Guide de l'utilisateur Ledger Shielded ZEC
+
+> Détenez, recevez et envoyez des ZEC privés (shielded) avec votre portefeuille matériel Ledger dans Ledger Wallet Desktop.
+
+## En bref
+
+* Depuis le 23 septembre 2026, Ledger Wallet Desktop prend en charge les ZEC protégés. Un compte Zcash possède un solde transparent et un solde privé dans le pool Ironwood.
+* Uniquement sur ordinateur pour le moment. La prise en charge mobile est annoncée comme « bientôt disponible ».
+* Vous avez besoin d'un Nano S Plus, Nano X, Stax ou Flex (et non du Nano S d'origine), de Ledger Wallet Desktop 4.21+ et de la dernière application Zcash.
+* Cliquez une fois sur **Activer le mode protégé** : votre Ledger exporte une clé de visualisation afin que l'application de bureau puisse trouver vos fonds privés. Les clés de dépense ne quittent jamais l'appareil.
+* Recevez sur l'adresse privée (u1...) lorsque vous le pouvez. Déplacer des ZEC de votre solde transparent vers le solde privé fonctionne, mais relie les deux.
+* Chaque envoi est vérifié et signé sur l'écran Ledger. Vérifiez les adresses sur cet écran, caractère par caractère.
+
+## Explication fondamentale
+
+Zcash possède deux types de solde. Les fonds transparents ZEC (adresses t1) fonctionnent comme Bitcoin : les montants et les adresses sont publics. Les fonds protégés ZEC se trouvent dans un pool protégé, où l'expéditeur, le destinataire et le montant sont chiffrés on-chain.
+
+Ledger conserve vos clés de dépense sur le dispositif matériel. Pour afficher un solde privé, Ledger Wallet Desktop a besoin d’une Full Viewing Key unifiée (UFVK). L’appareil l’exporte une seule fois, et l’application de bureau l’utilise pour analyser la blockchain à la recherche de vos notes protégées. Une clé de visualisation peut consulter votre historique protégé, mais ne permet pas de dépenser des fonds ; considérez-la donc comme une information privée.
+
+Les étapes ci-dessous couvrent l’installation de l’application Zcash, l’ajout d’un compte, l’activation du solde privé, la réception, la mise à l’abri des ZEC transparents et l’envoi depuis le solde privé.
+
+## Aperçu
 
 Le 23 septembre 2026, Ledger a ajouté la prise en charge native de ZEC shielded à Ledger Wallet Desktop. Un compte Zcash contient désormais un solde transparent et un solde privé dans le pool Ironwood de Zcash. Vos clés privées restent sur votre Ledger, et chaque transaction est examinée et signée sur l'appareil.
 
