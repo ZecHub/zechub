@@ -250,7 +250,7 @@
 - Wallet Support: Hardware
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
-- NU7: Not Ready
+- NU7: Compatible
 
 ---
 
