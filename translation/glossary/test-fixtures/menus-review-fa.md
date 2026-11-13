@@ -28,11 +28,11 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 
 | # | ID | English | Persian | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | navigation.wallets | Wallets | کیف‌پول‌ها | کیف های پول | These are the better terms for Persian speakers. |
+| 1 | navigation.wallets | Wallets | کیف‌پول‌ها | کیف‌پول‌ها | These are the better terms for Persian speakers. [#2663 follow-up] |
 | 2 | navigation.guides | Guides | راهنمایان | راهنماها | Header bar: keep it short / These are the better terms for Persian speakers. |
 | 3 | navigation.tutorials | Tutorials | آموزش‌ها | OK |  |
 | 4 | navigation.governance | Governance | حکمرانی | OK |  |
-| 5 | navigation.visualizer | Visualizer | Visualizer | تصویر ساز | These are the better terms for Persian speakers. |
+| 5 | navigation.visualizer | Visualizer | Visualizer | تصویرساز | These are the better terms for Persian speakers. [#2663 follow-up] |
 | 6 | navigation.dao | DAO | DAO | OK |  |
 | 7 | navigation.newsletter | Newsletter | خبرنامه | OK |  |
 | 8 | navigation.donate | Donate | حمایت مالی | OK |  |
@@ -45,24 +45,24 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 15 | navigation.usingZcash.label | Use Zcash | استفاده از Zcash | OK | Header bar: keep it short |
 | 16 | navigation.usingZcash.buyingZec | Buying ZEC | خرید ZEC | OK |  |
 | 17 | navigation.usingZcash.faucets | Faucets | فاست‌ها | OK |  |
-| 18 | navigation.usingZcash.wallets | Wallets | کیف‌پول‌ها | کیف های پول | These are the better terms for Persian speakers. |
+| 18 | navigation.usingZcash.wallets | Wallets | کیف‌پول‌ها | کیف‌پول‌ها | These are the better terms for Persian speakers. [#2663 follow-up] |
 | 19 | navigation.usingZcash.exchanges | Exchanges | صرافی‌ها | OK |  |
-| 20 | navigation.usingZcash.blockExplorers | Block Explorers | کاوشگرهای بلاک | اکسپلورر های بلوک | This is how we actually say these things. |
+| 20 | navigation.usingZcash.blockExplorers | Block Explorers | کاوشگرهای بلاک | اکسپلوررهای بلوک | This is how we actually say these things. [half-space added at import (reviewer OK on #2663)] |
 | 21 | navigation.usingZcash.shieldedPools | Shielded Pools | استخرهای محافظت‌شده | OK |  |
 | 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | آدرس‌های شفاف صرافی | OK |  |
 | 23 | navigation.usingZcash.transactions | Transactions | تراکنش‌ها | OK |  |
 | 24 | navigation.usingZcash.memos | Memos | یادداشت‌ها | OK |  |
-| 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | لوازم جانبی موبایل | top up موبایل | We partially use the same word in our language, but the mobile part should be written in Persian. |
+| 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | لوازم جانبی موبایل | شارژ موبایل | We partially use the same word in our language, but the mobile part should be written in Persian. [#2663 follow-up] |
 | 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | URIهای درخواست پرداخت | OK |  |
 | 27 | navigation.usingZcash.paymentProcessors | Payment Processors | پردازشگرهای پرداخت | OK |  |
 | 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | بازیابی دارایی‌ها | OK |  |
 | 29 | navigation.usingZcash.tools | Tools | ابزارها | OK |  |
-| 30 | navigation.usingZcash.useCases | Use Cases | کاربردها | OK |  |
+| 30 | navigation.usingZcash.useCases | Use Cases | کاربردها | کاربردها | [#2663 follow-up] |
 | 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | از اینجا شروع کنید | OK |  |
 | 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | پذیرش پرداخت | OK |  |
 | 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | حریم خصوصی فریلنسرها | OK |  |
 | 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | حریم خصوصی روزنامه‌نگاران | حریم خصوصی خبرنگاران | These should be descriptive: they are not known in Persian communities, so they need some description. |
-| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | ثبت سوابق | نگه داشتن سوابق | These should be descriptive: they are not known in Persian communities, so they need some description. |
+| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | ثبت سوابق | نگه‌داشتن سوابق | These should be descriptive: they are not known in Persian communities, so they need some description. [half-space added at import (reviewer OK on #2663)] |
 | 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | خزانه خصوصی جامعه | خزانه خصوصی کامیونیتی | Community (کامیونیتی) is widely used in Persian. |
 | 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | کمک‌های مالی | OK |  |
 | 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | ارسال خصوصی پول | OK |  |
@@ -132,9 +132,9 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 23 | menuLabels.Guides | Guides | راهنماها | OK |  |
 | 24 | menuLabels.How to Participate | How to Participate | چگونه مشارکت کنیم | OK |  |
 | 25 | menuLabels.Journalist Privacy | Journalist Privacy | حریم خصوصی روزنامه‌نگاران | حریم خصوصی خبرنگاران | These should be descriptive: they are not known in Persian communities, so they need some description. |
-| 26 | menuLabels.Keeping Records | Keeping Records | ثبت سوابق | نگه داشتن سوابق | These should be descriptive: they are not known in Persian communities, so they need some description. |
+| 26 | menuLabels.Keeping Records | Keeping Records | ثبت سوابق | نگه‌داشتن سوابق | These should be descriptive: they are not known in Persian communities, so they need some description. [half-space added at import (reviewer OK on #2663)] |
 | 27 | menuLabels.Memos | Memos | یادداشت‌ها | OK |  |
-| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | شارژ موبایل | top up موبایل | We partially use the same word in our language, but the mobile part should be written in Persian. |
+| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | شارژ موبایل | شارژ موبایل | We partially use the same word in our language, but the mobile part should be written in Persian. [#2663 follow-up] |
 | 29 | menuLabels.Newsletter | Newsletter | خبرنامه | OK |  |
 | 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN | OK |  |
 | 31 | menuLabels.Payment Processors | Payment Processors | پردازشگرهای پرداخت | OK |  |
@@ -155,15 +155,15 @@ Rows marked "Header bar: keep it short" sit side by side in the desktop header b
 | 46 | menuLabels.Transactions | Transactions | تراکنش‌ها | OK |  |
 | 47 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | آدرس‌های شفاف صرافی | OK |  |
 | 48 | menuLabels.Tutorials | Tutorials | آموزش‌ها | OK |  |
-| 49 | menuLabels.Use Cases | Use Cases | پرونده‌ها | OK |  |
+| 49 | menuLabels.Use Cases | Use Cases | پرونده‌ها | کاربردها | [#2663 follow-up] |
 | 50 | menuLabels.Using ZEC Privately | Using ZEC Privately | استفاده خصوصی از ZEC | OK |  |
 | 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | استفاده از ZEC در DeFi | OK |  |
 | 52 | menuLabels.Using Zcash | Using Zcash | استفاده از Zcash | OK |  |
 | 53 | menuLabels.Visual Identity | Visual Identity | هویت بصری | OK |  |
-| 54 | menuLabels.Visualizer | Visualizer | Visualizer | تصویر ساز | These are the better terms for Persian speakers. |
+| 54 | menuLabels.Visualizer | Visualizer | Visualizer | تصویرساز | These are the better terms for Persian speakers. [#2663 follow-up] |
 | 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | نمایش آدرس‌های Zcash | تصویرسازی آدرس‌های Zcash | These are the correct terms. |
 | 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | نمایش شبکه Zcash | تصویرسازی شبکه Zcash | These are the correct terms. |
-| 57 | menuLabels.Wallets | Wallets | کیف‌پول‌ها | کیف های پول | These are the better terms for Persian speakers. |
+| 57 | menuLabels.Wallets | Wallets | کیف‌پول‌ها | کیف‌پول‌ها | These are the better terms for Persian speakers. [#2663 follow-up] |
 | 58 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | دموی FROST در Ywallet | OK |  |
 | 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIPها و گرنت‌ها | OK |  |
 | 60 | menuLabels.Zcash Community | Zcash Community | جامعه Zcash | کامیونیتی Zcash | Community (کامیونیتی) is widely used in Persian. |
