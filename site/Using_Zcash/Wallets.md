@@ -157,7 +157,7 @@
 
 ---
 
-## [MetaMask Snap](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/)
+## [MetaMask Snap](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/)
 ![logo](/content-images/wallets/metamask-snap.webp "MetaMask")
 - Devices: Web
 - Operating System: Browser
