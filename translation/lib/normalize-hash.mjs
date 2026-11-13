@@ -16,8 +16,8 @@
 // strip without risk of hiding a real prose change:
 //   1. line endings          CRLF / CR  -> LF
 //   2. volatile frontmatter  date-like metadata keys are dropped
-//   3. trailing whitespace   stripped per line
-//   4. trailing blank lines  collapsed to exactly one final newline
+//   3. trailing whitespace   stripped in prose, preserved in code blocks
+//   4. trailing blank lines  collapsed outside an unclosed code fence
 //
 // It intentionally does NOT try to canonicalize markdown formatting (heading
 // styles, list markers, reflowed paragraphs, blank-line runs inside the body).
@@ -101,7 +101,11 @@ export function normalizeMarkdown(text) {
     out = ["---", ...kept, "---", body].join("\n");
   }
 
-  // 3. trailing whitespace per line — but PRESERVE a Markdown hard line break
+  // 3. Code-block whitespace can change string values or example output.
+  // Keep it verbatim, including conservatively recognised indented code.
+  // Closing fences must match the opening type/length and contain no text.
+  let openFence = null;
+  // In prose, PRESERVE a Markdown hard line break
   //    (a run of >=2 trailing spaces). Collapsing "line  \n" to "line\n" would
   //    hide a real rendering change (added/removed hard break) → missed
   //    staleness. Incidental trailing whitespace (a single space, or tabs) is
@@ -109,14 +113,28 @@ export function normalizeMarkdown(text) {
   //    spaces so " x   " and " x  " don't spuriously differ.
   out = out
     .split("\n")
-    .map((line) =>
-      line.replace(/[ \t]+$/, (run) => (/^ {2,}$/.test(run) ? "  " : "")),
-    )
+    .map((line) => {
+      const fence = line.match(/^ {0,3}(`{3,}|~{3,})(.*)$/);
+      if (openFence !== null) {
+        if (fence && fence[1][0] === openFence[0] &&
+            fence[1].length >= openFence.length && /^[ \t]*$/.test(fence[2]))
+          openFence = null;
+        return line;
+      }
+      // A backtick in the info string means this is not a fence opener.
+      if (fence && !(fence[1][0] === "`" && fence[2].includes("`"))) {
+        openFence = fence[1];
+        return line;
+      }
+      if (/^(?: {4}|\t).*\S/.test(line)) return line;
+      return line.replace(/[ \t]+$/, (run) => (/^ {2,}$/.test(run) ? "  " : ""));
+    })
     .join("\n");
 
-  // 4. exactly one final newline (drops trailing blank lines; guarantees a
-  //    terminating newline even if the file had none).
-  out = out.replace(/\n+$/, "") + "\n";
+  // 4. Blank lines at EOF are code content while a fence remains open.
+  // Otherwise collapse trailing blank lines as before. Always end with LF.
+  out = openFence === null ? out.replace(/\n+$/, "") + "\n" :
+    out.endsWith("\n") ? out : out + "\n";
 
   return out;
 }
