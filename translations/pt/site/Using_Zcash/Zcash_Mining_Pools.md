@@ -10,19 +10,6 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Site: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Pagamentos privados: Sim
-- Tipo de pool: Pagamento por participação
-- Taxa do pool: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 - Pagamentos privados: Sim
 - Tipo de pool: Pagamento por participação
 - Taxa do pool: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Site: [Flypool](https://zcash.flypool.org/)
-- Pagamentos privados: Sim
-- Tipo de pool: Pagamento pelas últimas N
-- Taxa do pool: 1%
 
 ---
 
@@ -163,3 +137,11 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 - Pagamentos privados: Sim
 - Tipo de pool: Pagamento pelas últimas N participações (PPLNS)
 - Taxa do pool: 1%
+
+---
+
+## Antigas pools de Zcash
+
+### Slush Pool (Braiins Pool)
+
+O Braiins Pool não é atualmente uma opção de mineração de Zcash. O [FAQ oficial do pool](https://academy.braiins.com/braiins-pool/faqs/pool) lista o Bitcoin como a moeda suportada e informa que não há planos de suportar altcoins (verificado em 12 de novembro de 2026).

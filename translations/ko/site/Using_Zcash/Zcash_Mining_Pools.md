@@ -10,19 +10,6 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- 웹사이트: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- 비공개 지급: 예
-- 풀 유형: Pay Per Share
-- 풀 수수료: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 - 비공개 지급: 예
 - 풀 유형: Pay Per Share
 - 풀 수수료: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- 웹사이트: [Flypool](https://zcash.flypool.org/)
-- 비공개 지급: 예
-- 풀 유형: Pay Per Last N 
-- 풀 수수료: 1%
 
 ---
 
@@ -163,3 +137,11 @@ Zcash 채굴 풀은 개별 채굴자들이 자신의 컴퓨팅 파워(해시레�
 - 비공개 지급: 예
 - 풀 유형: Pay Per Last N Shares (PPLNS)
 - 풀 수수료: 1%
+
+---
+
+## 이전 Zcash 풀
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool은 현재 Zcash 채굴 옵션이 아닙니다. [공식 풀 FAQ](https://academy.braiins.com/braiins-pool/faqs/pool)에 따르면 지원 코인은 Bitcoin뿐이며, 알트코인을 지원할 계획이 없다고 밝히고 있습니다(2026년 11월 12일 확인).

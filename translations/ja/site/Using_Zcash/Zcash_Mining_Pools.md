@@ -10,19 +10,6 @@ Zcash マイニングプールは、個々のマイナー（miners）が計算�
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- ウェブサイト: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- 非公開支払い: はい
-- プールタイプ: シェアごとの支払い（Pay Per Share）
-- プール手数料: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Zcash マイニングプールは、個々のマイナー（miners）が計算�
 - 非公開支払い: はい
 - プールタイプ: シェアごとの支払い
 - プール手数料: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- ウェブサイト: [Flypool](https://zcash.flypool.org/)
-- 非公開支払い: はい
-- プールタイプ: 直近Nシェアごとの支払い（Pay Per Last N）
-- プール手数料: 1%
 
 ---
 
@@ -163,3 +137,11 @@ Zcash マイニングプールは、個々のマイナー（miners）が計算�
 - 非公開支払い: はい
 - プールタイプ: 直近Nシェアごとの支払い（PPLNS）
 - プール手数料: 1%
+
+---
+
+## 以前のZcashプール
+
+### Slush Pool（Braiins Pool）
+
+Braiins Pool は現在、Zcash のマイニング手段として利用できません。[公式プールFAQ](https://academy.braiins.com/braiins-pool/faqs/pool)では、対応コインとして Bitcoin のみが記載されており、アルトコイン（Altcoin）に対応する予定はないとされています（2026年11月12日に確認）。

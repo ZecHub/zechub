@@ -8,6 +8,19 @@ Ironwood は、2026年7月のネットワークアップグレード（network u
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- ウェブサイト: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- ペア: ZEC/BTC
+- 対応: 公開型（Transparent）
+- 入金時間: 約30分（24承認）
+- Ironwood: 該当しません。公開型アドレスのみです
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

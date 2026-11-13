@@ -21,7 +21,7 @@ Para obter maiores benefícios, a tecnologia de criptografia de ponta a ponta de
 
 **Zcash Encrypted Memos**
 
-As carteiras desktop e mobile do Zcash têm um recurso integrado que permite aos usuários enviar mensagens criptografadas com transações privadas blindadas. O tamanho do memorando/mensagem pode ter até 512 bytes por transação, com taxas de transação inferiores a 1 centavo de dólar americano. Devido à forma de preservação de privacidade com que as transações são detectadas e ao tempo de bloco da rede, as mensagens podem levar até 1 minuto ou mais para serem recebidas. 
+As carteiras do Zcash compatíveis com memorandos blindados permitem que os usuários anexem mensagens criptografadas a pagamentos blindados. Cada saída blindada tem o próprio campo de memorando de 512 bytes, ou seja, não existe um limite único de 512 bytes para a transação inteira. Consulte [Memorandos](/using-zcash/memos) para ver o formato do texto e quais carteiras oferecem suporte. As taxas de transação são pagas em ZEC, e o [ZIP 317](https://zips.z.cash/zip-0317) define uma taxa convencional que depende da complexidade da transação. O custo em dólares americanos também varia com a cotação do ZEC, então não há garantia de que a taxa fique abaixo de 1 centavo de dólar americano. Confira a cotação da taxa na carteira antes de enviar. A entrega da mensagem depende da propagação da transação, da política de confirmação e da sincronização da carteira do destinatário, então não é um chat instantâneo.
 
 Experimente: https://z.cash/wallets 
 

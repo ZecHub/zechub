@@ -39,7 +39,7 @@ Phantom 자체의 **Swap** 버튼에도 ZEC이(가) 표시되지만, 이는 네�
 - **대상 토큰**으로 **ZEC**을(를) 선택하세요.
 - 스왑 인터페이스를 통해 Zcash을(를) 이용할 수 있는지 확인하세요.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 
