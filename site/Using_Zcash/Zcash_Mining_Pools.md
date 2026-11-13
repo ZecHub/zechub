@@ -56,6 +56,7 @@ Zcash mining pools are services that allow individual miners to combine their co
 </a>
 
 - Website: [Poolin](https://www.poolin.com/)
+- Status: Poolin Technology PTE. LTD. has been in Chapter 11 bankruptcy since 22 July 2026 (Case No. 26-18325, U.S. Bankruptcy Court, District of New Jersey; [case information](https://veritaglobal.net/Poolin)). Confirm the pool still mines and pays out ZEC before pointing hashrate at it (checked 13 November 2026).
 - Private Payouts: No
 - Pool Type: Pay Per Share
 - Pool fee: 3%
