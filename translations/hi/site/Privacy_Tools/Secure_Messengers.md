@@ -21,7 +21,7 @@
 
 **Zcash एन्क्रिप्टेड मेमो**
 
-Zcash डेस्कटॉप और मोबाइल wallet में एक अंतर्निहित सुविधा होती है जो उपयोगकर्ताओं को private shielded transactions के साथ एन्क्रिप्टेड संदेश भेजने की अनुमति देती है। प्रति transaction memo/message का आकार 512 bytes तक हो सकता है और transaction fees 1 US cent से भी कम होती हैं। transactions को privacy-preserving तरीके से पहचानने की प्रक्रिया और नेटवर्क के block time के कारण, संदेश प्राप्त होने में 1 मिनट या उससे अधिक समय लग सकता है। 
+Zcash wallets जो shielded memos को सपोर्ट करते हैं, उपयोगकर्ताओं को shielded payments के साथ एन्क्रिप्टेड संदेश जोड़ने की सुविधा देते हैं। हर shielded output का अपना 512-byte memo field होता है; यह पूरे transaction के लिए एक ही 512-byte की सीमा नहीं है। टेक्स्ट फ़ॉर्मेट और wallet सपोर्ट के लिए [Memos](/using-zcash/memos) देखें। Transaction fees का भुगतान ZEC में होता है, और [ZIP 317](https://zips.z.cash/zip-0317) एक पारंपरिक fee तय करता है जो transaction की जटिलता पर निर्भर करती है। US dollars में लागत ZEC की विनिमय दर के साथ भी बदलती है, इसलिए 1 US cent से कम fee की गारंटी नहीं है। भेजने से पहले wallet का fee अनुमान ज़रूर जाँचें। संदेश की डिलीवरी transaction propagation, confirmation policy और प्राप्तकर्ता के wallet के sync होने पर निर्भर करती है; यह तुरंत होने वाली chat नहीं है।
 
 इसे आज़माएँ: https://z.cash/wallets 
 

@@ -10,19 +10,6 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Site web : [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Paiements privés : OUI
-- Type de pool : Pay Per Share
-- Frais du pool : 2 %
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 - Paiements privés : OUI
 - Type de pool : Pay Per Share
 - Frais du pool : 3 %
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Site web : [Flypool](https://zcash.flypool.org/)
-- Paiements privés : OUI
-- Type de pool : Pay Per Last N 
-- Frais du pool : 1 %
 
 ---
 
@@ -163,3 +137,11 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 - Paiements privés : OUI
 - Type de pool : Pay Per Last N Shares (PPLNS)
 - Frais du pool : 1 %
+
+---
+
+## Anciens pools Zcash
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool n'est pas actuellement une option de minage Zcash. Sa [FAQ officielle du pool](https://academy.braiins.com/braiins-pool/faqs/pool) indique Bitcoin comme seule cryptomonnaie prise en charge et précise qu'aucune prise en charge des altcoins n'est prévue (vérifié le 12 novembre 2026).

@@ -38,11 +38,11 @@ Dans Namada, l’ensemble protégé est considéré comme un bien public non exc
 
 ## Transaction d’actifs protégés
 
-Lorsqu’il s’agit de transferts protégés, qu’il s’agisse d’un token non fongible (NFT) Ethereum, d’ATOM ou de NAM, ils sont impossibles à distinguer les uns des autres. Cela signifie que les fonctionnalités de préservation de la confidentialité fournies par le MASP (Modified Accumulator Sapling Protocol), une version améliorée du circuit Sapling de Zcash, s’appliquent uniformément à tous les types d’actifs. Le circuit MASP permet à tous les actifs au sein de l’écosystème Namada de partager le même ensemble protégé. Cette approche garantit que les garanties de confidentialité ne sont pas fragmentées entre les actifs individuels. Quel que soit le volume de transactions associé à un actif particulier, la protection de la confidentialité reste cohérente et indépendante.
+Le MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)) étend le circuit Sapling de Zcash pour prendre en charge les transferts protégés d’actifs natifs et non natifs. Partager un pool ne signifie pas que la confidentialité est indépendante de l’usage d’un actif. La documentation de Namada explique que les actifs de même nature partagent un ensemble d’anonymat, et que les schémas publics de protection et de déprotection peuvent tout de même révéler l’origine d’un actif.
 
 ![Schéma de transaction d’actifs protégés](/content-images/image-1-512c639d56.webp)
 
-En unifiant l’ensemble protégé entre différents actifs, Namada garantit que la confidentialité est préservée de manière uniforme, quel que soit le type d’actif spécifique impliqué dans un transfert protégé. Cette approche favorise un cadre de confidentialité cohérent au sein du protocole et renforce la confidentialité des transactions impliquant des NFT Ethereum, ATOM, NAM et d’autres actifs pris en charge. Namada permet également le transfert privé de tokens fongibles et non fongibles à l’aide de nouveaux zk-SNARKs, garantissant la confidentialité des tokens natifs et non natifs, tout comme cela se fait sur Zcash.
+Par exemple, si un seul compte protège des BTC puis les retire ultérieurement vers ce même compte, ces points d’entrée et de sortie publics peuvent être reliés, même si les fonds ont circulé de manière privée au sein du MASP. Lorsque davantage de comptes protègent des BTC, un retrait ultérieur pourrait au contraire appartenir à n’importe lequel de ces comptes. Ce qui compte, c’est la participation effective et le schéma des transactions : la taille du pool partagé ne suffit pas, à elle seule, à garantir une confidentialité identique pour chaque actif.
 
 ## Moins de frais et des transactions rapides
 

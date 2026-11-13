@@ -60,7 +60,7 @@ Plateforme d'engagement communautaire et de récompenses conçue pour les commun
 
 ### Hub de subventions Zcash
 Tableau de bord de subventions axé sur la communauté, conçu pour simplifier la découverte, le suivi et l'examen des subventions Zcash. Il rassemble les demandes de subvention, les jalons, les budgets, les discussions et les analyses en un seul endroit en récupérant les données en direct du dépôt Zcash Community Grants GitHub. La plateforme vise à offrir une expérience plus claire et plus conviviale aux candidats, aux membres du comité et aux évaluateurs communautaires.  
-[Visiter](https://staging.zgrantshub.com/)
+[Visiter](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Plateforme d'IA donnant accès à plusieurs modèles d'IA de premier plan tout e
 ### zk.poker
 Plateforme de poker pair-à-pair combinant chiffrement de bout en bout, mental poker et technologie de confidentialité Zcash. Elle est conçue pour que l'opérateur n'ait pas besoin de connaître les cartes des joueurs ni de détenir directement les fonds de mise.  
 [Visiter](https://zkbtc.org/)
+
+### ZKöy
+Un jeu de société de type Loup-Garou pour des groupes réunis dans la même pièce. Les joueurs rejoignent la partie depuis leur téléphone ; chaque choix nocturne et chaque vote est scellé sous forme de mémo blindé sur le testnet Zcash, et à la fin de la partie, la graine, le sel et la clé de visualisation sont révélés afin que chacun puisse vérifier le résultat on-chain.  
+[Visiter](https://zkoy.fun)
 
 ---
 

@@ -14,9 +14,7 @@ Contrairement au modèle client-serveur traditionnel d’internet, IPFS permet a
 
 Dans IPFS, les fichiers sont adressés à l’aide de l’*adressage par le contenu*, ce qui signifie que chaque fichier reçoit un hash unique ou un IDENTIFIANT DE CONTENU (CID) basé sur son contenu, et ce hash est utilisé pour récupérer le fichier depuis le réseau.
 
-Lorsqu’un utilisateur ajoute un fichier à IPFS, le fichier est découpé en petits morceaux appelés blocs, et chaque bloc reçoit un CID. Ces blocs sont ensuite stockés sur différents nœuds du réseau, afin que le fichier puisse être facilement récupéré depuis plusieurs sources.
-
-Cela garantit la redondance et la tolérance aux pannes, tout en rendant difficile pour un seul nœud de devenir un point unique de défaillance ou de contrôle.
+IPFS stocke le contenu sous forme de blocs identifiés par des CID. Ajouter un fichier le stocke sur votre nœud ; il n’est pas automatiquement copié vers d’autres nœuds. Gardez une copie accessible en ligne, ou organisez un épinglage distant, afin que d’autres lecteurs puissent le récupérer. Voir [persistance IPFS](https://docs.ipfs.tech/concepts/persistence/).
 
 Lisez [Une introduction à IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)
 
@@ -33,57 +31,57 @@ Pour cet exemple, nous allons créer un site web simple.
 
 **Étape 2 :** Utilisez un [modèle HTML !](https://nicepage.com/html-templates) Collez le texte que vous avez rédigé en conséquence. Vous pouvez également créer une feuille de style .CSS pour votre site web.
 
-**Étape 3 :** Enregistrez votre répertoire. Toutes les pages .html + les images doivent se trouver dans le même dossier.
-
-
+**Étape 3 :** Placez votre page d'accueil dans `index.html` à la racine du dossier du site. Incluez ses images et son CSS en utilisant des chemins relatifs tels que `style.css`, afin qu'ils fonctionnent également sous une URL de passerelle IPFS.
 
 ## Configurer un nœud
 
-Téléchargez et installez IPFS depuis le [site officiel](https://docs.ipfs.tech/install/ipfs-desktop/).
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) gère le nœud pour vous. Laissez-le fonctionner pendant que vous partagez votre site.
 
+Pour la [méthode en ligne de commande](https://docs.ipfs.tech/how-to/command-line-quick-start/), initialisez une seule fois un nouveau dépôt :
 
+```sh
+ipfs init
+```
 
-### Initialiser IPFS :
+Démarrez ensuite le nœud et laissez ce terminal ouvert :
 
-Si vous utilisez l’application Desktop, vous n’aurez pas besoin d’initialiser.
+```sh
+ipfs daemon
+```
 
-En utilisant un terminal ou une invite de commande, exécutez la commande : <mark>ipfs init </mark>.
-
-
+Exécutez les commandes restantes dans un second terminal. Ne démarrez pas un second daemon si IPFS Desktop gère déjà ce dépôt.
 
 **Ajouter le dossier du site à IPFS :**
 
-Sélectionnez le dossier contenant les fichiers de votre site web et accédez à l’option Add Folder.
+Dans IPFS Desktop, sélectionnez le dossier contenant les fichiers de votre site web à l'aide de l'option Add Folder.
 
 ![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
-Si vous utilisez le terminal, exécutez la commande : <mark>ipfs add -r "folder_name"</mark> pour ajouter récursivement l’ensemble du dossier à IPFS.
+Pour passer par la CLI, exécutez cette commande depuis le répertoire parent du dossier de votre site :
 
+```sh
+ipfs add -r folder_name
+```
+
+Remplacez `folder_name` par le nom de votre dossier (mettez entre guillemets les noms contenant des espaces). Enregistrez le CID figurant sur la dernière ligne `added ... folder_name` : il identifie l'ensemble du répertoire, et pas seulement `index.html`.
 
 ### Épingler le site sur IPFS :
 
-Une fois les fichiers de votre site web ajoutés à IPFS, vous devez les **épingler** pour vous assurer qu’ils restent disponibles sur le réseau.
+La commande `ipfs add` de la CLI épingle par défaut localement le contenu importé. Vérifiez l’épinglage du dossier avec :
 
---
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-Si vous utilisez le terminal, exécutez la commande : Si vous utilisez le terminal, exécutez la commande : <mark>ipfs pin add "hash"</mark>
-
-"hash" = CID du dossier que vous avez ajouté à l’étape précédente.
-
-
-Sinon, vous pouvez également épingler des répertoires en utilisant des services tels que [Pinata](https://pinata.cloud) ou [Dolpin](https://dolpin.io)
-
-Cela fait gagner beaucoup de temps !
-
---
+Remplacez `YOUR_FOLDER_CID` par le CID obtenu à l'étape précédente ; la sortie devrait indiquer `recursive`. L'épinglage protège la copie de ce nœud contre le ramasse-miettes, mais ne maintient pas en ligne un ordinateur éteint. Pour assurer la disponibilité lorsque votre nœud est hors ligne, mettez en place un [épinglage distant](https://docs.ipfs.tech/how-to/work-with-pinning-services/) et vérifiez que le service distant a terminé l'épinglage.
 
 ### Accéder à votre site web sur IPFS :
 
-Votre site web est maintenant publié sur IPFS et peut être consulté à l’aide du hash du dossier. Pour accéder à votre site web, vous pouvez visiter https://ipfs.io/ipfs/"hash"
+Vérifiez d'abord votre site via la passerelle locale à l'adresse `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` (utilisez le port de passerelle affiché par votre démon s'il est différent). La barre oblique finale permet aux liens relatifs d'être résolus à l'intérieur du répertoire.
 
-"hash" = CID du dossier.
+Une passerelle publique comme `https://ipfs.io/ipfs/YOUR_FOLDER_CID/` peut le servir dès qu’elle parvient à récupérer le contenu depuis un nœud accessible. Un aperçu local réussi ne prouve pas que le contenu est publiquement disponible.
 
 Dans notre cas, le CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
@@ -107,11 +105,17 @@ Elle peut également être utilisée pour consulter notre site via une passerell
 
 Le site a été créé, nous avons maintenant besoin d’un moyen de faire pointer une URL vers le contenu.
 
-Si vous possédez déjà une adresse web, vous pouvez ajouter un nouvel enregistrement en utilisant l’enregistrement TXT "_dnslink(your domain)". Selon le fournisseur, il peut se remplir automatiquement.
+Pour `example.com`, ajoutez cet enregistrement DNS en remplaçant `YOUR_FOLDER_CID` par le CID de votre répertoire :
+
+| Type | Nom | Valeur |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Certains fournisseurs DNS ajoutent automatiquement la zone ; saisissez simplement `_dnslink` à cet endroit. Si vous utilisez le nom IPNS ci-dessus, la valeur peut plutôt être `dnslink=/ipns/YOUR_IPNS_NAME`. Voir [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 ![](/content-images/example-c2a9edb28b.webp)
 
-Il faudra du temps pour qu’il se propage à travers le réseau avant que vous puissiez le consulter.
+Après la propagation DNS, essayez `https://ipfs.io/ipns/example.com/`. Servir le site directement à l'adresse `https://example.com/` nécessite également une passerelle compatible DNSLink et une configuration HTTPS ; l'enregistrement TXT seul ne les met pas en place. Suivez le [guide des domaines personnalisés](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
 Félicitations ! Vous avez mis en place un site web résistant à la censure.
 
