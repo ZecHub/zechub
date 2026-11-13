@@ -2,88 +2,88 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# AI उपकरण: पाठ, छवि, वीडियो, ऑडियो बनाने (ऑनलाइन)
+# AI उपकरण (AI tools): टेक्स्ट, इमेज, वीडियो, ऑडियो जनरेशन (ऑनलाइन)
 
-यहाँ कुछ सूचियाँ हैं जो आपके जीवन को आसान बना सकती हैं। उनका उपयोग कैसे करें, वह एक अलग चीज है।
+यहाँ काम आसान बनाने के लिए एक सूची दी गई है। इन्हें इस्तेमाल करने का तरीका एक अलग बात है।
 
-सबसे अच्छे प्रम्प्ट लिखना सीखने में एक शिक्षा घटक होता है। आप बुनियादी चीजों को तेजी से सीख सकते हैं।
+सबसे अच्छे प्रॉम्प्ट (prompts) लिखना सीखने में समय लगता है। बुनियादी बातें काफ़ी जल्दी सीखी जा सकती हैं।
 
-## पाठ उत्पन्न करना / सहायता
+## टेक्स्ट जनरेशन/ असिस्टेंट
 
-[प्रम्प्ट विश्लेषक](https://novelai.net/tokenizer) (टोकनाइज़र) प्रम्प्ट कैसे काम करते हैं और वे कितने टोकन उपयोग करते हैं, इसका सीखना।
+प्रॉम्प्ट कैसे काम करते हैं और वे कितने टोकन इस्तेमाल करते हैं, यह समझने के लिए [प्रॉम्प्ट विश्लेषक](https://novelai.net/tokenizer) (टोकनाइज़र) का उपयोग करें।
 
-आप हमेशा चैटबॉट सहायता प्रदान करने के लिए अच्छा प्रम्प्ट बनाने में मदद कर सकते हैं।
+आप अच्छा प्रॉम्प्ट तैयार करने में मदद के लिए हमेशा चैटबॉट असिस्टेंट से कह सकते हैं।
 
-### मुफ़्त उपकरण:
+### निःशुल्क उपकरण:
 
-- [Anthropic's Claude](https://claude.ai/) - पंजीकरण के लिए वीपीएन की आवश्यकता हो सकती है (केवल संयुक्त राज्य)
-- [ChatGPT 3.5](https://chat.openai.com/) - फ़ोन नंबर की आवश्यकता
-- [Bing Chat (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - प्रति दिन सीमित प्रम्प्ट
-- [Llama 2 - 70B](https://www.llama2.ai/) - वेबसाइट पर मुफ़्त
+- [Anthropic's Claude](https://claude.ai/) - रजिस्टर करने के लिए VPN की ज़रूरत पड़ सकती है (केवल अमेरिका)
+- [ChatGPT 3.5](https://chat.openai.com/) - फ़ोन नंबर माँगता है
+- [Bing Chat (GPT4)](https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx) - प्रतिदिन सीमित प्रॉम्प्ट
+- [Llama 2 - 70B](https://www.llama2.ai/) - वेबसाइट पर निःशुल्क
 
-### भुगतान उपकरण:
+### सशुल्क उपकरण:
 
-- [Free2Z Chat2Z](https://free2z.com/ai) - ZEC / 2Zs के साथ भुगतान करें, GPT-3.5 और GPT-4 प्रति प्रम्प्ट सेंट
-- [Chat GPT-4](https://chat.openai.com/auth/login) - $20/महीना
+- [Free2Z Chat2Z](https://free2z.com/ai) - GPT-3.5 और GPT-4 के लिए ZEC / 2Zs से भुगतान, प्रति प्रॉम्प्ट कुछ सेंट
+- [Chat GPT-4](https://chat.openai.com/auth/login) - $20/माह।
 
-## छवि उत्पन्न करना
+## इमेज जनरेशन
 
-### मुफ़्त उपकरण:
+### निःशुल्क उपकरण:
 
-- [ImgnAI](https://imgnai.com/) Discord या Telegram पर बॉट - [शुरुआत के साथ गाइड](https://imgnai.gitbook.io/imgnai/) और 
-अब [Webapp ImgnAI](https://app.imgnai.com/home) में अलग खाता लॉगिन
-X, Google, Discord, Telegram के साथ लॉगिन
-- [Bing Dalle3](https://www.bing.com/create) - मुफ़्त संस्करण धीमा हो सकता है
-- [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - मुफ़्त के लिए सीमित मात्रा
-- [Ideogram](https://ideogram.ai/login) - छवि पर वास्तविक पढ़ने योग्य पाठ उत्पन्न करने में अच्छा
-- [Playground AI](https://playgroundai.com/) - मुफ़्त मोड, $15/महीना सब्सक्रिप्शन
-- [Clipdrop by stability.ai](https://clipdrop.co/stable-diffusion)
-- [StarryAI](https://www.starryai.com) - 5 कलाकृति/दिन
-- [Dream by wombo](https://dream.ai/)
-- [Craiyon](https://www.craiyon.com/) (DALL-E mini क्लोन) - $5 से शुरू होने वाला भुगतान सब्सक्रिप्शन गति में सुधार
-- [DALL-E mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) - पुराना और मूलभूत
+- Discord या Telegram पर [ImgnAI](https://imgnai.com/) बॉट - [शुरुआती गाइड](https://imgnai.gitbook.io/imgnai/) और 
+अब अलग अकाउंट लॉगिन के साथ [वेबऐप ImgnAI](https://app.imgnai.com/home) भी उपलब्ध है 
+X, Google, Discord, Telegram से लॉगिन
+- [Bing Dalle3](https://www.bing.com/create) - निःशुल्क संस्करण धीमा हो सकता है
+- [Adobe Firefly](https://www.adobe.com/ee/sensei/generative-ai/firefly.html) - सीमित मात्रा में निःशुल्क
+- [Ideogram](https://ideogram.ai/login) - इमेज पर यथार्थवादी और पढ़ने योग्य टेक्स्ट बनाने में अच्छा
+- [Playground AI](https://playgroundai.com/) - निःशुल्क मोड, सब्सक्रिप्शन $15/माह से
+- [Clipdrop, stability.ai द्वारा](https://clipdrop.co/stable-diffusion)
+- [StarryAI](https://www.starryai.com) - प्रतिदिन 5 आर्टवर्क
+- [Dream, wombo द्वारा](https://dream.ai/)
+- [Craiyon](https://www.craiyon.com/) (DALL-E mini का क्लोन) - $5 से शुरू होने वाला सशुल्क सब्सक्रिप्शन गति बढ़ाता है
+- [DALL-E mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) - पुराना और बुनियादी
 
-### भुगतान उपकरण:
+### सशुल्क उपकरण:
 
-- [Midjourney Bot](https://discord.com/invite/midjourney) Discord में $10/महीना से - [शुरुआत के लिए गाइड](https://docs.midjourney.com/docs/quick-start)
-कई अन्य छवि के रैंकिंग करके लगभग 100 मुफ़्त उत्पन्न हो सकता है [यहाँ छवि](https://www.midjourney.com/app/rank-pairs/)
-(शीर्ष 2000 रेटर बने - लगभग 15 मिनट के चित्रों का रेटिंग)
-- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 उत्पन्न - (महीने में मुफ़्त 15 उत्पन्न)
-- [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4 में समावेशित - $20/महीना
-- [Nightcafe Creator](https://creator.nightcafe.studio/) (4 उत्पन्न मुफ़्त, भुगतान $6/महीना से शुरू होता है)
+- Discord में [Midjourney बॉट](https://discord.com/invite/midjourney) - $10/माह से - [शुरुआती गाइड](https://docs.midjourney.com/docs/quick-start)
+दूसरों की बहुत सारी [इमेज यहाँ](https://www.midjourney.com/app/rank-pairs/) रेट करके लगभग 100 निःशुल्क जनरेशन मिल सकते हैं
+(शीर्ष 2000 रेटिंग देने वालों में आना होगा - लगभग 15 मिनट तक तस्वीरों को रेटिंग देनी होती है)
+- [DALL-E 2](https://web.archive.org/web/20250601174514/https://labs.openai.com/) [](https://openai.com/dall-e-2)- $15/115 जनरेशन - (प्रति माह 15 जनरेशन निःशुल्क)
+- [DALL-E 3](https://openai.com/dall-e-3/) - ChatGPT-4 में शामिल - $20/माह
+- [Nightcafe Creator](https://creator.nightcafe.studio/) (4 जनरेशन निःशुल्क, सशुल्क योजना $6/माह से)
 
-## वीडियो उत्पन्न करना
+## वीडियो जनरेशन
 
-### उपकरण (आमतौर पर मुफ़्त परीक्षण):
+### उपकरण (आमतौर पर निःशुल्क ट्रायल):
 
-- [RunwayML GEN-2](https://runwayml.com/) (मुफ़्त परीक्षण, $15/महीना से सब्सक्रिप्शन)
-- [Pika labs Discord Bot](https://www.pika.art/) (अभी मुफ़्त?)
-- [Elai](https://elai.io/) ($23/महीना से सब्सक्रिप्शन)
+- [RunwayML GEN-2](https://runwayml.com/) (निःशुल्क ट्रायल, सब्सक्रिप्शन $15/माह से)
+- [Pika labs Discord बॉट](https://www.pika.art/) (फ़िलहाल निःशुल्क?)
+- [Elai](https://elai.io/) (सब्सक्रिप्शन $23/माह से)
 
-### वीडियो / ऑडियो अनुवाद उपकरण:
+### वीडियो/ऑडियो अनुवाद उपकरण:
 
-- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
-- [Ezdubs Bot on X](https://twitter.com/ezdubs_bot) वीडियो अनुवाद, डबिंग और लिप सिंकिंग टूल
+- [HeyGen Labs](https://labs.heygen.com/guest/video-translate) वीडियो अनुवाद, डबिंग और लिप सिंकिंग उपकरण
+- [X पर Ezdubs बॉट](https://twitter.com/ezdubs_bot) वीडियो अनुवाद, डबिंग और लिप सिंकिंग उपकरण
 
-## ऑडियो के बारे में
+## ऑडियो से जुड़ी चीज़ें
 
-### ऑडियो संशोधन
+### ऑडियो सुधार
 
-- [Adobe AI Clean up audio](https://podcast.adobe.com/enhance#): (मुफ़्त Adobe खाता के साथ)
+- [Adobe AI Clean up audio](https://podcast.adobe.com/enhance#): (निःशुल्क Adobe अकाउंट के साथ निःशुल्क)
 
-### संगीत उत्पन्न करना
+### संगीत जनरेशन
 
-- [Soundraw](https://soundraw.io/) - मुफ़्त प्रयोग करें - ($16.99/महीना से सब्सक्रिप्शन)
-- [beatoven.ai](https://www.beatoven.ai/) - मुफ़्त प्रयोग करें - ($3/महीना या $1/सेकंड उत्पन्न से सब्सक्रिप्शन)
-- [soundful.com](https://soundful.com/) - मुफ़्त प्रयोग करें - ($59.99/महीना या 29.99/वार्षिक से सब्सक्रिप्शन)
-- [boomy](https://boomy.com/) - मुफ़्त प्रयोग करें - ($9.99/महीना से सब्सक्रिप्शन)
-- [Loudly](https://www.loudly.com/) - मुफ़्त प्रयोग करें - ($7.99/महीना से सब्सक्रिप्शन)
-- [Mubert](https://mubert.com/) - मुफ़्त प्रयोग करें - ($14/महीना से सब्सक्रिप्शन)
+- [Soundraw](https://soundraw.io/) - निःशुल्क आज़माएँ - (सब्सक्रिप्शन $16.99/माह से)
+- [beatoven.ai](https://www.beatoven.ai/) - निःशुल्क आज़माएँ - (सब्सक्रिप्शन $3/माह से या जनरेट किए गए प्रति मिनट $1)
+- [soundful.com](https://soundful.com/) - निःशुल्क आज़माएँ - (सब्सक्रिप्शन $59.99/माह से या वार्षिक योजना में 29.99/माह)
+- [boomy](https://boomy.com/) - निःशुल्क आज़माएँ - (सब्सक्रिप्शन $9.99/माह से)
+- [Loudly](https://www.loudly.com/) - निःशुल्क आज़माएँ - (सब्सक्रिप्शन $7.99/माह से)
+- [Mubert](https://mubert.com/) - निःशुल्क आज़माएँ - (सब्सक्रिप्शन $14/माह से)
 
-### आवाज उत्पन्न करना
+### आवाज़ जनरेशन
 
-- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - मुफ़्त - ($39/महीना से सब्सक्रिप्शन)
-- [ElevenLabs](https://elevenlabs.io/) - मुफ़्त - ($5/महीना से सब्सक्रिप्शन)
-- [Murf](https://murf.ai/) - मुफ़्त - ($29/महीना से सब्सक्रिप्शन)
-- [Resemble](https://www.resemble.ai/) - मुफ़्त प्रयोग करें (0.006 डॉलर प्रति सेकंड के बाद)
-- [Synthesia](https://www.synthesia.io/) - ($22.5/महीना से सब्सक्रिप्शन)
+- [play.ht](https://web.archive.org/web/20260310162301/https://play.ht/) - निःशुल्क - (सब्सक्रिप्शन $39/माह से)
+- [ElevenLabs](https://elevenlabs.io/) - निःशुल्क - (सब्सक्रिप्शन $5/माह से)
+- [Murf](https://murf.ai/) - निःशुल्क - (सब्सक्रिप्शन $29/माह से)
+- [Resemble](https://www.resemble.ai/) - निःशुल्क आज़माएँ (उसके बाद $0.006 प्रति सेकंड)
+- [Synthesia](https://www.synthesia.io/) - (सब्सक्रिप्शन $22.5/माह से)

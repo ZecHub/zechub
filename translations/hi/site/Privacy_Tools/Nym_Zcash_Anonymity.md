@@ -1,64 +1,64 @@
 <a href="https://github.com/ZecHub/zechub/edit/main/site/Privacy_Tools/Nym_Zcash_Anonymity.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Nym Mixnet द्वारा Zcash के लिए गुमनामी
+# Zcash के लिए Nym मिक्सनेट (Mixnet) गुमनामी (Anonymity)
 
-> अंतिम सत्यापन: 18 अक्टूबर, 2026
+> अंतिम सत्यापन: 18 अक्टूबर 2026
 
-Zcash shielded pools ऑन-चेन राशियों, प्रेषकों और प्राप्तकर्ताओं को छिपाते हैं। वे wallet और lightwallet server के बीच नेटवर्क पथ को नहीं छिपाते। Nym का mixnet उस अनुपस्थित नेटवर्क-लेयर सुरक्षा को जोड़ता है। अक्टूबर 2026 तक, एकीकरण प्रोडक्शन wallets (Zingo, Zkool) में सक्रिय है।
+Zcash के शील्डेड (shielded) पूल (pool) ऑन-चेन (on-chain) राशि, प्रेषक और प्राप्तकर्ता को छिपाते हैं। वे वॉलेट (wallet) और लाइटवॉलेट सर्वर (lightwallet server) के बीच के नेटवर्क पथ को नहीं छिपाते। Nym का मिक्सनेट यही छूटी हुई नेटवर्क-लेयर सुरक्षा जोड़ता है। अक्टूबर 2026 तक यह इंटीग्रेशन प्रोडक्शन वॉलेट (Zingo, Zkool) में सक्रिय है।
 
-स्रोत: [कैसे Nym Zcash wallets में गुमनामी जोड़ता है](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 अक्टूबर 2026)।
+स्रोत: [Nym Zcash वॉलेट में गुमनामी कैसे जोड़ता है](https://nym.com/blog/zcash-mixnet-anonymity) (Nym, 13 अक्टूबर 2026)।
 
 ## क्या सुरक्षित है
 
-Nym transaction packets (आमतौर पर spending data और ZK proofs के 7–15 KB) को Sphinx packets में विभाजित करता है और उन्हें mixnet के माध्यम से रूट करता है। यह:
+Nym लेनदेन (transaction) पैकेट (आमतौर पर 7–15 KB का खर्च डेटा और ZK प्रूफ (proof)) को Sphinx पैकेट में तोड़ता है और उन्हें मिक्सनेट के माध्यम से भेजता है। इससे:
 
-- lightwallet server से प्रेषक का IP छिपाता है
-- ट्रैफ़िक को अन्य Nym ट्रैफ़िक के साथ मिलाता है
-- डिफ़ॉल्ट सेटिंग्स पर लगभग 17 बिट entropy प्रदान करता है, जिसमें उद्धृत anonymity set 100,000 उपयोगकर्ताओं से अधिक है
+- लाइटवॉलेट सर्वर से प्रेषक का IP छिप जाता है
+- ट्रैफ़िक अन्य Nym ट्रैफ़िक के साथ मिल जाता है
+- डिफ़ॉल्ट सेटिंग पर लगभग 17 बिट की एन्ट्रॉपी (entropy) मिलती है, और उद्धृत गुमनामी सेट 100,000 से अधिक उपयोगकर्ताओं का है
 
-Zingo v7 में payments और price requests डिफ़ॉल्ट रूप से इसी पथ का अनुसरण करते हैं।
+Zingo v7 में भुगतान (payment) और मूल्य अनुरोध डिफ़ॉल्ट रूप से इसी पथ का पालन करते हैं।
 
 ## क्या सुरक्षित नहीं है
 
-Chain synchronization, nullifier queries, transaction fetches और mempool traffic वर्तमान में सामान्य indexer connection का उपयोग करते हैं। मिश्रित packets के बाहर का device-level या application-level metadata भी Nym के दायरे से बाहर है।
+चेन (chain) सिंक्रोनाइज़ेशन, नलिफ़ायर (nullifier) क्वेरी, लेनदेन फ़ेच और मेमपूल (mempool) ट्रैफ़िक फ़िलहाल सामान्य इंडेक्सर (indexer) कनेक्शन का उपयोग करते हैं। मिक्स किए गए पैकेट के बाहर डिवाइस-स्तर या एप्लिकेशन-स्तर का मेटाडेटा भी Nym के दायरे से बाहर है।
 
-यदि आपके threat model में sync traffic छिपाना आवश्यक है, तो native-mixnet wallet को system-level NymVPN के साथ संयोजित करें। [Nym VPN](/guides/nym-vpn) देखें।
+यदि आपके खतरा मॉडल (threat model) में सिंक ट्रैफ़िक को छिपाना ज़रूरी है, तो नेटिव-मिक्सनेट वॉलेट को सिस्टम-स्तर के NymVPN के साथ मिलाकर उपयोग करें। [Nym VPN](/guides/nym-vpn) देखें।
 
-## Wallets
+## वॉलेट
 
-| Wallet | स्थिति | टिप्पणियाँ |
+| वॉलेट | स्थिति | नोट्स |
 | --- | --- | --- |
-| Zingo v7 | सक्रिय, डिफ़ॉल्ट | `makers run-cli`, `nym-proxy` को बंडल करता है। सत्र ऑफ़लाइन शुरू होता है; `--online`, `--remember-online`, या `--server` सहमति प्रदान करता है। |
-| Zkool | सक्रिय | Native mixnet integration। |
-| अन्य | NymVPN के माध्यम से | Wallet को system-level Mixnet mode के माध्यम से रूट करें। |
+| Zingo v7 | सक्रिय, डिफ़ॉल्ट | `makers run-cli` में `nym-proxy` शामिल है। सत्र ऑफ़लाइन शुरू होता है; `--online`, `--remember-online` या `--server` सहमति देता है। |
+| Zkool | सक्रिय | नेटिव मिक्सनेट इंटीग्रेशन। |
+| अन्य | NymVPN के माध्यम से | वॉलेट को सिस्टम-स्तर के Mixnet मोड के माध्यम से रूट करें। |
 
-Wallet-स्तर के पथ की सेटअप जानकारी [Zcash Wallet Traffic को Nym Mixnet के माध्यम से रूट करें](/guides/nym-mixnet-wallet-setup) में है।
+वॉलेट-स्तर के पथ के सेटअप का विवरण [Zcash वॉलेट ट्रैफ़िक को Nym मिक्सनेट पर रूट करना](/guides/nym-mixnet-wallet-setup) में है।
 
 ## समझौते
 
-Nym-रूटेड broadcast, clearnet (~3.4 s) की तुलना में लगभग 12.5× धीमा है। Tor तेज़ है (~3.7×), लेकिन mixing के बिना FIFO streams का उपयोग करता है, इसलिए एक वैश्विक adversary फिर भी correlation कर सकता है। साझा Nym user base बढ़ाना अतिरिक्त delay जोड़ने की तुलना में गुमनामी को अधिक प्रभावी ढंग से बढ़ाता है।
+Nym के माध्यम से रूट किया गया ब्रॉडकास्ट क्लियरनेट (clearnet) (~3.4 s) की तुलना में लगभग 12.5× धीमा है। Tor तेज़ है (~3.7×), लेकिन यह बिना मिक्सिंग के FIFO स्ट्रीम का उपयोग करता है, इसलिए एक वैश्विक विरोधी अब भी सहसंबंध स्थापित कर सकता है। अतिरिक्त देरी जोड़ने की तुलना में साझा Nym उपयोगकर्ता आधार को बढ़ाना गुमनामी को अधिक प्रभावी ढंग से बढ़ाता है।
 
-## Application-layer स्वच्छता: nym-swizzle-zcash
+## एप्लिकेशन-लेयर स्वच्छता: nym-swizzle-zcash
 
-नेटवर्क-लेयर सुरक्षा पर्याप्त नहीं है। एक पूर्ण mixnet या VPN के साथ भी, lightwallet server application-layer patterns देखकर sessions को अब भी लिंक कर सकता है:
+केवल नेटवर्क-लेयर सुरक्षा पर्याप्त नहीं है। एक आदर्श मिक्सनेट या VPN के साथ भी, लाइटवॉलेट सर्वर एप्लिकेशन-लेयर पैटर्न देखकर सत्रों को जोड़ सकता है:
 
-- Resume-point chaining: clients ठीक `previous end + 1` से sync फिर शुरू करते हैं, इसलिए server केवल block height के आधार पर sessions को श्रृंखलाबद्ध कर सकता है।
-- Sync-then-send: wallets broadcast करने से तुरंत पहले sync करते हैं, जिससे server किसी transaction को पूर्व sync session से जोड़ सकता है।
+- रिज़्यूम-पॉइंट चेनिंग: क्लाइंट ठीक `previous end + 1` से सिंक फिर से शुरू करते हैं, इसलिए सर्वर केवल ब्लॉक (block) ऊँचाई के आधार पर सत्रों को जोड़ सकता है।
+- सिंक-फिर-भेजें: वॉलेट ब्रॉडकास्ट करने से ठीक पहले सिंक करते हैं, जिससे सर्वर किसी लेनदेन को पिछले सिंक सत्र से जोड़ सकता है।
 
-[`nym-swizzle-zcash`](https://nym.com/docs/developers/swizzle/zcash) crate एक Zcash-विशिष्ट स्वच्छता नीति लागू करता है जो दोनों समस्याओं का समाधान करती है। यह light clients के लिए सामान्य `nym-swizzle` primitives को chain-aware policy में पैकेज करता है।
+[`nym-swizzle-zcash`](https://nym.com/docs/developers/swizzle/zcash) क्रेट (crate) एक Zcash-विशिष्ट स्वच्छता नीति लागू करता है जो इन दोनों समस्याओं का समाधान करती है। यह सामान्य `nym-swizzle` प्रिमिटिव को लाइट क्लाइंट (light client) के लिए एक चेन-जागरूक नीति में पैकेज करता है।
 
-**परिमाणित sync ranges।** अनुरोधों को दिन-आकार की cells वाली नेटवर्क-व्यापी grid तक विस्तृत किया जाता है। शुरुआत को नीचे की ओर round किया जाता है और अंत को ऊपर की ओर। Ranges नियतात्मक, आरोही और असंबद्ध होती हैं। Reorg checks विस्तृत range के भीतर रहते हैं, ताकि सटीक resume point प्रकट न हो। गुमनामी noise के बजाय collision (कई wallets द्वारा समान boundaries जारी करना) से आती है।
+**क्वांटाइज़्ड सिंक रेंज।** अनुरोधों को दिन-आकार के सेल वाले नेटवर्क-व्यापी ग्रिड तक चौड़ा किया जाता है। शुरुआत को नीचे की ओर और अंत को ऊपर की ओर राउंड किया जाता है। रेंज निर्धारक, आरोही और परस्पर-अलग होती हैं। रीऑर्ग (reorg) जाँच चौड़ी की गई रेंज के भीतर ही रहती है, ताकि सटीक रिज़्यूम पॉइंट उजागर न हो। गुमनामी शोर से नहीं, बल्कि टकराव से आती है (कई वॉलेट एक ही सीमाएँ भेजते हैं)।
 
-**अलग किए गए broadcasts।** Transaction sends को ZIP 318 transfer scheduling से मेल खाते exponential distribution (औसत 144 blocks ≈ 3 घंटे, सीमा 576 blocks ≈ 12 घंटे) द्वारा विलंबित किया जाता है। विलंब सामान्य process lifetimes से अधिक होते हैं, इसलिए schedules को स्थायी रूप से संग्रहीत किया जाता है। Transaction केवल fire time पर एक ताज़ा tip के विरुद्ध बनाया जाता है। Sync और broadcast को अलग servers का उपयोग करना चाहिए।
+**अलग किए गए ब्रॉडकास्ट।** लेनदेन भेजने में एक घातांकीय वितरण के अनुसार देरी की जाती है (औसत 144 ब्लॉक ≈ 3 घंटे, अधिकतम सीमा 576 ब्लॉक ≈ 12 घंटे), जो ZIP 318 के ट्रांसफ़र शेड्यूलिंग से मेल खाती है। देरी सामान्य प्रोसेस जीवनकाल से अधिक होती है, इसलिए शेड्यूल को स्थायी रूप से सहेजा जाता है। लेनदेन केवल भेजने के समय एक नए टिप के आधार पर बनाया जाता है। सिंक और ब्रॉडकास्ट के लिए अलग-अलग सर्वर का उपयोग किया जाना चाहिए।
 
-Crate `BlockSource` और `TxBroadcaster` traits प्रदान करता है, `wasm32-unknown-unknown` के लिए compile होता है, और इसका अपना कोई network stack नहीं है। पूर्ण API और उदाहरणों के लिए [Nym docs](https://nym.com/docs/developers/swizzle/zcash) देखें।
+यह क्रेट `BlockSource` और `TxBroadcaster` ट्रेट उपलब्ध कराता है, `wasm32-unknown-unknown` के लिए कंपाइल होता है, और इसका अपना कोई नेटवर्क स्टैक नहीं है। पूरी API और उदाहरणों के लिए [Nym दस्तावेज़](https://nym.com/docs/developers/swizzle/zcash) देखें।
 
 ## स्रोत
 
-- [कैसे Nym Zcash wallets में गुमनामी जोड़ता है](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 अक्टूबर 2026
-- [nym-swizzle-zcash: Zcash Light Clients के लिए Hygiene Policy](https://nym.com/docs/developers/swizzle/zcash) — Nym Docs
+- [Nym Zcash वॉलेट में गुमनामी कैसे जोड़ता है](https://nym.com/blog/zcash-mixnet-anonymity) — Nym, 13 अक्टूबर 2026
+- [nym-swizzle-zcash: Zcash लाइट क्लाइंट के लिए स्वच्छता नीति](https://nym.com/docs/developers/swizzle/zcash) — Nym दस्तावेज़
 - [Zingo + Nym](https://zingolabs.org/zingo/blog/zingo-nym/) — Zingo Labs
-- [Zcash Wallet Traffic को Nym Mixnet के माध्यम से रूट करें](/guides/nym-mixnet-wallet-setup) — ZecHub
+- [Zcash वॉलेट ट्रैफ़िक को Nym मिक्सनेट पर रूट करना](/guides/nym-mixnet-wallet-setup) — ZecHub
 - [Nym VPN](/guides/nym-vpn) — ZecHub

@@ -2,10 +2,10 @@
 
 [zcash-devtool क्या है?](https://github.com/zcash/zcash-devtool?tab=readme-ov-file) 
 
-Zcash Devtool, Zcash पर हैकिंग के लिए एक प्लेटफ़ॉर्म है। इसे डेवलपर्स ने डेवलपर्स के लिए, नई Zcash कार्यक्षमता के परीक्षण और विकास हेतु बनाया है; और इसे प्रोडक्शन-रेडी नहीं माना जाना चाहिए। इस टूल द्वारा प्रस्तुत कमांड लाइन API कभी भी और बिना किसी चेतावनी के बदल सकती है और बदलेगी। zcash-devtool एम्बेडेड wallet के प्रबंधन में महत्वपूर्ण धनराशि न लगाएँ।
+Zcash Devtool, Zcash पर प्रयोग करने और नई चीज़ें बनाने का एक प्लेटफ़ॉर्म है। इसे डेवलपर (developer) ने डेवलपर के लिए बनाया है। इसका उद्देश्य नई Zcash कार्यक्षमता की टेस्टिंग और डेवलपमेंट है। इसे प्रोडक्शन के लिए तैयार नहीं मानना चाहिए। यह उपकरण जो कमांड लाइन API देता है, वह किसी भी समय और बिना किसी चेतावनी के बदल सकता है, और बदलेगा भी। zcash-devtool के एम्बेडेड वॉलेट (wallet) के प्रबंधन में बड़ी धनराशि न लगाएँ।
 
 ### Zcash Devtool का वीडियो ट्यूटोरियल:
-Kris Nuttycombe (@nuttycom) ने ZconVI के दौरान इस टूल को प्रस्तुत किया।
+Kris Nuttycombe (@nuttycom) ने ZconVI के दौरान इस उपकरण (tool) को प्रस्तुत किया था।
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -21,15 +21,15 @@ Kris Nuttycombe (@nuttycom) ने ZconVI के दौरान इस टू�
 
 ---
 
-इन टूल्स का उपयोग शुरू करने के लिए चरण-दर-चरण मार्गदर्शिका हेतु [यह walkthrough](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md) देखें। इसमें zcash devtool tooling को सेट अप करने और उपयोग करने की पूर्ण walkthrough दी गई है। इसका उद्देश्य सेटअप करने और टूल में अपनी कार्यक्षमता जोड़ने की विधि के लिए मार्गदर्शिका के रूप में काम करना है।
+इन उपकरणों का उपयोग शुरू करने की चरण-दर-चरण गाइड के लिए [यह वॉकथ्रू](https://github.com/zcash/zcash-devtool/blob/main/doc/walkthrough.md) देखें। इसमें zcash devtool के उपकरणों को सेट अप करने और उपयोग करने की पूरी प्रक्रिया बताई गई है। यह गाइड बताती है कि सेटअप कैसे करें और इस उपकरण में अपनी कार्यक्षमता कैसे जोड़ें।
 
 ## त्वरित शुरुआत
 
-नीचे दिए गए कमांड zcash-devtool `main` (commit `5a26ee8`, अगस्त 2026) के विरुद्ध जाँचे गए थे। टूल बिना सूचना के बदलता है, इसलिए यदि यहाँ कुछ अब मेल नहीं खाता हो तो किसी भी कमांड पर `--help` चलाएँ।
+नीचे दी गई कमांड को zcash-devtool `main` (कमिट `5a26ee8`, अगस्त 2026) पर जाँचा गया था। यह उपकरण बिना सूचना के बदलता रहता है। इसलिए अगर यहाँ लिखी कोई बात अब मेल न खाए, तो उस कमांड पर `--help` चलाएँ।
 
-### इंस्टॉल करें
+### इंस्टॉलेशन
 
-कोई prebuilt binaries उपलब्ध नहीं हैं। [Rust](https://rustup.rs) इंस्टॉल करें, फिर स्रोत से build करें:
+इसकी कोई पहले से बनी बाइनरी उपलब्ध नहीं है। [Rust](https://rustup.rs) इंस्टॉल करें, फिर सोर्स से बिल्ड करें:
 
 ```bash
 git clone https://github.com/zcash/zcash-devtool.git
@@ -37,11 +37,11 @@ cd zcash-devtool
 cargo run --release -- --help
 ```
 
-नीचे के उदाहरण built binary, `target/release/zcash-devtool`, को कॉल करते हैं। `cargo run --release -- ...` भी इसी तरह काम करता है।
+नीचे के उदाहरण बिल्ड की गई बाइनरी `target/release/zcash-devtool` को कॉल करते हैं। `cargo run --release -- ...` भी इसी तरह काम करता है।
 
-### एक testnet wallet बनाएँ
+### टेस्टनेट वॉलेट बनाना
 
-testnet पर शुरू करें। Testnet coins (TAZ) का कोई मूल्य नहीं होता।
+शुरुआत टेस्टनेट पर करें। टेस्टनेट कॉइन (TAZ) का कोई मूल्य नहीं होता।
 
 ```bash
 zcash-devtool wallet -w ./my-wallet init --name demo -i ./my-wallet-identity.txt -n test
@@ -49,13 +49,13 @@ zcash-devtool wallet -w ./my-wallet sync
 zcash-devtool wallet -w ./my-wallet balance
 ```
 
-- `-w` wallet directory है। यह `wallet` के बाद और subcommand से पहले आता है।
-- `-i` एक [age](https://age-encryption.org) identity file है। Wallet का mnemonic phrase इसमें एन्क्रिप्ट होता है, और यदि फ़ाइल मौजूद नहीं है तो बनाई जाती है। इसे संभालकर रखें: `send`, `shield` और अन्य spending commands को seed डिक्रिप्ट करने के लिए इसकी आवश्यकता होती है।
-- `-n` network है: `test` या `main`।
-- `-s` light wallet server चुनता है। डिफ़ॉल्ट, `zecrocks`, चुने गए network के लिए zec.rocks server से जुड़ता है।
-- मौजूदा wallet पुनर्स्थापित करने के लिए `init` के स्थान पर `restore-mnemonic` का उपयोग करें। यह phrase के लिए पूछता है।
+- `-w` वॉलेट डायरेक्टरी है। यह `wallet` के बाद और सबकमांड से पहले आती है।
+- `-i` एक [age](https://age-encryption.org) आइडेंटिटी फ़ाइल है। वॉलेट का मेनेमोनिक फ्रेज़ इसी के लिए एन्क्रिप्ट (encrypt) किया जाता है। अगर यह फ़ाइल मौजूद नहीं है, तो बना दी जाती है। इसे संभालकर रखें: सीड को डिक्रिप्ट करने के लिए `send`, `shield` और खर्च करने वाली अन्य कमांड को इसकी ज़रूरत होती है।
+- `-n` नेटवर्क है: `test` या `main`।
+- `-s` लाइट वॉलेट सर्वर चुनता है। डिफ़ॉल्ट `zecrocks` चुने गए नेटवर्क के लिए zec.rocks सर्वर से कनेक्ट करता है।
+- किसी मौजूदा वॉलेट को रिस्टोर करने के लिए `init` की जगह `restore-mnemonic` का उपयोग करें। यह आपसे फ्रेज़ माँगता है।
 
-`balance`, Ironwood सहित, प्रत्येक pool को अलग-अलग सूचीबद्ध करता है:
+`balance` हर पूल (pool) को अलग-अलग दिखाता है, जिसमें Ironwood भी शामिल है:
 
 ```
     Balance:   0.00000000 TAZ
@@ -65,13 +65,13 @@ zcash-devtool wallet -w ./my-wallet balance
   Unshielded Spendable:   0.00000000 TAZ
 ```
 
-Wallet का unified address देखने के लिए `zcash-devtool wallet -w ./my-wallet list-addresses` चलाएँ, और उसे [faucet](https://zechub.wiki/using-zcash/faucets) से testnet funds भेजें।
+वॉलेट का यूनिफ़ाइड एड्रेस (address) देखने के लिए `zcash-devtool wallet -w ./my-wallet list-addresses` चलाएँ। फिर किसी [फॉसेट](https://zechub.wiki/using-zcash/faucets) से उस पर टेस्टनेट फ़ंड भेजें।
 
-mainnet के लिए `init` को `-n main` पास करें। केवल उतनी राशि का उपयोग करें जिसे खोने का जोखिम आप उठा सकते हैं।
+मेननेट के लिए `init` को `-n main` दें। केवल उतनी राशि का उपयोग करें जिसे खोने का जोखिम आप उठा सकें।
 
-### भेजें और shield करें
+### भेजना और शील्ड करना
 
-राशियाँ zatoshis में हैं (1 ZEC = 100,000,000 zatoshis)।
+राशियाँ zatoshis में होती हैं (1 ZEC = 100,000,000 zatoshis)।
 
 ```bash
 zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
@@ -79,13 +79,13 @@ zcash-devtool wallet -w ./my-wallet send -i ./my-wallet-identity.txt \
 zcash-devtool wallet -w ./my-wallet shield -i ./my-wallet-identity.txt
 ```
 
-`propose` वह transaction दिखाता है जिसे `send` बिना भेजे बनाएगा। `list-tx` और `list-unspent` wallet का इतिहास और notes दिखाते हैं।
+`propose` वह लेनदेन (transaction) दिखाता है जो `send` बनाएगा, लेकिन उसे भेजता नहीं है। `list-tx` और `list-unspent` वॉलेट का इतिहास और नोट (note) दिखाते हैं।
 
-कोई भी command जो server से बात करती है, `--connection tor` भी स्वीकार करती है, जो कनेक्शन को अंतर्निहित Tor client के माध्यम से रूट करता है।
+सर्वर से संपर्क करने वाली हर कमांड `--connection tor` भी स्वीकार करती है। इससे कनेक्शन बिल्ट-इन Tor क्लाइंट के ज़रिए जाता है।
 
-### addresses, keys और transactions का निरीक्षण करें
+### एड्रेस, कुंजियों और लेनदेन की जाँच
 
-`inspect`, Zcash डेटा को offline डिकोड करता है: addresses, keys और raw transactions। Chain से अधिक जानकारी प्राप्त करने के लिए `--lookup` जोड़ें, जैसे कि ID द्वारा transaction।
+`inspect` Zcash डेटा को ऑफ़लाइन डिकोड करता है: एड्रेस, कुंजियाँ और रॉ लेनदेन। चेन (chain) से अधिक जानकारी पाने के लिए `--lookup` जोड़ें, जैसे ID के आधार पर कोई लेनदेन।
 
 ```
 $ zcash-devtool inspect utest1h55y5z...
@@ -98,11 +98,11 @@ Zcash address
    - Transparent P2PKH (...)
 ```
 
-Ironwood notes एक unified address में उसी Orchard receiver को भेजे जाते हैं, इसलिए NU6.3 के साथ addresses नहीं बदले।
+Ironwood नोट यूनिफ़ाइड एड्रेस के उसी Orchard रिसीवर को भेजे जाते हैं, इसलिए NU6.3 के साथ एड्रेस नहीं बदले।
 
-### PCZTs के साथ चरणों में transactions बनाएँ
+### PCZT के साथ चरणों में लेनदेन बनाना
 
-एक PCZT (आंशिक रूप से निर्मित Zcash transaction) transaction बनाने को अलग-अलग चरणों में विभाजित करता है: create, prove, sign और send। प्रत्येक चरण अलग मशीन पर चल सकता है, उदाहरण के लिए Keystone जैसे hardware signer के साथ। प्रत्येक `pczt` command किसी फ़ाइल या stdin से PCZT पढ़ता है और उसे फ़ाइल (`--output`) या stdout में लिखता है, इसलिए चरणों को pipe किया जा सकता है:
+PCZT (आंशिक रूप से बनाया गया Zcash लेनदेन) लेनदेन बनाने की प्रक्रिया को अलग-अलग चरणों में बाँटता है: बनाना, प्रूव करना, साइन करना और भेजना। हर चरण अलग मशीन पर चल सकता है, जैसे Keystone जैसे हार्डवेयर साइनर के साथ। हर `pczt` कमांड PCZT को किसी फ़ाइल या stdin से पढ़ती है और उसे किसी फ़ाइल (`--output`) या stdout में लिखती है। इसलिए चरणों को पाइप किया जा सकता है:
 
 ```bash
 zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 100000 \
@@ -111,11 +111,11 @@ zcash-devtool pczt -w ./my-wallet create --address <recipient address> --value 1
   | zcash-devtool pczt -w ./my-wallet send
 ```
 
-`zcash-devtool pczt --help` अन्य चरणों को सूचीबद्ध करता है, जिनमें `inspect`, `redact`, `combine`, `extract` और `shield` शामिल हैं।
+`zcash-devtool pczt --help` बाकी चरणों की सूची दिखाता है, जिनमें `inspect`, `redact`, `combine`, `extract` और `shield` शामिल हैं।
 
-### funds को Orchard से Ironwood में स्थानांतरित करें
+### Orchard से Ironwood में फ़ंड ले जाना
 
-NU6.3 के बाद से, Orchard funds केवल wallet के अपने addresses पर ही स्थानांतरित किए जा सकते हैं। `migration` commands उन्हें Ironwood में स्थानांतरित करते हैं:
+NU6.3 से Orchard फ़ंड केवल वॉलेट के अपने एड्रेस पर ही भेजे जा सकते हैं। `migration` कमांड उन्हें Ironwood में ले जाती हैं:
 
 ```bash
 zcash-devtool migration -w ./my-wallet plan
@@ -124,19 +124,19 @@ zcash-devtool migration -w ./my-wallet status
 zcash-devtool migration -w ./my-wallet advance
 ```
 
-- `plan` note splits और transfer schedule का पूर्वावलोकन करता है, और कुछ नहीं बदलता।
-- `commit` पहले preparation transactions बनाता और pre-sign करता है। Keystone जैसे external signer के लिए उन्हें unsigned छोड़ने हेतु `--external` जोड़ें।
-- `status` migration की प्रगति और अगला चरण दिखाता है।
-- `advance` उस अगले transaction को prove करता है जिसका anchor तैयार है।
+- `plan` नोट के विभाजन और ट्रांसफ़र शेड्यूल का पूर्वावलोकन दिखाता है और कुछ भी नहीं बदलता।
+- `commit` तैयारी के शुरुआती लेनदेन बनाता है और उन्हें पहले से साइन करता है। Keystone जैसे बाहरी साइनर के लिए उन्हें बिना साइन किए छोड़ने हेतु `--external` जोड़ें।
+- `status` माइग्रेशन की प्रगति और अगला चरण दिखाता है।
+- `advance` अगला वह लेनदेन प्रूव करता है जिसका एंकर तैयार है।
 
-Migration commands अभी भी बनाए जा रहे हैं। `advance` पहले ऐसे transaction पर रुकता है जो broadcast के लिए तैयार है, क्योंकि टूल में broadcasting अभी लागू नहीं है। दैनिक उपयोग के लिए, Ironwood का समर्थन करने वाले wallet के साथ funds स्थानांतरित करें। [Shielded Pools](https://zechub.wiki/using-zcash/shielded-pools) देखें।
+माइग्रेशन कमांड अभी बनाई जा रही हैं। `advance` उस पहले लेनदेन पर रुक जाता है जो ब्रॉडकास्ट के लिए तैयार है, क्योंकि इस उपकरण में ब्रॉडकास्ट की सुविधा अभी लागू नहीं हुई है। रोज़मर्रा के उपयोग के लिए ऐसे वॉलेट से फ़ंड ले जाएँ जो Ironwood को सपोर्ट करता हो। [शील्डेड पूल](https://zechub.wiki/using-zcash/shielded-pools) देखें।
 
 
 **सुरक्षा चेतावनियाँ:**
-इसका प्रोडक्शन में उपयोग न करें!!!
-ऐप को सुरक्षा को ध्यान में रखकर नहीं लिखा गया है। हालाँकि इसमें mnemonic seed phrases का encryption जैसी सुविधाएँ हैं, जो इसे आपके अपने जोखिम पर छोटे पैमाने के प्रयोग के लिए उपयुक्त बना सकती हैं।
+इसे प्रोडक्शन में उपयोग न करें!!!
+यह ऐप सुरक्षा को ध्यान में रखकर नहीं लिखा गया है। फिर भी इसमें मेनेमोनिक सीड फ्रेज़ (seed phrase) के एन्क्रिप्शन (encryption) जैसी सुविधाएँ हैं। इनकी वजह से इसे अपने जोखिम पर छोटे स्तर के प्रयोगों के लिए उपयोग किया जा सकता है।
 
-### उन्नत (librustzcash ट्यूटोरियल )
+### एडवांस्ड (librustzcash ट्यूटोरियल)
 
 
 [वीडियो यहाँ देखें](https://free2z.cash/uploadz/public/ZcashTutorial/librustzcash-a-rust-crates.mp4)

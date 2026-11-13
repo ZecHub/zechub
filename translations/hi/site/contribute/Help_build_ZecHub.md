@@ -1,14 +1,14 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/contribute/Help_build_ZecHub.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub बनाने में मदद करें
+# ZecHub के निर्माण में सहायता
 
-यदि आप Zcash समुदाय के सदस्य हैं और ZecHub के निर्माण में योगदान देना चाहते हैं, तो कुछ चीज़ें हैं जो बेहद उपयोगी हैं।
+यदि आप Zcash समुदाय के सदस्य हैं और ZecHub के निर्माण में योगदान देना चाहते हैं, तो कुछ काम बहुत मददगार हैं।
 
-न्यूज़लेटर के लिए लिंक क्यूरेट करें और उन्हें न्यूज़लेटर के GitHub पेज में जोड़ें: -> [निर्देशों के लिए यहाँ क्लिक करें](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
+न्यूज़लेटर (newsletter) के लिए लिंक चुनें और उन्हें न्यूज़लेटर के GitHub पेज पर जोड़ें: -> [निर्देशों के लिए यहाँ क्लिक करें](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-विकी दस्तावेज़ों की तथ्य-जांच करें, संपादन सुझाएँ, और GitHub में नए पृष्ठ प्रस्तावित करें
+विकी दस्तावेज़ों के तथ्यों की जाँच करें, संपादन सुझाएँ और GitHub में नए पेज प्रस्तावित करें।
 
 निम्नलिखित श्रेणियों में वीडियो सामग्री बनाएँ:
 ```
@@ -17,17 +17,17 @@
 * Third-party application demos
 ```
 
-Zcash और Privacy ecosystem के लिए पोस्टर/ग्राफ़िक्स/एनीमेशन जैसे डिज़ाइन तैयार करें
+Zcash और गोपनीयता (privacy) इकोसिस्टम के लिए पोस्टर/ग्राफ़िक्स/एनिमेशन जैसे डिज़ाइन तैयार करें।
 
-मौजूदा विकी पृष्ठों में से किसी का भी अनुवाद करें।
+मौजूदा विकी पेजों में से किसी का भी अनुवाद करें।
 
-बग रिपोर्ट करना
+बग की रिपोर्टिंग
 
 ### पुरस्कार
 
-राशियाँ ZEC में निश्चित नहीं हैं। [बाउंटी राशि नीति](https://bounties.zechub.wiki/docs/bounty-amounts) का उपयोग करें: कार्य की श्रेणी के लिए USD अंतराल चुनें, स्पॉट दर पर रूपांतरित करें, बोर्ड पर ZEC दर्ज करें। वही नीति एकमात्र विश्वसनीय स्रोत है।
+ZEC में राशियाँ निश्चित नहीं हैं। [बाउंटी राशि नीति](https://bounties.zechub.wiki/docs/bounty-amounts) का उपयोग करें: काम की श्रेणी के लिए एक USD अंतराल चुनें, स्पॉट मूल्य पर बदलें, और बोर्ड पर ZEC दर्ज करें। वही नीति सत्य का स्रोत है।
 
-योगदानकर्ता कार्यप्रवाह और कार्य के प्रकार: [ZecHub में योगदान करना](https://zechub.wiki/contribute/contributing-guide)।
+योगदानकर्ता वर्कफ़्लो और काम के प्रकार: [ZecHub में योगदान](https://zechub.wiki/contribute/contributing-guide)।
 
 प्लेटफ़ॉर्म का परिचय:
 
@@ -42,7 +42,7 @@ Zcash और Privacy ecosystem के लिए पोस्टर/ग्रा�
   />
 </div>
 
-हम खुले कार्य [ZEC Bounties](https://bounties.zechub.wiki/) पर पोस्ट करते हैं। आप वहाँ बाउंटी का सुझाव भी दे सकते हैं। मर्ज किया गया PR स्वीकृत या भुगतान किए गए पुरस्कार के समान नहीं है।
+हम खुले कार्य [ZEC Bounties](https://bounties.zechub.wiki/) पर पोस्ट करते हैं। आप वहाँ बाउंटी के सुझाव भी दे सकते हैं। मर्ज किया गया PR, स्वीकृत या भुगतान किए गए पुरस्कार के समान नहीं है।
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -50,17 +50,19 @@ Zcash और Privacy ecosystem के लिए पोस्टर/ग्रा�
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[ZecHub GitHub Issues](https://github.com/ZecHub/zechub/issues)
+[ZecHub GitHub इश्यू](https://github.com/ZecHub/zechub/issues)
 
-[ZecHub-Wiki GitHub Issues](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki GitHub इश्यू](https://github.com/ZecHub/zechub-wiki/issues)
 
-यदि योगदान देने के अन्य तरीके हैं जिनमें आपकी रुचि है, तो कृपया Twitter पर ZecHub ([@ZecHub](https://twitter.com/zechub)) को संदेश भेजें या हमारे [Discord](https://discord.gg/zcash) से जुड़ें।
+
+
+यदि आप किसी अन्य तरीके से योगदान देना चाहते हैं, तो कृपया Twitter पर ZecHub ([@ZecHub](https://twitter.com/zechub)) को संदेश भेजें या हमारे [Discord](https://discord.gg/zcash) से जुड़ें।
 
 ____
 
-**भुगतान करने के लिए ZecHub सभी योगदानकर्ताओं से यह अपेक्षा करता है कि वे अपने नाम और Shielded के साथ एक घोषणा फ़ॉर्म पूरा करें:**
+**भुगतान करने के लिए ZecHub सभी योगदानकर्ताओं से अपने नाम और शील्डेड (shielded) के साथ एक घोषणा फ़ॉर्म भरने की अपेक्षा करता है:**
 
-**( Zcash | Namada | Penumbra | Ycash ) address**
+**( Zcash | Namada | Penumbra | Ycash ) एड्रेस (address)**
 
 ____
 

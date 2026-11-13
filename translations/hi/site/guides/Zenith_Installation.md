@@ -1,4 +1,4 @@
-# Zenith GUI फुल नोड वॉलेट इंस्टॉलेशन  
+# Zenith GUI फुल नोड वॉलेट (full node wallet) इंस्टॉलेशन  
 
 ## वीडियो ट्यूटोरियल
 
@@ -48,11 +48,11 @@
 > nano ~/.config/zebrad.toml
 
 
-#### localhost पर RPC queries सुनने के लिए
+#### localhost पर RPC क्वेरी के लिए सुनें
 
 > listen_addr = "127.0.0.1:8232"
 
-#### कई CPU threads का स्वचालित उपयोग करें
+#### कई CPU थ्रेड का अपने-आप उपयोग करें
 
 parallel_cpu_threads = 0
 
@@ -60,7 +60,7 @@ enable_cookie_auth = false
 
 ## Zenith इंस्टॉल करें
 
-**tar.gz डाउनलोड करें और उसे अपनी home directory में untar करें**
+**tar.gz डाउनलोड करें और उसे अपनी होम डायरेक्टरी में अनटार करें**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
@@ -73,7 +73,7 @@ enable_cookie_auth = false
 > git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### Dependencies इंस्टॉल करें
+### डिपेंडेंसी इंस्टॉल करें
 
 > sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
@@ -88,17 +88,17 @@ enable_cookie_auth = false
 > source ~/.bashrc
 
 
-### aarch64 के लिए source समायोजित करें
+### aarch64 के लिए सोर्स में बदलाव करें
 
 > nano configure
 
-**दोनों पंक्तियों में triple को बदलकर: "aarch64-unknown-linux-gnu" करें।**
+**दोनों पंक्तियों में triple को "aarch64-unknown-linux-gnu" में बदलें।**
 
 > nano Setup.hs
  
- **zcash-haskell folder और zenith folder दोनों में Setup.hs को संशोधित करें**
+ **zcash-haskell फ़ोल्डर और zenith फ़ोल्डर, दोनों में Setup.hs में बदलाव करें**
 
-### Compile करें 
+### कंपाइल 
 
 - ./configure
 
@@ -117,7 +117,7 @@ enable_cookie_auth = false
 - cp -r ~/zenith/assets ~/Zenith/assets
 
 
-### zenith.cfg समायोजित करें
+### zenith.cfg में बदलाव करें
 
 nodeUser = yourusername
 
@@ -142,20 +142,20 @@ zebraPort = 8232
   
 > sudo raspi-config
 
-  **advance में जाएँ और opengl => GL (Full KMS) चुनें**
+  **एडवांस में जाएँ और opengl => GL (Full KMS) चुनें**
 
-  **reboot करें**
+  **रीबूट करें**
 
 
 
 ## zenith चलाएँ
 
  ./zenith gui
- or
+ या
  ./zenith tui
- or
+ या
  ./zenithserver
 
-## RPC's
+## RPC
 
 [कैसे करें](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

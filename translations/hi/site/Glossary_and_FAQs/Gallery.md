@@ -1,6 +1,6 @@
 # Zcash वॉलपेपर गैलरी
 
-[इन्फोग्राफिक्स](/glossary-and-faqs/gallery/infographics)
+[इन्फ़ोग्राफ़िक](/glossary-and-faqs/gallery/infographics)
 
 <Gallery />
 

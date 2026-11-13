@@ -2,11 +2,11 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Viewing Key से लेनदेन इतिहास निर्यात करना
+# Viewing Key से लेनदेन इतिहास का निर्यात
 
-अधिकांश wallet निर्यात सीमित होते हैं। उदाहरण के लिए, ZODL का कर निर्यात आपको पिछले कैलेंडर वर्ष की तारीखें, राशियाँ और शुल्क देता है, लेकिन कोई लेनदेन ID, memo या पते नहीं देता। यह लेखा-जोखा रखने, wallet माइग्रेशन जाँचने या यह समझने के लिए पर्याप्त नहीं है कि किसी भुगतान के साथ क्या हुआ।
+अधिकांश वॉलेट (wallet) निर्यात बहुत सीमित होते हैं। उदाहरण के लिए, ZODL का टैक्स निर्यात आपको पिछले कैलेंडर वर्ष की तिथियाँ, राशियाँ और शुल्क (fee) देता है, लेकिन कोई लेनदेन (transaction) ID, कोई मेमो (memo) और कोई एड्रेस (address) नहीं देता। यह बहीखाते के लिए, किसी वॉलेट माइग्रेशन की जाँच के लिए, या किसी भुगतान (payment) के साथ क्या हुआ यह पता लगाने के लिए पर्याप्त नहीं है।
 
-पूरी तस्वीर पाने के लिए आपको अपने seed phrase की आवश्यकता नहीं है। एक unified full viewing key (UFVK, जो `uview1` से शुरू होती है) किसी खाते में आने वाले और उससे जाने वाले हर लेनदेन को देख सकती है, और दो tools इसे आपकी रखी जा सकने वाली फ़ाइल में बदल सकते हैं: Zkool GraphQL server और zingo-cli। यह मार्गदर्शिका [इस forum thread](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) के तरीकों को एकत्र करती है और उन्हें वर्तमान releases के लिए अपडेट करती है।
+पूरी जानकारी पाने के लिए आपको अपने सीड फ्रेज़ (seed phrase) की आवश्यकता नहीं है। एक यूनिफ़ाइड फ़ुल व्यूइंग की (unified full viewing key, UFVK, जो `uview1` से शुरू होती है) किसी खाते के हर आने वाले और जाने वाले लेनदेन को देख सकती है, और दो उपकरण (tools) इसे एक फ़ाइल में बदल सकते हैं जिसे आप अपने पास रख सकते हैं: Zkool GraphQL सर्वर और zingo-cli। यह गाइड [इस फ़ोरम थ्रेड](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) के तरीकों को एकत्र करती है और उन्हें वर्तमान रिलीज़ के अनुसार अपडेट करती है।
 
 सितंबर 2026 में Zkool 6.30.0 और zingolib 6.0.0 के zingo-cli के साथ परीक्षण किया गया।
 
@@ -14,25 +14,25 @@
 
 आपको दो चीज़ों की आवश्यकता है:
 
-1. **खाते के लिए UFVK**। [Viewing Keys](/zcash-tech/viewing-keys) बताता है कि यह क्या प्रकट करती है और इसे कैसे निर्यात करें।
-2. **एक birth height**, अर्थात वह block जहाँ से स्कैन शुरू करना है। अपने पहले लेनदेन से पहले की height इस्तेमाल करें। इसे बहुत ऊँचा रखने पर पुराना इतिहास चुपचाप छूट जाता है। इसे बहुत नीचे रखने पर स्कैन में बस अधिक समय लगता है। Sapling activation (419200) हमेशा सुरक्षित है, लेकिन इसे स्कैन करने में घंटों लग सकते हैं।
+1. खाते की **UFVK**। [व्यूइंग की](/zcash-tech/viewing-keys) बताता है कि यह क्या प्रकट करती है और इसे कैसे निर्यात करें।
+2. **एक बर्थ हाइट**, यानी वह ब्लॉक (block) जहाँ से स्कैनिंग शुरू करनी है। अपने पहले लेनदेन से पहले की हाइट का उपयोग करें। यदि आप इसे बहुत ऊँचा सेट करते हैं, तो पुराना इतिहास बिना किसी सूचना के गायब रहेगा। यदि बहुत नीचा सेट करते हैं, तो स्कैन में बस अधिक समय लगेगा। Sapling सक्रियण (419200) हमेशा सुरक्षित है, लेकिन इसे स्कैन करने में घंटों लग सकते हैं।
 
 ## इसे निजी रखें
 
-Viewing key खर्च नहीं कर सकती, लेकिन जिसके पास यह हो उसे आपका पूरा इतिहास दिखाई देता है।
+एक व्यूइंग की (viewing key) खर्च नहीं कर सकती, लेकिन यह जिसके पास भी हो उसे आपका पूरा इतिहास दिखा देती है।
 
-- इसे किसी वेबसाइट या block explorer में पेस्ट न करें। इसे केवल उस software में import करें जिसे आप स्वयं चलाते हैं।
-- जिस server से आप sync करते हैं, वह आपका IP address और वे लेनदेन देखता है जिन्हें आप पूरे रूप में डाउनलोड करते हैं। नीचे दिए गए दोनों tools memo और शुल्क पढ़ने के लिए आपके प्रत्येक लेनदेन को ID द्वारा प्राप्त करते हैं, और [ZIP 307](https://zips.z.cash/zip-0307) में उल्लेख है कि इससे server को पता चलता है कि कौन-से लेनदेन आपके हैं। अपने स्वयं के Zebra नोड से Zaino या lightwalletd के साथ sync करने पर यह टलता है। [Zingolib and Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) आपको setup के चरणों से गुजारता है।
-- zingo-cli 6 भुगतान Nym mixnet पर भेजता है, लेकिन इसका sync अभी भी सीधे server से जुड़ता है, इसलिए ऊपर वाली बात इस पर भी लागू होती है।
-- इन tools को viewing key दें, कभी भी seed न दें। Zkool GraphQL server में default रूप से कोई login नहीं है, और इसकी API seed से बनाए गए किसी भी खाते का seed लौटा सकती है तथा funds भेज सकती है।
-- server को अपनी ही मशीन पर रखें। नीचे दिया Docker command केवल `127.0.0.1` पर सुनता है।
-- दोनों tools key और आपके इतिहास को बिना encryption के संग्रहीत करते हैं। काम पूरा होने पर working data हटा दें और निर्यात को किसी encrypted स्थान पर रखें।
+- इसे किसी वेबसाइट या ब्लॉक एक्सप्लोरर में पेस्ट न करें। इसे ऐसे सॉफ़्टवेयर में इम्पोर्ट करें जिसे आप स्वयं चलाते हैं।
+- जिस सर्वर से आप सिंक करते हैं, वह आपका IP एड्रेस देखता है और यह भी कि आप कौन से लेनदेन पूरी तरह डाउनलोड करते हैं। नीचे दिए गए दोनों उपकरण मेमो और शुल्क पढ़ने के लिए आपके हर लेनदेन को ID से प्राप्त करते हैं, और [ZIP 307](https://zips.z.cash/zip-0307) में उल्लेख है कि इससे सर्वर को पता चल जाता है कि कौन से लेनदेन आपके हैं। Zaino या lightwalletd के साथ अपने स्वयं के Zebra नोड (node) से सिंक करने पर इससे बचा जा सकता है। [Zingolib और Zaino ट्यूटोरियल](/guides/zingolib-and-zaino-tutorial) एक सेटअप की पूरी प्रक्रिया बताता है।
+- zingo-cli 6 भुगतान Nym मिक्सनेट के माध्यम से भेजता है, लेकिन इसका सिंक अब भी सीधे सर्वर से जुड़ता है, इसलिए ऊपर वाली बात इस पर भी लागू होती है।
+- इन उपकरणों को व्यूइंग की दें, कभी भी सीड नहीं। Zkool GraphQL सर्वर में डिफ़ॉल्ट रूप से कोई लॉगिन नहीं होता, और इसका API सीड से बनाए गए किसी भी खाते का सीड लौटा देगा, और फ़ंड भी भेज सकता है।
+- सर्वर को अपनी ही मशीन पर रखें। नीचे दिया गया Docker कमांड केवल `127.0.0.1` पर सुनता है।
+- दोनों उपकरण की और आपके इतिहास को बिना एन्क्रिप्शन (encryption) के संग्रहीत करते हैं। काम पूरा होने पर कार्यशील डेटा हटा दें और निर्यात को किसी एन्क्रिप्टेड स्थान पर रखें।
 
 ## विकल्प 1: Zkool GraphQL
 
-`zkool_graphql`, Zkool का wallet engine है जो standalone server के रूप में चलता है। यह Zkool app से अलग program है। इसे चलाने का सबसे सरल तरीका आधिकारिक Docker image (amd64 और arm64) है। [Zkool releases page](https://github.com/hhanh00/zkool2/releases) पर Linux x86-64 binary भी है; इसके लिए glibc 2.38 या नया संस्करण चाहिए, इसलिए Ubuntu 24.04 काम करता है और Debian 12 नहीं।
+`zkool_graphql` एक स्वतंत्र सर्वर के रूप में Zkool का वॉलेट इंजन है। यह Zkool ऐप से अलग प्रोग्राम है। इसे चलाने का सबसे आसान तरीका आधिकारिक Docker इमेज (amd64 और arm64) है। [Zkool रिलीज़ पेज](https://github.com/hhanh00/zkool2/releases) पर एक Linux x86-64 बाइनरी भी है; इसके लिए glibc 2.38 या नया संस्करण चाहिए, इसलिए Ubuntu 24.04 पर यह काम करती है और Debian 12 पर नहीं।
 
-### 1. server शुरू करें
+### 1. सर्वर शुरू करना
 
 ```bash
 docker run -d --name zkool-export \
@@ -42,11 +42,11 @@ docker run -d --name zkool-export \
   --db-path /data/zkool.db
 ```
 
-यह `https://zec.rocks` से sync करता है, जब तक कि आप अपने server के साथ `--lwd-url` न जोड़ें। पहली बार शुरू होने पर यह Sapling parameters (लगभग 50 MB) डाउनलोड करता है। यदि वह विफल हो जाए, तो `docker start zkool-export` फिर प्रयास करता है।
+यह `https://zec.rocks` से सिंक करता है, जब तक कि आप अपने स्वयं के सर्वर के साथ `--lwd-url` न जोड़ें। पहली बार शुरू होने पर यह Sapling पैरामीटर (लगभग 50 MB) डाउनलोड करता है। यदि यह विफल होता है, तो `docker start zkool-export` फिर से प्रयास करता है।
 
-Browser में `http://127.0.0.1:8000/graphiql` खोलें। आप वहाँ अगले प्रत्येक चरण को पेस्ट करके चला सकते हैं।
+ब्राउज़र में `http://127.0.0.1:8000/graphiql` खोलें। आप अगले प्रत्येक चरण को वहाँ पेस्ट करके चला सकते हैं।
 
-### 2. key import करें
+### 2. की का इम्पोर्ट
 
 ```graphql
 mutation {
@@ -60,28 +60,28 @@ mutation {
 }
 ```
 
-यह नए खाते की ID लौटाता है, जो नए server पर 1 होती है।
+यह नए खाते की ID लौटाता है, जो एक नए सर्वर पर 1 होती है।
 
-- हमेशा `birth` सेट करें। इसके बिना Zkool वर्तमान block से शुरू होता है और कुछ नहीं पाता।
-- `useInternal: true`, Zkool को transparent change addresses भी जाँचने देता है। ZODL से प्राप्त keys के लिए इसे चालू रखें; [Recovering Funds](/using-zcash/recovering-funds), ZODL seeds के लिए इसी setting का उपयोग करता है।
+- हमेशा `birth` सेट करें। इसके बिना Zkool वर्तमान ब्लॉक से शुरू करता है और कुछ नहीं पाता।
+- `useInternal: true` से Zkool ट्रांसपेरेंट (transparent) चेंज एड्रेस की भी जाँच करता है। ZODL से ली गई की के लिए इसे चालू रखें; यह वही सेटिंग है जिसका उपयोग [फ़ंड की पुनर्प्राप्ति](/using-zcash/recovering-funds) ZODL सीड के लिए करता है।
 
-### 3. sync करें
+### 3. सिंक
 
 ```graphql
 mutation { synchronizeAccount(idAccount: 1) }
 ```
 
-यह sync समाप्त होने तक चलता है। `fast: true` न जोड़ें। यह पूरे लेनदेन डाउनलोड करना छोड़ देता है, जबकि memo, शुल्क और outputs वहीं से आते हैं।
+यह सिंक समाप्त होने तक चलता है। `fast: true` न जोड़ें। यह पूरे लेनदेन डाउनलोड करना छोड़ देता है, और मेमो, शुल्क और आउटपुट वहीं से आते हैं।
 
-यह जो संख्या लौटाता है वह वह height है जिसे पाने का इसका लक्ष्य था, न कि इस बात का प्रमाण कि वह वहाँ पहुँच गया। Network error बिना कुछ बताए sync को जल्दी समाप्त कर सकती है, इसलिए जाँचें:
+यह जो संख्या लौटाता है, वह वह हाइट है जिस तक पहुँचने का लक्ष्य था, इस बात का प्रूफ (proof) नहीं कि वह वहाँ पहुँच गया। एक नेटवर्क त्रुटि बिना कुछ बताए सिंक को जल्दी समाप्त कर सकती है, इसलिए जाँच करें:
 
 ```graphql
 { currentHeight accounts { id name height } }
 ```
 
-यदि खाते का `height`, `currentHeight` से पीछे है, तो sync फिर चलाएँ। यह वहीं से जारी रहेगा जहाँ रुका था।
+यदि खाते का `height` `currentHeight` से पीछे है, तो सिंक फिर से चलाएँ। यह वहीं से आगे बढ़ता है जहाँ रुका था।
 
-### 4. निर्यात करें
+### 4. निर्यात
 
 इसे `history.graphql` के रूप में सहेजें:
 
@@ -96,7 +96,7 @@ mutation { synchronizeAccount(idAccount: 1) }
 }
 ```
 
-`height` argument को तब तक न दें जब तक आपका यही आशय न हो। यह न्यूनतम मान सेट करता है, इसलिए forum उदाहरण का `height: 3000000` उस block से पहले की हर चीज़ हटा देता है।
+`height` आर्ग्युमेंट को तब तक छोड़ दें जब तक आप सचमुच इसे न चाहते हों। यह एक न्यूनतम सीमा सेट करता है, इसलिए फ़ोरम उदाहरण का `height: 3000000` उस ब्लॉक से पहले का सब कुछ हटा देता है।
 
 इसे JSON के रूप में प्राप्त करें:
 
@@ -106,15 +106,15 @@ jq -n --rawfile q history.graphql '{query: $q}' |
     -H 'content-type: application/json' --data-binary @- > history.json
 ```
 
-Mining rewards को छोड़कर हर लेनदेन में 0 से अधिक शुल्क दिखना चाहिए। यदि किसी में `"fee": "0"` और कोई memo नहीं दिखता, तो उसके विवरण डाउनलोड नहीं हुए। Zkool स्कैन के बाद पूरे लेनदेन एक-एक करके प्राप्त करता है, और एक विफलता चुपचाप बाकी को रोक देती है। प्रभावित लेनदेन सूचीबद्ध करने के लिए:
+माइनिंग (mining) पुरस्कारों को छोड़कर, हर लेनदेन में 0 से अधिक शुल्क दिखना चाहिए। यदि किसी में `"fee": "0"` दिखता है और कोई मेमो नहीं है, तो उसका विवरण डाउनलोड नहीं हुआ। Zkool स्कैन के बाद पूरे लेनदेन एक-एक करके प्राप्त करता है, और एक विफलता बाकी को चुपचाप रोक देती है। प्रभावित लेनदेन की सूची देखने के लिए:
 
 ```bash
 jq -r '.data.transactionsByAccount[] | select(.fee == "0") | .txid' history.json
 ```
 
-यदि कुछ दिखे, तो कुछ मिनट बाद फिर sync करें और दोबारा निर्यात करें।
+यदि कुछ भी दिखाई दे, तो कुछ मिनट बाद फिर से सिंक करें और फिर से निर्यात करें।
 
-फिर इसे CSV में समतल करें, प्रति लेनदेन एक row:
+फिर इसे CSV में बदलें, प्रति लेनदेन एक पंक्ति:
 
 ```bash
 jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
@@ -124,24 +124,24 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   | @csv' history.json > history.csv
 ```
 
-### output पढ़ना
+### आउटपुट को पढ़ना
 
 | फ़ील्ड | अर्थ |
 |---|---|
-| `value` | ZEC में खाते का शुद्ध परिवर्तन, जिसमें शुल्क शामिल है। भेजे गए भुगतानों के लिए ऋणात्मक। |
-| `fee` | ZEC में शुल्क। आपको प्राप्त भुगतानों में प्रेषक ने इसका भुगतान किया था और यह `value` में नहीं होता। |
-| `time` | timezone marker के बिना UTC में block समय |
-| `notes` | इस लेनदेन में खाते को क्या प्राप्त हुआ, change सहित। आपको भेजे गए memo यहाँ होते हैं। Transparent entries का कोई पता नहीं होता। |
-| `spends` | खाते के अपने वे notes जिन्हें इस लेनदेन ने खर्च किया |
-| `outputs` | लेनदेन ने क्या भेजा: हर transparent output, साथ ही अन्य पतों के shielded payments और उनके memo |
-| `pool` | 0 transparent, 1 Sapling, 2 Orchard, 3 Ironwood |
-| `scope` | 0 external (आने वाला भुगतान), 1 internal (change) |
+| `value` | ZEC में खाते में शुद्ध परिवर्तन, शुल्क सहित। भेजने पर ऋणात्मक। |
+| `fee` | ZEC में शुल्क। आपको प्राप्त भुगतानों पर इसे भेजने वाले ने चुकाया है और यह `value` में शामिल नहीं है। |
+| `time` | UTC में ब्लॉक समय, बिना टाइमज़ोन चिह्न के |
+| `notes` | इस लेनदेन में खाते को क्या प्राप्त हुआ, चेंज सहित। आपको भेजे गए मेमो यहाँ होते हैं। ट्रांसपेरेंट प्रविष्टियों में कोई एड्रेस नहीं होता। |
+| `spends` | खाते के अपने नोट (note) जिन्हें इस लेनदेन ने खर्च किया |
+| `outputs` | लेनदेन ने क्या बाहर भेजा: हर ट्रांसपेरेंट आउटपुट, साथ ही अन्य एड्रेस पर उनके मेमो सहित शील्डेड (shielded) भुगतान |
+| `pool` | 0 ट्रांसपेरेंट, 1 Sapling, 2 Orchard, 3 Ironwood |
+| `scope` | 0 बाहरी (आने वाला भुगतान), 1 आंतरिक (चेंज) |
 
-Zkool app में account menu में Export Transactions, Memos और Notes भी हैं, लेकिन वे raw table dumps हैं: राशियाँ zatoshis में, Unix timestamps, और memo एक अलग फ़ाइल में।
+Zkool ऐप के खाता मेनू में भी लेनदेन, मेमो और नोट निर्यात करने के विकल्प हैं, लेकिन वे कच्चे टेबल डंप हैं: राशियाँ ज़ैटोशी में, Unix टाइमस्टैम्प, और मेमो एक अलग फ़ाइल में।
 
 ## विकल्प 2: zingo-cli
 
-zingo-cli, Zingo का command-line wallet है। कोई prebuilt downloads नहीं हैं, इसलिए इसे Rust से build करें:
+zingo-cli Zingo का कमांड-लाइन वॉलेट है। इसके कोई पहले से बने डाउनलोड नहीं हैं, इसलिए आप इसे Rust के साथ बिल्ड करते हैं:
 
 ```bash
 git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
@@ -151,9 +151,9 @@ cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym -
 cp zingo-netutils/target/release/nym-proxy target/release/
 ```
 
-केवल sync करने के लिए भी आपको `nym-proxy` की आवश्यकता है। zingo-cli 6 इसके बिना किसी server से नहीं जुड़ेगा।
+केवल सिंक करने के लिए भी आपको `nym-proxy` की आवश्यकता है। इसके बिना zingo-cli 6 किसी भी सर्वर से कनेक्ट नहीं होगा।
 
-पहला run एक view-only wallet बनाता है, उसे sync करता है और इतिहास प्रिंट करता है:
+पहली बार चलाने पर यह एक केवल-देखने वाला वॉलेट बनाता है, उसे सिंक करता है और इतिहास प्रिंट करता है:
 
 ```bash
 ./target/release/zingo-cli --data-dir "$HOME/zingo-export" \
@@ -162,12 +162,12 @@ cp zingo-netutils/target/release/nym-proxy target/release/
   --waitsync transactions > transactions.txt
 ```
 
-- `--data-dir` absolute path होना चाहिए।
-- `--viewkey` और `--birthday` केवल wallet बनाते समय लागू होते हैं। उसके बाद इन्हें छोड़ दें।
-- zingo-cli default रूप से offline शुरू होता है। `--server` server चुनता है और online जाने के लिए आपकी सहमति भी माना जाता है।
-- key आपकी shell history में चली जाती है, इसलिए बाद में उसे साफ़ करें।
+- `--data-dir` एक पूर्ण (absolute) पाथ होना चाहिए।
+- `--viewkey` और `--birthday` केवल वॉलेट बनाते समय लागू होते हैं। उसके बाद इन्हें छोड़ दें।
+- zingo-cli डिफ़ॉल्ट रूप से ऑफ़लाइन शुरू होता है। `--server` सर्वर चुनता है और ऑनलाइन जाने की आपकी सहमति भी माना जाता है।
+- की आपके शेल इतिहास में पहुँच जाती है, इसलिए बाद में उसे साफ़ कर दें।
 
-बाद के runs:
+बाद के रन:
 
 ```bash
 Z="./target/release/zingo-cli --data-dir $HOME/zingo-export"
@@ -176,43 +176,43 @@ $Z --offline value_transfers > value_transfers.txt
 $Z --offline messages > memos.json
 ```
 
-`--offline` network को छुए बिना पहले से sync हुई जानकारी पढ़ता है।
+`--offline` नेटवर्क को छुए बिना पहले से सिंक किए गए डेटा को पढ़ता है।
 
-- `transactions` प्रति लेनदेन एक entry देता है: txid, समय (UTC), height, प्रकार (`received`, `sent`, `shield` या `send-to-self`), value, शुल्क और शामिल notes।
-- `value_transfers` प्रति भुगतान एक entry देता है, इसलिए दो लोगों को भेजे गए भुगतान की दो entries होंगी, प्रत्येक में recipient address और memo होंगे।
-- `messages` memo को JSON के रूप में सूचीबद्ध करता है।
+- `transactions` प्रति लेनदेन एक प्रविष्टि देता है: txid, समय (UTC), हाइट, प्रकार (`received`, `sent`, `shield` या `send-to-self`), मूल्य, शुल्क और संबंधित नोट।
+- `value_transfers` प्रति भुगतान एक प्रविष्टि देता है, इसलिए दो लोगों को भेजा गया भुगतान दो प्रविष्टियाँ होता है, प्रत्येक में प्राप्तकर्ता का एड्रेस और मेमो होते हैं।
+- `messages` मेमो को JSON के रूप में सूचीबद्ध करता है।
 
-output के बारे में जानने योग्य कुछ बातें:
+आउटपुट के बारे में जानने योग्य कुछ बातें:
 
-- `transactions` और `value_transfers` साधारण text प्रिंट करते हैं जो थोड़ा JSON जैसा दिखता है, लेकिन है नहीं।
-- राशियाँ zatoshis में होती हैं (1 ZEC के लिए 100,000,000) और हमेशा धनात्मक होती हैं। `kind` दिशा बताता है। भेजने के लिए, `value` वह राशि है जो शुल्क को छोड़कर अन्य लोगों को गई।
-- जब कोई लेनदेन ऐसे transparent funds खर्च करता है जो आपके नहीं थे, शुल्क "not available" के रूप में दिखता है। केवल text memo दिखाए जाते हैं।
-- यदि sync विफल हो जाए, तो error फ़ाइल के बजाय terminal में जाता है, और zingo-cli फिर भी सामान्य रूप से exit हो जाता है। `transactions.txt` पर भरोसा करने से पहले terminal जाँचें।
+- `transactions` और `value_transfers` सादा टेक्स्ट प्रिंट करते हैं जो कुछ हद तक JSON जैसा दिखता है, लेकिन है नहीं।
+- राशियाँ ज़ैटोशी में होती हैं (100,000,000 = 1 ZEC) और हमेशा धनात्मक होती हैं। `kind` आपको दिशा बताता है। भेजने के मामले में, `value` वह है जो अन्य लोगों को गया, शुल्क के बिना।
+- जब कोई लेनदेन ऐसे ट्रांसपेरेंट फ़ंड खर्च करता है जो आपके नहीं थे, तो शुल्क “not available” के रूप में दिखता है। केवल टेक्स्ट मेमो दिखाए जाते हैं।
+- यदि सिंक विफल होता है, तो त्रुटि फ़ाइल में नहीं बल्कि टर्मिनल में जाती है, और zingo-cli फिर भी सामान्य रूप से बंद होता है। `transactions.txt` पर भरोसा करने से पहले टर्मिनल की जाँच करें।
 
-dismad के [zingoHelper](https://github.com/dismad/zingoHelper) में एक `exportToJSON.sh` script है जो `transactions` को JSON में बदलती है। इसे zingo-cli 6 से पहले लिखा गया था, यह testnet के लिए तैयार है, कुछ outgoing Sapling और transparent entries को placeholders के रूप में चिह्नित करती है, और इसे GNU tools चाहिए, इसलिए यह सामान्य macOS पर नहीं चलेगी। इसके output को शुरुआती बिंदु मानें और totals जाँचें।
+dismad के [zingoHelper](https://github.com/dismad/zingoHelper) में एक `exportToJSON.sh` स्क्रिप्ट है जो `transactions` को JSON में बदलती है। यह zingo-cli 6 से पहले लिखी गई थी, टेस्टनेट के लिए सेट है, कुछ जाने वाली Sapling और ट्रांसपेरेंट प्रविष्टियों को प्लेसहोल्डर के रूप में चिह्नित करती है, और GNU उपकरणों की आवश्यकता रखती है, इसलिए यह सामान्य macOS पर नहीं चलेगी। इसके आउटपुट को एक शुरुआती बिंदु मानें और योग की जाँच करें।
 
-## viewing key क्या नहीं बता सकती
+## व्यूइंग की आपको क्या नहीं बता सकती
 
-- **कीमतें।** कोई भी tool प्रत्येक लेनदेन के समय की ZEC कीमत दर्ज नहीं करता। Fiat values स्वयं जोड़ें।
-- **Transparent इतिहास, यदि key में वह शामिल नहीं है।** UFVK का transparent भाग [ZIP 316](https://zips.z.cash/zip-0316) के तहत वैकल्पिक है। zingo-cli में, `$Z --offline parse_viewkey uview1...` दिखाता है कि key किन pools को cover करती है।
-- **आपको किसने भुगतान किया।** Shielded payments में प्रेषक का पता नहीं होता। जब तक प्रेषक ने उसे memo में न लिखा हो, वह कहीं नहीं है।
-- **कुछ outgoing विवरण।** Shielded sends के destination address, राशि और memo key से decrypt करके पुनर्प्राप्त किए जाते हैं। कोई wallet ऐसा लेनदेन बना सकता है जिसमें यह संभव न हो, हालाँकि अधिकांश ऐसा नहीं करते।
+- **कीमतें।** कोई भी उपकरण प्रत्येक लेनदेन के समय की ZEC कीमत दर्ज नहीं करता। फ़िएट मूल्य स्वयं जोड़ें।
+- **ट्रांसपेरेंट इतिहास, यदि की में वह शामिल नहीं है।** [ZIP 316](https://zips.z.cash/zip-0316) के अंतर्गत UFVK का ट्रांसपेरेंट भाग वैकल्पिक है। zingo-cli के साथ, `$Z --offline parse_viewkey uview1...` दिखाता है कि कोई की किन पूलों (pool) को कवर करती है।
+- **आपको किसने भुगतान किया।** शील्डेड भुगतानों में भेजने वाले का एड्रेस नहीं होता। जब तक भेजने वाले ने उसे मेमो में न डाला हो, वह कहीं भी उपलब्ध नहीं है।
+- **कुछ जाने वाले विवरण।** शील्डेड भुगतानों के गंतव्य एड्रेस, राशि और मेमो की से डिक्रिप्ट करके प्राप्त किए जाते हैं। हालाँकि कोई वॉलेट लेनदेन को इस तरह बना सकता है कि यह संभव न हो, पर अधिकांश ऐसा नहीं करते।
 
-## अन्य tools
+## अन्य उपकरण
 
-| Tool | आपको क्या मिलता है |
+| उपकरण | आपको क्या मिलता है |
 |---|---|
-| ZODL | तारीखों, राशियों, शुल्क और एक tag वाली tax CSV। केवल पिछला कैलेंडर वर्ष; shielding transactions छोड़ता है; txid, memo या पता नहीं। |
-| Zkool app | account menu से raw table exports |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | `importvk` के साथ UFVK import करता है। RPC पर `listreceived` txid और memo सहित प्राप्त notes लौटाता है, लेकिन sends और शुल्क नहीं। |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` विस्तृत है लेकिन experimental चिह्नित है, और Zallet केवल Sapling viewing keys import करता है, UFVKs नहीं |
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) | `wallet init-fvk` के साथ UFVK import करता है, फिर `wallet list-tx`। इसके CSV mode में txid या पता नहीं है, और project कहता है कि इसे production में उपयोग न करें। |
+| ZODL | तिथियों, राशियों, शुल्क और एक टैग वाली टैक्स CSV। केवल पिछला कैलेंडर वर्ष, शील्डिंग लेनदेन छोड़ देता है, कोई txid, मेमो या एड्रेस नहीं। |
+| Zkool ऐप | खाता मेनू से कच्चे टेबल निर्यात |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | `importvk` के साथ UFVK इम्पोर्ट करता है। RPC पर `listreceived` txid और मेमो के साथ प्राप्त नोट लौटाता है, लेकिन भेजे गए भुगतान और शुल्क नहीं। |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` विस्तृत है लेकिन प्रायोगिक के रूप में चिह्नित है, और Zallet केवल Sapling व्यूइंग की इम्पोर्ट करता है, UFVK नहीं |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | `wallet init-fvk` के साथ UFVK इम्पोर्ट करता है, फिर `wallet list-tx`। इसके CSV मोड में कोई txid या एड्रेस नहीं है, और प्रोजेक्ट कहता है कि इसे प्रोडक्शन में उपयोग न करें। |
 
 ## संबंधित
 
-- [Viewing Keys](/zcash-tech/viewing-keys)
-- [Recovering Funds](/using-zcash/recovering-funds)
-- [Zingolib and Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
-- [Forum: UFVK/seed से transaction history को JSON/CSV में निर्यात करना](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
-- [Forum: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
+- [व्यूइंग की](/zcash-tech/viewing-keys)
+- [फ़ंड की पुनर्प्राप्ति](/using-zcash/recovering-funds)
+- [Zingolib और Zaino ट्यूटोरियल](/guides/zingolib-and-zaino-tutorial)
+- [फ़ोरम: UFVK/सीड से लेनदेन इतिहास का JSON/CSV में निर्यात](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [फ़ोरम: Zkool और GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
 - [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)

@@ -1,122 +1,123 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Heartwood.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पेज संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Heartwood
 
-> Heartwood, Zcash mainnet पर ब्लॉक 903,000 (16 जुलाई 2020 UTC) पर लाइव हुआ।
+> Heartwood, Zcash मेननेट पर ब्लॉक 903,000 (16 जुलाई 2020 UTC) पर लाइव हुआ।
 
-आप क्या समझेंगे: Heartwood ने miners को अपने block rewards सीधे shielded addresses में प्राप्त करने की सुविधा कैसे दी, और इसने Zcash के proof-of-work को lightweight clients द्वारा जाँचने योग्य कैसे बनाया।
+आप इस पेज से क्या सीखेंगे: Heartwood ने माइनर को उनके ब्लॉक रिवॉर्ड सीधे शील्डेड (shielded) एड्रेस में पाने की सुविधा कैसे दी, और इसने Zcash के प्रूफ-ऑफ-वर्क (proof-of-work) को हल्के क्लाइंट द्वारा जाँचने योग्य कैसे बनाया।
 
-Heartwood, Zcash का एक [network upgrade](../start-here/network-upgrades) है, यानी consensus-rule hard fork, जिसकी deployment [ZIP 250](https://zips.z.cash/zip-0250) में परिभाषित की गई है। इसमें दो feature changes शामिल थे: [ZIP 213](https://zips.z.cash/zip-0213) (Shielded Coinbase) और [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient)। Heartwood, Zcash का चौथा प्रमुख network upgrade था, और इसे [Electric Coin Company](../zcash-organizations/electric-coin-company) तथा [Zcash Foundation](../zcash-organizations/zcash-foundation) दोनों का संयुक्त समर्थन प्राप्त था। हर Zcash upgrade की तरह, इसने एक नया consensus branch id भी निर्धारित किया, जो ऐसा tag है जो two-way replay protection देता है, ताकि नए rules के तहत बनाई गई transaction पुरानी chain पर replay न की जा सके, और इसका उलटा भी संभव न हो।
+Heartwood एक Zcash [नेटवर्क अपग्रेड](../start-here/network-upgrades) है। यह कंसेंसस (consensus) नियमों का एक हार्ड फोर्क (hard fork) है, जिसका डिप्लॉयमेंट [ZIP 250](https://zips.z.cash/zip-0250) में परिभाषित है। इसमें दो फ़ीचर बदलाव शामिल थे: [ZIP 213](https://zips.z.cash/zip-0213) (शील्डेड Coinbase) और [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient)। Heartwood, Zcash का चौथा बड़ा नेटवर्क अपग्रेड था, और इसे [Electric Coin Company](../zcash-organizations/electric-coin-company) और [Zcash Foundation](../zcash-organizations/zcash-foundation) ने मिलकर समर्थन दिया था। हर Zcash अपग्रेड की तरह, इसने एक नया कंसेंसस ब्रांच आईडी (consensus branch id) निर्धारित किया। यह एक टैग है जो दो-तरफ़ा रीप्ले प्रोटेक्शन (replay protection) देता है, ताकि नए नियमों के तहत बना लेनदेन (transaction) पुरानी चेन (chain) पर दोहराया न जा सके, और इसका उल्टा भी।
 
-Heartwood एक निश्चित block height (903,000) पर activate होता है, किसी तय घड़ी के समय पर नहीं, इसलिए dashboard पर दिखने वाला सटीक मिनट अलग-अलग जगहों पर थोड़ा भिन्न हो सकता है। ब्लॉक वही रहता है, और क्षण भी वही रहता है।
+Heartwood एक तय ब्लॉक ऊँचाई (903,000) पर सक्रिय होता है, किसी निश्चित घड़ी के समय पर नहीं, इसलिए डैशबोर्ड (dashboard) पर दिखने वाला सटीक मिनट एक जगह से दूसरी जगह थोड़ा अलग हो सकता है। ब्लॉक और क्षण, दोनों एक ही हैं।
 
-यह क्यों महत्वपूर्ण है। जब भी miners कोई block mine करते हैं, उन्हें नए mint किए गए ZEC मिलते हैं। Heartwood से पहले, यह आय एक transparent address में ही जानी पड़ती थी, जो सार्वजनिक होता है। कोई भी देख सकता था कि miner ने कितना कमाया और coins आगे कहाँ गए। Heartwood ने यह reward सीधे shielded address में भेजना संभव बनाया, ताकि miner की कमाई निजी रह सके। इसने lightweight wallets और अन्य chains के लिए भी पूरे chain को डाउनलोड किए बिना Zcash के proof-of-work की जाँच करना संभव बनाया।
+यह क्यों महत्वपूर्ण है। माइनर (miner) हर बार ब्लॉक माइन करने पर नए बने ZEC कमाते हैं। Heartwood से पहले, यह आय एक ट्रांसपेरेंट (transparent) एड्रेस (address) में आनी ज़रूरी थी, जो सार्वजनिक होता है। कोई भी देख सकता था कि एक माइनर ने कितना कमाया और सिक्के आगे कहाँ गए। Heartwood ने इस रिवॉर्ड को इसके बजाय सीधे शील्डेड एड्रेस में जाने की अनुमति दी, ताकि माइनर की कमाई निजी रह सके। इसने हल्के वॉलेट (wallet) और दूसरी चेन के लिए पूरी चेन डाउनलोड किए बिना Zcash के प्रूफ-ऑफ-वर्क को जाँचना भी संभव बनाया।
 
-## Shielded coinbase
+## शील्डेड कॉइनबेस
 
-coinbase transaction वह विशेष transaction है जो block reward का भुगतान करती है। Heartwood से पहले, इसके outputs transparent होने अनिवार्य थे, इसलिए miner के नए mint किए गए ZEC हमेशा एक सार्वजनिक address में ही शुरू होते थे। Heartwood ने consensus rules को बदल दिया ताकि ZIP 213 के शब्दों में, coinbase transactions में Sapling outputs हो सकें। सरल शब्दों में, अब miners rewards सीधे shielded Sapling addresses में प्राप्त कर सकते हैं। Transparent coinbase outputs अब भी supported हैं, इसलिए यह एक नया विकल्प है, कोई बाध्यकारी बदलाव नहीं।
+कॉइनबेस (coinbase) लेनदेन वह विशेष लेनदेन है जो ब्लॉक रिवॉर्ड का भुगतान करता है। Heartwood से पहले, इसके आउटपुट का ट्रांसपेरेंट होना ज़रूरी था, इसलिए माइनर के नए बने ZEC हमेशा एक सार्वजनिक एड्रेस में ही अपना जीवन शुरू करते थे। Heartwood ने कंसेंसस नियमों को बदला ताकि, ZIP 213 के शब्दों में, कॉइनबेस लेनदेन में Sapling आउटपुट हो सकें। सरल शब्दों में, माइनर अब रिवॉर्ड सीधे शील्डेड Sapling एड्रेस में प्राप्त कर सकते हैं। ट्रांसपेरेंट कॉइनबेस आउटपुट अब भी समर्थित हैं, इसलिए यह एक नया विकल्प है, कोई अनिवार्य बदलाव नहीं।
 
-![Heartwood से पहले miner का block reward एक transparent public address में ही जा सकता था। Heartwood के बाद coinbase transactions में Sapling outputs हो सकते हैं, इसलिए reward सीधे shielded address में जा सकता है](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
+![Heartwood से पहले माइनर का ब्लॉक रिवॉर्ड किसी ट्रांसपेरेंट सार्वजनिक एड्रेस पर ही भेजना अनिवार्य था। Heartwood के बाद coinbase लेनदेन में Sapling आउटपुट हो सकते हैं, इसलिए रिवॉर्ड सीधे शील्डेड एड्रेस पर जा सकता है](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
 ## पहले Sapling ही क्यों
 
-Shielded coinbase विशेष रूप से Sapling outputs को लक्षित करता है, और इसके पीछे कारण है। ZIP 213 बताता है कि Sapling upgrade ने architectural changes और performance improvements लाए, जिनसे coinbase transaction में सीधे funds को shield करना व्यावहारिक बना। मूल Sprout shielded pool इतना resource-intensive था कि coinbase में सीधे shielding करना संभव नहीं था। Sapling की अधिक efficient proving system और note format ने इसे व्यावहारिक बनाया। Sapling ने स्वयं उस पुराने rule का विस्तार किया था जो shielded coinbase outputs को रोकता था, ताकि वह rule Sapling outputs पर भी लागू हो, और Heartwood उसी rule को शिथिल करके उन्हें अनुमति देता है। यह इस बात का अच्छा उदाहरण है कि Zcash upgrades एक-दूसरे पर कैसे निर्मित होते हैं: एक upgrade की आधारभूत संरचना अगले की नींव बन जाती है।
+शील्डेड कॉइनबेस विशेष रूप से Sapling आउटपुट को लक्षित करता है, और इसका एक कारण है। ZIP 213 बताता है कि Sapling अपग्रेड ऐसे आर्किटेक्चरल बदलाव और प्रदर्शन सुधार लेकर आया जिनसे कॉइनबेस लेनदेन में सीधे फ़ंड को शील्ड करना संभव हो गया। मूल Sprout शील्डेड पूल (pool) कॉइनबेस में ही शील्ड करने के लिए बहुत अधिक संसाधन लेता था। Sapling की अधिक कुशल प्रूविंग प्रणाली और नोट (note) फ़ॉर्मेट ने इसे व्यावहारिक बना दिया। Sapling ने स्वयं उस पुराने नियम का विस्तार किया था जो शील्डेड कॉइनबेस आउटपुट पर रोक लगाता था, ताकि यह नियम Sapling आउटपुट पर भी लागू हो, और Heartwood उस नियम को ढीला करके उन्हें अनुमति देता है। यह इस बात का अच्छा उदाहरण है कि Zcash अपग्रेड एक-दूसरे पर कैसे आधारित होते हैं: एक अपग्रेड का बुनियादी ढाँचा अगले की नींव बन जाता है।
 
 ## FlyClient
 
-Heartwood ने यह भी बदल दिया कि block header किस चीज़ के प्रति commit करता है। header field जिसे पहले hashFinalSaplingRoot कहा जाता था, उसे नए उद्देश्य के लिए इस्तेमाल किया गया और उसका नाम बदलकर hashLightClientRoot कर दिया गया। अब यह Merkle Mountain Range (MMR) के root के प्रति commit करता है, जो prior blocks के header data और metadata, जैसे timestamps, difficulty targets, Sapling roots, accumulated work, और transaction counts, पर आधारित एक running structure है। यह commitment किसी light client, या किसी बाहरी chain, को छोटे proof के माध्यम से Zcash के proof-of-work को verify करने देता है, जिसका आकार chain की लंबाई के साथ केवल logarithmically बढ़ता है। इसका लाभ है बेहतर light-client wallets और आसान third-party तथा cross-chain integration, क्योंकि अब किसी client को chain के पीछे के work पर भरोसा करने के लिए हर block डाउनलोड करने की आवश्यकता नहीं रहती।
+Heartwood ने यह भी बदला कि ब्लॉक हेडर किस चीज़ के प्रति कमिटमेंट (commitment) करता है। पहले hashFinalSaplingRoot नाम वाले हेडर फ़ील्ड का नया उपयोग किया गया और उसका नाम बदलकर hashLightClientRoot कर दिया गया। अब यह एक Merkle माउंटेन रेंज (Mountain Range, MMR) के रूट के प्रति कमिटमेंट करता है। यह पिछले ब्लॉक के हेडर डेटा और मेटाडेटा, जैसे टाइमस्टैम्प, डिफ़िकल्टी टारगेट, Sapling रूट, संचित वर्क और लेनदेन की संख्या, पर बनी एक चलती संरचना है। यह कमिटमेंट किसी लाइट क्लाइंट (light client), या किसी बाहरी चेन को, एक छोटे प्रूफ (proof) के ज़रिए Zcash के प्रूफ-ऑफ-वर्क को सत्यापित करने देता है, जिसका आकार चेन की लंबाई के साथ केवल लघुगणकीय (logarithmic) रूप से बढ़ता है। इसका लाभ है बेहतर लाइट-क्लाइंट वॉलेट और आसान थर्ड-पार्टी व क्रॉस-चेन (cross-chain) इंटीग्रेशन, क्योंकि अब किसी क्लाइंट को चेन के पीछे के वर्क पर भरोसा करने के लिए हर ब्लॉक डाउनलोड नहीं करना पड़ता।
 
-![FlyClient flow: हर block का header data एक Merkle Mountain Range root (hashLightClientRoot) में commit किया जाता है, जो किसी light client को छोटे logarithmic-size proof के साथ proof-of-work verify करने देता है](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
+![FlyClient प्रवाह: प्रत्येक ब्लॉक के हेडर डेटा को एक Merkle Mountain Range रूट (hashLightClientRoot) में कमिट किया जाता है, जिससे लाइट क्लाइंट एक छोटे, लघुगणकीय आकार के प्रूफ से प्रूफ-ऑफ़-वर्क का सत्यापन कर सकता है](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
-## Heartwood कहाँ फिट बैठता है
+## Heartwood का स्थान
 
-Heartwood, Zcash upgrades की एक श्रृंखला का एक चरण है, जहाँ हर upgrade अगली upgrade के लिए आवश्यक एक हिस्सा जोड़ती है। Overwinter और Sapling 2018 में आए, Blossom 2019 में, और Heartwood 2020 में ब्लॉक 903,000 पर। इसके बाद Canopy 2020 में बाद में ब्लॉक 1,046,400 पर आया। Heartwood के लिए इस श्रृंखला की मुख्य कड़ी Sapling है: इसकी efficient shielded-transaction machinery वही तकनीकी पूर्वशर्त थी जिसने shielded coinbase को संभव बनाया।
+Heartwood, Zcash अपग्रेड की एक श्रृंखला का एक चरण है, जिसमें हर अपग्रेड एक ऐसा हिस्सा जोड़ता है जिस पर अगला निर्भर करता है। Overwinter और Sapling 2018 में आए, Blossom 2019 में, और Heartwood 2020 में ब्लॉक 903,000 पर। Canopy बाद में 2020 में ब्लॉक 1,046,400 पर आया। Heartwood के लिए इस कड़ी में Sapling सबसे अहम है: इसकी कुशल शील्डेड-लेनदेन प्रणाली ही वह तकनीकी पूर्व-शर्त थी जिसने शील्डेड कॉइनबेस को संभव बनाया।
 
-![Zcash upgrades की समयरेखा: 2018 में Overwinter और Sapling, 2019 में Blossom, और 2020 में Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
+![Zcash अपग्रेड की समयरेखा: 2018 में Overwinter और Sapling, 2019 में Blossom, और 2020 में Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
-## TL;DR
+## सारांश (TL;DR)
 
-- Heartwood mainnet block 903,000 (16 जुलाई 2020 UTC) पर activate हुआ, और इसे ZIP 250 द्वारा two-way replay protection के लिए एक नए consensus branch id के साथ deploy किया गया।
-- ZIP 213 (Shielded Coinbase): coinbase transactions में Sapling outputs हो सकते हैं, जिससे miners block rewards सीधे एक shielded address में प्राप्त कर सकते हैं।
-- ZIP 221 (FlyClient): header का hashLightClientRoot अब एक Merkle Mountain Range के प्रति commit करता है, जिससे light clients ऐसे proofs के साथ proof-of-work verify कर सकते हैं जिनका आकार केवल logarithmically बढ़ता है।
-- Transparent coinbase outputs अब भी पूरी तरह समर्थित हैं — shielded coinbase एक नया विकल्प है, अनिवार्यता नहीं।
-- Activation घड़ी के समय पर नहीं, बल्कि एक block height पर होता है, इसलिए सटीक मिनट अलग-अलग dashboards और timezones में भिन्न होता है।
+- Heartwood मेननेट ब्लॉक 903,000 (16 जुलाई 2020 UTC) पर सक्रिय हुआ, जिसे ZIP 250 द्वारा दो-तरफ़ा रीप्ले प्रोटेक्शन के लिए एक नए कंसेंसस ब्रांच आईडी के साथ डिप्लॉय किया गया।
+- ZIP 213 (शील्डेड Coinbase): कॉइनबेस लेनदेन में Sapling आउटपुट हो सकते हैं, इसलिए माइनर ब्लॉक रिवॉर्ड सीधे शील्डेड एड्रेस में प्राप्त कर सकते हैं।
+- ZIP 221 (FlyClient): हेडर का hashLightClientRoot अब एक Merkle माउंटेन रेंज के प्रति कमिटमेंट करता है, जिससे लाइट क्लाइंट ऐसे प्रूफ के साथ प्रूफ-ऑफ-वर्क सत्यापित कर सकते हैं जो केवल लघुगणकीय रूप से बढ़ते हैं।
+- ट्रांसपेरेंट कॉइनबेस आउटपुट अब भी पूरी तरह समर्थित हैं — शील्डेड कॉइनबेस एक नया विकल्प है, अनिवार्यता नहीं।
+- सक्रियण ब्लॉक ऊँचाई पर होता है, घड़ी के समय पर नहीं, इसलिए सटीक मिनट डैशबोर्ड और टाइमज़ोन के बीच अलग-अलग होता है।
 
 ## मुख्य व्याख्या
 
-Heartwood से पहले, किसी miner के नए mint हुए ZEC को अपनी शुरुआत एक transparent address में करनी पड़ती थी, इसलिए कोई भी miner की आय पर नज़र रख सकता था और यह trace कर सकता था कि वह कहाँ गई। ZIP 213 ने consensus नियम में ढील दी ताकि coinbase transaction Sapling outputs को भुगतान कर सके, जिससे miner की कमाई अस्तित्व में आने के पहले ही क्षण से निजी रहती है। यह विशेष रूप से Sapling को लक्षित करता है क्योंकि Sapling की कुशल proving ने coinbase के भीतर shielding को व्यावहारिक बना दिया; Sprout के भारी proofs वहाँ संभव नहीं थे।
+Heartwood से पहले, माइनर के नए बने ZEC को एक ट्रांसपेरेंट एड्रेस में अपना जीवन शुरू करना पड़ता था, इसलिए कोई भी माइनर की आय देख सकता था और ट्रेस कर सकता था कि वह कहाँ गई। ZIP 213 ने कंसेंसस नियम को ढीला किया ताकि कॉइनबेस लेनदेन Sapling आउटपुट में भुगतान कर सके, जिससे माइनर की कमाई अस्तित्व में आने के पहले ही क्षण से निजी रहती है। यह विशेष रूप से Sapling को लक्षित करता है क्योंकि Sapling की कुशल प्रूविंग ने कॉइनबेस के भीतर शील्ड करना व्यावहारिक बनाया; Sprout के भारी प्रूफ वहाँ संभव नहीं थे।
 
-ZIP 221 ने header field hashFinalSaplingRoot को hashLightClientRoot के रूप में नए उद्देश्य के लिए इस्तेमाल किया। अब यह पिछले blocks के header डेटा पर बनी Merkle Mountain Range के प्रति प्रतिबद्ध (commit) करता है — timestamps, difficulty targets, Sapling roots, संचित कार्य (accumulated work), और transaction की संख्याएँ। इससे एक light client या कोई दूसरी chain हर block डाउनलोड करने की बजाय एक छोटे proof के ज़रिए Zcash के proof-of-work को सत्यापित कर सकती है।
+ZIP 221 ने हेडर फ़ील्ड hashFinalSaplingRoot का नया उपयोग hashLightClientRoot के रूप में किया। अब यह पिछले ब्लॉक के हेडर डेटा — टाइमस्टैम्प, डिफ़िकल्टी टारगेट, Sapling रूट, संचित वर्क, लेनदेन की संख्या — पर बनी एक Merkle माउंटेन रेंज के प्रति कमिटमेंट करता है। इसके बाद कोई लाइट क्लाइंट या दूसरी चेन हर ब्लॉक डाउनलोड करने के बजाय एक छोटे प्रूफ के साथ Zcash के प्रूफ-ऑफ-वर्क को सत्यापित कर सकती है।
 
 ## दृश्य उपमा
 
-पहले: हर miner का वेतन एक सार्वजनिक सूचना-पट्ट पर लगाया जाता था — राशि और उसका पूरा सिलसिला कोई भी पढ़ सकता था। अब: वेतन एक मुहरबंद लिफ़ाफ़े में आ सकता है। और अब हर नया block अपने साथ एक छोटी-सी लाख की मुहर लेकर आता है, जो उससे पहले के हर block का सार बताती है, ताकि कोई अजनबी हर पन्ना पढ़ने के बजाय एक नज़र में ही काम की पूरी chain की पुष्टि कर सके।
+पहले: हर माइनर का वेतन-दिवस एक सार्वजनिक नोटिसबोर्ड पर लगाया जाता था — राशि और उसका रास्ता कोई भी पढ़ सकता था। बाद में: वेतन एक सीलबंद लिफ़ाफ़े में आ सकता है। और अब हर नया ब्लॉक एक छोटी मोम की मुहर लेकर चलता है जो उससे पहले के हर ब्लॉक का सार देती है, ताकि कोई अजनबी हर पन्ना पढ़ने के बजाय एक नज़र में वर्क की पूरी श्रृंखला की पुष्टि कर सके।
 
-## गहन विश्लेषण
+## गहराई से
 
-नियम में यह बदलाव एक पृष्ठभूमि लिए हुए था: Sapling ने shielded coinbase पर लगे मूल प्रतिबंध को बढ़ाकर Sapling आउटपुट तक भी लागू कर दिया था, और Heartwood ने उस प्रतिबंध को हटाकर उन्हें अनुमति दे दी — यह इस बात का स्पष्ट उदाहरण है कि कैसे एक अपग्रेड की आंतरिक व्यवस्था अगले अपग्रेड की नींव बन जाती है। MMR commitment का लाभ हल्के wallets और क्रॉस-चेन इंटीग्रेशन में मिलता है, जहाँ पहले Zcash के कार्य को सत्यापित करने के लिए पूरी चेन डाउनलोड करनी पड़ती थी। एक्टिवेशन के समय जोड़ा गया consensus branch id दोनों दिशाओं में replay सुरक्षा देता है: नए नियमों के तहत बनाया गया लेनदेन पुरानी चेन पर दोबारा नहीं चलाया जा सकता, और पुराने नियमों के तहत बनाया गया लेनदेन नई चेन पर भी नहीं।
+इस नियम बदलाव का एक इतिहास था: Sapling ने शील्डेड कॉइनबेस पर मूल प्रतिबंध का विस्तार करके उसे Sapling आउटपुट पर भी लागू किया था, और Heartwood ने उस प्रतिबंध को हटाकर उन्हें अनुमति दी — यह इस बात का साफ़ उदाहरण है कि एक अपग्रेड का बुनियादी ढाँचा अगले अपग्रेड की नींव कैसे बनता है। MMR कमिटमेंट का लाभ हल्के वॉलेट और क्रॉस-चेन इंटीग्रेशन में मिलता है, जहाँ पहले Zcash के वर्क को सत्यापित करने के लिए पूरी चेन डाउनलोड करनी पड़ती थी। सक्रियण पर जोड़ा गया कंसेंसस ब्रांच आईडी दो-तरफ़ा रीप्ले प्रोटेक्शन देता है: नए नियमों के तहत बना लेनदेन पुरानी चेन पर दोहराया नहीं जा सकता, और इसका उल्टा भी।
 
 ## आम गलतियाँ
 
-- **यह मान लेना कि shielded coinbase अनिवार्य हो गया।** Transparent coinbase आउटपुट अब भी मान्य हैं; यह miners पर निर्भर है कि वे कौन-सा विकल्प चुनें।
-- **यह मान लेना कि Sprout shielded coinbase प्राप्त कर सकता है।** केवल Sapling आउटपुट की अनुमति है, क्योंकि Sprout में proving बहुत अधिक संसाधन लेती थी।
-- **यह समझना कि FlyClient के बाद फुल नोड की ज़रूरत नहीं रहती।** यह light clients और cross-chain verifiers के काम आता है, पर नेटवर्क का आधार अब भी फुल नोड ही हैं।
-- **सक्रियण के लिए घड़ी का कोई तय समय खोजना।** सक्रियण ब्लॉक 903,000 पर तय था, इसलिए वास्तविक घड़ी का मिनट अलग-अलग हो सकता है।
-- **hashLightClientRoot को पुराने hashFinalSaplingRoot के साथ भ्रमित करना।** उसी फ़ील्ड को नया उपयोग और नया नाम दिया गया।
+- **यह सोचना कि शील्डेड कॉइनबेस अनिवार्य हो गया।** ट्रांसपेरेंट कॉइनबेस आउटपुट अब भी मान्य हैं; माइनर चुनाव करते हैं।
+- **यह मान लेना कि Sprout शील्डेड कॉइनबेस प्राप्त कर सकता है।** केवल Sapling आउटपुट की अनुमति है — Sprout की प्रूविंग बहुत अधिक संसाधन लेती थी।
+- **यह मानना कि FlyClient फुल नोड (full node) की ज़रूरत ख़त्म कर देता है।** यह लाइट क्लाइंट और क्रॉस-चेन सत्यापनकर्ताओं की सेवा करता है; फुल नोड अब भी नेटवर्क का आधार हैं।
+- **सक्रियण के लिए एक निश्चित घड़ी का समय ढूँढना।** सक्रियण ब्लॉक 903,000 पर परिभाषित था, इसलिए घड़ी का मिनट अलग-अलग होता है।
+- **hashLightClientRoot को पुराने hashFinalSaplingRoot के साथ भ्रमित करना।** उसी फ़ील्ड का नया उपयोग किया गया और उसका नाम बदला गया।
+
 
 ## शब्दावली
 
-| शब्द | सरल अर्थ |
+| शब्द | सरल भाषा में अर्थ |
 |---|---|
-| Network upgrade (NU) | Zcash के consensus rules में समन्वित बदलाव, जो एक निश्चित block height पर activate होता है |
-| Coinbase transaction | हर block की वह विशेष transaction जो block reward का भुगतान करती है |
-| Shielded Sapling address | Sapling upgrade द्वारा प्रस्तुत किया गया एक निजी Zcash address प्रकार |
-| Shielded coinbase | Heartwood का वह बदलाव जो block rewards को shielded Sapling addresses में भुगतान करना संभव बनाता है |
-| FlyClient | एक विधि जो light clients को छोटे proofs के साथ proof-of-work verify करने देती है |
-| Merkle Mountain Range (MMR) | पिछले blocks का एक running summary, जिसके प्रति block header commit करता है |
-| Consensus branch id | एक tag जो बताता है कि transaction किस upgrade के rules का पालन करती है, replay protection के लिए उपयोग होता है |
+| Network upgrade (NU) | Zcash के कंसेंसस नियमों में एक समन्वित बदलाव, जो एक तय ब्लॉक ऊँचाई पर सक्रिय होता है |
+| Coinbase transaction | हर ब्लॉक में वह विशेष लेनदेन जो ब्लॉक रिवॉर्ड का भुगतान करता है |
+| Shielded Sapling address | Sapling अपग्रेड द्वारा पेश किया गया एक निजी Zcash एड्रेस प्रकार |
+| Shielded coinbase | Heartwood का वह बदलाव जो ब्लॉक रिवॉर्ड को शील्डेड Sapling एड्रेस में भुगतान करने देता है |
+| FlyClient | एक तरीका जो लाइट क्लाइंट को छोटे प्रूफ के साथ प्रूफ-ऑफ-वर्क सत्यापित करने देता है |
+| Merkle Mountain Range (MMR) | पिछले ब्लॉक का एक चलता सारांश, जिसके प्रति ब्लॉक हेडर कमिटमेंट करता है |
+| Consensus branch id | एक टैग जो बताता है कि कोई लेनदेन किस अपग्रेड के नियमों का पालन करता है, रीप्ले प्रोटेक्शन के लिए उपयोग होता है |
 
-## FAQ
+## अक्सर पूछे जाने वाले प्रश्न
 
-क्या Heartwood मेरे ZEC या मेरी privacy को बदलता है? नहीं। Heartwood ने आपके मौजूदा funds को नहीं छुआ। इसने miners के लिए rewards को shielded addresses में प्राप्त करने का विकल्प जोड़ा और light clients के लिए support बेहतर किया। आपके अपने balances और shielded transactions अप्रभावित रहते हैं।
+क्या Heartwood आपके ZEC या आपकी गोपनीयता (privacy) को बदलता है? नहीं। Heartwood ने आपके मौजूदा फ़ंड को नहीं छुआ। इसने माइनर के लिए शील्डेड एड्रेस में रिवॉर्ड प्राप्त करने का विकल्प जोड़ा और लाइट क्लाइंट के लिए समर्थन बेहतर किया। आपके अपने बैलेंस और शील्डेड लेनदेन अप्रभावित हैं।
 
-Shielded coinbase क्या है? coinbase वह transaction है जो block reward का भुगतान करती है। Heartwood इस reward को transparent address की बजाय shielded Sapling address में जाने देता है, जिससे miner की आय निजी रह सकती है।
+शील्डेड कॉइनबेस क्या है? कॉइनबेस वह लेनदेन है जो ब्लॉक रिवॉर्ड का भुगतान करता है। Heartwood उस रिवॉर्ड को ट्रांसपेरेंट एड्रेस के बजाय एक शील्डेड Sapling एड्रेस में जाने देता है, ताकि माइनर की आय निजी रह सके।
 
-क्या अब miners को rewards shielded रूप में ही लेने होंगे? नहीं। Shielded coinbase वैकल्पिक है। Transparent coinbase outputs अभी भी supported हैं, इसलिए miners किसी भी विकल्प को चुन सकते हैं।
+क्या अब माइनर को रिवॉर्ड शील्डेड रूप में ही प्राप्त करने होंगे? नहीं। शील्डेड कॉइनबेस वैकल्पिक है। ट्रांसपेरेंट कॉइनबेस आउटपुट समर्थित बने हुए हैं, इसलिए माइनर दोनों में से कोई भी चुन सकते हैं।
 
-Shielded coinbase में Sapling का उपयोग क्यों किया जाता है, पुराने Sprout pool का क्यों नहीं? क्योंकि Sapling की अधिक efficient design ने coinbase में सीधे shielding को व्यावहारिक बनाया। पुराना Sprout pool ऐसा करने के लिए बहुत resource-intensive था।
+शील्डेड कॉइनबेस पुराने Sprout पूल के बजाय Sapling का उपयोग क्यों करता है? क्योंकि Sapling के अधिक कुशल डिज़ाइन ने कॉइनबेस में सीधे शील्ड करना व्यावहारिक बनाया। पहले वाला Sprout पूल ऐसा करने के लिए बहुत अधिक संसाधन लेता था।
 
-Light clients के लिए क्या बदला? block header अब hashLightClientRoot field के माध्यम से पिछले blocks पर आधारित Merkle Mountain Range के प्रति commit करता है। इससे light clients और अन्य chains पूरे chain की बजाय छोटे, logarithmic-size proofs के साथ Zcash के proof-of-work को verify कर सकते हैं।
+लाइट क्लाइंट के लिए क्या बदला? ब्लॉक हेडर अब hashLightClientRoot फ़ील्ड के ज़रिए पिछले ब्लॉक पर बनी एक Merkle माउंटेन रेंज के प्रति कमिटमेंट करता है। इससे लाइट क्लाइंट और दूसरी चेन पूरी चेन के बजाय छोटे, लघुगणकीय आकार के प्रूफ के साथ Zcash के प्रूफ-ऑफ-वर्क को सत्यापित कर सकती हैं।
 
 ## अपनी समझ जाँचें
 
-Heartwood से पहले, miner को दिया गया block reward सार्वजनिक रूप से क्यों दिखाई देता था, और Heartwood ने क्या बदला?
+Heartwood से पहले, माइनर को दिया गया ब्लॉक रिवॉर्ड सार्वजनिक रूप से क्यों दिखाई देता था, और Heartwood ने क्या बदला?
 
 <details>
 <summary>उत्तर</summary>
 
-Coinbase outputs का transparent होना अनिवार्य था, इसलिए miner का नया mint किया गया reward हमेशा एक सार्वजनिक transparent address में जाता था, जिसे कोई भी देख सकता था। Heartwood ने consensus rules (ZIP 213) को बदल दिया ताकि coinbase transactions में Sapling outputs हो सकें, जिससे miners अपने rewards सीधे shielded addresses में प्राप्त कर सकें।
+Coinbase आउटपुट का ट्रांसपेरेंट होना ज़रूरी था, इसलिए माइनर का नया बना रिवॉर्ड हमेशा एक सार्वजनिक ट्रांसपेरेंट एड्रेस में आता था जिसे कोई भी जाँच सकता था। Heartwood ने कंसेंसस नियमों (ZIP 213) को बदला ताकि कॉइनबेस लेनदेन में Sapling आउटपुट हो सकें, जिससे माइनर अपने रिवॉर्ड सीधे शील्डेड एड्रेस में प्राप्त कर सकें।
 </details>
 
 ### संसाधन
 
-[ZIP 250: Heartwood Network Upgrade की Deployment](https://zips.z.cash/zip-0250)
+[ZIP 250: Heartwood नेटवर्क अपग्रेड का डिप्लॉयमेंट](https://zips.z.cash/zip-0250)
 
-[ZIP 213: Shielded Coinbase](https://zips.z.cash/zip-0213)
+[ZIP 213: शील्डेड Coinbase](https://zips.z.cash/zip-0213)
 
-[ZIP 221: FlyClient - Consensus-Layer Changes](https://zips.z.cash/zip-0221)
+[ZIP 221: FlyClient - कंसेंसस-लेयर बदलाव](https://zips.z.cash/zip-0221)
 
-[Heartwood network upgrade](https://z.cash/upgrade/heartwood/)
+[Heartwood नेटवर्क अपग्रेड](https://z.cash/upgrade/heartwood/)
 
 ### यह भी देखें
 
-[Zcash Network Upgrades](../start-here/network-upgrades)
+[Zcash नेटवर्क अपग्रेड](../start-here/network-upgrades)
 
-[Shielded Pools](../using-zcash/shielded-pools)
+[शील्डेड पूल](../using-zcash/shielded-pools)
 
-[Wallets](../using-zcash/wallets)
+[वॉलेट](../using-zcash/wallets)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
@@ -126,11 +127,12 @@ Coinbase outputs का transparent होना अनिवार्य था
 
 ---
 
-## संबंधित पृष्ठ
+## संबंधित पेज
 
-- [Sapling](./Sapling.md) — वह कुशल तंत्र जिसने shielded coinbase को संभव बनाया
-- [Canopy](./Canopy.md) — इस श्रृंखला का अगला अपग्रेड
+- [Sapling](./Sapling.md) — वह कुशल प्रणाली जिसने शील्डेड कॉइनबेस को संभव बनाया
+- [Canopy](./Canopy.md) — श्रृंखला का अगला अपग्रेड
 - [फुल नोड](./Full_Nodes.md) — पूर्ण सत्यापन अब भी क्या प्रदान करता है
-- [एक Block Explorer क्या देख सकता है](./What_a_Block_Explorer_Can_See.md) — transparent बनाम shielded coinbase क्या उजागर करता है
+- [ब्लॉक एक्सप्लोरर क्या देख सकता है](./What_a_Block_Explorer_Can_See.md) — ट्रांसपेरेंट बनाम शील्डेड कॉइनबेस क्या उजागर करता है
 
-श्रृंखला: [Network Upgrades index](../start-here/network-upgrades) · पिछला: [Blossom](../zcash-tech/blossom) · अगला: [Canopy](../zcash-tech/canopy)
+
+श्रृंखला: [नेटवर्क अपग्रेड सूची](../start-here/network-upgrades) · पिछला: [Blossom](../zcash-tech/blossom) · अगला: [Canopy](../zcash-tech/canopy)

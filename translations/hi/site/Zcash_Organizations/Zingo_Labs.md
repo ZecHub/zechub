@@ -2,38 +2,38 @@
 
 [आधिकारिक वेबसाइट](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
-ZingoLabs दूरदर्शी लोगों की एक टीम है जो मानवीय अनुभव को बेहतर बनाने के लिए समर्पित है। हमारा मानना है कि प्रौद्योगिकी को मानवता के लिए लाभकारी होना चाहिए और हम सहमति-आधारित अंतःक्रियाओं के माध्यम से फलते-फूलते हैं। हम उन पैटर्नों की पहचान कर रहे हैं जो इसे संभव बनाते हैं।
+ZingoLabs दूरदर्शी लोगों की एक टीम है, जो मानवीय अनुभव को बेहतर बनाने के लिए समर्पित है। हमारा मानना है कि तकनीक को मानवता के हित में होना चाहिए और हम सहमति पर आधारित परस्पर संवाद के माध्यम से फलते-फूलते हैं। हम उन पैटर्न की पहचान कर रहे हैं जो इसे संभव बनाते हैं।
 
-Zingo Lab Cyan एक Shielded DAO के रूप में कार्य करता है। हम अपनी निधियाँ एक ट्रेजरी में रखते हैं, जहाँ प्रत्येक सदस्य के पास एक view key होता है। जब सदस्य किसी प्रस्ताव के पक्ष में मतदान करते हैं, तो ट्रेजरी से निधियाँ खर्च की जाती हैं।
+Zingo Lab Cyan एक शील्डेड (shielded) DAO के रूप में काम करता है। हम अपनी धनराशि एक कोष (treasury) में रखते हैं, जिसमें हर सदस्य के पास एक व्यूइंग की (viewing key) होती है। जब सदस्य किसी प्रस्ताव के पक्ष में मतदान करते हैं, तब कोष से धनराशि खर्च की जाती है।
 
 ## परियोजनाएँ
 
-### Zingo! Wallet ([GitHub](https://github.com/zingolabs/zingo-mobile))
-Zingo Wallet एक पूर्ण सुविधाओं वाला Zcash wallet है, जो उपयोगकर्ता-अनुकूलता के लिए डिज़ाइन किया गया है, हालाँकि इसमें अधिक उन्नत उपयोगकर्ताओं के लिए कुछ उन्नत सुविधाएँ भी शामिल हैं। यह transparent, Sapling और Ironwood pools का समर्थन करता है, इसमें आवर्ती भुगतानों के लिए एक address book है और यह विभिन्न भाषाओं में उपलब्ध है। यह Orchard का समर्थन करने वाला और NU5 formats लागू करने वाला पहला wallet था।
+### Zingo! वॉलेट ([GitHub](https://github.com/zingolabs/zingo-mobile))
+Zingo वॉलेट (wallet) एक पूर्ण सुविधाओं वाला Zcash वॉलेट है, जिसे उपयोग में आसानी को ध्यान में रखकर डिज़ाइन किया गया है, हालाँकि इसमें अधिक अनुभवी उपयोगकर्ताओं के लिए कुछ उन्नत सुविधाएँ भी शामिल हैं। यह ट्रांसपेरेंट (transparent), Sapling और Ironwood पूल (pool) को सपोर्ट करता है, बार-बार होने वाले भुगतान (payment) के लिए इसमें एक एड्रेस (address) बुक है और यह कई भाषाओं में उपलब्ध है। यह Orchard को सपोर्ट करने वाला और NU5 फ़ॉर्मैट लागू करने वाला पहला वॉलेट था।
 
-Zingo! की मुख्य सुविधाओं में से एक, आपके लेन-देनों के बारे में उपयोगी जानकारी देने के लिए Memo field का उपयोग करने की इसकी क्षमता है।
+Zingo! की मुख्य विशेषताओं में से एक यह है कि यह मेमो (memo) फ़ील्ड का उपयोग करके आपके लेनदेन (transaction) के बारे में उपयोगी जानकारी प्रदान कर सकता है।
 
-Zingo! मोबाइल उपकरणों और PCs के लिए उपलब्ध है। आपको सभी डाउनलोड [यहाँ](https://zingolabs.org/) मिलेंगे
+Zingo! मोबाइल डिवाइस और PC के लिए उपलब्ध है। सभी डाउनलोड आपको [यहाँ](https://zingolabs.org/) मिलेंगे
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
-एक API और test-app जो app उपयोग के लिए zcash functionality उपलब्ध कराता है। Zingolib zingo-mobile के लिए एक library के साथ-साथ zingo-cli नामक शामिल cli application भी प्रदान करता है, जो एक command-line light wallet है और [Zaino](/zcash-tech/zaino) जैसे chain indexer से संवाद करता है।
+एक API और टेस्ट-ऐप, जो ऐप में उपयोग के लिए zcash की कार्यक्षमता उपलब्ध कराता है। Zingolib zingo-mobile के लिए एक लाइब्रेरी प्रदान करता है, साथ ही इसमें zingo-cli नाम का एक CLI ऐप्लिकेशन भी शामिल है, जो एक कमांड-लाइन लाइट वॉलेट है और [Zaino](/zcash-tech/zaino) जैसे किसी चेन (chain) इंडेक्सर से संवाद करता है।
 
-### Zaino Indexer ([GitHub](https://github.com/zingolabs/zaino))
-Zaino, Zcash blockchain के लिए एक Rust indexer है, जिसे Zingo टीम ने विकसित किया है। यह [Z3 stack](/zcash-tech/z3-stack) में indexer है: यह [Zebra](/zcash-tech/zebra-full-node) validator से chain data को index करता है और wallets, explorers तथा अन्य clients को सेवा देता है। यह lightwalletd का उत्तराधिकारी मार्ग है।
+### Zaino इंडेक्सर ([GitHub](https://github.com/zingolabs/zaino))
+Zaino Zcash ब्लॉकचेन (blockchain) के लिए एक Rust इंडेक्सर है, जिसे Zingo टीम ने विकसित किया है। यह [Z3 स्टैक](/zcash-tech/z3-stack) का इंडेक्सर है: यह [Zebra](/zcash-tech/zebra-full-node) वैलिडेटर से चेन डेटा को इंडेक्स करता है और वॉलेट, एक्सप्लोरर तथा अन्य क्लाइंट को सेवा देता है। यह lightwalletd का उत्तराधिकारी है।
 
-Zaino light clients, जैसे wallets और उन applications के लिए जो पूर्ण blockchain history की आवश्यकता नहीं रखते, तथा full clients या wallets दोनों के लिए आवश्यक सुविधाएँ प्रदान करता है। यह block explorers का भी समर्थन करता है, जिससे Zebra full validator द्वारा प्रबंधित finalized blockchain और non-finalized best chain व mempool, दोनों तक पहुँच मिलती है।
+Zaino लाइट क्लाइंट (light client), जैसे वॉलेट और ऐसे ऐप्लिकेशन जिन्हें पूरे ब्लॉकचेन इतिहास की आवश्यकता नहीं होती, तथा फुल क्लाइंट या वॉलेट, दोनों के लिए आवश्यक सुविधाएँ प्रदान करता है। यह ब्लॉक (block) एक्सप्लोरर को भी सपोर्ट करता है और उन्हें फ़ाइनलाइज़्ड ब्लॉकचेन के साथ-साथ Zebra फुल वैलिडेटर द्वारा प्रबंधित नॉन-फ़ाइनलाइज़्ड बेस्ट चेन और मेमपूल तक पहुँच प्रदान करता है।
 
-`zcashd` ने 18 जुलाई 2026 को block 3,417,100 पर अपना End-of-Support halt प्राप्त किया और Ironwood (NU6.3) का समर्थन नहीं करता। Zaino एक Zebra validator को पढ़ता है।
+`zcashd` 18 जुलाई 2026 को ब्लॉक 3,417,100 पर अपने End-of-Support हॉल्ट तक पहुँच गया और यह Ironwood (NU6.3) को सपोर्ट नहीं करता। Zaino Zebra वैलिडेटर से डेटा पढ़ता है।
 
 ###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 
-उपयोगिताओं का एक समूह जो Zcash processes को शुरू और प्रबंधित करता है। इसका उपयोग निम्न के विकास में integration testing के लिए किया जाता है:
-- लाइट क्लाइंट्स
-- indexers
-- validators
+उपयोगिताओं का एक सेट, जो Zcash प्रोसेस को लॉन्च और प्रबंधित करता है। इसका उपयोग निम्नलिखित के विकास में इंटीग्रेशन टेस्टिंग के लिए किया जाता है:
+- लाइट क्लाइंट
+- इंडेक्सर
+- वैलिडेटर
 
-इसका लक्ष्य Zebra जैसे कोर नोडों (validators), Zaino जैसे indexers, और zingo-cli जैसे light client wallets के लिए अत्यधिक अनुकूलनीय और मजबूत परीक्षण वातावरण प्रदान करना है।
+इसका लक्ष्य कोर नोड (node) (वैलिडेटर) जैसे Zebra, इंडेक्सर जैसे Zaino और लाइट क्लाइंट वॉलेट जैसे zingo-cli के लिए एक अत्यधिक अनुकूलनीय और मज़बूत टेस्टिंग वातावरण प्रदान करना है।
 
-यह जिस default stack को शुरू करता है, वह Zebrad, zainod, और zcash-devtool है। legacy `zcashd` और lightwalletd processes एक असमर्थित `legacy-stack` feature के पीछे हैं और इन्हें हटाने की योजना है।
+यह डिफ़ॉल्ट रूप से जो स्टैक लॉन्च करता है, वह Zebrad, zainod और zcash-devtool है। पुराने `zcashd` और lightwalletd प्रोसेस एक असमर्थित `legacy-stack` फ़ीचर के पीछे हैं और उन्हें हटाया जाना निर्धारित है।
 
-Zcash chain data को शुरू करने, cache करने और load करने के उपकरण प्रदान करने के अतिरिक्त (mainnet, testnet, और regtest के लिए), zcash-local-net का उपयोग Zaino के test suite से Zaino में होस्ट की गई Lightwallet RPC services का आकलन करने के लिए किया जाता है ([Zaino testing docs](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md) देखें)।
+Zcash चेन डेटा (मेननेट, टेस्टनेट और रेगटेस्ट के लिए) को शुरू करने, कैश करने और लोड करने के उपकरण (tools) प्रदान करने के अलावा, zcash-local-net का उपयोग Zaino के टेस्ट सूट में Zaino में होस्ट की गई Lightwallet RPC सेवाओं का आकलन करने के लिए किया जाता है (देखें [Zaino टेस्टिंग दस्तावेज़](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md))।
