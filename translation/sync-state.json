@@ -36935,11 +36935,11 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "2aa876575f4889bb11f59dd426b8dd7357643c17",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "c7b1e04ad0f1089ddb6e288c8b73b364f8e4af99",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Tech/NU6_1.md": {
