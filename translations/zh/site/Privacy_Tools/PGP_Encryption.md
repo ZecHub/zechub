@@ -10,9 +10,9 @@ Pretty Good Privacy（PGP）是一款加密软件包，可通过不安全的渠�
 
 有许多不同的 PGP 工具可用，其中一些最受欢迎的包括：
 
-* **[GPG](https://gpgtools.org/)**：GPG 是一种免费开源的 PGP 实现，可用于 Windows、macOS 和 Linux。
-* **[PGPMail](https://www.openpgp.org/software/)**：PGPMail 是一款商业 PGP 电子邮件客户端，可用于 Windows 和 macOS。
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**：Mailvelope 是适用于 Gmail 和 Thunderbird 的免费开源 PGP 扩展程序。
+* **[GnuPG (GPG)](https://gnupg.org/)**：一款免费、开源的 OpenPGP 命令行工具。请选择适合您操作系统的软件包或图形前端。
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**：一款自版本 78 起内置 OpenPGP 支持的免费开源桌面电子邮件客户端。它无需 Mailvelope 即可加密电子邮件。
+* **[Mailvelope](https://mailvelope.com/)**：一个开源浏览器扩展程序，可为受支持的网页邮件服务（包括 Gmail）添加 OpenPGP。它是一种网页邮件工具，而非 Thunderbird 的扩展程序。
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 

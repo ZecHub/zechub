@@ -12,9 +12,21 @@ Blossom ist ein Zcash-[Netzwerk-Upgrade](../start-here/network-upgrades). Es wur
 
 Warum das wichtig ist. Wenn du ZEC sendest, wartest du darauf, dass das Netzwerk sie in einem Block bestätigt. Wenn Blöcke langsam sind, wartest du länger. Vor Blossom wurde etwa alle 150 Sekunden ein neuer Block erwartet. Blossom halbierte dieses Ziel auf 75 Sekunden, sodass Bestätigungen früher eintreffen und die Kette in derselben Zeit mehr Transaktionen tragen kann. Das geschah, ohne mehr ZEC zu erzeugen oder den Zeitpunkt zukünftiger Halvings zu verschieben.
 
+## TL;DR
+
+- Blossom war das dritte Netzwerk-Upgrade von Zcash und wurde bei Mainnet-Block 653.600 (11. Dezember 2019 UTC) aktiviert. Eingeführt wurde es durch ZIP 206, die zentrale Änderung steht in ZIP 208.
+- Es senkte den Zielabstand zwischen Blöcken von 150 Sekunden auf 75 Sekunden. Blöcke kommen damit etwa doppelt so häufig, erste Bestätigungen erfolgen schneller und der Durchsatz verdoppelt sich ungefähr.
+- Damit die Ausgabe gleichmäßig bleibt, wurde die Belohnung pro Block halbiert und das Halving-Intervall von 840.000 auf 1.680.000 Blöcke verdoppelt.
+- Die pro Zeiteinheit erzeugte Gesamtmenge an ZEC und der reale Zeitpunkt künftiger Halvings blieben unverändert.
+- Es war eine verpflichtende bilaterale Änderung: Jeder Knoten musste aktualisiert werden, um auf der Chain zu bleiben.
+
+## Visuelle Analogie
+
+Blossom ist ein Busnetz, das seine Abfahrten verdoppelt. Busse kommen jetzt alle 75 Sekunden statt alle 150, sodass du nur halb so lange wartest (schnellere Bestätigungen) und das Netz doppelt so viele Fahrgäste befördert (Durchsatz). Damit die Lohnkosten für die Fahrer gleich bleiben, wird die Bezahlung pro Fahrt für jeden Fahrer halbiert: Die Gesamtausgaben für Gehälter bleiben gleich, sie werden nur auf doppelt so viele Fahrten verteilt.
+
 ## Schnellere Blöcke
 
-Blossoms zentrale Änderung ist einfach. Der Zcash-Zielabstand zwischen Blöcken, also die Zeit, die das Netzwerk zwischen einem Block und dem nächsten anstrebt, sank von 150 Sekunden auf 75 Sekunden ([ZIP 208](https://zips.z.cash/zip-0208)). Blöcke werden durch Proof of Work gefunden, daher variiert der tatsächliche Abstand zwischen ihnen, aber das Netzwerk zielt nun auf einen Block etwa alle 75 Sekunden statt alle 150 Sekunden.
+Blossoms zentrale Änderung ist einfach. Der angestrebte Blockabstand von Zcash, also die Zeit, die das Netzwerk zwischen einem Block und dem nächsten anstrebt, wurde von 150 Sekunden auf 75 Sekunden gesenkt ([ZIP 208](https://zips.z.cash/zip-0208)). Blöcke werden per Proof of Work gefunden, daher schwankt der tatsächliche Abstand zwischen ihnen, aber das Netzwerk strebt nun etwa alle 75 Sekunden einen Block an statt alle 150.
 
 Daraus folgen zwei Dinge:
 
@@ -36,6 +48,14 @@ Blossom war eine bilaterale Konsensänderung, was bedeutet, dass jeder Knoten ei
 ## Wo Blossom einzuordnen ist
 
 Blossom war das dritte Netzwerk-Upgrade von Zcash. Es folgte auf Overwinter und Sapling und kam vor Heartwood und Canopy. Anders als Sapling, das die abgeschirmte Kryptografie von Zcash überarbeitete, war Blossom auf Skalierung und Geschwindigkeit ausgerichtet. Seine Hauptaufgabe war das Block-Timing, nicht neue Datenschutzfunktionen.
+
+## Häufige Fehler
+
+- **Die Annahme, schnellere Blöcke bedeuteten mehr ZEC.** Wird die Belohnung pro Block halbiert und gleichzeitig die Blockrate verdoppelt, bleibt die Emission pro Zeiteinheit exakt gleich.
+- **Die Annahme, Halvings fänden in Echtzeit früher statt.** Das Halving-Intervall wurde von 840.000 auf 1.680.000 Blöcke verdoppelt, sodass sich die Halving-Termine in Echtzeit nicht verschoben haben.
+- **„75 Sekunden“ als Garantie verstehen.** Es ist ein Proof-of-Work-Zielwert; die tatsächlichen Abstände zwischen Blöcken schwanken um diesen Wert.
+- **Blossom als Privatsphäre-Upgrade betrachten.** Seine Aufgabe betraf Blockzeiten und Skalierung – anders als Sapling veränderte es keinerlei Kryptografie.
+- **Die Annahme, Knotenbetreiber könnten es überspringen.** Blossom war eine bilaterale Konsensänderung; ein nicht aktualisierter Knoten spaltet sich vom Netzwerk ab.
 
 ## Glossar
 
@@ -95,5 +115,12 @@ Weil Blossom auch die pro Block gezahlte Belohnung halbierte und das Halving-Int
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Verwandte Seiten
+
+- [Sapling](./Sapling.md) — das vorherige Upgrade (Kryptografie, nicht Timing)
+- [Heartwood](./Heartwood.md) — das nächste Upgrade der Reihe
+- [Vollständige Knoten](./Full_Nodes.md) — was der Betrieb eines Knotens bei verpflichtenden Upgrades mit sich bringt
+- [Übersicht der Netzwerk-Upgrades](../start-here/network-upgrades) — die vollständige Upgrade-Zeitleiste
 
 Reihe: [Index der Netzwerk-Upgrades](../start-here/network-upgrades) · Vorherige Seite: [Sapling](../zcash-tech/sapling) · Nächste Seite: [Heartwood](../zcash-tech/heartwood)

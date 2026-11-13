@@ -6,6 +6,11 @@
 // Run: node --test link-health/false-positives.test.mjs
 import assert from "node:assert/strict";
 import { existsSync, readFileSync } from "node:fs";
+import { spawnSync } from "node:child_process";
+import { mkdir, mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { dirname, join } from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import test from "node:test";
 
 const source = readFileSync(new URL("./check-links.mjs", import.meta.url), "utf8");
@@ -20,7 +25,7 @@ const { classify, isPlaceholderHost, assetKey } = new Function(
   between("function classify", "/**\n * Routes served by the Next.js app") +
     "; return { classify, isPlaceholderHost, assetKey };",
 )();
-const site = new URL("../site", import.meta.url).pathname;
+const site = fileURLToPath(new URL("../site", import.meta.url));
 
 test("routes resolve like the app's transformUri (whole segments, Zero to Zero Knowledge)", () => {
   for (const [route, file] of [
@@ -63,3 +68,52 @@ test("documentation placeholders are never probed", () => {
     assert.equal(isPlaceholderHost(h), false, h);
   }
 });
+
+// Run the actual offline CLI: a shorter slug must not inherit a sibling's page.
+// Normalized equality is the fallback used by zechub-wiki/authAndFetch.ts.
+for (const scope of ["default", "relative subset", "absolute subset", "relative dot segments", "absolute dot segments"]) {
+  test(`route substring rejection preserves valid routes (${scope})`, async () => {
+    const dir = await mkdtemp(join(tmpdir(), "zechub fuzzy é-"));
+    try {
+      const missing = [
+        "/zcash-tech/zakura", "/zcash-tech/node", "/zcash-tech/kura-no",
+        "/zcash-tech/zakura-node-extra", "/zcash-tech/missing",
+        "/other/zakura-node", "/ZCASH-TECH/zakuranode",
+      ];
+      const valid = ["/zcash-tech/zakura-node", "/", "/wallets",
+        "/zcash-tech/zakuranode", "/zcash-tech/ZAKURA_NODE",
+        "/zcash-tech/zakura_node/?a=1#section",
+      ];
+      const files = {
+        "site/Zcash_Tech/Index.md": [...valid, ...missing].map((u) => `[link](${u})`).join("\n"),
+        "site/Zcash_Tech/Zakura_Node.md": "# Zakura Node\n",
+        "deny-fetch.mjs": 'globalThis.fetch = () => { process.exit(97); };\n',
+      };
+      for (const [name, content] of Object.entries(files)) {
+        const path = join(dir, name);
+        await mkdir(dirname(path), { recursive: true });
+        await writeFile(path, content);
+      }
+      const args = ["--import", pathToFileURL(join(dir, "deny-fetch.mjs")).href,
+        fileURLToPath(new URL("./check-links.mjs", import.meta.url)), "--offline",
+        "--json", join(dir, "report.json"), "--markdown", join(dir, "report.md")];
+      const roots = {
+        "relative subset": "site/Zcash_Tech",
+        "absolute subset": join(dir, "site/Zcash_Tech"),
+        "relative dot segments": "./site/../site/Zcash_Tech",
+        "absolute dot segments": `${dir}/site/../site/Zcash_Tech`,
+      };
+      if (scope !== "default") args.push("--root", roots[scope]);
+      const result = spawnSync(process.execPath, args, { cwd: dir, encoding: "utf8", timeout: 15_000 });
+      assert.ifError(result.error);
+      assert.equal(result.status, 0, result.stderr || result.stdout);
+      const report = JSON.parse(await readFile(join(dir, "report.json"), "utf8"));
+      assert.equal(report.filesScanned, 2);
+      assert.equal(report.linksFound, valid.length + missing.length);
+      assert.equal(report.uniqueExternalChecked, 0);
+      assert.deepEqual(report.findings.filter((f) => f.kind === "route").map((f) => f.url), missing);
+    } finally {
+      await rm(dir, { recursive: true, force: true });
+    }
+  });
+}

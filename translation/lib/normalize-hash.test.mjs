@@ -130,3 +130,62 @@ test("normalizeMarkdown is idempotent", () => {
   const once = normalizeMarkdown(raw);
   assert.equal(normalizeMarkdown(once), once);
 });
+
+
+test("a space in a fenced-code string changes its value and source hash", async () => {
+  const { runInNewContext } = await import("node:vm");
+  const a = "`hello \nworld`", b = "`hello\nworld`";
+  assert.notEqual(runInNewContext(a), runInNewContext(b));
+  assert.notEqual(hashPage("```js\n" + a + "\n```\n"), hashPage("```js\n" + b + "\n```\n"));
+});
+
+test("fenced-code trailing spaces and tabs are not prose churn", () => {
+  for (const [a, b] of [["value  ", "value   "], ["value\t", "value"], ["value ", "value"]])
+    assert.notEqual(hashPage("```text\n" + a + "\n```\n"), hashPage("```text\n" + b + "\n```\n"));
+});
+
+test("tilde fences keep code whitespace and ignore other fence types", () => {
+  const a = "~~~text\n```\nvalue \n~~~\n";
+  assert.notEqual(hashPage(a), hashPage(a.replace("value ", "value")));
+});
+
+test("a shorter fence cannot end a longer code fence", () => {
+  const a = "````text\n```\nvalue \n````\n";
+  assert.notEqual(hashPage(a), hashPage(a.replace("value ", "value")));
+});
+
+test("fence markers followed by content do not close a code block", () => {
+  const a = "```text\n```not a closer\nvalue \n```\n";
+  assert.notEqual(hashPage(a), hashPage(a.replace("value ", "value")));
+});
+
+test("up to three spaces before a fence are recognised", () => {
+  const a = "   ```text\nvalue \n   ```\n";
+  assert.notEqual(hashPage(a), hashPage(a.replace("value ", "value")));
+});
+
+test("indented code retains trailing whitespace conservatively", () => {
+  for (const indent of ["    ", "\t"])
+    assert.notEqual(hashPage(indent + "value \n"), hashPage(indent + "value\n"));
+});
+
+test("an unclosed fence retains trailing blank code lines", () => {
+  assert.notEqual(hashPage("```text\nvalue\n\n"), hashPage("```text\nvalue\n\n\n"));
+  const a = "```text\nvalue \n\n";
+  assert.equal(normalizeMarkdown(normalizeMarkdown(a)), normalizeMarkdown(a));
+});
+
+test("prose whitespace remains churn before and after a closed code fence", () => {
+  const a = "Before.\n```text\nvalue \n```\nAfter.\n";
+  const b = "Before. \n```text\nvalue \n```\nAfter.\t\n\n";
+  assert.equal(hashPage(a), hashPage(b));
+});
+
+test("an inline triple-backtick span does not open a fence", () => {
+  const a = "```inline```\nNext.\n";
+  assert.equal(hashPage(a), hashPage("```inline``` \nNext.\t\n"));
+});
+
+test("a whitespace-only prose line keeps the existing normalization", () => {
+  assert.equal(normalizeMarkdown("Before.\n     \nAfter.\n"), "Before.\n  \nAfter.\n");
+});

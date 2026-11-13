@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t 페이지"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
 # Zcash 지갑 트래픽을 Nym Mixnet을 통해 라우팅하기
@@ -13,7 +13,7 @@ Nym는 별도의 네트워크 개인정보 보호 계층을 추가합니다. 202
 1. **지갑에 기본 Nym 통합 기능이 있다면 이를 우선 사용하세요.**
 2. 그렇지 않다면, 지갑별 프록시 지원에 의존하지 않고 지갑의 네트워크 트래픽이 Nym를 통해 라우팅되도록 **시스템 수준 NymVPN Mixnet 모드**를 사용하세요.
 
-일반적인 VPN 및 dVPN 배경 정보는 [VPN 및 dVPN](./VPN_and_DVPN.md)을 참조하세요.
+일반적인 VPN 및 dVPN 배경 정보는 [VPN 및 dVPN](../Privacy_Tools/VPN_and_DVPN.md)을 참조하세요.
 
 ## Nym가 추가하는 것 — 그리고 추가하지 않는 것
 

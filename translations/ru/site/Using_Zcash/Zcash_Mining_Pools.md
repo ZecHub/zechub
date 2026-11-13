@@ -10,19 +10,6 @@
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Сайт: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Приватные выплаты: ДА
-- Тип пула: Оплата за долю
-- Комиссия пула: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@
 - Приватные выплаты: ДА
 - Тип пула: Оплата за долю
 - Комиссия пула: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Сайт: [Flypool](https://zcash.flypool.org/)
-- Приватные выплаты: ДА
-- Тип пула: Оплата за последние N долей 
-- Комиссия пула: 1%
 
 ---
 
@@ -163,3 +137,11 @@
 - Приватные выплаты: ДА
 - Тип пула: Оплата за последние N долей (PPLNS)
 - Комиссия пула: 1%
+
+---
+
+## Бывшие пулы Zcash
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool в настоящее время не подходит для майнинга Zcash. В его [официальном FAQ пула](https://academy.braiins.com/braiins-pool/faqs/pool) указано, что поддерживается только Bitcoin, а поддержку альткоинов добавлять не планируется (проверено 12 ноября 2026 г.).

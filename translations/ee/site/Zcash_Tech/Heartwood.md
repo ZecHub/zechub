@@ -36,6 +36,36 @@ Heartwood nye afɔ ɖeka le Zcash ƒe mɔ̃ ƒe sewo trɔtrɔwo ƒe ƒuƒo me, s
 
 ![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## Kpuie ko
+
+- Heartwood dze dɔwɔwɔ gɔme le mainnet gaɖoɖowo ƒuƒoƒe [block] 903,000 dzi (July 16, 2020 UTC). ZIP 250 ye tsɔe de dɔ me kple consensus branch id yeye aɖe si kpɔa ŋu ɖe replay ƒe amedzidzedze ŋu le mɔ eveawo dzi.
+- ZIP 213 (Shielded Coinbase): Coinbase gaɖoɖowo [transactions] ate ŋu alé Sapling outputs ɖe asi, ale be nukulawo [miners] ate ŋu axɔ gaɖoɖowo ƒuƒoƒe ƒe fetu tẽ ɖe ɣaɣla [shielded] gaɖoƒe ƒe dzesi [address] aɖe me.
+- ZIP 221 (FlyClient): Fifia la, ta ƒe hashLightClientRoot ɖoa adzɔgbe [commitment] na Merkle Mountain Range aɖe. Esia na nyatakaka si hiã ƒe mɔwo [light clients] ate ŋu akpɔ proof-of-work ƒe nyateƒenyenye kple ɖaseɖigbalɛ [proofs] siwo ƒe lolome dzina ɖe edzi le logarithm ƒe mɔ nu ko.
+- Wogale kpekpem ɖe nuwo ƒe ʋuʋuɖi [transparent] coinbase outputs ŋu bliboe. Shielded coinbase nye tiatia yeye aɖe ko, menye se o.
+- Dɔwɔwɔ dzea egɔme le gaɖoɖowo ƒuƒoƒe ƒe kɔkɔme aɖe dzi, menye le gaƒoƒo aɖe dzi o. Eya ta miniti si tututu wòdze egɔme le la toa vovo le ɖoɖowo ƒuƒopéwo [dashboards] kple gaƒoƒoɖoɖo ƒe nutowo dome.
+
+## Nyagɔmeɖeɖe Vevitɔ
+
+Hafi Heartwood nava la, ele be ZEC yeye si nukula aɖe kpɔ la nadze egɔme le nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesi me, eya ta ame sia ame ate ŋu akpɔ nukula ƒe gakpɔkpɔ ahakpɔ afi si wòyi. ZIP 213 ɖe gbegbɔgblɔ ɖi (consensus) ƒe se la dzi ale be coinbase gaɖoɖo (coinbase transaction, gaɖoɖo gbãtɔ si naa fetu nukula) ate ŋu axe ga ɖe Sapling ƒe nudodowo me. Esia na nukula ƒe fetu nɔa ɣaɣla tso gbe gbãtɔ si dzi wòdze le xexeme. Ewɔ dɔ ɖe Sapling ŋu koŋ, elabena Sapling ƒe ɖaseɖigbalɛ (proof) ƒe wɔwɔ si wɔa dɔ nyuie la na ɣaɣlawɔwɔ le coinbase me te ŋu va eme. Sprout ƒe ɖaseɖigbalɛ kpekpewo mate ŋu awɔ dɔ le afi ma o.
+
+ZIP 221 trɔ gaɖoɖowo ƒuƒoƒe ƒe tanya ƒe teƒe si nye hashFinalSaplingRoot wòzu hashLightClientRoot. Fifia ewɔa adzɔgbeɖeɖe (commitment) na Merkle Mountain Range si wotu ɖe gaɖoɖowo ƒuƒoƒe siwo do ŋgɔ ƒe tanya ƒe nyatakakawo dzi — ɣeyiɣi dzesiwo, sesẽme ƒe taɖodzinuwo, Sapling ƒe kewo, dɔ si wowɔ ƒo ƒu, kple gaɖoɖowo ƒe xexlẽme. Esia na nyatakaka si hiã ƒe mɔ (light client) alo ɖoɖonu bubu ate ŋu aɖo kpe Zcash ƒe proof-of-work dzi kple ɖaseɖigbalɛ sue aɖe, eye mahiã be wòaxɔ gaɖoɖowo ƒuƒoƒe ɖesiaɖe o.
+
+## Kpɔɖeŋu si wòakpɔ kple ŋku
+
+Do ŋgɔ: Nukula [miner] ɖesiaɖe ƒe fexɔɖigbe ŋuti nyatakakawo wotsɔnɛ ɖoa gbeƒãɖeƒe si le dutoƒo — ame sia ame ate ŋu axlẽ gaxexlẽ la kple afɔtoƒe siwo wòto. Fifia: Fexɔxɔ ate ŋu ava le agbalẽ-kotoku si wotu nyuie la me. Eye gaɖoɖowo ƒuƒoƒe [block] yeye ɖesiaɖe tsɔa wax-dzesi sue aɖe fifia si ƒoa nu kpuie tso gaɖoɖowo ƒuƒoƒe siwo katã do ŋgɔ na eŋu, ale be amedzro ate ŋu akpɔ egbɔ be dɔ ƒe ɖoɖonu [chain] blibo la le eteƒe le ŋkuléle ɖeka ko me, eye magahiã be wòaxlẽ axa ɖesiaɖe o.
+
+## Nukpɔkpɔ Goglo
+
+Se trɔtrɔ sia ƒe ŋutinya li: Sapling ke ɖe se gbãtɔ si xe mɔ na coinbase (ga yeye siwo nukulawo xɔna) ɣaɣla la ŋu be wòaxe mɔ na Sapling ƒe nu siwo dona tso eme hã, eye Heartwood ɖe se sia ɖa be woaɖe mɔ na wo. Esia nye kpɔɖeŋu nyui si fia ale si mɔ̃ ƒe sewo trɔtrɔ ɖeka ƒe dɔwɔnuwo zua esi kplɔe ɖo ƒe gɔmeɖoanyi. MMR adzɔgbeɖeɖe (commitment) la ƒe viɖe dzena le gakotoku (wallet) bɛbɛwo kple ɖoɖonu geɖe dome (cross-chain) ƒe kadodo me. Do ŋgɔ la, ne wòle be woaɖo kpe Zcash ƒe dɔ dzi la, ehiã be woaxɔ ɖoɖonu (chain) blibo la katã. Gbegbɔgblɔ ɖi (consensus) ƒe alɔdze ƒe dzesi si wotsɔ kpe ɖe eŋu esime wodze edzi la kpɔa nu ta tso mɔ eve dzi be womagavɔ gaɖoɖowo azã zi evelia o: gaɖoɖo (transaction) si wowɔ le se yeyeawo te la, womate ŋu azãe le ɖoɖonu xoxo la dzi o, eye nenema ke gaɖoɖo si wowɔ le ɖoɖonu xoxo la dzi hã, womate ŋu azãe le se yeyeawo te o.
+
+## Vodada Siwo Bɔ
+
+- **Ŋuɖoɖo be coinbase ɣaɣla zu nu si wɔwɔ le kpɔkplɔ dzi.** Coinbase ƒe nu siwo dona le nuwo ƒe ʋuʋuɖi me la gakpɔtɔ nye esiwo dze; nukulawo [miners] tiaa esi wole dim.
+- **Susu be Sprout ate ŋu axɔ coinbase ɣaɣla.** Sapling ƒe nu siwo dona ko woɖe mɔ na — Sprout ƒe ɖaseɖigbalɛ wɔwɔ bia nunɔamesiwo geɖe akpa.
+- **Xɔse be FlyClient ɖe ɣaɣla dzesi ŋɔŋlɔ blibowo [full nodes] ƒe hiahiã ɖa.** Ewɔa dɔ na nyatakaka si hiã ƒe mɔwo [light clients] kple ɖoɖonu geɖe dome [cross-chain] kpeɖodzilawo; ɣaɣla dzesi ŋɔŋlɔ blibowo gakpɔtɔ nye mɔ̃a ƒe gɔmeɖoanyi.
+- **Gaƒoɖokpe tɔxɛ aɖe dzi dzodzro na dɔwɔwɔ ƒe dzeɖoɖo.** Woɖo dɔwɔwɔ ƒe dzeɖoɖo ɖe gaɖoɖowo ƒuƒoƒe 903,000 dzi, eya ta gaƒoɖokpe ƒe miniti trɔna.
+- **hashLightClientRoot kple hashFinalSaplingRoot xoxoa tsɔtsɔ ƒo ƒu.** Wotrɔ teƒe ɖeka ma ƒe dɔwɔwɔ eye wotrɔ eƒe ŋkɔ.
+
 ## Nyagɔmeɖeɖe
 
 | Nya | Eŋlisigbe bɔbɔe ƒe gɔmeɖeɖe |
@@ -95,5 +125,12 @@ Coinbase nufiawo nɔa be woanye nuwo ƒe ʋuʋuɖi, ale be nukula ƒe fetu yeye 
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Axa Siwo Ku Ɖe Eŋu
+
+- [Sapling](./Sapling.md) — Mɔ̃ dɔwɔnu nyui si na be wòte ŋu wɔ coinbase ɣaɣla (shielded coinbase)
+- [Canopy](./Canopy.md) — Mɔ̃ ƒe sewo trɔtrɔ si kplɔe ɖo le ɖoɖoa me
+- [Ɣaɣla Dzesi Ŋɔŋlɔ Blibowo](./Full_Nodes.md) — Nusi kpɔkpɔ blibo gakpɔtɔ naa
+- [Nusi Gaɖoɖowo ƒuƒoƒe Dzodzoeŋutinu Ate Ŋu Akpɔ](./What_a_Block_Explorer_Can_See.md) — Nusi coinbase nuwo ƒe ʋuʋuɖi kple coinbase ɣaɣla ɖena fiana
 
 Series: [Mɔ̃ ƒe sewo trɔtrɔwo ƒe index](../start-here/network-upgrades) · Si va do ŋgɔ: [Blossom](../zcash-tech/blossom) · Si gbɔna: [Canopy](../zcash-tech/canopy)

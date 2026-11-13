@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # MetaMask Zcash Snap 통합 가이드
+
+> MetaMask 브라우저 확장 프로그램에서 ChainSafe의 Zcash Snap 및 WebZjs 웹 지갑을 사용하여 보호된 ZEC를 보유하고 전송하세요.
+
+## 요약
+
+* ChainSafe Zcash Snap를 사용하면 데스크톱(Chrome, Edge, Firefox)의 MetaMask에 실드된 ZEC를 추가할 수 있습니다. 별도의 Zcash 소프트웨어는 필요하지 않습니다.
+* Zcash 키는 MetaMask 복구 문구에서 파생됩니다. 이제 하나의 문구로 ETH와 ZEC를 모두 보호합니다.
+* ZEC는 MetaMask 자체 자산 목록이 아니라 webzjs.chainsafe.dev의 WebZjs 지갑을 통해 관리합니다.
+* 계정에는 통합 주소가 부여되므로, 발신자는 자신이 지원하는 가장 프라이빗한 풀에서 결제합니다.
+* 스왑(예: ETH를 ZEC로)하거나 거래소에서 ZEC를 실드된 주소로 출금하여 자금을 충전하세요.
+* 복구: MetaMask와 Snap를 다시 설치한 후, 기존 복구 문구를 가져오세요.
+
+## 핵심 설명
+
+MetaMask Snap은 MetaMask에 새로운 블록체인을 추가하는 작고 샌드박스 처리된 애드온입니다. ChainSafe가 개발하고 Hacken이 감사를 수행한 Zcash Snap를 사용하면 MetaMask에서 기존 복구 문구로부터 Zcash 키를 파생하고 Zcash 트랜잭션에 서명할 수 있습니다.
+
+MetaMask 자체에는 ZEC 잔액이 표시되지 않습니다. 대신 WebZjs 웹 지갑이 Snap에 연결되고, lightwalletd 서버를 통해 Zcash 네트워크와 동기화하여 주소와 잔액을 보여 줍니다. Shielded 증명은 브라우저에서 WebAssembly로 계산되므로 전송에 잠시 시간이 걸릴 수 있습니다.
+
+아래 단계에서는 Snap 설치, WebZjs 연결, 지갑에 자금 충전, 송금 및 수신, 통합 주소의 구성 요소 확인을 다룹니다.
+
+## 전체 가이드
 
 전체 사용 흐름과 시각적 설명은 이 [**YouTube 가이드**](https://www.youtube.com/watch?v=UJh9Ilkohdw)를 시청하세요: 
 

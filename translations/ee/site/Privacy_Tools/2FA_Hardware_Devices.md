@@ -20,7 +20,7 @@ Kple mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo abe YubiKey ene, nàtsɔ dɔwɔnu ƒe 
 
 ## Viɖe kaewo le mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃ zazã me?
 
-Mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo naa viɖe geɖe wu mɔ siwo zãna nyagbewo ko be woakpɔ ame dzi. Woɖe to dzi na wo be woaɖe aɖawɔ na wo wu nyagbewo, esi woate ŋu aɖu dzi le wɔnɔaƒe me to brute force, social engineering alo phishing ƒe aɖawɔwo dzi bɔbɔe. Mɔxɔxɔ ƒe kplɔ̃wo wɔa kode tɔxɛ aɖe ɣesiaɣi si wozã wo, eye esia wɔe be aɖawɔlawo makpɔ mɔ be woagblɔ ŋgɔ alo akpɔ kodea ƒe nɔnɔme bubu. Woɖe to dzi na wo be woazã wo kple woaɖo wo, eye womehia be nàtsɔ software alo driver bubu aɖe aɖo ɖe wò dɔwɔnu dzi o.
+Ne wozãe kple FIDO U2F alo FIDO2/WebAuthn la, mɔxɔxɔ ƒe kplɔ̃ aɖe wɔa ameɖeŋuɖoɖo to kaka kpekpe yeyee ɖe asi, menye be wòawɔ kode na wòaŋlɔ o. Dɔa léa key si ame siawo katã ate ŋu akpɔ, ke key si le ɣaɣla me la nɔa authenticator la dzi. Woɖoa nusiwo woɖe asi na la ɖe dɔa ŋu, eye browser la doa kpɔ relying party la ƒe nyenye be wòatsi tre ɖe phishing ŋu. Viɖe siawo nye FIDO ameɖeŋuɖoɖo ƒe nɔnɔme, menye mɔ ɖe sia ɖe si key si tše mɔ geɖe ŋu ate ŋu akplɔ o. Kpɔe ɖa be wò dɔ, browser, dɔwɔnu kple kadodo ƒe ƒomevi tše mɔ si nèle be yàzã la ŋu. Kpɔ [Yubico ƒe WebAuthn gɔmedzedze](https://developers.yubico.com/WebAuthn/) kple [FIDO2/WebAuthn mɔ̃ ƒe ɖoɖoŋlɔla ƒe mɔfiame](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## Mɔxɔxɔ ƒe dɔwɔnu ƒe kplɔ̃wo sɔ kple dɔwɔnu kple dɔwɔwɔ ƒe ƒoƒowo katãa?
 

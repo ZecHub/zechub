@@ -39,7 +39,7 @@
 - Επίλεξε το **ZEC** ως **token προορισμού** σου.
 - Βεβαιώσου ότι το Zcash είναι διαθέσιμο μέσω της διεπαφής swap.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

@@ -57,8 +57,8 @@ GrapheneOS 可为特定功能引入各种开关，例如网络权限、传感器
 
 - 2GB 可用内存和 32GB 可用存储空间。
 - USB 线缆（A 或 C）
-- 支持的操作系统：Windows 10、Windows 11、macOS Big Sur（11 - 13）、Arch Linux、Debian（10 - 12）、Ubuntu（22.04、22.10 和 23.04）、ChromeOS、GrapheneOS、Google Android（原生 Pixel OS）
-- 支持的浏览器：Chromium（不支持 Ubuntu）、Vanadium（GrapheneOS）、Google Chrome、Microsoft Edge、Brave Browser。
+- 使用受支持的主机操作系统 [host operating system] 和具备可用 WebUSB 支持的浏览器。请查看当前 [官方 WebUSB先决条件](https://grapheneos.org/install/web#prerequisites)，以了解受支持的版本和浏览器打包限制；较旧、已结束生命周期的系统不受官方支持。
+- Web 安装程序也可从受支持的 Android 设备、ChromeOS 或 GrapheneOS 运行。请遵循官方指南中针对浏览器的说明，而不要假定每个 Chromium 软件包都支持 WebUSB。
 
 请通过下方链接查看安装指南，并按照安装流程操作
 
@@ -68,8 +68,8 @@ GrapheneOS 可为特定功能引入各种开关，例如网络权限、传感器
 
 - 您应至少拥有 2GB 可用内存和 32GB 可用存储空间
 - USB 线缆（A 或 C）
-- 支持的操作系统 Windows 10 Windows 11 macOS Big Sur（11）macOS Monterey（12）macOS Ventura（13）Arch Linux Debian 10（buster）Debian 11（bullseye）Debian 12（bookworm）Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- 来自 Android、ChromeOS 或 GrapheneOS 的 Web 安装程序
+- 使用 [当前命令行先决条件](https://grapheneos.org/install/cli#prerequisites) 所支持的主机操作系统，并按照该指南准备所需工具。
+- Android、ChromeOS 和 GrapheneOS 主机应使用 Web 安装程序；它们未被列为支持命令行安装的主机。
 
 请通过下方链接查看安装指南，并按照安装流程操作 
 
@@ -89,7 +89,7 @@ GrapheneOS 可为特定功能引入各种开关，例如网络权限、传感器
 
 **安全锁定屏幕** 使用安全锁定屏幕，例如 PIN、密码或生物识别认证，以防止未经授权的访问。
 
-**避免 Root 您的 Android 设备** 避免获取 root 权限或解锁引导加载程序，因为这可能削弱设备安全性。
+**安装后重新锁定引导加载程序** 官方安装流程要求 [暂时解锁引导加载程序](https://grapheneos.org/install/web#unlocking-the-bootloader) 以刷写 GrapheneOS，随后在使用前 [再次将其锁定](https://grapheneos.org/install/web#locking-the-bootloader)，以启用完整的验证启动。解锁和重新锁定均会清除所有用户数据，因此请先备份，并按顺序遵循官方步骤。请勿 root 已安装的操作系统。
 
 **验证应用来源** 验证应用及其来源的真实性，避免安装恶意软件。
 

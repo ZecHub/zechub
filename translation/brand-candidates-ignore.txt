@@ -57,3 +57,5 @@ Bitcoin
 Ethereum
 # Ordinary English word, capitalised only in a document title (IRS Publication 1771).
 Charitable
+# Ordinary English word; the names that contain it (Electric Coin Company, Coin Metrics) are protected whole.
+Coin

@@ -1,15 +1,28 @@
-# **Swap SOL/USDC -> ZEC με το Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
+</a>
 
+# Swap SOL/USDC προς ZEC με το encrypt.trade
+
+> Κάνε swap SOL ή USDC στο Solana σε ZEC, με το cross-chain βήμα να δρομολογείται μέσω του NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Κάνε swap από Solana σε Zcash, με το cross-chain βήμα να δρομολογείται μέσω του NEAR Intents.*  
+---
+
+## Με λίγα λόγια
+
+* [encrypt.trade](https://encrypt.trade/zec) μετατρέπει SOL ή USDC σε κρυπτογραφημένα token (eSOL/eUSDC) και στη συνέχεια τα κάνει swap σε ZEC μέσω του NEAR Intents.
+* Τα ποσά αποκρύπτονται στο Solana, αλλά η διεύθυνση του πορτοφολιού σου και η χρήση της εφαρμογής από εσένα είναι δημόσιες.
+* Το ZEC αποστέλλεται μόνο σε μια διαφανή διεύθυνση (t1/t3), επομένως είναι ορατό στην αλυσίδα του Zcash μέχρι να το θωρακίσεις.
+* Θωράκισε το ZEC στο πορτοφόλι σου μόλις φτάσει.
+* Τόσο η εφαρμογή όσο και το NEAR Intents ελέγχουν τα πορτοφόλια για συμμόρφωση.
 
 ---
 
-###  Εισαγωγή  
-[**encrypt.trade**](https://encrypt.trade/zec) είναι μια εφαρμογή Solana που λειτουργεί από την JMD Labs Inc. Σου επιτρέπει να κάνεις swap **SOL ή USDC** στο Solana σε **Zcash (ZEC)**. Τα token σου τυλίγονται αρχικά σε κρυπτογραφημένες εκδόσεις, ώστε τα ποσά να είναι κρυμμένα στο Solana, και στη συνέχεια γίνεται swap σε ZEC μέσω του NEAR Intents.
+## Βασική εξήγηση
+[**encrypt.trade**](https://encrypt.trade/zec) είναι μια εφαρμογή Solana που διαχειρίζεται το JMD Labs Inc. Σου επιτρέπει να κάνεις swap **SOL ή USDC** στο Solana σε **Zcash (ZEC)**. Τα token σου τυλίγονται πρώτα σε κρυπτογραφημένες εκδόσεις, ώστε τα ποσά να είναι κρυφά στο Solana, και στη συνέχεια γίνεται swap σε ZEC μέσω του NEAR Intents.
 
 Το swap είναι ιδιωτικό με ορισμένους τρόπους, αλλά όχι με όλους. Τα [έγγραφα](https://docs.encifher.io/docs) της εφαρμογής αναφέρουν ότι η αλληλεπίδρασή σου με την αλυσίδα δεν είναι ανώνυμη: οι άλλοι μπορούν να δουν ότι το πορτοφόλι σου χρησιμοποίησε την εφαρμογή, αλλά όχι πόσα μετέφερες. Το ZEC φτάνει επίσης σε μια διαφανή διεύθυνση, οπότε παραμένει ορατό στην αλυσίδα Zcash μέχρι να το θωρακίσεις.
 

@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # MetaMask Zcash Snap एकीकरण मार्गदर्शिका
+
+> MetaMask ब्राउज़र एक्सटेंशन से shielded ZEC रखें और भेजें, ChainSafe के Zcash Snap और WebZjs वेब wallet का उपयोग करके।
+
+## संक्षेप में
+
+* ChainSafe Zcash Snap डेस्कटॉप (Chrome, Edge, Firefox) पर MetaMask में shielded ZEC जोड़ता है। अलग Zcash सॉफ़्टवेयर की आवश्यकता नहीं है।
+* आपकी Zcash कुंजियाँ आपके MetaMask रिकवरी फ़्रेज़ से प्राप्त होती हैं। अब वही एक फ़्रेज़ आपके ETH और आपके ZEC दोनों की सुरक्षा करता है।
+* आप webzjs.chainsafe.dev पर WebZjs वॉलेट के माध्यम से ZEC प्रबंधित करते हैं, MetaMask की अपनी एसेट सूची में नहीं।
+* आपके खाते को एक एकीकृत पता मिलता है, इसलिए प्रेषक आपको उस सबसे निजी पूल में भुगतान करते हैं जिसका वे समर्थन करते हैं।
+* इसे स्वैप करके (उदाहरण के लिए ETH से ZEC) या किसी एक्सचेंज से ZEC को अपने shielded पते पर निकालकर फंड करें।
+* रिकवरी: MetaMask और Snap को फिर से इंस्टॉल करें, फिर अपना मौजूदा रिकवरी फ़्रेज़ आयात करें।
+
+## मूल व्याख्या
+
+MetaMask Snap एक छोटा, sandboxed add-on है जो MetaMask को एक नई blockchain सिखाता है। ChainSafe द्वारा निर्मित और Hacken द्वारा audited Zcash Snap, MetaMask को आपके मौजूदा recovery phrase से Zcash keys प्राप्त करने और Zcash transactions पर हस्ताक्षर करने देता है।
+
+MetaMask स्वयं ZEC का बैलेंस नहीं दिखाता। इसके बजाय, WebZjs वेब वॉलेट Snap से जुड़ता है, lightwalletd सर्वर के माध्यम से Zcash नेटवर्क के साथ सिंक होता है, और आपके पते व बैलेंस दिखाता है। Shielded प्रमाण आपके ब्राउज़र में WebAssembly के साथ गणना किए जाते हैं, इसलिए भेजने में कुछ क्षण लग सकते हैं।
+
+नीचे दिए गए चरण Snap इंस्टॉल करने, WebZjs कनेक्ट करने, wallet में धन जोड़ने, भेजने और प्राप्त करने, तथा अपने unified address के हिस्सों की जाँच करने को कवर करते हैं।
+
+## पूर्ण मार्गदर्शिका
 
 पूर्ण चरण-दर-चरण मार्गदर्शन और दृश्य व्याख्या के लिए यह [**YouTube गाइड**](https://www.youtube.com/watch?v=UJh9Ilkohdw) देखें: 
 

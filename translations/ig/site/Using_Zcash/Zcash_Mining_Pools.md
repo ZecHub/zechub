@@ -10,19 +10,6 @@ Zcash pool ịgwụputa bụ ọrụ ndị na-enye ndị onye na-egwụpụta oh
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Weebụsaịtị: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Nkwụghachi nkeonwe: EE
-- Ụdị pool: Kwuo Maka Òkè Ọ Bụla [Pay Per Share]
-- Ugwo pool: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Zcash pool ịgwụputa bụ ọrụ ndị na-enye ndị onye na-egwụpụta oh
 - Nkwụghachi nkeonwe: EE
 - Ụdị pool: Kwuo Maka Òkè Ọ Bụla
 - Ugwo pool: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Weebụsaịtị: [Flypool](https://zcash.flypool.org/)
-- Nkwụghachi nkeonwe: EE
-- Ụdị pool: Kwuo Maka Òkè N Ikpeazụ 
-- Ugwo pool: 1%
 
 ---
 
@@ -163,3 +137,11 @@ Zcash pool ịgwụputa bụ ọrụ ndị na-enye ndị onye na-egwụpụta oh
 - Nkwụghachi nkeonwe: EE
 - Ụdị pool: Kwuo Maka Òkè N Ikpeazụ (PPLNS)
 - Ugwo Pool: 1%
+
+---
+
+## Zcash pool ndị gara aga
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool abụghị nhọrọ ịgwụputa Zcash dị ugbu a. [Ajụjụ a na-ajụkarị (FAQ) gbasara pool ahụ n'onwe ya](https://academy.braiins.com/braiins-pool/faqs/pool) depụtara Bitcoin dịka naanị coin ọ na-akwado, ma kwuo na o nweghị atụmatụ ịkwado altcoin (mkpụrụ ego crypto ndị ọzọ na-abụghị Bitcoin) (enyochara ya na 12 Nọvemba 2026).

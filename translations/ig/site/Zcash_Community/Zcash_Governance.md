@@ -6,14 +6,14 @@
 
 Zcash bụ cryptocurrency nke Proof-of-Work. Block ọ bụla a gwupụtara na-ekesa **enyemaka block** ya (ZEC ọhụrụ e kere) tinyere ugwo Azụmahia, dịka iwu protocol kwụụrụ onwe ya nke network upgrade kpebiri.
 
-- **Ụdị dị ugbu a (mgbe NU6 gasịrị / site na Nọvemba 2024 gaa n'ihu)**  
-  N'ọnwa Eprel 2026, nkesa ya bụ:
+- **Ụdị dị ugbu a (NU6.1 / site na Nọvemba 24, 2025 gaa n'ihu)**  
+  Nkesa ya bụ:
 
 | Onye nnata                      | Pasent | Ihe ọ na-akwado / ọkwa                                      |
 |--------------------------------|------------|-------------------------------------------------------------|
 | Ndị na-egwụputa                         | 80%        | Ụgwọ ọrụ block a na-enye ndị na-egwụputa ozugbo                               |
 | Zcash Community Grants (ZCG)   | 8%         | Ikike obodo (ga-adịgide ruo ihe dịka 2028)                  |
-| Lockbox (protocol na-achịkwa)  | 12%        | Ego na-agbakọba; enweghị usoro mmefu ugbu a; a ga-achọ votu obodo n'ọdịnihu |
+| Ego ndị nwe coin na-achịkwa (Coinholder-Controlled Fund)     | 12%        | Lockbox mbụ malitere ya; ndị nwe coin na-atụ votu maka ikike ([ZIP 1016](https://zips.z.cash/zip-1016)) |
 
 - **Ego mmepe akụkọ ihe mere eme tupu NU6 (2020–Nọvemba 2024)**  
   20% nke enyemaka block ọ bụla gara ozugbo n'òtù mmepe:
@@ -22,18 +22,18 @@ Zcash bụ cryptocurrency nke Proof-of-Work. Block ọ bụla a gwupụtara na-e
   - 5% -> Zcash Foundation (ZF)  
   - 8% -> Zcash Community Grants (ZCG)
 
-Eji ụdị 8% ZCG + 12% lockbox dochie “ego mmepe” 20% a site na [ZIP 1015](https://zips.z.cash/zip-1015).
+Eji ụdị 8% ZCG + 12% lockbox dochie "ego mmepe" 20% a site na [ZIP 1015](https://zips.z.cash/zip-1015) (NU6, Nọvemba 2024). Site na Nọvemba 2024 ruo Nọvemba 2025, 12% ahụ chịkọbara n'ime Deferred Dev Fund Lockbox, na-enweghị ụzọ ọ bụla e nwere ike isi mefuo ya.
 
-### Mgbanwe A Tụrụ Aro: ZIP 1016 - Ụdị Ego Obodo na Ndị Ji Mkpụrụ Ego
-ZIP 1016 (a tụrụ aro na Febrụwarị 2025, ọkwa: A Tụrụ Aro) na-ewebata ụdị ego decentralized karịa. Ọ ga:
-- Gaa n'ihu na nkesa 8% nye ZCG.
-- Gbanwee 12% lockbox ka ọ bụrụ “Ego Ndị Ji Mkpụrụ Ego Na-achịkwa” (nke ego lockbox dị ugbu a na-akụ mkpụrụ + enyemaka block 12% na-aga n'ihu).
-- Mee ka ụdị a rụọ ọrụ ruo halving nke atọ (ihe dịka afọ 3).
-- Nye ndị ji mkpụrụ ego ZEC ike ịtụ vootu kwa nkeji afọ maka ikike site n'usoro obodo kọwara (ọtụtụ dị mfe, ọnụ ọgụgụ kacha nta nke 420,000 ZEC).
-- Chọọ ka Òtù Ndị Ji Igodo (nke ugbu a gụnyere ZF na Shielded Labs, ebe a kpọrọ Bootstrap/ECC n'ọnọdụ ikike) lekọta nnyefe ego site na multisig, nke nkwekọrịta iwu na mkpebi ndị ji mkpụrụ ego ji.
-- Debe ihe niile ZIP 1015 chọrọ maka ojiji lockbox (ịkwado ikike gburugburu ebe obibi).
+### Ụdị dị ugbu a: ZIP 1016 - Ụdị Ego Obodo na Ndị Ji Mkpụrụ Ego
+ZIP 1016 (e kere na Febrụwarị 2025) bụ [NU6.1](/zcash-tech/nu6-1) mere ka ọ malite ọrụ na mainnet na block 3,146,400 na Nọvemba 24, 2025 ([ZIP 255](https://zips.z.cash/zip-0255)). Ọ:
+- Na-aga n'ihu na nkesa 8% nye ZCG.
+- Gbanwere 12% lockbox ka ọ bụrụ “Ego Ndị Ji Mkpụrụ Ego Na-achịkwa” (nke ego lockbox dị adị na-akụ mkpụrụ + enyemaka block 12% na-aga n'ihu).
+- Na-arụ ọrụ ruo halving nke atọ (ZIP na-ekwe ka ụbọchị ahụ gbanwee ma ọ bụrụ na NU7 agbanwee oge block).
+- Na-ekwe ka ndị ji mkpụrụ ego ZEC tụọ vootu maka ikike (ọtụtụ dị mfe, opekata mpe 420,000 ZEC tụrụ vootu).
+- Na-achọ ka Òtù Ndị Ji Igodo (nke ugbu a gụnyere ZF na Shielded Labs, ebe a kpọrọ Bootstrap/ECC n'ọnọdụ ikike) lekọta nnyefe ego site na multisig, nke nkwekọrịta iwu na mkpebi ndị ji mkpụrụ ego ji.
+- Na-edebe ihe niile ZIP 1015 chọrọ maka ojiji lockbox (ịkwado ikike gburugburu ebe obibi).
 
-Atụmatụ a na-achọ isi na Gọọmentị nke òtù na-achịkwa kwaga na Gọọmentị ozugbo nke ndị ji mkpụrụ ego maka nkesa 12%. Ọ naghị agbanwe usoro ZIP ma ọ bụ iwu trademark.
+Ụdị a na-esi na Gọọmentị nke òtù na-achịkwa kwaga na Gọọmentị ozugbo nke ndị ji mkpụrụ ego maka nkesa 12%. Ọ naghị agbanwe usoro ZIP ma ọ bụ iwu trademark.
 
 ## 2. Òtù Isi na Isi Mmepụta Ego Ha
 
@@ -59,7 +59,7 @@ Atụmatụ a na-achọ isi na Gọọmentị nke òtù na-achịkwa kwaga na G�
 - Ọ naghịzi enweta ego protocol ozugbo mgbe NU6 gasịrị. Ọ dabere n'onyinye na ikike.  
 - Ọ na-ejide trademark Zcash (nke ECC nyere na 2019) ma na-arụ ọrụ dị mkpa na Gọọmentị.  
 - Ọ na-agba Community Advisory Panel Zcash (ZCAP) ma na-enyere aka ịkwado ntuli aka obodo.  
-- Ọ na-arụ ọrụ dịka Òtù Ndị Ji Igodo n'okpuru ZIP 1016 a tụrụ aro.  
+- Ọ na-arụ ọrụ dịka Òtù Ndị Ji Igodo n'okpuru ZIP 1016.  
 -> Lee profaịlụ zuru ezu: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
 -> Saịtị gọọmentị: [zfnd.org](https://zfnd.org/)
 
@@ -83,7 +83,7 @@ Atụmatụ a na-achọ isi na Gọọmentị nke òtù na-achịkwa kwaga na G�
 - Òtù nkwado Zcash nọọrọ onwe ya nke onyinye na-akwado, dabere na Switzerland.  
 - Òtù mbụ n'ime gburugburu ebe obibi Zcash nke na-enwetụbeghị ego ozugbo ma ọ bụ n'ụzọ na-apụtaghị ìhè site n'Ego Mmepe ma ọ bụ ụgwọ ọrụ block.  
 - Ọ na-elekwasị anya n'atụmatụ na-abara ndị ji ZEC uru ma na-ebute ụzọ olu ndị ji ya n'ịkpụzi ntụziaka Zcash.  
-- Ọ na-arụ ọrụ dịka Òtù Ndị Ji Igodo n'okpuru ZIP 1016 a tụrụ aro maka nchịkwa Ego Ndị Ji Mkpụrụ Ego Na-achịkwa.  
+- Ọ na-arụ ọrụ dịka Òtù Ndị Ji Igodo n'okpuru ZIP 1016 maka nchịkwa Ego Ndị Ji Mkpụrụ Ego Na-achịkwa.  
 - Ọ na-enye aka na mmepe protocol, usoro ZIP, na Gọọmentị (nnọchite anya onye ndezi ZIP).  
 -> Lee profaịlụ zuru ezu: [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
 -> Saịtị gọọmentị: [shieldedlabs.net](https://shieldedlabs.net/)
@@ -95,8 +95,8 @@ Gọọmentị Zcash bụ ngwakọta nke “iwu protocol on-chain” na “conse
 1. **Usoro ZIP (Atụmatụ Nkwalite Zcash)**  
    - Onye ọ bụla nwere ike izipu ZIP.  
    - Arụmụka ọha na nnọkọ, Discord, GitHub.  
-   - Ndị Ndezi ZIP (ugbu a Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe n'ikike nke onwe ha, Arya sitere na ZF, na ndị nnọchite anya sitere na Shielded Labs) na-enyocha ma na-ekpebi nnabata.  
-   - A na-etinye ZIP ndị a nabatara na network upgrade na-esote.
+   - Ndị Ndezi ZIP ugbu a bụ Jack Grigg, Daira-Emma Hopwood, na Kris Nuttycombe (n'ikike nke onwe ha); Arya na Marek (Zcash Foundation); Mark Henderson na Sam H. Smith (Shielded Labs); Sean Bowe na Tal Derei (Project Tachyon); na Dev Ojha (Valar Group).
+   - Nnabata ZIP anaghị eme ka e debe ya na-akpaghị aka ka e tinye ya na network upgrade na-esote. ZIP consensus chọrọ atụmatụ ntinye na mmejuputa, a na-amalitekwa iwu ha n'ogo network upgrade a kapịrị ọnụ.
 
 2. **Nkwekọrịta Trademark (2019-2024)**  
    - ECC nyere ZF trademark Zcash na 2019.  
@@ -109,25 +109,25 @@ Gọọmentị Zcash bụ ngwakọta nke “iwu protocol on-chain” na “conse
    - A na-eji ya maka ntuli aka obodo na-adịghị amanye iwu banyere nnukwu mkpebi.
 
 4. **Nkwado On-chain**  
-   - Ozugbo a tinyere network upgrade n'ọrụ, ọtụtụ hash rate nke network ga-anabatarịrị ya (enweghị ihe ize ndụ hard-fork ma ọ bụrụ na e ruru consensus).
+   - Network upgrade na-amalite ọrụ na block height e kpebiri n'ihu. Node ndị na-agba software dakọtara na ya na-amanye iwu consensus ọhụrụ site na height ahụ gaa n'ihu. Node ndị na-emelitaghị nwere ike ịga n'ihu na-eso alaka consensus nke tupu mmelite ahụ, nke nwere ike ime ka chain kewaa abụọ (chain split).
 
-5. **Ntụziaka Ọdịnihu - Lockbox na ZIP 1016**  
-   - Ego lockbox 12% na-agbakọba n'ime protocol.  
-   - ZIP 1016 na-atụ aro ịgbanwe nke a ka ọ bụrụ Ego Ndị Ji Mkpụrụ Ego Na-achịkwa, nke ntuli aka ndị ji mkpụrụ ego kwa nkeji afọ na nchịkwa multisig site n'aka Òtù Ndị Ji Igodo (ZF na Shielded Labs ka edepụtara ugbu a).
+5. **Lockbox na ZIP 1016**  
+   - Ego lockbox 12% gbakọbara n'ime protocol site na Nọvemba 2024 ruo Nọvemba 2025.  
+   - NU6.1 gbanwere ha ka ha bụrụ Ego Ndị Ji Mkpụrụ Ego Na-achịkwa, ya na ntuli aka ndị ji mkpụrụ ego na nchịkwa multisig site n'aka Òtù Ndị Ji Igodo (ZF na Shielded Labs ka edepụtara ugbu a).
 
 ## 4. Tebụl Ntụaka Ngwa Ngwa - Mgbanwe Ego
 
 | Oge           | Ndị na-egwụputa | ECC/Bootstrap | ZF   | ZCG  | Lockbox | Ndetu                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
 | 2020 - Nọvemba 2024  | 80%    | 7%            | 5%   | 8%   | -       | Ego mmepe ochie                           |
-| Nọvemba 2024 - ugbu a   | 80%    | 0%            | 0%   | 8%   | 12%     | Ụdị NU6 + ndọtị ZCG                  |
-| A Tụrụ Aro (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Ndị Ji Mkpụrụ Ego Na-achịkwa) | Ruo halving nke atọ; ntuli aka ndị ji mkpụrụ ego |
+| Nọvemba 2024 - Nọvemba 2025 | 80% | 0%            | 0%   | 8%   | 12%     | Ụdị NU6 + ndọtị ZCG                  |
+| Nọvemba 2025 - ugbu a (ZIP 1016) | 80% | 0%   | 0%   | 8%   | 12% (Ndị Ji Mkpụrụ Ego Na-achịkwa) | NU6.1; ruo halving nke atọ; ntuli aka ndị ji mkpụrụ ego |
 
 ## 5. Akụrụngwa Ndị Metụtara Ya
 
 - Nkọwa ego gọọmentị -> ngalaba ego netwọk [z.cash](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (mgbanwe ego NU6) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
-- ZIP 1016 (ụdị ndị ji mkpụrụ ego a tụrụ aro) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
+- ZIP 1016 (ụdị ndị ji mkpụrụ ego, nke na-arụ ọrụ kemgbe NU6.1) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Atụmatụ Nkwalite Zcash -> [zips.z.cash](https://zips.z.cash)  
 - Portal Zcash Community Grants -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 

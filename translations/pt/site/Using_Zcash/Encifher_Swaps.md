@@ -1,15 +1,28 @@
-# **Conversão de SOL/USDC -> ZEC usando Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# Conversão de SOL/USDC para ZEC usando encrypt.trade
+
+> Converta SOL ou USDC na Solana em ZEC, com a etapa cross-chain roteada por NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Converta Solana em Zcash, com a etapa cross-chain roteada por NEAR Intents.*  
+---
+
+## Resumo
+
+* [encrypt.trade](https://encrypt.trade/zec) encapsula SOL ou USDC em tokens criptografados (eSOL/eUSDC) e então os converte em ZEC por meio de NEAR Intents.
+* Os valores ficam ocultos em Solana, mas o endereço da sua carteira e seu uso do app são públicos.
+* ZEC é entregue somente a um endereço transparente (t1/t3), portanto fica visível na chain Zcash até que você o blinde.
+* Blinde o ZEC na sua carteira assim que ele chegar.
+* O app e NEAR Intents verificam carteiras para fins de conformidade.
 
 ---
 
-###  Introdução  
-[**encrypt.trade**](https://encrypt.trade/zec) é um app Solana operado pela JMD Labs Inc. Ele permite converter **SOL ou USDC** na Solana em **Zcash (ZEC)**. Seus tokens são primeiro encapsulados em versões criptografadas para que os valores fiquem ocultos na Solana e, em seguida, convertidos em ZEC por meio de NEAR Intents.
+## Explicação central
+[**encrypt.trade**](https://encrypt.trade/zec) é um app Solana operado pela JMD Labs Inc. Ele permite converter **SOL ou USDC** em Solana para **Zcash (ZEC)**. Seus tokens são primeiro encapsulados em versões criptografadas para que os valores fiquem ocultos em Solana e, depois, convertidos para ZEC por meio de NEAR Intents.
 
 A conversão é privada em alguns aspectos, mas não em todos. A própria [documentação](https://docs.encifher.io/docs) do app diz que sua interação com a chain não é anônima: as pessoas podem ver que sua carteira usou o app, mas não quanto você movimentou. O ZEC também chega a um endereço transparente, portanto permanece visível na chain do Zcash até você blindá-lo.
 

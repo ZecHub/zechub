@@ -70,7 +70,7 @@ Las decisiones se incorporan a la especificación y se ratifican on-chain cuando
 
 Primero lee [nuestra guía sobre exploradores de bloques](/guides/blockchain-explorers). Luego consulta el explorador de bloques [Zcash](https://mainnet.zcashexplorer.app).
 
-Las transacciones vencen después de aproximadamente 25 minutos (20 bloques) y los fondos se devuelven automáticamente.
+No existe un vencimiento [expiry] fijo de 25 minutos ni un temporizador de reembolso automático. Consulta la altura de vencimiento registrada por tu billetera [wallet] y si el pago [payment] original fue minado [mined]. Si venció sin ser minado, no se liquidó on-chain; el vencimiento no crea una transacción de reembolso. Deja que la billetera se sincronice antes de seguir sus indicaciones para reintentar. Consulta [solución de problemas de transacciones](/using-zcash/transactions#troubleshooting-stuck-transactions) y [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Motivos comunes por los que una transacción puede no aparecer:**
 

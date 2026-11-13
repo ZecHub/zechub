@@ -70,7 +70,7 @@ Zcash 在根本上比 Bitcoin 或 Ethereum 更保护隐私。它提供快速的�
 
 请先阅读 [我们的区块浏览器指南](/guides/blockchain-explorers)。然后查看 [Zcash 区块浏览器](https://mainnet.zcashexplorer.app)。
 
-交易约在 25 分钟（20 个区块）后过期，资金将自动退回。
+没有固定的 25 分钟过期或自动退款计时器。请查看钱包记录的过期高度，以及原始支付是否已被挖矿。如果它在未被挖矿的情况下过期，则未在链上[on-chain]结算；过期不会创建退款交易。请先让钱包完成同步，再遵循其重试指引。请参阅 [交易故障排除](/using-zcash/transactions#troubleshooting-stuck-transactions) 和 [ZIP 203](https://zips.z.cash/zip-0203)。
 
 **交易可能未显示的常见原因：**
 

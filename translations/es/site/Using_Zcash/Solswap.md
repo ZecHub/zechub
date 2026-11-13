@@ -39,7 +39,7 @@ El propio botón **Swap** de Phantom también muestra ZEC, pero te proporciona e
 - Elige **ZEC** como tu **token de destino**.
 - Asegúrate de que Zcash esté disponible a través de la interfaz de swap.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

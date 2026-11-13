@@ -45,6 +45,36 @@ Viewing key jikọtara ọnụ na-arụkwa otu a maka ilele. Ha na-enye ọhụh
 
 NU5 soro mmelite mbụ nke Zcash: Overwinter, Sapling, Blossom, Heartwood, na Canopy. Ọ malitere na mainnet na Mee 31, 2022. A họpụtara okirikiri Orchard n'ihi na ọ na-akwado recursion, nke bụ ntọala maka ọrụ scaling n'ọdịnihu. NU5 bụ onye butere usoro mmelite NU6 na NU6.x ozugbo, nke wuru n'elu pool Orchard ma mechaa dozie ya.
 
+## Nchịkọta ọsọ ọsọ
+
+- NU5 malitere na mainnet na block 1,687,104 (May 31, 2022 UTC) — nkwalite cryptographic kasị ukwuu nke Zcash kemgbe Sapling, nke ZIP 252 tinyere n'ọrụ.
+- Ọ malitere pool nke e chebere echebe [shielded pool] nke Orchard, pool mbụ Zcash wuru n'elu Halo 2 — sistemụ proving nke na-achọghị trusted setup ma ọlị.
+- Ọ wepụtara Adreesị akpa ego ndị jikọtara ọnụ na viewing key ndị jikọtara ọnụ (ZIP 316): otu eriri Adreesị akpa ego nke nwere ike ijikọta receivers maka ọtụtụ pool.
+- Ọ bugara Azụmahia [transaction] n'ụdị version 5 (ZIP 225) ma mee ka ID Azụmahia ghara ịdị mfe ịgbanwe (ZIP 244).
+- Orchard na-arụ ọrụ na okirikiri Pallas/Vesta, nke na-akwado proof ndị na-emegharị onwe ha [recursive proofs] — ntọala maka ọrụ scaling ga-abịa na ahịrị NU6.x.
+
+## Nkọwa Isi
+
+Nsogbu trusted setup: Sprout (2016) na Sapling (2018) nke ọ bụla chọrọ emume otu oge iji mepụta paramita nzuzo, nchekwa daberekwa n’ịdịkarịa ala otu onye sonyere ibibi iberibe nke ya. Ọ bụrụ na ndị sonyere niile zoro ezo debe otu, ZEC adịgboroja ga-ekwe omume. Orchard na-ewepụ echiche ahụ kpamkpam: Halo 2 anaghị eji trusted setup ma ọ bụ structured reference string, ya mere enweghị ihe nzuzo a pụrụ iji mee ihe n'ụzọ na-ezighị ezi.
+
+NU5 chịkọtara ọtụtụ mgbanwe consensus, ndị e mere ka ha rụọ ọrụ n'otu oge: pool Orchard (ZIP 224), usoro Azụmahia ụdị 5 (ZIP 225), Unified Addresses (ZIP 316), enweghị ike ịgbanwe ID Azụmahia (ZIP 244), ndekota isi Jubjub canonical (ZIP 216), na nnyefe peer-to-peer nke Azụmahia v5 (ZIP 239). Ọ mekwara ka ZIPs 32, 203, 209, 212, 213, 221, na 401 dị ọhụrụ iji nabata pool ọhụrụ ahụ.
+
+## Ntụnyere a na-ahụ anya
+
+Pool ndị ochie dị ka igbe nchekwa nke e mepụtara ngwakọta ha n’emume otu ugboro — ị na-atụkwasị obi na onye ọ bụla sonyere bibiri nke ya. Orchard bụ igbe nchekwa nke mkpọchi ya na-enyochakwa onwe ya ọzọ n’oge ọ bụla e ji ya eme ihe: ọ dịghị emume, ọ dịghị ihe nzuzo isi, ọ dịghị ihe ọ bụla a pụrụ idebe. Adreesị akpa ego jikọtara ọnụ bụ kaadị azụmahịa nke depụtara ọnụ ụzọ mbata ọ bụla — Oha, Sapling, Orchard — onye ọbịa ahọrọ ọnụ ụzọ ọ pụrụ imeghe n’ezie.
+
+## Nnyocha Miri Emi
+
+Halo 2 na-eji mgbakọ PLONKish [PLONKish arithmetization] na okirikiri Pallas na Vesta — okirikiri abụọ dabara maka pairing nke na-emeju ibe ha, nke na-enyere ntugharị ugboro ugboro [recursion] aka: proof ndị na-enyocha proof ndị ọzọ. Ntugharị ugboro ugboro ahụ bụ ntọala ọrụ scaling nke Zcash mere mgbe e mesịrị na-adabere na ya. Nhazi Azụmahia v5 kewara mpaghara Oha [transparent], Sapling, na Orchard ma wepụ mpaghara Sprout; usoro ụdị 4 ochie ka dịkwa irè mgbe mbido gasịrị. ZIP 244 na-agbakọgharịa njirimara Azụmahia [transaction id] site n’ihe Azụmahia na-eme, ọ bụghị site na proof na signature ndị nyere ya ikike, na-emechi ụzọ malleability.
+
+## Njehie A Na-emekarị
+
+- **Iche na NU5 wepụrụ trusted setup maka pool ọ bụla.** Ọ bụ naanị Orchard na-enweghị emume; parameters nke Sapling ka dị, yabụ nkwa enweghị setup metụtara ego e jidere na Orchard.
+- **Iche na Adreesị akpa ego ochie ma ọ bụ e-akpa ego kwụsịrị ịrụ ọrụ.** NU5 gbakwụnyere nhọrọ; ụdị Adreesị akpa ego maka pool ọ bụla na usoro Azụmahia v4 nọgidere dị irè.
+- **Ịgbagwoju Orchard na Halo 2 anya.** Orchard bụ protocol/pool nke e chebere echebe; Halo 2 bụ proving system ọ na-arụ ọrụ na ya.
+- **Iwere Adreesị Njikọtara Ọnụ [Unified Addresses] dịka naanị ụdị Adreesị akpa ego.** Ha bụ usoro agbakwunyere ị nwere ike ịnakwere mgbe e-akpa ego gị kwadoro ha.
+- **Ikwere na NU5 gbanwere mwepụta ma ọ bụ Nzuzo dịbu adị.** Ọ gbakwụnyere pool na usoro; ZEC dịbu adị na Nzuzo ya emetụghị aka.
+
 ## Nkọwa okwu
 
 | Okwu | Nkọwa dị mfe n'asụsụ Bekee |
@@ -109,5 +139,13 @@ E wuru Orchard n'elu sistemụ proving Halo 2, nke na-achọghị trusted setup 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Peeji ndị metụtara
+
+- [Halo](./Halo.md) — sistemu proof na-enweghị trusted setup n'azụ Orchard
+- [Adreesị akpa ego jikọtara ọnụ](./Unified_Addresses.md) — nyocha miri emi banyere adresị 316 nke ZIP
+- [Sapling](./Sapling.md) — pool nke e chebere echebe [shielded] gara aga, ka jikọtara na emume ya
+- [NU6](./NU6.md) — network upgrade na-esote, nke e wuru n'elu pool Orchard
+- [zk_SNARKS](./zk_SNARKS.md) — teknụzụ zero-knowledge dị n'okpuru ya
 
 Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke bu ụzọ: [Canopy](../zcash-tech/canopy) · Nke na-esote: [NU6](../zcash-tech/nu6)

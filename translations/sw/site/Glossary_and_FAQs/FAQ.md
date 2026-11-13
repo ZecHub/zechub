@@ -70,7 +70,7 @@ Maamuzi huandikwa katika ufafanuzi wa kiufundi na kuridhiwa on-chain wakati mtan
 
 Kwanza soma [mwongozo wetu wa vichunguzi vya block](/guides/blockchain-explorers). Kisha angalia [Kichunguzi cha Block cha Zcash](https://mainnet.zcashexplorer.app).
 
-Miamala huisha muda baada ya takriban dakika 25 (block 20) na fedha hurudishwa kiotomatiki.
+Hakuna muda maalumu wa kuisha wa dakika 25 wala kipima muda cha kurejesha fedha kiotomatiki. Angalia kimo cha kuisha [expiry height] kilichorekodiwa na pochi [wallet] yako na kama malipo ya awali yalichimbwa [mined]. Ikiwa muda wake uliisha bila kuchimbwa, hayakukamilika on-chain; kuisha muda hakuundi muamala wa kurejesha fedha [refund transaction]. Ruhusu pochi isawazishe [sync] kabla ya kufuata mwongozo wake wa kujaribu tena. Tazama [utatuzi wa matatizo ya miamala](/using-zcash/transactions#troubleshooting-stuck-transactions) na [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Sababu za kawaida ambazo muamala unaweza usionekane:**
 

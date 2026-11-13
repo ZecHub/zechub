@@ -6,13 +6,13 @@
 
 > Heartwood ging im Zcash-Mainnet bei Block 903.000 (16. Juli 2020 UTC) live.
 
-Das nehmen Sie mit: wie Heartwood es Minern ermöglichte, ihre Blockbelohnungen direkt in Shielded-Adressen zu erhalten, und wie es Zcashs Proof-of-Work für leichtgewichtige Clients überprüfbar machte.
+Das nehmen Sie mit: wie Heartwood es Minern ermöglichte, ihre Blockbelohnungen direkt in Shielded-Adressen zu erhalten, und wie es den Proof-of-Work von Zcash für leichtgewichtige Clients überprüfbar machte.
 
 Heartwood ist ein Zcash-[Network Upgrade](../start-here/network-upgrades), ein Hard Fork der Konsensregeln, dessen Einführung in [ZIP 250](https://zips.z.cash/zip-0250) definiert ist. Es bündelte zwei Funktionsänderungen: [ZIP 213](https://zips.z.cash/zip-0213) (Shielded Coinbase) und [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient). Heartwood war Zcashs viertes großes Network Upgrade und wurde gemeinsam von der [Electric Coin Company](../zcash-organizations/electric-coin-company) und der [Zcash Foundation](../zcash-organizations/zcash-foundation) unterstützt. Wie jedes Zcash-Upgrade setzte es eine neue Consensus-Branch-ID, ein Kennzeichen, das beidseitigen Replay-Schutz bietet, sodass eine Transaktion, die nach den neuen Regeln erstellt wurde, nicht auf der alten Chain wiederholt werden kann – und umgekehrt.
 
 Heartwood wird bei einer festgelegten Blockhöhe (903.000) aktiviert, nicht zu einer festen Uhrzeit, daher kann die genaue Minute, die Sie auf einem Dashboard sehen, von Ort zu Ort leicht abweichen. Der Block und der Zeitpunkt sind dieselben.
 
-Warum das wichtig ist. Miner verdienen neu erzeugte ZEC jedes Mal, wenn sie einen Block minen. Vor Heartwood musste dieses Einkommen in einer transparenten Adresse landen, die öffentlich ist. Jeder konnte sehen, wie viel ein Miner verdiente und wohin die Coins danach gingen. Heartwood ermöglichte stattdessen, dass diese Belohnung direkt an eine Shielded-Adresse geht, sodass die Vergütung eines Miners privat bleiben kann. Außerdem wurde es damit für leichtgewichtige Wallets und andere Chains möglich, Zcashs Proof-of-Work zu prüfen, ohne die gesamte Chain herunterzuladen.
+Warum das wichtig ist. Miner verdienen neu erzeugte ZEC jedes Mal, wenn sie einen Block minen. Vor Heartwood musste dieses Einkommen auf einer transparenten Adresse landen, die öffentlich ist. Jeder konnte sehen, wie viel ein Miner verdiente und wohin die Coins danach gingen. Heartwood ermöglichte es, dass diese Belohnung stattdessen direkt an eine Shielded-Adresse geht, sodass die Vergütung eines Miners privat bleiben kann. Außerdem wurde es damit für leichtgewichtige Wallets und andere Chains möglich, den Proof-of-Work von Zcash zu prüfen, ohne die gesamte Chain herunterzuladen.
 
 ## Shielded Coinbase
 
@@ -26,7 +26,7 @@ Shielded Coinbase zielt speziell auf Sapling-Outputs ab, und dafür gibt es eine
 
 ## FlyClient
 
-Heartwood änderte auch, worauf sich ein Block-Header festlegt. Das Header-Feld, das zuvor hashFinalSaplingRoot hieß, wurde umgewidmet und in hashLightClientRoot umbenannt. Es legt sich nun auf die Root einer Merkle Mountain Range (MMR) fest, einer fortlaufenden Struktur, die über den Header-Daten und Metadaten früherer Blöcke aufgebaut wird, etwa Zeitstempel, Schwierigkeitsziele, Sapling-Roots, akkumulierte Arbeit und Transaktionsanzahlen. Diese Festlegung erlaubt es einem Light Client oder einer externen Chain, Zcashs Proof-of-Work mit einem kleinen Beweis zu verifizieren, dessen Größe nur logarithmisch mit der Länge der Chain wächst. Der Vorteil sind bessere Light-Client-Wallets und eine einfachere Integration durch Dritte sowie chainübergreifende Integration, weil ein Client nicht länger jeden Block herunterladen muss, um der Arbeit hinter der Chain zu vertrauen.
+Heartwood änderte auch, worauf sich ein Block-Header festlegt. Das Header-Feld, das zuvor hashFinalSaplingRoot hieß, wurde umgewidmet und in hashLightClientRoot umbenannt. Es legt sich nun auf die Root einer Merkle Mountain Range (MMR) fest, einer fortlaufenden Struktur, die über den Header-Daten und Metadaten früherer Blöcke aufgebaut wird, etwa Zeitstempel, Schwierigkeitsziele, Sapling-Roots, akkumulierte Arbeit und Transaktionsanzahlen. Diese Festlegung erlaubt es einem Light Client oder einer externen Chain, den Proof-of-Work von Zcash mit einem kleinen Beweis zu verifizieren, dessen Größe nur logarithmisch mit der Länge der Chain wächst. Der Vorteil sind bessere Light-Client-Wallets und eine einfachere Integration durch Dritte sowie chainübergreifende Integration, weil ein Client nicht länger jeden Block herunterladen muss, um der Arbeit hinter der Chain zu vertrauen.
 
 ![FlyClient-Ablauf: Die Header-Daten jedes Blocks werden in einer Merkle-Mountain-Range-Root (hashLightClientRoot) festgelegt, wodurch ein Light Client den Proof-of-Work mit einem kleinen Beweis logarithmischer Größe verifizieren kann](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
@@ -35,6 +35,36 @@ Heartwood änderte auch, worauf sich ein Block-Header festlegt. Das Header-Feld,
 Heartwood ist ein Schritt in einer Reihe von Zcash-Upgrades, von denen jedes ein Element hinzufügt, auf das sich das nächste stützt. Overwinter und Sapling kamen 2018, Blossom 2019 und Heartwood 2020 bei Block 903.000. Canopy folgte später im Jahr 2020 bei Block 1.046.400. Sapling ist für Heartwood das zentrale Glied in dieser Kette: Seine effiziente Shielded-Transaktionsmechanik war die technische Voraussetzung, die Shielded Coinbase möglich machte.
 
 ![Zeitleiste der Zcash-Upgrades: Overwinter und Sapling im Jahr 2018, Blossom im Jahr 2019 und Heartwood im Jahr 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
+
+## Kurz gesagt
+
+- Heartwood wurde bei Mainnet-Block 903.000 (16. Juli 2020 UTC) aktiviert und über ZIP 250 mit einer neuen Consensus Branch ID für beidseitigen Replay-Schutz eingeführt.
+- ZIP 213 (Shielded Coinbase): Coinbase-Transaktionen dürfen Sapling-Outputs enthalten, sodass Miner Blockbelohnungen direkt an eine Shielded-Adresse erhalten können.
+- ZIP 221 (FlyClient): Das Feld hashLightClientRoot im Header legt sich nun auf eine Merkle Mountain Range fest, sodass Light Clients Proof-of-Work mit Beweisen verifizieren können, die nur logarithmisch wachsen.
+- Transparente Coinbase-Outputs werden weiterhin vollständig unterstützt: Shielded Coinbase ist eine neue Option, keine Pflicht.
+- Die Aktivierung erfolgt bei einer bestimmten Blockhöhe, nicht zu einer festen Uhrzeit, daher weicht die genaue Minute je nach Dashboard und Zeitzone ab.
+
+## Kernerklärung
+
+Vor Heartwood mussten die frisch geschürften ZEC eines Miners zunächst an einer transparenten Adresse landen, sodass jeder die Einnahmen eines Miners beobachten und nachverfolgen konnte, wohin sie flossen. ZIP 213 lockerte die Konsensregel, sodass die Coinbase-Transaktion an Sapling-Outputs auszahlen darf. Dadurch bleibt die Vergütung eines Miners vom allerersten Moment ihrer Existenz an privat. Es zielt gezielt auf Sapling ab, weil die effiziente Beweiserzeugung von Sapling das Shielding innerhalb der Coinbase praktikabel machte; die aufwendigen Beweise von Sprout waren dort nicht umsetzbar.
+
+ZIP 221 hat das Header-Feld hashFinalSaplingRoot zu hashLightClientRoot umfunktioniert. Es verpflichtet sich nun auf eine Merkle Mountain Range, die über die Header-Daten vorheriger Blöcke aufgebaut ist: Zeitstempel, Schwierigkeitsziele, Sapling-Roots, akkumulierte Arbeit und Transaktionsanzahlen. Ein Light Client oder eine andere Chain kann dann den Proof-of-Work von Zcash mit einem kleinen Beweis verifizieren, anstatt jeden Block herunterzuladen.
+
+## Visuelle Analogie
+
+Vorher: Der Zahltag jedes Miners wurde an einem öffentlichen Aushang angeschlagen – Betrag und Spur waren für jeden lesbar. Nachher: Der Zahltag kann in einem versiegelten Umschlag eintreffen. Und jeder neue Block trägt jetzt ein kompaktes Wachssiegel, das alle vorherigen Blöcke zusammenfasst, sodass ein Fremder die gesamte Arbeitskette mit einem Blick bestätigen kann, statt jede Seite zu lesen.
+
+## Tiefer Einblick
+
+Die Regeländerung hatte eine Vorgeschichte: Sapling hatte das ursprüngliche Verbot von abgeschirmtem Coinbase auch auf Sapling-Outputs ausgeweitet, und Heartwood hob diese Beschränkung auf, um sie zuzulassen. Das ist ein anschauliches Beispiel dafür, wie die Infrastruktur eines Upgrades zum Fundament des nächsten wird. Die MMR-Commitment zahlt sich bei leichtgewichtigen Wallets und bei der Cross-Chain-Integration aus, wo die Überprüfung der Arbeit von Zcash zuvor den Download der gesamten Chain erforderte. Die bei der Aktivierung hinzugefügte Konsens-Branch-ID bietet einen beidseitigen Replay-Schutz: Eine Transaktion, die nach den neuen Regeln erstellt wurde, kann nicht auf der alten Chain wiederholt werden, und umgekehrt.
+
+## Häufige Fehler
+
+- **Die Annahme, geschützte Coinbase sei verpflichtend geworden.** Transparente Coinbase-Outputs sind weiterhin gültig; die Miner haben die Wahl.
+- **Die Annahme, Sprout könne geschützte Coinbase empfangen.** Nur Sapling-Outputs sind zulässig – das Beweisen bei Sprout war zu ressourcenintensiv.
+- **Der Glaube, FlyClient mache vollständige Knoten überflüssig.** Es dient Light Clients und Cross-Chain-Verifizierern; vollständige Knoten bleiben weiterhin das Fundament des Netzwerks.
+- **Die Suche nach einem festen Aktivierungszeitpunkt.** Die Aktivierung wurde auf Block 903.000 festgelegt, daher variiert die genaue Uhrzeit.
+- **Die Verwechslung von hashLightClientRoot mit dem alten hashFinalSaplingRoot.** Dasselbe Feld wurde umfunktioniert und umbenannt.
 
 ## Glossar
 
@@ -58,7 +88,7 @@ Müssen Miner Belohnungen jetzt abgeschirmt erhalten? Nein. Shielded Coinbase is
 
 Warum verwendet Shielded Coinbase Sapling und nicht den älteren Sprout-Pool? Weil Saplings effizienteres Design es praktikabel machte, direkt in der Coinbase abzuschirmen. Der frühere Sprout-Pool war dafür zu ressourcenintensiv.
 
-Was hat sich für Light Clients geändert? Der Block-Header legt sich jetzt über das Feld hashLightClientRoot auf eine Merkle Mountain Range über vergangene Blöcke fest. Das ermöglicht Light Clients und anderen Chains, Zcashs Proof-of-Work mit kleinen Beweisen logarithmischer Größe statt mit der ganzen Chain zu verifizieren.
+Was hat sich für Light Clients geändert? Der Block-Header verpflichtet sich nun über das Feld hashLightClientRoot auf eine Merkle Mountain Range über vergangene Blöcke. Dadurch können Light Clients und andere Chains den Proof-of-Work von Zcash mit kleinen Beweisen logarithmischer Größe überprüfen, statt die gesamte Chain zu benötigen.
 
 ## Testen Sie Ihr Verständnis
 
@@ -95,5 +125,12 @@ Coinbase-Outputs mussten transparent sein, daher landete die neu erzeugte Belohn
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Verwandte Seiten
+
+- [Sapling](./Sapling.md) – die effiziente Technik, die shielded Coinbase-Transaktionen erst praktikabel machte
+- [Canopy](./Canopy.md) – das nächste Upgrade der Reihe
+- [Vollständige Knoten](./Full_Nodes.md) – was die vollständige Verifizierung weiterhin leistet
+- [Was ein Block-Explorer sehen kann](./What_a_Block_Explorer_Can_See.md) – was transparente und shielded Coinbase-Transaktionen jeweils offenlegen
 
 Reihe: [Index der Network Upgrades](../start-here/network-upgrades) · Vorherige: [Blossom](../zcash-tech/blossom) · Nächste: [Canopy](../zcash-tech/canopy)

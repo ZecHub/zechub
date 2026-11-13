@@ -42,7 +42,10 @@ function stripInline(t) {
 
 // Pull a usable label out of a raw heading's inner text (after the `#`s).
 function cleanHeadingText(raw) {
-  let t = raw;
+  // Closing ATX hashes are syntax only when whitespace-separated in the raw
+  // heading. Recognise them before stripping markup or decoding entities,
+  // which can expose a literal trailing hash (C#, `#`, &#35;, link text).
+  let t = raw.replace(/(?:^|[ \t]+)#+[ \t]*$/, "");
   // Image-only heading (HTML <img> or markdown ![alt](url)) -> use alt text.
   const stripped = t.replace(/<[^>]+>/g, "").replace(/!\[[^\]]*\]\([^)]*\)/g, "").trim();
   if (!stripped) {
@@ -57,7 +60,6 @@ function cleanHeadingText(raw) {
   t = stripInline(t);
   t = decodeEntities(t);
   t = t.replace(/\s+/g, " ").trim();
-  t = t.replace(/\s*#+\s*$/, "").trim(); // trailing ATX closing hashes
   return t;
 }
 

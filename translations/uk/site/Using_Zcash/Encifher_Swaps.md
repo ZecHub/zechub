@@ -1,15 +1,28 @@
-# **Обмін SOL/USDC -> ZEC за допомогою Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# Обмін SOL/USDC на ZEC через encrypt.trade
+
+> Обміняйте SOL або USDC на Solana на ZEC, а міжланцюговий етап маршрутизується через NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Обмін із Solana на Zcash, де міжланцюговий крок маршрутизується через NEAR Intents.*  
+---
+
+## Коротко
+
+* [encrypt.trade](https://encrypt.trade/zec) обгортає SOL або USDC у зашифровані токени (eSOL/eUSDC), а потім обмінює їх на ZEC через NEAR Intents.
+* Суми приховані в Solana, але адреса вашого гаманця та його використання застосунку є публічними.
+* ZEC надходить лише на прозору адресу (t1/t3), тому її видно в мережі Zcash, доки ви не екрануєте її.
+* Екрануйте ZEC у своєму гаманці щойно вона надійде.
+* Застосунок і NEAR Intents обидва перевіряють гаманці на відповідність вимогам.
 
 ---
 
-###  Вступ  
-[**encrypt.trade**](https://encrypt.trade/zec) — це застосунок Solana, яким керує JMD Labs Inc. Він дає змогу обмінювати **SOL або USDC** у Solana на **Zcash (ZEC)**. Ваші токени спочатку загортаються в зашифровані версії, тому суми приховані в Solana, а потім обмінюються на ZEC через NEAR Intents.
+## Основне пояснення
+[**encrypt.trade**](https://encrypt.trade/zec) — це застосунок Solana, яким керує JMD Labs Inc. Він дає змогу обмінювати **SOL або USDC** у Solana на **Zcash (ZEC)**. Спочатку ваші токени загортаються в зашифровані версії, тому суми приховані в Solana, а потім обмінюються на ZEC через NEAR Intents.
 
 Обмін є приватним у деяких аспектах, але не в усіх. Власна [документація](https://docs.encifher.io/docs) застосунку зазначає, що ваша взаємодія з ланцюгом не є анонімною: люди можуть бачити, що ваш гаманець користувався застосунком, але не те, яку суму ви перемістили. ZEC також надходить на прозору адресу, тому залишається видимим у ланцюзі Zcash, доки ви не екрануєте його.
 

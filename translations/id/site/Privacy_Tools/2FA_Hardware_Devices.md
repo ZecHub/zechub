@@ -20,7 +20,7 @@ Dengan kunci keamanan perangkat keras seperti YubiKey, kamu cukup mencolokkan ku
 
 ## Apa manfaat menggunakan kunci keamanan perangkat keras?
 
-Kunci keamanan hardware menawarkan beberapa keuntungan dibandingkan metode autentikasi berbasis kata sandi tradisional. Kunci ini jauh lebih sulit untuk diserang daripada kata sandi, yang dapat dengan mudah dikompromikan melalui brute force, social engineering, atau serangan phishing. Kunci keamanan menghasilkan kode unik setiap kali digunakan, sehingga hampir mustahil bagi penyerang untuk memprediksi atau mereplikasi kode tersebut. Kunci ini juga mudah digunakan dan dikonfigurasi serta tidak memerlukan instalasi perangkat lunak atau driver tambahan apa pun pada perangkat kamu.
+Saat digunakan dengan FIDO U2F atau FIDO2/WebAuthn, kunci keamanan hardware melakukan autentikasi dengan menandatangani challenge baru, alih-alih menghasilkan kode untuk kamu ketik. Layanan menyimpan kunci publik, sedangkan kunci privat tetap berada di autentikator. Kredensial dibatasi untuk layanan tersebut, dan browser memeriksa identitas relying party untuk mencegah phishing. Manfaat ini menggambarkan autentikasi FIDO, bukan setiap metode yang mungkin didukung oleh kunci multi-protokol. Periksa bahwa layanan, browser, perangkat, dan jenis koneksi kamu mendukung metode yang ingin kamu gunakan. Lihat [pengantar WebAuthn dari Yubico](https://developers.yubico.com/WebAuthn/) dan [panduan developer FIDO2/WebAuthn](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## Apakah kunci keamanan perangkat keras kompatibel dengan semua perangkat dan sistem operasi?
 

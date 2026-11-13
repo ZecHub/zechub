@@ -260,7 +260,7 @@ Srɔ̃ Nu Geɖe: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833
 
 [Morpho](https://markets.morpho.org/fixed) nye ha nuɖo agni me fiaɖeɖe protocol si naa fiaɖeɖe ƒe asiƒoƒe si zãa ga nyuie ŋutɔ.
 
-[Clearstar Labs](clearstar.xyz) tsɔ cbAssets Vault va to Morpho me, eye esia na nunɔamesi abe cbZEC ene ŋu woate ŋu azãe le fiaɖeɖe ƒe asiƒoƒe me.
+[Clearstar Labs](https://clearstar.xyz) tsɔ cbAssets Vault va to Morpho me, eye esia na nunɔamesi abe cbZEC ene ŋu woate ŋu azãe le fiaɖeɖe ƒe asiƒoƒe me.
 
 To dzraƒe sia me la, zãlawo ate ŋu:
 

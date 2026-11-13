@@ -38,11 +38,12 @@
 // is an error, never a silent skip.
 import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs";
-import { join, relative } from "node:path";
+import { join, relative, sep } from "node:path";
+import { fileURLToPath } from "node:url";
 
 import { buildEquivalence, formsFor } from "../translation/lib/term-forms.mjs";
 
-const root = new URL("../", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../", import.meta.url));
 const config = JSON.parse(
   readFileSync(join(root, "translation/protected-terms.json"), "utf8"),
 );
@@ -148,7 +149,8 @@ for (const translatedAbs of walk(translationsDir)) {
 
   const source = readFileSync(sourceAbs, "utf8");
   const translated = readFileSync(translatedAbs, "utf8");
-  const translatedRel = relative(root, translatedAbs);
+  // Git paths use forward slashes even when filesystem paths are native Windows paths.
+  const translatedRel = relative(root, translatedAbs).split(sep).join("/");
   checked += 1;
 
   for (const term of terms) {

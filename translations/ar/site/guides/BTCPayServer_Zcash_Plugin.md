@@ -9,24 +9,24 @@
 
 ## جدول المحتويات
 
-- [لماذا تستخدم BTCPay Server مع Zcash](#Why-Use-BTCPay-Server-with-Zcash)
-- [كيف يعمل BTCPay Server](#How-BTCPay-Server-Works)
-- [أين يتم تخزين الأموال؟ ومن يتحكم في المفاتيح الخاصة؟](#Where-Are-Funds-Stored-Who-Controls-the-Private-Keys)
-- [كيفية إعداد BTCPay Server لقبول Zcash](#How-to-Set-Up-BTCPay-Server-for-Accepting-Zcash)
-  - [نشر BTCPay Server مع دعم Zcash](#Deploying-BTCPay-Server-with-Zcash-Support)
-  - [تشغيل عقدة Zcash كاملة خاصة بك (Zebra + lightwalletd)](#Running-Your-Own-Zcash-Full-Node)
-  - [الاتصال بعقدة lightwalletd خارجية (إعداد مخصص)](#Connecting-to-an-External-Lightwalletd-Node)
-  - [استضافة BTCPay Server في المنزل باستخدام Cloudflare Tunnel](#Hosting-BTCPay-Server-at-Home-with-Cloudflare-Tunnel)
-- [إعداد إضافة Zcash في واجهة الويب الخاصة بـ BTCPay Server](#Configuring-the-Zcash-Plugin-in-the-BTCPay-Server-Web-Interface)
-- [دمج BTCPay Server مع موقعك الإلكتروني](#Integrating-BTCPay-Server-with-Your-Website)
-  - [التكامل عبر API](#API-Integration)
-    - [إنشاء مفتاح API](#Generating-an-API-Key)
-    - [مثال: إنشاء فاتورة عبر API](#Example-Creating-an-Invoice-via-API)
-    - [إعداد Webhook](#Setting-Up-a-Webhook-Optional)
-  - [التكامل مع أنظمة CMS](#CMS-Integration)
-  - [زر دفع أو Iframe](#Payment-Button-or-Iframe-No-CMS-or-API-Needed)
-- [الخلاصة](#Conclusion)
-- [الموارد](#Resources)
+- [لماذا تستخدم BTCPay Server مع Zcash](#why-use-btcpay-server-with-zcash)
+- [كيف يعمل BTCPay Server](#how-btcpay-server-works)
+- [أين يتم تخزين الأموال؟ ومن يتحكم في المفاتيح الخاصة؟](#where-are-funds-stored-who-controls-the-private-keys)
+- [كيفية إعداد BTCPay Server لقبول Zcash](#how-to-set-up-btcpay-server-for-accepting-zcash)
+  - [نشر BTCPay Server مع دعم Zcash](#deploying-btcpay-server-with-zcash-support)
+  - [تشغيل عقدة Zcash كاملة خاصة بك (Zebra + lightwalletd)](#running-your-own-zcash-full-node)
+  - [الاتصال بعقدة lightwalletd خارجية (إعداد مخصص)](#connecting-to-an-external-lightwalletd-node)
+  - [استضافة BTCPay Server في المنزل باستخدام Cloudflare Tunnel](#hosting-btcpay-server-at-home-with-cloudflare-tunnel)
+- [إعداد إضافة Zcash في واجهة الويب الخاصة بـ BTCPay Server](#configuring-the-zcash-plugin-in-the-btcpay-server-web-interface)
+- [دمج BTCPay Server مع موقعك الإلكتروني](#integrating-btcpay-server-with-your-website)
+  - [التكامل عبر API](#api-integration)
+    - [إنشاء مفتاح API](#generating-an-api-key)
+    - [مثال: إنشاء فاتورة عبر API](#example-creating-an-invoice-via-api)
+    - [إعداد Webhook](#setting-up-a-webhook-optional)
+  - [التكامل مع أنظمة CMS](#cms-integration)
+  - [زر دفع أو Iframe](#payment-button-or-iframe-no-cms-or-api-needed)
+- [الخلاصة](#conclusion)
+- [الموارد](#resources)
 
 
 ---
@@ -652,7 +652,7 @@ cd ~/BTCPayServer/btcpayserver-docker
 بعد التثبيت، انقر على **Restart Server** لإعادة تحميل الواجهة مع الإضافات النشطة.
 
 
-### الخطوة 3: ربط محفظتك عبر مفتاح العرض
+### الخطوة 3: ربط محفظتك عبر Viewing Key
 
 بعد تثبيت الإضافة، سيظهر قسم **Zcash** جديد في قائمة الإعدادات.
 

@@ -4,20 +4,21 @@
 
 # Zcash 支付处理器 [Payment Processors]
 
-以并排方式比较商家接受 ZEC 的途径。每一项均已于 **2026 年 7 月 29 日** 根据服务提供商自身网站和 API 核查。
+以并排方式比较商家接受 ZEC 的途径。除于 **2026 年 11 月 1 日** 添加的 Zcash Payment Service 外，每一项均已于 **2026 年 7 月 29 日** 根据服务提供商自身网站和 API 核查。
 
 对隐私 [privacy] 资产的支持经常变化，因此每一行均标有各自的核实日期。如果您在数月后阅读此页面，请在集成前查看服务提供商的网站。
 
 <div class="processor-table">
 
-| 处理器 | 托管 [Custody] | 屏蔽 [Shielded] ZEC | 自托管 | 商家手续费 | 地区 / KYC | 已核实 |
+| 支付处理商 [Processor] | 托管 [Custody] | 屏蔽 [Shielded] ZEC | 自托管 [Self-host] | 商家手续费 | 地区 / KYC | 已核实 |
 |:--|:--|:--|:--|:--|:--|:--|
 | [CipherPay](https://www.cipherpay.app) | 非托管 | 是，通过统一地址使用 Orchard | 是，开源 | 每笔支付 1%，自托管则免费 | 无 KYC，未说明地区 | 2026-07-29 |
 | [BTCPay Server](https://github.com/btcpay-zcash/btcpayserver-zcash-plugin) | 非托管，仅 viewing key | 是，仅屏蔽（Sapling、Orchard、UA） | 是，开源 | 无，仅支付网络手续费 | 全球，无 KYC | 2026-07-29 |
+| [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service) | 非托管，仅限入站 viewing key | 是，仅屏蔽（Sapling 和 Orchard） | 是，仅限自托管，开源 | 无，仅支付网络手续费 | 无账户，无 KYC | 2026-11-01 |
 | [ZGo](https://zgo.cash/) | 非托管 | 是，Sapling 和 Orchard | 否，托管服务 | 预付会话，未公布价格 | 未说明无 KYC，未说明地区 | 2026-07-29 |
 | [Flexa](https://flexa.co/) | 客户自托管，商家以法币结算 | 客户使用屏蔽资金支付，未记录收款方信息 | 否 | 每笔支付 1% | 美国及 37 个 SEPA 国家，未确认 ZEC 在欧盟的情况 | 2026-07-29 |
 | [NOWPayments](https://nowpayments.io/supported-coins/zcash-payments) | 默认非托管 | 否，仅透明地址 | 否 | 0.5%，或兑换时 1% | 除法律禁止地区外全球可用，开始时无需 KYC | 2026-07-29 |
-| [Plisio](https://plisio.net/accept-zcash) | 尽管其营销宣传如此，仍为托管 | 未记录 | 否 | API 0.5%，白标 1.5% | 收款无需 KYC | 2026-07-29 |
+| [Plisio — 支付已暂停](https://plisio.net/) | 尽管其营销宣传如此，仍为托管 | 未记录 | 否 | API 0.5%，白标 1.5% | 收款无需 KYC | 2026-07-29 |
 | [Binance Pay](https://pay.binance.com/en) | 托管，链下 [off-chain] | 否，拒绝屏蔽存款 | 否 | 钱包之间免费，付款 0.8% | 受地理限制，ZEC 已在法国、西班牙、意大利和波兰下架 | 2026-07-29 |
 
 </div>
@@ -36,7 +37,7 @@
 
 ### 该选择哪一个
 
-如需最高程度的隐私和控制权，请使用 **BTCPay Server** 或自行托管的 **CipherPay**。两者均支持屏蔽、开源，且不会为您持有资金。
+如需最高程度的隐私和控制权，请使用 **BTCPay Server**、自行托管的 **CipherPay**，或者如果您能在网站中添加少量代码，则使用 **Zcash Payment Service**。三者均支持屏蔽、开源，且不会为您持有资金。
 
 如需在商店而非线上收款，请使用 **Flexa**。
 
@@ -89,6 +90,29 @@
 软件本身不收费。您支付 Zcash 网络手续费以及任何托管成本。
 
 **最后核实：** 2026-07-29
+
+---
+
+## [Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+- **支持类型**：仅屏蔽（Sapling 和 Orchard）
+- **描述**：一款面向在线商家的免费、自托管 Zcash 支付处理器，可作为 Docker 容器运行，或作为 Rust crate 嵌入。
+- **URL**：[Zcash Payment Service](https://github.com/nerdcash/zcash-payment-service)
+
+由 Andrew Arnott 构建的免费开源（MIT）支付处理器 [processor]，他已经在自己的应用中将其用于真实支付 [payments]。
+
+它只持有一个传入的 viewing key（UIVK）。它可以看到支付到账，但无法花费这些资金，因此即使服务器遭到入侵，也无法转移您的资金。该密钥保留在您自己的服务器上，因此任何公司也无法看到您的支付。
+
+每次结账都会获得一个新的统一地址，其中包含 Sapling 和 Orchard 接收器，且没有透明接收器。支付会直接进入您自己的钱包。
+
+没有手续费 [fee]、没有账户，也没有使用计量。您支付 Zcash 网络手续费和托管费用。
+
+它仅支持自行托管 [self-hosted]：一个 Docker 容器 [container]，或者是在您已运行的应用中使用的一个 Rust crate。它从您选择的 lightwalletd 服务器读取链 [chain]，因此您不需要全节点 [full node]。
+
+设置需要编写代码，而不是安装插件。结账时，你的网站会向服务请求支付地址（payment address）和 QR 码，服务则会通过签名 webhook 在款项到账时通知你的网站。JavaScript 和 TypeScript 后端均有 npm 客户端，还有一个可供参考的开源 [演示商店](https://github.com/nerdcash/zcash-payment-demo-store)。没有 Shopify 或 WooCommerce 插件，因此你需要能控制网站代码，或者有一名能控制代码的开发者。
+
+需要权衡的事项。它很新：代码库于 2026 年 6 月启动，npm 客户端版本为 0.1，尚无已标记的发布版本，也没有已发布的安全审计。其 API 没有自身的登录机制，因此请将其置于私有网络中，绝不要向互联网开放。并且与任何屏蔽支付 [shielded payment] 一样，退款需要买家向您提供一个地址。
+
+**最后验证：** 2026-11-01
 
 ---
 
@@ -150,11 +174,14 @@ Flexa 自己的公告将 Zcash 集成描述为使用屏蔽 ZEC 进行支付。Fl
 
 ---
 
-## [Plisio](https://plisio.net/accept-zcash) <img src="/content-images/plisio-wordmark.png" alt="Plisio 标志" class="processor-logo processor-logo-wide" />
-- **支持类型**：透明（未记录）
-- **描述**：Plisio 是一个加密货币支付网关，允许企业接受 Zcash 支付。
-- **URL**：[Plisio](https://plisio.net/accept-zcash)
-<img src="/content-images/plisio-wordmark.png" alt="Plisio 标志" width="200" hidden />
+## [Plisio](https://plisio.net/) <img src="/content-images/plisio-wordmark.png" alt="Plisio logo" class="processor-logo processor-logo-wide" />
+
+> **支付暂停 — 已于 2026 年 11 月 12 日核查。** Plisio 的 [主页](https://plisio.net/)称，在开展恢复工作期间，转入和转出支付暂时暂停。发送资金前请向提供商确认。其 Zcash 专属页面目前返回 404；这并不能证明 ZEC 已被下架。以下手续费 [fee]、托管 [custody] 和地址 [address] 支持详情最后于 2026 年 7 月 29 日审查，尚未重新验证。
+
+- **支持类型**：透明 [Transparent]（未记录）
+- **描述**：Plisio 是一家已列出 Zcash 支持的加密货币支付网关。目前支付处理已暂停；请参阅上方带日期的通知。
+- **URL**：[Plisio](https://plisio.net/)
+<img src="/content-images/plisio-wordmark.png" alt="Plisio 徽标" width="200" hidden />
 
 应将其视为托管服务。Plisio 的营销宣传称其为非托管，但其自身帮助页面描述了平台所持余额、冷存储和提取流程。无法确认其非托管声明。
 

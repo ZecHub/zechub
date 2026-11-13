@@ -70,7 +70,7 @@ Les décisions sont inscrites dans la spécification et ratifiées on-chain lors
 
 Lisez d’abord [notre guide des explorateurs de blocs](/guides/blockchain-explorers). Consultez ensuite l’explorateur de blocs [Zcash](https://mainnet.zcashexplorer.app).
 
-Les transactions expirent après environ 25 minutes (20 blocs) et les fonds sont retournés automatiquement.
+Il n’existe pas d’expiration fixe de 25 minutes ni de délai de remboursement automatique. Vérifiez la hauteur d’expiration enregistrée par votre wallet et si le paiement initial a été miné. S’il a expiré sans être miné, il n’a pas été réglé sur la blockchain ; l’expiration ne crée pas de transaction de remboursement. Laissez le wallet se synchroniser avant de suivre ses recommandations de nouvelle tentative. Consultez [le dépannage des transactions](/using-zcash/transactions#troubleshooting-stuck-transactions) et [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Raisons courantes pour lesquelles une transaction peut ne pas apparaître :**
 

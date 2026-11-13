@@ -260,7 +260,7 @@ Learn More: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833589fC
 
 [Morpho](https://markets.morpho.org/fixed) is a decentralized lending protocol that provides a highly capital-efficient lending market.
 
-[Clearstar Labs](clearstar.xyz) introduces the cbAssets Vault via Morpho, enabling assets such as cbZEC to be used in the lending market.
+[Clearstar Labs](https://clearstar.xyz) introduces the cbAssets Vault via Morpho, enabling assets such as cbZEC to be used in the lending market.
 
 Through this vault, users can:
 

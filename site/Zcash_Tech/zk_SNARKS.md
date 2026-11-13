@@ -148,13 +148,13 @@ Setup procedures help the verifier by summarizing a circuit & outputting public 
 
 **Types of pre-processing setup**:
 
-Trusted Setup per circuit - Is run once per circuit. Is sepcific to a circuit & the secret randomness (Common Reference String) must be kept secret + destroyed. 
+Trusted setup per circuit - Run separately for each circuit. The resulting common reference string (CRS) contains public parameters used by provers and verifiers. It is the secret intermediate setup material ("toxic waste"), not the CRS, that must be kept secret and destroyed. ECC's [public-parameter explanation](https://zodl.com/snark-parameters/) distinguishes the two.
 
-A comprimised setup in this method means a dishonest prover can prove false statements. 
+If the required secret setup material is retained or recovered, a dishonest prover may be able to produce proofs of false statements. In an MPC ceremony, security can depend on at least one participant following the protocol and destroying their secret contribution.
 
-Trusted but Universal Setup - Only has to run trusted setup once and is able to then deterministically preprocess multiple circuits. 
+Trusted but universal setup - A single trusted setup produces parameters that can be used to derive proving and verification keys for multiple circuits within the supported size bounds. This still carries a secret-destruction assumption; universal does not mean transparent.
 
-Transparent Setup (No Trusted Setup)- The preprocessing algorithm does not use any secret randomness at all. 
+Transparent setup (no trusted setup) - Public parameters can be generated without a secret setup trapdoor that someone must be trusted to destroy. It does not mean that proving uses no randomness or that the system has no public parameters. The [Halo 2 book](https://zcash.github.io/halo2/background/pc-ipa.html#setup) gives an example of public group parameters.
 
 
 **Types of SNARK proof constructions**:

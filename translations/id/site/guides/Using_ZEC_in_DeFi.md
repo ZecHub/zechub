@@ -260,7 +260,7 @@ Pelajari Lebih Lanjut: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken
 
 [Morpho](https://markets.morpho.org/fixed) adalah protokol pinjaman terdesentralisasi yang menyediakan pasar pinjaman dengan efisiensi modal tinggi.
 
-[Clearstar Labs](clearstar.xyz) memperkenalkan cbAssets Vault melalui Morpho, yang memungkinkan aset seperti cbZEC digunakan dalam pasar pinjaman.
+[Clearstar Labs](https://clearstar.xyz) memperkenalkan cbAssets Vault melalui Morpho, yang memungkinkan aset seperti cbZEC digunakan dalam pasar pinjaman.
 
 Melalui vault ini, pengguna dapat:
 

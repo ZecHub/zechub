@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Страница Edihttps://github.com/ZecHub/zechub/pull/2238t"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Редактировать страницу"/>
 </a>
 
 # Направляйте трафик кошелька Zcash через Mixnet Nym
@@ -13,7 +13,7 @@ Nym добавляет отдельный уровень конфиденциа�
 1. **Предпочитайте встроенную интеграцию Nym в кошельке, если она доступна.**
 2. В противном случае используйте **системный режим Mixnet NymVPN**, чтобы сетевой трафик кошелька направлялся через Nym без зависимости от поддержки прокси конкретным кошельком.
 
-Общие сведения о VPN и dVPN см. в разделе [VPN и dVPN](./VPN_and_DVPN.md).
+Общие сведения о VPN и dVPN см. в разделе [VPN и dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## Что добавляет Nym — и чего он не делает
 

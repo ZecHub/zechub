@@ -36,6 +36,36 @@ Heartwood adalah satu langkah dalam rangkaian peningkatan Zcash, di mana masing-
 
 ![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## TL;DR
+
+- Heartwood diaktifkan pada blok mainnet 903.000 (16 Juli 2020 UTC), diterapkan oleh ZIP 250 dengan consensus branch id baru untuk perlindungan replay dua arah.
+- ZIP 213 (Coinbase Terlindungi): transaksi coinbase dapat berisi output Sapling, sehingga penambang dapat menerima imbalan blok langsung ke alamat terlindungi.
+- ZIP 221 (FlyClient): hashLightClientRoot pada header kini dikomit ke Merkle Mountain Range, sehingga light client dapat memverifikasi proof-of-work dengan proof yang ukurannya hanya bertambah secara logaritmik.
+- Output coinbase transparan tetap didukung sepenuhnya. Coinbase terlindungi adalah opsi baru, bukan kewajiban.
+- Aktivasi terjadi pada ketinggian blok, bukan pada waktu jam tertentu, sehingga menit pastinya berbeda antar-dashboard dan zona waktu.
+
+## Penjelasan Inti
+
+Sebelum Heartwood, ZEC yang baru dicetak milik seorang penambang harus mengawali keberadaannya di alamat transparan, sehingga siapa pun dapat mengamati pendapatan penambang dan melacak ke mana dana tersebut mengalir. ZIP 213 melonggarkan aturan konsensus sehingga transaksi coinbase dapat membayar ke output Sapling, menjaga bayaran penambang tetap privat sejak saat pertama keberadaannya. Aturan ini secara khusus menargetkan Sapling karena pembuktian Sapling yang efisien membuat proses melindungi dana di dalam coinbase menjadi praktis; proof Sprout yang berat tidak memungkinkan untuk digunakan di sana.
+
+ZIP 221 mengubah fungsi field header hashFinalSaplingRoot menjadi hashLightClientRoot. Field ini kini melakukan commit terhadap Merkle Mountain Range yang dibangun dari data header blok-blok sebelumnya, yaitu timestamp, target kesulitan, root Sapling, akumulasi kerja, dan jumlah transaksi. Dengan begitu, light client atau chain lain dapat memverifikasi proof-of-work Zcash menggunakan proof berukuran kecil tanpa harus mengunduh setiap blok.
+
+## Analogi visual
+
+Sebelumnya, setiap hari gajian penambang diumumkan di papan pengumuman publik, sehingga jumlah dan jejaknya dapat dibaca oleh siapa saja. Sesudahnya, gaji dapat tiba dalam amplop tertutup. Selain itu, setiap blok baru kini membawa segel lilin ringkas yang merangkum semua blok sebelumnya, sehingga orang asing dapat memastikan seluruh rantai kerja hanya dengan sekali lihat tanpa harus membaca setiap halaman.
+
+## Pendalaman
+
+Perubahan aturan ini memiliki sejarah: Sapling telah memperluas larangan awal terhadap coinbase terlindungi agar juga mencakup output Sapling, dan Heartwood mencabut pembatasan tersebut sehingga output tersebut diizinkan. Ini adalah contoh nyata bagaimana infrastruktur dari satu peningkatan jaringan menjadi fondasi bagi peningkatan berikutnya. Komitmen MMR memberikan manfaat pada dompet ringan dan integrasi lintas rantai, karena sebelumnya verifikasi kerja Zcash mengharuskan pengunduhan seluruh rantai. Consensus branch id yang ditambahkan saat aktivasi memberikan perlindungan replay dua arah: transaksi yang dibuat berdasarkan aturan baru tidak dapat diputar ulang di rantai lama, begitu pula sebaliknya.
+
+## Kesalahan Umum
+
+- **Mengira coinbase terlindungi menjadi wajib.** Output coinbase transparan tetap valid; penambang yang memilih.
+- **Menganggap Sprout dapat menerima coinbase terlindungi.** Hanya output Sapling yang diizinkan, karena pembuatan proof Sprout terlalu boros sumber daya.
+- **Meyakini bahwa FlyClient menghilangkan kebutuhan akan full node.** Ia melayani light client dan pemverifikasi lintas chain; full node tetap menjadi jangkar jaringan.
+- **Mencari waktu aktivasi pada jam yang tetap.** Aktivasi ditetapkan pada blok 903.000, sehingga menit aktivasinya menurut jam dinding bervariasi.
+- **Mengacaukan hashLightClientRoot dengan hashFinalSaplingRoot yang lama.** Field yang sama digunakan kembali untuk tujuan lain dan diganti namanya.
+
 ## Glosarium
 
 | Istilah | Makna dalam Bahasa Inggris Sederhana |
@@ -95,5 +125,12 @@ Dompet [](../using-zcash/wallets)
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Halaman Terkait
+
+- [Sapling](./Sapling.md) — mekanisme efisien yang membuat coinbase terlindungi menjadi mungkin
+- [Canopy](./Canopy.md) — peningkatan berikutnya dalam rangkaian ini
+- [Full Node](./Full_Nodes.md) — apa yang masih diberikan oleh verifikasi penuh
+- [Apa yang Dapat Dilihat oleh Block Explorer](./What_a_Block_Explorer_Can_See.md) — apa yang diungkapkan oleh coinbase transparan dibandingkan coinbase terlindungi
 
 Seri: Indeks Peningkatan Jaringan [](../start-here/network-upgrades) · Sebelumnya: [Blossom](../zcash-tech/blossom) · Berikutnya: [Canopy](../zcash-tech/canopy)

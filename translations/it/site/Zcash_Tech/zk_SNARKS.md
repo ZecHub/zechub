@@ -148,13 +148,13 @@ Le procedure di configurazione aiutano il verificatore riassumendo un circuito e
 
 **Tipi di configurazione con pre-elaborazione**:
 
-Trusted setup per circuito - Viene eseguito una volta per ciascun circuito. È specifico per un circuito e la casualità segreta (Common Reference String) deve essere mantenuta segreta e distrutta. 
+Trusted setup per circuito - Viene eseguito separatamente per ciascun circuito. La stringa di riferimento comune (CRS) risultante contiene parametri pubblici utilizzati dai prover e dai verifier. È il materiale segreto intermedio della configurazione ("scorie tossiche"), non il CRS, che deve essere mantenuto segreto e distrutto. La [spiegazione dei parametri pubblici](https://zodl.com/snark-parameters/) di ECC distingue i due.
 
-Una configurazione compromessa con questo metodo significa che un dimostratore disonesto può dimostrare affermazioni false. 
+Se il materiale segreto necessario per il setup viene conservato o recuperato, un dimostratore disonesto potrebbe essere in grado di produrre prove di affermazioni false. In una cerimonia MPC, la sicurezza può dipendere dal fatto che almeno un partecipante segua il protocollo e distrugga il proprio contributo segreto.
 
-Trusted setup universale - È necessario eseguire il trusted setup una sola volta e poi è possibile pre-elaborare deterministicamente più circuiti. 
+Trusted setup universale - Un singolo trusted setup produce parametri che possono essere usati per derivare chiavi di prova e verifica per più circuiti entro i limiti di dimensione supportati. Questo comporta comunque un'ipotesi di distruzione del segreto; universale non significa trasparente.
 
-Setup trasparente (nessun trusted setup)- L'algoritmo di pre-elaborazione non utilizza alcuna casualità segreta. 
+Setup trasparente (nessun trusted setup) - I parametri pubblici possono essere generati senza una trapdoor segreta che bisogna confidare che qualcuno distrugga. Ciò non significa che la generazione delle prove non utilizzi casualità o che il sistema non disponga di parametri pubblici. Il [Halo libro 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) fornisce un esempio di parametri pubblici di gruppo.
 
 
 **Tipi di costruzioni di prove SNARK**:
@@ -222,9 +222,9 @@ Per approfondire:
 
 ## Pagine correlate
 
-- [Pool schermate](/using-zcash/shielded-pools) — Come gli zk-SNARK vengono utilizzati nelle pool di valore di Zcash
-- [Halo](/zcash-tech/halo) — Il sistema zk-SNARK di Zcash che elimina le configurazioni fidate
+- [Pool schermate](/using-zcash/shielded-pools) — Come gli zk-SNARKs vengono utilizzati nelle pool di valore di Zcash
+- [Halo](/zcash-tech/halo) — Il sistema zk-SNARK di Zcash che elimina i trusted setup
 - [Sicurezza post-quantistica in Zcash](/zcash-tech/post-quantum-security) - Come i futuri rischi quantistici si relazionano alla crittografia di Zcash
-- [Zcash Asset schermati](/zcash-tech/zcash-shielded-assets) — ZSA costruiti sulla tecnologia zk-SNARK
+- [Zcash Asset schermati](/zcash-tech/zcash-shielded-assets) — ZSA basati sulla tecnologia zk-SNARK
 - [Cos'è ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introduzione a Zcash e al suo modello di privacy
 - [Chi può vedere il tuo pagamento Zcash?](/start-here/who-can-see-your-zcash-payment) — Cosa rimane pubblico e cosa nasconde la schermatura

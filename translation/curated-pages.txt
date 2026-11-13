@@ -174,12 +174,14 @@ Zcash_Tech/zk_SNARKS.md
 Zcash_Use_Cases/About.md
 Zcash_Use_Cases/Accept_Payments_As_A_Merchant.md
 Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md
+Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md
 Zcash_Use_Cases/Freelance_Privacy_Setup.md
 Zcash_Use_Cases/Journalist_Privacy_Setup.md
 Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md
 Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md
 Zcash_Use_Cases/Private_Community_Treasury.md
 Zcash_Use_Cases/Receive_Donations_Privately.md
+Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md
 Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md
 Zcash_Use_Cases/Sign_in_With_Zcash.md
 Zcash_Use_Cases/Where_To_Donate_ZEC.md
@@ -190,6 +192,7 @@ contribute/Style_Guide.md
 contribute/ZecHub_DAO.md
 contribute/ZecWeekly_Newsletter.md
 footer.md
+guides/Akash_Network_Zakura.md
 guides/Akash_Network_Zcashd.md
 guides/Akash_Network_Zebra.md
 guides/Avalanche_RedBridge.md
@@ -211,6 +214,7 @@ guides/Raspberry_Pi_4_Full_Node.md
 guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md
 guides/Raspberry_pi_4_Zebra_Node.md
 guides/ShapeShift_Zcash.md
+guides/Thus_Spoke_Zakura_Akash.md
 guides/Using_ZEC_Privately.md
 guides/Using_ZEC_in_DeFi.md
 guides/Verifying_Zcash_Releases.md
@@ -220,6 +224,7 @@ guides/Visualizing_the_Zcash_Network.md
 guides/Ywallet_FROST_Demo.md
 guides/Zcash_Devtool.md
 guides/Zcash_Improvement_Proposals.md
+guides/Zcash_Js.md
 guides/Zcash_Node_RPC_and_Indexing.md
 guides/Zenith_Installation.md
 guides/Zero-Knowledge_vs_Decoys.md

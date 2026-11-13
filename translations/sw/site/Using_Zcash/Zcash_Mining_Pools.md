@@ -10,19 +10,6 @@ Mabwawa ya uchimbaji ya Zcash ni huduma zinazowaruhusu wachimbaji [miners] binaf
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Tovuti: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Malipo ya faragha: NDIYO
-- Aina ya bwawa: Malipo kwa kila hisa
-- Ada [fee] ya bwawa: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Mabwawa ya uchimbaji ya Zcash ni huduma zinazowaruhusu wachimbaji [miners] binaf
 - Malipo ya faragha: NDIYO
 - Aina ya bwawa: Malipo kwa kila hisa
 - Ada ya bwawa: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Tovuti: [Flypool](https://zcash.flypool.org/)
-- Malipo ya faragha: NDIYO
-- Aina ya bwawa: Malipo kwa hisa N za mwisho 
-- Ada ya bwawa: 1%
 
 ---
 
@@ -163,3 +137,11 @@ Mabwawa ya uchimbaji ya Zcash ni huduma zinazowaruhusu wachimbaji [miners] binaf
 - Malipo ya faragha: NDIYO
 - Aina ya bwawa: Malipo kwa hisa N za mwisho (PPLNS)
 - Ada ya bwawa: 1%
+
+---
+
+## Mabwawa ya zamani ya Zcash
+
+### Bwawa la Slush (Braiins Pool)
+
+Braiins Pool si chaguo la sasa la uchimbaji wa Zcash. [Maswali yake rasmi yanayoulizwa mara kwa mara kuhusu bwawa](https://academy.braiins.com/braiins-pool/faqs/pool) yanaorodhesha Bitcoin kama sarafu inayotumika, na yanaeleza kwamba haina mpango wa kutumia altcoins (ilikaguliwa tarehe 12 Novemba 2026).

@@ -1,15 +1,28 @@
-# **Swap de SOL/USDC -> ZEC con Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+</a>
 
+# Swap de SOL/USDC a ZEC usando encrypt.trade
+
+> Haz swap de SOL o USDC en Solana a ZEC, con el paso cross-chain enrutado a través de NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Haz swap de Solana a Zcash, con el paso cross-chain enrutado a través de NEAR Intents.*  
+---
+
+## Resumen (TL;DR)
+
+* [encrypt.trade](https://encrypt.trade/zec) envuelve SOL o USDC en tokens cifrados (eSOL/eUSDC) y luego hace el swap a ZEC a través de NEAR Intents.
+* Los montos están ocultos en Solana, pero la dirección de tu billetera y su uso de la aplicación son públicos.
+* ZEC se entrega solo a una dirección transparente (t1/t3), por lo que es visible en la red de Zcash hasta que lo blindes.
+* Blinda los ZEC en tu billetera en cuanto lleguen.
+* Tanto la aplicación como NEAR Intents revisan las billeteras por motivos de cumplimiento normativo.
 
 ---
 
-###  Introducción  
-[**encrypt.trade**](https://encrypt.trade/zec) es una app de Solana gestionada por JMD Labs Inc. Te permite hacer swap de **SOL o USDC** en Solana a **Zcash (ZEC)**. Tus tokens primero se envuelven en versiones cifradas para que los importes queden ocultos en Solana y luego se intercambian por ZEC a través de NEAR Intents.
+## Explicación principal
+[**encrypt.trade**](https://encrypt.trade/zec) es una app de Solana gestionada por JMD Labs Inc. Te permite hacer swap de **SOL o USDC** en Solana a **Zcash (ZEC)**. Primero, tus tokens se envuelven en versiones cifradas para que los importes queden ocultos en Solana, y luego se intercambian por ZEC a través de NEAR Intents.
 
 El swap ofrece privacidad [privacy] en algunos aspectos, pero no en todos. La documentación de la propia app [docs](https://docs.encifher.io/docs) indica que tu interacción con la cadena [chain] no es anónima: las personas pueden ver que tu billetera [wallet] usó la app, pero no cuánto moviste. El ZEC también llega a una dirección transparente [transparent], por lo que permanece visible en la red Zcash hasta que lo blindes.
 

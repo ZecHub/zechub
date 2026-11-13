@@ -260,7 +260,7 @@
 
 تُعد [Morpho](https://markets.morpho.org/fixed) بروتوكول إقراض لامركزي يوفر سوق إقراض عالي الكفاءة في رأس المال.
 
-تقدم [Clearstar Labs](clearstar.xyz) خزينة cbAssets عبر Morpho، مما يتيح استخدام أصول مثل cbZEC في سوق الإقراض.
+تقدم [Clearstar Labs](https://clearstar.xyz) خزينة cbAssets عبر Morpho، مما يتيح استخدام أصول مثل cbZEC في سوق الإقراض.
 
 من خلال هذه الخزينة، يمكن للمستخدمين:
 

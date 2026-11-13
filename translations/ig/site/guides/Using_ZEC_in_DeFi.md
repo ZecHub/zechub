@@ -260,7 +260,7 @@ Mụtakwuo: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833589fC
 
 [Morpho](https://markets.morpho.org/fixed) bụ protocol mgbazinye ego decentralized na-enye ahịa mgbazinye ego na-arụ ọrụ nke ọma nke ukwuu n'isi ego.
 
-[Clearstar Labs](clearstar.xyz) na-ewebata cbAssets Vault site na Morpho, na-eme ka e jiri akụ dịka cbZEC n'ahịa mgbazinye ego.
+[Clearstar Labs](https://clearstar.xyz) na-ewebata cbAssets Vault site na Morpho, na-eme ka e jiri akụ dịka cbZEC n'ahịa mgbazinye ego.
 
 Site na vault a, ndị ọrụ nwere ike:
 

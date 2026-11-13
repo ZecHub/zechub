@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Ledger Nke e chebere echebe [Shielded] ZEC Nduzi Onye Ọrụ
+
+> Jide, nata ma zipu ZEC nzuzo (nke e chebere echebe) [private (shielded)] site na hardware wallet Ledger gị na Ledger Wallet Desktop.
+
+## Na nchịkọta
+
+* Kemgbe 23 Septemba 2026, Ledger Wallet Desktop na-akwado ZEC nke e chebere echebe [shielded]. Otu akaụntụ Zcash nwere nguzozi Oha [transparent] na nguzozi nzuzo n'ime pool Ironwood.
+* Maka Desktop naanị ugbu a. Ekwuputala nkwado Mobile dị ka …na-abịa n’oge adịghị anya….
+* Ị chọrọ Nano S Plus, Nano X, Stax ma ọ bụ Flex (ọ bụghị Nano S mbụ), Ledger Wallet Desktop 4.21+ na ngwa Zcash kachasị ọhụrụ.
+* Pịa **Kwado nke e chebere echebe** otu ugboro: Ledger gị na-ebupụ viewing key ka ngwa desktop wee nwee ike ịchọta ego nzuzo gị. Igodo ego [spending keys] anaghị ahapụ ngwaọrụ ahụ.
+* Nata ego na Adreesị akpa ego nzuzo (u1...) mgbe ị nwere ike. Ibufe ZEC site na nguzozi Oha gị gaa na nke nzuzo na-arụ ọrụ, mana ọ na-ejikọta ha abụọ.
+* A na-enyocha ma bịanye aka na izipu ọ bụla na ihuenyo Ledger. Lelee Adreesị akpa ego ebe ahụ, mkpụrụedemede site na mkpụrụedemede.
+
+## Nkọwa Isianyịahịa
+
+Zcash nwere ụdị nha ego abụọ. Oha [Transparent] ZEC (t1 Adreesị akpa ego) na-arụ ọrụ dịka Bitcoin: ego ole na Adreesị akpa ego bụ nke ọhaneze. Nke e chebere echebe [Shielded] ZEC dị na pool nke e chebere echebe, ebe a na-ezo onye zitere, onye natara na ego ole na on-chain.
+
+Ledger na-edobe Igodo ego gị na ngwaọrụ hardware. Iji gosi nguzozi nzuzo, Ledger Wallet Desktop chọrọ Unified Full Viewing Key (UFVK). Ngwaọrụ ahụ na-ebupụ ya otu ugboro, ngwa desktọọpụ ahụ ejiri ya nyochaa blockchain maka note gị nke e chebere echebe. viewing key nwere ike ịhụ akụkọ ihe mere eme gị nke e chebere echebe ma enweghị ike imefu ego, ya mere were ya dịka ozi nzuzo.
+
+Nzọụkwụ ndị dị n'okpuru na-ekpuchi itinye ngwa Zcash, ịgbakwunye akaụntụ, ime ka nguzozi nzuzo rụọ ọrụ, ịnata, ichebe ZEC Oha [transparent], na izipu site na nguzozi nzuzo.
+
+## Nchịkọta
 
 N'ụbọchị 23 Septemba 2026, Ledger gbakwụnyere ZEC nke e chebere echebe n'onwe ya na Ledger Wallet Desktop. Otu akaụntụ Zcash na-ejide ugbu a nguzozi Oha na nguzozi nzuzo n'ime pool Ironwood nke Zcash. Igodo nzuzo gị na-anọgide na Ledger gị, a na-enyochakwa ma bịanye aka na Azụmahia [transaction] ọ bụla n'elu ngwaọrụ ahụ.
 

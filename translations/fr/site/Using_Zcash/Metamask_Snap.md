@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+</a>
+
 # Guide d’intégration du Snap Zcash pour MetaMask
+
+> Détenez et envoyez des ZEC protégés depuis l’extension de navigateur MetaMask, en utilisant le Zcash Snap de ChainSafe et le portefeuille web WebZjs.
+
+## TL;DR
+
+* L’ChainSafe Zcash Snap ajoute des ZEC blindés à MetaMask sur ordinateur (Chrome, Edge, Firefox). Aucun logiciel Zcash distinct n’est nécessaire.
+* Vos clés Zcash sont dérivées de votre phrase de récupération MetaMask. Cette seule phrase protège désormais à la fois vos ETH et vos ZEC.
+* Vous gérez ZEC via le wallet WebZjs sur webzjs.chainsafe.dev, et non dans la propre liste d’actifs de MetaMask.
+* Votre compte reçoit une adresse unifiée, afin que les expéditeurs vous paient depuis le pool le plus privé qu’ils prennent en charge.
+* Approvisionnez-le en effectuant un swap (par exemple d’ETH vers ZEC) ou en retirant des ZEC depuis un exchange vers votre adresse blindée.
+* Récupération : réinstallez MetaMask et l’Snap, puis importez votre phrase de récupération existante.
+
+## Explication fondamentale
+
+Un MetaMask Snap est un petit module complémentaire sandboxé qui permet à MetaMask de prendre en charge une nouvelle blockchain. Le Zcash Snap, développé par ChainSafe et audité par Hacken, permet à MetaMask de dériver des clés Zcash à partir de votre phrase de récupération existante et de signer des transactions Zcash.
+
+MetaMask n’affiche pas lui-même de solde ZEC. À la place, le wallet web WebZjs se connecte à Snap, se synchronise avec le réseau Zcash via un serveur lightwalletd et affiche vos adresses et votre solde. Les preuves blindées sont calculées dans votre navigateur avec WebAssembly, c’est pourquoi les envois peuvent prendre un moment.
+
+Les étapes ci-dessous couvrent l’installation de Snap, la connexion de WebZjs, l’approvisionnement du wallet, l’envoi et la réception de fonds, ainsi que la vérification des différentes parties de votre adresse unifiée.
+
+## Guide complet
 
 Pour un guide complet et une explication visuelle, regardez ce [**guide YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw) : 
 

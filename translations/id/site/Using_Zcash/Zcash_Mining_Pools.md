@@ -10,19 +10,6 @@ Pool penambangan Zcash adalah layanan yang memungkinkan penambang individu untuk
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- Website: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Pembayaran Privat: YA
-- Tipe Pool: Pay Per Share
-- Biaya pool: 2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Pool penambangan Zcash adalah layanan yang memungkinkan penambang individu untuk
 - Pembayaran Privat: YA
 - Tipe Pool: Pay Per Share
 - Biaya pool: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Website: [Flypool](https://zcash.flypool.org/)
-- Pembayaran Privat: YA
-- Tipe Pool: Pay Per Last N
-- Biaya pool: 1%
 
 ---
 
@@ -163,5 +137,15 @@ Pool penambangan Zcash adalah layanan yang memungkinkan penambang individu untuk
 - Pembayaran Privat: YA
 - Tipe Pool: Pay Per Last N Shares (PPLNS)
 - Biaya Pool: 1%
+
+
+
+---
+
+## Bekas pool Zcash
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool saat ini bukan pilihan penambangan Zcash. [FAQ pool resminya](https://academy.braiins.com/braiins-pool/faqs/pool) mencantumkan Bitcoin sebagai koin yang didukung dan menyatakan bahwa pool ini tidak berencana mendukung altcoin (dicek pada 12 November 2026).
 
 

@@ -21,7 +21,7 @@ Data inapopitia seva au intaneti, hukabiliwa na mambo mengi yanayoifanya iwe rah
 
 **Zcash Jumbe Zilizosimbwa Fiche**
 
-Zcash Pochi [wallets] za Kompyuta ya Mezani na Simu zina kipengele kilichojengewa ndani kinachowaruhusu watumiaji kutuma jumbe zilizosimbwa fiche kwa miamala ya faragha [shielded transactions]. Ukubwa wa ujumbe unaweza kuwa hadi baiti 512 kwa kila muamala, huku ada za miamala zikiwa chini ya senti 1 ya Marekani. Kwa sababu ya namna inayohifadhi faragha ambayo miamala hugunduliwa na muda wa block wa mtandao, jumbe zinaweza kuchukua hadi dakika 1 au zaidi kupokelewa. 
+Zcash Pochi (wallets) zinazotumia jumbe za faragha (shielded memos) huwaruhusu watumiaji kuambatisha jumbe zilizosimbwa fiche kwenye malipo ya faragha. Kila tokeo la faragha (shielded output) lina sehemu yake ya ujumbe ya baiti 512; hiki si kiwango kimoja cha baiti 512 kwa muamala mzima. Tazama [Jumbe](/using-zcash/memos) kwa muundo wa maandishi na pochi zinazoziunga mkono. Ada za miamala hulipwa kwa ZEC, na [ZIP 317](https://zips.z.cash/zip-0317) inafafanua ada ya kawaida inayotegemea ugumu wa muamala. Gharama kwa dola za Marekani pia hubadilika kulingana na kiwango cha ubadilishaji cha ZEC, kwa hivyo ada iliyo chini ya senti 1 ya Marekani haihakikishwi. Kagua makadirio ya ada yanayotolewa na pochi kabla ya kutuma. Kufika kwa ujumbe kunategemea usambazaji wa muamala kwenye mtandao, sera ya uthibitisho na usawazishaji wa pochi ya mpokeaji; si gumzo la papo hapo.
 
 Ijaribu: https://z.cash/wallets 
 

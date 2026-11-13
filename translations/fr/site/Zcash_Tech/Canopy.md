@@ -44,6 +44,36 @@ Canopy a également commencé à retirer progressivement le plus ancien pool pro
 
 En plus des changements de financement, Canopy comprenait deux ZIP techniques plus modestes. [ZIP 212](https://zips.z.cash/zip-0212) a modifié la façon dont un destinataire dérive le secret éphémère Sapling, en le dérivant à partir du texte en clair de la note. [ZIP 215](https://zips.z.cash/zip-0215) a défini des règles explicites pour valider les signatures Ed25519, afin que chaque nœud s’accorde exactement sur les signatures considérées comme valides.
 
+## En bref
+
+- Canopy (NU4) a été activé au bloc 1 046 400 du mainnet (18 novembre 2020 UTC), le même bloc que la première réduction de moitié de Zcash, qui a fait passer la récompense de bloc de 6,25 à 3,125 ZEC.
+- Il a mis fin à la récompense des fondateurs et créé le Development Fund de Zcash : 20 % de chaque récompense de bloc pendant quatre ans, jusqu’à la deuxième réduction de moitié en 2024 (politique ZIP 1014 ; mécanisme ZIP 207/214).
+- Les 20 % du fonds sont répartis ainsi : 35 % pour Bootstrap (Electric Coin Company), 25 % pour la Zcash Foundation et 40 % pour les Major Grants, connus plus tard sous le nom de Zcash Community Grants.
+- Il a fermé le pool Sprout aux nouvelles valeurs (ZIP 211) : aucun nouveau dépôt ne peut y entrer, mais les retraits restent possibles.
+- Deux ZIPs techniques l’ont accompagné : ZIP 212 (secret éphémère Sapling dérivé du texte en clair de la note) et ZIP 215 (règles explicites de validation Ed25519).
+
+## Explication de base
+
+Zcash finance son propre développement grâce aux récompenses de bloc, car aucune entreprise ne le soutient. La récompense des fondateurs a couvert les premières années et devait prendre fin au premier halving : un mécanisme de remplacement devait donc exister avant cette échéance. Canopy a été ce remplacement : la ZIP 207 a introduit le mécanisme général de flux de financement, qui oriente une partie de la subvention de bloc vers des adresses de destinataires définies, et la ZIP 214 a fixé les règles et les adresses spécifiques du Fonds de développement. Rapportées à la récompense totale plutôt qu'au seul fonds, les parts sont de 7 % pour ECC, 5 % pour Zcash Foundation et 8 % pour les Major Grants : ce sont les mêmes chiffres, exprimés de deux manières.
+
+Canopy a également commencé à retirer Sprout, le plus ancien pool blindé de Zcash : dès l’activation, le champ vpub_old de chaque JoinSplit doit être nul, de sorte que des fonds peuvent quitter Sprout mais ne peuvent jamais y revenir.
+
+## Analogie visuelle
+
+Canopy marque le moment où la phase de salaire des fondateurs d'une startup prend fin et où une constitution prend le relais : à partir de ce bloc, 20 centimes de chaque dollar émis par le réseau sont réservés à la maintenance et répartis à 35/25/40 entre trois départements. Au même moment, l'ancien entrepôt (Sprout) est fermé à tout nouveau stockage : chacun peut toujours récupérer ses marchandises, mais plus rien de nouveau n'y entre.
+
+## Analyse approfondie
+
+Le funding stream est imposé par le consensus, et non par la confiance : les nœuds rejettent les blocs dont la coinbase ne verse pas aux destinataires définis les parts qui leur reviennent. Canopy a été délibérément activé sur le bloc du halving, de sorte que les mineurs ont vu la récompense divisée par deux au moment même où une nouvelle part de cette récompense réduite commençait à financer le développement. Le ZIP 212 a modifié la manière dont le secret éphémère Sapling est dérivé (à partir du texte en clair de la note), et le ZIP 215 a formalisé des règles d'acceptation Ed25519 explicites afin que chaque nœud valide les signatures de manière identique. Ces petits changements ont éliminé des catégories entières d'ambiguïtés de consensus.
+
+## Erreurs courantes
+
+- **Croire que Canopy est la réduction de moitié elle-même.** Ils partageaient le même bloc d’activation, mais ce sont des changements distincts : ZIP 251 (Canopy) d’un côté, le calendrier d’émission de l’autre.
+- **Interpréter les 20 % comme prélevés sur la nouvelle part des mineurs.** Les mineurs ont conservé 80 % ; le fonds prend 20 % de la récompense de bloc.
+- **Supposer que les fonds Sprout ont été gelés ou détruits.** Les retraits restent possibles ; seuls les nouveaux dépôts ont cessé.
+- **Considérer « 35/25/40 du fonds » et « 7/5/8 de la récompense » comme des répartitions différentes.** Ce sont les mêmes chiffres, mesurés par rapport à des bases différentes.
+- **Qualifier Canopy de mise à niveau cryptographique.** Il s’agissait principalement de gouvernance et de politique monétaire ; les ZIPs techniques n’étaient que des ajustements mineurs.
+
 ## Glossaire
 
 | Terme | Signification en français courant |
@@ -108,5 +138,12 @@ La récompense des fondateurs d’origine devait prendre fin lors de la premièr
 [Gouvernance de Zcash](../zcash-community/zcash-governance)
 
 ---
+
+## Pages connexes
+
+- [Sprout](./Sprout.md) — le pool que Canopy a fermé aux nouveaux dépôts
+- [Heartwood](./Heartwood.md) — la mise à niveau précédente de la série
+- [NU5](./NU5.md) — la mise à niveau suivante, qui a lancé Orchard
+- [NU6.1](./NU6_1.md) — le perfectionnement le plus récent du financement du développement
 
 Série : [Index des mises à niveau réseau](../start-here/network-upgrades) · Précédent : [Heartwood](../zcash-tech/heartwood) · Suivant : [NU5](../zcash-tech/nu5)

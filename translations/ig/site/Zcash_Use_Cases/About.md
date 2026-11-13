@@ -50,6 +50,11 @@ Nabata ZEC nke e chebere echebe dịka 501(c)(3) ma ka na-enye ndị na-enye ony
 ###  [Ebe A Ga-enye Onyinye ZEC](/zcash-use-cases/where-to-donate-zec)
 Chọta òtù na-adịghị erite uru ndị na-anabata ZEC, na ndị n’ime ha na-anabata onyinye nke e chebere echebe
 
+###  [Mee Mkpọsa Nchịkọta Ego ZEC](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Chịkọta ZEC maka otu ebumnuche, gosi ọganihu ndị na-enye onyinye nwere ike ịtụkwasị obi, ma debe onyinye ọ bụla na Nzuzo
+###  [Nye ZEC Onyinye ma Nweta Mbelata Ụtụ Isi US](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Nye ZEC na nzuzo ma ka nweta akwụkwọ ndị ị chọrọ iji wepụ ya n'ụtụ isi gị
+
 ###  [Nhazi Nzuzo Maka Onye Odeakụkọ](/zcash-use-cases/journalist-privacy-setup)   
 Jiri Adreesị akpa ego nke e chebere echebe maka Azụmahia niile ma chekwaa ndị isi mmalite site n’izere Kwụọ ụhwọ a pụrụ ịchọpụta. Jiri memo nke ọma maka nkwukọrịta echekwara
 

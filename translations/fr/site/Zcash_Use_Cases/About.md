@@ -50,6 +50,11 @@ Acceptez des ZEC protégés en tant qu'organisation 501(c)(3), tout en fournissa
 ###  [Où faire un don ZEC](/zcash-use-cases/where-to-donate-zec)
 Trouvez des organisations à but non lucratif qui acceptent ZEC et découvrez lesquelles acceptent les dons protégés
 
+###  [Mener une campagne de collecte de fonds en ZEC](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Collectez des ZEC pour un objectif unique, affichez une progression à laquelle les donateurs peuvent se fier et gardez chaque don confidentiel
+###  [Faire un don en ZEC et obtenir une déduction fiscale aux États-Unis](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Donnez des ZEC en toute confidentialité tout en obtenant les justificatifs nécessaires pour les déduire
+
 ###  [Configuration de confidentialité pour les journalistes](/zcash-use-cases/journalist-privacy-setup)   
 Utilisez des adresses protégées pour toutes les transactions et protégez vos sources en évitant les paiements traçables. Utilisez les mémos avec précaution pour une communication sécurisée
 

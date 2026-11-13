@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Nym Mixnet के माध्यम से Zcash Wallet ट्रैफ़िक रूट करें
@@ -13,7 +13,7 @@ Nym एक अलग नेटवर्क-गोपनीयता परत �
 1. **जहाँ उपलब्ध हो, wallet के मूल Nym एकीकरण को प्राथमिकता दें।**
 2. अन्यथा, **सिस्टम-स्तरीय NymVPN Mixnet मोड** का उपयोग करें, ताकि wallet का नेटवर्क ट्रैफ़िक wallet-विशिष्ट proxy समर्थन पर निर्भर हुए बिना Nym के माध्यम से रूट हो।
 
-सामान्य VPN और dVPN पृष्ठभूमि के लिए, [VPN & dVPN](./VPN_and_DVPN.md) देखें।
+सामान्य VPN और dVPN पृष्ठभूमि के लिए, [VPN और dVPN](../Privacy_Tools/VPN_and_DVPN.md) देखें।
 
 ## Nym क्या जोड़ता है — और क्या नहीं
 

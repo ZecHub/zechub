@@ -10,19 +10,6 @@ Zcash 挖矿池是允许个人矿工结合其计算能力（算力 [hashrate]）
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- 网站：[Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- 私密支付 [Private Payouts]：是
-- pool 类型：按份额支付 [Pay Per Share]
-- pool 手续费：2%
-
----
-
 ### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
@@ -33,19 +20,6 @@ Zcash 挖矿池是允许个人矿工结合其计算能力（算力 [hashrate]）
 - 私密支付：是
 - pool 类型：按份额支付
 - pool 手续费：3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- 网站：[Flypool](https://zcash.flypool.org/)
-- 私密支付：是
-- pool 类型：按最后 N 份额支付 [Pay Per Last N]
-- pool 手续费：1%
 
 ---
 
@@ -163,3 +137,11 @@ Zcash 挖矿池是允许个人矿工结合其计算能力（算力 [hashrate]）
 - 私密支付：是
 - pool 类型：按最后 N 份额支付 (PPLNS)
 - pool 手续费：1%
+
+---
+
+## 过往的 Zcash pool
+
+### Slush Pool（Braiins Pool）
+
+Braiins Pool 目前不是 Zcash 挖矿（mining）的可选方案。其[官方 pool 常见问题](https://academy.braiins.com/braiins-pool/faqs/pool)列出的支持币种为 Bitcoin，并表示没有支持山寨币的计划（2026 年 11 月 12 日核实）。

@@ -148,13 +148,13 @@ Setup procedures verifier की सहायता करती हैं, circ
 
 **Pre-processing setup के प्रकार**:
 
-Trusted Setup per circuit - प्रत्येक circuit के लिए एक बार चलाया जाता है। यह circuit-specific होता है और secret randomness (Common Reference String) को गोपनीय रखा जाना चाहिए तथा नष्ट कर देना चाहिए। 
+प्रति circuit Trusted setup - प्रत्येक circuit के लिए अलग से चलाया जाता है। परिणामी common reference string (CRS) में provers और verifiers द्वारा उपयोग किए जाने वाले सार्वजनिक parameters होते हैं। CRS नहीं, बल्कि गुप्त intermediate setup material ("toxic waste") को गोपनीय रखा जाना चाहिए और नष्ट कर देना चाहिए। ECC की [public-parameter explanation](https://zodl.com/snark-parameters/) दोनों के बीच अंतर स्पष्ट करती है।
 
-इस method में compromised setup का अर्थ है कि कोई dishonest prover false statements को सिद्ध कर सकता है। 
+यदि आवश्यक गुप्त सेटअप सामग्री को रखा या पुनर्प्राप्त किया जाता है, तो एक बेईमान prover झूठे कथनों के proofs बना सकता है। MPC ceremony में सुरक्षा इस बात पर निर्भर हो सकती है कि कम-से-कम एक प्रतिभागी protocol का पालन करे और अपना गुप्त योगदान नष्ट कर दे।
 
-Trusted but Universal Setup - trusted setup केवल एक बार चलाना होता है और उसके बाद deterministically कई circuits का preprocess किया जा सकता है। 
+विश्वसनीय लेकिन सार्वभौमिक सेटअप - एकल विश्वसनीय सेटअप ऐसे पैरामीटर उत्पन्न करता है जिनका उपयोग समर्थित आकार सीमाओं के भीतर कई सर्किटों के लिए proving और verification keys प्राप्त करने हेतु किया जा सकता है। इसमें अभी भी secret-destruction की धारणा शामिल है; universal का अर्थ transparent नहीं है।
 
-Transparent Setup (No Trusted Setup)- preprocessing algorithm किसी भी secret randomness का उपयोग नहीं करता। 
+पारदर्शी सेटअप (कोई विश्वसनीय सेटअप नहीं) - सार्वजनिक पैरामीटर किसी गुप्त सेटअप trapdoor के बिना उत्पन्न किए जा सकते हैं, जिसे नष्ट करने के लिए किसी पर भरोसा करना पड़ता है। इसका अर्थ यह नहीं है कि proving में randomness का उपयोग नहीं होता या सिस्टम में कोई सार्वजनिक पैरामीटर नहीं है। [Halo 2 पुस्तक](https://zcash.github.io/halo2/background/pc-ipa.html#setup) सार्वजनिक समूह पैरामीटरों का एक उदाहरण देती है।
 
 
 **SNARK proof constructions के प्रकार**:

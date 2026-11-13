@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Guia de integração do MetaMask Zcash Snap
+
+> Mantenha e envie ZEC blindado da extensão do navegador MetaMask, usando Zcash Snap da ChainSafe e a carteira web WebZjs.
+
+## TL;DR
+
+* O ChainSafe Zcash Snap adiciona ZEC blindado ao MetaMask no desktop (Chrome, Edge, Firefox). Não é necessário nenhum software Zcash separado.
+* Suas chaves Zcash são derivadas da sua frase de recuperação MetaMask. Essa única frase agora protege tanto o seu ETH quanto o seu ZEC.
+* Você gerencia ZEC pela carteira WebZjs em webzjs.chainsafe.dev, não na própria lista de ativos do MetaMask.
+* Sua conta recebe um endereço unificado, para que os remetentes paguem você usando o pool mais privado compatível.
+* Financie-a fazendo uma conversão (por exemplo, de ETH para ZEC) ou sacando ZEC de uma corretora para seu endereço blindado.
+* Recuperação: reinstale MetaMask e o Snap, depois importe sua frase de recuperação existente.
+
+## Explicação principal
+
+Um MetaMask Snap é um pequeno complemento isolado em sandbox que ensina MetaMask a lidar com uma nova blockchain. O Zcash Snap, desenvolvido por ChainSafe e auditado pela Hacken, permite que MetaMask derive chaves Zcash da sua frase de recuperação existente e assine transações Zcash.
+
+MetaMask em si não mostra saldo de ZEC. Em vez disso, a carteira web WebZjs conecta-se ao Snap, sincroniza-se com a rede Zcash por meio de um servidor lightwalletd e mostra seus endereços e saldo. As provas blindadas são calculadas no seu navegador com WebAssembly, por isso os envios podem levar um momento.
+
+As etapas abaixo abrangem a instalação de Snap, a conexão de WebZjs, a adição de fundos à carteira, o envio e o recebimento e a verificação das partes do seu endereço unificado.
+
+## Guia completo
 
 Para um passo a passo completo e uma explicação visual, assista a este [**guia no YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 

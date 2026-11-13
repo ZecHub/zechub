@@ -148,13 +148,13 @@ Setup-Verfahren helfen dem Verifier, indem sie einen Schaltkreis zusammenfassen 
 
 **Arten von Pre-Processing-Setups**:
 
-Trusted Setup pro Schaltkreis – Wird einmal pro Schaltkreis ausgeführt. Es ist schaltkreisspezifisch, und die geheime Zufälligkeit (Common Reference String) muss geheim gehalten und zerstört werden. 
+Trusted Setup pro Schaltkreis – Wird für jeden Schaltkreis separat durchgeführt. Der resultierende Common Reference String (CRS) enthält öffentliche Parameter, die von Beweisführern und Verifizierern verwendet werden. Das geheime Zwischenmaterial des Setups („toxischer Abfall“), nicht der CRS, muss geheim gehalten und zerstört werden. ECC's [Erläuterung zu öffentlichen Parametern](https://zodl.com/snark-parameters/) unterscheidet die beiden.
 
-Ein kompromittiertes Setup in dieser Methode bedeutet, dass ein unehrlicher Prover falsche Aussagen beweisen kann. 
+Wenn das erforderliche geheime Setup-Material aufbewahrt oder wiederhergestellt wird, kann ein unehrlicher Prover möglicherweise Beweise für falsche Aussagen erzeugen. Bei einer MPC-Zeremonie kann die Sicherheit davon abhängen, dass mindestens ein Teilnehmer dem Protokoll folgt und seinen geheimen Beitrag zerstört.
 
-Trusted but Universal Setup – Das Trusted Setup muss nur einmal ausgeführt werden und kann danach mehrere Schaltkreise deterministisch vorverarbeiten. 
+Vertrauenswürdiges, aber universelles Setup – Ein einzelnes Trusted Setup erzeugt Parameter, aus denen innerhalb der unterstützten Größengrenzen Beweis- und Verifizierungsschlüssel für mehrere Schaltkreise abgeleitet werden können. Dies setzt weiterhin die Vernichtung eines Geheimnisses voraus; universell bedeutet nicht transparent.
 
-Transparentes Setup (Kein Trusted Setup) – Der Vorverarbeitungsalgorithmus verwendet überhaupt keine geheime Zufälligkeit. 
+Transparentes Setup (kein Trusted Setup) - Öffentliche Parameter können ohne eine geheime Setup-Hintertür erzeugt werden, deren Zerstörung jemandem anvertraut werden muss. Das bedeutet nicht, dass die Beweiserzeugung keine Zufälligkeit verwendet oder das System keine öffentlichen Parameter hat. Das [Halo 2 Buch](https://zcash.github.io/halo2/background/pc-ipa.html#setup) liefert ein Beispiel für öffentliche Gruppenparameter.
 
 
 **Arten von SNARK-Beweiskonstruktionen**:

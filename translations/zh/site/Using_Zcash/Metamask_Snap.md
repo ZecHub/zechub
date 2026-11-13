@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # MetaMask Zcash Snap 集成指南
+
+> 通过 MetaMask 浏览器扩展，使用 ChainSafe 的 Zcash Snap 和 WebZjs 网页钱包持有并发送屏蔽 [shielded] ZEC。
+
+## 简而言之
+
+* ChainSafe Zcash Snap 可在桌面端（Chrome、Edge、Firefox）将屏蔽 ZEC 添加至 MetaMask。无需另行安装 Zcash 软件。
+* 您的 Zcash 密钥由您的 MetaMask 恢复短语派生。这个短语现可同时保护您的 ETH 和 ZEC。
+* 您可通过 webzjs.chainsafe.dev 上的 WebZjs 钱包管理 ZEC，而不是在 MetaMask 自身的资产列表中管理。
+* 您的账户会获得一个统一地址（unified address），因此发送者会在其支持的隐私性最高的 pool 中向您付款。
+* 可通过兑换（swap）（例如将 ETH 兑换为 ZEC），或从交易所将 ZEC 提取到您的屏蔽地址，为其注资。
+* 恢复：重新安装 MetaMask 和 Snap，然后导入您现有的恢复短语。
+
+## 核心说明
+
+MetaMask Snap 是一个小型的沙盒化附加组件，可让 MetaMask 支持新的 blockchain。由 ChainSafe 构建并经 Hacken 审计的 Zcash Snap，可让 MetaMask 从您现有的恢复短语中派生 Zcash 密钥，并签署 Zcash 交易 [transactions]。
+
+MetaMask 本身不显示 ZEC 余额。相反，WebZjs 网页钱包连接到 Snap，通过 lightwalletd 服务器与 Zcash 网络同步，并显示您的地址和余额。屏蔽证明 (Shielded proofs) 在您的浏览器中借助 WebAssembly 计算，因此发送可能需要一点时间。
+
+以下步骤涵盖安装 Snap、连接 WebZjs、向钱包[wallet]充值、发送和接收，以及检查统一地址[unified address]的各个部分。
+
+## 完整指南 [Full Guide]
 
 如需完整演示和视觉说明，请观看此[**YouTube指南**](https://www.youtube.com/watch?v=UJh9Ilkohdw)： 
 

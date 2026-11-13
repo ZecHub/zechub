@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
 # Δρομολόγησε την κίνηση του πορτοφολιού Zcash μέσω του Mixnet Nym
@@ -13,7 +13,7 @@
 1. **Προτίμησε την εγγενή ενσωμάτωση Nym ενός πορτοφολιού, όταν υπάρχει.**
 2. Διαφορετικά, χρησιμοποίησε τη **λειτουργία Mixnet NymVPN σε επίπεδο συστήματος**, ώστε η κίνηση δικτύου του πορτοφολιού να δρομολογείται μέσω του Nym χωρίς να εξαρτάται από υποστήριξη proxy ειδική για το πορτοφόλι.
 
-Για γενικές πληροφορίες για VPN και dVPN, δες το [VPN & dVPN](./VPN_and_DVPN.md).
+Για γενικές πληροφορίες για VPN και dVPN, δες το [VPN και dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## Τι προσθέτει το Nym — και τι δεν προσθέτει
 

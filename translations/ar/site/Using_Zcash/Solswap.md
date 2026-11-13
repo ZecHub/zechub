@@ -4,7 +4,7 @@
 
 ![img1](/content-images/SJOlnt-ceg-34468cfecd.webp)
 
-هل تحتفظ بالفعل بـ ZEC على سولانا (على سبيل المثال من رمز مميز يدفع لحامليه بـ ZEC)؟ لا تبادله. انقل ذلك الرمز المميز إلى محفظة Zcash محمية باستخدام [هل لديك ZEC على سولانا؟ انقله إلى Zcash محمية](/using-zcash/solana-zec-to-shielded).
+هل تحتفظ بالفعل بـ ZEC على Solana (على سبيل المثال من رمز مميز يدفع لحامليه بـ ZEC)؟ لا تبادله. انقل ذلك الرمز المميز إلى محفظة Zcash محمية باستخدام [هل لديك ZEC على Solana؟ انقله إلى Zcash محمية](/using-zcash/solana-zec-to-shielded).
 
 ---
 
@@ -45,7 +45,7 @@
 
 
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

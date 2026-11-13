@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Sayfası"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
 # Zcash Cüzdan Trafiğini Nym Mixnet Üzerinden Yönlendirin
@@ -13,7 +13,7 @@ Nym ayrı bir ağ gizliliği katmanı ekler. Eylül 2026 itibarıyla en iyi yakl
 1. **Mevcut olduğunda cüzdanın yerel Nym entegrasyonunu tercih edin.**
 2. Aksi hâlde, cüzdana özgü proxy desteğine bağlı kalmadan cüzdanın ağ trafiğinin Nym üzerinden yönlendirilmesi için **sistem düzeyinde NymVPN Mixnet modunu** kullanın.
 
-Genel VPN ve dVPN bilgileri için [VPN & dVPN](./VPN_and_DVPN.md) bölümüne bakın.
+Genel VPN ve dVPN bilgileri için [VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md) bölümüne bakın.
 
 ## Nym ne ekler — ve ne eklemez
 

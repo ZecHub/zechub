@@ -8,6 +8,19 @@ Ironwood, Temmuz 2026 ağ yükseltmesiyle gelen korumalı havuzdur. Yalnızca ş
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- Web sitesi: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- İşlem çiftleri: ZEC/BTC
+- Destekler: Şeffaf
+- Yatırma Süresi: Yaklaşık 30 dakika (24 onay)
+- Ironwood: Geçerli değil, yalnızca şeffaf adresler
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

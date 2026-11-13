@@ -28,15 +28,15 @@ Halo est un système sans confiance de preuve à divulgation nulle de connaissan
 
 ### Aucune configuration de confiance
 
-zk-SNARKs reposent sur une chaîne de référence commune (CRS) comme paramètre public pour prouver et vérifier. Cette CRS doit être générée à l'avance par une partie de confiance. Jusqu'à récemment, des calculs multipartites sécurisés (MPC) élaborés — tels que ceux réalisés par le réseau Aztec et Zcash — étaient nécessaires pour atténuer le risque associé à cette [cérémonie de configuration de confiance](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
+Certaines constructions zk-SNARK, comme Groth16, nécessitent une configuration de confiance pour générer leurs paramètres publics, souvent appelés chaîne de référence commune (CRS). La CRS est partagée avec les prouveurs et les vérificateurs ; ce n'est pas le secret qui doit être détruit. Le matériel intermédiaire secret (« déchets toxiques ») produit par une telle configuration doit être supprimé. Un calcul multipartite sécurisé peut répartir cette confiance : la cérémonie est sécurisée si au moins un participant suit le protocole et détruit sa contribution secrète. Voir l'[explication de ECC sur les paramètres publics et les déchets toxiques](https://zodl.com/snark-parameters/).
 
-Les précédents pools protégés Sprout et Sapling de Zcash utilisaient les systèmes de preuve zk BCTV14 et Groth16. Bien que ceux-ci fussent sécurisés, ils présentaient des limites : ils n'étaient pas évolutifs car liés à une seule application, les « déchets toxiques » (résidus de matériel cryptographique généré lors de la cérémonie de genèse) pouvaient persister, et il existait un élément de confiance (bien que minime) pour considérer la cérémonie comme acceptable.
+Les précédents pools protégés Sprout et Sapling de Zcash utilisaient respectivement les systèmes de preuve à configuration de confiance BCTV14 et Groth16. Leurs paramètres publics restent disponibles pour la génération et la vérification de preuves. La préoccupation est de savoir si le matériel secret de configuration a été conservé, ce qui pourrait permettre de créer de fausses preuves ; la publication du CRS lui-même est attendue et ne révèle pas ce matériel secret.
 
-Halo élimine la configuration de confiance en regroupant à plusieurs reprises plusieurs instances de problèmes difficiles sur des cycles de courbes elliptiques, afin que les preuves computationnelles puissent être utilisées efficacement pour raisonner sur elles-mêmes (amortissement imbriqué). Un effet secondaire est que la chaîne de référence structurée (le résultat d'une cérémonie) devient évolutive, permettant des applications telles que les contrats intelligents.
+Halo combine la composition récursive de preuves avec un schéma d'engagement polynomial fondé sur un argument de produit interne. Ses paramètres publics ne nécessitent ni cérémonie de configuration de confiance ni destruction d'une trappe secrète de configuration. Le livre [Halo 2 décrit ces paramètres de groupe publics](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Cela diffère du fait de rendre évolutive une chaîne de référence structurée générée lors d'une cérémonie.
 
-Halo offre aux utilisateurs deux assurances importantes quant à la sécurité d'un système de preuve à divulgation nulle de connaissance à grande échelle. Premièrement, il permet aux utilisateurs de prouver qu'aucune personne impliquée dans la cérémonie de genèse n'a créé de porte dérobée secrète pour exécuter des transactions frauduleuses. Deuxièmement, il permet aux utilisateurs de démontrer que le système est resté sécurisé au fil du temps, même lorsqu'il a subi des mises à jour et des changements.
+La suppression de cette exigence de configuration évite de dépendre de la destruction du matériel secret de la cérémonie pour les preuves Halo. Elle ne prouve pas qu’une cérémonie antérieure Sprout ou Sapling n’a pas été compromise, ni ne certifie que toutes les modifications ultérieures du protocole sont sécurisées. Les preuves récursives attestent des calculs encodés dans leurs circuits, selon les hypothèses du système de preuve. Des circuits et des implémentations corrects restent essentiels ; l’explication de ECC sur le déploiement de [Halo 2](https://zodl.com/technical-explainer-halo-on-zcash/) mentionne explicitement le risque de nouveaux bugs ou défauts de conception.
 
-[Sean BoweL'explication de Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[L'explication de Sean Bowe chez Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
 ---
 
@@ -50,7 +50,7 @@ Halo transforme chaque document vérifié en tampon sur le document *suivant*, j
 
 ### Pourquoi supprimer la configuration de confiance est important
 
-Dans les anciens systèmes, le « sceau » (la CRS) provenait d'une cérémonie. Les participants devaient détruire le matériel intermédiaire, et chacun devait leur faire confiance pour cela. Le sceau de Halo est produit par les mathématiques seules : il n'y a rien à détruire, rien à divulguer et aucune cérémonie à laquelle faire confiance.
+Dans les anciens systèmes à configuration de confiance, le « sceau » public (la CRS) provenait d'une cérémonie. Les participants devaient détruire leur matériel intermédiaire secret tout en maintenant les paramètres publics disponibles. Halo évite cette cérémonie et la trappe secrète de sa configuration. Cela ne supprime pas la nécessité de protéger les clés de dépense des utilisateurs ni de vérifier les hypothèses et l'implémentation du système de preuve.
 
 ---
 
@@ -120,7 +120,7 @@ En outre, Halo 2 est sous les [licences open source MIT et Apache 2.0](https://g
 | Croyance courante | Ce qui est réellement le cas |
 | --- | --- |
 | « Halo est une future mise à niveau que Zcash attend. » | Orchard, actif sur le mainnet depuis NU5 (2022), fonctionne déjà sur Halo 2. |
-| « Aucune configuration de confiance signifie aucun paramètre. » | Halo utilise toujours des paramètres structurés ; la différence est qu'ils ne comportent aucun déchet toxique et peuvent être générés et mis à niveau sans cérémonie à laquelle les participants doivent faire confiance. |
+| « Aucune configuration de confiance signifie aucun paramètre. » | Halo utilise toujours des paramètres publics. Ils ne nécessitent pas de cérémonie lors de laquelle les participants doivent être dignes de confiance pour détruire le matériel secret de configuration. |
 | « Halo 2 et l'article Halo sont la même chose. » | L'[article](https://eprint.iacr.org/2019/1021.pdf) décrit le schéma d'engagement polynomial et l'amortissement imbriqué ; Halo 2 est l'implémentation Rust de production avec un schéma d'accumulation et une arithmétisation PLONKish. |
 | « La récursivité n'aide qu'à faire évoluer la vérification des blocs. » | La récursivité compresse aussi les calculs au niveau de l'application — voir les preuves d'espace-temps/réplication de Filecoin et les travaux sur les VDF pour Ethereum. |
 

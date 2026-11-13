@@ -148,13 +148,13 @@ Les procédures de setup aident le vérificateur en résumant un circuit et en p
 
 **Types de setup de prétraitement** :
 
-Trusted Setup par circuit - Est exécutée une fois par circuit. Elle est spécifique à un circuit et l’aléa secret (Common Reference String) doit rester secret et être détruit. 
+Trusted setup par circuit - Exécutée séparément pour chaque circuit. La common reference string (CRS) qui en résulte contient des paramètres publics utilisés par les prouveurs et les vérificateurs. C’est le matériel de configuration intermédiaire secret (« déchets toxiques »), et non la CRS, qui doit être gardé secret et détruit. L’explication de ECC sur les [paramètres publics](https://zodl.com/snark-parameters/) distingue les deux.
 
-Un setup compromis dans cette méthode signifie qu’un prouveur malhonnête peut prouver de fausses affirmations. 
+Si le matériel de setup secret requis est conservé ou récupéré, un prouveur malhonnête peut être en mesure de produire des preuves de fausses affirmations. Lors d’une cérémonie MPC, la sécurité peut dépendre du fait qu’au moins un participant respecte le protocole et détruise sa contribution secrète.
 
-Trusted Setup universelle - Il suffit d’exécuter la trusted setup une seule fois, puis il est possible de prétraiter de manière déterministe plusieurs circuits. 
+Configuration de confiance mais universelle - Une unique trusted setup produit des paramètres permettant de dériver des clés de preuve et de vérification pour plusieurs circuits, dans les limites de taille prises en charge. Cela suppose toujours la destruction d’un secret ; universelle ne signifie pas transparente.
 
-Setup transparente (sans trusted setup)- L’algorithme de prétraitement n’utilise aucun aléa secret. 
+Setup transparente (sans setup de confiance) - Les paramètres publics peuvent être générés sans trappe secrète de configuration qu’une personne doit être digne de confiance pour détruire. Cela ne signifie pas que la preuve n’utilise aucun aléa ou que le système ne dispose d’aucun paramètre public. Le [Halo livre 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) donne un exemple de paramètres de groupe publics.
 
 
 **Types de constructions de preuves SNARK** :

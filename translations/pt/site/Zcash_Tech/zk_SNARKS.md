@@ -148,13 +148,13 @@ Procedimentos de configuração ajudam o verificador resumindo um circuito e ger
 
 **Tipos de configuração de pré-processamento**:
 
-Configuração confiável por circuito - É executada uma vez por circuito. É específica para um circuito e a aleatoriedade secreta (Common Reference String) deve ser mantida em segredo + destruída. 
+Configuração confiável por circuito - Executada separadamente para cada circuito. A common reference string (CRS) resultante contém parâmetros públicos usados por provadores e verificadores. É o material secreto intermediário da configuração ("toxic waste"), e não a CRS, que deve ser mantido em segredo e destruído. A [explicação sobre parâmetros públicos](https://zodl.com/snark-parameters/) de ECC distingue os dois.
 
-Uma configuração comprometida nesse método significa que um provador desonesto pode provar afirmações falsas. 
+Se o material secreto necessário para a configuração for mantido ou recuperado, um provador desonesto poderá produzir provas de afirmações falsas. Em uma cerimônia de MPC, a segurança pode depender de pelo menos um participante seguir o protocolo e destruir sua contribuição secreta.
 
-Configuração confiável, mas universal - Só precisa executar uma configuração confiável uma vez e depois consegue pré-processar deterministicamente múltiplos circuitos. 
+Configuração confiável, mas universal - Uma única configuração confiável produz parâmetros que podem ser usados para derivar chaves de prova e verificação para múltiplos circuitos dentro dos limites de tamanho suportados. Isso ainda pressupõe a destruição do segredo; universal não significa transparente.
 
-Configuração transparente (sem configuração confiável)- O algoritmo de pré-processamento não usa nenhuma aleatoriedade secreta. 
+Configuração transparente (sem configuração confiável) - Parâmetros públicos podem ser gerados sem uma trapdoor secreta de configuração cuja destruição seja preciso confiar a alguém. Isso não significa que a geração de provas não use aleatoriedade ou que o sistema não tenha parâmetros públicos. O [Halo livro 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) apresenta um exemplo de parâmetros públicos de grupo.
 
 
 **Tipos de construções de provas SNARK**:

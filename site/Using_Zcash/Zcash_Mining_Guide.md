@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash Mining Guide: Joining a Mining Pool with Personal Hardware
+
+> Point your GPU or ASIC at a pool, share the work with other miners, and get steady ZEC payouts instead of waiting years for a solo block.
+
+## TL;DR
+
+* Zcash uses Equihash proof of work. ASICs dominate the network, so GPUs are mainly for hobbyists and testing.
+* Solo mining rarely finds a block for small setups. A pool combines hashrate and pays you a share of each block it finds.
+* You need three things: a Zcash wallet address for payouts, mining hardware, and mining software (or the ASIC's built-in dashboard).
+* Pools differ by fee (about 0-2%), payout method (PPLNS, PPS+), minimum payout and server location.
+* Check profitability first: electricity price, hardware cost and the ZEC price decide whether mining pays at all.
+* Advanced route: run your own Zebra node and mine against its `getblocktemplate` RPC.
+
+## Core Explanation
+
+Mining is how new Zcash blocks get made. Miners race to solve an Equihash puzzle; the first valid solution adds the next block and earns the block reward. The more hashrate you contribute, the more often you win, but against today's network a single home rig would almost never win on its own.
+
+A mining pool fixes that. The pool hands each miner smaller pieces of work called shares. Every accepted share proves you contributed hashrate. When anyone in the pool finds a block, the reward is split according to shares, and you get paid automatically once your balance passes the pool's minimum.
+
+The setup has five parts, covered step by step below:
+
+1. A wallet address to receive payouts.
+2. Hardware: GPUs in a PC, or an Equihash ASIC.
+3. A pool account (or just your address, for pools without registration).
+4. Mining software pointed at the pool's stratum server, with `YOUR_ADDRESS.WORKER_NAME` as the user name.
+5. Monitoring: accepted shares, hashrate, temperature and unpaid balance.
 
 ## Introduction
 
@@ -107,17 +136,6 @@ Mining pools distribute work and share rewards based on your contributed hashrat
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
-## Sovright: Testnet Pool and Relay Network
-
-Sovright (sovright.com) runs a Stratum V2 mining pool and a separate block relay network. They do different jobs, so they are covered separately below.
-
-### Mining Pool (mining.sovright.com)
-
-Sovright's pool runs on a public Zcash testnet (NU6, Stratum V2), not mainnet. The testnet does not pay out real ZEC. Use it to test your miner configuration, not to earn.
-
-- No account is required to start. Point a CPU or ASIC Equihash miner at the pool and your shares show up on a live dashboard.
-- Sovright also publishes an open source Stratum V2 proxy for miners who want to choose their own block templates instead of just taking the pool's jobs:
-
 ### Monitoring Foundry Zcash Pool
 
 For Foundry Zcash Pool users:
@@ -136,6 +154,19 @@ Recommended monitoring practices:
 - Compare ASIC dashboard hashrate with Foundry reported hashrate.
 - Investigate rejected shares, stale shares, or connection instability.
 - Maintain stable network connectivity because downtime reduces submitted shares and potential rewards.
+
+
+## Sovright: Testnet Pool and Relay Network
+
+Sovright (sovright.com) runs a Stratum V2 mining pool and a separate block relay network. They do different jobs, so they are covered separately below.
+
+### Mining Pool (mining.sovright.com)
+
+Sovright's pool runs on a public Zcash testnet (NU6, Stratum V2), not mainnet. The testnet does not pay out real ZEC. Use it to test your miner configuration, not to earn.
+
+- No account is required to start. Point a CPU or ASIC Equihash miner at the pool and your shares show up on a live dashboard.
+- Sovright also publishes an open source Stratum V2 proxy for miners who want to choose their own block templates instead of just taking the pool's jobs:
+
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra

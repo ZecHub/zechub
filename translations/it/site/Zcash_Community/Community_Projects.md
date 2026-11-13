@@ -60,7 +60,7 @@ Piattaforma di coinvolgimento e ricompense della community progettata per le com
 
 ### Hub dei finanziamenti di Zcash
 Dashboard dei finanziamenti incentrata sulla community, progettata per semplificare la scoperta, il monitoraggio e la revisione dei finanziamenti di Zcash. Riunisce in un unico luogo richieste di finanziamento, traguardi, budget, discussioni e analisi, recuperando dati in tempo reale dal repository Zcash Community Grants di GitHub. La piattaforma mira a offrire un'esperienza più chiara e intuitiva a candidati, membri del comitato e revisori della community.  
-[Visita](https://staging.zgrantshub.com/)
+[Visita](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Piattaforma AI che offre accesso a diversi modelli AI leader, supportando al con
 ### zk.poker
 Piattaforma di poker peer-to-peer che combina crittografia end-to-end, mental poker e tecnologia per la privacy di Zcash. È progettata affinché l'operatore non debba conoscere le carte dei giocatori né detenere direttamente i fondi delle scommesse.  
 [Visita](https://zkbtc.org/)
+
+### ZKöy
+Un party game in stile Lupus per gruppi riuniti nella stessa stanza. I giocatori si uniscono dal proprio telefono; ogni scelta notturna e ogni voto vengono sigillati come memo schermato sulla testnet di Zcash e, alla fine della partita, vengono rivelati il seed, il salt e le chiavi di visualizzazione, così chiunque può verificare il risultato on-chain.  
+[Visita](https://zkoy.fun)
 
 ---
 

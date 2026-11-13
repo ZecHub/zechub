@@ -148,13 +148,13 @@ Taratibu za usanidi humsaidia mthibitishaji kwa kufupisha saketi na kutoa vigezo
 
 **Aina za usanidi wa uchakataji wa awali**:
 
-Usanidi Unaaminika kwa kila saketi - Huendeshwa mara moja kwa kila saketi. Ni mahususi kwa saketi na unasibishaji wa siri (Common Reference String) lazima ubaki siri + uangamizwe. 
+Usanidi unaoaminika [trusted setup] kwa kila saketi - Huendeshwa kando kwa kila saketi. Mfuatano wa marejeleo wa pamoja (CRS) unaotokana una vigezo vya umma vinavyotumiwa na wathibitishaji na wahakiki. Ni nyenzo ya siri ya usanidi wa kati (“taka hatari”), si CRS, ambayo lazima iwe siri na iangamizwe. Maelezo ya ECC kuhusu [vigezo vya umma](https://zodl.com/snark-parameters/) yanatofautisha hayo mawili.
 
-Usanidi ulioathiriwa kwa njia hii unamaanisha kuwa mtoa thibitisho asiye mwaminifu anaweza kuthibitisha kauli za uongo. 
+Iwapo nyenzo za usanidi wa siri zinazohitajika [required secret setup material] zitahifadhiwa au kurejeshwa, mtoa thibitisho asiye mwaminifu anaweza kuweza kutengeneza thibitisho [proofs] za kauli za uongo. Katika sherehe ya MPC, usalama unaweza kutegemea angalau mshiriki mmoja kufuata itifaki na kuharibu mchango wake wa siri.
 
-Usanidi Unaaminika lakini wa Jumla - Unahitaji tu kuendesha usanidi unaoaminika mara moja na unaweza kisha kuchakata mapema saketi nyingi kwa njia bainifu. 
+Usanidi unaoaminika [trusted setup] lakini wa jumla - Usanidi mmoja unaoaminika huzalisha vigezo vinavyoweza kutumika kupata funguo za kuthibitisha na za uhakiki kwa saketi nyingi ndani ya mipaka ya ukubwa inayoungwa mkono. Hili bado linategemea dhana kwamba siri imeharibiwa; wa jumla haimaanishi uwazi.
 
-Usanidi Wazi (Hauna Usanidi Unaaminika)- Algoriti ya uchakataji wa awali haitumii unasibishaji wowote wa siri. 
+Usanidi wa uwazi [Transparent setup] (bila usanidi unaoaminika [trusted setup]) - Vigezo vya umma vinaweza kuzalishwa bila ufunguo fiche wa usanidi wa siri ambao mtu lazima aaminike kuuharibu. Hii haimaanishi kwamba utoaji wa thibitisho hautumii unasibu wa nasibu au kwamba mfumo hauna vigezo vya umma. Kitabu cha [Halo 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) kinatoa mfano wa vigezo vya umma vya kundi.
 
 
 **Aina za miundo ya thibitisho la SNARK**:

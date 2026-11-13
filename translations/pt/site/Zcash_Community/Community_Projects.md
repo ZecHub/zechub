@@ -60,7 +60,7 @@ Plataforma de engajamento comunitário e recompensas projetada para comunidades 
 
 ### Hub de subsídios do Zcash
 Painel de subsídios focado na comunidade, projetado para simplificar como os subsídios do Zcash são descobertos, acompanhados e revisados. Reúne solicitações de subsídios, marcos, orçamentos, discussões e análises em um só lugar, extraindo dados em tempo real do repositório GitHub da Zcash Community Grants. A plataforma visa proporcionar uma experiência mais clara e intuitiva para candidatos, membros do comitê e revisores da comunidade.  
-[Visite](https://staging.zgrantshub.com/)
+[Visite](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Plataforma de IA que fornece acesso a vários modelos líderes de IA e suporta p
 ### zk.poker
 Uma plataforma de pôquer peer-to-peer que combina criptografia end-to-end, mental poker e tecnologia de privacidade do Zcash. Foi projetada para que o operador não precise conhecer as cartas dos jogadores nem manter diretamente os fundos das apostas.  
 [Visite](https://zkbtc.org/)
+
+### ZKöy
+Um jogo de festa no estilo Lobisomem para grupos na mesma sala. Os jogadores entram pelo celular; cada escolha noturna e cada voto são selados como um memorando blindado na testnet do Zcash e, quando o jogo termina, a seed, o salt e a chave de visualização são revelados para que qualquer pessoa possa verificar o resultado on-chain.  
+[Visitar](https://zkoy.fun)
 
 ---
 

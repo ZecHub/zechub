@@ -70,7 +70,7 @@ Le decisioni vengono scritte nella specifica e ratificate on-chain quando la ret
 
 Leggi prima [la nostra guida ai block explorer](/guides/blockchain-explorers). Poi controlla [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Le transazioni scadono dopo circa 25 minuti (20 blocchi) e i fondi vengono restituiti automaticamente.
+Non esiste una scadenza fissa di 25 minuti né un timer di rimborso automatico. Controlla l'altezza di scadenza registrata dal tuo portafoglio e verifica se il pagamento originale è stato minato. Se è scaduto senza essere minato, non è stato regolato on-chain; la scadenza non crea una transazione di rimborso. Lascia che il portafoglio si sincronizzi prima di seguire le sue indicazioni per ritentare. Consulta [la risoluzione dei problemi delle transazioni](/using-zcash/transactions#troubleshooting-stuck-transactions) e [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Motivi comuni per cui una transazione potrebbe non comparire:**
 
