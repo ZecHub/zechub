@@ -1,4 +1,4 @@
-# Zcash Biblioteca [Library]
+# Biblioteca [Library] de Zcash
 
 Un glosario completo de términos, conceptos y recursos clave relacionados con Zcash. Esta es la biblioteca única para buscar términos de notas de lanzamiento, hilos de foros o registros de cambios de billeteras [wallet changelogs].
 

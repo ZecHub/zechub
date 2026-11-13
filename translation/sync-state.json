@@ -9455,7 +9455,7 @@
       "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -16975,7 +16975,7 @@
       "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {

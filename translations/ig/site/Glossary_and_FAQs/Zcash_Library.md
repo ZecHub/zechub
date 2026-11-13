@@ -1,4 +1,4 @@
-# Zcash Ọbá akwụkwọ
+# Ọbá akwụkwọ Zcash
 
 Nkowa okwu zuru oke nke isiokwu, echiche, na akụrụngwa ndị metụtara Zcash. Nke a bụ otu ọbá akwụkwọ maka ịchọ okwu sitere na ndetu mwepụta, mkparịta ụka ọgbakọ, ma ọ bụ ndekọ mgbanwe e-akpa ego.
 
