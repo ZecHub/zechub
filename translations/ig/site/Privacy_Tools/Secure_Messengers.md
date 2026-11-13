@@ -21,7 +21,7 @@ Ka data na-agafe na sava ma ọ bụ n'ịntanetị, ọ na-eche ọtụtụ ihe
 
 **Zcash memo Ederede Ezoro Ezo [Encrypted Memos]**
 
-Zcash e-akpa ego Desktop & Mobile nwere njirimara arụnyere n'ime ya nke na-enye ndị ọrụ ohere izipu ozi ezoro ezo site na Azụmahia nke e chebere echebe nkeonwe. Ogo memo/ozi nwere ike iru byte 512 n'Azụmahia ọ bụla, ebe ugwo Azụmahia na-erughị 1 US cent. N'ihi ụzọ e si achọpụta Azụmahia nke na-echekwa Nzuzo na oge block nke netwọk, ozi nwere ike iwe nkeji 1 ma ọ bụ karịa tupu a nata ya.
+Zcash e-akpa ego ndị na-akwado memo nke e chebere echebe (shielded) na-enye ndị ọrụ ohere itinye ozi e ji Nzobe ederede (encryption) chekwaa na Kwụọ ụhwọ (payment) nke e chebere echebe. Mmepụta (output) ọ bụla nke e chebere echebe nwere ebe memo nke ya nke ruru byte 512; nke a abụghị otu ohere byte 512 maka Azụmahia (transaction) ahụ dum. Lee [Memos](/using-zcash/memos) maka ụdị ederede na e-akpa ego ndị na-akwado ya. A na-akwụ ugwo (fee) Azụmahia na ZEC, ma [ZIP 317](https://zips.z.cash/zip-0317) na-akọwa ugwo a na-ejikarị eme ihe, nke dabere n'otú Azụmahia ahụ si dị mgbagwoju anya. Ọnụ ahịa ya na US dollar na-agbanwekwa dịka ọnụego exchange nke ZEC si gbanwe, ya mere enweghị nkwa na ugwo ga-erughị 1 US cent. Biko lelee ugwo e-akpa ego ahụ gosiri tupu i zipu. Inweta ozi dabere n'ịgbasa Azụmahia ahụ na netwọk, iwu nkwenye, na e-akpa ego onye nnata imekọrịta (sync) data; ọ bụghị nkata na-abịa ozugbo.
 
 Nwaa ya: https://z.cash/wallets 
 

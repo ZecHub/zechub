@@ -50,6 +50,11 @@ Accetta ZEC schermati come ente 501(c)(3) e continua a fornire ai donatori le ri
 ###  [Dove donare ZEC](/zcash-use-cases/where-to-donate-zec)
 Trova organizzazioni non profit che accettano ZEC e scopri quali accettano donazioni schermate
 
+###  [Organizza una campagna di raccolta fondi in ZEC](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Raccogli ZEC per un unico obiettivo, mostra progressi di cui i donatori possano fidarsi e mantieni private tutte le donazioni
+###  [Dona ZEC e ottieni una deduzione fiscale negli Stati Uniti](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Dona ZEC in modo privato e ottieni comunque la documentazione necessaria per dedurre la donazione
+
 ###  [Configurazione privacy per giornalisti](/zcash-use-cases/journalist-privacy-setup)   
 Usa indirizzi schermati per tutte le transazioni e proteggi le fonti evitando pagamenti tracciabili. Usa i memo con attenzione per una comunicazione sicura
 

@@ -64,36 +64,72 @@ Akụkụ dị mkpa bụ na Zcash na-ahapụ gị ikpebi nke ị ga-eziga, Kwụ
 
 ## Ugwo Zcash
 
-Zcash anaghị eji nkeji gas ụdị Ethereum. A na-akwụ ugwo Azụmahia Zcash na ZEC, nke a na-atụkarị na **zatoshis**. Otu ZEC hà zatoshis 100,000,000.
+Kwe ka e-akpa ego gị gbakọọ ugwo netwọk, ma nyochaa ya tupu i zipu. A na-akwụ ugwo na ZEC: **1 ZEC = zatoshis 100,000,000**. Ugwo a gbakọrọ na dollar US na-adaberekwa na ọnụego exchange nke ZEC.
 
-[ZIP 317](https://zips.z.cash/zip-0317) na-akọwa usoro ugwo a na-ahụkarị nke na-agbaso mgbagwoju anya Azụmahia. Kama ka Azụmahia ọ bụla jiri ugwo ochie a kapịrị ọnụ nke zatoshis 1,000, ugwo a na-ahụkarị dabere na “omume ezi uche” dịka ntinye, mmepụta, na omume echebere echebe. Azụmahia dị mfe na-amalitekarị n'ihe dị ka zatoshis 10,000, ma ọ bụ 0.0001 ZEC, Azụmahia ndị dị mgbagwoju anya nwekwara ike ịchọ karịa.
+### Ihe mere Kwụọ ụhwọ abụọ nwere ike inwe ugwo dị iche iche
 
-N'ọtụtụ e-akpa ego ugbu a, ndị ọrụ ekwesịghị ịgbakọ ugwo ZIP 317 n'onwe ha. E-akpa ego kwesịrị ịhọrọ ugwo dabara adaba n'onwe ya. Ọ bụrụ na e-akpa ego ka na-eji ugwo ochie a kapịrị ọnụ ma ọ bụ kwe ka ị tọọ ugwo dị anya n'okpuru ugwo ZIP 317 a na-ahụkarị, Azụmahia ahụ nwere ike igbu oge, bụrụ nke e nyere obere mkpa, ụfọdụ node nwere ike ịtụfu ya, ma ọ bụ ghara iziga ya nke ọma.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) na-agbakọ ugwo a na-ahụkarị site na **omume ezi uche (logical actions)**, kama ịbụ pasentị nke ego e zitere:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Omume ezi uche (logical actions) na-atụ akụkụ Azụmahia. Dịka ọmụmaatụ, Azụmahia nke na-eji naanị Orchard na-eji ọnụọgụ omume Orchard ya; Azụmahia nke na-eji naanị Sapling na-eji nke kachasị ukwuu n'etiti ọnụọgụ mmefu (spend) na mmepụta (output) ya. A na-agbakọta ntinye sitere na pool dị iche iche. Akụkụ Oha na-eji ngụkọ dabere n'ịdị ukwuu. Lee ZIP 317 maka usoro mgbakọ zuru ezu, gụnyere Ironwood na Sprout ochie.
+
+Ya mere, iji ọtụtụ obere note ndị e nwetara ma ọ bụ iji ọtụtụ pool eme Kwụọ ụhwọ (payment) nwere ike ịdị oke ọnụ karịa Kwụọ ụhwọ dị mfe nke nwere otu uru ahụ. Ọnụ ọgụgụ ndị nnata naanị abụghị ihe e ji agbakọ ugwo (fee): ego fọdụrụ (change) na padding dịkwa mkpa.
+
+Ihe atụ ndị a na-amalite site na ọnụọgụ omume ezi uche (logical-action count) agbakọworo agbakọ:
+
+| Omume ezi uche (logical actions) | Na 5,000 zatoshis kwa omume | Na 1,000 zatoshis kwa omume |
+| --- | --- | --- |
+| 2 | 10,000 zatoshis / 0.0001 ZEC | 2,000 zatoshis / 0.00002 ZEC |
+| 3 | 15,000 zatoshis / 0.00015 ZEC | 3,000 zatoshis / 0.00003 ZEC |
+| 10 | 50,000 zatoshis / 0.0005 ZEC | 10,000 zatoshis / 0.0001 ZEC |
+
+### Kedu ugwo marginal (marginal fee) metụtara
+
+**Enyochara na 11 Nọvemba 2026:** ZIP 317 depụtara nhazigharị 2 na [ZIP 2009](https://zips.z.cash/zip-2009) dị ka ndị a tụpụtara atụpụta. Tupu nhazigharị 2, ugwo ọnụ ọgụgụ (marginal fee) bụ 5,000 zatoshis. Nhazigharị 2 kwuru 1,000, nke na-eme ka ugwo kacha nta bụrụ 2,000 zatoshis kama 10,000.
+
+Atụmatụ ahụ kọwapụtara ịdị elu Mainnet **3,590,000**, nke a na-atụ anya ya n'ihe dị ka 19 Nọvemba 2026, na ịdị elu Testnet **4,465,026**. Ntụle kalenda abụghị ọnọdụ mmalite ọrụ ahụ. Maka e-akpa ego, ịdị elu dị mkpa bụ block nke a na-atụ anya na a ga-etinye Azụmahia ahụ n'ime ya site n'ịgwụputa; node na-eji ịdị elu nke block na-esote. Biko leghachi anya ọzọ n'nkọwapụta ndị ejikọrọ na ntuziaka mwepụta nke e-akpa ego unu ka ntinye ya na-agbanwe.
+
+Ejila aka gị manye ugwo dị ala naanị n'ihi na otu atụmatụ ma ọ bụ mwepụta sọftụwia kwuru banyere ya. ZIP 2009 chọrọ ka node niile buru ụzọ wepụta iwu mbugharị ọhụrụ (relay policy) tupu e-akpa ego (wallet) amalite iji ugwo (fee) ahụ; node ndị ka na-eji paramita ochie nwere ike ịjụ ibugharị Azụmahia (transaction) nwere ugwo dị ala. Testnet na Mainnet nwekwara ịdị elu block dị iche iche maka ịmalite ọrụ (activation heights).
+
+### Ọ bụrụ na atụmatụ ahụ adịghị ka ọ ziri ezi
+
+Lelee na e-akpa ego gị dị ọhụrụ ma jikọọ nke ọma. Tụlee ugwo netwọk ya na ụgwọ mwepụ nke ọrụ na-eziga ego iche iche: ọnụahịa ọrụ ahụ abụghị usoro ZIP 317. Maka Kwụọ ụhwọ ka na-echere, jiri [usoro nleba anya nsogbu dị n'okpuru](#troubleshooting-stuck-transactions) tupu iziga ọzọ.
+
+ZIP 317 bụ iwu e-akpa ego (wallet) na node, ọ bụghị iwu consensus nke na-achọ ka a kwụọ kpọmkwem ugwo (fee) a. Ịkwụ ugwo a na-akwụkarị na-eme ka Azụmahia (transaction) gị dakọba n'ụzọ e si ebufe ya n'etiti node dị iche iche; ọ dịghị ekwe nkwa oge a ga-eji kwado ya.
 
 ## Ịgwọ Azụmahia Ndị Raparara Arapara
 
 Azụmahia Zcash anaghị aghọ nke ikpeazụ naanị n'ihi na ọ pụtara n'e-akpa ego gị. Ọ na-adị nke ikpeazụ maka ojiji nkịtị mgbe a gwupụtara ya n'ime block ma nata nkwenye zuru ezu dabere n'ọnọdụ gị. Exchange na ọrụ nwere ike ịchọ nkwenye karịa nke e-akpa ego na-egosi na ndabara.
 
+Oge ngwụcha bụ **ogo block** (block height), ọ bụghị ngụtụ oge a kapịrị ọnụ. Maka Kwụọ ụhwọ nkịtị nwere ogo ngwụcha na-abụghị 0, ogo ahụ bụ block ikpeazụ e nwere ike ịgwụputa (mining) ya n'ime ya. Dịka ọmụmaatụ, Kwụọ ụhwọ (payment) na-agwụ na ogo 3539 nwere ike ịbanye n'ime block 3539; block 3540 agafeela oge. Ogo ngwụcha nke bụ 0 pụtara na Kwụọ ụhwọ nkịtị enweghị oge ngwụcha. Lee [ZIP 203](https://zips.z.cash/zip-0203).
+
+Ụkpụrụ ndabara abụghị oge njedebe a na-agbaso n'ebe niile. ZIP 203 kwuru 40 block mgbe Blossom gasịrị, ihe dịka nkeji 50 ma ọ bụrụ na ebumnuche oghere dị n'etiti block bụ sekọnd 75. Mgbanwe NU7 a tụpụtara na-atụ aro 120 block ma ọ bụrụ na ebumnuche oghere bụ sekọnd 25, nke bụkwa ihe dịka nkeji 50 ([ZIP 218](https://zips.z.cash/zip-0218)). Ntọala na ngwa e-akpa ego dị iche iche nwere ike ịdị iche, oge dị n'etiti block n'ezie na-agbanwekwa. Lelee elu njedebe (expiry height) nke Azụmahia ahụ kpọmkwem kama ịgụ oge tupu iziga ya ọzọ.
+
+Mmebi oge [Expiry] anaghị agbanwe Kwụọ ụhwọ [payment] e gwụpụtalarịị, ọ naghịkwa emepụta Azụmahia [transaction] nkwụghachi ego. Ọ bụrụ na nke mbụ ahụ mebiri oge n'agbanyeghị na e gwụpụtaghị ya, ọ dịghị mgbe ọ kwụsiri ike on-chain. E-akpa ego [wallet] gị nwere ike ịchọ ime mmekọrịta [sync] tupu o gosi ego ndị metụtara ya dị ka ndị ị nwere ike imefu ọzọ.
+
 Jiri osisi mkpebi a tupu iziga ọzọ:
 
-1. **E-akpa ego gị ọ na-egosi ID Azụmahia?**
-   - Ọ bụrụ na mba, o nwere ike ịbụ na e-akpa ego emepụtabeghị ma ọ bụ agbasaabeghị Azụmahia ahụ. Lelee ọnọdụ mmekọrịta, njikọ ịntanetị, ụdị e-akpa ego, na ozi njehie e-akpa ego ọ bụla.
-   - Ọ bụrụ na ee, detuo ID Azụmahia ahụ ma gaa n'ihu.
-2. **A kwadoro Azụmahia ahụ n'ime block?**
-   - Ọ bụrụ na ee, chere ọnụọgụ nkwenye e-akpa ego gị, exchange, onye ahịa, ma ọ bụ ọrụ gị chọrọ.
-   - Ọ bụrụ na mba, gaa n'ihu.
-3. **Azụmahia ahụ eruola ogo njedebe ya?**
-   - Ọ bụrụ na mba, ezigala otu Kwụọ ụhwọ ahụ ọzọ n'onwe gị ugbu a. Azụmahia mbụ ahụ ka nwere ike ikwenye.
-   - Ọ bụrụ na ee, enweghị ike igwu Azụmahia ahụ ma ogo njedebe ahụ gafee. E-akpa ego gị nwere ike kaa ya dị ka nke kubiela ma ọ bụ dara ada, ma ị nwere ike ịchọ ịmepụta Azụmahia ọhụrụ.
-4. **Azụmahia ahụ ọ na-apụta n'otu sava ma ọ bụ explorer mana ọ bụghị na nke ọzọ?**
-   - Were nke a dị ka nsogbu nke ịhụ anya netwọk, ọ bụghị ihe àmà na Azụmahia dara ada. Node dị iche iche nwere ike inwe echiche mempool dị iche iche.
-   - Chere, mekọrịta e-akpa ego gị ọzọ, ma ọ bụ gbanwee gaa sava ọzọ a tụkwasịrị obi ma ọ bụrụ na e-akpa ego gị na-akwado nke ahụ.
-5. **Azụmahia ahụ ọ furu efu mgbe ọ pụtachara dịka nke ekwenyere?**
-   - Nhazigharị chain dị mkpirikpi nwere ike wepụ Azụmahia nwa oge na chain kacha mma.
-   - Chere block ndị ọzọ. Ọ bụrụ na Azụmahia ahụ alọghachi, gaa n'ihu na-eche nkwenye. Ọ bụrụ na ọ lọtaghị ma kubie mgbe e mesịrị, mepụta Azụmahia ọhụrụ.
-6. **E-akpa ego ọ na-arịọ gị ka ị ziga ọzọ?**
-   - Soro nduzi e-akpa ego ugbu a naanị mgbe ị lechara na Azụmahia gara aga akubiela, dara ada, ma ọ bụ ghara ịdị irè ọzọ.
-   - Ọ bụrụ na ị maghị n'aka, jụọ ndị nkwado tupu iziga ọzọ.
+1. **E-akpa ego (wallet) gị ọ na-egosi ID Azụmahia (transaction)?**
+   - Ọ bụrụ na ọ naghị egosi, e-akpa ego ahụ nwere ike ọ bụbeghị ike mepụta ma ọ bụ zipụ Azụmahia ahụ. Lelee ọnọdụ mmekọrịta (sync), njikọ ịntanetị, ụdị e-akpa ego ahụ, na ozi njehie ọ bụla e-akpa ego ahụ gosiri.
+   - Ọ bụrụ na ọ na-egosi, detuo ID Azụmahia ahụ ma gaa n'ihu.
+2. **Azụmahia ahụ ọ kwadoro n'ime block?**
+   - Ọ bụrụ na ọ kwadoro, chere ọnụọgụ nkwado (confirmations) nke e-akpa ego gị, exchange, onye ahịa, ma ọ bụ ọrụ ahụ chọrọ.
+   - Ọ bụrụ na ọ kwadoghị, gaa n'ihu.
+3. **Azụmahia a na-egwupụtabeghị ọ gafeela ogo njedebe (expiry height) ya nke na-abụghị efu?**
+   - Ọ bụrụ na ọ gafebeghị, ezigharịla otu Kwụọ ụhwọ (payment) ahụ n'aka gị ugbu a. Azụmahia mbụ ahụ ka nwere ike ịkwado.
+   - Ọ bụrụ na ọ gafeela, hapụ e-akpa ego ahụ ka o mee mmekọrịta ma nyochaa na e gwupụtaghị nke mbụ ahụ na ogo ahụ ma ọ bụ tupu ya. Mgbe ahụ, soro ntụziaka e-akpa ego ahụ maka ịmepụta nnọchi ma ọ bụrụ na ọ dị mkpa.
+4. **Azụmahia ahụ ọ pụtara n'otu server ma ọ bụ explorer mana ọ pụtaghị n'ọzọ?**
+   - Were nke a dị ka nsogbu ịhụ ihe na netwọk, ọ bụghị proof na Azụmahia ahụ dara. Node dị iche iche nwere ike ịnwe echiche mempool dị iche iche.
+   - Chere, mee ka e-akpa ego gị mekọrịta ọzọ, ma ọ bụ gbanwee gaa n'server ọzọ a tụkwasịrị obi ma ọ bụrụ na e-akpa ego gị na-akwado nke ahụ.
+5. **Azụmahia ahụ ọ furu efu mgbe o gosiri na ọ kwadoro?**
+   - Nhazigharị chain (chain reorganization) dị mkpụmkpụ nwere ike iwepụ Azụmahia nwa oge site na chain kacha mma.
+   - Chere ka block ndị ọzọ bịa. Ọ bụrụ na Azụmahia ahụ alọghachi, gaa n'ihu na-eche nkwado. Ọ bụrụ na ọ lọghachighị ma mesịa gwụ oge, mepụta Azụmahia ọhụrụ.
+6. **E-akpa ego ahụ ọ na-arịọ gị ka ị zighachi?**
+   - Soro ntụziaka e-akpa ego ahụ dị ugbu a naanị mgbe ị nyochachara na Azụmahia gara aga agwụla oge, dara, ma ọ bụ adịghịzi irè.
+   - Ọ bụrụ na o doghị gị anya, jụọ ndị nkwado tupu i zigharịa ọzọ.
 
 ## Na-echere, Kubiela, Atụfuru, na Emegharịrị
 

@@ -95,5 +95,5 @@ Per esempio, considera l’inserzione di un NFT su Solana; il suo stato pubblico
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO è una blockchain pubblica layer 1. TomoChain è un protocollo privacy sviluppato su TomoChain e progettato per creare transazioni sicure e non tracciabili -**Scambio di asset**: Sì- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (in precedenza TomoChain)](https://viction.xyz/ecosystem)**: VIC (in precedenza TOMO) è una blockchain pubblica layer 1. TomoChain è un protocollo per la privacy sviluppato su TomoChain e progettato per creare transazioni sicure e non tracciabili -**Scambio di asset**: Sì- [Whitepaper](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

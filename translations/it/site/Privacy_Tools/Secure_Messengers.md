@@ -21,7 +21,7 @@ Mentre i dati viaggiano sui server o su internet, sono esposti a molti fattori c
 
 **Memo cifrati di Zcash**
 
-I portafogli desktop e mobile di Zcash hanno una funzionalità integrata che permette agli utenti di inviare messaggi crittografati con transazioni schermate private. La dimensione del memo/messaggio può arrivare fino a 512 byte per transazione, con commissioni di transazione inferiori a 1 centesimo di dollaro USA. A causa del modo in cui le transazioni vengono rilevate per preservare la privacy e del tempo di blocco della rete, i messaggi possono richiedere fino a 1 minuto o più per essere ricevuti. 
+I portafogli di Zcash che supportano i memo schermati permettono agli utenti di allegare messaggi crittografati ai pagamenti schermati. Ogni output schermato ha il proprio campo memo da 512 byte: non si tratta di un unico limite di 512 byte per l'intera transazione. Consulta [Memo](/using-zcash/memos) per il formato del testo e il supporto dei portafogli. Le commissioni di transazione si pagano in ZEC, e la [ZIP 317](https://zips.z.cash/zip-0317) definisce una commissione convenzionale che dipende dalla complessità della transazione. Anche il costo in dollari USA cambia con il tasso di cambio di ZEC, quindi una commissione inferiore a 1 centesimo di dollaro USA non è garantita. Prima di inviare, controlla la commissione indicata dal portafoglio. La consegna dei messaggi dipende dalla propagazione della transazione, dalla politica di conferma e dalla sincronizzazione del portafoglio del destinatario: non è una chat istantanea.
 
 Provalo: https://z.cash/wallets 
 

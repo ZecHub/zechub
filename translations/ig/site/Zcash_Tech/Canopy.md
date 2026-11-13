@@ -44,6 +44,36 @@ Site n'oge Canopy malitere ịrụ ọrụ, enweghị ike itinye uru ọhụrụ
 
 N'akụkụ mgbanwe ego, Canopy bu ZIP teknụzụ abụọ pere mpe. [ZIP 212](https://zips.z.cash/zip-0212) gbanwere otú onye nnata si amepụta ihe nzuzo ephemeral nke Sapling, site n'ịmepụta ya n'okwu nkịtị note [note]. [ZIP 215](https://zips.z.cash/zip-0215) depụtara iwu doro anya maka ịkwado signatures [signatures] Ed25519, ka node ọ bụla kwekọrịta kpọmkwem signatures ndị a na-ewere dị ka ndị ziri ezi.
 
+## Nchịkọta dị mkpirikpi (TL;DR)
+
+- Canopy (NU4) malitere ọrụ na block 1,046,400 nke mainnet (November 18, 2020 UTC). Ọ bụ otu block ahụ ka halving mbụ nke Zcash mere, nke belatara ụgwọ block site na 6.25 ruo 3.125 ZEC.
+- Ọ kwụsịrị founders reward ma guzobe Zcash Development Fund: 20% nke ụgwọ block ọ bụla ruo afọ 4, ruo halving nke abụọ na 2024 (iwu ZIP 1014; usoro ZIP 207/214).
+- E kewara 20% nke ego ahụ otu a: 35% gaara Bootstrap (Electric Coin Company), 25% gaara Zcash Foundation, na 40% gaara Major Grants, nke e mesịrị mara dị ka Zcash Community Grants.
+- Ọ mechiri pool Sprout ka ọ ghara ịnabata uru ọhụrụ (ZIP 211). Ego ọhụrụ enweghị ike ịbanye n'ime ya, mana a ka nwere ike iwepụ ego n'ime ya.
+- ZIP 2 nke metụtara teknụzụ sokwa ya: ZIP 212 (ihe nzuzo nwa oge [ephemeral secret] nke Sapling e nwetara site na ederede doro anya nke note ahụ) na ZIP 215 (iwu doro anya maka nkwado Ed25519).
+
+## Nkọwa Isi
+
+Zcash na-akwado mmepe nke ya site n'ụgwọ ọrụ block [block rewards] n'ihi na ọ dịghị ụlọ ọrụ kwụ n'azụ ya. Ụgwọ ọrụ ndị guzobere ya [founders reward] kwụrụ ụgwọ afọ ndị mbụ ma e mere atụmatụ ka ọ kwụsị na halving mbụ, ya mere ihe ga-anọchi ya ga-adịrịrị tupu oge ahụ eruo. Canopy bụ ihe ahụ nọchiri ya: ZIP 207 webatara usoro izugbe nke iyi ego [funding stream] nke na-eduga otu akụkụ nke enyemaka block [block subsidy] gaa n'Adreesị akpa ego [address] ndị nnata a kapịrị ọnụ, ma ZIP 214 debere iwu na Adreesị akpa ego ndị a kapịrị ọnụ maka Ego Mmepe [Development Fund]. Mgbe a tụnyere ha na ụgwọ ọrụ niile kama naanị ego ahụ, òkè ndị ahụ bụ 7% ECC, 5% Zcash Foundation, na 8% Major Grants — otu ọnụọgụ ndị ahụ a kọwara n'ụzọ abụọ.
+
+Canopy malitekwara ịla ezumike nká Sprout, pool nke e chebere echebe (shielded) kacha ochie nke Zcash: site n'oge ọ malitere ịrụ ọrụ, ubi vpub_old nke JoinSplit ọ bụla ga-abụrịrị efu, ya mere uru nwere ike isi na Sprout pụọ ma ọ gaghị alaghachi ya ọzọ.
+
+## Ihe atụ a na-ahụ anya
+
+Canopy bụ oge mgbe usoro ụgwọ ọnwa ndị guzobere ụlọ ọrụ ọhụrụ (startup) kwụsịrị, ma iwu ntọala (constitution) welie ọchịchị: site na block ahụ gaa n'ihu, a na-edebe cent 20 n'ime dollar ọ bụla netwọk ahụ na-emepụta maka nlekọta, a na-ekekọrịta ya 35/25/40 n'etiti ngalaba atọ. N'otu oge ahụ, a na-emechi ụlọ nkwakọba ihe ochie (Sprout) ka ọ ghara ịnabata ihe ọhụrụ: onye ọ bụla ka nwere ike iwepụta ngwongwo ya, mana ọ dịghị ihe ọhụrụ a ga-etinye n'ime ya.
+
+## Nleba Anya Miri Emi
+
+Funding stream a bụ consensus na-eme ka a na-agbaso ya, ọ bụghị ntụkwasị obi: node na-ajụ block ọ bụla nke coinbase ya na-adịghị akwụ ndị nnata akọwapụtara òkè ha akọwapụtara. E ji ebumnuche mee ka Canopy daa na block nke halving, nke mere na ndị na-egwụputa hụrụ ka ụgwọ ọrụ ha belatara ọkara n'otu oge ahụ òkè ọhụrụ nke ụgwọ ọrụ ahụ belatara malitere ịga n'ọrụ mmepe. ZIP 212 gbanwere otú e si enweta ihe nzuzo nwa oge (ephemeral secret) nke Sapling (site na plaintext nke note), ZIP 215 dekwara iwu nnabata Ed25519 doro anya ka node ọ bụla nwee ike ịnwapụta signature n'otu ụzọ ahụ. Mgbanwe ndị a dị ntakịrị, mana ha wepụrụ ụdị ihe niile na-eme ka consensus ghara idoụ anya.
+
+## Mmejọ ndị a na-emekarị
+
+- **Iche na Canopy bụ halving n'onwe ya.** Ha kerịtara otu block mmalite, mana ha bụ mgbanwe dị iche iche: ZIP 251 (Canopy) na usoro mwepụta ego (issuance schedule).
+- **Ịgụ 20% ahụ dị ka ihe e wepụrụ n'òkè ọhụrụ nke ndị na-egwụputa.** Ndị na-egwụputa (miners) jigidere 80%; ego ahụ (fund) na-ewere 20% nke ụgwọ ọrụ block (block reward).
+- **Iche na e kpochiri ma ọ bụ bibie ego Sprout.** Ọ ka ga-ekwe omume ịwepụ ego. Naanị itinye ego ọhụrụ kwụsịrị.
+- **Iwere "35/25/40 nke ego ahụ" na "7/5/8 nke ụgwọ ọrụ ahụ" dị ka nkewa dị iche iche.** Ha bụ otu ọnụọgụ ahụ, mana a tụrụ ha n'ihe ndabere dị iche iche.
+- **Ịkpọ Canopy nkwalite cryptography.** Ọ bụ isi ihe gbasara Gọọmentị (governance) na iwu ego (monetary policy). ZIP ndị ọrụ nka bụ naanị obere mgbanwe.
+
 ## Nkọwa okwu
 
 | Okwu | Ihe ọ pụtara n'asụsụ dị mfe |
@@ -108,5 +138,12 @@ E mere atụmatụ ka ụgwọ mbụ nke ndị malitere ọrụ ahụ kwụsị 
 [Zcash Gọọmentị](../zcash-community/zcash-governance)
 
 ---
+
+## Peeji Ndị Metụtara Ya
+
+- [Sprout](./Sprout.md) — pool Canopy mechiri ka ọ ghara ịnabata ego ọhụrụ e tinyere n'ime ya
+- [Heartwood](./Heartwood.md) — upgrade gara aga n'usoro a
+- [NU5](./NU5.md) — upgrade na-esote, nke malitere Orchard
+- [NU6.1](./NU6_1.md) — nkwalite kacha ọhụrụ e mere n'ụzọ e si akwado mmepe ego
 
 Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [Heartwood](../zcash-tech/heartwood) · Nke na-abịa: [NU5](../zcash-tech/nu5)
