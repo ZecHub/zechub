@@ -46,7 +46,7 @@ MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zca
 ## **Prerequisites**
 
 
-> [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (desktop only) - Chrome, Edge, or Firefox.
+> [**MetaMask Extension**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) (desktop only) - Chrome, Edge, or Firefox.
 > MetaMask Account - Seed phrase secured; Snap derives Zcash keys from it.  
 > Stable Internet Connection - For syncing with the Zcash network.  
 > Funds - ETH to swap for ZEC or ZEC from an exchange.
@@ -57,8 +57,8 @@ MetaMask now supports **shielded Zcash (ZEC)** via the **ChainSafe-developed Zca
 
 ## **1. Install the Zcash Snap**
 
-1. Go to the [**MetaMask Snaps Directory**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Search for [**"Zcash Shielded Wallet"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) or [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+1. Go to the [**MetaMask Snaps Directory**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/).  
+2. Search for [**"Zcash WebZjs Wallet"**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) or [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/).  
 3. Click **Install/Add to MetaMask**.
 4. Approve permissions such as:
    ```
