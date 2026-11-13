@@ -2891,10 +2891,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -2971,11 +2971,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+termrepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -4773,10 +4773,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -4853,11 +4853,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+termrepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -6655,10 +6655,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "c91be3158d602cb0006f8d79b250130c9ddbb8c6",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -6735,8 +6735,8 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "c91be3158d602cb0006f8d79b250130c9ddbb8c6",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-5.6-terra",
@@ -9009,11 +9009,11 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+panos-b3+b3fix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
@@ -9057,11 +9057,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+panos-b3",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -12285,10 +12285,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -12365,11 +12365,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+termrepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -14159,10 +14159,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -14239,11 +14239,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+termrepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -14911,11 +14911,11 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+handfix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Zkool_Multisig.md": {
@@ -16041,11 +16041,11 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "ec5192d0ea0dfc1e066a5c537abe3ebdbd260b13",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -16121,11 +16121,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "3336a9152b64b4e8894a412cd8de9a2263b90a77",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "google/gemma-4-26b-a4b",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -18147,10 +18147,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "0112da1d9be77d4b6aff8f61412c466c7f6894d6",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -18235,10 +18235,10 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "0112da1d9be77d4b6aff8f61412c466c7f6894d6",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -19797,11 +19797,11 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -19877,11 +19877,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+termrepair+itglossary",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -21055,18 +21055,18 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "ae320f633c40c6b51f87dc1024b241a0e1e833df",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex-regen/gpt-5.6-terra",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "ae320f633c40c6b51f87dc1024b241a0e1e833df",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -23009,10 +23009,10 @@
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:6312471e6be12f9e6528eef55b5642573c409b3457d62d3eef3e8f7cbef1dd2c",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -23553,10 +23553,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -23633,11 +23633,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+termrepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -24891,11 +24891,11 @@
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:6312471e6be12f9e6528eef55b5642573c409b3457d62d3eef3e8f7cbef1dd2c",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+ptbr",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -25387,11 +25387,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:80c251debbecfc371ef734cfd478810c4eb11b07d9f10cd5f48785480dfb227e",
-      "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
+      "src": "sha256:04871aa83983c8b5ea0b3126cf489b9d19584403b702958ff6c655cad4060e06",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+ptbr",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -25435,11 +25435,11 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+ptbr",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -25515,11 +25515,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+verbatim-columns+termrepair+ptbr",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -26187,11 +26187,11 @@
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
-      "src": "sha256:7c99d4716415663c5b902444e540a79c862ec67b0ef570aa54427067b8cad436",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:918dc206a21b749aa3f4c7bdf3fef606a41231c31b38ec7d4cd4c7aaa331d1f2",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+handfix+ptbr",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Zkool_Multisig.md": {
@@ -26765,8 +26765,8 @@
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:6312471e6be12f9e6528eef55b5642573c409b3457d62d3eef3e8f7cbef1dd2c",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -27261,11 +27261,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:80c251debbecfc371ef734cfd478810c4eb11b07d9f10cd5f48785480dfb227e",
-      "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
+      "src": "sha256:04871aa83983c8b5ea0b3126cf489b9d19584403b702958ff6c655cad4060e06",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -27309,10 +27309,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -27389,11 +27389,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+termrepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -28647,10 +28647,10 @@
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:6312471e6be12f9e6528eef55b5642573c409b3457d62d3eef3e8f7cbef1dd2c",
-      "src_commit": "9dbb4fcc0af8ed485eed72ec4f0257473436345a",
+      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -29143,10 +29143,10 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:80c251debbecfc371ef734cfd478810c4eb11b07d9f10cd5f48785480dfb227e",
-      "src_commit": "b1eb2f5a4ba62c739a4c5dd9ee85500743e442e0",
+      "src": "sha256:04871aa83983c8b5ea0b3126cf489b9d19584403b702958ff6c655cad4060e06",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -29191,11 +29191,11 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "b1eb2f5a4ba62c739a4c5dd9ee85500743e442e0",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -29271,11 +29271,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "b1eb2f5a4ba62c739a4c5dd9ee85500743e442e0",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -30529,10 +30529,10 @@
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:6312471e6be12f9e6528eef55b5642573c409b3457d62d3eef3e8f7cbef1dd2c",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -31025,11 +31025,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:80c251debbecfc371ef734cfd478810c4eb11b07d9f10cd5f48785480dfb227e",
-      "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
+      "src": "sha256:04871aa83983c8b5ea0b3126cf489b9d19584403b702958ff6c655cad4060e06",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -31073,10 +31073,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -31153,11 +31153,11 @@
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
-      "src": "sha256:982c046d5c78e8e444a95683af7839d18797787266e6de2937f796d6a73b7a1b",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter+termrepair",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -32411,8 +32411,8 @@
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:6312471e6be12f9e6528eef55b5642573c409b3457d62d3eef3e8f7cbef1dd2c",
-      "src_commit": "1ef9aa451a8a23f05d0aedceb75c91b4d2fdc527",
+      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
@@ -32907,11 +32907,11 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:80c251debbecfc371ef734cfd478810c4eb11b07d9f10cd5f48785480dfb227e",
-      "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
+      "src": "sha256:04871aa83983c8b5ea0b3126cf489b9d19584403b702958ff6c655cad4060e06",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -32955,10 +32955,10 @@
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
-      "src": "sha256:9fcd5b14299483ddf5cec9c4645ed1a4dfb8d9d18a8c22d07051d218f82b8e04",
-      "src_commit": "68450941240e759b6bf6dd82c0a7f9da5f948e43",
+      "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -36479,10 +36479,10 @@
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:6312471e6be12f9e6528eef55b5642573c409b3457d62d3eef3e8f7cbef1dd2c",
-      "src_commit": "bb47d6d60a303b4718f16c94989a58c641817e1f",
+      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
@@ -36887,10 +36887,10 @@
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
-      "src": "sha256:80c251debbecfc371ef734cfd478810c4eb11b07d9f10cd5f48785480dfb227e",
-      "src_commit": "2aa876575f4889bb11f59dd426b8dd7357643c17",
+      "src": "sha256:04871aa83983c8b5ea0b3126cf489b9d19584403b702958ff6c655cad4060e06",
+      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-5.6-terra",
       "edited": false
     },

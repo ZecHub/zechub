@@ -28,13 +28,13 @@ Halo é um sistema recursivo de provas de conhecimento zero sem necessidade de c
 
 ### Sem configuração confiável
 
-zk-SNARKs dependem de uma cadeia de referência comum (CRS) como parâmetro público para provar e verificar. Esta CRS deve ser gerada antecipadamente por uma entidade confiável. Até recentemente, eram necessários elaborados cálculos seguros multipartidários (MPC) — como os realizados pela rede Aztec e pelo Zcash — para mitigar o risco envolvido nesta [cerimônia de configuração confiável](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
+Algumas construções zk-SNARK, como Groth16, exigem uma configuração confiável para gerar seus parâmetros públicos, frequentemente chamados de cadeia de referência comum (CRS). A CRS é compartilhada com provadores e verificadores; ela não é o segredo que deve ser destruído. O material intermediário secreto ("resíduo tóxico") produzido por essa configuração deve ser descartado. Uma computação multipartidária segura pode distribuir essa confiança: a cerimônia é segura se pelo menos um participante seguir o protocolo e destruir sua contribuição secreta. Veja a [explicação de ECC sobre parâmetros públicos e resíduos tóxicos](https://zodl.com/snark-parameters/).
 
-Os pools blindados anteriores Sprout e Sapling do Zcash usavam os sistemas de prova zk BCTV14 e Groth16. Embora fossem seguros, tinham limitações: não eram escaláveis porque estavam vinculados a uma única aplicação, os "resíduos tóxicos" (restos de material criptográfico gerado durante a cerimônia de gênese) podiam persistir, e havia um elemento de confiança (ainda que mínimo) ao considerar a cerimônia aceitável.
+Os pools blindados anteriores Sprout e Sapling do Zcash usavam sistemas de prova com configuração confiável, BCTV14 e Groth16, respectivamente. Seus parâmetros públicos continuam disponíveis para geração de provas e verificação. A preocupação é se o material secreto de configuração foi retido, o que poderia permitir provas falsas; publicar o próprio CRS é esperado e não revela esse material secreto.
 
-Halo elimina a configuração confiável ao colapsar repetidamente múltiplas instâncias de problemas difíceis ao longo de ciclos de curvas elípticas, para que as provas computacionais possam raciocinar eficientemente sobre si mesmas (amortização aninhada). Um efeito colateral é que a cadeia de referência estruturada (o resultado de uma cerimônia) pode ser atualizada, permitindo aplicações como contratos inteligentes.
+Halo combina a composição recursiva de provas com um esquema de compromissos polinomiais baseado em um argumento de produto interno. Seus parâmetros públicos não exigem uma cerimônia de configuração confiável nem a destruição de um alçapão secreto de configuração. O livro [Halo 2 descreve esses parâmetros públicos de grupo](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Isso é diferente de tornar atualizável uma cadeia de referência estruturada gerada por cerimônia.
 
-Halo oferece aos usuários duas garantias importantes sobre a segurança de um sistema de provas de conhecimento zero em grande escala. Primeiro, permite que os usuários provem que ninguém envolvido na cerimônia de gênese criou uma porta dos fundos secreta para executar transações fraudulentas. Segundo, permite que os usuários demonstrem que o sistema permaneceu seguro ao longo do tempo, mesmo passando por atualizações e mudanças.
+Remover esse requisito de configuração evita depender da destruição de material secreto da cerimônia para provas Halo. Isso não prova que uma cerimônia anterior Sprout ou Sapling não foi comprometida, nem certifica que todas as mudanças posteriores no protocolo são seguras. As provas recursivas atestam os cálculos codificados em seus circuitos, sob as premissas do sistema de provas. Circuitos e implementações corretos continuam sendo importantes; a explicação sobre a implantação do [Halo 2 da ECC](https://zodl.com/technical-explainer-halo-on-zcash/) observa explicitamente o risco de novos bugs ou falhas de design.
 
 [Explicação de Sean Bowe no Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo transforma cada documento verificado em um carimbo no documento *seguinte*,
 
 ### Por que eliminar a configuração confiável é importante
 
-Nos sistemas mais antigos, o "selo" (a CRS) vinha de uma cerimônia. Os participantes tinham que destruir o material intermediário, e todos tinham que confiar que eles fizeram isso. O selo do Halo é produzido apenas pela matemática: não há nada para destruir, nada para vazar e nenhuma cerimônia em que confiar.
+Em sistemas mais antigos com configuração confiável, o "selo" público (a CRS) vinha de uma cerimônia. Os participantes tinham que destruir seu material intermediário secreto, mantendo os parâmetros públicos disponíveis. Halo evita essa cerimônia e sua porta dos fundos secreta de configuração. Isso não elimina a necessidade de proteger as chaves de gastos dos usuários nem de verificar as premissas e a implementação do sistema de provas.
 
 ---
 
@@ -120,7 +120,7 @@ Além disso, o Halo 2 está sob as licenças open source [MIT e Apache 2.0](http
 | Crença comum | O que realmente acontece |
 | --- | --- |
 | "Halo é uma futura atualização pela qual o Zcash está esperando." | Orchard, ativo na mainnet desde NU5 (2022), já funciona com Halo 2. |
-| "Sem configuração confiável significa não haver quaisquer parâmetros." | Halo continua a usar parâmetros estruturados; a diferença é que eles não contêm resíduos tóxicos e podem ser gerados e atualizados sem uma cerimônia em que os participantes tenham que confiar. |
+| "Sem configuração confiável significa não haver quaisquer parâmetros." | Halo ainda usa parâmetros públicos. Eles não exigem uma cerimônia na qual seja necessário confiar que os participantes destruam o material secreto de configuração. |
 | "Halo 2 e o artigo Halo são a mesma coisa." | O [artigo](https://eprint.iacr.org/2019/1021.pdf) descreve o esquema de compromisso polinomial e a amortização aninhada; Halo 2 é a implementação Rust de produção com um esquema de acumulação e aritmetização PLONKish. |
 | "A recursão apenas ajuda a escalar a verificação de blocos." | A recursão também comprime a computação no nível da aplicação — consulte as provas de espaço-tempo/replicação do Filecoin e o trabalho de VDF para Ethereum. |
 

@@ -12,6 +12,18 @@ Sapling bụ network upgrade Zcash nke abụọ dị mkpa, nke malitere n'emume 
 
 Ihe mere nke a ji dị mkpa. Tupu Sapling, ime Kwụọ ụhwọ nkeonwe n'ezie pụtara ichere ọtụtụ nkeji ebe kọmputa gị ji gigabyte ọtụtụ nke ebe nchekwa rụọ proof (proof). Nke ahụ dị nwayọ ma dị arọ nke ukwuu maka ọtụtụ mmadụ, ya mere ọtụtụ ndị ọrụ, exchange, na ụlọ ahịa ahapụ Azụmahia nke e chebere echebe ma ziga ZEC n'ihu ọha kama. Sapling belatara ọrụ ahụ ruo sekọnd ole na ole na ihe dị ka megabyte 40 nke ebe nchekwa. Mgbanwe ahụ naanị ya mere ZEC nke e chebere echebe bụrụ ihe bara uru iji na ndụ kwa ụbọchị, na ekwentị nkịtị na hardware wallet.
 
+## Na nkenke
+
+- Sapling bụ network upgrade Zcash ukwu nke abụọ, nke malitere na block 419,200 (Ọktoba 29, 2018, 02:15 UTC) — ụbọchị ncheta afọ nke abụọ nke Zcash.
+- Ọ wughachiri Azụmahia nke e chebere echebe gburugburu circuit abụọ e wuru maka ọrụ kpọmkwem (Spend na Output), dochie otu circuit JoinSplit dị nwayọ nke Sprout (ZIP 205, ZIP 243).
+- Ihe si na ya pụta: iwu proof siri n’ime nkeji na gigabyte ebe nchekwa gbadaa ruo sekọnd ole na ole na ihe dị ka 40 MB — dị mfe nke ukwuu maka ekwentị na hardware wallet.
+- Njirimara ọhụrụ: Adreesị akpa ego dị iche iche (ọtụtụ Adreesị akpa ego Kwụọ ụhwọ Ihe na-apughi ijikọ ọnụ sitere n’otu igodo), viewing key maka nnweta naanị maka nyocha, na ikewapụ iwu proof na mbinye signature.
+- Paramiita ya sitere n’emume nke akụkụ ọtụtụ nwere usoro abụọ (Powers of Tau + Sapling MPC); nchekwa na-adịgide ma ọ bụrụgodị na naanị otu onye sonyere mere ihe n’eziokwu.
+
+## Ntụnyere anya
+
+Sprout bụ onye ozi nzuzo nke ji aka ya ebu akwụkwọ ozi ọ bụla gafee mba ahụ — nzuzo zuru oke, mana ọ dị nwayọ ma na-agwụ ike. Sapling mere ka otu onye ozi ahụ bụrụ onye na-agba igwe nke nwere obere akpa n'azụ ya: ka bụ nke nzuzo, mana ọ dị ngwa nke ọma maka nnyefe kwa ụbọchị. Igodo viewing key ọhụrụ dịkwa ka inye onye nyocha windo doro anya n'ime akwụkwọ ndekọ onye ozi ahụ, n'enyeghị ya Igodo ego nke ibu ahụ mgbe ọ bụla.
+
 ## Ihe gbanwere
 
 Obi Sapling bụ ụzọ ngwa ngwa iji wuo zero-knowledge proof nke na-eme ka Azụmahia nke e chebere echebe bụrụ nkeonwe. Nhazi mbụ Sprout ji otu proving circuit (JoinSplit circuit) nke dị nwayọ ma na-achọ ebe nchekwa dị ukwuu. Sapling jiri circuit abụọ e wuru maka ọrụ kpọmkwem dochie ya, Spend circuit na Output circuit, dịka akọwara na Protocol Specification nke Zcash. Ihe si na ya pụta bụ mbelata ọnụ ahịa dị ukwuu. Maka Electric Coin Company ọ bụla, enwere ike iwulite Azụmahia nke e chebere echebe n'ime sekọnd ole na ole site n'iji ihe dị ka megabyte 40 nke ebe nchekwa. Ntọala Sprout tupu Sapling dị arọ karịa nke ukwuu, ihe dị ka nkeji na gigabyte ọtụtụ nke ebe nchekwa (ọnụọgụ ndị a nke akụkụ Sprout bụ ntọala atụ a na-ekwukarị).
@@ -35,6 +47,14 @@ Circuit nke Sapling dabere na otu public parameters a ga-eji nlezianya mepụta.
 Sapling soro Overwinter, upgrade June 2018 nke kwadebere usoro upgrade nke network. Electric Coin Company setịpụrụ ogo mmalite mainnet na zcashd 2.0.0, nke ewepụtara n'Ọgọọst 2018, network wee gbanwee gaa n'iwu Sapling mgbe a gwupụtara block 419,200. Na chain, a na-eji consensus branch id Sapling akara oge ahụ.
 
 ![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
+
+## Njehie ndị a na-ahụkarị
+
+- **Iche na Kwụọ ụhwọ nke e chebere echebe [shielded payments] na-adị mfe iji mgbe niile.** Tupu Sapling, iwulite proof na-ewe nkeji ole na ole na gigabyte nke ebe nchekwa, ya mere ọtụtụ ndị ọrụ, exchange, na ụlọ ahịa zere Azụmahia nke e chebere echebe kpamkpam.
+- **Ịkpọ Adreesị akpa ego Sapling otu ihe ahụ dị ka nke Sprout.** Sapling webatara ụdị Adreesị akpa ego na igodo nke ya (gbakwunyere Adreesị akpa ego dị iche iche na viewing key); igodo Sprout anaghị arụkọ ọrụ na Adreesị akpa ego Sapling.
+- **Ikwere na trusted setup bụ “ihe nzuzo nke otu ụlọ ọrụ”.** Ọ bụ emume ọtụtụ ndị sonyere: naanị ma ọ bụrụ na ndị niile sonyere emekọrịta ọnụ ka a pụrụ ịkpụ proof ụgha.
+- **Iche na Sapling gbanwere ntọpụta ma ọ bụ nguzo ego.** Ọ gbanwere otú e si ewu Azụmahia nke e chebere echebe — ọ nweghị ego ZEC metụtara.
+- **Iche na ime proof na ịnye signature ga-eme n’otu ngwaọrụ.** Nkewapụ Sapling bụ kpọmkwem ihe na-eme ka hardware wallet debe Igodo ego iche, ebe ngwaọrụ ọzọ na-ewu proof.
 
 ## Nkọwa okwu
 
@@ -88,5 +108,12 @@ N'okpuru Sprout, iwulite Azụmahia e chebere echebe were nkeji ma jiri gigabyte
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
+
+## Peeji ndị metụtara
+
+- [Viewing key](./Viewing_Keys.md) — atụmatụ ikesa nyocha Sapling webatara
+- [Sprout](./Sprout.md) — protocol nke e chebere echebe mbụ Sapling dochiri
+- [Blossom](./Blossom.md) — network upgrade ọzọ n'usoro ahụ (oge block, ọ bụghị kriptografi)
+- [zk_SNARKS](./zk_SNARKS.md) — teknụzụ zero-knowledge dị n'azụ sekit ndị ahụ
 
 Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [Overwinter](../zcash-tech/overwinter) · Nke na-esote: [Blossom](../zcash-tech/blossom)
