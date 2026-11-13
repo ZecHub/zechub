@@ -12,12 +12,13 @@
 // clean corpus. Status is asserted on every case for that reason.
 //
 // Run: node scripts/check-page-hygiene.test.mjs
-import { writeFileSync, mkdirSync, rmSync, symlinkSync, unlinkSync } from "node:fs";
+import { writeFileSync, mkdirSync, rmSync, unlinkSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
+import { fileURLToPath } from "node:url";
 import { join } from "node:path";
 
-const GATE = new URL("./check-page-hygiene.mjs", import.meta.url).pathname;
+const GATE = fileURLToPath(new URL("./check-page-hygiene.mjs", import.meta.url));
 let failed = 0;
 const fail = (name, want, got) => { failed++; console.log(`  FAIL ${name}\n       want ${want}\n       got  ${got}`); };
 
@@ -57,10 +58,20 @@ w("site/year.md", "# Y\n\ntext\n");
 w("site/tail.md", "# T\n\ntext\n");
 w("site/renamed-old.md", "# R\r\n\r\ntext\r\n");
 w("site/target.txt", "plain\n");
-symlinkSync("target.txt", join(repo, "site/typechange.md"));   // mode 120000
+// Stage a real Git symlink entry without requiring OS symlink privileges.
+// Git for Windows may materialize links as plain target-name files.
+w("site/typechange.md", "target.txt");
 git("init", "-q");
+git("config", "core.autocrlf", "false");
 git("config", "user.email", "t@t"); git("config", "user.name", "t");
-git("add", "-A"); git("commit", "-qm", "base", "--no-verify");
+git("add", "-A");
+const blob = (body) => execFileSync("git", ["-C", repo, "hash-object", "-w", "--stdin"],
+  { input: body, encoding: "utf8" }).trim();
+git("update-index", "--cacheinfo", "120000", blob("target.txt"), "site/typechange.md");
+git("commit", "-qm", "base", "--no-verify");
+if (!/^120000 /.test(git("ls-tree", "HEAD", "site/typechange.md"))) {
+  throw new Error("base fixture did not record Git symlink mode 120000");
+}
 git("branch", "-M", "main");
 git("checkout", "-qb", "pr");
 
@@ -151,6 +162,7 @@ rmSync(sub, { recursive: true, force: true });
 mkdirSync(sub, { recursive: true });
 const sgit = (...a) => execFileSync("git", ["-C", sub, ...a], { encoding: "utf8" });
 sgit("init", "-q");
+sgit("config", "core.autocrlf", "false");
 sgit("config", "user.email", "t@t"); sgit("config", "user.name", "t");
 writeFileSync(join(sub, "f.txt"), "x\n");
 sgit("add", "-A"); sgit("commit", "-qm", "sub", "--no-verify");
@@ -159,7 +171,13 @@ try {
   git("-c", "protocol.file.allow=always", "submodule", "add", "-q", sub, "site/vendor.md");
 } catch { hasSubmodule = false; }               // git too old or file protocol blocked
 
-git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
+git("add", "-A");
+// Explicitly record the new regular-file mode even when core.symlinks=false.
+git("update-index", "--cacheinfo", "100644", blob(probes["site/typechange.md"]), "site/typechange.md");
+git("commit", "-qm", "pr", "--no-verify");
+if (!/^T\tsite\/typechange\.md$/m.test(git("diff", "--name-status", "main...HEAD"))) {
+  throw new Error("fixture did not exercise a real Git type change");
+}
 
 function run(extra = []) {
   const args = extra.includes("--base") ? [GATE, ...extra] : [GATE, "--base", "main", ...extra];
@@ -181,6 +199,7 @@ mkdirSync(join(cleanRepo, "site"), { recursive: true });
 const cgit = (...a) => execFileSync("git", ["-C", cleanRepo, ...a], { encoding: "utf8" });
 writeFileSync(join(cleanRepo, "site/a.md"), "# A\n\nbase\n");
 cgit("init", "-q");
+cgit("config", "core.autocrlf", "false");
 cgit("config", "user.email", "t@t"); cgit("config", "user.name", "t");
 cgit("add", "-A"); cgit("commit", "-qm", "base", "--no-verify");
 cgit("branch", "-M", "main"); cgit("checkout", "-qb", "pr");

@@ -8,10 +8,11 @@ import { strict as assert } from "node:assert";
 import { execFileSync, spawnSync } from "node:child_process";
 import { mkdirSync, mkdtempSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
+import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { after, before, test } from "node:test";
 
-const GATE = new URL("./check-reorder-damage.mjs", import.meta.url).pathname;
+const GATE = fileURLToPath(new URL("./check-reorder-damage.mjs", import.meta.url));
 
 let repo;
 // A git hook exports GIT_DIR; inherited, it would point these commands at the
@@ -33,6 +34,7 @@ const EL_SWAP = "# Swap\n\nΟ [οδηγός του ZecHub για swap σε ZEC �
 before(() => {
   repo = mkdtempSync(join(tmpdir(), "check-reorder-damage-"));
   git("init", "-q", "-b", "main");
+git("config", "core.autocrlf", "false");
   w("site/lib.md", EN_LIB);
   w("translations/el/site/lib.md", EL_LIB_BROKEN);
   w("site/swap.md", EN_SWAP);
