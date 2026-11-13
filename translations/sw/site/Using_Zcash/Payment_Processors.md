@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Zcash Vichakataji vya malipo [Payment Processors]
+# Vichakataji vya malipo [Payment Processors] vya Zcash
 
 Njia za kukubali ZEC kama mfanyabiashara, zikilinganishwa bega kwa bega. Kila ingizo lilichunguzwa dhidi ya tovuti na API ya mtoa huduma mwenyewe tarehe **29 Julai 2026**, isipokuwa Zcash Payment Service, iliyoongezwa tarehe **1 Novemba 2026**.
 

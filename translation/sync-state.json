@@ -28651,7 +28651,7 @@
       "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+handfix",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
