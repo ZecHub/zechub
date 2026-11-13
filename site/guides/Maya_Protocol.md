@@ -13,7 +13,8 @@
 * Its native token is $CACAO. Liquidity providers earn swap fees and are covered by Impermanent Loss Protection (ILP) after 50 days.
 * Maya is a backend: you use it through a frontend or wallet such as THORWallet, CacaoSwap, Asgardex, Ctrl Wallet or KeepKey.
 * The tutorial video shows an ETH to ZEC swap on LeoDex, one of these frontends.
-* If you receive ZEC at a transparent (t1) address, shield it in your wallet afterwards for privacy.
+* Maya supports shielded/unified ZEC deposits via SwapKit (transparent value output plus a shielded memo), so some frontends can deliver ZEC straight to a unified address. If yours pays to a transparent (t1) address, shield it in your wallet afterwards for privacy.
+* Maya is not the only option for native ZEC swaps: THORChain also has a native ZEC pool.
 
 ## Core Explanation
 
