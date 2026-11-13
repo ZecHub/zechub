@@ -91,18 +91,18 @@ The Crosslink Protocol is being actively developed and deployed by Shielded Labs
 * Activation Logic: The introduction of Crosslink requires changes to the Zcash consensus rules, including defining the stake distribution process and updating network protocol rules to support hybrid consensus.
 * Phased Deployment: The protocol will roll out in stages to ensure network stability and community adaptation. Initial phases focus on technical implementation, followed by governance integration for selecting notaries.
 
-The earlier prototype and its documentation are in the [zebra-crosslink repository on GitHub](https://github.com/ShieldedLabs/zebra-crosslink) and [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/). Current work is described in the next section.
+The earlier prototype and its documentation are in the [zebra-crosslink repository on GitHub](https://github.com/ShieldedLabs/zebra-crosslink), retired on 12 November 2026, and [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/). Current work is described in the next section.
 
 ### Where Crosslink stands
 
 Crosslink is still a proposal. Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) says it "would need to go through the standard Zcash governance process" before it could activate on mainnet.
 
-What exists today is the **Feature Net**: a test network run by Shielded Labs, with its own test coin, cTAZ, where anyone can mine, stake and run a finalizer. [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), released on 1 October 2026, starts as plain proof-of-work and switches Crosslink on in stages: staking from block 20,736, the first roster of finalizers taken at block 34,560, and BFT finality from block 36,288 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+What exists today is the **Feature Net**: a test network run by Shielded Labs, with its own test coin, cTAZ, where anyone can mine, stake and run a finalizer. [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), released on 1 October 2026, started as plain proof-of-work and switched Crosslink on in stages: staking from block 20,736, the first roster of finalizers taken at block 34,560, and BFT finality from block 36,288 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)). Later releases upgrade the same network: [version 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) at PoW height 55,296, and [version 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 November 2026) at height 165,000. Starting with [version 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16), each version stops running two weeks after it ships, so always run the [latest release](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest).
 
 Two things on this page have moved since it was written:
 
 * **The role called a notary here is called a finalizer** in Shielded Labs' software and release notes. Stakers delegate coins to a finalizer, and the finalizers with the most stake vote to finalize blocks.
-* **The code has moved.** The zebra-crosslink repository above was last updated in April 2026. Feature Net releases come from [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), and the design is written up in the [Crosslink book](https://shieldedlabs.github.io/crosslink_book/).
+* **The code has moved.** The zebra-crosslink repository above was retired on 12 November 2026, and its README now points to [Shielded Labs' Crosslink page](https://shieldedlabs.net/crosslink). Feature Net releases come from [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), and the design is written up in the [Crosslink book](https://shieldedlabs.github.io/crosslink_book/).
 
 To try it yourself, follow the [Crosslink Feature Net](/guides/crosslink-feature-net) guide. To watch the network without running anything, open the Crosslink tab on [ZecHub Tools](https://zechub.wiki/tools?tool=crosslink).
 
