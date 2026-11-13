@@ -64,36 +64,72 @@ L’important est que Zcash vous laisse décider laquelle envoyer, paiement par 
 
 ## Frais Zcash
 
-Zcash n’utilise pas d’unités de gas comme Ethereum. Les frais de transaction Zcash sont payés en ZEC, généralement mesurés en **zatoshis**. Un ZEC équivaut à 100 000 000 zatoshis.
+Laissez votre wallet calculer les frais de réseau, et vérifiez-les avant d’envoyer. Les frais sont payés en ZEC : **1 ZEC = 100 000 000 zatoshis**. Le montant des frais en dollars américains dépend aussi du taux de change du ZEC.
 
-[ZIP 317](https://zips.z.cash/zip-0317) définit un mécanisme de frais conventionnel qui évolue avec la complexité de la transaction. Au lieu que chaque transaction utilise les anciens frais fixes de 1 000 zatoshis, les frais conventionnels reposent sur des « actions logiques » telles que les entrées, les sorties et les actions protégées. Les transactions simples commencent généralement autour de 10 000 zatoshis, soit 0.0001 ZEC, et les transactions plus complexes peuvent nécessiter davantage.
+### Pourquoi deux paiements peuvent avoir des frais différents
 
-Dans la plupart des wallets actuels, les utilisateurs ne devraient pas avoir à calculer manuellement les frais ZIP 317. Le wallet devrait choisir automatiquement des frais appropriés. Si un wallet utilise encore les anciens frais fixes ou vous permet de définir des frais très inférieurs aux frais conventionnels ZIP 317, la transaction peut être retardée, dépriorisée, abandonnée par certains nœuds ou ne pas être relayée de manière fiable.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) calcule les frais conventionnels à partir des **actions logiques**, plutôt qu'en pourcentage du montant envoyé :
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Les actions logiques mesurent les composants d’une transaction. Par exemple, une transaction uniquement Orchard utilise son nombre d’actions Orchard ; une transaction uniquement Sapling utilise le plus grand de ses nombres de dépenses et de sorties. Les contributions des différents pools s’additionnent. Les composants transparents utilisent un calcul basé sur la taille. Consultez la ZIP 317 pour la formule complète, y compris Ironwood et l’ancien Sprout.
+
+Dépenser de nombreuses petites notes reçues ou utiliser plusieurs pools peut donc coûter plus cher qu'un paiement plus simple de même valeur. Le nombre de destinataires ne suffit pas à calculer les frais : la monnaie rendue et le remplissage (padding) comptent aussi.
+
+Ces exemples partent d’un nombre d’actions logiques déjà calculé :
+
+| Actions logiques | À 5 000 zatoshis par action | À 1 000 zatoshis par action |
+| --- | --- | --- |
+| 2 | 10 000 zatoshis / 0,0001 ZEC | 2 000 zatoshis / 0,00002 ZEC |
+| 3 | 15 000 zatoshis / 0,00015 ZEC | 3 000 zatoshis / 0,00003 ZEC |
+| 10 | 50 000 zatoshis / 0,0005 ZEC | 10 000 zatoshis / 0,0001 ZEC |
+
+### Quels frais marginaux s'appliquent
+
+**Vérifié le 11 novembre 2026 :** ZIP 317 indique la révision 2 et [ZIP 2009](https://zips.z.cash/zip-2009) comme proposée. Avant la révision 2, les frais marginaux sont de 5 000 zatoshis. La révision 2 les fixe à 1 000, ce qui donne un minimum de 2 000 zatoshis au lieu de 10 000.
+
+La proposition fixe la hauteur du Mainnet à **3 590 000**, attendue vers le 19 novembre 2026, et celle du Testnet à **4 465 026**. Une estimation calendaire ne constitue pas la condition d’activation. Pour les wallets, la hauteur pertinente est celle du bloc dans lequel la transaction devrait être minée ; les nœuds utilisent la hauteur du bloc suivant. Revérifiez les spécifications liées et les consignes de version de votre wallet au fil de l’évolution du déploiement.
+
+N’imposez pas manuellement les frais réduits simplement parce qu’une proposition ou une version logicielle les mentionne. ZIP 2009 exige que les nœuds déploient la nouvelle politique de relais avant que les wallets n’adoptent ces frais ; les nœuds qui utilisent les anciens paramètres peuvent refuser de relayer la transaction aux frais réduits. Le Testnet et le Mainnet ont par ailleurs des hauteurs d’activation différentes.
+
+### Si l’estimation semble incorrecte
+
+Vérifiez que votre wallet est à jour et synchronisé. Comparez séparément ses frais de réseau et les frais de retrait du service d’envoi : un devis du service ne correspond pas à la formule ZIP 317. Pour un paiement en attente, suivez les [étapes de dépannage ci-dessous](#troubleshooting-stuck-transactions) avant de renvoyer.
+
+ZIP 317 est une politique des portefeuilles et des nœuds, et non une règle de consensus imposant ce montant exact de frais. Payer les frais conventionnels améliore la compatibilité de relais ; cela ne garantit pas un délai de confirmation.
 
 ## Résolution des transactions bloquées
 
 Une transaction Zcash n’est pas définitive simplement parce qu’elle apparaît dans votre wallet. Elle devient définitive pour un usage courant après avoir été minée dans un bloc et avoir reçu suffisamment de confirmations selon votre situation. Les plateformes d’échange et les services peuvent exiger davantage de confirmations que celles affichées par défaut dans un wallet.
 
+L’expiration correspond à une **hauteur de bloc**, et non à un compte à rebours fixe. Pour un paiement ordinaire dont la hauteur d’expiration est non nulle, cette hauteur correspond au dernier bloc dans lequel il peut être miné. Par exemple, un paiement qui expire à la hauteur 3539 peut être inclus dans le bloc 3539 ; au bloc 3540, il est trop tard. Pour un paiement ordinaire, une hauteur d’expiration de 0 signifie qu’il n’y a pas d’expiration. Voir [ZIP 203](https://zips.z.cash/zip-0203).
+
+Les valeurs par défaut ne sont pas des délais universels. ZIP 203 spécifie 40 blocs après Blossom, soit environ 50 minutes avec un espacement cible de 75 secondes. La modification NU7 proposée recommande 120 blocs avec un espacement cible de 25 secondes, soit également environ 50 minutes ([ZIP 218](https://zips.z.cash/zip-0218)). Les paramètres et les implémentations des wallets peuvent varier, et les intervalles réels entre les blocs fluctuent. Vérifiez la hauteur d'expiration de la transaction concernée plutôt que de vous fier à un délai pour la renvoyer.
+
+L’expiration n’annule pas un paiement déjà miné et ne crée pas de transaction de remboursement. Si la transaction d’origine a expiré sans avoir été minée, elle n’a jamais été réglée on-chain. Votre wallet devra peut-être se synchroniser avant d’afficher de nouveau les fonds concernés comme dépensables.
+
 Utilisez cet arbre de décision avant de renvoyer une transaction :
 
 1. **Votre wallet affiche-t-il un identifiant de transaction ?**
-   - Si non, le wallet n’a peut-être pas encore créé ou diffusé la transaction. Vérifiez l’état de synchronisation, la connexion Internet, la version du wallet et tout message d’erreur du wallet.
-   - Si oui, copiez l’identifiant de transaction et continuez.
+   - Si ce n'est pas le cas, il est possible que le wallet n'ait pas encore créé ou diffusé la transaction. Vérifiez l'état de la synchronisation, la connexion Internet, la version du wallet et tout message d'erreur du wallet.
+   - Si c'est le cas, copiez l'identifiant de transaction et continuez.
 2. **La transaction est-elle confirmée dans un bloc ?**
-   - Si oui, attendez le nombre de confirmations requis par votre wallet, plateforme d’échange, marchand ou service.
-   - Si non, continuez.
-3. **La transaction a-t-elle atteint sa hauteur d’expiration ?**
-   - Si non, ne renvoyez pas encore manuellement le même paiement. La transaction d’origine peut toujours être confirmée.
-   - Si oui, la transaction ne peut pas être minée après cette hauteur d’expiration. Votre wallet peut l’indiquer comme expirée ou échouée, et vous devrez peut-être créer une nouvelle transaction.
-4. **La transaction apparaît-elle sur un serveur ou explorateur, mais pas sur un autre ?**
-   - Considérez cela comme un problème de visibilité réseau, et non comme la preuve que la transaction a échoué. Différents nœuds peuvent avoir différentes vues du mempool.
-   - Attendez, resynchronisez votre wallet ou basculez vers un autre serveur de confiance si votre wallet le permet.
-5. **La transaction a-t-elle disparu après avoir semblé confirmée ?**
-   - Une courte réorganisation de chaîne peut temporairement retirer une transaction de la meilleure chaîne.
-   - Attendez davantage de blocs. Si la transaction réapparaît, continuez d’attendre les confirmations. Si elle ne réapparaît pas et expire plus tard, créez une nouvelle transaction.
+   - Si c'est le cas, attendez le nombre de confirmations exigé par votre wallet, votre plateforme d'échange, votre commerçant ou votre service.
+   - Si ce n'est pas le cas, continuez.
+3. **La transaction non minée a-t-elle dépassé sa hauteur d'expiration non nulle ?**
+   - Si ce n'est pas le cas, ne renvoyez pas encore manuellement le même paiement. La transaction d'origine peut encore être confirmée.
+   - Si c'est le cas, laissez le wallet se synchroniser et vérifiez que la transaction d'origine n'a pas été minée à cette hauteur ou avant. Suivez ensuite les instructions du wallet pour créer une transaction de remplacement si nécessaire.
+4. **La transaction apparaît-elle sur un serveur ou un explorateur mais pas sur un autre ?**
+   - Considérez cela comme un problème de visibilité sur le réseau, et non comme la preuve que la transaction a échoué. Différents nœuds peuvent avoir des vues différentes de la mempool.
+   - Patientez, resynchronisez votre wallet ou passez à un autre serveur de confiance si votre wallet le permet.
+5. **La transaction a-t-elle disparu après être apparue comme confirmée ?**
+   - Une courte réorganisation de la chaîne peut retirer temporairement une transaction de la meilleure chaîne.
+   - Attendez d'autres blocs. Si la transaction réapparaît, continuez d'attendre les confirmations. Si elle ne réapparaît pas et finit par expirer, créez une nouvelle transaction.
 6. **Le wallet vous demande-t-il de renvoyer la transaction ?**
-   - Suivez les instructions actuelles du wallet seulement après avoir vérifié que la transaction précédente est expirée, échouée ou n’est plus valide.
-   - En cas de doute, demandez de l’aide au support avant d’envoyer de nouveau.
+   - Suivez les instructions actuelles du wallet uniquement après avoir vérifié que la transaction précédente a expiré, a échoué ou n'est plus valide.
+   - En cas de doute, contactez le support avant de renvoyer des fonds.
 
 ## En attente, expirée, abandonnée et réorganisée
 

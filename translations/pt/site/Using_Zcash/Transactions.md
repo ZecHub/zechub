@@ -64,15 +64,51 @@ A parte importante é que o Zcash permite que você decida qual enviar, pagament
 
 ## Taxas do Zcash
 
-O Zcash não usa unidades de gas no estilo Ethereum. As taxas das transações do Zcash são pagas em ZEC, geralmente medidas em **zatoshis**. Um ZEC equivale a 100000000 zatoshis.
+Deixe sua carteira calcular a taxa da rede e revise-a antes de enviar. As taxas são pagas em ZEC: **1 ZEC = 100.000.000 zatoshis**. O valor de uma taxa em dólares americanos também depende da taxa de câmbio do ZEC.
 
-A [ZIP 317](https://zips.z.cash/zip-0317) define um mecanismo de taxa convencional que aumenta conforme a complexidade da transação. Em vez de todas as transações usarem a antiga taxa fixa de 1000 zatoshis, a taxa convencional é baseada em "ações lógicas", como entradas, saídas e ações blindadas. As transações simples normalmente começam em cerca de 10000 zatoshis, ou 0,0001 ZEC, e transações mais complexas podem exigir mais.
+### Por que dois pagamentos podem ter taxas diferentes
 
-Na maioria das carteiras atuais, os usuários não devem precisar calcular manualmente as taxas da ZIP 317. A carteira deve escolher uma taxa adequada automaticamente. Se uma carteira ainda usar a antiga taxa fixa ou permitir que você defina uma taxa muito abaixo da taxa convencional da ZIP 317, a transação poderá ser atrasada, despriorizada, descartada por alguns nós ou não ser retransmitida de forma confiável.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) calcula a taxa convencional a partir de **ações lógicas**, em vez de uma porcentagem do valor enviado:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Ações lógicas medem os componentes de uma transação. Por exemplo, uma transação somente Orchard usa o seu número de ações Orchard; uma transação somente Sapling usa o maior valor entre as suas contagens de gastos e de saídas. As contribuições de pools diferentes são somadas. Os componentes transparentes usam um cálculo baseado no tamanho. Consulte a ZIP 317 para ver a fórmula completa, incluindo Ironwood e o legado Sprout.
+
+Gastar muitas notes pequenas recebidas ou usar vários pools pode, portanto, custar mais do que um pagamento mais simples de mesmo valor. O número de destinatários sozinho não é uma calculadora de taxas: o troco e o preenchimento também contam.
+
+Estes exemplos começam com uma contagem de ações lógicas já calculada:
+
+| Ações lógicas | A 5.000 zatoshis por ação | A 1.000 zatoshis por ação |
+| --- | --- | --- |
+| 2 | 10.000 zatoshis / 0,0001 ZEC | 2.000 zatoshis / 0,00002 ZEC |
+| 3 | 15.000 zatoshis / 0,00015 ZEC | 3.000 zatoshis / 0,00003 ZEC |
+| 10 | 50.000 zatoshis / 0,0005 ZEC | 10.000 zatoshis / 0,0001 ZEC |
+
+### Qual taxa marginal se aplica
+
+**Verificado em 11 de novembro de 2026:** ZIP 317 lista a revisão 2 e [ZIP 2009](https://zips.z.cash/zip-2009) como propostas. Antes da revisão 2, a taxa marginal é de 5.000 zatoshis. A revisão 2 especifica 1.000, o que resulta em um mínimo de 2.000 zatoshis em vez de 10.000.
+
+A proposta especifica a altura **3.590.000** na Mainnet, prevista para cerca de 19 de novembro de 2026, e a altura **4.465.026** na Testnet. Uma estimativa de calendário não é a condição de ativação. Para as carteiras, a altura relevante é a do bloco em que se espera que a transação seja minerada; os nós usam a altura do próximo bloco. Verifique novamente as especificações indicadas nos links e as orientações de lançamento da sua carteira conforme a implantação mudar.
+
+Não force manualmente a taxa mais baixa só porque uma proposta ou um lançamento de software a menciona. A ZIP 2009 exige que os nós adotem a nova política de retransmissão antes que as carteiras adotem a taxa; nós que usam os parâmetros antigos podem se recusar a retransmitir a transação com taxa mais baixa. A Testnet e a Mainnet também têm alturas de ativação diferentes.
+
+### Se a estimativa parecer errada
+
+Verifique se sua carteira está atualizada e sincronizada. Compare a taxa de rede dela separadamente com a cobrança de saque do serviço de envio: uma cotação do serviço não é a fórmula da ZIP 317. Para um pagamento pendente, siga os [passos de solução de problemas abaixo](#troubleshooting-stuck-transactions) antes de enviar novamente.
+
+ZIP 317 é uma política de carteiras e de nós, não uma regra de consenso que exija exatamente essa taxa. Pagar a taxa convencional melhora a compatibilidade de retransmissão, mas não garante um tempo de confirmação.
 
 ## Solução de problemas de transações travadas
 
 Uma transação do Zcash não é final apenas porque aparece na sua carteira. Ela se torna final para uso comum depois de ser minerada em um bloco e receber confirmações suficientes para sua situação. Corretoras e serviços podem exigir mais confirmações do que uma carteira mostra por padrão.
+
+A expiração é uma **altura de bloco**, não uma contagem regressiva fixa. Para um pagamento comum com altura de expiração diferente de zero, essa altura é o último bloco em que ele pode ser minerado. Por exemplo, um pagamento que expira na altura 3539 pode ser incluído no bloco 3539; o bloco 3540 já é tarde demais. Uma altura de expiração 0 significa que um pagamento comum não tem expiração. Consulte [ZIP 203](https://zips.z.cash/zip-0203).
+
+Padrões não são prazos universais. O ZIP 203 especifica 40 blocos após Blossom, aproximadamente 50 minutos com um espaçamento-alvo de 75 segundos. A mudança proposta para o NU7 recomenda 120 blocos com um espaçamento-alvo de 25 segundos, também aproximadamente 50 minutos ([ZIP 218](https://zips.z.cash/zip-0218)). As configurações e implementações de carteiras podem variar, e os intervalos reais entre blocos também variam. Verifique a altura de expiração da transação específica em vez de cronometrar um reenvio.
+
+A expiração não reverte um pagamento já minerado nem cria uma transação de reembolso. Se a transação original expirou sem ser minerada, ela nunca foi liquidada on-chain. Talvez sua carteira precise sincronizar antes de mostrar novamente os fundos associados como disponíveis para gastar.
 
 Use esta árvore de decisão antes de reenviar:
 
@@ -82,18 +118,18 @@ Use esta árvore de decisão antes de reenviar:
 2. **A transação está confirmada em um bloco?**
    - Se sim, aguarde o número de confirmações exigido pela sua carteira, corretora, comerciante ou serviço.
    - Se não, continue.
-3. **A transação atingiu sua altura de expiração?**
+3. **A transação não minerada já passou da sua altura de expiração diferente de zero?**
    - Se não, ainda não reenvie manualmente o mesmo pagamento. A transação original ainda pode ser confirmada.
-   - Se sim, a transação não pode ser minerada após essa altura de expiração. Sua carteira pode marcá-la como expirada ou com falha, e talvez você precise criar uma nova transação.
+   - Se sim, deixe a carteira sincronizar e verifique se a original não foi minerada nessa altura ou antes dela. Depois, siga as orientações da carteira para criar uma substituta, se necessário.
 4. **A transação aparece em um servidor ou explorador, mas não em outro?**
-   - Trate isso como um problema de visibilidade na rede, não como prova de que a transação falhou. Nós diferentes podem ter visualizações diferentes da mempool.
-   - Aguarde, sincronize novamente sua carteira ou mude para outro servidor confiável, se sua carteira oferecer suporte a isso.
+   - Trate isso como um problema de visibilidade na rede, não como prova de que a transação falhou. Nós diferentes podem ter visões diferentes da mempool.
+   - Aguarde, sincronize novamente sua carteira ou mude para outro servidor confiável, se sua carteira permitir.
 5. **A transação desapareceu depois de aparecer como confirmada?**
-   - Uma curta reorganização da chain pode remover temporariamente uma transação da melhor chain.
-   - Aguarde mais blocos. Se a transação retornar, continue aguardando confirmações. Se ela não retornar e expirar mais tarde, crie uma nova transação.
+   - Uma breve reorganização da chain pode remover temporariamente uma transação da melhor chain.
+   - Aguarde mais blocos. Se a transação voltar, continue aguardando as confirmações. Se ela não voltar e depois expirar, crie uma nova transação.
 6. **A carteira está pedindo para você reenviar?**
-   - Siga as orientações atuais da carteira somente depois de verificar que a transação anterior expirou, falhou ou deixou de ser válida.
-   - Se não tiver certeza, peça suporte antes de enviar novamente.
+   - Siga as orientações atuais da carteira somente depois de verificar que a transação anterior expirou, falhou ou não é mais válida.
+   - Se você não tiver certeza, peça ajuda ao suporte antes de enviar novamente.
 
 ## Pendente, expirada, descartada e reorganizada
 

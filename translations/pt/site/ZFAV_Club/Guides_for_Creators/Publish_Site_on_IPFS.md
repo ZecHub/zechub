@@ -18,9 +18,7 @@ Ao contrário do modelo tradicional cliente-servidor da internet, o IPFS permite
 
 Os arquivos no IPFS são endereçados usando *content-addressing*, o que significa que cada arquivo recebe um hash único ou CONTENT IDENTIFIER (CID) com base em seu conteúdo, e esse hash é usado para recuperar o arquivo da rede.
 
-Quando um usuário adiciona um arquivo ao IPFS, o arquivo é dividido em pequenas partes chamadas blocos, e cada bloco recebe um CID. Esses blocos são então armazenados em diferentes nós da rede, para que o arquivo possa ser recuperado facilmente a partir de múltiplas fontes.
-
-Isso garante redundância e tolerância a falhas, ao mesmo tempo que dificulta que qualquer nó se torne um ponto único de falha ou controle.
+IPFS armazena conteúdo como blocos identificados por CIDs. Adicionar um arquivo o armazena no seu nó; isso não o copia automaticamente para outros nós. Mantenha uma cópia acessível online, ou providencie um "pinning" remoto, para que outros leitores possam recuperá-lo. Veja [persistência do IPFS](https://docs.ipfs.tech/concepts/persistence/).
 
 **Leia: [Uma introdução ao IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,22 +32,29 @@ Para este exemplo, vamos criar um site simples.
 
 **Passo 2:** Use um [template HTML!](https://nicepage.com/html-templates) Cole o texto que você escreveu de acordo com a estrutura. Opcionalmente, você também pode criar uma folha de estilos .CSS para o seu site.
 
-**Passo 3:** Salve seu diretório. Todas as páginas .html + imagens devem estar na mesma pasta.
+**Passo 3:** Coloque a sua página inicial em `index.html` na raiz da pasta do site. Inclua as imagens e o CSS dela, usando caminhos relativos como `style.css` para que funcionem também em uma URL de gateway IPFS.
 
 ## Configurar um nó
 
-Baixe e instale o IPFS a partir do [site oficial](https://docs.ipfs.tech/install/ipfs-desktop/).
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) gerencia o nó para você. Mantenha-o em execução enquanto compartilha seu site.
 
-### Inicializar o IPFS:
+Para seguir pela [linha de comando](https://docs.ipfs.tech/how-to/command-line-quick-start/), inicialize um novo repositório uma única vez:
 
-Se estiver usando o aplicativo para desktop, você não precisará inicializar.
+```sh
+ipfs init
+```
 
-Usando um terminal ou prompt de comando, execute o comando: ipfs init
+Em seguida, inicie o nó e deixe este terminal aberto:
+
+```sh
+ipfs daemon
+```
+
+Execute os comandos restantes em um segundo terminal. Não inicie um segundo daemon se o IPFS Desktop já gerencia este repositório.
 
 ### **Adicionar a pasta do site ao IPFS**:
 
-Selecione a pasta com os arquivos do seu site e navegue até a opção Add Folder.
-
+No IPFS Desktop, selecione a pasta com os arquivos do seu site usando a opção "Add Folder".
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -57,29 +62,29 @@ Selecione a pasta com os arquivos do seu site e navegue até a opção Add Folde
 
 –
 
-Se estiver usando o terminal, execute o comando: ipfs add -r folder_name para adicionar a pasta inteira recursivamente ao IPFS.
+Para usar a CLI, execute isto a partir do diretório pai da pasta do seu site:
+
+```sh
+ipfs add -r folder_name
+```
+
+Substitua `folder_name` pelo nome da sua pasta (coloque entre aspas os nomes que contêm espaços). Salve o CID da última linha `added ... folder_name`: ele identifica o diretório inteiro, não apenas `index.html`.
 
 ### Fixar o site no IPFS:
 
-Assim que os arquivos do seu site forem adicionados ao IPFS, você precisa **fixá-los** para garantir que permaneçam disponíveis na rede.
+O comando `ipfs add` da CLI fixa localmente o conteúdo importado por padrão. Verifique a fixação da pasta com:
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-Se estiver usando o terminal, execute o comando: ipfs pin add **hash**
-
-**hash** = CID da pasta que você adicionou no passo anterior.
-
-Como alternativa, você também pode fixar diretórios usando serviços como [Pinata](https://pinata.cloud/) ou [Dolpin](https://dolpin.io/)
-
-Isso economiza muito tempo!
-
-–
+Substitua `YOUR_FOLDER_CID` pelo CID da etapa anterior; a saída deve mostrar `recursive`. O *pinning* protege a cópia deste nó contra a coleta de lixo, mas não mantém online um computador desligado. Para garantir a disponibilidade enquanto o seu nó estiver offline, configure o [*pinning* remoto](https://docs.ipfs.tech/how-to/work-with-pinning-services/) e confirme que o serviço remoto concluiu o *pinning*.
 
 ### Acessar seu site no IPFS:
 
-Seu site agora está publicado no IPFS e pode ser acessado usando o hash da pasta. Para acessar seu site, você pode visitar https://ipfs.io/ipfs/**hash**
+Primeiro, verifique seu site pelo gateway local em `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` (use a porta do gateway exibida pelo seu daemon, se for diferente). A barra no final permite que os links relativos sejam resolvidos dentro do diretório.
 
-**hash** = CID da pasta.
+Um gateway público, como `https://ipfs.io/ipfs/YOUR_FOLDER_CID/`, pode servi-lo assim que conseguir recuperar o conteúdo de um nó acessível. Uma pré-visualização local bem-sucedida não comprova a disponibilidade pública.
 
 No nosso caso, o CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
@@ -108,15 +113,20 @@ Ela também pode ser usada para visualizar nosso site por meio de um gateway: ht
 
 O site foi criado, agora precisamos de uma forma de apontar uma URL para o conteúdo.
 
-Se você já possui um endereço web, pode adicionar um novo registro usando o registro TXT _dnslink(your domain). Dependendo do provedor, ele pode ser preenchido automaticamente.
+Para `example.com`, adicione este registro DNS, substituindo `YOUR_FOLDER_CID` pelo CID do seu diretório:
 
+| Tipo | Nome | Valor |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Alguns provedores de DNS adicionam a zona automaticamente; nesse caso, insira apenas `_dnslink`. Se você estiver usando o nome IPNS acima, o valor pode ser `dnslink=/ipns/YOUR_IPNS_NAME`. Veja [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 
-Levará algum tempo para se propagar pela rede antes que você possa visualizá-lo.
+Depois da propagação do DNS, experimente `https://ipfs.io/ipns/example.com/`. Servir o site diretamente em `https://example.com/` também exige um gateway compatível com DNSLink e configuração de HTTPS; o registro TXT sozinho não configura isso. Siga o [guia de domínio personalizado](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
 *Parabéns! Agora você tem um site resistente à censura.*
 

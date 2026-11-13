@@ -50,6 +50,11 @@ Ortak fonları tutmak için shielded adresler kullanın ve bakiyelerin ve işlem
 ###  [Nereye Bağış Yapılır ZEC](/zcash-use-cases/where-to-donate-zec)
 ZEC kabul eden ve bunlardan hangilerinin shielded bağışları kabul ettiğini öğrenin
 
+###  [ZEC Bağış Toplama Kampanyası Yürütün](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Tek bir hedef için ZEC toplayın, bağışçıların güvenebileceği bir ilerleme gösterin ve her bağışı gizli tutun
+###  [ZEC Bağışlayın ve ABD'de Vergi İndirimi Talep Edin](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+ZEC bağışınızı gizli olarak yapın ve yine de vergiden düşmek için gereken belgeleri alın
+
 ###  [Gazeteciler İçin Gizlilik Kurulumu](/zcash-use-cases/journalist-privacy-setup)   
 Tüm işlemler için shielded adresler kullanın ve izlenebilir ödemelerden kaçınarak kaynaklarınızı koruyun. Güvenli iletişim için memo alanlarını dikkatli kullanın
 

@@ -18,9 +18,7 @@ IPFS (InterPlanetary File System), dosyaları depolamak ve paylaşmak için merk
 
 IPFS içindeki dosyalar *content-addressing* kullanılarak adreslenir; yani her dosyaya içeriğine göre benzersiz bir hash veya CONTENT IDENTIFIER (CID) verilir ve bu hash dosyayı ağdan geri almak için kullanılır.
 
-Bir kullanıcı IPFS'ye bir dosya eklediğinde, dosya block adı verilen küçük parçalara bölünür ve her bloğa bir CID verilir. Bu bloklar daha sonra ağdaki farklı düğümlerde saklanır, böylece dosya birden fazla kaynaktan kolayca geri alınabilir.
-
-Bu, yedeklilik ve hata toleransı sağlar; aynı zamanda herhangi bir düğümün tek bir hata veya kontrol noktası hâline gelmesini zorlaştırır.
+IPFS içeriği CID'lerle tanımlanan bloklar halinde saklar. Bir dosya eklemek onu kendi düğümünüzde saklar; dosyayı diğer düğümlere otomatik olarak kopyalamaz. Diğer okuyucuların dosyaya erişebilmesi için erişilebilir bir kopyayı çevrimiçi tutun veya uzaktan sabitleme (remote pinning) ayarlayın. Bkz. [IPFS kalıcılığı](https://docs.ipfs.tech/concepts/persistence/).
 
 **Okuyun: [IPFS'ye Giriş](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,22 +32,29 @@ Bu örnekte basit bir web sitesi oluşturuyoruz.
 
 **Adım 2:** Bir [HTML şablonu kullanın!](https://nicepage.com/html-templates) Yazdığınız metni uygun şekilde yapıştırın. İsteğe bağlı olarak web siteniz için bir .CSS stil sayfası da oluşturabilirsiniz.
 
-**Adım 3:** Dizinizi kaydedin. Tüm .html sayfaları + görseller aynı klasörde olmalıdır.
+**Adım 3:** Ana sayfanızı site klasörünün kök dizininde `index.html` içine yerleştirin. Görsellerini ve CSS dosyalarını da ekleyin. Bir IPFS ağ geçidi URL'si altında da çalışmaları için `style.css` gibi göreli yollar kullanın.
 
 ## Bir Node Kurulumu
 
-IPFS'yi [resmî web sitesinden](https://docs.ipfs.tech/install/ipfs-desktop/) indirin ve kurun.
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) düğümü sizin için yönetir. Sitenizi paylaşırken açık tutun.
 
-### IPFS'yi başlatın:
+Komut satırı yoluyla ilerlemek için ([komut satırı yolu](https://docs.ipfs.tech/how-to/command-line-quick-start/)), yeni bir depoyu bir kez başlatın:
 
-Masaüstü Uygulamasını kullanıyorsanız başlatmanız gerekmez.
+```sh
+ipfs init
+```
 
-Bir Terminal veya komut istemi kullanarak şu komutu çalıştırın: ipfs init
+Ardından düğümü başlatın ve bu terminali açık bırakın:
+
+```sh
+ipfs daemon
+```
+
+Kalan komutları ikinci bir terminalde çalıştırın. Bu depo zaten IPFS Desktop tarafından yönetiliyorsa ikinci bir daemon başlatmayın.
 
 ### **Site Klasörünü IPFS'ye Ekleyin**:
 
-Web sitenizin dosyalarının bulunduğu klasörü seçin ve Add Folder seçeneğine gidin.
-
+IPFS Desktop'ta, Klasör Ekle seçeneğini kullanarak web sitesi dosyalarınızın bulunduğu klasörü seçin.
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -57,29 +62,29 @@ Web sitenizin dosyalarının bulunduğu klasörü seçin ve Add Folder seçeneğ
 
 –
 
-Terminal kullanıyorsanız, tüm klasörü özyinelemeli olarak IPFS'ye eklemek için şu komutu çalıştırın: ipfs add -r folder_name
+CLI yolu için bunu site klasörünüzün üst dizininden çalıştırın:
+
+```sh
+ipfs add -r folder_name
+```
+
+`folder_name` yerine klasörünüzün adını yazın (boşluk içeren adları tırnak içine alın). Son `added ... folder_name` satırındaki CID'yi kaydedin: bu CID yalnızca `index.html` dosyasını değil, dizinin tamamını tanımlar.
 
 ### Siteyi IPFS Üzerinde Pinleyin:
 
-Web sitenizin dosyaları IPFS'ye eklendikten sonra, ağ üzerinde erişilebilir kalmalarını sağlamak için bunları **pinlemeniz** gerekir.
+CLI `ipfs add` komutu, içe aktarılan içeriği varsayılan olarak yerel olarak sabitler. Klasör sabitlemesini şu komutla kontrol edin:
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-Terminal kullanıyorsanız, şu komutu çalıştırın: If using Terminal, Run command: ipfs pin add **hash**
-
-**hash** = önceki adımda eklediğiniz klasörün CID'si.
-
-Alternatif olarak, [Pinata](https://pinata.cloud/) veya [Dolpin](https://dolpin.io/) gibi hizmetleri kullanarak da dizinleri pinleyebilirsiniz.
-
-Bu size çok zaman kazandırır!
-
-–
+`YOUR_FOLDER_CID` yerine önceki adımdaki CID'yi yazın; çıktıda `recursive` ifadesi görünmelidir. Sabitleme (pinning), bu düğümün kopyasını çöp toplamaya karşı korur, ancak kapalı bir bilgisayarı çevrimiçi tutmaz. Düğümünüz çevrimdışıyken erişilebilirlik için [uzaktan sabitleme](https://docs.ipfs.tech/how-to/work-with-pinning-services/) ayarlayın ve uzak hizmetin sabitleme işlemini tamamladığını doğrulayın.
 
 ### Web sitenize IPFS üzerinde erişin:
 
-Web siteniz artık IPFS üzerinde yayınlandı ve klasörün hash'i kullanılarak erişilebilir. Web sitenize erişmek için https://ipfs.io/ipfs/**hash** adresini ziyaret edebilirsiniz.
+Sitenizi önce `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` adresindeki yerel ağ geçidi üzerinden kontrol edin (daemon'unuzun yazdırdığı ağ geçidi bağlantı noktası farklıysa onu kullanın). Sondaki eğik çizgi, göreli bağlantıların dizin içinde çözümlenmesini sağlar.
 
-**hash** = klasörün CID'si.
+Herkese açık bir ağ geçidi, örneğin `https://ipfs.io/ipfs/YOUR_FOLDER_CID/`, içeriği erişilebilir bir düğümden alabildiğinde onu sunabilir. Yerel önizlemenin başarılı olması, içeriğin herkese açık olarak erişilebilir olduğunu kanıtlamaz.
 
 Bizim durumumuzda CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
@@ -108,15 +113,20 @@ Ayrıca sitemizi bir gateway üzerinden görüntülemek için de kullanılabilir
 
 Site oluşturuldu, şimdi bir URL'yi içeriğe yönlendirecek bir yola ihtiyacımız var.
 
-Zaten bir web adresine sahipseniz, TXT kaydı _dnslink(your domain) kullanarak yeni bir kayıt ekleyebilirsiniz. Sağlayıcıya bağlı olarak bu kayıt otomatik olarak doldurulabilir.
+`example.com` için bu DNS kaydını ekleyin ve `YOUR_FOLDER_CID` değerini kendi dizin CID'nizle değiştirin:
 
+| Tür | Ad | Değer |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Bazı DNS sağlayıcıları bölgeyi (zone) otomatik olarak ekler; orada yalnızca `_dnslink` girin. Yukarıdaki IPNS adını kullanıyorsanız, değer bunun yerine `dnslink=/ipns/YOUR_IPNS_NAME` olabilir. Bkz. [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 
-Görüntüleyebilmeniz için ağ genelinde yayılması zaman alacaktır.
+DNS yayılımı tamamlandıktan sonra `https://ipfs.io/ipns/example.com/` adresini deneyin. Siteyi doğrudan `https://example.com/` adresinde sunmak için ayrıca DNSLink destekli bir ağ geçidi ve HTTPS yapılandırması da gerekir; bunları yalnızca TXT kaydı ayarlamaz. [Özel alan adı kılavuzunu](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/) izleyin.
 
 *Tebrikler! Artık sansüre dayanıklı bir web siteniz var.*
 

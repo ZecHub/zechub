@@ -12,6 +12,18 @@ Blossom nye Zcash [mɔ̃ ƒe sewo trɔtrɔ network upgrade](../start-here/networ
 
 Nu ka ta esia le vevie. Ne nèdo ZEC ɖa la, nèle network la ƒe kpekpeɖeŋu lalam be wòakafu le gaɖoɖowo ƒuƒoƒe aɖe me. Ne gaɖoɖowo ƒuƒoƒewo mena va enumake o la, nàlala ɣeyiɣi didi. Tsã ɖe Blossom gɔme la, woɖo gaɖoɖowo ƒuƒoƒe yeye aɖe be wòava le sekondi 150 siaa me. Blossom tsɔ dzodzo sia va afã, yi sekondi 75, ale be kpekpeɖeŋuwo vana kaba eye ɖoɖonu [chain] la ate ŋu atsɔ gaɖoɖowo geɖe akeke le ɣeyiɣi ma ke me. Ewɔ esia esi wòmedze ZEC geɖe o alo wòmetɔ asi le fetu ƒe afãmama [halving] si woɖo ɣeyiɣi na le etsɔme la dzi o.
 
+## TL;DR (Kpuie ko)
+
+- Blossom nye Zcash ƒe mɔ̃ ƒe sewo trɔtrɔ [network upgrade] etɔ̃lia, si dze dɔwɔwɔ gɔme le mainnet ƒe gaɖoɖowo ƒuƒoƒe [block] 653,600 dzi (December 11, 2019 UTC). ZIP 206 ye wotsɔ ɖo eŋu, eye eƒe tɔtrɔ vevi la le ZIP 208 me.
+- Eɖe gaɖoɖowo ƒuƒoƒe ƒe dzodzo si woɖo daɖi dzi kpɔtɔ tso sekondi 150 yi sekondi 75. Gaɖoɖowo ƒuƒoƒewo vana zi eve wu tsã, eyata gaɖoɖo [transaction] ƒe kpeɖodzi gbãtɔwo vana kaba, eye gaɖoɖo ʋɛ siwo network la wɔna le ɣeyiɣi aɖe me la dzi ɖe edzi kabakaba zi eve.
+- Be ZEC ƒe ɖeɖe ɖe go nayi edzi le ɖoɖo nu la, ema fetu si wotsɔna naa le gaɖoɖowo ƒuƒoƒe ɖesiaɖe ta la ƒe afã, eye wòdzi ɣeyiɣi si dzi fetu ƒe afãmama [halving] dzɔna ɖo la ɖe edzi zi eve, tso gaɖoɖowo ƒuƒoƒe 840,000 yi 1,680,000.
+- ZEC si wowɔna le ɣeyiɣi ɖesiaɖe me ƒe agbɔsɔsɔ blibo kple ɣeyiɣi ŋutɔŋutɔ si dzi fetu ƒe afãmama siwo gbɔna la adzɔ la metrɔ o.
+- Enye tɔtrɔ si le be ame sia ame nawɔ eye wòka akpa eveawo siaa: ele be ɣaɣla dzesi ŋɔŋlɔ [node] ɖesiaɖe natrɔ eɖokui be wòanɔ ɖoɖonu [chain] la dzi.
+
+## Kpɔɖeŋu si wòakpɔ kple ŋku
+
+Blossom le abe bus mɔ̃ si le eƒe dzodzowo dzim ɖe eve ene. Fifia bus vana le sekɛnd 75 ɖesiaɖe me le esi teƒe be wòava le sekɛnd 150 ɖesiaɖe me, eya ta àlala ɣeyiɣi ƒe afã ko (kpeɖodzi siwo vana kaba [faster confirmations]), eye mɔ̃ la tsɔa mɔzɔlawo ɖe eve (nu siwo wòtsɔna le ɣeyiɣi aɖe me [throughput]). Be kulawo ƒe fetu katã nanɔ ale ke, woma kula ɖesiaɖe ƒe fetu le mɔzɔzɔ ɖeka ɖesiaɖe ta ɖe afã: wozãa ga ma ke na fetu katã, gake woxea fe la le mɔzɔzɔ siwo sɔ gbɔ ɖe eve me.
+
 ## Gaɖoɖowo ƒuƒoƒewo si vana kaba
 
 Blossom ƒe tɔtrɔ vevi la bɔe. Zcash ƒe gaɖoɖowo ƒuƒoƒe ƒe dzodzo si woɖo daɖi, si nye ɣeyiɣi si network la di be wòanɔ gaɖoɖowo ƒuƒoƒe aɖe kple si kplɔe ɖo dome la, tso sekondi 150 yi sekondi 75 ([ZIP 208](https://zips.z.cash/zip-0208)). Woɖoa gaɖoɖowo ƒuƒoƒewo to dɔwɔwɔ ƒe ɖaseɖigbalɛ [proof] me, eyata vovo le ɣeyiɣi si wònɔa wo dome ŋutɔ me, gake fifia network la di gaɖoɖowo ƒuƒoƒe aɖe le sekondi 75 siaa me le sekondi 150 ƒe teƒe.
@@ -36,6 +48,14 @@ Blossom nye gbegbɔgblɔ ɖi ƒe tɔtrɔ si me xɔlɔ aɖeke mele o, si fia be �
 ## Teƒe si Blossom nɔ
 
 Blossom nye Zcash ƒe network upgrade etɔ̃. Eva le Overwinter kple Sapling megbe, eye eva do ŋgɔ na Heartwood kple Canopy. To vovo na Sapling, si trɔ Zcash ƒe ɣaɣla cryptography, Blossom tsɔ ɖe nu ƒe dziyiyi kple kabakaba dzi. Eƒe dɔ vevitɔ nye gaɖoɖowo ƒuƒoƒe ƒe ɣeyiɣi, menye ɣaɣla [privacy] ƒe nuŋlɔɖi yeye o.
+
+## Vodada Siwo Bɔ
+
+- **Susu be gaɖoɖowo ƒuƒoƒe siwo vana kabakaba fia ZEC geɖe.** Ne woma fetu si wòxɔna ɖe gaɖoɖowo ƒuƒoƒe ɖeka ta ɖe afã eye wotsɔ gaɖoɖowo ƒuƒoƒewo ƒe vava ƒe kabakaba ɖo eve teƒe la, ga yeye siwo wodena dɔa me le ɣeyiɣi ɖeka me nɔa ŋutɔ abe alesi wònɔ ene.
+- **Susu be fetu ƒe afãmamawo dzɔna kaba le ɣeyiɣi ŋutɔŋutɔ me.** Gaɖoɖowo ƒuƒoƒe siwo nɔa fetu ƒe afãmama ɖeka kple evelia dome dzi ɖe edzi tso 840,000 dzi va ɖo 1,680,000, eyata fetu ƒe afãmamawo ƒe ŋkekewo le ɣeyiɣi ŋutɔŋutɔ me metrɔ o.
+- **Xlẽ "sekondi 75" abe ɖeɖefia ene.** Enye dzodzro si woɖo daɖi na dɔwɔwɔ ƒe ɖaseɖigbalɛ (proof-of-work); ɣeyiɣi si nɔa gaɖoɖowo ƒuƒoƒewo dome ŋutɔ trɔna le eŋu.
+- **Bu Blossom abe ɣaɣla ƒe ŋgɔyiyi ene.** Eƒe dɔe nye gaɖoɖowo ƒuƒoƒewo ƒe ɣeyiɣi kple nu ƒe dziyiyi (scaling) — mesɔ kple Sapling o, metrɔ cryptography (nuŋɔŋlɔ ɣaɣla ƒe aɖaŋu) aɖeke o.
+- **Susu be ɣaɣla dzesi ŋɔŋlɔ (node) ƒe dɔwɔlawo ate ŋu agbe eyi.** Blossom nye gbegbɔgblɔ ɖi (consensus) ƒe tɔtrɔ si ka akpa eveawo siaa; ɣaɣla dzesi ŋɔŋlɔ si womeɖɔ ɖo o la ʋu ɖe aga tso network la ŋu.
 
 ## Nyagblɔwo ƒe gɔme
 
@@ -95,5 +115,12 @@ Elabena Blossom hã tsɔ fetu si wona le gaɖoɖowo ƒuƒoƒe siaa me wɔ afã e
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Axa Siwo Do Ƒome Kplii
+
+- [Sapling](./Sapling.md) — mɔ̃ ƒe sewo trɔtrɔ si do ŋgɔ (gbeɖoɖo ɣaɣla ƒe aɖaŋu [cryptography], menye ɣeyiɣi o)
+- [Heartwood](./Heartwood.md) — mɔ̃ ƒe sewo trɔtrɔ si kplɔe ɖo le ƒuƒoƒo sia me
+- [Ɣaɣla dzesi ŋɔŋlɔ bliboawo](./Full_Nodes.md) — nusi ɣaɣla dzesi ŋɔŋlɔ wɔwɔ to mɔ̃ ƒe sewo trɔtrɔ siwo wòle be woawɔ me bia
+- [Mɔ̃ ƒe sewo trɔtrɔwo ƒe nuŋlɔɖi](../start-here/network-upgrades) — mɔ̃ ƒe sewo trɔtrɔwo ƒe ɣeyiɣi ƒe ɖoɖo blibo
 
 Series: [Network Upgrades ƒe index](../start-here/network-upgrades) · Si do ŋgɔ: [Sapling](../zcash-tech/sapling) · Si kplɔe ɖo: [Heartwood](../zcash-tech/heartwood)

@@ -7,7 +7,7 @@
 
 1. **Brave:** आज के बाज़ार में सबसे प्रमुख और सुरक्षित ब्राउज़रों में से एक। यह गोपनीयता में दखल देने वाले विज्ञापनों और trackers को ब्लॉक करता है। यह third-party data storage को ब्लॉक करता है। 
 
-2. **Mulvad:** गोपनीयता-केंद्रित web browser, जिसे Mullvad VPN और Tor Project के सहयोग से विकसित किया गया है। इसे tracking और fingerprinting को न्यूनतम करने के लिए बनाया गया है
+2. **Mullvad:** गोपनीयता-केंद्रित web browser, जिसे Mullvad VPN और Tor Project के सहयोग से विकसित किया गया है। इसे tracking और fingerprinting को न्यूनतम करने के लिए बनाया गया है
 
 3. **Tor:** यह browser Flash, RealPlayer, QuickTime और अन्य जैसे plugins को ब्लॉक करता है: इन्हें इस तरह से प्रभावित किया जा सकता है कि वे आपका IP address उजागर कर दें। हम Tor Browser में अतिरिक्त add-ons या plugins इंस्टॉल करने की अनुशंसा नहीं करते
 

@@ -60,7 +60,7 @@ Plataforma de participación y recompensas comunitarias diseñada para comunidad
 
 ### Centro de subvenciones Zcash
 Panel de subvenciones [grants] centrado en la comunidad, diseñado para simplificar cómo se descubren, rastrean y revisan las subvenciones de Zcash. Reúne solicitudes de subvenciones, hitos, presupuestos, debates y análisis en un solo lugar al extraer datos en vivo del repositorio Zcash Community Grants GitHub. La plataforma busca ofrecer una experiencia más clara y fácil de usar para solicitantes, miembros del comité y revisores comunitarios.  
-[Visitar](https://staging.zgrantshub.com/)
+[Visitar](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Plataforma de IA que proporciona acceso a varios modelos líderes de IA y admite
 ### zk.poker
 Plataforma de póquer entre pares que combina cifrado de extremo a extremo, póquer mental y tecnología de privacidad de Zcash. Está diseñada para que el operador no necesite conocer las cartas de los jugadores ni retener directamente los fondos de apuestas.  
 [Visitar](https://zkbtc.org/)
+
+### ZKöy
+Un juego de fiesta al estilo de Werewolf para grupos en una misma sala. Los jugadores se unen desde sus teléfonos; cada elección nocturna y cada voto se sellan como un memo blindado (shielded) en la testnet de Zcash, y cuando termina la partida se revelan la semilla, la sal y la clave de visualización (viewing key), para que cualquiera pueda verificar el resultado on-chain.  
+[Visitar](https://zkoy.fun)
 
 ---
 

@@ -38,11 +38,11 @@ In Namada, l'insieme schermato è considerato un bene pubblico non esclusivo e n
 
 ## Transazione di asset schermati
 
-Per quanto riguarda i trasferimenti schermati, che coinvolgano un token non fungibile (NFT) Ethereum, ATOM o NAM, sono indistinguibili tra loro. Ciò significa che le funzionalità di tutela della privacy offerte dal MASP (protocollo Modified Accumulator Sapling), una versione migliorata del circuito Sapling di Zcash, si applicano uniformemente a tutti i tipi di asset. Il circuito MASP consente a tutti gli asset nell'ecosistema di Namada di condividere lo stesso insieme schermato. Questo approccio garantisce che le garanzie di privacy non siano frammentate tra i singoli asset. Indipendentemente dal volume di transazioni associato a un particolare asset, la protezione della privacy rimane coerente e indipendente.
+Il MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)) estende il circuito Sapling di Zcash per supportare trasferimenti schermati di asset nativi e non nativi. Condividere una pool non significa che la privacy sia indipendente dall'uso di un asset. La documentazione di Namada spiega che gli asset dello stesso tipo condividono un insieme di anonimato e che gli schemi pubblici di schermatura e de-schermatura possono comunque rivelare l'origine di un asset.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-Unificando l'insieme schermato tra asset diversi, Namada garantisce che la privacy sia mantenuta uniformemente, indipendentemente dal tipo specifico di asset coinvolto in un trasferimento schermato. Questo approccio promuove un quadro di privacy coerente all'interno del protocollo e migliora la riservatezza delle transazioni che coinvolgono NFT Ethereum, ATOM, NAM e altri asset supportati. Namada consente inoltre il trasferimento privato di token fungibili e non fungibili utilizzando nuovi zk-SNARKs, garantendo la riservatezza dei token nativi e non nativi proprio come avviene su Zcash.
+Ad esempio, se un solo account scherma BTC e in seguito li preleva verso lo stesso account, quei punti di ingresso e di uscita pubblici possono essere collegati anche se i fondi si sono spostati privatamente all'interno della MASP. Quando sono più account a schermare BTC, un prelievo successivo potrebbe invece appartenere a uno qualsiasi di quegli account. Contano la partecipazione e lo schema delle transazioni; la dimensione della pool condivisa da sola non garantisce la stessa privacy per ogni asset.
 
 ## Meno commissioni e transazioni rapide
 

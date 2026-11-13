@@ -95,5 +95,5 @@ Betrachte zum Beispiel ein NFT-Listing auf Solana; sein öffentlicher Zustand (z
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO ist eine öffentliche Layer-1-Blockchain. TomoChain ist ein auf TomoChain entwickeltes Datenschutzprotokoll, das darauf ausgelegt ist, sichere und nicht nachverfolgbare Transaktionen zu schaffen -**Asset Swap**: Ja- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (ehemals TomoChain)](https://viction.xyz/ecosystem)**: VIC (ehemals TOMO) ist eine öffentliche Layer-1-Blockchain. TomoChain ist ein auf TomoChain entwickeltes Datenschutzprotokoll, das darauf ausgelegt ist, sichere und nicht nachverfolgbare Transaktionen zu schaffen -**Asset Swap**: Ja- [Whitepaper](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

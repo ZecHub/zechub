@@ -102,7 +102,7 @@
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics δεδομένα δικτύου](https://docs.coinmetrics.io/network-data/network-data-overview) — τεκμηρίωση μετρικών και σύνδεσμοι προς την τρέχουσα κάλυψη περιουσιακών στοιχείων.
 
 Μπορείς επίσης να συμβάλεις στην ανάπτυξη του δικτύου εκτελώντας δοκιμές ή προτείνοντας νέες βελτιώσεις και παρέχοντας μετρήσεις.
 

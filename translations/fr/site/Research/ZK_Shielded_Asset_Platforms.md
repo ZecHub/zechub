@@ -95,5 +95,5 @@ Par exemple, prenons une annonce NFT sur Solana ; son état public (par exemple,
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO est une blockchain publique de couche 1. TomoChain est un protocole de confidentialité développé sur TomoChain et conçu pour créer des transactions sûres et intraçables -**Échange d’actifs**: Oui- [Livre blanc](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (anciennement TomoChain)](https://viction.xyz/ecosystem)**: VIC (anciennement TOMO) est une blockchain publique de couche 1. TomoChain est un protocole de confidentialité développé sur TomoChain et conçu pour créer des transactions sûres et intraçables -**Échange d’actifs**: Oui- [Livre blanc](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

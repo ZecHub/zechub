@@ -36,6 +36,36 @@ Heartwood est une étape dans une série de mises à niveau de Zcash, chacune aj
 
 ![Chronologie des mises à niveau de Zcash : Overwinter et Sapling en 2018, Blossom en 2019, et Heartwood en 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## En bref
+
+- Heartwood a été activé au bloc 903 000 du mainnet (16 juillet 2020 UTC), déployé par ZIP 250 avec un nouvel identifiant de branche de consensus pour une protection bidirectionnelle contre la relecture.
+- ZIP 213 (Coinbase blindé) : les transactions coinbase peuvent contenir des sorties Sapling, de sorte que les mineurs peuvent recevoir les récompenses de bloc directement sur une adresse blindée.
+- ZIP 221 (FlyClient) : le champ hashLightClientRoot de l’en-tête s’engage désormais sur un Merkle Mountain Range, ce qui permet aux clients légers de vérifier la preuve de travail avec des preuves dont la taille ne croît que de façon logarithmique.
+- Les sorties coinbase transparentes restent entièrement prises en charge : le coinbase blindé est une nouvelle option, pas une obligation.
+- L’activation se produit à une hauteur de bloc, et non à une heure précise, de sorte que la minute exacte diffère selon les tableaux de bord et les fuseaux horaires.
+
+## Explication de base
+
+Avant Heartwood, les ZEC fraîchement émis d’un mineur devaient commencer leur existence dans une adresse transparente, de sorte que n’importe qui pouvait observer les revenus d’un mineur et retracer leur destination. ZIP 213 a assoupli la règle de consensus afin que la transaction coinbase puisse payer des sorties Sapling, préservant ainsi la confidentialité de la rémunération d’un mineur dès le tout premier instant de son existence. Il cible spécifiquement Sapling parce que la génération de preuves efficace de Sapling rendait le blindage au sein de la coinbase réalisable ; les preuves lourdes de Sprout n’y étaient pas envisageables.
+
+ZIP 221 a réaffecté le champ d’en-tête hashFinalSaplingRoot en hashLightClientRoot. Il s’engage désormais sur un Merkle Mountain Range construit à partir des données d’en-tête des blocs précédents : horodatages, cibles de difficulté, racines Sapling, travail accumulé et nombre de transactions. Un client léger ou une autre chaîne peut alors vérifier la preuve de travail de Zcash grâce à une petite preuve, au lieu de télécharger chaque bloc.
+
+## Analogie visuelle
+
+Avant : la paie de chaque mineur était affichée sur un tableau public, et n’importe qui pouvait lire le montant et suivre sa trace. Après : la paie peut arriver dans une enveloppe scellée. Et chaque nouveau bloc porte désormais un petit sceau de cire qui résume tous les blocs précédents, si bien qu’un inconnu peut vérifier d’un coup d’œil toute la chaîne de travail au lieu de lire chaque page.
+
+## Analyse approfondie
+
+Ce changement de règle s'inscrivait dans une histoire : Sapling avait étendu l'interdiction initiale du coinbase blindé pour couvrir également les sorties Sapling, et Heartwood a levé cette restriction pour les autoriser. C'est un exemple parfait de la façon dont la tuyauterie d'une mise à niveau devient le socle de la suivante. L'engagement MMR porte ses fruits dans les wallets légers et l'intégration cross-chain, où vérifier le travail de Zcash exigeait auparavant de télécharger la chaîne complète. L'identifiant de branche de consensus ajouté lors de l'activation assure une protection contre la relecture dans les deux sens : une transaction construite selon les nouvelles règles ne peut pas être rejouée sur l'ancienne chaîne, et inversement.
+
+## Erreurs courantes
+
+- **Croire que le coinbase blindé est devenu obligatoire.** Les sorties coinbase transparentes restent valides ; ce sont les mineurs qui choisissent.
+- **Supposer que Sprout peut recevoir un coinbase blindé.** Seules les sorties Sapling sont autorisées, car la génération de preuves de Sprout était trop gourmande en ressources.
+- **Penser que FlyClient supprime le besoin de nœuds complets.** Il sert les clients légers et les vérificateurs inter-chaînes ; les nœuds complets restent le point d'ancrage du réseau.
+- **Chercher une heure d'activation fixe.** L'activation était définie au bloc 903 000, donc la minute exacte en temps réel varie.
+- **Confondre hashLightClientRoot avec l'ancien hashFinalSaplingRoot.** Le même champ a été réaffecté et renommé.
+
 ## Glossaire
 
 | Terme | Signification en français simple |
@@ -67,7 +97,7 @@ Avant Heartwood, pourquoi la récompense de bloc versée à un mineur apparaissa
 <details>
 <summary>Réponse</summary>
 
-Les sorties coinbase devaient être transparentes, donc la récompense nouvellement créée d’un mineur arrivait toujours dans une adresse transparente publique que n’importe qui pouvait inspecter. Heartwood a modifié les règles de consensus (ZIP 213) afin que les transactions coinbase puissent contenir des sorties Sapling, permettant aux mineurs de recevoir leurs récompenses directement dans des adresses blindées.
+Les sorties Coinbase devaient être transparentes, de sorte que la récompense nouvellement créée d'un mineur atterrissait toujours sur une adresse transparente publique que n'importe qui pouvait consulter. Heartwood a modifié les règles de consensus (ZIP 213) afin que les transactions coinbase puissent contenir des sorties Sapling, permettant ainsi aux mineurs de recevoir leurs récompenses directement sur des adresses blindées.
 </details>
 
 ### Ressources
@@ -95,5 +125,12 @@ Les sorties coinbase devaient être transparentes, donc la récompense nouvellem
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Pages associées
+
+- [Sapling](./Sapling.md) — le mécanisme efficace qui a rendu possible le coinbase blindé
+- [Canopy](./Canopy.md) — la prochaine mise à niveau de la série
+- [Nœuds complets](./Full_Nodes.md) — ce que la vérification complète apporte encore
+- [Ce qu'un explorateur de blocs peut voir](./What_a_Block_Explorer_Can_See.md) — ce que révèle un coinbase transparent par rapport à un coinbase blindé
 
 Série : [Index des mises à niveau du réseau](../start-here/network-upgrades) · Précédent : [Blossom](../zcash-tech/blossom) · Suivant : [Canopy](../zcash-tech/canopy)

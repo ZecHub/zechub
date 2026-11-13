@@ -7,7 +7,7 @@
 
 1. **Brave:** Uno de los navegadores más destacados y seguros del mercado actual. Bloquea anuncios y rastreadores invasivos para la privacidad. Bloquea el almacenamiento de datos por terceros. 
 
-2. **Mulvad:** Un navegador web centrado en la privacidad desarrollado en colaboración entre Mullvad VPN y el Proyecto Tor. Se ha creado para minimizar el rastreo y la toma de huellas digitales.
+2. **Mullvad:** Un navegador web centrado en la privacidad desarrollado en colaboración entre Mullvad VPN y el Proyecto Tor. Se ha creado para minimizar el rastreo y la toma de huellas digitales.
 
 3. **Tor:** Este navegador bloquea plugins como Flash, RealPlayer, QuickTime y otros: pueden manipularse para revelar tu dirección IP. No recomendamos instalar complementos o plugins adicionales en el navegador Tor.
 

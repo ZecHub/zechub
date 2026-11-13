@@ -36,6 +36,36 @@ Heartwood ni hatua moja katika mfululizo wa maboresho ya mtandao ya Zcash, huku 
 
 ![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## Muhtasari (TL;DR)
+
+- Heartwood ilianza kutumika kwenye block 903,000 ya mainnet (16 Julai 2020 UTC). Ilisambazwa na ZIP 250 pamoja na kitambulisho kipya cha tawi la makubaliano (consensus branch id) kwa ajili ya ulinzi wa pande mbili dhidi ya kurudiwa kwa miamala.
+- ZIP 213 (Coinbase ya Faragha): Miamala ya coinbase inaweza kuwa na matokeo (outputs) ya Sapling. Hivyo wachimbaji (miners) wanaweza kupokea zawadi za block moja kwa moja kwenye anwani ya faragha (shielded address).
+- ZIP 221 (FlyClient): Sasa hashLightClientRoot ya kichwa cha block huweka commitment kwa Merkle Mountain Range. Hii inaruhusu light client kuthibitisha proof-of-work kwa mathibitisho (proofs) yanayokua kwa kiwango cha logarithimu pekee.
+- Matokeo ya coinbase ya uwazi (transparent) bado yanaungwa mkono kikamilifu. Coinbase ya faragha ni chaguo jipya, si lazima.
+- Uanzishaji hutokea kwenye kimo fulani cha block, si kwenye saa fulani. Kwa hiyo dakika kamili hutofautiana kati ya dashibodi (dashboards) na kanda za saa.
+
+## Maelezo ya Msingi
+
+Kabla ya Heartwood, ZEC zilizozalishwa upya na mchimbaji zililazimika kuanzia kwenye anwani ya uwazi (transparent), hivyo mtu yeyote angeweza kufuatilia mapato ya mchimbaji na kufuatilia yalikokwenda. ZIP 213 ililegeza kanuni ya makubaliano (consensus) ili muamala wa coinbase uweze kulipa matokeo ya Sapling, na hivyo kuweka malipo ya mchimbaji kuwa ya faragha tangu wakati wa kwanza kabisa wa kuwepo kwake. Inalenga Sapling hasa kwa sababu uzalishaji bora wa mathibitisho (proofs) wa Sapling ulifanya kuweka fedha kwenye faragha ndani ya coinbase kuwezekane; mathibitisho mazito ya Sprout hayakuwezekana huko.
+
+ZIP 221 ilibadilisha matumizi ya sehemu ya kichwa hashFinalSaplingRoot kuwa hashLightClientRoot. Sasa inaweka commitment kwa Merkle Mountain Range iliyojengwa juu ya data ya vichwa vya block zilizotangulia: mihuri ya muda, malengo ya ugumu, mizizi ya Sapling, kazi iliyolimbikizwa na idadi ya miamala. Kisha light client au mnyororo mwingine unaweza kuthibitisha proof-of-work ya Zcash kwa thibitisho dogo, badala ya kupakua kila block.
+
+## Mfano wa kuona
+
+Kabla: malipo ya kila mchimbaji yalibandikwa kwenye ubao wa matangazo wa umma, na kiasi pamoja na mkondo wa fedha viliweza kusomwa na mtu yeyote. Baada: malipo yanaweza kufika ndani ya bahasha iliyofungwa. Pia kila block mpya sasa hubeba muhuri mdogo wa nta unaofupisha kila block iliyotangulia. Hivyo mgeni anaweza kuthibitisha mnyororo mzima wa kazi kwa kutazama mara moja tu, badala ya kusoma kila ukurasa.
+
+## Uchambuzi wa Kina
+
+Mabadiliko ya kanuni hii yalikuwa na historia: Sapling ilikuwa imepanua marufuku ya awali dhidi ya coinbase ya faragha (shielded coinbase) ili kujumuisha pia matokeo ya Sapling, na Heartwood iliondoa kizuizi hicho ili kuyaruhusu. Huu ni mfano mzuri wa jinsi miundombinu ya uboreshaji mmoja inavyokuwa msingi wa uboreshaji unaofuata. Commitment ya MMR inaleta manufaa katika pochi (wallet) nyepesi na katika muunganisho wa cross-chain, ambapo hapo awali kuthibitisha kazi ya Zcash kulihitaji kupakua mnyororo (chain) mzima. Kitambulisho cha tawi la makubaliano (consensus branch id) kilichoongezwa wakati wa kuanzishwa hutoa ulinzi wa pande mbili dhidi ya kurudiwa kwa miamala (replay protection). Muamala (transaction) uliojengwa chini ya kanuni mpya hauwezi kurudiwa kwenye mnyororo wa zamani, na vivyo hivyo kinyume chake.
+
+## Makosa ya Kawaida
+
+- **Kudhani kwamba coinbase ya faragha (shielded coinbase) ililazimishwa.** Matokeo ya coinbase ya uwazi (transparent) bado ni halali; wachimbaji (miners) huchagua.
+- **Kudhani kwamba Sprout inaweza kupokea coinbase ya faragha.** Matokeo ya Sapling pekee ndiyo yanaruhusiwa — uundaji wa mathibitisho (proving) wa Sprout ulihitaji rasilimali nyingi mno.
+- **Kuamini kwamba FlyClient huondoa uhitaji wa full nodes.** Huhudumia light clients na wathibitishaji wa cross-chain; full nodes bado ndizo nguzo ya mtandao.
+- **Kutafuta saa maalum ya kuwezesha.** Uwezeshaji ulifafanuliwa katika block 903,000, kwa hiyo dakika halisi ya saa hutofautiana.
+- **Kuchanganya hashLightClientRoot na hashFinalSaplingRoot ya zamani.** Sehemu ileile ilipewa matumizi mapya na kubadilishwa jina.
+
 ## Fahirisi ya istilahi
 
 | Istilahi | Maana kwa lugha rahisi |
@@ -95,5 +125,12 @@ Matokeo ya Coinbase yalilazimika kuwa ya uwazi, hivyo zawadi mpya ya mchimbaji d
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Kurasa Zinazohusiana
+
+- [Sapling](./Sapling.md) — mfumo bora uliowezesha coinbase ya faragha
+- [Canopy](./Canopy.md) — uboreshaji unaofuata katika mfululizo huu
+- [Full Nodes](./Full_Nodes.md) — kile ambacho uthibitishaji kamili bado unatoa
+- [Kile Ambacho Kichunguzi cha Block Kinaweza Kuona](./What_a_Block_Explorer_Can_See.md) — kile ambacho coinbase ya uwazi na coinbase ya faragha hufichua
 
 Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Blossom](../zcash-tech/blossom) · Inayofuata: [Canopy](../zcash-tech/canopy)

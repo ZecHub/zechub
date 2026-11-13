@@ -44,6 +44,36 @@ Kuanzia wakati Canopy ilipoanza kutumika, hakuna thamani mpya inayoweza kuongezw
 
 Pamoja na mabadiliko ya ufadhili, Canopy ilileta ZIP mbili ndogo za kiufundi. [ZIP 212](https://zips.z.cash/zip-0212) ilibadilisha jinsi mpokeaji anavyotoa siri ya muda mfupi ya Sapling, kwa kuitoa kutoka kwenye maandishi wazi ya dokezo [note]. [ZIP 215](https://zips.z.cash/zip-0215) iliandika sheria wazi za kuthibitisha sahihi [signature] za Ed25519, ili kila node ikubaliane ni sahihi zipi hasa zinazochukuliwa kuwa halali.
 
+## Kwa Ufupi
+
+- Canopy (NU4) iliamilishwa kwenye block 1,046,400 ya mainnet (18 Novemba 2020 UTC). Hii ni block ileile ya kupunguzwa kwa nusu (halving) kwa kwanza kwa Zcash, ambako zawadi ya block ilipunguzwa kutoka 6.25 hadi 3.125 ZEC.
+- Ilikomesha zawadi ya waanzilishi (founders reward) na kuunda Mfuko wa Maendeleo wa Zcash (Development Fund). Mfuko huu ulipata 20% ya kila zawadi ya block kwa miaka minne, hadi kupunguzwa kwa nusu kwa pili mwaka 2024 (sera ya ZIP 1014; utaratibu wa ZIP 207/214).
+- Sehemu hiyo ya 20% ya mfuko imegawanywa hivi: 35% kwa Bootstrap (Electric Coin Company), 25% kwa Zcash Foundation, na 40% kwa Ruzuku Kuu (Major Grants), ambazo baadaye zilijulikana kama Zcash Community Grants.
+- Ilifunga bwawa (pool) la Sprout kwa thamani mpya (ZIP 211). Hakuna amana mpya zinazoweza kuingia, lakini fedha bado zinaweza kutolewa.
+- ZIP mbili za kiufundi ziliambatana nayo: ZIP 212 (siri ya muda ya Sapling inayotokana na maandishi wazi ya dokezo [note plaintext]) na ZIP 215 (kanuni za wazi za uthibitishaji wa Ed25519).
+
+## Maelezo ya Msingi
+
+Zcash inafadhili maendeleo yake yenyewe kutokana na zawadi za block (block rewards) kwa sababu hakuna kampuni inayoiunga mkono. Zawadi ya waanzilishi (founders reward) ilifadhili miaka ya mwanzo na ilipangwa kumalizika katika kupunguzwa kwa nusu (halving) kwa kwanza, kwa hiyo mbadala ulipaswa kuwepo kabla ya muda huo wa mwisho. Canopy ndio ulikuwa mbadala huo: ZIP 207 ilianzisha utaratibu wa jumla wa mikondo ya ufadhili (funding streams) unaoelekeza sehemu ya ruzuku ya block (block subsidy) kwa anwani (addresses) za wapokeaji zilizobainishwa, na ZIP 214 iliweka sheria na anwani mahususi za Mfuko wa Maendeleo (Development Fund). Zikipimwa dhidi ya zawadi yote badala ya mfuko pekee, hisa ni 7% ECC, 5% Zcash Foundation, na 8% Ruzuku Kuu (Major Grants). Hizi ni namba zile zile, zilizoelezwa kwa njia mbili.
+
+Canopy pia ilianza kustaafisha Sprout, bwawa la faragha (shielded pool) la zamani zaidi la Zcash: tangu kuanza kutumika, sehemu ya vpub_old ya kila JoinSplit lazima iwe sifuri, hivyo thamani inaweza kutoka Sprout lakini haiwezi kurudi tena.
+
+## Mfano wa kuona
+
+Canopy ni wakati ambapo awamu ya mishahara ya waanzilishi wa kampuni changa inaisha na katiba inachukua nafasi yake: kuanzia block hiyo na kuendelea, senti 20 za kila dola ambayo mtandao unazalisha zinatengwa kwa ajili ya matengenezo na kugawanywa kwa uwiano wa 35/25/40 kati ya idara tatu. Wakati huo huo, ghala la zamani (Sprout) linafungwa kwa uhifadhi mpya. Mtu yeyote bado anaweza kuchukua bidhaa zake, lakini hakuna kitu kipya kinachoingizwa.
+
+## Uchambuzi wa Kina
+
+Mkondo wa ufadhili unatekelezwa kwa makubaliano (consensus), si kwa kuaminiana: node hukataa block ambazo coinbase yake hailipi wapokeaji waliobainishwa sehemu zao zilizobainishwa. Canopy iliwekwa kwa makusudi kwenye block ya kupunguzwa kwa nusu (halving), hivyo wachimbaji (miners) waliona zawadi ikipunguzwa kwa nusu wakati uleule ambapo sehemu mpya ya zawadi hiyo ndogo zaidi ilianza kuelekezwa kwenye maendeleo. ZIP 212 ilibadilisha jinsi siri ya muda mfupi ya Sapling inavyopatikana (kutoka kwenye maandishi wazi ya dokezo [note]), na ZIP 215 iliandika kanuni dhahiri za kukubali Ed25519 ili kila node ithibitishe sahihi (signatures) kwa njia ileile. Haya yalikuwa mabadiliko madogo yaliyoondoa makundi mazima ya utata wa makubaliano.
+
+## Makosa ya Kawaida
+
+- **Kudhani kwamba Canopy ndiyo kupunguzwa kwa nusu (halving) yenyewe.** Vilishiriki block moja ya kuanza kutumika, lakini ni mabadiliko tofauti: ZIP 251 (Canopy) dhidi ya ratiba ya utoaji wa sarafu.
+- **Kuelewa asilimia 20% kama imechukuliwa kutoka kwenye sehemu mpya ya wachimbaji (miners).** Wachimbaji walibaki na 80%; mfuko unachukua 20% ya zawadi ya block.
+- **Kudhani kwamba fedha za Sprout zilifungiwa au kuharibiwa.** Bado inawezekana kutoa fedha; ni amana mpya pekee ndizo zilizositishwa.
+- **Kuchukulia “35/25/40 ya mfuko” na “7/5/8 ya zawadi” kama migawanyo tofauti.** Ni namba zilezile zilizopimwa dhidi ya misingi tofauti.
+- **Kuita Canopy uboreshaji wa kriptografia.** Ulihusu hasa utawala (governance) na sera ya fedha; ZIP za kiufundi zilikuwa marekebisho madogo.
+
 ## Faharasa
 
 | Istilahi | Maana kwa lugha rahisi |
@@ -108,5 +138,12 @@ Zawadi ya awali ya waanzilishi ilipangwa kuisha wakati wa kupunguzwa kwa nusu kw
 [Utawala wa Zcash](../zcash-community/zcash-governance)
 
 ---
+
+## Kurasa Zinazohusiana
+
+- [Sprout](./Sprout.md) — bwawa ambalo Canopy ilifunga kwa amana mpya
+- [Heartwood](./Heartwood.md) — uboreshaji uliotangulia katika mfululizo huu
+- [NU5](./NU5.md) — uboreshaji unaofuata, ulioanzishwa Orchard
+- [NU6.1](./NU6_1.md) — marekebisho ya hivi karibuni zaidi ya ufadhili wa maendeleo
 
 Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [Heartwood](../zcash-tech/heartwood) · Inayofuata: [NU5](../zcash-tech/nu5)

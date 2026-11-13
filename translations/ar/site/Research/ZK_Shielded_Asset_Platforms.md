@@ -95,5 +95,5 @@ published: 2024-01-12
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO هي blockchain عامة من الطبقة الأولى. TomoChain هو بروتوكول خصوصية تم تطويره على TomoChain وصُمم لإنشاء معاملات آمنة وغير قابلة للتتبع -**مبادلة الأصول**: نعم- [الورقة البيضاء](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (سابقًا TomoChain)](https://viction.xyz/ecosystem)**: VIC (سابقًا TOMO) هي blockchain عامة من الطبقة الأولى. TomoChain هو بروتوكول خصوصية تم تطويره على TomoChain وصُمم لإنشاء معاملات آمنة وغير قابلة للتتبع -**مبادلة الأصول**: نعم- [الورقة البيضاء](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

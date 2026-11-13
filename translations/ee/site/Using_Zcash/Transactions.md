@@ -64,36 +64,72 @@ Nu vevi lae nye be Zcash na wò nàtia nu si nàɖo, fexexe sia fexexe.
 
 ## Zcash Adzɔwo
 
-Zcash mezãa Ethereum ƒe gas units o. Woƒea Zcash gaɖoɖo ƒe adzɔwo le ZEC me, eye woɖea wɔnɔa wɔnɔa le **zatoshis** me. ZEC ɖeka sɔ kple zatoshis 100,000,000.
+Na wò gakotoku nabu network ƒe adzɔ la, eye nàlé ŋku ɖe eŋu hafi nàɖoe ɖa. Woƒea adzɔwo le ZEC me: **ZEC 1 = zatoshis 100,000,000**. Adzɔ si woxe le US dollars me hã nɔ te ɖe ZEC ƒe gatrɔtrɔ ƒe asixɔxɔ dzi.
 
-[ZIP 317](https://zips.z.cash/zip-0317) dea adzɔ ƒe mɔ si wɔnɔa kple gaɖoɖoa ƒe kpekpeɖeŋu ɖo. Le teƒe si gaɖoɖo sia ame zãa zatoshi 1,000 ƒe adzɔ kpuie xoxo la, adzɔ si woɖo ɖe mɔ nu la tu ɖe "logical actions" abe inputs, outputs, kple ɣaɣla actions ene. Gaɖoɖo bɔbɔewo dzena geɖe le zatoshis 10,000 alo ZEC 0.0001 gbɔ, eye gaɖoɖowo siwo kpe ɖe eŋu wu la ate ŋu ahiã nu geɖe wu.
+### Nusita fexexe eve ate ŋu axɔ adzɔ vovovowo
 
-Le gakotoku siwo le fifia me geɖe la, mele be zazãlawo nakɔ ZIP 317 ƒe adzɔwo wo ŋutɔ o. Ele be gakotoku la natia adzɔ si dze le eɖokui ŋutɔ. Ne gakotoku aɖe gale adzɔ kpuie xoxo zãm alo na wò nàɖo adzɔ si le ZIP 317 ƒe adzɔ si woɖo ɖe mɔ nu te ŋutɔ la, woate ŋu amem gaɖoɖoa, aɖe eƒe teƒe, node aɖewo akpɔe gbe, alo mate ŋu awɔ relay dedie o.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) kɔa adzɔ si woɖo ɖe mɔ nu tso **dɔwɔwɔ siwo le ɖoɖo nu** (logical actions) me, ke menye tso ga home si nèɖo ƒe akɔntabubu me o:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Nuwɔna siwo dze nu le susu nu (logical actions) dzidzea gaɖoɖo ƒe akpawo. Le kpɔɖeŋu me, gaɖoɖo si nye Orchard ɖeɖe ko zãa Orchard nuwɔnawo ƒe xexlẽme; gaɖoɖo si nye Sapling ɖeɖe ko zãa esi lolo wu le eƒe gazazãwo kple gadodowo ƒe xexlẽme dome. Wotsoa gaƒuƒoƒo vovovowo ƒe gadzɔwo kpena ɖe wo nɔewo ŋu. Nuwo ƒe ʋuʋuɖi ƒe akpawo zãa akɔntabubu si nɔ te ɖe lolome dzi. Kpɔ ZIP 317 be nàkpɔ akɔntabubu blibo la, si me Ironwood kple blemanuwo ƒe Sprout hã le.
+
+Eya ta, ne èzã didienu suesue geɖe siwo nèxɔ alo ne èzã gaƒuƒoƒo geɖe la, ate ŋu axɔ ga wu fexexe bɔbɔe si ƒe asixɔxɔ sɔ kplii. Ame siwo axɔ gaa ƒe xexlẽme ɖeɖe ko mate ŋu akpɔ adzɔ la ŋu o: tsɔtsrɔ̃ si gbɔna ɖe asi (change) kple nu siwo wotsɔ yɔa teƒewo (padding) hã le vevie.
+
+Kpɔɖeŋu siawo dze egɔme kple nuwɔna ƒe nɔnɔme ƒe xexlẽme [logical-action count] si wobu xoxo:
+
+| Dɔwɔwɔ siwo le ɖoɖo nu | Le zatoshis 5,000 le dɔwɔwɔ ɖeka ɖesiaɖe nu | Le zatoshis 1,000 le dɔwɔwɔ ɖeka ɖesiaɖe nu |
+| --- | --- | --- |
+| 2 | Zatoshis 10,000 / 0.0001 ZEC | Zatoshis 2,000 / 0.00002 ZEC |
+| 3 | Zatoshis 15,000 / 0.00015 ZEC | Zatoshis 3,000 / 0.00003 ZEC |
+| 10 | Zatoshis 50,000 / 0.0005 ZEC | Zatoshis 10,000 / 0.0001 ZEC |
+
+### Marginal adzɔ ka ƒe dɔ wɔna
+
+**Wolé kpɔ le November 11, 2026 dzi:** ZIP 317 ŋlɔ revision 2 kple [ZIP 2009](https://zips.z.cash/zip-2009) abe esiwo woɖo ɖe ŋgɔ ene. Le revision 2 ŋgɔ la, adzɔ si wotsɔna ɖe akpa ɖe sia ɖe ŋu (marginal fee) nye zatoshi 5,000. Revision 2 ɖoe be wòanye 1,000, eye esia na be adzɔ si sɔ gbɔ wu nye zatoshi 2,000 ke menye 10,000 o.
+
+Ɖoɖowɔɖia (proposal) gblɔ Mainnet ƒe kɔkɔme **3,590,000**, si wole mɔ kpɔm na be ava ɖo abe 19 November 2026 ene, kple Testnet ƒe kɔkɔme **4,465,026**. Ɣletigbalẽ dzi ŋkekenyanya menye nu si naa wòdzea egɔme wɔwɔ o. Le gakotokuwo gome la, kɔkɔme si le vevie enye gaɖoɖowo ƒuƒoƒe si me wole mɔ kpɔm be woaku gaɖoɖo la le; ɣaɣla dzesi ŋɔŋlɔwo zãa gaɖoɖowo ƒuƒoƒe si kplɔe ɖo ƒe kɔkɔme. Gaxlẽ nuŋɔŋlɔ siwo ŋu woda ka ɖo kple wò gakotoku ƒe ɖeɖe ɖe go mɔfiamewo ne ɖoɖowo le tɔtrɔm le zãzã gɔmedzedze me.
+
+Mègazã ŋusẽ atsɔ aɖo adzɔ si le ʋiʋlii la ɖe edzi le wò ŋutɔ wò asi me le esi ɖe susu aɖe alo software ƒe tasiaɖam yeye aɖe yɔ eŋkɔ ko ta o. ZIP 2009 bia be ɣaɣla dzesi ŋɔŋlɔwo [nodes] nado ɖoɖo yeye si ku ɖe gaɖoɖowo ɖoɖo ɖe amewo gbɔ ŋu la ɖa hafi gakotokuwo [wallets] naxɔ adzɔ [fee] la; ɣaɣla dzesi ŋɔŋlɔ siwo gale ɖoɖo xoxoawo zãm la ate ŋu agbe be yewomaɖo gaɖoɖo [transaction] si ƒe adzɔ le ʋiʋlii la ɖe amewo gbɔ o. Gaɖoɖowo ƒuƒoƒe ƒe kɔkɔme si dzi ɖoɖoa dzea egɔme le la hã to vovo le Testnet kple Mainnet dzi.
+
+### Ne akɔntabubu la medze abe nyateƒe ene o
+
+Kpɔ egbɔ be wò gakotoku la nye yeye eye wòwɔ ɖeka kple network la. Tsɔ eƒe network adzɔ sɔ kple ga ɖela ƒe dɔwɔƒe la ƒe ga ɖeɖe adzɔ ɖe vovo: dɔwɔƒe aɖe ƒe asixɔxɔ menye ZIP 317 ƒe kɔnu o. Ne fexexe aɖe ganɔ mɔ dzi, zã [kuxiwo gbɔ kpɔkpɔ ƒe afɔɖeɖe siwo le ete](#troubleshooting-stuck-transactions) hafi nàgaɖo ga ake.
+
+ZIP 317 nye gakotoku kple ɣaɣla dzesi ŋɔŋlɔ ƒe ɖoɖo, menye gbegbɔgblɔ ɖi (consensus) ƒe se si bia adzɔ sia tututu o. Ne èxe adzɔ si wozãna ɖaa la, ena be gaɖoɖoa ƒe tsɔtsɔ yi ɣaɣla dzesi ŋɔŋlɔ bubuwo gbɔ nɔa bɔbɔe wu; gake medoa ŋugbe ɖe ɣeyiɣi si me woaɖo kpe edzi ŋu o.
 
 ## Nɔnɔme Si Wòate Ŋu Aɖe Gaɖoɖowo Si Tsitre La Ƒe Kuxiwo
 
 Zcash gaɖoɖo menye nu mamlɛtɔ le esime ko wòkpɔe le wò gakotoku me o. Ena zu nu mamlɛtɔ na zazã bɔbɔe ne woaku eɖe gaɖoɖowo ƒuƒoƒe [block] me eye wòxɔ confirmation si sɔ na wòƒe nɔnɔme. Gatrɔƒewo kple subɔsubɔwo ate ŋu ahiã confirmations geɖe wu ale si gakotoku aɖe fia le gɔmedzedze me.
 
+Nuwuwu ŋkekea nye **gaɖoɖowo ƒuƒoƒe ƒe kɔkɔme** (block height), menye ɣeyiɣi si woxlẽ ɖe megbe tsitre ɖeka o. Le fexexe gbadza si ƒe nuwuwu ƒe kɔkɔme mènye 0 o me la, kɔkɔme mae nye gaɖoɖowo ƒuƒoƒe mamlɛtɔ si me woate ŋu akpɔe le nukuku (mining) me. Le kpɔɖeŋu me, fexexe si ƒe nuwuwu ƒe kɔkɔme nye 3539 la, woate ŋu atsɔe ade gaɖoɖowo ƒuƒoƒe 3539 me; gaɖoɖowo ƒuƒoƒe 3540 megale eme o. Ne nuwuwu ƒe kɔkɔme nye 0 la, efia be nuwuwu ŋkeke aɖeke meli na fexexe gbadza o. Kpɔ [ZIP 203](https://zips.z.cash/zip-0203).
+
+Nɔnɔme siwo woɖo ɖi do ŋgɔ (defaults) menye ɣeyiɣi siwo wotsɔ ɖo na nuwo katã o. ZIP 203 gblɔ be gaɖoɖowo ƒuƒoƒe (block) 40 le Blossom megbe, si sɔ kple aɖabaƒoƒo 50 ene ne ɣeyiɣi si wodi le gaɖoɖowo ƒuƒoƒe ɖe sia ɖe dome nye sekend 75. Tɔtrɔ si wode ŋgɔ na NU7 la ɖo aɖaŋu be woazã gaɖoɖowo ƒuƒoƒe 120 ne ɣeyiɣi si wodi le wo dome nye sekend 25, si hã sɔ kple aɖabaƒoƒo 50 ene ([ZIP 218](https://zips.z.cash/zip-0218)). Gakotoku (wallet) ƒe ɖoɖowo kple ale si wowɔ wo ate ŋu ato vovo, eye ɣeyiɣi si gaɖoɖowo ƒuƒoƒewo xɔna le wo nɔewo dome ŋutɔŋutɔ hã tsɔna vovo. Kpɔ gaɖoɖo (transaction) ma ŋutɔ ƒe nuwuwu kɔkɔme (expiry height) boŋ wu be nàxlẽ ɣeyiɣi hafi agaɖoe ake.
+
+Ɣeyiɣi ƒe nuwuwu (expiry) metrɔa fexexe si wode gaɖoɖowo ƒuƒoƒe me xoxo la ɖe megbe o, eye mewɔa gaɖoɖo si agbugbɔ ga la na wò o. Ne gaɖoɖo gbãtɔa ƒe ɣeyiɣi wu enu hafi wode gaɖoɖowo ƒuƒoƒe me la, ekema meva eme le ɖoɖonu dzi kpɔ o. Ðewohĩ wò gakotoku ahiã be yeawɔ ɖeka kple ɖoɖonu (sync) hafi wòaɖe ga siwo ku ɖe eŋu la afia be àte ŋu azã wo ake.
+
 Zã tiatia ƒe ati sia hafi nàɖo ga ake:
 
-1. **Wò gakotoku fia gaɖoɖo ƒe ID aɖe?**
-   - Ne ao la, ɖewohĩ gakotoku la mede gaɖoɖoa alo mede dɔe haɖe o. Kpɔ sync ƒe nɔnɔme, internet ƒe kadodo, gakotoku ƒe version, kple gakotoku ƒe vodada mesaj aɖeke.
-   - Ne ɛ̃ la, kpɔ gaɖoɖo ƒe ID la eye nàyi edzi.
-2. **Woɖe kpe ɖe gaɖoɖoa ŋu le gaɖoɖowo ƒuƒoƒe aɖe me?**
-   - Ne ɛ̃ la, lalaa na confirmations ƒe nọmba si wò gakotoku, gatrɔƒe, asitsɔla, alo subɔsubɔ hiã.
-   - Ne ao la, yi edzi.
-3. **Gaɖoɖoa va ɖo eƒe nuwuwu kɔƒe?**
-   - Ne ao la, megado fexexe ma ke ɖe asi o. Gaɖoɖo gɔmedzela la ate ŋu akpɔ kpeɖeŋu hã.
-   - Ne ɛ̃ la, woate ŋu aku gaɖoɖoa le nuwuwu kɔƒe ma megbe o. Wò gakotoku ate ŋu akpɔe be eƒe ɣeyiɣi va yi alo eda gbɔ, eye ɖewohĩ nàwɔ gaɖoɖo yeye aɖe.
-4. **Gaɖoɖoa doa go le server alo explorer ɖeka dzi gake menɔ bubu dzi o?**
-   - Bu be enye network ƒe nukpɔkpɔ kuxi, menye ɖase be gaɖoɖoa da gbɔ o. Node vovovowo ate ŋu akpɔ mempool ƒe nu vovovo.
-   - Lalaa, sync wò gakotoku ake, alo trɔ yi server si wòka ɖo dzi bubu aɖe gbɔ ne wò gakotoku tše eŋu.
-5. **Gaɖoɖoa bu tso eme megbe esi wòdoa go be woɖe kpe ɖe eŋu?**
-   - Chain ƒe ɖoɖo ake kpuie aɖe ate ŋu atso gaɖoɖo aɖe le chain nyuitɔ dzi le ɣeyiɣi kpuie aɖe me.
-   - Lalaa na gaɖoɖowo ƒuƒoƒewo bubu. Ne gaɖoɖoa trɔ va la, yi edzi lalaa na confirmations. Ne metrɔ va o eye eƒe ɣeyiɣi va yi emegbe la, wɔ gaɖoɖo yeye aɖe.
-6. **Gakotoku la bia be nàɖo ga ake?**
-   - Dze gakotoku la ƒe gɔmeɖeɖe si le fifia yome ne èkpɔ be gaɖoɖo si do ŋgɔ la ƒe ɣeyiɣi va yi, eda gbɔ, alo menɔ asɔ nyɛ o megbe ko.
-   - Ne mèka ɖe eŋu o la, bia kpeɖeŋu hafi nàɖo ga ake.
+1. **Ðe wò gakotoku ɖe gaɖoɖo ƒe ID fia a?**
+   - Ne menye nenema o la, ɖewohĩ gakotoku la mewɔ alo ɖo gaɖoɖo la ɖa haɖe o. Kpɔ ale si wò gakotoku wɔ ɖeka kple network la (sync status), wò internet kadodo, gakotoku ƒe tɔtrɔ (version), kple vodada ƒe gbedasi ɖesiaɖe si gakotoku la ɖe fia.
+   - Ne ẽ la, kɔpi gaɖoɖo ƒe ID la eye nàyi edzi.
+2. **Ðe woka ɖe gaɖoɖo la dzi le gaɖoɖowo ƒuƒoƒe aɖe me a?**
+   - Ne ẽ la, lala va se ɖe esime kakaɖedzi ƒe xexlẽme si wò gakotoku, gatrɔƒe, asitsala, alo dɔwɔƒe la bia la nade.
+   - Ne menye nenema o la, yi edzi.
+3. **Ðe gaɖoɖo si wometsɔ de nukuku me haɖe o la to eƒe nuwuwu ƒe kɔkɔme (expiry height) si menye zero o la ŋu xoxo a?**
+   - Ne menye nenema o la, mègaɖo fexexe ma ke ɖa ake kple asi haɖe o. Ate ŋu anye be woaka ɖe gaɖoɖo gbãtɔ la dzi kpɔ.
+   - Ne ẽ la, na gakotoku la nawɔ ɖeka kple network la eye nàkpɔ egbɔ be wometsɔ gbãtɔ la de nukuku me le kɔkɔme ma alo do ŋgɔ na kɔkɔme ma o. Emegbe, wɔ ɖe gakotoku la ƒe mɔfiame dzi tsɔ wɔ gaɖoɖo yeye si aɖɔ li ne ehiã.
+4. **Ðe gaɖoɖo la dze le server alo explorer ɖeka dzi gake mele bubu dzi o a?**
+   - Bu esia be enye network dzi nukpɔkpɔ ƒe kuxi, ke menye ɖaseɖigbalɛ be gaɖoɖo la do kpo nyuie o. Ɣaɣla dzesi ŋɔŋlɔ vovovowo ate ŋu akpɔ mempool (teƒe si gaɖoɖo siwo womeka ɖe edzi haɖe o la lalana le) la le mɔ vovovowo nu.
+   - Lala, na wò gakotoku nagawɔ ɖeka kple network la ake, alo trɔ yi server bubu si ŋu nèka ɖo la dzi ne wò gakotoku ɖe mɔ na esia.
+5. **Ðe gaɖoɖo la bu le esime wòdze abe ɖe woka ɖe edzi xoxo ene megbe a?**
+   - Ɖoɖonu ƒe ɖoɖogbɔ kpui aɖe (chain reorganization) ate ŋu aɖe gaɖoɖo aɖe ɖa le ɖoɖonu nyuitɔ kekeake la dzi hena ɣeyiɣi kpui aɖe.
+   - Lala na gaɖoɖowo ƒuƒoƒe geɖe wu. Ne gaɖoɖo la trɔ gbɔ la, yi edzi nàlala na kakaɖedziwo. Ne metrɔ gbɔ o eye emegbe wòwu nu la, wɔ gaɖoɖo yeye.
+6. **Ðe gakotoku la le biabiam tso asiwò be nàgaɖoe ɖa ake a?**
+   - Wɔ ɖe gakotoku la ƒe mɔfiame si li fifia dzi le esime nèkpɔ egbɔ be gaɖoɖo do ŋgɔtɔ la wu nu, do kpo, alo meganɔ dɔ wɔm o la ko megbe.
+   - Ne mèka ɖe edzi o la, bia kpeɖeŋu ƒe ƒomea hafi nàgaɖoe ɖa ake.
 
 ## Le Mɔ Lalam, Ɣeyiɣi Va Yi, Woɖe Ɖa, Kple Reorged
 

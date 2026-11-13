@@ -12,6 +12,18 @@ NU6 es una Zcash [actualización de red network upgrade](../start-here/network-u
 
 Por qué importa. Se preveía que el [Fondo de Desarrollo Development Fund](../zcash-tech/canopy) de Zcash terminara alrededor del halving de noviembre de 2024, el segundo de su historia. NU6 mantuvo esa financiación, pero, en lugar de entregar cada moneda a destinatarios fijos, reservó una parte dentro del protocolo para que la comunidad pudiera decidir más tarde qué hacer con ella. También cerró una discreta brecha contable, de modo que ahora se puede predecir exactamente la cantidad total de ZEC que existirá alguna vez.
 
+## TL;DR
+
+- NU6 se activó en mainnet en el bloque 2.726.400 (23 de noviembre de 2024 UTC), desplegado mediante ZIP 253.
+- Mantuvo el flujo del 20 % de la subvención de bloque hacia el desarrollo después del halving de noviembre de 2024: 8 % para Zcash Community Grants (ZCG) y 12 % para el nuevo Deferred Dev Fund Lockbox (ZIP 2001).
+- El lockbox es una reserva dentro del protocolo sin un gastador definido: NU6 dejó deliberadamente abierta la gobernanza, y NU6.1 (2025) la resolvió más tarde.
+- ZIP 236 ahora exige que cada transacción coinbase cuadre exactamente, por lo que los mineros ya no pueden reclamar de menos y quemar ZEC por accidente; el suministro futuro total pasa a ser exactamente predecible.
+- Los saldos, la privacidad y las reglas de transacción no cambian: NU6 es una actualización de financiación y contabilidad.
+
+## Analogía visual
+
+Piensa en NU6 como un hogar que ha estado pagando una asignación fija a sus constructores y sabe que el día de pago [payday] está programado para terminar. En lugar de detener el pago [payment], NU6 divide la asignación: una parte sigue destinándose al comité de subvenciones [grants] comunitarias y otra parte va a una caja fuerte familiar cuya combinación aún no se ha anunciado. La caja fuerte mantiene el dinero apartado hasta que el hogar acuerde más adelante las reglas para abrirla; ese acuerdo es NU6.1.
+
 ## Lo que cambió NU6
 
 NU6 siguió destinando el 20 % de la subvención de bloque a la financiación del desarrollo después del halving de noviembre de 2024, una regla definida en [ZIP 1015](https://zips.z.cash/zip-1015). Dividió ese 20 % de dos maneras.
@@ -52,6 +64,14 @@ NU6 es un capítulo de una historia más larga sobre cómo Zcash se financia a s
 3. NU6.1 (2025) respondió la pregunta que NU6 dejó abierta, quién controla los fondos reservados, al mantener el 8 % de la subvención de bloque para Zcash Community Grants y dirigir el 12 % a un fondo controlado por los poseedores de monedas y financiado inicialmente por la caja de seguridad.
 
 ![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
+
+## Errores comunes
+
+- **Pensar que NU6 cambió la política monetaria.** El calendario de emisión y el momento del halving no se modificaron; NU6 cambió quién recibe una parte del subsidio, no cuánto ZEC nuevo se emite.
+- **Confundir la caja de seguridad (lockbox) con una billetera (wallet) de una fundación.** El Deferred Dev Fund Lockbox es un pool de valor de la cadena (chain value pool) controlado por el consenso (consensus), no una dirección (address) desde la que alguien pueda gastar.
+- **Suponer que NU6.1 y NU6 son la misma actualización.** NU6 creó la reserva; NU6.1 decidió quién la controla: un 8% para ZCG y un 12% para un fondo controlado por los poseedores de monedas.
+- **Creer que la regla del saldo exacto (ZIP 236) modifica las monedas de los usuarios.** Restringe las transacciones (transactions) coinbase, es decir, los pagos (payouts) de emisión por bloque (block), no los saldos existentes ni las transacciones ordinarias.
+- **Interpretar la participación del 20% para desarrollo como algo nuevo.** La financiación del desarrollo del 20% existe desde Canopy; NU6 la prolongó más allá del halving y la dividió en un 8% para ZCG y un 12% para la caja de seguridad.
 
 ## Glosario
 
@@ -115,5 +135,14 @@ La creación de la reserva consolidó que una parte de la emisión se apartaría
 [Qué es ZEC y Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
+
+## Páginas relacionadas
+
+| Página | Por qué está relacionada |
+|---|---|
+| [Canopy](./Canopy.md) | creó el fondo de desarrollo que NU6 reestructuró |
+| [NU6.1](./NU6_1.md) | decidió quién controla los fondos del lockbox |
+| [NU6.2](./NU6_2.md) | la actualización de reparación de emergencia Orchard de la misma serie |
+| [Fondo de Desarrollo](../start-here/development-fund) | el historial de financiación detrás de la participación del 20% |
 
 Serie: [Índice de actualizaciones de red](../start-here/network-upgrades) · Anterior: [NU5](../zcash-tech/nu5) · Siguiente: [NU6.1](../zcash-tech/nu6-1)

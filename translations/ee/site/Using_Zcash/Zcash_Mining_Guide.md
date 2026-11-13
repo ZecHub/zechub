@@ -1,4 +1,34 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash Nukuku [Mining] Ƒe Mɔfiame: Nɔƒo kple Nukuku Ƒe Gaƒuƒoƒo kple Wò Ŋutɔ ƒe Mɔ̃nuwo
+
+> Tsɔ wò GPU alo ASIC ƒo ƒu kple nukuku ƒe gaƒuƒoƒo aɖe, ma dɔa kple nukula [miners] bubuwo, eye nàxɔ ZEC fetuwo edziedzi, ke menye be nàlala ƒe geɖe hafi akpɔ gaɖoɖowo ƒuƒoƒe [block] ɖeka le wò ɖokui si o.
+
+## TL;DR
+
+* Zcash zãa Equihash ƒe dɔwɔwɔ ƒe ɖaseɖigbalɛ (proof of work). ASIC mɔ̃wo koe le dziɖum le network la dzi, eyata GPU-wo nye na ame siwo wɔa nukuku (mining) abe modzakaɖeɖe ene kple na dodokpɔ koŋ.
+* Nukuku wò ɖeka ŋutɔ mekpɔa gaɖoɖowo ƒuƒoƒe (block) zi geɖe o ne wò mɔ̃wo le sue. Gaƒuƒoƒo (pool) ƒoa ame geɖewo ƒe hashrate nu ƒu eye wòxea wò akpa le gaɖoɖowo ƒuƒoƒe ɖesiaɖe si wòkpɔ me na wò.
+* Nu etɔ̃ hiã wò: Zcash gakotoku (wallet) ƒe gaɖoƒe ƒe dzesi (address) na fexexe, nukuku mɔ̃wo, kple nukuku ƒe software (alo ASIC la ƒe ɖoɖowo ƒuƒopé (dashboard) si le eme xoxo).
+* Gaƒuƒoƒowo to vovo le adzɔ (fee) (abe 0-2% ene), fexexe ƒe mɔnu (PPLNS, PPS+), fexexe sue kekeake, kple server la ƒe nɔƒe me.
+* Kpɔ viɖe si le eme gbã: elektrik ƒe home, mɔ̃wo ƒe home, kple ZEC ƒe home ye ɖoa kpe edzi be nukuku ana viɖe wò hã loo alo menana o.
+* Mɔ si sesẽ wu: wɔ wò ŋutɔ wò Zebra ɣaɣla dzesi ŋɔŋlɔ (node) eye nàwɔ nukuku to eƒe `getblocktemplate` RPC dzi.
+
+## Nyamenyawo ƒe Ɖeɖefia Vevitɔ
+
+Nukuku [mining] nye ale si wowɔa Zcash gaɖoɖowo ƒuƒoƒe [block] yeyewo. Nukulawo [miners] ƒua du be yewoaɖe Equihash ƒe nya sesẽ aɖe. Ame si gbã ke ɖe eƒe mɔ si sɔ la tsɔa gaɖoɖowo ƒuƒoƒe si kplɔe ɖo kpena ɖe eŋu, eye wòxɔa gaɖoɖowo ƒuƒoƒe ƒe fetu. Ne hashrate (ŋusẽ si nèzãna tsɔ kua nu) si nètsɔ kpe ɖe eŋu sɔ gbɔ ɖe edzi la, zi geɖe wòanyo be nàɖu dzi. Gake le egbe ƒe network la gbɔ la, mɔ̃ ɖeka si le aƒeme mate ŋu aɖu dzi le eɖokui si kloe o.
+
+Nukuku ƒe gaƒuƒoƒo (mining pool) ɖɔa nya sia ɖo. Gaƒuƒoƒo la naa dɔ ƒe akpa suesueawo nukula ɖe sia ɖe, eye woyɔa wo be shares (akpawo). Share ɖe sia ɖe si wolɔ̃ ɖo la ɖenɛ fiana be èna hashrate (akɔntaŋutete). Ne ame aɖe le gaƒuƒoƒo la me ke gaɖoɖowo ƒuƒoƒe aɖe ŋu la, woma fetu la ɖe shares ƒe agbɔsɔsɔ nu, eye woxea fe na wò le eɖokui si ne wò ga si le asiwò wu gaƒuƒoƒo la ƒe sue
+ si wòbia.
+
+Ɖoɖowɔwɔ la mama ɖe akpa atɔ̃ me, eye míaƒo nu tso wo dometɔ ɖesiaɖe ŋu afɔ ɖeka ɖeka le ete:
+
+1. Gakotoku ƒe gaɖoƒe ƒe dzesi [address] si dzi nàxɔ fetuwo ɖo.
+2. Mɔ̃wo [Hardware]: GPU siwo le kɔmpiuta me, alo Equihash ASIC.
+3. Akɔnta le gaƒuƒoƒo [pool] me (alo wò gaɖoƒe ƒe dzesi ko, na gaƒuƒoƒo siwo mebia be nàŋlɔ wò ŋkɔ ɖi o).
+4. Nukuku [mining] ƒe software si wotrɔ ɖo ɖe gaƒuƒoƒo la ƒe stratum server ŋu, eye `YOUR_ADDRESS.WORKER_NAME` nye zãla ƒe ŋkɔ.
+5. Nukpɔkpɔ ɖe dɔwɔwɔ ŋu: shares siwo woxɔ, hashrate, dzoxɔxɔ kple ga si womexe haɖe o.
 
 ## Gɔmedzedze
 
@@ -107,6 +137,25 @@ Nukuku ƒe gaƒuƒoƒowo maa dɔ mawo eye woma fetuwo ɖe hash rate si wònye w�
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### Foundry Zcash gaƒuƒoƒo kpɔkpɔ
+
+Na Foundry Zcash gaƒuƒoƒo zãlawo:
+
+- Kpɔ nukula [miner] ƒe dɔwɔwɔ ɖa to Foundry gaƒuƒoƒo [pool] ƒe ɖoɖowo ƒuƒopé [dashboard] dzi.
+- Kpɔ nu siawo ɖa:
+  - Dɔwɔla siwo le dɔ wɔm (active workers)
+  - Hashrate si wogblɔ (hashrate nye ŋusẽ si mɔ̃ zãna tsɔ wɔa akɔntabubu)
+  - Shares siwo woxɔ
+  - Fetu si wobu be yeakpɔ
+  - Gaxexe ƒe nɔnɔme
+
+Esi Foundry zãa PPLNS fetu ƒe ɖoɖo ta la, nukuku ƒe fetuwo nɔ te ɖe akpa siwo nukula aɖe na le gaƒuƒoƒo la ƒe fetu ƒe ɣeyiɣi me dzi, ke menye ɖe hashrate si le eŋu fifi ko dzi o.
+
+Nukpɔkpɔ ƒe mɔnu siwo wodo ɖe ŋgɔ:
+- Tsɔ hashrate (ŋusẽ si mɔ̃ la tsɔna wɔa akɔntabubu) si le ASIC ƒe ɖoɖowo ƒuƒopé (dashboard) dzi la sɔ kple hashrate si Foundry ɖe fia.
+- Dzro shares siwo wogbe, shares xoxowo, alo kadodo ƒe tetotsotso me.
+- Na wò network kadodo nanɔ te sesĩe, elabena ɣeyiɣi si kadodo mele o la ɖea shares siwo nèɖo ɖa kple fetu siwo àte ŋu axɔ la dzi kpɔtɔna.
+
 ## Sovright: Testnet Ƒe Gaƒuƒoƒo Kple Block Ƒe Relay Network
 
 Sovright (sovright.com) wɔa Stratum V2 nukuku ƒe gaƒuƒoƒo kple block relay network si le ɖe eŋu. Wɔa dɔ vovovo, eyata woɖe wo me ɖe eŋu le ete.
@@ -118,37 +167,19 @@ Sovright ƒe gaƒuƒoƒo la le Zcash ƒe public testnet (NU6, Stratum V2) dzi, m
 - Account aɖeke mehia be woaɖe asi adze gɔme o. Ɖo CPU alo ASIC Equihash nukula ɖe gaƒuƒoƒo la ŋu eye wò sharewo adzɔ ɖe dashboard si le agbe me.
 - Sovright hã doa Stratum V2 proxy si open source la ɖe go na nukulawo siwo di be woati wo ŋutɔ ƒe block templatewo ɖe tsɔtsɔ ƒe teƒe be woaxɔ gaƒuƒoƒo la ƒe dɔwo ko:
 
-### Foundry Zcash Pool Ƒe Kpɔkpɔ
-
-Na Foundry Zcash Pool zãlawo:
-
-- Kpɔ nukula ƒe dɔwɔwɔ to Foundry pool dashboard la dzi.
-- Kpɔ:
-  - Dɔwɔlawo siwo le dɔ wɔm
-  - Hashrate si wogblɔ
-  - Share siwo woxɔ
-  - Fetu si woabui
-  - Fetu ƒe nɔnɔ
-
-Esi Foundry zãa PPLNS fetu ƒe mɔ ta la, nukuku ƒe fetuwo ɖe share siwo nètsɔ ɖe eme le gaƒuƒoƒo la ƒe fetu ƒe ɣeyiɣi me ŋu, menye hashrate si le fifia ko ŋu o.
-
-Kpɔkpɔ ƒe mɔ siwo woaɖo ŋu:
-- Sɔ ASIC dashboard ƒe hashrate kple Foundry ƒe hashrate si wogblɔ.
-- Dze rejected shares, stale shares, alo kadodo ƒe madzideƒo ŋu.
-- Lé network ƒe kadodo ɖe dzideƒo me elabena dɔtsiatsi wɔa be share siwo nètsɔ ɖe eme kple fetu siwo ate ŋu ava la nadze ɖe anyi.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Ɖo wò nukula ɖe proxy la ŋu ɖe gaƒuƒoƒo la ŋu tẽ ƒe teƒe:
+  Fia wò nukula ɖe proxy la gbɔ le esi teƒe be nàfiae ɖe gaƒuƒoƒo la gbɔ tẽ:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  kple worker ƒe ŋkɔ abe `yourname.rig1` ene.
-- Sovright ƒe transparency page gblɔ be "include all" policy le eŋu na ɣaɣla gaɖoɖowo, menye abe gaƒuƒoƒo ɖewo siwo xɔa wo ɖe aga ene o. Block ɖe sia ɖe xɔa attestation si woɖe asi ɖe, ale be woate ŋu akpɔ policy la ɖe eŋu le ɖokui ƒe mɔ nu.
-- Wɔ account le mining.sovright.com (Google alo email ƒe sign in) be nàkpɔ wò ŋutɔ ƒe workerwo ɖe sample dashboard ƒe data ƒe teƒe.
+  zã dɔwɔla ŋkɔ (worker name) abe `yourname.rig1` ene.
+- Sovright ƒe nuwo ƒe ʋuʋuɖi (transparency) axa gblɔ be yewo léa "include all" (wo katã xɔxɔ) ɖoɖo me ɖe asi na ɣaɣla gaɖoɖowo (shielded transactions), si to vovo na gaƒuƒoƒo aɖewo siwo ɖea wo ɖa. Wotrea asi ɖe ɖaseɖiɖi dzi na gaɖoɖowo ƒuƒoƒe (block) ɖesiaɖe ale be ame sia ame ate ŋu adzro ɖoɖo la me le eɖokui si.
+- Wɔ akɔnta le mining.sovright.com (ge ɖe eme kple Google alo email) be nàte ŋu akpɔ wò ŋutɔ wò dɔwɔlawo ƒe nuwɔwɔ ɖa le kpɔɖeŋu nyatakaka siwo le ɖoɖowo ƒuƒopé (dashboard) la dzi teƒe.
 
 ### Relay Network (relay.sovright.com)
 

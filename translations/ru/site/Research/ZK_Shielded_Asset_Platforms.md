@@ -95,5 +95,5 @@ published: 2024-01-12
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO — это публичный блокчейн первого уровня. TomoChain — это протокол приватности, разработанный на TomoChain и предназначенный для создания безопасных и неотслеживаемых транзакций -**Обмен активов**: Да- [Белая книга](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (ранее TomoChain)](https://viction.xyz/ecosystem)**: VIC (ранее TOMO) — это публичный блокчейн первого уровня. TomoChain — это протокол приватности, разработанный на TomoChain и предназначенный для создания безопасных и неотслеживаемых транзакций -**Обмен активов**: Да- [Белая книга](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

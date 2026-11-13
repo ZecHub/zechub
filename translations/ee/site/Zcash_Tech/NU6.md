@@ -12,6 +12,18 @@ NU6 nye Zcash [mɔ̃ ƒe sewo trɔtrɔ](../start-here/network-upgrades), si [ZIP
 
 Nusita esia le vevie. Woɖo ɖe Zcash ƒe [ŋgɔyiyi ƒe Gaƒuƒoƒo](../zcash-tech/canopy) nu be wòakpɔ nu le November 2024 ƒe fetu ƒe afãmama ŋu, si nye evelia le eƒe ŋutinya me. NU6 wɔe be gadodo ma yi edzi, gake teƒe be wòana ga sia katã na amesiwo woɖo ɖi la, wòɖo eƒe akpa ɖe protocol la me be hatsotso la nate ŋu aɖo ŋu emegbe be alekee woazãe. Ewɔe hã be xexlẽ ƒe vovototo si menɔ gbeɖe o nɔ o, ale be ZEC si anɔ anyi gbeɖeka katã ƒe lolome ate ŋu woanya tututu fifia.
 
+## Kpuie ko (TL;DR)
+
+- NU6 dze dɔwɔwɔ gɔme le mainnet (Zcash ƒe ɖoɖonu vevitɔ) dzi le gaɖoɖowo ƒuƒoƒe 2,726,400 (November 23, 2024 UTC), eye ZIP 253 ye ɖo eŋu.
+- Ena gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe 20% yi edzi nɔ yiyim na ŋgɔyiyi le November 2024 ƒe fetu ƒe afãmama megbe: 8% yi na Zcash Community Grants (ZCG), eye 12% yi Ŋgɔyiyi ƒe Gadzraɖoƒe si Wotsɔ Ɖo Hena Emegbe (Deferred Dev Fund Lockbox) yeye la me (ZIP 2001).
+- Gadzraɖoƒe sia nye gadzraɖoƒe si le protocol la ŋutɔ me, eye womeɖo ame si ate ŋu azã ga la o. NU6 gblẽ dziɖuɖu ƒe nyabiase sia ɖi ɖe ɖoɖo nu, eye NU6.1 (2025) ɖo eŋu emegbe.
+- Fifia ZIP 236 bia be coinbase gaɖoɖo (gaɖoɖo gbãtɔ si me nukulawo xɔa woƒe fetu le) ɖesiaɖe ƒe akɔntabubu nadze pɛpɛpɛ. Esia wɔe be nukulawo mate ŋu axɔ ga si sue wu esi dze na wo, eye woatsrɔ̃ ZEC to vodada me o. Ale woate ŋu anya ga si katã ado le etsɔme la pɛpɛpɛ.
+- Gaxɔxɔwo, ɣaɣla, kple gaɖoɖo ƒe sewo metrɔ o: NU6 nye trɔtrɔ si ku ɖe gadodo kple akɔntabubu ŋu.
+
+## Kpɔɖeŋu si wokpɔna kple ŋku
+
+Bu NU6 ŋu abe aƒeme aɖe si nɔ ga tɔxɛ aɖe xem na eƒe xɔtulawo, eye wònya be fexexe ƒe ŋkekea ava wu enu le ɣeyiɣi si woɖo me la ene. Le esi teƒe be NU6 nadzudzɔ fexexe la, emae ma ga la: akpa aɖe yi edzi yina na nutoa me ga ƒe kpekpeɖeŋu ƒe dɔwɔha la, eye akpa bubu yina ƒome ƒe gakɔ aɖe si ƒe ʋuʋudzesi womegaɖe gbeƒã kpɔ o la me. Gakɔ la dzra ga la ɖo vaseɖe esime aƒemetɔwo alɔ̃ ɖe se siwo nu woaʋu gakɔ la le dzi emegbe — ɖekawɔwɔ ma enye NU6.1.
+
 ## Nu si NU6 trɔ
 
 NU6 yi edzi nɔ ɖom gaɖoɖowo ƒuƒoƒe ƒe fetu ƒe 20% na ŋgɔyiyi ƒe gadodo le November 2024 ƒe fetu ƒe afãmama megbe, se si woɖe fia le [ZIP 1015](https://zips.z.cash/zip-1015) me. Wòmama 20% ma me le mɔ eve.
@@ -52,6 +64,14 @@ NU6 nye ta aɖe le ŋutinya didi aɖe me, si gblɔ ale si Zcash doa ga na eya ŋ
 3. NU6.1 (2025) ɖo ŋu biabia si NU6 de ɖe aƒe la, ame siwo le dziɖuɖu le ga si woɖo ɖi la ŋu, to 8% ƒe gaɖoɖowo ƒuƒoƒe ƒe fetu ƒli si yina na Zcash Community Grants yi edzi kple 12% si wòɖo ɖe gaƒuƒoƒo si coin-holderwo le dziɖuɖu le eme, si lockbox la na dze egɔme.
 
 ![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
+
+## Vodada Siwo Bɔ
+
+- **Susu be NU6 trɔ ga ŋuti ɖoɖo.** Ga ɖeɖe ƒe ɖoɖo kple fetu ƒe afãmama ƒe ɣeyiɣi metrɔ o. NU6 trɔ ame si xɔa kpekpeɖeŋuga la ƒe akpa aɖe, ke metrɔ ZEC yeye agbɔsɔsɔ si woɖena o.
+- **Lockbox la kple habɔbɔ aɖe ƒe gakotoku ƒe tsɔtsɔ ƒo ƒu.** Deferred Dev Fund Lockbox la nye ɖoɖonu ƒe gaƒuƒoƒo si gbegbɔgblɔ ɖi kpɔa egbɔ. Menye gaɖoƒe ƒe dzesi si ame aɖe ate ŋu azã ga tso o.
+- **Susu be NU6.1 kple NU6 nye mɔ̃ ƒe sewo trɔtrɔ ɖeka.** NU6 ɖo gadzraɖoƒe la ɖi. NU6.1 ɖo nya ta ame si akpɔ egbɔ — 8% na ZCG eye 12% na ga si ga tɔwo kpɔa egbɔ.
+- **Xɔse be se si bia be ga la nasɔ pɛpɛpɛ (ZIP 236) trɔa zãlawo ƒe gawo.** Eɖoa liƒo na coinbase gaɖoɖowo, siwo nye ga si woɖena le gaɖoɖowo ƒuƒoƒe ɖesiaɖe me. Meɖoa liƒo na ga si li xoxo alo gaɖoɖo bɔbɔewo o.
+- **Xexlẽ be 20% ƒe akpa si woɖe ɖi na ŋgɔyiyi nye nu yeye.** Ga 20% na ŋgɔyiyi li tso Canopy ke. NU6 yi edzi kpɔe le fetu ƒe afãmama megbe eye wòmae ɖe 8% ZCG / 12% lockbox.
 
 ## Nyagɔmeɖeɖe
 
@@ -115,5 +135,14 @@ Gaƒeɖeɖe la ƒe wɔwɔ na wòzu kplikpli be woaɖo ga ƒe akpa aɖe ɖi le pr
 [Nukae nye ZEC eye Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
+
+## Axa Siwo Do Ƒome Kplii
+
+| Axa | Nusita wòku ɖe eŋu |
+|---|---|
+| [Canopy](./Canopy.md) | eya wɔ dɔwɔwɔ ƒe gakpekpeɖeŋunu si NU6 gbugbɔ ɖo ɖoɖo yeye na |
+| [NU6.1](./NU6_1.md) | eya tso nya me le ame si akpɔ ga siwo le gadzraɖoƒe xaxeŋu (lockbox) dzi ŋu |
+| [NU6.2](./NU6_2.md) | Orchard ƒe mɔ̃ ƒe sewo trɔtrɔ si wowɔ kaba tsɔ ɖɔ nu ɖo le ƒuƒoƒo ma ke me |
+| [Dɔwɔwɔ ƒe Gakpekpeɖeŋunu (Development Fund)](../start-here/development-fund) | gakpekpeɖeŋu ƒe ŋutinya si le 20% ƒe akpa la megbe |
 
 Series: [Mɔ̃ ƒe sewo trɔtrɔwo ƒe index](../start-here/network-upgrades) · Do ŋgɔ: [NU5](../zcash-tech/nu5) · Emegbe: [NU6.1](../zcash-tech/nu6-1)

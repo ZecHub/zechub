@@ -102,7 +102,7 @@ Ndị a bụ ikpo okwu ọmụmaatụ na-enye ohere ịnweta data Netwọk Zcash
 
 [Zcash Nchọgharị Block](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics data netwọk](https://docs.coinmetrics.io/network-data/network-data-overview) — akwụkwọ nkọwa metrik na njikọ gaa na mkpuchi akụ dị ugbu a.
 
 Ị nwekwara ike itinye aka na mmepe netwọk site n'ịgba ule ma ọ bụ ịtụpụta nkwalite ọhụrụ na inye metrics.
 

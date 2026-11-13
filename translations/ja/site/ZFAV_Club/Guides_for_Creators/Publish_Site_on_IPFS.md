@@ -18,9 +18,7 @@ IPFS（InterPlanetary File System）は、ファイルを保存・共有する�
 
 IPFS内のファイルは、コンテンツアドレッシング（content-addressing）を使用してアドレス指定されます。つまり、各ファイルにはその内容に基づく一意のハッシュまたはコンテンツ識別子（CONTENT IDENTIFIER、CID）が付与され、このハッシュを使用してネットワークからファイルを取得します。
 
-ユーザーがIPFSにファイルを追加すると、そのファイルはブロック（blocks）と呼ばれる小さな断片に分割され、各ブロックにCIDが付与されます。これらのブロックはネットワーク内の異なるノードに保存されるため、複数のソースからファイルを簡単に取得できます。
-
-これにより冗長性と耐障害性が確保されると同時に、1つのノードが単一障害点または制御点になることを困難にします。
+IPFSは、コンテンツをCIDで識別されるブロック（blocks）として保存します。ファイルを追加すると、そのファイルはあなたのノードに保存されますが、他のノードへ自動的にコピーされるわけではありません。他の読者がファイルを取得できるように、アクセス可能なコピーをオンラインで維持するか、リモートピン留め（remote pinning）を手配してください。詳しくは[IPFSの永続性](https://docs.ipfs.tech/concepts/persistence/)をご覧ください。
 
 **読む: [IPFSの概要](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,22 +32,29 @@ IPFS内のファイルは、コンテンツアドレッシング（content-addre
 
 **ステップ2:** [HTMLテンプレート!](https://nicepage.com/html-templates)を使用し、作成したテキストを適切に貼り付けます。必要に応じて、ウェブサイト用の.CSSスタイルシートも作成します。
 
-**ステップ3:** ディレクトリを保存します。すべての.htmlページと画像は同じフォルダー内に置く必要があります。
+**ステップ3:** ホームページを`index.html`としてサイトフォルダーのルートに配置します。画像とCSSも含め、`style.css`のような相対パスを使用してください。そうすることで、IPFSゲートウェイ（Gateway）のURLからアクセスした場合でも正しく表示されます。
 
 ## ノードを設定する
 
-[公式ウェブサイト](https://docs.ipfs.tech/install/ipfs-desktop/)からIPFSをダウンロードしてインストールします。
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/)がノードを管理してくれます。サイトを共有している間は、起動したままにしておいてください。
 
-### IPFSを初期化する:
+コマンドライン手順[（command-line route）](https://docs.ipfs.tech/how-to/command-line-quick-start/)を使う場合は、最初に一度だけ新しいリポジトリを初期化します：
 
-デスクトップアプリケーションを使用している場合、初期化は必要ありません。
+```sh
+ipfs init
+```
 
-ターミナルまたはコマンドプロンプトで、次のコマンドを実行します: ipfs init
+次に、ノードを起動して、このターミナルを開いたままにしてください：
+
+```sh
+ipfs daemon
+```
+
+残りのコマンドは2つ目のターミナル（Terminal）で実行してください。IPFS Desktopがすでにこのリポジトリ（Repository）を管理している場合は、2つ目のデーモン（Daemon）を起動しないでください。
 
 ### **サイトフォルダーをIPFSに追加する**:
 
-ウェブサイトのファイルが入ったフォルダーを選択し、「フォルダーを追加」オプションに移動します。
-
+IPFS Desktopで、「フォルダを追加」（Add Folder）オプションを使用して、ウェブサイトのファイルが入ったフォルダを選択します。
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -57,29 +62,29 @@ IPFS内のファイルは、コンテンツアドレッシング（content-addre
 
 –
 
-ターミナルを使用する場合は、次のコマンドを実行します: ipfs add -r folder_name。これにより、フォルダー全体が再帰的にIPFSへ追加されます。
+CLI を使う場合は、サイトフォルダーの親ディレクトリで次のコマンドを実行します:
+
+```sh
+ipfs add -r folder_name
+```
+
+`folder_name` をあなたのフォルダー名に置き換えてください（スペースを含む名前は引用符で囲んでください）。最後の `added ... folder_name` 行に表示される CID を保存してください。この CID は `index.html` だけでなく、ディレクトリ全体を識別します。
 
 ### IPFSにサイトをピン留めする:
 
-ウェブサイトのファイルをIPFSに追加したら、ネットワーク上で利用可能な状態を維持するために、それらを**ピン留め**する必要があります。
+CLI の `ipfs add` コマンドは、デフォルトでインポートしたコンテンツをローカルにピン留め（Pin）します。フォルダーのピン留めは次のコマンドで確認できます：
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-ターミナルを使用する場合は、次のコマンドを実行します: If using Terminal, Run command: ipfs pin add **hash**
-
-**hash** = 前のステップで追加したフォルダーのCIDです。
-
-また、[Pinata](https://pinata.cloud/)や[Dolpin](https://dolpin.io/)などのサービスを使用して、ディレクトリをピン留めすることもできます。
-
-大幅に時間を節約できます！
-
-–
+`YOUR_FOLDER_CID` を前の手順で得た CID に置き換えてください。出力には `recursive` と表示されるはずです。ピン留め（Pinning）は、このノードが保持するコピーをガベージコレクション（Garbage Collection）から保護しますが、電源が切れたコンピューターをオンラインに保つわけではありません。ノードがオフラインの間も利用できるようにするには、[リモートピン留め](https://docs.ipfs.tech/how-to/work-with-pinning-services/)を手配し、リモートサービスでピン留めが完了したことを確認してください。
 
 ### IPFS上でウェブサイトにアクセスする:
 
-ウェブサイトはIPFS上に公開され、フォルダーのハッシュを使用してアクセスできます。ウェブサイトにアクセスするには、https://ipfs.io/ipfs/**hash**にアクセスします。
+まず、ローカルゲートウェイ `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` でサイトを確認してください（デーモンが別のゲートウェイポートを表示している場合は、そちらを使用してください）。末尾のスラッシュにより、相対リンクがディレクトリ内で正しく解決されます。
 
-**hash** = フォルダーのCIDです。
+`https://ipfs.io/ipfs/YOUR_FOLDER_CID/`などのパブリックゲートウェイ（Public Gateway）は、到達可能なノードからコンテンツを取得できるようになれば、そのコンテンツを配信できます。ローカルでのプレビューが成功しても、一般に公開されて利用できることの証明にはなりません。
 
 この例では、CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3 です。
 
@@ -108,15 +113,20 @@ IPFSデスクトップアプリケーションでサイトフォルダーの設�
 
 サイトは作成できたので、次はURLをコンテンツへ向ける方法が必要です。
 
-すでにウェブアドレスを所有している場合は、TXTレコード _dnslink(ドメイン) を使用して新しいレコードを追加できます。プロバイダーによっては自動入力される場合があります。
+`example.com`の場合は、次のDNSレコードを追加し、`YOUR_FOLDER_CID`をご自身のディレクトリCIDに置き換えてください。
 
+| タイプ | 名前 | 値 |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+一部のDNSプロバイダー（DNS provider）はゾーン（zone）を自動的に付加します。その場合は`_dnslink`のみを入力してください。上記のIPNSという名前を使用する場合は、値を代わりに`dnslink=/ipns/YOUR_IPNS_NAME`にすることもできます。詳しくは[DNSLink](https://docs.ipfs.tech/concepts/dnslink/)をご覧ください。
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 
-表示できるようになるまで、ネットワーク全体に伝播する時間がかかります。
+DNSの反映後、`https://ipfs.io/ipns/example.com/`をお試しください。`https://example.com/`でサイトを直接配信するには、DNSLinkに対応したゲートウェイ（Gateway）とHTTPSの設定も必要です。TXTレコードだけではこれらは設定されません。[カスタムドメインガイド](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/)に従ってください。
 
 *おめでとうございます！これで検閲耐性のあるウェブサイトが完成しました。*
 

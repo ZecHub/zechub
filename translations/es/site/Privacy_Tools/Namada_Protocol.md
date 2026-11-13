@@ -38,11 +38,11 @@ En Namada, el conjunto blindado se considera un bien público no exclusivo y no 
 
 ## Transacción de activos blindados
 
-En lo que respecta a las transferencias blindadas, ya sea que involucren un token no fungible (NFT) de Ethereum, ATOM o NAM, son indistinguibles entre sí. Esto significa que las funciones de preservación de la privacidad proporcionadas por el MASP (protocolo de acumulador modificado Sapling), una versión mejorada del circuito Zcash Sapling, se aplican de manera uniforme a todo tipo de activos. El circuito MASP permite que todos los activos dentro del ecosistema Namada compartan el mismo conjunto blindado. Este enfoque garantiza que las garantías de privacidad no se fragmenten entre activos individuales. Independientemente del volumen de transacciones asociado a un activo concreto, la protección de la privacidad se mantiene coherente e independiente.
+El MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)) amplía el circuito Sapling de Zcash para admitir transferencias blindadas de activos nativos y no nativos. Compartir un pool no significa que la privacidad sea independiente del uso de un activo. La documentación de Namada explica que los activos del mismo tipo comparten un conjunto de anonimato, y que los patrones públicos de blindaje y desblindaje aún pueden revelar el origen de un activo.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-Al unificar el conjunto blindado entre distintos activos, Namada garantiza que la privacidad se mantenga de manera uniforme, independientemente del tipo específico de activo involucrado en una transferencia blindada. Este enfoque promueve un marco de privacidad cohesivo dentro del protocolo y mejora la confidencialidad de las transacciones que involucran NFT de Ethereum, ATOM, NAM y otros activos compatibles. Namada también permite la transferencia privada de tokens fungibles y no fungibles mediante zk-SNARKs innovadores, lo que garantiza la confidencialidad de los tokens nativos y no nativos, tal como se hace en Zcash.
+Por ejemplo, si solo una cuenta blinda BTC y luego lo retira a la misma cuenta, esos puntos públicos de entrada y salida pueden vincularse aunque los fondos se hayan movido de forma privada dentro del MASP. Cuando más cuentas blindan BTC, un retiro posterior podría pertenecer a cualquiera de esas cuentas. Lo que importa es la participación y el patrón de transacciones; el tamaño del pool compartido por sí solo no garantiza la misma privacidad para todos los activos.
 
 ## Menos tarifas y transacciones rápidas
 

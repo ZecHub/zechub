@@ -8,6 +8,19 @@ Ironwood è la pool schermata introdotta con l'aggiornamento di rete di luglio 2
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Logo di AltQuick" width="200" height="100"/>
+</a>
+
+- Sito web: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Coppie: ZEC/BTC
+- Supporta: trasparente
+- Tempo di deposito: circa 30 minuti (24 conferme)
+- Ironwood: non applicabile, solo indirizzi trasparenti
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

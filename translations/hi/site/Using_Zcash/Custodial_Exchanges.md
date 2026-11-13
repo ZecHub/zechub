@@ -8,6 +8,19 @@ Ironwood वह शील्डेड पूल है जो जुलाई 20
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- वेबसाइट: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- जोड़े: ZEC/BTC
+- समर्थित: Transparent
+- जमा समय: लगभग 30 मिनट (24 पुष्टिकरण)
+- Ironwood: लागू नहीं, केवल transparent पते
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

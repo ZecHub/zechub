@@ -60,7 +60,7 @@ Platform keterlibatan dan penghargaan komunitas yang dirancang untuk komunitas Z
 
 ### Hub Hibah Zcash
 Dashboard hibah berfokus komunitas yang dirancang untuk menyederhanakan cara hibah Zcash ditemukan, dilacak, dan ditinjau. Platform ini menyatukan pengajuan hibah, tonggak pencapaian, anggaran, diskusi, dan analitik di satu tempat dengan mengambil data langsung dari repositori Zcash Community Grants GitHub. Platform ini bertujuan menyediakan pengalaman yang lebih jelas dan ramah pengguna bagi pemohon, anggota komite, dan peninjau komunitas.  
-[Kunjungi](https://staging.zgrantshub.com/)
+[Kunjungi](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Platform AI yang menyediakan akses ke berbagai model AI terkemuka sambil menduku
 ### zk.poker
 Platform poker peer-to-peer yang menggabungkan enkripsi end-to-end, poker mental, dan teknologi privasi Zcash. Dirancang agar operator tidak perlu mengetahui kartu pemain atau memegang langsung dana taruhan.  
 [Kunjungi](https://zkbtc.org/)
+
+### ZKöy
+Permainan pesta bergaya Werewolf untuk kelompok yang berada di ruangan yang sama. Para pemain bergabung melalui ponsel mereka; setiap pilihan malam dan suara disegel sebagai memo terlindungi di testnet Zcash, dan saat permainan berakhir, seed, salt, dan viewing key diungkapkan sehingga siapa pun dapat memeriksa hasilnya secara on-chain.  
+[Kunjungi](https://zkoy.fun)
 
 ---
 

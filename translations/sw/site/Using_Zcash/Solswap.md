@@ -39,7 +39,7 @@ Kitufe chake cha **Swap** cha Phantom pia huorodhesha ZEC, lakini hicho kinakupa
 - Chagua **ZEC** kama **tokeni yako lengwa**.
 - Hakikisha kuwa Zcash inapatikana kupitia kiolesura cha kubadilisha.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

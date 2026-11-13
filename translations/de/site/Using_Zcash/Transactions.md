@@ -64,36 +64,72 @@ Der wichtige Punkt ist, dass Zcash dir erlaubt, bei jeder einzelnen Zahlung zu e
 
 ## Zcash-Gebühren
 
-Zcash verwendet keine Gas-Einheiten wie Ethereum. Zcash-Transaktionsgebühren werden in ZEC bezahlt, üblicherweise gemessen in **zatoshis**. Ein ZEC entspricht 100.000.000 zatoshis.
+Lass deine Wallet die Netzwerkgebühr berechnen und überprüfe sie vor dem Senden. Gebühren werden in ZEC bezahlt: **1 ZEC = 100.000.000 zatoshis**. Eine Gebühr in US-Dollar hängt außerdem vom ZEC-Wechselkurs ab.
 
-[ZIP 317](https://zips.z.cash/zip-0317) definiert einen üblichen Gebührenmechanismus, der mit der Komplexität einer Transaktion skaliert. Statt dass jede Transaktion die alte Pauschalgebühr von 1.000 zatoshis verwendet, basiert die übliche Gebühr auf „logischen Aktionen“ wie Eingaben, Ausgaben und abgeschirmten Aktionen. Einfache Transaktionen beginnen häufig bei etwa 10.000 zatoshis beziehungsweise 0,0001 ZEC, während komplexere Transaktionen mehr erfordern können.
+### Warum zwei Zahlungen unterschiedliche Gebühren haben können
 
-In den meisten aktuellen Wallets sollten Nutzer ZIP-317-Gebühren nicht manuell berechnen müssen. Das Wallet sollte automatisch eine angemessene Gebühr wählen. Wenn ein Wallet weiterhin die alte Pauschalgebühr verwendet oder dir erlaubt, eine Gebühr weit unter der üblichen ZIP-317-Gebühr festzulegen, kann die Transaktion verzögert, nachrangig behandelt, von einigen Knoten verworfen werden oder nicht zuverlässig weitergeleitet werden.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) berechnet die übliche Gebühr anhand von **logischen Aktionen** und nicht als Prozentsatz des gesendeten Betrags:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Logische Aktionen messen die Bestandteile einer Transaktion. Zum Beispiel verwendet eine reine Orchard-Transaktion die Anzahl ihrer Orchard-Aktionen; eine reine Sapling-Transaktion verwendet den größeren Wert aus der Anzahl ihrer Spends und Outputs. Die Beiträge aus verschiedenen Pools werden addiert. Transparente Bestandteile werden anhand ihrer Größe berechnet. Die vollständige Formel, einschließlich Ironwood und des veralteten Sprout, findest du in ZIP 317.
+
+Viele kleine empfangene Notes auszugeben oder mehrere Pools zu nutzen, kann daher mehr kosten als eine einfachere Zahlung mit demselben Wert. Die Anzahl der Empfänger allein ist kein Gebührenrechner: Auch Wechselgeld und Padding spielen eine Rolle.
+
+Diese Beispiele beginnen mit einer bereits berechneten Anzahl logischer Aktionen:
+
+| Logische Aktionen | Bei 5.000 Zatoshis pro Aktion | Bei 1.000 Zatoshis pro Aktion |
+| --- | --- | --- |
+| 2 | 10.000 Zatoshis / 0,0001 ZEC | 2.000 Zatoshis / 0,00002 ZEC |
+| 3 | 15.000 Zatoshis / 0,00015 ZEC | 3.000 Zatoshis / 0,00003 ZEC |
+| 10 | 50.000 Zatoshis / 0,0005 ZEC | 10.000 Zatoshis / 0,0001 ZEC |
+
+### Welche Grenzgebühr gilt
+
+**Geprüft am 11. November 2026:** ZIP 317 führt Revision 2 auf und [ZIP 2009](https://zips.z.cash/zip-2009) als vorgeschlagen. Vor Revision 2 beträgt die Grenzgebühr 5.000 Zatoshis. Revision 2 legt 1.000 fest, was ein Minimum von 2.000 Zatoshis statt 10.000 ergibt.
+
+Der Vorschlag legt die Mainnet-Höhe **3,590,000** fest, die voraussichtlich um den 19. November 2026 erreicht wird, sowie die Testnet-Höhe **4,465,026**. Eine Kalenderschätzung ist nicht die Aktivierungsbedingung. Für Wallets ist die Höhe des Blocks maßgeblich, in dem die Transaktion voraussichtlich gemined wird; Knoten verwenden die Höhe des nächsten Blocks. Prüfe die verlinkten Spezifikationen und die Release-Hinweise deines Wallets erneut, wenn sich der Stand der Einführung ändert.
+
+Erzwinge die niedrigere Gebühr nicht manuell, nur weil ein Vorschlag oder ein Software-Release sie erwähnt. ZIP 2009 verlangt, dass Knoten die neue Relay-Richtlinie ausliefern, bevor Wallets die Gebühr übernehmen; Knoten mit den alten Parametern können die Weiterleitung der Transaktion mit niedrigerer Gebühr verweigern. Testnet und Mainnet haben außerdem unterschiedliche Aktivierungshöhen.
+
+### Wenn die Schätzung falsch erscheint
+
+Prüfe, ob dein Wallet auf dem neuesten Stand und synchronisiert ist. Vergleiche die Netzwerkgebühr des Wallets getrennt mit der Auszahlungsgebühr des sendenden Dienstes: Ein Angebot des Dienstes entspricht nicht der Formel aus ZIP 317. Bei einer ausstehenden Zahlung befolge die [Schritte zur Fehlerbehebung weiter unten](#troubleshooting-stuck-transactions), bevor du erneut sendest.
+
+ZIP 317 ist eine Richtlinie für Wallets und Knoten, keine Konsensregel, die genau diese Gebühr vorschreibt. Die übliche Gebühr zu zahlen verbessert die Kompatibilität bei der Weiterleitung, garantiert aber keine bestimmte Bestätigungszeit.
 
 ## Fehlerbehebung bei hängenden Transaktionen
 
 Eine Zcash-Transaktion ist nicht endgültig, nur weil sie in deinem Wallet erscheint. Für die gewöhnliche Nutzung wird sie endgültig, nachdem sie in einen Block gemined wurde und genügend Bestätigungen für deine Situation erhalten hat. Börsen und Dienste können mehr Bestätigungen verlangen, als ein Wallet standardmäßig anzeigt.
 
+Der Ablauf wird über eine **Blockhöhe** festgelegt, nicht über einen festen Countdown. Bei einer gewöhnlichen Zahlung mit einer Ablaufhöhe ungleich null ist diese Höhe der letzte Block, in dem sie gemint werden kann. Zum Beispiel kann eine Zahlung, die bei Höhe 3539 abläuft, noch in Block 3539 aufgenommen werden; Block 3540 ist zu spät. Eine Ablaufhöhe von 0 bedeutet, dass eine gewöhnliche Zahlung nicht abläuft. Siehe [ZIP 203](https://zips.z.cash/zip-0203).
+
+Standardwerte sind keine allgemeingültigen Fristen. ZIP 203 legt 40 Blöcke nach Blossom fest, also etwa 50 Minuten bei einem angestrebten Blockabstand von 75 Sekunden. Die vorgeschlagene NU7-Änderung empfiehlt 120 Blöcke bei einem angestrebten Blockabstand von 25 Sekunden, ebenfalls etwa 50 Minuten ([ZIP 218](https://zips.z.cash/zip-0218)). Wallet-Einstellungen und Implementierungen können sich unterscheiden, und die tatsächlichen Blockintervalle schwanken. Prüfe die Ablaufhöhe (Expiry Height) der jeweiligen Transaktion, statt ein erneutes Senden nach der Zeit abzupassen.
+
+Der Ablauf macht eine bereits geminte Zahlung nicht rückgängig und erzeugt auch keine Rückerstattungstransaktion. Ist die ursprüngliche Transaktion abgelaufen, ohne gemint worden zu sein, wurde sie nie on-chain abgewickelt. Deine Wallet muss möglicherweise erst synchronisieren, bevor die betreffenden Mittel wieder als ausgebbar angezeigt werden.
+
 Nutze diesen Entscheidungsbaum, bevor du erneut sendest:
 
 1. **Zeigt dein Wallet eine Transaktions-ID an?**
-   - Falls nein, hat das Wallet die Transaktion möglicherweise noch nicht erstellt oder übertragen. Prüfe den Synchronisierungsstatus, die Internetverbindung, die Wallet-Version und mögliche Fehlermeldungen des Wallets.
+   - Falls nein, hat das Wallet die Transaktion möglicherweise noch nicht erstellt oder übertragen. Überprüfe den Synchronisierungsstatus, die Internetverbindung, die Wallet-Version und etwaige Fehlermeldungen des Wallets.
    - Falls ja, kopiere die Transaktions-ID und fahre fort.
 2. **Ist die Transaktion in einem Block bestätigt?**
-   - Falls ja, warte auf die Anzahl der Bestätigungen, die dein Wallet, deine Börse, dein Händler oder dein Dienst verlangt.
+   - Falls ja, warte auf die Anzahl an Bestätigungen, die dein Wallet, deine Börse, dein Händler oder dein Dienst verlangt.
    - Falls nein, fahre fort.
-3. **Hat die Transaktion ihre Ablaufhöhe erreicht?**
+3. **Hat die nicht geminte Transaktion ihre Ablaufhöhe (ungleich null) überschritten?**
    - Falls nein, sende dieselbe Zahlung noch nicht manuell erneut. Die ursprüngliche Transaktion kann weiterhin bestätigt werden.
-   - Falls ja, kann die Transaktion nach dieser Ablaufhöhe nicht mehr gemined werden. Dein Wallet kann sie als abgelaufen oder fehlgeschlagen markieren, und du musst möglicherweise eine neue Transaktion erstellen.
+   - Falls ja, lass das Wallet synchronisieren und überprüfe, dass die ursprüngliche Transaktion nicht bei oder vor dieser Höhe gemint wurde. Befolge dann bei Bedarf die Anleitung des Wallets zum Erstellen einer Ersatztransaktion.
 4. **Erscheint die Transaktion auf einem Server oder Explorer, aber nicht auf einem anderen?**
-   - Behandle dies als Problem der Netzwerksichtbarkeit, nicht als Beweis dafür, dass die Transaktion fehlgeschlagen ist. Unterschiedliche Knoten können unterschiedliche Mempool-Ansichten haben.
+   - Betrachte dies als Problem der Sichtbarkeit im Netzwerk, nicht als Beweis dafür, dass die Transaktion fehlgeschlagen ist. Verschiedene Knoten können unterschiedliche Ansichten des Mempools haben.
    - Warte, synchronisiere dein Wallet erneut oder wechsle zu einem anderen vertrauenswürdigen Server, falls dein Wallet dies unterstützt.
-5. **Ist die Transaktion verschwunden, nachdem sie als bestätigt erschien?**
+5. **Ist die Transaktion verschwunden, nachdem sie als bestätigt angezeigt wurde?**
    - Eine kurze Reorganisation der Chain kann eine Transaktion vorübergehend aus der besten Chain entfernen.
    - Warte auf weitere Blöcke. Wenn die Transaktion zurückkehrt, warte weiter auf Bestätigungen. Wenn sie nicht zurückkehrt und später abläuft, erstelle eine neue Transaktion.
 6. **Fordert dich das Wallet auf, erneut zu senden?**
-   - Befolge die aktuelle Anleitung des Wallets erst, nachdem du geprüft hast, dass die vorherige Transaktion abgelaufen, fehlgeschlagen oder nicht mehr gültig ist.
-   - Wenn du unsicher bist, frage den Support, bevor du erneut sendest.
+   - Befolge die aktuelle Anleitung des Wallets erst, nachdem du überprüft hast, dass die vorherige Transaktion abgelaufen, fehlgeschlagen oder nicht mehr gültig ist.
+   - Wenn du unsicher bist, wende dich an den Support, bevor du erneut sendest.
 
 ## Ausstehend, abgelaufen, verworfen und reorged
 

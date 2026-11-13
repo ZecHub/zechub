@@ -7,7 +7,7 @@
 
 1. **Brave:** Einer der bekanntesten und sichersten Browser auf dem heutigen Markt. Er blockiert datenschutzverletzende Werbung und Tracker. Er blockiert die Datenspeicherung durch Dritte. 
 
-2. **Mulvad:** Ein auf Privatsphäre ausgerichteter Webbrowser, der in Zusammenarbeit zwischen Mullvad VPN und dem Tor Project entwickelt wurde. Er wurde erstellt, um Tracking und Fingerprinting zu minimieren
+2. **Mullvad:** Ein auf Privatsphäre ausgerichteter Webbrowser, der in Zusammenarbeit zwischen Mullvad VPN und dem Tor Project entwickelt wurde. Er wurde erstellt, um Tracking und Fingerprinting zu minimieren
 
 3. **Tor:** Dieser Browser blockiert Plugins wie Flash, RealPlayer, QuickTime und andere: Sie können manipuliert werden, um Ihre IP-Adresse preiszugeben. Wir empfehlen nicht, zusätzliche Add-ons oder Plugins im Tor Browser zu installieren
 
