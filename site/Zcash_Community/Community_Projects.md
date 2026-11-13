@@ -217,7 +217,7 @@ Browser extension that converts fiat currency prices to ZEC in real time as you 
 
 ### Shielded Wall
 Anonymous confession platform powered by Zcash privacy.  
-[Visit](https://shieldedwall.org/)
+[Visit](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Disposable email inbox paid for with shielded ZEC.  
@@ -274,7 +274,7 @@ Cooperative, bottom-up business organization model built on Zcash.
 
 ### ZK Global Credit
 Zcash-native credit and voting infrastructure for selective disclosure, settlement readiness, cross-border reputation, and shielded governance.  
-[Visit](https://voting.zkglobalcredit.tech/)
+[Visit](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Tool for anonymous content creation and private donations powered by Zcash.  
