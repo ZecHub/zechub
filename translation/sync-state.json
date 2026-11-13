@@ -11267,6 +11267,168 @@
       "edited": false
     }
   },
+  "fa": {
+    "Privacy_Tools/Secure_Messengers.md": {
+      "src": "sha256:b51972742bad5fc01cb471e18b9f729be805e6ac364c66ee5581c82ad9c1d626",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    },
+    "Start_Here/Developer_Resources.md": {
+      "src": "sha256:8437414a5ac90c4459e01cece2516040e1f35c4aca7dad31c1b780c3da46a2cd",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Start_Here/Network_Upgrades.md": {
+      "src": "sha256:05bf62207c20a48dba6977ffceefef70e5bc24f2a69d0fd6861fc2160bfbc7d3",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    },
+    "Start_Here/New_User_Guide.md": {
+      "src": "sha256:2ea8cbfd2e388528f9f593018505287c831c42de482b65c47f5f86501a8d5d23",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Start_Here/What_is_ZEC_and_Zcash.md": {
+      "src": "sha256:1e47a4cb6c6674b0b408d41507ea8dc28968de7aded43c88d19d68ac36f05e7b",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
+      "src": "sha256:4dc9563e9001c3074e72196cddee90f81238c5a566b2ba95e793d8d23532605c",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    },
+    "Start_Here/ZEC_Use_Cases.md": {
+      "src": "sha256:7e7737bdba999ac0cbcaae880be1370f6d7d6d319a5212d90f591a12e60e386c",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    },
+    "Start_Here/Zcash_Monetary_Policy.md": {
+      "src": "sha256:92b8053f5d6ab9e0a31a9b565b647adbafb3b1fdba3f3f69b2b1399dc84274e6",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Using_Zcash/Custodial_Exchanges.md": {
+      "src": "sha256:0cd19ea2ab0f1222b6787e9464d20472542ecb1075262495e13e88c4c1d025d3",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Using_Zcash/Memos.md": {
+      "src": "sha256:a8939fd76d4e177341b6737d82fb404f07759b91137fbbf6e313f8cd428f84e8",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Using_Zcash/Recovering_Funds.md": {
+      "src": "sha256:244526982040eb0e43881f2b4ab4c5873b1d4ce7392385cf31f68c31af38d45d",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    },
+    "Using_Zcash/Shielded_Pools.md": {
+      "src": "sha256:083f840aaeef9057528d7b0db3e4100a14623dcf1672c5b6031f4c059710f709",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Using_Zcash/Transactions.md": {
+      "src": "sha256:ba0996e8e1ead56f21a9326b477f7c51276b6d033dd53bba4ef4e4b1c645f9ca",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Zcash_Tech/Full_Nodes.md": {
+      "src": "sha256:159e271a7e46ea43dd265163536c3094862760b20c825259fbf8153787d0e3f9",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Zcash_Tech/Ironwood.md": {
+      "src": "sha256:a0db636cfc7c45103d9b8f5dcc5d2d10f30e6cf16056461ac37be1de9193b40c",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    },
+    "Zcash_Tech/Viewing_Keys.md": {
+      "src": "sha256:118e6440700101b00e97113d0a9f8bd3488e3b20244e0b8dfea135c850e15699",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Zcash_Tech/Zebra_Full_Node.md": {
+      "src": "sha256:70fe1aa67bf5f4a852d19b46856c2445b6425c7e212ef849d49c5decd0b6f431",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "guides/My_First_Zcash_Workbook.md": {
+      "src": "sha256:34badf3e04c3596f8f8e2a7e269f064894f5c69f6fd04c936f10e2c617e2b637",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "guides/Using_ZEC_Privately.md": {
+      "src": "sha256:6698a98d157797e2120c9d1c43bd8b2ca5f6faa57895543005e2a524f99b3c41",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "guides/Visualizing_Zcash_Addresses.md": {
+      "src": "sha256:157b1fa310ca068c6ab7c7ab431e8835ffdca2fe5a54c4815f2745c986f83b70",
+      "src_commit": "3876b57a2717f660dde975a788c6040b07388322",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    }
+  },
   "fr": {
     "Glossary_and_FAQs/FAQ.md": {
       "src": "sha256:eae546ab493dee560000e891ed6e89110b928ce63fafe88b1b265097299371f6",
