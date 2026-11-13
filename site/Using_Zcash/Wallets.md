@@ -419,4 +419,28 @@
 - Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
 - Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
 - NU7: Not Ready
-- Status: Beta 
+- Status: Beta
+
+---
+
+## [Laurel](https://laurel.cash/)
+![logo](/content-images/wallets/Laurel.webp "Laurel Wallet") 
+- Devices: Android
+- Operating System: Android 9+ | Windows | Linux (desktop support subject to build availability)
+- Wallet Support: 24-Word Seed Phrase | Wallet Creation | Wallet Restoration | Encrypted Local Storage | Offline Signing | Viewing Keys
+- Pools: Transparent | Sapling | Orchard | Ironwood (Pool Transfers)
+- Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Storage
+- NU7: Not Ready
+- Status: Beta (Testnet Only)
+
+---
+
+## [Veylor](https://veylor.cash/)
+![logo](/content-images/wallets/Veylor.webp "Veylor Wallet") 
+- Devices: iOS (TestFlight) | Android
+- Operating System: iOS | Android
+- Wallet Support: Seed Phrase | Self-Custody | Hardware Wallet Integration (Keystone | Ledger)
+- Pools: Transparent | Sapling | Orchard | RAILGUN (0zkUSDC)
+- Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware Wallet Support | Private Voting
+- NU7: Not Ready
+- Status: Capped Beta (Mainnet)
