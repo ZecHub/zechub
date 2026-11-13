@@ -58,9 +58,9 @@ Hame ƒe teƒe na Pretty Good Policy for Zcash (PGPZ), Washington D.C. ƒe polit
 Hame ƒe akpaɖeɖe kple fetu nana ƒe platform si woɖe ɖe Zcash hamewo, Web3 ƒe dɔwɔwɔwo, kple Web2 ƒe habɔbɔwo ta. Ena hamewo xɔa memewo eye woɖea wo ŋu to quests, chat, kple fetuwo me, eye ena zãlawo ŋu xɔa eye woaɖe ɣaɣla ZEC.  
 [Yi nàkpɔ](https://gleyo.app/)
 
-### Zcash Ga ƒe Kpekpeɖeŋu [Grants] Ƒe Teƒe
-Ga ƒe kpekpeɖeŋu ƒe ɖoɖowo ƒuƒopé [dashboard] si hame la ŋu ƒe dɔe nye be wòana Zcash ga ƒe kpekpeɖeŋuwo ƒe didi, woƒe nɔƒe kpɔkpɔ, kple woƒe nudzodzro nadzɔ bɔbɔe. Exɔa ga ƒe kpekpeɖeŋu ƒe biabiawo, dzidzime ƒe dzidzɔwo, ga ƒe ɖoɖowo, ƒoƒoƒe ƒe nyawo, kple data ƒe nudzodzro ɖe teƒe ɖeka, esi wòle nyatakaka si woɖe le esi ma esi la xɔm tso Zcash Community Grants GitHub repository me. Platform la ƒe tae nye be wòana nɔnɔ si le kɔ kple si zãla wɔa dɔ kple bɔbɔe na amesiwo bia nu, komiti ƒe memewo, kple hame ƒe nudzrolawo.  
-[Yi nàkpɔ](https://staging.zgrantshub.com/)
+### Zcash Ga ƒe Kpekpeɖeŋuwo ƒe Teƒe [Grants Hub]
+Ga ƒe kpekpeɖeŋu [grant] ƒe ɖoɖowo ƒuƒopé [dashboard] sia nye hame la tɔ. Wowɔe be wòana Zcash ga ƒe kpekpeɖeŋuwo didi, woƒe yome kpɔkpɔ, kple woƒe nudzodzro nanɔ bɔbɔe. Eƒoa ga ƒe kpekpeɖeŋu ƒe biabiawo, dɔa ƒe afɔɖoƒewo, ga ƒe ɖoɖowo, dzeɖoɖowo, kple nyatakakawo ƒe dzodzro nu ƒu ɖe teƒe ɖeka. Ewɔa esia to nyatakaka yeyewo xɔxɔ tso Zcash Community Grants GitHub repository la me. Platform la ƒe taɖodzinue nye be wòana nɔnɔme si me kɔ wu eye zãlawo zãna bɔbɔe la ame siwo bia ga, komiti ƒe hametɔwo, kple hame la ƒe nudzodzrolawo.  
+[Yi nàkpɔe](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ AI ƒe platform si dea mɔ na AI ƒe model siwo le ŋgɔ kekeake geɖe, eye ekpe
 ### zk.poker
 Poker ƒe platform si tso ame ɖeka gbɔ yi ame bubu gbɔ, si ƒoa end-to-end ɣaɣlaŋlɔŋlɔ, mental poker, kple Zcash ƒe ɣaɣla ƒe mɔ̃ ɖekae. Woɖoe ale be operator la mehiã be wòanya playerwo ƒe cardwo alo wòaxɔ betting ƒe gaewo ɖe asi tẽ o.  
 [Yi nàkpɔ](https://zkbtc.org/)
+
+### ZKöy
+Fefe aɖe si le abe Werewolf ene na ƒuƒoƒo siwo le xɔ ɖeka me. Fefelawo dea eme to woƒe asitelefonwo dzi; zã sia zã tiatia kple akɔdada ɖe sia ɖe wotrena abe nya kpui ɣaɣla (shielded memo) ene le Zcash testnet dzi, eye ne fefea wu enu la, woɖea seed, salt kple nukpɔsafui (viewing key) ɖe go ale be ame sia ame ate ŋu akpɔ emetsonua le ɖoɖonu dzi (on-chain).  
+[Yi ɖa kpɔe](https://zkoy.fun)
 
 ---
 

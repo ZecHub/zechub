@@ -36,6 +36,36 @@ Heartwood 是一系列 Zcash 升级中的一步，每次升级都增加下一次
 
 ![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## 太长不看（TL;DR）
+
+- Heartwood 于主网区块 903,000（2020 年 7 月 16 日 UTC）激活，由 ZIP 250 部署，并采用新的共识分支 ID（consensus branch id）以实现双向重放保护。
+- ZIP 213（屏蔽 Coinbase）：Coinbase 交易可以包含 Sapling 输出，因此矿工可以将区块奖励直接接收到屏蔽地址中。
+- ZIP 221（FlyClient）：区块头中的 hashLightClientRoot 现在 commitment 一个 Merkle Mountain Range，使轻客户端能够使用仅呈对数增长的证明来验证工作量证明。
+- 透明 coinbase 输出仍然完全受支持——屏蔽 coinbase 是一个新选项，而非强制要求。
+- 激活以区块高度为准，而非时钟时间，因此不同仪表板和时区显示的确切分钟会有所不同。
+
+## 核心解释
+
+在 Heartwood 之前，矿工新铸造的 ZEC 必须首先进入透明地址，因此任何人都可以监视矿工的收入并追踪其去向。ZIP 213 放宽了共识规则，使 coinbase 交易可以支付 Sapling 输出，从而让矿工的收入从诞生的第一刻起就保持隐私。它专门针对 Sapling，因为 Sapling 的高效证明使得在 coinbase 中进行屏蔽变得切实可行；而 Sprout 繁重的证明在那里并不可行。
+
+ZIP 221 将区块头字段 hashFinalSaplingRoot 重新用作 hashLightClientRoot。它现在对基于先前区块的区块头数据构建的 Merkle Mountain Range 作出 commitment，这些数据包括时间戳、难度目标、Sapling 根、累计工作量和交易数量。这样，轻客户端（light client）或另一条链只需一个很小的证明即可验证 Zcash 的工作量证明（proof-of-work），而无需下载每一个区块。
+
+## 形象类比
+
+以前：每位矿工（miner）的收入都张贴在公共告示板上，任何人都能看到金额和资金流向。现在：收入可以装在密封的信封里送达。而且现在每个新区块（block）都带有一枚小巧的火漆印，概括了它之前的每一个区块，因此陌生人只需看一眼，就能确认整条链（chain）上的工作，而不必逐页阅读。
+
+## 深入探讨
+
+这项规则变更有其历史渊源：Sapling 曾将最初对屏蔽 coinbase 的禁令扩展到 Sapling 输出，而 Heartwood 解除了这一限制，允许此类输出。这是一个很好的例子，说明一次升级的底层机制如何成为下一次升级的基础。MMR commitment 在轻量级钱包和跨链 (cross-chain) 集成中发挥了作用，因为以前验证 Zcash 的工作量需要下载完整的链。激活时新增的共识 (consensus) 分支 ID 提供了双向重放保护：按新规则构建的交易无法在旧链上重放，反之亦然。
+
+## 常见错误
+
+- **误以为屏蔽 coinbase 已成为强制要求。** 透明 coinbase 输出仍然有效；由矿工 (miner) 自行选择。
+- **以为 Sprout 可以接收屏蔽 coinbase。** 只允许 Sapling 输出——Sprout 的证明 (proof) 生成过于消耗资源。
+- **认为 FlyClient 让全节点 (full node) 不再必要。** 它服务于轻客户端 (light client) 和跨链 (cross-chain) 验证者；全节点仍然是网络的基础。
+- **寻找固定的激活时钟时间。** 激活被定义在区块 (block) 903,000，因此实际激活的具体分钟会有所不同。
+- **把 hashLightClientRoot 与旧的 hashFinalSaplingRoot 混淆。** 这是同一个字段，只是被改作他用并重新命名。
+
 ## 术语表
 
 | 术语 | 通俗含义 |
@@ -95,5 +125,12 @@ Coinbase 输出必须是透明的，因此矿工新铸造的奖励总会进入�
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## 相关页面
+
+- [Sapling](./Sapling.md) — 让屏蔽 coinbase 成为可能的高效机制
+- [Canopy](./Canopy.md) — 该系列中的下一次升级
+- [全节点 (Full Nodes)](./Full_Nodes.md) — 完整验证仍然提供的功能
+- [区块浏览器能看到什么](./What_a_Block_Explorer_Can_See.md) — 透明 coinbase 与屏蔽 coinbase 各自暴露哪些信息
 
 系列：[网络升级索引](../start-here/network-upgrades) · 上一篇：[Blossom](../zcash-tech/blossom) · 下一篇：[Canopy](../zcash-tech/canopy)

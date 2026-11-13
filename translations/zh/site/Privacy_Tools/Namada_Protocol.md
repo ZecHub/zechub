@@ -38,11 +38,11 @@ Namada 协议还能够与任何支持 Inter-Blockchain Communication (IBC) 协�
 
 ## 屏蔽资产交易 [Transaction]
 
-在屏蔽转移中，无论涉及 Ethereum 非同质化代币 (NFT)、ATOM 还是 NAM，它们彼此之间都无法区分。这意味着，MASP（Modified Accumulator Sapling Protocol）提供的隐私保护功能，即 Zcash Sapling 电路的增强版本，统一适用于所有类型的资产。MASP 电路使 Namada 生态系统中的所有资产能够共享同一个屏蔽集。这种方法确保隐私保障不会在各个资产之间碎片化。无论某一特定资产的交易量如何，隐私保护始终保持一致且独立。
+MASP（[多资产屏蔽池 (Multi-Asset Shielded Pool)](https://docs.namada.net/users/shielded-accounts)）扩展了 Zcash 的 Sapling 电路，以支持原生资产和非原生资产的屏蔽转移。共享同一个 pool 并不意味着隐私与资产的使用情况无关。Namada 的文档解释说，同类资产共享一个匿名集，而公开的屏蔽和解除屏蔽模式仍可能暴露资产的来源。
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-通过统一不同资产之间的屏蔽集，Namada 确保无论屏蔽转移涉及何种具体资产类型，隐私都得到统一维护。这种方法在协议内推动了连贯的隐私框架，并增强了涉及 Ethereum NFT、ATOM、NAM 及其他受支持资产的交易保密性。Namada 还支持使用新颖的 zk-SNARKs 私密转移同质化和非同质化代币，确保原生和非原生代币的保密性，如同在 Zcash 上所实现的一样。
+例如，如果只有一个账户屏蔽 BTC，之后又将其提取到同一账户，那么即使资金在 MASP 内部私密转移，这些公开的进入点和退出点仍可能被关联起来。当更多账户屏蔽 BTC 时，之后的一笔提取则可能属于其中任何一个账户。真正起作用的是相关的参与情况和交易模式；仅凭共享 pool 的规模，并不能保证每种资产都获得同等的隐私。
 
 ## 更低的手续费 [Fees] 和快速交易
 
