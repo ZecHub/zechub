@@ -55,7 +55,7 @@ This guide focuses on mining Zcash using personal hardware (e.g., a home PC with
   - For ASICs: Use the manufacturer's built-in firmware/dashboard (e.g., Bitmain's web interface).
 - **Wallet:** A Zcash wallet to receive payouts. Recommended:
   - Shielded (private): ZODL Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
-  - Transparent (easier but less private): Edge Wallet, Zecwallet Lite.
+  - Transparent (easier but less private): Edge Wallet.
   - Download from [wallets](https://zechub.wiki/wallets). Generate a shielded address (starts with 'zs') for privacy if the pool supports it.
 
 ### Other
