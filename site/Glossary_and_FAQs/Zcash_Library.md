@@ -127,7 +127,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Term | Definition |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | A proposal from Shielded Labs to burn a share of transaction fees so the protocol's long-term security budget does not rest entirely on issuance. Specified in ZIP 234, under review in 2026. |
-| Nighthawk | A Mobile wallet for Zcash. [Website](https://nighthawkwallet.com) |
+| Nighthawk | A former Zcash mobile wallet from Nighthawk Apps. Its Zcash wallets are no longer maintained, and Nighthawk Wallet 3.0 is built for DarkFi instead. To move funds from an old Nighthawk seed, see [Recovering Funds](/using-zcash/recovering-funds). |
 | Noir Wallet | A Zcash browser extension wallet supported by Zcash Community Grants, built to connect shielded ZEC directly to browser applications instead of relying on QR codes and manual transfers. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | The 6th Major Network Upgrade for Zcash, introducing the Orchard shielded pool and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | The 7th Major Network Upgrade for Zcash, adjusting the block subsidy to fund the Zcash Community Grants program and the Deferred Dev Fund Lockbox. Activated in late 2024. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
@@ -209,7 +209,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 
 | Term | Definition |
 |------|-----------|
-| Wallet | Software or hardware that stores private keys and lets you send/receive ZEC. Active wallets include ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (upcoming), and Keystone (hardware). For a full list, see [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software or hardware that stores private keys and lets you send/receive ZEC. Active wallets include ZODL (iOS/Android), Zingo! (mobile/desktop), Zkool (mobile/desktop), Zallet (full-node wallet, in beta), and Keystone (hardware). For a full list, see [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | The first JavaScript SDK for Zcash, built by ChainSafe for browser environments. It underpins the Zcash Shielded Wallet snap that brought shielded ZEC to MetaMask. |
 
 ## X
