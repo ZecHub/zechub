@@ -38,11 +38,11 @@ Namada में, shielded set को एक non-exclusive और anti-rivalrous
 
 ## Shielded Assets Transaction
 
-जब shielded transfers की बात आती है, चाहे उसमें Ethereum non-fungible token (NFT), ATOM, या NAM शामिल हो, वे एक-दूसरे से अलग पहचान में नहीं आते। इसका अर्थ है कि MASP (Modified Accumulator Sapling Protocol) द्वारा प्रदान की गई privacy-preserving features, जो Zcash Sapling circuit का एक उन्नत संस्करण है, सभी प्रकार की assets पर समान रूप से लागू होती हैं। MASP circuit Namada ecosystem के भीतर सभी assets को एक ही shielded set साझा करने में सक्षम बनाता है। यह दृष्टिकोण सुनिश्चित करता है कि privacy guarantees अलग-अलग assets के बीच बिखरी हुई न रहें। किसी विशेष asset से जुड़े transaction volume की परवाह किए बिना, privacy protection एकसमान और स्वतंत्र बनी रहती है।
+MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)), Zcash के Sapling circuit का विस्तार करता है, ताकि native और non-native assets के shielded transfers संभव हो सकें। एक ही pool साझा करने का यह अर्थ नहीं है कि privacy किसी asset के उपयोग से स्वतंत्र है। Namada के documentation में बताया गया है कि एक ही प्रकार की assets एक anonymity set साझा करती हैं, और सार्वजनिक रूप से दिखने वाले shielding और unshielding के पैटर्न अब भी किसी asset के स्रोत को उजागर कर सकते हैं।
 
 ![Shielded Assets Transaction आरेख](/content-images/image-1-512c639d56.webp)
 
-विभिन्न assets के बीच shielded set को एकीकृत करके, Namada यह सुनिश्चित करता है कि shielded transfer में शामिल specific asset type चाहे कोई भी हो, privacy समान रूप से बनी रहे। यह दृष्टिकोण protocol के भीतर एक cohesive privacy framework को बढ़ावा देता है और Ethereum NFTs, ATOM, NAM, तथा अन्य समर्थित assets से जुड़े transactions की गोपनीयता को बेहतर बनाता है। Namada नवीन zk-SNARKs का उपयोग करके fungible और non-fungible tokens के private transfer को भी सक्षम बनाता है, जिससे native और non-native tokens के लिए गोपनीयता सुनिश्चित होती है, ठीक वैसे ही जैसे Zcash पर किया जाता है।
+उदाहरण के लिए, अगर सिर्फ़ एक account BTC को shield करता है और बाद में उसे उसी account में withdraw कर लेता है, तो ये public entry और exit points आपस में जोड़े जा सकते हैं, भले ही funds MASP के भीतर privately move हुए हों। जब ज़्यादा accounts BTC को shield करते हैं, तो बाद में होने वाला कोई withdrawal उनमें से किसी भी account का हो सकता है। इसमें संबंधित participation और transaction pattern मायने रखते हैं। सिर्फ़ shared pool का आकार हर asset के लिए एक जैसी privacy की गारंटी नहीं देता।
 
 ## कम शुल्क और तेज़ Transactions
 

@@ -95,5 +95,5 @@ Firn का उपयोग करने के लिए, protocol में ET
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO एक लेयर 1 सार्वजनिक ब्लॉकचेन है। TomoChain, TomoChain पर विकसित एक प्राइवेसी प्रोटोकॉल है और इसे सुरक्षित तथा अप्राप्य लेनदेन बनाने के लिए डिज़ाइन किया गया है -**संपत्ति अदला-बदली**: हाँ- [श्वेतपत्र](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (पूर्व में TomoChain)](https://viction.xyz/ecosystem)**: VIC (पूर्व में TOMO) एक लेयर 1 सार्वजनिक ब्लॉकचेन है। TomoChain, TomoChain पर विकसित एक प्राइवेसी प्रोटोकॉल है और इसे सुरक्षित तथा अप्राप्य लेनदेन बनाने के लिए डिज़ाइन किया गया है -**संपत्ति अदला-बदली**: हाँ- [श्वेतपत्र](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***
