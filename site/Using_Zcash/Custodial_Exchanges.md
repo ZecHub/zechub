@@ -99,15 +99,16 @@ ___
 - Ironwood: Shielded withdrawals supported, pool not stated
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX (formerly Huobi)](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Website: [Huobi](https://huobi.com)
+- Website: [HTX](https://www.htx.com)
 - Pairs: ALL/ZEC
 - Supports: Transparent
+- Status: ZEC deposits and withdrawals currently suspended (per HTX public API, November 2026); spot trading still listed
 - Deposit Time: 35 Minutes 
 - Ironwood: Not applicable, transparent addresses only
 ___
