@@ -21,7 +21,7 @@ Während Daten über Server oder das Internet übertragen werden, sind sie viele
 
 **Zcash Encrypted Memos**
 
-Zcash-Desktop- und Mobil-Wallets verfügen über eine integrierte Funktion, mit der Nutzer verschlüsselte Nachrichten mit privaten shielded Transaktionen senden können. Die Memo-/Nachrichtengröße kann pro Transaktion bis zu 512 Byte betragen, wobei die Transaktionsgebühren unter 1 US-Cent liegen. Aufgrund der datenschutzfreundlichen Art, wie Transaktionen erkannt werden, und der Blockzeit des Netzwerks kann es bis zu 1 Minute oder länger dauern, bis Nachrichten empfangen werden. 
+Zcash-Wallets, die shielded Memos unterstützen, ermöglichen es Nutzern, verschlüsselte Nachrichten an shielded Zahlungen anzuhängen. Jeder shielded Output hat ein eigenes Memo-Feld von 512 Byte; es handelt sich also nicht um ein einziges Kontingent von 512 Byte für die gesamte Transaktion. Unter [Memos](/using-zcash/memos) findest du das Textformat und die Wallet-Unterstützung. Transaktionsgebühren werden in ZEC bezahlt, und [ZIP 317](https://zips.z.cash/zip-0317) legt eine konventionelle Gebühr fest, die von der Komplexität der Transaktion abhängt. Die Kosten in US-Dollar ändern sich zudem mit dem Wechselkurs von ZEC, daher ist eine Gebühr unter 1 US-Cent nicht garantiert. Prüfe vor dem Senden die Gebührenangabe der Wallet. Die Zustellung von Nachrichten hängt von der Verbreitung der Transaktion, den Bestätigungsregeln und der Synchronisierung der Empfänger-Wallet ab; es handelt sich nicht um einen Echtzeit-Chat.
 
 Probier es aus: https://z.cash/wallets 
 

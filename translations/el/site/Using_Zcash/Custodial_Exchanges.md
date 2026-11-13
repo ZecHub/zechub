@@ -8,6 +8,19 @@
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Λογότυπο AltQuick" width="200" height="100"/>
+</a>
+
+- Ιστότοπος: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Ζεύγη: ZEC/BTC
+- Υποστηρίζει: Διαφανείς
+- Χρόνος κατάθεσης: Περίπου 30 λεπτά (24 επιβεβαιώσεις)
+- Ironwood: Δεν ισχύει, μόνο διαφανείς διευθύνσεις
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

@@ -102,7 +102,7 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 [Zcash مستكشف الكتل](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics بيانات الشبكة](https://docs.coinmetrics.io/network-data/network-data-overview) — توثيق المقاييس وروابط إلى التغطية الحالية للأصول.
 
 يمكنك أيضاً المساهمة في تطوير الشبكة عبر إجراء الاختبارات أو اقتراح تحسينات جديدة وتقديم المقاييس.
 
