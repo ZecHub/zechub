@@ -1,75 +1,75 @@
-# Subventions rétroactives dirigées par les détenteurs de jetons
+# Subventions rétroactives dirigées par les détenteurs de pièces
 
-Le **programme de subventions rétroactives dirigées par les détenteurs de jetons** finance des travaux achevés qui ont apporté une valeur vérifiable à l’écosystème Zcash.
+Le **programme de subventions rétroactives dirigé par les détenteurs de pièces** finance des travaux achevés qui ont apporté une valeur vérifiable à l'écosystème Zcash.
 
-Il s’appuie sur le **Coinholder-Controlled Fund** (12 % des récompenses de bloc + Deferred Dev Fund Lockbox seed), établi par ZIP 1016 et activé dans NU6.1 (novembre 2025). 
+Il puise dans le **fonds contrôlé par les détenteurs de pièces** (12 % des récompenses de bloc + dotation initiale issue du Deferred Dev Fund Lockbox), établi par la ZIP 1016 et activé lors de NU6.1 (novembre 2025). 
 
-Le programme fonctionne chaque trimestre jusqu’au 3e halving (~2028). Les fonds sont détenus en multisig par des organisations détentrices de clés (par ex., Shielded Labs, FPF).
+Le programme fonctionne trimestriellement jusqu'au 3e halving (~2028). Les fonds sont détenus en multisignature par des organisations détentrices de clés (p. ex. Shielded Labs, FPF).
 
 ---
 
-Les subventions sont **uniquement rétroactives** - elles récompensent des contributions passées (par ex., développement, intégrations, renforcement de la communauté). Les travaux prospectifs doivent faire une demande auprès de Zcash Community Grants (ZCG, 8 % des récompenses).
+Les subventions sont **uniquement rétroactives** : elles récompensent des contributions passées (p. ex. développement, intégrations, développement de la communauté). Pour des travaux futurs, il convient de postuler auprès de Zcash Community Grants (ZCG, 8 % des récompenses).
 
 ---
 
 ## Candidatures éligibles
 
-**Priorité** :
+**Objet** :
 
-Travaux achevés, publiquement vérifiables, bénéficiant à Zcash (confidentialité, adoption, outillage, sécurité).
+Travaux achevés et publiquement vérifiables bénéficiant à Zcash (confidentialité, adoption, outillage, sécurité).
 
-**Critères** (évalués par les détenteurs de jetons) :
+**Critères** (évalués par les détenteurs de pièces) :
 
   - Impact démontré et valeur apportée.
   - Alignement avec les valeurs de Zcash (confidentialité, décentralisation).
-  - Preuves transparentes (code, rapports, métriques).
+  - Preuves transparentes (code, rapports, indicateurs).
 
 
 **Aucune restriction** : 
 
-Toute personne (individus, équipes, organisations) peut déposer une candidature ou être nommée.
+Toute personne (particuliers, équipes, organisations) peut postuler ou être proposée.
 
 **Propositions concurrentes** : 
 
-Votées séparément ; le soutien en ZEC le plus élevé l’emporte.
+Votées séparément ; celle qui obtient le plus fort soutien en ZEC l'emporte.
 
 **Veto possible** : 
 
-Par les détenteurs de clés pour des questions juridiques ou un préjudice causé aux utilisateurs/à la communauté (rare, avec justification).
+Par les détenteurs de clés, en cas de problèmes juridiques ou de préjudice pour les utilisateurs ou la communauté (rare, avec justification).
 
 ## Comment soumettre une candidature
 
-**Préparer la proposition** :
+**Préparez votre proposition** :
 
-- Décrire le travail achevé, son impact, et les preuves (liens, livrables).
-- Préciser le montant demandé (équivalent ZEC/USD) et sa justification.
-- Inclure l’adresse de paiement et le contact.
-
-
-**Soumettre** :
+- Décrivez les travaux achevés, leur impact et les preuves (liens, livrables).
+- Précisez le montant demandé (en ZEC ou équivalent en USD) et sa justification.
+- Indiquez une adresse de paiement et un contact.
 
 
-- Publier sur le forum communautaire Zcash (forum.zcashcommunity.com) dans la section Grants.
-- Titre : "[Subvention rétroactive] - [Nom du projet]".
-- Utiliser un format markdown clair.
+**Soumettez** :
+
+
+- Publiez sur le forum de la communauté Zcash (forum.zcashcommunity.com), dans la section Grants.
+- Titre : « [Subvention rétroactive] - [Nom du projet] ».
+- Utilisez un format Markdown clair.
 
 
 **Date limite** :
 
 
-- Trimestrielle ; annoncée sur le forum/X (par ex., T4 2025 : 12 octobre 2025, 11:59 PM UTC).
-- Soumissions tardives : soumettre à nouveau au cycle suivant ou faire une demande à ZCG.
+- Trimestrielle ; annoncée sur le forum et sur X (p. ex. T4 2025 : 12 octobre 2025, 23 h 59 UTC).
+- Soumissions tardives : soumettez à nouveau lors du tour suivant ou postulez auprès de ZCG.
 
 
-**Participer** :
+**Participez** :
 
-Répondez aux questions de la communauté pendant la période d’examen de 30 jours.
+Répondez aux questions de la communauté pendant l'examen de 30 jours.
 
-#### note: Administré par FPF (conformité, communication) ; les propositions sont compilées sur GitHub pour plus de visibilité.
+#### Note : administré par la FPF (conformité, communication) ; les propositions sont regroupées sur GitHub pour plus de visibilité.
 
 ## Processus de vote et calendrier
 
-**Calendrier trimestriel** (par ex., T4 2025, T1 2026) :
+**Calendrier trimestriel** (p. ex. T4 2025, T1 2026) :
 
 **Date limite de soumission** : 
 
@@ -77,27 +77,27 @@ Milieu du trimestre (annoncée).
 
 **Examen de 30 jours** : 
 
-Commence après la date limite ; discussion/retours dans les fils du forum (un fil récapitulatif est souvent créé).
+Commence après la date limite ; discussions et retours dans les fils du forum (un fil récapitulatif est souvent créé).
 
 **Période de vote** : 
 
-Suit l’examen (par ex., ~1 à 2 semaines en novembre pour le T4).
+Suit l'examen (p. ex. environ 1 à 2 semaines en novembre pour le T4).
 
-**Résultats et décaissement** : 
+**Résultats et versement** : 
 
-Peu après ; les subventions approuvées sont versées selon les modalités (KYC pour >$50k).
+Peu après ; les subventions approuvées sont versées selon les conditions prévues (KYC au-delà de 50 000 $).
 
 **Vote** :
 
-  - Les détenteurs de jetons votent avec leurs avoirs en ZEC (pas de verrouillage ; le pool Orchard est éligible).
-  - Mécanisme : sondage décentralisé (par ex., via des autorités de vote).
-  - **Approbation** : au moins 420,000 ZEC de quorum + majorité simple de oui.
-  - Votes indépendants ; les jetons peuvent être réutilisés entre les propositions.
+  - Les détenteurs de pièces votent avec leurs avoirs en ZEC (sans blocage ; le pool Orchard est éligible).
+  - Mécanisme : sondage décentralisé (p. ex. via des autorités de vote).
+  - **Approbation** : quorum d'au moins 420 000 ZEC + majorité simple de « oui ».
+  - Votes indépendants ; les pièces peuvent être réutilisées pour plusieurs propositions.
   - Résultats publics et transparents.
 
 
-#### note: **Cycle actuel (au 5 janvier 2026)** : le T4 2025 est terminé (vote de novembre) ; les soumissions pour le T1 2026 sont attendues prochainement - surveillez le forum pour les annonces.
+#### Note : **Tour en cours (au 5 janvier 2026)** : T4 2025 terminé (vote de novembre) ; soumissions du T1 2026 attendues prochainement. Surveillez le forum pour les annonces.
 
 ## Dernières mises à jour : 
 
-Consultez la [section Grants du forum communautaire Zcash](https://forum.zcashcommunity.com/c/grants/32). Le processus peut évoluer en fonction des retours de la communauté.
+Consultez la [section Grants du forum de la communauté Zcash](https://forum.zcashcommunity.com/c/grants/32). Le processus peut évoluer en fonction des retours de la communauté.

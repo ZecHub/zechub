@@ -1,47 +1,47 @@
 # Exécuter un nœud complet sur un Raspberry Pi 4 (Zebra + Zallet)
 
-*Migré depuis le guide original basé sur zcashd. zcashd a atteint son arrêt automatique de fin de support le 18 juillet 2026, donc ce guide utilise désormais **Zebra** (le nœud complet actuel, maintenu par la Zcash Foundation) et **Zallet** (le portefeuille conçu pour remplacer le portefeuille intégré de zcashd).*
+*Migré depuis le guide original basé sur zcashd. zcashd a atteint son arrêt automatique de fin de support le 18 juillet 2026 ; ce guide utilise donc désormais **Zebra** (le nœud complet actuel, maintenu par la Zcash Foundation) et **Zallet** (le portefeuille conçu pour remplacer le portefeuille intégré de zcashd).*
 
 ## Ce que vous allez apprendre
-- Comment flasher et configurer Ubuntu Server 22.04+ (64 bits) sur un Raspberry Pi 4 pour une utilisation headless
-- Comment installer et exécuter Zebra, soit via Docker soit via un binaire précompilé
-- Comment installer, configurer et initialiser Zallet, y compris la configuration du chiffrement du portefeuille
-- Comment migrer facultativement une configuration/un portefeuille zcashd existant vers Zallet
+- Comment flasher et configurer Ubuntu Server 22.04+ (64 bits) sur un Raspberry Pi 4 pour une utilisation sans écran
+- Comment installer et exécuter Zebra, soit via Docker, soit à l'aide d'un binaire précompilé
+- Comment installer, configurer et initialiser Zallet, y compris la mise en place du chiffrement du portefeuille
+- Comment migrer, si vous le souhaitez, une configuration ou un portefeuille zcashd existant vers Zallet
 
 ## Ce qui a changé par rapport à l'ancien guide
-La version précédente de ce guide expliquait comment compiler **zcashd** nativement sur un Pi 4 — une compilation mono-thread qui prenait 3 à 4 heures parce que le Pi 4 n'a pas assez de mémoire pour une compilation parallèle (`-j$(nproc)`). Zebra et Zallet publient désormais tous deux des **binaires ARM64 et des images Docker précompilés officiels**, donc dans la plupart des cas vous n'avez plus besoin de compiler quoi que ce soit depuis les sources sur le Pi lui-même.
+La version précédente de ce guide expliquait comment compiler **zcashd** nativement sur un Pi 4 : une compilation sur un seul thread qui prenait 3 à 4 heures, car le Pi 4 ne dispose pas d'assez de mémoire pour une compilation parallèle (`-j$(nproc)`). Zebra et Zallet sont désormais tous deux fournis sous forme de **binaires ARM64 précompilés officiels et d'images Docker**. Dans la plupart des cas, vous n'avez donc plus besoin de compiler quoi que ce soit à partir du code source sur le Pi lui-même.
 
 ## Prérequis
 - Un Raspberry Pi 4 (4 Go de RAM ou plus recommandés)
-- Une carte microSD (32 Go+) pour l'OS
-- Un SSD/HDD externe compatible USB 3.0 — **Zebra a besoin d'environ 300 Go pour les données Mainnet mises en cache**, et ce volume augmente avec le temps, donc n'essayez pas de faire tourner cela uniquement depuis la carte microSD
-- Un ordinateur avec un lecteur de carte microSD (pour flasher l'image de l'OS)
+- Une carte microSD (32 Go ou plus) pour le système d'exploitation
+- Un SSD ou un disque dur externe compatible USB 3.0 : **Zebra a besoin d'environ 300 Go pour les données Mainnet en cache**, et ce volume augmente avec le temps. N'essayez donc pas de tout faire tourner sur la seule carte microSD
+- Un ordinateur équipé d'un lecteur de carte microSD (pour flasher l'image du système d'exploitation)
 - Une connexion Ethernet filaire ou le Wi-Fi
 - Une aisance de base avec la ligne de commande via SSH
 
-## Étape 1 : Flasher Ubuntu Server 22.04+ (64 bits)
-Les binaires précompilés et images Docker de Zebra et Zallet nécessitent **glibc 2.34+**, ce qui signifie **Ubuntu Server 22.04 ou plus récent (64 bits/aarch64)**.
+## Étape 1 : flasher Ubuntu Server 22.04+ (64 bits)
+Les binaires précompilés et les images Docker de Zebra et de Zallet nécessitent **glibc 2.34+**, c'est-à-dire **Ubuntu Server 22.04 ou une version plus récente (64 bits/aarch64)**.
 
 1. Installez Raspberry Pi Imager sur votre ordinateur principal.
 2. Insérez votre carte microSD.
-3. Choisissez **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (ou plus récent).
-4. Utilisez les options avancées de l'Imager (icône engrenage) pour préconfigurer le nom d'hôte, activer SSH et définir les identifiants Wi-Fi si nécessaire, pour un premier démarrage headless.
-5. Écrivez l'image, insérez la carte, allumez le Pi.
+3. Choisissez **Other general-purpose OS → Ubuntu → Ubuntu Server 22.04 LTS (64-bit)** (ou une version plus récente).
+4. Utilisez les options avancées de l'Imager (icône en forme d'engrenage) pour préconfigurer le nom d'hôte, activer SSH et définir les identifiants Wi-Fi si nécessaire, afin de permettre un premier démarrage sans écran.
+5. Écrivez l'image, insérez la carte et mettez le Pi sous tension.
 6. Connectez-vous en SSH : `ssh <username>@<pi-hostname-or-ip>`
 
-## Étape 2 : Connecter et monter le stockage externe
-1. Connectez votre SSD/HDD externe via USB 3.0.
+## Étape 2 : brancher et monter le stockage externe
+1. Branchez votre SSD ou disque dur externe en USB 3.0.
 2. Identifiez le périphérique : `lsblk`
-3. Formatez-le (s'il est neuf) et montez-le, par exemple sur `/mnt/zcash-data`, avec une configuration standard `mkfs`/`fstab` afin qu'il se monte automatiquement au redémarrage.
+3. Formatez-le (s'il est neuf) et montez-le, p. ex. sur `/mnt/zcash-data`, avec une configuration `mkfs`/`fstab` standard afin qu'il soit monté automatiquement au redémarrage.
 
-## Étape 3 : Mettre le système à jour
+## Étape 3 : mettre à jour le système
 ```bash
 sudo apt update && sudo apt full-upgrade -y
 sudo reboot
 ```
 
-## Étape 4 : Installer et exécuter Zebra
-### Option A — Docker (recommandé)
+## Étape 4 : installer et exécuter Zebra
+### Option A — Docker (recommandée)
 ```bash
 sudo apt install -y docker.io
 sudo usermod -aG docker $USER   # log out/in after this
@@ -61,29 +61,29 @@ cargo install cargo-binstall
 cargo binstall zebrad
 zebrad start
 ```
-Cela installe un binaire `aarch64` précompilé — aucune compilation requise.
+Cette commande installe un binaire `aarch64` précompilé, sans aucune compilation nécessaire.
 
-**Concernant le temps de synchronisation :** attendez-vous à ce que cela prenne du temps — les chiffres souvent cités pour une première synchronisation (environ 2 heures) proviennent d'un matériel de référence plus puissant que le CPU d'un Pi 4, donc votre temps de synchronisation réel sur un vrai Pi 4 sera probablement plus long.
+**À propos du temps de synchronisation :** attendez-vous à ce que cela prenne un certain temps. Les durées de première synchronisation souvent citées (environ 2 heures) proviennent de matériel de référence plus puissant que le processeur d'un Pi 4 : votre temps de synchronisation réel sur un véritable Pi 4 sera donc probablement plus long.
 
-## Étape 5 : Installer Zallet
-Zallet est actuellement en **alpha** — attendez-vous à des changements incompatibles, et ne le considérez pas encore comme une solution de garde prête pour la production pour des montants importants.
+## Étape 5 : installer Zallet
+Zallet est actuellement en version **alpha** : attendez-vous à des changements incompatibles et ne le considérez pas encore comme une solution de conservation prête pour la production pour des fonds importants.
 
-### Option A — Docker (recommandé)
+### Option A — Docker (recommandée)
 ```bash
 docker pull zodlinc/zallet:latest
 ```
-Cette image prend en charge ARM64 (via un build basé sur Nix) et s'exécute depuis un système de fichiers minimal sans shell — passez explicitement les chemins de configuration et de données via `--datadir` et les montages de volumes (voir l'étape 6).
+Cette image prend en charge ARM64 (via une compilation basée sur Nix) et s'exécute à partir d'un système de fichiers minimal, sans shell : transmettez explicitement les chemins de configuration et de données via `--datadir` et des montages de volumes (voir l'étape 6).
 
-### Option B — Compiler depuis les sources
+### Option B — Compiler à partir du code source
 ```bash
 # Requires Rust 1.85+ (see Step 4B for rustup install)
 sudo apt install -y clang libclang-dev protobuf-compiler
 cargo install --locked --git https://github.com/zcash/wallet.git
 ```
-Les crates de Zallet ne sont pas encore publiées sur crates.io pendant la phase alpha, donc l'installation directement depuis le dépôt git est la méthode non-Docker prise en charge.
+Les crates de Zallet ne sont pas encore publiées sur crates.io pendant la phase alpha ; l'installation directe depuis le dépôt git est donc la méthode prise en charge en dehors de Docker.
 
-## Étape 6 : Configurer Zallet
-Créez `zallet.toml` dans le répertoire de données de votre choix (par ex. `/mnt/zcash-data/zallet`) :
+## Étape 6 : configurer Zallet
+Créez `zallet.toml` dans le répertoire de données de votre choix (p. ex. `/mnt/zcash-data/zallet`) :
 ```toml
 [builder.limits]
 [consensus]
@@ -101,58 +101,58 @@ validator_address = "127.0.0.1:8232"   # Zebra's JSON-RPC endpoint
 [rpc]
 bind = ["127.0.0.1:SOMEPORT"]
 ```
-Ajustez `validator_address` si Zebra s'exécute sur un autre hôte/port, et configurez `validator_cookie_auth`/`validator_user`/`validator_password` sous `[indexer]` pour correspondre à votre configuration d'authentification RPC Zebra.
+Ajustez `validator_address` si Zebra s'exécute sur un autre hôte ou un autre port, et configurez `validator_cookie_auth`/`validator_user`/`validator_password` sous `[indexer]` pour qu'ils correspondent à votre configuration d'authentification RPC de Zebra.
 
-**Migration depuis zcashd ?** Si vous avez encore un ancien `zcash.conf` :
+**Vous migrez depuis zcashd ?** Si vous avez encore un ancien `zcash.conf` :
 ```bash
 zallet migrate-zcash-conf --datadir /path/to/old/zcashd/datadir -o /mnt/zcash-data/zallet/zallet.toml
 ```
 
-## Étape 7 : Configurer le chiffrement du portefeuille
-Zallet chiffre tout le matériel de clés en utilisant `age`/`rage` :
+## Étape 7 : mettre en place le chiffrement du portefeuille
+Zallet chiffre l'ensemble des clés à l'aide de `age`/`rage` :
 ```bash
 cargo install rage
 rage -p -o /mnt/zcash-data/zallet/encryption-identity.txt <(rage-keygen)
 ```
-Cela affiche une clé publique et une phrase secrète autogénérée — **conservez la phrase secrète ; vous ne pouvez pas récupérer le fichier d'identité sans elle.**
+Cette commande affiche une clé publique et une phrase secrète générée automatiquement. **Conservez la phrase secrète : vous ne pourrez pas récupérer le fichier d'identité sans elle.**
 
-## Étape 8 : Initialiser et démarrer le portefeuille
+## Étape 8 : initialiser et démarrer le portefeuille
 ```bash
 zallet -d /mnt/zcash-data/zallet init-wallet-encryption
 zallet -d /mnt/zcash-data/zallet generate-mnemonic
 ```
-**N'exécutez `generate-mnemonic` qu'une seule fois** sauf si vous voulez délibérément plusieurs racines de dépense indépendantes.
+**N'exécutez `generate-mnemonic` qu'une seule fois**, sauf si vous souhaitez délibérément disposer de plusieurs racines de dépense indépendantes.
 
 ```bash
 zallet -d /mnt/zcash-data/zallet start
 ```
 
-## Étape 9 : Migrer un portefeuille zcashd existant (facultatif)
+## Étape 9 : migrer un portefeuille zcashd existant (facultatif)
 ```bash
 zallet -d /mnt/zcash-data/zallet migrate-zcashd-wallet --zcashd-datadir /path/to/old/zcashd/datadir
 ```
-Cela nécessite l'utilitaire `db_dump` (compilé contre Berkeley DB 6.2.23) — depuis une installation système ou une compilation locale de zcashd depuis les sources. Si vous n'avez plus zcashd installé, c'est l'unique étape de migration qui n'est pas encore entièrement autonome dans Zallet.
+Cette opération nécessite l'utilitaire `db_dump` (compilé avec Berkeley DB 6.2.23), issu d'une installation système ou d'une compilation locale de zcashd à partir du code source. Si zcashd n'est plus installé sur votre système, il s'agit de la seule étape de migration qui n'est pas encore entièrement autonome dans Zallet.
 
-## Étape 10 : Vérifier que tout fonctionne
+## Étape 10 : vérifier que tout fonctionne
 ```bash
 zallet -d /mnt/zcash-data/zallet help
 ```
-Confirmez que le portefeuille répond et, une fois que Zebra a terminé sa synchronisation, que les soldes/adresses correspondent à vos attentes.
+Vérifiez que le portefeuille répond puis, une fois la synchronisation de Zebra terminée, que les soldes et les adresses correspondent à ce que vous attendez.
 
 ## Dépannage
-- **Problèmes de compilation/exécution de Zebra sur ARM :** si vous compilez depuis les sources, installez la toolchain Rust ARM — exécuter des outils de compilation x86_64 sur du matériel ARM sera sensiblement plus lent, selon la propre documentation de Zebra.
-- **Le stockage se remplit :** l'empreinte d'environ 300 Go de Zebra continue de croître — prévoyez de la marge.
-- **Erreurs de permission Docker :** déconnectez-vous/reconnectez-vous après avoir ajouté votre utilisateur au groupe `docker`, ou utilisez `sudo` en attendant.
-- **Le conteneur Zallet n'a pas de shell :** l'image officielle `zodlinc/zallet` est volontairement from-scratch — passez toujours `--datadir` explicitement et montez votre répertoire de données comme volume.
+- **Problèmes de compilation ou d'exécution de Zebra sur ARM :** si vous compilez à partir du code source, installez la chaîne d'outils ARM de Rust. Selon la documentation de Zebra, exécuter des outils de compilation x86_64 sur du matériel ARM est sensiblement plus lent.
+- **Stockage qui se remplit :** l'empreinte d'environ 300 Go de Zebra ne cesse de croître ; prévoyez de la marge.
+- **Erreurs d'autorisation Docker :** déconnectez-vous puis reconnectez-vous après avoir ajouté votre utilisateur au groupe `docker`, ou utilisez `sudo` en attendant.
+- **Le conteneur Zallet n'a pas de shell :** l'image officielle de `zodlinc/zallet` est construite à partir de zéro par conception ; transmettez toujours `--datadir` explicitement et montez votre répertoire de données en tant que volume.
 
-## Notes matérielles par rapport à l'ancien guide zcashd
-Zebra et Zallet sont généralement moins exigeants en CPU pendant l'installation que ne l'était la compilation de zcashd, puisque vous exécutez des binaires/conteneurs précompilés. 4 Go de RAM constituent un point de départ raisonnable ; surveillez avec `htop` et envisagez la variante Pi 4 de 8 Go si vous constatez un swap important.
+## Remarques sur le matériel par rapport à l'ancien guide zcashd
+Zebra et Zallet sollicitent généralement moins le processeur lors de l'installation que la compilation de zcashd, puisque vous exécutez des binaires ou des conteneurs précompilés. 4 Go de RAM constituent un point de départ raisonnable ; surveillez l'utilisation avec `htop` et envisagez la version 8 Go du Pi 4 si vous constatez une utilisation intensive de l'espace d'échange.
 
 ## Ressources supplémentaires
-- [Livre de Zebra](https://zebra.zfnd.org) — documentation officielle de Zebra
-- [Livre de Zallet](https://zcash.github.io/zallet/) — documentation officielle de Zallet
+- [Zebra Book](https://zebra.zfnd.org) — documentation officielle de Zebra
+- [Zallet Book](https://zcash.github.io/zallet/) — documentation officielle de Zallet
 - [Avis de fin de support de zcashd](https://z.cash/support/zcashd-deprecation)
 
 ---
 
-*Si ce guide vous a été utile, envisagez de soutenir ZecHub : [insérer l'adresse shielded actuelle de don ZecHub depuis zechub.wiki/donation — non incluse ici car je n'ai pas pu vérifier qu'elle est toujours à jour].*
+*Si ce guide vous a été utile, pensez à soutenir ZecHub : [insérer l'adresse protégée de don actuelle de ZecHub indiquée sur zechub.wiki/donation — non incluse ici, car je n'ai pas pu vérifier qu'elle est toujours d'actualité].*
