@@ -106,7 +106,7 @@ A Zcash transaction is not final just because it appears in your wallet. It beco
 
 Expiry is a **block height**, not a fixed countdown. For an ordinary payment with a nonzero expiry height, that height is the last block in which it can be mined. For example, a payment expiring at height 3539 can be included in block 3539; block 3540 is too late. An expiry height of 0 means no expiry for an ordinary payment. See [ZIP 203](https://zips.z.cash/zip-0203).
 
-Defaults are not universal deadlines. ZIP 203 specifies 40 blocks after Blossom, roughly 50 minutes at a 75-second target spacing. The proposed NU7 change recommends 120 blocks at a 25-second target spacing, also roughly 50 minutes ([ZIP 218](https://zips.z.cash/zip-0218)). Wallet settings and implementations can differ, and actual block intervals vary. Check the particular transaction's expiry height instead of timing a resend.
+Defaults are not universal deadlines. ZIP 203 specified 40 blocks after Blossom, roughly 50 minutes at a 75-second target spacing. Since NU7 activated on November 6, 2026 (block 3,543,405), the target spacing is 25 seconds and ZIP 218 recommends a default of 120 blocks, which is still roughly 50 minutes ([ZIP 218](https://zips.z.cash/zip-0218)). Wallet settings and implementations can differ, and actual block intervals vary. Check the particular transaction's expiry height instead of timing a resend.
 
 Expiry does not reverse an already mined payment or create a refund transaction. If the original expired without being mined, it never settled on-chain. Your wallet may need to sync before showing the associated funds as spendable again.
 

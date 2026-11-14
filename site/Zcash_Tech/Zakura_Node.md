@@ -4,7 +4,7 @@
 
 # Zakura Node
 
-Zakura is a free, open-source full node implementation for Zcash, built for scale. Forked from [Zebra](Zebra_Full_Node.md) and developed through a collaboration between **Valar Group** and **Project Tachyon**, Zakura delivers dramatically faster synchronization, native block pruning, and a compatibility layer for legacy `zcashd` tooling. Version 1.0.0 was released on July 15, 2026.
+Zakura is a free, open-source full node implementation for Zcash, built for scale. Forked from [Zebra](Zebra_Full_Node.md) and developed through a collaboration between **Valar Group** and **Project Tachyon**, Zakura delivers dramatically faster synchronization, native block pruning, and a compatibility layer for legacy `zcashd` tooling. Version 1.0.0 was released on July 15, 2026. Releases have come quickly since then: 1.7.0 (October 22, 2026) activated NU7 on Mainnet, and the 1.8 series followed in November.
 
 ---
 
@@ -16,6 +16,7 @@ Zakura is a free, open-source full node implementation for Zcash, built for scal
 - A **zcashd RPC compatibility mode** lets existing wallets and integrations work without modification.
 - An **experimental P2P transport layer** (disabled by default) targets sub-500ms block propagation with DoS-resistant gossip.
 - Compatible with **Ironwood (NU6.3)**, the Zcash network upgrade activated in mid-2026.
+- Follows **NU7**: Zakura 1.7.0 is the release that activates it on Mainnet. Each release also halts at an end-of-support block a few weeks after it ships, so plan to upgrade regularly (see Before You Run It below).
 - **Zakura Common** (v1.3.0, August 2026) speeds up the cryptography wallets use to build private transactions: from over 3 seconds to under 200 ms in many cases, per Zakura's benchmarks.
 - Led by **Sean Bowe** (Zcash cofounder, Project Tachyon) and **Dev Ojha** (Valar Group).
 
@@ -69,6 +70,10 @@ This layer represents a preview of future Zcash network-level improvements being
 
 Zakura is fully compatible with the Ironwood network upgrade (NU6.3), activated on the Zcash mainnet in mid-2026.
 
+### NU7
+
+Zakura 1.7.0, released on October 22, 2026, is the release that activates NU7 on Mainnet ([release notes](https://github.com/zakura-core/zakura/releases/tag/v1.7.0)). A node needs 1.7.0 or newer to follow the chain after the upgrade. [NU7](NU7.md) covers what the upgrade changes.
+
 ---
 
 ## Zakura Common: Faster Wallet Cryptography
@@ -96,7 +101,7 @@ For users, the most visible change is waiting time. Building a private transacti
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
 | Language | C++ (forked from Bitcoin) | Rust | Rust (forked from Zebra) |
-| Status | Deprecated | Active | Active (v1.0.0, Jul 2026) |
+| Status | Deprecated | Active | Active (v1.0.0 Jul 2026; v1.8.8 Nov 2026) |
 | Sync speed | Baseline | ~1× | ~5× faster |
 | Block pruning | No | No | Yes |
 | zcashd RPC compat | Native | Partial | Yes (compat mode) |
@@ -112,6 +117,16 @@ Download options, snapshots, and configuration documentation are available at:
 - **Download & setup guide:** [zakura.com/download](https://zakura.com/download/)
 - **Chain snapshots:** [zakura.com/snapshots](https://zakura.com/snapshots/)
 - **Source code:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Release notes:** [github.com/zakura-core/zakura/releases](https://github.com/zakura-core/zakura/releases)
+
+### Before You Run It
+
+A few things from the 1.8 release notes that catch operators out:
+
+- **Releases expire.** Every Zakura release has an end-of-support height, and a Mainnet node running it halts at that block. The 1.8.x releases are "Supported on Mainnet until block 3,643,309, around December 3, 2026", with upgrade warnings about three days earlier ([v1.8.8](https://github.com/zakura-core/zakura/releases/tag/v1.8.8)). Check the newest release before that date, and don't pin an old version in scripts or deployment templates without a plan to bump it.
+- **x86-64 CPU requirement since 1.8.0.** Release binaries and Docker images use BMI2/ADX instructions, which means Intel Broadwell, AMD Zen or newer. On an older CPU `zakurad` exits at startup with an error naming the missing extensions. Build from source with `--features portable` to run on those machines ([v1.8.0](https://github.com/zakura-core/zakura/releases/tag/v1.8.0)).
+- **Old generated configs and native P2P.** `zakurad generate` used to write `peer_memory_budget_bytes = 8589934592` (8 GiB). Since 1.8.3 that admits about half as many native P2P connections, and 4 GiB or less won't start a node that runs native P2P. Raise `[network.zakura] peer_memory_budget_bytes` to at least 15 GiB, or delete the line to use the new 15 GiB default ([v1.8.3](https://github.com/zakura-core/zakura/releases/tag/v1.8.3)).
+- **State tools moved into `zakurad`.** Since 1.8.3 the standalone `zakura-prune-state` and `zakura-rollback-state` binaries are no longer shipped, including in Docker. Use `zakurad prune-state` and `zakurad rollback-state` instead. They take the same arguments but load `zakura.toml`, so pass `--cache-dir` to point at a specific state directory.
 
 ---
 

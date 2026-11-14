@@ -1,35 +1,35 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/ZFAV_Club/Guides/Github_With_IPFS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Servir un dépôt GitHub avec IPFS
+# Héberger un dépôt GitHub avec IPFS 
 
 ## Introduction
 
-Dans ce guide, nous allons apprendre à créer une URL clonable avec git pour votre dépôt GitHub, servie à l’aide d’un CID IPFS. Cela est utile pour garantir la disponibilité du contenu quelle que soit la région géographique, la résistance à la censure, ainsi qu’une sauvegarde persistante d’informations précieuses !
+Dans ce guide, nous apprenons à créer une URL clonable avec git pour votre dépôt GitHub, servi à l'aide d'un CID IPFS. C'est utile pour garantir la disponibilité du contenu quelle que soit la région géographique, pour résister à la censure et comme sauvegarde persistante d'informations précieuses !
 
-Remarque : les données téléversées sur IPFS sont accessibles à *tous* les utilisateurs du réseau. Vous pouvez souhaiter chiffrer localement les données personnelles/sensibles.
+Remarque : les données téléversées sur IPFS sont accessibles à *tous* les utilisateurs du réseau. Vous voudrez peut-être chiffrer localement les données personnelles ou sensibles.
 
 
 ## Installer IPFS Kubo
 
-Suivez les instructions d’installation fournies [ici](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
+Suivez les instructions d'installation fournies [ici](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
 
-Dans cet exemple, nous utilisons Linux, d’autres versions pour d’autres systèmes d’exploitation sont disponibles.
+Dans cet exemple, nous utilisons Linux, mais des versions pour d'autres systèmes d'exploitation sont disponibles. 
 
-Vérifiez que l’installation a réussi en utilisant "ipfs --version"
+Vérifiez que l'installation a réussi avec « ipfs --version » 
 
 
-## Cloner le dépôt
+## Cloner le dépôt 
 
-Pour commencer, sélectionnez un dépôt Git que vous souhaitez héberger et clonez-le :
+Pour commencer, choisissez un dépôt Git que vous souhaitez héberger et clonez-le :
 
-Exécutez la commande : "git clone https://github.com/zechub/zechub"
+Exécutez la commande : « git clone https://github.com/zechub/zechub" »
 
 ![](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 
-Maintenant, pour le préparer à être cloné via IPFS.
+Préparez-le maintenant pour qu'il puisse être cloné via IPFS.
 
 cd zechub
 git update-server-info
@@ -41,12 +41,12 @@ mv objects/pack/*.pack .
 git unpack-objects < *.pack
 rm -f *.pack objects/pack/*
 
-Cela permettra à IPFS de dédupliquer les objets si vous mettez à jour le dépôt Git ultérieurement.
+Cela permettra à IPFS de dédupliquer les objets si vous mettez à jour le dépôt Git par la suite.
 
 
-## Ajouter à IPFS
+## Ajouter à IPFS 
 
-Une fois cela fait, ce dépôt est prêt à être servi. Il ne reste plus qu’à l’ajouter à IPFS :
+Une fois cela fait, le dépôt est prêt à être servi. Il ne vous reste plus qu'à l'ajouter à IPFS :
 
 $ pwd
 
@@ -60,15 +60,15 @@ Le CID obtenu : Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
 ![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Génial ! Votre dépôt est maintenant téléversé sur le réseau.
+Excellent ! Votre dépôt est maintenant téléversé sur le réseau.
 
 
-## Cloner en utilisant IPFS
+## Cloner avec IPFS 
 
-Vous devriez maintenant pouvoir récupérer le dépôt github en utilisant :
+Vous devriez maintenant pouvoir récupérer le dépôt github avec :
 
 git clone http://ipfs.io/ipfs/"yourCID"
 
-Vous pouvez également rechercher et récupérer le dépôt en utilisant votre nœud IPFS local.
+Vous pouvez également rechercher et récupérer le dépôt à l'aide de votre nœud IPFS local. 
 
-Remarque finale : le dossier du dépôt sur IPFS ne reçoit pas de mises à jour en même temps que le dépôt github réel. Il est recommandé de téléverser à nouveau le dossier à intervalles réguliers.
+Remarque finale : le dossier du dépôt sur IPFS n'est pas mis à jour en même temps que le véritable dépôt github. Il est recommandé de téléverser à nouveau le dossier à intervalles réguliers.

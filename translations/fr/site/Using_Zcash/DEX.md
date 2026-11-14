@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Échanges décentralisés
+# Exchanges décentralisés
 
-ZecHub ne recommande aucun service d'échange décentralisé en particulier ; veuillez effectuer vos propres recherches.
+ZecHub ne cautionne aucun service d'exchange décentralisé en particulier, veuillez faire vos propres recherches.
 
 Chaque titre `###` ci-dessous correspond à une carte sur https://zechub.wiki/dex.
-Ajoutez, modifiez ou supprimez un bloc ici ; le wiki le récupère depuis ce fichier.
+Ajoutez, modifiez ou supprimez un bloc ici ; le wiki le récupère à partir de ce fichier.
 
 ### NEAR Intents
 
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Site web : https://near.com/
-- Description : Échange rapide avec le soutien de NEAR. Effectuez des dépôts, vendez et échangez notamment les populaires TRUMP, MELANIA, BERA et autres mèmes
+- Description : Exchange rapide avec la prise en charge de NEAR. Effectuez des dépôts, vendez et échangez, y compris les populaires TRUMP, MELANIA, BERA et d'autres mèmes
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Site web : https://nativeswap.io/
-- Description : Trading natif inter-chaînes sans barrières via Maya Protocol. Négociez directement on-chain sans bridges ni tokens enveloppés — profitez de frais parmi les plus bas du secteur et d'un contrôle total de vos actifs.
+- Description : Trading natif inter-chaînes sans barrières via Maya Protocol. Négociez directement on-chain sans ponts ni jetons encapsulés : profitez de frais parmi les plus bas du secteur et d'un contrôle total de vos actifs.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Site web : https://github.com/firoorg/FiroDEX-Desktop
-- Description : Swaps décentralisés sans tiers de confiance utilisant des swaps atomiques avec FiroDEX !.
+- Description : Application de bureau d'échanges atomiques. N'est plus maintenue : Firo a archivé le dépôt FiroDEX-Desktop, et sa dernière version est la 0.8.2-beta (février 2025).
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Site web : https://leodex.io
-- Description : Swaps inter-chaînes vers et depuis ZEC, acheminés via THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay et Rango. Aucun compte, aucun KYC et aucune connexion de wallet nécessaires sur les itinéraires pris en charge.
+- Description : Échanges inter-chaînes vers et depuis ZEC, acheminés via THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay et Rango. Aucun compte, aucun KYC et aucune connexion de portefeuille nécessaires sur les routes prises en charge.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Site web : https://dex.decred.org/
-- Description : Négociez des cryptomonnaies de pair à pair. Aucun frais de trading. Aucun KYC.
+- Description : Négociez des cryptomonnaies de pair à pair. Aucuns frais de trading. Aucun KYC.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
 - Site web : https://app.thorswap.finance/
-- Description : DEX inter-chaînes propulsé par THORChain, permettant des swaps natifs entre Bitcoin, Ethereum et d'autres actifs majeurs sans tokens enveloppés.
+- Description : DEX inter-chaînes propulsé par THORChain, permettant des échanges natifs entre Bitcoin, Ethereum et d'autres actifs majeurs sans jetons encapsulés.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
 - Site web : https://www.routerprotocol.com/
-- Description : Couche de transport de liquidité inter-chaînes qui permet le transfert fluide d'actifs et de données entre plusieurs blockchains.
+- Description : Couche de transport de liquidité inter-chaînes qui permet un transfert fluide d'actifs et de données entre plusieurs blockchains.
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
 - Site web : https://peer.xyz/
-- Description : Échange décentralisé de pair à pair permettant des transactions crypto directes avec une confidentialité accrue et un meilleur contrôle par les utilisateurs.
+- Description : Exchange décentralisé de pair à pair permettant des transactions directes de cryptomonnaies avec une confidentialité et un contrôle utilisateur renforcés.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
 - Site web : https://rocketx.exchange/
-- Description : Agrégateur DEX hybride permettant des swaps inter-chaînes sur plusieurs blockchains avec un routage optimal et des taux compétitifs.
+- Description : Agrégateur de DEX hybride permettant des échanges inter-chaînes sur plusieurs blockchains avec un routage optimal et des taux compétitifs.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Site web : https://swap.thorchain.org/
-- Description : Échange décentralisé inter-chaînes de couche 1. Échangez directement des actifs natifs comme ZEC, BTC et ETH sans bridges, tokens enveloppés ni intermédiaires.
+- Description : Exchange inter-chaînes décentralisé de couche 1. Échangez des actifs natifs comme ZEC, BTC et ETH directement, sans ponts, jetons encapsulés ni intermédiaires.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Site web : https://loofta.xyz/
-- Description : Plateforme non dépositaire de paiement privé et de swap. Envoyez et recevez des cryptomonnaies en privé entre les chaînes, avec Zcash comme couche de règlement pour une confidentialité financière renforcée.
+- Description : Plateforme non dépositaire de paiements et d'échanges privés. Envoyez et recevez des cryptomonnaies en toute confidentialité entre chaînes, avec Zcash comme couche de règlement pour une confidentialité financière renforcée.
 
 
 ___
@@ -117,4 +117,4 @@ ___
 
 
 - Site web : https://zcashto.cash/
-- Description : Conversion non dépositaire de ZEC en monnaie fiduciaire via Peer. Envoyez des ZEC protégés et recevez des paiements dans des applications de paiement courantes telles que Venmo, Cash App, Revolut, Zelle, Chime et Monzo dans plus de 100 zones géographiques. Aucun compte CEX requis ; le séquestre est finalisé après preuve du paiement en monnaie fiduciaire.
+- Description : Conversion non dépositaire de ZEC en monnaie fiduciaire via Peer. Envoyez des ZEC protégés et recevez les versements dans des applications de paiement courantes comme Venmo, Cash App, Revolut, Zelle, Chime et Monzo, dans plus de 100 zones géographiques. Aucun compte sur un CEX requis ; le séquestre est libéré après la preuve du paiement en monnaie fiduciaire.

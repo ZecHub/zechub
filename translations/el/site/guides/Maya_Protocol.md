@@ -65,7 +65,7 @@
 Λειτουργώντας ως *backend*, το Maya χρειάζεται να υποστηρίζεται από διαφορετικά UI και πορτοφόλια για να χρησιμοποιείται. 
 Ακολουθεί μια λίστα με ορισμένες από τις υπηρεσίες που υποστηρίζουν ήδη το Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

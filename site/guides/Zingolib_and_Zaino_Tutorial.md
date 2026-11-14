@@ -43,8 +43,10 @@ You will need to intall 3 things for this to work correctly. I also recommend sc
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
+
+Use Zebra 7.0.0 or newer: NU7 activated on Mainnet at block 3,543,405, and older `zebrad` versions can't follow the chain past that height ([release notes](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
 
  
 *optional* (create a screen session for zebrad)

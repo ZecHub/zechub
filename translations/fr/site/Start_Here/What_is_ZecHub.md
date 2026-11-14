@@ -1,27 +1,27 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/What_is_ZecHub.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 
 # Qu'est-ce que ZecHub ?
 ---
 
-ZecHub est un hub éducatif décentralisé pour Zcash. L'objectif de [ZecHub](http://zechub.xyz) est de fournir une plateforme éducative où les membres de la communauté peuvent collaborer pour créer, valider et promouvoir du contenu qui soutient l'écosystème Zcash. Nous faisons cela par le biais de რამდენიმე mécanismes.
+ZecHub est un centre éducatif décentralisé consacré à Zcash. L'objectif de [ZecHub](http://zechub.xyz) est d'offrir une plateforme éducative où les membres de la communauté peuvent collaborer pour créer, valider et promouvoir des contenus qui soutiennent l'écosystème Zcash. Nous y parvenons grâce à plusieurs moyens.
 
 1. [Tutoriels](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Documentation wiki](https://zechub.wiki/)
-3. [Un podcast qui interviewe des membres de la communauté](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
-4. [Une newsletter hebdomadaire sur Zcash.](https://zechub.substack.com/)
+2. [Documents du wiki](https://zechub.wiki/)
+3. [Un podcast avec des entretiens de membres de la communauté](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+4. [Une newsletter Zcash hebdomadaire.](https://zechub.substack.com/)
 
-Les tutoriels, les blogs au format court et la newsletter sont open source et hébergés sur GitHub, ce qui signifie que n'importe quel membre de la communauté peut y contribuer. Cela permet de garantir l'exactitude du contenu et d'éviter que le canal lui-même ne dépende d'un point de défaillance unique.
+Les tutoriels, les articles de blog courts et la newsletter sont open source et hébergés sur GitHub, ce qui signifie que n'importe quel membre de la communauté peut y contribuer. Cela permet de garantir l'exactitude des contenus et d'éviter que le canal lui-même ne dépende d'un point de défaillance unique.
 
-Si vous débutez avec Zcash, utilisez [ce guide](/start-here/new-user-guide).****
+Si vous découvrez Zcash, consultez [ce guide](/start-here/new-user-guide).****
 
 ## Comment apporter des modifications à ZecHub
 
 ---
 
-1. Rendez-vous sur [le dépôt GitHub de ZecHub](https://github.com/ZecHub/zechub)
+1. Rendez-vous sur le [dépôt GitHub de ZecHub](https://github.com/ZecHub/zechub)
    
 2. Créez un nouveau compte GitHub ou connectez-vous avec le vôtre
    
@@ -31,7 +31,7 @@ Si vous débutez avec Zcash, utilisez [ce guide](/start-here/new-user-guide).***
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/8eYDTyV39a4"
-    title="Comment contribuer à ZecHub !"
+    title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -39,11 +39,11 @@ Si vous débutez avec Zcash, utilisez [ce guide](/start-here/new-user-guide).***
 </div>
 
 
-## Règles pour les contributeurs
+## Consignes pour les contributeurs
 
 ---
 
-Dans l'intérêt de conserver une apparence uniforme sur ZecHub, il existe un modèle que vous pouvez utiliser lorsque vous ajoutez des pages au dépôt.
+Afin de conserver une apparence uniforme sur ZecHub, un modèle est à votre disposition lorsque vous ajoutez des pages au dépôt.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -59,8 +59,8 @@ Dons : [ici](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z7sztp
 
 
 
-**AVERTISSEMENT : ZecHub est une initiative entièrement indépendante et open source fondée par des membres de la communauté Zcash. Rien de ce qui figure dans ce dépôt GitHub ne doit être considéré comme un conseil financier ou d'investissement - ce contenu est fourni à titre informatif uniquement.**
+**AVERTISSEMENT : ZecHub est une initiative entièrement indépendante et open source fondée par des membres de la communauté Zcash. Rien de ce qui figure dans ce dépôt GitHub ne doit être considéré comme un conseil financier ou d'investissement ; son contenu est fourni à titre informatif uniquement.**
 
 ---
 
-*Si vous souhaitez ajouter quelque chose ou suggérer des modifications à cette page du wiki, veuillez vous rendre sur le [dépôt github de ZecHub](https://github.com/ZecHub/zechub) et soumettre une pull request.*
+*Si vous souhaitez compléter cette page du wiki ou y suggérer des modifications, rendez-vous sur le [dépôt GitHub de ZecHub](https://github.com/ZecHub/zechub) et soumettez une pull request.*

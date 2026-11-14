@@ -65,7 +65,7 @@ Hã, Maya ƒe taɖodzinu nye be wòazu *megbe ƒe dɔwɔƒe* [backend] na dɔwɔ
 Esi Maya wɔa dɔ abe *megbe ƒe dɔwɔƒe* ene la, ele be UIwo kple gakotokuw o vovovo nakpe ɖe eŋu be woate ŋu azãe. 
 Efia dɔwɔƒe aɖewo siwo kpena ɖe Maya ŋu xoxo:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

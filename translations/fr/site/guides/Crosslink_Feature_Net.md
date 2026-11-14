@@ -1,70 +1,70 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Crosslink_Feature_Net.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Rejoindre le Crosslink Feature Net
 
 ## En bref
 
-- Le Feature Net est le réseau public de test de Shielded Labs pour [Crosslink](/zcash-tech/crosslink-protocol), la couche de finalité proposée qui ajoute le staking au proof-of-work de Zcash.
-- Il utilise une monnaie de test, cTAZ. Rien de ce que vous y faites ne déplace ou ne met en danger les ZEC du mainnet.
-- Une application de bureau fait office de nœud, de mineur, de wallet et de finaliseur. Elle mine du cTAZ par défaut et possède un bouton de robinet.
-- Le staking, le déstaking et le retrait ne fonctionnent que pendant un « Staking Day », un jour sur trois. Si vous le manquez, vous attendez le suivant.
-- Pour staker, vous collez l'identité d'un finaliseur et cliquez sur un montant. Ce guide utilise le finaliseur de ZecHub comme exemple.
-- Deux appels RPC indiquent votre situation : `wallet_staking_positions` et `get_tfl_recency_status`.
+- Le Feature Net est le réseau de test public de Shielded Labs pour [Crosslink](/zcash-tech/crosslink-protocol), la couche de finalité proposée qui ajoute le staking à côté de la preuve de travail de Zcash.
+- Il fonctionne avec une pièce de test, le cTAZ. Rien de ce que vous y faites ne déplace ni ne met en jeu des ZEC du réseau principal.
+- Une seule application de bureau fait office de nœud, de mineur, de portefeuille et de finaliseur. Elle mine du cTAZ par défaut et dispose d'un bouton de faucet.
+- Le staking, le retrait du staking et les retraits ne fonctionnent que pendant un « Staking Day », un jour sur trois. Si vous le manquez, vous devez attendre le suivant.
+- Pour faire du staking, vous collez l'identité d'un finaliseur et cliquez sur un montant. Ce guide prend comme exemple le finaliseur de ZecHub.
+- Deux appels RPC indiquent où vous en êtes : `wallet_staking_positions` et `get_tfl_recency_status`.
 
-*Testé avec Feature Net version 14 sur Windows 11 (version 10.0.26200.9550), du 8 au 10 octobre 2026. Le logiciel est un prototype et change à chaque version. Si ce que vous voyez diffère de cette page, fiez-vous à votre propre exécution et ouvrez une PR, s'il vous plaît.*
+*Testé avec la version 14 de Feature Net sous Windows 11 (version 10.0.26200.9550), du 8 au 10 octobre 2026. Le logiciel est un prototype et change à chaque version. Si ce que vous voyez diffère de cette page, fiez-vous à votre propre essai et ouvrez une PR, s'il vous plaît.*
 
 ## Ce qu'est le Feature Net
 
-Crosslink est une proposition, qui ne fait pas partie de Zcash aujourd'hui. La FAQ de Shielded Labs, [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/), indique qu'il « devrait passer par le processus de gouvernance standard de Zcash » avant de pouvoir atteindre le mainnet. La page [Crosslink Protocol](/zcash-tech/crosslink-protocol) explique la conception.
+Crosslink est une proposition et ne fait pas partie de Zcash aujourd'hui. La [FAQ Crosslink](https://shieldedlabs.net/crosslink-faq/) de Shielded Labs indique qu'elle « devrait passer par le processus de gouvernance standard de Zcash » avant de pouvoir arriver sur le réseau principal. La page [Protocole Crosslink](/zcash-tech/crosslink-protocol) en explique la conception.
 
-Pour essayer cette conception avec de vrais utilisateurs, Shielded Labs exploite ce qu'il appelle des [réseaux de fonctionnalités incitatifs](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) : « une série de testnets incitatifs ». Trois rôles existent sur le réseau, et l'application de bureau peut tous les jouer :
+Pour tester cette conception avec de vrais utilisateurs, Shielded Labs exploite ce qu'il appelle des [feature nets incitatifs](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) : « une série de testnets incitatifs ». Trois rôles existent sur le réseau, et l'application de bureau peut tous les jouer :
 
 | Rôle | Ce qu'il fait |
 |---|---|
-| Mineur | Produit des blocs de proof-of-work, comme sur Zcash aujourd'hui |
-| Staker | Verrouille du cTAZ dans une obligation de délégation et l'attribue à un finaliseur |
-| Finaliseur | Vote pour finaliser les blocs. Son pouvoir de vote correspond au stake qui lui est délégué |
+| Mineur | Produit des blocs par preuve de travail, comme sur Zcash aujourd'hui |
+| Staker | Bloque des cTAZ dans une caution de délégation et l'attribue à un finaliseur |
+| Finaliseur | Vote pour finaliser les blocs. Son pouvoir de vote correspond à la mise qui lui est déléguée |
 
-Le dépôt correspondant commence par un avertissement qu'il vaut la peine de lire avant d'installer quoi que ce soit : il « existe pour prouver des idées, pas pour démontrer une ingénierie de production » et n'est « pas du code prêt pour la production » ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). Exécutez-le sur une machine où cela est acceptable.
+Le dépôt qui sous-tend le projet s'ouvre sur un avertissement qu'il vaut la peine de lire avant d'installer quoi que ce soit : il « existe pour prouver des idées, pas pour démontrer une ingénierie de production » et n'est « pas du code prêt pour la production » ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). Exécutez-le sur une machine où cela est acceptable.
 
 ### Ce que la version 14 a changé
 
-[La version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) est sortie le 1er octobre 2026. Son réseau commence en simple proof-of-work et active Crosslink en trois étapes ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), également indiquées sur [ctaz.cash](https://ctaz.cash/v14)) :
+La [version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) est sortie le 1er octobre 2026. Son réseau démarre en simple preuve de travail et active Crosslink en trois étapes ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), également affiché sur [ctaz.cash](https://ctaz.cash/v14)) :
 
 | Bloc | Ce qui se passe |
 |---|---|
-| 20 736 | Le staking ouvre |
-| 34 560 | La première liste de finaliseurs est établie à partir des stakes sur la chaîne |
-| 36 288 | La finalité BFT commence, ainsi que les récompenses de staking |
+| 20 736 | Le staking s'ouvre |
+| 34 560 | La première liste de finaliseurs est établie à partir des mises présentes sur la chaîne |
+| 36 288 | La finalité BFT démarre, et avec elle les récompenses de staking |
 
-Les récompenses de staking commencent au dernier de ces blocs. Une obligation créée auparavant ne rapporte rien avant cela ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
+Les récompenses de staking commencent au dernier de ces blocs. Une caution constituée plus tôt ne rapporte rien jusque-là ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
 
-La même version a réduit la liste active aux 12 finaliseurs ayant le plus de stake ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) et, selon ses notes de version, leur a accordé une commission : « 10 % de toutes les récompenses PoS d'un bloc vont à ces commissions, tandis que 90 % sont distribués à toutes les obligations de staking ».
+La même version a réduit la liste active aux 12 finaliseurs ayant le plus de mise ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) et, selon les termes de ses notes de version, leur a accordé une commission : « 10 % de toutes les récompenses PoS d'un bloc vont à ces commissions, tandis que 90 % sont distribués à toutes les cautions de staking ».
 
-### cTAZ et les vrais ZEC
+### Le cTAZ et les vrais ZEC
 
-cTAZ (« Crosslink TAZ ») est la monnaie de test du Feature Net. Vous stakez du cTAZ, jamais des ZEC.
+Le cTAZ (« Crosslink TAZ ») est la pièce de test du Feature Net. Vous misez du cTAZ, jamais des ZEC.
 
-Les vrais ZEC n'interviennent qu'à la fin. Shielded Labs a [mis de côté 500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) pour les réseaux de fonctionnalités, et les [notes de version](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) indiquent qu'ils sont versés « au prorata, uniquement selon la quantité de cTAZ que chaque participant a gagnée par le minage ou le staking ». Deux conséquences :
+Les vrais ZEC n'interviennent qu'à la fin. Shielded Labs a [réservé 500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) pour les feature nets, et les [notes de version](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) indiquent qu'ils sont versés « au prorata, sur la seule base de la quantité de cTAZ que chaque participant a gagnée par le minage ou le staking ». Deux conséquences :
 
-- **Les monnaies du robinet ne comptent pas.** Le cTAZ qui vous a été donné, par le robinet ou par toute autre personne, ne rapporte rien en restant dans votre wallet. Seules les récompenses de bloc issues du minage et du staking comptent.
-- **Les versements doivent être réclamés, ils ne sont pas automatiques.** Shielded Labs annonce chaque tour dans le [fil de discussion du forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210). Pour le tour 2, il a demandé aux participants d'envoyer la viewing key de leur wallet et une adresse mainnet avant le 4 octobre 2026 ([publication 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). Le réseau sur lequel s'exécute la version 14, celui que rejoint ce guide, a été annoncé comme le tour 3 ([publication 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
+- **Les pièces du faucet ne comptent pas.** Les cTAZ que l'on vous a donnés, par le faucet ou par quelqu'un d'autre, ne rapportent rien en restant dans votre portefeuille. Seules les récompenses de bloc issues du minage et du staking comptent.
+- **Les paiements doivent être réclamés, ils ne sont pas automatiques.** Shielded Labs annonce chaque tour dans le [fil du forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210). Pour le tour 2, il a demandé aux participants d'envoyer la clé pour lecture seule de leur portefeuille et une adresse du réseau principal avant le 4 octobre 2026 ([message 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). Le réseau sur lequel tourne la version 14, celui que ce guide rejoint, a été annoncé comme le tour 3 ([message 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
 
 ## Avant de commencer
 
-- **Un ordinateur que vous pouvez laisser allumé.** La version propose des builds pour Windows, macOS, Ubuntu et Arch Linux. Ce guide a été exécuté sur Windows, sur un PC doté d'un processeur Intel Core i5-8350U.
-- **Un Staking Day.** Vérifiez quand le prochain ouvre avant de planifier quoi que ce soit. Le tableau de bord de [Staker Space](https://crosslink.staker.space/) affiche un compte à rebours.
-- **Rien d'autre.** Aucun ZEC, aucun compte et aucune inscription.
+- **Un ordinateur que vous pouvez laisser allumé.** La version propose des builds pour Windows, macOS, Ubuntu et Arch Linux. Ce guide a été réalisé sous Windows, sur un PC équipé d'un processeur Intel Core i5-8350U.
+- **Un Staking Day.** Vérifiez quand s'ouvre le prochain avant de planifier quoi que ce soit. Le [tableau de bord de Staker Space](https://crosslink.staker.space/) affiche un compte à rebours.
+- **Rien d'autre.** Pas de ZEC, pas de compte et pas d'inscription.
 
-## Étape 1 : télécharger l'application et vérifier le fichier
+## Étape 1 : téléchargez l'application et vérifiez le fichier
 
 1. Ouvrez la [version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) et faites défiler jusqu'à **Assets**.
-2. Téléchargez le fichier correspondant à votre système. Sur Windows, il s'agit de `zebrad_v14_win32.exe`.
-3. Comparez le SHA-256 du fichier avec le condensat que GitHub affiche à côté de cet asset.
+2. Téléchargez le fichier correspondant à votre système. Sous Windows, il s'agit de `zebrad_v14_win32.exe`.
+3. Comparez le SHA-256 du fichier avec l'empreinte que GitHub affiche à côté de ce fichier.
 
-Sur Windows, dans PowerShell :
+Sous Windows, dans PowerShell :
 
 ```powershell
 Get-FileHash .\zebrad_v14_win32.exe -Algorithm SHA256 | Format-List
@@ -76,7 +76,7 @@ Hash      : 1D464E31CCC110E175D45E3EDC0B7FB0B9583ACC996E99F4398F390EC111297E
 Path      : C:\crosslink\zebrad_v14_win32.exe
 ```
 
-Le condensat affiché par GitHub pour ce fichier est `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`. L'hexadécimal ne distingue pas la casse, les lettres majuscules ci-dessus sont donc correctes. Pour laisser le shell comparer au lieu de vos yeux :
+L'empreinte que GitHub affiche pour ce fichier est `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`. L'hexadécimal ne tient pas compte de la casse, les majuscules ci-dessus ne posent donc pas de problème. Pour laisser le shell comparer à la place de vos yeux :
 
 ```powershell
 $expected = "1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e"
@@ -88,29 +88,29 @@ if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 OK
 ```
 
-Sachez ce que cette vérification vaut. La version ne comporte aucune signature ; un hash correspondant indique donc que le téléchargement est complet et qu'il s'agit du fichier que GitHub sert. Il ne vous indique pas qui l'a construit. [Verifying Zcash Releases](/guides/verifying-zcash-releases) explique la différence.
+Sachez ce que vaut cette vérification. La version ne porte aucune signature : un hachage concordant vous indique donc que le téléchargement est complet et qu'il s'agit bien du fichier que GitHub distribue. Il ne vous dit pas qui l'a compilé. [Vérifier les publications Zcash](/guides/verifying-zcash-releases) explique la différence.
 
-## Étape 2 : démarrer le nœud et le laisser se synchroniser
+## Étape 2 : démarrez le nœud et laissez-le se synchroniser
 
-Démarrez l'application depuis un terminal afin que ses messages de démarrage restent à l'écran. Utilisez une fenêtre PowerShell ordinaire, et non une fenêtre ouverte avec « Exécuter en tant qu'administrateur » : il s'agit d'un logiciel prototype non signé et il n'a pas besoin de droits d'administrateur.
+Lancez l'application depuis un terminal, afin que ses messages de démarrage restent affichés. Utilisez une fenêtre PowerShell ordinaire, et non une fenêtre ouverte avec « Exécuter en tant qu'administrateur » : il s'agit d'un logiciel prototype non signé, et il n'a pas besoin des droits d'administrateur.
 
 ```powershell
 .\zebrad_v14_win32.exe
 ```
 
-Une fenêtre intitulée « Zcash Crosslink Visualizer » s'ouvre. Le wallet est à gauche, avec les onglets **Your Wallet** et **Faucet Wallet**, la chaîne est dessinée au milieu et les finaliseurs sont listés à droite. Le terminal continue d'afficher le journal du nœud. Laissez les deux ouverts pendant que vous utilisez le réseau.
+Une fenêtre intitulée « Zcash Crosslink Visualizer » s'ouvre. Le portefeuille se trouve à gauche, avec les onglets **Your Wallet** et **Faucet Wallet**, la chaîne est dessinée au milieu, et les finaliseurs sont listés à droite. Le terminal continue d'afficher le journal du nœud. Laissez les deux ouverts pendant que vous utilisez le réseau.
 
-Les notes de version renvoient vers une [vidéo de l'installation de Windows](https://www.youtube.com/watch?v=cO-5Oa4B1Tk).
+Les notes de version renvoient à une [vidéo de l'installation sous Windows](https://www.youtube.com/watch?v=cO-5Oa4B1Tk).
 
-L'application conserve ses données dans un dossier de cache : `%LOCALAPPDATA%\zebra` sur Windows, `~/.cache/zebra` sur Linux et `~/Library/Caches/zebra` sur macOS, selon les notes de version.
+L'application conserve ses données dans un dossier de cache : `%LOCALAPPDATA%\zebra` sous Windows, `~/.cache/zebra` sous Linux et `~/Library/Caches/zebra` sous macOS, d'après les notes de version.
 
-**Gardez le secret pour vous.** Ce dossier contient un fichier nommé `secret.seed`. L'application le crée lors du premier démarrage ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) et en dérive votre wallet et votre identité de finaliseur ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). L'application possède également un bouton **Copy Seed** qui place le même secret dans votre presse-papiers. Toute personne qui possède l'un ou l'autre contrôle votre wallet. Ne les collez jamais dans un chat, une publication de forum ou une capture d'écran.
+**Gardez le secret pour vous.** Ce dossier contient un fichier nommé `secret.seed`. L'application le crée au premier démarrage ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) et en dérive votre portefeuille et votre identité de finaliseur ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). L'application dispose aussi d'un bouton **Copy Seed** qui place ce même secret dans votre presse-papiers. Quiconque possède l'un ou l'autre contrôle votre portefeuille. Ne les collez jamais dans une discussion, un message de forum ou une capture d'écran.
 
 ### Comment savoir que vous êtes synchronisé
 
-Les notes de version indiquent qu'il n'y a « aucun suivi intégré de votre proximité avec la pointe du réseau ». La version 14 en propose toutefois un : le menu déroulant **Network Info** en haut de la fenêtre comporte des lignes pour PoW Height, Wallet Sync et Blocks Behind Known PoW ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)). Comparez votre hauteur avec celle de [Staker Space](https://crosslink.staker.space/) ou de [ctaz.cash](https://ctaz.cash/).
+Les notes de version indiquent qu'il n'existe « aucune surveillance intégrée de la proximité de votre synchronisation avec la pointe du réseau ». La version 14 en propose pourtant un peu : le menu déroulant **Network Info** en haut de la fenêtre comporte les lignes PoW Height, Wallet Sync et Blocks Behind Known PoW ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)). Comparez votre hauteur avec celle affichée sur [Staker Space](https://crosslink.staker.space/) ou [ctaz.cash](https://ctaz.cash/).
 
-Le nœud répond également par RPC :
+Le nœud répond également via RPC :
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"getblockcount","params":[],"id":1}' | ConvertTo-Json -Depth 20
@@ -124,28 +124,28 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-Le port RPC `127.0.0.1:8232` est ouvert par défaut dans ce build et ne nécessite aucun mot de passe ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)). Il n'écoute que sur votre propre machine, et tout ce qui s'exécute sur cette machine peut l'appeler.
+Le port RPC `127.0.0.1:8232` est ouvert par défaut dans ce build et ne demande aucun mot de passe ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)). Il n'écoute que sur votre propre machine, et tout programme tournant sur cette machine peut l'appeler.
 
-Lors de cette exécution, la première synchronisation, du bloc 0 jusqu'à la pointe située vers le bloc 28 400, a pris environ 50 minutes.
+Lors de cet essai, la première synchronisation, du bloc 0 jusqu'à la pointe vers le bloc 28 400, a pris environ 50 minutes.
 
-**Après un redémarrage, votre solde affiche zéro pendant un certain temps.** Chaque fois que l'application démarre, elle reconstruit le wallet à partir de `secret.seed` et analyse de nouveau la chaîne depuis le bloc 0 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). Jusqu'à ce que l'analyse atteigne vos transactions, votre solde et votre stake affichent 0. Lors de cette exécution, ils sont réapparus environ 15 minutes après un redémarrage. Le wallet du robinet est réanalysé de la même manière ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)) et, pendant l'analyse, l'onglet Faucet Wallet affichait un très grand solde. Ignorez les deux jusqu'à ce que Wallet Sync soit terminé.
+**Après un redémarrage, votre solde affiche zéro pendant un moment.** À chaque démarrage, l'application reconstruit le portefeuille à partir de `secret.seed` et parcourt à nouveau la chaîne depuis le bloc 0 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). Tant que l'analyse n'a pas atteint vos transactions, votre solde et votre mise affichent 0. Lors de cet essai, ils sont revenus environ 15 minutes après un redémarrage. Le portefeuille du faucet est réanalysé de la même manière ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)), et pendant l'analyse, l'onglet Faucet Wallet affichait un solde très élevé. Ignorez l'un et l'autre tant que Wallet Sync n'est pas terminé.
 
-## Étape 3 : obtenir du cTAZ
+## Étape 3 : obtenez des cTAZ
 
-### En miner
+### Minez-les
 
-Selon les notes de version, l'application commence à miner avec le CPU vers votre propre wallet dès qu'elle est synchronisée. Vous n'avez rien à activer. Les monnaies minées vont vers une adresse transparente de votre propre wallet ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
+D'après les notes de version, l'application commence à miner sur CPU vers votre propre portefeuille une fois synchronisée. Vous n'avez rien à activer. Les pièces minées arrivent sur une adresse transparente de votre propre portefeuille ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
 
-Trouver un bloc est une autre affaire. Les notes avertissent que « vous pouvez être surpassé par d'autres qui minent plus rapidement, il n'y a donc aucune garantie de succès ». Par défaut, le mineur intégré utilise un seul thread CPU ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
+Trouver un bloc est une autre affaire. Les notes préviennent que « vous pouvez être dépassé par d'autres qui minent plus rapidement, le succès n'est donc pas garanti ». Par défaut, le mineur intégré utilise un seul thread CPU ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
 
-Pour utiliser davantage de threads, définissez une variable d'environnement dans la même fenêtre PowerShell avant de démarrer l'application ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)). Cette exécution en a utilisé quatre :
+Pour utiliser davantage de threads, définissez une variable d'environnement dans la même fenêtre PowerShell avant de lancer l'application ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)). Cet essai en a utilisé quatre :
 
 ```powershell
 $env:ZEBRA_MINING__INTERNAL_MINER_THREADS = "4"
 .\zebrad_v14_win32.exe
 ```
 
-La variable ne dure que tant que cette fenêtre reste ouverte. Une fois définie, le compteur de processeur de Windows indiquait que le nœud utilisait l'équivalent de quatre à cinq processeurs en temps, en pourcentage d'un processeur logique :
+La variable ne dure que le temps de cette fenêtre. Avec elle, le compteur de processeur de Windows montrait que le nœud utilisait l'équivalent de quatre à cinq processeurs, en pourcentage d'un processeur logique :
 
 ```powershell
 (Get-Counter '\Process(zebrad_v14_win32)\% Processor Time' -SampleInterval 2 -MaxSamples 3).CounterSamples.CookedValue
@@ -157,15 +157,15 @@ La variable ne dure que tant que cette fenêtre reste ouverte. Une fois définie
 505.957457577538
 ```
 
-Le résultat : un Intel Core i5-8350U minant sur quatre threads, du début du 8 octobre à l'après-midi du 9 octobre, n'a trouvé aucun bloc.
+Résultat : un Intel Core i5-8350U minant sur quatre threads, du début du 8 octobre à l'après-midi du 9 octobre, n'a trouvé aucun bloc.
 
-### Ou utiliser le robinet
+### Ou utilisez le faucet
 
-L'application possède un bouton **Receive cTAZ** en bas à droite. Dans le code source de la version 14, une pression envoie 0,5 cTAZ du wallet du robinet vers le vôtre ([montant](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073), [envoi](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). Le robinet est un unique wallet que possède chaque copie de l'application ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)), et l'onglet **Faucet Wallet** affiche son solde.
+L'application dispose d'un bouton **Receive cTAZ** en bas à droite. Dans le code source de la version 14, une pression envoie 0,5 cTAZ du portefeuille du faucet vers le vôtre ([montant](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073), [envoi](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). Le faucet est un portefeuille unique que chaque copie de l'application embarque ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)), et l'onglet **Faucet Wallet** affiche son solde.
 
-Le bouton est désactivé sauf si le robinet possède plus de 5,01 cTAZ en monnaies blindées ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). L'onglet compte aussi les monnaies minées par le robinet, lesquelles ne sont blindées que par lots d'exactement 10 cTAZ plus des frais ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)), donc l'onglet peut afficher beaucoup alors que le bouton reste gris. Lors de cette exécution, il est resté gris les 8 et 9 octobre, avec « The faucet is mining more funds. » au survol, tandis que l'onglet affichait 14,74695 cTAZ.
+Le bouton reste désactivé tant que le faucet ne détient pas plus de 5,01 cTAZ en pièces protégées ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). L'onglet compte aussi les pièces minées du faucet, et celles-ci ne sont protégées que par lots d'exactement 10 cTAZ plus des frais ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)) : l'onglet peut donc afficher un solde confortable alors que le bouton reste grisé. Lors de cet essai, il est resté grisé les 8 et 9 octobre, avec « The faucet is mining more funds. » au survol, alors que l'onglet affichait 14,74695 cTAZ.
 
-**Lorsque le bouton est gris, demandez à votre propre nœud.** Le nœud possède une méthode de demande au robinet, `requestfaucetdonation` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)), qui n'applique pas la règle des 5,01 cTAZ du bouton. Remplacez `YOUR_ADDRESS` par votre propre adresse (il s'agit du champ `address` de `wallet_spendable_funds`, ci-dessous) :
+**Quand le bouton est grisé, adressez-vous à votre propre nœud.** Le nœud dispose d'une méthode de demande au faucet, `requestfaucetdonation` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)), qui n'applique pas la règle des 5,01 cTAZ du bouton. Remplacez `YOUR_ADDRESS` par votre propre adresse (il s'agit du champ `address` de `wallet_spendable_funds`, ci-dessous) :
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"requestfaucetdonation","params":[{"address":"YOUR_ADDRESS"}],"id":1}' | ConvertTo-Json -Depth 20
@@ -181,21 +181,21 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-Cette réponse signifie que la demande a été mise en file, et non qu'elle a été envoyée. Lors de cette exécution, les 0,5 cTAZ du robinet ont été minés au bloc 33 306 et pouvaient être dépensés au bloc 33 322. Demandez une seule fois : le robinet est partagé, et une deuxième demande pour la même adresse est refusée tant que la première est en attente ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
+Cette réponse signifie que la demande a été mise en file d'attente, pas qu'elle a été envoyée. Lors de cet essai, les 0,5 cTAZ du faucet ont été minés au bloc 33 306 et étaient dépensables au bloc 33 322. Ne faites qu'une demande : le faucet est partagé, et une seconde demande pour la même adresse est refusée tant que la première est en attente ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
 
-### Ou demander à un autre participant
+### Ou demandez à un autre participant
 
-Toute personne sur le réseau peut vous envoyer du cTAZ avec le bouton **Send** de l'application. Lors de cette exécution, un autre participant a envoyé 31 cTAZ. Ils sont arrivés comme « Received » avec la note « send from user wallet », qui est la note ajoutée par le propre bouton Send de l'application ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). Demandez dans le [fil de discussion du forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) et ne donnez que votre adresse.
+N'importe qui sur le réseau peut vous envoyer des cTAZ avec le bouton **Send** de l'application. Lors de cet essai, un autre participant a envoyé 31 cTAZ. Ils sont arrivés comme « Received » avec la mention « send from user wallet », qui est celle que joint la fonction Send de l'application ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). Demandez dans le [fil du forum](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), et ne communiquez que votre adresse.
 
-Les monnaies du robinet et les cadeaux suffisent pour apprendre le staking. Ils ne comptent pas pour les récompenses de ZEC.
+Les pièces du faucet et les dons suffisent pour apprendre le staking. Ils ne comptent pas pour les récompenses en ZEC.
 
-### Vérifier ce que vous pouvez dépenser
+### Vérifiez ce que vous pouvez dépenser
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_spendable_funds","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Voici la réponse une fois que les 0,5 cTAZ du robinet étaient arrivés, avec l'adresse raccourcie :
+Voici la réponse obtenue une fois les 0,5 cTAZ du faucet arrivés, avec l'adresse raccourcie :
 
 ```text
 {
@@ -212,62 +212,62 @@ Voici la réponse une fois que les 0,5 cTAZ du robinet étaient arrivés, avec l
 }
 ```
 
-Les montants sont en zatoshis : 100 000 000 correspondent à un cTAZ. Les monnaies blindées ont besoin de 3 confirmations avant de pouvoir être dépensées ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)). Les monnaies du robinet et celles d'autres participants arrivent dans `spendable_zats`. Les monnaies minées sont transparentes, elles arrivent donc dans `unshielded_zats` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
+Les montants sont exprimés en zatoshis : 100 000 000 font un cTAZ. Les pièces protégées ont besoin de 3 confirmations avant d'être comptées comme dépensables ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)). Les pièces provenant du faucet et des autres participants arrivent dans `spendable_zats`. Les pièces minées sont transparentes, elles arrivent donc dans `unshielded_zats` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
 
-Un bloc après le deuxième stake de cette exécution, le reste du solde apparaissait sous `pending_zats`. Quelques blocs plus tard, il pouvait de nouveau être dépensé.
+Un bloc après la seconde mise de cet essai, le reste du solde apparaissait sous `pending_zats`. Quelques blocs plus tard, il était de nouveau dépensable.
 
-## Étape 4 : staker auprès d'un finaliseur
+## Étape 4 : misez auprès d'un finaliseur
 
-### Attendre un Staking Day
+### Attendez un Staking Day
 
-Le staking, le déstaking et le retrait ne sont acceptés que lorsque
+Le staking, le retrait du staking et les retraits ne sont acceptés que lorsque
 
 ```text
 block height mod 10,368 < 3,456
 ```
 
-ce qui représente une fenêtre de 3 456 blocs au début de chaque tranche de 10 368. Avec la cible réseau de 25 secondes par bloc, cela fait un jour sur trois ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). Les premières fenêtres de la version 14 ouvrent aux blocs 20 736, 31 104, 41 472 et 51 840.
+ce qui correspond à une fenêtre de 3 456 blocs au début de chaque période de 10 368. Avec l'objectif de 25 secondes par bloc du réseau, cela fait un jour sur trois ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). Les premières fenêtres de la version 14 s'ouvrent aux blocs 20 736, 31 104, 41 472 et 51 840.
 
-Selon les notes de version, l'application annonce le début et la fin de chaque Staking Day. Lors de cette exécution, sa liste de blocs affichait une ligne rouge « * STAKING DAY END * » entre les blocs 34 559 et 34 560.
+D'après les notes de version, l'application annonce le début et la fin de chaque Staking Day. Lors de cet essai, sa liste de blocs affichait une ligne rouge « * STAKING DAY END * » entre les blocs 34 559 et 34 560.
 
-**Les notes de version disent deux choses.** Leur liste de changements indique « ~1 jour pour le Staking Day et ~3 jours pour le Staking Cycle », ce qui correspond au code. Plus bas, une section reprise de la saison 1 indique toujours qu'un Staking Day commence tous les 150 blocs et dure 70 blocs. Suivez la première règle. La ligne de fin ci-dessus se trouve là où la première règle ferme la fenêtre (34 560 mod 10 368 = 3 456) ; avec la seconde règle, le bloc 34 560 se trouverait dans une fenêtre.
+**Les notes de version disent deux choses différentes.** Leur liste des changements indique « ~1 jour pour le Staking Day et ~3 jours pour le cycle de staking », ce qui correspond au code. Plus bas, une section reprise de la saison 1 indique encore qu'un Staking Day commence tous les 150 blocs et dure 70 blocs. Fiez-vous à la première. La ligne de fin ci-dessus se trouve à l'endroit où la première règle ferme la fenêtre (34 560 mod 10 368 = 3 456) ; selon la seconde règle, le bloc 34 560 tomberait à l'intérieur d'une fenêtre.
 
-### Choisir un finaliseur
+### Choisissez un finaliseur
 
-Un finaliseur est désigné par son identité, une chaîne qui commence par `zfinv1`. ZecHub publie l'identité du finaliseur qu'il exécute dans [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json) :
+Un finaliseur est désigné par son identité, une chaîne de caractères qui commence par `zfinv1`. ZecHub publie l'identité du finaliseur qu'il exploite dans [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json) :
 
 ```text
 zfinv1j65qJgeSId7ssZk6a71NvQG2KjD5hfJCYxWkCSPvQSmwibffVw52UYU72wKbrEL0-cw-C4PQoO5IlLgbsgA3q_Gf1mzYIKcnixNP9XXVgphIDuLI6RBMhjFfYWyzp4YN
 ```
 
-Copiez une identité depuis une source à laquelle vous faites confiance. Selon les notes de version, l'application liste aussi les finaliseurs dans son panneau de droite, avec une icône de copie à gauche de chacun.
+Copiez une identité depuis une source de confiance. D'après les notes de version, l'application liste également les finaliseurs dans son panneau de droite, avec une icône de copie à gauche de chacun.
 
-Après votre stake, l'historique du wallet et le RPC désignent le finaliseur par une clé hexadécimale au lieu de son identité. Pour le finaliseur de ZecHub, cette clé est `2941ef23...266aae8f`.
+Une fois votre mise effectuée, l'historique du portefeuille et le RPC désignent le finaliseur par une clé hexadécimale au lieu de son identité. Pour le finaliseur de ZecHub, cette clé est `2941ef23...266aae8f`.
 
-Choisissez un finaliseur auquel vous faites confiance. La conception ne comporte pas de slashing automatique, mais elle permet « un hard fork coordonné par les utilisateurs qui brûle tout le stake délégué à un finaliseur désigné » ([Crosslink livre, aperçu de la conception](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
+Choisissez un finaliseur en qui vous avez confiance. La conception ne prévoit pas de pénalité automatique, mais elle permet « un hard fork coordonné par les utilisateurs qui brûle toute la mise déléguée à un finaliseur désigné » ([livre Crosslink, vue d'ensemble de la conception](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
 
-Ce choix décide également qui vote. Chaque obligation active gagne sa part de la récompense de staking. Si son finaliseur figure parmi les 12 de la liste, un dixième de cette part va au finaliseur comme commission. Une obligation dirigée vers un finaliseur hors des 12 conserve toute sa part, mais ce finaliseur ne vote pas ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
+Ce choix détermine aussi qui vote. Chaque caution active reçoit sa part de la récompense de staking. Si son finaliseur fait partie des 12 de la liste, un dixième de cette part revient au finaliseur à titre de commission. Une caution attribuée à un finaliseur hors des 12 conserve l'intégralité de sa part, mais ce finaliseur ne vote pas ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
 
-### Staker
+### Misez
 
 1. Copiez l'identité du finaliseur.
 2. Dans l'onglet **Your Wallet**, appuyez sur **Stake**.
-3. Appuyez sur **Paste Identity**. La ligne au-dessus du bouton devient les premiers et derniers caractères de l'identité, `[zfinv1j6..YWyzp4YN]` pour celle de ZecHub. Vérifiez-la avant de continuer.
-4. Cliquez sur un montant. Les montants progressent par paliers fixes, le plus petit est 0,01 cTAZ, et seuls les montants couverts par votre solde sont allumés. Avec 0,5 cTAZ, +0,01 cTAZ et +0,1 cTAZ l'étaient.
+3. Appuyez sur **Paste Identity**. La ligne au-dessus du bouton affiche alors les premiers et derniers caractères de l'identité, `[zfinv1j6..YWyzp4YN]` pour celle de ZecHub. Vérifiez-la avant de continuer.
+4. Cliquez sur un montant. Les montants sont proposés par paliers fixes, le plus petit étant 0,01 cTAZ, et seuls les montants couverts par votre solde sont allumés. Avec 0,5 cTAZ, +0,01 cTAZ et +0,1 cTAZ l'étaient.
 
-**Rien ne vous demande de confirmer, et rien ne semble se produire.** Lors de cette exécution, selon les mots du testeur : « J'ai cliqué une fois et rien ne s'est passé, le bouton est simplement devenu gris puis s'est rallumé. » Le stake avait bien été effectué. L'historique du wallet indiquait « Staked @ 33334 to 2941ef23..266aae8f », les frais étaient de 0,00015 cTAZ, et le wallet affichait 0,010 cTAZ Staked. Un deuxième stake quelques minutes plus tard a créé une deuxième obligation, au bloc 33 348.
+**Rien ne vous demande de confirmer, et rien ne semble se passer.** Lors de cet essai, selon les mots du testeur : « J'ai cliqué une fois et rien ne s'est passé, le bouton est juste devenu gris puis s'est rallumé. » La mise avait bien été prise en compte. L'historique du portefeuille affichait « Staked @ 33334 to 2941ef23..266aae8f », les frais étaient de 0,00015 cTAZ, et le portefeuille affichait 0,010 cTAZ Staked. Une seconde mise quelques minutes plus tard a créé une seconde caution, au bloc 33 348.
 
-Chaque stake crée sa propre obligation de délégation. Les montants fixes et le Staking Day existent tous deux pour la confidentialité : ils rendent le stake d'une personne plus difficile à distinguer de celui d'une autre.
+Chaque mise crée sa propre caution de délégation. Les montants fixes comme le Staking Day existent pour la confidentialité : ils rendent la mise d'une personne plus difficile à distinguer de celle d'une autre.
 
-## Étape 5 : vérifier votre situation
+## Étape 5 : vérifier votre position
 
-### Vos obligations
+### Vos cautions
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_staking_positions","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Voici la réponse au bloc 36 490, deux jours après le staking :
+Voici la réponse obtenue au bloc 36 490, deux jours après la mise en staking :
 
 ```text
 {
@@ -299,11 +299,11 @@ Voici la réponse au bloc 36 490, deux jours après le staking :
 }
 ```
 
-L'appel ne prend aucun paramètre. Il renvoie vos obligations actives, regroupées sous la clé du finaliseur que chacune soutient, ainsi que les obligations ayant terminé leur déstaking et pouvant être retirées. Chaque obligation affiche le montant staké (`initial_val`), sa valeur actuelle (`latest_val`), ainsi que la transaction et la hauteur de bloc qui l'ont créée. Les récompenses sont ajoutées à l'obligation elle-même : au bloc 36 490, chaque obligation de 1 000 000 zatoshis avait atteint 1 003 451.
+L'appel ne prend aucun paramètre. Il renvoie vos cautions actives, regroupées sous la clé du finaliseur que chacune soutient, ainsi que les cautions libérées qui peuvent être retirées. Chaque caution indique le montant mis en staking (`initial_val`), sa valeur actuelle (`latest_val`), ainsi que la transaction et la hauteur de bloc qui l'ont créée. Les récompenses s'ajoutent à la caution elle-même : au bloc 36 490, chaque caution de 1 000 000 zatoshis était passée à 1 003 451.
 
-**La fenêtre Edit Stake affiche chaque obligation dix fois trop grande.** Lors de cette exécution, chaque obligation de 0,01 cTAZ affichait 0,100 cTAZ sur sa propre ligne, et 0,1003536 cTAZ une fois les récompenses commencées, tandis que les totaux au-dessus des lignes (0,020 cTAZ, puis 0,02007 cTAZ) concordaient avec le RPC. Fiez-vous aux totaux et au RPC.
+**La fenêtre Edit Stake affiche chaque caution dix fois trop grande.** Lors de cet essai, chaque caution de 0,01 cTAZ apparaissait sur sa ligne comme 0,100 cTAZ, puis comme 0,1003536 cTAZ une fois les récompenses commencées, alors que les totaux au-dessus des lignes (0,020 cTAZ, puis 0,02007 cTAZ) concordaient avec le RPC. Fiez-vous aux totaux et au RPC.
 
-La même fenêtre affichait un triangle d'avertissement à côté du finaliseur, avant comme après le début de la finalité. Dans le code source, ce triangle signifie que votre application ne compte pas ce finaliseur comme étant en ligne ; un finaliseur en ligne obtient à la place une icône Wi-Fi ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). Les obligations ont tout de même obtenu des récompenses.
+La même fenêtre affichait un triangle d'avertissement à côté du finaliseur, avant comme après le début de la finalité. Dans le code source, ce triangle signifie que votre application ne considère pas ce finaliseur comme en ligne ; un finaliseur en ligne reçoit à la place une icône Wi-Fi ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). Les cautions ont tout de même rapporté des récompenses.
 
 ### Les finaliseurs
 
@@ -311,9 +311,9 @@ La même fenêtre affichait un triangle d'avertissement à côté du finaliseur,
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"get_tfl_recency_status","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Selon les notes de version, cela indique où en est votre nœud dans le processus de vote et, pour chaque finaliseur, à quel moment votre nœud en a eu des nouvelles pour la dernière fois et comment il a voté.
+Selon les notes de version, cet appel indique où en est votre nœud dans le processus de vote et, pour chaque finaliseur, quand votre nœud a reçu de ses nouvelles pour la dernière fois et comment il a voté.
 
-Avant le bloc 36 288, tous les champs sont à zéro et la liste est vide. Voici la réponse au bloc 33 354 :
+Avant le bloc 36 288, tous les champs sont à zéro et la liste est vide. Voici la réponse obtenue au bloc 33 354 :
 
 ```text
 {
@@ -333,7 +333,7 @@ Avant le bloc 36 288, tous les champs sont à zéro et la liste est vide. Voici 
 }
 ```
 
-Après le début de la finalité, la liste contient les finaliseurs de la liste active. Au bloc 36 490, elle en contenait 12, dont celui de ZecHub, `2941ef23...`, ce qui correspond à la limite de 12 finaliseurs. Voici le début de cette réponse, tronquée après la première entrée :
+Une fois la finalité lancée, la liste contient les finaliseurs du registre. Au bloc 36 490, elle en contenait 12, dont le `2941ef23...` de ZecHub, ce qui correspond à la limite de 12 du registre. Voici le début de cette réponse, coupé après la première entrée :
 
 ```text
 {
@@ -371,7 +371,7 @@ Quelques minutes plus tard, le panneau de droite de l'application affichait « F
 
 ### Sur Linux et macOS
 
-Le [source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610) donne l'appel sous forme `curl`. Modifiez le nom de méthode pour les autres appels. Cette forme n'a pas été exécutée pour ce guide :
+Le [code source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610) donne l'appel sous la forme `curl`. Changez le nom de la méthode pour les autres appels. Cette forme n'a pas été testée pour ce guide :
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d \
@@ -379,11 +379,11 @@ curl -X POST -H "Content-Type: application/json" -d \
 http://127.0.0.1:8232
 ```
 
-Sur Linux, les notes de version indiquent que vous devez probablement installer `xclip` avant que le copier-coller fonctionne dans l'application.
+Sur Linux, les notes de version indiquent qu'il vous faudra probablement installer `xclip` pour que le copier-coller fonctionne dans l'application.
 
-### Un nom RPC à surveiller
+### Un nom de RPC à surveiller
 
-Les notes de version 14 décrivent un appel de staking nommé `wallet_staking_action` qui prend un objet. Le code source de la version 14 ne comporte aucune méthode de ce nom et, lors de cette exécution, le nœud a répondu :
+Les notes de la version 14 décrivent un appel de staking nommé `wallet_staking_action` qui prend un objet. Le code source de la version 14 ne contient aucune méthode de ce nom, et lors de cet essai le nœud a répondu :
 
 ```text
 {
@@ -396,53 +396,53 @@ Les notes de version 14 décrivent un appel de staking nommé `wallet_staking_ac
 }
 ```
 
-La méthode de staking qu'il enregistre est [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), qui prend une chaîne contenant la demande au format JSON, le finaliseur étant indiqué par son identité `zfinv1` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Elle n'a pas été testée pour ce guide.
+La méthode de staking qu'il enregistre est [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), qui prend une seule chaîne de caractères contenant la requête au format JSON, le finaliseur y étant désigné par son identité `zfinv1` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Elle n'a pas été essayée pour ce guide.
 
-## Déstaker et retirer
+## Retirer du staking et récupérer les fonds
 
-Une obligation ne peut pas être annulée le jour où elle est créée. Il faut trois Staking Days du début à la fin : staker pendant l'un, déstaker pendant un autre, puis retirer pendant un troisième. Les notes de version ajoutent qu'une obligation ne peut pas effectuer deux actions de staking lors du même Staking Day.
+Une caution ne peut pas être annulée le jour même de sa création. Il faut trois Staking Days du début à la fin : mettre en staking pendant l'un, libérer la caution pendant un suivant, puis la retirer pendant un troisième. Les notes de version ajoutent qu'une même caution ne peut pas faire l'objet de deux actions de staking pendant le même Staking Day.
 
-*Non exécuté pour ce guide. D'après les notes de version 14 :* pour déstaker, appuyez sur **Edit Stake**, choisissez une obligation dans la liste Staked Bonds et cliquez sur l'icône de maillon de chaîne. Pour retirer lors d'un Staking Day ultérieur, appuyez sur **Edit Stake**, choisissez une obligation dans la liste Withdrawable Bonds et cliquez sur l'icône d'argent. Déplacer une obligation vers un autre finaliseur, ce que les notes appellent le retargeting, est autorisé à tout moment.
+*Non testé pour ce guide. D'après les notes de la version 14 :* pour libérer une caution, appuyez sur **Edit Stake**, choisissez une caution dans la liste Staked Bonds et cliquez sur l'icône de maillon de chaîne. Pour la retirer lors d'un Staking Day ultérieur, appuyez sur **Edit Stake**, choisissez une caution dans la liste Withdrawable Bonds et cliquez sur l'icône représentant de l'argent. Déplacer une caution vers un autre finaliseur, ce que les notes appellent le reciblage, est possible à tout moment.
 
-## Où surveiller le réseau
+## Où suivre le réseau
 
-L'onglet [Crosslink sur ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) rassemble les outils en un seul endroit, sous un avis indiquant « Le staking sur ce réseau ne déplace pas les ZEC » :
+L'onglet [Crosslink de ZecHub Outils](https://zechub.wiki/tools?tool=crosslink) rassemble les outils en un seul endroit, sous un avertissement qui indique « Le staking sur ce réseau ne déplace pas de ZEC » :
 
-- Hébergés, sans nœud nécessaire : [Staker Space](https://crosslink.staker.space/), un « tableau de bord en direct pour le testnet cTAZ actuel » avec la hauteur, les mineurs, le taux de solutions, le compte à rebours du Staking Day et la finalité, et [ctaz.cash](https://ctaz.cash/), avec la production de minage, la liste des finaliseurs, les pairs et les revendications de noms d'adresses de staking.
-- Sur votre propre machine : `zcash-explorer`, dont la page `/live/crosslink` affiche l'activation, le retard de finalité, la liste et les positions de staking, et `crosslink_indexer`, un index SQLite d'un nœud Crosslink.
+- Hébergés, sans nœud nécessaire : [Staker Space](https://crosslink.staker.space/), un « tableau de bord en direct du testnet cTAZ actuel » avec la hauteur, les mineurs, le taux de solutions, le compte à rebours du Staking Day et la finalité, ainsi que [ctaz.cash](https://ctaz.cash/), avec la production du minage, le registre des finaliseurs, les pairs et les noms revendiqués pour les adresses de staking.
+- Sur votre propre machine : `zcash-explorer`, dont la page `/live/crosslink` affiche l'activation, le retard de finalité, le registre et les positions de staking, et `crosslink_indexer`, un index SQLite d'un nœud Crosslink.
 
-## Erreurs fréquentes
+## Erreurs courantes
 
-**Planifier selon l'horloge plutôt que selon la hauteur de bloc.** Les Staking Days sont comptés en blocs. Surveillez le compte à rebours d'un tableau de bord, pas le calendrier.
+**Se fier à l'horloge plutôt qu'à la hauteur de bloc.** Les Staking Days se comptent en blocs. Surveillez le compte à rebours d'un tableau de bord, pas le calendrier.
 
-**Staker dans les dernières minutes de la fenêtre.** La règle est vérifiée par rapport au bloc qui inclut votre transaction ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)), donc le stake doit être miné avant la fermeture de la fenêtre, et pas seulement envoyé.
+**Mettre en staking dans les dernières minutes de la fenêtre.** La règle est vérifiée par rapport au bloc qui inclut votre transaction ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)) : la mise en staking doit donc être minée avant la fermeture de la fenêtre, pas seulement envoyée.
 
-**S'attendre à miner son stake.** Un mineur CPU à quatre threads sur un Intel Core i5-8350U n'a trouvé aucun bloc entre les 8 et 9 octobre. Obtenez vos premiers cTAZ depuis le robinet ou auprès d'un autre participant.
+**Compter sur le minage pour obtenir votre mise.** Un mineur CPU à quatre threads sur un Intel Core i5-8350U n'a trouvé aucun bloc entre le 8 et le 9 octobre. Obtenez vos premiers cTAZ auprès du faucet ou d'un autre participant.
 
-**Cliquer de nouveau parce que rien ne semblait se produire.** Chaque clic sur un montant crée une nouvelle obligation. Vérifiez d'abord l'historique du wallet ou `wallet_staking_positions`.
+**Cliquer de nouveau parce que rien ne semble se passer.** Chaque clic sur un montant crée une nouvelle caution. Vérifiez d'abord l'historique du portefeuille ou `wallet_staking_positions`.
 
-**Paniquer après un redémarrage.** Votre solde et votre stake affichent zéro jusqu'à ce que le wallet ait terminé sa nouvelle analyse. Attendez la fin de Wallet Sync.
+**Paniquer après un redémarrage.** Votre solde et votre mise affichent zéro tant que le portefeuille n'a pas terminé sa nouvelle analyse. Attendez la fin de la synchronisation du portefeuille.
 
-**Traiter le cTAZ comme de l'argent fictif, ou le secret comme inoffensif.** Le cTAZ est une monnaie de test, mais le cTAZ que vous gagnez détermine votre part de vrais ZEC. Protégez `secret.seed` comme vous protégeriez un wallet.
+**Prendre les cTAZ pour de l'argent fictif, ou le secret pour quelque chose d'anodin.** Le cTAZ est une pièce de test, mais les cTAZ que vous gagnez déterminent votre part de vrais ZEC. Protégez `secret.seed` comme vous protégeriez un portefeuille.
 
-**Lire d'anciennes instructions.** Les notes de version comportent du texte de saisons antérieures à côté des nouvelles règles. Lorsqu'elles ne correspondent pas à ce que fait votre nœud, votre nœud a raison.
+**Lire d'anciennes instructions.** Les notes de version contiennent des textes des saisons précédentes à côté des nouvelles règles. En cas de désaccord avec le comportement de votre nœud, c'est votre nœud qui a raison.
 
 ## Pages associées
 
-- [Crosslink Protocol](/zcash-tech/crosslink-protocol) - la conception que ce réseau teste
+- [Crosslink Protocole](/zcash-tech/crosslink-protocol) - la conception que ce réseau met à l'épreuve
 - [Shielded Labs](/zcash-organizations/shielded-labs) - l'équipe derrière Crosslink
-- [Verifying Zcash Releases](/guides/verifying-zcash-releases) - ce qu'une somme de contrôle prouve et ne prouve pas
-- [Zebra Full Node](/zcash-tech/zebra-full-node) - le nœud sur lequel est construite l'application Feature Net
-- [Zcash Testnet](/using-zcash/testnet) - le réseau de test ordinaire de Zcash, qui est un réseau différent
+- [Vérifier les versions de Zcash](/guides/verifying-zcash-releases) - ce qu'une somme de contrôle prouve et ne prouve pas
+- [Nœud complet Zebra](/zcash-tech/zebra-full-node) - le nœud sur lequel repose l'application Feature Net
+- [Testnet Zcash](/using-zcash/testnet) - le réseau de test ordinaire de Zcash, qui est un réseau différent
 
 ## Sources
 
-- [Notes de version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), Shielded Labs, 1er octobre 2026
-- [Crosslink : réseaux de fonctionnalités incitatifs](https://shieldedlabs.net/crosslink-incentivized-feature-nets/), Shielded Labs, 2 avril 2026
-- [Crosslink : Feature Net](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) incitatif, forum communautaire Zcash
-- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/), Shielded Labs
-- [Le livre de Crosslink](https://shieldedlabs.github.io/crosslink_book/), Shielded Labs
+- [Notes de la version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), Shielded Labs, 1er octobre 2026
+- [Crosslink : Feature Nets incitatifs](https://shieldedlabs.net/crosslink-incentivized-feature-nets/), Shielded Labs, 2 avril 2026
+- [Crosslink : Feature Net incitatif](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), forum communautaire Zcash
+- [FAQ Crosslink](https://shieldedlabs.net/crosslink-faq/), Shielded Labs
+- [Le livre Crosslink](https://shieldedlabs.github.io/crosslink_book/), Shielded Labs
 
 ---
 
-*Les étapes de cette page ont été exécutées avec Feature Net version 14 sur Windows 11 (version 10.0.26200.9550), du 8 au 10 octobre 2026. Toute affirmation qui cite les notes de version ou le code source en est issue. Tout élément marqué « non exécuté » n'a pas été testé.*
+*Les étapes de cette page ont été réalisées avec Feature Net version 14 sous Windows 11 (version 10.0.26200.9550), du 8 au 10 octobre 2026. Toute affirmation qui cite les notes de version ou le code source en est tirée. Tout ce qui est indiqué comme « non testé » n'a pas été essayé.*

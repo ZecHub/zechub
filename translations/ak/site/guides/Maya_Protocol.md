@@ -65,7 +65,7 @@ Afei nso, Maya botae ne sɛ ɔbɛyɛ *backend* ama dwumadie afoforo a wɔbɛtumi
 Sɛ wɔde Maya bɛyɛ *backend* a, ehia sɛ wɔboa no ma ne mfidie ahodoɔ na ɛtumi di dwuma. 
 Sεnea y'atwe nsem a wͻwᴐ no adi kan na woahyehyɛ nsesaeԑ ahodoɔ yi:
 
-[Thorwallet DEX no ho nsɛm pii wɔ hɔ.](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX no ho nsɛm pii wɔ hɔ.](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado mu no, na wɔhwɛ wɔn so.](https://www.eldorado.market/): XDEFI, Keystore
 

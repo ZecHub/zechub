@@ -394,7 +394,7 @@
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
-- NU7: Not Ready
+- NU7: Compatible
 
 ---
 

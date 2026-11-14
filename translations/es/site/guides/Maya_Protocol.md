@@ -65,7 +65,7 @@ Además, el objetivo de Maya es convertirse en un *backend* sobre el que puedan 
 Al actuar como un *backend*, Maya necesita contar con el soporte de diferentes interfaces de usuario y billeteras para poder utilizarse. 
 Aquí tienes una lista de algunos de los servicios que ya son compatibles con Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

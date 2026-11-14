@@ -1,6 +1,6 @@
 {
   "locale": "fr",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "French",
     "native_name": "Français",
@@ -8,13 +8,154 @@
     "script": "Latn",
     "dir": "ltr",
     "language_lead": [],
-    "last_review": null
+    "last_review": "2026-11-14"
   },
   "style": {
     "variety": "natural, fluent French",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural French usage; do not force awkward coinages."
+    "register": {
+      "default": "vous",
+      "ui": "vous",
+      "text": {
+        "vous": "Address the reader formally with \"vous\" (imperative and verbs in the second person plural), as is the norm in France. Never use \"tu\"."
+      }
+    },
+    "english_in_brackets": "never",
+    "loanwords": "translate",
+    "loanwords_text": "Translate technical terms when a natural French word exists (portefeuille, jeton, contrat intelligent); keep English only for the terms the terminology list keeps (blockchain, pool, staking, exchange, on-chain). The terminology list below wins over this rule.",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ",",
+    "quotes": "«»",
+    "abbreviations_with_full_stop": [
+      "art",
+      "av",
+      "cf",
+      "chap",
+      "env",
+      "etc",
+      "ex",
+      "fig",
+      "M",
+      "p",
+      "vol",
+      "éd",
+      "janv",
+      "févr",
+      "avr",
+      "juil",
+      "sept",
+      "oct",
+      "nov",
+      "déc"
+    ],
+    "writing_rules": [
+      "Use sentence case in headings, titles and menu labels, not English Title Case (« Clés de dépense et adresses », not « Clés De Dépense Et Adresses »).",
+      "Use « » for quotations, with a space inside the marks: « exemple ».",
+      "Make adjectives and participles agree with the noun in gender and number (une adresse transparente, des transactions protégées).",
+      "Abbreviations take a full stop only when the last letter of the word is dropped (M., p. ex., etc.), not when it is kept (Mme, Dr) and never on symbols or acronyms (ZEC, ZIP, km).",
+      "English terms kept in English take the French article and the plural -s where usual in French (un exchange, des exchanges, les pools).",
+      "Never put English in brackets inside a Markdown link label."
+    ]
   },
   "terms": {
+    "wallet": {
+      "target": "portefeuille",
+      "forms": [
+        "portefeuille",
+        "portefeuilles"
+      ],
+      "rejected": [
+        {
+          "text": "wallet"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-1"
+    },
+    "shielded": {
+      "target": "protégé",
+      "forms": [
+        "protégé",
+        "protégée",
+        "protégés",
+        "protégées"
+      ],
+      "context": "Zcash privacy sense: une adresse protégée, une transaction protégée, les pools protégés. Agree with the noun.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-2"
+    },
+    "transaction": {
+      "target": "transaction",
+      "keep_english": true,
+      "forms": [
+        "transaction",
+        "transactions",
+        "Transaction",
+        "Transactions"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-3"
+    },
+    "privacy": {
+      "target": "confidentialité",
+      "forms": [
+        "confidentialité"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-5"
+    },
+    "pool": {
+      "target": "pool",
+      "keep_english": true,
+      "forms": [
+        "pool",
+        "pools",
+        "Pool",
+        "Pools"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-6"
+    },
+    "proof": {
+      "target": "preuve",
+      "forms": [
+        "preuve",
+        "preuves"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-10"
+    },
     "node": {
       "target": "nœud",
       "forms": [
@@ -41,6 +182,2105 @@
       ],
       "reviewed_at": "2026-10-10",
       "source": "prompt_head_fr.txt"
+    },
+    "transparent": {
+      "target": "transparent",
+      "forms": [
+        "transparent",
+        "transparente",
+        "transparents",
+        "transparentes"
+      ],
+      "inflection": "Agree with the noun: un pool transparent, une adresse transparente, des transactions transparentes.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf + Laboré: transparent / transparente, agreeing with the noun.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-12"
+    },
+    "exchange": {
+      "target": "exchange",
+      "keep_english": true,
+      "forms": [
+        "exchange",
+        "exchanges",
+        "Exchange",
+        "Exchanges"
+      ],
+      "context": "a trading platform (un exchange, les exchanges); the verb and a generic swap are échange / échanger",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-16"
+    },
+    "memo": {
+      "target": "mémo",
+      "forms": [
+        "mémo",
+        "mémos"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "clé pour lecture seule",
+      "forms": [
+        "clé pour lecture seule",
+        "clés pour lecture seule"
+      ],
+      "rejected": [
+        {
+          "text": "viewing key"
+        }
+      ],
+      "context": "Exception: the protocol names written with capitals in the English (Viewing Key, Full Viewing Key, Incoming Viewing Key) stay in English exactly as written: la Full Viewing Key.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "This would be the best translation. I assume that most french will understand the english word as well.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-26"
+    },
+    "fee": {
+      "target": "frais",
+      "forms": [
+        "frais"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-22"
+    },
+    "swap": {
+      "target": "échange",
+      "forms": [
+        "échange"
+      ],
+      "context": "exchanging one coin for another (un échange); the platform is un exchange",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-27"
+    },
+    "custodial": {
+      "target": "dépositaire",
+      "forms": [
+        "dépositaire",
+        "dépositaires"
+      ],
+      "context": "dépositaire = a third party holds your keys (un exchange dépositaire); non-custodial = non dépositaire",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "divulgation nulle de connaissance",
+      "forms": [
+        "divulgation nulle de connaissance",
+        "à divulgation nulle de connaissance"
+      ],
+      "rejected": [
+        {
+          "text": "à connaissance nulle"
+        },
+        {
+          "text": "zéro-connaissance"
+        },
+        {
+          "text": "zero-knowledge"
+        }
+      ],
+      "context": "zero-knowledge proof = preuve à divulgation nulle de connaissance (the established French term); as an adjective: une cryptographie à divulgation nulle de connaissance. Product and protocol names containing the words stay as written.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf 2026-11-08: divulgation nulle de connaissance (common usage); Laboré: à connaissance nulle. Gianni: 'preuve à divulgation nulle de connaissance' (the established French term).",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "mise à niveau du réseau",
+      "forms": [
+        "mise à niveau du réseau",
+        "mises à niveau du réseau"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-32"
+    },
+    "mining": {
+      "target": "minage",
+      "forms": [
+        "minage"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf 2026-11-08: minage OK; Laboré OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-20"
+    },
+    "miner": {
+      "target": "mineur",
+      "forms": [
+        "mineur",
+        "mineurs"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf 2026-11-08: mineur OK; Laboré OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-39"
+    },
+    "full-node": {
+      "target": "nœud complet",
+      "forms": [
+        "nœud complet",
+        "nœuds complets"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-34"
+    },
+    "turnstile": {
+      "target": "sas comptable",
+      "forms": [
+        "sas comptable"
+      ],
+      "rejected": [
+        {
+          "text": "tourniquet"
+        }
+      ],
+      "context": "Zcash's accounting check that the coins leaving a pool never exceed what entered it",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Zcash turnstile is like an accounting audit. So 'sas comptable' would be a wise translation of this mechanism",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-37"
+    },
+    "spending-key": {
+      "target": "clé de dépense",
+      "forms": [
+        "clé de dépense",
+        "clés de dépense"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "phrase de récupération",
+      "forms": [
+        "phrase de récupération",
+        "phrases de récupération"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-50"
+    },
+    "light-client": {
+      "target": "client léger",
+      "forms": [
+        "client léger",
+        "clients légers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-55"
+    },
+    "token": {
+      "target": "jeton",
+      "forms": [
+        "jeton",
+        "jetons"
+      ],
+      "rejected": [
+        {
+          "text": "token"
+        },
+        {
+          "text": "tokens"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-28"
+    },
+    "chain": {
+      "target": "chaîne",
+      "forms": [
+        "chaîne",
+        "chaînes"
+      ],
+      "rejected": [
+        {
+          "text": "chain"
+        }
+      ],
+      "context": "a chain of blocks or a network (la chaîne principale, une autre chaîne). The compounds blockchain and on-chain stay in English; cross-chain is inter-chaînes.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf: chaîne; Laboré OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "inter-chaînes",
+      "forms": [
+        "inter-chaînes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-52"
+    },
+    "faucet": {
+      "target": "faucet",
+      "keep_english": true,
+      "forms": [
+        "faucet",
+        "faucets"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf: keep English; Laboré: faucet OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-49"
+    },
+    "developer": {
+      "target": "développeur",
+      "forms": [
+        "développeur",
+        "développeurs",
+        "développeuse",
+        "développeuses"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-33"
+    },
+    "dashboard": {
+      "target": "tableau de bord",
+      "forms": [
+        "tableau de bord",
+        "tableaux de bord"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-51"
+    },
+    "visualizer": {
+      "target": "visualiseur",
+      "forms": [
+        "visualiseur",
+        "visualiseurs"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-62"
+    },
+    "use-case": {
+      "target": "cas d'utilisation",
+      "forms": [
+        "cas d'utilisation",
+        "cas d’utilisation"
+      ],
+      "rejected": [
+        {
+          "text": "cas d'usage"
+        },
+        {
+          "text": "cas d’usage"
+        }
+      ],
+      "context": "a concrete way people use Zcash; menu labels use Cas d'utilisation too",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf: cas d'usage; Laboré 2026-11-14: cas d'utilisation, 'cas d'usage' is an anglicism. Gianni: second reviewer.",
+      "reviewed_by": [
+        "@starlabman",
+        "@DurinDwarf",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-53"
+    },
+    "brand": {
+      "target": "marque",
+      "forms": [
+        "marque"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-61"
+    },
+    "treasury": {
+      "target": "trésorerie",
+      "forms": [
+        "trésorerie"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-57"
+    },
+    "top-up": {
+      "target": "recharge",
+      "forms": [
+        "recharge",
+        "recharges",
+        "recharger"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "'recharge' for the noun, 'recharger' for the verb",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-58"
+    },
+    "tools": {
+      "target": "outils",
+      "forms": [
+        "outils"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-25"
+    },
+    "newsletter": {
+      "target": "newsletter",
+      "keep_english": true,
+      "forms": [
+        "newsletter",
+        "newsletters",
+        "Newsletter",
+        "Newsletters"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-45"
+    },
+    "address": {
+      "target": "adresse",
+      "forms": [
+        "adresse",
+        "adresses"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-4"
+    },
+    "block": {
+      "target": "bloc",
+      "forms": [
+        "bloc",
+        "blocs"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-7"
+    },
+    "blockchain": {
+      "target": "blockchain",
+      "keep_english": true,
+      "forms": [
+        "blockchain",
+        "Blockchain",
+        "blockchains",
+        "Blockchains"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-15"
+    },
+    "signature": {
+      "target": "signature",
+      "keep_english": true,
+      "forms": [
+        "signature",
+        "signatures"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-17"
+    },
+    "commitment": {
+      "target": "engagement",
+      "forms": [
+        "engagement",
+        "engagements"
+      ],
+      "context": "the cryptographic value that binds to hidden data (un engagement de note), not a promise",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf 2026-11-13: engagement (cryptographic sense, not a promise); Laboré OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-21"
+    },
+    "nullifier": {
+      "target": "nullifier",
+      "keep_english": true,
+      "forms": [
+        "nullifier",
+        "nullifiers"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-40"
+    },
+    "note": {
+      "target": "note",
+      "keep_english": true,
+      "forms": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "rejected": [
+        {
+          "text": "remarque"
+        }
+      ],
+      "context": "a Zcash note is a shielded unit of value held by a shielded address (une note protégée); not a remark. Translate 'to note' and a written note normally.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf 2026-11-13: keep English, 'remarque' is the wrong sense; Laboré: note OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "configuration de confiance",
+      "forms": [
+        "configuration de confiance"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-46"
+    },
+    "consensus": {
+      "target": "consensus",
+      "keep_english": true,
+      "forms": [
+        "consensus",
+        "Consensus"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-29"
+    },
+    "governance": {
+      "target": "gouvernance",
+      "forms": [
+        "gouvernance"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-36"
+    },
+    "grant": {
+      "target": "subvention",
+      "forms": [
+        "subvention",
+        "subventions"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-24"
+    },
+    "halving": {
+      "target": "halving",
+      "keep_english": true,
+      "forms": [
+        "halving",
+        "Halving",
+        "halvings",
+        "Halvings"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-43"
+    },
+    "staking": {
+      "target": "staking",
+      "keep_english": true,
+      "forms": [
+        "staking",
+        "Staking",
+        "stake",
+        "Stake",
+        "stakes",
+        "Stakes",
+        "staked",
+        "Staked"
+      ],
+      "context": "keep English, written as is (le staking)",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "keep English",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-30"
+    },
+    "finalizer": {
+      "target": "finaliseur",
+      "forms": [
+        "finaliseur",
+        "finaliseurs"
+      ],
+      "rejected": [
+        {
+          "text": "finaliste"
+        }
+      ],
+      "context": "a participant in Zcash's proof-of-stake layer that votes to make blocks final; not a sports finalist",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "In French, \"finaliste\" refers to athletes or teams who participate in the last match of a tournament",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-44"
+    },
+    "bond": {
+      "target": "caution",
+      "forms": [
+        "caution",
+        "cautions"
+      ],
+      "rejected": [
+        {
+          "text": "obligation"
+        },
+        {
+          "text": "dépôt"
+        }
+      ],
+      "context": "stake locked and delegated to a finalizer for a period: a locked guarantee (la caution). Not a deposit on an exchange (dépôt) and not a financial bond (obligation). Unbonding = libérer la caution.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf 2026-11-13: dépôt; Laboré 2026-11-14: caution, because dépôt reads as a plain deposit and this is a locked guarantee. Gianni: second reviewer.",
+      "reviewed_by": [
+        "@starlabman",
+        "@DurinDwarf",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-47"
+    },
+    "encryption": {
+      "target": "chiffrement",
+      "forms": [
+        "chiffrement"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-14"
+    },
+    "decentralized": {
+      "target": "décentralisé",
+      "forms": [
+        "décentralisé",
+        "décentralisée",
+        "décentralisés",
+        "décentralisées"
+      ],
+      "inflection": "Agree with the noun: un réseau décentralisé, la finance décentralisée.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf: masculine by default, agree with a feminine noun; Laboré OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-31"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain"
+      ],
+      "context": "keep English, written as is (des données on-chain); chain alone is chaîne",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf: keep English; Laboré OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-35"
+    },
+    "bridge": {
+      "target": "pont",
+      "forms": [
+        "pont",
+        "ponts"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-42"
+    },
+    "payment": {
+      "target": "paiement",
+      "forms": [
+        "paiement",
+        "paiements"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "contrat intelligent",
+      "forms": [
+        "contrat intelligent",
+        "contrats intelligents"
+      ],
+      "rejected": [
+        {
+          "text": "smart contract"
+        },
+        {
+          "text": "smart contracts"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Dwarf 2026-11-08: singular contrat intelligent; Laboré OK.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "impossible à relier",
+      "forms": [
+        "impossible à relier",
+        "impossibles à relier"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-60"
+    },
+    "permissionless": {
+      "target": "sans permission",
+      "forms": [
+        "sans permission"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-59"
+    },
+    "scaling": {
+      "target": "mise à l’échelle",
+      "forms": [
+        "mise à l’échelle"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "divulgation sélective",
+      "forms": [
+        "divulgation sélective"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "portefeuille matériel",
+      "forms": [
+        "portefeuille matériel",
+        "portefeuilles matériels"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "Accepter les paiements",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: brand name, stays as written (Dwarf proposed Réseau Akash).",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-2"
+    },
+    "Block Explorers": {
+      "target": "Explorateurs de blocs",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "Explorateurs de blockchain",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-64"
+    },
+    "Brand": {
+      "target": "Marque",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "Plugin BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "Plugin Zcash BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "Acheter du ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-16"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "Rétro-subventions pilotées par les Zcashers",
+      "rejected": [
+        {
+          "text": "Subventions rétroactives dirigées par CoinHolder"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Considering that coinholders are people who own ZEC, we can call them the Zcashers.",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-51"
+    },
+    "Community": {
+      "target": "Communauté",
+      "context": "Community alone is Communauté; before another noun French uses the adjective communautaire or 'de la communauté'",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "Blogs de la communauté",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "Construire la communauté",
+      "rejected": [
+        {
+          "text": "Community Building"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "Forum communautaire",
+      "context": "Community alone is Communauté; before another noun French uses the adjective communautaire or 'de la communauté'",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "Liens communautaires",
+      "context": "Community alone is Communauté; before another noun French uses the adjective communautaire or 'de la communauté'",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "Projets communautaires",
+      "context": "Community alone is Communauté; before another noun French uses the adjective communautaire or 'de la communauté'",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "Contribuer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "Exchanges dépositaires",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "Tableau de bord",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-13"
+    },
+    "Developers": {
+      "target": "Développeurs",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-10"
+    },
+    "Donate": {
+      "target": "Faire un don",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-8"
+    },
+    "Donations": {
+      "target": "Dons",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "Écosystème",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "Exchanges",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-19"
+    },
+    "Explore": {
+      "target": "Explorer",
+      "context": "the menu verb; the overview entry Full Explore is Tour d'horizon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-9"
+    },
+    "Extras": {
+      "target": "Extras",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "Faucets",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "Pour les forks et les mainteneurs",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "Confidentialité pour les freelances",
+      "rejected": [
+        {
+          "text": "Confidentialité des freelances"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "Tour d'horizon",
+      "rejected": [
+        {
+          "text": "Explorer entièrement"
+        }
+      ],
+      "context": "a 360° overview page, not the verb Explorer (Dwarf)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "Glossaire et FAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "Glossaire et FAQ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "Gouvernance",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-4"
+    },
+    "Guides": {
+      "target": "Guides",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "Comment participer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "Confidentialité pour les journalistes",
+      "rejected": [
+        {
+          "text": "Confidentialité des journalistes"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "Tenir des registres",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-35"
+    },
+    "Memos": {
+      "target": "Mémos",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "Recharges mobiles",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-25"
+    },
+    "More": {
+      "target": "Plus",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "Navigation",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "Newsletter",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Dwarf first proposed Infolettre, then agreed it stays English (Newsletter is the page brand).",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Configuration du portefeuille Nym Mixnet",
+      "rejected": [
+        {
+          "text": "Nym Mixnet Wallet Setup"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "Organisations",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-49"
+    },
+    "Overview": {
+      "target": "Aperçu",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "Utiliser ZEC pour de l'IA",
+      "rejected": [
+        {
+          "text": "Payer l'IA"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "'Payer l'IA' would mean 'send money to AI'. I guess the usecase is using Zcash for AI services/agents",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "Processeurs de paiement",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "URI de demande de paiement",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "Podcast",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "Outils de confidentialité",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "Trésorerie communautaire privée",
+      "context": "Community alone is Communauté; before another noun French uses the adjective communautaire or 'de la communauté'",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Nœud complet pour Raspberry Pi 4",
+      "rejected": [
+        {
+          "text": "Nœud complet Raspberry Pi 4"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Nœud Zebra pour Raspberry pi 4",
+      "rejected": [
+        {
+          "text": "Nœud Zebra Raspberry pi 4"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Nœud Zcashd pour Raspberry Pi",
+      "rejected": [
+        {
+          "text": "Nœud Raspberry Pi Zcashd"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Nœud Zebra pour Raspberry Pi",
+      "rejected": [
+        {
+          "text": "Nœud Raspberry Pi Zebra"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "Récupération de fonds",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-28"
+    },
+    "Research": {
+      "target": "Recherche",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "Envoyer de l'argent en privé",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "Pools protégés",
+      "rejected": [
+        {
+          "text": "Pools blindés"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: aligned with the glossary (shielded = protégé, approved by Dwarf); the kit showed 'Pools blindés'.",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-21"
+    },
+    "Shop": {
+      "target": "Boutique",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "Plan du site",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "Commencez ici",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-31"
+    },
+    "Store": {
+      "target": "Boutique",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "Outils",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "Transactions",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "Adresses d'exchange transparentes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "Tutoriels",
+      "rejected": [
+        {
+          "text": "Tuteurs"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Wrong translation, in French 'tuteurs' are the people who teach/educate",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "Cas d'utilisation",
+      "rejected": [
+        {
+          "text": "Cas d'usage"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Follows the glossary: use case = cas d'utilisation (Laboré, Gianni).",
+      "reviewed_by": [
+        "@starlabman",
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "Utiliser Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Utiliser Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "Utiliser ZEC dans la DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "Utiliser ZEC en privé",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "Identité visuelle",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "Visualiseur",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "Visualiser le réseau Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "Visualiser les adresses Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "Portefeuilles",
+      "rejected": [
+        {
+          "text": "Porte-documents"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Démo FROST avec Ywallet",
+      "rejected": [
+        {
+          "text": "Démo FROST Ywallet"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "Communauté Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Sécurité de l'écosystème Zcash",
+      "rejected": [
+        {
+          "text": "Assurance de l'écosystème Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "In french 'Assurance'='Insurance' in english",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "Gouvernance Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Propositions d'amélioration de Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Médias Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Organisations Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "Podcasts Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Technologie Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "Cas d'utilisation de Zcash",
+      "rejected": [
+        {
+          "text": "Cas d’usage de Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Follows the glossary: use case = cas d'utilisation (Laboré, Gianni).",
+      "reviewed_by": [
+        "@starlabman",
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "Archives Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Archives Zcon Vozes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Installation de Zenith",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "Preuves à divulgation nulle de connaissance vs systèmes leurres",
+      "rejected": [
+        {
+          "text": "Zero Knowledge vs systèmes leurres"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: follows the glossary term chosen by Gianni.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-71"
+    },
+    "zero-knowledge proof": {
+      "target": "preuve à divulgation nulle de connaissance",
+      "forms": [
+        "preuve à divulgation nulle de connaissance",
+        "preuves à divulgation nulle de connaissance"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "@starlabman",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-fr.md#terms-23"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "Divulgation nulle de connaissance vs leurres",
+      "rejected": [
+        {
+          "text": "Zero-Knowledge vs leurres"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Steward: follows the glossary term chosen by Gianni.",
+      "reviewed_by": [
+        "@DurinDwarf",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "Processeur de paiement Zgo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Tutoriel Zingolib et Zaino",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs et subventions",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "Multisig Zkool",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@DurinDwarf"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-fr.md#navigation-62"
     }
   },
   "changelog": [
@@ -52,6 +2292,181 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_fr.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-14",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig",
+        "zero-knowledge proof"
+      ],
+      "summary": "Native review by Dwarf (@DurinDwarf): glossary (62 terms) and menus, with his DM answers of 2026-11-08 and 2026-11-13; second native check by Laboré (@starlabman) on 19 terms, 2026-11-14. Second reviewer adopted for bond (caution) and use case (cas d'utilisation); zero-knowledge = preuve à divulgation nulle de connaissance (steward decision between the two reviewers). Formal vous, « » quotes, decimal comma. Steward alignments: Shielded Pools = Pools protégés and the two zero-knowledge menu labels follow the glossary; Akash Network stays a brand name."
     }
   ]
 }

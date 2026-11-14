@@ -1,14 +1,14 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/contribute/Help_build_ZecHub.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Aidez à construire ZecHub 
 
-Si vous êtes membre de la communauté Zcash et que vous souhaitez contribuer à la construction de ZecHub, il y a quelques choses qui sont très utiles.
+Si vous êtes membre de la communauté Zcash et souhaitez contribuer à la construction de ZecHub, voici quelques actions particulièrement utiles.
 
 Sélectionnez des liens pour la newsletter et ajoutez-les à la page GitHub de la newsletter : -> [Cliquez ici pour les instructions](https://github.com/ZecHub/zechub/blob/main/site/contribute/ZecWeekly_Newsletter.md)
 
-Vérifiez les faits dans la documentation du wiki, suggérez des modifications et proposez de nouvelles pages sur GitHub
+Vérifiez l'exactitude des documents du wiki, suggérez des modifications et proposez de nouvelles pages dans GitHub
 
 Créez du contenu vidéo dans les catégories suivantes :
 ```
@@ -17,15 +17,15 @@ Créez du contenu vidéo dans les catégories suivantes :
 * Third-party application demos
 ```
 
-Réalisez des designs tels que des affiches/visuels/animations pour l'écosystème Zcash et Privacy 
+Réalisez des créations visuelles telles que des affiches, des graphismes ou des animations pour l'écosystème Zcash et de la confidentialité 
 
 Traduisez n'importe laquelle des pages existantes du wiki.
 
-Signaler des bugs
+Signalez des bogues
 
 ### Récompenses
 
-Les montants ne sont pas fixes dans ZEC. Utilisez la [politique relative aux montants des primes](https://bounties.zechub.wiki/docs/bounty-amounts) : choisissez une fourchette en USD pour la catégorie de travail, convertissez-la au cours au comptant, puis saisissez ZEC dans le tableau. Cette politique fait foi.
+Les montants ne sont pas fixes dans ZEC. Appliquez la [politique des montants des primes](https://bounties.zechub.wiki/docs/bounty-amounts) : choisissez une fourchette en USD correspondant à la catégorie de travail, convertissez au cours du moment, puis saisissez ZEC sur le tableau. Cette politique fait foi.
 
 Processus de contribution et types de travaux : [Contribuer à ZecHub](https://zechub.wiki/contribute/contributing-guide).
 
@@ -42,7 +42,7 @@ Présentation de la plateforme :
   />
 </div>
 
-Nous publions les tâches ouvertes sur [ZEC Bounties](https://bounties.zechub.wiki/). Vous pouvez également y suggérer des primes. Une PR fusionnée ne signifie pas qu'une récompense a été approuvée ou versée.
+Nous publions les tâches ouvertes sur [ZEC Bounties](https://bounties.zechub.wiki/). Vous pouvez également y suggérer des primes. Une PR fusionnée n'équivaut pas à une récompense approuvée ou versée.
 
 ![zecbounties](/content-images/0e4f5109-c0c9-4a0a-8d71-8172e36b9726-1a94469edf.webp)
 
@@ -50,15 +50,17 @@ Nous publions les tâches ouvertes sur [ZEC Bounties](https://bounties.zechub.wi
 
 [ZEC Bounties](https://bounties.zechub.wiki/)
 
-[Issues GitHub de ZecHub](https://github.com/ZecHub/zechub/issues)
+[ZecHub Issues GitHub](https://github.com/ZecHub/zechub/issues)
 
-[Issues GitHub du wiki ZecHub](https://github.com/ZecHub/zechub-wiki/issues)
+[ZecHub-Wiki Issues GitHub](https://github.com/ZecHub/zechub-wiki/issues)
 
-S'il existe d'autres façons dont vous aimeriez contribuer, veuillez envoyer un message à ZecHub ([@ZecHub](https://twitter.com/zechub)) sur Twitter ou rejoignez notre [Discord](https://discord.gg/zcash).
+
+
+Si vous souhaitez contribuer d'une autre manière, veuillez envoyer un message à ZecHub ([@ZecHub](https://twitter.com/zechub)) sur Twitter ou rejoindre notre [Discord](https://discord.gg/zcash).
 
 ____
 
-**Afin d'effectuer les paiements, ZecHub demande à tous les contributeurs de remplir un formulaire de déclaration avec leur nom et leur adresse shielded :**
+**Afin d'effectuer les paiements, ZecHub demande à tous les contributeurs de remplir un formulaire de déclaration indiquant leur nom et leur adresse protégée :**
 
 **( Zcash | Namada | Penumbra | Ycash )**
 

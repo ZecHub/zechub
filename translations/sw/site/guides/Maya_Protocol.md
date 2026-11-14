@@ -65,7 +65,7 @@ Pia, lengo la Maya ni kuwa *backend* kwa huduma nyingine kujenga juu yake, kwa m
 Kwa kufanya kazi kama *backend*, Maya inahitaji kuungwa mkono na UI na pochi tofauti ili itumike. 
 Hii hapa ni orodha ya baadhi ya huduma zinazounga mkono Maya tayari:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

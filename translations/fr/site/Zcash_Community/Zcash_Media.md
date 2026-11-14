@@ -1,15 +1,15 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Media.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Médias Zcash
+# Zcash Media
 
-« Notre rôle dans cet effort collaboratif est d’éduquer, d’inspirer et d’enthousiasmer les Zcashers actuels et futurs, en bâtissant une base de soutiens capable de rivaliser avec celle des plus grands projets, et au-delà. »
+« Notre rôle dans cet effort collaboratif est d'éduquer, d'inspirer et d'enthousiasmer les Zcashers actuels et futurs, en constituant une base de soutiens qui rivalise avec les plus grands projets, et au-delà. »
 
 
 ## Contexte
 
-Produites par [37 LAINES](https://www.37laines.com/) pour le bien public, les vidéos éducatives de Zcash Media portent entièrement sur Zcash et la crypto. Le projet est financé par le programme [Zcash Community Grants](https://x.com/ZcashCommGrants) et est devenu un acteur important de l’écosystème Zcash.
+Produites par [37 LAINES](https://www.37laines.com/) pour le bien public, les vidéos éducatives de Zcash Media portent entièrement sur Zcash et les cryptomonnaies. Le projet est financé par le programme [Zcash Community Grants](https://x.com/ZcashCommGrants) et est devenu un acteur important de l'écosystème Zcash.
 
 ## Vidéos
 
@@ -17,7 +17,7 @@ Produites par [37 LAINES](https://www.37laines.com/) pour le bien public, les vi
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=e8-nsKxIHdk9YGY2&amp;list=PLCBF_Zq-SbAL19zav5LPfNzXNPNP9IOeb"
-    title="Liste de lecture Zcash Media"
+    title="Zcash Media Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

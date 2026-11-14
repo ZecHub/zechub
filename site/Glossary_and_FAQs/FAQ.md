@@ -45,7 +45,7 @@ You can also purchase Zcash peer-to-peer or acquire it by mining.
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash is fundamentally more private than Bitcoin or Ethereum. It offers fast block times (75 seconds), low fees, and regular upgrades.
+Zcash is fundamentally more private than Bitcoin or Ethereum. It offers fast block times (25 seconds since NU7 activated in November 2026, down from 75 seconds), low fees, and regular upgrades.
 
 Users can choose between **Transparent** or **Shielded** transactions. For more information see [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem).
 

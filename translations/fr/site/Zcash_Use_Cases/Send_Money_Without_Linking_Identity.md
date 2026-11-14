@@ -1,113 +1,113 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="icône journaliste"/> Envoyer de l’argent sans lier votre identité
+# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> Envoyer de l'argent sans révéler votre identité
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Intermédiaire - 7 min</span>
 
-## TL;DR
+## En bref
 
 - Envoyez toujours depuis une **adresse protégée**
 - Évitez les transactions directes de t à t
-- Rompez la possibilité de lien entre les identités
-- Faites attention au timing et aux schémas
+- Rompez les liens entre vos identités
+- Faites attention aux horaires et aux habitudes
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône utilisateur"/> À qui cela s’adresse-t-il ?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> À qui s'adresse ce guide ?
 
-- Toute personne envoyant des paiements sensibles
-- Les utilisateurs soucieux de leur vie privée
-- Les personnes opérant sous risque de surveillance
+- Toute personne qui envoie des paiements sensibles
+- Les utilisateurs soucieux de leur confidentialité
+- Les personnes exposées à un risque de surveillance
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône avertissement"/> Le problème
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Le problème
 
-L’envoi de crypto révèle souvent :
-- L’identité de votre wallet
-- Votre historique de transactions
-- Avec qui vous interagissez
+Envoyer des cryptomonnaies révèle souvent :
+- L'identité de votre portefeuille
+- L'historique de vos transactions
+- Les personnes avec qui vous interagissez
 
 Cela crée un **graphe financier traçable**.
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Pourquoi Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Pourquoi Zcash ?
 
 
-Zcash permet des **transferts entièrement privés** grâce aux transactions protégées.
+Zcash permet des **transferts entièrement confidentiels** grâce aux transactions protégées.
 
-Cela casse :
-- La possibilité de lier les adresses
+Cela rompt :
+- Les liens entre les adresses
 - Le traçage public des transactions
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Ce dont vous avez besoin
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Ce dont vous avez besoin
 
-- Un wallet qui prend en charge les transactions protégées
-- Une compréhension de base des z-addresses
+- Un portefeuille compatible avec les transactions protégées
+- Des notions de base sur les adresses z
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône étape"/> Guide étape par étape
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guide étape par étape
 
-### Étape 1 : S’assurer que les fonds sont protégés
+### Étape 1 : assurez-vous que vos fonds sont protégés
 
-Si vos fonds se trouvent dans une adresse transparente :
-- Déplacez-les d’abord vers une adresse protégée
+Si vos fonds se trouvent sur une adresse transparente :
+- Transférez-les d'abord vers une adresse protégée
 
 
-### Étape 2 : Envoyer de protégé à protégé
+### Étape 2 : envoyez d'une adresse protégée vers une adresse protégée
 Privilégiez toujours une transaction `z to z`
 
 Cela garantit une confidentialité maximale.
 
 
-### Étape 3 : Éviter le lien avec l’identité
+### Étape 3 : évitez de relier votre identité
 
-Ne faites PAS ceci :
-- Annoncer publiquement les transactions
+Ne faites PAS les choses suivantes :
+- Annoncer publiquement vos transactions
 - Réutiliser la même adresse dans différents contextes
-- Lier des adresses à des identités connues
+- Relier vos adresses à des identités connues
 
-### Étape 4 : Prendre en compte les schémas de timing
+### Étape 4 : tenez compte des schémas temporels
 
 Conseil avancé :
-- Évitez d’envoyer immédiatement après avoir reçu de gros montants
-- Rompez les schémas prévisibles lorsque c’est possible
+- Évitez d'envoyer des fonds immédiatement après avoir reçu des montants importants
+- Rompez les schémas prévisibles autant que possible
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône annulation"/> Erreurs courantes à éviter
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Erreurs courantes à éviter
 
 - Envoyer directement depuis des adresses transparentes  
-- Réutiliser des adresses avec plusieurs personnes  
-- Confirmer publiquement les transactions  
-- Ignorer les métadonnées (timing, fréquence)
+- Réutiliser les mêmes adresses avec plusieurs personnes  
+- Confirmer publiquement des transactions  
+- Ignorer les métadonnées (horaires, fréquence)
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icône terminé"/> Résultat
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Résultat
 
 Vous pouvez :
-- Envoyer des fonds en privé
-- Éviter de lier votre identité
+- Envoyer des fonds de manière confidentielle
+- Éviter de révéler votre identité
 - Réduire la traçabilité
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône maillons de chaîne"/> Lié
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Voir aussi
 - [Ce qu'un explorateur de blocs peut voir](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône progression"/> Progression
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progression
 
 **Étape 2 sur 6**
 
-Vous pouvez maintenant envoyer des fonds en privé sans exposer votre identité.
+Vous pouvez désormais envoyer des fonds de manière confidentielle sans exposer votre identité.
 
 <br/>
 
 ## Étape suivante
 
-- [Configuration de confidentialité pour freelance](/zcash-use-cases/freelance-privacy-setup)
+- [Configuration de la confidentialité pour les freelances](/zcash-use-cases/freelance-privacy-setup)

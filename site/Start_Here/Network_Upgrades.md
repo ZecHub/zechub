@@ -17,7 +17,7 @@ For the visual story of how Zcash's privacy has evolved across these upgrades, s
 | [NU6.1](../zcash-tech/nu6-1) | November 24, 2025 | 3,146,400 | 4dec4df0 | Community and coin-holder governance of that funding |
 | [NU6.2](../zcash-tech/nu6-2) | June 3, 2026 | 3,364,600 | 5437f330 | An emergency fix that corrected the Orchard circuit |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | July 28, 2026 | 3,428,143 | 37a5165b | The Ironwood pool and a public turnstile that lets anyone audit the supply |
-| **NU7** | November 6, 2026 | 3,543,405 | 77190ad9 | 25-second blocks (ZIP 218), NSM fee recycling (ZIP 235+237), Sprout retirement (ZIP 2003) |
+| [NU7](../zcash-tech/nu7) | November 6, 2026 | 3,543,405 | 77190ad9 | 25-second blocks (ZIP 218), NSM fee recycling (ZIP 235+237), Sprout retirement (ZIP 2003) |
 
 Dates are shown in UTC. Some dashboards show them in local time, which is the same block and the same moment. The fixed trigger for every upgrade is its activation block height, not the calendar date.
 

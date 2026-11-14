@@ -65,7 +65,7 @@ Ayrıca Maya'nın amacı, başka hizmetlerin üzerine inşa edebileceği bir *ba
 Bir *backend* olarak çalışan Maya'nın kullanılabilmesi için farklı kullanıcı arayüzleri ve cüzdanlar tarafından desteklenmesi gerekir. 
 İşte Maya'yı hâlihazırda destekleyen bazı hizmetlerin listesi:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

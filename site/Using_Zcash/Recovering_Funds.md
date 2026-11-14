@@ -18,17 +18,15 @@ It is crucial for users to understand the risks involved in dealing with private
 
 Older shielded ZEC may need to be migrated as part of recovery. The route depends on which shielded pool currently holds the funds.
 
-> **NU7 is planned for November 5, 2026.** Once it activates, the current migration path out of the legacy Sprout pool will stop working.
+> **NU7 activated on Mainnet on November 6, 2026 (UTC), at block 3,543,405.** It disallows version 4 transactions ([ZIP 2003](https://zips.z.cash/zip-2003)), and Sprout funds can only be spent in version 4 transactions, so the migration path out of the legacy Sprout pool no longer works.
 >
-> If you still have ZEC in the Sprout pool, migrate it before the upgrade. After activation, existing tools will no longer be able to move Sprout funds into Sapling, transparent addresses, or any other destination.
->
-> If you are viewing this page **after NU7** has activated, **Sprout is frozen in ice** until a future recovery method becomes available, which is not currently planned.
+> **Sprout is now frozen in ice.** Existing tools can no longer move Sprout funds into Sapling, transparent addresses, or any other destination. ZIP 2003 does not burn Sprout funds and leaves open the possibility of a future recovery method, but none is currently planned. If you hold Sprout keys, keep them safe.
 
 ## The answer in one page
 
 | Your funds are in | Migration route | What to do |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` or a standalone Sprout spending key, try the current Argos recovery path first. If Argos is not suitable, use the legacy sidecar route in the full field guide. Sprout must land in Sapling first, then move onward to Ironwood. This route is time-sensitive because of NU7. |
+| **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` or a standalone Sprout spending key, try the current Argos recovery path first. If Argos is not suitable, use the legacy sidecar route in the full field guide. Sprout must land in Sapling first, then move onward to Ironwood. Since NU7 activated (block 3,543,405), Sprout funds cannot be moved on Mainnet; see the note above. |
 | **Sapling** | **Sapling → Ironwood** | No Sprout recovery environment is needed. Use a current wallet that can both recover or spend your specific Sapling account and construct Ironwood transactions. Ironwood support alone does not prove legacy-Sapling recovery support. |
 | **Orchard** | **Orchard → Ironwood** | Orchard is exit-only. Use a current compatible wallet's built-in Orchard-to-Ironwood migration flow. See [Recovered funds and the Ironwood pool](#recovered-funds-and-the-ironwood-pool). |
 

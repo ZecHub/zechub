@@ -41,7 +41,7 @@ For the most privacy and control, use **BTCPay Server**, a self-hosted **CipherP
 
 For taking payments in a shop rather than online, use **Flexa**.
 
-For a hosted gateway where transparent payments are acceptable, use **NOWPayments** or **Plisio**.
+For a hosted gateway where transparent payments are acceptable, use **NOWPayments**. **Plisio** has suspended payments (see the dated notice in its entry below), so don't pick it for now.
 
 One caveat worth repeating: a transparent-only processor publishes every payment amount and address on the blockchain. And with any hosted non-custodial processor you hand over your viewing key, so the company can see your payments even though it cannot spend them. Self-hosting is the only way to avoid that.
 
