@@ -8,7 +8,7 @@ Most wallet exports are thin. ZODL's tax export, for example, gives you dates, a
 
 You don't need your seed phrase to get the full picture. A unified full viewing key (UFVK, starting `uview1`) can see every incoming and outgoing transaction in an account, and two tools can turn that into a file you keep: the Zkool GraphQL server and zingo-cli. This guide collects the approaches from [this forum thread](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) and updates them for current releases.
 
-Tested in September 2026 with Zkool 6.30.0 and zingo-cli from zingolib 6.0.0. zingolib 6.0.0 predates NU7, so in November 2026 the zingo-cli steps were moved to zingolib 8.0.0, the release that adds NU7 Mainnet support.
+Tested in September 2026 with Zkool 6.30.0 and zingo-cli from zingolib 6.0.0. Both predate NU7, so in November 2026 the steps were moved to Zkool 6.37.0 and zingolib 8.0.0. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) is the first Zkool release built with the NU7 Mainnet activation height, and zingolib 8.0.0 is the release that adds NU7 Mainnet support.
 
 ## Before you start
 
@@ -24,9 +24,9 @@ A viewing key can't spend, but it shows your whole history to whoever holds it.
 - Don't paste it into a website or block explorer. Import it into software you run yourself.
 - The server you sync from sees your IP address and which transactions you download in full. Both tools below fetch each of your transactions by ID to read memos and fees, and [ZIP 307](https://zips.z.cash/zip-0307) notes that this tells the server which transactions are yours. Syncing from your own Zebra node with Zaino or lightwalletd avoids that. The [Zingolib and Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) walks through a setup.
 - zingo-cli sends payments over the Nym mixnet, but its sync still connects to the server directly, so the point above applies to it too.
-- Give these tools a viewing key, never a seed. The Zkool GraphQL server has no login by default, and its API will hand back the seed of any account created from one, and can send funds.
-- Keep the server on your own machine. The Docker command below only listens on `127.0.0.1`.
-- Both tools store the key and your history unencrypted. Delete the working data when you're done and keep the export somewhere encrypted.
+- Give these tools a viewing key, never a seed. The Docker command below starts the Zkool GraphQL server with `--allow-unauthenticated`, so it has no login, and its API will hand back the seed of any account created from one, and can send funds.
+- Keep the server on your own machine. The Docker command below only listens on `127.0.0.1` of your computer. Inside the container the server has to listen on all interfaces (`--bind-address 0.0.0.0`), otherwise Docker can't reach it; the `-p 127.0.0.1:8000:8000` mapping is what keeps it local.
+- Both tools store the key and your history unencrypted. Zkool can encrypt its database (`--db-password-file`), but the command below keeps it simple with `--allow-unencrypted-database`. Delete the working data when you're done and keep the export somewhere encrypted.
 
 ## Option 1: Zkool GraphQL
 
@@ -38,11 +38,16 @@ A viewing key can't spend, but it shows your whole history to whoever holds it.
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-It syncs from `https://zec.rocks` unless you add `--lwd-url` with your own server. On first start it downloads the Sapling parameters (about 50 MB). If that fails, `docker start zkool-export` tries again.
+Since 6.32.0 the server won't start until you make two choices explicit: how clients log in (a JWT key, or `--allow-unauthenticated`) and whether the database is encrypted (a password, or `--allow-unencrypted-database`). It also listens only on `127.0.0.1` by default now, which inside a container means nothing outside can reach it, hence `--bind-address 0.0.0.0`. If the container stops right away, `docker logs zkool-export` shows which option is missing.
+
+It syncs from `https://zec.rocks` unless you add `--lwd-url` with your own server. The image has the Sapling parameters built in, so there's nothing else to download.
 
 Open `http://127.0.0.1:8000/graphiql` in a browser. You can paste each of the next steps there and run it.
 
