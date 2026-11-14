@@ -119,3 +119,11 @@ ___
 - Website: https://zcashto.cash/
 - Description: Non-custodial ZEC-to-fiat cash out via Peer. Send shielded ZEC and receive payouts in everyday payment apps such as Venmo, Cash App, Revolut, Zelle, Chime, and Monzo across 100+ geographies. No CEX account required; escrow completes after proof of fiat payment.
 
+___
+
+### Shieldz Swap
+
+<img src="https://swap.shieldz.cash/icon-512.png" alt="Shieldz Swap" width="200" height="100"/>
+
+- Website: https://swap.shieldz.cash/swap/btc-to-zec
+- Description: Non-custodial cross-chain swaps into and out of ZEC. Each quote races NEAR Intents and Maya Protocol and shows every route before you send. No account; 0.15% fee shown on the quote. ZEC is delivered to a transparent (t1, t3 or tex1) address, so shield it in your own wallet afterwards.
