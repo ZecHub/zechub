@@ -7,7 +7,7 @@
 ## TL;DR
 
 - **Zimppy** is a privacy-first payment infrastructure for AI agents using Zcash's Machine Payment Protocol (MPP)
-- **Deposit once** on-chain (~75 seconds), then make **unlimited instant requests** with no per-request blockchain interaction
+- **Deposit once** on-chain (~25 seconds per block since NU7), then make **unlimited instant requests** with no per-request blockchain interaction
 - Supports **fully shielded Zcash (Orchard)** payments — sender, receiver, amount, and memo are all encrypted
 - Works with **TypeScript and Rust SDKs** for easy integration into AI pipelines and API servers
 - Perfect for **LLM APIs, data marketplaces, MCP tool servers**, and any M2M payment use case
@@ -52,7 +52,7 @@ Unlike traditional blockchain payment systems, where every transaction is public
 
 ### Core Properties
 
-- **Deposit once** on-chain (~75 seconds for Zcash confirmation)
+- **Deposit once** on-chain (~25 seconds for a Zcash block since NU7; 75 seconds before)
 - **Unlimited instant requests** after session opening, zero per-request chain interaction
 - **Shielded payments** encrypt sender, receiver, amount, and memo using Zcash's Orchard protocol
 - **Transparent payments** use per-challenge T-addresses for replay prevention without full privacy
@@ -77,12 +77,12 @@ For AI agents handling sensitive workflows, legal research, medical queries, fin
 
 ### The Latency Problem, Solved by Sessions
 
-> *"But Zcash has 75-second block times."*
+> *"But Zcash blocks still take 25 seconds (75 seconds before NU7)."*
 
 **Sessions solve this.** The on-chain wait happens exactly **once** at deposit. Every subsequent request is instant.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ Shielded payments use Zcash's **Orchard protocol**, the shielded pool introduced
 
 ### Sessions , Zero Per-Request Latency
 
-The session architecture decouples the on-chain confirmation wait from per-request latency. After a single deposit (~75 seconds), all subsequent bearer-token requests are served instantly with no blockchain interaction until session close.
+The session architecture decouples the on-chain confirmation wait from per-request latency. After a single deposit (~25 seconds since NU7), all subsequent bearer-token requests are served instantly with no blockchain interaction until session close.
 
 ### Streaming , Pay-Per-Token
 
