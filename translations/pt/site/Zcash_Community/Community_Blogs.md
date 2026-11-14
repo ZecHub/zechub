@@ -1,28 +1,28 @@
-[![Editar página](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
 
 # Blogs da comunidade
 
-Membros da comunidade mantêm muitos blogs excelentes que cobrem Zcash, privacidade, criptomoedas e tópicos relacionados.
+Membros da comunidade mantêm muitos blogs excelentes sobre Zcash, privacidade, criptomoedas e temas relacionados.
 
-Aqui estão alguns dos que estão ativos:
+Aqui estão alguns dos blogs ativos:
 
 | Blog / Autor               | Descrição                                                | Link |
 |----------------------------|----------------------------------------------------------|------|
-| How Zcash works            | Construa um modelo funcional do Zcash                    | [Visite ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
-| Max Desalle                | Dominando o Zcash                                        | [Visite ->](https://maxdesalle.com/mastering-zcash/) |
-| Mike Rosulek               | A alegria da criptografia                                | [Visite ->](https://joyofcryptography.com/) |
-| James Katz                 | Escritos e reflexões pessoais sobre Zcash e privacidade  | [Visite ->](https://free2z.cash/James_Katz/) |
-| Thumbs' Update             | Atualizações regulares do ecossistema e análises         | [Visite ->](https://thumbsup.substack.com) |
-| roomatemusing              | Reflexões e conteúdo da comunidade                       | [Visite ->](https://free2z.cash/roommatemusing) |
-| NerdBank Blog              | Blog técnico focado no desenvolvimento do Zcash e em ferramentas | [Visite ->](https://blog.nerdbank.net/) |
-| ZecMec                     | Artigos sobre Zcash no Medium                            | [Visite ->](https://zecmec21.medium.com/) |
-| Naomi Brockwell (NBTV)     | Entrevistas de destaque e conteúdo sobre privacidade     | [Visite ->](https://naomibrockwell.com/highprofileinterviews) |
-| Sqribbles                  | Conteúdo criativo sobre Zcash voltado para a comunidade | [Visite ->](https://free2z.cash/sqribbles) |
-| Str4d                      | Textos técnicos de um desenvolvedor do núcleo do Zcash   | [Visite ->](https://words.str4d.xyz/) |
-| CipherScan Weekly          | Publicações semanais cobrindo análises da blockchain do Zcash | [Visite ->](https://zecblock.com/) |
-| Zcash Shielded News        | Resumo semanal de notícias sobre privacidade e o ecossistema | [Visite ->](https://zechub.substack.com/) |
-| ZecHub DAO Blog            | Artigos e conteúdo educacional da comunidade ZecHub DAO  | [Visite ->](https://zechub.wiki) |
+| Como o Zcash funciona       | Construa um modelo funcional do Zcash                     | [Visitar ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| Max Desalle                | Dominando o Zcash                                         | [Visitar ->](https://maxdesalle.com/mastering-zcash/) |
+| Mike Rosulek               | The Joy of Cryptography                                  | [Visitar ->](https://joyofcryptography.com/) |
+| James Katz                 | Textos pessoais e reflexões sobre o Zcash e privacidade  | [Visitar ->](https://free2z.cash/James_Katz/) |
+| Thumbs' Update             | Atualizações e análises regulares do ecossistema         | [Visitar ->](https://thumbsup.substack.com) |
+| roomatemusing              | Reflexões e conteúdo da comunidade                       | [Visitar ->](https://free2z.cash/roommatemusing) |
+| NerdBank Blog              | Blog técnico focado em desenvolvimento e ferramentas do Zcash | [Visitar ->](https://blog.nerdbank.net/) |
+| ZecMec                     | Artigos focados em Zcash sobre o Medium                   | [Visitar ->](https://zecmec21.medium.com/) |
+| Naomi Brockwell (NBTV)     | Entrevistas de destaque e conteúdo sobre privacidade     | [Visitar ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles                  | Conteúdo criativo e feito pela comunidade sobre o Zcash  | [Visitar ->](https://free2z.cash/sqribbles) |
+| Str4d                      | Textos técnicos de um desenvolvedor principal do Zcash   | [Visitar ->](https://words.str4d.xyz/) |
+| CipherScan Weekly               | Posts semanais sobre análise da blockchain do Zcash      | [Visitar ->](https://zecblock.com/) |
+| Zcash Shielded News        | Resumo semanal de notícias sobre privacidade e o ecossistema | [Visitar ->](https://zechub.substack.com/) |
+| ZecHub DAO Blog             | Artigos e conteúdo educacional da comunidade da DAO do ZecHub | [Visitar ->](https://zechub.wiki) |
 
 ---
 
-Aqui estão alguns blogs enviados pela comunidade. Se você quiser que a ZecHub destaque uma de suas publicações de blog ou adicione seu próprio blog aqui, por favor crie um Pull Request com os detalhes!
+Estes são alguns blogs enviados pela comunidade. Se você quiser que o ZecHub destaque um dos seus posts ou adicionar o seu próprio blog aqui, crie um Pull Request com os detalhes!

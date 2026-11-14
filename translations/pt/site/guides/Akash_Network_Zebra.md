@@ -1,95 +1,133 @@
-# Como executar o Zebra na Akash Network
+# Como rodar Zebra na Akash Network
 
-Guia passo a passo para implantar um nó integral Zebra do Zcash usando o [Akash Console](https://console.akash.network).
+Guia passo a passo para implantar um nó integral Zebra Zcash na Akash.
 
-### O que você vai implantar
+### O que você está implantando
 
-Um nó integral Zebra que irá:
+Um nó integral Zebra que vai:
 
--> Sincronizar toda a blockchain do Zcash (100GB+ para mainnet, ~40GB para testnet)
+-> Sincronizar toda a blockchain do Zcash (mais de 100GB para a mainnet, ~40GB para a testnet)
 
--> Custar aproximadamente $15/mês, dependendo dos preços do token AKT
+-> Custar aproximadamente US$ 15/mês, dependendo dos preços do token AKT
 
 -> Levar de várias horas a dias para sincronizar completamente
 
--> Usar 4 vCPUs, 16GB de RAM, 350GB de armazenamento (mainnet) ou 2 vCPUs, 8GB de RAM, 50GB (testnet)
+-> Usar 4 vCPUs, 16GB de RAM e 350GB de armazenamento (mainnet) ou 2 vCPUs, 8GB de RAM e 50GB (testnet)
+
+O template awesome-akash agora fixa a versão **Zebra 7.0.0** (nunca `:latest`). Ele habilita internamente o Prometheus (`9999`) e o health (`8080`), o JSON-RPC internamente para um **lightwalletd** colocalizado no gRPC **9067**, e as feature flags `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`.
+
+Para um nó Mainnet podado e mais rápido, veja [Como rodar Zakura na Akash](/guides/akash-network-zakura). Para um painel Regtest descartável, veja [Assim falou Zakura na Akash](/guides/thus-spoke-zakura-akash).
 
 
-### Importante: mapeamento de portas na Akash
+### Como a Akash publica as portas
 
-Quando você expõe uma porta na Akash (por exemplo, a porta 8233 para o P2P do Zebra), ela **NÃO é vinculada a essa porta exata** no IP público do provedor. Em vez disso, o provedor atribui uma porta alta aleatória (como 31234 ou 42567) e faz um proxy reverso para a porta 8233 do seu contêiner.
+Os números no SDL (`port` / `as`) são **portas do contêiner**. O Zebra continua escutando na **8233**, o lightwalletd na **9067** e o health na **8080**. Esses números servem para o processo e para outros serviços na mesma implantação (`zebra:8232`).
 
-Isso é intencional — os provedores executam várias implantações, e haveria conflitos se todos tentassem usar a porta 8233 diretamente.
+Eles **não** são as portas no IP público do provedor.
 
-**O que isso significa para você:**
+**Padrão (este template):** sem IP dedicado. Para cada expose TCP `global: true`, o provedor mapeia uma **porta alta aleatória** em um host compartilhado para a porta do seu contêiner. Depois que o lease estiver ativo, o Console/Air em **Leases → URIs** lista os endpoints reais, por exemplo:
 
--> Você configura a porta 8233 no SDL (porta P2P padrão do Zebra)
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
--> A Akash fornece uma URI como *provider.com:31234*
+Os peers e as carteiras usam **esses** valores host:porta. Copie a URI do expose que interessa a você (P2P ou lightwalletd). Se você definir `ZEBRA_NETWORK__EXTERNAL_ADDR`, defina-o com a URI P2P mapeada (`provider.example:31482`), não com `…:8233`.
 
--> Outros nós do Zcash se conectam a você em *provider.com:31234*
+**HTTP** (`as: 80` com `http_options`, usado no painel Thus Spoke): muitos provedores publicam um **hostname de ingress** (geralmente na 80/443) em vez de uma porta TCP aleatória. Abra a URI desse serviço em um navegador.
 
--> Dentro do seu contêiner, o Zebra continua escutando na 8233
+**Interno** (`global: false` ou `to: service: lightwalletd`): apenas DNS do cluster (`zebra:8232`). Sem URI pública.
 
+**IPs dedicados** (`endpoints` / `kind: ip` no SDL) são um **extra premium**. Eles podem fixar um IP público e, às vezes, a porta `as` nesse IP. Estes templates **não** solicitam um. Adicione isso você mesmo depois, se quiser um `host:8233` estável; espere um custo extra e menos provedores dando lances.
 
-Isso é tratado automaticamente. Basta usar a URI que a Akash fornecer.
+### Qual site usar (pagamentos)
+
+O SDL é o mesmo. As duas interfaces web da Akash diferem em **como você paga**.
+
+| Site | Pagamentos | Carteira |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Checkout web tradicional (cartão / meios fiat que o Console oferece) | Conta do Console |
+| [air.akash.network](https://air.akash.network) | Pagamentos nativos na chain da Akash (AKT / ACT) | **Keplr** |
+
+Use o **Air** quando quiser pagar on-chain com a Keplr. Use o **Console** quando quiser um fluxo de pagamento web convencional. Não espere liquidação nativa via Keplr no Console.
 
 ### Pré-requisitos
 
-1. Extensão de navegador **Keplr Wallet** instalada (Chrome/Brave/Firefox)
-2. Tokens **AKT** — obtenha 50-100 AKT em uma corretora (Coinbase, Kraken, Osmosis)
-3. **5 minutos** para clicar pela interface do Console
+**Se você pagar no Console (checkout web)**
 
-#### Etapa 1: conecte sua carteira
+1. Uma conta do Console em [console.akash.network](https://console.akash.network)
+2. Um método de pagamento aceito pela interface do Console
+3. Alguns minutos na interface
 
--> Vá para [https://console.akash.network](https://console.akash.network)
+**Se você pagar no Air (Akash nativo / Keplr)**
 
--> Clique em **"Connect Wallet"** no canto superior direito
+1. Extensão de navegador **Keplr** (Chrome/Brave/Firefox)
+2. **AKT / ACT** na Keplr para o depósito e o lease (de uma corretora ou via IBC)
+3. Abra [air.akash.network](https://air.akash.network)
 
--> Escolha **Keplr** (ou sua carteira Cosmos preferida)
+#### Passo 1: Conectar
 
--> Aprove a conexão quando o Keplr abrir
+**Console (pagamentos web)**
+
+-> Acesse [https://console.akash.network](https://console.akash.network)
+
+-> Faça login / conclua o fluxo de conta do Console
+
+-> Use o checkout que a interface apresentar (não a Keplr on-chain)
+
+**Air (pagamentos nativos da Akash)**
+
+-> Acesse [https://air.akash.network](https://air.akash.network)
+
+-> Clique em **"Conectar carteira"**
+
+-> Escolha **Keplr** e aprove a conexão
+
+-> Confirme que seu saldo de AKT/ACT é suficiente para o depósito mais o lease
+
+#### Passo 2: Criar a implantação
+
+-> Clique em **"Deploy"**
+
+-> Escolha **"Build your template"** (ou pule direto para o upload do SDL)
 
 
-Seu saldo de AKT deve aparecer no canto superior direito. Se estiver zerado, primeiro deposite fundos na sua carteira.
+##### Opção A: Fazer upload do arquivo SDL (recomendado)
 
-#### Etapa 2: criar implantação
+**Pagamentos web (Console)**
 
--> Clique no botão **"Deploy"** (grande botão azul, no centro da página)
+[![Implantar no Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
--> Escolha **"Build your template"** (ou pule diretamente para o upload do SDL)
+**Pagamentos nativos da Akash com Keplr (Air)**
 
+[Abra este template no Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-##### Opção A: fazer upload do arquivo SDL (recomendado)
-
-[![Implantar na Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
-
-##### Opção B: usar o editor SDL
+##### Opção B: Usar o editor de SDL
 
 Se você quiser colar manualmente [o SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml):
 
 -> Copie o conteúdo de *zebra-akash.yml*
 
--> Cole no editor SDL
+-> Cole no editor de SDL
 
 -> Modifique conforme necessário (veja a seção de configuração abaixo)
 
 -> Clique em **"Create Deployment"**
 
 
-#### Etapa 3: revisar e aprovar o depósito
+#### Passo 3: Revisar e aprovar o depósito
 
-O Console mostrará para você:
+A interface vai mostrar:
 
--> **Depósito da implantação**: ~5 AKT (você recebe isso de volta ao encerrar a implantação)
+-> **Depósito da implantação**: ~5 AKT (você recebe de volta quando fechar a implantação)
 
--> **Custo estimado**: com base no preço definido no seu SDL
+-> **Custo estimado**: com base nos preços do seu SDL
 
-Clique em **"Approve"** e assine a transação no Keplr.
+No **Air**, clique em **"Approve"** e assine na **Keplr**. No **Console**, conclua o checkout web que a interface apresentar.
 
-#### Etapa 4: escolher um provedor
+#### Passo 4: Escolher um provedor
 
-Após ~ 30 segundos, você verá lances dos provedores. Cada lance mostra:
+Depois de ~30 segundos, você verá lances dos provedores. Cada lance mostra:
 
 -> **Preço por bloco** (em AKT ou USDC)
 
@@ -98,30 +136,30 @@ Após ~ 30 segundos, você verá lances dos provedores. Cada lance mostra:
 -> **Detalhes do provedor** (uptime, região etc.)
 
 
-**Não escolha apenas o mais barato.** Verifique:
+**Não escolha simplesmente o mais barato.** Verifique:
 
--> % de uptime (mire em > 95%)
+-> Uptime % (busque > 95%)
 
 -> Região (mais perto de você = melhor latência, mas isso não importa muito para nós de blockchain)
 
--> Status auditado (marca de verificação verde = mais confiável)
+-> Status de auditado (marca de verificação verde = mais confiável)
 
 
-Clique em **"Accept Bid"** no provedor escolhido e assine no Keplr.
+Clique em **"Accept Bid"** no provedor escolhido. No Air, assine na Keplr. No Console, confirme pelo fluxo de pagamento web.
 
-#### Etapa 5: aguardar a implantação
+#### Passo 5: Aguardar a implantação
 
-O Console irá:
+O Console vai:
 
 -> Criar o lease com o provedor escolhido
 
--> Enviar o manifesto (diz ao provedor o que executar)
+-> Enviar o manifesto (que diz ao provedor o que executar)
 
 -> Iniciar seu contêiner
 
 Isso leva de 1 a 2 minutos. Você verá atualizações de status na interface.
 
-#### Etapa 6: verificar se está em execução
+#### Passo 6: Verificar se está rodando
 
 Depois de implantado, você verá:
 
@@ -132,7 +170,7 @@ Depois de implantado, você verá:
 -> Aba **Leases**: detalhes sobre sua implantação (DSEQ, provedor, custo)
 
 
-##### Verifique os logs
+##### Verificar os logs
 
 Clique em **Logs** e você deverá ver o Zebra iniciando:
 
@@ -143,45 +181,44 @@ Listening for peer connections on [::]:8233
 Starting initial sync...
 ```
 
-A sincronização levará **de horas a dias**, dependendo da rede. Observe:
+A sincronização vai levar **de horas a dias**, dependendo da rede. Fique de olho em:
 
 -> Alturas de bloco aumentando
 
--> Conexões de peers (devem ser 10-30 peers)
+-> Conexões com peers (devem ser de 10 a 30 peers)
 
--> Nenhum erro repetido
+-> Ausência de erros repetidos
 
 
-#### Etapa 7: obtenha o endereço do seu nó
+#### Passo 7: Obter o endereço do seu nó
 
 Clique na aba **Leases** e depois em **URIs**.
 
 Você verá algo como:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-Esse é o **endpoint P2P público** do seu nó. Outros nós do Zcash se conectarão a você nesse endereço.
+Cada linha é um expose `global: true`. O nome inclui a porta `as` do SDL (8233, 9067). O número depois do hostname é a **porta mapeada pelo provedor**, atribuída no momento do lease. Outros nós Zcash se conectam a `provider-hostname.com:31482`. As carteiras compactas usam a URI lightwalletd (TLS desativado, a menos que você mesmo faça a terminação TLS).
 
-**Observe o mapeamento de portas:** você configurou a porta 8233 no SDL, mas a Akash a atribuiu a uma porta pública diferente (31234 neste exemplo). Isso é normal — veja a seção "Mapeamento de portas na Akash" no topo se isso causar confusão. Seu nó fica acessível na porta que a Akash mostrar aqui, não necessariamente na 8233.
-
-Se você habilitou RPC (comentado por padrão no SDL), também verá aqui o endpoint RPC com sua própria porta mapeada.
+O contêiner continua escutando nas portas 8233 / 9067. O endereço público é sempre a URI, a menos que você adicione depois um IP dedicado (não incluído neste template).
 
 ### Opções de configuração
 
-#### Mudando para testnet
+#### Mudar para a Testnet
 
-O SDL usa mainnet por padrão. Para usar testnet:
+O SDL usa a Mainnet por padrão. Para usar a Testnet:
 
--> **Comente a configuração de mainnet** na seção *env*:
+-> **Comente a configuração da Mainnet** na seção *env*:
 
    ```yaml
    # - "ZEBRA_NETWORK__NETWORK=Mainnet"
    # - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:8233"
    ```
 
--> **Descomente a configuração de testnet**:
+-> **Descomente a configuração da Testnet**:
 
    ```yaml
    - "ZEBRA_NETWORK__NETWORK=Testnet"
@@ -206,7 +243,7 @@ O SDL usa mainnet por padrão. Para usar testnet:
      proto: tcp
    ```
 
--> **Opcional: reduza os recursos** para testnet em *profiles.compute.zebra.resources*:
+-> **Opcional: reduza os recursos** para a Testnet em *profiles.compute.zebra.resources*:
 
    ```yaml
    cpu:
@@ -223,11 +260,11 @@ O SDL usa mainnet por padrão. Para usar testnet:
    amount: 5000  # Down from 10000
    ```
 
-#### Habilitar acesso RPC
+#### Habilitar o acesso RPC
 
-O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
+O RPC vem desabilitado por padrão, por segurança. Para habilitá-lo:
 
-**Para mainnet:**
+**Para a Mainnet:**
 
 -> Descomente na seção *env*:
 
@@ -236,7 +273,7 @@ O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> Descomente a porta RPC de mainnet em *expose*:
+-> Descomente a porta RPC da Mainnet em *expose*:
 
    ```yaml
    - port: 8232
@@ -246,7 +283,7 @@ O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
      proto: tcp
    ```
 
-**Para testnet:**
+**Para a Testnet:**
 
 -> Descomente na seção *env*:
 
@@ -265,9 +302,9 @@ O RPC vem desabilitado por padrão por segurança. Para habilitá-lo:
      proto: tcp
    ```
 
-**Aviso**: se você definir *global: true* para RPC, estará expondo-o à internet. O Zebra usa autenticação por cookie por padrão, mas mesmo assim — não faça isso a menos que saiba o que está fazendo.
+**Aviso**: se você definir *global: true* para o RPC, estará expondo-o à internet. O Zebra usa autenticação por cookie por padrão, mas mesmo assim, não faça isso a menos que saiba o que está fazendo.
 
-**Lembrete sobre mapeamento de portas**: mesmo que você exponha o RPC globalmente, a Akash o mapeará para uma porta alta aleatória (não 8232/18232). Verifique as URIs da sua implantação para ver o endpoint público real. Para *global: false* (recomendado), o endpoint RPC só é acessível dentro da rede de implantação da Akash, não pela internet pública.
+Se você expuser o RPC com `global: true`, o endereço público continua sendo uma **URI do lease** (`host:&lt;random-high-port&gt;`), não `host:8232`. Com `global: false` (este template), o RPC fica na rede da implantação (`zebra:8232` para lightwalletd). Leases com IP dedicado são uma opção paga à parte e não estão no SDL.
 
 #### Habilitar métricas (Prometheus)
 
@@ -289,9 +326,9 @@ Para coletar métricas para monitoramento:
      proto: tcp
    ```
 
-#### Ajustar recursos/preço
+#### Ajustar recursos/preços
 
-Se você não estiver recebendo lances ou quiser otimizar o custo:
+Se você não está recebendo lances ou quer otimizar o custo:
 
 **Para provedores com especificações menores**, reduza na seção *profiles.compute.zebra.resources*:
 
@@ -307,66 +344,66 @@ Se você não estiver recebendo lances ou quiser otimizar o custo:
 
 -> Testnet: experimente *amount: 1000000* uakt/bloco
 
-### Atualizando sua implantação
+### Atualizar sua implantação
 
-Precisa alterar a configuração após implantar?
+Precisa mudar a configuração depois de implantar?
 
 -> Vá para **My Deployments** no Console
 
--> Encontre sua implantação do Zebra
+-> Encontre sua implantação Zebra
 
 -> Clique em **"Update Deployment"**
 
 -> Edite o SDL
 
--> Clique em **"Update"** e aprove no Keplr
+-> Clique em **"Update"** (Air: assine na Keplr; Console: confirme o fluxo de pagamento web)
 
-**Nota**: atualizar reiniciará seu contêiner. O nó retomará do estado salvo (armazenamento persistente), mas espere de 1 a 2 minutos de indisponibilidade.
+**Observação**: a atualização vai reiniciar seu contêiner. O nó vai retomar a partir do estado salvo (armazenamento persistente), mas espere de 1 a 2 minutos de indisponibilidade.
 
 ### Monitoramento
 
-#### Via console
+#### Pelo Console
 
--> Aba **Logs**: logs do contêiner em tempo real
+-> **Aba Logs**: logs do contêiner em tempo real
 
--> Aba **Shell**: obtenha um shell dentro do contêiner (útil para depuração)
+-> **Aba Shell**: abra um shell dentro do contêiner (útil para depuração)
 
--> Aba **Events**: eventos do Kubernetes (quase inútil, a menos que algo esteja quebrado)
+-> **Aba Events**: eventos do Kubernetes (geralmente inúteis, a menos que algo esteja quebrado)
 
 
-#### Via RPC (se habilitado)
+#### Pelo RPC (se habilitado)
 
-Se você habilitou RPC, pode consultar seu nó como um nó integral zebrad normal (porque ele é!)
+Se você habilitou o RPC, pode consultar seu nó como um nó integral zebrad normal (porque ele é um!)
 
-### Encerrando sua implantação
+### Fechar sua implantação
 
 Quando terminar ou quiser parar de pagar:
 
 -> Vá para **My Deployments**
 
--> Encontre sua implantação do Zebra
+-> Encontre sua implantação Zebra
 
 -> Clique em **"Close Deployment"**
 
--> Confirme e assine no Keplr
+-> Confirme (Air: assine na Keplr; Console: confirme na interface do Console)
 
-Seu depósito de 5 AKT será reembolsado. O **armazenamento persistente** deve ser preservado pelo provedor, mas não conte com isso — trate como qualquer outro provedor de nuvem.
+Seu depósito de 5 AKT será reembolsado. O **armazenamento persistente** deve ser preservado pelo provedor, mas não conte com isso: trate-o como qualquer outro provedor de nuvem.
 
 ### Solução de problemas
 
 #### Erro "Insufficient funds"
 
-Você precisa de mais AKT. Coloque fundos na sua carteira Keplr.
+No Air, adicione AKT/ACT à Keplr. No Console, faça uma recarga no método de pagamento do Console.
 
-#### Nenhum lance aparecendo
+#### Nenhum lance aparece
 
 Ou:
 
--> Seu preço está muito baixo (aumente *amount* no SDL)
+-> Seu preço está baixo demais (aumente *amount* no SDL)
 
--> Seus requisitos de recursos estão muito altos para os provedores disponíveis (reduza CPU/memória/armazenamento)
+-> Seus requisitos de recursos estão altos demais para os provedores disponíveis (reduza CPU/memória/armazenamento)
 
--> Espere mais (às vezes leva de 60 a 90 segundos para os lances aparecerem)
+-> Espere mais um pouco (às vezes leva de 60 a 90 segundos para os lances aparecerem)
 
 
 #### Implantação travada em "pending"
@@ -375,15 +412,15 @@ O provedor pode estar com problemas. Feche a implantação e tente outro provedo
 
 #### Os logs do Zebra mostram "No peers connected"
 
-Isso é normal nos primeiros minutos. O Zebra descobrirá peers automaticamente. Se isso continuar por mais de 10 minutos, você pode ter um problema de rede (improvável na Akash).
+Isso é normal nos primeiros minutos. O Zebra vai descobrir peers automaticamente. Se persistir por mais de 10 minutos, você pode ter um problema de rede (improvável na Akash).
 
-#### Erros de "Out of memory" nos logs
+#### Erros "Out of memory" nos logs
 
-Você economizou demais na RAM. Feche a implantação e implante novamente com pelo menos 12Gi de memória (16Gi recomendado).
+Você economizou demais na RAM. Feche a implantação e implante novamente com pelo menos 12Gi de memória (16Gi recomendados).
 
 #### A sincronização está demorando uma eternidade
 
-Defina "uma eternidade":
+Defina "eternidade":
 
 -> **Horas**: normal
 
@@ -394,25 +431,25 @@ Defina "uma eternidade":
 
 ### Gestão de custos
 
-Monitore seus gastos no Console:
+Monitore seus gastos no Console ou no Air:
 
--> **My Deployments** -> Sua implantação -> mostra a estimativa de "Cost per month"
+-> **My Deployments** -> Sua implantação -> Mostra a estimativa "Cost per month"
 
--> O saldo da sua carteira Keplr diminuirá com o tempo
+-> Air: seu saldo de AKT/ACT na Keplr diminui com o tempo. Console: seu saldo de pagamento no Console diminui.
 
 
-Quando seu saldo ficar baixo, a Akash encerrará automaticamente sua implantação. **Recarregue sua carteira periodicamente** ou configure alertas.
+Quando seu saldo ficar baixo, a Akash vai fechar sua implantação automaticamente. **Faça recargas na sua carteira periodicamente** ou configure alertas.
 
-#### Reduzindo custos
+#### Reduzir custos
 
--> **Use Testnet** para testes não produtivos (50% mais barato)
+-> **Use a Testnet** para testes fora de produção (50% mais barato)
 
 -> **Reduza CPU/memória** se você não precisa de sincronização rápida
 
--> **Escolha provedores mais baratos** (nem sempre é sábio — uptime importa)
+-> **Escolha provedores mais baratos** (nem sempre é sensato: o uptime importa)
 
 
-### Mainnet vs Testnet
+### Mainnet vs. Testnet
 
 ```markdown
 ----------------------------------------------------------------------------------
@@ -429,16 +466,18 @@ Quando seu saldo ficar baixo, a Akash encerrará automaticamente sua implantaç�
 ----------------------------------------------------------------------------------
 ```
 
-Comece com Testnet se você estiver apenas testando o processo de implantação. Veja a seção "Mudando para Testnet" acima para a configuração.
+Comece pela Testnet se você está apenas testando o processo de implantação. Veja a seção "Mudar para a Testnet" acima para a configuração.
 
 ### Recursos adicionais
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Console** (pagamentos web): [https://console.akash.network](https://console.akash.network)
+
+**Akash Air** (AKT/ACT nativo + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Documentação da Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 
 **Documentação do Zebra**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Exploradores de Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Exploradores do Zcash**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Discord da Akash**: [https://discord.akash.network](https://discord.akash.network) (para problemas com provedores)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (para problemas com provedores)

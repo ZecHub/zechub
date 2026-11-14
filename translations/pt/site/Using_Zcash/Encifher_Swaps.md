@@ -2,46 +2,48 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Conversão de SOL/USDC para ZEC usando encrypt.trade
+# Conversão de SOL/USDC para ZEC usando o encrypt.trade
 
-> Converta SOL ou USDC na Solana em ZEC, com a etapa cross-chain roteada por NEAR Intents.
+> Converta SOL ou USDC na Solana em ZEC, com a etapa cross-chain roteada pelo NEAR Intents.
+
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
+
 
 
 ---
 
 ## Resumo
 
-* [encrypt.trade](https://encrypt.trade/zec) encapsula SOL ou USDC em tokens criptografados (eSOL/eUSDC) e então os converte em ZEC por meio de NEAR Intents.
-* Os valores ficam ocultos em Solana, mas o endereço da sua carteira e seu uso do app são públicos.
-* ZEC é entregue somente a um endereço transparente (t1/t3), portanto fica visível na chain Zcash até que você o blinde.
+* O [encrypt.trade](https://encrypt.trade/zec) encapsula SOL ou USDC em tokens criptografados (eSOL/eUSDC) e depois os converte em ZEC por meio do NEAR Intents.
+* Os valores ficam ocultos na Solana, mas o endereço da sua carteira e o uso que ela faz do app são públicos.
+* O ZEC é entregue apenas em um endereço transparente (t1/t3), então fica visível na chain do Zcash até você blindá-lo.
 * Blinde o ZEC na sua carteira assim que ele chegar.
-* O app e NEAR Intents verificam carteiras para fins de conformidade.
+* Tanto o app quanto o NEAR Intents verificam as carteiras por motivos de conformidade.
 
 ---
 
-## Explicação central
-[**encrypt.trade**](https://encrypt.trade/zec) é um app Solana operado pela JMD Labs Inc. Ele permite converter **SOL ou USDC** em Solana para **Zcash (ZEC)**. Seus tokens são primeiro encapsulados em versões criptografadas para que os valores fiquem ocultos em Solana e, depois, convertidos para ZEC por meio de NEAR Intents.
+## Explicação principal
+O [**encrypt.trade**](https://encrypt.trade/zec) é um app da Solana administrado pela JMD Labs Inc. Ele permite converter **SOL ou USDC** na Solana em **Zcash (ZEC)**. Primeiro, seus tokens são encapsulados em versões criptografadas, para que os valores fiquem ocultos na Solana, e depois são convertidos em ZEC por meio do NEAR Intents.
 
-A conversão é privada em alguns aspectos, mas não em todos. A própria [documentação](https://docs.encifher.io/docs) do app diz que sua interação com a chain não é anônima: as pessoas podem ver que sua carteira usou o app, mas não quanto você movimentou. O ZEC também chega a um endereço transparente, portanto permanece visível na chain do Zcash até você blindá-lo.
+A conversão é privada em alguns aspectos, mas não em todos. A própria [documentação](https://docs.encifher.io/docs) do app diz que sua interação com a chain não é anônima: as pessoas podem ver que sua carteira usou o app, mas não quanto você movimentou. O ZEC também chega a um endereço transparente, então continua visível na chain do Zcash até você blindá-lo.
 
 
 ![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
-###  O que saber antes de converter  
-- **Lado da Solana.** O encapsulamento oculta valores, mas o endereço da sua carteira e seu uso do app são públicos. As [melhores práticas](https://docs.encifher.io/docs/best-practices) alertam que um simples encapsulamento, conversão e desencapsulamento torna sua transação vinculável.
-- **Criptografia.** Os saldos criptografados são processados off-chain dentro de um enclave de hardware (TEE). O [artigo](https://eprint.iacr.org/2026/1504) dos desenvolvedores afirma que isso depende da integridade do TEE, de um gerenciamento honesto de chaves por limite e da raiz de atestação da cloud, não apenas da criptografia.
-- **Etapa cross-chain.** A conversão em ZEC é roteada por NEAR Intents, onde solvers independentes executam a ordem.
-- **Lado do Zcash.** NEAR Intents lista ZEC como compatível apenas com [endereços transparentes](https://docs.near-intents.org/resources/chain-support), e o campo ZEC no encrypt.trade aceitava apenas endereços transparentes (t1 ou t3) quando este guia foi verificado em setembro de 2026. Um endereço transparente mostra publicamente seu saldo e as transferências recebidas até você blindá-lo.
-- **Verificação.** O app verifica as carteiras conectadas em bancos de dados como TRM e Chainalysis, e sua [página de conformidade](https://docs.encifher.io/docs/compliance) informa que registros criptografados podem ser analisados se houver uma causa legal legítima. NEAR Intents também realiza sua própria [verificação](https://docs.near-intents.org/security-compliance/risk-and-compliance).
+###  O que saber antes de fazer a conversão  
+- **Lado da Solana.** O encapsulamento oculta os valores, mas o endereço da sua carteira e o uso que ela faz do app são públicos. As [boas práticas](https://docs.encifher.io/docs/best-practices) do app alertam que um simples encapsulamento, conversão e desencapsulamento torna sua transação rastreável.
+- **Criptografia.** Os saldos criptografados são processados off-chain dentro de um enclave de hardware (TEE). O [artigo](https://eprint.iacr.org/2026/1504) dos desenvolvedores diz que isso depende da integridade do TEE, de um gerenciamento honesto de chaves por limiar e da raiz de atestação da nuvem, e não apenas da criptografia.
+- **Etapa cross-chain.** A conversão para ZEC é roteada pelo NEAR Intents, onde solvers independentes executam a ordem.
+- **Lado do Zcash.** O NEAR Intents lista o ZEC como suportado apenas para [endereços transparentes](https://docs.near-intents.org/resources/chain-support), e o campo de ZEC no encrypt.trade só aceitava endereços transparentes (t1 ou t3) quando este guia foi verificado em setembro de 2026. Um endereço transparente mostra publicamente seu saldo e as transferências recebidas até você blindar.
+- **Verificação.** O app verifica as carteiras conectadas em bancos de dados como TRM e Chainalysis, e sua [página de conformidade](https://docs.encifher.io/docs/compliance) diz que os registros criptografados podem ser analisados se houver causa legal legítima. O NEAR Intents também faz sua própria [verificação](https://docs.near-intents.org/security-compliance/risk-and-compliance).
 
 ---
 
-###  Passo 1: Conecte sua carteira Solana  
-Visite [encrypt.trade](https://encrypt.trade/zec) com o **Chrome ou Firefox** e conecte sua carteira **Phantom**, **Solflare** ou **Slope**. Certifique-se de que sua carteira contém SOL suficiente para as taxas de gas e os tokens que você quer negociar. Depois de conectada, você está pronto para encapsular seus ativos.  
+###  Passo 1: conecte sua carteira Solana  
+Acesse o [encrypt.trade](https://encrypt.trade/zec) usando **Chrome ou Firefox** e conecte sua carteira **Phantom**, **Solflare** ou **Slope**. Certifique-se de que sua carteira tenha **SOL** suficiente para as taxas de gas e os tokens que você deseja negociar. Depois de conectar, você já pode encapsular seus ativos.  
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
@@ -57,8 +59,8 @@ Visite [encrypt.trade](https://encrypt.trade/zec) com o **Chrome ou Firefox** e 
 
 ---
 
-###  Passo 2: Encapsule seus tokens  
-Navegue até a seção **Wrap**. Escolha **SOL** ou **USDC**, insira o valor e confirme. O app bloqueia seus ativos e emite **versões criptografadas (eSOL ou eUSDC)**. Encapsular um valor diferente daquele que você converte dificulta vincular os dois pelo valor, mas não oculta que sua carteira usou o app.  
+###  Passo 2: encapsule seus tokens  
+Vá até a seção **Wrap**. Escolha **SOL** ou **USDC**, digite o valor e confirme. O app bloqueia seus ativos e emite **versões criptografadas (eSOL ou eUSDC)**. Encapsular um valor diferente do que você converte torna mais difícil relacionar as duas operações pelo valor, mas não oculta que sua carteira usou o app.  
 
 
 
@@ -74,8 +76,8 @@ Navegue até a seção **Wrap**. Escolha **SOL** ou **USDC**, insira o valor e c
 
 ---
 
-###  Passo 3: Prepare sua carteira ZODL  
-Baixe a [**ZODL**](https://zodl.com), a carteira Zcash mantida pela ZODL. Na tela Receber, copie seu **Endereço transparente do Zcash** (ele começa com t1). No momento, encrypt.trade não aceita endereços blindados ou unificados para ZEC. Guarde sua frase semente com segurança antes de continuar.  
+###  Passo 3: prepare sua carteira ZODL  
+Baixe o [**ZODL**](https://zodl.com), a carteira de Zcash mantida pela ZODL. Na tela Receber, copie seu **endereço transparente Zcash** (ele começa com t1). No momento, o encrypt.trade não aceita endereços blindados nem unificados para ZEC. Guarde sua frase semente em local seguro antes de continuar.  
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -83,8 +85,8 @@ Baixe a [**ZODL**](https://zodl.com), a carteira Zcash mantida pela ZODL. Na tel
 
 ---
 
-###  Passo 4: Converta  
-De volta ao **encrypt.trade**, acesse **Swap**. Selecione **eSOL/eUSDC -> ZEC**, cole seu endereço transparente da ZODL, revise os detalhes e confirme.
+###  Passo 4: faça a conversão  
+De volta ao **encrypt.trade**, vá até **Swap**. Selecione **eSOL/eUSDC -> ZEC**, cole seu endereço transparente ZODL, revise os detalhes e confirme.
 
 
 
@@ -96,7 +98,7 @@ De volta ao **encrypt.trade**, acesse **Swap**. Selecione **eSOL/eUSDC -> ZEC**,
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents** faz o roteamento cross-chain e envia o **ZEC** para sua carteira ZODL. Isso pode levar alguns minutos. NEAR Intents sugere reservar até 15 minutos para conversões cross-chain.  
+O **NEAR Intents** cuida do roteamento cross-chain e envia o **ZEC** para sua carteira ZODL. Isso pode levar alguns minutos. O NEAR Intents recomenda aguardar até 15 minutos nas conversões cross-chain.  
 
 
 
@@ -104,17 +106,17 @@ De volta ao **encrypt.trade**, acesse **Swap**. Selecione **eSOL/eUSDC -> ZEC**,
 
 ---
 
-###  Passo 5: Blinde seu ZEC  
-Assim que o ZEC chegar, use a opção **Shield** da ZODL para movê-lo para o [pool blindado](/using-zcash/shielded-pools). Até então, ele fica em um endereço transparente, onde qualquer pessoa pode ver o saldo. Blindar protege o que você fizer em seguida, mas a transferência recebida e a transação de blindagem permanecem visíveis na chain. Sempre verifique os links, evite reutilizar endereços e teste primeiro com valores pequenos.  
+###  Passo 5: blinde seu ZEC  
+Quando o ZEC chegar, use a opção **Shield** do ZODL para movê-lo para o [pool blindado](/using-zcash/shielded-pools). Até lá, ele fica em um endereço transparente, onde qualquer pessoa pode ver o saldo. A blindagem protege o que você fizer em seguida, mas a transferência recebida e a transação de blindagem continuam visíveis na chain. Sempre verifique os links, evite reutilizar endereços e teste primeiro com valores pequenos.  
 
 ---
 
 ###  Quem está envolvido e onde obter ajuda  
-- **encrypt.trade** é o app, operado pela JMD Labs Inc. Sua [política de privacidade](https://encrypt.trade/privacy) informa que ele coleta dados técnicos como IP, navegador e detalhes do dispositivo, envia o endereço da sua carteira, o histórico recente e os saldos a provedores de conformidade antes de uma conversão, e pode manter registros e resultados de verificações AML por até cinco anos. Seus [termos](https://encrypt.trade/terms) proíbem o uso de VPN ou proxy para ocultar sua localização. Suporte: help@encifher.io ou o grupo [Telegram](https://t.me/+ZWHGMW4ZHXQwYTZl) vinculado no app.
-- **NEAR Intents** roteia a etapa cross-chain e entrega o ZEC. Consulte seus [termos da API 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) e a política de privacidade em near.com/privacy, acompanhe conversões no [Explorador do NEAR Intents](https://explorer.near-intents.org) e peça ajuda no [Telegram do NEAR Intents](https://t.me/near_intents).
+- O **encrypt.trade** é o app, administrado pela JMD Labs Inc. Sua [política de privacidade](https://encrypt.trade/privacy) diz que ele coleta dados técnicos como IP, navegador e detalhes do dispositivo, envia o endereço da sua carteira, o histórico recente e os saldos para provedores de conformidade antes de uma conversão e pode manter registros e resultados de verificação AML por até cinco anos. Seus [termos](https://encrypt.trade/terms) proíbem o uso de VPN ou proxy para ocultar sua localização. Suporte: help@encifher.io ou o [grupo no Telegram](https://t.me/+ZWHGMW4ZHXQwYTZl) indicado no app.
+- O **NEAR Intents** roteia a etapa cross-chain e entrega o ZEC. Consulte os [termos da API 1Click](https://docs.near-intents.org/security-compliance/terms-of-service) e a política de privacidade em near.com/privacy, acompanhe as conversões no [Explorer do NEAR Intents](https://explorer.near-intents.org) e peça ajuda no [NEAR Intents do Telegram](https://t.me/near_intents).
 
-Os termos e os endereços compatíveis podem mudar, portanto verifique as versões atuais antes de uma grande conversão. Para saber mais sobre o cenário mais amplo, consulte [Corretoras não custodiantes](/using-zcash/non-custodial-exchanges).
+Os termos e os endereços suportados podem mudar, então verifique as versões atuais antes de uma conversão de valor alto. Para uma visão mais ampla, consulte [Corretoras não custodiantes](/using-zcash/non-custodial-exchanges).
 
 ---
 
-Ao combinar **Solana**, **Zcash** e **NEAR Intents**, **encrypt.trade** oferece uma rota rápida de SOL ou USDC para ZEC. Ele oculta valores na Solana, mas não é privado de ponta a ponta, portanto blinde seu ZEC assim que ele chegar.
+Ao combinar **Solana**, **Zcash** e **NEAR Intents**, o **encrypt.trade** oferece um caminho rápido de SOL ou USDC para ZEC. Ele oculta os valores na Solana, mas não é privado de ponta a ponta, então blinde seu ZEC assim que ele chegar.

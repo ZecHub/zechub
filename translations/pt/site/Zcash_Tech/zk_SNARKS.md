@@ -1,59 +1,59 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/zk_SNARKS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & zk-SNARKs
+# ZKP & ZK-SNARKS
 
 ## TL;DR
 
-- **zk-SNARKs** = Argumentos sucintos não interativos de conhecimento zero
+- **zk-SNARKs** = argumentos de conhecimento sucintos e não interativos de conhecimento zero
 - Eles permitem que uma parte **prove que sabe algo** sem revelar a própria informação
-- O Zcash usa zk-SNARKs para provar que uma transação é válida (valores corretos, entradas não gastas) **sem revelar remetente, destinatário ou valor**
+- Zcash usa zk-SNARKs para provar que uma transação é válida (valores corretos, entradas não gastas) **sem revelar remetente, destinatário ou valor**
 - "Sucinto" significa que a prova é minúscula e rápida de verificar, mesmo para afirmações complexas
-- O pool Orchard usa Halo 2, um sistema zk-SNARK **sem necessidade de uma configuração confiável**
+- O pool Orchard usa o Halo 2, um sistema zk-SNARK que **não exige configuração confiável**
 
 ---
 
 ## O que é uma prova?
 
-Provas são a base de toda a matemática. Uma prova é uma afirmação ou teorema que você está tentando provar e uma sequência de derivações feita para declarar que o teorema foi provado. Ex.: todos os ângulos de um triângulo somam 180° e podem ser verificados independentemente por qualquer pessoa (verificador).
+As provas são a base de toda a matemática. Uma prova é uma afirmação ou teorema que você está tentando provar e a sequência de deduções feitas para declarar que o teorema foi provado. Por exemplo, a afirmação de que a soma de todos os ângulos de um triângulo é 180° pode ser verificada de forma independente por qualquer pessoa (o verificador).
 
 **Provas** 
 
-Provador ---> Faz uma afirmação ---> Verificador escolhe ---> Aceitar/Rejeitar 
+Provador ---> Faz a afirmação ---> Verificador escolhe ---> Aceita/Rejeita 
 
 (Tanto o provador quanto o verificador são algoritmos)
 
-Na ciência da computação, o termo para provas verificáveis de forma eficiente é provas NP. Essas provas curtas podem ser verificadas em tempo polinomial. A ideia geral é: "Existe uma solução para um teorema e ela é passada ao verificador para conferência"
+Na ciência da computação, o termo para provas verificáveis de forma eficiente é provas NP. Essas provas curtas podem ser verificadas em tempo polinomial. A ideia geral é: "Existe uma solução para um teorema e ela é passada ao verificador para que ele a confira"
 
 
 <a href="">
-    <img width="853" height="396" alt="Linguagem NP1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
+    <img width="853" height="396" alt="NPlanguage1" src="/content-images/d25345cf-e958-4ce2-b01d-f4e7f2db9551-1ac56e56d7.webp" alt="" width="600" height="400"/>
 </a>
 
 
-Em uma linguagem NP = duas condições devem ser atendidas: 
+Em uma linguagem NP, duas condições devem ser satisfeitas: 
 
-Completude: Afirmações verdadeiras serão aceitas pelo verificador (permite que provadores honestos alcancem a verificação)
+Completude: afirmações verdadeiras serão aceitas pelo verificador (permite que provadores honestos cheguem à verificação)
 
-Solidez: Afirmações falsas não terão provas (para qualquer estratégia de um provador desonesto, ele não conseguirá provar a correção de uma afirmação incorreta).
+Correção: afirmações falsas não terão provas (para qualquer estratégia de um provador desonesto, ele não conseguirá provar a correção de uma afirmação incorreta).
 
 
 ### Provas interativas e probabilísticas
 
-**Interação**: Em vez de apenas ler a prova, o verificador interage com um provador em várias rodadas de mensagens.
+**Interação**: em vez de apenas ler a prova, o verificador interage com o provador, trocando mensagens ao longo de várias rodadas.
 
-**Aleatoriedade**: As solicitações do verificador ao provador são aleatórias, e o provador deve ser capaz de responder corretamente a cada uma delas. 
+**Aleatoriedade**: as solicitações do verificador ao provador são aleatórias, e o provador deve ser capaz de responder corretamente a cada uma delas. 
 
 
 <a href="">
- <img width="855" height="399" alt="Modelo IP1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
+ <img width="855" height="399" alt="IPmodel1" src="/content-images/1542be12-d3fd-4934-8413-0d16f95b8d10-58bfcb4059.webp" alt="" width="600" height="400"/>
 </a>
 
 
-Usando interação e aleatoriedade juntas, é possível provar uma afirmação a um verificador cego em Tempo Polinomial Probabilístico (PPT). 
+Usando interação e aleatoriedade em conjunto, é possível provar uma afirmação a um verificador cego em tempo polinomial probabilístico (PPT). 
 
-As provas interativas conseguem verificar de forma eficiente mais do que provas NP?
+As provas interativas conseguem verificar de forma eficiente mais do que as provas NP?
 
 Provas NP vs. provas IP:
 
@@ -75,72 +75,72 @@ PSPACE  - Provar uma alternância de diferentes afirmações
 
 ### O que é conhecimento zero?
 
-O que um verificador pode computar após uma interação é idêntico ao que ele poderia provar antes. A interação ao longo de várias rodadas entre o provador e o verificador não aumentou o poder computacional do verificador.
+O que um verificador consegue calcular depois de uma interação é idêntico ao que ele conseguiria provar antes dela. A interação ao longo de várias rodadas entre o provador e o verificador não aumentou o poder computacional do verificador.
 
 **O Paradigm da simulação**
 
-Esse experimento existe em toda a criptografia. Ele apresenta uma "Visão Real" e uma "Visão Simulada". 
+Esse experimento está presente em toda a criptografia. Ele apresenta uma "visão real" e uma "visão simulada". 
 
-Visão Real: Todos os possíveis históricos de interações entre Provador e Verificador (P,V)
+Visão real: todos os históricos possíveis de interações entre o provador e o verificador (P,V)
 
-Visão Simulada: O verificador simula todas as possíveis interações entre Provador e Verificador 
+Visão simulada: o verificador simula todas as interações possíveis entre o provador e o verificador 
 
 <a href="">
-    <img width="850" height="397" alt="simulação1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
+    <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
-Um distinguidor em tempo polinomial tenta determinar se está olhando para a visão real ou para a simulada e solicita repetidamente uma amostra de ambas.
+Um distinguidor de tempo polinomial tenta determinar se está olhando para a visão real ou para a simulada e solicita repetidamente uma amostra de ambas.
 
-Diz-se que as duas visões são "computacionalmente indistinguíveis" se, para todos os algoritmos/estratégias de distinção, mesmo após receber um número polinomial de amostras da visão real ou simulada, a probabilidade for >1/2. 
+Diz-se que as duas visões são "computacionalmente indistinguíveis" se, para todos os algoritmos/estratégias de distinção, mesmo depois de receber um número polinomial de amostras da visão real ou da simulada, a probabilidade é >1/2. 
 
-**Argumentos de conhecimento zero**
+**Argumentos de conhecimento de conhecimento zero**
 
-Um protocolo interativo (P,V) é de conhecimento zero se existir um simulador (algoritmo) tal que, para todo verificador probabilístico em tempo polinomial (quando o teorema está correto), as distribuições de probabilidade que determinam a visão real a partir da simulada sejam computacionalmente indistinguíveis. 
+Um protocolo interativo (P,V) é de conhecimento zero se existir um simulador (algoritmo) tal que, para todo verificador de tempo polinomial probabilístico (quando o teorema é correto), as distribuições de probabilidade que distinguem a visão real da simulada sejam computacionalmente indistinguíveis. 
 
-Protocolos interativos são úteis quando há um único verificador. Um exemplo seria um auditor fiscal em um aplicativo de 'prova de impostos' com conhecimento zero.
+Os protocolos interativos são úteis quando há um único verificador. Um exemplo seria um auditor fiscal em um aplicativo de "prova de impostos" de conhecimento zero.
 
 ## O que é um SNARK?
 
-**Argumento sucinto não interativo de conhecimento**
+**Argumento de conhecimento sucinto e não interativo**
 
-Definição ampla - Uma prova sucinta de que uma afirmação é verdadeira. A prova deve ser curta e rápida de verificar. Em SNARKs, uma única mensagem é enviada do Provador ao Verificador. O verificador então pode escolher aceitar ou rejeitar. 
+Definição ampla: uma prova sucinta de que uma afirmação é verdadeira. A prova deve ser curta e rápida de verificar. Nos SNARKs, uma única mensagem é enviada do provador ao verificador. O verificador pode então escolher aceitar ou rejeitar. 
 
-Exemplo de afirmação: "Eu conheço uma mensagem (m) tal que SHA256(m)=0"
+exemplo de afirmação: "Eu conheço uma mensagem (m) tal que SHA256(m)=0"
 
 Em um zk-SNARK, a prova não revela nada sobre a mensagem (m).
 
-**Polinômios**: Somatórios de termos contendo uma constante (como 1,2,3), variáveis (como x,y,z) e expoentes de variáveis (como x², y³). 
+**Polinômios**: somas de termos que contêm uma constante (como 1, 2, 3), variáveis (como x, y, z) e expoentes de variáveis (como x², y³). 
 
-Exemplo: "3x² + 8x + 17"
+exemplo: "3x² + 8x + 17"
 
-**Circuito aritmético**: Um modelo para computar polinômios. De forma mais geral, ele pode ser definido como um Grafo Acíclico Direcionado no qual, em cada nó do grafo, é realizada uma operação aritmética. O circuito consiste em portas de adição, portas de multiplicação e algumas portas constantes. Da mesma forma que circuitos booleanos carregam bits em fios, circuitos aritméticos carregam inteiros.
+**Circuito aritmético**: um modelo para calcular polinômios. De forma mais geral, pode ser definido como um grafo acíclico direcionado em que, em cada nó do grafo, é executada uma operação aritmética. O circuito é composto por portas de adição, portas de multiplicação e algumas portas constantes. Da mesma forma que os circuitos booleanos transportam bits nos fios, os circuitos aritméticos transportam números inteiros.
 
 
 <a href="">
-<img width="785" height="368" alt="circuito1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
+<img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
 Neste exemplo, o provador quer convencer o verificador de que conhece uma solução para o circuito aritmético.  
 
-**Compromissos**: Para fazer isso, o provador colocará todos os valores (privados e públicos) associados ao circuito em um compromisso. Compromissos ocultam suas entradas usando uma função cuja saída é irreversível.
+**Compromissos**: para isso, o provador coloca todos os valores (privados e públicos) associados ao circuito em um compromisso. Os compromissos ocultam suas entradas usando uma função cuja saída é irreversível.
 
-Sha256 é um exemplo de função hash que pode ser usada em um esquema de compromisso.
+O Sha256 é um exemplo de função hash que pode ser usada em um esquema de compromisso.
 
-Depois que o provador se compromete com os valores, os compromissos são enviados ao verificador (com a confiança de que ele não conseguirá descobrir nenhum dos valores originais). O provador então consegue mostrar ao verificador que conhece cada um dos valores nos nós do grafo. 
+Depois que o provador se compromete com os valores, os compromissos são enviados ao verificador (com a confiança de que ele não consegue descobrir nenhum dos valores originais). O provador pode então demonstrar ao verificador o conhecimento de cada um dos valores nos nós do grafo. 
 
-**Transformação Fiat-Shamir**
+**Transformada de Fiat-Shamir**
 
-Para tornar o protocolo *não interativo*, o provador gera aleatoriedade (usada para o desafio oculto) em nome do verificador usando uma função hash criptográfica. Isso é conhecido como oráculo aleatório. O provador pode então enviar uma única mensagem ao verificador, que poderá conferir se ela está correta. 
+Para tornar o protocolo *não interativo*, o provador gera a aleatoriedade (usada para o desafio oculto) em nome do verificador usando uma função hash criptográfica. Isso é conhecido como oráculo aleatório. O provador pode então enviar uma única mensagem ao verificador, que pode verificar se ela está correta. 
 
-Para formar um SNARK que possa ser usado em circuitos gerais, dois elementos são necessários:
+Para formar um SNARK que possa ser usado para circuitos genéricos, são necessários dois elementos:
 
-Esquema de compromisso funcional: Permite que um remetente se comprometa com um polinômio usando uma string curta que pode ser usada por um verificador para confirmar avaliações alegadas do polinômio comprometido.
+Esquema de compromisso funcional: permite que quem se compromete faça um compromisso com um polinômio por meio de uma string curta, que pode ser usada por um verificador para confirmar as avaliações declaradas do polinômio comprometido.
 
-Oráculo interativo polinomial: O verificador pede ao provador (algoritmo) para abrir todos os compromissos em vários pontos de sua escolha usando um esquema de compromisso polinomial e verifica se a identidade se mantém verdadeira entre eles.
+Oráculo interativo polinomial: o verificador pede ao provador (algoritmo) que abra todos os compromissos em vários pontos de sua escolha, usando o esquema de compromisso polinomial, e verifica se a identidade se mantém verdadeira entre eles.
 
 **Configuração**
 
-Procedimentos de configuração ajudam o verificador resumindo um circuito e gerando parâmetros públicos. 
+Os procedimentos de configuração ajudam o verificador ao resumir um circuito e gerar parâmetros públicos. 
 
 <a href="">
 <img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
@@ -148,63 +148,63 @@ Procedimentos de configuração ajudam o verificador resumindo um circuito e ger
 
 **Tipos de configuração de pré-processamento**:
 
-Configuração confiável por circuito - Executada separadamente para cada circuito. A common reference string (CRS) resultante contém parâmetros públicos usados por provadores e verificadores. É o material secreto intermediário da configuração ("toxic waste"), e não a CRS, que deve ser mantido em segredo e destruído. A [explicação sobre parâmetros públicos](https://zodl.com/snark-parameters/) de ECC distingue os dois.
+Configuração confiável por circuito - Executada separadamente para cada circuito. A string de referência comum (CRS) resultante contém parâmetros públicos usados por provadores e verificadores. É o material secreto intermediário da configuração ("lixo tóxico"), e não a CRS, que deve ser mantido em segredo e destruído. A [explicação sobre os parâmetros públicos](https://zodl.com/snark-parameters/) do ECC distingue os dois.
 
-Se o material secreto necessário para a configuração for mantido ou recuperado, um provador desonesto poderá produzir provas de afirmações falsas. Em uma cerimônia de MPC, a segurança pode depender de pelo menos um participante seguir o protocolo e destruir sua contribuição secreta.
+Se o material secreto de configuração necessário for retido ou recuperado, um provador desonesto pode conseguir produzir provas de afirmações falsas. Em uma cerimônia MPC, a segurança pode depender de pelo menos um participante seguir o protocolo e destruir sua contribuição secreta.
 
-Configuração confiável, mas universal - Uma única configuração confiável produz parâmetros que podem ser usados para derivar chaves de prova e verificação para múltiplos circuitos dentro dos limites de tamanho suportados. Isso ainda pressupõe a destruição do segredo; universal não significa transparente.
+Configuração confiável, mas universal - Uma única configuração confiável produz parâmetros que podem ser usados para derivar chaves de prova e de verificação para vários circuitos dentro dos limites de tamanho suportados. Isso ainda envolve uma suposição de destruição do segredo; universal não significa transparente.
 
-Configuração transparente (sem configuração confiável) - Parâmetros públicos podem ser gerados sem uma trapdoor secreta de configuração cuja destruição seja preciso confiar a alguém. Isso não significa que a geração de provas não use aleatoriedade ou que o sistema não tenha parâmetros públicos. O [Halo livro 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) apresenta um exemplo de parâmetros públicos de grupo.
+Configuração transparente (sem configuração confiável) - Os parâmetros públicos podem ser gerados sem uma armadilha secreta de configuração que alguém precise ser confiável para destruir. Isso não significa que a geração de provas não use aleatoriedade ou que o sistema não tenha parâmetros públicos. O [livro do Halo 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) dá um exemplo de parâmetros públicos de grupo.
 
 
 **Tipos de construções de provas SNARK**:
 
-[Groth16](https://eprint.iacr.org/2016/260): Requer uma configuração confiável, mas tem provas muito curtas que podem ser verificadas rapidamente.
+[Groth16](https://eprint.iacr.org/2016/260): exige configuração confiável, mas tem provas muito curtas que podem ser verificadas rapidamente.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Configuração confiável universal.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): configuração confiável universal.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Não requerem uma configuração confiável, mas produzem provas ligeiramente mais longas ou podem demorar mais para serem executados pelo provador. 
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): sem configuração confiável, mas produzem provas um pouco mais longas ou podem levar mais tempo para o provador executar. 
 
-SNARKs são úteis quando múltiplos verificadores são necessários, como em uma blockchain como o Zcash ou um zk-Rollup como [Aztec](https://docs.aztec.network), para que múltiplos nós validadores não precisem interagir ao longo de várias rodadas com cada prova. 
+Os SNARKs são úteis quando são necessários vários verificadores, como em uma blockchain como o Zcash ou em um zk-Rollup como o [Aztec](https://docs.aztec.network), para que vários nós validadores não precisem interagir ao longo de várias rodadas com cada prova. 
 
-## Como o zk-SNARK é implementado no Zcash?
+## Como os zk-SNARK são implementados no Zcash?
 
-De forma geral, provas de conhecimento zero são uma ferramenta para impor comportamento honesto em protocolos sem revelar nenhuma informação. 
+De modo geral, as provas de conhecimento zero são uma ferramenta para garantir um comportamento honesto em protocolos sem revelar nenhuma informação. 
 
-O Zcash é uma blockchain pública que viabiliza transações privadas. zk-SNARK é usado para provar que uma transação privada é válida dentro das regras de consenso da rede sem revelar quaisquer outros detalhes sobre a transação. 
+O Zcash é uma blockchain pública que viabiliza transações privadas. Os zk-SNARK são usados para provar que uma transação privada é válida segundo as regras de consenso da rede, sem revelar nenhum outro detalhe sobre a transação. 
 
-[Vídeo explicativo](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Nesta palestra, Ariel Gabizon apresenta descrições da Árvore de Compromissos de Notes do Zcash, Avaliação Polinomial Cega e Desafios Ocultos Homomorficamente, e como eles são implementados na rede. 
+[Vídeo explicativo](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - Nesta palestra, Ariel Gabizon descreve a árvore de compromissos de notes do Zcash, a avaliação polinomial cega e os desafios homomorficamente ocultos, e como eles são implementados na rede. 
 
 Leia o [livro do Halo2](https://zcash.github.io/halo2/index.html) para mais informações.
 
 ## Outras aplicações de conhecimento zero 
 
-zk-SNARKs proporcionam várias vantagens em uma variedade de aplicações diferentes. Vejamos alguns exemplos.
+zk-SNARKs oferecem várias vantagens em uma variedade de aplicações diferentes. Vamos ver alguns exemplos.
 
-**Escalabilidade**: Isso é alcançado por meio de 'Terceirização da Computação'. Não há necessidade estrita de conhecimento zero para que uma chain L1 verifique o trabalho de um serviço off-chain. As transações não são necessariamente privadas em uma zk-EVM.
+**Escalabilidade**: é alcançada por meio da "terceirização da computação". Não há uma necessidade estrita de conhecimento zero para que uma chain L1 verifique o trabalho de um serviço off-chain. As transações não são necessariamente privadas em uma zk-EVM.
 
-A vantagem de um serviço Rollup baseado em prova (zk-Rollup) é processar um lote de centenas/milhares de transações, e a L1 consegue verificar uma prova sucinta de que todas as transações foram processadas corretamente, escalando a taxa de transferência de transações da rede por um fator de 100 ou 1000.
+A vantagem de um serviço de Rollup baseado em provas (zk-Rollup) é processar um lote de centenas/milhares de transações, e a L1 consegue verificar uma prova sucinta de que todas as transações foram processadas corretamente, aumentando a vazão de transações da rede por um fator de 100 ou 1000.
 
 <a href="">
   <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 
-**Interoperabilidade**: Isso é alcançado em uma ponte zk ao 'travar' ativos em uma chain de origem e provar para a chain de destino que os ativos foram travados (prova de consenso).
+**Interoperabilidade**: é alcançada em uma ponte zk "bloqueando" ativos em uma chain de origem e provando à chain de destino que os ativos foram bloqueados (prova de consenso).
 
-**Conformidade**: Projetos como [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) conseguem provar que uma transação privada está em conformidade com as leis bancárias locais sem revelar os detalhes da transação. 
+**Conformidade**: projetos como o [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) conseguem provar que uma transação privada está em conformidade com as leis bancárias locais sem revelar os detalhes da transação. 
 
-**Combate à desinformação**: Entre vários exemplos fora de blockchain e criptomoedas, está o uso de geração de provas em imagens que foram processadas por veículos de notícias e mídia, permitindo que os espectadores verifiquem independentemente a origem de uma imagem e todas as operações realizadas nela. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
+**Combate à desinformação**: entre vários exemplos fora do universo da blockchain e das criptomoedas, está o uso da geração de provas em imagens processadas por veículos de notícias e de mídia, para permitir que os espectadores verifiquem de forma independente a origem de uma imagem e todas as operações realizadas nela. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
 
 
 ____
 
 
-Aprendizado adicional: 
+Para saber mais: 
 
 [Bibliografia de conhecimento zero - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
 
-[zkSNARK's com Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
+[zkSNARKs com Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
 [Zcash: Halo 2 e SNARKs sem configurações confiáveis - Sean Bowe no Dystopia labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -212,19 +212,19 @@ Aprendizado adicional:
 
 [Provas interativas de conhecimento zero - artigo da Chainlink](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
-[Aula 1: Introdução e história de ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
+[Aula 1: introdução e história das ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 
-[Simple Explanation of Arithmetic Circuits - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
+[Explicação simples dos circuitos aritméticos - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
-[Scalability is Boring, Privacy is Dead: ZK-Proofs, What are They Good for?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
+[A escalabilidade é chata, a privacidade está morta: provas ZK, para que servem?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
 
 ---
 
 ## Páginas relacionadas
 
-- [Pools blindados](/using-zcash/shielded-pools) — Como zk-SNARKs são usados nos pools de valor do Zcash
-- [Halo](/zcash-tech/halo) — O sistema zk-SNARK do Zcash que elimina configurações confiáveis
-- [Segurança pós-quântica no Zcash](/zcash-tech/post-quantum-security) - Como riscos quânticos futuros se relacionam com a criptografia do Zcash
-- [Ativos blindados do Zcash](/zcash-tech/zcash-shielded-assets) — ZSAs construídos sobre a tecnologia zk-SNARK
-- [O que são ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Introdução ao Zcash e ao seu modelo de privacidade
-- [Quem pode ver seu pagamento em Zcash?](/start-here/who-can-see-your-zcash-payment) — O que permanece público e o que a blindagem oculta
+- [Pools blindados](/using-zcash/shielded-pools) — Como os zk-SNARKs são usados nos pools de valor Zcash
+- [Halo](/zcash-tech/halo) — O sistema zk-SNARK do Zcash que elimina as configurações confiáveis
+- [Segurança pós-quântica no Zcash](/zcash-tech/post-quantum-security) - Como os futuros riscos quânticos se relacionam com a criptografia Zcash
+- [Ativos blindados do Zcash](/zcash-tech/zcash-shielded-assets) — ZSAs construídos com a tecnologia zk-SNARK
+- [O que é o ZEC e o Zcash](/start-here/what-is-zec-and-zcash) — Introdução ao Zcash e ao seu modelo de privacidade
+- [Quem pode ver o seu pagamento em Zcash?](/start-here/who-can-see-your-zcash-payment) — O que permanece público e o que a blindagem oculta

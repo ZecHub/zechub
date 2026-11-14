@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zecmap.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # ZecMap
 
-O ZecMap é um diretório global, orientado pela comunidade, para descobrir negócios e serviços que aceitam Zcash (ZEC). Criado em torno de uma interface de mapa interativo, ele ajuda os detentores de ZEC a responder a uma pergunta prática: **"Onde posso gastar meu ZEC?"**
+ZecMap é um diretório global, mantido pela comunidade, para encontrar empresas e serviços que aceitam Zcash (ZEC). Construído em torno de uma interface de mapa interativo, ele ajuda quem tem ZEC a responder a uma pergunta prática: **"Onde posso gastar meus ZEC?"**
 
 Site: [zecmap.com](https://zecmap.com/)
 
@@ -12,22 +12,22 @@ Site: [zecmap.com](https://zecmap.com/)
 
 ## Resumo
 
-- O ZecMap é um **diretório público e gratuito** de comerciantes que aceitam ZEC — negócios locais e lojas online.
+- ZecMap é um **diretório público e gratuito** de comerciantes que aceitam ZEC: empresas locais e lojas online.
 - Navegue pelo **mapa interativo** para encontrar comerciantes que aceitam ZEC perto de você ou em qualquer lugar do mundo.
-- **Qualquer pessoa pode enviar** um negócio; as listagens passam por uma revisão da comunidade antes de aparecerem publicamente.
-- Um **Programa de Recompensas para Colaboradores** incentiva a adição e a verificação de dados de comerciantes.
-- O ZecMap firmou recentemente uma parceria com a [CipherPay](https://x.com/ZecMap/status/2059622324958093616) para expandir as integrações com comerciantes.
+- **Qualquer pessoa pode cadastrar** uma empresa. Os cadastros passam por uma revisão da comunidade antes de aparecerem publicamente.
+- Um **Programa de recompensas para colaboradores** incentiva a inclusão e a verificação de dados de comerciantes.
+- ZecMap firmou recentemente uma parceria com [CipherPay](https://x.com/ZecMap/status/2059622324958093616) para ampliar as integrações com comerciantes.
 
 ---
 
 ## O que o ZecMap faz
 
-O ZecMap organiza negócios que aceitam Zcash em um mapa global. Cada listagem mostra o nome do negócio, a categoria, a localização ou o site e como o ZEC é aceito. Isso facilita para os detentores de ZEC:
+ZecMap organiza em um mapa global as empresas que aceitam Zcash. Cada cadastro mostra o nome da empresa, a categoria, a localização ou o site e a forma como ZEC é aceito. Isso facilita para quem tem ZEC:
 
-- Encontrar um café, restaurante, hotel, loja ou serviço próximo que aceite ZEC antes de fazer uma viagem.
+- Encontrar um café, restaurante, hotel, loja ou serviço próximo que aceite ZEC antes de sair de casa.
 - Descobrir lojas online, provedores de VPN, freelancers ou serviços digitais que aceitam pagamentos em Zcash.
-- Explorar a adoção regional do Zcash por cidade, país ou rota de viagem.
-- Ajudar a manter o diretório atualizado à medida que novos negócios começam a aceitar ZEC.
+- Ver a adoção regional de Zcash por cidade, país ou rota de viagem.
+- Ajudar a manter o diretório atualizado à medida que novas empresas começam a aceitar ZEC.
 
 ---
 
@@ -35,81 +35,81 @@ O ZecMap organiza negócios que aceitam Zcash em um mapa global. Cada listagem m
 
 ### Encontrar comerciantes locais
 
-Abra [zecmap.com](https://zecmap.com/) e pesquise no mapa por comerciantes perto de você. Antes de visitar, confirme com o negócio que o ZEC é aceito atualmente e pergunte qual carteira ou fluxo de pagamento ele prefere.
+Abra [zecmap.com](https://zecmap.com/) e procure no mapa comerciantes perto de você. Antes de ir, confirme com a empresa se ela ainda aceita ZEC e pergunte qual carteira ou forma de pagamento ela prefere.
 
 ### Descobrir lojas e serviços online
 
-O ZecMap também lista negócios online. Navegue por categoria para encontrar lojas de e-commerce, serviços de hospedagem, provedores de VPN e outros comerciantes digitais que aceitam pagamentos em ZEC.
+ZecMap também lista empresas online. Navegue por categoria para encontrar lojas de e-commerce, serviços de hospedagem, provedores de VPN e outros comerciantes digitais que aceitam pagamentos em ZEC.
 
-### Planejar viagens em torno do ZEC
+### Planejar viagens com ZEC
 
-Vai viajar para uma nova cidade ou país? O ZecMap permite que você explore a cobertura de comerciantes antes de chegar, para que possa planejar paradas em restaurantes, lojas e serviços que aceitam ZEC.
+Vai viajar para uma nova cidade ou país? ZecMap permite ver quais comerciantes existem antes de você chegar, para que você possa planejar paradas em restaurantes, lojas e serviços que aceitam ZEC.
 
-### Apoiar novos usuários do Zcash
+### Ajudar novos usuários de Zcash
 
-Os novos usuários geralmente aprendem a comprar e guardar ZEC antes de descobrir onde gastá-lo. O ZecMap oferece essa próxima etapa — uma lista prática e navegável da utilidade do ZEC no mundo real.
+Novos usuários costumam aprender a comprar e guardar ZEC antes de descobrir onde gastá-lo. ZecMap oferece esse próximo passo: uma lista prática e fácil de consultar com usos reais de ZEC.
 
 ---
 
-## Adicionar um negócio
+## Cadastrar uma empresa
 
-Se um negócio aceita ZEC e ainda não está no ZecMap, qualquer membro da comunidade pode enviá-lo. Um bom envio inclui:
+Se uma empresa aceita ZEC e ainda não está no ZecMap, qualquer membro da comunidade pode cadastrá-la. Um bom cadastro inclui:
 
-| Campo | O que fornecer |
+| Campo | O que informar |
 |-------|----------------|
-| Business name | Nome oficial como aparece publicamente |
-| Website or contact | URL ou perfil social |
-| Location | Endereço para negócios físicos; região para negócios online |
+| Business name | Nome oficial, como aparece publicamente |
+| Website or contact | URL ou perfil em rede social |
+| Location | Endereço para empresas físicas; região para empresas online |
 | Category | Café, restaurante, loja, serviço, loja online etc. |
 | Evidence | Página pública de pagamentos, anúncio do comerciante ou confirmação direta |
 | Payment notes | Presencial, online ou ambos; ZEC transparente ou blindado |
 
-Os envios devem evitar dados privados de clientes. Se usar uma prova de transação, remova detalhes pessoais, números de pedido e endereços residenciais antes de compartilhar.
+Os cadastros não devem conter dados privados de clientes. Se você usar o comprovante de uma transação, remova dados pessoais, números de pedido e endereços residenciais antes de compartilhá-lo.
 
 ---
 
 ## Verificação e aprovação
 
-As listagens passam por um processo de revisão antes de aparecerem publicamente:
+Os cadastros passam por um processo de revisão antes de aparecerem publicamente:
 
-1. Um colaborador envia um negócio com informações públicas suficientes para verificá-lo.
-2. A listagem é verificada quanto a duplicatas e precisão básica.
-3. A aceitação de ZEC é confirmada por meio de uma fonte pública ou contato com o comerciante.
-4. As listagens aprovadas aparecem no mapa.
-5. Os membros da comunidade podem sinalizar listagens desatualizadas ou incorretas para que o diretório permaneça atualizado.
+1. O colaborador cadastra uma empresa com informações públicas suficientes para a verificação.
+2. O cadastro é verificado quanto a duplicatas e à precisão básica.
+3. A aceitação de ZEC é confirmada por meio de uma fonte pública ou de contato com o comerciante.
+4. Os cadastros aprovados aparecem no mapa.
+5. Os membros da comunidade podem sinalizar cadastros desatualizados ou incorretos para que o diretório continue atualizado.
 
-Como as opções de pagamento dos comerciantes podem mudar, trate as listagens como informações mantidas pela comunidade, não como uma garantia. Confirme com o comerciante antes de uma viagem ou de uma compra de alto valor.
+Como as opções de pagamento dos comerciantes podem mudar, considere os cadastros como informações mantidas pela comunidade, não como uma garantia. Confirme com o comerciante antes de uma viagem ou de uma compra grande.
 
 ---
 
 ## Programa de recompensas para colaboradores
 
-O ZecMap recompensa os colaboradores que ajudam a expandir e manter o diretório. As recompensas são criadas para incentivar:
+ZecMap recompensa os colaboradores que ajudam a expandir e manter o diretório. As recompensas foram criadas para incentivar:
 
-- **Novas listagens** — adicionar negócios que aceitam ZEC e ainda não estão no mapa.
-- **Verificação** — confirmar que as listagens existentes ainda estão ativas e precisas.
-- **Manutenção** — atualizar informações desatualizadas ou sinalizar negócios fechados.
-- **Expansão da cobertura** — adicionar comerciantes em cidades, regiões ou categorias online sub-representadas.
+- **Novos cadastros**: incluir empresas que aceitam ZEC e ainda não estão no mapa.
+- **Verificação**: confirmar que os cadastros existentes continuam ativos e corretos.
+- **Manutenção**: atualizar informações desatualizadas ou sinalizar empresas que fecharam.
+- **Ampliação da cobertura**: incluir comerciantes em cidades, regiões ou categorias online pouco representadas.
 
-Para consultar as regras atuais das recompensas e saber como reivindicá-las, visite [zecmap.com](https://zecmap.com/) ou consulte os anúncios do ZecMap nos canais da comunidade Zcash.
+Para conhecer as regras atuais de recompensa e saber como resgatá-las, acesse [zecmap.com](https://zecmap.com/) ou confira os anúncios do ZecMap nos canais da comunidade Zcash.
 
 ---
 
 ## Principais recursos
 
-- **Mapa global interativo** — navegue ou pesquise comerciantes por localização.
-- **Listagens de negócios** — comerciantes locais e online com detalhes de pagamento.
-- **Contas de usuário** — envie listagens, acompanhe contribuições e crie um perfil de colaborador.
-- **Revisão da comunidade** — as listagens são verificadas antes de serem publicadas.
-- **Ferramentas de denúncia** — sinalize entradas desatualizadas ou incorretas para manter o mapa preciso.
+- **Mapa global interativo**: navegue ou pesquise comerciantes por localização.
+- **Cadastros de empresas**: comerciantes locais e online com detalhes de pagamento.
+- **Contas de usuário**: cadastre empresas, acompanhe suas contribuições e construa um perfil de colaborador.
+- **Revisão da comunidade**: os cadastros são verificados antes de serem publicados.
+- **Ferramentas de denúncia**: sinalize entradas desatualizadas ou incorretas para manter o mapa preciso.
 
 ---
 
-## Integrações do ecossistema
+## Integrações com o ecossistema
 
-O ZecMap aceita comerciantes que aceitam pagamentos em Zcash por meio da **Flexa**, uma rede de pagamentos usada por um número crescente de estabelecimentos de varejo. Isso expande o número de comerciantes do mundo real listados no mapa para além daqueles que aceitam Zcash nativamente.
+ZecMap aceita comerciantes que recebem pagamentos em Zcash por meio da **Flexa**, uma rede de pagamentos usada por um número crescente de lojas físicas. Isso amplia o número de comerciantes reais listados no mapa além daqueles que aceitam Zcash diretamente.
 
-O ZecMap também anunciou uma parceria com a [CipherPay](https://cipherpay.app) para aprofundar as integrações de infraestrutura de pagamentos para os comerciantes no diretório.
+ZecMap também anunciou uma parceria com [CipherPay](https://cipherpay.app) para aprofundar as integrações de infraestrutura de pagamentos para os comerciantes do diretório.
 
 ---
 
@@ -118,34 +118,34 @@ O ZecMap também anunciou uma parceria com a [CipherPay](https://cipherpay.app) 
 As melhorias planejadas incluem:
 
 - Apps para Android e iOS.
-- Suporte multilíngue para comunidades locais do Zcash.
+- Suporte a vários idiomas para as comunidades locais de Zcash.
 - Ferramentas de integração de pagamentos e guias de configuração para comerciantes.
-- Classificações de colaboradores e recursos de reputação.
-- Categorias ampliadas para serviços online e negócios verificados pela comunidade.
-- Melhores ferramentas para denunciar listagens inativas e confirmar a aceitação atual de ZEC.
+- Rankings de colaboradores e recursos de reputação.
+- Mais categorias para serviços online e empresas verificadas pela comunidade.
+- Ferramentas melhores para denunciar cadastros inativos e confirmar a aceitação atual de ZEC.
 
 ---
 
 ## Dicas para usar o ZecMap
 
-- **Confirme antes de ir.** Sempre verifique com o comerciante se o ZEC é aceito atualmente.
-- **Verifique o tipo de pagamento.** Alguns negócios aceitam ZEC transparente, outros preferem ZEC blindado. Pergunte antes de pagar.
-- **Ajude a comunidade.** Se encontrar uma listagem desatualizada ou incorreta, denuncie-a para que outras pessoas não sejam induzidas ao erro.
-- **Adicione o que você sabe.** Se um negócio local aceita ZEC e não está listado, envie-o — seu conhecimento local é valioso.
+- **Confirme antes de ir.** Sempre verifique com o comerciante se ZEC ainda é aceito.
+- **Verifique o tipo de pagamento.** Algumas empresas aceitam ZEC transparente, outras preferem blindado. Pergunte antes de pagar.
+- **Ajude a comunidade.** Se você encontrar um cadastro desatualizado ou incorreto, denuncie-o para que outras pessoas não sejam enganadas.
+- **Compartilhe o que você sabe.** Se uma empresa local aceita ZEC e não está listada, cadastre-a: o seu conhecimento local é valioso.
 
 ---
 
 ## Páginas relacionadas
 
-- [Gastar ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec) — Outras formas de usar ZEC no mundo real
-- [Processadores de pagamento](/using-zcash/payment-processors) — Ferramentas para comerciantes aceitarem ZEC
-- [Usar ZEC de forma privada](/guides/using-zec-privately) — Melhores práticas para pagamentos blindados
-- [Carteiras](/using-zcash/wallets) — Carteiras compatíveis com pagamentos em ZEC para comerciantes
-- [Corretoras não custodiantes](/using-zcash/non-custodial-exchanges) — Obtenha ZEC para gastar
+- [Gastar ZEC](/using-zcash/spend-zcash/top-10-places-to-spend-zec): outras formas de usar ZEC no mundo real
+- [Processadores de pagamento](/using-zcash/payment-processors): ferramentas para comerciantes aceitarem ZEC
+- [Usar ZEC com privacidade](/guides/using-zec-privately): boas práticas para pagamentos blindados
+- [Carteiras](/using-zcash/wallets): carteiras compatíveis com pagamentos em ZEC a comerciantes
+- [Corretoras não custodiantes](/using-zcash/non-custodial-exchanges): obtenha ZEC para gastar
 
 ## Recursos
 
 - [ZecMap](https://zecmap.com/)
 - [ZecMap no X/Twitter](https://x.com/ZecMap)
 - [Anúncio da parceria ZecMap × CipherPay](https://x.com/ZecMap/status/2059622324958093616)
-- [Anúncio da inclusão de comerciantes da Flexa no ZecMap](https://x.com/ZecMap/status/2060453501063594002)
+- [Anúncio da inclusão de comerciantes ZecMap Flexa](https://x.com/ZecMap/status/2060453501063594002)

@@ -4,17 +4,17 @@
 
 # Corretoras descentralizadas
 
-ZecHub não recomenda nenhuma corretora descentralizada específica; faça sua própria pesquisa.
+ZecHub não endossa nenhum serviço de corretora descentralizada em particular. Faça sua própria pesquisa.
 
-Cada título `###` abaixo corresponde a um cartão em https://zechub.wiki/dex.
-Adicione, edite ou remova um bloco aqui; a wiki o coleta deste arquivo.
+Cada título `###` abaixo é um card em https://zechub.wiki/dex.
+Adicione, edite ou remova um bloco aqui; a wiki o obtém deste arquivo.
 
 ### NEAR Intents
 
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Site: https://near.com/
-- Descrição: Corretora rápida com o apoio da NEAR. Faça depósitos, venda, converta, incluindo os populares TRUMP, MELANIA, BERA e outros memes
+- Descrição: Corretora rápida com suporte de NEAR. Faça depósitos, venda e faça conversões, incluindo os populares TRUMP, MELANIA, BERA e outros memes
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nativeswap.png" alt="Nativeswap" width="200" height="100"/>
 
 - Site: https://nativeswap.io/
-- Descrição: Negociação cross-chain nativa e sem barreiras por meio do Maya Protocol. Negocie diretamente on-chain sem pontes nem tokens encapsulados — aproveite taxas baixas no setor e controle total dos ativos.
+- Descrição: Negociação cross-chain nativa sem barreiras via Maya Protocol. Negocie diretamente on-chain sem pontes ou tokens encapsulados - aproveite taxas entre as mais baixas do setor e controle total dos seus ativos.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Site: https://github.com/firoorg/FiroDEX-Desktop
-- Descrição: Conversões descentralizadas sem necessidade de confiança usando conversões atômicas com FiroDEX!.
+- Descrição: Aplicativo desktop de conversões atômicas. Não é mais mantido: Firo arquivou o repositório FiroDEX-Desktop, e sua última versão é a 0.8.2-beta (fevereiro de 2025).
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Site: https://leodex.io
-- Descrição: Conversões cross-chain de e para ZEC, encaminhadas por meio de THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay e Rango. Não é necessária conta, KYC ou conexão de carteira nas rotas compatíveis.
+- Descrição: Conversões cross-chain de e para ZEC, roteadas via THORChain, Maya Protocol, Chainflip, NEAR Intents, Relay e Rango. Sem conta, sem KYC e sem necessidade de conectar uma carteira nas rotas suportadas.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/bisonwallet-logo.png" alt="Bison Wallet" width="200" height="100"/>
 
 - Site: https://dex.decred.org/
-- Descrição: Negocie cripto ponto a ponto. Sem taxas de negociação. Sem KYC.
+- Descrição: Negocie cripto peer-to-peer. Sem taxas de negociação. Sem KYC.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/thorswapLogo.png" alt="THORSwap" width="200" height="100"/>
 
 - Site: https://app.thorswap.finance/
-- Descrição: DEX cross-chain alimentada pela THORChain, permitindo conversões nativas entre Bitcoin, Ethereum e outros ativos importantes sem tokens encapsulados.
+- Descrição: DEX cross-chain com tecnologia THORChain, que permite conversões nativas entre Bitcoin, Ethereum e outros ativos importantes sem tokens encapsulados.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/routerProtocolLogo.png" alt="Router Protocol" width="200" height="100"/>
 
 - Site: https://www.routerprotocol.com/
-- Descrição: Camada de transporte de liquidez cross-chain que permite a transferência contínua de ativos e dados entre várias blockchains.
+- Descrição: Camada de transporte de liquidez cross-chain que permite a transferência fluida de ativos e dados entre várias blockchains.
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/peer-logo.jpg" alt="Peer" width="200" height="100"/>
 
 - Site: https://peer.xyz/
-- Descrição: Corretora descentralizada ponto a ponto que permite transações cripto diretas com privacidade reforçada e controle do usuário.
+- Descrição: Corretora peer-to-peer descentralizada que possibilita transações diretas de cripto com privacidade aprimorada e maior controle do usuário.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/rocketx-logo.jpg" alt="RocketX" width="200" height="100"/>
 
 - Site: https://rocketx.exchange/
-- Descrição: Agregador DEX híbrido que permite conversões cross-chain entre várias blockchains com roteamento ideal e taxas competitivas.
+- Descrição: Agregador de DEX híbrido que possibilita conversões cross-chain em várias blockchains, com roteamento otimizado e cotações competitivas.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/thorchain-logo.jpg" alt="THORChain" width="200" height="100"/>
 
 - Site: https://swap.thorchain.org/
-- Descrição: Corretora descentralizada cross-chain de Layer 1. Converta ativos nativos como ZEC, BTC e ETH diretamente, sem pontes, tokens encapsulados ou intermediários.
+- Descrição: Corretora cross-chain descentralizada de Layer 1. Converta ativos nativos como ZEC, BTC e ETH diretamente, sem pontes, tokens encapsulados ou intermediários.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/loofta-logo.svg" alt="Loofta" width="200" height="100"/>
 
 - Site: https://loofta.xyz/
-- Descrição: Plataforma privada não custodiante de pagamentos e conversões. Envie e receba cripto de forma privada entre chains, com o Zcash como camada de liquidação para maior privacidade financeira.
+- Descrição: Plataforma não custodiante de pagamentos privados e conversões. Envie e receba cripto de forma privada entre chains, com Zcash como camada de liquidação para maior privacidade financeira.
 
 
 ___
@@ -117,4 +117,4 @@ ___
 
 
 - Site: https://zcashto.cash/
-- Descrição: Conversão não custodiante de ZEC para moeda fiduciária por meio da Peer. Envie ZEC blindado e receba pagamentos em aplicativos de pagamento do dia a dia, como Venmo, Cash App, Revolut, Zelle, Chime e Monzo, em mais de 100 regiões geográficas. Não é necessária uma conta em uma CEX; o depósito de garantia é concluído após a prova de pagamento fiduciário.
+- Descrição: Saque não custodiante de ZEC para moeda fiduciária via Peer. Envie ZEC blindado e receba os valores em apps de pagamento do dia a dia, como Venmo, Cash App, Revolut, Zelle, Chime e Monzo, em mais de 100 regiões. Não é necessário ter conta em uma CEX; o escrow é concluído após a prova do pagamento em moeda fiduciária.

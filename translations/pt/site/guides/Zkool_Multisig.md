@@ -1,6 +1,6 @@
 # Guia de multisig do Zkool
 
-Este guia fornece um passo a passo de como realizar transações multisig usando Zkool. Inclui a criação de contas, o envio ou recebimento de fundos e a configuração da geração distribuída de chaves (DKG) para multisig. Capturas de tela estão incluídas para cada etapa principal.
+Este guia mostra, passo a passo, como fazer transações multisig usando o Zkool. Ele inclui a criação de contas, o envio e o recebimento de fundos e a configuração da geração distribuída de chaves (DKG) para multisig. Há capturas de tela para cada etapa principal.
 
 ## Tutorial
 
@@ -8,7 +8,7 @@ Este guia fornece um passo a passo de como realizar transações multisig usando
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/eagkCIv3BlQ"
-    title="Demo do Zkool | O Sucessor do Ywallet"
+    title="Zkool Demo | The Successor to Ywallet"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -19,21 +19,21 @@ Este guia fornece um passo a passo de como realizar transações multisig usando
 ## 1. Criando uma conta
 
 
-1. Abra o **app Zkool** e vá para **Nova conta**.
+1. Abra o **app Zkool** e vá até **Nova conta**.
 
 
 ![img1](/content-images/ee906e49-361a-49b6-9484-904897fe2e3f-074e400a9c.webp)
 
-3. Insira um **Nome da conta** (ex.: Anabelle).  
+3. Digite um **Nome da conta** (por exemplo, Anabelle).  
    
 
 ![img2](/content-images/e9c325d3-8507-433a-a0c6-6e8c1ea2a254-a637810ed5.webp)
 
 
-4. Opcionalmente, ative **Use Internal Change** ou **Restore Account**, se necessário.
+4. Se precisar, ative **Usar troco interno** ou **Restaurar conta**.
 
 
-5. Após a criação, a conta aparecerá na sua **Lista de contas**.  
+5. Depois de criada, a conta vai aparecer na sua **Lista de contas**.  
 
 
 ![img3](/content-images/c446cbca-fb3e-49b9-b1d4-fd727cd1b0fb-971cf76b33.webp)
@@ -41,9 +41,9 @@ Este guia fornece um passo a passo de como realizar transações multisig usando
 
 ## 2. Recebendo fundos
 
-Cada conta gera vários tipos de endereços:
+Cada conta gera vários tipos de endereço:
 
-**Unified Address**
+**Endereço unificado**
 
 **Endereço somente Orchard**
 
@@ -52,7 +52,7 @@ Cada conta gera vários tipos de endereços:
 **Endereço transparente**
 
 
-Selecione o tipo que deseja usar e compartilhe-o para receber fundos.  
+Selecione o tipo que você quer usar e compartilhe-o para receber fundos.  
 
 
 ![img4](/content-images/c9de5dfe-e9d7-423d-8d90-35c1a08ffd5d-a0d6a4e7b7.webp)
@@ -63,39 +63,39 @@ Selecione o tipo que deseja usar e compartilhe-o para receber fundos.
 
 ## 3. Enviando fundos
 
-1. Vá para a seção **Destinatário**.  
+1. Vá até a seção **Destinatário**.  
 
 
 ![img5](/content-images/9f3a03b9-dd56-450c-a8dc-4370f9289138-3217d846b7.webp)
 
 
-3. Insira o **endereço do destinatário**.  
+3. Digite o **endereço do destinatário**.  
 
-4. Especifique o **valor** e o **memorando** opcional.  
+4. Informe o **valor** e, se quiser, um **memorando**.  
 
 5. Revise os detalhes da transação e **confirme**.  
 
 
-Quando a transação for concluída, o saldo será atualizado na sua lista de contas.  
+Quando a transação for concluída, o saldo é atualizado na sua lista de contas.  
 
 
 ![img6](/content-images/6e6da76b-cd18-4567-a5c0-74f07ddefc64-78dc3362dc.webp)
 
 
-## 4. Realizando transações multisig: configurando a geração distribuída de chaves (DKG)
+## 4. Fazendo transações multisig: configurando a geração distribuída de chaves (multisig)
 
-O multisig no Zkool usa **Distributed Key Generation (DKG)** para garantir que vários participantes controlem uma conta compartilhada.
+O multisig no Zkool usa a **geração distribuída de chaves (DKG)** para garantir que vários participantes controlem uma conta compartilhada.
 
 
 
-### Etapa 1: Iniciar o DKG
-Escolha um **Nome** para a carteira compartilhada (ex.: Anabelle).
+### Passo 1: Inicie a DKG
+Escolha um **Nome** para a carteira compartilhada (por exemplo, Anabelle).
 
 Defina o **Número de participantes**.
   
-Escolha seu **ID de participante**.
+Escolha o seu **ID de participante**.
   
-Defina o **Número de signatários necessários (limite)**.
+Defina o **Número de assinantes necessários (limite)**.
     
 Selecione a **Conta de financiamento**.
   
@@ -104,16 +104,16 @@ Selecione a **Conta de financiamento**.
 
 
 
-### Etapa 2: Adicionar endereços dos participantes
-- Insira o **Unified Address** de cada participante (recomendado).
+### Passo 2: Adicione os endereços dos participantes
+- Digite o **Endereço unificado** de cada participante (recomendado).
 
 
-**Observação:** Se você usar um endereço somente Orchard ou somente Sapling, o multisig ficará limitado apenas àquele pool (Orchard ou Sapling).  
-Isso significa que a carteira compartilhada não poderá receber fundos de outros pools.  
-Para máxima compatibilidade e flexibilidade, use sempre **Unified Addresses**.  
+**Observação:** Se você usar um endereço somente Orchard ou somente Sapling, o multisig ficará limitado apenas a essa pool (Orchard ou Sapling).  
+Isso significa que a carteira compartilhada não pode receber fundos de outras pools.  
+Para ter máxima compatibilidade e flexibilidade, use sempre **Endereços unificados**.  
 
 
-### Etapa 3: Executar as rodadas de DKG
+### Passo 3: Execute as rodadas da DKG
 Aguarde até que todos os participantes troquem os pacotes da **rodada 1** e da **rodada 2**.  
 
 
@@ -121,8 +121,8 @@ Aguarde até que todos os participantes troquem os pacotes da **rodada 1** e da 
 
 
 
-### Etapa 4: Finalizar o endereço compartilhado
-Quando concluído, um **endereço compartilhado** é gerado.  
+### Passo 4: Finalize o endereço compartilhado
+Ao final do processo, um **endereço compartilhado** é gerado.  
 
 
 ![img9](/content-images/741d1bc6-0102-4e67-bb83-9a1c184bd747-a508ea0371.webp)
@@ -131,4 +131,4 @@ Quando concluído, um **endereço compartilhado** é gerado.
 
 ## Conclusão
 
-Usando Zkool, você pode: criar contas, enviar e receber fundos e configurar uma **carteira multisig** usando Distributed Key Generation. Isso garante **maior segurança** e **gestão colaborativa e privada de fundos**.
+Usando o Zkool, você pode criar contas, enviar e receber fundos e configurar uma **carteira multisig** usando a geração distribuída de chaves. Isso garante **mais segurança** e uma **gestão de fundos colaborativa e privada**.

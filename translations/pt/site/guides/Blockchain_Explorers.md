@@ -6,7 +6,7 @@
 
 ## Introdução
 
-No mundo empresarial tradicional, cada transação inclui um recibo como comprovante de compra. Da mesma forma, no mundo da blockchain, um usuário recebe um recibo digital na forma de um ID de transação para cada transação concluída. A maioria das carteiras o fornece. Os exploradores de blockchain são simplesmente ferramentas que permitem visualizar o que já aconteceu em uma blockchain. Eles recebem como entrada IDs de transação, endereços ou hashes de blocos e apresentam visualmente o que ocorreu.
+No mundo tradicional dos negócios, toda transação inclui um recibo como prova de compra. Da mesma forma, no mundo blockchain, o usuário recebe um recibo digital na forma de um ID de transação para cada transação concluída. A maioria das carteiras fornece isso para você. Exploradores de blockchain são simplesmente ferramentas que permitem visualizar o que já aconteceu em uma blockchain. Eles recebem como entrada IDs de transação, endereços ou hashes de bloco e mostram visualmente o que ocorreu.
 
 ## Exemplos
 <div>
@@ -24,64 +24,65 @@ No mundo empresarial tradicional, cada transação inclui um recibo como comprov
 </div>
 
 
-#### Repare que, com o Zcash, a segunda transação tem todos os detalhes importantes ocultos; isso é importante e tem grandes implicações em um mundo digital.
+#### Observe no Zcash como a segunda transação tem todos os detalhes importantes ocultos. Isso é importante e tem grandes implicações em um mundo digital.
 
 
-## Mapas de blockchain
+## Mapas da blockchain
 
-Temos então esta longa sequência de caracteres como recibo digital; e agora? É aqui que usamos um [explorador de blockchain](https://nym.com/blog/using-blockchain-privately), ou mapa, para nos ajudar a entender o que aconteceu na blockchain. Repare como cada chain tem sua própria versão de [explorador de blockchain](https://nym.com/blog/using-blockchain-privately) acima. É importante entender que todos esses projetos de blockchain são exemplos de software de código aberto. Ou seja, qualquer pessoa pode contribuir para o código e/ou fazer fork dele como quiser. Com isso em mente, cada projeto se especializa em áreas diferentes e personaliza o explorador de blockchain para atender às necessidades desse projeto.
+Então temos essa longa sequência de caracteres como recibo digital. E agora? É aqui que usamos um [explorador de blockchain](https://nym.com/blog/using-blockchain-privately), ou mapa, para nos ajudar a entender o que aconteceu na blockchain. Observe como cada chain tem sua própria versão de [explorador de blockchain](https://nym.com/blog/using-blockchain-privately) acima. É importante entender que todos esses projetos de blockchain são exemplos de software de código aberto. Ou seja, qualquer pessoa pode contribuir com o código e/ou fazer um fork dele como quiser. Com isso em mente, cada projeto se especializa em áreas diferentes e personaliza o explorador de blockchain para atender às necessidades do projeto.
 
 ### Blocos
-As transações são colocadas em *blocos*. Quando um bloco é minerado/validado, cada transação dentro desse bloco é confirmada e um hash de bloco é criado. Qualquer hash criado pode ser inserido em um explorador de blocos. Você pode ter visto CEXs precisando de um número de *confirmações* antes de liberarem seus fundos; essa é a métrica que usam para garantir que sua transação está 
-suficientemente finalizada. Como a blockchain determina quais transações entram no próximo bloco? É um tema de pesquisa complexo, mas a maioria das chains modernas usa a ideia de *taxas* para determinar quem passa para a frente da fila. Quanto maior for a taxa, maior será a probabilidade de avançar para a frente da fila.
+As transações são colocadas em *blocos*. Quando um bloco é minerado/validado, todas as transações dentro dele são confirmadas e um hash de bloco é criado. Qualquer hash criado pode ser inserido em um explorador de blocos. Você já deve ter visto CEXs exigindo um certo número de *confirmações* antes de liberar seus fundos; essa é a métrica que elas usam para garantir que sua transação está 
+suficientemente finalizada. Como a blockchain determina quais transações entram no próximo bloco? É um tema de pesquisa complexo, mas a maioria das chains modernas usa a ideia de *taxas* para determinar quem vai para a frente da fila. Quanto maior a taxa, maior a chance de você avançar para o início da fila.
 
 ### Endereços
 
-Uma forma divertida de aprender visualmente sobre [exploradores de blockchain](https://nym.com/blog/using-blockchain-privately) é inserir o endereço de uma transação aleatória. Depois, você pode voltar no tempo e ver onde os fundos tiveram origem! Cada transação tem um endereço de entrada e um endereço de saída.  Com esta informação, você pode avançar e voltar facilmente a partir de qualquer transação que tenha sido gasta. Para quem gosta de quebra-cabeças, este é o equivalente digital de um enorme quebra-cabeça financeiro e pode ser usado para fins de transparência. Usar um explorador de blockchain não só torna isso muito mais fácil de visualizar, como *também destaca* a necessidade de privacidade nas transações. A menos que esteja usando Zcash blindado, você pode fazer isso com *qualquer* blockchain transparente: BTC, ETH, ATOM, DOGE, VTC, etc. ... . Este ponto é essencial para qualquer pessoa que use a blockchain de forma segura em uma transição para um futuro exclusivamente digital.
+Uma forma divertida de aprender visualmente sobre [exploradores de blockchain](https://nym.com/blog/using-blockchain-privately) é inserir o endereço de qualquer transação aleatória. Depois, você pode voltar no tempo e ver de onde os fundos vieram! Cada transação tem um endereço de entrada e um de saída. Com essa informação, é possível avançar e retroceder facilmente a partir de qualquer transação que tenha sido gasta. Para quem gosta de quebra-cabeças, isso é o equivalente digital de um enorme quebra-cabeça financeiro e pode ser usado para fins de transparência. Usar um explorador de blockchain não só torna isso muito mais fácil de visualizar, como *também evidencia* a necessidade de privacidade nas transações. A menos que você esteja usando Zcash blindado, você pode fazer isso com *qualquer* blockchain transparente: BTC, ETH, ATOM, DOGE, VTC etc. Esse ponto é crucial para qualquer pessoa que use a blockchain com segurança rumo a um futuro exclusivamente digital.
 
-### Montantes
+### Valores
 
-Assim como ocorre com os endereços acima, qualquer transação em uma blockchain pública exibe publicamente os montantes em destaque. Isso inclui os montantes nos endereços de entrada e de saída de qualquer transação. Uma exceção ocorre quando você escolhe usar Zcash blindado -- nesse caso, todos os montantes ficam ocultos. Para proprietários de pequenas empresas que precisam de privacidade para um *comércio justo*, isso é uma enorme vantagem!
+Assim como os endereços acima, qualquer transação em uma blockchain pública tem os valores disponíveis publicamente, totalmente à vista. Isso inclui os valores nos endereços de entrada e de saída de qualquer transação. Uma exceção é quando você escolhe usar Zcash blindado: então todos os valores ficam ocultos. Para pequenos empresários que precisam de privacidade para um *comércio justo*, isso é uma enorme vantagem!
 
-![Valores](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
+![amounts](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
 ### O que um explorador pode e não pode ver no Zcash
 
-#### TL;DR
-- Os endereços transparentes (`t`) são totalmente visíveis em um explorador, assim como no Bitcoin
-- As transações totalmente blindadas (z para z) ocultam o montante, os endereços e o memorando
+#### Resumo
+- Endereços transparentes (`t`) ficam totalmente visíveis em um explorador, assim como no Bitcoin
+- Transações totalmente blindadas (z para z) ocultam o valor, os endereços e o memorando
 - A taxa continua visível, mesmo em uma transação totalmente blindada
-- A blindagem (mover de `t` para blindado) e a remoção da blindagem (blindado de volta para `t`) são parcialmente visíveis, pois um dos lados é transparente
-- A privacidade se mantém apenas enquanto os fundos permanecem dentro dos pools blindados
+- A blindagem (mover de `t` para blindado) e a desblindagem (de blindado de volta para `t`) são parcialmente visíveis, porque um dos lados é transparente
+- A privacidade só se mantém enquanto os fundos permanecem dentro das pools blindadas
 
 O Zcash tem mais de um tipo de endereço, e um explorador os trata de formas muito diferentes.
 
-Os endereços transparentes, que começam por `t`, funcionam como no Bitcoin. Um explorador mostra o remetente, o destinatário, o montante e o rastro até a origem dos fundos.
+Os endereços transparentes, que começam com `t`, funcionam como no Bitcoin. Um explorador mostra o remetente, o destinatário, o valor e o rastro até a origem dos fundos.
 
-Os endereços blindados constituem o lado privado. Os fundos nos [pools blindados](https://zechub.wiki/using-zcash/shielded-pools#content) Sapling ou Orchard são protegidos por provas de conhecimento zero. Procure uma transação totalmente blindada e o explorador não conseguirá mostrar o montante, os endereços ou o memorando. Ele só pode confirmar que ocorreu uma transação válida e que ela foi registrada em um bloco. Este é o exemplo privado oculto mostrado perto do topo desta página.
+Os endereços blindados são o lado privado. Os fundos nas [pools blindadas](https://zechub.wiki/using-zcash/shielded-pools#content) Sapling ou Orchard são protegidos por provas de conhecimento zero. Consulte uma transação totalmente blindada e o explorador não conseguirá mostrar o valor, os endereços nem o memorando. Ele só pode confirmar que uma transação válida aconteceu e foi registrada em um bloco. Esse é o exemplo privado oculto mostrado perto do topo desta página.
 
-Um detalhe permanece visível mesmo nas transações totalmente blindadas: a taxa. As regras de consenso do Zcash exigem que a taxa transparente seja indicada explicitamente, pelo que um explorador pode sempre mostrá-la, mesmo quando os montantes estão ocultos. Por esse motivo, é boa prática usar a taxa padrão da carteira, para que sua transação não se destaque por pagar um montante incomum.
+Um detalhe continua visível mesmo em transações totalmente blindadas: a taxa. As regras de consenso do Zcash exigem que a taxa transparente seja declarada explicitamente, então um explorador sempre pode mostrá-la, mesmo quando os valores estão mascarados. Por isso, é uma boa prática usar a taxa padrão da carteira, para que sua transação não chame atenção por pagar um valor incomum.
 
-O explorador também pode ver quando os fundos atravessam os lados transparente e blindado. Mover fundos `t` para um pool é blindagem; movê-los novamente para fora é remoção da blindagem. Essas passagens são parcialmente visíveis porque um dos lados é transparente. Apenas a atividade privada z para z, que nunca toca em um endereço `t`, mantém tudo oculto exceto a taxa.
+O explorador também pode ver quando os fundos passam entre o lado transparente e o lado blindado. Mover fundos `t` para uma pool é blindar; tirá-los de volta é desblindar. Essas passagens são parcialmente visíveis porque um dos lados é transparente. Somente a atividade totalmente privada de z para z, que nunca toca um endereço `t`, mantém tudo oculto, exceto a taxa.
 
-A conclusão: a privacidade depende de permanecer dentro dos pools blindados. Assim que os fundos tocam em um endereço `t`, essa parte do seu histórico é tão pública quanto no Bitcoin. Para comprovar sua própria atividade blindada a alguém de sua escolha, como um contador, compartilhe uma chave de visualização em vez de torná-la pública. Consulte a página sobre [Chaves de visualização](https://zechub.wiki/zcash-tech/viewing-keys#content).
+A lição: a privacidade depende de permanecer dentro das pools blindadas. Quando os fundos tocam um endereço `t`, essa parte do histórico deles fica tão pública quanto no Bitcoin. Para comprovar sua própria atividade blindada a alguém que você escolher, como um contador, compartilhe uma chave de visualização em vez de torná-la pública. Veja a página [Chaves de visualização](https://zechub.wiki/zcash-tech/viewing-keys#content).
 
 
 ### Lista de exploradores de blocos do Zcash
 
-- [Explorador de blocos do Zcash](https://mainnet.zcashexplorer.app/)
+- [Explorador de blocos Zcash](https://mainnet.zcashexplorer.app/)
 
 - [3xpl](https://3xpl.com/zcash)
-
 
 - [ShieldedScan](https://shieldedscan.xyz)
 
 - [ZecBlock](https://zecblock.com/)
 
-- [SoChain](https://sochain.com/zec) ([rede de teste](https://sochain.com/zectest))
+- [SoChain](https://sochain.com/zec) ([testnet](https://sochain.com/zectest))
 
-- [ZecZcash Explorador](https://zeczcash.com/explorer)
+- [Explorador ZecZcash](https://zeczcash.com/explorer)
+
+
 
 ### Guia visual
 
@@ -89,7 +90,7 @@ Aqui estão quatro bons exemplos de diferentes exploradores de blockchain:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)
-* [Explorador de blocos do Zcash](https://mainnet.zcashexplorer.app)
+* [Explorador de blocos Zcash](https://mainnet.zcashexplorer.app)
 * [Mintscan](https://hub.mintscan.io/chains/ibc-network)
 
 

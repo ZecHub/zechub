@@ -1,50 +1,50 @@
 # Guia de estilo do ZecHub
 
-O estilo do ZecHub é simples e acessível. Damos as boas-vindas a todos e focamos na comunidade do Zcash.
+O estilo do ZecHub é simples e acessível. Acolhemos todos e focamos na comunidade Zcash.
 
 ## Princípios
 
-1. **Pronto para ajudar** - Demonstre aos usuários do Zcash que estamos do lado deles.
+1. **Pronto para ajudar** - Mostre aos usuários do Zcash que estamos do lado deles.
 
 2. **Breve e direto ao ponto:**  Transmita a mensagem mais simples possível. Comece pelo ponto mais importante.
 
-3. **Centrado no usuário:** Escrevemos primeiro para os usuários, depois para os desenvolvedores e, em terceiro lugar, para todos os outros.
+3. **Centrado no usuário:** Escrevemos primeiro para os usuários, em segundo lugar para os desenvolvedores e em terceiro para todos os demais.
 
 ## Noções básicas
 
-- **Vá direto ao ponto**. Comece pelo ponto mais importante. Antecipe as palavras-chave para facilitar a leitura dinâmica. Deixe claras as opções do usuário e os próximos passos.
+- **Vá direto ao ponto**. Comece pelo ponto mais importante. Coloque as palavras-chave no início para facilitar a leitura rápida. Deixe claras as opções e os próximos passos do usuário.
 
-- **Escreva como você fala**. Nossos usuários são pessoas reais. Fale com elas por escrito.
+- **Escreva como você fala**. Nossos usuários são pessoas reais. Converse com eles por escrito.
 
-- **Seja breve**. Dê aos usuários informações suficientes para que possam resolver um problema ou fazer uma escolha.
+- **Seja breve**. Dê aos usuários informações suficientes para que resolvam um problema ou façam uma escolha.
 
-- **Evite pontos finais nos títulos**. Remova a pontuação final em títulos, cabeçalhos, subtítulos, títulos de interface e itens de lista com três palavras ou menos. Pontos finais são usados em parágrafos e no corpo do texto.
+- **Dispense o ponto final em títulos**. Remova a pontuação final de títulos, cabeçalhos, subtítulos, títulos da interface e itens de lista com três palavras ou menos. O ponto final é usado em parágrafos e no corpo do texto.
 
-  - Exemplos: Press the Send button->Press the Send button
+  - Exemplos: Pressione o botão Enviar.->Pressione o botão Enviar
 
-- **Em caso de dúvida, evite letras maiúsculas**. Use maiúsculas apenas em nomes próprios ou nomes como Zcash, bem como na primeira palavra de um cabeçalho ou frase.
+- **Na dúvida, evite maiúsculas**. Use maiúscula apenas em nomes próprios ou nomes como Zcash, além da primeira palavra de um título ou frase.
 
-  - Exemplos: How to Send ZEC with Unified Address. → How to send ZEC with unified address
+  - Exemplos: Como Enviar ZEC com Endereço Unificado. → Como enviar ZEC com endereço unificado
 
-- **Reescreva textos fracos**. Na maioria das vezes, comece cada frase com um verbo. Expressões como You can e there were devem ser revisadas.
+- **Reescreva textos fracos**. Na maioria das vezes, comece cada frase com um verbo. Expressões como "você pode" e "havia" devem ser revisadas.
 
-  - Exemplos: You can send and receive ZEC from your mobile phone->Send and receive ZEC with your phone
+  - Exemplos: Você pode enviar e receber ZEC do seu celular->Envie e receba ZEC com seu celular
 
-- **Não exagere nos espaços**. Use apenas um espaço após pontos finais e dois-pontos.
+- **Não exagere nos espaços**. Use apenas um espaço depois de pontos e de dois-pontos.
 
-- **Evite palavras que não sejam em inglês** como de facto ou ad hoc. Evite abreviações latinas de expressões comuns em inglês.
+- **Evite palavras que não sejam do inglês**, como de facto ou ad hoc. Evite abreviações latinas de expressões comuns em inglês.
 
     | Use isto    | Em vez disto |
     |-------------|-----------------|
-    | Por exemplo | e.g.            |
-    | Isto é      | i.e.            |
+    | por exemplo | e.g.            |
+    | isto é      | i.e.            |
 
 ## Tweets
 
-> Este guia geral de estilo destina-se à redação de artigos ou guias do usuário para o ZecHub. Também se aplica a tweets e outras declarações curtas: mantenha-os breves, apresente o ponto principal logo no início e omita a pontuação final em linhas curtas.
+> Este guia de estilo geral serve para escrever artigos ou guias do usuário para o ZecHub. Ele também se aplica a tweets e a outros textos curtos: seja breve, coloque o ponto principal no início e dispense a pontuação final em linhas curtas.
 
 ---
 
 <small>
-O guia de estilo do ZecHub é adaptado do <a href="https://learn.microsoft.com/en-us/style-guide/">Guia de estilo de redação da Microsoft</a> com modificações. Consulte o guia da Microsoft quando precisar.
+O guia de estilo do ZecHub é adaptado do <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Writing Style Guide</a>, com modificações. Consulte o guia da Microsoft quando precisar.
 </small>

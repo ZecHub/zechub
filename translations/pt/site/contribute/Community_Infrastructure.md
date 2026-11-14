@@ -2,28 +2,28 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Estrutura da infraestrutura da comunidade ZecHub
+# Estrutura de infraestrutura comunitária do ZecHub
 
 
-### Infraestrutura da comunidade 
+### Infraestrutura comunitária 
 
-O programa de recompensas ZecHub é a forma remunerada para este trabalho: [ZEC Bounties](https://bounties.zechub.wiki/). Como escolher um valor de ZEC: [política de valores de recompensas](https://bounties.zechub.wiki/docs/bounty-amounts). Fluxo de trabalho dos colaboradores: [Contribuir para ZecHub](https://zechub.wiki/contribute/contributing-guide).
+O programa de recompensas ZecHub é o caminho remunerado para este trabalho: [ZEC Bounties](https://bounties.zechub.wiki/). Como escolher um valor em ZEC: [política de valores das recompensas](https://bounties.zechub.wiki/docs/bounty-amounts). Fluxo de trabalho para colaboradores: [Como contribuir com o ZecHub](https://zechub.wiki/contribute/contributing-guide). 
 
 
 ## Guias úteis 
 
-- [Guia para desenvolvedores ZecHub](https://zechub.wiki/developers)
+- [Guia do desenvolvedor do ZecHub](https://zechub.wiki/developers)
 
-- [Documentação do Zcash Readthedocs](https://zcash.readthedocs.io/en/latest/)
+- [Readthedocs do Zcash](https://zcash.readthedocs.io/en/latest/)
 
-- [O livro Zebra](https://zebra.zfnd.org)
+- [O livro do Zebra](https://zebra.zfnd.org)
 
-- [Documentação da rede Akash](https://akash.network/docs/)
+- [Documentação da Akash Network](https://akash.network/docs/)
 
-- [Configurar o Zebrad na rede Akash](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Configurando o Zebrad na Akash Network](https://zechub.wiki/guides/akash-network-zebra#content)
 
-- [Explicação sobre solicitações de pagamento do Zcash (vídeo)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
+- [Solicitações de pagamento do Zcash explicadas (vídeo)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
 - [Especificação ZIP-321](https://zips.z.cash/zip-0321)
 
-Se você precisar de orientação especializada de desenvolvedores do Zcash, pode publicar uma mensagem no [Fórum da Comunidade](https://forum.zcashcommunity.com).
+Se você precisar de orientação aprofundada de desenvolvedores do Zcash, pode fazer uma publicação no [Fórum da comunidade](https://forum.zcashcommunity.com).

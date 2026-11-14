@@ -1,27 +1,27 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="ícone de jornalista"/> Envie Dinheiro Sem Vincular Sua Identidade
+# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> Envie dinheiro sem vincular sua identidade
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Intermediário - 7 min</span>
 
-## TL;DR
+## Resumo
 
-- Sempre envie de um **endereço blindado**
+- Sempre envie a partir de um **endereço blindado**
 - Evite transações diretas de t para t
-- Quebre a possibilidade de vinculação entre identidades
-- Tenha atenção ao momento e aos padrões
+- Quebre a vinculação entre identidades
+- Fique atento ao momento e aos padrões
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de usuário"/> Para quem é isso?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Para quem é este guia?
 
-- Qualquer pessoa que envie pagamentos sensíveis
-- Usuários preocupados com privacidade
-- Pessoas que operam sob risco de vigilância
+- Qualquer pessoa que envia pagamentos sensíveis
+- Usuários preocupados com a privacidade
+- Pessoas que correm risco de vigilância
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de aviso"/> O Problema
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> O problema
 
-Enviar cripto frequentemente revela:
+Enviar criptomoedas muitas vezes revela:
 - A identidade da sua carteira
 - Seu histórico de transações
 - Com quem você interage
@@ -30,10 +30,10 @@ Isso cria um **grafo financeiro rastreável**.
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> Por que Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Por que Zcash?
 
 
-Zcash permite **transferências totalmente privadas** usando transações blindadas.
+O Zcash permite **transferências totalmente privadas** usando transações blindadas.
 
 Isso quebra:
 - A vinculação entre endereços
@@ -41,52 +41,52 @@ Isso quebra:
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de caixa de ferramentas"/> O Que Você Precisa
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> O que você precisa
 
-- Uma carteira que ofereça suporte a transações blindadas
-- Compreensão básica de endereços z
+- Uma carteira que suporte transações blindadas
+- Noções básicas sobre z-addresses
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de etapa"/> Guia Passo a Passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guia passo a passo
 
-### Etapa 1: Garanta que os fundos estejam blindados
+### Passo 1: garanta que seus fundos estejam blindados
 
-Se os seus fundos estiverem em um endereço transparente:
-- Mova-os primeiro para um endereço blindado
-
-
-### Etapa 2: Envie de blindado para blindado
-Sempre prefira uma transação `z to z`
-
-Isso garante privacidade máxima.
+Se seus fundos estiverem em um endereço transparente:
+- Primeiro, mova-os para um endereço blindado
 
 
-### Etapa 3: Evite a vinculação de identidade
+### Passo 2: envie de blindado para blindado
+Sempre prefira a transação `z to z`
+
+Isso garante o máximo de privacidade.
+
+
+### Passo 3: evite vincular sua identidade
 
 NÃO:
 - Anuncie transações publicamente
 - Reutilize o mesmo endereço em contextos diferentes
 - Vincule endereços a identidades conhecidas
 
-### Etapa 4: Considere padrões de tempo
+### Passo 4: considere os padrões de tempo
 
 Dica avançada:
-- Evite enviar imediatamente após receber grandes quantias
+- Evite enviar logo após receber grandes quantias
 - Quebre padrões previsíveis sempre que possível
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de cancelamento"/> Erros Comuns a Evitar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Erros comuns a evitar
 
 - Enviar diretamente de endereços transparentes  
 - Reutilizar endereços com várias pessoas  
 - Confirmar transações publicamente  
-- Ignorar metadados (tempo, frequência)
+- Ignorar os metadados (momento, frequência)
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de concluído"/> Resultado
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Resultado
 
 Você pode:
 - Enviar fundos de forma privada
@@ -100,14 +100,14 @@ Você pode:
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="ícone de progresso"/> Progresso
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progresso
 
-**Etapa 2 de 6**
+**Passo 2 de 6**
 
 Agora você pode enviar fundos de forma privada sem expor sua identidade.
 
 <br/>
 
-## Próxima etapa
+## Próximo passo
 
-- [Configuração de privacidade para freelancer](/zcash-use-cases/freelance-privacy-setup)
+- [Configuração de privacidade para freelancers](/zcash-use-cases/freelance-privacy-setup)

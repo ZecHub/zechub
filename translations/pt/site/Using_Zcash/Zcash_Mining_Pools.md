@@ -2,7 +2,7 @@
 
 ## O que são pools de mineração de Zcash?
 
-As pools de mineração de Zcash são serviços que permitem aos mineradores individuais combinar seu poder computacional (hashrate). Ao agregar recursos, os participantes aumentam suas probabilidades de resolver blocos da rede e recebem pagamentos consistentes e menores, em vez de dependerem do sistema de loteria imprevisível da mineração solo.
+Os pools de mineração de Zcash são serviços que permitem que mineradores individuais combinem seu poder computacional (hashrate). Ao reunir recursos, os participantes aumentam suas chances de resolver blocos da rede e recebem pagamentos menores e mais regulares, em vez de depender do sistema imprevisível de loteria da mineração solo.
 
 ---
 
@@ -17,8 +17,8 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 </a>
 
 - Site: [Luxor](https://luxor.tech/)
-- Pagamentos privados: Sim
-- Tipo de pool: Pagamento por participação
+- Pagamentos privados: SIM
+- Tipo de pool: Pay Per Share
 - Taxa do pool: 3%
 
 ---
@@ -31,7 +31,7 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 
 - Site: [2Miners](https://zec.2miners.com/)
 - Pagamentos privados: Não
-- Tipo de pool: Pagamento pelas últimas N
+- Tipo de pool: Pay Per Last N 
 - Taxa do pool: 1%
 
 ---
@@ -44,7 +44,7 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 
 - Site: [Nanopool](https://zec.nanopool.org/)
 - Pagamentos privados: Não
-- Tipo de pool: Pagamento pelas últimas N
+- Tipo de pool: Pay Per Last N 
 - Taxa do pool: 1%
 
 ---
@@ -56,8 +56,9 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 </a>
 
 - Site: [Poolin](https://www.poolin.com/)
+- Status: A Poolin Technology PTE. LTD. está em recuperação judicial pelo Chapter 11 desde 22 de julho de 2026 (processo nº 26-18325, Tribunal de Falências dos EUA, Distrito de Nova Jersey; [informações do processo](https://veritaglobal.net/Poolin)). Confirme que o pool ainda minera e paga ZEC antes de direcionar seu hashrate para ele (verificado em 13 de novembro de 2026).
 - Pagamentos privados: Não
-- Tipo de pool: Pagamento por participação
+- Tipo de pool: Pay Per Share
 - Taxa do pool: 3%
 
 ---
@@ -70,7 +71,7 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 
 - Site: [Antpool](https://v3.antpool.com/home)
 - Pagamentos privados: Não
-- Tipo de pool: Pagamento por participação
+- Tipo de pool: Pay Per Share
 - Taxa do pool: 3%
 
 ---
@@ -83,7 +84,7 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 
 - Site: [ViaBTC](https://www.viabtc.com/en/)
 - Pagamentos privados: Não
-- Tipo de pool: Pagamento por participação+
+- Tipo de pool: Pay Per Share+
 - Taxa do pool: 4%
 
 ---
@@ -96,8 +97,8 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 
 - Site: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
 - Pagamentos privados: Não
-- Tipo de pool: Pagamento pelas últimas N participações
-- Taxa do pool: Não pública
+- Tipo de pool: Pay Per Last N Shares
+- Taxa do pool: Não divulgada publicamente
 
 ---
 
@@ -109,7 +110,7 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 
 - Site: [suprnova](https://zec.suprnova.cc/)
 - Pagamentos privados: Não
-- Tipo de pool: Pagamento pelas últimas N participações
+- Tipo de pool: Pay Per Last N Shares
 - Taxa do pool: 0,5% - 1%
 
 ---
@@ -121,8 +122,8 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 </a>
 
 - Site: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- Pagamentos privados: Pago em Bitcoin (BTC)
-- Tipo de pool: Mercado de hashrate / Proxy de pool
+- Pagamentos privados: pagamento em Bitcoin (BTC)
+- Tipo de pool: Marketplace de hashrate / pool proxy
 - Taxa do pool: 0,5% - 1%
 
 ---
@@ -134,14 +135,15 @@ As pools de mineração de Zcash são serviços que permitem aos mineradores ind
 </a>
 
 - Site: [Sovright Mining Pool](https://mining.sovright.com/)
-- Pagamentos privados: Sim
-- Tipo de pool: Pagamento pelas últimas N participações (PPLNS)
+- Pagamentos privados: SIM
+- Tipo de pool: Pay Per Last N Shares (PPLNS)
 - Taxa do pool: 1%
+
 
 ---
 
-## Antigas pools de Zcash
+## Antigos pools de Zcash
 
 ### Slush Pool (Braiins Pool)
 
-O Braiins Pool não é atualmente uma opção de mineração de Zcash. O [FAQ oficial do pool](https://academy.braiins.com/braiins-pool/faqs/pool) lista o Bitcoin como a moeda suportada e informa que não há planos de suportar altcoins (verificado em 12 de novembro de 2026).
+O Braiins Pool não é uma opção atual de mineração de Zcash. Seu [FAQ oficial do pool](https://academy.braiins.com/braiins-pool/faqs/pool) lista o Bitcoin como a moeda suportada e afirma que não há planos de suportar altcoins (verificado em 12 de novembro de 2026).
