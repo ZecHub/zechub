@@ -142,3 +142,11 @@ ___
 - Website: https://leodex.io/
 - Description: Crosschain swaps with no account and no KYC. Send BTC, ETH and more from any wallet, exchange or cold storage to a one-time deposit address and receive ZEC — no wallet connection required.
 
+___
+
+### GhostSwap
+
+<img src="/content-images/ghostswap.webp" alt="GhostSwap" width="200" height="100"/>
+
+- Website: https://ghostswap.io/zcash-exchange/
+- Description: Swap ZEC with 1,600+ coins, including BTC, ETH, USDT and XMR. Starting a swap needs no account, email or ID upload, and the coins go straight to your own wallet. A Tor onion mirror is available.
