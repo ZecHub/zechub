@@ -4,7 +4,7 @@
 
 # Viewing Keys
 
-屏蔽地址让您可以在 Zcash blockchain 上进行交易，同时尽可能少地暴露信息。那么，当您*确实*需要向特定方展示您持有什么或发送了什么时，会发生什么？每个屏蔽地址都有一个 viewing key，它授予读取权限，但不授予花费能力。Viewing keys 最初在 [ZIP 310](https://zips.z.cash/zip-0310) 中提出，并在 Sapling 网络升级中加入协议。
+屏蔽地址让您可以在 Zcash blockchain 上进行交易，同时尽可能少地暴露信息。那么，当您*确实*需要向特定方展示您持有什么或发送了什么时，会发生什么？viewing key 授予读取权限，但不授予花费能力。Sprout 已有 viewing key；Sapling 增加了诸如检测已接收的 note 是否已被花费等功能。[ZIP 310](https://zips.z.cash/zip-0310) 是一份记录 Sapling viewing key 安全属性的信息性草案，而非引入 viewing key 的升级。
 
 Viewing key 是用于选择性披露的工具：您可以选择谁能看到什么，并且无需交出花费权限。
 
@@ -12,7 +12,7 @@ Viewing key 是用于选择性披露的工具：您可以选择谁能看到什�
 
 Viewing key 授予对屏蔽 Zcash 地址或账户活动的**只读**访问权限：持有者可以查看传入交易（以及对于完整 viewing key 而言的传出交易），但永远无法花费。
 
-- **它是什么：** 屏蔽池的选择性披露工具。最初在 [ZIP 310](https://zips.z.cash/zip-0310) 中提出，并在 Sapling 网络升级中加入协议。
+- **它是什么：** 屏蔽池的选择性披露工具，其功能因 pool 和密钥类型而异。[ZIP 310](https://zips.z.cash/zip-0310) 记录了 Sapling 完整 viewing key 会揭示什么，以及哪些信息是保证、未经验证、未定义或未披露的。
 - **它授予什么：** 检测存款（`uivk…` 传入密钥），或查看账户完整的传入/传出记录（`uview…` 统一完整 viewing keys），以及旧版 Sapling `zxviews…` 密钥。
 - **它不授予什么：** 花费权限。Viewing key 持有者所做的任何事情都无法转移资金。
 - **目前适用范围：** 在 [Zallet](https://github.com/zcash/zallet)（v0.1.0-beta.2+、`z_exportviewingkey` / `z_importviewingkey`）中导出/导入，以及在诸如 Zkool 等钱包中使用仅监视账户；请参阅 [钱包](/using-zcash/wallets) 页面了解当前支持矩阵。

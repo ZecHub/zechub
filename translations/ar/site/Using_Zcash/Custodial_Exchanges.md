@@ -8,6 +8,19 @@ Ironwood هو مجمع الحماية الذي وصل مع ترقية الشبك
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="شعار AltQuick" width="200" height="100"/>
+</a>
+
+- الموقع الإلكتروني: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- الأزواج: ZEC/BTC
+- يدعم: Transparent
+- وقت الإيداع: حوالي 30 دقيقة (24 تأكيدًا)
+- Ironwood: لا ينطبق، العناوين الشفافة فقط
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

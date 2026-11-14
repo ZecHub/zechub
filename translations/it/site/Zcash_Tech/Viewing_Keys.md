@@ -4,7 +4,7 @@
 
 # Chiavi di visualizzazione
 
-Gli indirizzi schermati consentono di effettuare transazioni rivelando il meno possibile sulla blockchain di Zcash. Quindi cosa succede quando *devi* mostrare a una parte specifica ciò che possiedi o ciò che hai inviato? Ogni indirizzo schermato ha chiavi di visualizzazione che concedono l'accesso in lettura senza concedere la possibilità di spendere. Le chiavi di visualizzazione sono state introdotte in [ZIP 310](https://zips.z.cash/zip-0310) e aggiunte al protocollo nell'aggiornamento di rete Sapling.
+Gli indirizzi schermati consentono di effettuare transazioni rivelando il meno possibile sulla blockchain di Zcash. Quindi cosa succede quando *devi* mostrare a una parte specifica ciò che possiedi o ciò che hai inviato? Una chiave di visualizzazione concede l'accesso in lettura senza concedere la possibilità di spendere. Le chiavi di visualizzazione esistevano già per Sprout; Sapling ha aggiunto funzionalità come rilevare quando una nota ricevuta viene spesa. [ZIP 310](https://zips.z.cash/zip-0310) è una bozza informativa che documenta le proprietà di sicurezza delle chiavi di visualizzazione di Sapling, non l'aggiornamento che ha introdotto le chiavi di visualizzazione.
 
 Le chiavi di visualizzazione sono lo strumento per la divulgazione selettiva: scegli chi vede cosa e non cedi mai l'autorità di spesa per farlo.
 
@@ -12,7 +12,7 @@ Le chiavi di visualizzazione sono lo strumento per la divulgazione selettiva: sc
 
 Una chiave di visualizzazione concede accesso **in sola lettura** all'attività di un indirizzo o account schermato di Zcash: chi la possiede può vedere le transazioni in entrata (e, per le Full Viewing Key, quelle in uscita), ma non può mai spendere.
 
-- **Cos'è:** lo strumento di divulgazione selettiva delle pool schermate. Introdotto in [ZIP 310](https://zips.z.cash/zip-0310), aggiunto al protocollo con l'aggiornamento di rete Sapling.
+- **Cos'è:** lo strumento di divulgazione selettiva delle pool schermate, con funzionalità che variano in base alla pool e al tipo di chiave. [ZIP 310](https://zips.z.cash/zip-0310) documenta cosa rivela una chiave di visualizzazione completa Sapling e quali informazioni sono garantite, non verificate, non definite o non rivelate.
 - **Cosa consente:** il rilevamento dei depositi (chiavi in entrata `uivk…`) o la visibilità completa in entrata e in uscita di un account (chiavi di visualizzazione complete unificate `uview…`), oltre alle chiavi legacy Sapling `zxviews…`.
 - **Cosa non consente:** l'autorità di spesa. Nulla di ciò che fa il titolare di una chiave di visualizzazione può spostare fondi.
 - **Dove funziona oggi:** esportazione/importazione in [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) e account di sola visualizzazione in portafogli come Zkool; consulta la pagina [Wallets](/using-zcash/wallets) per la matrice di supporto aggiornata.

@@ -8,6 +8,19 @@ Ironwood는 2026년 7월 네트워크 업그레이드와 함께 도입된 실드
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- 웹사이트: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- 거래쌍: ZEC/BTC
+- 지원: 투명 주소
+- 입금 시간: 약 30분 (24회 컨펌)
+- Ironwood: 해당 없음, 투명 주소만 지원
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

@@ -186,7 +186,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Testnet | Blockchain terpisah untuk menguji peningkatan dan fitur sebelum mainnet. |
 | Trailing Finality Layer (TFL) | Penelitian untuk menambahkan lapisan finalitas di belakang rantai proof-of-work milik Zcash sehingga blok terbaru dapat difinalisasi tanpa menggantikan penambangan. Crosslink adalah desain yang dihasilkan dari penelitian tersebut. |
 | Transaction | Pembayaran antar pengguna, yang dikirimkan ke jaringan dan akhirnya dikonfirmasi dalam sebuah blok. |
-| Transaction Expiry | Transaksi kedaluwarsa setelah sekitar 25 menit (20 blok) jika tidak dikonfirmasi; dana akan kembali secara otomatis. |
+| Transaction Expiry | Batas ketinggian blok untuk kapan pembayaran yang belum ditambang dapat dimasukkan. Pembayaran biasa dengan ketinggian kedaluwarsa N yang bukan nol dapat ditambang pada blok N atau sebelumnya, tetapi tidak pada N+1. Ketinggian 0 menonaktifkan kedaluwarsa. Ini bukan timer pengembalian dana otomatis. [ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | Biaya default adalah 0.0001 ZEC. Biaya yang lebih tinggi mendapatkan prioritas; biaya yang sangat rendah dapat menyebabkan penundaan atau kedaluwarsa. |
 | Transparent Address | Juga disebut taddr. Dimulai dengan t. Sepenuhnya publik (seperti Bitcoin). |
 | Transparent Transaction | Transaksi yang secara eksklusif terjadi antara alamat transparan - semuanya dapat dilihat secara publik. |

@@ -12,6 +12,18 @@ Sapling 是第二次重大 Zcash 网络升级，于 Zcash 两周年之际激活�
 
 为什么这很重要。在 Sapling 之前，进行真正私密的支付意味着要等待数分钟，同时电脑需耗用数 GB 内存来构建证明（proof）。这对大多数人来说太慢、太占资源，因此许多用户、交易所和商家跳过了屏蔽交易，转而公开发送 ZEC。Sapling 将所需工作量降至数秒和约 40 MB 内存。正是这一项改变，让日常生活中在普通手机和硬件钱包上使用屏蔽 ZEC 成为现实。
 
+## 简而言之 [TL;DR]
+
+- Sapling 是第二次重大 Zcash 网络升级（network upgrade），于区块（block）419,200（2018 年 10 月 29 日 02:15 UTC）激活——即 Zcash 的二周年。
+- 它围绕两个专用电路（Spend 和 Output）重建了屏蔽交易（shielded transaction），取代了 Sprout 的单一且缓慢的 JoinSplit 电路（ZIP 205，ZIP 243）。
+- 结果：证明（proof）构建时间从数分钟和数 GB 内存降至数秒和约 40 MB——轻量到足以用于手机和硬件钱包。
+- 新功能：多样化地址（一个密钥可生成多个不可关联支付地址）、用于仅审计访问的 viewing key，以及将证明生成与签名解耦。
+- 其参数来自一场两阶段多方仪式（Powers of Tau + Sapling MPC）；只要有一名参与者诚实，安全性便可成立。
+
+## 视觉类比 [Visual analogy]
+
+Sprout 就像一位私人信使，徒步亲手将每一封信送遍全国——隐私性极佳，但缓慢又疲惫。Sapling 则将同一位信使变成背着轻便背包的骑行者：依然保护隐私，但速度已足以应对日常投递。而新的 viewing key 就像为审计员打开一扇能清楚查看信使日志的窗口，同时绝不交出货物的密钥。
+
 ## 有何变化
 
 Sapling 的核心，是一种能更快构建零知识（zero-knowledge）证明的方法，以保持屏蔽交易的私密性。原始 Sprout 设计采用单一证明电路（JoinSplit 电路），速度缓慢且内存占用高。Sapling 将其替换为两个专用电路，即 Spend 电路和 Output 电路，详见 Zcash 协议规范。结果是成本大幅下降。根据 Electric Coin Company，屏蔽交易可在仅数秒内使用约 40 MB 内存构建完成。Sapling 之前的 Sprout 基准则重得多，需要数分钟和数 GB 内存（这些 Sprout 端数据是被广泛引用的大致基准）。
@@ -35,6 +47,14 @@ Sapling 的电路依赖一组必须谨慎生成的公开参数。如果单一方
 Sapling 紧随 Overwinter 之后，后者是 2018 年 6 月为网络升级机制做准备的升级。Electric Coin Company 在 2018 年 8 月发布的 zcashd 2.0.0 中设定了主网激活高度；当区块 419,200 被挖出时，网络切换至 Sapling 规则。在链上，这一时刻由 Sapling 共识分支 ID 标记。
 
 ![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
+
+## 常见错误
+
+- **认为屏蔽支付 [shielded payments] 始终可用。** 在 Sapling 之前，证明构建 [proof construction] 需要数分钟和数 GB 内存，因此大多数用户、交易所 [exchanges] 和商家完全跳过了屏蔽交易 [shielded transactions]。
+- **认为 Sapling 的地址与 Sprout 的地址相同。** Sapling 引入了自己的地址和密钥类型（以及多样化地址和 viewing key）；Sprout 密钥无法与 Sapling 地址互操作。
+- **认为可信设置 [trusted setup] 是"一家公司的秘密"。** 它是一场多方仪式：只有当每位参与者都串通时，证明才可能被伪造。
+- **认为 Sapling 改变了发行量 [issuance] 或余额 [balances]。** 它改变了屏蔽交易的构建方式——没有 ZEC 金额受到影响。
+- **认为证明生成和签名必须在同一设备上进行。** Sapling 的解耦 [decoupling] 正是让硬件钱包 [hardware wallets] 能够保持花费密钥隔离，同时由另一台设备构建证明的原因。
 
 ## 术语表
 
@@ -88,5 +108,12 @@ Sprout 和 Sapling 有什么区别？Sprout 是第一个屏蔽协议，采用一
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
+
+## 相关页面 [Related Pages]
+
+- [Viewing Keys](./Viewing_Keys.md) — 由Sapling引入的审计共享功能
+- [Sprout](./Sprout.md) — 被Sapling取代的原始屏蔽协议
+- [Blossom](./Blossom.md) — 系列中的下一次升级（区块时间，而非密码学）
+- [zk_SNARKS](./zk_SNARKS.md) — 电路背后的零知识技术
 
 系列：[网络升级索引](../start-here/network-upgrades) · 上一篇：[Overwinter](../zcash-tech/overwinter) · 下一篇：[Blossom](../zcash-tech/blossom)

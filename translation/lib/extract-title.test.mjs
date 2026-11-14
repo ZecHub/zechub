@@ -88,3 +88,42 @@ test("hex entity decodes; malformed numeric entity does not crash", () => {
 test("image-only H1 with no alt and no other heading -> null", () => {
   assert.equal(extractTitle('# <img src="a.png"/>\n\nbody only\n'), null);
 });
+
+
+test("literal trailing hashes are part of the heading text", () => {
+  assert.equal(extractTitle("# Using C#\n"), "Using C#");
+  assert.equal(extractTitle("## Topic#\n"), "Topic#");
+  assert.equal(extractTitle("# C##\n"), "C##");
+});
+
+test("only whitespace-separated ATX closing hashes are removed", () => {
+  assert.equal(extractTitle("# C# ###\n"), "C#");
+  assert.equal(extractTitle("## Topic\t##\t\n"), "Topic");
+  assert.equal(extractTitle("# ###\n\n## Fallback\n"), "Fallback");
+});
+
+test("formatting does not turn a literal hash into closing syntax", () => {
+  assert.equal(extractTitle("# **C#**\n"), "C#");
+  assert.equal(extractTitle("# `C# ##`\n"), "C# ##");
+  assert.equal(extractTitle("# `C#` ###\n"), "C#");
+});
+
+test("a hash from an HTML entity remains heading text", () => {
+  assert.equal(extractTitle("# Pool &#35;\n"), "Pool #");
+  assert.equal(extractTitle("# Pool &#x23;\n"), "Pool #");
+});
+
+test("a hash in a Markdown link label remains heading text", () => {
+  assert.equal(extractTitle("# [C#](./csharp)\n"), "C#");
+  assert.equal(extractTitle("# Topic [#](./topic)\n"), "Topic #");
+});
+
+test("a hash inside inline HTML remains heading text", () => {
+  assert.equal(extractTitle("# <span>Pool #</span>\n"), "Pool #");
+  assert.equal(extractTitle("# <span>C#</span> ###\n"), "C#");
+});
+
+test("literal hashes do not change frontmatter or fenced-code precedence", () => {
+  assert.equal(extractTitle("---\nmenuTitle: C#\n---\n# Other\n"), "C#");
+  assert.equal(extractTitle("```md\n# Fake#\n```\n## Real#\n"), "Real#");
+});

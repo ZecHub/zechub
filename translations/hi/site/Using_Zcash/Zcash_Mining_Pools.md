@@ -1,25 +1,12 @@
-# Zcash माइनिंग पूल्स
+# Zcash माइनिंग पूल
 
-## Zcash माइनिंग पूल्स क्या हैं?
+## Zcash माइनिंग पूल क्या हैं?
 
-Zcash माइनिंग पूल्स ऐसी सेवाएं हैं जो व्यक्तिगत miners को अपनी computing power (hashrate) को मिलाने की अनुमति देती हैं। संसाधनों को एक साथ जोड़कर, प्रतिभागी नेटवर्क ब्लॉक्स को हल करने की अपनी संभावना बढ़ाते हैं और solo mining की अप्रत्याशित lottery system पर निर्भर रहने के बजाय नियमित, छोटे payouts कमाते हैं।
-
----
-
-## Zcash माइनिंग पूल्स की सूची:
+Zcash माइनिंग पूल ऐसी सेवाएँ हैं जो अलग-अलग माइनर (miner) को अपनी कंप्यूटिंग शक्ति (हैशरेट, hashrate) को एक साथ जोड़ने की सुविधा देती हैं। संसाधनों को एक पूल (pool) में मिलाकर प्रतिभागी नेटवर्क ब्लॉक (block) हल करने की अपनी संभावना बढ़ाते हैं। इससे उन्हें सोलो माइनिंग (mining) की अनिश्चित लॉटरी प्रणाली पर निर्भर रहने के बजाय नियमित और छोटे भुगतान मिलते हैं।
 
 ---
 
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
-</a>
-
-- वेबसाइट: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Private Payouts: हाँ
-- पूल प्रकार: Pay Per Share
-- पूल शुल्क: 2%
+## Zcash माइनिंग पूल की सूची:
 
 ---
 
@@ -30,22 +17,9 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 </a>
 
 - वेबसाइट: [Luxor](https://luxor.tech/)
-- Private Payouts: हाँ
-- पूल प्रकार: Pay Per Share
-- पूल शुल्क: 3%
-
----
-
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- वेबसाइट: [Flypool](https://zcash.flypool.org/)
-- Private Payouts: हाँ
-- पूल प्रकार: Pay Per Last N 
-- पूल शुल्क: 1%
+- निजी भुगतान (Private Payouts): हाँ
+- पूल का प्रकार: पे पर शेयर (Pay Per Share)
+- पूल शुल्क (fee): 3%
 
 ---
 
@@ -56,8 +30,8 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 </a>
 
 - वेबसाइट: [2Miners](https://zec.2miners.com/)
-- Private Payouts: नहीं
-- पूल प्रकार: Pay Per Last N 
+- निजी भुगतान: नहीं
+- पूल का प्रकार: पे पर लास्ट N (Pay Per Last N)
 - पूल शुल्क: 1%
 
 ---
@@ -70,7 +44,7 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 
 - वेबसाइट: [Nanopool](https://zec.nanopool.org/)
 - निजी भुगतान: नहीं
-- पूल प्रकार: Pay Per Last N 
+- पूल का प्रकार: पे पर लास्ट N
 - पूल शुल्क: 1%
 
 ---
@@ -82,8 +56,8 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 </a>
 
 - वेबसाइट: [Poolin](https://www.poolin.com/)
-- Private Payouts: नहीं
-- पूल प्रकार: Pay Per Share
+- निजी भुगतान: नहीं
+- पूल का प्रकार: पे पर शेयर
 - पूल शुल्क: 3%
 
 ---
@@ -95,8 +69,8 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 </a>
 
 - वेबसाइट: [Antpool](https://v3.antpool.com/home)
-- Private Payouts: नहीं
-- पूल प्रकार: Pay Per Share
+- निजी भुगतान: नहीं
+- पूल का प्रकार: पे पर शेयर
 - पूल शुल्क: 3%
 
 ---
@@ -108,22 +82,22 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 </a>
 
 - वेबसाइट: [ViaBTC](https://www.viabtc.com/en/)
-- Private Payouts: नहीं
-- पूल प्रकार: Pay Per Share+
+- निजी भुगतान: नहीं
+- पूल का प्रकार: पे पर शेयर+ (Pay Per Share+)
 - पूल शुल्क: 4%
 
 ---
 
-### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
+### [Foundry Zcash माइनिंग पूल](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
     <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
 </a>
 
-- वेबसाइट: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
-- Private Payouts: नहीं
-- पूल प्रकार: Pay Per Last N Shares
-- पूल शुल्क: सार्वजनिक रूप से उपलब्ध नहीं
+- वेबसाइट: [Foundry Zcash माइनिंग पूल](https://foundrydigital.com/foundry-zcash-pool/)
+- निजी भुगतान: नहीं
+- पूल का प्रकार: पे पर लास्ट N शेयर (Pay Per Last N Shares)
+- पूल शुल्क: सार्वजनिक नहीं
 
 ---
 
@@ -134,9 +108,9 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 </a>
 
 - वेबसाइट: [suprnova](https://zec.suprnova.cc/)
-- Private Payouts: नहीं
-- पूल प्रकार: Pay Per Last N Shares
-- पूल शुल्क: 0,5% - 1%
+- निजी भुगतान: नहीं
+- पूल का प्रकार: पे पर लास्ट N शेयर
+- पूल शुल्क: 0.5% - 1%
 
 ---
 
@@ -147,19 +121,28 @@ Zcash माइनिंग पूल्स ऐसी सेवाएं है�
 </a>
 
 - वेबसाइट: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- Private Payouts: भुगतान Bitcoin (BTC) में मिलता है
-- पूल प्रकार: Hashrate Marketplace / Proxy Pool
-- पूल शुल्क: 0,5% - 1%
+- निजी भुगतान: भुगतान Bitcoin (BTC) में मिलता है
+- पूल का प्रकार: हैशरेट मार्केटप्लेस (Hashrate Marketplace) / प्रॉक्सी पूल (Proxy Pool)
+- पूल शुल्क: 0.5% - 1%
 
 ---
 
-### [Sovright Mining Pool](https://mining.sovright.com/)
+### [Sovright माइनिंग पूल](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
     <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
 </a>
 
-- वेबसाइट: [Sovright Mining Pool](https://mining.sovright.com/)
-- Private Payouts: हाँ
-- पूल प्रकार: Pay Per Last N Shares (PPLNS)
+- वेबसाइट: [Sovright माइनिंग पूल](https://mining.sovright.com/)
+- निजी भुगतान: हाँ
+- पूल का प्रकार: पे पर लास्ट N शेयर (PPLNS)
 - पूल शुल्क: 1%
+
+
+---
+
+## पूर्व Zcash पूल
+
+### Slush Pool (Braiins Pool)
+
+Braiins Pool वर्तमान में Zcash माइनिंग का विकल्प नहीं है। इसके [आधिकारिक पूल FAQ](https://academy.braiins.com/braiins-pool/faqs/pool) में Bitcoin को समर्थित कॉइन के रूप में सूचीबद्ध किया गया है और कहा गया है कि इसकी ऑल्टकॉइन (altcoins) का समर्थन करने की कोई योजना नहीं है (12 नवंबर 2026 को जाँचा गया)।

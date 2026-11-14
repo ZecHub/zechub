@@ -37,14 +37,14 @@ Bir VPN hizmeti seçerken aşağıdaki güvenlik faktörlerini dikkate almak ön
 
 7. __Fiyat ve Özellikler__: İhtiyaçlarınıza ve bütçenize uygun olanı bulmak için farklı sağlayıcıların sunduğu maliyetleri ve özellikleri değerlendirin.
 
-# Zcash Kabul Eden VPN'ler
+# VPN hizmetleri ve Zcash ödemeleri
 
-Zcash (ZEC), gelişmiş gizlilik için tasarlanmış bir kripto para birimidir ve bu da onu finansal işlemlerinde anonimlik arayan kişiler için tercih edilen bir seçenek hâline getirir. Tüm VPN hizmetleri Zcash doğrudan kabul etmese de bazıları aracı hizmetler üzerinden kripto para ödemelerini kabul edebilir. Ancak, en güncel ödeme seçenekleri için doğrudan VPN sağlayıcısına danışmak önemlidir. İşte kripto para ödemelerini kabul ettiği bilinen birkaç VPN hizmeti:
+Zcash ödeme desteği her sağlayıcı için kontrol edilmelidir. Kripto para kabul etmek, mutlaka ZEC kabul edildiği anlamına gelmez ve üçüncü taraf bir borsaya veya satıcıya ödeme yapmak, VPN sağlayıcısına doğrudan ödeme yapmaktan farklıdır. Aşağıdaki hizmetlerin ödeme politikaları farklıdır; para göndermeden önce güncel kabul edilen para birimlerini doğrulayın.
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-   Mullvad VPN, kullanıcı gizliliği ve güvenliğine yönelik güçlü taahhüdüyle bilinen, saygın bir VPN hizmetidir. Ödeme yöntemi olarak 
-   Zcash dâhil olmak üzere kripto para kabul eden az sayıdaki VPN sağlayıcısından biridir. Mullvad'ın temel özellikleri şunlardır:
+Mullvad VPN, gizlilik odaklı bir VPN hizmetidir. Mullvad'ın [güncel ödeme SSS'si](https://mullvad.net/en/pricing), kabul edilen ödeme yöntemlerini listeler.
+Kripto para desteği, her coin için doğrudan destek anlamına gelmez. Mullvad'ın temel özellikleri şunlardır:
 
    __Kayıt Tutmama Politikası__: Mullvad, çevrimiçi etkinliklerinizle ilgili hiçbir veriyi saklamadığı anlamına gelen katı bir kayıt tutmama politikası izler.
 
@@ -56,7 +56,7 @@ Zcash (ZEC), gelişmiş gizlilik için tasarlanmış bir kripto para birimidir v
 
    __Anonim Hesap Oluşturma__: Kullanıcılara rastgele oluşturulmuş bir hesap numarası atanır ve kayıt sırasında kişisel bilgi gereksinimi ortadan kalkar.
 
-   __Zcash Ödemesi__: Mullvad, kullanıcıların abonelikleri için gelişmiş gizlilikle ödeme yapmasına olanak tanıyan bir ödeme seçeneği olarak Zcash kabul eder.Mullvad VPN.
+__Kripto para ödemeleri__: Yayımlanan listede Bitcoin, Bitcoin Cash ve Monero yer alır; Zcash yer almaz. Üçüncü taraf bir borsa veya satıcı ayrı bir hizmettir; bunu Mullvad'ın ZEC'yi doğrudan kabul etmesi olarak tanımlamayın.
 
 3. [__Nym VPN (dVPN)__](https://nym.com/)
    
@@ -71,9 +71,9 @@ Zcash (ZEC), gelişmiş gizlilik için tasarlanmış bir kripto para birimidir v
 
    __Güçlü Gizlilik__: Nym VPN gizlilik göz önünde bulundurularak tasarlanmıştır ve hesap oluştururken kullanıcıların kişisel bilgi vermesini gerektirmez.
 
-   Zcash cüzdanına özgü yönlendirme için bkz. [Nym Mixnet'i Üzerinden Zcash Cüzdan Trafiğini Yönlendirme](./Nym_Mixnet_Wallet_Setup.md).
+Zcash cüzdanına özgü yönlendirme için bkz. [Nym Mixnet'i Üzerinden Zcash Cüzdan Trafiğini Yönlendirme](../guides/Nym_Mixnet_Wallet_Setup.md).
 
-## Zcash ödemesini destekleyen diğer VPN'ler:-
+## İncelenecek diğer VPN sağlayıcıları
 
 3. [__ExpressVPN__](https://www.expressvpn.com/)
 4. [__NordVPN__](https://nordvpn.com/)

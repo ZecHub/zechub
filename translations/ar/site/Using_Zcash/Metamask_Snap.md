@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # دليل دمج MetaMask Zcash Snap
+
+> احتفظ بـZEC المُحصَّنة وأرسلها من امتداد المتصفح MetaMask، باستخدام Zcash Snap الخاصَّين بـChainSafe ومحفظة الويب WebZjs.
+
+## خلاصة سريعة
+
+* يضيف ChainSafe Zcash Snap ZEC محميًا إلى MetaMask على سطح المكتب (Chrome وEdge وFirefox). لا حاجة إلى برنامج Zcash منفصل.
+* تُشتق مفاتيح Zcash الخاصة بك من عبارة الاسترداد MetaMask الخاصة بك. وتحمي هذه العبارة الواحدة الآن كلاً من ETH وZEC.
+* تدير ZEC عبر محفظة WebZjs على webzjs.chainsafe.dev، وليس ضمن قائمة الأصول الخاصة بـMetaMask.
+* يحصل حسابك على عنوان موحّد، لذا يدفع لك المرسلون عبر أكثر مجموعة خاصة يدعمونها.
+* موّلها من خلال المبادلة (مثلًا من ETH إلى ZEC) أو بسحب ZEC من منصة تداول إلى عنوانك المحمي.
+* الاسترداد: أعد تثبيت MetaMask وSnap، ثم استورد عبارة الاسترداد الحالية الخاصة بك.
+
+## شرح أساسي
+
+MetaMask Snap هي إضافة صغيرة ومعزولة ضمن بيئة sandboxed تُعلِّم MetaMask شبكة blockchain جديدة. يتيح Zcash Snap، الذي بنته ChainSafe ودقّقته Hacken، لـMetaMask اشتقاق مفاتيح Zcash من عبارة الاسترداد الحالية لديك وتوقيع معاملات Zcash.
+
+MetaMask نفسه لا يعرض رصيدًا لـ ZEC. بدلًا من ذلك، تتصل محفظة الويب WebZjs بـ Snap، وتتزامن مع شبكة Zcash عبر خادم lightwalletd، وتعرض عناوينك ورصيدك. تُحتسب البراهين المحمية في متصفحك باستخدام WebAssembly، ولهذا قد تستغرق عمليات الإرسال لحظة.
+
+تغطي الخطوات أدناه تثبيت Snap، وتوصيل WebZjs، وتمويل المحفظة، والإرسال والاستلام، والتحقق من أجزاء عنوانك الموحّد.
+
+## الدليل الكامل
 
 للحصول على شرح كامل وتوضيح مرئي، شاهد [**دليل YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 

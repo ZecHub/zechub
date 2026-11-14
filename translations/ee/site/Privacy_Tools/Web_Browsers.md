@@ -7,7 +7,7 @@
 
 1. **Brave:** Eyae nye browser siwo ƒe ŋkɔ dze ŋgɔ na, eye wòle dedie ŋutɔ le ahịa me egbe. Etsɔa asi dea advertaisment kple tracker siwo wɔnɔa ame ƒe ɣaɣla [privacy] ŋu o. Etsɔa asi dea data si tso ame bubu gbɔ ƒe dzadzra o. 
 
-2. **Mulvad:** Eya nye web ƒe browser si wotu be wòanɔ ɣaɣla ŋu, si Mullvad VPN kple Tor Project wɔ ɖe asi. Wotu e be wòaɖe tracking kple fingerprinting dzi le anyi nu.
+2. **Mullvad:** Eya nye web ƒe browser si wotu be wòanɔ ɣaɣla ŋu, si Mullvad VPN kple Tor Project wɔ ɖe asi. Wotu e be wòaɖe tracking kple fingerprinting dzi le anyi nu.
 
 3. **Tor:** Browser sia dea asi pluginwo abe Flash, RealPlayer, QuickTime, kple bubuwo ene ŋu; woate ŋu akplɔ wo be woaɖe wò IP gaɖoƒe ƒe dzesi [address] afia. Míele aɖeɖe me be wòagblɔ add-on alo plugin bubuwo kple Tor Browser o.
 

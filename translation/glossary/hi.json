@@ -1,6 +1,6 @@
 {
   "locale": "hi",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Hindi",
     "native_name": "हिन्दी",
@@ -8,38 +8,2255 @@
     "script": "Deva",
     "dir": "ltr",
     "language_lead": [],
-    "last_review": null
+    "last_review": "2026-11-13"
   },
   "style": {
     "variety": "natural, fluent Hindi written in Devanagari script",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Hindi usage; do not force awkward coinages."
+    "register": "formal",
+    "english_in_brackets": "first-use",
+    "loanwords": "keep-english",
+    "loanwords_text": "Technical crypto terms keep the English word but are written in Devanagari (वॉलेट, ब्लॉकचेन, टोकन, स्मार्ट कॉन्ट्रैक्ट); never leave them in Latin script. Names of brands, products, organisations and protected terms stay in Latin script (Zcash, Zkool, Zenith).",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "“”",
+    "abbreviations_with_full_stop": [
+      "डॉ",
+      "प्रो"
+    ],
+    "writing_rules": [
+      "Address the reader with the formal आप everywhere, in tutorials and technical pages alike.",
+      "Use the same Devanagari spelling of a kept English term in headings, menus and body text; never switch between Latin and Devanagari for the same term.",
+      "Do not add English plural endings to borrowed words: वॉलेट, मेमो, टॉप-अप, ट्यूटोरियल, डेवलपर (not वॉलेट्स, मेमोज़).",
+      "Titles and menu labels use a noun, not the infinitive with करना: Zcash का उपयोग, not Zcash का उपयोग करना.",
+      "For a quotation inside a quotation use ‘ ’.",
+      "Technical abbreviations and acronyms (ZEC, ZIP, URL, SDK, API) have no full stops.",
+      "Never put English in brackets inside a Markdown link label."
+    ]
   },
   "terms": {
+    "wallet": {
+      "target": "वॉलेट",
+      "forms": [
+        "वॉलेट"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-1"
+    },
+    "shielded": {
+      "target": "शील्डेड",
+      "forms": [
+        "शील्डेड"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-2"
+    },
+    "transaction": {
+      "target": "लेनदेन",
+      "forms": [
+        "लेनदेन"
+      ],
+      "rejected": [
+        {
+          "text": "लेन-देन"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-3"
+    },
+    "privacy": {
+      "target": "गोपनीयता",
+      "forms": [
+        "गोपनीयता"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Both गोपनीयता and Privacy are correct",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-5"
+    },
+    "pool": {
+      "target": "पूल",
+      "forms": [
+        "पूल"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-6"
+    },
+    "proof": {
+      "target": "प्रूफ",
+      "forms": [
+        "प्रूफ"
+      ],
+      "rejected": [
+        {
+          "text": "प्रमाण"
+        }
+      ],
+      "context": "a cryptographic (zero-knowledge) proof",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Easier to understand",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-10"
+    },
     "node": {
       "target": "नोड",
       "forms": [
         "नोड"
       ],
-      "rejected": [
-        {
-          "text": "node",
-          "word": true,
-          "ci": true
-        },
-        {
-          "text": "nodes",
-          "word": true,
-          "ci": true
-        }
-      ],
-      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
       "applies_to": "both",
       "status": "approved",
       "reviewed_by": [
-        "@steward (legacy prompt head)"
+        "@AnirudhSingh07"
       ],
-      "reviewed_at": "2026-10-10",
-      "source": "prompt_head_hi.txt"
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-9"
+    },
+    "transparent": {
+      "target": "ट्रांसपेरेंट",
+      "forms": [
+        "ट्रांसपेरेंट"
+      ],
+      "rejected": [
+        {
+          "text": "पारदर्शी"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-12"
+    },
+    "exchange": {
+      "target": "एक्सचेंज",
+      "forms": [
+        "एक्सचेंज"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-16"
+    },
+    "memo": {
+      "target": "मेमो",
+      "forms": [
+        "मेमो"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "व्यूइंग की",
+      "forms": [
+        "व्यूइंग की"
+      ],
+      "rejected": [
+        {
+          "text": "व्यूइंग कुंजी"
+        }
+      ],
+      "context": "की here is the English word key written in Devanagari",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-26"
+    },
+    "fee": {
+      "target": "शुल्क",
+      "forms": [
+        "शुल्क"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-22"
+    },
+    "swap": {
+      "target": "स्वैप",
+      "forms": [
+        "स्वैप"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-27"
+    },
+    "custodial": {
+      "target": "कस्टोडियल",
+      "forms": [
+        "कस्टोडियल"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "ज़ीरो-नॉलेज",
+      "forms": [
+        "ज़ीरो-नॉलेज"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "नेटवर्क अपग्रेड",
+      "forms": [
+        "नेटवर्क अपग्रेड"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-32"
+    },
+    "mining": {
+      "target": "माइनिंग",
+      "forms": [
+        "माइनिंग"
+      ],
+      "rejected": [
+        {
+          "text": "निर्धारण"
+        },
+        {
+          "text": "खनन"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Hindi word is not correct",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-20"
+    },
+    "miner": {
+      "target": "माइनर",
+      "forms": [
+        "माइनर"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-39"
+    },
+    "full-node": {
+      "target": "फुल नोड",
+      "forms": [
+        "फुल नोड"
+      ],
+      "rejected": [
+        {
+          "text": "पूर्ण नोड"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Easier to understand",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-34"
+    },
+    "turnstile": {
+      "target": "टर्नस्टाइल",
+      "forms": [
+        "टर्नस्टाइल"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-37"
+    },
+    "spending-key": {
+      "target": "स्पेंडिंग की",
+      "forms": [
+        "स्पेंडिंग की"
+      ],
+      "rejected": [
+        {
+          "text": "स्पेंडिंग कुंजी"
+        }
+      ],
+      "context": "की here is the English word key written in Devanagari",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "सीड फ्रेज़",
+      "forms": [
+        "सीड फ्रेज़"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-50"
+    },
+    "light-client": {
+      "target": "लाइट क्लाइंट",
+      "forms": [
+        "लाइट क्लाइंट"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-55"
+    },
+    "token": {
+      "target": "टोकन",
+      "forms": [
+        "टोकन"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-28"
+    },
+    "chain": {
+      "target": "चेन",
+      "forms": [
+        "चेन"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "It will be easy to understand in English",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "क्रॉस-चेन",
+      "forms": [
+        "क्रॉस-चेन"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-52"
+    },
+    "faucet": {
+      "target": "फॉसेट",
+      "forms": [
+        "फॉसेट"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-49"
+    },
+    "developer": {
+      "target": "डेवलपर",
+      "forms": [
+        "डेवलपर"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-33"
+    },
+    "dashboard": {
+      "target": "डैशबोर्ड",
+      "forms": [
+        "डैशबोर्ड"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-51"
+    },
+    "visualizer": {
+      "target": "विज़ुअलाइज़र",
+      "forms": [
+        "विज़ुअलाइज़र"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Easy to read for Hindi audience",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-62"
+    },
+    "use-case": {
+      "target": "उपयोग के मामले",
+      "forms": [
+        "उपयोग के मामले"
+      ],
+      "rejected": [
+        {
+          "text": "उपयोग के मुकदमे"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-53"
+    },
+    "brand": {
+      "target": "ब्रांड",
+      "forms": [
+        "ब्रांड"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-61"
+    },
+    "treasury": {
+      "target": "कोष",
+      "forms": [
+        "कोष"
+      ],
+      "context": "as in निजी सामुदायिक कोष (Private Community Treasury)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-57"
+    },
+    "top-up": {
+      "target": "टॉप-अप",
+      "forms": [
+        "टॉप-अप"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-58"
+    },
+    "tools": {
+      "target": "उपकरण",
+      "forms": [
+        "उपकरण"
+      ],
+      "rejected": [
+        {
+          "text": "टूल्स"
+        }
+      ],
+      "context": "as in गोपनीयता उपकरण (Privacy Tools); the menu label Tools is also उपकरण",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-25"
+    },
+    "newsletter": {
+      "target": "न्यूज़लेटर",
+      "forms": [
+        "न्यूज़लेटर"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-45"
+    },
+    "address": {
+      "target": "एड्रेस",
+      "forms": [
+        "एड्रेस"
+      ],
+      "rejected": [
+        {
+          "text": "पता"
+        },
+        {
+          "text": "पते"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "It will be easier to understand",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-4"
+    },
+    "block": {
+      "target": "ब्लॉक",
+      "forms": [
+        "ब्लॉक"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-7"
+    },
+    "blockchain": {
+      "target": "ब्लॉकचेन",
+      "forms": [
+        "ब्लॉकचेन"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-15"
+    },
+    "signature": {
+      "target": "सिग्नेचर",
+      "forms": [
+        "सिग्नेचर"
+      ],
+      "rejected": [
+        {
+          "text": "हस्ताक्षर"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-17"
+    },
+    "commitment": {
+      "target": "कमिटमेंट",
+      "forms": [
+        "कमिटमेंट"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-21"
+    },
+    "nullifier": {
+      "target": "नलिफ़ायर",
+      "forms": [
+        "नलिफ़ायर"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-40"
+    },
+    "note": {
+      "target": "नोट",
+      "forms": [
+        "नोट"
+      ],
+      "rejected": [
+        {
+          "text": "टिप्पणी"
+        }
+      ],
+      "context": "a Zcash note is a shielded unit of value held by a shielded address, not a written remark",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "ट्रस्टेड सेटअप",
+      "forms": [
+        "ट्रस्टेड सेटअप"
+      ],
+      "rejected": [
+        {
+          "text": "विश्वसनीय सेटअप"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-46"
+    },
+    "consensus": {
+      "target": "कंसेंसस",
+      "forms": [
+        "कंसेंसस"
+      ],
+      "rejected": [
+        {
+          "text": "सहमति"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-29"
+    },
+    "governance": {
+      "target": "गवर्नेंस",
+      "forms": [
+        "गवर्नेंस"
+      ],
+      "rejected": [
+        {
+          "text": "शासन"
+        }
+      ],
+      "context": "how Zcash decisions (funding, upgrades) are made and by whom, not government or rule",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-36"
+    },
+    "grant": {
+      "target": "ग्रांट",
+      "forms": [
+        "ग्रांट"
+      ],
+      "rejected": [
+        {
+          "text": "अनुदान"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Easier to understand",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-24"
+    },
+    "halving": {
+      "target": "हॉल्विंग",
+      "forms": [
+        "हॉल्विंग"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-43"
+    },
+    "staking": {
+      "target": "स्टेकिंग",
+      "forms": [
+        "स्टेकिंग"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-30"
+    },
+    "finalizer": {
+      "target": "फाइनलाइज़र",
+      "forms": [
+        "फाइनलाइज़र"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-44"
+    },
+    "bond": {
+      "target": "बॉन्ड",
+      "forms": [
+        "बॉन्ड"
+      ],
+      "rejected": [
+        {
+          "text": "ऋणपत्र"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Easier to understand alternative",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-47"
+    },
+    "encryption": {
+      "target": "एन्क्रिप्शन",
+      "forms": [
+        "एन्क्रिप्शन"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-14"
+    },
+    "decentralized": {
+      "target": "डिसेंट्रलाइज़्ड",
+      "forms": [
+        "डिसेंट्रलाइज़्ड"
+      ],
+      "rejected": [
+        {
+          "text": "विकेंद्रीकृत"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-31"
+    },
+    "on-chain": {
+      "target": "ऑन-चेन",
+      "forms": [
+        "ऑन-चेन"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-35"
+    },
+    "bridge": {
+      "target": "ब्रिज",
+      "forms": [
+        "ब्रिज"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-42"
+    },
+    "payment": {
+      "target": "भुगतान",
+      "forms": [
+        "भुगतान"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "स्मार्ट कॉन्ट्रैक्ट",
+      "forms": [
+        "स्मार्ट कॉन्ट्रैक्ट"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "अनलिंकेबल",
+      "forms": [
+        "अनलिंकेबल"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-60"
+    },
+    "permissionless": {
+      "target": "अनुमति-रहित",
+      "forms": [
+        "अनुमति-रहित",
+        "बिना अनुमति के"
+      ],
+      "inflection": "Use अनुमति-रहित as an adjective (अनुमति-रहित नेटवर्क) and बिना अनुमति के inside a sentence (कोई भी बिना अनुमति के भाग ले सकता है).",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Easier for Hindi speaking audience",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-59"
+    },
+    "scaling": {
+      "target": "स्केलिंग",
+      "forms": [
+        "स्केलिंग"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "सिलेक्टिव डिस्क्लोज़र",
+      "forms": [
+        "सिलेक्टिव डिस्क्लोज़र"
+      ],
+      "rejected": [
+        {
+          "text": "चयनात्मक प्रकटीकरण"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "हार्डवेयर वॉलेट",
+      "forms": [
+        "हार्डवेयर वॉलेट"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-hi.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "भुगतान स्वीकार करें",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "Akash Network",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-2"
+    },
+    "Block Explorers": {
+      "target": "ब्लॉक एक्सप्लोरर",
+      "rejected": [
+        {
+          "text": "ब्लॉक एक्सप्लोरर्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "ब्लॉकचेन एक्सप्लोरर",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-64"
+    },
+    "Brand": {
+      "target": "ब्रांड",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "BTCPayServer प्लगइन",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "BTCPayServer Zcash प्लगइन",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "ZEC खरीदना",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-16"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "कॉइनहोल्डर द्वारा निर्देशित पूर्वव्यापी ग्रांट",
+      "rejected": [
+        {
+          "text": "कॉइनहोल्डर द्वारा निर्देशित पूर्वव्यापी अनुदान"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-51"
+    },
+    "Community": {
+      "target": "समुदाय",
+      "context": "Community alone is समुदाय; before another noun it is the adjective सामुदायिक (answer a)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "सामुदायिक ब्लॉग",
+      "rejected": [
+        {
+          "text": "समुदाय ब्लॉग"
+        }
+      ],
+      "context": "Community alone is समुदाय; before another noun it is the adjective सामुदायिक (answer a)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "समुदाय निर्माण",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "सामुदायिक फ़ोरम",
+      "rejected": [
+        {
+          "text": "सामुदायिक फोरम"
+        }
+      ],
+      "context": "Community alone is समुदाय; before another noun it is the adjective सामुदायिक (answer a)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "सामुदायिक लिंक",
+      "rejected": [
+        {
+          "text": "समुदाय लिंक"
+        }
+      ],
+      "context": "Community alone is समुदाय; before another noun it is the adjective सामुदायिक (answer a)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "सामुदायिक प्रोजेक्ट",
+      "rejected": [
+        {
+          "text": "सामुदायिक प्रोजेक्ट्स"
+        }
+      ],
+      "context": "Community alone is समुदाय; before another noun it is the adjective सामुदायिक (answer a)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "योगदान करें",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "कस्टोडियल एक्सचेंज",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "डैशबोर्ड",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-13"
+    },
+    "Developers": {
+      "target": "डेवलपर",
+      "rejected": [
+        {
+          "text": "डेवलपर्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-10"
+    },
+    "Donate": {
+      "target": "दान करें",
+      "rejected": [
+        {
+          "text": "रक्तदान करें"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "रक्तदान करें means something else",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-8"
+    },
+    "Donations": {
+      "target": "दान",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "इकोसिस्टम",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "एक्सचेंज",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-19"
+    },
+    "Explore": {
+      "target": "अन्वेषण करें",
+      "rejected": [
+        {
+          "text": "एक्सप्लोर करें"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-9"
+    },
+    "Extras": {
+      "target": "अतिरिक्त",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "फॉसेट",
+      "rejected": [
+        {
+          "text": "फॉसेट्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "फ़ोर्क और मेंटेनर के लिए",
+      "rejected": [
+        {
+          "text": "Forks और Maintainers के लिए"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "zechub को फ़ोर्क करें",
+      "rejected": [
+        {
+          "text": "zechub को Fork करें"
+        }
+      ],
+      "context": "repository names stay as written; फ़ोर्क करें is the verb",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "zechub-wiki को फ़ोर्क करें",
+      "rejected": [
+        {
+          "text": "zechub-wiki को Fork करें"
+        }
+      ],
+      "context": "repository names stay as written; फ़ोर्क करें is the verb",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "फ्रीलांस गोपनीयता",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "पूरा अन्वेषण करें",
+      "rejected": [
+        {
+          "text": "पूरा एक्सप्लोर करें"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "शब्दावली और FAQ's",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "शब्दावली और FAQs",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "गवर्नेंस",
+      "rejected": [
+        {
+          "text": "शासन"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-4"
+    },
+    "Guides": {
+      "target": "मार्गदर्शिकाएँ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "कैसे भाग लें",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "पत्रकार गोपनीयता",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "रिकॉर्ड रखना",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-35"
+    },
+    "Memos": {
+      "target": "मेमो",
+      "rejected": [
+        {
+          "text": "मेमोज़"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "मोबाइल टॉप-अप",
+      "rejected": [
+        {
+          "text": "मोबाइल टॉप-अप्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-25"
+    },
+    "More": {
+      "target": "अधिक",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "नेविगेशन",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "न्यूज़लेटर",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "Nym Mixnet वॉलेट सेटअप",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "संगठन",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-49"
+    },
+    "Overview": {
+      "target": "अवलोकन",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "AI के लिए भुगतान",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "भुगतान प्रोसेसर",
+      "rejected": [
+        {
+          "text": "पेमेंट प्रोसेसर्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "भुगतान अनुरोध URIs",
+      "rejected": [
+        {
+          "text": "पेमेंट रिक्वेस्ट URIs"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "पॉडकास्ट",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "गोपनीयता उपकरण",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "निजी सामुदायिक कोष",
+      "rejected": [
+        {
+          "text": "प्राइवेट कम्युनिटी ट्रेजरी"
+        }
+      ],
+      "context": "Community alone is समुदाय; before another noun it is the adjective सामुदायिक (answer a)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "Raspberry Pi 4 फुल नोड",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "Raspberry pi 4 Zebra नोड",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "Raspberry Pi Zcashd नोड",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "Raspberry Pi Zebra नोड",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "फंड की रिकवरी",
+      "rejected": [
+        {
+          "text": "फंड्स रिकवर करना"
+        },
+        {
+          "text": "फंड्स की रिकवरी"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-28"
+    },
+    "Research": {
+      "target": "शोध",
+      "rejected": [
+        {
+          "text": "रिसर्च"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "निजी रूप से पैसे भेजें",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "शील्डेड पूल",
+      "rejected": [
+        {
+          "text": "शील्डेड पूल्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-21"
+    },
+    "Shop": {
+      "target": "शॉप",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "साइटमैप",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "यहाँ से शुरू करें",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-31"
+    },
+    "Store": {
+      "target": "स्टोर",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "उपकरण",
+      "rejected": [
+        {
+          "text": "टूल्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "लेनदेन",
+      "rejected": [
+        {
+          "text": "लेन-देन"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "ट्रांसपेरेंट एक्सचेंज एड्रेस",
+      "rejected": [
+        {
+          "text": "ट्रांसपेरेंट एक्सचेंज पते"
+        },
+        {
+          "text": "पारदर्शी एक्सचेंज पते"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "एड्रेसेज़ is better alternative than पते",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "ट्यूटोरियल",
+      "rejected": [
+        {
+          "text": "ट्यूटोरियल्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "उपयोग के मामले",
+      "rejected": [
+        {
+          "text": "उपयोग के मुकदमे"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "मामले is better alternative than मुकदमे",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "Zcash का उपयोग",
+      "rejected": [
+        {
+          "text": "Zcash का उपयोग करें"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "Zcash का उपयोग",
+      "rejected": [
+        {
+          "text": "Zcash का उपयोग करना"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "DeFi में ZEC का उपयोग",
+      "rejected": [
+        {
+          "text": "DeFi में ZEC का उपयोग करना"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "ZEC का निजी रूप से उपयोग",
+      "rejected": [
+        {
+          "text": "ZEC का निजी रूप से उपयोग करना"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "विज़ुअल आइडेंटिटी",
+      "rejected": [
+        {
+          "text": "दृश्य पहचान पत्र"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "विज़ुअलाइज़र",
+      "rejected": [
+        {
+          "text": "दृश्यकार"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "विज़ुअलाइज़र can be an alternative",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "विज़ुअलाइज़िंग Zcash नेटवर्क",
+      "rejected": [
+        {
+          "text": "Zcash Network का दृश्यांकन"
+        },
+        {
+          "text": "Zcash नेटवर्क का विज़ुअलाइज़ेशन"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "विज़ुअलाइज़िंग Zcash एड्रेस",
+      "rejected": [
+        {
+          "text": "Zcash Addresses का दृश्यांकन"
+        },
+        {
+          "text": "Zcash पतों का विज़ुअलाइज़ेशन"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "वॉलेट",
+      "rejected": [
+        {
+          "text": "वॉलेट्स"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "Ywallet FROST डेमो",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "Zcash समुदाय",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "Zcash इकोसिस्टम सुरक्षा",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "Zcash गवर्नेंस",
+      "rejected": [
+        {
+          "text": "Zcash शासन"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "Zcash सुधार प्रस्ताव",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "Zcash मीडिया",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "Zcash संगठन",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "Zcash पॉडकास्ट",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "Zcash टेक",
+      "rejected": [
+        {
+          "text": "Zcash तकनीक"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Correct according to context",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "Zcash उपयोग के मामले",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "Zcon आर्काइव",
+      "rejected": [
+        {
+          "text": "Zcon अभिलेखागार"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Zcon आर्काइव is exact meaning",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "Zcon Vozes आर्काइव",
+      "rejected": [
+        {
+          "text": "Zcon Vozes अभिलेखागार"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Exact and correct meaning",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "Zenith इंस्टॉलेशन",
+      "rejected": [
+        {
+          "text": "Zenith स्थापना"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Correct meaning according to context",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "ज़ीरो-नॉलेज बनाम डिकॉय सिस्टम",
+      "rejected": [
+        {
+          "text": "Zero Knowledge बनाम Decoy Systems"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "ज़ीरो-नॉलेज बनाम डिकॉय",
+      "rejected": [
+        {
+          "text": "Zero-Knowledge बनाम Decoys"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "Zgo भुगतान प्रोसेसर",
+      "rejected": [
+        {
+          "text": "Zgo पेमेंट प्रोसेसर"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "Zingolib और Zaino ट्यूटोरियल",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs और ग्रांट",
+      "rejected": [
+        {
+          "text": "ZIPs और अनुदान"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "Zkool मल्टीसिग",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@AnirudhSingh07"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-hi.md#navigation-62"
     }
   },
   "changelog": [
@@ -51,6 +2268,180 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_hi.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-13",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Native review by @AnirudhSingh07 (Zcash India), PR #2653: glossary (62 terms) and menus, with his thread answers (https://github.com/ZecHub/zechub/pull/2653#issuecomment-6797111379, https://github.com/ZecHub/zechub/pull/2653#issuecomment-6834057668). Kept English technical terms are written in Devanagari, no English plural endings, nouns for menu titles, formal आप, western digits, “ ” quotes. Steward alignments: tools → उपकरण and treasury → कोष to match his menu answers; one form per menu label for top menu and sidebar."
     }
   ]
 }

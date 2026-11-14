@@ -25,20 +25,20 @@ Descripción: Garantiza que las características de privacidad de Zcash se prese
 
 ## Entregables y documentación
 
-**Puente de subred Elastic Zcash en Avalanche**: [Propuesta de subvención](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
-A continuación se presentan los principales entregables y recursos técnicos completados para el proyecto Avalanche RedBridge Zcash:
+**Puente de subred Elastic Zcash en Avalanche**: [Propuesta de subvención](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
+A continuación se presentan los principales entregables y recursos técnicos completados para el proyecto Zcash Avalanche RedBridge:
 
-Entregable 1.1: PoC preliminar que admite consultar transacciones de la testnet Zcash desde una subred de Avalanche en testnet mediante una CLI, publicado en GitHub y con una subred de un nodo en la testnet de Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Entregable 1.1: PoC preliminar que admite consultar transacciones de la testnet Zcash desde una subred de Avalanche en testnet mediante una CLI, publicado en GitHub y con una subred de un nodo en la testnet de Avalanche. https://github.com/red-dev-inc/redbridge-oracle
 
-Entregable 2.1: [Arquitectura](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Entregable 2.1: [Arquitectura](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Hito 3, 31 de marzo de 2024
 
 El entregable 3.1 está completo y presenta nuestro análisis sobre la adopción de FROST en lugar de BLS para firmas [signatures] de umbral en el puente ZavaX. Este cambio aprovecha bibliotecas auditadas de Zcash Foundation y facilita una mejor integración y seguridad. https://github.com/ZcashFoundation/frost
 
-El entregable 3.2, diseño de UX y UI para la GUI, está completado y detalla nuestras mejoras de seguridad para la subred ZavaX Oracle, respaldadas por resultados de pruebas de penetración. Para obtener más detalles, incluida la configuración del servidor y los resultados de las pruebas, [Evaluación de seguridad](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Informe de auditoría](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+El entregable 3.2, diseño de UX y UI para la GUI, está completado y detalla nuestras mejoras de seguridad para la subred ZavaX Oracle, respaldadas por resultados de pruebas de penetración. Para obtener más detalles, incluida la configuración del servidor y los resultados de las pruebas, [Evaluación de seguridad](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Informe de auditoría](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Además, el equipo cambió la marca de ZavaX a redbridge y modificó su token de staking de ZAX a RBR.
 
 ### Hito 4, 30 de abril de 2024
@@ -51,9 +51,9 @@ Hito 6, 30 de junio de 2024
 Entregable 6.1: Superación satisfactoria de la auditoría de software
 Entregable 6.2: Publicación del código fuente auditado en un repositorio público de GitHub
 
-Echa un vistazo al repositorio [GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Echa un vistazo al repositorio [GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Para obtener más detalles técnicos, se recomienda a los usuarios revisar el repositorio y la documentación del proyecto RedBridge para [explorar](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) los detalles de integración, los marcos de pruebas y los protocolos de seguridad.
+Para obtener más detalles técnicos, se recomienda a los usuarios revisar el repositorio y la documentación del proyecto RedBridge para [explorar](https://github.com/red-dev-inc/red-bridge) los aspectos específicos de la integración [integration specifics], los marcos de pruebas [testing frameworks] y los protocolos de seguridad [security protocols].
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

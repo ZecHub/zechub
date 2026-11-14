@@ -21,7 +21,7 @@ Ne nyawo le zɔm to serverwo alo internet dzi la, nu geɖe ate ŋu ana woava bɔ
 
 **Zcash Ɣaɣlaŋlɔŋlɔ ƒe Nya Kpuiwo**
 
-Zcash Desktop & Mobile gakotokuwo le ŋutilã me ƒe nɔnɔ aɖe si na zãlawo ate ŋu adze gbedeasi ɣaɣlaŋlɔŋlɔ me kple ɣaɣla gaɖoɖowo. Nya kpui/gbedeasi ƒe lolome ate ŋu anɔ bytes 512 va se ɖe gaɖoɖo ɖeka me, eye gaɖoɖo ƒe adzɔwo menɔa US cent 1 gɔ̃ hã o. Le ale si woate ŋu ade dzesi gaɖoɖowo le ɣaɣla me kple network ƒe gaɖoɖowo ƒuƒoƒe ƒe ƒomeɖeɖe ƒe ɣeyiɣi ta la, gbedeasiwo ate ŋu axɔ miniti 1 alo sã wu nenye hafi woaxɔ wo.
+Zcash Gakotoku siwo dea asi nya kpui ɣaɣlawo (shielded memos) te la na zãlawo ate ŋu atsɔ gbedeasi siwo wotsɔ ɣaɣlaŋlɔŋlɔ (encryption) ŋlɔ la akpe ɖe fexexe ɣaɣlawo ŋu. Ɣaɣla output ɖesiaɖe ƒe nya kpui teƒe si lolo bytes 512 le esi ŋutɔ si; menye bytes 512 ɖeka koe wona gaɖoɖo blibo la o. Kpɔ [Nya kpuiwo](/using-zcash/memos) be nànya nyagbɔgblɔ ƒe ɖoɖo kple gakotoku siwo dea asi ete. Woxea gaɖoɖo ƒe adzɔwo le ZEC me, eye [ZIP 317](https://zips.z.cash/zip-0317) ɖo adzɔ si wozãna ɖaa si nɔ te ɖe ale si gaɖoɖo la sesẽe dzi. Gaxexe le US dollar me hã trɔna ɖe ZEC ƒe gatrɔƒe ƒe asixɔxɔ ŋu, eya ta adzɔ si mede US cent 1 o la menye nusi woka ɖe edzi o. Kpɔ adzɔ si gakotoku la gblɔ hafi nàɖoe ɖa. Gbedeasi ƒe yiyi nɔ te ɖe ale si gaɖoɖo la kakana, kakaɖedzi ƒe ɖoɖo kple ale si xɔla ƒe gakotoku wɔa ɖeka (sync) dzi; menye dzeɖoɖo si vana enumake o.
 
 Ɖe kpɔ: https://z.cash/wallets 
 

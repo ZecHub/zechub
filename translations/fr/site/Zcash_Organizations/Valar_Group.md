@@ -11,179 +11,179 @@
 
 ## Déclaration de mission
 
-Valar Group est une organisation d’ingénierie indépendante axée sur le passage à l’échelle de Zcash, le renforcement de la gouvernance des détenteurs de monnaies et l’amélioration de la confidentialité, des performances et de la résilience à long terme du protocole.
+Valar Group est une organisation d’ingénierie indépendante qui se consacre à la mise à l’échelle de Zcash, au renforcement de la gouvernance par les détenteurs de pièces et à l’amélioration de la confidentialité, des performances et de la résilience à long terme du protocole.
 
-Son travail se concentre sur l’infrastructure au niveau du protocole : le vote privé des détenteurs de jetons, les logiciels de nœud complet haute performance, la technologie de synchronisation de wallet et les mises à niveau du réseau qui rendent Zcash blindé plus utilisable à grande échelle.
+Ses travaux portent sur l’infrastructure au niveau du protocole : le vote privé des détenteurs de jetons, un logiciel de nœud complet à hautes performances, une technologie de synchronisation des portefeuilles et des mises à niveau du réseau qui rendent les Zcash protégés plus utilisables à grande échelle.
 
-L’organisation vise à donner aux détenteurs de ZEC un moyen d’exprimer leurs préférences de manière privée, aux opérateurs de nœuds des logiciels plus rapides et plus performants, et aux wallets des outils qui préservent la confidentialité des utilisateurs tout en réduisant le coût de participation au réseau.
+L’organisation vise à offrir aux détenteurs de ZEC un moyen d’exprimer leurs préférences de manière privée, à fournir aux opérateurs de nœuds un logiciel plus rapide et plus performant, et à donner aux portefeuilles des outils qui préservent la confidentialité des utilisateurs tout en réduisant le coût de participation au réseau.
 
 ## Contexte
 
-Valar Group est dirigé par Dev Ojha (ValarDragon), cofondateur d’Osmosis et membre de l’équipe qui a lancé Cosmos. Au cours de la dernière décennie, il a travaillé sur les zk-SNARKs, le consensus BFT et des systèmes DeFi en production.
+Valar Group est dirigée par Dev Ojha (ValarDragon), cofondateur d’Osmosis et membre de l’équipe qui a lancé Cosmos. Au cours de la dernière décennie, il a travaillé sur zk-SNARKs, le consensus BFT et des systèmes DeFi en production.
 
-Le travail public du groupe dans Zcash a gagné en importance à mesure que l’écosystème s’est orienté vers des équipes de protocole indépendantes après la réorganisation de 2026 du développement central. Valar Group est devenue l’une des organisations construisant la prochaine génération d’infrastructure Zcash aux côtés de Project Tachyon, Shielded Labs, ZODL et de la Zcash Foundation.
+Les travaux publics du groupe dans Zcash ont pris de l’importance lorsque l’écosystème s’est orienté vers des équipes de protocole indépendantes après la réorganisation du développement principal en 2026. Valar Group s’est imposée comme l’une des organisations qui construisent la prochaine génération de l’infrastructure de Zcash, aux côtés de Project Tachyon, Shielded Labs, ZODL et de la Zcash Foundation.
 
-Un thème récurrent de son travail est que les propriétés de confidentialité de Zcash devraient s’étendre au-delà des paiements. Si les détenteurs sont invités à voter sur l’émission, les temps de bloc ou le périmètre des mises à niveau du réseau, ils devraient pouvoir le faire à partir de soldes blindés sans révéler leur identité, leurs soldes ni leurs votes individuels. Cette exigence a conduit Valar Group à concevoir et déployer une chaîne de vote dédiée aux détenteurs de monnaies.
+Un thème récurrent de ses travaux est que les propriétés de confidentialité de Zcash devraient s’étendre au-delà des paiements. Si l’on demande aux détenteurs de voter sur l’émission, les temps de bloc ou la portée d’une mise à niveau du réseau, ils devraient pouvoir le faire à partir de soldes protégés sans révéler leur identité, leurs soldes ni leurs votes individuels. Cette exigence a conduit Valar Group à concevoir et à déployer une chaîne dédiée au vote des détenteurs de pièces.
 
-Le même historique en matière de passage à l’échelle et de cryptographie a également façonné son travail sur les nœuds et la synchronisation. Des blocs plus rapides, une synchronisation de wallet plus légère et un nœud complet plus performant sont considérés comme des prérequis pour une monnaie privée pouvant être utilisée à l’échelle d’un réseau de paiement plutôt que seulement comme réserve de valeur.
+Ce même bagage en mise à l’échelle et en cryptographie a également façonné ses travaux sur les nœuds et la synchronisation. Des blocs plus rapides, une synchronisation des portefeuilles plus légère et un nœud complet plus performant sont considérés comme des prérequis pour une monnaie privée utilisable à l’échelle d’un réseau de paiement, et pas seulement comme réserve de valeur.
 
 ## Vision
 
-Les documents publics et les projets de Valar Group pointent vers un réseau Zcash capable de :
+Les documents publics et les projets de Valar Group dessinent un réseau Zcash capable de :
 
-- Prendre en charge un vote privé et vérifiable des détenteurs de monnaies comme processus de gouvernance reproductible.
-- Faire évoluer les paiements par preuve de travail sans sacrifier la confidentialité blindée.
-- Réduire les goulots d’étranglement des wallets et des nœuds grâce au PIR, à l’élagage et à une propagation des blocs plus rapide.
-- Accroître la diversité des implémentations en proposant une pile de nœud complet indépendante.
-- Contribuer à la préparation post-quantique et à des mises à niveau du protocole examinées formellement.
+- Permettre un vote privé et vérifiable des détenteurs de pièces en tant que processus de gouvernance reproductible.
+- Assurer la mise à l’échelle des paiements en preuve de travail sans sacrifier la confidentialité protégée.
+- Réduire les goulets d’étranglement des portefeuilles et des nœuds grâce au PIR, à l’élagage et à une propagation plus rapide des blocs.
+- Accroître la diversité des implémentations en livrant une pile de nœud complet indépendante.
+- Contribuer à la préparation post-quantique et à des mises à niveau du protocole formellement examinées.
 
-L’organisation travaille comme contributeur indépendant, et non comme propriétaire du protocole. Les modifications du protocole passent toujours par les ZIP, l’implémentation, la revue et la signalisation communautaire. Le rôle de Valar Group est de concevoir, implémenter, exploiter et publier en open source les systèmes qui rendent ces processus pratiques.
+L’organisation agit en tant que contributeur indépendant, et non en tant que propriétaire du protocole. Les modifications du protocole passent toujours par les ZIP, l’implémentation, la revue et l’expression des préférences de la communauté. Le rôle de Valar Group est de concevoir, d’implémenter, d’exploiter et de publier en open source les systèmes qui rendent ces processus réalisables.
 
 ## Domaines stratégiques
 
-Le travail de Valar Group se regroupe autour de quatre domaines.
+Les travaux de Valar Group s’articulent autour de quatre domaines.
 
-### Gouvernance privée des détenteurs de monnaies
+### Gouvernance privée par les détenteurs de pièces
 
-Zcash n’utilise pas de contrôle automatique du protocole on-chain. Les sondages auprès des détenteurs de monnaies sont des signaux consultatifs qui alimentent un processus plus large de consensus approximatif. Valar Group a construit la Tokenholder Voting Chain afin que ces signaux puissent être collectés à partir de soldes blindés sans exposer l’identité des votants ni la taille des votes individuels.
+Zcash n’utilise pas de contrôle automatique et on-chain du protocole. Les sondages des détenteurs de pièces sont des signaux consultatifs qui alimentent un processus plus large de consensus approximatif. Valar Group a construit la Tokenholder Voting Chain afin que ces signaux puissent être recueillis à partir de soldes protégés sans exposer l’identité des votants ni le poids de chaque vote.
 
 La conception actuelle utilise :
 
-- Une chaîne d’application Cosmos SDK dédiée pour orchestrer les cycles de vote.
-- Des preuves d’instantané contre des notes Ironwood dépensables.
+- Une chaîne applicative dédiée basée sur le SDK Cosmos pour orchestrer les tours de vote.
+- Des preuves d’instantané portant sur des notes Ironwood dépensables.
 - Le chiffrement homomorphe des montants de vote.
-- La récupération privée d’informations pour les preuves de non-appartenance des nullifiers.
-- Une multisig de coordinateurs et une autorité électorale distribuée.
+- La récupération d’informations privée (PIR) pour les preuves de non-appartenance des nullifiers.
+- Un multisig de coordination et une autorité électorale distribuée.
 
-L’objectif est de remplacer les processus antérieurs de vote des détenteurs de jetons par un système réutilisable, audité et intégrable aux wallets, que d’autres organisations peuvent exploiter et comptabiliser indépendamment.
+L’objectif est de remplacer les anciens processus de vote des détenteurs de jetons par un système réutilisable, audité et intégrable aux portefeuilles, que d’autres organisations peuvent exploiter et dont elles peuvent dépouiller les résultats de manière indépendante.
 
-### Logiciel de nœud et passage à l’échelle du réseau
+### Logiciel de nœud et mise à l’échelle du réseau
 
-Valar Group collabore avec Project Tachyon sur Zakura, un nœud complet Zcash construit à partir de la base de code Zebra. Zakura est positionné comme un nœud haute performance pour les opérateurs ayant besoin d’une synchronisation initiale plus rapide, de l’élagage, d’un démarrage à partir d’instantanés et d’un chemin de compatibilité pour les anciens utilisateurs de `zcashd`.
+Valar Group collabore avec Project Tachyon sur Zakura, un nœud complet Zcash construit à partir du code de Zebra. Zakura se positionne comme un nœud à hautes performances destiné aux opérateurs qui ont besoin d’une synchronisation initiale plus rapide, de l’élagage, d’un amorçage par instantané et d’une voie de compatibilité pour les anciens utilisateurs de `zcashd`.
 
-Les travaux de passage à l’échelle associés comprennent :
+Les travaux de mise à l’échelle connexes comprennent :
 
-- Des temps de bloc cibles plus rapides, y compris des expérimentations de blocs de 25 secondes sur les testnets NU7.
-- Une propagation de blocs pair-à-pair améliorée.
-- Des fonctionnalités de nœud complet destinées à maintenir Zcash utilisable à mesure que l’activité blindée augmente.
+- Des temps de bloc cibles plus courts, notamment des expérimentations de blocs de 25 secondes sur les testnets de NU7.
+- Une propagation pair à pair des blocs améliorée.
+- Des fonctionnalités de nœud complet destinées à garder Zcash utilisable à mesure que l’activité protégée augmente.
 
-### Infrastructure de wallet et de synchronisation
+### Infrastructure des portefeuilles et de la synchronisation
 
-Les wallets blindés doivent historiquement analyser de grandes quantités de données de chaîne. Valar Group développe des systèmes PIR afin que les wallets puissent récupérer les preuves dont ils ont besoin sans télécharger l’ensemble des nullifiers ni révéler les notes qui les intéressent.
+Les portefeuilles protégés doivent historiquement analyser de grandes quantités de données de la chaîne. Valar Group développe des systèmes PIR afin que les portefeuilles puissent récupérer les preuves dont ils ont besoin sans télécharger l’ensemble complet des nullifiers ni révéler quelles notes les intéressent.
 
-Ce travail apparaît à la fois dans la pile de vote et dans des recherches plus larges sur la synchronisation de wallets. Le groupe a également contribué à des travaux sur la fiabilité côté wallet, notamment la soumission de transactions via plusieurs serveurs et des améliorations de sélection des serveurs utilisées dans la pile mobile de ZODL.
+Ces travaux apparaissent à la fois dans la pile de vote et dans des recherches plus larges sur la synchronisation des portefeuilles. Le groupe a également contribué à la fiabilité côté portefeuille, notamment avec la soumission de transactions vers plusieurs serveurs et des améliorations de la sélection des serveurs utilisées dans la pile mobile de ZODL.
 
 ### Mises à niveau du protocole et coordination de l’écosystème
 
-Valar Group faisait partie des organisations qui se sont publiquement engagées dans la réponse Ironwood après la vulnérabilité du circuit Orchard. Ironwood a introduit un nouveau pool blindé, a scellé le pool Orchard original derrière un tourniquet et a rétabli une voie permettant de vérifier indépendamment l’offre en circulation. Valar Group a travaillé avec Project Tachyon, Shielded Labs, ZODL et la Zcash Foundation sur l’architecture, l’implémentation des règles de consensus et la coordination de l’écosystème.
+Valar Group a été l’une des organisations à s’engager publiquement dans la réponse Ironwood après la vulnérabilité du circuit Orchard. Ironwood a introduit un nouveau pool protégé, a scellé le pool Orchard d’origine derrière un sas comptable et a rétabli un moyen de vérifier de manière indépendante l’offre en circulation. Valar Group a travaillé avec Project Tachyon, Shielded Labs, ZODL et la Zcash Foundation sur l’architecture, l’implémentation des règles de consensus et la coordination de l’écosystème.
 
-Le groupe participe également à la définition du périmètre de NU7, à l’exploitation de testnets et à l’édition de ZIP. Dev Ojha est répertorié comme éditeur de ZIP.
+Le groupe participe également à la définition de la portée de NU7, à l’exploitation des testnets et à l’édition des ZIP. Dev Ojha figure parmi les éditeurs des ZIP.
 
-## Initiatives actuelles
+## Initiatives en cours
 
 ### Tokenholder Voting Chain / Shielded Vote
 
-Shielded Vote est le protocole de gouvernance privée de Valar Group pour Zcash. Les détenteurs votent avec des soldes blindés sans révéler les montants individuels ni relier les votes à des identités.
+Shielded Vote est le protocole de gouvernance privée de Valar Group pour Zcash. Les détenteurs votent avec des soldes protégés sans révéler les montants individuels ni relier les votes à des identités.
 
-Ses principales propriétés comprennent :
+Ses principales propriétés sont les suivantes :
 
-- Une seule session en ligne pour voter, plutôt qu’un processus commit/reveal de plusieurs jours.
-- Une signature d’instantané compatible Keystone qui délègue les droits de vote à une hotkey sans mettre les fonds en danger.
+- Une seule session en ligne pour voter, au lieu d’un processus d’engagement/révélation s’étalant sur plusieurs jours.
+- Une signature d’instantané compatible avec Keystone qui délègue les droits de vote à une clé chaude sans mettre les fonds en danger.
 - Des montants de vote chiffrés à l’aide d’ElGamal homomorphe.
 - Des requêtes PIR afin que les nullifiers ne soient pas divulgués lors des preuves d’instantané.
-- Le fractionnement des votes et la soumission de relais différée afin de réduire la corrélation temporelle.
-- Des décomptes vérifiables publiquement.
+- Le fractionnement des votes et une soumission différée par relais pour réduire la corrélation temporelle.
+- Des dépouillements vérifiables publiquement.
 
-En août 2026, Valar Group et Project Tachyon ont utilisé cette pile pour le vote des détenteurs de monnaies sur NU7. L’éligibilité exigeait des ZEC blindés dépensables dans Ironwood à la hauteur 3 459 350 du mainnet. Le vote s’est déroulé du 25 août au 14 septembre 2026, avec un seuil de participation de 1 000 000 ZEC pour que le résultat soit considéré comme représentatif. Les questions portaient sur le lissage de l’émission NSM, le calendrier de réémission, l’abandon de Sprout/v4, les temps de bloc de 25 secondes et le périmètre/la préparation de NU7.
+En août 2026, Valar Group et Project Tachyon ont utilisé cette pile pour le vote des détenteurs de pièces sur NU7. Pour être éligible, il fallait détenir des ZEC protégés dépensables dans Ironwood à la hauteur 3 459 350 du mainnet. Le vote s’est déroulé du 25 août au 14 septembre 2026, avec un seuil de participation de 1 000 000 ZEC pour que le résultat soit considéré comme représentatif. Les questions portaient sur le lissage de l’émission NSM, le calendrier de réémission, la dépréciation de Sprout/v4, les temps de bloc de 25 secondes ainsi que la portée et l’état de préparation de NU7.
 
-La coordination de la chaîne par défaut utilise une multisig 2-sur-5 réunissant Project Tachyon, Valar Group, la Zcash Foundation, ZODL et Shielded Labs. Un ensemble distinct de validateurs détient les parts de clés de déchiffrement de chaque cycle. Aucun validateur unique ne peut récupérer les votes individuels ; un seuil de validateurs est nécessaire pour produire le décompte final.
+La coordination de la chaîne par défaut repose sur un multisig 2 sur 5 réunissant Project Tachyon, Valar Group, la Zcash Foundation, ZODL et Shielded Labs. Un ensemble distinct de validateurs détient les parts de clé de déchiffrement propres à chaque tour. Aucun validateur ne peut à lui seul retrouver les votes individuels ; un seuil de validateurs est nécessaire pour produire le dépouillement final.
 
 Les interfaces publiques destinées aux opérateurs et aux auditeurs comprennent :
 
 - [Configuration de la chaîne de vote](https://setup.valargroup.org)
-- [Auditeur de décompte](https://tally.valargroup.org)
-- [Interface des coordinateurs](https://svote.valargroup.org/)
+- [Auditeur du dépouillement](https://tally.valargroup.org)
+- [Interface de coordination](https://svote.valargroup.org/)
 - [Configuration du serveur PIR](https://setup-pir.valargroup.org)
-- [Documentation Shielded Vote](https://valargroup.gitbook.io/shielded-vote-docs)
+- [Documentation de Shielded Vote](https://valargroup.gitbook.io/shielded-vote-docs)
 
 ### Zakura
 
-Zakura est un nœud complet Zcash développé en collaboration entre Valar Group et Project Tachyon. Il est dérivé de Zebra et ajoute une synchronisation plus rapide, un élagage natif, un démarrage à partir d’instantanés, des chemins de compatibilité avec `zcashd` et des travaux P2P haute performance expérimentaux.
+Zakura est un nœud complet Zcash développé en collaboration entre Valar Group et Project Tachyon. Il est dérivé de Zebra et y ajoute une synchronisation plus rapide, l’élagage natif, l’amorçage par instantané, des voies de compatibilité avec `zcashd` et des travaux expérimentaux sur un P2P à hautes performances.
 
-La Zcash Foundation a publiquement salué le projet, notant que Zebra a été publié sous des licences permissives afin que des équipes indépendantes puissent le forker et l’améliorer, et que plusieurs contributeurs de Zakura avaient déjà contribué en amont à Zebra.
+La Zcash Foundation a publiquement salué le projet, en soulignant que Zebra avait été publié sous des licences permissives afin que des équipes indépendantes puissent le forker et l’améliorer, et que plusieurs contributeurs de Zakura avaient déjà contribué en amont à Zebra.
 
-### Récupération privée d’informations
+### Récupération d’informations privée
 
 Valar Group maintient des services et des bibliothèques PIR pour deux problèmes liés :
 
-- Prouver qu’une note n’était pas dépensée à une hauteur d’instantané sans révéler son nullifier.
-- Réduire les données que les wallets doivent récupérer pour se synchroniser ou voter.
+- Prouver qu’une note n’était pas dépensée à une hauteur d’instantané donnée sans révéler son nullifier.
+- Réduire la quantité de données que les portefeuilles doivent récupérer pour se synchroniser ou voter.
 
-Il s’agit d’une dépendance centrale de Shielded Vote et d’un élément de base pour une UX de wallet privé plus rapide.
+Il s’agit d’une dépendance essentielle de Shielded Vote et d’une brique de base pour une expérience utilisateur plus rapide des portefeuilles privés.
 
 ### Ingénierie Ironwood et NU7
 
-Valar Group a participé à l’engagement conjoint de juin 2026 pour Ironwood et a contribué à l’implémentation des règles de consensus ainsi qu’au travail sur les clients autour du nouveau pool. Le groupe a également exploité l’infrastructure du testnet NU7, y compris des scripts de connexion et des nœuds publics hébergés sous `nu7.valargroup.dev`.
+Valar Group a pris part à l’engagement commun de juin 2026 en faveur de Ironwood et a contribué à l’implémentation des règles de consensus et aux travaux sur les clients autour du nouveau pool. Elle a également exploité l’infrastructure du testnet NU7, notamment des scripts pour le rejoindre et des nœuds publics hébergés sous `nu7.valargroup.dev`.
 
 ### Bibliothèques de protocole open source
 
-L’organisation GitHub `valargroup` publie la pile de vote et de nœud sous forme de dépôts publics, notamment :
+L’organisation `valargroup` sur GitHub publie la pile de vote et de nœud sous forme de dépôts publics, notamment :
 
-- [`vote-sdk`](https://github.com/valargroup/vote-sdk) — chaîne spécifique à l’application pour le vote privé on-chain
-- [`zcash_voting`](https://github.com/valargroup/zcash_voting) — bibliothèque de vote blindé côté client, preuves, stockage et FFI
+- [`vote-sdk`](https://github.com/valargroup/vote-sdk) — chaîne applicative dédiée au vote privé on-chain
+- [`zcash_voting`](https://github.com/valargroup/zcash_voting) — bibliothèque côté client pour le vote protégé, les preuves, le stockage et le FFI
 - [`voting-circuits`](https://github.com/valargroup/voting-circuits) — circuits Halo2 de délégation et de vote
 - [`vote-nullifier-pir`](https://github.com/valargroup/vote-nullifier-pir) — PIR pour les preuves de non-appartenance des nullifiers
-- [`token-holder-voting-config`](https://github.com/valargroup/token-holder-voting-config) — configuration de découverte de services pour wallets
+- [`token-holder-voting-config`](https://github.com/valargroup/token-holder-voting-config) — configuration de la découverte de services pour les portefeuilles
 - [`zebra`](https://github.com/valargroup/zebra) — fork de développement Zebra/Zakura de Valar Group
 
 ## Les équipes
 
-Valar Group est dirigé par **Dev Ojha** (ValarDragon). Les pages publiques de l’équipe associées à Zakura répertorient les ingénieurs affiliés à Valar suivants :
+Valar Group est dirigée par **Dev Ojha** (ValarDragon). Les pages d’équipe publiques associées à Zakura mentionnent les ingénieurs affiliés à Valar suivants :
 
-- **Dev Ojha** — Responsable de maintenance ; dirige Valar Group. Ses domaines d’intérêt comprennent le vote des détenteurs de jetons, le travail post-quantique, Zakura et le PIR.
-- **Roman Akhtariev** — Ingénieur principal. Auparavant ingénieur principal chez Osmosis ; ses travaux incluent la synchronisation de wallet PIR, le vote des détenteurs de jetons et les performances de synchronisation de Zakura.
-- **Evan Forbes** — Ingénieur principal. Ancien responsable du consensus et ingénieur fondateur de Celestia ; ses travaux incluent la préparation aux temps de bloc plus rapides et une pile P2P QUIC.
-- **Adam Tucker** — Ingénieur principal. Ancien ingénieur d’Osmosis ; ses travaux incluent le vote des détenteurs de jetons avec Roman Akhtariev, la fiabilité des wallets et l’intégration d’Ironwood dans toute la pile.
+- **Dev Ojha** — Mainteneur ; dirige Valar Group. Ses domaines de prédilection comprennent le vote des détenteurs de jetons, les travaux post-quantiques, Zakura et le PIR.
+- **Roman Akhtariev** — Ingénieur principal. Auparavant ingénieur principal chez Osmosis ; ses travaux portent notamment sur la synchronisation des portefeuilles par PIR, le vote des détenteurs de jetons et les performances de synchronisation de Zakura.
+- **Evan Forbes** — Ingénieur principal. Ancien responsable du consensus et ingénieur fondateur de Celestia ; ses travaux portent notamment sur la préparation à des temps de bloc plus courts et sur une pile P2P QUIC.
+- **Adam Tucker** — Ingénieur principal. Ancien ingénieur d’Osmosis ; ses travaux portent notamment sur le vote des détenteurs de jetons avec Roman Akhtariev, la fiabilité des portefeuilles et l’intégration de Ironwood dans l’ensemble de la pile.
 
 Zakura lui-même est maintenu conjointement avec Project Tachyon, dirigé par Sean Bowe. Les deux organisations collaborent étroitement mais restent distinctes.
 
 ## Structure organisationnelle
 
-Valar Group opère comme une organisation d’ingénierie indépendante. Elle ne fait pas partie de la Zcash Foundation, de ZODL, de Shielded Labs ou de Zcash Community Grants.
+Valar Group fonctionne comme une organisation d’ingénierie indépendante. Elle ne fait partie ni de la Zcash Foundation, ni de ZODL, ni de Shielded Labs, ni de Zcash Community Grants.
 
-Dans la conception de la chaîne de vote, Valar Group est l’une des cinq organisations coordinatrices. Ce rôle est un paramètre du système de vote, et non une revendication de contrôle exclusif sur la gouvernance de Zcash. D’autres équipes peuvent exploiter des validateurs, mettre en place des chaînes de vote alternatives ou auditer les décomptes publiés à partir des outils publics.
+Dans la conception de la chaîne de vote, Valar Group est l’une des cinq organisations coordinatrices. Ce rôle est un paramètre du système de vote, et non la revendication d’un contrôle exclusif sur la gouvernance de Zcash. D’autres équipes peuvent exploiter des validateurs, mettre en place des chaînes de vote alternatives ou auditer les dépouillements publiés à l’aide des outils publics.
 
-Des informations supplémentaires sur le type d’entité juridique, la composition du conseil d’administration et la gouvernance interne n’ont pas été publiées avec le même niveau de détail que pour les anciennes organisations Zcash.
+Les informations complémentaires sur la forme juridique, la composition du conseil d’administration et la gouvernance interne n’ont pas été publiées avec le même niveau de détail que pour les organisations plus anciennes de Zcash.
 
 ## Financement
 
-Des déclarations publiques sur les forums datant de la mi-2026 décrivent Valar Group et Project Tachyon comme financés par des dons privés. Contrairement au tour de financement divulgué de ZODL ou aux annonces publiques de dons de Shielded Labs, Valar Group n’a pas publié de liste détaillée de donateurs ni de calendrier de subventions.
+Des déclarations publiques sur le forum datant de la mi-2026 indiquent que Valar Group et Project Tachyon sont financés par des dons privés. Contrairement au tour de financement en capital-risque divulgué par ZODL ou aux annonces publiques de dons de Shielded Labs, Valar Group n’a pas publié de liste détaillée de donateurs ni de calendrier de subventions.
 
-Ce modèle de financement maintient l’équipe indépendante de la voie historique du Development Fund / des récompenses de bloc, mais il implique également moins de visibilité publique sur la taille du budget et les sources de financement.
+Ce modèle de financement maintient l’équipe indépendante du mécanisme historique du Development Fund et de la récompense de bloc, mais il implique également une moindre visibilité publique sur la taille du budget et les sources de financement.
 
 ## Rôle dans l’écosystème Zcash
 
-Valar Group est l’une des organisations de protocole indépendantes qui se sont formées autour du paysage de développement de Zcash en 2026. Dans ce paysage :
+Valar Group est l’une des organisations de protocole indépendantes qui se sont formées dans le paysage du développement de Zcash en 2026. Dans ce paysage :
 
-- La **Zcash Foundation** poursuit la gestion communautaire et Zebra.
-- **ZODL** se concentre sur le produit wallet et la poursuite du protocole après la séparation d’ECC.
+- La **Zcash Foundation** poursuit son rôle d’intendance communautaire et Zebra.
+- **ZODL** se concentre sur le produit portefeuille et la continuité du protocole après la scission de ECC.
 - **Shielded Labs** se concentre sur la durabilité, la sécurité et la recherche sur le consensus.
-- **Project Tachyon** se concentre sur la récursion, la vérification formelle et l’évolutivité à long terme.
-- **Valar Group** se concentre sur le vote privé des détenteurs de monnaies, les performances des nœuds, le PIR et l’ingénierie nécessaire pour exploiter ces systèmes en production.
+- **Project Tachyon** se concentre sur la récursion, la vérification formelle et la mise à l’échelle à long terme.
+- **Valar Group** se concentre sur le vote privé des détenteurs de pièces, les performances des nœuds, le PIR et l’ingénierie nécessaire pour exploiter ces systèmes en production.
 
-Sa contribution distinctive consiste à rendre la gouvernance blindée opérationnelle. Le vote NU7 est la première utilisation majeure de cette pile : les détenteurs prouvent leurs soldes Ironwood, des wallets tels que ZODL et Vizor peuvent intégrer le flux, et chacun peut auditer le décompte sans savoir comment un détenteur particulier a voté.
+Sa contribution distinctive consiste à rendre la gouvernance protégée opérationnelle. Le vote sur NU7 est la première utilisation majeure de cette pile : les détenteurs prouvent leurs soldes Ironwood, des portefeuilles tels que ZODL et Vizor peuvent intégrer le processus, et n’importe qui peut auditer le dépouillement sans apprendre comment un détenteur donné a voté.
 
-Le travail de la même équipe sur les nœuds et la synchronisation est destiné à soutenir l’autre moitié de cette vision. Le vote privé est moins utile si les wallets ne peuvent pas se synchroniser, si les nœuds ne peuvent pas suivre ou si les mises à niveau ne peuvent pas être implémentées rapidement. Valar Group traite la gouvernance, le logiciel de nœud et l’infrastructure de wallet comme un seul problème : rendre Zcash privé utilisable à grande échelle sans concentrer le pouvoir opérationnel dans une seule organisation.
+Les travaux de la même équipe sur les nœuds et la synchronisation visent à soutenir l’autre moitié de ce tableau. Le vote privé perd de son utilité si les portefeuilles ne peuvent pas se synchroniser, si les nœuds ne peuvent pas suivre ou si les mises à niveau ne peuvent pas être implémentées rapidement. Valar Group traite la gouvernance, le logiciel de nœud et l’infrastructure des portefeuilles comme un seul et même problème : rendre Zcash privé utilisable à grande échelle sans concentrer le pouvoir opérationnel au sein d’une seule organisation.
 
 ## Ressources
 
 - [Site web de Valar Group](https://valargroup.dev/)
-- [GitHub de Valar Group](https://github.com/valargroup)
-- [Documentation Shielded Vote](https://valargroup.gitbook.io/shielded-vote-docs)
+- [Valar Group GitHub](https://github.com/valargroup)
+- [Documentation de Shielded Vote](https://valargroup.gitbook.io/shielded-vote-docs)
 - [Configuration de la chaîne de vote](https://setup.valargroup.org)
-- [Auditeur de décompte](https://tally.valargroup.org)
-- [Interface des coordinateurs](https://svote.valargroup.org/)
+- [Auditeur du dépouillement](https://tally.valargroup.org)
+- [Interface de coordination](https://svote.valargroup.org/)
 - [Zakura](https://zakura.com/)
-- [À propos / équipe de Zakura](https://zakura.com/about/)
-- [Fil de forum sur le vote des détenteurs de monnaies NU7](https://forum.zcashcommunity.com/t/nu7-token-holder-vote/56912)
-- [Fil de forum sur la Coinholder Voting Chain](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925)
+- [Zakura : à propos / équipe](https://zakura.com/about/)
+- [Fil du forum sur le vote des détenteurs de pièces NU7](https://forum.zcashcommunity.com/t/nu7-token-holder-vote/56912)
+- [Fil du forum sur la Coinholder Voting Chain](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925)

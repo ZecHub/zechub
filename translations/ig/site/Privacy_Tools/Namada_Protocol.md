@@ -38,11 +38,11 @@ Na Namada, a na-ewere set nke e chebere echebe dịka ihe ọha na eze bara uru 
 
 ## Azụmahia Akụ Ndị E Chebere Echebe
 
-Mgbe a bịara na mbufe ndị e chebere echebe, ma ọ gụnyere token Ethereum na-enweghị ike ịgbanwe (NFT), ATOM, ma ọ bụ NAM, ha enweghị ike ịdị iche na ibe ha. Nke a pụtara na atụmatụ na-echekwa Nzuzo nke MASP (Modified Accumulator Sapling Protocol), ụdị circuit Zcash Sapling emelitere, na-emetụta ụdị akụ niile n'otu aka ahụ. Circuit MASP na-eme ka akụ niile dị n'ime gburugburu obibi Namada keta otu set nke e chebere echebe. Usoro a na-ahụ na e kewaghị nkwa Nzuzo n'etiti akụ nke ọ bụla. N'agbanyeghị olu Azụmahia metụtara otu akụ pụrụ iche, nchedo Nzuzo ahụ na-adịgide otu ma na-anọọrọ onwe ya.
+MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)) na-agbatị circuit Sapling nke Zcash ka ọ kwado mbufe ndị e chebere echebe nke akụ sitere n'ime usoro ahụ na akụ ndị si n'èzí. Ịkekọrịta otu pool apụtaghị na Nzuzo anaghị adabere n'otú e si eji akụ. Akwụkwọ nkọwa Namada na-akọwa na akụ ndị nke otu ụdị na-ekekọrịta otu set nke enweghị aha (anonymity set), nakwa na usoro ọha nke ichebe echebe na iwepụ nchebe ka nwere ike ikpughe ebe akụ si bịa.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-Site n'ijikọta set nke e chebere echebe n'ofe akụ dị iche iche, Namada na-ahụ na a na-echekwa Nzuzo n'otu aka ahụ, n'agbanyeghị ụdị akụ pụrụ iche metụtara na mbufe nke e chebere echebe. Usoro a na-akwalite usoro Nzuzo jikọtara ọnụ n'ime protocol ahụ ma na-eme ka nzuzo nke Azụmahia metụtara Ethereum NFTs, ATOM, NAM, na akụ ndị ọzọ akwadoro sikwuo ike. Namada na-emekwa ka mbufe token ndị a pụrụ ịgbanwe na ndị a na-apụghị ịgbanwe n'onwe ha kwe omume site n'iji zk-SNARKs ọhụrụ, na-ahụ na e chebere nzuzo token ndị sitere na ya na ndị na-esighị na ya dịka a na-eme na Zcash.
+Dịka ọmụmaatụ, ọ bụrụ na ọ bụ naanị otu akaụntụ na-echebe BTC ma emesịa wepụ ya n'otu akaụntụ ahụ, a ka nwere ike ijikọta ebe ndị ahụ ọha na-ahụ ebe ego si banye na ebe o si pụta, ọ bụrụgodị na ego ahụ gagharịrị na nzuzo n'ime MASP. Mgbe akaụntụ ndị ọzọ na-echebe BTC, mwepụ e mere emesịa nwere ike ịbụ nke otu n'ime akaụntụ ndị ahụ. Ọnụ ọgụgụ ndị na-esonye na usoro Azụmahia metụtara ya dị mkpa; naanị ịdị ukwuu nke pool a na-ekerịta anaghị ekwe nkwa na Nzuzo ga-adị otu ihe ahụ maka akụ ọ bụla.
 
 ## Ugwo Dị Ntakịrị na Azụmahia Ngwa Ngwa
 

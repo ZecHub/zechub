@@ -147,13 +147,13 @@ Usoro nhazi na-enyere onye nyocha aka site n'ịchịkọta circuit ma wepụta 
 
 **Ụdị nhazi tupu nhazi**:
 
-Trusted Setup maka circuit ọ bụla - A na-eme ya otu ugboro maka circuit ọ bụla. Ọ bụ kpọmkwem maka circuit, na ihe ndabara nzuzo (Common Reference String) ga-anọrịrị na nzuzo ma bibie ya. 
+trusted setup maka circuit ọ bụla - Mee ya iche maka circuit ọ bụla. Common reference string (CRS) e nwetara nwere parampita ọha ndị provers na verifiers na-eji. Ọ bụ ihe nzuzo dị n'etiti n'oge ntọala ("toxic waste"), ọ bụghị CRS, ka a ga-edobe na nzuzo ma bibie. Nkọwa ECC's [maka parampita ọha](https://zodl.com/snark-parameters/) na-eme ka ọdịiche dị n'etiti ha abụọ doo anya.
 
-Nhazi emebiela n'usoro a pụtara na onye na-egosi na-adịghị akwụwa aka ọtọ nwere ike igosi nkwupụta ụgha. 
+Ọ bụrụ na edobere ma ọ bụ weghachite ihe nzuzo achọrọ maka trusted setup, onye na-egosi na-adịghị akwụwa aka ọtọ nwere ike imepụta proof nke nkwupụta ụgha. N'emume MPC, nchekwa nwere ike ịdabere n'ịbụ na opekata mpe otu onye sonyere na-agbaso protocol ma bibie onyinye nzuzo ya.
 
-Trusted Setup zuru ụwa ọnụ - Ọ dị mkpa naanị ime trusted setup otu ugboro ma nwee ike mezia ọtụtụ circuit n'ụzọ kpebiri ekpebi mgbe ahụ. 
+Trusted setup a pụrụ ịtụkwasị obi ma bụrụ nke zuru ụwa ọnụ - Otu trusted setup na-emepụta parameeta ndị a pụrụ iji wepụta igodo proof [proving keys] na igodo nkwenye [verification keys] maka ọtụtụ circuit n'ime oke nha akwadoro. Nke a ka na-adabere n'echiche na e bibiri ihe nzuzo [secret-destruction assumption]; ịbụ nke zuru ụwa ọnụ apụtaghị Oha [transparent].
 
-Nhazi Oha (Enweghị Trusted Setup)- Algọridim nhazi tupu nhazi anaghị eji ihe ndabara nzuzo ọ bụla. 
+Nhazi Oha (enweghị trusted setup) - Enwere ike ịmepụta paramenta ọhaneze na-enweghị ụzọ nzuzo nke nhazi nke a ga-atụkwasị mmadụ obi ka o bibie. Nke a apụtaghị na ime proof anaghị eji ihe ndabara ma ọ bụ na sistemụ ahụ enweghị paramenta ọhaneze. Akwụkwọ [Halo 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) na-enye atụ nke paramenta group ọhaneze.
 
 
 **Ụdị nrụpụta SNARK proof**:

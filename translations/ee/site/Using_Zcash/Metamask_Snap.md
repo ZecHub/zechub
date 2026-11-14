@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # MetaMask Zcash Snap ƒe ƒoƒo ƒe mɔfia
+
+> Lé eye nàɖo ɣaɣla [shielded] ZEC tso MetaMask browser ƒe kekeɖeŋu me, si wòazã ChainSafe ƒe Zcash Snap kple WebZjs web gakotoku.
+
+## Nu si me le kpuie
+
+* ChainSafe Zcash Snap tsɔ ɣaɣla [shielded] ZEC kpe ɖe MetaMask ŋu le desktop (Chrome, Edge, Firefox) dzi. Mehia Zcash software bubu aɖeke o.
+* Wò Zcash keys tsoa wò MetaMask recovery phrase me. Nya ɖeka ma ɖea wò ETH kple wò ZEC eve ŋu fifia.
+* Nèkplɔa ZEC dzi to WebZjs gakotoku [wallet] le webzjs.chainsafe.dev, menye le MetaMask ƒe asset list ŋu o.
+* Wò account xɔ gaɖoƒe ƒe dzesi [address] ɖeka, ale be ame siwo do ga ɖe ɖe wò la axɔ asi le gaƒuƒoƒo [pool] si nye ɣaɣla [privacy] wu si woate ŋu akpe ɖe ŋuwò la me.
+* Na ga nàdoe to ɖɔli ɖɔli [swap] me (le kpɔɖeŋu me, ETH yi ZEC) alo nàhe ZEC tso gatrɔƒe [exchange] me ayi wò ɣaɣla gaɖoƒe ƒe dzesi dzi.
+* Gatrɔxɔxɔ: Ɖo MetaMask kple Snap ɖe anyi ake, eye nàkplɔ wò recovery phrase si nèxɔ tsã la vɛ.
+
+## Nya vevi ƒe gɔmeɖeɖe
+
+MetaMask Snap aɖe nye kpekpe sue si le sandbox me, eye wòfia MetaMask blockchain yeye aɖe. Zcash Snap, si ChainSafe wɔ eye Hacken kpɔ ɖe eŋu, na MetaMask nàtsɔ wò gatrɔɖoɖi nya [recovery phrase] si le xoxo atsɔ adzra Zcash ƒe keys eye wòatsɔ asi ade Zcash ƒe gaɖoɖowo ŋu.
+
+MetaMask ŋutɔ mefia ZEC ƒe balance o. Le esime ma ke o, WebZjs web gakotoku [web wallet] ɖea kadodo ɖe Snap ŋu, wòawɔ sync kple Zcash network to lightwalletd server dzi, eye wòafia wò gaɖoƒe ƒe dzesi [address]wo kple balance. Ɣaɣla ɖaseɖigbalɛwo [Shielded proofs] woɖea woƒe akɔnta le wò browser me kple WebAssembly, elabena gaɖoɖowo wɔnɔa ɣeyiɣi vi aɖe ha.
+
+Afɔwo siwo le ete la ƒo nu tso Snap ƒe tsɔtsɔme, WebZjs ƒe kadodo, gakotoku [wallet] ƒe gadzadzra, gaɖoɖo kple xexlẽ, eye wò ƒe gaɖoƒe ƒe dzesi [address] siwo woƒo ƒu la ƒe akpaawo ƒe kpɔkpɔ me.
+
+## Ɖoɖoɖo blibo
 
 Ne nàdi mɔfia bliboa kple nukpɔkpɔ ƒe gɔmeɖeɖe la, kpɔ [**YouTube mɔfia**](https://www.youtube.com/watch?v=UJh9Ilkohdw) sia: 
 

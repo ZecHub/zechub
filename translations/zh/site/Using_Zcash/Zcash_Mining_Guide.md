@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑页面"/>
+</a>
+
 # Zcash 挖矿指南 [Mining Guide]：使用个人硬件加入挖矿池 [Mining Pool]
+
+> 将你的 GPU 或 ASIC 接入一个 pool，与其他矿工 [miner] 分担工作，即可获得稳定的 ZEC 收益，而不必花费数年等待单独挖出一个区块 [block]。
+
+## 摘要 (TL;DR)
+
+* Zcash 采用 Equihash 工作量证明（proof of work）。ASIC 在网络中占主导地位，因此 GPU 主要用于爱好者和测试。
+* 对于小型设备来说，单独挖矿（mining）很少能找到区块（block）。矿池（pool）汇集算力，并从其找到的每个区块中按份额向您支付报酬。
+* 您需要三样东西：用于接收收益的 Zcash 钱包（wallet）地址（address）、挖矿硬件，以及挖矿软件（或 ASIC 内置的仪表板（dashboard））。
+* 各矿池在手续费（fee）（约 0-2%）、支付方式（PPLNS、PPS+）、最低支付额和服务器位置方面各不相同。
+* 请先核算盈利能力：电价、硬件成本和 ZEC 价格决定了挖矿是否值得。
+* 进阶方式：运行您自己的 Zebra 节点（node），并通过其 `getblocktemplate` RPC 进行挖矿。
+
+## 核心解释
+
+挖矿 [mining] 是新的 Zcash 区块 [block] 的产生方式。矿工 [miner] 竞相求解一个 Equihash 难题；第一个找到有效解的矿工会添加下一个区块，并获得区块奖励。你贡献的算力越多，获胜的频率就越高，但面对当今的网络，单台家用矿机几乎永远不可能独自获胜。
+
+Mining pool 解决了这个问题。Pool 会把较小的工作单元分配给每个矿工，这些工作单元称为份额（shares）。每个被接受的份额都证明你贡献了算力（hashrate）。当 pool 中任何人找到一个区块时，奖励会按份额分配，一旦你的余额超过 pool 的最低支付额度，你就会自动收到付款。
+
+下面将分五个部分逐步介绍设置过程：
+
+1. 一个用于接收挖矿收益的钱包地址。
+2. 硬件：PC 中的 GPU，或一台 Equihash ASIC。
+3. 一个 pool 账户（对于无需注册的 pool，只需您的地址即可）。
+4. 挖矿软件，指向 pool 的 stratum 服务器，并以 `YOUR_ADDRESS.WORKER_NAME` 作为用户名。
+5. 监控：已接受的份额（share）、算力（hashrate）、温度和未支付余额。
 
 ## 简介
 
@@ -107,6 +136,25 @@ Zcash（ZEC）是一种专注于隐私 [privacy] 的加密货币，使用 Equiha
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### 监控 Foundry Zcash Pool
+
+面向 Foundry Zcash 池用户：
+
+- 通过 Foundry pool 仪表板（dashboard）监控矿工（miner）性能。
+- 检查：
+  - 活跃矿机
+  - 报告算力
+  - 已接受份额
+  - 预估奖励
+  - 支付状态
+
+由于 Foundry 采用 PPLNS 奖励模型，挖矿奖励取决于在 pool 奖励窗口内贡献的份额，而不仅仅取决于即时算力。
+
+推荐的监控做法：
+- 将 ASIC 仪表板上的算力与 Foundry 报告的算力进行对比。
+- 排查被拒绝的份额（rejected shares）、过期份额（stale shares）或连接不稳定的问题。
+- 保持稳定的网络连接，因为停机会减少提交的份额和潜在奖励。
+
 ## Sovright：测试网 pool 和中继网络
 
 Sovright（sovright.com）运行一个 Stratum V2 挖矿 pool 和一个独立的区块 [block] 中继网络。它们承担不同的工作，因此以下将分别介绍。
@@ -118,37 +166,19 @@ Sovright 的 pool 运行在公开的 Zcash 测试网（NU6、Stratum V2）上，
 - 无需账户即可开始。将 CPU 或 ASIC Equihash 矿工指向该 pool，您的份额便会显示在实时仪表板上。
 - Sovright 还发布了一个开源 Stratum V2 代理，供希望自行选择区块模板、而非仅接受 pool 工作任务的矿工使用：
 
-### 监控 Foundry Zcash Pool
-
-对于 Foundry Zcash Pool 用户：
-
-- 通过 Foundry pool 仪表板监控矿工性能。
-- 检查：
-  - 活跃工作者
-  - 报告的哈希率
-  - 已接受的份额
-  - 预计奖励
-  - 付款状态
-
-由于 Foundry 使用 PPLNS 奖励模式，挖矿奖励取决于在 pool 奖励窗口期间贡献的份额，而不只是即时哈希率。
-
-推荐的监控做法：
-- 将 ASIC 仪表板哈希率与 Foundry 报告的哈希率进行比较。
-- 调查被拒绝的份额、过期份额或连接不稳定问题。
-- 保持稳定的网络连接，因为停机会减少提交的份额和潜在奖励。
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  将您的矿工指向代理，而不是直接指向 pool：
+  将你的矿工（miner）指向代理，而不是直接指向 pool：
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  使用类似 `yourname.rig1` 的工作者名称。
-- Sovright 的透明度页面说明其对屏蔽交易采取“全部包含”政策，这与某些会过滤屏蔽交易的矿池不同。每个区块都会获得签名证明，以便独立核查该政策。
-- 在 mining.sovright.com 创建账户（使用 Google 或电子邮件登录），即可追踪您自己的工作者，而非查看示例仪表板数据。
+  使用类似 `yourname.rig1` 的 worker 名称。
+- Sovright 的透明度页面声明对屏蔽（shielded）交易（transaction）采取"全部打包"政策，不像某些 pool 会将其过滤掉。每个区块（block）都会获得一份签名证明（attestation），因此可以独立核查该政策。
+- 在 mining.sovright.com 创建账户（可使用 Google 或电子邮件登录），以跟踪你自己的 worker，而不是查看示例仪表板（dashboard）数据。
 
 ### 中继网络（relay.sovright.com）
 

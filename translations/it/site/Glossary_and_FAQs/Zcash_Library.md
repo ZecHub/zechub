@@ -186,7 +186,7 @@ Un glossario completo dei termini chiave, dei concetti e delle risorse relativi 
 | Testnet | Una blockchain separata per testare aggiornamenti e funzionalità prima della mainnet. |
 | Trailing Finality Layer (TFL) | Ricerca sull'aggiunta di un livello di finalità dietro la chain proof-of-work di Zcash, in modo che i blocchi recenti possano essere finalizzati senza sostituire il mining. Crosslink è il design nato da questa ricerca. |
 | Transaction | Un pagamento tra utenti, inviato alla rete e infine confermato in un blocco. |
-| Transaction Expiry | Le transazioni scadono dopo circa 25 minuti (20 blocchi) se non confermate; i fondi ritornano automaticamente. |
+| Transaction Expiry | Un limite di altezza del blocco che stabilisce quando un pagamento non incluso nel mining può essere incluso. Un pagamento ordinario con un'altezza di scadenza N diversa da zero può essere incluso nel blocco N o in uno precedente, ma non in N+1. Un'altezza pari a 0 disabilita la scadenza. Non è un timer di rimborso automatico. [ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | La commissione predefinita è 0,0001 ZEC. Le commissioni più alte hanno priorità; commissioni molto basse possono causare ritardi o scadenza. |
 | Transparent Address | Chiamato anche taddr. Inizia con t. Completamente pubblico (come Bitcoin). |
 | Transparent Transaction | Una transazione esclusivamente tra indirizzi trasparenti - tutto è visibile pubblicamente. |

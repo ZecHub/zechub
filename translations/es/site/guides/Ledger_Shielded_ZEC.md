@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Guía del usuario de Ledger ZEC blindado [Shielded]
+
+> Conserva, recibe y envía ZEC privados [private] (blindados [shielded]) con tu Ledger hardware wallet en Ledger Wallet Desktop.
+
+## Resumen [TL;DR]
+
+* Desde el 23 de septiembre de 2026, Ledger Wallet Desktop admite ZEC blindado [shielded]. Una cuenta de Zcash tiene un saldo transparente [transparent] y un saldo privado [private] en el pool Ironwood.
+* Solo para escritorio por ahora. El soporte móvil se anuncia como «próximamente».
+* Necesitas un Nano S Plus, Nano X, Stax o Flex (no el Nano S original), Ledger Wallet Desktop 4.21+ y la aplicación Zcash más reciente.
+* Haz clic una vez en **Activar blindado** [Enable shielded]: tu Ledger exporta una clave de visualización [viewing key] para que la aplicación de escritorio pueda encontrar tus fondos privados. Las claves de gasto [spending keys] nunca salen del dispositivo.
+* Recibe en la dirección privada [private address] (u1...) cuando puedas. Mover ZEC de tu saldo transparente a privado funciona, pero vincula ambos.
+* Cada envío se revisa y firma en la pantalla de Ledger. Verifica las direcciones allí, carácter por carácter.
+
+## Explicación fundamental [Core Explanation]
+
+Zcash tiene dos tipos de saldo. El saldo transparente [transparent] ZEC (direcciones t1) funciona como Bitcoin: los montos y las direcciones son públicos. El saldo blindado [shielded] ZEC se encuentra en un pool blindado, donde el remitente, el destinatario y el monto están cifrados on-chain.
+
+Ledger mantiene tus claves de gasto [spending keys] en el dispositivo de hardware. Para mostrar un saldo privado [private balance], Ledger Wallet Desktop necesita una Full Viewing Key unificada (UFVK). El dispositivo la exporta una vez y la aplicación de escritorio la utiliza para escanear la blockchain en busca de tus notas blindadas [shielded notes]. Una clave de visualización [viewing key] puede ver tu historial blindado, pero no puede gastar, así que trátala como información privada.
+
+Los pasos siguientes abarcan instalar la aplicación [app] Zcash, añadir una cuenta, habilitar el saldo privado [private balance], recibir, blindar [shielding] ZEC transparentes y enviar desde el saldo privado.
+
+## Descripción general
 
 El 23 de septiembre de 2026, Ledger añadió ZEC blindado nativo a Ledger Wallet Desktop. Una cuenta de Zcash ahora contiene un saldo transparente [transparent] y un saldo privado en el pool [pool] de Zcash de Ironwood. Tus claves privadas permanecen en tu Ledger, y cada transacción [transaction] se revisa y firma en el dispositivo.
 

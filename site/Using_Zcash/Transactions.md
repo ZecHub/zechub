@@ -104,6 +104,12 @@ ZIP 317 is a wallet and node policy, not a consensus rule requiring this exact f
 
 A Zcash transaction is not final just because it appears in your wallet. It becomes final for ordinary use after it is mined into a block and receives enough confirmations for your situation. Exchanges and services may require more confirmations than a wallet shows by default.
 
+Expiry is a **block height**, not a fixed countdown. For an ordinary payment with a nonzero expiry height, that height is the last block in which it can be mined. For example, a payment expiring at height 3539 can be included in block 3539; block 3540 is too late. An expiry height of 0 means no expiry for an ordinary payment. See [ZIP 203](https://zips.z.cash/zip-0203).
+
+Defaults are not universal deadlines. ZIP 203 specified 40 blocks after Blossom, roughly 50 minutes at a 75-second target spacing. Since NU7 activated on November 6, 2026 (block 3,543,405), the target spacing is 25 seconds and ZIP 218 recommends a default of 120 blocks, which is still roughly 50 minutes ([ZIP 218](https://zips.z.cash/zip-0218)). Wallet settings and implementations can differ, and actual block intervals vary. Check the particular transaction's expiry height instead of timing a resend.
+
+Expiry does not reverse an already mined payment or create a refund transaction. If the original expired without being mined, it never settled on-chain. Your wallet may need to sync before showing the associated funds as spendable again.
+
 Use this decision tree before resending:
 
 1. **Does your wallet show a transaction ID?**
@@ -112,9 +118,9 @@ Use this decision tree before resending:
 2. **Is the transaction confirmed in a block?**
    - If yes, wait for the number of confirmations required by your wallet, exchange, merchant, or service.
    - If no, continue.
-3. **Has the transaction reached its expiry height?**
+3. **Has the unmined transaction passed its nonzero expiry height?**
    - If no, do not manually resend the same payment yet. The original transaction may still confirm.
-   - If yes, the transaction cannot be mined after that expiry height. Your wallet may mark it as expired or failed, and you may need to create a new transaction.
+   - If yes, let the wallet sync and verify that the original was not mined at or before that height. Then follow the wallet's guidance for creating a replacement if needed.
 4. **Does the transaction appear on one server or explorer but not another?**
    - Treat this as a network visibility issue, not proof that the transaction failed. Different nodes can have different mempool views.
    - Wait, resync your wallet, or switch to another trusted server if your wallet supports that.

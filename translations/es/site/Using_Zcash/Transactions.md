@@ -64,36 +64,72 @@ La parte importante es que Zcash te permite decidir cuál enviar, pago por pago.
 
 ## Tarifas de Zcash
 
-Zcash no utiliza unidades de gas al estilo de Ethereum. Las tarifas de transacción de Zcash se pagan en ZEC, normalmente medidas en **zatoshis**. Un ZEC equivale a 100.000.000 zatoshis.
+Deja que tu billetera calcule la tarifa de red y revísala antes de enviar. Las tarifas se pagan en ZEC: **1 ZEC = 100.000.000 zatoshis**. Una tarifa en dólares estadounidenses también depende del tipo de cambio de ZEC.
 
-[ZIP 317](https://zips.z.cash/zip-0317) define un mecanismo de tarifa convencional que se escala con la complejidad de la transacción. En lugar de que cada transacción utilice la antigua tarifa fija de 1.000 zatoshis, la tarifa convencional se basa en «acciones lógicas», como entradas, salidas y acciones blindadas. Las transacciones simples suelen comenzar alrededor de 10.000 zatoshis, o 0,0001 ZEC, y las transacciones más complejas pueden requerir más.
+### Por qué dos pagos pueden tener tarifas diferentes
 
-En la mayoría de las billeteras actuales, los usuarios no deberían necesitar calcular manualmente las tarifas de ZIP 317. La billetera debería elegir automáticamente una tarifa adecuada. Si una billetera todavía utiliza la antigua tarifa fija o te permite establecer una tarifa muy por debajo de la tarifa convencional de ZIP 317, la transacción puede retrasarse, recibir menor prioridad, ser descartada por algunos nodos [nodes] o no retransmitirse de forma fiable.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) calcula la tarifa convencional a partir de **acciones lógicas** (logical actions), en lugar de un porcentaje del monto enviado:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Las acciones lógicas miden los componentes de una transacción. Por ejemplo, una transacción solo de Orchard usa su número de acciones Orchard; una transacción solo de Sapling usa el mayor entre su número de gastos y de salidas. Las contribuciones de distintos pools se suman. Los componentes transparentes usan un cálculo basado en el tamaño. Consulta ZIP 317 para ver la fórmula completa, incluidos Ironwood y Sprout heredado.
+
+Por lo tanto, gastar muchas notas [notes] pequeñas recibidas o usar varios pools puede costar más que un pago más sencillo del mismo valor. El número de destinatarios por sí solo no sirve como calculadora de tarifas: el cambio y el relleno [padding] también influyen.
+
+Estos ejemplos parten de un recuento de acciones lógicas [logical-action count] ya calculado:
+
+| Acciones lógicas | A 5.000 zatoshis por acción | A 1.000 zatoshis por acción |
+| --- | --- | --- |
+| 2 | 10.000 zatoshis / 0,0001 ZEC | 2.000 zatoshis / 0,00002 ZEC |
+| 3 | 15.000 zatoshis / 0,00015 ZEC | 3.000 zatoshis / 0,00003 ZEC |
+| 10 | 50.000 zatoshis / 0,0005 ZEC | 10.000 zatoshis / 0,0001 ZEC |
+
+### Qué tarifa marginal se aplica
+
+**Verificado el 11 de noviembre de 2026:** ZIP 317 indica la revisión 2 y [ZIP 2009](https://zips.z.cash/zip-2009) como propuestos. Antes de la revisión 2, la tarifa marginal es de 5000 zatoshis. La revisión 2 establece 1000, lo que da un mínimo de 2000 zatoshis en lugar de 10 000.
+
+La propuesta especifica la altura de Mainnet **3.590.000**, prevista aproximadamente para el 19 de noviembre de 2026, y la altura de Testnet **4.465.026**. Una estimación de calendario no es la condición de activación. Para las billeteras, la altura relevante es la del bloque en el que se espera que se mine la transacción; los nodos usan la altura del siguiente bloque. Vuelve a consultar las especificaciones enlazadas y las indicaciones de versión de tu billetera a medida que cambie el despliegue.
+
+No fuerces manualmente la tarifa más baja solo porque una propuesta o una versión de software la mencione. ZIP 2009 exige que los nodos implementen la nueva política de retransmisión antes de que las billeteras adopten la tarifa; los nodos que usan los parámetros antiguos pueden negarse a retransmitir la transacción con la tarifa más baja. Testnet y Mainnet también tienen alturas de activación diferentes.
+
+### Si la estimación parece incorrecta
+
+Comprueba que tu billetera esté actualizada y sincronizada. Compara por separado su tarifa de red con el cargo por retiro del servicio que envía: una cotización del servicio no es la fórmula ZIP 317. Para un pago pendiente, sigue los [pasos de solución de problemas que aparecen a continuación](#troubleshooting-stuck-transactions) antes de volver a enviar.
+
+ZIP 317 es una política de billeteras y nodos, no una regla de consenso que exija esta tarifa exacta. Pagar la tarifa convencional mejora la compatibilidad de retransmisión; no garantiza un tiempo de confirmación.
 
 ## Solución de problemas de transacciones atascadas
 
 Una transacción de Zcash no es definitiva solo porque aparezca en tu billetera. Se vuelve definitiva para el uso habitual después de ser minada en un bloque [block] y recibir suficientes confirmaciones para tu situación. Los exchanges y servicios pueden requerir más confirmaciones de las que una billetera muestra por defecto.
 
+La expiración es una **altura de bloque** (block height), no una cuenta regresiva fija. Para un pago ordinario con una altura de expiración distinta de cero, esa altura es el último bloque en el que puede ser minado. Por ejemplo, un pago que expira en la altura 3539 puede incluirse en el bloque 3539; el bloque 3540 ya es demasiado tarde. Una altura de expiración de 0 significa que un pago ordinario no tiene expiración. Consulta [ZIP 203](https://zips.z.cash/zip-0203).
+
+Los valores predeterminados no son plazos universales. El ZIP 203 especifica 40 bloques después de Blossom, aproximadamente 50 minutos con un espaciado objetivo de 75 segundos. El cambio propuesto de NU7 recomienda 120 bloques con un espaciado objetivo de 25 segundos, también aproximadamente 50 minutos ([ZIP 218](https://zips.z.cash/zip-0218)). La configuración y las implementaciones de las billeteras pueden variar, y los intervalos reales entre bloques cambian. Comprueba la altura de expiración de la transacción concreta en lugar de calcular cuándo reenviarla.
+
+La expiración no revierte un pago ya minado ni crea una transacción de reembolso. Si la original expiró sin haber sido minada, nunca se liquidó on-chain. Es posible que tu billetera necesite sincronizarse antes de volver a mostrar los fondos asociados como disponibles para gastar.
+
 Usa este árbol de decisiones antes de reenviar:
 
 1. **¿Tu billetera muestra un ID de transacción?**
-   - Si no, es posible que la billetera todavía no haya creado ni difundido la transacción. Comprueba el estado de sincronización, la conexión a internet, la versión de la billetera y cualquier mensaje de error de la billetera.
-   - Si sí, copia el ID de transacción y continúa.
+   - Si no, es posible que la billetera aún no haya creado o transmitido la transacción. Revisa el estado de sincronización, la conexión a internet, la versión de la billetera y cualquier mensaje de error de la billetera.
+   - Si es así, copia el ID de transacción y continúa.
 2. **¿La transacción está confirmada en un bloque?**
-   - Si sí, espera el número de confirmaciones requerido por tu billetera, exchange, comerciante o servicio.
+   - Si es así, espera el número de confirmaciones que exija tu billetera, exchange, comercio o servicio.
    - Si no, continúa.
-3. **¿La transacción ha alcanzado su altura de expiración?**
-   - Si no, no reenvíes manualmente el mismo pago todavía. La transacción original aún puede confirmarse.
-   - Si sí, la transacción no puede ser minada después de esa altura de expiración. Tu billetera puede marcarla como expirada o fallida, y es posible que necesites crear una nueva transacción.
-4. **¿La transacción aparece en un servidor o explorador, pero no en otro?**
-   - Considera esto un problema de visibilidad de la red, no una prueba de que la transacción falló. Distintos nodos pueden tener distintas vistas del mempool.
-   - Espera, resincroniza tu billetera o cambia a otro servidor de confianza si tu billetera lo admite.
+3. **¿La transacción no minada ha superado su altura de expiración distinta de cero?**
+   - Si no, no reenvíes manualmente el mismo pago todavía. La transacción original aún podría confirmarse.
+   - Si es así, deja que la billetera se sincronice y verifica que la original no se haya minado en esa altura o antes. Luego sigue las indicaciones de la billetera para crear una transacción de reemplazo si es necesario.
+4. **¿La transacción aparece en un servidor o explorador pero no en otro?**
+   - Trátalo como un problema de visibilidad en la red, no como una prueba de que la transacción falló. Distintos nodos pueden tener vistas diferentes de la mempool.
+   - Espera, vuelve a sincronizar tu billetera o cambia a otro servidor de confianza si tu billetera lo permite.
 5. **¿La transacción desapareció después de aparecer como confirmada?**
-   - Una reorganización breve de la cadena puede eliminar temporalmente una transacción de la mejor cadena.
-   - Espera más bloques. Si la transacción vuelve, continúa esperando las confirmaciones. Si no vuelve y después expira, crea una nueva transacción.
+   - Una breve reorganización de la red puede eliminar temporalmente una transacción de la cadena principal.
+   - Espera a que se generen más bloques. Si la transacción vuelve a aparecer, sigue esperando las confirmaciones. Si no vuelve y más tarde expira, crea una nueva transacción.
 6. **¿La billetera te pide que reenvíes?**
-   - Sigue las indicaciones actuales de la billetera solo después de comprobar que la transacción anterior está expirada, fallida o ya no es válida.
-   - Si no estás seguro, solicita asistencia antes de enviar nuevamente.
+   - Sigue las indicaciones actuales de la billetera solo después de comprobar que la transacción anterior ha expirado, ha fallado o ya no es válida.
+   - Si tienes dudas, consulta al soporte antes de volver a enviar.
 
 ## Pendientes, expiradas, descartadas y reorganizadas
 

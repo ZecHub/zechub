@@ -70,7 +70,7 @@ Wona tsitreɖoɖowo ge ɖe specification la me, eye woxɔ wo ɖoɖonu dzi ne net
 
 Xlẽ [míaƒe mɔfiame tso gaƒuƒoƒe ƒe nukpɔlaawo ŋu](/guides/blockchain-explorers) gbã. Emegbe, kpɔ [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Gaɖoɖowo ƒe ɣeyiɣi ƒu le miniti 25 (gaɖoɖowo ƒuƒoƒe 20) megbe, eye woɖoa gaawo ɖe megbe le eɖokui si.
+Miniti 25 ƒe ɣeyiɣi ƒuɖoɖo alo gaɖeɖe megbe ƒe ɣeyiɣiɖoɖo aɖeke mele o. Kpɔ ɣeyiɣi ƒe teƒe si wò gakotoku [wallet] ŋlɔ ɖi kple be woɖe fexexe [payment] gbãtɔ le nukuku [mining] me. Ne eƒe ɣeyiɣi va yi eye wometsɔe de nukuku me o la, womeɖo eƒe nuwo ɖoɖonu dzi [on-chain] o; ɣeyiɣi ƒe yayiyi medzana gaɖoɖo [transaction] si hã doa ga ɖe megbe o. Na gakotoku la nawɔ sync hafi nàlé eƒe mɔfiame si nye be nàgbugbɔ awɔe. Kpɔ [gaɖoɖo ƒe kuxiwo ƒe dzɔdzɔ](/using-zcash/transactions#troubleshooting-stuck-transactions) kple [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Ta siwo ta gaɖoɖo aɖe mate ŋu aɖe fia o le zi geɖe:**
 

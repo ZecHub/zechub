@@ -1,14 +1,14 @@
-# Akash पर Console के माध्यम से zcashd डिप्लॉय करना
+# Akash पर Console के माध्यम से zcashd की डिप्लॉयमेंट
 
-> **अप्रचलित। जिस नोड का आप उपयोग करना चाहते हैं, उसे डिप्लॉय करने के लिए इस गाइड का पालन न करें।**
+> **यह गाइड पुरानी हो चुकी है (deprecated)। जिस नोड (node) का आप उपयोग करना चाहते हैं, उसे डिप्लॉय करने के लिए इस गाइड का पालन न करें।**
 >
-> zcashd 18 जुलाई, 2026 को अपने स्वचालित End-of-Support halt पर पहुंच गया। आज डिप्लॉय किया गया कोई भी zcashd नोड chain tip तक sync नहीं करेगा, इसलिए यह डिप्लॉयमेंट हर महीने पैसे खर्च करता है और कुछ भी उत्पन्न नहीं करता।
+> 18 जुलाई 2026 को zcashd अपने स्वचालित End-of-Support हॉल्ट पर पहुँच गया और बंद हो गया। आज डिप्लॉय किया गया zcashd नोड चेन (chain) टिप तक सिंक नहीं होगा। इसलिए यह डिप्लॉयमेंट हर महीने पैसा खर्च करेगा और कुछ भी उपयोगी नहीं देगा।
 >
-> इसके बजाय **Zebra** डिप्लॉय करें: [Akash Network पर Zebra कैसे चलाएँ](/guides/akash-network-zebra), जो वही Akash Console workflow कवर करता है और लगभग एक-तिहाई disk की आवश्यकता रखता है। यदि आप किसी मौजूदा setup को migrate कर रहे हैं, तो [zcashd से Zebra और Zallet migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
+> इसके बजाय **Zebra** डिप्लॉय करें: [Akash Network पर Zebra कैसे चलाएँ](/guides/akash-network-zebra)। यह गाइड वही Akash Console वर्कफ़्लो समझाती है और इसमें लगभग एक-तिहाई डिस्क ही लगती है। अगर आप किसी मौजूदा सेटअप को स्थानांतरित कर रहे हैं, तो [zcashd से Zebra और Zallet माइग्रेशन गाइड](/guides/migration-guide-zcashd-to-zebrad-zallet) देखें।
 >
-> इस पेज को zcashd deployment के ऐतिहासिक रिकॉर्ड के रूप में रखा गया है।
+> यह पेज zcashd डिप्लॉयमेंट के ऐतिहासिक रिकॉर्ड के रूप में रखा गया है।
 
-[Akash Console](https://console.akash.network) का उपयोग करके zcashd Zcash full नोड (Electric Coin Co implementation) डिप्लॉय करने की गाइड। नीचे एक वीडियो tutorial दिया गया है। इसके नीचे एक अधिक विस्तृत गाइड भी उपलब्ध है।
+यह गाइड [Akash Console](https://console.akash.network) का उपयोग करके zcashd Zcash फुल नोड (full node) (Electric Coin Co इम्प्लीमेंटेशन) डिप्लॉय करने के बारे में है। नीचे एक वीडियो ट्यूटोरियल दिया गया है। इसके बाद आपको अधिक विस्तृत गाइड भी मिलेगी।
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -24,157 +24,157 @@
 
 ## आप क्या डिप्लॉय कर रहे हैं
 
-एक full zcashd नोड जो:
+एक zcashd फुल नोड, जो:
 
--> पूरी Zcash blockchain को sync करेगा (mainnet के लिए 350GB+, testnet के लिए ~ 40GB)
+-> पूरे Zcash ब्लॉकचेन (blockchain) को सिंक करेगा (मेननेट के लिए 350GB+, टेस्टनेट के लिए ~ 40GB)
 
--> AKT token की कीमतों के आधार पर लगभग $15/माह खर्च करेगा
+-> AKT टोकन (token) की कीमतों के आधार पर लगभग $15/माह खर्च करेगा
 
--> पूरी तरह sync होने में कई घंटे से लेकर कई दिन तक लेगा
+-> पूरी तरह सिंक होने में कई घंटे से लेकर कई दिन लेगा
 
--> 4 vCPU, 16GB RAM, 350GB storage (mainnet) या 2 vCPU, 8GB RAM, 50GB (testnet) का उपयोग करेगा
+-> 4 vCPU, 16GB RAM और 350GB स्टोरेज (मेननेट) या 2 vCPU, 8GB RAM और 50GB (टेस्टनेट) का उपयोग करेगा
 
--> पहली बार चलाने पर cryptographic parameters डाउनलोड करेगा (~ 2GB, एक बार)
+-> पहली बार चलने पर क्रिप्टोग्राफ़िक पैरामीटर डाउनलोड करेगा (~ 2GB, केवल एक बार)
 
 **zcashd बनाम Zebra:**
 
--> zcashd, Electric Coin Co द्वारा मूल Zcash नोड implementation था, जो 18 जुलाई, 2026 से halt हो चुका है
+-> zcashd, Electric Coin Co द्वारा बनाया गया मूल Zcash नोड इम्प्लीमेंटेशन था। यह 18 जुलाई 2026 से बंद है
 
--> Zcash Foundation का Zebra, आज उपयोग में आने वाला full नोड है
+-> Zcash Foundation का Zebra वह फुल नोड है जो आज उपयोग में है
 
--> केवल Zebra वर्तमान chain का अनुसरण करता है; zcashd नोड tip तक नहीं पहुंच सकता
+-> केवल Zebra ही वर्तमान चेन का अनुसरण करता है। zcashd नोड टिप तक नहीं पहुँच सकता
 
--> zcashd के wallet को [Zallet](/using-zcash/zallet-quick-reference-guide) से प्रतिस्थापित किया जा चुका है
+-> zcashd के वॉलेट (wallet) की जगह अब [Zallet](/using-zcash/zallet-quick-reference-guide) आ गया है
 
--> यदि आपको wallet functionality या specific RPC APIs की आवश्यकता है, तो zcashd का उपयोग करें
+-> अगर आपको वॉलेट की सुविधा या विशिष्ट RPC API चाहिए, तो zcashd का उपयोग करें
 
 
-### **महत्वपूर्ण: Akash पर Port Mapping**
+### **महत्वपूर्ण: Akash पर पोर्ट मैपिंग**
 
-जब आप Akash पर कोई port expose करते हैं (उदाहरण के लिए, zcashd P2P के लिए port 8233), तो यह provider के public IP पर **उसी exact port** से bind **नहीं होता**। इसके बजाय, provider एक random high port (जैसे 31234 या 42567) assign करता है और उसे आपके container के port 8233 पर reverse-proxy करता है।
+जब आप Akash पर कोई पोर्ट एक्सपोज़ करते हैं (जैसे zcashd P2P के लिए पोर्ट 8233), तो वह प्रदाता के पब्लिक IP पर **उसी पोर्ट से बाइंड नहीं होता**। इसके बजाय प्रदाता एक रैंडम हाई पोर्ट (जैसे 31234 या 42567) असाइन करता है और उसे आपके कंटेनर के पोर्ट 8233 पर रिवर्स-प्रॉक्सी करता है।
 
-यह design के अनुसार है - providers कई deployments चलाते हैं, और यदि हर कोई सीधे port 8233 का उपयोग करने की कोशिश करे तो conflicts होंगे।
+ऐसा जानबूझकर किया गया है। प्रदाता कई डिप्लॉयमेंट चलाते हैं, और अगर हर कोई सीधे पोर्ट 8233 का उपयोग करने की कोशिश करे तो टकराव होगा।
 
-**इसका आपके लिए क्या मतलब है:**
+**आपके लिए इसका क्या मतलब है:**
 
--> आप SDL में port 8233 configure करते हैं (zcashd का standard P2P port)
+-> आप SDL में पोर्ट 8233 कॉन्फ़िगर करते हैं (zcashd का मानक P2P पोर्ट)
 
 -> Akash आपको *provider.com:31234* जैसा URI देता है
 
--> अन्य Zcash नोड आपसे *provider.com:31234* पर connect करते हैं
+-> अन्य Zcash नोड आपसे *provider.com:31234* पर कनेक्ट होते हैं
 
--> आपके container के अंदर, zcashd अब भी 8233 पर listen करता है
-
-
-यह अपने आप handle हो जाता है। बस वही URI उपयोग करें जो Akash आपको देता है।
-
-## आवश्यक शर्तें
-
--> **Keplr Wallet** browser extension इंस्टॉल हो (Chrome/Brave/Firefox)
-
--> **AKT tokens** - किसी exchange से 50-100 AKT प्राप्त करें (Coinbase, Kraken, Osmosis)
-
--> Console UI में click-through करने के लिए **5 मिनट**
+-> आपके कंटेनर के अंदर zcashd अब भी 8233 पर ही सुनता है
 
 
-## चरण 1: अपना Wallet कनेक्ट करें
+यह सब अपने-आप होता है। आपको बस वही URI इस्तेमाल करना है जो Akash आपको देता है।
+
+## पूर्वापेक्षाएँ
+
+-> **Keplr वॉलेट** ब्राउज़र एक्सटेंशन इंस्टॉल हो (Chrome/Brave/Firefox)
+
+-> **AKT टोकन**: किसी एक्सचेंज (exchange) से 50-100 AKT प्राप्त करें (Coinbase, Kraken, Osmosis)
+
+-> Console UI में क्लिक करते हुए आगे बढ़ने के लिए **5 मिनट**
+
+
+## चरण 1: वॉलेट कनेक्शन
 
 -> [https://console.akash.network](https://console.akash.network) पर जाएँ
 
--> ऊपर दाईं ओर **"Connect Wallet"** पर click करें
+-> ऊपर दाईं ओर **“Connect Wallet”** पर क्लिक करें
 
--> **Keplr** (या अपना पसंदीदा Cosmos wallet) चुनें
+-> **Keplr** (या अपनी पसंद का Cosmos वॉलेट) चुनें
 
--> जब Keplr popup दिखाए तो connection approve करें
+-> Keplr पॉप-अप होने पर कनेक्शन को स्वीकृत करें
 
 
-आपका AKT balance ऊपर दाईं ओर दिखाई देना चाहिए। यदि यह zero है, तो पहले अपने wallet में funds जोड़ें।
+आपका AKT बैलेंस ऊपर दाईं ओर दिखना चाहिए। अगर यह शून्य है, तो पहले अपने वॉलेट में फ़ंड डालें।
 
-## चरण 2: Deployment बनाएं
+## चरण 2: डिप्लॉयमेंट का निर्माण
 
--> **"Deploy"** button पर click करें (बड़ा नीला button, पेज के बीच में)
+-> **“Deploy”** बटन पर क्लिक करें (पेज के बीच में बड़ा नीला बटन)
 
--> **"Build your template"** चुनें (या सीधे SDL upload करने पर जाएँ)
+-> **“Build your template”** चुनें (या सीधे SDL अपलोड करने पर जाएँ)
 
-### विकल्प A: SDL फ़ाइल Upload करें (अनुशंसित)
+### विकल्प A: SDL फ़ाइल अपलोड (अनुशंसित)
 
-> **यह button एक halted नोड डिप्लॉय करता है।** यह ऐसे नोड के लिए आपके AKT balance से billing करता है जो sync नहीं कर सकता। इसके बजाय [Zebra guide](/guides/akash-network-zebra) का उपयोग करें।
+> **यह बटन एक बंद हो चुका नोड डिप्लॉय करता है।** इसका शुल्क आपके AKT बैलेंस से कटेगा, जबकि यह नोड सिंक नहीं हो सकता। इसके बजाय [Zebra गाइड](/guides/akash-network-zebra) का उपयोग करें।
 
 [![Akash पर डिप्लॉय करें](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zcashd)
 
-### विकल्प B: SDL Editor का उपयोग करें
+### विकल्प B: SDL एडिटर का उपयोग
 
-यदि आप SDL को manually paste करना चाहते हैं:
+अगर आप SDL को मैन्युअल रूप से पेस्ट करना चाहते हैं:
 
--> *zcashd-akash.yml* की contents copy करें
+-> *zcashd-akash.yml* की सामग्री कॉपी करें
 
--> उसे SDL editor में paste करें
+-> उसे SDL एडिटर में पेस्ट करें
 
--> आवश्यकता अनुसार modify करें (नीचे configuration section देखें)
+-> ज़रूरत के अनुसार बदलाव करें (नीचे कॉन्फ़िगरेशन सेक्शन देखें)
 
--> **"Create Deployment"** पर click करें
+-> **“Create Deployment”** पर क्लिक करें
 
 
-## चरण 3: Deposit की समीक्षा करें और Approve करें
+## चरण 3: डिपॉज़िट की समीक्षा और स्वीकृति
 
 Console आपको यह दिखाएगा:
 
--> **Deployment deposit**: ~ 5 AKT (deployment बंद करने पर यह आपको वापस मिल जाता है)
+-> **डिप्लॉयमेंट डिपॉज़िट**: ~ 5 AKT (डिप्लॉयमेंट बंद करने पर यह आपको वापस मिल जाता है)
 
--> **Estimated cost**: आपके SDL pricing के आधार पर
-
-
-**"Approve"** पर click करें और Keplr में transaction sign करें।
-
-## चरण 4: एक Provider चुनें
-
-लगभग 30 सेकंड बाद, आपको providers से bids दिखाई देंगी। हर bid में यह दिखेगा:
-
--> **Price per block** (AKT या USDC में)
-
--> **Monthly estimated cost**
-
--> **Provider details** (uptime, region, आदि)
+-> **अनुमानित लागत**: आपके SDL मूल्य निर्धारण पर आधारित
 
 
-**सिर्फ सबसे सस्ता विकल्प न चुनें।** यह देखें:
+**“Approve”** पर क्लिक करें और Keplr में लेनदेन (transaction) पर हस्ताक्षर करें।
 
--> Uptime % (95% से अधिक का लक्ष्य रखें)
+## चरण 4: प्रदाता का चयन
 
--> Region (आपके करीब = बेहतर latency, लेकिन blockchain नोड्स के लिए बहुत फर्क नहीं पड़ता)
+~ 30 सेकंड के बाद आपको प्रदाताओं की बोलियाँ दिखेंगी। हर बोली में यह जानकारी होती है:
 
--> Audited status (हरा checkmark = अधिक भरोसेमंद)
+-> **प्रति ब्लॉक (block) कीमत** (AKT या USDC में)
 
+-> **अनुमानित मासिक लागत**
 
-अपने चुने हुए provider पर **"Accept Bid"** पर click करें और Keplr में sign करें।
-
-## चरण 5: Deployment का इंतज़ार करें
-
-Console यह करेगा:
-
--> आपके चुने हुए provider के साथ lease बनाएगा
-
--> manifest भेजेगा (जो provider को बताता है कि क्या चलाना है)
-
--> आपका container शुरू करेगा
+-> **प्रदाता का विवरण** (अपटाइम, क्षेत्र आदि)
 
 
-इसमें 1-2 मिनट लगते हैं। आपको UI में status updates दिखाई देंगी।
+**सिर्फ़ सबसे सस्ता प्रदाता न चुनें।** इन बातों की जाँच करें:
 
-## चरण 6: सत्यापित करें कि यह चल रहा है
+-> अपटाइम % (> 95% का लक्ष्य रखें)
 
-डिप्लॉय होने के बाद, आपको यह दिखाई देगा:
+-> क्षेत्र (आपके जितना करीब, उतनी बेहतर लेटेंसी, लेकिन ब्लॉकचेन नोड के लिए इससे ज़्यादा फ़र्क नहीं पड़ता)
 
--> **Services** tab: status के साथ आपकी *zcashd* service दिखाता है
-
--> **Logs** tab: आपके zcashd नोड से live logs
-
--> **Leases** tab: आपके deployment का विवरण (DSEQ, provider, cost)
+-> ऑडिट स्थिति (हरा चेकमार्क = अधिक भरोसेमंद)
 
 
-### Logs जांचें
+अपने चुने हुए प्रदाता पर **“Accept Bid”** पर क्लिक करें और Keplr में हस्ताक्षर करें।
 
-**Logs** पर click करें और आपको zcashd शुरू होता हुआ दिखाई देना चाहिए:
+## चरण 5: डिप्लॉयमेंट की प्रतीक्षा
+
+Console ये काम करेगा:
+
+-> आपके चुने हुए प्रदाता के साथ लीज़ बनाएगा
+
+-> मैनिफ़ेस्ट भेजेगा (जो प्रदाता को बताता है कि क्या चलाना है)
+
+-> आपका कंटेनर शुरू करेगा
+
+
+इसमें 1-2 मिनट लगते हैं। आपको UI में स्टेटस अपडेट दिखेंगे।
+
+## चरण 6: नोड के चलने की पुष्टि
+
+डिप्लॉय होने के बाद आपको ये दिखेंगे:
+
+-> **Services** टैब: आपकी *zcashd* सर्विस उसके स्टेटस के साथ
+
+-> **Logs** टैब: आपके zcashd नोड के लाइव लॉग
+
+-> **Leases** टैब: आपके डिप्लॉयमेंट का विवरण (DSEQ, प्रदाता, लागत)
+
+
+### लॉग की जाँच
+
+**Logs** पर क्लिक करें। आपको zcashd शुरू होता हुआ दिखना चाहिए:
 
 ```bash
 [zcashd]: ZCASHD_NETWORK=mainnet
@@ -182,47 +182,47 @@ Console यह करेगा:
 ...
 ```
 
-**पहली बार चलाने पर zcash-params (~2GB) डाउनलोड होंगे।** यह एक बार होने वाली प्रक्रिया है और provider bandwidth के आधार पर 5-10 मिनट लेती है। बाद में restart होने पर यह चरण skip हो जाएगा।
+**पहली बार चलने पर zcash-params (~2GB) डाउनलोड होंगे।** यह केवल एक बार होता है और प्रदाता की बैंडविड्थ के अनुसार इसमें 5-10 मिनट लगते हैं। बाद में रीस्टार्ट करने पर यह चरण छोड़ दिया जाएगा।
 
-Network के आधार पर sync होने में **घंटों से दिनों** तक का समय लगेगा। इन बातों पर नज़र रखें:
+नेटवर्क के अनुसार सिंक होने में **कई घंटे से लेकर कई दिन** लगेंगे। इन बातों पर नज़र रखें:
 
--> block heights का बढ़ना
+-> ब्लॉक हाइट बढ़ रही हो
 
--> Peer connections (10-30 peers होने चाहिए)
+-> पीयर कनेक्शन (10-30 पीयर होने चाहिए)
 
--> बार-बार errors न आना
+-> कोई त्रुटि बार-बार न आ रही हो
 
 
-## चरण 7: अपने नोड का Address प्राप्त करें
+## चरण 7: आपके नोड का एड्रेस
 
-**Leases** tab पर click करें, फिर **URIs** पर।
+**Leases** टैब पर क्लिक करें, फिर **URIs** पर।
 
-आपको कुछ ऐसा दिखाई देगा:
+आपको कुछ ऐसा दिखेगा:
 
 ```
 zcashd-8233: provider-hostname.com:31234
 ```
 
-यह आपके नोड का **public P2P endpoint** है। अन्य Zcash नोड्स इस address पर आपसे connect करेंगे।
+यह आपके नोड का **पब्लिक P2P एंडपॉइंट** है। अन्य Zcash नोड इसी एड्रेस (address) पर आपसे कनेक्ट होंगे।
 
-**Port mapping पर ध्यान दें:** आपने SDL में port 8233 configure किया था, लेकिन Akash ने इसे एक अलग public port (इस उदाहरण में 31234) पर assign किया। यह सामान्य है - यदि यह आपको भ्रमित करे तो ऊपर वाला "Port Mapping on Akash" section देखें। आपका नोड उसी port पर accessible है जो Akash यहाँ दिखाता है, आवश्यक नहीं कि वह 8233 ही हो।
+**पोर्ट मैपिंग पर ध्यान दें:** आपने SDL में पोर्ट 8233 कॉन्फ़िगर किया था, लेकिन Akash ने इसे एक अलग पब्लिक पोर्ट (इस उदाहरण में 31234) पर असाइन किया है। यह सामान्य है। अगर यह बात उलझन भरी लगे, तो ऊपर “Akash पर पोर्ट मैपिंग” सेक्शन देखें। आपका नोड उसी पोर्ट पर उपलब्ध है जो Akash यहाँ दिखाता है, ज़रूरी नहीं कि वह 8233 हो।
 
-यदि आपने RPC enable किया है (SDL में default रूप से commented out), तो आपको उसका RPC endpoint भी यहाँ उसके अपने mapped port के साथ दिखाई देगा।
+अगर आपने RPC सक्षम किया है (SDL में यह डिफ़ॉल्ट रूप से कमेंट किया हुआ है), तो आपको यहाँ RPC एंडपॉइंट भी उसके अपने मैप किए गए पोर्ट के साथ दिखेगा।
 
-## Configuration विकल्प
+## कॉन्फ़िगरेशन विकल्प
 
-### Testnet पर स्विच करना
+### टेस्टनेट पर स्विच
 
-SDL default रूप से Mainnet पर सेट है। इसके बजाय Testnet उपयोग करने के लिए:
+SDL डिफ़ॉल्ट रूप से मेननेट का उपयोग करता है। इसके बजाय टेस्टनेट का उपयोग करने के लिए:
 
--> *env* section में **network बदलें:**
+-> ***env* सेक्शन में नेटवर्क बदलें:**
 
    ```yaml
    # - "ZCASHD_NETWORK=mainnet"
    - "ZCASHD_NETWORK=testnet"
    ```
 
--> *expose* section में **exposed port update करें:**
+-> *expose* सेक्शन में **एक्सपोज़ किया गया पोर्ट अपडेट करें**:
 
    ```yaml
    # Comment out Mainnet port:
@@ -240,7 +240,7 @@ SDL default रूप से Mainnet पर सेट है। इसके ब
      proto: tcp
    ```
 
--> *profiles.compute.zcashd.resources* में Testnet के लिए **वैकल्पिक: resources कम करें**:
+-> **वैकल्पिक: टेस्टनेट के लिए संसाधन कम करें**, *profiles.compute.zcashd.resources* में:
 
    ```yaml
    cpu:
@@ -251,21 +251,21 @@ SDL default रूप से Mainnet पर सेट है। इसके ब
      - size: 50Gi  # Down from 150Gi
    ```
 
--> *profiles.placement.akash.pricing* में **वैकल्पिक: pricing कम करें**:
+-> **वैकल्पिक: कीमत कम करें**, *profiles.placement.akash.pricing* में:
 
    ```yaml
    amount: 5000  # Down from 10000
    ```
 
-> ध्यान दें, कीमत कम करने से providers की bids filter हो सकती हैं। इस value के साथ प्रयोग करें, या provider endpoint का उपयोग करके जांचें कि वे bid करेंगे या नहीं। (provider api documentation की समीक्षा करें)
+> ध्यान दें: कीमतें कम करने से कुछ प्रदाता बोली लगाने से बाहर हो सकते हैं। इस मान के साथ प्रयोग करें, या प्रदाता के एंडपॉइंट से जाँचें कि वे बोली लगाएँगे या नहीं (प्रदाता API दस्तावेज़ देखें)।
 
-### RPC Access Enable करें
+### RPC एक्सेस का सक्षमीकरण
 
-Security के लिए RPC default रूप से disabled है। इसे enable करने के लिए:
+सुरक्षा के लिए RPC डिफ़ॉल्ट रूप से अक्षम रहता है। इसे सक्षम करने के लिए:
 
-**अत्यंत महत्वपूर्ण: strong credentials सेट करें।** zcashd RPC username/password को HTTP पर भेजता है (HTTPS पर नहीं)। RPC तभी expose करें जब आप इसके security implications समझते हों।
+**बहुत महत्वपूर्ण: मज़बूत क्रेडेंशियल सेट करें।** zcashd RPC यूज़रनेम/पासवर्ड को HTTP (HTTPS नहीं) पर भेजता है। RPC को तभी एक्सपोज़ करें जब आप इसके सुरक्षा प्रभावों को समझते हों।
 
--> *env* section में uncomment करें:
+-> *env* सेक्शन में अनकमेंट करें:
 
    ```yaml
    - "ZCASHD_RPCUSER=yourusername"
@@ -276,9 +276,9 @@ Security के लिए RPC default रूप से disabled है। इस
    - "ZCASHD_ALLOWIP=0.0.0.0/0"  # Allow from anywhere (use with caution)
    ```
 
--> *expose* में RPC port uncomment करें:
+-> *expose* में RPC पोर्ट अनकमेंट करें:
 
-   **Mainnet के लिए:**
+   **मेननेट के लिए:**
 
    ```yaml
    - port: 8232
@@ -288,7 +288,7 @@ Security के लिए RPC default रूप से disabled है। इस
      proto: tcp
    ```
 
-   **Testnet के लिए:**
+   **टेस्टनेट के लिए:**
 
    ```yaml
    - port: 18232
@@ -298,46 +298,46 @@ Security के लिए RPC default रूप से disabled है। इस
      proto: tcp
    ```
 
-**चेतावनी**: यदि आप RPC के लिए *global: true* सेट करते हैं, तो आप basic auth के साथ इसे internet पर expose कर रहे हैं। यह खराब विचार है। *global: false* का उपयोग करें और RPC को Akash की internal network के माध्यम से access करें या एक secure tunnel सेट करें।
+**चेतावनी**: अगर आप RPC के लिए *global: true* सेट करते हैं, तो आप इसे केवल बेसिक ऑथ के साथ इंटरनेट पर एक्सपोज़ कर रहे हैं। यह अच्छा विचार नहीं है। *global: false* का उपयोग करें और RPC को Akash के आंतरिक नेटवर्क के माध्यम से एक्सेस करें, या एक सुरक्षित टनल सेट करें।
 
-**Port mapping reminder**: भले ही आप RPC को globally expose करें, Akash उसे एक random high port पर map करेगा (8232/18232 पर नहीं)। वास्तविक public endpoint देखने के लिए अपने deployment में URIs जांचें। *global: false* (अनुशंसित) के लिए, RPC endpoint केवल Akash deployment network के भीतर accessible होगा, public internet से नहीं।
+**पोर्ट मैपिंग की याद दिलाना**: अगर आप RPC को ग्लोबली एक्सपोज़ करते हैं, तब भी Akash इसे एक रैंडम हाई पोर्ट पर मैप करेगा (8232/18232 पर नहीं)। असली पब्लिक एंडपॉइंट देखने के लिए अपने डिप्लॉयमेंट में URIs देखें। *global: false* (अनुशंसित) के साथ RPC एंडपॉइंट केवल Akash डिप्लॉयमेंट नेटवर्क के भीतर उपलब्ध होता है, पब्लिक इंटरनेट से नहीं।
 
-### Transaction Index Enable करें
+### लेनदेन इंडेक्स का सक्षमीकरण
 
-Transaction index आपको RPC के माध्यम से किसी भी transaction को उसकी ID से query करने देता है। यह अधिक storage उपयोग करता है (~ 20% वृद्धि)।
+लेनदेन इंडेक्स की मदद से आप RPC के माध्यम से किसी भी लेनदेन को उसकी ID से क्वेरी कर सकते हैं। इसमें अधिक स्टोरेज लगता है (~ 20% वृद्धि)।
 
-*env* में uncomment करें:
+*env* में अनकमेंट करें:
 
 ```yaml
 - "ZCASHD_TXINDEX=1"
 ```
 
-**चेतावनी**: पहले से synced नोड पर txindex enable करने के लिए पूरी blockchain को दोबारा re-index करना पड़ता है, जिसमें कई घंटे लगते हैं।
+**चेतावनी**: पहले से सिंक हो चुके नोड पर txindex सक्षम करने के लिए पूरे ब्लॉकचेन को फिर से इंडेक्स करना पड़ता है, जिसमें कई घंटे लगते हैं।
 
-### Insight Explorer Enable करें
+### Insight Explorer का सक्षमीकरण
 
-Insight Explorer blockchain data के लिए अतिरिक्त REST API endpoints देता है (block explorers के लिए उपयोगी)।
+Insight Explorer ब्लॉकचेन डेटा के लिए अतिरिक्त REST API एंडपॉइंट देता है (ब्लॉक एक्सप्लोरर के लिए उपयोगी)।
 
-*env* में uncomment करें:
+*env* में अनकमेंट करें:
 
 ```yaml
 - "ZCASHD_INSIGHTEXPLORER=1"
 ```
 
-यह अपने आप txindex enable करता है और अतिरिक्त RPC methods जोड़ता है।
+इससे txindex अपने-आप सक्षम हो जाता है और अतिरिक्त RPC मेथड जुड़ जाते हैं।
 
-### Prometheus Metrics Enable करें
+### Prometheus मेट्रिक्स का सक्षमीकरण
 
-Monitoring के लिए metrics scrape करने हेतु:
+मॉनिटरिंग के लिए मेट्रिक्स स्क्रैप करने हेतु:
 
--> *env* में uncomment करें:
+-> *env* में अनकमेंट करें:
 
    ```bash
    - "ZCASHD_PROMETHEUSPORT=9969"
    - "ZCASHD_METRICSIP=0.0.0.0/0"
    ```
 
--> *expose* में metrics port uncomment करें:
+-> *expose* में मेट्रिक्स पोर्ट अनकमेंट करें:
 
    ```bash
    - port: 9969
@@ -347,65 +347,65 @@ Monitoring के लिए metrics scrape करने हेतु:
      proto: tcp
    ```
    
-Metrics Prometheus format में http://yourendpoint:9969/metrics पर उपलब्ध होंगे।
+मेट्रिक्स Prometheus फ़ॉर्मेट में http://yourendpoint:9969/metrics पर उपलब्ध होंगे।
 
-### Resources/Pricing समायोजित करें
+### संसाधन/मूल्य निर्धारण का समायोजन
 
-यदि आपको bids नहीं मिल रही हैं या आप cost optimize करना चाहते हैं:
+अगर आपको बोलियाँ नहीं मिल रही हैं या आप लागत को बेहतर बनाना चाहते हैं:
 
-**कम-spec providers के लिए**, *profiles.compute.zcashd.resources* section में कम करें:
+**कम क्षमता वाले प्रदाताओं के लिए**, *profiles.compute.zcashd.resources* सेक्शन में ये मान घटाएँ:
 
--> CPU: *units: 2* (उचित sync speed के लिए न्यूनतम)
+-> CPU: *units: 2* (ठीक-ठाक सिंक गति के लिए न्यूनतम)
 
--> Memory: *size: 12Gi* (stability के लिए न्यूनतम)
+-> मेमोरी: *size: 12Gi* (स्थिरता के लिए न्यूनतम)
 
--> Storage: *size: 120Gi* (mainnet के लिए न्यूनतम)
-
-
-**अधिक bids आकर्षित करने के लिए**, *profiles.placement.akash.pricing* में बढ़ाएँ:
-
--> Mainnet: *amount: 15000* uakt/block आज़माएँ
-
--> Testnet: *amount: 7500* uakt/block आज़माएँ
+-> स्टोरेज: *size: 120Gi* (मेननेट के लिए न्यूनतम)
 
 
-SDL values को सावधानीपूर्वक ऊँचा रखा गया है। अधिकांश providers इससे कम पर bid करेंगे।
+**अधिक बोलियाँ पाने के लिए**, *profiles.placement.akash.pricing* में ये मान बढ़ाएँ:
 
-## अपना Deployment अपडेट करना
+-> मेननेट: *amount: 15000* uakt/ब्लॉक आज़माएँ
 
-डिप्लॉय करने के बाद configuration बदलने की ज़रूरत है?
+-> टेस्टनेट: *amount: 7500* uakt/ब्लॉक आज़माएँ
+
+
+SDL के मान जानबूझकर ऊँचे रखे गए हैं। ज़्यादातर प्रदाता इससे कम बोली लगाएँगे।
+
+## डिप्लॉयमेंट का अपडेट
+
+क्या डिप्लॉय करने के बाद कॉन्फ़िगरेशन बदलना है?
 
 -> Console में **My Deployments** पर जाएँ
 
--> अपना zcashd deployment खोजें
+-> अपना zcashd डिप्लॉयमेंट ढूँढें
 
--> **"Update Deployment"** पर click करें
+-> **“Update Deployment”** पर क्लिक करें
 
--> SDL edit करें
+-> SDL एडिट करें
 
--> **"Update"** पर click करें और Keplr में approve करें
+-> **“Update”** पर क्लिक करें और Keplr में स्वीकृति दें
 
 
-**नोट**: Update करने से आपका container restart होगा। नोड अपनी saved state (persistent storage) से resume करेगा, लेकिन 1-2 मिनट के downtime की अपेक्षा रखें।
+**ध्यान दें**: अपडेट करने से आपका कंटेनर रीस्टार्ट होगा। नोड अपनी सहेजी हुई स्थिति (पर्सिस्टेंट स्टोरेज) से फिर शुरू होगा, लेकिन 1-2 मिनट का डाउनटाइम हो सकता है।
 
-## Monitoring
+## मॉनिटरिंग
 
 ### Console के माध्यम से
 
--> **Logs tab**: Live container logs
+-> **Logs टैब**: लाइव कंटेनर लॉग
 
--> **Shell tab**: Container के अंदर shell प्राप्त करें (debugging के लिए उपयोगी)
+-> **Shell टैब**: कंटेनर के अंदर शेल (डीबगिंग के लिए उपयोगी)
 
--> **Events tab**: Kubernetes events (जब तक कुछ खराब न हो, अधिकतर बेकार)
+-> **Events टैब**: Kubernetes इवेंट (जब तक कुछ खराब न हो, ज़्यादातर किसी काम के नहीं)
 
 
-### RPC के माध्यम से (यदि enable किया गया हो)
+### RPC के माध्यम से (अगर सक्षम है)
 
-यदि आपने RPC enable किया है, तो आप अपने नोड को सामान्य zcashd full नोड की तरह query कर सकते हैं (क्योंकि यह वही है!)
+अगर आपने RPC सक्षम किया है, तो आप अपने नोड को एक सामान्य zcashd फुल नोड की तरह क्वेरी कर सकते हैं (क्योंकि यह वही है!)
 
 ### zcash-cli विकल्प
 
-यदि आपके पास Console के माध्यम से shell access है, तो आप सीधे *zcash-cli* का उपयोग कर सकते हैं:
+अगर Console के माध्यम से आपके पास शेल एक्सेस है, तो आप सीधे *zcash-cli* का उपयोग कर सकते हैं:
 
 ```bash
 # From the Shell tab in Console
@@ -414,113 +414,113 @@ zcash-cli getpeerinfo
 zcash-cli getinfo
 ```
 
-## अपना Deployment बंद करना
+## डिप्लॉयमेंट का समापन
 
 जब आपका काम पूरा हो जाए या आप भुगतान बंद करना चाहें:
 
 -> **My Deployments** पर जाएँ
 
--> अपना zcashd deployment खोजें
+-> अपना zcashd डिप्लॉयमेंट ढूँढें
 
--> **"Close Deployment"** पर click करें
+-> **“Close Deployment”** पर क्लिक करें
 
--> Confirm करें और Keplr में sign करें
-
-
-आपका 5 AKT deposit refund हो जाएगा। **Persistent storage** provider द्वारा सुरक्षित रखा जाना चाहिए, लेकिन इस पर निर्भर न रहें - इसे किसी भी अन्य cloud provider की तरह मानें।
-
-## Troubleshooting
-
-### "Insufficient funds" error
-
-आपको अधिक AKT की आवश्यकता है। अपने Keplr wallet में funds जोड़ें।
-
-### कोई bids दिखाई नहीं दे रहीं
-
-या तो:
-
--> आपकी pricing बहुत कम है (SDL में *amount* बढ़ाएँ)
-
--> आपकी resource requirements उपलब्ध providers के लिए बहुत अधिक हैं (CPU/memory/storage कम करें)
-
--> अधिक इंतज़ार करें (कभी-कभी bids आने में 60-90 सेकंड लगते हैं)
+-> पुष्टि करें और Keplr में हस्ताक्षर करें
 
 
-### Deployment "pending" में अटका हुआ है
+आपका 5 AKT डिपॉज़िट वापस कर दिया जाएगा। प्रदाता को **पर्सिस्टेंट स्टोरेज** सुरक्षित रखना चाहिए, लेकिन इस पर भरोसा न करें। इसे किसी भी अन्य क्लाउड प्रदाता की तरह ही मानें।
 
-हो सकता है provider को समस्याएँ हों। Deployment बंद करें और किसी दूसरे provider को आज़माएँ।
+## समस्या निवारण
 
-### zcashd logs में "No peers connected" दिखाई देता है
+### “Insufficient funds” त्रुटि
 
-18 जुलाई, 2026 के End-of-Support halt के बाद, यह startup delay के बजाय अपेक्षित स्थायी स्थिति है, और इंतज़ार करने या फिर से deployment करने से यह ठीक नहीं होगा। इसके बजाय [Zebra](/guides/akash-network-zebra) डिप्लॉय करें।
+आपको अधिक AKT चाहिए। अपने Keplr वॉलेट में फ़ंड डालें।
 
-### Logs में "Out of memory" errors
+### कोई बोली नहीं दिख रही
 
-आपने RAM पर ज़रूरत से ज़्यादा बचत की। Deployment बंद करें और कम से कम 12Gi memory (16Gi अनुशंसित) के साथ फिर से deploy करें।
+इनमें से कोई कारण हो सकता है:
 
-### Sync होने में बहुत ज़्यादा समय लग रहा है
+-> आपकी कीमत बहुत कम है (SDL में *amount* बढ़ाएँ)
 
-"बहुत ज़्यादा" को परिभाषित करें:
+-> आपकी संसाधन ज़रूरतें उपलब्ध प्रदाताओं के लिए बहुत ज़्यादा हैं (CPU/मेमोरी/स्टोरेज कम करें)
 
--> **घंटे**: सामान्य
-
--> **दिन**: mainnet को scratch से sync करने पर यह भी सामान्य है
-
--> **हफ्ते**: कुछ गलत है, errors के लिए logs जांचें
+-> थोड़ी देर और प्रतीक्षा करें (कभी-कभी बोलियाँ आने में 60-90 सेकंड लगते हैं)
 
 
-### "Error fetching zcash-params"
+### डिप्लॉयमेंट “pending” में अटका है
 
-हो सकता है provider को network issues हों या bandwidth धीमी हो। यह आमतौर पर अपने आप ठीक हो जाता है। यदि यह 30 मिनट से अधिक बना रहता है, तो किसी दूसरे provider पर फिर से deploy करने का प्रयास करें।
+हो सकता है प्रदाता को कोई समस्या हो। डिप्लॉयमेंट बंद करें और किसी दूसरे प्रदाता को आज़माएँ।
 
-### RPC authentication failures
+### zcashd लॉग में “No peers connected” दिख रहा है
 
--> जांचें कि `ZCASHD_RPCUSER` और `ZCASHD_RPCPASSWORD` सही तरह सेट हैं
+18 जुलाई 2026 के End-of-Support हॉल्ट के बाद से यह स्टार्टअप में होने वाली देरी नहीं, बल्कि अपेक्षित स्थायी स्थिति है। कितना भी इंतज़ार करने या दोबारा डिप्लॉय करने से यह ठीक नहीं होगी। इसके बजाय [Zebra](/guides/akash-network-zebra) डिप्लॉय करें।
 
--> सत्यापित करें कि आप सही port उपयोग कर रहे हैं (mainnet के लिए 8232, testnet के लिए 18232)
+### लॉग में “Out of memory” त्रुटियाँ
 
--> याद रखें ports को Akash map करता है - अपने deployment का URI उपयोग करें, सीधे 8232 नहीं
+आपने RAM पर कंजूसी की है। डिप्लॉयमेंट बंद करें और कम से कम 12Gi मेमोरी (16Gi अनुशंसित) के साथ फिर से डिप्लॉय करें।
+
+### सिंक होने में बहुत ज़्यादा समय लग रहा है
+
+“बहुत ज़्यादा” का मतलब क्या है:
+
+-> **कुछ घंटे**: सामान्य
+
+-> **कुछ दिन**: शुरुआत से मेननेट सिंक करने पर यह भी सामान्य है
+
+-> **कुछ हफ़्ते**: कुछ गड़बड़ है, त्रुटियों के लिए लॉग जाँचें
 
 
-## Cost Management
+### “Error fetching zcash-params”
 
-Console में अपने spending की निगरानी करें:
+हो सकता है प्रदाता के नेटवर्क में समस्या हो या बैंडविड्थ धीमी हो। यह आमतौर पर अपने-आप ठीक हो जाता है। अगर यह 30 मिनट से ज़्यादा बना रहे, तो किसी दूसरे प्रदाता पर फिर से डिप्लॉय करके देखें।
 
--> **My Deployments** -> आपका deployment -> "Cost per month" estimate दिखाता है
+### RPC प्रमाणीकरण विफलताएँ
 
--> समय के साथ आपके Keplr wallet का balance कम होता जाएगा
+-> जाँचें कि `ZCASHD_RPCUSER` और `ZCASHD_RPCPASSWORD` सही तरह से सेट हैं
+
+-> पुष्टि करें कि आप सही पोर्ट का उपयोग कर रहे हैं (मेननेट के लिए 8232, टेस्टनेट के लिए 18232)
+
+-> याद रखें कि Akash पोर्ट मैप करता है। सीधे 8232 के बजाय अपने डिप्लॉयमेंट का URI इस्तेमाल करें
 
 
-जब आपका balance कम हो जाएगा, Akash आपका deployment अपने आप बंद कर देगा। **समय-समय पर अपने wallet में top up करें** या alerts सेट करें।
+## लागत प्रबंधन
 
-### लागत कम करना
+Console में अपने खर्च पर नज़र रखें:
 
--> **Use Testnet** non-production testing के लिए (50% सस्ता)
+-> **My Deployments** -> आपका डिप्लॉयमेंट -> “Cost per month” अनुमान दिखाता है
 
--> **CPU/memory कम करें** यदि आपको fast sync की आवश्यकता नहीं है
+-> समय के साथ आपके Keplr वॉलेट का बैलेंस घटता जाएगा
 
--> **सस्ते providers चुनें** (हमेशा समझदारी नहीं - uptime महत्वपूर्ण है)
 
--> **AKT की जगह USDC उपयोग करें** यदि AKT की कीमत volatile हो (इसके लिए SDL pricing change चाहिए)
+जब आपका बैलेंस कम हो जाता है, तो Akash आपका डिप्लॉयमेंट अपने-आप बंद कर देगा। **अपने वॉलेट को समय-समय पर टॉप-अप (top up) करें** या अलर्ट सेट करें।
 
--> **txindex disable करें** यदि आपको इसकी आवश्यकता नहीं है (लगभग 20% storage बचती है)
+### लागत में कमी
+
+-> नॉन-प्रोडक्शन टेस्टिंग के लिए **टेस्टनेट का उपयोग करें** (50% सस्ता)
+
+-> अगर आपको तेज़ सिंक की ज़रूरत नहीं है, तो **CPU/मेमोरी कम करें**
+
+-> **सस्ते प्रदाता चुनें** (यह हमेशा समझदारी नहीं है, अपटाइम मायने रखता है)
+
+-> अगर AKT की कीमत में ज़्यादा उतार-चढ़ाव है, तो **AKT के बजाय USDC का उपयोग करें** (इसके लिए SDL मूल्य निर्धारण में बदलाव ज़रूरी है)
+
+-> अगर ज़रूरत नहीं है, तो **txindex अक्षम करें** (~ 20% स्टोरेज बचता है)
 
 
 ### अतिरिक्त संसाधन
 
 **Akash Console**: [https://console.akash.network](https://console.akash.network)
 
-**Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+**Akash दस्तावेज़**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash एक्सप्लोरर्स**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Zcash एक्सप्लोरर**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
-**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (provider issues के लिए)
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (प्रदाता से जुड़ी समस्याओं के लिए)
 
-## अंतिम टिप्पणियाँ
+## अंतिम बातें
 
-- **Persistent storage महत्वपूर्ण है।** *persistent: true* को skip न करें और *beta2* class का उपयोग न करें। *beta3* का उपयोग करें।
-- **Initial sync धीमा होता है।** धैर्य रखें। blockchain नोड्स के लिए यह सामान्य है।
-- **अपने wallet में funds बनाए रखें।** AKT खत्म होने पर deployments अपने आप बंद हो जाते हैं।
-- **Backups automatic नहीं हैं।** यदि data आपके लिए महत्वपूर्ण है, तो मानकर चलें कि यह गायब हो सकता है और उसी अनुसार योजना बनाएं।
-- **RPC security अत्यंत महत्वपूर्ण है।** उचित security measures के बिना RPC को internet पर expose न करें।
-- **zcash-params cache होते हैं।** पहली बार चलाने पर ~2GB cryptographic parameters डाउनलोड होते हैं। यह सामान्य है और केवल एक बार होता है।
+- **पर्सिस्टेंट स्टोरेज मायने रखता है।** *persistent: true* को न छोड़ें और *beta2* क्लास का उपयोग न करें। *beta3* का उपयोग करें।
+- **शुरुआती सिंक धीमा होता है।** धैर्य रखें। ब्लॉकचेन नोड के लिए यह सामान्य है।
+- **अपने वॉलेट में फ़ंड बनाए रखें।** AKT खत्म होने पर डिप्लॉयमेंट अपने-आप बंद हो जाते हैं।
+- **बैकअप अपने-आप नहीं होते।** अगर डेटा आपके लिए महत्वपूर्ण है, तो मानकर चलें कि यह गायब हो सकता है और उसी के अनुसार योजना बनाएँ।
+- **RPC सुरक्षा बहुत महत्वपूर्ण है।** उचित सुरक्षा उपायों के बिना RPC को इंटरनेट पर एक्सपोज़ न करें।
+- **zcash-params कैश हो जाते हैं।** पहली बार चलने पर ~2GB क्रिप्टोग्राफ़िक पैरामीटर डाउनलोड होते हैं। यह सामान्य है और केवल एक बार होता है।

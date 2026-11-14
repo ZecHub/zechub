@@ -38,11 +38,11 @@ In Namada wird der abgeschirmte Pool als nicht-exklusives und anti-rivales öffe
 
 ## Transaktion mit abgeschirmten Assets
 
-Wenn es um abgeschirmte Übertragungen geht, sind ein Ethereum Non-Fungible Token (NFT), ATOM oder NAM nicht voneinander zu unterscheiden. Das bedeutet, dass die durch MASP (Modified Accumulator Sapling Protocol) bereitgestellten, die Privatsphäre schützenden Funktionen – eine verbesserte Version des Zcash Sapling-Schaltkreises – einheitlich auf alle Arten von Assets angewendet werden. Der MASP-Schaltkreis ermöglicht es allen Assets innerhalb des Namada-Ökosystems, denselben abgeschirmten Pool zu teilen. Dieser Ansatz stellt sicher, dass Privatsphäre-Garantien nicht auf einzelne Assets fragmentiert werden. Unabhängig vom Transaktionsvolumen eines bestimmten Assets bleibt der Schutz der Privatsphäre konsistent und unabhängig.
+Der MASP ([Abgeschirmter Multi-Asset-Pool](https://docs.namada.net/users/shielded-accounts)) erweitert den Sapling-Schaltkreis von Zcash, um abgeschirmte Übertragungen nativer und nicht-nativer Assets zu unterstützen. Das Teilen eines Pools bedeutet nicht, dass die Privatsphäre unabhängig von der Nutzung eines Assets ist. Die Dokumentation von Namada erläutert, dass Assets derselben Art eine Anonymitätsmenge teilen und dass öffentliche Abschirmungs- und Entschirmungsmuster weiterhin die Herkunft eines Assets offenlegen können.
 
 ![Diagramm zu Transaktionen mit abgeschirmten Assets](/content-images/image-1-512c639d56.webp)
 
-Durch die Vereinheitlichung des abgeschirmten Pools über verschiedene Assets hinweg stellt Namada sicher, dass die Privatsphäre einheitlich gewahrt bleibt, unabhängig vom spezifischen Asset-Typ, der an einer abgeschirmten Übertragung beteiligt ist. Dieser Ansatz fördert ein kohärentes Privatsphäre-Framework innerhalb des Protokolls und verbessert die Vertraulichkeit von Transaktionen mit Ethereum NFTs, ATOM, NAM und anderen unterstützten Assets. Namada ermöglicht außerdem die private Übertragung fungibler und nicht-fungibler Token mithilfe neuartiger zk-SNARKs und gewährleistet so Vertraulichkeit für native und nicht-native Token, genau wie es bei Zcash gemacht wird.
+Wenn beispielsweise nur ein Konto BTC abschirmt und sie später an dasselbe Konto auszahlt, können diese öffentlichen Ein- und Austrittspunkte miteinander verknüpft werden, selbst wenn die Gelder innerhalb von MASP privat bewegt wurden. Wenn mehr Konten BTC abschirmen, könnte eine spätere Auszahlung stattdessen zu jedem dieser Konten gehören. Das relevante Beteiligungs- und Transaktionsmuster ist entscheidend; die Größe des gemeinsamen Pools allein garantiert nicht für jedes Asset identische Privatsphäre.
 
 ## Geringere Gebühren und schnelle Transaktionen
 

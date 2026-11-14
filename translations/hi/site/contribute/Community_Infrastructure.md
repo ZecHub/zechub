@@ -2,28 +2,28 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZecHub सामुदायिक अवसंरचना ढाँचा
+# ZecHub सामुदायिक इन्फ्रास्ट्रक्चर फ्रेमवर्क (Community Infrastructure Framework)
 
 
-### सामुदायिक अवसंरचना 
+### सामुदायिक इन्फ्रास्ट्रक्चर 
 
-ZecHub बाउंटी कार्यक्रम इस कार्य के लिए भुगतान का मार्ग है: [ZEC Bounties](https://bounties.zechub.wiki/). ZEC संख्या कैसे चुनें: [बाउंटी राशि नीति](https://bounties.zechub.wiki/docs/bounty-amounts). योगदानकर्ता कार्यप्रवाह: [ZecHub में योगदान](https://zechub.wiki/contribute/contributing-guide).
+ZecHub बाउंटी (bounty) प्रोग्राम इस काम के लिए भुगतान वाला रास्ता है: [ZEC Bounties](https://bounties.zechub.wiki/). ZEC राशि कैसे चुनें: [बाउंटी राशि नीति](https://bounties.zechub.wiki/docs/bounty-amounts). योगदानकर्ता वर्कफ़्लो: [ZecHub में योगदान](https://zechub.wiki/contribute/contributing-guide). 
 
 
-## उपयोगी मार्गदर्शिकाएँ 
+## उपयोगी गाइड 
 
 - [ZecHub डेवलपर गाइड](https://zechub.wiki/developers)
 
 - [Zcash Readthedocs](https://zcash.readthedocs.io/en/latest/)
 
-- [Zebra पुस्तक](https://zebra.zfnd.org)
+- [Zebra बुक](https://zebra.zfnd.org)
 
-- [Akash Network दस्तावेज़](https://akash.network/docs/)
+- [Akash Network डॉक्स](https://akash.network/docs/)
 
-- [Akash Network पर Zebrad सेट अप करना](https://zechub.wiki/guides/akash-network-zebra#content)
+- [Akash Network पर Zebrad का सेटअप](https://zechub.wiki/guides/akash-network-zebra#content)
 
 - [Zcash भुगतान अनुरोधों की व्याख्या (वीडियो)](https://www.youtube.com/watch?v=l5auYQIzYsQ)
 
-- [ZIP-321 विनिर्देश](https://zips.z.cash/zip-0321)
+- [ZIP-321 स्पेसिफ़िकेशन](https://zips.z.cash/zip-0321)
 
-यदि आपको Zcash डेवलपर्स से गहन सलाह चाहिए, तो आप [Community Forum](https://forum.zcashcommunity.com) पर एक पोस्ट कर सकते हैं।
+यदि आपको Zcash डेवलपर से गहन सलाह चाहिए, तो आप [कम्युनिटी फ़ोरम](https://forum.zcashcommunity.com) पर पोस्ट कर सकते हैं।

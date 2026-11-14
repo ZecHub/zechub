@@ -38,11 +38,11 @@ Katika Namada, seti ya faragha huchukuliwa kuwa manufaa ya umma yasiyo ya kipeke
 
 ## Muamala wa Mali za Faragha
 
-Inapohusu uhamisho wa faragha, iwe unahusisha tokeni isiyoweza kubadilishana ya Ethereum (NFT), ATOM, au NAM, haviwezi kutofautishwa kutoka kwa vingine. Hii inamaanisha kwamba vipengele vya kuhifadhi faragha vinavyotolewa na MASP (Itifaki ya Kikusanyaji Kilichorekebishwa Sapling), toleo lililoboreshwa la saketi ya Zcash Sapling, hutumika kwa usawa kwa aina zote za mali. Saketi ya MASP huwezesha mali zote katika mfumo wa ikolojia wa Namada kushiriki seti moja ya faragha. Mbinu hii huhakikisha kwamba dhamana za faragha hazigawanywi kati ya mali binafsi. Bila kujali kiasi cha miamala kinachohusishwa na mali fulani, ulinzi wa faragha hubaki thabiti na huru.
+Kifaa cha MASP ([Bwawa la Faragha la Mali Nyingi](https://docs.namada.net/users/shielded-accounts)) hupanua saketi ya Sapling ya Zcash ili kuwezesha uhamisho wa faragha wa mali asilia na mali zisizo asilia. Kushiriki bwawa (pool) hakumaanishi kwamba faragha haitegemei jinsi mali inavyotumika. Nyaraka za Namada zinaeleza kwamba mali za aina moja hushiriki seti moja ya kutotambulika, na kwamba mifumo ya hadharani ya kuweka mali kwenye faragha na kuiondoa kwenye faragha bado inaweza kufichua asili ya mali.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-Kwa kuunganisha seti ya faragha katika mali tofauti, Namada huhakikisha kwamba faragha inadumishwa kwa usawa, bila kujali aina mahususi ya mali inayohusika katika uhamisho wa faragha. Mbinu hii hukuza mfumo jumuishi wa faragha ndani ya itifaki na huimarisha usiri wa miamala inayohusisha NFT za Ethereum, ATOM, NAM, na mali nyingine zinazoungwa mkono. Namada pia huwezesha uhamisho wa faragha wa tokeni zinazoweza kubadilishana na zisizoweza kubadilishana kwa kutumia zk-SNARKs bunifu, na kuhakikisha usiri kwa tokeni asilia na zisizo asilia kama inavyofanywa kwenye Zcash.
+Kwa mfano, ikiwa akaunti moja pekee inaweka BTC kwenye faragha na baadaye kuitoa kwenda kwenye akaunti hiyo hiyo, sehemu hizo za wazi za kuingia na kutoka zinaweza kuhusishwa hata kama fedha zilihamishwa kwa faragha ndani ya MASP. Akaunti nyingi zaidi zinapoweka BTC kwenye faragha, utoaji wa baadaye unaweza kuwa wa akaunti yoyote kati ya hizo. Ushiriki husika na mtindo wa miamala ni muhimu; ukubwa wa bwawa (pool) la pamoja pekee hauhakikishi faragha sawa kwa kila mali.
 
 ## Ada Ndogo na Miamala ya Haraka
 

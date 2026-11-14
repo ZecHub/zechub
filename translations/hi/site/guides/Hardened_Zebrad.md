@@ -1,29 +1,29 @@
-# सुदृढ़ीकृत Zebra Full Node
+# हार्डन्ड Zebra फुल नोड (Full Node)
 
-- समर्पित unprivileged user + kernel-level systemd sandboxing का उपयोग करता है (Docker जैसी ही isolation)।  
-- RPC केवल localhost पर उपलब्ध है और secure cookie auth का उपयोग करता है (डिफ़ॉल्ट और अनुशंसित)।  
-
-
----
-
-## आवश्यकताएँ
-
-- कोई भी Ubuntu-आधारित distro
-- Rust toolchain स्थापित हो (`rustup` + `cargo`)
-- कम से कम 300 GB खाली disk space (`/var` partition)
+- एक समर्पित बिना-विशेषाधिकार वाला यूज़र (unprivileged user) + कर्नेल-स्तर की systemd सैंडबॉक्सिंग (sandboxing) का उपयोग करता है (Docker जैसा ही आइसोलेशन)।  
+- RPC केवल localhost पर उपलब्ध है और सुरक्षित कुकी ऑथेंटिकेशन (cookie auth) के साथ चलता है (डिफ़ॉल्ट और अनुशंसित)।  
 
 
 ---
 
-## एक-बार की सेटअप (अपने सामान्य user के रूप में चलाएँ)
+## पूर्वापेक्षाएँ (Prerequisites)
 
-### 1. सिस्टम अपडेट करें और build dependencies इंस्टॉल करें
+- कोई भी Ubuntu-आधारित डिस्ट्रो
+- Rust टूलचेन (toolchain) इंस्टॉल हो (`rustup` + `cargo`)
+- कम से कम 300 GB खाली डिस्क स्पेस (`/var` पार्टिशन)
+
+
+---
+
+## एक-बार का सेटअप (अपने सामान्य यूज़र के रूप में चलाएँ)
+
+### 1. सिस्टम अपडेट और बिल्ड डिपेंडेंसी (build dependencies) का इंस्टॉलेशन
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
 ```
 
-## Rust अपडेट करें और नवीनतम zebrad इंस्टॉल करें (v4.3.0+)
+## Rust का अपडेट और नवीनतम zebrad (v4.3.0+) का इंस्टॉलेशन
 
 ```
 rustup update
@@ -34,14 +34,14 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## समर्पित unprivileged zebra user बनाएँ
+## समर्पित बिना-विशेषाधिकार वाले zebra यूज़र का निर्माण
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
 
-## सुरक्षित data directory बनाएँ
+## सुरक्षित डेटा डायरेक्टरी का निर्माण
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -49,7 +49,7 @@ sudo chown zebra:zebra /var/lib/zebrad
 sudo chmod 700 /var/lib/zebrad
 ```
 
-## सुरक्षित configuration बनाएँ (/etc/zebrad/zebrad.toml)
+## सुरक्षित कॉन्फ़िगरेशन का निर्माण (/etc/zebrad/zebrad.toml)
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -73,7 +73,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## सुदृढ़ीकृत systemd service बनाएँ
+## हार्डन्ड systemd सर्विस का निर्माण
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -110,17 +110,17 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## दैनिक उपयोग - Single-Command Workflow
+## दैनिक उपयोग - एकल-कमांड वर्कफ़्लो
 
-| Action                  | Command                                      | Notes |
+| क्रिया                  | कमांड                                      | टिप्पणियाँ |
 |-------------------------|----------------------------------------------|-------|
-| **शुरू करें**           | `sudo systemctl start zebrad`                | एक कमांड |
-| **बंद करें**            | `sudo systemctl stop zebrad`                 | एक कमांड |
-| **स्थिति**              | `sudo systemctl status zebrad`               | दिखाता है कि चल रहा है या नहीं |
-| **लाइव logs**          | `journalctl -u zebrad -f -o short-precise`  | `screen -r` का विकल्प |
-| **RPC cookie प्राप्त करें** | `sudo cat /var/lib/zebrad/.cookie`           | केवल चलते समय |
+| **शुरू करें**               | `sudo systemctl start zebrad`                | एक कमांड |
+| **रोकें**                | `sudo systemctl stop zebrad`                 | एक कमांड |
+| **स्थिति**              | `sudo systemctl status zebrad`               | दिखाता है कि यह चल रहा है या नहीं |
+| **लाइव लॉग**           | `journalctl -u zebrad -f -o short-precise`  | `screen -r` की जगह लेता है |
+| **RPC कुकी प्राप्त करें**      | `sudo cat /var/lib/zebrad/.cookie`           | केवल चलते समय |
 
-**सुविधाजनक aliases** (`~/.bashrc` या `~/.zshrc` में जोड़ें):
+**सुविधाजनक एलियास (aliases)** (`~/.bashrc` या `~/.zshrc` में जोड़ें):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

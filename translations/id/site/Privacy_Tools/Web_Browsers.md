@@ -7,7 +7,7 @@
 
 1. **Brave:** Salah satu browser paling terkemuka dan paling aman di pasar saat ini. Browser ini memblokir iklan & tracker yang melanggar privasi. Browser ini juga memblokir penyimpanan data pihak ketiga.
 
-2. **Mulvad:** Sebuah browser web yang berfokus pada privasi yang dikembangkan melalui kolaborasi antara Mullvad VPN dan Tor Project. Browser ini dibuat untuk meminimalkan pelacakan dan fingerprinting
+2. **Mullvad:** Sebuah browser web yang berfokus pada privasi yang dikembangkan melalui kolaborasi antara Mullvad VPN dan Tor Project. Browser ini dibuat untuk meminimalkan pelacakan dan fingerprinting
 
 3. **Tor:** Browser ini memblokir plugin seperti Flash, RealPlayer, QuickTime, dan lainnya: plugin tersebut dapat dimanipulasi untuk mengungkap alamat IP kamu. Kami tidak menyarankan untuk menginstal add-on atau plugin tambahan ke dalam Tor Browser
 

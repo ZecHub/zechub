@@ -70,7 +70,7 @@ Keputusan ditulis ke dalam spesifikasi dan diratifikasi on-chain ketika network 
 
 Pertama, bacalah [panduan kami tentang block explorer](/guides/blockchain-explorers). Kemudian periksa [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Transaksi kedaluwarsa setelah sekitar 25 menit (20 blok) dan dana dikembalikan secara otomatis.
+Tidak ada masa kedaluwarsa tetap 25 menit atau pengatur waktu pengembalian dana otomatis. Periksa ketinggian kedaluwarsa yang dicatat oleh dompet Anda dan apakah pembayaran asli telah ditambang. Jika kedaluwarsa tanpa ditambang, pembayaran tersebut tidak diselesaikan on-chain; kedaluwarsa tidak membuat transaksi pengembalian dana. Biarkan dompet tersinkronisasi sebelum mengikuti panduan percobaannya kembali. Lihat [pemecahan masalah transaksi](/using-zcash/transactions#troubleshooting-stuck-transactions) dan [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Alasan umum transaksi mungkin tidak muncul:**
 

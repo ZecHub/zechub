@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+</a>
+
 # Zcash Madencilik Rehberi: Kişisel Donanımla Bir Madencilik Havuzuna Katılma
+
+> GPU'nuzu veya ASIC cihazınızı bir havuza yönlendirin, işi diğer madencilerle paylaşın ve tek başınıza bir blok bulmak için yıllarca beklemek yerine düzenli ZEC ödemeleri alın.
+
+## Özetle
+
+* Zcash, Equihash iş ispatı (proof of work) kullanır. Ağa ASIC'ler hâkim olduğundan GPU'lar daha çok hobi amaçlı kullanıcılar ve test için uygundur.
+* Küçük kurulumlarla solo madencilik nadiren blok bulur. Bir havuz, hash gücünü birleştirir ve bulduğu her bloktan size bir pay öder.
+* Üç şeye ihtiyacınız var: ödemeler için bir Zcash cüzdan adresi, madencilik donanımı ve madencilik yazılımı (ya da ASIC'in yerleşik kontrol paneli).
+* Havuzlar ücrete (yaklaşık %0-2), ödeme yöntemine (PPLNS, PPS+), minimum ödeme tutarına ve sunucu konumuna göre farklılık gösterir.
+* Önce kârlılığı kontrol edin: madenciliğin kâr getirip getirmeyeceğini elektrik fiyatı, donanım maliyeti ve ZEC fiyatı belirler.
+* İleri düzey yol: kendi Zebra düğümünüzü çalıştırın ve onun `getblocktemplate` RPC'sine karşı madencilik yapın.
+
+## Temel Açıklama
+
+Madencilik, yeni Zcash bloklarının oluşturulma yoludur. Madenciler bir Equihash bulmacasını çözmek için yarışır; ilk geçerli çözümü bulan bir sonraki bloğu ekler ve blok ödülünü kazanır. Ne kadar çok hashrate katkısı sağlarsanız o kadar sık kazanırsınız; ancak günümüz ağına karşı tek bir ev madencilik düzeneğinin kendi başına kazanması neredeyse imkânsızdır.
+
+Bir madencilik havuzu bu sorunu çözer. Havuz, her madenciye pay (share) adı verilen daha küçük iş parçaları dağıtır. Kabul edilen her pay, hash gücüne katkıda bulunduğunuzu kanıtlar. Havuzdaki herhangi biri bir blok bulduğunda ödül paylara göre bölüştürülür ve bakiyeniz havuzun minimum ödeme eşiğini geçtiğinde ödemeniz otomatik olarak yapılır.
+
+Kurulum, aşağıda adım adım ele alınan beş bölümden oluşur:
+
+1. Ödemeleri almak için bir cüzdan adresi.
+2. Donanım: bir bilgisayardaki GPU'lar ya da bir Equihash ASIC.
+3. Bir havuz hesabı (kayıt gerektirmeyen havuzlarda yalnızca adresiniz yeterlidir).
+4. Kullanıcı adı olarak `YOUR_ADDRESS.WORKER_NAME` ayarlanmış ve havuzun stratum sunucusuna yönlendirilmiş madencilik yazılımı.
+5. İzleme: kabul edilen share'ler, hashrate, sıcaklık ve ödenmemiş bakiye.
 
 ## Giriş
 
@@ -107,6 +136,25 @@ Madencilik havuzları işi dağıtır ve ödülleri katkıda bulunduğunuz hash 
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### Foundry Zcash Havuzunu İzleme
+
+Foundry Zcash Pool kullanıcıları için:
+
+- Madenci performansını Foundry havuz panosu üzerinden izleyin.
+- Kontrol edin:
+  - Aktif çalışanlar
+  - Bildirilen hashrate
+  - Kabul edilen paylar
+  - Tahmini ödüller
+  - Ödeme durumu
+
+Foundry, PPLNS ödül modelini kullandığı için madencilik ödülleri yalnızca anlık hash oranına değil, havuzun ödül penceresi boyunca katkıda bulunulan paylara bağlıdır.
+
+Önerilen izleme uygulamaları:
+- ASIC kontrol panelindeki hashrate'i Foundry'nin raporladığı hashrate ile karşılaştırın.
+- Reddedilen payları, eskimiş payları veya bağlantı kararsızlığını inceleyin.
+- Kesinti süresi gönderilen payları ve olası ödülleri azalttığından, ağ bağlantısını kararlı tutun.
+
 ## Sovright: Testnet Havuzu ve Aktarım Ağı
 
 Sovright (sovright.com), bir Stratum V2 madencilik havuzu ve ayrı bir blok aktarım ağı işletir. Farklı işleri vardır, bu yüzden aşağıda ayrı ayrı ele alınmıştır.
@@ -118,37 +166,19 @@ Sovright'nin havuzu, mainnet üzerinde değil, herkese açık bir Zcash testnet'
 - Başlamak için hesap gerekmez. Bir CPU veya ASIC Equihash madencisini havuza yönlendirin; paylarınız canlı panoda görünür.
 - Sovright ayrıca, yalnızca havuzun işlerini almak yerine kendi blok şablonlarını seçmek isteyen madenciler için açık kaynaklı bir Stratum V2 proxy yayımlar:
 
-### Foundry Zcash Pool İzleme
-
-Foundry Zcash Pool kullanıcıları için:
-
-- Madenci performansını Foundry havuz panosu üzerinden izleyin.
-- Şunları kontrol edin:
-  - Etkin işçiler
-  - Bildirilen hash oranı
-  - Kabul edilen paylar
-  - Tahmini ödüller
-  - Ödeme durumu
-
-Foundry PPLNS ödül modeli kullandığından, madencilik ödülleri yalnızca anlık hash oranına değil, havuzun ödül penceresi boyunca katkıda bulunulan paylara bağlıdır.
-
-Önerilen izleme uygulamaları:
-- ASIC pano hash oranını Foundry tarafından bildirilen hash oranıyla karşılaştırın.
-- Reddedilen payları, bayat payları veya bağlantı kararsızlığını inceleyin.
-- Kesintiler gönderilen payları ve olası ödülleri azalttığından, kararlı ağ bağlantısını koruyun.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Madencinizi doğrudan havuz yerine proxy'ye yönlendirin:
+  Madencinizi doğrudan havuza değil, proxy'ye yönlendirin:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  `yourname.rig1` gibi bir işçi adı kullanarak.
-- Sovright'nin şeffaflık sayfası, korumalı işlemleri filtreleyen bazı havuzların aksine, korumalı işlemler için "hepsini dahil et" politikasını belirtir. Her blok, politikanın bağımsız olarak kontrol edilebilmesi için imzalı bir tasdik alır.
-- Örnek pano verileri yerine kendi işçilerinizi takip etmek için mining.sovright.com üzerinde bir hesap oluşturun (Google veya e-posta ile giriş).
+  `yourname.rig1` gibi bir worker adı kullanarak.
+- Sovright'in şeffaflık sayfası, bazı havuzların aksine korumalı işlemleri filtrelemeyen, "tümünü dahil et" politikasını belirtir. Her blok imzalı bir onay alır, böylece politika bağımsız olarak doğrulanabilir.
+- Örnek pano verileri yerine kendi worker'larınızı takip etmek için mining.sovright.com adresinde bir hesap oluşturun (Google veya e-posta ile giriş).
 
 ### Aktarım Ağı (relay.sovright.com)
 

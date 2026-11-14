@@ -6,14 +6,14 @@ Il modello di finanziamento on-chain di Zcash, la meccanica dei block reward e i
 
 Zcash è una criptovaluta Proof-of-Work. Ogni blocco minato distribuisce il suo **sussidio di blocco** (lo ZEC appena creato) più le commissioni di transazione secondo una regola fissa del protocollo stabilita dagli aggiornamenti di rete.
 
-- **Modello attuale (post-NU6 / da novembre 2024 in poi)**  
-  Ad aprile 2026 la distribuzione è:
+- **Modello attuale (NU6.1 / dal 24 novembre 2025 in poi)**  
+  La distribuzione è:
 
 | Destinatario                   | Percentuale | Cosa finanzia / stato                                                |
 |---------------------------------|-------------|----------------------------------------------------------------------|
-| Minatori                        | 80%         | Ricompensa diretta in blocchi ai minatori                            |
-| Zcash Community Grants (ZCG)    | 8%          | Finanziamenti comunitari (proseguono fino al ~2028)                     |
-| Lockbox (controllato dal protocollo) | 12%    | I fondi si accumulano; nessun meccanismo di spesa ancora; necessaria una votazione comunitaria futura |
+| Miner                           | 80%         | Ricompensa diretta del blocco ai miner                               |
+| Zcash Community Grants (ZCG)    | 8%          | Finanziamenti della comunità (proseguono fino al ~2028)              |
+| Fondo controllato dai detentori di monete | 12%    | Alimentato dall'ex lockbox; i detentori di monete votano sui finanziamenti ([ZIP 1016](https://zips.z.cash/zip-1016)) |
 
 - **Fondo di sviluppo storico pre-NU6 (2020 - Nov 2024)**  
   Il 20% di ogni sussidio di blocco andava direttamente alle organizzazioni di sviluppo:
@@ -22,18 +22,18 @@ Zcash è una criptovaluta Proof-of-Work. Ogni blocco minato distribuisce il suo 
   - 5% -> Zcash Foundation (ZF)  
   - 8% -> Zcash Community Grants (ZCG)
 
-Questo 20% di "dev fund" è stato sostituito dal modello 8% ZCG + 12% lockbox tramite [ZIP 1015](https://zips.z.cash/zip-1015).
+Questo 20% di "dev fund" è stato sostituito dal modello 8% ZCG + 12% lockbox tramite [ZIP 1015](https://zips.z.cash/zip-1015) (NU6, novembre 2024). Da novembre 2024 a novembre 2025 il 12% si è accumulato nel Deferred Dev Fund Lockbox, senza alcun modo di spenderlo.
 
-### Evoluzione proposta: ZIP 1016 - modello di finanziamento comunitario e dei possessori di monete
-ZIP 1016 (proposta a febbraio 2025, stato: Proposta) introduce un modello di finanziamento più decentralizzato. Prevede di:
+### Modello attuale: ZIP 1016 - modello di finanziamento comunitario e dei possessori di monete
+ZIP 1016 (creata a febbraio 2025) è stata attivata sulla mainnet da [NU6.1](/zcash-tech/nu6-1) al blocco 3.146.400 il 24 novembre 2025 ([ZIP 255](https://zips.z.cash/zip-0255)). Prevede di:
 - Continuare l'assegnazione dell'8% a ZCG.
-- Convertire il 12% del Lockbox in un "Coinholder-Controlled Fund" (alimentato dai fondi esistenti del Lockbox e dal sussidio di blocco del 12% in corso).
-- Attivare questo modello fino al terzo halving (circa 3 anni).
-- Dare ai possessori di ZEC il potere di votare trimestralmente sui finanziamenti attraverso un processo definito dalla comunità (maggioranza semplice, quorum minimo di 420.000 ZEC).
-- Richiedere alle Key-Holder Organizations (che attualmente includono ZF e Shielded Labs, con Bootstrap/ECC citate nei contesti di finanziamento) di amministrare le erogazioni tramite multisig, vincolate da accordi legali e decisioni dei possessori di monete.
-- Mantenere tutti i requisiti di ZIP 1015 sull'uso del Lockbox (finanziare finanziamenti per l'ecosistema).
+- Ha convertito il 12% del Lockbox in un "Coinholder-Controlled Fund" (alimentato dai fondi esistenti del Lockbox e dal sussidio di blocco del 12% in corso).
+- Resta in vigore fino al terzo halving (il ZIP consente di spostare quella data se NU7 modifica i tempi dei blocchi).
+- Permette ai possessori di ZEC di votare sui finanziamenti (maggioranza semplice, minimo di 420.000 ZEC votati).
+- Richiede alle Key-Holder Organizations (che attualmente includono ZF e Shielded Labs, con Bootstrap/ECC citate nei contesti di finanziamento) di amministrare le erogazioni tramite multisig, vincolate da accordi legali e decisioni dei possessori di monete.
+- Mantiene tutti i requisiti di ZIP 1015 sull'uso del Lockbox (finanziare finanziamenti per l'ecosistema).
 
-Questa proposta mira a passare dalla governance controllata dalle organizzazioni a quella diretta dei possessori di monete per l'assegnazione del 12%. Non modifica il processo ZIP né le regole sui marchi.
+Questo modello passa dalla governance controllata dalle organizzazioni a quella diretta dei possessori di monete per l'assegnazione del 12%. Non modifica il processo ZIP né le regole sui marchi.
 
 ## 2. Le organizzazioni principali e le loro fonti di finanziamento
 
@@ -59,7 +59,7 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 - Non riceve più finanziamenti diretti dal protocollo dopo NU6. Si basa su donazioni e finanziamenti.  
 - Detiene il marchio di Zcash (donato da ECC nel 2019) e gioca un ruolo centrale nella governance.  
 - Gestisce lo Zcash Community Advisory Panel (ZCAP) e aiuta a facilitare i sondaggi comunitari.  
-- Agisce come Key-Holder Organization nell'ambito della proposta ZIP 1016.  
+- Agisce come Key-Holder Organization nell'ambito di ZIP 1016.  
 -> Vedi profilo completo: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
 -> Sito ufficiale: [zfnd.org](https://zfnd.org/)
 
@@ -83,7 +83,7 @@ Questa proposta mira a passare dalla governance controllata dalle organizzazioni
 - Organizzazione indipendente di supporto a Zcash, finanziata da donazioni, con sede in Svizzera.  
 - La prima organizzazione nell'ecosistema di Zcash che non ha mai ricevuto finanziamenti diretti o indiretti dal Development Fund o dai block reward.  
 - Si concentra su iniziative che beneficiano i possessori di ZEC e dà priorità alla voce dei possessori nel plasmare la direzione di Zcash.  
-- Agisce come Key-Holder Organization nell'ambito della proposta ZIP 1016 per l'amministrazione del Coinholder-Controlled Fund.  
+- Agisce come Key-Holder Organization nell'ambito dello ZIP 1016 per l'amministrazione del Coinholder-Controlled Fund.  
 - Contribuisce allo sviluppo del protocollo, al processo ZIP e alla governance (rappresentanza come ZIP editor).  
 -> Vedi profilo completo: [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
 -> Sito ufficiale: [shieldedlabs.net](https://shieldedlabs.net/)
@@ -95,8 +95,8 @@ La governance di Zcash è un mix di "regole del protocollo on-chain" e "consenso
 1. **Processo ZIP (Zcash Improvement Proposals)**  
    - Chiunque può inviare una ZIP.  
    - Dibattito pubblico su forum, Discord, GitHub.  
-   - Gli editor delle ZIP (attualmente Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe a titolo individuale, Arya di ZF e rappresentanti di Shielded Labs) esaminano e decidono l'accettazione.  
-   - Le ZIP accettate sono incluse nel prossimo aggiornamento di rete.
+   - Gli attuali editor delle ZIP sono Jack Grigg, Daira-Emma Hopwood e Kris Nuttycombe (a titolo individuale); Arya e Marek (Zcash Foundation); Mark Henderson e Sam H. Smith (Shielded Labs); Sean Bowe e Tal Derei (Project Tachyon); e Dev Ojha (Valar Group).
+   - L'approvazione di una ZIP non ne programma automaticamente l'inclusione nel prossimo aggiornamento di rete. Le ZIP di consenso richiedono un piano di distribuzione e un'implementazione, e le loro regole si attivano all'altezza dell'aggiornamento di rete specificata.
 
 2. **Accordo sul Marchio (2019-2024)**  
    - ECC ha donato il marchio di Zcash a ZF nel 2019.  
@@ -108,26 +108,26 @@ La governance di Zcash è un mix di "regole del protocollo on-chain" e "consenso
    - Gruppo di volontari esperti dell'ecosistema.  
    - Utilizzato per sondaggi comunitari non vincolanti su decisioni importanti.
 
-4. **Ratifica On-chain**  
-   - Una volta distribuito un aggiornamento di rete, la maggioranza dell'hash rate di rete deve adottarlo (nessun rischio di hard fork se si raggiunge il consenso).
+4. **Ratifica on-chain**  
+   - Gli aggiornamenti di rete si attivano a un'altezza di blocco prestabilita. I nodi che eseguono un software compatibile applicano le nuove regole di consenso a partire da quell'altezza. I nodi che non si aggiornano potrebbero continuare a seguire un ramo di consenso precedente all'aggiornamento, con il possibile risultato di una divisione della chain.
 
-5. **Direzione Futura - Il Lockbox e ZIP 1016**  
-   - I fondi del Lockbox al 12% si stanno accumulando nel protocollo.  
-   - ZIP 1016 propone di convertirlo in un Coinholder-Controlled Fund con votazione trimestrale dei possessori di monete e amministrazione multisig da parte delle Key-Holder Organizations (attualmente indicate ZF e Shielded Labs).
+5. **Il lockbox e ZIP 1016**  
+   - I fondi del lockbox al 12% si sono accumulati nel protocollo da novembre 2024 a novembre 2025.  
+   - NU6.1 li ha convertiti nel Coinholder-Controlled Fund, con votazione dei possessori di monete e amministrazione multisig da parte delle Key-Holder Organizations (attualmente indicate ZF e Shielded Labs).
 
 ## 4. Tabella di riferimento rapido - evoluzione del finanziamento
 
-| Periodo           | Minatori | ECC/Bootstrap | ZF | ZCG | Lockbox               | Nota                                                       |
+| Periodo           | Miner | ECC/Bootstrap | ZF | ZCG | Lockbox               | Nota                                                       |
 |-------------------|----------|---------------|-----|-----|------------------------|------------------------------------------------------------|
 | 2020 - Nov 2024   | 80%      | 7%            | 5%  | 8%  | -                      | Fondo di sviluppo classico                                 |
-| Nov 2024 - oggi   | 80%      | 0%            | 0%  | 8%  | 12%                    | Modello NU6 + estensione ZCG                               |
-| Proposta (ZIP 1016) | 80%    | 0%            | 0%  | 8%  | 12% (Coinholder-Controlled) | Fino al 3° halving; votazione dei possessori di monete |
+| Nov 2024 - Nov 2025 | 80%    | 0%            | 0%  | 8%  | 12%                    | Modello NU6 + estensione ZCG                               |
+| Nov 2025 - oggi (ZIP 1016) | 80% | 0%       | 0%  | 8%  | 12% (Coinholder-Controlled) | NU6.1; fino al 3° halving; votazione dei possessori di monete |
 
 ## 5. Risorse correlate
 
 - Spiegazione ufficiale del finanziamento -> [sezione finanziamento di z.cash](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (modifica finanziamento NU6) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
-- ZIP 1016 (modello proposto dei possessori di monete) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
+- ZIP 1016 (modello dei possessori di monete, attivo da NU6.1) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Zcash Improvement Proposals -> [zips.z.cash](https://zips.z.cash)  
 - Portale Zcash Community Grants -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 

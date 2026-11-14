@@ -146,6 +146,7 @@ Zcash_Tech/NU5.md
 Zcash_Tech/NU6.md
 Zcash_Tech/NU6_1.md
 Zcash_Tech/NU6_2.md
+Zcash_Tech/NU7.md
 Zcash_Tech/Outgoing_View_Keys.md
 Zcash_Tech/Overwinter.md
 Zcash_Tech/Payment_Disclosures.md
@@ -192,6 +193,7 @@ contribute/Style_Guide.md
 contribute/ZecHub_DAO.md
 contribute/ZecWeekly_Newsletter.md
 footer.md
+guides/Akash_Network_Zakura.md
 guides/Akash_Network_Zcashd.md
 guides/Akash_Network_Zebra.md
 guides/Avalanche_RedBridge.md
@@ -213,6 +215,7 @@ guides/Raspberry_Pi_4_Full_Node.md
 guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md
 guides/Raspberry_pi_4_Zebra_Node.md
 guides/ShapeShift_Zcash.md
+guides/Thus_Spoke_Zakura_Akash.md
 guides/Using_ZEC_Privately.md
 guides/Using_ZEC_in_DeFi.md
 guides/Verifying_Zcash_Releases.md
@@ -222,6 +225,7 @@ guides/Visualizing_the_Zcash_Network.md
 guides/Ywallet_FROST_Demo.md
 guides/Zcash_Devtool.md
 guides/Zcash_Improvement_Proposals.md
+guides/Zcash_Js.md
 guides/Zcash_Node_RPC_and_Indexing.md
 guides/Zenith_Installation.md
 guides/Zero-Knowledge_vs_Decoys.md

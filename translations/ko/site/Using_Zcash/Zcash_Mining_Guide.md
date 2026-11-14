@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
+</a>
+
 # Zcash 채굴 가이드: 개인 하드웨어로 채굴 풀 참여하기
+
+> GPU나 ASIC을 풀에 연결해 다른 채굴자들과 작업을 나누고, 단독으로 블록을 찾기까지 몇 년씩 기다리는 대신 꾸준히 ZEC 지급을 받으세요.
+
+## 요약
+
+* Zcash는 Equihash 작업 증명(proof of work)을 사용합니다. 네트워크는 ASIC이 장악하고 있으므로 GPU는 주로 취미 활동이나 테스트용으로 쓰입니다.
+* 소규모 장비로 솔로 채굴을 하면 블록을 찾는 경우가 드뭅니다. 풀은 해시레이트를 모아 블록을 찾을 때마다 그 보상의 일부를 지급합니다.
+* 세 가지가 필요합니다. 지급받을 Zcash 지갑 주소, 채굴 하드웨어, 그리고 채굴 소프트웨어(또는 ASIC 내장 대시보드)입니다.
+* 풀마다 수수료(약 0-2%), 지급 방식(PPLNS, PPS+), 최소 지급액, 서버 위치가 다릅니다.
+* 먼저 수익성을 확인하세요. 전기 요금, 하드웨어 비용, ZEC 가격에 따라 채굴로 수익을 낼 수 있는지가 결정됩니다.
+* 고급 방법: 직접 Zebra 노드를 운영하고 그 노드의 `getblocktemplate` RPC를 대상으로 채굴합니다.
+
+## 핵심 설명
+
+채굴은 새로운 Zcash 블록이 만들어지는 방식입니다. 채굴자들은 Equihash 퍼즐을 풀기 위해 경쟁하며, 가장 먼저 유효한 해답을 찾은 채굴자가 다음 블록을 추가하고 블록 보상을 받습니다. 기여하는 해시레이트가 클수록 더 자주 이기게 되지만, 오늘날의 네트워크를 상대로는 가정용 채굴기 한 대가 혼자서 이기는 일은 거의 없습니다.
+
+채굴 풀이 이 문제를 해결합니다. 풀은 각 채굴자에게 셰어(share)라고 하는 더 작은 작업 단위를 나누어 줍니다. 승인된 셰어 하나하나가 여러분이 해시레이트를 기여했다는 증거가 됩니다. 풀의 누군가가 블록을 찾으면 보상은 셰어에 따라 분배되며, 잔액이 풀의 최소 지급 기준을 넘으면 자동으로 지급받게 됩니다.
+
+설정은 다섯 부분으로 이루어져 있으며, 아래에서 단계별로 다룹니다.
+
+1. 채굴 보상을 받을 지갑 주소.
+2. 하드웨어: PC에 장착된 GPU 또는 Equihash ASIC.
+3. 풀 계정(가입이 필요 없는 풀이라면 주소만 있어도 됨).
+4. 풀의 스트라텀 서버를 가리키도록 설정하고 `YOUR_ADDRESS.WORKER_NAME`을 사용자 이름으로 지정한 채굴 소프트웨어.
+5. 모니터링: 승인된 셰어, 해시레이트, 온도, 미지급 잔액.
 
 ## 소개
 
@@ -107,6 +136,25 @@ Zcash(ZEC)은 채굴에 Equihash 작업 증명 알고리즘을 사용하는 프�
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### Foundry Zcash 풀 모니터링
+
+Foundry Zcash 풀 사용자의 경우:
+
+- Foundry 풀 대시보드를 통해 채굴기 성능을 모니터링하세요.
+- 확인 항목:
+  - 활성 워커
+  - 보고된 해시레이트
+  - 승인된 셰어
+  - 예상 보상
+  - 지급 상태
+
+Foundry는 PPLNS 보상 모델을 사용하므로, 채굴 보상은 순간 해시레이트만으로 결정되지 않고 풀의 보상 기간 동안 기여한 셰어에 따라 달라집니다.
+
+권장 모니터링 방법:
+- ASIC 대시보드의 해시레이트와 Foundry에서 보고하는 해시레이트를 비교하세요.
+- 거부된 셰어, 오래된(stale) 셰어 또는 연결 불안정이 발생하면 원인을 조사하세요.
+- 다운타임은 제출되는 셰어와 잠재적 보상을 줄이므로 안정적인 네트워크 연결을 유지하세요.
+
 ## Sovright: 테스트넷 풀 및 릴레이 네트워크
 
 Sovright(sovright.com)는 Stratum V2 채굴 풀과 별도의 블록 릴레이 네트워크를 운영합니다. 이들은 서로 다른 역할을 하므로 아래에서 별도로 다룹니다.
@@ -118,37 +166,19 @@ Sovright의 풀은 메인넷이 아닌 공개 Zcash 테스트넷(NU6, Stratum V2
 - 시작하는 데 계정은 필요하지 않습니다. CPU 또는 ASIC Equihash 채굴기를 풀로 지정하면 라이브 대시보드에 셰어가 표시됩니다.
 - Sovright는 풀 작업을 그대로 받는 대신 자신만의 블록 템플릿을 선택하려는 채굴자를 위해 오픈 소스 Stratum V2 프록시도 제공합니다:
 
-### Foundry Zcash Pool 모니터링
-
-Foundry Zcash Pool 사용자의 경우:
-
-- Foundry 풀 대시보드를 통해 채굴기 성능을 모니터링하세요.
-- 다음을 확인하세요:
-  - 활성 워커
-  - 보고된 해시레이트
-  - 승인된 셰어
-  - 예상 보상
-  - 지급 상태
-
-Foundry는 PPLNS 보상 모델을 사용하므로, 채굴 보상은 즉각적인 해시레이트만이 아니라 풀의 보상 기간 동안 기여한 셰어에 따라 달라집니다.
-
-권장 모니터링 방식:
-- ASIC 대시보드 해시레이트를 Foundry 보고 해시레이트와 비교하세요.
-- 거부된 셰어, 스테일 셰어 또는 연결 불안정을 조사하세요.
-- 가동 중단은 제출 셰어와 잠재적 보상을 줄이므로 안정적인 네트워크 연결을 유지하세요.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  풀에 직접 연결하는 대신 채굴기를 프록시로 지정하세요:
+  풀에 직접 연결하는 대신 마이너가 프록시를 가리키도록 설정하세요:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  `yourname.rig1` 같은 워커 이름을 사용합니다.
-- Sovright의 투명성 페이지는 차폐 거래를 제외하는 일부 풀과 달리 차폐 거래에 대한 “모두 포함” 정책을 명시합니다. 각 블록에는 서명된 증명이 부여되어 정책을 독립적으로 검증할 수 있습니다.
-- 샘플 대시보드 데이터 대신 자신의 워커를 추적하려면 mining.sovright.com에서 계정을 만드세요(Google 또는 이메일 로그인).
+  워커 이름은 `yourname.rig1`와 같은 형식으로 사용합니다.
+- Sovright의 투명성 페이지에는 차폐 트랜잭션을 걸러내는 일부 풀과 달리 차폐 트랜잭션에 대해 "모두 포함" 정책을 따른다고 명시되어 있습니다. 각 블록에는 서명된 증명이 붙어 있어 이 정책을 독립적으로 확인할 수 있습니다.
+- 샘플 대시보드 데이터 대신 자신의 워커를 추적하려면 mining.sovright.com에서 계정을 만드세요(Google 또는 이메일로 로그인).
 
 ### 릴레이 네트워크(relay.sovright.com)
 
@@ -240,7 +270,7 @@ curl --silent --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getb
 
 ### Docker 경로
 
-Book의 가장 짧은 방법은 주소와 RPC 포트를 환경 변수로 전달하는 `zfnd/zebra` Docker 이미지입니다([Book: ZebraDocker에서 ](https://zebra.zfnd.org/user/mining-docker.html)으로 채굴하기). 아래 명령은 한 가지 변경을 제외하면 Book의 명령과 같습니다. RPC 포트를 호스트의 루프백 주소에만 공개하므로 다른 머신은 이에 접근할 수 없습니다.
+Book에서 안내하는 가장 짧은 방법은 `zfnd/zebra` Docker 이미지를 사용하고, 주소와 RPC 포트를 환경 변수로 전달하는 것입니다([Book: Docker에서 Zebra로 채굴하기](https://zebra.zfnd.org/user/mining-docker.html)). 아래 명령은 Book의 명령에서 한 가지만 바꾼 것입니다. RPC 포트를 호스트의 루프백 주소에만 공개하므로 다른 머신에서는 접근할 수 없습니다.
 
 ```bash
 docker run -d --name zebra_local \

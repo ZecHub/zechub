@@ -70,7 +70,7 @@ Zcash는 Bitcoin이나 Ethereum보다 근본적으로 더 프라이빗합니다.
 
 먼저 [블록 탐색기 가이드](/guides/blockchain-explorers)를 읽으세요. 그런 다음 [Zcash 블록 탐색기](https://mainnet.zcashexplorer.app)를 확인하세요.
 
-거래는 약 25분(20블록) 후 만료되며 자금은 자동으로 반환됩니다.
+고정된 25분 만료 또는 자동 환불 타이머는 없습니다. 지갑에 기록된 만료 높이와 원래 결제가 채굴되었는지 확인하세요. 채굴되지 않은 채 만료되었다면 온체인에서 정산되지 않은 것이며, 만료가 환불 거래를 생성하지는 않습니다. 지갑의 재시도 안내를 따르기 전에 동기화가 완료되도록 하세요. [거래 문제 해결](/using-zcash/transactions#troubleshooting-stuck-transactions) 및 [ZIP 203](https://zips.z.cash/zip-0203)을(를) 참조하세요.
 
 **거래가 표시되지 않을 수 있는 일반적인 이유:**
 

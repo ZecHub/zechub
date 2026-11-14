@@ -1,4 +1,29 @@
-# MetaMask Zcash Ntuziaka Njikọta Snap
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
+# Ntuziaka Njikọta MetaMask Zcash Snap
+
+> Jide ma ziga ZEC nke e chebere echebe site na mgbatị ihe nchọgharị MetaMask, site n'iji Zcash Snap nke ChainSafe na e-akpa ego weebụ WebZjs.
+
+## Na nkenke
+
+* ChainSafe Zcash Snap na-agbakwunye ZEC nke e chebere echebe [shielded] na MetaMask n’elu kọmputa (Chrome, Edge, Firefox). Ọ dịghị mkpa inwe sọftụwia Zcash iche.
+* A na-enweta igodo Zcash gị site na Mkpuru mgbake [recovery phrase] MetaMask gị. Otu mkpụrụokwu ahụ na-echekwa ma ETH gị ma ZEC gị ugbu a.
+* Ị na-ejikwa ZEC site n’e-akpa ego [wallet] WebZjs na webzjs.chainsafe.dev, ọ bụghị n’ime ndepụta akụ nke MetaMask.
+* Akaụntụ gị na-enweta Adreesị akpa ego [address] ejikọrọ ọnụ, ya mere ndị zitere ego na-akwụ gị n’ime pool kacha nwee Nzuzo [privacy] ha kwadoro.
+* Tinye ego na ya site n’ịgbawe [swap] (dịka ọmụmaatụ ETH gaa na ZEC) ma ọ bụ site n’iwepụ ZEC na exchange gaa na Adreesị akpa ego gị nke e chebere echebe.
+* Mgbake: tinyegharịa MetaMask na Snap, wee bubata Mkpuru mgbake gị dị ugbu a.
+
+## Nkọwa Isianyị
+
+MetaMask Snap bụ obere mgbakwunye e mechiri n'ime sandbox nke na-akụziri MetaMask blockchain [blockchain] ọhụrụ. Zcash Snap, nke ChainSafe wuru ma Hacken nyochara, na-eme ka MetaMask nweta igodo Zcash site na mkpụrụ mgbake [recovery phrase] gị dịbu ma binye aka na Azụmahia [transactions] Zcash.
+
+MetaMask n'onwe ya anaghị egosi nguzozi ZEC. Kama nke ahụ, e-akpa ego webụ WebZjs na-ejikọ na Snap, na-emekọrịta na netwọkụ Zcash site na sava lightwalletd, ma gosi Adreesị akpa ego na nguzozi gị. A na-agbakọ proof nke e chebere echebe na ihe nchọgharị gị site na WebAssembly, nke mere na izipu nwere ike iwe obere oge.
+
+Nzọụkwụ ndị dị n'okpuru na-ekpuchi iwunye Snap, ijikọ WebZjs, itinye ego n'ime e-akpa ego [wallet], izipu na ịnata, na ịlele akụkụ nke Adreesị akpa ego ejikọtara ọnụ gị.
+
+## Ntuziaka zuru ezu
 
 Maka ntụziaka zuru ezu na nkọwa anya, lee [**ntụziaka YouTube a**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 

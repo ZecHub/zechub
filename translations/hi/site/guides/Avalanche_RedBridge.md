@@ -1,73 +1,73 @@
 # Zcash Avalanche RedBridge
 
-Zcash Avalanche RedBridge एक विकेंद्रीकृत bridge है जो Zcash (ZEC) और Avalanche (AVAX) blockchains के बीच interoperability को सक्षम बनाता है। यह bridge ZEC को Avalanche blockchain पर निर्बाध रूप से ट्रांसफर करने के लिए डिज़ाइन किया गया है, जिसमें Avalanche की high throughput, low fees, और ecofriendly consensus mechanisms का लाभ लिया जाता है, जबकि Zcash की privacy centric विशेषताओं को सुरक्षित रखा जाता है।
+Zcash Avalanche RedBridge एक डिसेंट्रलाइज़्ड (decentralized) ब्रिज (bridge) है, जो Zcash (ZEC) और Avalanche (AVAX) ब्लॉकचेन (blockchain) के बीच इंटरऑपरेबिलिटी (interoperability) संभव बनाता है। यह ब्रिज ZEC को Avalanche ब्लॉकचेन पर सहज रूप से ट्रांसफ़र करने के लिए बनाया गया है। यह Avalanche के उच्च थ्रूपुट, कम शुल्क (fees) और पर्यावरण-अनुकूल कंसेंसस (consensus) मैकेनिज़्म का लाभ उठाता है और साथ ही Zcash की गोपनीयता (privacy) पर केंद्रित विशेषताओं को सुरक्षित रखता है।
 
-RedBridge विभिन्न प्रकार के उपयोग मामलों का समर्थन करता है, जिनमें crosschain decentralized finance (DeFi), private transactions, और liquidity sharing शामिल हैं, जिससे Zcash धारकों को Avalanche ecosystem तक विस्तृत पहुंच मिलती है। यह bridge विकेंद्रीकृत nodes के एक समूह और एक oracle के माध्यम से संचालित होता है, जिसे **ZavaX** कहा जाता है, जो Zcash और Avalanche के बीच विश्वसनीय data transfer और price verification सुनिश्चित करता है।
+RedBridge कई उपयोग के मामले (use cases) सपोर्ट करता है, जिनमें क्रॉस-चेन (cross-chain) डिसेंट्रलाइज़्ड फ़ाइनेंस (DeFi), निजी लेनदेन (transactions) और लिक्विडिटी शेयरिंग शामिल हैं। इससे Zcash धारक Avalanche इकोसिस्टम तक कहीं ज़्यादा आसानी से पहुँच पाते हैं। यह ब्रिज डिसेंट्रलाइज़्ड नोड (nodes) के एक समूह और **ZavaX** नाम के एक ओरेकल (oracle) के ज़रिए चलता है। यह ओरेकल Zcash और Avalanche के बीच भरोसेमंद डेटा ट्रांसफ़र और कीमत का सत्यापन सुनिश्चित करता है।
 
-### Key Features
+### मुख्य विशेषताएँ
 
-Privacy Preserving Interoperability: Zcash उपयोगकर्ताओं को Avalanche पर DeFi applications का उपयोग करते समय privacy बनाए रखने की अनुमति देता है।
-Decentralized Oracle ZavaX: एक oracle system को एकीकृत करता है ताकि सटीक ZEC/AVAX price data सुनिश्चित किया जा सके, जिससे trustless crosschain operations संभव हों।
-Scalable and Eco Friendly: Avalanche के consensus model का उपयोग करता है, जो न्यूनतम पर्यावरणीय प्रभाव के साथ high speed transactions प्रदान करता है।
-Support for DeFi and DApps: Zcash धारक अब privacy से समझौता किए बिना Avalanche पर विभिन्न DeFi platforms में भाग ले सकते हैं।
+गोपनीयता बनाए रखने वाली इंटरऑपरेबिलिटी: Zcash उपयोगकर्ता Avalanche पर DeFi ऐप्लिकेशन इस्तेमाल करते हुए भी अपनी गोपनीयता बनाए रख सकते हैं।
+डिसेंट्रलाइज़्ड ओरेकल ZavaX: इसमें एक ओरेकल सिस्टम जुड़ा है, जो ZEC/AVAX की कीमत का सटीक डेटा देता है। इससे ट्रस्टलेस क्रॉस-चेन ऑपरेशन संभव होते हैं।
+स्केलेबल और पर्यावरण-अनुकूल: यह Avalanche के कंसेंसस मॉडल का उपयोग करता है, जिससे पर्यावरण पर न्यूनतम असर के साथ तेज़ लेनदेन होते हैं।
+DeFi और DApp के लिए सपोर्ट: Zcash धारक अब अपनी गोपनीयता से समझौता किए बिना Avalanche पर अलग-अलग DeFi प्लेटफ़ॉर्म में भाग ले सकते हैं।
 
-### Technical Components
+### तकनीकी घटक
 
-**Decentralized ZavaX Oracle**
-विवरण: ZavaX Oracle bridge के लिए अत्यंत महत्वपूर्ण है, जो crosschain price feeds प्रदान करता है और trustless ZEC से AVAX conversions को सक्षम बनाता है।
-[Oracle का लिंक](https://zavax-oracle.red.dev)
+**डिसेंट्रलाइज़्ड ZavaX Oracle**
+विवरण: ZavaX Oracle इस ब्रिज का अहम हिस्सा है। यह क्रॉस-चेन प्राइस फ़ीड देता है और ZEC से AVAX में ट्रस्टलेस रूपांतरण संभव बनाता है।
+[ओरेकल का लिंक](https://zavax-oracle.red.dev)
 
-**Cross Chain Bridge Contract**
-विवरण: smart contract architecture जो Zcash Avalanche bridge को समर्थन देता है, ZEC के deposits, conversions, और withdrawals को संभालता है।
+**क्रॉस-चेन ब्रिज कॉन्ट्रैक्ट**
+विवरण: Zcash Avalanche ब्रिज को सपोर्ट करने वाला स्मार्ट कॉन्ट्रैक्ट (smart contract) आर्किटेक्चर। यह ZEC के डिपॉज़िट, रूपांतरण और निकासी को संभालता है।
 
-**Privacy Layer Integration**
-विवरण: यह सुनिश्चित करता है कि bridging process के दौरान Zcash की privacy features सुरक्षित रहें, जिससे private crosschain transactions संभव हों।
+**गोपनीयता लेयर का इंटीग्रेशन**
+विवरण: यह सुनिश्चित करता है कि ब्रिजिंग की पूरी प्रक्रिया के दौरान Zcash की गोपनीयता विशेषताएँ बनी रहें, ताकि क्रॉस-चेन लेनदेन निजी रह सकें।
 
-## Deliverables and Documentation
+## डिलिवरेबल और डॉक्यूमेंटेशन
 
-**Avalanche पर Zcash Elastic Subnet Bridge**: [Grant Proposal](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
-नीचे Zcash Avalanche RedBridge project के लिए पूर्ण किए गए प्रमुख deliverables और technical resources दिए गए हैं:
+**Avalanche पर Zcash इलास्टिक सबनेट ब्रिज**: [ग्रांट प्रस्ताव](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
+नीचे Zcash Avalanche RedBridge प्रोजेक्ट के लिए पूरे किए गए मुख्य डिलिवरेबल और तकनीकी संसाधन दिए गए हैं:
 
-Deliverable 1.1: प्रारंभिक PoC जो testnet Avalanche subnet से एक CLI के माध्यम से testnet Zcash transactions को query करने का समर्थन करता है, GitHub पर प्रकाशित, और Avalanche testnet पर one node subnet के साथ। https://github.com/red-dev-inc/zavax-oracle
+डिलिवरेबल 1.1: प्रारंभिक PoC, जो CLI की मदद से टेस्टनेट Avalanche सबनेट से टेस्टनेट Zcash लेनदेन की क्वेरी सपोर्ट करता है। यह GitHub पर प्रकाशित है और Avalanche टेस्टनेट पर एक नोड वाले सबनेट के साथ चलता है। https://github.com/red-dev-inc/redbridge-oracle
 
-Deliverable 2.1: [Architecture](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+डिलिवरेबल 2.1: [आर्किटेक्चर](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
-### Milestone 3 March 31, 2024
+### माइलस्टोन 3, 31 मार्च 2024
 
-Deliverable 3.1 पूर्ण हो चुका है, जिसमें ZavaX bridge में threshold signatures के लिए BLS की बजाय FROST अपनाने पर हमारा विश्लेषण प्रस्तुत किया गया है। यह बदलाव Zcash Foundation की audited libraries का लाभ उठाता है और बेहतर integration तथा security को सक्षम बनाता है। https://github.com/ZcashFoundation/frost
+डिलिवरेबल 3.1 पूरा हो गया है। इसमें ZavaX ब्रिज में थ्रेशोल्ड सिग्नेचर (threshold signatures) के लिए BLS की जगह FROST अपनाने पर हमारा विश्लेषण दिया गया है। इस बदलाव से Zcash Foundation की ऑडिट की गई लाइब्रेरी का लाभ मिलता है, और इंटीग्रेशन तथा सुरक्षा दोनों बेहतर होते हैं। https://github.com/ZcashFoundation/frost
 
-Deliverable 3.2 GUI के लिए UX और UI design पूर्ण हो चुका है, जिसमें ZavaX Oracle subnet के लिए हमारे security enhancements का विवरण दिया गया है, जिन्हें penetration testing results का समर्थन प्राप्त है। अधिक जानकारी के लिए, जिसमें server configuration और testing outcomes शामिल हैं, देखें [Security Assesment](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Audit Report](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
-इसके अतिरिक्त, टीम ने ZavaX से redbridge के रूप में rebrand किया और अपने staking token को ZAX से RBR में बदल दिया।
+डिलिवरेबल 3.2 के तहत GUI का UX और UI डिज़ाइन पूरा हो गया है। इसमें ZavaX Oracle सबनेट के लिए किए गए सुरक्षा सुधारों का विवरण है, जिनकी पुष्टि पेनिट्रेशन टेस्टिंग के परिणामों से होती है। सर्वर कॉन्फ़िगरेशन और टेस्टिंग के परिणामों समेत ज़्यादा जानकारी के लिए देखें: [सुरक्षा आकलन](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[ऑडिट रिपोर्ट](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
+इसके अलावा, टीम ने अपना नाम ZavaX से बदलकर redbridge कर दिया और अपना स्टेकिंग (staking) टोकन (token) ZAX से बदलकर RBR कर दिया।
 
-### Milestone 4 April 30, 2024
-Deliverable 4.1 Zcash और Avalanche testnets पर पूर्णतः कार्यशील deployment, 3 validator Subnet के साथ, CLI support सहित
+### माइलस्टोन 4, 30 अप्रैल 2024
+डिलिवरेबल 4.1 Zcash और Avalanche टेस्टनेट पर पूरी तरह काम करने वाली डिप्लॉयमेंट, 3 वैलिडेटर वाले सबनेट और CLI सपोर्ट के साथ
 
-### Milestone 5 May 31, 2024
-Deliverable 5.1 GUI: Core या Webapp में bridge integration
+### माइलस्टोन 5, 31 मई 2024
+डिलिवरेबल 5.1 GUI: Core या वेबऐप में ब्रिज का इंटीग्रेशन
 
-Milestone 6 June 30, 2024
-Deliverable 6.1 software audit का सफलतापूर्वक पास होना
-Deliverable 6.2 audited source code को एक public GitHub repo में प्रकाशित करना
+माइलस्टोन 6, 30 जून 2024
+डिलिवरेबल 6.1 सॉफ़्टवेयर ऑडिट में सफलता
+डिलिवरेबल 6.2 ऑडिट किए गए सोर्स कोड को एक सार्वजनिक GitHub रिपॉज़िटरी में प्रकाशित करना
 
-[GitHub repo](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) पर एक नज़र डालें
+[GitHub रिपॉज़िटरी](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture) देखें
   
-अधिक technical details के लिए, उपयोगकर्ताओं को RedBridge project के repository और documentation की समीक्षा करने के लिए प्रोत्साहित किया जाता है ताकि वे integration specifics, testing frameworks, और security protocols को [explore](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) कर सकें।
+ज़्यादा तकनीकी जानकारी के लिए आप RedBridge प्रोजेक्ट की रिपॉज़िटरी और डॉक्यूमेंटेशन देखें, ताकि आप इंटीग्रेशन की बारीकियों, टेस्टिंग फ़्रेमवर्क और सुरक्षा प्रोटोकॉल को [एक्सप्लोर](https://github.com/red-dev-inc/red-bridge) कर सकें।
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
-* Deliverables: 
-Q1 2025 में, टीम ने [red·bridge demo website](https://redbridge-demo.red.dev/index.html) के लॉन्च की घोषणा की, जहाँ कोई भी user experience को आज़मा सकता है, feedback दे सकता है, और सुधार सुझा सकता है। यह गैर-तकनीकी लोगों को project से परिचित कराने का एक आसान तरीका भी है।
+* डिलिवरेबल: 
+2025 की पहली तिमाही में टीम ने [red·bridge डेमो वेबसाइट](https://redbridge-demo.red.dev/index.html) लॉन्च करने की घोषणा की। इस पर कोई भी यूज़र एक्सपीरियंस आज़मा सकता है, फ़ीडबैक दे सकता है और सुधार के सुझाव दे सकता है। यह गैर-तकनीकी लोगों को इस प्रोजेक्ट से परिचित कराने का भी आसान तरीका है।
 
-* टीम ने red·bridge के अंतिम संस्करण के लिए Zebra का उपयोग किया। इसका परीक्षण करने के लिए, उन्होंने अपने परीक्षण blockchain, ZavaX Oracle, के तीन में से दो नोड को upgrade किया, जो Avalanche के Fuji testnet पर चलता है। अंतिम नोड भी सफलतापूर्वक upgrade किया गया, और अब [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) अब Zebra पर चल रहा है!
+* टीम ने red·bridge के अंतिम संस्करण के लिए Zebra का उपयोग किया। इसे टेस्ट करने के लिए उन्होंने अपने टेस्ट ब्लॉकचेन ZavaX Oracle के तीन में से दो नोड अपग्रेड किए। यह ब्लॉकचेन Avalanche के Fuji टेस्टनेट पर चलता है। आखिरी नोड भी सफलतापूर्वक अपग्रेड हो गया, और अब [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) Zebra पर चलता है!
 
-* 2025 की Q1 में, red.bridge website को इस तरह code किया गया कि वह प्रारंभिक version, जो केवल red था, की तुलना में red, Dark, Light, और Zebra — ये चार views प्रदान करे।
+* 2025 की पहली तिमाही में red.bridge वेबसाइट को इस तरह कोड किया गया कि वह चार व्यू दे: red, Dark, Light और Zebra। शुरुआती संस्करण में केवल red व्यू था।
 
-* एक और महत्वपूर्ण बात यह है कि टीम दिसंबर 2025 में Avalanche mainnet पर red·bridge L1 को live सक्रिय करेगी। शुरुआत में, यह Zcash blockchain के लिए एक oracle के रूप में काम करेगा और उसके तुरंत बाद Bitcoin के लिए भी। इसमें प्रत्येक request पर gas token के रूप में 0.001 AVAX की लागत आएगी। यह build Avalanche पर किसी भी L1 या smart contract को Zcash और Bitcoin से data को विकेंद्रीकृत तरीके से कम लागत पर query करने में सक्षम बनाएगा।
+* एक और बात यह है कि टीम दिसंबर 2025 में red·bridge L1 को Avalanche मेननेट पर लाइव करेगी। शुरुआत में यह Zcash ब्लॉकचेन के लिए ओरेकल का काम करेगा और उसके कुछ समय बाद Bitcoin के लिए भी। हर अनुरोध की कीमत गैस टोकन में 0.001 AVAX होगी। इस बिल्ड से Avalanche पर कोई भी L1 या स्मार्ट कॉन्ट्रैक्ट कम लागत में और डिसेंट्रलाइज़्ड तरीके से Zcash और Bitcoin का डेटा क्वेरी कर सकेगा।
 
-* Q2 में, टीम ने एक milestone ACP-77 (जिसे Avalanche9000 के नाम से जाना जाता है) Avalanche Foundation को प्रस्तुत किया ताकि red.bridge guardian को चलाना पहले की तुलना में अधिक जल्दी और सभी के लिए अधिक किफायती बनाया जा सके। शुरुआत में, validators को लगभग 2000 AVAX stake करना पड़ता था; हालांकि, Avalanche9000costs के साथ, validators को केवल 1 AVAX (month) की आवश्यकता थी। इसके अतिरिक्त, यह milestone ZF के FROST implementation का उपयोग करने की योजना को भी अंतिम रूप देता है, जो प्रत्येक Guardian को bridge wallet के सुरक्षित, distributed control के लिए एक signing share प्रदान करता है।
+* दूसरी तिमाही में टीम ने Avalanche Foundation को ACP-77 (जिसे Avalanche9000 के नाम से जाना जाता है) से जुड़ा एक माइलस्टोन जमा किया, ताकि red.bridge गार्डियन चलाना जल्दी संभव हो और सभी के लिए ज़्यादा किफ़ायती हो। पहले वैलिडेटर को लगभग 2000 AVAX स्टेक करने पड़ते थे, लेकिन Avalanche9000 की लागत के साथ वैलिडेटर को केवल 1 AVAX (प्रति माह) की ज़रूरत थी। इसके अलावा, यह माइलस्टोन ZF के FROST इम्प्लीमेंटेशन के उपयोग की योजना को भी अंतिम रूप देता है। इससे हर गार्डियन को एक साइनिंग शेयर मिलता है, ताकि ब्रिज वॉलेट (wallet) पर सुरक्षित और वितरित नियंत्रण रहे।
 
-* 2026 की Q1 और Q2 में, red.bridge Zcash और Avalanche community members के लिए अपने RBR token (पूर्व में ZAX) airdrop की मेज़बानी करेगा। red.dev के संस्थापक के अनुसार, वे एक incentivized testnet आयोजित करेंगे जहाँ उपयोगकर्ताओं को bridge के परीक्षण में मदद करते हुए RBR कमाने का अवसर मिलेगा।
+* 2026 की पहली और दूसरी तिमाही में red.bridge Zcash और Avalanche समुदाय के सदस्यों के लिए अपने RBR टोकन (पहले ZAX) का एयरड्रॉप आयोजित करेगा। red.dev के संस्थापक के अनुसार, वे एक इंसेंटिवाइज़्ड टेस्टनेट भी चलाएँगे, जिसमें उपयोगकर्ता ब्रिज को टेस्ट करने में मदद करते हुए RBR कमा सकेंगे।

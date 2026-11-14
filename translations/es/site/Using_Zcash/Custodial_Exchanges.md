@@ -8,6 +8,19 @@ Ironwood es el pool blindado [shielded pool] que llegó con la actualización de
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Logo de AltQuick" width="200" height="100"/>
+</a>
+
+- Sitio web: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Pares: ZEC/BTC
+- Admite: Transparente
+- Tiempo de depósito: Unos 30 minutos (24 confirmaciones)
+- Ironwood: No aplica, solo direcciones transparentes
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">

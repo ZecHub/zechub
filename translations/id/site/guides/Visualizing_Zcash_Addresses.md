@@ -6,8 +6,8 @@
 # Memvisualisasikan Alamat Zcash
 
 Jika kamu baru pertama kali mempelajari Zcash, kamu akan segera menyadari bahwa ada dua jenis [transaksi](https://zechub.wiki/using-zcash/transactions) yang dapat terjadi: *transparan* dan *terlindungi*.
-Selain itu, jika kamu telah mengikuti perkembangan terbaru dalam ekosistem Zcash, kamu mungkin telah mempelajari tentang [Unified Addresses](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), atau UA.
-Ketika orang-orang di industri Zcash berbicara tentang transaksi *terlindungi*, yang mereka maksud adalah transaksi yang melibatkan alamat yang dikodekan untuk protokol sapling atau orchard.
+Selain itu, jika kamu telah mengikuti perkembangan terbaru dalam ekosistem Zcash, kamu mungkin telah mempelajari tentang [Alamat Terpadu](https://zips.z.cash/zip-0316), atau UA.
+Ketika orang-orang di industri Zcash berbicara tentang transaksi *terlindungi*, yang mereka maksud adalah transaksi yang melibatkan alamat yang dikodekan untuk protokol Sapling atau Orchard.
 UA dirancang untuk menyatukan *setiap* jenis transaksi terlindungi maupun transparan ke dalam satu alamat tunggal. Generalisasi ini adalah kunci untuk menyederhanakan UX di masa depan. Tujuan dari panduan ini adalah untuk melengkapi pemahaman tentang UA dengan contoh visual yang konkret.
 
 ## Jenis-jenis alamat Zcash

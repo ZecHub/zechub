@@ -6,14 +6,14 @@ Zcash의 온체인 자금 조달 모델, 블록 보상 메커니즘, 그리고 �
 
 Zcash는 작업증명(Proof-of-Work) 암호화폐입니다. 채굴되는 모든 블록은 네트워크 업그레이드로 정해진 고정된 프로토콜 규칙에 따라 **블록 보조금**(새로 생성된 ZEC)과 거래 수수료를 분배합니다.
 
-- **현재 모델 (NU6 이후 / 2024년 11월 이후)**  
-  2026년 4월 기준 분배는 다음과 같습니다:
+- **현재 모델 (NU6.1 / 2025년 11월 24일 이후)**  
+  분배는 다음과 같습니다:
 
 | 수령 주체 | 비율 | 자금 용도 / 상태 |
 |--------------------------------|------------|-------------------------------------------------------------|
 | 채굴자 | 80% | 채굴자에게 직접 지급되는 블록 보상 |
 | Zcash Community Grants (ZCG) | 8% | 커뮤니티 보조금 (~2028년까지 계속) |
-| Lockbox (프로토콜 제어) | 12% | 자금이 축적 중이며 아직 지출 메커니즘은 없음; 향후 커뮤니티 투표 필요 |
+| 코인 보유자 관리 기금 | 12% | 기존 Lockbox의 자금으로 조성됨; 코인 보유자가 보조금에 투표 ([ZIP 1016](https://zips.z.cash/zip-1016)) |
 
 - **NU6 이전의 과거 개발 기금 (2020년-2024년 11월)**  
   모든 블록 보조금의 20%가 개발 조직에 직접 지급되었습니다:
@@ -22,18 +22,18 @@ Zcash는 작업증명(Proof-of-Work) 암호화폐입니다. 채굴되는 모든 
   - 5% -> Zcash Foundation (ZF)  
   - 8% -> Zcash Community Grants (ZCG)
 
-이 20% “개발 기금(dev fund)”은 [ZIP 1015](https://zips.z.cash/zip-1015)를 통해 8% ZCG + 12% lockbox 모델로 대체되었습니다.
+이 20% “개발 기금(dev fund)”은 [ZIP 1015](https://zips.z.cash/zip-1015)(NU6, 2024년 11월)를 통해 8% ZCG + 12% lockbox 모델로 대체되었습니다. 2024년 11월부터 2025년 11월까지 12%는 지출할 방법이 없는 상태로 Deferred Dev Fund Lockbox에 적립되었습니다.
 
-### 제안된 발전 방향: ZIP 1016 - 커뮤니티 및 코인 보유자 자금 조달 모델
-ZIP 1016(2025년 2월 제안, 상태: Proposed)은 더 탈중앙화된 자금 조달 모델을 도입합니다. 이 제안은 다음을 포함합니다:
+### 현재 모델: ZIP 1016 - 커뮤니티 및 코인 보유자 자금 조달 모델
+ZIP 1016(2025년 2월 작성)은 2025년 11월 24일 블록 3,146,400에서 [NU6.1](/zcash-tech/nu6-1)에 의해 메인넷에서 활성화되었습니다([ZIP 255](https://zips.z.cash/zip-0255)). 이 모델은 다음과 같습니다:
 - ZCG에 대한 8% 배정을 계속 유지합니다.
-- 12% lockbox를 “Coinholder-Controlled Fund”로 전환합니다(기존 lockbox 자금 + 지속적인 12% 블록 보조금으로 조성).
-- 이 모델을 세 번째 반감기까지(약 3년) 활성화합니다.
-- 커뮤니티가 정의한 절차에 따라 ZEC 코인 보유자가 분기마다 보조금에 투표할 수 있도록 권한을 부여합니다(단순 과반수, 최소 정족수 420,000 ZEC).
+- 12% lockbox를 “Coinholder-Controlled Fund”로 전환했습니다(기존 lockbox 자금 + 지속적인 12% 블록 보조금으로 조성).
+- 세 번째 반감기까지 운영됩니다(NU7이 블록 타이밍을 변경하면 ZIP에 따라 해당 날짜가 조정될 수 있습니다).
+- ZEC 코인 보유자가 보조금에 투표할 수 있도록 합니다(단순 과반수, 최소 420,000 ZEC 투표 참여).
 - Key-Holder Organizations(현재 ZF와 Shielded Labs 포함, 보조금 맥락에서는 Bootstrap/ECC도 언급됨)가 법적 계약과 코인 보유자 결정에 구속되는 멀티시그를 통해 자금 집행을 관리하도록 요구합니다.
 - lockbox 사용에 관한 ZIP 1015의 모든 요구사항(생태계 보조금 지원)을 유지합니다.
 
-이 제안은 12% 배정분의 통제를 조직 중심에서 직접적인 코인 보유자 거버넌스로 전환하는 것을 목표로 합니다. 이는 ZIP 절차나 상표 규칙은 변경하지 않습니다.
+이 모델은 12% 배정분의 통제를 조직 중심에서 직접적인 코인 보유자 거버넌스로 전환합니다. 이는 ZIP 절차나 상표 규칙은 변경하지 않습니다.
 
 ## 2. 핵심 조직과 그 자금 출처
 
@@ -59,7 +59,7 @@ ZIP 1016(2025년 2월 제안, 상태: Proposed)은 더 탈중앙화된 자금 �
 - NU6 이후 더 이상 직접적인 프로토콜 자금을 받지 않습니다. 기부와 보조금에 의존합니다.  
 - Zcash 상표를 보유하고 있으며(ECC가 2019년에 기부), 거버넌스에서 중심적인 역할을 합니다.  
 - Zcash Community Advisory Panel (ZCAP)을 운영하며 커뮤니티 여론조사를 촉진하는 데 도움을 줍니다.  
-- 제안된 ZIP 1016 하에서 Key-Holder Organization으로 활동합니다.  
+- ZIP 1016 하에서 Key-Holder Organization으로 활동합니다.  
 -> 전체 프로필 보기: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
 -> 공식 사이트: [zfnd.org](https://zfnd.org/)
 
@@ -83,7 +83,7 @@ ZIP 1016(2025년 2월 제안, 상태: Proposed)은 더 탈중앙화된 자금 �
 - 스위스에 기반을 둔 독립적이며 기부금으로 운영되는 Zcash 지원 조직입니다.  
 - Zcash 생태계에서 Development Fund나 블록 보상으로부터 직접 또는 간접 자금을 받은 적이 한 번도 없는 최초의 조직입니다.  
 - ZEC 보유자에게 이익이 되는 이니셔티브에 집중하며, Zcash의 방향을 형성하는 데 있어 보유자들의 목소리를 우선시합니다.  
-- 제안된 ZIP 1016 하에서 Coinholder-Controlled Fund 운영을 위한 Key-Holder Organization으로 활동합니다.  
+- ZIP 1016 하에서 Coinholder-Controlled Fund 운영을 위한 Key-Holder Organization으로 활동합니다.  
 - 프로토콜 개발, ZIP 절차, 거버넌스(ZIP 편집자 대표 포함)에 기여합니다.  
 -> 전체 프로필 보기: [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
 -> 공식 사이트: [shieldedlabs.net](https://shieldedlabs.net/)
@@ -95,8 +95,8 @@ Zcash 거버넌스는 “온체인 프로토콜 규칙”과 “오프체인 사
 1. **ZIP 절차 (Zcash Improvement Proposals)**  
    - 누구나 ZIP을 제출할 수 있습니다.  
    - 포럼, Discord, GitHub에서 공개 토론이 이루어집니다.  
-   - ZIP Editors(현재는 개인 자격의 Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe, ZF의 Arya, 그리고 Shielded Labs 대표들)가 검토하고 채택 여부를 결정합니다.  
-   - 채택된 ZIP은 다음 네트워크 업그레이드에 포함됩니다.
+   - 현재 ZIP Editors는 Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe(개인 자격), Arya와 Marek(Zcash Foundation), Mark Henderson과 Sam H. Smith(Shielded Labs), Sean Bowe와 Tal Derei(Project Tachyon), 그리고 Dev Ojha(Valar Group)입니다.
+   - ZIP 승인이 다음 네트워크 업그레이드에의 포함을 자동으로 확정하지는 않습니다. 합의(Consensus) ZIP에는 배포 계획과 구현이 필요하며, 그 규칙은 지정된 네트워크 업그레이드 높이에서 활성화됩니다.
 
 2. **상표 계약 (2019-2024)**  
    - ECC는 2019년에 Zcash 상표를 ZF에 기부했습니다.  
@@ -109,25 +109,25 @@ Zcash 거버넌스는 “온체인 프로토콜 규칙”과 “오프체인 사
    - 주요 결정에 대한 구속력 없는 커뮤니티 여론조사에 사용됩니다.
 
 4. **온체인 비준**  
-   - 네트워크 업그레이드가 배포되면, 네트워크 해시레이트의 과반수가 이를 채택해야 합니다(합의가 이루어지면 하드포크 위험 없음).
+   - 네트워크 업그레이드는 미리 정해진 블록 높이에서 활성화됩니다. 호환되는 소프트웨어를 실행하는 노드는 해당 높이부터 새로운 합의 규칙을 적용합니다. 업그레이드하지 않은 노드는 업그레이드 이전의 합의 브랜치를 계속 따를 수 있으며, 이로 인해 체인 분할이 발생할 수 있습니다.
 
-5. **미래 방향 - Lockbox와 ZIP 1016**  
-   - 12% lockbox 자금은 프로토콜 내에 계속 축적되고 있습니다.  
-   - ZIP 1016은 이를 Coinholder-Controlled Fund로 전환하고, 분기별 코인 보유자 투표와 Key-Holder Organizations(현재 ZF와 Shielded Labs가 명시됨)의 멀티시그 관리를 도입할 것을 제안합니다.
+5. **Lockbox와 ZIP 1016**  
+   - 12% lockbox 자금은 2024년 11월부터 2025년 11월까지 프로토콜 내에 축적되었습니다.  
+   - NU6.1은 이 자금을 Coinholder-Controlled Fund로 전환했으며, 코인 보유자 투표와 Key-Holder Organizations(현재 ZF와 Shielded Labs가 명시됨)의 멀티시그 관리를 도입했습니다.
 
 ## 4. 빠른 참조 표 - 자금 조달의 변화
 
 | 기간 | 채굴자 | ECC/Bootstrap | ZF | ZCG | Lockbox | 비고 |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
 | 2020년 - 2024년 11월 | 80% | 7% | 5% | 8% | - | 전통적인 개발 기금 |
-| 2024년 11월 - 현재 | 80% | 0% | 0% | 8% | 12% | NU6 모델 + ZCG 연장 |
-| 제안안 (ZIP 1016) | 80% | 0% | 0% | 8% | 12% (Coinholder-Controlled) | 3번째 반감기까지; 코인 보유자 투표 |
+| 2024년 11월 - 2025년 11월 | 80% | 0% | 0% | 8% | 12% | NU6 모델 + ZCG 연장 |
+| 2025년 11월 - 현재 (ZIP 1016) | 80% | 0% | 0% | 8% | 12% (코인 보유자 관리) | NU6.1; 3번째 반감기까지; 코인 보유자 투표 |
 
 ## 5. 관련 자료
 
 - 공식 자금 조달 설명 -> [z.cash/network 자금 조달 섹션](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (NU6 자금 조달 변경) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
-- ZIP 1016 (제안된 코인 보유자 모델) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
+- ZIP 1016 (코인 보유자 모델, NU6.1부터 시행 중) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Zcash 개선 제안 -> [zips.z.cash](https://zips.z.cash)  
 - Zcash Community Grants 포털 -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 

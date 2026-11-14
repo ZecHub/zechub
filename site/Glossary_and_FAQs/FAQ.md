@@ -45,7 +45,7 @@ You can also purchase Zcash peer-to-peer or acquire it by mining.
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash is fundamentally more private than Bitcoin or Ethereum. It offers fast block times (75 seconds), low fees, and regular upgrades.
+Zcash is fundamentally more private than Bitcoin or Ethereum. It offers fast block times (25 seconds since NU7 activated in November 2026, down from 75 seconds), low fees, and regular upgrades.
 
 Users can choose between **Transparent** or **Shielded** transactions. For more information see [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem).
 
@@ -70,7 +70,7 @@ Decisions are written into the specification and ratified on-chain when the netw
 
 First read [our guide to block explorers](/guides/blockchain-explorers). Then check [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Transactions expire after approximately 25 minutes (20 blocks) and funds are returned automatically.
+There is no fixed 25-minute expiry or automatic refund timer. Check the expiry height recorded by your wallet and whether the original payment was mined. If it expired without being mined, it did not settle on-chain; expiry does not create a refund transaction. Let the wallet sync before following its retry guidance. See [transaction troubleshooting](/using-zcash/transactions#troubleshooting-stuck-transactions) and [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Common reasons a transaction may not appear:**
 

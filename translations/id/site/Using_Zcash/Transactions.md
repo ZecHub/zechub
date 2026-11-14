@@ -64,36 +64,72 @@ Bagian pentingnya adalah Zcash memungkinkan kamu memutuskan mana yang akan dikir
 
 ## Biaya Zcash
 
-Zcash tidak menggunakan unit gas ala Ethereum. Biaya transaksi Zcash dibayarkan dalam ZEC, yang biasanya diukur dalam **zatoshis**. Satu ZEC sama dengan 100.000.000 zatoshis.
+Biarkan dompet kamu menghitung biaya jaringan, lalu periksa biaya tersebut sebelum mengirim. Biaya dibayarkan dalam ZEC: **1 ZEC = 100.000.000 zatoshis**. Biaya dalam dolar AS juga bergantung pada nilai tukar ZEC.
 
-[ZIP 317](https://zips.z.cash/zip-0317) mendefinisikan mekanisme biaya konvensional yang berskala sesuai dengan kompleksitas transaksi. Alih-alih setiap transaksi menggunakan biaya tetap 1.000 zatoshi yang lama, biaya konvensional didasarkan pada "tindakan logis" seperti input, output, dan tindakan terlindungi. Transaksi sederhana biasanya dimulai sekitar 10.000 zatoshis, atau 0,0001 ZEC, dan transaksi yang lebih kompleks dapat membutuhkan lebih banyak lagi.
+### Mengapa dua pembayaran bisa memiliki biaya yang berbeda
 
-Di sebagian besar dompet saat ini, pengguna tidak perlu menghitung biaya ZIP 317 secara manual. Dompet tersebut harus memilih biaya yang sesuai secara otomatis. Jika sebuah dompet masih menggunakan biaya tetap lama atau membiarkan kamu menetapkan biaya jauh di bawah biaya konvensional ZIP 317, transaksi tersebut mungkin akan tertunda, dideprioritaskan, dibuang oleh beberapa node, atau gagal diteruskan dengan andal.
+[ZIP 317](https://zips.z.cash/zip-0317#fee-calculation) menghitung biaya konvensional berdasarkan **aksi logis**, bukan berdasarkan persentase dari jumlah yang dikirim:
+
+```text
+fee in zatoshis = marginal fee × max(2, logical actions)
+```
+
+Logical action mengukur komponen transaksi. Sebagai contoh, transaksi yang hanya menggunakan Orchard memakai jumlah action Orchard-nya; transaksi yang hanya menggunakan Sapling memakai nilai yang lebih besar antara jumlah spend dan jumlah output-nya. Kontribusi dari pool yang berbeda dijumlahkan. Komponen transparan menggunakan perhitungan berbasis ukuran. Lihat ZIP 317 untuk rumus lengkapnya, termasuk Ironwood dan Sprout lama.
+
+Membelanjakan banyak note kecil yang diterima atau menggunakan beberapa pool karena itu bisa memakan biaya lebih besar daripada pembayaran yang lebih sederhana dengan nilai yang sama. Jumlah penerima saja tidak bisa dijadikan kalkulator biaya: kembalian dan padding juga berpengaruh.
+
+Contoh-contoh ini dimulai dengan jumlah aksi logis yang sudah dihitung:
+
+| Aksi logis | Dengan 5.000 zatoshi per aksi | Dengan 1.000 zatoshi per aksi |
+| --- | --- | --- |
+| 2 | 10.000 zatoshi / 0,0001 ZEC | 2.000 zatoshi / 0,00002 ZEC |
+| 3 | 15.000 zatoshi / 0,00015 ZEC | 3.000 zatoshi / 0,00003 ZEC |
+| 10 | 50.000 zatoshi / 0,0005 ZEC | 10.000 zatoshi / 0,0001 ZEC |
+
+### Biaya marginal mana yang berlaku
+
+**Diperiksa 11 November 2026:** ZIP 317 mencantumkan revisi 2 dan [ZIP 2009](https://zips.z.cash/zip-2009) sebagai usulan. Sebelum revisi 2, biaya marginal adalah 5.000 zatoshi. Revisi 2 menetapkan 1.000, sehingga biaya minimumnya menjadi 2.000 zatoshi, bukan 10.000.
+
+Proposal ini menetapkan ketinggian Mainnet **3,590,000**, yang diperkirakan tercapai sekitar 19 November 2026, dan ketinggian Testnet **4,465,026**. Perkiraan tanggal di kalender bukanlah syarat aktivasi. Bagi dompet, ketinggian yang relevan adalah blok tempat transaksi diperkirakan akan ditambang, sedangkan node menggunakan ketinggian blok berikutnya. Periksa kembali spesifikasi yang ditautkan dan panduan rilis dompetmu seiring perubahan pada proses deployment.
+
+Jangan memaksakan biaya yang lebih rendah secara manual hanya karena sebuah proposal atau rilis software menyebutkannya. ZIP 2009 mengharuskan node menerapkan kebijakan relay yang baru sebelum dompet mengadopsi biaya tersebut; node yang masih menggunakan parameter lama dapat menolak me-relay transaksi dengan biaya yang lebih rendah. Testnet dan Mainnet juga memiliki ketinggian aktivasi yang berbeda.
+
+### Jika perkiraannya terlihat salah
+
+Pastikan dompetmu sudah diperbarui dan tersinkronisasi. Bandingkan biaya jaringannya dengan biaya penarikan dari layanan pengirim secara terpisah: kutipan biaya dari layanan bukanlah rumus ZIP 317. Untuk pembayaran yang masih tertunda, ikuti [langkah pemecahan masalah di bawah ini](#troubleshooting-stuck-transactions) sebelum mengirim ulang.
+
+ZIP 317 adalah kebijakan dompet dan node, bukan aturan konsensus yang mewajibkan biaya persis seperti ini. Membayar biaya konvensional meningkatkan kompatibilitas relay, tetapi tidak menjamin waktu konfirmasi.
 
 ## Mengatasi Transaksi yang Tertahan
 
 Sebuah transaksi Zcash tidak bersifat final hanya karena muncul di dompet kamu. Transaksi tersebut menjadi final untuk penggunaan biasa setelah ditambang ke dalam sebuah blok dan menerima konfirmasi yang cukup sesuai dengan situasi kamu. Exchange dan layanan lainnya mungkin memerlukan lebih banyak konfirmasi daripada yang ditampilkan oleh dompet secara default.
 
+Masa kedaluwarsa adalah **tinggi blok**, bukan hitungan mundur tetap. Untuk pembayaran biasa dengan tinggi kedaluwarsa bukan nol, tinggi tersebut adalah blok terakhir tempat pembayaran itu masih bisa ditambang. Misalnya, pembayaran yang kedaluwarsa pada tinggi 3539 masih bisa dimasukkan ke dalam blok 3539, tetapi blok 3540 sudah terlambat. Tinggi kedaluwarsa 0 berarti pembayaran biasa tidak memiliki masa kedaluwarsa. Lihat [ZIP 203](https://zips.z.cash/zip-0203).
+
+Default bukanlah batas waktu yang universal. ZIP 203 menetapkan 40 blok setelah Blossom, kira-kira 50 menit dengan target jarak blok 75 detik. Perubahan NU7 yang diusulkan merekomendasikan 120 blok dengan target jarak blok 25 detik, juga kira-kira 50 menit ([ZIP 218](https://zips.z.cash/zip-0218)). Pengaturan dan implementasi dompet bisa berbeda, dan interval blok yang sebenarnya bervariasi. Periksa expiry height dari transaksi tersebut alih-alih mengatur waktu pengiriman ulang.
+
+Kedaluwarsa tidak membatalkan pembayaran yang sudah ditambang dan tidak membuat transaksi pengembalian dana. Jika transaksi asli kedaluwarsa tanpa ditambang, transaksi itu tidak pernah diselesaikan on-chain. Dompet kamu mungkin perlu melakukan sinkronisasi sebelum menampilkan dana terkait sebagai dana yang dapat dibelanjakan lagi.
+
 Gunakan pohon keputusan ini sebelum mengirim ulang:
 
 1. **Apakah dompet kamu menampilkan ID transaksi?**
-   - Jika tidak, dompet mungkin belum membuat atau menyiarkan transaksi tersebut. Periksa status sinkronisasi, koneksi internet, versi dompet, dan pesan kesalahan apa pun pada dompet.
+   - Jika tidak, dompet mungkin belum membuat atau menyiarkan transaksi tersebut. Periksa status sinkronisasi, koneksi internet, versi dompet, dan pesan kesalahan apa pun dari dompet.
    - Jika ya, salin ID transaksi dan lanjutkan.
 2. **Apakah transaksi sudah dikonfirmasi dalam sebuah blok?**
-   - Jika ya, tunggu jumlah konfirmasi yang diperlukan oleh dompet, exchange, merchant, atau layanan kamu.
+   - Jika ya, tunggu hingga jumlah konfirmasi yang diwajibkan oleh dompet, exchange, merchant, atau layanan kamu tercapai.
    - Jika tidak, lanjutkan.
-3. **Apakah transaksi telah mencapai expiry height miliknya?**
-   - Jika tidak, jangan kirim ulang pembayaran yang sama secara manual. Transaksi asli mungkin masih bisa dikonfirmasi.
-   - Jika ya, transaksi tersebut tidak dapat ditambang setelah expiry height tersebut. Dompet kamu mungkin menandainya sebagai kedaluwarsa atau gagal, dan kamu mungkin perlu membuat transaksi baru.
+3. **Apakah transaksi yang belum ditambang sudah melewati tinggi kedaluwarsa bukan nolnya?**
+   - Jika belum, jangan mengirim ulang pembayaran yang sama secara manual dulu. Transaksi asli mungkin masih bisa terkonfirmasi.
+   - Jika sudah, biarkan dompet melakukan sinkronisasi dan pastikan bahwa transaksi asli tidak ditambang pada atau sebelum tinggi tersebut. Kemudian ikuti panduan dompet untuk membuat transaksi pengganti jika diperlukan.
 4. **Apakah transaksi muncul di satu server atau explorer tetapi tidak di yang lain?**
-   - Anggap ini sebagai masalah visibilitas jaringan, bukan bukti bahwa transaksi telah gagal. Node yang berbeda dapat memiliki tampilan mempool yang berbeda.
-   - Tunggu, sinkronkan ulang dompet kamu, atau beralih ke server terpercaya lainnya jika dompet kamu mendukung hal tersebut.
-5. **Apakah transaksi menghilang setelah muncul sebagai terkonfirmasi?**
-   - Reorganisasi rantai (chain reorganization) singkat dapat untuk sementara menghapus sebuah transaksi dari rantai terbaik.
-   - Tunggu blok berikutnya. Jika transaksi muncul kembali, lanjutkan menunggu konfirmasi. Jika tidak muncul kembali dan kemudian kedaluwarsa, buatlah transaksi baru.
+   - Anggap ini sebagai masalah visibilitas jaringan, bukan bukti bahwa transaksi gagal. Node yang berbeda dapat memiliki tampilan mempool yang berbeda.
+   - Tunggu, sinkronkan ulang dompet kamu, atau beralih ke server tepercaya lain jika dompet kamu mendukungnya.
+5. **Apakah transaksi menghilang setelah sempat terlihat terkonfirmasi?**
+   - Reorganisasi chain singkat dapat menghapus transaksi untuk sementara dari chain terbaik.
+   - Tunggu lebih banyak blok. Jika transaksi muncul kembali, terus tunggu hingga konfirmasi tercapai. Jika tidak muncul kembali dan kemudian kedaluwarsa, buat transaksi baru.
 6. **Apakah dompet meminta kamu untuk mengirim ulang?**
-   - Ikuti panduan terbaru dari dompet hanya setelah memastikan bahwa transaksi sebelumnya telah kedaluwarsa, gagal, atau tidak lagi valid.
-   - Jika kamu ragu, hubungi dukungan sebelum mengirim kembali.
+   - Ikuti panduan dompet saat ini hanya setelah memastikan bahwa transaksi sebelumnya sudah kedaluwarsa, gagal, atau tidak lagi valid.
+   - Jika kamu tidak yakin, tanyakan ke tim dukungan sebelum mengirim lagi.
 
 ## Tertunda, Kedaluwarsa, Dibatalkan, dan Reorged
 

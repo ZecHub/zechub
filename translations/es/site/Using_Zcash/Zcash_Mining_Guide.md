@@ -1,4 +1,33 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+</a>
+
 # Guía de Minado [Mining] de Zcash: Unirse a un Pool de Minado con Hardware Personal
+
+> Apunta tu GPU o ASIC a un pool, comparte el trabajo con otros mineros [miners] y recibe pagos constantes de ZEC en lugar de esperar años para encontrar un bloque [block] en solitario.
+
+## TL;DR
+
+* Zcash usa prueba de trabajo [proof of work] Equihash. Los ASIC dominan la red, por lo que las GPU sirven principalmente para aficionados y pruebas.
+* El minado [mining] en solitario rara vez encuentra un bloque [block] con equipos pequeños. Un pool combina el hashrate y te paga una parte de cada bloque que encuentra.
+* Necesitas tres cosas: una dirección [address] de billetera [wallet] Zcash para los pagos, hardware de minado y software de minado (o el panel [dashboard] integrado del ASIC).
+* Los pools se diferencian por la comisión [fee] (aproximadamente 0-2 %), el método de pago (PPLNS, PPS+), el pago mínimo y la ubicación del servidor.
+* Comprueba primero la rentabilidad: el precio de la electricidad, el coste del hardware y el precio de ZEC deciden si minar sale rentable o no.
+* Ruta avanzada: ejecuta tu propio nodo [node] Zebra y mina contra su RPC `getblocktemplate`.
+
+## Explicación principal
+
+El minado [mining] es la forma en que se crean nuevos bloques [blocks] de Zcash. Los mineros [miners] compiten por resolver un rompecabezas de Equihash; la primera solución válida añade el siguiente bloque y obtiene la recompensa de bloque. Cuanto más hashrate aportes, con más frecuencia ganarás, pero frente a la red actual, un solo equipo doméstico casi nunca ganaría por sí solo.
+
+Un pool de minado (mining pool) resuelve eso. El pool entrega a cada minero fragmentos de trabajo más pequeños llamados shares. Cada share aceptado demuestra que aportaste hashrate. Cuando cualquier miembro del pool encuentra un bloque, la recompensa se reparte según los shares, y recibes el pago automáticamente cuando tu saldo supera el mínimo del pool.
+
+La configuración consta de cinco partes, que se explican paso a paso a continuación:
+
+1. Una dirección de billetera para recibir los pagos.
+2. Hardware: GPUs en un PC, o un ASIC Equihash.
+3. Una cuenta en el pool (o simplemente tu dirección, en los pools sin registro).
+4. Software de minado configurado con el servidor stratum del pool, con `YOUR_ADDRESS.WORKER_NAME` como nombre de usuario.
+5. Monitoreo: shares aceptados, hashrate, temperatura y saldo pendiente de pago.
 
 ## Introducción
 
@@ -107,6 +136,25 @@ Los pools de minado distribuyen el trabajo y comparten las recompensas según el
 ![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
 
 
+### Supervisión del pool Zcash de Foundry
+
+Para los usuarios del pool Foundry Zcash:
+
+- Supervisa el rendimiento del minero a través del panel del pool de Foundry.
+- Comprueba:
+  - Workers activos
+  - Hashrate reportado
+  - Shares aceptados
+  - Recompensas estimadas
+  - Estado de los pagos
+
+Dado que Foundry utiliza un modelo de recompensas PPLNS, las recompensas de minado dependen de las participaciones (shares) aportadas durante la ventana de recompensas del pool y no solo del hashrate instantáneo.
+
+Prácticas de monitoreo recomendadas:
+- Compara el hashrate del panel del ASIC con el hashrate reportado por Foundry.
+- Investiga los shares rechazados, los shares obsoletos (stale shares) o la inestabilidad de la conexión.
+- Mantén una conectividad de red estable, ya que el tiempo de inactividad reduce los shares enviados y las posibles recompensas.
+
 ## Sovright: Pool de Testnet y Red de Retransmisión
 
 Sovright (sovright.com) opera un pool de minado Stratum V2 y una red independiente de retransmisión de bloques. Cumplen tareas diferentes, por lo que se tratan por separado a continuación.
@@ -118,37 +166,19 @@ El pool de Sovright se ejecuta en una testnet pública de Zcash (NU6, Stratum V2
 - No se requiere cuenta para empezar. Dirige un minero Equihash de CPU o ASIC al pool y tus participaciones aparecerán en un panel en vivo.
 - Sovright también publica un proxy Stratum V2 de código abierto para mineros que desean elegir sus propias plantillas de bloque en lugar de limitarse a aceptar los trabajos del pool:
 
-### Supervisión del Pool Foundry Zcash
-
-Para usuarios del Pool Foundry Zcash:
-
-- Supervisa el rendimiento del minero mediante el panel del pool Foundry.
-- Comprueba:
-  - Trabajadores activos
-  - Hashrate informado
-  - Participaciones aceptadas
-  - Recompensas estimadas
-  - Estado de pago
-
-Debido a que Foundry utiliza un modelo de recompensas PPLNS, las recompensas de minado dependen de las participaciones aportadas durante la ventana de recompensas del pool, en lugar de depender solo del hashrate instantáneo.
-
-Prácticas de supervisión recomendadas:
-- Compara el hashrate del panel ASIC con el hashrate informado por Foundry.
-- Investiga las participaciones rechazadas, las participaciones obsoletas o la inestabilidad de conexión.
-- Mantén una conectividad de red estable porque el tiempo de inactividad reduce las participaciones enviadas y las posibles recompensas.
   ```
   git clone https://github.com/sovright/mining-infra
   cd mining-infra
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Dirige tu minero al proxy en lugar de directamente al pool:
+  Apunta tu minero al proxy en lugar de apuntarlo directamente al pool:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  utilizando un nombre de trabajador como `yourname.rig1`.
-- La página de transparencia de Sovright declara una política de «incluir todas» para las transacciones blindadas, a diferencia de algunos pools que las excluyen. Cada bloque recibe una atestación firmada para que la política pueda verificarse de forma independiente.
-- Crea una cuenta en mining.sovright.com (inicio de sesión con Google o correo electrónico) para realizar el seguimiento de tus propios trabajadores en lugar de los datos de muestra del panel.
+  usando un nombre de trabajador [worker] como `yourname.rig1`.
+- La página de transparencia de Sovright declara una política de «incluir todo» para las transacciones blindadas, a diferencia de algunos pools que las filtran. Cada bloque recibe una atestación firmada, de modo que la política se puede verificar de forma independiente.
+- Crea una cuenta en mining.sovright.com (inicio de sesión con Google o correo electrónico) para seguir tus propios trabajadores en lugar de los datos de ejemplo del panel.
 
 ### Red de Retransmisión (relay.sovright.com)
 

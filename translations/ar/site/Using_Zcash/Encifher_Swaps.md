@@ -1,15 +1,28 @@
-# **مبادلة SOL/USDC إلى ZEC باستخدام Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# مبادلة SOL/USDC إلى ZEC باستخدام encrypt.trade
+
+> بادِل SOL أو USDC على Solana إلى ZEC، مع توجيه خطوة العبور بين السلاسل عبر NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*بادِل من Solana إلى Zcash، مع توجيه خطوة العبور بين السلاسل عبر NEAR Intents.*  
+---
+
+## الخلاصة
+
+* [encrypt.trade](https://encrypt.trade/zec) يقوم بتغليف SOL أو USDC في رموز مشفّرة (eSOL/eUSDC)، ثم يبدلها إلى ZEC عبر NEAR Intents.
+* تكون المبالغ مخفية على Solana، لكن عنوان محفظتك واستخدامه للتطبيق يكونان علنيين.
+* لا يُسلَّم ZEC إلا إلى عنوان شفاف (t1/t3)، لذا يكون مرئيًا على سلسلة Zcash إلى أن تقوم بحمايته.
+* احمِ ZEC في محفظتك فور وصوله.
+* يفحص كل من التطبيق وNEAR Intents المحافظ للتحقق من الامتثال.
 
 ---
 
-###  المقدمة  
-[**encrypt.trade**](https://encrypt.trade/zec) هو تطبيق على Solana تديره JMD Labs Inc. يتيح لك مبادلة **SOL أو USDC** على Solana إلى **Zcash (ZEC)**. تُغلَّف رموزك أولًا في إصدارات مشفّرة بحيث تُخفى الكميات على Solana، ثم تُبادَل إلى ZEC عبر NEAR Intents.
+## الشرح الأساسي
+[**encrypt.trade**](https://encrypt.trade/zec) هو تطبيق Solana تديره JMD Labs Inc. يتيح لك مبادلة **SOL أو USDC** على Solana إلى **Zcash (ZEC)**. تُغلَّف رموزك أولًا في نسخ مشفّرة لإخفاء الكميات على Solana، ثم تُبادَل إلى ZEC عبر NEAR Intents.
 
 تكون المبادلة خاصة من بعض النواحي، لكن ليس كلها. تنص [الوثائق](https://docs.encifher.io/docs) الخاصة بالتطبيق على أن تفاعلك مع السلسلة ليس مجهول الهوية: يمكن للناس رؤية أن محفظتك استخدمت التطبيق، ولكن لا يمكنهم معرفة مقدار ما نقلته. يصل ZEC أيضًا إلى عنوان شفاف، ولذلك يظل مرئيًا على سلسلة Zcash إلى أن تقوم بحجبه.
 

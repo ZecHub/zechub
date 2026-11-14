@@ -4,7 +4,7 @@
 
 # Chaves de visualização
 
-Os endereços blindados permitem que você faça transações revelando o mínimo possível na blockchain do Zcash. Então, o que acontece quando *você precisa* mostrar a uma parte específica o que possui ou o que enviou? Cada endereço blindado tem uma chave de visualização que concede acesso de leitura sem conceder a capacidade de gastar. As chaves de visualização foram introduzidas na [ZIP 310](https://zips.z.cash/zip-0310) e adicionadas ao protocolo na atualização da rede Sapling.
+Os endereços blindados permitem que você faça transações revelando o mínimo possível na blockchain do Zcash. Então, o que acontece quando *você precisa* mostrar a uma parte específica o que possui ou o que enviou? Uma chave de visualização concede acesso de leitura sem conceder a capacidade de gastar. As chaves de visualização já existiam para Sprout; Sapling adicionou recursos como detectar quando uma note recebida é gasta. [ZIP 310](https://zips.z.cash/zip-0310) é um rascunho informativo que documenta as propriedades de segurança das chaves de visualização Sapling, não a atualização que introduziu as chaves de visualização.
 
 Uma chave de visualização é a ferramenta de divulgação seletiva: você escolhe quem vê o quê e nunca concede autoridade de gasto ao fazer isso.
 
@@ -12,7 +12,7 @@ Uma chave de visualização é a ferramenta de divulgação seletiva: você esco
 
 Uma chave de visualização concede acesso **somente de leitura** à atividade de um endereço ou conta blindada do Zcash: quem a detém pode ver transações recebidas (e, no caso de chaves de visualização completas, enviadas), mas nunca pode gastar.
 
-- **O que é:** a ferramenta de divulgação seletiva dos pools blindados. Introduzida na [ZIP 310](https://zips.z.cash/zip-0310), adicionada ao protocolo na atualização da rede Sapling.
+- **O que é:** a ferramenta de divulgação seletiva dos pools blindados, com capacidades que variam conforme o pool e o tipo de chave. [ZIP 310](https://zips.z.cash/zip-0310) documenta o que uma chave de visualização completa Sapling revela e quais informações são garantidas, não verificadas, indefinidas ou não reveladas.
 - **O que concede:** detecção de depósitos (chaves de entrada `uivk…`) ou visibilidade total de entradas/saídas para uma conta (chaves de visualização completas unificadas `uview…`), e chaves Sapling `zxviews…` legadas.
 - **O que não concede:** autoridade de gasto. Nada que um detentor de chave de visualização faça pode mover fundos.
 - **Onde funciona hoje:** exportação/importação na [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) e contas somente para consulta em carteiras como Zkool; consulte a página [Carteiras](/using-zcash/wallets) para a matriz de suporte atual.
@@ -173,7 +173,7 @@ Como a migração [ZIP 318](https://zips.z.cash/zip-0318) é uma série aleatori
 - [Ironwood](/zcash-tech/ironwood) — o pool blindado NU6.3 para o qual Orchard migra
 - [A catraca](/zcash-tech/the-turnstile) — o mecanismo de migração de Orchard para Ironwood que os observadores podem acompanhar
 - [Carteiras](/using-zcash/wallets) — o diretório completo de carteiras, suporte para chaves de visualização e preparação para Ironwood
-- [Exportar histórico de transações de uma chave de visualização](/guides/viewing-key-transaction-export) — transformar uma chave importada em um arquivo completo de histórico de txid/taxa/memorando
+- [Exportar histórico de transações de uma Viewing Key](/guides/viewing-key-transaction-export) — transformar uma chave importada em um arquivo completo de histórico de txid/taxa/memorando
 
 ## Recursos
 

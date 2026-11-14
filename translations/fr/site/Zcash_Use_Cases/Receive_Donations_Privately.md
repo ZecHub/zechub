@@ -1,4 +1,4 @@
-# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="icône finance"/> Recevoir des dons en privé avec Zcash
+# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Recevoir des dons en toute confidentialité avec Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -6,29 +6,29 @@
 </span>
 
 
-## TL;DR
+## En bref
 
-- Utilisez une **adresse blindée (z)**
+- Utilisez une **adresse protégée (z)**
 - Ne partagez jamais publiquement une adresse transparente (t)
-- Encouragez les donateurs à envoyer depuis des portefeuilles blindés
-- Évitez de lier votre identité à des transactions
+- Encouragez les donateurs à envoyer depuis des portefeuilles protégés
+- Évitez de lier votre identité à vos transactions
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône utilisateur"/> À qui s’adresse ce guide ?
-- Créateurs qui acceptent des dons
-- Contributeurs open source
-- Communautés qui collectent des fonds
-- Toute personne souhaitant recevoir un soutien financier privé
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> À qui s'adresse ce guide ?
+- Aux créateurs qui acceptent des dons
+- Aux contributeurs open source
+- Aux communautés qui collectent des fonds
+- À toute personne souhaitant un soutien financier confidentiel
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône avertissement"/> Le problème
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Le problème
 
 La plupart des cryptomonnaies exposent tout :
 - Le solde de votre portefeuille
-- Qui vous a envoyé de l’argent
-- L’historique complet de vos transactions
+- Qui vous a envoyé de l'argent
+- L'intégralité de votre historique de transactions
 
 Cela crée des risques sérieux :
 - Perte de confidentialité financière
@@ -37,85 +37,85 @@ Cela crée des risques sérieux :
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Pourquoi Zcash ?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Pourquoi Zcash ?
 
-Les transactions blindées de Zcash masquent :
-- L’adresse de l’expéditeur
-- L’adresse du destinataire
+Les transactions protégées de Zcash masquent :
+- L'adresse de l'expéditeur
+- L'adresse du destinataire
 - Le montant de la transaction
 
 Cela vous permet de recevoir des fonds **sans exposer votre graphe financier**.
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône boîte à outils"/> Ce dont vous avez besoin
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Ce dont vous avez besoin
 
-- Un portefeuille Zcash prenant en charge les adresses blindées :
+- Un portefeuille Zcash prenant en charge les adresses protégées :
   - Zodl
   - Zingo!
   - Autres portefeuilles compatibles
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône étape"/> Guide étape par étape
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guide étape par étape
 
-### Étape 1 : Créer une adresse blindée
+### Étape 1 : créez une adresse protégée
 Ouvrez votre portefeuille et générez une **adresse z**.
 Elle commence généralement par : `zs...`
 
 
-### Étape 2 : Ne partager que votre adresse blindée
+### Étape 2 : partagez uniquement votre adresse protégée
 
 - Publiez votre adresse z sur :
-  - Site web
-  - Réseaux sociaux
-  - Pages de dons
+  - Votre site web
+  - Les réseaux sociaux
+  - Vos pages de dons
 
-**NE partagez PAS une adresse transparente (t).**
+**Ne partagez PAS d'adresse transparente (t).**
 
-### Étape 3 : Guider les donateurs (facultatif mais recommandé)
+### Étape 3 : guidez les donateurs (facultatif mais recommandé)
 
 Encouragez les donateurs à :
-- Utiliser des portefeuilles compatibles avec les transactions blindées
-- Envoyer depuis des pools blindés (pas transparents)
+- Utiliser des portefeuilles prenant en charge les transactions protégées
+- Envoyer depuis des pools protégés (et non transparents)
 
-### Étape 4 : Maintenir une hygiène de base en matière de confidentialité
+### Étape 4 : adoptez une hygiène de confidentialité de base
 
 - Évitez de réutiliser la même adresse pour des identités sans lien entre elles
-- N’associez pas publiquement votre adresse à votre identité personnelle sauf si nécessaire
+- N'associez pas publiquement votre adresse à votre identité personnelle, sauf si cela est nécessaire
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône annulation"/> Erreurs courantes à éviter
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Erreurs courantes à éviter
 
 - Partager une adresse transparente (t)  
-- Publier votre portefeuille avec votre identité personnelle  
-- Accepter des fonds provenant de sources transparentes sans les blinder  
+- Publier votre portefeuille à côté de votre identité personnelle  
+- Accepter des fonds de sources transparentes sans les protéger  
 - Réutiliser la même adresse dans plusieurs contextes  
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="icône terminé"/> Résultat
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Résultat
 
 Vous pouvez :
-- Recevoir des dons en privé
+- Recevoir des dons en toute confidentialité
 - Protéger vos soutiens
-- Éviter d’exposer votre activité financière
+- Éviter d'exposer votre activité financière
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône liens de chaîne"/> Lié
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Voir aussi
 
-- [Ce qu’un explorateur de blocs peut voir](/zcash-tech/what-a-block-explorer-can-see)
+- [Ce qu'un explorateur de blocs peut voir](/zcash-tech/what-a-block-explorer-can-see)
 - [Portefeuilles](/wallets)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="icône progression"/> Progression
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> Progression
 
 **Étape 1 sur 6**
 
-Vous avez appris à recevoir des fonds en privé.
+Vous avez appris à recevoir des fonds en toute confidentialité.
 
 <br/>
 
@@ -123,6 +123,6 @@ Vous avez appris à recevoir des fonds en privé.
 
 Poursuivez votre parcours :
 
-- [Envoyer de l’argent sans lier son identité](/zcash-use-cases/send-money-without-linking-identity)
+- [Envoyer de l'argent sans lier votre identité](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

@@ -260,7 +260,7 @@ Curve допомагає зміцнити ліквідність cbZEC у DeFi-�
 
 [Morpho](https://markets.morpho.org/fixed) — це децентралізований протокол кредитування, який надає ринок кредитування з високою ефективністю капіталу.
 
-[Clearstar Labs](clearstar.xyz) представляє cbAssets Vault через Morpho, що дозволяє використовувати такі активи, як cbZEC, на ринку кредитування.
+[Clearstar Labs](https://clearstar.xyz) представляє cbAssets Vault через Morpho, що дозволяє використовувати такі активи, як cbZEC, на ринку кредитування.
 
 Через цей vault користувачі можуть:
 

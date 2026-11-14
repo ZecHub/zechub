@@ -1,144 +1,144 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/ShapeShift_Zcash.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ShapeShift और Zcash: गोपनीयता-प्रथम विकेंद्रीकृत ट्रेडिंग
+# ShapeShift और Zcash: गोपनीयता को प्राथमिकता देने वाली डिसेंट्रलाइज़्ड ट्रेडिंग
 
 ---
 
 ## परिचय
 
-गोपनीयता और self-custody क्रिप्टोकरेंसी के मूलभूत सिद्धांत हैं, फिर भी कई उपयोगकर्ता अब भी ऐसे केंद्रीकृत exchanges पर निर्भर हैं जो पहचान सत्यापन की मांग करते हैं और उपयोगकर्ताओं के फंड अपने पास रखते हैं। ShapeShift और Zcash के बीच का integration एक पूरी तरह विकेंद्रीकृत exchange platform और सबसे उन्नत गोपनीयता-संरक्षण करने वाली cryptocurrencies में से एक को साथ लाता है, जिससे उपयोगकर्ताओं को अपनी privacy या अपनी assets पर नियंत्रण छोड़े बिना ZEC ट्रेड करने का तरीका मिलता है।
+गोपनीयता (privacy) और सेल्फ-कस्टडी (self-custody) क्रिप्टोकरेंसी के मूलभूत सिद्धांत हैं, फिर भी कई उपयोगकर्ता अब भी ऐसे केंद्रीकृत एक्सचेंज पर निर्भर हैं जो पहचान सत्यापन की मांग करते हैं और उपयोगकर्ताओं के फंड अपने पास रखते हैं। ShapeShift और Zcash के बीच का इंटीग्रेशन एक पूरी तरह डिसेंट्रलाइज़्ड एक्सचेंज प्लेटफ़ॉर्म और सबसे उन्नत गोपनीयता-संरक्षक क्रिप्टोकरेंसी में से एक को एक साथ लाता है। इससे उपयोगकर्ता अपनी गोपनीयता या अपनी संपत्तियों पर नियंत्रण छोड़े बिना ZEC का ट्रेड कर सकते हैं।
 
-यह लेख बताता है कि ShapeShift क्या है, Zcash कैसे काम करता है, आप ShapeShift पर ZEC को कैसे swap कर सकते हैं, और private, decentralized finance के भविष्य के लिए यह साझेदारी क्यों महत्वपूर्ण है।
+यह लेख बताता है कि ShapeShift क्या है, Zcash कैसे काम करता है, आप ShapeShift पर ZEC को कैसे स्वैप कर सकते हैं, और यह साझेदारी निजी, डिसेंट्रलाइज़्ड फ़ाइनेंस के भविष्य के लिए क्यों महत्वपूर्ण है।
 
 ---
 
 ## ShapeShift क्या है?
 
-[ShapeShift](https://shapeshift.com/) एक विकेंद्रीकृत, open-source cryptocurrency platform है जो उपयोगकर्ताओं को account बनाए बिना, पहचान दस्तावेज़ जमा किए बिना, या अपने फंड की custody सौंपे बिना, कई blockchains पर digital assets को trade, track और manage करने की सुविधा देता है।
+[ShapeShift](https://shapeshift.com/) एक डिसेंट्रलाइज़्ड, ओपन-सोर्स क्रिप्टोकरेंसी प्लेटफ़ॉर्म है जो उपयोगकर्ताओं को कई ब्लॉकचेन पर डिजिटल संपत्तियों का ट्रेड, ट्रैकिंग और प्रबंधन करने देता है। इसके लिए न अकाउंट बनाना पड़ता है, न पहचान दस्तावेज़ जमा करने पड़ते हैं और न ही अपने फंड की कस्टडी किसी को सौंपनी पड़ती है।
 
 ### संक्षिप्त इतिहास
 
-ShapeShift की स्थापना मूल रूप से 2014 में Erik Voorhees ने Switzerland में स्थित एक केंद्रीकृत cryptocurrency exchange के रूप में की थी। यह platform जल्दी ही अपने सरल interface के कारण लोकप्रिय हो गया, जो उपयोगकर्ताओं को account बनाए बिना एक cryptocurrency को दूसरी में swap करने देता था।
+ShapeShift की स्थापना मूल रूप से 2014 में Erik Voorhees ने स्विट्ज़रलैंड में स्थित एक केंद्रीकृत क्रिप्टोकरेंसी एक्सचेंज के रूप में की थी। यह प्लेटफ़ॉर्म अपने सरल इंटरफ़ेस के कारण जल्दी ही लोकप्रिय हो गया। इस इंटरफ़ेस से उपयोगकर्ता बिना अकाउंट बनाए एक क्रिप्टोकरेंसी को दूसरी में स्वैप कर सकते थे।
 
-2021 में ShapeShift ने एक बड़ा परिवर्तन किया। कंपनी ने अपनी corporate structure समाप्त कर दी और **Decentralized Autonomous Organization (DAO)** में परिवर्तित हो गई, जिसका governance **FOX token** धारकों द्वारा किया जाता है। इस परिवर्तन के हिस्से के रूप में, लगभग 340 million FOX tokens एक million से अधिक उपयोगकर्ताओं को airdrop किए गए, जिससे यह crypto इतिहास के सबसे बड़े airdrops में से एक बन गया। उस समय के बाद से, platform से जुड़े सभी बड़े निर्णय community governance proposals और voting के माध्यम से किए जाते हैं।
+2021 में ShapeShift में एक बड़ा बदलाव आया। कंपनी ने अपना कॉर्पोरेट ढांचा भंग कर दिया और एक **डिसेंट्रलाइज़्ड ऑटोनॉमस ऑर्गनाइज़ेशन (DAO)** में बदल गई, जिसका गवर्नेंस **FOX टोकन** के धारक करते हैं। इस बदलाव के तहत लगभग 340 मिलियन FOX टोकन 10 लाख से अधिक उपयोगकर्ताओं को एयरड्रॉप किए गए। यह क्रिप्टो इतिहास के सबसे बड़े एयरड्रॉप में से एक था। तब से प्लेटफ़ॉर्म से जुड़े सभी बड़े निर्णय कम्युनिटी गवर्नेंस प्रस्तावों और वोटिंग के ज़रिए लिए जाते हैं।
 
-### प्रमुख विशेषताएँ
+### मुख्य विशेषताएँ
 
-- **Non-Custodial**: उपयोगकर्ता सीधे अपने wallets से trade करते हैं। ShapeShift कभी भी आपके फंड अपने पास नहीं रखता।
-- **KYC की आवश्यकता नहीं**: न पहचान सत्यापन, न account creation, और न ही किसी personal data का संग्रह।
-- **Multichain Support**: 15+ blockchains पर 10,000 से अधिक assets तक पहुंच, जिनमें Bitcoin, Ethereum, Cosmos, और Zcash शामिल हैं।
-- **DEX Aggregation**: ShapeShift trades को THORChain, 0x, और अन्य जैसे decentralized protocols के माध्यम से route करता है ताकि सर्वोत्तम rates मिल सकें।
-- **Cross-Chain Swaps**: wrapped tokens या centralized bridges का उपयोग किए बिना अलग-अलग blockchains के बीच assets को native रूप से swap करें।
-- **पूरी तरह Open-Source**: पूरे platform, including mobile app, का source open है और blockchain data के अलावा कोई proprietary backend नहीं है।
+- **नॉन-कस्टोडियल**: उपयोगकर्ता सीधे अपने वॉलेट से ट्रेड करते हैं। ShapeShift कभी भी आपके फंड अपने पास नहीं रखता।
+- **KYC की आवश्यकता नहीं**: न पहचान सत्यापन, न अकाउंट बनाना और न ही कोई व्यक्तिगत डेटा संग्रह।
+- **मल्टीचेन समर्थन**: Bitcoin, Ethereum, Cosmos और Zcash सहित 15+ ब्लॉकचेन पर 10,000 से अधिक संपत्तियों तक पहुँच।
+- **DEX एग्रीगेशन**: सबसे अच्छी दरें खोजने के लिए ShapeShift ट्रेड को THORChain, 0x और अन्य डिसेंट्रलाइज़्ड प्रोटोकॉल से होकर रूट करता है।
+- **क्रॉस-चेन स्वैप**: रैप्ड टोकन या केंद्रीकृत ब्रिज का उपयोग किए बिना अलग-अलग ब्लॉकचेन के बीच संपत्तियों को नेटिव रूप से स्वैप करें।
+- **पूरी तरह ओपन-सोर्स**: मोबाइल ऐप सहित पूरा प्लेटफ़ॉर्म ओपन-सोर्स है। ब्लॉकचेन डेटा के अलावा कोई प्रोप्राइटरी बैकएंड नहीं है।
 
 ---
 
 ## Zcash कैसे काम करता है
 
-[Zcash](https://z.cash/) (ZEC) एक cryptocurrency है जो मजबूत cryptographic foundations पर निर्मित है और उपयोगकर्ताओं को private transactions करने की क्षमता देती है। 2016 में लॉन्च हुआ Zcash, Bitcoin का एक fork है, जो Bitcoin की 21 million coins की fixed supply और proof-of-work consensus को बनाए रखते हुए उन्नत privacy technology जोड़ता है।
+[Zcash](https://z.cash/) (ZEC) मज़बूत क्रिप्टोग्राफ़िक आधार पर बनी एक क्रिप्टोकरेंसी है, जो उपयोगकर्ताओं को निजी रूप से लेनदेन (transaction) करने की क्षमता देती है। 2016 में लॉन्च हुआ Zcash Bitcoin का एक फ़ोर्क है। यह उन्नत गोपनीयता तकनीक जोड़ता है, साथ ही Bitcoin की 21 मिलियन कॉइन की निश्चित आपूर्ति और प्रूफ-ऑफ़-वर्क कंसेंसस को बनाए रखता है।
 
-### Shielded Transactions और Zero-Knowledge Proofs
+### शील्डेड लेनदेन और ज़ीरो-नॉलेज प्रूफ
 
-Zcash की मुख्य innovation इसका **zero-knowledge proofs** का उपयोग है (विशेष रूप से, एक रूप जिसे **zk-SNARKs** कहा जाता है)। ये cryptographic proofs एक पक्ष को दूसरे पक्ष के सामने यह सिद्ध करने की अनुमति देते हैं कि कोई कथन सत्य है, बिना उस कथन की सत्यता के अलावा कोई अतिरिक्त जानकारी उजागर किए।
+Zcash का मुख्य नवाचार **ज़ीरो-नॉलेज प्रूफ** (विशेष रूप से **zk-SNARKs** नामक एक रूप) का उपयोग है। ये क्रिप्टोग्राफ़िक प्रूफ एक पक्ष को दूसरे पक्ष के सामने यह सिद्ध करने देते हैं कि कोई कथन सत्य है। इसमें कथन की वैधता के अलावा कोई भी जानकारी उजागर नहीं होती।
 
-व्यवहार में, इसका मतलब यह है कि Zcash transactions पूरी तरह **shielded** हो सकती हैं: sender address, receiver address, और transaction amount — सभी blockchain पर encrypted होते हैं। फिर भी network यह verify कर सकता है कि transaction वैध है (कोई double spending नहीं, balances सही हैं) बिना उन विवरणों को कभी देखे।
+व्यवहार में इसका अर्थ है कि Zcash लेनदेन पूरी तरह **शील्डेड** हो सकते हैं: भेजने वाले का एड्रेस, प्राप्तकर्ता का एड्रेस और लेनदेन की राशि, सभी ब्लॉकचेन पर एन्क्रिप्टेड रहते हैं। नेटवर्क इन विवरणों को कभी देखे बिना यह सत्यापित कर सकता है कि लेनदेन वैध है (कोई डबल स्पेंडिंग नहीं, बैलेंस सही)।
 
-### Transaction के प्रकार
+### लेनदेन के प्रकार
 
-Zcash दो प्रकार के addresses को support करता है:
+Zcash दो प्रकार के एड्रेस का समर्थन करता है:
 
-- **Transparent addresses** (t-addresses): ये Bitcoin addresses की तरह काम करते हैं, जहां transaction details blockchain पर सार्वजनिक रूप से दिखाई देती हैं।
-- **Shielded addresses** (z-addresses): ये transaction details को private रखने के लिए zero-knowledge proofs का उपयोग करते हैं।
+- **ट्रांसपेरेंट एड्रेस** (t-एड्रेस): ये Bitcoin एड्रेस की तरह काम करते हैं, जहाँ लेनदेन के विवरण ब्लॉकचेन पर सार्वजनिक रूप से दिखाई देते हैं।
+- **शील्डेड एड्रेस** (z-एड्रेस): ये लेनदेन के विवरण को निजी रखने के लिए ज़ीरो-नॉलेज प्रूफ का उपयोग करते हैं।
 
-उपयोगकर्ता ZEC को transparent और shielded addresses के बीच भेज सकते हैं। अधिकतम privacy के लिए, एक shielded address से दूसरे shielded address में किए गए transactions सार्वजनिक रूप से कोई जानकारी प्रकट नहीं करते।
+उपयोगकर्ता ट्रांसपेरेंट और शील्डेड एड्रेस के बीच ZEC भेज सकते हैं। अधिकतम गोपनीयता के लिए, एक शील्डेड एड्रेस से दूसरे शील्डेड एड्रेस पर किए गए लेनदेन सार्वजनिक रूप से कोई जानकारी उजागर नहीं करते।
 
-### Unified Addresses
+### यूनिफ़ाइड एड्रेस
 
-आधुनिक Zcash wallets जैसे [Zodl](https://zodl.com) **Unified Addresses** का उपयोग करते हैं, जो transparent और shielded receivers दोनों को एक ही address में संयोजित करते हैं। इससे user experience सरल हो जाता है और उपलब्ध privacy के उच्चतम स्तर को default रूप से अपनाया जाता है।
+[Zodl](https://zodl.com) जैसे आधुनिक Zcash वॉलेट **यूनिफ़ाइड एड्रेस** का उपयोग करते हैं, जो ट्रांसपेरेंट और शील्डेड दोनों रिसीवर को एक ही एड्रेस में जोड़ते हैं। इससे उपयोगकर्ता का अनुभव सरल हो जाता है और डिफ़ॉल्ट रूप से उपलब्ध सबसे उच्च स्तर की गोपनीयता मिलती है।
 
 ### गोपनीयता क्यों महत्वपूर्ण है
 
-वित्तीय गोपनीयता का मतलब गलत काम छिपाना नहीं है। यह व्यक्तियों को surveillance, corporate data harvesting, और targeted attacks से बचाती है। जैसे आप नहीं चाहेंगे कि आपके bank account का balance सार्वजनिक रूप से सबको दिखे, वैसे ही cryptocurrency transactions भी समान स्तर की confidentiality की हकदार हैं। Zcash इसे design के स्तर पर प्रदान करता है।
+वित्तीय गोपनीयता का अर्थ गलत काम छिपाना नहीं है। यह व्यक्तियों को निगरानी, कंपनियों द्वारा डेटा संग्रह और लक्षित हमलों से बचाती है। जैसे आप नहीं चाहेंगे कि आपके बैंक खाते का बैलेंस सबको दिखाई दे, वैसे ही क्रिप्टोकरेंसी लेनदेन भी उसी स्तर की गोपनीयता के हकदार हैं। Zcash इसे अपनी डिज़ाइन से ही प्रदान करता है।
 
 ---
 
-## ShapeShift पर ZEC को कैसे Swap करें
+## ShapeShift पर ZEC का स्वैप
 
-ShapeShift platform उपयोगकर्ताओं को एक पूरी तरह विकेंद्रीकृत प्रक्रिया के माध्यम से ZEC प्राप्त करने और trade करने की अनुमति देता है। यह इस प्रकार काम करता है।
+ShapeShift प्लेटफ़ॉर्म उपयोगकर्ताओं को पूरी तरह डिसेंट्रलाइज़्ड प्रक्रिया के ज़रिए ZEC प्राप्त करने और उसका ट्रेड करने देता है। यह इस प्रकार काम करता है।
 
 ### चरण 1: ShapeShift पर जाएँ
 
-अपने web browser में [app.shapeshift.com](https://app.shapeshift.com/) पर जाएँ या ShapeShift mobile app डाउनलोड करें। न account creation की आवश्यकता है, न identity verification की।
+अपने वेब ब्राउज़र में [app.shapeshift.com](https://app.shapeshift.com/) पर जाएँ या ShapeShift मोबाइल ऐप डाउनलोड करें। अकाउंट बनाने या पहचान सत्यापन की कोई आवश्यकता नहीं है।
 
-### चरण 2: अपना Wallet कनेक्ट करें
+### चरण 2: अपना वॉलेट कनेक्ट करें
 
-एक compatible self-custody wallet कनेक्ट करें। ShapeShift कई wallets को support करता है, जिनमें शामिल हैं:
+एक संगत सेल्फ-कस्टडी वॉलेट कनेक्ट करें। ShapeShift कई वॉलेट का समर्थन करता है, जिनमें शामिल हैं:
 
-- **KeepKey** (hardware wallet)
+- **KeepKey** (हार्डवेयर वॉलेट)
 - **MetaMask**
 - **XDEFI / Ctrl Wallet**
-- **Keplr** (Cosmos-based assets के लिए)
-- **WalletConnect-compatible wallets**
+- **Keplr** (Cosmos-आधारित संपत्तियों के लिए)
+- **WalletConnect-संगत वॉलेट**
 
-चूँकि आप ZEC में या ZEC से swap कर रहे हैं, सुनिश्चित करें कि आपके पास अपने फंड प्राप्त करने के लिए एक Zcash-compatible wallet (जैसे ZODL) तैयार हो।
+चूँकि आप ZEC में या उससे स्वैप कर रहे हैं, सुनिश्चित करें कि आपके फंड प्राप्त करने के लिए एक Zcash-संगत वॉलेट (जैसे Zodl) तैयार हो।
 
-### चरण 3: अपना Swap Pair चुनें
+### चरण 3: अपना स्वैप पेयर चुनें
 
-Swap interface का उपयोग करके वह asset चुनें जिससे आप trade करना चाहते हैं (उदाहरण के लिए BTC, ETH, या कोई ERC-20 token) और destination asset के रूप में ZEC सेट करें। ShapeShift का interface साफ-सुथरे, Uniswap-style layout में डिज़ाइन किया गया है, जो desktop और mobile दोनों के लिए optimized है।
+स्वैप इंटरफ़ेस में वह संपत्ति चुनें जिससे आप ट्रेड करना चाहते हैं (उदाहरण के लिए BTC, ETH या कोई ERC-20 टोकन) और गंतव्य संपत्ति के रूप में ZEC सेट करें। ShapeShift का इंटरफ़ेस एक साफ़, Uniswap-शैली के लेआउट में डिज़ाइन किया गया है, जो डेस्कटॉप और मोबाइल दोनों के लिए अनुकूलित है।
 
 ### चरण 4: राशि दर्ज करें और समीक्षा करें
 
-जितनी राशि आप swap करना चाहते हैं, वह दर्ज करें। ShapeShift trade को उपलब्ध सर्वोत्तम decentralized protocol (जैसे cross-chain swaps के लिए THORChain) के माध्यम से route करेगा और अनुमानित rate, fees, और output amount दिखाएगा।
+वह राशि दर्ज करें जिसे आप स्वैप करना चाहते हैं। ShapeShift ट्रेड को सबसे अच्छे उपलब्ध डिसेंट्रलाइज़्ड प्रोटोकॉल (जैसे क्रॉस-चेन स्वैप के लिए THORChain) से होकर रूट करेगा और अनुमानित दर, शुल्क (fee) और प्राप्त होने वाली राशि दिखाएगा।
 
-### चरण 5: पुष्टि करें और Execute करें
+### चरण 5: पुष्टि करें और निष्पादित करें
 
-Transaction details की समीक्षा करें और पुष्टि करें। Swap decentralized protocols के माध्यम से on-chain execute होता है। आपका ZEC आपके द्वारा निर्दिष्ट address पर भेज दिया जाएगा। कोई भी intermediary कभी आपके funds को hold नहीं करता।
+लेनदेन के विवरण की समीक्षा करें और पुष्टि करें। स्वैप डिसेंट्रलाइज़्ड प्रोटोकॉल के ज़रिए ऑन-चेन निष्पादित होता है। आपका ZEC आपके द्वारा बताए गए एड्रेस पर पहुँचा दिया जाएगा। कोई भी मध्यस्थ कभी आपके फंड अपने पास नहीं रखता।
 
-### चरण 6: अपने ZEC को Shield करें
+### चरण 6: अपने ZEC को शील्ड करें
 
-जब आपका ZEC आ जाए, तो अपने Zcash wallet के **shield** function (जो ZODL जैसे wallets में उपलब्ध है) का उपयोग करके funds को shielded pool में ले जाएँ। इससे सुनिश्चित होता है कि आपका balance और भविष्य के transactions पूरी तरह private रहें।
+जब आपका ZEC पहुँच जाए, तो फंड को शील्डेड पूल में ले जाने के लिए अपने Zcash वॉलेट के **शील्ड** फ़ंक्शन (Zodl जैसे वॉलेट में उपलब्ध) का उपयोग करें। इससे यह सुनिश्चित होता है कि आपका बैलेंस और भविष्य के लेनदेन पूरी तरह निजी रहें।
 
-### Supported Cross-Chain Pairs
+### समर्थित क्रॉस-चेन पेयर
 
-ShapeShift कई blockchain ecosystems में ZEC swaps सक्षम करता है, जिनमें शामिल हैं:
+ShapeShift कई ब्लॉकचेन इकोसिस्टम में ZEC स्वैप संभव बनाता है, जिनमें शामिल हैं:
 
 - **Bitcoin** (BTC) &lt;-&gt; ZEC
 - **Ethereum** (ETH) &lt;-&gt; ZEC
-- **Arbitrum** assets &lt;-&gt; ZEC
-- **Cosmos** ecosystem tokens &lt;-&gt; ZEC
+- **Arbitrum** संपत्तियाँ &lt;-&gt; ZEC
+- **Cosmos** इकोसिस्टम टोकन &lt;-&gt; ZEC
 
 ---
 
-## यह Integration क्यों महत्वपूर्ण है
+## यह इंटीग्रेशन क्यों महत्वपूर्ण है
 
-### DeFi में गोपनीयता को पुनः स्थापित करना
+### DeFi में गोपनीयता की वापसी
 
-अधिकांश decentralized exchanges गोपनीयता को बाद में सोचने वाली चीज़ मानते हैं। उदाहरण के लिए, Ethereum-based DEXs पर transactions पूरी तरह transparent होते हैं: कोई भी आपके wallet history, token balances, और trading patterns को trace कर सकता है। ShapeShift-Zcash integration इस मानक को चुनौती देता है क्योंकि यह एक decentralized, no-KYC platform के माध्यम से shielded ZEC तक पहुंच प्रदान करता है।
+अधिकांश डिसेंट्रलाइज़्ड एक्सचेंज गोपनीयता को बाद की बात मानते हैं। उदाहरण के लिए, Ethereum-आधारित DEX पर लेनदेन पूरी तरह ट्रांसपेरेंट होते हैं: कोई भी आपके वॉलेट का इतिहास, टोकन बैलेंस और ट्रेडिंग पैटर्न ट्रेस कर सकता है। ShapeShift-Zcash इंटीग्रेशन एक डिसेंट्रलाइज़्ड, बिना-KYC प्लेटफ़ॉर्म के ज़रिए शील्डेड ZEC तक पहुँच देकर इस चलन को चुनौती देता है।
 
-जैसा कि ShapeShift के growth and community workstream lead Houston Morgan ने कहा: *"Privacy shouldn't be scary, but trading ZEC on centralized exchanges often is. Their very structure and legal risk kill true privacy."*
+जैसा कि ShapeShift के ग्रोथ और कम्युनिटी वर्कस्ट्रीम लीड Houston Morgan ने कहा: *“गोपनीयता डरावनी नहीं होनी चाहिए, लेकिन केंद्रीकृत एक्सचेंज पर ZEC का ट्रेड करना अक्सर डरावना होता है। उनकी संरचना और कानूनी जोखिम ही सच्ची गोपनीयता को खत्म कर देते हैं।”*
 
-### Delisting से Default तक
+### डीलिस्टिंग से डिफ़ॉल्ट तक
 
-इतिहास इस integration को और भी अधिक महत्वपूर्ण बनाता है। 2020 में, जब ShapeShift अभी भी एक केंद्रीकृत कंपनी थी, उसने regulatory pressure के तहत Zcash सहित **privacy coins को delist** कर दिया था। DAO structure में परिवर्तन ने ShapeShift को इन सीमाओं से मुक्त कर दिया। अब, community-governed protocol के रूप में, ShapeShift ने न केवल Zcash को फिर से list किया है बल्कि उसे अपनी privacy strategy का केंद्रीय हिस्सा भी बना दिया है।
+इतिहास इस इंटीग्रेशन को और भी महत्वपूर्ण बनाता है। 2020 में, जब ShapeShift अभी भी एक केंद्रीकृत कंपनी थी, उसने नियामक दबाव में Zcash सहित **प्राइवेसी कॉइन को डीलिस्ट** कर दिया था। DAO संरचना में बदलाव ने ShapeShift को उन बाधाओं से मुक्त कर दिया। अब एक कम्युनिटी-संचालित प्रोटोकॉल के रूप में ShapeShift ने न केवल Zcash को फिर से लिस्ट किया है, बल्कि उसे अपनी गोपनीयता रणनीति का केंद्रीय हिस्सा भी बना दिया है।
 
-December 2025 में **ShapeShift v4.0** के release के साथ, Zcash platform की **मुख्य privacy-preserving payment और routing asset** बन गई। अब privacy को एक default feature के रूप में स्थापित किया गया है, न कि optional add-on के रूप में, और ZEC को सीधे ShapeShift के wallet और routing stack में integrate किया गया है।
+दिसंबर 2025 में **ShapeShift v4.0** के रिलीज़ के साथ Zcash प्लेटफ़ॉर्म का **प्राथमिक गोपनीयता-संरक्षक भुगतान (payment) और रूटिंग एसेट** बन गया। अब गोपनीयता को एक वैकल्पिक ऐड-ऑन के बजाय डिफ़ॉल्ट सुविधा के रूप में रखा गया है, और ZEC सीधे ShapeShift के वॉलेट और रूटिंग स्टैक में इंटीग्रेट किया गया है।
 
-### Zcash Community Grants का समर्थन
+### Zcash Community Grants समर्थन
 
-[Zcash Community Grants](https://zcashcommunitygrants.org/) program ने Zcash integration के लिए ShapeShift की technical infrastructure और marketing efforts के समर्थन हेतु **$50,000** आवंटित किए। इस funding ने ShapeShift team को **Liquify** के साथ साझेदारी करने में मदद की, जो 90+ blockchains को support करने वाला एक Web3 infrastructure provider है, ताकि remote procedure call (RPC) endpoints को संभाला जा सके और तेज execution तथा बेहतर network reliability सुनिश्चित की जा सके।
+[Zcash Community Grants](https://zcashcommunitygrants.org/) कार्यक्रम ने Zcash इंटीग्रेशन के लिए ShapeShift के तकनीकी इन्फ्रास्ट्रक्चर और मार्केटिंग प्रयासों में सहायता के लिए **$50,000** आवंटित किए। इस फ़ंडिंग से ShapeShift टीम ने **Liquify** के साथ साझेदारी की। Liquify 90+ ब्लॉकचेन का समर्थन करने वाला एक Web3 इन्फ्रास्ट्रक्चर प्रदाता है, जो तेज़ निष्पादन और बेहतर नेटवर्क विश्वसनीयता के लिए रिमोट प्रोसीजर कॉल (RPC) एंडपॉइंट संभालता है।
 
-### विकेंद्रीकृत वित्त को आगे बढ़ाना
+### डिसेंट्रलाइज़्ड फ़ाइनेंस को आगे बढ़ाना
 
-यह integration दिखाता है कि DeFi में privacy और decentralization साथ-साथ काम कर सकते हैं। उपयोगकर्ता यह कर सकते हैं:
+यह इंटीग्रेशन दिखाता है कि DeFi में गोपनीयता और डिसेंट्रलाइज़ेशन साथ-साथ काम कर सकते हैं। उपयोगकर्ता:
 
-- **Swap** assets across chains बिना centralized intermediaries के
-- **पूरे process के दौरान अपने funds की full self-custody बनाए रखें**
-- **KYC या data collection के बिना shielded ZEC तक पहुंच प्राप्त करें**
-- **Platform के भविष्य को आकार देने के लिए FOX token के माध्यम से governance में भाग लें**
+- केंद्रीकृत मध्यस्थों के बिना चेन के बीच संपत्तियों को **स्वैप** कर सकते हैं
+- पूरी प्रक्रिया के दौरान अपने फंड पर **पूरी सेल्फ-कस्टडी बनाए रख** सकते हैं
+- KYC या डेटा संग्रह के बिना **शील्डेड ZEC तक पहुँच** सकते हैं
+- प्लेटफ़ॉर्म के भविष्य को आकार देने के लिए FOX टोकन के ज़रिए **गवर्नेंस में भाग ले** सकते हैं
 
-जैसे-जैसे दुनिया भर में regulatory environments और सख्त होते जा रहे हैं, और EU जैसे क्षेत्र privacy-preserving technologies पर restrictions की संभावनाएँ तलाश रहे हैं, ShapeShift जैसे platforms वित्तीय गोपनीयता के लिए एक महत्वपूर्ण वैकल्पिक infrastructure प्रदान करते हैं।
+जैसे-जैसे दुनिया भर में नियामक माहौल सख़्त हो रहा है और EU जैसे क्षेत्र गोपनीयता-संरक्षक तकनीकों पर प्रतिबंधों पर विचार कर रहे हैं, ShapeShift जैसे प्लेटफ़ॉर्म वित्तीय गोपनीयता के लिए एक महत्वपूर्ण वैकल्पिक इन्फ्रास्ट्रक्चर प्रदान करते हैं।
 
 ---
 
@@ -146,33 +146,33 @@ December 2025 में **ShapeShift v4.0** के release के साथ, Zca
 
 | विशेषता | विवरण |
 |---|---|
-| **Platform** | ShapeShift DAO (विकेंद्रीकृत, open-source) |
-| **Governance** | FOX token holders |
-| **Zcash Support** | shielded transaction support के साथ पूर्ण ZEC trading |
-| **KYC Required** | नहीं |
-| **Custody** | Non-custodial (उपयोगकर्ता अपनी keys स्वयं रखते हैं) |
-| **Cross-Chain Swaps** | BTC, ETH, Arbitrum, Cosmos, और अधिक |
-| **Infrastructure** | Liquify द्वारा संचालित (90+ blockchain RPC support) |
-| **Zcash Community Grants Funding** | technical और marketing support के लिए $50,000 |
+| **प्लेटफ़ॉर्म** | ShapeShift DAO (डिसेंट्रलाइज़्ड, ओपन-सोर्स) |
+| **गवर्नेंस** | FOX टोकन धारक |
+| **Zcash समर्थन** | शील्डेड लेनदेन समर्थन के साथ पूर्ण ZEC ट्रेडिंग |
+| **KYC आवश्यक** | नहीं |
+| **कस्टडी** | नॉन-कस्टोडियल (उपयोगकर्ता अपनी keys स्वयं रखते हैं) |
+| **क्रॉस-चेन स्वैप** | BTC, ETH, Arbitrum, Cosmos और अन्य |
+| **इन्फ्रास्ट्रक्चर** | Liquify द्वारा संचालित (90+ ब्लॉकचेन RPC समर्थन) |
+| **Zcash Community Grants फ़ंडिंग** | तकनीकी और मार्केटिंग सहायता के लिए $50,000 |
 
-ShapeShift और Zcash का integration decentralized finance में privacy के लिए एक सार्थक कदम आगे बढ़ाता है। ShapeShift की non-custodial, multichain trading infrastructure को Zcash की zero-knowledge proof technology के साथ मिलाकर, उपयोगकर्ताओं को वास्तव में private, permissionless cryptocurrency trading तक पहुंच मिलती है। जो कोई भी वित्तीय गोपनीयता और self-sovereignty को महत्व देता है, उसके लिए यह integration बिना समझौते के ZEC का उपयोग करने का एक व्यावहारिक और सुलभ मार्ग प्रदान करता है।
+ShapeShift और Zcash का इंटीग्रेशन डिसेंट्रलाइज़्ड फ़ाइनेंस में गोपनीयता की दिशा में एक सार्थक कदम है। ShapeShift के नॉन-कस्टोडियल, मल्टीचेन ट्रेडिंग इन्फ्रास्ट्रक्चर को Zcash की ज़ीरो-नॉलेज प्रूफ तकनीक के साथ जोड़कर, उपयोगकर्ताओं को सच में निजी, अनुमति-रहित (permissionless) क्रिप्टोकरेंसी ट्रेडिंग तक पहुँच मिलती है। वित्तीय गोपनीयता और स्व-संप्रभुता को महत्व देने वाले हर व्यक्ति के लिए यह इंटीग्रेशन बिना किसी समझौते के ZEC का उपयोग करने का एक व्यावहारिक और सुलभ रास्ता प्रदान करता है।
 
 ---
 
 ### संसाधन
 
-[ShapeShift Platform](https://shapeshift.com/)
+[ShapeShift प्लेटफ़ॉर्म](https://shapeshift.com/)
 
-[Zcash की आधिकारिक वेबसाइट](https://z.cash/)
+[Zcash आधिकारिक वेबसाइट](https://z.cash/)
 
 [Zodl वॉलेट](https://zodl.com)
 
-[ShapeShift DAO Governance (FOX Token)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
+[ShapeShift DAO गवर्नेंस (FOX टोकन)](https://web.archive.org/web/20210126180411/https://shapeshift.com/fox-token)
 
 [Zcash Community Grants](https://zcashcommunitygrants.org/)
 
-[ShapeShift Zcash को integrate करता है ताकि onchain privacy को मजबूत किया जा सके (crypto.news)](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
+[ShapeShift ने ऑन-चेन गोपनीयता मज़बूत करने के लिए Zcash को इंटीग्रेट किया (crypto.news)](https://crypto.news/shapeshift-integrates-zcash-to-enable-true-onchain-privacy/)
 
-[ShapeShift ने v4.0 पेश किया, DeFi में privacy और self-custody को फिर केंद्र में रखा (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
+[ShapeShift ने v4.0 पेश किया, DeFi में गोपनीयता और सेल्फ-कस्टडी को फिर से केंद्र में रखा (Invezz)](https://invezz.com/news/2025/12/18/shapeshift-unveils-version-4-0-re-centering-privacy-and-self-custody-in-defi/)
 
-[ShapeShift ने shielded Zcash transactions के लिए support जारी किया (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)
+[ShapeShift ने शील्डेड Zcash लेनदेन के लिए समर्थन शुरू किया (Cointelegraph)](https://cointelegraph.com/news/shapeshift-rolls-out-support-for-shielded-zcash-transactions-for-true-privacy)

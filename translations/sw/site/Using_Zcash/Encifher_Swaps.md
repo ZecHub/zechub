@@ -1,15 +1,28 @@
-# **Kubadilisha [Swap] SOL/USDC -> ZEC kwa kutumia Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# Kubadilisha SOL/USDC kuwa ZEC kwa Kutumia encrypt.trade
+
+> Badilisha SOL au USDC kwenye Solana kuwa ZEC, huku hatua ya cross-chain ikielekezwa kupitia NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Badilisha kutoka Solana hadi Zcash, huku hatua ya cross-chain ikielekezwa kupitia NEAR Intents.*  
+---
+
+## Kwa Ufupi (TL;DR)
+
+* [encrypt.trade](https://encrypt.trade/zec) hufunga SOL au USDC kuwa tokeni zilizosimbwa fiche (eSOL/eUSDC), kisha huzibadilisha kuwa ZEC kupitia NEAR Intents.
+* Kiasi hufichwa kwenye Solana, lakini anwani ya pochi yako na matumizi yake ya programu hiyo ni ya hadharani.
+* ZEC hutumwa kwa anwani ya uwazi (t1/t3) pekee, kwa hiyo huonekana kwenye mnyororo wa Zcash hadi utakapoihamishia kwenye faragha.
+* Hamishia ZEC kwenye faragha ndani ya pochi yako mara tu inapowasili.
+* Programu hiyo na NEAR Intents zote mbili huchunguza pochi ili kuhakikisha kufuata kanuni.
 
 ---
 
-###  Utangulizi  
-[**encrypt.trade**](https://encrypt.trade/zec) ni programu ya Solana inayoendeshwa na JMD Labs Inc. Inakuwezesha kubadilisha **SOL au USDC** kwenye Solana hadi **Zcash (ZEC)**. Tokeni zako hufungwa kwanza katika matoleo yaliyosimbwa fiche ili kiasi kifichwe kwenye Solana, kisha hubadilishwa hadi ZEC kupitia NEAR Intents.
+## Maelezo ya Msingi
+[**encrypt.trade**](https://encrypt.trade/zec) ni programu ya Solana inayoendeshwa na JMD Labs Inc. Inakuwezesha kubadilisha (swap) **SOL au USDC** kwenye Solana kuwa **Zcash (ZEC)**. Kwanza, tokeni (tokens) zako hufungwa katika matoleo yaliyosimbwa fiche (encrypted) ili kiasi kifichwe kwenye Solana, kisha hubadilishwa kuwa ZEC kupitia NEAR Intents.
 
 Kubadilisha kuna faragha [privacy] kwa baadhi ya njia lakini si zote. Nyaraka za programu yenyewe za [docs](https://docs.encifher.io/docs) zinasema mwingiliano wako na mnyororo si wa kutotambulika: watu wanaweza kuona kwamba pochi yako ilitumia programu, lakini si kiasi ulichosogeza. ZEC pia huwasili kwenye anwani ya uwazi [transparent], kwa hivyo hubaki kuonekana kwenye mnyororo wa Zcash hadi uihamishe kwenye bwawa la faragha [shielded].
 

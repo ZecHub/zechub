@@ -4,7 +4,7 @@
 
 # Igodo nlele [Viewing Keys]
 
-Adreesị akpa ego nke e chebere echebe na-enye gị ohere ịzụmahia ebe ị na-ekpughe ntakịrị o kwere mee na Zcash blockchain. Ya mere, gịnị na-eme mgbe ọ dị gị mkpa igosi otu akụkụ kpọmkwem ihe ị nwere, ma ọ bụ ihe ị zitere? Adreesị akpa ego ọ bụla nke e chebere echebe nwere viewing key nke na-enye ohere ịgụ na-enweghị inye ikike imefu ego. E webatara viewing keys na [ZIP 310](https://zips.z.cash/zip-0310) ma tinye ha na protocol n'ime Sapling network upgrade.
+Adreesị akpa ego nke e chebere echebe na-enye gị ohere ịzụmahia ebe ị na-ekpughe ntakịrị o kwere mee na Zcash blockchain. Ya mere, gịnị na-eme mgbe ọ dị gị mkpa igosi otu akụkụ kpọmkwem ihe ị nwere, ma ọ bụ ihe ị zitere? Viewing key na-enye ohere ịgụ na-enweghị inye ikike imefu ego. Viewing keys adịlarị maka Sprout; Sapling gbakwụnyere ikike dịka ịchọpụta mgbe e mefuru note anataara. [ZIP 310](https://zips.z.cash/zip-0310) bụ edemede ozi mbụ nke na-edepụta njirimara nchekwa nke Sapling viewing keys, ọ bụghị network upgrade webatara viewing keys.
 
 Viewing key bụ ngwá ọrụ maka Mpughe ahọpụtara [selective disclosure]: ị na-ahọrọ onye ga-ahụ ihe, ọ dịghịkwa mgbe ị na-enyefe ikike imefu ego iji mee ya.
 
@@ -12,7 +12,7 @@ Viewing key bụ ngwá ọrụ maka Mpughe ahọpụtara [selective disclosure]:
 
 Viewing key na-enye ohere **ịgụ naanị** n'ihe omume nke Adreesị akpa ego nke e chebere echebe Zcash ma ọ bụ akaụntụ: onye ọbụla ji ya nwere ike ịhụ Azụmahia na-abata (na, maka full viewing keys, Azụmahia na-apụ), mana ọ nweghị mgbe ọ ga-enwe ike imefu ego.
 
-- **Ihe ọ bụ:** ngwá ọrụ Mpughe ahọpụtara nke pools ndị e chebere echebe. E webatara ya na [ZIP 310](https://zips.z.cash/zip-0310), ma tinye ya na protocol n'ime Sapling network upgrade.
+- **Ihe ọ bụ:** ngwá ọrụ Mpughe ahọpụtara nke pool ndị e chebere echebe, nke ikike ya dị iche dabere na pool na ụdị key. [ZIP 310](https://zips.z.cash/zip-0310) na-akọwa ihe Sapling full viewing key na-ekpughe na ozi nke a na-ekwe nkwa, nke ekwenyebeghị, nke akọwaghị, ma ọ bụ nke ekpughebeghị.
 - **Ihe ọ na-enye:** ịchọpụta nkwụnye ego (`uivk…` incoming keys) ma ọ bụ ọhụhụ zuru ezu nke ihe na-abata/na-apụ maka akaụntụ (`uview…` unified full viewing keys), yana legacy Sapling `zxviews…` keys.
 - **Ihe ọ naghị enye:** ikike imefu ego. Ọ nweghị ihe onye ji viewing key mee nwere ike ibugharị ego.
 - **Ebe ọ na-arụ ọrụ taa:** mbupụ/mwebata na [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) yana akaụntụ watch-only n'ime e-akpa ego dịka Zkool; lee ibe [Wallets](/using-zcash/wallets) maka matriks nkwado dị ugbu a.

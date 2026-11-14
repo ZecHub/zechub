@@ -260,7 +260,7 @@ Mehr erfahren: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x83358
 
 [Morpho](https://markets.morpho.org/fixed) ist ein dezentrales Kreditprotokoll, das einen äußerst kapitaleffizienten Kreditmarkt bereitstellt.
 
-[Clearstar Labs](clearstar.xyz) führt den cbAssets Vault über Morpho ein, wodurch Assets wie cbZEC im Kreditmarkt verwendet werden können.
+[Clearstar Labs](https://clearstar.xyz) führt den cbAssets Vault über Morpho ein, wodurch Assets wie cbZEC im Kreditmarkt verwendet werden können.
 
 Über diesen Vault können Nutzer:
 

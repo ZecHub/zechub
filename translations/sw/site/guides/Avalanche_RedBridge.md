@@ -25,20 +25,20 @@ Maelezo: Huhakikisha kuwa vipengele vya faragha vya Zcash vinahifadhiwa katika m
 
 ## Vitu Vilivyowasilishwa na Nyaraka
 
-**Daraja la Elastic Subnet la Zcash kwenye Avalanche**: [Pendekezo la Ruzuku](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Daraja la Elastic Subnet la Zcash kwenye Avalanche**: [Pendekezo la Ruzuku](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Hapa chini kuna vitu vikuu vilivyowasilishwa na rasilimali za kiufundi zilizokamilishwa kwa mradi wa Zcash Avalanche RedBridge:
 
-Kitu Kilichowasilishwa 1.1: PoC ya awali inayounga mkono kuuliza miamala ya Zcash ya testnet kutoka subnet ya Avalanche ya testnet kwa CLI, iliyochapishwa kwenye GitHub na yenye subnet ya node moja kwenye testnet ya Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Kitu Kilichowasilishwa 1.1: PoC ya awali inayounga mkono kuuliza miamala ya Zcash ya testnet kutoka subnet ya Avalanche ya testnet kwa CLI, iliyochapishwa kwenye GitHub na yenye subnet ya node moja kwenye testnet ya Avalanche. https://github.com/red-dev-inc/redbridge-oracle
 
-Kitu Kilichowasilishwa 2.1: [Usanifu](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Kitu Kilichowasilishwa 2.1: [Usanifu](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Hatua ya 3 Machi 31, 2024
 
 Kitu Kilichowasilishwa 3.1 kimekamilika, kikiwasilisha uchanganuzi wetu wa kutumia FROST badala ya BLS kwa sahihi za kizingiti katika daraja la ZavaX. Mabadiliko haya yanatumia maktaba zilizokaguliwa kutoka kwa Zcash Foundation na kuwezesha ujumuishaji na usalama bora. https://github.com/ZcashFoundation/frost
 
-Kitu Kilichowasilishwa 3.2 Muundo wa UX na UI wa GUI umekamilika, ukieleza maboresho yetu ya usalama kwa subnet ya ZavaX Oracle, yanayoungwa mkono na matokeo ya majaribio ya kupenya. Kwa maelezo zaidi, ikiwemo usanidi wa seva na matokeo ya majaribio [Tathmini ya Usalama](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Ripoti ya Ukaguzi](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Kitu Kilichowasilishwa 3.2 Muundo wa UX na UI wa GUI umekamilika, ukieleza maboresho yetu ya usalama kwa subnet ya ZavaX Oracle, yanayoungwa mkono na matokeo ya majaribio ya kupenya. Kwa maelezo zaidi, ikiwemo usanidi wa seva na matokeo ya majaribio [Tathmini ya Usalama](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Ripoti ya Ukaguzi](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Aidha, timu ilibadilisha chapa kutoka ZavaX hadi redbridge na kubadilisha tokeni yake ya kuweka sarafu [staking] kutoka ZAX hadi RBR.
 
 ### Hatua ya 4 Aprili 30, 2024
@@ -51,9 +51,9 @@ Hatua ya 6 Juni 30, 2024
 Kitu Kilichowasilishwa 6.1 Kupita kwa mafanikio ukaguzi wa programu
 Kitu Kilichowasilishwa 6.2 Kuchapisha msimbo wa chanzo uliokaguliwa kwenye repo ya umma ya GitHub
 
-Tazama repo ya [GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Tazama repo ya [GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Kwa maelezo zaidi ya kiufundi, watumiaji wanahimizwa kukagua hazina na nyaraka za mradi wa RedBridge ili [kuchunguza](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) maelezo mahususi ya ujumuishaji, mifumo ya majaribio, na itifaki za usalama.
+Kwa maelezo zaidi ya kiufundi, watumiaji wanahimizwa kukagua hazina na nyaraka za mradi wa RedBridge ili [kuchunguza](https://github.com/red-dev-inc/red-bridge) maelezo mahususi ya ujumuishaji, mifumo ya majaribio, na itifaki za usalama.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

@@ -95,5 +95,5 @@ Dịka ọmụmaatụ, tụlee ndepụta NFT na Solana; ọnọdụ ọhaneze ya
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO bụ blockchain ọhaneze layer 1. TomoChain bụ protocol Nzuzo e mepụtara na TomoChain ma e mere ya iji mepụta Azụmahia nchekwa na nke a na-apụghị ịchọpụta —**Mgbawe Akụ**: Ee— [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) — ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (nke a na-akpọbu TomoChain)](https://viction.xyz/ecosystem)**: VIC (nke a na-akpọbu TOMO) bụ blockchain ọhaneze layer 1. TomoChain bụ protocol Nzuzo e mepụtara na TomoChain ma e mere ya iji mepụta Azụmahia nchekwa na nke a na-apụghị ịchọpụta —**Mgbawe Akụ**: Ee— [Whitepaper](https://docs.viction.xyz/whitepaper-and-research) — ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

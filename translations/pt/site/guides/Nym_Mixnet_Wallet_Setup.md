@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Encaminhe o tráfego da carteira Zcash pela mixnet da Nym
@@ -13,7 +13,7 @@ A Nym adiciona uma camada separada de privacidade de rede. Em setembro de 2026, 
 1. **Prefira a integração nativa com a Nym da carteira, quando ela existir.**
 2. Caso contrário, use o **modo Mixnet do NymVPN no nível do sistema** para que o tráfego de rede da carteira seja encaminhado pela Nym sem depender de suporte a proxy específico da carteira.
 
-Para informações gerais sobre VPN e dVPN, consulte [VPN & dVPN](./VPN_and_DVPN.md).
+Para informações gerais sobre VPN e dVPN, consulte [VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## O que a Nym adiciona — e o que ela não adiciona
 

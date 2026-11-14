@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC 스왑: Encrypt.trade 사용**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# encrypt.trade를 사용해 SOL/USDC를 ZEC로 스왑하기
+
+> Solana에서 SOL 또는 USDC을 ZEC로 스왑하며, 크로스체인 단계는 NEAR Intents를 통해 라우팅됩니다.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Solana에서 Zcash로 스왑하며, 크로스체인 단계는 NEAR Intents를 통해 라우팅됩니다.*  
+---
+
+## 요약
+
+* [encrypt.trade](https://encrypt.trade/zec)는 SOL 또는 USDC를 암호화 토큰(eSOL/eUSDC)으로 래핑한 다음 NEAR Intents를 통해 ZEC로 스왑합니다.
+* 금액은 Solana에서 숨겨지지만, 지갑 주소와 앱 사용 여부는 공개됩니다.
+* ZEC는 투명(t1/t3) 주소로만 전송되므로, 실드하기 전까지 Zcash 체인에서 볼 수 있습니다.
+* ZEC가 도착하는 즉시 지갑에서 실드하세요.
+* 앱과 NEAR Intents는 모두 규정 준수를 위해 지갑을 검사합니다.
 
 ---
 
-###  소개  
-[**encrypt.trade**](https://encrypt.trade/zec)는 JMD Labs Inc.가 운영하는 Solana 앱입니다. Solana의 **SOL 또는 USDC**를 **Zcash (ZEC)**로 스왑할 수 있습니다. 먼저 토큰이 암호화된 버전으로 래핑되어 Solana에서 수량이 숨겨진 다음, NEAR Intents를 통해 ZEC로 스왑됩니다.
+## 핵심 설명
+[**encrypt.trade**](https://encrypt.trade/zec)은 JMD Labs Inc.가 운영하는 Solana 앱입니다. 이를 통해 Solana에서 **SOL 또는 USDC**을 **Zcash(ZEC)**으로 스왑할 수 있습니다. 먼저 토큰을 암호화된 버전으로 래핑하여 Solana에서 금액을 숨긴 다음, NEAR Intents을 통해 ZEC으로 스왑합니다.
 
 이 스왑은 일부 측면에서는 비공개이지만, 모든 면에서 그렇지는 않습니다. 앱의 자체 [문서](https://docs.encifher.io/docs)에 따르면 체인과의 상호작용은 익명이 아닙니다. 즉, 사람들이 지갑이 앱을 사용했다는 사실은 볼 수 있지만, 이동한 금액은 볼 수 없습니다. 또한 ZEC는 투명 주소로 도착하므로, 실드 처리하기 전까지 Zcash 체인에서 계속 공개됩니다.
 

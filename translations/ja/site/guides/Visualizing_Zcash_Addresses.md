@@ -6,7 +6,7 @@
 # Zcashアドレスの可視化
 
 Zcashについて初めて学ぶ場合、発生し得る[トランザクション（transactions）](https://zechub.wiki/using-zcash/transactions)には、*公開型（transparent）*と*シールドされた（shielded）*の2種類があることにすぐ気付くでしょう。
-さらに、Zcashエコシステムの最新動向を追っている場合は、UAとも呼ばれる[統合アドレス（Unified Addresses）](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/)について学んだことがあるかもしれません。
+さらに、Zcashエコシステムの最新動向を追っている場合は、UAとも呼ばれる[統合アドレス（Unified Addresses）](https://zips.z.cash/zip-0316)について学んだことがあるかもしれません。
 Zcash業界の人々が*シールドされた*トランザクションについて話すとき、それはsaplingまたはorchardプロトコルのいずれかに対応してエンコードされたアドレスを含むトランザクションを指します。 
 UAは、*あらゆる*種類のシールドされたトランザクションまたは公開型トランザクションを単一のアドレスに統合するよう設計されています。この一般化が、今後UXを簡素化する鍵となります。このガイドの目的は、具体的な視覚的な例を用いてUAへの理解を補うことです。
 

@@ -1,105 +1,105 @@
-# Zero to Zero Knowledge: Mnemonic Seed Phrases
+# Zero to Zero Knowledge: निमोनिक सीड फ्रेज़ (Mnemonic Seed Phrases)
 
-**श्रृंखला:** Zero to Zero Knowledge
+**सीरीज़:** Zero to Zero Knowledge
 
-Mnemonic seed phrases cryptocurrency के सबसे महत्वपूर्ण पहलुओं में से एक — **self-custody** — की आधारशिला हैं।  
-आज हम सीखेंगे कि एक seed phrase कैसे उत्पन्न की जाती है और wallets में उसका उपयोग कैसे होता है।
-
----
-
-## Mnemonic Seed Phrases क्या हैं?
-
-Recovery phrases को **BIP-39** specification द्वारा परिभाषित किया गया है, जो आज उपयोग में आने वाली recovery phrase का सबसे सामान्य प्रकार है।
-
-Recovery phrases का निर्माण **randomness** उत्पन्न करने से शुरू होता है। अधिक entropy का अर्थ है अधिक सुरक्षा। अधिकांश उपयोगकर्ताओं के लिए **128 bits** entropy पर्याप्त मानी जाती है।
-
-![Seed phrase concept](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
-
-प्रारंभिक entropy की लंबाई के आधार पर, recovery phrase **12 से 24 शब्दों** की होगी।
+निमोनिक सीड फ्रेज़ क्रिप्टोकरेंसी के सबसे महत्वपूर्ण पहलुओं में से एक का आधार हैं: **सेल्फ-कस्टडी (self-custody)**।  
+आज हम जानेंगे कि सीड फ्रेज़ कैसे बनाया जाता है और वॉलेट में इसका उपयोग कैसे होता है।
 
 ---
 
-## चरण-दर-चरण: 12-शब्दों वाली Seed Phrase कैसे उत्पन्न की जाती है
+## निमोनिक सीड फ्रेज़ क्या हैं?
 
-### 1. Entropy उत्पन्न करें
-हम **128 bits** entropy उत्पन्न करके शुरुआत करते हैं।
+रिकवरी फ्रेज़ (recovery phrase) **BIP-39** स्पेसिफिकेशन द्वारा परिभाषित होते हैं। आज सबसे अधिक इसी प्रकार के रिकवरी फ्रेज़ का उपयोग होता है।
 
-### 2. Checksum जोड़ें
-हम entropy को **SHA256** का उपयोग करके hash करते हैं। इस hash के शुरुआती कुछ bits checksum बन जाते हैं।  
-यह हमारी entropy के लिए एक अद्वितीय fingerprint देता है।
+रिकवरी फ्रेज़ बनाने की प्रक्रिया **रैंडमनेस (randomness)** उत्पन्न करने से शुरू होती है। जितनी अधिक एन्ट्रॉपी (entropy) होगी, सुरक्षा उतनी ही अधिक होगी। अधिकांश उपयोगकर्ताओं के लिए **128 बिट** एन्ट्रॉपी पर्याप्त मानी जाती है।
 
-![Entropy + Checksum diagram](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+![सीड फ़्रेज़ की अवधारणा](/content-images/FooM3qWWACgrwzn-f222c4081f.webp)
 
-### 3. 11-bit खंडों में विभाजित करें
-कुल 132 bits (128 entropy + 4 checksum) को 11 bits के खंडों में विभाजित किया जाता है।
-
-### 4. Wordlist से मिलान करें
-प्रत्येक 11-bit sequence को एक decimal संख्या (0-2047) में बदला जाता है।  
-BIP-39 wordlists में ठीक **2048 शब्द** होते हैं (English, Spanish, Chinese, आदि)।
-
-इन संख्याओं का उपयोग wordlist में संबंधित शब्द खोजने के लिए किया जाता है।
-
-![Word mapping example](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
-
-**परिणाम:** अब हमारे पास एक सुरक्षित, मानव-पठनीय 12-शब्दों वाली recovery phrase है!
+प्रारंभिक एन्ट्रॉपी की लंबाई के आधार पर रिकवरी फ्रेज़ **12 से 24 शब्दों** का होगा।
 
 ---
 
-## Recovery Phrase -> Seed -> Payment Addresses
+## चरण-दर-चरण: 12 शब्दों का सीड फ्रेज़ कैसे बनता है
 
-Recovery phrase का उपयोग करके, एक wallet payment addresses और अलग-अलग wallet accounts बनाने के लिए keys उत्पन्न कर सकता है।
+### 1. एन्ट्रॉपी उत्पन्न करें
+हम **128 बिट** एन्ट्रॉपी उत्पन्न करके शुरुआत करते हैं।
 
-उत्पन्न की गई keys **deterministic** होती हैं — वही input हमेशा वही output देता है।
+### 2. चेकसम (Checksum) जोड़ें
+हम **SHA256** का उपयोग करके एन्ट्रॉपी को हैश (hash) करते हैं। इस हैश के पहले कुछ बिट चेकसम बन जाते हैं।  
+इससे हमें अपनी एन्ट्रॉपी का एक अनोखा फ़िंगरप्रिंट मिलता है।
 
-### Seed Generation
-Wallet seed, mnemonic phrase से एक **Key Derivation Function (KDF)** का उपयोग करके निकाली जाती है:
+![एन्ट्रॉपी + चेकसम आरेख](/content-images/FooNoOEXgAAu-g6-613238fa7e.webp)
+
+### 3. 11-बिट के हिस्सों में विभाजित करें
+कुल 132 बिट (128 एन्ट्रॉपी + 4 चेकसम) को 11-11 बिट के हिस्सों में बाँटा जाता है।
+
+### 4. शब्द-सूची (Wordlist) से मिलान करें
+हर 11-बिट अनुक्रम को एक दशमलव संख्या (0-2047) में बदला जाता है।  
+BIP-39 शब्द-सूचियों में ठीक **2048 शब्द** होते हैं (अंग्रेज़ी, स्पेनिश, चीनी आदि)।
+
+इन संख्याओं का उपयोग शब्द-सूची में संबंधित शब्द खोजने के लिए किया जाता है।
+
+![शब्द मैपिंग का उदाहरण](/content-images/FooN9rfXEBoQuU2-d11331fc0a.webp)
+
+**परिणाम:** अब हमारे पास एक सुरक्षित, मनुष्यों द्वारा पढ़ा जा सकने वाला 12 शब्दों का रिकवरी फ्रेज़ है!
+
+---
+
+## रिकवरी फ्रेज़ -> सीड -> भुगतान एड्रेस
+
+रिकवरी फ्रेज़ का उपयोग करके वॉलेट ऐसी की (key) बना सकता है जिनसे भुगतान (payment) एड्रेस (address) और अलग-अलग वॉलेट अकाउंट बनाए जाते हैं।
+
+बनाई गई की **डिटर्मिनिस्टिक (deterministic)** होती हैं, यानी एक ही इनपुट से हमेशा एक ही आउटपुट मिलता है।
+
+### सीड जनरेशन
+वॉलेट सीड को निमोनिक फ्रेज़ से **की डेरिवेशन फ़ंक्शन (Key Derivation Function, KDF)** का उपयोग करके प्राप्त किया जाता है:
 
 - **Bitcoin** में: PBKDF2  
 - **Zcash** में: Blake2b-256/512
 
-इससे एक **64-byte (512-bit)** seed उत्पन्न होती है।
+इससे **64-बाइट (512-बिट)** का सीड बनता है।
 
-![Seed to master keys](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
+![सीड से मास्टर कुंजियाँ](/content-images/FooOuumXEAgcBm1-dc7c66b84a.webp)
 
-### Master Keys
-Seed को 32-byte के दो sequence में विभाजित किया जाता है:
-- **Master Spending Key**
-- **Master Chain Code**
+### मास्टर की
+सीड को 32-बाइट के दो अनुक्रमों में बाँटा जाता है:
+- **मास्टर स्पेंडिंग की (Master Spending Key)**
+- **मास्टर चेन कोड (Master Chain Code)**
 
-इनका उपयोग **Hierarchical Deterministic (HD) Wallets** में child key derivation के लिए किया जाता है।
+इनका उपयोग **हायरार्किकल डिटर्मिनिस्टिक (HD) वॉलेट** में चाइल्ड की डेरिवेशन के लिए किया जाता है।
 
 ---
 
-## Zcash की विशिष्ट विशेषताएँ (ZIP-32)
+## Zcash की विशेष सुविधाएँ (ZIP-32)
 
-Zcash में, **viewing authority** या **spending authority** को master seed से समझौता किए बिना sub-trees के लिए स्वतंत्र रूप से delegate किया जा सकता है।
+Zcash में मास्टर सीड से समझौता किए बिना सब-ट्री के लिए **व्यूइंग अधिकार (viewing authority)** या **स्पेंडिंग अधिकार (spending authority)** अलग-अलग सौंपे जा सकते हैं।
 
-**ZIP-32** hierarchical deterministic key generation standard को परिभाषित करता है, जिसे Zcash की privacy features के अनुरूप अनुकूलित किया गया है।
+**ZIP-32** हायरार्किकल डिटर्मिनिस्टिक की जनरेशन का वह मानक है जिसे Zcash की गोपनीयता (privacy) सुविधाओं के अनुसार ढाला गया है।
 
-एक **Expanded Spending Key** से हम प्राप्त करते हैं:
+एक **एक्सपैंडेड स्पेंडिंग की (Expanded Spending Key)** से हम ये प्राप्त करते हैं:
 - Full Viewing Key
 - Incoming Viewing Key
-- payment addresses का एक set
+- भुगतान एड्रेस का एक समूह
 
-अलग-अलग derivation mechanisms ऐसी external addresses उत्पन्न करते हैं जो shielded pools (Sapling & Orchard) के बीच senders को देने के लिए उपयुक्त होती हैं।
+अलग-अलग डेरिवेशन प्रणालियाँ ऐसे बाहरी एड्रेस बनाती हैं जिन्हें शील्डेड (shielded) पूल (pool) (Sapling और Orchard) में भेजने वालों को दिया जा सकता है।
 
-![Zcash key derivation hierarchy](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
+![Zcash कुंजी व्युत्पत्ति पदानुक्रम](/content-images/FooPKd4XEBUQhJ6-af133c01bf.webp)
 
-Zcash wallet operations जैसे Auto-Shielding के लिए **internal addresses** का भी समर्थन करता है।
+Zcash ऑटो-शील्डिंग जैसे वॉलेट कार्यों के लिए **आंतरिक एड्रेस (internal addresses)** का भी समर्थन करता है।
 
 ---
 
 ## संसाधन
 
-- [ZIP-32: Shielded Hierarchical Deterministic Wallets](https://zips.z.cash/zip-0032)  
-- [Zcash Protocol Specification (NU5)](https://zips.z.cash/protocol/protocol.pdf)  
-- [Shielded-by-default wallets का अवलोकन](https://zechub.wiki)
+- [ZIP-32: शील्डेड हायरार्किकल डिटर्मिनिस्टिक वॉलेट](https://zips.z.cash/zip-0032)  
+- [Zcash प्रोटोकॉल स्पेसिफिकेशन (NU5)](https://zips.z.cash/protocol/protocol.pdf)  
+- [डिफ़ॉल्ट रूप से शील्डेड वॉलेट का अवलोकन](https://zechub.wiki)
 
 ---
 
-**ZecHub (@ZecHub) द्वारा मूल Thread**  
+**मूल थ्रेड: ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1624125037945946145
 
 ---
 
-*यह पृष्ठ ZecHub wiki के लिए मूल Zero to Zero Knowledge thread से संकलित किया गया था।*
+*यह पेज ZecHub विकि के लिए मूल Zero to Zero Knowledge थ्रेड से संकलित किया गया है।*

@@ -12,6 +12,18 @@ NU6 是一次 Zcash [网络升级](../start-here/network-upgrades)，由 [ZIP 25
 
 这很重要。Zcash 的 [开发基金](../zcash-tech/canopy) 原计划在其历史上第二次减半，即 2024 年 11 月前后结束。NU6 延续了这笔资金，但没有将每一枚币都交给固定接收方，而是在协议内预留了一部分，使社区可以稍后决定如何使用。它还填补了一个不易察觉的会计缺口，因此 ZEC 最终将存在的总量现在可以被精确预测。
 
+## 简要总结（TL;DR）
+
+- NU6 于区块 2,726,400（2024 年 11 月 23 日 UTC）在主网激活，由 ZIP 253 部署。
+- 它在 2024 年 11 月减半后继续将区块补贴的 20% 用于开发：8% 给 Zcash Community Grants（ZCG），12% 进入新的延期开发基金锁箱（Deferred Dev Fund Lockbox）（ZIP 2001）。
+- 该锁箱是协议内的储备，没有指定支出方。NU6 有意将治理（governance）问题留待解决，之后由 NU6.1（2025）给出了答案。
+- ZIP 236 现在要求每笔 coinbase 交易（transaction）都必须精确平衡，因此矿工（miner）不会再少领奖励而意外销毁 ZEC。未来的总供应量因此可以被精确预测。
+- 余额、隐私（privacy）和交易规则均未改变：NU6 是一次针对资金和记账的升级。
+
+## 直观类比
+
+把 NU6 想象成一个家庭：它一直向建设者支付固定的津贴，并且知道发薪日即将按计划结束。NU6 没有停止支付，而是将这笔津贴一分为二：一部分继续拨给社区拨款委员会，另一部分存入一个家庭保险箱，而这个保险箱的密码至今尚未公布。保险箱会把这笔钱一直留存，直到这个家庭日后就开启它的规则达成一致——这一协议就是 NU6.1。
+
 ## NU6 改变了什么
 
 NU6 在 2024 年 11 月减半后继续将区块补贴的 20% 用于开发资金，这项规则定义于 [ZIP 1015](https://zips.z.cash/zip-1015)。它将这 20% 分为两部分。
@@ -52,6 +64,14 @@ NU6 是 Zcash 如何为自身支付费用这一更长故事中的一个章节。
 3. NU6.1（2025 年）回答了 NU6 留下的问题，即谁控制预留资金；它将区块补贴的 8% 延续至 Zcash Community Grants，并将 12% 导入由持币人控制、以锁箱为种子资金的基金。
 
 ![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
+
+## 常见错误
+
+- **误以为 NU6 改变了货币政策。** 发行计划和减半（halving）时间均未改变；NU6 改变的是谁获得一部分补贴，而不是新发行多少 ZEC。
+- **把锁箱（lockbox）与基金会钱包（wallet）混为一谈。** 递延开发基金锁箱（Deferred Dev Fund Lockbox）是由共识（consensus）追踪的链（chain）上价值池，而不是任何人都可以从中花费的地址（address）。
+- **以为 NU6.1 和 NU6 是同一次升级。** NU6 设立了这笔储备金；NU6.1 决定了由谁控制它：8% 归 ZCG，12% 归一个由代币持有者控制的基金。
+- **认为精确余额规则（ZIP 236）会改变用户的代币。** 它约束的是 coinbase 交易（transaction），即每个区块（block）的发行支付（payment），而不是现有余额或普通交易。
+- **以为 20% 的开发份额是新设的。** 20% 的开发资金自 Canopy 起就已存在；NU6 将其延续到减半之后，并拆分为 8% ZCG / 12% 锁箱。
 
 ## 术语表
 
@@ -115,5 +135,14 @@ NU6 设立了 Deferred Dev Fund Lockbox，但没有说明谁控制它。为什�
 [什么是 ZEC 以及 Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
+
+## 相关页面
+
+| 页面 | 相关原因 |
+|---|---|
+| [Canopy](./Canopy.md) | 创建了开发基金，该基金后由 NU6 重组 |
+| [NU6.1](./NU6_1.md) | 决定了由谁控制锁箱资金 |
+| [NU6.2](./NU6_2.md) | 同一系列中的 Orchard 紧急修复升级 |
+| [开发基金 (Development Fund)](../start-here/development-fund) | 20% 份额背后的资金历史 |
 
 系列：[网络升级索引](../start-here/network-upgrades) · 上一篇：[NU5](../zcash-tech/nu5) · 下一篇：[NU6.1](../zcash-tech/nu6-1)

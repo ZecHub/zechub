@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Guida all'integrazione Zcash Snap di MetaMask
+
+> Conserva e invia ZEC schermati dall'estensione del browser MetaMask, utilizzando Zcash Snap di ChainSafe e il portafoglio web WebZjs.
+
+## In breve
+
+* ChainSafe Zcash Snap aggiunge ZEC schermato a MetaMask su desktop (Chrome, Edge, Firefox). Non è necessario alcun software Zcash separato.
+* Le tue chiavi Zcash derivano dalla tua frase di recupero MetaMask. Questa singola frase ora protegge sia i tuoi ETH sia i tuoi ZEC.
+* Gestisci ZEC tramite il portafoglio WebZjs su webzjs.chainsafe.dev, non nell'elenco di asset di MetaMask.
+* Il tuo account riceve un indirizzo unificato, quindi chi invia può pagarti nella pool più privata supportata.
+* Finanzialo effettuando uno scambio (ad esempio da ETH a ZEC) oppure prelevando ZEC da un exchange al tuo indirizzo schermato.
+* Recupero: reinstalla MetaMask e Snap, quindi importa la tua frase di recupero esistente.
+
+## Spiegazione principale
+
+Uno MetaMask Snap è un piccolo componente aggiuntivo in sandbox che insegna a MetaMask a gestire una nuova blockchain. Il Zcash Snap, sviluppato da ChainSafe e sottoposto ad audit da Hacken, consente a MetaMask di derivare chiavi di Zcash dalla tua frase mnemonica esistente e firmare transazioni Zcash.
+
+MetaMask non mostra direttamente un saldo ZEC. Il portafoglio web WebZjs si collega invece a Snap, si sincronizza con la rete Zcash tramite un server lightwalletd e mostra i tuoi indirizzi e il tuo saldo. Le prove schermate vengono calcolate nel tuo browser con WebAssembly, perciò gli invii possono richiedere qualche istante.
+
+I passaggi seguenti illustrano come installare Snap, connettere WebZjs, finanziare il portafoglio, inviare e ricevere, e controllare le parti del tuo indirizzo unificato.
+
+## Guida completa
 
 Per una guida completa e una spiegazione visiva, guarda questa [**guida YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 

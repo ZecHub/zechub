@@ -93,5 +93,5 @@ Firn을 사용하려면 프로토콜에 ETH를 예치하세요. Firn 잔액이 �
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO는 레이어 1 퍼블릭 블록체인입니다. TomoChain은(는) TomoChain 위에서 개발된 프라이버시 프로토콜로, 안전하고 추적 불가능한 거래를 만들도록 설계되었습니다 -**자산 스왑**: 예- [백서](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (구 TomoChain)](https://viction.xyz/ecosystem)**: VIC(구 TOMO)는 레이어 1 퍼블릭 블록체인입니다. TomoChain은(는) TomoChain 위에서 개발된 프라이버시 프로토콜로, 안전하고 추적 불가능한 거래를 만들도록 설계되었습니다 -**자산 스왑**: 예- [백서](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

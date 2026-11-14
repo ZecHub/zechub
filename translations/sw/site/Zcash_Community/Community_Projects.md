@@ -59,8 +59,8 @@ Jukwaa la ushirikishaji na zawadi za jumuiya lililoundwa kwa jumuiya za Zcash, m
 [Tembelea](https://gleyo.app/)
 
 ### Kitovu cha Ruzuku cha Zcash
-Dashibodi [dashboard] ya ruzuku inayolenga jumuiya, iliyoundwa kurahisisha jinsi ruzuku za Zcash zinavyogunduliwa, kufuatiliwa, na kukaguliwa. Inakusanya maombi ya ruzuku, hatua muhimu, bajeti, mijadala, na uchanganuzi mahali pamoja kwa kuvuta data ya moja kwa moja kutoka hazina ya Zcash Community Grants GitHub. Jukwaa linalenga kutoa uzoefu ulio wazi zaidi na rafiki kwa watumiaji kwa waombaji, wanachama wa kamati, na wakaguzi wa jumuiya.  
-[Tembelea](https://staging.zgrantshub.com/)
+Dashibodi (dashboard) ya ruzuku inayolenga jumuiya, iliyoundwa kurahisisha jinsi ruzuku za Zcash zinavyogunduliwa, kufuatiliwa, na kukaguliwa. Inakusanya maombi ya ruzuku, hatua muhimu, bajeti, mijadala, na uchanganuzi mahali pamoja kwa kuvuta data ya moja kwa moja kutoka hazina ya Zcash Community Grants GitHub. Jukwaa linalenga kutoa uzoefu ulio wazi zaidi na rafiki kwa watumiaji kwa waombaji, wanachama wa kamati, na wakaguzi wa jumuiya.  
+[Tembelea](https://zgrantshub.com/)
 
 ---
 
@@ -303,6 +303,10 @@ Jukwaa la AI linalotoa ufikiaji wa miundo mingi bora ya AI huku likisaidia malip
 ### zk.poker
 Jukwaa la poker la rika-kwa-rika linalounganisha usimbaji fiche wa mwanzo-hadi-mwisho, poker ya kiakili, na teknolojia ya faragha ya Zcash. Limeundwa ili mwendeshaji asihitaji kujua kadi za wachezaji wala kushikilia moja kwa moja fedha za kamari.  
 [Tembelea](https://zkbtc.org/)
+
+### ZKöy
+Mchezo wa sherehe wa mtindo wa Werewolf kwa vikundi vilivyo katika chumba kimoja. Wachezaji hujiunga kupitia simu zao; kila chaguo la usiku na kila kura hufungwa kama ujumbe wa faragha (shielded memo) kwenye testnet ya Zcash. Mchezo unapoisha, seed, salt na ufunguo wa kutazama (viewing key) hufichuliwa ili mtu yeyote aweze kuthibitisha matokeo on-chain.  
+[Tembelea](https://zkoy.fun)
 
 ---
 
