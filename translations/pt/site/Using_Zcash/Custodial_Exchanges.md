@@ -1,35 +1,35 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Custodial_Exchanges.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Corretoras custodiantes
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Texto alternativo" width="50"/>   Corretoras custodiantes
 
-Ironwood é o pool blindado que chegou com a atualização da rede de julho de 2026. As corretoras que lidam apenas com endereços t transparentes nunca o utilizam, por isso estão marcadas como não aplicáveis. Quando uma corretora lida com endereços blindados, mas não informou qual pool usa, a linha indica isso em vez de adivinhar.
+Ironwood é a pool blindada que chegou com a atualização da rede de julho de 2026. Corretoras que trabalham apenas com endereços t transparentes nunca a utilizam, por isso estão marcadas como não aplicável. Quando uma corretora trabalha com endereços blindados, mas não informou qual pool usa, a linha indica isso em vez de tentar adivinhar.
 
 ---
 
 ### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
 
 <a href="https://altquick.com/market/zcash-bitcoin/">
-    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logo da AltQuick" width="200" height="100"/>
 </a>
 
 - Site: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
 - Pares: ZEC/BTC
 - Suporta: Transparente
 - Tempo de depósito: Cerca de 30 minutos (24 confirmações)
-- Ironwood: Não se aplica, apenas endereços transparentes
+- Ironwood: Não aplicável, apenas endereços transparentes
 ___
 
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
-    <img src="/content-images/_unavailable.svg" alt="Backpack Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logo da Backpack" width="200" height="100"/>
 </a>
 
 - Site: [Backpack](https://backpack.exchange)
 - Pares: ZEC/USDC | ZEC-PERP
-- Suporta: Depósitos e saques ativados. Tipos de endereço não informados
+- Suporta: Depósitos e saques habilitados. Tipos de endereço não informados
 - Tempo de depósito: Não informado
 - Ironwood: Não informado
 ___
@@ -37,7 +37,7 @@ ___
 ### [Binance](https://binance.com)
 
 <a href="https://binance.com">
-    <img src="/content-images/_unavailable.svg" alt="Binance Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logo da Binance" width="200" height="100"/>
 </a>
 
 - Site: [Binance](https://binance.com)
@@ -50,20 +50,20 @@ ___
 ### [BitcoinVN](https://bitcoinvn.io)
 
 <a href="https://bitcoinvn.io">
-    <img src="/content-images/_unavailable.svg" alt="BitcoinVN Logo" width="200" height="100"/>
+    <img src="/content-images/_unavailable.svg" alt="Logo da BitcoinVN" width="200" height="100"/>
 </a>
 
 - Site: [BitcoinVN](https://bitcoinvn.io)
 - Pares: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
 - Suporta: Transparente | Blindado (depósito e saque em endereço z)
-- Tempo de depósito: Instantâneo (conversão sem custódia)
+- Tempo de depósito: Instantâneo (conversão não custodiante)
 - Ironwood: Não informado
 ___
 
 ### [Bitfinex](https://bitfinex.com)
 
 <a href="https://bitfinex.com">
-    <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Bitfinex Logo" width="200" height="100"/>
+    <img src="https://upload.wikimedia.org/wikipedia/en/4/41/Bitfinex_Logo_light.svg" alt="Logo da Bitfinex" width="200" height="100"/>
 </a>
 
 - Site: [Bitfinex](https://bitfinex.com)
@@ -89,25 +89,26 @@ ___
  ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
-    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
+    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Logo da corretora custodiante Gemini" width="200" height="100"/>
 </a>
 
 - Site: [Gemini](https://gemini.com)
 - Pares: TODOS/ZEC
-- Suporta: Saques transparentes | blindados e unificados, Orchard desde novembro de 2025
+- Suporta: Transparente | Saques blindados e unificados, Orchard desde novembro de 2025
 - Tempo de depósito: 50 minutos 
-- Ironwood: Saques blindados suportados, pool não informado
+- Ironwood: Saques blindados suportados, pool não informada
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
-    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
+<a href="https://www.htx.com">
+    <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Logo da Huobi" width="200" height="100"/>
 </a>
 
-- Site: [Huobi](https://huobi.com)
+- Site: [HTX](https://www.htx.com) (antiga Huobi)
 - Pares: TODOS/ZEC
 - Suporta: Transparente
+- Status: Depósitos e saques de ZEC atualmente suspensos (segundo a API pública da HTX, novembro de 2026); negociação à vista ainda listada
 - Tempo de depósito: 35 minutos 
 - Ironwood: Não aplicável, apenas endereços transparentes
 ___
@@ -115,7 +116,7 @@ ___
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
-    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
+    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Imagem promocional da Kraken" width="200" height="100"/>
 </a>
 
 - Site: [Kraken](https://kraken.com)
@@ -128,7 +129,7 @@ ___
 ### [KuCoin](https://kucoin.com)
 
 <a href="https://kucoin.com">
-    <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="KuCoin Logo" width="200" height="100"/>
+    <img src="/content-images/kucoin-ee0c21f9fd.svg" alt="Logo da KuCoin" width="200" height="100"/>
 </a>
 
 - Site: [KuCoin](https://kucoin.com)
@@ -138,10 +139,10 @@ ___
 - Ironwood: Não aplicável, apenas endereços transparentes
 ___
 
-## [OKX (anteriormente OKEx)](https://www.okx.com)
+## [OKX (antiga OKEx)](https://www.okx.com)
 
 <a href="https://www.okx.com">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="Logo da OKX (exibido com a antiga marca OKEx)" width="200" height="100"/>
 </a>
 
 - Site: [OKX](https://www.okx.com)
@@ -154,7 +155,7 @@ ___
 ### [Robinhood](https://robinhood.com)
 
 <a href="https://robinhood.com">
-    <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Robinhood Logo" width="200" height="100"/>
+    <img src="/content-images/IMG-5725-7f964c1fdb.webp" alt="Logo da Robinhood" width="200" height="100"/>
 </a>
 
 - Site: [Robinhood](https://robinhood.com)

@@ -1,50 +1,50 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/New_User_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Guia para novos usuários do Zcash
+# Guia do novo usuário do Zcash
 
-## Resumo rápido
+## Resumo
 
-- **Compre ZEC** em uma corretora compatível (Gemini, BitcoinVN, etc.)
+- **Compre ZEC** em uma corretora compatível (Gemini, BitcoinVN etc.)
 - **Configure uma carteira blindada** (recomendamos Zodl, Zingo ou Zkool)
-- **Retire** seu ZEC da corretora para sua carteira blindada
-- **Envie uma transação blindada** — seu primeiro pagamento privado no Zcash
-- **Junte-se à comunidade** no fórum ou no Discord
+- **Saque** seus ZEC da corretora para sua carteira blindada
+- **Envie uma transação blindada**: seu primeiro pagamento privado no Zcash
+- **Participe da comunidade** no fórum ou no Discord
 
 ---
 
-É novo no Zcash? Este guia vai orientar você no processo de entrada como usuário do Zcash e detentor de *ZEC*.
+É novo no Zcash? Este guia mostra como começar como usuário do Zcash e detentor de *ZEC*.
 
 ---
 
 **Compre ZEC**
 
-Para usar a rede Zcash, você precisará comprar sua moeda, *ZEC*.
+Para usar a rede Zcash, você precisará comprar sua moeda, o *ZEC*.
 
-A maneira mais fácil de adquirir ZEC é [comprá-lo na Gemini](https://www.gemini.com/prices/zcash) ou [em qualquer uma destas corretoras](https://zechub.wiki/using-zcash/custodial-exchanges).
+A maneira mais fácil de adquirir ZEC é [comprá-lo na Gemini](https://www.gemini.com/prices/zcash) ou em [qualquer uma destas corretoras](https://zechub.wiki/using-zcash/custodial-exchanges).
 
-Uma observação importante é que você não precisa comprar 1 *ZEC* inteiro.
+Um ponto importante: você não precisa comprar 1 *ZEC* inteiro.
 
-*ZEC* é divisível, e você pode começar comprando apenas uma fração da moeda.
+O *ZEC* é divisível, e você pode começar comprando apenas uma fração da moeda.
 
 ---
 
 **Configure uma carteira**
 
-Depois de comprar algum *ZEC*, talvez você queira movê-lo para uma carteira Zcash. 
+Depois de comprar alguns *ZEC*, talvez você queira transferi-los para uma carteira Zcash. 
 
-Este [artigo explica](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) por que é importante manter *ZEC* em uma carteira. 
+Este [artigo explica](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) por que é importante manter seus *ZEC* em uma carteira. 
 
-Recomendamos usar uma [carteira blindada](https://zechub.wiki/wallets) porque essas carteiras oferecem os recursos de privacidade que tornam o *ZEC* único. 
+Recomendamos usar uma [carteira blindada](https://zechub.wiki/wallets), porque essas carteiras oferecem os recursos de privacidade que tornam o *ZEC* único. 
 
-Aqui está um vídeo analisando carteiras blindadas modernas:
+Veja um vídeo que analisa as carteiras blindadas modernas:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
-    title="Carteiras Blindadas de Zcash Explicadas"
+    title="Zcash Shielded Wallets Explained"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -55,17 +55,17 @@ Aqui está um vídeo analisando carteiras blindadas modernas:
 
 ---
 
-**Retire ZEC**
+**Saque ZEC**
 
-Depois de criar sua carteira, você vai querer retirar seu ZEC para essa carteira. 
+Depois de criar sua carteira, você vai querer sacar seus ZEC para ela. 
 
-Aqui está um tutorial sobre como fazer isso.
+Veja um tutorial de como fazer isso.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Avweu5V9QRc"
-    title="Coinbase + Zashi: Compre Zcash e Blinde Instantaneamente"
+    title="Coinbase + Zashi: Buy Zcash & Shield Instantly"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -77,13 +77,13 @@ Aqui está um tutorial sobre como fazer isso.
 
 **Envie uma transação blindada**
 
-Depois de depositar algum ZEC em sua carteira, você já pode enviar uma transação totalmente blindada e privada. Uma transação blindada é uma transferência de ZEC que protege totalmente a privacidade de cada participante. Aqui estão algumas dicas úteis ao usar ZEC blindado.
+Depois de depositar alguns ZEC na sua carteira, você está pronto para enviar uma transação privada e totalmente blindada. Uma transação blindada é uma troca de ZEC que protege totalmente a privacidade de cada participante. Veja algumas dicas úteis para usar ZEC blindado.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/tEfQaYPV0UE"
-    title="Dicas Úteis ao usar Zcash 🔒"
+    title="Useful Tips when using Zcash 🔒"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -94,22 +94,22 @@ Depois de depositar algum ZEC em sua carteira, você já pode enviar uma transa�
 
 **Participe do fórum**
 
-O Fórum da Comunidade Zcash é o lugar onde membros da comunidade Zcash discutem tudo relacionado ao Zcash. Também temos um servidor no Discord.
+O fórum da comunidade Zcash é o lugar onde os membros da comunidade Zcash discutem tudo o que está relacionado ao Zcash. Também temos um servidor no Discord.
 
-[Fórum da Comunidade Zcash](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
+[Fórum da comunidade Zcash](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
 
-A comunidade é apaixonada e muito acolhedora com novos membros. Às vezes as conversas podem ser técnicas, mas não se preocupe! Se você tiver alguma dúvida, pode perguntar.
+A comunidade é apaixonada e muito acolhedora com novos membros. Às vezes as conversas podem ser técnicas, mas não se preocupe! Se tiver alguma dúvida, é só perguntar.
 
 <a href="">
-    <img width="auto" height="200" alt="logo-horizontal-transparente-zcash" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---
 
 ## Páginas relacionadas
 
-- [O que são ZEC e Zcash](/start-here/what-is-zec-and-zcash) — Entenda o básico antes de começar
-- [Comprar ZEC](/using-zcash/buying-zec) — Lista completa de corretoras que oferecem retiradas blindadas
-- [Carteiras](/using-zcash/wallets) — Compare todas as carteiras Zcash por recursos e plataforma
-- [Pools blindados](/using-zcash/shielded-pools) — Entenda por que as transações blindadas são importantes
-- [Transações](/using-zcash/transactions) — Como enviar e receber ZEC com privacidade
+- [O que é ZEC e Zcash](/start-here/what-is-zec-and-zcash): entenda o básico antes de começar
+- [Comprando ZEC](/using-zcash/buying-zec): lista completa de corretoras compatíveis com saques blindados
+- [Carteiras](/using-zcash/wallets): compare todas as carteiras Zcash por recursos e plataforma
+- [Pools blindados](/using-zcash/shielded-pools): saiba por que as transações blindadas são importantes
+- [Transações](/using-zcash/transactions): como enviar e receber ZEC de forma privada

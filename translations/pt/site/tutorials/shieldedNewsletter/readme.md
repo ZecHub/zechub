@@ -3,12 +3,12 @@
 
 ## Configuração
 
- * Nó Zebrad em execução e totalmente sincronizado, com RPCs ativados e configurado para usar cookies
+ * Nó Zebrad em execução e totalmente sincronizado, com os RPCs ativados e configurado para usar cookies
  * zainod totalmente sincronizado
  * Zallet configurado para executar RPCs
 
 
-### Iniciar a Zallet
+### Inicie o Zallet
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
@@ -72,17 +72,17 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-Modifique a porta correta do RPC do zebrad (8232) e inclua o nome de usuário e a senha do cookie do zebrad
+Altere para a porta RPC correta do zebrad (8232) e inclua o nome de usuário e a senha do cookie do zebrad
 
 
 `__cookie__:yourpasswordhere`
 
 
-### Testar RPC
+### Teste o RPC
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
-Deve retornar
+A saída deve ser
 
 ```bash
 getrawtransaction
@@ -107,16 +107,16 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-Observação: certifique-se de ter uma cópia do executável do zallet na pasta onde você executa o script
+Observação: certifique-se de ter uma cópia do executável da zallet na pasta onde você executa o script
 
-### Executar scripts
+### Execute os scripts
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-Atualize daoAddress.md com os UAs que você deseja usar
+Atualize o daoAddress.md com os UAs que você deseja usar
 
-Abra txBuilderFromFile.sh e atualize a variável "from" para o UA com fundos que estão na sua carteira zallet
+Abra o txBuilderFromFile.sh e atualize a variável "from" com o UA com saldo que está na sua carteira zallet
 
-Depois,
+Em seguida,
 
 `./shieldNewsletter.sh yourNewsletterHere.md`

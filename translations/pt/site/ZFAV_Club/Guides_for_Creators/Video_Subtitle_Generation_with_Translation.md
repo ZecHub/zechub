@@ -1,5 +1,5 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Video_Subtitle_Generation_with_Translation.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Geração e tradução de legendas de vídeo
@@ -7,20 +7,20 @@
 Ferramentas usadas neste guia:
 
 1. CapCut
-2. [Exportação SRT do CapCut](https://www.biyaoyun.com/capcutsrt)
+2. [Exportação de SRT do CapCut](https://www.biyaoyun.com/capcutsrt)
 3. Editor de texto
 4. [Tradutor e editor de legendas online](https://www.syedgakbar.com/projects/dst)
 
-Comece importando a edição final do seu vídeo para o CapCut. Como alternativa, você pode usar o CapCut para editar o vídeo antes de continuar este processo.
+Comece importando a edição final do seu vídeo no CapCut. Se preferir, você também pode usar o CapCut para editar o vídeo antes de continuar este processo.
 
-Com o vídeo final carregado no CapCut, use a [Exportação SRT do CapCut](https://www.biyaoyun.com/capcutsrt) para obter o arquivo de legendas, com carimbos de tempo, do projeto do CapCut.
+Com o vídeo final carregado no CapCut, use a [Exportação de SRT do CapCut](https://www.biyaoyun.com/capcutsrt) para obter o arquivo de legendas, com as marcações de tempo, a partir do projeto do CapCut.
 
-Abra o arquivo SRT em um editor de texto e assista ao vídeo enquanto acompanha o arquivo SRT, fazendo alterações no arquivo SRT quando encontrar erros. Use localizar e substituir para **substituir tudo** a cada erro.
+Abra o arquivo SRT em um editor de texto e assista ao vídeo inteiro acompanhando a leitura no arquivo SRT. Corrija o arquivo SRT sempre que encontrar erros. Use a função de localizar e substituir com **substituir tudo** para cada erro.
 
-Dica: assista ao vídeo em 2x enquanto verifica as legendas
+Dica: assista ao vídeo em velocidade 2x enquanto confere as legendas
 
-Depois que a transcrição original tiver sido verificada e corrigida, envie o arquivo SRT para o [Tradutor e editor de legendas online](https://www.syedgakbar.com/projects/dst) para traduzir o arquivo SRT para qualquer outro idioma por uma pequena taxa.
+Depois de revisar e corrigir a transcrição original, envie o arquivo SRT para o [Tradutor e editor de legendas online](https://www.syedgakbar.com/projects/dst) para traduzi-lo para qualquer outro idioma por uma pequena taxa.
 
-O arquivo SRT traduzido deve ser verificado em um software de edição de vídeo por alguém que entenda o idioma traduzido.
+O arquivo SRT traduzido deve ser conferido em um software de edição de vídeo por alguém que entenda o idioma da tradução.
 
-Arquivos SRT traduzidos às vezes precisam de ajustes nos códigos de tempo, que são fáceis de encontrar e corrigir com a maioria dos softwares de edição de vídeo.
+Às vezes, os arquivos SRT traduzidos precisam de ajustes nos timecodes, que são fáceis de encontrar e corrigir na maioria dos softwares de edição de vídeo.

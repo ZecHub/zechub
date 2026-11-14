@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Plataformas de corretoras centralizadas
+# Plataformas centralizadas de conversão
 
-ZecHub não endossa nenhum serviço de corretora específico; faça sua própria pesquisa.
+O ZecHub não endossa nenhum serviço de corretora em particular, faça sua própria pesquisa.
 
-Cada título `###` abaixo corresponde a um cartão em https://zechub.wiki/using-zcash/centralizedswaps.
-Adicione, edite ou remova um bloco aqui; a wiki o obtém deste arquivo.
+Cada título `###` abaixo é um card em https://zechub.wiki/using-zcash/centralizedswaps.
+Adicione, edite ou remova um bloco aqui; o wiki o lê a partir deste arquivo.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
 - Site: https://letsexchange.io/
-- Descrição: Um hub de conversão de criptomoedas com mais de 4.500 criptomoedas, alta liquidez, conversões cross-chain, on- & off-ramp, DEX e transações rápidas e seguras.
+- Descrição: Um hub de corretora cripto com mais de 4.500 criptomoedas, alta liquidez, conversões cross-chain, on-ramp e off-ramp, DEX e transações rápidas e seguras.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Site: https://app.near-intents.org/
-- Descrição: Conversão rápida com o apoio da NEAR. Faça depósitos, venda e troque os populares memes TRUMP, MELANIA, BERA e outros.
+- Descrição: Corretora rápida com suporte a NEAR. Faça depósitos, venda e faça conversões, incluindo os populares TRUMP, MELANIA, BERA e outras memecoins
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Site: https://private.shapeshift.com/
-- Descrição: Sua carteira. Um aplicativo. Oportunidades infinitas · Negocie Bitcoin, Ethereum e mais com as melhores taxas nas principais DEXs e agregadores.
+- Descrição: Sua carteira. Um app. Oportunidades infinitas · Negocie Bitcoin, Ethereum e muito mais com as melhores cotações entre as principais DEXs e agregadores
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
 - Site: https://stealthex.io/
-- Descrição: StealthEX é uma plataforma de conversão instantânea de criptomoedas para conversões ilimitadas, cujo serviço não requer registro nem armazena os fundos dos usuários na plataforma. StealthEX é o melhor lugar para comprar criptomoedas.
+- Descrição: A StealthEX é uma corretora instantânea de criptomoedas para conversões ilimitadas, cujo serviço não exige cadastro e não armazena os fundos do usuário na plataforma. A StealthEX é o melhor lugar para comprar criptomoedas.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - Site: https://changelly.com/
-- Descrição: Changelly é uma plataforma de conversão instantânea de criptomoedas, reconhecida por suas baixas taxas no setor, de até 0,25% nas conversões de criptomoedas. Também corresponde à definição da plataforma de conversão de criptomoedas mais versátil.
+- Descrição: A Changelly é uma corretora de criptomoedas de execução instantânea, gloriosamente conhecida por suas taxas, das mais baixas do setor, de até 0,25% nas operações com cripto. Ela também se encaixa na definição de corretora cripto mais versátil.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Site: https://flyp.me/en/#/
-- Descrição: A plataforma de conversão flyp.me sem conta e o FYP Token nasceram para proteger a privacidade, promover a descentralização, apoiar a propriedade de base e fomentar uma comunidade que acredita no consenso.
+- Descrição: A corretora sem conta flyp.me e o FYP Token nasceram para proteger a privacidade, promover a descentralização, apoiar a propriedade de base e fomentar uma comunidade que acredita no consenso.
 
 ___
 
@@ -68,13 +68,13 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - Site: https://exolix.com
-- Descrição: Troque instantaneamente mais de 1311 criptomoedas, pela melhor taxa e sem registro.
+- Descrição: Troque mais de 1311 criptomoedas instantaneamente, com a melhor cotação e sem cadastro
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Site: https://trocador.app/
 - Descrição: Negocie criptomoedas anonimamente. Rápido. Seguro. Sem burocracia. Cartões de débito pré-pagos disponíveis.
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Site: https://dex.decred.org/
-- Descrição: Negocie criptomoedas peer-to-peer. Sem taxas de negociação. Sem KYC. Corretora descentralizada criada pelo Decred Project.
+- Descrição: Negocie cripto peer to peer. Sem taxas de negociação. Sem KYC. Corretora descentralizada criada pelo Decred Project.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Site: https://github.com/firoorg/FiroDEX-Desktop
-- Descrição: Conversões descentralizadas sem necessidade de confiança, utilizando conversões atômicas com FiroDEX!.
+- Descrição: App desktop de atomic swap. Não é mais mantido: o Firo arquivou o repositório FiroDEX-Desktop, e a última versão é a 0.8.2-beta (fev 2025).
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
 - Site: https://changenow.io/?from=usdterc20&to=zec
-- Descrição: Plataforma de conversão de criptomoedas WEB 3 ilimitada – simples, rápida e sem custódia.
+- Descrição: Corretora cripto WEB 3 ilimitada – simples, rápida e sem custódia.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - Site: https://ff.io
-- Descrição: Conversão instantânea e totalmente automática de criptomoedas com Lightning Network.
+- Descrição: Corretora de criptomoedas instantânea e totalmente automática, com Lightning Network.
 
 ___
 
@@ -122,7 +122,7 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - Site: https://xchange.me/
-- Descrição: Plataforma de conversão anônima de criptomoedas, econômica, confiável, AlwaysOnTime e sem nenhum registro. Espelho Tor dedicado disponível.
+- Descrição: Corretora de criptomoedas anônima, barata, confiável, AlwaysOnTime e sem nenhum cadastro. Espelho dedicado no Tor disponível.
 
 ___
 
@@ -131,7 +131,7 @@ ___
 <img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Site: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Descrição: Plataforma de conversão instantânea de Bitcoin e criptomoedas no Vietnã. Compre, venda ou troque entre 80 ativos, incluindo VND, BTC, XMR, USDT, ETH, BCH, SOL.
+- Descrição: Corretora instantânea de Bitcoin e criptomoedas no Vietnã. Compre, venda ou faça conversões entre 80 ativos, incluindo VND, BTC, XMR, USDT, ETH, BCH, SOL
 
 ___
 
@@ -140,4 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Site: https://leodex.io/
-- Descrição: Conversões cross-chain sem conta e sem KYC. Envie BTC, ETH e mais a partir de qualquer carteira, corretora ou armazenamento a frio para um endereço de depósito de uso único e receba ZEC — não é necessária conexão à carteira.
+- Descrição: Conversões cross-chain sem conta e sem KYC. Envie BTC, ETH e outros de qualquer carteira, corretora ou cold storage para um endereço de depósito de uso único e receba ZEC — sem precisar conectar uma carteira.

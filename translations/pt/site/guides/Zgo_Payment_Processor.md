@@ -1,130 +1,130 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Zgo_Payment_Processor.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Processador de pagamentos ZGo: aceitando Zcash sem custódia
 
-O ZGo é um processador de pagamentos sem custódia para o Zcash. Um cliente paga em ZEC a partir da própria carteira, o ZGo monitora a blockchain do Zcash em busca da transação, e os fundos chegam diretamente à carteira do comerciante por meio de uma transferência blindada. O ZGo nunca fica com o dinheiro no intervalo.
+O ZGo é um processador de pagamentos não custodiante para Zcash. O cliente paga em ZEC a partir da própria carteira, o ZGo monitora a blockchain do Zcash em busca da transação e os fundos chegam diretamente à carteira do comerciante por meio de uma transferência blindada. O ZGo nunca retém o dinheiro no meio do caminho.
 
-Este guia explica como o fluxo de pagamento funciona, como configurar uma conta e como integrar o ZGo com o Xero e o WooCommerce. Também aborda os dois erros que causam a maioria dos problemas na configuração inicial.
+Este guia explica como funciona o fluxo de pagamento, como criar uma conta e como integrar o ZGo ao Xero e ao WooCommerce. Ele também aborda os dois erros que causam a maioria dos problemas na primeira configuração.
 
 ## Nesta página
 
 1. [Por que usar o ZGo](#why-use-zgo)
 2. [Como o ZGo funciona](#how-zgo-works)
-3. [Configurando uma conta](#setting-up-an-account)
-4. [ZGo com Xero](#zgo-with-xero)
-5. [ZGo com WooCommerce](#zgo-with-woocommerce)
+3. [Criando uma conta](#setting-up-an-account)
+4. [ZGo com o Xero](#zgo-with-xero)
+5. [ZGo com o WooCommerce](#zgo-with-woocommerce)
 6. [Recursos](#features)
 7. [Erros comuns](#common-mistakes)
 8. [Conclusão](#conclusion)
-9. [Recursos adicionais](#resources)
+9. [Links úteis](#resources)
 
 ## Por que usar o ZGo
 
-A maioria dos processadores de pagamentos em criptomoedas é custodiante. Os fundos primeiro chegam à conta do processador e são encaminhados ao comerciante depois, o que significa que um terceiro controla temporariamente o dinheiro e pode congelá-lo, atrasá-lo ou reportar informações sobre ele.
+A maioria dos processadores de pagamentos em criptomoedas é custodiante. Os fundos primeiro caem na conta do processador e só depois são repassados ao comerciante. Isso significa que um terceiro controla temporariamente o dinheiro e pode congelá-lo, atrasá-lo ou reportá-lo.
 
-O ZGo adota a abordagem oposta. Os pagamentos vão da carteira do cliente diretamente para a carteira do comerciante por meio de uma transação blindada do Zcash. O processador apenas gera a fatura e monitora a blockchain para confirmação. Não há saldo intermediário, nem fluxo de saque, nem terceiro que possa atrasar a liquidação.
+O ZGo adota a abordagem oposta. Os pagamentos vão da carteira do cliente diretamente para a carteira do comerciante por meio de uma transação blindada do Zcash. O processador apenas gera a fatura e observa a blockchain até a confirmação. Não há saldo intermediário, nem fluxo de saque, nem terceiros que possam travar a liquidação.
 
-Para um comerciante, isso significa três coisas práticas: custódia total do ZEC recebido, privacidade de transações blindadas por padrão e nenhuma dependência de um provedor centralizado que permaneça online ou solvente.
+Para o comerciante, isso significa três coisas práticas: custódia total do ZEC recebido, privacidade de transação blindada por padrão e nenhuma dependência de um provedor centralizado continuar online ou solvente.
 
 ## Como o ZGo funciona
 
-O fluxo de pagamento é o mesmo independentemente de o ZGo ser usado de forma autônoma, por meio do Xero ou por meio do WooCommerce:
+O fluxo de pagamento é o mesmo, seja o ZGo usado de forma independente, pelo Xero ou pelo WooCommerce:
 
-1. O comerciante gera uma solicitação de pagamento no ZGo, que é exibida como um código QR com o valor, o ID da fatura e um endereço de recebimento do Zcash.
-2. O cliente escaneia o QR com uma carteira do Zcash (os tipos de endereço Orchard, Sapling e Transparent são todos compatíveis no plugin do WordPress) e aprova o pagamento.
-3. A transação é transmitida para a rede do Zcash como uma transferência blindada da carteira do cliente para a carteira do comerciante.
+1. O comerciante gera uma solicitação de pagamento no ZGo, que aparece como um QR code com o valor, o ID da fatura e um endereço de recebimento Zcash.
+2. O cliente escaneia o QR code com uma carteira Zcash (os tipos de endereço Orchard, Sapling e transparente são todos aceitos no plugin para WordPress) e aprova o pagamento.
+3. A transação é transmitida à rede Zcash como uma transferência blindada da carteira do cliente para a carteira do comerciante.
 4. O ZGo monitora a blockchain do Zcash em busca da transação.
 5. Após cinco confirmações, o ZGo marca o pagamento como final e notifica qualquer integração conectada (Xero, WooCommerce ou um webhook).
 
-O limite de cinco confirmações é o número-chave. Qualquer coisa antes disso é um pagamento em andamento, não um pagamento recebido. O atendimento de pedidos, as atualizações de inventário e qualquer ação irreversível do lado do comerciante devem esperar pela etapa 5.
+O limite de cinco confirmações é o número-chave. Qualquer coisa antes disso é um pagamento em andamento, não um pagamento recebido. O atendimento do pedido, as atualizações de estoque e qualquer ação irreversível do lado do comerciante devem aguardar a etapa 5.
 
-O ZGo funciona em qualquer navegador moderno em desktop ou celular, sem necessidade de instalação em nenhum dos lados. O cliente precisa de uma carteira do Zcash; o comerciante precisa de uma carteira do Zcash e de uma conta ZGo.
+O ZGo roda em qualquer navegador moderno, no computador ou no celular, sem instalação de nenhum dos lados. O cliente precisa de uma carteira Zcash; o comerciante precisa de uma carteira Zcash e de uma conta no ZGo.
 
-<img width="672" height="378" alt="Visão geral da solicitação de pagamento do ZGo e do monitoramento da blockchain" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
+<img width="672" height="378" alt="ZGo payment request and blockchain monitoring overview" src="/content-images/de50885b-b068-4157-bbda-0981ca23efc8-a00a274776.webp" />
 
-## Configurando uma conta
+## Criando uma conta
 
-Para criar uma conta ZGo, é necessária uma carteira do Zcash com uma pequena quantidade de ZEC. Esse pequeno saldo em ZEC cobre a taxa on-chain da transação de inicialização da conta. Qualquer carteira principal do Zcash funciona para isso; veja [Carteiras ZecHub](https://zechub.wiki/wallets) para as opções atuais.
+Para criar uma conta no ZGo, é necessária uma carteira Zcash com uma pequena quantia de ZEC. Esse pequeno saldo em ZEC cobre a taxa on-chain da transação de inicialização da conta. Qualquer carteira Zcash conhecida serve para isso; consulte [Carteiras ZecHub](https://zechub.wiki/wallets) para ver as opções atuais.
 
 A configuração básica:
 
 1. Abra [zgo.cash](https://zgo.cash/) em um navegador.
-2. Crie uma conta usando uma carteira do Zcash sob controle do comerciante. Essa carteira deve ter as chaves. Um endereço de depósito de corretora não funcionará (veja [Erros comuns](#common-mistakes)).
+2. Crie uma conta usando uma carteira Zcash sob controle do comerciante. Essa carteira precisa deter as chaves. Um endereço de depósito de corretora não funciona (veja [Erros comuns](#common-mistakes)).
 3. Verifique a carteira enviando a pequena transação de inicialização.
-4. Configure o endereço de recebimento. Todos os pagamentos processados por essa conta chegarão a esta carteira.
+4. Configure o endereço de recebimento. Todos os pagamentos processados por essa conta cairão nessa carteira.
 
-Assim que a conta estiver ativa, o mesmo comerciante pode usar o ZGo para pagamentos avulsos (um único código QR em um evento pop-up) ou integrá-lo a uma configuração permanente por meio do Xero ou do WooCommerce.
+Depois que a conta estiver ativa, o mesmo comerciante pode usar o ZGo para pagamentos avulsos (um único QR code em um evento temporário) ou integrá-lo a uma configuração permanente pelo Xero ou pelo WooCommerce.
 
-## ZGo com Xero
+## ZGo com o Xero
 
-[Xero](https://www.xero.com/) é uma plataforma de contabilidade em nuvem usada por muitas pequenas e médias empresas. A integração ZGo–Xero permite que um comerciante emita uma fatura no Xero, que o cliente a pague em ZEC e que o Xero marque automaticamente a fatura como paga assim que a transação for confirmada.
+O [Xero](https://www.xero.com/) é uma plataforma de contabilidade na nuvem usada por muitas pequenas e médias empresas. A integração ZGo–Xero permite que o comerciante emita uma fatura no Xero, que o cliente a pague em ZEC e que o Xero marque automaticamente a fatura como paga assim que a transação for confirmada.
 
 Como funciona:
 
-1. O comerciante cria uma fatura no Xero como de costume.
+1. O comerciante cria uma fatura no Xero normalmente.
 2. O ZGo adiciona uma opção de pagamento em Zcash à fatura.
-3. O cliente paga em ZEC por meio da própria carteira.
+3. O cliente paga em ZEC pela própria carteira.
 4. O ZGo monitora a [blockchain do Zcash](https://z.cash/) em busca da transação.
 5. Após cinco confirmações, o ZGo informa o pagamento ao Xero, que marca a fatura como liquidada.
 
-O ZEC chega à carteira do comerciante, não a qualquer conta controlada pelo ZGo ou pelo Xero. O registro contábil no Xero permanece sincronizado automaticamente com a liquidação on-chain.
+O ZEC cai na carteira do comerciante, e não em uma conta controlada pelo ZGo ou pelo Xero. O registro contábil no Xero fica sincronizado automaticamente com a liquidação on-chain.
 
-Para a configuração inicial, siga o passo a passo dedicado: [Configuração da integração com Xero](https://hedgedoc.vergara.tech/s/4iXC67fmb).
+Para a primeira configuração, siga o passo a passo dedicado: [Configuração da integração com o Xero](https://hedgedoc.vergara.tech/s/4iXC67fmb).
 
-## ZGo com WooCommerce
+## ZGo com o WooCommerce
 
-Para lojas online que funcionam com [WooCommerce](https://woocommerce.com/) e [WordPress](https://wordpress.org/), o ZGo oferece um plugin dedicado. O plugin adiciona o Zcash como método de pagamento no checkout e gerencia automaticamente o estado do pedido quando o pagamento é confirmado.
+Para lojas online que rodam em [WooCommerce](https://woocommerce.com/) e [WordPress](https://wordpress.org/), o ZGo oferece um plugin dedicado. O plugin adiciona o Zcash como forma de pagamento no checkout e atualiza o status do pedido automaticamente quando o pagamento é confirmado.
 
-<img width="672" height="378" alt="Checkout do plugin ZGo WooCommerce e fluxo do pedido" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
+<img width="672" height="378" alt="ZGo WooCommerce plugin checkout and order flow" src="/content-images/55a791bb-1947-4f55-b5b9-55083be8ed49-2bc8d2571e.webp" />
 
 Fluxo completo dentro de uma loja WooCommerce:
 
-1. O cliente chega ao checkout e seleciona Zcash como método de pagamento.
-2. O plugin gera uma solicitação de pagamento e mostra o código QR na página de checkout.
+1. O cliente chega ao checkout e seleciona Zcash como forma de pagamento.
+2. O plugin gera uma solicitação de pagamento e exibe o QR code na página de checkout.
 3. O cliente paga a partir da própria carteira.
-4. A transação é transmitida para a rede do Zcash e o ZGo começa a monitorá-la.
+4. A transação é transmitida à rede Zcash e o ZGo começa a monitorá-la.
 5. Após cinco confirmações, o ZGo informa ao plugin que o pagamento é final.
-6. O plugin marca o pedido do WooCommerce como pago e atualiza o banco de dados de pedidos.
+6. O plugin marca o pedido no WooCommerce como pago e atualiza o banco de dados de pedidos.
 
-O pedido só é pago quando a etapa 6 é concluída. Estados anteriores (transmissão, primeiras confirmações) podem ser mostrados ao cliente como "pagamento recebido, aguardando confirmação", mas o inventário, o atendimento de pedidos e qualquer automação posterior devem esperar pelo estado final.
+O pedido só está pago quando a etapa 6 é concluída. Os estados anteriores (transmissão, primeiras confirmações) podem ser mostrados ao cliente como "pagamento recebido, aguardando confirmação", mas o estoque, o atendimento do pedido e qualquer automação posterior devem aguardar o estado final.
 
-O plugin também instala um painel administrativo dentro do WordPress, onde o comerciante pode monitorar pedidos e pagamentos recebidos em ZEC junto com a visualização normal de pedidos do WooCommerce. O plugin suporta todos os tipos atuais de endereço do Zcash: Orchard, Sapling e Transparent. Clientes que pagam a partir de qualquer carteira compatível podem concluir a transação.
+O plugin também instala um painel administrativo dentro do WordPress, onde o comerciante pode acompanhar os pedidos e os pagamentos em ZEC recebidos junto com a visualização normal de pedidos do WooCommerce. O plugin aceita todos os tipos de endereço Zcash atuais: Orchard, Sapling e transparente. Clientes que pagam a partir de qualquer carteira compatível podem concluir a transação.
 
 ## Recursos
 
-**Sem custódia.** Os pagamentos vão diretamente da carteira do cliente para a carteira do comerciante por meio de transações blindadas. O ZGo nunca fica com os fundos no intervalo, e o comerciante mantém controle total o tempo todo.
+**Não custodiante.** Os pagamentos vão diretamente da carteira do cliente para a carteira do comerciante por meio de transações blindadas. O ZGo nunca retém os fundos no meio do caminho, e o comerciante mantém controle total durante todo o processo.
 
-**Implantação flexível.** O ZGo pode ser usado por uma única tarde em um mercado pop-up, em uma configuração permanente de ponto de venda ou como backend de uma loja online por meio das integrações com Xero ou WooCommerce.
+**Implantação flexível.** O ZGo pode ser usado por uma única tarde em uma feira temporária, em um ponto de venda permanente ou como backend de uma loja online pelas integrações com o Xero ou o WooCommerce.
 
-**Baseado em navegador.** Sem necessidade de instalação nem do lado do cliente nem do comerciante. O ZGo funciona em qualquer navegador moderno em desktop ou celular.
+**Baseado no navegador.** Nenhuma instalação, nem do lado do cliente nem do lado do comerciante. O ZGo roda em qualquer navegador moderno, no computador ou no celular.
 
-**Compatibilidade com carteiras.** As principais carteiras do Zcash, incluindo as que suportam os tipos de endereço Orchard, Sapling e Transparent, podem pagar uma fatura do ZGo sem configuração adicional do lado do cliente.
+**Compatibilidade com carteiras.** As principais carteiras Zcash, incluindo as que aceitam os tipos de endereço Orchard, Sapling e transparente, podem pagar uma fatura do ZGo sem configuração extra do lado do cliente.
 
-**Integrações.** As integrações diretas com Xero (contabilidade) e WooCommerce (e-commerce) cobrem os dois fluxos de trabalho comerciais mais comuns prontos para uso.
+**Integrações.** Integrações diretas com o Xero (contabilidade) e o WooCommerce (e-commerce) cobrem, de imediato, os dois fluxos de trabalho mais comuns dos comerciantes.
 
 ## Erros comuns
 
-**Tratar o pedido como pago antes de cinco confirmações.** Uma transação transmitida não é o mesmo que um pagamento confirmado. A transação ainda pode não ser confirmada ou ser substituída. Somente após cinco confirmações o ZGo informa o pagamento como final, e somente então o pedido deve ser marcado como pago nos sistemas posteriores. Se um comerciante configurar o inventário ou o atendimento de pedidos para serem acionados no evento de transmissão, pagamentos fraudulentos ou falhos causarão perdas reais.
+**Considerar o pedido pago antes de cinco confirmações.** Uma transação transmitida não é o mesmo que um pagamento confirmado. A transação ainda pode não ser confirmada ou ser substituída. Só após cinco confirmações o ZGo informa o pagamento como final, e só então o pedido deve ser marcado como pago nos sistemas seguintes. Se o comerciante configurar o estoque ou o atendimento do pedido para serem acionados no evento de transmissão, pagamentos fraudulentos ou malsucedidos causarão prejuízos reais.
 
-**Apontar o ZGo para um endereço de depósito de corretora.** Parece um endereço do Zcash, mas endereços de depósito de corretora são controlados pela corretora, não pelo comerciante. A corretora detém as chaves, o que significa que a corretora detém os fundos, anulando o motivo de usar um processador sem custódia. O endereço de carteira configurado no ZGo deve ser o de uma carteira cuja frase semente o comerciante controle diretamente.
+**Apontar o ZGo para um endereço de depósito de corretora.** Parece um endereço Zcash, mas os endereços de depósito de corretoras são controlados pela corretora, não pelo comerciante. A corretora detém as chaves, o que significa que a corretora detém os fundos, e isso anula o motivo de usar um processador não custodiante. O endereço de carteira configurado no ZGo deve ser de uma carteira cuja frase semente o comerciante controla diretamente.
 
-**Tratar o ZGo como uma carteira.** O ZGo é um processador de pagamentos, não uma carteira. Ele não armazena chaves, não mantém saldos e não permite que o comerciante gaste fundos. É necessária uma carteira do Zcash separada, sob controle do comerciante, para receber o dinheiro que o ZGo encaminha.
+**Tratar o ZGo como uma carteira.** O ZGo é um processador de pagamentos, não uma carteira. Ele não armazena chaves, não mantém saldos e não permite que o comerciante gaste fundos. É necessária uma carteira Zcash separada, sob controle do comerciante, para receber o dinheiro que o ZGo encaminha.
 
 ## Conclusão
 
-O ZGo oferece aos comerciantes uma forma de aceitar pagamentos em Zcash sem abrir mão da custódia, sem depender de um intermediário e sem expor detalhes da transação em uma chain pública. As duas integrações (Xero e WooCommerce) cobrem os fluxos de trabalho comerciais mais comuns; para todo o resto, o ZGo pode ser usado de forma autônoma em qualquer navegador.
+O ZGo oferece aos comerciantes uma forma de aceitar pagamentos em Zcash sem abrir mão da custódia, sem depender de um intermediário e sem expor detalhes das transações em uma chain pública. As duas integrações (Xero e WooCommerce) cobrem os fluxos de trabalho mais comuns dos comerciantes; para todo o resto, o ZGo pode ser usado de forma independente em qualquer navegador.
 
-Para a configuração, o caminho é curto: obtenha uma carteira do Zcash, crie uma conta em [zgo.cash](https://zgo.cash/) e então comece a gerar solicitações de pagamento diretamente ou instale a integração relevante.
+Para a configuração, o caminho é curto: obtenha uma carteira Zcash, crie uma conta em [zgo.cash](https://zgo.cash/) e comece a gerar solicitações de pagamento diretamente ou instale a integração correspondente.
 
-## Recursos adicionais
+## Links úteis
 
 - [Site oficial do ZGo](https://zgo.cash/)
-- [Passo a passo da configuração da integração com Xero](https://hedgedoc.vergara.tech/s/4iXC67fmb)
+- [Passo a passo da configuração da integração com o Xero](https://hedgedoc.vergara.tech/s/4iXC67fmb)
 - [WooCommerce](https://woocommerce.com/) e [WordPress](https://wordpress.org/)
 - [Xero](https://www.xero.com/)
 - [Página inicial do projeto Zcash](https://z.cash/)
-- [Carteiras ZecHub](https://zechub.wiki/wallets), a lista de carteiras do Zcash compatíveis
-- [Visão geral dos processadores de pagamentos do ZecHub](https://zechub.wiki/payment-processors), o ZGo no contexto de outras opções de pagamento em Zcash
-- [Plugin Zcash para BTCPayServer](https://zechub.wiki/guides/btcpayserver-zcash-plugin), o guia relacionado do ZecHub para uma alternativa auto-hospedada
+- [Carteiras ZecHub](https://zechub.wiki/wallets), a lista de carteiras Zcash compatíveis
+- [Visão geral dos processadores de pagamentos ZecHub](https://zechub.wiki/payment-processors), o ZGo no contexto de outras opções de pagamento em Zcash
+- [Plugin Zcash para BTCPayServer](https://zechub.wiki/guides/btcpayserver-zcash-plugin), o guia ZecHub relacionado para uma alternativa auto-hospedada

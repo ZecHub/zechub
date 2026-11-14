@@ -1,32 +1,32 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Serve_Github_Repo_with_IPFS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Servir repositório GitHub com IPFS
+# Sirva um repositório GitHub com IPFS
 
 ## Introdução
 
-Neste guia, você aprenderá a criar uma URL clonável por git para o seu repositório GitHub servido usando um CID do IPFS. 
+Neste guia, você vai aprender a criar uma URL clonável via git para o seu repositório GitHub, servido usando um CID do IPFS. 
 
-Isso é útil para garantir a disponibilidade do conteúdo independentemente da região geográfica, a resistência à censura e como um backup persistente de informações valiosas!
+Isso é útil para garantir a disponibilidade do conteúdo independentemente da região geográfica, para resistir à censura e como backup permanente de informações valiosas!
 
-Nota: Os dados enviados para o IPFS ficam disponíveis para todos os usuários da rede. Talvez você queira criptografar localmente dados pessoais/sensíveis.
+Observação: os dados enviados ao IPFS ficam disponíveis para todos os usuários da rede. Talvez você queira aplicar criptografia localmente aos dados pessoais/sensíveis.
 
-## Instalar IPFS Kubo
+## Instale o IPFS Kubo
 
-Siga as instruções de instalação fornecidas [aqui](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
+Siga as instruções de instalação disponíveis [aqui](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions)
 
-Neste exemplo, usamos Linux; outras versões de SO estão disponíveis.
+Neste exemplo usamos Linux. Há versões para outros sistemas operacionais.
 
 Verifique se a instalação foi bem-sucedida usando   ipfs –version
 
-## Clonar repositório
+## Clone o repositório
 
-Para começar, selecione um repositório Git que você deseja hospedar e clone-o:
+Para começar, escolha um repositório Git que você quer hospedar e clone-o:
 
-Executar comando: “git clone https://github.com/zechub/zechub”
+Execute o comando: "git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
 Agora, prepare-o para ser clonado via IPFS.
 
@@ -36,11 +36,11 @@ Descompacte os objetos do Git:
 
 ![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
-Isso permitirá que o IPFS deduplique objetos se você atualizar o repositório Git posteriormente.
+Isso permite que o IPFS elimine objetos duplicados se você atualizar o repositório Git mais tarde.
 
-## Adicionar ao IPFS
+## Adicione ao IPFS
 
-Depois de fazer isso, esse repositório estará pronto para ser servido. Tudo o que falta fazer é adicioná-lo ao IPFS:
+Feito isso, o repositório está pronto para ser servido. Só falta adicioná-lo ao IPFS:
 
 $ pwd
 
@@ -48,20 +48,20 @@ $ pwd
 
 $ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
 O CID resultante: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Excelente! Agora seu repositório foi carregado para a rede.
+Excelente! Agora o seu repositório foi enviado para a rede.
 
-## Clonar usando IPFS
+## Clone usando o IPFS
 
-Agora você já deve conseguir obter o repositório GitHub usando:
+Agora você deve conseguir obter o repositório GitHub usando:
 
 git clone http://ipfs.io/ipfs/yourCID
 
-Alternativamente, você pode pesquisar e obter usando seu nó IPFS local.
+Como alternativa, você pode buscar e obter o repositório usando o seu nó IPFS local.
 
-Nota final: A pasta do repositório no IPFS não recebe atualizações junto com o repositório github real. Recomenda-se reenviar a pasta em intervalos regulares.
+Observação final: a pasta do repositório no IPFS não recebe as atualizações feitas no repositório do GitHub. Recomendamos enviar a pasta novamente em intervalos regulares.

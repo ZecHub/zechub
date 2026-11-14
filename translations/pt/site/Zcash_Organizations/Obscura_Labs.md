@@ -7,75 +7,75 @@
 
 A Obscura Labs é uma organização independente registrada na Nigéria, com foco estratégico na África e em outros mercados emergentes.
 
-Sua missão é construir infraestrutura, ferramentas e caminhos práticos de adoção que melhorem a acessibilidade, a utilidade, a descentralização e a resiliência de longo prazo do ecossistema do Zcash em toda a África.
+Sua missão é construir infraestrutura, ferramentas e caminhos práticos de adoção que melhorem a acessibilidade, a utilidade, a descentralização e a resiliência de longo prazo do ecossistema Zcash em toda a África.
 
-A organização pretende apoiar o uso de tecnologia financeira que preserva a privacidade, melhorando o acesso a infraestrutura confiável, apoiando desenvolvedores e empresas, educando usuários e fortalecendo as comunidades locais do Zcash.
+A organização busca apoiar o uso de tecnologia financeira que preserva a privacidade, melhorando o acesso a uma infraestrutura confiável, apoiando desenvolvedores e empresas, educando usuários e fortalecendo as comunidades locais do Zcash.
 
 ## Contexto
 
-A Obscura Labs foi fundada por Chidi Olisa, líder da Zcash Nigeria.
+A Obscura Labs foi fundada por Chidi Olisa, líder do Zcash Nigeria.
 
-Antes de fundar a Obscura Labs, Chidi contribuiu para o ecossistema do Zcash por meio da construção de comunidades, educação, defesa, criação de conteúdo localizado, suporte aos usuários e iniciativas criadas para apresentar a privacidade financeira e o Zcash a pessoas na Nigéria e em outras partes da África.
+Antes de criar a Obscura Labs, Chidi contribuiu com o ecossistema Zcash por meio da construção de comunidade, educação, defesa da causa, criação de conteúdo localizado, suporte a usuários e iniciativas voltadas a apresentar a privacidade financeira e o Zcash às pessoas na Nigéria e em outras partes da África.
 
-O envolvimento com usuários, estudantes, desenvolvedores, empresas e membros da comunidade destacou várias barreiras a uma adoção mais ampla do Zcash na África. Elas incluíam infraestrutura limitada, dificuldade de acessar ZEC por meio de moedas locais, suporte insuficiente aos desenvolvedores, escassez de recursos educacionais localizados e integração limitada com sistemas de pagamento do dia a dia.
+O contato com usuários, estudantes, desenvolvedores, empresas e membros da comunidade evidenciou várias barreiras a uma adoção mais ampla do Zcash na África. Entre elas estavam a infraestrutura limitada, a dificuldade de acessar o ZEC por meio de moedas locais, o suporte insuficiente aos desenvolvedores, a escassez de recursos educacionais localizados e a integração limitada com os sistemas de pagamento do dia a dia.
 
 A Obscura Labs foi criada em resposta a esses desafios.
 
-A organização baseia-se na perspectiva de que a conscientização, por si só, não é suficiente para uma adoção sustentável. As comunidades também precisam de infraestrutura confiável, produtos acessíveis, ferramentas para desenvolvedores, acesso financeiro, educação e apoio institucional de longo prazo.
+A organização parte da visão de que a conscientização, por si só, não basta para uma adoção sustentável. As comunidades também precisam de infraestrutura confiável, produtos acessíveis, ferramentas para desenvolvedores, acesso financeiro, educação e apoio institucional de longo prazo.
 
 ## Visão
 
-A visão da Obscura Labs é ajudar a tornar a África uma das regiões mais fortes para a infraestrutura, adoção e crescimento do ecossistema do Zcash.
+A visão da Obscura Labs é ajudar a tornar a África uma das regiões mais fortes em infraestrutura, adoção e crescimento do ecossistema Zcash.
 
-A organização aspira a se tornar uma importante contribuidora africana para o ecossistema do Zcash por meio de:
+A organização aspira a se tornar uma das principais contribuidoras africanas do ecossistema Zcash:
 
-* Operar infraestrutura confiável do Zcash.
-* Melhorar o acesso a ZEC e a pagamentos que preservam a privacidade.
-* Apoiar usuários, desenvolvedores, empresas e organizações comunitárias.
-* Construir ferramentas e serviços práticos.
-* Incentivar o desenvolvimento de comunidades sustentáveis do Zcash.
-* Aumentar a diversidade geográfica da infraestrutura do Zcash e da participação no ecossistema.
+* Operando uma infraestrutura confiável do Zcash.
+* Melhorando o acesso ao ZEC e a pagamentos que preservam a privacidade.
+* Apoiando usuários, desenvolvedores, empresas e organizações comunitárias.
+* Construindo ferramentas e serviços práticos.
+* Incentivando o desenvolvimento de comunidades sustentáveis do Zcash.
+* Aumentando a diversidade geográfica da infraestrutura do Zcash e da participação no ecossistema.
 
 ## Áreas estratégicas
 
-A Obscura Labs planeja inicialmente concentrar seu trabalho em quatro áreas estratégicas.
+Inicialmente, a Obscura Labs planeja concentrar seu trabalho em quatro áreas estratégicas.
 
 ### Desenvolvimento de infraestrutura
 
-Uma infraestrutura confiável é necessária para que carteiras, aplicativos, desenvolvedores, corretoras, serviços de pagamento e usuários interajam com a rede do Zcash.
+Uma infraestrutura confiável é necessária para que carteiras, aplicativos, desenvolvedores, corretoras, serviços de pagamento e usuários interajam com a rede Zcash.
 
-A Obscura Labs opera e desenvolve infraestrutura do Zcash na África para melhorar a acessibilidade da rede, a diversidade geográfica, a confiabilidade e a resiliência. Este trabalho busca reduzir a dependência de um pequeno número de operadores de infraestrutura e fornecer serviços confiáveis para usuários e desenvolvedores nos mercados africanos.
+A Obscura Labs opera e desenvolve infraestrutura do Zcash na África para melhorar a acessibilidade, a diversidade geográfica, a confiabilidade e a resiliência da rede. Esse trabalho busca reduzir a dependência de um pequeno número de operadores de infraestrutura e oferecer serviços confiáveis para usuários e desenvolvedores nos mercados africanos.
 
 As iniciativas de infraestrutura podem incluir:
 
 * Endpoints RPC públicos da mainnet do Zcash.
 * Endpoints RPC públicos da testnet do Zcash.
-* Nós integrais Zebra.
+* Nós integrais do Zebra.
 * Serviços lightwalletd.
-* DNS seeders.
+* Seeders de DNS.
 * Monitoramento público da infraestrutura.
 * APIs voltadas para desenvolvedores.
 * Ferramentas de integração e documentação.
-* Serviços adicionais que reduzam as barreiras para construir no Zcash.
+* Serviços adicionais que reduzem as barreiras para construir no Zcash.
 
-Ao tornar a infraestrutura mais acessível, a Obscura Labs pretende apoiar desenvolvedores, carteiras, aplicativos, empresas e serviços que se integrem ao ecossistema do Zcash.
+Ao tornar a infraestrutura mais acessível, a Obscura Labs busca apoiar desenvolvedores, carteiras, aplicativos, empresas e serviços que se integram ao ecossistema Zcash.
 
 ### Adoção e acesso financeiro
 
-Para que o Zcash seja útil em situações do dia a dia, as pessoas precisam poder adquirir, armazenar, usar e trocar ZEC sem atrito desnecessário.
+Para que o Zcash seja útil no dia a dia, as pessoas precisam conseguir adquirir, armazenar, usar e trocar ZEC sem atritos desnecessários.
 
-A Obscura Labs apoia iniciativas destinadas a melhorar:
+A Obscura Labs apoia iniciativas que buscam melhorar:
 
-* O acesso entre ZEC e moedas locais africanas.
-* Rampas de entrada e saída fiat.
-* Adoção por comerciantes.
-* Integrações de pagamento.
-* Pagamentos transfronteiriços.
-* Integração de novos usuários.
-* Acessibilidade das carteiras.
-* O uso prático de ZEC por indivíduos e empresas.
+* O acesso entre o ZEC e as moedas locais africanas.
+* As rampas de entrada e saída de moeda fiduciária.
+* A adoção por comerciantes.
+* As integrações de pagamento.
+* Os pagamentos internacionais.
+* A integração de novos usuários.
+* A acessibilidade das carteiras.
+* O uso prático do ZEC por pessoas e empresas.
 
-É dada atenção especial a serviços que abordem desafios comuns nos mercados africanos, incluindo instabilidade cambial, exclusão financeira, transferências transfronteiriças caras, acesso limitado a sistemas globais de pagamento e aumento da vigilância financeira.
+Atenção especial é dada aos serviços que enfrentam desafios comuns nos mercados africanos, como a instabilidade cambial, a exclusão financeira, as transferências internacionais caras, o acesso limitado aos sistemas de pagamento globais e a crescente vigilância financeira.
 
 ### Crescimento da comunidade e conscientização
 
@@ -84,7 +84,7 @@ A Obscura Labs apoia o desenvolvimento de comunidades sustentáveis do Zcash em 
 Suas iniciativas comunitárias podem incluir:
 
 * Workshops educacionais.
-* Divulgação em universidades.
+* Ações em universidades.
 * Eventos comunitários.
 * Conteúdo localizado.
 * Traduções.
@@ -98,115 +98,115 @@ O objetivo da organização não se limita a aumentar a conscientização geral.
 
 ### Colaboração no ecossistema
 
-A Obscura Labs trabalha com organizações, desenvolvedores, educadores, pesquisadores, empresas, operadores de infraestrutura e líderes comunitários em todo o ecossistema do Zcash.
+A Obscura Labs trabalha com organizações, desenvolvedores, educadores, pesquisadores, empresas, operadores de infraestrutura e líderes comunitários em todo o ecossistema Zcash.
 
-Esta colaboração busca apoiar iniciativas que:
+Essa colaboração busca apoiar iniciativas que:
 
 * Promovam a privacidade financeira.
-* Fortaleçam a rede do Zcash.
-* Melhorem a usabilidade de ZEC.
-* Expandam o acesso à infraestrutura do Zcash.
-* Incentivem o desenvolvimento open-source.
+* Fortaleçam a rede Zcash.
+* Melhorem a usabilidade do ZEC.
+* Ampliem o acesso à infraestrutura do Zcash.
+* Incentivem o desenvolvimento de código aberto.
 * Apoiem comunidades emergentes do Zcash.
-* Aumentem a participação no ecossistema da África e de outros mercados emergentes.
+* Aumentem a participação no ecossistema a partir da África e de outros mercados emergentes.
 
-A Obscura Labs opera de forma independente enquanto trabalha em direção a objetivos compartilhados com outros participantes do ecossistema do Zcash.
+A Obscura Labs atua de forma independente, enquanto trabalha em prol de objetivos comuns com outros participantes do ecossistema Zcash.
 
 ## Iniciativas atuais
 
 Embora a Obscura Labs esteja em uma fase inicial de desenvolvimento, várias iniciativas já começaram.
 
-### Infraestrutura africana de DNS seeder
+### Infraestrutura de seeders de DNS na África
 
-A Obscura Labs opera infraestrutura de DNS seeder a partir da África.
+A Obscura Labs opera uma infraestrutura de seeders de DNS a partir da África.
 
-Os DNS seeders ajudam novos nós do Zcash a descobrir pares ao se conectarem à rede. Aumentar a distribuição geográfica dos seeders contribui para a descentralização e a resiliência da rede ponto a ponto do Zcash.
+Os seeders de DNS ajudam novos nós do Zcash a encontrar pares ao se conectarem à rede. Aumentar a distribuição geográfica dos seeders contribui para a descentralização e a resiliência da rede peer-to-peer do Zcash.
 
 ### Infraestrutura de nós Zebra
 
 A organização opera nós Zebra na África.
 
-Zebra é uma implementação independente do protocolo de consenso do Zcash. Operar infraestrutura Zebra contribui para a acessibilidade da rede, a diversidade de implementações e a distribuição geográfica dos nós do Zcash.
+O Zebra é uma implementação independente do protocolo de consenso do Zcash. Operar infraestrutura Zebra contribui para a acessibilidade da rede, a diversidade de implementações e a distribuição geográfica dos nós do Zcash.
 
 ### Serviços lightwalletd
 
-A Obscura Labs opera infraestrutura lightwalletd para apoiar a conectividade das carteiras do Zcash.
+A Obscura Labs opera infraestrutura lightwalletd para apoiar a conectividade das carteiras Zcash.
 
-O lightwalletd fornece dados da blockchain para carteiras de light client sem exigir que cada usuário de carteira opere um nó integral do Zcash. Portanto, serviços lightwalletd confiáveis são importantes para carteiras móveis e outros aplicativos leves do Zcash.
+O lightwalletd fornece dados da blockchain para carteiras light client sem exigir que cada usuário de carteira opere um nó completo do Zcash. Por isso, serviços lightwalletd confiáveis são importantes para carteiras móveis e outros aplicativos leves do Zcash.
 
 ### Monitoramento da infraestrutura
 
 A Obscura Labs está desenvolvendo sistemas públicos de monitoramento e status para sua infraestrutura.
 
-Esses sistemas buscam melhorar a transparência operacional, permitindo que usuários e desenvolvedores verifiquem a disponibilidade e o status de serviços acessíveis publicamente.
+Esses sistemas buscam melhorar a transparência operacional, permitindo que usuários e desenvolvedores verifiquem a disponibilidade e o status dos serviços de acesso público.
 
 ### ZecFiat
 
-ZecFiat é uma iniciativa da Obscura Labs focada em melhorar o acesso entre ZEC e moedas locais africanas.
+O ZecFiat é uma iniciativa da Obscura Labs voltada a melhorar o acesso entre o ZEC e as moedas locais africanas.
 
-O projeto pretende reduzir barreiras para indivíduos e empresas que buscam adquirir, usar ou trocar ZEC. Seu objetivo mais amplo é tornar o Zcash mais prático em mercados onde o acesso a serviços de criptomoedas e sistemas financeiros internacionais pode ser limitado.
+O projeto busca reduzir as barreiras para pessoas e empresas que desejam adquirir, usar ou trocar ZEC. Seu objetivo mais amplo é tornar o Zcash mais prático em mercados onde o acesso a serviços de criptomoedas e aos sistemas financeiros internacionais pode ser limitado.
 
-Espera-se que mais informações sobre a estrutura, os mercados atendidos, a disponibilidade e o modelo operacional da ZecFiat surjam à medida que a iniciativa se desenvolve.
+Mais informações sobre a estrutura, os mercados atendidos, a disponibilidade e o modelo operacional do ZecFiat devem ser divulgadas à medida que a iniciativa se desenvolver.
 
 ## As equipes
 
-A Obscura Labs foi fundada por Chidi Olisa, que também lidera a comunidade Zcash Nigeria, e Gentle Fox é engenheiro de infraestrutura e colaborador da Obscura Labs, apoiando a implantação, a manutenção e a confiabilidade da infraestrutura e dos serviços da organização.
+A Obscura Labs foi fundada por Chidi Olisa, que também lidera a comunidade Zcash Nigeria, e Gentle Fox é engenheiro de infraestrutura e contribuidor da Obscura Labs, apoiando a implantação, a manutenção e a confiabilidade da infraestrutura e dos serviços da organização.
 
-A organização está atualmente em uma fase inicial de desenvolvimento. À medida que cresce, a Obscura Labs pretende estabelecer uma pequena equipe de colaboradores de meio período com experiência em áreas que incluem:
+A organização está atualmente em sua fase inicial de desenvolvimento. À medida que crescer, a Obscura Labs pretende formar uma pequena equipe de contribuidores de meio período com experiência em áreas como:
 
 * Operações de infraestrutura.
 * Desenvolvimento de software e produtos.
 * Educação.
 * Desenvolvimento comunitário.
-* Integrações comerciais e de pagamentos.
-* Apoio ao ecossistema.
-* Comunicações.
+* Integrações comerciais e de pagamento.
+* Suporte ao ecossistema.
+* Comunicação.
 * Governança e operações organizacionais.
 
-A Obscura Labs também está envolvendo profissionais experientes, especialistas do setor e colaboradores do ecossistema do Zcash que podem fornecer orientação estratégica ou atuar como consultores e membros do conselho.
+A Obscura Labs também está buscando profissionais experientes, especialistas do setor e contribuidores do ecossistema Zcash que possam oferecer orientação estratégica ou atuar como consultores e membros do conselho.
 
 ## Estrutura organizacional
 
 A Obscura Labs é uma organização independente registrada na Nigéria.
 
-A organização está sendo desenvolvida com foco no estabelecimento da governança, da especialização e da capacidade operacional necessárias para apoiar o crescimento sustentável e contribuições de longo prazo para o ecossistema do Zcash.
+A organização está sendo desenvolvida com foco em estabelecer a governança, a especialização e a capacidade operacional necessárias para apoiar um crescimento sustentável e contribuições de longo prazo para o ecossistema Zcash.
 
 Sua estrutura organizacional planejada pode incluir:
 
-* Um fundador e liderança executiva.
+* Um fundador e uma liderança executiva.
 * Uma pequena equipe operacional.
-* Colaboradores técnicos e comunitários de meio período.
+* Contribuidores técnicos e comunitários de meio período.
 * Um conselho ou órgão de governança equivalente.
 * Consultores independentes.
 * Parcerias com organizações do ecossistema e comunidades locais.
 
-Informações adicionais sobre sua estrutura de governança, situação jurídica, composição do conselho e políticas organizacionais poderão ser publicadas à medida que a organização se desenvolve.
+Informações adicionais sobre sua estrutura de governança, status jurídico, composição do conselho e políticas organizacionais poderão ser publicadas à medida que a organização se desenvolver.
 
 ## Financiamento
 
-No lançamento, espera-se que a Obscura Labs seja financiada principalmente por meio de:
+No lançamento, a Obscura Labs deverá ser financiada principalmente por meio de:
 
 * Doações.
 * Parcerias estratégicas.
 * Subsídios.
-* Oportunidades de financiamento alinhadas com o ecossistema.
+* Oportunidades de financiamento alinhadas ao ecossistema.
 * Apoio a iniciativas específicas de infraestrutura, produtos ou comunidade.
 
-O financiamento inicial será utilizado para apoiar operações de infraestrutura, desenvolvimento de produtos, iniciativas comunitárias, despesas organizacionais e o recrutamento de colaboradores.
+O financiamento inicial será usado para apoiar as operações de infraestrutura, o desenvolvimento de produtos, as iniciativas comunitárias, as despesas organizacionais e o recrutamento de contribuidores.
 
-Com o tempo, a Obscura Labs pretende desenvolver um modelo de financiamento sustentável que lhe permita oferecer consistentemente valor mensurável ao ecossistema do Zcash, mantendo ao mesmo tempo sua independência.
+Com o tempo, a Obscura Labs pretende desenvolver um modelo de financiamento sustentável que lhe permita entregar, de forma consistente, valor mensurável ao ecossistema Zcash, mantendo sua independência.
 
-## Papel no ecossistema do Zcash
+## Papel no ecossistema Zcash
 
-A Obscura Labs faz parte de um grupo crescente de organizações independentes que contribuem para o Zcash por meio de infraestrutura, desenvolvimento de software, educação, apoio comunitário e iniciativas de adoção.
+A Obscura Labs faz parte de um grupo crescente de organizações independentes que contribuem com o Zcash por meio de infraestrutura, desenvolvimento de software, educação, apoio à comunidade e iniciativas de adoção.
 
-Seu trabalho pretende aumentar a diversidade geográfica e organizacional dentro do ecossistema, estabelecendo capacidade adicional de infraestrutura e desenvolvimento do Zcash na África.
+Seu trabalho busca aumentar a diversidade geográfica e organizacional dentro do ecossistema, estabelecendo infraestrutura adicional do Zcash e capacidade de desenvolvimento na África.
 
 As atividades da organização contribuem para vários objetivos mais amplos do ecossistema:
 
 * Melhorar a descentralização da infraestrutura do Zcash.
-* Aumentar o acesso a serviços do Zcash em regiões mal atendidas.
-* Apoiar o desenvolvimento de especialização técnica local.
-* Expandir o número de colaboradores independentes do ecossistema.
-* Melhorar o acesso a tecnologia financeira que preserva a privacidade.
-* Apoiar a adoção prática de ZEC por usuários e empresas.
+* Ampliar o acesso aos serviços do Zcash em regiões carentes.
+* Apoiar o desenvolvimento de conhecimento técnico local.
+* Aumentar o número de contribuidores independentes do ecossistema.
+* Melhorar o acesso a tecnologias financeiras que preservam a privacidade.
+* Apoiar a adoção prática do ZEC por usuários e empresas.

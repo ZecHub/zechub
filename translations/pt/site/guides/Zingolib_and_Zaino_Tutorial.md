@@ -12,7 +12,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/b5dIuGstMvI"
-    title="Uma introdução ao Zingolib + Zaino"
+    title="An introduction to Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -25,16 +25,16 @@
 [Arquitetura do sistema](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- O usuário do Zcash instala/compila Zingolib, o que dá acesso ao zingo-cli. Ele pode enviar/receber ZEC conforme necessário.
-- O zingo-cli se conecta ao zaino localmente ou por meio de um canal seguro online (o usuário do Zcash não se importa com como isso funciona!)
-- O Zaino permite acesso ao zebrad ou ao zcashd            
-- O zebrad totalmente sincronizado é a fonte da verdade (não há mais carteiras aqui!)
+- Zcash O usuário instala/compila o Zingolib, que dá acesso ao zingo-cli. Ele pode enviar/receber ZEC conforme necessário.
+- zingo-cli se conecta ao zaino localmente ou por um canal seguro online (o usuário do Zcash não se importa com o funcionamento disso!)
+- Zaino permite acesso ao zebrad ou ao zcashd            
+- O zebrad totalmente sincronizado é a fonte da verdade (sem mais carteiras aqui!)
 
 
 
 ## Instalação
 
-Você precisará instalar 3 coisas para que isso funcione corretamente. Também recomendo o screen ou algo semelhante para ajudar no gerenciamento das telas
+Você precisará instalar 3 coisas para que isso funcione corretamente. Também recomendo o screen ou algo semelhante para ajudar no gerenciamento de telas
 
 `sudo apt install screen`
 
@@ -43,18 +43,20 @@ Você precisará instalar 3 coisas para que isso funcione corretamente. Também 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
+Use o Zebra 7.0.0 ou mais recente: o NU7 foi ativado na Mainnet no bloco 3.543.405, e versões mais antigas do `zebrad` não conseguem acompanhar a chain depois dessa altura ([notas de versão](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
  
-*opcional* (crie uma sessão screen para o zebrad)
+*opcional* (crie uma sessão do screen para o zebrad)
 
 ```
 screen -S zebra
 zebrad start
 ```
 
-nota: isso precisará sincronizar completamente! 
+observação: ele precisará sincronizar totalmente!
 
 ### zaino
 
@@ -66,12 +68,12 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 
 
-*opcional* (crie uma sessão screen para o zaino)
+*opcional* (crie uma sessão do screen para o zaino)
 
 ```
 screen -S zaino
 cd ~/zaino/zainod
-nano zindexer.toml  => Ajuste a porta para 8232 na mainnet
+nano zindexer.toml  => Adjust port to 8232 for mainnet
 zainod --config zindexer.toml
 ```
 
@@ -84,16 +86,16 @@ cd zingolib
 cargo build --release --package zingo-cli
 ```
 
-*opcional* (crie uma sessão screen para o zingo-cli)
+*opcional* (crie uma sessão do screen para o zingo-cli)
 
 ```
 screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-nota: isso precisará sincronizar completamente, assim como o lightwalletd. Recomendo usar uma unidade externa para economizar tempo :)
+observação: ele precisará sincronizar totalmente, assim como o lightwalletd fez. Recomendo usar um disco externo para economizar tempo :)
 
 
 ## Execução
 
-Se você estiver executando isso em screens, `screen -r` listará cada screen para que você possa alternar entre elas conforme necessário
+Se você estiver executando esses programas em sessões do screen, o `screen -r` listará cada sessão para você alternar entre elas conforme necessário
