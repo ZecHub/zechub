@@ -657,7 +657,7 @@ Getting that pool accounting right matters in practice, not just in theory. A re
 
 **Ledger just changed the whole picture.** On September 23, 2026, Ledger shipped native shielded Zcash support directly inside Ledger Wallet Desktop, no separate companion app needed anymore. Your spending key stays on the device, the computer does the transaction math, and you approve everything on screen before it's signed. It only supports Ironwood, not the old Orchard or Sapling pools. The drawback is that the legacy "Zcash Shielded" app built by Zondax, which required a companion wallet like Zkool to work, is being discontinued. Ledger is pulling that older app from availability on November 5, so anyone still using it needs to move their funds before then.
 
-**Keystone is in good shape.** Firmware 3.0.2 added full Ironwood support back in July, and that's still the current, stable requirement. That version or newer is however needed to sign anything.
+**Keystone is in good shape.** Firmware 3.0.2 added full Ironwood support back in July, and firmware 3.2.2 (November 11, 2026) added NU7 support to the Web3 and Cypherpunk editions ([release notes](https://github.com/KeystoneHQ/keystone3-firmware/releases/tag/3.2.2)). With NU7 active on Mainnet, update to 3.2.2 or newer before signing.
 
 **Hito has progressed past the initial testnet milestone.** It successfully signed and submitted its first real Orchard-to-Ironwood transaction on physical hardware (initially on testnet). Subsequent updates confirmed mainnet flows (Ironwood→Ironwood, Ironwood→Transparent, and others) on production hardware. Stable firmware and broader release remain in progress.
 

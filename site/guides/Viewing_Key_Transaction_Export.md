@@ -8,7 +8,7 @@ Most wallet exports are thin. ZODL's tax export, for example, gives you dates, a
 
 You don't need your seed phrase to get the full picture. A unified full viewing key (UFVK, starting `uview1`) can see every incoming and outgoing transaction in an account, and two tools can turn that into a file you keep: the Zkool GraphQL server and zingo-cli. This guide collects the approaches from [this forum thread](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) and updates them for current releases.
 
-Tested in September 2026 with Zkool 6.30.0 and zingo-cli from zingolib 6.0.0.
+Tested in September 2026 with Zkool 6.30.0 and zingo-cli from zingolib 6.0.0. zingolib 6.0.0 predates NU7, so in November 2026 the zingo-cli steps were moved to zingolib 8.0.0, the release that adds NU7 Mainnet support.
 
 ## Before you start
 
@@ -23,7 +23,7 @@ A viewing key can't spend, but it shows your whole history to whoever holds it.
 
 - Don't paste it into a website or block explorer. Import it into software you run yourself.
 - The server you sync from sees your IP address and which transactions you download in full. Both tools below fetch each of your transactions by ID to read memos and fees, and [ZIP 307](https://zips.z.cash/zip-0307) notes that this tells the server which transactions are yours. Syncing from your own Zebra node with Zaino or lightwalletd avoids that. The [Zingolib and Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) walks through a setup.
-- zingo-cli 6 sends payments over the Nym mixnet, but its sync still connects to the server directly, so the point above applies to it too.
+- zingo-cli sends payments over the Nym mixnet, but its sync still connects to the server directly, so the point above applies to it too.
 - Give these tools a viewing key, never a seed. The Zkool GraphQL server has no login by default, and its API will hand back the seed of any account created from one, and can send funds.
 - Keep the server on your own machine. The Docker command below only listens on `127.0.0.1`.
 - Both tools store the key and your history unencrypted. Delete the working data when you're done and keep the export somewhere encrypted.
@@ -141,17 +141,17 @@ The Zkool app also has Export Transactions, Memos and Notes in the account menu,
 
 ## Option 2: zingo-cli
 
-zingo-cli is Zingo's command-line wallet. There are no prebuilt downloads, so you build it with Rust:
+zingo-cli is Zingo's command-line wallet. There are no prebuilt downloads, so you build it with Rust. Use zingolib 8.0.0 or newer: it's the first release that knows NU7's Mainnet activation height (3,543,405), per its [release notes](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0). Builds from older tags such as 6.0.0 don't.
+
+The build uses [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`). On Ubuntu you also need `sudo apt install build-essential gcc libsqlite3-dev`.
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-You need `nym-proxy` even just to sync. zingo-cli 6 won't connect to any server without it.
+This builds `./target/release/zingo-cli` and puts `nym-proxy` beside it. You need `nym-proxy` even just to sync: zingo-cli won't go online without it. Since 8.0.0 `zingo-netutils` is part of the main workspace, so the older recipe that copied `nym-proxy` from `zingo-netutils/target/release/` no longer works.
 
 The first run creates a view-only wallet, syncs it and prints the history:
 
@@ -187,7 +187,7 @@ A few things to know about the output:
 - `transactions` and `value_transfers` print plain text that looks a bit like JSON but isn't.
 - Amounts are in zatoshis (100,000,000 to 1 ZEC) and always positive. `kind` tells you the direction. For sends, `value` is what went to other people, without the fee.
 - The fee shows as "not available" when a transaction spends transparent funds that weren't yours. Only text memos are shown.
-- If the sync fails, the error goes to the terminal, not the file, and zingo-cli still exits normally. Check the terminal before trusting `transactions.txt`.
+- If the sync fails, the error goes to the terminal, not the file. Since zingolib 8.0.0 (zingo-cli 0.5.0) a failed command also exits with a non-zero code, but check the terminal before trusting `transactions.txt`.
 
 dismad's [zingoHelper](https://github.com/dismad/zingoHelper) has an `exportToJSON.sh` script that converts `transactions` to JSON. It was written before zingo-cli 6, is set up for testnet, marks some outgoing Sapling and transparent entries as placeholders, and needs GNU tools, so it won't run on stock macOS. Treat its output as a starting point and check the totals.
 
@@ -215,4 +215,4 @@ dismad's [zingoHelper](https://github.com/dismad/zingoHelper) has an `exportToJS
 - [Zingolib and Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 - [Forum: Exporting transaction history to JSON/CSV from UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
 - [Forum: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)
