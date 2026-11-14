@@ -13,6 +13,8 @@ Zingo Wallet is a fully featured Zcash wallet designed for user friendliness, al
 
 One of the main features of Zingo! is its ability to use the Memo field to offer valuable insights about your transactions.
 
+Zingo 3.0 for mobile (October 31, 2026) supports NU7 and adds built-in cross-chain swaps through SwapKit. The PC app has had SwapKit swaps since version 2.0.26 and Mainnet NU7 support since 2.0.27.
+
 Zingo! is available for mobile devices and PCs. You will find all downloads [here](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
