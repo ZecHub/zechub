@@ -8,6 +8,8 @@ The **Z3 Stack** is the Zcash Foundation’s packaged node platform: **Zebra** (
 
 The reference implementation is the Docker Compose project at [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3).
 
+> **Status, 14 November 2026: the default pins predate NU7.** Z3's `docker-compose.yml` was last changed on 10 August 2026. It still pins `zfnd/zebra:6.2.3` and `zodlinc/zallet:v0.1.0-beta.1`, started as the `zallet-zaino` binary. [NU7](NU7.md) activated on Mainnet at block 3,543,405 on 6 November 2026, and only Zebra 7.0.0 or later follows it: a 6.x Zebra stays on the old rules and falls off the real chain. Zallet v0.1.0-beta.4, the first release that follows NU7, no longer ships `zallet-zaino` at all. Check the repo for newer pins before deploying. If you override the images yourself, note that Zallet's remaining `zebra` backend reads Zebra's state directory directly, so Zallet must run on the same host with access to that directory ([Zallet](Zallet.md)).
+
 ---
 
 ## TL;DR
@@ -16,7 +18,7 @@ The reference implementation is the Docker Compose project at [github.com/ZcashF
 * `zcashd` bundled node + wallet. Z3 **splits those roles**. Exchanges, mining pools, and other full-node wallet operators migrate to this combination rather than to Zebra alone.
 * Three isolated Compose projects can run on one host: **mainnet**, **testnet**, and **regtest**.
 * Mainnet first sync is on the order of **24–72 hours** and about **300 GB**. Regtest comes up in seconds and is the right place to learn the stack.
-* Zallet embeds Zaino’s indexer libraries and talks to Zebra over JSON-RPC. The standalone Zaino service is only needed if you want a lightwalletd-compatible endpoint for external wallets.
+* In the pinned Z3 image, Zallet runs its `zallet-zaino` backend (Zaino’s indexer libraries) and talks to Zebra over JSON-RPC. Zallet removed that backend in v0.1.0-beta.4; current Zallet reads Zebra’s state directly. The standalone Zaino service is only needed if you want a lightwalletd-compatible endpoint for external wallets.
 * Zallet is in **beta**. Breaking changes can require deleting and recreating the wallet. Do not treat it as finished custody software for large sums.
 
 ---
@@ -54,7 +56,7 @@ The name is informal ecosystem shorthand — Zebra, Zaino, Zallet — even thoug
 | Component | Role in Z3 | Required? |
 | --- | --- | --- |
 | **Zebra** | Syncs and validates the chain, gossip, JSON-RPC, health endpoint | Yes |
-| **Zallet** | Full-node wallet. Embeds Zaino libraries. Connects straight to Zebra JSON-RPC. Does **not** call the standalone Zaino container | Yes |
+| **Zallet** | Full-node wallet. The pinned beta.1 image runs the Zaino-library backend (`zallet-zaino`, removed in Zallet beta.4) and connects straight to Zebra JSON-RPC. Does **not** call the standalone Zaino container | Yes |
 | **Zaino** | Standalone indexer. lightwalletd-compatible gRPC for external light clients, plus a JSON-RPC proxy for explorers and faucets | No — `--profile indexer` |
 
 Z3 pins image versions in `docker-compose.yml`. Override with `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, or `Z3_ZALLET_IMAGE` if you need a different tag.
@@ -180,7 +182,7 @@ Default Grafana ports are 3000 (mainnet), 13000 (testnet), 23000 (regtest).
 
 ## Operator notes
 
-* **Pinned images.** Z3 does not silently float onto `:latest`. Bump a pin in a reviewed change, or set `Z3_<SERVICE>_IMAGE`.
+* **Pinned images.** Z3 does not silently float onto `:latest`. Bump a pin in a reviewed change, or set `Z3_<SERVICE>_IMAGE`. The pins have not moved since August 2026, so they predate NU7 (see the status note at the top).
 * **Non-root containers.** Linux capabilities are dropped. Health checks hold the wallet back until Zebra is ready. Restart policy is on by default.
 * **Logs.** Z3 does not pin a logging driver. Set size limits in the Docker daemon config or logs grow without bound on a 24/7 node.
 * **P2P.** Mainnet and testnet publish Zebra’s P2P port. Behind NAT, set `ZEBRA_NETWORK__EXTERNAL_ADDR` to the address peers should dial. Regtest has no peers.
