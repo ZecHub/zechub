@@ -87,7 +87,7 @@ Par ailleurs, l'objectif de Maya est de devenir un *backend* sur lequel d'autres
 Puisqu'il fait office de *backend*, Maya doit être pris en charge par différentes interfaces et différents portefeuilles pour pouvoir être utilisé.
 Voici une liste de quelques services qui prennent déjà en charge Maya :
 
-[Thorwallet DEX](https://www.thorwallet.org/) : Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/) : Ledger, XDEFI, MetaMask, Keystore
 
 El Dorado : n'est plus en ligne, son domaine ne répond plus.
 

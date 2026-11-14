@@ -1581,7 +1581,7 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate+handfix",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -3463,7 +3463,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -5345,7 +5345,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -7211,7 +7211,7 @@
       "src_commit": "49cf9a952d1bba7093fc026c037625ce4e2b382e",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -8381,7 +8381,7 @@
       "src_commit": "861d6584cc8095af8af59e1f11508992e35f7c40",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -9575,7 +9575,7 @@
       "src_commit": "b93280ad2cd1f16f760f35e63397484b1f6dbad2",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -14779,7 +14779,7 @@
       "src_commit": "87c1b5439d27eab02ff41e3a936fdbdbf0e8514f",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -16685,7 +16685,7 @@
       "src_commit": "6699af5521fd84a7fe859eca5a26799414e9220a",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -18583,7 +18583,7 @@
       "src_commit": "9a6cb503067585c78f8d1145f895237fbd3d1a5a",
       "engine": "llm",
       "mode": "full",
-      "tool": "google/gemma-4-26b-a4b+handfix+mdxfix",
+      "tool": "google/gemma-4-26b-a4b+handfix+mdxfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -19049,7 +19049,7 @@
       "src_commit": "0112da1d9be77d4b6aff8f61412c466c7f6894d6",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brandfix",
       "edited": false
     },
     "guides/Mining_and_Staking_Privacy.md": {
@@ -22347,7 +22347,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -23565,7 +23565,7 @@
       "src_commit": "ae320f633c40c6b51f87dc1024b241a0e1e833df",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brandfix",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -26111,7 +26111,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -27993,7 +27993,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix+ptbr",
+      "tool": "codex/gpt-5.6-terra+handfix+ptbr+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -29875,7 +29875,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -31773,7 +31773,7 @@
       "src_commit": "9dbb4fcc0af8ed485eed72ec4f0257473436345a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -33639,7 +33639,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -35521,7 +35521,7 @@
       "src_commit": "05d3dc55ebb691431f622043b1ad963c40f63d32",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -37363,7 +37363,7 @@
       "src_commit": "b5633eaaccace3fd3ee0ca93a503e6860c8dd120",
       "engine": "nllb",
       "mode": "full",
-      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate+handfix",
+      "tool": "nllb-200-3.3B+jsx-restore+gloss-restore+prose-retranslate+handfix+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -37829,7 +37829,7 @@
       "src_commit": "bb47d6d60a303b4718f16c94989a58c641817e1f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-5.6-terra+brandfix",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {

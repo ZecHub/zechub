@@ -65,7 +65,7 @@ Liquidity Auction представлял собой 21-дневное событ
 Выступая в роли *backend*, Maya должен поддерживаться различными UI и кошельками, чтобы им можно было пользоваться. 
 Вот список некоторых сервисов, которые уже поддерживают Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

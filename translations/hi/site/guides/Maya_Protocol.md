@@ -87,7 +87,7 @@ Maya Protocol के जेनेसिस के समय उपलब्ध C
 एक *बैकएंड* के रूप में काम करने के कारण, Maya का उपयोग करने के लिए अलग-अलग UI और वॉलेट द्वारा इसे सपोर्ट किया जाना ज़रूरी है।
 यहाँ उन कुछ सेवाओं की सूची है जो पहले से Maya को सपोर्ट करती हैं:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 El Dorado: अब ऑनलाइन नहीं है, इसका डोमेन रिज़ॉल्व नहीं होता।
 

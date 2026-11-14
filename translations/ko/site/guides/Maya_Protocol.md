@@ -65,7 +65,7 @@ Maya Protocol의 제네시스 시점에 사용 가능한 CACAO 준비금은 총 
 *백엔드*로서 기능하는 Maya는 사용되기 위해 다양한 UI와 지갑의 지원이 필요합니다. 
 다음은 이미 Maya를 지원하는 서비스 목록입니다:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

@@ -65,7 +65,7 @@ Selain itu, tujuan Maya adalah untuk menjadi *backend* bagi layanan lain agar da
 Bertindak sebagai *backend*, Maya perlu didukung oleh berbagai UI dan dompet agar dapat digunakan.
 Berikut adalah daftar beberapa layanan yang sudah mendukung Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

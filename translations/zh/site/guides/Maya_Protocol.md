@@ -66,7 +66,7 @@ ILP 的保障期限取决于 ASSET 和 $CACAO 的表现。如果 ASSET 表现更
 作为*后端*，Maya 需要获得不同 UI 和钱包的支持才能使用。
 以下是一些已经支持 Maya 的服务：
 
-[Thorwallet DEX](https://www.thorwallet.org/)：Ledger、XDEFI、MetaMask、Keystore
+[THORWallet DEX](https://www.thorwallet.org/)：Ledger、XDEFI、MetaMask、Keystore
 
 [El Dorado](https://www.eldorado.market/)：XDEFI、Keystore
 
