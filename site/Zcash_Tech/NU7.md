@@ -56,6 +56,7 @@ Before NU7, a full 2 MB block could hold about 617 Orchard or Ironwood actions o
 - **Reissuance (ZIP 237):** the removed ZEC is kept in public consensus state called the NSM Value Balance. It was seeded at NU7 with value that miners left unclaimed in the past. From block **8,939,664** (projected around February 2031), each block issues a fixed portion of that balance on top of the normal halving schedule.
 - The supply cap does not rise. When the balance is zero, issuance is exactly the old halving schedule.
 - NU7 did **not** deploy [ZIP 233](https://zips.z.cash/zip-0233) (voluntary removal by users) or [ZIP 234](https://zips.z.cash/zip-0234) (replacing halvings with a smooth curve). Coinholder polls chose the halving-preserving design in ZIP 237.
+- The numbers (the 368.58 ZEC seed, the per-block reissuance fraction, why it starts at block 8,939,664) are on the [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) page.
 
 ### Version 4 transactions disallowed (ZIP 2003)
 
@@ -146,6 +147,7 @@ Answers: (1) the per-block subsidy was cut to a third while blocks became three 
 |---|---|
 | [Ironwood](./Ironwood.md) | the previous upgrade in the series, which introduced v6 transactions |
 | [What 25-Second Blocks Actually Change](../research/what-25-second-blocks-actually-change) | a deeper look at the faster block time |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | how the fee removal and reissuance NU7 activated work, with the numbers |
 | [Sprout](./Sprout.md) | the pool NU7 retired |
 | [Recovering Funds](../using-zcash/recovering-funds) | what the Sprout freeze means for old funds |
 | [Transactions](../using-zcash/transactions) | expiry and confirmations after NU7 |
