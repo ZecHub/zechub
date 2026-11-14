@@ -1,6 +1,28 @@
-# Maya Decentralised Exchange
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
----
+# Maya, exchange décentralisé
+
+> Maya Protocol est un DEX inter-chaînes pour des échanges natifs (par exemple d'ETH ou de BTC vers ZEC) sans jetons enveloppés, sans compte et sans KYC.
+
+## En bref
+
+* Maya échange des cryptomonnaies natives entre blockchains : vous envoyez un actif et recevez un autre actif sur sa propre chaîne. Pas de jetons enveloppés, pas de compte, pas de KYC.
+* C'est un fork de THORChain, construit avec le SDK Cosmos et sécurisé par des opérateurs de nœuds qui immobilisent du capital en caution (Proof of Bond).
+* Son jeton natif est le $CACAO. Les fournisseurs de liquidité perçoivent des frais d'échange et sont couverts par la protection contre la perte impermanente (ILP) après 50 jours.
+* Maya est un backend : vous l'utilisez via une interface ou un portefeuille comme THORWallet, CacaoSwap, Asgardex, Ctrl Wallet ou KeepKey.
+* La vidéo tutorielle montre un échange d'ETH vers ZEC sur LeoDex, l'une de ces interfaces.
+* Maya prend en charge les dépôts ZEC protégés/unifiés via SwapKit (sortie de valeur transparente plus un mémo protégé), si bien que certaines interfaces peuvent livrer des ZEC directement sur une adresse unifiée. Si la vôtre paie sur une adresse transparente (t1), protégez ensuite les fonds dans votre portefeuille pour préserver votre confidentialité.
+* Maya n'est pas la seule option pour des échanges natifs de ZEC : THORChain dispose aussi d'un pool ZEC natif.
+
+## Explication principale
+
+Un exchange centralisé détient vos cryptomonnaies et exige votre identité. Maya utilise à la place un réseau de nœuds qui contrôlent des coffres sur chaque chaîne prise en charge. Vous envoyez des cryptomonnaies vers un coffre Maya, au moins deux tiers des nœuds confirment le dépôt, et l'actif correspondant est envoyé depuis un autre coffre vers votre adresse sur la chaîne de destination.
+
+Les opérateurs de nœuds déposent une caution qui peut être confisquée en partie s'ils se comportent mal, ce qui leur donne une raison financière de rester honnêtes. Maya ajoute des fonctionnalités par rapport à THORChain, comme les nœuds de liquidité et sa propre conception des réserves, et fonctionne aussi comme un second réseau indépendant à ses côtés.
+
+Les sections ci-dessous expliquent le fonctionnement de Maya, la Proof of Bond, ce qui le distingue de THORChain et les portefeuilles qui le prennent en charge.
 
 ## Tutoriel
 
@@ -9,7 +31,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
-    title="Comment échanger Ethereum contre Zcash sur LeoDex"
+    title="How to Swap Ethereum to Zcash on LeoDex"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -19,62 +41,62 @@
 
 ## Qu'est-ce que Maya Protocol ?
 
-Maya est un système d'[échange décentralisé](https://nym.com/blog/what-is-dex) (DEX) qui permet d'échanger des cryptomonnaies entre différentes blockchains. Vous pouvez, par exemple, échanger du Bitcoin (BTC) sur la blockchain Bitcoin contre de l'Ethereum (ETH) sur la blockchain Ethereum de manière simple, sans détenir les actifs ni impliquer d'autorités centralisées ou de procédures Know Your Customer (KYC).
+Maya est un système d'[exchange décentralisé](https://nym.com/blog/what-is-dex) (DEX) qui permet d'échanger des cryptomonnaies entre différentes blockchains. Vous pouvez, par exemple, échanger facilement du Bitcoin (BTC) sur la blockchain Bitcoin contre de l'Ethereum (ETH) sur la blockchain Ethereum, sans que la plateforme détienne les actifs et sans faire intervenir d'autorité centralisée ni de procédure de connaissance du client (KYC).
 
-Maya Protocol a été développé à l'aide du Cosmos Software Development Kit (Cosmos SDK) et fonctionne avec un mécanisme de consensus Proof of Bond (PoB). Le protocole est maintenu par des « opérateurs de nœuds », qui immobilisent du capital dans le système et obtiennent des rendements en récompense de leur contribution et de leurs efforts. En pratique, les nœuds sont des ordinateurs exécutant un logiciel qui valide les échanges des utilisateurs et supervise les actifs dans des adresses désignées sur différentes blockchains.
+Maya Protocol a été développé à l'aide du kit de développement logiciel Cosmos (SDK Cosmos) et fonctionne avec un mécanisme de consensus Proof of Bond (PoB). Le protocole est maintenu par des « opérateurs de nœuds », qui engagent du capital dans le système et perçoivent des rendements en récompense de leur contribution et de leurs efforts. Concrètement, les nœuds sont des ordinateurs exécutant un logiciel qui valide les échanges des utilisateurs et supervise les actifs détenus sur des adresses désignées sur différentes blockchains.
 
-Pour finaliser un échange, la cryptomonnaie prise en charge doit être reçue sur l'une des adresses de Maya, envoyée par un utilisateur, puis un montant équivalent est envoyé depuis une autre des adresses de Maya sur une blockchain différente. Ce processus est géré et approuvé par au moins deux tiers des nœuds, ce qui garantit notamment que les fonds ont bien été reçus.
+Pour réaliser un échange, la cryptomonnaie prise en charge doit être reçue sur l'une des adresses de Maya, envoyée par un utilisateur, puis un montant équivalent est envoyé depuis une autre adresse de Maya sur une blockchain différente. Ce processus est géré et approuvé par au moins deux tiers des nœuds, qui s'assurent notamment que les fonds ont bien été reçus.
 
-De cette manière, les utilisateurs peuvent envoyer un type de jeton sur une blockchain et recevoir un type différent sur une autre blockchain, le tout de manière native et sans utiliser de wrapped tokens.
+De cette manière, les utilisateurs peuvent envoyer un type de jeton sur une blockchain et recevoir un type différent sur une autre blockchain, le tout de façon native et sans utiliser de jetons enveloppés.
 
-## Qu'est-ce que le Proof of Bond ?
+## Qu'est-ce que la Proof of Bond ?
 
-Le Proof of Bond (PoB) est un mécanisme de consensus dans lequel les opérateurs de nœuds doivent engager une caution (généralement sous la forme du jeton natif du réseau) pour participer au réseau. Cette caution agit comme une forme de sécurité économique, garantissant que les nœuds agissent honnêtement et préservent l'intégrité du réseau2. Si un nœud tente d'agir de manière malveillante ou ne remplit pas ses obligations, sa caution peut être réduite, ce qui signifie qu'une partie lui est retirée à titre de pénalité.
+La Proof of Bond (PoB) est un mécanisme de consensus dans lequel les opérateurs de nœuds doivent engager une caution (généralement sous la forme du jeton natif du réseau) pour participer au réseau. Cette caution sert de garantie économique et incite les nœuds à agir honnêtement et à préserver l'intégrité du réseau. Si un nœud tente d'agir de manière malveillante ou ne remplit pas ses fonctions, sa caution peut être réduite, c'est-à-dire qu'une partie lui est retirée à titre de pénalité.
 
-Dans Maya Protocol, ce mécanisme aide à produire de la valeur économique à partir des ressources mises en jeu par les opérateurs de nœuds, augmentant ainsi l'efficacité du capital. De manière similaire, dans THORChain, les opérateurs de nœuds engagent des RUNE (le jeton natif) pour sécuriser le réseau et garantir la coopération entre les participants.
+Dans Maya Protocol, ce mécanisme permet de produire de la valeur économique à partir des ressources mises en jeu par les opérateurs de nœuds, ce qui améliore l'efficacité du capital. De même, dans THORChain, les opérateurs de nœuds placent du RUNE (le jeton natif) en caution pour sécuriser le réseau et assurer la coopération entre les participants.
 
 ## Différences entre Maya et THORChain
 
-Maya est un fork de THORChain, mais avec quelques nouvelles fonctionnalités qui en font une excellente alternative. Les plus importantes sont :
+Maya est un fork de THORChain, mais doté de quelques nouvelles fonctionnalités qui en font une excellente alternative. Les plus importantes sont les suivantes :
 
 ### Nœuds de liquidité
 
-Au lieu de suivre le modèle Pure Bond, Maya envisage de passer à un modèle de nœuds de liquidité. Dans ce système, les nœuds peuvent contribuer directement à la liquidité en l'engageant sur le réseau. Cette approche signifie que les opérateurs de nœuds font face à un risque significatif : s'ils utilisent mal les fonds, ils subissent des pertes, ce qui agit comme un puissant moyen de dissuasion. En conséquence, les opérateurs de nœuds utilisent des unités de liquidité issues des pools de liquidité, qui fournissent simultanément de la liquidité et renforcent la sécurité du réseau.
+Plutôt que de suivre le modèle de caution pure, Maya envisage de passer à un modèle de nœuds de liquidité. Dans ce système, les nœuds peuvent apporter directement de la liquidité et la placer en caution auprès du réseau. Cette approche fait courir un risque important aux opérateurs de nœuds : s'ils font un mauvais usage des fonds, ils subissent des pertes, ce qui est très dissuasif. Ainsi, les opérateurs de nœuds utilisent des unités de liquidité issues des pools de liquidité, qui fournissent de la liquidité tout en renforçant la sécurité du réseau.
 
 ### Protection contre la perte impermanente
 
-Un système qui protège les fournisseurs de liquidité contre la perte temporaire (LPs) qu'ils peuvent subir lorsqu'ils fournissent de la liquidité, en raison des fluctuations constantes des prix des crypto-actifs.
-L'ILP détient 10 % de l'offre de $CACAO (10 millions de $CACAO) et est continuellement reconstituée par 10 % des frais du protocole. L'ILP devient active 50 jours après un dépôt de liquidité, avec une couverture plafonnée à 100 %.
+Il s'agit d'un système qui protège les fournisseurs de liquidité (LP) contre la perte temporaire qu'ils peuvent subir en fournissant de la liquidité, en raison des fluctuations constantes du prix des cryptoactifs.
+L'ILP détient 10 % de l'offre de $CACAO (10 millions de $CACAO) et est continuellement réalimentée par 10 % des frais du protocole. L'ILP devient active 50 jours après un dépôt de liquidité, avec une couverture plafonnée à 100 %.
 
-La durée de la couverture ILP dépend de la performance de l'ASSET et de $CACAO. La couverture complète est atteinte après 150 jours si l'ASSET performe mieux, et après 450 jours si $CACAO performe mieux. L'ILP est à la fois versée et réinitialisée lors d'un retrait complet, mais n'est pas affectée par les retraits partiels. En cas de top-up, l'ILP est réinitialisée mais non versée.
+La durée nécessaire à la couverture ILP dépend de la performance de l'ACTIF et du $CACAO. La couverture complète est atteinte après 150 jours si l'ACTIF performe mieux, et après 450 jours si le $CACAO performe mieux. L'ILP est versée puis réinitialisée lors d'un retrait complet, mais n'est pas affectée par les retraits partiels. En cas de recharge, l'ILP est réinitialisée mais n'est pas versée.
 
 ### Un modèle d'allocation différent
 
-L'enchère de liquidité était un événement de 21 jours conçu pour distribuer des jetons $CACAO aux participants. Pendant l'événement, les utilisateurs déposaient des actifs pris en charge à une adresse spécifique. À la fin de l'enchère, 90 % des jetons $CACAO ont été alloués aux participants proportionnellement à leurs contributions de liquidité, tandis que les 10 % restants ont été alloués à la réserve ILP. Les participants sont devenus des fournisseurs de liquidité, leurs actifs déposés et leurs jetons $CACAO étant placés dans les pools de Maya, ce qui leur permet de gagner une part des frais générés.
+La Liquidity Auction était un événement de 21 jours conçu pour distribuer des jetons $CACAO aux participants. Pendant l'événement, les utilisateurs ont déposé des actifs pris en charge sur une adresse spécifique. À la fin de l'enchère, 90 % des jetons $CACAO ont été attribués aux participants au prorata de leurs apports de liquidité, tandis que les 10 % restants ont été affectés à la réserve ILP. Les participants sont devenus fournisseurs de liquidité, leurs actifs déposés et leurs jetons $CACAO étant placés dans les pools de Maya, ce qui leur permet de percevoir une part des frais générés.
 
-### Une manière différente de gérer les réserves
+### Une gestion différente des réserves
 
-À la genèse de Maya Protocol, les réserves de CACAO disponibles ne représentaient que 10 % de l'offre totale, contre 44 % pour THORChain, et étaient principalement destinées à la protection contre la perte impermanente (ILP). Maya n'a pas d'émissions de blocs ; et si la Protocol Owned Liquidity et le Lending sont implémentés, ils auront une conception différente, car dans THORChain, ces aspects sont étroitement intégrés aux réserves.
+Au lancement de Maya Protocol, les réserves de CACAO disponibles ne représentaient que 10 % de l'offre totale, contre 44 % pour THORChain, et étaient principalement destinées à la protection contre la perte impermanente (ILP). Maya n'a pas d'émission par bloc ; et si la liquidité détenue par le protocole et le prêt sont mis en place, ils auront une conception différente, car dans THORChain ces aspects sont étroitement liés aux réserves.
 
-Malgré ses différences, Maya sert également de solution complémentaire à THORChain, en offrant redondance, extension et validation, et en intégrant de nouveaux réseaux qui n'existent pas dans l'implémentation actuelle de THORChain.
+Malgré ces différences, Maya constitue aussi une solution complémentaire à THORChain, en apportant redondance, extension et validation, et en intégrant de nouveaux réseaux qui n'existent pas dans l'implémentation actuelle de THORChain.
 
-Par ailleurs, l'objectif de Maya est de devenir un *backend* sur lequel d'autres services pourront s'appuyer, dans l'espoir de voir apparaître de nombreux nouveaux *frontends*, ou services DEX construits sur l'infrastructure de Maya.
+Par ailleurs, l'objectif de Maya est de devenir un *backend* sur lequel d'autres services peuvent s'appuyer, dans l'espoir de voir apparaître de nombreux nouveaux *frontends*, ou services DEX, construits sur l'infrastructure de Maya.
 
-## Intégration du wallet Maya Protocol
+## Intégration des portefeuilles Maya Protocol
 
-En agissant comme un *backend*, Maya doit être pris en charge par différentes interfaces utilisateur et wallets pour pouvoir être utilisé. 
-Voici une liste de certains services qui prennent déjà en charge Maya :
+Puisqu'il fait office de *backend*, Maya doit être pris en charge par différentes interfaces et différents portefeuilles pour pouvoir être utilisé.
+Voici une liste de quelques services qui prennent déjà en charge Maya :
 
 [Thorwallet DEX](https://www.thorwallet.org/) : Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/) : XDEFI, Keystore
+El Dorado : n'est plus en ligne, son domaine ne répond plus.
 
 [CacaoSwap](https://cacaoswap.app/) : Keystore, MetaMask, XDEFI, Keplr, Leap
 
 [Asgardex](https://www.asgardex.com/) : Keystore, Ledger
 
-DefiSpot : n’est plus en ligne, son domaine ne se résout pas.
+DefiSpot : n'est plus en ligne, son domaine ne répond plus.
 
-[Ctrl Wallet (XDEFI)](https://ctrl.xyz/) : un wallet en auto-garde multi-écosystème prenant en charge plus de 30 blockchains natives, ainsi que toutes les chaînes EVM et Cosmos, y compris Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, et bien d'autres.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/) : un portefeuille en auto-garde multi-écosystèmes qui prend en charge plus de 30 blockchains natives, ainsi que toutes les chaînes EVM et Cosmos, dont Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON, et bien d'autres.
 
-[KeepKey ](https://keepkey.com/) : Un hardware wallet pour stocker des actifs numériques en toute sécurité.
+[KeepKey ](https://keepkey.com/) : un portefeuille matériel pour stocker vos actifs numériques en toute sécurité.

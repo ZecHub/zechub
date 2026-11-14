@@ -1,5 +1,5 @@
-Ajoutez ce texte à chaque page du site notion. 1) est pour les pages terminées, 2) est pour les pages incomplètes.
+Ajoutez ce texte à chaque page du site Notion. Le 1) concerne les pages terminées, le 2) les pages incomplètes.
 
-*Si vous souhaitez ajouter du contenu à cette page du wiki, ou suggérer des modifications, veuillez vous rendre sur le dépôt github de ZecHub (ajouter le lien) et soumettre une pull request.*
+*Si vous souhaitez ajouter du contenu à cette page du wiki ou y suggérer des modifications, rendez-vous sur le dépôt GitHub ZecHub (ajouter le lien) et soumettez une pull request.*
 
-*Si vous souhaitez compléter cette page, veuillez vous rendre sur le dépôt github (ajouter le lien), créer une pull request, et compléter la page avec la documentation pertinente.*
+*Si vous souhaitez compléter cette page, rendez-vous sur le dépôt GitHub (ajouter le lien), créez une pull request et complétez la page avec la documentation pertinente.*

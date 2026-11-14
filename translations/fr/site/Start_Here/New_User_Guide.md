@@ -1,50 +1,50 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/New_User_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Guide du nouvel utilisateur Zcash
 
-## TL;DR
+## En bref
 
-- **Achetez des ZEC** sur une plateforme d’échange prise en charge (Gemini, BitcoinVN, etc.)
+- **Achetez des ZEC** sur un exchange compatible (Gemini, BitcoinVN, etc.)
 - **Configurez un portefeuille protégé** (Zodl, Zingo ou Zkool recommandés)
-- **Retirez** vos ZEC de la plateforme d’échange vers votre portefeuille protégé
-- **Envoyez une transaction protégée** — votre premier paiement privé sur Zcash
-- **Rejoignez la communauté** sur le forum ou Discord
+- **Retirez** vos ZEC de l'exchange vers votre portefeuille protégé
+- **Envoyez une transaction protégée** : votre premier paiement privé sur Zcash
+- **Rejoignez la communauté** sur le forum ou sur Discord
 
 ---
 
-Nouveau sur Zcash ? Ce guide vous accompagnera dans vos premiers pas en tant qu’utilisateur de Zcash et détenteur de *ZEC*.
+Vous découvrez Zcash ? Ce guide vous accompagne pas à pas pour bien démarrer en tant qu'utilisateur de Zcash et détenteur de *ZEC*.
 
 ---
 
-**Achetez des ZEC**
+**Acheter des ZEC**
 
-Pour utiliser le réseau Zcash, vous devrez acheter sa monnaie, *ZEC*.
+Pour utiliser le réseau Zcash, vous devrez acheter sa monnaie, le *ZEC*.
 
-Le moyen le plus simple d’acquérir des ZEC est de [les acheter sur Gemini](https://www.gemini.com/prices/zcash) ou sur [l’une de ces plateformes d’échange](https://zechub.wiki/using-zcash/custodial-exchanges).
+Le moyen le plus simple d'obtenir des ZEC est de [les acheter sur Gemini](https://www.gemini.com/prices/zcash) ou sur [l'un de ces exchanges](https://zechub.wiki/using-zcash/custodial-exchanges).
 
-Une remarque importante : vous n’avez pas besoin d’acheter 1 *ZEC* entier.
+Point important : vous n'avez pas besoin d'acheter 1 *ZEC* entier.
 
-*ZEC* est divisible, et vous pouvez commencer en n’achetant qu’une fraction de la pièce.
+Le *ZEC* est divisible, et vous pouvez commencer par n'acheter qu'une fraction de la pièce.
 
 ---
 
-**Configurez un portefeuille**
+**Configurer un portefeuille**
 
-Après avoir acheté des *ZEC*, vous souhaiterez peut-être les transférer vers un portefeuille Zcash. 
+Après avoir acheté des *ZEC*, vous voudrez peut-être les transférer vers un portefeuille Zcash.
 
-Cet [article explique](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) pourquoi il est important de conserver vos *ZEC* dans un portefeuille. 
+Cet [article explique](https://www.ledger.com/academy/not-your-keys-not-your-coins-why-it-matters) pourquoi il est important de conserver vos *ZEC* dans un portefeuille.
 
-Nous recommandons d’utiliser un [portefeuille protégé](https://zechub.wiki/wallets), car ces portefeuilles offrent les fonctionnalités de confidentialité qui rendent *ZEC* unique. 
+Nous vous recommandons d'utiliser un [portefeuille protégé](https://zechub.wiki/wallets), car ces portefeuilles offrent les fonctionnalités de confidentialité qui rendent le *ZEC* unique.
 
-Voici une vidéo qui présente les portefeuilles protégés modernes :
+Voici une vidéo présentant les portefeuilles protégés modernes :
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
-    title="Explication des portefeuilles protégés Zcash"
+    title="Les portefeuilles protégés Zcash expliqués"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -55,17 +55,17 @@ Voici une vidéo qui présente les portefeuilles protégés modernes :
 
 ---
 
-**Retirez vos ZEC**
+**Retirer vos ZEC**
 
-Après avoir créé votre portefeuille, vous voudrez y retirer vos ZEC. 
+Après avoir créé votre portefeuille, vous voudrez y retirer vos ZEC.
 
-Voici un tutoriel expliquant comment faire.
+Voici un tutoriel qui vous explique comment procéder.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Avweu5V9QRc"
-    title="Coinbase + Zashi : acheter du Zcash et le protéger instantanément"
+    title="Coinbase + Zashi : achetez des Zcash et protégez-les instantanément"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -75,9 +75,9 @@ Voici un tutoriel expliquant comment faire.
 
 ---
 
-**Envoyez une transaction protégée**
+**Envoyer une transaction protégée**
 
-Après avoir déposé des ZEC dans votre portefeuille, vous êtes prêt à envoyer une transaction entièrement protégée et privée. Une transaction protégée est un échange de ZEC qui protège pleinement la vie privée de chaque participant. Voici quelques conseils utiles pour utiliser des ZEC protégés.
+Une fois que vous avez déposé des ZEC dans votre portefeuille, vous êtes prêt à envoyer une transaction entièrement protégée et privée. Une transaction protégée est un échange de ZEC qui protège pleinement la confidentialité de chaque participant. Voici quelques conseils utiles pour utiliser des ZEC protégés.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -92,24 +92,24 @@ Après avoir déposé des ZEC dans votre portefeuille, vous êtes prêt à envoy
 
 ---
 
-**Rejoignez le forum**
+**Rejoindre le forum**
 
-Le forum de la communauté Zcash est l’endroit où les membres de la communauté Zcash discutent de tout ce qui touche à Zcash. Nous avons également un serveur Discord.
+Le forum de la communauté Zcash est le lieu où les membres de la communauté Zcash discutent de tout ce qui concerne Zcash. Nous avons également un serveur Discord.
 
 [Forum de la communauté Zcash](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
 
-La communauté est passionnée et très accueillante envers les nouveaux membres. Les conversations peuvent parfois être techniques, mais ne vous inquiétez pas ! Si vous avez une question, vous pouvez la poser.
+La communauté est passionnée et accueille très chaleureusement les nouveaux membres. Les conversations sont parfois techniques, mais ne vous inquiétez pas ! Si vous avez une question, n'hésitez pas à la poser.
 
 <a href="">
-    <img width="auto" height="200" alt="logo horizontal transparent zcash" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
+    <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
 </a>
 
 ---
 
 ## Pages associées
 
-- [Qu’est-ce que ZEC et Zcash](/start-here/what-is-zec-and-zcash) — Comprenez les bases avant de commencer
-- [Acheter des ZEC](/using-zcash/buying-zec) — Liste complète des plateformes d’échange prenant en charge les retraits protégés
-- [Portefeuilles](/using-zcash/wallets) — Comparez tous les portefeuilles Zcash par fonctionnalités et plateforme
-- [Pools protégés](/using-zcash/shielded-pools) — Découvrez pourquoi les transactions protégées sont importantes
-- [Transactions](/using-zcash/transactions) — Comment envoyer et recevoir des ZEC de manière privée
+- [Qu'est-ce que ZEC et Zcash](/start-here/what-is-zec-and-zcash) : comprenez les bases avant de commencer
+- [Acheter des ZEC](/using-zcash/buying-zec) : liste complète des exchanges prenant en charge les retraits protégés
+- [Portefeuilles](/using-zcash/wallets) : comparez tous les portefeuilles Zcash selon leurs fonctionnalités et leur plateforme
+- [Pools protégés](/using-zcash/shielded-pools) : découvrez pourquoi les transactions protégées sont importantes
+- [Transactions](/using-zcash/transactions) : comment envoyer et recevoir des ZEC en toute confidentialité

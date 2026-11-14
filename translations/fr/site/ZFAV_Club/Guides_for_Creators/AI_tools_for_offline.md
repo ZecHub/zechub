@@ -2,23 +2,23 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
-# Outils d’IA (locaux, hors ligne)
+# Outils d'IA (locaux, hors ligne)
 
 <aside>
-*Toujours en cours d’écriture et de développement ici...*
+*Rédaction et construction en cours...*
 
 </aside>
 
-### Génération d’images
+### Génération d'images
 
-Où télécharger des modèles pour la génération d’images ? 
-Sur [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) et [**Civitai](https://civitai.com/)**, il existe de nombreux modèles différents.
+Où télécharger des modèles pour la génération d'images ? 
+Vous trouverez de nombreux modèles différents sur [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) et [**Civitai](https://civitai.com/)**.
 
 ## Windows - télécharger des modèles personnalisés
 
-En général, un GPU minimum avec 4 Go de mémoire vidéo est nécessaire pour n’importe quel outil d’IA.
+En général, un GPU doté d'au moins 4 Go de mémoire vidéo est nécessaire pour tout outil d'IA.
 
-Les GPU Nvidia fonctionnent le mieux.
+Les GPU Nvidia sont les plus performants.
 
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (nécessite 4 Go de mémoire GPU)
 - [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
@@ -26,7 +26,7 @@ Les GPU Nvidia fonctionnent le mieux.
 
 ### Mac OS - télécharger des modèles personnalisés
 
-- [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) depuis l’AppStore - gratuit
+- [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) sur l'App Store - gratuit
 (Peut utiliser de nombreux modèles StableDiffusion différents)
 - [DiffusionBee](https://diffusionbee.com/) - gratuit
 (Peut utiliser de nombreux modèles StableDiffusion différents)
@@ -40,7 +40,7 @@ Les GPU Nvidia fonctionnent le mieux.
 
 ### Windows - télécharger des modèles personnalisés
 
-- [GPT4All](https://gpt4all.io/index.html) (minimum 8 Go de RAM requis)
+- [GPT4All](https://gpt4all.io/index.html) (8 Go de RAM minimum requis)
 
 ### Mac OS - télécharger des modèles personnalisés
 
@@ -48,4 +48,4 @@ Les GPU Nvidia fonctionnent le mieux.
 
 ## Linux - télécharger des modèles personnalisés
 
-- [GPT4All](https://gpt4all.io/index.html) (minimum 8 Go de RAM requis)
+- [GPT4All](https://gpt4all.io/index.html) (8 Go de RAM minimum requis)

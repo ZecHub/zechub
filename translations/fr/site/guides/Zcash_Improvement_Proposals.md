@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Zcash_Improvement_Proposals.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
 # Propositions d'amélioration de Zcash
@@ -8,19 +8,19 @@
 
 
 
-# Qu'est-ce qu'une ZIP
-Une proposition d'amélioration de Zcash (ZIP) est un document de conception fournissant des informations à la communauté Zcash, ou décrivant une nouvelle fonctionnalité pour Zcash, ses processus ou son environnement. La ZIP doit fournir une spécification technique concise de la fonctionnalité ainsi qu'une justification de celle-ci.
+# Qu'est-ce qu'un ZIP
+Une proposition d'amélioration de Zcash (ZIP) est un document de conception qui fournit des informations à la communauté Zcash ou qui décrit une nouvelle fonctionnalité pour Zcash, ses processus ou son environnement. Le ZIP doit fournir une spécification technique concise de la fonctionnalité ainsi que sa justification.
 
-Nous voulons que les ZIP soient le principal mécanisme pour proposer de nouvelles fonctionnalités, recueillir les contributions de la communauté sur une question et documenter les décisions de conception qui ont façonné Zcash. Le ou les propriétaires de la ZIP (généralement le ou les auteurs) sont responsables de construire un consensus au sein de la communauté et de documenter les opinions divergentes.
+Nous voulons que les ZIP soient le principal mécanisme pour proposer de nouvelles fonctionnalités, recueillir l'avis de la communauté sur une question et documenter les décisions de conception qui ont été intégrées à Zcash. Le ou les responsables du ZIP (généralement le ou les auteurs) sont chargés de bâtir un consensus au sein de la communauté et de documenter les opinions divergentes.
 
-Comme les ZIP sont conservées sous forme de fichiers texte dans un dépôt versionné, leur historique de révision constitue l'historique de la proposition de fonctionnalité.
+Comme les ZIP sont conservés sous forme de fichiers texte dans un dépôt versionné, leur historique de révisions constitue l'archive historique de la proposition de fonctionnalité.
 
 -> [zips.z.cash](https://zips.z.cash)
 
 
-## Éditeurs ZIP
+## Éditeurs de ZIP
 
-Pour chaque ZIP soumise, elle doit passer par un processus de révision. Les éditeurs ZIP ont pour mission de s'assurer que le format et le contenu de chaque ZIP décrivent adéquatement les termes, la justification et les changements techniques apportés. 
+Chaque ZIP soumis doit passer par le processus de relecture. Les éditeurs de ZIP sont chargés de veiller à ce que la forme et le contenu de tout ZIP décrivent correctement les termes, la justification et les modifications techniques apportées. 
 
 ```markdown
 * Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
@@ -28,35 +28,35 @@ Pour chaque ZIP soumise, elle doit passer par un processus de révision. Les éd
 * Sam and Mark, associated with SL.
 ```
 
-## ZIP actuelles notables
+## ZIP actuels notables
 
-Les statuts et titres ci-dessous ont été vérifiés par rapport à l'index des ZIP sur [zips.z.cash](https://zips.z.cash/#index-of-zips) le 18 août 2026. Le statut d'une ZIP évolue avec le temps, donc considérez l'index comme la source de vérité.
+Les statuts et les titres ci-dessous ont été vérifiés le 18 août 2026 par rapport à l'index des ZIP sur [zips.z.cash](https://zips.z.cash/#index-of-zips). Le statut d'un ZIP évolue au fil du temps : considérez donc l'index comme la source de référence.
 
-> Brouillon : [Extensions transparentes de Zcash](https://zips.z.cash/zip-0222)
+> Brouillon : [Extensions Zcash transparentes](https://zips.z.cash/zip-0222)
 
-> Brouillon : [Transfert et destruction des actifs blindés Zcash](https://zips.z.cash/zip-0226)
+> Brouillon : [Transfert et destruction d'actifs protégés Zcash](https://zips.z.cash/zip-0226)
 
-> Brouillon : [Émission d'actifs blindés Zcash](https://zips.z.cash/zip-0227)
+> Brouillon : [Émission d'actifs protégés Zcash](https://zips.z.cash/zip-0227)
 
-> Retirée : [Format de transaction version 6 retiré](https://zips.z.cash/zip-0230) — rendue obsolète par la ZIP 229, qui définit désormais la version 6 des transactions. Voir la liste NU6.3 ci-dessous.
+> Retiré : [Format de transaction version 6 retiré](https://zips.z.cash/zip-0230) — rendu obsolète par le ZIP 229, qui définit désormais la version 6 des transactions. Consultez la liste NU6.3 ci-dessous.
 
-> Brouillon : [Empreintes d'identifiant de transaction et validation des signatures pour les extensions transparentes de Zcash](https://zips.z.cash/zip-0245)
+> Brouillon : [Condensés d'identifiants de transaction et validation des signatures pour les extensions Zcash transparentes](https://zips.z.cash/zip-0245)
 
-> Brouillon : [Format standardisé du champ Memo](https://zips.z.cash/zip-0302)
+> Brouillon : [Format standardisé du champ mémo](https://zips.z.cash/zip-0302)
 
 > Brouillon : [Signatures d'adresses Sapling](https://zips.z.cash/zip-0304)
 
 > Brouillon : [Protocole de client léger pour la détection des paiements](https://zips.z.cash/zip-0307)
 
-> Brouillon : [Propriétés de sécurité des Viewing Keys Sapling](https://zips.z.cash/zip-0310)
+> Brouillon : [Propriétés de sécurité des clés pour lecture seule Sapling](https://zips.z.cash/zip-0310)
 
-> Active : [Définition d'un type d'adresse vers lequel les fonds ne peuvent être envoyés qu'à partir d'adresses transparentes](https://zips.z.cash/zip-0320)
+> Actif : [Définition d'un type d'adresse vers lequel les fonds ne peuvent être envoyés que depuis des adresses transparentes](https://zips.z.cash/zip-0320)
 
-> Brouillon : [Format wallet.dat](https://zips.z.cash/zip-0400)
+> Brouillon : [Format Wallet.dat](https://zips.z.cash/zip-0400)
 
 ## ZIP de NU6.3 (Ironwood)
 
-NU6.3 est décrite dans la ZIP 258, avec les ZIP supplémentaires listées ici. L'ensemble complet des candidates est publié sur l'[index des ZIP](https://zips.z.cash/#nu6-3-candidate-zips).
+NU6.3 est décrite dans le ZIP 258, ainsi que dans les ZIP supplémentaires listés ici. L'ensemble complet des candidats est publié sur l'[index ZIP](https://zips.z.cash/#nu6-3-candidate-zips).
 
 > Brouillon : [Déploiement de la mise à niveau du réseau NU6.3](https://zips.z.cash/zip-0258)
 
@@ -64,10 +64,10 @@ NU6.3 est décrite dans la ZIP 258, avec les ZIP supplémentaires listées ici. 
 
 > Brouillon : [Migration de Orchard vers Ironwood](https://zips.z.cash/zip-0318)
 
-> Brouillon : [Conséquences de NU6.3 pour les wallets](https://zips.z.cash/zip-0326)
+> Brouillon : [Conséquences de NU6.3 pour les portefeuilles](https://zips.z.cash/zip-0326)
 
-> Proposée : [Récupérabilité quantique d'Ironwood](https://zips.z.cash/zip-2005)
+> Proposé : [Récupérabilité quantique de Ironwood](https://zips.z.cash/zip-2005)
 
-> Réservée : [Restriction des transferts vers le pool Orchard](https://zips.z.cash/zip-2006)
+> Réservé : [Restriction des transferts vers le pool Orchard](https://zips.z.cash/zip-2006)
 
-Trois ZIP antérieures sont également mises à jour pour NU6.3 : [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) et [ZIP 317](https://zips.z.cash/zip-0317).
+Trois ZIP antérieurs sont également mis à jour pour NU6.3 : le [ZIP 209](https://zips.z.cash/zip-0209), le [ZIP 213](https://zips.z.cash/zip-0213) et le [ZIP 317](https://zips.z.cash/zip-0317).

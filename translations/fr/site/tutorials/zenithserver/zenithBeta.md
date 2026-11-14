@@ -1,6 +1,6 @@
-# Zenith 0.10 Beta
+# Zenith 0.10 bêta
 
-Vous aurez besoin d’un `zebrad` en cours d’exécution avec les RPC activés
+Vous aurez besoin d'un zebrad en cours d'exécution avec les RPC activés
 
 # Installer NIX
 

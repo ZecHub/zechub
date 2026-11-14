@@ -1,129 +1,129 @@
-# Zero to Zero Knowledge : protocole Lelantus
+# Zero to Zero Knowledge : le protocole Lelantus
 
 **Série :** Zero to Zero Knowledge
 
-Aujourd’hui, nous examinons **Lelantus** !
+Aujourd'hui, nous nous intéressons à **Lelantus** !
 
-Publié en 2019, ce protocole s’appuie sur Zerocoin. Il est utilisé dans la monnaie **Firo** (anciennement Zcoin) pour permettre des transactions privées on-chain. Il ressemble à Zcash à certains égards, mais il est nettement différent dans la plupart des aspects.
+Lancé en 2019, ce protocole s'appuie sur Zerocoin. Il est utilisé par la cryptomonnaie **Firo** (anciennement Zcoin) pour permettre des transactions on-chain privées. Il ressemble à Zcash à certains égards, mais s'en distingue nettement sur la plupart des points.
 
-![Introduction à Lelantus](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
+![Lelantus intro](/content-images/Fsk18DgXsAEc0Ob-a8cd9a85d1.webp)
 
 ---
 
-## Zcash vs fondements des protocoles Firo
+## Fondements des protocoles Zcash et Firo
 
-- **Zcash** - S’appuie sur le protocole **Zerocash**  
-- **Firo (Zcoin)** - S’appuie sur le protocole **Zerocoin**
+- **Zcash** - S'appuie sur le protocole **Zerocash**  
+- **Firo (Zcoin)** - S'appuie sur le protocole **Zerocoin**
 
-![Comparaison Zerocash vs Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Comparaison entre Zerocash et Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
 ## Évolution des protocoles de confidentialité de Firo
 
-Comme Zcash, Firo utilise des adresses blindées pour permettre des paiements anonymes.
+Comme Zcash, Firo utilise des adresses protégées pour réaliser des paiements anonymes.
 
 **Chronologie :**
-- **Zerocoin** - Solidité compromise
+- **Zerocoin** - Robustesse compromise
 - **Sigma** - Système à dénominations fixes
-- **Lelantus 1.0** - Manquait de preuves de sécurité correctes
+- **Lelantus 1.0** - Absence de preuves de sécurité correctes
 
-![Évolution du protocole](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
+![Protocol evolution](/content-images/Fsk2NdaWAAAKVgH-f84ae27c48.webp)
 
 ---
 
 ## Limites du protocole Sigma
 
-Le protocole Σ (Sigma) utilisé dans les premières versions de Zcoin/Firo présentait une limite majeure : les utilisateurs ne pouvaient frapper que des dénominations fixes.
+Le protocole Σ (Sigma), utilisé dans les versions antérieures de Zcoin/Firo, présentait une limite majeure : les utilisateurs ne pouvaient frapper que des dénominations fixes.
 
-Cela créait des ensembles d’anonymat plus petits et ouvrait la porte à des attaques par corrélation temporelle entre les opérations de mint et de redeem (ainsi qu’au problème de la « monnaie rendue contaminée »).
+Cela entraînait des ensembles d'anonymat plus restreints et ouvrait la voie à des attaques temporelles entre les opérations de frappe et de rachat (sans compter le problème de la « monnaie rendue entachée »).
 
-![Dénominations Sigma](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
+![Sigma denominations](/content-images/Fsk2fxfWcAMUBDo-333a8f9df3.webp)
 
 ---
 
 ## Comment Lelantus améliore la confidentialité
 
-**Lelantus** résout le problème des dénominations fixes en permettant des mints à partir d’un seul ensemble plus large.
+**Lelantus** résout le problème des dénominations fixes en permettant des frappes à partir d'un seul ensemble plus large.
 
 Principaux avantages :
-- Élimine les ensembles d’anonymat à dénominations fixes
-- Réduit les attaques temporelles entre burn/redeem
-- Supprime le problème de la monnaie rendue contaminée
+- Élimine les ensembles d'anonymat à dénominations fixes
+- Réduit les attaques temporelles entre destruction et rachat
+- Supprime le problème de la monnaie rendue entachée
 
-**Limite** : La taille de l’ensemble est actuellement plafonnée à **65,000 coins**.
+**Limite** : la taille de l'ensemble est actuellement plafonnée à **65 000 pièces**.
 
-![Avantages de Lelantus](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
-
----
-
-## Engagements de coin
-
-Un **engagement de coin** est un engagement à double aveuglement qui encode le numéro de série du coin et la valeur du coin.
-
-Ils fonctionnent de manière similaire aux **Notes** dans Zcash.
-
-L’engagement de coin est publié et stocké dans le registre lorsque le coin est créé (via des transactions Mint ou Spend).
-
-![Schéma d’engagement de coin](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Lelantus advantages](/content-images/Fsk2wK3X0AA6MEe-06f29b3621.webp)
 
 ---
 
-## Modèle Basecoin < - > Zerocoin
+## Engagements de pièce
+
+Un **engagement de pièce** est un engagement doublement aveuglé qui encode le numéro de série et la valeur de la pièce.
+
+Ils fonctionnent de manière similaire aux **notes** dans Zcash.
+
+L'engagement de pièce est publié et stocké dans le registre lors de la création de la pièce (via des transactions de frappe ou de dépense).
+
+![Diagramme d'engagement de pièce](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+
+---
+
+## Modèle basecoin < - > zerocoin
 
 Lelantus utilise le modèle classique **basecoin < - > zerocoin**.
 
-**Caractéristique importante** : Les rachats partiels sont désormais possibles tout en conservant le reste et les montants cachés.
+**Fonctionnalité importante** : les rachats partiels sont désormais possibles, tout en gardant le reliquat et les montants masqués.
 
-Comme avec Zcash, les transactions transparentes doivent être explicitement sélectionnées par l’utilisateur.
+Comme pour Zcash, les transactions transparentes doivent être explicitement sélectionnées par l'utilisateur.
 
-![Flux Lelantus](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
+![Lelantus flow](/content-images/Fsk3HrjXgAMgqmX-4d727febf5.webp)
 
 ---
 
-## Preuves One-of-Many
+## Preuves « un parmi plusieurs »
 
-Lelantus utilise des **preuves One-of-Many** pour extraire les valeurs d’entrée nécessaires à la preuve de l’équilibre sans révéler l’origine des entrées — et sans nécessiter de trusted setup.
+Lelantus utilise des **preuves « un parmi plusieurs »** pour extraire les valeurs d'entrée nécessaires à la preuve de l'équilibre, sans révéler l'origine des entrées et sans nécessiter de configuration de confiance.
 
-Ces preuves sont également utilisées dans **Triptych** (mentionné dans notre fil CryptoNote).
+Ces preuves sont également utilisées dans **Triptych** (mentionné dans notre fil sur CryptoNote).
 
-![Preuves One-of-Many](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
+![One-of-Many Proofs](/content-images/Fsk3Z0nWIAAPD4k-b76f087018.webp)
 
 ---
 
 ## Confidentialité de la couche réseau : Dandelion++
 
-Les nœuds Firo utilisent la même Network Magic que le Magicbean de Zcash.
+Les nœuds Firo utilisent le même Network Magic que Magicbean de Zcash.
 
-Comme Monero, Firo a implémenté **Dandelion++** pour ajouter de la confidentialité en masquant l’adresse IP de l’émetteur de la transaction.
+Comme Monero, Firo a mis en œuvre **Dandelion++** pour renforcer la confidentialité en masquant l'adresse IP de l'émetteur de la transaction.
 
 **Phases de Dandelion++ :**
-- **Phase Stem** - La transaction est relayée vers un seul nœud aléatoire au lieu de tous les pairs
-- **Phase Fluff** - Déclenchée aléatoirement, puis bascule en mode de diffusion gossip normal
+- **Phase de tige** - La transaction est relayée vers un seul nœud aléatoire au lieu de tous les pairs
+- **Phase de diffusion** - Déclenchée de manière aléatoire, elle bascule ensuite en mode de propagation normal
 
-Cela rend beaucoup plus difficile de retracer l’origine d’une transaction par analyse du réseau.
+Il devient ainsi beaucoup plus difficile de retracer l'origine d'une transaction par l'analyse du réseau.
 
-![Explication de Dandelion++](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
-
----
-
-## Avenir : Lelantus-Spark
-
-**Lelantus-Spark** (prévu pour plus tard en 2023) introduit deux niveaux de visibilité optionnelle à l’aide d’une **dérivation de style ZIP-32** et d’adresses diversifiées.
-
-Il ajoutera également la prise en charge de :
-- Multisig
-- Actifs confidentiels définis par l’utilisateur
-
-Ces fonctionnalités sont parallèles aux Zcash Shielded Assets.
-
-![Annonce de Lelantus-Spark](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+![Dandelion++ explanation](/content-images/Fsk4A8VWcAU84MR-538b054cab.webp)
 
 ---
 
-**Fil original par ZecHub (@ZecHub)**  
+## L'avenir : Lelantus-Spark
+
+**Lelantus-Spark** (prévu pour fin 2023) introduit deux niveaux de visibilité optionnelle grâce à une **dérivation de type ZIP-32** et à des adresses diversifiées.
+
+Il ajoutera également la prise en charge :
+- Du multisig
+- Des actifs confidentiels définis par l'utilisateur
+
+Ces fonctionnalités sont comparables aux actifs protégés de Zcash.
+
+![Lelantus-Spark announcement](/content-images/Fsk4jXeXsAACQ3h-b53294b16e.webp)
+
+---
+
+**Fil original de ZecHub (@ZecHub)**  
 https://x.com/ZecHub/status/1641902859800150017
 
 ---
 
-*Cette page a été compilée à partir du fil original Zero to Zero Knowledge pour le wiki ZecHub.*
+*Cette page a été compilée à partir du fil Zero to Zero Knowledge original pour le wiki ZecHub.*
