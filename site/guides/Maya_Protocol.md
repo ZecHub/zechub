@@ -87,7 +87,7 @@ Also, Maya's goal is to become a *backend* for other services to build upon, in 
 Acting as a *backend*, Maya needs to be supported by different UI's and wallets to be used. 
 Here's a list with some of the services already supporting Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 El Dorado: no longer online, its domain does not resolve.
 

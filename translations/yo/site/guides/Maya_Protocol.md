@@ -65,7 +65,7 @@ Pẹlupẹlu, ibi-afẹde Maya ni lati di * backend * fun awọn iṣẹ miiran 
 Ṣiṣẹ bi * backend, Maya nilo lati ni atilẹyin nipasẹ awọn UI oriṣiriṣi ati awọn apamọwọ ti yoo lo. 
 Àtòjọ àwọn iṣẹ́ tó ti ń ṣe àtìlẹyìn fún Maya rèé:
 
-[Thorwallet DEX (ìyẹn ìwé ìléwọ́)](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore: Àwọn ìkànnì tí ó ní àwọn àlàfo tó ṣe pàtàkì jùlọ.
+[THORWallet DEX (ìyẹn ìwé ìléwọ́)](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore: Àwọn ìkànnì tí ó ní àwọn àlàfo tó ṣe pàtàkì jùlọ.
 
 [El Dorado (ìlú tó wà ní ìlà oòrùn)](https://www.eldorado.market/): XDEFI, Ilé-ìtajà Ìkóhunsókè
 

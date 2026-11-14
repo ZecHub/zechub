@@ -65,7 +65,7 @@ Maya هو تفرع من THORChain لكنه مزود ببعض الميزات وا
 باعتباره *خلفية*، يحتاج Maya إلى أن تدعمه واجهات استخدام ومحافظ مختلفة لكي يمكن استخدامه. 
 إليك قائمة ببعض الخدمات التي تدعم Maya بالفعل:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 

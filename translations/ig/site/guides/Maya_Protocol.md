@@ -65,7 +65,7 @@ N'agbanyeghị nke a, Maya na-ejekwa ozi dịka ngwọta nkwado nye THORChain, n
 N'ịrụ ọrụ dịka *backend*, Maya kwesịrị ka UI na e-akpa ego dị iche iche kwado ya ka e wee jiri ya. 
 Nke a bụ ndepụta ụfọdụ ọrụ na-akwado Maya ugbu a:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
 [El Dorado](https://www.eldorado.market/): XDEFI, Keystore
 
