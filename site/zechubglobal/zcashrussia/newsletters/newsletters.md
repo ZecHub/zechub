@@ -1,3 +1,0 @@
-# newsletters
-
-Translations here
