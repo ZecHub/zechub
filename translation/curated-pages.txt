@@ -146,6 +146,7 @@ Zcash_Tech/NU5.md
 Zcash_Tech/NU6.md
 Zcash_Tech/NU6_1.md
 Zcash_Tech/NU6_2.md
+Zcash_Tech/NU7.md
 Zcash_Tech/Outgoing_View_Keys.md
 Zcash_Tech/Overwinter.md
 Zcash_Tech/Payment_Disclosures.md
