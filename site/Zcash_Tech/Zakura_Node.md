@@ -119,6 +119,16 @@ Download options, snapshots, and configuration documentation are available at:
 - **Source code:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
 - **Release notes:** [github.com/zakura-core/zakura/releases](https://github.com/zakura-core/zakura/releases)
 
+### Serving Light Wallets
+
+Zakura is not a light-wallet server. It doesn't implement `CompactTxStreamer`, the gRPC protocol that light wallets such as Zodl (formerly Zashi) use, so a wallet can't connect to `zakurad` directly. To serve light wallets, run one of these in front of it:
+
+- [Zaino](Zaino.md) (preferred)
+- [lightwalletd](Lightwallet_Nodes.md)
+- [Ztreamer](https://github.com/zcashlabs/ztreamer), Zcash Labs' indexer and light-wallet server, which reads the chain from a Zakura node, either embedded in its own process or a remote one over JSON-RPC
+
+Zakura's own indexer gRPC (`indexer_listen_addr` in the `[rpc]` section, off by default) is a separate interface: block, mempool and chain-tip streams for trusted software you run yourself, not the light-wallet protocol. Plaintext is only allowed on loopback, and any other address requires mutual TLS ([config reference](https://github.com/zakura-core/zakura/blob/v1.8.7/crates/zakura-rpc/src/config/rpc.rs)).
+
 ### Before You Run It
 
 A few things from the 1.8 release notes that catch operators out:
