@@ -15,6 +15,8 @@
 
 *Tested with Feature Net version 14 on Windows 11 (version 10.0.26200.9550), from 8 to 10 October 2026. The software is a prototype and changes with every release. If what you see differs from this page, trust your own run and please open a PR.*
 
+**Update, 13 November 2026: version 14 can no longer join the Feature Net.** [Version 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 October) carried a network upgrade at PoW height 55,296. Starting with [version 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16), "each version stops running two weeks after it ships", and Shielded Labs plans a release every week. The newest release when this note was written is [version 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 November 2026), which schedules another upgrade at PoW height 165,000. Download the [latest release](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest), not version 14. The steps below were not re-run on it. Two known differences: file names have changed, and the staking RPC is now `wallet_staking_action` (see [One RPC name to watch](#one-rpc-name-to-watch)).
+
 ## What the Feature Net is
 
 Crosslink is a proposal, not part of Zcash today. Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) says it "would need to go through the standard Zcash governance process" before it could reach mainnet. The [Crosslink Protocol](/zcash-tech/crosslink-protocol) page explains the design.
@@ -54,14 +56,14 @@ Real ZEC enters only at the end. Shielded Labs has [set aside 500 ZEC](https://s
 
 ## Before you start
 
-- **A computer you can leave running.** The release has builds for Windows, macOS, Ubuntu and Arch Linux. This guide was run on Windows, on a PC with an Intel Core i5-8350U processor.
+- **A computer you can leave running.** Version 14 had builds for Windows, macOS, Ubuntu and Arch Linux. Version 17 has builds for Windows, macOS and Ubuntu. This guide was run on Windows, on a PC with an Intel Core i5-8350U processor.
 - **A Staking Day.** Check when the next one opens before you plan anything. [Staker Space's dashboard](https://crosslink.staker.space/) counts down to it.
 - **Nothing else.** No ZEC, no account and no sign-up.
 
 ## Step 1: Download the app and check the file
 
-1. Open the [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) and scroll to **Assets**.
-2. Download the file for your system. On Windows that is `zebrad_v14_win32.exe`.
+1. Open the [latest release](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) and scroll to **Assets**. This guide was run with the [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), which can no longer join the network.
+2. Download the file for your system. On Windows it ends in `_win32.exe`: `zebrad_v14_win32.exe` in the run below, `zebra-crosslink_v17_win32.exe` for version 17. Use your own file's name and digest in the commands that follow.
 3. Compare the file's SHA-256 with the digest GitHub shows beside that asset.
 
 On Windows, in PowerShell:
@@ -397,6 +399,8 @@ The version 14 release notes describe a staking call named `wallet_staking_actio
 ```
 
 The staking method it registers is [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), which takes one string holding the request as JSON, with the finalizer given by its `zfinv1` identity ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). It was not tried for this guide.
+
+**Changed after version 14.** From version 15 on, the node registers `wallet_staking_action` and no longer has `staking_command` ([version 17 source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v17/zebra-crosslink/zebra-rpc/src/methods.rs#L610-L612)). It takes one object with exactly one of four shapes, `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` or `WithdrawDelegationBond`, and the finalizer is given as a 64-character hex key ([version 15 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). It was not tried for this guide either.
 
 ## Unstake and withdraw
 
