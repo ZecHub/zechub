@@ -132,7 +132,7 @@ Live non-custodial tipping platform where every tip arrives as shielded ZEC. Sup
 
 ### CYZE
 A collaborative wallet and coordination platform that allows multiple team members to manage shielded Zcash funds together. It uses FROST threshold signatures, enabling groups to authorize Orchard transactions collectively without giving a single participant complete control over the wallet.  
-[Visit](https://github.com/USCMig/Cyze)
+[Visit](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.  
@@ -168,7 +168,7 @@ Global map of businesses and locations that accept Zcash.
 
 ### ZECping
 Tool to check gRPC response times of Zcash lightwalletd nodes.  
-[Visit](https://github.com/emersonian/zecping)
+[Visit](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Dashboard for real-time Zcash network statistics and shielding metrics.  
@@ -232,7 +232,7 @@ A privacy-preserving financial tracking and accounting tool for Zcash. It combin
 [Visit](https://zecledger-web.vercel.app/)
 
 ### Authentication with ZcashMe
-A privacy-focused authentication system that uses shielded Zcash transactions as a login mechanism. Users scan a QR code and send a small authentication transaction.  
+A privacy-focused authentication system that uses shielded Zcash transactions as a login mechanism. Users scan a QR code and send a small authentication transaction. The repository is archived (read-only), so the project is no longer maintained.  
 [Visit](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ A privacy-focused authentication system that uses shielded Zcash transactions as
 
 ### Ztreamer
 Heavily optimized open-source Zcash indexer and lightwallet-protocol (CompactTxStreamer) implementation backed by an embedded Zakura node. Runs node + indexer + wallet server in one process (ztreamerd); supports gRPC and Zakura v2 P2P. Fast historical indexing and low-latency serving for light wallets.  
-[Visit](https://github.com/distractedm1nd/ztreamer)  
+[Visit](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Network test suite for zcashd and Zebra developers. Includes a Zcash crawler.  
-[Visit](https://github.com/runziggurat/zcash)
+[Visit](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Linux-first toolkit that brings up a Zebra regtest network with faucet, Unified Address fixtures, and lightwalletd or Zaino, plus reusable GitHub Actions for shielded end-to-end flows.  
