@@ -94,7 +94,9 @@ The [Wallets](/using-zcash/wallets) page tracks viewing-key support and Ironwood
 
 [Zkool](https://github.com/hhanh00/zkool2) is the most flexible option here, because it accepts unified keys as well as legacy ones. Its README documents view-only accounts created from a **unified viewing key** or a **Sapling extended viewing key**, alongside legacy shielded extended keys exported from zcashd. Add a new account, choose the view-only route, and paste the `uview…` or `zxviews…` key; the account then syncs and reports balances and history with no spend authority.
 
-Ironwood protocol support and the Orchard-to-Ironwood migration landed in Zkool 6.24.0 (20 July 2026), and 6.26.1 (2 August 2026) fixed Ironwood transaction detection in the mempool. Run 6.26.1 or later.
+Ironwood protocol support and the Orchard-to-Ironwood migration landed in Zkool 6.24.0 (20 July 2026), and 6.26.1 (2 August 2026) fixed Ironwood transaction detection in the mempool. Since NU7 activated on Mainnet (block 3,543,405), run [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 October 2026) or later: it's the first Zkool release built with the NU7 Mainnet activation height ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 also accepts **unified incoming viewing keys**. Paste a `uivk…` key where any key goes and Zkool creates an incoming-only account: it shows what the original account receives, including memos, and nothing it sends ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). An incoming key can't see spends, so the account's balance is the total received, not what's left, and the account can't spend. Zkool can also export an account's UIVK ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

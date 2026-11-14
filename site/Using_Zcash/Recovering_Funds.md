@@ -171,7 +171,7 @@ Since the Ironwood (NU6.3) upgrade activated on 28 July 2026, the Orchard pool i
 
 If your recovered funds are in Orchard, move them to Ironwood using a **current wallet's built-in migration flow**. Orchard is exit-only after NU6.3.
 
-Zkool 6.30.0 is current as of September 18, 2026 and supports Ironwood. Its migration design is privacy-focused but is not the same thing as claiming ZIP 318 conformance. Other current wallets may use ZIP 318-style staged migration. Follow the installed wallet's current migration screen and release notes rather than inventing a manual amount or schedule.
+Zkool 6.37.0 is current as of November 12, 2026 and supports Ironwood. Use 6.35.0 or later: earlier builds don't know NU7's Mainnet activation height (block 3,543,405), so they build transactions for the pre-NU7 rules ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Its migration design is privacy-focused but is not the same thing as claiming ZIP 318 conformance. Other current wallets may use ZIP 318-style staged migration. Follow the installed wallet's current migration screen and release notes rather than inventing a manual amount or schedule.
 
 A staged migration can use multiple transactions, so the total fee can be higher than a one-shot transfer.
 
