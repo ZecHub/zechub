@@ -153,6 +153,10 @@ makers run-cli --build-only
 
 This builds `./target/release/zingo-cli` and puts `nym-proxy` beside it. You need `nym-proxy` even just to sync: zingo-cli won't go online without it. Since 8.0.0 `zingo-netutils` is part of the main workspace, so the older recipe that copied `nym-proxy` from `zingo-netutils/target/release/` no longer works.
 
+If you move `zingo-cli` somewhere else, move `nym-proxy` with it, or tell zingo-cli where it is with `--nym-proxy /path/to/nym-proxy` or the `ZINGO_NYM_PROXY` environment variable. Without those it looks beside its own binary and then on your `PATH`. If it can't start the proxy, it won't go online at all.
+
+Only payments (and the ZEC price lookup) go over Nym. Sync connects to the server directly.
+
 The first run creates a view-only wallet, syncs it and prints the history:
 
 ```bash
@@ -164,7 +168,7 @@ The first run creates a view-only wallet, syncs it and prints the history:
 
 - `--data-dir` must be an absolute path.
 - `--viewkey` and `--birthday` only apply when the wallet is created. Leave them out after that.
-- zingo-cli starts offline by default. `--server` picks the server and also counts as your consent to go online.
+- A fresh zingo-cli is offline by default and needs your consent to go online. `--server` picks the server and also counts as that consent. The other ways are `--online` (this session only) and `--remember-online`, which also saves the choice next to the wallet so later runs go online without a flag (`--forget-online` undoes it).
 - The key ends up in your shell history, so clear it afterwards.
 
 Later runs:
