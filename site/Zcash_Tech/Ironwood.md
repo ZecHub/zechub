@@ -135,4 +135,4 @@ Through the turnstile. Every coin leaving the old Orchard pool is counted at a p
 
 ---
 
-Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [NU6.2](../zcash-tech/nu6-2)
+Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [NU6.2](../zcash-tech/nu6-2) · Next: [NU7](../zcash-tech/nu7)

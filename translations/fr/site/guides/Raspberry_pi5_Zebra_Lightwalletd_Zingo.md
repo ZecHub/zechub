@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # RPi5 Zebra lightwalletd avec Zingo
@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="Utiliser un nœud Zcash Zebra avec lightwalletd : TUTORIEL"
+    title="Using Zcash Zebra Node with lightwalletd: TUTORIAL"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -27,13 +27,15 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 ## Compiler Zebra
 
-[GitHub de Zebra](https://github.com/ZcashFoundation/zebra)
+[Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
+
+Utilisez Zebra 7.0.0 ou une version plus récente. NU7 a été activé sur le Mainnet au bloc 3 543 405, et les versions plus anciennes de `zebrad` ne peuvent pas suivre la chaîne au-delà de cette hauteur ([notes de version](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Zebra 7 nécessite Rust 1.91 ou une version plus récente (`rustup update`).
 
 ## Configurer zebrad.toml
 
-ajouter :
+Ajoutez :
 
 `listen_addr = '127.0.0.1:8232'`
 
@@ -45,15 +47,15 @@ ajouter :
 
 ## Compiler lightwalletd
 
-* installer go
+* Installez go
 
 ```bash
-wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.27.3.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* installer lightwalletd
+* Installez lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
@@ -65,7 +67,7 @@ export PATH=$PATH:~/go/bin
 
 ## Synchroniser lightwalletd
 
-* notez le changement de `data-dir`
+* Notez le changement de data-dir
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
@@ -78,7 +80,7 @@ export PATH=$PATH:~/go/bin
  sudo apt update
  sudo apt install nodejs
 ```
-Si vous rencontrez des erreurs, [voici](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) quelques méthodes alternatives pour installer NodeJS.
+Si vous rencontrez des erreurs, [voici](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) d'autres façons d'installer NodeJS.
 
 ## Installer Yarn
 
@@ -96,9 +98,9 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Démarrer Zingo-PC
+## Lancer Zingo-PC
 
-* Peut utiliser l’AppImage, ou le binaire dans le dossier décompressé
+* Vous pouvez utiliser l'AppImage ou le binaire dans le dossier décompressé
 * Profitez-en ! :)
 
 # Sources

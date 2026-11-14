@@ -1,9 +1,9 @@
-# Newsletters blindées
+# Newsletters protégées
 
 
 ## Configuration
 
- * Nœud Zebrad en cours d’exécution et entièrement synchronisé avec les RPC activés et configurés pour utiliser des cookies
+ * Un nœud Zebrad en fonctionnement et entièrement synchronisé, avec les RPC activés et configurés pour utiliser les cookies
  * zainod entièrement synchronisé
  * Zallet configuré pour exécuter les RPC
 
@@ -14,7 +14,7 @@
 
 avec un fichier zallet.toml configuré
 
-exemple de toml :
+Exemple de toml :
 
 ```markdown
 [builder]
@@ -72,7 +72,7 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-modifiez le port RPC zebrad correct (8232) et incluez le nom d’utilisateur et le mot de passe du cookie zebrad
+Modifiez le port RPC (8232) de zebrad pour qu'il soit correct et incluez le nom d'utilisateur et le mot de passe issus du cookie de zebrad
 
 
 `__cookie__:yourpasswordhere`
@@ -107,7 +107,7 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-Remarque : assurez-vous d’avoir une copie de l’exécutable zallet dans le dossier où vous exécutez le script
+Remarque : assurez-vous d'avoir une copie de l'exécutable zallet dans le dossier où vous exécutez le script
 
 ### Exécuter les scripts
 
@@ -115,7 +115,7 @@ Remarque : assurez-vous d’avoir une copie de l’exécutable zallet dans le d
 
 Mettez à jour daoAddress.md avec les UA que vous souhaitez utiliser
 
-Ouvrez txBuilderFromFile.sh et mettez à jour la variable "from" avec l’UA approvisionnée qui se trouve dans votre portefeuille zallet
+Ouvrez txBuilderFromFile.sh et mettez à jour la variable « from » avec l'UA approvisionnée qui se trouve dans votre portefeuille zallet
 
 Ensuite,
 

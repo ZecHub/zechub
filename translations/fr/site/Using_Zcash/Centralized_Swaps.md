@@ -2,19 +2,19 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Plateformes d’échange centralisées
+# Plateformes d'échange centralisées
 
-ZecHub ne cautionne aucun service d’échange en particulier ; veuillez effectuer vos propres recherches.
+ZecHub ne cautionne aucun service d'exchange en particulier, veuillez faire vos propres recherches.
 
-Chaque en-tête `###` ci-dessous correspond à une carte sur https://zechub.wiki/using-zcash/centralizedswaps.
-Ajoutez, modifiez ou supprimez un bloc ici ; le wiki le récupère depuis ce fichier.
+Chaque titre `###` ci-dessous correspond à une carte sur https://zechub.wiki/using-zcash/centralizedswaps.
+Ajoutez, modifiez ou supprimez un bloc ici ; le wiki le récupère à partir de ce fichier.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
 - Site web : https://letsexchange.io/
-- Description : Une plateforme d’échange crypto proposant plus de 4 500 cryptomonnaies, une forte liquidité, des swaps inter-chaînes, des passerelles on-ramp et off-ramp, un DEX, ainsi que des transactions rapides et sécurisées.
+- Description : Une plateforme d'exchange crypto proposant plus de 4 500 cryptomonnaies, une liquidité profonde, des échanges inter-chaînes, des rampes d'entrée et de sortie, un DEX, ainsi que des transactions rapides et sécurisées.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Site web : https://app.near-intents.org/
-- Description : Échange rapide avec le soutien de NEAR. Effectuez des dépôts, vendez, échangez notamment les populaires TRUMP, MELANIA, BERA et d’autres memes.
+- Description : Échange rapide avec la prise en charge de NEAR. Effectuez des dépôts, vendez et échangez, y compris les populaires TRUMP, MELANIA, BERA et d'autres memes
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Site web : https://private.shapeshift.com/
-- Description : Votre wallet. Une application. Des possibilités infinies · Échangez du Bitcoin, de l’Ethereum et plus encore aux meilleurs taux sur les principaux DEX et agrégateurs.
+- Description : Votre portefeuille. Une seule application. Des opportunités infinies · Échangez du Bitcoin, de l'Ethereum et bien plus aux meilleurs taux parmi les principaux DEX et agrégateurs
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
 - Site web : https://stealthex.io/
-- Description : StealthEX est un échange instantané de cryptomonnaies permettant des swaps illimités, sans inscription et ne conservant pas les fonds des utilisateurs sur la plateforme. StealthEX est l’un des meilleurs endroits pour acheter des cryptomonnaies.
+- Description : StealthEX est un exchange de cryptomonnaies instantané pour des échanges illimités, dont le service ne nécessite aucune inscription et ne conserve pas les fonds des utilisateurs sur la plateforme. StealthEX est le meilleur endroit pour acheter des cryptomonnaies.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - Site web : https://changelly.com/
-- Description : Changelly est un échange instantané de cryptomonnaies, réputé pour ses frais parmi les plus bas du secteur, pouvant aller jusqu’à 0,25 % sur les échanges crypto. Il répond également à la définition de l’échange crypto le plus polyvalent.
+- Description : Changelly est un exchange de cryptomonnaies à exécution instantanée, réputé pour ses frais parmi les plus bas du secteur, jusqu'à 0,25 % sur les échanges de cryptomonnaies. Il répond également à la définition de l'exchange de cryptomonnaies le plus polyvalent.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Site web : https://flyp.me/en/#/
-- Description : L’échangeur sans compte flyp.me et le token FYP sont nés pour protéger la confidentialité, promouvoir la décentralisation, soutenir l’appropriation populaire et favoriser une communauté croyant au consensus.
+- Description : Le service d'échange sans compte flyp.me et le jeton FYP sont nés pour protéger la confidentialité, promouvoir la décentralisation, soutenir la propriété de terrain et favoriser une communauté qui croit au consensus.
 
 ___
 
@@ -68,16 +68,16 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - Site web : https://exolix.com
-- Description : Échangez instantanément plus de 1 311 cryptomonnaies, au meilleur taux et sans inscription.
+- Description : Échangez plus de 1311 cryptomonnaies instantanément, au meilleur taux et sans inscription
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Site web : https://trocador.app/
-- Description : Échangez des cryptomonnaies anonymement. Rapidement. En toute sécurité. Sans bureaucratie. Cartes de débit prépayées disponibles.
+- Description : Échangez des cryptomonnaies de manière anonyme. Rapide. Sûr. Sans bureaucratie. Cartes de débit prépayées disponibles.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Site web : https://dex.decred.org/
-- Description : Échangez des cryptomonnaies de pair à pair. Aucun frais de trading. Aucun KYC. Exchange décentralisé créé par le projet Decred.
+- Description : Échangez des cryptomonnaies de pair à pair. Aucuns frais de trading. Pas de KYC. Exchange décentralisé développé par le projet Decred.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Site web : https://github.com/firoorg/FiroDEX-Desktop
-- Description : Swaps décentralisés sans confiance utilisant des atomic swaps avec FiroDEX !.
+- Description : Application de bureau d'échanges atomiques. N'est plus maintenue : Firo a archivé le dépôt FiroDEX-Desktop, et sa dernière version est la 0.8.2-beta (février 2025).
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
 - Site web : https://changenow.io/?from=usdterc20&to=zec
-- Description : Exchange crypto WEB 3 illimité – simple, rapide et sans garde.
+- Description : Exchange de cryptomonnaies WEB 3 illimité – Simple, rapide, non dépositaire.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - Site web : https://ff.io
-- Description : Échange instantané et entièrement automatique de cryptomonnaies avec Lightning Network.
+- Description : Exchange de cryptomonnaies instantané et entièrement automatique avec le Lightning Network.
 
 ___
 
@@ -122,7 +122,7 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - Site web : https://xchange.me/
-- Description : Échange anonyme de cryptomonnaies, bon marché, fiable, toujours à l’heure et sans aucune inscription. Miroir Tor dédié disponible.
+- Description : Exchange de cryptomonnaies anonyme, bon marché, fiable, toujours ponctuel et sans aucune inscription. Miroir Tor dédié disponible.
 
 ___
 
@@ -131,7 +131,7 @@ ___
 <img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Site web : https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Description : Échange instantané de Bitcoin et de cryptomonnaies au Vietnam. Achetez, vendez ou échangez parmi 80 actifs, dont VND, BTC, XMR, USDT, ETH, BCH, SOL.
+- Description : Exchange instantané de Bitcoin et de cryptomonnaies au Vietnam. Achetez, vendez ou échangez parmi 80 actifs, dont VND, BTC, XMR, USDT, ETH, BCH, SOL
 
 ___
 
@@ -140,4 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Site web : https://leodex.io/
-- Description : Swaps inter-chaînes sans compte ni KYC. Envoyez des BTC, ETH et plus encore depuis n’importe quel wallet, exchange ou stockage à froid vers une adresse de dépôt à usage unique et recevez ZEC — aucune connexion de wallet requise.
+- Description : Échanges inter-chaînes sans compte et sans KYC. Envoyez des BTC, des ETH et bien plus depuis n'importe quel portefeuille, exchange ou stockage à froid vers une adresse de dépôt à usage unique et recevez des ZEC, sans connexion de portefeuille requise.

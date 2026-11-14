@@ -1,8 +1,8 @@
-# Pools de minage Zcash
+# Zcash Pools de minage
 
 ## Qu'est-ce qu'un pool de minage Zcash ?
 
-Les pools de minage Zcash sont des services qui permettent aux mineurs individuels de combiner leur puissance de calcul (hashrate). En mutualisant leurs ressources, les participants augmentent leurs chances de résoudre des blocs du réseau et gagnent des paiements réguliers, plus modestes, au lieu de dépendre du système de loterie imprévisible du minage en solo.
+Les pools de minage Zcash sont des services qui permettent aux mineurs individuels de mettre en commun leur puissance de calcul (hashrate). En mutualisant leurs ressources, les participants augmentent leurs chances de résoudre les blocs du réseau et perçoivent des paiements plus réguliers et plus modestes, au lieu de dépendre du système de loterie imprévisible du minage en solo.
 
 ---
 
@@ -56,6 +56,7 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 </a>
 
 - Site web : [Poolin](https://www.poolin.com/)
+- Statut : Poolin Technology PTE. LTD. est en procédure de faillite (Chapter 11) depuis le 22 juillet 2026 (affaire n° 26-18325, U.S. Bankruptcy Court, District of New Jersey ; [informations sur l'affaire](https://veritaglobal.net/Poolin)). Vérifiez que le pool mine toujours et verse bien les ZEC avant d'y diriger votre hashrate (vérifié le 13 novembre 2026).
 - Paiements privés : Non
 - Type de pool : Pay Per Share
 - Frais du pool : 3 %
@@ -121,8 +122,8 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 </a>
 
 - Site web : [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- Paiements privés : payé en Bitcoin (BTC)
-- Type de pool : Marketplace de hashrate / Pool proxy
+- Paiements privés : paiement en Bitcoin (BTC)
+- Type de pool : place de marché de hashrate / pool proxy
 - Frais du pool : 0,5 % - 1 %
 
 ---
@@ -138,10 +139,11 @@ Les pools de minage Zcash sont des services qui permettent aux mineurs individue
 - Type de pool : Pay Per Last N Shares (PPLNS)
 - Frais du pool : 1 %
 
+
 ---
 
 ## Anciens pools Zcash
 
 ### Slush Pool (Braiins Pool)
 
-Braiins Pool n'est pas actuellement une option de minage Zcash. Sa [FAQ officielle du pool](https://academy.braiins.com/braiins-pool/faqs/pool) indique Bitcoin comme seule cryptomonnaie prise en charge et précise qu'aucune prise en charge des altcoins n'est prévue (vérifié le 12 novembre 2026).
+Braiins Pool n'est plus une option actuelle pour le minage de Zcash. Sa [FAQ officielle du pool](https://academy.braiins.com/braiins-pool/faqs/pool) indique Bitcoin comme seule cryptomonnaie prise en charge et précise qu'aucune prise en charge des altcoins n'est prévue (vérifié le 12 novembre 2026).

@@ -1,265 +1,265 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Post_Quantum_Security.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Sécurité post-quantique dans Zcash
 
-## TL;DR
+## En bref
 
-- Les ordinateurs quantiques représentent un risque futur, car ils pourraient casser une partie de la cryptographie à clé publique utilisée aujourd’hui par les blockchains.
-- « Post-quantique » désigne une cryptographie qui fonctionne sur des ordinateurs ordinaires, mais qui est conçue pour résister aux attaques de futurs ordinateurs quantiques.
-- Zcash n’est pas entièrement post-quantique aujourd’hui.
-- Le Zcash protégé réduit la quantité de données publiques de transaction que de futurs attaquants peuvent étudier, mais l’utilisation protégée n’est pas la même chose qu’une résistance quantique complète.
-- Zcash se prépare par la recherche, les ZIP et des propositions de mise à niveau comme ZIP 2005 et Project Tachyon.
-- Une migration post-quantique sûre doit protéger en même temps les fonds, la vie privée, les portefeuilles, les exchanges et les règles de consensus.
+- Les ordinateurs quantiques représentent un risque futur, car ils pourraient casser une partie de la cryptographie à clé publique utilisée aujourd'hui par les blockchains.
+- « Post-quantique » désigne une cryptographie qui fonctionne sur des ordinateurs ordinaires, mais qui est conçue pour résister aux attaques des futurs ordinateurs quantiques.
+- Zcash n'est pas entièrement post-quantique aujourd'hui.
+- Zcash protégé réduit la quantité de données de transaction publiques que de futurs attaquants pourraient étudier, mais un usage protégé n'équivaut pas à une résistance quantique complète.
+- Zcash se prépare grâce à la recherche, aux ZIP et à des propositions de mise à niveau telles que la ZIP 2005 et le projet Tachyon.
+- Une migration post-quantique sûre doit protéger à la fois les fonds, la confidentialité, les portefeuilles, les exchanges et les règles de consensus.
 
-Pour connaître les changements apportés par Ironwood et l’état daté de chaque élément, consultez [Zcash est-il post-quantique ?](/zcash-tech/is-zcash-post-quantum).
+Pour savoir ce que Ironwood a changé et consulter l'état daté de chaque élément, voir [Zcash est-il post-quantique ?](/zcash-tech/is-zcash-post-quantum).
 
-## Qu’est-ce que l’informatique quantique ?
+## Qu'est-ce que l'informatique quantique ?
 
-Un ordinateur normal stocke l’information sous forme de bits. Chaque bit vaut soit `0`, soit `1`.
+Un ordinateur classique stocke l'information sous forme de bits. Chaque bit vaut soit `0`, soit `1`.
 
-Un ordinateur quantique utilise des bits quantiques, appelés qubits. Les qubits peuvent être utilisés par des algorithmes spéciaux qui résolvent certains problèmes mathématiques bien plus rapidement que les ordinateurs normaux.
+Un ordinateur quantique utilise des bits quantiques, appelés qubits. Les qubits peuvent être exploités par des algorithmes spéciaux qui résolvent certains problèmes mathématiques beaucoup plus rapidement que les ordinateurs classiques.
 
-Cela ne signifie pas qu’un ordinateur quantique est plus rapide pour tout. Le risque est spécifique. Une partie de la cryptographie dépend de problèmes mathématiques très difficiles pour les ordinateurs normaux, mais beaucoup plus faciles pour un ordinateur quantique suffisamment puissant.
+Cela ne signifie pas qu'un ordinateur quantique est plus rapide en tout. Le risque est spécifique. Une partie de la cryptographie repose sur des problèmes mathématiques très difficiles pour les ordinateurs classiques, mais beaucoup plus faciles pour un ordinateur quantique suffisamment puissant.
 
-Pour les blockchains, l’exemple le plus important est la cryptographie à clé publique. Les clés publiques et les signatures servent à prouver qu’un utilisateur est autorisé à dépenser des coins.
+Pour les blockchains, l'exemple le plus important est la cryptographie à clé publique. Les clés publiques et les signatures servent à prouver qu'un utilisateur est autorisé à dépenser des pièces.
 
 ## Pourquoi les blockchains sont concernées
 
-Les blockchains utilisent la cryptographie pour plusieurs fonctions différentes :
+Les blockchains utilisent la cryptographie pour plusieurs tâches différentes :
 
-| Outil cryptographique | Ce qu’il fait | Impact quantique |
+| Outil cryptographique | Ce qu'il fait | Impact quantique |
 | --- | --- | --- |
-| Signatures numériques | Prouvent que le propriétaire a autorisé une dépense | Risque élevé pour les systèmes courants à courbe elliptique |
-| Fonctions de hachage | Construisent les adresses, engagements, arbres de Merkle et défis | Risque plus faible, mais les marges de sécurité comptent |
-| Preuves à divulgation nulle de connaissance | Prouvent que les transactions protégées sont valides sans révéler les détails | Dépend du système de preuve et des hypothèses |
-| Accord de clés | Aide les portefeuilles à chiffrer les données de notes pour les destinataires | Nécessite un examen attentif dans un modèle de menace quantique |
+| Signatures numériques | Prouvent que le propriétaire a autorisé une dépense | Risque élevé pour les systèmes courants à courbes elliptiques |
+| Fonctions de hachage | Construisent les adresses, les engagements, les arbres de Merkle et les défis | Risque plus faible, mais les marges de sécurité comptent |
+| Preuves à divulgation nulle de connaissance | Prouvent que les transactions protégées sont valides sans en révéler les détails | Dépend du système de preuve et de ses hypothèses |
+| Accord de clé | Aide les portefeuilles à chiffrer les données des notes pour les destinataires | Nécessite un examen attentif dans un modèle de menace quantique |
 
-Un ordinateur quantique suffisamment puissant pourrait menacer de nombreux schémas de signature utilisés aujourd’hui, y compris les signatures à courbe elliptique. C’est important, car une signature est ce qui permet au réseau de savoir qu’une transaction a été autorisée par la bonne clé.
+Un ordinateur quantique suffisamment puissant pourrait menacer de nombreux schémas de signature utilisés aujourd'hui, y compris les signatures à courbes elliptiques. C'est important, car c'est la signature qui permet au réseau de savoir qu'une transaction a été autorisée par la bonne clé.
 
-Les fonctions de hachage sont différentes. L’algorithme de Grover peut accélérer la recherche par force brute, mais il ne casse pas les fonctions de hachage de la même manière directe. Des marges de sécurité plus larges peuvent aider.
+Les fonctions de hachage sont différentes. L'algorithme de Grover peut accélérer une recherche par force brute, mais il ne casse pas les fonctions de hachage de manière aussi directe. Des marges de sécurité plus importantes peuvent aider.
 
-## Qu’est-ce que la cryptographie post-quantique ?
+## Qu'est-ce que la cryptographie post-quantique ?
 
-La cryptographie post-quantique est une cryptographie conçue pour rester sûre à la fois contre les ordinateurs normaux et contre les futurs ordinateurs quantiques.
+La cryptographie post-quantique est une cryptographie conçue pour rester sûre face aux ordinateurs classiques comme aux futurs ordinateurs quantiques.
 
-Cela ne signifie pas que la cryptographie utilise un ordinateur quantique. Cela signifie que le système repose sur des problèmes mathématiques difficiles différents.
+Cela ne signifie pas que cette cryptographie utilise un ordinateur quantique. Cela signifie que le système repose sur d'autres problèmes mathématiques difficiles.
 
 En 2024, le NIST a publié les premières normes post-quantiques finalisées :
 
-- **ML-KEM** pour l’établissement de clés
+- **ML-KEM** pour l'établissement de clés
 - **ML-DSA** pour les signatures numériques
-- **SLH-DSA** pour les signatures numériques basées sur le hachage
+- **SLH-DSA** pour les signatures numériques fondées sur le hachage
 
-Ces normes constituent une étape majeure, mais une blockchain ne peut pas simplement remplacer un algorithme par un autre du jour au lendemain. Les règles de consensus, les portefeuilles, les hardware wallets, la taille des transactions, les frais et la confidentialité doivent tous être pris en compte.
+Ces normes constituent une étape majeure, mais une blockchain ne peut pas simplement remplacer un algorithme par un autre du jour au lendemain. Les règles de consensus, les portefeuilles, les portefeuilles matériels, la taille des transactions, les frais et la confidentialité doivent tous être pris en compte.
 
-## Comment le risque quantique apparaît on-chain
+## Comment le risque quantique se manifeste on-chain
 
-Une manière simple de comprendre le risque est la suivante :
+Une façon simple de se représenter le risque :
 
 1. Un utilisateur crée une paire de clés.
 2. La clé publique ou les données de signature peuvent apparaître on-chain.
-3. Un futur attaquant quantique peut être capable d’utiliser ce matériel public pour découvrir la clé privée.
-4. Si des fonds sont encore contrôlés par cette clé, ils peuvent être en danger.
+3. Un futur attaquant quantique pourrait utiliser ces éléments publics pour retrouver la clé privée.
+4. Si des fonds sont toujours contrôlés par cette clé, ils pourraient être menacés.
 
-Les blockchains transparentes exposent beaucoup d’informations par conception. Les adresses, les montants et les liens entre transactions sont publics. Le matériel de clé publique peut aussi devenir visible lorsque des coins sont dépensés.
+Les blockchains transparentes exposent beaucoup d'informations par conception. Les adresses, les montants et les liens entre transactions sont publics. Les éléments de clé publique peuvent également devenir visibles lorsque des pièces sont dépensées.
 
-C’est l’une des raisons pour lesquelles la réutilisation d’adresse est nuisible. La réutilisation donne aujourd’hui plus de données à relier aux observateurs et fournit aux futurs attaquants plus de matériel historique à analyser.
+C'est l'une des raisons pour lesquelles la réutilisation d'adresses est nuisible. Elle donne aux observateurs davantage de données à relier aujourd'hui et fournit aux futurs attaquants davantage d'historique à analyser.
 
-## Qu’est-ce qui est différent avec Zcash ?
+## En quoi Zcash est-il différent ?
 
-Zcash prend en charge à la fois les transactions transparentes et les transactions protégées.
+Zcash prend en charge les transactions transparentes et les transactions protégées.
 
-Le Zcash transparent fonctionne davantage comme l’usage d’une blockchain publique de type Bitcoin. Les adresses, les montants et les relations entre transactions sont visibles.
+Zcash transparent fonctionne davantage comme une blockchain publique de type Bitcoin. Les adresses, les montants et les relations entre transactions sont visibles.
 
-Le Zcash protégé est différent. Les transactions protégées utilisent des preuves à divulgation nulle de connaissance afin que le réseau puisse vérifier qu’une transaction respecte les règles sans révéler l’expéditeur, le destinataire ni le montant.
+Zcash protégé est différent. Les transactions protégées utilisent des preuves à divulgation nulle de connaissance afin que le réseau puisse vérifier qu'une transaction respecte les règles sans révéler l'expéditeur, le destinataire ni le montant.
 
-Cela donne à Zcash un avantage important en matière de confidentialité :
+Cela confère à Zcash un avantage important en matière de confidentialité :
 
-- Moins de données de transaction sont publiées et visibles par tous.
-- Les utilisateurs évitent de créer un graphe public des paiements lorsqu’ils restent protégés.
-- Les futurs observateurs disposent de moins d’historique financier public à analyser.
-- La divulgation sélective peut se faire via des viewing keys au lieu d’enregistrements publics par défaut.
+- Moins de données de transaction sont publiées à la vue de tous.
+- Les utilisateurs évitent de créer un graphe public de paiements lorsqu'ils restent dans l'espace protégé.
+- Les futurs observateurs disposent de moins d'historique financier public à analyser.
+- La divulgation sélective peut se faire au moyen de clés pour lecture seule plutôt que par des registres publics par défaut.
 
-Mais le Zcash protégé n’est pas automatiquement post-quantique. Les pools protégés dépendent encore d’hypothèses cryptographiques. L’autorisation de dépense, les engagements de notes, les nullifiers, les systèmes de preuve, le chiffrement et les clés de portefeuille nécessitent tous un examen attentif.
+Mais Zcash protégé n'est pas automatiquement post-quantique. Les pools protégés reposent toujours sur des hypothèses cryptographiques. L'autorisation de dépense, les engagements de note, les nullifiers, les systèmes de preuve, le chiffrement et les clés des portefeuilles nécessitent tous un examen attentif.
 
-La version courte :
+En résumé :
 
-> L’usage protégé réduit l’exposition publique, mais Zcash a encore besoin de mises à niveau post-quantiques délibérées.
+> Un usage protégé réduit l'exposition publique, mais Zcash a encore besoin de mises à niveau post-quantiques délibérées.
 
 ## Carte des risques de Zcash
 
 | Domaine | Explication pour débutants | Préoccupation post-quantique |
 | --- | --- | --- |
 | Adresses transparentes | Adresses publiques et graphe public des transactions | Risques similaires à ceux des autres blockchains transparentes |
-| Autorisation de dépense | La preuve qu’un utilisateur est autorisé à dépenser | Les schémas de signature peuvent nécessiter un remplacement ou une migration |
-| Notes protégées | Enregistrements privés de valeur dans les pools protégés | Certains composants peuvent nécessiter de nouvelles hypothèses ou des outils de récupération |
-| zk-SNARKs | Preuves que les transactions protégées sont valides | Les hypothèses du système de preuve doivent être réexaminées |
-| Scan des portefeuilles | Comment les portefeuilles trouvent et déchiffrent les notes reçues | L’accord de clés et le chiffrement des notes doivent être réexaminés |
-| Migration | Déplacer les fonds vers une cryptographie plus sûre | Il faut éviter à la fois la perte de fonds et les fuites de confidentialité |
+| Autorisation de dépense | La preuve qu'un utilisateur est autorisé à dépenser | Les schémas de signature pourraient devoir être remplacés ou migrés |
+| Notes protégées | Enregistrements privés de valeur au sein des pools protégés | Certains composants pourraient nécessiter de nouvelles hypothèses ou des outils de récupération |
+| zk-SNARKs | Preuves que les transactions protégées sont valides | Les hypothèses du système de preuve doivent être examinées |
+| Analyse par le portefeuille | Comment les portefeuilles trouvent et déchiffrent les notes reçues | L'accord de clé et le chiffrement des notes doivent être examinés |
+| Migration | Transférer les fonds vers une cryptographie plus sûre | Doit éviter à la fois la perte de fonds et les fuites de confidentialité |
 
 ## Comment Zcash se prépare
 
-### Zcash a un processus de mise à niveau du réseau
+### Zcash dispose d'un processus de mise à niveau du réseau
 
-Zcash a déjà modifié sa cryptographie par le passé. Sapling a rendu les transactions protégées plus faciles à utiliser. NU5 a introduit Orchard, Unified Address et Halo 2.
+Zcash a déjà changé de cryptographie par le passé. Sapling a rendu les transactions protégées plus faciles à utiliser. NU5 a introduit Orchard, les adresses unifiées et Halo 2.
 
-C’est important parce que la préparation au post-quantique n’est pas un correctif logiciel en une ligne. Elle nécessite des mises à niveau coordonnées du réseau, des changements dans les portefeuilles, des audits et du temps pour que les utilisateurs migrent.
+C'est important, car la préparation post-quantique ne se résume pas à un correctif logiciel d'une ligne. Elle exige des mises à niveau du réseau coordonnées, des modifications des portefeuilles, des audits et du temps pour que les utilisateurs migrent.
 
-Les précédentes mises à niveau de Zcash montrent que l’écosystème a de l’expérience dans le passage d’une cryptographie plus ancienne à des conceptions plus modernes.
+Les mises à niveau passées de Zcash montrent que l'écosystème a l'expérience du passage d'une cryptographie ancienne à des conceptions plus récentes.
 
 ### Halo et Orchard ont réduit les anciennes hypothèses
 
-Halo 2 est utilisé par Orchard, le pool protégé moderne de Zcash. Une amélioration importante est que Halo a supprimé la nécessité d’un trusted setup pour le système de preuve d’Orchard.
+Halo 2 est utilisé par Orchard, le pool protégé moderne de Zcash. Une amélioration importante est que Halo a supprimé le besoin d'une configuration de confiance pour le système de preuve Orchard.
 
-Ce n’est pas la même chose que la sécurité post-quantique. C’est néanmoins pertinent, car cela montre que Zcash peut remplacer des briques cryptographiques majeures lorsque de meilleures conceptions sont disponibles.
+Ce n'est pas la même chose que la sécurité post-quantique. C'est néanmoins pertinent, car cela montre que Zcash peut remplacer des briques cryptographiques majeures lorsque de meilleures conceptions sont disponibles.
 
-### ZIP 2005 se concentre sur la récupérabilité quantique
+### La ZIP 2005 se concentre sur la récupérabilité quantique
 
-ZIP 2005 s’intitule « Orchard Quantum Recoverability ». Il propose des changements destinés à aider les utilisateurs d’Orchard à récupérer ou migrer leurs fonds si des attaques quantiques contre d’anciennes hypothèses deviennent praticables.
+La ZIP 2005 s'intitule « Récupérabilité quantique pour Orchard ». Elle propose des modifications destinées à aider les utilisateurs de Orchard à récupérer ou à migrer leurs fonds si des attaques quantiques contre les anciennes hypothèses devenaient réalisables.
 
-La récupérabilité n’est pas la même chose qu’une sécurité post-quantique complète. C’est plus restreint et tout de même utile :
+La récupérabilité n'est pas la même chose qu'une sécurité post-quantique complète. Elle est plus limitée, mais reste utile :
 
-- La sécurité post-quantique complète cherche à empêcher le fonctionnement des attaques quantiques.
-- La récupérabilité donne aux utilisateurs honnêtes une meilleure voie si l’ancienne cryptographie devient dangereuse.
+- Une sécurité post-quantique complète cherche à empêcher les attaques quantiques de fonctionner.
+- La récupérabilité offre aux utilisateurs honnêtes une meilleure solution si l'ancienne cryptographie devient dangereuse.
 
-Pour les débutants, on peut voir cela comme un plan de sortie de secours. Cela ne remplace pas tout le bâtiment, mais cela aide les gens à quitter l’ancienne pièce en sécurité si l’ancienne serrure devient faible.
+Pour les débutants, voyez cela comme un plan d'évacuation d'urgence. Il ne remplace pas tout le bâtiment, mais il aide les gens à quitter l'ancienne pièce en toute sécurité si l'ancienne serrure devient fragile.
 
-### Project Tachyon vise des améliorations de protocole plus larges
+### Le projet Tachyon vise des améliorations plus larges du protocole
 
-Project Tachyon est une proposition de mise à niveau de Zcash axée sur l’échelle, la synchronisation et la croissance de l’état. Son site public indique que la proposition vise à réduire la taille des transactions, diminuer la croissance de l’état des validateurs et obtenir, comme effet secondaire, une confidentialité entièrement post-quantique.
+Le projet Tachyon est une proposition de mise à niveau de Zcash axée sur le passage à l'échelle, la synchronisation et la croissance de l'état. Son site public indique que la proposition vise à réduire la taille des transactions, à limiter la croissance de l'état des validateurs et à obtenir, par effet secondaire, une confidentialité post-quantique complète.
 
-Comme Tachyon est une proposition, elle dépend encore d’un travail d’ingénierie, d’un examen et de l’approbation de la communauté avant son activation. Il vaut mieux le comprendre comme une partie de la recherche active et de l’orientation des mises à niveau de Zcash, et non comme une fonctionnalité dont les utilisateurs disposent déjà aujourd’hui.
+Comme Tachyon est une proposition, elle dépend encore de travaux d'ingénierie, d'examens et de l'approbation de la communauté avant son activation. Il est préférable de la considérer comme faisant partie de la recherche active et de l'orientation des mises à niveau de Zcash, et non comme une fonctionnalité dont les utilisateurs disposent déjà aujourd'hui.
 
-### La recherche et les normes évoluent
+### La recherche et les normes progressent
 
-Le monde plus large de la cryptographie évolue lui aussi. Les normes post-quantiques du NIST donnent aux implémenteurs de meilleures briques pour les signatures et l’établissement de clés. Les chercheurs en preuves à divulgation nulle de connaissance continuent d’étudier des systèmes de preuve capables de tenir sous des hypothèses quantiques.
+Le monde de la cryptographie dans son ensemble évolue également. Les normes post-quantiques du NIST fournissent aux développeurs des briques plus solides pour les signatures et l'établissement de clés. Les chercheurs en divulgation nulle de connaissance continuent d'étudier des systèmes de preuve capables de résister dans un contexte quantique.
 
-Zcash peut bénéficier de ce travail, mais il doit encore l’adapter à une blockchain préservant la confidentialité.
+Zcash peut tirer parti de ces travaux, mais doit encore les adapter à une blockchain préservant la confidentialité.
 
 ## Approches possibles pour de futures mises à niveau
 
 ### Autorisation de dépense post-quantique
 
-Zcash pourrait finalement avoir besoin d’une autorisation de dépense qui ne repose pas sur des schémas de signature vulnérables au quantique.
+Zcash pourrait à terme avoir besoin d'une autorisation de dépense qui ne repose pas sur des schémas de signature vulnérables aux attaques quantiques.
 
-Cela pourrait utiliser des signatures post-quantiques, des signatures hybrides ou une autre conception. Une conception hybride utilise à la fois des vérifications classiques et post-quantiques pendant une période de transition, de sorte que le système ne dépende pas d’une seule hypothèse.
+Cela pourrait passer par des signatures post-quantiques, des signatures hybrides ou une autre conception. Une conception hybride utilise à la fois des vérifications classiques et post-quantiques pendant une période de transition, de sorte que le système ne dépende pas d'une seule hypothèse.
 
-Le défi est la taille et le coût. Les signatures post-quantiques peuvent être plus volumineuses que les signatures actuelles, ce qui affecte la taille des transactions, la bande passante, les frais, les portefeuilles mobiles et les hardware wallets.
+Le défi tient à la taille et au coût. Les signatures post-quantiques peuvent être plus volumineuses que les signatures actuelles, ce qui affecte la taille des transactions, la bande passante, les frais, les portefeuilles mobiles et les portefeuilles matériels.
 
-### Nouveaux formats d’adresses et de clés
+### Nouveaux formats d'adresses et de clés
 
-Une nouvelle cryptographie nécessite souvent de nouvelles clés et de nouvelles adresses. Les utilisateurs auraient besoin d’un chemin de migration clair entre les anciens formats et des formats plus sûrs.
+Une nouvelle cryptographie nécessite souvent de nouvelles clés et de nouvelles adresses. Les utilisateurs auraient besoin d'une voie de migration claire des anciens formats vers des formats plus sûrs.
 
 La migration devrait être simple dans les portefeuilles. La plupart des utilisateurs ne devraient pas avoir à comprendre chaque détail cryptographique pour rester en sécurité.
 
 ### Migration préservant la confidentialité
 
-La migration est particulièrement sensible pour Zcash. Si de nombreux utilisateurs déplacent des fonds des anciens pools vers les nouveaux selon des schémas évidents, la migration elle-même pourrait divulguer des informations.
+La migration est particulièrement délicate pour Zcash. Si de nombreux utilisateurs transfèrent leurs fonds des anciens pools vers les nouveaux selon des schémas évidents, la migration elle-même pourrait divulguer des informations.
 
 Un bon plan de migration doit protéger :
 
 - Les fonds des utilisateurs
-- La vie privée des utilisateurs
+- La confidentialité des utilisateurs
 - La compatibilité des portefeuilles
-- Le support des exchanges
-- Le support des hardware wallets
-- La sécurité du consensus réseau
+- La prise en charge par les exchanges
+- La prise en charge par les portefeuilles matériels
+- La sécurité du consensus du réseau
 
-### Examen du système de preuve post-quantique
+### Examen post-quantique du système de preuve
 
-Remplacer les signatures ne suffit pas. La conception protégée de Zcash dépend aussi des preuves à divulgation nulle de connaissance et des engagements.
+Remplacer les signatures ne suffit pas. La conception protégée de Zcash repose également sur des preuves à divulgation nulle de connaissance et sur des engagements.
 
 Les travaux futurs pourraient devoir examiner ou remplacer :
 
-- Les hypothèses des zk-SNARK
+- Les hypothèses de zk-SNARK
 - Les engagements polynomiaux
 - Les hachages de défi Fiat-Shamir
-- Les engagements de notes
+- Les engagements de note
 - La construction des nullifiers
-- Les hypothèses des arbres de Merkle
-- Le chiffrement des notes et le comportement des viewing keys
+- Les hypothèses relatives aux arbres de Merkle
+- Le chiffrement des notes et le comportement des clés pour lecture seule
 
-Certains composants peuvent être acceptables avec des paramètres ajustés. D’autres peuvent nécessiter de nouvelles conceptions.
+Certains composants pourraient rester acceptables avec des paramètres ajustés. D'autres pourraient nécessiter de nouvelles conceptions.
 
 ## Exemples pour débutants
 
-### Exemple 1 : L’ancienne serrure
+### Exemple 1 : l'ancienne serrure
 
-Imaginez un coffre-fort avec une serrure solide aujourd’hui. Un nouvel outil inventé dans le futur pourrait ouvrir rapidement cette ancienne serrure.
+Imaginez un coffre-fort doté d'une serrure solide aujourd'hui. Un nouvel outil inventé à l'avenir pourrait ouvrir rapidement cette ancienne serrure.
 
-La cryptographie post-quantique, c’est comme remplacer la serrure par une conception que ce nouvel outil n’est pas censé casser.
+La cryptographie post-quantique revient à remplacer la serrure par un modèle que le nouvel outil n'est pas censé pouvoir forcer.
 
 Pour une blockchain, remplacer la serrure est difficile, car chaque portefeuille, nœud, exchange et appareil matériel doit comprendre la nouvelle conception.
 
-### Exemple 2 : La boîte publique de reçus
+### Exemple 2 : la boîte publique à reçus
 
-Les données transparentes d’une blockchain, c’est comme mettre chaque reçu dans une boîte publique pour toujours. Même si personne ne peut lire tous les schémas aujourd’hui, les outils du futur pourraient en apprendre davantage plus tard.
+Les données d'une blockchain transparente reviennent à déposer chaque reçu dans une boîte publique, pour toujours. Même si personne ne peut lire tous les schémas aujourd'hui, de futurs outils pourraient en apprendre davantage plus tard.
 
-Le Zcash protégé essaie d’éviter de publier ces reçus dès le départ. Cela aide la confidentialité à long terme, mais la serrure qui protège le système protégé doit quand même être réexaminée pour un futur quantique.
+Zcash protégé cherche avant tout à éviter de publier ces reçus. Cela favorise la confidentialité à long terme, mais la serrure qui protège le système protégé doit encore être examinée en vue d'un avenir quantique.
 
-### Exemple 3 : Le plan de sortie
+### Exemple 3 : le plan d'évacuation
 
-La récupérabilité, c’est comme planifier une voie de sortie avant qu’il y ait un incendie. On espère ne pas en avoir besoin, mais il est bien plus sûr de la concevoir tôt que pendant une urgence.
+La récupérabilité revient à prévoir une issue de secours avant qu'un incendie ne se déclare. Vous espérez ne pas en avoir besoin, mais il est bien plus sûr de la concevoir à l'avance qu'en pleine urgence.
 
-ZIP 2005 correspond à cette idée pour les notes Orchard.
+La ZIP 2005 correspond à cette idée pour les notes Orchard.
 
-## Ce que les utilisateurs peuvent faire aujourd’hui
+## Ce que les utilisateurs peuvent faire aujourd'hui
 
-Les utilisateurs n’ont pas besoin de paniquer. De grands ordinateurs quantiques publics capables de casser la cryptographie blockchain déployée ne sont pas disponibles aujourd’hui.
+Les utilisateurs n'ont pas besoin de paniquer. Il n'existe pas aujourd'hui de grands ordinateurs quantiques publics capables de casser la cryptographie déployée dans les blockchains.
 
 De bonnes habitudes restent utiles :
 
-- Préférez l’utilisation de Zcash protégé lorsque c’est possible.
-- Évitez de réutiliser les adresses.
-- Gardez les portefeuilles à jour.
-- Suivez les annonces de mise à niveau du réseau Zcash.
+- Privilégiez un usage protégé de Zcash lorsque c'est possible.
+- Évitez de réutiliser vos adresses.
+- Maintenez vos portefeuilles à jour.
+- Suivez les annonces de mises à niveau du réseau Zcash.
 - Surveillez les ZIP et les recommandations des portefeuilles concernant la récupérabilité ou la migration.
-- Ne supposez pas que l’activité transparente est privée.
-- Ne déplacez pas vos fonds sur la base de rumeurs ; attendez des indications claires de développeurs Zcash et d’équipes de portefeuilles de confiance.
+- Ne partez pas du principe qu'une activité transparente est privée.
+- Ne déplacez pas vos fonds sur la base de rumeurs ; attendez des consignes claires de la part de développeurs Zcash et d'équipes de portefeuilles de confiance.
 
 ## Défis
 
 Les mises à niveau post-quantiques sont difficiles pour toutes les blockchains.
 
-Les défis courants incluent :
+Parmi les défis courants :
 
 - Des clés et des signatures plus volumineuses
 - Des transactions plus volumineuses
 - Des coûts de vérification plus élevés
-- Une utilisation accrue de la bande passante
+- Une consommation de bande passante accrue
 - De nouveaux audits de sécurité
-- Le support des hardware wallets
+- La prise en charge par les portefeuilles matériels
 - Les performances des portefeuilles mobiles
-- L’intégration avec les exchanges et la garde
-- Des fuites de confidentialité pendant la migration
-- L’accord de la communauté sur les changements de consensus
+- L'intégration avec les exchanges et les services de garde
+- Les fuites de confidentialité pendant la migration
+- L'accord de la communauté sur les modifications du consensus
 
-Pour Zcash, la partie la plus difficile n’est pas seulement de garder les coins dépensables. La difficulté est de les garder dépensables tout en préservant la confidentialité qui rend Zcash différent.
+Pour Zcash, le plus difficile n'est pas seulement de garder les pièces dépensables. Le plus difficile est de les garder dépensables tout en préservant la confidentialité qui rend Zcash différent.
 
 ## Résumé
 
-Les ordinateurs quantiques pourraient un jour menacer une partie de la cryptographie utilisée par les blockchains. La cryptographie post-quantique est la réponse à long terme, mais elle doit être déployée avec soin.
+Les ordinateurs quantiques pourraient à terme menacer une partie de la cryptographie utilisée par les blockchains. La cryptographie post-quantique est la réponse à long terme, mais elle doit être déployée avec soin.
 
-Zcash n’est pas entièrement post-quantique aujourd’hui. Cependant, Zcash a des atouts utiles : les transactions protégées réduisent l’exposition publique, le réseau a une histoire de mises à niveau cryptographiques, et les recherches actuelles comme ZIP 2005 et Project Tachyon visent déjà les futurs risques quantiques.
+Zcash n'est pas entièrement post-quantique aujourd'hui. Cependant, Zcash dispose d'atouts utiles : les transactions protégées réduisent l'exposition publique, le réseau a un historique de mises à niveau cryptographiques, et des recherches actuelles telles que la ZIP 2005 et le projet Tachyon visent déjà les risques quantiques futurs.
 
-Pour les débutants, l’idée principale est simple : la confidentialité aujourd’hui réduit l’exposition future des données, et des mises à niveau soigneusement conçues peuvent aider Zcash à évoluer vers une sécurité plus forte à l’ère quantique sans sacrifier la facilité d’utilisation.
+Pour les débutants, l'idée principale est simple : la confidentialité d'aujourd'hui réduit l'exposition future des données, et des mises à niveau soigneuses peuvent aider Zcash à évoluer vers une sécurité plus solide à l'ère quantique sans sacrifier la facilité d'utilisation.
 
-## Pages liées
+## Pages connexes
 
-- [Zcash est-il post-quantique ?](/zcash-tech/is-zcash-post-quantum) - Ce que Ironwood a changé, ce qui reste exposé et un tableau d’état daté
-- [Pools blindés](/using-zcash/shielded-pools) - Comment les transactions blindées de Zcash protègent les détails des transactions
-- [Halo](/zcash-tech/halo) - Le système de preuves de Zcash sans configuration de confiance
+- [Zcash est-il post-quantique ?](/zcash-tech/is-zcash-post-quantum) - Ce que Ironwood a changé, ce qui reste exposé, et un tableau d'état daté
+- [Pools protégés](/using-zcash/shielded-pools) - Comment les transactions protégées de Zcash protègent les détails des transactions
+- [Halo](/zcash-tech/halo) - Le système de preuve de Zcash sans configuration de confiance
 - [ZKP et zk-SNARKs](/zcash-tech/zk-snarks) - Comment fonctionnent les preuves à divulgation nulle de connaissance dans Zcash
-- [Clés de visualisation](/zcash-tech/viewing-keys) - Comment fonctionne la divulgation sélective pour les Zcash blindés
-- [Zcash Actifs blindés](/zcash-tech/zcash-shielded-assets) - Futurs actifs blindés et prise en charge des actifs privés
+- [Clés pour lecture seule](/zcash-tech/viewing-keys) - Comment fonctionne la divulgation sélective pour Zcash protégé
+- [Actifs protégés Zcash](/zcash-tech/zcash-shielded-assets) - Futurs actifs protégés et prise en charge d'actifs privés
 
 ## Références
 
 - [NIST : premières normes de chiffrement post-quantique finalisées](https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards)
 - [Projet de cryptographie post-quantique du NIST](https://csrc.nist.gov/projects/post-quantum-cryptography)
-- [ZIP 2005 : Orchard Quantum Recoverability](https://zips.z.cash/zip-2005)
-- [Project Tachyon](https://tachyon.z.cash/)
+- [ZIP 2005 : récupérabilité quantique pour Orchard](https://zips.z.cash/zip-2005)
+- [Projet Tachyon](https://tachyon.z.cash/)
 - [Spécification du protocole Zcash](https://zips.z.cash/protocol/protocol.pdf)
 - [Livre Halo 2](https://zcash.github.io/halo2/)

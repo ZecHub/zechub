@@ -21,7 +21,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Term | Definition |
 |------|-----------|
 | Benchmarking | Miners are able to submit metrics on the efficiency of various hardware used to mine Zcash. [View here](https://zcashbenchmarks.info) |
-| Block | A Block is a record in the Zcash blockchain that contains a set of transactions sent on the network. Roughly every 75 seconds, on average, a new block is appended to the blockchain. |
+| Block | A Block is a record in the Zcash blockchain that contains a set of transactions sent on the network. Roughly every 25 seconds, on average, a new block is appended to the blockchain (75 seconds before NU7 activated in November 2026). |
 | Block Explorer | An online tool to view all transactions, past and current, on the blockchain. [Zcash Block Explorer](https://zcashexplorer.app/) |
 | Blogs | [ZODL Blog (formerly Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Newsletter](https://zechub.substack.com/) |
 | Blossom | The 3rd Major Network Upgrade for Zcash. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -131,7 +131,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Noir Wallet | A Zcash browser extension wallet supported by Zcash Community Grants, built to connect shielded ZEC directly to browser applications instead of relying on QR codes and manual transfers. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | The 6th Major Network Upgrade for Zcash, introducing the Orchard shielded pool and Unified Addresses. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | The 7th Major Network Upgrade for Zcash, adjusting the block subsidy to fund the Zcash Community Grants program and the Deferred Dev Fund Lockbox. Activated in late 2024. [More Info](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | The network upgrade after Ironwood, targeted for mainnet on 5 November 2026. Per [ZIP 259](https://zips.z.cash/zip-0259) it brings 25-second blocks (ZIP 218), the Network Sustainability Mechanism with fee recycling (ZIPs 235 and 237), and the end of version 4 transactions, which leaves Sprout funds unspendable (ZIP 2003). It adds no new transaction format; Tachyon and Zcash Shielded Assets are not part of it. |
+| NU7 | The network upgrade after Ironwood, activated on mainnet at height 3,543,405 on 6 November 2026 (UTC). Per [ZIP 259](https://zips.z.cash/zip-0259) it brings 25-second blocks (ZIP 218), the Network Sustainability Mechanism with fee recycling (ZIPs 235 and 237), and the end of version 4 transactions, which leaves Sprout funds unspendable (ZIP 2003). It adds no new transaction format; Tachyon and Zcash Shielded Assets are not part of it. |
 
 ## O
 

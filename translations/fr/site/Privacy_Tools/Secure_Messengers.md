@@ -1,37 +1,37 @@
-[![Modifier la page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
 
 # Messageries sécurisées
 
 ## Chiffrement de bout en bout
 
-Dans le contexte des messageries sécurisées, le chiffrement de bout en bout est une méthode de sécurité qui permet de garder une conversation protégée. Lorsque les messages transitent d’un appareil à un autre, personne — y compris l’application de communication depuis laquelle vous envoyez le message ni des tiers — ne peut lire les messages éligibles. De plus, de nombreux fournisseurs de services de messagerie novateurs et bien connus comme Facebook, Whatsapp et Zoom utilisent déjà la technologie de chiffrement de bout en bout. 
+Dans le domaine des messageries sécurisées, le chiffrement de bout en bout est une méthode de sécurité qui permet de protéger une conversation. Lorsque les messages transitent d'un appareil à un autre, personne, ni l'application de communication depuis laquelle vous envoyez le message, ni des tiers, ne peut lire les messages. De plus, de nombreux fournisseurs de services de messagerie innovants et de premier plan, comme Facebook, WhatsApp et Zoom, exploitent déjà la technologie du chiffrement de bout en bout. 
 
-## Pourquoi le E2EE est-il nécessaire ?
+## Pourquoi le chiffrement de bout en bout est-il nécessaire ?
 
-Pour offrir de plus grands avantages, la technologie de chiffrement de bout en bout joue un rôle essentiel dans les situations où la sécurité des données est nécessaire, notamment, sans s’y limiter, dans les secteurs de la finance, de la communication et de la santé. Elle permet aux organisations de se conformer facilement à la confidentialité des données, aux réglementations de sécurité ainsi qu’aux lois.
+Pour en tirer le meilleur parti, la technologie du chiffrement de bout en bout joue un rôle essentiel dans les situations où la sécurité des données est nécessaire, notamment, mais pas uniquement, dans les secteurs de la finance, de la communication et de la santé. Elle permet aux organisations de se conformer facilement aux réglementations et aux lois relatives à la confidentialité et à la sécurité des données.
 
-**Confidentialité des données** : Avec le chiffrement de bout en bout, on considère que seul le destinataire prévu d’un message ou de données peut y accéder et les déchiffrer. Cela signifie que même le fournisseur du service de messagerie, comme Facebook et WhatsApp, ne peut pas en lire le contenu. Ce niveau approfondi de confidentialité des données est important pour les utilisateurs et les organisations qui ne veulent pas que des informations sensibles soient divulguées, qu’il s’agisse de transactions financières, de communications professionnelles ou de conversations privées sensibles exposées à un accès non autorisé.
+**Confidentialité des données** : Avec le chiffrement de bout en bout, seul le destinataire prévu d'un message ou de données peut y accéder et les déchiffrer. Cela signifie que même le fournisseur du service de messagerie, comme Facebook ou WhatsApp, ne peut pas en lire le contenu. Ce niveau élevé de confidentialité des données est important pour les utilisateurs et les organisations qui ne veulent pas que des informations sensibles soient divulguées, qu'il s'agisse de transactions financières, de communications professionnelles ou de discussions privées, et qui souhaitent les protéger contre tout accès non autorisé.
 
-**Sécurité des données** : Ce niveau technologique élevé permet de protéger les données contre d’éventuelles violations, même lorsqu’elles sont encore en transit ou au repos.
-Lorsque les données transitent par des serveurs ou sur internet, elles sont exposées à de nombreux facteurs qui les rendent vulnérables à une interception par des accès non autorisés, comme des pirates informatiques. Grâce à la technologie de chiffrement de bout en bout, les données transmises peuvent être interceptées, mais restent illisibles tant que l’expéditeur ou le destinataire ne détient pas la clé de chiffrement. Cela pourrait potentiellement réduire l’ampleur des violations de données tout en garantissant la sécurité des communications des individus et des organisations.
+**Sécurité des données** : Cette technologie robuste permet de protéger les données contre d'éventuelles fuites, aussi bien pendant leur transit qu'au repos.
+Lorsque les données transitent par des serveurs ou par Internet, elles sont exposées à de nombreux facteurs qui les rendent vulnérables à une interception par des personnes non autorisées, comme des pirates informatiques. Avec la technologie du chiffrement de bout en bout, les données transmises peuvent être interceptées, mais elles restent illisibles tant que l'on ne détient pas la clé de chiffrement de l'expéditeur ou du destinataire. Cela permet de réduire le nombre et l'ampleur des fuites de données tout en garantissant la sécurité des communications des particuliers et des organisations.
 
-**Confiance et contrôle des utilisateurs** : Avec le chiffrement de bout en bout, les individus et les organisations sont libres de communiquer parce qu’ils savent que leurs messages, fichiers et autres informations sensibles sont protégés contre les accès non autorisés. De même, cette technologie aide à protéger les individus et les organisations contre l’ingérence et la surveillance gouvernementales.
+**Confiance et contrôle par l'utilisateur** : Grâce au chiffrement de bout en bout, les particuliers et les organisations peuvent communiquer librement, car ils savent que leurs messages, leurs fichiers et leurs autres informations sensibles sont protégés contre tout accès non autorisé. De même, cette technologie contribue à protéger les particuliers et les organisations contre l'ingérence et la surveillance gouvernementales.
 
 ### Quelques messageries sécurisées populaires
 
 **Mémos chiffrés Zcash**
 
-Les portefeuilles Zcash qui prennent en charge les mémos blindés permettent aux utilisateurs de joindre des messages chiffrés à des paiements blindés. Chaque sortie blindée possède son propre champ mémo de 512 octets ; il ne s’agit pas d’une limite unique de 512 octets pour l’ensemble de la transaction. Consultez [Mémos](/using-zcash/memos) pour le format du texte et la prise en charge par les portefeuilles. Les frais de transaction sont payés en ZEC, et la [ZIP 317](https://zips.z.cash/zip-0317) définit des frais conventionnels qui dépendent de la complexité de la transaction. Le coût en dollars américains varie également selon le taux de change du ZEC, de sorte que des frais inférieurs à 1 centime de dollar américain ne sont pas garantis. Vérifiez l’estimation des frais affichée par le portefeuille avant d’envoyer. La réception des messages dépend de la propagation de la transaction, de la politique de confirmation et de la synchronisation du portefeuille du destinataire ; il ne s’agit pas d’une messagerie instantanée.
+Les portefeuilles Zcash qui prennent en charge les mémos protégés permettent aux utilisateurs de joindre des messages chiffrés à des paiements protégés. Chaque sortie protégée dispose de son propre champ de mémo de 512 octets ; il ne s'agit pas d'une limite unique de 512 octets pour l'ensemble de la transaction. Consultez [Mémos](/using-zcash/memos) pour le format du texte et la prise en charge par les portefeuilles. Les frais de transaction sont payés en ZEC, et la [ZIP 317](https://zips.z.cash/zip-0317) définit des frais conventionnels qui dépendent de la complexité de la transaction. Le coût en dollars américains varie également selon le taux de change du ZEC : des frais inférieurs à 1 cent américain ne sont donc pas garantis. Vérifiez le montant des frais indiqué par le portefeuille avant l'envoi. La remise des messages dépend de la propagation de la transaction, de la politique de confirmation et de la synchronisation du portefeuille du destinataire ; il ne s'agit pas d'une messagerie instantanée.
 
-Essayez-les : https://z.cash/wallets 
+Essayez-le : https://z.cash/wallets 
 
 ![Mémos chiffrés Zcash](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **Application Signal**
 
-![Application Signal](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signal App](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
-La messagerie privée Signal est une application de messagerie sécurisée où la confidentialité des données est portée à son plus haut niveau. L’application de messagerie privée Signal est gratuite et facile à utiliser ; les utilisateurs n’ont besoin d’aucune expérience préalable. L’application Signal utilise une technologie de chiffrement de bout en bout qui garantit que vos communications restent entièrement privées. Toute personne souhaitant envoyer des messages privés en toute sécurité devrait envisager d’utiliser la messagerie privée Signal, car elle réduira considérablement à la fois vos vulnérabilités en cybersécurité et votre empreinte de données.
+La messagerie privée Signal est une application de messagerie sécurisée qui porte la confidentialité des données à son plus haut niveau. L'application de messagerie privée Signal est gratuite et facile à utiliser, et ne demande aucune expérience préalable. L'application Signal utilise une technologie de chiffrement de bout en bout qui garantit que vos communications restent entièrement privées. Toute personne souhaitant envoyer des messages privés en toute sécurité devrait envisager d'utiliser l'application de messagerie privée Signal, car elle réduira considérablement à la fois vos vulnérabilités en matière de cybersécurité et votre empreinte numérique.
 
 Essayez-la : [https://signal.org/download/](https://signal.org/download/)
 
@@ -39,18 +39,18 @@ Essayez-la : [https://signal.org/download/](https://signal.org/download/)
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-L’application Bison Relay a fait ses débuts en 2022. Bison Relay ne dépend pas du fait que les utilisateurs possèdent des comptes — incroyablement surprenant ! Ici, chaque message envoyé et reçu est payé individuellement via le Decred Lightning Network. L’objectif principal de cette application est d’éliminer complètement le besoin de comptes tout en minimisant les métadonnées. D’un autre côté, Bison Relay met fin à la manière dont la censure est généralement mise en œuvre. 
+L'application Bison Relay a fait ses débuts en 2022. Bison Relay ne nécessite pas que les utilisateurs possèdent un compte, c'est incroyable ! Ici, chaque message envoyé et reçu est payé individuellement via le Decred Lightning Network. Le seul objectif de cette application est d'éliminer complètement le besoin de comptes tout en réduisant au minimum les métadonnées. Par ailleurs, Bison Relay met un terme à la manière dont la censure est habituellement mise en œuvre. 
 
 Essayez-la : [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 **Application Session**
 
-![Application Session](/content-images/logo-black-9e799f2b06.webp)
+![Session App](/content-images/logo-black-9e799f2b06.webp)
 
-Si vous ne savez pas encore ce qu’est l’application Session, ne vous inquiétez pas ! En voici un aperçu : Session est l’une des messageries concurrentes chiffrées de bout en bout. L’application a été conçue pour minimiser les métadonnées sensibles. L’application Session a été pensée pour les personnes qui veulent une confidentialité absolue et être libres de toute forme de surveillance. Sur l’application Session, les utilisateurs peuvent créer un compte sans numéro de téléphone ni adresse e-mail, ce qui signifie qu’elle est complètement anonyme. Les utilisateurs peuvent envoyer des messages en toute sécurité via leur réseau sans laisser de trace ; il n’y a donc rien à divulguer.
+Si vous ne connaissez pas encore l'application Session, pas d'inquiétude ! En voici un aperçu : Session est l'une des messageries chiffrées de bout en bout en pleine concurrence. L'application a été conçue pour réduire au minimum les métadonnées sensibles. L'application Session a été pensée pour les personnes qui souhaitent une confidentialité absolue et être libérées de toute forme de surveillance. Sur l'application Session, les utilisateurs peuvent créer un compte sans numéro de téléphone ni adresse e-mail, ce qui la rend entièrement anonyme. Les utilisateurs peuvent envoyer des messages en toute sécurité via son réseau sans laisser de trace : il n'y a donc rien qui puisse fuiter.
 
 Essayez-la : [https://getsession.org](https://getsession.org)
 
 ## Résumé
 
-Le chiffrement de bout en bout est important parce qu’il favorise une protection solide de la vie privée, renforce la sécurité des données à sa base, et permet aux utilisateurs de conserver un contrôle total sur leurs propres informations lorsqu’elles circulent sur les réseaux et les appareils, répondant ainsi à des préoccupations essentielles à l’ère numérique.
+Le chiffrement de bout en bout est important, car il favorise une protection solide de la confidentialité, renforce en profondeur la sécurité des données et permet aux utilisateurs de garder le contrôle total de leurs propres informations lorsqu'elles transitent par les réseaux et les appareils, répondant ainsi à des préoccupations essentielles à l'ère numérique.
