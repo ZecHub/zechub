@@ -192,7 +192,7 @@ If their model succeeds, Zcash Labs could serve as an example of how an independ
 
 ## Developer Tools
 
-Zcash Labs also publishes open-source developer tooling on **[GitHub](https://github.com/zcashlabs)**. This includes **zcash.js**, a TypeScript/JavaScript SDK (see the [Zcash JS Developer Guide](/guides/zcash-js)); **Thus Spoke Zakura**, a disposable Regtest environment with a node, light wallet server, dashboard and faucet (see [Thus Spoke Zakura on Akash](/guides/thus-spoke-zakura-akash)); and **zcash-skills**, a set of agent skills that give AI coding agents current knowledge of the Zcash stack (see [Zcash Agent Skills](/guides/zcash-agent-skills)).
+Zcash Labs also publishes open-source developer tooling on **[GitHub](https://github.com/zcashlabs)**. This includes **zcash.js**, a TypeScript/JavaScript SDK (see the [Zcash JS Developer Guide](/guides/zcash-js)); **Thus Spoke Zakura**, a disposable Regtest environment with a node, light wallet server, dashboard and faucet (see [Thus Spoke Zakura on Akash](/guides/thus-spoke-zakura-akash)); and **zcash-skills**, a set of agent skills that give AI coding agents current knowledge of Zcash's protocol, libraries and tools (see [Zcash Agent Skills](/guides/zcash-agent-skills)).
 
 ---
 
