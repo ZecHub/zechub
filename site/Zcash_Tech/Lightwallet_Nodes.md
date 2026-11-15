@@ -117,11 +117,9 @@ The menu paths below were correct when this page was updated, but wallet interfa
 
 Formerly Zashi. The cog in the top right corner, then Advanced Settings. Tor lives in the same screen. ZODL also offers a Switch server shortcut when a sync failure is caused by the server being out of date.
 
-#### Ywallet
+#### Zkool
 
-The cog in the top right corner, then the Zcash tab.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+The successor to Ywallet, from the same developer (Ywallet itself is no longer maintained and can't follow the network after Ironwood). The gear icon (Open Settings) at the top of the accounts screen, then the Light Node Server field. The list button next to it picks from known servers, and the Direct / Tor / Nym / Proxy switch under it sets how the wallet connects.
 
 #### Zingo
 
