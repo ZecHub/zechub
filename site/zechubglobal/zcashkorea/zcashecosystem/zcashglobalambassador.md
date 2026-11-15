@@ -23,5 +23,5 @@
 | Madison     | 미국          | @madisonedge| [mad_parks](https://twitter.com/mad_parks) |
 | Yoditar     | 베네수엘라   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Zoz         | 사우디 아라비아| @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
-| Tim         | 프랑스      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur)) |
+| Tim         | 프랑스      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur) |
  

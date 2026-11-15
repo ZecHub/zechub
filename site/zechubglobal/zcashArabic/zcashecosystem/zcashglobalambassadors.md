@@ -25,5 +25,5 @@
 | Michael     | Brazil      | @michae2xl  | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar     | Venezuela   | @yoditar    | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Zoz         | السعودية | @zoz        | [ZECArabic](https://twitter.com/ZozNotorious) |
-| Tim         | France      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur)) |
+| Tim         | France      | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur) |
  

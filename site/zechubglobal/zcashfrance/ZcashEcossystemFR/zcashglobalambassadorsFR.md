@@ -25,7 +25,7 @@ Le programme Global Ambassador est conçu pour identifier les membres de la comm
 | Michel | Brésil | @michae2xl | [Michael2xl](https://twitter.com/michae2xl) |
 | Yoditar | Vénézuela | @yoditar | [Yoditar.zkp](https://twitter.com/yoditarX) |
 | Zoz | Arabie Saoudite | @zoz | [ZECArabic](https://twitter.com/ZozNotorious) |
-| Tim | France | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur)) |
+| Tim | France | @tim_ukrainian |[ZcashEclaireur](https://twitter.com/ZcashEclaireur) |
  
 
 
