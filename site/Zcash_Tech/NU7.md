@@ -16,6 +16,8 @@ New to Zcash? Start with [What is ZEC and Zcash](../start-here/what-is-zec-and-z
 
 ## TL;DR
 
+In plain words: blocks now arrive every 25 seconds, the amount of new ZEC per day stays the same, part of every fee is saved for future miners, and the old Sprout pool is closed.
+
 - **25-second blocks** ([ZIP 218](https://zips.z.cash/zip-0218)): first confirmation in about 25 seconds instead of 75. The block subsidy dropped from 1.5625 to 0.52083333 ZEC, so about 1,800 ZEC are still issued per day.
 - **Shielded action limits** (ZIP 218): at most 330 shielded actions per block across all pools, with per-pool caps, to keep worst-case block validation and wallet sync costs below what they were before.
 - **Network Sustainability Mechanism** ([ZIP 235](https://zips.z.cash/zip-0235) + [ZIP 237](https://zips.z.cash/zip-0237)): 60% of every block's transaction fees leave circulation and are reissued to miners later, starting at block 8,939,664 (projected around February 2031). The 21 million supply cap is unchanged.
@@ -25,6 +27,8 @@ New to Zcash? Start with [What is ZEC and Zcash](../start-here/what-is-zec-and-z
 ## Visual analogy
 
 Think of the chain as a train line. Before NU7 a train left every 75 seconds and could carry as many passengers as fit in 2 MB. NU7 runs a train every 25 seconds, pays each driver a third of the old fare so the daily total is the same, and puts a cap on how many of the heaviest passengers (shielded actions) can board one train, so no single train can take too long to check.
+
+![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## What NU7 changed
 
