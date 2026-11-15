@@ -99,7 +99,7 @@ Read more: [ZIP 209: Prohibit Out-of-Range Chain Value Pool Balances](https://zi
 
 ## Previewing What a Transaction Reveals
 
-When this thread was written, ECC planned new `zcashd` RPC methods that would let users preview a proposed transaction and accept or reject it based on its privacy characteristics. In practice `zcashd` gained a `privacyPolicy` argument on [`z_sendmany`](https://zcash.github.io/rpc/z_sendmany.html), which refuses any send that would reveal more than the policy allows (the default is `FullPrivacy`). `zcashd` itself reached its [end of life](https://zcash.github.io/zcash/user/end-of-life.html) on 18 July 2026 and no longer runs.
+When this thread was written, the then-ECC team (now ZODL, the Zcash Open Development Lab, whose Zashi wallet is now Zodl) planned new `zcashd` RPC methods that would let users preview a proposed transaction and accept or reject it based on its privacy characteristics. In practice `zcashd` gained a `privacyPolicy` argument on [`z_sendmany`](https://zcash.github.io/rpc/z_sendmany.html), which refuses any send that would reveal more than the policy allows (the default is `FullPrivacy`). `zcashd` itself reached its [end of life](https://zcash.github.io/zcash/user/end-of-life.html) on 18 July 2026 and no longer runs.
 
 Its replacement wallet, [Zallet](https://github.com/zcash/zallet) (in beta), keeps the same policy values. Its [RPC reference](https://github.com/zcash/zallet/blob/main/book/src/rpc/methods.md) also describes `pczt_create`, which builds a transaction and reports the minimum privacy policy it needs, and `pczt_sign`, which only signs once the caller has acknowledged that policy. Together they give the preview-then-accept flow the thread described.
 
