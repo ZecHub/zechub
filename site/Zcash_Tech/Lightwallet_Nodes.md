@@ -154,6 +154,7 @@ Light wallets give you the shielded pool without the disk space, which is a good
 - [Who Can See Your Zcash Payment](/start-here/who-can-see-your-zcash-payment) — the beginner-level view of the same question.
 - [What a Block Explorer Can See](/zcash-tech/what-a-block-explorer-can-see) — what is visible on-chain, as opposed to at the server.
 - [Zaino](/zcash-tech/zaino) — architecture diagrams and the wider role of the Rust indexer.
+- [Zinder](/zcash-tech/zinder) — the Zcash Foundation's alpha indexer, which serves light wallets through a lightwalletd-compatible adapter.
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — the validator a light wallet server reads from.
 - [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — how the compact blocks a server sends are processed by your wallet.
 

@@ -89,5 +89,6 @@ Zaino exposes two kinds of network service. The gRPC service is the lightwallet-
 * [Z3 deployment repository](https://github.com/ZcashFoundation/z3)
 * [Zebra documentation](https://zebra.zfnd.org/)
 * [Zaino grant and project discussion](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), another Rust indexer, from the Zcash Foundation (alpha)
 
 **Last updated:** August 2026

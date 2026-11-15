@@ -118,6 +118,7 @@ Zaino gRPC is plaintext h2c on all networks. Terminate TLS at a reverse proxy if
 
 * **lightwalletd** — the older compact-block server. Still deployed in the wild; Zaino is the successor path for this role.
 * **Ztreamer** — a Zakura-backed indexer and `CompactTxStreamer` implementation. It is not a Z3 service. See the [Ztreamer repository](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — the Zcash Foundation's indexer (alpha). It reads from an archive Zebra or Zakura node and serves its own `WalletQuery` gRPC API plus a lightwalletd-compatible `CompactTxStreamer` adapter. Its quickstart runs next to a Z3 node, but it is not a Z3 service. See [Zinder](/zcash-tech/zinder).
 * **Zebra `rpc.indexer_listen_addr`** — an optional gRPC listener *inside* Zebra. Z3 does not require it and does not publish it to the host.
 
 ---
