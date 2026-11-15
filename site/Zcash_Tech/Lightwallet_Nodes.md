@@ -81,13 +81,13 @@ Two caveats. Tor hides your IP from the server, but it does not change what the 
 
 [Zaino](/zcash-tech/zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients, and block explorers, reading chain data held by "either a Zebra or zcashd full validator".
 
-It is under active development, with version 0.8.0 released in August 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
+It is under active development, with version 0.10.1 released in September 2026. It aims to stay backward compatible with lightwalletd where possible, so wallets can point at it without being rewritten.
 
 Zaino has its own page with architecture diagrams, so this page only covers its role as a light wallet server.
 
 ### Running your own
 
-The strongest option is to be your own operator, which removes the trust question entirely. Both servers are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go and [Zaino](https://github.com/zingolabs/zaino) in Rust. Both read from a full validator, so you will also want [Zebra](/zcash-tech/zebra-full-node).
+The strongest option is to be your own operator, which removes the trust question entirely. Both servers are open source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go and [Zaino](https://github.com/zingolabs/zaino) in Rust. Both read from a full validator, so you will also want [Zebra](/zcash-tech/zebra-full-node). The zec.rocks servers are deployed with [Zcash Stack](/guides/zcash-stack), an open-source Helm chart and Docker Compose kit that runs Zebra and lightwalletd together.
 
 ## Practical Implications
 

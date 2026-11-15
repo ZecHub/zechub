@@ -227,6 +227,7 @@ guides/Zcash_Devtool.md
 guides/Zcash_Improvement_Proposals.md
 guides/Zcash_Js.md
 guides/Zcash_Node_RPC_and_Indexing.md
+guides/Zcash_Stack.md
 guides/Zenith_Installation.md
 guides/Zero-Knowledge_vs_Decoys.md
 guides/Zgo_Payment_Processor.md
