@@ -36,10 +36,11 @@
 
 import { readFileSync, writeFileSync, existsSync, statSync } from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { execFileSync } from "node:child_process";
 import { hashPage } from "./lib/normalize-hash.mjs";
 
-const root = new URL("../", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../", import.meta.url));
 
 function arg(name) {
   const i = process.argv.indexOf(name);

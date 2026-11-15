@@ -3,6 +3,7 @@ import { execFileSync, spawnSync } from "node:child_process";
 import { mkdtempSync, readdirSync, readFileSync, symlinkSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { test } from "node:test";
 
 import { STYLE_FIELDS, validateLocale } from "./glossary.mjs";
@@ -23,7 +24,7 @@ import { siteDirectories } from "../validate.mjs";
 const here = (p) => new URL(p, import.meta.url);
 const read = (p) => readFileSync(here(p), "utf8");
 const json = (p) => JSON.parse(read(p));
-const ROOT = here("../../../").pathname;
+const ROOT = fileURLToPath(here("../../../"));
 
 const TEMPLATE = read("../prompt-template.md");
 const TERMS_EN = json("../terms.en.json");
@@ -359,7 +360,7 @@ test("protected-terms.json no longer carries glossaryOnly; its words are glossar
 
 // ---- CLI --------------------------------------------------------------------
 
-const CLI = here("../render-prompt.mjs").pathname;
+const CLI = fileURLToPath(here("../render-prompt.mjs"));
 
 test("CLI prints the head for a page and for a block", () => {
   const page = execFileSync("node", [CLI, "id", "guides/Raspberry_Pi_4_Full_Node.md"], { encoding: "utf8" });
@@ -407,7 +408,7 @@ test("looseHas: case and hyphen/space tolerant, still word-bounded", () => {
 test("the CLI prints the prompt when its path has a space or goes through a symlink", () => {
   const d = mkdtempSync(join(tmpdir(), "rp cli ü-"));
   const link = join(d, "w t");
-  symlinkSync(ROOT, link);
+  symlinkSync(ROOT, link, process.platform === "win32" ? "junction" : "dir");
   const out = execFileSync("node", [join(link, "translation/glossary/render-prompt.mjs"), "id", "guides/Brave_Wallet_Guide.md"], { encoding: "utf8" });
   assert.match(out, /viewing key → viewing key/);
   assert.match(out, /"kamu"/);

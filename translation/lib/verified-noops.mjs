@@ -58,7 +58,7 @@ const SHA = /^sha256:[0-9a-f]{64}$/;
 export function parseVerifiedNoops(text) {
   const entries = new Map();
   const errors = [];
-  const lines = String(text ?? "").split("\n");
+  const lines = String(text ?? "").replace(/\r/g, "").split("\n");
   for (let i = 0; i < lines.length; i++) {
     const raw = lines[i];
     const line = raw.replace(/#.*$/, "").trim();
