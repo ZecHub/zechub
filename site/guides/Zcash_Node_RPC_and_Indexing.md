@@ -145,6 +145,7 @@ Zaino gRPC is plaintext h2c on all networks. Terminate TLS at a reverse proxy if
 * [Full Nodes](/zcash-tech/full-nodes)
 * [Zebra Full Node](/zcash-tech/zebra-full-node)
 * [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (or Zaino) on Kubernetes or Docker Compose
 * [Migration Guide: zcashd to Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib and Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 
