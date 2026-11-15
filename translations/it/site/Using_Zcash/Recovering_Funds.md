@@ -83,7 +83,7 @@ Qui sono trattate due situazioni:
 5. Incolla la chiave in **Key (Seed Phrase, Private Key, or Viewing Key)**. Zkool accetta frasi mnemoniche, chiavi segrete Sapling, chiavi estese trasparenti e chiavi di visualizzazione supportate. Una chiave di visualizzazione è in sola lettura e non può autorizzare una spesa.
 6. Inserisci una **Birth Height** per un account vecchio. Zkool non esegue la scansione dei blocchi precedenti a questa altezza, quindi, se non sei sicuro, scegli un'altezza antecedente alla prima attività del portafoglio. Un'altezza di nascita impostata troppo tardi può far sembrare mancanti transazioni reali.
 
-![Zkool New Account screen with Restore Account and Advanced Options both turned on](/content-images/zkool-restore-account-60b1d2777e.webp)
+![Schermata Nuovo account di Zkool con Ripristina account e Opzioni avanzate entrambi attivati](/content-images/zkool-restore-account-60b1d2777e.webp)
 
 7. Salva l'account, quindi sincronizzalo
 

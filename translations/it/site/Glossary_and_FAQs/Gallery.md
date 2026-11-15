@@ -1,4 +1,4 @@
-# Galleria di sfondi Zcash
+# Zcash Galleria di sfondi
 
 [Infografiche](/glossary-and-faqs/gallery/infographics)
 

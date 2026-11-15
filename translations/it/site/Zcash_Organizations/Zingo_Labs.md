@@ -8,12 +8,12 @@ Zingo Lab Cyan opera come una DAO schermata. Conserviamo i nostri fondi in una t
 
 ## Progetti
 
-### Zingo! Portafoglio ([GitHub](https://github.com/zingolabs/zingo-mobile))
+### Zingo![Schermata di verifica in 2 passaggi]Portafoglio ([GitHub](https://github.com/zingolabs/zingo-mobile))
 Zingo Wallet è un portafoglio di Zcash completo progettato per essere facile da usare, sebbene includa alcune funzionalità avanzate per utenti più esperti. Supporta le pool trasparenti, Sapling e Ironwood, dispone di una rubrica per i pagamenti ricorrenti ed è disponibile in varie lingue. È stato il primo portafoglio a supportare Orchard e a implementare i formati NU5.
 
-Una delle funzionalità principali di Zingo! è la sua capacità di usare il campo Memo per offrire informazioni preziose sulle tue transazioni.
+Una delle funzionalità principali di Zingo![Schermata di verifica in 2 passaggi]è la sua capacità di usare il campo Memo per offrire informazioni preziose sulle tue transazioni.
 
-Zingo! è disponibile per dispositivi mobili e PC. Troverai tutti i download [qui](https://zingolabs.org/)
+Zingo![Schermata di verifica in 2 passaggi]è disponibile per dispositivi mobili e PC. Troverai tutti i download [qui](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
 Un'API e un'app di test che espone le funzionalità di zcash per l'utilizzo da parte delle app. Zingolib fornisce sia una libreria per zingo-mobile sia un'applicazione cli inclusa chiamata zingo-cli, un portafoglio light da riga di comando che comunica con un indicizzatore della chain come [Zaino](/zcash-tech/zaino).

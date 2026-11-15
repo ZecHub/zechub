@@ -54,7 +54,7 @@ screen -S zebra
 zebrad start
 ```
 
-nota: questo dovrà sincronizzarsi completamente! 
+nota: questo dovrà sincronizzarsi completamente![Schermata di verifica in 2 passaggi]
 
 ### zaino
 

@@ -28,34 +28,34 @@ Visita [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) e crea u
 ### 2. Seleziona il tuo paese e l'operatore
 Seleziona il tuo paese nell'angolo in alto a sinistra, scegli il credito telefonico e seleziona l'operatore che vuoi ricaricare (ad esempio MTN).
 
-![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+![Passo 2 - Selezione di paese e rete](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. Inserisci i dati e acquista
 Inserisci il numero di telefono e l'importo, poi clicca su "Buy Now". Apri il carrello per visualizzare il tuo ordine, clicca su continua e scegli ZEC come metodo di pagamento.
 
-![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+![Passo 3 - Schermata di acquisto](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. Dettagli del pagamento
 La fattura mostra l'importo in ZEC e l'indirizzo a cui inviare i fondi. Nell'esempio qui sotto, l'indirizzo è trasparente.
 
-![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+![Passo 4 - Dettagli del pagamento ZEC](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Invia il pagamento
 Copia con attenzione l'importo e l'indirizzo e invia l'importo completo prima che termini il conto alla rovescia della fattura. Una fattura pagata in modo insufficiente o scaduta non viene evasa.
 
 Non affidarti al campo memo per i rimborsi: i memo vengono recapitati solo agli indirizzi schermati, e un pagamento a un indirizzo trasparente non contiene alcun memo. Conserva invece l'ID dell'ordine. Le fatture di Coinsbee sono gestite da un fornitore di servizi di pagamento, e il suo [centro assistenza](https://help.coinsbee.com/en/support/home/) spiega come richiedere un rimborso a quel fornitore se un ordine è stato pagato in modo insufficiente o è scaduto.
 
-![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+![Passo 5 - Invio di ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. Elaborazione
 Una volta confermato il pagamento, l'ordine viene di solito elaborato entro pochi minuti.
 
-![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+![Passo 6 - Schermata di elaborazione](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Conferma
 Il credito arriva sulla linea telefonica. Se confermi la tua email durante il pagamento, riceverai anche un'email al completamento dell'ordine.
 
-![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+![Passo 7 - Ricarica riuscita](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
 ## Opzione 2: CardsRelay (nessun account)
 

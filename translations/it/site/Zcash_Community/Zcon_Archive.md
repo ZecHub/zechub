@@ -2,16 +2,16 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Quella che segue è una raccolta della maggior parte dei contenuti multimediali relativi a Zcon in un'unica posizione facile da trovare.
+Quella che segue è una raccolta della maggior parte dei materiali legati a Zcon, riuniti in un posto facile da consultare.
 
 # Zcon
-Zcon è una conferenza annuale organizzata dalla [Zcash Foundation](https://zfnd.org/).
+Zcon è una conferenza annuale organizzata da [Zcash Foundation](https://zfnd.org/).
 
-## Zcon0: Privacy from A to Zcon
+## Zcon0: la privacy dalla A alla Zcon
 
-Zcon0 è stata la nostra prima conferenza annuale, ed è andata incredibilmente bene. Abbiamo trascorso dal 26 al 28 giugno 2018 nella bellissima Montreal
+Zcon0 è stata la nostra prima conferenza annuale, ed è andata incredibilmente bene. Abbiamo trascorso il 26-28 giugno 2018 nella splendida Montreal
 
-[Playlist Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+[Playlist di Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -25,11 +25,11 @@ Zcon0 è stata la nostra prima conferenza annuale, ed è andata incredibilmente 
 </div>
 
 
-## Zcon1: Zero to Privacy Hero
+## Zcon1: da zero a eroe della privacy
 
-la seconda conferenza annuale su privacy e tecnologia ospitata dalla Zcash Foundation, si è tenuta a Spalato, Croazia, dal 22 al 24 giugno 2019.
+La seconda conferenza annuale sulla privacy e sulla tecnologia ospitata da Zcash Foundation si è svolta a Spalato, in Croazia, dal 22 al 24 giugno 2019.
 
-[Playlist Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+[Playlist di Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -43,11 +43,11 @@ la seconda conferenza annuale su privacy e tecnologia ospitata dalla Zcash Found
 </div>
 
 
-## Zcon2: Privacy All the Way Down
+## Zcon2: la privacy fino in fondo
 
-Zcon2 si è svolta martedì 8 giugno e mercoledì 9 giugno 2021. Zcon2 è stata una conferenza virtuale
+Zcon2 si è svolto martedì 8 giugno e mercoledì 9 giugno 2021. Zcon2 è stata una conferenza virtuale
 
-[Playlist Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+[Playlist di Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -61,11 +61,11 @@ Zcon2 si è svolta martedì 8 giugno e mercoledì 9 giugno 2021. Zcon2 è stata 
 </div>
 
 
-## Zcon3: Code Alone Doesn't Cut It
+## Zcon3: solo il codice non basta
 
-Zcon3 si è svolta a Las Vegas dal 7 al 9 agosto 2022.
+Zcon3 si è svolto a Las Vegas dal 7 al 9 agosto 2022.
 
-[Playlist Zcon3](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+[Playlist di Zcon3](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -79,11 +79,11 @@ Zcon3 si è svolta a Las Vegas dal 7 al 9 agosto 2022.
 </div>
 
 
-## Zcon4: The Future Has Not Been Written
+## Zcon4: il futuro non è ancora stato scritto
 
-La conferenza in presenza si tiene a Barcellona, Spagna, dal 30 al 31 luglio 2023 e sarà trasmessa in diretta streaming dalla sede. 
+La conferenza in presenza si terrà a Barcellona, in Spagna, il 30 e il 31 luglio 2023 e sarà trasmessa in diretta dalla sede. 
 
-[Playlist Zcon4](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+[Playlist di Zcon4](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -97,11 +97,11 @@ La conferenza in presenza si tiene a Barcellona, Spagna, dal 30 al 31 luglio 202
   />
 </div>
 
-## ZconV: Zcash Unified
+## ZconV: Zcash uniti
 
-ZconV si è svolta dal 6 al 10 maggio 2024. ZconV è stata una conferenza virtuale
+ZconV si è svolto dal 6 al 10 maggio 2024. ZconV è stata una conferenza virtuale
 
-[Playlist ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+[Playlist di ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -114,11 +114,11 @@ ZconV si è svolta dal 6 al 10 maggio 2024. ZconV è stata una conferenza virtua
   />
 </div>
 
-## ZconVI: Synergy Through Decentralization
+## ZconVI: sinergia attraverso la decentralizzazione
 
-ZconVI si è svolta dal 4 al 7 marzo 2025. ZconVI è stata una conferenza virtuale
+ZconVI si è svolto dal 4 al 7 marzo 2025. ZconVI è stata una conferenza virtuale
 
-[Playlist ZconVI](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+[Playlist di ZconVI](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -131,6 +131,3 @@ ZconVI si è svolta dal 4 al 7 marzo 2025. ZconVI è stata una conferenza virtua
     loading="lazy"
   />
 </div>
-
-
-

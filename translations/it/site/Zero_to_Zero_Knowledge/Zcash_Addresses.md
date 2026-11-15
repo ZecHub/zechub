@@ -31,9 +31,9 @@ Ci sono 3 tipi di indirizzo in uso:
 
 Il numero di caratteri (e quindi la dimensione del codice QR) aumenta con ciascun tipo.
 
-![Address types comparison](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
+![Confronto tra i tipi di indirizzo](/content-images/FpmXe5bXsAEFeLY-704048927f.webp)
 
-![QR code size comparison](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
+![Confronto tra le dimensioni dei codici QR](/content-images/FpmXmDwXoAIWxov-dfc8346ffc.webp)
 
 ---
 
@@ -50,7 +50,7 @@ La codifica grezza di un Unified Address è una combinazione di codifiche (typec
 
 **Importante**: deve esserci **almeno un indirizzo di pagamento schermato** in ogni UA. (Gli indirizzi Sprout non sono più supportati dopo l'aggiornamento Canopy.)
 
-![UA encoding structure](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
+![Struttura della codifica UA](/content-images/FpmYW1ZXgAAvALT-70903e29c6.webp)
 
 Specifica completa: **[ZIP-316: Unified Addresses](https://zips.z.cash/zip-0316)**
 

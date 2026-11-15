@@ -2,50 +2,50 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Strumenti IA (locali, offline)
+# Strumenti AI (locali, offline)
 
 <aside>
-*Stiamo ancora scrivendo e costruendo qui...*
+*Qui si sta ancora scrivendo e costruendo...*
 
 </aside>
 
 ### Generazione di immagini
 
-Dove scaricare i modelli per la generazione di immagini? 
-Su [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) e [**Civitai](https://civitai.com/)** ci sono molti modelli diversi.
+Dove scaricare i modelli per la generazione di immagini?
+Su [**HuggingFace**](https://huggingface.co/models?pipeline_tag=text-to-image&sort=trending) e [**Civitai](https://civitai.com/)** ci sono tantissimi modelli diversi.
 
-## Windows - scaricare modelli personalizzati
+## Windows - scarica modelli personalizzati
 
-Di solito serve almeno una GPU con 4GB di memoria video per qualsiasi strumento IA.
+Di solito, per qualsiasi strumento AI è necessaria una GPU con almeno 4GB di memoria video.
 
-Le GPU Nvidia funzionano meglio.
+Le GPU Nvidia funzionano al meglio.
 
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (richiede 4GB di memoria GPU)
 - [NMKD Stable Diffusion GUI](https://nmkd.itch.io/t2i-gui)
 - [EasyDiffusion 3.0](https://github.com/easydiffusion/easydiffusion)
 
-### Mac OS - scaricare modelli personalizzati
+### Mac OS - scarica modelli personalizzati
 
 - [Draw Things: AI Generation](https://apps.apple.com/ee/app/draw-things-ai-generation/id6444050820) dall'AppStore - gratuito
-(Può usare molti modelli StableDiffusion diversi)
+(Puoi usare molti modelli StableDiffusion diversi)
 - [DiffusionBee](https://diffusionbee.com/) - gratuito
-(Può usare molti modelli StableDiffusion diversi)
+(Puoi usare molti modelli StableDiffusion diversi)
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (richiede 4GB di memoria GPU)
 
-### Linux - scaricare modelli personalizzati
+### Linux - scarica modelli personalizzati
 
 - [InvokeAI](https://invoke-ai.github.io/InvokeAI/) (richiede 4GB di memoria GPU)
 
 ## Generazione di testo
 
-### Windows - scaricare modelli personalizzati
+### Windows - scarica modelli personalizzati
 
-- [GPT4All](https://gpt4all.io/index.html) (min 8gb di RAM richiesti)
+- [GPT4All](https://gpt4all.io/index.html) (richiede minimo 8gb di RAM)
 
-### Mac OS - scaricare modelli personalizzati
+### Mac OS - scarica modelli personalizzati
 
-- [GPT4All](https://gpt4all.io/index.html) - (funziona piuttosto velocemente sui Mac M1, a seconda del modello GPT usato)
+- [GPT4All](https://gpt4all.io/index.html) - (è piuttosto veloce su Mac M1, a seconda del modello GPT usato)
 
-## Linux - scaricare modelli personalizzati
+## Linux - scarica modelli personalizzati
 
-- [GPT4All](https://gpt4all.io/index.html) (min 8gb di RAM richiesti)
+- [GPT4All](https://gpt4all.io/index.html) (richiede minimo 8gb di RAM)

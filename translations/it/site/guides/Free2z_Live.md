@@ -40,7 +40,7 @@ Puoi vedere il risultato in cima alla pagina.
 
 ![Pagina del profilo dopo la personalizzazione](/content-images/resultatpage-f4ddacb8b8.webp)
 
-Ah, molto meglio! Se hai qualche dote artistica, puoi rendere la pagina del tuo profilo Free2Z fantastica! Scrivi una bella descrizione per la tua pagina. Puoi parlare di te stesso o descrivere il tipo di contenuti che gli altri possono aspettarsi da te. (Suggerimento: usa la sintassi markdown per personalizzare la tua descrizione!)
+Ah, molto meglio![Schermata di verifica in 2 passaggi]Se hai qualche dote artistica, puoi rendere la pagina del tuo profilo Free2Z fantastica![Schermata di verifica in 2 passaggi]Scrivi una bella descrizione per la tua pagina. Puoi parlare di te stesso o descrivere il tipo di contenuti che gli altri possono aspettarsi da te. (Suggerimento: usa la sintassi markdown per personalizzare la tua descrizione!)
 
 ![Modifica del campo descrizione](/content-images/edit-description-b52afabec1.webp)
 
@@ -48,7 +48,7 @@ Non dimenticare di fornire il tuo indirizzo schermato di Zcash, così i sostenit
 
 ![Campo dell'indirizzo schermato di Zcash](/content-images/p2p-address-b89f035bd9.webp)
 
-L'ultimo passaggio per completare la configurazione della tua pagina è impostare un 'Member Price'. Si tratta del prezzo in 2Zs (Tuzies) che gli altri utenti pagheranno per abbonarsi alla tua pagina! (Maggiori dettagli sui 2Zs più avanti).
+L'ultimo passaggio per completare la configurazione della tua pagina è impostare un 'Member Price'. Si tratta del prezzo in 2Zs (Tuzies) che gli altri utenti pagheranno per abbonarsi alla tua pagina![Schermata di verifica in 2 passaggi](Maggiori dettagli sui 2Zs più avanti).
 
 ![Impostazione del prezzo dell'abbonamento](/content-images/member-price-2dafd7e399.webp)
 
@@ -128,7 +128,7 @@ Per avviare una diretta, basta cliccare sul pulsante **Go Live** e l'app Free2Z 
 
 ![Scelta del nickname per la diretta](/content-images/select-nickname-414444b992.webp)
 
-E fatto! Quando avvii una diretta, il tuo profilo mostrerà un'icona che indica che sei in diretta, così i tuoi abbonati possono unirsi alla diretta.
+E fatto![Schermata di verifica in 2 passaggi]Quando avvii una diretta, il tuo profilo mostrerà un'icona che indica che sei in diretta, così i tuoi abbonati possono unirsi alla diretta.
 
 ![Partecipare a una diretta](/content-images/join-livestream-679334ba53.webp)
 

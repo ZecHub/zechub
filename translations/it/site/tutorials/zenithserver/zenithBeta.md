@@ -1,8 +1,8 @@
 # Zenith 0.10 Beta
 
-Avrai bisogno di uno zebrad in esecuzione con gli RPC abilitati
+Avrai bisogno di un zebrad in esecuzione con le RPC abilitate
 
-# Installa NIX
+# Installare NIX
 
 ```bash
 sh <(curl --proto '=https' --tlsv1.2 -L https://nixos.org/nix/install) --no-daemon
@@ -16,7 +16,7 @@ Aggiungi quanto segue a ~/.config/nix/nix.conf o /etc/nix/nix.conf:
 `experimental-features = nix-command flakes`
 
 
-# Installa Zenith
+# Installare Zenith
 
 ```bash
 nix profile install git+https://code.vergara.tech/Vergara_Tech/zenith?ref=master#gui --impure
@@ -25,7 +25,7 @@ nix profile install git+https://code.vergara.tech/Vergara_Tech/zenith?ref=master
 
 
 
-# Esegui Zenith
+# Eseguire Zenith
 
 
 `zenithgui`

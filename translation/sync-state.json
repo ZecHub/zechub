@@ -20743,19 +20743,19 @@
   },
   "it": {
     "Glossary_and_FAQs/FAQ.md": {
-      "src": "sha256:eae546ab493dee560000e891ed6e89110b928ce63fafe88b1b265097299371f6",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src": "sha256:315780d1aa30b27b77b28c579b127a0c394ea1650eddf517431188e3cd15dce9",
+      "src_commit": "27efcf73249e69c194559c7e5ffbc908caad2794",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
       "src": "sha256:5486fc9ed9afb332e7287dec81b5bc41178679448cc4aa67d16b89f52a5d07ea",
-      "src_commit": "8e061adab19d5cba5e48d4d28a215f61887f8be7",
+      "src_commit": "75664e841f62f7aec7225e42dba43b63a284d576",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery/Infographics.md": {
@@ -20767,11 +20767,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
-      "src": "sha256:907cdb8d360facbeda053e4255a2c61299a63f93939878ad33fad56694d53e69",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src": "sha256:d4841a2380e896b883fe7bd00c61db7a439ecbbfca8aef81fd117af521094ed7",
+      "src_commit": "189de0974b11891a0fd88e7644280c3ab950430e",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -20784,10 +20784,10 @@
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
       "src": "sha256:e66a3ad3414eccbb0fd5da6933448090eba89944e1336eb384d2e3bc5309ae11",
-      "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
+      "src_commit": "27efcf73249e69c194559c7e5ffbc908caad2794",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Privacy_Tools/Arti_Tor.md": {
@@ -20800,10 +20800,10 @@
     },
     "Privacy_Tools/GrapheneOS.md": {
       "src": "sha256:aa1bcb9fb0e34b4aec8e0719167283204a77e8c4d3107ceca1145aabe03eaed7",
-      "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
+      "src_commit": "020df246519e8a67864eb24bbfb8eaf7a0089f94",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Privacy_Tools/Namada_Protocol.md": {
@@ -20811,7 +20811,7 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Privacy_Tools/Nym_Zcash_Anonymity.md": {
@@ -20824,18 +20824,18 @@
     },
     "Privacy_Tools/PGP_Encryption.md": {
       "src": "sha256:cf9b815becf25ad5ddb5f719d7baa4e6d13141d7f72690aab4875aaacd04a4f5",
-      "src_commit": "503602a93c108db1e811a13fb031de03756b63fb",
+      "src_commit": "84bcf4ca8a6893a0b420e5a243c068db28449c37",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Privacy_Tools/Penumbra.md": {
       "src": "sha256:598ee6479c43c4da6ae64461a062d87fc59a82f802dc08860268d0adf29487cc",
-      "src_commit": "503602a93c108db1e811a13fb031de03756b63fb",
+      "src_commit": "5c75fab1dde0024c36ac6bf801eb648aa2ddcfc2",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Privacy_Tools/Secure_Messengers.md": {
@@ -20843,15 +20843,15 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Privacy_Tools/Shade_Protocol.md": {
       "src": "sha256:438fd4d57d941a1cb51bd61f1340fccae99ed2acd811bc5035a8f48f124716d2",
-      "src_commit": "33f1c0fde7f53a8c2cb9259f6c9af3d1acc1162d",
+      "src_commit": "020df246519e8a67864eb24bbfb8eaf7a0089f94",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Privacy_Tools/Tor_and_I2P.md": {
@@ -20864,10 +20864,10 @@
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
       "src": "sha256:066abf790cd98c8a255f584aabb139692891ea612ea17bb25b458df55fa0277c",
-      "src_commit": "503602a93c108db1e811a13fb031de03756b63fb",
+      "src_commit": "84bcf4ca8a6893a0b420e5a243c068db28449c37",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Privacy_Tools/Web_Browsers.md": {
@@ -20920,10 +20920,10 @@
     },
     "Research/Social_Media_Data_Collection.md": {
       "src": "sha256:ea9ef32f3e837c4d9b2d973ab747538a1d85778a603bfddf2f65cf0385aef5e4",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "020df246519e8a67864eb24bbfb8eaf7a0089f94",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Research/Track_Early_Onchain_And_Social_Signals_for_Zcash.md": {
@@ -20935,11 +20935,11 @@
       "edited": false
     },
     "Research/What_25_Second_Blocks_Actually_Change.md": {
-      "src": "sha256:91f4a8bb0da41bd6cf4fcbe6be189351c0aada633aa0753ae75c7806a620037e",
-      "src_commit": "5e8284548d8e4028e4418312553fa654f12d1523",
+      "src": "sha256:fe42860de172ec2d653fb9f765177f0b9f6ba17a967e1d9f4adc69201161f694",
+      "src_commit": "27efcf73249e69c194559c7e5ffbc908caad2794",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
@@ -20947,7 +20947,7 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+altpass",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -21000,10 +21000,10 @@
     },
     "Research/zcash-foundations-series/article-1/article-1-finite-fields.md": {
       "src": "sha256:24163b640e74fc08912ec824481f02a8a4afe3fb7e2ef49da7a2a332935a9234",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src_commit": "ebfc331641f3a7740a9c42cedaae8f7da7bdeac8",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+verbatim-columns",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Research/zcash-foundations-series/article-2/article-2-elliptic-curves.md": {
@@ -21016,10 +21016,10 @@
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
       "src": "sha256:878b1a0efd41206837422f50d843f77b5d96023a969b3dd9e3210169aa051fda",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src_commit": "f18a621cfdc530bef85a46f6d41750561d30ab8f",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+verbatim-columns",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Research/zcash-foundations-series/article-4/article-4-merkle-trees.md": {
@@ -21071,11 +21071,11 @@
       "edited": false
     },
     "Start_Here/Network_Upgrades.md": {
-      "src": "sha256:05bf62207c20a48dba6977ffceefef70e5bc24f2a69d0fd6861fc2160bfbc7d3",
-      "src_commit": "5e8284548d8e4028e4418312553fa654f12d1523",
+      "src": "sha256:6dd2514e26a673cde9a09ea795cd0eafea66e4828f3e85c42cb2a5a716698405",
+      "src_commit": "d7bdf5118e91bcff80e5162d40ba9bbcc5364b6c",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -21083,7 +21083,7 @@
       "src_commit": "2dd8fb0fd1edbf4aa597fa8e2b283e6ee09127f6",
       "engine": "llm",
       "mode": "diff",
-      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash+altpass",
       "edited": false
     },
     "Start_Here/Using_This_Wiki.md": {
@@ -21091,7 +21091,7 @@
       "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview+handfix+itdizcash",
+      "tool": "gpt-5.4+itreview+handfix+itdizcash+altpass",
       "edited": false
     },
     "Start_Here/What_is_ZEC_and_Zcash.md": {
@@ -21127,11 +21127,11 @@
       "edited": false
     },
     "Start_Here/Zcash_Monetary_Policy.md": {
-      "src": "sha256:92b8053f5d6ab9e0a31a9b565b647adbafb3b1fdba3f3f69b2b1399dc84274e6",
-      "src_commit": "1fb7c9979e868c00cb5bc2268e3814a6dc4abb98",
+      "src": "sha256:ffdf6a10ae31d32570adad5a856482858d498fda1ee51e9562b998edc4685f43",
+      "src_commit": "5c75fab1dde0024c36ac6bf801eb648aa2ddcfc2",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -21184,18 +21184,18 @@
     },
     "Using_Zcash/Encifher_Swaps.md": {
       "src": "sha256:6ad1c15eb17cede950b61a01a690d2885fe9a42209e53c58901331f570192c5a",
-      "src_commit": "503602a93c108db1e811a13fb031de03756b63fb",
+      "src_commit": "020df246519e8a67864eb24bbfb8eaf7a0089f94",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Using_Zcash/Faucets.md": {
       "src": "sha256:673e79ba99c1380bbe0e6bc69ed256962da794e849e7010604a5fe2df171d06c",
-      "src_commit": "fbcda60b242cdc9fe526f315ddb855adc47011b8",
+      "src_commit": "6887c96d78c57af8c4c29a92eea1e88d1b0e26d8",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Using_Zcash/Memos.md": {
@@ -21207,11 +21207,11 @@
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
-      "src": "sha256:6c31dced5faa12022274a1e98cc0d006a73894101aa5e554c0feea2421a0a8db",
-      "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
+      "src": "sha256:a7bf3063fd468e2bbc4337c42c141fbb80e39a65862a1e92ed73f140770ce102",
+      "src_commit": "84bcf4ca8a6893a0b420e5a243c068db28449c37",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Using_Zcash/Mobile_Top_Ups.md": {
@@ -21219,23 +21219,23 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Using_Zcash/Non-Custodial_Exchanges.md": {
       "src": "sha256:283146b48f2277652fe059f196e5b57be1f49656456bd1e6221835321854bbf5",
-      "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
+      "src_commit": "8e4a14076899fe818df2829b383d7f5749b41500",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Using_Zcash/Payment_Processors.md": {
-      "src": "sha256:8a526abec713e552ad3af50ca275299f8a19105ed07a414a4721469d3c2af9ac",
-      "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
+      "src": "sha256:45efefd36e929484eb598590dcbd5a397e5652aeda5219e51e560767e825c6ae",
+      "src_commit": "189de0974b11891a0fd88e7644280c3ab950430e",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -21251,7 +21251,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash+altpass",
       "edited": false
     },
     "Using_Zcash/Shielded_Newsletter.md": {
@@ -21275,7 +21275,7 @@
       "src_commit": "8d6d24544d0055052786350db1502580e0bd02dd",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash+altpass",
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
@@ -21315,23 +21315,23 @@
       "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash+altpass",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
       "src": "sha256:d1da03c191599324c760e29f01c266cf328d503d27421fef9e2a760c956500fd",
-      "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
+      "src_commit": "020df246519e8a67864eb24bbfb8eaf7a0089f94",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Using_Zcash/Zallet_Quick_Reference_Guide.md": {
       "src": "sha256:aea800d9527ef344f7cde893df08aa0424f3f080200e620c96b8554f2e774e6a",
-      "src_commit": "3369ffddd3d3f82e3c46168de1d56de7aee3feb7",
+      "src_commit": "ebfc331641f3a7740a9c42cedaae8f7da7bdeac8",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Guide.md": {
@@ -21339,7 +21339,7 @@
       "src_commit": "d00a0de22926acdbfc1d12fd49c22b3c74377553",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
@@ -21384,10 +21384,10 @@
     },
     "ZFAV_Club/Guides_for_Creators/AI_tools_for_offline.md": {
       "src": "sha256:46728a4165553214c2038f0fbc3e6a0554fe9333d60501b75fa5aca3f06e60d1",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "c0f3533f86c2716322d0cba915be79bb5965f803",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
@@ -21400,10 +21400,10 @@
     },
     "ZFAV_Club/Guides_for_Creators/Creating_Zcon_Highlights.md": {
       "src": "sha256:a7830ec1d1931ed2e408d9976920c9d39a32467c0e26cfaa3e2cedb369124b84",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "6887c96d78c57af8c4c29a92eea1e88d1b0e26d8",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/IPFS_File_Sharing.md": {
@@ -21427,23 +21427,23 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+altpass",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Serve_Github_Repo_with_IPFS.md": {
       "src": "sha256:f8795b67b9c59b6119c77b37a8f67eb894c6d18f5b9884ed24adeee583312259",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src_commit": "c0f3533f86c2716322d0cba915be79bb5965f803",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Video_Subtitle_Generation_with_Translation.md": {
       "src": "sha256:c6bee266ac5e8c06c975a55ec0bb1674b8296f0f34ac54dd393ae24ad2ea0afa",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "5c75fab1dde0024c36ac6bf801eb648aa2ddcfc2",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Community/Arborist_Calls.md": {
@@ -21499,7 +21499,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview+handfix",
+      "tool": "gpt-5.4+itreview+handfix+altpass",
       "edited": false
     },
     "Zcash_Community/ZFAV_Club/Guides/Website_On_IPFS.md": {
@@ -21507,7 +21507,7 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+altpass",
       "edited": false
     },
     "Zcash_Community/Zcash_Ecosystem_Security.md": {
@@ -21520,10 +21520,10 @@
     },
     "Zcash_Community/Zcash_Engineering_Office_Hours.md": {
       "src": "sha256:a09a0c7f8a3dfa547098fe535f38b50ee3c260e01e7938886432af2c883639b6",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src_commit": "c0f3533f86c2716322d0cba915be79bb5965f803",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+strip-stray-frontmatter",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Community/Zcash_Global_Ambassadors.md": {
@@ -21560,10 +21560,10 @@
     },
     "Zcash_Community/Zcon_Archive.md": {
       "src": "sha256:e54d9b6eb7d9c4b6b6c5a05ff08a7e68e3aa96efc79ae7c9eedb4851a11e0c6f",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "c0f3533f86c2716322d0cba915be79bb5965f803",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Community/Zcon_Vozes.md": {
@@ -21632,10 +21632,10 @@
     },
     "Zcash_Organizations/ZKAV.md": {
       "src": "sha256:15984c6b73807f5b14807f849e41fa358c50c4bcc4918a6e9e767a8d00480fbf",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src_commit": "84bcf4ca8a6893a0b420e5a243c068db28449c37",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+frontmatter-strip+handfix",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Zcash_Organizations/ZODL.md": {
@@ -21675,7 +21675,7 @@
       "src_commit": "3369ffddd3d3f82e3c46168de1d56de7aee3feb7",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zcash_Tech/Blossom.md": {
@@ -21728,10 +21728,10 @@
     },
     "Zcash_Tech/Halo.md": {
       "src": "sha256:04871aa83983c8b5ea0b3126cf489b9d19584403b702958ff6c655cad4060e06",
-      "src_commit": "503602a93c108db1e811a13fb031de03756b63fb",
+      "src_commit": "8e4a14076899fe818df2829b383d7f5749b41500",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -21759,11 +21759,11 @@
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
-      "src": "sha256:4269799107f9a84b696ff41e4be9cd6867f637e3042d3d6eaaddb625db9d6326",
-      "src_commit": "5e8284548d8e4028e4418312553fa654f12d1523",
+      "src": "sha256:b7cef34f811b9358b0301b77c1175f295c99dc92fb7ef4a0c97a5031ca1b5cd3",
+      "src_commit": "ebfc331641f3a7740a9c42cedaae8f7da7bdeac8",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -21776,10 +21776,10 @@
     },
     "Zcash_Tech/NU5.md": {
       "src": "sha256:5a06b8d979a2431b538ca9273e964e4476839f2c90965d9a2a29e21ab7b19fef",
-      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
+      "src_commit": "f18a621cfdc530bef85a46f6d41750561d30ab8f",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Zcash_Tech/NU6.md": {
@@ -21787,7 +21787,7 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Zcash_Tech/NU6_1.md": {
@@ -21803,7 +21803,7 @@
       "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
       "engine": "llm",
       "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Zcash_Tech/Overwinter.md": {
@@ -21827,7 +21827,7 @@
       "src_commit": "7a2bd73fd47df7de2c47ccd6d105c3da6a9762b7",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4+frontmatter-strip+itglossary+itreview+handfix+itdizcash",
+      "tool": "gpt-5.4+frontmatter-strip+itglossary+itreview+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -21856,10 +21856,10 @@
     },
     "Zcash_Tech/Sapling.md": {
       "src": "sha256:445b72b4f7f6c5146d4fed1d1c90d4eff29343fe19dfbfc28e5fff44199e9d42",
-      "src_commit": "97bbf7f1d571bc72c53b245c260d9610f2082695",
+      "src_commit": "8e4a14076899fe818df2829b383d7f5749b41500",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Zcash_Tech/Shielded_Coinholder_Voting.md": {
@@ -21867,7 +21867,7 @@
       "src_commit": "89387b2b4c4113f9256032c49cde63fdbdb2c285",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zcash_Tech/Shielded_Cold_Signing.md": {
@@ -21875,7 +21875,7 @@
       "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -21888,10 +21888,10 @@
     },
     "Zcash_Tech/The_Turnstile.md": {
       "src": "sha256:4c6896c5e9ebb2b452a0cbd94e566c8ebacfd97efd32fae88e8aeff923ab8722",
-      "src_commit": "e68ba1cf2061bd94544968bc9d0b6ce1d080a4ea",
+      "src_commit": "189de0974b11891a0fd88e7644280c3ab950430e",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Tech/Unified_Addresses.md": {
@@ -21903,11 +21903,11 @@
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
-      "src": "sha256:118e6440700101b00e97113d0a9f8bd3488e3b20244e0b8dfea135c850e15699",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src": "sha256:9141d35e8c60ce95e31ae6e52bbae9189ec94b6e174435247b0d4eebaacee7b4",
+      "src_commit": "ebfc331641f3a7740a9c42cedaae8f7da7bdeac8",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -21947,7 +21947,7 @@
       "src_commit": "80d7cc56bef87f1402c37cdc19d06447667cc48c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -21955,7 +21955,7 @@
       "src_commit": "6bf61545802a69166d802910b29e73604c2d0ef5",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -21992,10 +21992,10 @@
     },
     "Zcash_Tech/zk_SNARKS.md": {
       "src": "sha256:7e4d2af64f52ec770a2b24e84667473ce88d499c018a5e6eff48da11f485d456",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src_commit": "f18a621cfdc530bef85a46f6d41750561d30ab8f",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -22043,7 +22043,7 @@
       "src_commit": "db0af74c5294ef0fb3ebf3b47d308a4426eace68",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.4+itglossary+itreview+handfix+itdizcash",
+      "tool": "codex/gpt-5.4+itglossary+itreview+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zcash_Use_Cases/Private_Community_Treasury.md": {
@@ -22064,10 +22064,10 @@
     },
     "Zcash_Use_Cases/Send_Money_Without_Linking_Identity.md": {
       "src": "sha256:99d8456eed01ce9446cef428619ededfe14b7856d4435a86ec8567cf184040bf",
-      "src_commit": "97d0ef9deba83e904da79c847128052779103f16",
+      "src_commit": "5c75fab1dde0024c36ac6bf801eb648aa2ddcfc2",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Use_Cases/Sign_in_With_Zcash.md": {
@@ -22083,7 +22083,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+itreview",
+      "tool": "gpt-5.4+itglossary+itreview+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Hash_Functions.md": {
@@ -22091,7 +22091,7 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itreview",
+      "tool": "codex/gpt-5.6-terra+itreview+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Lelantus.md": {
@@ -22099,7 +22099,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview+handfix+itdizcash",
+      "tool": "gpt-5.4+itreview+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -22107,7 +22107,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Podcasts.md": {
@@ -22128,10 +22128,10 @@
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_ZK_Podcast.md": {
       "src": "sha256:df4dc337478adc27ab8aa8cd8e55ce642bbad1e40c546ddff0aa3e18a159ab5c",
-      "src_commit": "dccc0f2d174c56a432e4d0938856a9c7aaedca9d",
+      "src_commit": "75664e841f62f7aec7225e42dba43b63a284d576",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+handfix",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/The_Zcash_Podcast.md": {
@@ -22147,23 +22147,23 @@
       "src_commit": "dccc0f2d174c56a432e4d0938856a9c7aaedca9d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash+altpass",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/Zcast_Podcast.md": {
       "src": "sha256:07e85ac749d3392984165a951ce6752b67c77fade82f03392009b900166d4120",
-      "src_commit": "dccc0f2d174c56a432e4d0938856a9c7aaedca9d",
+      "src_commit": "75664e841f62f7aec7225e42dba43b63a284d576",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+handfix",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Podcasts/pgp_for_crypto_podcast.md": {
       "src": "sha256:dc511c6933cdfd7de60499228c688f7fe3a977f81f75b43db26c0ca9c3c9046b",
-      "src_commit": "dccc0f2d174c56a432e4d0938856a9c7aaedca9d",
+      "src_commit": "c0f3533f86c2716322d0cba915be79bb5965f803",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+handfix",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/TEEs.md": {
@@ -22171,7 +22171,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itreview",
+      "tool": "gpt-5.4+itreview+altpass",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zcash_Addresses.md": {
@@ -22179,23 +22179,23 @@
       "src_commit": "1e1f347c9da81e5eaa75536b7cbf86de53a6fd46",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md": {
       "src": "sha256:f2bca220cfc8b824b4d9f940e1543965a9d91d75645a1105d242766e01b9b8ae",
-      "src_commit": "83186b848cc383c2f7ef3d931e419b16b9f35b17",
+      "src_commit": "ebfc331641f3a7740a9c42cedaae8f7da7bdeac8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "contribute/Community_Infrastructure.md": {
       "src": "sha256:9a12d99d3a652d834bbeb2ab51009686470173c2bbcc37171e62c48b28019c4f",
-      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "src_commit": "75664e841f62f7aec7225e42dba43b63a284d576",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+namefix",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "contribute/Contributing_Guide.md": {
@@ -22203,7 +22203,7 @@
       "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+itglossary+handfix+itdizcash+altpass",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
@@ -22224,10 +22224,10 @@
     },
     "contribute/ZecHub_DAO.md": {
       "src": "sha256:7b2f73c14db0232e3515ec223a626b323e55ae089fc00ff85e11e2f4c5d771e0",
-      "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
+      "src_commit": "75664e841f62f7aec7225e42dba43b63a284d576",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4+linkrepair",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "contribute/ZecWeekly_Newsletter.md": {
@@ -22240,10 +22240,10 @@
     },
     "footer.md": {
       "src": "sha256:f7e165105823b3f3208c0437c212b71799a67e0d9fb112ba0b568e8190feaf0b",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "6887c96d78c57af8c4c29a92eea1e88d1b0e26d8",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/Akash_Network_Zcashd.md": {
@@ -22264,26 +22264,26 @@
     },
     "guides/Avalanche_RedBridge.md": {
       "src": "sha256:cb34c115b6c5ffc09e8f4243b1f1ebd54594b065d7b50b77a1a146ac9097ebb0",
-      "src_commit": "bd96347bdaf95900c264c490eea87fc6e983c802",
+      "src_commit": "d7bdf5118e91bcff80e5162d40ba9bbcc5364b6c",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/BTCPayServer_Zcash_Plugin.md": {
       "src": "sha256:c0b042f478f739b1a5a06333b969d1b532b1ee676b88ef947518a939d1fd5e3d",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src_commit": "f18a621cfdc530bef85a46f6d41750561d30ab8f",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
       "src": "sha256:577301ffa61ee5c1e6f85036fdb964769134d204f7835150310376ced733c1a1",
-      "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
+      "src_commit": "27efcf73249e69c194559c7e5ffbc908caad2794",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "guides/Brave_Wallet_Guide.md": {
@@ -22296,10 +22296,10 @@
     },
     "guides/Crosslink_Feature_Net.md": {
       "src": "sha256:cfb3579385f3f96fa2d3199d13f3955404bf1d45d1f60e6b76732f008ea64086",
-      "src_commit": "64dc9a818b352161f272a018ef9d8d79ca978a66",
+      "src_commit": "189de0974b11891a0fd88e7644280c3ab950430e",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/Free2Z_Livestreaming.md": {
@@ -22307,7 +22307,7 @@
       "src_commit": "fd4274d9da6248ee64200935954158b1df671b46",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary",
+      "tool": "gpt-5.4+itglossary+altpass",
       "edited": false
     },
     "guides/Free2z_Live.md": {
@@ -22315,7 +22315,7 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+itglossary+itreview+handfix+itdizcash+altpass",
       "edited": false
     },
     "guides/Hardened_Zebrad.md": {
@@ -22336,10 +22336,10 @@
     },
     "guides/Ledger_Shielded_ZEC.md": {
       "src": "sha256:313130b37ce9e05277bdcd8b1546d872bd30e80caf462670c8fcd2908289438f",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src_commit": "27efcf73249e69c194559c7e5ffbc908caad2794",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "guides/Maya_Protocol.md": {
@@ -22360,10 +22360,10 @@
     },
     "guides/Mining_and_Staking_Privacy.md": {
       "src": "sha256:eb2b5496ed81ed5dc21f84faa4f49b6da4f509ed0d839deeca316d3cc4840368",
-      "src_commit": "6085ff91d2e96cc6a40f0b8cb1015bf782213c08",
+      "src_commit": "d7bdf5118e91bcff80e5162d40ba9bbcc5364b6c",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/My_First_Zcash_Workbook.md": {
@@ -22376,18 +22376,18 @@
     },
     "guides/Nym_Mixnet_Wallet_Setup.md": {
       "src": "sha256:fe89705656865a4e45c13eabae528db31fa4de3745a90440175e73e42a1b11af",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src_commit": "f18a621cfdc530bef85a46f6d41750561d30ab8f",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/Nym_VPN.md": {
       "src": "sha256:464cbe5fe5cc5126a9ecc0696c0c37604b3de704df34e21a76a84b9fe49f5b22",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "c0f3533f86c2716322d0cba915be79bb5965f803",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "guides/Raspberry_Pi_4_Full_Node.md": {
@@ -22399,11 +22399,11 @@
       "edited": false
     },
     "guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md": {
-      "src": "sha256:53f77ab4f79ee80ce2328775dcf06979842889e69594bb598a662a9a12d0e3b8",
-      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "src": "sha256:67fe70053b917411080fe1898fb381b417509ccd9edd32e8bf51db0b9e46ed1d",
+      "src_commit": "5c75fab1dde0024c36ac6bf801eb648aa2ddcfc2",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "guides/Raspberry_pi_4_Zebra_Node.md": {
@@ -22432,10 +22432,10 @@
     },
     "guides/Using_ZEC_in_DeFi.md": {
       "src": "sha256:9c0d120e0db6f36814cdde36baed82f1f0a8829a6a929d56bd9f4e6d75422cf8",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src_commit": "8e4a14076899fe818df2829b383d7f5749b41500",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -22451,15 +22451,15 @@
       "src_commit": "77643fa2540176b0c4f1a64214e8b6fd911d796d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+itglossary",
+      "tool": "codex/gpt-5.6-terra+itglossary+altpass",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
       "src": "sha256:157b1fa310ca068c6ab7c7ab431e8835ffdca2fe5a54c4815f2745c986f83b70",
-      "src_commit": "d18bd9cf5cec6f68ad3d309a281f8e84ee374ecf",
+      "src_commit": "d7bdf5118e91bcff80e5162d40ba9bbcc5364b6c",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "guides/Visualizing_the_Zcash_Network.md": {
@@ -22467,15 +22467,15 @@
       "src_commit": "7f2ae6404e4de308386122dcfd0ef3c1d490735a",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix+itdizcash",
+      "tool": "codex/gpt-5.6-terra+handfix+itdizcash+altpass",
       "edited": false
     },
     "guides/Ywallet_FROST_Demo.md": {
       "src": "sha256:8b6b33cf99df0d8cd50c78bdb177bd1d4c61c5ed6ef37b3f404dc828126edd49",
-      "src_commit": "57046345b0ca2fc74136f961a97ca0168970052b",
+      "src_commit": "5c75fab1dde0024c36ac6bf801eb648aa2ddcfc2",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "guides/Zcash_Devtool.md": {
@@ -22531,7 +22531,7 @@
       "src_commit": "13204b07eeeeaa440794e9874f98eb364c9edb98",
       "engine": "llm",
       "mode": "seed",
-      "tool": "gpt-5.4+itglossary+handfix+itdizcash",
+      "tool": "gpt-5.4+itglossary+handfix+itdizcash+altpass",
       "edited": false
     },
     "guides/Zkool_Multisig.md": {
@@ -22544,10 +22544,10 @@
     },
     "tutorials/shieldedNewsletter/daoAddresses.md": {
       "src": "sha256:7dd23135e01ab8b26409db85e188fa87013600aa42cf5faae08885bcd18d2289",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "f5fee0d8d3548d091d157b3874294dffb1b8ee6d",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "tutorials/shieldedNewsletter/mynewsletter.md": {
@@ -22568,50 +22568,50 @@
     },
     "tutorials/zenithserver/zenithBeta.md": {
       "src": "sha256:154e804dc56310cbfbb39e76c1c65d481020e23944738bd6899818091dd9b31d",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src_commit": "6887c96d78c57af8c4c29a92eea1e88d1b0e26d8",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Use_Cases/Accept_Private_Donations_As_A_US_Nonprofit.md": {
       "src": "sha256:5b7e4d0f6d395177aad7d30a86169d9580860924cc9f0f9f453dfe37066f79b2",
-      "src_commit": "599423788092c75c5b21cf8a2be19b900743de0a",
+      "src_commit": "f18a621cfdc530bef85a46f6d41750561d30ab8f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {
       "src": "sha256:45d7f6a6946f7d534acadcea2b9e1e006ea5e6c038d51d3f02538064cb22b6a3",
-      "src_commit": "a838aa063bd26f2f850a41f850ce05902ee209cd",
+      "src_commit": "27efcf73249e69c194559c7e5ffbc908caad2794",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Tech/Outgoing_View_Keys.md": {
       "src": "sha256:37d531d73c53b1a9c10e5bc4d630d595ff57a568e5bbf2e1d4341648d3f543c0",
-      "src_commit": "c9913ba0882b6e6420fd5016f24ece80c3e2ac22",
+      "src_commit": "84bcf4ca8a6893a0b420e5a243c068db28449c37",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     },
     "guides/Zcash_Js.md": {
       "src": "sha256:8d87ddbb580e85508d6f9adf263cb046d05b24e75dab8706c8004c0e1eab7120",
-      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "src_commit": "d7bdf5118e91bcff80e5162d40ba9bbcc5364b6c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Use_Cases/Donate_ZEC_And_Claim_A_US_Tax_Deduction.md": {
       "src": "sha256:2bbb453e6d8419d2ba893a9032556ec1701c5e34dc895a28a863a8725c30f5b9",
-      "src_commit": "8ea4cef21e307caf8c9c5a5248d14258334d166c",
+      "src_commit": "020df246519e8a67864eb24bbfb8eaf7a0089f94",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "claude-opus-5-5",
       "edited": false
     },
     "Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md": {
@@ -22620,6 +22620,46 @@
       "engine": "llm",
       "mode": "full",
       "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "guides/Zcash_Stack.md": {
+      "src": "sha256:6ba618ad013d31da7bfe562ceab1fc90e5592672ac0a93015a6788f093af147c",
+      "src_commit": "ebfc331641f3a7740a9c42cedaae8f7da7bdeac8",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "guides/Thus_Spoke_Zakura_Akash.md": {
+      "src": "sha256:2c3ebc4b8ac69248ec131836e65a0720d8f4f6127fefdc37a1ea530bc1965b72",
+      "src_commit": "d7bdf5118e91bcff80e5162d40ba9bbcc5364b6c",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
+      "edited": false
+    },
+    "Zcash_Tech/NU7.md": {
+      "src": "sha256:2be606572edb95e1de9c67a9a423e0116ef804c30d3a1e0ca9a96c4cf1d89a99",
+      "src_commit": "189de0974b11891a0fd88e7644280c3ab950430e",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "Zcash_Tech/Zinder.md": {
+      "src": "sha256:0c603f1700d365fcfc92f93a875e1074aec5d8443996cd46f191b76a78b47415",
+      "src_commit": "8e4a14076899fe818df2829b383d7f5749b41500",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5",
+      "edited": false
+    },
+    "guides/Akash_Network_Zakura.md": {
+      "src": "sha256:61dacd54fd568c6f34b311f206e4bd6e99f183c11c3c1ed58927d2a09c7b0f8a",
+      "src_commit": "84bcf4ca8a6893a0b420e5a243c068db28449c37",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "claude-opus-5-5+handfix",
       "edited": false
     }
   },

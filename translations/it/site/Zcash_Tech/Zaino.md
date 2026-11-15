@@ -61,15 +61,15 @@ Zaino espone due tipi di servizio di rete. Il servizio gRPC è l'API rivolta ai 
 
 ### Architettura interna di Zaino
 
-![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Architettura interna di Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 ### Architettura del servizio live di Zaino
 
-![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Architettura di Zebra Live Service](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 ### Architettura di sistema di Zaino
 
-![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Architettura di sistema di Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 ## Errori comuni
 

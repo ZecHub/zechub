@@ -120,7 +120,7 @@ Poi appiattiscilo in CSV, una riga per transazione:
 jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   (.data.transactionsByAccount[] |
     [.txid, .height, .time, .value, .fee,
-     ([.notes[].memo, .outputs[].memo] | map(select(. != null and . != "")) | unique | join(" | "))])
+     ([.notes[].memo, .outputs[].memo] | map(select(. ![Schermata di verifica in 2 passaggi] null and . ![Schermata di verifica in 2 passaggi] "")) | unique | join(" | "))])
   | @csv' history.json > history.csv
 ```
 

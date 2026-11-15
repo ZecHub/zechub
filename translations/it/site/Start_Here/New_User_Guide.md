@@ -98,7 +98,7 @@ Il Forum della Comunità Zcash è il luogo in cui i membri della comunità discu
 
 [Forum della Comunità Zcash](https://forum.zcashcommunity.com/) | [Zcash Global](https://discord.gg/zcash).
 
-La comunità è appassionata e molto accogliente con i nuovi arrivati. A volte le conversazioni possono essere tecniche, ma non preoccuparti! Se hai una domanda, puoi sempre chiederla.
+La comunità è appassionata e molto accogliente con i nuovi arrivati. A volte le conversazioni possono essere tecniche, ma non preoccuparti![Schermata di verifica in 2 passaggi]Se hai una domanda, puoi sempre chiederla.
 
 <a href="">
     <img width="auto" height="200" alt="zcash-logo-horizontal-transparent" src="/content-images/c1d40441-4336-4754-b3bf-5a746b19a9d5-6d2eca6cbf.webp" />
