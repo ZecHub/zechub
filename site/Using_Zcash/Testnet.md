@@ -1,6 +1,21 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Testnet.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Zcash Testnet
 
-## What Is the Zcash Testnet?
+## TL;DR
+
+- **Zcash Testnet** is a safe sandbox environment for building, testing, and experimenting.  
+- Testnet follows the same rules as Mainnet, and network upgrades activate there first.
+- **TAZ coins** are used instead of ZEC and have no real value  
+- Get free TAZ from a faucet and switch a wallet such as Zkool or Zingo! to Testnet.
+- Use cases: developer testing, node testing, exchange integration, research, and education  
+- Testnet is essential before deploying features live on Mainnet.
+
+## Core Explanation
+
+### What Is the Zcash Testnet?
 
 **Zcash Testnet** is a parallel blockchain to the real Zcash main network (Mainnet) that replicates the exact protocol, rules, and transaction logic - but with two key differences:
 
@@ -9,8 +24,7 @@
 
 In other words, the Testnet is like a **sandbox or experimental environment** where developers, auditors, and builders can try ideas without risking real money.
 
-
-## Why Does Testnet Exist?
+### Why Does Testnet Exist?
 
 Testnet is crucial for blockchain development because **real blockchains like Zcash are immutable** - once transactions are confirmed on the main network, they cannot be undone. Testnet provides a **safe replica** to experiment, test, and debug features before deploying to Mainnet.
 
@@ -46,7 +60,7 @@ Node developers can:
 
 - Validate block propagation  
 - Test RPC interfaces  
-- Observe node behavior under load  
+- Observe node behavior under load.  
 - Test mining software interactions  
 
 #### 4. Learning & Education
@@ -54,60 +68,7 @@ Node developers can:
 Beginners can learn Zcash features such as mining, creating shielded transactions, and using Unified Addresses.  
 Community tutorials and documentation provide access to **Testnet faucets, explorers, and guides**.
 
-
-## Real Testnet Use Cases
-
-### 1. Developer Testing (Wallet / App)
-
-- Connect to Zcash Testnet  
-- Request TAZ from a faucet  
-- Send shielded transactions  
-- Verify privacy and UI stability  
-
-No real ZEC is lost even if mistakes occur.
-
-### 2. Exchange Integration Testing
-
-- Run a Testnet node  
-- Use Zebrad JSON-RPC endpoints to process transactions  
-- Test automated deposit/withdrawal logic  
-
-Ensures safe production code and prevents financial loss.
-
-### 3. Mining Setup Trials
-
-- Use mining templates  
-- Test block validation  
-- Observe mining rewards (TAZ only)  
-- Tune mining performance  
-
-Prevents downtime or lost earnings when moving to Mainnet.
-
-### 4. Academic / Protocol Research
-
-Researchers can test innovations like **stateless verification**, **zero-knowledge proof optimization**, or other protocol experiments using Testnet.  
-Advanced users can also run **custom Testnets or regtest environments** for specialized experiments.
-
-
-## Key Differences Between Mainnet and Testnet
-
-| Feature               | Mainnet           | Testnet                  |
-|-----------------------|-----------------|--------------------------|
-| Value of coins        | Real ZEC         | TAZ (no monetary value)  |
-| Risk                  | Financial risk   | Safe for testing         |
-| Protocol upgrades     | Production       | Early activation         |
-| Mining rewards        | Real issuance    | Test reward only         |
-| Network utility       | Live transactions| Testing and development  |
-
-## Common Misconceptions
-
-- **Testnet coins are worth something** -> False, TAZ have zero value.  
-- **Losing Testnet coins matters** -> False, no real value is lost.  
-- **Testnet and Mainnet are identical** -> False, Testnet resets often and isn't economically secured like Mainnet.
-
----
-
-## What Is TAZ?
+### What Is TAZ?
 
 **TAZ** is the Testnet version of Zcash coins:  
 
@@ -120,45 +81,95 @@ A developer can send 100 TAZ from one Testnet address to another to test a walle
 
 Think of TAZ as **"play money" for the Zcash Testnet**.
 
-
-## What Are Faucets?
+### What Are Faucets?
 
 A **faucet** is a service that gives free TAZ coins for testing:
 
 - Usually websites or APIs  
-- Users provide a Testnet address; the faucet sends a small amount of TAZ  
+- Users provide a Testnet address; the faucet sends a small amount of TAZ.  
 - Avoids the need to mine TAZ manually  
 
 **Example:**  
 1. Visit a Testnet faucet (e.g., [fauzec.com](https://fauzec.com/) | [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz/))  
-2. Enter your Testnet address  
+2. Enter your Testnet address.  
 3. Request TAZ  
-4. Receive TAZ instantly to start testing  
+4. Receive TAZ instantly to start testing.  
 
 **Why it matters:**  
 - Safe testing without risking ZEC  
 - Accessibility for beginners and developers  
 - Rapid prototyping for wallets, exchanges, and apps
 
+## Visual / Analogy
 
+Testnet works like a flight simulator. Pilots practice takeoffs, storms, and emergency landings in a cabin that copies the real cockpit. Every control behaves the same, and a crash costs nothing.
 
-## Zkool and Zingo! Wallets
+Developers use Testnet the same way. The rules match Mainnet, TAZ is the practice fuel, and your real ZEC never leaves the hangar.
 
-### Zkool
+## Deep Dive
+
+### Real Testnet Use Cases
+
+#### 1. Developer Testing (Wallet / App)
+
+- Connect to Zcash Testnet  
+- Request TAZ from a faucet.  
+- Send shielded transactions  
+- Verify privacy and UI stability.  
+
+No real ZEC is lost even if mistakes occur.
+
+#### 2. Exchange Integration Testing
+
+- Run a Testnet node  
+- Use Zebrad JSON-RPC endpoints to process transactions.  
+- Test automated deposit/withdrawal logic.  
+
+Ensures safe production code and prevents financial loss.
+
+#### 3. Mining Setup Trials
+
+- Use mining templates  
+- Test block validation  
+- Observe mining rewards (TAZ only)  
+- Tune mining performance  
+
+Prevents downtime or lost earnings when moving to Mainnet.
+
+#### 4. Academic / Protocol Research
+
+Researchers can test innovations like **stateless verification**, **zero-knowledge proof optimization**, or other protocol experiments using Testnet.  
+Advanced users can also run **custom Testnets or regtest environments** for specialized experiments.
+
+### Key Differences Between Mainnet and Testnet
+
+| Feature               | Mainnet           | Testnet                  |
+|-----------------------|-----------------|--------------------------|
+| Value of coins        | Real ZEC         | TAZ (no monetary value)  |
+| Risk                  | Financial risk   | Safe for testing         |
+| Protocol upgrades     | Production       | Early activation         |
+| Mining rewards        | Real issuance    | Test reward only         |
+| Network utility       | Live transactions| Testing and development  |
+
+## Practical Implications
+
+### Zkool and Zingo! Wallets
+
+#### Zkool
 
 - Multi-account wallet for advanced Zcash users  
 - Supports seed phrases, viewing keys, transparent and shielded addresses  
 - Can connect to Mainnet, Testnet, or Regtest via full nodes or lightwallet servers
 
-### Zingo!
+#### Zingo!
 
-- Mobile wallet focused on privacy and simplicity  
+- Mobile wallet focused on privacy and simplicity.  
 - Supports shielded and unified addresses  
 - Updated to support Testnet protocols (including NU6 Testnet)
 
-## Enabling Testnet in Wallets
+### Enabling Testnet in Wallets
 
-### Zkool Wallet
+#### Zkool Wallet
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -172,11 +183,11 @@ A **faucet** is a service that gives free TAZ coins for testing:
 </div>
 
 **Tips:**  
-- Wallet may restart when switching networks  
-- Mainnet ZEC accounts are unaffected  
-- Use a Testnet lightwallet server if prompted
+- Wallet may restart when switching networks.  
+- Mainnet ZEC accounts are unaffected.  
+- Use a Testnet lightwallet server if prompted.
 
-### Zingo! Wallet
+#### Zingo! Wallet
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -192,17 +203,23 @@ A **faucet** is a service that gives free TAZ coins for testing:
 
 Once enabled, wallets can send and receive TAZ, test shielded transactions, and experiment safely.
 
-
-## After Enabling Testnet
+### After Enabling Testnet
 
 - Transactions behave like Mainnet but with **zero-value TAZ**  
-- Shielded transactions, multiple addresses, and privacy features can be tested  
-- Developers can debug and test features without risking real ZEC
+- Shielded transactions, multiple addresses, and privacy features can be tested.  
+- Developers can debug and test features without risking real ZEC.
 
+## Common Mistakes
 
-## Quick Summary
+- **Testnet coins are worth something** -> False, TAZ have zero value.  
+- **Losing Testnet coins matters** -> False, no real value is lost.  
+- **Testnet and Mainnet are identical** -> False, Testnet resets often and isn't economically secured like Mainnet.
+- **Testnet and Mainnet addresses are interchangeable** -> False, each network has its own address format. Check which network your wallet is on before you copy an address.
 
-- **Zcash Testnet** is a safe sandbox environment for building, testing, and experimenting  
-- Use cases: developer testing, node testing, exchange integration, research, and education  
-- **TAZ coins** are used instead of ZEC and have no real value  
-- Testnet is essential before deploying features live on Mainnet
+## Related Pages
+
+- [Faucets](/using-zcash/faucets): where to get free TAZ for testing.
+- [Wallets](/using-zcash/wallets): Zcash wallets, including the Testnet-ready Zkool and Zingo!.
+- [Zcash Mining Pools](/using-zcash/zcash-mining-pools): where miners point their hardware once a Testnet trial works.
+- [Zcash Mining Guide](/using-zcash/zcash-mining-guide): set up mining hardware and software.
+- [Network Upgrades](/start-here/network-upgrades): the protocol upgrades that activate on Testnet before Mainnet.
