@@ -2,20 +2,20 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Guida rapida: creare i momenti salienti di Zcon
+# Avvio rapido: creazione di Zcon Highlights
 
-Questa guida ti accompagnerà attraverso il processo di montaggio e pubblicazione di brevi clip usando come contenuto sorgente i video storici di Zcon.
+Questa guida ti accompagna nel processo di modifica e pubblicazione di brevi clip, utilizzando i video storici degli Zcon come contenuto di partenza.
 
-**Playlist video di Zcon:**
+**Playlist video degli Zcon:**
 
-- [Zcon0 - Privacy: From A to Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
-- [Zcon1: Zero to Privacy Hero (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
-- [Zcon2 Lite - Privacy all the way down (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
-- [Zcon3: Code Alone Doesn't Cut It (2022)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
-- [Zcon4: The Future Has Not Been Written (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+- [Zcon0 - Privacy: dalla A alla Zcon (2018)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+- [Zcon1: da zero a eroe della privacy (2019)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+- [Zcon2 Lite - Privacy fino in fondo (2021)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+- [Zcon3: il codice da solo non basta (2022)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+- [Zcon4: il futuro non è ancora stato scritto (2023)](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
-**Playlist dei momenti salienti di Zcon:**
+**Playlist degli Zcon Highlights:**
 
 - [Zcon0 Highlights (2018)](https://www.youtube.com/playlist?list=PL9eB_cR4oMej_GykkZnQg0zH1SbZ9S67O)
 
-La durata target per i momenti salienti di Zcon è inferiore a un minuto, per essere conforme ai requisiti degli YouTube Shorts.
+La lunghezza obiettivo degli Zcon Highlights è inferiore a un minuto, per conformarsi ai requisiti degli Shorts di YouTube.

@@ -60,7 +60,7 @@ Il CID risultante: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
 ![](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Magnifico! Ora il tuo repository è caricato sulla rete.
+Magnifico![Schermata di verifica in 2 passaggi]Ora il tuo repository è caricato sulla rete.
 
 
 ## Clona usando IPFS 

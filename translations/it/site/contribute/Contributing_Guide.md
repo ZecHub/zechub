@@ -4,7 +4,7 @@
 
 # Contribuire a ZecHub
 
-ZecHub aiuta le persone a conoscere Zcash. Se stai leggendo questa pagina, siamo davvero entusiasti che tu stia pensando di contribuire! Qualsiasi contributo apporterai sarà pubblicato su [zechub.wiki](https://www.zechub.wiki/) e sugli altri social media di ZecHub.
+ZecHub aiuta le persone a conoscere Zcash. Se stai leggendo questa pagina, siamo davvero entusiasti che tu stia pensando di contribuire![Schermata di verifica in 2 passaggi]Qualsiasi contributo apporterai sarà pubblicato su [zechub.wiki](https://www.zechub.wiki/) e sugli altri social media di ZecHub.
 
 ### Nuovi contributori
 
@@ -13,7 +13,7 @@ Per avere una panoramica di ZecHub, leggi il [README](https://github.com/ZecHub/
 
 ### Per iniziare
 
-ZecHub usa GitHub per gestire i contributi della community. Se sei nuovo in GitHub, non preoccuparti! Ti spiegheremo come puoi partecipare come contributore della community di ZecHub. Per i contributi accettati, paghiamo mance in ZEC schermati. Gli importi delle ricompense non sono fissi in ZEC — consulta [Come vengono stabilite le ricompense](#how-rewards-are-set). In questa guida avrai una panoramica del flusso di lavoro per i contributi: dall'apertura di una issue, alla creazione di una pull request (PR), alla revisione e al merge della PR.
+ZecHub usa GitHub per gestire i contributi della community. Se sei nuovo in GitHub, non preoccuparti![Schermata di verifica in 2 passaggi]Ti spiegheremo come puoi partecipare come contributore della community di ZecHub. Per i contributi accettati, paghiamo mance in ZEC schermati. Gli importi delle ricompense non sono fissi in ZEC — consulta [Come vengono stabilite le ricompense](#how-rewards-are-set). In questa guida avrai una panoramica del flusso di lavoro per i contributi: dall'apertura di una issue, alla creazione di una pull request (PR), alla revisione e al merge della PR.
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
@@ -125,7 +125,7 @@ Le pagine locali curate sotto `translations/<locale>/site/` vengono monitorate r
 
 #### Wiki ZecHub - modifica a un documento esistente
 
-A volte le informazioni nei documenti non sono del tutto precise. Va bene così. È per questo che li rendiamo open source! Se trovi qualcosa che richiede una modifica in un wiki-doc, vai al piè di pagina del documento, che contiene un link alla sua pagina GitHub, e suggerisci una modifica tramite una PR.
+A volte le informazioni nei documenti non sono del tutto precise. Va bene così. È per questo che li rendiamo open source![Schermata di verifica in 2 passaggi]Se trovi qualcosa che richiede una modifica in un wiki-doc, vai al piè di pagina del documento, che contiene un link alla sua pagina GitHub, e suggerisci una modifica tramite una PR.
 
 #### Wiki ZecHub - link non funzionante corretto
 
@@ -133,7 +133,7 @@ Se trovi un link non funzionante o qualcosa di importante scritto in modo errato
 
 #### Newsletter - nuova edizione
 
-Produciamo la newsletter settimanale dell'ecosistema. È un modo semplicissimo e poco impegnativo per partecipare! La newsletter viene pubblicata ogni venerdì o sabato. Se vuoi scrivere una newsletter, manda un messaggio a @squirrel nella sezione #zecweekly di Discord per farglielo sapere.
+Produciamo la newsletter settimanale dell'ecosistema. È un modo semplicissimo e poco impegnativo per partecipare![Schermata di verifica in 2 passaggi]La newsletter viene pubblicata ogni venerdì o sabato. Se vuoi scrivere una newsletter, manda un messaggio a @squirrel nella sezione #zecweekly di Discord per farglielo sapere.
 
 Dopo averlo fatto, puoi andare alla [sezione newsletter di questo repository](/newsletter/newsletterbasics.md) e inviare una pull request per creare una nuova edizione della newsletter. Segui il formato usato in questo [modello](/newsletter/newslettertemplate.md).
 

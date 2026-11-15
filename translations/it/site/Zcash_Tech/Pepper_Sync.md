@@ -6,7 +6,7 @@
 
 ## In breve
 
-* Pepper Sync è il motore di sincronizzazione introdotto in Zingo! 2.0, il portafoglio di Zcash open-source sviluppato da Zingo Labs.
+* Pepper Sync è il motore di sincronizzazione introdotto in Zingo![Schermata di verifica in 2 passaggi]2.0, il portafoglio di Zcash open-source sviluppato da Zingo Labs.
 * Usa una sincronizzazione non lineare invece di scansionare la chain in grandi blocchi sequenziali, così il tuo saldo e le tue transazioni appaiono molto prima.
 * I progressi vengono salvati continuamente. Se la connessione cade o l'app si chiude, la sincronizzazione riprende dal punto in cui si era fermata invece di ricominciare.
 * Puoi spendere prima che la sincronizzazione sia terminata.

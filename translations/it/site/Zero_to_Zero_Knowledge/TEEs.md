@@ -2,7 +2,7 @@
 
 **Serie:** Zero to Zero Knowledge
 
-Zero to Zero Knowledge è tornata con un nuovo argomento!  
+Zero to Zero Knowledge è tornata con un nuovo argomento![Schermata di verifica in 2 passaggi] 
 Questa settimana esploriamo i **Trusted Execution Environments (TEE)** - come vengono usati nelle privacy coin e in altre applicazioni blockchain.
 
 ![Introduzione ai Trusted Execution Environments](/content-images/Fquj-h2WcAIgSnL-b80c8614cd.webp)

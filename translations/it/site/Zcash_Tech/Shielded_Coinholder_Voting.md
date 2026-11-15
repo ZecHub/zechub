@@ -76,7 +76,7 @@ Quando il turno si chiude, i totali crittografati esistono già grazie all'addiz
 
 Il design separa due ruoli affinché nessun gruppo abbia troppo potere.
 
-![Separation of powers: a coordinator multisig sets which questions appear but cannot see votes, while a validator set counts but cannot read individual ballots or forge a tally](/content-images/shielded-voting-roles.webp)
+![Separazione dei poteri: una multisig coordinatrice stabilisce quali domande appaiono ma non può vedere i voti, mentre un insieme di validatori conta ma non può leggere le singole schede né falsificare il conteggio](/content-images/shielded-voting-roles.webp)
 
 Il multisig del coordinatore è un gruppo 2-su-5 con rappresentanti di Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs) e Valar Group. Decide quali domande arrivano alla blockchain di voto e attesta la chiave di crittografia di ogni turno, ma non può vedere, modificare o bloccare i singoli voti. Chiunque non gradisca le domande può eseguire la propria blockchain di voto, poiché il software è aperto e senza permessi.
 

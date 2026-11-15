@@ -77,7 +77,7 @@ Più indirizzi di pagamento diversificati e non collegabili condividono la stess
 
 Questa separazione funzionale costituisce il fondamento dei flussi di firma a freddo. Tutta la scansione continua della chain, il monitoraggio della cronologia e la gestione degli indirizzi sono delegati al software host, mentre l'autorità di spesa rimane isolata sul dispositivo hardware.
 
-![Key derivation diagrams](/content-images/key-derivation-diagrams.webp)
+![Diagrammi di derivazione delle chiavi](/content-images/key-derivation-diagrams.webp)
 
 ### La distinzione fondamentale: UFVK e chiave di spesa
 
@@ -152,7 +152,7 @@ La firma a freddo schermata è un metodo per autorizzare una transazione scherma
 
 Il processo può essere semplificato come segue:
 
-![Shielded cold signing process](/content-images/cold-signing-process.webp)
+![Processo di firma a freddo schermato](/content-images/cold-signing-process.webp)
 
 Il portafoglio companion invia i parametri strutturati della transazione al dispositivo hardware, che firma internamente il payload senza mai rilasciare la chiave privata di spesa alla macchina host.
 
@@ -315,7 +315,7 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 
 Diverse implementazioni di portafogli hardware sono state sviluppate per esplorare come supportare transazioni schermate di Zcash mantenendo isolate dal portafoglio companion le chiavi di spesa sensibili. Ledger, Keystone e Hito rappresentano approcci differenti all'integrazione della protezione delle chiavi basata su hardware con il flusso di transazione di Zcash.
 
-![Real world hardware wallet implementations](/content-images/hardware-wallet-implementations.webp)
+![Implementazioni reali di portafogli hardware](/content-images/hardware-wallet-implementations.webp)
 
 Per comprendere come proteggano i fondi schermati, è importante distinguere tra chiavi di spesa e chiavi di visualizzazione. In tutti e tre i casi, la separazione segue la stessa struttura:
 
@@ -542,7 +542,7 @@ L'integrazione Zcash di Keystone con Zashi rende questa separazione particolarme
 
 Quindi il flusso è:
 
-![Keystone and Zashi viewing flow](/content-images/keystone-zashi-viewing-flow.webp)
+![Flusso di visualizzazione tra Keystone e Zashi](/content-images/keystone-zashi-viewing-flow.webp)
 
 **Cosa può fare Zashi con la UFVK?**
 
@@ -566,7 +566,7 @@ Questo è il motivo per cui l'integrazione Zashi e Keystone può fornire conserv
 
 Quando desideri spendere:
 
-![Keystone and Zashi spending flow](/content-images/keystone-spend-flow.webp)
+![Flusso di spesa tra Keystone e Zashi](/content-images/keystone-spend-flow.webp)
 
 ## 3. Hito
 
@@ -608,7 +608,7 @@ Vale la pena nominare esplicitamente questo flusso, poiché è l'istanza concret
 
 In nessun momento il seed o la chiave di spesa attraversano quel confine in una delle due direzioni.
 
-![Hito signing flow](/content-images/hito-signing-flow.webp)
+![Flusso di firma di Hito](/content-images/hito-signing-flow.webp)
 
 ## Da Orchard a Ironwood: l'evoluzione del supporto dei portafogli hardware
 
@@ -670,4 +670,4 @@ https://forum.zcashcommunity.com/t/ironwood-is-here-updated-wallets-libraries-au
 
 ### L'evoluzione in un'immagine
 
-![The evolution in one picture](/content-images/orchard-to-ironwood-evolution.webp)
+![L'evoluzione in una sola immagine](/content-images/orchard-to-ironwood-evolution.webp)

@@ -53,7 +53,7 @@ NU6 ha anche colmato una lacuna contabile nel modo in cui vengono creati nuovi Z
 2. Dopo NU6, una transazione coinbase deve essere esattamente in equilibrio: il valore totale in uscita deve essere uguale al sussidio del miner più le commissioni, né più né meno.
 3. Poiché i miner non possono più reclamare meno del dovuto e bruciare accidentalmente ZEC, l’ammontare totale di ZEC che esisterà mai ora può essere previsto con esattezza.
 
-![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
+![Bilanciamento del coinbase prima e dopo NU6: prima, il coinbase poteva rivendicare meno ZEC del dovuto e bruciarli, così l'offerta non era esattamente prevedibile. Dopo, il coinbase deve bilanciare esattamente, così l'emissione è esattamente prevedibile](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Come si è evoluto il finanziamento
 

@@ -34,7 +34,7 @@ Verifica che il tuo sia il token autentico. In Phantom, tocca **ZEC** e scorri f
 A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS
 ```
 
-![Phantom's About Zcash panel showing the contract address A7bd…QXaS on the Solana network](/content-images/01-phantom-zec-mint-4a718bc213.webp)
+![Pannello Informazioni su Zcash di Phantom che mostra l'indirizzo del contratto A7bd…QXaS sulla rete Solana](/content-images/01-phantom-zec-mint-4a718bc213.webp)
 
 Phantom lo abbrevia in `A7bd…QXaS`, quindi confronta il primo e l'ultimo carattere, oppure cerca l'indirizzo completo su [Solscan](https://solscan.io/token/A7bdiYdS5GjqGFtxf17ppRHtDKPkkRqbKtR27dxvQXaS). Qualsiasi altro token "ZEC" nel tuo portafoglio, qualunque ne sia il nome o il logo, non è questo. Lascialo stare.
 
@@ -90,7 +90,7 @@ Tieni un po' di SOL in Phantom per la commissione di Solana.
 
 Il nostro deposito è arrivato nel blocco Solana alle 15:09:08 (UTC+1) e solswap lo ha mostrato come **Completato** nove secondi dopo.
 
-![solswap deposit history showing Completed, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
+![Storico dei depositi di solswap che mostra Completato, +0.0026 ZEC](/content-images/04-solswap-deposit-complete-be5feaf758.webp)
 
 I tuoi ZEC ora si trovano nel tuo saldo NEAR Intents. La tua chiave Phantom autorizza ogni movimento in uscita, i solver NEAR Intents eseguono la consegna e NEAR Intents può trattenere un saldo per una verifica di conformità (vedi le note sulla fiducia qui sotto).
 
@@ -98,18 +98,18 @@ I tuoi ZEC ora si trovano nel tuo saldo NEAR Intents. La tua chiave Phantom auto
 
 solswap ha anche una pagina **Prelievo**, ma per noi non ha funzionato. **Importo ricevuto** e **Commissione** restavano su "–" e il pulsante non faceva nulla, sia scegliendo Zcash sia Solana come rete.
 
-![solswap Withdraw form with the received amount and fee stuck at a dash](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
+![Modulo di prelievo di solswap con l'importo ricevuto e la commissione bloccati su un trattino](/content-images/05-solswap-withdraw-blank-92c6e64c65.webp)
 
 Se succede anche a te, i tuoi ZEC non sono bloccati. Il saldo è legato alla chiave del tuo portafoglio, non al sito web, quindi qualunque app NEAR Intents a cui accedi con quel portafoglio può accedervi. Abbiamo concluso su near.com:
 
 1. Vai su `near.com` e accedi con lo stesso portafoglio Phantom.
 2. Il tuo saldo solswap compare sotto **Sposta asset legacy** (near.com chiama "legacy" i saldi delle app NEAR Intents meno recenti). Tocca **Preleva** nella riga ZEC. Non hai bisogno di **Sposta**.
 
-![near.com Move legacy assets page listing 0.0026 ZEC with Move and Withdraw buttons](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
+![Pagina Sposta asset legacy di near.com che elenca 0.0026 ZEC con i pulsanti Sposta e Prelieva](/content-images/06-nearcom-legacy-assets-7ee16c5ac4.webp)
 
 3. Imposta **Network** su **Zcash**, incolla l'indirizzo `u1` del tuo portafoglio come **Destinatario** e confronta i primi e gli ultimi sei caratteri con quelli nel tuo portafoglio.
 
-![near.com Withdraw legacy asset form with Zcash as the network and a u1 recipient, receive at least 0.00233164 ZEC, about 2 minutes](/content-images/07-nearcom-withdraw-724ef22b38.webp)
+![Modulo di prelievo dell'asset legacy di near.com con Zcash come rete e un destinatario u1, ricevi almeno 0.00233164 ZEC, circa 2 minuti](/content-images/07-nearcom-withdraw-724ef22b38.webp)
 
 4. Tocca **Rivedi prelievo**, leggi il riepilogo e tocca **Invia**.
 
@@ -121,11 +121,11 @@ Se succede anche a te, i tuoi ZEC non sono bloccati. Il saldo è legato alla chi
    - Il messaggio è testo leggibile come nella schermata. Se è un blocco illeggibile, o il sito non corrisponde a quello nella barra degli indirizzi, rifiutalo.
    - Non ti chiede mai la frase seed. La firma non comporta mai di digitarla.
 
-![Phantom Sign Message request from near.com on the Solana network](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
+![Richiesta di firma di un messaggio di Phantom da near.com sulla rete Solana](/content-images/09-phantom-sign-message-cb1ce6d20f.webp)
 
 6. near.com mostra **Elaborazione dell'invio**, **Invio** e **Completato**. **Visualizza nell'explorer** apre il record NEAR Intents del trasferimento.
 
-![near.com status screen: Sending 0.0023 ZEC, all three steps complete](/content-images/10-nearcom-complete-c641093c46.webp)
+![Schermata di stato di near.com: Invio di 0.0023 ZEC, tutti e tre i passaggi completati](/content-images/10-nearcom-complete-c641093c46.webp)
 
 ![NEAR Intents explorer record: created 3:59:28 PM, withdrawn to the u1 address 4:07:55 PM, with the Zcash withdraw transaction ID](/content-images/11-intents-explorer-f93f87814e.webp)
 
@@ -171,7 +171,7 @@ Incollalo nell'[explorer di blocchi di Zcash](https://mainnet.zcashexplorer.app)
 
 Fai clic su **Raw TX: JSON** e cerca `ironwood`. Un `valueBalance` negativo lì indica gli ZEC che entrano nella pool Ironwood. Il nostro era `-0.00241336`, esattamente quanto arrivato, e nella transazione nulla mostra chi lo abbia ricevuto.
 
-![Raw transaction JSON with the ironwood section highlighted: valueBalance -0.00241336 (highlight added)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
+![JSON della transazione grezza con la sezione ironwood evidenziata: valueBalance -0.00241336 (evidenziazione aggiunta)](/content-images/15-explorer-raw-ironwood-8ff8ae0892.webp)
 
 [Cosa può vedere un block explorer](/zcash-tech/what-a-block-explorer-can-see) spiega gli altri campi.
 
