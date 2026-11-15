@@ -9,6 +9,7 @@
 ## TL;DR
 
 * Keystone 3 Pro (or Keystone 3) with the Cypherpunk firmware works as an air-gapped signer for Zodl, so shielded ZEC can stay in cold storage.
+* Since the NU7 upgrade (5 November 2026), the Keystone needs firmware **3.2.2 or later** to sign Zcash transactions. If you set it up before then, update the device before your next send.
 * Before you start: battery above 20%, the USB cable (or a FAT32 MicroSD card) for firmware updates, and the Zodl app on your phone.
 * Verify the device on Keystone's website first. This checks that it was not tampered with in transit.
 * Create the wallet on the Keystone and write down the 24-word seed phrase offline. It never goes into Zodl.
@@ -20,6 +21,8 @@
 A hardware wallet keeps your spending keys on a separate device that never touches the internet. Keystone is air-gapped: it talks to your phone only through QR codes, not Bluetooth or USB.
 
 In this setup Zodl is the "watch" side. It syncs with the Zcash network, shows your shielded balance and prepares transactions. The Keystone holds the seed phrase and signs. A compromised phone can see your balance, but it cannot move funds without approval on the Keystone.
+
+Updating the phone app is not enough after a network upgrade: the Keystone signs for a specific upgrade too. After NU7 activated on 5 November 2026, users reported that their Keystone could no longer sign Zcash transactions ([keystone3-firmware#2325](https://github.com/KeystoneHQ/keystone3-firmware/issues/2325)). Firmware [3.2.2](https://github.com/KeystoneHQ/keystone3-firmware/releases/tag/3.2.2) (11 November 2026, Web3 and Cypherpunk) fixed this by moving the device's Zcash code to the NU7 release libraries. The Cypherpunk firmware has also had Zcash shielded address verification since 3.1.4 (October 2026): the device checks whether a unified address belongs to its own wallet.
 
 The steps below cover preparing the device, verifying it, updating the firmware, creating the wallet and connecting it to Zodl.
 
@@ -70,6 +73,7 @@ Zodl app setup on your mobile device.
   - Enter this code on the website to complete the verification process.
 
 - **Firmware Update:**
+  - For Zcash, install 3.2.2 or later. Older firmware can't sign transactions since NU7 (see above).
   - Update via MicroSD card
     - Make sure your Keystone wallet has at least 20% battery charge.
     - Insert the SD card into your computer and format it as FAT32.
