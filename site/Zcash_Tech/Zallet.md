@@ -190,8 +190,8 @@ Step-by-step operator notes: [Migration Guide: zcashd to Zebrad/Zallet](/guides/
 
 ## How Zallet relates to other software
 
-| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
-|--|--------|------|------------------------|----------------|-------|
+| | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
+|--|--------|------|------------------------------|----------------|-------|
 | What it is | Full-node RPC wallet | Shielded-first wallet server | End-user wallets | Consensus node | Indexer / lightwalletd replacement |
 | Replaces | `zcashd` wallet | Not a drop-in `zcashd` clone | Mobile/desktop apps | `zcashd` node | `lightwalletd` |
 | Needs a local node | Yes | Yes (Zebra by default) | No (light client) | It *is* the node | Yes |

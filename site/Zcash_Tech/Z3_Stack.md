@@ -204,7 +204,7 @@ Production-shaped checklist and FAQ: [docs/faq.md](https://github.com/ZcashFound
 
 **Usually the wrong tool**
 
-* End users who only need to send and receive ZEC — use a light wallet such as ZODL / Zashi, Zingo, or YWallet
+* End users who only need to send and receive ZEC — use a light wallet such as ZODL / Zashi, Zingo, or Zkool (the maintained successor to YWallet)
 * People who only want to validate the chain — run Zebra (or Zakura) alone
 * People who only want to serve compact blocks — run Zebra + Zaino, or Zebra + lightwalletd, without Zallet
 
