@@ -224,6 +224,7 @@ guides/Viewing_Key_Transaction_Export.md
 guides/Visualizing_Zcash_Addresses.md
 guides/Visualizing_the_Zcash_Network.md
 guides/Ywallet_FROST_Demo.md
+guides/Zcash_Agent_Skills.md
 guides/Zcash_Devtool.md
 guides/Zcash_Improvement_Proposals.md
 guides/Zcash_Js.md
