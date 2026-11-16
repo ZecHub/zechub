@@ -455,4 +455,16 @@
 - NU7: Compatible
 - Status: Beta
 
+---
 
+## [Leek](https://zcash.leekwallet.xyz/)
+![logo](/content-images/wallets/leek.webp "Leek")
+- Devices: Hardware | Mobile | Desktop
+- Operating System: Android | Windows | Linux | macOS
+- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Orchard | Ironwood
+- Features: Address Check | NEAR Intents | Offline Signing | Open Source | Reproducible Build | Shielded Memo | Testnet Support
+- NU7: Not Verified
+- Status: Beta
+
+---
