@@ -8,6 +8,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
+- Nym Mixnet: Supported
 - NU7: Compatible
 
 ---
@@ -41,6 +42,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
+- Nym Mixnet: Supported
 - NU7: Compatible
 
 ---
@@ -85,6 +87,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
+- Nym Mixnet: Supported
 - NU7: Compatible
 
 ---
@@ -243,6 +246,18 @@
 
 ---
 
+## [LeekWallet](https://zcash.leekwallet.xyz)
+![logo](/content-images/wallets/leek-wallet.webp "LeekWallet")
+- Devices: Hardware
+- Operating System: Android | Windows | Linux | macOS
+- Wallet Support: Hardware | Unified Address | PCZT
+- Pools: Transparent | Orchard | Ironwood
+- Features: Air-gapped Signing | Bluetooth | Hardware Wallet | QR Signing | Self-Custodial | USB
+- NU7: Not Verified
+- Stage: Beta
+
+---
+
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/wallets/ledger.webp "Ledger")
 - Devices: Hardware
@@ -349,7 +364,7 @@
 - Pools: Transparent | Sapling
 - Features: No KYC | Shielded Memo
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
 
 ---
 
@@ -360,6 +375,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
+- Nym Mixnet: Supported
 - NU7: Compatible
 
 ---
@@ -372,7 +388,7 @@
 - Pools: Transparent | Sapling
 - Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
 - NU7: Not Ready
-- Status: Beta 
+- Stage: Beta
 
 ---
 
@@ -411,13 +427,14 @@
 
 ## [Zafu Wallet](https://zafu.pro/)
 ![logo](/content-images/wallets/zafu-wallet.webp "Zafu Wallet")
-- Devices: Web
-- Operating System: Windows | macOS | Linux
-- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
-- Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
-- Features: Multi Coin | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
-- NU7: Not Ready
-- Status: Beta
+- Devices: Mobile | Web
+- Operating System: Android 9+ | iOS | Browser
+- Wallet Support: 24-Word Seed Phrase | Seed Phrase | Viewing Key | Unified Address | Hardware
+- Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
+- Features: Address Book | Atomic Swaps | Cross-Chain Bridge | DApp Connections | Fiat Off-ramp | Messenger | Multi Coin | FROST Multisig | ZNS Names | Voting | Tor Support | Shielded USDC | Private Voting
+- Nym Mixnet: Supported
+- NU7: Compatible
+- Stage: Beta
 
 ---
 
@@ -429,7 +446,7 @@
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Storage
 - NU7: Not Ready
-- Status: Beta 
+- Stage: Beta
 
 ---
 
@@ -441,7 +458,7 @@
 - Pools: Transparent | Sapling | Orchard | RAILGUN (0zkUSDC)
 - Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware Wallet Support | Voting
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
 
 ---
 
@@ -453,7 +470,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Rotation | Open Source | Pool Transfer | Reproducible Build | Shielded Memo
 - NU7: Compatible
-- Status: Beta
+- Stage: Beta
 
 ---
 
