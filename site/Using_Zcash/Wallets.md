@@ -427,11 +427,11 @@
 
 ## [Zafu Wallet](https://zafu.pro/)
 ![logo](/content-images/wallets/zafu-wallet.webp "Zafu Wallet")
-- Devices: Mobile | Web
-- Operating System: Android 9+ | iOS | Browser
-- Wallet Support: 24-Word Seed Phrase | Seed Phrase | Viewing Key | Unified Address | Hardware
+- Devices: Desktop Browser (Browser Extension) | Mobile | Web
+- Operating System: Windows | macOS | Linux (via compatible Chromium-based browsers) | Android 9+ | iOS | Browser
+- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | 24-Word Seed Phrase | Viewing Key | Unified Address | Hardware
 - Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
-- Features: Address Book | Atomic Swaps | Cross-Chain Bridge | DApp Connections | Fiat Off-ramp | Messenger | Multi Coin | FROST Multisig | ZNS Names | Voting | Tor Support | Shielded USDC | Private Voting
+- Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing | Address Book | Atomic Swaps | Cross-Chain Bridge | DApp Connections | Fiat Off-ramp | Messenger | Multi Coin | ZNS Names | Voting | Tor Support | Shielded USDC | Private Voting
 - Nym Mixnet: Supported
 - NU7: Compatible
 - Stage: Beta
