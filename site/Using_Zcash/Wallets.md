@@ -257,18 +257,6 @@
 
 ---
 
-## [LeekWallet](https://zcash.leekwallet.xyz)
-![logo](/content-images/wallets/leek-wallet.webp "LeekWallet")
-- Devices: Hardware
-- Operating System: Android | Windows | Linux | macOS
-- Wallet Support: Hardware | Unified Address | PCZT
-- Pools: Transparent | Orchard | Ironwood
-- Features: Air-gapped Signing | Bluetooth | Hardware Wallet | QR Signing | Self-Custodial | USB
-- NU7: Not Verified
-- Stage: Beta
-
----
-
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/wallets/ledger.webp "Ledger")
 - Source Code: https://github.com/Zondax/ledger-zcash
@@ -501,12 +489,13 @@
 
 ## [Leek](https://zcash.leekwallet.xyz/)
 ![logo](/content-images/wallets/leek.webp "Leek")
+- Source Code: https://github.com/0xOucan/leekwallet-zcash
 - Devices: Hardware | Mobile | Desktop
 - Operating System: Android | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Orchard | Ironwood
 - Features: Address Check | NEAR Intents | Offline Signing | Shielded Memo | Testnet Support
 - NU7: Not Verified
-- Status: Beta
+- Stage: Beta
 
 ---
