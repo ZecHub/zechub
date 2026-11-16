@@ -455,4 +455,15 @@
 - NU7: Compatible
 - Status: Beta
 
+---
+
+## [Leek Wallet](https://zcash.leekwallet.xyz/)
+![logo](/content-images/wallets/leekwallet.webp "Leek Wallet")
+- Devices: Hardware | Desktop | Mobile | Browser
+- Operating System: Windows | macOS | Linux | Android | Chrome
+- Wallet Support: Hardware
+- Pools: Orchard | Ironwood | Transparent (Shielding)
+- Features: PCZT Signing | Address Verification | Shielded Memos | Air-gapped Signing (SD Card) | Hardware Signing | NEAR Intents Swaps | Watch-only Wallets
+- NU7: In Progress
+- Status:  Experimental
 
