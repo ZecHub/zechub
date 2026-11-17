@@ -5,7 +5,7 @@
 ![logo](/content-images/wallets/zodl.webp "ZODL")
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
 - NU7: Compatible
@@ -17,7 +17,7 @@
 - Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling
 - Features: Address Book | Address Rotation | Cold Storage | Payment Request | Pool Transfer | Shielded Memo | TEX Address | WarpSync
 
@@ -27,7 +27,7 @@
 ![logo](/content-images/wallets/dizzy.webp "Dizzy")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Sapling | Ironwood
 - Features: Discord Bot
 - NU7: Not Ready
@@ -38,7 +38,7 @@
 ![logo](/content-images/wallets/zingo.webp "Zingo!")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
 - NU7: Compatible
@@ -72,7 +72,7 @@
 - Status: Deprecated
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling
 - Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
 
@@ -82,7 +82,7 @@
 ![logo](/content-images/wallets/zkool.webp "Zkool")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - NU7: Compatible
@@ -93,7 +93,7 @@
 ![logo](/content-images/wallets/cake.webp "Cake")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
 - NU7: Compatible
@@ -104,7 +104,7 @@
 ![logo](/content-images/wallets/zenith.webp "Zenith")
 - Devices: Desktop
 - Operating System: Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Full Node
 - Pools: Transparent | Sapling
 - Features: Address Book | RPC Interface | Shielded Memo | Testnet Support
 - NU7: Not Ready
@@ -115,7 +115,7 @@
 ![logo](/content-images/wallets/zingo.webp "zingo-cli")
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
 - NU7: Compatible
@@ -139,7 +139,7 @@
 - Status: Deprecated | End-of-life on 18 July 2026: it halts before NU6.3 and cannot follow the network. Use Zallet with a Zebra node.
 - Devices: Desktop
 - Operating System: Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Full Node
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Full Node
 - Pools: Transparent | Sapling
 - Features: Address Rotation | Command Line Interface | RPC Interface | Shielded Memo | Testnet Support
 
@@ -148,7 +148,7 @@
 ## [Brave](https://brave.com/wallet/)
 ![logo](/content-images/wallets/brave.webp "Brave")
 - Devices: Web
-- Operating System: Browser
+- Operating System: Windows | Linux | MacOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent
 - Features: Shielded Memo | Testnet Support
@@ -314,7 +314,7 @@
 - Operating System: Windows | Linux | macOS | Browser
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Features: Multi Coin | NEAR Intents | No KYC | Swaps
+- Features: Multi Coin | NEAR Intents
 - NU7: Compatible
 
 ---
@@ -323,8 +323,8 @@
 ![logo](/content-images/wallets/zapp.webp "Zapp")
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
-- Pools: Transparent | Sapling | Ironwood
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
+- Pools: Transparent | Sapling | Ironwood | RAILGUN (0zkUSDC)
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
 - NU7: Compatible
 
@@ -334,7 +334,7 @@
 ![logo](/content-images/wallets/zecd.webp "zecd")
 - Devices: Desktop
 - Operating System: Linux
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node
 - Pools: Transparent | Sapling | Ironwood
 - Features: Encrypted Backup | RPC Interface | Shielded Memo
 - NU7: Compatible
@@ -357,7 +357,7 @@
 ![logo](/content-images/wallets/nozy-wallet.webp "Nozy Wallet")
 - Devices: Desktop | Web
 - Operating System: Windows | Linux | macOS | Browser
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Spending Key | Full Node
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
 - NU7: Compatible
@@ -368,7 +368,7 @@
 ![logo](/content-images/wallets/zipher.webp "Zipher")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling
 - Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
 - NU7: Not Ready
@@ -411,11 +411,11 @@
 
 ## [Zafu Wallet](https://zafu.pro/)
 ![logo](/content-images/wallets/zafu-wallet.webp "Zafu Wallet")
-- Devices: Desktop Browser (Browser Extension)
-- Operating System: Windows | macOS | Linux (via compatible Chromium-based browsers)
+- Devices: Web
+- Operating System: Windows | macOS | Linux
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
-- Pools: Transparent | Orchard (Legacy) | Ironwood | Penumbra Shielded
-- Features: Multi-Chain | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
+- Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
+- Features: Multi Coin | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
 - NU7: Not Ready
 - Status: Beta
 
@@ -423,10 +423,10 @@
 
 ## [Laurel](https://laurel.cash/)
 ![logo](/content-images/wallets/Laurel.webp "Laurel Wallet") 
-- Devices: Android
-- Operating System: Android 9+ | Windows | Linux (desktop support subject to build availability)
-- Wallet Support: 24-Word Seed Phrase | Wallet Creation | Wallet Restoration | Encrypted Local Storage | Offline Signing | Viewing Keys
-- Pools: Transparent | Sapling | Orchard | Ironwood (Pool Transfers)
+- Devices: Mobile
+- Operating System: Android | Windows | Linux
+- Wallet Support: 24-Word Seed Phrase | Wallet Import | Encrypted Local Storage | Offline Signing | Viewing Keys
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Storage
 - NU7: Not Ready
 - Status: Beta 
@@ -435,11 +435,11 @@
 
 ## [Veylor](https://veylor.cash/)
 ![logo](/content-images/wallets/Veylor.webp "Veylor Wallet") 
-- Devices: iOS (TestFlight) | Android
+- Devices: Mobile
 - Operating System: iOS | Android
 - Wallet Support: Seed Phrase | Self-Custody | Hardware Wallet Integration (Keystone | Ledger)
 - Pools: Transparent | Sapling | Orchard | RAILGUN (0zkUSDC)
-- Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware Wallet Support | Private Voting
+- Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware Wallet Support | Voting
 - NU7: Not Ready
 - Status: Beta
 
@@ -461,9 +461,9 @@
 ![logo](/content-images/wallets/leek.webp "Leek")
 - Devices: Hardware | Mobile | Desktop
 - Operating System: Android | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Key | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Orchard | Ironwood
-- Features: Address Check | NEAR Intents | Offline Signing | Open Source | Reproducible Build | Shielded Memo | Testnet Support
+- Features: Address Check | NEAR Intents | Offline Signing | Shielded Memo | Testnet Support
 - NU7: Not Verified
 - Status: Beta
 
