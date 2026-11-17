@@ -59,3 +59,9 @@ Ethereum
 Charitable
 # Ordinary English word; the names that contain it (Electric Coin Company, Coin Metrics) are protected whole.
 Coin
+
+# Akash's web app, but the wiki uses "console" as an ordinary word far more
+# often; "MicroSD" is the card format (mostly written "microSD"). Decided
+# 2026-11-17.
+Console
+MicroSD
