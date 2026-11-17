@@ -133,6 +133,7 @@ Zero_to_Zero_Knowledge/Zero_to_Zero-knowledge.md
 Zcash_Tech/Blossom.md
 Zcash_Tech/Canopy.md
 Zcash_Tech/Crosslink_Protocol.md
+Zcash_Tech/Detecting_Shielded_Payments.md
 Zcash_Tech/FROST.md
 Zcash_Tech/FROST_Threshold_Custody.md
 Zcash_Tech/Full_Nodes.md
