@@ -94,7 +94,7 @@ zcashdは、RPCインターフェースを通じて一連のAPIを公開しま�
 
 これは敵対的な支配を防ぎ、ある種の障害に対するネットワークの耐障害性を維持するのに役立ちます。
 
-DNSシーダーは、組み込みサーバーを通じて他の信頼できるノードのリストを公開します。これにより、トランザクションはネットワーク全体に伝播できます。
+DNSシーダーは、組み込みサーバーを通じて他の信頼できるノードのリストを公開します。これにより、トランザクションはネットワーク全体に伝播できます。Zcash Foundationのシーダーは[Zeeder](https://github.com/ZcashFoundation/zeeder)を実行しています。これはRustで書かれたDNSシーダーで、CoreDNSベースのdnsseederに取って代わりました。そのイメージは`zfnd/zeeder`として公開されています。以前の`zfnd/dnsseeder`という名前は廃止される予定です。
 
 ### ネットワーク統計
 
@@ -136,6 +136,7 @@ zcashdは、シールドされたコインベースへのマイニングも可�
 - [Zakura ノード](/zcash-tech/zakura-node) - Zebraからフォークされた2番目のノード実装
 - [ライトウォレットノード](/zcash-tech/lightwallet-nodes) - ライトウォレットが照会するサーバー
 - [Zaino](/zcash-tech/zaino) - ライトウォレットにサービスを提供するRustインデクサー
+- [Zinder](/zcash-tech/zinder) - Zcash FoundationのZebraおよびZakura向けアルファ版インデクサー
 - [Zcash ウォレット同期](/zcash-tech/zcash-wallet-syncing) - 同期がこのように機能する理由
 
 ## さらに学ぶ

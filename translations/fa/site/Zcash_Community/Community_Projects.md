@@ -217,7 +217,7 @@ ZcashToCash (zcashto.cash) — ZEC به Cash App، Chime، Monzo، Revolut، Ven
 
 ### Shielded Wall
 پلتفرم اعتراف ناشناس مبتنی بر حریم خصوصی Zcash.  
-[بازدید](https://shieldedwall.org/)
+[بازدید](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 صندوق ایمیل یک‌بارمصرف که هزینه آن با ZEC محافظت‌شده پرداخت می‌شود.  
@@ -274,7 +274,7 @@ ZcashToCash (zcashto.cash) — ZEC به Cash App، Chime، Monzo، Revolut، Ven
 
 ### ZK Global Credit
 زیرساخت اعتبار و رأی‌گیری بومی Zcash برای افشای انتخابی، آمادگی برای تسویه، اعتبار فرامرزی و حکمرانی محافظت‌شده.  
-[بازدید](https://voting.zkglobalcredit.tech/)
+[بازدید](https://zkglobalcredit.tech/)
 
 ### Free2Z
 ابزاری برای تولید محتوای ناشناس و دریافت کمک‌های مالی خصوصی مبتنی بر Zcash.  

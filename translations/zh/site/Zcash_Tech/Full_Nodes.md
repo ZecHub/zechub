@@ -94,7 +94,7 @@ zcashd通过其 RPC 接口公开了一组 API。这些 API 提供了让外部应
 
 这有助于防止对手控制，并使网络能够抵御某些形式的中断。
 
-DNS 种子节点通过内置服务器公开其他可靠节点的列表。这使交易能够在整个网络中传播。
+DNS 种子节点通过内置服务器公开其他可靠节点的列表。这使交易能够在整个网络中传播。Zcash Foundation 的种子节点运行 [Zeeder](https://github.com/ZcashFoundation/zeeder)，这是一款用 Rust 编写的 DNS 种子节点程序，取代了基于 CoreDNS 的 dnsseeder。它的镜像以 `zfnd/zeeder` 的形式发布；旧的 `zfnd/dnsseeder` 名称正在弃用。
 
 ### 网络统计数据
 
@@ -136,6 +136,7 @@ zcashd 还支持挖矿至屏蔽 coinbase。矿工和挖矿 pool 可以选择默�
 - [Zakura 节点](/zcash-tech/zakura-node) - 第二种节点实现，从Zebra分叉而来
 - [轻钱包节点](/zcash-tech/lightwallet-nodes) - 轻钱包查询的服务器
 - [Zaino](/zcash-tech/zaino) - 为轻钱包提供服务的Rust索引器
+- [Zinder](/zcash-tech/zinder) - Zcash Foundation 的Zebra和Zakura alpha 索引器
 - [Zcash 钱包同步](/zcash-tech/zcash-wallet-syncing) - 同步为何以这种方式运作
 
 ## 延伸学习

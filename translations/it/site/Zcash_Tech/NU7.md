@@ -16,6 +16,8 @@ Nuovo a Zcash? Inizia con [Cos'è ZEC e Zcash](../start-here/what-is-zec-and-zca
 
 ## TL;DR
 
+In parole semplici: ora i blocchi arrivano ogni 25 secondi, la quantità di nuovi ZEC al giorno resta la stessa, una parte di ogni commissione viene accantonata per i miner del futuro e la vecchia pool Sprout è chiusa.
+
 - **Blocchi da 25 secondi** ([ZIP 218](https://zips.z.cash/zip-0218)): prima conferma in circa 25 secondi invece di 75. La sovvenzione di blocco è scesa da 1,5625 a 0,52083333 ZEC, quindi vengono comunque emessi circa 1.800 ZEC al giorno.
 - **Limiti alle azioni schermate** (ZIP 218): al massimo 330 azioni schermate per blocco su tutte le pool, con tetti per singola pool, per mantenere i costi del caso peggiore di validazione dei blocchi e di sincronizzazione dei portafogli al di sotto di quelli di prima.
 - **Meccanismo di sostenibilità della rete** ([ZIP 235](https://zips.z.cash/zip-0235) + [ZIP 237](https://zips.z.cash/zip-0237)): il 60% delle commissioni delle transazioni di ogni blocco esce dalla circolazione e viene riemesso in seguito ai miner, a partire dal blocco 8.939.664 (previsto attorno a febbraio 2031). Il tetto dell'offerta di 21 milioni resta invariato.
@@ -25,6 +27,8 @@ Nuovo a Zcash? Inizia con [Cos'è ZEC e Zcash](../start-here/what-is-zec-and-zca
 ## Analogia visiva
 
 Pensa alla chain come a una linea ferroviaria. Prima di NU7 un treno partiva ogni 75 secondi e poteva trasportare quanti passeggeri ne entrassero in 2 MB. NU7 fa partire un treno ogni 25 secondi, paga a ogni macchinista un terzo della vecchia tariffa così il totale giornaliero resta identico, e impone un limite a quanti dei passeggeri più pesanti (le azioni schermate) possono salire a bordo di un treno, così nessun singolo treno può metterci troppo tempo a essere controllato.
+
+![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Cosa ha cambiato NU7
 
@@ -42,11 +46,11 @@ Ogni blocco ora ha un budget condiviso e tetti per singola pool:
 
 | Limite | Per blocco |
 |---|---|
-| Tutte le azioni schermate su tutte le pool | 330 |
+| Tutte le azioni schermate nelle pool | 330 |
 | Azioni Orchard | 330 |
 | Azioni Ironwood | 330 |
 | Input + output Sapling | 300 |
-| JoinSplit Sprout | nessuno consentito |
+| Sprout JoinSplits | nessuna consentita |
 
 Prima di NU7, un blocco pieno da 2 MB poteva contenere circa 617 azioni Orchard o Ironwood oppure circa 2.107 output Sapling, senza limiti per singola pool. Lo ZIP 218 stabilisce i nuovi tetti in modo che, anche con tre volte più blocchi, il caso peggiore per i nodi e per i portafogli in sincronizzazione sia più basso di prima (per esempio, la larghezza di banda massima per la sincronizzazione schermata di un light client scende da circa 271 a 169 MB al giorno), mentre il throughput del protocollo Orchard più che raddoppia (da circa 2,9 a 6,6 transazioni al secondo per transazioni da 2 azioni).
 

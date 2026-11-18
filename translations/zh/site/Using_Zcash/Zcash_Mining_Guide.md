@@ -52,11 +52,11 @@ Zcash（ZEC）是一种专注于隐私 [privacy] 的加密货币，使用 Equiha
 - **操作系统：**Windows 10/11、Linux（为获得稳定性，推荐 Ubuntu）。
 - **挖矿软件：**
   - GPU：lolMiner（支持 AMD/NVIDIA）、GMiner 或 miniZ（专注于 NVIDIA）。请从官方 GitHub 仓库下载（例如 github.com/Lolliedieb/lolMiner-releases）。
-  - ASIC：使用制造商内置的固件/仪表板 [dashboard]（例如 Bitmain 的网页界面）。
+  - ASIC：使用制造商内置的固件/仪表板（例如 Bitmain 的网页界面）。
 - **钱包 [wallet]：**用于接收付款的 Zcash 钱包。推荐：
   - 屏蔽 [shielded]（私密）：ZODL Wallet、Zingo（移动端/桌面端）、Zkool（移动端/桌面端）。
-  - 透明 [transparent]（更简单但隐私性较低）：Edge Wallet、Zecwallet Lite。
-  - 请从 [wallets](https://zechub.wiki/wallets) 下载。如果矿池支持，请生成一个屏蔽地址（以“zs”开头）以保护隐私。
+  - 透明 [transparent]（更简单但隐私性较低）：Edge Wallet。
+  - 请从 [钱包](https://zechub.wiki/wallets) 下载。如果 pool 支持，请生成一个屏蔽地址（以“zs”开头）以保护隐私。
 
 ### 其他
 - 电力：计算成本。GPU 每张耗电 150-300W；ASIC 耗电 1000W+。

@@ -17,13 +17,13 @@ Für die visuelle Geschichte, wie sich der Datenschutz von Zcash über diese Upg
 | [NU6.1](../zcash-tech/nu6-1) | 24. November 2025 | 3,146,400 | 4dec4df0 | Governance dieser Finanzierung durch Community und Coin-Inhaber |
 | [NU6.2](../zcash-tech/nu6-2) | 3. Juni 2026 | 3,364,600 | 5437f330 | Ein Notfall-Fix, der den Orchard-Schaltkreis korrigierte |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | 28. Juli 2026 | 3,428,143 | 37a5165b | Der Ironwood-Pool und eine öffentliche Drehsperre, mit der jeder die Umlaufmenge prüfen kann |
-| **NU7** (bevorstehend) | Testnet: 4. Okt. 2026; Mainnet: angestrebt am 5. Nov. 2026 | Testnet: 4,465,026; Mainnet: 3,543,405 | 77190ad9 | 25-Sekunden-Blöcke (ZIP 218), NSM-Gebühren-Recycling (ZIP 235+237), Einstellung von Sprout (ZIP 2003) |
+| [NU7](../zcash-tech/nu7) | 6. November 2026 | 3,543,405 | 77190ad9 | 25-Sekunden-Blöcke (ZIP 218), Recycling der NSM-Gebühren (ZIP 235+237), Einstellung von Sprout (ZIP 2003) |
 
 Die Daten werden in UTC angezeigt. Einige Dashboards zeigen sie in lokaler Zeit an; es handelt sich dabei um denselben Block und denselben Zeitpunkt. Der feste Auslöser für jedes Upgrade ist seine Aktivierungsblockhöhe, nicht das Kalenderdatum.
 
 ### Status von NU7
 
-NU7 ist auf dem öffentlichen Testnet bei Höhe **4,465,026** live (aktiviert am 4. Oktober 2026). Die Aktivierungshöhe des Mainnets beträgt **3,543,405** ([ZIP 259](https://zips.z.cash/zip-0259)) und ist für den **5. November 2026** vorgesehen.
+NU7 wurde am **6. November 2026** (02:34 UTC; am Abend des 5. November in US-amerikanischen Zeitzonen) bei Höhe **3,543,405** ([ZIP 259](https://zips.z.cash/zip-0259)) auf dem Mainnet aktiviert. Zuvor ging es auf dem öffentlichen Testnet bei Höhe **4,465,026** (4. Oktober 2026) live.
 
 Umfang (ZIP 259):
 

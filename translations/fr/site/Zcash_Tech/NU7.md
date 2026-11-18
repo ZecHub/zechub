@@ -16,6 +16,8 @@ Vous découvrez Zcash ? Commencez par [Qu'est-ce que ZEC et Zcash](../start-here
 
 ## En bref
 
+En termes simples : les blocs arrivent désormais toutes les 25 secondes, la quantité de nouveaux ZEC par jour reste la même, une partie de chaque frais est mise de côté pour les futurs mineurs et l'ancien pool Sprout est fermé.
+
 - **Blocs de 25 secondes** ([ZIP 218](https://zips.z.cash/zip-0218)) : la première confirmation arrive en 25 secondes environ au lieu de 75. La subvention de bloc est passée de 1,5625 à 0,52083333 ZEC, ce qui fait qu'environ 1 800 ZEC sont toujours émis chaque jour.
 - **Limites sur les actions protégées** (ZIP 218) : un bloc contient au maximum 330 actions protégées, tous pools confondus, avec en plus des plafonds par pool. Ainsi, le coût de validation d'un bloc dans le pire des cas et le coût de synchronisation des portefeuilles restent inférieurs à ce qu'ils étaient auparavant.
 - **Mécanisme de durabilité du réseau** ([ZIP 235](https://zips.z.cash/zip-0235) + [ZIP 237](https://zips.z.cash/zip-0237)) : 60 % des frais de transaction de chaque bloc sortent de la circulation. Ils seront réémis plus tard au profit des mineurs, à partir du bloc 8 939 664 (prévu vers février 2031). Le plafond de 21 millions d'unités ne change pas.
@@ -25,6 +27,8 @@ Vous découvrez Zcash ? Commencez par [Qu'est-ce que ZEC et Zcash](../start-here
 ## Analogie visuelle
 
 Imaginez la chaîne comme une ligne de train. Avant NU7, un train partait toutes les 75 secondes et pouvait transporter autant de passagers que 2 Mo pouvaient en contenir. NU7 fait partir un train toutes les 25 secondes et paie chaque conducteur le tiers de l'ancien tarif, si bien que le total quotidien reste le même. Elle limite aussi le nombre de passagers les plus lourds (les actions protégées) qui peuvent monter dans un même train, afin que le contrôle d'aucun train ne prenne trop de temps.
+
+![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Ce que NU7 a changé
 

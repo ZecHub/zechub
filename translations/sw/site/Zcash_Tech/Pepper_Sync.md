@@ -14,7 +14,7 @@
 
 ## Maelezo ya Msingi
 
-Zingo 2.0 ni toleo jipya zaidi la pochi ya Zingo!, pochi nyepesi yenye msimbo wazi iliyoundwa kwa ajili ya jumuiya ya Zcash. Nyota ya toleo hili ni Usawazishaji wa Pepper, uboreshaji mkubwa unaofikiria upya kabisa jinsi pochi zinavyounganishwa na blockchain.
+Zingo 2.0 ni toleo la pochi ya Zingo!, pochi nyepesi yenye msimbo wazi iliyoundwa kwa ajili ya jumuiya ya Zcash, lililoanzisha Usawazishaji wa Pepper, uboreshaji mkubwa unaofikiria upya kabisa jinsi pochi zinavyounganishwa na blockchain. Matoleo yaliyofuata yanaendelea kutumia Usawazishaji wa Pepper: toleo la sasa la simu za mkononi, [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (Oktoba 31, 2026), linaongeza usaidizi wa NU7 na uwezo wa kubadilisha uliojengewa ndani.
 
 Hapo zamani, usawazishaji ungeweza kuhisiwa kuwa wa polepole sana, wenye hitilafu, na unaotumia rasilimali nyingi, wakati mwingine ukiwalazimisha watumiaji kuanza upya kabisa. Usawazishaji wa Pepper hubadilisha yote hayo. Hufanya usawazishaji kuwa wa haraka, laini, wa kuaminika zaidi, na usiohitaji sana kifaa chako, huku ukihifadhi kikamilifu faragha ya miamala ya faragha.
 
@@ -93,7 +93,7 @@ Kwa kuboresha uzoefu wa pochi, Usawazishaji wa Pepper huimarisha mfumo mzima wa 
 
 ### Kuanza: uanzishaji kwa kutumia Zingo 2.0
 
-1. Pakua Pochi - Pata toleo sahihi kutoka ukurasa wa matoleo wa [Zingo GitHub](https://github.com/zingolabs/zingolib)
+1. Pakua Pochi - Pata toleo sahihi kutoka [zingolabs.org](https://zingolabs.org/) au kurasa za matoleo za [simu](https://github.com/zingolabs/zingo-mobile/releases) na [kompyuta](https://github.com/zingolabs/zingo-pc/releases) za GitHub
 2. Sanidi Pochi Yako - Unda pochi mpya au irejeshe kutoka maneno ya kurejesha pochi yaliyopo. [Zingo 2.0 yenye Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Acha Usawazishaji wa Pepper Uendeshe - Tazama viashiria vya maendeleo wakati pochi yako inasasishwa. [Usawazishaji wa Pepper Uendeshe](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Anza Kutumia Zcash - Tuma na upokee ZEC za faragha mara tu usawazishaji unapokamilika.

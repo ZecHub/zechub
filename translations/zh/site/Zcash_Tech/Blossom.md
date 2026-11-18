@@ -10,7 +10,7 @@
 
 Blossom 是一次 Zcash [网络升级 network upgrade](../start-here/network-upgrades)。它通过 [ZIP 206](https://zips.z.cash/zip-0206) 部署，其主要共识 [consensus] 变更在 [ZIP 208](https://zips.z.cash/zip-0208) 中定义。Blossom 是一次扩容 [scaling] 升级：它将区块之间的目标时间从 150 秒缩短至 75 秒，因此区块到达频率约提高一倍。Electric Coin Company 主导并宣布了 Blossom。
 
-这为何重要。当你发送 ZEC 时，你需要等待网络在一个区块中确认它。如果区块较慢，你等待的时间就更长。在 Blossom 之前，预计每约 150 秒会产生一个新区块。Blossom 将该目标减半至 75 秒，因此确认会更快到来，链 [chain] 也能在相同时间内承载更多交易 [transaction]。它在不创建更多 ZEC 或改变未来减半 [halving] 时间安排的情况下实现了这一点。
+这为何重要。当你发送 ZEC 时，你需要等待网络在一个区块中确认它。如果区块生成较慢，你就要等待更长时间。在 Blossom 之前，预计每约 150 秒会产生一个新区块。Blossom 将该目标减半至 75 秒，因此确认会更快到来，链也能在相同时间内承载更多交易。它在不创建更多 ZEC 或改变未来减半时间安排的情况下实现了这一点。（NU7 于 2026 年 11 月激活，后来采用相同的方法，根据 [ZIP 218](https://zips.z.cash/zip-0218) 将目标再次缩短至 25 秒。）
 
 ## 太长不看（TL;DR）
 

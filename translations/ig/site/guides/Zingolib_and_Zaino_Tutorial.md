@@ -43,10 +43,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Jiri Zebra 7.0.0 ma ọ bụ nke ọhụrụ: NU7 malitere ịrụ ọrụ na Mainnet na block 3,543,405, ụdị `zebrad` ndị ochie enweghịkwa ike iso chain gafee ogo ahụ ([ndetu mwepụta](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *nhọrọ* (mepụta nnọkọ screen maka zebrad)
 
 ```

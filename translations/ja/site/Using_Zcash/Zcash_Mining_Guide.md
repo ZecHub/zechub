@@ -53,9 +53,9 @@ Zcash（ZEC）は、マイニングにEquihashプルーフ・オブ・ワーク�
 - **マイニングソフトウェア：**
   - GPU向け：lolMiner（AMD/NVIDIA対応）、GMiner、またはminiZ（NVIDIA向け）。公式のGitHubリポジトリからダウンロードしてください（例：github.com/Lolliedieb/lolMiner-releases）。
   - ASIC向け：メーカー内蔵のファームウェア／ダッシュボードを使用します（例：Bitmainのウェブインターフェース）。
-- **ウォレット（Wallet）：** 支払いを受け取るためのZcashウォレット。推奨：
-  - シールドされた（shielded）（プライベート）：ZODL Wallet、Zingo（モバイル／デスクトップ）、Zkool（モバイル／デスクトップ）。
-  - 公開型（transparent）（簡単ですがプライバシーは低い）：Edge Wallet、Zecwallet Lite。
+- **ウォレット：** 支払いを受け取るためのZcashウォレット。推奨：
+  - シールドされた（プライベート）：ZODL Wallet、Zingo（モバイル／デスクトップ）、Zkool（モバイル／デスクトップ）。
+  - 公開型（簡単ですがプライバシーは低い）：Edge Wallet。
   - [wallets](https://zechub.wiki/wallets)からダウンロードしてください。プールが対応している場合、プライバシーのためにシールドされたアドレス（「zs」で始まります）を生成してください。
 
 ### その他

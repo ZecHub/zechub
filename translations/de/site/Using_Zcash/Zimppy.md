@@ -7,7 +7,7 @@
 ## TL;DR
 
 - **Zimppy** ist eine datenschutzorientierte Zahlungsinfrastruktur für KI-Agenten, die das Machine Payment Protocol (MPP) von Zcash verwendet
-- **Einmal einzahlen** on-chain (~75 Sekunden), dann **unbegrenzte sofortige Anfragen** ohne Blockchain-Interaktion pro Anfrage stellen
+- **Einmal einzahlen** on-chain (~25 Sekunden pro Block seit NU7), dann **unbegrenzte sofortige Anfragen** ohne Blockchain-Interaktion pro Anfrage stellen
 - Unterstützt **vollständig abgeschirmte Zcash (Orchard)**-Zahlungen — Sender, Empfänger, Betrag und Memo sind alle verschlüsselt
 - Funktioniert mit **TypeScript- und Rust-SDKs** für eine einfache Integration in KI-Pipelines und API-Server
 - Perfekt für **LLM-APIs, Datenmarktplätze, MCP-Tool-Server** und jeden M2M-Zahlungsanwendungsfall
@@ -52,7 +52,7 @@ Anders als bei herkömmlichen Blockchain-Zahlungssystemen, bei denen jede Transa
 
 ### Kerneigenschaften
 
-- **Einmal einzahlen** on-chain (~75 Sekunden für eine Zcash-Bestätigung)
+- **Einmal einzahlen** on-chain (~25 Sekunden für einen Zcash-Block seit NU7; zuvor 75 Sekunden)
 - **Unbegrenzte sofortige Anfragen** nach Sitzungsbeginn, keine Chain-Interaktion pro Anfrage
 - **Abgeschirmte Zahlungen** verschlüsseln Sender, Empfänger, Betrag und Memo mit dem Orchard-Protokoll von Zcash
 - **Transparente Zahlungen** verwenden T-Adressen pro Challenge zur Replay-Verhinderung ohne vollständige Privatsphäre
@@ -77,12 +77,12 @@ Für KI-Agenten, die sensible Workflows, Rechtsrecherchen, medizinische Anfragen
 
 ### Das Latenzproblem, durch Sitzungen gelöst
 
-> *„Aber Zcash hat Blockzeiten von 75 Sekunden.“*
+> *„Aber Zcash-Blöcke benötigen weiterhin 25 Sekunden (75 Sekunden vor NU7).“*
 
 **Sitzungen lösen das.** Das Warten on-chain geschieht bei der Einzahlung genau **einmal**. Jede nachfolgende Anfrage erfolgt sofort.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ Abgeschirmte Zahlungen verwenden das **Orchard-Protokoll** von Zcash, den von NU
 
 ### Sitzungen, keine Latenz pro Anfrage
 
-Die Sitzungsarchitektur entkoppelt das Warten auf die On-chain-Bestätigung von der Latenz pro Anfrage. Nach einer einzigen Einzahlung (~75 Sekunden) werden alle nachfolgenden Inhaber-Token-Anfragen sofort und ohne Blockchain-Interaktion bedient, bis die Sitzung geschlossen wird.
+Die Sitzungsarchitektur entkoppelt das Warten auf die On-chain-Bestätigung von der Latenz pro Anfrage. Nach einer einzigen Einzahlung (~25 Sekunden seit NU7) werden alle nachfolgenden Inhaber-Token-Anfragen sofort und ohne Blockchain-Interaktion bedient, bis die Sitzung geschlossen wird.
 
 ### Streaming, Abrechnung pro Token
 

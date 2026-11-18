@@ -99,15 +99,16 @@ ___
 - Ironwood：支持屏蔽提现，未说明 pool
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- 网站：[Huobi](https://huobi.com)
+- 网站：[HTX](https://www.htx.com)（原为Huobi）
 - 交易对：ALL/ZEC
 - 支持：透明
+- 状态：ZEC 目前暂停充值和提现（根据 HTX 公开 API，2026 年 11 月）；现货交易仍有列出
 - 充值时间：35 分钟 
 - Ironwood：不适用，仅限透明地址
 ___

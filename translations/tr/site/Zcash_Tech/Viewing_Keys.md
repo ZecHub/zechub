@@ -94,7 +94,9 @@ Bir Sapling adresi geçirmek, eski zcashd davranışıyla uyumlu olarak o hesab�
 
 [Zkool](https://github.com/hhanh00/zkool2), legacy anahtarların yanı sıra unified anahtarları da kabul ettiği için burada en esnek seçenektir. README dosyası, zcashd'den dışa aktarılan legacy shielded extended anahtarların yanında **unified viewing key** veya **Sapling extended viewing key** ile oluşturulan yalnızca görüntüleme hesaplarını belgeler. Yeni bir hesap ekleyin, yalnızca görüntüleme yolunu seçin ve `uview…` veya `zxviews…` anahtarını yapıştırın; hesap daha sonra senkronize olur ve harcama yetkisi olmadan bakiyeleri ve geçmişi raporlar.
 
-Ironwood protokol desteği ve Orchard'dan Ironwood'a geçiş Zkool 6.24.0'da (20 Temmuz 2026) geldi; 6.26.1 (2 Ağustos 2026) ise mempool'daki Ironwood işlem algılamasını düzeltti. 6.26.1 veya daha yeni bir sürüm kullanın.
+Ironwood protokol desteği ve Orchard'dan Ironwood'a geçiş Zkool 6.24.0'da (20 Temmuz 2026) geldi; 6.26.1 (2 Ağustos 2026) ise mempool'daki Ironwood işlem algılamasını düzeltti. NU7 Mainnet'te etkinleştirildiğinden (3.543.405. blok), [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 Ekim 2026) veya daha yeni bir sürüm kullanın: NU7 Mainnet etkinleştirme yüksekliğiyle oluşturulan ilk Zkool sürümüdür ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 ayrıca **birleşik gelen görüntüleme anahtarlarını** da kabul eder. Herhangi bir anahtar girilebilen yere `uivk…` anahtarını yapıştırın; Zkool yalnızca gelen işlemler için bir hesap oluşturur: orijinal hesabın aldığı her şeyi, notlar dâhil, gösterir; gönderdiği hiçbir şeyi göstermez ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Gelen anahtar harcamaları göremez; bu nedenle hesabın bakiyesi kalan tutar değil, alınan toplam tutardır ve hesap harcama yapamaz. Zkool bir hesabın UIVK’sini de dışa aktarabilir ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

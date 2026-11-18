@@ -41,7 +41,7 @@ Ne èdi ɣaɣla kple dzikpɔkpɔ sɔŋ wu la, zã **BTCPay Server**, **CipherPay
 
 Ne èdi be nàxɔ fexexewo le fiadze me le internet dzi ke o la, zã **Flexa**.
 
-Ne èdi hosted gateway afi si nuwo ƒe ʋuʋuɖi fexexewo wɔa dɔ la, zã **NOWPayments** alo **Plisio**.
+Ne èdi hosted gateway afi si nuwo ƒe ʋuʋuɖi fexexewo wɔa dɔ la, zã **NOWPayments**. **Plisio** ɖe fexexewo ƒe wɔwɔ dzi (kpɔ ŋkɔɖoɖo si ŋkeke le eƒe ŋutinya me le anyi), eye mèga tiae fifia o.
 
 Nu vevi aɖe si woagblɔ ake: processor si xɔa nuwo ƒe ʋuʋuɖi ko ɖea fexexe sia fexexe ƒe asixɔxɔ kple gaɖoƒe ƒe dzesi ɖe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi. Eye kple hosted processor siawo katã siwo menye asikplɔ-dzralá o la, nèna wò nukpɔsafui na wo, ale be company la ate ŋu akpɔ wò fexexewo togbɔ be mate ŋu axɔ wo o. Wò ŋutɔ ƒe hosting ko nye mɔ si ate ŋu aɖe esia ɖa.
 

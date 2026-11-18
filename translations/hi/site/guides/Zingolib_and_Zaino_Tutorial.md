@@ -43,10 +43,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Zebra 7.0.0 या नया संस्करण इस्तेमाल करें: NU7 Mainnet पर ब्लॉक 3,543,405 में सक्रिय हुआ, और `zebrad` के पुराने संस्करण उस ऊँचाई के बाद चेन का अनुसरण नहीं कर सकते ([रिलीज़ नोट्स](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0))।
+
 *वैकल्पिक* (zebrad के लिए एक screen सेशन बनाएँ)
 
 ```

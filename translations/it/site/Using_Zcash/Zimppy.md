@@ -7,7 +7,7 @@
 ## In breve
 
 - **Zimppy** è un'infrastruttura di pagamento che mette la privacy al primo posto per agenti AI e utilizza il Machine Payment Protocol (MPP) di Zcash
-- **Deposita una volta sola** on-chain (~75 secondi), poi effettua **richieste istantanee illimitate** senza interazione con la blockchain per ogni richiesta
+- **Deposita una volta sola** on-chain (~25 secondi per blocco da NU7), poi effettua **richieste istantanee illimitate** senza interazione con la blockchain per ogni richiesta
 - Supporta pagamenti **Zcash completamente schermati (Orchard)** — mittente, destinatario, importo e memo sono tutti crittografati
 - Funziona con gli SDK **TypeScript e Rust** per una facile integrazione in pipeline AI e server API
 - Perfetto per **API LLM, marketplace di dati, server di strumenti MCP** e qualsiasi caso d'uso di pagamento M2M
@@ -52,7 +52,7 @@ A differenza dei sistemi di pagamento blockchain tradizionali, in cui ogni trans
 
 ### Proprietà principali
 
-- **Deposita una volta sola** on-chain (~75 secondi per la conferma di Zcash)
+- **Deposita una volta sola** on-chain (~25 secondi per un blocco Zcash da NU7; 75 secondi prima)
 - **Richieste istantanee illimitate** dopo l'apertura della sessione, zero interazione con la chain per richiesta
 - I **pagamenti schermati** crittografano mittente, destinatario, importo e memo tramite il protocollo Orchard di Zcash
 - I **pagamenti trasparenti** utilizzano T-address per challenge per prevenire i replay senza privacy completa
@@ -77,12 +77,12 @@ Per gli agenti AI che gestiscono flussi di lavoro sensibili, ricerche legali, ri
 
 ### Il problema della latenza, risolto dalle sessioni
 
-> *"Ma Zcash ha tempi di blocco di 75 secondi."*
+> *"Ma i blocchi di Zcash richiedono ancora 25 secondi (75 secondi prima di NU7)."*
 
 **Le sessioni risolvono questo problema.** L'attesa on-chain avviene esattamente **una volta** al deposito. Ogni richiesta successiva è istantanea.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ I pagamenti schermati utilizzano il **protocollo Orchard** di Zcash, la pool sch
 
 ### Sessioni, latenza zero per richiesta
 
-L'architettura delle sessioni separa l'attesa della conferma on-chain dalla latenza per richiesta. Dopo un singolo deposito (~75 secondi), tutte le successive richieste con token al portatore vengono servite istantaneamente senza interazione con la blockchain fino alla chiusura della sessione.
+L'architettura delle sessioni separa l'attesa della conferma on-chain dalla latenza per richiesta. Dopo un singolo deposito (~25 secondi da NU7), tutte le successive richieste con token al portatore vengono servite istantaneamente senza interazione con la blockchain fino alla chiusura della sessione.
 
 ### Streaming, pagamento per token
 

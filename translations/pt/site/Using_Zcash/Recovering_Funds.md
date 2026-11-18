@@ -171,7 +171,7 @@ Desde que a atualização Ironwood (NU6.3) foi ativada em 28 de julho de 2026, o
 
 Se seus fundos recuperados estiverem no Orchard, mova-os para o Ironwood usando o **fluxo de migração integrado de uma carteira atual**. O Orchard é somente de saída após o NU6.3.
 
-O Zkool 6.30.0 é a versão atual em 18 de setembro de 2026 e suporta o Ironwood. Seu design de migração é focado em privacidade, mas isso não é o mesmo que alegar conformidade com o ZIP 318. Outras carteiras atuais podem usar migração em etapas no estilo do ZIP 318. Siga a tela de migração atual e as notas de versão da carteira instalada, em vez de inventar um valor ou cronograma manual.
+O Zkool 6.37.0 é a versão atual em 12 de novembro de 2026 e oferece suporte ao Ironwood. Use a versão 6.35.0 ou posterior: versões anteriores não conhecem a altura de ativação do Mainnet do NU7 (bloco 3.543.405), então criam transações segundo as regras anteriores ao NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Seu design de migração é focado em privacidade, mas isso não é o mesmo que alegar conformidade com o ZIP 318. Outras carteiras atuais podem usar migração em etapas no estilo do ZIP 318. Siga a tela de migração atual e as notas de versão da carteira instalada, em vez de inventar um valor ou cronograma manual.
 
 Uma migração em etapas pode usar várias transações, então a taxa total pode ser maior que a de uma transferência única.
 

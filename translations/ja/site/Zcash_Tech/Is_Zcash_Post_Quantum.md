@@ -71,7 +71,7 @@ Ironwoodが変更しなかったものは、現在の支出とCorrected from 証
 
 **露出期間があります。** Ironwoodの有効化から古いプロトコルが無効化されるまでの間、量子攻撃者は依然として、すべてのシールドされたプールで資金を盗み、インフレーションを起こし、または資金を阻害できます。ZIP 2005はこれを「重大な露出期間」と呼び、この間の攻撃が保有者の後の回復能力を損なう可能性があると警告しています。そのため、量子攻撃が実現可能になる**前に**、ZcashがOrchard、Sapling、Sproutを無効化しなければならないとしています。
 
-**無効化の日付は、Sproutを除いてありません。** ZIPには、OrchardまたはSaplingを無効化する予定はありません。Sproutは異なります。[ZIP 259](https://zips.z.cash/zip-0259)には、ZIP 2003がNU7によって導入される変更の1つとして記載されているため、バージョン4トランザクションはNU7の有効化後に無効となり、ZECプールに残されたSproutは支出不能になります。Mainnetでの有効化はブロック3,543,405に設定され、2026年11月5日が目標です（[ZIP 259](https://zips.z.cash/zip-0259)、[フォーラム発表](https://forum.zcashcommunity.com/t/nu7-timeline/57655)）。Saplingを出金専用にする議論は、2026年4月にフォーラムで始まりました。
+**無効化の日付は、Sproutを除いてありません。** ZIPには、OrchardまたはSaplingを無効化する予定はありません。Sproutは異なります。[ZIP 259](https://zips.z.cash/zip-0259)には、ZIP 2003がNU7によって導入される変更の1つとして記載されているため、NU7が有効化された現在、バージョン4のトランザクションは無効であり、Sproutプールに残されたZECは支出できません。NU7は、2026年11月6日UTCにMainnetのブロック3,543,405で有効化されました（[ZIP 259](https://zips.z.cash/zip-0259)、[フォーラム発表](https://forum.zcashcommunity.com/t/nu7-timeline/57655)）。Saplingを出金専用にする議論は、2026年4月にフォーラムで始まりました。
 
 **リカバリープロトコルは未完成です。** ZIP 2005は概要を示すだけで、詳細は「変更される可能性がある」としています。何も導入されていません。
 
@@ -97,7 +97,7 @@ Ironwoodが変更しなかったものは、現在の支出とCorrected from 証
 
 ## ステータス表
 
-最終確認日: 2026年9月13日。ただし、Sprout の行は2026年10月9日に更新されました。ZIP のヘッダーステータス（header status）とネットワークステータス（network status）は異なります。ZIP 2005は、そのルールが2026年7月以降Mainnetで適用されているにもかかわらず、ヘッダーでは依然として「提案済み」と記載されています。
+最終確認日: 2026年9月13日。ただし、Sprout の行はNU7の有効化後、2026年11月13日に更新されました。ZIP のヘッダーステータス（header status）とネットワークステータス（network status）は異なります。ZIP 2005は、そのルールが2026年7月以降Mainnetで適用されているにもかかわらず、ヘッダーでは依然として「提案済み」と記載されています。
 
 | 項目 | ZIPのステータス | ネットワークのステータス | 日付 | 情報源 |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Ironwoodが変更しなかったものは、現在の支出とCorrected from 証
 | 資金をIronwoodへ移すウォレット | ZIP 2005、ZIP 318、ZIP 326（Draft）でのガイダンス | 推奨、ウォレットに依存 | 2026年7月28日以降 | [ZIP 318](https://zips.z.cash/zip-0318)、[ZIP 326](https://zips.z.cash/zip-0326) |
 | リカバリープロトコル | ZIP 2005内で概要のみ | **未実装** | 日付なし | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | OrchardおよびSaplingの無効化 | ZIPなし | **予定なし** | 2026年4月からのSapling議論 | [フォーラム](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Sprout支出の無効化（ZIP 2003） | Proposed、ZIP 259（Proposed）によりNU7が導入 | **未有効化** | Mainnet高3,543,405、2026年11月5日が目標 | [ZIP 2003](https://zips.z.cash/zip-2003)、[ZIP 259](https://zips.z.cash/zip-0259) |
+| Sprout支出の無効化（ZIP 2003） | Proposed、ZIP 259（Proposed）によりNU7が導入 | Mainnetで**有効化済み** | 2026年11月6日、ブロック3,543,405 | [ZIP 2003](https://zips.z.cash/zip-2003)、[ZIP 259](https://zips.z.cash/zip-0259) |
 | 公開型の回復可能性（ZIP 2007） | Reserved | **提案** | ZIPは2025年7月5日に予約、議論は2026年6月17日に開始 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | 既知のアドレスに対する耐量子暗号プライバシー | 未解決の課題、ZIPなし | **研究** | #1133は2022年8月18日、#1307は2026年6月23日に開始 | [zips#1133](https://github.com/zcash/zips/issues/1133)、[zips#1307](https://github.com/zcash/zips/issues/1307) |
 | プロジェクトTachyon | ZIPなし | **提案**、開発中 | 初出は2025年4月 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |

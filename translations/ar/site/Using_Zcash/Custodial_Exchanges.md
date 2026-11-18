@@ -99,18 +99,18 @@ ___
 - Ironwood: السحوبات المحمية مدعومة، لكن المجمع غير مذكور
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- الموقع الإلكتروني: [Huobi](https://huobi.com)
+- الموقع الإلكتروني: [HTX](https://www.htx.com) (المعروف سابقًا باسم Huobi)
 - الأزواج: ALL/ZEC
 - يدعم: شفاف
+- الحالة: ZEC الإيداعات والسحوبات معلّقة حاليًا (وفقًا لواجهة برمجة التطبيقات العامة HTX، نوفمبر 2026)؛ وما زال تداول السوق الفوري مدرجًا
 - وقت الإيداع: 35 دقيقة 
 - Ironwood: غير منطبق، عناوين شفافة فقط
-___
 
 ### [Kraken](https://kraken.com)
 

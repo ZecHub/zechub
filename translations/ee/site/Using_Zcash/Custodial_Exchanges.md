@@ -99,18 +99,18 @@ ___
 - Ironwood: Ɣaɣla withdrawals le dzɔdzɔm, womɛ gaƒuƒoƒo aɖe fia o
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Websaɖe: [Huobi](https://huobi.com)
+- Websaɖe: [HTX](https://www.htx.com) (kplɔ Huobi)
 - Ɖɔliwo: ALL/ZEC
 - Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Nɔnɔme: ZEC wodeƒe kple ɖeɖe le susu me fifia (abe ale si HTX ƒe API dzɔdzɔtɔ̃ kãtɔ, November 2026 ene); spot trading gale ŋlɔ
 - Deposit Ɣeyiɣi: Minuten 35 
 - Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
-___
 
 ### [Kraken](https://kraken.com)
 

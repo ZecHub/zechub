@@ -16,6 +16,8 @@ Por que isso importa. Antes da NU7, você esperava em média 75 segundos pela pr
 
 ## TL;DR
 
+Em termos simples: agora os blocos chegam a cada 25 segundos, a quantidade de novos ZEC por dia continua a mesma, parte de cada taxa é guardada para os mineradores do futuro e o antigo pool Sprout está fechado.
+
 - **Blocos de 25 segundos** ([ZIP 218](https://zips.z.cash/zip-0218)): primeira confirmação em cerca de 25 segundos em vez de 75. O subsídio do bloco caiu de 1,5625 para 0,52083333 ZEC, então cerca de 1.800 ZEC continuam sendo emitidos por dia.
 - **Limites de ações blindadas** (ZIP 218): no máximo 330 ações blindadas por bloco somando todos os pools, com limites por pool, para manter o custo de validação de bloco no pior caso e o custo de sincronização das carteiras abaixo do que eram antes.
 - **Mecanismo de sustentabilidade da rede** ([ZIP 235](https://zips.z.cash/zip-0235) + [ZIP 237](https://zips.z.cash/zip-0237)): 60% das taxas de transação de cada bloco saem de circulação e são reemitidos para os mineradores mais tarde, a partir do bloco 8.939.664 (previsto para por volta de fevereiro de 2031). O limite de oferta de 21 milhões não mudou.
@@ -25,6 +27,8 @@ Por que isso importa. Antes da NU7, você esperava em média 75 segundos pela pr
 ## Analogia visual
 
 Pense na chain como uma linha de trem. Antes da NU7, um trem partia a cada 75 segundos e podia levar tantos passageiros quanto coubessem em 2 MB. A NU7 faz partir um trem a cada 25 segundos, paga a cada maquinista um terço da tarifa antiga para que o total diário seja o mesmo e limita quantos dos passageiros mais pesados (ações blindadas) podem embarcar em um trem, para que nenhum trem leve tempo demais para ser verificado.
+
+![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## O que a NU7 mudou
 

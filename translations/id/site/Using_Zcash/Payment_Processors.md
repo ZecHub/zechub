@@ -41,7 +41,7 @@ Untuk privasi dan kontrol maksimal, gunakan **BTCPay Server**, **CipherPay** yan
 
 Untuk menerima pembayaran di toko alih-alih secara daring, gunakan **Flexa**.
 
-Untuk gateway terkelola di mana pembayaran transparan dapat diterima, gunakan **NOWPayments** atau **Plisio**.
+Untuk gateway terkelola di mana pembayaran transparan dapat diterima, gunakan **NOWPayments**. **Plisio** telah menangguhkan pembayaran (lihat pemberitahuan bertanggal pada entrinya di bawah), jadi untuk saat ini jangan pilih opsi itu.
 
 Satu peringatan yang perlu diulang kembali: pemroses yang hanya mendukung transaksi transparan akan memublikasikan setiap jumlah pembayaran dan alamat ke blockchain. Dan dengan pemroses non-kustodial terkelola apa pun, kamu menyerahkan viewing key milikmu, sehingga perusahaan tersebut dapat melihat pembayaran kamu meskipun mereka tidak dapat membelanjakannya. Self-hosting adalah satu-satunya cara untuk menghindari hal tersebut.
 
