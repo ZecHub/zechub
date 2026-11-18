@@ -5689,7 +5689,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Zcash_Tech/Zinder.md": {

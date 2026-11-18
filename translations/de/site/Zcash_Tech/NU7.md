@@ -80,7 +80,7 @@ Vor NU7 konnte ein voller 2-MB-Block etwa 617 Orchard- oder Ironwood-Aktionen od
 
 ## Was die einzelnen Gruppen tun mussten
 
-- **Knotenbetreiber:** [Zebra 7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) oder eine spätere Version ausführen. Zebra 7 migriert die Datenbank beim ersten Start vom Format v28 auf v29. Zebra 6.x kann v29 nicht lesen. Sichern Sie daher `state/v28` vor dem Upgrade. Für `zcashd` gibt es keine NU7-Version (die neueste Version ist 6.20.0 vom Juni 2026). Der Zebra-Leitfaden zur [zcashdAPI-Migration](https://zebra.zfnd.org/user/zcashd-api-migration-guide.html) ordnet jeden `zcashd`-RPC Zebra, [Zallet](../zcash-tech/zallet) oder seinem Ersatz zu. Siehe [Vollständige Knoten](../zcash-tech/full-nodes) und den Leitfaden zu [ gehärtetem Zebra](../guides/hardened-zebrad).
+- **Knotenbetreiber:** [Zebra 7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) oder eine spätere Version ausführen. Zebra 7 migriert die Datenbank beim ersten Start vom Format v28 auf v29. Zebra 6.x kann v29 nicht lesen. Sichern Sie daher `state/v28` vor dem Upgrade. Für `zcashd` gibt es keine NU7-Version (die neueste Version ist 6.20.0 vom Juni 2026). Der Zebra-Leitfaden zur [zcashdAPI-Migration](https://zebra.zfnd.org/user/zcashd-api-migration-guide.html) ordnet jeden `zcashd`-RPC Zebra, [Zallet](../zcash-tech/zallet) oder seinem Ersatz zu. Siehe [Vollständige Knoten](../zcash-tech/full-nodes) und den [Leitfaden zu gehärtetem Zebra](../guides/hardened-zebrad).
 - **Wallets:** Keine Transaktionen der Version 4 mehr erstellen, den Standardablauf von 120 Blöcken verwenden, die Ankertiefe von 3 Blöcken beibehalten (jetzt etwa 1,25 Minuten) und die Aktionslimits pro Block beachten. Eine Transaktion, die für sich genommen ein Limit überschreitet, kann niemals geschürft werden.
 - **Börsen und Zahlungsdienste:** Eine Bestätigung dauert nun 25 Sekunden. Dieselbe Anzahl an Bestätigungen deckt also nur noch ein Drittel der Zeit ab. Prüfen Sie die Anzahl der für Einzahlungen erforderlichen Bestätigungen im Hinblick auf die gewünschte Zeit und Sicherheit, statt aus Gewohnheit am alten Wert festzuhalten.
 - **Miner und Pools:** Mining-Software und Vorlagen müssen die neue Subvention, die Aufteilung der Gebühren und die Aktionslimits berücksichtigen. Nach den alten Regeln erstellte Blöcke werden abgelehnt.
@@ -97,13 +97,13 @@ Vor NU7 konnte ein voller 2-MB-Block etwa 617 Orchard- oder Ironwood-Aktionen od
 
 | Begriff | Bedeutung in einfachen Worten |
 |---|---|
-| Zielabstand zwischen Blöcken | Die durchschnittliche Zeit zwischen Blöcken, auf die die Schwierigkeitsanpassung abzielt: seit NU7 25 Sekunden |
-| Blocksubvention | Das in jedem Block neu erzeugte ZEC, das zwischen dem Miner und den Finanzierungsströmen des Entwicklungsfonds aufgeteilt wird |
-| Shielded-Aktion | Eine Einheit Shielded-Arbeit in einer Transaktion (eine Orchard- oder Ironwood-Aktion oder eine Sapling-Eingabe beziehungsweise -Ausgabe) |
-| Mechanismus zur Nachhaltigkeit des Netzwerks (NSM) | Die Regeln, nach denen ein Teil der Gebühren dem Umlauf entzogen und später erneut an zukünftige Miner ausgegeben wird |
+| Block target spacing | Die durchschnittliche Zeit zwischen Blöcken, auf die die Schwierigkeitsanpassung abzielt: seit NU7 25 Sekunden |
+| Block subsidy | Das in jedem Block neu erzeugte ZEC, das zwischen dem Miner und den Finanzierungsströmen des Entwicklungsfonds aufgeteilt wird |
+| Shielded action | Eine Einheit Shielded-Arbeit in einer Transaktion (eine Orchard- oder Ironwood-Aktion oder eine Sapling-Eingabe beziehungsweise -Ausgabe) |
+| Network Sustainability Mechanism (NSM) | Die Regeln, nach denen ein Teil der Gebühren dem Umlauf entzogen und später erneut an zukünftige Miner ausgegeben wird |
 | NSM Value Balance | Die öffentliche laufende Summe der ZEC, die dem Umlauf entzogen wurden und auf ihre erneute Ausgabe warten |
-| Transaktion der Version 4 | Das Transaktionsformat aus Sapling, das durch NU7 für ungültig erklärt wurde; Version 5 und 6 bleiben gültig |
-| Branch-ID des Konsenses | Die Nummer, die einen Satz von Konsensregeln kennzeichnet. Signaturen beziehen sich darauf, daher ist eine für alte Regeln signierte Transaktion unter neuen Regeln ungültig |
+| Version 4 transaction | Das Transaktionsformat aus Sapling, das durch NU7 für ungültig erklärt wurde; Version 5 und 6 bleiben gültig |
+| Consensus branch ID | Die Nummer, die einen Satz von Konsensregeln kennzeichnet. Signaturen beziehen sich darauf, daher ist eine für alte Regeln signierte Transaktion unter neuen Regeln ungültig |
 
 ## FAQ
 
