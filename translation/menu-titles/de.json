@@ -225,6 +225,7 @@
   "guides/Zcash_Improvement_Proposals.md": "Zcash Improvement Proposals",
   "guides/Zcash_Js.md": "Zcash JS-Entwicklerleitfaden",
   "guides/Zcash_Node_RPC_and_Indexing.md": "Praxisleitfaden: Zcash Knoten-RPC und Blockchain-Indexierung",
+  "guides/Zcash_Stack.md": "Zcash Stack: Einen Light-Wallet-Server auf Kubernetes oder Docker betreiben",
   "guides/Zenith_Installation.md": "Installation der Zenith GUI Full Node Wallet",
   "guides/Zero-Knowledge_vs_Decoys.md": "Zero Knowledge vs. Decoy-basierte Systeme",
   "guides/Zgo_Payment_Processor.md": "ZGo Payment Processor: Zcash ohne Verwahrung akzeptieren",

@@ -81,13 +81,13 @@ Zaino 개발자들은 위협 모델을 직접 인용하며 같은 주장을 합�
 
 [Zaino](/zcash-tech/zaino)는 zcashd 사용 중단 작업의 일부로 lightwalletd를 대체하기 위해 Zingo 팀이 Rust로 작성한 인덱서입니다. 라이트 클라이언트, 풀 클라이언트, 블록 탐색기를 지원하며, "Zebra 또는 zcashd 풀 검증자"가 보유한 체인 데이터를 읽습니다.
 
-활발하게 개발 중이며, 버전 0.8.0은 2026년 8월에 출시되었습니다. 가능한 경우 lightwalletd와의 하위 호환성을 유지하는 것이 목표이므로, 월렛은 다시 작성하지 않고도 이를 사용할 수 있습니다.
+활발하게 개발 중이며, 버전 0.10.1은 2026년 9월에 출시되었습니다. 가능한 경우 lightwalletd와의 하위 호환성을 유지하는 것이 목표이므로, 월렛은 다시 작성하지 않고도 이를 사용할 수 있습니다.
 
 Zaino에는 아키텍처 다이어그램이 포함된 별도 페이지가 있으므로, 이 페이지에서는 라이트 월렛 서버로서의 역할만 다룹니다.
 
 ### 직접 운영하기
 
-가장 강력한 선택지는 직접 운영자가 되는 것이며, 이는 신뢰 문제를 완전히 제거합니다. 두 서버 모두 오픈 소스입니다. Go로 작성된 [lightwalletd](https://github.com/zcash/lightwalletd)와 Rust로 작성된 [Zaino](https://github.com/zingolabs/zaino)가 있습니다. 둘 다 풀 검증자로부터 데이터를 읽으므로 [Zebra](/zcash-tech/zebra-full-node)도 필요합니다.
+가장 강력한 선택지는 직접 운영자가 되는 것이며, 이는 신뢰 문제를 완전히 제거합니다. 두 서버 모두 오픈 소스입니다. Go로 작성된 [lightwalletd](https://github.com/zcash/lightwalletd)와 Rust로 작성된 [Zaino](https://github.com/zingolabs/zaino)가 있습니다. 둘 다 풀 검증자로부터 데이터를 읽으므로 [Zebra](/zcash-tech/zebra-full-node)도 필요합니다. zec.rocks 서버는 오픈 소스 Helm 차트인 [Zcash Stack](/guides/zcash-stack)과 Docker Compose 키트로 배포되며, 이 키트는 Zebra와 lightwalletd를 함께 실행합니다.
 
 ## 실질적 영향
 
@@ -117,11 +117,9 @@ Zaino에는 아키텍처 다이어그램이 포함된 별도 페이지가 있으
 
 이전 이름은 Zashi입니다. 오른쪽 상단의 톱니바퀴를 누른 뒤 고급 설정으로 이동하세요. Tor도 같은 화면에 있습니다. ZODL은 서버가 오래되어 동기화에 실패한 경우 서버 전환 바로가기 또한 제공합니다.
 
-#### Ywallet
+#### Zkool
 
-오른쪽 상단의 톱니바퀴를 누른 뒤 Zcash 탭으로 이동하세요.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+Ywallet의 후속 제품으로, 같은 개발자가 만들었습니다(Ywallet 자체는 더 이상 유지 관리되지 않으며 Ironwood 이후 네트워크를 따라갈 수 없습니다). 계정 화면 상단의 톱니바퀴 아이콘(Open Settings)을 누른 다음 Light Node Server 항목으로 이동하세요. 옆의 목록 버튼을 누르면 알려진 서버 중에서 선택할 수 있고, 아래의 Direct / Tor / Nym / Proxy 전환 버튼으로 지갑의 연결 방식을 설정할 수 있습니다.
 
 #### Zingo
 
@@ -153,10 +151,11 @@ Zaino에는 아키텍처 다이어그램이 포함된 별도 페이지가 있으
 
 ## 관련 페이지
 
-- [누가 내 Zcash 결제를 볼 수 있나요](/start-here/who-can-see-your-zcash-payment) — 같은 질문을 초보자 수준에서 다룬 내용입니다.
-- [블록 탐색기가 볼 수 있는 것](/zcash-tech/what-a-block-explorer-can-see) — 서버에서 보이는 것과 달리 온체인에서 보이는 내용입니다.
-- [Zaino](/zcash-tech/zaino) — 아키텍처 다이어그램과 Rust 인덱서의 더 넓은 역할입니다.
-- [Zebra 풀 노드](/zcash-tech/zebra-full-node) — 라이트 월렛 서버가 데이터를 읽는 검증자입니다.
-- [Zcash 월렛 동기화](/zcash-tech/zcash-wallet-syncing) — 서버가 보내는 압축 블록을 월렛이 처리하는 방식입니다.
+- [내 Zcash 결제](/start-here/who-can-see-your-zcash-payment)를 누가 볼 수 있나요 — 같은 질문을 초보자 수준에서 다룹니다.
+- [블록 탐색기에서 볼 수 있는 것](/zcash-tech/what-a-block-explorer-can-see) — 서버에서 보이는 것과 달리 온체인에서 공개되는 내용을 설명합니다.
+- [Zaino](/zcash-tech/zaino) — 아키텍처 다이어그램과 Rust 인덱서의 더 폭넓은 역할을 설명합니다.
+- [Zinder](/zcash-tech/zinder) — Zcash Foundation의 알파 인덱서로, lightwalletd 호환 어댑터를 통해 라이트 월렛에 서비스를 제공합니다.
+- [Zebra 전체 노드](/zcash-tech/zebra-full-node) — 라이트 월렛 서버가 데이터를 읽어 오는 검증자입니다.
+- [Zcash 월렛 동기화](/zcash-tech/zcash-wallet-syncing) — 서버가 보내는 컴팩트 블록을 월렛이 처리하는 방식을 설명합니다.
 
 **최종 업데이트:** 2026년 8월
