@@ -227,6 +227,7 @@
   "guides/Zcash_Improvement_Proposals.md": "Zcash İyileştirme Önerileri",
   "guides/Zcash_Js.md": "Zcash JS Geliştirici Rehberi",
   "guides/Zcash_Node_RPC_and_Indexing.md": "Pratik Rehber: Zcash Düğüm RPC ve Blokzincir İndeksleme",
+  "guides/Zcash_Stack.md": "Zcash Stack: Kubernetes veya Docker üzerinde bir hafif cüzdan sunucusu çalıştırma",
   "guides/Zenith_Installation.md": "Zenith GUI Tam Düğüm Cüzdan Kurulumu",
   "guides/Zero-Knowledge_vs_Decoys.md": "Sıfır Bilgi ve Yem Tabanlı Sistemler",
   "guides/Zgo_Payment_Processor.md": "ZGo Payment Processor: Emanet Olmadan Zcash Kabul Etmek",

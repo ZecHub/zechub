@@ -101,7 +101,7 @@ Server siwo le dashboard ma dzi le ɣeyiɣi si woŋlɔ page sia:
 |:--|:--|
 | zec.rocks:443 | Woŋlɔ teƒe siwo le regionwo me hã kplii: na.zec.rocks, eu.zec.rocks, ap.zec.rocks kple sa.zec.rocks |
 | zec-node.cakewallet.com:443 | Le Cake Wallet ƒe domain dzi |
-| zec.0xrpc.io:443 | 0xRPCe ɖoa eŋu, si na free public endpoints na ɖoɖonu geɖewo, eye ebia donation be wòakpɔ kapasiti |
+| zec.0xrpc.io:443 | 0xRPC ye ɖoa eŋu, si na free public endpoints na ɖoɖonu geɖewo, eye ebia donation be wòakpɔ kapasiti |
 | zaino.unsafe.zec.rocks:443 | Zaino instance. Ɖo ŋku ɖe hostname la ŋu, eye bu e abe nu si wogakpɔ kpuie ene |
 | testnet.zec.rocks:443 | Testnet, kple Zaino testnet instance si woŋlɔ le zaino.testnet.unsafe.zec.rocks |
 
