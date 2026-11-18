@@ -2,6 +2,7 @@
 
 - Uses a dedicated unprivileged user + kernel-level systemd sandboxing (same isolation as Docker).  
 - RPC is localhost-only with secure cookie auth (default & recommended).  
+- On NixOS, [zcash.nix](/guides/zcash-nixos) sets up a similarly sandboxed `zebrad` service from a few lines of configuration.  
 
 
 ---

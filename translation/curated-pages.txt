@@ -228,6 +228,7 @@ guides/Ywallet_FROST_Demo.md
 guides/Zcash_Devtool.md
 guides/Zcash_Improvement_Proposals.md
 guides/Zcash_Js.md
+guides/Zcash_NixOS.md
 guides/Zcash_Node_RPC_and_Indexing.md
 guides/Zcash_Stack.md
 guides/Zenith_Installation.md

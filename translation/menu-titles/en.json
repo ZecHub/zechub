@@ -231,6 +231,7 @@
   "guides/Zcash_Devtool.md": "The Zcash Devtool",
   "guides/Zcash_Improvement_Proposals.md": "Zcash Improvement Proposals",
   "guides/Zcash_Js.md": "Zcash JS Developer Guide",
+  "guides/Zcash_NixOS.md": "Running Zcash Services on NixOS (zcash.nix)",
   "guides/Zcash_Node_RPC_and_Indexing.md": "Practical Guide: Zcash Node RPC and Blockchain Indexing",
   "guides/Zcash_Stack.md": "Zcash Stack: Run a Light Wallet Server on Kubernetes or Docker",
   "guides/Zenith_Installation.md": "Zenith GUI Full Node Wallet Installation",
