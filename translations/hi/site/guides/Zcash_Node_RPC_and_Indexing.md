@@ -14,10 +14,10 @@
 
 ## संक्षेप में
 
-* **JSON-RPC** वह तरीका है जिससे ऑपरेटर और वॉलेट किसी नोड से चेन टिप, पीयर (peers) और (वॉलेट प्रोसेस पर) बैलेंस के बारे में पूछते हैं। Z3 पर Zebra नोड RPC प्रदान करता है; Zallet वॉलेट RPC प्रदान करता है।
-* **रेगटेस्ट (regtest)** इन कॉल को सीखने की सही जगह है। `http://127.0.0.1:8181` पर Z3 का rpc-router `zebra` / `zebra` स्वीकार करता है और नोड मेथड को Zebra तथा वॉलेट मेथड को Zallet पर फ़ॉरवर्ड करता है।
-* **मेननेट (mainnet) और टेस्टनेट (testnet)** Zebra पर कुकी ऑथ (cookie auth) का उपयोग करते हैं। रेगटेस्ट का यूज़रनेम/पासवर्ड किसी सार्वजनिक नोड पर कॉपी न करें।
-* **इंडेक्सिंग** सत्यापन (validation) से अलग काम है। Zebra सत्यापन करता है। [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) lightwalletd-संगत gRPC प्रदान करता है। [Ztreamer](https://github.com/distractedm1nd/ztreamer) एक Zakura-आधारित इंडेक्सर है; Z3 इसे शामिल नहीं करता।
+* **JSON-RPC** वह तरीका है जिससे ऑपरेटर और वॉलेट किसी नोड से चेन टिप, पीयर और (वॉलेट प्रोसेस पर) बैलेंस के बारे में पूछते हैं। Z3 पर Zebra नोड RPC प्रदान करता है; Zallet वॉलेट RPC प्रदान करता है।
+* **रेगटेस्ट (Regtest)** इन कॉल को सीखने की सही जगह है। `http://127.0.0.1:8181` पर Z3 का rpc-router `zebra` / `zebra` स्वीकार करता है और नोड मेथड को Zebra तथा वॉलेट मेथड को Zallet पर फ़ॉरवर्ड करता है।
+* **मेननेट (Mainnet) और टेस्टनेट (testnet)** Zebra पर कुकी ऑथ का उपयोग करते हैं। रेगटेस्ट का यूज़रनेम/पासवर्ड किसी सार्वजनिक नोड पर कॉपी न करें।
+* **इंडेक्सिंग** सत्यापन से अलग काम है। Zebra सत्यापन करता है। [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) lightwalletd-संगत gRPC प्रदान करता है। [Ztreamer](https://github.com/zcashlabs/ztreamer) एक Zakura-समर्थित इंडेक्सर है; Z3 इसे शामिल नहीं करता।
 * Zaino JSON-RPC और Zebra का वैकल्पिक इंडेक्सर gRPC लूपबैक या किसी विश्वसनीय नेटवर्क के लिए हैं। इन्हें बिना ऑथेंटिकेशन के सार्वजनिक इंटरनेट पर उजागर न करें।
 
 ---
@@ -117,7 +117,8 @@ Zaino gRPC सभी नेटवर्क पर प्लेनटेक्स
 ### अन्य इंडेक्सर (Z3 नहीं)
 
 * **lightwalletd** — पुराना कॉम्पैक्ट-ब्लॉक सर्वर। अब भी कई जगह तैनात है; इस भूमिका के लिए Zaino उत्तराधिकारी मार्ग है।
-* **Ztreamer** — एक Zakura-आधारित इंडेक्सर और `CompactTxStreamer` इम्प्लीमेंटेशन। यह Z3 सेवा नहीं है। देखें [Ztreamer रिपॉज़िटरी](https://github.com/distractedm1nd/ztreamer)।
+* **Ztreamer** — एक Zakura-आधारित इंडेक्सर और `CompactTxStreamer` इम्प्लीमेंटेशन। यह Z3 सेवा नहीं है। देखें [Ztreamer रिपॉज़िटरी](https://github.com/zcashlabs/ztreamer)।
+* **Zinder** — Zcash Foundation का इंडेक्सर (अल्फ़ा)। यह एक आर्काइव Zebra या Zakura नोड से डेटा पढ़ता है और अपना `WalletQuery` gRPC API तथा lightwalletd-संगत `CompactTxStreamer` अडैप्टर उपलब्ध कराता है। इसका क्विकस्टार्ट Z3 नोड के साथ चलता है, लेकिन यह Z3 सेवा नहीं है। देखें [Zinder](/zcash-tech/zinder)।
 * **Zebra `rpc.indexer_listen_addr`** — Zebra के *भीतर* एक वैकल्पिक gRPC लिसनर। Z3 को इसकी ज़रूरत नहीं है और Z3 इसे होस्ट पर प्रकाशित नहीं करता।
 
 ---
@@ -145,6 +146,7 @@ Zaino gRPC सभी नेटवर्क पर प्लेनटेक्स
 * [फुल नोड](/zcash-tech/full-nodes)
 * [Zebra फुल नोड](/zcash-tech/zebra-full-node)
 * [लाइटवॉलेट नोड](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (या Zaino) Kubernetes या Docker Compose पर
 * [माइग्रेशन गाइड: zcashd से Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib और Zaino ट्यूटोरियल](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ Zaino gRPC सभी नेटवर्क पर प्लेनटेक्स
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zallet बुक](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **अंतिम अपडेट:** सितंबर 2026

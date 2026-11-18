@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Web sitesi: https://trocador.app/
 - Açıklama: Kripto Para Birimlerini Anonim Olarak Alıp Satın. Hızlı. Güvenli. Bürokrasi Yok. Ön ödemeli banka kartları mevcut.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Web sitesi: https://github.com/firoorg/FiroDEX-Desktop
-- Açıklama: FiroDEX! ile atomik swaplar kullanarak güven gerektirmeyen merkeziyetsiz swaplar.
+- Açıklama: Atomik swap masaüstü uygulaması. Artık bakımı yapılmıyor: Firo FiroDEX-Desktop deposunu arşivledi ve son sürümü 0.8.2-beta (Şubat 2025).
 
 ___
 

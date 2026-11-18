@@ -15,11 +15,12 @@ Zallet حاليًا في مرحلة **beta**. لم تخضع لمراجعة كا�
 - Zallet هي **محفظة RPC لعقدة كاملة**، وليست محفظة خفيفة للهاتف المحمول ولا عقدة إجماع.
 - تحل محل جزء المحفظة من `zcashd`. أما جزء العقدة فهو [Zebra](Zebra_Full_Node.md) أو [Zakura](Zakura_Node.md).
 - مكتوبة بلغة **Rust**، ومرخّصة ترخيصًا مزدوجًا MIT / Apache-2.0، ويجري صيانتها في [zcash/zallet](https://github.com/zcash/zallet).
-- أحدث إصدار منشور حتى أواخر أغسطس 2026: **v0.1.0-beta.3**.
-- تتواصل مع بيانات السلسلة عبر إحدى واجهتي خلفية: **zebra-state** (طلبات `ReadStateService` مباشرة إلى `zebrad` محلية) أو **Zaino**.
+- أحدث إصدار منشور: **v0.1.0-beta.4** (2 نوفمبر 2026). يتبع [NU7](NU7.md) ويتطلب `zebrad` **7.0.0 أو أحدث**.
+- تقرأ بيانات السلسلة عبر واجهة خلفية واحدة هي **zebra**: `ReadStateService` مقابل مجلد الحالة الخاص بـ `zebrad` على المضيف نفسه، إضافةً إلى JSON-RPC الخاص بـ Zebra. أُزيلت الواجهة الخلفية Zaino في الإصدار v0.1.0-beta.4.
 - توفّر مجموعة فرعية متوافقة مع **zcashd JSON-RPC**. تغيّرت بعض الطرائق، وحُذفت أخرى عمدًا.
 - تُشفَّر مادة المفاتيح دائمًا باستخدام **age**. ويبقى سجل المعاملات والعناوين ومفاتيح العرض مكشوفًا في `wallet.db`.
-- تتضمن ثلاثة ملفات تنفيذية في أرشيف موقّع واحد: `zallet` (المشغّل)، و`zallet-zebra`، و`zallet-zaino`.
+- تتضمن ملفين تنفيذيين في أرشيف موقّع واحد: `zallet` (المشغّل) و`zallet-zebra`. **Linux فقط** لمزامنة المحفظة: لا تعمل أي واجهة خلفية للسلسلة على macOS أو Windows حتى الآن.
+- يلتقط `zallet backup` (جديد في beta.4) لقطة متسقة لمحفظة قيد التشغيل أو متوقفة.
 - الوثائق الرسمية: [كتاب Zallet](https://zcash.github.io/zallet/).
 
 ---
@@ -64,17 +65,18 @@ Zallet في مرحلة **beta**.
 
 ## البنية
 
-تنقسم Zallet عبر ثلاث مساحات عمل Cargo كي تتمكن واجهتا السلسلة الخلفيتان من تتبع مخططات تبعيات مختلفة.
+تنقسم Zallet عبر مساحات عمل Cargo كي تتمكن كل واجهة خلفية للسلسلة من تتبع مخطط تبعياتها الخاص. منذ الإصدار v0.1.0-beta.4، لا يُضمَّن سوى الواجهة الخلفية zebra.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
-                  and execs zallet-zebra or zallet-zaino
+                  and execs zallet-zebra
 zallet-core       shared wallet: CLI, config, JSON-RPC, SQLite DB, sync
 zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
-zallet-zaino      Zaino indexer backend
 ```
 
-تفتح الملفات التنفيذية الثلاثة جميعها **نفس** `wallet.db`. يختار المشغّل واجهة خلفية وقت التشغيل؛ ولا تحتاج إلى إعادة الترجمة للتبديل.
+يفتح الملفان التنفيذيان `wallet.db` نفسه. حتى الإصدار v0.1.0-beta.3، كانت هناك أيضًا واجهة خلفية `zallet-zaino`. إذا كان `zallet.toml` لديك يقول `backend = "zaino"`، فغيّره إلى `backend = "zebra"`. لا تحتاج قاعدة بيانات المحفظة إلى ترحيل، ويمكن حذف مجلد `zaino` القديم من دليل البيانات.
+
+تقرأ الواجهة الخلفية لـ zebra قاعدة بيانات الحالة الخاصة بـ `zebrad` مباشرةً، لذا تحتاج إلى `zebrad` مبنية بميزة `indexer`، وأن يكون دليل الحالة الخاص بها **على المضيف نفسه**. لا يوجد إعداد مدعوم لـ Zallet في حاوية يتصل بـ `zebrad` في حاوية أخرى عبر الشبكة، إلى أن يتوفر backend يعمل عبر الشبكة فقط ([zallet#900](https://github.com/zcash/zallet/pull/900)).
 
 نشر نموذجي:
 
@@ -82,7 +84,7 @@ zallet-zaino      Zaino indexer backend
 zebrad  (or Zakura)
    │  JSON-RPC / ReadStateService
    ▼
-Zallet  (zallet-zebra or zallet-zaino)
+Zallet  (zallet-zebra)
    │  JSON-RPC on 127.0.0.1
    ▼
 Your application, exchange, faucet, or operator scripts
@@ -90,7 +92,7 @@ Your application, exchange, faucet, or operator scripts
 
 Zallet هي **محفظة لعقدة كاملة**: تتوقع عقدة تحقق محلية. وليست عميلًا خفيفًا. للمحافظ الخفيفة وخوادم الكتل المضغوطة، راجع [Zaino](Zaino.md) و[عقد Lightwallet](Lightwallet_Nodes.md).
 
-تشغّل حزمة compose الخاصة بـ Zcash Foundation، وهي [Z3](https://github.com/ZcashFoundation/z3)، Zebra + Zallet مع Zaino مستقل اختياري للعملاء الخفيفين الخارجيين.
+تُشغّل حزمة التركيب الخاصة بـ Zcash Foundation [Z3](https://github.com/ZcashFoundation/z3) كلًا من Zebra وZallet معًا، مع إمكانية تشغيل Zaino مستقلًا للعملاء الخفيفين الخارجيين. تعود صورها المثبّتة إلى ما قبل NU7 ونسخة بيتا 4 من Zallet؛ راجع [Z3 Stack](Z3_Stack.md) قبل استخدامها.
 
 ---
 
@@ -120,7 +122,13 @@ Zallet هي **محفظة لعقدة كاملة**: تتوقع عقدة تحقق �
 - يمكن تغليف الهوية بعبارة مرور (`generate-encryption-identity -p`). ألغِ القفل باستخدام RPC ‏`walletpassphrase`؛ وأغلقه باستخدام `walletlock`.
 - يؤدي فقدان ملف الهوية أو عبارة مروره إلى استحالة استرداد مفاتيح الإنفاق. انسخ احتياطيًا الهوية وكل عبارة تذكّر وأي نسخة `wallet.db` تحتفظ بها (بصورة منفصلة ومشفّرة).
 
-نسخ `wallet.db` أثناء تشغيل Zallet ليس نسخة احتياطية آمنة. فقد تتمزق SQLite. فضّل إيقاف العملية، أو انتظر أمر النسخ الاحتياطي الرسمي عبر الإنترنت.
+إن نسخ `wallet.db` يدويًا أثناء تشغيل Zallet ليس نسخة احتياطية آمنة: فقد يتلف SQLite. منذ v0.1.0-beta.4، استخدم الأمر [`backup`](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md):
+
+```bash
+zallet -d /path/to/zallet/datadir backup /path/to/backups/
+```
+
+ينشئ لقطة متّسقة مع المعاملات ومدقّقًا من سلامتها لمحفظة قيد التشغيل أو متوقفة. إذا زوّدته بمجلد، يسمّي الملف `zallet-wallet-backup-<UTC time>.db`، ولا يكتب مطلقًا فوق ملف موجود. إذا تسببت الكتابات المتواصلة إلى المحفظة (مثلًا أثناء المزامنة الأولية) في إعادة بدء النسخ، فسيتوقف بعد عشر دقائق مع الإبلاغ عن ذلك بوضوح؛ أعد المحاولة لاحقًا أو أوقف المحفظة أولًا. لا يتضمن النسخ الاحتياطي ملف هوية age. انسخ هذا الملف احتياطيًا مرة واحدة وخزّنه بمعزل عن نسخ قاعدة البيانات الاحتياطية، لأن أي شخص يملك كليهما يمكنه فك تشفير المفاتيح.
 
 ---
 
@@ -141,14 +149,14 @@ Zallet هي **محفظة لعقدة كاملة**: تتوقع عقدة تحقق �
 
 ## البدء
 
-توجد مسارات التثبيت الرسمية (حزم Debian وDocker والملفات التنفيذية للإصدار) في [دليل التثبيت](https://zcash.github.io/zallet/guide/installation/index.html). تسمى أرشيفات الإصدار `zallet-<version>-<arch>.tar.gz` وتتضمن الملفات التنفيذية الثلاثة كلها.
+تجد طرق التثبيت الرسمية (حزم Debian، Docker، والملفات الثنائية للإصدارات) في [دليل التثبيت](https://zcash.github.io/zallet/guide/installation/index.html). تُسمّى أرشيفات الإصدارات `zallet-v<version>-linux-<amd64|arm64>.tar.gz` وتحتوي على `zallet` و`zallet-zebra`. تُنشر صور Docker بصيغة `zodlinc/zallet`.
 
 مسار أدنى لإنشاء محفظة جديدة:
 
 ```bash
 # data directory; default is $HOME/.zallet
 zallet -d /path/to/zallet/datadir example-config > /path/to/zallet/datadir/zallet.toml
-# edit zallet.toml: network, backend, indexer / read-state, rpc.bind
+# edit zallet.toml: network, indexer.validator_address, [indexer.read_state_service], rpc.bind
 
 zallet -d /path/to/zallet/datadir generate-encryption-identity
 zallet -d /path/to/zallet/datadir init-wallet-encryption
@@ -157,7 +165,7 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-وجّه `[indexer]` إلى نقطة نهاية JSON-RPC لـ `zebrad` محلية. تتطلب واجهة zebra الخلفية أيضًا `[indexer.read_state_service]` و`zebrad` مبنية بميزة المفهرس كي تتمكن Zallet من قراءة حالة السلسلة مباشرة.
+وجّه `[indexer]` إلى نقطة نهاية JSON-RPC المحلية الخاصة بـ `zebrad` باستخدام `validator_address`. هذا مطلوب، ولا تُستخدم localhost قيمةً افتراضية. يحتاج خلفية zebra أيضًا إلى `[indexer.read_state_service]` وإلى `zebrad` بالإصدار 7.0.0 أو أحدث، مبنيًا مع ميزة `indexer`، وأن يكون دليل الحالة الخاص به على المضيف نفسه، حتى تتمكن Zallet من قراءة حالة السلسلة مباشرةً. لم يضبط `indexer.db_path` سوى خلفية Zaino التي أُزيلت؛ ويُتجاهل الآن مع إصدار تحذير.
 
 يمكن بناء صور قابلة لإعادة الإنتاج باستخدام [StageX](https://codeberg.org/stagex/stagex/) (Docker 25+، ومخزن صور containerd، وGNU Make).
 
@@ -182,13 +190,13 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 ## علاقة Zallet بالبرمجيات الأخرى
 
-| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
-|--|--------|------|------------------------|----------------|-------|
-| ما هي | محفظة RPC لعقدة كاملة | خادم محفظة يضع الحماية أولًا | محافظ المستخدم النهائي | عقدة إجماع | مفهرس / بديل lightwalletd |
-| تحل محل | محفظة `zcashd` | ليست نسخة مطابقة بديلة من `zcashd` | تطبيقات الهاتف المحمول/سطح المكتب | عقدة `zcashd` | `lightwalletd` |
-| تحتاج إلى عقدة محلية | نعم | نعم (Zebra افتراضيًا) | لا (عميل خفيف) | هي العقدة نفسها | نعم |
-| توافق RPC لـ zcashd | مصممة لتكون مسار التوافق | مجموعة فرعية صغيرة مختارة فقط | غير منطبق | وضع توافق جزئي / Zakura | واجهة API مختلفة |
-| نموذج الحفظ | يحتفظ المشغّل بالمفاتيح في `wallet.db` | خادم قابل للاسترداد بالبذرة | مفاتيح على جهاز المستخدم | لا محفظة | لا مفاتيح |
+| | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
+|--|--------|------|------------------------------|----------------|-------|
+| ماهيته | محفظة RPC بعقدة كاملة | خادم محفظة يضع الحماية أولاً | محافظ المستخدم النهائي | عقدة الإجماع | مفهرس / بديل lightwalletd |
+| ما الذي يستبدله | محفظة `zcashd` | ليس نسخة مطابقة `zcashd` قابلة للاستبدال مباشرةً | تطبيقات الهاتف وسطح المكتب | عقدة `zcashd` | `lightwalletd` |
+| هل يحتاج إلى عقدة محلية | نعم | نعم (Zebra افتراضياً) | لا (عميل خفيف) | هو العقدة | نعم |
+| توافق RPC لـ zcashd | مصمم ليكون مسار التوافق | مجموعة فرعية صغيرة مختارة فقط | لا ينطبق | وضع توافق جزئي / Zakura | واجهة API مختلفة |
+| نموذج الحفظ | يحتفظ المشغّل بالمفاتيح في `wallet.db` | خادم يمكن استعادته من العبارة الأولية | مفاتيح على جهاز المستخدم | لا توجد محفظة | لا توجد مفاتيح |
 
 يمكن لكل من Zallet و**zecd** أن يتصدرا Zebra. اختر Zallet عندما تحتاج إلى واجهة محفظة `z_*` ومسار ترحيل من `wallet.dat`. واختر zecd عندما تريد خادمًا يضع الحماية أولًا وليس، صراحةً، نسخة من `zcashd`.
 
@@ -198,21 +206,22 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 ## صفحات ذات صلة
 
-- [العقد الكاملة](Full_Nodes.md) — Zebra، وZakura، وعقدة `zcashd` المتوقفة
-- [عقدة Zebra الكاملة](Zebra_Full_Node.md) — الواجهة الخلفية الافتراضية للعقدة التي تقرأها Zallet
-- [عقدة Zakura](Zakura_Node.md) — عقدة تحقق بديلة
-- [Zaino](Zaino.md) — واجهة خلفية للمفهرس وخادم للعميل الخفيف
-- [zecd](ZECD.md) — تصميم آخر لخادم محفظة على librustzcash
-- [مزامنة محفظة Zcash](Zcash_Wallet_Syncing.md) — كيف تمسح المحافظ المحمية السلسلة
+- [العقد الكاملة](Full_Nodes.md) — Zebra، وZakura، والعقدة المتوقفة `zcashd`
+- [Zebra العقدة الكاملة](Zebra_Full_Node.md) — تقرأ الواجهات الخلفية الافتراضية لـ Zallet العقدة
+- [Zakura العقدة](Zakura_Node.md) — عقدة بديلة للتحقق
+- [Zaino](Zaino.md) — مفهرس وخادم للعميل الخفيف (لم تعد واجهة خلفية لـ Zallet منذ beta.4)
+- [مكدس Z3](Z3_Stack.md) — مكدس Compose يجمع Zebra وZallet
+- [zecd](ZECD.md) — تصميم آخر لخادم المحفظة على librustzcash
+- [Zcash مزامنة المحافظ](Zcash_Wallet_Syncing.md) — كيف تفحص المحافظ المحمية السلسلة
 - [مفاتيح العرض](Viewing_Keys.md)
 
 ## الموارد
 
-- [كتاب Zallet](https://zcash.github.io/zallet/)
+- [كتاب Zallet ](https://zcash.github.io/zallet/)
 - [zcash/zallet على GitHub](https://github.com/zcash/zallet)
-- [الإصدارات](https://github.com/zcash/zallet/releases)
+- [الإصدارات](https://github.com/zcash/zallet/releases) · [سجل تغييرات v0.1.0-beta.4](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
 - [دلالات JSON-RPC المعدّلة](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [دليل ترحيل ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [دليل Raspberry Pi لـ ZecHub (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
-- [Z3 (حزمة compose لـ Zebra + Zallet)](https://github.com/ZcashFoundation/z3)
-- [Zcash Discord للبحث والتطوير](https://discord.gg/xpzPR53xtU) — `#wallet-dev`
+- [ZecHub دليل الترحيل](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [ZecHub دليل Raspberry Pi (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
+- [Z3 (Zebra + Zallet حزمة compose)](https://github.com/ZcashFoundation/z3)
+- [Zcash البحث والتطوير Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`

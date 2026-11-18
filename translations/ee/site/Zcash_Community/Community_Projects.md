@@ -131,8 +131,8 @@ Tipping platform si menye asikplɔ-dzralá o, si le dɔ wɔm le esi ma esi la, a
 [Yi nàkpɔ](https://tipz.cash/)
 
 ### CYZE
-Gakotoku kple dɔ ƒe ƒoƒoƒe si nana team ƒe memewo geɖe ŋu kpɔa ɣaɣla Zcash ƒe gaewo dzi ɖekae. Ezãa FROST ƒe threshold signatures, si nana ƒuƒowo ŋu ɖea asi te Orchard gaɖoɖowo te ɖekae, eye ame ɖeka mele gakotoku la ƒe dziɖuɖu blibo xɔm o.  
-[Yi nàkpɔ](https://github.com/USCMig/Cyze)
+Gakotoku kple dɔwɔwɔ ƒe ƒoƒoƒe si nana team ƒe memewo geɖe kpɔa ɣaɣla Zcash ƒe gaewo dzi ɖekae. Ezãa FROST threshold signatures, si nana ƒuƒowo ŋu ɖea asi te Orchard gaɖoɖowo te ɖekae, eye ame ɖeka mekpɔa gakotoku la dziɖuɖu blibo o.
+[Yi nàkpɔ](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 Desktop gakotoku si kpɔna ko, si woɖo na amewo kple habɔbɔwo si hiã be woakpɔ ɣaɣla gaewo dzi, gake womate ŋu aɖe wo o. Ekpe ɖe gaɖoɖo kple balance ƒe kpɔkpɔ, Orchard kple Sapling didienuwo, nya kpui [memo] ƒe kpɔkpɔ, fiat ƒe asixɔxɔ le blema, gaɖoɖo ƒe nyalɛɖiwo, gakotoku ƒe ɣaɣlaŋlɔŋlɔ [encryption], kple screen-sharing ƒe nuteƒe siwo tsɔ ɣaɣla de gbã.  
@@ -167,8 +167,8 @@ Xexeme blibo ƒe anyigbaŋuti ƒe nɔnɔ ƒe mɔɖoɖo na asitsɔƒeawo kple te�
 [Yi nàkpɔ](https://zecmap.com/)
 
 ### ZECping
-Dɔwɔnu na Zcash lightwalletd ƒe ɣaɣla dzesi ŋɔŋlɔwo [nodes] ƒe gRPC ƒe ɖoɖoɣeyiɣi ƒe dodokpɔ.  
-[Yi nàkpɔ](https://github.com/emersonian/zecping)
+Dɔwɔnu si wòato akpɔ gRPC ƒe ɖoɖoɣeyiɣi na Zcash lightwalletd ɣaɣla dzesi ŋɔŋlɔwo.  
+[Yi nàkpɔ](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Ɖoɖowo ƒuƒopé na Zcash network ƒe statistics si le dzodzro le esi ma esi la kple shielding ƒe metricwo.  
@@ -217,7 +217,7 @@ Browser extension si trɔa fiat currency ƒe asixɔxɔwo ɖe ZEC me le esi ma es
 
 ### Shielded Wall
 Nya si wome nya ame si ƒo eƒe confession o ƒe platform, si Zcash ɣaɣla ŋusẽ wɔna.  
-[Yi nàkpɔ](https://shieldedwall.org/)
+[Yi nàkpɔ](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Email ƒe inbox si woate ŋu azã tegbee, si wofea axɔe kple ɣaɣla ZEC.  
@@ -232,7 +232,7 @@ Ga ƒe nɔƒe kpɔkpɔ kple accounting ƒe dɔwɔnu na Zcash si ɣaɣla dea. Eƒ
 [Yi nàkpɔ](https://zecledger-web.vercel.app/)
 
 ### Authentication with ZcashMe
-Authentication ƒe mɔnu si tsɔ ɣaɣla de gbã, si zãa ɣaɣla Zcash gaɖoɖowo abe login ƒe mɔnu ene. Zãlawo scan-a QR code eye woɖoa authentication ƒe gaɖoɖo sue aɖe.  
+Authentication ƒe mɔnu si tsɔ ɣaɣla de gbã, si zãa ɣaɣla Zcash gaɖoɖowo abe login ƒe mɔnu ene. Zãlawo scan-a QR code eye woɖoa authentication ƒe gaɖoɖo sue aɖe. Repository la ɖoɖi, eye wòle nuŋlɔɖi ɖeɖe ko; eya ta womegakpɔa dɔwɔwɔa ŋu o.
 [Yi nàkpɔ](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Authentication ƒe mɔnu si tsɔ ɣaɣla de gbã, si zãa ɣaɣla Zcash gaɖoɖo
 
 ### Ztreamer
 Open-source Zcash ƒe indexer kple lightwallet-protocol (CompactTxStreamer) ƒe implementation si woɖe ɖe mɔ nyuie ŋu keŋkeŋ, si embedded Zakura ɣaɣla dzesi ŋɔŋlɔ kpe ɖe eŋu. Ewɔa node + indexer + wallet server ɖekae le process ɖeka me (ztreamerd); ekpe ɖe gRPC kple Zakura v2 P2P ŋu. Blema ƒe indexing le ewɔna kaba, eye wòdea dɔwɔwɔ si ƒe ɖoɖoɣeyiɣi suɛ na light wallets.  
-[Yi nàkpɔ](https://github.com/distractedm1nd/ztreamer)  
+[Yi nàkpɔ](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Network ƒe test suite na zcashd kple Zebra mɔ̃ ƒe ɖoɖoŋlɔlawo. Zcash ƒe crawler le eme.  
-[Yi nàkpɔ](https://github.com/runziggurat/zcash)
+[Yi nàkpɔ](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Linux-gbãtɔ ƒe toolkit si tsa Zebra regtest network kple faucet, Unified Address ƒe fixtures, kple lightwalletd alo Zaino, eye reusable GitHub Actions na ɣaɣla ƒe end-to-end ƒe mɔnuwo.  
@@ -273,8 +273,8 @@ Business ƒe ɖoɖo ƒe model si cooperative eye tso anyi dzi va, si woɖo ɖe Z
 [Yi nàkpɔ](https://aftok.com)
 
 ### ZK Global Credit
-Zcash-native ƒe credit kple vote ƒe infrastructure na nyatakaka tɔxɛ ɣaɣla [selective disclosure], settlement ƒe dzadzɛ, ƒeɖoɖonu ƒe ŋkɔ nyui, kple ɣaɣla dziɖuɖu.  
-[Yi nàkpɔ](https://voting.zkglobalcredit.tech/)
+Zcash-native ƒe credit kple vote ƒe infrastructure na nyatakaka tɔxɛ ɣaɣla, settlement ƒe dzadzɛ, ƒeɖoɖonu ƒe ŋkɔ nyui, kple ɣaɣla dziɖuɖu.  
+[Yi nàkpɔ](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Dɔwɔnu na emenya si wome nya ame si wɔe o ƒe wɔwɔ kple private donationwo, si Zcash ŋusẽ wɔna.  

@@ -15,11 +15,12 @@ Zallet est actuellement en **bêta**. Il n'a pas encore fait l'objet d'un audit 
 - Zallet est un **portefeuille RPC de nœud complet**, et non un portefeuille léger mobile ni un nœud de consensus.
 - Il remplace la partie portefeuille de `zcashd`. La partie nœud est assurée par [Zebra](Zebra_Full_Node.md) ou [Zakura](Zakura_Node.md).
 - Écrit en **Rust**, sous double licence MIT / Apache-2.0, maintenu dans [zcash/zallet](https://github.com/zcash/zallet).
-- Dernière version publiée à la fin du mois d'août 2026 : **v0.1.0-beta.3**.
-- Accède aux données de la chaîne via l'un de deux backends : **zebra-state** (`ReadStateService` direct sur un `zebrad` local) ou **Zaino**.
-- Expose un sous-ensemble de **JSON-RPC compatible avec zcashd**. Certaines méthodes ont changé, d'autres ont été volontairement omises.
+- Dernière version publiée : **v0.1.0-beta.4** (2 novembre 2026). Elle suit [NU7](NU7.md) et nécessite `zebrad` **7.0.0 ou une version ultérieure**.
+- Lit les données de la chaîne via un seul backend, **zebra** : `ReadStateService` sur le répertoire d'état d'un `zebrad` sur le même hôte, ainsi que le JSON-RPC de Zebra. Le backend Zaino a été supprimé dans la version v0.1.0-beta.4.
+- Expose un sous-ensemble de JSON-RPC compatible avec zcashd. Certaines méthodes ont changé ; d'autres ont été volontairement omises.
 - Les éléments de clé sont toujours chiffrés avec **age**. L'historique des transactions, les adresses et les clés pour lecture seule sont stockés en clair dans `wallet.db`.
-- Fournit trois binaires dans une seule archive signée : `zallet` (lanceur), `zallet-zebra` et `zallet-zaino`.
+- Fournit deux binaires dans une seule archive signée : `zallet` (lanceur) et `zallet-zebra`. **Linux uniquement** pour synchroniser un portefeuille : aucun backend de chaîne ne fonctionne encore sur macOS ni sur Windows.
+- `zallet backup` (nouveau dans la version beta.4) prend un instantané cohérent d'un portefeuille en cours d'exécution ou arrêté.
 - Documentation officielle : [Le livre Zallet](https://zcash.github.io/zallet/).
 
 ---
@@ -64,17 +65,18 @@ Une phase stable ultérieure est prévue une fois que l'ensemble des RPC envisag
 
 ## Architecture
 
-Zallet est réparti sur trois espaces de travail Cargo afin que les deux backends de chaîne puissent suivre des graphes de dépendances différents.
+Zallet est réparti sur plusieurs espaces de travail Cargo afin que chaque backend de chaîne puisse suivre son propre graphe de dépendances. Depuis la v0.1.0-beta.4, seul le backend zebra est fourni.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
-                  and execs zallet-zebra or zallet-zaino
+                  and execs zallet-zebra
 zallet-core       shared wallet: CLI, config, JSON-RPC, SQLite DB, sync
 zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
-zallet-zaino      Zaino indexer backend
 ```
 
-Les trois binaires ouvrent le **même** `wallet.db`. Le lanceur choisit un backend à l'exécution : vous n'avez pas besoin de recompiler pour en changer.
+Les deux binaires ouvrent le même `wallet.db`. Jusqu'à la version v0.1.0-beta.3, il existait aussi un backend `zallet-zaino`. Si votre `zallet.toml` indique `backend = "zaino"`, remplacez cette valeur par `backend = "zebra"`. La base de données du portefeuille ne nécessite aucune migration, et l'ancien dossier `zaino` du répertoire de données peut être supprimé.
+
+Le backend zebra lit directement la base de données d’état de `zebrad`. Il a donc besoin d’un `zebrad` compilé avec la fonctionnalité `indexer` et de son répertoire d’état **sur le même hôte**. Un Zallet dans un conteneur qui communique sur le réseau avec un `zebrad` dans un autre conteneur n’a aucune configuration prise en charge tant qu’un backend utilisant uniquement le réseau n’est pas disponible ([zallet#900](https://github.com/zcash/zallet/pull/900)).
 
 Déploiement type :
 
@@ -82,7 +84,7 @@ Déploiement type :
 zebrad  (or Zakura)
    │  JSON-RPC / ReadStateService
    ▼
-Zallet  (zallet-zebra or zallet-zaino)
+Zallet  (zallet-zebra)
    │  JSON-RPC on 127.0.0.1
    ▼
 Your application, exchange, faucet, or operator scripts
@@ -90,7 +92,7 @@ Your application, exchange, faucet, or operator scripts
 
 Zallet est un **portefeuille de nœud complet** : il nécessite un nœud de validation local. Ce n'est pas un client léger. Pour les portefeuilles légers et les serveurs de blocs compacts, consultez [Zaino](Zaino.md) et [Nœuds de portefeuille léger](Lightwallet_Nodes.md).
 
-La pile compose [Z3](https://github.com/ZcashFoundation/z3) de Zcash Foundation exécute Zebra et Zallet ensemble, avec un Zaino autonome facultatif pour les clients légers externes.
+Le stack Compose de Zcash Foundation [Z3](https://github.com/ZcashFoundation/z3) exécute Zebra et Zallet ensemble, avec un Zaino autonome facultatif pour les clients légers externes. Ses images épinglées sont antérieures à NU7 et à la version bêta 4 de Zallet : consultez [Z3 Stack](Z3_Stack.md) avant de l’utiliser.
 
 ---
 
@@ -120,7 +122,13 @@ Les éléments de clé sont **toujours** chiffrés. Il n'existe ni mode non chif
 - L'identité peut être protégée par une phrase secrète (`generate-encryption-identity -p`). Déverrouillez-la avec la RPC `walletpassphrase` ; verrouillez-la avec `walletlock`.
 - La perte du fichier d'identité ou de sa phrase secrète rend les clés de dépense irrécupérables. Sauvegardez l'identité, chaque phrase mnémonique et (séparément, sous forme chiffrée) toute copie de `wallet.db` que vous conservez.
 
-Copier `wallet.db` pendant que Zallet est en cours d'exécution ne constitue pas une sauvegarde sûre. SQLite peut produire un fichier incohérent. Préférez un processus arrêté, ou attendez une commande officielle de sauvegarde à chaud.
+Copier `wallet.db` manuellement pendant que Zallet est en cours d’exécution ne constitue pas une sauvegarde sûre : SQLite peut corrompre le fichier. Depuis la version v0.1.0-beta.4, utilisez la commande [`backup`](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md).
+
+```bash
+zallet -d /path/to/zallet/datadir backup /path/to/backups/
+```
+
+Il écrit un instantané cohérent avec les transactions et dont l’intégrité est vérifiée d’un portefeuille en cours d’exécution ou arrêté. À partir d’un répertoire, il nomme le fichier `zallet-wallet-backup-<UTC time>.db` et n’écrase jamais un fichier existant. Il abandonne en signalant clairement l’échec après dix minutes si des écritures constantes dans le portefeuille (par exemple pendant la synchronisation initiale) relancent sans cesse la copie : réessayez plus tard ou arrêtez d’abord le portefeuille. La sauvegarde n’inclut **pas** le fichier d’identité age. Sauvegardez celui-ci une fois et conservez-le à part des sauvegardes de la base de données, car quiconque détient les deux peut déchiffrer les clés.
 
 ---
 
@@ -141,14 +149,14 @@ Les méthodes volontairement omises comprennent `createrawtransaction`, `fundraw
 
 ## Prise en main
 
-Les méthodes d'installation officielles (paquets Debian, Docker, binaires de version) figurent dans le [guide d'installation](https://zcash.github.io/zallet/guide/installation/index.html). Les archives de version sont nommées `zallet-<version>-<arch>.tar.gz` et contiennent les trois binaires.
+Les méthodes d'installation officielles (paquets Debian, Docker, binaires de version) sont indiquées dans le [guide d'installation](https://zcash.github.io/zallet/guide/installation/index.html). Les archives de version portent le nom `zallet-v<version>-linux-<amd64|arm64>.tar.gz` et contiennent `zallet` et `zallet-zebra`. Les images Docker sont publiées sous `zodlinc/zallet`.
 
 Procédure minimale de création d'un nouveau portefeuille :
 
 ```bash
 # data directory; default is $HOME/.zallet
 zallet -d /path/to/zallet/datadir example-config > /path/to/zallet/datadir/zallet.toml
-# edit zallet.toml: network, backend, indexer / read-state, rpc.bind
+# edit zallet.toml: network, indexer.validator_address, [indexer.read_state_service], rpc.bind
 
 zallet -d /path/to/zallet/datadir generate-encryption-identity
 zallet -d /path/to/zallet/datadir init-wallet-encryption
@@ -157,7 +165,7 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-Faites pointer `[indexer]` vers un point de terminaison JSON-RPC `zebrad` local. Le backend zebra nécessite également `[indexer.read_state_service]` et un `zebrad` compilé avec la fonctionnalité d'indexation afin que Zallet puisse lire directement l'état de la chaîne.
+Configurez `[indexer]` pour pointer vers le point de terminaison JSON-RPC local de `zebrad` avec `validator_address`. Ce paramètre est obligatoire et ne pointe pas par défaut vers localhost. Le backend zebra nécessite également `[indexer.read_state_service]` et un `zebrad` en version 7.0.0 ou ultérieure, compilé avec la fonctionnalité `indexer`, dont le répertoire d’état se trouve sur le même hôte, afin que Zallet puisse lire directement l’état de la chaîne. `indexer.db_path` ne configurait que le backend Zaino supprimé : ce paramètre est désormais ignoré avec un avertissement.
 
 Des images reproductibles peuvent être compilées avec [StageX](https://codeberg.org/stagex/stagex/) (Docker 25+, magasin d'images containerd, GNU Make).
 
@@ -182,13 +190,13 @@ Notes détaillées pour les opérateurs : [Guide de migration : de zcashd vers Z
 
 ## Relation entre Zallet et les autres logiciels
 
-| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
-|--|--------|------|------------------------|----------------|-------|
-| Nature | Portefeuille RPC de nœud complet | Serveur de portefeuille axé sur les transactions protégées | Portefeuilles pour utilisateurs finaux | Nœud de consensus | Indexeur / remplaçant de lightwalletd |
-| Remplace | Portefeuille de `zcashd` | Pas un clone direct de `zcashd` | Applications mobiles/de bureau | Nœud `zcashd` | `lightwalletd` |
-| Nécessite un nœud local | Oui | Oui (Zebra par défaut) | Non (client léger) | C'*est* le nœud | Oui |
-| Compatibilité RPC zcashd | Conçu comme voie de compatibilité | Petit sous-ensemble choisi uniquement | Sans objet | Partielle / mode de compatibilité Zakura | API différente |
-| Modèle de conservation | L'opérateur détient les clés dans `wallet.db` | Serveur récupérable par la graine | Clés sur l'appareil de l'utilisateur | Pas de portefeuille | Pas de clés |
+| | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
+|--|--------|------|------------------------------|----------------|-------|
+| Ce que c’est | Portefeuille RPC à nœud complet | Serveur de portefeuille privilégiant les adresses protégées | Portefeuilles pour utilisateurs finaux | Nœud de consensus | Indexeur / remplacement de lightwalletd |
+| Remplace | Portefeuille `zcashd` | Pas un clone `zcashd` directement substituable | Applications mobiles/de bureau | Nœud `zcashd` | `lightwalletd` |
+| Nécessite un nœud local | Oui | Oui (Zebra par défaut) | Non (client léger) | C’est le nœud | Oui |
+| Compatibilité RPC zcashd | Conçu comme voie de compatibilité | Petit sous-ensemble choisi uniquement | S. O. | Mode de compatibilité partielle / Zakura | API différente |
+| Modèle de garde | L’opérateur détient les clés dans `wallet.db` | Serveur récupérable à partir de la phrase de récupération | Clés sur l’appareil de l’utilisateur | Aucun portefeuille | Aucune clé |
 
 Zallet et **zecd** peuvent tous deux être placés devant Zebra. Choisissez Zallet si vous avez besoin de l'interface de portefeuille de `z_*` et d'une voie de migration depuis `wallet.dat`. Choisissez zecd si vous voulez un serveur axé sur les transactions protégées qui n'est explicitement *pas* un clone de `zcashd`.
 
@@ -198,21 +206,22 @@ Il existe un produit grand public distinct sur [zallet.io](https://www.zallet.io
 
 ## Pages connexes
 
-- [Nœuds complets](Full_Nodes.md) : Zebra, Zakura et l'ancien nœud `zcashd`
-- [Nœud complet Zebra](Zebra_Full_Node.md) : le nœud lu par le backend par défaut de Zallet
-- [Nœud Zakura](Zakura_Node.md) : nœud de validation alternatif
-- [Zaino](Zaino.md) : backend d'indexation et serveur pour clients légers
-- [zecd](ZECD.md) : une autre conception de serveur de portefeuille sur librustzcash
-- [Synchronisation des portefeuilles Zcash](Zcash_Wallet_Syncing.md) : comment les portefeuilles protégés analysent la chaîne
-- [Viewing Keys](Viewing_Keys.md)
+- [Nœuds complets](Full_Nodes.md) — Zebra, Zakura et le nœud `zcashd` retiré
+- [Zebra Nœud complet](Zebra_Full_Node.md) — les lectures du backend par défaut du nœud Zallet
+- [Zakura Nœud](Zakura_Node.md) — nœud de validation alternatif
+- [Zaino](Zaino.md) — indexeur et serveur de client léger (n’est plus un backend Zallet depuis la bêta.4)
+- [Pile Z3](Z3_Stack.md) — pile composée de Zebra et Zallet
+- [zecd](ZECD.md) — autre conception de serveur de portefeuille sur librustzcash
+- [ZcashSynchronisation des portefeuilles](Zcash_Wallet_Syncing.md) — comment les portefeuilles protégés analysent la chaîne
+- [Clés pour lecture seule](Viewing_Keys.md)
 
 ## Ressources
 
-- [Le livre Zallet](https://zcash.github.io/zallet/)
+- [Le Zallet Book](https://zcash.github.io/zallet/)
 - [zcash/zallet sur GitHub](https://github.com/zcash/zallet)
-- [Versions](https://github.com/zcash/zallet/releases)
-- [Sémantique modifiée du JSON-RPC](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [Guide de migration ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [Guide Raspberry Pi ZecHub (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
-- [Z3 (pile compose Zebra + Zallet)](https://github.com/ZcashFoundation/z3)
-- [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) : `#wallet-dev`
+- [Versions](https://github.com/zcash/zallet/releases) · [journal des modifications de v0.1.0-beta.4](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
+- [Sémantique modifiée de JSON-RPC](https://zcash.github.io/zallet/zcashd/json_rpc.html)
+- [ZecHub guide de migration](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [ZecHub guide Raspberry Pi (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
+- [Z3 (Zebra + Zallet pile compose)](https://github.com/ZcashFoundation/z3)
+- [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`

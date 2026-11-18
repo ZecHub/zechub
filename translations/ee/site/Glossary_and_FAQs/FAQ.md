@@ -45,7 +45,7 @@ Gakotoku geɖewo le afi sia be woawɔ fexexe kabakaba, le asimekplɔdzi, dedie, 
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash nye ɣaɣla wu Bitcoin alo Ethereum le gɔme vevie. Eƒe gaɖoɖowo ƒe gaƒuƒoƒe ƒe ɣeyiɣi nye kabakaba (sekondi 75), adzɔ le eme sue, eye woɖea eƒe mɔ̃ ƒe sewo trɔtrɔ zi geɖe.
+Zcash le ɣaɣla ŋuti wu Bitcoin alo Ethereum le gɔme vevie. Eƒe gaɖoɖowo ƒe gaƒuƒoƒe ƒe ɣeyiɣi le kabakaba (sekondi 25 tso ŋkeke si NU7 dze agɔ le Novemba 2026, esi wòzu sekondi 75 tsã), adzɔ le eme sue, eye woɖea eƒe mɔ̃ ƒe sewo trɔtrɔ zi geɖe.
 
 Zãlawo ate ŋu atia **Nuwo ƒe ʋuʋuɖi** alo **Ɣaɣla** gaɖoɖowo. Ne wòdi nyanya bubu la, kpɔ [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem).
 

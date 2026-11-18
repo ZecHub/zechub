@@ -15,11 +15,12 @@ Zallet saat ini berada dalam tahap **beta**. Fitur ini belum ditinjau sepenuhnya
 - Zallet adalah **dompet RPC full-node**, bukan dompet light mobile dan bukan node konsensus.
 - Ini menggantikan bagian dompet dari `zcashd`. Bagian node adalah [Zebra](Zebra_Full_Node.md) atau [Zakura](Zakura_Node.md).
 - Ditulis dalam **Rust**, berlisensi ganda MIT / Apache-2.0, dipelihara di [zcash/zallet](https://github.com/zcash/zallet).
-- Rilis terbaru yang diterbitkan hingga akhir Agustus 2026: **v0.1.0-beta.3**.
-- Berkomunikasi dengan data chain melalui salah satu dari dua backend: **zebra-state** (`ReadStateService` langsung terhadap `zebrad` lokal) atau **Zaino**.
+- Rilis terbaru: **v0.1.0-beta.4** (2 November 2026). Rilis ini mengikuti [NU7](NU7.md) dan memerlukan `zebrad` **7.0.0 atau lebih baru**.
+- Membaca data chain melalui satu backend, **zebra**: `ReadStateService` terhadap direktori state `zebrad` pada host yang sama, serta JSON-RPC milik Zebra. Backend Zaino dihapus pada v0.1.0-beta.4.
 - Mengekspos subset **JSON-RPC yang kompatibel dengan zcashd**. Beberapa metode berubah; beberapa sengaja dihilangkan.
 - Materi kunci selalu dienkripsi dengan **age**. Riwayat transaksi, alamat, dan viewing key tersimpan dalam bentuk teks biasa di `wallet.db`.
-- Menyertakan tiga biner dalam satu arsip bertanda tangan: `zallet` (launcher), `zallet-zebra`, dan `zallet-zaino`.
+- Menyertakan dua biner dalam satu arsip bertanda tangan: `zallet` (launcher) dan `zallet-zebra`. **Hanya Linux** yang dapat digunakan untuk menyinkronkan dompet: backend chain belum berjalan di macOS maupun Windows.
+- `zallet backup` (baru di beta.4) mengambil snapshot konsisten dari dompet yang sedang berjalan atau berhenti.
 - Dokumentasi resmi: [Buku Zallet](https://zcash.github.io/zallet/).
 
 ---
@@ -64,17 +65,18 @@ Fase stabil selanjutnya direncanakan setelah permukaan RPC yang dimaksud tersedi
 
 ## Arsitektur
 
-Zallet terbagi ke dalam tiga workspace Cargo sehingga kedua backend chain dapat melacak grafik dependensi yang berbeda.
+Zallet dibagi ke dalam beberapa workspace Cargo agar setiap backend chain dapat melacak grafik dependensinya sendiri. Sejak v0.1.0-beta.4, hanya backend zebra yang disertakan.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
-                  and execs zallet-zebra or zallet-zaino
+                  and execs zallet-zebra
 zallet-core       shared wallet: CLI, config, JSON-RPC, SQLite DB, sync
 zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
-zallet-zaino      Zaino indexer backend
 ```
 
-Ketiga biner tersebut membuka `wallet.db` yang **sama**. Launcher akan memilih backend pada saat runtime; Anda tidak perlu melakukan kompilasi ulang untuk berpindah.
+Kedua biner tersebut membuka `wallet.db` yang sama. Hingga v0.1.0-beta.3, tersedia juga backend `zallet-zaino`. Jika `zallet.toml` Anda bertuliskan `backend = "zaino"`, ubah menjadi `backend = "zebra"`. Database dompet tidak memerlukan migrasi, dan folder `zaino` lama di direktori data dapat dihapus.
+
+Backend zebra membaca langsung database state milik `zebrad`, jadi backend ini memerlukan `zebrad` yang dibuat dengan fitur `indexer` dan direktori state-nya **di host yang sama**. Zallet di satu container yang berkomunikasi melalui jaringan dengan `zebrad` di container lain belum memiliki konfigurasi yang didukung sampai backend khusus jaringan tersedia ([zallet#900](https://github.com/zcash/zallet/pull/900)).
 
 Penerapan umum:
 
@@ -82,7 +84,7 @@ Penerapan umum:
 zebrad  (or Zakura)
    │  JSON-RPC / ReadStateService
    ▼
-Zallet  (zallet-zebra or zallet-zaino)
+Zallet  (zallet-zebra)
    │  JSON-RPC on 127.0.0.1
    ▼
 Your application, exchange, faucet, or operator scripts
@@ -90,7 +92,7 @@ Your application, exchange, faucet, or operator scripts
 
 Zallet adalah **dompet full-node**: ia memerlukan node validasi lokal. Ini bukan sebuah light client. Untuk dompet ringan dan server compact-block, lihat [Zaino](Zaino.md) dan [Node Lightwallet](Lightwallet_Nodes.md).
 
-Stack kompresi [Z3](https://github.com/ZcashFoundation/z3) dari Zcash Foundation menjalankan Zebra + Zallet secara bersamaan, dengan Zaino mandiri opsional untuk light client eksternal.
+Compose stack [Z3](https://github.com/ZcashFoundation/z3) milik Zcash Foundation menjalankan Zebra + Zallet bersama-sama, dengan Zaino opsional yang berdiri sendiri untuk light client eksternal. Image yang dipatok versinya dibuat sebelum NU7 dan beta.4 Zallet: lihat [Z3 Stack](Z3_Stack.md) sebelum menggunakannya.
 
 ---
 
@@ -120,7 +122,13 @@ Materi kunci **selalu** dienkripsi. Tidak ada mode tanpa enkripsi dan tidak ada 
 - Identitas dapat dibungkus dengan passphrase (`generate-encryption-identity -p`). Buka kunci dengan RPC `walletpassphrase`; kunci dengan `walletlock`.
 - Kehilangan file identitas atau passphrase Anda membuat spending key tidak dapat dipulihkan. Cadangkan identitas, setiap mnemonic, dan (secara terpisah, dalam keadaan terenkripsi) setiap salinan `wallet.db` yang Anda simpan.
 
-Menyalin `wallet.db` saat Zallet sedang berjalan bukanlah cadangan yang aman. SQLite dapat mengalami kerusakan (tear). Lebih baik gunakan proses yang telah dihentikan, atau tunggu perintah online-backup resmi.
+Menyalin `wallet.db` secara manual saat Zallet berjalan bukanlah cara pencadangan yang aman: SQLite dapat mengalami kerusakan. Sejak v0.1.0-beta.4, gunakan perintah [`backup`](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md):
+
+```bash
+zallet -d /path/to/zallet/datadir backup /path/to/backups/
+```
+
+Fitur ini menulis snapshot yang konsisten terhadap transaksi dan telah diperiksa integritasnya dari dompet yang sedang berjalan atau berhenti. Jika diberi direktori, fitur ini memberi nama file `zallet-wallet-backup-<UTC time>.db`, dan tidak pernah menimpa file yang sudah ada. Fitur ini akan berhenti dan menampilkan kesalahan setelah sepuluh menit jika penulisan terus-menerus ke dompet (misalnya saat sinkronisasi awal) terus mengulang proses penyalinan: coba lagi nanti atau hentikan dompet terlebih dahulu. Cadangan ini **tidak** menyertakan file identitas age. Cadangkan file tersebut sekali dan simpan terpisah dari cadangan basis data, karena siapa pun yang memiliki keduanya dapat mendekripsi kuncinya.
 
 ---
 
@@ -141,14 +149,14 @@ Metode yang sengaja dihilangkan meliputi `createrawtransaction`, `fundrawtransac
 
 ## Memulai
 
-Jalur instalasi resmi (paket Debian, Docker, biner rilis) terdapat dalam [panduan instalasi](https://zcash.github.io/zallet/guide/installation/index.html). Arsip rilis diberi nama `zallet-<version>-<arch>.tar.gz` dan berisi ketiga biner tersebut.
+Jalur instalasi resmi (paket Debian, Docker, biner rilis) tersedia di [panduan instalasi](https://zcash.github.io/zallet/guide/installation/index.html). Arsip rilis diberi nama `zallet-v<version>-linux-<amd64|arm64>.tar.gz` dan berisi `zallet` dan `zallet-zebra`. Image Docker dipublikasikan sebagai `zodlinc/zallet`.
 
 Alur dompet baru minimal:
 
 ```bash
 # data directory; default is $HOME/.zallet
 zallet -d /path/to/zallet/datadir example-config > /path/to/zallet/datadir/zallet.toml
-# edit zallet.toml: network, backend, indexer / read-state, rpc.bind
+# edit zallet.toml: network, indexer.validator_address, [indexer.read_state_service], rpc.bind
 
 zallet -d /path/to/zallet/datadir generate-encryption-identity
 zallet -d /path/to/zallet/datadir init-wallet-encryption
@@ -157,7 +165,7 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-Arahkan `[indexer]` ke endpoint JSON-RPC `zebrad` lokal. Backend zebra juga membutuhkan `[indexer.read_state_service]` dan `zebrad` yang dibangun dengan fitur indexer sehingga Zallet dapat membaca status chain secara langsung.
+Arahkan `[indexer]` ke endpoint JSON-RPC `zebrad` lokal dengan `validator_address`. Ini wajib diisi dan nilai default-nya bukan localhost. Backend zebra juga memerlukan `[indexer.read_state_service]` dan `zebrad` versi 7.0.0 atau yang lebih baru, yang dibangun dengan fitur `indexer`, dengan direktori statusnya di host yang sama agar Zallet dapat membaca status chain secara langsung. `indexer.db_path` hanya mengonfigurasi backend Zaino yang telah dihapus: kini pengaturan ini diabaikan dengan peringatan.
 
 Gambar yang dapat direproduksi dapat dibuat dengan [StageX](https://codeberg.org/stagex/stagex/) (Docker 25+, containerd image store, GNU Make).
 
@@ -182,13 +190,13 @@ Catatan operator langkah demi langkah: [Panduan Migrasi: zcashd ke Zebrad/Zallet
 
 ## Bagaimana Zallet berhubungan dengan perangkat lunak lainnya
 
-| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
-|--|--------|------|------------------------|----------------|-------|
-| Apa itu | Dompet RPC full-node | Server dompet shielded-first | Dompet pengguna akhir | Consensus node | Pengganti Indexer / lightwalletd |
-| Menggantikan | Dompet `zcashd` | Bukan klon `zcashd` yang siap pakai | Aplikasi mobile/desktop | Node `zcashd` | `lightwalletd` |
-| Membutuhkan node lokal | Ya | Ya (Zebra secara default) | Tidak (light client) | Ini *adalah* node tersebut | Ya |
-| Kompatibilitas RPC zcashd | Dirancang sebagai jalur kompatibilitas | Hanya subset kecil yang dipilih | N/A | Mode kompatibilitas Parsial / Zakura | API Berbeda |
-| Model kustodial | Operator memegang kunci di `wallet.db` | Server yang dapat dipulihkan dengan frasa pemulihan | Kunci perangkat pengguna | Tidak ada dompet | Tidak ada kunci |
+| | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
+|--|--------|------|------------------------------|----------------|-------|
+| Kegunaan | Dompet RPC full node | Server dompet yang mengutamakan alamat terlindungi | Dompet pengguna akhir | Node konsensus | Pengindeks / pengganti lightwalletd |
+| Menggantikan | Dompet `zcashd` | Bukan tiruan `zcashd` yang dapat langsung digunakan | Aplikasi seluler/desktop | Node `zcashd` | `lightwalletd` |
+| Membutuhkan node lokal | Ya | Ya (Zebra secara default) | Tidak (light client) | Node itu sendiri | Ya |
+| Kompatibilitas RPC zcashd | Dirancang sebagai jalur kompatibilitas | Hanya subset kecil yang dipilih | T/A | Mode kompatibilitas parsial / Zakura | API berbeda |
+| Model kustodi | Operator memegang kunci di `wallet.db` | Server yang dapat dipulihkan dengan seed | Kunci di perangkat pengguna | Tidak ada dompet | Tidak ada kunci |
 
 Zallet dan **zecd** keduanya dapat diletakkan di depan Zebra. Pilih Zallet saat Anda membutuhkan permukaan dompet `z_*` dan jalur migrasi dari `wallet.dat`. Pilih zecd saat Anda menginginkan server yang mengutamakan-transaksi-terlindungi yang secara eksplisit *bukan* merupakan klon `zcashd`.
 
@@ -198,21 +206,22 @@ Terdapat produk konsumen terpisah di [zallet.io](https://www.zallet.io/) yang me
 
 ## Halaman terkait
 
-- [Full Nodes](Full_Nodes.md) — Zebra, Zakura, dan node `zcashd` yang telah dipensiunkan
-- [Zebra Full Node](Zebra_Full_Node.md) — pembacaan backend default dari node Zallet
-- [Zakura Node](Zakura_Node.md) — node validasi alternatif
-- [Zaino](Zaino.md) — backend indexer dan server light-client
-- [zecd](ZECD.md) — desain wallet-server lain pada librustzcash
-- [Zcash Sinkronisasi Wallet](Zcash_Wallet_Syncing.md) — cara wallet terlindungi memindai chain
+- [Full Nodes](Full_Nodes.md) — Zebra, Zakura, dan node `zcashd` yang sudah tidak digunakan
+- [Zebra Full Node](Zebra_Full_Node.md) — bacaan backend default dari node Zallet
+- [Zakura Node](Zakura_Node.md) — node validator alternatif
+- [Zaino](Zaino.md) — pengindeks dan server light-client (bukan lagi backend Zallet sejak beta.4)
+- [Z3 Stack](Z3_Stack.md) — stack gabungan Zebra + Zallet
+- [zecd](ZECD.md) — rancangan server dompet lain di librustzcash
+- [Zcash Wallet Syncing](Zcash_Wallet_Syncing.md) — cara dompet terlindungi memindai chain
 - [Viewing Keys](Viewing_Keys.md)
 
 ## Sumber Daya
 
-- [Buku Zallet](https://zcash.github.io/zallet/)
+- [Buku Zallet ](https://zcash.github.io/zallet/)
 - [zcash/zallet di GitHub](https://github.com/zcash/zallet)
-- [Rilis](https://github.com/zcash/zallet/releases)
-- [Perubahan semantik JSON-RPC](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [Panduan migrasi ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [Panduan ZecHub Raspberry Pi (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
-- [Z3 (stack Zebra + Zallet compose)](https://github.com/ZcashFoundation/z3)
-- [R&D Zcash Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`
+- [Rilis](https://github.com/zcash/zallet/releases) · [catatan perubahan v0.1.0-beta.4](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
+- [semantik JSON-RPC yang berubah](https://zcash.github.io/zallet/zcashd/json_rpc.html)
+- [ZecHub panduan migrasi](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [ZecHub panduan Raspberry Pi (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
+- [Z3 (Zebra + Zallet stack compose)](https://github.com/ZcashFoundation/z3)
+- [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`

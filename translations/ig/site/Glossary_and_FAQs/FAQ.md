@@ -45,7 +45,7 @@ Zcash bụ ego dijitalụ nke nwere Azụmahia [transaction] ngwa ngwa, nke nzuz
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash nwere Nzuzo karịa Bitcoin ma ọ bụ Ethereum n’ụzọ bụ isi. Ọ na-enye oge block ngwa ngwa (sekọnd 75), ugwo dị ala, na mmelite mgbe niile.
+Zcash nwere Nzuzo karịa Bitcoin ma ọ bụ Ethereum n’ụzọ bụ isi. Ọ na-enye oge block ngwa ngwa (sekọnd 25 kemgbe NU7 malitere ọrụ na Nọvemba 2026, belatara site na sekọnd 75), ugwo dị ala, na mmelite mgbe niile.
 
 Ndị ọrụ nwere ike ịhọrọ n’etiti Azụmahia **Oha [transparent]** ma ọ bụ **nke e chebere echebe [shielded]**. Maka ozi ndị ọzọ, lee [Usoro gburugburu nke e chebere echebe](https://electriccoin.co/blog/shielded-ecosystem).
 

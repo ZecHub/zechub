@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Sitio web: https://trocador.app/
 - Descripción: Opera con criptomonedas de forma anónima. Rápido. Seguro. Sin burocracia. Tarjetas de débito prepagadas disponibles.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Sitio web: https://github.com/firoorg/FiroDEX-Desktop
-- Descripción: Swaps descentralizados sin confianza mediante swaps atómicos con FiroDEX!.
+- Descripción: Aplicación de escritorio de atomic swap. Ya no se mantiene: Firo archivó el repositorio FiroDEX-Desktop, y su última versión es 0.8.2-beta (febrero de 2025).
 
 ___
 

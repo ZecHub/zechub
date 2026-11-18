@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Web sitesi: https://github.com/firoorg/FiroDEX-Desktop
-- Açıklama: FiroDEX ile atomik swaplar üzerinden güvene ihtiyaç duymayan merkeziyetsiz takaslar sunar.
+- Açıklama: Atomik swap masaüstü uygulaması. Artık bakımı yapılmıyor: Firo FiroDEX-Desktop deposunu arşivledi ve son sürümü 0.8.2-beta (Şubat 2025).
 
 ___
 

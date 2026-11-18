@@ -6,7 +6,7 @@
 
 > Zcash, 28 Ekim 2016'da Sprout shielded pool ile başlatıldı.
 
-> **Uyarı:** NU7 etkinleştiğinde Sprout havuzunda hâlâ bulunan ZEC harcanamaz hâle getirir (ana ağ etkinleştirme yüksekliği 3.543.405, hedef tarih 5 Kasım 2026; bkz. [ZIP 259](https://zips.z.cash/zip-0259)). Sprout fonlarınız varsa [Fonların kurtarılması](../using-zcash/recovering-funds) bölümünü okuyun ve önce bunları taşıyın.
+> **Uyarı:** NU7 ana ağda 6 Kasım 2026 tarihinde (UTC) 3.543.405 yüksekliğinde etkinleşti (bkz. [ZIP 259](https://zips.z.cash/zip-0259)). O tarihten bu yana Sprout havuzunda hâlâ bulunan ZEC harcanamaz durumda, çünkü 4. sürüm işlemler artık geçerli değil (ZIP 2003). Kurtarma seçenekleri hakkında bilgi için [Fonların kurtarılması](../using-zcash/recovering-funds) bölümünü okuyun.
 
 Buradan çıkaracağınız ana fikir: Sprout, Zcash'in başladığı yerdir; özel, doğrulanabilir paranın canlı bir blok zincirinde ilk kez çalıştığı andır.
 

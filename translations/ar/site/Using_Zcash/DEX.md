@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - الموقع الإلكتروني: https://github.com/firoorg/FiroDEX-Desktop
-- الوصف: مقايضات لامركزية لا تتطلب الثقة باستخدام المقايضات الذرية مع FiroDEX!.
+- الوصف: تطبيق للمقايضات الذرية على سطح المكتب. لم يعد قيد الصيانة: أرشف Firo مستودع FiroDEX-Desktop، وكان آخر إصدار له 0.8.2-beta (فبراير 2025).
 
 ___
 

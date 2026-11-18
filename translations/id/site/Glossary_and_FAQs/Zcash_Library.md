@@ -21,10 +21,10 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Istilah | Definisi |
 |------|-----------|
 | Benchmarking | Penambang dapat mengirimkan metrik mengenai efisiensi berbagai perangkat keras yang digunakan untuk menambang Zcash. [Lihat di sini](https://zcashbenchmarks.info) |
-| Block | Sebuah Block adalah catatan dalam blockchain Zcash yang berisi sekumpulan transaksi yang dikirimkan ke jaringan. Rata-rata setiap 75 detik, sebuah block baru ditambahkan ke blockchain. |
-| Block Explorer | Sebuah alat online untuk melihat semua transaksi, masa lalu dan saat ini, pada blockchain. [Zcash Block Explorer](https://zcashexplorer.app/) |
+| Block | Block adalah catatan dalam blockchain Zcash yang berisi sekumpulan transaksi yang dikirimkan ke jaringan. Rata-rata, block baru ditambahkan ke blockchain setiap sekitar 25 detik (75 detik sebelum NU7 diaktifkan pada November 2026). |
+| Block Explorer | Alat online untuk melihat semua transaksi, baik yang terdahulu maupun saat ini, di blockchain. [Zcash Block Explorer](https://zcashexplorer.app/) |
 | Blogs | [ZODL Blog (sebelumnya Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Newsletter](https://zechub.substack.com/) |
-| Blossom | Peningkatan Jaringan Utama ke-3 untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
+| Blossom | Peningkatan jaringan utama ketiga untuk Zcash. [Info lebih lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
@@ -127,11 +127,11 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Istilah | Definisi |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Sebuah proposal dari Shielded Labs untuk membakar sebagian biaya transaksi agar anggaran keamanan jangka panjang protokol tidak sepenuhnya bergantung pada emisi. Ditentukan dalam ZIP 234, sedang ditinjau pada tahun 2026. |
-| Nighthawk | Sebuah dompet Mobile untuk Zcash. [Website](https://nighthawkwallet.com) |
-| Noir Wallet | Sebuah ekstensi browser dompet Zcash yang didukung oleh Zcash Community Grants, dibuat untuk menghubungkan ZEC terlindungi secara langsung ke aplikasi browser alih-alih mengandalkan kode QR dan transfer manual. [zknoir.com](https://www.zknoir.com/) |
-| NU5 | Peningkatan Jaringan Utama ke-6 untuk Zcash, memperkenalkan pool terlindungi Orchard dan Unified Addresses. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Peningkatan Jaringan Utama ke-7 untuk Zcash, menyesuaikan subsidi blok untuk mendanai program Zcash Community Grants dan Brankas Dana Developer yang Ditangguhkan. Diaktifkan pada akhir 2024. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Peningkatan jaringan setelah Ironwood, yang ditargetkan untuk mainnet pada 5 November 2026. Berdasarkan [ZIP 259](https://zips.z.cash/zip-0259), peningkatan ini menghadirkan blok 25 detik (ZIP 218), Network Sustainability Mechanism dengan daur ulang biaya (ZIP 235 dan 237), serta berakhirnya transaksi versi 4, yang membuat dana Sprout tidak dapat dibelanjakan (ZIP 2003). Tidak menambahkan format transaksi baru; Tachyon dan Zcash Shielded Assets bukan bagian darinya. |
+| Nighthawk | Dompet mobile Zcash yang dahulu dibuat oleh Nighthawk Apps. Dompet Zcash mereka tidak lagi dipelihara, dan Nighthawk Wallet 3.0 dibuat untuk DarkFi. Untuk memindahkan dana dari seed Nighthawk lama, lihat [Memulihkan Dana](/using-zcash/recovering-funds). |
+| Noir Wallet | Dompet ekstensi browser Zcash yang didukung oleh Zcash Community Grants, dibuat untuk menghubungkan ZEC terlindungi secara langsung ke aplikasi browser alih-alih mengandalkan kode QR dan transfer manual. [zknoir.com](https://www.zknoir.com/) |
+| NU5 | Peningkatan jaringan utama ke-6 untuk Zcash, memperkenalkan pool terlindungi Orchard dan Unified Addresses. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU6 | Peningkatan jaringan utama ke-7 untuk Zcash, menyesuaikan subsidi blok untuk mendanai program Zcash Community Grants dan Brankas Dana Developer yang Ditangguhkan. Diaktifkan pada akhir 2024. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Peningkatan jaringan setelah Ironwood, diaktifkan di mainnet pada ketinggian 3.543.405 pada 6 November 2026 (UTC). Berdasarkan [ZIP 259](https://zips.z.cash/zip-0259), peningkatan ini menghadirkan blok 25 detik (ZIP 218), Network Sustainability Mechanism dengan daur ulang biaya (ZIP 235 dan 237), serta berakhirnya transaksi versi 4, yang membuat dana Sprout tidak dapat dibelanjakan (ZIP 2003). Peningkatan ini tidak menambahkan format transaksi baru; Tachyon dan Zcash Shielded Assets bukan bagian darinya. |
 
 ## O
 
@@ -209,7 +209,7 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 
 | Istilah | Definisi |
 |------|-----------|
-| Wallet | Perangkat lunak atau perangkat keras yang menyimpan private key dan memungkinkan Anda mengirim/menerima ZEC. Dompet aktif meliputi ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (akan datang), dan Keystone (perangkat keras). Untuk daftar lengkap, lihat [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Perangkat lunak atau perangkat keras yang menyimpan private key dan memungkinkan Anda mengirim/menerima ZEC. Dompet aktif meliputi ZODL (iOS/Android), Zingo! (mobile/desktop), Zkool (mobile/desktop), Zallet (dompet full node, dalam versi beta), dan Keystone (perangkat keras). Untuk daftar lengkap, lihat [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | JavaScript SDK pertama untuk Zcash, dibangun oleh ChainSafe untuk lingkungan browser. Ini menjadi dasar bagi snap Zcash Shielded Wallet yang menghadirkan ZEC terlindungi ke MetaMask. |
 
 ## X

@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Вебсайт: https://github.com/firoorg/FiroDEX-Desktop
-- Опис: Довіронезалежні децентралізовані обміни з використанням атомарних свопів із FiroDEX!.
+- Опис: Десктопний застосунок для атомарних свопів. Більше не підтримується: Firo архівував репозиторій FiroDEX-Desktop, а останній випуск — 0.8.2-beta (лютий 2025 року).
 
 ___
 

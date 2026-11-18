@@ -132,7 +132,7 @@ ZECの送信、受信、スワップ（swap）をサポートする、マルチ�
 
 ### CYZE
 複数のチームメンバーがシールドされたZcash資金を共同管理できる、コラボレーティブなウォレットおよび調整プラットフォームです。FROSTしきい値署名を使用し、単一の参加者にウォレットの完全な管理権限を与えることなく、グループがOrchardトランザクションを共同で承認できるようにします。  
-[訪問](https://github.com/USCMig/Cyze)
+[訪問](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 支出能力を持たずにシールドされた資金を監視する必要がある個人および組織向けに設計された、閲覧専用デスクトップウォレットです。トランザクションと残高の監視、OrchardおよびSaplingノート、メモ（memo）の閲覧、履歴上の法定通貨評価、トランザクション通知、ウォレット暗号化（encryption）、プライバシー重視の画面共有機能をサポートします。  
@@ -167,8 +167,8 @@ Zcashを受け入れる企業および場所のグローバルマップです。
 [訪問](https://zecmap.com/)
 
 ### ZECping
-Zcashのlightwalletdノード（node）のgRPC応答時間を確認するツールです。  
-[訪問](https://github.com/emersonian/zecping)
+ZcashのlightwalletdノードのgRPC応答時間を確認するツールです。  
+[訪問](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 リアルタイムのZcashネットワーク統計とシールディング指標のためのダッシュボードです。  
@@ -217,7 +217,7 @@ ZECチャットを現実世界の支払いに接続する、プライバシー�
 
 ### Shielded Wall
 Zcashのプライバシーを活用する匿名告白プラットフォームです。  
-[訪問](https://shieldedwall.org/)
+[訪問](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 シールドされたZECで支払う使い捨てメール受信箱です。  
@@ -231,8 +231,8 @@ Zcashのプライバシーを活用する匿名告白プラットフォームで
 Zcash向けのプライバシー保護型金融追跡および会計ツールです。公開ネットワークデータ用の公開ダッシュボードと、ビューイングキーを露出させずに利用するローカルプライベート会計を組み合わせ、資金を安全かつプライベートに保ちながら、ユーザーが残高、トランザクション履歴、取得原価、さらに将来的には予算管理や税務対応レポートを追跡できるようにします。  
 [訪問](https://zecledger-web.vercel.app/)
 
-### Authentication with ZcashMe
-シールドされたZcashトランザクションをログイン機構として使用する、プライバシー重視の認証システムです。ユーザーはQRコードをスキャンし、少額の認証トランザクションを送信します。  
+### ZcashMeによる認証
+Zcashトランザクションをログイン機構として使用する、プライバシーを重視した認証システムです。ユーザーはQRコードをスキャンし、少額の認証トランザクションを送信します。リポジトリはアーカイブされており（読み取り専用）、プロジェクトは現在メンテナンスされていません。  
 [訪問](https://github.com/zcashme/zns-login)
 
 ---
@@ -240,13 +240,13 @@ Zcash向けのプライバシー保護型金融追跡および会計ツールで
 ## developer、テスト、インフラストラクチャ
 
 ### Ztreamer
-組み込みZakuraノードをバックエンドとする、高度に最適化されたオープンソースZcashインデクサーおよびlightwalletプロトコル（CompactTxStreamer）実装です。ノード、インデクサー、ウォレットサーバーを1つのプロセス（ztreamerd）で実行し、gRPCおよびZakura v2 P2Pをサポートします。ライトウォレット向けに高速な履歴インデックス作成と低レイテンシーのサービス提供を実現します。  
-[訪問](https://github.com/distractedm1nd/ztreamer)  
+組み込みZakuraノードをバックエンドとする、高度に最適化されたオープンソースZcashインデクサーおよびライトウォレットプロトコル（CompactTxStreamer）の実装です。ノード、インデクサー、ウォレットサーバーを1つのプロセス（ztreamerd）で実行し、gRPCおよびZakura v2 P2Pをサポートします。ライトウォレット向けに高速な履歴インデックス作成と低レイテンシーのサービス提供を実現します。  
+[訪問](https://github.com/zcashlabs/ztreamer)  
 [クレート](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 zcashdおよびZebraのdeveloper向けネットワークテストスイートです。Zcashクローラーを含みます。  
-[訪問](https://github.com/runziggurat/zcash)
+[訪問](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 フォーセット（faucet）、Unified Addressフィクスチャ、lightwalletdまたはZainoを備えたZebra regtestネットワークを立ち上げるLinux優先ツールキットであり、シールドされたエンドツーエンドフロー向けに再利用可能なGitHub Actionsを提供します。  
@@ -274,7 +274,7 @@ Zcash上に構築された、協同組合型のボトムアップな事業組織
 
 ### ZK Global Credit
 選択的開示（selective disclosure）、決済準備性、国境を越えるレピュテーション、シールドされたガバナンスのためのZcashネイティブな信用および投票インフラです。  
-[訪問](https://voting.zkglobalcredit.tech/)
+[訪問](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Zcashを活用した、匿名コンテンツ作成およびプライベート寄付のためのツールです。  

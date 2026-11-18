@@ -1,52 +1,57 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Viewing_Key_Transaction_Export.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Mengekspor Riwayat Transaksi dari Viewing Key
 
-Sebagian besar ekspor dompet sangat minim. Ekspor pajak ZODL, misalnya, memberimu tanggal, jumlah, dan biaya untuk tahun kalender sebelumnya, tetapi tanpa ID transaksi, tanpa memo, dan tanpa alamat. Itu tidak cukup untuk pembukuan, untuk memeriksa migrasi dompet, atau untuk mencari tahu apa yang terjadi pada suatu pembayaran.
+Sebagian besar ekspor dompet hanya memuat sedikit informasi. Ekspor pajak ZODL, misalnya, memberikan tanggal, jumlah, dan biaya untuk tahun kalender sebelumnya, tetapi tidak menyertakan ID transaksi, memo, atau alamat. Informasi itu tidak cukup untuk pembukuan, memeriksa migrasi dompet, atau mencari tahu apa yang terjadi pada suatu pembayaran.
 
-Kamu tidak memerlukan frasa pemulihan untuk mendapatkan gambaran lengkapnya. Sebuah unified full viewing key (UFVK, mulai dari `uview1`) dapat melihat setiap transaksi masuk dan keluar dalam sebuah akun, dan dua alat dapat mengubah hal tersebut menjadi file yang kamu simpan: server GraphQL Zkool dan zingo-cli. Panduan ini mengumpulkan pendekatan dari [thread forum ini](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) dan memperbaruinya untuk rilis saat ini.
+Kamu tidak memerlukan frasa pemulihan untuk mendapatkan gambaran lengkap. Full viewing key terpadu (UFVK, diawali `uview1`) dapat melihat setiap transaksi masuk dan keluar di sebuah akun, dan dua alat dapat mengubahnya menjadi file yang bisa kamu simpan: server Zkool GraphQL dan zingo-cli. Panduan ini merangkum pendekatan dari [thread forum ini](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) dan memperbaruinya untuk rilis terkini.
 
-Diuji pada September 2026 dengan Zkool 6.30.0 dan zingo-cli dari zingolib 6.0.0.
+Diuji pada September 2026 dengan Zkool 6.30.0 dan zingo-cli dari zingolib 6.0.0. Keduanya dirilis sebelum NU7, jadi pada November 2026 langkah-langkahnya diperbarui ke Zkool 6.37.0 dan zingolib 8.0.0. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) adalah rilis Zkool pertama yang dibuat dengan ketinggian aktivasi Mainnet NU7, dan zingolib 8.0.0 adalah rilis yang menambahkan dukungan Mainnet NU7.
 
-## Sebelum kamu memulai
+## Sebelum mulai
 
-Kamu membutuhkan dua hal:
+Kamu memerlukan dua hal:
 
-1. **UFVK** untuk akun tersebut. [Viewing Keys](/zcash-tech/viewing-keys) menjelaskan apa saja yang diungkapkan oleh kunci ini dan cara mengekspornya.
-2. **Tinggi blok lahir (birth height)**, yaitu blok tempat memulai pemindaian. Gunakan tinggi blok dari sebelum transaksi pertama kamu. Jika kamu mengaturnya terlalu tinggi, riwayat lama akan hilang tanpa pemberitahuan. Jika kamu mengaturnya terlalu rendah, proses pemindaian hanya akan memakan waktu lebih lama. Aktivasi Sapling (419200) selalu aman tetapi dapat memakan waktu berjam-jam untuk dipindai.
+1. **UFVK** untuk akun tersebut. [Viewing Keys](/zcash-tech/viewing-keys) menjelaskan informasi yang dapat dilihat dan cara mengekspornya.
+2. **Ketinggian awal**, yaitu blok tempat pemindaian dimulai. Gunakan ketinggian sebelum transaksi pertamamu. Jika disetel terlalu tinggi, riwayat lama akan hilang tanpa pemberitahuan. Jika terlalu rendah, pemindaian hanya akan berlangsung lebih lama. Aktivasi Sapling (419200) selalu aman, tetapi pemindaiannya bisa memakan waktu berjam-jam.
 
-## Jaga privasi kamu
+## Jaga kerahasiaannya
 
-Sebuah viewing key tidak dapat melakukan pengeluaran, tetapi ia menunjukkan seluruh riwayat kamu kepada siapa pun yang memegangnya.
+Viewing key tidak dapat digunakan untuk membelanjakan dana, tetapi siapa pun yang memegangnya dapat melihat seluruh riwayatmu.
 
-- Jangan menempelkannya ke situs web atau block explorer. Impor ke dalam perangkat lunak yang kamu jalankan sendiri.
-- Server tempat kamu melakukan sinkronisasi dapat melihat alamat IP kamu dan transaksi mana saja yang kamu unduh secara lengkap. Kedua alat di bawah ini mengambil setiap transaksi kamu berdasarkan ID untuk membaca memo dan biaya, dan [ZIP 307](https://zips.z.cash/zip-0307) mencatat bahwa hal ini memberi tahu server transaksi mana yang milikmu. Melakukan sinkronisasi dari Zebra node milikmu sendiri dengan Zaino atau lightwalletd dapat menghindari hal tersebut. [Zingolib dan Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) akan memandu kamu melalui proses pengaturannya.
-- zingo-cli 6 mengirim pembayaran melalui Nym mixnet, tetapi sinkronisasinya masih terhubung langsung ke server, sehingga poin di atas juga berlaku untuknya.
-- Berikan alat-alat ini viewing key, jangan pernah berikan seed phrase. Zkool GraphQL server tidak memiliki login secara default, dan API-nya akan memberikan seed phrase dari akun apa pun yang dibuat darinya, serta dapat mengirim dana.
-- Simpan server di mesin milikmu sendiri. Perintah Docker di bawah ini hanya mendengarkan pada `127.0.0.1`.
-- Kedua alat tersebut menyimpan kunci dan riwayat kamu tanpa enkripsi. Hapus data kerja setelah kamu selesai dan simpan hasil ekspor di tempat yang terenkripsi.
+- Jangan tempelkan key ke situs web atau block explorer. Impor key ke software yang kamu jalankan sendiri.
+- Server yang kamu gunakan untuk sinkronisasi dapat melihat alamat IP-mu dan transaksi mana yang kamu unduh secara lengkap. Kedua alat di bawah ini mengambil setiap transaksi berdasarkan ID untuk membaca memo dan biaya, dan catatan [ZIP 307](https://zips.z.cash/zip-0307) menyebutkan bahwa hal ini memberi tahu server transaksi mana milikmu. Sinkronisasi dari node Zebra milikmu sendiri dengan Zaino atau lightwalletd menghindari hal itu. [Zingolib dan Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) menjelaskan cara menyiapkannya.
+- zingo-cli mengirim pembayaran melalui mixnet Nym, tetapi sinkronisasinya tetap terhubung langsung ke server, jadi poin di atas juga berlaku untuknya.
+- Berikan viewing key kepada alat-alat ini, jangan pernah memberikan seed. Perintah Docker di bawah menjalankan server Zkool GraphQL dengan `--allow-unauthenticated`, sehingga tidak memiliki login. API-nya dapat mengembalikan seed akun mana pun yang dibuat dari key tersebut dan dapat mengirim dana.
+- Jalankan server di komputermu sendiri. Perintah Docker di bawah hanya menerima koneksi di `127.0.0.1` komputermu. Di dalam container, server harus menerima koneksi di semua antarmuka (`--bind-address 0.0.0.0`), jika tidak Docker tidak dapat mengaksesnya; pemetaan `-p 127.0.0.1:8000:8000` yang membuatnya tetap lokal.
+- Kedua alat menyimpan key dan riwayatmu tanpa enkripsi. Zkool dapat mengenkripsi databasenya (`--db-password-file`), tetapi perintah di bawah dibuat sederhana dengan `--allow-unencrypted-database`. Hapus data kerja setelah selesai dan simpan ekspornya di tempat terenkripsi.
 
 ## Opsi 1: Zkool GraphQL
 
-`zkool_graphql` adalah mesin dompet Zkool sebagai server mandiri. Ini adalah program terpisah dari aplikasi Zkool. Cara termudah untuk menjalankannya adalah dengan menggunakan Docker image resmi (amd64 dan arm64). Tersedia juga biner Linux x86-64 di halaman rilis [Zkool](https://github.com/hhanh00/zkool2/releases); ini membutuhkan glibc 2.38 atau yang lebih baru, sehingga Ubuntu 24.04 dapat digunakan sedangkan Debian 12 tidak bisa.
+`zkool_graphql` adalah mesin dompet Zkool dalam bentuk server mandiri. Ini program terpisah dari aplikasi Zkool. Cara termudah menjalankannya adalah dengan image resmi Docker (amd64 dan arm64). Tersedia juga binary x86-64 Linux di [halaman rilisZkool](https://github.com/hhanh00/zkool2/releases); binary ini memerlukan glibc 2.38 atau yang lebih baru, jadi dapat dijalankan di Ubuntu 24.04, tetapi tidak di Debian 12.
 
-### 1. Mulai server
+### 1. Jalankan server
 
 ```bash
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-Ia melakukan sinkronisasi dari `https://zec.rocks` kecuali jika kamu menambahkan `--lwd-url` dengan server milikmu sendiri. Pada saat pertama kali dijalankan, ia akan mengunduh parameter Sapling (sekitar 50 MB). Jika proses tersebut gagal, `docker start zkool-export` akan mencoba lagi.
+Sejak versi 6.32.0, server tidak akan berjalan sebelum kamu menentukan dua hal: cara klien login (key JWT atau `--allow-unauthenticated`) dan apakah database dienkripsi (dengan kata sandi atau `--allow-unencrypted-database`). Sekarang server juga hanya menerima koneksi di `127.0.0.1` secara default. Di dalam container, artinya tidak ada koneksi dari luar yang dapat mengaksesnya; karena itu `--bind-address 0.0.0.0` diperlukan. Jika container langsung berhenti, `docker logs zkool-export` menunjukkan opsi mana yang belum diatur.
 
-Buka `http://127.0.0.1:8000/graphiql` di browser. Kamu bisa menempelkan setiap langkah berikutnya di sana dan menjalankannya.
+Server menyinkronkan data dari `https://zec.rocks` kecuali kamu menambahkan `--lwd-url` dengan server milikmu sendiri. Image ini sudah menyertakan parameter Sapling, jadi tidak ada lagi yang perlu diunduh.
 
-### 2. Impor kunci tersebut
+Buka `http://127.0.0.1:8000/graphiql` di browser. Kamu dapat menempelkan setiap langkah berikut di sana lalu menjalankannya.
+
+### 2. Impor key
 
 ```graphql
 mutation {
@@ -60,26 +65,26 @@ mutation {
 }
 ```
 
-Ini mengembalikan ID akun baru, yang bernilai 1 pada server baru.
+Perintah ini mengembalikan ID akun baru, yaitu 1 jika server masih baru.
 
-- Selalu atur `birth`. Tanpa itu, Zkool akan dimulai dari blok saat ini dan tidak menemukan apa pun.
-- `useInternal: true` membuat Zkool memeriksa alamat perubahan transparan juga. Biarkan tetap aktif untuk kunci dari ZODL, pengaturan yang sama dengan yang digunakan [Memulihkan Dana](/using-zcash/recovering-funds) untuk frasa pemulihan ZODL.
+- Selalu atur `birth`. Tanpanya, Zkool akan mulai dari blok saat ini dan tidak menemukan apa pun.
+- `useInternal: true` membuat Zkool memeriksa alamat transparan untuk kembalian juga. Tetap aktifkan untuk key dari ZODL, seperti pengaturan yang digunakan [Recovering Funds](/using-zcash/recovering-funds) untuk seed ZODL.
 
-### 3. Sinkronisasi
+### 3. Sinkronkan
 
 ```graphql
 mutation { synchronizeAccount(idAccount: 1) }
 ```
 
-Ini berjalan sampai sinkronisasi berakhir. Jangan tambahkan `fast: true`. Ini melewati proses pengunduhan transaksi lengkap, yang merupakan sumber dari memo, biaya, dan output.
+Perintah ini berjalan sampai sinkronisasi selesai. Jangan tambahkan `fast: true`. Opsi itu melewati pengunduhan transaksi lengkap, padahal memo, biaya, dan output ada di sana.
 
-Angka yang dikembalikan adalah ketinggian (height) yang menjadi targetnya, bukan proof bahwa proses tersebut telah berhasil mencapainya. Kesalahan jaringan dapat menghentikan sinkronisasi lebih awal tanpa melaporkan apa pun, jadi periksalah:
+Angka yang dikembalikan adalah ketinggian target sinkronisasi, bukan proof bahwa sinkronisasi benar-benar mencapainya. Kesalahan jaringan dapat menghentikan sinkronisasi lebih awal tanpa laporan apa pun, jadi periksa:
 
 ```graphql
 { currentHeight accounts { id name height } }
 ```
 
-Jika `height` dari akun tersebut berada di belakang `currentHeight`, jalankan sinkronisasi lagi. Proses ini akan berlanjut dari titik terakhir saat ia berhenti.
+Jika `height` akun berada di bawah `currentHeight`, jalankan sinkronisasi lagi. Prosesnya akan melanjutkan dari titik terakhir.
 
 ### 4. Ekspor
 
@@ -96,9 +101,9 @@ Simpan ini sebagai `history.graphql`:
 }
 ```
 
-Jangan sertakan argumen `height` kecuali jika kamu benar-benar bermaksud demikian. Argumen tersebut menetapkan batas minimum, sehingga contoh forum `height: 3000000` akan menghapus semua hal sebelum blok tersebut.
+Jangan sertakan argumen `height` kecuali memang kamu menginginkannya. Argumen itu menetapkan batas minimum, jadi `height: 3000000` dalam contoh forum menghapus semua data sebelum blok tersebut.
 
-Ambil sebagai JSON:
+Ambil datanya sebagai JSON:
 
 ```bash
 jq -n --rawfile q history.graphql '{query: $q}' |
@@ -106,15 +111,15 @@ jq -n --rawfile q history.graphql '{query: $q}' |
     -H 'content-type: application/json' --data-binary @- > history.json
 ```
 
-Setiap transaksi harus menunjukkan biaya di atas 0, terlepas dari imbalan penambangan. Jika sebuah transaksi menunjukkan `"fee": "0"` dan tanpa memo, detailnya tidak berhasil diunduh. Zkool mengambil seluruh transaksi satu per satu setelah pemindaian, dan satu kegagalan akan menghentikan sisanya secara diam-diam. Untuk mencantumkan yang terdampak:
+Setiap transaksi seharusnya menunjukkan biaya di atas 0, kecuali imbalan penambangan. Jika ada yang menunjukkan `"fee": "0"` dan tidak memiliki memo, detailnya belum terunduh. Zkool mengambil transaksi lengkap satu per satu setelah pemindaian, dan satu kegagalan akan menghentikan proses berikutnya tanpa pemberitahuan. Untuk mencantumkan transaksi yang terdampak:
 
 ```bash
 jq -r '.data.transactionsByAccount[] | select(.fee == "0") | .txid' history.json
 ```
 
-Jika ada sesuatu yang muncul, sinkronkan lagi beberapa menit kemudian dan ekspor kembali.
+Jika ada hasil yang muncul, sinkronkan lagi beberapa menit kemudian lalu ekspor ulang.
 
-Kemudian ratakan menjadi CSV, satu baris per transaksi:
+Kemudian ratakan datanya menjadi CSV, satu baris per transaksi:
 
 ```bash
 jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
@@ -124,36 +129,40 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
   | @csv' history.json > history.csv
 ```
 
-### Membaca output
+### Membaca hasilnya
 
-| Field | Makna |
+| Kolom | Arti |
 |---|---|
-| `value` | Perubahan bersih pada akun dalam ZEC, sudah termasuk biaya. Bernilai negatif untuk pengiriman. |
-| `fee` | Biaya dalam ZEC. Pada pembayaran yang kamu terima, pengirim yang membayarnya dan ini tidak ada di `value`. |
+| `value` | Perubahan bersih pada akun dalam ZEC, termasuk biaya. Bernilai negatif untuk pengiriman. |
+| `fee` | Biaya dalam ZEC. Untuk pembayaran yang kamu terima, pengirim yang membayarnya dan biaya itu tidak termasuk dalam `value`. |
 | `time` | Waktu blok dalam UTC, tanpa penanda zona waktu |
-| `notes` | Apa yang diterima akun dalam transaksi ini, termasuk kembalian. Memo yang dikirim kepadamu ada di sini. Entri transparan tidak memiliki alamat. |
-| `spends` | Catatan milik akun sendiri yang telah digunakan oleh transaksi ini |
-| `outputs` | Apa yang dikirim oleh transaksi: setiap output transparan, ditambah pembayaran terlindungi ke alamat lain beserta memo mereka |
+| `notes` | Dana yang diterima akun dalam transaksi ini, termasuk kembalian. Memo yang dikirim kepadamu ada di sini. Entri transparan tidak memiliki alamat. |
+| `spends` | Catatan milik akun yang digunakan dalam transaksi ini |
+| `outputs` | Dana yang dikirim dalam transaksi: setiap output transparan, serta pembayaran terlindungi ke alamat lain beserta memo |
 | `pool` | 0 transparan, 1 Sapling, 2 Orchard, 3 Ironwood |
 | `scope` | 0 eksternal (pembayaran masuk), 1 internal (kembalian) |
 
-Aplikasi Zkool juga memiliki fitur Ekspor Transaksi, Memo, dan Catatan di menu akun, tetapi itu hanyalah dump tabel mentah: jumlah dalam zatoshi, timestamp Unix, dan memo dalam file terpisah.
+Aplikasi Zkool juga menyediakan Ekspor Transaksi, Memo, dan Catatan di menu akun, tetapi itu hanya ekspor tabel mentah: jumlah dalam zatoshi, stempel waktu Unix, serta memo dalam file terpisah.
 
 ## Opsi 2: zingo-cli
 
-zingo-cli adalah dompet baris perintah milik Zingo. Tidak ada unduhan yang sudah jadi, jadi kamu harus membangunnya dengan Rust:
+zingo-cli adalah dompet baris perintah milik Zingo. Tidak ada unduhan siap pakai, jadi kamu perlu membuatnya dengan Rust. Gunakan zingolib 8.0.0 atau yang lebih baru: itulah rilis pertama yang mengenali ketinggian aktivasi Mainnet NU7 (3,543,405), menurut [catatan rilisnya](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0). Build dari tag yang lebih lama seperti 6.0.0 tidak mengenalinya.
+
+Build ini menggunakan [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`). Di Ubuntu, kamu juga memerlukan `sudo apt install build-essential gcc libsqlite3-dev`.
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-Kamu membutuhkan `nym-proxy` bahkan hanya untuk melakukan sinkronisasi. zingo-cli 6 tidak akan dapat terhubung ke server mana pun tanpanya.
+Perintah ini membuat `./target/release/zingo-cli` dan menaruh `nym-proxy` di sebelahnya. Kamu tetap memerlukan `nym-proxy` hanya untuk sinkronisasi: zingo-cli tidak akan terhubung tanpa itu. Sejak versi 8.0.0, `zingo-netutils` menjadi bagian dari workspace utama, jadi cara lama yang menyalin `nym-proxy` dari `zingo-netutils/target/release/` tidak lagi berfungsi.
 
-Jalankan pertama kali untuk membuat dompet khusus melihat (view-only), menyinkronkannya, dan mencetak riwayatnya:
+Jika kamu memindahkan `zingo-cli` ke tempat lain, pindahkan juga `nym-proxy`, atau beri tahu zingo-cli lokasinya dengan `--nym-proxy /path/to/nym-proxy` atau variabel lingkungan `ZINGO_NYM_PROXY`. Tanpa itu, program akan mencarinya di sebelah binary-nya sendiri lalu di `PATH` milikmu. Jika tidak dapat menjalankan proxy, program sama sekali tidak akan terhubung.
+
+Hanya pembayaran (dan pencarian harga ZEC) yang melalui Nym. Sinkronisasi terhubung langsung ke server.
+
+Saat pertama kali dijalankan, program membuat dompet hanya untuk melihat, menyinkronkannya, lalu mencetak riwayat:
 
 ```bash
 ./target/release/zingo-cli --data-dir "$HOME/zingo-export" \
@@ -162,12 +171,12 @@ Jalankan pertama kali untuk membuat dompet khusus melihat (view-only), menyinkro
   --waitsync transactions > transactions.txt
 ```
 
-- `--data-dir` harus berupa path absolut.
-- `--viewkey` dan `--birthday` hanya berlaku saat dompet dibuat. Jangan sertakan setelah itu.
-- zingo-cli secara default dimulai dalam keadaan offline. `--server` memilih server dan juga dianggap sebagai persetujuan kamu untuk online.
-- Key tersebut akan berakhir di shell history kamu, jadi hapuslah setelahnya.
+- `--data-dir` harus berupa jalur absolut.
+- `--viewkey` dan `--birthday` hanya berlaku saat dompet dibuat. Setelah itu, jangan sertakan keduanya.
+- Dompet zingo-cli baru secara default dalam keadaan offline dan perlu persetujuanmu untuk terhubung. `--server` memilih server sekaligus menjadi persetujuan tersebut. Cara lainnya adalah `--online` (hanya untuk sesi ini) dan `--remember-online`, yang juga menyimpan pilihan di sebelah dompet agar proses berikutnya terhubung tanpa flag (`--forget-online` membatalkannya).
+- Key akan masuk ke riwayat shell-mu, jadi hapus setelahnya.
 
-Eksekusi selanjutnya:
+Untuk proses berikutnya:
 
 ```bash
 Z="./target/release/zingo-cli --data-dir $HOME/zingo-export"
@@ -176,43 +185,43 @@ $Z --offline value_transfers > value_transfers.txt
 $Z --offline messages > memos.json
 ```
 
-`--offline` membaca apa yang sudah tersinkronisasi tanpa menyentuh jaringan.
+`--offline` membaca data yang sudah disinkronkan tanpa mengakses jaringan.
 
-- `transactions` memberikan satu entri per transaksi: txid, waktu (UTC), height, jenis (`received`, `sent`, `shield` atau `send-to-self`), nilai, biaya, dan catatan yang terlibat.
-- `value_transfers` memberikan satu entri per pembayaran, jadi pengiriman ke dua orang adalah dua entri, masing-masing dengan alamat penerima dan memo.
+- `transactions` memberikan satu entri per transaksi: txid, waktu (UTC), ketinggian, jenis (`received`, `sent`, `shield`, atau `send-to-self`), nilai, biaya, dan catatan yang terkait.
+- `value_transfers` memberikan satu entri per pembayaran. Jadi, pengiriman kepada dua orang menghasilkan dua entri, masing-masing dengan alamat penerima dan memo.
 - `messages` mencantumkan memo sebagai JSON.
 
-Beberapa hal yang perlu kamu ketahui tentang outputnya:
+Beberapa hal yang perlu diketahui tentang hasilnya:
 
-- `transactions` dan `value_transfers` mencetak teks biasa yang terlihat sedikit seperti JSON tetapi sebenarnya bukan.
-- Jumlah dalam satuan zatoshis (100.000.000 hingga 1 ZEC) dan selalu bernilai positif. `kind` memberi tahu kamu arahnya. Untuk pengiriman, `value` adalah jumlah yang dikirim ke orang lain, tanpa biaya.
-- Biaya akan muncul sebagai "not available" ketika sebuah transaksi menggunakan dana transparan yang bukan milikmu. Hanya memo teks yang ditampilkan.
-- Jika sinkronisasi gagal, error akan masuk ke terminal, bukan ke file, dan zingo-cli tetap keluar secara normal. Periksa terminal sebelum mempercayai `transactions.txt`.
+- `transactions` dan `value_transfers` mencetak teks biasa yang sekilas tampak seperti JSON, tetapi sebenarnya bukan.
+- Jumlah dinyatakan dalam zatoshi (100,000,000 untuk 1 ZEC) dan selalu positif. `kind` menunjukkan arahnya. Untuk pengiriman, `value` adalah jumlah yang dikirim kepada orang lain, tanpa biaya.
+- Biaya ditampilkan sebagai "not available" ketika suatu transaksi menggunakan dana transparan yang bukan milikmu. Hanya memo teks yang ditampilkan.
+- Jika sinkronisasi gagal, kesalahannya muncul di terminal, bukan di file. Sejak zingolib 8.0.0 (zingo-cli 0.5.0), perintah yang gagal juga keluar dengan kode bukan nol, tetapi periksa terminal sebelum memercayai `transactions.txt`.
 
-[zingoHelper](https://github.com/dismad/zingoHelper) milik dismad memiliki skrip `exportToJSON.sh` yang mengubah `transactions` menjadi JSON. Skrip ini ditulis sebelum zingo-cli 6, dikonfigurasi untuk testnet, menandai beberapa entri Sapling keluar dan transparan sebagai placeholder, serta membutuhkan GNU tools, sehingga tidak akan dapat berjalan pada macOS standar. Anggap outputnya sebagai titik awal dan periksa totalnya.
+[zingoHelper](https://github.com/dismad/zingoHelper) milik dismad memiliki skrip `exportToJSON.sh` yang mengubah `transactions` menjadi JSON. Skrip ini dibuat sebelum zingo-cli 6, disiapkan untuk testnet, menandai beberapa Sapling keluar dan entri transparan sebagai placeholder, serta memerlukan alat GNU, jadi tidak akan berjalan di macOS standar. Anggap hasilnya sebagai titik awal dan periksa jumlah totalnya.
 
-## Apa yang tidak bisa diberitahukan oleh viewing key kepadamu
+## Hal yang tidak dapat diberitahukan viewing key
 
-- **Harga.** Kedua alat tersebut tidak mencatat harga ZEC pada saat setiap transaksi terjadi. Tambahkan nilai fiat sendiri secara manual.
-- **Riwayat transparan, jika kunci tidak menyertakannya.** Bagian transparan dari sebuah UFVK bersifat opsional berdasarkan [ZIP 316](https://zips.z.cash/zip-0316). Dengan zingo-cli, `$Z --offline parse_viewkey uview1...` menunjukkan pool mana saja yang dicakup oleh sebuah kunci.
-- **Siapa yang membayar kamu.** Pembayaran terlindungi tidak menyertakan alamat pengirim. Kecuali jika pengirim mencantumkannya di dalam memo, informasi tersebut tidak akan ada di mana pun.
-- **Beberapa detail keluar.** Alamat tujuan, jumlah, dan memo untuk pengiriman terlindungi dapat dipulihkan dengan melakukan dekripsi menggunakan kunci tersebut. Sebuah dompet dapat menyusun transaksi sedemikian rupa sehingga hal itu tidak memungkinkan, meskipun sebagian besar dompet tidak melakukannya.
+- **Harga.** Tidak satu pun alat mencatat harga ZEC saat setiap transaksi berlangsung. Tambahkan sendiri nilai fiatnya.
+- **Riwayat transparan, jika key tidak mencakupnya.** Bagian transparan pada UFVK bersifat opsional menurut [ZIP 316](https://zips.z.cash/zip-0316). Dengan zingo-cli, `$Z --offline parse_viewkey uview1...` menunjukkan pool mana saja yang dicakup oleh suatu key.
+- **Siapa yang membayarmu.** Pembayaran terlindungi tidak membawa alamat pengirim. Jika pengirim tidak mencantumkannya di memo, informasi itu tidak ada di mana pun.
+- **Beberapa detail pengiriman.** Alamat tujuan, jumlah, dan memo untuk pengiriman terlindungi dipulihkan dengan mendekripsi menggunakan key. Dompet dapat membuat transaksi dengan cara yang membuatnya mustahil dipulihkan, meskipun sebagian besar dompet tidak melakukannya.
 
 ## Alat lainnya
 
-| Tool | Apa yang kamu dapatkan |
+| Alat | Hasil yang didapat |
 |---|---|
-| ZODL | CSV Pajak dengan tanggal, jumlah, biaya, dan tag. Hanya untuk tahun kalender sebelumnya, melewati transaksi terlindungi, tanpa txid, memo, atau alamat. |
-| app Zkool | Ekspor tabel mentah dari menu akun |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Mengimpor UFVK dengan `importvk`. `listreceived` melalui RPC mengembalikan catatan yang diterima dengan txid dan memo, tetapi tanpa pengiriman dan tanpa biaya. |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` sangat detail tetapi ditandai sebagai eksperimental, dan Zallet hanya mengimpor viewing key Sapling, bukan UFVK |
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Mengimpor UFVK dengan `wallet init-fvk`, lalu `wallet list-tx`. Mode CSV-nya tidak memiliki txid atau alamat, dan proyek ini menyatakan untuk tidak menggunakannya dalam produksi. |
+| ZODL | CSV pajak dengan tanggal, jumlah, biaya, dan tag. Hanya tahun kalender sebelumnya; transaksi shielding dilewati, tanpa txid, memo, atau alamat. |
+| Aplikasi Zkool | Ekspor tabel mentah dari menu akun |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Mengimpor UFVK dengan `importvk`. `listreceived` melalui RPC mengembalikan catatan yang diterima beserta txid dan memo, tetapi tanpa pengiriman dan biaya. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` menyediakan detail lengkap tetapi ditandai eksperimental, sedangkan Zallet hanya mengimpor viewing key Sapling, bukan UFVK |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Mengimpor UFVK dengan `wallet init-fvk`, lalu `wallet list-tx`. Mode CSV-nya tidak menyertakan txid atau alamat, dan proyeknya menyarankan agar alat ini tidak digunakan di lingkungan produksi. |
 
 ## Terkait
 
 - [Viewing Keys](/zcash-tech/viewing-keys)
-- [Memulihkan Dana](/using-zcash/recovering-funds)
+- [Recovering Funds](/using-zcash/recovering-funds)
 - [Zingolib dan Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 - [Forum: Mengekspor riwayat transaksi ke JSON/CSV dari UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
 - [Forum: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)

@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - 网站：https://trocador.app/
 - 描述：匿名交易加密货币。快速。安全。无需繁文缛节。提供预付借记卡。
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - 网站：https://github.com/firoorg/FiroDEX-Desktop
-- 描述：使用 FiroDEX! 的原子兑换实现无需信任的去中心化兑换。
+- 描述：原子兑换桌面应用。已停止维护：Firo已将FiroDEX-Desktop仓库归档，最后一个版本为 0.8.2-beta（2025 年 2 月）。
 
 ___
 

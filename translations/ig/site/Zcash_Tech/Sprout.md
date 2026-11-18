@@ -6,7 +6,7 @@
 
 > Zcash malitere na Ọktoba 28, 2016, site na Sprout nke e chebere echebe pool.
 
-> **Ịdọ aka ná ntị:** NU7 na-eme ka ego ZEC ka nọ na Sprout pool ghara inwe ike imefu ozugbo ọ malitere ịrụ ọrụ (ogo mmegharị na mainnet bụ 3,543,405, a tụrụ anya ya maka 5 Nọvemba 2026; lee [ZIP 259](https://zips.z.cash/zip-0259)). Ọ bụrụ na ị nwere ego Sprout, gụọ [Ịweghachi ego](../using-zcash/recovering-funds) ma bugharịa ha mbụ.
+> **Ịdọ aka ná ntị:** NU7 malitere ịrụ ọrụ na mainnet n’ogo 3,543,405 na 6 Nọvemba 2026 (UTC; lee [ZIP 259](https://zips.z.cash/zip-0259)). Kemgbe ahụ, ZEC nke ka dị na pool Sprout enweghị ike imefu, n’ihi na Azụmahia nke ụdị 4 anaghịzi adị irè (ZIP 2003). Maka nkọwa gbasara ụzọ e nwere ike isi weghachite ego, gụọ [Ịweghachi ego](../using-zcash/recovering-funds).
 
 Ihe ị ga-amụta: Sprout bụ ebe Zcash malitere, oge mbụ ego nzuzo [private], nke a pụrụ ịkwado, ji arụ ọrụ na blockchain dị ndụ.
 

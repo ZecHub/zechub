@@ -132,7 +132,7 @@ ZEC의 송금, 수신 및 스왑을 지원하는 멀티체인 오픈소스 자�
 
 ### CYZE
 여러 팀원이 실드 Zcash 자금을 함께 관리할 수 있는 협업 지갑 및 조정 플랫폼입니다. FROST 임계값 서명을 사용하여, 단일 참가자에게 지갑에 대한 완전한 통제권을 부여하지 않고도 그룹이 Orchard 거래를 공동으로 승인할 수 있게 합니다.  
-[방문](https://github.com/USCMig/Cyze)
+[방문](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 자금을 지출할 수는 없지만 실드 자금을 모니터링해야 하는 개인과 조직을 위해 설계된 보기 전용 데스크톱 지갑입니다. 거래 및 잔액 모니터링, Orchard 및 Sapling 노트, 메모 보기, 과거 법정화폐 평가, 거래 알림, 지갑 암호화 및 프라이버시 중심 화면 공유 기능을 지원합니다.  
@@ -168,7 +168,7 @@ Zcash를 수락하는 기업과 장소의 글로벌 지도입니다.
 
 ### ZECping
 Zcash lightwalletd 노드의 gRPC 응답 시간을 확인하는 도구입니다.  
-[방문](https://github.com/emersonian/zecping)
+[방문](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 실시간 Zcash 네트워크 통계 및 실딩 지표를 위한 대시보드입니다.  
@@ -217,7 +217,7 @@ ZEC 채팅을 실제 결제와 연결하는 프라이버시 우선 메신저입�
 
 ### Shielded Wall
 Zcash 프라이버시로 구동되는 익명 고백 플랫폼입니다.  
-[방문](https://shieldedwall.org/)
+[방문](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 실드 ZEC로 결제하는 일회용 이메일 받은편지함입니다.  
@@ -232,7 +232,7 @@ Zcash를 위한 프라이버시 보존 금융 추적 및 회계 도구입니다.
 [방문](https://zecledger-web.vercel.app/)
 
 ### ZcashMe를 통한 인증
-실드 Zcash 거래를 로그인 메커니즘으로 사용하는 프라이버시 중심 인증 시스템입니다. 사용자는 QR 코드를 스캔하고 소액의 인증 거래를 전송합니다.  
+실드 Zcash 거래를 로그인 메커니즘으로 사용하는 프라이버시 중심 인증 시스템입니다. 사용자는 QR 코드를 스캔하고 소액의 인증 거래를 전송합니다. 저장소가 보관 처리되어 읽기 전용 상태이므로 프로젝트는 더 이상 유지 관리되지 않습니다.  
 [방문](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Zcash를 위한 프라이버시 보존 금융 추적 및 회계 도구입니다.
 
 ### Ztreamer
 임베디드 Zakura 노드를 기반으로 하는 고도로 최적화된 오픈소스 Zcash 인덱서 및 lightwallet 프로토콜(CompactTxStreamer) 구현입니다. 하나의 프로세스(ztreamerd)에서 노드 + 인덱서 + 지갑 서버를 실행하며, gRPC 및 Zakura v2 P2P를 지원합니다. 라이트 지갑을 위한 빠른 과거 인덱싱 및 낮은 지연 시간의 서비스를 제공합니다.  
-[방문](https://github.com/distractedm1nd/ztreamer)  
+[방문](https://github.com/zcashlabs/ztreamer)  
 [크레이트](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 zcashd 및 Zebra 개발자를 위한 네트워크 테스트 모음입니다. Zcash 크롤러를 포함합니다.  
-[방문](https://github.com/runziggurat/zcash)
+[방문](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 수도꼭지, Unified Address 픽스처, lightwalletd 또는 Zaino와 함께 Zebra regtest 네트워크를 가동하고, 실드 종단 간 흐름을 위한 재사용 가능한 GitHub Actions를 제공하는 Linux 우선 툴킷입니다.  
@@ -274,7 +274,7 @@ Zcash를 기반으로 구축된 협력적 상향식 비즈니스 조직 모델�
 
 ### ZK Global Credit
 선택적 공개, 정산 준비성, 국경 간 평판 및 실드 거버넌스를 위한 Zcash 네이티브 신용 및 투표 인프라입니다.  
-[방문](https://voting.zkglobalcredit.tech/)
+[방문](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Zcash로 구동되는 익명 콘텐츠 제작 및 프라이빗 기부 도구입니다.  

@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - 网站：https://github.com/firoorg/FiroDEX-Desktop
-- 描述：使用 FiroDEX! 的原子兑换进行无需信任的去中心化兑换。
+- 描述：原子兑换桌面应用。已停止维护：Firo 已归档 FiroDEX-Desktop 仓库，最后一个版本为 0.8.2-beta（2025 年 2 月）。
 
 ___
 

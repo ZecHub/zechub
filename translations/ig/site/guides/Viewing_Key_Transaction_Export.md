@@ -8,7 +8,7 @@
 
 Ị chọghị Mkpuru mgbake [seed phrase] gị iji hụ nkọwa zuru ezu. Unified full viewing key (UFVK, na-amalite na `uview1`) nwere ike ịhụ Azụmahia ọ bụla na-abata na nke na-apụ n'ime akaụntụ, ngwá ọrụ [tools] abụọ nwekwara ike ime ka nke a bụrụ faịlụ ị na-edobe: sava GraphQL nke Zkool na zingo-cli. Ntuziaka a na-achịkọta ụzọ ndị dị na [mkparịta ụka forum a](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) ma na-emelite ha maka nsụgharị dị ugbu a.
 
-A nwalere ya na Septemba 2026 na Zkool 6.30.0 na zingo-cli sitere na zingolib 6.0.0.
+A nwalere ya na Septemba 2026 na Zkool 6.30.0 na zingo-cli sitere na zingolib 6.0.0. Ha abụọ bu NU7 ụzọ, ya mere na Nọvemba 2026, e bufere usoro ndị ahụ gaa na Zkool 6.37.0 na zingolib 8.0.0. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) bụ mwepụta mbụ nke Zkool e wuru site na iji ịdị elu mmalite Mainnet nke NU7, ebe zingolib 8.0.0 bụ mwepụta na-agbakwunye nkwado Mainnet nke NU7.
 
 ## Tupu ịmalite
 
@@ -23,10 +23,10 @@ Viewing key enweghị ike imefu ego, mana ọ na-egosi onye ọ bụla jidere ya
 
 - Etinyela ya na weebụsaịtị ma ọ bụ block explorer. Bubata ya n'ime sọftụwia ị na-agba n'onwe gị.
 - Sava ị na-emekọrịta na ya na-ahụ adreesị IP gị na Azụmahia ndị ị na-ebudata nke ọma. Ngwá ọrụ abụọ dị n'okpuru na-enweta Azụmahia gị nke ọ bụla site na ID iji gụọ memo na ugwo, na [ZIP 307](https://zips.z.cash/zip-0307) na-ekwu na nke a na-agwa sava ahụ Azụmahia ndị bụ nke gị. Iji node nke Zebra gị na Zaino ma ọ bụ lightwalletd emekọrịta na-ezere nke ahụ. [Zingolib na Zaino Nkuzi](/guides/zingolib-and-zaino-tutorial) na-akọwa usoro nhazi.
-- zingo-cli 6 na-ezipụ Kwụọ ụhwọ site na Nym mixnet, mana mmekọrịta ya ka na-ejikọ na sava ozugbo, ya mere isi okwu dị n'elu metụtara ya kwa.
-- Nye ngwá ọrụ ndị a viewing key, ọ bụghị seed. Sava GraphQL nke Zkool enweghị nbanye na ndabara, API ya ga-eweghachikwa seed nke akaụntụ ọ bụla e sitere na otu kee, ma nwee ike izipu ego.
-- Debe sava ahụ n'igwe nke gị. Iwu Docker dị n'okpuru na-ege ntị naanị na `127.0.0.1`.
-- Ngwá ọrụ abụọ ahụ na-echekwa key na akụkọ gị na-enweghị Nzobe ederede [encryption]. Hichapụ data ọrụ ahụ mgbe ị mechara ma debe mbupụ ahụ n'ebe e zoro ezo.
+- zingo-cli na-ezipụ Kwụọ ụhwọ site na Nym mixnet, mana mmekọrịta ya ka na-ejikọ na sava ozugbo, ya mere isi okwu dị n'elu metụtara ya kwa.
+- Nye ngwá ọrụ ndị a viewing key, ọ bụghị seed. Iwu Docker dị n'okpuru na-amalite sava Zkool GraphQL na `--allow-unauthenticated`, ya mere o nweghị nbanye, API ya ga-eweghachikwa seed nke akaụntụ ọ bụla e sitere na otu kee, ma nwee ike izipu ego.
+- Debe sava ahụ n'igwe nke gị. Iwu Docker dị n'okpuru na-ege ntị naanị na `127.0.0.1` nke kọmputa gị. N'ime akpa ahụ, sava ahụ ga-ege ntị na ihu njikọ niile (`--bind-address 0.0.0.0`), ma ọ bụghị ya Docker agaghị enwe ike iru ya; nhazi `-p 127.0.0.1:8000:8000` na-eme ka ọ dị naanị n'ime igwe gị.
+- Ngwá ọrụ abụọ ahụ na-echekwa key na akụkọ gị na-enweghị Nzobe ederede [encryption]. Zkool nwere ike izo nchekwa data ya (`--db-password-file`), mana iwu dị n'okpuru na-eme ka ihe dị mfe site na iji `--allow-unencrypted-database`. Hichapụ data ọrụ ahụ mgbe ị mechara ma debe mbupụ ahụ n'ebe e zoro ezo.
 
 ## Nhọrọ 1: GraphQL nke Zkool
 
@@ -38,11 +38,16 @@ Viewing key enweghị ike imefu ego, mana ọ na-egosi onye ọ bụla jidere ya
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-Ọ na-emekọrịta site na `https://zec.rocks` ma ọ gwụla ma ị tinye `--lwd-url` na sava nke gị. Na mbido mbụ, ọ na-ebudata parampat Sapling (ihe dị ka 50 MB). Ọ bụrụ na nke ahụ ada, `docker start zkool-export` na-agbalị ọzọ.
+Kemgbe 6.32.0, sava agaghị amalite ruo mgbe i kọwapụtara nhọrọ abụọ: otu ndị ahịa ga-esi banye (igodo JWT, ma ọ bụ `--allow-unauthenticated`) na ma a ga-eji okwuntughe zoo nchekwa data (okwuntughe, ma ọ bụ `--allow-unencrypted-database`). Ugbu a, ọ na-ege ntị naanị na `127.0.0.1` na ndabara, nke pụtara na n'ime akpa, ọ dịghị ihe dị n'èzí nwere ike iru ya; ya mere `--bind-address 0.0.0.0`. Ọ bụrụ na akpa ahụ kwụsị ozugbo, `docker logs zkool-export` na-egosi nhọrọ na-efu.
+
+Ọ na-emekọrịta site na `https://zec.rocks` ma ọ bụrụ na i tinyeghị `--lwd-url` na sava nke aka gị. Ihe onyonyo ahụ nwere paramita Sapling n'ime ya, ya mere ọ dịghị ihe ọzọ a ga-ebudata.
 
 Mepee `http://127.0.0.1:8000/graphiql` na ihe nchọgharị. Ị nwere ike itinye usoro nke ọ bụla na-esote ebe ahụ ma gbaa ya.
 
@@ -141,17 +146,21 @@ Ngwa Zkool nwekwara Mbupụ Azụmahia, Memo na Notes na menu akaụntụ, mana 
 
 ## Nhọrọ 2: zingo-cli
 
-zingo-cli bụ e-akpa ego command-line nke Zingo. Enweghị nbudata e wuru mbụ, yabụ ị ji Rust wuo ya:
+zingo-cli bụ e-akpa ego ahịrị iwu nke Zingo. Enweghị nbudata e wulitere tupu oge eruo, ya mere unu ji Rust ewulite ya. Jiri zingolib 8.0.0 ma ọ bụ nke ka ọhụrụ: ọ bụ ụdị mbụ maara ịdị elu mmalite Mainnet nke NU7 (3,543,405), dịka e kwuru na [ndetu mwepụta](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0) ya. Ihe e wulitere site na mkpado ochie dịka 6.0.0 amaghị ya.
+
+Ihe owuwu ahụ na-eji [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`). Na Ubuntu, ị ga-achọkwa `sudo apt install build-essential gcc libsqlite3-dev`.
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-Ị chọrọ `nym-proxy` ọbụna naanị iji mekọrịta. zingo-cli 6 agaghị ejikọta na sava ọ bụla na-enweghị ya.
+Nke a na-ewu `./target/release/zingo-cli` ma tinye `nym-proxy` n’akụkụ ya. Ị ga-achọ `nym-proxy` ọbụna naanị iji mekọrịta: zingo-cli agaghị abanye n’ịntanetị ma ọ bụrụ na ọ nweghị ya. Kemgbe ụdị 8.0.0, `zingo-netutils` bụ akụkụ nke nnukwu ebe ọrụ, ya mere usoro ochie nke iṅomi `nym-proxy` site na `zingo-netutils/target/release/` anaghịzi arụ ọrụ.
+
+Ọ bụrụ na ị kwaga `zingo-cli` n'ebe ọzọ, kwagakwa `nym-proxy` ya na ya, ma ọ bụ gwa zingo-cli ebe ọ dị site na `--nym-proxy /path/to/nym-proxy` ma ọ bụ mgbanwe gburugburu ebe obibi `ZINGO_NYM_PROXY`. Ọ bụrụ na ha adịghị, ọ ga-achọ ya n'akụkụ binary nke ya, ma mesịa na `PATH` gị. Ọ bụrụ na ọ pụghị ịmalite proxy ahụ, ọ gaghị aga online ma ọlị.
+
+Naanị Kwụọ ụhwọ (na nlele ọnụ ahịa ZEC) na-agafe na Nym. Sync na-ejikọ na sava ozugbo.
 
 Ọgba ọsọ mbụ na-emepụta e-akpa ego naanị maka ilele, na-emekọrịta ya ma na-ebipụta akụkọ:
 
@@ -163,9 +172,9 @@ cp zingo-netutils/target/release/nym-proxy target/release/
 ```
 
 - `--data-dir` ga-abụ ụzọ zuru oke.
-- `--viewkey` na `--birthday` na-emetụta naanị mgbe a na-emepụta e-akpa ego. Hapụ ha mgbe nke ahụ gasịrị.
-- zingo-cli na-amalite offline na ndabara. `--server` na-ahọrọ sava ahụ ma bụrụkwa nkwenye gị ịga online.
-- Key ahụ na-abanye n'akụkọ shell gị, yabụ hichapụ ya emechaa.
+- `--viewkey` na `--birthday` na-adị naanị mgbe e kere e-akpa ego. Hapụ ha mgbe nke ahụ gasịrị.
+- zingo-cli ọhụrụ anaghị aga n'ịntanetị na ndabara, ọ chọkwara nkwenye gị tupu ọ gaa n'ịntanetị. `--server` na-ahọrọ sava ahụ ma bụrụkwa nkwenye ahụ. Ụzọ ndị ọzọ bụ `--online` (maka nnọkọ a naanị) na `--remember-online`, nke na-echekwa nhọrọ ahụ n'akụkụ e-akpa ego ka ọsọ ndị na-esote gaa n'ịntanetị na-enweghị ọkọlọtọ (`--forget-online` na-eweghachi ya).
+- Igodo ahụ ga-adị n'akụkọ ihe mere eme nke shei gị, ya mere hichapụ ya ma emechaa.
 
 Ọgba ọsọ ndị ọzọ:
 
@@ -184,10 +193,10 @@ $Z --offline messages > memos.json
 
 Ihe ole na ole ị ga-ama gbasara ihe mmepụta:
 
-- `transactions` na `value_transfers` na-ebipụta ederede nkịtị nke yitere JSON ntakịrị mana ọ bụghị JSON.
-- Ego dị na zatoshis (100,000,000 ruo 1 ZEC) ma na-adị mma mgbe niile. `kind` na-agwa gị ntụzịaka. Maka izipu, `value` bụ ihe zigara ndị ọzọ, na-enweghị ugwo.
-- Ugwo na-apụta dịka "adịghị" mgbe Azụmahia na-emefu ego Oha na-abụghị nke gị. Naanị memo ederede ka a na-egosi.
-- Ọ bụrụ na mmekọrịta ada, njehie ahụ na-aga na terminal, ọ bụghị na faịlụ, ma zingo-cli ka na-apụ n'ụzọ nkịtị. Lelee terminal tupu ịtụkwasị `transactions.txt` obi.
+- `transactions` na `value_transfers` na-ebipụta ederede dị mfe nke yiri JSON ntakịrị ma ọ bụghị JSON.
+- Ego ndị ahụ bụ na zatoshis (100,000,000 ruo 1 ZEC) ma na-adị mma mgbe niile. `kind` na-agwa gị ntụziaka ya. Maka izipu, `value` bụ ihe gara ndị ọzọ, e wepụrụ ugwo.
+- Ugwo na-egosi dị ka "adịghị adị" mgbe Azụmahia na-eji ego Oha na-abụghị nke gị. A na-egosi naanị memo ederede.
+- Ọ bụrụ na mmekọrịta data ada, njehie ahụ na-aga na ọdụ njedebe, ọ bụghị na faịlụ ahụ. Kemgbe zingolib 8.0.0 (zingo-cli 0.5.0), iwu dara ada na-apụtakwa na koodu na-abụghị efu, mana lelee ọdụ njedebe tupu ịtụkwasị `transactions.txt` obi.
 
 [zingoHelper](https://github.com/dismad/zingoHelper) nke dismad nwere script `exportToJSON.sh` nke na-agbanwe `transactions` ka ọ bụrụ JSON. Edere ya tupu zingo-cli 6, ahaziri ya maka testnet, na-akanye ụfọdụ Sapling na-apụ na ntinye Oha dịka placeholders, ma chọọ GNU tools, yabụ ọ gaghị agba na macOS ọkọlọtọ. Were ihe mmepụta ya dịka ebe mmalite ma lelee nchịkọta ego.
 
@@ -210,9 +219,9 @@ Ihe ole na ole ị ga-ama gbasara ihe mmepụta:
 
 ## Njikọ ndị metụtara
 
-- [Viewing Keys](/zcash-tech/viewing-keys)
+- [Igodo Nlele](/zcash-tech/viewing-keys)
 - [Iweghachite Ego](/using-zcash/recovering-funds)
 - [Zingolib na Zaino Nkuzi](/guides/zingolib-and-zaino-tutorial)
-- [Forum: Mbupụ akụkọ Azụmahia na JSON/CSV site na UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
-- [Forum: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [Ebe Mkparịtaụka: Ibufe akụkọ azụmahịa gaa na JSON/CSV site na UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [Ebe Mkparịtaụka: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
+- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)

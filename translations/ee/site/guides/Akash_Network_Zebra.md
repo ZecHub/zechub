@@ -1,6 +1,6 @@
 # Aleke nàwɔ Zebra le Akash Network dzi
 
-Mɔfiame kple mɔfiame ƒe mɔfiame na Zebra Zcash ɣaɣla dzesi ŋɔŋlɔ blibo kple [Akash Console](https://console.akash.network).
+Mɔfiame kple mɔfiame ƒe mɔfiame na Zebra Zcash ɣaɣla dzesi ŋɔŋlɔ blibo le Akash dzi.
 
 ### Nusi Nèle Aɖoƒe
 
@@ -15,53 +15,91 @@ Zebra ɣaɣla dzesi ŋɔŋlɔ blibo aɖe si ana:
 -> Wòawɔ dɔ kple 4 vCPU, 16GB RAM, 350GB nudzraɖoƒe na mainnet, alo 2 vCPU, 8GB RAM, 50GB na testnet
 
 
-### Vevi: Port ƒe Ɖoɖo le Akash Dzi
+Awesome-akash template la èkpɔ **Zebra 7.0.0** (menye `:latest` o). Eƒoa Prometheus (`9999`) kple ŋutete (`8080`) le eme, JSON-RPC le eme na **lightwalletd** si le teƒe ɖeka kple wò le gRPC **9067** dzi, eye eƒoa feature flags `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`.
 
-Ne nàɖe port aɖe fia le Akash dzi (kpɔe be, port 8233 na Zebra P2P), **womakplɔe ɖe port ma tututɔ dzi le provider ƒe public IP dzi o.** Le esime ma ƒe teƒe la, provider la ana port didi maʋɛ aɖe (abe 31234 alo 42567 ene) eye wòawɔ reverse-proxy kple eya ɖe wò container ƒe port 8233 dzi.
+Ne wòle be wòawo ɣaɣla dzesi ŋɔŋlɔ si wòtsɔ Mainnet ƒe nuwo ƒu la kaba, kpɔ [How to run Zakura le Akash](/guides/akash-network-zakura). Ne wòle be wòawo ɖoɖowo ƒuƒopé si wòatsɔ Regtest awɔ nu le ɣeyiɣi kpui aɖe me la, kpɔ [Thus Spoke Zakura le Akash](/guides/thus-spoke-zakura-akash).
 
-Wowɔ esia le ɖoɖo me - providers wɔa deployments geɖe, eye nuɖeɖe ava wɔn dome ne ame sia ame nadi be yeazã port 8233 tɔxɛ.
+### Aleke Akash tsɔa portwo dzea nyawo ɖe afã
 
-**Nusi esia fia wòe nye:**
+Numewo siwo le SDL (`port` / `as`) me nye **container ƒe mɔwo**. Zebra gaɖoɖa le **8233** dzi, lightwalletd hã le **9067** dzi, eye dɔme nyonyo ƒe dzesi le **8080** dzi. Numewo siawo nye dɔwɔƒe la kple dɔwɔƒewo bubu siwo le deployment ma ke me (`zebra:8232`) tɔ.
 
--> Nàɖo port 8233 le SDL me (Zebra ƒe P2P port si wozãna)
+Wometsɔ́ wo ɖe gatrɔƒe ƒe IP bɔbɔe dzi **o**.
 
--> Akash ana URI si le abe *provider.com:31234* ene wò
+**Default (template sia):** IP si woɖo ɖe wò ŋutɔ la mele eme o. `global: true` TCP expose ɖesiaɖe la, provider la tsɔ **port gã si woɖo ɖeɖe** le host si wò ne amewo bubu hã le zãm la ƒe port aɖe kplɔ wò container ƒe port. Le lease la vɔ megbe la, Console/Air **Leases → URIs** la fia endpoint siwo le eme, abe esiawo ene:
 
--> Zcash ɣaɣla dzesi ŋɔŋlɔ bubuwo akplɔ ɖe eŋu le *provider.com:31234*
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
--> Le wò container me, Zebra gale 8233 ƒe nuteƒe
+Ɖokuiwo kple gakotokuwo zã **esime** host:port ƒe nunɔamesiwo. Tɔ URI si le expose si ŋu wòdi (P2P alo lightwalletd) la. Ne èɖo `ZEBRA_NETWORK__EXTERNAL_ADDR`, ɖo eƒe mapped P2P URI (`provider.example:31482`) ŋu, eye menye `…:8233` o.
 
+**HTTP** (`as: 80` kple `http_options`, si wozãna le Thus Spoke ɖoɖowo ƒuƒopé dzi): Dzɔɖuɖuɖoɖola geɖewo ɖea **ingress hostname** (zi geɖe le 80/443) ɖe go, eye menye TCP port si wotsɔ dzɔɖuɖuɖo na o. Ɛʋu URI na dɔwɔƒe ma le browser me.
 
-Wotsɔ mɔ si wɔ esia le eɖokui si. Zã URI si Akash na wò ko.
+**Siwo Wòle Dziɖuɖu Ɖoɖo** (`global: false` alo `to: service: lightwalletd`): cluster DNS ko (`zebra:8232`). URI aɖeke si le gbɔna ɖe ame sia ame ŋu mele.
+
+**IP si wò ŋutɔ wòle** (`endpoints` / `kind: ip` le SDL la me) nye **nu bubu xɔ asi**. Wòate ŋu akpe IP si amewo katã kpɔna ɖe IP la ŋu, eye zi aɖewo la, wòate ŋu akpe `as` port la hã ɖe IP ma dzi. Template siawo mele be woabia esi o. Ne èdi be nàwɔ stable `host:8233`, ekema tsɔe kpe ɖe edzi le emegbe; bu ga bubu kple providers siwo di be yewoabia ga la ƒe agbɔsɔsɔ susɔe ɖe ŋu.
+
+### Site kae nawɔ afɔ (fexexe)
+
+SDL la le ɖeka. Akash web UI evea to vovo le **alesi nèxɔa fexexe** me.
+
+| Site | Fexexe | Gakotoku |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Web checkout si wòwɔna le ɖoɖo siwo le xexeme me (akpa / fiat ƒe mɔ siwo Console tsɔna) | Console account |
+| [air.akash.network](https://air.akash.network) | Native Akash ɖoɖonu dzi fexexe (AKT / ACT) | **Keplr** |
+
+Zã **Air** ne èdi be yeafɔ fexexe kple Keplr ɖoɖonu dzi. Zã **Console** ne èdi be nàzã web fexexe ƒe mɔ si wò ŋlɔna. Mègbɔ mɔ na Keplr ƒe fexexe ɖoɖonu dzi le Console o.
 
 ### Nuwo Si Wòele Be Nàxɔ Do Ŋgɔ
 
-1. **Keplr Wallet** browser extension si wode le Chrome/Brave/Firefox me
-2. **AKT tokens** - Xɔ AKT 50-100 tso gatrɔƒe [exchange] aɖe gbɔ (Coinbase, Kraken, Osmosis)
-3. **Minuti 5** be nàzi Console UI la me
+**Ne èxɔ fexexe le Console dzi (web checkout)**
 
-#### Afɔ 1: Ɖe Wò Gakotoku Kple Eŋu
+1. Akɔntabubu wɔ Console dzi le [console.akash.network](https://console.akash.network)
+2. Fexexe ƒe mɔ si Console UI lɔnɔ
+3. Ƒe miniti aɖewo le UI me
+
+**Ne èlɔ̃ fexexe le Air (Akash / Keplr si wòɖo kple e)****
+
+1. **Keplr** browser extension (Chrome/Brave/Firefox)
+2. **AKT / ACT** in Keplr for the deposit and lease (from an exchange or IBC)
+3. Open [air.akash.network](https://air.akash.network)
+
+#### Ɖoɖo 1: Ɔe Wò Me Gbɔe
+
+**Console (fexexe si wɔa wɔ web dzi) [web payments]**
 
 -> Yi [https://console.akash.network](https://console.akash.network)
 
--> Zi **"Connect Wallet"** le dziƒe ƒe ɖeɖeƒe
+-> Ge ɖe akɔnta me / wu Console akɔnta ƒe mɔzɔzɔ nu
 
--> Tia **Keplr** (alo wò Cosmos gakotoku)
+Zã ŋu ɖoɖonu si UI fia wò (menye Keplr ɖoɖonu dzi o)
 
--> Ɖe mɔ na kadodo la ne Keplr do ɖa
+**Air (Akash fexexe siwo wòwɔna le eme)**
 
+Yi ɖe [https://air.akash.network](https://air.akash.network)
 
-Wò AKT ƒe balance ava dze le dziƒe ƒe ɖeɖeƒe. Ne eƒe asixɔxɔ nye zero la, yi nàɖo ga ɖe wò gakotoku me gbã.
+-> Zi **"Connect Wallet"**
+
+-> Tia **Keplr** eye ɖe mɔ na ɖekɔkɔ́e la
+
+-> Kpɔ egbɔ be AKT/ACT ƒe ga si le wò si sɔ na kaƒomɔ ƒe gaɖoɖo kple lease
 
 #### Afɔ 2: Wɔ Deployment
 
--> Zi **"Deploy"** button (button gã blu si le axɔa ƒe titina)
+-> Zi **"Deploy"**
 
 -> Tia **"Build your template"** (alo yi ɖe SDL ƒe upload dzi tẽ)
 
 ##### Ɖoƒe A: Ɖe SDL File Ɖo (Wòle Be Nàtia)
 
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Fexexe siwo wɔna le web (Console)**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**Akash fexexe siwo wòle be nàxɔ le ƒeɖeɖe me kple Keplr (Air)**
+
+[Ʋu template sia le Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Ɖoƒe B: Zã SDL Editor
 
@@ -78,13 +116,13 @@ Ne èdi be nàtsɔ asi aɖe [the SDL](https://github.com/akash-network/awesome-a
 
 #### Afɔ 3: Kpɔ Deposit La Ɖa Eye Nàɖe Mɔ Nɛ
 
-Console la afia wò:
+UI-a afia nu siawo wò:
 
 -> **Deployment deposit**: ~5 AKT (wòaɖo esia ɖe wò gbɔ ne nètsɔ deployment la ɖe aga)
 
 -> **Ƒe asi si wole be nàxɔ**: Wole wò SDL ƒe asiwo nu
 
-Zi **"Approve"** eye nàde asi ɖe gaɖoɖo [transaction] la ŋu le Keplr me.
+Le **Air** dzi, zi **"Approve"** dzi eye nàde asi **Keplr**. Le **Console** dzi, wu web checkout si UI la tsɔ na wò la nu.
 
 #### Afɔ 4: Tia Provider Aɖe
 
@@ -105,7 +143,7 @@ Le sekondi 30 ƒe me la, nàkpɔ bids siwo tso providers gbɔ. Bid ɖesiaɖe afi
 
 -> Audited ƒe nɔnɔ (dzesi gbɔdzɔ = wòle be wòakpɔ dzi ɖe eŋu wu)
 
-Zi **"Accept Bid"** le provider si nètia la ŋu eye nàde asi le Keplr me.
+Zi **"Accept Bid"** le provider si wò tia dzi. Le Air dzi, ɖo ŋkɔ me Keplr. Le Console dzi, tsɔ web ƒe fexexe ƒe mɔ nu ɖe edzi.
 
 #### Afɔ 5: Lala Na Deployment La
 
@@ -156,15 +194,14 @@ Zi **Leases** tab, eye yi **URIs**.
 
 Nàkpɔ nane abe:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-Esia nye wò ɣaɣla dzesi ŋɔŋlɔ ƒe **public P2P endpoint**. Zcash ɣaɣla dzesi ŋɔŋlɔ bubuwo akplɔ ɖe ŋuwò le gaɖoƒe ƒe dzesi sia dzi.
+Afɔ sia afɔe nye expose ɖeka `global: true`. Ŋkɔa ɖo SDL `as` port (8233, 9067) hã. Nɔmba si le hostname megbe nye **provider ƒe port si wòtrɔ**, si wòna le lease ɣeyiɣi me. Zcash ɣaɣla dzesi ŋɔŋlɔ bubuwo ƒoa dze `provider-hostname.com:31482`. Gakotoku siwo nye compact zã lightwalletd URI (TLS meda ɖe edzi, negbe ne wòe ɖo TLS ƒe nuwuwu).
 
-**De dzesi port ƒe ɖoɖo la ŋu:** Nèɖo port 8233 le SDL me, gake Akash na port public bubu (31234 le kpɔɖeŋu sia me). Esia menye nuku o - kpɔ akpa "Port ƒe Ɖoɖo le Akash Dzi" si le dzi ne esia mekɔ na wò o. Wò ɣaɣla dzesi ŋɔŋlɔ ŋuɖoɖo anɔ port sia sia si Akash fia le afisia, menye be 8233 koe o.
-
-Ne nèɖe mɔ na RPC (wode comment ɖe eŋu le SDL me le gɔmedzedze), nàkpɔ RPC endpoint la hã afisia kple eƒe port si wowɔ mapping nɛ.
+Konteina la gale to 8233 / 9067 dzi se. Gaɖoƒe ƒe dzesi si le dutoƒo la nye URI zi sia zi, ne mètsɔ IP si wòɖo ɖe eŋu la kpe ɖe eŋu le megbe o (menye template sia me o).
 
 ### Ɖoɖoɖo Ƒe Tiatiawo
 
@@ -265,7 +302,7 @@ Womede mɔ na RPC le gɔmedzedze o ɖe dedienɔnɔ ta. Be nàɖe mɔ nɛ:
 
 **Nuxlɔ̃ame**: Ne nàɖo *global: true* na RPC la, nèle eɖem fia na internet. Zebra zãa cookie auth le gɔmedzedze, gake hã - mèwɔ esia o ne menye be nènya nusi nèle wɔm o.
 
-**Nuɖeɖe na port mapping**: Ne hã nàɖe RPC fia le xexeme blibo, Akash awɔ mapping nɛ ɖe port didi maʋɛ aɖe (menye 8232/18232 o). Kpɔ URIs siwo le wò deployment me be nàkpɔ public endpoint vavã. Na *global: false* (esia wɔ nyuie wu), RPC endpoint la ƒe mɔ le Akash deployment network la me ko, menye le public internet dzi o.
+Ne èɖe RPC fia kple `global: true` la, ame sia ame ƒe gaɖoƒe ƒe dzesi nye **lease URI** (`host:&lt;random-high-port&gt;`) kokoko, menye `host:8232` o. Kple `global: false` (template sia), RPC li deployment network dzi (`zebra:8232` na lightwalletd). Dedicated IP leases nye mɔnu bubu si woxɔa fe ɖe eŋu, eye menye SDL me o.
 
 #### Ɖe Mɔ Na Metrics (Prometheus)
 
@@ -317,7 +354,7 @@ Ne bids mele vɛm o alo èdi be nàwɔ asi ƒe nutrenu:
 
 -> Trɔ SDL la
 
--> Zi **"Update"** eye nàɖe mɔ nɛ le Keplr me
+-> Zi dzi ŋu **"Update"** (Air: ɖo ŋkɔ ɖe eme Keplr; Console: ɖe web fexexe ƒe mɔ nu dzi)
 
 **De dzesi**: Trɔtrɔ la adze wò container la gɔme. Ɣaɣla dzesi ŋɔŋlɔ la agayi edzi tso eƒe nɔnɔ si wòɖe ɖo (nudzraɖoƒe si mele te), gake kpɔe be dɔwɔƒe manɔ te na minuti 1-2.
 
@@ -346,7 +383,7 @@ Ne èwu vɔ alo mèdi be nàgaɖe asi o:
 
 -> Zi **"Close Deployment"**
 
--> Ɖo kpe ɖe eŋu eye nàde asi le Keplr me
+-> Ɖo kpe ɖe edzi (Air: zɔ ɖe eme le Keplr; Console: Ɖo kpe ɖe edzi le Console UI me)
 
 Woatrɔ wò AKT 5 deposit la ade wò. Provider la ele be wòakpɔ **nudzraɖoƒe si mele te** ɖa, gake mèkplɔ ɖe eŋu o - wɔe abe cloud provider bubu sia bubu ene.
 
@@ -354,7 +391,7 @@ Woatrɔ wò AKT 5 deposit la ade wò. Provider la ele be wòakpɔ **nudzraɖoƒe
 
 #### Vodada "Insufficient funds"
 
-Èhiã AKT geɖe. Ɖo ga ɖe wò Keplr gakotoku me.
+Ɖo Air dzi la, tsɔ AKT/ACT do ga ɖe Keplr me. Ɖo Console dzi la, kaƒomɔ ƒe gaɖoɖo na Console fexexe mɔnu.
 
 #### Bids aɖeke mele dzem o
 
@@ -392,12 +429,11 @@ Nètsɔ asi megbe le RAM ŋu. Tu deployment la eye nàɖo eƒe teƒe ake kple me
 
 ### Asi Ƒe Dzidzime
 
-Kpɔ asi si nèle zãm le Console me:
+Kpɔ wò gaɖoɖowo ɖe Console alo Air me:
 
 -> **My Deployments** -> Wò deployment -> Efia "Cost per month" ƒe asi si wole be nàxɔ
 
--> Wò Keplr gakotoku ƒe balance agɔme ɖeɖem le ɣeyiɣi me
-
+-> Air: AKT/ACT ƒe gaɖoƒe ƒe dzesi si le Keplr me la tsɔa ɖe le ɣeyiɣi me. Console: Console fexexe ƒe gaɖoƒe ƒe dzesi la tsɔa ɖe.
 
 Ne wò balance le te ɖeɖem la, Akash atu wò deployment le eɖokui si. **Ɖo kaƒomɔ ƒe gaɖoɖo [top up] ɖe wò gakotoku me le ɣeyiɣi sia ɣeyiɣi** alo wɔ alerts.
 
@@ -431,7 +467,9 @@ Dze egɔme kple Testnet ne nèle deployment ƒe wɔwɔ ƒe mɔ dodom kpɔm ko. K
 
 ### Nu Bubuwo Siwo Nàte Ŋu Azã
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Ƒuƒoƒo ƒe ɖoɖowo** (web fexexe): [https://console.akash.network](https://console.akash.network)
+
+**Akash Air** (AKT/ACT siwo le eme + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 

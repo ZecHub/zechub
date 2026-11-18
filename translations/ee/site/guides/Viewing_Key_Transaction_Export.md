@@ -8,7 +8,7 @@ Gakotoku [wallet] ƒe kpɔtso geɖe ko le. ZODL ƒe akɔnta ƒe kpɔtso, le kpɔ
 
 Mele be wòatsɔ wò gadzraɖoɖi nya [seed phrase] ana be nàkpɔ nusiwo katã ta o. Unified full viewing key (UFVK, si ƒe gɔmedzedze le `uview1`) ate ŋu akpɔ gaɖoɖo siawo katã siwo ge ɖe eme kple siwo do go le akɔnta aɖe me, eye dɔwɔnu eve ate ŋu atrɔ ema zu faɛl si nàdzra: Zkool GraphQL server kple zingo-cli. Mɔfiafia sia ƒo mɔ siwo tso [forum ƒe nyati sia](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) me eye wotrɔe ɖe version yeyewo nu.
 
-Woda kpɔe le September 2026 me kple Zkool 6.30.0 kple zingo-cli tso zingolib 6.0.0 me.
+Woda kpɔe le September 2026 me kple Zkool 6.30.0 kple zingo-cli tso zingolib 6.0.0 me. Wo katã va do ŋgɔ na NU7, eye le November 2026 me, wotrɔ asi le mɔnuawo ŋu eye wotsɔ wo yi Zkool 6.37.0 kple zingolib 8.0.0. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) nye ŋgɔgbe Zkool release si wɔ kple NU7 Mainnet ƒe dɔwɔwɔ ƒe gaɖoɖe, eye zingolib 8.0.0 nye release si kpee ɖe NU7 Mainnet ƒe kpekpeɖeŋu ŋu.
 
 ## Hafi nàdze egɔme
 
@@ -21,12 +21,12 @@ Ele be nàkpɔ nu eve:
 
 Nukpɔsafui aɖe mate ŋu aƒe ga o, gake eɖe wò historia blibo la fia ame si kee wòle si.
 
-- Mègblɔe le website alo gaɖoɖowo ƒe mɔkpɔla aɖe dzi o. Ɖoe ɖe software si wò ŋutɔ nàwɔ la me.
-- Server si wòle sync wɔm tso la kpɔ wò IP gaɖoƒe kple gaɖoɖo siwo nètsɔe vɛ blibo. Dɔwɔnu eve siwo le anyi la katã wɔ wò gaɖoɖo ɖe ID me be woaxle nya kpuiwo kple adzɔwo, eye [ZIP 307](https://zips.z.cash/zip-0307) de ŋku edzi be esia gblɔ na server la be gaɖoɖo siwo nye tɔwòe. Sync si tso wò ŋutɔ Zebra ɣaɣla dzesi ŋɔŋlɔ [node] kple Zaino alo lightwalletd magblɔ esia o. [Zingolib kple Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) fia ale si woawɔ ɖoɖo aɖe.
-- zingo-cli 6 ɖoa fexexewo ɖe Nym mixnet dzi, gake eƒe sync lia server la kple mɔ dzĩ, eya ta nyati si le dzi la ku ɖe eŋu hã.
-- Na dɔwɔnu siawo nukpɔsafui, megaɖe gadzraɖoɖi nya na wo o. Zkool GraphQL server ƒe gegeɖeɖe manɔ anyi le gɔmedzedze me o, eye eƒe API agbugbɔ gadzraɖoɖi nya na akɔnta siawo katã si wo wɔ tsoe me, eye wòate ŋu aɖo ga.
-- Dzra server la le wò ŋutɔ ƒe mɔkeke dzi. Docker sedede si le anyi la se to ɖe `127.0.0.1` koe.
-- Dɔwɔnu eve siawo dzra safui la kple wò historia ɣe ɣaɣlaŋlɔŋlɔ [encryption] me o. Tutui dɔ ƒe data la ne wowu, eye nàdzra kpɔtso la le teƒe si woŋlɔ ɣaɣlaŋlɔŋlɔ le.
+- Mègblɔe ɖe website alo gaɖoɖowo ƒe mɔkpɔla aɖe dzi o. Ɖoe ɖe software si wò ŋutɔ nèwɔ la me.
+- Server si wòle sync wɔm tso la kpɔ wò IP gaɖoƒe ƒe dzesi kple gaɖoɖowo siwo nèɖea ɖe eme blibo. Dɔwɔnu eve siwo le anyi la katã xɔ wò gaɖoɖowo ɖeka ɖeka to ID dzi be woaxle nya kpuiwo kple adzɔwo, eye [ZIP 307](https://zips.z.cash/zip-0307) ɖe eŋu be esia na server la nya gaɖoɖowo siwo nye tɔwò. Sync si tso wò ŋutɔ ƒe Zebra ɣaɣla dzesi ŋɔŋlɔ me, kple Zaino alo lightwalletd, tsɔa nu sia ɖa. [Zingolib kple Zaino Tutorial](/guides/zingolib-and-zaino-tutorial) ɖe mɔfia ale si nàɖo ɖoɖo la.
+- zingo-cli ɖoa fexexewo ɖe Nym mixnet dzi, gake eƒe sync gale server la kple mɔ dzĩ dzi, eya ta nyati si le dzi la ku ɖe eŋu hã.
+- Na dɔwɔnu siawo nukpɔsafui, megaɖe gadzraɖoɖi nya na wo o. Docker sedede si le anyi la dzea Zkool GraphQL server kple `--allow-unauthenticated`, eya ta login meli o, eye API la ana akɔnta ɖe sia ɖe si wowɔ kple nu sia ƒe gadzraɖoɖi nya, eye ate ŋu aɖo ga hã.
+- Dzra server la le wò ŋutɔ ƒe mɔkeke dzi. Docker sedede si le anyi la se to ɖe `127.0.0.1` le wò kɔmputa me ko. Le container la me la, server la ele be wòase to le interfaces katã (`--bind-address 0.0.0.0`), ne menye nenema o la, Docker mate ŋu aɖu dɔ kplii o; `-p 127.0.0.1:8000:8000` mapping lae tsɔe ɖe wò ŋutɔ ƒe kɔmputa me.
+- Dɔwɔnu eve siawo dzra safui la kple wò ƒe ɣeyiɣi ƒe ŋutinya ɣaɣlaŋlɔŋlɔ [encryption] me o. Zkool ate ŋu aɣaɣla database la (`--db-password-file`), gake sedede si le anyi la zã `--allow-unencrypted-database` be nuwo nadze bɔbɔe. Tutui dɔ ƒe data la ne wowu, eye nàdzra kpɔtso la le teƒe si woɣaɣla.
 
 ## Tia 1: Zkool GraphQL
 
@@ -38,11 +38,16 @@ Nukpɔsafui aɖe mate ŋu aƒe ga o, gake eɖe wò historia blibo la fia ame si 
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-Ewɔ sync tso `https://zec.rocks` me ne mètsɔ `--lwd-url` kpe ɖe eŋu kple wò ŋutɔ server o. Le egɔmedzedze gbãtɔ me la, eɖea Sapling parameters (le 50 MB ƒe ta) vɛ. Ne esia megbe o la, `docker start zkool-export` ate ƒe wɔ geɖe.
+Tso 6.32.0 la, server la megate ŋgɔ o hafi nàɖe tiatia eve siwo mewɔ ɖi o la gɔme: ale si clients ana wo ŋutɔ login (JWT key, alo `--allow-unauthenticated`) kple ne database la ɖeɣla (password, alo `--allow-unencrypted-database`). Esi wòle la, eɖoa to ɖe `127.0.0.1` ko le dzɔdzɔme, eye le container me la, nu aɖeke si le eme o mate ŋu ɖo egbɔ o; esia ta `--bind-address 0.0.0.0`. Ne container la dzea asi enumake la, `docker logs zkool-export` fia option si gblẽ.
+
+Ewɔ ŋkɔtɔe tso `https://zec.rocks`, negbe ne wòtsɔ wò ŋutɔ ƒe server kpe ɖe `--lwd-url` ŋu. Nyatakakadzesi la wɔ Sapling parameters ɖe eme xoxo, eya ta mele be nàɖo naneke bubu ɖe anyi o.
 
 Ʋu `http://127.0.0.1:8000/graphiql` le browser me. Àte ŋu aɖo afɔ siwo va yi ɖe eƒe eme eye nàwɔ wo.
 
@@ -141,17 +146,21 @@ Zkool app la hã ƒe Export Transactions, Memos kple Notes le akɔnta ƒe menu m
 
 ## Tia 2: zingo-cli
 
-zingo-cli nye Zingo ƒe command-line gakotoku. Wo mewɔ download si woɖo ɖe ŋgɔ o, eya ta ele be nàtu wo kple Rust:
+zingo-cli nye Zingo ƒe wallet si wò zãna le command line dzi. Download siwo wòwɔ ɖo xoxo mele o, eye wòawɔe hã la, wòawɔe kple Rust. Zã zingolib 8.0.0 alo si wu; esia nye release gbãtɔ si nya NU7 ƒe Mainnet activation height (3,543,405), abe ale si woŋlɔe ɖe eƒe [release notes](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0) me ene. Woawɔe tso tag siwo xoxo abe 6.0.0 ene la menya height sia o.
+
+Build la zã [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`). Le Ubuntu dzi hã, ele be nàkpɔ `sudo apt install build-essential gcc libsqlite3-dev`.
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-Ele be nàkpɔ `nym-proxy` hã be nàwɔ sync ko. zingo-cli 6 malia server aɖeke o ne esia mele o.
+Esia wɔa `./target/release/zingo-cli` eye wòtsɔa `nym-proxy` le egbɔ. Ele be nàxɔ `nym-proxy` hã ne wòle be nàɖo gaɖoɖowo ƒuƒoƒe ko: zingo-cli mate ŋu ayi online o ne menɔa eŋu o. Tso 8.0.0 me la, `zingo-netutils` le dɔwɔƒe gã la me, eyata nyateƒe xoxoa si tsɔa `nym-proxy` tso `zingo-netutils/target/release/` me la megawɔa dɔ azɔ o.
+
+Ne ètsɔ `zingo-cli` yi teƒe bubu, tsɔ `nym-proxy` hã yi kpli eya, alo gblɔ na zingo-cli teƒe si wòle le kple `--nym-proxy /path/to/nym-proxy` alo `ZINGO_NYM_PROXY` environment variable. Ne mele esiawo o la, ekpɔe ɖe eŋu le teƒe si eƒe binary le, eye emegbe le wò `PATH`. Ne medze proxy la ŋu o la, magayi online akpɔ o.
+
+Fexexewo ko (kple ZEC ƒe asixɔxɔ ŋu biabia) woato le Nym dzi. Sync ʂɔ server la ŋutɔ.
 
 Dɔwɔɣeyiɣi gbãtɔ la wɔ gakotoku si kpɔa nu ko, wɔ sync eye eŋlɔ historia la ɖe aga:
 
@@ -162,10 +171,10 @@ Dɔwɔɣeyiɣi gbãtɔ la wɔ gakotoku si kpɔa nu ko, wɔ sync eye eŋlɔ histo
   --waitsync transactions > transactions.txt
 ```
 
-- `--data-dir` ele be wòanye mɔ ƒe blibotɔ.
-- `--viewkey` kple `--birthday` wɔ dɔ le esime wo wɔ gakotoku la ko. Megatsɔ wo o le ema megbe.
-- zingo-cli dzena gɔme le offline me le gɔmedzedze. `--server` tia server la eye hã fia be nèna mɔ be wòayi online.
-- Safui la adze le wò shell ƒe historia me, eya ta tutui eya megbe.
+- `--data-dir` nye mɔdzɔdzɔ si tso gɔmedzedze va se nu.
+- `--viewkey` kple `--birthday` zãa wo ne wò wɔ gakotoku la ko. Ne wòwɔe vɔ la, gblẽ wo ɖi.
+- zingo-cli yeye le offline ŋgɔgɔe, eye wòhiã be wò na mɔ ne wòatsɔe adze online. `--server` tia server la, eye wòtsɔa mɔ sia hã na. Mɔ bubuawoe nye `--online` (session sia ko) kple `--remember-online`, si hã ɖoa tiatia la ɖe gakotoku la gbɔ, ale be run siwo adze etsɔ la adze online enumake menye flag aɖe o (`--forget-online` ƒoa eɖa).
+- Key la nɔa wò shell ƒe history me, eya ta tutui ɖa emegbe.
 
 Dɔwɔɣeyiɣi siwo va yi:
 
@@ -184,10 +193,10 @@ $Z --offline messages > memos.json
 
 Nu aɖewo si woanya tso output la ŋu:
 
-- `transactions` kple `value_transfers` ŋlɔ text dzadzɛ si le abe JSON ene vie, gake menye JSON o.
-- Gaƒomekukuwo le zatoshis me (100,000,000 na 1 ZEC) eye woƒe dzesi le dzi ɣesiaɣi. `kind` fia afisi ga la yina. Na dodowo, `value` nye nusi yi ame bubuwo gbɔ, adzɔ mele eme o.
-- Adzɔ la fia abe "not available" ene ne gaɖoɖo aɖe zã nuwo ƒe ʋuʋuɖi ƒe ga si menye tɔwò o. Nya kpui siwo nye text koe wofia.
-- Ne sync la megbe o la, vodada la yina terminal la me, menye faɛl la me o, eye zingo-cli gaƒoƒo hã ewɔ exit dzadzɛ. Kpɔ terminal la hafi nàka ɖe `transactions.txt` ŋu.
+- `transactions` kple `value_transfers` ŋlɔ nyagblɔɖi si le JSON ƒomevi me, gake menye JSON o.
+- Gaƒoƒo le zatoshis me (100,000,000 va se 1 ZEC), eye womelea ɖe edzi ɖe asi o. `kind`e ɖe afɔkpa la fiana wò. Ne wòɖo ga la, `value` nye ga si yi ame bubuwo gbɔ, adzɔ la mekpɔ o.
+- Adzɔ la nɔa "not available" me ne gaɖoɖo aɖe ƒoa nuwo ƒe ʋuʋuɖi ƒe ga si menye wò tɔ o. Nya kpui siwo ŋlɔ la koe wofiana.
+- Ne sync la mewɔ dɔ o la, vodada la yina terminal la me, menye faɛl la me o. Elabena zingolib 8.0.0 (zingo-cli 0.5.0), dɔwɔnu si mewɔ dɔ o la tsia nu hã kple kɔdɛ si menye 0 o, gake kpɔ terminal la hafi nàxɔ `transactions.txt` dzi se.
 
 dismad ƒe [zingoHelper](https://github.com/dismad/zingoHelper) ƒe `exportToJSON.sh` script trɔa `transactions` zu JSON. Woŋlɔe hafi zingo-cli 6 va, woɖoe ɖe testnet ta, ewɔa outgoing Sapling kple nuwo ƒe ʋuʋuɖi ƒe entries aɖewo abe teƒeƒuƒuwo ene, eye GNU dɔwɔnuwo wòhia, eya ta mawɔ dɔ le macOS si mewotrɔ naneke o dzi. Wɔ eƒe output la abe gɔmedze teƒe ene eye nàkpɔ gaƒomekukuwo.
 
@@ -210,9 +219,9 @@ dismad ƒe [zingoHelper](https://github.com/dismad/zingoHelper) ƒe `exportToJSO
 
 ## Siwo kplɔe ɖo
 
-- [Nukpɔsafuiwo](/zcash-tech/viewing-keys)
-- [Ga Ƒe Gbugbɔxɔxɔ](/using-zcash/recovering-funds)
-- [Zingolib kple Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
-- [Forum: Gaɖoɖo ƒe historia ƒe kpɔtso zu JSON/CSV tso UFVK/seed me](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [Nukpɔsafui](/zcash-tech/viewing-keys)
+- [Gakotoku ƒe gaɖoɖowo dzɔdzɔ](/using-zcash/recovering-funds)
+- [Zingolib kple Zaino Fiaɖeŋu](/guides/zingolib-and-zaino-tutorial)
+- [Forum: Gaɖoɖowo ƒe ŋutinya ƒo ɖe JSON/CSV me tso UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
 - [Forum: Zkool kple GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)
