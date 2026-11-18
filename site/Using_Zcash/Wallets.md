@@ -8,6 +8,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
+- Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
 
@@ -46,6 +47,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
+- Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
 
@@ -97,6 +99,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
+- Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
 
@@ -327,7 +330,8 @@
 - Wallet Support: MPC Vault
 - Pools: Transparent
 - Features: Multi Coin
-- NU7: Compatible 
+- NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -404,7 +408,7 @@
 - Pools: Transparent | Sapling
 - Features: No KYC | Shielded Memo
 - NU7: Not Ready
-- Stage: Beta
+- Status: Deprecated
 - Source: Closed Source
 
 ---
@@ -417,6 +421,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
+- Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
 - Stage: Beta
@@ -482,7 +487,8 @@
 - Operating System: Windows | macOS | Linux
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
-- Features: Multi Coin | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
+- Features: Multi Coin | Shielded Transactions | Shielded USDC | Swaps | FROST Multisig | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments
+- Nym Mixnet: Supported
 - NU7: Not Ready
 - Stage: Beta
 - Source: Open Source
@@ -524,10 +530,10 @@
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Rotation | Open Source | Pool Transfer | Reproducible Build | Shielded Memo
+- Features: Address Rotation | Pool Transfer | Reproducible Build | Shielded Memo
 - NU7: Compatible
-- Status: Beta
-- Stage: Open Source
+- Stage: Beta
+- Source: Open Source
 
 ---
 
