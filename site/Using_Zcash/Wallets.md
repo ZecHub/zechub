@@ -1,8 +1,8 @@
-
 # Wallets
 
 ## [ZODL](https://zodl.com)
 ![logo](/content-images/wallets/zodl.webp "ZODL")
+- Source Code: https://github.com/zodl-inc
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
@@ -15,6 +15,7 @@
 
 ## [YWallet](https://ywallet.app/)
 ![logo](/content-images/wallets/ywallet.webp "YWallet")
+- Source Code: https://github.com/hhanh00/zwallet
 - Status: Deprecated | Dropped Zcash support after the NU6.3 Ironwood upgrade (2026). The author's successor wallet is Zkool.
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
@@ -33,12 +34,13 @@
 - Pools: Sapling | Orchard | Ironwood
 - Features: Discord Bot
 - NU7: Not Verified
-- Source: Open Source
+- Source: Closed Source
 
 ---
 
 ## [Zingo!](https://www.zingolabs.org/)
 ![logo](/content-images/wallets/zingo.webp "Zingo!")
+- Source Code: https://github.com/zingolabs/zingo-mobile
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
@@ -51,6 +53,7 @@
 
 ## [Edge](https://edge.app)
 ![logo](/content-images/wallets/edge.webp "Edge")
+- Source Code: https://github.com/EdgeApp/edge-react-gui
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -63,6 +66,7 @@
 
 ## [Unstoppable](https://unstoppable.money)
 ![logo](/content-images/wallets/unstoppable.webp "Unstoppable")
+- Source Code: https://github.com/horizontalsystems/unstoppable-wallet-android
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -81,12 +85,13 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
-- Source: Open Source
+- Source: Closed Source
 
 ---
 
 ## [Zkool](https://hhanh00.github.io/zkool2/)
 ![logo](/content-images/wallets/zkool.webp "Zkool")
+- Source Code: https://github.com/hhanh00/zkool2
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
@@ -99,6 +104,7 @@
 
 ## [Cake](https://cakewallet.com/)
 ![logo](/content-images/wallets/cake.webp "Cake")
+- Source Code: https://github.com/cake-tech/cake_wallet
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
@@ -111,6 +117,7 @@
 
 ## [Zenith](https://vergara.tech/products/zenith.html)
 ![logo](/content-images/wallets/zenith.webp "Zenith")
+- Source Code: https://code.vergara.tech/Vergara_Tech/zenith
 - Devices: Desktop
 - Operating System: Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Full Node
@@ -123,6 +130,7 @@
 
 ## [zingo-cli](https://github.com/zingolabs/zingolib)
 ![logo](/content-images/wallets/zingo.webp "zingo-cli")
+- Source Code: https://github.com/zingolabs/zingolib
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
@@ -135,6 +143,7 @@
 
 ## [Zallet](https://github.com/zcash/zallet)
 ![logo](/content-images/wallets/zallet.webp "Zallet")
+- Source Code: https://github.com/zcash/zallet
 - Devices: Desktop
 - Operating System: Linux | macOS
 - Wallet Support: Seed Phrase | Unified Address | Full Node
@@ -148,6 +157,7 @@
 
 ## [zcashd](https://github.com/zcash/zcash)
 ![logo](/content-images/wallets/zcashd.webp "zcashd")
+- Source Code: https://github.com/zcash/zcash
 - Status: Deprecated | End-of-life on 18 July 2026: it halts before NU6.3 and cannot follow the network. Use Zallet with a Zebra node.
 - Devices: Desktop
 - Operating System: Linux
@@ -160,6 +170,7 @@
 
 ## [Brave](https://brave.com/wallet/)
 ![logo](/content-images/wallets/brave.webp "Brave")
+- Source Code: https://github.com/brave/brave-core
 - Devices: Web
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Unified Address
@@ -172,6 +183,7 @@
 
 ## [MetaMask Snap](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/)
 ![logo](/content-images/wallets/metamask-snap.webp "MetaMask")
+- Source Code: https://github.com/ZcashCommunityGrants/WebZjs
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -184,6 +196,7 @@
 
 ## [Zucchini](https://zucchinifi.xyz/)
 ![logo](/content-images/wallets/zucchini.webp "Zucchini")
+- Source Code: https://github.com/zucchini-wallet/z-interface
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -208,6 +221,7 @@
 
 ## [SSP Wallet](https://sspwallet.io)
 ![logo](/content-images/wallets/ssp-wallet.webp "SSP Wallet")
+- Source Code: https://github.com/RunOnFlux/ssp-wallet
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
 - Wallet Support: Seed Phrase
@@ -220,6 +234,7 @@
 
 ## [Trust Wallet](https://trustwallet.com/)
 ![logo](/content-images/wallets/trust-wallet.webp "Trust Wallet")
+- Source Code: https://github.com/trustwallet/wallet-core/releases
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
 - Wallet Support: Seed Phrase
@@ -256,6 +271,7 @@
 
 ## [Keystone](https://keyst.one/zcash)
 ![logo](/content-images/wallets/keystone.webp "Keystone")
+- Source Code: https://github.com/KeystoneHQ/keystone3-firmware/releases
 - Devices: Hardware
 - Wallet Support: Hardware | Unified Address
 - Pools: Transparent | Orchard | Ironwood
@@ -267,6 +283,7 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/wallets/ledger.webp "Ledger")
+- Source Code: https://github.com/Zondax/ledger-zcash
 - Devices: Hardware
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Hardware
@@ -279,17 +296,20 @@
 
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/wallets/safepal.webp "Safepal")
+- Source Code: https://github.com/SafePalWallet/safepal-app
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
+- Source: Closed Source
 
 ---
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/wallets/trezor.webp "Trezor")
+- Source Code: https://github.com/orgs/trezor
 - Devices: Hardware
 - Wallet Support: Hardware
 - Pools: Transparent
@@ -301,6 +321,7 @@
 
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/wallets/vultisig.webp "Vultisig")
+- Source Code: https://github.com/vultisig
 - Devices: Web | Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS | Browser
 - Wallet Support: MPC Vault
@@ -312,6 +333,7 @@
 
 ## [Vizor](https://vizor.cash/)
 ![logo](/content-images/wallets/vizor.webp "Vizor")
+- Source Code: https://github.com/chainapsis/vizor-wallet
 - Devices: Desktop | Mobile
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
@@ -324,6 +346,7 @@
 
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](/content-images/wallets/noir-wallet.webp "Noir")
+- Source Code: https://github.com/NoirWallet/noir-wallet
 - Devices: Web | Desktop
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address | Hardware
@@ -336,6 +359,7 @@
 
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/wallets/leodex.webp "LeoDex")
+- Source Code: https://github.com/steemleo/leodex-shielded
 - Devices: Desktop | Web
 - Operating System: Windows | Linux | macOS | Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -348,6 +372,7 @@
 
 ## [Zapp](https://www.justzappit.xyz/)
 ![logo](/content-images/wallets/zapp.webp "Zapp")
+- Source Code: https://github.com/ZLabcash/zapp
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
@@ -360,6 +385,7 @@
 
 ## [zecd](https://zecd.org/)
 ![logo](/content-images/wallets/zecd.webp "zecd")
+- Source Code: https://github.com/zecrocks/zecd
 - Devices: Desktop
 - Operating System: Linux
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node
@@ -379,12 +405,13 @@
 - Features: No KYC | Shielded Memo
 - NU7: Not Ready
 - Stage: Beta
-- Source: Open Source
+- Source: Closed Source
 
 ---
 
 ## [Nozy Wallet](https://www.nozywallet.com/)
 ![logo](/content-images/wallets/nozy-wallet.webp "Nozy Wallet")
+- Source Code: https://github.com/LEONINE-DAO/Nozy-wallet
 - Devices: Desktop | Web
 - Operating System: Windows | Linux | macOS | Browser
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node
@@ -398,6 +425,7 @@
 
 ## [Zipher](https://github.com/atmospherelabs-dev/zipher-app)
 ![logo](/content-images/wallets/zipher.webp "Zipher")
+- Source Code: https://github.com/atmospherelabs-dev/zipher-app
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
@@ -411,6 +439,7 @@
 
 ## [Argos](https://argos.sovright.com/)
 ![logo](/content-images/wallets/argos.webp "Argos")
+- Source Code: https://github.com/sovright/argos
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Spending Key | Private Key
@@ -423,6 +452,7 @@
 
 ## [Gem Wallet](https://gemwallet.com/zcash-wallet/)
 ![logo](/content-images/wallets/gem-wallet.webp "Gem Wallet")
+- Source Code: https://github.com/gemwalletcom/wallet
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase
@@ -441,12 +471,13 @@
 - Pools: Transparent
 - Features: Multi Coin | Swaps
 - NU7: Not Ready
-- Source: Open Source
+- Source: Closed Source
 
 ---
 
 ## [Zafu Wallet](https://zafu.pro/)
 ![logo](/content-images/wallets/zafu-wallet.webp "Zafu Wallet")
+- Source Code: https://github.com/rotkonetworks/zafu/
 - Devices: Web
 - Operating System: Windows | macOS | Linux
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
@@ -460,6 +491,7 @@
 
 ## [Laurel](https://laurel.cash/)
 ![logo](/content-images/wallets/Laurel.webp "Laurel Wallet") 
+- Source Code: https://github.com/laurel-cash/laurel
 - Devices: Mobile
 - Operating System: Android | Windows | Linux
 - Wallet Support: 24-Word Seed Phrase | Wallet Import | Offline Signing | Viewing Keys
@@ -473,6 +505,7 @@
 
 ## [Veylor](https://veylor.cash/)
 ![logo](/content-images/wallets/Veylor.webp "Veylor Wallet") 
+- Source Code: https://github.com/ChinmayGopal931/vizor-fork
 - Devices: Mobile
 - Operating System: iOS | Android
 - Wallet Support: Seed Phrase | Self-Custody | Keystone | Ledger
@@ -486,6 +519,7 @@
 
 ## [Celari](https://app.celariwallet.com)
 ![logo](/content-images/wallets/celari.webp "Celari")
+- Source Code: https://github.com/Kubudak90/Zcash-wallet
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
@@ -499,6 +533,7 @@
 
 ## [Leek](https://zcash.leekwallet.xyz/)
 ![logo](/content-images/wallets/leek.webp "Leek")
+- Source Code: https://github.com/0xOucan/leekwallet-zcash
 - Devices: Hardware | Mobile | Desktop
 - Operating System: Android | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
