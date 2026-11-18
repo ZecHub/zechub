@@ -78,7 +78,7 @@ Testnet is a separate chain with valueless coins, called TAZ. Both Zebra and Zak
 
 [testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) is a working testnet block explorer, with a mainnet counterpart at [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
 
-Getting TAZ is the awkward part, because the faucets linked from older documentation have stopped responding. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) is a community-run faucet that runs "its own node, wallet and miner", pays "shielded z2z drips", and gates claims with "browser proof of work instead of a captcha vendor". It is open source under MIT. If it is unavailable, ask in the Zcash R&D Discord, which is what the Zcash documentation itself suggests.
+Getting TAZ is the awkward part, because the faucets linked from older documentation have stopped responding. [fauzec.com](https://fauzec.com/) is a shielded testnet faucet that mines its own rewards and sends 1 TAZ per address every 24 hours to a Unified Address or a Sapling address; it also documents a small claim API for scripted tests. If it is unavailable, ask in the Zcash R&D Discord, which is what the Zcash documentation itself suggests.
 
 ## General documentation
 
