@@ -489,7 +489,7 @@
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
 - Features: Multi Coin | Shielded Transactions | Shielded USDC | Swaps | FROST Multisig | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments
 - Nym Mixnet: Supported
-- NU7: Not Ready
+- NU7: Compatible
 - Stage: Beta
 - Source: Open Source
 
