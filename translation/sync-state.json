@@ -3443,11 +3443,11 @@
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
-      "src": "sha256:15b7c09661a203c63219c5a4858db18a8e6fffa339f92fcfb2bd38fbe2ac37b9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:66326380079c79f13720ce91497886edbcb08d562643709f112e5367af09f5ba",
+      "src_commit": "b372b0f96aabed5468fc21a6daac7eaacdc1b1f1",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "guides/Ledger_Shielded_ZEC.md": {
@@ -7239,11 +7239,11 @@
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
-      "src": "sha256:15b7c09661a203c63219c5a4858db18a8e6fffa339f92fcfb2bd38fbe2ac37b9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:66326380079c79f13720ce91497886edbcb08d562643709f112e5367af09f5ba",
+      "src_commit": "b372b0f96aabed5468fc21a6daac7eaacdc1b1f1",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "codex-regen+handfix",
+      "mode": "full",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "guides/Maya_Protocol.md": {
@@ -9635,11 +9635,11 @@
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
-      "src": "sha256:15b7c09661a203c63219c5a4858db18a8e6fffa339f92fcfb2bd38fbe2ac37b9",
-      "src_commit": "b93280ad2cd1f16f760f35e63397484b1f6dbad2",
+      "src": "sha256:66326380079c79f13720ce91497886edbcb08d562643709f112e5367af09f5ba",
+      "src_commit": "b372b0f96aabed5468fc21a6daac7eaacdc1b1f1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "guides/Ledger_Shielded_ZEC.md": {
@@ -30135,11 +30135,11 @@
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
-      "src": "sha256:15b7c09661a203c63219c5a4858db18a8e6fffa339f92fcfb2bd38fbe2ac37b9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:66326380079c79f13720ce91497886edbcb08d562643709f112e5367af09f5ba",
+      "src_commit": "b372b0f96aabed5468fc21a6daac7eaacdc1b1f1",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "guides/Ledger_Shielded_ZEC.md": {
@@ -35845,11 +35845,11 @@
       "edited": false
     },
     "guides/Keystone_Zashi.md": {
-      "src": "sha256:15b7c09661a203c63219c5a4858db18a8e6fffa339f92fcfb2bd38fbe2ac37b9",
-      "src_commit": "7811f6891f5fc8fb8c95bb618af29ca60e709274",
+      "src": "sha256:66326380079c79f13720ce91497886edbcb08d562643709f112e5367af09f5ba",
+      "src_commit": "b372b0f96aabed5468fc21a6daac7eaacdc1b1f1",
       "engine": "llm",
-      "mode": "seed",
-      "tool": "gpt-5.4",
+      "mode": "full",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "guides/Ledger_Shielded_ZEC.md": {
