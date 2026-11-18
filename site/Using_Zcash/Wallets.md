@@ -6,9 +6,10 @@
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -20,6 +21,7 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling
 - Features: Address Book | Address Rotation | Cold Storage | Payment Request | Pool Transfer | Shielded Memo | TEX Address | WarpSync
+- Source: Open Source
 
 ---
 
@@ -28,9 +30,10 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
-- Pools: Sapling | Ironwood
+- Pools: Sapling | Orchard | Ironwood
 - Features: Discord Bot
-- NU7: Not Ready
+- NU7: Not Verified
+- Source: Open Source
 
 ---
 
@@ -42,6 +45,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -50,9 +54,10 @@
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Automatic Shielding | Multi Coin | Shielded Memo | Spend before Sync | Swaps | ZNS Names
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -61,9 +66,10 @@
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: CrossPay | Multi Coin | Spend before Sync | Swaps
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -73,8 +79,9 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
-- Pools: Transparent | Sapling
+- Pools: Transparent | Sapling | Orchard
 - Features: Address Book | Address Check | Address Rotation | Automatic Shielding | Payment Request | Shielded Memo | TEX Address | Testnet Support
+- Source: Open Source
 
 ---
 
@@ -83,9 +90,10 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -94,9 +102,10 @@
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -108,6 +117,7 @@
 - Pools: Transparent | Sapling
 - Features: Address Book | RPC Interface | Shielded Memo | Testnet Support
 - NU7: Not Ready
+- Source: Open Source
 
 ---
 
@@ -119,6 +129,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -131,6 +142,7 @@
 - Features: RPC Interface | Shielded Memo | Testnet Support
 - Stage: Beta
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -142,17 +154,19 @@
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Full Node
 - Pools: Transparent | Sapling
 - Features: Address Rotation | Command Line Interface | RPC Interface | Shielded Memo | Testnet Support
+- Source: Open Source
 
 ---
 
 ## [Brave](https://brave.com/wallet/)
 ![logo](/content-images/wallets/brave.webp "Brave")
 - Devices: Web
-- Operating System: Windows | Linux | MacOS
+- Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent
+- Pools: Transparent | Ironwood
 - Features: Shielded Memo | Testnet Support
 - NU7: Not Ready
+- Source: Open Source
 
 ---
 
@@ -161,9 +175,10 @@
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling
+- Pools: Transparent | Sapling | Orchard
 - Features: Multi Coin
 - NU7: Not Verified
+- Source: Open Source
 
 ---
 
@@ -172,9 +187,10 @@
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
-- Pools: Transparent | Sapling
-- Features: Swaps | ZNS Names
+- Pools: Transparent | Sapling | Orchard | Ironwood
+- Features: Swaps | ZNS Names | X Tipping
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -186,6 +202,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
 - NU7: Compatible
+- Source: Closed Source
 
 ---
 
@@ -197,6 +214,7 @@
 - Pools: Transparent
 - Features: Multi Coin | Multisig
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -208,6 +226,7 @@
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
+- Source: Closed Source
 
 ---
 
@@ -219,6 +238,7 @@
 - Pools: Transparent
 - Features: Multi Coin | Swaps
 - NU7: Not Ready
+- Source: Closed Source
 
 ---
 
@@ -230,6 +250,7 @@
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
+- Source: Closed Source
 
 ---
 
@@ -237,9 +258,10 @@
 ![logo](/content-images/wallets/keystone.webp "Keystone")
 - Devices: Hardware
 - Wallet Support: Hardware | Unified Address
-- Pools: Transparent | Ironwood
-- Features: Multi Coin
+- Pools: Transparent | Orchard | Ironwood
+- Features: Multi Coin | Voting
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -251,6 +273,7 @@
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
 - NU7: Compatible
+- Source: Closed Source
 
 ---
 
@@ -272,6 +295,7 @@
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
+- Source: Closed Source
 
 ---
 
@@ -291,10 +315,11 @@
 - Devices: Desktop | Mobile
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
 - NU7: Compatible
-
+- Source: Open Source
+  
 ---
 
 ## [Noir wallet](https://www.zknoir.com/)
@@ -302,9 +327,10 @@
 - Devices: Web | Desktop
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address | Hardware
-- Pools: Transparent | Ironwood
-- Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names
+- Pools: Transparent | Sapling | Orchard | Ironwood
+- Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names | Voting
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -316,6 +342,7 @@
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin | NEAR Intents
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -324,9 +351,10 @@
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
-- Pools: Transparent | Sapling | Ironwood | RAILGUN (0zkUSDC)
+- Pools: Transparent | Sapling | Orchard | Ironwood | RAILGUN (0zkUSDC)
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -335,9 +363,10 @@
 - Devices: Desktop
 - Operating System: Linux
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node
-- Pools: Transparent | Sapling | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Encrypted Backup | RPC Interface | Shielded Memo
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -349,7 +378,8 @@
 - Pools: Transparent | Sapling
 - Features: No KYC | Shielded Memo
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
+- Source: Open Source
 
 ---
 
@@ -361,6 +391,8 @@
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
 - NU7: Compatible
+- Source: Open Source
+- Stage: Beta
 
 ---
 
@@ -372,7 +404,8 @@
 - Pools: Transparent | Sapling
 - Features: AI Agent (MCP) | CipherPay | Command Line Interface | FROST Multisig | NEAR Intents | Payment Request | Shielded Memo | Testnet Support
 - NU7: Not Ready
-- Status: Beta 
+- Stage: Beta 
+- Source: Open Source
 
 ---
 
@@ -381,9 +414,10 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Spending Key | Private Key
-- Pools: Transparent | Sprout | Sapling | Ironwood
+- Pools: Transparent | Sprout | Sapling | Orchard | Ironwood
 - Features: Command Line Interface | Shielded Memo | Testnet Support | Wallet Recovery
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -395,6 +429,7 @@
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Compatible
+- Source: Open Source
 
 ---
 
@@ -406,6 +441,7 @@
 - Pools: Transparent
 - Features: Multi Coin | Swaps
 - NU7: Not Ready
+- Source: Open Source
 
 ---
 
@@ -417,7 +453,8 @@
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
 - Features: Multi Coin | Shielded Transactions | Swaps | FROST Multisig | Cold Signing
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
+- Source: Open Source
 
 ---
 
@@ -425,11 +462,12 @@
 ![logo](/content-images/wallets/Laurel.webp "Laurel Wallet") 
 - Devices: Mobile
 - Operating System: Android | Windows | Linux
-- Wallet Support: 24-Word Seed Phrase | Wallet Import | Encrypted Local Storage | Offline Signing | Viewing Keys
+- Wallet Support: 24-Word Seed Phrase | Wallet Import | Offline Signing | Viewing Keys
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Storage
+- Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Backup
 - NU7: Not Ready
-- Status: Beta 
+- Stage: Beta 
+- Source: Open Source
 
 ---
 
@@ -437,11 +475,12 @@
 ![logo](/content-images/wallets/Veylor.webp "Veylor Wallet") 
 - Devices: Mobile
 - Operating System: iOS | Android
-- Wallet Support: Seed Phrase | Self-Custody | Hardware Wallet Integration (Keystone | Ledger)
+- Wallet Support: Seed Phrase | Self-Custody | Keystone | Ledger
 - Pools: Transparent | Sapling | Orchard | RAILGUN (0zkUSDC)
-- Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware Wallet Support | Voting
+- Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware | Voting
 - NU7: Not Ready
-- Status: Beta
+- Stage: Beta
+- Source: Open Source
 
 ---
 
@@ -454,6 +493,7 @@
 - Features: Address Rotation | Open Source | Pool Transfer | Reproducible Build | Shielded Memo
 - NU7: Compatible
 - Status: Beta
+- Stage: Open Source
 
 ---
 
@@ -465,6 +505,7 @@
 - Pools: Transparent | Orchard | Ironwood
 - Features: Address Check | NEAR Intents | Offline Signing | Shielded Memo | Testnet Support
 - NU7: Not Verified
-- Status: Beta
+- Stage: Beta
+- Source: Open Source
 
 ---
