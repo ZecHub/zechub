@@ -210,3 +210,5 @@ If you already have Zcash recovery material from YWallet, restore it in Zkool us
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) - public lightwalletd endpoints Argos can use
 - [Argos user guide](https://argos.sovright.com/guide.html) - official walkthrough from Sovright
 - [Naomi Brockwell on recovery tools](https://x.com/naomibrockwell/status/2079146521405333526) - Argos walkthrough and a note on professional recovery
+- [Where's My ZEC](https://cryppit.github.io/wheres-my-zec/) - trace a ZEC transaction through a THORChain swap or the NEAR Omni bridge (free, keyless, read-only)
+- [Zcash Refund Helper](https://cryppit.github.io/zec-refund-helper/) - the NEAR Omni bridge's own refund steps for a ZEC deposit it never credited (free, keyless, read-only)

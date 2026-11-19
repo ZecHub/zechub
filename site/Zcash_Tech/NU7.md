@@ -145,6 +145,8 @@ Answers: (1) the per-block subsidy was cut to a third while blocks became three 
 
 [Zcash Community Forum: NU7 Timeline](https://forum.zcashcommunity.com/t/nu7-timeline/57655)
 
+[NU7 readiness board](https://cryppit.github.io/nu7-readiness/): which wallets, libraries, bridges and swaps can send after NU7, from public evidence (Cryppit; free, keyless, read-only)
+
 ## Related Pages
 
 | Page | Why it is related |

@@ -199,6 +199,22 @@ A privacy-focused static website that aggregates Zcash news, statistics, and edu
 A retro-style desktop interface that combines various Zcash ecosystem tools and information into one application. It includes a blockchain explorer, mempool viewer, network statistics, historical charts, shielded pool information, mining tools, a Unified Address decoder, calculator, games, terminal, and other utilities.  
 [Visit](https://www.zec-os.com/)
 
+### NU7 readiness board
+Which Zcash wallets, libraries, bridges and swaps can send after NU7, with public evidence for each row. Free, keyless and read-only, by Cryppit.  
+[Visit](https://cryppit.github.io/nu7-readiness/)
+
+### Shield Receipt
+Paste a ZEC withdrawal's transaction ID and the address you gave to see whether it was paid to the transparent part or landed shielded, and in which pool. Free, keyless and read-only, by Cryppit.  
+[Visit](https://cryppit.github.io/shield-receipt/)
+
+### Where's My ZEC
+Paste a Zcash transaction ID or address to see where the ZEC went: THORChain swaps and refunds, deposits into the NEAR Omni bridge, and which exchanges and wallets can send to an address. Free, keyless and read-only, by Cryppit.  
+[Visit](https://cryppit.github.io/wheres-my-zec/)
+
+### Zcash Refund Helper
+Find a ZEC or BTC deposit in the NEAR Omni bridge from its transaction hash, and get the bridge's own refund steps. Free, keyless and read-only; it never signs anything. By Cryppit.  
+[Visit](https://cryppit.github.io/zec-refund-helper/)
+
 ---
 
 ## Identity, Names, and User Experience
@@ -263,6 +279,10 @@ Threshold signature scheme (FROST) work being advanced for broader adoption in t
 ### MonteZcret Benchmark
 Open-source performance-testing project that evaluates different methods of synchronizing Zcash blockchain data.  
 [Visit](https://github.com/openkoder/benchmarks_zcash/)
+
+### zcash-tex-vectors
+ZIP 320 TEX address test vectors, with valid and invalid inputs for Mainnet, Testnet and Regtest, a reference codec and an integrator checklist. MIT licence, by Cryppit.  
+[Visit](https://github.com/cryppit/zcash-tex-vectors)
 
 ---
 

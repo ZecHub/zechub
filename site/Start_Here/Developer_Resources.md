@@ -90,6 +90,8 @@ If you are new to blockchains generally, [Mastering Bitcoin](https://github.com/
 
 [Arti](https://docs.rs/arti/latest/arti/) is the Rust implementation of Tor, used by zcash_client_backend to route wallet traffic. [Tailscale](https://github.com/tailscale/tailscale) comes up for connecting to a node you run yourself. [warp2](https://github.com/hhanh00/warp2) is a fast sync implementation by Hanh, though it has not been updated since 2023.
 
+[zcash-tex-vectors](https://github.com/cryppit/zcash-tex-vectors) has ZIP 320 TEX address test vectors, including the invalid inputs that parsers get wrong, with a reference codec (MIT).
+
 ## Community and events
 
 The [Zcash R&D Discord](https://discord.gg/6AK7keWFaK) is where protocol and wallet development is discussed, and the [Zcash Community Forum](https://forum.zcashcommunity.com/) carries longer proposals and support threads.

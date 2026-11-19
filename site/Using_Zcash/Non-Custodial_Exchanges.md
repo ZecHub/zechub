@@ -94,6 +94,7 @@ Terms change, so read the current versions before a large swap.
 - **Start with the app you use.** It is your main point of contact. The 1Click API terms say Intents Technology has no direct relationship with users of apps built on it.
 - **NEAR Intents:** the terms and privacy policy at near.com/terms and near.com/privacy, plus the [1Click API terms](https://docs.near-intents.org/security-compliance/terms-of-service) and [risk and compliance](https://docs.near-intents.org/security-compliance/risk-and-compliance).
 - **Tracking and support:** look up a swap on the [NEAR Intents Explorer](https://explorer.near-intents.org) or ask in the [NEAR Intents Telegram](https://t.me/near_intents).
+- **THORChain swaps and Omni bridge deposits:** [Where's My ZEC](https://cryppit.github.io/wheres-my-zec/) takes a Zcash transaction ID or address and shows what happened to it. It is free, keyless and read-only.
 - **Refunds:** a failed swap may be sent back to the refund address you gave, but near.com's terms say a refund is not guaranteed. The 1Click terms also say recovery requests for user errors under USD 300 are not considered.
 
 Now, let us explore a few of the accessible non-custodial exchanges that facilitate Zcash trading. Utilizing these platforms will provide you with a convenient means to acquire more Zcash coins.
