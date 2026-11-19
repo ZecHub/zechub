@@ -186,13 +186,13 @@
 
 ## [MetaMask Snap](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/)
 ![logo](/content-images/wallets/metamask-snap.webp "MetaMask")
-- Source Code: https://github.com/ZcashCommunityGrants/WebZjs
+- Source Code: https://github.com/red-dev-inc/WebZjs
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Orchard
 - Features: Multi Coin
-- NU7: Not Verified
+- NU7: Not Ready
 - Source: Open Source
 
 ---
@@ -312,13 +312,13 @@
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/wallets/trezor.webp "Trezor")
-- Source Code: https://github.com/orgs/trezor
+- Source Code: https://github.com/trezor/trezor-firmware
 - Devices: Hardware
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
-- NU7: Not Ready
-- Source: Closed Source
+- NU7: In Progress
+- Source: Open Source
 
 ---
 
