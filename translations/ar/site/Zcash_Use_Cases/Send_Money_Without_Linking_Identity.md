@@ -1,36 +1,36 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="أيقونة صحفي"/> أرسل الأموال دون ربط هويتك
+# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> أرسل الأموال دون ربطها بهويتك
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>متوسط - 7 دقائق</span>
 
-## الخلاصة
+## الخلاصة (TL;DR)
 
-- أرسل دائمًا من **عنوان محمي**
-- تجنب معاملات t إلى t المباشرة
+- أرسل دائمًا من **عنوان محمي (shielded address)**
+- تجنّب المعاملات (transactions) المباشرة من t إلى t
 - اقطع قابلية الربط بين الهويات
 - انتبه إلى التوقيت والأنماط
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة مستخدم"/> لمن هذا؟
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> لمن هذا الدليل؟
 
-- أي شخص يرسل مدفوعات حساسة
-- المستخدمون المهتمون بالخصوصية
-- الأشخاص الذين يعملون تحت خطر المراقبة
+- لأي شخص يرسل مدفوعات (payments) حساسة
+- للمستخدمين المهتمين بالخصوصية (privacy)
+- للأشخاص الذين يعملون في ظل خطر المراقبة
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تحذير"/> المشكلة
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> المشكلة
 
-غالبًا ما يكشف إرسال العملات الرقمية عن:
-- هوية محفظتك
+غالبًا ما يكشف إرسال العملات المشفرة عن:
+- هوية محفظتك (wallet)
 - سجل معاملاتك
-- الأشخاص الذين تتفاعل معهم
+- الأشخاص الذين تتعامل معهم
 
-وهذا ينشئ **رسمًا بيانيًا ماليًا قابلًا للتتبع**.
+وهذا ينشئ **شبكة مالية قابلة للتتبع**.
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق أدوات"/> لماذا Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> لماذا Zcash؟
 
 
 يتيح Zcash **تحويلات خاصة بالكامل** باستخدام المعاملات المحمية.
@@ -41,66 +41,66 @@
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق أدوات"/> ما الذي تحتاجه
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> ما الذي تحتاجه
 
 - محفظة تدعم المعاملات المحمية
 - فهم أساسي لعناوين z
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة خطوة"/> دليل خطوة بخطوة
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> دليل خطوة بخطوة
 
-### الخطوة 1: تأكد من أن الأموال محمية
+### الخطوة 1: تأكّد من أن أموالك محمية
 
-إذا كانت أموالك في عنوان شفاف:
+إذا كانت أموالك في عنوان شفاف (transparent):
 - انقلها أولًا إلى عنوان محمي
 
 
-### الخطوة 2: أرسل من محمي إلى محمي
+### الخطوة 2: أرسل من عنوان محمي إلى عنوان محمي
 فضّل دائمًا معاملة `z to z`
 
-وهذا يضمن أقصى قدر من الخصوصية.
+فهذا يضمن أقصى درجات الخصوصية.
 
 
-### الخطوة 3: تجنب ربط الهوية
+### الخطوة 3: تجنّب ربط الهوية
 
-لا تقم بما يلي:
-- الإعلان عن المعاملات علنًا
-- إعادة استخدام العنوان نفسه عبر سياقات مختلفة
-- ربط العناوين بهويات معروفة
+لا تفعل ما يلي:
+- الإعلان عن معاملاتك علنًا
+- إعادة استخدام العنوان نفسه في سياقات مختلفة
+- ربط عناوينك بهويات معروفة
 
-### الخطوة 4: راعِ أنماط التوقيت
+### الخطوة 4: انتبه إلى أنماط التوقيت
 
 نصيحة متقدمة:
-- تجنب الإرسال مباشرة بعد استلام مبالغ كبيرة
-- اكسر الأنماط المتوقعة كلما أمكن
+- تجنّب الإرسال فور تلقيك مبالغ كبيرة
+- اكسر الأنماط المتوقعة كلما أمكن ذلك
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة إلغاء"/> أخطاء شائعة يجب تجنبها
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> أخطاء شائعة يجب تجنبها
 
-- الإرسال مباشرة من العناوين الشفافة  
+- الإرسال مباشرة من عناوين شفافة  
 - إعادة استخدام العناوين مع عدة أشخاص  
 - تأكيد المعاملات علنًا  
 - تجاهل البيانات الوصفية (التوقيت، التكرار)
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تم"/> النتيجة
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> النتيجة
 
-يمكنك:
+يمكنك الآن:
 - إرسال الأموال بشكل خاص
-- تجنب ربط هويتك
+- تجنّب ربط هويتك
 - تقليل إمكانية التتبع
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> ذو صلة
-- [ما الذي يمكن لمستكشف الكتل رؤيته](/zcash-tech/what-a-block-explorer-can-see)
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> مواضيع ذات صلة
+- [ما الذي يمكن أن يراه مستكشف الكتل](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة التقدم"/> التقدم
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> التقدّم
 
 **الخطوة 2 من 6**
 
@@ -110,4 +110,4 @@
 
 ## الخطوة التالية
 
-- [إعداد خصوصية المستقل](/zcash-use-cases/freelance-privacy-setup)
+- [إعداد الخصوصية للعاملين المستقلين](/zcash-use-cases/freelance-privacy-setup)

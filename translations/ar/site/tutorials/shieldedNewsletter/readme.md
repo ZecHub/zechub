@@ -3,16 +3,16 @@
 
 ## الإعداد
 
- * عقدة Zebrad قيد التشغيل ومتزامنة بالكامل مع تفعيل RPC's وتهيئتها لاستخدام ملفات تعريف الارتباط
+ * عقدة (node) Zebrad قيد التشغيل ومتزامنة بالكامل، مع تفعيل RPC وتهيئتها لاستخدام ملفات تعريف الارتباط (cookies)
  * zainod متزامن بالكامل
- * إعداد Zallet لتشغيل RPC's
+ * Zallet مُعدّ لتشغيل RPC
 
 
 ### تشغيل Zallet
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
-مع ملف zallet.toml مُهيأ
+باستخدام ملف zallet.toml مهيأ
 
 مثال على ملف toml:
 
@@ -72,7 +72,7 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-عدّل منفذ zebrad RPC الصحيح (8232) وأدرج اسم المستخدم وكلمة المرور من ملف تعريف ارتباط zebrad
+عدّل منفذ RPC الصحيح الخاص بـ zebrad (8232)، وأضف اسم المستخدم وكلمة المرور من ملف تعريف الارتباط الخاص بـ zebrad
 
 
 `__cookie__:yourpasswordhere`
@@ -82,7 +82,7 @@ bind = ["127.0.0.1:8237"]
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
-يجب أن يُظهر
+يجب أن يكون الناتج
 
 ```bash
 getrawtransaction
@@ -107,15 +107,15 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-ملاحظة: تأكد من أن لديك نسخة من الملف التنفيذي zallet في المجلد الذي تشغّل منه السكربت
+تنبيه: تأكد من وجود نسخة من الملف التنفيذي zallet في المجلد الذي تشغّل منه السكربت
 
 ### تشغيل السكربتات
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-حدّث daoAddress.md بعناوين UA التي تريد استخدامها
+حدّث الملف daoAddress.md بالعناوين (address) الموحدة (UA) التي تريد استخدامها
 
-افتح txBuilderFromFile.sh وحدّث المتغيّر "from" إلى عنوان UA المموَّل الموجود في محفظة zallet الخاصة بك
+افتح الملف txBuilderFromFile.sh وحدّث المتغير «from» ليصبح العنوان الموحد (UA) الممول الموجود في محفظة (wallet) zallet الخاصة بك
 
 ثم،
 

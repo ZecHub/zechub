@@ -1,28 +1,28 @@
-[![تحرير الصفحة](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
+[![تعديل الصفحة](https://img.shields.io/badge/Edit-blue)](https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Blogs.md)
 
 # مدونات المجتمع
 
-يدير أعضاء المجتمع العديد من المدونات الممتازة التي تغطي Zcash والخصوصية والعملات المشفرة والموضوعات ذات الصلة.
+يدير أعضاء المجتمع العديد من المدونات الممتازة التي تتناول Zcash والخصوصية (privacy) والعملات المشفرة والمواضيع ذات الصلة.
 
 إليك بعض المدونات النشطة:
 
 | المدونة / الكاتب              | الوصف                                              | الرابط |
 |----------------------------|----------------------------------------------------------|------|
-| How Zcash works            | ابنِ نموذجًا عمليًا لـ Zcash                           | [زيارة ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
+| كيف يعمل Zcash            | ابنِ نموذجًا عمليًا لـ Zcash                           | [زيارة ->](https://community.pgpz.org/zec-shelf/how-zcash-works.html#top) |
 | Max Desalle                | إتقان Zcash                                          | [زيارة ->](https://maxdesalle.com/mastering-zcash/) |
 | Mike Rosulek               | متعة علم التشفير                                  | [زيارة ->](https://joyofcryptography.com/) |
 | James Katz                 | كتابات وأفكار شخصية حول Zcash والخصوصية      | [زيارة ->](https://free2z.cash/James_Katz/) |
-| Thumbs' Update             | تحديثات منتظمة حول النظام البيئي ورؤى معمقة                   | [زيارة ->](https://thumbsup.substack.com) |
+| Thumbs' Update             | تحديثات ورؤى منتظمة حول المنظومة                   | [زيارة ->](https://thumbsup.substack.com) |
 | roomatemusing              | تأملات ومحتوى مجتمعي                            | [زيارة ->](https://free2z.cash/roommatemusing) |
-| NerdBank Blog              | مدونة تقنية تركز على تطوير Zcash والأدوات    | [زيارة ->](https://blog.nerdbank.net/) |
+| NerdBank Blog              | مدونة تقنية تركز على التطوير والأدوات (tools) الخاصة بـ Zcash    | [زيارة ->](https://blog.nerdbank.net/) |
 | ZecMec                     | مقالات تركز على Zcash حول Medium                         | [زيارة ->](https://zecmec21.medium.com/) |
-| Naomi Brockwell (NBTV)     | مقابلات رفيعة المستوى ومحتوى عن الخصوصية           | [زيارة ->](https://naomibrockwell.com/highprofileinterviews) |
-| Sqribbles                  | محتوى إبداعي ومجتمعي موجّه لـ Zcash              | [زيارة ->](https://free2z.cash/sqribbles) |
-| Str4d                      | كتابات تقنية من مطور أساسي في Zcash             | [زيارة ->](https://words.str4d.xyz/) |
-| CipherScan Weekly          | تدوينات أسبوعية تغطي تحليلات بلوكتشين Zcash    | [زيارة ->](https://zecblock.com/) |
-| Zcash Shielded News        | موجز أسبوعي لأخبار الخصوصية والنظام البيئي                 | [زيارة ->](https://zechub.substack.com/) |
-| ZecHub DAO Blog            | مقالات ومحتوى تعليمي من مجتمع ZecHub DAO | [زيارة ->](https://zechub.wiki) |
+| Naomi Brockwell (NBTV)     | مقابلات ومحتوى بارز حول الخصوصية           | [زيارة ->](https://naomibrockwell.com/highprofileinterviews) |
+| Sqribbles                  | محتوى إبداعي يقوده المجتمع حول Zcash              | [زيارة ->](https://free2z.cash/sqribbles) |
+| Str4d                      | كتابات تقنية من المطور (developer) الأساسي لـ Zcash             | [زيارة ->](https://words.str4d.xyz/) |
+| CipherScan Weekly          | تدوينات أسبوعية تغطي تحليلات سلسلة الكتل (blockchain) الخاصة بـ Zcash    | [زيارة ->](https://zecblock.com/) |
+| أخبار Zcash المحمية (shielded)        | ملخص أسبوعي لأخبار الخصوصية والمنظومة                 | [زيارة ->](https://zechub.substack.com/) |
+| مدونة المنظمة المستقلة اللامركزية (DAO) ZecHub            | مقالات ومحتوى تعليمي من مجتمع DAO ZecHub | [زيارة ->](https://zechub.wiki) |
 
 ---
 
-إليك بعض المدونات التي قدّمها أفراد المجتمع. إذا كنت ترغب في أن يبرز ZecHub إحدى تدويناتك أو أن يضيف مدونتك هنا، فيرجى إنشاء Pull Request مع التفاصيل!
+إليك بعض المدونات التي قدمها أعضاء المجتمع. إذا كنت ترغب في أن يعرض ZecHub إحدى تدويناتك أو في إضافة مدونتك الخاصة هنا، فيُرجى إنشاء طلب سحب (Pull Request) يتضمن التفاصيل!

@@ -2,106 +2,106 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# دليل مستخدم Ledger Shielded ZEC
+# دليل استخدام ZEC المحمي على Ledger
 
-> احتفظ بـ ZEC الخاص (المحمي)، واستقبله وأرسله باستخدام محفظة الأجهزة Ledger الخاصة بك في Ledger Wallet Desktop.
+> احتفظ بـ ZEC الخاصة (المحمية) واستلمها وأرسلها باستخدام محفظتك المادية (hardware wallet) من Ledger في Ledger Wallet Desktop.
 
-## باختصار
+## TL;DR
 
-* منذ 23 سبتمبر 2026، يدعم Ledger Wallet Desktop أرصدة ZEC المحمية. يحتوي حساب Zcash واحد على رصيد شفاف ورصيد خاص في مجمّع Ironwood.
-* يقتصر الدعم على سطح المكتب في الوقت الحالي. وقد أُعلن أن دعم الأجهزة المحمولة «قادم قريبًا».
-* تحتاج إلى Nano S Plus أو Nano X أو Stax أو Flex (وليس Nano S الأصلي)، وLedger Wallet Desktop 4.21+، وأحدث تطبيق Zcash.
-* انقر **تفعيل الحماية** مرة واحدة: يصدّر Ledger مفتاح عرض كي يتمكن تطبيق سطح المكتب من العثور على أموالك الخاصة. لا تغادر مفاتيح الإنفاق الجهاز أبدًا.
-* استقبل إلى العنوان الخاص (u1...) متى استطعت. يعمل نقل ZEC من رصيدك الشفاف إلى الخاص، لكنه يربط بينهما.
-* تُراجَع كل عملية إرسال وتُوقَّع على شاشة Ledger. تحقّق من العناوين هناك، حرفًا حرفًا.
+* منذ 23 سبتمبر 2026، يدعم Ledger Wallet Desktop عملة ZEC المحمية. يضم حساب Zcash واحد رصيدًا شفافًا (transparent) ورصيدًا خاصًا في مجمّع (pool) Ironwood.
+* الدعم متاح على سطح المكتب فقط حاليًا. أُعلن أن دعم الأجهزة المحمولة «قادم قريبًا».
+* تحتاج إلى جهاز Nano S Plus أو Nano X أو Stax أو Flex (وليس Nano S الأصلي)، وإلى Ledger Wallet Desktop بالإصدار 4.21 أو أحدث، وإلى أحدث إصدار من تطبيق Zcash.
+* انقر على **تفعيل الرصيد المحمي** مرة واحدة: يصدّر جهاز Ledger مفتاح العرض (viewing key) حتى يتمكن تطبيق سطح المكتب من العثور على أموالك الخاصة. لا تغادر مفاتيح الإنفاق (spending keys) الجهاز أبدًا.
+* استلم على العنوان (address) الخاص (u1...) متى أمكنك ذلك. يمكنك نقل ZEC من رصيدك الشفاف إلى الرصيد الخاص، لكن ذلك يربط بين الرصيدين.
+* تُراجَع كل عملية إرسال وتُوقَّع على شاشة Ledger. تحقّق من العناوين هناك، حرفًا بحرف.
 
 ## الشرح الأساسي
 
-لدى Zcash نوعان من الأرصدة. يعمل الرصيد الشفاف ZEC (عناوين t1) مثل Bitcoin: تكون المبالغ والعناوين علنية. يوجد الرصيد المحمي ZEC في تجمع محمي، حيث يُشفَّر المرسل والمستلم والمبلغ على السلسلة.
+لدى Zcash نوعان من الرصيد. تعمل ZEC الشفافة (عناوين t1) مثل Bitcoin: المبالغ والعناوين علنية. أما ZEC المحمية فتوجد في مجمّع محمي، حيث يكون المرسل والمستلم والمبلغ مشفّرين على السلسلة (on-chain).
 
-يحتفظ Ledger بمفاتيح الإنفاق الخاصة بك على الجهاز العتادي. لعرض رصيد خاص، يحتاج Ledger Wallet Desktop إلى Full Viewing Key موحّد (UFVK). يصدّره الجهاز مرة واحدة، ويستخدمه تطبيق سطح المكتب لمسح blockchain بحثًا عن ملاحظاتك المحمية. يمكن لمفتاح العرض رؤية سجلك المحمي، لكنه لا يستطيع الإنفاق، لذا تعامل معه باعتباره معلومات خاصة.
+يحتفظ Ledger بمفاتيح الإنفاق الخاصة بك على الجهاز المادي. لعرض رصيد خاص، يحتاج Ledger Wallet Desktop إلى مفتاح Unified Full Viewing Key (UFVK). يصدّره الجهاز مرة واحدة، ويستخدمه تطبيق سطح المكتب لفحص سلسلة الكتل (blockchain) بحثًا عن notes المحمية الخاصة بك. يمكن لمفتاح العرض أن يرى سجلك المحمي لكنه لا يستطيع الإنفاق، لذا تعامل معه كمعلومة خاصة.
 
-تغطي الخطوات أدناه تثبيت تطبيق Zcash، وإضافة حساب، وتمكين الرصيد الخاص، والاستلام، وتحويل ZEC الشفاف إلى رصيد محمي، والإرسال من الرصيد الخاص.
+تغطي الخطوات أدناه تثبيت تطبيق Zcash، وإضافة حساب، وتفعيل الرصيد الخاص، والاستلام، وحماية ZEC الشفافة، والإرسال من الرصيد الخاص.
 
 ## نظرة عامة
 
-في 23 سبتمبر 2026، أضافت Ledger دعمًا أصليًا لـ ZEC المحمي إلى محفظة Ledger Wallet Desktop. يضم حساب Zcash واحد الآن رصيدًا شفافًا ورصيدًا خاصًا في تجمّع Zcash Ironwood. تبقى مفاتيحك الخاصة على جهاز Ledger الخاص بك، وتتم مراجعة كل معاملة وتوقيعها على الجهاز.
+في 23 سبتمبر 2026 أضافت Ledger دعمًا أصليًا لـ ZEC المحمية إلى Ledger Wallet Desktop. أصبح حساب Zcash واحد يحتفظ الآن برصيد شفاف ورصيد خاص في مجمّع Ironwood التابع لـ Zcash. تبقى مفاتيحك الخاصة على جهاز Ledger، وتُراجَع كل معاملة (transaction) وتُوقَّع على الجهاز.
 
-**لأجهزة سطح المكتب فقط.** ينص إعلان Ledger على أن ZEC المحمي «متاح على Ledger Wallet Desktop فقط. لا يتوفر دعم الأجهزة المحمولة في الوقت الحالي، لكنه قادم قريبًا». ويعرض تطبيق سطح المكتب الإشعار نفسه. تم التحقق في 15 أكتوبر 2026.
+**سطح المكتب فقط.** يقول إعلان Ledger إن ZEC المحمية «متاحة على Ledger Wallet Desktop فقط. دعم الأجهزة المحمولة غير متاح في الوقت الحالي، لكنه قادم قريبًا». يعرض تطبيق سطح المكتب الإشعار نفسه. تم التحقق في 15 أكتوبر 2026.
 
 ## التحضير
 
-- جهاز Ledger يشغّل تطبيق Zcash: Nano S Plus أو Nano X أو Stax أو Flex. لا يُصمَّم تطبيق Zcash الحالي لجهاز Nano S الأصلي.
-- Ledger Wallet Desktop الإصدار 4.21 أو أحدث، ويُنزَّل فقط من [ledger.com](https://www.ledger.com). استخدم هذا الدليل الإصدار 4.24.0.
-- أحدث تطبيق Zcash على جهاز Ledger الخاص بك (الإصدار 3.9.4 عند كتابة هذا الدليل).
-- كمية صغيرة من ZEC للاختبار. أُنجزت كل الخطوات أدناه على mainnet باستخدام 0.001 ZEC. تكلّف كل معاملة رسوم شبكة صغيرة (0.00015 ZEC في اختبارنا).
-- احتفظ بعبارة الاسترداد المكوّنة من 24 كلمة على الورق. لا تكتبها أبدًا في جهاز كمبيوتر ولا تشاركها.
+- جهاز Ledger يشغّل تطبيق Zcash: Nano S Plus أو Nano X أو Stax أو Flex. تطبيق Zcash الحالي غير مصمَّم لجهاز Nano S الأصلي.
+- Ledger Wallet Desktop بالإصدار 4.21 أو أحدث، يُنزَّل فقط من [ledger.com](https://www.ledger.com). استُخدم في هذا الدليل الإصدار 4.24.0.
+- أحدث إصدار من تطبيق Zcash على جهاز Ledger (3.9.4 عند كتابة هذا الدليل).
+- مبلغ صغير من ZEC للتجربة. نُفّذت كل خطوة أدناه على الشبكة الرئيسية بمبلغ 0.001 ZEC. تكلّف كل معاملة رسوم (fee) شبكة صغيرة (0.00015 ZEC في اختبارنا).
+- تبقى عبارة الاسترداد المكوّنة من 24 كلمة على الورق. لا تكتبها أبدًا على حاسوب ولا تشاركها مع أحد.
 
-## الدليل خطوة بخطوة (Ledger Wallet Desktop)
+## دليل خطوة بخطوة (Ledger Wallet Desktop)
 
-**1. تثبيت تطبيق Zcash أو تحديثه**
-- افتح Ledger Wallet، وصّل جهاز Ledger وألغِ قفله، ثم افتح **My Ledger**. اسمح بالاتصال على الجهاز.
-- ابحث عن **Zcash** في كتالوج التطبيقات، ثم انقر **Install**، أو **Update** إذا كان مثبّتًا بالفعل.
-- افتح تطبيق Zcash على جهاز Ledger. ستظهر على الشاشة العبارة "Zcash app is ready". مرّر إلى اليمين وصولًا إلى **App info** للتحقق من الإصدار.
+**1. ثبّت تطبيق Zcash أو حدّثه**
+- افتح Ledger Wallet، ثم وصّل جهاز Ledger وافتح قفله، وافتح **Ledger الخاص بي**. اسمح بالاتصال على الجهاز.
+- ابحث عن **Zcash** في كتالوج التطبيقات، ثم انقر على **تثبيت**، أو **تحديث** إذا كان مثبّتًا بالفعل.
+- افتح تطبيق Zcash على جهاز Ledger. تظهر على الشاشة عبارة «تطبيق Zcash جاهز». مرّر إلى اليمين حتى **معلومات التطبيق** للتحقق من الإصدار.
 
-**2. إضافة حساب Zcash**
-- في Ledger Wallet، اختر **Add account**. في **Select asset**، ابحث عن Zcash واختر **Zcash (ZEC)**، وليس رمزًا مغلفًا مثل Binance-Peg Zcash Token.
-- بينما يكون تطبيق Zcash مفتوحًا على جهاز Ledger، يعثر Ledger Wallet على حسابك. حدده ضمن **Select the accounts you want to add** وانقر **Confirm**.
-- تعرض صفحة الحساب **Available balance** و**Transparent balance** و**Private balance**، إضافة إلى زر **Enable shielded**.
+**2. أضف حساب Zcash**
+- في Ledger Wallet، اختر **إضافة حساب**. في **اختيار الأصل**، ابحث عن Zcash واختر **Zcash (ZEC)**، وليس رمزًا (token) مغلَّفًا مثل Binance-Peg Zcash Token.
+- عندما يكون تطبيق Zcash مفتوحًا على جهاز Ledger، يعثر Ledger Wallet على حسابك. حدّده تحت **اختر الحسابات التي تريد إضافتها** وانقر على **تأكيد**.
+- تعرض صفحة الحساب **الرصيد المتاح** و**الرصيد الشفاف** و**الرصيد الخاص**، بالإضافة إلى زر **تفعيل الرصيد المحمي**.
 
-![حساب Zcash في Ledger Wallet Desktop يعرض إشعار سطح المكتب فقط، والأرصدة الشفافة والخاصة، وزر "Enable shielded"](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![حساب Zcash في Ledger Wallet Desktop يعرض تنبيه الاقتصار على سطح المكتب والرصيدين الشفاف والخاص وزر «Enable shielded»](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
-**3. تفعيل الرصيد الخاص**
-- انقر **Enable shielded**. تحتوي نافذة **Enable Zcash private balance** على أربع خطوات: Birthday وUFVK وDevice وConfirmation.
-- **Birthday:** بالنسبة إلى حساب جديد، أبقِ ارتفاع تاريخ الميلاد على تاريخ اليوم. لا تحدد "This account received shielded ZEC in the past" إلا إذا كنت تعرف أن ذلك حدث، لأن المسح بدءًا من الكتلة 0 قد يستغرق وقتًا طويلًا.
-- **UFVK وDevice:** يطلب Ledger Wallet من جهاز Ledger تصدير Unified Full Viewing Key (UFVK). اقرأ الشاشات على الجهاز ووافق. إذا ظهرت لك رسالة "Device connection lost"، فتأكد من أن تطبيق Zcash مفتوح، ووافق بسرعة ثم انقر **Retry**.
-- عندما تظهر **UFVK successfully imported**، انقر **Start sync**. عند انتهاء المزامنة، يتغير الزر إلى **Update balance** مع وقت "Last sync".
-- يبقى مفتاح العرض على جهاز الكمبيوتر الخاص بك. يمكنه العثور على أموالك المحمية لكنه لا يستطيع إنفاقها.
+**3. فعّل الرصيد الخاص**
+- انقر على **تفعيل الرصيد المحمي**. تتضمن نافذة **تفعيل الرصيد الخاص لـ Zcash** أربع خطوات: تاريخ الميلاد، وUFVK، والجهاز، والتأكيد.
+- **تاريخ الميلاد:** بالنسبة إلى حساب جديد، أبقِ ارتفاع تاريخ الميلاد على تاريخ اليوم. لا تحدّد خيار «استلم هذا الحساب ZEC محمية في الماضي» إلا إذا كنت تعلم أنه استلمها بالفعل، لأن الفحص بدءًا من الكتلة (block) 0 قد يستغرق وقتًا طويلًا.
+- **UFVK والجهاز:** يطلب Ledger Wallet من جهاز Ledger تصدير مفتاح Unified Full Viewing Key (UFVK) الخاص بك. اقرأ الشاشات على الجهاز ووافق. إذا ظهرت لك رسالة «انقطع الاتصال بالجهاز»، فتأكد من أن تطبيق Zcash مفتوح، ووافق بسرعة، ثم انقر على **إعادة المحاولة**.
+- عندما تظهر لك رسالة **تم استيراد UFVK بنجاح**، انقر على **بدء المزامنة**. عند انتهاء المزامنة، يتغيّر الزر إلى **تحديث الرصيد** مع وقت «آخر مزامنة».
+- يبقى مفتاح العرض على حاسوبك. يمكنه العثور على أموالك المحمية لكنه لا يستطيع إنفاقها.
 
-![Enable Zcash private balance window showing UFVK successfully imported and the Start sync button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
+![نافذة تفعيل الرصيد الخاص لـ Zcash تُظهر نجاح استيراد UFVK وزر «Start sync»](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
 
-**4. استلام ZEC والتحقق من كلا العنوانين على جهاز Ledger**
-- انقر **Receive** واختر حساب Zcash الخاص بك. يعرض Ledger Wallet **Address for Zcash 1** (شفاف، يبدأ بـ t1) و**Private address for Zcash 1** (يبدأ بـ u1). تظل العناوين السابقة صالحة.
-- يعرض جهاز Ledger الخاص بك "Verify Zcash addresses"، ثم **Private address** عبر صفحتين، ثم **Public Address**. قارن كل حرف بالشاشة قبل مشاركة أي من العنوانين، ثم أكد على الجهاز.
-- فضّل العنوان الخاص؛ ولا تستخدم العنوان الشفاف إلا عندما لا يدعم المرسل أي خيار آخر.
+**4. استلم ZEC وتحقّق من كلا العنوانين على جهاز Ledger**
+- انقر على **استلام** واختر حساب Zcash الخاص بك. يعرض Ledger Wallet **عنوانًا لـ Zcash 1** (شفافًا، يبدأ بـ t1) و**عنوانًا خاصًا لـ Zcash 1** (يبدأ بـ u1). تبقى العناوين السابقة صالحة.
+- يعرض جهاز Ledger عبارة «تحقّق من عناوين Zcash»، ثم **العنوان الخاص** على صفحتين، ثم **العنوان العام**. قارن كل حرف بما يظهر على الشاشة قبل أن تشارك أيًّا من العنوانين، ثم أكّد على الجهاز.
+- فضّل العنوان الخاص؛ ولا تستخدم العنوان الشفاف إلا عندما لا يدعم المرسل غيره.
 
-![Ledger Wallet Receive window showing the transparent address and the private address for Zcash 1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-03-receive-addresses.png)
+![نافذة الاستلام في Ledger Wallet تعرض العنوان الشفاف والعنوان الخاص لحساب Zcash 1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-03-receive-addresses.png)
 
-![Ledger device screens: Verify Zcash addresses, Private address in two pages, then Public Address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
+![شاشات جهاز Ledger: «Verify Zcash addresses»، ثم «Private address» على صفحتين، ثم «Public Address»](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
 
-**5. نقل ZEC الشفاف إلى رصيدك الخاص**
-- انقر **Send**. ضمن **Self transfer**، اختر **Send to private balance**.
-- أدخل مبلغًا أو استخدم 25% أو 50% أو 75% أو **Max**. تحقق من رسوم الشبكة، ثم انقر **Review**.
-- على جهاز Ledger الخاص بك، انتقل عبر الخطوات التالية: "Review transaction to send ZEC"، و"Transfer from public to private address"، والمبلغ، وعنوان الإخراج على صفحتين، والرسوم، وارتفاع الانتهاء. تحقق من أن عنوان الإخراج يطابق عنوانك الخاص من الخطوة 4، ثم اضغط الزرين معًا عند **Sign transaction**.
-- يعرض Ledger Wallet **Transaction sent**. في تفاصيل المعاملة، يظهر النوع **Private (Ironwood)**.
-- يلاحظ Ledger Wallet أن التحويل الذاتي يربط أموالك المحمية بعنوانك العام. الاستلام مباشرةً إلى عنوانك الخاص يبقيها غير مرتبطة.
+**5. انقل ZEC الشفافة إلى رصيدك الخاص**
+- انقر على **إرسال**. تحت **تحويل ذاتي**، اختر **إرسال إلى الرصيد الخاص**.
+- أدخل مبلغًا أو استخدم 25% أو 50% أو 75% أو **الحد الأقصى**. تحقّق من رسوم الشبكة، ثم انقر على **مراجعة**.
+- على جهاز Ledger، انتقل عبر الشاشات: «راجع المعاملة لإرسال ZEC»، و«تحويل من عنوان عام إلى عنوان خاص»، والمبلغ، وعنوان الإخراج على صفحتين، والرسوم، وارتفاع انتهاء الصلاحية. تحقّق من أن عنوان الإخراج يطابق عنوانك الخاص من الخطوة 4، ثم اضغط على الزرين معًا عند **توقيع المعاملة**.
+- يعرض Ledger Wallet رسالة **تم إرسال المعاملة**. في تفاصيل المعاملة، يظهر النوع **خاصة (Ironwood)**.
+- ينبّه Ledger Wallet إلى أن التحويل الذاتي يربط أموالك المحمية بعنوانك العام. أما الاستلام مباشرةً على عنوانك الخاص فيُبقيها غير مرتبطة.
 
-![Send ZEC window in Ledger Wallet with the Self transfer option Send to private balance](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-05-send-to-private-balance.png)
+![نافذة إرسال ZEC في Ledger Wallet مع خيار «Self transfer» «Send to private balance»](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-05-send-to-private-balance.png)
 
-![Ledger device review screens for moving ZEC from the transparent balance to the private address, ending with Sign transaction and Transaction signed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-06-device-review-shielding.png)
+![شاشات المراجعة في جهاز Ledger لنقل ZEC من الرصيد الشفاف إلى العنوان الخاص، وتنتهي بـ «Sign transaction» و«Transaction signed»](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-06-device-review-shielding.png)
 
-- بعد تأكيد المعاملة، ينخفض الرصيد الشفاف ويرتفع الرصيد الخاص. تظهر الأموال المحمية الجديدة بصفتها "maturing" حتى تحصل على تأكيدات كافية لإنفاقها.
+- بعد تأكيد المعاملة، ينخفض الرصيد الشفاف ويرتفع الرصيد الخاص. تظهر الأموال المحمية الجديدة على أنها «قيد النضوج» حتى تحصل على عدد كافٍ من التأكيدات لإنفاقها.
 
-![حساب Zcash بعد الحماية: انخفض الرصيد الشفاف، وازداد الرصيد الخاص ويظهر قيد النضج](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![حساب Zcash بعد الحماية: انخفض الرصيد الشفاف وارتفع الرصيد الخاص ويظهر قيد النضوج](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
-**6. إرسال ZEC من رصيدك الخاص**
-- بمجرد أن يصبح الرصيد الخاص قابلًا للإنفاق، انقر **Send** واضبط **Transfer from** على **Private balance**.
-- الصق عنوان المستلم وأدخل المبلغ. يمكنك إضافة **Memo (optional)** مشفّرة حتى 512 بايت، ولا يستطيع قراءتها إلا المستلم.
-- راجع المستلم والمبلغ والرسوم على جهاز Ledger الخاص بك، ثم اضغط الزرين معًا عند **Sign transaction**.
+**6. أرسل ZEC من رصيدك الخاص**
+- بمجرد أن يصبح الرصيد الخاص قابلًا للإنفاق، انقر على **إرسال** واضبط **التحويل من** على **الرصيد الخاص**.
+- الصق عنوان المستلم وأدخل المبلغ. يمكنك إضافة **مذكرة (memo) (اختيارية)** مشفّرة بحجم يصل إلى 512 بايت، لا يستطيع قراءتها إلا المستلم.
+- راجع المستلم والمبلغ والرسوم على جهاز Ledger، ثم اضغط على الزرين معًا عند **توقيع المعاملة**.
 
-![Sent transaction from the private balance in Ledger Wallet transaction details](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-08-private-send.png)
+![تفاصيل معاملة مُرسَلة من الرصيد الخاص في Ledger Wallet](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-08-private-send.png)
 
-## معلومات مفيدة
+## من المفيد أن تعرف
 
-- ZEC المحمي على Ledger متاح لسطح المكتب فقط في الوقت الحالي (تم التحقق في 15 أكتوبر 2026).
-- يستخدم الرصيد الخاص في Ledger Wallet تجمّع Ironwood.
-- تقول Ledger إنه يمكنك مشاركة وصول للقراءة فقط إلى سجل معاملاتك مع مستشار ضريبي. يمكن لأي شخص يملك مفتاح العرض الخاص بك رؤية سجلك المحمي، لذا شاركه عن قصد فقط.
-- التُقطت شاشات الجهاز في هذا الدليل باستخدام محاكي Speculos الخاص بـ Ledger (Nano S Plus)، الذي يشغّل تطبيق Zcash الإصدار 3.9.4، ومتصلًا بـ Ledger Wallet Desktop 4.24.0 على شبكة Zcash الرئيسية. يشغّل جهاز Ledger فعلي التطبيق نفسه ويعرض الشاشات نفسها.
+- ZEC المحمية على Ledger متاحة على سطح المكتب فقط حاليًا (تم التحقق في 15 أكتوبر 2026).
+- يستخدم الرصيد الخاص في Ledger Wallet مجمّع Ironwood.
+- تقول Ledger إنه يمكنك مشاركة صلاحية القراءة فقط لسجل معاملاتك مع مستشار ضريبي. يستطيع أي شخص يملك مفتاح العرض الخاص بك رؤية سجلك المحمي، لذا لا تشاركه إلا عن قصد.
+- التُقطت شاشات الجهاز في هذا الدليل باستخدام محاكي Speculos من Ledger (Nano S Plus) الذي يشغّل تطبيق Zcash بالإصدار 3.9.4، متصلًا بـ Ledger Wallet Desktop بالإصدار 4.24.0 على الشبكة الرئيسية لـ Zcash. يشغّل جهاز Ledger المادي التطبيق نفسه ويعرض الشاشات نفسها.
 
 ## مساعدة إضافية
 
-- [الجديد في Ledger Wallet: دعم أصلي لـ Zcash المحمي](https://www.ledger.com/blog-native-shielded-zcash-support) (إعلان Ledger)
+- [جديد في Ledger Wallet: دعم أصلي لـ Zcash المحمية](https://www.ledger.com/blog-native-shielded-zcash-support) (إعلان Ledger)
 - [مركز مساعدة Ledger](https://support.ledger.com)
 - [صفحة محافظ ZecHub](/using-zcash/wallets)
-- [التجمّعات المحمية](/using-zcash/shielded-pools) و[مفاتيح العرض](/zcash-tech/viewing-keys) على ZecHub
-- خيار آخر لمحفظة أجهزة: [Keystone دليل مستخدم Zashi](/guides/keystone-zashi)
+- [المجمّعات المحمية](/using-zcash/shielded-pools) و[مفاتيح العرض](/zcash-tech/viewing-keys) على ZecHub
+- خيار آخر لمحفظة مادية: [دليل مستخدم Keystone Zashi](/guides/keystone-zashi)
