@@ -2247,7 +2247,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119+ar-block-agreement-20261119",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
