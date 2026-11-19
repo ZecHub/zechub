@@ -286,14 +286,14 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/wallets/ledger.webp "Ledger")
-- Source Code: https://github.com/Zondax/ledger-zcash
+- Source Code: https://github.com/LedgerHQ/app-zcash
 - Devices: Hardware
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Hardware
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
 - NU7: Compatible
-- Source: Closed Source
+- Source: Open Source
 
 ---
 
@@ -376,13 +376,13 @@
 
 ## [Zapp](https://www.justzappit.xyz/)
 ![logo](/content-images/wallets/zapp.webp "Zapp")
-- Source Code: https://github.com/ZLabcash/zapp
+- Source Code: https://github.com/JustZappIt
 - Devices: Mobile
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood | RAILGUN (0zkUSDC)
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
-- NU7: Compatible
+- NU7: In Progress
 - Source: Open Source
 
 ---
