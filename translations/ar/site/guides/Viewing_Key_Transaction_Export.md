@@ -137,7 +137,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `fee` | الرسوم بـ ZEC. في المدفوعات التي تلقيتها، دفعها المرسل ولا تكون ضمن `value`. |
 | `time` | وقت الكتلة بالتوقيت UTC، من دون علامة منطقة زمنية |
 | `notes` | ما تلقاه الحساب في هذه المعاملة، بما في ذلك التغيير. المذكرات المرسلة إليك موجودة هنا. لا تحتوي الإدخالات الشفافة على عنوان. |
-| `spends` | الـ notes الخاصة بالحساب التي استُهلكت في هذه المعاملة |
+| `spends` | notes الخاصة بالحساب التي استُهلكت في هذه المعاملة |
 | `outputs` | ما أرسلته المعاملة: كل مخرج شفاف، إضافةً إلى المدفوعات المحمية لعناوين أخرى مع مذكراتها |
 | `pool` | 0 شفاف، 1 Sapling، 2 Orchard، 3 Ironwood |
 | `scope` | 0 خارجي (دفعة واردة)، 1 داخلي (تغيير) |
@@ -187,7 +187,7 @@ $Z --offline messages > memos.json
 
 يقرأ `--offline` ما تمت مزامنته مسبقًا دون الاتصال بالشبكة.
 
-- يعطي `transactions` إدخالًا واحدًا لكل معاملة: txid، والوقت (UTC)، والارتفاع، والنوع (`received` أو `sent` أو `shield` أو `send-to-self`)، والقيمة، والرسوم، والـ notes المعنية.
+- يعطي `transactions` إدخالًا واحدًا لكل معاملة: txid، والوقت (UTC)، والارتفاع، والنوع (`received` أو `sent` أو `shield` أو `send-to-self`)، والقيمة، والرسوم، و notes المعنية.
 - يعطي `value_transfers` إدخالًا واحدًا لكل دفعة، لذا فإن إرسالًا إلى شخصين ينتج إدخالين، لكل منهما عنوان المستلم والمذكرات.
 - يسرد `messages` المذكرات بصيغة JSON.
 
@@ -213,7 +213,7 @@ $Z --offline messages > memos.json
 |---|---|
 | ZODL | ملف CSV ضريبي بالتواريخ والمبالغ والرسوم ووسم. للسنة التقويمية السابقة فقط، ويتخطى معاملات الحماية، ولا يحتوي على txid أو مذكرة أو عنوان. |
 | تطبيق Zkool | تصديرات جداول خام من قائمة الحساب |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | يستورد UFVK باستخدام `importvk`. يعيد `listreceived` عبر RPC الـ notes المستلمة مع txid والمذكرة، لكنه لا يعيد الإرسالات أو الرسوم. |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | يستورد UFVK باستخدام `importvk`. يعيد `listreceived` عبر RPC notes المستلمة مع txid والمذكرة، لكنه لا يعيد الإرسالات أو الرسوم. |
 | [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` مفصل لكنه معلّم كتجريبي، وZallet لا يستورد إلا مفاتيح عرض Sapling، وليس UFVKs |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | يستورد UFVK باستخدام `wallet init-fvk`، ثم `wallet list-tx`. لا يحتوي وضع CSV الخاص به على txid أو عنوان، ويقول المشروع إنه لا ينبغي استخدامه في الإنتاج. |
 
