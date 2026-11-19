@@ -35,7 +35,7 @@ Zcash عملة رقمية تتميز بمعاملات سريعة وسرية ور
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-يمكنك شراء ZEC عبر [منصات التداول الحاضنة](/using-zcash/custodial-exchanges)، أو [منصات التداول اللامركزية](/using-zcash/dex)، أو [منصات المبادلة المركزية](/using-zcash/centralized-swaps).
+يمكنك شراء ZEC عبر [منصات التداول الوصائية](/using-zcash/custodial-exchanges)، أو [منصات التداول اللامركزية](/using-zcash/dex)، أو [منصات المبادلة المركزية](/using-zcash/centralized-swaps).
 
 يمكنك أيضًا شراء Zcash مباشرةً من شخص لآخر أو الحصول عليه عبر التعدين.
 
@@ -162,7 +162,7 @@ Ironwood هو ترقية الشبكة NU6.3، وهي مفعّلة على الش�
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-راجع مكتبة [Zcash](/glossary-and-faqs/zcash-library). فهي تغطي برامج العقدة والمحفظة، والمجموعات المحمية، وأرقام ZIP التي تظهر كثيرًا.
+راجع مكتبة [Zcash](/glossary-and-faqs/zcash-library). فهي تغطي برامج العقدة والمحفظة، والمجمّعات المحمية، وأرقام ZIP التي تظهر كثيرًا.
 
 </div>
 

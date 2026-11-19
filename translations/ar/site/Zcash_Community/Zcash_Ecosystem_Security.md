@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# أمن منظومة Zcash
+# أمن النظام البيئي لـ Zcash
 
 ## مسؤول أمن المنظومة
 

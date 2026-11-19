@@ -91,18 +91,18 @@
 * منطق التفعيل: يتطلب إدخال Crosslink تغييرات في قواعد الإجماع لـ Zcash، منها تحديد آلية توزيع الحصص وتحديث قواعد بروتوكول الشبكة لدعم الإجماع الهجين.
 * النشر المرحلي: سيُطرح البروتوكول على مراحل لضمان استقرار الشبكة وإتاحة الوقت للمجتمع كي يتكيّف. تركّز المراحل الأولى على التنفيذ التقني، ثم يأتي دمج الحوكمة لاختيار الموثِّقين.
 
-يوجد النموذج الأولي السابق ووثائقه في [مستودع zebra-crosslink على GitHub](https://github.com/ShieldedLabs/zebra-crosslink) وفي [كتاب zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/). ويصف القسم التالي العمل الحالي.
+يوجد النموذج الأولي السابق ووثائقه في [مستودع zebra-crosslink على GitHub](https://github.com/ShieldedLabs/zebra-crosslink)، الذي أُوقف في 12 November 2026، وفي [كتاب zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/). ويصف القسم التالي العمل الحالي.
 
 ### أين يقف Crosslink
 
 لا يزال Crosslink مقترحًا. وتنصّ [الأسئلة الشائعة حول Crosslink](https://shieldedlabs.net/crosslink-faq/) لدى Shielded Labs على أنه «سيحتاج إلى المرور بعملية الحوكمة القياسية لـ Zcash» قبل أن يمكن تفعيله على الشبكة الرئيسية.
 
-الموجود اليوم هو **Feature Net**، وهي شبكة اختبار تديرها Shielded Labs ولها عملة اختبار خاصة بها اسمها cTAZ. يمكن لأي شخص أن يعدّن فيها ويخزّن ويشغّل المُنهي (finalizer). يبدأ [الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)، الصادر في 1 أكتوبر 2026، بإثبات عمل بحت، ثم يفعّل Crosslink على مراحل: يبدأ التخزين من الكتلة 20,736، وتُؤخذ أول قائمة من المُنهين عند الكتلة 34,560، وتبدأ نهائية BFT من الكتلة 36,288 ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+الموجود اليوم هو **Feature Net**: شبكة اختبار تديرها Shielded Labs، ولها عملة اختبار خاصة بها، cTAZ، ويمكن لأي شخص أن يعدّن فيها ويخزّن ويشغّل المُنهي. بدأ [الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)، الصادر في 1 أكتوبر 2026، بإثبات عمل بحت، وفعّل Crosslink على مراحل: بدأ التخزين من الكتلة 20,736، وأُخذت أول قائمة من المُنهين عند الكتلة 34,560، وبدأت نهائية BFT من الكتلة 36,288 ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)). تُحدّث الإصدارات اللاحقة الشبكة نفسها: [الإصدار 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) عند ارتفاع إثبات العمل 55,296، و[الإصدار 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 نوفمبر 2026) عند الارتفاع 165,000، و[الإصدار 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 نوفمبر 2026) عند الكتلة 189,000. وابتداءً من [الإصدار 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16)، يتوقف كل إصدار عن العمل بعد أسبوعين من إطلاقه، لذا شغّل دائمًا [أحدث إصدار](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest).
 
 تغيّر أمران مما في هذه الصفحة منذ كتابتها:
 
-* **الدور المسمّى هنا «موثِّق» اسمه «المُنهي»** في برمجيات Shielded Labs وسجلات إصداراتها. يفوّض المخزِّنون عملاتهم إلى أحد المُنهين، ويصوّت المُنهون أصحاب الحصص الأكبر على إنهاء الكتل.
-* **انتقلت الشيفرة.** آخر تحديث لمستودع zebra-crosslink المذكور أعلاه كان في أبريل 2026. تصدر إصدارات Feature Net الآن من [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)، والتصميم موثّق في [كتاب Crosslink](https://shieldedlabs.github.io/crosslink_book/).
+* **الدور الذي يُسمّى هنا «موثِّقًا» يُسمّى مُنهِيًا** في برمجيات Shielded Labs وملاحظات إصداراتها. يفوّض المخزِّنون عملاتهم إلى مُنهٍ، ويصوّت المُنهون أصحاب الحصص الأكبر لإنهاء الكتل.
+* **انتقلت الشيفرة.** أُحيل مستودع zebra-crosslink المذكور أعلاه إلى التقاعد في 12 نوفمبر 2026، ويشير ملف README فيه الآن إلى صفحة [Shielded Labs Crosslink](https://shieldedlabs.net/crosslink). تصدر إصدارات Feature Net من [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)، والتصميم موثّق في كتاب [Crosslink](https://shieldedlabs.github.io/crosslink_book/).
 
 لتجربته بنفسك، اتبع دليل [Crosslink Feature Net](/guides/crosslink-feature-net). ولمتابعة الشبكة دون تشغيل أي شيء، افتح علامة التبويب Crosslink في [أدوات ZecHub](https://zechub.wiki/tools?tool=crosslink).
 

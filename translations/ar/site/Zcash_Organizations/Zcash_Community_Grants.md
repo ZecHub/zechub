@@ -34,7 +34,7 @@
 
 ## الموارد
 
-[التطوير والحوكمة (governance) في Zcash](https://z.cash/zcash-development-and-governance/)
+[التطوير والحوكمة في Zcash](https://z.cash/zcash-development-and-governance/)
 
 
 
