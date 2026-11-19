@@ -1,6 +1,6 @@
 {
   "locale": "ar",
-  "version": 1,
+  "version": 2,
   "meta": {
     "language_name": "Arabic",
     "native_name": "العربية",
@@ -8,18 +8,139 @@
     "script": "Arab",
     "dir": "rtl",
     "language_lead": [],
-    "last_review": null
+    "last_review": "2026-11-14"
   },
   "style": {
     "variety": "natural, fluent Modern Standard Arabic (RTL; keep Latin-script terms and URLs as-is inline)",
-    "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Arabic usage; do not force awkward coinages."
+    "register": "informal",
+    "english_in_brackets": "first-use",
+    "loanwords": "translate",
+    "loanwords_text": "Use the Arabic terms of this glossary (سلسلة الكتل, رمز, عقد ذكي, محفظة); keep a term in English only where its entry says keep English (note). Names of brands, products, organisations and protected terms stay in Latin script (Zcash, Zebra, Zkool).",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "«»",
+    "abbreviations_with_full_stop": [],
+    "writing_rules": [
+      "Address the reader in the singular (أنت) everywhere, in tutorials and technical pages alike.",
+      "Never use Eastern Arabic digits (٠-٩); write 1,000 with a comma.",
+      "Never put English in brackets inside a Markdown link label.",
+      "Never add the English in brackets to a heading or a menu label; give it in the body text instead. Use round brackets ( ), never square brackets, for the English.",
+      "Before a Latin-script name, write a one-letter prefix with a tatweel and a space (لـ Zcash, بـ Zebra); never change the name itself.",
+      "Write DAO as المنظمة المستقلة اللامركزية (DAO) at its first use on a page, then DAO.",
+      "Arabic abbreviations such as إلخ take no full stop; technical acronyms (ZEC, ZIP, URL, API) stay in Latin script."
+    ]
   },
   "terms": {
+    "wallet": {
+      "target": "محفظة",
+      "forms": [
+        "محفظة",
+        "المحفظة",
+        "محافظ",
+        "المحافظ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-1"
+    },
+    "shielded": {
+      "target": "محمي",
+      "forms": [
+        "محمي",
+        "المحمي",
+        "محمية",
+        "المحمية"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-2"
+    },
+    "transaction": {
+      "target": "معاملة",
+      "forms": [
+        "معاملة",
+        "المعاملة",
+        "معاملات",
+        "المعاملات"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-3"
+    },
+    "privacy": {
+      "target": "الخصوصية",
+      "forms": [
+        "الخصوصية",
+        "خصوصية"
+      ],
+      "context": "الخصوصية alone; inside a construct it loses ال: خصوصية الصحفيين, أدوات الخصوصية",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-5"
+    },
+    "pool": {
+      "target": "المجمّع",
+      "forms": [
+        "المجمّع",
+        "مجمّع",
+        "المجمّعات",
+        "مجمّعات",
+        "المجمع",
+        "مجمع",
+        "المجمعات",
+        "مجمعات"
+      ],
+      "context": "a shielded or transparent pool (or a mining pool); plural المجمّعات",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward: the accepted proposal was «المجمع (Pool)»; the bracket is the first-use rule, the word is المجمّع (his spelling in Shielded Pools).",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-6"
+    },
+    "proof": {
+      "target": "إثبات",
+      "forms": [
+        "إثبات",
+        "الإثبات",
+        "إثباتات",
+        "الإثباتات"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward: the accepted proposal was «إثبات (Proof)»; the bracket is the first-use rule.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-10"
+    },
     "node": {
       "target": "عقدة",
       "forms": [
         "عقدة",
-        "عقد"
+        "العقدة",
+        "عقد",
+        "العقد"
       ],
       "rejected": [
         {
@@ -41,6 +162,2167 @@
       ],
       "reviewed_at": "2026-10-10",
       "source": "prompt_head_ar.txt"
+    },
+    "transparent": {
+      "target": "شفاف",
+      "forms": [
+        "شفاف",
+        "الشفاف",
+        "شفافة",
+        "الشفافة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-12"
+    },
+    "exchange": {
+      "target": "منصة التداول",
+      "forms": [
+        "منصة التداول",
+        "منصة تداول",
+        "منصات التداول",
+        "منصات تداول"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-16"
+    },
+    "memo": {
+      "target": "المذكرة",
+      "forms": [
+        "المذكرة",
+        "مذكرة",
+        "المذكرات",
+        "مذكرات"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward: the accepted proposal was «المذكرة (Memo)»; the bracket is the first-use rule.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-19"
+    },
+    "viewing-key": {
+      "target": "مفتاح العرض",
+      "forms": [
+        "مفتاح العرض",
+        "مفاتيح العرض"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-26"
+    },
+    "fee": {
+      "target": "رسوم",
+      "forms": [
+        "رسوم",
+        "الرسوم"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-22"
+    },
+    "swap": {
+      "target": "مبادلة",
+      "forms": [
+        "مبادلة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-27"
+    },
+    "custodial": {
+      "target": "وصائي",
+      "forms": [
+        "وصائي",
+        "وصائية",
+        "الوصائي",
+        "الوصائية"
+      ],
+      "rejected": [
+        {
+          "text": "حاضنة"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward alignment: his Custodial Exchanges note names وصائية as the dictionary term for custodial; pages also use حاضنة (34) and وصائية (17).",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "المعرفة الصفرية",
+      "forms": [
+        "المعرفة الصفرية"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-23"
+    },
+    "network-upgrade": {
+      "target": "ترقية الشبكة",
+      "forms": [
+        "ترقية الشبكة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-32"
+    },
+    "mining": {
+      "target": "التعدين",
+      "forms": [
+        "التعدين",
+        "تعدين"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-20"
+    },
+    "miner": {
+      "target": "مُعدّن",
+      "forms": [
+        "مُعدّن",
+        "معدّن",
+        "المعدّن",
+        "معدنون",
+        "المعدنين"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-39"
+    },
+    "full-node": {
+      "target": "عقدة كاملة",
+      "forms": [
+        "عقدة كاملة",
+        "العقدة الكاملة",
+        "عقد كاملة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-34"
+    },
+    "turnstile": {
+      "target": "البوابة الدوارة",
+      "forms": [
+        "البوابة الدوارة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-37"
+    },
+    "spending-key": {
+      "target": "مفتاح الإنفاق",
+      "forms": [
+        "مفتاح الإنفاق",
+        "مفاتيح الإنفاق"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "عبارة البذور",
+      "forms": [
+        "عبارة البذور"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-50"
+    },
+    "light-client": {
+      "target": "عميل خفيف",
+      "forms": [
+        "عميل خفيف"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-55"
+    },
+    "token": {
+      "target": "رمز",
+      "forms": [
+        "رمز",
+        "الرمز",
+        "رموز",
+        "الرموز"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-28"
+    },
+    "chain": {
+      "target": "سلسلة",
+      "forms": [
+        "سلسلة",
+        "السلسلة",
+        "سلاسل",
+        "السلاسل"
+      ],
+      "context": "as in على السلسلة (on-chain) and عبر السلاسل (cross-chain, plural)",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "عبر السلاسل",
+      "forms": [
+        "عبر السلاسل"
+      ],
+      "context": "between several chains: عبر السلاسل uses the plural of سلسلة",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-52"
+    },
+    "faucet": {
+      "target": "صنبور",
+      "forms": [
+        "صنبور",
+        "الصنبور",
+        "صنابير",
+        "الصنابير"
+      ],
+      "rejected": [
+        {
+          "text": "الحنفيات"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Reviewer (https://github.com/ZecHub/zechub/pull/2664#issuecomment-6876094358): keep صنبور in both the glossary and the menu, overriding the earlier keep-English alignment. Menu plural صنابير (Faucets).",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-49"
+    },
+    "developer": {
+      "target": "مطور",
+      "forms": [
+        "مطور",
+        "المطور",
+        "مطورون",
+        "المطورون",
+        "مطورين",
+        "المطورين"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-33"
+    },
+    "dashboard": {
+      "target": "لوحة المعلومات",
+      "forms": [
+        "لوحة المعلومات",
+        "لوحة معلومات"
+      ],
+      "rejected": [
+        {
+          "text": "dashboard"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward alignment (https://github.com/ZecHub/zechub/pull/2664#issuecomment-6875347286): his menu note says لوحة التحكم means control panel; the page shows figures and charts only.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-51"
+    },
+    "visualizer": {
+      "target": "أداة العرض المرئي",
+      "forms": [
+        "أداة العرض المرئي"
+      ],
+      "rejected": [
+        {
+          "text": "visualizer"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward alignment (https://github.com/ZecHub/zechub/pull/2664#issuecomment-6875347286): his menu label أداة العرض المرئي.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-62"
+    },
+    "use-case": {
+      "target": "حالة الاستخدام",
+      "forms": [
+        "حالة الاستخدام",
+        "حالة استخدام",
+        "حالات الاستخدام",
+        "حالات استخدام"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-53"
+    },
+    "brand": {
+      "target": "الهوية البصرية",
+      "forms": [
+        "الهوية البصرية",
+        "هوية بصرية"
+      ],
+      "rejected": [
+        {
+          "text": "العلامة التجارية"
+        }
+      ],
+      "context": "brand material (logos, colours, visual identity), never trademark; same words as the menu label Visual Identity",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward alignment: his Brand menu note says العلامة التجارية means a trademark (legal); brand here is logos, colours, visual identity.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-61"
+    },
+    "treasury": {
+      "target": "خزينة",
+      "forms": [
+        "خزينة",
+        "الخزينة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-57"
+    },
+    "top-up": {
+      "target": "شحن",
+      "forms": [
+        "شحن"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-58"
+    },
+    "tools": {
+      "target": "أدوات",
+      "forms": [
+        "أدوات",
+        "الأدوات"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-25"
+    },
+    "newsletter": {
+      "target": "النشرة الإخبارية",
+      "forms": [
+        "النشرة الإخبارية",
+        "نشرة إخبارية"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-45"
+    },
+    "address": {
+      "target": "عنوان",
+      "forms": [
+        "عنوان",
+        "العنوان",
+        "عناوين",
+        "العناوين"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-4"
+    },
+    "block": {
+      "target": "كتلة",
+      "forms": [
+        "كتلة",
+        "الكتلة",
+        "كتل",
+        "الكتل"
+      ],
+      "rejected": [
+        {
+          "text": "الحظر"
+        }
+      ],
+      "context": "a block of transactions added to the chain (كتلة), never blocking/banning (الحظر)",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«الحظر» تعني منع الشيء (to block)، أما «كتلة» فهي دفعة المعاملات المضافة إلى السلسلة وتتسق مع «سلسلة الكتل».",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-7"
+    },
+    "blockchain": {
+      "target": "سلسلة الكتل",
+      "forms": [
+        "سلسلة الكتل"
+      ],
+      "rejected": [
+        {
+          "text": "blockchain"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "هذا هو المصطلح العربي المفهوم للقارئ، ويصف السلسلة المكوّنة من كتل مترابطة.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-15"
+    },
+    "signature": {
+      "target": "التوقيع الرقمي",
+      "forms": [
+        "التوقيع الرقمي",
+        "توقيع رقمي",
+        "التوقيع",
+        "توقيع",
+        "التواقيع"
+      ],
+      "rejected": [
+        {
+          "text": "التوقيع اليدوي"
+        }
+      ],
+      "context": "a cryptographic signature proving the key holder approved a transaction, not a handwritten one",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«التوقيع اليدوي» يعني التوقيع بخط اليد، أما المقصود هنا إثبات تشفيري بأن صاحب المفتاح وافق على المعاملة.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-17"
+    },
+    "commitment": {
+      "target": "التزام",
+      "forms": [
+        "التزام"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-21"
+    },
+    "nullifier": {
+      "target": "قيمة مانع التكرار",
+      "forms": [
+        "قيمة مانع التكرار"
+      ],
+      "rejected": [
+        {
+          "text": "nullifier"
+        }
+      ],
+      "context": "a value published when a note is spent so the same note cannot be spent twice",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "الترجمة تشرح وظيفته: قيمة تمنع إنفاق نفس الملاحظة مرتين.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-40"
+    },
+    "note": {
+      "target": "note",
+      "keep_english": true,
+      "forms": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "rejected": [
+        {
+          "text": "ملاحظة"
+        }
+      ],
+      "context": "a Zcash note is a shielded unit of value held by a shielded address, not a written remark (ملاحظة)",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«ملاحظة» تعني تعليقًا مكتوبًا، وهذا مستبعد صراحةً في التعريف، وليس لوحدة القيمة المحمية مقابل عربي متداول، فيبقى المصطلح Note بالإنجليزية.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "إعداد موثوق",
+      "forms": [
+        "إعداد موثوق"
+      ],
+      "rejected": [
+        {
+          "text": "trusted setup"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "الترجمة العربية مفهومة وتصف إجراء التهيئة الموثوق لنظام الإثبات؛ اخترت «إعداد» (البديل: إجراء).",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-46"
+    },
+    "consensus": {
+      "target": "الإجماع",
+      "forms": [
+        "الإجماع",
+        "إجماع"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-29"
+    },
+    "governance": {
+      "target": "الحوكمة",
+      "forms": [
+        "الحوكمة",
+        "حوكمة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-36"
+    },
+    "grant": {
+      "target": "منحة",
+      "forms": [
+        "منحة",
+        "المنحة",
+        "منح",
+        "المنح"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-24"
+    },
+    "halving": {
+      "target": "التنصيف",
+      "forms": [
+        "التنصيف",
+        "تنصيف"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-43"
+    },
+    "staking": {
+      "target": "التخزين",
+      "forms": [
+        "التخزين",
+        "تخزين"
+      ],
+      "rejected": [
+        {
+          "text": "staking"
+        }
+      ],
+      "context": "التخزين here means locking coins to help secure a network and earn rewards (staking), not data storage",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "هذا هو المصطلح الذي تستخدمه الصفحات العربية حاليًا (×69) ويدل على تجميد العملات لتأمين الشبكة.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-30"
+    },
+    "finalizer": {
+      "target": "المُنهي",
+      "forms": [
+        "المُنهي"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-44"
+    },
+    "bond": {
+      "target": "سند ضمان",
+      "forms": [
+        "سند ضمان"
+      ],
+      "rejected": [
+        {
+          "text": "bond"
+        }
+      ],
+      "context": "coins locked as collateral by a finalizer or staker, not a financial debt bond",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "كلمة «سند» وحدها تعني سندًا ماليًا (دين)، وإضافة «ضمان» توضح أنه مبلغ مجمّد كضمان.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-47"
+    },
+    "encryption": {
+      "target": "تشفير",
+      "forms": [
+        "تشفير",
+        "التشفير"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-14"
+    },
+    "decentralized": {
+      "target": "لامركزي",
+      "forms": [
+        "لامركزي"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-31"
+    },
+    "on-chain": {
+      "target": "على السلسلة",
+      "forms": [
+        "على السلسلة"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-35"
+    },
+    "bridge": {
+      "target": "جسر",
+      "forms": [
+        "جسر",
+        "الجسر",
+        "جسور",
+        "الجسور"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-42"
+    },
+    "payment": {
+      "target": "دفع",
+      "forms": [
+        "دفع",
+        "الدفع",
+        "مدفوعات",
+        "المدفوعات"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "عقد ذكي",
+      "forms": [
+        "عقد ذكي",
+        "العقد الذكي",
+        "عقود ذكية",
+        "العقود الذكية"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-54"
+    },
+    "unlinkable": {
+      "target": "غير قابل للربط",
+      "forms": [
+        "غير قابل للربط"
+      ],
+      "rejected": [
+        {
+          "text": "غير متصل"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«غير متصل» تعني منفصلًا أو دون اتصال، أما المقصود أن المراقب لا يستطيع ربط عنصرين ببعضهما.",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-60"
+    },
+    "permissionless": {
+      "target": "دون إذن",
+      "forms": [
+        "دون إذن"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-59"
+    },
+    "scaling": {
+      "target": "التوسع",
+      "forms": [
+        "التوسع",
+        "توسع"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-48"
+    },
+    "selective-disclosure": {
+      "target": "الإفصاح الانتقائي",
+      "forms": [
+        "الإفصاح الانتقائي"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "محفظة مادية",
+      "forms": [
+        "محفظة مادية"
+      ],
+      "rejected": [
+        {
+          "text": "محفظة الأجهزة"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "«مادية» تصف الجهاز الفعلي الملموس (بدلًا من «محفظة الأجهزة» غير الواضحة)؛ اخترت كلمة واحدة بين «مادية/ملموسة».",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "glossary-review-ar.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "قبول المدفوعات",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "شبكة Akash",
+      "rejected": [
+        {
+          "text": "Akash Network"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Akash هو الاسم فقط، وكلمة network تُترجم «شبكة» كما في بقية الصفحات",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Zebra على شبكة Akash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-2"
+    },
+    "Block Explorers": {
+      "target": "مستكشفات الكتل",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "مستكشفات سلسلة الكتل",
+      "rejected": [
+        {
+          "text": "مستكشفات البلوكشين"
+        },
+        {
+          "text": "كشافة البلوكشين"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "توحيد المصطلح: blockchain هي «سلسلة الكتل» في القاموس «كشافة» غير مألوفة، وblockchain هي «سلسلة الكتل» في القاموس",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-64"
+    },
+    "Brand": {
+      "target": "الهوية البصرية",
+      "rejected": [
+        {
+          "text": "العلامة التجارية"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "المقصود الشعارات والألوان، و«العلامة التجارية» تعني trademark بالمعنى القانوني",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "إضافة BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "إضافة Zcash لـ BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "شراء ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-16"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "منح بأثر رجعي موجهة من CoinHolder",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-51"
+    },
+    "Community": {
+      "target": "المجتمع",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "مدونات المجتمع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "بناء المجتمع",
+      "rejected": [
+        {
+          "text": "Community Building"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "ليس اسم منتج بل عبارة عادية فتُترجم",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "منتدى المجتمع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "روابط المجتمع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "مشاريع المجتمع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "المساهمة",
+      "rejected": [
+        {
+          "text": "اشترك"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«اشترك» تعني subscribe وهي خطأ؛ المقصود المساهمة في المشروع اسم صفحة وليس زرًّا، ونفس الصيغة في القائمة العلوية نفس الصيغة المستعملة في القائمة العلوية وقائمة الصفحات",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "منصات التداول الوصائية",
+      "rejected": [
+        {
+          "text": "منصات تداول وصائية"
+        }
+      ],
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس مصطلح custodial في القاموس («وصائية») مع «منصات التداول» المعرّفة",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "اسم مشروع",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "context": "menu label stays DAO (ETHGlossary UI convention, ethereum.org nav, every locale); on pages write المنظمة المستقلة اللامركزية (DAO) at first use, then DAO (his note on navigation #6)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "لوحة المعلومات",
+      "rejected": [
+        {
+          "text": "لوحة التحكم"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "الصفحة تعرض أرقامًا ومخططات فقط، و«لوحة التحكم» تعني control panel",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-13"
+    },
+    "Developers": {
+      "target": "المطورون",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-10"
+    },
+    "Donate": {
+      "target": "تبرع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-8"
+    },
+    "Donations": {
+      "target": "التبرعات",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "النظام البيئي",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس الصيغة في كل الصفوف: «النظام البيئي»",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "منصات التداول",
+      "rejected": [
+        {
+          "text": "البورصات"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نستعمل «منصات التداول» في كل مكان بدل «البورصات» لتوحيد المصطلح",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-19"
+    },
+    "Explore": {
+      "target": "استكشف",
+      "forms": [
+        "استكشف",
+        "استكشاف"
+      ],
+      "inflection": "Header button: imperative استكشف; sidebar section title: noun استكشاف (his notes on navigation #9 and sideMenu #2).",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-9"
+    },
+    "Extras": {
+      "target": "مواد إضافية",
+      "rejected": [
+        {
+          "text": "إضافات"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«إضافات» تعني plugins مثل صف BTCPayServer، والمقصود هنا محتوى إضافي",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "صنابير",
+      "context": "plural of the term faucet (صنبور); his comment on #2664 asks for صنبور in both glossary and menu",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "للتفريعات والمشرفين",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "Fork zechub",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "اسم مستودع",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "Fork zechub-wiki",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "اسم مستودع",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "اسم منتج",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "الخصوصية للعاملين المستقلين",
+      "rejected": [
+        {
+          "text": "الخصوصية للعمل الحر"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس الصيغة المستعملة في القائمة العلوية",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "استكشاف شامل",
+      "rejected": [
+        {
+          "text": "استكشاف كامل"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«شامل» أنسب في عناوين الأقسام من «كامل»",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "مسرد المصطلحات والأسئلة الشائعة",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "مسرد المصطلحات والأسئلة الشائعة",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "الحوكمة",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-4"
+    },
+    "Guides": {
+      "target": "الأدلة",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس الصيغة المعرّفة المستعملة في القائمة العلوية",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "كيفية المشاركة",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "خصوصية الصحفيين",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "حفظ السجلات",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-35"
+    },
+    "Memos": {
+      "target": "المذكرات",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "شحن رصيد الهاتف",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-25"
+    },
+    "More": {
+      "target": "المزيد",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "التنقّل",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "النشرة الإخبارية",
+      "rejected": [
+        {
+          "text": "النشرة البريدية"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس المصطلح المعتمد في القاموس لتوحيد الترجمة نفس المصطلح المعتمد في القاموس",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "إعداد محفظة Nym Mixnet",
+      "rejected": [
+        {
+          "text": "Nym Mixnet Wallet Setup"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Nym Mixnet اسم المنتج يبقى كما هو، وباقي العبارة تُترجم",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "اسم منتج",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "المنظمات",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-49"
+    },
+    "Overview": {
+      "target": "نظرة عامة",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "الدفع مقابل الذكاء الاصطناعي",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "معالجات الدفع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "معرّفات URI لطلبات الدفع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "بودكاست",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "أدوات الخصوصية",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "خزينة المجتمع الخاصة",
+      "rejected": [
+        {
+          "text": "خزانة مجتمع خاصة"
+        },
+        {
+          "text": "خزانة المجتمع الخاصة"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "treasury في القاموس هي «خزينة»، وصيغة الإضافة أوضح treasury في القاموس هي «خزينة»",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "عقدة كاملة على Raspberry Pi 4",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "عقدة Zebra على Raspberry pi 4",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "عقدة Raspberry Pi Zcashd",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "عقدة Raspberry Pi Zebra",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry pi5 Zebra Lightwalletd Zingo",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "كلها أسماء منتجات",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "استرداد الأموال",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-28"
+    },
+    "Research": {
+      "target": "الأبحاث",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-39"
+    },
+    "Send Money Privately": {
+      "target": "إرسال الأموال بخصوصية",
+      "rejected": [
+        {
+          "text": "إرسال الأموال بشكل خاص"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«بشكل خاص» قد تعني بشكل مخصص؛ المقصود إرسال مع الخصوصية",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "المجمّعات المحمية",
+      "rejected": [
+        {
+          "text": "المجمعات المحمية"
+        },
+        {
+          "text": "المجموعات المحمية"
+        }
+      ],
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«المجموعات» تعني groups؛ pool في القاموس هي «مجمّع»",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-21"
+    },
+    "Shop": {
+      "target": "المتجر",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "خريطة الموقع",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "ابدأ هنا",
+      "rejected": [
+        {
+          "text": "ابدأ من هنا"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس الصيغة المستعملة في القائمة العلوية",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-31"
+    },
+    "Store": {
+      "target": "المتجر",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-44"
+    },
+    "Tools": {
+      "target": "الأدوات",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "المعاملات",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "عناوين منصات التداول الشفافة",
+      "rejected": [
+        {
+          "text": "عناوين البورصات الشفافة"
+        },
+        {
+          "text": "عناوين الصرافة الشفافة"
+        }
+      ],
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "توحيد كلمة exchange مع «منصات التداول» «الصرافة» تعني تبديل العملات، والمصطلح المعتمد «منصات التداول»",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "الدروس",
+      "rejected": [
+        {
+          "text": "دروس تعليمية"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس الصيغة المستعملة في القائمة العلوية",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "حالات الاستخدام",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "استخدام Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "استخدام Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "استخدام ZEC في DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "استخدام ZEC بخصوصية",
+      "rejected": [
+        {
+          "text": "استخدام ZEC بشكل خاص"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«بشكل خاص» قد تعني بشكل مخصص؛ المقصود استخدام مع الخصوصية",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "الهوية البصرية",
+      "context": "same words as the term brand: his Brand label is also الهوية البصرية",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "أداة العرض المرئي",
+      "rejected": [
+        {
+          "text": "أداة التصور"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«التصور» قد تُفهم كخيال؛ المقصود أداة ترسم البيانات، وهو نفس المصطلح في القاموس «التصور» قد تُفهم كخيال؛ المقصود أداة ترسم البيانات",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "عرض شبكة Zcash بشكل مرئي",
+      "rejected": [
+        {
+          "text": "تصور شبكة Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«تصور» قد تُفهم كخيال؛ المقصود عرض الشبكة كصور",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "عرض عناوين Zcash بشكل مرئي",
+      "rejected": [
+        {
+          "text": "تصور عناوين Zcash"
+        }
+      ],
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«تصور» قد تُفهم كخيال؛ المقصود عرض العناوين كصور",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "المحافظ",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "عرض تجريبي لـ Ywallet FROST",
+      "rejected": [
+        {
+          "text": "عرض YWallet FROST"
+        },
+        {
+          "text": "عرض Ywallet FROST"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«عرض» وحدها غير واضحة؛ demo تعني عرضًا تجريبيًا، وكتابة Ywallet كما هي في الإنجليزية «عرض» وحدها غير واضحة؛ demo تعني عرضًا تجريبيًا",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "مجتمع Zcash",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "أمن النظام البيئي لـ Zcash",
+      "rejected": [
+        {
+          "text": "أمن نظام Zcash البيئي"
+        },
+        {
+          "text": "أمن منظومة Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "توحيد الصيغة مع «النظام البيئي» وهي نفس الصيغة في قائمة الصفحات «منظومة» تختلف عن «النظام البيئي» المستعمل في القائمة العلوية؛ نوحّد الصيغة",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "حوكمة Zcash",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "مقترحات تحسين Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "وسائل إعلام Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«إعلام» وحدها تعني الإخبار؛ المقصود وسائل الإعلام",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "منظمات Zcash",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "بودكاست Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "تقنيات Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "حالات استخدام Zcash",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "أرشيف Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "أرشيف Zcon Vozes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "تثبيت Zenith",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "المعرفة الصفرية مقابل أنظمة التمويه",
+      "rejected": [
+        {
+          "text": "إثباتات المعرفة الصفرية مقابل أنظمة الطُعم"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«المعرفة الصفرية» هي المصطلح في القاموس، و«التمويه» أوضح من «الطُعم» لوصف decoys",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "المعرفة الصفرية مقابل التمويه",
+      "rejected": [
+        {
+          "text": "إثباتات المعرفة الصفرية مقابل الطعوم"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "«المعرفة الصفرية» هي المصطلح في القاموس، و«التمويه» أوضح لوصف decoys",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "معالج الدفع Zgo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "درس Zingolib و Zaino",
+      "rejected": [
+        {
+          "text": "دليل Zingolib و Zaino"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "tutorial هي «درس» و guide هي «دليل» حتى لا يختلط المعنيان",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPs والمنح",
+      "context": "Arabic construct state: alone the label takes ال; before a name or noun it drops it (مجتمع Zcash, حوكمة Zcash)",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "التوقيع المتعدد في Zkool",
+      "rejected": [
+        {
+          "text": "Zkool Multisig"
+        },
+        {
+          "text": "تعدد التواقيع في Zkool"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "نفس الصيغة في قائمة الصفحات، و«التوقيع» هو مصطلح signature في القاموس نفس الصيغة في القائمة العلوية، و«التوقيع» هو مصطلح signature في القاموس",
+      "reviewed_by": [
+        "@ronniecross535"
+      ],
+      "reviewed_at": "2026-11-14",
+      "source": "menus-review-ar.md#navigation-62"
     }
   },
   "changelog": [
@@ -52,6 +2334,180 @@
       ],
       "phrases": [],
       "summary": "Imported from the runner's hand-written prompt_head_ar.txt: language variety, loanword rule and the node rendering, approved by the steward as legacy prompt-head rules."
+    },
+    {
+      "version": 2,
+      "date": "2026-11-14",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "Native review by @ronniecross535 (selected by Zcash Arabia), PR #2664: glossary (62 terms, 8 style answers) and menus. Arabic terms over loanwords (سلسلة الكتل, منصات التداول, صنبور), note kept in English, singular أنت, Western digits, «» quotes, English in brackets at first use. Steward alignments with his own menu notes: dashboard لوحة المعلومات, visualizer أداة العرض المرئي, custodial وصائي, brand الهوية البصرية; faucet صنبور per his later comment; brackets moved out of the pool/proof/memo targets; Arabic plural and construct forms added."
     }
   ]
 }
