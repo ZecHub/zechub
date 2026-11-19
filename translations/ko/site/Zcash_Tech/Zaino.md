@@ -25,7 +25,7 @@ Zaino는 Zebra와 클라이언트 소프트웨어 사이에 위치합니다. Zeb
 
 Zaino는 라이트 클라이언트, 풀 클라이언트 또는 지갑, 그리고 블록 탐색기를 위한 기능을 제공합니다. 최종 확정 체인, 최종 확정되지 않은 최선 체인, 그리고 Zebra가 보유한 메모리 풀 데이터에 접근할 수 있게 합니다.
 
-## 현재 Zcash 스택에서의 위치
+## 현재 Zcash Stack에서의 위치
 
 현재 Z3 스택은 Zebra, Zallet 및 선택 사항인 Zaino를 중심으로 구성됩니다.
 
@@ -89,5 +89,6 @@ Zaino는 두 종류의 네트워크 서비스를 제공합니다. gRPC 서비스
 * [Z3 배포 저장소](https://github.com/ZcashFoundation/z3)
 * [Zebra 문서](https://zebra.zfnd.org/)
 * [Zaino 지원금 및 프로젝트 논의](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), Zcash Foundation(알파)의 또 다른 Rust 인덱서
 
 **마지막 업데이트:** 2026년 8월

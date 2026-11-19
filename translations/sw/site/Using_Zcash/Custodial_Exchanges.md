@@ -99,15 +99,16 @@ ___
 - Ironwood: Kutoa kwa anwani za faragha kunaungwa mkono, bwawa halijabainishwa
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Tovuti: [Huobi](https://huobi.com)
+- Tovuti: [HTX](https://www.htx.com) (awali Huobi)
 - Jozi: ZOTE/ZEC
 - Inaauni: Ya uwazi
+- Hali: Amana na utoaji wa ZEC umesimamishwa kwa sasa (kulingana na API ya umma ya HTX, Novemba 2026); biashara ya spot bado imeorodheshwa
 - Muda wa kuweka amana: Dakika 35 
 - Ironwood: Haitumiki, anwani za uwazi pekee
 ___

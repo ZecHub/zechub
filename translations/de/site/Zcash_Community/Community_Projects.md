@@ -132,7 +132,7 @@ Live-Plattform für nicht verwahrende Trinkgelder, bei der jedes Trinkgeld als a
 
 ### CYZE
 Kollaborative Wallet- und Koordinationsplattform, mit der mehrere Teammitglieder abgeschirmte Zcash-Mittel gemeinsam verwalten können. Sie verwendet FROST-Schwellensignaturen, sodass Gruppen Orchard-Transaktionen gemeinsam autorisieren können, ohne einem einzelnen Teilnehmer die vollständige Kontrolle über die Wallet zu geben.  
-[Besuchen](https://github.com/USCMig/Cyze)
+[Besuchen](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 Eine reine Beobachtungs-Desktop-Wallet für Einzelpersonen und Organisationen, die abgeschirmte Mittel überwachen müssen, ohne sie ausgeben zu können. Sie unterstützt die Überwachung von Transaktionen und Salden, Orchard- und Sapling-Notes, das Anzeigen von Memos, historische Fiat-Bewertung, Transaktionsbenachrichtigungen, Wallet-Verschlüsselung und datenschutzorientierte Funktionen für Bildschirmfreigaben.  
@@ -168,7 +168,7 @@ Weltweite Karte von Unternehmen und Orten, die Zcash akzeptieren.
 
 ### ZECping
 Tool zur Überprüfung der gRPC-Antwortzeiten von Zcash lightwalletd-Knoten.  
-[Besuchen](https://github.com/emersonian/zecping)
+[Besuchen](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Dashboard für Echtzeit-Statistiken des Zcash-Netzwerks und Abschirmungsmetriken.  
@@ -217,7 +217,7 @@ Browser-Erweiterung, die Fiat-Währungspreise beim Surfen im Web in Echtzeit in 
 
 ### Shielded Wall
 Anonyme Geständnisplattform, die von Zcash-Datenschutz angetrieben wird.  
-[Besuchen](https://shieldedwall.org/)
+[Besuchen](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Wegwerf-E-Mail-Postfach, das mit abgeschirmten ZEC bezahlt wird.  
@@ -232,7 +232,7 @@ Datenschutzwahrendes Finanztracking- und Buchhaltungstool für Zcash. Es kombini
 [Besuchen](https://zecledger-web.vercel.app/)
 
 ### Authentication with ZcashMe
-Datenschutzorientiertes Authentifizierungssystem, das abgeschirmte Zcash-Transaktionen als Login-Mechanismus verwendet. Nutzer scannen einen QR-Code und senden eine kleine Authentifizierungstransaktion.  
+Datenschutzorientiertes Authentifizierungssystem, das abgeschirmte Zcash-Transaktionen als Login-Mechanismus verwendet. Nutzer scannen einen QR-Code und senden eine kleine Authentifizierungstransaktion. Das Repository ist archiviert (schreibgeschützt), daher wird das Projekt nicht mehr gepflegt.  
 [Besuchen](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Datenschutzorientiertes Authentifizierungssystem, das abgeschirmte Zcash-Transak
 
 ### Ztreamer
 Stark optimierte Open-Source-Implementierung eines Zcash-Indexers und des lightwallet-Protokolls (CompactTxStreamer), gestützt durch einen eingebetteten Zakura-Knoten. Führt Knoten + Indexer + Wallet-Server in einem Prozess aus (ztreamerd); unterstützt gRPC und Zakura v2 P2P. Schnelle historische Indexierung und Bereitstellung mit geringer Latenz für Light Wallets.  
-[Besuchen](https://github.com/distractedm1nd/ztreamer)  
+[Besuchen](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Netzwerk-Testsuite für zcashd- und Zebra-Entwickler. Enthält einen Zcash-Crawler.  
-[Besuchen](https://github.com/runziggurat/zcash)
+[Besuchen](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Linux-orientiertes Toolkit, das ein Zebra-Regtest-Netzwerk mit Faucet, Unified Address-Fixtures und lightwalletd oder Zaino sowie wiederverwendbaren GitHub Actions für abgeschirmte End-to-End-Abläufe bereitstellt.  
@@ -274,7 +274,7 @@ Kooperatives, bottom-up organisiertes Geschäftsmodell, das auf Zcash basiert.
 
 ### ZK Global Credit
 Zcash-native Kredit- und Abstimmungsinfrastruktur für selektive Offenlegung, Abwicklungsbereitschaft, grenzüberschreitende Reputation und abgeschirmte Governance.  
-[Besuchen](https://voting.zkglobalcredit.tech/)
+[Besuchen](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Tool für anonyme Inhaltserstellung und private Spenden, angetrieben von Zcash.  

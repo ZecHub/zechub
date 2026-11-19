@@ -52,11 +52,11 @@ Questa guida si concentra sul mining di Zcash usando hardware personale, ad esem
 - **Sistema operativo:** Windows 10/11, Linux (Ubuntu consigliato per la stabilità).
 - **Software di mining:**
   - Per le GPU: lolMiner (supporta AMD/NVIDIA), GMiner o miniZ (incentrato su NVIDIA). Scarica dai repository ufficiali di GitHub, ad esempio github.com/Lolliedieb/lolMiner-releases.
-  - Per gli ASIC: Usa il firmware/dashboard integrato del produttore, ad esempio l'interfaccia web di Bitmain.
-- **Portafoglio:** Un portafoglio di Zcash per ricevere i pagamenti. Consigliati:
-  - Schermato (privato): Portafoglio ZODL, Zingo (mobile/desktop), Zkool (mobile/desktop).
-  - Trasparente (più semplice ma meno privato): Edge Wallet, Zecwallet Lite.
-  - Scarica da [wallets](https://zechub.wiki/wallets). Genera un indirizzo schermato, che inizia con 'zs', per la privacy se la pool lo supporta.
+  - Per gli ASIC: usa il firmware/dashboard integrato del produttore, ad esempio l'interfaccia web di Bitmain.
+- **Portafoglio:** un portafoglio di Zcash per ricevere i pagamenti. Consigliati:
+  - Schermato (privato): portafoglio ZODL, Zingo (mobile/desktop), Zkool (mobile/desktop).
+  - Trasparente (più semplice ma meno privato): Edge Wallet.
+  - Scarica da [wallets](https://zechub.wiki/wallets). Genera un indirizzo schermato, che inizia con "zs", per la privacy se la pool lo supporta.
 
 ### Altro
 - Elettricità: Calcola i costi. Le GPU usano 150-300W per scheda; gli ASIC 1000W+.

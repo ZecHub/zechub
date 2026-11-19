@@ -25,7 +25,7 @@ Bu ayrım, rolleri net tutar:
 
 Zaino; hafif istemciler, tam istemciler veya cüzdanlar ve blok gezginleri için işlevsellik sağlar. Kesinleşmiş zincire, kesinleşmemiş en iyi zincire ve Zebra tarafından tutulan mempool verilerine erişim sunar.
 
-## Mevcut Zcash Yığınına Nasıl Uyar?
+## Mevcut Zcash Stack İçinde Nasıl Bir Yere Oturuyor?
 
 Mevcut Z3 yığını; Zebra, Zallet ve isteğe bağlı Zaino etrafında oluşturulmuştur.
 
@@ -89,5 +89,6 @@ Zaino iki tür ağ hizmeti sunar. gRPC hizmeti, hafif cüzdanlara yönelik API'd
 * [Z3 dağıtım deposu](https://github.com/ZcashFoundation/z3)
 * [Zebra belgeleri](https://zebra.zfnd.org/)
 * [Zaino hibe ve proje tartışması](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), Zcash Foundation (alfa) kaynaklı başka bir Rust dizinleyici
 
 **Son güncelleme:** Ağustos 2026

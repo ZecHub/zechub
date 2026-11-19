@@ -71,7 +71,7 @@ Ihe Ironwood na-agbanweghị: cryptography eji eme mmefu ego na ịmepụta proo
 
 **Enwere oge mkpughe.** Site na mmalite Ironwood ruo mgbe agbanyụrụ protocols ochie, onye mwakpo quantum ka nwere ike izu ohi, mụbaa ego ma ọ bụ gbochie ego n'ime pool ọ bụla e chebere echebe. ZIP 2005 kpọrọ nke a "critical exposure period" ma dọọ aka ná ntị na mwakpo n'oge ya ka nwere ike imerụ ikike onye ji ego nwere iweghachi ma emechaa. Nke ahụ mere o ji kwuo na Zcash ga-agbanyụ Orchard, Sapling na Sprout **tupu** mwakpo quantum ekwe omume.
 
-**Gbanyụọ ahụ enweghị ụbọchị, ewezuga Sprout.** Ọ dịghị ZIP haziri ịgbanyụ Orchard ma ọ bụ Sapling. Sprout dị iche: [ZIP 259](https://zips.z.cash/zip-0259) depụtara ZIP 2003 n'ime mgbanwe NU7 na-ebunye, yabụ Azụmahia ụdị 4 ga-aghọ nke na-adịghị irè ozugbo NU7 malitere, ego ZEC ọ bụla fọdụrụ na pool Sprout agaghịkwa enwe ike imefu. A haziri mmalite Mainnet maka block 3,543,405, nke a tụrụ anya ya n'ụbọchị 5 Novemba 2026 ([ZIP 259](https://zips.z.cash/zip-0259), [ọkwa forum](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Mkparịta ụka Sapling nke naanị iwepụ ego malitere na forum n'Ọnwa Eprel 2026.
+**Gbanyụọ ahụ enweghị ụbọchị, ewezuga Sprout.** Ọ dịghị ZIP haziri ịgbanyụ Orchard ma ọ bụ Sapling. Sprout dị iche: [ZIP 259](https://zips.z.cash/zip-0259) depụtara ZIP 2003 n'ime mgbanwe NU7 na-ebunye, ya mere kemgbe NU7 malitere, Azụmahia ụdị 4 adịghị irè, ego ZEC ọ bụla fọdụrụ na pool Sprout enweghị ike imefu. NU7 malitere na Mainnet na block 3,543,405 na 6 Novemba 2026 UTC ([ZIP 259](https://zips.z.cash/zip-0259), [ọkwa forum](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Mkparịta ụka Sapling nke naanị iwepụ ego malitere na forum n'Ọnwa Eprel 2026.
 
 **Recovery Protocol ezubeghị.** ZIP 2005 depụtara naanị nkọwa izizi ya, ma kwuo na nkọwa ndị ahụ "nwere ike ịgbanwe". Ọ dịghị akụkụ ya ebunyela.
 
@@ -97,7 +97,7 @@ Ihe Ironwood na-agbanweghị: cryptography eji eme mmefu ego na ịmepụta proo
 
 ## Tebụl ọnọdụ
 
-E nyochara ikpeazụ n'ụbọchị 13 Septemba 2026, ewezuga ahịrị Sprout, nke e melitere n'ụbọchị 9 Ọktoba 2026. Ọnọdụ isiokwu ZIP na ọnọdụ network ya bụ ihe abụọ dị iche: ZIP 2005 ka na-ekwu "Proposed" n'isiokwu ya n'agbanyeghị na etinyela iwu ya n'ọrụ na Mainnet kemgbe Julaị 2026.
+E nyochara ikpeazụ n'ụbọchị 13 Septemba 2026, ewezuga ahịrị Sprout, nke e melitere n'ụbọchị 13 Nọvemba 2026 ka NU7 rụchara ọrụ. Ọnọdụ isiokwu ZIP na ọnọdụ network ya bụ ihe abụọ dị iche: ZIP 2005 ka na-ekwu "Proposed" n'isiokwu ya n'agbanyeghị na etinyela iwu ya n'ọrụ na Mainnet kemgbe Julaị 2026.
 
 | Ihe | Ọnọdụ ZIP | Ọnọdụ network | Ụbọchị | Isi mmalite |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ E nyochara ikpeazụ n'ụbọchị 13 Septemba 2026, ewezuga ahịrị Sprout, 
 | E-akpa ego na-ebuga ego n'ime Ironwood | Ntuziaka dị na ZIP 2005, ZIP 318 na ZIP 326 (Draft) | A na-atụ aro ya, dabere na e-akpa ego gị | Kemgbe 28 Julaị 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Recovery Protocol | E depụtara naanị n'ime ZIP 2005 | **Emebeghị ya** | Ọ dịghị ụbọchị | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Ịgbanyụ Orchard na Sapling | Ọ dịghị ZIP | **Ahazighị ya** | Mkparịta ụka Sapling sitere n'Ọnwa Eprel 2026 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Ịkwụsị mmefu Sprout (ZIP 2003) | A tụrụ aro, NU7 ga-ebunye ya dị ka ZIP 259 (Proposed) siri kwuo | **Agbanyebeghị ya** | Ogologo Mainnet 3,543,405, a tụrụ anya 5 Novemba 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Ịkwụsị mmefu Sprout (ZIP 2003) | A tụrụ aro, NU7 ga-ebunye ya dị ka ZIP 259 (Proposed) siri kwuo | **Agbanyela** na Mainnet | 6 Novemba 2026, block 3,543,405 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Iweghachite Oha (ZIP 2007) | Reserved | **Aro** | Echebere ZIP n'ụbọchị 5 Julaị 2025, mkparịta ụka mepere 17 Juun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Nzuzo post-quantum maka Adreesị akpa ego a maara | Okwu mepere emepe, ọ dịghị ZIP | **Nnyocha** | #1133 mepere 18 Ọgọst 2022, #1307 mepere 23 Juun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Project Tachyon | Ọ dịghị ZIP | **Aro**, a na-emepe ya | Ebipụtara mbụ Ọnwa Eprel 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |

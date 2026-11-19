@@ -99,17 +99,19 @@ ___
 - Ironwood: Retiros blindados admitidos, pool no especificado
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Sitio web: [Huobi](https://huobi.com)
+- Sitio web: [HTX](https://www.htx.com) (anteriormente Huobi)
 - Pares: TODOS/ZEC
 - Admite: Transparente
+- Estado: ZEC depósitos y retiros suspendidos actualmente (según la API pública de HTX, noviembre de 2026); el trading al contado sigue apareciendo
 - Tiempo de depósito: 35 minutos 
 - Ironwood: No aplicable, solo direcciones transparentes
+
 ___
 
 ### [Kraken](https://kraken.com)

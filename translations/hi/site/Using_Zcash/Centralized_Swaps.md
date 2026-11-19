@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - वेबसाइट: https://trocador.app/
 - विवरण: गुमनाम रूप से क्रिप्टोकरेंसी ट्रेड करें। तेज़। सुरक्षित। कोई नौकरशाही नहीं। प्रीपेड डेबिट कार्ड उपलब्ध हैं।
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - वेबसाइट: https://github.com/firoorg/FiroDEX-Desktop
-- विवरण: FiroDEX के साथ एटॉमिक स्वैप का उपयोग करके ट्रस्टलेस डिसेंट्रलाइज़्ड स्वैप!।
+- विवरण: एटॉमिक-स्वैप डेस्कटॉप ऐप। अब इसका रखरखाव नहीं किया जाता: Firo ने FiroDEX-Desktop रिपॉज़िटरी को आर्काइव कर दिया है, और इसकी आख़िरी रिलीज़ 0.8.2-beta (फ़रवरी 2025) है।
 
 ___
 

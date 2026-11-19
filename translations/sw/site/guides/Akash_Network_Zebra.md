@@ -1,6 +1,6 @@
 # Jinsi ya kuendesha Zebra kwenye Mtandao wa Akash
 
-Mwongozo wa hatua kwa hatua wa kusambaza full node ya Zebra Zcash ukitumia [Konsoli ya Akash](https://console.akash.network).
+Mwongozo wa hatua kwa hatua wa kusambaza full node ya Zebra Zcash kwenye Akash.
 
 ### Unachosambaza
 
@@ -15,54 +15,92 @@ Full node ya Zebra ambayo:
 -> Itatumia vCPU 4, RAM 16GB, hifadhi 350GB (mainnet) au vCPU 2, RAM 8GB, 50GB (testnet)
 
 
-### Muhimu: Uwekaji Ramani wa Port kwenye Akash
+Kiolezo cha awesome-akash sasa kimebana **Zebra 7.0.0** (kamwe `:latest`). Huwasha Prometheus (`9999`) na health (`8080`) ndani, JSON-RPC ndani kwa ajili ya **lightwalletd** iliyo kwenye eneo moja kupitia gRPC **9067**, na alama za vipengele `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`.
 
-Unapofichua port kwenye Akash (kwa mfano, port 8233 kwa P2P ya Zebra), **HAIFUNGIWI kwenye port hiyo kamili** kwenye IP ya umma ya mtoa huduma. Badala yake, mtoa huduma hukupatia port ya juu ya nasibu (kama 31234 au 42567) na huiunganisha kupitia reverse proxy kwenye port 8233 ya kontena lako.
+Kwa node ya Mainnet iliyopunguzwa na inayofanya kazi kwa kasi zaidi, tazama [Jinsi ya kuendesha Zakura kwenye Akash](/guides/akash-network-zakura). Kwa dashibodi ya Regtest inayoweza kutupwa, tazama [Hivyo ndivyo ilivyosemwa Zakura kwenye Akash](/guides/thus-spoke-zakura-akash).
 
-Hii imeundwa hivi kwa makusudi - watoa huduma huendesha usambazaji mwingi, na kungekuwa na migongano ikiwa kila mtu angejaribu kutumia port 8233 moja kwa moja.
+### Jinsi Akash huchapisha porti
 
-**Hii ina maana gani kwako:**
+Nambari zilizo kwenye SDL (`port` / `as`) ni **milango ya kontena**. Zebra bado inasikiliza kwenye **8233**, lightwalletd kwenye **9067**, na ukaguzi wa afya kwenye **8080**. Nambari hizo ni za mchakato na huduma nyingine zilizo kwenye deployment hiyo hiyo (`zebra:8232`).
 
--> Unasanidi port 8233 katika SDL (port ya kawaida ya P2P ya Zebra)
+Hizo **si** port za IP ya umma ya mtoa huduma.
 
--> Akash hukupa URI kama *provider.com:31234*
+**Chaguomsingi (kiolezo hiki):** hakuna IP maalumu. Kwa kila `global: true` TCP inayowekwa wazi, mtoa huduma huelekeza **mlango wa juu uliochaguliwa nasibu** kwenye seva pangishi inayoshirikiwa hadi kwenye mlango wa kontena lako. Muda wa ukodishaji ukiisha, **Leases → URIs** katika Console/Air huorodhesha sehemu halisi za mwisho, kwa mfano:
 
--> Node nyingine za Zcash huunganishwa nawe kupitia *provider.com:31234*
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
--> Ndani ya kontena lako, Zebra bado husikiliza kwenye 8233
+Vifaa vinavyounganishwa na pochi hutumia thamani hizo za host:port. Nakili URI ya expose unayotaka kutumia (P2P dhidi ya lightwalletd). Ukiweka `ZEBRA_NETWORK__EXTERNAL_ADDR`, iweke kwenye URI ya P2P iliyounganishwa (`provider.example:31482`), si `…:8233`.
 
+**HTTP** (`as: 80` yenye `http_options`, inayotumika kwenye dashibodi ya Thus Spoke): watoa huduma wengi huchapisha **jina la host la ingress** (mara nyingi kwenye 80/443) badala ya port ya TCP isiyobainishwa. Fungua URI ya huduma hiyo kwenye kivinjari.
 
-Hili hushughulikiwa kiotomatiki. Tumia tu URI ambayo Akash inakupa.
+**Ya ndani** (`global: false` au `to: service: lightwalletd`): DNS ya cluster pekee (`zebra:8232`). Hakuna URI ya umma.
+
+**Anwani za IP zilizotengwa** (`endpoints` / `kind: ip` katika SDL) ni **nyongeza ya gharama ya juu**. Zinaweza kuhusisha anwani ya IP ya umma na wakati mwingine porti ya `as` kwenye anwani hiyo ya IP. Violezo hivi **haviombi** anwani hiyo. Iongeze mwenyewe baadaye ukitaka `host:8233` thabiti; tarajia gharama ya ziada na watoa huduma wachache wa zabuni.
+
+### Tovuti ipi ya kutumia (malipo)
+
+SDL ni ile ile. Akash Kiolesura cha wavuti hutofautiana katika **jinsi unavyolipa**.
+
+| Tovuti | Malipo | Pochi |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Malipo ya kawaida ya wavuti (kadi / njia za malipo ya fiat zinazotolewa na Console) | Akaunti ya Console |
+| [air.akash.network](https://air.akash.network) | Malipo asilia ya Akash mnyororo (AKT / ACT) | **Keplr** |
+
+Tumia **Air** unapotaka kulipa kwa kutumia Keplr on-chain. Tumia **Console** unapotaka mtiririko wa kawaida wa malipo ya wavuti. Usitarajie malipo ya moja kwa moja ya Keplr kwenye Console.
 
 ### Mahitaji ya Awali
 
-1. Kiendelezi cha kivinjari cha **Keplr Wallet** kimesakinishwa (Chrome/Brave/Firefox)
-2. **Tokeni za AKT** - Pata AKT 50-100 kutoka kwenye soko la kubadilishana sarafu [exchange] (Coinbase, Kraken, Osmosis)
-3. **Dakika 5** za kubofya kwenye kiolesura cha Konsoli
+**Ikiwa unalipa kwenye Console (malipo ya wavuti)**
 
-#### Hatua ya 1: Unganisha Pochi Yako
+1. Akaunti ya Console katika [console.akash.network](https://console.akash.network)
+2. Njia ya malipo inayokubaliwa na kiolesura cha Console
+3. Dakika chache kwenye kiolesura
+
+**Ukilipa kwa kutumia Air (asili Akash / Keplr)**
+
+1. Kiendelezi cha kivinjari **Keplr** (Chrome/Brave/Firefox)
+2. **AKT / ACT** katika Keplr kwa ajili ya kuweka amana na kukodisha (kutoka kwenye soko la kubadilishana sarafu au IBC)
+3. Fungua [air.akash.network](https://air.akash.network)
+
+#### Hatua ya 1: Unganisha
+
+**Dashibodi (malipo ya wavuti)**
 
 -> Nenda kwenye [https://console.akash.network](https://console.akash.network)
 
--> Bofya **“Unganisha Pochi”** kwenye sehemu ya juu kulia
+-> Ingia / kamilisha mchakato wa akaunti ya Console
 
--> Chagua **Keplr** (au pochi yako ya Cosmos unayoipendelea)
+Tumia chaguo la malipo ambalo kiolesura kinawasilisha (si Keplr on-chain)
 
--> Idhinisha muunganisho Keplr itakapojitokeza
+**Air (malipo asilia ya Akash)**
 
+-> Nenda kwenye [https://air.akash.network](https://air.akash.network)
 
-Salio lako la AKT linapaswa kuonekana sehemu ya juu kulia. Ikiwa ni sifuri, ongeza salio kwenye pochi yako kwanza.
+-> Bofya **“Unganisha Pochi”**
+
+-> Chagua **Keplr** na uidhinishe muunganisho
+
+-> Thibitisha kuwa salio lako la AKT/ACT linatosha kwa amana pamoja na ukodishaji
 
 #### Hatua ya 2: Unda Usambazaji
 
--> Bofya kitufe cha **“Sambaza”** (kitufe kikubwa cha bluu, katikati ya ukurasa)
+-> Bofya **“Deploy”**
 
 -> Chagua **“Jenga kiolezo chako”** (au ruka moja kwa moja hadi kupakia SDL)
 
 
 ##### Chaguo A: Pakia Faili la SDL (Linapendekezwa)
 
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Malipo ya wavuti (Console)**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**Malipo asilia ya Akash kwa kutumia Keplr (Air)**
+
+[Fungua kiolezo hiki kwenye Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Chaguo B: Tumia Kihariri cha SDL
 
@@ -79,13 +117,13 @@ Ikiwa unataka kunakili mwenyewe [SDL](https://github.com/akash-network/awesome-a
 
 #### Hatua ya 3: Kagua na Idhinisha Amana
 
-Konsoli itakuonyesha:
+Kiolesura kitakuonyesha:
 
 -> **Amana ya usambazaji**: ~5 AKT (utarejeshewa hii utakapofunga usambazaji)
 
 -> **Gharama inayokadiriwa**: Kulingana na bei yako ya SDL
 
-Bofya **“Idhinisha”** na utie sahihi kwenye muamala [transaction] katika Keplr.
+Kwenye **Air**, bofya **“Approve”** na uingie kwenye **Keplr**. Kwenye **Console**, kamilisha malipo ya wavuti yanayoonyeshwa kwenye kiolesura.
 
 #### Hatua ya 4: Chagua Mtoa Huduma
 
@@ -107,7 +145,7 @@ Baada ya ~ sekunde 30, utaona zabuni kutoka kwa watoa huduma. Kila zabuni huonye
 -> Hali ya ukaguzi (alama ya tiki ya kijani = ya kuaminika zaidi)
 
 
-Bofya **“Kubali Zabuni”** kwa mtoa huduma uliyemchagua na utie sahihi katika Keplr.
+Bofya **“Kubali Zabuni”** kwenye mtoa huduma uliyemchagua. Kwenye Air, ingia Keplr. Kwenye Console, thibitisha kupitia mtiririko wa malipo wa wavuti.
 
 #### Hatua ya 5: Subiri Usambazaji
 
@@ -158,15 +196,14 @@ Bofya kichupo cha **Ukodishaji**, kisha **URI**.
 
 Utaona kitu kama hiki:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-Hii ni **endpoint ya umma ya P2P** ya node yako. Node nyingine za Zcash zitaunganishwa nawe kwenye anwani hii.
+Kila mstari ni `global: true` inayofichuliwa. Jina linajumuisha porti ya SDL `as` (8233, 9067). Nambari inayofuata jina la seva ni **porti iliyopangiwa na mtoa huduma**, inayotolewa wakati wa kukodisha. Node nyingine za Zcash huwasiliana na `provider-hostname.com:31482`. Pochi ndogo hutumia URI ya lightwalletd (TLS imezimwa isipokuwa ukisimamia mwisho wa TLS mwenyewe).
 
-**Tambua uwekaji ramani wa port:** Ulisanidi port 8233 katika SDL, lakini Akash iliipangia port tofauti ya umma (31234 katika mfano huu). Hii ni kawaida - tazama sehemu ya “Uwekaji Ramani wa Port kwenye Akash” hapo juu ikiwa hili linakuchanganya. Node yako inaweza kufikiwa kwenye port yoyote ambayo Akash inaonyesha hapa, si lazima 8233.
-
-Ikiwa uliwezesha RPC (imewekwa kama maoni kwa chaguomsingi katika SDL), utaona pia endpoint ya RPC hapa pamoja na port yake yenyewe iliyowekwa ramani.
+Kontena bado inasikiliza kwenye 8233 / 9067. Anwani ya umma daima ni URI, isipokuwa baadaye uongeze IP maalum (haipo kwenye kiolezo hiki).
 
 ### Chaguo za Usanidi
 
@@ -267,7 +304,7 @@ RPC imezimwa kwa chaguomsingi kwa usalama. Ili kuiwezesha:
 
 **Onyo**: Ukiweka *global: true* kwa RPC, unaifichua kwenye intaneti. Zebra hutumia uthibitishaji wa cookie kwa chaguomsingi, lakini bado - usifanye hivi isipokuwa unajua unachofanya.
 
-**Kikumbusho cha uwekaji ramani wa port**: Hata ukifichua RPC kimataifa, Akash itaiweka kwenye port ya juu ya nasibu (si 8232/18232). Kagua URI katika usambazaji wako ili kuona endpoint halisi ya umma. Kwa *global: false* (inayopendekezwa), endpoint ya RPC inaweza kufikiwa tu ndani ya mtandao wa usambazaji wa Akash, si kutoka kwenye intaneti ya umma.
+Ikiwa utaweka RPC wazi kwa kutumia `global: true`, anwani ya umma bado ni **URI ya ukodishaji** (`host:&lt;random-high-port&gt;`), wala si `host:8232`. Kwa kutumia `global: false` (kiolezo hiki), RPC hubaki kwenye mtandao wa deployment (`zebra:8232` kwa ajili ya lightwalletd). Ukodishaji wa IP maalum ni chaguo tofauti la kulipia na haujajumuishwa kwenye SDL.
 
 #### Wezesha Vipimo (Prometheus)
 
@@ -319,7 +356,7 @@ Je, unahitaji kubadilisha usanidi baada ya kusambaza?
 
 -> Hariri SDL
 
--> Bofya **“Sasisha”** na uidhinishe katika Keplr
+-> Bofya **“Sasisha”** (Air: ingia Keplr; Console: thibitisha mtiririko wa malipo wa wavuti)
 
 **Kumbuka**: Kusasisha kutaanzisha upya kontena lako. Node itaendelea kutoka hali yake iliyohifadhiwa (hifadhi endelevu), lakini tarajia dakika 1-2 za kutopatikana.
 
@@ -348,7 +385,7 @@ Ukimaliza au unataka kuacha kulipa:
 
 -> Bofya **“Funga Usambazaji”**
 
--> Thibitisha na utie sahihi katika Keplr
+-> Thibitisha (Air: ingia kwenye akaunti Keplr; Console: thibitisha kwenye kiolesura cha Console)
 
 Amana yako ya AKT 5 itarejeshwa. **Hifadhi endelevu** inapaswa kuhifadhiwa na mtoa huduma, lakini usiitegemee - ichukulie kama mtoa huduma mwingine yeyote wa wingu.
 
@@ -356,7 +393,7 @@ Amana yako ya AKT 5 itarejeshwa. **Hifadhi endelevu** inapaswa kuhifadhiwa na mt
 
 #### Hitilafu ya “Fedha hazitoshi”
 
-Unahitaji AKT zaidi. Weka salio kwenye pochi yako ya Keplr.
+Kwenye On Air, weka fedha kwenye Keplr kwa kutumia AKT/ACT. Kwenye Console, ongeza salio kwenye njia ya malipo ya Console.
 
 #### Hakuna zabuni zinazoonekana
 
@@ -394,12 +431,11 @@ Fafanua “muda mrefu sana”:
 
 ### Usimamizi wa Gharama
 
-Fuatilia matumizi yako katika Konsoli:
+Fuatilia matumizi yako kwenye Console au Air:
 
 -> **Usambazaji Wangu** -> Usambazaji wako -> Huonyesha makadirio ya “Gharama kwa mwezi”
 
--> Salio la pochi yako ya Keplr litapungua kadiri muda unavyopita
-
+-> Air: Salio lako la AKT/ACT katika Keplr hupungua kadiri muda unavyopita. Console: Salio lako la malipo la Console hupungua.
 
 Salio lako litakapopungua, Akash itafunga usambazaji wako kiotomatiki. **Ongeza salio kwenye pochi yako mara kwa mara** au weka arifa.
 
@@ -433,7 +469,9 @@ Anza na Testnet ikiwa unajaribu tu mchakato wa usambazaji. Tazama sehemu ya “K
 
 ### Rasilimali za Ziada
 
-**Konsoli ya Akash**: [https://console.akash.network](https://console.akash.network)
+**Akash Console** (malipo ya wavuti): [https://console.akash.network](https://console.akash.network)
+
+**Akash Air** (AKT/ACT asilia + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Nyaraka za Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 

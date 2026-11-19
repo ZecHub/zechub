@@ -94,7 +94,7 @@ Site n'ịrụ full node, ị na-enyere aka ime ka netwọk zcash sie ike site n
 
 Nke a na-enyere aka igbochi njikwa ndị iro ma mee ka netwọk ahụ nwee ike iguzogide ụdị ụfọdụ nke ọgba aghara.
 
-DNS seeders na-ekpughe ndepụta node ndị ọzọ a pụrụ ịtụkwasị obi site na sava arụnyere n'ime ya. Nke a na-eme ka Azụmahia gbasaa na netwọk dum.
+DNS seeders na-ekpughe ndepụta node ndị ọzọ a pụrụ ịtụkwasị obi site na sava arụnyere n'ime ya. Nke a na-eme ka Azụmahia gbasaa na netwọk dum. Ndị na-enye seed nke Zcash Foundation na-eji [Zeeder](https://github.com/ZcashFoundation/zeeder), DNS seeder e dere na Rust nke dochiri dnsseeder nke dabeere na CoreDNS. A na-ebipụta onyonyo ya dị ka `zfnd/zeeder`; a na-akwụsị iji aha ochie `zfnd/dnsseeder`.
 
 ### Ọnụọgụ Netwọk
 
@@ -136,6 +136,7 @@ Nke a nwekwara uru ọzọ nke ikwe ka ndị ọrụ ndị ọzọ jikọọ na 
 - [Zakura Node](/zcash-tech/zakura-node) - mmejuputa node nke abụọ, nke e wepụtara site na Zebra
 - [Node Lightwallet](/zcash-tech/lightwallet-nodes) - sava ndị e-akpa ego ọkụ na-ajụ ase
 - [Zaino](/zcash-tech/zaino) - indexer Rust nke na-ejere e-akpa ego ọkụ ozi
+- [Zinder](/zcash-tech/zinder) - indexer alpha nke Zcash Foundation maka Zebra na Zakura
 - [Zcash Mmekọrịta e-akpa ego](/zcash-tech/zcash-wallet-syncing) - ihe mere mmekọrịta ji arụ ọrụ otu a
 
 ## Mmụta Ọzọ

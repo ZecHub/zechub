@@ -2,30 +2,30 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Επεξεργασία σελίδας"/>
 </a>
 
-# Οδηγός ενσωμάτωσης MetaMask Zcash Snap
+# MetaMask Zcash Snap Οδηγός ενσωμάτωσης
 
-> Διατήρησε και στείλε θωρακισμένα ZEC από την επέκταση προγράμματος περιήγησης MetaMask, χρησιμοποιώντας το Zcash Snap του ChainSafe και το web wallet WebZjs.
+> Διατήρησε και στείλε θωρακισμένα ZEC από την επέκταση προγράμματος περιήγησης MetaMask, χρησιμοποιώντας το Zcash Snap του ChainSafe και το διαδικτυακό πορτοφόλι WebZjs.
 
 ## Με λίγα λόγια
 
-* Το ChainSafe Zcash Snap προσθέτει θωρακισμένη υποστήριξη για το ZEC στο MetaMask για υπολογιστές (Chrome, Edge, Firefox). Δεν χρειάζεται ξεχωριστό λογισμικό Zcash.
-* Τα κλειδιά σου Zcash προέρχονται από τη φράση ανάκτησης MetaMask. Αυτή η μία φράση προστατεύει πλέον τόσο το ETH όσο και το ZEC σου.
-* Διαχειρίζεσαι το ZEC μέσω του πορτοφολιού WebZjs στο webzjs.chainsafe.dev, όχι στη δική του λίστα assets του MetaMask.
-* Ο λογαριασμός σου λαμβάνει μια ενοποιημένη διεύθυνση, ώστε οι αποστολείς να σε πληρώνουν στο πιο ιδιωτικό pool που υποστηρίζουν.
-* Χρηματοδότησέ το κάνοντας swap (π.χ. από ETH σε ZEC) ή κάνοντας ανάληψη ZEC από ένα ανταλλακτήριο στη θωρακισμένη διεύθυνσή σου.
-* Ανάκτηση: επανεγκατέστησε το MetaMask και το Snap και έπειτα εισήγαγε την υπάρχουσα φράση ανάκτησής σου.
+* Το ChainSafe Zcash Snap προσθέτει θωρακισμένες ZEC στο MetaMask για υπολογιστές (Chrome, Edge, Firefox). Δεν χρειάζεσαι ξεχωριστό λογισμικό Zcash.
+* Τα κλειδιά Zcash σου προκύπτουν από τη φράση ανάκτησης MetaMask σου. Αυτή η φράση προστατεύει πλέον τόσο το ETH όσο και το ZEC σου.
+* Διαχειρίζεσαι το ZEC μέσω του πορτοφολιού WebZjs στη διεύθυνση webzjs.chainsafe.dev, όχι στη δική του λίστα περιουσιακών στοιχείων του MetaMask.
+* Ο λογαριασμός σου αποκτά μια ενοποιημένη διεύθυνση, ώστε όσοι σου στέλνουν να σε πληρώνουν στο πιο ιδιωτικό pool που υποστηρίζουν.
+* Τον χρηματοδοτείς κάνοντας swap (για παράδειγμα, από ETH σε ZEC) ή αποσύροντας ZEC από ένα ανταλλακτήριο στη θωρακισμένη διεύθυνσή σου.
+* Ανάκτηση: Επανεγκατέστησε το MetaMask και το Snap και, στη συνέχεια, εισήγαγε την υπάρχουσα φράση ανάκτησής σου.
 
 ## Βασική επεξήγηση
 
-Ένα MetaMask Snap είναι ένα μικρό, απομονωμένο πρόσθετο που διδάσκει στο MetaMask ένα νέο blockchain. Το Zcash Snap, που αναπτύχθηκε από το ChainSafe και ελέγχθηκε από το Hacken, επιτρέπει στο MetaMask να παράγει κλειδιά Zcash από την υπάρχουσα φράση ανάκτησής σου και να υπογράφει συναλλαγές Zcash.
+Ένα MetaMask Snap είναι ένα μικρό πρόσθετο σε απομονωμένο περιβάλλον, που προσθέτει υποστήριξη για ένα νέο blockchain στο MetaMask. Το Snap Zcash, που αναπτύχθηκε από το ChainSafe και ελέγχθηκε από την Hacken, επιτρέπει στο MetaMask να παράγει κλειδιά Zcash από την υπάρχουσα φράση ανάκτησής σου και να υπογράφει συναλλαγές Zcash.
 
-Το ίδιο το MetaMask δεν εμφανίζει υπόλοιπο ZEC. Αντίθετα, το διαδικτυακό πορτοφόλι WebZjs συνδέεται με το Snap, συγχρονίζεται με το δίκτυο Zcash μέσω ενός διακομιστή lightwalletd και εμφανίζει τις διευθύνσεις και το υπόλοιπό σου. Οι θωρακισμένες αποδείξεις υπολογίζονται στο πρόγραμμα περιήγησής σου με το WebAssembly, γι' αυτό οι αποστολές μπορεί να χρειαστούν λίγο χρόνο.
+Το ίδιο το MetaMask δεν εμφανίζει υπόλοιπο ZEC. Αντίθετα, το διαδικτυακό πορτοφόλι WebZjs συνδέεται με το Snap, συγχρονίζεται με το δίκτυο Zcash μέσω ενός διακομιστή lightwalletd και εμφανίζει τις διευθύνσεις και το υπόλοιπό σου. Οι θωρακισμένες αποδείξεις υπολογίζονται στο πρόγραμμα περιήγησής σου με το WebAssembly, γι’ αυτό η αποστολή μπορεί να πάρει λίγο χρόνο.
 
-Τα παρακάτω βήματα καλύπτουν την εγκατάσταση του Snap, τη σύνδεση του WebZjs, τη χρηματοδότηση του πορτοφολιού, την αποστολή και λήψη, και τον έλεγχο των τμημάτων της ενοποιημένης διεύθυνσής σου.
+Τα παρακάτω βήματα καλύπτουν την εγκατάσταση του Snap, τη σύνδεση του WebZjs, τη χρηματοδότηση του πορτοφολιού, την αποστολή και τη λήψη, καθώς και τον έλεγχο των επιμέρους τμημάτων της ενοποιημένης διεύθυνσής σου.
 
 ## Πλήρης οδηγός
 
-Για μια πλήρη παρουσίαση και οπτική εξήγηση, δες αυτόν τον [**YouTube οδηγό**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
+Για αναλυτική παρουσίαση των βημάτων και οπτική επεξήγηση, παρακολούθησε αυτόν τον [**οδηγό YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -39,43 +39,43 @@
 </div>
      
 
-Το MetaMask υποστηρίζει πλέον **θωρακισμένο Zcash (ZEC)** μέσω του **Snap Zcash που αναπτύχθηκε από την ChainSafe**, επιτρέποντάς σου να στέλνεις, να λαμβάνεις και να διαχειρίζεσαι ιδιωτικά ZEC απευθείας στο πορτοφόλι του browser σου. Έχει ελεγχθεί από την **Hacken** και περιλαμβάνεται στον **επίσημο κατάλογο Snaps του MetaMask**, ενώ δεν απαιτεί **ξεχωριστό λογισμικό Zcash** - μόνο το MetaMask και το Snap.
+Το MetaMask υποστηρίζει πλέον **θωρακισμένες Zcash (ZEC)** μέσω του **Zcash Snap που αναπτύχθηκε από το ChainSafe**, επιτρέποντάς σου να στέλνεις, να λαμβάνεις και να διαχειρίζεσαι ιδιωτικές ZEC απευθείας στο πορτοφόλι του προγράμματος περιήγησής σου. Έχει ελεγχθεί από την **Hacken** και περιλαμβάνεται στον **επίσημο Κατάλογο Snaps του MetaMask**. Δεν απαιτείται **ξεχωριστό λογισμικό Zcash**· χρειάζεσαι μόνο το MetaMask και το Snap.
 
 ---
 
 ## **Προαπαιτούμενα**
 
 
-> [**Επέκταση MetaMask**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (μόνο για desktop) - Chrome, Edge ή Firefox.
-> Λογαριασμός MetaMask - Η φράση ανάκτησης είναι ασφαλισμένη· το Snap παράγει κλειδιά Zcash από αυτήν.  
+> [**Επέκταση MetaMask**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) (μόνο για υπολογιστές) - Chrome, Edge ή Firefox.
+> Λογαριασμός MetaMask - Φράση ανάκτησης ασφαλισμένη· το Snap παράγει από αυτήν κλειδιά Zcash.  
 > Σταθερή σύνδεση στο διαδίκτυο - Για συγχρονισμό με το δίκτυο Zcash.  
-> Κεφάλαια - ETH για swap σε ZEC ή ZEC από ένα ανταλλακτήριο.
+> Κεφάλαια - ETH για swap με ZEC ή ZEC από ανταλλακτήριο.
 
-> **Συμβουλή:** Προστάτευσε τη φράση ανάκτησης του MetaMask σου - ελέγχει τόσο το ETH όσο και το ZEC.
+> **Συμβουλή:** Προστάτευσε τη φράση ανάκτησης MetaMask σου· ελέγχει τόσο το ETH όσο και το ZEC σου.
 
 ---
 
-## **1. Εγκατάσταση του Snap Zcash**
+## **1. Εγκατάσταση του Zcash Snap**
 
-1. Μετάβαση στον [**κατάλογο Snaps του MetaMask**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Αναζήτησε το [**«Θωρακισμένο πορτοφόλι Zcash»**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) ή το [**«Snap WebZjs Zcash»**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-3. Κάνε κλικ στο **Εγκατάσταση/Προσθήκη στο MetaMask**.
-4. Ενέκρινε δικαιώματα όπως:
+1. Μετάβασε στον [**Κατάλογο Snaps του MetaMask**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/).  
+2. Αναζήτησε το [**«Zcash WebZjs Wallet»**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) ή το [**«WebZjs Zcash Snap»**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/).  
+3. Πάτησε **Install/Add to MetaMask**.
+4. Έγκρινε δικαιώματα όπως:
    ```
       Manage Zcash accounts 
       Store data on your device
    ```
 
-![εγκατάσταση-Zcash-snap](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
 
-## **2. (Προαιρετικό) Προσθήκη δικτύου Zcash**
+## **2. (Προαιρετικά) Προσθήκη δικτύου Zcash**
 
-Στο MetaMask, επίλεξε **Προσθήκη δικτύου** και εισήγαγε:
+Στο MetaMask, επίλεξε **Add Network** και συμπλήρωσε:
 
-Για το **BNB SmartChain**:
+Για το **BNB SmartChain**·
 ```markdown
 -  Name: BNB Smart Chain
 -  RPC URL: https://bsc-dataseed.binance.org
@@ -83,31 +83,31 @@
 -  Symbol: BNB
 -  Block Explorer URL: https://bscscan.com
 ```
-Αυτό ενεργοποιεί πληροφορίες δικτύου και συνδέσμους εξερευνητή.
-![Προσθήκη-ενός-προσαρμοσμένου-δικτύου....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+Έτσι ενεργοποιούνται οι πληροφορίες δικτύου και οι σύνδεσμοι προς block explorer.
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-Για το **Mainnet Zcash**:
+Για το **Zcash Mainnet**·
 ```markdown
 - Name: Zcash Mainnet  
 - RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
-Το `https://zjs.zec.rocks` είναι ένας συμβατός με WebZjs (gRPC-web) διακομιστής lightwalletd που λειτουργεί από τον [zec.rocks](https://zec.rocks) (@emersonian). Για testnet, χρησιμοποίησε το `https://zjs.zec.rocks/testnet`. Αν εκτελείς εσύ το web πορτοφόλι WebZjs, αυτή είναι η τιμή που πρέπει να ορίσεις ως `LIGHTWALLETD_PROXY`.
+Το `https://zjs.zec.rocks` είναι ένας διακομιστής lightwalletd συμβατός με WebZjs (gRPC-web), τον οποίο λειτουργεί το [zec.rocks](https://zec.rocks) (@emersonian). Για το testnet, χρησιμοποίησε το `https://zjs.zec.rocks/testnet`. Αν λειτουργείς ο ίδιος το διαδικτυακό πορτοφόλι WebZjs, όρισε αυτήν την τιμή ως `LIGHTWALLETD_PROXY`.
 
 ---
 
 ## **3. Σύνδεση στο πορτοφόλι ChainSafe WebZjs**
 
-1. Επισκέψου το [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
-2. Κάνε κλικ στο **Σύνδεση MetaMask Snap**.  
+1. Επισκέψου τη διεύθυνση [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
+2. Πάτησε **Connect MetaMask Snap**.  
 
-![web-πορτοφόλι-Zcash](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
-3. Ενέκρινε τη σύνδεση.  
-4. Δες τη σύνοψη του λογαριασμού Zcash σου, συμπεριλαμβανομένων:
-   - Ενοποιημένων διευθύνσεων και διαφανούς διεύθυνσης
+3. Έγκρινε τη σύνδεση.  
+4. Δες τη σύνοψη του λογαριασμού σου Zcash, η οποία περιλαμβάνει:
+   - Ενοποιημένες διευθύνσεις και διαφανή διεύθυνση
 
-![Σύνοψη-λογαριασμού-ενοπ....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Περίμενε να ολοκληρωθεί ο συγχρονισμός.
@@ -119,25 +119,25 @@
 
 ## **4. Χρηματοδότηση του πορτοφολιού σου**
 
-> **Swap ETH -> ZEC** - Χρησιμοποίησε υπηρεσίες όπως το **LeoDex** και στείλε στη θωρακισμένη διεύθυνσή σου.  
-> **Ανάληψη από ανταλλακτήριο** - Κάνε ανάληψη του ZEC που αγόρασες στη θωρακισμένη διεύθυνση WebZjs σου.  
+> **Swap ETH -> ZEC** - Χρησιμοποίησε υπηρεσίες όπως το **LeoDex** και στείλε τα κεφάλαια στη θωρακισμένη διεύθυνσή σου.  
+> **Ανάληψη από ανταλλακτήριο** - Απόσυρε ZEC που αγόρασες στη θωρακισμένη διεύθυνση WebZjs σου.  
 
 ![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
-> => Χρησιμοποίησε θωρακισμένες διευθύνσεις (z) για **πλήρη ιδιωτικότητα**.
+> => Χρησιμοποίησε θωρακισμένες (z) διευθύνσεις για **πλήρη ιδιωτικότητα**.
 
 ---
 
 ## **5. Αποστολή / λήψη ZEC**
 
-1. Στο **WebZjs**, μετάβαση στο **Μεταφορά υπολοίπου**.  
-2. Εισήγαγε:
+1. Στο **WebZjs**, επίλεξε **Transfer Balance**.  
+2. Συμπλήρωσε:
 ```
    - Shielded recipient address  
    - Amount
 ```
-   ![Μεταφορά-υπολοίπου](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Επιβεβαίωσε τη συναλλαγή στο MetaMask (υπόγραψε τη συναλλαγή).  
 5. Τα κεφάλαια που έλαβες θα εμφανιστούν στο WebZjs μετά την επιβεβαίωση.
@@ -147,7 +147,7 @@
 ## **6. Επαλήθευση / αντιμετώπιση προβλημάτων**
 
 > Έλεγξε το **WebZjs** για ενημερωμένα υπόλοιπα **(το MetaMask δεν έχει καταχωρίσει απευθείας το ZEC)** .  
-> Αν προκύψουν προβλήματα:
+> Αν παρουσιαστούν προβλήματα:
   ```
   - Confirm you have the official ChainSafe Snap.  
   - Check correct network settings.  
@@ -155,32 +155,32 @@
   - Reconnect via **Connect Snap** if needed.
   ``` 
 
-> **Συμβουλή ασφάλειας:** Εγκατέστησε μόνο το **ελεγμένο Snap της ChainSafe**· έλεγξε τα δικαιώματα πριν από την έγκριση.
+> **Συμβουλή ασφαλείας:** Εγκατέστησε μόνο το **ελεγμένο ChainSafe Snap**· έλεγξε τα δικαιώματα πριν από την έγκριση.
 
 ---
 
-## **7. Έλεγχος στοιχείων διεύθυνσης**
+## **7. Έλεγχος των στοιχείων της διεύθυνσης**
 
-1. Μετάβαση στην ενότητα **Receive** - η ενοποιημένη διεύθυνσή σου θα εμφανίζεται από προεπιλογή.  
+1. Μετάβασε στην ενότητα **Receive** - η ενοποιημένη διεύθυνσή σου εμφανίζεται από προεπιλογή.  
 2. Αντέγραψε την ενοποιημένη διεύθυνση και επισκέψου τον [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
 3. Επικόλλησε την ενοποιημένη διεύθυνσή σου στη γραμμή αναζήτησης.  
-4. Τώρα θα δεις όλα τα στοιχεία της ενοποιημένης διεύθυνσης, τα οποία περιλαμβάνουν:
+4. Θα δεις όλα τα στοιχεία της ενοποιημένης διεύθυνσης, στα οποία περιλαμβάνονται:
 ``` 
    Orchard Address  
    Sapling Address  
    Transparent Address
 ``` 
 
-![Στοιχεία-διεύθυνσης](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
 
 
 
 ---
 
-## **Επιπλέον σημειώσεις**
+## **Πρόσθετες σημειώσεις**
 
-> Χρησιμοποίησε την [**πιο πρόσφατη έκδοση MetaMask**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - η δημόσια έκδοση υποστηρίζει Snaps.  
-> Οι θωρακισμένες αποδείξεις μπορεί να χρειαστούν χρόνο· το WebAssembly διαχειρίζεται τον υπολογισμό μέσα στον browser.  
-> Η ανάκτηση είναι απλή, εγκατέστησε το MetaMask και το Snap και έπειτα εισήγαγε την υπάρχουσα φράση ανάκτησής σου.  
-> Το Snap χρησιμοποιεί από προεπιλογή **θωρακισμένο ZEC**, ενώ οι διαφανείς διευθύνσεις **δεν αποτελούν το επίκεντρο**.  
-> Χρησιμοποίησε το [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) για επιβεβαιώσεις συναλλαγών.
+> Χρησιμοποίησε την [**τελευταία έκδοση του MetaMask**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - η δημόσια έκδοση υποστηρίζει Snaps.  
+> Οι θωρακισμένες αποδείξεις μπορεί να χρειαστούν χρόνο· το WebAssembly εκτελεί τους υπολογισμούς στο πρόγραμμα περιήγησης.  
+> Η ανάκτηση είναι απλή: εγκατέστησε το MetaMask και το Snap και, στη συνέχεια, εισήγαγε την υπάρχουσα φράση ανάκτησής σου.  
+> Το Snap χρησιμοποιεί από προεπιλογή **θωρακισμένο ZEC**· οι διαφανείς διευθύνσεις **δεν είναι ο κύριος στόχος**.  
+> Χρησιμοποίησε τη διεύθυνση [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) για επιβεβαιώσεις συναλλαγών.

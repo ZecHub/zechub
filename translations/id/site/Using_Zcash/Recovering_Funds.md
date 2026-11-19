@@ -18,19 +18,17 @@ Sangat penting bagi pengguna untuk memahami risiko yang terlibat dalam menangani
 
 ZEC terlindungi yang lebih lama mungkin perlu dimigrasikan sebagai bagian dari pemulihan. Rutenya bergantung pada pool terlindungi mana yang saat ini menyimpan dana tersebut.
 
-> **NU7 direncanakan pada 5 November 2026.** Setelah diaktifkan, jalur migrasi saat ini dari pool Sprout lama akan berhenti berfungsi.
+> **NU7 diaktifkan di Mainnet pada 6 November 2026 (UTC), pada blok 3.543.405.** Aktivasi ini melarang transaksi versi 4 ([ZIP 2003](https://zips.z.cash/zip-2003)), dan dana Sprout hanya dapat dibelanjakan dalam transaksi versi 4, sehingga jalur migrasi dari pool Sprout lama tidak lagi berfungsi.
 >
-> Jika kamu masih memiliki ZEC di dalam pool Sprout, migrasikan sebelum peningkatan jaringan. Setelah aktivasi, alat yang ada tidak akan lagi dapat memindahkan dana Sprout ke Sapling, alamat transparan, atau tujuan lainnya.
->
-> Jika kamu melihat halaman ini **setelah NU7** diaktifkan, **Sprout membeku dalam es** sampai metode pemulihan di masa mendatang tersedia, yang saat ini belum direncanakan.
+> **Sprout kini membeku dalam es.** Alat yang ada tidak lagi dapat memindahkan dana Sprout ke Sapling, alamat transparan, atau tujuan lainnya. ZIP 2003 tidak membakar dana Sprout dan tetap memungkinkan adanya metode pemulihan di masa mendatang, tetapi saat ini belum ada yang direncanakan. Jika kamu memegang kunci Sprout, simpan dengan aman.
 
 ## Jawaban dalam satu halaman
 
 | Dana kamu berada di | Rute migrasi | Apa yang harus dilakukan |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | Jika kamu memiliki `wallet.dat` atau Sprout spending key mandiri, coba jalur pemulihan Argos saat ini terlebih dahulu. Jika Argos tidak sesuai, gunakan rute sidecar lama di panduan lengkap. Sprout harus mendarat di Sapling terlebih dahulu, lalu lanjut ke Ironwood. Rute ini sensitif terhadap waktu karena adanya NU7. |
-| **Sapling** | **Sapling → Ironwood** | Tidak memerlukan lingkungan pemulihan Sprout. Gunakan dompet saat ini yang dapat memulihkan atau membelanjakan akun Sapling spesifik milikmu dan menyusun transaksi Ironwood. Dukungan Ironwood saja tidak membuktikan adanya dukungan pemulihan legacy-Sapling. |
-| **Orchard** | **Orchard → Ironwood** | Orchard hanya untuk keluar (exit-only). Gunakan alur migrasi Orchard-ke-Ironwood bawaan dari dompet kompatibel saat ini. Lihat [Dana yang telah dipulihkan dan pool Ironwood](#recovered-funds-and-the-ironwood-pool). |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Jika kamu memiliki `wallet.dat` atau spending key Sprout mandiri, coba jalur pemulihan Argos saat ini terlebih dahulu. Jika Argos tidak sesuai, gunakan rute sidecar lama di panduan lengkap. Sprout harus mendarat di Sapling terlebih dahulu, lalu lanjut ke Ironwood. Sejak NU7 diaktifkan (blok 3,543,405), dana Sprout tidak dapat dipindahkan di Mainnet; lihat catatan di atas. |
+| **Sapling** | **Sapling → Ironwood** | Tidak memerlukan lingkungan pemulihan Sprout. Gunakan dompet saat ini yang dapat memulihkan atau membelanjakan akun Sapling spesifik milikmu serta menyusun transaksi Ironwood. Dukungan Ironwood saja tidak membuktikan adanya dukungan pemulihan legacy-Sapling. |
+| **Orchard** | **Orchard → Ironwood** | Orchard hanya untuk keluar. Gunakan alur migrasi Orchard-ke-Ironwood bawaan dari dompet kompatibel saat ini. Lihat [Dana yang telah dipulihkan dan pool Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
 ### Alur keputusan lima pertanyaan
 
@@ -173,7 +171,7 @@ Sejak peningkatan Ironwood (NU6.3) diaktifkan pada 28 Juli 2026, pool Orchard ha
 
 Jika dana yang kamu pulihkan berada di Orchard, pindahkan ke Ironwood menggunakan **alur migrasi bawaan dompet saat ini**. Orchard hanya dapat digunakan untuk keluar setelah NU6.3.
 
-Zkool 6.30.0 mutakhir per 18 September 2026 dan mendukung Ironwood. Desain migrasinya berfokus pada privasi, tetapi tidak sama dengan mengklaim kepatuhan ZIP 318. Dompet lain yang ada saat ini mungkin menggunakan migrasi bertahap gaya ZIP 318. Ikuti layar migrasi terkini dan catatan rilis dari dompet yang kamu instal daripada menentukan jumlah atau jadwal secara manual.
+Zkool 6.37.0 mutakhir per 12 November 2026 dan mendukung Ironwood. Gunakan versi 6.35.0 atau yang lebih baru: versi sebelumnya tidak mengetahui tinggi aktivasi Mainnet NU7 (blok 3.543.405), sehingga membuat transaksi berdasarkan aturan sebelum NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Desain migrasinya berfokus pada privasi, tetapi tidak sama dengan mengklaim kepatuhan ZIP 318. Dompet lain yang ada saat ini mungkin menggunakan migrasi bertahap gaya ZIP 318. Ikuti layar migrasi terkini dan catatan rilis dari dompet yang kamu instal daripada menentukan jumlah atau jadwal secara manual.
 
 Migrasi bertahap dapat menggunakan beberapa transaksi, sehingga total biaya bisa lebih tinggi daripada transfer satu kali jalan.
 
@@ -206,9 +204,9 @@ Jika kamu sudah memiliki materi pemulihan Zcash dari YWallet, pulihkan di Zkool 
 ## Halaman terkait
 
 - [Dompet](/using-zcash/wallets) - dompet mana saja yang dikelola dan Ironwood kesiapannya, termasuk Argos
-- [Ironwood](/zcash-tech/ironwood) - apa yang diubah oleh peningkatan jaringan dan mengapa dana bermigrasi
+- [Ironwood](/zcash-tech/ironwood) - apa yang diubah oleh peningkatan dan mengapa dana bermigrasi
 - [Memo](/using-zcash/memos) - cara kerja memo terenkripsi
 - [Viewing Keys](/zcash-tech/viewing-keys) - akses baca saja tanpa kemampuan untuk membelanjakan dana
-- [Node Lightwallet](/zcash-tech/lightwallet-nodes) - lightwalletdendpoint publik Argos yang dapat digunakan
-- Panduan pengguna [Argos](https://argos.sovright.com/guide.html) - panduan resmi dari Sovright
+- [Node Lightwallet](/zcash-tech/lightwallet-nodes) - endpoint lightwalletd publik yang dapat digunakan Argos
+- [Argos panduan pengguna](https://argos.sovright.com/guide.html) - panduan resmi dari Sovright
 - [Naomi Brockwell tentang alat pemulihan](https://x.com/naomibrockwell/status/2079146521405333526) - Argos panduan langkah demi langkah dan catatan tentang pemulihan profesional

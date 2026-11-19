@@ -53,10 +53,10 @@ Ntuziaka a lekwasịrị anya n'ịgwụputa Zcash site na ngwaike nkeonwe (dị
 - **Ngwanrọ Ịgwụputa:**
   - Maka GPU: lolMiner (na-akwado AMD/NVIDIA), GMiner, ma ọ bụ miniZ (lekwasịrị anya na NVIDIA). Budata site na repos GitHub gọọmentị (dịka ọmụmaatụ, github.com/Lolliedieb/lolMiner-releases).
   - Maka ASIC: Jiri firmware/dashboard arụnyere nke onye nrụpụta (dịka ọmụmaatụ, web interface Bitmain).
-- **E-akpa ego [wallet]:** E-akpa ego Zcash maka ịnata nkwụghachi. Ndị akwadoro:
-  - Nke e chebere echebe [shielded] (nkeonwe): ZODL Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
-  - Oha [transparent] (dị mfe mana nzuzo ya dị ntakịrị): Edge Wallet, Zecwallet Lite.
-  - Budata site na [wallets](https://zechub.wiki/wallets). Mepụta adreesị nke e chebere echebe (na-amalite na 'zs') maka Nzuzo ma ọ bụrụ na pool ahụ kwadoro ya.
+- **E-akpa ego:** E-akpa ego Zcash maka ịnata nkwụghachi. Ndị akwadoro:
+  - Nke e chebere echebe (nkeonwe): ZODL Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
+  - Oha (dị mfe mana Nzuzo ya dị ntakịrị): Edge Wallet.
+  - Budata site na [wallets](https://zechub.wiki/wallets). Mepụta Adreesị akpa ego nke e chebere echebe (na-amalite na 'zs') maka Nzuzo ma ọ bụrụ na pool ahụ kwadoro ya.
 
 ### Ndị Ọzọ
 - Eletrik: Gbakọọ ụgwọ. GPU na-eji 150-300W kwa kaadị; ASIC 1000W+.

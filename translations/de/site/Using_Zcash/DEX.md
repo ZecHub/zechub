@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Website: https://github.com/firoorg/FiroDEX-Desktop
-- Beschreibung: Vertrauenslose dezentrale Swaps mittels Atomic Swaps mit FiroDEX!.
+- Beschreibung: Desktop-App für Atomic Swaps. Wird nicht mehr gepflegt: Firo hat das Repository FiroDEX-Desktop archiviert; die letzte Version ist 0.8.2-beta (Februar 2025).
 
 ___
 

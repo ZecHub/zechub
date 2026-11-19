@@ -94,7 +94,9 @@ La page [Portefeuilles](/using-zcash/wallets) indique, pour chaque portefeuille,
 
 [Zkool](https://github.com/hhanh00/zkool2) est ici l'option la plus souple, car il accepte aussi bien les clés unifiées que les anciennes clés. Son README documente les comptes en lecture seule créés à partir d'une **clé pour lecture seule unifiée** ou d'une **clé pour lecture seule étendue Sapling**, ainsi que les anciennes clés protégées étendues exportées depuis zcashd. Ajoutez un nouveau compte, choisissez l'option en lecture seule et collez la clé `uview…` ou `zxviews…`. Le compte se synchronise ensuite et affiche les soldes et l'historique, sans aucun pouvoir de dépense.
 
-La prise en charge du protocole Ironwood et la migration de Orchard vers Ironwood sont arrivées dans Zkool 6.24.0 (20 juillet 2026), et la version 6.26.1 (2 août 2026) a corrigé la détection des transactions Ironwood dans la mempool. Utilisez la version 6.26.1 ou une version ultérieure.
+La prise en charge du protocole Ironwood et la migration de Orchard vers Ironwood sont arrivées dans Zkool 6.24.0 (20 juillet 2026), et la version 6.26.1 (2 août 2026) a corrigé la détection des transactions Ironwood dans la mempool. Puisque NU7 a été activé sur Mainnet (bloc 3,543,405), utilisez [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 octobre 2026) ou une version ultérieure : c’est la première version Zkool compilée avec la hauteur d’activation de NU7 Mainnet ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+La version 6.35.0 accepte également les **clés unifiées pour lecture seule entrantes**. Collez une clé `uivk…` à l’endroit où vous saisiriez n’importe quelle clé et Zkool crée un compte en réception uniquement : il affiche ce que le compte d’origine reçoit, y compris les mémos, et rien de ce qu’il envoie ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Une clé entrante ne peut pas voir les dépenses : le solde du compte correspond donc au total reçu, et non à ce qu’il reste, et le compte ne peut pas dépenser. Zkool peut également exporter la UIVK d’un compte ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

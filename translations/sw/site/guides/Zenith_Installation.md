@@ -41,7 +41,9 @@
 
 > sudo apt install libclang-dev
 
-> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
+
+Tumia Zebra 7.0.0 au toleo jipya zaidi: NU7 iliwashwa kwenye Mainnet katika block 3,543,405, na matoleo ya zamani ya `zebrad` hayawezi kufuata mnyororo kupita urefu huo ([maelezo ya toleo](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Toleo la Zenith lililo hapa chini (0.7.2.0-beta) ni la zamani: toleo jipya zaidi wakati wa kuandika ni 0.13.0.0-beta (Juni 2026, usaidizi wa NU6.2). Angalia [Zenithmatoleo](https://code.vergara.tech/Vergara_Tech/zenith/releases) ili kupata toleo linaloauni NU7 kabla ya kulitumia kwenye Mainnet.
 
 > zebrad generate -o ~/.config/zebrad.toml
 

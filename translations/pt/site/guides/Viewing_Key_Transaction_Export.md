@@ -8,7 +8,7 @@ A maioria das exportações de carteira é pobre. A exportação fiscal do ZODL,
 
 Você não precisa da sua frase semente para ter o quadro completo. Uma unified full viewing key (UFVK, que começa com `uview1`) consegue ver todas as transações recebidas e enviadas de uma conta, e duas ferramentas transformam isso em um arquivo que você guarda: o servidor GraphQL Zkool e o zingo-cli. Este guia reúne as abordagens [deste tópico do fórum](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) e as atualiza para as versões atuais.
 
-Testado em setembro de 2026 com o Zkool 6.30.0 e o zingo-cli do zingolib 6.0.0. O zingolib 6.0.0 é anterior ao NU7, por isso, em novembro de 2026, as etapas do zingo-cli foram transferidas para o zingolib 8.0.0, a versão que adiciona suporte à Mainnet do NU7.
+Testado em setembro de 2026 com o Zkool 6.30.0 e o zingo-cli do zingolib 6.0.0. Ambos são anteriores ao NU7, por isso, em novembro de 2026, as etapas foram transferidas para o Zkool 6.37.0 e o zingolib 8.0.0. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) é a primeira versão do Zkool compilada com a altura de ativação da Mainnet do NU7, e zingolib 8.0.0 é a versão que adiciona suporte à Mainnet do NU7.
 
 ## Antes de começar
 
@@ -22,11 +22,11 @@ Você precisa de duas coisas:
 Uma chave de visualização não consegue gastar, mas mostra todo o seu histórico a quem a tiver.
 
 - Não cole a chave em um site ou explorador de blocos. Importe-a em um software que você mesmo executa.
-- O servidor de onde você sincroniza vê o seu endereço IP e quais transações você baixa por completo. As duas ferramentas abaixo buscam cada uma das suas transações pelo ID para ler memorandos e taxas, e a [ZIP 307](https://zips.z.cash/zip-0307) observa que isso revela ao servidor quais transações são suas. Sincronizar a partir do seu próprio nó Zebra com Zaino ou lightwalletd evita isso. O [Tutorial de Zingolib e Zaino](/guides/zingolib-and-zaino-tutorial) mostra passo a passo uma configuração.
-- O zingo-cli envia pagamentos pela mixnet Nym, mas a sincronização dele ainda se conecta diretamente ao servidor, então o item acima também vale para ele.
-- Forneça a essas ferramentas uma chave de visualização, nunca uma semente. O servidor GraphQL Zkool não tem login por padrão, e a API dele devolve a semente de qualquer conta criada a partir de uma, além de poder enviar fundos.
-- Mantenha o servidor na sua própria máquina. O comando Docker abaixo só escuta em `127.0.0.1`.
-- As duas ferramentas armazenam a chave e o seu histórico sem criptografia. Apague os dados de trabalho quando terminar e guarde a exportação em algum lugar criptografado.
+- O servidor de onde você sincroniza vê seu endereço IP e quais transações você baixa por completo. As duas ferramentas abaixo buscam cada uma das suas transações pelo ID para ler memorandos e taxas, e [ZIP 307](https://zips.z.cash/zip-0307) observa que isso revela ao servidor quais transações são suas. Sincronizar a partir do seu próprio nó Zebra com Zaino ou lightwalletd evita isso. O [Zingolib e o tutorial Zaino](/guides/zingolib-and-zaino-tutorial) mostram uma configuração passo a passo.
+- zingo-cli envia pagamentos pela mixnet Nym, mas a sincronização dele ainda se conecta diretamente ao servidor, então o ponto acima também se aplica a ele.
+- Forneça a essas ferramentas uma chave de visualização, nunca uma frase semente. O comando Docker abaixo inicia o servidor Zkool GraphQL com `--allow-unauthenticated`, sem login, e a API devolve a frase semente de qualquer conta criada a partir de uma e pode enviar fundos.
+- Mantenha o servidor na sua própria máquina. O comando Docker abaixo só escuta em `127.0.0.1` do seu computador. Dentro do contêiner, o servidor precisa escutar em todas as interfaces (`--bind-address 0.0.0.0`); caso contrário, Docker não consegue alcançá-lo. O mapeamento `-p 127.0.0.1:8000:8000` é o que mantém o acesso local.
+- As duas ferramentas armazenam a chave e seu histórico sem criptografia. Zkool pode criptografar o banco de dados (`--db-password-file`), mas o comando abaixo simplifica as coisas com `--allow-unencrypted-database`. Apague os dados de trabalho quando terminar e guarde a exportação em algum lugar criptografado.
 
 ## Opção 1: GraphQL do Zkool
 
@@ -38,11 +38,16 @@ O `zkool_graphql` é o motor de carteira do Zkool como servidor independente. É
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-Ele sincroniza a partir de `https://zec.rocks`, a menos que você adicione `--lwd-url` com o seu próprio servidor. Na primeira inicialização, ele baixa os parâmetros do Sapling (cerca de 50 MB). Se isso falhar, `docker start zkool-export` tenta de novo.
+Desde a versão 6.32.0, o servidor não inicia até que você deixe explícitas duas escolhas: como os clientes fazem login (uma chave JWT ou `--allow-unauthenticated`) e se o banco de dados é criptografado (uma senha ou `--allow-unencrypted-database`). Agora, por padrão, ele também escuta somente em `127.0.0.1`, o que significa que, dentro de um contêiner, nada de fora consegue acessá-lo; por isso, `--bind-address 0.0.0.0`. Se o contêiner parar logo em seguida, `docker logs zkool-export` mostra qual opção está faltando.
+
+Ele sincroniza a partir de `https://zec.rocks`, a menos que você adicione `--lwd-url` com seu próprio servidor. A imagem já inclui os parâmetros de Sapling, então não há mais nada para baixar.
 
 Abra `http://127.0.0.1:8000/graphiql` em um navegador. Você pode colar cada um dos próximos passos ali e executá-lo.
 

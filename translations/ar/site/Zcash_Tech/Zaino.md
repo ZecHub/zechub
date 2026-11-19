@@ -25,7 +25,7 @@ Zaino هو مفهرس Rust لسلسلة كتل Zcash. يقرأ بيانات ال
 
 يوفّر Zaino وظائف للعملاء الخفيفين والعملاء الكاملين أو المحافظ ومستكشفات الكتل. ويتيح الوصول إلى السلسلة النهائية، وأفضل سلسلة غير نهائية، وبيانات mempool التي يحتفظ بها Zebra.
 
-## كيف يندمج في حزمة Zcash الحالية
+## كيف يندمج في Zcash Stack الحالية
 
 تُبنى حزمة Z3 الحالية حول Zebra وZallet وZaino الاختياري.
 
@@ -89,5 +89,6 @@ docker compose --env-file .env.<network> --profile indexer up -d
 * [مستودع نشر Z3](https://github.com/ZcashFoundation/z3)
 * [وثائق Zebra](https://zebra.zfnd.org/)
 * [منحة Zaino ونقاش المشروع](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder)، مفهرس Rust آخر، من Zcash Foundation (ألفا)
 
 **آخر تحديث:** أغسطس 2026

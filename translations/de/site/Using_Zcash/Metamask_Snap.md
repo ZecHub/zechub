@@ -1,37 +1,37 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Metamask_Snap.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
 
-# Anleitung zur Integration von MetaMask Zcash Snap
+# MetaMask Zcash Snap Integrationsleitfaden
 
-> Halte und sende abgeschirmte ZEC über die Browser-Erweiterung MetaMask mit dem Zcash Snap von ChainSafe und der Web-Wallet WebZjs.
+> Halte und sende abgeschirmte ZEC über die Browser-Erweiterung MetaMask – mit ChainSafes Zcash Snap und der Web-Wallet WebZjs.
 
-## Kurz gesagt
+## Kurzfassung
 
-* ChainSafe Zcash Snap ermöglicht abgeschirmtes ZEC in MetaMask auf dem Desktop (Chrome, Edge, Firefox). Keine separate Zcash-Software ist erforderlich.
-* Deine Zcash-Schlüssel werden aus deiner MetaMask-Wiederherstellungsphrase abgeleitet. Diese eine Phrase schützt nun sowohl dein ETH als auch dein ZEC.
-* Du verwaltest ZEC über die WebZjs-Wallet unter webzjs.chainsafe.dev, nicht in der eigenen Asset-Liste von MetaMask.
-* Dein Konto erhält eine einheitliche Adresse, sodass Absender dir über den privatesten Pool zahlen, den sie unterstützen.
-* Finanziere es durch Swaps (zum Beispiel ETH gegen ZEC) oder indem du ZEC von einer Börse an deine abgeschirmte Adresse auszahlen lässt.
-* Wiederherstellung: Installiere MetaMask und Snap erneut und importiere dann deine bestehende Wiederherstellungsphrase.
+* Die ChainSafe Zcash Snap ergänzt MetaMask auf dem Desktop (Chrome, Edge, Firefox) um abgeschirmte ZEC. Es ist keine separate Zcash-Software erforderlich.
+* Deine Zcash-Schlüssel werden aus deiner MetaMask-Wiederherstellungsphrase abgeleitet. Diese eine Phrase schützt jetzt sowohl dein ETH als auch dein ZEC.
+* Du verwaltest ZEC über die Wallet WebZjs unter webzjs.chainsafe.dev und nicht in der eigenen Asset-Liste von MetaMask.
+* Dein Konto erhält eine einheitliche Adresse. So können dir Sender Geld über den privatesten unterstützten Pool senden.
+* Zahle Geld ein, indem du tauschst (zum Beispiel ETH in ZEC) oder ZEC von einer Börse an deine abgeschirmte Adresse abhebst.
+* Wiederherstellung: Installiere MetaMask und Snap erneut und importiere dann deine vorhandene Wiederherstellungsphrase.
 
-## Kernerklärung
+## Grundlegende Erklärung
 
-Ein MetaMask Snap ist ein kleines, in einer Sandbox ausgeführtes Add-on, das MetaMask eine neue Blockchain beibringt. Das von ChainSafe entwickelte und von Hacken geprüfte Zcash Snap ermöglicht es MetaMask, Zcash-Schlüssel aus Ihrer bestehenden Wiederherstellungsphrase abzuleiten und Zcash-Transaktionen zu signieren.
+Ein MetaMask Snap ist ein kleines Add-on in einer Sandbox, das MetaMask eine neue Blockchain beibringt. Mit dem Zcash Snap, entwickelt von ChainSafe und von Hacken geprüft, kann MetaMask Zcash-Schlüssel aus deiner vorhandenen Wiederherstellungsphrase ableiten und Zcash-Transaktionen signieren.
 
-MetaMask selbst zeigt kein ZEC-Guthaben an. Stattdessen verbindet sich die WebZjs-Web-Wallet mit Snap, synchronisiert sich über einen lightwalletd-Server mit dem Zcash-Netzwerk und zeigt deine Adressen und dein Guthaben an. Shielded Proofs werden mit WebAssembly in deinem Browser berechnet, weshalb das Senden einen Moment dauern kann.
+MetaMask selbst zeigt keinen ZEC-Kontostand an. Stattdessen verbindet sich die Web-Wallet WebZjs mit dem Snap, synchronisiert sich über einen lightwalletd-Server mit dem Netzwerk Zcash und zeigt deine Adressen und deinen Kontostand an. Abgeschirmte Nachweise werden in deinem Browser mit WebAssembly berechnet. Deshalb kann das Senden einen Moment dauern.
 
-Die folgenden Schritte umfassen die Installation von Snap, das Verbinden von WebZjs, das Aufladen der Wallet, das Senden und Empfangen sowie die Überprüfung der Bestandteile Ihrer einheitlichen Adresse.
+Die folgenden Schritte behandeln die Installation des Snap, die Verbindung mit WebZjs, das Einzahlen auf die Wallet, das Senden und Empfangen sowie die Prüfung der Bestandteile deiner einheitlichen Adresse.
 
-## Vollständige Anleitung
+## Vollständiger Leitfaden
 
-Für eine vollständige Schritt-für-Schritt-Anleitung und visuelle Erklärung sieh dir diesen [**YouTube-Leitfaden**](https://www.youtube.com/watch?v=UJh9Ilkohdw) an: 
+Eine vollständige Anleitung mit visuellen Erklärungen findest du in diesem [**YouTube Leitfaden**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/UJh9Ilkohdw"
-    title="Wie man ZEC auf Metamask verwendet"
+    title="How to use ZEC on Metamask"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -39,41 +39,41 @@ Für eine vollständige Schritt-für-Schritt-Anleitung und visuelle Erklärung s
 </div>
      
 
-MetaMask unterstützt jetzt **abgeschirmtes Zcash (ZEC)** über das **von ChainSafe entwickelte Zcash Snap**, sodass du privates ZEC direkt in deiner Browser-Wallet senden, empfangen und verwalten kannst. Geprüft von **Hacken** und im **offiziellen MetaMask Snaps Directory** gelistet, benötigt es **keine separate Zcash-Software** - nur MetaMask und das Snap.
+MetaMask unterstützt jetzt **abgeschirmte Zcash (ZEC)** über das **von ChainSafe entwickelte Zcash Snap**. Damit kannst du private ZEC direkt in deiner Browser-Wallet senden, empfangen und verwalten. Das Add-on wurde von **Hacken** geprüft und ist im **offiziellen Verzeichnis für MetaMask Snaps** aufgeführt. Es benötigt **keine separate Zcash-Software** – nur MetaMask und Snap.
 
 ---
 
 ## **Voraussetzungen**
 
 
-> [**MetaMask-Erweiterung**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (nur Desktop) - Chrome, Edge oder Firefox.
-> MetaMask-Konto - Seed-Phrase gesichert; das Snap leitet daraus Zcash-Schlüssel ab.  
-> Stabile Internetverbindung - Für die Synchronisierung mit dem Zcash-Netzwerk.  
-> Guthaben - ETH zum Tausch gegen ZEC oder ZEC von einer Börse.
+> [**MetaMask Erweiterung**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) (nur Desktop) – Chrome, Edge oder Firefox.
+> MetaMask-Konto – Seed-Phrase gesichert; Snap leitet daraus Zcash-Schlüssel ab.  
+> Stabile Internetverbindung – zur Synchronisierung mit dem Netzwerk Zcash.  
+> Guthaben – ETH zum Tauschen in ZEC oder ZEC von einer Börse.
 
-> **Tipp:** Schütze deine MetaMask-Wiederherstellungsphrase - sie kontrolliert sowohl ETH als auch ZEC.
+> **Tipp:** Bewahre deine MetaMask-Wiederherstellungsphrase sicher auf – sie kontrolliert sowohl dein ETH als auch dein ZEC.
 
 ---
 
-## **1. Das Zcash Snap installieren**
+## **1. Zcash Snap installieren**
 
-1. Gehe zum [**MetaMask Snaps Directory**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Suche nach [**"Zcash Shielded Wallet"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) oder [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-3. Klicke auf **Install/Add to MetaMask**.
-4. Genehmige Berechtigungen wie:
+1. Rufe das [**MetaMask Snaps Directory**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) auf.  
+2. Suche nach [**„Zcash WebZjs Wallet“**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) oder [**„WebZjs Zcash Snap“**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/).  
+3. Klicke auf **Installieren/Hinzufügen zu MetaMask**.
+4. Erteile Berechtigungen wie:
    ```
-      Zcash-Konten verwalten 
-      Daten auf deinem Gerät speichern
+      Manage Zcash accounts 
+      Store data on your device
    ```
 
-![Zcash-snap-installieren](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
+![Zcash-snap-install](/content-images/Hy5MSG2Oex-42d0c5b346.webp)
 
 
 ---
 
 ## **2. (Optional) Zcash-Netzwerk hinzufügen**
 
-Wähle in MetaMask **Add Network** und gib Folgendes ein:
+Wähle in MetaMask **Netzwerk hinzufügen** und gib Folgendes ein:
 
 Für **BNB SmartChain**;
 ```markdown
@@ -83,8 +83,8 @@ Für **BNB SmartChain**;
 -  Symbol: BNB
 -  Block Explorer URL: https://bscscan.com
 ```
-Dies aktiviert Netzwerkinformationen und Explorer-Links.
-![Benutzerdefiniertes-Netzwerk-hinzufügen....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
+Dadurch werden Netzwerkinformationen und Explorer-Links aktiviert.
+![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
 Für **Zcash Mainnet**;
 ```markdown
@@ -92,90 +92,95 @@ Für **Zcash Mainnet**;
 - RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
-`https://zjs.zec.rocks` ist ein mit WebZjs kompatibler (gRPC-web) lightwalletd-Server, betrieben von [zec.rocks](https://zec.rocks) (@emersonian). Für das Testnet verwende `https://zjs.zec.rocks/testnet`. Wenn du die WebZjs-Web-Wallet selbst betreibst, ist dies der Wert, der als `LIGHTWALLETD_PROXY` festzulegen ist.
+`https://zjs.zec.rocks` ist ein WebZjs-kompatibler (gRPC-web) lightwalletd-Server, der von [zec.rocks](https://zec.rocks) (@emersonian) betrieben wird. Verwende für das Testnet `https://zjs.zec.rocks/testnet`. Wenn du die Web-Wallet WebZjs selbst betreibst, musst du diesen Wert für `LIGHTWALLETD_PROXY` festlegen.
 
 ---
 
-## **3. Mit ChainSafe WebZjs Wallet verbinden**
+## **3. Mit der Wallet ChainSafe WebZjs verbinden**
 
-1. Besuche [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
-2. Klicke auf **Connect MetaMask Snap**.  
+1. Rufe [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev) auf.  
+2. Klicke auf **MetaMask Snap verbinden**.  
 
-![Zcash-Web-Wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
+![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Genehmige die Verbindung.  
-4. Sieh dir die Übersicht deines Zcash-Kontos an, einschließlich:
-   - Unified Addresses und Transparent Address
+4. Sieh dir die Kontoübersicht von Zcash an, einschließlich:
+   - Einheitliche Adressen und transparente Adresse
 
-![Kontoübersicht-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
+![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
 5. Warte, bis die Synchronisierung abgeschlossen ist.
 
----
-
-## **4. Wallet aufladen**
-
-> **ETH -> ZEC tauschen** - Nutze Dienste wie **LeoDex** und sende an deine abgeschirmte Adresse.  
-> **Auszahlung von einer Börse** - Hebe gekaufte ZEC an deine abgeschirmte WebZjs-Adresse ab.  
-
-![LeoDex-TAUSCH](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
-> => Verwende abgeschirmte (z) Adressen für **volle Privatsphäre**.
 
 ---
 
-## **5. ZEC senden / empfangen**
+## **4. Guthaben auf die Wallet einzahlen**
 
-1. Gehe in **WebZjs** zu **Transfer Balance**.  
+> **ETH -> ZEC tauschen** – Nutze Dienste wie **LeoDex** und sende an deine abgeschirmte Adresse.  
+> **Auszahlung von einer Börse** – Hebe gekaufte ZEC an deine abgeschirmte WebZjs-Adresse ab.  
+
+![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
+
+
+> => Verwende für **vollständige Privatsphäre** abgeschirmte (z-)Adressen.
+
+---
+
+## **5. ZEC senden/empfangen**
+
+1. Gehe in **WebZjs** zu **Guthaben übertragen**.  
 2. Gib Folgendes ein:
 ```
-   - Abgeschirmte Empfängeradresse  
-   - Betrag
+   - Shielded recipient address  
+   - Amount
 ```
-   ![Guthaben-übertragen](/content-images/rkvcFfhdex-bd55d079eb.webp)
+   ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
 4. Bestätige die Transaktion in MetaMask (signiere die Transaktion).  
 5. Empfangene Gelder erscheinen nach der Bestätigung in WebZjs.
 
 ---
 
-## **6. Überprüfen / Fehlerbehebung**
+## **6. Überprüfen/Fehler beheben**
 
-> Prüfe **WebZjs** auf aktualisierte Guthaben **(MetaMask hat ZEC nicht direkt gelistet)** .  
+> Prüfe **WebZjs** auf aktualisierte Kontostände **(MetaMask führt ZEC nicht direkt auf)** .  
 > Falls Probleme auftreten:
   ```
-  - Bestätige, dass du das offizielle ChainSafe Snap hast.  
-  - Prüfe die korrekten Netzwerkeinstellungen.  
-  - Stelle sicher, dass das Adressformat korrekt ist.  
-  - Verbinde dich bei Bedarf über **Connect Snap** erneut.
+  - Confirm you have the official ChainSafe Snap.  
+  - Check correct network settings.  
+  - Ensure correct address format.  
+  - Reconnect via **Connect Snap** if needed.
   ``` 
 
-> **Sicherheitstipp:** Installiere nur das **geprüfte ChainSafe Snap**; überprüfe die Berechtigungen vor der Genehmigung.
+> **Sicherheitstipp:** Installiere nur das **geprüfte ChainSafe Snap**; überprüfe die Berechtigungen, bevor du sie genehmigst.
 
 ---
 
-## **7. Adresskomponenten prüfen**
+## **7. Adressbestandteile prüfen**
 
-1. Gehe zum Abschnitt **Receive** - deine Unified Address wird standardmäßig angezeigt.  
-2. Kopiere die Unified Address und besuche den [Zcash Block Explorer](https://mainnet.zcashexplorer.app/).  
-3. Füge deine Unified Address in die Suchleiste ein.  
-4. Jetzt siehst du alle Komponenten der Unified Address, darunter:
+1. Öffne den Bereich **Empfangen** – deine einheitliche Adresse wird standardmäßig angezeigt.  
+2. Kopiere die einheitliche Adresse und rufe den [Zcash Block Explorer](https://mainnet.zcashexplorer.app/) auf.  
+3. Füge deine einheitliche Adresse in die Suchleiste ein.  
+4. Nun werden dir alle Bestandteile der einheitlichen Adresse angezeigt, darunter:
 ``` 
    Orchard Address  
    Sapling Address  
    Transparent Address
 ``` 
 
-![Adresskomponenten](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+![Address-components](/content-images/SyPR2f2_gg-3907c5bf58.webp)
+
+
 
 ---
 
 ## **Zusätzliche Hinweise**
 
-> Verwende die [**neueste MetaMask-Version**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - die öffentliche Version unterstützt Snaps.  
-> Abgeschirmte Proofs können Zeit benötigen, WebAssembly übernimmt die Berechnung im Browser.  
-> Die Wiederherstellung ist einfach: Installiere MetaMask und das Snap und importiere dann deinen vorhandenen Seed.  
-> Das Snap verwendet standardmäßig **abgeschirmtes ZEC**, transparente Adressen stehen **nicht im Fokus**.  
-> Verwende [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) für Transaktionsbestätigungen.
+> Verwende die [**aktuelle Version von MetaMask**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) – die öffentliche Version unterstützt Snaps.  
+> Abgeschirmte Nachweise können einige Zeit in Anspruch nehmen; WebAssembly übernimmt die Berechnung im Browser.  
+> Die Wiederherstellung ist einfach: Installiere MetaMask und Snap erneut und importiere dann deine vorhandene Seed-Phrase.  
+> Die Snap verwendet standardmäßig **abgeschirmtes ZEC**; transparente Adressen stehen **nicht im Mittelpunkt**.  
+> Verwende [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app), um Transaktionen zu bestätigen.

@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Tovuti: https://trocador.app/
 - Maelezo: Fanya biashara ya sarafu za kidijitali bila kutambulika. Haraka. Salama. Bila urasimu. Kadi za malipo ya awali zinapatikana.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Tovuti: https://github.com/firoorg/FiroDEX-Desktop
-- Maelezo: Ubadilishaji uliogatuliwa usiohitaji kuaminiana kwa kutumia ubadilishaji wa atomiki pamoja na FiroDEX!.
+- Maelezo: Programu ya kompyuta ya mezani ya ubadilishaji wa atomiki. HaitunzwI tena: Firo imehifadhi hazina ya FiroDEX-Desktop kwenye kumbukumbu, na toleo lake la mwisho ni 0.8.2-beta (Februari 2025).
 
 ___
 

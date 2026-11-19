@@ -81,13 +81,13 @@ Tahadhari mbili. Tor huficha IP yako kutoka kwa seva, lakini haibadilishi kile a
 
 [Zaino](/zcash-tech/zaino) ni kiorodheshi kilichoandikwa kwa Rust na timu ya Zingo, kilichoundwa kuchukua nafasi ya lightwalletd kama sehemu ya kazi ya kusitisha zcashd. Huhudumia light client, wateja kamili, na vivinjari vya block, kikisoma data ya mnyororo iliyohifadhiwa na “aidha Zebra au kithibitishaji kamili cha zcashd”.
 
-Kiko katika maendeleo hai, na toleo la 0.8.0 lilitolewa Agosti 2026. Kinalenga kubaki sambamba na lightwalletd kwa kadiri iwezekanavyo, ili pochi ziweze kuelekezwa kukitumia bila kuandikwa upya.
+Kiko katika maendeleo hai, na toleo la 0.10.1 lilitolewa Septemba 2026. Kinalenga kubaki sambamba na lightwalletd kwa kadiri iwezekanavyo, ili pochi ziweze kuelekezwa kukitumia bila kuandikwa upya.
 
 Zaino kina ukurasa wake wenye michoro ya usanifu, hivyo ukurasa huu unashughulikia tu jukumu lake kama seva ya pochi nyepesi.
 
 ### Kuendesha yako mwenyewe
 
-Chaguo imara zaidi ni kuwa mwendeshaji wako mwenyewe, jambo linaloondoa swali la uaminifu kabisa. Seva zote mbili ni chanzo huria: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go na [Zaino](https://github.com/zingolabs/zaino) katika Rust. Zote husoma kutoka kwa kithibitishaji kamili, hivyo utahitaji pia [Zebra](/zcash-tech/zebra-full-node).
+Chaguo imara zaidi ni kuwa mwendeshaji wako mwenyewe, jambo linaloondoa swali la uaminifu kabisa. Seva zote mbili ni chanzo huria: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go na [Zaino](https://github.com/zingolabs/zaino) katika Rust. Zote husoma kutoka kwa kithibitishaji kamili, hivyo utahitaji pia [Zebra](/zcash-tech/zebra-full-node). Seva za zec.rocks hupelekwa kwa kutumia [Zcash Stack](/guides/zcash-stack), chati ya Helm iliyo chanzo huria na kifurushi cha Compose cha Docker kinachoendesha Zebra na lightwalletd pamoja.
 
 ## Athari za Kivitendo
 
@@ -117,11 +117,9 @@ Njia za menyu hapa chini zilikuwa sahihi wakati ukurasa huu ulisasishwa, lakini 
 
 Hapo awali ilikuwa Zashi. Gonga ikoni ya gia kwenye kona ya juu kulia, kisha Mipangilio ya Kina. Tor ipo katika skrini hiyo hiyo. ZODL pia hutoa njia ya mkato ya Kubadilisha seva wakati hitilafu ya ulandanishi imesababishwa na seva kupitwa na wakati.
 
-#### Ywallet
+#### Zkool
 
-Gonga ikoni ya gia kwenye kona ya juu kulia, kisha kichupo cha Zcash.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+Mrithi wa Ywallet kutoka kwa msanidi programu huyo huyo (Ywallet yenyewe haitunzwii tena na haiwezi kufuata mtandao baada ya Ironwood). Ikoni ya gia (Fungua Mipangilio) iliyo juu ya skrini ya akaunti, kisha sehemu ya Seva ya Light Node. Kitufe cha orodha kilicho karibu nayo huchagua kutoka kwenye seva zinazojulikana, na swichi ya Direct / Tor / Nym / Proxy iliyo chini yake huweka jinsi pochi inavyounganishwa.
 
 #### Zingo
 
@@ -153,10 +151,11 @@ Pochi nyepesi hukupa bwawa la faragha [shielded pool] bila nafasi ya diski, amba
 
 ## Kurasa Zinazohusiana
 
-- [Nani Anaweza Kuona Malipo Yako ya Zcash](/start-here/who-can-see-your-zcash-payment) — mtazamo wa kiwango cha wanaoanza kuhusu swali lilelile.
-- [Kile Ambacho Kivinjari cha Block Kinaweza Kuona](/zcash-tech/what-a-block-explorer-can-see) — kile kinachoonekana on-chain, kinyume na kinachoonekana kwenye seva.
-- [Zaino](/zcash-tech/zaino) — michoro ya usanifu na jukumu pana la kiorodheshi cha Rust.
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — kithibitishaji ambacho seva ya pochi nyepesi husoma kutoka kwake.
-- [Ulandanishi wa Pochi wa Zcash](/zcash-tech/zcash-wallet-syncing) — jinsi block zilizofinyazwa ambazo seva hutuma huchakatwa na pochi yako.
+- [Nani Anaweza Kuona Zcash Malipo](/start-here/who-can-see-your-zcash-payment) Yako — mwongozo wa wanaoanza kuhusu swali hilohilo.
+- [Kichunguzi cha Block Kinaweza Kuona Nini](/zcash-tech/what-a-block-explorer-can-see) — kinachoonekana kwenye blockchain, tofauti na kinachoonekana kwenye seva.
+- [Zaino](/zcash-tech/zaino) — michoro ya usanifu na jukumu pana la Rust kiashiria.
+- [Zinder](/zcash-tech/zinder) — kiashiria cha majaribio cha Zcash Foundation, kinachohudumia pochi nyepesi kupitia adapta inayooana na lightwalletd.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — kithibitishaji ambacho seva ya pochi nyepesi husoma data kutoka kwake.
+- [Zcash Usawazishaji wa Pochi](/zcash-tech/zcash-wallet-syncing) — jinsi block fupi zinazotumwa na seva zinavyochakatwa na pochi yako.
 
 **Ilisasishwa mwisho:** Agosti 2026

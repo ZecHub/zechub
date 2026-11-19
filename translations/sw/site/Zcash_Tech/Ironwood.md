@@ -135,4 +135,4 @@ Kupitia turnstile. Kila sarafu inayotoka katika bwawa la zamani la Orchard huhes
 
 ---
 
-Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [NU6.2](../zcash-tech/nu6-2)
+Mfululizo: [Faharasa ya Maboresho ya Mtandao](../start-here/network-upgrades) · Iliyotangulia: [NU6.2](../zcash-tech/nu6-2) · Inayofuata: [NU7](../zcash-tech/nu7)

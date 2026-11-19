@@ -1,15 +1,15 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # أساسيات Zcash
 
-## ما اقتصاديات Zcash؟
+## ما الجوانب الاقتصادية لـZcash؟
 
-القاعدة النقدية لـ Zcash هي نفسها المعروض الثابت لـ Bitcoin البالغ 21 مليون وحدة من عملة ZEC. كل 75 ثانية، يتم تعدين [كتلة](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) جديدة على بلوكتشين Zcash، وتدخل مكافأة كتلة قدرها 1.5625 ZEC إلى التداول. ويتم توزيع مكافأة الكتلة هذه على المعدّنين و[صندوق تطوير Zcash](https://zips.z.cash/zip-1014).
+القاعدة النقدية لـZcash هي نفسها المعروض الثابت لـBitcoin، البالغ 21 مليون وحدة من عملة ZEC. يُعدَّن، في المتوسط، كل 25 ثانية (وكانت المدة 75 ثانية قبل تفعيل NU7 في 6 نوفمبر 2026) [block](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) جديد على سلسلة كتل Zcash، وتدخل مكافأة كتلة قدرها 0.52083333 ZEC إلى التداول. قبل NU7، كانت المكافأة 1.5625 ZEC لكل كتلة؛ ثم خفّضها [ZIP 218](https://zips.z.cash/zip-0218) إلى الثلث، وخفّض زمن الكتلة بالمقدار نفسه، لذلك لم تتغير كمية ZEC الجديدة التي تُصدر يوميًا. ومنذ NU7، تُقسّم مكافأة 0.52083333 ZEC إلى 80% للمُعدِّن (0.41666668 ZEC، إضافةً إلى رسوم المعاملات)، و8% لـZcash Community Grants (0.04166666 ZEC)، و12% لصندوق الحفظ (0.06249999 ZEC)، وفقًا لـ[ZIP 1015](https://zips.z.cash/zip-1015).
 
-ينخفض مقدار مكافأة الكتلة إلى النصف تقريبًا كل أربع سنوات حتى تصبح كل وحدات ZEC البالغ عددها 21 مليونًا متداولة. يحاكي تضخم Zcash تضخم Bitcoin بدقة تكاد تكون تامة. ومن المهم ملاحظة أنه مع إنشاء عملات جديدة ينخفض التضخم، وعند كل تنصيف ينخفض المعدل بشكل كبير.
+تنخفض مكافأة الكتلة إلى النصف كل أربع سنوات تقريبًا، حتى تدخل جميع وحدات ZEC البالغ عددها 21 مليونًا إلى التداول. يكاد التضخم في Zcash يطابق تضخم Bitcoin تمامًا. ومن المهم ملاحظة أن التضخم يتراجع مع إنشاء عملات جديدة، وأن معدله ينخفض بوضوح عند كل عملية تنصيف.
 
 ## الموارد
 
-[ما اقتصاديات Zcash؟](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[ما الجوانب الاقتصادية لـZcash؟](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)

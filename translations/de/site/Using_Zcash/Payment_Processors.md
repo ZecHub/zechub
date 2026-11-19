@@ -41,7 +41,7 @@ Für die meiste Privatsphäre und Kontrolle nutze **BTCPay Server**, ein selbstg
 
 Für Zahlungen in einem Laden statt online nutze **Flexa**.
 
-Für ein gehostetes Gateway, bei dem transparente Zahlungen akzeptabel sind, nutze **NOWPayments** oder **Plisio**.
+Für ein gehostetes Gateway, bei dem transparente Zahlungen akzeptabel sind, nutze **NOWPayments**. **Plisio** hat Zahlungen ausgesetzt (siehe den datierten Hinweis im entsprechenden Eintrag weiter unten), wähle es daher vorerst nicht aus.
 
 Ein wichtiger Hinweis, den man wiederholen sollte: Ein Abwickler, der nur transparent unterstützt, veröffentlicht jeden Zahlungsbetrag und jede Adresse auf der blockchain. Und bei jedem gehosteten nicht-verwahrenden Abwickler übergibst du deinen Viewing Key, sodass das Unternehmen deine Zahlungen sehen kann, auch wenn es sie nicht ausgeben kann. Selbsthosting ist der einzige Weg, das zu vermeiden.
 

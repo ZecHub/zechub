@@ -81,13 +81,13 @@ Ihe ịdọ aka ná ntị abụọ. Tor na-ezobe IP gị n’aka sava ahụ, man
 
 [Zaino](/zcash-tech/zaino) bụ indexer e dere na Rust site n’otu Zingo, e wuru iji dochie lightwalletd dịka akụkụ nke ọrụ ịkwụsị zcashd. Ọ na-eje ozi light client, client zuru oke, na block explorer, na-agụ data chain nke a na-edobe na “ma ọ bụ Zebra ma ọ bụ full validator zcashd”.
 
-Ọ nọ n’okpuru mmepe na-arụsi ọrụ ike, ebe ewepụtara ụdị 0.8.0 n’August 2026. Ọ na-achọ ịnọgide na-adaba azụ na lightwalletd ebe o kwere omume, ka e-akpa ego nwee ike ịtụ aka na ya n’edeghachighị ha.
+Ọ nọ n’okpuru mmepe na-arụsi ọrụ ike, ebe ewepụtara ụdị 0.10.1 na Septemba 2026. Ọ na-achọ ịnọgide na-adaba azụ na lightwalletd ebe o kwere omume, ka e-akpa ego nwee ike ịtụ aka na ya n’edeghachighị ha.
 
 Zaino nwere peeji nke ya nwere eserese nhazi, yabụ peeji a na-ekpuchi naanị ọrụ ya dịka sava e-akpa ego dị mfe.
 
 ### Ịgba nke gị
 
-Nhọrọ kasị ike bụ ịbụ onye na-arụ nke gị, nke na-ewepụ ajụjụ ntụkwasị obi kpamkpam. Sava abụọ ahụ bụ open source: [lightwalletd](https://github.com/zcash/lightwalletd) na Go na [Zaino](https://github.com/zingolabs/zaino) na Rust. Ha abụọ na-agụ site na full validator, yabụ ị ga-achọkwa [Zebra](/zcash-tech/zebra-full-node).
+Nhọrọ kasị mma bụ ịbụ onye na-arụ nke gị, nke na-ewepụ ajụjụ ntụkwasị obi kpamkpam. Sava abụọ ahụ bụ open source: [lightwalletd](https://github.com/zcash/lightwalletd) na Go na [Zaino](https://github.com/zingolabs/zaino) na Rust. Ha abụọ na-agụ site na full validator, yabụ ị ga-achọkwa [Zebra](/zcash-tech/zebra-full-node). A na-etinye sava zec.rocks site na [Zcash Stack](/guides/zcash-stack), Helm chart open source na ngwa Compose Docker nke na-arụ Zebra na lightwalletd ọnụ.
 
 ## Mmetụta Bara Uru
 
@@ -117,11 +117,9 @@ Lelee dashboard kama ịtụkwasị ndepụta a obi. Ndị na-arụ sava na-ab�
 
 A na-akpọbu ya Zashi. Cog dị n’akụkụ aka nri elu, emesia Advanced Settings. Tor dị n’otu ihuenyo ahụ. ZODL na-enyekwa ụzọ mkpirisi Switch server mgbe ọdịda sync sitere na sava na-adịghị emelite.
 
-#### Ywallet
+#### Zkool
 
-Cog dị n’akụkụ aka nri elu, emesia tab Zcash.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+Onye nọchiri Ywallet, nke sitere n’aka otu onye mmepụta ahụ (a naghịzi elekọta Ywallet n’onwe ya, ọ pụghịkwa iso netwọk ahụ mgbe Ironwood gasịrị). Akara gia (Mepee Ntọala) dị n’elu ihuenyo akaụntụ, emesia mpaghara Sava Light Node. Bọtịnụ ndepụta dị n’akụkụ ya na-ahọrọ n’ime sava ndị amaara, ebe mgba ọkụ Direct / Tor / Nym / Proxy dị n’okpuru ya na-ahazi otu e-akpa ego si ejikọta.
 
 #### Zingo
 
@@ -153,10 +151,11 @@ E-akpa ego dị mfe na-enye gị pool nke e chebere echebe na-enweghị oghere d
 
 ## Peeji Ndị Metụtara
 
-- [Onye Pụrụ Ịhụ Kwụọ ụhwọ Zcash Gị](/start-here/who-can-see-your-zcash-payment) — nlele ọkwa mmalite nke otu ajụjụ ahụ.
-- [Ihe Block Explorer Pụrụ Ịhụ](/zcash-tech/what-a-block-explorer-can-see) — ihe a na-ahụ on-chain, n’adịghị ka n’ebe sava nọ.
-- [Zaino](/zcash-tech/zaino) — eserese nhazi na ọrụ sara mbara nke indexer Rust.
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator nke sava e-akpa ego dị mfe na-agụ site na ya.
-- [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — otu e-akpa ego gị si ahazi block kọmpat sava na-eziga.
+- [Onye nwere ike ịhụ Zcash Kwụọ ụhwọ](/start-here/who-can-see-your-zcash-payment) — nkọwa maka ndị mbido gbasara otu ajụjụ ahụ.
+- [Ihe onye nyocha block nwere ike ịhụ](/zcash-tech/what-a-block-explorer-can-see) — ihe a pụrụ ịhụ na on-chain, ma e jiri ya tụnyere ihe a pụrụ ịhụ n’akụkụ sava.
+- [Zaino](/zcash-tech/zaino) — eserese nhazi na ọrụ sara mbara nke Rust indexer.
+- [Zinder](/zcash-tech/zinder) — indexer alpha nke Zcash Foundation, nke na-ejere e-akpa ego dị fechaa ozi site na ihe nkwụnye dakọtara na lightwalletd.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator nke sava e-akpa ego dị fechaa na-agụ ozi na ya.
+- [Zcash Mmekọrịta e-akpa ego](/zcash-tech/zcash-wallet-syncing) — otú e-akpa ego gị si ahazi compact blocks sava na-eziga.
 
 **Emelitere ikpeazụ:** August 2026

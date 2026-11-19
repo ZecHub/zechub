@@ -41,7 +41,7 @@ Kwa faragha na udhibiti wa juu zaidi, tumia **BTCPay Server**, **CipherPay** ina
 
 Kwa kupokea malipo dukani badala ya mtandaoni, tumia **Flexa**.
 
-Kwa lango linalopangishwa ambapo malipo ya uwazi yanakubalika, tumia **NOWPayments** au **Plisio**.
+Kwa lango linalopangishwa ambapo malipo ya uwazi yanakubalika, tumia **NOWPayments**. **Plisio** imesitisha malipo (tazama tangazo lenye tarehe katika ingizo lake hapa chini), kwa hivyo usiichague kwa sasa.
 
 Tahadhari moja inayostahili kurudiwa: kichakataji cha uwazi pekee huchapisha kila kiasi cha malipo na anwani kwenye blockchain. Na kwa kichakataji chochote kinachopangishwa kisichohifadhiwa na mtu mwingine, unakabidhi ufunguo wako wa kutazama, hivyo kampuni inaweza kuona malipo yako ingawa haiwezi kuyatumia. Kujihudumia ndiyo njia pekee ya kuepuka hilo.
 

@@ -25,7 +25,7 @@ Mama wɔnɛ be dɔwɔƒeawo ƒe dɔwo nɔ kɔ:
 
 Zaino naa dɔwɔnu na nyatakaka si hiã ƒe mɔwo [light client], client blibowo alo gakotokuwɔ, kple gaɖoɖowo ƒuƒoƒe [block] ƒe explorers. Ena mɔ woakpɔ ɖoɖonu si wowɔ ɖo, ɖoɖonu nyuitɔ si womede ɖo haɖe o, kple mempool ƒe nyatakaka si Zebra le ɖasi.
 
-## Ale Si Wòle Le Zcash Ƒe Ɖoɖo Si Le Zãm Fifi La Me
+## Ale Si Wòle Le Zcash Stack Ƒe Ɖoɖo Si Le Zãm Fifi La Me
 
 Z3 ƒe ɖoɖo si le zãm fifia tu ɖe Zebra, Zallet, kple Zaino si wòate ŋu anya la dzi.
 
@@ -88,6 +88,7 @@ Zaino ɖea network dɔwɔƒe ƒomevi eve fia. GRPC ƒe dɔwɔƒe nye API si le l
 * [Zaino ƒe nyatakaka si wowɔ](https://zingolabs.github.io/zaino/)
 * [Z3 ƒe deployment repository](https://github.com/ZcashFoundation/z3)
 * [Zebra ƒe nyatakaka](https://zebra.zfnd.org/)
-* [Zaino ƒe ga ƒe kpekpeɖeŋu [grant] kple project ƒe ƒoƒo](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zaino ƒe ga ƒe kpekpeɖeŋu kple project ƒe ƒoƒo](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), indexer bubu, tso Zcash Foundation (alpha) eye wò nye Rust
 
 **Wotrɔe zi mamlɛtɔ:** August 2026

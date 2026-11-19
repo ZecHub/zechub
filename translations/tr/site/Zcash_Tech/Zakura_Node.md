@@ -4,7 +4,7 @@
 
 # Zakura Düğümü
 
-Zakura, ölçeklenebilirlik için geliştirilmiş, Zcash için ücretsiz ve açık kaynaklı bir tam düğüm uygulamasıdır. [Zebra](Zebra_Full_Node.md)'dan çatallanmış ve **Valar Group** ile **Project Tachyon** iş birliğiyle geliştirilmiş olan Zakura, önemli ölçüde daha hızlı senkronizasyon, yerel blok budama ve eski `zcashd` araçları için bir uyumluluk katmanı sunar. 1.0.0 sürümü 15 Temmuz 2026'da yayınlandı.
+Zakura, ölçeklenebilirlik için geliştirilmiş, Zcash için ücretsiz ve açık kaynaklı bir tam düğüm uygulamasıdır. [Zebra](Zebra_Full_Node.md)'dan çatallanmış ve **Valar Group** ile **Project Tachyon** iş birliğiyle geliştirilmiş olan Zakura, önemli ölçüde daha hızlı senkronizasyon, yerel blok budama ve eski `zcashd` araçları için bir uyumluluk katmanı sunar. 1.0.0 sürümü 15 Temmuz 2026'da yayınlandı. O tarihten bu yana sürümler hızlı aralıklarla yayımlandı: 1.7.0 (22 Ekim 2026) Mainnet'te NU7'ı etkinleştirdi ve bunu kasım ayında 1.8 serisi izledi.
 
 ---
 
@@ -16,6 +16,7 @@ Zakura, ölçeklenebilirlik için geliştirilmiş, Zcash için ücretsiz ve aç�
 - Bir **zcashd RPC uyumluluk modu**, mevcut cüzdanların ve entegrasyonların değişiklik yapılmadan çalışmasını sağlar.
 - **Deneysel bir P2P taşıma katmanı** (varsayılan olarak devre dışıdır), DoS'a dayanıklı gossip ile 500 ms'nin altında blok yayılımını hedefler.
 - 2026 ortasında etkinleştirilen Zcash ağ yükseltmesi Ironwood (NU6.3) ile uyumludur.
+- **NU7** yönergelerini izler: Zakura 1.7.0, bu özelliği Mainnet'te etkinleştiren sürümdür. Her sürüm, yayımlandıktan birkaç hafta sonra destek sonu bloğunda çalışmayı da durdurur; bu nedenle düzenli olarak yükseltme yapmayı planlayın (aşağıdaki Çalıştırmadan Önce bölümüne bakın).
 - **Zakura Common** (v1.3.0, Ağustos 2026), cüzdanların özel işlemler oluşturmak için kullandığı kriptografiyi hızlandırır: Zakura kıyaslamalarına göre birçok durumda 3 saniyenin üzerindeki süreyi 200 ms'nin altına indirir.
 - **Sean Bowe** (Zcash kurucu ortağı, Project Tachyon) ve **Dev Ojha** (Valar Group) tarafından yönetilmektedir.
 
@@ -39,7 +40,7 @@ Zakura, Zebra ile karşılaştırıldığında yaklaşık 5× daha hızlı blok 
 
 Zakura, ilk senkronizasyon süresini önemli ölçüde azaltan önceden oluşturulmuş zincir anlık görüntüleri yayınlar:
 
-| Önyükleme Yöntemi | Süre |
+| Bootstrap Yöntem | Süre |
 |-----------------|------|
 | Arşiv anlık görüntüsü | ~37 dakika |
 | Budanmış anlık görüntü | **2 dakikanın altında** |
@@ -69,6 +70,10 @@ Bu katman, Project Tachyon kapsamında geliştirilen gelecekteki Zcash ağ düze
 
 Zakura, 2026 ortasında Zcash ana ağında etkinleştirilen Ironwood ağ yükseltmesiyle (NU6.3) tamamen uyumludur.
 
+### NU7
+
+Zakura 22 Ekim 2026'da yayımlanan 1.7.0 sürümü, Mainnet'te NU7 özelliğini etkinleştiren sürümdür ([sürüm notları](https://github.com/zakura-core/zakura/releases/tag/v1.7.0)). Bir düğümün yükseltmeden sonra zinciri takip edebilmesi için 1.7.0 veya daha yeni bir sürüm kullanması gerekir. [NU7](NU7.md) yükseltmenin neleri değiştirdiğini ele alıyor.
+
 ---
 
 ## Zakura Common: Daha Hızlı Cüzdan Kriptografisi
@@ -95,12 +100,12 @@ Kullanıcılar için en görünür değişiklik bekleme süresidir. Özel bir i�
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-| Dil | C++ (Bitcoin'den çatallanmış) | Rust | Rust (Zebra'dan çatallanmış) |
-| Durum | Kullanımdan kaldırılmış | Aktif | Aktif (v1.0.0, Temmuz 2026) |
-| Senkronizasyon hızı | Temel seviye | ~1× | ~5× daha hızlı |
+| Dil | C++ (Bitcoin'den çatallanmıştır) | Rust | Rust (Zebra'ten çatallanmıştır) |
+| Durum | Kullanımdan kaldırıldı | Etkin | Etkin (v1.0.0 Tem 2026; v1.8.8 Kas 2026) |
+| Eşitleme hızı | Temel | ~1× | ~5× daha hızlı |
 | Blok budama | Hayır | Hayır | Evet |
 | zcashd RPC uyumluluğu | Yerel | Kısmi | Evet (uyumluluk modu) |
-| Anlık görüntüyle önyükleme | Hayır | Hayır | Evet (2 dakikadan az) |
+| Anlık görüntüyle önyükleme | Hayır | Hayır | Evet (2 dakikadan kısa) |
 | Deneysel P2P | Hayır | Hayır | Evet (isteğe bağlı) |
 
 ---
@@ -109,9 +114,29 @@ Kullanıcılar için en görünür değişiklik bekleme süresidir. Özel bir i�
 
 İndirme seçenekleri, anlık görüntüler ve yapılandırma belgeleri şurada mevcuttur:
 
-- **İndirme ve kurulum rehberi:** [zakura.com/download](https://zakura.com/download/)
+- **İndirme ve kurulum kılavuzu:** [zakura.com/download](https://zakura.com/download/)
 - **Zincir anlık görüntüleri:** [zakura.com/snapshots](https://zakura.com/snapshots/)
-- **Kaynak kodu:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Kaynak kod:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Sürüm notları:** [github.com/zakura-core/zakura/releases](https://github.com/zakura-core/zakura/releases)
+
+### Hafif Cüzdanlara Hizmet Verme
+
+Zakura bir hafif cüzdan sunucusu değildir. Zodl (eski adıyla Zashi) gibi hafif cüzdanların kullandığı gRPC protokolü olan `CompactTxStreamer`'i uygulamaz; bu nedenle bir cüzdan doğrudan `zakurad`'e bağlanamaz. Hafif cüzdanlara hizmet vermek için önünde şunlardan birini çalıştırın:
+
+- [Zaino](Zaino.md) (tercih edilen)
+- [lightwalletd](Lightwallet_Nodes.md)
+- [Ztreamer](https://github.com/zcashlabs/ztreamer), Zcash Labs'⩓ indeksleyicisi ve hafif cüzdan sunucusu; zinciri Zakura düğümünden, kendi sürecine gömülü olarak ya da JSON-RPC üzerinden uzaktaki bir düğümden okur
+
+Zakura’ın kendi indeksleyici gRPC’si (`indexer_listen_addr` `[rpc]` bölümünde, varsayılan olarak kapalı) ayrı bir arayüzdür: kendi çalıştırdığınız güvenilir yazılımlar için blok, bellek havuzu ve zincir ucu akışları sunar; hafif cüzdan protokolü değildir. Şifrelenmemiş iletişime yalnızca döngüsel geri bildirim adresinde izin verilir; diğer tüm adresler karşılıklı TLS gerektirir ([yapılandırma başvurusu](https://github.com/zakura-core/zakura/blob/v1.8.7/crates/zakura-rpc/src/config/rpc.rs)).
+
+### Çalıştırmadan Önce
+
+Operatörlerin gözden kaçırdığı 1.8 sürüm notlarından birkaç madde:
+
+- **Sürümlerin süresi dolar.** Her Zakura sürümünün bir destek sonu blok yüksekliği vardır ve bu sürümü çalıştıran bir Mainnet düğümü o blokta durur. 1.8.x sürümleri için “Mainnet’te 3.643.309 numaralı bloğa kadar desteklenir; bu tarih yaklaşık 3 Aralık 2026’dır” ifadesi kullanılır ve yükseltme uyarıları yaklaşık üç gün önce gösterilir ([v1.8.8](https://github.com/zakura-core/zakura/releases/tag/v1.8.8)). Bu tarihten önce en yeni sürümü kontrol edin ve yükseltme planınız yoksa betiklerde veya dağıtım şablonlarında eski bir sürümü sabitlemeyin.
+- **1.8.0 sürümünden itibaren x86-64 CPU gereksinimi.** Sürüm ikilileri ve Docker imajları BMI2/ADX yönergelerini kullanır; bu da Intel Broadwell, AMD Zen veya daha yeni bir işlemci gerektiği anlamına gelir. Daha eski bir işlemcide `zakurad`, eksik uzantıların adını belirten bir hatayla başlangıçta kapanır. Bu makinelerde çalıştırmak için `--features portable` ile kaynaktan derleyin ([v1.8.0](https://github.com/zakura-core/zakura/releases/tag/v1.8.0)).
+- **Eski oluşturulmuş yapılandırmalar ve yerel P2P.** `zakurad generate` eskiden `peer_memory_budget_bytes = 8589934592` (8 GiB) yazıyordu. 1.8.3 sürümünden beri bu değer, yerel P2P bağlantı sayısını yaklaşık yarıya düşürüyor; 4 GiB veya daha azı ise yerel P2P çalıştıran bir düğümün başlamasını engelliyor. `[network.zakura] peer_memory_budget_bytes` değerini en az 15 GiB’ye yükseltin veya yeni 15 GiB varsayılanını kullanmak için satırı silin ([v1.8.3](https://github.com/zakura-core/zakura/releases/tag/v1.8.3)).
+- **Durum araçları `zakurad` içine taşındı.** 1.8.3 sürümünden beri bağımsız `zakura-prune-state` ve `zakura-rollback-state` ikilileri, Docker dahil olmak üzere artık dağıtılmıyor. Bunun yerine `zakurad prune-state` ve `zakurad rollback-state` kullanın. Aynı bağımsız değişkenleri alırlar ancak `zakura.toml` yüklerler; bu nedenle belirli bir durum dizinini belirtmek için `--cache-dir` değerini geçin.
 
 ---
 

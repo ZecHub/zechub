@@ -13,6 +13,8 @@ Le portefeuille Zingo est un portefeuille Zcash complet, conçu pour être facil
 
 L'une des principales fonctionnalités de Zingo! est sa capacité à utiliser le champ mémo pour fournir des informations précieuses sur vos transactions.
 
+Zingo 3.0 pour mobile (31 octobre 2026) prend en charge NU7 et ajoute des échanges inter-chaînes intégrés via SwapKit. L’application PC propose des échanges SwapKit depuis la version 2.0.26 et prend en charge NU7 sur Mainnet depuis la version 2.0.27.
+
 Zingo! est disponible pour les appareils mobiles et les PC. Vous trouverez tous les téléchargements [ici](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

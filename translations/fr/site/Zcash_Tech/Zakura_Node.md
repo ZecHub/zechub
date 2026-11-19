@@ -4,19 +4,20 @@
 
 # Nœud Zakura
 
-Zakura est une implémentation de nœud complet libre et open source pour Zcash, conçue pour fonctionner à grande échelle. Issu d'un fork de [Zebra](Zebra_Full_Node.md) et développé dans le cadre d'une collaboration entre **Valar Group** et **Project Tachyon**, Zakura offre une synchronisation nettement plus rapide, un élagage natif des blocs et une couche de compatibilité avec les outils historiques de `zcashd`. La version 1.0.0 a été publiée le 15 juillet 2026.
+Zakura est une implémentation libre et open source de nœud complet pour Zcash, conçue pour fonctionner à grande échelle. Issue d’un fork de [Zebra](Zebra_Full_Node.md) et développée dans le cadre d’une collaboration entre **Valar Group** et **Project Tachyon**, Zakura offre une synchronisation nettement plus rapide, un élagage natif des blocs et une couche de compatibilité avec les outils historiques de `zcashd`. La version 1.0.0 a été publiée le 15 juillet 2026. Depuis, les versions se sont succédé rapidement : la version 1.7.0 (22 octobre 2026) a activé NU7 sur Mainnet, puis la série 1.8 a suivi en novembre.
 
 ---
 
 ## En bref
 
-- Zakura est un **nœud complet Zcash compatible avec le consensus**, une alternative à Zebra et zcashd, issue d'un fork de Zebra.
-- La synchronisation de la blockchain est environ **5× plus rapide qu'avec Zebra** ; l'amorçage par instantané se termine en **moins de 2 minutes**.
-- **L'élagage natif des blocs** permet aux opérateurs de faire fonctionner un nœud complet avec beaucoup moins d'espace disque (~11 Go pour un instantané élagué contre 300 Go pour un nœud Zebra complet).
+- Zakura est un **nœud complet Zcash compatible avec le consensus**, une alternative à Zebra et zcashd, issue d’un fork de Zebra.
+- La synchronisation de la blockchain est environ **5× plus rapide qu’avec Zebra** ; l’amorçage par instantané se termine en **moins de 2 minutes**.
+- **L’élagage natif des blocs** permet aux opérateurs de faire fonctionner un nœud complet avec beaucoup moins d’espace disque (~11 Go pour un instantané élagué contre 300 Go pour un nœud complet Zebra).
 - Un **mode de compatibilité RPC zcashd** permet aux portefeuilles et aux intégrations existants de fonctionner sans modification.
 - Une **couche de transport P2P expérimentale** (désactivée par défaut) vise une propagation des blocs inférieure à 500 ms grâce à un protocole de diffusion résistant aux attaques DoS.
 - Compatible avec **Ironwood (NU6.3)**, la mise à niveau du réseau Zcash activée à la mi-2026.
-- **Zakura Common** (v1.3.0, août 2026) accélère la cryptographie qu'utilisent les portefeuilles pour construire des transactions privées : de plus de 3 secondes à moins de 200 ms dans de nombreux cas, selon les tests de performance de Zakura.
+- Suit **NU7** : Zakura 1.7.0 est la version qui l’active sur Mainnet. Chaque version cesse également d’être prise en charge à un bloc de fin de prise en charge, quelques semaines après sa publication. Prévoyez donc de mettre à niveau régulièrement (voir « Avant de l’exécuter » ci-dessous).
+- **Zakura Common** (v1.3.0, août 2026) accélère la cryptographie qu’utilisent les portefeuilles pour construire des transactions privées : de plus de 3 secondes à moins de 200 ms dans de nombreux cas, selon les tests de performance de Zakura.
 - Dirigé par **Sean Bowe** (cofondateur de Zcash, Project Tachyon) et **Dev Ojha** (Valar Group).
 
 ---
@@ -69,6 +70,10 @@ Cette couche donne un aperçu des futures améliorations du réseau Zcash dével
 
 Zakura est entièrement compatible avec la mise à niveau du réseau Ironwood (NU6.3), activée sur le réseau principal Zcash mi-2026.
 
+### NU7
+
+Zakura 1.7.0, publiée le 22 octobre 2026, est la version qui active NU7 sur Mainnet ([notes de version](https://github.com/zakura-core/zakura/releases/tag/v1.7.0)). Un nœud doit utiliser la version 1.7.0 ou une version ultérieure pour suivre la chaîne après la mise à niveau. [NU7](NU7.md) présente les changements apportés par la mise à niveau.
+
 ---
 
 ## Zakura Common : une cryptographie plus rapide pour les portefeuilles
@@ -95,13 +100,13 @@ Pour les utilisateurs, le changement le plus visible est le temps d'attente. Un 
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-| Langage | C++ (fork de Bitcoin) | Rust | Rust (fork de Zebra) |
-| Statut | Obsolète | Actif | Actif (v1.0.0, juil. 2026) |
-| Vitesse de synchronisation | Référence | environ 1 fois | environ 5 fois plus rapide |
+| Langage | C++ (dérivé de Bitcoin) | Rust | Rust (dérivé de Zebra) |
+| Statut | Obsolète | Actif | Actif (v1.0.0 juil. 2026 ; v1.8.8 nov. 2026) |
+| Vitesse de synchronisation | Référence | ~1× | ~5× plus rapide |
 | Élagage des blocs | Non | Non | Oui |
-| Compatibilité RPC zcashd | Native | Partielle | Oui (mode de compatibilité) |
-| Amorçage par instantané | Non | Non | Oui (moins de 2 min) |
-| P2P expérimental | Non | Non | Oui (sur activation) |
+| Compatibilité RPC zcashd | Native | Partielle | Oui (mode compatibilité) |
+| Initialisation à partir d’un instantané | Non | Non | Oui (moins de 2 min) |
+| P2P expérimental | Non | Non | Oui (opt-in) |
 
 ---
 
@@ -109,9 +114,29 @@ Pour les utilisateurs, le changement le plus visible est le temps d'attente. Un 
 
 Les options de téléchargement, les instantanés et la documentation de configuration sont disponibles ici :
 
-- **Téléchargement et guide d'installation :** [zakura.com/download](https://zakura.com/download/)
+- **Guide de téléchargement et d’installation :** [zakura.com/download](https://zakura.com/download/)
 - **Instantanés de la chaîne :** [zakura.com/snapshots](https://zakura.com/snapshots/)
 - **Code source :** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Notes de version :** [github.com/zakura-core/zakura/releases](https://github.com/zakura-core/zakura/releases)
+
+### Fournir un service aux portefeuilles légers
+
+Zakura n’est pas un serveur pour portefeuille léger. Il n’implémente pas `CompactTxStreamer`, le protocole gRPC utilisé par les portefeuilles légers tels que Zodl (anciennement Zashi), donc un portefeuille ne peut pas se connecter directement à `zakurad`. Pour servir les portefeuilles légers, exécutez l’un de ces éléments devant lui :
+
+- [Zaino](Zaino.md) (de préférence)
+- [lightwalletd](Lightwallet_Nodes.md)
+- [Ztreamer](https://github.com/zcashlabs/ztreamer), l’indexeur de Zcash Labs et le serveur de portefeuille léger, qui lit la chaîne à partir d’un nœud Zakura, intégré à son propre processus ou distant via JSON-RPC
+
+Le gRPC de son propre indexeur Zakura (`indexer_listen_addr` dans la section `[rpc]`, désactivé par défaut) est une interface distincte : flux des blocs, du mempool et de la tête de chaîne pour les logiciels de confiance que vous exécutez vous-même, et non le protocole des portefeuilles légers. Le texte en clair est autorisé uniquement sur l’interface de bouclage ; toute autre adresse nécessite une authentification TLS mutuelle (référence à la configuration [](https://github.com/zakura-core/zakura/blob/v1.8.7/crates/zakura-rpc/src/config/rpc.rs)).
+
+### Avant de l’exécuter
+
+Quelques points des notes de version 1.8 qui surprennent les opérateurs :
+
+- **Les versions expirent.** Chaque version Zakura a une hauteur de fin de prise en charge, et un nœud Mainnet qui l’exécute s’arrête à ce bloc. Les versions 1.8.x sont « prises en charge sur Mainnet jusqu’au bloc 3 643 309, vers le 3 décembre 2026 », avec des avertissements de mise à niveau environ trois jours plus tôt ([v1.8.8](https://github.com/zakura-core/zakura/releases/tag/v1.8.8)). Vérifiez la version la plus récente avant cette date et ne verrouillez pas une ancienne version dans des scripts ou des modèles de déploiement sans prévoir de la mettre à jour.
+- **Processeur x86-64 requis depuis la version 1.8.0.** Les binaires de version et les images Docker utilisent les instructions BMI2/ADX, ce qui nécessite un processeur Intel Broadwell, AMD Zen ou plus récent. Sur un processeur plus ancien, `zakurad` s’arrête au démarrage en indiquant les extensions manquantes. Compilez à partir du code source avec `--features portable` pour l’exécuter sur ces machines ([v1.8.0](https://github.com/zakura-core/zakura/releases/tag/v1.8.0)).
+- **Anciennes configurations générées et P2P natif.** `zakurad generate` écrivait auparavant `peer_memory_budget_bytes = 8589934592` (8 Gio). Depuis la version 1.8.3, cette valeur permet environ deux fois moins de connexions P2P natives, et une valeur de 4 Gio ou moins empêche le démarrage d’un nœud utilisant le P2P natif. Augmentez `[network.zakura] peer_memory_budget_bytes` à au moins 15 Gio, ou supprimez la ligne pour utiliser la nouvelle valeur par défaut de 15 Gio ([v1.8.3](https://github.com/zakura-core/zakura/releases/tag/v1.8.3)).
+- **Les outils d’état ont été intégrés à `zakurad`.** Depuis la version 1.8.3, les binaires autonomes `zakura-prune-state` et `zakura-rollback-state` ne sont plus fournis, y compris dans Docker. Utilisez plutôt `zakurad prune-state` et `zakurad rollback-state`. Ils acceptent les mêmes arguments, mais chargent `zakura.toml` ; indiquez donc `--cache-dir` pour spécifier un répertoire d’état particulier.
 
 ---
 

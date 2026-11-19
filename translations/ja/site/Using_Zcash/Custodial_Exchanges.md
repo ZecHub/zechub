@@ -99,17 +99,19 @@ ___
 - Ironwood: シールドされた出金に対応、プールは明記されていません
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- ウェブサイト: [Huobi](https://huobi.com)
+- ウェブサイト: [HTX](https://www.htx.com)（以前はHuobi）
 - ペア: ALL/ZEC
 - 対応: 公開型
+- 状態: ZEC 入金と出金は現在停止中です（HTXの公開API、2026年11月時点）。現物取引は引き続き掲載されています
 - 入金時間: 35分 
 - Ironwood: 該当なし、公開型アドレスのみ
+
 ___
 
 ### [Kraken](https://kraken.com)

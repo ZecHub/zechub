@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - الموقع الإلكتروني: https://trocador.app/
 - الوصف: تداول العملات المشفرة بصورة مجهولة. سريع. آمن. بلا بيروقراطية. تتوفر بطاقات خصم مسبقة الدفع.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - الموقع الإلكتروني: https://github.com/firoorg/FiroDEX-Desktop
-- الوصف: مبادلات لامركزية غير موثوقة باستخدام المبادلات الذرية مع FiroDEX!.
+- الوصف: تطبيق سطح مكتب للمبادلات الذرية. لم يعد قيد الصيانة: أرشف Firo مستودع FiroDEX-Desktop، وكان آخر إصدار له 0.8.2-beta (فبراير 2025).
 
 ___
 

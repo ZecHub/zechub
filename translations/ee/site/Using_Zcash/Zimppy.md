@@ -7,7 +7,7 @@
 ## Nyawo ƒe ƒometɔ
 
 - **Zimppy** nye ɣaɣla [privacy]-tsɔtsɔ fexexe ƒe nutoɖoɖo na AI agents siwo zã Zcash ƒe Machine Payment Protocol (MPP)
-- Ɖo ga ɖe eme zi ɖeka ɖoɖonu dzi (~75 seconds), eye nàwɔ **biabia madzi aɖeke tɔ** enumake, ɖoɖonu ƒe dɔwɔwɔ aɖeke manɔ biabia sia biabia me o
+- Ɖo ga ɖe eme zi ɖeka ɖoɖonu dzi (~25 seconds ɖoɖonu ƒuƒoƒe ɖesiaɖe le NU7 megbe), eye nàwɔ **biabia madzi aɖeke tɔ** enumake, ɖoɖonu ƒe dɔwɔwɔ aɖeke manɔ biabia sia biabia me o
 - Ede asi ɖe **ɣaɣla [shielded] Zcash (Orchard)** fexexewo ŋu blibo — nelawo, xɔla, gaƒe, kple nya kpui [memo] katã woɣla wo
 - Ewɔ dɔ kple **TypeScript kple Rust SDKs** be wòaɖe ɖe AI pipelines kple API servers me bɔbɔe
 - Eƒo na **LLM APIs, data marketplaces, MCP tool servers**, kple M2M fexexe ƒe zã nyawo [use case] bubuwo katã
@@ -52,7 +52,7 @@ Tɔvɔ na blockchain [gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu] ƒe fexexe ƒe nutoɖo�
 
 ### Nɔnɔme Gãwo
 
-- **Ɖo ga ɖe eme zi ɖeka** ɖoɖonu dzi (~75 seconds na Zcash ƒe kpekpeɖeŋu)
+- **Ɖo ga ɖe eme zi ɖeka** ɖoɖonu dzi (~25 seconds na Zcash ƒe gaɖoɖowo ƒuƒoƒe tso NU7; 75 seconds le doŋgɔ)
 - **Biabiabia madzi aɖeke tɔ enumake** kpekpeɣeyiɣi ƒe dzoɖo megbe, ɖoɖonu ƒe dɔwɔwɔ aɖeke mele biabia sia biabia me o
 - **Ɣaɣla fexexewo** ɣla nela, xɔla, gaƒe, kple nya kpui kple Zcash ƒe Orchard protocol
 - **Nuwo ƒe ʋuʋuɖi fexexewo** zã T-addresses siwo le challenge sia sia ƒe ta be woaxe mɔ na replay o, ke ɣaɣla blibo mele o
@@ -77,12 +77,12 @@ Na AI agents siwo kpɔa dɔwɔwɔ veviwo dzi, le agbalẽ ƒe didi, atike ƒe bi
 
 ### Megbe Megbe ƒe Kuxi, Kpekpeɣeyiɣiwo Ɖe Eŋu
 
-> *"Ke Zcash ƒe gaɖoɖowo ƒuƒoƒe ƒe ɣeyiɣi nye seconds 75."*
+> *"Ke Zcash ƒe gaɖoɖowo ƒuƒoƒe la hã wɔa ɣeyiɣi seconds 25 (seconds 75 hafi NU7)."*
 
 **Kpekpeɣeyiɣiwo ɖe esia ŋu.** Ɖoɖonu dzi ƒe lala va eme zi **ɖeka pɛ** le gaɖoɖo me. Biabia si va megbe la wɔnɛ enumake.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ Agents geɖe ate ŋu awɔ dɔ le gakotoku ɖeka me to **ZIP-32 account rotation*
 
 ### Kpekpeɣeyiɣiwo, Megbe Megbe Aɖeke Menɔ Biabia Sia Biabia Me O
 
-Kpekpeɣeyiɣi ƒe nutoɖoɖo ma ɖoɖonu dzi ƒe kpekpeɖeŋu ƒe lala kple biabia sia biabia ƒe megbe megbe ke o. Le gaɖoɖo ɖeka (~75 seconds) megbe la, bearer-token biabiabia siwo va megbe katã ava enumake, blockchain ƒe dɔwɔwɔ aɖeke manɔ eme vaseɖe kpekpeɣeyiɣi ƒe nuwuwu.
+Kpekpeɣeyiɣi ƒe nutoɖoɖo ma ɖoɖonu dzi ƒe kpekpeɖeŋu ƒe lala kple biabia sia biabia ƒe megbe megbe ke o. Le gaɖoɖo ɖeka (~25 seconds tso NU7) megbe la, bearer-token biabiabia siwo va megbe katã ava enumake, blockchain ƒe dɔwɔwɔ aɖeke manɔ eme vaseɖe kpekpeɣeyiɣi ƒe nuwuwu.
 
 ### Tsi Tsiɖeɖe, Xe Ga Le Token Sia Token Nu
 

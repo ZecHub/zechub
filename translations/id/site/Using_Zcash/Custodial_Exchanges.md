@@ -98,15 +98,16 @@ ___
 - Ironwood: Penarikan terlindungi didukung, pool tidak disebutkan
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Logo Huobi" width="200" height="100"/>
 </a>
 
-- Website: [Huobi](https://huobi.com)
+- Website: [HTX](https://www.htx.com) (sebelumnya Huobi)
 - Pasangan: ALL/ZEC
 - Mendukung: Transparan
+- Status: Deposit dan penarikan ZEC saat ini ditangguhkan (menurut HTX API publik, November 2026); perdagangan spot masih tercantum
 - Waktu Deposit: 35 Menit 
 - Ironwood: Tidak berlaku, hanya alamat transparan
 ___

@@ -13,6 +13,8 @@ Zingo 지갑은 사용자 친화적으로 설계된 모든 기능을 갖춘 Zcas
 
 Zingo!의 주요 기능 중 하나는 메모 필드를 사용하여 거래에 대한 유용한 정보를 제공하는 기능입니다.
 
+Zingo 3.0 모바일 버전(2026년 10월 31일)은 NU7을 지원하며 SwapKit을 통한 크로스체인 스왑 기능을 기본으로 추가합니다. PC 앱은 버전 2.0.26부터 SwapKit 스왑을 지원하고, 2.0.27부터 Mainnet NU7을 지원합니다.
+
 Zingo!는 모바일 기기와 PC에서 사용할 수 있습니다. 모든 다운로드는 [여기](https://zingolabs.org/)에서 찾을 수 있습니다.
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
