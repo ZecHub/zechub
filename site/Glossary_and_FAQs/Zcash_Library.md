@@ -187,7 +187,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Trailing Finality Layer (TFL) | Research into adding a finality layer behind Zcash's proof-of-work chain so recent blocks can be finalized without replacing mining. Crosslink is the design that came out of it. |
 | Transaction | A payment between users, submitted to the network and eventually confirmed in a block. |
 | Transaction Expiry | A block-height limit on when an unmined payment can be included. An ordinary payment with a nonzero expiry height N can be mined in block N or earlier, but not N+1. A height of 0 disables expiry. This is not an automatic refund timer. [ZIP 203](https://zips.z.cash/zip-0203) |
-| Transaction Fee | Default fee is 0.0001 ZEC. Higher fees get priority; very low fees may cause delays or expiry. |
+| Transaction Fee | Calculated by the wallet from the transaction's logical actions ([ZIP 317](https://zips.z.cash/zip-0317)). Since Mainnet block 3,590,000 (19 November 2026) it is 1,000 zatoshis per action, so at least 0.00002 ZEC ([ZIP 2009](https://zips.z.cash/zip-2009)); before that, 5,000 per action and at least 0.0001 ZEC. Nodes may refuse to relay a transaction that pays less. [More info](/using-zcash/transactions#zcash-fees) |
 | Transparent Address | Also called taddr. Starts with t. Fully public (like Bitcoin). |
 | Transparent Transaction | A transaction exclusively between transparent addresses - everything is publicly visible. |
 | Turnstile | The accounting rule that tracks how much value enters and leaves each shielded pool, so no pool can release more than went into it. Used at every pool transition in Zcash's history, and currently guarding the migration from Orchard into Ironwood. [More info](/zcash-tech/the-turnstile) |
