@@ -15301,6 +15301,14 @@
       "mode": "full",
       "tool": "codex/gpt-6-luna",
       "edited": false
+    },
+    "Zcash_Tech/Zinder.md": {
+      "src": "sha256:0c603f1700d365fcfc92f93a875e1074aec5d8443996cd46f191b76a78b47415",
+      "src_commit": "a631c73de66b80b1efe9f6e468ace13aa5fdb97f",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
+      "edited": false
     }
   },
   "hi": {
@@ -23929,11 +23937,11 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
-      "src_commit": "ae320f633c40c6b51f87dc1024b241a0e1e833df",
+      "src": "sha256:fc48f17ffff9c4cc8a0a389249c214f1cffb1b75857700dccf7e355d4c63294b",
+      "src_commit": "a631c73de66b80b1efe9f6e468ace13aa5fdb97f",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-5.6-terra+brandfix",
+      "mode": "diff",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -24902,6 +24910,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-6-luna",
+      "edited": false
+    },
+    "Zcash_Tech/NU7.md": {
+      "src": "sha256:c1b6b1127edd7536560d071a726cb437fdd3f33b1cfb18575c5bd023c9fbf86c",
+      "src_commit": "a631c73de66b80b1efe9f6e468ace13aa5fdb97f",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     }
   },
@@ -38465,11 +38481,11 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:c816fbddb48288f5f9f337191bc0881643f4477f7701579150af6388fef62b27",
-      "src_commit": "bb47d6d60a303b4718f16c94989a58c641817e1f",
+      "src": "sha256:fc48f17ffff9c4cc8a0a389249c214f1cffb1b75857700dccf7e355d4c63294b",
+      "src_commit": "a631c73de66b80b1efe9f6e468ace13aa5fdb97f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+brandfix",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -39673,11 +39689,11 @@
       "edited": false
     },
     "Zcash_Tech/Shielded_Cold_Signing.md": {
-      "src": "sha256:b229f4d23dfeb869b65121363b24f5f29008271cb984aec304b8d03e17c179ce",
-      "src_commit": "2aa876575f4889bb11f59dd426b8dd7357643c17",
+      "src": "sha256:a0ba6e5a699218d5226a94c2577c74fb0ce5aa77b19233729e0bd4e818b35d60",
+      "src_commit": "a631c73de66b80b1efe9f6e468ace13aa5fdb97f",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "codex/gpt-5.6-terra",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
