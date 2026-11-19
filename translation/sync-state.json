@@ -2955,11 +2955,11 @@
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
-      "src": "sha256:46adbceb98909457df39dd616c02232ba6670216b2c75e83179a0fe985bd8672",
-      "src_commit": "b6d3cfdaee69c548b1cfb85540897630b31f84a0",
+      "src": "sha256:7f7183039c68d2ccfc4928d90dc72def34ed9e85216a29d69e023a315d33f2fc",
+      "src_commit": "e70938dc663bd36139c29d1ebaa0f692bbc0e78c",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
