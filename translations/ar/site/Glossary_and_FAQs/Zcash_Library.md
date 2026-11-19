@@ -33,8 +33,8 @@
 | Canopy | خامس ترقية رئيسية للشبكة في Zcash. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | يتيح للمُلتزِم أن يلتزم بكثير حدود باستخدام سلسلة قصيرة يمكن لجهة التحقق استعمالها لتأكيد التقييمات المزعومة لكثير الحدود الملتزَم به. وهذا مفيد في خفض تكاليف الاتصال في بروتوكول Zcash. |
 | Community | [المنتدى الرسمي لمجتمع Zcash](https://forum.zcashcommunity.com) / [Zcash مجتمع Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash البحث والتطوير لـ Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | تصميم توافق هجيني مقترح يشغّل إثبات الحصة إلى جانب إثبات العمل القائم لـ Zcash. يقود Shielded Labs العمل ويحتفظ بنموذج أولي في مستودع `zebra-crosslink`. لا يشكّل Crosslink جزءًا من Zcash اليوم. [Crosslink بروتوكول](/zcash-tech/crosslink-protocol) |
-| CrossPay | ميزة في محفظة ZODL تتيح لك إنفاق ZEC المحمي بينما يُدفَع للمستلم بالأصل والسلسلة اللذين يفضلهما، مع التوجيه عبر NEAR Intents بدلًا من بورصة مركزية. |
+| Crosslink | تصميم توافق هجيني مقترح يشغّل إثبات الحصة إلى جانب إثبات العمل القائم لـ Zcash. يقود Shielded Labs العمل ويشغّل شبكة اختبار، وهي Feature Net، من مستودع `crosslink_monolith`. أُحيل مستودع النموذج الأولي السابق `zebra-crosslink` إلى التقاعد في نوفمبر 2026. لا يشكّل Crosslink جزءًا من Zcash اليوم. [Crosslink بروتوكول](/zcash-tech/crosslink-protocol) |
+| CrossPay | ميزة في محفظة ZODL تتيح لك إنفاق ZEC المحمي بينما يُدفَع للمستلم بالأصل والسلسلة اللذين يفضلهما، مع التوجيه عبر NEAR Intents بدلًا من منصة تداول مركزية. |
 | Cypherpunk Zero | عالم إبداعي وجهد تعاوني بين ECC والرسام Stranger Wolf وMighty Jaxx وشركاء مختارين من المنظومة. [شبكات Cypherpunk Zero الاجتماعية](https://x.com/cypherpunkZero) / [مجموعة OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D

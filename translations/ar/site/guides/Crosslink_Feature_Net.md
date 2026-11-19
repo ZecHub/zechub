@@ -15,6 +15,8 @@
 
 *تم الاختبار باستخدام Feature Net الإصدار 14 على Windows 11 (الإصدار 10.0.26200.9550)، من 8 إلى 10 أكتوبر 2026. البرنامج نموذج أولي ويتغير مع كل إصدار. إذا اختلف ما تراه عن هذه الصفحة، فثق بتجربتك وافتح طلب سحب (PR) من فضلك.*
 
+**تحديث، 17 نوفمبر 2026: لم يعد الإصدار 14 قادرًا على الانضمام إلى Feature Net.** [الإصدار 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 أكتوبر) أجرى ترقية للشبكة عند ارتفاع PoW البالغ 55,296. بدءًا من [الإصدار 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16)، «يتوقف كل إصدار عن العمل بعد أسبوعين من إطلاقه»، وتخطط Shielded Labs لإصدار نسخة كل أسبوع. [الإصدار 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 نوفمبر) أجرى ترقية أخرى عند ارتفاع PoW البالغ 165,000. أحدث إصدار وقت كتابة هذه الملاحظة هو [الإصدار 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 نوفمبر 2026): لا يمكنه التواصل مع عقد الإصدار 17، ويجري ترقية للشبكة عند الكتلة 189,000، ويتوقف عن العمل عند الكتلة 212,568، أي نحو 30 نوفمبر. نزّل [أحدث إصدار](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)، وليس الإصدار 14. لم تُعَد الخطوات أدناه على هذا الإصدار. هناك اختلافان معروفان: تغيرت أسماء الملفات، وأصبح RPC الخاص بالتخزين هو `wallet_staking_action` (راجع [اسم RPC الذي ينبغي الانتباه إليه](#one-rpc-name-to-watch)).
+
 ## ما هي Feature Net
 
 Crosslink مقترح، وليس جزءًا من Zcash اليوم. تقول صفحة [الأسئلة الشائعة حول Crosslink](https://shieldedlabs.net/crosslink-faq/) لدى Shielded Labs إنه «سيحتاج إلى المرور بعملية الحوكمة (governance) القياسية لـ Zcash» قبل أن يصل إلى الشبكة الرئيسية. وتشرح صفحة [بروتوكول Crosslink](/zcash-tech/crosslink-protocol) التصميم.
@@ -54,15 +56,15 @@ Crosslink مقترح، وليس جزءًا من Zcash اليوم. تقول صف�
 
 ## قبل أن تبدأ
 
-- **حاسوب يمكنك تركه يعمل.** يتضمن الإصدار نسخًا لـ Windows و macOS و Ubuntu و Arch Linux. جرى تنفيذ هذا الدليل على Windows، على حاسوب بمعالج Intel Core i5-8350U.
-- **يوم تخزين.** تحقّق من موعد افتتاح يوم التخزين التالي قبل أن تخطط لأي شيء. تعرض [لوحة المعلومات الخاصة بـ Staker Space](https://crosslink.staker.space/) عدًّا تنازليًا له.
+- **حاسوبًا يمكنك تركه قيد التشغيل.** توفرت إصدارات الإصدار 14 لـ Windows وmacOS وUbuntu وArch Linux. تتوفر إصدارات الإصدارين 17 و18 لـ Windows وmacOS وUbuntu. نُفّذ هذا الدليل على Windows، على حاسوب شخصي بمعالج Core i5-8350U من Intel.
+- **يوم تخزين.** تحقق من موعد فتح اليوم التالي قبل أن تخطط لأي شيء. [لوحة معلومات Staker Space](https://crosslink.staker.space/) تعرض عدًا تنازليًا له.
 - **لا شيء آخر.** لا ZEC، ولا حساب، ولا تسجيل.
 
 ## الخطوة 1: نزّل التطبيق وتحقق من الملف
 
-1. افتح [الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) وانتقل إلى **Assets**.
-2. نزّل الملف الخاص بنظامك. على Windows هو `zebrad_v14_win32.exe`.
-3. قارن قيمة SHA-256 للملف بالبصمة (digest) التي يعرضها GitHub بجانب ذلك الملف.
+1. افتح [أحدث إصدار](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) وانتقل إلى **الأصول**. نُفّذ هذا الدليل باستخدام [الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)، الذي لم يعد بإمكانه الانضمام إلى الشبكة.
+2. نزّل الملف المناسب لنظامك. على Windows ينتهي اسمه بـ `_win32.exe`: `zebrad_v14_win32.exe` في المثال أدناه، و`zebra-crosslink_v18_win32.exe` للإصدار 18. استخدم اسم ملفك وقيمة التحقق الخاصة به في الأوامر التالية.
+3. قارن قيمة SHA-256 للملف بقيمة التحقق التي يعرضها GitHub بجانب ذلك الأصل.
 
 على Windows، في PowerShell:
 
@@ -397,6 +399,8 @@ http://127.0.0.1:8232
 ```
 
 طريقة التخزين التي تسجّلها العقدة هي [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420)، وتأخذ نصًا واحدًا يحمل الطلب بصيغة JSON، مع تحديد المُنهي بهويته `zfinv1` ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). لم تُجرَّب هذه الطريقة لهذا الدليل.
+
+**تغيّر بعد الإصدار 14.** ابتداءً من الإصدار 15، تسجّل العقدة `wallet_staking_action` ولم تعد لديها `staking_command` ([مصدر الإصدار 18](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). وتأخذ كائنًا واحدًا بأحد أربعة أشكال بالضبط، `CreateNewDelegationBond` أو `RetargetDelegationBond` أو `BeginDelegationUnbonding` أو `WithdrawDelegationBond`، ويُحدَّد المُنهي بمفتاح سداسي عشري من 64 محرفًا ([ملاحظات إصدار 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). ابتداءً من الكتلة 189,000، تذكر كل معاملة تخزين أيضًا الإصدار الحالي لسند الضمان، لذلك يُرفض الإجراء المُنشأ بناءً على سند ضمان قديم، ويجب أن تعمل المحافظ بالإصدار 18 ([ملاحظات إصدار 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). ولم يُجرَّب ذلك لهذا الدليل أيضًا.
 
 ## إلغاء التخزين والسحب
 

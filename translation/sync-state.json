@@ -1883,11 +1883,11 @@
       "edited": false
     },
     "Glossary_and_FAQs/Zcash_Library.md": {
-      "src": "sha256:d4841a2380e896b883fe7bd00c61db7a439ecbbfca8aef81fd117af521094ed7",
-      "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
+      "src": "sha256:bb8120e2c7735c73e2b7d9555326e25cd3c7f79b28affeb51b16c0d1cc5e7e57",
+      "src_commit": "fa99c48c52107858d4374bea5dde2b81f7c33ca8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -2811,11 +2811,11 @@
       "edited": false
     },
     "Zcash_Tech/Crosslink_Protocol.md": {
-      "src": "sha256:ef5af7353883bdbff7f643f4fa6f091f35a5e3764ed70ce981e80d39a206a635",
-      "src_commit": "b6d3cfdaee69c548b1cfb85540897630b31f84a0",
+      "src": "sha256:725164ab20dda365ae214d8261a33685621ed149d62130828e2d09b602e5148d",
+      "src_commit": "fa99c48c52107858d4374bea5dde2b81f7c33ca8",
       "engine": "llm",
-      "mode": "full",
-      "tool": "claude-opus-5-5",
+      "mode": "diff",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "Zcash_Tech/FROST.md": {
@@ -3019,11 +3019,11 @@
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
-      "src": "sha256:9141d35e8c60ce95e31ae6e52bbae9189ec94b6e174435247b0d4eebaacee7b4",
-      "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
+      "src": "sha256:4639f21a38fb92dd2b922a3ab4dc9f99f8b5c23dcb0f21acbba9d90308328c03",
+      "src_commit": "fa99c48c52107858d4374bea5dde2b81f7c33ca8",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -3411,11 +3411,11 @@
       "edited": false
     },
     "guides/Crosslink_Feature_Net.md": {
-      "src": "sha256:cfb3579385f3f96fa2d3199d13f3955404bf1d45d1f60e6b76732f008ea64086",
-      "src_commit": "b6d3cfdaee69c548b1cfb85540897630b31f84a0",
+      "src": "sha256:b4a991a1fc913026df30fcfdeb2c51b3edb6c167daaea8892888ce6eb94ca764",
+      "src_commit": "fa99c48c52107858d4374bea5dde2b81f7c33ca8",
       "engine": "llm",
-      "mode": "full",
-      "tool": "claude-opus-5-5+ar-faucet-review",
+      "mode": "diff",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "guides/Free2Z_Livestreaming.md": {
@@ -3776,6 +3776,14 @@
       "engine": "llm",
       "mode": "full",
       "tool": "codex/gpt-6-luna+ar-adoption-20261119",
+      "edited": false
+    },
+    "Zcash_Tech/Network_Sustainability_Mechanism.md": {
+      "src": "sha256:3d5bbd48f16169265801fa4193946ce8a4962162a3f9334c79814d2aea761ddb",
+      "src_commit": "fa99c48c52107858d4374bea5dde2b81f7c33ca8",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     }
   },
