@@ -1,3 +1,0 @@
-# Newletters
-
-Translations here
