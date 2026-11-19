@@ -1,68 +1,68 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Crosslink_Feature_Net.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # انضم إلى Crosslink Feature Net
 
 ## الخلاصة
 
-- إن Feature Net هي شبكة الاختبار العامة لـShielded Labs من أجل [Crosslink](/zcash-tech/crosslink-protocol)، طبقة النهائية المقترحة التي تضيف التخزين بجانب إثبات العمل الخاص بـZcash.
-- تعمل على عملة اختبارية هي cTAZ. لا شيء تفعله عليها ينقل ZEC للشبكة الرئيسية أو يعرّضه للخطر.
-- تطبيق سطح مكتب واحد هو العقدة والمُعدّن والمحفظة والمُنهي. يُعدّن cTAZ افتراضياً ويحتوي على زر صنبور.
-- لا يعمل التخزين وفك التخزين والسحب إلا خلال "يوم التخزين"، وهو يوم واحد من كل ثلاثة أيام. إن فاتك، تنتظر اليوم التالي.
-- للتخزين، تلصق هوية مُنهٍ وتنقر مبلغاً. يستخدم هذا الدليل مُنهِي ZecHub كمثال.
-- يُظهر استدعاءا RPC موضعك: `wallet_staking_positions` و`get_tfl_recency_status`.
+- Feature Net هي شبكة الاختبار العامة التابعة لـ Shielded Labs لاختبار [Crosslink](/zcash-tech/crosslink-protocol)، وهي طبقة النهائية المقترحة التي تضيف التخزين (staking) إلى جانب إثبات العمل (proof-of-work) في Zcash.
+- تعمل الشبكة بعملة اختبارية هي cTAZ. لا شيء تفعله عليها ينقل ZEC على الشبكة الرئيسية (mainnet) أو يعرّضه للخطر.
+- تطبيق سطح مكتب واحد يؤدي دور العقدة (node) والمعدّن (miner) والمحفظة (wallet) والمُنهي (finalizer) معًا. يقوم افتراضيًا بتعدين (mining) cTAZ، ويحتوي على زر صنبور.
+- لا يعمل التخزين وإلغاء التخزين والسحب إلا خلال «يوم التخزين» (Staking Day)، وهو يوم واحد من كل ثلاثة أيام. إذا فاتك، فعليك انتظار اليوم التالي.
+- للتخزين، تلصق هوية مُنهٍ وتنقر على مبلغ. يستخدم هذا الدليل المُنهي الخاص بـ ZecHub مثالًا.
+- يُظهر لك استدعاءان لـ RPC وضعك: `wallet_staking_positions` و `get_tfl_recency_status`.
 
-*تم الاختبار باستخدام الإصدار 14 من Feature Net على Windows 11 (الإصدار 10.0.26200.9550)، من 8 إلى 10 أكتوبر 2026. البرنامج نموذج أولي ويتغير مع كل إصدار. إذا كان ما تراه يختلف عن هذه الصفحة، فثق بنتيجة تشغيلك وافتح PR من فضلك.*
+*تم الاختبار باستخدام Feature Net الإصدار 14 على Windows 11 (الإصدار 10.0.26200.9550)، من 8 إلى 10 أكتوبر 2026. البرنامج نموذج أولي ويتغير مع كل إصدار. إذا اختلف ما تراه عن هذه الصفحة، فثق بتجربتك وافتح طلب سحب (PR) من فضلك.*
 
 ## ما هي Feature Net
 
-Crosslink هي مقترح، وليست جزءاً من Zcash اليوم. تقول الأسئلة الشائعة لـShielded Labs [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) إنها "ستحتاج إلى المرور بعملية حوكمة Zcash القياسية" قبل أن تصل إلى الشبكة الرئيسية. تشرح صفحة [Crosslink Protocol](/zcash-tech/crosslink-protocol) التصميم.
+Crosslink مقترح، وليس جزءًا من Zcash اليوم. تقول صفحة [الأسئلة الشائعة حول Crosslink](https://shieldedlabs.net/crosslink-faq/) لدى Shielded Labs إنه «سيحتاج إلى المرور بعملية الحوكمة (governance) القياسية لـ Zcash» قبل أن يصل إلى الشبكة الرئيسية. وتشرح صفحة [بروتوكول Crosslink](/zcash-tech/crosslink-protocol) التصميم.
 
-لاختبار التصميم مع مستخدمين حقيقيين، تشغّل Shielded Labs ما تسميه [incentivized feature nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/): "سلسلة من شبكات الاختبار المحفَّزة". توجد ثلاثة أدوار على الشبكة، ويمكن لتطبيق سطح المكتب أن يؤديها جميعاً:
+لتجربة التصميم مع مستخدمين حقيقيين، تشغّل Shielded Labs ما تسميه [شبكات الميزات المحفَّزة](https://shieldedlabs.net/crosslink-incentivized-feature-nets/): «مجموعة من شبكات الاختبار المحفَّزة». توجد ثلاثة أدوار على الشبكة، ويمكن لتطبيق سطح المكتب أن يؤديها جميعًا:
 
 | الدور | ما يفعله |
 |---|---|
-| المُعدّن | ينتج كتل إثبات العمل، كما في Zcash اليوم |
-| المخزّن | يقفل cTAZ في سند تفويض ويوجّهه إلى مُنهٍ |
-| المُنهي | يصوّت لإنهاء الكتل. قوة تصويته هي الحصة المفوّضة إليه |
+| المعدّن | ينتج كتلًا (blocks) بإثبات العمل، كما على Zcash اليوم |
+| المخزِّن (Staker) | يقفل cTAZ في سند ضمان (bond) للتفويض ويوجّهه إلى مُنهٍ |
+| المُنهي | يصوّت لجعل الكتل نهائية. قوته التصويتية هي حصة التخزين المفوَّضة إليه |
 
-يفتتح المستودع الذي يقف وراءه بإخلاء مسؤولية يستحق القراءة قبل تثبيت أي شيء: فهو "موجود لإثبات الأفكار، لا لعرض هندسة إنتاجية" وهو "ليس شفرة جاهزة للإنتاج" ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). شغّله على جهاز يكون ذلك مقبولاً عليه.
+يبدأ المستودع الذي تقوم عليه الشبكة بإخلاء مسؤولية يستحق القراءة قبل أن تثبّت أي شيء: فهو «موجود لإثبات الأفكار، لا لعرض هندسة إنتاجية» وهو «ليس شيفرة جاهزة للإنتاج» ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). شغّله على جهاز يكون فيه ذلك مقبولًا.
 
-### ما الذي تغيّر في الإصدار 14
+### ما الذي غيّره الإصدار 14
 
-صدر [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) في 1 أكتوبر 2026. تبدأ شبكته كإثبات عمل عادي وتفعّل Crosslink على ثلاث مراحل ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)، معروضة أيضاً على [ctaz.cash](https://ctaz.cash/v14)):
+صدر [الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) في 1 أكتوبر 2026. تبدأ شبكته بإثبات عمل بسيط، ثم تفعّل Crosslink على ثلاث مراحل ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)، ويظهر ذلك أيضًا على [ctaz.cash](https://ctaz.cash/v14)):
 
 | الكتلة | ما يحدث |
 |---|---|
 | 20,736 | يُفتح التخزين |
-| 34,560 | تُؤخذ القائمة الأولى للمنهين من الحصص الموجودة على السلسلة |
-| 36,288 | تبدأ نهائية BFT، وتبدأ معها مكافآت التخزين |
+| 34,560 | تُؤخذ أول قائمة للمُنهين من حصص التخزين الموجودة على السلسلة (on-chain) |
+| 36,288 | تبدأ نهائية BFT، ومعها مكافآت التخزين |
 
-تبدأ مكافآت التخزين عند آخر تلك الكتل. لا يربح السند المنشأ قبلها شيئاً حتى ذلك الحين ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
+تبدأ مكافآت التخزين عند آخر هذه الكتل. سند الضمان الذي يُنشأ قبل ذلك لا يكسب شيئًا حتى ذلك الحين ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
 
-خفّض الإصدار نفسه القائمة النشطة إلى 12 مُنهياً ذوي أكبر حصة ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884))، ومنحهم، على حد تعبير ملاحظات الإصدار، عمولة: "10% من جميع مكافآت PoS في كتلة تذهب إلى هذه العمولات، بينما يُوزع 90% على جميع سندات التخزين".
+قلّص الإصدار نفسه القائمة النشطة إلى الـ 12 مُنهيًا أصحاب أكبر حصة ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884))، ومنحهم عمولة، وفق ما جاء في نشرة الإصدار: «تذهب 10% من جميع مكافآت PoS في الكتلة إلى هذه العمولات، بينما تُوزَّع 90% على جميع سندات ضمان التخزين».
 
-### cTAZ وZEC الحقيقي
+### عملة cTAZ و ZEC الحقيقي
 
-cTAZ ("Crosslink TAZ") هي العملة الاختبارية لـFeature Net. تخزّن cTAZ، وليس ZEC أبداً.
+العملة cTAZ («Crosslink TAZ») هي العملة الاختبارية لـ Feature Net. أنت تخزّن cTAZ، ولا تخزّن ZEC أبدًا.
 
-لا يدخل ZEC الحقيقي إلا في النهاية. خصصت Shielded Labs [set aside 500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) لشبكات الميزات، وتقول [release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) إنه يُدفع "على أساس تناسبي اعتماداً فقط على كمية cTAZ التي كسبها كل مشارك عبر التعدين أو التخزين". يترتب على ذلك نتيجتان:
+لا يدخل ZEC الحقيقي إلا في النهاية. خصّصت Shielded Labs [مبلغ 500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) لشبكات الميزات، وتقول [نشرة الإصدار](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) إنه يُدفع «بشكل تناسبي استنادًا فقط إلى كمية cTAZ التي كسبها كل مشارك من خلال التعدين أو التخزين». ويترتب على ذلك أمران:
 
-- **عملات الصنبور لا تُحتسب.** cTAZ التي مُنحت لك، من الصنبور أو من أي شخص آخر، لا تكسب شيئاً لمجرد بقائها في محفظتك. لا تُحتسب إلا مكافآت الكتل من التعدين والتخزين.
-- **تُطالَب الدفعات ولا تُدفع تلقائياً.** تعلن Shielded Labs كل جولة في [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210). في الجولة 2 طلبت من المشاركين إرسال مفتاح العرض الخاص بمحفظتهم وعنوان شبكة رئيسية بحلول 4 أكتوبر 2026 ([post 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). أُعلن أن الشبكة التي يعمل عليها الإصدار 14، وهي التي ينضم إليها هذا الدليل، هي الجولة 3 ([post 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
+- **لا تُحتسب عملات الصنبور.** العملات cTAZ التي أُعطيت لك، سواء من الصنبور أو من أي شخص آخر، لا تكسب شيئًا بمجرد بقائها في محفظتك. لا تُحتسب إلا مكافآت الكتل الناتجة عن التعدين والتخزين.
+- **المدفوعات تُطالَب بها، وليست تلقائية.** تعلن Shielded Labs عن كل جولة في [موضوع المنتدى](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210). في الجولة 2، طلبت من المشاركين إرسال مفتاح العرض (viewing key) الخاص بمحفظتهم وعنوان (address) على الشبكة الرئيسية بحلول 4 أكتوبر 2026 ([المنشور 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). أما الشبكة التي يعمل عليها الإصدار 14، وهي التي ينضم إليها هذا الدليل، فقد أُعلن عنها بوصفها الجولة 3 ([المنشور 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
 
 ## قبل أن تبدأ
 
-- **حاسوب يمكنك تركه قيد التشغيل.** يحتوي الإصدار على نسخ بناء لـWindows وmacOS وUbuntu وArch Linux. شُغّل هذا الدليل على Windows، على حاسوب مزود بمعالج Intel Core i5-8350U.
-- **يوم تخزين.** تحقق من موعد فتح اليوم التالي قبل أن تخطط لأي شيء. تعرض لوحة [Staker Space's dashboard](https://crosslink.staker.space/) عدّاً تنازلياً إليه.
-- **لا شيء آخر.** لا ZEC، ولا حساب ولا تسجيل.
+- **حاسوب يمكنك تركه يعمل.** يتضمن الإصدار نسخًا لـ Windows و macOS و Ubuntu و Arch Linux. جرى تنفيذ هذا الدليل على Windows، على حاسوب بمعالج Intel Core i5-8350U.
+- **يوم تخزين.** تحقّق من موعد افتتاح يوم التخزين التالي قبل أن تخطط لأي شيء. تعرض [لوحة المعلومات الخاصة بـ Staker Space](https://crosslink.staker.space/) عدًّا تنازليًا له.
+- **لا شيء آخر.** لا ZEC، ولا حساب، ولا تسجيل.
 
 ## الخطوة 1: نزّل التطبيق وتحقق من الملف
 
-1. افتح [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) وانتقل إلى **Assets**.
-2. نزّل الملف الخاص بنظامك. على Windows يكون ذلك `zebrad_v14_win32.exe`.
-3. قارن SHA-256 الخاص بالملف مع الملخص الذي تعرضه GitHub بجانب ذلك الأصل.
+1. افتح [الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) وانتقل إلى **Assets**.
+2. نزّل الملف الخاص بنظامك. على Windows هو `zebrad_v14_win32.exe`.
+3. قارن قيمة SHA-256 للملف بالبصمة (digest) التي يعرضها GitHub بجانب ذلك الملف.
 
 على Windows، في PowerShell:
 
@@ -76,7 +76,7 @@ Hash      : 1D464E31CCC110E175D45E3EDC0B7FB0B9583ACC996E99F4398F390EC111297E
 Path      : C:\crosslink\zebrad_v14_win32.exe
 ```
 
-الملخص الذي تعرضه GitHub لذلك الملف هو `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`. لا تمييز لحالة الأحرف في النظام الست عشري، لذا فالأحرف الكبيرة أعلاه لا بأس بها. ولتدع الصدفة تقارن بدلاً من عينيك:
+البصمة التي يعرضها GitHub لذلك الملف هي `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`. لا يميّز النظام الست عشري بين الأحرف الكبيرة والصغيرة، لذا لا مشكلة في الأحرف الكبيرة أعلاه. لتترك الصدفة (shell) تُجري المقارنة بدلًا من عينيك:
 
 ```powershell
 $expected = "1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e"
@@ -88,29 +88,29 @@ if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 OK
 ```
 
-اعرف قيمة هذا الفحص. لا يحمل الإصدار توقيعاً، لذا يخبرك تطابق التجزئة أن التنزيل مكتمل وأنه الملف الذي تقدمه GitHub. لكنه لا يخبرك بمن بناه. يشرح [Verifying Zcash Releases](/guides/verifying-zcash-releases) الفرق.
+اعرف قيمة هذا التحقق. لا يحمل الإصدار أي توقيع رقمي (signature)، لذا فإن تطابق قيمة التجزئة يخبرك بأن التنزيل مكتمل وبأنه الملف الذي يقدّمه GitHub. لكنه لا يخبرك بمن بناه. يشرح [التحقق من إصدارات Zcash](/guides/verifying-zcash-releases) الفرق.
 
-## الخطوة 2: ابدأ العقدة ودعها تتزامن
+## الخطوة 2: شغّل العقدة واتركها تتزامن
 
-ابدأ التطبيق من طرفية، لكي تبقى رسائل البدء ظاهرة على الشاشة. استخدم نافذة PowerShell عادية، لا نافذة مفتوحة عبر "Run as administrator": فهذا برنامج نموذجي أولي غير موقّع، ولا يحتاج إلى صلاحيات المسؤول.
+شغّل التطبيق من الطرفية، حتى تبقى رسائل بدء التشغيل على الشاشة. استخدم نافذة PowerShell عادية، لا نافذة مفتوحة بخيار «Run as administrator»: فهذا برنامج نموذج أولي غير موقَّع، ولا يحتاج إلى صلاحيات المسؤول.
 
 ```powershell
 .\zebrad_v14_win32.exe
 ```
 
-تُفتح نافذة بعنوان "Zcash Crosslink Visualizer". توجد المحفظة على اليسار، بعلامتي تبويب **Your Wallet** و**Faucet Wallet**، وتُرسم السلسلة في الوسط، وتُدرج المُنهِيات على اليمين. تستمر الطرفية في طباعة سجل العقدة. اتركهما مفتوحتين أثناء استخدام الشبكة.
+تُفتح نافذة بعنوان «أداة العرض المرئي Zcash Crosslink». تكون المحفظة على اليسار، مع علامتي التبويب **Your Wallet** و **Faucet Wallet**، والسلسلة مرسومة في الوسط، والمُنهون مدرجون على اليمين. تواصل الطرفية طباعة سجل العقدة. اترك كليهما مفتوحين أثناء استخدامك للشبكة.
 
-ترتبط ملاحظات الإصدار بـ[video of the Windows install](https://www.youtube.com/watch?v=cO-5Oa4B1Tk).
+تتضمن نشرة الإصدار رابطًا إلى [فيديو لعملية التثبيت على Windows](https://www.youtube.com/watch?v=cO-5Oa4B1Tk).
 
-يحتفظ التطبيق ببياناته في مجلد ذاكرة تخزين مؤقت: `%LOCALAPPDATA%\zebra` على Windows، و`~/.cache/zebra` على Linux، و`~/Library/Caches/zebra` على macOS، وفقاً لملاحظات الإصدار.
+يحتفظ التطبيق ببياناته في مجلد للذاكرة المؤقتة: `%LOCALAPPDATA%\zebra` على Windows، و `~/.cache/zebra` على Linux، و `~/Library/Caches/zebra` على macOS، وفقًا لنشرة الإصدار.
 
-**احتفظ بالسر لنفسك.** يحتوي ذلك المجلد على ملف اسمه `secret.seed`. ينشئه التطبيق عند أول تشغيل ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) ويشتق منه محفظتك وهوية مُنهيك ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). يحتوي التطبيق أيضاً على زر **Copy Seed** يضع السر نفسه في حافظة النسخ. أي شخص يملك أياً منهما يسيطر على محفظتك. لا تلصقهما أبداً في دردشة أو منشور منتدى أو لقطة شاشة.
+**احتفظ بالسر لنفسك.** يحتوي ذلك المجلد على ملف اسمه `secret.seed`. ينشئه التطبيق عند أول تشغيل ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) ويشتق منه محفظتك وهوية المُنهي الخاصة بك ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). يحتوي التطبيق أيضًا على زر **Copy Seed** يضع السر نفسه في الحافظة. من يملك أيًّا منهما يتحكم في محفظتك. لا تلصقهما أبدًا في محادثة أو منشور في منتدى أو لقطة شاشة.
 
 ### كيف تعرف أنك متزامن
 
-تقول ملاحظات الإصدار إنه "لا توجد مراقبة مدمجة لمدى قرب تزامنك مع طرف الشبكة". لكن الإصدار 14 يحتوي على بعض ذلك: تتضمن القائمة المنسدلة **Network Info** في أعلى النافذة صفوفاً لـPoW Height وWallet Sync وBlocks Behind Known PoW ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)). قارن ارتفاعك بالارتفاع على [Staker Space](https://crosslink.staker.space/) أو [ctaz.cash](https://ctaz.cash/).
+تقول نشرة الإصدار إنه «لا توجد مراقبة مدمجة لمدى قرب تزامنك من قمة الشبكة». لكن الإصدار 14 يوفّر شيئًا منها: تحتوي القائمة المنسدلة **Network Info** أعلى النافذة على صفوف لـ PoW Height و Wallet Sync و Blocks Behind Known PoW ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)). قارن ارتفاعك بالارتفاع المعروض على [Staker Space](https://crosslink.staker.space/) أو [ctaz.cash](https://ctaz.cash/).
 
-تجيب العقدة أيضاً عبر RPC:
+تجيب العقدة أيضًا عبر RPC:
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"getblockcount","params":[],"id":1}' | ConvertTo-Json -Depth 20
@@ -124,28 +124,28 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-منفذ RPC `127.0.0.1:8232` مفتوح افتراضياً في هذا البناء ولا يحتاج إلى كلمة مرور ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)). يستمع على جهازك فقط، ويمكن لأي شيء يعمل على ذلك الجهاز استدعاؤه.
+منفذ RPC `127.0.0.1:8232` مفتوح افتراضيًا في هذا الإصدار ولا يحتاج إلى كلمة مرور ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)). وهو يستمع على جهازك فقط، ويمكن لأي برنامج يعمل على ذلك الجهاز استدعاؤه.
 
-في هذا التشغيل، استغرق التزامن الأول، من الكتلة 0 إلى الطرف عند نحو الكتلة 28,400، قرابة 50 دقيقة.
+في هذه التجربة، استغرق التزامن الأول، من الكتلة 0 إلى القمة عند الكتلة 28,400 تقريبًا، نحو 50 دقيقة.
 
-**بعد إعادة التشغيل، يقرأ رصيدك صفراً لبعض الوقت.** في كل مرة يبدأ فيها التطبيق، يعيد بناء المحفظة من `secret.seed` ويفحص السلسلة مجدداً من الكتلة 0 ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). حتى يصل الفحص إلى معاملاتك، يظهر رصيدك وحصتك على أنهما 0. في هذا التشغيل عادا بعد نحو 15 دقيقة من إعادة التشغيل. يُعاد فحص محفظة الصنبور بالطريقة نفسها ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588))، وأثناء الفحص أظهرت علامة تبويب Faucet Wallet رصيداً كبيراً جداً. تجاهل كليهما حتى يكتمل Wallet Sync.
+**بعد إعادة التشغيل يظهر رصيدك صفرًا لبعض الوقت.** في كل مرة يبدأ فيها التطبيق، يعيد بناء المحفظة من `secret.seed` ويفحص السلسلة من جديد بدءًا من الكتلة 0 ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). وإلى أن يصل الفحص إلى معاملاتك (transactions)، يظهر رصيدك وحصتك المخزّنة بقيمة 0. في هذه التجربة عادا بعد نحو 15 دقيقة من إعادة التشغيل. يُعاد فحص محفظة الصنبور بالطريقة نفسها ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588))، وأثناء الفحص أظهرت علامة التبويب Faucet Wallet رصيدًا كبيرًا جدًا. تجاهل كليهما حتى يكتمل Wallet Sync.
 
 ## الخطوة 3: احصل على بعض cTAZ
 
-### عدّنها
+### عدّنها بنفسك
 
-وفقاً لملاحظات الإصدار، يبدأ التطبيق تعدين CPU إلى محفظتك بمجرد تزامنه. لا تحتاج إلى تشغيل أي شيء. تذهب العملات المُعدّنة إلى عنوان شفاف من محفظتك الخاصة ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
+وفقًا لنشرة الإصدار، يبدأ التطبيق التعدين بالمعالج (CPU) لصالح محفظتك بمجرد أن يتزامن. لا تحتاج إلى تفعيل أي شيء. تذهب العملات المعدّنة إلى عنوان شفاف (transparent) في محفظتك ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
 
-أما ما إذا كان سيجد كتلة فهو أمر آخر. تحذّر الملاحظات من أنك "قد تتفوق عليك جهات أخرى تعدّن بسرعة أكبر، لذا لا يوجد ضمان للنجاح". افتراضياً، يستخدم المُعدّن المدمج خيط CPU واحداً ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
+أما إن كان سيعثر على كتلة فتلك مسألة أخرى. تحذّر النشرة من أنه «قد يتفوق عليك آخرون يعدّنون بسرعة أكبر، لذا لا يوجد ضمان للنجاح». افتراضيًا، يستخدم المعدّن المدمج خيطًا واحدًا للمعالج ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
 
-لاستخدام خيوط أكثر، اضبط متغير بيئة في نافذة PowerShell نفسها قبل بدء التطبيق ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)). استخدم هذا التشغيل أربعة:
+لاستخدام خيوط أكثر، اضبط متغير بيئة في نافذة PowerShell نفسها قبل تشغيل التطبيق ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)). استخدمت هذه التجربة أربعة خيوط:
 
 ```powershell
 $env:ZEBRA_MINING__INTERNAL_MINER_THREADS = "4"
 .\zebrad_v14_win32.exe
 ```
 
-لا يستمر المتغير إلا ما دامت تلك النافذة مفتوحة. بعد ضبطه، أظهر عداد معالج Windows أن العقدة تستخدم وقتاً يعادل أربعة إلى خمسة معالجات، كنسبة مئوية من معالج منطقي واحد:
+يبقى المتغير ساريًا ما دامت تلك النافذة مفتوحة فقط. ومع ضبطه، أظهر عدّاد المعالج في Windows أن العقدة تستهلك ما يعادل وقت أربعة إلى خمسة معالجات، بالنسبة المئوية لمعالج منطقي واحد:
 
 ```powershell
 (Get-Counter '\Process(zebrad_v14_win32)\% Processor Time' -SampleInterval 2 -MaxSamples 3).CounterSamples.CookedValue
@@ -157,15 +157,15 @@ $env:ZEBRA_MINING__INTERNAL_MINER_THREADS = "4"
 505.957457577538
 ```
 
-النتيجة: لم يجد Intel Core i5-8350U، وهو يعدّن على أربعة خيوط من بداية 8 أكتوبر إلى عصر 9 أكتوبر، أي كتلة.
+النتيجة: لم يعثر معالج Intel Core i5-8350U يعدّن على أربعة خيوط على أي كتلة، من الساعات الأولى من 8 أكتوبر حتى بعد ظهر 9 أكتوبر.
 
 ### أو استخدم الصنبور
 
-يحتوي التطبيق على زر **Receive cTAZ** أسفل اليمين. في مصدر الإصدار 14، ترسل ضغطة واحدة 0.5 cTAZ من محفظة الصنبور إلى محفظتك ([amount](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073)، [send](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). الصنبور محفظة واحدة تحملها كل نسخة من التطبيق ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583))، وتعرض علامة تبويب **Faucet Wallet** رصيدها.
+يحتوي التطبيق على زر **Receive cTAZ** في أسفل اليمين. في الشيفرة المصدرية للإصدار 14، ترسل الضغطة الواحدة 0.5 cTAZ من محفظة الصنبور إلى محفظتك ([المبلغ](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073)، [الإرسال](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). الصنبور محفظة واحدة تحملها كل نسخة من التطبيق ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583))، وتعرض علامة التبويب **Faucet Wallet** رصيدها.
 
-يتعطل الزر ما لم يكن لدى الصنبور أكثر من 5.01 cTAZ من العملات المحمية ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). تعد علامة التبويب العملات المُعدّنة من الصنبور أيضاً، وهي لا تصبح محمية إلا في دفعات قدرها 10 cTAZ بالضبط إضافة إلى رسم ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884))، لذلك قد تعرض علامة التبويب الكثير بينما يبقى الزر رمادياً. في هذا التشغيل، ظل رمادياً في 8 و9 أكتوبر، وظهر عند تمرير المؤشر "The faucet is mining more funds."، فيما عرضت علامة التبويب 14.74695 cTAZ.
+يكون الزر معطّلًا ما لم يكن لدى الصنبور أكثر من 5.01 cTAZ من العملات المحمية (shielded) ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). تحتسب علامة التبويب أيضًا العملات المعدّنة الخاصة بالصنبور، وهذه لا تُحمى إلا في دفعات من 10 cTAZ بالضبط زائد الرسوم (fee) ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884))، لذا قد تُظهر علامة التبويب رصيدًا وفيرًا بينما يبقى الزر رماديًا. في هذه التجربة بقي رماديًا يومي 8 و9 أكتوبر، مع ظهور «The صنبور is mining more funds.» عند تمرير المؤشر فوقه، بينما أظهرت علامة التبويب 14.74695 cTAZ.
 
-**عندما يكون الزر رمادياً، اسأل عقدتك الخاصة.** تحتوي العقدة على طريقة طلب من الصنبور، هي `requestfaucetdonation` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315))، لا تطبق قاعدة الزر البالغة 5.01 cTAZ. ضع عنوانك أنت مكان `YOUR_ADDRESS` (فهو حقل `address` في `wallet_spendable_funds`، أدناه):
+**عندما يكون الزر رماديًا، اطلب من عقدتك.** لدى العقدة طريقة لطلب الصنبور، هي `requestfaucetdonation` ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315))، ولا تطبّق قاعدة الزر الخاصة بـ 5.01 cTAZ. ضع عنوانك مكان `YOUR_ADDRESS` (وهو الحقل `address` في `wallet_spendable_funds`، أدناه):
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"requestfaucetdonation","params":[{"address":"YOUR_ADDRESS"}],"id":1}' | ConvertTo-Json -Depth 20
@@ -181,21 +181,21 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-يعني ذلك الرد أن الطلب وُضع في قائمة الانتظار، لا أنه أُرسل. في هذا التشغيل، عُدّنت 0.5 cTAZ الخاصة بالصنبور عند الكتلة 33,306 وأصبحت قابلة للإنفاق عند الكتلة 33,322. اطلب مرة واحدة: فالصنبور مشترك، ويُرفض طلب ثانٍ للعنوان نفسه ما دام الأول معلقاً ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
+يعني هذا الرد أن الطلب أُدرج في قائمة الانتظار، لا أنه أُرسل. في هذه التجربة عُدّنت الـ 0.5 cTAZ القادمة من الصنبور في الكتلة 33,306 وأصبحت قابلة للإنفاق في الكتلة 33,322. اطلب مرة واحدة فقط: فالصنبور مشترك، ويُرفض أي طلب ثانٍ للعنوان نفسه ما دام الأول قيد الانتظار ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
 
 ### أو اطلب من مشارك آخر
 
-يمكن لأي شخص على الشبكة إرسال cTAZ إليك بزر **Send** في التطبيق. في هذا التشغيل، أرسل مشارك آخر 31 cTAZ. وصلت بصفة "Received" ومع الملاحظة "send from user wallet"، وهي الملاحظة التي يرفقها زر Send الخاص بالتطبيق نفسه ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). اطلب في [forum thread](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)، ولا تعطِ سوى عنوانك.
+يمكن لأي شخص على الشبكة أن يرسل إليك cTAZ عبر زر **Send** في التطبيق. في هذه التجربة أرسل مشارك آخر 31 cTAZ. وصلت بوصف «Received» مع النص «send from user wallet»، وهو النص الذي يرفقه زر Send في التطبيق نفسه ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). اطلب ذلك في [موضوع المنتدى](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)، ولا تقدّم سوى عنوانك.
 
-تكفي عملات الصنبور والهدايا لتعلم التخزين. لكنها لا تُحتسب ضمن مكافآت ZEC.
+عملات الصنبور والهدايا كافية لتعلّم التخزين. لكنها لا تُحتسب ضمن مكافآت ZEC.
 
-### تحقق مما يمكنك إنفاقه
+### تحقّق مما يمكنك إنفاقه
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_spendable_funds","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-كان هذا الرد بعد وصول 0.5 cTAZ الخاصة بالصنبور، مع اختصار العنوان:
+كان هذا هو الرد بعد وصول الـ 0.5 cTAZ من الصنبور، مع اختصار العنوان:
 
 ```text
 {
@@ -212,62 +212,62 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-المبالغ بوحدة zatoshis: كل 100,000,000 منها يساوي cTAZ واحداً. تحتاج العملات المحمية إلى 3 تأكيدات قبل أن تُحتسب قابلة للإنفاق ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)). تستقر عملات الصنبور وعملات المشاركين الآخرين في `spendable_zats`. العملات المُعدّنة شفافة، لذا تستقر في `unshielded_zats` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
+المبالغ بوحدة zatoshi: كل 100,000,000 منها تساوي cTAZ واحدة. تحتاج العملات المحمية إلى 3 تأكيدات قبل أن تُحتسب قابلة للإنفاق ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)). تصل العملات القادمة من الصنبور ومن المشاركين الآخرين إلى `spendable_zats`. أما العملات المعدّنة فهي شفافة، لذا تصل إلى `unshielded_zats` ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
 
-بعد كتلة واحدة من الحصة الثانية في هذا التشغيل، ظهر بقية الرصيد تحت `pending_zats`. وبعد بضع كتل أصبح قابلاً للإنفاق مجدداً.
+بعد كتلة واحدة من عملية التخزين الثانية في هذه التجربة، ظهر باقي الرصيد تحت `pending_zats`. وبعد بضع كتل أصبح قابلًا للإنفاق مجددًا.
 
 ## الخطوة 4: خزّن لدى مُنهٍ
 
-### انتظر يوم تخزين
+### انتظر يوم التخزين
 
-لا يُقبل التخزين وفك التخزين والسحب إلا عندما
+لا يُقبل التخزين وإلغاء التخزين والسحب إلا عندما
 
 ```text
 block height mod 10,368 < 3,456
 ```
 
-وهي نافذة من 3,456 كتلة في بداية كل 10,368. عند هدف الشبكة البالغ 25 ثانية للكتلة، يكون ذلك يوماً واحداً من كل ثلاثة ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). تُفتح النوافذ الأولى للإصدار 14 عند الكتل 20,736 و31,104 و41,472 و51,840.
+وهي نافذة من 3,456 كتلة في بداية كل 10,368 كتلة. وبزمن الكتلة المستهدف للشبكة البالغ 25 ثانية، يساوي ذلك يومًا واحدًا من كل ثلاثة أيام ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). تُفتح النوافذ الأولى للإصدار 14 عند الكتل 20,736 و 31,104 و 41,472 و 51,840.
 
-وفقاً لملاحظات الإصدار، يعلن التطبيق بداية ونهاية كل يوم تخزين. في هذا التشغيل، أظهرت قائمة الكتل فيه سطراً أحمر "* STAKING DAY END *" بين الكتلتين 34,559 و34,560.
+وفقًا لنشرة الإصدار، يعلن التطبيق بداية كل يوم تخزين ونهايته. في هذه التجربة أظهرت قائمة الكتل في التطبيق سطرًا أحمر «* STAKING DAY END *» بين الكتلتين 34,559 و 34,560.
 
-**تقول ملاحظات الإصدار شيئين.** تسرد قائمة التغييرات فيها "~1 day for Staking Day and ~3 days for the Staking Cycle"، وهو ما يطابق الشفرة. وفي الأسفل، لا يزال قسم مُرحّل من Season 1 يقول إن يوم التخزين يبدأ كل 150 كتلة ويستمر 70 كتلة. اتبع الأول. يقع سطر النهاية أعلاه حيث تغلق القاعدة الأولى النافذة (34,560 mod 10,368 = 3,456)؛ أما بموجب القاعدة الثانية فستقع الكتلة 34,560 داخل نافذة.
+**تقول نشرة الإصدار شيئين مختلفين.** تذكر قائمة التغييرات فيها «~1 يوم ليوم التخزين و~3 أيام لدورة التخزين»، وهو ما يطابق الشيفرة. وفي موضع لاحق، لا يزال قسم منقول من الموسم 1 يقول إن يوم التخزين يبدأ كل 150 كتلة ويستمر 70 كتلة. اعتمد على الأول. يقع سطر النهاية المذكور أعلاه حيث تغلق القاعدة الأولى النافذة (34,560 mod 10,368 = 3,456)؛ أما وفق القاعدة الثانية فكانت الكتلة 34,560 ستقع داخل نافذة.
 
-### اختر مُنهياً
+### اختر مُنهيًا
 
-يُسمّى المُنهي بهويته، وهي سلسلة تبدأ بـ`zfinv1`. تنشر ZecHub هوية المُنهي الذي تشغّله في [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json):
+يُعرَّف المُنهي بهويته، وهي نص يبدأ بـ `zfinv1`. تنشر ZecHub هوية المُنهي الذي تشغّله في [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json):
 
 ```text
 zfinv1j65qJgeSId7ssZk6a71NvQG2KjD5hfJCYxWkCSPvQSmwibffVw52UYU72wKbrEL0-cw-C4PQoO5IlLgbsgA3q_Gf1mzYIKcnixNP9XXVgphIDuLI6RBMhjFfYWyzp4YN
 ```
 
-انسخ هوية من مصدر تثق به. ووفقاً لملاحظات الإصدار، يسرد التطبيق أيضاً المُنهين في لوحته اليمنى، مع أيقونة نسخ إلى يسار كل واحد منهم.
+انسخ الهوية من مصدر تثق به. وفقًا لنشرة الإصدار، يعرض التطبيق أيضًا قائمة بالمُنهين في لوحته اليمنى، مع أيقونة نسخ على يسار كل منهم.
 
-بعد التخزين، تسمي محفوظات المحفظة وRPC المُنهي بمفتاح ست عشري بدلاً من هويته. بالنسبة إلى مُنهي ZecHub، يكون ذلك المفتاح `2941ef23...266aae8f`.
+بعد أن تخزّن، يشير سجل المحفظة و RPC إلى المُنهي بمفتاح ست عشري بدلًا من هويته. بالنسبة إلى المُنهي الخاص بـ ZecHub فإن هذا المفتاح هو `2941ef23...266aae8f`.
 
-اختر مُنهياً تثق به. لا يتضمن التصميم اقتطاعاً تلقائياً، لكنه يسمح بـ"انقسام صلب ينسقه المستخدمون يحرق كل الحصة المفوضة إلى مُنهٍ مسمى" ([Crosslink book, design overview](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
+اختر مُنهيًا تثق به. لا يتضمن التصميم معاقبة تلقائية (slashing)، لكنه يسمح بـ «تفرّع صلب ينسّقه المستخدمون يحرق كل الحصص المفوَّضة إلى مُنهٍ محدد» ([كتاب Crosslink، نظرة عامة على التصميم](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
 
-يحدد الاختيار أيضاً من يصوّت. يكسب كل سند نشط حصته من مكافأة التخزين. إذا كان مُنهيه ضمن الـ12 في القائمة، يذهب عُشر تلك الحصة إلى المُنهي كعمولة. يحتفظ السند الموجّه إلى مُنهٍ خارج الـ12 بكامل حصته، لكن ذلك المُنهي لا يصوّت ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
+يحدد اختيارك أيضًا من يصوّت. يكسب كل سند ضمان نشط حصته من مكافأة التخزين. إذا كان مُنهيه من بين الـ 12 في القائمة، يذهب عُشر تلك الحصة إلى المُنهي عمولةً. أما سند الضمان الموجَّه إلى مُنهٍ من خارج الـ 12 فيحتفظ بحصته كاملة، لكن ذلك المُنهي لا يصوّت ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
 
 ### خزّن
 
 1. انسخ هوية المُنهي.
-2. في علامة تبويب **Your Wallet**، اضغط **Stake**.
-3. اضغط **Paste Identity**. يتغير السطر أعلى الزر إلى أول وآخر محارف الهوية، وهي `[zfinv1j6..YWyzp4YN]` لهوية ZecHub. تحقق منها قبل المتابعة.
-4. انقر مبلغاً. تأتي المبالغ بخطوات ثابتة، وأصغرها 0.01 cTAZ، ولا يضيء إلا ما يغطيه رصيدك. مع 0.5 cTAZ، كان +0.01 cTAZ و+0.1 cTAZ مضاءين.
+2. في علامة التبويب **Your Wallet**، اضغط **Stake**.
+3. اضغط **Paste Identity**. يتغير السطر الموجود فوق الزر ليعرض الأحرف الأولى والأخيرة من الهوية، أي `[zfinv1j6..YWyzp4YN]` في حالة مُنهي ZecHub. تحقق منه قبل أن تتابع.
+4. انقر على مبلغ. تأتي المبالغ بخطوات ثابتة أصغرها 0.01 cTAZ، ولا تُضاء إلا المبالغ التي يغطيها رصيدك. مع رصيد 0.5 cTAZ، كان المضاء +0.01 cTAZ و +0.1 cTAZ.
 
-**لن يطلب منك شيء التأكيد، ولا يبدو أن شيئاً يحدث.** في هذا التشغيل، على حد قول المختبِر: "نقرت عليه مرة ولم يحدث شيء، صار رمادياً ثم أضاء ثانية." لكن الحصة كانت قد أُرسلت. أظهرت محفوظات المحفظة "Staked @ 33334 to 2941ef23..266aae8f"، وكان الرسم 0.00015 cTAZ، وأظهرت المحفظة 0.010 cTAZ Staked. أنشأت حصة ثانية بعد دقائق سنداً ثانياً، عند الكتلة 33,348.
+**لا شيء يطلب منك التأكيد، ويبدو أن شيئًا لا يحدث.** في هذه التجربة، قال المختبِر: «نقرت عليه مرة واحدة ولم يحدث شيء، فقط تحوّل إلى الرمادي ثم أضاء مجددًا.» لكن عملية التخزين كانت قد تمّت. أظهر سجل المحفظة «Staked @ 33334 to 2941ef23..266aae8f»، وكانت الرسوم 0.00015 cTAZ، وأظهرت المحفظة 0.010 cTAZ Staked. وأنشأت عملية تخزين ثانية بعد بضع دقائق سند ضمان ثانيًا، عند الكتلة 33,348.
 
-تنشئ كل حصة سند تفويض خاصاً بها. توجد المبالغ الثابتة ويوم التخزين كلاهما للخصوصية: فهما يصعّبان تمييز حصة شخص عن حصة آخر.
+تُنشئ كل عملية تخزين سند ضمان التفويض الخاص بها. والمبالغ الثابتة ويوم التخزين موجودان كلاهما من أجل الخصوصية (privacy): فهما يجعلان تمييز حصة شخص عن حصة شخص آخر أصعب.
 
-## الخطوة 5: تحقق من وضعك
+## الخطوة 5: تحقق من مركزك
 
-### سنداتك
+### سندات الضمان الخاصة بك
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_staking_positions","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-كان هذا الرد عند الكتلة 36,490، بعد يومين من التخزين:
+كان هذا هو الرد عند الكتلة 36,490، بعد يومين من التخزين:
 
 ```text
 {
@@ -299,11 +299,11 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-لا يأخذ الاستدعاء معاملات. يعيد سنداتك النشطة، مجمعة تحت مفتاح المُنهي الذي يدعم كل منها، والسندات التي أنهت فك التخزين ويمكن سحبها. يُظهر كل سند المبلغ المخزّن (`initial_val`)، وقيمته الآن (`latest_val`)، والمعاملة وارتفاع الكتلة اللذين أنشآه. تُضاف المكافآت إلى السند نفسه: بحلول الكتلة 36,490، نما كل سند من 1,000,000 zatoshis إلى 1,003,451.
+لا يأخذ الاستدعاء أي وسائط. يُعيد سندات الضمان النشطة الخاصة بك، مجمّعة تحت مفتاح المُنهي الذي يدعمه كل منها، وسندات الضمان التي أنهت إلغاء التخزين ويمكن سحبها. يُظهر كل سند ضمان المبلغ المُخزَّن (`initial_val`)، وقيمته الحالية (`latest_val`)، والمعاملة وارتفاع الكتلة اللذين أنشآه. تُضاف المكافآت إلى سند الضمان نفسه: بحلول الكتلة 36,490 كان كل سند ضمان بقيمة 1,000,000 zatoshi قد نما إلى 1,003,451.
 
-**تعرض نافذة Edit Stake كل سند أكبر بعشرة أضعاف.** في هذا التشغيل، قرأ كل سند قدره 0.01 cTAZ مقدار 0.100 cTAZ في صفه، و0.1003536 cTAZ بعد بدء المكافآت، بينما اتفقت المجاميع فوق الصفوف (0.020 cTAZ، ثم 0.02007 cTAZ) مع RPC. اتبع المجاميع وRPC.
+**تُظهر نافذة Edit Stake كل سند ضمان أكبر بعشر مرات من قيمته الفعلية.** في هذا التشغيل، ظهر كل سند ضمان بقيمة 0.01 cTAZ على أنه 0.100 cTAZ في صفه الخاص، ثم 0.1003536 cTAZ بعد أن بدأت المكافآت، بينما توافقت المجاميع فوق الصفوف (0.020 cTAZ، ولاحقًا 0.02007 cTAZ) مع RPC. اعتمد على المجاميع وعلى RPC.
 
-وضعت النافذة نفسها مثلث تحذير بجانب المُنهي، قبل بدء النهائية وبعده. في المصدر، يعني المثلث أن تطبيقك لا يعد ذلك المُنهي متصلاً، بينما يحصل المتصل على أيقونة Wi-Fi بدلاً منه ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). ومع ذلك، كسبت السندات مكافآت.
+وضعت النافذة نفسها مثلث تحذير بجانب المُنهي، قبل بدء النهائية وبعده. في الشيفرة المصدرية، يعني المثلث أن تطبيقك لا يعدّ ذلك المُنهي متصلًا، بينما يحصل المُنهي المتصل على أيقونة Wi-Fi بدلًا منه ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). ومع ذلك، حققت سندات الضمان مكافآت.
 
 ### المُنهون
 
@@ -311,9 +311,9 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"get_tfl_recency_status","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-وفقاً لملاحظات الإصدار، يعرض هذا موقع عقدتك في عملية التصويت، ولكل مُنهٍ، آخر وقت سمعت فيه عقدتك منه وكيف كان يصوّت.
+وفقًا لملاحظات الإصدار، يُبلغ هذا الاستدعاء عن موقع عقدتك في عملية التصويت، ولكل مُنهٍ، متى تلقّت عقدتك منه آخر مرة وكيف كان يصوّت.
 
-قبل الكتلة 36,288، تكون كل الحقول صفراً وتكون القائمة فارغة. كان هذا الرد عند الكتلة 33,354:
+قبل الكتلة 36,288 تكون كل الحقول صفرًا والقائمة فارغة. كان هذا هو الرد عند الكتلة 33,354:
 
 ```text
 {
@@ -333,7 +333,7 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-بعد بدء النهائية، تضم القائمة المُنهين في القائمة النشطة. عند الكتلة 36,490، ضمت 12 منهم، ومن بينهم مُنهي ZecHub `2941ef23...`، وهو ما يطابق حد القائمة البالغ 12. هذه بداية ذلك الرد، مقطوعة بعد الإدخال الأول:
+بعد بدء النهائية، تضم القائمة المُنهين الموجودين في القائمة المعتمدة. عند الكتلة 36,490 ضمّت 12، من بينها `2941ef23...` التابع لـ ZecHub، وهو ما يطابق حد القائمة المعتمدة البالغ 12. هذه بداية ذلك الرد، مقطوعة بعد الإدخال الأول:
 
 ```text
 {
@@ -367,11 +367,11 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
                                               ],
 ```
 
-بعد بضع دقائق، أظهرت اللوحة اليمنى للتطبيق "Finalizers (23)".
+بعد بضع دقائق أظهرت اللوحة اليمنى في التطبيق «Finalizers (23)».
 
-### على Linux وmacOS
+### على Linux وعلى macOS
 
-يعطي [source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610) الاستدعاء بصيغة `curl`. غيّر اسم الطريقة للاستدعاءات الأخرى. لم تُشغّل هذه الصيغة لأجل هذا الدليل:
+تعطي [الشيفرة المصدرية](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610) الاستدعاء بصيغة `curl`. غيّر اسم الطريقة للاستدعاءات الأخرى. لم تُشغَّل هذه الصيغة لهذا الدليل:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d \
@@ -379,11 +379,11 @@ curl -X POST -H "Content-Type: application/json" -d \
 http://127.0.0.1:8232
 ```
 
-على Linux، تقول ملاحظات الإصدار إنك ستحتاج على الأرجح إلى تثبيت `xclip` قبل أن يعمل النسخ واللصق في التطبيق.
+على Linux، تقول ملاحظات الإصدار إنك على الأرجح تحتاج إلى تثبيت `xclip` قبل أن يعمل النسخ واللصق في التطبيق.
 
-### اسم RPC واحد ينبغي الانتباه إليه
+### اسم RPC واحد يجب الانتباه إليه
 
-تصف ملاحظات إصدار 14 استدعاء تخزين اسمه `wallet_staking_action` يأخذ كائناً. لا تحتوي شفرة مصدر الإصدار 14 على طريقة بهذا الاسم، وفي هذا التشغيل أجابت العقدة:
+تصف ملاحظات الإصدار 14 استدعاء تخزين باسم `wallet_staking_action` يأخذ كائنًا. لا تحتوي الشيفرة المصدرية للإصدار 14 على طريقة بهذا الاسم، وفي هذا التشغيل أجابت العقدة:
 
 ```text
 {
@@ -396,53 +396,53 @@ http://127.0.0.1:8232
 }
 ```
 
-طريقة التخزين التي تسجلها هي [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420)، وتأخذ سلسلة واحدة تحمل الطلب بصيغة JSON، مع إعطاء المُنهي بهوية `zfinv1` الخاصة به ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). لم تُجرّب لأجل هذا الدليل.
+طريقة التخزين التي تسجّلها العقدة هي [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420)، وتأخذ نصًا واحدًا يحمل الطلب بصيغة JSON، مع تحديد المُنهي بهويته `zfinv1` ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). لم تُجرَّب هذه الطريقة لهذا الدليل.
 
-## فك التخزين والسحب
+## إلغاء التخزين والسحب
 
-لا يمكن التراجع عن سند في اليوم الذي أُنشئ فيه. يحتاج الأمر إلى ثلاثة أيام تخزين من البداية إلى النهاية: خزّن في أحدها، وفك التخزين في يوم لاحق، واسحب في ثالث. تضيف ملاحظات الإصدار أن سنداً واحداً لا يمكنه اتخاذ إجراءي تخزين في يوم التخزين نفسه.
+لا يمكن التراجع عن سند الضمان في اليوم الذي يُنشأ فيه. تستغرق العملية ثلاثة أيام تخزين (Staking Days) من البداية إلى النهاية: التخزين في يوم، وإلغاء التخزين في يوم لاحق، والسحب في يوم ثالث. وتضيف ملاحظات الإصدار أن سند الضمان الواحد لا يمكن أن يخضع لإجراءَي تخزين في يوم التخزين نفسه.
 
-*لم يُشغّل لأجل هذا الدليل. من ملاحظات إصدار 14:* لفك التخزين، اضغط **Edit Stake**، واختر سنداً من قائمة Staked Bonds وانقر أيقونة رابط السلسلة. للسحب في يوم تخزين لاحق، اضغط **Edit Stake**، واختر سنداً من قائمة Withdrawable Bonds وانقر أيقونة المال. يُسمح بنقل سند إلى مُنهٍ مختلف، والذي تسميه الملاحظات إعادة التوجيه، في أي وقت.
+*لم يُشغَّل لهذا الدليل. من ملاحظات الإصدار 14:* لإلغاء التخزين، اضغط **Edit Stake**، واختر سند ضمان من قائمة Staked Bonds وانقر على أيقونة رابط السلسلة. للسحب في يوم تخزين لاحق، اضغط **Edit Stake**، واختر سند ضمان من قائمة Withdrawable Bonds وانقر على أيقونة المال. نقل سند ضمان إلى مُنهٍ مختلف، وهو ما تسميه الملاحظات إعادة الاستهداف (retargeting)، مسموح به في أي وقت.
 
 ## أين تراقب الشبكة
 
-تجمع علامة تبويب [Crosslink على ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) الأدوات في مكان واحد، تحت تنبيه نصه "Staking on this network does not move ZEC":
+تجمع علامة التبويب [Crosslink في ZecHub أدوات](https://zechub.wiki/tools?tool=crosslink) الأدوات في مكان واحد، تحت إشعار نصه «التخزين على هذه الشبكة لا ينقل ZEC»:
 
-- مستضافة، ولا تحتاج إلى عقدة: [Staker Space](https://crosslink.staker.space/)، وهي "لوحة معلومات مباشرة لشبكة cTAZ الاختبارية الحالية" تتضمن الارتفاع والمُعدّنين ومعدل الحل والعد التنازلي ليوم التخزين والنهائية، و[ctaz.cash](https://ctaz.cash/)، وتتضمن إنتاج التعدين وقائمة المُنهين والأقران ومطالبات أسماء عناوين التخزين.
-- على جهازك: `zcash-explorer`، التي تعرض صفحة `/live/crosslink` الخاصة بها التفعيل وتأخر النهائية والقائمة ومراكز التخزين، و`crosslink_indexer`، وهو فهرس SQLite لعقدة Crosslink.
+- مُستضافة، دون الحاجة إلى عقدة: [Staker Space](https://crosslink.staker.space/)، وهي «لوحة معلومات مباشرة لشبكة cTAZ التجريبية الحالية» تعرض الارتفاع، والمعدّنين، ومعدل الحلول، والعد التنازلي ليوم التخزين، والنهائية، و[ctaz.cash](https://ctaz.cash/)، التي تعرض إنتاج التعدين، وقائمة المُنهين المعتمدة، والأقران، ومطالبات أسماء عناوين التخزين.
+- على جهازك الخاص: `zcash-explorer`، الذي تعرض صفحته `/live/crosslink` التفعيل، وتأخر النهائية، والقائمة المعتمدة، ومراكز التخزين، و`crosslink_indexer`، وهو فهرس SQLite لعقدة Crosslink.
 
 ## أخطاء شائعة
 
-**التخطيط وفق الساعة بدلاً من ارتفاع الكتلة.** تُحسب أيام التخزين بالكتل. راقب العد التنازلي للوحة المعلومات، لا التقويم.
+**التخطيط وفق الساعة بدلًا من ارتفاع الكتلة.** تُحسب أيام التخزين بالكتل. راقب العد التنازلي في لوحة المعلومات، لا التقويم.
 
-**التخزين في الدقائق الأخيرة من النافذة.** تُفحص القاعدة مقابل الكتلة التي تشمل معاملتك ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953))، لذا يجب تعدين الحصة قبل إغلاق النافذة، لا مجرد إرسالها.
+**التخزين في الدقائق الأخيرة من النافذة.** يُتحقق من القاعدة مقابل الكتلة التي تتضمن معاملتك ([المصدر](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953))، لذا يجب أن يُعدَّن التخزين قبل إغلاق النافذة، لا أن يُرسل فحسب.
 
-**توقع تعدين حصتك.** لم يجد مُعدّن CPU بأربعة خيوط على Intel Core i5-8350U أي كتلة بين 8 و9 أكتوبر. احصل على أول cTAZ من الصنبور أو من مشارك آخر.
+**توقّع أن تُعدِّن ما ستخزّنه.** لم يعثر مُعدّن يعمل على المعالج المركزي بأربعة خيوط على معالج Intel Core i5-8350U على أي كتلة بين 8 و9 أكتوبر. احصل على أول cTAZ لك من الصنبور أو من مشارك آخر.
 
-**النقر مرة أخرى لأن شيئاً لم يبدُ أنه حدث.** كل نقرة على مبلغ هي سند جديد. تحقق من محفوظات المحفظة أو `wallet_staking_positions` أولاً.
+**النقر مرة أخرى لأنه بدا أن شيئًا لم يحدث.** كل نقرة على مبلغ تُنشئ سند ضمان جديدًا. تحقق من سجل المحفظة أو من `wallet_staking_positions` أولًا.
 
-**الذعر بعد إعادة التشغيل.** يظهر رصيدك وحصتك صفراً حتى تعيد المحفظة فحصها. انتظر حتى ينتهي Wallet Sync.
+**الذعر بعد إعادة التشغيل.** يظهر رصيدك وتخزينك صفرًا حتى تُعيد المحفظة المسح. انتظر حتى تنتهي Wallet Sync.
 
-**التعامل مع cTAZ باعتبارها نقود لعب، أو مع السر باعتباره غير مؤذٍ.** cTAZ عملة اختبارية، لكن cTAZ التي تكسبها تحدد حصتك من ZEC الحقيقي. احمِ `secret.seed` كما تحمي محفظة.
+**التعامل مع cTAZ كأنه أموال لعب، أو مع السر كأنه غير ضار.** إن cTAZ عملة اختبار، لكن cTAZ الذي تكسبه يحدد حصتك من ZEC الحقيقي. احرس `secret.seed` كما تحرس محفظة.
 
-**قراءة تعليمات قديمة.** تحمل ملاحظات الإصدار نصاً من مواسم أقدم بجانب القواعد الجديدة. عندما تختلف عما تفعله عقدتك، تكون عقدتك على صواب.
+**قراءة التعليمات القديمة.** تحمل ملاحظات الإصدار نصوصًا من مواسم سابقة إلى جانب القواعد الجديدة. حيثما تتعارض مع ما تفعله عقدتك، فعقدتك هي المحقة.
 
 ## صفحات ذات صلة
 
-- [Crosslink Protocol](/zcash-tech/crosslink-protocol) - التصميم الذي تختبره هذه الشبكة
+- [بروتوكول Crosslink](/zcash-tech/crosslink-protocol) - التصميم الذي تختبره هذه الشبكة
 - [Shielded Labs](/zcash-organizations/shielded-labs) - الفريق الذي يقف وراء Crosslink
-- [Verifying Zcash Releases](/guides/verifying-zcash-releases) - ما الذي تثبته قيمة التحقق وما الذي لا تثبته
-- [Zebra Full Node](/zcash-tech/zebra-full-node) - العقدة التي بُني عليها تطبيق Feature Net
-- [Zcash Testnet](/using-zcash/testnet) - شبكة الاختبار العادية لـZcash، وهي شبكة مختلفة
+- [التحقق من إصدارات Zcash](/guides/verifying-zcash-releases) - ما يثبته المجموع الاختباري وما لا يثبته
+- [العقدة الكاملة Zebra](/zcash-tech/zebra-full-node) - العقدة التي بُني عليها تطبيق Feature Net
+- [الشبكة التجريبية لـ Zcash](/using-zcash/testnet) - شبكة الاختبار العادية لـ Zcash، وهي شبكة مختلفة
 
 ## المصادر
 
-- [Version 14 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)، Shielded Labs، 1 أكتوبر 2026
-- [Crosslink: Incentivized Feature Nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/)، Shielded Labs، 2 أبريل 2026
-- [Crosslink: Incentivized Feature Net](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)، منتدى مجتمع Zcash
-- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)، Shielded Labs
-- [The Crosslink book](https://shieldedlabs.github.io/crosslink_book/)، Shielded Labs
+- [ملاحظات الإصدار 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)، Shielded Labs، 1 أكتوبر 2026
+- [Crosslink: شبكات الميزات المحفَّزة](https://shieldedlabs.net/crosslink-incentivized-feature-nets/)، Shielded Labs، 2 أبريل 2026
+- [Crosslink: Feature Net المحفَّزة](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)، منتدى مجتمع Zcash
+- [الأسئلة الشائعة لـ Crosslink](https://shieldedlabs.net/crosslink-faq/)، Shielded Labs
+- [كتاب Crosslink](https://shieldedlabs.github.io/crosslink_book/)، Shielded Labs
 
 ---
 
-*شُغّلت الخطوات في هذه الصفحة باستخدام الإصدار 14 من Feature Net على Windows 11 (الإصدار 10.0.26200.9550)، من 8 إلى 10 أكتوبر 2026. أي بيان يستشهد بملاحظات الإصدار أو بالشفرة المصدرية مأخوذ منهما. وكل ما وُسم بأنه "لم يُشغّل" لم يُجرّب.*
+*نُفِّذت الخطوات في هذه الصفحة باستخدام Feature Net الإصدار 14 على Windows 11 (الإصدار 10.0.26200.9550)، من 8 إلى 10 أكتوبر 2026. أي عبارة تستشهد بملاحظات الإصدار أو بالشيفرة المصدرية مأخوذة منها. أي شيء مُعلَّم بـ «لم يُشغَّل» لم تتم تجربته.*

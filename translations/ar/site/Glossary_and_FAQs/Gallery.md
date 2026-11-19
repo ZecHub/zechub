@@ -1,6 +1,6 @@
-# Zcash معرض الخلفيات
+# معرض خلفيات Zcash
 
-[الرسوم المعلوماتية](/glossary-and-faqs/gallery/infographics)
+[رسوم بيانية](/glossary-and-faqs/gallery/infographics)
 
 <Gallery />
 

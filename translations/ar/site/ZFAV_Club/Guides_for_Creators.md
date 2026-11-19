@@ -1,10 +1,10 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 ![](/content-images/image-2023-11-18-152209271-6bea8ac30e.webp)
 
-# أدلة للمبدعين
+# أدلة لصنّاع المحتوى
 
 <a href="/ZFAV-Club/Guides-for-Creators/AI_tools">
     <img src="/content-images/aitools-e218ab1d0f.webp" alt="" width="400" height="200"/>
@@ -12,8 +12,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -25,8 +25,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -38,8 +38,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -51,8 +51,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -64,8 +64,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -77,8 +77,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -90,8 +90,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -103,8 +103,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 
@@ -116,8 +116,8 @@
 
 <aside>
   
-#### وقت القراءة
-| دقيقتان |
+#### مدة القراءة
+| 2 دقيقة |
 
 </aside>
 

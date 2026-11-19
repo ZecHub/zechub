@@ -249,7 +249,7 @@ ZcashToCash (zcashto.cash) — من ZEC إلى Cash App أو Chime أو Monzo أ
 [زيارة](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
-مجموعة أدوات تضع Linux أولاً، تنشئ شبكة regtest لـ Zebra مع faucet وملحقات Unified Address وlightwalletd أو Zaino، إلى جانب إجراءات GitHub قابلة لإعادة الاستخدام للتدفقات المحمية من طرف إلى طرف.  
+مجموعة أدوات تضع Linux أولاً، تنشئ شبكة regtest لـ Zebra مع صنبور وملحقات Unified Address وlightwalletd أو Zaino، إلى جانب إجراءات GitHub قابلة لإعادة الاستخدام للتدفقات المحمية من طرف إلى طرف.  
 [زيارة](https://github.com/zecdev)
 
 ### بنية الاختبار الضبابي الموجّه بالتغطية لـ Zebra
