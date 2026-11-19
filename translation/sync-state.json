@@ -1863,7 +1863,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Glossary_and_FAQs/Gallery.md": {
@@ -1887,7 +1887,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
@@ -2191,7 +2191,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Start_Here/New_User_Guide.md": {
@@ -2247,7 +2247,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -2287,7 +2287,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna+handfix",
+      "tool": "codex/gpt-6-luna+handfix+ar-adoption-20261119",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -2351,7 +2351,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -2367,7 +2367,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Using_Zcash/Shielded_Newsletter.md": {
@@ -2383,7 +2383,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Using_Zcash/Solana_ZEC_to_Shielded.md": {
@@ -2423,7 +2423,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Using_Zcash/Transparent_Exchange_Addresses.md": {
@@ -2455,7 +2455,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Using_Zcash/Zcash_Mining_Pools.md": {
@@ -2479,7 +2479,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators.md": {
@@ -2591,7 +2591,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna+ar-faucet-review",
+      "tool": "codex/gpt-6-luna+ar-faucet-review+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Community/Cypherpunk_Zero_NFT.md": {
@@ -2631,7 +2631,7 @@
       "src_commit": "b6d3cfdaee69c548b1cfb85540897630b31f84a0",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Community/Zcash_Engineering_Office_Hours.md": {
@@ -2767,7 +2767,7 @@
       "src_commit": "b6d3cfdaee69c548b1cfb85540897630b31f84a0",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Foundation.md": {
@@ -2799,7 +2799,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Canopy.md": {
@@ -2871,7 +2871,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
@@ -2879,7 +2879,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -2887,7 +2887,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -2943,7 +2943,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Post_Quantum_Security.md": {
@@ -2991,7 +2991,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -2999,7 +2999,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/The_Turnstile.md": {
@@ -3023,7 +3023,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/What_a_Block_Explorer_Can_See.md": {
@@ -3039,7 +3039,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/ZAP1_Attestation_Protocol.md": {
@@ -3071,7 +3071,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Zallet.md": {
@@ -3079,7 +3079,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Zcash_Shielded_Assets.md": {
@@ -3375,7 +3375,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "guides/Avalanche_RedBridge.md": {
@@ -3391,7 +3391,7 @@
       "src_commit": "b6d3cfdaee69c548b1cfb85540897630b31f84a0",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5+handfix",
+      "tool": "claude-opus-5-5+handfix+ar-adoption-20261119",
       "edited": false
     },
     "guides/Blockchain_Explorers.md": {
@@ -3447,7 +3447,7 @@
       "src_commit": "b372b0f96aabed5468fc21a6daac7eaacdc1b1f1",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "guides/Ledger_Shielded_ZEC.md": {
@@ -3463,7 +3463,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -3567,7 +3567,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "guides/Visualizing_Zcash_Addresses.md": {
@@ -3615,7 +3615,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     },
     "guides/Zenith_Installation.md": {
@@ -3655,7 +3655,7 @@
       "src_commit": "b6d3cfdaee69c548b1cfb85540897630b31f84a0",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5",
+      "tool": "claude-opus-5-5+ar-adoption-20261119",
       "edited": false
     },
     "tutorials/shieldedNewsletter/daoAddresses.md": {
@@ -3767,7 +3767,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna+handfix",
+      "tool": "codex/gpt-6-luna+handfix+ar-adoption-20261119",
       "edited": false
     },
     "Zcash_Tech/Zinder.md": {
@@ -3775,7 +3775,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-adoption-20261119",
       "edited": false
     }
   },
