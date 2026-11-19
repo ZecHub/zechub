@@ -81,7 +81,7 @@ ___
 
 - Website: [Coinbase](https://coinbase.com)
 - Pairs: ALL/ZEC
-- Supports: Transparent
+- Supports: Transparent | Withdrawals to TEX addresses since October 2024
 - Deposit Time: 150 minutes
 - Ironwood: Not applicable, transparent addresses only
 ___
@@ -121,7 +121,8 @@ ___
 
 - Website: [Kraken](https://kraken.com)
 - Pairs: ALL/ZEC
-- Supports: Transparent
+- Supports: Transparent | Withdrawals to t-addresses only. Kraken lists zs and zc addresses as not supported, and does not list TEX or unified addresses
+- Status: ZEC delisted for clients in India: deposits and trading halted on 10 April, withdrawals on 15 May (per Kraken's India delisting notice)
 - Deposit Time: 60 minutes
 - Ironwood: Not applicable, transparent addresses only
 ___
