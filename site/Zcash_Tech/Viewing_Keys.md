@@ -139,7 +139,7 @@ A viewing key is a piece of information, not a permission entry. Once copied, it
 
 ### Trial decryption: how viewing actually works
 
-Every shielded transaction encrypts its note plaintexts to the intended recipient. A wallet holding a viewing key performs **trial decryption**: for each transaction it finds on chain, it attempts to decrypt note ciphertexts with the key. Hits reveal the note's value, recipient diversifier and memo; misses cost nothing. This is why the same incoming viewing key keeps working across the Orchard and Ironwood pools — [ZIP 326](https://zips.z.cash/zip-0326) scopes a receiver to the Orchard *protocol*, so Ironwood note ciphertexts are Orchard-shaped and are trial-decrypted with the account's Orchard viewing keys under the Ironwood note-encryption domain.
+Every shielded transaction encrypts its note plaintexts to the intended recipient. A wallet holding a viewing key performs **trial decryption**: for each transaction it finds on chain, it attempts to decrypt note ciphertexts with the key. Hits reveal the note's value, recipient diversifier and memo. A miss costs about as much as a hit, because the expensive step, a key agreement, comes before the wallet can tell whether the note is its own, so scanning cost grows with every key a wallet watches (see [Detecting shielded payments](Detecting_Shielded_Payments.md)). This is why the same incoming viewing key keeps working across the Orchard and Ironwood pools — [ZIP 326](https://zips.z.cash/zip-0326) scopes a receiver to the Orchard *protocol*, so Ironwood note ciphertexts are Orchard-shaped and are trial-decrypted with the account's Orchard viewing keys under the Ironwood note-encryption domain.
 
 ### Full vs incoming: what derivation decides
 

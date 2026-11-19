@@ -7,16 +7,14 @@
 - Today wallets download and scan far more data than they need, which is a major reason syncing is slow
 - PIR would let a wallet fetch only its own data privately, removing that bottleneck while keeping privacy intact
 - It is an active research area for Zcash, powerful in theory, and being made practical for real wallets
-
-<br/>
+- A live demonstration is already available: [ZecBlock Private](https://private.zecblock.com) is the first full PIR-based Zcash block explorer (transactions, blocks, and addresses)
 
 ## Who is this for
 
 - Anyone who has wondered how a private wallet finds its own coins without leaking which ones
 - Newcomers who keep seeing PIR mentioned alongside Zcash scaling work
 - Readers who want the concept first and the cryptography underneath it second
-
-<br/>
+- Anyone curious about a working PIR-based block explorer
 
 ## The problem PIR solves for Zcash
 
@@ -26,8 +24,6 @@ Today the answer is blunt. A wallet cannot ask a server which transactions are m
 
 The ideal would be a way for a wallet to ask a server for precisely its own data, and receive it, without the server ever learning what was requested. That is exactly what private information retrieval provides.
 
-<br/>
-
 ## What PIR is
 
 Private information retrieval is a cryptographic method that lets a client read one entry from a server's database without revealing to the server which entry it read.
@@ -36,8 +32,6 @@ Imagine a library where you can receive the exact book you want, but the librari
 
 The concept has been studied in cryptography for decades. It was first introduced in 1995 by Chor, Goldreich, Kushilevitz, and Sudan, who described the multiple server approach, and the first single server version followed in 1997 from Kushilevitz and Ostrovsky. It is not something Zcash invented, it is an established field that Zcash is now applying to a real and stubborn problem.
 
-<br/>
-
 ## How PIR works, at a first level
 
 There are two broad ways to build PIR, and the difference matters.
@@ -45,8 +39,6 @@ There are two broad ways to build PIR, and the difference matters.
 The first uses multiple servers. The client sends each of several servers a piece of the query, and combines their answers locally. No single server sees enough to learn what was requested. This is efficient, but it depends on the servers not colluding with each other, which is hard to guarantee in the real world.
 
 The second uses a single server and clever cryptography instead of multiple parties. Here the client relies on a special tool called homomorphic encryption, and this is the direction most useful for real deployments, because it does not need multiple non-colluding servers.
-
-<br/>
 
 ## The mechanism: homomorphic encryption
 
@@ -58,8 +50,6 @@ The server then combines its database with this encrypted query using the specia
 
 A stronger version, called symmetric PIR, adds a second guarantee: the client learns only the item it asked for and nothing about any other entry in the database. That protects the database as well as the client.
 
-<br/>
-
 ## A closer look for technical readers
 
 Modern single-server schemes are built on lattice cryptography, most commonly the learning with errors assumption. The client's query is a vector of ciphertexts, an encryption of one at the target index and zero elsewhere, and the encryption is additively homomorphic, so the server can add ciphertexts and multiply them by plaintext database entries without decrypting.
@@ -67,8 +57,6 @@ Modern single-server schemes are built on lattice cryptography, most commonly th
 The server treats the database as a matrix, applies the encrypted selection vector, and returns a single ciphertext that decrypts to the wanted row. Because the query is indistinguishable from random noise, the server gains no information about the index.
 
 The historic obstacle has always been cost. Naively, the server must touch every entry in the database for each query, which is expensive in computation, and the ciphertexts are large, which is expensive in bandwidth. Recent research attacks this with preprocessing, schemes such as SimplePIR and FrodoPIR let the server prepare the database ahead of time and hand each client a small hint, pushing much of the work into an offline phase so that live queries become fast. A useful side benefit is that lattice-based constructions are also considered resistant to quantum attacks, which aligns with Zcash's wider move toward post-quantum privacy.
-
-<br/>
 
 ## PIR in Zcash
 
@@ -78,7 +66,45 @@ The wallet scanning bottleneck described earlier is the target. Work at the Vala
 
 It is important to be honest about the stage. This is active research and engineering, not a finished, shipped feature. The concept is well established and the direction is set, but making PIR efficient enough for everyday wallets on ordinary devices is exactly the hard part being worked on now.
 
-<br/>
+## Live example: ZecBlock Private
+
+In November 2026 ZecBlock launched **ZecBlock Private** (private.zecblock.com), a version of its explorer that uses private information retrieval for transaction, block, and address lookups.
+
+This is the first full Zcash block explorer (covering transactions, blocks, and addresses) built on PIR. Earlier PIR explorer demos were limited to narrower queries such as address balances.
+
+### How private lookups work
+
+- The query (transaction ID, block height/hash, or address) is encrypted entirely in the browser before it is sent.
+- The server processes the entire published dataset without learning which record was requested.
+- The server returns a single encrypted response that only the browser can decrypt.
+- A search for something that exists is indistinguishable from a search for something that does not (same request size and shape).
+
+After each search the site shows a short summary of exactly what was sent, making the privacy property easy to inspect.
+
+### Verification steps
+
+Each data publication is signed. The browser verifies the signature on every result before displaying it, so a malicious or buggy server cannot substitute different data.
+
+### Data freshness
+
+New blocks are published every few seconds. Data on the private explorer is typically within about 20 seconds of the regular ZecBlock explorer.
+
+### Bandwidth costs
+
+PIR is more expensive than a normal lookup because the server must touch the whole dataset:
+
+- Transaction lookup: roughly 1.2 MB uploaded
+- Address lookup: roughly 0.4 MB uploaded
+
+This is the practical cost of the server learning nothing about the query.
+
+### Client implementation
+
+The browser client is a Rust → WebAssembly wrapper (currently in the ZecBlock repository under `prototype/pir-browser`). It is built on top of open-source PIR libraries from the Valar Group. The wrapper is not yet published as a standalone npm package, but that is planned.
+
+### Distinction from wallet PIR
+
+ZecBlock Private demonstrates PIR for **public** chain data (looking up a known transaction, block, or address without revealing which one). It does **not** solve the harder wallet problem of privately discovering which notes belong to a viewing key or privately checking nullifiers for unspent notes. Those remain active research areas.
 
 ## Common misconceptions
 
@@ -87,11 +113,11 @@ It is important to be honest about the stage. This is active research and engine
 - Faster syncing from PIR is a goal in progress, not a feature already present in wallets
 - Downloading everything and scanning locally, the current approach, is private but slow, PIR aims to keep the privacy while removing the slowness
 
-<br/>
-
 ## Related pages
 
 - [Zcash Wallet Syncing](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - why syncing works the way it does today
 - [Lightwallet Nodes](https://zechub.wiki/zcash-tech/lightwallet-nodes) - the light client model PIR would improve
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - the other major cryptographic tool behind Zcash privacy
 - [Post-Quantum Security](https://zechub.wiki/zcash-tech/post-quantum-security) - why lattice-based methods matter for the future
+- [ZecBlock](https://zecblock.com) - the main public explorer
+- [Valar Group](https://zechub.wiki/zcash-organizations/valar-group) - developers of the PIR libraries used by both the explorer prototype and wallet research
