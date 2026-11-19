@@ -94,7 +94,7 @@ Ne nàwɔ ɣaɣla dzesi ŋɔŋlɔ blibo ƒe dɔ la, èle kpekpeɖeŋu nam be zca
 
 Esia kpea ɖe ŋutilã ƒe nuɖoɖo ƒe seɖeɖe ŋu eye wòna network la nɔa anyi sesĩe ɖe nu tsɔtsɔ ƒe mɔ aɖewo ŋu.
 
-DNS seeders ɖea ɣaɣla dzesi ŋɔŋlɔ siwo wɔnɛ nyuie bubuwo ƒe xexlẽ fia to server si le eme xoxo. Esia naa gaɖoɖowo ŋutɔ trɔ yi network la katã me.
+DNS seeders ɖea ɣaɣla dzesi ŋɔŋlɔ siwo wɔnɛ nyuie bubuwo ƒe xexlẽ fia to server si le eme xoxo. Esia naa gaɖoɖowo ŋutɔ trɔ yi network la katã me. Zcash Foundation ƒe seeders zã [Zeeder](https://github.com/ZcashFoundation/zeeder), DNS seeder si wowɔ ɖe Rust me, eye esi xɔ eƒe dnsseeder si wotu ɖe CoreDNS dzi teƒe. Wode eƒe images ɖe eme abe `zfnd/zeeder` ene; wole `zfnd/dnsseeder` ŋkɔ xoxo la gblẽm.
 
 ### Network Ƒe Statistikwo
 
@@ -136,6 +136,7 @@ Esia hã naa mɔ be zazãla bubuwo nakplɔ ɖe wò ɣaɣla dzesi ŋɔŋlɔ ƒe .
 - [Zakura Ɣaɣla dzesi ŋɔŋlɔ](/zcash-tech/zakura-node) - ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔwɔ evelia, si wotso tso Zebra me
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) - serverwo siwo light gakotokuwo bia nu tso
 - [Zaino](/zcash-tech/zaino) - Rust indexer si subɔa light gakotokuwo
+- [Zinder](/zcash-tech/zinder) - Zcash Foundation ƒe alpha indexer na Zebra kple Zakura
 - [Zcash Gakotoku ƒe Syncing](/zcash-tech/zcash-wallet-syncing) - nu si ta syncing wɔa dɔ ale
 
 ## Nusɔsrɔ̃ Kpeɖeŋu

@@ -1,130 +1,130 @@
-# ZIP 218: 25 Saniyelik Blokların Gerçekte Değiştirdikleri
+# ZIP 218: 25 Saniyelik Bloklar Gerçekte Neleri Değiştiriyor?
 
-14 Eylül 2026'da kapanan NU7 coinholder anketinde, yaklaşık 2.397.669 ZEC, ZIP 218 lehinde oy kullandı ve 141,6 ZEC buna karşı oy verdi; sonuç %99,9 oldu. Haberlerin çoğu bunu "Zcash blokları hızlanıyor" diye özetledi. Bu doğru, ancak teklifin yaptıklarının ve kasıtlı olarak aynı bıraktıklarının büyük kısmını dışarıda bırakıyor.
+14 Eylül 2026'da kapanan NU7 coin sahibi anketinde yaklaşık 2.397.669 ZEC ZIP 218'i desteklerken 141,6 ZEC karşı oy kullandı; sonuç %99,9 destek oldu. Haberlerin çoğu bunu “Zcash bloklar hızlanıyor” diye özetledi. Bu doğru, ancak teklifin yaptıklarının ve özellikle aynı tuttuğu şeylerin büyük bölümünü dışarıda bırakıyor.
 
-Bu sayfa, ZIP 218'i kendi metni üzerinden açıklıyor: nelerin değiştiğini, nelerin değişmediğini ve maliyetini.
+Bu sayfa ZIP 218'i kendi metnine dayanarak açıklıyor: nelerin değiştiğini, nelerin değişmediğini ve bunun maliyetini.
 
-## Kısa versiyon
+## Kısa özet
 
-| | Bugün | ZIP 218'den sonra |
+| | NU7 öncesi | ZIP 218 sonrası (NU7) |
 |---|---|---|
-| Hedef blok aralığı | 75 saniye | 25 saniye |
+| Blok hedef aralığı | 75 saniye | 25 saniye |
 | Günlük blok sayısı | 1.152 | 3.456 |
 | Blok sübvansiyonu (mevcut yarılanma dönemi) | 1,5625 ZEC | 0,52083333 ZEC |
-| Günlük yeni ZEC | değişmez | değişmez |
+| Günlük yeni ZEC | değişmiyor | değişmiyor |
 | Yarılanma aralığı | 1.680.000 blok | 5.040.000 blok |
-| Blok başına korumalı işlem sınırları | yok (yalnızca 2 MB boyut sınırı) | havuz başına sınırlarla birlikte toplam 330 |
-| Orchard işlem hacmi (2 işlemli işlemler) | saniyede yaklaşık 2,9 | saniyede yaklaşık 6,6 |
+| Blok başına korumalı işlem sınırları | yok (yalnızca 2 MB boyut sınırı) | toplam 330, havuz başına sınırlarla |
+| Orchard verimi (2 eylemli işlemler) | saniyede yaklaşık 2,9 | saniyede yaklaşık 6,6 |
 
 ![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
 
-Üç kat daha fazla blok, her biri üçte bir kadar ödeme yapıyor. Arz takvimi olduğu yerde kalıyor.
+Her biri üçte bir kadar ödeme yapan üç kat fazla blok. Arz takvimi aynı kalıyor.
 
 ## Blok süresi neden değişiyor?
 
-Ana hedef **daha kısa bekleme süresi**. Bugün, ağ yükünden bağımsız olarak bir ödeme ilk onayı için ortalama 75 saniye bekler. 25 saniyede bu süre ortalama 25 saniyeye düşer. ZIP, bundan en çok etkilenen kullanım alanları olarak satış noktası ödemelerini, borsa yatırmalarını ve zincirler arası köprüleri sıralıyor.
+Temel amaç **bekleme süresini azaltmak**. NU7 öncesinde bir ödeme, ağ yükü ne olursa olsun, ilk onay için ortalama 75 saniye bekliyordu. 25 saniyede bu süre ortalama 25 saniyeye iniyor. ZIP, bu değişimin en çok satış noktası ödemelerinde, borsa yatırmalarında ve zincirler arası köprülerde hissedileceğini belirtiyor.
 
-ZIP'ten iki noktayı akılda tutmakta fayda var:
+ZIP'den akılda tutulması gereken iki nokta var:
 
-- **Kimseye daha az onay kullanmasını söylemez.** Bugünküyle aynı geri alma riski toleransını koruyan kullanıcılar için, ZIP onay süresinin üç katın biraz altında iyileşmesini bekliyor.
-- **Kesinlik çalışmalarının yerine geçmez.** ZIP, kendisini Crosslink gibi kesinlik mekanizmalarını tamamlayıcı olarak tanımlıyor. Daha hızlı taban katmanı blokları, daha sonra bir kesinlik katmanı eklenip eklenmemesinden bağımsız olarak yardımcı olur.
+- **Kimseye daha az onay kullanmasını söylemiyor.** Bugünkü geri alma riski toleransını koruyan kullanıcılar için ZIP, onay süresinin üç katından biraz daha az iyileşmesini bekliyor.
+- **Kesinleşme çalışmasının yerini almıyor.** ZIP, kendisini Crosslink gibi kesinleşme mekanizmalarını tamamlayıcı olarak tanımlıyor. İleride bir kesinleşme katmanı eklensin ya da eklenmesin, temel katmandaki daha hızlı bloklar yarar sağlıyor.
 
-ZIP ayrıca, daha yüksek işlem hacminin tek başına daha büyük blok boyutuyla elde edilebileceğini belirtiyor. Bunun yerine daha kısa blokların seçilmesinin nedeni gecikmedir.
+ZIP ayrıca yalnızca blok boyutunu artırarak da daha yüksek verim elde edilebileceğini belirtiyor. Daha kısa blokların tercih edilmesinin nedeni gecikme süresi.
 
 ## Neler değişiyor?
 
-### İhraç: günlük ZEC aynı
+### İhraç: günlük ZEC miktarı aynı
 
-Blok sayısının üçe katlanması, başka hiçbir şey değişmezse günlük ihracı üçe katlardı. ZIP 218, NU7 etkin olduğunda blok başına sübvansiyonu üç ek katsayıyla bölerek bunu önler.
+Başka hiçbir şey değişmeden blok sayısını üçe katlamak günlük ihracı da üçe katlardı. ZIP 218, NU7 etkin olduğunda blok başına sübvansiyonu ayrıca üçe bölerek bunu önlüyor.
 
-Mevcut yarılanma döneminde bu, blok sübvansiyonunu **1,5625 ZEC'den 0,52083333 ZEC'ye** (52.083.333 zatoshi) düşürür. 156.250.000 zatoshi üçe tam bölünmediği için, her blok zatoshi'nin üçte biri kadar aşağı yuvarlanır. Tam 5.040.000 blokluk bir yarılanma aralığında bu, toplamda yaklaşık 0,0168 ZEC eder.
+Mevcut yarılanma döneminde blok sübvansiyonu **1,5625 ZEC seviyesinden 0,52083333 ZEC seviyesine** (52.083.333 zatoshi) düşüyor. 156.250.000 zatoshi üçe tam bölünmediğinden, her blokta zatoshi'nin üçte biri kadar aşağı yuvarlama yapılıyor. Tam bir 5.040.000 blokluk yarılanma aralığında toplam fark yaklaşık 0,0168 ZEC ediyor.
 
-Sübvansiyon, blok başına oluşturulan toplam yeni ZEC miktarıdır. Mevcut geliştirme fonu payı hâlâ bundan alınır; dolayısıyla madenciler, bugün olduğu gibi, tam tutardan daha azını alır.
+Sübvansiyon, her blokta oluşturulan yeni ZEC miktarının tamamıdır. Mevcut geliştirme fonu payı yine bu miktardan kesiliyor; dolayısıyla madenciler bugün olduğu gibi toplam rakamın tamamını almıyor.
 
-> **0,26041666 ZEC rakamı hakkında bir not.** Taslak ZIP'in açıklayıcı notu, NU7 sonrası sübvansiyonu floor(156250000 / 6) = 0,26041666 ZEC olarak yazıyor ve bazı haberler bunu tekrarladı. Bu not iki kat hatalıdır: 156.250.000 zatoshi zaten Blossom sonrası sübvansiyondur; dolayısıyla bunu altıya bölmek, NU7'ün üç katsayısına ek olarak Blossom'ün iki katsayısını ikinci kez uygular. Normatif formül, mevcut yarılanma endeksinde floor(1,250,000,000 / (2 · 3 · 4)) = 52.083.333 zatoshi verir. Bu değişiklik için Zebra'in uygulama sorunu ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)), notun Blossom katsayısını iki kez saydığını kaydeder, uygulayıcılara "notu değil, formülü uygulayın" der ve ZIP için bir düzeltme sunulduğunu belirtir. Etkinleştirme sırasındaki doğru rakam **0,52083333 ZEC**'dir.
+> **0,26041666 ZEC rakamı hakkında.** Taslak ZIP'ın açıklama notunda, NU7 sonrası sübvansiyon floor(156250000 / 6) = 0,26041666 ZEC olarak verilmiş ve bazı haber kaynakları bu rakamı tekrarlamış. Notta iki katlık bir hata var: 156.250.000 zatoshi zaten Blossom sonrası sübvansiyon olduğundan, bu miktarı altıya bölmek Blossom iki katını, NU7 üç katına ek olarak, ikinci kez uyguluyor. Normatif formüle göre mevcut yarılanma indeksinde floor(1,250,000,000 / (2 · 3 · 4)) = 52.083.333 zatoshi elde ediliyor. Zebra'ın bu değişikliğe yönelik uygulama konusu ([#11463](https://github.com/ZcashFoundation/zebra/issues/11463)), notta Blossom katsayısının iki kez sayıldığını kayda geçiriyor, uygulayıcılara “notu değil, formülü uygulayın” diyor ve ZIP'a düzeltme gönderildiğini belirtiyor. Etkinleştirme anındaki doğru rakam **0,52083333 ZEC**.
 
-### Yarılanmalar zamanlamasını korur
+### Yarılanmaların zamanlaması korunuyor
 
-Yarılanma aralığı 1.680.000 bloktan 5.040.000 bloğa üçe katlanır. Bloklar üç kat daha sık geldiğinden, yarılanmalar değişiklik olmasaydı gerçekleşecekleri zamana yaklaşık olarak aynı noktada gerçekleşir. Toplam arz üst sınırı etkilenmez.
+Yarılanma aralığı 1.680.000 bloktan 5.040.000 bloka çıkıyor. Bloklar üç kat daha sık geldiği için yarılanmalar, değişiklik yapılmasaydı gerçekleşecekleri zamanlara yaklaşık olarak denk geliyor. Toplam arz sınırı etkilenmiyor.
 
-Bu, NU7 anketindeki diğer ihraç sorusundan ayrıdır; orada coinholder'lar yarılanmaları yumuşatılmış bir eğriyle değiştirmek yerine korumaya oy verdi. ZIP 218 mevcut yarılanma modeliyle çalışır ve onu değiştirmez.
+Bu konu, NU7 anketindeki diğer ihraç sorusundan ayrı: coin sahipleri, yarılanmaların yumuşatılmış bir eğriyle değiştirilmesi yerine sürdürülmesi yönünde oy kullandı. ZIP 218 mevcut yarılanma modeliyle çalışıyor ve onu değiştirmiyor.
 
-### Blok başına korumalı işlem sayısına yeni sınırlar
+### Blok başına korumalı eylemlere yeni sınırlar
 
-ZIP 218, tek bir bloğun barındırabileceği korumalı etkinlik miktarına sınırlar ekler:
+ZIP 218, tek bir blokta bulunabilecek korumalı etkinlik miktarına sınırlar getiriyor:
 
-| Sınır | Blok başına azami |
+| Sınır | Blok başına en fazla |
 |---|---|
-| Tüm korumalı havuzlar birleşik | 330 (her Sprout JoinSplit 2 sayılır) |
-| Orchard işlemleri | 330 |
-| Sapling girdileri artı çıktıları | 300 |
-| Sprout JoinSplit'leri | 25 |
+| Tüm korumalı havuzların toplamı | 330 (her Sprout JoinSplit 2 olarak sayılır) |
+| Orchard eylemleri | 330 |
+| Sapling girdileri ve çıktıları | 300 |
+| Sprout JoinSplits | 25 |
 
-İşlemlerin şeffaf bölümleri etkilenmez ve 2 MB blok boyutu sınırı geçerliliğini korur.
+İşlemlerin şeffaf bölümleri bu sınırlardan etkilenmiyor ve 2 MB blok boyutu sınırı geçerliliğini koruyor.
 
-Bu sınırlar vardır çünkü daha fazla blok, aksi takdirde cüzdanlar ve düğümler için daha fazla iş anlamına gelirdi. Sınırlar uygulandığında, üç kat daha fazla blokla bile en kötü durum aslında bugünkünden **daha iyi** olur:
+Bu sınırlar, aksi hâlde daha fazla bloğun cüzdanlar ve düğümler için daha fazla iş anlamına gelecek olmasından kaynaklanıyor. Sınırlar uygulandığında, blok sayısı üç katına çıksa bile en kötü durum bugünkünden **daha iyi** oluyor:
 
-- **Cüzdan senkronizasyonu:** hafif bir cüzdanın günde indirmeye zorlanabileceği en fazla veri miktarı yaklaşık 271 MB'tan yaklaşık 169 MB'a düşer; bu, yaklaşık %38'lik bir azalmadır. En kötü durumdaki deneme şifre çözmeleri günde yaklaşık 4,8 milyondan yaklaşık 2,3 milyona düşer.
-- **Blok doğrulama:** ZIP'in karşılaştırmaları, en kötü durumdaki bir Orchard bloğunu yeni sınırlar altında yaklaşık 432 ms, bugünkü en kötü durumu ise yaklaşık 770 ms olarak gösteriyor. Sapling için düşüş daha büyüktür: yaklaşık 3.175 ms'den yaklaşık 272 ms'ye.
+- **Cüzdan eşitlemesi:** Hafif bir cüzdanın bir günde indirmeye zorlanabileceği en yüksek veri miktarı yaklaşık 271 MB'den 169 MB'ye düşüyor; bu yaklaşık %38'lik bir azalma. En kötü durumdaki deneme amaçlı şifre çözme işlemleri günde yaklaşık 4,8 milyondan 2,3 milyona iniyor.
+- **Blok doğrulama:** ZIP kıyaslama testlerine göre yeni sınırlar altında en kötü durumdaki bir Orchard bloğunun doğrulanması yaklaşık 432 ms sürüyor; bugünkü en kötü durum ise yaklaşık 770 ms. Sapling için düşüş daha büyük: yaklaşık 3.175 ms'den 272 ms'ye.
 
-Sapling ve Sprout sınırları kasıtlı olarak sıkıdır. Mayıs 2026 itibarıyla Orchard, korumalı ZEC'in %87,9'unu, Sapling %11,6'sını ve Sprout %0,5'ini barındırıyordu; dolayısıyla daha küçük havuzlar gerçek kullanımları için yeterli alan bulurken saldırganın kötüye kullanabileceği alan azalır. ZIP 317 ücretleri her havuzda mantıksal işlem başına aynı ücreti aldığından, saldırganın bir havuzu diğerine göre spamlamasından kazanç sağlaması mümkün değildir.
+Sapling ve Sprout sınırları bilerek sıkı tutulmuş. Mayıs 2026 itibarıyla, korumalı ZEC'lerin %87,9'u Orchard'ta, %11,6'sı Sapling'da ve %0,5'i Sprout'da bulunuyordu. Böylece küçük havuzlara gerçek kullanımları için yeterli alan sağlanırken, saldırganların kötüye kullanabileceği alan azaltılıyor. ZIP 317 ücretleri her havuzda mantıksal eylem başına aynı ücreti aldığından, saldırganın bir havuzu diğerine tercih ederek spam göndermekten kazancı olmuyor.
 
-### İşlem hacmi
+### Verim
 
-Blok başına 330 Orchard işlemiyle, standart 2 işlemli bir Orchard işlemi blok başına ⌊330 / 2⌋ = 165 kez sığar. Her 25 saniyede bir blokla bu, saniyede yaklaşık **6,6 işlem** eder; bugünkü yaklaşık 2,9'dan yükselerek — ZIP bunu normal Orchard işlem hacminde 2,3× artış olarak adlandırır. Sapling saniyede yaklaşık 3,0'a ulaşır; bu da Orchard'ün bugün başarabildiğinin üzerinde kalır.
+Blok başına 330 Orchard eylemiyle standart 2 eylemli bir Orchard işlemi her bloğa ⌊330 / 2⌋ = 165 kez sığıyor. Her 25 saniyede bir blok geldiğinde bu, bugünkü yaklaşık 2,9'dan **saniyede yaklaşık 6,6 işlem** anlamına geliyor. ZIP bunu olağan Orchard veriminde 2,3 kat artış olarak nitelendiriyor. Sapling saniyede yaklaşık 3,0'a ulaşıyor; bu da Orchard'ın bugün sunduğu değerin üzerinde.
 
 ### Zorluk ayarlaması
 
-Zorluk algoritması, yakın zamandaki bloklardan oluşan bir pencere üzerinden ortalama alır. ZIP 218, bu pencereyi 17 bloktan 102 bloğa çıkarır; böylece, Zcash 150 saniyelik bloklarla başlatıldığında kapsadığı süreyle aynı olan yaklaşık 2.550 saniyelik gerçek zamanı kapsamaya devam eder. ZIP iki neden veriyor: zorluk manipülasyonu saldırılarını kolaylaştırmamak (Litecoin'in Nisan 2026'daki MWEB olayına atıfta bulunuyor) ve blok sürelerindeki kısa vadeli değişkenliği yumuşatmak.
+Zorluk algoritması yakın geçmişteki bloklardan oluşan bir pencerenin ortalamasını alıyor. ZIP 218 bu pencereyi 17 bloktan 102 bloka çıkarıyor; böylece pencere yine yaklaşık 2.550 saniyelik gerçek zamanı kapsıyor. Zcash 150 saniyelik bloklarla başlatıldığında da kapsadığı süre buydu. ZIP iki gerekçe sunuyor: zorluk manipülasyonu saldırılarını kolaylaştırmamak (Litecoin'in Nisan 2026'daki MWEB olayını örnek gösteriyor) ve blok sürelerindeki kısa vadeli değişkenliği yumuşatmak.
 
-Etkinleştirmeden hemen sonra blok sürelerinin yeni hedefte dengelenmesi biraz zaman alacaktır. Bu beklenir ve Blossom'te, Zcash 150 saniyeden 75 saniyeye indiğinde yaşananları yansıtır.
+Etkinleştirmenin hemen ardından blok sürelerinin yeni hedefe oturması biraz zaman alacak. Bu beklenen bir durum; Blossom'de, Zcash 150 saniyeden 75 saniyeye geçtiğinde yaşananlara benziyor.
 
 ### Düğümler ve cüzdanlar için varsayılanlar
 
-Bunlar fikir birliği kuralları yerine uygulamalar için önerilerdir:
+Bunlar uzlaşma kuralları değil, uygulamalara yönelik önerilerdir:
 
-- **İşlem sona ermesi:** varsayılan sona erme süresi 40 bloktan 120 bloğa çıkar; böylece yaklaşık aynı 50 dakika korunur.
-- **Azami yeniden organizasyon derinliği:** Zebra'in sınırı 99 bloktan 600 bloğa çıkar; bu, 25 saniyede yaklaşık 4,2 saattir ve başlatıldığında kapsadığı pencereyle aynıdır.
-- **Korumalı işlemler için sabitleyici derinliği:** 3 blokta kalır; böylece gecikme 3,75 dakikadan 1,25 dakikaya iner. ZIP burada Blossom emsalini izler.
-- **Blok cinsinden ölçülen çeşitli ağ sabitleri**, aynı süreyi kapsayacak şekilde üçle çarpılır.
+- **İşlem sona erme süresi:** Varsayılan sona erme süresi 40 bloktan 120 bloka çıkarak yaklaşık 50 dakikayı koruyor.
+- **Maksimum yeniden düzenleme derinliği:** Zebra sınırı 99 bloktan 600 bloka çıkıyor. 25 saniyelik bloklarla bu yaklaşık 4,2 saat ediyor; lansmanda kapsadığı süre de buydu.
+- **Korumalı işlemler için dayanak derinliği:** 3 blokta kalıyor; böylece gecikme 3,75 dakikadan 1,25 dakikaya düşüyor. ZIP burada Blossom emsalini izliyor.
+- **Bloklarla ölçülen birkaç ağ sabiti**, aynı süreyi kapsayacak şekilde üç katına çıkarılıyor.
 
 ## Neler aynı kalıyor?
 
-- Günlük ihraç edilen ZEC, yarılanma takvimi ve arz üst sınırı
+- Günlük ihraç edilen ZEC miktarı, yarılanma takvimi ve arz sınırı
 - 2 MB blok boyutu sınırı
-- Yeni işlem sınırlarının dokunmadığı şeffaf işlemler
-- 100 bloktaki Coinbase olgunluğu. Sayım zamanla değil blokla yapıldığından, bunun artık yaklaşık 125 dakika yerine yaklaşık 42 dakika anlamına geldiğini unutmayın.
+- Yeni eylem sınırlarının etkilemediği şeffaf işlemler
+- Coinbase vadesinin 100 blok olması. Sayı zamana değil bloklara dayandığı için bunun artık yaklaşık 125 dakika yerine 42 dakika anlamına geldiğine dikkat edin.
 
-## Ödünleşim: daha fazla bayat blok
+## Ödünleşim: daha fazla geçersiz kalan blok
 
-Daha hızlı bloklar ücretsiz değildir. Bayat blok, başka bir blok ağa önce ulaştığı için zincire dahil edilme yarışını kaybeden geçerli bir bloktur. Bloklar arasındaki aralık ne kadar kısa olursa bu durum o kadar sık yaşanır ve ZIP bayatlık oranını blok yayılımına, doğrulama süresine ve madencilik merkezileşmesi riskine bağlıyor.
+Daha hızlı bloklar bedelsiz değil. Geçersiz kalan blok, başka bir blok ağa önce ulaştığı için zincire eklenme yarışını kaybeden geçerli bir bloktur. Bloklar arasındaki süre kısaldıkça bu daha sık yaşanıyor; ZIP, geçersiz kalan blok oranını blok yayılımına, doğrulama süresine ve madenciliğin merkezileşme riskine bağlıyor.
 
-- **Bugün:** yaklaşık %0,4; ZIP, hash gücü havuzlarda yoğunlaştığı için bunun temel oranı olduğundan düşük gösterebileceğini belirtiyor.
-- **25 saniyede teorik olarak:** ölçülmüş Zcash yayılım gecikmelerine dayanarak yaklaşık %3,26.
-- **Devnet testi:** 25 saniyelik aralıklarla tam 2 MB blok üreten, coğrafi olarak dağıtılmış 99 Zebra düğümü; %4,86 bayat blok oranı ve %0,37 çatallanma oranı ölçtü. Gereken tek ayarlama TCP yapılandırmasıydı. Bu devnet bugünün ana ağından daha merkeziyetsiz olduğundan, ZIP bunları en kötü duruma yakın rakamlar olarak değerlendiriyor.
-- **Referans noktası:** ZIP, Ethereum'un tarihsel iş ispatı bayat blok oranı olan %5,4'ü güvenlik eşiği olarak kullanıyor. Her iki devnet rakamı da bunun altında kalıyor.
+- **NU7 öncesinde:** Yaklaşık %0,4. ZIP, hash gücü havuzlarda yoğunlaştığı için bu rakamın gerçek oranı düşük tahmin ediyor olabileceğini belirtiyor.
+- **25 saniye için teorik tahmin:** Ölçülen Zcash yayılım gecikmelerine göre yaklaşık %3,26.
+- **Devnet testi:** Coğrafi olarak dağılmış 99 Zebra düğümünün 25 saniyelik aralıklarla tam 2 MB bloklar ürettiği testte, geçersiz blok oranı %4,86, çatallanma oranı ise %0,37 olarak ölçüldü. Gereken tek ayar TCP yapılandırmasıydı. Bu devnet bugünkü ana ağdan daha merkeziyetsiz olduğu için ZIP bu oranları en kötü duruma yakın değerler olarak değerlendiriyor.
+- **Karşılaştırma noktası:** ZIP, güvenlik eşiği olarak Ethereum'un tarihsel iş ispatı geçersiz blok oranı olan %5,4'ü kullanıyor. Her iki devnet değeri de bu eşiğin altında.
 
-İki küçük maliyet daha vardır. Hafif cüzdanlar, kompakt blok başlıkları için günde yaklaşık 200 KB daha fazla indirir. Ayrıca üç kat daha fazla blok olduğundan, çevrimdışı kalmış tam bir düğüm güncellendiğinde, her blok doğrulamak için daha ucuz olsa bile işlemesi gereken blok sayısı daha fazladır. ZIP her ikisini de kabul ediyor.
+Bunun yanında iki küçük maliyet daha var. Hafif cüzdanlar günde yaklaşık 200 KB daha fazla kompakt blok başlığı indiriyor. Ayrıca blok sayısı üç katına çıktığından, çevrimdışı kalmış tam bir düğüm ağa yeniden bağlandığında, her bloğun doğrulanması daha ucuz olsa da işlemesi gereken daha fazla blok oluyor. ZIP her iki maliyeti de kabul ediyor.
 
 ## Durum ve zaman çizelgesi
 
-- **ZIP durumu:** Önerildi. Sahipleri Dev Ojha ve Evan Forbes; 13 Mart 2026'da oluşturuldu.
-- **Coinholder anketi:** %99,9 destekle 14 Eylül 2026'da kapandı. Anket tercihi gösterir; tek başına fikir birliği kurallarını değiştirmez.
-- **Zaman çizelgesi:** 17 Eylül'deki bir Zcash Community Forum duyurusunda, geliştirme kuruluşları 30 Eylül'e kadar kodun tamamlanması, 6 Ekim'de testnette NU7 ve 20 Ekim'de nihai karar alınması takviminde anlaştı. Ana ağ etkinleştirme yüksekliği artık 3.543.405 olarak belirlendi ([ZIP 259](https://zips.z.cash/zip-0259)) ve yaklaşık 5 Kasım 2026 için hedefleniyor.
-- **Uygulama:** Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) ve Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)) içinde takip ediliyor.
+- **ZIP durumu:** Önerildi. Sahipleri Dev Ojha ve Evan Forbes; oluşturulma tarihi 13 Mart 2026.
+- **Coin sahibi anketi:** 14 Eylül 2026'da %99,9 destekle kapandı. Anket tercihi gösteriyor; uzlaşma kurallarını tek başına değiştirmiyor.
+- **Zaman çizelgesi:** Geliştirme kuruluşları, 17 Eylül'de yayımlanan Zcash Community Forum duyurusunda, kodun 30 Eylül'e kadar tamamlanması, NU7'ın 6 Ekim'de test ağında kullanıma sunulması ve nihai kararın 20 Ekim'de verilmesi takviminde anlaştı. NU7, 6 Kasım 2026'da (UTC) 3.543.405 yüksekliğinde ana ağda etkinleştirildi ([ZIP 259](https://zips.z.cash/zip-0259)); dolayısıyla 25 saniyelik hedef artık yürürlükte.
+- **Uygulama:** Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) ve Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)) üzerinden takip ediliyor.
 
-## Bunun sizin için anlamı
+## Bu sizin için ne anlama geliyor?
 
-- **ZEC tutuyorsanız:** yapmanız gereken hiçbir şey yok. Bakiyeniz ve arz takvimi etkilenmez.
-- **Cüzdan kullanıyorsanız:** cüzdanınız NU7 desteğini sunduğunda güncelleyin. İlk onaylar yaklaşık üç kat daha hızlı gelecektir.
-- **Bir düğüm, borsa veya hizmet çalıştırıyorsanız:** etkinleştirmeden önce yükseltme yapmayı planlayın ve blok cinsinden ölçülen tüm ayarları gözden geçirin; çünkü sabit bir blok sayısı artık eskiden kapsadığı sürenin üçte birini kapsıyor.
+- **ZEC tutuyorsanız:** Yapmanız gereken bir şey yok. Bakiyeniz ve arz takvimi etkilenmiyor.
+- **Cüzdan kullanıyorsanız:** Cüzdanınız NU7 desteğini yayımladığında güncelleyin. İlk onaylar yaklaşık üç kat daha hızlı gelecek.
+- **Bir düğüm, borsa veya hizmet işletiyorsanız:** Etkinleştirmeden önce yükseltme yapmayı planlayın ve blok sayısıyla ölçülen tüm ayarları gözden geçirin; çünkü sabit bir blok sayısı artık eskisinin üçte biri kadar süreyi kapsıyor.
 
 ## Kaynaklar
 
-- [ZIP 218: 25 saniyelik Blok Hedef Aralığı](https://zips.z.cash/zip-0218)
-- [ZIP 208: Daha Kısa Blok Hedef Aralığı](https://zips.z.cash/zip-0208), Blossom emsali
-- [Forum: Zcash Blok Hedef Aralığını 25 saniyeye Düşürme Teklifi](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
-- [Forum: Zcash Blok Süresi Azaltması, yalnızca Zebra Devnet ile NU7 için Güvenli Görünüyor](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
-- [Zebra sorun #11463](https://github.com/ZcashFoundation/zebra/issues/11463), NU7 sonrası yarılanma aralığı ve sübvansiyon
-- [Zebra sorun #11440](https://github.com/ZcashFoundation/zebra/issues/11440), ZIP 218 uygulama takibi
-- Bitcoin.com News, crypto.news ve KuCoin tarafından bildirildiği üzere NU7 anket sonuçları ve zaman çizelgesi (16–19 Eylül 2026)
+- [ZIP 218: 25 saniyelik blok hedef aralığı](https://zips.z.cash/zip-0218)
+- [ZIP 208: Daha kısa blok hedef aralığı](https://zips.z.cash/zip-0208), Blossom emsali
+- [Forum: Öneri — Zcash blok hedef aralığını 25 saniyeye indirme](https://forum.zcashcommunity.com/t/proposal-lower-zcash-block-target-spacing-to-25s/54577)
+- [Forum: Zcash blok süresi azaltımının NU7 için güvenli göründüğünü gösteren, yalnızca Zebra kullanan devnet](https://forum.zcashcommunity.com/t/zcash-block-time-reduction-appears-safe-for-nu7-w-zebra-only-devnet/55586)
+- [Zebra 11463 numaralı konu](https://github.com/ZcashFoundation/zebra/issues/11463), NU7 sonrası yarılanma aralığı ve sübvansiyon
+- [Zebra 11440 numaralı konu](https://github.com/ZcashFoundation/zebra/issues/11440), ZIP 218 uygulama takibi
+- NU7 anket sonuçları ve zaman çizelgesi; Bitcoin.com News, crypto.news ve KuCoin tarafından bildirildi (16–19 Eylül 2026)

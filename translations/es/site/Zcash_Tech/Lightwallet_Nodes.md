@@ -81,13 +81,13 @@ Dos advertencias. Tor oculta tu IP del servidor, pero no cambia lo que el servid
 
 [Zaino](/zcash-tech/zaino) es un indexador escrito en Rust por el equipo de Zingo, creado para reemplazar lightwalletd como parte del trabajo de descontinuación de zcashd. Sirve a clientes ligeros, clientes completos y exploradores de bloques, leyendo datos de la red almacenados por «un validador completo Zebra o zcashd».
 
-Está en desarrollo activo, con la versión 0.8.0 publicada en agosto de 2026. Su objetivo es mantener la compatibilidad hacia atrás con lightwalletd cuando sea posible, para que las billeteras puedan apuntar a él sin tener que reescribirse.
+Está en desarrollo activo, con la versión 0.10.1 publicada en septiembre de 2026. Su objetivo es mantener la compatibilidad hacia atrás con lightwalletd cuando sea posible, para que las billeteras puedan apuntar a él sin tener que reescribirse.
 
 Zaino tiene su propia página con diagramas de arquitectura, por lo que esta página solo cubre su función como servidor de billetera ligera.
 
 ### Ejecutar el tuyo propio
 
-La opción más sólida es ser tu propio operador, lo que elimina por completo la cuestión de confianza. Ambos servidores son de código abierto: [lightwalletd](https://github.com/zcash/lightwalletd) en Go y [Zaino](https://github.com/zingolabs/zaino) en Rust. Ambos leen de un validador completo, por lo que también necesitarás [Zebra](/zcash-tech/zebra-full-node).
+La opción más sólida es ser tu propio operador, lo que elimina por completo la cuestión de confianza. Ambos servidores son de código abierto: [lightwalletd](https://github.com/zcash/lightwalletd) en Go y [Zaino](https://github.com/zingolabs/zaino) en Rust. Ambos leen de un validador completo, por lo que también necesitarás [Zebra](/zcash-tech/zebra-full-node). Los servidores de zec.rocks se implementan con [Zcash Stack](/guides/zcash-stack), un chart de Helm de código abierto y un kit de Compose Docker que ejecuta Zebra y lightwalletd juntos.
 
 ## Implicaciones prácticas
 
@@ -117,11 +117,9 @@ Las rutas de menú siguientes eran correctas cuando se actualizó esta página, 
 
 Anteriormente Zashi. El engranaje de la esquina superior derecha y luego Configuración avanzada. Tor está en la misma pantalla. ZODL también ofrece un acceso directo para cambiar de servidor cuando un fallo de sincronización se debe a que el servidor está desactualizado.
 
-#### Ywallet
+#### Zkool
 
-El engranaje de la esquina superior derecha y luego la pestaña Zcash.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+El sucesor de Ywallet, del mismo desarrollador (Ywallet ya no recibe mantenimiento y no puede seguir la red después de Ironwood). El icono de engranaje (Abrir configuración) en la parte superior de la pantalla de cuentas y luego el campo Servidor de nodo ligero. El botón de lista que aparece junto a él permite elegir entre los servidores conocidos, y el selector Directo / Tor / Nym / Proxy que aparece debajo establece cómo se conecta la billetera.
 
 #### Zingo
 
@@ -153,10 +151,11 @@ Las billeteras ligeras te ofrecen el pool blindado sin el espacio de disco, lo q
 
 ## Páginas relacionadas
 
-- [Quién puede ver tu pago de Zcash](/start-here/who-can-see-your-zcash-payment) — la visión para principiantes de la misma cuestión.
+- [Quién puede ver tu Zcash pago](/start-here/who-can-see-your-zcash-payment) — una explicación para principiantes de la misma cuestión.
 - [Qué puede ver un explorador de bloques](/zcash-tech/what-a-block-explorer-can-see) — qué es visible on-chain, en contraste con lo que se ve en el servidor.
-- [Zaino](/zcash-tech/zaino) — diagramas de arquitectura y la función más amplia del indexador Rust.
+- [Zaino](/zcash-tech/zaino) — diagramas de arquitectura y el papel más amplio del Rust indexador.
+- [Zinder](/zcash-tech/zinder) — el indexador alfa del Zcash Foundation, que da servicio a billeteras ligeras mediante un adaptador compatible con lightwalletd.
 - [Zebra Nodo completo](/zcash-tech/zebra-full-node) — el validador del que lee un servidor de billetera ligera.
-- [Zcash Sincronización de billetera](/zcash-tech/zcash-wallet-syncing) — cómo tu billetera procesa los bloques compactos que envía un servidor.
+- [Zcash Sincronización de la billetera](/zcash-tech/zcash-wallet-syncing) — cómo procesa tu billetera los bloques compactos que envía un servidor.
 
 **Última actualización:** Agosto de 2026

@@ -6,7 +6,7 @@ Diese Seite erläutert ZIP 218 anhand seines eigenen Textes: was sich ändert, w
 
 ## Die Kurzfassung
 
-| | Heute | Nach ZIP 218 |
+| | Vor NU7 | Nach ZIP 218 (NU7) |
 |---|---|---|
 | Zielabstand zwischen Blöcken | 75 Sekunden | 25 Sekunden |
 | Blöcke pro Tag | 1.152 | 3.456 |
@@ -22,7 +22,7 @@ Dreimal so viele Blöcke, die jeweils ein Drittel so viel auszahlen. Der Emissio
 
 ## Warum die Blockzeit ändern
 
-Das Hauptziel ist eine **geringere Wartezeit**. Heute wartet eine Zahlung unabhängig von der Netzwerkauslastung durchschnittlich 75 Sekunden auf ihre erste Bestätigung. Bei 25 Sekunden sinkt dies durchschnittlich auf 25 Sekunden. ZIP nennt Point-of-Sale-Zahlungen, Börseneinzahlungen und Cross-Chain-Bridges als die Anwendungen, die dies am stärksten spüren.
+Das Hauptziel ist eine **geringere Wartezeit**. Vor NU7 wartete eine Zahlung unabhängig von der Netzwerkauslastung durchschnittlich 75 Sekunden auf ihre erste Bestätigung. Bei 25 Sekunden sinkt dies durchschnittlich auf 25 Sekunden. ZIP nennt Point-of-Sale-Zahlungen, Börseneinzahlungen und Cross-Chain-Bridges als die Anwendungen, die dies am stärksten spüren.
 
 Zwei Punkte aus ZIP sollten berücksichtigt werden:
 
@@ -99,7 +99,7 @@ Dies sind Empfehlungen für Implementierungen und keine Konsensregeln:
 
 Schnellere Blöcke sind nicht kostenlos. Ein veralteter Block ist ein gültiger Block, der das Rennen um die Aufnahme in die Chain verliert, weil ein anderer Block das Netzwerk zuerst erreicht. Je kürzer der Abstand zwischen Blöcken, desto häufiger passiert dies, und ZIP verknüpft die Rate veralteter Blöcke mit Blockweiterleitung, Verifizierungszeit und dem Risiko der Mining-Zentralisierung.
 
-- **Heute:** etwa 0,4 %, was laut ZIP die zugrunde liegende Rate unterschätzen könnte, weil die Hashpower in Pools konzentriert ist.
+- **Vor NU7:** etwa 0,4 %, was laut ZIP die zugrunde liegende Rate unterschätzen könnte, weil die Hashpower in Pools konzentriert ist.
 - **Theoretisch bei 25 Sekunden:** etwa 3,26 %, basierend auf gemessenen Zcash-Weiterleitungsverzögerungen.
 - **Devnet-Test:** 99 geografisch verteilte Zebra-Knoten, die vollständige 2-MB-Blöcke im Abstand von 25 Sekunden erzeugten, maßen eine Rate veralteter Blöcke von 4,86 % und eine Fork-Rate von 0,37 %. Die einzige erforderliche Anpassung betraf die TCP-Konfiguration. Da dieses Devnet stärker dezentralisiert war als das heutige Mainnet, betrachtet ZIP diese Werte als nahe am Worst Case.
 - **Referenzpunkt:** ZIP verwendet Ethereums historische Proof-of-Work-Rate veralteter Blöcke von 5,4 % als Sicherheitsgrenzwert. Beide Devnet-Werte liegen darunter.
@@ -110,7 +110,7 @@ Daneben gibt es zwei kleinere Kosten. Light Wallets laden pro Tag etwa 200 KB me
 
 - **Status von ZIP:** Vorgeschlagen. Verantwortliche: Dev Ojha und Evan Forbes; erstellt am 13. März 2026.
 - **Coinholder-Umfrage:** am 14. September 2026 mit 99,9 % Zustimmung abgeschlossen. Die Umfrage signalisiert eine Präferenz; sie ändert nicht selbstständig Konsensregeln.
-- **Zeitplan:** In einer Ankündigung im Community Forum von Zcash am 17. September vereinbarten die Entwicklungsorganisationen einen Zeitplan mit Code Complete bis zum 30. September, NU7 im Testnet am 6. Oktober und einer endgültigen Entscheidung am 20. Oktober. Die Mainnet-Aktivierungshöhe ist nun auf 3.543.405 festgelegt ([ZIP 259](https://zips.z.cash/zip-0259)), mit einer Zielsetzung für etwa den 5. November 2026.
+- **Zeitplan:** In einer Ankündigung im Community Forum von Zcash am 17. September vereinbarten die Entwicklungsorganisationen einen Zeitplan mit Code Complete bis zum 30. September, NU7 im Testnet am 6. Oktober und einer endgültigen Entscheidung am 20. Oktober. NU7 wurde am 6. November 2026 (UTC) bei Blockhöhe 3.543.405 im Mainnet aktiviert ([ZIP 259](https://zips.z.cash/zip-0259)); das Ziel von 25 Sekunden ist damit jetzt in Kraft.
 - **Implementierung:** nachverfolgt in Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) und in Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Was dies für dich bedeutet

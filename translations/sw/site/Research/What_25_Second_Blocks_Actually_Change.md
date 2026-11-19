@@ -6,7 +6,7 @@ Ukurasa huu unaeleza ZIP 218 kwa kutegemea maandishi yake yenyewe: kile kinachob
 
 ## Toleo fupi
 
-| | Leo | Baada ya ZIP 218 |
+| | Kabla ya NU7 | Baada ya ZIP 218 (NU7) |
 |---|---|---|
 | Nafasi lengwa kati ya block | Sekunde 75 | Sekunde 25 |
 | Block kwa siku | 1,152 | 3,456 |
@@ -22,7 +22,7 @@ Block nyingi mara tatu, kila moja ikilipa thuluthi moja ya kiasi. Ratiba ya ugav
 
 ## Kwa nini kubadilisha muda wa block
 
-Lengo kuu ni **kupunguza muda wa kusubiri**. Leo, malipo [payment] husubiri sekunde 75 kwa wastani ili kupata uthibitisho wake wa kwanza, bila kujali mzigo wa mtandao. Kwa sekunde 25, hali hiyo hushuka hadi sekunde 25 kwa wastani. ZIP inataja malipo ya sehemu za mauzo, amana za soko la kubadilishana sarafu [exchange], na madaraja ya cross-chain kama matumizi yanayohisi jambo hili zaidi.
+Lengo kuu ni **kupunguza muda wa kusubiri**. Kabla ya NU7, malipo yalisubiri sekunde 75 kwa wastani ili kupata uthibitisho wake wa kwanza, bila kujali mzigo wa mtandao. Kwa sekunde 25, muda huo hushuka hadi sekunde 25 kwa wastani. ZIP inataja malipo ya sehemu za mauzo, amana za soko la kubadilishana sarafu, na madaraja ya cross-chain kama matumizi yanayoathirika zaidi na jambo hili.
 
 Mambo mawili kutoka kwenye ZIP yanafaa kuzingatiwa:
 
@@ -55,10 +55,10 @@ ZIP 218 huongeza vikomo vya kiasi cha shughuli za faragha ambacho block moja ina
 
 | Kikomo | Kiwango cha juu kwa block |
 |---|---|
-| Mabwawa yote ya faragha kwa pamoja | 330 (kila JoinSplit ya Sprout huhesabiwa kama 2) |
+| Mabwawa yote ya faragha kwa pamoja | 330 (kila Sprout JoinSplit huhesabiwa kama 2) |
 | Vitendo vya Orchard | 330 |
 | Ingizo pamoja na matokeo ya Sapling | 300 |
-| JoinSplit za Sprout | 25 |
+| Sprout JoinSplits | 25 |
 
 Sehemu za uwazi [transparent] za miamala haziathiriki, na kikomo cha ukubwa wa block cha MB 2 bado kinatumika.
 
@@ -99,7 +99,7 @@ Haya ni mapendekezo kwa utekelezaji badala ya kanuni za makubaliano [consensus]:
 
 Block za haraka zaidi si za bure. Block iliyopitwa na wakati ni block halali inayopoteza mbio za kujumuishwa katika mnyororo [chain] kwa sababu block nyingine ilifikia mtandao kwanza. Kadiri pengo kati ya block linavyokuwa fupi, ndivyo hali hii hutokea mara nyingi zaidi, na ZIP inahusisha kiwango cha block zilizopitwa na wakati na uenezaji wa block, muda wa uthibitishaji, na hatari ya mkusanyiko wa uchimbaji [mining].
 
-- **Leo:** Takribani 0.4%, ambayo ZIP inabainisha inaweza kupunguza kiwango halisi kwa sababu hashpower imekusanyika katika mabwawa.
+- **Kabla ya NU7:** Takribani 0.4%, ambayo ZIP inabainisha inaweza kupunguza kiwango halisi kwa sababu nguvu ya hash imekusanyika katika mabwawa.
 - **Kidhahania kwa sekunde 25:** Takribani 3.26%, kwa kutegemea ucheleweshaji uliopimwa wa uenezaji wa Zcash.
 - **Jaribio la Devnet:** Node 99 za Zebra zilizosambazwa kijiografia zikizalisha block kamili za MB 2 kwa nafasi ya sekunde 25 zilipima kiwango cha block zilizopitwa na wakati cha 4.86% na kiwango cha fork cha 0.37%. Urekebishaji pekee uliohitajika ulikuwa usanidi wa TCP. Kwa sababu devnet hiyo ilikuwa imegatuliwa [decentralized] zaidi kuliko mainnet ya leo, ZIP huzichukulia hizi kama takwimu zilizo karibu na hali mbaya zaidi.
 - **Kigezo cha marejeleo:** ZIP hutumia kiwango cha kihistoria cha block zilizopitwa na wakati cha Ethereum cha uthibitisho wa kazi [proof-of-work] cha 5.4% kama kizingiti chake cha usalama. Takwimu zote mbili za devnet ziko chini yake.
@@ -110,7 +110,7 @@ Pia kuna gharama mbili ndogo. Pochi nyepesi hupakua takribani KB 200 zaidi kwa s
 
 - **Hali ya ZIP:** Imependekezwa. Wamiliki ni Dev Ojha na Evan Forbes; iliundwa tarehe 13 Machi 2026.
 - **Kura ya wamiliki wa sarafu:** Ilifungwa tarehe 14 Septemba 2026, kwa uungwaji mkono wa 99.9%. Kura huashiria upendeleo; haibadilishi kanuni za makubaliano yenyewe.
-- **Ratiba:** Katika tangazo la Community Forum la Zcash tarehe 17 Septemba, mashirika ya maendeleo yalikubaliana kuhusu ratiba ya msimbo kukamilika kufikia tarehe 30 Septemba, NU7 kwenye testnet tarehe 6 Oktoba, na uamuzi wa mwisho tarehe 20 Oktoba. Urefu wa uanzishaji wa mainnet sasa umewekwa kuwa 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), ukilengwa kwa takribani tarehe 5 Novemba 2026.
+- **Ratiba:** Katika tangazo la Community Forum la Zcash tarehe 17 Septemba, mashirika ya maendeleo yalikubaliana kuhusu ratiba ya msimbo kukamilika kufikia tarehe 30 Septemba, NU7 kwenye testnet tarehe 6 Oktoba, na uamuzi wa mwisho tarehe 20 Oktoba. NU7 iliwashwa kwenye mainnet katika urefu wa 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)) tarehe 6 Novemba 2026 (UTC), kwa hivyo lengo la sekunde 25 sasa linafanya kazi.
 - **Utekelezaji:** Unafuatiliwa katika Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) na katika Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Hii inamaanisha nini kwako

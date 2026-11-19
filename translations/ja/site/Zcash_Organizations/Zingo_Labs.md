@@ -13,6 +13,8 @@ Zingo ウォレットは、ユーザーフレンドリーに設計されたフ�
 
 Zingo!の主な機能の1つは、メモ（Memo）フィールドを使用して、トランザクション（transactions）に関する有益な情報を提供できることです。
 
+Zingo 3.0のモバイル版（2026年10月31日）はNU7に対応し、SwapKitを通じたクロスチェーンスワップ機能を標準搭載しています。PCアプリではバージョン2.0.26からSwapKitスワップに対応し、2.0.27からMainnet NU7に対応しています。
+
 Zingo!はモバイルデバイスおよびPCで利用できます。すべてのダウンロードは[こちら](https://zingolabs.org/)でご確認いただけます。
 
 ### Zingolib（[GitHub](https://github.com/zingolabs/zingolib)）

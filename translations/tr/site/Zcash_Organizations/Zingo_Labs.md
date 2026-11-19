@@ -13,6 +13,8 @@ Zingo Cüzdanı, kullanıcı dostu olacak şekilde tasarlanmış, ancak daha ile
 
 Zingo!'ün başlıca özelliklerinden biri, işlemleriniz hakkında değerli bilgiler sunmak için Memo alanını kullanabilmesidir.
 
+Zingo 3.0 mobil sürümü (31 Ekim 2026) NU7 desteği sunar ve SwapKit üzerinden yerleşik zincirler arası takaslar ekler. PC uygulamasında 2.0.26 sürümünden beri SwapKit takasları, 2.0.27 sürümünden beri de Mainnet NU7 desteği bulunur.
+
 Zingo! mobil cihazlar ve bilgisayarlar için kullanılabilir. Tüm indirmeleri [burada](https://zingolabs.org/) bulabilirsiniz
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

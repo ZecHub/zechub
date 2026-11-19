@@ -81,13 +81,13 @@ Dua catatan penting. Tor menyembunyikan IP Anda dari server, tetapi tidak mengub
 
 [Zaino](/zcash-tech/zaino) adalah sebuah indexer yang ditulis dalam Rust oleh tim Zingo, dibuat untuk menggantikan lightwalletd sebagai bagian dari pekerjaan deplesi zcashd. Ini melayani light client, full client, dan block explorer, dengan membaca data chain yang disimpan oleh "baik Zebra maupun validator full zcashd".
 
-Ini sedang dalam pengembangan aktif, dengan versi 0.8.0 yang dirilis pada Agustus 2026. Ini bertujuan untuk tetap kompatibel ke belakang dengan lightwalletd jika memungkinkan, sehingga dompet dapat terhubung dengannya tanpa perlu ditulis ulang.
+Ini sedang dalam pengembangan aktif, dengan versi 0.10.1 yang dirilis pada September 2026. Ini bertujuan untuk tetap kompatibel ke belakang dengan lightwalletd jika memungkinkan, sehingga dompet dapat terhubung dengannya tanpa perlu ditulis ulang.
 
 Zaino memiliki halamannya sendiri dengan diagram arsitektur, sehingga halaman ini hanya mencakup perannya sebagai server dompet light.
 
 ### Menjalankan milik Anda sendiri
 
-Opsi terkuat adalah menjadi operator Anda sendiri, yang sepenuhnya menghilangkan masalah kepercayaan. Kedua server bersifat open source: [lightwalletd](https://github.com/zcash/lightwalletd) dalam Go dan [Zaino](https://github.com/zingolabs/zaino) dalam Rust. Keduanya membaca dari validator full node, jadi Anda juga akan memerlukan [Zebra](/zcash-tech/zebra-full-node).
+Opsi terkuat adalah menjadi operator Anda sendiri, yang sepenuhnya menghilangkan masalah kepercayaan. Kedua server bersifat open source: [lightwalletd](https://github.com/zcash/lightwalletd) dalam Go dan [Zaino](https://github.com/zingolabs/zaino) dalam Rust. Keduanya membaca dari validator full node, jadi Anda juga akan memerlukan [Zebra](/zcash-tech/zebra-full-node). Server zec.rocks diterapkan menggunakan [Zcash Stack](/guides/zcash-stack), sebuah chart Helm open source dan kit Compose Docker yang menjalankan Zebra dan lightwalletd secara bersamaan.
 
 ## Implikasi Praktis
 
@@ -117,11 +117,9 @@ Jalur menu di bawah ini sudah benar saat halaman ini diperbarui, namun antarmuka
 
 Sebelumnya bernama Zashi. Klik ikon roda gigi di pojok kanan atas, lalu pilih Pengaturan Lanjutan. Tor berada di layar yang sama. ZODL juga menawarkan pintasan Switch server saat kegagalan sinkronisasi disebabkan oleh server yang sudah kedaluwarsa.
 
-#### Ywallet
+#### Zkool
 
-Ikon roda gigi di pojok kanan atas, lalu tab Zcash.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+Penerus Ywallet dari developer yang sama (Ywallet sendiri sudah tidak dipelihara dan tidak dapat mengikuti jaringan setelah Ironwood). Ikon roda gigi (Buka Pengaturan) di bagian atas layar akun, lalu kolom Light Node Server. Tombol daftar di sebelahnya memilih server yang dikenal, dan pengalih Direct / Tor / Nym / Proxy di bawahnya mengatur cara dompet terhubung.
 
 #### Zingo
 
@@ -153,10 +151,11 @@ Dompet light memberikan Anda pool terlindungi tanpa memerlukan ruang disk yang b
 
 ## Halaman Terkait
 
-- [Siapa yang Dapat Melihat Zcash Pembayaran ](/start-here/who-can-see-your-zcash-payment) Anda — pandangan tingkat pemula untuk pertanyaan yang sama.
-- [Apa yang Dapat Dilihat oleh Block Explorer ](/zcash-tech/what-a-block-explorer-can-see) — apa yang terlihat secara on-chain, berbeda dengan apa yang ada di server.
-- [Zaino](/zcash-tech/zaino) — diagram arsitektur dan peran yang lebih luas dari Rust indexer.
-- [Zebra Full Node ](/zcash-tech/zebra-full-node) — validator yang dibaca oleh server light wallet.
-- [Zcash Sinkronisasi Dompet ](/zcash-tech/zcash-wallet-syncing) — bagaimana compact blocks yang dikirimkan oleh server diproses oleh dompet Anda.
+- [Siapa yang Dapat Melihat Pembayaran Zcash](/start-here/who-can-see-your-zcash-payment) — penjelasan tingkat pemula tentang pertanyaan yang sama.
+- [Yang Dapat Dilihat Penjelajah Blok](/zcash-tech/what-a-block-explorer-can-see) — hal yang terlihat on-chain, berbeda dengan yang terlihat di server.
+- [Zaino](/zcash-tech/zaino) — diagram arsitektur dan peran Rust indexer yang lebih luas.
+- [Zinder](/zcash-tech/zinder) — indexer alfa milik Zcash Foundation, yang melayani dompet ringan melalui adapter yang kompatibel dengan lightwalletd.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator yang menjadi sumber data server dompet ringan.
+- [Zcash Sinkronisasi Dompet](/zcash-tech/zcash-wallet-syncing) — cara dompet Anda memproses blok ringkas yang dikirim server.
 
 **Terakhir diperbarui:** Agustus 2026

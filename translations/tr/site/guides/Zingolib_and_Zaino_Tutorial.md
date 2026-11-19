@@ -43,10 +43,11 @@ Bunun düzgün çalışması için 3 şey kurmanız gerekecek. Ekran yönetimine
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Zebra 7.0.0 veya daha yeni bir sürümünü kullanın: NU7 Mainnet'te 3.543.405. blokta etkinleştirildi ve daha eski `zebrad` sürümleri zinciri bu yüksekliğin ötesinde takip edemez ([sürüm notları](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *isteğe bağlı* (zebrad için bir screen oturumu oluşturun)
 
 ```

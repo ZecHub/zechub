@@ -43,10 +43,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+使用 Zebra 7.0.0 或更高版本：NU7 在 Mainnet 的区块 3,543,405 激活，旧版 `zebrad` 无法跟随链超过该高度（[发行说明](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)）。
+
 *可选*（为 zebrad 创建一个 screen 会话）
 
 ```

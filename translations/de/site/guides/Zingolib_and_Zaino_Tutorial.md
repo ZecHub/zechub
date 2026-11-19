@@ -43,10 +43,11 @@ Du musst 3 Dinge installieren, damit das korrekt funktioniert. Ich empfehle auß
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Verwende Zebra 7.0.0 oder neuer: NU7 wurde im Mainnet bei Block 3.543.405 aktiviert, und ältere Versionen von `zebrad` können der Chain nicht über diese Höhe hinaus folgen ([Versionshinweise](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *optional* (eine `screen`-Sitzung für zebrad erstellen)
 
 ```

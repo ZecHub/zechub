@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Weebụsaịtị: https://github.com/firoorg/FiroDEX-Desktop
-- Nkọwa: Mgbawe decentralized enweghị ntụkwasị obi site n'iji atomic swaps na FiroDEX!.
+- Nkọwa: Ngwa kọmputa maka Mgbawe atomic. A naghị elekọta ya ọzọ: Firo edobela ebe nchekwa FiroDEX-Desktop n'akwụkwọ ndekọ, ewepụtara ụdị ikpeazụ ya bụ 0.8.2-beta (Febụwarị 2025).
 
 ___
 

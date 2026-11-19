@@ -45,7 +45,7 @@ ZEC는 [수탁형 거래소](/using-zcash/custodial-exchanges), [DEX](/using-zca
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash는 Bitcoin이나 Ethereum보다 근본적으로 더 프라이빗합니다. 빠른 블록 시간(75초), 낮은 수수료 및 정기적인 업그레이드를 제공합니다.
+Zcash는 Bitcoin이나 Ethereum보다 근본적으로 더 프라이빗합니다. NU7이 2026년 11월 활성화된 이후 블록 시간이 75초에서 25초로 단축되었으며, 수수료가 낮고 정기적으로 업그레이드됩니다.
 
 사용자는 **투명한** 거래와 **차폐된** 거래 중에서 선택할 수 있습니다. 자세한 내용은 [차폐된 생태계](https://electriccoin.co/blog/shielded-ecosystem)를 참조하세요.
 

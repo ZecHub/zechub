@@ -90,7 +90,7 @@ Zcash Sapling na-eme ka ndị ọrụ nwee ike ime Azụmahia nzuzo n'ime sekọ
 
 Ichebe Azụmahia na-eme ka Nzuzo ka mma, na-eme ka ọ ghara ikwe omume ka ndị ọzọ jikọọ Azụmahia ma chọpụta ọnụọgụ ZEC a na-ebufe. Sapling na-emekwa ka ịdị mfe iji ka mma site n'ibelata ihe achọrọ n'akụkụ mgbakọ iji mepụta Azụmahia nzuzo, wee mee ka ọ dịrị ndị ọrụ mfe iru.
 
-Adreesị e-akpa ego Sapling na-amalite na "zs", a pụkwara ịhụ nke a na e-akpa ego e chebere echebe Zcash niile akwadoro (Zkool, Zingo Wallet, Nighthawk wdg.) nke nwere Adreesị akpa ego Sapling arụnyere n'ime ya. Zcash Sapling na-anọchite anya nnukwu mmepe teknụzụ gbasara Nzuzo na arụmọrụ Azụmahia, nke na-eme Zcash ka ọ bụrụ cryptocurrency bara uru ma dị irè maka ndị ọrụ ji Nzuzo na nchekwa kpọrọ ihe.
+Adreesị e-akpa ego Sapling na-amalite na "zs", a pụkwara ịhụ nke a na e-akpa ego nke e chebere echebe Zcash niile akwadoro (Zkool, Zingo Wallet wdg.) nke nwere Adreesị akpa ego Sapling arụnyere n'ime ya. Zcash Sapling na-anọchite anya nnukwu mmepe teknụzụ gbasara Nzuzo na arụmọrụ Azụmahia, nke na-eme Zcash ka ọ bụrụ cryptocurrency bara uru ma dị irè maka ndị ọrụ ji Nzuzo na nchekwa kpọrọ ihe.
 
 ____
 

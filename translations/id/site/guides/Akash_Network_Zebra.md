@@ -1,6 +1,6 @@
 # Cara menjalankan Zebra di Akash Network
 
-Panduan langkah demi langkah untuk menyebarkan Zcash full node Zebra menggunakan [Akash Console](https://console.akash.network).
+Panduan langkah demi langkah untuk menyebarkan Zebra Zcash full node di Akash.
 
 ### Apa yang Kamu Deploy
 
@@ -15,54 +15,92 @@ Sebuah node Zebra full yang akan:
 -> Gunakan 4 vCPU, 16GB RAM, penyimpanan 350GB (mainnet) atau 2 vCPU, 8GB RAM, 50GB (testnet)
 
 
-### Penting: Pemetaan Port pada Akash
+Template awesome-akash kini menetapkan versi tetap **Zebra 7.0.0** (jangan pernah `:latest`). Template ini mengaktifkan Prometheus (`9999`) dan health (`8080`) secara internal, JSON-RPC secara internal untuk **lightwalletd** yang ditempatkan bersama melalui gRPC **9067**, serta feature flag `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`.
 
-Saat kamu mengekspos sebuah port di Akash (misalnya, port 8233 untuk P2P Zebra), port tersebut **TIDAK akan terikat ke port yang sama persis** pada IP publik penyedia. Sebaliknya, penyedia akan menetapkan sebuah high port acak (seperti 31234 atau 42567) dan melakukan reverse-proxy ke port 8233 milik kontainer kamu.
+Untuk node Mainnet yang sudah dipangkas dan berjalan lebih cepat, lihat [Cara menjalankan Zakura di Akash](/guides/akash-network-zakura). Untuk dashboard Regtest sementara, lihat [Demikianlah Sabda Zakura di Akash](/guides/thus-spoke-zakura-akash).
 
-Ini memang sudah dirancang seperti itu - penyedia menjalankan beberapa deployment, dan mereka akan mengalami konflik jika semua orang mencoba menggunakan port 8233 secara langsung.
+### Cara Akash memublikasikan port
 
-**Apa artinya ini bagimu:**
+Angka-angka dalam SDL (`port` / `as`) adalah **port container**. Zebra tetap mendengarkan pada **8233**, lightwalletd pada **9067**, dan pemeriksaan kesehatan pada **8080**. Angka-angka tersebut berlaku untuk proses dan layanan lain dalam deployment yang sama (`zebra:8232`).
 
--> Kamu mengonfigurasi port 8233 di SDL (port P2P standar Zebra)
+Itu **bukan** port pada IP publik penyedia.
 
--> Akash memberikan kamu URI seperti *provider.com:31234*
+**Default (template ini):** tidak ada IP khusus. Untuk setiap expose TCP `global: true`, provider memetakan **port tinggi acak** pada host bersama ke port container kamu. Setelah masa sewa berakhir, **Leases → URIs** di Console/Air mencantumkan endpoint yang sebenarnya, misalnya:
 
--> Node Zcash lainnya terhubung ke kamu di *provider.com:31234*
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
-Di dalam kontainer kamu, Zebra masih mendengarkan pada port 8233
+Peer dan dompet menggunakan nilai host:port **tersebut**. Salin URI untuk expose yang kamu perlukan (P2P vs lightwalletd). Jika kamu mengatur `ZEBRA_NETWORK__EXTERNAL_ADDR`, atur ke URI P2P yang dipetakan (`provider.example:31482`), bukan `…:8233`.
 
+**HTTP** (`as: 80` dengan `http_options`, digunakan di dashboard Thus Spoke): banyak penyedia menerbitkan **nama host ingress** (sering kali di port 80/443) alih-alih port TCP acak. Buka URI untuk layanan tersebut di browser.
 
-Ini ditangani secara otomatis. Cukup gunakan URI yang diberikan oleh Akash kepada kamu.
+**Internal** (`global: false` atau `to: service: lightwalletd`): hanya DNS cluster (`zebra:8232`). Tidak ada URI publik.
+
+**IP Khusus** (`endpoints` / `kind: ip` di SDL) adalah **fitur premium tambahan**. IP khusus dapat menetapkan IP publik dan terkadang port `as` pada IP tersebut. Template ini **tidak** memintanya. Tambahkan sendiri nanti jika kamu menginginkan `host:8233` yang stabil; perkirakan biaya tambahan dan lebih sedikit penyedia yang bisa kamu pilih.
+
+### Situs yang digunakan (pembayaran)
+
+SDL-nya sama. Kedua Akash UI web berbeda dalam **cara kamu membayar**.
+
+| Situs | Pembayaran | Dompet |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Pembayaran web konvensional (kartu / jaringan fiat yang ditawarkan Console) | Akun Console |
+| [air.akash.network](https://air.akash.network) | Pembayaran Akash native (AKT / ACT) | **Keplr** |
+
+Gunakan **Air** saat kamu ingin membayar dengan Keplr secara on-chain. Gunakan **Console** saat kamu ingin menggunakan alur pembayaran web konvensional. Jangan berharap ada penyelesaian native Keplr di Console.
 
 ### Prasyarat
 
-1. Ekstensi browser **Keplr Wallet** sudah terinstal (Chrome/Brave/Firefox)
-2. **token AKT** - Dapatkan 50-100 AKT dari sebuah exchange (Coinbase, Kraken, Osmosis)
-3. **5 menit** untuk menelusuri UI Console
+**Jika kamu membayar melalui Console (checkout web)**
 
-#### Langkah 1: Hubungkan Dompet Kamu
+1. Akun Console di [console.akash.network](https://console.akash.network)
+2. Metode pembayaran yang diterima UI Console
+3. Beberapa menit di UI
+
+**Jika kamu membayar di Air (native Akash / Keplr)**
+
+1. **Ekstensi browser Keplr** (Chrome/Brave/Firefox)
+2. **AKT / ACT** di Keplr untuk deposit dan lease (dari exchange atau IBC)
+3. Buka [air.akash.network](https://air.akash.network)
+
+#### Langkah 1: Hubungkan
+
+**Console (pembayaran web)**
 
 → Buka [https://console.akash.network](https://console.akash.network)
 
--> Klik **"Connect Wallet"** di pojok kanan atas
+-> Masuk / selesaikan alur akun Console
 
--> Pilih **Keplr** (atau dompet Cosmos pilihanmu)
+Gunakan checkout yang ditampilkan UI (bukan Keplr on-chain)
 
-→ Setujui koneksi saat Keplr muncul
+**Air (pembayaran native Akash)**
 
+-> Buka [https://air.akash.network](https://air.akash.network)
 
-Saldo AKT kamu seharusnya muncul di kanan atas. Jika saldonya nol, isi saldo dompet kamu terlebih dahulu.
+-> Klik **"Connect Wallet"**
+
+-> Pilih **Keplr** dan setujui koneksinya
+
+-> Pastikan saldo AKT/ACT kamu cukup untuk deposit dan sewa
 
 #### Langkah 2: Membuat Deployment
 
--> Klik tombol **"Deploy"** (tombol biru besar, di tengah halaman)
+-> Klik **"Deploy"**
 
 -> Pilih **"Build your template"** (atau lewati langsung ke pengunggahan SDL)
 
 
 ##### Opsi A: Unggah File SDL (Direkomendasikan)
 
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Pembayaran web (Console)**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**Pembayaran Akash native dengan Keplr (Air)**
+
+[Buka template ini di Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Opsi B: Gunakan Editor SDL
 
@@ -79,13 +117,13 @@ Jika kamu ingin menempelkan [SDL](https://github.com/akash-network/awesome-akash
 
 #### Langkah 3: Tinjau dan Setujui Deposit
 
-Konsol akan menunjukkan padamu:
+UI akan menampilkan:
 
 -> **Deposit deployment**: ~5 AKT (kamu akan mendapatkan ini kembali saat kamu menutup deployment)
 
 -> **Estimasi biaya**: Berdasarkan harga SDL kamu
 
-Klik **"Approve"** dan tanda tangani transaksi di Keplr.
+Di **Air**, klik **"Approve"** dan masuk ke **Keplr**. Di **Console**, selesaikan proses checkout web yang ditampilkan UI.
 
 #### Langkah 4: Pilih Penyedia
 
@@ -107,7 +145,7 @@ Setelah ~ 30 detik, kamu akan melihat penawaran dari penyedia layanan. Setiap pe
 -> Status audit (tanda centang hijau = lebih tepercaya)
 
 
-Klik **"Accept Bid"** pada penyedia yang kamu pilih dan tanda tangani di Keplr.
+Klik **"Accept Bid"** pada provider pilihanmu. Di Air, masuk Keplr. Di Console, konfirmasikan melalui alur pembayaran web.
 
 #### Langkah 5: Tunggu Deployment
 
@@ -158,15 +196,14 @@ Klik pada tab **Leases**, lalu **URIs**.
 
 Kamu akan melihat sesuatu seperti:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-Ini adalah **endpoint P2P publik** milik node kamu. Node Zcash lainnya akan terhubung ke kamu di alamat ini.
+Setiap baris adalah expose `global: true`. Namanya mencakup port SDL `as` (8233, 9067). Angka setelah hostname adalah **port yang dipetakan oleh provider**, yang ditetapkan saat lease. Node Zcash lainnya terhubung ke `provider-hostname.com:31482`. Dompet ringkas menggunakan URI lightwalletd (TLS nonaktif kecuali kamu mengakhiri TLS sendiri).
 
-**Perhatikan pemetaan port:** Kamu mengonfigurasi port 8233 di SDL, tetapi Akash menetapkannya ke port publik yang berbeda (31234 dalam contoh ini). Hal ini normal - lihat bagian "Port Mapping on Akash" di bagian atas jika ini membingungkan kamu. Node kamu dapat diakses pada port mana pun yang ditunjukkan oleh Akash di sini, tidak harus 8233.
-
-Jika kamu mengaktifkan RPC (secara default dinonaktifkan dalam SDL), kamu juga akan melihat endpoint RPC di sini dengan port terpetakan miliknya sendiri.
+Container tetap mendengarkan pada port 8233 / 9067. Alamat publik selalu berupa URI, kecuali jika nanti kamu menambahkan IP khusus (tidak termasuk dalam templat ini).
 
 ### Opsi Konfigurasi
 
@@ -267,7 +304,7 @@ RPC dinonaktifkan secara default demi keamanan. Untuk mengaktifkannya:
 
 **Peringatan**: Jika kamu mengatur *global: true* untuk RPC, kamu mengeksposnya ke internet. Zebra menggunakan autentikasi cookie secara default, namun tetap saja - jangan lakukan ini kecuali kamu tahu apa yang kamu lakukan.
 
-**Pengingat pemetaan port**: Meskipun kamu mengekspos RPC secara global, Akash akan memetakannya ke port tinggi acak (bukan 8232/18232). Periksa URI dalam deployment kamu untuk melihat endpoint publik yang sebenarnya. Untuk *global: false* (direkomendasikan), endpoint RPC hanya dapat diakses di dalam jaringan deployment Akash, bukan dari internet publik.
+Jika kamu mengekspos RPC dengan `global: true`, alamat publiknya tetap berupa **lease URI** (`host:&lt;random-high-port&gt;`), bukan `host:8232`. Dengan `global: false` (templat ini), RPC tetap berada di jaringan deployment (`zebra:8232` untuk lightwalletd). Lease IP khusus adalah opsi berbayar yang terpisah dan tidak termasuk dalam SDL.
 
 #### Mengaktifkan Metrik (Prometheus)
 
@@ -319,7 +356,7 @@ Temukan deployment Zebra kamu
 
 -> Edit SDL
 
--> Klik **"Update"** dan setujui di Keplr
+-> Klik **"Perbarui"** (Air: masuk Keplr; Console: konfirmasi alur pembayaran web)
 
 **Catatan**: Pembaruan akan memulai ulang kontainer kamu. Node akan melanjutkan dari status yang tersimpan (penyimpanan persisten), tetapi harap antisipasi waktu henti selama 1-2 menit.
 
@@ -348,7 +385,7 @@ Temukan deployment Zebra kamu
 
 -> Klik **"Close Deployment"**
 
--> Konfirmasi dan tanda tangani di Keplr
+-> Konfirmasi (Air: masuk Keplr; Console: konfirmasi di UI Console)
 
 Deposit 5 AKT kamu akan dikembalikan. **Penyimpanan persisten** seharusnya tetap dijaga oleh penyedia layanan, tetapi jangan mengandalkannya - perlakukan hal tersebut seperti penyedia cloud lainnya.
 
@@ -356,7 +393,7 @@ Deposit 5 AKT kamu akan dikembalikan. **Penyimpanan persisten** seharusnya tetap
 
 #### Kesalahan "Saldo tidak cukup"
 
-Kamu butuh lebih banyak AKT. Isi saldo dompet Keplr kamu.
+Di Air, danai Keplr dengan AKT/ACT. Di Console, top up metode pembayaran Console.
 
 #### Tidak ada penawaran yang muncul
 
@@ -394,12 +431,11 @@ Selamanya:
 
 ### Manajemen Biaya
 
-Pantau pengeluaran kamu di Console:
+Pantau pengeluaranmu di Console atau Air:
 
 -> **Deployment Saya** -> Deployment kamu -> Menampilkan estimasi "Biaya per bulan"
 
-Saldo dompet Keplr kamu akan berkurang seiring berjalannya waktu
-
+-> Air: saldo AKT/ACT Keplr kamu berkurang seiring waktu. Console: saldo pembayaran Console kamu berkurang.
 
 Saat saldo kamu menipis, Akash akan menutup deployment kamu secara otomatis. **Isi ulang dompet kamu secara berkala** atau atur peringatan.
 
@@ -433,7 +469,9 @@ Mulailah dengan Testnet jika kamu hanya sedang menguji proses deployment. Lihat 
 
 ### Sumber Daya Tambahan
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Console** (pembayaran web): [https://console.akash.network](https://console.akash.network)
+
+**Air Akash** (AKT/ACT native + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Dokumentasi Akash**: [https://akash.network/docs/](https://akash.network/docs/)
 

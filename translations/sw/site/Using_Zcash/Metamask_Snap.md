@@ -2,30 +2,30 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Mwongozo wa Ujumuishaji wa MetaMask Zcash Snap
+# Mwongozo wa Uunganishaji wa MetaMask Zcash Snap
 
-> Hifadhi na tuma ZEC ya faragha [shielded] kutoka kwenye kiendelezi cha kivinjari cha MetaMask, ukitumia ChainSafe ya Zcash Snap na pochi ya wavuti ya WebZjs.
+> Hifadhi na utume ZEC za faragha kutoka kwenye kiendelezi cha kivinjari cha MetaMask, ukitumia Zcash Snap ya ChainSafe na pochi ya wavuti ya WebZjs.
 
-## Kwa Ufupi
+## Muhtasari
 
-* ChainSafe Zcash Snap huongeza ZEC ya faragha kwenye MetaMask kwenye kompyuta ya mezani (Chrome, Edge, Firefox). Hakuna programu tofauti ya Zcash inayohitajika.
-* Funguo zako za Zcash hutokana na maneno yako ya kurejesha pochi [recovery phrase] ya MetaMask. Maneno hayo moja sasa hulinda ETH yako na ZEC yako.
-* Unasimamia ZEC kupitia pochi ya WebZjs katika webzjs.chainsafe.dev, si katika orodha ya mali za MetaMask.
-* Akaunti yako hupata anwani iliyounganishwa, hivyo watumaji hukulipa katika bwawa la faragha zaidi linalotumika kwao.
-* Iwekeze kwa kubadilisha (kwa mfano ETH kuwa ZEC) au kwa kutoa ZEC kutoka soko la kubadilishana sarafu hadi anwani yako ya faragha.
-* Urejeshaji: sakinisha upya MetaMask na Snap, kisha ingiza maneno yako yaliyopo ya kurejesha pochi.
+* ChainSafe Zcash Snap huongeza ZEC za faragha kwenye MetaMask kwenye kompyuta za mezani (Chrome, Edge, Firefox). Hakuna programu tofauti ya Zcash inayohitajika.
+* Funguo zako za Zcash zinatokana na maneno yako ya kurejesha pochi ya MetaMask. Maneno hayo hayo sasa hulinda ETH yako na ZEC yako.
+* Unadhibiti ZEC kupitia pochi ya WebZjs katika webzjs.chainsafe.dev, wala si kwenye orodha ya mali ya MetaMask yenyewe.
+* Akaunti yako hupata anwani iliyounganishwa, kwa hivyo watumaji hukulipa kupitia bwawa la faragha zaidi linaloungwa mkono nao.
+* Ipe fedha kwa kubadilisha (kwa mfano ETH kuwa ZEC) au kwa kutoa ZEC kutoka kwenye soko la kubadilishana sarafu na kuzituma kwenye anwani yako ya faragha.
+* Urejeshaji: sakinisha tena MetaMask na Snap, kisha uingize maneno yako ya awali ya kurejesha pochi.
 
 ## Maelezo ya Msingi
 
-MetaMask Snap ni nyongeza ndogo, iliyotengwa, inayofundisha MetaMask blockchain mpya. Zcash Snap, iliyoundwa na ChainSafe na kukaguliwa na Hacken, huwezesha MetaMask kupata funguo za Zcash kutoka kwenye maneno yako yaliyopo ya kurejesha pochi na kutia sahihi miamala ya Zcash.
+MetaMask Snap ni programu jalizi ndogo iliyowekwa kwenye mazingira yaliyotengwa, inayofundisha MetaMask blockchain mpya. Zcash Snap, iliyoundwa na ChainSafe na kukaguliwa na Hacken, huwezesha MetaMask kupata funguo za Zcash kutokana na maneno yako ya awali ya kurejesha pochi na kusaini miamala ya Zcash.
 
-MetaMask yenyewe haionyeshi salio la ZEC. Badala yake, pochi ya wavuti ya WebZjs huunganishwa na Snap, husawazisha na mtandao wa Zcash kupitia seva ya lightwalletd, na huonyesha anwani na salio lako. Mathibitisho ya faragha huhesabiwa katika kivinjari chako kwa kutumia WebAssembly, ndiyo sababu kutuma kunaweza kuchukua muda mfupi.
+MetaMask yenyewe haionyeshi salio la ZEC. Badala yake, pochi ya wavuti ya WebZjs huunganishwa na Snap, husawazisha data na mtandao wa Zcash kupitia seva ya lightwalletd, na kuonyesha anwani na salio lako. Mathibitisho ya faragha hukokotolewa kwenye kivinjari chako kwa kutumia WebAssembly, ndiyo maana kutuma kunaweza kuchukua muda mfupi.
 
-Hatua zilizo hapa chini zinahusu kusakinisha Snap, kuunganisha WebZjs, kuweka fedha kwenye pochi, kutuma na kupokea, na kuangalia sehemu za anwani yako iliyounganishwa.
+Hatua zilizo hapa chini zinaeleza jinsi ya kusakinisha Snap, kuunganisha WebZjs, kuweka fedha kwenye pochi, kutuma na kupokea, na kuangalia sehemu za anwani yako iliyounganishwa.
 
 ## Mwongozo Kamili
 
-Kwa maelekezo kamili na ufafanuzi wa kuona, tazama mwongozo huu wa [**YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
+Kwa maelekezo kamili ya hatua kwa hatua na maelezo ya picha, tazama mwongozo huu wa [**YouTube**](https://www.youtube.com/watch?v=UJh9Ilkohdw): 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -39,26 +39,26 @@ Kwa maelekezo kamili na ufafanuzi wa kuona, tazama mwongozo huu wa [**YouTube**]
 </div>
      
 
-MetaMask sasa inasaidia **Zcash ya faragha (ZEC)** kupitia **ChainSafe Zcash Snap iliyotengenezwa**, ikikuruhusu kutuma, kupokea, na kusimamia ZEC za faragha moja kwa moja katika pochi yako ya kivinjari. Imekaguliwa na **Hacken** na kuorodheshwa katika **Orodha rasmi ya Snaps ya MetaMask**, haihitaji **programu tofauti ya Zcash** - ni MetaMask na Snap pekee.
+MetaMask sasa inaunga mkono **Zcash za faragha (ZEC)** kupitia **ChainSafe Zcash Snap iliyotengenezwa**, hivyo hukuwezesha kutuma, kupokea na kudhibiti ZEC za faragha moja kwa moja kwenye pochi ya kivinjari chako. Imekaguliwa na **Hacken** na kuorodheshwa kwenye **Orodha Rasmi ya Snaps ya MetaMask**, na haihitaji **programu tofauti ya Zcash**—unahitaji tu MetaMask na Snap.
 
 ---
 
 ## **Mahitaji ya Awali**
 
 
-> Kiendelezi cha [**MetaMask**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) (kompyuta ya mezani pekee) - Chrome, Edge, au Firefox.
-> Akaunti ya MetaMask - Maneno ya kurejesha pochi yamelindwa; Snap hupata funguo za Zcash kutoka kwayo.  
-> Muunganisho thabiti wa Intaneti - Kwa kusawazisha na mtandao wa Zcash.  
-> Fedha - ETH ya kubadilisha kuwa ZEC au ZEC kutoka soko la kubadilishana sarafu.
+> [**Kiendelezi cha MetaMask**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) (kompyuta za mezani pekee) - Chrome, Edge au Firefox.
+> Akaunti ya MetaMask - Maneno ya kurejesha pochi yamehifadhiwa salama; Snap hupata funguo za Zcash kutokana nayo.  
+> Muunganisho Imara wa Intaneti - Kwa kusawazisha data na mtandao wa Zcash.  
+> Fedha - ETH ya kubadilisha kuwa ZEC au ZEC kutoka kwenye soko la kubadilishana sarafu.
 
-> **Dokezo:** Linda maneno yako ya kurejesha pochi ya MetaMask - yanadhibiti ETH na ZEC zako.
+> **Kidokezo:** Linda maneno yako ya kurejesha pochi ya MetaMask - yanadhibiti ETH yako na ZEC.
 
 ---
 
 ## **1. Sakinisha Zcash Snap**
 
-1. Nenda kwenye [**Orodha ya Snaps ya MetaMask**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
-2. Tafuta [**"Pochi ya Faragha ya Zcash"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/) au [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/chainsafe/webzjs-zcash-snap/).  
+1. Nenda kwenye [**Orodha ya Snaps ya MetaMask**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/).  
+2. Tafuta [**"Pochi ya Zcash WebZjs"**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/) au [**"WebZjs Zcash Snap"**](https://snaps.metamask.io/snap/npm/zcashcommunitygrants/webzjs-zcash-snap/).  
 3. Bofya **Sakinisha/Ongeza kwenye MetaMask**.
 4. Idhinisha ruhusa kama vile:
    ```
@@ -71,9 +71,9 @@ MetaMask sasa inasaidia **Zcash ya faragha (ZEC)** kupitia **ChainSafe Zcash Sna
 
 ---
 
-## **2. (Si Lazima) Ongeza Mtandao wa Zcash**
+## **2. (Si lazima) Ongeza Mtandao wa Zcash**
 
-Katika MetaMask, chagua **Ongeza Mtandao** na uingize:
+Katika MetaMask, chagua **Ongeza Mtandao** na uweke:
 
 Kwa **BNB SmartChain**;
 ```markdown
@@ -83,20 +83,20 @@ Kwa **BNB SmartChain**;
 -  Symbol: BNB
 -  Block Explorer URL: https://bscscan.com
 ```
-Hii huwezesha taarifa za mtandao na viungo vya kichunguzi.
+Hii huwasha maelezo ya mtandao na viungo vya kichunguzi.
 ![Add-a-custom-Net....](/content-images/S1hq7f2Oel-e1ca8b9044.webp)
 
-Kwa **Mainnet ya Zcash**;
+Kwa **Zcash Mainnet**;
 ```markdown
 - Name: Zcash Mainnet  
 - RPC URL: https://zjs.zec.rocks 
 - Symbol: ZEC
 ```
-`https://zjs.zec.rocks` ni seva ya WebZjs inayooana na (gRPC-web) lightwalletd inayoendeshwa na [zec.rocks](https://zec.rocks) (@emersonian). Kwa testnet, tumia `https://zjs.zec.rocks/testnet`. Ikiwa unaendesha pochi ya wavuti ya WebZjs mwenyewe, hii ndiyo thamani ya kuweka kama `LIGHTWALLETD_PROXY`.
+`https://zjs.zec.rocks` ni seva ya lightwalletd inayooana na WebZjs (gRPC-web), inayoendeshwa na [zec.rocks](https://zec.rocks) (@emersonian). Kwa testnet, tumia `https://zjs.zec.rocks/testnet`. Ukiendesha pochi ya wavuti ya WebZjs wewe mwenyewe, hili ndilo thamani ya kuweka kama `LIGHTWALLETD_PROXY`.
 
 ---
 
-## **3. Unganisha kwenye Pochi ya ChainSafe WebZjs**
+## **3. Unganisha Pochi ya ChainSafe WebZjs**
 
 1. Tembelea [webzjs.chainsafe.dev](https://webzjs.chainsafe.dev).  
 2. Bofya **Unganisha MetaMask Snap**.  
@@ -104,49 +104,49 @@ Kwa **Mainnet ya Zcash**;
 ![Zcash-web-wallet](/content-images/Sk8nSz3dgl-98ce36cc67.webp)
 
 3. Idhinisha muunganisho.  
-4. Tazama muhtasari wa akaunti yako ya Zcash, ikijumuisha:
-   - Anwani zilizounganishwa na Anwani ya Uwazi
+4. Tazama muhtasari wa akaunti yako ya Zcash, unaojumuisha:
+   - Anwani zilizounganishwa na anwani ya Uwazi
 
 ![Account-summary-unif....](/content-images/r17c_Mhdel-f4963826d5.webp)
 
 
-5. Subiri usawazishaji ukamilike.
+5. Subiri usawazishaji wa data ukamilike.
 
 
 
 
 ---
 
-## **4. Weka Fedha Kwenye Pochi Yako**
+## **4. Weka Fedha kwenye Pochi Yako**
 
-> **Badilisha ETH -> ZEC** - Tumia huduma kama **LeoDex** na utume kwenye anwani yako ya faragha.  
-> **Utoaji kutoka Soko la Kubadilishana Sarafu** - Toa ZEC uliyonunua hadi anwani yako ya faragha ya WebZjs.  
+> **Badilisha ETH -> ZEC** - Tumia huduma kama **LeoDex** na utume fedha kwenye anwani yako ya faragha.  
+> **Utoaji kutoka Soko la Kubadilishana Sarafu** - Toa ZEC ulizonunua na kuzituma kwenye anwani yako ya faragha ya WebZjs.  
 
 ![LeoDex-SWAP](/content-images/HyLQ0G2ugg-8d82ef24f6.webp)
 
 
-> => Tumia anwani za faragha (z) kwa **faragha kamili**.
+> => Tumia anwani za faragha (z) ili kupata **faragha kamili**.
 
 ---
 
 ## **5. Tuma / Pokea ZEC**
 
 1. Katika **WebZjs**, nenda kwenye **Hamisha Salio**.  
-2. Ingiza:
+2. Weka:
 ```
    - Shielded recipient address  
    - Amount
 ```
    ![Transfer-Balance](/content-images/rkvcFfhdex-bd55d079eb.webp)
 
-4. Thibitisha muamala katika MetaMask (tia sahihi muamala).  
+4. Thibitisha muamala katika MetaMask (saini muamala).  
 5. Fedha zilizopokelewa zitaonekana katika WebZjs baada ya uthibitisho.
 
 ---
 
-## **6. Thibitisha / Tatua Hitilafu**
+## **6. Thibitisha / Tatua Matatizo**
 
-> Angalia **WebZjs** kwa salio lililosasishwa **(MetaMask haijaorodhesha ZEC moja kwa moja)** .  
+> Angalia **WebZjs** ili kuona salio lililosasishwa **(MetaMask haijaorodhesha ZEC moja kwa moja)** .  
 > Matatizo yakitokea:
   ```
   - Confirm you have the official ChainSafe Snap.  
@@ -155,16 +155,16 @@ Kwa **Mainnet ya Zcash**;
   - Reconnect via **Connect Snap** if needed.
   ``` 
 
-> **Dokezo la Usalama:** Sakinisha tu **ChainSafe Snap iliyokaguliwa**; kagua ruhusa kabla ya kuidhinisha.
+> **Kidokezo cha Usalama:** Sakinisha tu **ChainSafe Snap zilizokaguliwa**; kagua ruhusa kabla ya kuidhinisha.
 
 ---
 
-## **7. Angalia Vipengele vya Anwani**
+## **7. Kagua Vipengele vya Anwani**
 
-1. Nenda kwenye sehemu ya **Pokea** - Anwani yako Iliyounganishwa itaonyeshwa kwa chaguo-msingi.  
-2. Nakili Anwani Iliyounganishwa na utembelee Kichunguzi cha block cha [Zcash](https://mainnet.zcashexplorer.app/).  
+1. Nenda kwenye sehemu ya **Pokea** - Anwani yako Iliyounganishwa itaonyeshwa kwa chaguomsingi.  
+2. Nakili Anwani Iliyounganishwa na tembelea [Zcash Kichunguzi cha Block](https://mainnet.zcashexplorer.app/).  
 3. Bandika Anwani yako Iliyounganishwa kwenye upau wa utafutaji.  
-4. Sasa utaona vipengele vyote vya Anwani Iliyounganishwa, vinavyojumuisha:
+4. Sasa utaona vipengele vyote vya Anwani Iliyounganishwa, ambavyo ni:
 ``` 
    Orchard Address  
    Sapling Address  
@@ -179,8 +179,8 @@ Kwa **Mainnet ya Zcash**;
 
 ## **Maelezo ya Ziada**
 
-> Tumia [**toleo jipya zaidi la MetaMask**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - toleo la umma linaunga mkono Snaps.  
-> Mathibitisho ya faragha yanaweza kuchukua muda, WebAssembly hushughulikia ukokotoaji katika kivinjari.  
-> Urejeshaji ni rahisi, sakinisha MetaMask na Snap, kisha ingiza maneno yako ya kurejesha pochi yaliyopo.  
-> Snap hutumia kwa chaguo-msingi **ZEC ya faragha**, anwani za uwazi **si lengo kuu**.  
-> Tumia [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) kwa uthibitisho wa miamala.
+> Tumia [**toleo la hivi punde la MetaMask**](https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn?hl=en) - toleo la umma linaunga mkono Snaps.  
+> Mathibitisho ya faragha yanaweza kuchukua muda; WebAssembly hushughulikia ukokotoaji ndani ya kivinjari.  
+> Urejeshaji ni rahisi, sakinisha MetaMask na Snap, kisha uingize maneno yako ya awali ya kurejesha pochi.  
+> Snap hutumia ZEC za faragha kama chaguomsingi; anwani za uwazi **si lengo kuu**.  
+> Tumia [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app) ili kuthibitisha miamala.

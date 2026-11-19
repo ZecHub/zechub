@@ -18,17 +18,15 @@ Ni muhimu sana watumiaji waelewe hatari zinazohusika katika kushughulikia funguo
 
 Fedha za zamani za faragha za ZEC zinaweza kuhitaji kuhamishwa kama sehemu ya urejeshaji. Njia hutegemea ni bwawa gani la faragha kwa sasa linashikilia fedha hizo.
 
-> **NU7 imepangwa kufanyika Novemba 5, 2026.** Pindi itakapowashwa, njia ya sasa ya uhamishaji kutoka bwawa la zamani la Sprout itaacha kufanya kazi.
+> **NU7 iliwashwa kwenye Mainnet tarehe 6 Novemba 2026 (UTC), kwenye block 3,543,405.** Haikubali tena miamala ya toleo la 4 ([ZIP 2003](https://zips.z.cash/zip-2003)), na fedha za Sprout zinaweza kutumiwa tu katika miamala ya toleo la 4, kwa hivyo njia ya uhamishaji kutoka bwawa la zamani la Sprout haifanyi kazi tena.
 >
-> Ikiwa bado una ZEC katika bwawa la Sprout, zihamishe kabla ya uboreshaji. Baada ya kuwashwa, vifaa vilivyopo havitaweza tena kuhamisha fedha za Sprout kwenda Sapling, anwani za uwazi, au marudio mengine yoyote.
->
-> Ikiwa unaona ukurasa huu **baada ya NU7** kuwashwa, **Sprout imegandishwa kwenye barafu** hadi mbinu ya urejeshaji ya baadaye itakapopatikana, ambayo kwa sasa haijapangwa.
+> **Sprout sasa imegandishwa kwenye barafu.** Vifaa vilivyopo haviwezi tena kuhamisha fedha za Sprout kwenda Sapling, anwani za uwazi, au mahali pengine popote. ZIP 2003 haichomi fedha za Sprout na inaacha uwezekano wa mbinu ya urejeshaji ya baadaye, lakini hakuna iliyopangwa kwa sasa. Ikiwa una funguo za Sprout, zihifadhi kwa usalama.
 
 ## Jibu katika ukurasa mmoja
 
 | Fedha zako ziko katika | Njia ya uhamishaji | Cha kufanya |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | Ikiwa una `wallet.dat` au ufunguo wa kutumia pesa wa kujitegemea wa Sprout, jaribu kwanza njia ya sasa ya urejeshaji ya Argos. Ikiwa Argos haifai, tumia njia ya sidecar ya zamani katika mwongozo kamili wa vitendo. Sprout lazima itue kwanza katika Sapling, kisha iendelee hadi Ironwood. Njia hii ina muda mdogo kutokana na NU7. |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Ikiwa una `wallet.dat` au ufunguo wa kutumia pesa wa kujitegemea wa Sprout, jaribu kwanza njia ya sasa ya urejeshaji ya Argos. Ikiwa Argos haifai, tumia njia ya sidecar ya zamani katika mwongozo kamili wa vitendo. Sprout lazima itue kwanza katika Sapling, kisha iendelee hadi Ironwood. Tangu NU7 ianze kutumika (block 3,543,405), fedha za Sprout haziwezi kuhamishwa kwenye Mainnet; tazama dokezo hapo juu. |
 | **Sapling** | **Sapling → Ironwood** | Mazingira ya urejeshaji ya Sprout hayahitajiki. Tumia pochi ya sasa inayoweza kurejesha au kutumia akaunti yako mahususi ya Sapling na kutengeneza miamala ya Ironwood. Usaidizi wa Ironwood pekee hauthibitishi usaidizi wa urejeshaji wa Sapling ya zamani. |
 | **Orchard** | **Orchard → Ironwood** | Orchard ni ya kutoka tu. Tumia mtiririko wa uhamishaji uliojengewa ndani wa pochi ya sasa inayooana kutoka Orchard kwenda Ironwood. Tazama [Fedha zilizorejeshwa na bwawa la Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
@@ -173,7 +171,7 @@ Tangu uboreshaji wa Ironwood (NU6.3) ulipowashwa tarehe 28 Julai 2026, bwawa la 
 
 Ikiwa fedha zako zilizorejeshwa ziko katika Orchard, zihamishe hadi Ironwood kwa kutumia **mtiririko wa uhamishaji uliojengewa ndani wa pochi ya sasa**. Orchard ni ya kutoka tu baada ya NU6.3.
 
-Zkool 6.30.0 ndilo toleo la sasa kufikia Septemba 18, 2026 na linatumia Ironwood. Muundo wake wa uhamishaji unalenga faragha lakini si sawa na kudai utiifu wa ZIP 318. Pochi nyingine za sasa zinaweza kutumia uhamishaji wa hatua kwa hatua wa mtindo wa ZIP 318. Fuata skrini ya sasa ya uhamishaji na dondoo za matoleo za pochi iliyosakinishwa badala ya kubuni kiasi au ratiba ya mkono.
+Zkool 6.37.0 ndilo toleo la sasa kufikia Novemba 12, 2026 na linatumia Ironwood. Tumia toleo la 6.35.0 au la baadaye: matoleo ya awali hayajui urefu wa uanzishaji wa Mainnet wa NU7 (block 3,543,405), kwa hivyo huunda miamala inayofuata kanuni za kabla ya NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Muundo wake wa uhamishaji unalenga faragha lakini si sawa na kudai utiifu wa ZIP 318. Pochi nyingine za sasa zinaweza kutumia uhamishaji wa hatua kwa hatua wa mtindo wa ZIP 318. Fuata skrini ya sasa ya uhamishaji na dondoo za matoleo za pochi iliyosakinishwa badala ya kubuni kiasi au ratiba ya mkono.
 
 Uhamishaji wa hatua kwa hatua unaweza kutumia miamala mingi, kwa hiyo ada ya jumla inaweza kuwa kubwa kuliko uhamisho wa mara moja.
 

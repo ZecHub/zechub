@@ -25,7 +25,7 @@ Zainoは、Zebraとクライアントソフトウェアの間に位置します�
 
 Zainoは、ライトクライアント（light client）、フルクライアントまたはウォレット、ブロックエクスプローラー向けの機能を提供します。Zebraが保持する、確定済みチェーン、未確定のベストチェーン、およびメモリプールデータへのアクセスを提供します。
 
-## 現在のZcashスタックでの位置付け
+## 現在のZcash Stackにおける位置付け
 
 現在のZ3スタックは、Zebra、Zallet、および任意のZainoを中心に構築されています。
 
@@ -88,6 +88,7 @@ Zainoは2種類のネットワークサービスを公開します。gRPCサー�
 * [Zaino生成ドキュメント](https://zingolabs.github.io/zaino/)
 * [Z3デプロイメントリポジトリ](https://github.com/ZcashFoundation/z3)
 * [Zebraドキュメント](https://zebra.zfnd.org/)
-* [Zainoの助成金（grant）およびプロジェクトに関する議論](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zainoの助成金およびプロジェクトに関する議論](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder)、Zcash Foundation（alpha）からのもう1つのRustインデクサー
 
 **最終更新:** 2026年8月

@@ -217,7 +217,7 @@ Extensão de navegador que converte preços em moeda fiduciária para ZEC em tem
 
 ### Shielded Wall
 Plataforma de confissões anônimas com a privacidade do Zcash.  
-[Visitar](https://shieldedwall.org/)
+[Visitar](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Caixa de e-mail descartável paga com ZEC blindado.  
@@ -274,7 +274,7 @@ Modelo de organização empresarial cooperativo, de baixo para cima, construído
 
 ### ZK Global Credit
 Infraestrutura de crédito e votação nativa do Zcash para divulgação seletiva, preparação para liquidação, reputação internacional e governança blindada.  
-[Visitar](https://voting.zkglobalcredit.tech/)
+[Visite](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Ferramenta para criação de conteúdo anônimo e doações privadas com a tecnologia do Zcash.  

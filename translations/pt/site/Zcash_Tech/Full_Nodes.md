@@ -94,7 +94,7 @@ Ao rodar um nó integral, você ajuda a fortalecer a rede do Zcash, apoiando sua
 
 Isso ajuda a impedir o controle por adversários e a manter a rede resiliente a algumas formas de interrupção.
 
-Os DNS seeders expõem uma lista de outros nós confiáveis por meio de um servidor embutido. Isso permite que as transações se propaguem por toda a rede.
+Os DNS seeders expõem uma lista de outros nós confiáveis por meio de um servidor embutido. Isso permite que as transações se propaguem por toda a rede. Os seeders do Zcash Foundation rodam [Zeeder](https://github.com/ZcashFoundation/zeeder), um DNS seeder escrito em Rust que substituiu seu dnsseeder baseado em CoreDNS. Suas imagens são publicadas como `zfnd/zeeder`; o nome antigo `zfnd/dnsseeder` está sendo aposentado.
 
 ### Estatísticas da rede
 
@@ -132,11 +132,12 @@ Isso tem a vantagem adicional de permitir que outros usuários se conectem de fo
 
 ## Páginas relacionadas
 
-- [Nó integral Zebra](/zcash-tech/zebra-full-node) - instale, configure e rode o nó recomendado
+- [Nó integral Zebra](/zcash-tech/zebra-full-node) - instale, configure e execute o nó recomendado
 - [Nó Zakura](/zcash-tech/zakura-node) - a segunda implementação de nó, derivada de um fork do Zebra
 - [Nós de carteiras leves](/zcash-tech/lightwallet-nodes) - os servidores consultados pelas carteiras leves
 - [Zaino](/zcash-tech/zaino) - o indexador do Rust que atende carteiras leves
-- [Sincronização de carteiras Zcash](/zcash-tech/zcash-wallet-syncing) - por que a sincronização funciona do jeito que funciona
+- [Zinder](/zcash-tech/zinder) - o indexador alfa do Zcash Foundation para Zebra e Zakura
+- [ZcashSincronização de carteiras ](/zcash-tech/zcash-wallet-syncing) - por que a sincronização funciona do jeito que funciona
 
 ## Para saber mais
 

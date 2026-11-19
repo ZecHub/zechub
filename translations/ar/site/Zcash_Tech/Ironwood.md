@@ -135,4 +135,4 @@ Ironwood هو [ترقية للشبكة](../start-here/network-upgrades) في Zca
 
 ---
 
-السلسلة: [فهرس ترقيات الشبكة](../start-here/network-upgrades) · السابق: [NU6.2](../zcash-tech/nu6-2)
+السلسلة: [فهرس ترقيات الشبكة](../start-here/network-upgrades) · السابق: [NU6.2](../zcash-tech/nu6-2) · التالي: [NU7](../zcash-tech/nu7)

@@ -17,13 +17,13 @@ Maka akụkọ anya nke otu Nzuzo Zcash siri gbanwee n’ime upgrade ndị a, le
 | [NU6.1](../zcash-tech/nu6-1) | Nọvemba 24, 2025 | 3,146,400 | 4dec4df0 | Gọọmentị obodo na ndị ji mkpụrụ ego nke ego ahụ |
 | [NU6.2](../zcash-tech/nu6-2) | Juun 3, 2026 | 3,364,600 | 5437f330 | Ndozi mberede nke doziri circuit Orchard |
 | [Ironwood (NU6.3)](../zcash-tech/ironwood) | Julaị 28, 2026 | 3,428,143 | 37a5165b | Pool Ironwood na turnstile ọha nke na-enye onye ọ bụla ohere inyocha ngụkọta mkpụrụ ego |
-| **NU7** (na-abịa) | Testnet: 4 Ọktoba 2026; Mainnet: ezubere 5 Nọvemba 2026 | Testnet: 4,465,026; Mainnet: 3,543,405 | 77190ad9 | Block sekọnd 25 (ZIP 218), ịmegharị ugwo NSM (ZIP 235+237), ịla ezumike nká Sprout (ZIP 2003) |
+| [NU7](../zcash-tech/nu7) | Nọvemba 6, 2026 | 3,543,405 | 77190ad9 | Block sekọnd 25 (ZIP 218), imegharị ugwo NSM (ZIP 235+237), ịla ezumike nká Sprout (ZIP 2003) |
 
 A na-egosi ụbọchị na UTC. Ụfọdụ dashboard na-egosi ha n’oge mpaghara, nke bụ otu block na otu oge ahụ. Ihe na-akpalite upgrade ọ bụla n’enweghị mgbanwe bụ ogo block mbido ọrụ ya, ọ bụghị ụbọchị kalenda.
 
 ### Ọnọdụ NU7
 
-NU7 na-arụ ọrụ na Testnet ọha n’ogo **4,465,026** (malitere ọrụ na 4 Ọktoba 2026). Ogo mbido ọrụ Mainnet bụ **3,543,405** ([ZIP 259](https://zips.z.cash/zip-0259)), ezubere maka **5 Nọvemba 2026**.
+NU7 malitere ọrụ na Mainnet n’ogo **3,543,405** ([ZIP 259](https://zips.z.cash/zip-0259)) na **6 Nọvemba 2026** (02:34 UTC; na mgbede 5 Nọvemba na mpaghara oge US). Ọ malitere ọrụ na Testnet ọha tupu nke ahụ, n’ogo **4,465,026** (4 Ọktoba 2026).
 
 Oke ọrụ (ZIP 259):
 

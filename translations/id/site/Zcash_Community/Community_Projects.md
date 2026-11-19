@@ -132,7 +132,7 @@ Platform pemberian tip non-kustodial langsung tempat setiap tip tiba sebagai ZEC
 
 ### CYZE
 Platform dompet dan koordinasi kolaboratif yang memungkinkan beberapa anggota tim mengelola dana Zcash terlindungi bersama-sama. Platform ini menggunakan tanda tangan ambang FROST, sehingga kelompok dapat mengotorisasi transaksi Orchard secara kolektif tanpa memberi satu peserta kendali penuh atas dompet.  
-[Kunjungi](https://github.com/USCMig/Cyze)
+[Kunjungi](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 Dompet desktop khusus pantau yang dirancang untuk individu dan organisasi yang perlu memantau dana terlindungi tanpa kemampuan membelanjakannya. Mendukung pemantauan transaksi dan saldo, catatan Orchard dan Sapling, melihat memo, valuasi fiat historis, notifikasi transaksi, enkripsi dompet, dan fitur berbagi layar yang berfokus pada privasi.  
@@ -168,7 +168,7 @@ Peta global bisnis dan lokasi yang menerima Zcash.
 
 ### ZECping
 Alat untuk memeriksa waktu respons gRPC node Zcash lightwalletd.  
-[Kunjungi](https://github.com/emersonian/zecping)
+[Kunjungi](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Dashboard untuk statistik jaringan Zcash waktu nyata dan metrik shielding.  
@@ -217,7 +217,7 @@ Ekstensi browser yang mengonversi harga mata uang fiat ke ZEC secara waktu nyata
 
 ### Shielded Wall
 Platform pengakuan anonim yang didukung oleh privasi Zcash.  
-[Kunjungi](https://shieldedwall.org/)
+[Kunjungi](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Kotak masuk email sekali pakai yang dibayar dengan ZEC terlindungi.  
@@ -232,7 +232,7 @@ Alat pelacakan keuangan dan akuntansi yang menjaga privasi untuk Zcash. Menggabu
 [Kunjungi](https://zecledger-web.vercel.app/)
 
 ### Autentikasi dengan ZcashMe
-Sistem autentikasi yang berfokus pada privasi dan menggunakan transaksi Zcash terlindungi sebagai mekanisme login. Pengguna memindai kode QR dan mengirim transaksi autentikasi kecil.  
+Sistem autentikasi yang berfokus pada privasi dan menggunakan transaksi Zcash terlindungi sebagai mekanisme login. Pengguna memindai kode QR dan mengirim transaksi autentikasi kecil. Repositori ini diarsipkan (hanya dapat dibaca), sehingga proyek ini tidak lagi dipelihara.  
 [Kunjungi](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Sistem autentikasi yang berfokus pada privasi dan menggunakan transaksi Zcash te
 
 ### Ztreamer
 Indexer Zcash open-source yang sangat dioptimalkan dan implementasi lightwallet-protocol (CompactTxStreamer) yang didukung node Zakura tersemat. Menjalankan node + indexer + server dompet dalam satu proses (ztreamerd); mendukung gRPC dan P2P Zakura v2. Pengindeksan historis cepat dan penyajian latensi rendah untuk dompet ringan.  
-[Kunjungi](https://github.com/distractedm1nd/ztreamer)  
+[Kunjungi](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Rangkaian pengujian jaringan untuk developer zcashd dan Zebra. Mencakup crawler Zcash.  
-[Kunjungi](https://github.com/runziggurat/zcash)
+[Kunjungi](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Toolkit yang mengutamakan Linux dan menyiapkan jaringan regtest Zebra dengan faucet, fixture Unified Address, serta lightwalletd atau Zaino, ditambah Actions GitHub yang dapat digunakan ulang untuk alur end-to-end terlindungi.  
@@ -274,7 +274,7 @@ Model organisasi bisnis kooperatif dari bawah ke atas yang dibangun di atas Zcas
 
 ### ZK Global Credit
 Infrastruktur kredit dan pemungutan suara native Zcash untuk pengungkapan selektif, kesiapan penyelesaian, reputasi lintas batas, dan tata kelola terlindungi.  
-[Kunjungi](https://voting.zkglobalcredit.tech/)
+[Kunjungi](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Alat untuk pembuatan konten anonim dan donasi privat yang didukung oleh Zcash.  

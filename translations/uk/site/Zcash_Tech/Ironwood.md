@@ -135,4 +135,4 @@ Turnstile не є новими для Zcash. Мережа вже викорис�
 
 ---
 
-Серія: [Індекс оновлень мережі](../start-here/network-upgrades) · Попереднє: [NU6.2](../zcash-tech/nu6-2)
+Серія: [Індекс оновлень мережі](../start-here/network-upgrades) · Попереднє: [NU6.2](../zcash-tech/nu6-2) · Наступне: [NU7](../zcash-tech/nu7)

@@ -21,7 +21,7 @@
 | المصطلح | التعريف |
 |------|-----------|
 | Benchmarking | يستطيع المعدّنون إرسال مقاييس حول كفاءة مختلف أنواع العتاد المستخدمة في تعدين Zcash. [اعرضها هنا](https://zcashbenchmarks.info) |
-| Block | الكتلة هي سجل في blockchain الخاصة بـ Zcash يحتوي على مجموعة من المعاملات المرسلة عبر الشبكة. وفي المتوسط، تُضاف كتلة جديدة إلى blockchain كل نحو 75 ثانية. |
+| Block | الكتلة هي سجل في blockchain الخاصة بـ Zcash، ويحتوي على مجموعة من المعاملات المرسلة عبر الشبكة. وفي المتوسط، تُضاف كتلة جديدة إلى blockchain كل نحو 25 ثانية (كانت المدة 75 ثانية قبل تفعيل NU7 في نوفمبر 2026). |
 | Block Explorer | أداة عبر الإنترنت لعرض جميع المعاملات، السابقة والحالية، على blockchain. [Zcash مستكشف الكتل](https://zcashexplorer.app/) |
 | Blogs | [ZODL مدونة (سابقًا Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation مدونة](https://zfnd.org/blog/) / [ZecHub نشرة إخبارية](https://zechub.substack.com/) |
 | Blossom | ثالث ترقية رئيسية للشبكة في Zcash. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -127,11 +127,11 @@
 | المصطلح | التعريف |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | مقترح من Shielded Labs لحرق حصة من رسوم المعاملات بحيث لا تعتمد ميزانية الأمان طويلة الأجل للبروتوكول بالكامل على الإصدار. وهو محدد في ZIP 234، وقيد المراجعة في 2026. |
-| Nighthawk | محفظة جوال لـ Zcash. [الموقع الإلكتروني](https://nighthawkwallet.com) |
+| Nighthawk | محفظة جوال سابقة لـ Zcash من Nighthawk Apps. لم تعد محافظ Zcash تُصان، وصُممت Nighthawk Wallet 3.0 لـ DarkFi بدلًا منها. لنقل الأموال من عبارة الاسترداد القديمة لـ Nighthawk، راجع [استرداد الأموال](/using-zcash/recovering-funds). |
 | Noir Wallet | محفظة Zcash على شكل إضافة متصفح ومدعومة من Zcash Community Grants، وقد بُنيت لربط ZEC المحمي مباشرةً بتطبيقات المتصفح بدلًا من الاعتماد على رموز QR والتحويلات اليدوية. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | سادس ترقية رئيسية للشبكة في Zcash، وقد قدمت مجمع Orchard المحمي وUnified Addresses. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | سابع ترقية رئيسية للشبكة في Zcash، وتعدل دعم الكتلة لتمويل برنامج Zcash Community Grants وخزانة صندوق تمويل التطوير المؤجل. وقد فُعّلت في أواخر 2024. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | ترقية الشبكة التي تلي Ironwood، والمستهدفة للشبكة الرئيسية في 5 نوفمبر 2026. وفقًا لـ [ZIP 259](https://zips.z.cash/zip-0259)، تجلب كتلًا مدتها 25 ثانية (ZIP 218)، وNetwork Sustainability Mechanism مع إعادة تدوير الرسوم (ZIPs 235 و237)، وإنهاء معاملات الإصدار 4، مما يجعل أموال Sprout غير قابلة للإنفاق (ZIP 2003). لا تضيف أي صيغة جديدة للمعاملات؛ ولا يشكل Tachyon ولا Zcash Shielded Assets جزءًا منها. |
+| NU7 | ترقية الشبكة التي تلي Ironwood، وفُعّلت على الشبكة الرئيسية عند الارتفاع 3,543,405 في 6 نوفمبر 2026 (UTC). وفقًا لـ [ZIP 259](https://zips.z.cash/zip-0259)، تجلب كتلًا مدتها 25 ثانية (ZIP 218)، وNetwork Sustainability Mechanism مع إعادة تدوير الرسوم (ZIPs 235 و237)، وإنهاء معاملات الإصدار 4، مما يجعل أموال Sprout غير قابلة للإنفاق (ZIP 2003). لا تضيف أي صيغة جديدة للمعاملات؛ ولا يشكل Tachyon ولا Zcash Shielded Assets جزءًا منها. |
 
 ## O
 
@@ -209,7 +209,7 @@
 
 | المصطلح | التعريف |
 |------|-----------|
-| Wallet | برنامج أو جهاز يحتفظ بالمفاتيح الخاصة ويتيح لك إرسال واستقبال ZEC. تشمل المحافظ النشطة ZODL ‏(iOS/Android) وZingo! ‏(محمول/سطح مكتب) وNighthawk ‏(Android) وZkool ‏(محمول/سطح مكتب) وZallet ‏(قريبًا) وKeystone ‏(عتادية). وللاطلاع على القائمة الكاملة، راجع [محافظ منظومة Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | برنامج أو جهاز يحتفظ بالمفاتيح الخاصة ويتيح لك إرسال واستقبال ZEC. تشمل المحافظ النشطة ZODL ‏(iOS/Android) وZingo! ‏(محمول/سطح مكتب) وZkool ‏(محمول/سطح مكتب) وZallet ‏(محفظة بعقدة كاملة، في الإصدار التجريبي) وKeystone ‏(عتادية). وللاطلاع على القائمة الكاملة، راجع [محافظ منظومة Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | أول حزمة SDK بلغة JavaScript لـ Zcash، وقد بنتها ChainSafe لبيئات المتصفح. وهي تشكّل الأساس لـ Zcash Shielded Wallet snap الذي جلب ZEC المحمي إلى MetaMask. |
 
 ## X

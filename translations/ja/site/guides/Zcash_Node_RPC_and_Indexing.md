@@ -17,7 +17,7 @@
 * **JSON-RPC**は、運用者やウォレットがノードに対してチェーン（chain）の先端、ピア、（ウォレットプロセス上の）残高を問い合わせる方法です。Z3では、ZebraがノードRPCを提供し、ZalletがウォレットRPCを提供します。
 * **Regtest**は、呼び出しを学ぶのに適した場所です。`http://127.0.0.1:8181`上のZ3のrpc-routerは、`zebra`／`zebra`を受け付け、ノードメソッドをZebraへ、ウォレットメソッドをZalletへ転送します。
 * **メインネットとテストネット**では、Zebra上でCookie認証を使用します。Regtestのユーザー名／パスワードを公開ノードにコピーしないでください。
-* **インデックス作成**は検証とは別の作業です。Zebraが検証を行います。[Zaino](/zcash-tech/zaino)（Z3の`--profile indexer`）はlightwalletd互換のgRPCを提供します。[Ztreamer](https://github.com/distractedm1nd/ztreamer)はZakuraをバックエンドとするインデクサーであり、Z3が提供するものではありません。
+* **インデックス作成**は検証とは別の作業です。Zebraが検証を行います。[Zaino](/zcash-tech/zaino)（Z3の`--profile indexer`）はlightwalletd互換のgRPCを提供します。[Ztreamer](https://github.com/zcashlabs/ztreamer)はZakuraをバックエンドとするインデクサーであり、Z3が提供するものではありません。
 * ZainoのJSON-RPCおよびZebraの任意のインデクサーgRPCは、ループバックまたは信頼できるネットワーク用です。認証なしで公開インターネットに公開しないでください。
 
 ---
@@ -117,7 +117,8 @@ ZainoのgRPCは、すべてのネットワークで平文h2cです。ホスト�
 ### その他のインデクサー（Z3以外）
 
 * **lightwalletd** — 旧式のコンパクトブロックサーバーです。現在も広く導入されていますが、この役割の後継経路はZainoです。
-* **Ztreamer** — Zakuraをバックエンドとするインデクサーおよび`CompactTxStreamer`実装です。Z3サービスではありません。[Ztreamerリポジトリ](https://github.com/distractedm1nd/ztreamer)を参照してください。
+* **Ztreamer** — Zakuraをバックエンドとするインデクサーおよび`CompactTxStreamer`実装です。Z3サービスではありません。[Ztreamerリポジトリ](https://github.com/zcashlabs/ztreamer)を参照してください。
+* **Zinder** — Zcash Foundationのインデクサー（アルファ版）です。アーカイブZebraまたはZakuraノードからデータを読み取り、独自の`WalletQuery` gRPC APIとlightwalletd互換の`CompactTxStreamer`アダプターを提供します。クイックスタートではZ3ノードと並べて実行しますが、Z3サービスではありません。[Zinder](/zcash-tech/zinder)を参照してください。
 * **Zebra `rpc.indexer_listen_addr`** — Zebra内部の任意のgRPCリスナーです。Z3はこれを必要とせず、ホストにも公開しません。
 
 ---
@@ -145,8 +146,9 @@ ZainoのgRPCは、すべてのネットワークで平文h2cです。ホスト�
 * [フルノード](/zcash-tech/full-nodes)
 * [Zebraフルノード](/zcash-tech/zebra-full-node)
 * [ライトウォレットノード](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd（または Zaino）を Kubernetes または Docker Compose で
 * [移行ガイド：zcashdからZebrad／Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)へ
-* [ZingolibおよびZainoチュートリアル](/guides/zingolib-and-zaino-tutorial)
+* [ZingolibとZainoチュートリアル](/guides/zingolib-and-zaino-tutorial)
 
 ## リソース
 
@@ -156,6 +158,6 @@ ZainoのgRPCは、すべてのネットワークで平文h2cです。ホスト�
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zalletブック](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **最終更新：**2026年9月

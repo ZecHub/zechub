@@ -71,7 +71,7 @@ Kile ambacho Ironwood haikubadilisha: kriptografia inayotumika kwa matumizi na u
 
 **Kuna kipindi cha uwezekano wa hatari.** Kuanzia uanzishaji wa Ironwood hadi itifaki za zamani zizimwe, mshambulizi wa quantum bado anaweza kuiba, kuongeza kiasi cha sarafu au kuzuia fedha katika kila bwawa la faragha. ZIP 2005 hukiita hiki “kipindi muhimu cha uwezekano wa hatari” na kuonya kwamba shambulio ndani yake bado linaweza kudhuru uwezo wa mmiliki wa kurejesha baadaye. Ndiyo maana inasema Zcash lazima izime Orchard, Sapling na Sprout **kabla** mashambulio ya quantum hayajawa yanatekelezeka.
 
-**Kuzimwa hakuna tarehe, isipokuwa kwa Sprout.** Hakuna ZIP inayopanga kuzima Orchard au Sapling. Sprout ni tofauti: [ZIP 259](https://zips.z.cash/zip-0259) inaorodhesha ZIP 2003 miongoni mwa mabadiliko ambayo NU7 hutekeleza, hivyo miamala ya toleo la 4 itakuwa batili NU7 itakapoanzishwa na ZEC yoyote iliyoachwa katika bwawa la Sprout itakuwa haiwezi kutumika. Uanzishaji wa Mainnet umewekwa kwenye block 3,543,405, unaolengwa tarehe 5 Novemba 2026 ([ZIP 259](https://zips.z.cash/zip-0259), [tangazo la jukwaa](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Majadiliano ya Sapling ya kutoa pekee yalianza kwenye jukwaa mnamo Aprili 2026.
+**Kuzimwa hakuna tarehe, isipokuwa kwa Sprout.** Hakuna ZIP inayopanga kuzima Orchard au Sapling. Sprout ni tofauti: [ZIP 259](https://zips.z.cash/zip-0259) inaorodhesha ZIP 2003 miongoni mwa mabadiliko ambayo NU7 hutekeleza, kwa hiyo tangu NU7 ilipoanzishwa, miamala ya toleo la 4 ni batili na ZEC yoyote iliyoachwa katika bwawa la Sprout haiwezi kutumika. NU7 ilianzishwa kwenye Mainnet katika block 3,543,405 tarehe 6 Novemba 2026 UTC ([ZIP 259](https://zips.z.cash/zip-0259), [tangazo la jukwaa](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Majadiliano ya Sapling ya kutoa pekee yalianza kwenye jukwaa mnamo Aprili 2026.
 
 **Itifaki ya Urejeshaji haijakamilika.** ZIP 2005 inaielezea kwa muhtasari pekee, na inasema maelezo “yanaweza kubadilika”. Hakuna sehemu yake iliyotekelezwa.
 
@@ -97,19 +97,19 @@ Hakuna hata kimoja kati ya hivi kinachotumika moja kwa moja.
 
 ## Jedwali la hali
 
-Ilikaguliwa mara ya mwisho tarehe 13 Septemba 2026, isipokuwa mstari wa Sprout, uliosasishwa tarehe 9 Oktoba 2026. Hali ya kichwa cha ZIP na hali yake ya mtandao ni vitu tofauti: ZIP 2005 bado inasema “Imependekezwa” kwenye kichwa chake ingawa kanuni zake zimetekelezwa kwenye Mainnet tangu Julai 2026.
+Ilikaguliwa mara ya mwisho tarehe 13 Septemba 2026, isipokuwa mstari wa Sprout, uliosasishwa tarehe 13 Novemba 2026 baada ya NU7 kuanza kutumika. Hali ya kichwa cha ZIP na hali yake ya mtandao ni vitu tofauti: ZIP 2005 bado inasema “Imependekezwa” kwenye kichwa chake ingawa kanuni zake zimetekelezwa kwenye Mainnet tangu Julai 2026.
 
 | Kipengee | Hali ya ZIP | Hali ya mtandao | Tarehe | Chanzo |
 |---|---|---|---|---|
 | Bwawa la Ironwood lenye madokezo yanayoweza kurejeshwa baada ya quantum (NU6.3) | ZIP 2005 Imependekezwa, ZIP 229 na ZIP 258 Rasimu | **Imeanzishwa** kwenye Mainnet | 28 Jul 2026, block 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005), [ZIP 258](https://zips.z.cash/zip-0258) |
-| Orchard imefungwa kwa thamani mpya | ZIP 2006 Imehifadhiwa, kanuni katika ZIP 258 | **Imeanzishwa** kwenye Mainnet | 28 Jul 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
+| Orchard limefungwa kwa thamani mpya | ZIP 2006 Limehifadhiwa, kanuni katika ZIP 258 | **Imeanzishwa** kwenye Mainnet | 28 Jul 2026 | [ZIP 258](https://zips.z.cash/zip-0258) |
 | Pochi zinazohamisha fedha hadi Ironwood | Mwongozo katika ZIP 2005, ZIP 318 na ZIP 326 (Rasimu) | Inapendekezwa, hutegemea pochi yako | Tangu 28 Jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Itifaki ya Urejeshaji | Imeelezewa kwa muhtasari ndani ya ZIP 2005 pekee | **Haijatekelezwa** | Hakuna tarehe | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Kuzimwa kwa Orchard na Sapling | Hakuna ZIP | **Hakujaratibiwa** | Majadiliano ya Sapling kutoka Apr 2026 | [Jukwaa](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Kuzuia matumizi ya Sprout (ZIP 2003) | Imependekezwa, inatekelezwa na NU7 kulingana na ZIP 259 (Imependekezwa) | **Haijaanzishwa** | Urefu wa Mainnet 3,543,405, unaolengwa 5 Nov 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
-| Uwezo wa kurejesha wa uwazi (ZIP 2007) | Imehifadhiwa | **Pendekezo** | ZIP ilihifadhiwa 5 Jul 2025, majadiliano yalifunguliwa 17 Jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
+| Kuzuia matumizi ya Sprout (ZIP 2003) | Imependekezwa, inatekelezwa na NU7 kulingana na ZIP 259 (Imependekezwa) | **Imeanzishwa** kwenye Mainnet | 6 Nov 2026, block 3,543,405 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Uwezo wa kurejesha wa uwazi (ZIP 2007) | Limehifadhiwa | **Pendekezo** | ZIP lilihifadhiwa 5 Jul 2025, majadiliano yalifunguliwa 17 Jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Faragha ya baada ya quantum kwa anwani zinazojulikana | Masuala yaliyo wazi, hakuna ZIP | **Utafiti** | #1133 ilifunguliwa 18 Ago 2022, #1307 ilifunguliwa 23 Jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
-| Mradi wa Tachyon | Hakuna ZIP | **Pendekezo**, linaendelezwa | Ilichapishwa kwanza Apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
+| Mradi wa Tachyon | Hakuna ZIP | **Pendekezo**, unaendelezwa | Ilichapishwa kwa mara ya kwanza Apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |
 | Itifaki kamili ya baada ya quantum | Suala lililo wazi, hakuna ZIP | **Kazi ya baadaye** | #1134 ilifunguliwa 28 Mar 2016 | [zips#1134](https://github.com/zcash/zips/issues/1134) |
 
 Katika kura za maoni ya Zcash Foundation kuhusu NU7 (Februari 2026), uwezo wa kurejeshwa baada ya quantum ulikuwa na uungwaji mkono wa 90.5% kutoka ZCAP na 94.6% kutoka kwa wamiliki wa sarafu, na Tachyon ulikuwa na uungwaji mkono wa karibu wote. Hizo zilikuwa kura za maoni, si maamuzi kuhusu kile kinachoingia katika NU7.

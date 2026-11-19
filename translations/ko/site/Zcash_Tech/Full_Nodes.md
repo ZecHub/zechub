@@ -94,7 +94,7 @@ zcashd는 RPC 인터페이스를 통해 API 세트를 제공합니다. 이러한
 
 이는 적대적 통제를 방지하고 일부 형태의 중단에 대한 네트워크 복원력을 유지하는 데 도움이 됩니다.
 
-DNS 시더는 내장 서버를 통해 신뢰할 수 있는 다른 노드 목록을 제공합니다. 이를 통해 트랜잭션이 네트워크 전체로 전파될 수 있습니다.
+DNS 시더는 내장 서버를 통해 신뢰할 수 있는 다른 노드 목록을 제공합니다. 이를 통해 트랜잭션이 네트워크 전체로 전파될 수 있습니다. Zcash Foundation의 시더는 [Zeeder](https://github.com/ZcashFoundation/zeeder)를 실행합니다. 이는 CoreDNS 기반 dnsseeder를 대체한 Rust로 작성된 DNS 시더입니다. 해당 이미지들은 `zfnd/zeeder`로 게시되며, 이전 `zfnd/dnsseeder` 이름은 폐기되고 있습니다.
 
 ### 네트워크 통계
 
@@ -136,6 +136,7 @@ zcashd는 차폐된 코인베이스로의 채굴도 지원합니다. 채굴자�
 - [Zakura 노드](/zcash-tech/zakura-node) - Zebra에서 포크된 두 번째 노드 구현체
 - [라이트월렛 노드](/zcash-tech/lightwallet-nodes) - 라이트 지갑이 질의하는 서버
 - [Zaino](/zcash-tech/zaino) - 라이트 지갑에 서비스를 제공하는 Rust 인덱서
+- [Zinder](/zcash-tech/zinder) - Zcash Foundation의 Zebra 및 Zakura용 알파 인덱서
 - [Zcash 지갑 동기화](/zcash-tech/zcash-wallet-syncing) - 동기화가 작동하는 방식
 
 ## 추가 학습

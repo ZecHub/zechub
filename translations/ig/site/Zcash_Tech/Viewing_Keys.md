@@ -94,7 +94,9 @@ Ibe [Wallets](/using-zcash/wallets) na-enyocha nkwado viewing-key na njikere Iro
 
 [Zkool](https://github.com/hhanh00/zkool2) bụ nhọrọ kacha agbanwe agbanwe ebe a, n'ihi na ọ na-anabata unified keys yana legacy ones. README ya na-edepụta akaụntụ view-only e kere site na **unified viewing key** ma ọ bụ **Sapling extended viewing key**, tinyere legacy shielded extended keys e bubatara site na zcashd. Tinye akaụntụ ọhụrụ, họrọ ụzọ view-only, ma mado key `uview…` ma ọ bụ `zxviews…`; akaụntụ ahụ ga-emekọrịta ma kọọ nguzo ego na akụkọ na-enweghị ikike imefu ego.
 
-Nkwado protocol Ironwood na mbugharị Orchard-gaa-Ironwood batara na Zkool 6.24.0 (20 Julaị 2026), ma 6.26.1 (2 Ọgọọst 2026) doziri nchọpụta Azụmahia Ironwood na mempool. Jiri 6.26.1 ma ọ bụ nke mechara.
+Nkwado protocol Ironwood na mbugharị Orchard-gaa-Ironwood batara na Zkool 6.24.0 (20 Julaị 2026), ma 6.26.1 (2 Ọgọọst 2026) doziri nchọpụta Azụmahia Ironwood na mempool. Ebe ọ bụ na NU7 arụgoro ọrụ na Mainnet (block 3,543,405), jiri [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 Ọktoba 2026) ma ọ bụ nke mechara: ọ bụ mwepụta Zkool mbụ e wuru na ịdị elu mmegharị Mainnet NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 na-anabatakwa **igodo nlele mbata jikọtara ọnụ** (unified incoming viewing keys). Tinye igodo `uivk…` ebe a na-etinye igodo ọ bụla, Zkool emee akaụntụ nke mbata naanị: ọ na-egosi ihe akaụntụ mbụ na-enweta, gụnyere memo, ma ọ dịghị ihe ọ na-eziga ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Igodo mbata enweghị ike ịhụ mmefu, ya mere nguzozi akaụntụ ahụ bụ mkpokọta ihe a natara, ọ bụghị ihe fọdụrụ, akaụntụ ahụ enweghịkwa ike imefu. Zkool nwekwara ike mbupụ UIVK nke akaụntụ ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

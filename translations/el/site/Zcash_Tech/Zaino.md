@@ -25,7 +25,7 @@
 
 Το Zaino παρέχει λειτουργικότητα για light clients, πλήρεις clients ή πορτοφόλια και block explorers. Παρέχει πρόσβαση στην οριστικοποιημένη αλυσίδα, στην καλύτερη μη οριστικοποιημένη αλυσίδα και στα δεδομένα mempool που διατηρεί το Zebra.
 
-## Πώς εντάσσεται στην τρέχουσα στοίβα Zcash
+## Πώς εντάσσεται στην τρέχουσα Zcash Stack
 
 Η τρέχουσα στοίβα Z3 βασίζεται στα Zebra, Zallet και προαιρετικό Zaino.
 
@@ -89,5 +89,6 @@ docker compose --env-file .env.<network> --profile indexer up -d
 * [Αποθετήριο ανάπτυξης Z3](https://github.com/ZcashFoundation/z3)
 * [Τεκμηρίωση Zebra ](https://zebra.zfnd.org/)
 * [Επιχορήγηση και συζήτηση έργου Zaino](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), ένας ακόμα Rust indexer, από το Zcash Foundation (alpha)
 
 **Τελευταία ενημέρωση:** Αύγουστος 2026

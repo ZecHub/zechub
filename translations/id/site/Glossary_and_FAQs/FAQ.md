@@ -45,7 +45,7 @@ Anda juga dapat membeli Zcash secara peer-to-peer atau memperolehnya melalui pen
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash pada dasarnya lebih privat daripada Bitcoin atau Ethereum. Mata uang ini menawarkan waktu blok yang cepat (75 detik), biaya rendah, dan peningkatan rutin.
+Zcash pada dasarnya lebih privat daripada Bitcoin atau Ethereum. Mata uang ini menawarkan waktu blok yang cepat (25 detik sejak NU7 diaktifkan pada November 2026, turun dari 75 detik), biaya rendah, dan peningkatan rutin.
 
 Pengguna dapat memilih antara transaksi **Transparan** atau **Terlindungi**. Untuk informasi lebih lanjut, lihat [Ekosistem Terlindungi](https://electriccoin.co/blog/shielded-ecosystem).
 

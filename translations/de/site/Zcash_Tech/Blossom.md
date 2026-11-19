@@ -10,7 +10,7 @@ Was du mitnehmen wirst: wie Blossom dafür sorgte, dass Zcash-Blöcke etwa doppe
 
 Blossom ist ein Zcash-[Netzwerk-Upgrade](../start-here/network-upgrades). Es wurde durch [ZIP 206](https://zips.z.cash/zip-0206) eingeführt, und seine wichtigste Konsensänderung ist in [ZIP 208](https://zips.z.cash/zip-0208) definiert. Blossom war ein Skalierungs-Upgrade: Es verkürzte die Zielzeit zwischen Blöcken von 150 Sekunden auf 75 Sekunden, sodass Blöcke etwa doppelt so häufig eintreffen. Die Electric Coin Company leitete Blossom und kündigte es an.
 
-Warum das wichtig ist. Wenn du ZEC sendest, wartest du darauf, dass das Netzwerk sie in einem Block bestätigt. Wenn Blöcke langsam sind, wartest du länger. Vor Blossom wurde etwa alle 150 Sekunden ein neuer Block erwartet. Blossom halbierte dieses Ziel auf 75 Sekunden, sodass Bestätigungen früher eintreffen und die Kette in derselben Zeit mehr Transaktionen tragen kann. Das geschah, ohne mehr ZEC zu erzeugen oder den Zeitpunkt zukünftiger Halvings zu verschieben.
+Warum das wichtig ist. Wenn du ZEC sendest, wartest du darauf, dass das Netzwerk sie in einem Block bestätigt. Wenn Blöcke langsam sind, wartest du länger. Vor Blossom wurde etwa alle 150 Sekunden ein neuer Block erwartet. Blossom halbierte dieses Ziel auf 75 Sekunden, sodass Bestätigungen früher eintreffen und die Kette in derselben Zeit mehr Transaktionen tragen kann. Das geschah, ohne mehr ZEC zu erzeugen oder den Zeitpunkt zukünftiger Halvings zu verschieben. (NU7, im November 2026 aktiviert, senkte das Ziel später unter [ZIP 218](https://zips.z.cash/zip-0218) erneut auf 25 Sekunden und nutzte dabei denselben Ansatz.)
 
 ## TL;DR
 
@@ -26,7 +26,7 @@ Blossom ist ein Busnetz, das seine Abfahrten verdoppelt. Busse kommen jetzt alle
 
 ## Schnellere Blöcke
 
-Blossoms zentrale Änderung ist einfach. Der angestrebte Blockabstand von Zcash, also die Zeit, die das Netzwerk zwischen einem Block und dem nächsten anstrebt, wurde von 150 Sekunden auf 75 Sekunden gesenkt ([ZIP 208](https://zips.z.cash/zip-0208)). Blöcke werden per Proof of Work gefunden, daher schwankt der tatsächliche Abstand zwischen ihnen, aber das Netzwerk strebt nun etwa alle 75 Sekunden einen Block an statt alle 150.
+Die zentrale Änderung bei Blossom ist einfach. Der angestrebte Blockabstand von Zcash, also die Zeit, die das Netzwerk zwischen einem Block und dem nächsten anstrebt, wurde von 150 Sekunden auf 75 Sekunden gesenkt ([ZIP 208](https://zips.z.cash/zip-0208)). Blöcke werden per Proof of Work gefunden, daher schwankt der tatsächliche Abstand zwischen ihnen, aber das Netzwerk strebt nun etwa alle 75 Sekunden einen Block an statt alle 150.
 
 Daraus folgen zwei Dinge:
 

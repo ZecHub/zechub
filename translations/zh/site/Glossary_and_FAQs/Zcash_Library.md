@@ -21,7 +21,7 @@
 | 术语 | 定义 |
 |------|-----------|
 | Benchmarking | 矿工能够提交有关用于挖掘 Zcash 的各种硬件效率的指标。[在此查看](https://zcashbenchmarks.info) |
-| Block | 区块是 Zcash blockchain 中的一条记录，包含一组在网络上发送的交易。平均约每 75 秒，一个新区块会被追加到 blockchain。 |
+| Block | 区块是 Zcash blockchain 中的一条记录，包含一组在网络上发送的交易。平均每 25 秒左右，一个新区块会被追加到 blockchain（在 NU7 于 2026 年 11 月激活之前，平均为 75 秒）。 |
 | Block Explorer | 用于查看 blockchain 上所有过往和当前交易的在线工具。[Zcash 区块链浏览器](https://zcashexplorer.app/) |
 | Blogs | [ZODL 博客（原为 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation 博客](https://zfnd.org/blog/) / [ZecHub 新闻简报](https://zechub.substack.com/) |
 | Blossom | Zcash 的第 3 次重大网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -127,11 +127,11 @@
 | 术语 | 定义 |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Shielded Labs 提出的一项提案，旨在销毁部分交易手续费，使协议的长期安全预算不完全依赖于发行。详见 ZIP 234，目前正于 2026 年审议。 |
-| Nighthawk | 一款面向 Zcash 的移动钱包。[网站](https://nighthawkwallet.com) |
+| Nighthawk | 一款曾由 Nighthawk Apps 推出的 Zcash 移动钱包。其 Zcash 钱包已不再维护，Nighthawk Wallet 3.0 则面向 DarkFi 打造。若要从旧版 Nighthawk 助记词中转移资金，请参阅 [恢复资金](/using-zcash/recovering-funds)。 |
 | Noir Wallet | 由 Zcash Community Grants 支持的 Zcash 浏览器扩展钱包，旨在将屏蔽 ZEC 直接连接至浏览器应用，而不是依赖二维码和手动转账。[zknoir.com](https://www.zknoir.com/) |
 | NU5 | Zcash 的第 6 次重大网络升级，引入了 Orchard 屏蔽 pool 和统一地址。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Zcash 的第 7 次重大网络升级，调整区块补贴以资助 Zcash Community Grants 项目及延期开发基金锁箱。于 2024 年末激活。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood 之后的网络升级，目标于 2026 年 11 月 5 日在主网上线。根据 [ZIP 259](https://zips.z.cash/zip-0259)，它带来 25 秒区块（ZIP 218）、带手续费循环利用的网络可持续性机制（ZIP 235 和 237），以及版本 4 交易的终止，这将使 Sprout 资金无法花费（ZIP 2003）。它未增加新的交易格式；Tachyon 和 Zcash Shielded Assets 并不属于此次升级。 |
+| NU7 | Ironwood 之后的网络升级，于 2026 年 11 月 6 日（UTC）在主网区块高度 3,543,405 处激活。根据 [ZIP 259](https://zips.z.cash/zip-0259)，它带来 25 秒区块（ZIP 218）、包含手续费循环利用的网络可持续性机制（ZIP 235 和 237），以及版本 4 交易的终止，这将使 Sprout 资金无法花费（ZIP 2003）。它未增加新的交易格式；Tachyon 和 Zcash Shielded Assets 并不属于此次升级。 |
 
 ## O
 
@@ -209,7 +209,7 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Wallet | 用于存储私钥并让你发送/接收 ZEC 的软件或硬件。活跃的钱包包括 ZODL（iOS/Android）、Zingo!（移动端/桌面端）、Nighthawk（Android）、Zkool（移动端/桌面端）、Zallet（即将推出）和 Keystone（硬件）。如需完整列表，请参阅 [Zcash 生态系统钱包](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | 用于存储私钥并让你发送/接收 ZEC 的软件或硬件。活跃的钱包包括 ZODL（iOS/Android）、Zingo!（移动端/桌面端）、Zkool（移动端/桌面端）、Zallet（全节点钱包，处于测试阶段）和 Keystone（硬件钱包）。如需完整列表，请参阅 [Zcash 生态系统钱包](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | 首个面向 Zcash 的 JavaScript SDK，由 ChainSafe 为浏览器环境构建。它支撑了 Zcash Shielded Wallet snap，将屏蔽 ZEC 引入 MetaMask。 |
 
 ## X

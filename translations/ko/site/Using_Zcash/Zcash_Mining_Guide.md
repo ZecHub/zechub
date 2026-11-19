@@ -49,13 +49,13 @@ Zcash(ZEC)은 채굴에 Equihash 작업 증명 알고리즘을 사용하는 프�
 - **일반:** 안정적인 인터넷과 설정/모니터링용 컴퓨터. ASIC이 네트워크를 지배합니다(2026년 총 해시레이트 약 13 GSol/s). 따라서 GPU 채굴은 경쟁력이 떨어지지만 취미 사용자에게는 여전히 가능합니다.
 
 ### 소프트웨어
-- **운영 체제:** Windows 10/11, Linux(안정성을 위해 Ubuntu 권장).
+- **운영 체제:** Windows 10/11, Linux (안정성을 위해 Ubuntu 권장).
 - **채굴 소프트웨어:**
   - GPU용: lolMiner(AMD/NVIDIA 지원), GMiner 또는 miniZ(NVIDIA 중심). 공식 GitHub 리포지터리(예: github.com/Lolliedieb/lolMiner-releases)에서 다운로드하세요.
   - ASIC용: 제조사의 내장 펌웨어/대시보드를 사용하세요(예: Bitmain의 웹 인터페이스).
 - **지갑:** 지급금을 받을 Zcash 지갑. 권장:
   - 차폐형(비공개): ZODL Wallet, Zingo(모바일/데스크톱), Zkool(모바일/데스크톱).
-  - 투명형(더 쉽지만 프라이버시가 낮음): Edge Wallet, Zecwallet Lite.
+  - 투명형(더 쉽지만 프라이버시가 낮음): Edge Wallet.
   - [wallets](https://zechub.wiki/wallets)에서 다운로드하세요. 풀이 지원한다면 프라이버시를 위해 차폐형 주소('zs'로 시작)를 생성하세요.
 
 ### 기타

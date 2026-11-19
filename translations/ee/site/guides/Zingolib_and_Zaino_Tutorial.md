@@ -1,10 +1,10 @@
 # Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**    : Zcash ƒe ɣaɣla dzesi ŋɔŋlɔ blibo [full node]
+**zebrad**    : Zcash ɣaɣla dzesi ŋɔŋlɔ blibo
 
-**zaino**     : Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] ƒe indexer
+**zaino**     : Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu ƒe indexer
 
-**zingo-cli** : Zcash ƒe command line zaino-proxy client (Zingolib ƒe akpa)
+**zingo-cli** : Zcash command line zaino-proxy client (subset of Zingolib)
 
 ## Video
 
@@ -12,7 +12,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/b5dIuGstMvI"
-    title="Nuto ŋgɔ na Zingolib + Zaino"
+    title="An introduction to Zingolib + Zaino"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -20,21 +20,21 @@
 </div>
 
 
-## Nɔnɔmetata Gã
+## Nufiala gãtɔ
 
-[System ƒe ƒoƒoɖoɖo](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
-
-
-- Zcash Wò ƒo alo ɖo Zingolib, si na wò mɔ be wòakpɔ zingo-cli. Wòate ŋu aɖo alo axɔ ZEC ɣe sia ɣe si wòahiã.
-- zingo-cli do ɖe zaino ŋu le teƒe sia me alo to kana dedie me le internet dzi (Zcash wòmehiã be wòanya ale si esia wɔa dɔ o!)
-- Zaino na mɔ be woakpɔ zebrad alo zcashd            
-- Ne zebrad wɔ sync blibo la, eyae nye nyateƒe ƒe dzɔƒe (gakotoku [wallet] aɖeke megali afi sia o!)
+[System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
+- Zcash Dɔlafoa Ɖe Ƒo Mɔ̃/Ɖe Ƒo Kɔmpiuta Ŋu Zingolib Esia na wò kpɔ mɔ ɖe zingo-cli. Woate ŋu aɖo/axɔ ZEC le esiawo hia nu.
+- zingo-cli Ɗo kpe ɖe zaino ŋu le afima alo to online ƒe ɣaɣla mɔ dzi (Zcash dɔlafoa menya alesi esia wɔa dɔ o!)
+- Zaino Na mɔ be woakpɔ zebrad alo zcashd            
+- zebrad si ƒo ƒu bliboe nye nyateƒe ƒe dzɔtsoƒe (gakotoku bubuwo mele afii o!)
 
-## Ɖoɖo
 
-Wòahiã be wòaɖo nu 3 be esia nawɔ dɔ nyuie. Meɖe asi le screen alo nu si sɔ kplee ŋu hã be nàkpɔ screenwo dzi nyuie.
+
+## Ɖe Ƒo Ƒo
+
+Wòaxɔ nu etɔ̃ le woaɖe ƒo ɖe eme be esiawɔ dɔ nyuie. Mele susu be wòazã screen alo nu bubu si sɔe kple esia hena screen ƒe ɖoɖo ŋu.
 
 `sudo apt install screen`
 
@@ -43,18 +43,20 @@ Wòahiã be wòaɖo nu 3 be esia nawɔ dɔ nyuie. Meɖe asi le screen alo nu si 
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
+Zã Zebra 7.0.0 alo si wu: NU7 woɖe ɖe Mainnet le gaɖoɖo 3,543,405 dzi, eye `zebrad` ƒe version xoxowo mate ŋu adze ɖoɖonu la yome ne wòɖo dzi ma va yi o ([release notes](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
  
-*Dzi be wòadi* (wɔ screen session na zebrad)
+*optional* (Wɔ screen session na zebrad)
 
 ```
 screen -S zebra
 zebrad start
 ```
 
-Nudzɔdzɔ: Esia hiã be wòawɔ sync blibo! 
+Ŋɔŋlɔ: Esia hia be wòafɔ ƒo ƒu bliboe! 
 
 ### zaino
 
@@ -66,7 +68,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 
 
-*Dzi be wòadi* (wɔ screen session na zaino)
+*optional* (Wɔ screen session na zaino)
 
 ```
 screen -S zaino
@@ -84,16 +86,16 @@ cd zingolib
 cargo build --release --package zingo-cli
 ```
 
-*Dzi be wòadi* (wɔ screen session na zingo-cli)
+*optional* (Wɔ screen session na zingo-cli)
 
 ```
 screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-Nudzɔdzɔ: Esia hiã be wòawɔ sync blibo, abe ale si lightwalletd wɔe ene. Meɖe asi le drive le gota ŋu be nàhe gaɣeyiɣi. :)
+Ŋɔŋlɔ: Esia hia be wòafɔ ƒo ƒu bliboe, abe ale si lightwalletd wɔe ene. Mele susu be wòazã external drive be nàxɔ ɣeyiɣi :)
 
 
-## Wɔwɔ Dɔ
+## Ɖe Dɔ
 
-Ne wòle esiawo wɔm le screen sessions me la, `screen -r` afia screen sia screen si wòate ŋu ayi ɖo ɣe sia ɣe si woahiã
+Ne wòle esiawo wɔm le screens me la, `screen -r` aɖe screen ɖesiaɖe afia na wò be nàyi edzi abe ale si wòhiã ene.

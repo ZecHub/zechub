@@ -13,6 +13,8 @@ Zingo Wallet è un portafoglio di Zcash completo progettato per essere facile da
 
 Una delle funzionalità principali di Zingo![Schermata di verifica in 2 passaggi]è la sua capacità di usare il campo Memo per offrire informazioni preziose sulle tue transazioni.
 
+Zingo 3.0 per dispositivi mobili (31 ottobre 2026) supporta NU7 e aggiunge scambi cross-chain integrati tramite SwapKit. L'app per PC supporta gli scambi SwapKit dalla versione 2.0.26 e NU7 su Mainnet dalla versione 2.0.27.
+
 Zingo![Schermata di verifica in 2 passaggi]è disponibile per dispositivi mobili e PC. Troverai tutti i download [qui](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

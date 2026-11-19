@@ -135,4 +135,4 @@ To gaɖoɖowo ƒe xexlẽdzikpɔɖeƒe me. Woxlẽ ga sia sia si le dodom go tso
 
 ---
 
-Xexlẽƒe: [Mɔ̃ Ƒe Sewo Trɔtrɔwo ƒe index](../start-here/network-upgrades) · Ɖoŋgɔ: [NU6.2](../zcash-tech/nu6-2)
+Xexlẽƒe: [Mɔ̃ ƒe sewo trɔtrɔwo ƒe xexlẽdzesi](../start-here/network-upgrades) · Ɖoŋgɔ: [NU6.2](../zcash-tech/nu6-2) · Eyome: [NU7](../zcash-tech/nu7)

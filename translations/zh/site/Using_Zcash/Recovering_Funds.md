@@ -18,17 +18,15 @@
 
 较旧的屏蔽 ZEC 可能需要作为恢复的一部分进行迁移。路径取决于目前由哪个屏蔽池持有资金。
 
-> **NU7 计划于 2026 年 11 月 5 日推出。** 激活后，当前从旧版 Sprout pool 迁出的路径将停止工作。
+> **NU7 于 2026 年 11 月 6 日（UTC）在主网上激活，区块高度为 3,543,405。** 它不允许版本 4 交易（[ZIP 2003](https://zips.z.cash/zip-2003)），而 Sprout 资金只能通过版本 4 交易花费，因此无法再从旧版 Sprout pool 迁出。
 >
-> 如果你在 Sprout pool 中仍有 ZEC，请在升级前迁移它。激活后，现有工具将无法再将 Sprout 资金转移至 Sapling、透明地址或任何其他目的地。
->
-> 如果你在 **NU7** 激活**之后**查看本页，**Sprout 将被冻结**，直到未来出现恢复方法；目前并未计划提供这种方法。
+> **Sprout 现在已被冻结在冰中。** 现有工具无法再将 Sprout 资金转移到 Sapling、透明地址或任何其他目的地。ZIP 2003 不会销毁 Sprout 资金，并保留了未来采用恢复方法的可能性，但目前并未计划提供这种方法。如果你持有 Sprout 密钥，请妥善保管。
 
 ## 一页解答
 
 | 你的资金位于 | 迁移路径 | 操作方式 |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | 如果你有 `wallet.dat` 或独立的 Sprout 花费密钥，请先尝试当前的 Argos 恢复路径。如果 Argos 不合适，请使用完整实用指南中的旧版 sidecar 路径。Sprout 必须先进入 Sapling，然后再转至 Ironwood。由于 NU7，此路径有时间限制。 |
+| **Sprout** | **Sprout → Sapling → Ironwood** | 如果你有 `wallet.dat` 或独立的 Sprout 花费密钥，请先尝试当前的 Argos 恢复路径。如果 Argos 不合适，请使用完整实用指南中的旧版 sidecar 路径。Sprout 必须先进入 Sapling，然后再转至 Ironwood。自 NU7 激活以来（区块 3,543,405），Sprout 资金无法在 Mainnet 上转移；请参阅上方的说明。 |
 | **Sapling** | **Sapling → Ironwood** | 无需 Sprout 恢复环境。请使用能够恢复或花费你的特定 Sapling 账户，并可构建 Ironwood 交易的当前钱包。仅支持 Ironwood 并不能证明支持旧版 Sapling 恢复。 |
 | **Orchard** | **Orchard → Ironwood** | Orchard 仅可迁出。请使用当前兼容钱包内置的 Orchard 到 Ironwood 迁移流程。请参阅 [已恢复资金和 Ironwood pool](#recovered-funds-and-the-ironwood-pool)。 |
 
@@ -173,7 +171,7 @@ Sprout 价值只能进入 Sapling。在 Sapling 资金确认且可花费后，�
 
 如果你的已恢复资金位于 Orchard，请使用**当前钱包的内置迁移流程**将其转移至 Ironwood。Orchard 在 NU6.3 后仅可迁出。
 
-截至 2026 年 9 月 18 日，Zkool 6.30.0 为当前版本并支持 Ironwood。其迁移设计注重隐私，但这并不等同于声称符合 ZIP 318。其他当前钱包可能使用 ZIP 318 风格的分阶段迁移。请遵循已安装钱包当前的迁移界面和发行说明，而不要自行编造金额或时间安排。
+截至 2026 年 11 月 12 日，Zkool 6.37.0 为当前版本并支持 Ironwood。请使用 6.35.0 或更高版本：更早的版本不知道 NU7 主网激活高度（区块 3,543,405），因此会根据 NU7 之前的规则构建交易（[zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)）。其迁移设计注重隐私，但这并不等同于声称符合 ZIP 318。其他当前钱包可能使用 ZIP 318 风格的分阶段迁移。请遵循已安装钱包当前的迁移界面和发行说明，而不要自行编造金额或时间安排。
 
 分阶段迁移可能使用多笔交易，因此总手续费可能高于一次性转账。
 

@@ -53,10 +53,10 @@ Mwongozo huu unaangazia uchimbaji wa Zcash kwa kutumia vifaa binafsi (kwa mfano,
 - **Programu ya Uchimbaji:**
   - Kwa GPU: lolMiner (inaauni AMD/NVIDIA), GMiner, au miniZ (inayolenga NVIDIA). Pakua kutoka hazina rasmi za GitHub (kwa mfano, github.com/Lolliedieb/lolMiner-releases).
   - Kwa ASIC: Tumia firmware/dashibodi iliyojengewa ndani ya mtengenezaji (kwa mfano, kiolesura cha wavuti cha Bitmain).
-- **Pochi [wallet]:** Pochi ya Zcash ya kupokea malipo. Zinazopendekezwa:
-  - Ya faragha [shielded] (binafsi): Pochi ya ZODL, Zingo (Simu/Eneo-kazi), Zkool (simu/eneo-kazi).
-  - Ya uwazi [transparent] (rahisi zaidi lakini yenye faragha ndogo): Edge Wallet, Zecwallet Lite.
-  - Pakua kutoka [wallets](https://zechub.wiki/wallets). Tengeneza anwani ya faragha (huanza na 'zs') kwa faragha ikiwa bwawa linaiauni.
+- **Pochi:** Pochi ya Zcash ya kupokea malipo. Zinazopendekezwa:
+  - Ya faragha (shielded): Pochi ya ZODL, Zingo (simu/kompyuta), Zkool (simu/kompyuta).
+  - Ya uwazi (transparent) (rahisi zaidi lakini yenye faragha ndogo): Edge Wallet.
+  - Pakua kutoka [wallets](https://zechub.wiki/wallets). Tengeneza anwani ya faragha (shielded) (huanza na 'zs') kwa faragha ikiwa bwawa linaiauni.
 
 ### Mengine
 - Umeme: Hesabu gharama. GPU hutumia 150-300W kwa kila kadi; ASIC 1000W+.

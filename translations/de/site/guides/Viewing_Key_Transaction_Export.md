@@ -8,7 +8,7 @@ Die meisten Wallet-Exporte sind spärlich. Der Steuerexport von ZODL liefert bei
 
 Du benötigst deine Seed Phrase nicht, um das vollständige Bild zu erhalten. Ein Unified Full Viewing Key (UFVK, beginnend mit `uview1`) kann jede eingehende und ausgehende Transaktion eines Kontos sehen, und zwei Tools können daraus eine Datei erstellen, die du behältst: der Zkool-GraphQL-Server und zingo-cli. Dieser Leitfaden sammelt die Ansätze aus [diesem Forenthread](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) und aktualisiert sie für aktuelle Releases.
 
-Getestet im September 2026 mit Zkool 6.30.0 und zingo-cli aus zingolib 6.0.0.
+Getestet im September 2026 mit Zkool 6.30.0 und zingo-cli aus zingolib 6.0.0. Beide Versionen sind älter als NU7, daher wurden die Schritte im November 2026 auf Zkool 6.37.0 und zingolib 8.0.0 aktualisiert. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) ist die erste Zkool-Version, die mit der Mainnet-Aktivierungshöhe von NU7 erstellt wurde, und zingolib 8.0.0 ist die Version, die die Mainnet-Unterstützung für NU7 hinzufügt.
 
 ## Bevor du beginnst
 
@@ -23,10 +23,10 @@ Ein Viewing Key kann nicht ausgeben, zeigt aber jedem, der ihn besitzt, deinen g
 
 - Füge ihn nicht auf einer Website oder in einem Block Explorer ein. Importiere ihn in Software, die du selbst ausführst.
 - Der Server, von dem du synchronisierst, sieht deine IP-Adresse und welche Transaktionen du vollständig herunterlädst. Beide untenstehenden Tools rufen jede deiner Transaktionen anhand ihrer ID ab, um Memos und Gebühren zu lesen, und [ZIP 307](https://zips.z.cash/zip-0307) weist darauf hin, dass dies dem Server verrät, welche Transaktionen dir gehören. Die Synchronisierung über deinen eigenen Zebra-Knoten mit Zaino oder lightwalletd vermeidet das. Das [Zingolib- und Zaino-Tutorial](/guides/zingolib-and-zaino-tutorial) führt durch die Einrichtung.
-- zingo-cli 6 sendet Zahlungen über das Nym-Mixnet, seine Synchronisierung verbindet sich jedoch weiterhin direkt mit dem Server; der obige Punkt gilt daher auch dafür.
-- Gib diesen Tools einen Viewing Key, niemals einen Seed. Der Zkool-GraphQL-Server hat standardmäßig keine Anmeldung, und seine API gibt den Seed jedes damit erstellten Kontos zurück und kann Gelder versenden.
-- Behalte den Server auf deinem eigenen Rechner. Der untenstehende Docker-Befehl lauscht nur auf `127.0.0.1`.
-- Beide Tools speichern den Key und deinen Verlauf unverschlüsselt. Lösche die Arbeitsdaten, wenn du fertig bist, und bewahre den Export verschlüsselt auf.
+- zingo-cli sendet Zahlungen über das Nym-Mixnet, seine Synchronisierung verbindet sich jedoch weiterhin direkt mit dem Server; der obige Punkt gilt daher auch dafür.
+- Gib diesen Tools einen Viewing Key, niemals einen Seed. Der untenstehende Docker-Befehl startet den Zkool-GraphQL-Server mit `--allow-unauthenticated`, sodass er keine Anmeldung hat. Seine API gibt den Seed jedes damit erstellten Kontos zurück und kann Gelder versenden.
+- Behalte den Server auf deinem eigenen Rechner. Der untenstehende Docker-Befehl lauscht nur auf `127.0.0.1` deines Computers. Innerhalb des Containers muss der Server auf allen Schnittstellen (`--bind-address 0.0.0.0`) lauschen, andernfalls kann Docker ihn nicht erreichen; die `-p 127.0.0.1:8000:8000`-Zuordnung sorgt dafür, dass er lokal bleibt.
+- Beide Tools speichern den Key und deinen Verlauf unverschlüsselt. Zkool kann seine Datenbank verschlüsseln (`--db-password-file`), aber der folgende Befehl hält es mit `--allow-unencrypted-database` einfach. Lösche die Arbeitsdaten, wenn du fertig bist, und bewahre den Export verschlüsselt auf.
 
 ## Option 1: Zkool GraphQL
 
@@ -38,11 +38,16 @@ Ein Viewing Key kann nicht ausgeben, zeigt aber jedem, der ihn besitzt, deinen g
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-Er synchronisiert über `https://zec.rocks`, sofern du nicht `--lwd-url` mit deinem eigenen Server hinzufügst. Beim ersten Start lädt er die Sapling-Parameter herunter (etwa 50 MB). Falls das fehlschlägt, versucht es `docker start zkool-export` erneut.
+Seit Version 6.32.0 startet der Server erst, wenn du zwei Einstellungen ausdrücklich festlegst: wie sich Clients anmelden (mit einem JWT-Schlüssel oder `--allow-unauthenticated`) und ob die Datenbank verschlüsselt ist (mit einem Passwort oder `--allow-unencrypted-database`). Außerdem lauscht er jetzt standardmäßig nur auf `127.0.0.1`. Innerhalb eines Containers bedeutet das, dass nichts von außerhalb darauf zugreifen kann – daher `--bind-address 0.0.0.0`. Wenn der Container sofort wieder stoppt, zeigt `docker logs zkool-export`, welche Option fehlt.
+
+Es synchronisiert sich von `https://zec.rocks`, sofern du nicht `--lwd-url` mit deinem eigenen Server hinzufügst. Das Image enthält die Sapling-Parameter bereits, du musst also nichts weiter herunterladen.
 
 Öffne `http://127.0.0.1:8000/graphiql` in einem Browser. Du kannst dort jeden der nächsten Schritte einfügen und ausführen.
 
@@ -141,17 +146,21 @@ Die Zkool-App bietet im Kontomenü ebenfalls Export Transactions, Memos und Note
 
 ## Option 2: zingo-cli
 
-zingo-cli ist die Kommandozeilen-Wallet von Zingo. Es gibt keine vorgefertigten Downloads, daher baust du sie mit Rust:
+zingo-cli ist die Kommandozeilen-Wallet von Zingo. Es gibt keine vorgefertigten Downloads, daher erstellst du sie mit Rust. Verwende zingolib 8.0.0 oder neuer: Dies ist die erste Version, die die Mainnet-Aktivierungshöhe von NU7 kennt (3,543,405), laut den [Versionshinweisen](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0). Builds älterer Tags wie 6.0.0 kennen sie nicht.
+
+Der Build verwendet [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`). Unter Ubuntu benötigst du außerdem `sudo apt install build-essential gcc libsqlite3-dev`.
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-Du benötigst `nym-proxy` sogar nur zum Synchronisieren. zingo-cli 6 verbindet sich ohne dies mit keinem Server.
+Dadurch wird `./target/release/zingo-cli` erstellt und `nym-proxy` daneben abgelegt. Du brauchst `nym-proxy` schon allein zum Synchronisieren: zingo-cli geht ohne ihn nicht online. Seit 8.0.0 ist `zingo-netutils` Teil des Hauptarbeitsbereichs. Daher funktioniert die ältere Anleitung, `nym-proxy` aus `zingo-netutils/target/release/` zu kopieren, nicht mehr.
+
+Wenn du `zingo-cli` an einen anderen Ort verschiebst, verschiebe `nym-proxy` mit oder teile zingo-cli mit `--nym-proxy /path/to/nym-proxy` oder der Umgebungsvariable `ZINGO_NYM_PROXY` mit, wo sich die Datei befindet. Ohne diese Angaben sucht es neben seiner eigenen Binärdatei und anschließend auf deinem `PATH`. Wenn es den Proxy nicht starten kann, geht es überhaupt nicht online.
+
+Nur Zahlungen (und die Preisabfrage für ZEC) laufen über Nym. Sync verbindet sich direkt mit dem Server.
 
 Der erste Lauf erstellt eine reine Anzeige-Wallet, synchronisiert sie und gibt den Verlauf aus:
 
@@ -164,8 +173,8 @@ Der erste Lauf erstellt eine reine Anzeige-Wallet, synchronisiert sie und gibt d
 
 - `--data-dir` muss ein absoluter Pfad sein.
 - `--viewkey` und `--birthday` gelten nur beim Erstellen der Wallet. Lass sie danach weg.
-- zingo-cli startet standardmäßig offline. `--server` wählt den Server und gilt zugleich als deine Zustimmung, online zu gehen.
-- Der Key landet in deinem Shell-Verlauf, lösche ihn daher anschließend.
+- Eine neue zingo-cli ist standardmäßig offline und benötigt deine Zustimmung, um online zu gehen. Mit `--server` wird der Server ausgewählt und zugleich diese Zustimmung erteilt. Die anderen Möglichkeiten sind `--online` (nur für diese Sitzung) und `--remember-online`, wodurch die Auswahl auch neben der Wallet gespeichert wird, damit spätere Läufe ohne Flag online gehen (`--forget-online` macht dies rückgängig).
+- Der Schlüssel landet im Shell-Verlauf. Lösche ihn anschließend.
 
 Spätere Läufe:
 
@@ -184,10 +193,10 @@ $Z --offline messages > memos.json
 
 Einige Dinge zur Ausgabe:
 
-- `transactions` und `value_transfers` geben Klartext aus, der ein wenig wie JSON aussieht, aber keines ist.
-- Beträge sind in Zatoshis (100.000.000 zu 1 ZEC) und immer positiv. `kind` zeigt dir die Richtung. Bei Sendungen ist `value` der Betrag, der an andere Personen ging, ohne die Gebühr.
-- Die Gebühr wird als „not available“ angezeigt, wenn eine Transaktion transparente Gelder ausgibt, die nicht dir gehörten. Es werden nur Text-Memos angezeigt.
-- Falls die Synchronisierung fehlschlägt, geht der Fehler ins Terminal, nicht in die Datei, und zingo-cli beendet sich trotzdem normal. Prüfe das Terminal, bevor du `transactions.txt` vertraust.
+- `transactions` und `value_transfers` geben Klartext aus, der ein wenig wie JSON aussieht, aber keiner ist.
+- Beträge werden in Zatoshis angegeben (100.000.000 entsprechen 1 ZEC) und sind immer positiv. `kind` gibt die Richtung an. Bei Sendungen ist `value` der Betrag, der an andere Personen ging, ohne die Gebühr.
+- Die Gebühr wird als „nicht verfügbar“ angezeigt, wenn eine Transaktion transparente Mittel ausgibt, die nicht dir gehörten. Es werden nur Text-Memos angezeigt.
+- Wenn die Synchronisierung fehlschlägt, wird der Fehler im Terminal ausgegeben, nicht in der Datei. Seit zingolib 8.0.0 (zingo-cli 0.5.0) wird bei einem fehlgeschlagenen Befehl außerdem ein Exit-Code ungleich null zurückgegeben. Prüfe jedoch das Terminal, bevor du `transactions.txt` vertraust.
 
 dismads [zingoHelper](https://github.com/dismad/zingoHelper) enthält ein `exportToJSON.sh`-Skript, das `transactions` in JSON umwandelt. Es wurde vor zingo-cli 6 geschrieben, ist für Testnet eingerichtet, kennzeichnet einige ausgehende Sapling- und transparente Einträge als Platzhalter und benötigt GNU-Tools, sodass es auf unverändertem macOS nicht läuft. Betrachte seine Ausgabe als Ausgangspunkt und überprüfe die Summen.
 
@@ -211,8 +220,8 @@ dismads [zingoHelper](https://github.com/dismad/zingoHelper) enthält ein `expor
 ## Verwandt
 
 - [Viewing Keys](/zcash-tech/viewing-keys)
-- [Recovering Funds](/using-zcash/recovering-funds)
-- [Zingolib- und Zaino-Tutorial](/guides/zingolib-and-zaino-tutorial)
+- [Guthaben wiederherstellen](/using-zcash/recovering-funds)
+- [Zingolib und Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 - [Forum: Transaktionsverlauf aus UFVK/Seed nach JSON/CSV exportieren](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
 - [Forum: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)

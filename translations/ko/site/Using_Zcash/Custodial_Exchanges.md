@@ -99,15 +99,16 @@ ___
 - Ironwood: 실드 출금 지원, 풀은 명시되지 않음
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- 웹사이트: [Huobi](https://huobi.com)
+- 웹사이트: [HTX](https://www.htx.com) (이전 Huobi)
 - 거래쌍: ALL/ZEC
 - 지원: 투명
+- 상태: ZEC 입금 및 출금이 현재 중단됨 (HTX 공개 API 기준, 2026년 11월); 현물 거래는 여전히 등록되어 있음
 - 입금 시간: 35분 
 - Ironwood: 해당 없음, 투명 주소만 지원
 ___

@@ -1,29 +1,31 @@
-# Full node Zebra (nodo completo) rafforzato
+# Full node hardened Zebra
 
-- Usa un utente dedicato senza privilegi + sandboxing systemd a livello di kernel (lo stesso isolamento di Docker).  
-- L'RPC è solo localhost con autenticazione sicura tramite cookie (predefinita e raccomandata).  
+- Usa un utente dedicato senza privilegi e una sandbox di systemd a livello kernel (lo stesso isolamento di Docker).  
+- RPC solo su localhost con autenticazione tramite cookie sicuro (impostazione predefinita e consigliata).  
 
 
 ---
 
 ## Prerequisiti
 
-- qualsiasi distro basata su Ubuntu
-- toolchain Rust installata (`rustup` + `cargo`)
-- Almeno 300 GB di spazio su disco libero (partizione `/var`)
+- Qualsiasi distribuzione basata su Ubuntu
+- Toolchain Rust installata (`rustup` + `cargo`)
+- Almeno 300 GB di spazio libero su disco (partizione `/var`)
 
 
 ---
 
-## Configurazione una tantum (eseguita come utente normale)
+## Configurazione iniziale (esegui come utente normale)
 
-### 1. Aggiorna il sistema e installa le dipendenze di build
+### 1. Aggiorna il sistema e installa le dipendenze di compilazione
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
 ```
 
-## Aggiorna Rust e installa l'ultimo zebrad (v4.3.0+)
+## Aggiorna Rust e installa la versione più recente di zebrad (7.0.0 o successiva)
+
+NU7 è stata attivata su Mainnet al blocco 3,543,405. Solo [Zebra 7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) e le versioni successive seguono la chain oltre quell'altezza, quindi un `zebrad` versione 6.x o precedente rimane bloccato sulle vecchie regole. Per compilarlo serve Rust 1.91 o successivo, che `rustup update` installa. Se stai aggiornando un nodo esistente da Zebra 6.x, fai prima un backup di `/var/lib/zebrad/state/v28`: Zebra 7 lo converte nel nuovo formato di database v29 al primo avvio e, in seguito, la versione 6.x non può più leggerlo.
 
 ```
 rustup update
@@ -47,7 +49,12 @@ sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 sudo mkdir -p /var/lib/zebrad
 sudo chown zebra:zebra /var/lib/zebrad
 sudo chmod 700 /var/lib/zebrad
+sudo mkdir -p /var/lib/zebrad-rpc
+sudo chown zebra:zebra /var/lib/zebrad-rpc
+sudo chmod 750 /var/lib/zebrad-rpc
 ```
+
+`/var/lib/zebrad-rpc` contiene il cookie di autenticazione RPC. Il servizio qui sotto può scrivere solo in queste due directory e systemd si rifiuta di avviarlo se ne manca una.
 
 ## Crea una configurazione sicura (/etc/zebrad/zebrad.toml)
 
@@ -57,6 +64,8 @@ sudo tee /etc/zebrad/zebrad.toml > /dev/null <<EOF
 [network]
 network = "Mainnet"
 listen_addr = "0.0.0.0:8233"
+# Peer cache. The default, ~/.cache/zebra, isn't writable by this service
+cache_dir = "/var/lib/zebrad"
 
 [state]
 cache_dir = "/var/lib/zebrad"
@@ -66,14 +75,17 @@ cache_dir = "/var/lib/zebrad"
 listen_addr = "127.0.0.1:8232"
 
 # Cookie authentication 
-enable_cookie_auth = true     # ← uncomment to be explicit
+enable_cookie_auth = true     # the default, shown to be explicit
+# Without this line the cookie goes to ~/.cache/zebra, which this service can't write to,
+# and zebrad stops at startup with "Zebra must be able to write the auth cookie to the disk"
+cookie_dir = "/var/lib/zebrad-rpc"
 EOF
 
 sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## Crea un servizio systemd rafforzato
+## Crea un servizio systemd con protezioni avanzate
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -88,8 +100,6 @@ Group=zebra
 ExecStart=/usr/local/bin/zebrad --config /etc/zebrad/zebrad.toml start
 
 UMask=0027
-ExecStartPost=/bin/chmod 750 /var/lib/zebrad-rpc
-ExecStartPost=/bin/chmod 640 /var/lib/zebrad-rpc/.cookie
 
 # Kernel-level sandboxing (makes native zebrad as isolated as Docker)
 ProtectSystem=strict
@@ -110,21 +120,23 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-## Uso quotidiano - flusso di lavoro con un solo comando
+Zebra scrive un nuovo cookie a ogni avvio, leggibile solo dall'utente `zebra` (modalità 600), e lo elimina all'arresto. Leggilo con `sudo`, come mostrato sotto. Non aggiungere una riga `ExecStartPost=` che modifica i permessi del cookie: potrebbe essere eseguita prima che zebrad abbia scritto il cookie e, se il comando `ExecStartPost=` fallisce, il servizio si arresta.
+
+## Uso quotidiano: flusso di lavoro con un solo comando
 
 | Azione                  | Comando                                      | Note |
 |-------------------------|----------------------------------------------|-------|
 | **Avvia**               | `sudo systemctl start zebrad`                | Un comando |
-| **Ferma**               | `sudo systemctl stop zebrad`                 | Un comando |
-| **Stato**               | `sudo systemctl status zebrad`               | Mostra se è in esecuzione |
-| **Log in tempo reale**  | `journalctl -u zebrad -f -o short-precise`  | Sostituisce `screen -r` |
-| **Ottieni il cookie RPC** | `sudo cat /var/lib/zebrad/.cookie`         | Solo mentre è in esecuzione |
+| **Arresta**                | `sudo systemctl stop zebrad`                 | Un comando |
+| **Stato**              | `sudo systemctl status zebrad`               | Indica se è in esecuzione |
+| **Log in tempo reale**           | `journalctl -u zebrad -f -o short-precise`  | Sostituisce `screen -r` |
+| **Ottieni il cookie RPC**      | `sudo cat /var/lib/zebrad-rpc/.cookie`           | Solo mentre è in esecuzione |
 
-**Alias di comodità** (aggiungi a `~/.bashrc` o `~/.zshrc`):
+**Alias pratici** (aggiungili a `~/.bashrc` o `~/.zshrc`):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'
 alias zebra-status='sudo systemctl status zebrad'
 alias zebra-logs='journalctl -u zebrad -f'
-alias zebra-cookie='sudo cat /var/lib/zebrad/.cookie'
+alias zebra-cookie='sudo cat /var/lib/zebrad-rpc/.cookie'
 ```

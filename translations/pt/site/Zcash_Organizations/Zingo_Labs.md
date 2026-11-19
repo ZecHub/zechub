@@ -13,6 +13,8 @@ A carteira Zingo é uma carteira Zcash completa, projetada para ser fácil de us
 
 Um dos principais recursos da Zingo! é a capacidade de usar o campo de memorando para oferecer informações valiosas sobre suas transações.
 
+Zingo 3.0 para dispositivos móveis (31 de out de 2026) oferece suporte a NU7 e adiciona conversões cross-chain integradas por meio de SwapKit. O app para PC oferece conversões SwapKit desde a versão 2.0.26 e suporte a NU7 na Mainnet desde a versão 2.0.27.
+
 A Zingo! está disponível para dispositivos móveis e PCs. Você encontra todos os downloads [aqui](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

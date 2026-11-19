@@ -10,7 +10,7 @@ Utajifunza: jinsi Blossom ilivyofanya block za Zcash zifike kwa kasi takriban ma
 
 Blossom ni Zcash [uboreshaji wa mtandao](../start-here/network-upgrades). Ilitekelezwa kupitia [ZIP 206](https://zips.z.cash/zip-0206), na mabadiliko yake makuu ya makubaliano yamefafanuliwa katika [ZIP 208](https://zips.z.cash/zip-0208). Blossom ulikuwa uboreshaji wa kupanua uwezo: ulipunguza muda lengwa kati ya block kutoka sekunde 150 hadi sekunde 75, hivyo block hufika takriban mara mbili zaidi. Electric Coin Company iliongoza na kutangaza Blossom.
 
-Kwa nini hili ni muhimu. Unapotuma ZEC, unasubiri mtandao uthibitishe katika block. Ikiwa block ni za polepole, unasubiri kwa muda mrefu zaidi. Kabla ya Blossom, block mpya ilitarajiwa takriban kila sekunde 150. Blossom ilipunguza lengo hilo kwa nusu, hadi sekunde 75, hivyo uthibitisho hupatikana mapema na mnyororo unaweza kubeba miamala mingi zaidi katika muda uleule. Ilifanya hivi bila kuunda ZEC zaidi au kubadilisha muda wa kupunguzwa kwa nusu siku zijazo.
+Kwa nini hili ni muhimu. Unapotuma ZEC, unasubiri mtandao uthibitishe katika block. Ikiwa block ni za polepole, unasubiri kwa muda mrefu zaidi. Kabla ya Blossom, block mpya ilitarajiwa takriban kila sekunde 150. Blossom ilipunguza lengo hilo kwa nusu, hadi sekunde 75, hivyo uthibitisho hupatikana mapema na mnyororo unaweza kubeba miamala mingi zaidi katika muda uleule. Ilifanya hivi bila kuunda ZEC zaidi au kubadilisha muda wa kupunguzwa kwa nusu siku zijazo. (NU7, iliyoamilishwa Novemba 2026, baadaye ilipunguza lengo tena hadi sekunde 25 chini ya [ZIP 218](https://zips.z.cash/zip-0218), kwa kutumia mbinu ileile.)
 
 ## TL;DR (Kwa ufupi)
 
