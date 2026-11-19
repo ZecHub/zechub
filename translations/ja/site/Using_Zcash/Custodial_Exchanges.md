@@ -112,6 +112,8 @@ ___
 - 入金時間: 35分 
 - Ironwood: 該当なし、公開型アドレスのみ
 
+___
+
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">

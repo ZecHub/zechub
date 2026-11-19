@@ -112,6 +112,8 @@ ___
 - وقت الإيداع: 35 دقيقة 
 - Ironwood: غير منطبق، عناوين شفافة فقط
 
+___
+
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">

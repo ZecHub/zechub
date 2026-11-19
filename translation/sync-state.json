@@ -2287,7 +2287,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -4385,7 +4385,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -6131,7 +6131,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -6307,7 +6307,7 @@
       "src_commit": "775e3110baeba5034d6aef8e33b61d99c02a3bbb",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -8925,7 +8925,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zimppy.md": {
@@ -10335,7 +10335,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -13995,7 +13995,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -15917,7 +15917,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -19905,7 +19905,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/DEX.md": {
@@ -20073,7 +20073,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -21683,7 +21683,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -23645,7 +23645,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Faucets.md": {
@@ -25527,7 +25527,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -29371,7 +29371,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -31293,7 +31293,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -33215,7 +33215,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -35137,7 +35137,7 @@
       "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {

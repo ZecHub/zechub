@@ -112,6 +112,8 @@ ___
 - Tiempo de depósito: 35 minutos 
 - Ironwood: No aplicable, solo direcciones transparentes
 
+___
+
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
