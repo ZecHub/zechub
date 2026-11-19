@@ -57,7 +57,7 @@ Le NU7 ŋgɔ la, gaƒuƒoƒo 2 MB blibo ate ŋu akpe abe Orchard 617 ene alo Iro
 ### Mɔ̃ ƒe Dedie Ŋuɖoɖo Mɔ̃ (ZIP 235 + ZIP 237)
 
 - **Adzɔ ɖeɖe (ZIP 235):** transaction ƒe adzɔ 60% le gaƒuƒoƒo ɖeka me tsoa dzodzo me; 40% si susɔ la yi nukula gbɔ abe tsã ene. Le burn ƒe nɔnɔme me o la, ZEC si wotsɔ ɖe dzodzo me la le xexlẽme me be woate ŋu agbugbɔe ade eme le etsɔ.
-- **Gbugbɔɖeɖe (ZIP 237):** ZEC si wotsɔ ɖe dzodzo me la le mɔ̃ ƒe consensus state si nye amewo katã ƒe si woyɔna be NSM Value Balance me. Woɖe eƒe gɔmeɖeɖe ɖe NU7 me kple xɔxɔ si nukulawo ɖe ɖoɖi le tsã me. Tso gaƒuƒoƒo **8,939,664** (woɖo ŋu be around February 2031) me, gaƒuƒoƒo sia sia ɖea balance la ƒe akpa ɖoɖo aɖe kpe ɖe halving ƒe ɖoɖo dzi.
+- **Gbugbɔɖeɖe (ZIP 237):** ZEC si wotsɔ ɖe dzodzo me la le mɔ̃ ƒe consensus state si nye amewo katã ƒe si woyɔna be NSM Value Balance me. Woɖe eƒe gɔmeɖeɖe ɖe NU7 me (368.58 ZEC) kple xɔxɔ si nukulawo ɖe ɖoɖi le tsã me. Tso gaƒuƒoƒo **8,939,664** (woɖo ŋu be around February 2031) me, gaƒuƒoƒo sia sia ɖea balance la ƒe akpa ɖoɖo aɖe kpe ɖe halving ƒe ɖoɖo dzi.
 - Supply ƒe gɔmeɖeɖe meɖe ɖe dzi o. Ne balance la meɖe eme ɖo la, ɖoɖoɖe la sɔ tsã ƒe halving ƒe ɖoɖo.
 - NU7 meɖe [ZIP 233](https://zips.z.cash/zip-0233) (ameawo ƒe ɖeɖe si womeɖo se ɖe eme o) alo [ZIP 234](https://zips.z.cash/zip-0234) (tsɔ halvingwo ɖeɖe ɖo, eye wòtsɔ curve si yɔna ɖe dzi ɖo). Coinholder ƒe pollwo tia halving si le edzi le ZIP 237 me.
 

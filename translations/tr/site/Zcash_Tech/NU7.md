@@ -57,7 +57,7 @@ NU7 öncesinde, 2 MB'lık tam bir blok yaklaşık 617 Orchard veya Ironwood eyle
 ### Ağ Sürdürülebilirliği Mekanizması (ZIP 235 + ZIP 237)
 
 - **Ücretlerin dolaşımdan çıkarılması (ZIP 235):** Her bloktaki işlem ücretlerinin %60'ı dolaşımdan çıkarılıyor; kalan %40'ı önceki gibi madenciye gidiyor. Yakılan miktardan farklı olarak, çıkarılan ZEC izleniyor ve daha sonra yeniden verilebiliyor.
-- **Yeniden ihraç (ZIP 237):** Çıkarılan ZEC, NSM Değer Bakiyesi adı verilen açık mutabakat durumunda tutuluyor. Bu bakiye NU7 sırasında geçmişte madencilerin talep etmeden bıraktığı değerle oluşturuldu. **8.939.664** numaralı bloktan itibaren (öngörülen tarih Şubat 2031 civarı), her blok normal yarılanma takvimine ek olarak bu bakiyenin sabit bir kısmını ihraç ediyor.
+- **Yeniden ihraç (ZIP 237):** Çıkarılan ZEC, NSM Değer Bakiyesi adı verilen açık mutabakat durumunda tutuluyor. Bu bakiye NU7 sırasında geçmişte madencilerin talep etmeden bıraktığı 368.58 ZEC değerle oluşturuldu. **8.939.664** numaralı bloktan itibaren (öngörülen tarih Şubat 2031 civarı), her blok normal yarılanma takvimine ek olarak bu bakiyenin sabit bir kısmını ihraç ediyor.
 - Arz sınırı yükselmiyor. Bakiye sıfır olduğunda ihraç, eski yarılanma takvimini aynen izliyor.
 - NU7, [ZIP 233](https://zips.z.cash/zip-0233) (kullanıcıların gönüllü olarak dolaşımdan çıkarma yapması) veya [ZIP 234](https://zips.z.cash/zip-0234)'ü (yarılanmaların yumuşak bir eğriyle değiştirilmesi) devreye **almadı**. Coinholder anketlerinde ZIP 237'de yarılanmayı koruyan tasarım seçildi.
 

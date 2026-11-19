@@ -57,7 +57,7 @@ Kabla ya NU7, block kamili ya MB 2 ingeweza kuwa na takribani Orchard 617 au vit
 ### Utaratibu wa Uendelevu wa Mtandao (ZIP 235 + ZIP 237)
 
 - **Uondoaji wa ada (ZIP 235):** 60% ya ada za miamala katika kila block huondolewa kwenye mzunguko; 40% iliyobaki huenda kwa mchimbaji kama awali. Tofauti na kuchoma, ZEC zilizoondolewa hurekodiwa ili ziweze kutolewa tena baadaye.
-- **Utoaji upya (ZIP 237):** ZEC zilizoondolewa huhifadhiwa katika hali ya umma ya makubaliano inayoitwa Salio la Thamani la NSM. Lilipewa salio la awali katika NU7 kwa thamani ambayo wachimbaji hawakudai hapo awali. Kuanzia block **8,939,664** (inakadiriwa kuwa karibu Februari 2031), kila block hutoa sehemu isiyobadilika ya salio hilo juu ya ratiba ya kawaida ya kupunguzwa kwa nusu.
+- **Utoaji upya (ZIP 237):** ZEC zilizoondolewa huhifadhiwa katika hali ya umma ya makubaliano inayoitwa Salio la Thamani la NSM. Lilipewa salio la awali la 368.58 ZEC katika NU7 kwa thamani ambayo wachimbaji hawakudai hapo awali. Kuanzia block **8,939,664** (inakadiriwa kuwa karibu Februari 2031), kila block hutoa sehemu isiyobadilika ya salio hilo juu ya ratiba ya kawaida ya kupunguzwa kwa nusu.
 - Kikomo cha jumla ya sarafu hakiongezeki. Salio likiwa sifuri, utoaji hufuata sawasawa ratiba ya zamani ya kupunguzwa kwa nusu.
 - NU7 **haikutekeleza** [ZIP 233](https://zips.z.cash/zip-0233) (uondoaji wa hiari unaofanywa na watumiaji) au [ZIP 234](https://zips.z.cash/zip-0234) (kubadilisha upunguzaji kwa nusu na mteremko laini). Kura za wamiliki wa sarafu zilichagua muundo unaohifadhi upunguzaji kwa nusu katika ZIP 237.
 

@@ -57,7 +57,7 @@ Antes de NU7, un bloque completo de 2 MB podía contener unas 617 acciones Orcha
 ### Mecanismo de Sostenibilidad de la Red (ZIP 235 + ZIP 237)
 
 - **Retiro de tarifas (ZIP 235):** se retira de circulación el 60% de las tarifas de transacción de cada bloque; el otro 40% se entrega al minero como antes. A diferencia de una quema, las ZEC retiradas quedan registradas para poder volver a emitirse más adelante.
-- **Reemisión (ZIP 237):** las ZEC retiradas se conservan en un estado público de consenso llamado NSM Value Balance. Se inició en NU7 con el valor que los mineros dejaron sin reclamar en el pasado. A partir del bloque **8,939,664** (previsto para febrero de 2031), cada bloque emite una parte fija de ese saldo, además de la emisión normal del calendario de halving.
+- **Reemisión (ZIP 237):** las ZEC retiradas se conservan en un estado público de consenso llamado NSM Value Balance. Se inició en NU7 con 368.58 ZEC procedentes de los fondos que los mineros dejaron sin reclamar en el pasado. A partir del bloque **8,939,664** (previsto para febrero de 2031), cada bloque emite una parte fija de ese saldo, además de la emisión normal del calendario de halving.
 - El límite de suministro no aumenta. Cuando el saldo llega a cero, la emisión sigue exactamente el calendario de halving anterior.
 - NU7 no desplegó **[ZIP 233](https://zips.z.cash/zip-0233)** (retiro voluntario por parte de los usuarios) ni **[ZIP 234](https://zips.z.cash/zip-0234)** (reemplazar los halvings por una curva gradual). Las encuestas a los titulares de monedas eligieron el diseño que conserva los halvings en ZIP 237.
 

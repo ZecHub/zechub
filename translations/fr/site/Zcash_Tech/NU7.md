@@ -57,7 +57,7 @@ Avant NU7, un bloc plein de 2 Mo pouvait contenir environ 617 actions Orchard ou
 ### Mécanisme de durabilité du réseau (ZIP 235 + ZIP 237)
 
 - **Retrait des frais (ZIP 235) :** 60 % des frais de transaction de chaque bloc sont retirés de la circulation, et les 40 % restants reviennent au mineur comme auparavant. Contrairement à une destruction, le ZEC retiré fait l'objet d'un suivi pour pouvoir être émis de nouveau plus tard.
-- **Réémission (ZIP 237) :** le ZEC retiré est conservé dans un état de consensus public appelé « solde de valeur NSM ». Ce solde a été initialisé lors de NU7 avec des montants que les mineurs n'avaient pas réclamés par le passé. À partir du bloc **8 939 664** (prévu vers février 2031), chaque bloc émet une part fixe de ce solde, en plus du calendrier normal des halvings.
+- **Réémission (ZIP 237) :** le ZEC retiré est conservé dans un état de consensus public appelé « solde de valeur NSM ». Ce solde a été initialisé lors de NU7 avec 368.58 ZEC provenant des montants que les mineurs n'avaient pas réclamés par le passé. À partir du bloc **8 939 664** (prévu vers février 2031), chaque bloc émet une part fixe de ce solde, en plus du calendrier normal des halvings.
 - Le plafond de l'offre n'augmente pas. Quand le solde est nul, l'émission suit exactement l'ancien calendrier des halvings.
 - NU7 n'a **pas** déployé [ZIP 233](https://zips.z.cash/zip-0233) (retrait volontaire par les utilisateurs) ni [ZIP 234](https://zips.z.cash/zip-0234) (remplacement des halvings par une courbe lissée). Les sondages auprès des détenteurs de pièces ont retenu la conception de ZIP 237, qui préserve les halvings.
 

@@ -57,7 +57,7 @@ Vor NU7 konnte ein voller 2-MB-Block etwa 617 Orchard- oder Ironwood-Aktionen od
 ### Mechanismus zur Nachhaltigkeit des Netzwerks (ZIP 235 + ZIP 237)
 
 - **Gebührenentnahme (ZIP 235):** 60 % der Transaktionsgebühren jedes Blocks werden dem Umlauf entzogen; die übrigen 40 % gehen wie bisher an den Miner. Anders als bei einem Burn werden die entzogenen ZEC erfasst, damit sie später erneut ausgegeben werden können.
-- **Erneute Ausgabe (ZIP 237):** Die entzogenen ZEC werden in einem öffentlichen Konsenszustand namens NSM Value Balance gehalten. Dieser wurde bei NU7 mit Werten aufgefüllt, die Miner in der Vergangenheit nicht beansprucht hatten. Ab Block **8.939.664** (voraussichtlich um Februar 2031) gibt jeder Block zusätzlich zum regulären Halbierungsplan einen festen Anteil dieses Guthabens aus.
+- **Erneute Ausgabe (ZIP 237):** Die entzogenen ZEC werden in einem öffentlichen Konsenszustand namens NSM Value Balance gehalten. Dieser wurde bei NU7 mit 368.58 ZEC aus Werten aufgefüllt, die Miner in der Vergangenheit nicht beansprucht hatten. Ab Block **8.939.664** (voraussichtlich um Februar 2031) gibt jeder Block zusätzlich zum regulären Halbierungsplan einen festen Anteil dieses Guthabens aus.
 - Die Obergrenze des Gesamtangebots steigt nicht. Wenn das Guthaben auf null sinkt, entspricht die Ausgabe genau dem bisherigen Halbierungsplan.
 - NU7 führte [ZIP 233](https://zips.z.cash/zip-0233) (freiwillige Entnahme durch Nutzer) oder [ZIP 234](https://zips.z.cash/zip-0234) (Ersetzung der Halbierungen durch eine gleichmäßige Kurve) **nicht** ein. Umfragen unter Coinholdern sprachen sich in ZIP 237 für das Modell aus, das die Halbierungen beibehält.
 
