@@ -50,6 +50,8 @@ If an exchange like Binance rejects the sent value, it has the necessary means t
 
 You can view the most up-to-date list on our [wallets](/using-zcash/wallets) page. Use the TEX Address filter.
 
+ZODL pays a TEX address only from its own accounts. From a Keystone or Ledger account in ZODL, a TEX send is blocked ([ZODL iOS source](https://github.com/zodl-inc/zodl-ios/blob/bfce63e808f595f716db56d3e2c87cb4f002c259/secant/Sources/Features/SendForm/SendFormStore.swift#L163-L168)).
+
 ## Visual / Analogy
 
 Think of your shielded balance as money in a locked safe at home. Nobody outside can see how much is inside.
@@ -76,6 +78,21 @@ TEX addresses borrow the Bech32m encoding from the Unified Address format but ke
 | Typecodes for each receiver | yes | no |
 
 In short, a TEX address is the plainest possible Bech32m wrapper: one transparent key hash, a `tex` prefix, and nothing else.
+
+### Decoding rules
+
+In November 2026, ZIP 320 was updated to spell out how a TEX address is read ([zips #1469](https://github.com/zcash/zips/pull/1469)). A wallet, exchange or explorer must reject the address if any of these checks fails:
+
+* **Case.** An all-uppercase TEX address is valid and is read as its lowercase form. An address that mixes uppercase and lowercase letters is rejected.
+* **Checksum.** The checksum must be Bech32m. An address whose checksum is only valid as a Bech32 checksum is rejected.
+* **Padding.** Any leftover bits at the end of the data must be 4 bits or fewer and all zero.
+* **Network and length.** The prefix must match the network (`tex` on Mainnet, `textest` on Testnet), and the data must be exactly 20 bytes. A valid TEX address is 42 characters long on Mainnet and 46 on Testnet.
+
+Going the other way, only a P2PKH (`t1`) address can become a TEX address: a P2SH (`t3`) address must be rejected, and the result must be written in lowercase.
+
+### Test vectors
+
+ZIP 320 points to the [Zcash test vectors](https://github.com/zcash/zcash-test-vectors/blob/78321beacb0e0477e33cd002b56585a107c2708c/test-vectors/json/zip_0320.json) for valid TEX addresses. A set of invalid cases is proposed in [zcash-test-vectors #139](https://github.com/zcash/zcash-test-vectors/pull/139), still open as of November 2026. [zcash-tex-vectors](https://github.com/cryppit/zcash-tex-vectors) (MIT) collects valid and invalid cases for Mainnet, Testnet and Regtest, with the expected result for each.
 
 ### Handling rules for wallets and integrators
 
@@ -114,6 +131,8 @@ So an observer can link the ephemeral address to the exchange payment (same fund
 
 The TEX rule lives in wallets. Nodes do not check it, so the consensus rules stay the same. On-chain, a payment to a TEX address looks the same as a payment to the matching `t1` address. The amount, the ephemeral address, and the exchange's address are public, as with any transparent transaction.
 
+To check whether a withdrawal paid a TEX address, [Shield Receipt](https://cryppit.github.io/shield-receipt/) takes the transaction ID and the address you gave, and shows whether an output paid it. It is free, keyless and read-only, and reads the transaction from Blockchair.
+
 ## Related Pages
 
 - [Unified Addresses](/using-zcash/unified-addresses): the `u1` address format under ZIP 316, and the Bech32m basics a TEX address reuses.
@@ -124,4 +143,4 @@ The TEX rule lives in wallets. Nodes do not check it, so the consensus rules sta
 - [What a Block Explorer Can See](/zcash-tech/what-a-block-explorer-can-see): how a transparent payment appears on-chain.
 - [Zcash Payment Request URIs](/using-zcash/payment-request-uris): another wallet standard for prefilled payments.
 
-**Last updated:** October 2026
+**Last updated:** November 2026
