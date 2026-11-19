@@ -2959,7 +2959,7 @@
       "src_commit": "e70938dc663bd36139c29d1ebaa0f692bbc0e78c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+ar-termrepair-retain",
       "edited": false
     },
     "Zcash_Tech/Project_Tachyon.md": {
