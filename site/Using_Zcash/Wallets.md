@@ -550,3 +550,15 @@
 - Source: Open Source
 
 ---
+
+## [ZChat](https://zsend.xyz/)
+- Source Code: https://github.com/decentrathai/zchat-android
+- Devices: Mobile
+- Operating System: Android
+- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Pools: Transparent | Sapling | Orchard | Ironwood
+- Features: Address Book | Messenger | NEAR Intents | Payment Request | Shielded Memo | TEX Address
+- NU7: Compatible
+- Source: Open Source
+
+---
