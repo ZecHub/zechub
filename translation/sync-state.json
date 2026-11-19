@@ -3767,7 +3767,7 @@
       "src_commit": "b678a73bc573255db690c6c2d33e86177186c077",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna+ar-diff-retain-20261119+ar-adoption-retained-20261119",
+      "tool": "codex/gpt-6-luna+ar-diff-retain-20261119+ar-adoption-retained-20261119+ar-placeholder-reconcile-20261119",
       "edited": false
     },
     "Zcash_Tech/Zinder.md": {
