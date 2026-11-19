@@ -60,6 +60,7 @@ Avant NU7, un bloc plein de 2 Mo pouvait contenir environ 617 actions Orchard ou
 - **Réémission (ZIP 237) :** le ZEC retiré est conservé dans un état de consensus public appelé « solde de valeur NSM ». Ce solde a été initialisé lors de NU7 avec 368.58 ZEC provenant des montants que les mineurs n'avaient pas réclamés par le passé. À partir du bloc **8 939 664** (prévu vers février 2031), chaque bloc émet une part fixe de ce solde, en plus du calendrier normal des halvings.
 - Le plafond de l'offre n'augmente pas. Quand le solde est nul, l'émission suit exactement l'ancien calendrier des halvings.
 - NU7 n'a **pas** déployé [ZIP 233](https://zips.z.cash/zip-0233) (retrait volontaire par les utilisateurs) ni [ZIP 234](https://zips.z.cash/zip-0234) (remplacement des halvings par une courbe lissée). Les sondages auprès des détenteurs de pièces ont retenu la conception de ZIP 237, qui préserve les halvings.
+- Les détails sur le retrait des frais et la réémission figurent sur la page [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### Interdiction des transactions de version 4 (ZIP 2003)
 
@@ -149,6 +150,7 @@ Réponses : (1) la subvention par bloc a été divisée par trois alors que les 
 | Page | Lien avec ce sujet |
 |---|---|
 | [Ironwood](./Ironwood.md) | la mise à niveau précédente de la série, qui a introduit les transactions v6 |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | détails sur le retrait des frais et la réémission |
 | [Ce que les blocs de 25 secondes changent vraiment](../research/what-25-second-blocks-actually-change) | un examen approfondi du temps de bloc plus court |
 | [Sprout](./Sprout.md) | le pool que NU7 a mis à la retraite |
 | [Récupérer des fonds](../using-zcash/recovering-funds) | ce que le gel de Sprout implique pour les anciens fonds |

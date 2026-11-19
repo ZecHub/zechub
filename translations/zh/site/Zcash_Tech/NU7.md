@@ -60,6 +60,7 @@ NU7是一项 Zcash [网络升级](../start-here/network-upgrades)，由 [ZIP 259
 - **重新发行（ZIP 237）：**被移除的ZEC保存在称为 NSM Value Balance 的公开共识状态中。它在 NU7 时以矿工过去未领取的 368.58 ZEC 作为初始余额。从区块 **8,939,664** 开始（预计约在 2031 年 2 月），每个区块都会在正常减半计划之外，按固定比例发放该余额。
 - 供应上限不会提高。余额归零时，发行量将完全遵循原有减半计划。
 - NU7没有部署 [ZIP 233](https://zips.z.cash/zip-0233)（由用户自愿移除）或 [ZIP 234](https://zips.z.cash/zip-0234)（用平滑曲线取代减半）。持币者投票在 ZIP 237 中选择了保留减半的设计。
+- 有关手续费移除和重新发行的详情，请参阅 [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### 禁止版本 4 交易（ZIP 2003）
 
@@ -149,6 +150,7 @@ NU7是一项 Zcash [网络升级](../start-here/network-upgrades)，由 [ZIP 259
 | 页面 | 关联原因 |
 |---|---|
 | [Ironwood](./Ironwood.md) | 系列中的上一次升级，引入了 v6 交易 |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | 手续费移除和重新发行的详情 |
 | [25 秒区块究竟改变了什么](../research/what-25-second-blocks-actually-change) | 深入了解更快的区块时间 |
 | [Sprout](./Sprout.md) | NU7停用的 pool |
 | [资金找回](../using-zcash/recovering-funds) | Sprout冻结对旧资金意味着什么 |

@@ -60,6 +60,7 @@ Antes de NU7, un bloque completo de 2 MB podía contener unas 617 acciones Orcha
 - **Reemisión (ZIP 237):** las ZEC retiradas se conservan en un estado público de consenso llamado NSM Value Balance. Se inició en NU7 con 368.58 ZEC procedentes de los fondos que los mineros dejaron sin reclamar en el pasado. A partir del bloque **8,939,664** (previsto para febrero de 2031), cada bloque emite una parte fija de ese saldo, además de la emisión normal del calendario de halving.
 - El límite de suministro no aumenta. Cuando el saldo llega a cero, la emisión sigue exactamente el calendario de halving anterior.
 - NU7 no desplegó **[ZIP 233](https://zips.z.cash/zip-0233)** (retiro voluntario por parte de los usuarios) ni **[ZIP 234](https://zips.z.cash/zip-0234)** (reemplazar los halvings por una curva gradual). Las encuestas a los titulares de monedas eligieron el diseño que conserva los halvings en ZIP 237.
+- Los detalles sobre la retirada de tarifas y la reemisión están en la página [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### Transacciones de versión 4 no permitidas (ZIP 2003)
 
@@ -149,6 +150,7 @@ Respuestas: (1) el subsidio por bloque se redujo a un tercio mientras los bloque
 | Página | Por qué está relacionada |
 |---|---|
 | [Ironwood](./Ironwood.md) | la actualización anterior de la serie, que introdujo las transacciones v6 |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | detalles sobre la retirada de tarifas y la reemisión |
 | [Qué cambian realmente los bloques de 25 segundos](../research/what-25-second-blocks-actually-change) | un análisis más detallado del menor tiempo entre bloques |
 | [Sprout](./Sprout.md) | el pool que retiró NU7 |
 | [Recuperar fondos](../using-zcash/recovering-funds) | qué significa el congelamiento de Sprout para los fondos antiguos |

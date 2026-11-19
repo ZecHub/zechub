@@ -60,6 +60,7 @@ Le NU7 ŋgɔ la, gaƒuƒoƒo 2 MB blibo ate ŋu akpe abe Orchard 617 ene alo Iro
 - **Gbugbɔɖeɖe (ZIP 237):** ZEC si wotsɔ ɖe dzodzo me la le mɔ̃ ƒe consensus state si nye amewo katã ƒe si woyɔna be NSM Value Balance me. Woɖe eƒe gɔmeɖeɖe ɖe NU7 me (368.58 ZEC) kple xɔxɔ si nukulawo ɖe ɖoɖi le tsã me. Tso gaƒuƒoƒo **8,939,664** (woɖo ŋu be around February 2031) me, gaƒuƒoƒo sia sia ɖea balance la ƒe akpa ɖoɖo aɖe kpe ɖe halving ƒe ɖoɖo dzi.
 - Supply ƒe gɔmeɖeɖe meɖe ɖe dzi o. Ne balance la meɖe eme ɖo la, ɖoɖoɖe la sɔ tsã ƒe halving ƒe ɖoɖo.
 - NU7 meɖe [ZIP 233](https://zips.z.cash/zip-0233) (ameawo ƒe ɖeɖe si womeɖo se ɖe eme o) alo [ZIP 234](https://zips.z.cash/zip-0234) (tsɔ halvingwo ɖeɖe ɖo, eye wòtsɔ curve si yɔna ɖe dzi ɖo). Coinholder ƒe pollwo tia halving si le edzi le ZIP 237 me.
+- Dzesiwo kple xexlẽmeawo le axa [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### Version 4 gaɖoɖowo womeɖe mɔ na wò o (ZIP 2003)
 
@@ -149,6 +150,7 @@ Le NU7 ŋgɔ la, gaƒuƒoƒo 2 MB blibo ate ŋu akpe abe Orchard 617 ene alo Iro
 | Axa | Nu ka ta wòdo ƒome |
 |---|---|
 | [Ironwood](./Ironwood.md) | mɔ̃ ƒe sewo trɔtrɔ si va tsã le series la me, si de v6 transactions ɖe eme |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | Fee ɖeɖe kple gbugbɔɖeɖe ƒe dzesiwo |
 | [Gaƒuƒowo sekɔnd 25 ƒe Trɔtrɔ Vavã](../research/what-25-second-blocks-actually-change) | gãmeɖeɖe le gaƒuƒowo ƒe ɣeyiɣi bɔbɔ wu ŋu |
 | [Sprout](./Sprout.md) | gaƒuƒoƒo si NU7 ɖe xexlẽme |
 | [Nuwo Xɔxɔ Gbɔ](../using-zcash/recovering-funds) | nu si Sprout ƒe freeze fia na nu xoxo |

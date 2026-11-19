@@ -60,6 +60,7 @@ Tupu NU7, block 2 MB jupụtara nwere ike ịnwe ihe dị ka Orchard 617 ma ọ 
 - **Inyeghachi (ZIP 237):** a na-edebe ZEC e wepụrụ n’ọnọdụ consensus ọha a na-akpọ NSM Value Balance. E tinyere ego mmalite ya na NU7 (368.58 ZEC) site na uru ndị na-egwụputa hapụrụ n’enweghị onye kwuru ya n’oge gara aga. Malite na block **8,939,664** (atụmatụ bụ gburugburu February 2031), block ọ bụla na-ewepụta akụkụ a kapịrị ọnụ nke ngụkọta ahụ, n’elu usoro halving nkịtị.
 - Oke mkpokọta anaghị arị elu. Mgbe ngụkọta ahụ ghọrọ efu, ego a na-ewepụta ga-abụ kpọmkwem nke usoro halving ochie.
 - NU7 ebughị [ZIP 233](https://zips.z.cash/zip-0233) (iwepụ ego ndị ọrụ ji aka ha họrọ) ma ọ bụ [ZIP 234](https://zips.z.cash/zip-0234) (iji usoro dị nro dochie halving). Ntuli aka ndị ji coin họọrọ nhazi na-echekwa halving na ZIP 237.
+- Nkọwa iwepụ ụgwọ na inyeghachi dị na peeji [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### E kweghịzi azụmahịa ụdị 4 (ZIP 2003)
 
@@ -149,6 +150,7 @@ Azịza: (1) ego nkwado kwa block belatara ruo otu ụzọ n’ime atọ, ebe bl
 | Ibe | Ihe mere o ji metụta |
 |---|---|
 | [Ironwood](./Ironwood.md) | mmelite bu ya ụzọ n’usoro a, nke webatara azụmahịa v6 |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | nkọwa iwepụ ụgwọ na inyeghachi |
 | [Ihe Block nke Sekọnd 25 Na-agbanwe N’ezie](../research/what-25-second-blocks-actually-change) | nkọwa miri emi banyere oge block dị ngwa ngwa |
 | [Sprout](./Sprout.md) | pool NU7 mechiri |
 | [Iweghachite Ego](../using-zcash/recovering-funds) | ihe Sprout igbochi pụtara maka ego ochie |

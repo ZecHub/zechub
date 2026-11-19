@@ -60,6 +60,7 @@ NU7 이전에는 2 MB 블록 하나에 Orchard 작업 약 617개, Ironwood 작�
 - **재발행(ZIP 237):** 제외된 ZEC은 NSM Value Balance라는 공개 합의 상태에 보관됩니다. 과거에 채굴자가 청구하지 않고 남긴 368.58 ZEC을 NU7에서 초기값으로 설정했습니다. **8,939,664번 블록**(2031년 2월경으로 예상)부터 각 블록은 기존 반감기 일정에 더해 잔액의 일정 부분을 발행합니다.
 - 공급량 한도는 늘어나지 않습니다. 잔액이 0이 되면 발행량은 기존 반감기 일정과 정확히 같아집니다.
 - NU7은 사용자 자발적 제거인 [ZIP 233](https://zips.z.cash/zip-0233)이나 반감기를 부드러운 곡선으로 대체하는 [ZIP 234](https://zips.z.cash/zip-0234)를 배포하지 **않았습니다**. 코인 보유자 투표에서 반감기를 유지하는 설계를 ZIP 237에서 선택했습니다.
+- 수수료 제거와 재발행에 관한 자세한 내용은 [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### 버전 4 트랜잭션 금지(ZIP 2003)
 
@@ -149,6 +150,7 @@ NU7 이전에는 2 MB 블록 하나에 Orchard 작업 약 617개, Ironwood 작�
 | 페이지 | 관련 이유 |
 |---|---|
 | [Ironwood](./Ironwood.md) | 시리즈의 이전 업그레이드로, v6 트랜잭션을 도입함 |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | 수수료 제거와 재발행에 관한 자세한 내용 |
 | [25초 블록이 실제로 바꾸는 것](../research/what-25-second-blocks-actually-change) | 더 빨라진 블록 생성 시간에 대한 자세한 설명 |
 | [Sprout](./Sprout.md) | NU7에서 폐쇄한 풀 |
 | [자금 복구](../using-zcash/recovering-funds) | Sprout 동결이 기존 자금에 의미하는 것 |

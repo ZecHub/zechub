@@ -60,6 +60,7 @@ Vor NU7 konnte ein voller 2-MB-Block etwa 617 Orchard- oder Ironwood-Aktionen od
 - **Erneute Ausgabe (ZIP 237):** Die entzogenen ZEC werden in einem öffentlichen Konsenszustand namens NSM Value Balance gehalten. Dieser wurde bei NU7 mit 368.58 ZEC aus Werten aufgefüllt, die Miner in der Vergangenheit nicht beansprucht hatten. Ab Block **8.939.664** (voraussichtlich um Februar 2031) gibt jeder Block zusätzlich zum regulären Halbierungsplan einen festen Anteil dieses Guthabens aus.
 - Die Obergrenze des Gesamtangebots steigt nicht. Wenn das Guthaben auf null sinkt, entspricht die Ausgabe genau dem bisherigen Halbierungsplan.
 - NU7 führte [ZIP 233](https://zips.z.cash/zip-0233) (freiwillige Entnahme durch Nutzer) oder [ZIP 234](https://zips.z.cash/zip-0234) (Ersetzung der Halbierungen durch eine gleichmäßige Kurve) **nicht** ein. Umfragen unter Coinholdern sprachen sich in ZIP 237 für das Modell aus, das die Halbierungen beibehält.
+- Die Einzelheiten zur Gebührenentnahme und erneuten Ausgabe stehen auf der Seite [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### Transaktionen der Version 4 nicht mehr zulässig (ZIP 2003)
 
@@ -149,6 +150,7 @@ Antworten: (1) Die Subvention pro Block wurde gedrittelt, während die Blöcke d
 | Seite | Warum sie dazugehört |
 |---|---|
 | [Ironwood](./Ironwood.md) | das vorherige Upgrade der Reihe, das Transaktionen der Version 6 eingeführt hat |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | Einzelheiten zur Gebührenentnahme und erneuten Ausgabe |
 | [Was 25-Sekunden-Blöcke tatsächlich ändern](../research/what-25-second-blocks-actually-change) | ein genauerer Blick auf die kürzere Blockzeit |
 | [Sprout](./Sprout.md) | der Pool, den NU7 stillgelegt hat |
 | [Gelder wiederherstellen](../using-zcash/recovering-funds) | was das Einfrieren durch Sprout für alte Gelder bedeutet |

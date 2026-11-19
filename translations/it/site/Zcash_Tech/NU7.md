@@ -60,6 +60,7 @@ Prima di NU7, un blocco pieno da 2 MB poteva contenere circa 617 azioni Orchard 
 - **Riemissione (ZIP 237):** il ZEC rimosso è conservato in uno stato di consenso pubblico chiamato saldo di valore NSM. È stato inizializzato all'attivazione di NU7 con 368.58 ZEC di valore che i miner hanno lasciato non riscattato in passato. Dal blocco **8.939.664** (previsto attorno a febbraio 2031), ogni blocco emette una porzione fissa di quel saldo in aggiunta al normale calendario di halving.
 - Il tetto dell'offerta non sale. Quando il saldo è a zero, l'emissione segue esattamente il vecchio calendario di halving.
 - NU7 non ha distribuito lo [ZIP 233](https://zips.z.cash/zip-0233) (rimozione volontaria da parte degli utenti) né lo [ZIP 234](https://zips.z.cash/zip-0234) (sostituzione degli halving con una curva graduale). Le consultazioni tra i detentori delle monete hanno scelto il design che preserva gli halving in ZIP 237.
+- I dettagli sulla rimozione delle commissioni e la riemissione sono nella pagina [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### Transazioni di versione 4 non consentite (ZIP 2003)
 
@@ -149,6 +150,7 @@ Risposte: (1) la sovvenzione per blocco è stata tagliata a un terzo mentre i bl
 | Pagina | Perché è correlata |
 |---|---|
 | [Ironwood](./Ironwood.md) | l'aggiornamento precedente della serie, che ha introdotto le transazioni v6 |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | dettagli sulla rimozione delle commissioni e la riemissione |
 | [Cosa cambiano davvero i blocchi da 25 secondi](../research/what-25-second-blocks-actually-change) | uno sguardo più approfondito al tempo di blocco più rapido |
 | [Sprout](./Sprout.md) | la pool NU7 ritirata |
 | [Recuperare i fondi](../using-zcash/recovering-funds) | cosa significa per i vecchi fondi il congelamento di Sprout |

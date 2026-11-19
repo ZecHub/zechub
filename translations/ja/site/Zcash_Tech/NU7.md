@@ -60,6 +60,7 @@ NU7以前は、完全な2 MBブロックには、約617のOrchardまたはIronwo
 - **再発行（ZIP 237）：** 除去されたZECは、NSM Value Balanceと呼ばれる公開コンセンサス状態に保管されます。これは、過去にマイナーが請求しなかった価値によってNU7で368.58 ZECの初期値として設定されました。ブロック**8,939,664**（2031年2月頃の予測）から、各ブロックは通常の半減期スケジュールに加えて、その残高の固定部分を発行します。
 - 供給上限は増加しません。残高がゼロになると、発行量は従来の半減期スケジュールと完全に同じです。
 - NU7は、[ZIP 233](https://zips.z.cash/zip-0233)（ユーザーによる任意の除去）や、[ZIP 234](https://zips.z.cash/zip-0234)（半減期を滑らかな曲線に置き換えること）を展開**していません**。コイン保有者の投票では、ZIP 237において半減期を維持する設計が選ばれました。
+- 手数料の除去と再発行の詳細は [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### バージョン4トランザクションの禁止（ZIP 2003）
 
@@ -149,6 +150,7 @@ NU7以前は、完全な2 MBブロックには、約617のOrchardまたはIronwo
 | ページ | 関連する理由 |
 |---|---|
 | [Ironwood](./Ironwood.md) | v6トランザクションを導入した、このシリーズの前回のアップグレードです |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | 手数料の除去と再発行の詳細 |
 | [25秒ブロックで実際に変わること](../research/what-25-second-blocks-actually-change) | より高速なブロック時間を詳しく解説しています |
 | [Sprout](./Sprout.md) | NU7が廃止したプールです |
 | [資金の回復](../using-zcash/recovering-funds) | Sproutの凍結が古い資金に何を意味するかを説明しています |
