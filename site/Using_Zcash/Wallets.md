@@ -286,7 +286,7 @@
 
 ## [Ledger](https://www.ledger.com/coin/wallet/zcash)
 ![logo](/content-images/wallets/ledger.webp "Ledger")
-- Source Code: https://github.com/Zondax/ledger-zcash
+- Source Code: https://github.com/LedgerHQ/app-zcash
 - Devices: Hardware
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Hardware
@@ -312,13 +312,13 @@
 
 ## [Trezor](https://trezor.io/learn/supported-assets/other-cryptocurrencies/zcash-what-it-is-and-how-it-works-with-trezor)
 ![logo](/content-images/wallets/trezor.webp "Trezor")
-- Source Code: https://github.com/orgs/trezor
+- Source Code: https://github.com/trezor/trezor-firmware
 - Devices: Hardware
 - Wallet Support: Hardware
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
-- Source: Closed Source
+- Source: Open Source
 
 ---
 
