@@ -1,5 +1,6 @@
 {
   "preserveVerbatim": [
+    "3xpl",
     "a16z",
     "Aerodrome",
     "Altcoin Buzz",
@@ -28,6 +29,7 @@
     "Bitget",
     "Bitquery",
     "Blockchair",
+    "BlockExplorer.one",
     "Blossom",
     "boomy",
     "Bootstrap",
@@ -377,6 +379,7 @@
     "zcash.js",
     "Zcash.me",
     "zcashd",
+    "zcashinfo.com",
     "ZcashLightClientKit",
     "ZcashNames",
     "ZcashToCash",
@@ -390,6 +393,7 @@
     "ZEC",
     "ZEC Bounties",
     "ZEC Stats",
+    "ZEC-OS",
     "zec.rocks",
     "ZecBlock",
     "ZecBounties",
@@ -410,6 +414,7 @@
     "Zenith",
     "ZenRock",
     "Zero to Zero Knowledge",
+    "Zexplorer",
     "ZGo",
     "Zillions",
     "Zinder",

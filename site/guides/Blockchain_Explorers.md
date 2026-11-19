@@ -70,17 +70,29 @@ The takeaway: privacy depends on staying inside the shielded pools. Once funds t
 
 ### List of Zcash Block Explorers
 
-- [Zcash Block Explorer](https://mainnet.zcashexplorer.app/)
+The [Blockchain Explorers directory](/using-zcash/blockchain-explorers) compares their features side by side.
 
-- [3xpl](https://3xpl.com/zcash)
+- [Zcash Block Explorer](https://mainnet.zcashexplorer.app/): open-source Zcash explorer for blocks, transactions, the mempool and network nodes, with payment disclosure and viewing key tools.
 
-- [ShieldedScan](https://shieldedscan.xyz)
+- [3xpl](https://3xpl.com/zcash): multi-chain explorer with a Zcash section for blocks, transactions, addresses and the mempool, plus public APIs and data dumps.
 
-- [ZecBlock](https://zecblock.com/)
+- [ZecBlock](https://zecblock.com/): Zcash explorer and privacy analytics for blocks, transactions, addresses and shielded pool data, with a public API. It also looks up TEX addresses (ZIP 320).
 
-- [SoChain](https://sochain.com/zec) ([testnet](https://sochain.com/zectest))
+- [ShieldedScan](https://shieldedscan.xyz): Zcash explorer focused on shielded activity: supply per shielded pool, cross-chain swaps and reorgs, with a public API.
 
-- [ZecZcash Explorer](https://zeczcash.com/explorer)
+- [SoChain](https://sochain.com/zec) ([testnet](https://sochain.com/zectest)): multi-chain explorer for blocks, transactions, transparent addresses, the mempool and fees, with a REST API.
+
+- [ZecZcash Explorer](https://zeczcash.com/explorer): Zcash-only mainnet explorer for blocks, transactions and transparent addresses.
+
+- [BlockExplorer.one](https://blockexplorer.one/zcash/mainnet): multi-chain explorer for Zcash mainnet and testnet. Address pages show the last 14 days of transactions.
+
+- [zcashinfo.com](https://zcashinfo.com/): Zcash explorer with block, transaction and address search, network statistics, value pools and the mempool.
+
+- [ZEC-OS](https://www.zec-os.com/explorer): Zcash explorer in a browser desktop. It decodes unified addresses and names the mining pool behind each block.
+
+- [Zexplorer](https://zexplorer.app/testnet/): Zcash explorer and public API, in development: testnet works, mainnet is not reliable yet.
+
+- [Zecstats](https://zecstats.com/): Zcash analytics dashboard with network, privacy and market statistics. It has no block or transaction search.
 
 
 
