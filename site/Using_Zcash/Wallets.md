@@ -383,6 +383,7 @@
 - Pools: Transparent | Sapling | Orchard | Ironwood | RAILGUN (0zkUSDC)
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
 - NU7: Compatible
+- Stage: Beta
 - Source: Open Source
 
 ---
@@ -485,12 +486,11 @@
 - Source Code: https://github.com/rotkonetworks/zafu/
 - Devices: Web
 - Operating System: Windows | macOS | Linux
-- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
+- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | Self-Custody | Unified Address | Keystone | 24-Word Seed Phrase
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
-- Features: Multi Coin | Shielded Transactions | Shielded USDC | Swaps | FROST Multisig | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments
+- Features: Address Book | Automatic Shielding | Cross-Chain Bridge | Encrypted Backup | Fiat Off-ramp | Multi Coin | Shielded Transactions | Shielded USDC | Swaps | FROST Multisig | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments | Reproducible Build
 - Nym Mixnet: Supported
 - NU7: Compatible
-- Stage: Beta
 - Source: Open Source
 
 ---
