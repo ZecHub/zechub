@@ -46,7 +46,7 @@
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
+- Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | TEX Address | Testnet Support
 - Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
@@ -60,7 +60,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Automatic Shielding | Multi Coin | Shielded Memo | Spend before Sync | Swaps | ZNS Names
+- Features: Automatic Shielding | Multi Coin | Shielded Memo | Spend before Sync | Swaps | TEX Address | ZNS Names
 - NU7: Compatible
 - Source: Open Source
 
@@ -73,7 +73,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: CrossPay | Multi Coin | Spend before Sync | Swaps
+- Features: CrossPay | Multi Coin | Spend before Sync | Swaps | TEX Address
 - NU7: Compatible
 - Source: Open Source
 
@@ -98,7 +98,7 @@
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
+- Features: Address Rotation | Encrypted Backup | FROST Multisig | Multi Account | Offline Signing | Shielded Memo | TEX Address | Testnet Support | Tor Support | Voting
 - Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
@@ -138,7 +138,7 @@
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Ironwood
-- Features: Command Line Interface | PepperSync | Shielded Memo | Testnet Support
+- Features: Command Line Interface | PepperSync | Shielded Memo | TEX Address | Testnet Support
 - NU7: Compatible
 - Source: Open Source
 
@@ -151,7 +151,7 @@
 - Operating System: Linux | macOS
 - Wallet Support: Seed Phrase | Unified Address | Full Node
 - Pools: Transparent | Sapling | Ironwood
-- Features: RPC Interface | Shielded Memo | Testnet Support
+- Features: RPC Interface | Shielded Memo | TEX Address | Testnet Support
 - Stage: Beta
 - NU7: Compatible
 - Source: Open Source
@@ -229,7 +229,7 @@
 - Operating System: Android | iOS | Browser
 - Wallet Support: Seed Phrase
 - Pools: Transparent
-- Features: Multi Coin | Multisig
+- Features: Multi Coin | Multisig | TEX Address
 - NU7: Compatible
 - Source: Open Source
 
@@ -342,7 +342,7 @@
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
+- Features: Gift Cards | NEAR Intents | Shielded Memo | TEX Address | Testnet Support | Voting
 - NU7: Compatible
 - Source: Open Source
   
@@ -355,7 +355,7 @@
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names | Voting
+- Features: DApp Connections | Lending & Borrowing | Swaps | TEX Address | ZNS Names | Voting
 - NU7: Compatible
 - Source: Open Source
 
@@ -381,7 +381,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood | RAILGUN (0zkUSDC)
-- Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
+- Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | TEX Address | Tor Support | Voting
 - NU7: Compatible
 - Source: Open Source
 
@@ -462,7 +462,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase
 - Pools: Transparent
-- Features: Multi Coin
+- Features: Multi Coin | TEX Address
 - NU7: Compatible
 - Source: Open Source
 
@@ -487,7 +487,7 @@
 - Operating System: Windows | macOS | Linux
 - Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
-- Features: Multi Coin | Shielded Transactions | Shielded USDC | Swaps | FROST Multisig | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments
+- Features: Multi Coin | Shielded Transactions | Shielded USDC | Swaps | FROST Multisig | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments | TEX Address
 - Nym Mixnet: Supported
 - NU7: Compatible
 - Stage: Beta
@@ -502,7 +502,7 @@
 - Operating System: Android | Windows | Linux
 - Wallet Support: 24-Word Seed Phrase | Wallet Import | Offline Signing | Viewing Keys
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Backup
+- Features: Self-Custodial | Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Backup | TEX Address
 - NU7: Not Ready
 - Stage: Beta 
 - Source: Open Source
