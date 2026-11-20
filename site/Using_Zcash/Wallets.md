@@ -211,13 +211,14 @@
 
 ## [Zillions](https://zillions.money/)
 ![logo](/content-images/wallets/zillions.webp "Zillions")
+- Source Code: https://github.com/anoma/zillions
 - Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
 - NU7: Compatible
-- Source: Closed Source
+- Source: Open Source
 
 ---
 
