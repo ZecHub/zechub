@@ -18,19 +18,17 @@ Es ist entscheidend, dass Nutzer die Risiken beim Umgang mit privaten Schlüssel
 
 Ältere geschützte ZEC müssen möglicherweise im Rahmen der Wiederherstellung migriert werden. Der Weg hängt davon ab, welcher geschützte Pool die Guthaben derzeit enthält.
 
-> **NU7 ist für den 5. November 2026 geplant.** Sobald das Upgrade aktiviert wird, funktioniert der derzeitige Migrationsweg aus dem älteren Sprout-Pool nicht mehr.
+> **NU7 wurde am 6. November 2026 (UTC) bei Block 3.543.405 auf Mainnet aktiviert.** Das Upgrade lässt keine Transaktionen der Version 4 mehr zu ([ZIP 2003](https://zips.z.cash/zip-2003)), und Sprout-Guthaben können nur noch in Transaktionen der Version 4 ausgegeben werden. Daher funktioniert der Migrationsweg aus dem älteren Sprout-Pool nicht mehr.
 >
-> Wenn Sie noch ZEC im Sprout-Pool haben, migrieren Sie sie vor dem Upgrade. Nach der Aktivierung können vorhandene Werkzeuge Sprout-Guthaben nicht mehr in Sapling, transparente Adressen oder ein anderes Ziel übertragen.
->
-> Wenn Sie diese Seite **nach der Aktivierung von NU7** ansehen, ist **Sprout eingefroren**, bis künftig eine Wiederherstellungsmethode verfügbar wird, die derzeit nicht geplant ist.
+> **Sprout ist jetzt eingefroren.** Vorhandene Werkzeuge können Sprout-Guthaben nicht mehr in Sapling, transparente Adressen oder ein anderes Ziel übertragen. ZIP 2003 verbrennt keine Sprout-Guthaben und lässt die Möglichkeit einer künftigen Wiederherstellungsmethode offen, aber derzeit ist keine geplant. Wenn Sie Sprout-Schlüssel besitzen, bewahren Sie sie sicher auf.
 
 ## Die Antwort auf einer Seite
 
 | Ihre Guthaben befinden sich in | Migrationsweg | Was zu tun ist |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | Wenn Sie `wallet.dat` oder einen eigenständigen Sprout Spending Key haben, versuchen Sie zunächst den aktuellen Wiederherstellungsweg von Argos. Wenn Argos nicht geeignet ist, verwenden Sie den älteren Sidecar-Weg im vollständigen Leitfaden. Sprout muss zuerst in Sapling landen und wird anschließend nach Ironwood übertragen. Dieser Weg ist wegen NU7 zeitkritisch. |
-| **Sapling** | **Sapling → Ironwood** | Keine Sprout-Wiederherstellungsumgebung erforderlich. Verwenden Sie eine aktuelle Wallet, die Ihr spezifisches Sapling-Konto sowohl wiederherstellen oder ausgeben als auch Ironwood-Transaktionen erstellen kann. Ironwood-Unterstützung allein belegt keine Unterstützung für die Wiederherstellung älterer Sapling-Guthaben. |
-| **Orchard** | **Orchard → Ironwood** | Orchard ist nur zum Verlassen vorgesehen. Verwenden Sie den integrierten Migrationsablauf einer aktuellen kompatiblen Wallet von Orchard nach Ironwood. Siehe [Wiederhergestellte Guthaben und der Ironwood-Pool](#recovered-funds-and-the-ironwood-pool). |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Wenn Sie `wallet.dat` oder einen eigenständigen Sprout Spending Key haben, versuchen Sie zuerst den aktuellen Wiederherstellungsweg von Argos. Wenn Argos nicht geeignet ist, verwenden Sie den älteren Sidecar-Weg im vollständigen Leitfaden. Sprout muss zuerst in Sapling landen und anschließend nach Ironwood weitergeleitet werden. Seit der Aktivierung von NU7 (Block 3.543.405) können Sprout-Guthaben nicht mehr auf Mainnet bewegt werden; siehe den Hinweis oben. |
+| **Sapling** | **Sapling → Ironwood** | Eine Sprout-Wiederherstellungsumgebung ist nicht erforderlich. Verwenden Sie eine aktuelle Wallet, die Ihr spezifisches Sapling-Konto wiederherstellen oder dessen Guthaben ausgeben und Ironwood-Transaktionen erstellen kann. Ironwood-Unterstützung allein belegt keine Unterstützung für die Wiederherstellung älterer Sapling-Guthaben. |
+| **Orchard** | **Orchard → Ironwood** | Orchard kann nur noch zum Verlassen verwendet werden. Verwenden Sie den integrierten Migrationsablauf einer aktuellen kompatiblen Wallet von Orchard nach Ironwood. Siehe [Wiederhergestellte Guthaben und der Ironwood-Pool](#recovered-funds-and-the-ironwood-pool). |
 
 ### Entscheidungsablauf mit fünf Fragen
 
@@ -173,7 +171,7 @@ Seit der Aktivierung des Ironwood-Upgrades (NU6.3) am 28. Juli 2026 ist der Orch
 
 Wenn sich Ihre wiederhergestellten Guthaben in Orchard befinden, übertragen Sie sie mit dem **integrierten Migrationsablauf einer aktuellen Wallet** nach Ironwood. Orchard ist nach NU6.3 nur zum Verlassen vorgesehen.
 
-Zkool 6.30.0 ist Stand 18. September 2026 aktuell und unterstützt Ironwood. Sein Migrationsdesign ist datenschutzorientiert, entspricht jedoch nicht zwingend ZIP 318. Andere aktuelle Wallets können eine schrittweise Migration im Stil von ZIP 318 verwenden. Folgen Sie dem aktuellen Migrationsbildschirm und den Release Notes der installierten Wallet, statt selbst einen manuellen Betrag oder Zeitplan zu erstellen.
+Zkool 6.37.0 ist Stand 12. November 2026 aktuell und unterstützt Ironwood. Verwenden Sie 6.35.0 oder höher: Frühere Builds kennen die Mainnet-Aktivierungshöhe von NU7 nicht (Block 3.543.405) und erstellen daher Transaktionen nach den Regeln vor NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Sein Migrationsdesign ist datenschutzorientiert, entspricht jedoch nicht zwingend ZIP 318. Andere aktuelle Wallets können eine schrittweise Migration im Stil von ZIP 318 verwenden. Folgen Sie dem aktuellen Migrationsbildschirm und den Release Notes der installierten Wallet, statt selbst einen manuellen Betrag oder Zeitplan festzulegen.
 
 Eine schrittweise Migration kann mehrere Transaktionen verwenden, sodass die Gesamtgebühr höher sein kann als bei einer einmaligen Übertragung.
 

@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Website: https://trocador.app/
 - Deskripsi: Tukarkan Cryptocurrency Secara Anonim. Cepat. Aman. Tanpa Birokrasi. Tersedia Kartu Debit Prabayar.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Website: https://github.com/firoorg/FiroDEX-Desktop
-- Deskripsi: Swap terdesentralisasi tanpa kepercayaan menggunakan atomic swap dengan FiroDEX!.
+- Deskripsi: Aplikasi desktop atomic swap. Tidak lagi dipelihara: Firo telah mengarsipkan repositori FiroDEX-Desktop, dan rilis terakhirnya adalah 0.8.2-beta (Februari 2025).
 
 ___
 

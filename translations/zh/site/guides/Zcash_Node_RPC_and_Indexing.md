@@ -14,11 +14,11 @@
 
 ## TL;DR
 
-* **JSON-RPC** 是运营者和钱包向节点查询链 [chain] 尖端、对等节点，以及（在钱包进程上）余额的方式。在 Z3 上，Zebra 提供节点 RPC；Zallet 提供钱包 RPC。
+* **JSON-RPC** 是运营者和钱包向节点查询链尖端、对等节点，以及（在钱包进程上）余额的方式。在 Z3 上，Zebra 提供节点 RPC；Zallet 提供钱包 RPC。
 * **Regtest** 是学习这些调用的合适环境。Z3 在 `http://127.0.0.1:8181` 上的 rpc-router 接受 `zebra` / `zebra`，并将节点方法转发至 Zebra，将钱包方法转发至 Zallet。
 * **主网和测试网**在 Zebra 上使用 Cookie 认证。不要将 Regtest 的用户名和密码复制到公开节点上。
-* **索引**与验证是独立工作。Zebra 进行验证。[Zaino](/zcash-tech/zaino)（Z3 `--profile indexer`）提供兼容 lightwalletd 的 gRPC。[Ztreamer](https://github.com/distractedm1nd/ztreamer) 是一个由 Zakura 支持的索引器；它不是 Z3 随附的组件。
-* Zaino JSON-RPC 和 Zebra 的可选索引器 gRPC 仅适用于回环网络或受信任网络。不要在公共互联网中未经认证地公开它们。
+* **索引**与验证是独立工作。Zebra 进行验证。[Zaino](/zcash-tech/zaino)（Z3 `--profile indexer`）提供兼容 lightwalletd 的 gRPC。[Ztreamer](https://github.com/zcashlabs/ztreamer) 是一个由 Zakura 支持的索引器；它不是 Z3 随附的组件。
+* Zaino JSON-RPC 和 Zebra 的可选索引器 gRPC 仅适用于回环网络或受信任网络。不要在公共互联网上未经认证地公开它们。
 
 ---
 
@@ -117,7 +117,8 @@ Zaino gRPC 在所有网络上均为明文 h2c。如果主机外的任何设备�
 ### 其他索引器（非 Z3）
 
 * **lightwalletd** — 较旧的紧凑区块服务器。它仍在实际环境中部署；Zaino 是此角色的后继方案。
-* **Ztreamer** — 一个由 Zakura 支持的索引器和 `CompactTxStreamer` 实现。它不是 Z3 服务。请参阅 [Ztreamer 仓库](https://github.com/distractedm1nd/ztreamer)。
+* **Ztreamer** — 一个由 Zakura 支持的索引器和 `CompactTxStreamer` 实现。它不是 Z3 服务。请参阅 [Ztreamer 仓库](https://github.com/zcashlabs/ztreamer)。
+* **Zinder** — Zcash Foundation 的索引器（alpha）。它从归档 Zebra 或 Zakura 节点读取数据，并提供自己的 `WalletQuery` gRPC API，以及兼容 lightwalletd 的 `CompactTxStreamer` 适配器。它的快速入门教程会在 Z3 节点旁运行，但它不是 Z3 服务。请参阅 [Zinder](/zcash-tech/zinder)。
 * **Zebra `rpc.indexer_listen_addr`** — Zebra 内部的可选 gRPC 监听器。Z3 不需要它，也不会将其发布到主机。
 
 ---
@@ -145,6 +146,7 @@ Zaino gRPC 在所有网络上均为明文 h2c。如果主机外的任何设备�
 * [全节点](/zcash-tech/full-nodes)
 * [Zebra 全节点](/zcash-tech/zebra-full-node)
 * [轻钱包节点](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd（或 Zaino）在 Kubernetes 或 Docker Compose 上
 * [迁移指南：从 zcashd 到 Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib 和 Zaino 教程](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ Zaino gRPC 在所有网络上均为明文 h2c。如果主机外的任何设备�
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zallet 手册](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **最后更新：**2026 年 9 月

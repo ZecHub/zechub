@@ -94,7 +94,9 @@ Ne nètsɔ Sapling address aɖe la, wòatrɔ akɔunt ma ƒe Sapling extended ful
 
 [Zkool](https://github.com/hhanh00/zkool2) nye ti si le mɔ geɖe wu le afisia, elabena exɔa unified keys kple legacy keys hã. Eƒe README ɖe view-only akɔuntwo si woɖe wɔ tso **unified viewing key** alo **Sapling extended viewing key** me, kple legacy shielded extended keys si woɖe do go tso zcashd me gɔme. Kpe akɔunt yeye ɖeka, tia view-only mɔ la, eye nàtsɔ `uview…` alo `zxviews…` key la nade; akɔunt la anɔ sync wɔm eye wòafi balancewo kple history fia, gake ga zazã ƒe mɔ manɔ asi o.
 
-Ironwood protocol ƒe kpekpeɖeŋu kple Orchard-to-Ironwood migration va le Zkool 6.24.0 (20 July 2026) me, eye 6.26.1 (2 August 2026) ɖe Ironwood transaction ƒe detection le mempool me ƒe vodada ɖe eteƒe. Zã 6.26.1 alo version si va do megbe.
+Ironwood protocol ƒe kpekpeɖeŋu kple Orchard-to-Ironwood migration va le Zkool 6.24.0 (20 July 2026) me, eye 6.26.1 (2 August 2026) ɖe Ironwood transaction ƒe detection le mempool me ƒe vodada ɖe eteƒe. Elabena NU7 va dze dɔ le Mainnet dzi (block 3,543,405), zã [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 October 2026) alo si va do megbe: e nye Zkool release gbãtɔ si wɔ NU7 Mainnet activation ƒe teƒe ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)) kple.
+
+6.35.0 hã xɔ **incoming viewing key siwo wɔ ɖeka**. Ɖo `uivk…` key ɖe teƒe si keywo nɔna le, eye Zkool wɔ incoming-only account: eƒoa nu si original account xɔ, memo hã kpe ɖe eme, eye menye nu si wòɖo ko o ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Incoming key mate ŋu akpɔ nu siwo wòɖeɖe le account la me o, eya ta account la ƒe balance nye ga siwo katã wòxɔ, menye esi susɔ o, eye account la mate ŋu aɖo ga o. Zkool ate ŋu hã aɖe account la ƒe UIVK ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

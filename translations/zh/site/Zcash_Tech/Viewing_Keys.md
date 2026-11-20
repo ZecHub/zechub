@@ -94,7 +94,9 @@ zallet rpc z_exportviewingkey '"<unified address>"' true
 
 [Zkool](https://github.com/hhanh00/zkool2) 是这里最灵活的选项，因为它既接受统一密钥，也接受旧版密钥。其 README 记录了通过**统一 viewing key**或**Sapling 扩展 viewing key**创建的仅监视账户，以及从 zcashd 导出的旧版屏蔽扩展密钥。添加新账户，选择仅监视路径，然后粘贴 `uview…` 或 `zxviews…` 密钥；该账户随后会同步，并在没有花费权限的情况下报告余额和历史记录。
 
-Ironwood 协议支持以及 Orchard 到 Ironwood 的迁移在 Zkool 6.24.0（2026 年 7 月 20 日）中推出，而 6.26.1（2026 年 8 月 2 日）修复了 mempool 中的 Ironwood 交易检测。请运行 6.26.1 或更高版本。
+Ironwood 协议支持以及 Orchard 到 Ironwood 的迁移在 Zkool 6.24.0（2026 年 7 月 20 日）中推出，而 6.26.1（2026 年 8 月 2 日）修复了 mempool 中的 Ironwood 交易检测。由于 NU7 已在 Mainnet 激活（区块 3,543,405），请运行 [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0)（2026 年 10 月 25 日）或更高版本：这是首个基于 NU7 Mainnet 激活高度构建的 Zkool 版本（[zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)）。
+
+6.35.0 还支持**统一接收 viewing key**。在任何可以输入密钥的位置粘贴一个 `uivk…` 密钥，Zkool 就会创建一个仅接收的账户：它会显示原账户收到的内容，包括备忘录，但不会显示原账户发送的任何内容（[zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)）。接收密钥无法查看支出，因此账户余额是收到的总额，而不是剩余金额，并且该账户无法花费。Zkool 还可以导出账户的 UIVK（[zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)）。
 
 ### Zallet
 

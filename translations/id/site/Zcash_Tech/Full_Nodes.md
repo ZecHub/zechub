@@ -94,7 +94,7 @@ Dengan menjalankan sebuah full node, Anda membantu memperkuat jaringan zcash den
 
 Hal ini membantu mencegah kontrol adversarial dan menjaga jaringan tetap tangguh terhadap beberapa bentuk gangguan.
 
-DNS seeder menyediakan daftar node andal lainnya melalui server bawaan. Hal ini memungkinkan transaksi untuk menyebar ke seluruh jaringan.
+DNS seeder menyediakan daftar node andal lainnya melalui server bawaan. Hal ini memungkinkan transaksi untuk menyebar ke seluruh jaringan. Seeder milik Zcash Foundation berjalan dengan [Zeeder](https://github.com/ZcashFoundation/zeeder), sebuah DNS seeder yang ditulis dalam Rust dan menggantikan dnsseeder berbasis CoreDNS. Image-nya dipublikasikan sebagai `zfnd/zeeder`; nama `zfnd/dnsseeder` yang lebih lama sedang dihentikan penggunaannya.
 
 ### Statistik Jaringan
 
@@ -136,7 +136,8 @@ Hal ini memiliki keuntungan tambahan yaitu memungkinkan pengguna lain untuk terh
 - [Zakura Node](/zcash-tech/zakura-node) - implementasi node kedua, hasil fork dari Zebra
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) - server yang dikueri oleh light wallet
 - [Zaino](/zcash-tech/zaino) - indexer Rust yang melayani light wallet
-- [Zcash Sinkronisasi Dompet](/zcash-tech/zcash-wallet-syncing) - mengapa sinkronisasi bekerja dengan cara tersebut
+- [Zinder](/zcash-tech/zinder) - indexer alfa milik Zcash Foundation untuk Zebra dan Zakura
+- [Zcash Sinkronisasi Dompet](/zcash-tech/zcash-wallet-syncing) - alasan sinkronisasi bekerja dengan cara tersebut
 
 ## Pembelajaran Lebih Lanjut
 

@@ -135,4 +135,4 @@
 
 ---
 
-Σειρά: [Ευρετήριο αναβαθμίσεων δικτύου](../start-here/network-upgrades) · Προηγούμενο: [NU6.2](../zcash-tech/nu6-2)
+Σειρά: [Ευρετήριο αναβαθμίσεων δικτύου](../start-here/network-upgrades) · Προηγούμενο: [NU6.2](../zcash-tech/nu6-2) · Επόμενο: [NU7](../zcash-tech/nu7)

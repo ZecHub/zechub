@@ -90,7 +90,7 @@ Zcash Sapling na ezãlawo ate ŋu awɔ gaɖoɖo ɣaɣla le sekondi ʋee ko me, n
 
 Gaɖoɖo ƒe ɣaɣla nana ɣaɣla nɔa anyi, eye wòna ame etɔ̃wo mata ŋu akaka gaɖoɖowo ƒe kadodo kple asigame ZEC si wole trɔm la ƒe home o. Sapling hã nana zãzã bɔbɔe nɔa anyi, esi wògbɔ computer ƒe hiahiãwo siwo le ɣaɣla gaɖoɖowo ƒe wɔwɔ me dzi, eye wòna ezãlawo katã ate ŋu azãe.
 
-Sapling gakotoku ƒe gaɖoƒe ƒe dzesiwo dzena kple "zs", eye woate ŋu akpɔ esia le Zcash Ɣaɣla Gakotoku si woʋlɔna katã (Zkool, Zingo Wallet, Nighthawk kple bubuwo) si me Sapling ƒe gaɖoƒe ƒe dzesiwo li. Zcash Sapling fia mɔ̃ ƒe nyonyo gã aɖe le ɣaɣla kple gaɖoɖowo ƒe dɔwɔwɔ ŋusẽ ƒe gome, si na Zcash zu cryptocurrency si wɔa dɔ nyuie eye wòle dɔ wɔm na ezãlawo siwo dea ɣaɣla kple dediea ƒe asixɔxɔ dzi.
+Sapling gakotoku ƒe gaɖoƒe ƒe dzesiwo dzena kple "zs", eye woate ŋu akpɔ esia le Zcash Ɣaɣla Gakotoku si woʋlɔna katã (Zkool, Zingo Wallet kple bubuwo) si me Sapling ƒe gaɖoƒe ƒe dzesiwo li. Zcash Sapling fia mɔ̃ ƒe nyonyo gã aɖe le ɣaɣla kple gaɖoɖowo ƒe dɔwɔwɔ ŋusẽ ƒe gome, si na Zcash zu cryptocurrency si wɔa dɔ nyuie eye wòle dɔ wɔm na ezãlawo siwo dea ɣaɣla kple dediea ƒe asixɔxɔ dzi.
 
 ____
 

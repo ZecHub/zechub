@@ -135,4 +135,4 @@ Turnike sayesinde. Eski Orchard havuzundan çıkan her coin, Ironwood'a girerken
 
 ---
 
-Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [NU6.2](../zcash-tech/nu6-2)
+Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [NU6.2](../zcash-tech/nu6-2) · Sonraki: [NU7](../zcash-tech/nu7)

@@ -21,9 +21,9 @@ Zcashに関連する主要な用語、概念、リソースを網羅した用語
 | 用語 | 定義 |
 |------|-----------|
 | Benchmarking | マイナーは、Zcashのマイニングに使用されるさまざまなハードウェアの効率に関する指標を提出できます。[こちらを見る](https://zcashbenchmarks.info) |
-| Block | ブロックとは、ネットワーク上で送信された一連のトランザクションを含むZcashブロックチェーン上の記録です。平均して約75秒ごとに、新しいブロックがブロックチェーンに追加されます。 |
+| Block | ブロックとは、ネットワーク上で送信された一連のトランザクションを含むZcashブロックチェーン上の記録です。平均して約25秒ごとに、新しいブロックがブロックチェーンに追加されます（NU7が2026年11月に有効化される前は75秒でした）。 |
 | Block Explorer | ブロックチェーン上の過去および現在のすべてのトランザクションを確認するためのオンラインツールです。[Zcash ブロックエクスプローラー](https://zcashexplorer.app/) |
-| Blogs | [ZODL ブログ（旧Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation ブログ](https://zfnd.org/blog/) / [ZecHub ニュースレター](https://zechub.substack.com/) |
+| Blogs | [ZODLブログ（旧Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundationブログ](https://zfnd.org/blog/) / [ZecHubニュースレター](https://zechub.substack.com/) |
 | Blossom | Zcashの第3回主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
@@ -127,11 +127,11 @@ Zcashに関連する主要な用語、概念、リソースを網羅した用語
 | 用語 | 定義 |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | プロトコルの長期的なセキュリティ予算が発行に完全に依存しないよう、トランザクション手数料（transaction fees）の一部をバーンするというShielded Labsからの提案です。ZIP 234で規定されており、2026年にレビュー中です。 |
-| Nighthawk | Zcash向けのモバイルウォレット（Mobile wallet）です。[ウェブサイト](https://nighthawkwallet.com) |
-| Noir Wallet | Zcash Community GrantsがサポートするZcashのブラウザー拡張機能ウォレットであり、QRコードや手動送金に依存せず、シールドされた（shielded）ZECをブラウザーアプリケーションへ直接接続するために構築されています。[zknoir.com](https://www.zknoir.com/) |
-| NU5 | Zcashの第6回主要ネットワークアップグレード（Network Upgrade）であり、Orchardシールドされたプール（shielded pool）と統合アドレス（Unified Addresses）を導入します。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Zcashの第7回主要ネットワークアップグレードであり、ブロック補助金を調整してZcash Community Grantsプログラムおよび繰延developer基金ロックボックスに資金を提供します。2024年後半に有効化されました。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood後のネットワークアップグレードで、2026年11月5日のメインネットを目標としています。[ZIP 259](https://zips.z.cash/zip-0259)によると、25秒ブロック（ZIP 218）、手数料の再循環を伴うネットワーク持続可能性メカニズム（ZIP 235および237）、およびバージョン4トランザクションの終了をもたらします。これにより、Sproutの資金は使用不能になります（ZIP 2003）。新しいトランザクション形式は追加されず、TachyonおよびZcash Shielded Assetsは含まれません。 |
+| Nighthawk | Nighthawk Appsによる、以前はZcash向けのモバイルウォレットでした。Zcashウォレットは現在メンテナンスされておらず、Nighthawk Wallet 3.0は代わりにDarkFi向けに作られています。古いNighthawkのシードから資金を移動するには、[資金の復元](/using-zcash/recovering-funds)をご覧ください。 |
+| Noir Wallet | Zcashのブラウザー拡張機能ウォレットで、Zcash Community Grantsがサポートしています。QRコードや手動送金に頼らず、シールドされたZECをブラウザーアプリケーションへ直接接続するために作られています。[zknoir.com](https://www.zknoir.com/) |
+| NU5 | Zcashの第6回主要ネットワークアップグレードで、Orchardシールドされたプールと統合アドレスを導入します。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU6 | Zcashの第7回主要ネットワークアップグレードで、ブロック補助金を調整し、Zcash Community Grantsプログラムおよび繰延Dev基金ロックボックスに資金を提供します。2024年後半に有効化されました。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Ironwood後のネットワークアップグレードで、2026年11月6日（UTC）にブロック高3,543,405でメインネット上で有効化されました。[ZIP 259](https://zips.z.cash/zip-0259)によると、25秒ブロック（ZIP 218）、手数料の再循環を伴うネットワーク持続可能性メカニズム（ZIP 235および237）、そしてバージョン4トランザクションの終了が導入され、Sproutの資金は使用不能になります（ZIP 2003）。新しいトランザクション形式は追加されず、TachyonおよびZcash Shielded Assetsは対象に含まれません。 |
 
 ## O
 
@@ -209,7 +209,7 @@ Zcashに関連する主要な用語、概念、リソースを網羅した用語
 
 | 用語 | 定義 |
 |------|-----------|
-| Wallet | 秘密鍵を保存し、ZECの送受信を可能にするソフトウェアまたはハードウェアです。アクティブなウォレットには、ZODL（iOS/Android）、Zingo!（モバイル/デスクトップ）、Nighthawk（Android）、Zkool（モバイル/デスクトップ）、Zallet（近日公開）、Keystone（ハードウェア）があります。完全な一覧については、[Zcashエコシステムウォレット](https://z.cash/ecosystem/?wallets=#tag-wallets)をご覧ください。 |
+| Wallet | 秘密鍵を保存し、ZECの送受信を可能にするソフトウェアまたはハードウェアです。アクティブなウォレットには、ZODL（iOS/Android）、Zingo!（モバイル/デスクトップ）、Zkool（モバイル/デスクトップ）、Zallet（フルノードウォレット、ベータ版）、Keystone（ハードウェア）があります。完全な一覧については、[Zcashエコシステムウォレット](https://z.cash/ecosystem/?wallets=#tag-wallets)をご覧ください。 |
 | WebZjs | ブラウザー環境向けにChainSafeが構築した、Zcash向け初のJavaScript SDKです。シールドされたZECをMetaMaskにもたらしたZcash Shielded Wallet snapの基盤となっています。 |
 
 ## X

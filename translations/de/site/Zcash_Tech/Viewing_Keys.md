@@ -94,7 +94,9 @@ Die Seite [Wallets](/using-zcash/wallets) verfolgt die Unterstützung für Viewi
 
 [Zkool](https://github.com/hhanh00/zkool2) ist hier die flexibelste Option, da es Unified Keys ebenso wie Legacy Keys akzeptiert. Sein README dokumentiert View-only-Konten, die aus einem **Unified Viewing Key** oder einem **Sapling Extended Viewing Key** erstellt werden, neben aus zcashd exportierten abgeschirmten erweiterten Legacy Keys. Füge ein neues Konto hinzu, wähle den View-only-Weg und füge den Key `uview…` oder `zxviews…` ein; das Konto synchronisiert dann und meldet Guthaben sowie Historie ohne Ausgabeberechtigung.
 
-Die Unterstützung des Ironwood-Protokolls und die Orchard-zu-Ironwood-Migration wurden mit Zkool 6.24.0 (20. Juli 2026) eingeführt; 6.26.1 (2. August 2026) korrigierte die Erkennung von Ironwood-Transaktionen im Mempool. Verwende 6.26.1 oder neuer.
+Die Unterstützung des Ironwood-Protokolls und die Orchard-zu-Ironwood-Migration wurden mit Zkool 6.24.0 (20. Juli 2026) eingeführt; 6.26.1 (2. August 2026) korrigierte die Erkennung von Ironwood-Transaktionen im Mempool. Da NU7 auf Mainnet aktiviert wurde (Block 3.543.405), verwende [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25. Oktober 2026) oder neuer: Dies ist die erste Zkool-Version, die mit der NU7-Aktivierungshöhe auf Mainnet erstellt wurde ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 akzeptiert auch **vereinheitlichte eingehende Viewing Keys**. Füge einen `uivk…`-Key dort ein, wo ein beliebiger Key eingegeben werden kann, und Zkool erstellt ein Konto, das nur eingehende Transaktionen anzeigt: Es zeigt, was das ursprüngliche Konto erhält, einschließlich Memos, und nichts von dem, was es sendet ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Ein eingehender Key kann keine Ausgaben sehen. Daher entspricht der Kontostand dem insgesamt Erhaltenen und nicht dem verbleibenden Betrag, und das Konto kann nichts ausgeben. Zkool kann auch den UIVK eines Kontos exportieren ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

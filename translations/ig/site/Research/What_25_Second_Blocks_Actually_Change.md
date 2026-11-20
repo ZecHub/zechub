@@ -6,15 +6,15 @@ Ibe a na-akọwa ZIP 218 site n’ederede ya: ihe na-agbanwe, ihe anaghị agban
 
 ## Nchịkọta nkenke
 
-| | Taa | Mgbe ZIP 218 gachara |
+| | Tupu NU7 | Mgbe ZIP 218 (NU7) gachara |
 |---|---|---|
-| Oge ezubere maka block | nkeji 75 | nkeji 25 |
+| Oge echere n’etiti block | sekọnd 75 | sekọnd 25 |
 | Block kwa ụbọchị | 1,152 | 3,456 |
 | Nkwado block (oge halving ugbu a) | 1.5625 ZEC | 0.52083333 ZEC |
 | ZEC ọhụrụ kwa ụbọchị | anaghị agbanwe | anaghị agbanwe |
 | Oge etiti halving | block 1,680,000 | block 5,040,000 |
-| Oke omume nke e chebere echebe n’ime block ọ bụla | enweghị (naanị oke nha 2 MB) | 330 n’ozuzu, tinyere oke pool ọ bụla |
-| Nrụpụta Orchard (Azụmahia nwere omume 2) | ihe dị ka 2.9 kwa nkeji | ihe dị ka 6.6 kwa nkeji |
+| Oke omume nke nke e chebere echebe n’ime block ọ bụla | enweghị (naanị oke nha 2 MB) | 330 n’ozuzu, tinyere oke pool ọ bụla |
+| Nrụpụta Orchard (Azụmahia nwere omume 2) | ihe dị ka 2.9 kwa sekọnd | ihe dị ka 6.6 kwa sekọnd |
 
 ![ZIP 218 cuts block target spacing from 75 seconds to 25, tripling daily blocks from 1,152 to 3,456, while dividing the per-block subsidy by the same factor of three from 1.5625 to 0.52083333 ZEC, so daily issuance stays at 1,800 ZEC and the halving interval stretches from 1,680,000 to 5,040,000 blocks to hold halving dates fixed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-block-timing.png)
 
@@ -22,7 +22,7 @@ Block dị okpukpu atọ, nke ọ bụla na-akwụ otu ụzọ n’ụzọ atọ
 
 ## Gịnị mere a ga-eji gbanwee oge block
 
-Ebumnuche bụ isi bụ **ibelata oge echere**. Taa, Kwụọ ụhwọ na-eche nkeji 75 ná nkezi maka nkwenye mbụ ya, n’agbanyeghị ibu netwọk. Na nkeji 25, nke a na-adaba na nkeji 25 ná nkezi. ZIP kpọrọ Kwụọ ụhwọ ebe a na-ere ahịa, nkwụnye ego na exchange, na bridge cross-chain dịka ihe eji ya eme nke ga-enwe mmetụta a karịa.
+Ebumnuche bụ isi bụ **ibelata oge echere**. Tupu NU7, Kwụọ ụhwọ na-eche nkeji 75 ná nkezi maka nkwenye mbụ ya, n’agbanyeghị ibu netwọk. Na nkeji 25, nke a na-adaba na nkeji 25 ná nkezi. ZIP kpọrọ Kwụọ ụhwọ ebe a na-ere ahịa, nkwụnye ego na exchange, na bridge cross-chain dịka ihe eji ya eme nke ga-enwe mmetụta a karịa.
 
 Isi ihe abụọ sitere na ZIP kwesịrị iburu n’uche:
 
@@ -55,10 +55,10 @@ ZIP 218 na-agbakwunye oke n’ọrụ nke e chebere echebe otu block nwere ike i
 
 | Oke | Kachasị elu kwa block |
 |---|---|
-| Pool niile nke e chebere echebe jikọtara ọnụ | 330 (JoinSplit Sprout ọ bụla na-agụta dịka 2) |
+| pool niile nke nke e chebere echebe jikọtara ọnụ | 330 (Sprout JoinSplit nke ọ bụla na-agụta dịka 2) |
 | Omume Orchard | 330 |
 | Ntinye na mmepụta Sapling jikọtara ọnụ | 300 |
-| JoinSplit Sprout | 25 |
+| Sprout JoinSplits | 25 |
 
 Akụkụ Oha nke Azụmahia anaghị emetụta, oke nha block 2 MB ka na-arụkwa ọrụ.
 
@@ -99,7 +99,7 @@ Ndị a bụ ndụmọdụ maka mmejuputa karịa ịbụ iwu consensus:
 
 Block ngwa ngwa anaghị abịa n’efu. Block stale bụ block ziri ezi nke na-atụfu asọmpi itinye ya n’ime chain n’ihi na block ọzọ rutere netwọk mbụ. Ka oghere dị n’etiti block na-adị mkpụmkpụ, ka nke a na-eme ọtụtụ mgbe, ZIP na-ejikọta ọnụego stale na mgbasa block, oge nkwenye, na ihe ize ndụ nchịkọta mining.
 
-- **Taa:** ihe dị ka 0.4%, nke ZIP kwuru nwere ike na-egosighi ọnụego dị n’ezie nke ọma n’ihi na hashpower juru n’ime pool.
+- **Tupu NU7:** ihe dị ka 0.4%, nke ZIP kwuru nwere ike na-egosi ọnụego dị n’ezie nke ọma n’ihi na hashpower juru n’ime pool.
 - **N’usoro echiche na nkeji 25:** ihe dị ka 3.26%, dabere na oge igbu oge mgbasa Zcash a tụrụ.
 - **Nnwale Devnet:** node Zebra 99 kesara n’ebe dị iche iche nke na-emepụta block 2 MB zuru ezu n’oghere nkeji 25 tụrụ ọnụego stale 4.86% na ọnụego fork 0.37%. Naanị mmezi dị mkpa bụ nhazi TCP. Ebe devnet ahụ bụ decentralized karịa mainnet taa, ZIP na-ewere ndị a dịka ọnụ ọgụgụ dị nso na ọnọdụ kacha njọ.
 - **Ebe ntụnyere:** ZIP na-eji ọnụego stale proof-of-work akụkọ ihe mere eme Ethereum nke 5.4% dịka oke nchekwa ya. Ọnụ ọgụgụ devnet abụọ ahụ dị n’okpuru ya.
@@ -110,7 +110,7 @@ E nwekwara obere ụgwọ abụọ ọzọ. E-akpa ego dị mfe na-ebudata ihe d
 
 - **Ọnọdụ ZIP:** Atụpụtara. Ndị nwe ya bụ Dev Ojha na Evan Forbes; e kere ya na 13 Maachị 2026.
 - **Ntuli aka ndị ji mkpụrụ ego:** mechiri na 14 Septemba 2026, na nkwado 99.9%. Ntuli aka ahụ na-egosi mmasị; ọ naghị agbanwe iwu consensus n’onwe ya.
-- **Usoro oge:** n’ọkwa ọkwa Community Forum Zcash na 17 Septemba, òtù mmepe kwetara usoro nke code ga-ezu oke n’ime 30 Septemba, NU7 na testnet na 6 Ọktoba, na mkpebi ikpeazụ na 20 Ọktoba. Edebela ugbu a ogo mbido mainnet na 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), nke a na-ezubere maka ihe dị ka 5 Nọvemba 2026.
+- **Usoro oge:** n’ọkwa ọkwa Community Forum Zcash na 17 Septemba, òtù mmepe kwetara usoro nke code ga-ezu oke n’ime 30 Septemba, NU7 na testnet na 6 Ọktoba, na mkpebi ikpeazụ na 20 Ọktoba. NU7 malitere ịrụ ọrụ na mainnet n’ogo 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)) na 6 Nọvemba 2026 (UTC), ya mere ebumnuche sekọnd 25 na-arụ ọrụ ugbu a.
 - **Mmejuputa:** a na-esochi ya na Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) na na Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Ihe nke a pụtara nye gị

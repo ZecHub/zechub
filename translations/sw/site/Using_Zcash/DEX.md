@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Tovuti: https://github.com/firoorg/FiroDEX-Desktop
-- Maelezo: Mabadilishano yaliyogatuliwa [decentralized swaps] yasiyohitaji kuaminiwa yakitumia mabadilishano ya atomiki pamoja na FiroDEX!.
+- Maelezo: Programu ya kompyuta ya mezani ya kubadilishana kwa atomiki. HaitunzwI tena: Firo imehifadhi hazina ya FiroDEX-Desktop kwenye kumbukumbu, na toleo lake la mwisho ni 0.8.2-beta (Februari 2025).
 
 ___
 

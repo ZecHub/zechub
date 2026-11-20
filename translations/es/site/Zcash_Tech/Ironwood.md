@@ -135,4 +135,4 @@ A través del turnstile. Cada moneda que sale del antiguo pool de Orchard se cue
 
 ---
 
-Serie: [Índice de actualizaciones de red](../start-here/network-upgrades) · Anterior: [NU6.2](../zcash-tech/nu6-2)
+Serie: [Índice de actualizaciones de red](../start-here/network-upgrades) · Anterior: [NU6.2](../zcash-tech/nu6-2) · Siguiente: [NU7](../zcash-tech/nu7)

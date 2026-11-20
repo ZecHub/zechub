@@ -13,6 +13,8 @@ Zingo e-akpa ego bụ e-akpa ego Zcash nwere atụmatụ zuru ezu, nke e mere ka
 
 Otu n'ime atụmatụ bụ isi nke Zingo! bụ ikike ya iji mpaghara memo [Memo field] nye nghọta bara uru gbasara Azụmahia [transactions] gị.
 
+Zingo 3.0 maka ngwaọrụ mkpanaka (October 31, 2026) na-akwado NU7 ma tinyekwa Mgbawe cross-chain e wuru n'ime ya site na SwapKit. Ngwa PC enweela Mgbawe SwapKit kemgbe ụdị 2.0.26 na nkwado Mainnet NU7 kemgbe 2.0.27.
+
 Zingo! dị maka ngwaọrụ mkpanaka na PC. Ị ga-ahụ nbudata niile [ebe a](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

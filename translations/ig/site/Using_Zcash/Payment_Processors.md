@@ -41,7 +41,7 @@ Maka Nzuzo na njikwa kacha elu, jiri **BTCPay Server**, **CipherPay** ị nabata
 
 Maka ịnara Kwụọ ụhwọ n'ụlọ ahịa kama n'ịntanetị, jiri **Flexa**.
 
-Maka gateway anabatara ebe Kwụọ ụhwọ Oha na-anabata, jiri **NOWPayments** ma ọ bụ **Plisio**.
+Maka gateway anabatara ebe Kwụọ ụhwọ Oha na-anabata, jiri **NOWPayments**. **Plisio** akwụsịla ịnakwere Kwụọ ụhwọ (lee ọkwa e dere ụbọchị ya na ntinye ya n'okpuru), ya mere unu ahọrọla ya ugbu a.
 
 Otu ịdọ aka ná ntị kwesịrị ikwughachi: onye nhazi naanị-Oha na-ebipụta ego na Adreesị akpa ego nke Kwụọ ụhgwọ ọ bụla na blockchain. Nakwa, na onye nhazi ọ bụla anabatara nke na-abụghị Onye nlekota, ị na-enyefe viewing key gị, yabụ ụlọ ọrụ ahụ nwere ike ịhụ Kwụọ ụhwọ gị n'agbanyeghị na ọ pụghị imefu ha. Ịnabata onwe gị bụ naanị ụzọ isi zere nke ahụ.
 

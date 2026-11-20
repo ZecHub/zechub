@@ -135,4 +135,4 @@ Keamanan Pasca-Quantum [](../zcash-tech/post-quantum-security)
 
 ---
 
-Seri: Indeks peningkatan jaringan [](../start-here/network-upgrades) · Sebelumnya: [NU6.2](../zcash-tech/nu6-2)
+Seri: Indeks peningkatan jaringan [](../start-here/network-upgrades) · Sebelumnya: [NU6.2](../zcash-tech/nu6-2) · Berikutnya: [NU7](../zcash-tech/nu7)

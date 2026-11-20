@@ -87,7 +87,7 @@ ILP ده درصد از عرضه $CACAO (10 میلیون $CACAO) را در اخت
 Maya به‌عنوان یک *بک‌اند*، برای استفاده باید توسط رابط‌های کاربری و کیف‌پول‌های مختلف پشتیبانی شود. 
 در اینجا فهرستی از برخی سرویس‌هایی که در حال حاضر از Maya پشتیبانی می‌کنند آمده است:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger، XDEFI، MetaMask، Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger، XDEFI، MetaMask، Keystore
 
 El Dorado: دیگر در دسترس نیست و دامنه آن resolve نمی‌شود.
 

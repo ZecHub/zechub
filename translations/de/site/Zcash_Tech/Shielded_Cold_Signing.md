@@ -1,8 +1,8 @@
-# Abgeschirmtes Cold Signing
+# Abschirmtes Offline-Signieren
 
-> **Kernidee:** Die Begleit-Wallet sieht alles, was zum Erstellen und Überwachen einer abgeschirmten Transaktion erforderlich ist. Allein die Hardware-Wallet besitzt die Befugnis, eine Ausgabe zu autorisieren. Diese Aufteilung ist der ganze Sinn des abgeschirmten Cold Signings.
+> **Kernidee:** Die Begleit-Wallet sieht alles, was zum Erstellen und Überwachen einer abgeschirmten Transaktion nötig ist. Nur die Hardware-Wallet hält die Befugnis, eine Ausgabe zu autorisieren. Diese Aufteilung ist der ganze Zweck des abgeschirmten Offline-Signierens.
 
-Das Abschirmen in Zcash umfasst das Verschieben von Guthaben von einer öffentlichen, transparenten Adresse zu einer privaten, abgeschirmten Adresse, wobei Transaktionsdetails mithilfe der Datenschutzfunktionen von Zcash verborgen werden.
+Beim Abschirmen in Zcash werden Gelder von einer öffentlichen, transparenten Adresse auf eine private, abgeschirmte Adresse übertragen. Dabei werden Transaktionsdetails mithilfe der Datenschutzfunktionen von Zcash verborgen.
 
 ### Was ändert sich, wenn du ZEC abschirmst?
 
@@ -12,282 +12,282 @@ Bei einer transparenten Zcash-Transaktion können Informationen wie:
 - Empfängeradresse
 - übertragener Betrag
 
-auf der blockchain beobachtet werden.
+auf der Blockchain beobachtet werden.
 
-Wenn du ZEC abschirmst, wird dein Guthaben in einen privaten Pool verschoben, beispielsweise Ironwood. Die blockchain kann prüfen, ob eine Transaktion gültig ist, ohne deine privaten Transaktionsdetails offenzulegen. Seit dem Upgrade NU6.3 am 28. Juli 2026 fließt neu abgeschirmtes Guthaben in den Pool Ironwood, da der ältere Pool Orchard keine neuen Einzahlungen mehr akzeptiert, aber weiterhin Auszahlungen ermöglicht.
+Wenn du ZEC abschirmst, werden deine Gelder in einen privaten Pool übertragen (etwa Ironwood). Die Blockchain kann überprüfen, ob eine Transaktion gültig ist, ohne deine privaten Transaktionsdetails offenzulegen. Seit dem Upgrade NU6.3 am 28. Juli 2026 fließen neu abgeschirmte Gelder in den Pool Ironwood, da der ältere Pool Orchard keine neuen Einzahlungen mehr annimmt, Auszahlungen aber weiterhin ermöglicht.
 
-### Bestandteile einer abgeschirmten Transaktion
+### Komponenten einer abgeschirmten Transaktion
 
-### 1. Die Note (der abgeschirmte Guthabeneintrag)
+### 1. Die Note (der Datensatz zum abgeschirmten Guthaben)
 
-Eine Note ist ein privater kryptografischer Eintrag, der einen nicht ausgegebenen Betrag von ZEC repräsentiert, der einem Benutzer gehört.
+Eine Note ist ein privater kryptografischer Datensatz, der einen noch nicht ausgegebenen Betrag an ZEC darstellt, der einer Nutzerin oder einem Nutzer gehört.
 
-Anders als bei einer öffentlichen blockchain, bei der Guthaben im Klartext aufgeführt werden, verschlüsselt eine abgeschirmte Note Wert- und Eigentumsdetails, sodass Beobachter on-chain nicht sehen können, wem die Gelder gehören.
+Anders als bei einer öffentlichen Blockchain, auf der Guthaben im Klartext aufgeführt sind, verschlüsselt eine abgeschirmte Note den Wert und die Angaben zur Inhaberschaft, sodass Beobachter auf der Blockchain nicht sehen können, wem die Gelder gehören.
 
-Beim Einleiten einer Transaktion durchsucht die Begleit-Wallet das Hauptbuch, identifiziert die nicht ausgegebenen Notes des Benutzers und wählt aus, welche Notes ausgegeben werden sollen.
+Wenn eine Transaktion gestartet wird, durchsucht die Begleit-Wallet das Hauptbuch, ermittelt die nicht ausgegebenen Notes der Nutzerin oder des Nutzers und wählt die auszugebenden Notes aus.
 
 ### 2. Der Nullifier (der Mechanismus zur Erkennung doppelter Ausgaben)
 
 Da die Details einer Note im öffentlichen Hauptbuch verborgen sind, benötigt das Netzwerk einen Mechanismus, um doppelte Ausgaben zu erkennen, ohne offenzulegen, welche Note ausgegeben wird.
 
-Ein Nullifier ist eine eindeutige kryptografische Kennzeichnung, die aus einer bestimmten Note abgeleitet wird. Wenn eine Note ausgegeben wird, wird ihr Nullifier auf der blockchain veröffentlicht.
+Ein Nullifier ist ein eindeutiger kryptografischer Marker, der aus einer bestimmten Note abgeleitet wird. Wird eine Note ausgegeben, wird ihr Nullifier auf der Blockchain veröffentlicht.
 
-Das Netzwerk prüft, dass der Nullifier nicht zuvor gespeichert wurde. Falls dies nicht der Fall ist, kann die Ausgabe akzeptiert werden. Entscheidend ist, dass ein externer Beobachter anhand des Nullifiers nicht feststellen kann, von welcher konkreten Note er stammt.
+Das Netzwerk prüft, ob der Nullifier bereits zuvor erfasst wurde. Ist dies nicht der Fall, kann die Ausgabe akzeptiert werden. Entscheidend ist, dass Außenstehende anhand des Nullifiers nicht feststellen können, von welcher bestimmten Note er stammt.
 
 Die Begleit-Wallet leitet den passenden Nullifier ab und erstellt ihn als Teil der Zusammenstellung der Transaktionsdaten.
 
 ## Schlüssel
 
-Schlüssel sind kryptografische Informationen, die den Zugriff auf deine Gelder steuern und deiner Wallet ermöglichen, Vorgänge wie den Empfang, die Anzeige und die Ausgabe von ZEC auszuführen.
+Schlüssel sind kryptografische Informationen, die den Zugriff auf deine Gelder steuern und deiner Wallet Vorgänge wie den Empfang, das Anzeigen und das Ausgeben von ZEC ermöglichen.
 
-Eine Wallet enthält mehrere unterschiedliche Schlüssel, die jeweils einem anderen Zweck dienen – ähnlich wie ein einzelnes Konto getrennte Zugangsdaten für Lese- und Schreibzugriff haben kann.
+Eine Wallet enthält mehrere verschiedene Schlüssel, die jeweils einen anderen Zweck erfüllen – so wie ein einzelnes Konto getrennte Zugangsdaten für Lese- und Schreibzugriff haben kann.
 
-Schlüssel sind zentral für die Beziehung zwischen Begleit-Wallet und Hardware-Wallet, da unterschiedliche Schlüssel unterschiedliche Zwecke erfüllen und nur einer davon sicher verwahrt bleiben muss.
+Schlüssel sind für die Beziehung zwischen Begleit-Wallet und Hardware-Wallet zentral, denn verschiedene Schlüssel erfüllen unterschiedliche Zwecke und nur einer davon muss sicher verwahrt bleiben.
 
-Es ist wichtig zu wissen, dass jeder abgeschirmte Pool seine Schlüssel als Ableitungsbaum aufbaut, bei dem Pfeile von einer Komponente auf alles zeigen, was daraus abgeleitet werden kann. Benutzer, die abgeschirmte Zahlungen empfangen möchten, müssen über eine abgeschirmte Zahlungsadresse verfügen, die aus einem Ausgabeschlüssel erzeugt wird.
+Wichtig zu wissen ist, dass jeder abgeschirmte Pool seine Schlüssel als Ableitungsbaum aufbaut, in dem Pfeile von einer Komponente zu den daraus ableitbaren Komponenten weisen. Nutzer, die abgeschirmte Zahlungen empfangen möchten, benötigen eine abgeschirmte Zahlungsadresse, die aus einem Ausgabeschlüssel erzeugt wird.
 
 ### Die Schlüsselhierarchie
 
 **1. Ausgabeschlüssel**
 
-Dies ist der sicherheitssensibelste Schlüssel. Er verleiht die kryptografische Fähigkeit, die Ausgabe von ZEC zu autorisieren.
+Dies ist der sicherheitskritischste Schlüssel. Er ermöglicht es kryptografisch, Ausgaben von ZEC zu autorisieren.
 
-Auf diesen Schlüssel ist immer Bezug genommen, wenn in diesem Bericht an anderer Stelle davon die Rede ist, dass „die Hardware-Wallet den Schlüssel hält“.
+Dieser Schlüssel ist gemeint, wenn an anderer Stelle in diesem Bericht davon die Rede ist, dass „die Hardware-Wallet den Schlüssel verwahrt“.
 
-In einer Cold-Signing-Architektur wird der Ausgabeschlüssel in der Hardware-Wallet aufbewahrt und niemals der Begleit-Wallet zugänglich gemacht. Die Begleit-Wallet sollte diesen Schlüssel überhaupt nicht besitzen müssen.
+Bei einer Architektur für Offline-Signieren wird der Ausgabeschlüssel in der Hardware-Wallet aufbewahrt und niemals der Begleit-Wallet offengelegt. Die Begleit-Wallet sollte diesen Schlüssel überhaupt nicht besitzen müssen.
 
-Sowohl in Sapling als auch in Orchard leiten Schlüsselhierarchien Ausgabebefugnis und Anzeigefunktionen als zwei getrennte Zweige aus einem Wurzel-Ausgabeschlüssel ab:
+Sowohl in Sapling als auch in Orchard leiten Schlüsselhierarchien die Ausgabebefugnis und die Anzeigemöglichkeiten als zwei getrennte Zweige von einem übergeordneten Ausgabeschlüssel ab:
 
-- **Sapling:** Ein erweiterter Ausgabeschlüssel (𝑎𝑠𝑘,𝑛𝑠𝑘,𝑜𝑣𝑘) leitet beweisautorisierende Schlüssel (𝑎𝑘,𝑛𝑠𝑘) und vollständige Anzeigeschlüssel (𝑎𝑘,𝑛𝑘,𝑜𝑣𝑘) ab, die wiederum eingehende Anzeigeschlüssel (𝑖𝑣𝑘) und diversifizierte Adressen liefern.
-- **Orchard:** Ein Wurzel-Ausgabeschlüssel (𝑠𝑘) verzweigt direkt in einen ausgabeautorisierenden Schlüssel (𝑎𝑠𝑘) und einen vollständigen Anzeigeschlüssel (𝑎𝑘,𝑛𝑘,𝑟𝑖𝑣𝑘).
+- **Sapling:** Ein erweiterter Ausgabeschlüssel (𝑎𝑠𝑘,𝑛𝑠𝑘,𝑜𝑣𝑘) leitet beweisautorisierende Schlüssel (𝑎𝑘,𝑛𝑠𝑘) und vollständige Anzeigeschlüssel (𝑎𝑘,𝑛𝑘,𝑜𝑣𝑘) ab, aus denen wiederum eingehende Anzeigeschlüssel (𝑖𝑣𝑘) und diversifizierte Adressen hervorgehen.
+- **Orchard:** Ein übergeordneter Ausgabeschlüssel (𝑠𝑘) verzweigt direkt in einen ausgabeautorisierenden Schlüssel (𝑎𝑠𝑘) und einen vollständigen Anzeigeschlüssel (𝑎𝑘,𝑛𝑘,𝑟𝑖𝑣𝑘).
 
-Diese strukturelle Aufteilung bildet die formale kryptografische Grundlage für die Isolierung von Hardware-Schlüsseln. Dabei exportiert die Wallet den Anzeigezweig (UFVK) zur Synchronisierung des Guthabens und zum Erstellen von Transaktionen an den Host-Computer, während der ausgabeautorisierende Zweig dauerhaft auf dem Gerät gesperrt bleibt.
+Diese strukturelle Aufteilung bildet die formale kryptografische Grundlage für die Isolation von Hardware-Schlüsseln: Die Wallet exportiert den Anzeigezweig (UFVK) auf den Host-Computer, damit dieser Guthaben synchronisieren und Transaktionen erstellen kann, während der ausgabeautorisierende Zweig dauerhaft auf dem Gerät eingeschlossen bleibt.
 
-Die Schlüsselableitung ist strikt unidirektional. Das bedeutet, dass Anzeigeschlüssel nicht umgekehrt werden können, um die Ausgabebefugnis wiederherzustellen. Diese kryptografische Irreversibilität macht den Export eines Unified Full Viewing Key (UFVK) sicher, da er vollständige Wallet-Transparenz gewährt, ohne die auf dem Gerät befindlichen Ausgabesecrets offenzulegen.
+Die Schlüsselableitung ist streng unidirektional. Das bedeutet, dass sich Anzeigeschlüssel nicht umkehren lassen, um die Ausgabebefugnis wiederherzustellen. Dank dieser kryptografischen Irreversibilität kann ein einheitlicher Full Viewing Key (UFVK) sicher exportiert werden, denn er gewährt vollständige Einsicht in die Wallet, ohne die Ausgabeschlüssel auf dem Gerät offenzulegen.
 
 **2. Anzeigeschlüssel**
 
-Zcash trennt die Fähigkeit, abgeschirmte Aktivität zu sehen, von der Fähigkeit, sie auszugeben. Ein Anzeigeschlüssel ermöglicht einer Wallet oder einer anderen autorisierten Partei, Informationen über abgeschirmte Transaktionen einzusehen, ohne Ausgabebefugnis zu erteilen.
+Zcash trennt die Möglichkeit, abgeschirmte Aktivitäten einzusehen, von der Möglichkeit, Gelder auszugeben. Ein Anzeigeschlüssel erlaubt einer Wallet oder einer anderen autorisierten Partei, Informationen über abgeschirmte Transaktionen einzusehen, ohne Ausgabebefugnis zu gewähren.
 
-- **Full Viewing Key (FVK), verpackt als Unified Full Viewing Key (UFVK):** Er wird bewusst aus dem Ausgabeschlüssel abgeleitet und ermöglicht Software, die abgeschirmte Aktivität der Wallet zu erkennen und zu entschlüsseln und damit Transaktionen zu identifizieren. Er ermöglicht außerdem die Berechnung von Guthaben, ohne eine Ausgabe autorisieren zu können. Er wird am besten als weniger privates Derivat des Ausgabeschlüssels beschrieben, nicht als schwächere Kopie des Seeds.
+- **Full Viewing Key (FVK), verpackt als einheitlicher Full Viewing Key (UFVK):** wird gezielt aus dem Ausgabeschlüssel abgeleitet. Damit kann Software die abgeschirmten Aktivitäten der Wallet erkennen und entschlüsseln und so Transaktionen identifizieren. Außerdem kann sie Guthaben berechnen, ohne Ausgaben autorisieren zu können. Am besten beschreibt man ihn als weniger privaten Ableger des Ausgabeschlüssels, nicht als schwächere Kopie des Seeds.
 
-Der Full Viewing Key (FVK) bietet vollständige schreibgeschützte Transparenz bei strikter Sicherheitstrennung. Durch die Entschlüsselung eingehender und ausgehender Note-Chiffretexte – über seine Outgoing-Viewing-Key-Komponente – kann eine Begleit-Wallet, die nur über einen FVK verfügt, einen vollständigen, beschrifteten Transaktionsverlauf darstellen und nicht nur einen laufenden Kontostand.
+Der Full Viewing Key (FVK) bietet vollständige schreibgeschützte Einsicht und wahrt dabei eine strikte Sicherheitstrennung. Da er die Chiffretexte eingehender und ausgehender Notes entschlüsselt (über seine Komponente für die ausgehende Anzeige), kann eine Begleit-Wallet, die nur über einen FVK verfügt, eine vollständige, beschriftete Transaktionshistorie anzeigen und nicht bloß einen laufenden Kontostand.
 
-Mehrere nicht verknüpfbare diversifizierte Zahlungsadressen teilen denselben FVK und eingehenden Anzeigeschlüssel (IVK), was eine unbegrenzte Adressgenerierung ermöglicht, ohne den Aufwand für das Scannen der blockchain zu erhöhen.
+Mehrere nicht verknüpfbare diversifizierte Zahlungsadressen teilen sich denselben FVK und eingehenden Anzeigeschlüssel (IVK). Dadurch lassen sich unbegrenzt viele Adressen erzeugen, ohne den Aufwand für das Durchsuchen der Blockchain zu erhöhen.
 
-Diese funktionale Trennung bildet die Grundlage von Cold-Signing-Abläufen. Kontinuierliches Scannen der Chain, Verlaufserfassung und Adressverwaltung werden vollständig auf die Host-Software ausgelagert, während die Ausgabebefugnis auf dem Hardware-Gerät isoliert bleibt.
+Diese funktionale Trennung bildet die Grundlage für Abläufe zum Offline-Signieren. Das fortlaufende Durchsuchen der Blockchain, das Verfolgen des Verlaufs und die Adressverwaltung werden an die Software auf dem Host ausgelagert, während die Ausgabebefugnis auf dem Hardware-Gerät isoliert bleibt.
 
 ![Key derivation diagrams](/content-images/key-derivation-diagrams.webp)
 
-### Die entscheidende Unterscheidung: UFVK gegenüber Ausgabeschlüssel
+### Der entscheidende Unterschied: UFVK und Ausgabeschlüssel
 
-> **Der UFVK kann geteilt werden. Der Ausgabeschlüssel muss auf der Hardware-Wallet bleiben.**
+> **Der UFVK kann weitergegeben werden. Der Ausgabeschlüssel muss auf der Hardware-Wallet bleiben.**
 >
-> Die Begleit-Wallet verwendet den Anzeigeschlüssel, um die Wallet zu überwachen, eingehende Gelder zu erkennen, Notes zu identifizieren und bei der Vorbereitung von Transaktionen zu helfen. Sie besitzt nicht den privaten Schlüssel, der zum Autorisieren einer Ausgabe erforderlich ist.
+> Die Begleit-Wallet verwendet den Anzeigeschlüssel, um die Wallet zu überwachen, eingehende Gelder zu erkennen, Notes zu identifizieren und Transaktionen vorzubereiten. Sie verfügt nicht über den privaten Schlüssel, der zum Autorisieren von Ausgaben erforderlich ist.
 
-Wie zuvor erläutert, ist die Trennung der Schlüssel die Grundlage der Cold-Signing-Architektur.
+Wie bereits erwähnt, bildet die Trennung der Schlüssel die Grundlage der Architektur für Offline-Signieren.
 
-Die Begleit-Wallet kann den größten Teil der zur Vorbereitung einer Transaktion benötigten Arbeit erledigen, ohne jemals Kontrolle über die Gelder zu haben. Die Hardware-Wallet muss nur die vorbereitete Transaktion erhalten und den abschließenden Signiervorgang ausführen.
+Die Begleit-Wallet kann den Großteil der Arbeit zur Vorbereitung einer Transaktion übernehmen, ohne jemals die Kontrolle über die Gelder zu haben. Die Hardware-Wallet muss lediglich die vorbereitete Transaktion empfangen und den abschließenden Signiervorgang durchführen.
 
-Hersteller von Hardware-Wallets müssen diese Trennung nicht selbst erfinden. Das Schlüsseldesign von Zcash trennt Anzeigefunktionen bereits auf Protokollebene von der Ausgabebefugnis, und Hersteller bauen ihre Signier- und Exportfunktionen einfach auf dieser bestehenden Struktur auf. Das Protokoll erlaubt die Ableitung von Informationen wie einer abgeschirmten Adresse oder einem vollständigen Anzeigeschlüssel aus einem Ausgabeschlüssel, während der Ausgabeschlüssel selbst privat bleibt. Dadurch können Hardware-Wallets wie Ledger, Keystone und Hito der Begleitsoftware die erforderlichen Anzeigeinformationen geben, ohne jemals den privaten Schlüssel offenzulegen, mit dem die Gelder ausgegeben werden können.
+Hersteller von Hardware-Wallets müssen diese Trennung nicht selbst erfinden. Das Schlüsselkonzept von Zcash trennt Anzeigemöglichkeiten und Ausgabebefugnis bereits auf Protokollebene; die Hersteller bauen ihre Signier- und Exportfunktionen einfach auf dieser bestehenden Struktur auf. Das Protokoll ermöglicht es, Informationen wie eine abgeschirmte Adresse oder einen vollständigen Anzeigeschlüssel aus einem Ausgabeschlüssel abzuleiten, während der Ausgabeschlüssel selbst privat bleibt. So können Hardware-Wallets wie Ledger, Keystone und Hito der Begleitsoftware die benötigten Anzeigeinformationen bereitstellen, ohne jemals den privaten Schlüssel offenzulegen, mit dem Gelder ausgegeben werden können.
 
 ### Was die Begleit-Wallet tatsächlich mit Schlüsselinformationen macht
 
-Mithilfe des Anzeigeschlüsselmaterials kann die Begleit-Wallet:
+Mithilfe der Anzeigeschlüsseldaten kann die Begleit-Wallet:
 
 - deine Gelder und Notes identifizieren
-- bestimmen, welche Notes ausgegeben werden können
+- feststellen, welche Notes ausgegeben werden können
 - relevante Adressen ableiten oder identifizieren
 - die Transaktion erstellen
-- die erforderlichen Beweise erzeugen oder koordinieren
-- die Transaktion zur Signierung vorbereiten
+- die erforderlichen Beweise erzeugen oder ihre Erstellung koordinieren
+- die Transaktion zum Signieren vorbereiten
 
-Es ist wichtig zu wissen, dass das Erstellen einer Transaktion nicht dasselbe ist wie das Benötigen des privaten Ausgabeschlüssels. Diese Entkopplung ist eine der zentralen Sicherheitsideen hinter der Integration von Hardware-Wallets.
+Wichtig zu wissen ist, dass eine Transaktion erstellt werden zu müssen nicht bedeutet, dass dafür der private Ausgabeschlüssel benötigt wird. Diese Entkopplung ist eine der zentralen Sicherheitsideen hinter der Integration von Hardware-Wallets.
 
 ## Erstellung und Autorisierung abgeschirmter Transaktionen
 
-Dies sind die Prozesse, die an der Erstellung und Autorisierung einer Transaktion beteiligt sind. Einfach ausgedrückt beschreiben diese Prozesse, was die Wallet mit diesen Daten tatsächlich tut, um Geld zu senden:
+Dies sind die Vorgänge, die zum Erstellen und Autorisieren der Transaktion gehören. Einfach ausgedrückt: So verwendet die Wallet diese Daten tatsächlich, um Geld zu senden:
 
 ### Transaktionserstellung (Zusammenstellung der abgeschirmten Transaktion)
 
-Die Transaktionserstellung ist der Prozess, bei dem die Informationen zusammengestellt werden, die zur Erstellung einer gültigen Zcash-Transaktion aus der beabsichtigten Zahlung des Benutzers erforderlich sind.
+Die Transaktionserstellung ist der Vorgang, bei dem die Informationen zusammengestellt werden, die nötig sind, um aus der beabsichtigten Zahlung der Nutzerin oder des Nutzers eine gültige Zcash-Transaktion zu erstellen.
 
-Der Prozess der Transaktionserstellung kombiniert die ausgewählten Notes, Empfänger, Beträge, Gebühren, Nullifier und weitere erforderliche Transaktionsdaten zu einer Transaktionsstruktur. Bei abgeschirmten Transaktionen werden außerdem die Informationen vorbereitet, die für die Erzeugung der notwendigen Zero-Knowledge-Beweise und Signaturen erforderlich sind.
+Bei der Transaktionserstellung werden die ausgewählten Notes, Empfänger, Beträge, Gebühren, Nullifier und weitere erforderliche Transaktionsdaten zu einer Transaktionsstruktur zusammengefügt. Für abgeschirmte Transaktionen werden außerdem die Informationen vorbereitet, die zur Erzeugung der erforderlichen Zero-Knowledge-Beweise und Signaturen nötig sind.
 
-Die Begleit-Wallet übernimmt diese Phase in der Regel. Sie
+Diesen Schritt übernimmt normalerweise die Begleit-Wallet. Sie
 
 - wählt die auszugebenden Notes aus
-- bestimmt die Eingaben und Ausgaben der Transaktion
+- bestimmt die Ein- und Ausgänge der Transaktion
 - berechnet die erforderlichen Werte
 - bereitet die Transaktionsdaten vor, die später bewiesen und signiert werden.
 
-In einer Cold-Signing-Konfiguration können die resultierenden Transaktionsdaten in ein PCZT verpackt und für den sicherheitskritischen Signierschritt an die Hardware-Wallet übergeben werden.
+Bei einer Einrichtung zum Offline-Signieren können die resultierenden Transaktionsdaten in ein PCZT gepackt und für den sicherheitskritischen Signierschritt an die Hardware-Wallet übergeben werden.
 
-### Beweisen (Nachweis der Protokollgültigkeit)
+### Beweiserstellung (Nachweis der Protokollgültigkeit)
 
-Beweisen bezeichnet die Erzeugung von Zero-Knowledge-Beweisen, beispielsweise Halo 2 oder Groth16, die nachweisen, dass eine Transaktion die Protokollregeln von Zcash einhält.
+Die Beweiserstellung bezeichnet die Erzeugung von Zero-Knowledge-Beweisen (etwa Halo 2 oder Groth16), die nachweisen, dass eine Transaktion den Protokollregeln von Zcash folgt.
 
-Der Beweis hilft dem Netzwerk, Folgendes zu gewährleisten:
+Der Beweis hilft dem Netzwerk zu garantieren:
 
-- Der ausgebende Benutzer ist berechtigt, die Notes auszugeben.
-- Die Notes existieren tatsächlich.
-- Die entsprechenden Nullifier sind eindeutig.
-- Die Gesamteingaben entsprechen den Gesamtausgaben zuzüglich Gebühren.
+- Die ausgebende Person ist berechtigt, die Notes auszugeben
+- Die Notes existieren tatsächlich
+- Die zugehörigen Nullifier sind eindeutig
+- Die Summe der Eingänge entspricht der Summe der Ausgänge zuzüglich der Gebühren.
 
 All dies geschieht, ohne zugrunde liegende private Details offenzulegen.
 
-Die Erzeugung von Beweisen ist rechenintensiv. Die Auslagerung dieser Verantwortung auf das Begleitgerät verhindert, dass die Hardware-Wallet hängen bleibt oder keinen Speicher mehr hat.
+Die Erzeugung von Beweisen ist sehr rechenintensiv. Wird diese Aufgabe an das Begleitgerät ausgelagert, kann verhindert werden, dass die Hardware-Wallet ins Stocken gerät oder nicht mehr genügend Speicher hat.
 
 ### Signieren (Autorisierung der Ausgabe)
 
-Signieren unterscheidet sich grundlegend vom Beweisen. Eine digitale Signatur dient als expliziter Autorisierungsstempel, der vom Inhaber des privaten Schlüssels erstellt wird.
+Das Signieren unterscheidet sich grundlegend von der Beweiserstellung. Eine digitale Signatur ist ein ausdrücklicher Autorisierungsstempel, der von der Person erzeugt wird, die den privaten Schlüssel besitzt.
 
-Während ein Zero-Knowledge-Beweis die Gültigkeit der Transaktion bestätigt, beweist eine digitale Signatur die Ausgabebefugnis. Die Signatur bestätigt, dass der wahre Eigentümer die konkreten Übertragungsparameter genehmigt.
+Ein Zero-Knowledge-Beweis prüft die Gültigkeit der Transaktion; eine digitale Signatur weist die Ausgabebefugnis nach. Die Signatur bestätigt, dass die tatsächliche Eigentümerin oder der tatsächliche Eigentümer den konkreten Übertragungsparametern zustimmt.
 
-Das Signieren benötigt nur geringe Rechenleistung und eignet sich daher ideal für eine Hardware-Wallet.
+Zum Signieren ist nur wenig Rechenleistung nötig. Damit eignet es sich ideal für eine Hardware-Wallet.
 
-### Was ist abgeschirmtes Cold Signing?
+### Was ist abgeschirmtes Offline-Signieren?
 
-Abgeschirmtes Cold Signing ist eine Methode zur Autorisierung einer abgeschirmten Zcash-Transaktion, bei der die privaten Ausgabeschlüssel von der mit dem Internet verbundenen Begleit-Wallet isoliert bleiben. Die Transaktion kann auf einem Online-Computer erstellt und vorbereitet werden, während eine separate Hardware-Wallet, die offline oder anderweitig isoliert bleibt, ihre geschützten Schlüssel zur Autorisierung der Transaktion verwendet.
+Abgeschirmtes Offline-Signieren ist eine Methode, eine abgeschirmte Zcash-Transaktion zu autorisieren und dabei die privaten Ausgabeschlüssel von der mit dem Internet verbundenen Begleit-Wallet isoliert zu halten. Die Transaktion kann auf einem Online-Computer erstellt und vorbereitet werden, während eine separate Hardware-Wallet, die offline oder anderweitig isoliert gehalten wird, ihre geschützten Schlüssel zur Autorisierung der Transaktion verwendet.
 
-Der Prozess kann vereinfacht werden zu:
+Der Vorgang lässt sich vereinfachen zu:
 
 ![Shielded cold signing process](/content-images/cold-signing-process.webp)
 
-Die Begleit-Wallet sendet die strukturierten Transaktionsparameter an das Hardware-Gerät, das die Nutzlast intern signiert, ohne den privaten Ausgabeschlüssel jemals an den Host-Rechner weiterzugeben.
+Die Begleit-Wallet sendet die strukturierten Transaktionsparameter an das Hardware-Gerät. Dieses signiert die Nutzdaten intern, ohne den privaten Ausgabeschlüssel jemals an den Host-Computer weiterzugeben.
 
-## Begleit- und Hardware-Wallets
+## Begleit-Wallets und Hardware-Wallets
 
-Abgeschirmte Transaktionen können sowohl eine Begleit-Wallet als auch eine Hardware-Wallet umfassen, die jeweils eine eigene Funktion erfüllen.
+An abgeschirmten Transaktionen können sowohl eine Begleit-Wallet als auch eine Hardware-Wallet beteiligt sein, wobei jede eine eigene Aufgabe erfüllt.
 
 ### Begleit-Wallet
 
 Was ist eine Begleit-Wallet?
 
-Die Begleit-Wallet läuft auf einem Computer oder Mobilgerät und führt die meisten Aufgaben aus, die zur Erstellung der Transaktion gehören, beispielsweise:
+Die Begleit-Wallet läuft auf einem Computer oder Mobilgerät und übernimmt den Großteil der Aufgaben bei der Erstellung einer Transaktion, zum Beispiel:
 
-- Auswahl der auszugebenden Notes
-- Erstellung der Transaktion
-- Berechnung der erforderlichen Transaktionsdaten
-- Koordination der Erzeugung der erforderlichen Zero-Knowledge-Beweise.
+- die auszugebenden Notes auswählen
+- die Transaktion erstellen
+- die erforderlichen Transaktionsdaten berechnen
+- die Erzeugung der erforderlichen Zero-Knowledge-Beweise koordinieren.
 
 ### Warum ist eine Begleit-Wallet nützlich?
 
-Die Begleit-Wallet übernimmt den Prozess der Transaktionserstellung. Wenn der Computer jedoch mit Malware infiziert wird, könnte ein Angreifer:
+Die Begleit-Wallet übernimmt die Transaktionserstellung. Wird der Computer jedoch mit Schadsoftware infiziert, kann ein Angreifer möglicherweise:
 
 - sehen, was du tust,
-- eine unsignierte Transaktion verändern,
-- versuchen, dich zur Genehmigung von etwas zu verleiten.
+- eine unsignierte Transaktion ändern,
+- versuchen, dich dazu zu bringen, etwas zu genehmigen.
 
-Die Begleit-Wallet benötigt keinen Zugriff auf den privaten Schlüssel, der auf der Hardware-Wallet gespeichert ist. Sie kann daher die Transaktionserstellung und andere Rechenaufgaben übernehmen, während die Hardware-Wallet die Sicherheitsgrenze für den privaten Schlüssel bildet.
+Die Begleit-Wallet benötigt keinen Zugriff auf den privaten Schlüssel, der auf der Hardware-Wallet gespeichert ist. Sie kann daher Transaktionen erstellen und andere rechenintensive Aufgaben übernehmen, während die Hardware-Wallet mit dem privaten Schlüssel die Sicherheitsgrenze bildet.
 
 ### Hardware-Wallet
 
-Eine Hardware-Wallet ist ein physisches Offline-Gerät, das deine privaten Schlüssel von verbundenen Telefonen oder Computern isoliert und wie ein sicherer Tresor für deine Krypto-Vermögenswerte funktioniert.
+Eine Hardware-Wallet ist ein physisches Offline-Gerät, das deine privaten Schlüssel von verbundenen Telefonen oder Computern isoliert und als sicherer Tresor für deine Krypto-Vermögenswerte dient.
 
 ### Warum ist eine Hardware-Wallet nützlich?
 
-Wenn dein Computer mit Malware infiziert wird, könnte ein Angreifer:
+Wird dein Computer mit Schadsoftware infiziert, kann ein Angreifer möglicherweise:
 
 - sehen, was du tust,
-- eine unsignierte Transaktion verändern,
-- versuchen, dich zur Genehmigung von etwas zu verleiten.
+- eine unsignierte Transaktion ändern,
+- versuchen, dich dazu zu bringen, etwas zu genehmigen.
 
-Der private Schlüssel kann nicht einfach aus der Hardware-Wallet extrahiert werden; daher kann das Gerät als Sicherheitsgrenze dienen.
+Der private Schlüssel lässt sich nicht einfach aus der Hardware-Wallet auslesen. Daher kann das Gerät als Sicherheitsgrenze dienen.
 
-Bild: Fähigkeiten von Begleit- gegenüber Hardware-Wallet
+Bild: Begleit-Wallet und Hardware-Funktionen
 
-Die Trennung dieser beiden Wallets ist bei abgeschirmten Transaktionen besonders wichtig, da sie komplexer als transparente Transaktionen sind und Komponenten wie abgeschirmte Notes, Nullifier, Commitments, Zero-Knowledge-Beweise und Transaktionssignaturen umfassen.
+Die Trennung zwischen diesen beiden Wallets ist bei abgeschirmten Transaktionen besonders wichtig, weil sie komplexer sind als transparente Transaktionen und Komponenten wie abgeschirmte Notes, Nullifier, Commitments, Zero-Knowledge-Beweise und Transaktionssignaturen umfassen.
 
-Es wäre unpraktisch, wenn die Hardware-Wallet jeden Rechenvorgang ausführen müsste. Stattdessen bereitet die Begleit-Wallet die Transaktion vor und stellt der Hardware-Wallet die für die Signierung erforderlichen Informationen bereit, während der private Ausgabeschlüssel innerhalb des Hardware-Geräts isoliert bleibt.
+Es wäre unpraktisch, wenn die Hardware-Wallet jeden Rechenschritt selbst ausführen müsste. Stattdessen bereitet die Begleit-Wallet die Transaktion vor und stellt der Hardware-Wallet die erforderlichen Informationen zum Signieren bereit, während der private Ausgabeschlüssel im Hardware-Gerät isoliert bleibt.
 
 ## Schlüsselisolierung
 
-> Schlüsselisolierung bedeutet, dass die privaten Schlüssel, die eine Ausgabe autorisieren können, die Hardware-Wallet niemals verlassen. Die Begleit-Wallet kann die Transaktion vorbereiten; sie kann sie nicht signieren.
+> Schlüsselisolierung bedeutet, dass die privaten Schlüssel, mit denen eine Ausgabe autorisiert werden kann, die Hardware-Wallet niemals verlassen. Die Begleitsoftware kann die Transaktion vorbereiten, aber nicht signieren.
 
-Schlüsselisolierung bezeichnet die Trennung der privaten Schlüssel, die zum Autorisieren einer Transaktion erforderlich sind, von der Begleit-Wallet und dem Gerät, auf dem sie läuft. In einer abgeschirmten Cold-Signing-Konfiguration kann die Begleit-Wallet die Transaktion erstellen und die erforderlichen Beweise koordinieren, während die Hardware-Wallet die sensiblen privaten Ausgabeschlüssel isoliert hält.
+Schlüsselisolierung bedeutet, die privaten Schlüssel, die zum Autorisieren einer Transaktion erforderlich sind, von der Begleit-Wallet und dem Gerät, auf dem sie läuft, getrennt zu halten. Bei einer abgeschirmten Offline-Signierung kann die Begleit-Wallet die Transaktion erstellen und die erforderlichen Beweise koordinieren, während die Hardware-Wallet die sensiblen privaten Ausgabeschlüssel isoliert hält.
 
-Wenn der Begleit-Computer oder das Telefon kompromittiert wird, kann ein Angreifer möglicherweise vor der Signierung mit der Transaktion interagieren, aber idealerweise den privaten Schlüssel nicht aus der Hardware-Wallet extrahieren. Der Schlüssel bleibt damit innerhalb der Sicherheitsgrenze des Hardware-Geräts.
+Ist der Begleitcomputer oder das Telefon kompromittiert, kann ein Angreifer möglicherweise vor der Signierung mit der Transaktion interagieren, idealerweise aber nicht den privaten Schlüssel aus der Hardware-Wallet auslesen. Der Schlüssel bleibt somit innerhalb der Sicherheitsgrenze des Hardwaregeräts.
 
-Diese Trennung ermöglicht der Begleit-Wallet die Ausführung von Transaktionserstellung und Rechenaufgaben, ohne ihr direkten Zugriff auf das Schlüsselmaterial zu gewähren, das für die Autorisierung der Transaktion erforderlich ist.
+Durch diese Trennung kann die Begleit-Wallet Transaktionen erstellen und Berechnungen ausführen, ohne direkten Zugriff auf das Schlüsselmaterial zu erhalten, das zum Autorisieren der Transaktion erforderlich ist.
 
 ![Key isolation](/content-images/key-isolation.webp)
 
-Die entscheidende Unterscheidung lautet: „Anzeigeschlüssel“ bedeutet nicht, dass die App eine schwächere Version des Seeds erhält.
+Entscheidend ist die Unterscheidung: „Viewing Key“ bedeutet nicht, dass die App eine schwächere Version des Seeds erhält.
 
-In Zcash wird ein Full Viewing Key (FVK/UFVK) bewusst aus dem Ausgabeschlüssel abgeleitet und ermöglicht seinem Inhaber, relevante abgeschirmte Aktivität zu erkennen und zu entschlüsseln, jedoch keine Ausgaben zu autorisieren. Der FVK ist ein weniger geheimer Abkömmling des Ausgabeschlüssels.
+In Zcash wird ein Full Viewing Key (FVK/UFVK) bewusst aus dem Ausgabeschlüssel abgeleitet. Er ermöglicht es seinem Inhaber, relevante abgeschirmte Aktivitäten zu erkennen und zu entschlüsseln, aber keine Ausgaben zu autorisieren. Der FVK ist eine weniger geheime Ableitung des Ausgabeschlüssels.
 
-**Ein wichtiger Vorbehalt zum Datenschutz:**
+**Ein wichtiger Datenschutzhinweis:**
 
-Daher sollte bekannt sein, dass die App die Gelder allein mit dem UFVK nicht stehlen kann, aber die private abgeschirmte Aktivität der Wallet sehen kann.
+Es sollte also klar sein, dass die App mit der UFVK allein zwar keine Gelder stehlen, aber die privaten abgeschirmten Aktivitäten der Wallet einsehen kann.
 
-Deshalb ist es genauer, die Begleitanwendung als Inhaber von *Anzeigebefugnis* zu beschreiben, statt lediglich zu sagen, sie verfüge über „öffentliche Informationen“.
+Deshalb ist es genauer, der Begleit-App *Viewing-Berechtigung* zuzuschreiben, statt einfach von „öffentlichen Informationen“ zu sprechen.
 
-Am einfachsten lässt sich die gesamte Idee so ausdrücken: Die Begleit-Wallet erhält genug Schlüsselmaterial, um zu wissen, was mit der Wallet geschieht, aber nicht genug Schlüsselmaterial, um zu autorisieren, was mit den Geldern der Wallet geschieht. Die Hardware-Wallet hingegen hält die Ausgabebefugnis isoliert und verwendet sie nur, wenn der Benutzer eine Transaktion genehmigt.
+Am einfachsten lässt sich die Idee so zusammenfassen: Die Begleit-Wallet erhält genug Schlüsselmaterial, um zu erkennen, was mit der Wallet geschieht, aber nicht genug, um zu autorisieren, was mit den Geldern der Wallet geschieht. Die Hardware-Wallet hingegen hält die Ausgabeberechtigung isoliert und verwendet sie nur, wenn der Benutzer eine Transaktion genehmigt.
 
-Dies ist das grundlegende Modell der Schlüsselisolierung hinter diesen abgeschirmten Zcash-Hardware-Wallet-Designs und dasselbe Modell, das sich – Implementierung für Implementierung – in Ledger, Keystone und Hito zeigt, die bald behandelt werden.
+Das ist das grundlegende Schlüsselisolierungsmodell hinter diesen abgeschirmten Zcash Hardware-Wallet-Designs. Dasselbe Modell findet sich, jeweils in einer eigenen Implementierung, in Ledger, Keystone und Hito, die wir bald behandeln.
 
 ## PCZT
 
-PCZT steht für Partially Created Zcash Transaction. Es ist das Paket, das eine Zcash-Transaktion und die Informationen enthält, die erforderlich sind, um sie von einer Phase in die nächste zu überführen.
+PCZT steht für Partially Created Zcash Transaction. Es ist das Paket, das eine Zcash Transaktion und die Informationen enthält, die nötig sind, um sie von einer Phase zur nächsten fertigzustellen.
 
-Es ist ein standardisiertes Format für eine Zcash-Transaktion, während die Transaktion noch erstellt wird. Es ermöglicht verschiedenen Teilnehmern oder Geräten, unterschiedliche Teile des Transaktionserstellungsprozesses auszuführen und die teilweise abgeschlossene Transaktion zwischen ihnen weiterzugeben.
+Es handelt sich um ein standardisiertes Format für eine Zcash Transaktion, solange diese noch erstellt wird. Damit können verschiedene Beteiligte oder Geräte unterschiedliche Teile des Erstellungsprozesses übernehmen und die teilweise fertiggestellte Transaktion untereinander weitergeben.
 
-Die Erstellung einer Transaktion ist in Zero-Knowledge-Kryptowährungsprotokollen wie Zcash erheblich komplexer als das Signieren einer einfachen öffentlichen Übertragung. Abgeschirmte Transaktionen erfordern rechenintensive Zero-Knowledge-Beweise, beispielsweise solche, die mit Halo 2 oder Groth16 erzeugt werden. Daher verfügen Geräte mit geringer Leistung, etwa Hardware-Wallets, möglicherweise nicht über ausreichend Speicher und Verarbeitungskapazität, um den gesamten Transaktionsablauf zu bewältigen.
+Eine Transaktion zu erstellen ist in Zero-Knowledge-Kryptowährungsprotokollen wie Zcash deutlich komplexer als eine einfache öffentliche Überweisung zu signieren. Abgeschirmte Transaktionen erfordern rechenintensive Zero-Knowledge-Beweise, etwa solche, die mit Halo 2 oder Groth16 erzeugt werden. Daher verfügen Geräte mit geringer Leistung, etwa Hardware-Wallets, möglicherweise nicht über den nötigen Speicher und die Rechenkapazität, um den gesamten Transaktionsablauf zu bewältigen.
 
-Die Einführung von PCZT begegnet mehreren zentralen Herausforderungen der abgeschirmten Kryptoarchitektur. PCZT ist ein standardisiertes Zwischenformat für Daten, das die Transaktionserstellung in modulare, unabhängige Rollen aufteilt. Es ermöglicht einem leistungsfähigen Begleit-Computer, die Zusammenstellung der Transaktion und die Beweiserzeugung zu übernehmen, während eine Offline-Hardware-Wallet strikt auf Autorisierung und Signierung beschränkt wird.
+Die Einführung von PCZT begegnet mehreren zentralen Herausforderungen der Architektur abgeschirmter Kryptowährungen. PCZT ist ein standardisiertes Zwischenformat, das die Transaktionserstellung in modulare, unabhängige Rollen aufteilt. So kann ein leistungsstarker Begleitcomputer die Transaktion zusammenstellen und Beweise erzeugen, während eine Offline-Hardware-Wallet strikt auf Autorisierung und Signierung beschränkt bleibt.
 
-### Hardware- und Cold-Storage-Beschränkungen
+### Einschränkungen von Hardware und Offline-Speicherung
 
-Hardware-Wallets bieten zwar eine sichere Umgebung zum Schutz privater Ausgabeschlüssel, verfügen gegenüber Begleit-Computern jedoch typischerweise über begrenzten Arbeitsspeicher, begrenzte Rechenleistung und eingeschränkte Datenübertragungsmöglichkeiten. Diese Einschränkungen machen es unpraktisch, dass sie rechenintensive Zero-Knowledge-Beweise erzeugen oder den vollständigen Transaktionszustand verwalten, der während des Transaktionserstellungsprozesses benötigt wird.
+Hardware-Wallets bieten zwar eine sichere Umgebung zum Schutz privater Ausgabeschlüssel, verfügen aber im Vergleich zu Begleitcomputern meist über weniger RAM, Rechenleistung und Datenübertragungskapazität. Dadurch ist es unpraktisch, auf ihnen rechenintensive Zero-Knowledge-Beweise zu erzeugen oder den vollständigen Transaktionszustand zu verwalten, der während der Transaktionserstellung benötigt wird.
 
-Daher kann die Begleit-Wallet die rechenintensiven Aufgaben übernehmen, während die Hardware-Wallet auf den sicherheitskritischen Vorgang konzentriert bleibt, die Transaktion mit ihren geschützten Ausgabeschlüsseln zu autorisieren.
+Daher kann die Begleit-Wallet die rechenintensiven Aufgaben übernehmen, während sich die Hardware-Wallet auf den sicherheitskritischen Vorgang konzentriert, die Transaktion mit ihren geschützten Ausgabeschlüsseln zu autorisieren.
 
-Da fragt man sich: Wenn das Gerät so eingeschränkt ist, wie kann es dann dennoch *genug* prüfen, um vertrauenswürdig zu sein?
+Da fragt man sich: Wenn das Gerät so eingeschränkt ist, wie kann es dann noch *genug* überprüfen, um vertrauenswürdig zu sein?
 
-Einfach gesagt kann eine Hardware-Wallet keinen beliebigen Wert von einem Begleit-Computer akzeptieren und signieren. Sie benötigt ausreichende Informationen, um festzustellen, dass der zu signierende Wert der Transaktion entspricht, die der Benutzer autorisieren möchte. Dies schafft einen schwierigen Ausgleich: Das Gerät muss genug analysieren und prüfen, um den Signierprozess zu schützen, und zugleich strenge Grenzen bei Speicher, Rechenleistung, Firmware-Größe und Implementierungskomplexität einhalten.
+Einfach gesagt: Eine Hardware-Wallet kann nicht einfach einen beliebigen Wert von einem Begleitcomputer annehmen und signieren. Sie braucht genügend Informationen, um festzustellen, dass der zu signierende Wert der Transaktion entspricht, die der Benutzer autorisieren möchte. Das ist ein schwieriger Balanceakt: Das Gerät muss die Transaktion ausreichend parsen und überprüfen, um den Signiervorgang zu schützen, und zugleich strenge Grenzen bei Speicher, Rechenleistung, Firmwaregröße und Implementierungskomplexität einhalten.
 
-Die Verarbeitung von Ledger Orchard PCZT ist ein Beispiel für diese Herausforderung. Sie legt nahe, dass spezialisiertes, schaltkreisabhängiges Parsen die Implementierung auf eingeschränkten Geräten handhabbarer machen kann, bei Änderungen unterstützter Transaktionsstrukturen oder Schaltkreise aber möglicherweise Firmware-Änderungen erfordert.
+Die Verarbeitung von Ledger's Orchard PCZT ist ein Beispiel für diese Herausforderung. Sie zeigt, dass eine spezialisierte, schaltungsabhängige Analyse die Implementierung auf eingeschränkten Geräten vereinfachen kann, bei Änderungen an unterstützten Transaktionsstrukturen oder Schaltkreisen aber möglicherweise Firmware-Anpassungen erfordert.
 
-Zwei laufende Bemühungen veranschaulichen unterschiedliche Antworten auf dieselbe Einschränkung.
+Zwei laufende Vorhaben zeigen unterschiedliche Ansätze für dieselbe Einschränkung.
 
-Ein Forschungsvorschlag für eine vollständig konstantzeitliche Proving-Pipeline, die für Open-Source-Hardware-Wallet-Architekturen und gewöhnliche Computer geeignet ist, wurde in Grant #423 vorgelegt. Ziel war die Untersuchung kryptografischer Infrastruktur, die in Umgebungen wie C oder Rust sicher implementiert werden kann und zugleich die Komplexität und den Wartungsaufwand abgeschirmter Zcash-Unterstützung reduziert.
+In Grant #423 wurde ein Forschungsvorschlag für eine vollständig zeitkonstante Beweiserstellungspipeline vorgelegt, die sich für Open-Source-Hardware-Wallet-Architekturen und gewöhnliche Computer eignet. Untersucht werden sollte kryptografische Infrastruktur, die sich sicher in Umgebungen wie C oder Rust implementieren lässt und zugleich Komplexität und Wartungsaufwand bei der Unterstützung abgeschirmter Zcash verringert.
 
-Ein alternativer Ansatz wird jedoch durch den vorgeschlagenen **Zcash SeedSigner** repräsentiert, einen Open-Source-Signer mit Air Gap, der aus preiswerten, leicht verfügbaren Komponenten aufgebaut ist. Sein vorgeschlagener Ablauf hält den Begleit-Computer vom Signiergerät getrennt und überträgt ein PCZT über eine Air Gap zur Prüfung und Signierung auf dem Gerät.
+Einen alternativen Ansatz stellt der vorgeschlagene **Zcash SeedSigner** dar: ein quelloffener, vom Netz getrennter Signierer aus kostengünstigen, leicht verfügbaren Komponenten. Bei dem vorgeschlagenen Ablauf bleibt der Begleitcomputer vom Signiergerät getrennt. Eine PCZT wird über eine Netzwerktrennung hinweg übertragen, damit das Gerät sie selbst überprüfen und signieren kann.
 
 https://forum.zcashcommunity.com/t/grant-application-research-on-a-fully-constant-time-proving-pipeline-for-open-source-hardware-wallet-architectures-reusable-for-standard-computers/57555
 
-Zusammen zeigen diese Ansätze die umfassendere technische Herausforderung hinter abgeschirmten Hardware-Wallets: Transaktionserstellung und Beweisen können außerhalb des sicherheitskritischen Geräts stattfinden, aber der Signer muss dennoch über genug Informationen und Prüfmöglichkeiten verfügen, um die resultierende Transaktion sicher zu autorisieren.
+Gemeinsam veranschaulichen diese Ansätze die umfassendere technische Herausforderung bei abgeschirmten Hardware-Wallets: Transaktionserstellung und Beweiserstellung können außerhalb des sicherheitskritischen Geräts stattfinden, doch der Signierer muss weiterhin über genügend Informationen und Prüfkapazität verfügen, um die resultierende Transaktion sicher zu autorisieren.
 
 ### PCZT ermöglicht die geteilte Architektur
 
-Der Standard Partially Created Zcash Transaction (PCZT) ist die formale Datenstruktur, die Begleit-Wallet und Hardware-Wallet verbindet.
+Der Standard Partially Created Zcash Transaction (PCZT) ist die formale Datenstruktur, die Begleit-Wallet und Hardware-Wallet miteinander verbindet.
 
-Eine Begleit-Wallet kann die Auswahl von Notes übernehmen, die Nullifier bestimmen und den Zero-Knowledge-Beweis vollständig selbst erzeugen. Dies ist möglich, weil die für diese Schritte erforderlichen Informationen, einschließlich des zur Ableitung von Nullifiern verwendeten Schlüssels, aus dem Anzeigeschlüssel stammen und nicht an die Ausgabebefugnis gebunden sind. Anschließend verpackt die Begleit-Wallet diese Elemente in einen PCZT-Container.
+Eine Begleit-Wallet kann die Notizenauswahl übernehmen, die Nullifier berechnen und den Zero-Knowledge-Beweis vollständig selbst erzeugen. Das ist möglich, weil die Informationen für diese Schritte, darunter der zur Ableitung der Nullifier verwendete Schlüssel, aus dem Viewing Key stammen und nicht mit der Ausgabeberechtigung verbunden sind. Anschließend verpackt die Begleit-Wallet diese Elemente in einen PCZT-Container.
 
-Das PCZT wird an die Hardware-Wallet übergeben, die den Transaktionskontext – etwa Beträge und Empfängeradressen – liest, die Signatur mit ihren geschützten Ausgabeschlüsseln anbringt und das aktualisierte PCZT an das Begleitgerät zurückgibt.
+Das PCZT wird an die Hardware-Wallet übergeben. Diese liest den Transaktionskontext aus, etwa Beträge und Empfängeradressen, wendet mit ihren geschützten Ausgabeschlüsseln die Signatur an und gibt das aktualisierte PCZT an das Begleitgerät zurück.
 
-Dieses Design schafft eine strikte Sicherheitsgrenze: Leistungsfähige Host-Hardware kann komplexe Zero-Knowledge-Mathematik ausführen, ohne Zugriff auf Ausgabeschlüssel zu benötigen, während stromsparende Cold-Storage-Geräte finanzielle Sicherheit durchsetzen können, ohne rechenintensive Kryptografie berechnen zu müssen.
+Dieses Design schafft eine strenge Sicherheitsgrenze: Leistungsstarke Host-Hardware kann komplexe Zero-Knowledge-Berechnungen ausführen, ohne Zugriff auf Ausgabeschlüssel zu benötigen, während leistungsschwache Geräte zur Offline-Speicherung die finanzielle Sicherheit durchsetzen können, ohne aufwendige Kryptografie berechnen zu müssen.
 
-### Datenschutzkompromisse beim Prover
+### Kompromisse beim Datenschutz des Beweiserzeugers
 
-Während die Delegierung der Erzeugung von Zero-Knowledge-Beweisen an die Begleit-Wallet oder einen anderen Prover die Ausgabeschlüssel isoliert hält, muss der Prover dennoch auf sensible Transaktionsinformationen wie Note-Werte, Empfängeradressen und Commitments zugreifen.
+Wird die Erzeugung von Zero-Knowledge-Beweisen an die Begleit-Wallet oder einen anderen Beweiserzeuger delegiert, bleiben die Ausgabeschlüssel zwar isoliert, doch der Beweiserzeuger benötigt weiterhin Zugriff auf sensible Transaktionsinformationen wie Notizwerte, Empfängeradressen und Commitments.
 
-Das PCZT bewahrt die architektonische Trennung, indem es sicherstellt, dass diese Informationen für das Beweisen bereitgestellt werden können, ohne die zur Autorisierung erforderlichen privaten Ausgabeschlüssel zu übertragen.
+Das PCZT erhält die architektonische Trennung aufrecht, indem es ermöglicht, diese Informationen zur Beweiserzeugung bereitzustellen, ohne die für die Autorisierung erforderlichen privaten Ausgabeschlüssel zu übertragen.
 
-Dies garantiert, dass Beweisbefugnis von Ausgabebefugnis getrennt bleibt. Der Prover kann die rechenintensive Beweiserzeugung ausführen, ohne die kryptografische Befugnis zu erhalten, die Gelder des Benutzers auszugeben.
+So ist die Berechtigung zur Beweiserzeugung von der Ausgabeberechtigung getrennt. Der Beweiserzeuger kann die rechenintensive Beweiserstellung übernehmen, ohne die kryptografische Berechtigung zu erhalten, Gelder des Benutzers auszugeben.
 
 ### Interoperabilität von PCZT
 
-Da PCZT zu einem wichtigen Bestandteil von Zcash-Hardware-Wallet-, Multisignatur- und Air-Gap-Signierabläufen wird, wird die Interoperabilität zwischen unabhängigen Implementierungen zunehmend wichtig.
+Da PCZT zunehmend bei Abläufen mit Zcash Hardware-Wallets, Multisignaturen und netzwerkferner Signierung eingesetzt wird, gewinnt die Interoperabilität zwischen unabhängigen Implementierungen an Bedeutung.
 
-Ein Vorschlag von AngryDavee vom Juni 2026 stellte fest, dass PCZT-Implementierungen bereits in Projekten wie Ledger, Keystone, Hito, OneKey und der Referenzimplementierung in librustzcash existierten. Der Vorschlag stellte jedoch fest, dass gemeinsame Tests fehlten, um zu bestätigen, dass diese Implementierungen PCZTs konsistent interpretieren.
+Ein Vorschlag von AngryDavee vom Juni 2026 stellte fest, dass es bereits PCZT-Implementierungen in Projekten wie Ledger, Keystone, Hito, OneKey und der Referenzimplementierung in librustzcash gab. Der Vorschlag stellte jedoch fest, dass gemeinsame Tests fehlten, mit denen sich bestätigen ließe, dass diese Implementierungen PCZTs einheitlich interpretieren.
 
-Die vorgeschlagene Lösung war eine Open-Source-Testsuite zur Interoperabilität mit kanonischen PCZT-Testvektoren und implementierungsübergreifenden Tests für den vollständigen Ablauf create → sign → finalize. Außerdem wurde vorgeschlagen, Rollengrenzen wie den Combiner zu testen, bei dem teilweise signierte Informationen unterschiedlicher Signer kombiniert werden können, bevor eine Transaktion finalisiert wird.
+Als Lösung wurde eine quelloffene Interoperabilitätstestsuite vorgeschlagen, die kanonische PCZT-Testvektoren und Tests zwischen Implementierungen für den vollständigen Ablauf von Erstellen → Signieren → Abschließen enthält. Außerdem sollten Rollengrenzen getestet werden, etwa beim Combiner, bei dem teilweise signierte Informationen verschiedener Signierer zusammengeführt werden können, bevor eine Transaktion abgeschlossen wird.
 
-Dies ist besonders für Hardware-Wallets relevant, da PCZT die Trennung von Transaktionserstellung und Signierung ermöglicht: Eine Begleit-Wallet kann eine Transaktion erstellen und ein PCZT vorbereiten, während ein Hardware-Gerät die erforderlichen Signierinformationen erhält und den sicherheitskritischen Signiervorgang ausführt.
+Das ist für Hardware-Wallets besonders relevant, weil PCZT es ermöglicht, Transaktionserstellung und Signierung zu trennen: Eine Begleit-Wallet kann eine Transaktion erstellen und ein PCZT vorbereiten, während ein Hardwaregerät die erforderlichen Signierinformationen erhält und den sicherheitskritischen Signiervorgang ausführt.
 
-Der Vorschlag wurde nicht umgesetzt, da Zcash Community Grants nach Prüfung des Vorschlags und Berücksichtigung des Community-Feedbacks entschied, das Grant nicht weiterzuverfolgen. Daher wurde die vorgeschlagene implementierungsübergreifende Testsuite nicht über dieses Grant entwickelt. Sie ist somit eine vorgeschlagene Antwort auf eine identifizierte Interoperabilitätsherausforderung von PCZT und kein Standard, der derzeit für Zcash existiert.
+Der Vorschlag wurde nicht umgesetzt, weil Zcash Community Grants nach Prüfung des Vorschlags und unter Berücksichtigung des Feedbacks aus der Community entschied, den Zuschuss nicht weiterzuverfolgen. Daher wurde die vorgeschlagene Testsuite für Tests zwischen Implementierungen im Rahmen dieses Zuschusses nicht entwickelt. Sie ist somit ein vorgeschlagener Ansatz für eine erkannte Interoperabilitätsherausforderung bei PCZT und kein Standard, der derzeit bei Zcash allgemein existiert.
 
 https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-before-at-grant-submission/55931
 
@@ -295,238 +295,239 @@ https://forum.zcashcommunity.com/t/pczt-interoperability-test-suite-feedback-bef
 
 | # | Phase | Beschreibung |
 |---|---|---|
-| 1 | Ersteller | Initialisiert das PCZT mit globalen Transaktionsmetadaten, einschließlich Transaktionsversionen, Consensus-Branch-IDs und Pool-Flags. |
-| 2 | Konstrukteur | Füllt die Transaktion mit vorgesehenen Eingaben und Ausgaben über transparente, Sapling-, Orchard- oder Ironwood-Pools hinweg. |
-| 3 | IO Finalizer | Erklärt den Satz der Eingaben und Ausgaben für vollständig, berechnet Binding-Signature-Schlüssel und signiert erforderlichenfalls Dummy-Ausgaben. |
-| 4 | Updater | Fügt erforderliche Kontextdaten für nachfolgende Teilnehmer an, beispielsweise vollständige Anzeigeschlüssel, Anchors und Merkle-Witnesses. |
-| 5 | Prover und Signer | Führt die Erzeugung von Zero-Knowledge-Beweisen und kryptografische Signierung aus. In modernen PCZT-Versionen sind diese beiden Aufgaben vollständig unabhängig und können nacheinander oder parallel erfolgen. |
-| 6 | Combiner | Führt mehrere PCZT-Instanzen deterministisch zusammen, wenn unterschiedliche Geräte gleichzeitig an Aspekten derselben Transaktion arbeiten. Zusammenführungsregeln erfordern eine strikte Konfliktauflösung, um versehentlichen Datenverlust zu verhindern. |
-| 7 | Spend Finalizer & Extractor | Validiert alle erforderlichen kryptografischen Elemente, entfernt Kontextmetadaten der Zwischenstufe und erzeugt die finalisierte Zcash-Transaktion, die zur Übertragung an das Netzwerk bereit ist. |
+| 1 | Ersteller | Initialisiert das PCZT mit globalen Transaktionsmetadaten, darunter Transaktionsversionen, IDs der Consensus-Zweige und Pool-Flags. |
+| 2 | Konstruktor | Befüllt die Transaktion mit den vorgesehenen Eingaben und Ausgaben über transparente, Sapling-, Orchard- oder Ironwood-Pools hinweg. |
+| 3 | IO-Abschließer | Erklärt die Eingaben und Ausgaben für vollständig, berechnet Binding-Signaturschlüssel und signiert bei Bedarf Dummy-Ausgaben. |
+| 4 | Aktualisierer | Fügt Kontextdaten für nachfolgende Beteiligte hinzu, etwa vollständige Viewing Keys, Anker und Merkle-Witnesses. |
+| 5 | Beweiserzeuger und Signierer | Führt die Erzeugung von Zero-Knowledge-Beweisen und die kryptografische Signierung aus. Bei modernen PCZT-Versionen sind diese Aufgaben vollständig unabhängig voneinander und können nacheinander oder parallel erfolgen. |
+| 6 | Kombinierer | Führt mehrere PCZT-Instanzen deterministisch zusammen, wenn verschiedene Geräte gleichzeitig an Teilen derselben Transaktion arbeiten. Für das Zusammenführen gelten strenge Regeln zur Konfliktlösung, damit nicht versehentlich Daten verloren gehen. |
+| 7 | Ausgaben-Abschließer und Extraktor | Validiert alle erforderlichen kryptografischen Elemente, entfernt intermediäre Kontextmetadaten und erstellt die abgeschlossene Zcash-Transaktion, die für die Übertragung ins Netzwerk bereit ist. |
 
 ## Hardware-Wallet-Implementierungen in der Praxis
 
 ### Auf einen Blick
 
-| Gerät   | Was die Begleit-Wallet erhält              | Was auf dem Gerät bleibt          | Übertragung      |
+| Gerät   | Was die Begleitsoftware erhält              | Was auf dem Gerät verbleibt          | Übertragung      |
 |----------|------------------------------------------|-----------------------------------|----------------|
-| Ledger   | UFVK / Orchard FVK, Adressen            | Ausgabebefugnis                | USB / BLE      |
-| Keystone | UFVK + Unified Address                   | Seed / Ausgabeschlüssel              | QR (Air Gap)|
+| Ledger   | UFVK / Orchard FVK, Adressen            | Ausgabeberechtigung                | USB / BLE      |
+| Keystone | UFVK + Unified Address                   | Seed / Ausgabeschlüssel              | QR (netzwerkfern)|
 | Hito     | UFVK, Unified Address, Seed-Fingerabdruck  | Seed und private Ausgabeschlüssel    | QR / lokal     |
 
-Mehrere Hardware-Wallet-Implementierungen wurden entwickelt, um zu untersuchen, wie abgeschirmte Zcash-Transaktionen unterstützt werden können, während sensible Ausgabeschlüssel von der Begleit-Wallet isoliert bleiben. Ledger, Keystone und Hito repräsentieren unterschiedliche Ansätze zur Integration hardwarebasierter Schlüsselabsicherung in den Zcash-Transaktionsablauf.
+
+Es wurden mehrere Hardware-Wallet-Implementierungen entwickelt, um zu erproben, wie Zcash abgeschirmte Transaktionen unterstützt werden können, während sensible Ausgabeschlüssel von der Begleit-Wallet isoliert bleiben. Ledger, Keystone und Hito stehen für unterschiedliche Ansätze, den hardwarebasierten Schlüsselschutz in den Zcash-Transaktionsablauf einzubinden.
 
 ![Real world hardware wallet implementations](/content-images/hardware-wallet-implementations.webp)
 
-Um zu verstehen, wie sie abgeschirmte Gelder schützen, ist es wichtig, zwischen Ausgabeschlüsseln und Anzeigeschlüsseln zu unterscheiden. Bei allen dreien folgt die Aufteilung derselben Form:
+Um zu verstehen, wie sie abgeschirmte Gelder schützen, muss man zwischen Ausgabeschlüsseln und Viewing Keys unterscheiden. Bei allen drei Geräten folgt die Aufteilung demselben Muster:
 
 | Gerät | Was die Begleit-App erhalten kann | Was auf dem Gerät geschützt bleibt |
 |---|---|---|
-| Ledger | UFVK / Orchard FVK, Adressen und öffentliche Informationen | Ausgabebefugnis / privates Schlüsselmaterial |
+| Ledger | UFVK / Orchard FVK, Adressen und öffentliche Informationen | Ausgabeberechtigung / privates Schlüsselmaterial |
 | Keystone | UFVK + Unified Address | Seed / Ausgabeschlüssel |
 | Hito | UFVK, Unified Address, Seed-Fingerabdruck und Netzwerkinformationen | Seed und private Ausgabeschlüssel |
 
-### Ledger als Hardware-Signierumgebung
+### Ledger als Signierumgebung für Hardware
 
-Ledger ist ein Hardware-Wallet-Unternehmen. Seine Geräte basieren auf einem Secure Element, einem speziellen Chip, der privates Schlüsselmaterial speichert und es physisch vom Rest des Geräts sowie von allem damit Verbundenen isoliert. Dieses Secure Element ist der Grund, weshalb ein Ledger-Gerät für Cold Storage vertrauenswürdig ist. Das bedeutet: Selbst wenn der damit verbundene Computer oder das Telefon kompromittiert ist, können die Schlüssel im Secure Element nicht extrahiert werden.
+Ledger ist ein Hardware-Wallet-Unternehmen. Seine Geräte basieren auf einem Secure Element, einem speziellen Chip, der privates Schlüsselmaterial speichert und physisch vom Rest des Geräts sowie von allem, was daran angeschlossen ist, isoliert. Dieses Secure Element ist der Grund, warum ein Ledger-Gerät für die Offline-Speicherung vertrauenswürdig ist. Selbst wenn also der angeschlossene Computer oder das Telefon kompromittiert ist, können die im Secure Element gespeicherten Schlüssel nicht ausgelesen werden.
 
-Allein ist ein Ledger-Gerät jedoch hinsichtlich einer bestimmten Kryptowährung leer. Es benötigt eine darauf installierte Anwendung, die mit der spezifischen Kryptografie dieser Währung umgehen kann.
+Ein Ledger-Gerät ist für sich genommen jedoch in Bezug auf eine bestimmte Kryptowährung funktionslos. Darauf muss eine Anwendung installiert sein, die mit der spezifischen Kryptografie dieser Währung umgehen kann.
 
-Ein Ledger-Gerät ist hinsichtlich einer bestimmten Kryptowährung leer und benötigt daher eine Anwendung, die die Kryptografie dieser Währung beherrscht. Für Zcash gab es zwei Generationen:
+Ein Ledger-Gerät ist in Bezug auf eine bestimmte Kryptowährung funktionslos und braucht daher eine Anwendung, die mit der Kryptografie dieser Währung umgehen kann. Für Zcash gab es zwei Generationen:
 
-- die ursprüngliche, von Zondax entwickelte App „Zcash Shielded“, die mit Begleit-Wallets wie Zkool verwendet wurde und am 5. November 2026 eingestellt wird, und
-- die neuere App Zcash von Ledger (3.9.4+), die nativ von Ledger Wallet Desktop 4.21+ für abgeschirmtes ZEC von Ironwood verwendet wird.
+- Die ursprüngliche von Zondax entwickelte App „Zcash Shielded“, die mit Begleit-Wallets wie Zkool verwendet wurde und zum 5. November 2026 eingestellt wird, und
+- die neuere App Zcash von Ledger (3.9.4+), die von Ledger Wallet Desktop 4.21+ nativ für abgeschirmte Ironwood-ZEC verwendet wird.
 
-Das unten beschriebene Modell der Schlüsselisolierung gilt für beide.
+Das folgende Modell der Schlüsselisolierung gilt für beide.
 
-Zkool ist die Begleit-Wallet auf deinem Telefon oder Computer, die mit dieser App kommuniziert. Sie erstellt die Transaktion, sendet sie an Ledger, die App Zondax auf dem Gerät signiert sie anschließend und sendet die Signatur zurück.
+Zkool ist die Begleit-Wallet auf deinem Telefon oder Computer, die mit dieser App kommuniziert. Sie erstellt die Transaktion und sendet sie an den Ledger. Die Zondax-App auf dem Gerät signiert sie dann und sendet die Signatur zurück.
 
-Zondax ist also die auf der Hardware laufende Software, während Zkool die außerhalb laufende Software ist, die die App von Zondax zur Kommunikation mit dem Gerät verwendet.
+Zondax ist also die Software, die auf der Hardware läuft; Zkool ist die Software, die außerhalb davon läuft und über die App von Zondax mit dem Gerät kommuniziert.
 
-### Was verlässt Ledger?
+### Was verlässt den Ledger?
 
-Die Zcash-Software von Ledger enthält eine spezielle Funktion zum Exportieren des Anzeigeschlüssels der Wallet, also des Schlüssels, mit dem Software Guthaben und Transaktionen sehen kann, ohne etwas ausgeben zu können.
+Die Software von Ledger Zcash enthält eine spezielle Funktion zum Exportieren des Viewing Keys der Wallet. Mit diesem Schlüssel kann Software Guthaben und Transaktionen einsehen, ohne etwas ausgeben zu können.
 
 Diese Funktion kann eines von zwei Dingen zurückgeben:
 
-- einen Unified Full Viewing Key (UFVK), den vollständigen Anzeigeschlüssel für alle abgeschirmten Pools von Zcash gleichzeitig, oder
+- einen Unified Full Viewing Key (UFVK), der als vollständiger Viewing Key alle abgeschirmten Pools von Zcash gleichzeitig abdeckt, oder
 - einen Orchard Full Viewing Key (FVK)
 
-Unabhängig davon, was ausgegeben wird, handelt es sich stets nur um einen Anzeigeschlüssel. Ganz gleich, welche Version angefordert wird: Diese Funktion kann niemals die eine Information zurückgeben, mit der jemand tatsächlich Gelder bewegen könnte – den Ausgabeschlüssel.
+In beiden Fällen handelt es sich bei der Ausgabe immer nur um einen Viewing Key. Unabhängig davon, welche Version angefordert wird: Die Funktion kann nicht die eine Information zurückgeben, mit der jemand tatsächlich Gelder bewegen könnte – den Ausgabeschlüssel.
 
-Genau darum geht es bei dieser Konstruktion: Sie ist so ausgelegt, dass sie nur etwas exportieren kann, das sicher an eine Begleit-App weitergegeben werden kann.
+Genau das ist der Zweck des Designs: Es ist so aufgebaut, dass ausschließlich etwas exportiert werden kann, das sich sicher an eine Begleit-App weitergeben lässt.
 
-Die Schlüsselhierarchie von Zcash ist so aufgebaut, dass der Ausgabeschlüssel für jeden abgeschirmten Pool zwei getrennte Dinge ableitet:
+Die Schlüsselhierarchie von Zcash ist so strukturiert, dass der Ausgabeschlüssel für jeden abgeschirmten Pool zwei separate Dinge ableitet:
 
-- einen ausgabeautorisierenden Schlüssel und
-- einen vollständigen Anzeigeschlüssel
+- einen Schlüssel, der Ausgaben autorisiert, und
+- einen vollständigen Viewing Key
 
-Der FVK kann anschließend weitere anzeigebezogene Funktionen ableiten, aber dieser Ableitungspfad führt zu keinem Zeitpunkt zurück zur Ausgabebefugnis. Sobald ein Schlüssel in den Anzeigezweig der Hierarchie abgezweigt ist, bleibt er dort und kann nicht verwendet werden, um den Schlüssel für die Ausgabebefugnis wiederherzustellen, aus dem er hervorging.
+Der FVK kann weitere Viewing-Berechtigungen ableiten, doch dieser Ableitungspfad führt zu keinem Zeitpunkt zurück zur Ausgabeberechtigung. Sobald sich ein Schlüssel in der Hierarchie in den Viewing-Zweig aufgespalten hat, bleibt er dort und kann nicht dazu verwendet werden, den Ausgabeberechtigungsschlüssel zu rekonstruieren, von dem er abgeleitet wurde.
 
-Ironwood folgt demselben Muster, da es die zugrunde liegende Schlüssel- und Note-Konstruktion von Orchard wiederverwendet. Auf Konsensebene ist es jedoch ein eigenständiger Pool mit eigenem Commitment-Baum und eigener Nullifier-Menge. Das bedeutet, dass ein UFVK tatsächlich ein Bündel poolbezogener Anzeigeschlüssel ist – transparent, Sapling, Orchard und jetzt Ironwood – und kein einzelner flacher Schlüssel.
+Ironwood folgt demselben Muster, da es die zugrunde liegenden Schlüssel und die Notizenkonstruktion von Orchard wiederverwendet. Auf Konsensebene ist es jedoch ein eigener Pool mit eigenem Commitment-Baum und eigener Nullifier-Menge. Das bedeutet, eine UFVK ist tatsächlich ein Bündel poolbezogener Viewing Keys (transparent, Sapling, Orchard und nun Ironwood) und kein einzelner, flacher Schlüssel.
 
-Ein vor der Aktivierung von Ironwood exportierter UFVK enthält keinen Anzeigeschlüssel für Ironwood, da dieser Pool damals noch nicht existierte. Genau deshalb mussten Wallets aktualisiert werden, um nach dem Upgrade NU6.3 Ironwood-fähige UFVKs zu erkennen und abzuleiten.
+Eine UFVK, die vor der Aktivierung von Ironwood exportiert wurde, enthält keinen Ironwood-Viewing-Key, da dieser Pool damals noch nicht existierte. Deshalb mussten Wallets aktualisiert werden, um nach dem Upgrade auf NU6.3 UFVKs zu erkennen und abzuleiten, die Ironwood unterstützen.
 
-### Was bleibt auf Ledger?
+### Was verbleibt auf Ledger?
 
-Die Ausgabebefugnis bleibt auf dem Gerät.
+Die Ausgabeberechtigung bleibt auf dem Gerät.
 
-Der Signer Ledger erhält eine Transaktion/ein PCZT vom Host und erzeugt die Ausgabenautorisierungssignatur abhängig davon, aus welchem Pool die Transaktion ausgibt – dem Pool Ironwood, da die aktuelle Integration von Ledger nur Ironwood unterstützt. Die Signatur wird anschließend auf dem Gerät erzeugt, und der Host erhält nur die Signatur, nicht den privaten Ausgabeschlüssel.
+Der Ledger-Signierer erhält vom Host eine Transaktion/PCZT und erstellt die Ausgabeberechtigungssignatur, abhängig davon, aus welchem Pool die Transaktion ausgibt (dem Ironwood-Pool, denn die aktuelle Integration von Ledger unterstützt nur Ironwood). Die Signatur wird dann auf dem Gerät erstellt, und der Host erhält nur die Signatur, nicht den privaten Ausgabeschlüssel.
 
-Dies entspricht auch dem allgemeinen Sicherheitsmodell von Ledger. Sein Secure Element isoliert privates Schlüsselmaterial, und die Sicherheitsanforderungen für Anwendungen von Ledger verbieten Anwendungen ausdrücklich, diese Secrets an den Host weiterzugeben.
+Das entspricht auch dem allgemeinen Sicherheitsmodell von Ledger. Dessen Secure Element isoliert privates Schlüsselmaterial, und die Anwendungssicherheitsanforderungen von Ledger verbieten ausdrücklich, dass Anwendungen solche Geheimnisse an den Host weitergeben.
 
-Der Signer von Ledger kann FVK/UFVK exportieren und unabhängig davon Transaktionen signieren. Die beiden Funktionen werden über getrennte Funktionen bereitgestellt und nicht in einer zusammengefasst.
+Der Signierer von Ledger kann den FVK/UFVK exportieren und unabhängig davon Transaktionen signieren. Diese beiden Funktionen werden über getrennte Funktionen bereitgestellt und nicht miteinander gebündelt.
 
 ### Was bedeutet das in der Praxis?
 
-Angenommen, dein Ledger enthält 10 ZEC.
+Angenommen, deine Ledger enthält 10 ZEC.
 
-Die Begleit-Wallet kann den UFVK haben und deshalb feststellen: „Diese Wallet hat 10 ZEC erhalten.“ Sie kann Transaktionen und Guthaben scannen und anzeigen.
+Die Begleit-Wallet kann die UFVK besitzen und dadurch feststellen: „Diese Wallet hat 10 ZEC erhalten.“ Sie kann Transaktionen und Guthaben scannen und anzeigen.
 
-Wenn jedoch jemand die Begleit-Wallet kompromittiert, ermöglicht der UFVK allein nicht die Erstellung der Ausgabenautorisierungssignatur.
+Wird die Begleit-Wallet jedoch kompromittiert, kann ein Angreifer mit der UFVK allein keine Ausgabeberechtigungssignatur erstellen.
 
-Der Zweck der getrennten Ausgabenautorisierungssignatur besteht darin, eingeschränkten Geräten wie Hardware-Wallets zu ermöglichen, abgeschirmte Ausgaben zu autorisieren, ohne den vollständigen zk-SNARK-Beweis selbst ausführen zu müssen.
+Die separate Ausgabeberechtigungssignatur ermöglicht es eingeschränkten Geräten wie Hardware-Wallets, abgeschirmte Ausgaben zu autorisieren, ohne den vollständigen zk-SNARK-Beweis selbst erstellen zu müssen.
 
-### Anwendung Zondax Ledger; die Hardware-Wallet-Seite
+### Zondax Ledger-Anwendung; die Seite der Hardware-Wallet
 
 #### Was ist Zondax?
 
-Zondax ist ein externes Entwicklungsunternehmen, das die App Ledger Zcash entwickelt hat. Es handelt sich um die eigentliche Firmware-Anwendung, die auf Hardware von Ledger läuft und dem Gerät erst die Fähigkeit gibt, Zcash-Transaktionen zu verstehen und zu verarbeiten.
+Zondax ist ein unabhängiges Entwicklungsunternehmen, das die Ledger Zcash-App entwickelt hat. Sie ist die eigentliche Firmware-Anwendung, die auf Ledger-Hardware läuft und dem Gerät überhaupt erst ermöglicht, Zcash-Transaktionen zu verstehen und zu verarbeiten.
 
-Zondax ist ein externer Entwickler. Hardware von Ledger besitzt keine angeborene Fähigkeit zur Verarbeitung von Zcash-Transaktionen; diese Fähigkeit stammt vollständig aus der Software von Zondax.
+Zondax ist ein externer Entwickler. Ledger-Hardware kann Zcash-Transaktionen nicht von sich aus verarbeiten; diese Fähigkeit erhält sie ausschließlich durch die Software von Zondax.
 
 ### Ursprüngliche Implementierung von Zcash Ledger
 
-Das App-Repository Ledger Zcash von Zondax enthält die Software, die auf einem Ledger-Gerät läuft. Die App konzentrierte sich ursprünglich auf abgeschirmte Sapling-Transaktionen, bevor Orchard als primärer abgeschirmter Pool von Zcash existierte. Die Unterstützung von Sapling war daher der Umfang dessen, was ein Ledger-Gerät mit abgeschirmtem ZEC tun konnte.
+Das Repository der Ledger-Zcash-App von Zondax enthält die Software, die auf einem Ledger-Gerät läuft. Die App konzentrierte sich anfangs auf abgeschirmte Transaktionen von Sapling, bevor Orchard als primärer abgeschirmter Pool von Zcash existierte. Daher beschränkte sich die Unterstützung von Sapling auf das, was ein Ledger-Gerät mit abgeschirmten ZEC tun konnte.
 
-Ihre Architektur verdeutlicht die Trennung: Die Host-/Begleitseite bereitet Transaktionsinformationen vor, während Ledger sensible Schlüsseloperationen und die Signierung übernimmt.
+Ihre Architektur veranschaulicht die Trennung: Die Host- und Begleitseite bereitet Transaktionsinformationen vor, während das Ledger sensible Schlüsseloperationen und die Signierung übernimmt.
 
-Bereits in dieser frühesten Version der Hardware-Wallet-Unterstützung für Zcash waren die Kernprinzipien – Erstellung und Beweisen auf dem Host, anschließend isolierte Signierung auf dem Gerät – Teil des Designs.
+Schon in dieser frühesten Version der Unterstützung von Hardware-Wallets für Zcash galten die zentralen Prinzipien: Die Transaktion wird auf dem Host erstellt und der Beweis dort erzeugt; signiert wird isoliert auf dem Gerät.
 
-### Entwicklung in Richtung Orchard
+### Weiterentwicklung in Richtung Orchard
 
-Die Arbeit von Ledger entwickelte sich in Richtung Orchard + PCZT. Dies war ein bedeutender Übergang und kein geringfügiges Update, da Orchard ein anderes Beweissystem verwendet – Halo 2 gegenüber Groth16 von Sapling – sowie eine andere Note- und Schlüsselkonstruktion. Die Erweiterung einer nur für Sapling bestimmten Firmware für die Signierung von Orchard erforderte daher neue kryptografische Grundlagen auf der Geräteseite und nicht lediglich einen Firmware-Patch.
+Die Arbeit von Ledger verlagerte sich in Richtung Orchard + PCZT. Das war ein bedeutsamer Übergang und kein kleines Update, denn Orchard verwendet ein anderes Beweissystem (Halo 2 statt Groth16 von Sapling) sowie eine andere Notizen- und Schlüsselstruktur. Um Firmware, die nur Sapling unterstützt, auf die Signierung von Orchard auszuweiten, waren deshalb neue kryptografische Grundlagen auf dem Gerät nötig und nicht bloß ein Firmware-Patch.
 
-Als sich Zcash jedoch in Richtung Ironwood bewegte, verlagerten Zondax und Ledger ihren Entwicklungsschwerpunkt darauf, Ironwood direkt zu unterstützen, statt zunächst eine Orchard-Implementierung abzuschließen, nur um sie anschließend für Ironwood neu zu gestalten. Dies stellt eine weitere Entwicklungsstufe der Ledger-Implementierung dar, da Ironwood auf der kryptografischen Architektur von Orchard aufbaut und zugleich einen separaten abgeschirmten Pool sowie zusätzliche Protokolländerungen einführt.
+Als sich Zcash in Richtung Ironwood weiterentwickelte, verlagerten Zondax und Ledger ihren Entwicklungsschwerpunkt jedoch darauf, Ironwood direkt zu unterstützen, statt erst eine reine Orchard-Implementierung fertigzustellen und sie anschließend für Ironwood neu zu entwerfen. Damit erreichte die Ledger-Implementierung eine weitere Entwicklungsstufe: Ironwood baut auf der kryptografischen Architektur von Orchard auf und führt zugleich einen separaten abgeschirmten Pool und zusätzliche Protokolländerungen ein.
 
-### Was innerhalb dieser Ledger-App geschieht
+### Was geschieht in dieser Ledger-App?
 
-Der resultierende Ablauf wird wie folgt beschrieben:
+Der resultierende Ablauf sieht so aus:
 
 1. Der Host erstellt ein PCZT.
 2. Der Host sendet die relevanten Transaktionsinformationen an das Ledger-Gerät.
-3. Das Gerät erzeugt die ausgabeautorisierenden Signaturen für Orchard.
-4. Der Host übernimmt alles Folgende, einschließlich Binding-Signatur und finaler Transaktionszusammenstellung.
+3. Das Gerät erstellt die Ausgabeberechtigungssignaturen für Orchard.
+4. Der Host übernimmt alle nachfolgenden Schritte, einschließlich der Binding-Signatur und des endgültigen Zusammenstellens der Transaktion.
 
-Die innerhalb von Ledger laufende App sieht oder erzeugt niemals etwas über die Ausgabenautorisierungssignatur selbst hinaus. Die gesamte rechenintensive oder datenhungrige Arbeit – Beweisen, Binding, Zusammenstellung – bleibt auf dem Host, dem kein Schlüsselmaterial anvertraut werden muss.
+Die App auf dem Ledger sieht und erzeugt ausschließlich die Ausgabeberechtigungssignatur. Die rechen- und datenintensiven Aufgaben wie Beweiserzeugung, Binding und Zusammenstellung bleiben vollständig auf dem Host, dem dafür kein Schlüsselmaterial anvertraut werden muss.
 
 ### Native abgeschirmte Integration von Ledger; Ledger Wallet Desktop
 
-Die neueste Zcash-Integration von Ledger bietet ein konkretes Beispiel dafür, wie die Erstellung abgeschirmter Transaktionen und die sicherheitskritische Signierung zwischen Begleitsoftware und Hardware-Wallet getrennt werden können.
+Die neueste Zcash-Integration von Ledger zeigt konkret, wie sich die Erstellung abgeschirmter Transaktionen und die sicherheitskritische Signierung zwischen Begleitsoftware und Hardware-Wallet aufteilen lassen.
 
-Mit Ledger Wallet Desktop 4.21+ und der Geräte-App Zcash 3.9.4+ können Benutzer abgeschirmte Ironwood von ZEC direkt über Ledger Wallet Desktop senden und empfangen. Die Integration unterstützt private-zu-private Übertragungen, Abschirmung aus dem transparenten Pool, Entschirmung in den transparenten Pool, private Empfangsadressen und Memos. Transaktionen werden auf dem Gerät Ledger geprüft und signiert, statt sich ausschließlich auf die vom Computer dargestellten Informationen zu verlassen.
+Mit Ledger Wallet Desktop 4.21+ und der Geräte-App 3.9.4+ von Zcash können Benutzer abgeschirmte Ironwood-ZEC direkt über Ledger Wallet Desktop senden und empfangen. Die Integration unterstützt private Überweisungen zwischen abgeschirmten Adressen, das Abschirmen aus dem transparenten Pool, das Entschirmen in den transparenten Pool, private Empfangsadressen und Memos. Transaktionen werden auf dem Ledger-Gerät überprüft und signiert, statt sich ausschließlich auf die vom Computer angezeigten Informationen zu verlassen.
 
-Ein zentraler Teil dieser Architektur ist die Trennung von Anzeige- und Ausgabefunktionen. Bei der Synchronisierung des privaten Guthabens exportiert Ledger einen Unified Full Viewing Key (UFVK), der lokal auf dem Computer gespeichert wird. Der UFVK ermöglicht Ledger Wallet Desktop, relevante abgeschirmte Transaktionen zu erkennen und das Wallet-Guthaben zu bestimmen, verleiht jedoch keine Befugnis zur Ausgabe der Gelder. Die sicherheitskritische Ausgabebefugnis bleibt auf dem Gerät Ledger, das den abschließenden Signiervorgang ausführt. So entsteht eine klare Grenze zwischen dem Computer, der den Wallet-Zustand verwaltet und Transaktionen erstellt, und dem Hardware-Gerät, das die Fähigkeit zur Autorisierung von Ausgaben schützt.
+Ein zentraler Bestandteil dieser Architektur ist die Trennung von Viewing- und Ausgabefunktionen. Während der Synchronisierung privater Guthaben exportiert das Ledger einen Unified Full Viewing Key (UFVK), der lokal auf dem Computer gespeichert wird. Damit kann Ledger Wallet Desktop relevante abgeschirmte Transaktionen erkennen und das Wallet-Guthaben ermitteln. Die UFVK verleiht jedoch keine Berechtigung, Gelder auszugeben. Die sicherheitskritische Ausgabeberechtigung verbleibt auf dem Ledger-Gerät, das den abschließenden Signiervorgang ausführt. Dadurch entsteht eine klare Grenze: Der Computer verwaltet den Wallet-Zustand und erstellt Transaktionen; das Hardwaregerät schützt die Fähigkeit, Ausgaben zu autorisieren.
 
-Die aktuelle Integration ist allerdings ausdrücklich nur für Ironwood ausgelegt. Sie zeigt oder verwaltet über Ledger Wallet Desktop keine Gelder von Orchard oder Sapling. Historisch ist dies bedeutsam, weil die frühere Entwicklung von Ledger für Zcash mit abgeschirmter Unterstützung von Orchard verbunden war, bevor sich die Implementierung in Richtung des Protokolls Ironwood entwickelte.
+Die aktuelle Integration unterstützt allerdings ausschließlich Ironwood. Orchard- oder Sapling-Gelder werden über Ledger Wallet Desktop weder angezeigt noch verwaltet. Das ist historisch bedeutsam, weil die frühere Zcash-Entwicklung von Ledger mit der Unterstützung abgeschirmter Orchard-Transaktionen verbunden war, bevor sich die Implementierung in Richtung des Ironwood-Protokolls weiterentwickelte.
 
-Der Übergang unterstreicht auch die Bedeutung von Schlüssel- und Kontokompatibilität. Ledger verfügt über eine ältere Anwendung „Zcash Shielded“, die von Zondax entwickelt und von Integrationen wie YWallet und zkool verwendet wurde und nun eingestellt wird. Da diese ältere Anwendung ein anderes Ableitungsschema für abgeschirmte Konten verwendete, können ihre Sapling-Konten nicht einfach durch die neue Anwendung Ledger reproduziert werden.
+Der Übergang unterstreicht auch, wie wichtig die Kompatibilität von Schlüsseln und Konten ist. Ledger hat eine ältere Anwendung „Zcash Shielded“, die von Zondax entwickelt und von Integrationen wie YWallet und zkool verwendet wurde und nun eingestellt wird. Da diese ältere Anwendung für abgeschirmte Konten ein anderes Ableitungsschema verwendete, können ihre Sapling-Konten nicht einfach mit der neuen Ledger-Anwendung reproduziert werden.
 
-Die Integration veranschaulicht daher sowohl die Fortschritte als auch die verbleibenden Grenzen der Unterstützung abgeschirmter Hardware-Wallets. Ledger kann nun ein vollständiges Ironwood-Erlebnis bieten, bei dem die Begleitsoftware Wallet-Synchronisierung und Transaktionsvorbereitung übernimmt, während das Hardware-Gerät die Sicherheitsgrenze für Ausgaben bleibt.
+Die Integration veranschaulicht somit sowohl die Fortschritte als auch die verbleibenden Einschränkungen bei der Unterstützung abgeschirmter Hardware-Wallets. Ledger ermöglicht nun eine umfassende Ironwood-Nutzung: Die Begleitsoftware übernimmt die Wallet-Synchronisierung und Transaktionsvorbereitung, während das Hardwaregerät die Sicherheitsgrenze für Ausgaben bildet.
 
-Gleichzeitig zeigen historische Kontokompatibilität, die Unterstützung nur bestimmter abgeschirmter Pools, Beschränkungen der Hardware-Transaktionsgröße, Plattformbeschränkungen sowie die beim Parsen und Prüfen abgeschirmter Transaktionen auftretenden Rechen- und Firmwareeinschränkungen, dass die Hardware-Wallet-Unterstützung für Zcash nicht nur von Protokollfunktionen abhängt, sondern auch vom Design und den Ressourcen jeder einzelnen Implementierung.
+Gleichzeitig zeigen die Kompatibilität mit älteren Konten, die Unterstützung nur bestimmter abgeschirmter Pools, Begrenzungen der Transaktionsgröße, Plattformbeschränkungen sowie die Rechen- und Firmwarebeschränkungen beim Parsen und Überprüfen abgeschirmter Transaktionen: Die Unterstützung von Zcash durch Hardware-Wallets hängt nicht nur von den Protokollfunktionen ab, sondern auch vom Design und den Ressourcen jeder einzelnen Implementierung.
 
-### Zkool + Ledger — Nutzung der offiziellen App Zondax
+### Zkool + Ledger – die offizielle Zondax-App verwenden
 
-Als Nachfolger von Ywallet übernahm Zkool das Ziel des abgeschirmten Cold Signings, wählte jedoch einen anderen Weg dorthin – einen Weg, der direkt davon geprägt war, dass Kryptografie allein eine Integration nicht nutzbar macht, wenn die Signier-App nicht sicher verteilt werden kann.
+Als Nachfolger von Ywallet übernahm Zkool das Ziel der abgeschirmten Offline-Signierung, schlug dafür jedoch einen anderen Weg ein. Dieser wurde maßgeblich davon geprägt, dass Kryptografie allein eine Integration nicht nutzbar macht, wenn sich die Signier-App nicht sicher verteilen lässt.
 
 https://youtu.be/eagkCIv3BlQ?si=7w5YfLlRER77bASw
 
-### Nutzung der Anwendung Zondax durch Zkool
+### Verwendung der Zondax-Anwendung durch Zkool
 
-Zkool entschied sich für die offizielle, von Zondax entwickelte App Ledger Zcash anstelle der aufgegebenen proprietären Anwendung Ledger von Ywallet. Anstatt eine benutzerdefinierte App zu pflegen, die der Store von Ledger nicht akzeptieren würde, baute Zkool auf der App auf, die bereits akzeptiert und über das eigene Ökosystem von Ledger verteilt wurde.
+Zkool setzte zunehmend auf die offizielle Ledger Zcash-App von Zondax statt auf die aufgegebene proprietäre Ledger-Anwendung von Ywallet. Anstatt eine eigene App zu pflegen, die der Store von Ledger nicht akzeptieren würde, baute Zkool auf einer App auf, die bereits akzeptiert und über das eigene Ökosystem von Ledger verbreitet wurde.
 
-Diese Umstellung bedeutete, dass Benutzer sich zur Nutzung dieser Integration nicht mehr auf die Installation einer unsignierten benutzerdefinierten Anwendung Ledger verlassen mussten, da die App von Zondax offiziell über das Ökosystem von Ledger verteilt wurde.
+Durch diesen Wechsel mussten Benutzer nicht länger eine nicht signierte, benutzerdefinierte Ledger-Anwendung installieren, um die Integration zu nutzen, da die App von Zondax offiziell über das Ökosystem von Ledger verbreitet wurde.
 
-Diese Integration steht jedoch am 5. November 2026 vor einer wichtigen Änderung, wenn die Unterstützung der älteren App Zcash Shielded wie geplant endet, weil Ledger sie auslaufen lässt. Da die Integration Ledger von Zkool auf dieser Anwendung beruht, wirft die Änderung Fragen zur künftigen Verfügbarkeit der bestehenden Verbindung auf. Die genauen Auswirkungen auf Zkool hängen davon ab, ob es die ältere App außerhalb von Ledger Wallet weiterverwenden oder zu einer kompatiblen Alternative wechseln kann.
+Ledger legte den 5. November 2026 als Ende der Unterstützung für diese ältere Zcash Shielded-App fest und stellt sie schrittweise ein. Zkool bereitete sich darauf vor: [Version 6.30.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.30.0) (12. September 2026) ergänzte neben der Zondax-App die Unterstützung für die neue offizielle Zcash-App von Ledger. Wenn du ein Ledger-Konto erstellst, fragt Zkool jetzt, welche App auf dem Gerät läuft (Official oder Zondax). Ein Konto mit der Official-App deckt die transparenten und Ironwood-Pools ab: Zkool kann die UFVK vom Gerät importieren und signiert v6-Transaktionen mit der Official-App. Ein Konto mit der Zondax-App behält die ältere Kombination aus transparentem Pool und Sapling bei ([zkool2#1242](https://github.com/hhanh00/zkool2/pull/1242)).
 
 ### Unterstützte abgeschirmte Pools
 
-Laut dem Entwickler von Ywallet verwendete die Integration Ledger von Zkool die offizielle, von Zondax entwickelte Anwendung Ledger und unterstützte sowohl transparentes als auch abgeschirmtes Zcash. Die abgeschirmte Unterstützung war jedoch auf Sapling beschränkt und unterstützte Orchard nicht; hinzu kamen weitere Integrationsbeschränkungen wie höchstens fünf Eingaben und Ausgaben jedes Typs sowie fehlende Kompatibilität mit Ledger Live.
+Laut dem Entwickler von Ywallet verwendete die Integration von Zkool mit Ledger die offizielle, von Zondax entwickelte Anwendung Ledger und unterstützte sowohl transparente als auch abgeschirmte Zcash. Die Unterstützung für abgeschirmte Transaktionen war jedoch auf Sapling beschränkt; Orchard wurden nicht unterstützt. Hinzu kamen weitere Einschränkungen, etwa höchstens fünf Eingaben und Ausgaben pro Typ sowie die fehlende Kompatibilität mit Ledger Live.
 
-Diese Einschränkung spiegelte den Umfang der zugrunde liegenden Implementierung Zondax Ledger zu diesem Zeitpunkt wider. Die frühere Arbeit Ledger von Zondax bot Unterstützung für Sapling, und die anschließende Veröffentlichung der App Zcash Shielded Ledger im Jahr 2024 schloss zunächst Orchard und Unified Addresses aus. Eine auf dieser Anwendung aufbauende Integration übernahm daher die Fähigkeiten und Grenzen der Hardware-Wallet-Implementierung, von der sie abhing.
+Diese Einschränkung spiegelte den damaligen Entwicklungsstand der zugrunde liegenden Implementierung von Zondax Ledger wider. Die frühere Arbeit von Zondax mit Ledger bot Unterstützung für Sapling. Bei der anschließenden Veröffentlichung der Zcash Shielded-Ledger-App im Jahr 2024 fehlten zunächst Orchard und Unified Addresses. Eine Integration, die auf dieser Anwendung aufbaute, übernahm daher die Funktionen und Einschränkungen der zugrunde liegenden Hardware-Wallet-Implementierung.
 
-Die Situation entwickelte sich später mit der Veröffentlichung der dedizierten App Zcash Shielded Ledger im November 2024 weiter. Zondax erklärte, dass die Anwendung offiziell über Ledger Live veröffentlicht worden sei, und veröffentlichte später Integrationsanleitungen sowie Pakete Rust und JavaScript, damit andere Wallets sie integrieren konnten. Zum Start kommunizierte die Anwendung jedoch ausschließlich mit Zecwallet Lite Desktop, während breitere Wallet-Integrationen noch entwickelt wurden.
+Die Situation änderte sich später mit der Veröffentlichung der dedizierten Zcash Shielded-Ledger-App im November 2024. Zondax erklärte, die Anwendung sei offiziell über Ledger Live veröffentlicht worden, und veröffentlichte später Integrationsanleitungen sowie Rust- und JavaScript-Pakete, damit andere Wallets sie integrieren konnten. Zum Start kommunizierte die Anwendung jedoch ausschließlich mit Zecwallet Lite Desktop; umfassendere Wallet-Integrationen befanden sich noch in der Entwicklung.
 
-Die nächste Stufe war die Entwicklung der neueren, auf Rust basierenden Anwendung Zcash von Ledger. Bis Juni 2026 berichtete Ledger, dass UFVK-Sharing und die Erzeugung von Orchard Unified Address umgesetzt worden seien, während die Signierung von Orchard-Transaktionen und ClearSign noch entwickelt würden. Ledger erklärte außerdem, dass die Arbeit mit der Protokolländerung auf den Weg Ironwood übertragen werde.
+Der nächste Schritt war die Entwicklung der neueren, auf Rust basierenden Zcash-Anwendung von Ledger. Im Juni 2026 berichtete Ledger, dass das Teilen von UFVKs und die Erzeugung von Orchard Unified Addresses implementiert worden waren, während die Transaktionssignierung mit Orchard und ClearSign noch in Arbeit waren. Ledger erklärte außerdem, dass die Arbeit mit dem Protokollwechsel in den Ironwood-Pfad übernommen würde.
 
-Ironwood erforderte anschließend Updates im gesamten Wallet-Ökosystem von Zcash. Zkool veröffentlichte ab Version 6.24.0 Unterstützung für die Migration von Orchard zu Ironwood und verfeinerte die Migration und Transaktionspipeline in späteren Versionen weiter. Ledger führte separat die Signierung PCZT v2 am 27. Juli in seiner neuen Anwendung zusammen, obwohl die Implementierung bis zum 20. August weder die Prüfung von Ledger noch den Rollout über Ledger Live abgeschlossen hatte. Dieser Meilenstein wurde inzwischen ausgeliefert; Ledger Wallet Desktop 4.21+ bietet nun direkt native Unterstützung für Ironwood.
+Ironwood machte anschließend Aktualisierungen im gesamten Zcash-Wallet-Ökosystem erforderlich. Zkool führte ab Version 6.24.0 Unterstützung für die Migration von Orchard zu Ironwood ein und verfeinerte die Migration sowie die Transaktionsverarbeitung in späteren Versionen weiter. Ledger integrierte separat am 27. Juli die Signierung mit PCZT v2 in seine neue Anwendung. Bis zum 20. August waren jedoch weder die Überprüfung durch Ledger noch die Einführung über Ledger Live abgeschlossen. Diese Neuerung ist inzwischen verfügbar: Ledger Wallet Desktop 4.21+ bietet nun native Unterstützung für Ironwood.
 
 https://forum.zcashcommunity.com/t/a-path-forward-for-ledger-and-zcash/50951/177
 
-Die Entwicklung ist daher besser nicht als ein einzelnes Upgrade von Zondax auf Ironwood zu verstehen, sondern als mehrere zusammenhängende Entwicklungen: die ursprüngliche auf Sapling fokussierte Implementierung Zondax, die App Zcash Shielded Ledger von 2024, die neuere Anwendung Ledger Rust mit Unterstützung für Orchard und PCZT, die eigene native Integration von Ledger in Ledger Wallet Desktop und parallele Aktualisierungen von Wallets wie Zkool, während das Ökosystem zu Ironwood überging.
+Die Entwicklung lässt sich daher besser als mehrere zusammenhängende Neuerungen verstehen und nicht als einzelnes Upgrade von Zondax auf Ironwood: die ursprüngliche, auf Sapling ausgerichtete Zondax-Implementierung, die Zcash Shielded-Ledger-App von 2024, die neuere Anwendung Ledger Rust mit Unterstützung für Orchard und PCZT, die native Integration von Ledger in Ledger Wallet Desktop sowie parallele Aktualisierungen für Wallets wie Zkool im Zuge des Übergangs des Ökosystems zu Ironwood.
 
-### Aktuelle Geräte- und Plattformunterstützung von Ledger für Zcash
+### Aktuelle Unterstützung von Ledger-Geräten und Plattformen für Zcash
 
-Die Unterstützung von Zcash auf Ledger hängt ab von:
+Die Unterstützung für Zcash auf Ledger hängt ab von
 
 - dem Gerätemodell
 - der installierten Anwendung
-- der für die Verwaltung verwendeten Plattform und
-- davon, ob die Transaktion transparent oder abgeschirmt ist.
+- der verwendeten Verwaltungsplattform und
+- der Frage, ob die Transaktion transparent oder abgeschirmt ist.
 
-Stand 21. Juli 2026, dem letzten Update von Ledger, wird die App Zcash Shielded auf Nano S Plus, Stax und Flex unterstützt, jedoch noch nicht auf Nano X oder Nano Gen5.
+Am 21. Juli 2026 (dem letzten Aktualisierungsdatum von Ledger) wird die Zcash Shielded-App auf Nano S Plus, Stax und Flex unterstützt, jedoch noch nicht auf Nano X oder Nano Gen5.
 
-Nano X und die anderen Modelle außer dem ursprünglichen Nano S können weiterhin die klassische App Zcash verwenden. Sie unterstützt transparente Transaktionen und die Ausgabe abgeschirmter Gelder an transparente Adressen – das Entschirmen –, jedoch keine Signierung abgeschirmter-zu-abgeschirmter Übertragungen. Das ursprüngliche Nano S unterstützt keine der beiden Apps, weil Ledger die Unterstützung für das Gerät auslaufen lässt und die neueste App Zcash darauf nicht verfügbar ist. Geräte verbinden sich mit Ledger Wallet, ehemals Ledger Live, der Begleitanwendung von Ledger, die auf dem Desktop für Windows, macOS und Linux sowie mobil für iOS und Android verfügbar ist.
+Nano X und die anderen Modelle mit Ausnahme des ursprünglichen Nano S können weiterhin die klassische Zcash-App verwenden. Sie unterstützt transparente Transaktionen und das Ausgeben abgeschirmter Mittel an transparente Adressen (Deshielding), aber keine Signierung von abgeschirmten Transaktionen an abgeschirmte Adressen. Das ursprüngliche Nano S unterstützt keine der beiden Apps, da Ledger die Unterstützung für das Gerät auslaufen lässt und die neueste Zcash-App darauf nicht verfügbar ist. Die Geräte verbinden sich mit Ledger Wallet (früher Ledger Live), der Begleitanwendung von Ledger. Sie ist als Desktop-Version für Windows, macOS und Linux sowie mobil für iOS und Android verfügbar.
 
-Ledger hat native abgeschirmte Zcash in Ledger Wallet Desktop hinzugefügt, aufgebaut auf dem Pool Ironwood, wodurch keine separate Begleit-Wallet mehr benötigt wird. Abgeschirmtes ZEC wird in der mobilen App von Ledger für iOS und Android noch nicht unterstützt, eine mobile Unterstützung ist jedoch für eine spätere Veröffentlichung geplant.
+Ledger hat native Unterstützung für abgeschirmte Zcash zu Ledger Wallet Desktop hinzugefügt, die auf dem Ironwood-Pool basiert. Damit entfällt die Notwendigkeit einer separaten Begleit-Wallet. Die mobile App von Ledger für iOS und Android unterstützt abgeschirmte ZEC noch nicht; die Unterstützung für Mobilgeräte ist jedoch für eine künftige Version geplant.
 
-Außerhalb der eigenen Software von Ledger hängt abgeschirmte Nutzung von einer kompatiblen Begleit-Wallet und deren unterstützten Plattformen ab. Da Ledger die Unterstützung für Ironwood weiter ausbaut, hängt die Kompatibilität von Gerätemodell, Firmware, App-Version und Betriebssystem ab. Allgemeine Unterstützung von Zcash garantiert also nicht unbedingt Kompatibilität.
+Außerhalb der eigenen Software von Ledger hängt die Nutzung abgeschirmter Funktionen von einer kompatiblen Begleit-Wallet und den von ihr unterstützten Plattformen ab. Während Ledger die Unterstützung für Ironwood weiter ausbaut, hängt die Kompatibilität vom Gerätemodell, der Firmware, der App-Version und dem Betriebssystem ab. Eine allgemeine Unterstützung von Zcash garantiert daher nicht zwangsläufig die Kompatibilität.
 
 https://www.youtube.com/watch?v=VhkhfG0LCFs
 
-### Cold Signing von YWallet; ein früherer Ansatz
+### YWallet Cold Signing: ein früherer Ansatz
 
-Ywallet ist eine Begleit-Wallet, die von Ledger und Zondax getrennt ist und einen eigenen Weg zum abgeschirmten Cold Signing verfolgte.
+Ywallet ist eine Begleit-Wallet, die von Ledger und Zondax unabhängig ist und einen eigenen Weg zum abgeschirmten Cold Signing verfolgte.
 
-Ywallet ist historisch bedeutsam, weil es Cold Signing für Zcash untersuchte, sodass das Signiergerät von der Online-Wallet getrennt gehalten werden konnte.
+Ywallet ist historisch bedeutsam, weil damit Cold Signing für Zcash erprobt wurde. Das bedeutete, dass das Signiergerät getrennt von der Online-Wallet aufbewahrt werden konnte.
 
-Um diese Architektur auf Hardware von Ledger umzusetzen, entwickelte Ywallet eine eigene Anwendung Ledger – eine proprietäre App, die sich von der im vorherigen Abschnitt behandelten App Zondax unterschied. Das bedeutete, dass Ywallet nicht auf die bestehende Implementierung Sapling von Zondax setzte, sondern über eigene Firmware für die Signierseite der Beziehung verfügte.
+Um diese Architektur auf Ledger-Hardware umzusetzen, entwickelte Ywallet eine eigene Ledger-Anwendung: eine proprietäre App, die sich von der im vorigen Abschnitt behandelten Zondax-App unterschied. Ywallet war damit nicht auf die bestehende Sapling-Implementierung von Zondax angewiesen, sondern verfügte über eine eigene Firmware, die den Signierteil der Verbindung ausführte.
 
 ### Warum die Integration wichtig war
 
-Kryptografie und Signiercode zu haben, reicht nicht aus. Die Integration einer Hardware-Wallet ist nicht ausschließlich ein kryptografisches Problem, sondern unvermeidlich auch ein Vertriebs- und Plattformproblem. Sie umfasst mindestens:
+Kryptografie und Signiercode allein reichen nicht aus. Die Integration einer Hardware-Wallet ist nicht nur ein kryptografisches Problem, sondern auch ein unvermeidbares Vertriebs- und Plattformproblem. Mindestens umfasst sie:
 
-- Genehmigung/Vertrieb von Anwendungen – ob der offizielle App-Store des Hardware-Herstellers die App akzeptiert und verteilt
-- Sicherheit von Firmware/Anwendungen – ob die App die Sicherheitsanforderungen des Herstellers für den Umgang mit Schlüsselmaterial erfüllt
-- Kommunikationsprotokolle – wie die Begleit-Wallet und das Gerät tatsächlich Transaktionsdaten austauschen
-- Kompatibilität mit der Wallet – ob Datenformate und Ablauf der Signier-App den Erwartungen der Begleit-Wallet entsprechen
-- unterstützte abgeschirmte Pools – für welche von Sapling, Orchard und jetzt Ironwood die App tatsächlich signieren kann
+- Genehmigung und Vertrieb der Anwendung — ob der offizielle App-Store des Hardware-Herstellers die App annimmt und vertreibt
+- Sicherheit von Firmware und Anwendung — ob die App die Sicherheitsanforderungen des Herstellers für den Umgang mit Schlüsselmaterial erfüllt
+- Kommunikationsprotokolle — wie die Begleit-Wallet und das Gerät tatsächlich Transaktionsdaten austauschen
+- Kompatibilität mit der Wallet — ob die Datenformate und Abläufe der Signier-App den Erwartungen der Begleit-Wallet entsprechen
+- Unterstützte abgeschirmte Pools — für welche der Pools Sapling, Orchard und inzwischen Ironwood die App tatsächlich signieren kann
 
-Die proprietäre App Ledger von Ywallet erfüllte die kryptografischen und architektonischen Anforderungen. Sie konnte abgeschirmte Zcash-Transaktionen signieren, wurde jedoch nicht in den offiziellen App-Store von Ledger aufgenommen.
+Die proprietäre Ledger-App von Ywallet erfüllte die kryptografischen und architektonischen Anforderungen: Sie konnte abgeschirmte Zcash-Transaktionen signieren, wurde aber nicht in den offiziellen App-Store von Ledger aufgenommen.
 
-### Abkehr von der proprietären App Ledger
+### Abkehr von der proprietären Ledger-App
 
-Da die App nicht offiziell akzeptiert wurde, hätte Ywallet Benutzer bitten müssen, unsignierte Firmware zu installieren, um sie zu verwenden. Dies ist ein echter Sicherheitskompromiss für Benutzer, und Ywallet entschied sich, dies nicht von ihnen zu verlangen. Daher gab Ywallet diese spezielle Integration letztlich auf, statt diesen Weg zu gehen.
+Da die App nicht offiziell angenommen wurde, hätte Ywallet die Nutzer auffordern müssen, nicht signierte Firmware zu installieren, um sie verwenden zu können. Das wäre für die Nutzer ein echtes Sicherheitsrisiko gewesen, und Ywallet wollte sie nicht darum bitten. Deshalb gab Ywallet diese Integration schließlich auf, anstatt diesen Weg einzuschlagen.
 
-Anstatt eine proprietäre App wiederzubeleben, bewegte sich die spätere Entwicklung – über Zkool, den Nachfolger von Ywallet – hin zur offiziellen, von Zondax entwickelten App Ledger. Damit wurde eine individuelle, abgelehnte Implementierung gegen eine standardisierte ausgetauscht, die bereits in das Vertriebsökosystem von Ledger aufgenommen war. Diese Umstellung ermöglichte letztlich erneut eine funktionierende Integration von Ledger.
+Anstatt eine proprietäre App wiederzubeleben, richtete sich die spätere Entwicklung über Zkool, den Nachfolger von Ywallet, auf die offizielle, mit Zondax entwickelte Ledger-App aus. Damit wurde eine eigene, abgelehnte Implementierung gegen eine standardisierte App ausgetauscht, die bereits in das Vertriebsökosystem von Ledger aufgenommen worden war. Dieser Wechsel ermöglichte schließlich erneut eine funktionierende Integration von Ledger.
 
 ### Das Vermächtnis von Ywallet
 
-Auch nachdem sich Ywallet selbst aus der aktiven Entwicklung zurückgezogen hatte, blieb sein Ersteller Hanh, der zugleich Mitglied von ZCG ist, im Ökosystem eine relevante Stimme – insbesondere als die Migration von Ironwood gemeldete Probleme mit Geldern aufwarf, die verschwunden zu sein schienen.
+Auch nachdem Ywallet selbst seine aktive Entwicklung eingestellt hatte, blieb sein Schöpfer Hanh, der auch Mitglied von ZCG ist, eine wichtige Stimme im Ökosystem. Das galt besonders, als die Migration von Ironwood Berichte über vermeintlich verschwundene Mittel aufwarf.
 
-**ZODL: Ein echter Benutzer hatte nach der Migration Orchard → Ironwood fehlende Gelder**
+**ZODL: Ein Nutzer meldete fehlende Mittel nach der Migration von Orchard zu Ironwood**
 
-Ein Benutzer, Jmo0615, berichtete, dass zuvor in seiner Wallet ZODL sichtbare Gelder nach der Migration von Orchard zu Ironwood nicht mehr erschienen. Er erklärte, den ursprünglichen Seed wiederhergestellt, die Wallet zurückgesetzt und wiederhergestellt sowie die Version 3.14.1 (1) von ZODL vollständig synchronisieren lassen zu haben. Er bestätigte außerdem, dass keine Hardware-Wallet Keystone beteiligt war.
+Ein Nutzer, Jmo0615, berichtete, dass zuvor in seiner ZODL-Wallet sichtbare Mittel nach der Migration von Orchard zu Ironwood nicht mehr angezeigt wurden. Der Nutzer gab an, den ursprünglichen Seed wiederhergestellt, die Wallet zurückgesetzt und erneut eingerichtet sowie Version 3.14.1 von ZODL (1) vollständig synchronisiert zu haben. Außerdem bestätigte er, dass keine Hardware-Wallet von Keystone beteiligt war.
 
-Es wurde nicht festgestellt, dass die Gelder tatsächlich verloren gingen. Vielmehr wird ein Problem bei Wallet-Erkennung oder Migration vermutet, bei dem zuvor sichtbare Gelder nach dem Übergang zu Ironwood nicht mehr angezeigt wurden. Gelder, die nicht erkannt oder angezeigt werden, sollten nicht automatisch als dauerhaft verloren beschrieben werden; diese Unterscheidung ist wichtig, um Migrationsprobleme zu verstehen.
+Es ist nicht erwiesen, dass die Mittel tatsächlich verloren gingen. Vielmehr wird ein Problem bei der Erkennung durch die Wallet oder bei der Migration vermutet, durch das zuvor sichtbare Mittel nach dem Wechsel zu Ironwood nicht mehr angezeigt wurden. Nicht erkannte oder angezeigte Mittel sollten nicht automatisch als dauerhaft verloren bezeichnet werden. Diese Unterscheidung ist wichtig, um Migrationsprobleme richtig einzuordnen.
 
 https://forum.zcashcommunity.com/t/funds-not-showing-since-ironwood/57792
 
-**Zkool: „gesperrte Notes“ können scheinbar nicht verfügbare Gelder erklären**
+**Zkool: „Gesperrte Notes“ können erklären, warum Mittel scheinbar nicht verfügbar sind**
 
-Ein weiterer wichtiger Aspekt abgeschirmter Wallets ist, wie der Wallet-Zustand die Gelder beeinflussen kann, die ein Benutzer tatsächlich ausgeben kann. Hanh erklärte, dass ein Benutzer durch Coin Control versehentlich eine Note sperren kann. Diese Funktion ermöglicht Benutzern, manuell auszuwählen, welche Notes für Ausgaben verwendet werden. In dieser Situation kann eine Note weiter in der Wallet existieren, aber als nicht zur Ausgabe verfügbar markiert sein.
+Ein weiterer wichtiger Aspekt abgeschirmter Wallets ist, wie sich der Wallet-Status auf die tatsächlich ausgebbaren Mittel auswirken kann. Hanh erklärte, dass ein Nutzer durch die Coin-Control-Funktion versehentlich eine Note sperren kann. Damit können Nutzer manuell auswählen, welche Notes zum Ausgeben verwendet werden. In diesem Fall kann die Note weiterhin in der Wallet vorhanden sein, aber als nicht ausgebbar markiert sein.
 
-Dies unterstreicht eine wichtige Unterscheidung bei der Untersuchung von Wallet-Problemen. Die Menge an ZEC, die in einer Wallet existiert, entspricht nicht immer der Menge, die derzeit ausgegeben werden kann. Faktoren wie Note-Auswahl, Synchronisierung, Migrationsstatus, Wallet-Wiederherstellung und Coin-Control-Einstellungen können das angezeigte oder verfügbare Guthaben beeinflussen. Berichte über „fehlende Gelder“ sollten daher sorgfältig zwischen Geldern unterscheiden, die nicht erkannt oder angezeigt werden, Geldern, die erkannt, aber nicht zur Ausgabe verfügbar sind, und Geldern, die tatsächlich verloren sind.
+Das verdeutlicht eine wichtige Unterscheidung bei der Untersuchung von Wallet-Problemen. Die Menge an ZEC in einer Wallet entspricht nicht immer der Menge, die aktuell ausgegeben werden kann. Faktoren wie die Auswahl von Notes, die Synchronisierung, der Migrationsstatus, die Wiederherstellung der Wallet und die Coin-Control-Einstellungen können den angezeigten oder ausgebbaren Kontostand beeinflussen. Berichte über „fehlende Mittel“ sollten daher sorgfältig danach unterschieden werden, ob Mittel nicht erkannt oder angezeigt werden, zwar erkannt wurden, aber nicht ausgebbar sind oder tatsächlich verloren gingen.
 
 https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 
@@ -534,138 +535,138 @@ https://youtube.com/shorts/eAOMRVYJFTA?si=xytBs-wZKn8hmu8D
 
 **Was ist Keystone?**
 
-Keystone ist eine Hardware-Wallet mit Air Gap. Ihr Signiergerät hat während des Signierprozesses selbst keine direkte kabelgebundene oder drahtlose Verbindung zur Begleit-App und kommuniziert stattdessen über QR-Codes. Hier wird es mit Zashi, jetzt in Zodl umbenannt, der nativen Begleit-Wallet von Zcash, gekoppelt. Diese Kopplung macht das Prinzip der Schlüsselisolierung besonders explizit und leicht nachvollziehbar.
+Keystone ist eine Hardware-Wallet ohne Netzwerkverbindung. Während des Signiervorgangs hat ihr Signiergerät weder eine direkte kabelgebundene noch eine drahtlose Verbindung zur Begleit-App; stattdessen kommuniziert es über QR-Codes. Hier wird sie mit Zashi (inzwischen umbenannt in Zodl), der nativen Begleit-Wallet von Zcash, gekoppelt. Dadurch wird das Prinzip der Schlüsselisolierung besonders deutlich und lässt sich leicht nachvollziehen.
 
-**Der Ablauf Keystone/Zashi**
+**Der Ablauf mit Keystone und Zashi**
 
-Die Integration Zcash von Keystone mit Zashi macht diese Trennung besonders deutlich. Wenn du Keystone mit Zashi verbindest, wird der Unified Full Viewing Key von Keystone an Zashi übertragen.
+Die Integration von Zcash durch Keystone mit Zashi macht diese Trennung besonders deutlich. Wenn du Keystone mit Zashi verbindest, wird die Unified-Full Viewing Key von Keystone an Zashi übertragen.
 
-Der Ablauf lautet also:
+Der Ablauf sieht also so aus:
 
 ![Keystone and Zashi viewing flow](/content-images/keystone-zashi-viewing-flow.webp)
 
-**Was kann Zashi mit dem UFVK tun?**
+**Was kann Zashi mit der UFVK tun?**
 
-Zashi kann ihn verwenden, um:
+Zashi kann sie verwenden, um:
 
-- eingehende abgeschirmte Transaktionen zu identifizieren
-- Guthaben zu bestimmen
-- Informationen über abgeschirmte Aktivität zu erhalten
+- eingehende abgeschirmte Transaktionen zu erkennen
+- Kontostände zu ermitteln
+- Informationen über abgeschirmte Aktivitäten abzurufen
 
-Es kann die Gelder jedoch nicht ausgeben, nur weil es den UFVK besitzt.
+Mittel ausgeben kann die Anwendung jedoch nicht allein deshalb, weil sie über die UFVK verfügt.
 
-Der UFVK ist eine „Anzeigefunktion“, die das Erkennen von Guthaben und Transaktionen ermöglicht, aber keine Ausgabe erlaubt.
+Die UFVK ermöglicht Einblick in Kontostände und Transaktionen, aber keine Ausgaben.
 
-### Was bleibt innerhalb von Keystone?
+### Was bleibt in Keystone?
 
-Seed/Ausgabebefugnis bleiben auf Keystone. Zashi erhält weder den Seed noch den Ausgabeschlüssel oder den privaten Schlüssel für die Ausgabenautorisierung. Es erhält den UFVK, Adressinformationen und die Informationen, die für den reinen Anzeigebetrieb notwendig sind.
+Der Seed und die Ausgabeberechtigung bleiben auf Keystone. Zashi erhält weder den Seed noch den Ausgabeschlüssel oder den privaten Autorisierungsschlüssel für Ausgaben. Die Anwendung erhält die UFVK, Adressinformationen und die für den reinen Ansichtsbetrieb erforderlichen Informationen.
 
-Zusammen vervollständigen diese beiden Hälften das Bild. Was das Gerät verlässt, etwa UFVK, Adressen und Watch-only-Informationen, reicht für Zashi aus, um das Konto zu überwachen; nichts, was das Gerät verlässt, reicht jedoch aus, um Gelder daraus zu bewegen.
+Zusammen ergeben diese beiden Hälften ein vollständiges Bild. Was das Gerät verlässt — etwa die UFVK, Adressen und Nur-Lese-Informationen — reicht für Zashi aus, um das Konto zu überwachen. Nichts von dem, was das Gerät verlässt, reicht jedoch aus, um Mittel daraus zu bewegen.
 
-Deshalb kann die Integration von Zashi und Keystone abgeschirmten Cold Storage bieten. Die Wallet-Anwendung kann das Konto überwachen, ohne die Befugnis zum Ausgeben daraus zu besitzen. Die Integration wurde ausdrücklich eingeführt, um Cold Storage für abgeschirmtes ZEC zu ermöglichen.
+Deshalb ermöglicht die Integration von Zashi und Keystone eine abgeschirmte Cold Storage. Die Wallet-Anwendung kann das Konto überwachen, ohne über die nötige Berechtigung zu verfügen, Mittel daraus auszugeben. Die Integration wurde eigens eingeführt, um die Cold Storage abgeschirmter ZEC zu ermöglichen.
 
-Wenn du ausgeben möchtest:
+Wenn du Mittel ausgeben möchtest:
 
 ![Keystone and Zashi spending flow](/content-images/keystone-spend-flow.webp)
 
 ## 3. Hito
 
-Hito folgt einem sehr ähnlichen Modell der Schlüsselisolierung wie Keystone, seine Implementierung ist jedoch neuer. Statt mit einer bestehenden Begleit-Wallet wie Zashi gekoppelt zu werden, wird Hito mit einer eigenen Wallet Android ausgeliefert. Der Onboarding-Prozess zwischen Hardware-Gerät und dieser App Android ist in den Entwicklungsmeilensteinen von Hito dokumentiert.
+Hito folgt einem sehr ähnlichen Modell zur Schlüsselisolierung wie Keystone, die Implementierung ist jedoch neuer. Statt mit einer bestehenden Begleit-Wallet wie Zashi gekoppelt zu werden, wird Hito mit einer eigenen Android-Wallet ausgeliefert. Der Einrichtungsprozess zwischen dem Hardwaregerät und dieser Android-App ist in den Entwicklungsmeilensteinen von Hito dokumentiert.
 
-**Onboarding: Was die App Hito erhält**
+**Einrichtung: Welche Informationen erhält die Hito-App?**
 
-Die Wallet Android verwendet beim Onboarding des Hardware-Kontos:
+Die Android-Wallet verwendet bei der Einrichtung des Hardwarekontos:
 
-- den Unified Full Viewing Key (UFVK)
-- Unified Address
-- den ZIP-32-Seed-Fingerabdruck
+- die Unified-Full Viewing Key (UFVK)
+- die Unified Address
+- den Seed-Fingerabdruck nach ZIP-32
 - Netzwerkinformationen
 
-Beachte, dass die Anwendung Android niemals den Seed oder die privaten Ausgabeschlüssel der Hardware-Wallet erhält.
+Beachte, dass die Android-Anwendung niemals den Seed oder die privaten Ausgabeschlüssel der Hardware-Wallet erhält.
 
 ![Hito onboarding](/content-images/hito-onboarding.webp)
 
-**Was erhält die App Hito?**
+**Welche Informationen erhält die Hito-App?**
 
-Zu den dokumentierten Onboarding-Informationen gehören:
+Zu den dokumentierten Einrichtungsinformationen gehören:
 
 - UFVK
 - Unified Address
-- ZIP-32-Seed-Fingerabdruck
+- Seed-Fingerabdruck nach ZIP-32
 - Netzwerk
 
-Der UFVK liefert der Wallet Android die Informationen, die sie benötigt, um das Konto als Wallet mit Anzeigefunktion zu betreiben, ohne den Seed zu erhalten. Der Seed-Fingerabdruck ist ein Kennzeichen fester Länge, das aus dem Seed abgeleitet wird und dazu dient, Konten wiederzuerkennen. Er ist nicht der Seed selbst und verleiht keine Ausgabefähigkeit; daher widerspricht seine Anwesenheit nicht der obigen Aussage, dass der Seed niemals empfangen wird.
+Die UFVK liefert der Android-Wallet die nötigen Informationen, um das Konto als Wallet mit Ansichtsrechten zu verwalten, ohne den Seed zu erhalten. Der Seed-Fingerabdruck ist ein Kennzeichner fester Länge, der aus dem Seed abgeleitet wird und zur Zuordnung von Konten dient. Er ist nicht der Seed selbst und verleiht keine Ausgabeberechtigung. Seine Verwendung widerspricht daher nicht der obigen Aussage, dass der Seed niemals empfangen wird.
 
 **Was bleibt auf Hito?**
 
-Der tatsächliche Seed, die privaten Ausgabeschlüssel und die Signierbefugnis bleiben auf dem Hardware-Gerät. Hito führt die Signierung anschließend offline durch.
+Der tatsächliche Seed, die privaten Ausgabeschlüssel und die Signierberechtigung bleiben auf dem Hardwaregerät. Hito signiert anschließend offline.
 
-Der aktuelle Meilenstein von Hito besagt, dass der vollständige Ablauf aus Erstellung, Export, Offline-Signierung und Import funktionsfähig ist, einschließlich BLE-Übertragung und BBQr-QR-Export des signierten PCZT.
+Der aktuelle Hito-Meilenstein besagt, dass der gesamte Ablauf aus Erstellung, Export, Offline-Signierung und Import funktioniert. Dabei kommen BLE-Übertragung und BBQr-QR-Export der signierten PCZT zum Einsatz.
 
-Dieser Ablauf sollte ausdrücklich benannt werden, da er die konkrete Instanz des zuvor in diesem Bericht behandelten vollständigen Zyklus ist: Die Wallet Android erstellt das unsignierte PCZT, exportiert es zu Hito, Hito signiert es offline mit seinem isolierten Schlüsselmaterial, und das signierte PCZT wird zurück in die Wallet Android importiert.
+Dieser Ablauf verdient eine ausdrückliche Erwähnung, denn er ist ein konkretes Beispiel für den vollständigen Zyklus, der weiter oben in diesem Bericht beschrieben wurde: Die Android-Wallet erstellt die unsignierte PCZT und exportiert sie zu Hito. Hito signiert sie offline mit dem isolierten Schlüsselmaterial, anschließend wird die signierte PCZT wieder in die Android-Wallet importiert.
 
-Zu keinem Zeitpunkt überschreitet der Seed oder Ausgabeschlüssel diese Grenze in irgendeine Richtung.
+Der Seed und der Ausgabeschlüssel überschreiten diese Grenze zu keinem Zeitpunkt und in keine Richtung.
 
 ![Hito signing flow](/content-images/hito-signing-flow.webp)
 
-## Orchard zu Ironwood: Die Entwicklung der Hardware-Wallet-Unterstützung
+## Orchard bis Ironwood: Die Entwicklung der Hardware-Wallet-Unterstützung
 
-Orchard ist ein abgeschirmter Pool im Protokoll Zcash, der Benutzern die Speicherung und Übertragung von ZEC mit erweitertem Datenschutz ermöglicht. Orchard wurde in Network Upgrade 5 (NU5) eingeführt, verwendet das Beweissystem Halo 2 und eine neu gestaltete kryptografische Architektur, um abgeschirmte Transaktionen zu ermöglichen, ohne sensible Transaktionsinformationen wie Absender, Empfänger oder Betrag offenzulegen.
+Orchard ist ein abgeschirmter Pool im Zcash-Protokoll, der es Nutzern ermöglicht, ZEC mit verbessertem Datenschutz zu speichern und zu übertragen. NU5 wurde mit Network Upgrade 5 (Orchard) eingeführt. Halo nutzt das Beweissystem Ironwood 2 und eine überarbeitete kryptografische Architektur, um abgeschirmte Transaktionen zu unterstützen, ohne vertrauliche Transaktionsdaten wie Absender, Empfänger oder Betrag preiszugeben.
 
-Ironwood ist ein abgeschirmter Pool, der im Netzwerk-Upgrade NU6.3 von Zcash als Nachfolger des Pools Orchard eingeführt wurde. Er verwendet das kryptografische Protokoll Orchard und führt zugleich Änderungen ein, die die langfristige Sicherheit abgeschirmter Gelder verbessern sollen, einschließlich Quantenwiederherstellbarkeit und stärkerer Zusicherungen zur Integrität der Geldmenge.
+Zcash ist ein abgeschirmter Pool, der mit dem Netzwerkupgrade NU6.3 von Orchard als Nachfolger des Pools Orchard eingeführt wurde. Er verwendet das kryptografische Protokoll Ironwood und führt zugleich Änderungen ein, die die langfristige Sicherheit abgeschirmter Guthaben verbessern sollen. Dazu gehören die Wiederherstellbarkeit im Quantenfall und stärkere Garantien für die Integrität des Gesamtangebots.
 
-Zu Beginn muss klargestellt werden, dass Ironwood das Protokoll Orchard nicht durch ein vollständig neues kryptografisches System ersetzt hat. Ironwood wurde als neuer abgeschirmter Pool auf Grundlage des bestehenden Protokolls Orchard eingeführt. Das bedeutet, dass beide dieselbe Action-Struktur, dasselbe Beweissystem Halo 2 und dieselben Note- und Schlüsselkonstruktionen haben.
+Zu Beginn muss klargestellt werden, dass Orchard das Protokoll Ironwood nicht durch ein völlig neues kryptografisches System ersetzt hat. Orchard wurde als neuer abgeschirmter Pool eingeführt, der auf dem bestehenden Protokoll Halo aufbaut. Das bedeutet, dass beide dieselbe Action-Struktur, dasselbe Beweissystem Ironwood 2 sowie dieselben Notiz- und Schlüsselstrukturen haben.
 
-Ironwood hat einen eigenen Note-Commitment-Baum, eine eigene Nullifier-Menge, einen eigenen Anchor und einen eigenen Wert-Pool und ist damit auf Konsensebene ein tatsächlich separater Pool. Kryptografisch ist es jedoch eine Erweiterung von Orchard und kein Neubau.
+Orchard verfügt über einen eigenen Notiz-Commitment-Baum, eine eigene Nullifier-Menge, einen eigenen Anker und einen eigenen Wertpool. Auf Konsensebene handelt es sich also tatsächlich um einen separaten Pool. Kryptografisch ist er jedoch eine Erweiterung von Orchard und keine Neuentwicklung.
 
-Es wurde auf diese Weise entworfen, um:
+Die Architektur wurde aus folgenden Gründen so gestaltet:
 
-1. **Integrität der Geldmenge.** Am 29. Mai 2026 legte der Sicherheitsforscher Taylor Hornby privat einen kritischen Soundness-Fehler im Zero-Knowledge-Beweissystem von Orchard offen, der die Erzeugung gefälschter ZEC ohne on-chain-Spuren hätte ermöglichen können. Da die Transaktionsdaten von Orchard privat sind, kann niemand unabhängig prüfen, dass vor der Fehlerbehebung keine gefälschten ZEC erzeugt wurden. Den alten Pool zu versiegeln und einen neuen bei null zu beginnen, löst dieses Problem auf eine Weise, die ein Patch von Orchard an Ort und Stelle nicht hätte lösen können.
-2. **Quantenwiederherstellbarkeit sicherzustellen.** Ironwood wurde so entwickelt, dass seine Gelder an einem künftigen Wiederherstellungsmechanismus teilnehmen können, falls die zugrunde liegenden Annahmen zum diskreten Logarithmus jemals gebrochen werden.
-3. **Implementierungsänderungen zu minimieren.** Statt ein völlig neues abgeschirmtes Protokoll zu entwickeln, wurde die bewährte Architektur von Orchard wiederverwendet. Dadurch musste erheblich weniger neuer Transaktions-, Beweis-, Wallet- und Hardware-Wallet-Code von Grund auf geschrieben werden.
+1. **Integrität des Gesamtangebots.** Am 29. Mai 2026 meldete der Sicherheitsforscher Taylor Hornby vertraulich eine kritische Soundness-Schwachstelle im Zero-Knowledge-Beweissystem von ZEC. Sie hätte es ermöglicht, gefälschte Orchard zu erzeugen, ohne eine Spur auf der Blockchain zu hinterlassen. Da die Transaktionsdaten von ZEC privat sind, kann niemand unabhängig überprüfen, ob vor der Fehlerbehebung gefälschte Orchard erzeugt wurden. Den alten Pool zu versiegeln und einen neuen mit einem Anfangsbestand von null zu starten, löst dieses Problem auf eine Weise, die eine nachträgliche Fehlerbehebung an Ironwood nicht ermöglicht hätte.
+2. **Wiederherstellbarkeit im Quantenfall sicherstellen.** Orchard wurde so konzipiert, dass seine Guthaben an einem künftigen Wiederherstellungsmechanismus teilnehmen können, falls die zugrunde liegenden Annahmen zu diskreten Logarithmen jemals widerlegt werden.
+3. **Änderungen an der Implementierung minimieren.** Statt ein völlig neues abgeschirmtes Protokoll zu entwickeln, wurde die bewährte Architektur von Orchard wiederverwendet. Dadurch musste deutlich weniger neuer Code für Transaktionen, Beweise, Wallets und Hardware-Wallets von Grund auf geschrieben werden.
 
-### Die öffentliche Zeitleiste
+### Der öffentliche Zeitplan
 
-- 29. Mai: Die Schwachstelle von Orchard wird offengelegt.
-- Juni: Orchard-Transaktionen werden vorübergehend eingeschränkt, während eine erste Fehlerbehebung über NU6.2 ausgeliefert wird. Am 12. Juni nennt ein Kernentwickler den 21. Juli als Ziel für das vollständige Upgrade; später verschiebt es sich um eine Woche. In der Community wird die Sorge geäußert, dass Besitzer von Keystone zuletzt migrieren würden. Ein Kernentwickler antwortet daraufhin, dass Keystone Ironwood vom ersten Tag an unterstützen werde, mit für den 3. Juli geplanter Firmware, vorbehaltlich finalisierter Signierkonstanten und API-Änderungen von Orchard im Kern von Zcash.
-- Anfang Juli: NU6.3 erreicht das Testnet; Zebra 6.0.0 wird am 10. Juli ausgeliefert.
-- 27.–28. Juli: Die Signierarbeit Ironwood PCZT v2 von Ledger wird in einen Integrationszweig übernommen. Ironwood (NU6.3) aktiviert sich am 28. Juli bei Block 3.428.143, versiegelt den ursprünglichen Pool Orchard hinter einer Schleuse, die begrenzt, wie viel ZEC Orchard verlassen kann, auf den Betrag, der rechtmäßig darin eingezahlt wurde, und führt ein neues Transaktionsformat ein.
+- 29. Mai: Die Schwachstelle Orchard wird offengelegt.
+- Juni: Transaktionen mit NU6.2 werden vorübergehend eingeschränkt, während über Keystone eine erste Fehlerbehebung ausgeliefert wird. Am 12. Juni setzt ein Kernentwickler den 21. Juli als Termin für das vollständige Upgrade an; später verschiebt sich dieser um eine Woche. In der Community wird die Sorge geäußert, dass Besitzer von Keystone bei der Migration zuletzt an die Reihe kommen würden. Daraufhin erklärt ein Kernentwickler, dass Ironwood Orchard ab dem ersten Tag unterstützen werde; die Firmware sei für den 3. Juli vorgesehen, vorbehaltlich endgültiger Signaturkonstanten und Änderungen an der Zcash-API des NU6-Kerns.
+- Anfang Juli: Zebra.3 erreicht das Testnetz; Ledger 6.0.0 wird am 10. Juli veröffentlicht.
+- 27.–28. Juli: Die Signaturarbeiten für Ironwood PCZT v2 werden in einen Integrationszweig übernommen. Ironwood (NU6.3) wird am 28. Juli bei Block 3.428.143 aktiviert. Dabei wird der ursprüngliche Pool Orchard durch eine Schleuse versiegelt, die die Menge an ZEC, die Orchard verlassen darf, auf den Betrag begrenzt, der zuvor rechtmäßig eingezahlt wurde. Außerdem wird ein neues Transaktionsformat eingeführt.
 
-Zebra wird zum erforderlichen Knoten, da zcashd die neuen Konsensregeln nicht unterstützt. Adressen ändern sich nicht, weil Ironwood die Empfängerstruktur von Orchard wiederverwendet. Wallets leiten daher bestehende Adressen automatisch in den neuen Pool. Was Wallets benötigen, ist eine Migrationsfunktion, da Gelder von Orchard letztlich von ihren Besitzern nach Ironwood verschoben werden müssen und neue Ausgaben, die Orchard empfangen, nun vollständig durch Konsens blockiert werden.
+Zebra wird zum erforderlichen Knoten, da zcashd die neuen Konsensregeln nicht unterstützt. Adressen ändern sich nicht, weil Ironwood die Empfängerstruktur von Orchard wiederverwendet. Daher leiten Wallets bestehende Adressen automatisch in den neuen Pool. Wallets benötigen jedoch eine Migrationsfunktion, da ihre Besitzer die Guthaben in Orchard schließlich nach Ironwood übertragen müssen. Neue Ausgaben, die Orchard empfangen, sind nun durch den Konsens vollständig gesperrt.
 
-### Was sich technisch geändert hat
+### Technische Änderungen
 
-Transaktionsformate wechselten von Version 5 zu Version 6, sodass eine einzelne Transaktion neben bestehenden Komponenten Sapling/Orchard/transparent auch eine Komponente Ironwood enthalten kann. PCZT wurde entsprechend erweitert:
+Die Transaktionsformate wurden von Version 5 auf Version 6 umgestellt. Dadurch kann eine einzelne Transaktion neben bestehenden Ironwood-/Sapling-/Transparent-Komponenten auch eine Orchard-Komponente enthalten. PCZT wurde entsprechend erweitert:
 
-- Die Kodierung wechselte von PCZT v1 zu v2.
-- Ein separates Bündel Ironwood liegt nun neben den Bündeln Sapling und Orchard.
+- Die Kodierung wurde von PCZT v1 auf v2 umgestellt.
+- Neben den Ironwood- und Sapling-Bundles gibt es nun ein separates Orchard-Bundle.
 - v6-Transaktionen und ein neuer v6-Sighash werden unterstützt.
-- Note-Klartexte erhielten eine neue Version (V3).
+- Notiz-Klartexte erhielten eine neue Version (V3).
 
-Die Änderung des Sighash ist speziell für Hardware-Wallets am wichtigsten. In v6 sind die Anchors Orchard und Ironwood vom Signatur-Hash ausgeschlossen und fließen nur in den Digest der Autorisierungsdaten ein. Dies ist eine echte Firmware-Änderung, nicht bloß eine Versionsanhebung. Ein Gerät muss den neuen Sighash korrekt implementieren und selbst neu berechnen, statt darauf zu vertrauen, was die Begleit-App nach eigener Aussage genehmigt.
+Die Änderung am Sighash ist vor allem für Hardware-Wallets wichtig. In v6 werden die Anker Orchard und Ironwood aus dem Signatur-Hash ausgeschlossen und fließen nur noch in den autorisierenden Daten-Digest ein. Das ist eine echte Firmware-Änderung und nicht bloß eine Erhöhung der Versionsnummer. Ein Gerät muss den neuen Sighash korrekt implementieren und selbst neu berechnen, statt darauf zu vertrauen, dass die Begleit-App richtig angibt, was das Gerät genehmigt.
 
-Der Isolierungsvertrag selbst änderte sich nicht: Das Gerät gibt weiterhin nur die Ausgabenautorisierungssignatur zurück, niemals `alpha`, und erzeugt auch nie die Binding-Signatur; der Host übernimmt weiterhin das Beweisen und alles Weitere.
+Die Isolationsvereinbarung selbst hat sich nicht geändert: Das Gerät gibt weiterhin nur die Ausgabesignatur für das Ausgeben zurück, niemals `alpha`, und erstellt auch keine Bindungssignatur. Beweiserstellung und alles Weitere übernimmt weiterhin der Host.
 
-Eine Signer-Regel änderte sich mit v6 jedoch: Dummy-Padding-Ausgaben werden vom IO Finalizer statt vom Gerät signiert, da das Gerät keine Möglichkeit hat, sie gegen echte Note-Daten zu prüfen. Die Signer-Rolle des Geräts überspringt sie, statt zur Signierung von etwas aufgefordert zu werden, das sie nicht prüfen kann. Angezeigte Gebühren summieren nun außerdem die Wertsalden von Orchard und Ironwood, da eine v6-Transaktion aus beiden Pools in derselben Transaktion ausgeben kann.
+Eine Signaturregel hat sich mit v6 allerdings geändert: Dummy-Füllausgaben werden vom IO Finalizer signiert, nicht vom Gerät, da dieses sie nicht anhand echter Notizdaten überprüfen kann. Die Rolle des Signierers auf dem Gerät überspringt sie daher, statt etwas signieren zu sollen, das sie nicht überprüfen kann. Angezeigte Gebühren summieren nun außerdem die Wertsalden von Orchard und Ironwood, da eine v6-Transaktion im selben Vorgang aus beiden Pools ausgeben kann.
 
-Die korrekte Poolabrechnung ist in der Praxis und nicht nur theoretisch wichtig. Ein jüngerer Fehler in der eigenen Wallet Zcash von Brave veranschaulicht dies: Die Gebührenberechnung nahm an, dass alle abgeschirmten Eingaben zum älteren Pool Orchard gehörten, was zu doppelten Actions und falschen Gebührenprognosen führte, sobald eine Transaktion tatsächlich Ironwood einbezog. Genau diese Fehlerklasse soll das Prinzip „selbst neu berechnen, dem Host nicht vertrauen“ hinter der Signierung durch Hardware-Wallets erkennen. Eine Begleit-Wallet berechnete die Poolabrechnung falsch; nur ein Gerät, das seine eigene Berechnung unabhängig prüft, würde dies vor der Signierung erkennen.
+Die korrekte Abrechnung der Pools ist in der Praxis wichtig, nicht nur in der Theorie. Ein kürzlich aufgetretener Fehler in der eigenen Wallet Brave von Zcash ist ein gutes Beispiel: Bei der Gebührenberechnung wurde angenommen, dass alle abgeschirmten Eingaben zum älteren Pool Orchard gehören. Dadurch wurden Actions dupliziert und Gebühren falsch geschätzt, sobald eine Transaktion tatsächlich Ironwood umfasste. Genau solche Fehler soll das Prinzip „selbst neu berechnen, dem Host nicht vertrauen“ bei der Signierung mit Hardware-Wallets aufdecken. Eine Begleit-Wallet rechnete die Pools falsch ab. Nur ein Gerät, das seine Berechnungen unabhängig überprüft, hätte das vor der Signatur erkannt.
 
-### Stand jedes Signers
+### Stand der einzelnen Signierer
 
-**Ledger hat das gesamte Bild verändert.** Am 23. September 2026 lieferte Ledger native abgeschirmte Unterstützung für Zcash direkt in Ledger Wallet Desktop aus; eine separate Begleit-App wird nicht mehr benötigt. Dein Ausgabeschlüssel bleibt auf dem Gerät, der Computer erledigt die Transaktionsberechnungen, und du bestätigst alles auf dem Bildschirm, bevor signiert wird. Unterstützt wird nur Ironwood, nicht die alten Pools Orchard oder Sapling. Der Nachteil besteht darin, dass die ältere App „Zcash Shielded“, entwickelt von Zondax und auf eine Begleit-Wallet wie Zkool angewiesen, eingestellt wird. Ledger entfernt diese ältere App am 5. November aus der Verfügbarkeit; wer sie weiterhin verwendet, muss seine Gelder zuvor verschieben.
+**Ledger hat das Gesamtbild gerade grundlegend verändert.** Am 23. September 2026 veröffentlichte Ledger die native Unterstützung für abgeschirmtes Zcash direkt in Ledger Wallet Desktop. Eine separate Begleit-App ist nicht mehr nötig. Der Ausgabeschlüssel bleibt auf dem Gerät, der Computer berechnet die Transaktion, und du genehmigst alles auf dem Bildschirm, bevor signiert wird. Unterstützt wird nur Ironwood, nicht die älteren Pools Orchard oder Sapling. Der Nachteil: Die ältere App „Zcash Shielded“ von Zondax, für deren Nutzung eine Begleit-Wallet wie Zkool erforderlich war, wird eingestellt. Ledger legte den 5. November 2026 als Datum fest, an dem die ältere App nicht mehr verfügbar sein sollte. Guthaben, die noch über sie verwaltet werden, sollten daher auf ein Konto in der neuen App übertragen werden.
 
-**Keystone befindet sich in guter Verfassung.** Firmware 3.0.2 fügte bereits im Juli vollständige Unterstützung für Ironwood hinzu und ist weiterhin die aktuelle, stabile Voraussetzung. Diese oder eine neuere Version wird allerdings benötigt, um irgendetwas zu signieren.
+**Keystone ist gut aufgestellt.** Firmware 3.0.2 brachte bereits im Juli die vollständige Unterstützung für Ironwood. Firmware 3.2.2 vom 11. November 2026 ergänzte die Unterstützung für NU7 bei der Web3- und Cypherpunk-Edition ([Versionshinweise](https://github.com/KeystoneHQ/keystone3-firmware/releases/tag/3.2.2)). Da NU7 im Mainnet aktiv ist, solltest du vor dem Signieren auf Version 3.2.2 oder neuer aktualisieren.
 
-**Hito ist über den anfänglichen Testnet-Meilenstein hinausgekommen.** Es hat erfolgreich seine erste echte Transaktion Orchard-zu-Ironwood auf physischer Hardware signiert und übermittelt, zunächst im Testnet. Nachfolgende Updates bestätigten Mainnet-Abläufe – Ironwood→Ironwood, Ironwood→Transparent und weitere – auf Produktionshardware. Stabile Firmware und eine breitere Veröffentlichung befinden sich weiterhin in Arbeit.
+**Hito ist über den ersten Testnetz-Meilenstein hinaus.** Das Gerät hat erfolgreich seine erste echte Transaktion von Orchard nach Ironwood auf physischer Hardware signiert und übermittelt, zunächst im Testnetz. Spätere Updates bestätigten Abläufe im Mainnet (Ironwood→Ironwood, Ironwood→Transparent und weitere) auf Hardware für den Produktionseinsatz. Eine stabile Firmware und eine breitere Veröffentlichung sind weiterhin in Arbeit.
 
-Zondax und Zkool befinden sich derzeit im Wandel. Die App von Zondax ist jene, die auf Ledger eingestellt wird. Zkool, das sich auf diese App stützte, um mit Geräten Ledger zu kommunizieren, hat nicht angegeben, was aus dieser Rolle wird, wenn die alte App verschwindet. Es ist unklar, ob es für Benutzer von Ledger künftig relevant bleibt oder ob seine Zukunft vor allem bei anderen Geräten liegt.
+**Zkool funktioniert mit beiden Ledger-Apps.** Die App von Zondax wird für Ledger eingestellt. Zkool, das auf diese App angewiesen war, um mit Ledger-Geräten zu kommunizieren, stellte vor dem Stichtag um: Seit [6.30.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.30.0) vom 12. September 2026 funktioniert es auch mit der neuen offiziellen App Ledger von Zcash. Sie importiert den UFVK vom Gerät und signiert Transaktionen des Formats v6 (Ironwood); Konten der App Zondax werden weiterhin unterstützt. Spätere Versionen funktionierten weiterhin über den Pfad Ledger: Version 6.32.0 importiert Konten von Ledger über die Zkool-API von GraphQL, und Version 6.36.0 behob einen Absturz bei kurzen Ledger-Antworten. Damit bleibt Zkool eine Option für Ledger-Nutzer, die eine Begleit-Wallet statt Ledger Wallet Desktop verwenden möchten.
 
-Die Migration selbst ist die größte Auswirkung. Da der zwischen Pools übertragene Betrag öffentlich ist, verteilen Wallets Übertragungen über Standardstückelungen hinweg im Laufe der Zeit, anstatt ein Guthaben in einem sichtbaren einzigen Block zu bewegen. Das bedeutet viele zu signierende Transaktionen pro Migration und genau deshalb war Batch-Signierung von PCZT für Hardware-Wallets so wichtig.
+Die Migration selbst hat die größten Auswirkungen. Da der Betrag, der zwischen Pools wechselt, öffentlich ist, verteilen Wallets Überweisungen im Zeitverlauf auf die üblichen Stückelungen, statt ein Guthaben in einem einzigen sichtbaren Betrag zu übertragen. Dadurch müssen pro Migration viele Transaktionen signiert werden. Genau deshalb war die Stapelsignierung von PCZT für Hardware-Wallets so wichtig.
 
-Die Firmware-Arbeit von Ledger stieß außerdem auf Hardwaregrenzen: Eine echte Note-Ausgabe konnte in einem einzigen Befehl Zehntausende kryptografische Systemaufrufe erreichen und den Geräte-Watchdog auslösen. Die Fehlerbehebung verlagerte die Feldarithmetik in Software und erforderte einen gemeinsamen Scratch-Zustand, um innerhalb der Stack-Beschränkungen von Nano X zu bleiben.
+Auch die Firmware-Arbeiten von Ledger stießen an Hardware-Grenzen: Bei einer echten Notiz-Ausgabe konnten in einem einzigen Befehl Zehntausende kryptografische Systemaufrufe anfallen, wodurch der Watchdog des Geräts ausgelöst wurde. Als Lösung wurde die Feldarithmetik in Software verlagert. Außerdem war ein gemeinsam genutzter Zwischenspeicher nötig, der in die Stack-Beschränkungen von Nano X passen musste.
 
 https://forum.zcashcommunity.com/t/ironwood-is-here-updated-wallets-libraries-aug-20/56557/40
 
-### Die Entwicklung in einem Bild
+### Die Entwicklung in einer Grafik
 
 ![The evolution in one picture](/content-images/orchard-to-ironwood-evolution.webp)

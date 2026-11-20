@@ -90,7 +90,7 @@ Zcash Sapling huwawezesha watumiaji kutekeleza miamala ya faragha katika sekunde
 
 Kuficha muamala huimarisha faragha, na kufanya isiwezekane kwa wahusika wengine kuunganisha miamala na kubaini kiasi cha ZEC kinachohamishwa. Sapling pia huboresha urahisi wa matumizi kwa kupunguza mahitaji ya kihesabu ya kutengeneza miamala ya faragha, na hivyo kuifanya ipatikane zaidi kwa watumiaji.
 
-Anwani za pochi ya Sapling huanza kwa "zs" na hili linaweza kuonekana katika Pochi zote za Faragha za Zcash zinazoungwa mkono (Zkool, Pochi ya Zingo, Nighthawk n.k.) ambazo zina anwani za Sapling zilizojengewa ndani. Zcash Sapling inawakilisha maendeleo makubwa ya kiteknolojia katika faragha na ufanisi wa miamala, jambo linalofanya Zcash kuwa sarafu ya kidijitali ya vitendo na yenye ufanisi kwa watumiaji wanaothamini faragha na usalama.
+Anwani za pochi ya Sapling huanza kwa “zs” na hili linaweza kuonekana katika Pochi zote za Faragha za Zcash zinazoungwa mkono (Zkool, Pochi ya Zingo n.k.) ambazo zina anwani za Sapling zilizojengewa ndani. Zcash Sapling inawakilisha maendeleo makubwa ya kiteknolojia katika faragha na ufanisi wa miamala, jambo linalofanya Zcash kuwa sarafu ya kidijitali ya vitendo na yenye ufanisi kwa watumiaji wanaothamini faragha na usalama.
 
 ____
 

@@ -29,7 +29,9 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
+
+Zebra 7.0.0以降を使用してください。NU7 はメインネットでブロック 3,543,405 にて有効化され、古いバージョンの`zebrad`ではその高さを超えてチェーンを追跡できません（[リリースノート](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)）。Zebra 7にはRust 1.91以降が必要です（`rustup update`）。
 
 ## zebrad.toml を設定します
 
@@ -48,8 +50,8 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 * Goをインストールします
 
 ```bash
-wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.27.3.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 

@@ -43,10 +43,11 @@ Kamu perlu menginstal 3 hal agar ini dapat berfungsi dengan benar. Saya juga men
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Gunakan Zebra 7.0.0 atau yang lebih baru: NU7 diaktifkan di Mainnet pada blok 3.543.405, dan versi `zebrad` yang lebih lama tidak dapat mengikuti rantai melewati ketinggian tersebut ([catatan rilis](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *opsional* (buat sesi screen untuk zebrad)
 
 ```

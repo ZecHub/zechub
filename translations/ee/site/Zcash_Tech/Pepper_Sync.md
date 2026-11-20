@@ -14,7 +14,7 @@
 
 ## Nɔnɔme ƒe Nyadzɔdzɔ
 
-Zingo 2.0 nye Zingo! gakotoku ƒe version yeye, si nye gakotoku bɔbɔe, si ƒe source code le fũ, eye wowɔe na Zcash ƒe hadome. Nu vevi tso release sia me nye Pepper Sync, si nye upgrade gã aɖe si trɔa mɔ̃ si gakotokuwɔwo do ƒome kple gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu [blockchain] la bliboa.
+Zingo 2.0 nye Zingo! gakotoku ƒe release, gakotoku bɔbɔe si ƒe source code le fũ, eye wowɔe na Zcash ƒe hadome, eye wòtsɔ Pepper Sync vɛ, upgrade gã aɖe si trɔa mɔ̃ si gakotokuwɔwo do ƒome kple gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la bliboa. Release siwo va emegbe hã le edzi kple Pepper Sync: mobile release si le mɔ̃̃a me fifia, [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (October 31, 2026), tsɔ NU7 ƒe kpekpeɖeŋu kple swap siwo woɖo ɖe eme vɛ.
 
 Tsã la, sync wɔnate ŋu anɔ abe nu si blewu, le vodada geɖe, eye wòbia ŋusẽ geɖe ene, eye ɣeaɣi aɖewo la, eɖena be zazãlawo nagɔme tso gbɔ. Pepper Sync trɔa esia katã. Ewɔa sync yi kaba, nɔa bɔbɔe, le asinye, eye mebiaa nu geɖe tso wò mɔ̃ dzi o, esi wòle ɣaɣla [privacy] si le gaɖoɖowo siwo nye ɣaɣla me la dom bliboa.
 
@@ -93,8 +93,8 @@ To gakotoku ƒe nɔnɔme nyonyo dzi, Pepper Sync sesẽna Zcash ƒe hadome blibo
 
 ### Ale si nàgɔme: ŋgɔyiyi kple Zingo 2.0
 
-1. Ɖe Gakotoku La - Xɔ version si dze ŋuwò tso [Zingo GitHub ƒe releases ƒe axa](https://github.com/zingolabs/zingolib)
-2. Ɖo Wò Gakotoku ɖe Afi - Wɔ yeye aɖe alo trɔ gbɔ tso gadzraɖoɖi nya [seed phrase] si le tẹlẹ. [Zingo 2.0 kple Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+1. Ɖe Gakotoku La - Xɔ version si dze ŋuwò tso [zingolabs.org](https://zingolabs.org/) alo GitHub ƒe releases ƒe axawo le [mobile](https://github.com/zingolabs/zingo-mobile/releases) kple [desktop](https://github.com/zingolabs/zingo-pc/releases)
+2. Ɖo Wò Gakotoku ɖe Afi - Wɔ yeye aɖe alo trɔ gbɔ tso gadzraɖoɖi nya si le tẹlẹ. [Zingo 2.0 kple Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Na Pepper Sync Nawɔ Dɔ - Kpɔ ŋgɔyiyi ƒe dzesiwo ne wò gakotoku le trɔm yeye. [Pepper Sync Wɔ Dɔ](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Dzra Zcash Zã Gɔme - Ɖo eye xɔ ZEC siwo nye ɣaɣla enumake ne sync wu.
 5. Megadzɔ Ŋu Le Gbegbeawo Ŋu O - Ne app la tu alo kadodo ƒe kaɖedzi tso, Pepper Sync gɔme le eɖokui si.

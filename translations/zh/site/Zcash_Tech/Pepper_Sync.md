@@ -14,7 +14,7 @@
 
 ## 核心说明
 
-Zingo 2.0 是 Zingo! 钱包的最新版本，这是一款为 Zcash 社区打造的轻量级开源钱包。本次发布的亮点是 Pepper Sync，这是一项重大升级，彻底重新思考了钱包与 blockchain 的连接方式。
+Zingo 2.0 是 Zingo! 钱包的发布版本，这是一款为 Zcash 社区打造的轻量级开源钱包，并在该版本中引入了 Pepper Sync 这一重大升级，彻底重新构想了钱包连接 blockchain 的方式。后续版本继续保留 Pepper Sync：当前的移动版 [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324)（2026 年 10 月 31 日）新增了 NU7 支持和内置兑换功能。
 
 过去，同步可能感觉极其缓慢、容易出错且消耗大量资源，有时会迫使用户从头开始。Pepper Sync 改变了这一切。它让同步更快速、更顺畅、更可靠，并且对您的设备要求更低，同时完全保留屏蔽交易的隐私 [privacy]。
 
@@ -93,8 +93,8 @@ Pepper Sync 的帮助方式包括：
 
 ### 开始使用：通过 Zingo 2.0 完成引导
 
-1. 下载钱包 - 从 [Zingo GitHub 发布页面](https://github.com/zingolabs/zingolib)获取正确版本。
-2. 设置您的钱包 - 创建新钱包，或从现有助记词 [seed phrase] 恢复。[Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+1. 下载钱包 - 从 [zingolabs.org](https://zingolabs.org/) 或 GitHub 发布页面获取适用于 [移动端](https://github.com/zingolabs/zingo-mobile/releases) 和 [桌面端](https://github.com/zingolabs/zingo-pc/releases) 的正确版本。
+2. 设置您的钱包 - 创建新钱包，或从现有助记词恢复。[Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. 让 Pepper Sync 运行 - 在钱包更新时查看进度指示器。[Pepper Sync Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. 开始使用 Zcash - 同步完成后立即发送和接收屏蔽 ZEC。
 5. 无需担心中断 - 如果应用关闭或连接中断，Pepper Sync 会自动恢复。

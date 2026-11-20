@@ -217,7 +217,7 @@ Extension de navigateur qui convertit en temps réel les prix en monnaie fiducia
 
 ### Shielded Wall
 Plateforme de confessions anonymes reposant sur la confidentialité de Zcash.  
-[Visiter](https://shieldedwall.org/)
+[Visiter](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Boîte de réception e-mail jetable, payée en ZEC protégés.  
@@ -274,7 +274,7 @@ Modèle d'organisation d'entreprise coopératif et ascendant, reposant sur Zcash
 
 ### ZK Global Credit
 Infrastructure de crédit et de vote native de Zcash pour la divulgation sélective, la préparation au règlement, la réputation transfrontalière et la gouvernance protégée.  
-[Visiter](https://voting.zkglobalcredit.tech/)
+[Visiter](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Outil de création de contenu anonyme et de dons confidentiels reposant sur Zcash.  

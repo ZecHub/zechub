@@ -99,15 +99,16 @@ ___
 - Ironwood: शील्डेड निकासी समर्थित, पूल नहीं बताया गया
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- वेबसाइट: [Huobi](https://huobi.com)
+- वेबसाइट: [HTX](https://www.htx.com) (पहले Huobi)
 - पेयर: ALL/ZEC
 - समर्थन: ट्रांसपेरेंट
+- स्थिति: ZEC डिपॉज़िट और निकासी फिलहाल निलंबित हैं (HTX सार्वजनिक एपीआई के अनुसार, नवंबर 2026); स्पॉट ट्रेडिंग अब भी सूचीबद्ध है
 - डिपॉज़िट समय: 35 मिनट 
 - Ironwood: लागू नहीं, केवल ट्रांसपेरेंट एड्रेस
 ___

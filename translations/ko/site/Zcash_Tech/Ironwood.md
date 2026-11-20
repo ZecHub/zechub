@@ -135,4 +135,4 @@ shielded 풀 안의 ZEC는 숨겨져 있는데, 어떻게 누구나 Orchard 버�
 
 ---
 
-시리즈: [네트워크 업그레이드 색인](../start-here/network-upgrades) · 이전: [NU6.2](../zcash-tech/nu6-2)
+시리즈: [네트워크 업그레이드 색인](../start-here/network-upgrades) · 이전: [NU6.2](../zcash-tech/nu6-2) · 다음: [NU7](../zcash-tech/nu7)

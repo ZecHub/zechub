@@ -42,10 +42,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+استخدم Zebra 7.0.0 أو أحدث: فُعِّل NU7 على Mainnet عند الكتلة 3,543,405، ولا تستطيع إصدارات `zebrad` الأقدم متابعة السلسلة بعد هذا الارتفاع (ملاحظات الإصدار [](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *اختياري* (أنشئ جلسة screen لـ zebrad)
 
 ```

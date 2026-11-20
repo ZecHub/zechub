@@ -21,7 +21,7 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 | Istilahi | Ufafanuzi |
 |------|-----------|
 | Benchmarking | Wachimbaji wanaweza kuwasilisha vipimo vya ufanisi wa vifaa mbalimbali vinavyotumiwa kuchimba Zcash. [Tazama hapa](https://zcashbenchmarks.info) |
-| Block | Block ni rekodi katika blockchain ya Zcash ambayo ina mkusanyiko wa miamala iliyotumwa kwenye mtandao. Kwa wastani, block mpya huongezwa kwenye blockchain takribani kila sekunde 75. |
+| Block | Block ni rekodi katika blockchain ya Zcash iliyo na seti ya miamala iliyotumwa kwenye mtandao. Kwa wastani, block mpya huongezwa kwenye blockchain takribani kila sekunde 25 (sekunde 75 kabla ya NU7 kuanza kutumika mnamo Novemba 2026). |
 | Block Explorer | Kifaa cha mtandaoni cha kutazama miamala yote, ya zamani na ya sasa, kwenye blockchain. [Kichunguzi cha Block cha Zcash](https://zcashexplorer.app/) |
 | Blogs | [Blogu ya ZODL (zamani Electric Coin Co)](https://zodl.com/blog/) / [Blogu ya Zcash Foundation](https://zfnd.org/blog/) / [Jarida la habari la ZecHub](https://zechub.substack.com/) |
 | Blossom | Uboreshaji mkuu wa 3 wa mtandao wa Zcash. [Maelezo zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -127,11 +127,11 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 | Istilahi | Ufafanuzi |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Pendekezo kutoka Shielded Labs la kuchoma sehemu ya ada za miamala ili bajeti ya usalama wa muda mrefu ya itifaki isitegemee utoaji pekee. Limebainishwa katika ZIP 234, na linapitiwa mwaka 2026. |
-| Nighthawk | Pochi ya simu ya Zcash. [Tovuti](https://nighthawkwallet.com) |
+| Nighthawk | Pochi ya zamani ya simu ya Zcash kutoka Nighthawk Apps. Pochi zake za Zcash hazitunzwii tena, na Nighthawk Wallet 3.0 imeundwa kwa ajili ya DarkFi. Ili kuhamisha fedha kutoka kwenye seed ya zamani ya Nighthawk, tazama [Kurejesha Fedha](/using-zcash/recovering-funds). |
 | Noir Wallet | Pochi ya kiendelezi cha kivinjari ya Zcash inayoungwa mkono na Zcash Community Grants, iliyoundwa kuunganisha ZEC za faragha moja kwa moja na programu za kivinjari badala ya kutegemea misimbo ya QR na uhamisho wa mikono. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Uboreshaji mkuu wa 6 wa mtandao wa Zcash, unaoanzisha bwawa la faragha la Orchard na Anwani Zilizounganishwa. [Maelezo zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Uboreshaji mkuu wa 7 wa mtandao wa Zcash, unaorekebisha ruzuku ya block kufadhili programu ya Zcash Community Grants na Deferred Dev Fund Lockbox. Uliamilishwa mwishoni mwa 2024. [Maelezo zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Uboreshaji wa mtandao baada ya Ironwood, unaolengwa kwa mainnet tarehe 5 Novemba 2026. Kwa mujibu wa [ZIP 259](https://zips.z.cash/zip-0259), unaleta block za sekunde 25 (ZIP 218), Utaratibu wa Uendelevu wa Mtandao wenye urejelezaji wa ada (ZIPs 235 na 237), na mwisho wa miamala ya toleo la 4, ambao huacha fedha za Sprout zisizoweza kutumika (ZIP 2003). Hauongezi muundo mpya wa muamala; Tachyon na Shielded Assets za Zcash si sehemu yake. |
+| NU7 | Uboreshaji wa mtandao uliofuata Ironwood, ulioamilishwa kwenye mainnet katika urefu wa 3,543,405 tarehe 6 Novemba 2026 (UTC). Kwa mujibu wa [ZIP 259](https://zips.z.cash/zip-0259), unaleta block za sekunde 25 (ZIP 218), Utaratibu wa Uendelevu wa Mtandao wenye urejelezaji wa ada (ZIPs 235 na 237), na mwisho wa miamala ya toleo la 4, jambo linaloacha fedha za Sprout zisizoweza kutumika (ZIP 2003). Hauongezi muundo mpya wa muamala; Tachyon na Shielded Assets za Zcash si sehemu yake. |
 
 ## O
 
@@ -209,7 +209,7 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 
 | Neno | Ufafanuzi |
 |------|-----------|
-| Wallet | Programu au vifaa vinavyohifadhi funguo binafsi na kukuruhusu kutuma/kupokea ZEC. Pochi zinazotumika ni pamoja na ZODL (iOS/Android), Zingo! (simu ya mkononi/kompyuta ya mezani), Nighthawk (Android), Zkool (simu ya mkononi/kompyuta ya mezani), Zallet (inayokuja), na Keystone (hardware). Kwa orodha kamili, tazama [Pochi za Mfumo Ikolojia za Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Programu au vifaa vinavyohifadhi funguo binafsi na kukuruhusu kutuma/kupokea ZEC. Pochi zinazotumika ni pamoja na ZODL (iOS/Android), Zingo! (simu ya mkononi/kompyuta ya mezani), Zkool (simu ya mkononi/kompyuta ya mezani), Zallet (pochi ya full node, katika majaribio ya beta), na Keystone (hardware). Kwa orodha kamili, tazama [Pochi za Mfumo Ikolojia za Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | SDK ya kwanza ya JavaScript kwa Zcash, iliyoundwa na ChainSafe kwa mazingira ya kivinjari. Inategemeza snap ya Shielded Wallet ya Zcash iliyowezesha ZEC za faragha katika MetaMask. |
 
 ## X

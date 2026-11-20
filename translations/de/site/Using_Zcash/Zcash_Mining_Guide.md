@@ -55,7 +55,7 @@ Dieser Leitfaden konzentriert sich auf das Mining von Zcash mit eigener Hardware
   - Für ASICs: Verwenden Sie die integrierte Firmware/das Dashboard des Herstellers (z. B. die Weboberfläche von Bitmain).
 - **Wallet:** Eine Zcash-Wallet zum Empfang der Auszahlungen. Empfohlen:
   - Shielded (privat): ZODL Wallet, Zingo (Mobil/Desktop), Zkool (mobil/desktop).
-  - Transparent (einfacher, aber weniger privat): Edge Wallet, Zecwallet Lite.
+  - Transparent (einfacher, aber weniger privat): Edge Wallet.
   - Herunterladen von [wallets](https://zechub.wiki/wallets). Generieren Sie für mehr Privatsphäre eine shielded Adresse (beginnt mit „zs“), falls der Pool sie unterstützt.
 
 ### Sonstiges

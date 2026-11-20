@@ -94,7 +94,9 @@ Ukurasa wa [Pochi](/using-zcash/wallets) hufuatilia usaidizi wa funguo za kutaza
 
 [Zkool](https://github.com/hhanh00/zkool2) ndilo chaguo lenye kubadilika zaidi hapa, kwa sababu linakubali funguo zilizounganishwa pamoja na zile za zamani. README yake huandika akaunti za kutazama pekee zilizoundwa kutoka **ufunguo wa kutazama uliounganishwa** au **ufunguo uliopanuliwa wa kutazama wa Sapling**, pamoja na funguo za zamani zilizopanuliwa za faragha zilizouzwa nje kutoka zcashd. Ongeza akaunti mpya, chagua njia ya kutazama pekee, na ubandike ufunguo wa `uview…` au `zxviews…`; akaunti hiyo kisha husawazisha na kuripoti salio na historia bila mamlaka ya kutumia pesa.
 
-Usaidizi wa itifaki wa Ironwood na uhamaji wa Orchard-kwenda-Ironwood uliwasili katika Zkool 6.24.0 (20 Julai 2026), na 6.26.1 (2 Agosti 2026) ilirekebisha utambuzi wa miamala ya Ironwood katika mempool. Tumia 6.26.1 au toleo la baadaye.
+Usaidizi wa itifaki wa Ironwood na uhamaji wa Orchard-kwenda-Ironwood uliwasili katika Zkool 6.24.0 (20 Julai 2026), na 6.26.1 (2 Agosti 2026) ilirekebisha utambuzi wa miamala ya Ironwood katika mempool. Kwa kuwa NU7 imewashwa kwenye Mainnet (block 3,543,405), tumia [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 Oktoba 2026) au toleo la baadaye: ni toleo la kwanza la Zkool lililojengwa kwa urefu wa kuwezesha Mainnet wa NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 pia inakubali **funguo za kutazama zinazoingia zilizounganishwa**. Bandika ufunguo wa `uivk…` mahali ambapo ufunguo wowote huwekwa, na Zkool itaunda akaunti ya kupokea pekee: inaonyesha kile ambacho akaunti ya awali inapokea, pamoja na jumbe, na haionyeshi chochote inachotuma ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Ufunguo wa kupokea hauwezi kuona matumizi, kwa hivyo salio la akaunti ni jumla ya pesa zilizopokelewa, si kiasi kilichobaki, na akaunti haiwezi kutumia pesa. Zkool pia inaweza kuhamisha UIVK ya akaunti ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

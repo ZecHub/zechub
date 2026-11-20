@@ -1,16 +1,41 @@
-# Guida utente Keystone Zashi
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Keystone_Zashi.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica la pagina"/>
+</a>
 
-Guida su Twitter:  => [Guida Twitter all'integrazione del portafoglio hardware Zashi x Keystone](https://x.com/zashi_app/status/1869793574880973144) 
+# Guida per l'utente di Keystone Zodl (precedentemente Zashi)
 
-Questa integrazione segna un'evoluzione significativa nell'usabilità di Zcash, abilitando la conservazione a freddo (cold storage) di ZEC schermati. La comunità di Zcash ha affrontato battute d'arresto con altre piattaforme di portafogli hardware in passato, ma Keystone è emerso come un partner collaborativo disposto a superare i limiti e a innovare al fianco della Electric Coin Company. Il team di Keystone ha ricevuto un finanziamento ZCG per finanziare la propria parte del lavoro.
+> Conserva ZEC schermati in cold storage: abbina un portafoglio hardware Keystone all'app Zodl (precedentemente Zashi, con nuovo brand da febbraio 2026) e firma le transazioni tramite codici QR.
 
-## Tutorial Keystone X Zashi
+## In breve
+
+* Keystone 3 Pro (o Keystone 3) con il firmware Cypherpunk funziona come dispositivo di firma air-gapped per Zodl, così ZEC schermati possono restare in cold storage.
+* Prima di iniziare: batteria oltre il 20%, cavo USB (o scheda MicroSD FAT32) per aggiornare il firmware e app Zodl sul telefono.
+* Verifica prima il dispositivo sul sito web di Keystone. In questo modo controlli che non sia stato manomesso durante il trasporto.
+* Crea il portafoglio su Keystone e annota offline la frase mnemonica di 24 parole. Non viene mai inserita in Zodl.
+* Connetti: su Keystone tocca "..." > Connetti portafoglio software > Zodl, poi in Zodl tocca Connetti portafoglio hardware e scansiona il codice QR.
+* Zodl prepara ogni transazione; tu la approvi e la firmi sullo schermo di Keystone, scansionando i codici QR in entrambe le direzioni.
+
+## Spiegazione di base
+
+Un portafoglio hardware conserva le tue chiavi di spesa su un dispositivo separato che non si connette mai a internet. Keystone è air-gapped: comunica con il telefono solo tramite codici QR, non via Bluetooth o USB.
+
+In questa configurazione, Zodl è il lato "di osservazione". Si sincronizza con la rete di Zcash, mostra il tuo saldo schermato e prepara le transazioni. Keystone conserva la frase mnemonica e firma. Un telefono compromesso può vedere il tuo saldo, ma non può trasferire fondi senza la tua approvazione su Keystone.
+
+I passaggi seguenti illustrano come preparare il dispositivo, verificarlo, aggiornare il firmware, creare il portafoglio e connetterlo a Zodl.
+
+## Panoramica
+
+Guida di Twitter:  => [Zodl (precedentemente Zashi) x Integrazione del portafoglio hardware Keystone Twitter Guida](https://x.com/zashi_app/status/1869793574880973144) 
+
+Questa integrazione segna un'evoluzione significativa dell'usabilità di Zcash, perché consente di conservare in cold storage ZEC schermati. In passato, la community di Zcash ha subito battute d'arresto con altre piattaforme di portafogli hardware, ma Keystone si è rivelato un partner collaborativo, pronto a superare i limiti e innovare insieme a Electric Coin Company. Il team di Keystone ha ricevuto un finanziamento ZCG per sostenere la propria parte del lavoro.
+
+## Tutorial Keystone X Zodl
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/ktYf7josJKM"
-    title="Keystone X Zashi Tutorial"
+    title="Tutorial Keystone X Zodl"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -21,66 +46,67 @@ Questa integrazione segna un'evoluzione significativa nell'usabilità di Zcash, 
 ## Preparazione
 [Ordina e ricevi il tuo Keystone 3 Pro o Keystone 3](https://keyst.one) 
 
-Livello della batteria: assicurati che il tuo dispositivo Keystone abbia un livello di batteria superiore al 20%.
+Livello della batteria: assicurati che il tuo dispositivo Keystone abbia una carica superiore al 20%.
 
 Cavo USB o scheda SD:
 
 - Cavo USB per l'aggiornamento del firmware (incluso).
-- Scheda micro SD (sotto 1 TB) per gli aggiornamenti (da acquistare separatamente).
+- Scheda MicroSD (inferiore a 1 TB) per gli aggiornamenti (da acquistare separatamente).
 
-Accesso al sito web ufficiale di Keystone per la verifica e l'aggiornamento del firmware.
+Accedi al sito web ufficiale di Keystone per la verifica e l'aggiornamento del firmware.
 
-App Zashi configurata sul tuo dispositivo mobile.
+Configura l'app Zodl sul tuo dispositivo mobile.
 
-## [Guida passo passo (dispositivo Keystone)](https://keyst.one/get-started) 
+## [Guida passo passo(Keystone Dispositivo)](https://keyst.one/get-started) 
 
 
-**Scegli la tua lingua**
--Verifica del dispositivo (via QR): la verifica del dispositivo è cruciale per rilevare potenziali manomissioni durante il trasporto, prevenire attacchi alla supply chain e garantire la sicurezza del firmware installato.
+**Scegli la lingua**
+
+- **Verifica del dispositivo (tramite QR):** è fondamentale per rilevare eventuali manomissioni durante il trasporto, prevenire attacchi alla supply chain e garantire la sicurezza del firmware installato.
   - Visita la pagina di verifica del dispositivo sul sito web di Keystone.
-  - Clicca su Scansiona codice QR sul sito web ufficiale.
-  - Usa la fotocamera del tuo Keystone per scansionare il codice QR mostrato sul sito web.
-  - Un codice di verifica apparirà sullo schermo del tuo Keystone.
-  - Inserisci questo codice sul sito web per completare il processo di verifica.
+  - Fai clic su Scansiona codice QR sul sito web ufficiale.
+  - Usa la fotocamera di Keystone per scansionare il codice QR mostrato sul sito web.
+  - Sullo schermo di Keystone apparirà un codice di verifica.
+  - Inserisci questo codice sul sito web per completare la procedura di verifica.
 
 - **Aggiornamento del firmware:**
   - Aggiornamento tramite scheda MicroSD
-    - Assicurati che il tuo portafoglio Keystone abbia almeno il 20% di carica della batteria.
-    - Inserisci la scheda SD nel tuo computer e formattala come FAT32.
-    - Scarica l'ultima versione del firmware Cypherpunk dalla [pagina di aggiornamento del firmware di Keystone](https://keyst.one/firmware) e salva il file keystone3.bin nella radice della tua scheda MicroSD.
-    - Inserisci la scheda SD con il firmware nel tuo portafoglio Keystone.
-    - Accedi all'opzione "Upgrade" sul tuo portafoglio Keystone, poi segui le istruzioni a schermo per avviare il processo di aggiornamento.
+    - Assicurati che il tuo portafoglio Keystone abbia almeno il 20% di carica.
+    - Inserisci la scheda SD nel computer e formattala come FAT32.
+    - Scarica l'ultima versione del firmware Cypherpunk dalla pagina di aggiornamento del firmware di [Keystone](https://keyst.one/firmware) e salva il file keystone3.bin nella directory principale della scheda MicroSD.
+    - Inserisci nel portafoglio Keystone la scheda SD con il firmware.
+    - Apri l'opzione "Aggiorna" sul portafoglio Keystone, poi segui le istruzioni sullo schermo per avviare l'aggiornamento.
   - **Aggiornamento tramite cavo USB**
-    - Se la tua versione del firmware è inferiore alla 1.0.4, dovrai eseguire l'aggiornamento iniziale usando una scheda MicroSD prima di poter procedere con gli aggiornamenti via USB.
-    - Assicurati che il tuo portafoglio Keystone abbia almeno il 20% di carica della batteria.
-    - Tocca via USB e usa il cavo USB per collegare il tuo portafoglio Keystone al computer. Tocca [Approve] per concedere al tuo portafoglio Keystone l'accesso USB, poiché altrimenti potrebbe consentire solo la ricarica.
-    - Apri il browser web del tuo computer e vai alla [pagina di aggiornamento del firmware di Keystone](https://keyst.one/firmware)
-    - Nella pagina di aggiornamento, clicca il pulsante Install Update e segui le istruzioni fornite per installare l'ultimo firmware.
+    - Se la versione del firmware è precedente alla 1.0.4, prima dovrai eseguire l'aggiornamento iniziale tramite una scheda MicroSD, poi potrai procedere con gli aggiornamenti USB.
+    - Assicurati che il tuo portafoglio Keystone abbia almeno il 20% di carica.
+    - Tocca Tramite USB e usa il cavo USB per collegare il portafoglio Keystone al computer. Tocca [Approva] per autorizzare l'accesso USB al portafoglio Keystone, altrimenti potrebbe consentire solo la ricarica.
+    - Apri il browser web del computer e vai alla pagina di aggiornamento del firmware di [Keystone](https://keyst.one/firmware)
+    - Nella pagina di aggiornamento, fai clic sul pulsante Installa aggiornamento e segui le istruzioni per installare il firmware più recente.
 - **Crea il portafoglio:**
-    - Password sicura: scegli un PIN o una password robusti per proteggere il tuo portafoglio.
-    - Dai un nome al tuo portafoglio (facoltativo): facoltativamente, dai un nome al tuo portafoglio per facilitarne l'identificazione, oppure salta questo passaggio.
-    - Seleziona Create New Wallet se stai configurando un portafoglio per la prima volta.
-    - Il tuo dispositivo genererà una seed phrase di 24 parole.
-    - Annota questa seed phrase e conservala in modo sicuro.
-    - Conferma la seed phrase verificando le parole nell'ordine corretto come mostrato sullo schermo.
-- **Collega Zashi + portafoglio Keystone:**
+    - Password sicura: scegli un PIN o una password robusta per proteggere il portafoglio.
+    - Dai un nome al portafoglio (facoltativo): puoi assegnare un nome al portafoglio per identificarlo facilmente oppure saltare questo passaggio.
+    - Seleziona Crea nuovo portafoglio se è la prima volta che ne configuri uno.
+    - Il dispositivo genererà una frase mnemonica di 24 parole.
+    - Annotala e conservala al sicuro.
+    - Conferma la frase mnemonica verificando che le parole siano nell'ordine corretto, come mostrato sullo schermo.
+- **Connetti il portafoglio Zodl + Keystone:**
     - Sul dispositivo Keystone: tocca … nella pagina principale
-    - Tocca Connect Software Wallet e scegli Zashi. Apparirà il codice QR per connetterti a Zashi.
-    - Nell'app Zashi: tocca il menu a tendina zashi (in alto a sinistra dello schermo)
-    - Tocca Connect Hardware Wallet
-    - Tocca Ready to Scan
-    - Scansiona il QR mostrato sul dispositivo Keystone
-    - Nell'app Zashi: conferma l'account del portafoglio Keystone toccando l'account visualizzato
-    - Tocca Connect in fondo allo schermo
+    - Tocca Connetti portafoglio software e scegli Zodl. Apparirà il codice QR per connetterti a Zodl.
+    - Nell'app Zodl: tocca il menu a discesa Zodl (in alto a sinistra dello schermo)
+    - Tocca Connetti portafoglio hardware
+    - Tocca Pronto per la scansione
+    - Scansiona il codice QR mostrato sul dispositivo Keystone
+    - Nell'app Zodl: conferma il portafoglio Keystone toccando l'account visualizzato
+    - Tocca Connetti in fondo allo schermo
 
 
-## Aiuto aggiuntivo
+## Ulteriore assistenza
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Jr6LqtD1W0s"
-    title="Connect Keystone Hardware Wallet to Zashi"
+    title="Connetti il portafoglio hardware Keystone a Zodl"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -92,13 +118,9 @@ App Zashi configurata sul tuo dispositivo mobile.
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/t_OHb1KqrRg"
-    title="Sign an Outgoing Transaction with Keystone"
+    title="Firma una transazione in uscita con Keystone"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
-
-
-
-

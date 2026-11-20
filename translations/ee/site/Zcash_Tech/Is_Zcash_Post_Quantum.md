@@ -71,7 +71,7 @@ Nu si Ironwood metrɔ o: cryptography si wɔ gazaza kple ɖaseɖigbalɛ fifia, d
 
 **Ɣeyiɣi si afia le.** Tso ɣeyiɣi si Ironwood dze egɔme va se ɣeyiɣi si woaɖe protocol xoxoawo ɖa la, quantum ƒe futɔ aɖe ate ŋu agate ŋu afi ga, awɔ gaƒe dziyiyi alo atsi ga le ɣaɣla gaƒuƒoƒo sia me. ZIP 2005 yɔ esia be "critical exposure period" eye wòɖe dzesi be afia aɖe le eme ate ŋu aɖo nu vɔ̃ na dzila ƒe ŋutete be wòaxɔ eƒe ga le etsɔme hã. Esia ta wògblɔ be Zcash ELE BE wòaɖe Orchard, Sapling kple Sprout ɖa **hafi** quantum ƒe afiawo ate ŋu awɔ dɔ.
 
-**Ŋkeke aɖeke mele na ɖeɖa o, negbe na Sprout.** ZIP aɖeke meɖo ɣeyiɣi na Orchard alo Sapling ƒe ɖeɖa o. Sprout nye tɔ vovo: [ZIP 259](https://zips.z.cash/zip-0259) xlɔ ZIP 2003 ɖe trɔtrɔ siwo NU7 azã me, ale version 4 gaɖoɖowo anɔ anyi le se me o ne NU7 dze egɔme, eye ZEC siwo katã gale Sprout gaƒuƒoƒo me la mate ŋu azã o. Wode Mainnet ƒe dzeɖoɖo ɖe gaɖoɖowo ƒuƒoƒe 3,543,405, si wode ta be wòanɔ le 5 November 2026 ([ZIP 259](https://zips.z.cash/zip-0259), [forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Sapling withdraw-only ƒe amewo ƒe nuxexlẽ dze egɔme le forum la dzi le April 2026.
+**Ŋkeke aɖeke meɖo ɣeyiɣi na ɖeɖa o, negbe na Sprout.** ZIP aɖeke meɖo ɣeyiɣi na Orchard alo Sapling ƒe ɖeɖa o. Sprout nye tɔ vovo: [ZIP 259](https://zips.z.cash/zip-0259) xlɔ ZIP 2003 ɖe trɔtrɔ siwo NU7 ɖo ɖe dɔ me, eye elabena NU7 dze egɔme xoxo la, version 4 ƒe gaɖoɖowo mele se me o, eye ZEC siwo katã susɔ le Sprout gaƒuƒoƒo me la, womate ŋu azã o. NU7 dze egɔme le Mainnet dzi le gaɖoɖowo ƒuƒoƒe 3,543,405 dzi, le 6 November 2026 UTC ([ZIP 259](https://zips.z.cash/zip-0259), [forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). Sapling withdraw-only ƒe nuxexlẽ dze egɔme le forum la dzi le April 2026.
 
 **Recovery Protocol la menyo haɖe o.** ZIP 2005 ƒo nu tsoe ko, eye wògblɔ be emetɔwo "ate ŋu atrɔ". Naneke tsoe mewɔ dɔ o.
 
@@ -97,7 +97,7 @@ Womekplɔ wo aɖeke ɖe dɔ me o.
 
 ## Nɔnɔ ƒe kplɔla
 
-Wokpɔe mlɔeba le 13 September 2026, negbe Sprout ƒe kɔkɔe si wotrɔ le 9 October 2026. ZIP ƒe header nɔnɔ kple eƒe network nɔnɔ menye nu ma ke o: ZIP 2005 gale "Proposed" le eƒe header me togbɔ be wode eƒe sewo dzi le Mainnet le July 2026 me.
+Wokpɔe mlɔeba le 13 September 2026, negbe Sprout ƒe kɔkɔe si wotrɔ le 13 November 2026 le emegbe be NU7 dze egɔme. ZIP ƒe header nɔnɔ kple eƒe network nɔnɔ menye nu ma ke o: ZIP 2005 gale "Proposed" le eƒe header me togbɔ be wode eƒe sewo dzi le Mainnet le July 2026 me.
 
 | Nu | ZIP ƒe nɔnɔ | Network ƒe nɔnɔ | Ŋkeke | Nuɖoɖowɔƒe |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Wokpɔe mlɔeba le 13 September 2026, negbe Sprout ƒe kɔkɔe si wotrɔ le 9 Oc
 | Gakotokuwo le ga kplɔm yina Ironwood me | Kplɔɖoɖo le ZIP 2005, ZIP 318 kple ZIP 326 (Draft) me | Wode asi, eɖo wò gakotoku ŋu | Tso 28 Jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Recovery Protocol | Woƒo nu tsoe le ZIP 2005 ko me | **Womede dɔ me o** | Ŋkeke aɖeke mele o | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Orchard kple Sapling ƒe ɖeɖa | ZIP aɖeke mele o | **Womeɖo ɣeyiɣi o** | Sapling nuxexlẽ tso Apr 2026 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Sprout gazazawo ƒe tɔtɔ (ZIP 2003) | Proposed, NU7 de dɔ me le ZIP 259 (Proposed) nu | **Womede dzi o** | Mainnet ƒe teƒe 3,543,405, wode ta na 5 Nov 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Sprout gazazawo ƒe tɔtɔ (ZIP 2003) | Proposed, NU7 de dɔ me le ZIP 259 (Proposed) nu | **Wode dzi** le Mainnet | 6 Nov 2026, gaɖoɖowo ƒuƒoƒe 3,543,405 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Transparent gaxɔxɔ (ZIP 2007) | Reserved | **Ɖoɖo** | ZIP woɖo ɖi le 5 Jul 2025, nuxexlẽ dze egɔme le 17 Jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Post-quantum ɣaɣla na gaɖoƒe ƒe dzesi siwo woanya | Nya siwo le dzi, ZIP aɖeke mele o | **Numekpɔkpɔ** | #1133 dze egɔme 18 Aug 2022, #1307 dze egɔme 23 Jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Project Tachyon | ZIP aɖeke mele o | **Ɖoɖo**, gale tutu me | Woɖe fia gbã le Apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |

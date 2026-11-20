@@ -7,7 +7,7 @@
 ## Kısaca
 
 - **Zimppy**, Zcash'ın Machine Payment Protocol (MPP) kullanan AI agent'ları için gizlilik öncelikli bir ödeme altyapısıdır
-- Zincir üzerinde **bir kez para yatırın** (~75 saniye), ardından istek başına blockchain etkileşimi olmadan **sınırsız anlık istek** yapın
+- Zincir üzerinde **bir kez para yatırın** (NU7'ten bu yana blok başına ~25 saniye), ardından istek başına blockchain etkileşimi olmadan **sınırsız anlık istek** yapın
 - **Tamamen korumalı Zcash (Orchard)** ödemelerini destekler — gönderen, alıcı, tutar ve memo tamamen şifrelenir
 - AI işlem hatlarına ve API sunucularına kolay entegrasyon için **TypeScript ve Rust SDK'leriyle** çalışır
 - **LLM API'leri, veri pazar yerleri, MCP araç sunucuları** ve tüm M2M ödeme kullanım durumları için mükemmeldir
@@ -52,7 +52,7 @@ Her işlemin zincir üzerinde herkese açık olduğu geleneksel blockchain ödem
 
 ### Temel Özellikler
 
-- Zincir üzerinde **bir kez para yatırma** (Zcash onayı için ~75 saniye)
+- Zincir üzerinde **bir kez para yatırma** (NU7'den bu yana bir Zcash bloğu için ~25 saniye; önceden 75 saniye)
 - Oturum açıldıktan sonra **sınırsız anlık istek**, istek başına sıfır zincir etkileşimi
 - **Korumalı ödemeler**, göndereni, alıcıyı, tutarı ve memo'yu Zcash'ın Orchard protokolünü kullanarak şifreler
 - **Şeffaf ödemeler**, tam gizlilik olmadan yeniden oynatma önleme için challenge başına T-adresleri kullanır
@@ -77,18 +77,18 @@ Hassas iş akışları, hukuki araştırmalar, tıbbi sorgular, finansal analizl
 
 ### Oturumlarla Çözülen Gecikme Sorunu
 
-> *"Ama Zcash'ın blok süreleri 75 saniye."*
+> *"Ama Zcash blokları hâlâ 25 saniye sürüyor (NU7 öncesinde 75 saniye)."*
 
 **Oturumlar bunu çözer.** Zincir üzerindeki bekleme, para yatırma sırasında tam olarak **bir kez** gerçekleşir. Sonraki her istek anlıktır.
 
 ```
-Agent  ->  100,000 zat yatır              (tek zincir üzeri tx, ~75 sn)
-Agent  ->  oturum aç                      (bearer token verilir)
-Agent  ->  istek -> yanıt                 (0 ms - zincir etkileşimi yok)
-Agent  ->  istek -> yanıt                 (0 ms - zincir etkileşimi yok)
-Agent  ->  istek -> yanıt                 (0 ms - zincir etkileşimi yok)
-           ... yüzlerce istek ...
-Agent  ->  oturumu kapat                  (kullanılmayan bakiyeyi iade et)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
+Agent  ->  open session                  (bearer token issued)
+Agent  ->  request -> response           (0ms - no chain interaction)
+Agent  ->  request -> response           (0ms - no chain interaction)
+Agent  ->  request -> response           (0ms - no chain interaction)
+           ... hundreds of requests ...
+Agent  ->  close session                 (refund unused balance)
 ```
 
 **Bir kez ödeyin, anında çağırın, para üstünü geri alın.** İstek başına gecikme sıfırdır.
@@ -417,7 +417,7 @@ Korumalı ödemeler, NU5 tarafından kullanıma sunulan korumalı havuz olan Zca
 
 ### Oturumlar , İstek Başına Sıfır Gecikme
 
-Oturum mimarisi, zincir üzerindeki onay beklemesini istek başına gecikmeden ayırır. Tek bir para yatırma işleminden (~75 saniye) sonra, oturum kapanana kadar tüm sonraki bearer-token istekleri blockchain etkileşimi olmadan anında sunulur.
+Oturum mimarisi, zincir üzerindeki onay beklemesini istek başına gecikmeden ayırır. Tek bir para yatırma işleminden (NU7 itibarıyla ~25 saniye) sonra, oturum kapanana kadar tüm sonraki bearer-token istekleri blockchain etkileşimi olmadan anında sunulur.
 
 ### Akış , Token Başına Ödeme
 

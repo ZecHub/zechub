@@ -132,7 +132,7 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 
 ### CYZE
 Спільний гаманець і платформа координації, яка дозволяє кільком членам команди разом керувати екранованими коштами Zcash. Вона використовує порогові підписи FROST, що дають групам змогу спільно авторизувати транзакції Orchard без надання одному учаснику повного контролю над гаманцем.  
-[Відвідати](https://github.com/USCMig/Cyze)
+[Відвідати](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 Настільний гаманець лише для перегляду, призначений для осіб і організацій, яким потрібно відстежувати екрановані кошти без можливості їх витрачати. Підтримує моніторинг транзакцій і балансу, примітки Orchard та Sapling, перегляд мемо, історичну оцінку у фіатній валюті, сповіщення про транзакції, шифрування гаманця та функції спільного доступу до екрана, орієнтовані на приватність.  
@@ -168,7 +168,7 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 
 ### ZECping
 Інструмент для перевірки часу відповіді gRPC вузлів Zcash lightwalletd.  
-[Відвідати](https://github.com/emersonian/zecping)
+[Відвідати](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Панель для статистики мережі Zcash та показників екранування в реальному часі.  
@@ -217,7 +217,7 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 
 ### Shielded Wall
 Платформа анонімних зізнань, що працює завдяки приватності Zcash.  
-[Відвідати](https://shieldedwall.org/)
+[Відвідати](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Одноразова поштова скринька, оплачувана екранованими ZEC.  
@@ -232,7 +232,7 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 [Відвідати](https://zecledger-web.vercel.app/)
 
 ### Автентифікація з ZcashMe
-Система автентифікації, орієнтована на приватність, яка використовує екрановані транзакції Zcash як механізм входу. Користувачі сканують QR-код і надсилають невелику транзакцію автентифікації.  
+Система автентифікації, орієнтована на приватність, яка використовує екрановані транзакції Zcash як механізм входу. Користувачі сканують QR-код і надсилають невелику транзакцію автентифікації. Репозиторій архівовано (доступний лише для читання), тому проєкт більше не підтримується.  
 [Відвідати](https://github.com/zcashme/zns-login)
 
 ---
@@ -240,13 +240,13 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 ## Розробка, тестування та інфраструктура
 
 ### Ztreamer
-Високооптимізований індексатор Zcash з відкритим кодом і реалізація протоколу lightwallet (CompactTxStreamer), підтримувана вбудованим вузлом Zakura. Запускає вузол + індексатор + сервер гаманця в одному процесі (ztreamerd); підтримує gRPC і P2P Zakura v2. Швидке історичне індексування та обслуговування легких гаманців із низькою затримкою.  
-[Відвідати](https://github.com/distractedm1nd/ztreamer)  
+Високооптимізований індексатор Zcash з відкритим кодом і реалізація протоколу lightwallet (CompactTxStreamer), що працює на вбудованому вузлі Zakura. Запускає вузол, індексатор і сервер гаманця в одному процесі (ztreamerd); підтримує gRPC і P2P Zakura v2. Швидке історичне індексування та обслуговування легких гаманців із низькою затримкою.  
+[Відвідати](https://github.com/zcashlabs/ztreamer)  
 [Крейт](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Набір тестів мережі для розробників zcashd і Zebra. Містить сканер Zcash.  
-[Відвідати](https://github.com/runziggurat/zcash)
+[Відвідати](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Набір інструментів, орієнтований на Linux, який запускає мережу regtest Zebra із faucet, фікстурами Unified Address та lightwalletd або Zaino, а також повторно використовуваними Actions GitHub для екранованих наскрізних потоків.  
@@ -274,7 +274,7 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 
 ### ZK Global Credit
 Кредитна й виборча інфраструктура, нативна для Zcash, для вибіркового розкриття, готовності до розрахунків, транскордонної репутації та екранованого управління.  
-[Відвідати](https://voting.zkglobalcredit.tech/)
+[Відвідати](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Інструмент для анонімного створення контенту та приватних пожертв, що працює завдяки Zcash.  

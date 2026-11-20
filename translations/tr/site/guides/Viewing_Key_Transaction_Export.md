@@ -8,7 +8,7 @@
 
 Tam resmi görmek için seed ifadenize ihtiyacınız yoktur. Bir birleşik tam görüntüleme anahtarı (UFVK, `uview1` ile başlayan), bir hesaptaki tüm gelen ve giden işlemleri görebilir ve iki araç bunu saklayacağınız bir dosyaya dönüştürebilir: Zkool GraphQL sunucusu ve zingo-cli. Bu rehber, [bu forum başlığındaki](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) yaklaşımları derler ve güncel sürümler için günceller.
 
-Eylül 2026'da Zkool 6.30.0 ve zingolib 6.0.0'dan zingo-cli ile test edildi.
+Eylül 2026'da Zkool 6.30.0 ve zingolib 6.0.0 sürümünden zingo-cli ile test edildi. Her ikisi de NU7 öncesine ait olduğundan, adımlar Kasım 2026'da Zkool 6.37.0 ve zingolib 8.0.0 sürümlerine taşındı. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388), NU7 Mainnet etkinleştirme yüksekliğiyle derlenen ilk Zkool sürümüdür ve zingolib 8.0.0, NU7 Mainnet desteği ekleyen sürümdür.
 
 ## Başlamadan önce
 
@@ -23,10 +23,10 @@ Bir görüntüleme anahtarı harcama yapamaz, ancak anahtarı elinde tutan herke
 
 - Onu bir web sitesine veya blok gezginine yapıştırmayın. Kendi çalıştırdığınız yazılıma içe aktarın.
 - Senkronize olduğunuz sunucu IP adresinizi ve hangi işlemleri tam olarak indirdiğinizi görür. Aşağıdaki iki araç da memoları ve ücretleri okumak için işlemlerinizin her birini kimliğe göre getirir; ayrıca [ZIP 307](https://zips.z.cash/zip-0307), bunun sunucuya hangi işlemlerin size ait olduğunu söylediğini belirtir. Kendi Zebra düğümünüzden Zaino veya lightwalletd ile senkronizasyon bunu önler. [Zingolib ve Zaino Eğitimi](/guides/zingolib-and-zaino-tutorial), kurulumu adım adım anlatır.
-- zingo-cli 6, ödemeleri Nym mixnet üzerinden gönderir; ancak senkronizasyonu hâlâ doğrudan sunucuya bağlanır, dolayısıyla yukarıdaki nokta bunun için de geçerlidir.
-- Bu araçlara görüntüleme anahtarı verin, asla seed vermeyin. Zkool GraphQL sunucusunda varsayılan olarak giriş yoktur; API'si seed ile oluşturulmuş herhangi bir hesabın seed'ini geri verebilir ve fon gönderebilir.
-- Sunucuyu kendi makinenizde tutun. Aşağıdaki Docker komutu yalnızca `127.0.0.1` üzerinde dinler.
-- Her iki araç da anahtarı ve geçmişinizi şifrelenmemiş olarak saklar. İşiniz bittiğinde çalışma verilerini silin ve dışa aktarımı şifrelenmiş bir yerde tutun.
+- zingo-cli, ödemeleri Nym mixnet üzerinden gönderir; ancak senkronizasyonu hâlâ doğrudan sunucuya bağlanır, dolayısıyla yukarıdaki nokta bunun için de geçerlidir.
+- Bu araçlara görüntüleme anahtarı verin, asla seed vermeyin. Aşağıdaki Docker komutu, `--allow-unauthenticated` ile Zkool GraphQL sunucusunu başlatır; bu nedenle giriş gerektirmez. API'si, bu sunucuda oluşturulan herhangi bir hesabın seed'ini geri verebilir ve fon gönderebilir.
+- Sunucuyu kendi makinenizde tutun. Aşağıdaki Docker komutu yalnızca bilgisayarınızın `127.0.0.1` adresinde dinler. Container içinde sunucunun tüm arayüzlerde (`--bind-address 0.0.0.0`) dinlemesi gerekir; aksi takdirde Docker ona erişemez. Yerel kalmasını sağlayan `-p 127.0.0.1:8000:8000` eşlemesidir.
+- Her iki araç da anahtarı ve geçmişinizi şifrelenmemiş olarak saklar. Zkool veritabanını şifreleyebilir (`--db-password-file`), ancak aşağıdaki komut basit tutmak için `--allow-unencrypted-database` kullanır. İşiniz bittiğinde çalışma verilerini silin ve dışa aktarımı şifrelenmiş bir yerde tutun.
 
 ## Seçenek 1: Zkool GraphQL
 
@@ -38,11 +38,16 @@ Bir görüntüleme anahtarı harcama yapamaz, ancak anahtarı elinde tutan herke
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-`--lwd-url` ile kendi sunucunuzu eklemediğiniz sürece `https://zec.rocks` üzerinden senkronize olur. İlk başlatmada Sapling parametrelerini (yaklaşık 50 MB) indirir. Bu başarısız olursa, `docker start zkool-export` yeniden dener.
+6.32.0 sürümünden itibaren sunucu, iki tercihi açıkça belirtmediğiniz sürece başlamaz: istemcilerin nasıl oturum açacağı (bir JWT anahtarı veya `--allow-unauthenticated`) ve veritabanının şifrelenip şifrelenmeyeceği (bir parola veya `--allow-unencrypted-database`). Ayrıca artık varsayılan olarak yalnızca `127.0.0.1` adresini dinler; bu da bir kapsayıcı içinde dışarıdan hiçbir şeyin ona erişemeyeceği anlamına gelir. Bu yüzden `--bind-address 0.0.0.0` gerekir. Kapsayıcı hemen durursa, hangi seçeneğin eksik olduğunu `docker logs zkool-export` gösterir.
+
+`https://zec.rocks` üzerinden eşitlenir; kendi sunucunuzu kullanmak için `--lwd-url` ekleyin. Görüntüde Sapling parametreleri yerleşik olarak bulunur, bu nedenle başka bir şey indirmeniz gerekmez.
 
 Tarayıcıda `http://127.0.0.1:8000/graphiql` adresini açın. Sonraki adımların her birini buraya yapıştırıp çalıştırabilirsiniz.
 
@@ -141,17 +146,21 @@ Zkool uygulamasında hesap menüsünde İşlemleri, Memoları ve Notları Dışa
 
 ## Seçenek 2: zingo-cli
 
-zingo-cli, Zingo'ün komut satırı cüzdanıdır. Önceden oluşturulmuş indirmeler yoktur; bu nedenle Rust ile derlersiniz:
+zingo-cli, Zingo’ın komut satırı cüzdanıdır. Önceden derlenmiş indirme dosyaları bulunmadığından, Rust ile kendiniz derlemeniz gerekir. zingolib 8.0.0 veya daha yeni bir sürüm kullanın: [sürüm notlarına](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0) göre, NU7’ın Mainnet etkinleştirme yüksekliğini (3.543.405) bilen ilk sürüm budur. 6.0.0 gibi daha eski etiketlerden yapılan derlemeler bu bilgiyi içermez.
+
+Derleme [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`) kullanır. Ubuntu’da ayrıca `sudo apt install build-essential gcc libsqlite3-dev` gerekir.
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-Yalnızca senkronizasyon için bile `nym-proxy` gerekir. zingo-cli 6 onsuz hiçbir sunucuya bağlanmaz.
+Bu, `./target/release/zingo-cli` derler ve `nym-proxy`’i yanına koyar. Yalnızca eşitleme yapmak için bile `nym-proxy` gerekir: zingo-cli onsuz çevrimiçi olmaz. 8.0.0 sürümünden beri `zingo-netutils` ana çalışma alanının bir parçasıdır; bu nedenle `nym-proxy` öğesini `zingo-netutils/target/release/` konumundan kopyalayan eski tarif artık işe yaramaz.
+
+`zingo-cli` dosyasını başka bir yere taşırsanız, `nym-proxy` dosyasını da onunla birlikte taşıyın ya da `--nym-proxy /path/to/nym-proxy` veya `ZINGO_NYM_PROXY` ortam değişkeniyle zingo-cli’ye konumunu bildirin. Bunlar olmadan, kendi ikili dosyasının bulunduğu yere, ardından `PATH`’inize bakar. Proxy’yi başlatamazsa çevrimiçi olmaz.
+
+Yalnızca ödemeler (ve ZEC fiyat sorgulaması) Nym üzerinden yapılır. Senkronizasyon doğrudan sunucuya bağlanır.
 
 İlk çalıştırma yalnızca görüntülemeye yönelik bir cüzdan oluşturur, senkronize eder ve geçmişi yazdırır:
 
@@ -164,8 +173,8 @@ Yalnızca senkronizasyon için bile `nym-proxy` gerekir. zingo-cli 6 onsuz hiçb
 
 - `--data-dir` mutlak bir yol olmalıdır.
 - `--viewkey` ve `--birthday` yalnızca cüzdan oluşturulurken geçerlidir. Sonrasında bunları kullanmayın.
-- zingo-cli varsayılan olarak çevrimdışı başlar. `--server` sunucuyu seçer ve aynı zamanda çevrimiçi olma onayınız sayılır.
-- Anahtar kabuk geçmişinizde kalır; bu yüzden sonrasında temizleyin.
+- Yeni oluşturulan bir zingo-cli varsayılan olarak çevrimdışıdır ve çevrimiçi olması için izninizi gerektirir. `--server` sunucuyu seçer ve aynı zamanda bu izni de verir. Diğer yöntemler `--online` (yalnızca bu oturum için) ve `--remember-online` yöntemidir; bu yöntem seçimi cüzdanın yanına da kaydeder, böylece sonraki çalıştırmalarda bir işaret olmadan çevrimiçi olur (`--forget-online` bu seçimi geri alır).
+- Anahtar kabuk geçmişinize kaydedilir; bu yüzden sonrasında geçmişi temizleyin.
 
 Sonraki çalıştırmalar:
 
@@ -184,10 +193,10 @@ $Z --offline messages > memos.json
 
 Çıktı hakkında bilinmesi gereken birkaç şey:
 
-- `transactions` ve `value_transfers`, JSON'a biraz benzeyen ancak JSON olmayan düz metin yazdırır.
-- Tutarlar zatoshi cinsindendir (1 ZEC için 100.000.000) ve her zaman pozitiftir. `kind` yönü belirtir. Gönderimlerde `value`, ücret hariç diğer kişilere giden miktardır.
-- Bir işlem size ait olmayan şeffaf fonları harcadığında ücret "not available" olarak görünür. Yalnızca metin memolar gösterilir.
-- Senkronizasyon başarısız olursa hata dosyaya değil terminale gider ve zingo-cli yine de normal şekilde çıkar. `transactions.txt`'ye güvenmeden önce terminali kontrol edin.
+- `transactions` ve `value_transfers` JSON’a benzeyen ama JSON olmayan düz metinler yazdırır.
+- Tutarlar zatoshi cinsindendir (100.000.000 zatoshi = 1 ZEC) ve her zaman pozitiftir. Yönü `kind` belirtir. Gönderimlerde `value`, ücret hariç başkalarına giden tutardır.
+- Bir işlem size ait olmayan şeffaf fonları harcadığında ücret “kullanılamıyor” olarak gösterilir. Yalnızca metin notları gösterilir.
+- Eşitleme başarısız olursa hata dosyaya değil terminale yazılır. zingolib 8.0.0 sürümünden beri (zingo-cli 0.5.0) başarısız bir komut sıfırdan farklı bir kodla da çıkar; ancak `transactions.txt`’ye güvenmeden önce terminali kontrol edin.
 
 dismad'in [zingoHelper](https://github.com/dismad/zingoHelper) aracı, `transactions`'ü JSON'a dönüştüren bir `exportToJSON.sh` betiğine sahiptir. zingo-cli 6'dan önce yazılmıştır, testnet için ayarlanmıştır, bazı giden Sapling ve şeffaf girdileri yer tutucu olarak işaretler ve GNU araçlarına ihtiyaç duyar; dolayısıyla standart macOS'ta çalışmaz. Çıktısını başlangıç noktası olarak görün ve toplamları kontrol edin.
 
@@ -213,6 +222,6 @@ dismad'in [zingoHelper](https://github.com/dismad/zingoHelper) aracı, `transact
 - [Görüntüleme Anahtarları](/zcash-tech/viewing-keys)
 - [Fonları Kurtarma](/using-zcash/recovering-funds)
 - [Zingolib ve Zaino Eğitimi](/guides/zingolib-and-zaino-tutorial)
-- [Forum: UFVK/seed'den işlem geçmişini JSON/CSV'ye dışa aktarma](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
-- [Forum: Zkool & GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [Forum: UFVK/tohumdan işlem geçmişini JSON/CSV olarak dışa aktarma](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [Forum: Zkool ve GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
+- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)

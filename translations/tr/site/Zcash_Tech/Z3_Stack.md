@@ -8,16 +8,18 @@
 
 Referans uygulama, [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3) adresindeki Docker Compose projesidir.
 
+> **Durum, 14 Kasım 2026: varsayılan sabitlemeler NU7 öncesine dayanıyor.** Z3'ün `docker-compose.yml` değeri en son 10 Ağustos 2026'da değiştirildi. Hâlâ `zfnd/zebra:6.2.3` ve `zodlinc/zallet:v0.1.0-beta.1` değerlerini sabitliyor, `zallet-zaino` ikilisi olarak başladı. [NU7](NU7.md), 6 Kasım 2026'da 3.543.405 numaralı blokta Mainnet'te etkinleştirildi ve bunu yalnızca 7.0.0 veya sonraki Zebra sürümleri izliyor: 6.x sürümündeki bir Zebra eski kurallarda kalır ve gerçek zincirden kopar. Zallet v0.1.0-beta.4, NU7 sürümünü izleyen ilk sürümdür ve artık `zallet-zaino` hiç içermiyor. Dağıtımdan önce depoda daha yeni sabitlemeler olup olmadığını kontrol edin. Görüntüleri kendiniz geçersiz kılıp değiştiriyorsanız, Zallet'ün kalan `zebra` arka ucunun Zebra'in durum dizinini doğrudan okuduğunu unutmayın; bu nedenle Zallet, bu dizine erişebilen aynı ana makinede çalışmalıdır ([Zallet](Zallet.md)).
+
 ---
 
 ## Kısaca
 
-* Z3, **yeni bir mutabakat istemcisi değildir**. `zcashd` sonrası stack’i birlikte çalıştırma yöntemidir: Zebra zinciri doğrular, Zallet anahtarları tutar ve cüzdan RPC sunar; Zaino ise (isteğe bağlı) lightwalletd gRPC protokolünü kullanır.
-* `zcashd` düğüm + cüzdanı bir araya getiriyordu. Z3 **bu rolleri ayırır**. Borsalar, madencilik havuzları ve diğer tam düğüm cüzdanı operatörleri yalnızca Zebra yerine bu kombinasyona geçer.
-* Bir ana makinede üç yalıtılmış Compose projesi çalışabilir: **mainnet**, **testnet** ve **regtest**.
-* Mainnet’in ilk senkronizasyonu yaklaşık **24–72 saat** sürer ve yaklaşık **300 GB** alan gerektirir. Regtest saniyeler içinde çalışır ve stack’i öğrenmek için doğru yerdir.
-* Zallet, Zaino’nin dizinleyici kütüphanelerini gömer ve Zebra ile JSON-RPC üzerinden iletişim kurar. Bağımsız Zaino hizmeti yalnızca harici cüzdanlar için lightwalletd uyumlu bir uç nokta istiyorsanız gereklidir.
-* Zallet **beta** aşamasındadır. Kırıcı değişiklikler cüzdanın silinmesini ve yeniden oluşturulmasını gerektirebilir. Büyük tutarlar için tamamlanmış bir saklama yazılımı olarak değerlendirmeyin.
+* Z3 **yeni bir mutabakat istemcisi değildir**. `zcashd` sonrası yığını birlikte çalıştırmanın yoludur: Zebra zinciri doğrular, Zallet anahtarları tutar ve cüzdan RPC’si sunar, Zaino ise (isteğe bağlı olarak) lightwalletd gRPC protokolünü kullanır.
+* `zcashd`, düğüm ve cüzdanı bir arada sunuyordu. Z3 bu rolleri **ayırır**. Borsalar, madencilik havuzları ve diğer tam düğüm cüzdanı operatörleri yalnızca Zebra’ya geçmek yerine bu bileşime geçer.
+* Tek bir ana makinede birbirinden yalıtılmış üç Compose projesi çalıştırılabilir: **mainnet**, **testnet** ve **regtest**.
+* Mainnet’in ilk eşitlemesi yaklaşık **24–72 saat** sürer ve yaklaşık **300 GB** alan gerektirir. Regtest saniyeler içinde başlar ve yığını öğrenmek için en uygun yerdir.
+* Sabitlenmiş Z3 imajında Zallet, `zallet-zaino` arka ucunu (Zaino’ın indeksleyici kütüphanelerini) çalıştırır ve JSON-RPC üzerinden Zebra ile iletişim kurar. Zallet, v0.1.0-beta.4’te bu arka ucu kaldırdı; güncel Zallet, Zebra’ın durumunu doğrudan okur. Bağımsız Zaino hizmeti, yalnızca harici cüzdanlar için lightwalletd ile uyumlu bir uç nokta istiyorsanız gereklidir.
+* Zallet **beta** aşamasındadır. Kapsamı bozan değişiklikler, cüzdanın silinip yeniden oluşturulmasını gerektirebilir. Büyük meblağlar için tamamlanmış bir saklama yazılımı olarak değerlendirmeyin.
 
 ---
 
@@ -51,11 +53,11 @@ Adı, varsayılan Compose dosyası yalnızca Zebra ve Zallet başlatsa da gayrir
                         light wallets / explorers
 ```
 
-| Bileşen | Z3’teki rolü | Gerekli mi? |
+| Bileşen | Z3 içindeki rolü | Gerekli mi? |
 | --- | --- | --- |
-| **Zebra** | Zinciri, gossip’i, JSON-RPC’yi ve sağlık uç noktasını senkronize eder ve doğrular | Evet |
-| **Zallet** | Tam düğüm cüzdanı. Zaino kütüphanelerini gömer. Doğrudan Zebra JSON-RPC’ye bağlanır. Bağımsız Zaino konteynerini **çağırmaz** | Evet |
-| **Zaino** | Bağımsız dizinleyici. Harici hafif istemciler için lightwalletd uyumlu gRPC ve ayrıca gezginler ile faucet’ler için JSON-RPC proxy’si sunar | Hayır — `--profile indexer` |
+| **Zebra** | Zinciri eşitler ve doğrular; gossip, JSON-RPC ve sağlık uç noktası sağlar | Evet |
+| **Zallet** | Tam düğüm cüzdanı. Sabitlenmiş beta.1 imajı, Zaino-library arka ucunu çalıştırır (`zallet-zaino`, Zallet beta.4'te kaldırıldı) ve doğrudan Zebra JSON-RPC'ye bağlanır. Bağımsız Zaino konteynerini çağırmaz | Evet |
+| **Zaino** | Bağımsız indeksleyici. Harici hafif istemciler için lightwalletd uyumlu gRPC'nin yanı sıra gezginler ve faucet'ler için bir JSON-RPC proxy'si sağlar | Hayır — `--profile indexer` |
 
 Z3, imaj sürümlerini `docker-compose.yml` içinde sabitler. Farklı bir etiket gerekiyorsa `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE` veya `Z3_ZALLET_IMAGE` ile geçersiz kılın.
 
@@ -180,12 +182,12 @@ Varsayılan Grafana portları 3000 (mainnet), 13000 (testnet), 23000 (regtest) �
 
 ## Operatör notları
 
-* **Sabitlenmiş imajlar.** Z3 sessizce `:latest` sürümüne geçmez. İncelenmiş bir değişiklikte sabitlemeyi yükseltin veya `Z3_<SERVICE>_IMAGE` ayarlayın.
-* **Root olmayan konteynerler.** Linux yetenekleri kaldırılmıştır. Sağlık kontrolleri, Zebra hazır olana dek cüzdanı bekletir. Yeniden başlatma politikası varsayılan olarak açıktır.
-* **Günlükler.** Z3 bir günlükleme sürücüsünü sabitlemez. Docker daemon yapılandırmasında boyut sınırları belirleyin; aksi hâlde günlükler 7/24 çalışan bir düğümde sınırsız büyür.
-* **P2P.** Mainnet ve testnet, Zebra’nin P2P portunu yayımlar. NAT arkasındaysanız `ZEBRA_NETWORK__EXTERNAL_ADDR` değişkenini eşlerin çevirmesi gereken adres olarak ayarlayın. Regtest’in eşi yoktur.
-* **ARM üzerinde Zaino.** Yukarı akış Zaino imajı yalnızca `linux/amd64` içindir. Apple Silicon üzerinde, kaynaktan derlemediğiniz sürece emülasyon altında çalışır. Zebra ve Zallet çok mimarilidir.
-* **Paylaşımlı ana makineler.** Varsayılan olarak CPU veya bellek sınırı ayarlanmamıştır. Makine düğüme ayrılmamışsa bir geçersiz kılma dosyasına `deploy.resources.limits` ekleyin.
+* **Sabitlenmiş imajlar.** Z3, sessizce `:latest` sürümüne geçmez. İncelenmiş bir değişiklikte sabitlenmiş sürümü yükseltin veya `Z3_<SERVICE>_IMAGE` ayarlayın. Sabitlenmiş sürümler Ağustos 2026’dan beri değişmedi; dolayısıyla NU7 öncesine dayanıyorlar (üstteki durum notuna bakın).
+* **Root olmayan kapsayıcılar.** Linux yetenekleri kaldırılır. Sağlık kontrolleri, Zebra hazır olana kadar cüzdanın başlamasını engeller. Yeniden başlatma ilkesi varsayılan olarak etkindir.
+* **Günlükler.** Z3 bir günlükleme sürücüsünü sabitlemez. Docker arka plan programı yapılandırmasında boyut sınırları belirleyin; aksi takdirde 7/24 çalışan bir düğümde günlükler sınırsız büyür.
+* **P2P.** Mainnet ve testnet, Zebra’ın P2P portunu yayımlar. NAT arkasındaysanız eşlerin bağlanması gereken adresi `ZEBRA_NETWORK__EXTERNAL_ADDR` ile ayarlayın. Regtest’te eş yoktur.
+* **ARM’de Zaino.** Üst kaynak Zaino imajı yalnızca `linux/amd64` içindir. Apple Silicon’da, kaynak koddan derlemediğiniz sürece emülasyon altında çalışır. Zebra ve Zallet çoklu mimariyi destekler.
+* **Paylaşımlı sunucular.** Varsayılan olarak CPU veya bellek sınırı belirlenmez. Makine yalnızca düğüm için ayrılmamışsa bir geçersiz kılma dosyasına `deploy.resources.limits` ekleyin.
 
 Üretim benzeri kontrol listesi ve SSS: [docs/faq.md](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md), [docs/docker-architecture.md](https://github.com/ZcashFoundation/z3/blob/main/docs/docker-architecture.md).
 
@@ -202,9 +204,9 @@ Varsayılan Grafana portları 3000 (mainnet), 13000 (testnet), 23000 (regtest) �
 
 **Genellikle yanlış araç**
 
-* Yalnızca ZEC göndermek ve almak isteyen son kullanıcılar — ZODL / Zashi, Zingo veya YWallet gibi hafif bir cüzdan kullanın
-* Yalnızca zinciri doğrulamak isteyen kişiler — tek başına Zebra (veya Zakura) çalıştırın
-* Yalnızca compact bloklar sunmak isteyen kişiler — Zallet olmadan Zebra + Zaino veya Zebra + lightwalletd çalıştırın
+* Yalnızca ZEC gönderip almak isteyen son kullanıcılar — ZODL / Zashi, Zingo veya YWallet'in bakımı sürdürülen halefi olan Zkool gibi hafif bir cüzdan kullanın
+* Yalnızca zinciri doğrulamak isteyenler — tek başına Zebra (veya Zakura) çalıştırın
+* Yalnızca kompakt blokları sunmak isteyenler — Zallet olmadan Zebra + Zaino ya da Zebra + lightwalletd çalıştırın
 
 ---
 

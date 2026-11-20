@@ -132,7 +132,7 @@ Her bahşişin korumalı ZEC olarak ulaştığı canlı, saklamasız bahşiş pl
 
 ### CYZE
 Birden fazla ekip üyesinin korumalı Zcash fonlarını birlikte yönetmesine olanak tanıyan işbirlikçi cüzdan ve koordinasyon platformu. FROST eşik imzalarını kullanarak grupların, tek bir katılımcıya cüzdan üzerinde tam kontrol vermeden Orchard işlemlerini topluca yetkilendirmesini sağlar.  
-[Ziyaret et](https://github.com/USCMig/Cyze)
+[Ziyaret et](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 Harcama yetkisi olmadan korumalı fonları izlemek zorunda olan kişiler ve kuruluşlar için tasarlanmış yalnızca izleme özellikli masaüstü cüzdanı. İşlem ve bakiye izleme, Orchard ve Sapling notları, memo görüntüleme, geçmişe dönük fiat değerleme, işlem bildirimleri, cüzdan şifreleme ve gizlilik odaklı ekran paylaşımı özelliklerini destekler.  
@@ -168,7 +168,7 @@ Zcash kabul eden işletmelerin ve yerlerin küresel haritası.
 
 ### ZECping
 Zcash lightwalletd düğümlerinin gRPC yanıt sürelerini kontrol etmeye yarayan araç.  
-[Ziyaret et](https://github.com/emersonian/zecping)
+[Ziyaret et](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Gerçek zamanlı Zcash ağ istatistikleri ve korumalama metrikleri için pano.  
@@ -217,7 +217,7 @@ Web'de gezinirken fiat para birimi fiyatlarını gerçek zamanlı olarak ZEC'e d
 
 ### Shielded Wall
 Zcash gizliliğiyle desteklenen anonim itiraf platformu.  
-[Ziyaret et](https://shieldedwall.org/)
+[Ziyaret et](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Korumalı ZEC ile ödenen tek kullanımlık e-posta gelen kutusu.  
@@ -232,7 +232,7 @@ Zcash için gizliliği koruyan finansal takip ve muhasebe aracı. Şeffaf ağ ve
 [Ziyaret et](https://zecledger-web.vercel.app/)
 
 ### ZcashMe ile Kimlik Doğrulama
-Giriş mekanizması olarak korumalı Zcash işlemlerini kullanan, gizlilik odaklı kimlik doğrulama sistemi. Kullanıcılar bir QR kodunu tarar ve küçük bir kimlik doğrulama işlemi gönderir.  
+Giriş mekanizması olarak korumalı Zcash işlemlerini kullanan, gizlilik odaklı bir kimlik doğrulama sistemi. Kullanıcılar bir QR kodunu tarar ve küçük bir kimlik doğrulama işlemi gönderir. Depo arşivlenmiştir (salt okunurdur), bu nedenle proje artık sürdürülmemektedir.  
 [Ziyaret et](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Giriş mekanizması olarak korumalı Zcash işlemlerini kullanan, gizlilik odakl
 
 ### Ztreamer
 Gömülü bir Zakura düğümüyle desteklenen, yoğun biçimde optimize edilmiş açık kaynaklı Zcash indeksleyicisi ve lightwallet-protocol (CompactTxStreamer) uygulaması. Düğüm + indeksleyici + cüzdan sunucusunu tek süreçte (ztreamerd) çalıştırır; gRPC ve Zakura v2 P2P'yi destekler. Hafif cüzdanlar için hızlı geçmiş indeksleme ve düşük gecikmeli hizmet sunumu sağlar.  
-[Ziyaret et](https://github.com/distractedm1nd/ztreamer)  
+[Ziyaret et](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 zcashd ve Zebra geliştiricileri için ağ test paketi. Bir Zcash tarayıcısı içerir.  
-[Ziyaret et](https://github.com/runziggurat/zcash)
+[Ziyaret et](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Musluk, Unified Address düzenekleri ve lightwalletd veya Zaino ile bir Zebra regtest ağını başlatan, ayrıca korumalı uçtan uca akışlar için yeniden kullanılabilir GitHub Actions sunan Linux öncelikli araç seti.  
@@ -274,7 +274,7 @@ Zcash üzerine kurulu, kooperatif ve aşağıdan yukarıya iş organizasyonu mod
 
 ### ZK Global Credit
 Seçici ifşa, mutabakat hazırlığı, sınır ötesi itibar ve korumalı yönetişim için Zcash yerel kredi ve oylama altyapısı.  
-[Ziyaret et](https://voting.zkglobalcredit.tech/)
+[Ziyaret](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Zcash tarafından desteklenen anonim içerik oluşturma ve özel bağışlar için araç.  

@@ -10,7 +10,7 @@ Lo que aprenderás: cómo Blossom hizo que los bloques de Zcash llegaran aproxim
 
 Blossom es una Zcash [actualización de red network upgrade](../start-here/network-upgrades). Fue implementada mediante [ZIP 206](https://zips.z.cash/zip-0206), y su principal cambio de consenso se define en [ZIP 208](https://zips.z.cash/zip-0208). Blossom fue una actualización de escalabilidad: redujo el tiempo objetivo entre bloques de 150 segundos a 75 segundos, por lo que los bloques llegan aproximadamente el doble de veces. El Electric Coin Company lideró y anunció Blossom.
 
-Por qué esto importa. Cuando envías ZEC, esperas a que la red la confirme en un bloque. Si los bloques son lentos, esperas más. Antes de Blossom, se esperaba un bloque nuevo aproximadamente cada 150 segundos. Blossom redujo ese objetivo a la mitad, a 75 segundos, por lo que las confirmaciones llegan antes y la cadena puede transportar más transacciones en el mismo tiempo. Lo hizo sin crear más ZEC ni modificar el momento de futuros halvings.
+Por qué esto importa. Cuando envías ZEC, esperas a que la red la confirme en un bloque. Si los bloques son lentos, esperas más. Antes de Blossom, se esperaba un bloque nuevo aproximadamente cada 150 segundos. Blossom redujo ese objetivo a la mitad, a 75 segundos, por lo que las confirmaciones llegan antes y la cadena puede transportar más transacciones en el mismo tiempo. Lo hizo sin crear más ZEC ni modificar el momento de futuros halvings. (NU7, activada en noviembre de 2026, volvió a reducir el objetivo, esta vez a 25 segundos, mediante [ZIP 218](https://zips.z.cash/zip-0218), con el mismo enfoque.)
 
 ## TL;DR
 

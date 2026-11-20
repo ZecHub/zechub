@@ -14,15 +14,15 @@
 | Actions | بدلًا من إنشاء عدة إثباتات فردية لكل Spend وOutput، يدمج بروتوكول Orchard هذه العناصر في Action واحدة. |
 | Addresses | يحتوي Zcash على عناوين Shielded ‏(zaddr) وعناوين Transparent ‏(taddr). تجمع العناوين الموحدة (UA) عدة أنواع من المستقبِلات كي تتمكن محفظة الإرسال من اختيار أفضل نوع يدعمه الطرفان. محدد في [ZIP 316](https://zips.z.cash/zip-0316). [العناوين الموحدة](/zcash-tech/unified-addresses) |
 | Arborist Call | مكالمة تُعقد كل أسبوعين لتغطية مستجدات تطوير بروتوكول Zcash والأبحاث. تُستضاف على منتدى مجتمع Zcash وDiscord. [ملاحظات الاجتماع](https://github.com/ZcashCommunityGrants/arboretum-notes) / [إعلانات المنتدى](https://forum.zcashcommunity.com) |
-| Auto-shielding | يتيح للمستخدمين، أو بشكل أدق لمحافظهم، نقل الأموال تلقائيًا من عنوان transparent إلى أحدث مجمع ZEC محمي. |
+| Auto-shielding | يتيح للمستخدمين، أو بشكل أدق لمحافظهم، نقل الأموال تلقائيًا من عنوان شفاف إلى أحدث مجمع ZEC محمي. |
 
 ## B
 
 | المصطلح | التعريف |
 |------|-----------|
 | Benchmarking | يستطيع المعدّنون إرسال مقاييس حول كفاءة مختلف أنواع العتاد المستخدمة في تعدين Zcash. [اعرضها هنا](https://zcashbenchmarks.info) |
-| Block | الكتلة هي سجل في blockchain الخاصة بـ Zcash يحتوي على مجموعة من المعاملات المرسلة عبر الشبكة. وفي المتوسط، تُضاف كتلة جديدة إلى blockchain كل نحو 75 ثانية. |
-| Block Explorer | أداة عبر الإنترنت لعرض جميع المعاملات، السابقة والحالية، على blockchain. [Zcash مستكشف الكتل](https://zcashexplorer.app/) |
+| Block | الكتلة هي سجل في سلسلة الكتل الخاصة بـ Zcash، ويحتوي على مجموعة من المعاملات المرسلة عبر الشبكة. وفي المتوسط، تُضاف كتلة جديدة إلى سلسلة الكتل كل نحو 25 ثانية (كانت المدة 75 ثانية قبل تفعيل NU7 في نوفمبر 2026). |
+| Block Explorer | أداة عبر الإنترنت لعرض جميع المعاملات، السابقة والحالية، على سلسلة الكتل. [Zcash مستكشف الكتل](https://zcashexplorer.app/) |
 | Blogs | [ZODL مدونة (سابقًا Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation مدونة](https://zfnd.org/blog/) / [ZecHub نشرة إخبارية](https://zechub.substack.com/) |
 | Blossom | ثالث ترقية رئيسية للشبكة في Zcash. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
@@ -33,8 +33,8 @@
 | Canopy | خامس ترقية رئيسية للشبكة في Zcash. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | يتيح للمُلتزِم أن يلتزم بكثير حدود باستخدام سلسلة قصيرة يمكن لجهة التحقق استعمالها لتأكيد التقييمات المزعومة لكثير الحدود الملتزَم به. وهذا مفيد في خفض تكاليف الاتصال في بروتوكول Zcash. |
 | Community | [المنتدى الرسمي لمجتمع Zcash](https://forum.zcashcommunity.com) / [Zcash مجتمع Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash البحث والتطوير لـ Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | تصميم توافق هجيني مقترح يشغّل إثبات الحصة إلى جانب إثبات العمل القائم لـ Zcash. يقود Shielded Labs العمل ويحتفظ بنموذج أولي في مستودع `zebra-crosslink`. لا يشكّل Crosslink جزءًا من Zcash اليوم. [Crosslink بروتوكول](/zcash-tech/crosslink-protocol) |
-| CrossPay | ميزة في محفظة ZODL تتيح لك إنفاق ZEC المحمي بينما يُدفَع للمستلم بالأصل والسلسلة اللذين يفضلهما، مع التوجيه عبر NEAR Intents بدلًا من بورصة مركزية. |
+| Crosslink | تصميم توافق هجيني مقترح يشغّل إثبات الحصة إلى جانب إثبات العمل القائم لـ Zcash. يقود Shielded Labs العمل ويشغّل شبكة اختبار، وهي Feature Net، من مستودع `crosslink_monolith`. أُحيل مستودع النموذج الأولي السابق `zebra-crosslink` إلى التقاعد في نوفمبر 2026. لا يشكّل Crosslink جزءًا من Zcash اليوم. [Crosslink بروتوكول](/zcash-tech/crosslink-protocol) |
+| CrossPay | ميزة في محفظة ZODL تتيح لك إنفاق ZEC المحمي بينما يُدفَع للمستلم بالأصل والسلسلة اللذين يفضلهما، مع التوجيه عبر NEAR Intents بدلًا من منصة تداول مركزية. |
 | Cypherpunk Zero | عالم إبداعي وجهد تعاوني بين ECC والرسام Stranger Wolf وMighty Jaxx وشركاء مختارين من المنظومة. [شبكات Cypherpunk Zero الاجتماعية](https://x.com/cypherpunkZero) / [مجموعة OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
@@ -78,7 +78,7 @@
 
 | المصطلح | التعريف |
 |------|-----------|
-| Halo | يتيح ترقية الدوائر من دون الحاجة إلى trusted setups، مما يجعل البروتوكول المحمي في Zcash أكثر مرونة للتحسينات والتوسعات المستقبلية. [شرح تقني](https://z.cash/learn/what-is-halo-for-zcash/) |
+| Halo | يتيح ترقية الدوائر من دون الحاجة إلى إعدادات موثوقة، مما يجعل البروتوكول المحمي في Zcash أكثر مرونة للتحسينات والتوسعات المستقبلية. [شرح تقني](https://z.cash/learn/what-is-halo-for-zcash/) |
 | HD Wallet | تُنشئ المحافظ الهرمية الحتمية سلسلة من أزواج المفاتيح من seed واحدة، ما يوفر سهولة ومرونة في الإدارة إلى جانب مستوى عالٍ من الأمان. |
 | Heartwood | رابع ترقية رئيسية للشبكة في Zcash. [مزيد من المعلومات](https://z.cash/upgrade/heartwood/) |
 
@@ -108,9 +108,9 @@
 
 | المصطلح | التعريف |
 |------|-----------|
-| Layer-1 | يشير إلى شبكة أساسية وبنيتها التحتية الكامنة. تستطيع شبكات blockchain من الطبقة الأولى التحقق من المعاملات وإنهاءها من دون الحاجة إلى شبكة أخرى. Zcash هو blockchain من الطبقة الأولى. |
+| Layer-1 | يشير إلى شبكة أساسية وبنيتها التحتية الكامنة. تستطيع شبكات سلسلة الكتل من الطبقة الأولى التحقق من المعاملات وإنهاءها من دون الحاجة إلى شبكة أخرى. Zcash هو سلسلة كتل من الطبقة الأولى. |
 | librustzcash | مساحة عمل Rust تحتوي على جميع crates والاعتماديات اللازمة للعمل مع Zcash. [المستودع](https://github.com/zcash/librustzcash) |
-| lightwalletd | خادم عديم الحالة يزوّد العملاء الخفيفين بمعلومات blockchain. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
+| lightwalletd | خادم عديم الحالة يزوّد العملاء الخفيفين بمعلومات سلسلة الكتل. [lightwalletd](https://zcash.readthedocs.io/en/latest/rtd_pages/lightclient_support.html) |
 
 ## M
 
@@ -127,17 +127,17 @@
 | المصطلح | التعريف |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | مقترح من Shielded Labs لحرق حصة من رسوم المعاملات بحيث لا تعتمد ميزانية الأمان طويلة الأجل للبروتوكول بالكامل على الإصدار. وهو محدد في ZIP 234، وقيد المراجعة في 2026. |
-| Nighthawk | محفظة جوال لـ Zcash. [الموقع الإلكتروني](https://nighthawkwallet.com) |
+| Nighthawk | محفظة جوال سابقة لـ Zcash من Nighthawk Apps. لم تعد محافظ Zcash تُصان، وصُممت Nighthawk Wallet 3.0 لـ DarkFi بدلًا منها. لنقل الأموال من عبارة الاسترداد القديمة لـ Nighthawk، راجع [استرداد الأموال](/using-zcash/recovering-funds). |
 | Noir Wallet | محفظة Zcash على شكل إضافة متصفح ومدعومة من Zcash Community Grants، وقد بُنيت لربط ZEC المحمي مباشرةً بتطبيقات المتصفح بدلًا من الاعتماد على رموز QR والتحويلات اليدوية. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | سادس ترقية رئيسية للشبكة في Zcash، وقد قدمت مجمع Orchard المحمي وUnified Addresses. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | سابع ترقية رئيسية للشبكة في Zcash، وتعدل دعم الكتلة لتمويل برنامج Zcash Community Grants وخزانة صندوق تمويل التطوير المؤجل. وقد فُعّلت في أواخر 2024. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | ترقية الشبكة التي تلي Ironwood، والمستهدفة للشبكة الرئيسية في 5 نوفمبر 2026. وفقًا لـ [ZIP 259](https://zips.z.cash/zip-0259)، تجلب كتلًا مدتها 25 ثانية (ZIP 218)، وNetwork Sustainability Mechanism مع إعادة تدوير الرسوم (ZIPs 235 و237)، وإنهاء معاملات الإصدار 4، مما يجعل أموال Sprout غير قابلة للإنفاق (ZIP 2003). لا تضيف أي صيغة جديدة للمعاملات؛ ولا يشكل Tachyon ولا Zcash Shielded Assets جزءًا منها. |
+| NU7 | ترقية الشبكة التي تلي Ironwood، وفُعّلت على الشبكة الرئيسية عند الارتفاع 3,543,405 في 6 نوفمبر 2026 (UTC). وفقًا لـ [ZIP 259](https://zips.z.cash/zip-0259)، تجلب كتلًا مدتها 25 ثانية (ZIP 218)، وNetwork Sustainability Mechanism مع إعادة تدوير الرسوم (ZIPs 235 و237)، وإنهاء معاملات الإصدار 4، مما يجعل أموال Sprout غير قابلة للإنفاق (ZIP 2003). لا تضيف أي صيغة جديدة للمعاملات؛ ولا يشكل Tachyon ولا Zcash Shielded Assets جزءًا منها. |
 
 ## O
 
 | المصطلح | التعريف |
 |------|-----------|
-| Oblivious Synchronization | طريقة قيد التطوير ضمن Project Tachyon تتيح للمحفظة طلب البيانات التي تحتاجها من خادم غير موثوق من دون الكشف عن الملاحظات التي تطلب معلومات عنها. ولا يتعلم الخادم أبدًا nullifiers الخاصة بك، لأن البروتوكول يجعلها تتطور بطريقة غير قابلة للربط. [الشرح](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
+| Oblivious Synchronization | طريقة قيد التطوير ضمن Project Tachyon تتيح للمحفظة طلب البيانات التي تحتاجها من خادم غير موثوق من دون الكشف عن notes التي تطلب معلومات عنها. ولا يتعلم الخادم أبدًا قيم مانع التكرار الخاصة بك، لأن البروتوكول يجعلها تتطور بطريقة غير قابلة للربط. [الشرح](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) |
 | Orchard | مجمع المعاملات المحمي الذي قُدِّم في NU5. أغلقه Ironwood بعد اكتشاف خلل في السلامة، لذا لم يعد بإمكانك الإرسال أو الاستلام داخل Orchard. ولا تخرج الأموال إلا عبر البوابة الدوارة. [مجمعات المعاملات المحمية](/using-zcash/shielded-pools) |
 | Overwinter | أول ترقية للشبكة في Zcash. [مزيد من المعلومات](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#overwinter) |
 
@@ -146,8 +146,8 @@
 | المصطلح | التعريف |
 |------|-----------|
 | Payments | من الممكن استخدام Zcash للمشتريات اليومية عبر عدد من مزودي الدفع المختلفين. [تطبيقات الدفع](https://z.cash/pay-with-zcash/) |
-| PCD (Proof-Carrying Data) | بنية أساسية تنتقل فيها البيانات جنبًا إلى جنب مع برهان على صحة تلك البيانات، بحيث إن دمج البيانات يؤدي أيضًا إلى دمج البراهين. يعيد Project Tachyon بناء البروتوكول المحمي حول PCD، مما يتيح لكل wallet حمل برهان تكراري على أن رصيده الخاص صحيح بدلًا من إعادة فحص السلسلة. إن تنفيذ Zcash هو [Ragu](https://github.com/tachyon-zcash/ragu)، وهو يتبع Halo ولا يحتاج إلى trusted setup. |
-| Peer-to-Peer Network | تستند شبكات P2P إلى مفهوم اللامركزية. وهي البنية المعمارية الأساسية لتقنية blockchain. |
+| PCD (Proof-Carrying Data) | بنية أساسية تنتقل فيها البيانات جنبًا إلى جنب مع برهان على صحة تلك البيانات، بحيث إن دمج البيانات يؤدي أيضًا إلى دمج البراهين. يعيد Project Tachyon بناء البروتوكول المحمي حول PCD، مما يتيح لكل محفظة حمل برهان تكراري على أن رصيدها الخاص صحيح بدلًا من إعادة فحص السلسلة. إن تنفيذ Zcash هو [Ragu](https://github.com/tachyon-zcash/ragu)، وهو يتبع Halo ولا يحتاج إلى إعداد موثوق. |
+| Peer-to-Peer Network | تستند شبكات P2P إلى مفهوم اللامركزية. وهي البنية المعمارية الأساسية لتقنية سلسلة الكتل. |
 | PIR (Private Information Retrieval) | تقنيات تتيح لك جلب سجل من خادم من دون أن يتعلّم الخادم أي سجل طلبته. وهي محل بحث نشط في Zcash كوسيلة تمكّن المحافظ الخفيفة من استرجاع ما تحتاج إليه من دون كشف ما الذي تبحث عنه. |
 | Podcast | [Radiolab (مراسم Zcash)](https://archive.org/details/radiolab_podcast17crypto_zcash_ceremony) / [RealVisionFinance](https://www.youtube.com/watch?v=ibA_4kwd_YI) / [EthDenver](https://www.youtube.com/watch?v=t62isi58XcQ) / [UpOnlyPodcast](https://www.youtube.com/watch?v=AjC9T938o3Q) / [Zcast en Español](https://www.youtube.com/@ZcastEsp) |
 
@@ -172,7 +172,7 @@
 | Selective Disclosure | يتيح لمالك عنوان محمي أن يشارك بشكل انتقائي مفاتيح العرض أو إفصاحات الدفع مع أطراف ثالثة مع إبقاء البيانات خاصة عن الجميع الآخرين. |
 | Shielded Address | يُسمى أيضًا zaddr. يبدأ بحرف z. يُخفي المرسل والمستقبل والمبلغ والمذكرة باستخدام zk-SNARKs. |
 | Shielded Labs | منظمة مستقلة تعمل على اقتصاديات بروتوكول Zcash وآلية الإجماع. وتقود حاليًا Crosslink وآلية استدامة الشبكة. [GitHub](https://github.com/ShieldedLabs) |
-| Shielded Transaction | معاملة تتم حصريًا بين عناوين محمية. وهي خاصة بالكامل على blockchain. |
+| Shielded Transaction | معاملة تتم حصريًا بين عناوين محمية. وهي خاصة بالكامل على سلسلة الكتل. |
 | Sol/s | حلول في الثانية - مقياس لأداء تعدين Equihash. |
 | Spending Key | المفتاح الخاص الذي يسمح بالإنفاق من عنوان محمي (ويتيح أيضًا عرض الرصيد والسجل). |
 | Sprout | النسخة الأصلية من البروتوكول المحمي في Zcash (أُطلقت في 2016). |
@@ -183,7 +183,7 @@
 |------|-----------|
 | Tachyon | برنامج Zcash للتوسّع. وهو ليس جزءًا من NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) وليس له تاريخ تفعيل. وهو ينقل المحافظ بعيدًا عن مسح كل كتلة إلى حالة محفظة مصحوبة بإثبات، ومزامنة لا إدراكية، وحالة عقدة قابلة للتقليم، بهدف الوصول إلى إنتاجية للمعاملات المحمية تُقاس بآلاف المعاملات في الثانية. [موقع المشروع](https://tachyon.z.cash/overview/) |
 | TAZ | Zcash الخاصة بالشبكة التجريبية (عملة اختبار بلا قيمة). |
-| Testnet | blockchain منفصلة لاختبار الترقيات والميزات قبل الشبكة الرئيسية. |
+| Testnet | سلسلة كتل منفصلة لاختبار الترقيات والميزات قبل الشبكة الرئيسية. |
 | Trailing Finality Layer (TFL) | بحثٌ حول إضافة طبقة نهائية خلف سلسلة إثبات العمل الخاصة بـ Zcash بحيث يمكن إضفاء النهائية على الكتل الحديثة دون استبدال التعدين. وكان Crosslink هو التصميم الذي نتج عن ذلك. |
 | Transaction | دفعة بين المستخدمين، تُرسل إلى الشبكة ويجري تأكيدها لاحقًا في كتلة. |
 | Transaction Expiry | حدٌّ لارتفاع الكتلة يحدد متى يمكن تضمين دفعة غير مُعدَّنة. يمكن تعدين دفعة عادية ذات ارتفاع انتهاء صلاحية غير صفري N في الكتلة N أو قبلها، ولكن ليس في N+1. يؤدي الارتفاع 0 إلى تعطيل انتهاء الصلاحية. وهذا ليس مؤقتًا للاسترداد التلقائي. [ZIP 203](https://zips.z.cash/zip-0203) |
@@ -209,7 +209,7 @@
 
 | المصطلح | التعريف |
 |------|-----------|
-| Wallet | برنامج أو جهاز يحتفظ بالمفاتيح الخاصة ويتيح لك إرسال واستقبال ZEC. تشمل المحافظ النشطة ZODL ‏(iOS/Android) وZingo! ‏(محمول/سطح مكتب) وNighthawk ‏(Android) وZkool ‏(محمول/سطح مكتب) وZallet ‏(قريبًا) وKeystone ‏(عتادية). وللاطلاع على القائمة الكاملة، راجع [محافظ منظومة Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | برنامج أو جهاز يحتفظ بالمفاتيح الخاصة ويتيح لك إرسال واستقبال ZEC. تشمل المحافظ النشطة ZODL ‏(iOS/Android) وZingo! ‏(محمول/سطح مكتب) وZkool ‏(محمول/سطح مكتب) وZallet ‏(محفظة بعقدة كاملة، في الإصدار التجريبي) وKeystone ‏(عتادية). وللاطلاع على القائمة الكاملة، راجع [محافظ منظومة Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | أول حزمة SDK بلغة JavaScript لـ Zcash، وقد بنتها ChainSafe لبيئات المتصفح. وهي تشكّل الأساس لـ Zcash Shielded Wallet snap الذي جلب ZEC المحمي إلى MetaMask. |
 
 ## X
@@ -230,7 +230,7 @@
 |------|-----------|
 | Zcash | عملة مشفرة تركّز على الخصوصية وتستخدم zk-SNARKs. وتصل بين المدفوعات الشفافة (على نمط Bitcoin) والمدفوعات المحمية بالكامل. |
 | Zcash Foundation | منظمة مستقلة غير ربحية تدعم منظومة Zcash وتمول التطوير وتعزز الخصوصية. |
-| Zcash Network | شبكة نظير إلى نظير من العقد تتحقق من المعاملات وتحافظ على blockchain. |
+| Zcash Network | شبكة نظير إلى نظير من العقد تتحقق من المعاملات وتحافظ على سلسلة الكتل. |
 | ZEC | رمز العملة الرسمي لـ Zcash (مع أن بعض منصات التداول ما زالت تعرض XZC). |
 | Z3 stack | البرامج الثلاثة التي تحل مجتمعة محل zcashd: Zebra للعقدة، وZaino للفهرسة، وZallet للمحفظة. [حزمة Z3](/zcash-tech/z3-stack) |
 | Zerocash | البروتوكول الأكاديمي (2014) الذي يستند إليه Zcash. |

@@ -8,7 +8,7 @@
 
 您不需要助记词 [seed phrase] 就能获得完整信息。统一完整 viewing key（UFVK，以 `uview1` 开头）可以查看一个账户中的每笔入账和出账交易 [transaction]，而两个工具 [tools] 可以将其转换为您保存的文件：Zkool GraphQL 服务器和 zingo-cli。本指南汇集了 [此论坛帖子](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) 中的方法，并将其更新至当前版本。
 
-已于 2026 年 9 月使用 Zkool 6.30.0 和来自 zingolib 6.0.0 的 zingo-cli 进行测试。
+已于 2026 年 9 月使用 Zkool 6.30.0 和来自 zingolib 6.0.0 的 zingo-cli 进行测试。这两个版本都早于 NU7，因此 2026 年 11 月将步骤更新为使用 Zkool 6.37.0 和 zingolib 8.0.0。[Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) 是首个采用 NU7 主网激活高度构建的 Zkool 版本，而 zingolib 8.0.0 是新增 NU7 主网支持的版本。
 
 ## 开始前
 
@@ -21,12 +21,12 @@
 
 viewing key 无法花费资金，但会向持有它的任何人展示您的全部历史记录。
 
-- 不要将它粘贴到网站或区块浏览器中。请将其导入您自己运行的软件。
-- 您同步所用的服务器可以看到您的 IP 地址以及您完整下载的交易。下方两个工具都会按 ID 获取您的每笔交易，以读取备忘录和手续费，而 [ZIP 307](https://zips.z.cash/zip-0307) 指出，这会让服务器知道哪些交易属于您。使用带有 Zaino 或 lightwalletd 的您自己的 Zebra 节点 [node] 进行同步可以避免这一点。[Zingolib 和 Zaino 教程](/guides/zingolib-and-zaino-tutorial) 介绍了设置方法。
-- zingo-cli 6 通过 Nym mixnet 发送支付，但其同步仍直接连接到服务器，因此上述说明同样适用。
-- 向这些工具提供 viewing key，绝不要提供助记词。Zkool GraphQL 服务器默认没有登录机制，其 API 会返回由助记词创建的任何账户的助记词，并且可以发送资金。
-- 将服务器保留在您自己的机器上。下面的 Docker 命令仅监听 `127.0.0.1`。
-- 两个工具都会以未加密 [encryption] 形式存储密钥和您的历史记录。完成后删除工作数据，并将导出文件保存在经过加密的位置。
+- 不要将其粘贴到网站或区块浏览器中。请将其导入您自己运行的软件。
+- 您同步所用的服务器可以看到您的 IP 地址以及您完整下载的交易。下方两个工具都会按 ID 获取您的每笔交易，以读取备忘录和手续费，而 [ZIP 307](https://zips.z.cash/zip-0307) 指出，这会让服务器知道哪些交易属于您。使用带有 Zaino 或 lightwalletd 的您自己的 Zebra 节点进行同步可以避免这一点。[Zingolib 和 Zaino 教程](/guides/zingolib-and-zaino-tutorial) 介绍了设置方法。
+- zingo-cli 通过 Nym mixnet 发送支付，但其同步仍直接连接到服务器，因此上述说明同样适用。
+- 向这些工具提供 viewing key，绝不要提供助记词。下面的 Docker 命令会通过 `--allow-unauthenticated` 启动 Zkool GraphQL 服务器，因此它没有登录机制；其 API 会返回由助记词创建的任何账户的助记词，并且可以发送资金。
+- 将服务器保留在您自己的机器上。下面的 Docker 命令仅监听您计算机的 `127.0.0.1`。在容器内部，服务器必须监听所有接口（`--bind-address 0.0.0.0`），否则 Docker 无法连接到它；`-p 127.0.0.1:8000:8000` 映射可确保它仅在本地可用。
+- 两个工具都会以未加密 [encryption] 形式存储密钥和您的历史记录。Zkool 可以加密其数据库（`--db-password-file`），但下面的命令使用 `--allow-unencrypted-database` 来简化操作。完成后删除工作数据，并将导出文件保存在经过加密的位置。
 
 ## 选项 1：Zkool GraphQL
 
@@ -38,11 +38,16 @@ viewing key 无法花费资金，但会向持有它的任何人展示您的全�
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-除非您添加带有自己服务器的 `--lwd-url`，否则它会从 `https://zec.rocks` 同步。首次启动时，它会下载 Sapling 参数（约 50 MB）。如果失败，`docker start zkool-export` 会再次尝试。
+从 6.32.0 开始，您必须明确做出两个选择，服务器才会启动：客户端如何登录（JWT 密钥，或 `--allow-unauthenticated`），以及数据库是否加密（密码，或 `--allow-unencrypted-database`）。现在它也默认只监听 `127.0.0.1`，这意味着在容器内运行时，外部无法访问它，因此需要 `--bind-address 0.0.0.0`。如果容器立即停止，`docker logs zkool-export` 会显示缺少哪个选项。
+
+它会从 `https://zec.rocks` 同步，除非您添加 `--lwd-url` 和自己的服务器。图像内置了 Sapling 参数，因此无需下载其他内容。
 
 在浏览器中打开 `http://127.0.0.1:8000/graphiql`。您可以将以下每个步骤粘贴到那里并运行。
 
@@ -141,17 +146,21 @@ Zkool 应用的账户菜单中也有“导出交易”、“备忘录”和“No
 
 ## 选项 2：zingo-cli
 
-zingo-cli 是 Zingo 的命令行钱包。没有预构建下载文件，因此您需要使用 Rust 构建它：
+zingo-cli 是 Zingo 的命令行钱包。没有预编译的下载文件，因此需要使用 Rust 自行构建。请使用 zingolib 8.0.0 或更新版本：根据其 [发行说明](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0)，这是首个包含 NU7 Mainnet 激活区块高度（3,543,405）的版本。使用较旧标签（例如 6.0.0）构建的版本不包含该高度。
+
+构建使用 [cargo-make](https://github.com/sagiegurari/cargo-make)（`cargo install cargo-make`）。在 Ubuntu 上，您还需要 `sudo apt install build-essential gcc libsqlite3-dev`。
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-即使只是同步，您也需要 `nym-proxy`。zingo-cli 6 没有它就无法连接到任何服务器。
+这会构建 `./target/release/zingo-cli`，并将 `nym-proxy` 放在它旁边。即使只是为了同步，你也需要 `nym-proxy`：没有它，zingo-cli 就无法联网。从 8.0.0 版起，`zingo-netutils` 已成为主工作区的一部分，因此旧的从 `zingo-netutils/target/release/` 复制 `nym-proxy` 的方法不再适用。
+
+如果您将 `zingo-cli` 移到其他位置，也请将 `nym-proxy` 一起移动；或者通过 `--nym-proxy /path/to/nym-proxy` 或 `ZINGO_NYM_PROXY` 环境变量告诉 zingo-cli 它的位置。未设置这些选项时，它会先在自身二进制文件旁查找，然后在您的 `PATH` 中查找。如果它无法启动代理，就完全不会联网。
+
+只有支付（以及 ZEC 价格查询）会通过 Nym。Sync 会直接连接服务器。
 
 首次运行会创建一个仅查看钱包、进行同步并打印历史记录：
 
@@ -164,8 +173,8 @@ cp zingo-netutils/target/release/nym-proxy target/release/
 
 - `--data-dir` 必须是绝对路径。
 - `--viewkey` 和 `--birthday` 仅在创建钱包时适用。之后请省略它们。
-- zingo-cli 默认以离线方式启动。`--server` 选择服务器，也作为您同意联网的凭据。
-- 密钥会留在您的 shell 历史记录中，因此之后请清除它。
+- 新建的 zingo-cli 默认处于离线状态，需要征得你的同意才能联网。`--server` 会选择服务器，也表示你已同意联网。其他方式包括 `--online`（仅限本次会话）和 `--remember-online`，后者还会将选择保存在钱包旁边，这样之后运行时无需标志就会联网（`--forget-online` 可撤销此设置）。
+- 密钥会留在你的 shell 历史记录中，因此之后请将其清除。
 
 后续运行：
 
@@ -184,10 +193,10 @@ $Z --offline messages > memos.json
 
 关于输出，有几件事需要了解：
 
-- `transactions` 和 `value_transfers` 会打印看起来有点像 JSON、但并不是 JSON 的纯文本。
-- 金额以 zatoshi 为单位（100,000,000 对应 1 ZEC），且始终为正数。`kind` 会告诉您方向。对于发送，`value` 是发送给其他人的金额，不含手续费。
-- 当一笔交易花费并非属于您的透明资金时，手续费会显示为“not available”。仅显示文本备忘录。
-- 如果同步失败，错误会输出到终端，而不会写入文件，并且 zingo-cli 仍会正常退出。在信任 `transactions.txt` 前，请检查终端。
+- `transactions` 和 `value_transfers` 会输出看起来有点像 JSON、但实际上不是 JSON 的纯文本。
+- 金额以 zatoshis 计（100,000,000 zatoshis 等于 1 ZEC），且始终为正数。`kind` 会告诉你交易方向。对于发送交易，`value` 是发送给其他人的金额，不包括手续费。
+- 当交易花费了不属于你的透明资金时，手续费会显示为“不可用”。只显示文本备忘录。
+- 如果同步失败，错误会输出到终端，而不是文件。从 zingolib 8.0.0（zingo-cli 0.5.0）开始，命令失败时也会以非零代码退出，但在信任 `transactions.txt` 之前请先检查终端。
 
 dismad 的 [zingoHelper](https://github.com/dismad/zingoHelper) 有一个 `exportToJSON.sh` 脚本，可将 `transactions` 转换为 JSON。它编写于 zingo-cli 6 之前，针对 testnet 设置，会将一些出站 Sapling 和透明条目标记为占位符，并且需要 GNU 工具，因此无法在原生 macOS 上运行。请将其输出视为起点，并检查总额。
 
@@ -211,8 +220,8 @@ dismad 的 [zingoHelper](https://github.com/dismad/zingoHelper) 有一个 `expor
 ## 相关内容
 
 - [Viewing Keys](/zcash-tech/viewing-keys)
-- [Recovering Funds](/using-zcash/recovering-funds)
+- [恢复资金](/using-zcash/recovering-funds)
 - [Zingolib 和 Zaino 教程](/guides/zingolib-and-zaino-tutorial)
-- [论坛：从 UFVK/助记词导出交易历史到 JSON/CSV](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
-- [论坛：Zkool 与 GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [论坛：从 UFVK/助记词导出 JSON/CSV 交易历史记录](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [论坛：Zkool 和 GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
+- [zingo-cli 自述文件](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)

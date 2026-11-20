@@ -7,7 +7,7 @@
 ## Ringkasan Singkat
 
 - **Zimppy** adalah infrastruktur pembayaran yang mengutamakan privasi untuk agen AI menggunakan Machine Payment Protocol (MPP) milik Zcash
-- **Deposit satu kali** secara on-chain (~75 detik), lalu lakukan **permintaan instan tanpa batas** tanpa interaksi blockchain per permintaan
+- **Deposit satu kali** secara on-chain (~25 detik per blok sejak NU7), lalu lakukan **permintaan instan tanpa batas** tanpa interaksi blockchain per permintaan
 - Mendukung pembayaran **Zcash (Orchard) yang sepenuhnya terlindungi** — pengirim, penerima, jumlah, dan memo semuanya terenkripsi
 - Kompatibel dengan **SDK TypeScript dan Rust** untuk integrasi mudah ke dalam pipeline AI dan server API
 - Sangat cocok untuk **API LLM, marketplace data, server tool MCP**, dan segala penggunaan pembayaran M2M
@@ -52,10 +52,10 @@ Berbeda dengan sistem pembayaran blockchain tradisional, di mana setiap transaks
 
 ### Properti Inti
 
-- **Deposit satu kali** on-chain (~75 detik untuk konfirmasi Zcash)
+- **Deposit satu kali** on-chain (~25 detik untuk satu blok Zcash sejak NU7; sebelumnya 75 detik)
 - **Permintaan instan tanpa batas** setelah sesi dibuka, tanpa interaksi chain per permintaan
 - **Pembayaran terlindungi** mengenkripsi pengirim, penerima, jumlah, dan memo menggunakan protokol Orchard milik Zcash
-- **Pembayaran transparan** menggunakan T-addresses per-tantangan untuk pencegahan replay tanpa privasi penuh
+- **Pembayaran transparan** menggunakan T-addresses per tantangan untuk mencegah replay tanpa privasi penuh
 - **Sesuai spesifikasi**, tantangan HMAC-SHA256, error RFC 9457, penemuan `/.well-known/payment`
 
 ---
@@ -77,12 +77,12 @@ Untuk agen AI yang menangani alur kerja sensitif, riset hukum, kueri medis, anal
 
 ### Masalah Latensi, Diselesaikan dengan Session
 
-> *"Tetapi Zcash memiliki waktu blok 75 detik."*
+> *"Namun, Zcash tetap membutuhkan 25 detik per blok (75 detik sebelum NU7)."*
 
 **Sesi menyelesaikan hal ini.** Penantian on-chain terjadi tepat **satu kali** saat deposit. Setiap permintaan berikutnya bersifat instan.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ Pembayaran terlindungi menggunakan **protokol Orchard** dari Zcash, yaitu pool t
 
 ### Sesi, Latensi Nol per Permintaan
 
-Arsitektur sesi memisahkan waktu tunggu konfirmasi on-chain dari latensi per-permintaan. Setelah satu kali deposit (~75 detik), semua permintaan bearer-token berikutnya dilayani secara instan tanpa interaksi blockchain hingga sesi ditutup.
+Arsitektur sesi memisahkan waktu tunggu konfirmasi on-chain dari latensi per-permintaan. Setelah satu kali deposit (~25 detik sejak NU7), semua permintaan bearer-token berikutnya dilayani secara instan tanpa interaksi blockchain hingga sesi ditutup.
 
 ### Streaming, Bayar-Per-Token
 

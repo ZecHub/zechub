@@ -45,7 +45,7 @@ Zcash 是一种数字货币，具有快速、保密的交易 [transaction] 和�
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash 在根本上比 Bitcoin 或 Ethereum 更保护隐私。它提供快速的区块 [block] 时间（75 秒）、低手续费和定期升级。
+Zcash 在根本上比 Bitcoin 或 Ethereum 更保护隐私。自 NU7 于 2026 年 11 月激活以来，区块时间已从 75 秒缩短至 25 秒，同时手续费低廉且定期升级。
 
 用户可以在**透明 [transparent]**交易或**屏蔽 [shielded]**交易之间选择。更多信息请参阅 [屏蔽生态系统](https://electriccoin.co/blog/shielded-ecosystem)。
 

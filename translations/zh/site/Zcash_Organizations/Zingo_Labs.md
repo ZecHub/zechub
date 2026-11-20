@@ -13,6 +13,8 @@ Zingo 钱包是一款功能齐全的 Zcash 钱包，专为用户友好性而设�
 
 Zingo! 的主要功能之一是能够使用备忘录 [Memo] 字段，为您的交易 [transactions] 提供有价值的洞察。
 
+Zingo 3.0 移动版（2026 年 10 月 31 日）支持 NU7，并通过 SwapKit 添加了内置跨链兑换功能。PC 应用自 2.0.26 版起支持 SwapKit 兑换，自 2.0.27 版起支持 Mainnet NU7。
+
 Zingo! 可用于移动设备和 PC。您可以在 [这里](https://zingolabs.org/) 找到所有下载内容
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
