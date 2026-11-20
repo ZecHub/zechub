@@ -875,9 +875,9 @@
       "source": "glossary-review-ko.md#terms-8"
     },
     "smart-contract": {
-      "target": "스마트 컨트렉트",
+      "target": "스마트 컨트랙트",
       "forms": [
-        "스마트 컨트렉트"
+        "스마트 컨트랙트"
       ],
       "rejected": [
         {
@@ -886,9 +886,10 @@
       ],
       "applies_to": "both",
       "status": "approved",
-      "notes": "Using the English word phonetically.",
+      "notes": "Using the English word phonetically. Steward spelling correction approved by Gianni on 2026-11-20: AidenZ originally answered '스마트 컨트렉트'; use 스마트 컨트랙트, as in Upbit https://m.upbitcare.com/academy/advice/70 . Pending confirmation in the second native review.",
       "reviewed_by": [
-        "@AidenJeonZ"
+        "@AidenJeonZ",
+        "Gianni"
       ],
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-54"
