@@ -13,6 +13,8 @@ Zingo Wallet ni pochi yenye vipengele kamili ya Zcash iliyoundwa kwa urahisi wa 
 
 Kimoja cha vipengele vikuu vya Zingo! ni uwezo wake wa kutumia sehemu ya ujumbe [Memo] kutoa maarifa muhimu kuhusu miamala [transactions] yako.
 
+Zingo 3.0 ya vifaa vya mkononi (Oktoba 31, 2026) inasaidia NU7 na inaongeza uwezo wa kubadilisha kati ya minyororo kupitia SwapKit uliojengewa ndani. Programu ya Kompyuta imekuwa na uwezo wa kubadilisha SwapKit tangu toleo la 2.0.26 na uwezo wa kutumia NU7 ya Mainnet tangu toleo la 2.0.27.
+
 Zingo! inapatikana kwa vifaa vya mkononi na Kompyuta. Utapata vipakuliwa vyote [hapa](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

@@ -7,10 +7,10 @@
 ## Na nkenke
 
 - **Zimppy** bụ akụrụngwa Kwụọ ụhwọ [payment] nke Nzuzo [privacy] na-ebute ụzọ maka ndị nnọchi AI na-eji Zcash's Machine Payment Protocol (MPP)
-- **Tinye ego otu ugboro** on-chain (~75 sekọnd), emesia mee **arịrịọ ozugbo na-enweghị oke** na-enweghị mmekọrịta blockchain kwa arịrịọ
-- Ọ na-akwado Azụmahia [transaction] Zcash (Orchard) **nke e chebere echebe [shielded] kpamkpam** — onye zitere, onye nata, ego, na memo ka ezobere ederede
+- **Tinye ego otu ugboro** on-chain (~25 sekọnd kwa block kemgbe NU7), emesia mee **arịrịọ ozugbo na-enweghị oke** na-enweghị mmekọrịta blockchain kwa arịrịọ
+- Ọ na-akwado Azụmahia Zcash (Orchard) **nke e chebere echebe** kpamkpam — onye zitere, onye nata, ego, na memo ka ezobere ederede
 - Ọ na-arụ ọrụ na **TypeScript na Rust SDKs** maka itinye ya n'ụzọ dị mfe n'ime pipeline AI na sava API
-- Ọ dabara nke ọma maka **LLM APIs, ebe ahịa data, sava ngwá ọrụ MCP**, na Ojiji [use case] Kwụọ ụhwọ M2M ọ bụla
+- Ọ dabara nke ọma maka **LLM APIs, ebe ahịa data, sava ngwá ọrụ MCP**, na Ojiji Kwụọ ụhwọ M2M ọ bụla
 
 ---
 
@@ -52,7 +52,7 @@ N'adịghị ka usoro Kwụọ ụhgwọ blockchain ọdịnala, ebe Azụmahia 
 
 ### Njirimara Ndị Bụ Isi
 
-- **Tinye ego otu ugboro** on-chain (~75 sekọnd maka nkwenye Zcash)
+- **Tinye ego otu ugboro** on-chain (~25 sekọnd maka Zcash block kemgbe NU7; sekọnd 75 na mbụ)
 - **Arịrịọ ozugbo na-enweghị oke** mgbe emepere session, enweghị mmekọrịta chain kwa arịrịọ
 - **Ịkwụ ụgwọ nke e chebere echebe** na-ezobe onye zitere, onye nata, ego, na memo site na Zcash's protocol Orchard
 - **Ịkwụ ụgwọ Oha** na-eji T-addresses kwa challenge iji gbochie replay na-enweghị Nzuzo zuru oke
@@ -77,12 +77,12 @@ Maka ndị nnọchi AI na-ahụ maka usoro ọrụ dị nro, nchọpụta iwu, a
 
 ### Nsogbu Igbu Oge, Sessions Edozila Ya
 
-> *"Mana Zcash nwere oge block nke sekọnd 75."*
+> *"Mana ngọngọ Zcash ka na-ewe sekọnd 25 (sekọnd 75 tupu NU7)."*
 
 **Sessions na-edozi nke a.** Ichere on-chain na-eme **otu ugboro** kpọmkwem mgbe a na-etinye ego. Arịrịọ ọ bụla sochirinụ na-adị ozugbo.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ A haziri e-akpa ego Zimppy maka ojiji mmemme nke ndị nnọchi AI - ọ bụgh�
 
 ### Sessions , Enweghị Igbu Oge Kwa-Arịrịọ
 
-Nhazi session na-ekewa ichere nkwenye on-chain na igbu oge kwa arịrịọ. Mgbe otu ntinye ego (~75 sekọnd), arịrịọ bearer-token niile sochirinụ na-enweta ọrụ ozugbo na-enweghị mmekọrịta blockchain ruo mgbe session mechiri.
+Nhazi session na-ekewa ichere nkwenye on-chain na igbu oge kwa arịrịọ. Mgbe otu ntinye ego gasịrị (~25 sekọnd kemgbe NU7), a na-arụ ọrụ arịrịọ bearer-token niile sochirinụ ozugbo na-enweghị mmekọrịta blockchain ruo mgbe session mechiri.
 
 ### Streaming , Kwụọ Kwa-Token
 

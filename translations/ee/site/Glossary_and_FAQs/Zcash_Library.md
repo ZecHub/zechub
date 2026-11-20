@@ -20,11 +20,11 @@ Nya veviwo, nunyaɖeɖewo, kple nuŋuti siwo kɔ ɖe Zcash ŋu ƒe nyagbalẽ bl
 
 | Nya | Gɔmeɖeɖe |
 |------|-----------|
-| Benchmarking | Nukulawo ate ŋu aɖo metrics tso asikplɔ vovovo siwo wozãna be woatsɔ aku Zcash ƒe dɔwɔ nyuie ŋu. [Kpɔe afisia](https://zcashbenchmarks.info) |
-| Block | Gaɖoɖowo ƒuƒoƒe nye nuŋlɔɖi le Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu me, si me gaɖoɖo siwo wodo ɖe network la dzi ƒe ƒuƒoƒe le. Le dakika 75 sia 75 ƒe ɣeyiɣi me, zi geɖe la, wotsɔ gaɖoɖowo ƒuƒoƒe yeye kpea ɖe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la ŋu. |
+| Benchmarking | Nukulawo ate ŋu aɖo metrics tso asikplɔ vovovo siwo wozãna be woaku Zcash ƒe dɔwɔ nyuie ŋu. [Kpɔe afisia](https://zcashbenchmarks.info) |
+| Block | Gaɖoɖowo ƒuƒoƒe nye nuŋlɔɖi le Zcash gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu me, si me gaɖoɖo siwo wodo ɖe ha la dzi ƒe ƒuƒoƒe le. Le sekunde 25 sia 25 ƒe ɣeyiɣi me, zi geɖe la, wotsɔ gaɖoɖowo ƒuƒoƒe yeye kpea ɖe gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la ŋu (sekunde 75 hafi NU7 wòva dze dɔ wɔ ge le November 2026). |
 | Block Explorer | Dɔwɔnu si le internet dzi be woakpɔ gaɖoɖowo katã, esiwo va yi kple esiwo le dzɔdzɔm fifia, le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu la me. [Zcash Gaɖoɖowo ƒuƒoƒe ƒe Didi](https://zcashexplorer.app/) |
 | Blogs | [ZODL Blog (tsã la, Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blog](https://zfnd.org/blog/) / [ZecHub Nyadzɔdzɔgbalẽ](https://zechub.substack.com/) |
-| Blossom | Eyae nye mɔ̃ ƒe sewo trɔtrɔ [Network Upgrade] gã etɔ na Zcash. [Nya Geɖe](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
+| Blossom | Eyae nye mɔ̃ ƒe sewo trɔtrɔ gã etɔ na Zcash. [Nya geɖe](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
 
 ## C
 
@@ -127,11 +127,11 @@ Nya veviwo, nunyaɖeɖewo, kple nuŋuti siwo kɔ ɖe Zcash ŋu ƒe nyagbalẽ bl
 | Nya | Gɔmeɖeɖe |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Ɖoɖoɖo si tso Shielded Labs gbɔ be woatɔ gaɖoɖo ƒe adzɔwo ƒe akpa aɖe, ale be protocol ƒe dedie ga ƒe ƒoƒo mele gaɖeɖe dzi ko o. Woɖe eƒe nyawo fia le ZIP 234 me, eye wole kpɔm le 2026 me. |
-| Nighthawk | Mɔbail gakotoku na Zcash. [Nyaƒe](https://nighthawkwallet.com) |
+| Nighthawk | Gakotoku si wòzãna ɣeyiɣi aɖe do ŋgɔ, si tso Nighthawk Apps gbɔ, eye wòzãna le mɔbail dzi na Zcash. Womelé Zcash gakotokuwo ŋu kpɔm azɔ o, eye wowo Nighthawk Wallet 3.0 ɖo ɖi na DarkFi. Ne wòdi be yeatsɔ ga si le Nighthawk seed xoxowo me la, kpɔ [Ga Ŋuɖoɖo](/using-zcash/recovering-funds). |
 | Noir Wallet | Zcash ƒe browser extension gakotoku si Zcash Community Grants dea asi le eŋu, wowɔe be wòakpɔ ɣaɣla ZEC ɖe browser ƒe dɔwɔƒewo ŋu tẽ, le QR codes kple asi me gaɖoɖowo ƒe trɔtrɔ ŋu ɖoɖo teƒe. [zknoir.com](https://www.zknoir.com/) |
-| NU5 | Mɔ̃ ƒe sewo trɔtrɔ gã evelia na Zcash, si tsɔ Orchard ɣaɣla gaƒuƒoƒo kple Unified Addresses vɛ. [Nya geɖe](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU5 | Mɔ̃ ƒe sewo trɔtrɔ gã adrelia na Zcash, si tsɔ Orchard ɣaɣla gaƒuƒoƒo kple Unified Addresses vɛ. [Nya geɖe](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Mɔ̃ ƒe sewo trɔtrɔ gã adrelia na Zcash, si trɔ gaɖoɖowo ƒuƒoƒe ƒe kpekpeɖeŋu be woatsɔ afia Zcash Community Grants ƒe ɖoɖo kple Deferred Dev Fund Lockbox. Wodze eƒe dɔ wɔwɔ gɔme le 2024 ƒe nuwuwu. [Nya geɖe](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Eyae nye mɔ̃ ƒe sewo trɔtrɔ si va yome na Ironwood, eye woɖo eƒe mainnet ƒe ŋkeke ɖe November 5, 2026 dzi. Le [ZIP 259](https://zips.z.cash/zip-0259) nu la, etsɔ gaɖoɖowo ƒuƒoƒewo si wɔna le second 25 me vɛ (ZIP 218), Network Sustainability Mechanism kple adzɔwo ƒe trɔtrɔ (ZIPs 235 kple 237), kple version 4 gaɖoɖowo ƒe nuwuwu, si na Sprout ƒe gawo mate ŋu woazã o (ZIP 2003). Metsɔ gaɖoɖo ƒe nɔnɔme yeye aɖeke vɛ o; Tachyon kple Zcash Shielded Assets menye eƒe akpa o. |
+| NU7 | Eyae nye mɔ̃ ƒe sewo trɔtrɔ si va yome na Ironwood, eye wode eŋu dɔ le mainnet dzi le gaɖoɖowo ƒuƒoƒe 3,543,405 dzi le November 6, 2026 (UTC). Le [ZIP 259](https://zips.z.cash/zip-0259) nu la, etsɔ gaɖoɖowo ƒuƒoƒewo si wɔna le second 25 me vɛ (ZIP 218), Network Sustainability Mechanism kple adzɔwo ƒe trɔtrɔ (ZIPs 235 kple 237), kple version 4 gaɖoɖowo ƒe nuwuwu, si na Sprout ƒe gawo mate ŋu woazã o (ZIP 2003). Metsɔ gaɖoɖo ƒe nɔnɔme yeye aɖeke vɛ o; Tachyon kple Zcash Shielded Assets menye eƒe akpa o. |
 
 ## O
 
@@ -209,7 +209,7 @@ Nya veviwo, nunyaɖeɖewo, kple nuŋuti siwo kɔ ɖe Zcash ŋu ƒe nyagbalẽ bl
 
 | Nya | Gɔmeɖeɖe |
 |------|-----------|
-| Wallet | Software alo asikplɔwo dzra mɔ si dzraa safui siwo mele du me eye ena wòate ŋu aɖo/xɔ ZEC. Gakotoku siwo le dɔ wɔm fifia me nye ZODL (iOS/Android), Zingo! (mobile/desktop), Nighthawk (Android), Zkool (mobile/desktop), Zallet (si gbɔna), kple Keystone (hardware). Hena lista blibo, kpɔ [Zcash Ecosystem Gakotokuwo](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software alo asikplɔwo dzra mɔ si dzraa safui siwo mele du me eye ena wòate ŋu aɖo/xɔ ZEC. Gakotoku siwo le dɔ wɔm fifia me nye ZODL (iOS/Android), Zingo! (mobile/desktop), Zkool (mobile/desktop), Zallet (ɣaɣla dzesi ŋɔŋlɔ blibo ƒe gakotoku, le beta me), kple Keystone (asikplɔwo dzra mɔ). Hena lista blibo, kpɔ [Zcash Ecosystem Gakotokuwo](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | SDK gbãtɔ ƒe JavaScript na Zcash, si ChainSafe wɔ hena browser ƒe nɔnɔwo. Eyae nye Zcash Shielded Wallet snap si tsɔ ɣaɣla ZEC va MetaMask me ƒe teƒe. |
 
 ## X

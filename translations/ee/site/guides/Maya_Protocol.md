@@ -1,6 +1,28 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Maya ha nuɖo agni [decentralized] gatrɔƒe [exchange]
 
----
+> Maya Protocol nye gatrɔƒe si zã ɖoɖonu geɖe dome hena ɖɔli ɖɔli siwo nye woawo (abe ETH alo BTC va ZEC ene), evɔ token siwo wotsɔ ɖo ɖoɖonu bubuwo, akawnt alo KYC mele eme o.
+
+## Nya vevieto ƒe kpui
+
+* Maya Ɖɔli ɖɔli wɔa nuʋuʋuwo le gaɖoɖowo ƒe ɖoɖonuwo dome: wò ɖo ga aɖe ɖa eye nèxɔ ga bubu le eƒe ɖoɖonu dzi. Meli token siwo wotrɔ ɖo o, akɔnta aɖeke mele eme o, eye KYC mele eme o.
+* Eyae nye THORChain ƒe fork, si wowɔ kple Cosmos SDK, eye ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔlawo siwo de ga ɖe asi (Proof of Bond) dzɔa eŋu.
+* Eƒe token si wodo ŋgɔe nye $CACAO. Gaɖiɖi ƒe nudzralaawo xɔa ɖɔli ɖɔli adzɔwo, eye wòkpɔa wo ta le Gaɖiɖi Ŋuɖoɖo Ƒe Ɖeɖeɖe (ILP) me le ŋkeke 50 megbe.
+* Maya nye backend: wò zãa edzi to frontend alo gakotoku abe THORWallet, CacaoSwap, Asgardex, Ctrl Wallet alo KeepKey ene.
+* Tutorial ƒe video fia ETH ƒe ɖɔli ɖɔli kple ZEC le LeoDex dzi, si nye frontendwo dometɔ ɖeka.
+* Maya dze ɣaɣla/unified ZEC nudzraɖoɖo me to SwapKit dzi (nuwo ƒe ʋuʋuɖi ƒe homekpɔkpɔ kple ɣaɣla nya kpui), ale be frontend aɖewo ate ŋu aɖo ZEC ɖe unified gaɖoƒe ƒe dzesi dzi tẽ. Ne wò tɔaɖe ɖoa ga ɖe nuwo ƒe ʋuʋuɖi (t1) gaɖoƒe ƒe dzesi dzi la, ɣaɣlae le wò gakotoku me emegbe na ɣaɣla.
+* Maya menye mɔ ɖeka ko le native ZEC ƒe ɖɔli ɖɔli nu o: THORChain hã li kple native ZEC gaɖiɖi ƒe gaƒuƒoƒo.
+
+## Gɔmeɖeɖe si wò hiã be wò nyae
+
+Gatrɔƒe si ƒo nu ɖe ɖeka me la, eɖua wò sika eye ele be yea nya wò ŋkɔ. Maya zãa ɣaɣla dzesi ŋɔŋlɔwo ƒe kɔkɔe siwo dzea nudzrɔ̃ɖeɖe dzi le ɖoɖonu siwo dɔa wɔm. Wòɖo sika ɖe Maya nudzrɔ̃ɖeɖe, eye ɣaɣla dzesi ŋɔŋlɔwo ƒe afɔ etɔ̃ siwo le afɔ eve me la ɖea ɖase be woxɔ nudzrɔ̃ɖeɖe la, eye nunɔamesi si sɔ kple eŋu la wòdɔa tso nudzrɔ̃ɖeɖe bubu me yi wò gaɖoƒe ƒe dzesi dzi le ɖoɖonu si wòle wɔwɔm la me.
+
+ɣaɣla dzesi ŋɔŋlɔwo ƒe dɔwɔlawo de ga si wode ɖe asi, si ate ŋu woaɖe le eme ne wowɔ nu vɔ̃, eye esia na wòawo kpɔa viɖe le ga me be woakpɔ nyateƒe. Maya tsɔa nu yeyewo kpe ɖe THORChain ŋu, abe gaɖoɖowo ƒuƒoƒo dzesi ŋɔŋlɔwo kple eya ŋutɔ ƒe ga dzraɖoɖo ene, eye wòawɔa dɔ hã abe ɖoɖonu yeye si le egbɔ, eye wò nyea eya ŋutɔ tɔ ene.
+
+Etagbale siwo le egɔme la ɖe ale si Maya zɔa ŋu, ga si wode ɖe asi ƒe ɖaseɖigbalɛ, ale si eɖe le THORChain ŋu kple gakotokuwo siwo doa eŋu ŋu.
 
 ## Nufiafia
 
@@ -29,7 +51,7 @@ Le mɔ sia nu la, zazãwo ate ŋu aɖo token ƒomevi aɖe le gaɖoɖowo ƒuƒoƒ
 
 ## Nu ka nye Proof of Bond?
 
-Proof of Bond (PoB) nye gbegbɔgblɔ ɖi ƒe mɔnu si me wòle be ɣaɣla dzesi ŋɔŋlɔwo ƒe dɔwɔlawo nade ga si wode ɖe asi [bond] (zi geɖe nye network la ƒe token si wò ŋutɔ wotsɔ wɔe) be woate ŋu anye network la ƒe akpa. Ga si wode ɖe asi sia wɔa dɔ abe ga ƒe dedienɔnɔ ene, si na ɣaɣla dzesi ŋɔŋlɔwo wɔa nu le nyateƒe me eye woƒoa network la ƒe nɔnɔ nyui ɖe edzi2. Ne ɣaɣla dzesi ŋɔŋlɔ aɖe di be yeawɔ nu vɔ̃ alo metsiwɔ eƒe dɔwo o la, woate ŋu akpa ga si wode ɖe asi la, si fia be woatsɔ eƒe akpa aɖe ayi abe to vɔ̃ ƒe ɖeɖe ene.
+Ga si wode ɖe asi ƒe ɖaseɖigbalɛ (PoB) nye gbegbɔgblɔ ɖi ƒe mɔ si me gaɖoɖowo ƒuƒoƒe ŋudɔwɔlawo le be woaɖe ga si wode ɖe asi (zi geɖe le network la ƒe token si wònɔ la ƒe nɔnɔme me) be woate ŋu akpe ɖe network la ŋu. Ga si wode ɖe asi sia wɔa dɔ abe gaɖoɖo ƒe dedienɔnɔ ene, eye wòna be gaɖoɖowo ƒuƒoƒe ŋudɔwɔlawo wɔ dɔ nyuie eye woalé network la ƒe ŋuɖoɖo nu. Ne gaɖoɖowo ƒuƒoƒe ŋudɔwɔla aɖe di be yeawɔ nu vɔ̃ alo mewɔa eƒe dɔwo o la, woate ŋu aɖe ga si wode ɖe asi la ƒe akpa aɖe ɖa abe nuwɔna ƒe fetu ene.
 
 Le Maya Protocol me la, mɔnu sia kpena ɖe ga ƒe nɔnɔ nyui wɔwɔ tso ɣaɣla dzesi ŋɔŋlɔwo ƒe nu si wode ɖe asi me, eye ena ga ƒe dɔwɔwɔ na dzi ɖe edzi. Nenema kee, le THORChain me la, ɣaɣla dzesi ŋɔŋlɔwo ƒe dɔwɔlawo dea RUNE (token si wò ŋutɔ wotsɔ wɔe) ɖe asi be woade dzidzedze na network la eye woana amesiwo katã le eme nɔ ɖeka.
 
@@ -43,8 +65,8 @@ Teƒe ɖe be Maya yeadze Pure Bond Model yome la, elea mɔ le be yeatsɔ Liquidi
 
 ### Ɣeyiɣi kpui ƒe gbɔgbɔɖeɖe ƒe dedienɔnɔ
 
-Ɖoɖo aɖe si doa dzogbɔ na liquidity ƒe nunalawo tso gbɔgbɔɖeɖe ŋutɔ kpui (LPs) si woate ŋu akpɔ ne wonaa liquidity, le crypto nunɔamesiwo ƒe asi me tɔxɛ ƒe trɔtrɔ ɣe sia ɣe ta.
-ILP lé $CACAO ƒe nɔnɔ katã ƒe 10% (10 million $CACAO), eye wotsɔ protocol la ƒe adzɔwo [fees] ƒe 10% yɔa edzi ɣe sia ɣe. ILP gɔme dzɔna le liquidity ƒe deɖe megbe ŋkeke 50, eye eƒe dedienɔnɔ ƒe se va se 100%.
+Ŋɔŋlɔ ɖoɖo si le gaɖoɖowo ƒe ɣaɣla nu na liquidity providers (LPs) be woaku ɣeyiɣi kpui me ƒe asixɔxɔ si woate ŋu axɔ esi wotsɔa liquidity ɖoa gaɖoƒoƒo me, le crypto assets ƒe asixɔxɔ ƒe tsɔtsɔ ɖe anyi kpɔkpɔ ƒe ta.
+ILP le $CACAO ƒe supply ƒe 10% (10 million $CACAO) si me, eye wotsɔa protocol fees ƒe 10% kpena eŋu le ɣeyiɣi blibo me. ILP dzea dɔ wɔ ge 50 ŋkeke le liquidity deposit megbe, eye coverage ƒe seɖoƒe nye 100%.
 
 ILP ƒe dedienɔnɔ ƒe didime ɖe ASSET kple $CACAO ƒe dɔwɔwɔ ŋu. Ne ASSET wɔ dɔ nyuie wu la, woɖoa dedienɔnɔ blibo la te le ŋkeke 150 megbe; eye ne $CACAO wɔ dɔ nyuie wu la, woɖoa ete le ŋkeke 450 megbe. Woɖe ILP ga eye wogbugbɔa wɔe le esi woatsɔ nu blibo katã aɖe le eme, gake maɖe asi le nu aɖe ko ƒe tata o. Na kaƒomɔ ƒe gaɖoɖo [top ups] la, wogbugbɔa wɔa ILP, gake womedea eƒe ga o.
 
@@ -58,7 +80,7 @@ Le Maya Protocol ƒe gɔmedzedze me la, CACAO rezervi siwo nɔ asi nye nɔnɔ ka
 
 Gake, togbɔ be vovototo le Maya ŋu hã la, Maya wɔa dɔ abe kpekpeɖeŋu na THORChain ene, eye wònaa mɔ bubu, susuɖeɖe kple kakaɖedzi, eye wotsɔ network yeye siwo mele THORChain ƒe dɔwɔwɔ fifia me o ɖea eŋu.
 
-Hã, Maya ƒe taɖodzinu nye be wòazu *megbe ƒe dɔwɔƒe* [backend] na dɔwɔƒewo bubu be woatu nu ɖe eŋu, le mɔkpɔkpɔ be *ŋgɔ ƒe dɔwɔƒewo* [frontends] geɖe, alo DEX dɔwɔƒewo siwo wotu ɖe Maya ƒe infrastructure ŋu la, anɔ.
+Hã, Maya ƒe taɖodzinu nye be wòazu *backend* (etsɔme ƒe dɔwɔƒe) na dɔwɔnu bubuwo be woatu wo dzi, le mɔkpɔkpɔ me be woakpɔ *frontends* (ŋgɔdonuwo) geɖe yeye, alo DEX dɔwɔnu siwo tu ɖe Maya ƒe ŋgɔyiyi dzi.
 
 ## Maya Protocol gakotoku [wallet] ƒe ɖeɖe ɖeka me
 
@@ -67,7 +89,7 @@ Efia dɔwɔƒe aɖewo siwo kpena ɖe Maya ŋu xoxo:
 
 [THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+El Dorado: megali le internet dzi o, eye eƒe domain ŋkɔɖiɖi meɖea ŋu o.
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 

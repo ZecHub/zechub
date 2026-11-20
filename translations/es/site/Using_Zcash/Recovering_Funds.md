@@ -18,18 +18,16 @@ Es crucial que los usuarios comprendan los riesgos que implica tratar con claves
 
 Los ZEC blindados más antiguos pueden necesitar migrarse como parte de la recuperación. La ruta depende de qué pool blindado contiene actualmente los fondos.
 
-> **NU7 está previsto para el 5 de noviembre de 2026.** Una vez que se active, la ruta de migración actual para salir del pool Sprout heredado dejará de funcionar.
+> **NU7 se activó en Mainnet el 6 de noviembre de 2026 (UTC), en el bloque 3,543,405.** Prohíbe las transacciones de versión 4 ([ZIP 2003](https://zips.z.cash/zip-2003)), y los fondos Sprout solo se pueden gastar en transacciones de versión 4, por lo que la ruta de migración para salir del pool Sprout heredado ya no funciona.
 >
-> Si todavía tienes ZEC en el pool Sprout, migra antes de la actualización. Tras la activación, las herramientas existentes ya no podrán mover fondos Sprout a Sapling, direcciones transparentes ni ningún otro destino.
->
-> Si estás viendo esta página **después de que se haya activado NU7**, **Sprout queda congelado en el hielo** hasta que esté disponible un futuro método de recuperación, que actualmente no está previsto.
+> **Sprout ahora está congelado en el hielo.** Las herramientas existentes ya no pueden mover fondos Sprout a Sapling, direcciones transparentes ni ningún otro destino. ZIP 2003 no quema los fondos Sprout y deja abierta la posibilidad de un futuro método de recuperación, pero actualmente no hay ninguno previsto. Si tienes claves Sprout, guárdalas en un lugar seguro.
 
 ## La respuesta en una página
 
 | Tus fondos están en | Ruta de migración | Qué hacer |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | Si tienes `wallet.dat` o una clave de gasto Sprout independiente, primero prueba la ruta de recuperación actual de Argos. Si Argos no es adecuado, utiliza la ruta heredada de sidecar de la guía de campo completa. Sprout debe llegar primero a Sapling y luego avanzar a Ironwood. Esta ruta es sensible al tiempo debido a NU7. |
-| **Sapling** | **Sapling → Ironwood** | No se necesita un entorno de recuperación Sprout. Usa una billetera actual que pueda recuperar o gastar tu cuenta Sapling específica y construir transacciones Ironwood. El soporte de Ironwood por sí solo no demuestra soporte para recuperación heredada de Sapling. |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Si tienes `wallet.dat` o una clave de gasto Sprout independiente, primero prueba la ruta de recuperación actual de Argos. Si Argos no es adecuado, utiliza la ruta heredada de sidecar de la guía de campo completa. Sprout debe llegar primero a Sapling y luego avanzar a Ironwood. Desde que se activó NU7 (bloque 3,543,405), los fondos Sprout no se pueden mover en Mainnet; consulta la nota anterior. |
+| **Sapling** | **Sapling → Ironwood** | No se necesita un entorno de recuperación Sprout. Usa una billetera actual que pueda recuperar o gastar tu cuenta Sapling específica y construir transacciones Ironwood. El soporte de Ironwood por sí solo no demuestra soporte para la recuperación heredada de Sapling. |
 | **Orchard** | **Orchard → Ironwood** | Orchard es solo de salida. Usa el flujo integrado de migración de Orchard a Ironwood de una billetera compatible actual. Consulta [Fondos recuperados y el pool Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
 ### Flujo de decisión de cinco preguntas
@@ -173,7 +171,7 @@ Desde que se activó la actualización Ironwood (NU6.3) el 28 de julio de 2026, 
 
 Si tus fondos recuperados están en Orchard, muévelos a Ironwood utilizando el **flujo de migración integrado de una billetera actual**. Orchard es solo de salida después de NU6.3.
 
-Zkool 6.30.0 es actual al 18 de septiembre de 2026 y admite Ironwood. Su diseño de migración se centra en la privacidad, pero no equivale a afirmar conformidad con ZIP 318. Otras billeteras actuales pueden usar una migración escalonada al estilo de ZIP 318. Sigue la pantalla de migración actual y las notas de lanzamiento de la billetera instalada en lugar de inventar manualmente un importe o calendario.
+Zkool 6.37.0 es actual al 12 de noviembre de 2026 y admite Ironwood. Usa la versión 6.35.0 o posterior: las versiones anteriores no conocen la altura de activación de Mainnet de NU7 (bloque 3,543,405), así que crean transacciones según las reglas anteriores a NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Su diseño de migración se centra en la privacidad, pero no equivale a afirmar conformidad con ZIP 318. Otras billeteras actuales pueden usar una migración escalonada al estilo de ZIP 318. Sigue la pantalla de migración actual y las notas de lanzamiento de la billetera instalada en lugar de inventar manualmente un importe o calendario.
 
 Una migración escalonada puede utilizar varias transacciones, por lo que la tarifa total puede ser mayor que una transferencia de una sola vez.
 

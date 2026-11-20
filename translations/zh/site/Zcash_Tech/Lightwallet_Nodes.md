@@ -81,13 +81,13 @@ Zaino 开发者也提出了相同论点，并直接引用了威胁模型：需�
 
 [Zaino](/zcash-tech/zaino) 是由 Zingo 团队以 Rust 编写的索引器，旨在作为 zcashd 弃用工作的一部分替代 lightwalletd。它为轻客户端、完整客户端和区块链浏览器提供服务，读取由"Zebra 或 zcashd 全验证器"持有的链数据。
 
-它正处于积极开发阶段，0.8.0 版本于 2026 年 8 月发布。它旨在尽可能保持与 lightwalletd 的向后兼容性，因此钱包无需重写即可指向它。
+它正处于积极开发阶段，0.10.1 版本于 2026 年 9 月发布。它旨在尽可能保持与 lightwalletd 的向后兼容性，因此钱包无需重写即可指向它。
 
 Zaino 拥有自己的页面及架构图，因此本页仅介绍其作为轻钱包服务器的角色。
 
 ### 自行运行
 
-最稳妥的选择是自行运营，这会彻底消除信任问题。两个服务器都是开源的：以 Go 编写的 [lightwalletd](https://github.com/zcash/lightwalletd)，以及以 Rust 编写的 [Zaino](https://github.com/zingolabs/zaino)。两者都从全验证器读取数据，因此您还需要 [Zebra](/zcash-tech/zebra-full-node)。
+最稳妥的选择是自行运营，这会彻底消除信任问题。两个服务器都是开源的：以 Go 编写的 [lightwalletd](https://github.com/zcash/lightwalletd)，以及以 Rust 编写的 [Zaino](https://github.com/zingolabs/zaino)。两者都从全节点验证器读取数据，因此您还需要 [Zebra](/zcash-tech/zebra-full-node)。zec.rocks 服务器通过 [Zcash Stack](/guides/zcash-stack) 部署，这是一个开源 Helm chart 和 Docker Compose 套件，可同时运行 Zebra 和 lightwalletd。
 
 ## 实际影响
 
@@ -117,11 +117,9 @@ Zaino 拥有自己的页面及架构图，因此本页仅介绍其作为轻钱�
 
 原名 Zashi。点击右上角的齿轮图标，然后进入"高级设置"。Tor 位于同一页面。ZODL 还会在因服务器过时而导致同步失败时提供"切换服务器"快捷方式。
 
-#### Ywallet
+#### Zkool
 
-点击右上角的齿轮图标，然后进入 Zcash 选项卡。
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+Ywallet的后继产品，由同一位开发者开发（Ywallet本身已不再维护，在Ironwood之后无法跟上网络）。在账户屏幕顶部点击齿轮图标（打开设置），然后找到 Light Node Server 字段。旁边的列表按钮可从已知服务器中选择，下面的 Direct / Tor / Nym / Proxy 开关用于设置钱包的连接方式。
 
 #### Zingo
 
@@ -153,10 +151,11 @@ Zaino 拥有自己的页面及架构图，因此本页仅介绍其作为轻钱�
 
 ## 相关页面
 
-- [谁能看到您的 Zcash 支付](/start-here/who-can-see-your-zcash-payment) — 针对同一问题的入门级说明。
-- [区块浏览器能看到什么](/zcash-tech/what-a-block-explorer-can-see) — 链上可见的信息，而非服务器端可见的信息。
-- [Zaino](/zcash-tech/zaino) — 架构图及 Rust 索引器更广泛的作用。
-- [Zebra 全节点](/zcash-tech/zebra-full-node) — 轻钱包服务器读取数据所依赖的验证器。
-- [Zcash 钱包同步](/zcash-tech/zcash-wallet-syncing) — 服务器发送的紧凑区块如何由您的钱包处理。
+- [谁能看到你的Zcash支付](/start-here/who-can-see-your-zcash-payment)——以入门级视角探讨同一个问题。
+- [区块浏览器能看到什么](/zcash-tech/what-a-block-explorer-can-see)——链上可见的信息，与服务器端可见的信息有何不同。
+- [Zaino](/zcash-tech/zaino)——架构图以及Rust索引器的更广泛作用。
+- [Zinder](/zcash-tech/zinder)——Zcash Foundation的 alpha 索引器，它通过兼容lightwalletd的适配器为轻钱包提供服务。
+- [Zebra全节点](/zcash-tech/zebra-full-node)——轻钱包服务器读取数据的验证者。
+- [Zcash钱包同步](/zcash-tech/zcash-wallet-syncing)——服务器发送的紧凑区块如何由你的钱包处理。
 
 **最后更新：**2026 年 8 月

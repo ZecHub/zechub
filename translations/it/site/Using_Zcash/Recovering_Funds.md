@@ -18,18 +18,16 @@ Il recupero dipende dall'avere la corretta autorità di spesa e un percorso attu
 
 I vecchi ZEC schermati potrebbero dover essere migrati durante il recupero. Il percorso dipende da quale pool schermata detiene attualmente i fondi.
 
-> **NU7 è previsto per il 5 novembre 2026.** Una volta attivato, l'attuale percorso di migrazione fuori dalla pool Sprout legacy smetterà di funzionare.
+> **NU7 si è attivato su Mainnet il 6 novembre 2026 (UTC), al blocco 3.543.405.** Non consente le transazioni di versione 4 ([ZIP 2003](https://zips.z.cash/zip-2003)) e i fondi Sprout possono essere spesi solo in transazioni di versione 4, quindi il percorso di migrazione fuori dalla pool Sprout legacy non funziona più.
 >
-> Se hai ancora ZEC nella pool Sprout, migrali prima dell'aggiornamento. Dopo l'attivazione, gli strumenti esistenti non saranno più in grado di spostare i fondi Sprout in Sapling, indirizzi trasparenti o qualsiasi altra destinazione.
->
-> Se stai visualizzando questa pagina **dopo l'attivazione di NU7**, **Sprout è congelato nel ghiaccio** finché non sarà disponibile un futuro metodo di recupero, attualmente non pianificato.
+> **Sprout è ora congelato nel ghiaccio.** Gli strumenti esistenti non possono più spostare i fondi Sprout in Sapling, indirizzi trasparenti o qualsiasi altra destinazione. ZIP 2003 non brucia i fondi Sprout e lascia aperta la possibilità di un futuro metodo di recupero, ma al momento non ne è previsto alcuno. Se detieni le chiavi Sprout, custodiscile con cura.
 
 ## La risposta in una pagina
 
 | I tuoi fondi sono in | Percorso di migrazione | Cosa fare |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | Se hai `wallet.dat` o una chiave di spesa Sprout autonoma, prova prima l'attuale percorso di recupero Argos. Se Argos non è adatto, usa il percorso sidecar legacy nella guida completa sul campo. Sprout deve arrivare prima in Sapling, poi proseguire verso Ironwood. Questo percorso è sensibile al tempo a causa di NU7. |
-| **Sapling** | **Sapling → Ironwood** | Non è necessario alcun ambiente di recupero Sprout. Usa un portafoglio attuale che possa sia recuperare sia spendere il tuo specifico account Sapling e costruire transazioni Ironwood. Il solo supporto Ironwood non dimostra il supporto al recupero legacy-Sapling. |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Se hai `wallet.dat` o una chiave di spesa Sprout autonoma, prova prima l'attuale percorso di recupero Argos. Se Argos non è adatto, usa il percorso sidecar legacy nella guida completa sul campo. Sprout deve arrivare prima in Sapling, poi proseguire verso Ironwood. Da quando NU7 è stato attivato (blocco 3,543,405), i fondi Sprout non possono essere spostati su Mainnet; vedi la nota sopra. |
+| **Sapling** | **Sapling → Ironwood** | Non è necessario alcun ambiente di recupero Sprout. Usa un portafoglio attuale che possa recuperare o spendere il tuo specifico account Sapling e costruire transazioni Ironwood. Il solo supporto Ironwood non dimostra il supporto al recupero legacy-Sapling. |
 | **Orchard** | **Orchard → Ironwood** | Orchard è solo in uscita. Usa il flusso di migrazione integrato da Orchard a Ironwood di un portafoglio attuale compatibile. Vedi [Fondi recuperati e la pool Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
 ### Flusso decisionale in cinque domande
@@ -83,7 +81,7 @@ Qui sono trattate due situazioni:
 5. Incolla la chiave in **Key (Seed Phrase, Private Key, or Viewing Key)**. Zkool accetta frasi mnemoniche, chiavi segrete Sapling, chiavi estese trasparenti e chiavi di visualizzazione supportate. Una chiave di visualizzazione è in sola lettura e non può autorizzare una spesa.
 6. Inserisci una **Birth Height** per un account vecchio. Zkool non esegue la scansione dei blocchi precedenti a questa altezza, quindi, se non sei sicuro, scegli un'altezza antecedente alla prima attività del portafoglio. Un'altezza di nascita impostata troppo tardi può far sembrare mancanti transazioni reali.
 
-![Zkool New Account screen with Restore Account and Advanced Options both turned on](/content-images/zkool-restore-account-60b1d2777e.webp)
+![Schermata Nuovo account di Zkool con Ripristina account e Opzioni avanzate entrambi attivati](/content-images/zkool-restore-account-60b1d2777e.webp)
 
 7. Salva l'account, quindi sincronizzalo
 
@@ -173,7 +171,7 @@ Dall'attivazione dell'aggiornamento Ironwood (NU6.3), avvenuta il 28 luglio 2026
 
 Se i tuoi fondi recuperati sono in Orchard, spostali a Ironwood usando il **flusso di migrazione integrato di un portafoglio attuale**. Orchard è solo in uscita dopo NU6.3.
 
-Zkool 6.30.0 è la versione attuale al 18 settembre 2026 e supporta Ironwood. Il suo progetto di migrazione è orientato alla privacy, ma non equivale a dichiarare la conformità con ZIP 318. Altri portafogli attuali possono usare una migrazione graduale in stile ZIP 318. Segui la schermata di migrazione attuale e le note di rilascio del portafoglio installato anziché inventare manualmente un importo o una pianificazione.
+Zkool 6.37.0 è la versione attuale al 12 novembre 2026 e supporta Ironwood. Usa la versione 6.35.0 o successiva: le versioni precedenti non conoscono l'altezza di attivazione di NU7 sulla Mainnet (blocco 3,543,405), quindi creano transazioni secondo le regole precedenti a NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Il suo progetto di migrazione è orientato alla privacy, ma non equivale a dichiarare la conformità con ZIP 318. Altri portafogli attuali possono usare una migrazione graduale in stile ZIP 318. Segui la schermata di migrazione attuale e le note di rilascio del portafoglio installato anziché inventare manualmente un importo o una pianificazione.
 
 Una migrazione graduale può utilizzare più transazioni, quindi la commissione totale può essere superiore a quella di un trasferimento in un'unica operazione.
 

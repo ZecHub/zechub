@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Вебсайт: https://trocador.app/
 - Опис: Анонімно торгуйте криптовалютою. Швидко. Безпечно. Без бюрократії. Доступні передплачені дебетові картки.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Вебсайт: https://github.com/firoorg/FiroDEX-Desktop
-- Опис: Децентралізовані обміни без довіри з використанням атомарних свопів із FiroDEX!.
+- Опис: Настільний застосунок для атомарних свопів. Більше не підтримується: Firo заархівував репозиторій FiroDEX-Desktop, а останнім випуском є 0.8.2-beta (лютий 2025 року).
 
 ___
 

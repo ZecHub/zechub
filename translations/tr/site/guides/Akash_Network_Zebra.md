@@ -1,6 +1,6 @@
 # Akash Network üzerinde Zebra nasıl çalıştırılır
 
-[Akash Console](https://console.akash.network) kullanarak bir Zebra Zcash full node dağıtmak için adım adım rehber.
+Akash üzerinde bir Zebra Zcash tam düğüm dağıtmak için adım adım rehber.
 
 ### Ne Dağıtıyorsunuz
 
@@ -15,54 +15,92 @@
 -> 4 vCPU, 16GB RAM, 350GB depolama (mainnet) veya 2 vCPU, 8GB RAM, 50GB (testnet) kullanacak
 
 
-### Önemli: Akash'ta Port Eşleme
+awesome-akash şablonu artık **Zebra 7.0.0** sürümünü sabitler (`:latest` kullanmaz). Prometheus'u (`9999`) ve health'i (`8080`) dahili olarak, aynı yerde bulunan **lightwalletd** için JSON-RPC'yi gRPC **9067** üzerinden dahili olarak ve `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD` özellik bayraklarını etkinleştirir.
 
-Akash'ta bir portu dışa açtığınızda (ör. Zebra P2P için 8233 portu), bu port sağlayıcının genel IP’sinde **aynı porta bağlanmaz**. Bunun yerine sağlayıcı rastgele yüksek bir port (31234 veya 42567 gibi) atar ve bunu container'ınızdaki 8233 portuna reverse proxy ile yönlendirir.
+Budanmış Mainnet düğümünü daha hızlı çalıştırmak için [Zakura'ı Akash](/guides/akash-network-zakura) üzerinde çalıştırma yöntemine bakın. Kullan-at Regtest panosu için [Thus Spoke Zakura'a Akash](/guides/thus-spoke-zakura-akash) üzerinde bakın.
 
-Bu tasarım gereğidir - sağlayıcılar birden fazla deployment çalıştırır ve herkes doğrudan 8233 portunu kullanmaya çalışsaydı çakışmalar olurdu.
+### Akash bağlantı noktalarını nasıl yayımlar
 
-**Bu sizin için ne anlama geliyor:**
+SDL'deki sayılar (`port` / `as`) **konteyner bağlantı noktalarıdır**. Zebra hâlâ **8233**'ü, lightwalletd **9067**'yi, sağlık denetimi ise **8080**'i dinler. Bu sayılar süreç ve aynı dağıtımdaki diğer hizmetler içindir (`zebra:8232`).
 
--> SDL içinde 8233 portunu yapılandırırsınız (Zebra'nın standart P2P portu)
+Bunlar, sağlayıcının genel IP adresindeki portlar **değildir**.
 
--> Akash size *provider.com:31234* gibi bir URI verir
+**Varsayılan (bu şablon):** özel IP yok. Her `global: true` TCP dışa açılımı için sağlayıcı, paylaşılan bir ana makinedeki **rastgele yüksek bir portu** kapsayıcı portunuza eşler. Kira süresi başladıktan sonra Console/Air **Leases → URIs** gerçek uç noktaları listeler; örneğin:
 
--> Diğer Zcash node'ları size *provider.com:31234* üzerinden bağlanır
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
--> Container'ınızın içinde Zebra yine 8233 üzerinde dinler
+Eşler ve cüzdanlar **bu** ana bilgisayar:bağlantı noktası değerlerini kullanır. İlgilendiğiniz dışa açma için URI’yi kopyalayın (P2P veya lightwalletd). `ZEBRA_NETWORK__EXTERNAL_ADDR` ayarlıyorsanız, bunu `…:8233` yerine eşlenen P2P URI’sine (`provider.example:31482`) ayarlayın.
 
+**HTTP** (`as: 80` ve `http_options` ile, Thus Spoke panosunda kullanılır): birçok sağlayıcı rastgele bir TCP portu yerine bir **giriş ana bilgisayar adı** (genellikle 80/443 üzerinde) yayımlar. Bu hizmetin URI'sini tarayıcıda açın.
 
-Bu otomatik olarak ele alınır. Sadece Akash'ın size verdiği URI'yi kullanın.
+**Dahili** (`global: false` veya `to: service: lightwalletd`): yalnızca küme DNS’i (`zebra:8232`). Genel URI yok.
+
+**Özel IP’ler** (SDL’de `endpoints` / `kind: ip`), **premium bir eklentidir**. Genel bir IP’yi ve bazen o IP’deki `as` bağlantı noktasını sabit tutabilirler. Bu şablonlar IP talep etmez. İstersen daha sonra sabit bir `host:8233` için bunu kendin ekleyebilirsin; ek maliyet ve daha az teklif veren sağlayıcı bekle.
+
+### Hangi site kullanılmalı (ödemeler)
+
+SDL aynıdır. İki Akash web kullanıcı arayüzü **ödeme şekliniz** bakımından farklıdır.
+
+| Site | Ödemeler | Cüzdan |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Geleneksel web üzerinden ödeme (Console’ın sunduğu kart / itibari para kanalları) | Console hesabı |
+| [air.akash.network](https://air.akash.network) | Yerel Akash zincir ödemeleri (AKT / ACT) | **Keplr** |
+
+Zincir üzerinde Keplr ile ödeme yapmak istediğinizde **Air**'i kullanın. Geleneksel bir web ödeme akışı istediğinizde **Console**'u kullanın. Console'da Keplr ile yerel uzlaşma beklemeyin.
 
 ### Ön Koşullar
 
-1. **Keplr Wallet** tarayıcı eklentisi kurulu olmalı (Chrome/Brave/Firefox)
-2. **AKT tokenları** - Bir borsadan (Coinbase, Kraken, Osmosis) 50-100 AKT alın
-3. Console arayüzünde tıklayarak ilerlemek için **5 dakika**
+**Console üzerinden ödeme yapıyorsanız (web ödeme sayfası)**
 
-#### Adım 1: Cüzdanınızı Bağlayın
+1. [console.akash.network](https://console.akash.network) adresinde bir Console hesabı
+2. Console arayüzünün kabul ettiği bir ödeme yöntemi
+3. Arayüzde birkaç dakika
+
+**Air üzerinde ödeme yaparsanız (yerel Akash / Keplr)**
+
+1. **Keplr** tarayıcı uzantısı (Chrome/Brave/Firefox)
+2. Yatırma ve kiralama için Keplr içinde **AKT / ACT** (bir borsadan veya IBC üzerinden)
+3. [air.akash.network](https://air.akash.network) adresini açın
+
+#### Adım 1: Bağlan
+
+**Konsol (web ödemeleri)**
 
 -> [https://console.akash.network](https://console.akash.network) adresine gidin
 
--> Sağ üstteki **"Connect Wallet"** düğmesine tıklayın
+-> Console hesap akışında oturum açın / akışı tamamlayın
 
--> **Keplr**'ı seçin (veya tercih ettiğiniz Cosmos cüzdanını)
+UI'da gösterilen checkout'ı kullanın (zincir üzerinde Keplr değil)
 
--> Keplr açıldığında bağlantıyı onaylayın
+**Air (yerel Akash ödemeleri)**
 
+-> [https://air.akash.network](https://air.akash.network) adresine gidin
 
-AKT bakiyeniz sağ üstte görünmelidir. Sıfırsa önce cüzdanınıza fon ekleyin.
+-> **"Connect Wallet"** düğmesine tıklayın
+
+-> **Keplr** seçeneğini belirleyin ve bağlantıyı onaylayın
+
+-> Yatırma tutarı ile kiralama bedelinin toplamını karşılayacak kadar AKT/ACT bakiyeniz olduğunu doğrulayın
 
 #### Adım 2: Deployment Oluşturun
 
--> **"Deploy"** düğmesine tıklayın (büyük mavi düğme, sayfanın ortası)
+-> **"Deploy"** öğesine tıklayın
 
 -> **"Build your template"** seçeneğini seçin (veya doğrudan SDL yüklemeye geçin)
 
 
 ##### Seçenek A: SDL Dosyası Yükleyin (Önerilir)
 
-[![Akash'ta Dağıtın](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Web ödemeleri (Konsol)**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**Keplr (Air) ile yerel Akash ödemeleri**
+
+[Bu şablonu Air'de aç](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Seçenek B: SDL Düzenleyicisini Kullanın
 
@@ -79,13 +117,13 @@ AKT bakiyeniz sağ üstte görünmelidir. Sıfırsa önce cüzdanınıza fon ekl
 
 #### Adım 3: Depozitoyu Gözden Geçirin ve Onaylayın
 
-Console size şunları gösterecektir:
+Arayüz size şunları gösterecek:
 
 -> **Deployment depozitosu**: ~5 AKT (deployment'ı kapattığınızda bunu geri alırsınız)
 
 -> **Tahmini maliyet**: SDL fiyatlandırmanıza göre
 
-**"Approve"** düğmesine tıklayın ve işlemi Keplr içinde imzalayın.
+**Air**’de **"Approve"**’a tıklayın ve **Keplr** üzerinden oturum açın. **Console**’da, arayüzün sunduğu web ödeme adımını tamamlayın.
 
 #### Adım 4: Bir Sağlayıcı Seçin
 
@@ -107,7 +145,7 @@ Yaklaşık 30 saniye sonra sağlayıcılardan teklifleri göreceksiniz. Her tekl
 -> Denetlenmiş durumu (yeşil onay işareti = daha güvenilir)
 
 
-Seçtiğiniz sağlayıcıda **"Accept Bid"** düğmesine tıklayın ve Keplr'da imzalayın.
+Seçtiğiniz sağlayıcıda **"Teklifi Kabul Et"** seçeneğine tıklayın. Air'de Keplr ile oturum açın. Console'da web ödeme akışını kullanarak onaylayın.
 
 #### Adım 5: Deployment'ın Hazırlanmasını Bekleyin
 
@@ -158,15 +196,14 @@ Senkronizasyon ağa bağlı olarak **saatlerden günlere** kadar sürecektir. Ş
 
 Şuna benzer bir şey göreceksiniz:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-Bu, node'unuzun **genel P2P uç noktasıdır**. Diğer Zcash node'ları bu adres üzerinden size bağlanacaktır.
+Her satır bir `global: true` dışa açar. Ad, SDL `as` portunu (8233, 9067) içerir. Ana bilgisayar adından sonraki sayı, kiralama sırasında atanan **sağlayıcının eşlediği porttur**. Diğer Zcash düğümleri `provider-hostname.com:31482` adresine bağlanır. Kompakt cüzdanlar lightwalletd URI’sini kullanır (TLS’yi kendiniz sonlandırmadığınız sürece TLS kapalıdır).
 
-**Port eşlemesine dikkat edin:** SDL'de 8233 portunu yapılandırdınız, ancak Akash bunu farklı bir genel porta atadı (bu örnekte 31234). Bu normaldir - bu sizi şaşırtıyorsa üstteki "Akash'ta Port Eşleme" bölümüne bakın. Node'unuza burada Akash'ın gösterdiği porttan erişilir; bu port mutlaka 8233 olmak zorunda değildir.
-
-RPC'yi etkinleştirdiyseniz (SDL'de varsayılan olarak yorum satırına alınmıştır), RPC uç noktasını da burada kendi eşlenmiş portuyla göreceksiniz.
+Kapsayıcı hâlâ 8233 / 9067 bağlantı noktalarını dinliyor. Daha sonra özel bir IP eklemediğiniz sürece (bu şablonda yoktur) genel adres her zaman URI'dir.
 
 ### Yapılandırma Seçenekleri
 
@@ -267,7 +304,7 @@ Güvenlik nedeniyle RPC varsayılan olarak devre dışıdır. Etkinleştirmek i�
 
 **Uyarı**: RPC için *global: true* ayarlarsanız, onu internete açmış olursunuz. Zebra varsayılan olarak cookie auth kullanır, ama yine de - ne yaptığınızı bilmiyorsanız bunu yapmayın.
 
-**Port eşleme hatırlatması**: RPC'yi global olarak dışa açsanız bile Akash bunu rastgele yüksek bir porta eşler (8232/18232 değil). Gerçek genel uç noktayı görmek için deployment'ınızdaki URI'leri kontrol edin. *global: false* için (önerilir), RPC uç noktası genel internetten değil, yalnızca Akash deployment ağı içinden erişilebilir olur.
+`global: true` ile RPC’yi dışarı açarsanız, genel adres yine bir **lease URI**’dir (`host:&lt;random-high-port&gt;`), `host:8232` değildir. `global: false` (bu şablon) ile RPC, dağıtım ağında kalır (lightwalletd için `zebra:8232`). Özel IP kiralamaları ayrı ve ücretli bir seçenektir; SDL’de yer almaz.
 
 #### Metrics'i Etkinleştirin (Prometheus)
 
@@ -319,7 +356,7 @@ Dağıtımdan sonra yapılandırmayı değiştirmeniz mi gerekiyor?
 
 -> SDL'yi düzenleyin
 
--> **"Update"** düğmesine tıklayın ve Keplr'da onaylayın
+-> **"Güncelle"**'ye tıklayın (Air: Keplr ile oturum açın; Console: web ödeme akışını onaylayın)
 
 **Not**: Güncelleme container'ınızı yeniden başlatacaktır. Node kaydedilmiş durumundan devam edecektir (kalıcı depolama), ancak 1-2 dakikalık kesinti bekleyin.
 
@@ -348,7 +385,7 @@ RPC'yi etkinleştirdiyseniz, node'unuzu normal bir zebrad full node gibi sorgula
 
 -> **"Close Deployment"** düğmesine tıklayın
 
--> Onaylayın ve Keplr'da imzalayın
+-> Onaylayın (Air: Keplr üzerinden oturum açın; Console: Console arayüzünde onaylayın)
 
 5 AKT depozitonuz iade edilir. **Kalıcı depolama** sağlayıcı tarafından korunmalıdır, ancak buna güvenmeyin - buna diğer cloud sağlayıcıları gibi yaklaşın.
 
@@ -356,7 +393,7 @@ RPC'yi etkinleştirdiyseniz, node'unuzu normal bir zebrad full node gibi sorgula
 
 #### "Insufficient funds" hatası
 
-Daha fazla AKT'ye ihtiyacınız var. Keplr cüzdanınıza fon ekleyin.
+On Air’de Keplr’a AKT/ACT yatırın. Console’da Console ödeme yöntemine bakiye ekleyin.
 
 #### Hiç teklif görünmüyor
 
@@ -394,12 +431,11 @@ RAM'den fazla kısmışsınız. Deployment'ı kapatın ve en az 12Gi bellekle ye
 
 ### Maliyet Yönetimi
 
-Console üzerinden harcamanızı izleyin:
+Harcamalarınızı Console veya Air'de izleyin:
 
 -> **My Deployments** -> Deployment'ınız -> "Cost per month" tahminini gösterir
 
--> Keplr cüzdan bakiyeniz zamanla azalacaktır
-
+-> Air: Keplr AKT/ACT bakiyeniz zamanla azalır. Console: Console ödeme bakiyeniz azalır.
 
 Bakiyeniz azaldığında Akash deployment'ınızı otomatik olarak kapatacaktır. **Cüzdanınıza düzenli olarak bakiye ekleyin** veya uyarılar ayarlayın.
 
@@ -433,7 +469,9 @@ Yalnızca deployment sürecini test ediyorsanız Testnet ile başlayın. Yapıla
 
 ### Ek Kaynaklar
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Konsolu** (web ödemeleri): [https://console.akash.network](https://console.akash.network)
+
+**Akash Air** (yerel AKT/ACT + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Akash Belgeleri**: [https://akash.network/docs/](https://akash.network/docs/)
 

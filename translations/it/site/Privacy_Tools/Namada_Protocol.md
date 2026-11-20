@@ -26,7 +26,7 @@ Namada dà priorità alla privacy implementando una versione migliorata del circ
 
 L'integrazione del bridge Ethereum in Namada elimina la necessità di un protocollo separato, poiché diventa parte integrante dell'ecosistema di Namada. Ai validatori all'interno di Namada è affidata l'esecuzione del bridge insieme al protocollo centrale di Namada. Questi validatori fungono anche da relayer quando trasferiscono asset verso Namada, rendendo superfluo il coinvolgimento di attori aggiuntivi. D'altra parte, quando gli asset vengono trasferiti verso Ethereum, sono coinvolte parti esterne, note come relayer, sebbene non abbiano alcuna responsabilità nella convalida o nella protezione del bridge.
 
-![Ethereum Bridge Diagram](/content-images/image-0fd8f754ba.webp)
+![Diagramma del bridge Ethereum](/content-images/image-0fd8f754ba.webp)
 
 Il protocollo Namada è inoltre in grado di connettersi perfettamente a qualsiasi chain a finalità rapida che supporti il protocollo Inter-Blockchain Communication (IBC). Per quanto riguarda l'interoperabilità con Ethereum, Namada implementa un bridge Ethereum specializzato e sicuro che opera in modo trustless. Questo bridge è progettato attentamente per dare priorità alla sicurezza, imponendo controlli di flusso per tutte le connessioni bridge e trattando qualsiasi trasferimento Ethereum difettoso come una grave infrazione che può comportare penalità di slashing.
 
@@ -40,7 +40,7 @@ In Namada, l'insieme schermato è considerato un bene pubblico non esclusivo e n
 
 Il MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)) estende il circuito Sapling di Zcash per supportare trasferimenti schermati di asset nativi e non nativi. Condividere una pool non significa che la privacy sia indipendente dall'uso di un asset. La documentazione di Namada spiega che gli asset dello stesso tipo condividono un insieme di anonimato e che gli schemi pubblici di schermatura e de-schermatura possono comunque rivelare l'origine di un asset.
 
-![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
+![Diagramma di transazione con asset schermati](/content-images/image-1-512c639d56.webp)
 
 Ad esempio, se un solo account scherma BTC e in seguito li preleva verso lo stesso account, quei punti di ingresso e di uscita pubblici possono essere collegati anche se i fondi si sono spostati privatamente all'interno della MASP. Quando sono più account a schermare BTC, un prelievo successivo potrebbe invece appartenere a uno qualsiasi di quegli account. Contano la partecipazione e lo schema delle transazioni; la dimensione della pool condivisa da sola non garantisce la stessa privacy per ogni asset.
 
@@ -54,7 +54,7 @@ Inoltre, Namada utilizza moderni algoritmi di consenso BFT, che garantiscono l'i
 
 Secondo una recente pubblicazione disponibile sul [blog del protocollo Namada](https://namada.net/blog/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash), il team dietro il protocollo Namada è lieto di presentare una proposta e una richiesta di commenti (RFC) per un'alleanza strategica tra gli asset, le chain e le community di Namada e Zcash.
 
-![Namada-Zcash Strategic Alliance Diagram](/content-images/image-2-68804c60f3.webp)
+![Diagramma dell'alleanza strategica Namada-Zcash](/content-images/image-2-68804c60f3.webp)
 
 L'alleanza proposta comprende tre elementi principali. Innanzitutto, verrà creata una pool di finanziamenti per finanziare progetti che portino vantaggi sia a Zcash sia a Namada. In secondo luogo, un airdrop di token NAM verrà assegnato ai detentori di ZEC. Infine, è previsto un piano per stabilire un bridge con fiducia ridotta che colleghi Zcash e Namada. Una volta implementato, questo bridge consentirà ai detentori di ZEC, chiamati Zolders, di utilizzare i propri ZEC su Namada. Inoltre, gli Zolders avranno l'opportunità di accedere agli ecosistemi più ampi di Cosmos ed Ethereum attraverso Namada. Puoi scoprire di più sull'alleanza strategica nel [forum della community di Zcash](https://forum.zcashcommunity.com/t/rfc-proposal-for-a-strategic-alliance-between-namada-and-zcash/44372)
 

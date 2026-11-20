@@ -53,11 +53,11 @@ Mɔfiame sia ƒe ta nye be woanuku Zcash kple ame ŋutɔ ƒe mɔ̃nuwo (le kpɔ�
 - **Dɔwɔ Ƒe Ƒoƒe:** Windows 10/11, Linux (Ubuntu woaɖo ŋu na dzideƒo).
 - **Nukuku Ƒe Software:**
   - Na GPUwo: lolMiner (wɔa dɔ kple AMD/NVIDIA), GMiner, alo miniZ (NVIDIA ŋu wɔnɔ). Ɖe eƒe official GitHub repo wo me (le kpɔɖeŋu me, github.com/Lolliedieb/lolMiner-releases).
-  - Na ASICwo: Zã manufacturer la ŋutɔ ƒe firmware/dashboard si wotu ɖe eme (le kpɔɖeŋu me, Bitmain ƒe web interface).
-- **Gakotoku [wallet]:** Zcash gakotoku be nàxɔ fetuwo. Esiwo woaɖo ŋu:
-  - Ɣaɣla [Shielded] (si le ɣaɣla me): ZODL Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
-  - Nuwo ƒe ʋuʋuɖi [Transparent] (bɔbɔe ke ɣaɣla medze o): Edge Wallet, Zecwallet Lite.
-  - Ɖe wo tso [wallets](https://zechub.wiki/wallets). Wɔ ɣaɣla gaɖoƒe ƒe dzesi [address] si dze egɔme kple 'zs' na ɣaɣla ne gaƒuƒoƒo la wɔa dɔ kple ema.
+  - Na ASICs: Zã manufacturer la ŋutɔ ƒe firmware/dashboard si wotu ɖe eme (le kpɔɖeŋu me, Bitmain ƒe web interface).
+- **Gakotoku:** Zcash gakotoku be nàxɔ fetuwo. Esiwo woaɖo ŋu:
+  - Ɣaɣla (si le ɣaɣla me): ZODL Wallet, Zingo (Mobile/Desktop), Zkool (mobile/desktop).
+  - Nuwo ƒe ʋuʋuɖi (bɔbɔe ke ɣaɣla medze o): Edge Wallet.
+  - Ɖe wo tso [wallets](https://zechub.wiki/wallets). Wɔ ɣaɣla gaɖoƒe ƒe dzesi si dze egɔme kple 'zs' na ɣaɣla ne gaƒuƒoƒo la wɔa dɔ kple ema.
 
 ### Bubuwo
 - Elektrik: Bui asiwo. GPUwo zãa 150-300W na card ɖeka; ASICwo 1000W+.

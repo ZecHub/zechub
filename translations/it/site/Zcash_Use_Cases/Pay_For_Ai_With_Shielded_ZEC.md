@@ -69,7 +69,7 @@ Prima di caricare denaro, apri **Settings** e crea un token di accesso, poi cons
 
 Apri **Balance**, scegli **Custom** e inserisci un importo. Il minimo è **$0.10** e il massimo è $5,000. NanoGPT ti dice cosa puoi acquistare, circa 12 prompt GPT 5.5 o 18 immagini per $1.
 
-![NanoGPT add balance screen showing the custom amount and the ten cent minimum](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
+![Schermata di ricarica di NanoGPT che mostra l'importo personalizzato e il minimo di dieci centesimi](/content-images/nanogpt-add-balance-acc74a4e6d.webp)
 
 ### Passo 4: scegli Zcash
 
@@ -77,7 +77,7 @@ Seleziona **Digital currencies**, poi **Zcash** dalla griglia.
 
 Otterrai un codice QR, un indirizzo di pagamento e un **transfer minimum** in ZEC per l'importo scelto. Questa cifra viene calcolata nel momento in cui la pagina si carica.
 
-![NanoGPT Zcash deposit screen with the QR code, unified address and transfer minimum](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
+![Schermata di deposito Zcash di NanoGPT con il codice QR, l'indirizzo unificato e il minimo di trasferimento](/content-images/nanogpt-zec-deposit-bd1980d2f7.webp)
 
 ### Passo 5: invia dal tuo portafoglio
 
@@ -95,7 +95,7 @@ Il tuo portafoglio mostrerà prima la transazione in attesa, poi in conferma. Na
 
 Il saldo appare e puoi spenderlo immediatamente.
 
-![NanoGPT balance page showing the credited amount and deposit history](/content-images/nanogpt-balance-0b0c0c86ba.webp)
+![Pagina del saldo di NanoGPT che mostra l'importo accreditato e lo storico dei depositi](/content-images/nanogpt-balance-0b0c0c86ba.webp)
 
 <br/>
 

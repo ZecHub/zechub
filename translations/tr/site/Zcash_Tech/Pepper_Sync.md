@@ -14,7 +14,7 @@
 
 ## Temel Açıklama
 
-Zingo 2.0, Zcash topluluğu için geliştirilmiş hafif, açık kaynaklı Zingo! cüzdanının en yeni sürümüdür. Bu sürümün yıldızı, cüzdanların blokzincirle nasıl bağlantı kurduğunu tamamen yeniden düşünen büyük bir yükseltme olan Pepper Sync'tir.
+Zingo 2.0, Zcash topluluğu için geliştirilmiş hafif, açık kaynaklı Zingo! cüzdanının Pepper Sync'i tanıtan sürümüdür. Pepper Sync, cüzdanların blokzincire nasıl bağlandığını tamamen yeniden ele alan büyük bir yükseltmedir. Daha sonraki sürümlerde de Pepper Sync korunuyor: mevcut mobil sürüm olan [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (31 Ekim 2026), NU7 desteği ve yerleşik takaslar ekliyor.
 
 Geçmişte senkronizasyon acı verecek kadar yavaş, hataya açık ve kaynak yoğun hissettirebiliyordu; hatta bazen kullanıcıları her şeye sıfırdan başlamaya zorluyordu. Pepper Sync bunu tamamen değiştiriyor. Senkronizasyonu daha hızlı, daha akıcı, daha güvenilir ve cihazınız için daha az yorucu hale getirirken shielded işlemlerin gizliliğini de tamamen koruyor.
 
@@ -93,10 +93,10 @@ Pepper Sync, cüzdan deneyimini iyileştirerek tüm Zcash ekosistemini güçlend
 
 ### Başlarken: Zingo 2.0 ile ilk kurulum
 
-1. Cüzdanı İndirin - Doğru sürümü [Zingo GitHub sürümleri sayfasından](https://github.com/zingolabs/zingolib) edinin
-2. Cüzdanınızı Kurun - Yeni bir cüzdan oluşturun veya mevcut bir seed phrase'den geri yükleyin. [Zingo Labs ile Zingo 2.0](https://www.youtube.com/watch?v=FREwMzf_LlM)
+1. Cüzdanı İndirin - Doğru sürümü [zingolabs.org](https://zingolabs.org/) veya GitHub [mobil](https://github.com/zingolabs/zingo-mobile/releases) ve [masaüstü](https://github.com/zingolabs/zingo-pc/releases) sürüm sayfalarından edinin
+2. Cüzdanınızı Kurun - Yeni bir cüzdan oluşturun veya mevcut bir seed phrase'den geri yükleyin. [Zingo 2.0 ile Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Pepper Sync'in Çalışmasına İzin Verin - Cüzdanınız güncellenirken ilerleme göstergelerini izleyin. [Pepper Sync Çalışıyor](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Zcash Kullanmaya Başlayın - Senkronizasyon tamamlanır tamamlanmaz shielded ZEC gönderip alın.
+4. Zcash Kullanmaya Başlayın - Senkronizasyon tamamlanır tamamlanmaz korumalı ZEC gönderip alın.
 5. Kesintiler İçin Endişelenmeyin - Uygulama kapanırsa veya bağlantı koparsa Pepper Sync otomatik olarak devam eder.
 
 ## Yaygın Hatalar

@@ -25,7 +25,7 @@ Diese Trennung hält die Rollen klar:
 
 Zaino bietet Funktionen für Light-Clients, vollständige Clients oder Wallets sowie Block-Explorer. Es ermöglicht Zugriff auf die finalisierte Kette, die nicht finalisierte beste Kette und von Zebra gehaltene Mempool-Daten.
 
-## Einordnung in den aktuellen Zcash-Stack
+## Einordnung in den aktuellen Zcash Stack
 
 Der aktuelle Z3-Stack basiert auf Zebra, Zallet und optionalem Zaino.
 
@@ -89,5 +89,6 @@ Zaino stellt zwei Arten von Netzwerkdiensten bereit. Der gRPC-Dienst ist die API
 * [Z3-Bereitstellungs-Repository](https://github.com/ZcashFoundation/z3)
 * [Zebra Dokumentation](https://zebra.zfnd.org/)
 * [Zaino Förderungs- und Projektdiskussion](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), ein weiterer Rust-Indexer aus Zcash Foundation (Alpha)
 
 **Zuletzt aktualisiert:** August 2026

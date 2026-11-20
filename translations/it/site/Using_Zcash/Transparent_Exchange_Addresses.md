@@ -108,7 +108,7 @@ Ciò che rimane **nascosto**:
 
 Quindi un osservatore può collegare l'indirizzo effimero al pagamento dell'exchange (stessi fondi, da trasparente a trasparente) e può vedere che è stato ricaricato da un prelievo schermato. Non può collegarlo ai tuoi altri fondi o attività schermati. Nulla on-chain contrassegna effettivamente il pagamento come invio "TEX": come osserva ZIP 320, un pagamento a un indirizzo TEX è indistinguibile da un pagamento al corrispondente indirizzo `t1`, poiché le regole di consenso non cambiano e l'intera regola risiede nel portafoglio.
 
-![On-chain footprint of a TEX send: funds leave the shielded pool to an ephemeral transparent address, then go transparent-to-transparent to the exchange; the ephemeral address, both amounts and the exchange address are visible, while the rest of the shielded balance stays hidden](/content-images/tex-onchain-footprint.webp)
+![Impronta on-chain di un invio TEX: i fondi lasciano il pool schermato verso un indirizzo trasparente effimero, poi vanno da trasparente a trasparente verso l'exchange; l'indirizzo effimero, entrambi gli importi e l'indirizzo dell'exchange sono visibili, mentre il resto del saldo schermato resta nascosto](/content-images/tex-onchain-footprint.webp)
 
 ### Cosa mostra la blockchain
 

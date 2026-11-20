@@ -1,4 +1,4 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> Inviare denaro senza collegare la tua identità
+# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> Invia denaro senza collegare la tua identità
 
 <span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>Intermedio - 7 min</span>
 
@@ -6,22 +6,22 @@
 
 - Invia sempre da un **indirizzo schermato**
 - Evita le transazioni dirette da t a t
-- Spezza la collegabilità tra le identità
-- Presta attenzione alla tempistica e agli schemi
+- Interrompi la collegabilità tra identità
+- Fai attenzione a tempi e schemi
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> A chi è rivolto?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> A chi si rivolge?
 
-- Chiunque invii pagamenti sensibili
-- Utenti attenti alla privacy
-- Persone che operano sotto rischio di sorveglianza
+- A chiunque invii pagamenti sensibili
+- Agli utenti attenti alla privacy
+- A chi opera a rischio sorveglianza
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Il problema
 
-Inviare cripto spesso rivela:
+Inviare criptovalute spesso rivela:
 - L'identità del tuo portafoglio
 - La tua cronologia delle transazioni
 - Con chi interagisci
@@ -33,70 +33,70 @@ Questo crea un **grafo finanziario tracciabile**.
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Perché Zcash?
 
 
-Zcash consente **trasferimenti completamente privati** usando transazioni schermate.
+Zcash permette **trasferimenti completamente privati** usando le transazioni schermate.
 
-Questo spezza:
+Questo interrompe:
 - La collegabilità degli indirizzi
 - Il tracciamento pubblico delle transazioni
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Cosa ti serve
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"> Cosa ti serve
 
 - Un portafoglio che supporti le transazioni schermate
-- Una comprensione di base degli indirizzi z
+- Una conoscenza di base degli z-addresses
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida passo passo
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Guida passo a passo
 
-### Passo 1: assicurati che i fondi siano schermati
+### Passo 1: Assicurati che i fondi siano schermati
 
-Se i tuoi fondi sono in un indirizzo trasparente:
+Se i tuoi fondi si trovano in un indirizzo trasparente:
 - Spostali prima in un indirizzo schermato
 
 
-### Passo 2: invia da schermato a schermato
-Preferisci sempre una transazione `z a z`
+### Passo 2: Invia da schermato a schermato
+Preferisci sempre una transazione `z to z`
 
 Questo garantisce la massima privacy.
 
 
-### Passo 3: evita il collegamento dell'identità
+### Passo 3: Evita di collegare le identità
 
-NON:
+NON fare quanto segue:
 - Annunciare pubblicamente le transazioni
 - Riutilizzare lo stesso indirizzo in contesti diversi
 - Collegare gli indirizzi a identità note
 
-### Passo 4: considera gli schemi temporali
+### Passo 4: Considera gli schemi temporali
 
 Suggerimento avanzato:
-- Evita di inviare subito dopo aver ricevuto grandi somme
-- Spezza gli schemi prevedibili quando possibile
+- Evita di inviare subito dopo aver ricevuto grandi importi
+- Interrompi gli schemi prevedibili dove possibile
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Errori comuni da evitare
 
 - Inviare direttamente da indirizzi trasparenti  
-- Riutilizzare gli indirizzi con più persone  
+- Riutilizzare gli stessi indirizzi tra più persone  
 - Confermare pubblicamente le transazioni  
-- Ignorare i metadati (tempistica, frequenza)
+- Ignorare i metadati (tempi, frequenza)
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Risultato
 
 Puoi:
-- Inviare fondi in modo privato
+- Inviare fondi in privato
 - Evitare di collegare la tua identità
 - Ridurre la tracciabilità
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Correlati
-- [Cosa può vedere un Block Explorer](/zcash-tech/what-a-block-explorer-can-see)
+- [Cosa può vedere un block explorer](/zcash-tech/what-a-block-explorer-can-see)
 
 <br/>
 
@@ -104,10 +104,10 @@ Puoi:
 
 **Passo 2 di 6**
 
-Ora puoi inviare fondi in modo privato senza esporre la tua identità.
+Ora puoi inviare fondi in privato senza esporre la tua identità.
 
 <br/>
 
-## Passo successivo
+## Prossimo passo
 
 - [Configurazione della privacy per freelancer](/zcash-use-cases/freelance-privacy-setup)

@@ -16,6 +16,8 @@ New to Zcash? Start with [What is ZEC and Zcash](../start-here/what-is-zec-and-z
 
 ## TL;DR
 
+In plain words: blocks now arrive every 25 seconds, the amount of new ZEC per day stays the same, part of every fee is saved for future miners, and the old Sprout pool is closed.
+
 - **25-second blocks** ([ZIP 218](https://zips.z.cash/zip-0218)): first confirmation in about 25 seconds instead of 75. The block subsidy dropped from 1.5625 to 0.52083333 ZEC, so about 1,800 ZEC are still issued per day.
 - **Shielded action limits** (ZIP 218): at most 330 shielded actions per block across all pools, with per-pool caps, to keep worst-case block validation and wallet sync costs below what they were before.
 - **Network Sustainability Mechanism** ([ZIP 235](https://zips.z.cash/zip-0235) + [ZIP 237](https://zips.z.cash/zip-0237)): 60% of every block's transaction fees leave circulation and are reissued to miners later, starting at block 8,939,664 (projected around February 2031). The 21 million supply cap is unchanged.
@@ -25,6 +27,8 @@ New to Zcash? Start with [What is ZEC and Zcash](../start-here/what-is-zec-and-z
 ## Visual analogy
 
 Think of the chain as a train line. Before NU7 a train left every 75 seconds and could carry as many passengers as fit in 2 MB. NU7 runs a train every 25 seconds, pays each driver a third of the old fare so the daily total is the same, and puts a cap on how many of the heaviest passengers (shielded actions) can board one train, so no single train can take too long to check.
+
+![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## What NU7 changed
 
@@ -56,6 +60,7 @@ Before NU7, a full 2 MB block could hold about 617 Orchard or Ironwood actions o
 - **Reissuance (ZIP 237):** the removed ZEC is kept in public consensus state called the NSM Value Balance. It was seeded at NU7 with value that miners left unclaimed in the past. From block **8,939,664** (projected around February 2031), each block issues a fixed portion of that balance on top of the normal halving schedule.
 - The supply cap does not rise. When the balance is zero, issuance is exactly the old halving schedule.
 - NU7 did **not** deploy [ZIP 233](https://zips.z.cash/zip-0233) (voluntary removal by users) or [ZIP 234](https://zips.z.cash/zip-0234) (replacing halvings with a smooth curve). Coinholder polls chose the halving-preserving design in ZIP 237.
+- The numbers (the 368.58 ZEC seed, the per-block reissuance fraction, why it starts at block 8,939,664) are on the [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) page.
 
 ### Version 4 transactions disallowed (ZIP 2003)
 
@@ -146,6 +151,7 @@ Answers: (1) the per-block subsidy was cut to a third while blocks became three 
 |---|---|
 | [Ironwood](./Ironwood.md) | the previous upgrade in the series, which introduced v6 transactions |
 | [What 25-Second Blocks Actually Change](../research/what-25-second-blocks-actually-change) | a deeper look at the faster block time |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | how the fee removal and reissuance NU7 activated work, with the numbers |
 | [Sprout](./Sprout.md) | the pool NU7 retired |
 | [Recovering Funds](../using-zcash/recovering-funds) | what the Sprout freeze means for old funds |
 | [Transactions](../using-zcash/transactions) | expiry and confirmations after NU7 |

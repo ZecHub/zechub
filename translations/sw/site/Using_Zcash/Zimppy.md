@@ -6,9 +6,9 @@
 
 ## Kwa Ufupi
 
-- **Zimppy** ni miundombinu ya malipo [payment] inayotanguliza faragha [privacy] kwa mawakala wa AI inayotumia Itifaki ya Malipo ya Mashine ya Zcash (MPP)
-- **Weka amana mara moja** on-chain (~sekunde 75), kisha fanya **maombi ya papo hapo yasiyo na kikomo** bila mwingiliano wa blockchain kwa kila ombi
-- Inasaidia malipo ya **Zcash ya faragha kikamilifu (Orchard)** — mtumaji, mpokeaji, kiasi, na ujumbe [memo] vyote vimesimbwa fiche
+- **Zimppy** ni miundombinu ya malipo inayotanguliza faragha kwa mawakala wa AI inayotumia Itifaki ya Malipo ya Mashine ya Zcash (MPP)
+- **Weka amana mara moja** on-chain (~sekunde 25 kwa kila block tangu NU7), kisha fanya **maombi ya papo hapo yasiyo na kikomo** bila mwingiliano wa blockchain kwa kila ombi
+- Inasaidia malipo ya **Zcash ya faragha kikamilifu (Orchard)** — mtumaji, mpokeaji, kiasi na ujumbe vyote vimesimbwa fiche
 - Hufanya kazi na SDK za **TypeScript na Rust** kwa ujumuishaji rahisi katika mifumo ya AI na seva za API
 - Ni bora kwa **API za LLM, masoko ya data, seva za vifaa vya MCP**, na matumizi yoyote ya malipo ya M2M
 
@@ -52,7 +52,7 @@ Tofauti na mifumo ya jadi ya malipo ya blockchain, ambapo kila muamala [transact
 
 ### Sifa za Msingi
 
-- **Weka amana mara moja** on-chain (~sekunde 75 kwa uthibitisho [confirmation] wa Zcash)
+- **Weka amana mara moja** on-chain (~sekunde 25 kwa block ya Zcash tangu NU7; sekunde 75 hapo awali)
 - **Maombi ya papo hapo yasiyo na kikomo** baada ya kufungua kipindi, bila mwingiliano wa mnyororo kwa kila ombi
 - **Malipo ya faragha** husimba fiche mtumaji, mpokeaji, kiasi, na ujumbe kwa kutumia itifaki ya Zcash ya Orchard
 - **Malipo ya uwazi** hutumia anwani za T kwa kila changamoto ili kuzuia kurudiwa bila faragha kamili
@@ -77,12 +77,12 @@ Kwa mawakala wa AI wanaoshughulikia mitiririko nyeti ya kazi, utafiti wa kisheri
 
 ### Tatizo la Ucheleweshaji, Linalotatuliwa na Vipindi
 
-> *“Lakini Zcash ina muda wa block wa sekunde 75.”*
+*“Lakini block za Zcash bado huchukua sekunde 25 (sekunde 75 kabla ya NU7).”*
 
 **Vipindi hutatua hili.** Kusubiri on-chain hutokea **mara moja tu** wakati wa kuweka amana. Kila ombi linalofuata ni la papo hapo.
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ Malipo ya faragha hutumia **itifaki ya Orchard** ya Zcash, bwawa la faragha lili
 
 ### Vipindi, Bila Ucheleweshaji kwa Kila Ombi
 
-Usanifu wa vipindi hutenganisha kusubiri uthibitisho wa on-chain na ucheleweshaji kwa kila ombi. Baada ya amana moja (~sekunde 75), maombi yote yanayofuata ya tokeni ya bearer hutolewa papo hapo bila mwingiliano wa blockchain hadi kipindi kifungwe.
+Usanifu wa vipindi hutenganisha kusubiri uthibitisho wa on-chain na ucheleweshaji kwa kila ombi. Baada ya amana moja (~sekunde 25 tangu NU7), maombi yote yanayofuata ya tokeni ya bearer hutolewa papo hapo bila mwingiliano wa blockchain hadi kipindi kifungwe.
 
 ### Utiririshaji, Malipo kwa Kila Tokeni
 

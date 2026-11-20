@@ -29,7 +29,9 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
+
+Χρησιμοποίησε την έκδοση Zebra 7.0.0 ή νεότερη. Το NU7 ενεργοποιήθηκε στο Mainnet στο μπλοκ 3.543.405 και οι παλαιότερες εκδόσεις του `zebrad` δεν μπορούν να ακολουθήσουν την αλυσίδα πέρα από αυτό το ύψος ([σημειώσεις έκδοσης](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Το Zebra 7 απαιτεί την έκδοση Rust 1.91 ή νεότερη (`rustup update`).
 
 ## Ρύθμισε το zebrad.toml
 
@@ -48,8 +50,8 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 * Εγκατάστησε το Go
 
 ```bash
-wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.27.3.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 

@@ -94,7 +94,9 @@ Sapling 주소를 전달하면 해당 계정의 Sapling 확장 Full Viewing Key(
 
 [Zkool](https://github.com/hhanh00/zkool2)은 Unified Key와 레거시 키를 모두 허용하므로 여기서 가장 유연한 선택지입니다. README는 **Unified Viewing Key** 또는 **Sapling 확장 Viewing Key**로 생성한 보기 전용 계정과 zcashd에서 내보낸 레거시 실드 확장 키를 설명합니다. 새 계정을 추가하고 보기 전용 경로를 선택한 후 `uview…` 또는 `zxviews…` 키를 붙여 넣으세요. 그러면 해당 계정은 동기화되어 지출 권한 없이 잔액과 내역을 표시합니다.
 
-Ironwood 프로토콜 지원 및 Orchard-에서-Ironwood로의 마이그레이션은 Zkool 6.24.0(2026년 7월 20일)에 도입되었으며, 6.26.1(2026년 8월 2일)에서는 mempool의 Ironwood 거래 탐지 문제가 수정되었습니다. 6.26.1 이상을 실행하세요.
+Ironwood 프로토콜 지원 및 Orchard-에서-Ironwood로의 마이그레이션은 Zkool 6.24.0(2026년 7월 20일)에 도입되었으며, 6.26.1(2026년 8월 2일)에서는 mempool의 Ironwood 거래 탐지 문제가 수정되었습니다. NU7가 Mainnet(블록 3,543,405)에서 활성화되었으므로, [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0)(2026년 10월 25일) 이상을 실행하세요. 이는 NU7 Mainnet 활성화 높이([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388))로 빌드된 최초의 Zkool 릴리스입니다.
+
+6.35.0은 **통합 수신 뷰잉 키**도 지원합니다. `uivk…` 키를 아무 키나 입력하는 곳에 붙여넣으면 Zkool 수신 전용 계정이 생성됩니다. 이 계정에는 원래 계정이 받는 항목과 메모가 표시되지만, 원래 계정이 보내는 항목은 표시되지 않습니다([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). 수신 키로는 지출 내역을 볼 수 없으므로 계정 잔액은 남은 금액이 아니라 받은 금액의 합계이며, 계정에서 지출할 수도 없습니다. Zkool는 계정의 UIVK도 내보낼 수 있습니다([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 

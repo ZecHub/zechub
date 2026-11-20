@@ -18,18 +18,16 @@ Kullanıcıların özel anahtarlarla uğraşmanın getirdiği riskleri anlaması
 
 Daha eski korumalı ZEC, kurtarmanın bir parçası olarak taşınmayı gerektirebilir. İzlenecek yol, fonları şu anda hangi korumalı havuzun tuttuğuna bağlıdır.
 
-> **NU7 5 Kasım 2026 için planlanmıştır.** Etkinleştiğinde, eski Sprout havuzundan çıkış için mevcut taşıma yolu çalışmayı durduracaktır.
+> **NU7, 6 Kasım 2026'da (UTC), 3.543.405 numaralı blokta Mainnet'te etkinleşti.** Sürüm 4 işlemlerine ([ZIP 2003](https://zips.z.cash/zip-2003)) izin vermez ve Sprout fonları yalnızca sürüm 4 işlemlerinde harcanabildiğinden, eski Sprout havuzundan çıkış için kullanılan taşıma yolu artık çalışmıyor.
 >
-> Sprout havuzunda hâlâ ZEC varsa, yükseltmeden önce taşıyın. Etkinleştirmeden sonra mevcut araçlar Sprout fonlarını Sapling, şeffaf adreslere veya başka herhangi bir hedefe artık taşıyamayacaktır.
->
-> Bu sayfayı NU7 etkinleştikten **sonra** görüntülüyorsanız, **Sprout buzda donmuş durumdadır**; şu anda planlanmamış olan gelecekteki bir kurtarma yöntemi kullanılabilir hâle gelene kadar böyle kalacaktır.
+> **Sprout artık buzda donmuş durumda.** Mevcut araçlar Sprout fonlarını artık Sapling, şeffaf adreslere veya başka herhangi bir hedefe taşıyamıyor. ZIP 2003, Sprout fonlarını yakmaz ve gelecekte bir kurtarma yöntemi olasılığını açık bırakır; ancak şu anda böyle bir yöntem planlanmıyor. Sprout anahtarlarına sahipseniz onları güvende tutun.
 
 ## Tek sayfada yanıt
 
 | Fonlarınız şurada | Taşıma yolu | Yapılması gereken |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | `wallet.dat` veya bağımsız bir Sprout harcama anahtarınız varsa, önce mevcut Argos kurtarma yolunu deneyin. Argos uygun değilse, tam saha rehberindeki eski yan araç yolunu kullanın. Sprout önce Sapling içine ulaşmalı, ardından Ironwood'a ilerlemelidir. Bu yol NU7 nedeniyle zamana duyarlıdır. |
-| **Sapling** | **Sapling → Ironwood** | Sprout kurtarma ortamına gerek yoktur. Belirli Sapling hesabınızı hem kurtarabilen veya harcayabilen hem de Ironwood işlemleri oluşturabilen güncel bir cüzdan kullanın. Ironwood desteği tek başına eski-Sapling kurtarma desteğini kanıtlamaz. |
+| **Sprout** | **Sprout → Sapling → Ironwood** | `wallet.dat` veya bağımsız bir Sprout harcama anahtarınız varsa, önce mevcut Argos kurtarma yolunu deneyin. Argos uygun değilse, tam saha rehberindeki eski yan araç yolunu kullanın. Sprout önce Sapling içine ulaşmalı, ardından Ironwood'a ilerlemelidir. NU7 etkinleştirildiğinden beri (3.543.405. blok), Sprout fonları Mainnet'te taşınamaz; yukarıdaki nota bakın. |
+| **Sapling** | **Sapling → Ironwood** | Sprout kurtarma ortamına gerek yoktur. Belirli Sapling hesabınızı kurtarabilen veya bu hesaptan harcama yapabilen ve Ironwood işlemleri oluşturabilen güncel bir cüzdan kullanın. Ironwood desteği tek başına eski-Sapling kurtarma desteğini kanıtlamaz. |
 | **Orchard** | **Orchard → Ironwood** | Orchard yalnızca çıkış içindir. Güncel ve uyumlu bir cüzdanın yerleşik Orchard-Ironwood taşıma akışını kullanın. Bkz. [Kurtarılan fonlar ve Ironwood havuzu](#recovered-funds-and-the-ironwood-pool). |
 
 ### Beş soruluk karar akışı
@@ -173,7 +171,7 @@ Ironwood (NU6.3) yükseltmesi 28 Temmuz 2026'da etkinleştirildiğinden beri, Or
 
 Kurtarılan fonlarınız Orchard içindeyse, onları **güncel bir cüzdanın yerleşik taşıma akışını** kullanarak Ironwood'a taşıyın. Orchard, NU6.3 sonrasında yalnızca çıkış içindir.
 
-Zkool 6.30.0, 18 Eylül 2026 itibarıyla günceldir ve Ironwood'u destekler. Taşıma tasarımı gizlilik odaklıdır ancak ZIP 318 uyumluluğu iddiasıyla aynı şey değildir. Diğer güncel cüzdanlar ZIP 318 tarzı aşamalı taşıma kullanabilir. Elle bir tutar veya takvim uydurmak yerine yüklü cüzdanın güncel taşıma ekranını ve sürüm notlarını izleyin.
+Zkool 6.37.0, 12 Kasım 2026 itibarıyla günceldir ve Ironwood'u destekler. 6.35.0 veya daha yeni bir sürüm kullanın: daha eski sürümler NU7'ın Mainnet etkinleştirme yüksekliğini (3.543.405 numaralı blok) bilmez, bu nedenle NU7 öncesi kurallara göre işlemler oluştururlar ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Taşıma tasarımı gizlilik odaklıdır ancak ZIP 318 uyumluluğu iddiasıyla aynı şey değildir. Diğer güncel cüzdanlar ZIP 318 tarzı aşamalı taşıma kullanabilir. Elle bir tutar veya takvim uydurmak yerine yüklü cüzdanın güncel taşıma ekranını ve sürüm notlarını izleyin.
 
 Aşamalı taşıma birden fazla işlem kullanabilir; bu nedenle toplam ücret tek seferlik transferden daha yüksek olabilir.
 

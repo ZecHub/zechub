@@ -51,11 +51,11 @@ Panduan ini berfokus pada penambangan Zcash menggunakan hardware pribadi (misaln
 ### Software
 - **Sistem Operasi:** Windows 10/11, Linux (Ubuntu direkomendasikan untuk stabilitas).
 - **Software Penambangan:**
-  - Untuk GPU: lolMiner (mendukung AMD/NVIDIA), GMiner, atau miniZ (berfokus pada NVIDIA). Unduh dari repositori GitHub resmi (misalnya, github.com/Lolliedieb/lolMiner-releases).
+  - Untuk GPU: lolMiner (mendukung AMD/NVIDIA), GMiner, atau miniZ (berfokus pada NVIDIA). Unduh dari repositori resmi GitHub (misalnya, github.com/Lolliedieb/lolMiner-releases).
   - Untuk ASIC: Gunakan firmware/dashboard bawaan produsen (misalnya, antarmuka web Bitmain).
 - **Dompet:** Dompet Zcash untuk menerima pembayaran. Direkomendasikan:
   - Terlindungi (privat): ZODL Wallet, Zingo (Mobile/Desktop), Zkool (seluler/desktop).
-  - Transparan (lebih mudah tetapi kurang privat): Edge Wallet, Zecwallet Lite.
+  - Transparan (lebih mudah tetapi kurang privat): Edge Wallet.
   - Unduh dari [wallets](https://zechub.wiki/wallets). Buat alamat terlindungi (diawali dengan 'zs') untuk privasi jika pool mendukungnya.
 
 ### Lainnya

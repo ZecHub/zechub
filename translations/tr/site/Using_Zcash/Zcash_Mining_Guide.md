@@ -51,11 +51,11 @@ Bu rehber, kişisel donanım kullanarak (ör. GPU'lu bir ev bilgisayarı veya gi
 ### Yazılım
 - **İşletim Sistemi:** Windows 10/11, Linux (kararlılık için Ubuntu önerilir).
 - **Madencilik Yazılımı:**
-  - GPU'lar için: lolMiner (AMD/NVIDIA destekler), GMiner veya miniZ (NVIDIA odaklı). Resmî GitHub depolarından indirin (ör. github.com/Lolliedieb/lolMiner-releases).
-  - ASIC'ler için: Üreticinin yerleşik bellenimini/panosunu kullanın (ör. Bitmain'in web arayüzü).
+  - GPU'lar için: lolMiner (AMD/NVIDIA destekler), GMiner veya miniZ (NVIDIA odaklı). Resmî GitHub depolarından indirin (ör., github.com/Lolliedieb/lolMiner-releases).
+  - ASIC'ler için: Üreticinin yerleşik bellenimini/panosunu kullanın (ör., Bitmain'in web arayüzü).
 - **Cüzdan:** Ödemeleri almak için bir Zcash cüzdanı. Önerilenler:
   - Korumalı (gizli): ZODL Wallet, Zingo (Mobil/Masaüstü), Zkool (mobil/masaüstü).
-  - Şeffaf (daha kolay ancak daha az gizli): Edge Wallet, Zecwallet Lite.
+  - Şeffaf (daha kolay ancak daha az gizli): Edge Wallet.
   - [wallets](https://zechub.wiki/wallets) adresinden indirin. Havuz destekliyorsa gizlilik için korumalı bir adres (şununla başlar: 'zs') oluşturun.
 
 ### Diğer

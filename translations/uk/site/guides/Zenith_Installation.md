@@ -1,12 +1,12 @@
-# Встановлення повновузлового GUI-гаманця Zenith  
+# Zenith: встановлення гаманця з повним вузлом через графічний інтерфейс  
 
-## Відеоінструкція
+## Відеоурок
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/zu8nvr4FlXE"
-    title="Zenith Full Node Wallet Installation & Demo"
+    title="Zenith: встановлення гаманця з повним вузлом і демонстрація"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -20,47 +20,49 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/-gawirv0L_U"
-    title="Using RPC's with Zebrad + Zenith"
+    title="Робота з RPC у Zebrad + Zenith"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-## Встановіть Haskell
+## Встановлення Haskell
 
 > curl --proto '=https' --tlsv1.2 -sSf https://get-ghcup.haskell.org | sh
 
 
-## Встановіть Rust
+## Встановлення Rust
 
 > curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 
-## Встановіть Zebra
+## Встановлення Zebra
 
 > sudo apt install libclang-dev
 
-> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
+
+Використовуйте Zebra версії 7.0.0 або новішої: NU7 активовано в Mainnet на блоці 3,543,405, і старіші версії `zebrad` не можуть відстежувати ланцюг після цієї висоти ([нотатки до випуску](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Наведена нижче версія Zenith (0.7.2.0-beta) застаріла: на момент написання найновішою є версія 0.13.0.0-beta (червень 2026 року, підтримка NU6.2). Перш ніж використовувати [Zenith, перевірте випуски](https://code.vergara.tech/Vergara_Tech/zenith/releases) на наявність версії з підтримкою NU7.
 
 > zebrad generate -o ~/.config/zebrad.toml
 
 > nano ~/.config/zebrad.toml
 
 
-#### прослуховувати RPC-запити на localhost
+#### прослуховування RPC-запитів на localhost
 
 > listen_addr = "127.0.0.1:8232"
 
-#### автоматично використовувати кілька потоків CPU
+#### автоматичне використання кількох потоків ЦП
 
 parallel_cpu_threads = 0
 
 enable_cookie_auth = false
 
-## Встановіть Zenith
+## Встановлення Zenith
 
-**Завантажте tar.gz і розпакуйте його у свій домашній каталог**
+**Завантажте tar.gz і розпакуйте в домашній каталог**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
@@ -73,7 +75,7 @@ enable_cookie_auth = false
 > git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### Встановіть залежності
+### Встановлення залежностей
 
 > sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
@@ -88,17 +90,17 @@ enable_cookie_auth = false
 > source ~/.bashrc
 
 
-### Налаштуйте вихідний код для aarch64
+### Налаштування джерельного коду для aarch64
 
 > nano configure
 
-**змініть triple на: "aarch64-unknown-linux-gnu" в обох рядках.**
+**замініть triple на "aarch64-unknown-linux-gnu" в обох рядках.**
 
 > nano Setup.hs
  
- **Змініть Setup.hs і в папці zcash-haskell, і в папці zenith**
+ **Змініть Setup.hs в обох папках: zcash-haskell і zenith**
 
-### Компіляція 
+### Компіляція
 
 - ./configure
 
@@ -117,9 +119,9 @@ enable_cookie_auth = false
 - cp -r ~/zenith/assets ~/Zenith/assets
 
 
-### Налаштуйте zenith.cfg
+### Налаштування zenith.cfg
 
-nodeUser = yourusername
+nodeUser = ваше_ім'я_користувача
 
 nodePwd = superSecret
 
@@ -136,26 +138,26 @@ zebraPort = 8232
 
 ## Raspi-config
 
-> [завантажте найновіший gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
+> [завантажити найновіший gldriver-test](https://archive.raspberrypi.org/debian/pool/main/g/gldriver-test/)
   
 > sudo dpkg - gldriver-test_0.15_all.deb
   
 > sudo raspi-config
 
-  **перейдіть до advance і виберіть opengl => GL (Full KMS)**
+  **перейдіть до розділу advance і виберіть opengl => GL (Full KMS)**
 
   **перезавантажте пристрій**
 
 
 
-## Запуск Zenith
+## Запуск zenith
 
  ./zenith gui
- or
+ або
  ./zenith tui
- or
+ або
  ./zenithserver
 
-## RPC
+## RPC-запити
 
 [інструкція](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)

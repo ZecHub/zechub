@@ -25,7 +25,7 @@ Pemisahan ini menjaga peran tetap jelas:
 
 Zaino menyediakan fungsionalitas untuk light client, full client atau dompet, dan block explorer. Ini memberikan akses ke chain yang telah difinalisasi, best chain yang belum difinalisasi, dan data mempool yang disimpan oleh Zebra.
 
-## Bagaimana Perannya dalam Stack Zcash Saat Ini
+## Bagaimana Perannya dalam Zcash Stack Saat Ini
 
 Stack Z3 saat ini dibangun di sekitar Zebra, Zallet, dan Zaino opsional.
 
@@ -89,5 +89,6 @@ Zaino mengekspos dua jenis layanan jaringan. Layanan gRPC adalah API yang dituju
 * repositori deployment Z3 [](https://github.com/ZcashFoundation/z3)
 * dokumentasi [Zebra](https://zebra.zfnd.org/)
 * diskusi hibah dan proyek [Zaino](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), pengindeks Rust lainnya dari Zcash Foundation (alfa)
 
 **Pembaruan terakhir:** Agustus 2026

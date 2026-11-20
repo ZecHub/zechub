@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Сайт: https://github.com/firoorg/FiroDEX-Desktop
-- Описание: Не требующие доверия децентрализованные свопы с использованием атомарных свопов с Firo DEX!.
+- Описание: Десктопное приложение для атомарных свопов. Больше не поддерживается: Firo архивировал репозиторий FiroDEX-Desktop, последняя версия — 0.8.2-beta (февраль 2025 года).
 
 ___
 

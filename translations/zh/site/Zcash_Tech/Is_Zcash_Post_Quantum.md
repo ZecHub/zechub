@@ -71,7 +71,7 @@ Ironwood 未改变的内容包括：当前用于花费和生成证明的密码�
 
 **存在暴露窗口。** 从 Ironwood 激活到旧协议被停用期间，量子攻击者仍可能在每个屏蔽池中盗窃、制造通胀或阻止资金使用。ZIP 2005 将此称为"关键暴露期（critical exposure period）"，并警告称，在该期间发生的攻击仍可能损害持有者日后的恢复能力。因此，它指出 Zcash 必须在量子攻击变得可行**之前**停用 Orchard、Sapling 和 Sprout。
 
-**除 Sprout 外，停用尚无日期。** 没有任何 ZIP 安排停用 Orchard 或 Sapling。Sprout 则不同：[ZIP 259](https://zips.z.cash/zip-0259) 将 ZIP 2003 列为 NU7 部署的变更之一，因此一旦 NU7 激活，版本 4 交易将失效，且留在 Sprout pool 中的任何 ZEC 都将无法花费。Mainnet 激活设定为区块 3,543,405，目标日期为 2026 年 11 月 5 日（[ZIP 259](https://zips.z.cash/zip-0259)、[论坛公告](https://forum.zcashcommunity.com/t/nu7-timeline/57655)）。关于 Sapling 仅可提取的讨论于 2026 年 4 月在论坛上开始。
+**除 Sprout 外，停用尚无日期。** 没有任何 ZIP 安排停用 Orchard 或 Sapling。Sprout 则不同：[ZIP 259](https://zips.z.cash/zip-0259) 将 ZIP 2003 列为 NU7 部署的变更之一，因此自 NU7 激活以来，版本 4 交易已失效，留在 Sprout pool 中的任何 ZEC 都无法花费。NU7 于 2026 年 11 月 6 日 UTC 在 Mainnet 的区块 3,543,405 激活（[ZIP 259](https://zips.z.cash/zip-0259)、[论坛公告](https://forum.zcashcommunity.com/t/nu7-timeline/57655)）。关于 Sapling 仅可提取的讨论于 2026 年 4 月在论坛上开始。
 
 **恢复协议尚未完成。** ZIP 2005 仅概述了它，并表示细节"可能会变更"。其中没有任何内容已部署。
 
@@ -97,16 +97,16 @@ Ironwood 未改变的内容包括：当前用于花费和生成证明的密码�
 
 ## 状态表
 
-最后核查时间为 2026 年 9 月 13 日，但 Sprout 行更新于 2026 年 10 月 9 日。ZIP 的标题状态与其网络状态是不同概念：尽管其规则自 2026 年 7 月起已在 Mainnet 上强制执行，ZIP 2005 的标题中仍标记为"Proposed"。
+最后核查时间为 2026 年 9 月 13 日，但 Sprout 行在 NU7 激活后于 2026 年 11 月 13 日更新。ZIP 的标题状态与其网络状态是不同概念：尽管其规则自 2026 年 7 月起已在 Mainnet 上强制执行，ZIP 2005 的标题中仍标记为"Proposed"。
 
 | 项目 | ZIP 状态 | 网络状态 | 日期 | 来源 |
 |---|---|---|---|---|
 | 具有量子可恢复 note 的 Ironwood pool（NU6.3） | ZIP 2005 Proposed，ZIP 229 和 ZIP 258 Draft | **已在 Mainnet 激活** | 2026 年 7 月 28 日，区块 3,428,143 | [ZIP 2005](https://zips.z.cash/zip-2005)、[ZIP 258](https://zips.z.cash/zip-0258) |
 | Orchard 不再接收新增价值 | ZIP 2006 Reserved，规则见 ZIP 258 | **已在 Mainnet 激活** | 2026 年 7 月 28 日 | [ZIP 258](https://zips.z.cash/zip-0258) |
-| 钱包将资金迁入 Ironwood | ZIP 2005、ZIP 318 和 ZIP 326（Draft）中的指引 | 已建议，取决于你的钱包 | 自 2026 年 7 月 28 日起 | [ZIP 318](https://zips.z.cash/zip-0318)、[ZIP 326](https://zips.z.cash/zip-0326) |
-| 恢复协议 | 仅在 ZIP 2005 内概述 | **未实施** | 无日期 | [ZIP 2005](https://zips.z.cash/zip-2005) |
-| 停用 Orchard 和 Sapling | 无 ZIP | **未安排** | Sapling 讨论始于 2026 年 4 月 | [论坛](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| 禁止 Sprout 花费（ZIP 2003） | Proposed，根据 ZIP 259（Proposed）由 NU7 部署 | **未激活** | Mainnet 高度 3,543,405，目标为 2026 年 11 月 5 日 | [ZIP 2003](https://zips.z.cash/zip-2003)、[ZIP 259](https://zips.z.cash/zip-0259) |
+| 钱包将资金迁入 Ironwood | ZIP 2005、ZIP 318 和 ZIP 326（Draft）中的指引 | 建议迁移，具体取决于你的钱包 | 自 2026 年 7 月 28 日起 | [ZIP 318](https://zips.z.cash/zip-0318)、[ZIP 326](https://zips.z.cash/zip-0326) |
+| 恢复协议 | 仅在 ZIP 2005 中概述 | **未实施** | 无日期 | [ZIP 2005](https://zips.z.cash/zip-2005) |
+| 停用 Orchard 和 Sapling | 无 ZIP | **未安排** | Sapling 自 2026 年 4 月起讨论 | [论坛](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
+| 禁止 Sprout 花费（ZIP 2003） | Proposed，根据 ZIP 259（Proposed）由 NU7 部署 | **已在 Mainnet 激活** | 2026 年 11 月 6 日，区块 3,543,405 | [ZIP 2003](https://zips.z.cash/zip-2003)、[ZIP 259](https://zips.z.cash/zip-0259) |
 | 透明可恢复性（ZIP 2007） | Reserved | **提案** | ZIP 于 2025 年 7 月 5 日保留，讨论于 2026 年 6 月 17 日开启 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | 已知地址的后量子隐私 | 开放议题，无 ZIP | **研究** | #1133 于 2022 年 8 月 18 日开启，#1307 于 2026 年 6 月 23 日开启 | [zips#1133](https://github.com/zcash/zips/issues/1133)、[zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Tachyon 项目 | 无 ZIP | **提案**，开发中 | 首次发布于 2025 年 4 月 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |

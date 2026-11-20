@@ -13,7 +13,7 @@ Free2Z è nata come piattaforma incentrata sulla privacy, costruita per permette
 
 ![](/content-images/IMG-9351-6cb6b07d52.webp)
 
-* Congratulazioni per essere entrato a far parte della community\! Ora è il momento di personalizzare il tuo profilo caricando un avatar, un banner e una descrizione di chi sei e di cosa fai.
+* Congratulazioni per essere entrato a far parte della community\![Schermata di verifica in 2 passaggi]Ora è il momento di personalizzare il tuo profilo caricando un avatar, un banner e una descrizione di chi sei e di cosa fai.
 
 ![](/content-images/IMG-9360-5deeba8c68.webp)
 

@@ -135,4 +135,4 @@ Zcash 仍然私密吗？是。Ironwood 内的支付会隐藏发送方、接收�
 
 ---
 
-系列：[网络升级索引](../start-here/network-upgrades) · 上一篇：[NU6.2](../zcash-tech/nu6-2)
+系列：[网络升级索引](../start-here/network-upgrades) · 上一篇：[NU6.2](../zcash-tech/nu6-2) · 下一篇：[NU7](../zcash-tech/nu7)

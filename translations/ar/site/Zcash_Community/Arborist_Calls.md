@@ -1,50 +1,48 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Arborist_Calls.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Arborist Calls
 
-تُعدّ Zcash Arborist Calls اجتماعات دورية لتطوير البروتوكول تركز على التخطيط لترقيات الشبكة، وأعمال تنفيذ عقد الإجماع، واعتماديات المحافظ والبنية التحتية، وأبحاث البروتوكول.
+Zcash Arborist Calls هي اجتماعات دورية لتطوير البروتوكول تركّز على التخطيط لـ ترقية الشبكة (network upgrade)، وأعمال تنفيذ عقدة (node) الإجماع (consensus)، والاعتماديات المتعلقة بـ المحفظة (wallet) والبنية التحتية، وأبحاث البروتوكول.
 
-تتم صيانة الصفحة الرسمية لـ Arborist Calls بواسطة Zcash Foundation:
+تتولى Zcash Foundation الإشراف على الصفحة الرسمية لـ Arborist Calls:
 
 **[https://zfnd.org/arborist-calls/](https://zfnd.org/arborist-calls/)**
-
 
 <p>
   <a
     href="/arborist-calls"
     className="inline-flex items-center rounded-lg bg-yellow-400 px-4 py-2 font-semibold text-black hover:bg-yellow-300"
   >
-    ابحث في أرشيف المكالمات
+    ابحث في أرشيف الاجتماعات
   </a>
 </p>
 
 ## كيفية الانضمام
 
-تتناوب المكالمات بين فترتين زمنيتين متكررتين بحيث يتمكن المساهمون في مختلف المناطق من المشاركة. استخدم الصفحة الرسمية لـ Zcash Foundation للحصول على ملفات التقويم الحالية وروابط Zoom:
+تتناوب الاجتماعات بين فترتين زمنيتين متكررتين حتى يتمكن المساهمون من مختلف المناطق من المشاركة. استخدم الصفحة الرسمية لـ Zcash Foundation للحصول على ملفات التقويم الحالية وروابط Zoom:
 
-- **15:00 UTC** الفترة الزمنية
+- الفترة الزمنية **15:00 UTC**
 
+تُعد صفحة المؤسسة المصدر المعتمد لروابط التسجيل وملفات التقويم والوصول إلى الاجتماعات، لأن روابط الاجتماعات قد تتغير.
 
-تُعد صفحة Foundation المصدر المعتمد لروابط التسجيل وملفات التقويم والوصول إلى الاجتماع لأن روابط الاجتماعات قد تتغير.
+## المحاضر وجداول الأعمال والتسجيلات
 
-## الملاحظات، وجداول الأعمال، والتسجيلات
+- جداول الأعمال والمحاضر الكاملة: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
+- أرشيف قابل للبحث على هذه الويكي: [أرشيف Arborist Calls](/arborist-calls)
+- أحدث التسجيلات: [قائمة تشغيل Zcash Arborist Call](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
+- نقاشات البحث والتطوير (R&D) لـ Zcash: [قناة البحث والتطوير لـ Zcash على Discord](https://discord.gg/xpzPR53xtU)
+- النقاشات المطوّلة: [منتدى مجتمع Zcash](https://forum.zcashcommunity.com/)
 
-- جداول الأعمال الكاملة والمحاضر: [arboretum-notes](https://github.com/ZcashCommunityGrants/arboretum-notes)
-- أرشيف قابل للبحث في هذه الويكي: [أرشيف Arborist Calls](/arborist-calls)
-- تسجيلات حديثة: [قائمة تشغيل Zcash Arborist Calls](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJqD_3PE9qiJTxse-iHnn1G)
-- Zcash مناقشة البحث والتطوير: [Zcash البحث والتطوير Discord](https://discord.gg/xpzPR53xtU)
-- نقاش مطوّل: [Zcash منتدى المجتمع](https://forum.zcashcommunity.com/)
+## من ينبغي له الحضور
 
-## من ينبغي أن يحضر
-
-تُعد Arborist Calls مفيدة لـ:
+تفيد Arborist Calls كلًّا من:
 
 - مهندسي البروتوكول والباحثين
-- مطوري العقد، والمحافظ، وSDK، والبنية التحتية لـ lightwallet
-- متلقي المنح الذين يمس عملهم الإجماع، أو ترقيات الشبكة، أو اعتماديات البروتوكول
-- أعضاء المجتمع الذين يريدون متابعة صنع القرار التقني بشكل علني
+- المطورين (developer) العاملين على البنية التحتية لـ العقد والمحافظ وSDK والمحافظ الخفيفة (lightwallet)
+- الحاصلين على منحة (grant) ممن يمسّ عملهم الإجماع أو ترقية الشبكة أو اعتماديات البروتوكول
+- أفراد المجتمع الذين يرغبون في متابعة صنع القرار التقني علنًا
 
 ## قائمة التشغيل
 

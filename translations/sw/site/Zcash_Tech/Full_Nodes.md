@@ -94,7 +94,7 @@ Kwa kuendesha full node, unasaidia kuimarisha mtandao wa zcash kwa kuunga mkono 
 
 Hii husaidia kuzuia udhibiti wa kiadui na kuufanya mtandao uwe imara dhidi ya aina fulani za usumbufu.
 
-Vianzio vya DNS hutoa orodha ya node nyingine za kuaminika kupitia seva iliyojengwa ndani. Hii huruhusu miamala kusambaa katika mtandao wote.
+Vianzio vya DNS hutoa orodha ya node nyingine za kuaminika kupitia seva iliyojengwa ndani. Hii huruhusu miamala kusambaa katika mtandao wote. Vianzio vya Zcash Foundation vinaendesha [Zeeder](https://github.com/ZcashFoundation/zeeder), kianzishi cha DNS kilichoandikwa kwa Rust ambacho kilichukua nafasi ya kianzishi chake cha dnsseeder kilichotumia CoreDNS. Picha zake huchapishwa kama `zfnd/zeeder`; jina la zamani la `zfnd/dnsseeder` linaachwa.
 
 ### Takwimu za Mtandao
 
@@ -136,7 +136,8 @@ Hii ina faida ya ziada ya kuwaruhusu watumiaji wengine kuunganisha kwa faragha k
 - [Zakura Node](/zcash-tech/zakura-node) - utekelezaji wa pili wa node, uliogawanywa kutoka Zebra
 - [Node za Lightwallet](/zcash-tech/lightwallet-nodes) - seva ambazo pochi nyepesi huuliza
 - [Zaino](/zcash-tech/zaino) - kiorodheshi cha Rust kinachohudumia pochi nyepesi
-- [Usawazishaji wa Pochi wa Zcash](/zcash-tech/zcash-wallet-syncing) - kwa nini usawazishaji hufanya kazi jinsi unavyofanya
+- [Zinder](/zcash-tech/zinder) - kiorodheshi cha majaribio cha Zcash Foundation kwa ajili ya Zebra na Zakura
+- [Zcash Usawazishaji wa pochi](/zcash-tech/zcash-wallet-syncing) - kwa nini usawazishaji hufanya kazi jinsi unavyofanya
 
 ## Kujifunza Zaidi
 

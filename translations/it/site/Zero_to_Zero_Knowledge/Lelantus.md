@@ -15,7 +15,7 @@ Rilasciato nel 2019, questo protocollo si basa su Zerocoin. È usato nella valut
 - **Zcash** - Si basa sul protocollo **Zerocash**  
 - **Firo (Zcoin)** - Si basa sul protocollo **Zerocoin**
 
-![Zerocash vs Zerocoin comparison](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
+![Confronto tra Zerocash e Zerocoin](/content-images/Fsk2Fk7WcAA81ty-92158edf6b.webp)
 
 ---
 
@@ -65,7 +65,7 @@ Funzionano in modo simile alle **Note** in Zcash.
 
 Il coin commitment viene pubblicato e memorizzato sul ledger quando il coin viene creato (tramite transazioni Mint o Spend).
 
-![Coin commitment diagram](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
+![Diagramma del commitment della moneta](/content-images/Fsk3AWNX0AIHya8-0ed01a73c1.webp)
 
 ---
 

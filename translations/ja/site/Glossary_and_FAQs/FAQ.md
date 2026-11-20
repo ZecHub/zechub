@@ -45,7 +45,7 @@ ZECは、[カストディアル取引所](/using-zcash/custodial-exchanges)、[D
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcashは、BitcoinやEthereumよりも根本的にプライバシー性が高いです。高速なブロック時間（75秒）、低い手数料、定期的なアップグレードを提供します。
+Zcashは、BitcoinやEthereumよりも根本的にプライバシー性が高いです。NU7が2026年11月に有効化されて以降はブロック時間が25秒となり（従来は75秒）、低い手数料と定期的なアップグレードを提供します。
 
 ユーザーは、**公開型**または**シールドされた**トランザクションを選択できます。詳細は[シールドされたエコシステム](https://electriccoin.co/blog/shielded-ecosystem)をご覧ください。
 

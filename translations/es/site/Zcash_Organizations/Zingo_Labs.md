@@ -13,6 +13,8 @@ Zingo Billetera es una billetera [wallet] Zcash con todas las funciones diseñad
 
 Una de las principales características de Zingo! es su capacidad para utilizar el campo Memo [Memo field] para ofrecer información valiosa sobre tus transacciones [transactions].
 
+Zingo 3.0 para móviles (31 de octubre de 2026) es compatible con NU7 y añade swaps cross-chain integrados a través de SwapKit. La aplicación para PC incluye swaps de SwapKit desde la versión 2.0.26 y compatibilidad con NU7 en Mainnet desde la versión 2.0.27.
+
 Zingo! está disponible para dispositivos móviles y PC. Encontrarás todas las descargas [aquí](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

@@ -117,7 +117,7 @@ Alcuni provider DNS aggiungono la zona automaticamente: in quel caso inserisci s
 
 Dopo la propagazione DNS, prova `https://ipfs.io/ipns/example.com/`. Per servire il sito direttamente su `https://example.com/` servono anche un gateway compatibile con DNSLink e la configurazione HTTPS: il solo record TXT non li imposta. Segui la [guida al dominio personalizzato](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
-Congratulazioni! Hai configurato un sito web resistente alla censura. 
+Congratulazioni![Schermata di verifica in 2 passaggi]Hai configurato un sito web resistente alla censura. 
 
 
 **Risorse**

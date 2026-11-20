@@ -6,7 +6,7 @@ Axa sia me ɖe ZIP 218 ƒe gɔme le eŋutɔ ƒe nuŋɔŋlɔ me: nu si trɔna, nu
 
 ## Nya kpui aƒe tata
 
-| | Egbe | Le ZIP 218 megbe |
+| | Le ŋkeke mawo ŋgɔ la NU7 | Le ZIP 218 megbe (NU7) |
 |---|---|---|
 | Gaɖoɖowo ƒuƒoƒe ƒe Ɣeyiɣi ƒe taɖodzinu | Sekondi 75 | Sekondi 25 |
 | Gaɖoɖowo ƒuƒoƒe le ŋkeke ɖeka me | 1,152 | 3,456 |
@@ -22,7 +22,7 @@ Gaɖoɖowo ƒuƒoƒe teƒe etɔ̃e sɔgbɔ, eye ɖeka ɖe sia ɖe xɔ fetu ƒe a
 
 ## Nu ka ta woatrɔ gaɖoɖowo ƒuƒoƒe ƒe ɣeyiɣi
 
-Ta vevitɔtɔe nye **lalaɣeyiɣi ƒe ɖeɖe kpui**. Egbe, fexexe [payment] ɖeka lana sekondi 75 le avɔme be wòaxɔ eƒe kpeɖeŋu gbãtɔ, network ƒe kɔkɔme menye nu o. Le sekondi 25 me la, esia ɖea ɖe sekondi 25 le avɔme. ZIP yɔ afi si woƒlea nu, gatrɔƒe [exchange] ƒe gaɖekpɔkpɔwo kple ɖoɖonu geɖe dome [cross-chain] ga ƒe lẽwo [bridges] be wonye nusiwo sese esia wu.
+Ta vevitɔtɔe nye **lalaɣeyiɣi ƒe ɖeɖe kpui**. Hafi NU7 fexexe ɖeka lana sekondi 75 le avɔme be wòaxɔ eƒe kpeɖeŋu gbãtɔ, network ƒe kɔkɔme menye nu o. Le sekondi 25 me la, esia ɖea ɖe sekondi 25 le avɔme. ZIP yɔ afi si woƒlea nu, gatrɔƒe ƒe gaɖekpɔkpɔwo kple ɖoɖonu geɖe dome ga ƒe lẽwo be wonye nusiwo sese esia wu.
 
 Nu eve si tso ZIP me hia be nàɖo ŋku edzi:
 
@@ -99,7 +99,7 @@ Esiawo nye aɖaŋu siwo woɖoa na dɔwɔƒewo to wu gbegbɔgblɔ ɖi [consensus]
 
 Gaɖoɖowo ƒuƒoƒe siwo wɔna kabakaba menye ablɔɖe o. Gaɖoɖowo ƒuƒoƒe si meɖoɖo o nye gaɖoɖowo ƒuƒoƒe si nye nyateƒe, gake wòbu fiƒa be woatsɔe akpe ɖe ɖoɖonu [chain] la ŋu, elabena gaɖoɖowo ƒuƒoƒe bubu va network la me gbã. Ne mama si le gaɖoɖowo ƒuƒoƒewo dome kpui wu la, esia dzena zi geɖe, eye ZIP ka gaɖoɖowo ƒuƒoƒe siwo meɖoɖo o ƒe rate ɖe gaɖoɖowo ƒuƒoƒe ƒe kadodo, kpekpɔkpɔ ƒe ɣeyiɣi kple nukuku [mining] ƒe nuƒoƒo ƒe afɔku ŋu.
 
-- **Egbe:** Ƒo abe 0.4% ene, si ZIP gblɔ be ate ŋu anɔ vɛ na rate si le eme vavã, elabena hashpower ƒo ɖe gaƒuƒoƒowo me.
+- **Hafi NU7 va:** Ƒo abe 0.4% ene, si ZIP gblɔ be ate ŋu anɔ vɛ na rate si le eme vavã, elabena hashpower ƒo ɖe gaƒuƒowo me.
 - **Nyadzɔdzɔ le sekondi 25 me:** Ƒo abe 3.26% ene, si woɖoa le Zcash ƒe kadodo ƒe ɣeyiɣi siwo woɖe ta me.
 - **Devnet ƒe dodokpɔ:** Zebra ƒe ɣaɣla dzesi ŋɔŋlɔ 99 siwo nɔ afi vovovowo me, eye wonɔa gaɖoɖowo ƒuƒoƒe 2 MB blibo wɔm le sekondi 25 sia 25 me, kpɔ gaɖoɖowo ƒuƒoƒe siwo meɖoɖo o ƒe rate 4.86% kple fork ƒe rate 0.37%. Ɖoɖoɖo ɖeka pɛ si hia nye TCP ƒe nɔnɔme. Esi devnet ma nye ha nuɖo agni [decentralized] wu mainnet si li egbe ta la, ZIP bua esiawo be wonye xexlẽ siwo te ɖe afɔku gãtɔ ŋu.
 - **Nudziɖoƒe:** ZIP zã Ethereum ƒe proof-of-work ƒe gaɖoɖowo ƒuƒoƒe siwo meɖoɖo o ƒe rate xoxo, 5.4%, abe eƒe dedienɔnɔ ƒe se ene. Devnet ƒe xexlẽ eveawo le eƒe te.
@@ -110,7 +110,7 @@ Gaƒe sue eve hã li. Gakotoku siwo le kekeli me ƒe download nɔa ɖe KB 200 le
 
 - **ZIP ƒe nɔnɔme:** Wotsɔe do ŋgɔ. Tɔdziɖilae nye Dev Ojha kple Evan Forbes; wo wɔe le 13 March 2026.
 - **Gaƒeɖila ƒe akɔɖeɖe:** Wòwu le 14 September 2026, kple 99.9% ƒe kpekpeɖeŋu. Akɔɖeɖe la fia ameƒe dzidzɔ; metrɔa gbegbɔgblɔ ɖi ƒe sewo le eɖokuiŋu o.
-- **Ɣeyiɣi ƒe ɖoɖo:** Le Zcash Community Forum ƒe gbeɖeɖe aɖe me le 17 September la, ŋgɔɖoɖo ƒe haawo wɔ ɖoɖo be code nanɔ blibo le 30 September, NU7 le testnet dzi le 6 October, eye woawɔ nya mamlɛtɔ le 20 October. Mainnet ƒe dɔwɔwɔ ƒe teƒe ƒe xexlẽ fifia nye 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), si woɖo be wòadzɔ le 5 November 2026 ƒe ɣeyiɣi me.
+- **Ɣeyiɣi ƒe ɖoɖo:** Le Zcash Community Forum ƒe gbeɖeɖe aɖe me le 17 September la, ŋgɔɖoɖo ƒe haawo wɔ ɖoɖo be code nanɔ blibo le 30 September, NU7 le testnet dzi le 6 October, eye woawɔ nya mamlɛtɔ le 20 October. NU7 Wotsɔe dze dɔ le mainnet dzi, le teƒe ƒe xexlẽ 3,543,405 ([ZIP 259](https://zips.z.cash/zip-0259)), le 6 November 2026 (UTC), ale be 25-second ƒe taɖodzinu la fifia le dɔ wɔwɔ me.
 - **Dɔwɔwɔ:** Wole eƒe dɔ kpɔm le Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) kple le Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Nu si esia fia na wò

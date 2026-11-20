@@ -171,7 +171,7 @@ Depuis l'activation de la mise à niveau Ironwood (NU6.3) le 28 juillet 2026, le
 
 Si vos fonds récupérés se trouvent dans Orchard, transférez-les vers Ironwood à l'aide de la **fonction de migration intégrée d'un portefeuille actuel**. Orchard est en sortie uniquement depuis NU6.3.
 
-Zkool 6.30.0 est la version actuelle au 18 septembre 2026 et prend en charge Ironwood. Sa conception de la migration privilégie la confidentialité, mais cela ne revient pas à revendiquer la conformité à ZIP 318. D'autres portefeuilles actuels peuvent utiliser une migration échelonnée de type ZIP 318. Suivez l'écran de migration et les notes de version actuels du portefeuille installé plutôt que d'inventer un montant ou un calendrier manuel.
+Zkool 6.37.0 est la version actuelle au 12 novembre 2026 et prend en charge Ironwood. Utilisez la version 6.35.0 ou ultérieure : les versions antérieures ne connaissent pas la hauteur d’activation de Mainnet de NU7 (bloc 3 543 405) et construisent donc des transactions selon les règles antérieures à NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Sa conception de la migration privilégie la confidentialité, mais cela ne revient pas à revendiquer la conformité à ZIP 318. D’autres portefeuilles actuels peuvent utiliser une migration échelonnée de type ZIP 318. Suivez l’écran de migration et les notes de version actuels du portefeuille installé plutôt que d’inventer un montant ou un calendrier manuel.
 
 Une migration échelonnée peut utiliser plusieurs transactions : le total des frais peut donc être plus élevé que pour un transfert unique.
 

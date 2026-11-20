@@ -15,9 +15,9 @@
 ## 요약
 
 * **JSON-RPC**는 운영자와 월렛이 노드에 체인 팁, 피어, 그리고 (월렛 프로세스에서) 잔액을 요청하는 방식입니다. Z3에서는 Zebra가 노드 RPC를 제공하고, Zallet가 월렛 RPC를 제공합니다.
-* **Regtest**는 호출 방법을 익히기에 적합한 곳입니다. `http://127.0.0.1:8181`의 Z3 rpc-router는 `zebra` / `zebra`를 수락하고 노드 메서드는 Zebra로, 월렛 메서드는 Zallet로 전달합니다.
+* **Regtest**는 호출 방법을 익히기에 적합한 곳입니다. Z3의 rpc-router는 `http://127.0.0.1:8181`에서 `zebra` / `zebra`를 수락하고 노드 메서드는 Zebra로, 월렛 메서드는 Zallet로 전달합니다.
 * **Mainnet 및 testnet**은 Zebra에서 쿠키 인증을 사용합니다. regtest 사용자 이름/비밀번호를 공개 노드에 복사하지 마세요.
-* **인덱싱**은 검증과 별개의 작업입니다. Zebra가 검증합니다. [Zaino](/zcash-tech/zaino)(Z3 `--profile indexer`)는 lightwalletd 호환 gRPC를 제공합니다. [Ztreamer](https://github.com/distractedm1nd/ztreamer)는 Zakura 기반 인덱서이며, Z3에서 제공하는 구성 요소가 아닙니다.
+* **인덱싱**은 검증과 별개의 작업입니다. Zebra가 검증합니다. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`)는 lightwalletd 호환 gRPC를 제공합니다. [Ztreamer](https://github.com/zcashlabs/ztreamer)는 Zakura 기반 인덱서이며, Z3에서 제공하는 구성 요소가 아닙니다.
 * Zaino JSON-RPC 및 Zebra의 선택적 인덱서 gRPC는 루프백 또는 신뢰할 수 있는 네트워크용입니다. 인증 없이 공용 인터넷에 노출하지 마세요.
 
 ---
@@ -117,7 +117,8 @@ Zaino gRPC는 모든 네트워크에서 평문 h2c입니다. 호스트 외부에
 ### 기타 인덱서(Z3 제공 아님)
 
 * **lightwalletd** — 이전 세대 컴팩트 블록 서버입니다. 여전히 현장에서 배포되어 있으며, 이 역할의 후속 경로는 Zaino입니다.
-* **Ztreamer** — Zakura 기반 인덱서이자 `CompactTxStreamer` 구현체입니다. Z3 서비스가 아닙니다. [Ztreamer 저장소](https://github.com/distractedm1nd/ztreamer)를 참조하세요.
+* **Ztreamer** — Zakura 기반 인덱서이자 `CompactTxStreamer` 구현체입니다. Z3 서비스가 아닙니다. [Ztreamer 저장소](https://github.com/zcashlabs/ztreamer)를 참조하세요.
+* **Zinder** — Zcash Foundation의 인덱서(알파)입니다. 아카이브 Zebra 또는 Zakura 노드에서 데이터를 읽고 자체 `WalletQuery` gRPC API와 lightwalletd 호환 `CompactTxStreamer` 어댑터를 제공합니다. 빠른 시작에서는 Z3 노드 옆에서 실행하지만 Z3 서비스는 아닙니다. [Zinder](/zcash-tech/zinder)을 참조하세요.
 * **Zebra `rpc.indexer_listen_addr`** — Zebra 내부의 선택적 gRPC 리스너입니다. Z3는 이를 요구하지 않으며 호스트에 게시하지도 않습니다.
 
 ---
@@ -145,6 +146,7 @@ Zaino gRPC는 모든 네트워크에서 평문 h2c입니다. 호스트 외부에
 * [Full Nodes](/zcash-tech/full-nodes)
 * [Zebra Full Node](/zcash-tech/zebra-full-node)
 * [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (또는 Zaino)을 Kubernetes 또는 Docker Compose에서
 * [Migration Guide: zcashd에서 Zebrad/Zallet로](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib 및 Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ Zaino gRPC는 모든 네트워크에서 평문 h2c입니다. 호스트 외부에
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zallet Book](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **최종 업데이트:** 2026년 9월

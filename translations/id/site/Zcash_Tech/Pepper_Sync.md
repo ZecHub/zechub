@@ -14,7 +14,7 @@
 
 ## Penjelasan Inti
 
-Zingo 2.0 adalah versi terbaru dari dompet Zingo!, sebuah dompet open-source yang ringan dan dibuat untuk komunitas Zcash. Bintang utama dari rilis ini adalah Pepper Sync, sebuah peningkatan besar yang merombak total cara dompet terhubung dengan blockchain.
+Zingo 2.0 adalah rilis dompet Zingo!, sebuah dompet open-source yang ringan dan dibuat untuk komunitas Zcash, yang memperkenalkan Pepper Sync, peningkatan besar yang merombak total cara dompet terhubung dengan blockchain. Rilis berikutnya tetap menyertakan Pepper Sync: rilis mobile saat ini, [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (31 Oktober 2026), menambahkan dukungan NU7 dan fitur swap bawaan.
 
 Di masa lalu, proses sinkronisasi bisa terasa sangat lambat, rentan terhadap kesalahan, dan memakan banyak sumber daya, yang terkadang memaksa pengguna untuk memulai ulang dari awal. Pepper Sync mengubah semua itu. Fitur ini membuat sinkronisasi menjadi lebih cepat, lebih lancar, lebih andal, dan tidak terlalu membebani perangkat Anda, sambil tetap menjaga privasi transaksi terlindungi sepenuhnya.
 
@@ -93,10 +93,10 @@ Dengan meningkatkan pengalaman dompet, Pepper Sync memperkuat seluruh ekosistem 
 
 ### Memulai: onboarding dengan Zingo 2.0
 
-1. Unduh Dompet - Dapatkan versi yang tepat dari halaman rilis [Zingo GitHub](https://github.com/zingolabs/zingolib)
+1. Unduh Dompet - Dapatkan versi yang tepat dari [zingolabs.org](https://zingolabs.org/) atau halaman rilis GitHub untuk [seluler](https://github.com/zingolabs/zingo-mobile/releases) dan [desktop](https://github.com/zingolabs/zingo-pc/releases)
 2. Atur Dompet Anda - Buat dompet baru atau pulihkan dari frasa pemulihan yang sudah ada. [Zingo 2.0 dengan Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Biarkan Pepper Sync Berjalan - Pantau indikator progres saat dompet Anda diperbarui. [Menjalankan Pepper Sync](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Mulai Gunakan Zcash - Kirim dan terima ZEC terlindungi segera setelah sinkronisasi selesai.
+4. Mulai Gunakan Zcash - Kirim dan terima transaksi terlindungi ZEC segera setelah sinkronisasi selesai.
 5. Tidak Perlu Khawatir Tentang Gangguan - Jika aplikasi tertutup atau koneksi terputus, Pepper Sync akan berlanjut secara otomatis.
 
 ## Kesalahan Umum

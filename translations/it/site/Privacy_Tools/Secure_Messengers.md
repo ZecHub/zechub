@@ -25,7 +25,7 @@ I portafogli di Zcash che supportano i memo schermati permettono agli utenti di 
 
 Provalo: https://z.cash/wallets 
 
-![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Memo crittografati di Zcash](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **App Signal**
 
@@ -39,7 +39,7 @@ Provala: [https://signal.org/download/](https://signal.org/download/)
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-L'app Bison Relay ha fatto il suo debutto nel 2022. Bison Relay non dipende dal fatto che gli utenti abbiano account - assolutamente incredibile! Qui, ogni messaggio inviato e ricevuto viene pagato individualmente tramite la Decred Lightning Network. L'unico scopo di questa app è eliminare completamente la necessità di account minimizzando al contempo i metadati. D'altra parte, Bison Relay mette fine al modo in cui la censura viene tipicamente attuata. 
+L'app Bison Relay ha fatto il suo debutto nel 2022. Bison Relay non dipende dal fatto che gli utenti abbiano account - assolutamente incredibile![Schermata di verifica in 2 passaggi]Qui, ogni messaggio inviato e ricevuto viene pagato individualmente tramite la Decred Lightning Network. L'unico scopo di questa app è eliminare completamente la necessità di account minimizzando al contempo i metadati. D'altra parte, Bison Relay mette fine al modo in cui la censura viene tipicamente attuata. 
 
 Provala: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
@@ -47,7 +47,7 @@ Provala: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 ![Session App](/content-images/logo-black-9e799f2b06.webp)
 
-Se non sai già cosa sia l'app Session, non preoccuparti! Ecco un assaggio: Session è uno dei messenger crittografati end-to-end in competizione. L'app è stata costruita per minimizzare i metadati sensibili. L'app Session è stata progettata per gli individui che vogliono privacy assoluta e libertà da ogni forma di sorveglianza. Su Session, gli utenti possono creare un account senza numeri di telefono o indirizzi email, il che significa che è completamente anonima. Gli utenti possono inviare messaggi in modo sicuro tramite la loro rete senza alcuna traccia, quindi non c'è nulla che possa trapelare.
+Se non sai già cosa sia l'app Session, non preoccuparti![Schermata di verifica in 2 passaggi]Ecco un assaggio: Session è uno dei messenger crittografati end-to-end in competizione. L'app è stata costruita per minimizzare i metadati sensibili. L'app Session è stata progettata per gli individui che vogliono privacy assoluta e libertà da ogni forma di sorveglianza. Su Session, gli utenti possono creare un account senza numeri di telefono o indirizzi email, il che significa che è completamente anonima. Gli utenti possono inviare messaggi in modo sicuro tramite la loro rete senza alcuna traccia, quindi non c'è nulla che possa trapelare.
 
 Provala: [https://getsession.org](https://getsession.org)
 

@@ -14,7 +14,7 @@
 
 ## Explicação principal
 
-O Zingo 2.0 é a versão mais recente da carteira Zingo!, uma carteira leve e de código aberto criada para a comunidade Zcash. A estrela desta versão é o Pepper Sync, uma grande atualização que repensa completamente a forma como as carteiras se conectam com a blockchain.
+O Zingo 2.0 é o lançamento da carteira Zingo!, uma carteira leve e de código aberto criada para a comunidade Zcash, que introduziu o Pepper Sync, uma grande atualização que repensa completamente a forma como as carteiras se conectam com a blockchain. As versões posteriores mantêm o Pepper Sync: a versão móvel atual, [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (31 de out de 2026), adiciona suporte a NU7 e conversões integradas.
 
 No passado, a sincronização podia parecer terrivelmente lenta, sujeita a erros e pesada em recursos, às vezes obrigando os usuários a recomeçar do zero. O Pepper Sync muda tudo isso. Ele torna a sincronização mais rápida, mais fluida, mais confiável e menos exigente para o seu dispositivo, preservando totalmente a privacidade das transações blindadas.
 
@@ -93,11 +93,11 @@ Ao melhorar a experiência da carteira, o Pepper Sync fortalece todo o ecossiste
 
 ### Primeiros passos: começando com o Zingo 2.0
 
-1. Baixe a carteira - Obtenha a versão certa na [página de versões do Zingo GitHub](https://github.com/zingolabs/zingolib)
+1. Baixe a carteira - Obtenha a versão certa em [zingolabs.org](https://zingolabs.org/) ou nas GitHub páginas de versões para [celular](https://github.com/zingolabs/zingo-mobile/releases) e [desktop](https://github.com/zingolabs/zingo-pc/releases)
 2. Configure sua carteira - Crie uma nova ou restaure a partir de uma frase semente existente. [Zingo 2.0 com Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Deixe o Pepper Sync rodar - Acompanhe os indicadores de progresso enquanto sua carteira é atualizada. [Pepper Sync em execução](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Comece a usar o Zcash - Envie e receba ZEC blindados assim que a sincronização terminar.
-5. Não se preocupe com interrupções - Se o app fechar ou a conexão cair, o Pepper Sync continua automaticamente.
+3. Deixe o Pepper Sync rodar - Acompanhe os indicadores de progresso enquanto sua carteira é atualizada. [Execução do Pepper Sync](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Comece a usar Zcash - Envie e receba ZEC blindados assim que a sincronização terminar.
+5. Não se preocupe com interrupções - Se o app fechar ou a conexão cair, o Pepper Sync será retomado automaticamente.
 
 ## Erros comuns
 

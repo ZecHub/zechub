@@ -118,7 +118,8 @@ gRPC Zaino در همهٔ شبکه‌ها به‌صورت h2c متن ساده ا�
 
 * **lightwalletd** — سرور قدیمی‌تر بلوک‌های فشرده. همچنان در عمل مستقر است؛ Zaino مسیر جانشین برای این نقش است.
 * **Ztreamer** — یک ایندکسر مبتنی بر Zakura و پیاده‌سازی `CompactTxStreamer`. این یک سرویس Z3 نیست. [مخزن Ztreamer](https://github.com/zcashlabs/ztreamer) را ببینید.
-* **Zebra `rpc.indexer_listen_addr`** — یک listener اختیاری gRPC *درون* Zebra. Z3 به آن نیاز ندارد و آن را برای میزبان منتشر نمی‌کند.
+* **Zinder** — ایندکسر Zcash Foundation (آلفا). داده‌ها را از یک Zebra آرشیوی یا نود Zakura می‌خواند و API اختصاصی gRPC خود، `WalletQuery`، را به‌همراه یک آداپتور سازگار با lightwalletd، یعنی `CompactTxStreamer`، ارائه می‌کند. راه‌اندازی سریع آن در کنار یک نود Z3 اجرا می‌شود، اما این یک سرویس Z3 نیست. [Zinder](/zcash-tech/zinder) را ببینید.
+* **Zebra `rpc.indexer_listen_addr`** — یک شنونده gRPC اختیاری *درون* Zebra. Z3 به آن نیاز ندارد و آن را روی میزبان منتشر نمی‌کند.
 
 ---
 
@@ -145,6 +146,7 @@ gRPC Zaino در همهٔ شبکه‌ها به‌صورت h2c متن ساده ا�
 * [فول‌نودها](/zcash-tech/full-nodes)
 * [فول‌نود Zebra](/zcash-tech/zebra-full-node)
 * [نودهای کیف‌پول سبک](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (یا Zaino) روی Kubernetes یا Composeِ Docker
 * [راهنمای مهاجرت: از zcashd به Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [آموزش Zingolib و Zaino](/guides/zingolib-and-zaino-tutorial)
 

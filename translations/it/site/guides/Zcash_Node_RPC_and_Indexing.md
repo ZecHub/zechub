@@ -17,7 +17,7 @@ Per sapere come avviare lo stack post-`zcashd` (Zebra + Zallet, Zaino facoltativ
 * **JSON-RPC** è il modo con cui operatori e portafogli chiedono a un nodo informazioni sulla punta della chain, sui peer e, nel caso di un processo portafoglio, sui saldi. Su Z3, Zebra serve l'RPC del nodo; Zallet serve l'RPC del portafoglio.
 * **Regtest** è il posto giusto per imparare le chiamate. Il rpc-router di Z3 su `http://127.0.0.1:8181` accetta `zebra` / `zebra` e inoltra i metodi del nodo a Zebra e i metodi del portafoglio a Zallet.
 * **Mainnet e testnet** usano l'autenticazione tramite cookie su Zebra. Non copiare il nome utente/la password di regtest su un nodo pubblico.
-* **L'indicizzazione** è un compito separato dalla convalida. Zebra convalida. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) serve gRPC compatibile con lightwalletd. [Ztreamer](https://github.com/distractedm1nd/ztreamer) è un indicizzatore basato su Zakura; non è ciò che distribuisce Z3.
+* **L'indicizzazione** è un compito separato dalla convalida. Zebra convalida. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) serve gRPC compatibile con lightwalletd. [Ztreamer](https://github.com/zcashlabs/ztreamer) è un indicizzatore basato su Zakura; non è ciò che distribuisce Z3.
 * JSON-RPC di Zaino e il gRPC facoltativo dell'indicizzatore di Zebra sono destinati al loopback o a una rete fidata. Non esporli senza autenticazione sulla rete Internet pubblica.
 
 ---
@@ -117,8 +117,9 @@ Il gRPC di Zaino è h2c in testo semplice su tutte le reti. Termina TLS presso u
 ### Altri indicizzatori (non Z3)
 
 * **lightwalletd** — il vecchio server di blocchi compatti. È ancora distribuito in natura; Zaino è il percorso successore per questo ruolo.
-* **Ztreamer** — un indicizzatore basato su Zakura e un'implementazione di `CompactTxStreamer`. Non è un servizio Z3. Consulta il [Ztreamer repository](https://github.com/distractedm1nd/ztreamer).
-* **Zebra `rpc.indexer_listen_addr`** — un listener gRPC facoltativo *all'interno* di Zebra. Z3 non lo richiede e non lo pubblica sull'host.
+* **Ztreamer** — un indicizzatore basato su Zakura e un'implementazione di `CompactTxStreamer`. Non è un servizio Z3. Consulta il repository [Ztreamer](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — l'indicizzatore di Zcash Foundation (alpha). Legge da un Zebra archivio o da un nodo Zakura e fornisce la propria API gRPC `WalletQuery` e un adapter `CompactTxStreamer` compatibile con lightwalletd. La guida rapida lo avvia accanto a un nodo Z3, ma non è un servizio Z3. Consulta [Zinder](/zcash-tech/zinder).
+* **Zebra `rpc.indexer_listen_addr`** — un listener gRPC facoltativo *all'interno* di Zebra. Z3 non lo richiede e non lo espone sull'host.
 
 ---
 
@@ -145,6 +146,7 @@ Il gRPC di Zaino è h2c in testo semplice su tutte le reti. Termina TLS presso u
 * [Full Nodes](/zcash-tech/full-nodes)
 * [Zebra Full Node](/zcash-tech/zebra-full-node)
 * [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (oppure Zaino) su Kubernetes o Docker Compose
 * [Guida alla migrazione: da zcashd a Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib e tutorial Zaino](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ Il gRPC di Zaino è h2c in testo semplice su tutte le reti. Termina TLS presso u
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Libro Zallet](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **Ultimo aggiornamento:** settembre 2026

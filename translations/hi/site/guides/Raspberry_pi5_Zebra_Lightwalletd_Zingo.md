@@ -29,7 +29,9 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
+
+Zebra 7.0.0 या नया संस्करण उपयोग करें। NU7 Mainnet पर ब्लॉक 3,543,405 पर सक्रिय हुआ, और `zebrad` के पुराने संस्करण उस ऊँचाई के बाद चेन का अनुसरण नहीं कर सकते ([रिलीज़ नोट](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0))। Zebra 7 के लिए Rust 1.91 या नया संस्करण आवश्यक है (`rustup update`)।
 
 ## zebrad.toml का कॉन्फ़िगरेशन
 
@@ -48,8 +50,8 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 * Go इंस्टॉल करें
 
 ```bash
-wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.27.3.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 

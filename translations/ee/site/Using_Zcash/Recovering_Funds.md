@@ -18,18 +18,16 @@ Ele vevie be zazalawo nase afɔku siwo le asisi ƒe safuiwo wɔwɔ me la gɔme e
 
 Xoxotɔ ɣaɣla ZECwo ate ŋu ahiã be woatrɔ wo le gbugbɔxɔxɔ ƒe akpa me. Mɔ la ɖo ɖe ɣaɣla ƒe gaƒuƒoƒo si le gaawo ɖe asi fifia la ŋu.
 
-> **Woɖo NU7 ɖe November 5, 2026.** Ne wòdze egɔme la, mɔ si le fifia be woato tso xoxotɔ Sprout gaƒuƒoƒo me la manɔ dɔ wɔm o.
+> **NU7 dze egɔme le Mainnet dzi le November 6, 2026 (UTC), le gaɖoɖowo ƒuƒoƒe 3,543,405.** Etsia nu vɔ̃na gaɖoɖo siwo zã version 4 ([ZIP 2003](https://zips.z.cash/zip-2003)), eye Sprout gaawo woate ŋu azã le version 4 gaɖoɖo me ko, eya ta mɔ si nèato tso xoxotɔ Sprout gaƒuƒoƒo me la mewɔa dɔ o.
 >
-> Ne Sprout gaƒuƒoƒo la me ZEC gale asiwò ha la, trɔe hafi woawɔ yeyetoto la. Ne wòdze egɔme vɔ la, dɔwɔnu siwo le fifia la mate ŋu atrɔ Sprout gaawo ayi Sapling, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo, alo afi bubu aɖeke o.
->
-> Ne èle axa sia kpɔm **le NU7 wòdze egɔme vɔ** la, **Sprout tsɔ ɣe le tsi me** vaseɖe esime gbugbɔxɔxɔ ƒe mɔ bubu ava, si womeɖoe ɖeɖe fifia o.
+> **Sprout le ɣe me fifia.** Dɔwɔnu siwo le fifia mate ŋu atrɔ Sprout gaawo ayi Sapling, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo alo teƒe bubu aɖeke o. ZIP 2003 mewɔa Sprout gaawo ƒe dzo o, eye wòle mɔ ʋu na gbugbɔxɔxɔ ƒe mɔ aɖe le etsɔme, gake womeɖoe ɖeɖe fifia o. Ne Sprout ƒe gazazãsafuiwo le asiwò la, dzra wo ɖo nyuie.
 
 ## Ŋuɣi ɖeka ƒe ŋuɖoɖo
 
 | Wò gaawo le | Trɔtrɔ ƒe mɔ | Nu si nàwɔ |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | Ne `wallet.dat` le asiwò alo Sprout gazazãsafui si le eɖokui ŋu la, kpɔ Argos gbugbɔxɔxɔ ƒe mɔ si le fifia la gbã. Ne Argos mesɔ o la, zã xoxotɔ sidecar mɔ la le field guide blibo la me. Sprout naɖo Sapling gbã, afi ma megbe wòayi Ironwood. Mɔ sia hiã be woawɔe kaba elabena NU7. |
-| **Sapling** | **Sapling → Ironwood** | Sprout gbugbɔxɔxɔ ƒe nɔnɔme mehiã o. Zã gakotoku yeyetɔ si ate ŋu agbugbɔa alo azã wò Sapling akɔnt si tututu, eye wòate ŋu awɔ Ironwood gaɖoɖowo. Ironwood ƒe kpekpeɖeŋu ɖeka koe mele afia be xoxotɔ-Sapling gbugbɔxɔxɔ ƒe kpekpeɖeŋu le o. |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Ne `wallet.dat` le asiwò alo Sprout gazazãsafui si le eɖokui ŋu la, kpɔ Argos gbugbɔxɔxɔ ƒe mɔ si le fifia la gbã. Ne Argos mesɔ o la, zã xoxotɔ sidecar mɔ la le field guide blibo la me. Sprout naɖo Sapling gbã, eye emegbe wòayi Ironwood. Esi NU7 dze egɔme (gaɖoɖowo ƒuƒoƒe 3,543,405) tso la, wo mate ŋu atrɔ Sprout gaawo le Mainnet o; kpɔ didienu si le etsɔ kple esi. |
+| **Sapling** | **Sapling → Ironwood** | Sprout gbugbɔxɔxɔ ƒe nɔnɔme mehiã o. Zã gakotoku si le fifia si ate ŋu agbugbɔa alo azã wò Sapling akɔnt si tututu, eye wòate ŋu awɔ Ironwood gaɖoɖowo. Ironwood ƒe kpekpeɖeŋu ɖeka koe mele afia be xoxotɔ-Sapling gbugbɔxɔxɔ ƒe kpekpeɖeŋu le o. |
 | **Orchard** | **Orchard → Ironwood** | Orchard nye mɔ si ato dzo ɖeko. Zã gakotoku si sɔ kplee ƒe Orchard-yi-Ironwood trɔtrɔ ƒe mɔ si wolé ɖe eme. Kpɔ [Gaawo si woɖe gbugbɔIronwood gaƒuƒoƒo la](#recovered-funds-and-the-ironwood-pool). |
 
 ### Biabia atɔ̃ ƒe ŋuɖoɖo ƒe mɔ
@@ -173,7 +171,7 @@ Tso esime Ironwood (NU6.3) yeyetoto la dze egɔme le July 28, 2026 la, Orchard g
 
 Ne wò gaawo si woɖe gbugbɔ le Orchard me la, trɔ wo ayi Ironwood kple **gakotoku yeyetɔ ƒe trɔtrɔ ƒe mɔ si wolé ɖe eme**. Orchard nye mɔ si ato dzo ɖeko le NU6.3 megbe.
 
-Zkool 6.30.0 nye version yeyetɔ le September 18, 2026 eye wòkpea ɖe Ironwood ŋu. Eƒe trɔtrɔ ƒe nɔnɔme ɖo ɖe ɣaɣla ŋu, gake menye be wògblɔ be ZIP 318 ƒe nɔewo wɔe o. Gakotoku yeyetɔ bubuwo ate ŋu azã ZIP 318-ƒe nɔnɔme ƒe trɔtrɔ si woɛ ɖe akpaakpa me. Dze gakotoku si nèɖo la ƒe trɔtrɔ screen kple release note yeyewo yome, ɖe teƒe be nàwɔ ga ƒe home alo ɣeyiɣi ƒe ɖoɖo le asi.
+Zkool 6.37.0 nye version yeyetɔ le November 12, 2026 eye wòkpea ɖe Ironwood ŋu. Zã 6.35.0 alo esi le edzi: ƒoƒo siwo do ŋgɔ menya NU7 ƒe Mainnet ƒe activation height (gaɖoɖowo ƒuƒoƒe 3,543,405) o, eye womewɔ gaɖoɖowo ɖe ŋgɔ-NU7 ƒe sewo nu ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Eƒe trɔtrɔ ƒe nɔnɔme ɖo ɖe ɣaɣla ŋu, gake menye be wògblɔ be ZIP 318 ƒe nɔewo wɔe o. Gakotoku yeyetɔ bubuwo ate ŋu azã ZIP 318-ƒe nɔnɔme ƒe trɔtrɔ si woɛ ɖe akpaakpa me. Dze gakotoku si nèɖo la ƒe trɔtrɔ screen kple release note yeyewo yome, ɖe teƒe be nàwɔ ga ƒe home alo ɣeyiɣi ƒe ɖoɖo le asi.
 
 Trɔtrɔ si woɛ ɖe akpaakpa me ate ŋu azã gaɖoɖo geɖe, eyata adzɔ ƒe katã ate ŋu agate wu transfer ɖeka ƒe tɔ.
 

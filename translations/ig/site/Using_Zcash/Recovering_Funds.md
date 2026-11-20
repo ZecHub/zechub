@@ -18,17 +18,15 @@ Mgbake dabere n'inwe ikike mmefu ziri ezi na ụzọ a na-akwado ugbu a maka poo
 
 Ọ nwere ike ịdị mkpa ịkwaga Azụmahia [transaction] nke e chebere echebe ochie ZEC dịka akụkụ nke mgbake. Ụzọ a dabere na pool nke e chebere echebe nke nwere ego ugbu a.
 
-> **A na-eme atụmatụ NU7 maka Novemba 5, 2026.** Ozugbo ọ malitere, ụzọ mbugharị ugbu a si na pool Sprout ochie ga-akwụsị ịrụ ọrụ.
+> **NU7 malitere na Mainnet na Novemba 6, 2026 (UTC), na block 3,543,405.** Ọ naghị ekwe ka e mee Azụmahia ụdị 4 ([ZIP 2003](https://zips.z.cash/zip-2003)), a pụkwara imefu ego Sprout naanị na Azụmahia ụdị 4, ya mere ụzọ mbugharị si na pool Sprout ochie anaghịzi arụ ọrụ.
 >
-> Ọ bụrụ na ị ka nwere ZEC n'ime pool Sprout, bugharịa ya tupu nkwalite ahụ. Mgbe ọ malitere, ngwá ọrụ ndị dị ugbu a agaghịzi enwe ike ibugharị ego Sprout gaa na Sapling, Adreesị akpa ego Oha, ma ọ bụ ebe ọ bụla ọzọ.
->
-> Ọ bụrụ na ị na-ele peeji a **mgbe NU7** malitechara, **Sprout anọgidesịrị n'ime akpụrụ mmiri** ruo mgbe usoro mgbake n'ọdịnihu dị, nke anaghị eme atụmatụ ya ugbu a.
+> **Sprout anọkwaghịzi n'ime akpụrụ mmiri.** Ngwá ọrụ ndị dị ugbu a agaghịzi enwe ike ibugharị ego Sprout gaa na Sapling, Adreesị akpa ego Oha, ma ọ bụ ebe ọ bụla ọzọ. ZIP 2003 anaghị ere ego Sprout ọkụ, ọ na-ahapụkwa ohere maka usoro mgbake n'ọdịnihu, mana enweghị nke a na-eme atụmatụ ugbu a. Ọ bụrụ na ị nwere igodo Sprout, debe ha nke ọma.
 
 ## Azịza ya n'otu peeji
 
 | Ego gị dị na | Ụzọ mbugharị | Ihe ị ga-eme |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | Ọ bụrụ na ị nwere `wallet.dat` ma ọ bụ Igodo ego Sprout nọọrọ onwe ya, buru ụzọ nwalee ụzọ mgbake Argos dị ugbu a. Ọ bụrụ na Argos adịghị mma, jiri ụzọ sidecar ochie dị na ntuziaka ubi zuru ezu. Sprout ga-ebu ụzọ rute na Sapling, emesịa ebufee ya gaa na Ironwood. Ụzọ a na-adabere n'oge n'ihi NU7. |
+| **Sprout** | **Sprout → Sapling → Ironwood** | Ọ bụrụ na ị nwere `wallet.dat` ma ọ bụ Igodo ego Sprout nọọrọ onwe ya, buru ụzọ nwalee ụzọ mgbake Argos dị ugbu a. Ọ bụrụ na Argos adịghị mma, jiri ụzọ sidecar ochie dị na ntuziaka ubi zuru ezu. Sprout ga-ebu ụzọ rute na Sapling, emesịa ebufee ya gaa na Ironwood. Ebe ọ bụ na NU7 malitere ịrụ ọrụ (block 3,543,405), enweghị ike ịkwaga ego Sprout na Mainnet; lee ndetu dị n’elu. |
 | **Sapling** | **Sapling → Ironwood** | Ọ dịghị gburugburu mgbake Sprout achọrọ. Jiri e-akpa ego dị ugbu a nke nwere ike ịweghachi ma ọ bụ mefuo akaụntụ Sapling gị kpọmkwem ma wuo Azụmahia Ironwood. Nkwado Ironwood naanị ya anaghị egosi nkwado mgbake Sapling ochie. |
 | **Orchard** | **Orchard → Ironwood** | Orchard bụ naanị maka ịpụ. Jiri usoro mbugharị Orchard-na-Ironwood arụnyere n'ime e-akpa ego dakọtara ugbu a. Lee [Ego eweghachiri na pool Ironwood](#recovered-funds-and-the-ironwood-pool). |
 
@@ -173,7 +171,7 @@ Kemgbe nkwalite Ironwood (NU6.3) malitere na 28 Julaị 2026, pool Orchard bụ 
 
 Ọ bụrụ na ego ị weghachiri dị na Orchard, bugharịa ya gaa Ironwood site na **usoro mbugharị arụnyere n'ime e-akpa ego dị ugbu a**. Orchard bụ naanị maka ịpụ mgbe NU6.3 gasịrị.
 
-Zkool 6.30.0 bụ ụdị dị ugbu a site na Septemba 18, 2026 ma na-akwado Ironwood. Nhazi mbugharị ya lekwasịrị anya na Nzuzo mana ọ bụghị otu ihe na ịsị na o kwekọrọ na ZIP 318. E-akpa ego ndị ọzọ dị ugbu a nwere ike iji mbugharị nkeji n'usoro ZIP 318. Soro ihuenyo mbugharị na ndetu release nke e-akpa ego arụnyere ugbu a kama ịmepụta ego ma ọ bụ usoro n'onwe gị.
+Zkool 6.37.0 bụ ụdị dị ugbu a site na Nọvemba 12, 2026 ma na-akwado Ironwood. Jiri 6.35.0 ma ọ bụ nke ọhụrụ: ụdị ndị e wepụtara tupu ya amaghị ogo mmalite Mainnet nke NU7 (block 3,543,405), ya mere ha na-ewu Azụmahia dịka iwu ndị dị tupu NU7 si dị ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)). Nhazi mbugharị ya lekwasịrị anya na Nzuzo mana ọ bụghị otu ihe na ịsị na o kwekọrọ na ZIP 318. E-akpa ego ndị ọzọ dị ugbu a nwere ike iji mbugharị nkeji n'usoro ZIP 318. Soro ihuenyo mbugharị na ndetu ntọhapụ nke e-akpa ego arụnyere ugbu a kama ịmepụta ego ma ọ bụ usoro n'onwe gị.
 
 Mbugharị nkeji n'usoro nwere ike iji ọtụtụ Azụmahia, ya mere ngụkọta ugwo nwere ike ịkarị nke nnyefe otu ugboro.
 

@@ -135,4 +135,4 @@ Site na turnstile. A na-agụta mkpụrụ ego ọ bụla na-apụ na pool ochie
 
 ---
 
-Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [NU6.2](../zcash-tech/nu6-2)
+Usoro: [Ndepụta Network Upgrades](../start-here/network-upgrades) · Nke gara aga: [NU6.2](../zcash-tech/nu6-2) · Nke na-esote: [NU7](../zcash-tech/nu7)

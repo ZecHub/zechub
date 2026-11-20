@@ -17,7 +17,7 @@
 * Το **JSON-RPC** είναι ο τρόπος με τον οποίο οι διαχειριστές και τα πορτοφόλια ρωτούν έναν κόμβο για την κορυφή της αλυσίδας, τα peers και, σε μια διεργασία πορτοφολιού, τα υπόλοιπα. Στο Z3, το Zebra παρέχει RPC κόμβου· το Zallet παρέχει RPC πορτοφολιού.
 * Το **Regtest** είναι το κατάλληλο μέρος για να μάθεις τις κλήσεις. Ο rpc-router του Z3 στο `http://127.0.0.1:8181` δέχεται `zebra` / `zebra` και προωθεί μεθόδους κόμβου στο Zebra και μεθόδους πορτοφολιού στο Zallet.
 * Το **Mainnet και το testnet** χρησιμοποιούν cookie auth στο Zebra. Μην αντιγράψεις το όνομα χρήστη/κωδικό πρόσβασης του regtest σε έναν δημόσιο κόμβο.
-* Η **ευρετηρίαση** είναι ξεχωριστή εργασία από την επικύρωση. Το Zebra επικυρώνει. Το [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) παρέχει gRPC συμβατό με lightwalletd. Το [Ztreamer](https://github.com/distractedm1nd/ztreamer) είναι ένας indexer που υποστηρίζεται από Zakura· δεν είναι αυτό που παρέχει το Z3.
+* Η **ευρετηρίαση** είναι ξεχωριστή εργασία από την επικύρωση. Το Zebra επικυρώνει. Το [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) παρέχει gRPC συμβατό με lightwalletd. Το [Ztreamer](https://github.com/zcashlabs/ztreamer) είναι ένα indexer που υποστηρίζεται από Zakura· δεν είναι αυτό που παρέχει το Z3.
 * Το JSON-RPC του Zaino και το προαιρετικό indexer gRPC του Zebra προορίζονται για loopback ή αξιόπιστο δίκτυο. Μην τα εκθέτεις χωρίς αυθεντικοποίηση στο δημόσιο internet.
 
 ---
@@ -117,7 +117,8 @@ grpcurl -plaintext \
 ### Άλλοι indexers (όχι Z3)
 
 * **lightwalletd** — ο παλαιότερος server compact-block. Εξακολουθεί να χρησιμοποιείται ευρέως· το Zaino είναι η διαδρομή διαδόχου για αυτόν τον ρόλο.
-* **Ztreamer** — ένας indexer που υποστηρίζεται από Zakura και υλοποίηση του `CompactTxStreamer`. Δεν είναι υπηρεσία Z3. Δες το [Ztreamer αποθετήριο](https://github.com/distractedm1nd/ztreamer).
+* **Ztreamer** — ένας indexer που υποστηρίζεται από Zakura και υλοποίηση του `CompactTxStreamer`. Δεν είναι υπηρεσία Z3. Δες το [Ztreamer αποθετήριο](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — ο indexer του Zcash Foundation (alpha). Διαβάζει από ένα archive Zebra ή Zakura node και παρέχει το δικό του API gRPC `WalletQuery`, καθώς και έναν adapter `CompactTxStreamer` συμβατό με lightwalletd. Το quickstart του εκτελείται δίπλα σε έναν κόμβο Z3, αλλά δεν είναι υπηρεσία Z3. Δες τα [Zinder](/zcash-tech/zinder).
 * **Zebra `rpc.indexer_listen_addr`** — ένας προαιρετικός ακροατής gRPC *εντός* του Zebra. Το Z3 δεν τον απαιτεί και δεν τον δημοσιεύει στο host.
 
 ---
@@ -142,9 +143,10 @@ grpcurl -plaintext \
 
 * [στοίβα Z3](/zcash-tech/z3-stack) — εγκατάσταση, θύρες, volumes, εκκίνηση δύο φάσεων
 * [Zaino](/zcash-tech/zaino) — ρόλος indexer και σημειώσεις διαχειριστή
-* [πλήρεις κόμβοι](/zcash-tech/full-nodes)
-* [πλήρης κόμβος Zebra](/zcash-tech/zebra-full-node)
-* [κόμβοι Lightwallet](/zcash-tech/lightwallet-nodes)
+* [Πλήρεις κόμβοι](/zcash-tech/full-nodes)
+* [Zebra Πλήρης κόμβος](/zcash-tech/zebra-full-node)
+* [Κόμβοι lightwallet](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (ή Zaino) στο Kubernetes ή Docker Compose
 * [Οδηγός μετάβασης: zcashd σε Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib και οδηγός Zaino](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ grpcurl -plaintext \
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [βιβλίο Zallet](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **Τελευταία ενημέρωση:** Σεπτέμβριος 2026

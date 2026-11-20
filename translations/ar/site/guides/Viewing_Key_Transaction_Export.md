@@ -8,7 +8,7 @@
 
 لا تحتاج إلى عبارة الاسترداد الخاصة بك للحصول على الصورة الكاملة. يمكن لمفتاح العرض الكامل الموحّد (UFVK، الذي يبدأ بـ `uview1`) رؤية كل معاملة واردة وصادرة في حساب ما، ويمكن لأداتين تحويل ذلك إلى ملف تحتفظ به: خادم GraphQL الخاص بـ Zkool وzingo-cli. يجمع هذا الدليل الأساليب الواردة في [موضوع المنتدى هذا](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) ويحدّثها للإصدارات الحالية.
 
-تم الاختبار في سبتمبر 2026 باستخدام Zkool 6.30.0 وzingo-cli من zingolib 6.0.0.
+تم الاختبار في سبتمبر 2026 باستخدام Zkool 6.30.0 وzingo-cli من zingolib 6.0.0. كلا الإصدارين أقدم من NU7، لذا نُقلت الخطوات في نوفمبر 2026 إلى Zkool 6.37.0 وzingolib 8.0.0. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388) هو أول إصدار من Zkool بُني مع ارتفاع تفعيل الشبكة الرئيسية NU7، وzingolib 8.0.0 هو الإصدار الذي يضيف دعم الشبكة الرئيسية NU7.
 
 ## قبل أن تبدأ
 
@@ -22,15 +22,15 @@
 لا يستطيع مفتاح العرض الإنفاق، لكنه يُظهر سجلك الكامل لأي شخص يحتفظ به.
 
 - لا تلصقه في موقع ويب أو مستكشف كتل. استورده إلى برنامج تشغّله بنفسك.
-- يرى الخادم الذي تزامن منه عنوان IP الخاص بك والمعاملات التي تنزّلها كاملةً. تجلب الأداتان أدناه كل واحدة من معاملاتك بالمعرّف لقراءة المذكرات والرسوم، وتشير [ZIP 307](https://zips.z.cash/zip-0307) إلى أن هذا يخبر الخادم بالمعاملات التي تخصك. تزامنك من عقدة Zebra الخاصة بك باستخدام Zaino أو lightwalletd يتجنب ذلك. يشرح [Zingolib وZaino البرنامج التعليمي](/guides/zingolib-and-zaino-tutorial) إعدادًا لذلك.
-- يرسل zingo-cli 6 المدفوعات عبر شبكة Nym mixnet، لكن مزامنته لا تزال تتصل بالخادم مباشرةً، لذا تنطبق عليه النقطة أعلاه أيضًا.
-- أعطِ هذه الأدوات مفتاح عرض، وليس عبارة استرداد أبدًا. لا يحتوي خادم GraphQL الخاص بـ Zkool على تسجيل دخول افتراضيًا، ويمكن لواجهة API الخاصة به إعادة عبارة الاسترداد لأي حساب أُنشئ منها، كما يمكنه إرسال الأموال.
-- احتفظ بالخادم على جهازك الخاص. يستمع أمر Docker أدناه فقط على `127.0.0.1`.
-- تخزن الأداتان المفتاح وسجلك دون تشفير. احذف بيانات العمل عند الانتهاء واحتفظ بالتصدير في مكان مشفّر.
+- يرى الخادم الذي تزامن منه عنوان IP الخاص بك والمعاملات التي تنزّلها كاملةً. تجلب الأداتان أدناه كل واحدة من معاملاتك بالمعرّف لقراءة المذكرات والرسوم، وتشير [ZIP 307](https://zips.z.cash/zip-0307) إلى أن هذا يخبر الخادم بالمعاملات التي تخصك. تزامنك من عقدة Zebra الخاصة بك باستخدام Zaino أو lightwalletd يتجنب ذلك. يشرح [Zingolib وZaino Tutorial](/guides/zingolib-and-zaino-tutorial) إعدادًا لذلك.
+- يرسل zingo-cli المدفوعات عبر شبكة Nym mixnet، لكن مزامنته لا تزال تتصل بالخادم مباشرةً، لذا تنطبق عليه النقطة أعلاه أيضًا.
+- أعطِ هذه الأدوات مفتاح عرض، وليس عبارة استرداد أبدًا. يبدأ الأمر Docker أدناه خادم Zkool GraphQL مع `--allow-unauthenticated`، لذا لا يتطلب تسجيل دخول، ويمكن لواجهة API الخاصة به إعادة عبارة الاسترداد لأي حساب أُنشئ منها، كما يمكنه إرسال الأموال.
+- احتفظ بالخادم على جهازك الخاص. يستمع الأمر Docker أدناه فقط على `127.0.0.1` من جهازك. داخل الحاوية، يجب أن يستمع الخادم على جميع الواجهات (`--bind-address 0.0.0.0`)، وإلا فلن يتمكن Docker من الوصول إليه؛ والتعيين `-p 127.0.0.1:8000:8000` هو ما يبقيه محليًا.
+- تخزن الأداتان المفتاح وسجلك دون تشفير. يمكن لـ Zkool تشفير قاعدة بياناته (`--db-password-file`)، لكن الأمر أدناه يبقي الأمر بسيطًا باستخدام `--allow-unencrypted-database`. احذف بيانات العمل عند الانتهاء واحتفظ بالتصدير في مكان مشفّر.
 
 ## الخيار 1: Zkool GraphQL
 
-`zkool_graphql` هو محرّك المحفظة الخاص بـ Zkool بوصفه خادمًا مستقلًا. وهو برنامج منفصل عن تطبيق Zkool. أسهل طريقة لتشغيله هي صورة Docker الرسمية (amd64 وarm64). يوجد أيضًا ملف ثنائي Linux x86-64 في [Zkoolصفحة الإصدارات](https://github.com/hhanh00/zkool2/releases)؛ وهو يحتاج إلى glibc 2.38 أو أحدث، لذا يعمل Ubuntu 24.04 بينما لا يعمل Debian 12.
+`zkool_graphql` هو محرّك المحفظة الخاص بـ Zkool بوصفه خادمًا مستقلًا. وهو برنامج منفصل عن تطبيق Zkool. أسهل طريقة لتشغيله هي صورة Docker الرسمية (amd64 وarm64). يوجد أيضًا ملف ثنائي Linux x86-64 في [Zkool صفحة الإصدارات](https://github.com/hhanh00/zkool2/releases)؛ وهو يحتاج إلى glibc 2.38 أو أحدث، لذا يعمل Ubuntu 24.04 بينما لا يعمل Debian 12.
 
 ### 1. شغّل الخادم
 
@@ -38,11 +38,16 @@
 docker run -d --name zkool-export \
   -p 127.0.0.1:8000:8000 \
   -v zkool-export:/data \
-  hhanh00/zkool-graphql:6.30.0 \
-  --db-path /data/zkool.db
+  hhanh00/zkool-graphql:6.37.0 \
+  --db-path /data/zkool.db \
+  --bind-address 0.0.0.0 \
+  --allow-unauthenticated \
+  --allow-unencrypted-database
 ```
 
-يتزامن من `https://zec.rocks` ما لم تضف `--lwd-url` مع خادمك الخاص. عند التشغيل الأول، ينزّل معاملات Sapling (نحو 50 MB). إذا فشل ذلك، يحاول `docker start zkool-export` مرة أخرى.
+منذ الإصدار 6.32.0، لن يبدأ الخادم حتى تحدد خيارين صراحةً: طريقة تسجيل دخول العملاء (مفتاح JWT، أو `--allow-unauthenticated`) وما إذا كانت قاعدة البيانات مشفّرة (كلمة مرور، أو `--allow-unencrypted-database`). كما أنه لا يستمع الآن افتراضيًا إلا على `127.0.0.1`، ما يعني داخل الحاوية أن لا شيء من خارجها يستطيع الوصول إليه، ومن هنا تأتي `--bind-address 0.0.0.0`. إذا توقفت الحاوية فورًا، يبيّن `docker logs zkool-export` الخيار المفقود.
+
+تتم المزامنة من `https://zec.rocks` ما لم تُضِف `--lwd-url` باستخدام خادمك الخاص. تتضمن الصورة معلمات Sapling مدمجة، لذا لا حاجة إلى تنزيل أي شيء آخر.
 
 افتح `http://127.0.0.1:8000/graphiql` في متصفح. يمكنك لصق كل خطوة من الخطوات التالية هناك وتشغيلها.
 
@@ -132,7 +137,7 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 | `fee` | الرسوم بـ ZEC. في المدفوعات التي تلقيتها، دفعها المرسل ولا تكون ضمن `value`. |
 | `time` | وقت الكتلة بالتوقيت UTC، من دون علامة منطقة زمنية |
 | `notes` | ما تلقاه الحساب في هذه المعاملة، بما في ذلك التغيير. المذكرات المرسلة إليك موجودة هنا. لا تحتوي الإدخالات الشفافة على عنوان. |
-| `spends` | الملاحظات الخاصة بالحساب التي استُهلكت في هذه المعاملة |
+| `spends` | notes الخاصة بالحساب التي استُهلكت في هذه المعاملة |
 | `outputs` | ما أرسلته المعاملة: كل مخرج شفاف، إضافةً إلى المدفوعات المحمية لعناوين أخرى مع مذكراتها |
 | `pool` | 0 شفاف، 1 Sapling، 2 Orchard، 3 Ironwood |
 | `scope` | 0 خارجي (دفعة واردة)، 1 داخلي (تغيير) |
@@ -141,17 +146,21 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 ## الخيار 2: zingo-cli
 
-zingo-cli هو محفظة سطر الأوامر الخاصة بـ Zingo. لا توجد تنزيلات مسبقة البناء، لذا تبنيه باستخدام Rust:
+zingo-cli هي محفظة سطر الأوامر الخاصة بـ Zingo. لا توجد تنزيلات جاهزة، لذا عليك بناؤها باستخدام Rust. استخدم الإصدار 8.0.0 أو أحدث من zingolib؛ فهو أول إصدار يعرف ارتفاع تفعيل Mainnet الخاص بـ NU7 (3,543,405)، وفقًا لـ[ملاحظات الإصدار](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0). الإصدارات المبنية من وسوم أقدم مثل 6.0.0 لا تعرف ذلك.
+
+يستخدم البناء [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`). وعلى Ubuntu تحتاج أيضًا إلى `sudo apt install build-essential gcc libsqlite3-dev`.
 
 ```bash
-git clone --branch zingolib_v6.0.0 https://github.com/zingolabs/zingolib.git
+git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
 cd zingolib
-cargo build --release -p zingo-cli
-cargo build --release --manifest-path zingo-netutils/Cargo.toml --features nym --bin nym-proxy
-cp zingo-netutils/target/release/nym-proxy target/release/
+makers run-cli --build-only
 ```
 
-تحتاج إلى `nym-proxy` حتى لمجرد المزامنة. لن يتصل zingo-cli 6 بأي خادم من دونه.
+يبني هذا `./target/release/zingo-cli` ويضع `nym-proxy` بجانبه. تحتاج إلى `nym-proxy` حتى لمجرد المزامنة: لن يتصل zingo-cli بالإنترنت من دونه. منذ الإصدار 8.0.0، أصبح `zingo-netutils` جزءًا من مساحة العمل الرئيسية، لذا لم تعد الوصفة القديمة التي تنسخ `nym-proxy` من `zingo-netutils/target/release/` صالحة.
+
+إذا نقلت `zingo-cli` إلى مكان آخر، فانقل `nym-proxy` معه، أو أخبر zingo-cli بمكانه باستخدام `--nym-proxy /path/to/nym-proxy` أو متغير البيئة `ZINGO_NYM_PROXY`. من دونهما، سيبحث بجوار ملفه التنفيذي ثم في `PATH`. إذا تعذر عليه تشغيل الوكيل، فلن يتصل بالإنترنت مطلقًا.
+
+تنتقل المدفوعات فقط (واستعلام السعر عبر ZEC) عبر Nym. يتصل Sync بالخادم مباشرةً.
 
 ينشئ التشغيل الأول محفظة للعرض فقط، ويزامنها، ويطبع السجل:
 
@@ -163,9 +172,9 @@ cp zingo-netutils/target/release/nym-proxy target/release/
 ```
 
 - يجب أن يكون `--data-dir` مسارًا مطلقًا.
-- لا ينطبق `--viewkey` و`--birthday` إلا عند إنشاء المحفظة. اتركهما بعد ذلك.
-- يبدأ zingo-cli في وضع عدم الاتصال افتراضيًا. يختار `--server` الخادم ويُعد أيضًا موافقتك على الاتصال بالإنترنت.
-- ينتهي المفتاح في سجل shell الخاص بك، لذا امسحه بعد ذلك.
+- ينطبق `--viewkey` و`--birthday` عند إنشاء المحفظة فقط. اتركهما بعد ذلك.
+- تكون zingo-cli جديدة غير متصلة بالإنترنت افتراضيًا، وتحتاج إلى موافقتك للاتصال بها. يختار `--server` الخادم ويُعدّ أيضًا موافقتك. والطريقتان الأخريان هما `--online` (لهذه الجلسة فقط) و`--remember-online`، الذي يحفظ الاختيار أيضًا بجانب المحفظة، بحيث تتصل في مرات التشغيل اللاحقة بالإنترنت دون استخدام أي خيار (يلغي `--forget-online` ذلك).
+- ينتهي المفتاح في سجل أوامر الصدفة، لذا امسحه بعد ذلك.
 
 عمليات التشغيل اللاحقة:
 
@@ -178,16 +187,16 @@ $Z --offline messages > memos.json
 
 يقرأ `--offline` ما تمت مزامنته مسبقًا دون الاتصال بالشبكة.
 
-- يعطي `transactions` إدخالًا واحدًا لكل معاملة: txid، والوقت (UTC)، والارتفاع، والنوع (`received` أو `sent` أو `shield` أو `send-to-self`)، والقيمة، والرسوم، والملاحظات المعنية.
+- يعطي `transactions` إدخالًا واحدًا لكل معاملة: txid، والوقت (UTC)، والارتفاع، والنوع (`received` أو `sent` أو `shield` أو `send-to-self`)، والقيمة، والرسوم، و notes المعنية.
 - يعطي `value_transfers` إدخالًا واحدًا لكل دفعة، لذا فإن إرسالًا إلى شخصين ينتج إدخالين، لكل منهما عنوان المستلم والمذكرات.
 - يسرد `messages` المذكرات بصيغة JSON.
 
 بعض الأمور التي ينبغي معرفتها عن المخرجات:
 
-- يطبع `transactions` و`value_transfers` نصًا عاديًا يشبه JSON قليلًا، لكنه ليس JSON.
-- المبالغ بوحدة zatoshis (100,000,000 لكل 1 ZEC) وتكون موجبة دائمًا. يوضح `kind` الاتجاه. بالنسبة للإرسالات، فإن `value` هو ما ذهب إلى الآخرين، دون الرسوم.
-- تظهر الرسوم بعبارة "not available" عندما تنفق معاملة أموالًا شفافة لم تكن ملكك. لا تظهر سوى المذكرات النصية.
-- إذا فشلت المزامنة، يظهر الخطأ في الطرفية وليس في الملف، ويخرج zingo-cli بشكل طبيعي رغم ذلك. تحقق من الطرفية قبل الوثوق بـ `transactions.txt`.
+- يطبع كلٌّ من `transactions` و`value_transfers` نصًا عاديًا يشبه JSON قليلًا، لكنه ليس كذلك.
+- المبالغ بوحدة zatoshis (100,000,000 إلى 1 ZEC) وهي موجبة دائمًا. يوضح `kind` الاتجاه. عند الإرسال، يبيّن `value` ما وصل إلى الآخرين، من دون الرسوم.
+- تظهر الرسوم على أنها «غير متاحة» عندما تنفق المعاملة أموالًا شفافة لا تخصك. لا تظهر إلا المذكرات النصية.
+- إذا فشلت المزامنة، يظهر الخطأ في الطرفية، لا في الملف. منذ zingolib 8.0.0 (zingo-cli 0.5.0)، ينتهي الأمر الفاشل أيضًا برمز خروج غير صفري، لكن تحقّق من الطرفية قبل الوثوق بـ`transactions.txt`.
 
 يحتوي [zingoHelper](https://github.com/dismad/zingoHelper) الخاص بـ dismad على نص برمجي `exportToJSON.sh` يحوّل `transactions` إلى JSON. كُتب قبل zingo-cli 6، وهو مضبوط لـ testnet، ويضع علامة على بعض إدخالات Sapling الصادرة والشفافة بوصفها عناصر نائبة، ويحتاج إلى أدوات GNU، لذا لن يعمل على macOS الافتراضي. اعتبر مخرجاته نقطة بداية وتحقق من الإجماليات.
 
@@ -204,15 +213,15 @@ $Z --offline messages > memos.json
 |---|---|
 | ZODL | ملف CSV ضريبي بالتواريخ والمبالغ والرسوم ووسم. للسنة التقويمية السابقة فقط، ويتخطى معاملات الحماية، ولا يحتوي على txid أو مذكرة أو عنوان. |
 | تطبيق Zkool | تصديرات جداول خام من قائمة الحساب |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | يستورد UFVK باستخدام `importvk`. يعيد `listreceived` عبر RPC الملاحظات المستلمة مع txid والمذكرة، لكنه لا يعيد الإرسالات أو الرسوم. |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | يستورد UFVK باستخدام `importvk`. يعيد `listreceived` عبر RPC notes المستلمة مع txid والمذكرة، لكنه لا يعيد الإرسالات أو الرسوم. |
 | [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` مفصل لكنه معلّم كتجريبي، وZallet لا يستورد إلا مفاتيح عرض Sapling، وليس UFVKs |
 | [zcash-devtool](https://github.com/zcash/zcash-devtool) | يستورد UFVK باستخدام `wallet init-fvk`، ثم `wallet list-tx`. لا يحتوي وضع CSV الخاص به على txid أو عنوان، ويقول المشروع إنه لا ينبغي استخدامه في الإنتاج. |
 
 ## ذو صلة
 
 - [مفاتيح العرض](/zcash-tech/viewing-keys)
-- [استرداد الأموال](/using-zcash/recovering-funds)
-- [Zingolib وZaino البرنامج التعليمي](/guides/zingolib-and-zaino-tutorial)
+- [استعادة الأموال](/using-zcash/recovering-funds)
+- [Zingolib ودليل Zaino](/guides/zingolib-and-zaino-tutorial)
 - [المنتدى: تصدير سجل المعاملات إلى JSON/CSV من UFVK/seed](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
 - [المنتدى: Zkool وGraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
-- [README الخاص بـ zingo-cli](https://github.com/zingolabs/zingolib/blob/zingolib_v6.0.0/zingo-cli/README.md)
+- [zingo-cli ملف README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)
