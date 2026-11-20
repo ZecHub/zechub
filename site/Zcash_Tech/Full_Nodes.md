@@ -137,6 +137,7 @@ This has an added advantage of allowing other users to connect privately to your
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) - the servers that light wallets query
 - [Zaino](/zcash-tech/zaino) - the Rust indexer that serves light wallets
 - [Zinder](/zcash-tech/zinder) - the Zcash Foundation's alpha indexer for Zebra and Zakura
+- [Running Zcash Services on NixOS](/guides/zcash-nixos) - Zebra, Zakura and the indexers as sandboxed NixOS services with zcash.nix
 - [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) - why syncing works the way it does
 
 ## Further Learning
