@@ -135,6 +135,7 @@ Zcash_Tech/Canopy.md
 Zcash_Tech/Crosslink_Protocol.md
 Zcash_Tech/Detecting_Shielded_Payments.md
 Zcash_Tech/FROST.md
+Zcash_Tech/FROST_Escrow.md
 Zcash_Tech/FROST_Threshold_Custody.md
 Zcash_Tech/Full_Nodes.md
 Zcash_Tech/Halo.md
