@@ -7,8 +7,7 @@
 - Operating System: Android | iOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting
-- Nym Mixnet: Supported
+- Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting | OHTTP
 - NU7: Compatible
 - Source: Open Source
 
