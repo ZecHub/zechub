@@ -449,7 +449,7 @@
 - Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Spending Key | Private Key | 24-Word Seed Phrase
-- Pools: Transparent | Sprout | Sapling | Orchard | Ironwood
+- Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Command Line Interface | Shielded Memo | Testnet Support | Wallet Recovery
 - NU7: Compatible
 - Source: Open Source
