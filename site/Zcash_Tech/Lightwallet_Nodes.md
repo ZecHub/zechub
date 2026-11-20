@@ -12,6 +12,7 @@
 * Your keys never leave your device, and the server cannot spend your funds or read the amounts and memos inside fully shielded transactions.
 * What the server is well placed to learn is your IP address and the timing of your activity — shielded transactions protect what goes on the blockchain, not your connection to the server.
 * Tor removes the IP identifier; it is available in wallets built on `zcash_client_backend`, and in ZODL it is a setting in Advanced Settings.
+* ZODL for Android (3.20.0 and later) also hides your IP by default with a private connection over [Oblivious HTTP (OHTTP)](/zcash-tech/oblivious-http): a relay sees your IP but not your requests, and ZODL's gateway sees your requests but not your IP.
 * You can change which server your wallet uses, or run your own — both lightwalletd and Zaino are open source.
 
 ## Core Explanation
@@ -77,6 +78,10 @@ In **ZODL**, Tor is a setting in Advanced Settings. The wallet's release notes p
 
 Two caveats. Tor hides your IP from the server, but it does not change what the server learns from the requests you make. And onion routing adds latency, so syncing takes longer. Running your own server avoids the trust question differently, since then the operator is you.
 
+### Private connection over OHTTP
+
+Since 3.20.0 (November 2026), ZODL for Android connects to its servers through [Oblivious HTTP](/zcash-tech/oblivious-http) by default. The wallet seals each request for ZODL's OHTTP gateway and sends it through a relay run by an independent operator. The relay sees your IP address but not the request; the gateway and the lightwalletd behind it see the request but only the relay's address. This only protects you while the relay and gateway operators don't combine their records, and it covers ZODL's own servers, not a custom server you pick yourself.
+
 ### Zaino, the Rust indexer
 
 [Zaino](/zcash-tech/zaino) is an indexer written in Rust by the Zingo team, built to replace lightwalletd as part of the zcashd deprecation work. It serves light clients, full clients, and block explorers, reading chain data held by "either a Zebra or zcashd full validator".
@@ -117,6 +122,8 @@ The menu paths below were correct when this page was updated, but wallet interfa
 
 Formerly Zashi. The cog in the top right corner, then Advanced Settings. Tor lives in the same screen. ZODL also offers a Switch server shortcut when a sync failure is caused by the server being out of date.
 
+On Android since 3.20.0, the server screen has three connection modes: **Private** (ZODL's servers over OHTTP, the default), **Public** (the fastest public server, switched automatically) and **Manual** (a server you choose, including a custom one). A custom server set before the update stays as it was.
+
 #### Zkool
 
 The successor to Ywallet, from the same developer (Ywallet itself is no longer maintained and can't follow the network after Ironwood). The gear icon (Open Settings) at the top of the accounts screen, then the Light Node Server field. The list button next to it picks from known servers, and the Direct / Tor / Nym / Proxy switch under it sets how the wallet connects.
@@ -152,10 +159,11 @@ Light wallets give you the shielded pool without the disk space, which is a good
 ## Related Pages
 
 - [Who Can See Your Zcash Payment](/start-here/who-can-see-your-zcash-payment) — the beginner-level view of the same question.
+- [Oblivious HTTP (OHTTP)](/zcash-tech/oblivious-http) — how ZODL's private connection hides your IP address from its servers, and how it compares with Tor.
 - [What a Block Explorer Can See](/zcash-tech/what-a-block-explorer-can-see) — what is visible on-chain, as opposed to at the server.
 - [Zaino](/zcash-tech/zaino) — architecture diagrams and the wider role of the Rust indexer.
 - [Zinder](/zcash-tech/zinder) — the Zcash Foundation's alpha indexer, which serves light wallets through a lightwalletd-compatible adapter.
 - [Zebra Full Node](/zcash-tech/zebra-full-node) — the validator a light wallet server reads from.
 - [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — how the compact blocks a server sends are processed by your wallet.
 
-**Last updated:** August 2026
+**Last updated:** November 2026
