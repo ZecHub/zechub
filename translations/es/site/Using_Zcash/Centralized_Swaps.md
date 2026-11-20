@@ -1,13 +1,13 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Centralized_Swaps.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Plataformas de swap centralizadas [Centralized Swap Platforms]
+# Plataformas de intercambio centralizadas
 
 ZecHub no respalda ningún servicio de exchange en particular; investiga por tu cuenta.
 
-Cada encabezado [heading] de `###` a continuación es una tarjeta [card] en https://zechub.wiki/using-zcash/centralizedswaps.
-Añade, edita o elimina un bloque [block] aquí; la wiki lo recoge de este archivo.
+Cada encabezado de `###` a continuación es una tarjeta en https://zechub.wiki/using-zcash/centralizedswaps.
+Añade, edita o elimina un bloque aquí; la wiki lo recoge de este archivo.
 
 ### LetsExchange
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Sitio web: https://private.shapeshift.com/
-- Descripción: Tu billetera [Wallet]. Una aplicación. Oportunidades infinitas · Opera con Bitcoin, Ethereum y más con las mejores tarifas [rates] en los principales DEX y agregadores.
+- Descripción: Tu billetera. Una aplicación. Oportunidades infinitas. Opera con Bitcoin, Ethereum y más con las mejores tarifas en los principales DEX y agregadores.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - Sitio web: https://changelly.com/
-- Descripción: Changelly es un exchange instantáneo de monedas criptográficas conocido por sus tarifas [fees] bajas en el sector, de hasta el 0,25 % en exchanges de criptomonedas. También cumple con la definición del exchange de criptomonedas más versátil.
+- Descripción: Changelly es un exchange instantáneo de criptomonedas conocido por sus bajas comisiones en el sector, de hasta el 0,25 % en operaciones. También cumple con la definición del exchange cripto más versátil.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Sitio web: https://flyp.me/en/#/
-- Descripción: El exchange sin cuenta de flyp.me y el token FYP nacieron para proteger la privacidad [privacy], promover la descentralización, apoyar la propiedad popular y fomentar una comunidad que cree en el consenso [consensus].
+- Descripción: Este exchange sin cuenta y su token FYP nacieron para proteger la privacidad, promover la descentralización, apoyar la propiedad comunitaria y fomentar una comunidad que cree en el consenso.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - Sitio web: https://exolix.com
-- Descripción: Haz exchange instantáneo de más de 1311 criptomonedas, con la mejor tarifa y sin registro.
+- Descripción: Cambia de manera instantánea y sin registro más de 1311 criptomonedas, con la mejor tarifa.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Sitio web: https://dex.decred.org/
-- Descripción: Opera con criptomonedas de persona a persona. Sin tarifas de operación. Sin KYC. Exchange descentralizado [Decentralised Exchange] creado por Decred Project.
+- Descripción: Opera con criptomonedas de persona a persona. Sin tarifas de operación. Sin KYC. Exchange descentralizado creado por Decred Project.
 
 ___
 
@@ -140,4 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Sitio web: https://leodex.io/
-- Descripción: Swaps cross-chain sin cuenta ni KYC. Envía BTC, ETH y más desde cualquier billetera, exchange o almacenamiento en frío a una dirección [address] de depósito de un solo uso y recibe ZEC — no se requiere conexión de billetera.
+- Descripción: Swaps cross-chain sin cuenta ni KYC. Envía BTC, ETH y más desde cualquier billetera, exchange o almacenamiento en frío a una dirección de depósito de un solo uso y recibe ZEC — no requiere vinculación de billetera.
