@@ -1,97 +1,123 @@
-# Nnweta ozi nzuzo [Private information retrieval]
+# Nweta Ozi Nkeonwe
 
 ## TL;DR
 
-- Nnweta ozi nzuzo, ma ọ bụ PIR, na-eme ka ngwaọrụ nweta otu ihe n’ebe nchekwa data sava dị na-enweghị ka sava ahụ mata ihe a rịọrọ
-- Zcash chọrọ nke a n’ihi na e-akpa ego nzuzo [private wallet] enweghị ike ịjụ sava Azụmahia [transaction] ndị bụ nke ya n’emeghị ka a mata ya
-- Taa, e-akpa ego na-ebudata ma na-enyocha data karịrị nke ha chọrọ, nke bụ nnukwu ihe mere mmekọrịta [syncing] ji adị nwayọ
-- PIR ga-eme ka e-akpa ego nweta naanị data nke ya n’enweghị ikpughe ya, wepụ mgbochi ahụ ma debe Nzuzo [privacy] ahụ
-- Ọ bụ mpaghara nyocha na-arụ ọrụ maka Zcash, nwere ike dị ukwuu n’usoro echiche, ma a na-eme ka ọ baa uru maka e-akpa ego n’ezi ndụ
+- Nweta ozi nkeonwe, ma ọ bụ PIR, na-eme ka ngwaọrụ nweta otu ihe n’ime nchekwa data sava n’enweghị sava ahụ ịmara ihe a rịọrọ
+- Zcash chọrọ nke a n’ihi na e-akpa ego nkeonwe enweghị ike ịjụ sava azụmahịa ndị bụ nke ya n’enweghị ikpughe onwe ya
+- Taa, e-akpa ego na-ebudata ma na-enyocha data karịrị nke ha chọrọ, nke bụ nnukwu ihe mere mmekọrịta ji dị nwayọọ
+- PIR ga-eme ka e-akpa ego nweta naanị data nke ya n’onwe nzuzo, wepụ ihe na-egbochi ya ma debe Nzuzo
+- Ọ bụ ngalaba nyocha na-aga n’ihu maka Zcash, dị ike n’echiche, a na-emekwa ka ọ dị irè maka e-akpa ego ndị mmadụ ji eme ihe
+- Ihe ngosi dị ndụ adịlarị: [ZecBlock Private](https://private.zecblock.com) bụ ihe nchọgharị block nke mbụ zuru ezu dabere na PIR Zcash (Azụmahia, block, na Adreesị)
 
-<br/>
+## Onye nke a bụ maka ya
 
-## Ònye ka nke a bụ maka ya
-
-- Onye ọ bụla jụrụ onwe ya otú e-akpa ego nwere Nzuzo [privacy] si achọta mkpụrụ ego nke ya n’enweghị ikpughe ndị ha bụ
-- Ndị ọhụrụ na-ahụ PIR ka a na-ekwu maka ya n’akụkụ ọrụ scaling nke Zcash
-- Ndị na-agụ chọrọ ibu ụzọ ghọta echiche ahụ, ma ghọta kriptografi [cryptography] dị n’okpuru ya emechaa
-
-<br/>
+- Onye ọ bụla jụrụla otú e-akpa ego nkeonwe si achọta mkpụrụ ego nke ya n’enweghị ikpughe ndị ọ bụ
+- Ndị ọhụrụ na-ahụkarị ka a na-ekwu maka PIR n’akụkụ ọrụ scaling nke Zcash
+- Ndị na-agụ akwụkwọ chọrọ ịmụ echiche ahụ mbụ, mụta cryptography dị n’okpuru ya emesịa
+- Onye ọ bụla nwere mmasị n’ihe nchọgharị block na-arụ ọrụ nke dabere na PIR
 
 ## Nsogbu PIR na-edozi maka Zcash
 
-Zcash na-ezo onye Azụmahia bụ maka ya. Nzuzo ahụ na-eweta ajụjụ siri ike: ọ bụrụ na netwọk enweghị ike ịhụ Azụmahia ndị bụ nke gị, kedu ka e-akpa ego nke gị si achọta ha?
+Zcash na-ezo onye azụmahịa bụ maka ya. Nzuzo a na-ebute ajụjụ siri ike: ọ bụrụ na netwọk enweghị ike ịhụ azụmahịa ndị bụ nke gị, olee otú e-akpa ego nke gị si achọta ha?
 
-Taa, azịza ya dị kpọmkwem. E-akpa ego enweghị ike ịjụ sava Azụmahia ndị bụ nke m, n’ihi na ajụjụ ahụ ga-ekpughe kpọmkwem ihe Zcash na-achọ izo. Ya mere, e-akpa ego na-ebudata nnukwu data ma na-anwale ihe ọ bụla n’ime ya n’ime ngwaọrụ iji hụ ihe bụ nke ya. Ọ na-arụ ọrụ, ọ na-echebekwa Nzuzo, mana ọ dị nwayọ ma dị arọ. Nnyocha a bụ otu n’ime isi ihe mere mmekọrịta e-akpa ego ji enwe ike ịdị nwayọ.
+Taa, azịza ya doro anya. E-akpa ego enweghị ike ịjụ sava azụmahịa ndị bụ nke m, n’ihi na ajụjụ ahụ ga-ekpughe kpọmkwem ihe Zcash na-agbalị izochi. Ya mere, e-akpa ego na-ebudata nnukwu data ma na-enyocha ihe nke ọ bụla n’ime ya n’onwe ya iji hụ nke bụ nke ya. Ọ na-arụ ọrụ ma na-echekwa Nzuzo, mana ọ na-ewe oge ma dị arọ. Nyocha a bụ otu n’ime isi ihe mere mmekọrịta e-akpa ego ji adị nwayọọ.
 
-Ihe kachasị mma ga-abụ ụzọ e-akpa ego ga-eji rịọ sava kpọmkwem data nke ya, nata ya, na-enweghị ka sava ahụ mara ihe a rịọrọ. Nke ahụ bụ kpọmkwem ihe nnweta ozi nzuzo na-enye.
-
-<br/>
+Ihe kacha mma bụ inwe ụzọ e-akpa ego ga-esi rịọ sava data nke ya kpọmkwem ma nata ya, n’enweghị sava ahụ ịma ihe a rịọrọ. Nke a bụ kpọmkwem ihe nweta ozi nkeonwe na-enye.
 
 ## Ihe PIR bụ
 
-Nnweta ozi nzuzo bụ usoro cryptography nke na-eme ka client gụọ otu ntinye sitere n’ebe nchekwa data sava dị na-enweghị ikpughe sava ahụ ntinye ọ gụrụ.
+Nweta ozi nkeonwe bụ usoro cryptography na-eme ka onye ahịa gụọ otu ndekọ n’ime nchekwa data sava n’enweghị ikpughere sava ahụ ndekọ ọ gụrụ.
 
-Cheedị ọbá akwụkwọ ebe ị nwere ike ịnata kpọmkwem akwụkwọ ịchọrọ, mana onye na-elekọta ọbá akwụkwọ amaghị akwụkwọ o nyere gị. Ị na-enweta ihe gị, mmasị gị akwụgidere na nzuzo. PIR bụ ụdị mgbakọ na mwepụ nke echiche ahụ, etinyere n’ebe nchekwa data ọ bụla.
+Were ya na e nwere ọbá akwụkwọ ebe unu nwere ike ịnata akwụkwọ unu chọrọ kpọmkwem, mana onye na-elekọta ọbá akwụkwọ ahụ agaghị ama akwụkwọ o nyere unu. Unu na-enweta ihe unu chọrọ, mmasị unu anọgidekwa na nzuzo. PIR bụ ụdị mgbakọ na mwepụ nke echiche a, nke e tinyere n’ọrụ na nchekwa data ọ bụla.
 
-A mụọla echiche a na cryptography kemgbe ọtụtụ iri afọ. Ebu ụzọ webata ya na 1995 site n’aka Chor, Goldreich, Kushilevitz, na Sudan, ndị kọwara usoro ọtụtụ sava, ebe ụdị sava otu mbụ sochiri na 1997 site n’aka Kushilevitz na Ostrovsky. Ọ bụghị ihe Zcash chepụtara, ọ bụ mpaghara e guzobeworo nke Zcash na-etinye ugbu a n’ọrụ maka nsogbu dị adị ma sie ike.
+A mụọla echiche a na cryptography ruo ọtụtụ iri afọ. Chor, Goldreich, Kushilevitz, na Sudan webatara ya na mbụ na 1995, ha kọwara usoro sava ọtụtụ; ụdị sava otu mbụ sochiri na 1997, nke Kushilevitz na Ostrovsky mepụtara. Ọ bụghị ihe Zcash chepụtara; ọ bụ ngalaba e hiwerela nke Zcash na-etinyezi n’ọrụ iji dozie nsogbu dị adị ma sie ike.
 
-<br/>
+## Otu PIR si arụ ọrụ n’ogo mbụ
 
-## Ka PIR si arụ ọrụ, n’ọkwa mbụ
+E nwere ụzọ abụọ sara mbara e si arụ PIR, ọdịiche dị n’etiti ha dịkwa mkpa.
 
-E nwere ụzọ abụọ sara mbara e si ewulite PIR, ọdịiche ha dịkwa mkpa.
+Nke mbụ na-eji sava ọtụtụ. Onye ahịa na-ezigara sava ọtụtụ otu otu akụkụ nke ajụjụ ahụ, ma jikọta azịza ha n’onwe ya. Ọ dịghị sava ọbụla na-ahụ ozi ga-ezu iji mata ihe a rịọrọ. Nke a na-arụ ọrụ nke ọma, mana ọ dabere n’ịhụ na sava ndị ahụ anaghị akpakọrịta n’azụ, nke siri ike ikwe nkwa n’ezi ụwa.
 
-Nke mbụ na-eji ọtụtụ sava. Client na-eziga sava ọ bụla n’ime ọtụtụ sava otu akụkụ nke ajụjụ ahụ, ma jikọta azịza ha n’ime ngwaọrụ. Ọ nweghị otu sava na-ahụ zuru ezu iji mata ihe a rịọrọ. Nke a na-arụ ọrụ nke ọma, mana ọ dabere n’ịhụ na sava ndị ahụ anaghị arụkọ ọrụ ọnụ, nke siri ike ikwe nkwa n’ụwa n’ezi ndụ.
-
-Nke abụọ na-eji otu sava na cryptography nwere amamihe kama iji ọtụtụ ndị otu. N’ebe a, client na-adabere na ngwá ọrụ pụrụ iche a na-akpọ homomorphic encryption, nke a bụkwa ntụziaka kasị baa uru maka ntinye n’ọrụ n’ezi ndụ, n’ihi na ọ dịghị achọ ọtụtụ sava ndị na-adịghị arụkọ ọrụ ọnụ.
-
-<br/>
+Nke abụọ na-eji otu sava na aghụghọ cryptography kama iji ọtụtụ ndị ọzọ. N’ebe a, onye ahịa na-adabere n’ngwá ọrụ pụrụ iche a na-akpọ homomorphic encryption, nke a bụkwa ụzọ kacha baa uru maka itinye ya n’ọrụ n’ezi ụwa, n’ihi na ọ chọghị sava ọtụtụ ndị na-adịghị akpakọrịta.
 
 ## Usoro ahụ: homomorphic encryption
 
-Homomorphic encryption bụ ụdị Nzobe ederede [encryption] nke na-eme ka sava rụọ mgbakọ na data mgbe data ahụ ka zoro ezo. Sava na-emepụta azịza ziri ezi e zoro ezo n’enweghị mgbe ọ bụla ọ hụrụ ụkpụrụ dị n’okpuru ya.
+Homomorphic encryption bụ ụdị Nzobe ederede nke na-eme ka sava gbakọọ data mgbe ọ ka nọ na Nzobe ederede. Sava ahụ na-emepụta azịza ziri ezi nke nọ na Nzobe ederede n’enweghị ịhụ uru ndị dị n’okpuru ya.
 
-Nke a bụ echiche dị n’azụ PIR nke sava otu e ji usoro a wuo. Client chọrọ ihe nọmba atọ n’ime ndepụta. Ọ na-ewulite ajụjụ nke, n’ezie, bụ ee e zoro ezo maka ọnọdụ nke atọ na mba e zoro ezo maka ọnọdụ ọ bụla ọzọ. Nye sava ahụ, ajụjụ a bụ naanị mkpọtụ enweghị isi; ọ nweghị ike ịmata ọnọdụ nke nwere ee ahụ.
+Nke a bụ echiche dị n’azụ PIR sava otu e ji usoro a rụọ. Onye ahịa chọrọ ihe nọmba atọ n’ime ndepụta. Ọ na-ewu ajụjụ nke pụtara n’ezie na ọ bụ ee maka ọnọdụ nke atọ, nke e zoro ezo, na mba maka ọnọdụ ndị ọzọ niile. Maka sava ahụ, ajụjụ a bụ mkpọtụ na-enweghị ihe ọ pụtara; ọ pụghị ịmata ọnọdụ nke nwere ee.
 
-Sava ahụ na-ejikọta ebe nchekwa data ya na ajụjụ a e zoro ezo site n’iji njirimara pụrụ iche nke homomorphic encryption, na-amụba ihe ọ bụla echekwara site n’ee ma ọ bụ mba e zoro ezo kwekọrọ na ya ma chịkọta nsonaazụ ahụ ọnụ. Ihe na-apụta bụ otu ngwugwu e zoro ezo nke nwere kpọmkwem ihe client chọrọ, ọ nweghịkwa ihe na-ekpughe nke ọ bụ. Client na-emeghe ngwugwu ahụ ma gụọ ihe ya. Sava azala ajụjụ ahụ n’enweghị mgbe ọ bụla ọ maara ajụjụ ahụ.
+Sava ahụ jikọtara nchekwa data ya na ajụjụ a zoro ezo site n’iji njirimara pụrụ iche nke homomorphic encryption: ọ na-amụba ihe echekwara nke ọ bụla site n’ee ma ọ bụ mba zoro ezo nke dabara na ya, wee gbakọta nsonaazụ ha. Ihe si na ya pụta bụ otu ngwugwu zoro ezo nke nwere kpọmkwem ihe onye ahịa chọrọ, ọ dịghịkwa ihe na-ekpughe nke ọ bụ. Onye ahịa na-ewepụ Nzobe dị na ngwugwu ahụ wee gụọ ihe ya. Sava ahụ azala ajụjụ ahụ n’amaghị ihe a jụrụ.
 
-Ụdị siri ike karị, nke a na-akpọ symmetric PIR, na-agbakwunye nkwa nke abụọ: client na-amụta naanị ihe ọ rịọrọ, ọ dịghịkwa amụta ihe banyere ntinye ọ bụla ọzọ n’ebe nchekwa data ahụ. Nke ahụ na-echebe ebe nchekwa data ahụ nakwa client.
+Ụdị ka sie ike karị, nke a na-akpọ symmetric PIR, na-agbakwunye nkwa nke abụọ: onye ahịa na-amụta naanị ihe ọ rịọrọ, ọ dịghịkwa ihe ọ bụla gbasara ndekọ ndị ọzọ dị na nchekwa data. Nke a na-echekwa nchekwa data yana onye ahịa.
 
-<br/>
+## Nkọwa miri emi maka ndị na-agụ akwụkwọ teknụzụ
 
-## Ileba anya nke ọma maka ndị na-agụ ọrụ nka
+A na-ewu atụmatụ sava otu nke oge a n’elu lattice cryptography, nke a na-ejikarị echiche learning with errors eme ihe. Ajụjụ onye ahịa bụ vector nke ciphertext, ya bụ Nzobe ederede nke otu bụ 1 n’ọnụ ọgụgụ ọnọdụ achọrọ, ndị ọzọ niile abụrụ 0; Nzobe ederede ahụ nwekwara njirimara homomorphic nke mgbakọ mgbakwunye, ya mere sava ahụ nwere ike ịgbakọta ciphertext ma mụbaa ha site na ndekọ nchekwa data plaintext n’enweghị iwepụ Nzobe ederede ahụ.
 
-A na-ewulite usoro sava otu nke oge a n’elu lattice cryptography, nke kachasị bụrụ assumption learning with errors. Ajụjụ client bụ vector nke ciphertexts, Nzobe ederede nke otu n’ọkwa ebumnuche na efu n’ebe ndị ọzọ, Nzobe ederede ahụ bụkwa additively homomorphic, ya mere sava nwere ike ịgbakwunye ciphertexts ma mụbaa ha site na ntinye ebe nchekwa data plaintext na-enweghị imeghe ha.
+Sava ahụ na-ewere nchekwa data ahụ dị ka matriks, tinye vector nhọrọ zoro ezo n’ọrụ, ma weghachite otu ciphertext nke, mgbe e wepụrụ Nzobe ederede ya, na-enye ahịrị a chọrọ. Ebe ajụjụ ahụ enweghị ike ịmata ọdịiche ya na mkpọtụ na-enweghị usoro, sava ahụ anaghị enweta ozi gbasara ọnọdụ ahụ.
 
-Sava na-ewere ebe nchekwa data ahụ dị ka matrix, tinye vector nhọrọ e zoro ezo, ma weghachite otu ciphertext nke, mgbe emepere ya, na-enye ahịrị achọrọ. N’ihi na ajụjụ ahụ enweghị ọdịiche na mkpọtụ enweghị usoro, sava anaghị enweta ozi ọ bụla banyere index ahụ.
+Ihe mgbochi akụkọ ihe mere eme bụbu ụgwọ ọrụ ya. N’ụzọ dị mfe, sava ga-emetụ ndekọ niile dị na nchekwa data aka n’ajụjụ nke ọ bụla, nke na-achọ nnukwu mgbakọ; ciphertext ndị ahụ dịkwa ukwuu, nke na-achọkwa nnukwu bandwit. Nnyocha ọhụrụ na-agbalị idozi nke a site na nhazi mbụ: atụmatụ dịka SimplePIR na FrodoPIR na-eme ka sava kwadebe nchekwa data tupu oge eruo ma nye onye ahịa ọ bụla obere ntụaka, si otú a na-ebuga ọtụtụ ọrụ n’oge na-adịghị n’ịntanetị ka ajụjụ dị ndụ wee dị ngwa. Uru ọzọ bara uru bụ na a na-ewerekwa ihe owuwu dabere na lattice dị ka ndị na-eguzogide mwakpo quantum, nke kwekọrọ na nnukwu mgbanwe Zcash na-eme gaa n’ihu Nzuzo post-quantum.
 
-Ihe mgbochi akụkọ ihe mere eme na-adịkarị bụ ọnụ ahịa. N’ụzọ na-enweghị amamihe, sava ga-emetụ ntinye ọ bụla dị n’ebe nchekwa data maka ajụjụ ọ bụla, nke dị ọnụ na mgbakọ, ciphertexts ahụ dịkwa ukwuu, nke dị ọnụ na bandwidth. Nnyocha ọhụrụ na-awakpo nke a site na preprocessing; usoro dịka SimplePIR na FrodoPIR na-eme ka sava kwadebe ebe nchekwa data tupu oge eruo ma nye client ọ bụla obere hint, na-ebuga ọtụtụ ọrụ n’oge offline ka ajụjụ ndị dị ndụ wee dị ngwa. Uru ọzọ bara uru bụ na a na-ewerekwa usoro lattice-based dị ka ndị na-eguzogide mwakpo quantum, nke kwekọrọ na ntụgharị sara mbara nke Zcash gaa na Nzuzo post-quantum.
+## PIR n’ime Zcash
 
-<br/>
+PIR bụ akụkụ nke mbọ iji mee ka Zcash bụrụ nkeonwe ma dịkwa ngwa mgbe ọ ruru nnukwu ọnụ ọgụgụ.
 
-## PIR na Zcash
+Ihe mgbochi nyocha e-akpa ego a kọwara na mbụ bụ ihe a na-elekwasị anya. Ọrụ na Valar Group na-emepụta usoro nweta ozi nkeonwe ka e-akpa ego nwee ike isi na sava nweta data nke ya n’enweghị sava ahụ ịma ndekọ ndị a rịọrọ. Otu ihe atụ doro anya bụ ịlele nullifier na nzuzo. Nullifier bụ akara pụrụ iche a na-ebipụta mgbe e mefuru note, nke na-egbochi imefu otu ego ugboro abụọ. E-akpa ego na-achọkarị ịlele ma nullifier e nyere apụtala, ya bụ, ma note ka bụ nke a na-emefughị; ime nke a site na sava taa nwere ike ikpughe note a na-ajụ maka ya. Nweta ozi nkeonwe na-eme ka e-akpa ego jụọ ajụjụ ahụ n’enweghị ikpughe nullifier ọ na-achọ ịlele. Nke a na-aga n’akụkụ ọrụ scaling ndị ọzọ, gụnyere Project Tachyon na ngwanrọ node ọhụrụ, ndị e bu n’obi iwepụ oke ọsọ na-egbochi e-akpa ego nkeonwe taa.
 
-PIR bụ akụkụ nke mbọ ime ka Zcash bụrụ nke nzuzo na nke ngwa ngwa n’ogo buru ibu.
+Ọ dị mkpa ikwu eziokwu banyere ọkwa ọrụ a ruru. Nke a bụ nyocha na ọrụ injinia na-aga n’ihu, ọ bụghị atụmatụ e mechara ma wepụta. E hiwerela echiche ahụ nke ọma, a makwaara ụzọ a ga-eso, mana ime ka PIR rụọ ọrụ nke ọma nke ga-ezuru maka e-akpa ego ndị mmadụ na-eji kwa ụbọchị n’ọrụ ngwaọrụ nkịtị bụ kpọmkwem akụkụ siri ike a na-arụ ọrụ na ya ugbu a.
 
-Ihe mgbochi nyocha e-akpa ego a kọwara mbụ bụ ebumnuche ya. Ọrụ na Valar Group na-emepụta usoro nnweta ozi nzuzo ka e-akpa ego wee nwee ike isi n’aka sava nweta data nke ya na-enweghị ka sava mata ntinye ndị a rịọrọ. Otu ngwa a kapịrị ọnụ bụ ilele nullifiers na nzuzo. Nullifier bụ akara pụrụ iche a na-ebipụta mgbe a mefuru note, nke na-egbochi imefu otu ego ugboro abụọ. E-akpa ego na-achọkarị ịlele ma nullifier e nyere apụtala, ya bụ ma note ka emefubeghị, na ime nke ahụ site na sava taa nwere ike ikpughe note a na-ajụ maka ya. Nnweta ozi nzuzo na-eme ka e-akpa ego jụọ ajụjụ ahụ n’enweghị ikpughe nullifier ọ na-echebara echiche. Nke a dị n’akụkụ ọrụ scaling ndị ọzọ, gụnyere Project Tachyon na software node ọhụrụ, nke ebumnuche ha bụ iwepụ oke arụmọrụ na-egbochi e-akpa ego nzuzo taa.
+## Ihe atụ dị ndụ: ZecBlock Private
 
-Ọ dị mkpa ikwu eziokwu banyere ọkwa ya. Nke a bụ nyocha na engineering na-arụ ọrụ, ọ bụghị atụmatụ e mechara ma zipụ. E guzobeworị echiche ahụ nke ọma, e dokwawokwa ntụziaka, mana ime ka PIR rụọ ọrụ nke ọma maka e-akpa ego kwa ụbọchị n’ọrụ ngwaọrụ nkịtị bụ kpọmkwem akụkụ siri ike a na-arụ ọrụ ugbu a.
+Na Nọvemba 2026, ZecBlock wepụtara **ZecBlock Private** (private.zecblock.com), ụdị ihe nchọgharị ya nke na-eji nweta ozi nkeonwe maka ịchọ Azụmahia, block, na Adreesị.
 
-<br/>
+Nke a bụ ihe nchọgharị block nke mbụ zuru ezu Zcash (nke gụnyere Azụmahia, block, na Adreesị) e wuru n’elu PIR. Ihe ngosi ihe nchọgharị PIR ndị gara aga nwere naanị ajụjụ dị warara dịka itule ego Adreesị.
 
-## Echiche hiere ụzọ a na-ahụkarị
+### Otu nchọ nzuzo si arụ ọrụ
 
-- PIR na-ezo ihe ị rịọrọ, mana ọ pụtaghị na ọ na-ezo na ị kpọtụrụ sava ma ọlị; metadata nke ọkwa netwọk bụ nchegbu dị iche
-- PIR abụghị naanị nke Zcash, ọ bụ ngwá ọrụ cryptography izugbe nke Zcash na-etinye n’ọrụ maka Nzuzo e-akpa ego
-- Mmekọrịta ngwa ngwa site na PIR bụ ebumnuche a ka na-arụ ọrụ na ya, ọ bụghị atụmatụ dịlarị n’e-akpa ego
-- Ibudata ihe niile na inyocha ha n’ime ngwaọrụ, nke bụ usoro dị ugbu a, bụ nke nzuzo mana ọ dị nwayọ; PIR chọrọ idobe Nzuzo ahụ ma wepụ nwayọ ahụ
+- A na-ezobe ajụjụ ahụ (ID Azụmahia, ịdị elu/hash block, ma ọ bụ Adreesị) kpamkpam n’ime ihe nchọgharị tupu e ziga ya.
+- Sava ahụ na-ahazi dataset e bipụtara dum n’amaghị ndekọ a rịọrọ.
+- Sava ahụ na-eweghachite otu azịza zoro ezo nke naanị ihe nchọgharị nwere ike iwepụ Nzobe ya.
+- A pụghị ịmata ọdịiche dị n’etiti ịchọ ihe dị adị na ịchọ ihe na-adịghị adị (otu nha na ọdịdị arịrịọ ahụ).
 
-<br/>
+Mgbe nchọ ọ bụla gasịrị, saịtị ahụ na-egosi nchịkọta dị mkpirikpi nke kpọmkwem ihe ezigara, nke na-eme ka ọ dị mfe inyocha ihe na-eme ka Nzuzo dịrị.
 
-## Peeji ndị metụtara ya
+### Nzọụkwụ nkwenye
 
-- [ZcashMmekọrịta e-akpa ego](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - ihe mere mmekọrịta ji arụ ọrụ otú ọ dị taa
-- [Lightwallet Nodes](https://zechub.wiki/zcash-tech/lightwallet-nodes) - ụdị light client PIR ga-eme ka ọ ka mma
-- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - ngwá ọrụ cryptography ọzọ bụ isi dị n’azụ Nzuzo Zcash
-- [Nchekwa Post-Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - ihe mere usoro lattice-based ji dị mkpa maka ọdịnihu
+A na-eji signature binye mbipụta data ọ bụla. Ihe nchọgharị na-enyocha signature nke nsonaazụ ọ bụla tupu igosi ya, ya mere sava ọjọọ ma ọ bụ nke nwere mperi enweghị ike dochie data ahụ na data dị iche.
+
+### Ịdị ọhụrụ data
+
+A na-ebipụta block ọhụrụ kwa sekọnd ole na ole. Data dị n’ihe nchọgharị nkeonwe na-adịkarị ihe dị ka sekọnd 20 n’azụ ihe nchọgharị ZecBlock nkịtị.
+
+### Ego bandwit
+
+PIR na-efu karịa nchọ nkịtị n’ihi na sava ga-emetụ dataset ahụ dum aka:
+
+- Nchọ Azụmahia: a na-ebugo ihe dị ka 1.2 MB
+- Nchọ Adreesị: a na-ebugo ihe dị ka 0.4 MB
+
+Nke a bụ ụgwọ ọrụ bara uru nke sava amaghị ihe ọ bụla gbasara ajụjụ ahụ.
+
+### Mmejuputa onye ahịa
+
+Onye ahịa ihe nchọgharị bụ ihe mkpuchi Rust → WebAssembly (nke dị ugbu a n’ime ebe nchekwa ZecBlock n’okpuru `prototype/pir-browser`). E wuru ya n’elu ọba akwụkwọ PIR mepere emepe sitere na Valar Group. Ebipụtabeghị ihe mkpuchi ahụ dịka ngwugwu npm kwụụrụ onwe ya, mana e mere atụmatụ ime nke ahụ.
+
+### Ọdịiche dị n’etiti nke a na PIR e-akpa ego
+
+ZecBlock Private na-egosi PIR maka data chain **ọha** (ịchọ Azụmahia, block, ma ọ bụ Adreesị a ma ama n’enweghị ikpughe nke a na-achọ). Ọ naghị edozi nsogbu siri ike karị nke e-akpa ego, ya bụ, ịchọpụta na nzuzo note ndị bụ nke viewing key, ma ọ bụ ịlele nullifier nke note a na-emefughị na nzuzo. Ihe ndị a ka bụ ngalaba nyocha na-aga n’ihu.
+
+## Nghọtahie ndị a na-ahụkarị
+
+- PIR na-ezo ihe ị rịọrọ, ọ naghị aghaghị izochi na unu kpọtụrụ sava ma ọlị; metadata dị n’ogo netwọk bụ okwu dị iche
+- PIR abụghị naanị nke Zcash; ọ bụ ngwá ọrụ cryptography a na-ejikarị eme ihe nke Zcash na-etinye n’ọrụ maka Nzuzo e-akpa ego
+- Ime ka mmekọrịta dị ngwa site na PIR bụ ebumnuche a ka na-arụ ọrụ na ya, ọ bụghị atụmatụ dịworị n’e-akpa ego
+- Ibudata ihe niile ma nyochaa ya n’onwe gị, nke bụ usoro a na-eji ugbu a, na-echekwa Nzuzo mana ọ na-ewe oge; PIR na-achọ idobe Nzuzo ma wepụ igbu oge ahụ
+
+## Ibe ndị metụtara ya
+
+- [Zcash Mmekọrịta e-akpa ego](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - ihe mere mmekọrịta ji arụ ọrụ otu o si arụ ọrụ taa
+- [Ndị node Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - usoro light client nke PIR ga-eme ka ọ ka mma
+- [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - ngwá ọrụ cryptography ọzọ bụ isi dị n’azụ Nzuzo nke Zcash
+- [Nchedo Post-Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - ihe mere usoro dabere na lattice ji dị mkpa maka ọdịnihu
+- [ZecBlock](https://zecblock.com) - ihe nchọgharị ọha bụ isi
+- [Valar Group](https://zechub.wiki/zcash-organizations/valar-group) - ndị mepụtara ọba akwụkwọ PIR ihe ngosi ihe nchọgharị na nyocha e-akpa ego ji

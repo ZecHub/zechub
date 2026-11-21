@@ -57,10 +57,10 @@ Sebelum NU7, blok 2 MB yang penuh dapat memuat sekitar 617 tindakan Orchard atau
 ### Mekanisme Keberlanjutan Jaringan (ZIP 235 + ZIP 237)
 
 - **Pengeluaran biaya (ZIP 235):** 60% biaya transaksi di setiap blok dikeluarkan dari peredaran; 40% sisanya diberikan kepada penambang seperti sebelumnya. Tidak seperti pembakaran, ZEC yang dikeluarkan tetap dicatat agar dapat diterbitkan kembali nanti.
-- **Penerbitan kembali (ZIP 237):** ZEC yang dikeluarkan disimpan dalam status konsensus publik yang disebut Saldo Nilai NSM. Saldo ini diisi pada NU7 dengan nilai 368.58 ZEC yang tidak diklaim penambang pada masa lalu. Mulai blok **8,939,664** (diperkirakan sekitar Februari 2031), setiap blok menerbitkan bagian tetap dari saldo tersebut di atas jadwal halving normal.
+- **Penerbitan kembali (ZIP 237):** ZEC yang dikeluarkan disimpan dalam status konsensus publik yang disebut Saldo Nilai NSM. Saldo ini diisi pada NU7 dengan nilai yang tidak diklaim penambang pada masa lalu. Mulai blok **8,939,664** (diperkirakan sekitar Februari 2031), setiap blok menerbitkan bagian tetap dari saldo tersebut di atas jadwal halving normal.
 - Batas pasokan tidak meningkat. Saat saldo mencapai nol, penerbitan mengikuti jadwal halving lama secara tepat.
 - NU7 **tidak** menerapkan [ZIP 233](https://zips.z.cash/zip-0233) (pengeluaran sukarela oleh pengguna) atau [ZIP 234](https://zips.z.cash/zip-0234) (mengganti halving dengan kurva yang mulus). Jajak pendapat pemegang koin memilih rancangan yang mempertahankan halving dalam ZIP 237.
-- Rincian penghapusan biaya dan penerbitan kembali ada di halaman [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
+- Angka-angkanya (saldo awal 368.58 ZEC, fraksi penerbitan kembali per blok, dan alasan dimulainya pada blok 8,939,664) tercantum di halaman [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### Transaksi versi 4 dilarang (ZIP 2003)
 
@@ -150,8 +150,8 @@ Jawaban: (1) subsidi per blok dipangkas menjadi sepertiganya, sementara blok mun
 | Halaman | Alasan terkait |
 |---|---|
 | [Ironwood](./Ironwood.md) | peningkatan sebelumnya dalam rangkaian ini, yang memperkenalkan transaksi v6 |
-| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | rincian penghapusan biaya dan penerbitan kembali |
 | [Perubahan Nyata dari Blok 25 Detik](../research/what-25-second-blocks-actually-change) | pembahasan lebih mendalam tentang waktu blok yang lebih cepat |
+| [Mekanisme Keberlanjutan Jaringan](./Network_Sustainability_Mechanism.md) | cara kerja penghapusan biaya dan penerbitan kembali NU7 yang diaktifkan, beserta angkanya |
 | [Sprout](./Sprout.md) | pool NU7 yang dihentikan |
 | [Memulihkan Dana](../using-zcash/recovering-funds) | arti pembekuan Sprout bagi dana lama |
 | [Transaksi](../using-zcash/transactions) | kedaluwarsa dan konfirmasi setelah NU7 |
