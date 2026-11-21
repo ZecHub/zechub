@@ -61,13 +61,13 @@ Imagina un frasco de ahorro junto a la caja. Cada vez que se mina un bloque, el 
 
 | Término | Significado en lenguaje sencillo |
 |---|---|
-| Mecanismo de sostenibilidad de la red (NSM) | Las reglas de consenso que retiran ZEC de la circulación y lo reemiten a los mineros más adelante |
-| Saldo de valor del NSM | El total acumulado público de ZEC retirado de la circulación (o nunca reclamado) y aún no reemitido |
-| Retiro de la circulación | Trasladar ZEC del suministro emitido al saldo de valor del NSM; desde NU7, esto corresponde al 60 % de las comisiones de cada bloque |
-| Reemisión | Devolver ZEC desde el saldo de valor del NSM mediante un subsidio adicional por bloque, a partir del bloque 8,939,664 |
-| Suministro emitido | Todo el ZEC en los pools de valor de la red; no incluye el saldo de valor del NSM |
-| Subsidio por bloque | El ZEC nuevo que se crea en cada bloque y se reparte entre el minero y los flujos del fondo de desarrollo |
-| Intervalo de halving | El número de bloques entre halvings: 5,040,000 desde NU7 (unos cuatro años con bloques de 25 segundos) |
+| Network Sustainability Mechanism (NSM) | Las reglas de consenso que retiran ZEC de la circulación y lo reemiten a los mineros más adelante |
+| NSM Value Balance | El total acumulado público de ZEC retirado de la circulación (o nunca reclamado) y aún no reemitido |
+| Removal from circulation | Trasladar ZEC del suministro emitido al saldo de valor del NSM; desde NU7, esto corresponde al 60 % de las comisiones de cada bloque |
+| Reissuance | Devolver ZEC desde el saldo de valor del NSM mediante un subsidio adicional por bloque, a partir del bloque 8,939,664 |
+| Issued Supply | Todo el ZEC en los pools de valor de la red; no incluye el saldo de valor del NSM |
+| Block subsidy | El ZEC nuevo que se crea en cada bloque y se reparte entre el minero y los flujos del fondo de desarrollo |
+| Halving interval | El número de bloques entre halvings: 5,040,000 desde NU7 (unos cuatro años con bloques de 25 segundos) |
 
 ## Preguntas frecuentes
 

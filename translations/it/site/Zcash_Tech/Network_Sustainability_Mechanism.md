@@ -61,13 +61,13 @@ Pensa a un salvadanaio accanto alla cassa. Ogni volta che viene minato un blocco
 
 | Termine | Significato in parole semplici |
 |---|---|
-| Meccanismo per la sostenibilità della rete (NSM) | Le regole di consenso che rimuovono ZEC dalla circolazione e lo riassegnano ai miner in seguito |
-| Saldo di valore dell'NSM | Il totale progressivo pubblico di ZEC rimosso dalla circolazione (o mai riscosso) e non ancora riassegnato |
-| Rimozione dalla circolazione | Trasferimento di ZEC dall'offerta emessa al saldo di valore dell'NSM; da NU7, si tratta del 60% delle commissioni di ogni blocco |
-| Riassegnazione | Distribuzione di ZEC dal saldo di valore dell'NSM sotto forma di sussidio di blocco aggiuntivo, a partire dal blocco 8,939,664 |
-| Offerta emessa | Tutti i ZEC nei pool di valore della chain; non include il saldo di valore dell'NSM |
-| Sussidio di blocco | I nuovi ZEC creati in ogni blocco, ripartiti tra il miner e i flussi del fondo per lo sviluppo |
-| Intervallo di halving | Il numero di blocchi tra un halving e l'altro: 5,040,000 da NU7 (circa quattro anni con blocchi da 25 secondi) |
+| Network Sustainability Mechanism (NSM) | Le regole di consenso che rimuovono ZEC dalla circolazione e lo riassegnano ai miner in seguito |
+| NSM Value Balance | Il totale progressivo pubblico di ZEC rimosso dalla circolazione (o mai riscosso) e non ancora riassegnato |
+| Removal from circulation | Trasferimento di ZEC dall'offerta emessa al saldo di valore dell'NSM; da NU7, si tratta del 60% delle commissioni di ogni blocco |
+| Reissuance | Distribuzione di ZEC dal saldo di valore dell'NSM sotto forma di sussidio di blocco aggiuntivo, a partire dal blocco 8,939,664 |
+| Issued Supply | Tutti i ZEC nei pool di valore della chain; non include il saldo di valore dell'NSM |
+| Block subsidy | I nuovi ZEC creati in ogni blocco, ripartiti tra il miner e i flussi del fondo per lo sviluppo |
+| Halving interval | Il numero di blocchi tra un halving e l'altro: 5,040,000 da NU7 (circa quattro anni con blocchi da 25 secondi) |
 
 ## FAQ
 

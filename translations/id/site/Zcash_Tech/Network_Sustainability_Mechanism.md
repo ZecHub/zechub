@@ -61,13 +61,13 @@ Bayangkan sebuah stoples tabungan di samping mesin kasir. Setiap kali sebuah blo
 
 | Istilah | Makna sederhana |
 |---|---|
-| Mekanisme Keberlanjutan Jaringan (NSM) | Aturan konsensus yang mengeluarkan ZEC dari peredaran dan menerbitkannya kembali kepada penambang di kemudian hari |
-| Saldo Nilai NSM | Jumlah akumulatif publik dari ZEC yang dikeluarkan dari peredaran (atau tidak pernah diklaim) dan belum diterbitkan kembali |
-| Pengeluaran dari peredaran | Mengeluarkan ZEC dari pasokan yang diterbitkan dan memasukkannya ke Saldo Nilai NSM; sejak NU7, jumlahnya adalah 60% dari biaya setiap blok |
-| Penerbitan kembali | Membayar ZEC dari Saldo Nilai NSM sebagai subsidi blok tambahan, mulai blok 8,939,664 |
-| Pasokan yang Diterbitkan | Semua ZEC dalam pool nilai chain; tidak mencakup Saldo Nilai NSM |
-| Subsidi blok | ZEC baru yang dibuat di setiap blok, dibagi antara penambang dan aliran dana pengembangan |
-| Interval halving | Jumlah blok di antara halving: 5,040,000 sejak NU7 (sekitar empat tahun dengan blok 25 detik) |
+| Network Sustainability Mechanism (NSM) | Aturan konsensus yang mengeluarkan ZEC dari peredaran dan menerbitkannya kembali kepada penambang di kemudian hari |
+| NSM Value Balance | Jumlah akumulatif publik dari ZEC yang dikeluarkan dari peredaran (atau tidak pernah diklaim) dan belum diterbitkan kembali |
+| Removal from circulation | Mengeluarkan ZEC dari pasokan yang diterbitkan dan memasukkannya ke Saldo Nilai NSM; sejak NU7, jumlahnya adalah 60% dari biaya setiap blok |
+| Reissuance | Membayar ZEC dari Saldo Nilai NSM sebagai subsidi blok tambahan, mulai blok 8,939,664 |
+| Issued Supply | Semua ZEC dalam pool nilai chain; tidak mencakup Saldo Nilai NSM |
+| Block subsidy | ZEC baru yang dibuat di setiap blok, dibagi antara penambang dan aliran dana pengembangan |
+| Halving interval | Jumlah blok di antara halving: 5,040,000 sejak NU7 (sekitar empat tahun dengan blok 25 detik) |
 
 ## FAQ
 
