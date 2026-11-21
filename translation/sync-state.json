@@ -7661,6 +7661,14 @@
       "mode": "full",
       "tool": "codex/gpt-6-luna",
       "edited": false
+    },
+    "Zcash_Tech/Network_Sustainability_Mechanism.md": {
+      "src": "sha256:3d5bbd48f16169265801fa4193946ce8a4962162a3f9334c79814d2aea761ddb",
+      "src_commit": "96997b74365c698cf8321e819ae4fb113fa7a256",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-6-luna+recovered+handfix",
+      "edited": false
     }
   },
   "el": {
