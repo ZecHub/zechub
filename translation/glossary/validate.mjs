@@ -22,6 +22,7 @@
 import { execFileSync } from "node:child_process";
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { join } from "node:path";
+import { fileURLToPath } from "node:url";
 
 import {
   checkVersionBump,
@@ -30,7 +31,7 @@ import {
   validateTermsEn,
 } from "./lib/glossary.mjs";
 
-const root = new URL("../../", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../../", import.meta.url));
 const dir = join(root, "translation/glossary");
 const NOT_LOCALES = new Set(["terms.en.json", "schema.json", "review-instructions.json"]);
 
@@ -82,7 +83,7 @@ function readJson(path) {
   }
 }
 
-const isMain = process.argv[1] && new URL(import.meta.url).pathname === process.argv[1];
+const isMain = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
 if (isMain) {
   const baseSha = resolveBase();
   const termsEn = readJson(join(dir, "terms.en.json"));

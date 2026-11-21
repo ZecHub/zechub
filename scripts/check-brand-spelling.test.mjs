@@ -13,7 +13,7 @@
 //                       deciding WHAT counts as a misspelling, plus escaping)
 //
 // Run: node scripts/check-brand-spelling.test.mjs
-import { readFileSync, writeFileSync, mkdirSync, rmSync, symlinkSync, unlinkSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdirSync, rmSync, unlinkSync } from "node:fs";
 import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -84,10 +84,17 @@ writeFileSync(join(repo, "translation/protected-terms.json"), JSON.stringify({
 }, null, 2) + "\n");
 writeFileSync(join(repo, "scripts/check-brand-spelling.mjs"), src);
 writeFileSync(join(repo, "site/target.txt"), "plain\n");
-symlinkSync("target.txt", join(repo, "site/typechange.md"));     // mode 120000
+// Stage a real Git symlink entry without requiring OS symlink privileges.
+// Git for Windows may materialize links as plain target-name files.
+writeFileSync(join(repo, "site/typechange.md"), "target.txt");
 git("init", "-q");
+git("config", "core.autocrlf", "false");
 git("config", "user.email", "t@t"); git("config", "user.name", "t");
-git("add", "-A"); git("commit", "-qm", "base", "--no-verify");
+git("add", "-A");
+const blob = (body) => execFileSync("git", ["-C", repo, "hash-object", "-w", "--stdin"],
+  { input: body, encoding: "utf8" }).trim();
+git("update-index", "--cacheinfo", "120000", blob("target.txt"), "site/typechange.md");
+git("commit", "-qm", "base", "--no-verify");
 git("branch", "-M", "main");
 git("checkout", "-qb", "pr");
 
@@ -151,7 +158,10 @@ let hasSubmodule = true;
 try { git("-c", "protocol.file.allow=always", "submodule", "add", "-q", sub, "site/vendor.md"); }
 catch { hasSubmodule = false; }
 
-git("add", "-A"); git("commit", "-qm", "pr", "--no-verify");
+git("add", "-A");
+// Explicitly record the new regular-file mode even when core.symlinks=false.
+git("update-index", "--cacheinfo", "100644", blob(probes["site/typechange.md"]), "site/typechange.md");
+git("commit", "-qm", "pr", "--no-verify");
 
 // The exit STATUS is the only thing CI acts on, so capture it. Asserting only
 // on annotations let the gate be reduced to a no-op that still prints findings
