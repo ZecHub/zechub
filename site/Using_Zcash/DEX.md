@@ -119,3 +119,13 @@ ___
 - Website: https://zcashto.cash/
 - Description: Non-custodial ZEC-to-fiat cash out via Peer. Send shielded ZEC and receive payouts in everyday payment apps such as Venmo, Cash App, Revolut, Zelle, Chime, and Monzo across 100+ geographies. No CEX account required; escrow completes after proof of fiat payment.
 
+
+___
+
+
+### Unpair
+
+<img src="https://raw.githubusercontent.com/unpairxyz/unpair/main/apps/web/public/og.png" alt="Unpair" width="200" height="100"/>
+
+- Website: https://unpair.xyz
+- Description: Swap any asset for another through Zcash's shielded pool. Pick who holds the ZEC between the two hops: a one-time wallet in your browser, Unpair's server, or your own Zcash wallet. No account. Open source.
