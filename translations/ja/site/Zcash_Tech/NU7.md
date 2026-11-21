@@ -28,7 +28,7 @@ Zcashを初めて知る方は、まず[ZECとは何かZcashと](../start-here/wh
 
 チェーン（chain）を鉄道路線だと考えてください。NU7以前は、75秒ごとに列車が出発し、2 MBに収まるだけの乗客を乗せられました。NU7では、25秒ごとに列車を走らせ、各運転手には以前の運賃の3分の1を支払うことで1日の合計を同じに保ちます。また、最も重い乗客（シールドされたアクション）が1列車に乗車できる人数に上限を設けるため、1本の列車の確認に過度な時間がかかることはありません。
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7の4つのパネル：ブロックは3倍速くなり、1日あたりの新しいZECの量は変わりません。手数料の60%は、2031年からの報酬のために公開準備金へ入ります。2016年からある旧Sproutプールは、もう使用できません。投票したZECの98.9%が半減期の維持を選びました](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7が変更した内容
 
@@ -56,11 +56,11 @@ NU7以前は、完全な2 MBブロックには、約617のOrchardまたはIronwo
 
 ### ネットワーク持続可能性メカニズム（ZIP 235 + ZIP 237）
 
-- **手数料の除去（ZIP 235）：** 各ブロック内のトランザクション手数料の60%は流通から除去され、残りの40%は従来どおりマイナーに渡ります。バーンとは異なり、除去されたZECは追跡され、後で再発行できます。
-- **再発行（ZIP 237）：** 除去されたZECは、NSM Value Balanceと呼ばれる公開コンセンサス状態に保管されます。これは、過去にマイナーが請求しなかった価値によってNU7で368.58 ZECの初期値として設定されました。ブロック**8,939,664**（2031年2月頃の予測）から、各ブロックは通常の半減期スケジュールに加えて、その残高の固定部分を発行します。
-- 供給上限は増加しません。残高がゼロになると、発行量は従来の半減期スケジュールと完全に同じです。
-- NU7は、[ZIP 233](https://zips.z.cash/zip-0233)（ユーザーによる任意の除去）や、[ZIP 234](https://zips.z.cash/zip-0234)（半減期を滑らかな曲線に置き換えること）を展開**していません**。コイン保有者の投票では、ZIP 237において半減期を維持する設計が選ばれました。
-- 手数料の除去と再発行の詳細は [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
+- **手数料の除去（ZIP 235）：** 各ブロックのトランザクション手数料の60%は流通から除去され、残りの40%は従来どおりマイナーに渡ります。バーンとは異なり、除去されたZECは追跡されるため、後で再発行できます。
+- **再発行（ZIP 237）：** 除去されたZECは、NSM Value Balanceと呼ばれる公開コンセンサス状態に保管されます。これは、過去にマイナーが請求しなかった価値を使ってNU7に初期化されました。ブロック**8,939,664**（2031年2月頃の予測）から、各ブロックで通常の半減期スケジュールに加えて、その残高の一定割合が発行されます。
+- 供給上限は増加しません。残高がゼロになると、発行量は従来の半減期スケジュールと完全に同じになります。
+- NU7は、[ZIP 233](https://zips.z.cash/zip-0233)（ユーザーによる任意の除去）も、[ZIP 234](https://zips.z.cash/zip-0234)（半減期を滑らかな曲線に置き換えること）も導入していません。コイン保有者の投票では、ZIP 237において半減期を維持する設計が選ばれました。
+- 数値（初期値の368.58 ZEC、ブロックごとの再発行割合、開始がブロック8,939,664である理由）については、[Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md)のページをご覧ください。
 
 ### バージョン4トランザクションの禁止（ZIP 2003）
 
@@ -150,8 +150,8 @@ NU7以前は、完全な2 MBブロックには、約617のOrchardまたはIronwo
 | ページ | 関連する理由 |
 |---|---|
 | [Ironwood](./Ironwood.md) | v6トランザクションを導入した、このシリーズの前回のアップグレードです |
-| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | 手数料の除去と再発行の詳細 |
 | [25秒ブロックで実際に変わること](../research/what-25-second-blocks-actually-change) | より高速なブロック時間を詳しく解説しています |
+| [ネットワーク持続可能性メカニズム](./Network_Sustainability_Mechanism.md) | 手数料の除去と再発行がNU7有効化された仕組みを、数値とともに説明しています |
 | [Sprout](./Sprout.md) | NU7が廃止したプールです |
 | [資金の回復](../using-zcash/recovering-funds) | Sproutの凍結が古い資金に何を意味するかを説明しています |
 | [トランザクション](../using-zcash/transactions) | NU7後の有効期限と承認について説明しています |

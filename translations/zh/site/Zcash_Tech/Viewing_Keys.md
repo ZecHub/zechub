@@ -139,7 +139,7 @@ Viewing key 是一段信息，而不是权限条目。一旦被复制，它会�
 
 ### 试解密：查看实际如何运作
 
-每笔屏蔽交易都会将其 note 明文加密给预定接收者。持有 viewing key 的钱包会进行**试解密**：对于它在链上发现的每笔交易，它都会尝试用该密钥解密 note 密文。成功时会揭示 note 的价值、接收者 diversifier 和备忘录；失败则无需付出代价。这就是为什么同一个传入 viewing key 能持续适用于 Orchard 和 Ironwood pools——[ZIP 326](https://zips.z.cash/zip-0326) 将接收器的范围定义为 Orchard *协议*，因此 Ironwood note 密文具有 Orchard 形态，并在 Ironwood note 加密域下使用账户的 Orchard viewing keys 进行试解密。
+每笔屏蔽交易都会将其 note 明文加密给预定接收者。持有 viewing key 的钱包会进行**试解密**：对于它在链上发现的每笔交易，它都会尝试用该密钥解密 note 密文。成功时会揭示 note 的价值、接收者 diversifier 和备忘录。失败所需的计算量与成功时大致相同，因为在钱包能够判断该 note 是否属于自己之前，就必须先完成耗时的密钥协商，因此随着钱包监控的每个密钥增加，扫描成本也会增加（参见 [检测屏蔽支付](Detecting_Shielded_Payments.md)）。这就是为什么同一个传入 viewing key 能持续适用于 Orchard 和 Ironwood pool——[ZIP 326](https://zips.z.cash/zip-0326) 将接收器的范围限定为 Orchard *协议*，因此 Ironwood note 密文具有 Orchard 形态，并在 Ironwood note 加密域下使用账户的 Orchard viewing keys 进行试解密。
 
 ### 完整与传入：派生方式决定什么
 

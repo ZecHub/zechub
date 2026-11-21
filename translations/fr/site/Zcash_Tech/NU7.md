@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU7.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
 </a>
 
 # NU7
@@ -28,7 +28,7 @@ En termes simples : les blocs arrivent désormais toutes les 25 secondes, la qua
 
 Imaginez la chaîne comme une ligne de train. Avant NU7, un train partait toutes les 75 secondes et pouvait transporter autant de passagers que 2 Mo pouvaient en contenir. NU7 fait partir un train toutes les 25 secondes et paie chaque conducteur le tiers de l'ancien tarif, si bien que le total quotidien reste le même. Elle limite aussi le nombre de passagers les plus lourds (les actions protégées) qui peuvent monter dans un même train, afin que le contrôle d'aucun train ne prenne trop de temps.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 en quatre volets : les blocs sont trois fois plus rapides et la quantité de nouveaux ZEC par jour reste la même ; 60 % des frais vont dans une réserve publique destinée aux récompenses à partir de 2031 ; le pool Sprout historique de 2016 ne peut plus être dépensé ; 98,9 % des ZEC ayant voté ont choisi de maintenir les halving](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Ce que NU7 a changé
 
@@ -56,11 +56,11 @@ Avant NU7, un bloc plein de 2 Mo pouvait contenir environ 617 actions Orchard ou
 
 ### Mécanisme de durabilité du réseau (ZIP 235 + ZIP 237)
 
-- **Retrait des frais (ZIP 235) :** 60 % des frais de transaction de chaque bloc sont retirés de la circulation, et les 40 % restants reviennent au mineur comme auparavant. Contrairement à une destruction, le ZEC retiré fait l'objet d'un suivi pour pouvoir être émis de nouveau plus tard.
-- **Réémission (ZIP 237) :** le ZEC retiré est conservé dans un état de consensus public appelé « solde de valeur NSM ». Ce solde a été initialisé lors de NU7 avec 368.58 ZEC provenant des montants que les mineurs n'avaient pas réclamés par le passé. À partir du bloc **8 939 664** (prévu vers février 2031), chaque bloc émet une part fixe de ce solde, en plus du calendrier normal des halvings.
-- Le plafond de l'offre n'augmente pas. Quand le solde est nul, l'émission suit exactement l'ancien calendrier des halvings.
-- NU7 n'a **pas** déployé [ZIP 233](https://zips.z.cash/zip-0233) (retrait volontaire par les utilisateurs) ni [ZIP 234](https://zips.z.cash/zip-0234) (remplacement des halvings par une courbe lissée). Les sondages auprès des détenteurs de pièces ont retenu la conception de ZIP 237, qui préserve les halvings.
-- Les détails sur le retrait des frais et la réémission figurent sur la page [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
+- **Retrait des frais (ZIP 235) :** 60 % des frais de transaction de chaque bloc sont retirés de la circulation ; les 40 % restants reviennent au mineur comme auparavant. Contrairement à une destruction, le ZEC retiré fait l’objet d’un suivi pour pouvoir être émis de nouveau plus tard.
+- **Réémission (ZIP 237) :** le ZEC retiré est conservé dans un état de consensus public appelé « solde de valeur NSM ». Ce solde a été initialisé lors de NU7 avec une valeur provenant des montants que les mineurs n’avaient pas réclamés par le passé. À partir du bloc **8 939 664** (prévu vers février 2031), chaque bloc émet une part fixe de ce solde, en plus du calendrier normal des halvings.
+- Le plafond de l’offre n’augmente pas. Quand le solde est nul, l’émission suit exactement l’ancien calendrier des halvings.
+- NU7 n’a **pas** déployé [ZIP 233](https://zips.z.cash/zip-0233) (retrait volontaire par les utilisateurs) ni [ZIP 234](https://zips.z.cash/zip-0234) (remplacement des halvings par une courbe lissée). Les sondages auprès des détenteurs de pièces ont retenu la conception qui préserve les halvings dans ZIP 237.
+- Les chiffres (les 368,58 ZEC initiaux, la fraction réémise à chaque bloc et la raison pour laquelle cela commence au bloc 8 939 664) figurent sur la page [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
 
 ### Interdiction des transactions de version 4 (ZIP 2003)
 
@@ -150,11 +150,11 @@ Réponses : (1) la subvention par bloc a été divisée par trois alors que les 
 | Page | Lien avec ce sujet |
 |---|---|
 | [Ironwood](./Ironwood.md) | la mise à niveau précédente de la série, qui a introduit les transactions v6 |
-| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | détails sur le retrait des frais et la réémission |
 | [Ce que les blocs de 25 secondes changent vraiment](../research/what-25-second-blocks-actually-change) | un examen approfondi du temps de bloc plus court |
-| [Sprout](./Sprout.md) | le pool que NU7 a mis à la retraite |
+| [Mécanisme de durabilité du réseau](./Network_Sustainability_Mechanism.md) | comment l’activation de la suppression des frais et de la réémission NU7 s’est déroulée, chiffres à l’appui |
+| [Sprout](./Sprout.md) | le pool NU7 mis à la retraite |
 | [Récupérer des fonds](../using-zcash/recovering-funds) | ce que le gel de Sprout implique pour les anciens fonds |
-| [Transactions](../using-zcash/transactions) | l'expiration et les confirmations après NU7 |
+| [Transactions](../using-zcash/transactions) | l’expiration et les confirmations après NU7 |
 
 ---
 

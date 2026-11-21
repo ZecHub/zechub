@@ -69,7 +69,7 @@ Nel contesto di Zcash, le tecnologie di bridge come ZenRock permettono agli asse
 
 L'interoperabilità è una componente fondamentale nello sviluppo del DeFi, perché permette agli asset di una data blockchain di partecipare a un'economia digitale cross-network. 
 
-Per saperne di più su: [ZenRock Bridge Approfondisci](https://docs.zenrocklabs.io/)
+Per saperne di più su: [ZenRock Bridge Approfondisci](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

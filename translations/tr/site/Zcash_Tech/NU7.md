@@ -28,7 +28,7 @@ Basitçe söylemek gerekirse: bloklar artık her 25 saniyede bir geliyor, günl�
 
 Zinciri bir tren hattı gibi düşünün. NU7 öncesinde trenler her 75 saniyede bir kalkıyor ve 2 MB'lık kapasiteye sığan kadar yolcu taşıyabiliyordu. NU7 her 25 saniyede bir tren çalıştırıyor, günlük toplam aynı kalsın diye her sürücüye eski ücretin üçte birini ödüyor ve tek bir trenin kontrolünün çok uzun sürmemesi için en ağır yolculardan (korumalı eylemler) bir trene binebileceklerin sayısını sınırlıyor.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![Dört panelli NU7: bloklar üç kat daha hızlıdır ve günlük yeni ZEC miktarı aynı kalır; ücretlerin %60’ı, 2031’den itibaren verilecek ödüller için kamuya açık bir rezerve aktarılır; 2016’dan kalma eski Sprout havuzu artık harcanamaz; oy kullanan ZEC’lerin %98,9’u yarılanmaların korunmasını seçti](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7 neleri değiştirdi
 
@@ -56,11 +56,11 @@ NU7 öncesinde, 2 MB'lık tam bir blok yaklaşık 617 Orchard veya Ironwood eyle
 
 ### Ağ Sürdürülebilirliği Mekanizması (ZIP 235 + ZIP 237)
 
-- **Ücretlerin dolaşımdan çıkarılması (ZIP 235):** Her bloktaki işlem ücretlerinin %60'ı dolaşımdan çıkarılıyor; kalan %40'ı önceki gibi madenciye gidiyor. Yakılan miktardan farklı olarak, çıkarılan ZEC izleniyor ve daha sonra yeniden verilebiliyor.
-- **Yeniden ihraç (ZIP 237):** Çıkarılan ZEC, NSM Değer Bakiyesi adı verilen açık mutabakat durumunda tutuluyor. Bu bakiye NU7 sırasında geçmişte madencilerin talep etmeden bıraktığı 368.58 ZEC değerle oluşturuldu. **8.939.664** numaralı bloktan itibaren (öngörülen tarih Şubat 2031 civarı), her blok normal yarılanma takvimine ek olarak bu bakiyenin sabit bir kısmını ihraç ediyor.
+- **Ücretlerin dolaşımdan çıkarılması (ZIP 235):** Her bloktaki işlem ücretlerinin %60'ı dolaşımdan çıkarılıyor; kalan %40'ı önceki gibi madenciye gidiyor. Yakımdan farklı olarak, çıkarılan ZEC izleniyor ve daha sonra yeniden ihraç edilebiliyor.
+- **Yeniden ihraç (ZIP 237):** Çıkarılan ZEC, NSM Değer Bakiyesi adı verilen açık mutabakat durumunda tutuluyor. Bu bakiye NU7 sırasında geçmişte madencilerin talep etmeden bıraktığı değerle oluşturuldu. **8.939.664** numaralı bloktan itibaren (Şubat 2031 civarında olması öngörülüyor), her blok normal yarılanma takvimine ek olarak bu bakiyenin sabit bir kısmını ihraç ediyor.
 - Arz sınırı yükselmiyor. Bakiye sıfır olduğunda ihraç, eski yarılanma takvimini aynen izliyor.
-- NU7, [ZIP 233](https://zips.z.cash/zip-0233) (kullanıcıların gönüllü olarak dolaşımdan çıkarma yapması) veya [ZIP 234](https://zips.z.cash/zip-0234)'ü (yarılanmaların yumuşak bir eğriyle değiştirilmesi) devreye **almadı**. Coinholder anketlerinde ZIP 237'de yarılanmayı koruyan tasarım seçildi.
-- Ücretlerin dolaşımdan çıkarılması ve yeniden ihraç hakkında ayrıntılar [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
+- NU7, [ZIP 233](https://zips.z.cash/zip-0233) (kullanıcıların gönüllü olarak dolaşımdan çıkarması) veya [ZIP 234](https://zips.z.cash/zip-0234)'ü (yarılanmaların yumuşak bir eğriyle değiştirilmesi) devreye **almadı**. Coinholder anketlerinde ZIP 237'de yarılanmayı koruyan tasarım seçildi.
+- Rakamlar (368.58 ZEC başlangıç bakiyesi, blok başına yeniden ihraç oranı ve yeniden ihracın neden 8.939.664 numaralı blokta başladığı) [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) sayfasında yer alıyor.
 
 ### 4. sürüm işlemlere izin verilmiyor (ZIP 2003)
 
@@ -149,12 +149,12 @@ Yanıtlar: (1) blok başına sübvansiyon üçte bire indirilirken bloklar üç 
 
 | Sayfa | İlgili olma nedeni |
 |---|---|
-| [Ironwood](./Ironwood.md) | serideki, v6 işlemleri tanıtan önceki yükseltme |
-| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | ücretlerin çıkarılması ve yeniden ihracı hakkında ayrıntılar |
-| [25 Saniyelik Blokların Gerçekte Neleri Değiştirdiği](../research/what-25-second-blocks-actually-change) | daha hızlı blok süresine daha derinlemesine bakış |
+| [Ironwood](./Ironwood.md) | serideki, v6 işlemlerini tanıtan önceki yükseltme |
+| [25 Saniyelik Bloklar Gerçekte Neleri Değiştiriyor](../research/what-25-second-blocks-actually-change) | daha hızlı blok süresine daha derinlemesine bakış |
+| [Ağ Sürdürülebilirliği Mekanizması](./Network_Sustainability_Mechanism.md) | ücretlerin kaldırılması ve yeniden ihracının NU7 etkinleşmesinin sayılarla açıklaması |
 | [Sprout](./Sprout.md) | kullanımdan kaldırılan NU7 havuzu |
 | [Fonları Kurtarma](../using-zcash/recovering-funds) | Sprout dondurmasının eski fonlar için ne anlama geldiği |
-| [İşlemler](../using-zcash/transactions) | NU7 sonrasında sona erme süreleri ve onaylar |
+| [İşlemler](../using-zcash/transactions) | NU7 sonrasında sona erme ve onaylar |
 
 ---
 

@@ -37,7 +37,7 @@
 
 Протокол Crosslink — це запропонований дизайн для етапу гібридного Proof-of-Work/Proof-of-Stake (PoW/PoS) у Zcash. Він поєднує PoW із протоколом Byzantine Fault Tolerance (BFT), забезпечуючи гарантовану фінальність доти, доки безпечним залишається або PoW, або PoS. Дизайн має на меті посилити безпеку та децентралізацію мережі шляхом включення валідації через стейкінг із одночасним збереженням участі майнерів. Ключова особливість пропозиції під назвою Crosslink 2 спрощує архітектуру, об’єднуючи BFT-пропонентів і майнерів. Цей спрощений підхід мінімізує структурні зміни та дозволяє використовувати "dummy" шар BFT, що полегшує прототипування й розгортання при збереженні високих стандартів безпеки.
 
-План реалізації включає дорожню карту з орієнтовними інженерними витратами на інтеграцію Crosslink 2* у клієнт Zebra для Zcash. Це поетапне розгортання зосереджене на збалансуванні стимулів для зацікавлених сторін, зменшенні збоїв і узгодженні з цілями Zcash щодо масштабованості, зручності використання та децентралізації. Зростаюча впевненість у надійних властивостях безпеки протоколу ще більше зміцнює його потенціал як ключового кроку в еволюції Zcash. Завдяки підвищенню енергоефективності та вдосконаленню механізмів консенсусу Crosslink пропонує далекоглядне рішення для мінливих викликів блокчейну. Докладніше дивіться у [репозиторії GitHub](https://github.com/ShieldedLabs/zebra-crosslink) та на [ZcashФорумі спільноти](https://forum.zcashcommunity.com).
+План реалізації включає дорожню карту з орієнтовними інженерними витратами на інтеграцію Crosslink 2* у клієнт Zebra для Zcash. Це поетапне розгортання зосереджене на збалансуванні стимулів для зацікавлених сторін, зменшенні збоїв і узгодженні з цілями Zcash щодо масштабованості, зручності використання та децентралізації. Зростаюча впевненість у надійних властивостях безпеки протоколу ще більше зміцнює його потенціал як ключового кроку в еволюції Zcash. Завдяки підвищенню енергоефективності та вдосконаленню механізмів консенсусу Crosslink пропонує далекоглядне рішення для мінливих викликів блокчейну. Докладніше дивіться у [репозиторії GitHub](https://github.com/ShieldedLabs/zebra-crosslink) та на [Zcash Форумі спільноти](https://forum.zcashcommunity.com).
 
 ### Цілі та завдання Crosslink
 
@@ -91,18 +91,18 @@ Crosslink включає **Режим безпеки**, щоб усунути р
 * Логіка активації: впровадження Crosslink вимагає змін до правил консенсусу Zcash, включно з визначенням процесу розподілу стейку та оновленням правил мережевого протоколу для підтримки гібридного консенсусу.
 * Поетапне розгортання: протокол розгортатиметься поетапно для забезпечення стабільності мережі та адаптації спільноти. Початкові етапи зосереджені на технічній реалізації, після чого відбудеться інтеграція механізмів управління для вибору нотарів.
 
-Попередній прототип і його документація доступні в [репозиторії zebra-crosslink на GitHub](https://github.com/ShieldedLabs/zebra-crosslink) та в [Книзі zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/). Поточну роботу описано в наступному розділі.
+Попередній прототип і його документація доступні в [репозиторії zebra-crosslink на GitHub](https://github.com/ShieldedLabs/zebra-crosslink), виведеному з експлуатації 12 листопада 2026 року, та в [Книзі zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/). Поточну роботу описано в наступному розділі.
 
 ### Де розташований Crosslink
 
 Crosslink все ще є пропозицією. У FAQ Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) сказано, що вона «має пройти стандартний процес управління Zcash», перш ніж її можна буде активувати в mainnet.
 
-Наявне сьогодні — це **Feature Net**: тестова мережа, якою керує Shielded Labs, із власною тестовою монетою cTAZ, де кожен може майнити, здійснювати стейкінг і запускати фіналізатор. [Версія 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), випущена 1 жовтня 2026 року, починається як звичайний доказ виконаної роботи та поетапно активує Crosslink: стейкінг із блоку 20 736, перший список фіналізаторів формується на блоці 34 560, а BFT-фінальність — із блоку 36 288 ([джерело](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+Наявне сьогодні — це **Feature Net**: тестова мережа, якою керує Shielded Labs, із власною тестовою монетою cTAZ, де кожен може майнити, здійснювати стейкінг і запускати фіналізатор. [Версія 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), випущена 1 жовтня 2026 року, почалася як звичайний доказ виконаної роботи та поетапно активувала Crosslink: стейкінг із блоку 20 736, перший список фіналізаторів формується на блоці 34 560, а BFT-фінальність — із блоку 36 288 ([джерело](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)). Пізніші випуски оновлюють ту саму мережу: [версія 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) на висоті PoW 55 296, [версія 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 листопада 2026 року) на висоті 165 000 і [версія 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 листопада 2026 року) на блоці 189 000. Починаючи з [версії 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16), кожна версія припиняє працювати через два тижні після випуску, тож завжди використовуйте [найновіший випуск](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest).
 
 З часу написання цієї сторінки змінилися дві речі:
 
 * **Роль, яку тут називають нотаріусом, у програмному забезпеченні та примітках до випусків Shielded Labs називають фіналізатором.** Стейкери делегують монети фіналізатору, а фіналізатори з найбільшим стейком голосують за фіналізацію блоків.
-* **Код перемістився.** Репозиторій zebra-crosslink вище востаннє оновлювався у квітні 2026 року. Релізи Feature Net походять з [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), а опис дизайну наведено в [Crosslinkкнизі](https://shieldedlabs.github.io/crosslink_book/).
+* **Код перемістився.** Репозиторій zebra-crosslink вище було закрито 12 листопада 2026 року, а в його README тепер є посилання на сторінку [Shielded Labs' Crosslink](https://shieldedlabs.net/crosslink). Релізи Feature Net походять з [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases), а опис дизайну наведено в [Crosslink книзі](https://shieldedlabs.github.io/crosslink_book/).
 
 Щоб спробувати це самостійно, дотримуйтеся посібника [Crosslink Feature Net](/guides/crosslink-feature-net). Щоб спостерігати за мережею, нічого не запускаючи, відкрийте вкладку Crosslink на [ZecHub Інструменти](https://zechub.wiki/tools?tool=crosslink).
 
@@ -143,7 +143,7 @@ Crosslink визнає фундаментальну роль майнерів Po
 
 ## Додаткові ресурси
 
-- Обговорення у спільноті: [Crosslink: стимульовані Feature Net на Zcashфорумі спільноти](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
+- Обговорення у спільноті: [Crosslink: стимульовані Feature Net на Zcash форумі спільноти](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
 - Офіційні оновлення: [Crosslink на Shielded Labs](https://shieldedlabs.net/crosslink/) та релізи [Feature Net](https://github.com/ShieldedLabs/crosslink_monolith/releases)
 - Довідник із дизайну: [Книга Crosslink](https://shieldedlabs.github.io/crosslink_book/)
 

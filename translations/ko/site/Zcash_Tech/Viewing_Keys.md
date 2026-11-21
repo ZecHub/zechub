@@ -139,7 +139,7 @@ Viewing Key는 권한 항목이 아니라 정보 조각입니다. 한 번 복사
 
 ### 시험 복호화: 보기 기능이 실제로 작동하는 방식
 
-모든 차폐 트랜잭션은 의도된 수신자에게 노트 평문을 암호화합니다. viewing key를 보유한 지갑은 **시도 복호화**를 수행합니다. 체인에서 찾은 각 트랜잭션에 대해 이 키로 노트 암호문을 복호화하려 시도합니다. 성공하면 노트의 가치, 수신자 diversifier 및 메모가 드러나며, 실패해도 비용은 들지 않습니다. यही 때문에 동일한 incoming viewing key는 Orchard 및 Ironwood 풀 전반에서 계속 작동합니다. [ZIP 326](https://zips.z.cash/zip-0326)은 수신자를 Orchard *protocol*에 한정하므로, Ironwood 노트 암호문은 Orchard 형태이며 Ironwood 노트 암호화 도메인에서 계정의 Orchard viewing key로 시도 복호화됩니다.
+모든 차폐 트랜잭션은 의도된 수신자에게 노트 평문을 암호화합니다. viewing key를 보유한 지갑은 **시도 복호화**를 수행합니다. 체인에서 찾은 각 트랜잭션에 대해 이 키로 노트 암호문을 복호화하려 시도합니다. 성공하면 노트의 가치, 수신자 diversifier 및 메모가 드러납니다. 실패해도 비용은 성공할 때와 거의 같은데, 비용이 큰 단계인 키 합의가 노트가 지갑의 것인지 알아내기 전에 수행되므로 지갑이 감시하는 키가 늘어날수록 스캔 비용도 커집니다([차폐 결제 감지](Detecting_Shielded_Payments.md) 참조). यही 때문에 동일한 incoming viewing key는 Orchard 및 Ironwood 풀 전반에서 계속 작동합니다. [ZIP 326](https://zips.z.cash/zip-0326)은 수신자를 Orchard *protocol*에 한정하므로, Ironwood 노트 암호문은 Orchard 형태이며 Ironwood 노트 암호화 도메인에서 계정의 Orchard viewing key로 시도 복호화됩니다.
 
 ### 전체 대 수신: 어떤 파생이 이를 결정하는가
 

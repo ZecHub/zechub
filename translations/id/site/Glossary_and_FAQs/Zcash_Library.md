@@ -31,11 +31,11 @@ Glosarium komprehensif mengenai istilah kunci, konsep, dan sumber daya yang terk
 | Istilah | Definisi |
 |------|-----------|
 | Canopy | Peningkatan Jaringan Utama ke-5 untuk Zcash. [Info Lebih Lanjut](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | Memungkinkan seorang committer untuk melakukan komitmen pada sebuah polinomial dengan string pendek yang dapat digunakan oleh verifier untuk mengonfirmasi klaim evaluasi dari polinomial yang dikomitmenkan tersebut. Berguna untuk mengurangi biaya komunikasi dalam protokol Zcash. |
+| Commitment Scheme | Memungkinkan committer membuat komitmen terhadap polinomial dengan string pendek yang dapat digunakan verifier untuk mengonfirmasi nilai evaluasi yang diklaim dari polinomial tersebut. Berguna untuk mengurangi biaya komunikasi dalam protokol Zcash. |
 | Community | [Forum Komunitas Resmi Zcash](https://forum.zcashcommunity.com) / [Zcash Komunitas Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Usulan desain konsensus hibrida yang akan menjalankan proof of stake berdampingan dengan proof of work Zcash yang sudah ada. Shielded Labs memimpin pekerjaan ini dan menyimpan prototipe di repositori `zebra-crosslink`. Crosslink saat ini bukan bagian dari Zcash. [Crosslinkprotokol](/zcash-tech/crosslink-protocol) |
-| CrossPay | Sebuah fitur dalam dompet ZODL yang memungkinkan Anda membelanjakan ZEC terlindungi sementara penerima dibayar dalam aset dan chain yang mereka pilih, diarahkan melalui NEAR Intents alih-alih exchange terpusat. |
-| Cypherpunk Zero | Sebuah Alam Semesta Kreatif dan upaya kolaboratif antara ECC, ilustrator Stranger Wolf, Mighty Jaxx, dan mitra ekosistem terpilih. [Sosial Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Koleksi](https://opensea.io/collection/cypherpunk-zero) |
+| Crosslink | Usulan desain konsensus hibrida yang akan menjalankan proof of stake berdampingan dengan proof of work Zcash yang sudah ada. Shielded Labs memimpin pekerjaan ini dan menjalankan jaringan uji, yaitu Feature Net, dari repositori `crosslink_monolith`. Repositori prototipe `zebra-crosslink` sebelumnya dihentikan pada November 2026. Crosslink saat ini bukan bagian dari Zcash. [Crosslink protokol](/zcash-tech/crosslink-protocol) |
+| CrossPay | Fitur dalam dompet ZODL yang memungkinkan Anda membelanjakan ZEC terlindungi sementara penerima dibayar dalam aset dan chain yang mereka pilih, dengan transaksi yang dirutekan melalui NEAR Intents alih-alih exchange terpusat. |
+| Cypherpunk Zero | Semesta kreatif dan upaya kolaboratif antara ECC, ilustrator Stranger Wolf, Mighty Jaxx, dan mitra ekosistem terpilih. [Sosial Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Koleksi](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

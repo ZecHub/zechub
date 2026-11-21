@@ -69,7 +69,7 @@ Maya Protocol برای تقویت عدم تمرکز، نقدینگی و حریم
 
 تعامل‌پذیری یک جزء حیاتی در توسعه DeFi است، زیرا به دارایی‌های یک بلاک‌چین مشخص امکان می‌دهد در یک اقتصاد دیجیتال میان‌شبکه‌ای مشارکت کنند. 
 
-بیشتر بدانید در: [آموزش پل ZenRock](https://docs.zenrocklabs.io/)
+بیشتر بدانید در: [آموزش پل ZenRock](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

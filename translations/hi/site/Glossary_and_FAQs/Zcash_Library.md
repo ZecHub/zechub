@@ -31,10 +31,10 @@ Zcash से जुड़े प्रमुख शब्दों, अवधा
 | शब्द | परिभाषा |
 |------|-----------|
 | Canopy | Zcash का 5वाँ प्रमुख नेटवर्क अपग्रेड। [अधिक जानकारी](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | एक कमिटर को एक छोटी स्ट्रिंग के माध्यम से किसी पॉलिनोमियल के प्रति कमिट करने की अनुमति देती है, जिसका उपयोग वेरिफ़ायर कमिट किए गए पॉलिनोमियल के दावा किए गए मूल्यांकनों की पुष्टि के लिए कर सकता है। Zcash प्रोटोकॉल में संचार लागत कम करने के लिए उपयोगी। |
+| Commitment Scheme | एक कमिटर को छोटी स्ट्रिंग के माध्यम से किसी पॉलिनोमियल के प्रति कमिट करने देती है। वेरिफ़ायर इस स्ट्रिंग का उपयोग कमिट किए गए पॉलिनोमियल के दावा किए गए मूल्यांकनों की पुष्टि करने के लिए कर सकता है। Zcash प्रोटोकॉल में संचार लागत कम करने के लिए उपयोगी। |
 | Community | [आधिकारिक Zcash कम्युनिटी फ़ोरम](https://forum.zcashcommunity.com) / [Zcash कम्युनिटी Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | एक प्रस्तावित हाइब्रिड कंसेंसस (consensus) डिज़ाइन, जो Zcash के मौजूदा प्रूफ ऑफ़ वर्क के साथ-साथ प्रूफ ऑफ़ स्टेक चलाएगा। Shielded Labs इस काम का नेतृत्व करता है और `zebra-crosslink` रिपॉज़िटरी में एक प्रोटोटाइप रखता है। Crosslink आज Zcash का हिस्सा नहीं है। [Crosslink प्रोटोकॉल](/zcash-tech/crosslink-protocol) |
-| CrossPay | ZODL वॉलेट की एक सुविधा, जो आपको शील्डेड ZEC खर्च करने देती है, जबकि प्राप्तकर्ता को उसकी पसंद के एसेट और चेन (chain) में भुगतान (payment) मिलता है। यह किसी सेंट्रलाइज़्ड एक्सचेंज (exchange) के बजाय NEAR Intents के माध्यम से रूट होता है। |
+| Crosslink | एक प्रस्तावित हाइब्रिड कंसेंसस डिज़ाइन, जिसमें Zcash के मौजूदा प्रूफ ऑफ़ वर्क के साथ प्रूफ ऑफ़ स्टेक भी चलेगा। Shielded Labs इस काम का नेतृत्व करता है और `crosslink_monolith` रिपॉज़िटरी से Feature Net टेस्ट नेटवर्क चलाता है। पहले की `zebra-crosslink` प्रोटोटाइप रिपॉज़िटरी नवंबर 2026 में बंद कर दी गई थी। Crosslink आज Zcash का हिस्सा नहीं है। [Crosslink प्रोटोकॉल](/zcash-tech/crosslink-protocol) |
+| CrossPay | ZODL वॉलेट की एक सुविधा, जो आपको शील्डेड ZEC खर्च करने देती है, जबकि प्राप्तकर्ता को उसकी पसंद के एसेट और चेन में भुगतान मिलता है। यह किसी केंद्रीकृत एक्सचेंज के बजाय NEAR Intents के माध्यम से रूट होता है। |
 | Cypherpunk Zero | ECC, इलस्ट्रेटर Stranger Wolf, Mighty Jaxx और चुनिंदा इकोसिस्टम पार्टनरों के बीच एक क्रिएटिव यूनिवर्स और सहयोगात्मक प्रयास। [Cypherpunk Zero सोशल](https://x.com/cypherpunkZero) / [OpenSea कलेक्शन](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D

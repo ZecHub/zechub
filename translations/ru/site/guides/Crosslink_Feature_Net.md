@@ -15,6 +15,8 @@
 
 *Проверено с Feature Net версии 14 на Windows 11 (версия 10.0.26200.9550), с 8 по 10 октября 2026 года. Программное обеспечение является прототипом и меняется с каждым выпуском. Если то, что вы видите, отличается от этой страницы, доверяйте результатам собственного запуска и, пожалуйста, откройте PR.*
 
+**Обновление от 17 ноября 2026 года: версия 14 больше не может подключаться к Feature Net.** [В версии 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 октября) обновление сети было активировано на высоте PoW 55 296. Начиная с [версии 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16), «каждая версия прекращает работу через две недели после выпуска», а Shielded Labs планирует выпускать новую версию каждую неделю. [В версии 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 ноября) ещё одно обновление сети было активировано на высоте PoW 165 000. Самый новый выпуск на момент написания этой заметки — [версия 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 ноября 2026 года): она не может взаимодействовать с узлами версии 17, включает обновление сети на блоке 189 000 и прекращает работу на блоке 212 568, примерно 30 ноября. Скачайте [последний выпуск](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest), а не версию 14. Описанные ниже шаги на нём повторно не проверялись. Известны два различия: изменились имена файлов, а RPC-метод для стейкинга теперь — `wallet_staking_action` (см. [Название RPC-метода, за которым стоит следить](#one-rpc-name-to-watch)).
+
 ## Что такое Feature Net
 
 Crosslink — это предложение, которое сегодня не является частью Zcash. В FAQ Shielded Labs [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) сказано, что перед попаданием в основную сеть оно «должно пройти стандартный процесс управления Zcash». На странице [Crosslink Protocol](/zcash-tech/crosslink-protocol) объясняется устройство проекта.
@@ -54,15 +56,15 @@ cTAZ («Crosslink TAZ») — тестовая монета Feature Net. Вы о�
 
 ## Перед началом
 
-- **Компьютер, который можно оставить включённым.** Выпуск содержит сборки для Windows, macOS, Ubuntu и Arch Linux. Это руководство выполнялось на Windows, на ПК с процессором Intel Core i5-8350U.
-- **День стейкинга.** Перед любыми планами проверьте, когда начнётся следующий. Панель [Staker Space](https://crosslink.staker.space/) ведёт обратный отсчёт до него.
-- **Больше ничего.** Не нужны ни ZEC, ни учётная запись, ни регистрация.
+- **Компьютер, который можно оставить включённым.** Для версии 14 сборки доступны для Windows, macOS, Ubuntu и Arch Linux. Для версий 17 и 18 сборки доступны для Windows, macOS и Ubuntu. Это руководство проверено на Windows, на ПК с процессором Intel Core i5-8350U.
+- **День стейкинга.** Прежде чем что-либо планировать, проверьте, когда начнётся следующий. На панели управления [Staker Space](https://crosslink.staker.space/) ведётся обратный отсчёт.
+- **Больше ничего.** Ни ZEC, ни аккаунта, ни регистрации.
 
 ## Шаг 1: Скачайте приложение и проверьте файл
 
-1. Откройте [выпуск версии 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) и прокрутите до раздела **Assets**.
-2. Скачайте файл для своей системы. В Windows это `zebrad_v14_win32.exe`.
-3. Сравните SHA-256 файла с дайджестом, который GitHub показывает рядом с этим ресурсом.
+1. Откройте [последний выпуск](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) и прокрутите страницу до раздела **Assets**. В этом руководстве использовался [выпуск версии 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), который больше не может подключаться к сети.
+2. Скачайте файл для своей системы. В Windows его имя заканчивается на `_win32.exe`: `zebrad_v14_win32.exe` в примере ниже, `zebra-crosslink_v18_win32.exe` для версии 18. В дальнейших командах укажите имя и контрольную сумму своего файла.
+3. Сравните SHA-256 файла с контрольной суммой, которую GitHub показывает рядом с этим файлом.
 
 В Windows, в PowerShell:
 
@@ -397,6 +399,8 @@ http://127.0.0.1:8232
 ```
 
 Зарегистрированный метод стейкинга — [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420); он принимает одну строку с запросом в формате JSON, где финализатор задан своим идентификатором `zfinv1` ([источник](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Для этого руководства он не проверялся.
+
+**Изменено после версии 14.** Начиная с версии 15 узел регистрирует `wallet_staking_action` и больше не имеет `staking_command` ([исходный код версии 18](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Он принимает один объект ровно одной из четырёх форм: `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` или `WithdrawDelegationBond`, а финализатор задаётся в виде 64-символьного шестнадцатеричного ключа ([примечания к выпуску версии 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). Начиная с блока 189 000, в каждом действии стейкинга также указывается текущая версия облигации, поэтому действие, созданное для устаревшей версии облигации, отклоняется, а кошельки должны работать на версии 18 ([примечания к выпуску версии 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). Для этого руководства это тоже не проверяли.
 
 ## Снимите средства со стейкинга и выведите их
 

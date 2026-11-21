@@ -28,7 +28,7 @@ NU7是一项 Zcash [网络升级](../start-here/network-upgrades)，由 [ZIP 259
 
 把链想象成一条铁路。NU7之前，每 75 秒发出一班列车，载客量上限是 2 MB。NU7每 25 秒发出一班列车，每位司机拿到的报酬是原来的三分之一，因此每日总额保持不变；同时，它限制每班列车可搭载的最重乘客（屏蔽操作）数量，避免任何一班列车的检查耗时过长。
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7分为四个面板：区块速度提高到原来的三倍，每日新增ZEC数量保持不变；60%的手续费进入公共储备金，用于发放2031年起的奖励；2016年的旧Sprout池已无法再支出；98.9%的投票ZEC选择保留减半机制](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7的变化
 
@@ -57,10 +57,10 @@ NU7是一项 Zcash [网络升级](../start-here/network-upgrades)，由 [ZIP 259
 ### 网络可持续性机制（ZIP 235 + ZIP 237）
 
 - **移除手续费（ZIP 235）：**每个区块的交易手续费有 60% 被移出流通；其余 40% 仍像以前一样归矿工所有。与销毁不同，被移除的ZEC会被记录下来，以便之后重新发行。
-- **重新发行（ZIP 237）：**被移除的ZEC保存在称为 NSM Value Balance 的公开共识状态中。它在 NU7 时以矿工过去未领取的 368.58 ZEC 作为初始余额。从区块 **8,939,664** 开始（预计约在 2031 年 2 月），每个区块都会在正常减半计划之外，按固定比例发放该余额。
+- **重新发行（ZIP 237）：**被移除的ZEC保存在称为 NSM Value Balance 的公开共识状态中。它在 NU7 时以矿工过去未领取的价值作为初始余额。从区块 **8,939,664** 开始（预计约在 2031 年 2 月），每个区块都会在正常减半计划之外，按固定比例发放该余额。
 - 供应上限不会提高。余额归零时，发行量将完全遵循原有减半计划。
 - NU7没有部署 [ZIP 233](https://zips.z.cash/zip-0233)（由用户自愿移除）或 [ZIP 234](https://zips.z.cash/zip-0234)（用平滑曲线取代减半）。持币者投票在 ZIP 237 中选择了保留减半的设计。
-- 有关手续费移除和重新发行的详情，请参阅 [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
+- 数值（368.58 ZEC的初始余额、每个区块的重新发行比例，以及为何从区块 8,939,664 开始）详见 [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) 页面。
 
 ### 禁止版本 4 交易（ZIP 2003）
 
@@ -150,8 +150,8 @@ NU7是一项 Zcash [网络升级](../start-here/network-upgrades)，由 [ZIP 259
 | 页面 | 关联原因 |
 |---|---|
 | [Ironwood](./Ironwood.md) | 系列中的上一次升级，引入了 v6 交易 |
-| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | 手续费移除和重新发行的详情 |
 | [25 秒区块究竟改变了什么](../research/what-25-second-blocks-actually-change) | 深入了解更快的区块时间 |
+| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | 手续费移除和重新发行 NU7 激活后的运作方式及相关数据 |
 | [Sprout](./Sprout.md) | NU7停用的 pool |
 | [资金找回](../using-zcash/recovering-funds) | Sprout冻结对旧资金意味着什么 |
 | [交易](../using-zcash/transactions) | NU7之后的过期时间和确认数 |

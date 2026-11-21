@@ -15,6 +15,8 @@
 
 *于 2026 年 10 月 8 日至 10 日，在 Windows 11（版本 10.0.26200.9550）上使用 Feature Net 版本 14 测试。该软件为原型，每次发布都会变化。如果你看到的内容与此页面不同，请以你自己的运行结果为准，并请提交 PR。*
 
+**更新，2026年11月17日：版本14已无法加入 Feature Net。** [版本15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)（10月13日）在 PoW 高度 55,296 进行了网络升级。从 [版本16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) 开始，“每个版本在发布两周后停止运行”，而 Shielded Labs 计划每周发布一个版本。[版本17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17)（11月5日）在 PoW 高度 165,000 进行了另一次升级。撰写此说明时的最新版本是 [版本18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)（2026年11月17日）：它无法与版本17节点通信，在区块 189,000 进行网络升级，并在区块 212,568 停止运行，约为11月30日。请下载[最新版本](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)，不要下载版本14。以下步骤尚未在该版本上重新运行。已知有两处差异：文件名已更改，质押 RPC 现在是 `wallet_staking_action`（参见[需要留意的一个 RPC 名称](#one-rpc-name-to-watch)）。
+
 ## Feature Net 是什么
 
 Crosslink 是一项提案，目前并非 Zcash 的一部分。Shielded Labs 的 [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) 表示，它在进入主网前"需要经过标准的 Zcash 治理 [governance] 流程"。[Crosslink Protocol](/zcash-tech/crosslink-protocol) 页面解释了该设计。
@@ -54,15 +56,15 @@ cTAZ（"Crosslink TAZ"）是 Feature Net 的测试币。你质押的是 cTAZ，�
 
 ## 开始前
 
-- **一台可保持运行的电脑。** 该版本提供适用于 Windows、macOS、Ubuntu 和 Arch Linux 的构建版本。本指南在 Windows 上运行，电脑配备 Intel Core i5-8350U 处理器。
-- **一个质押日。** 在计划任何操作前，先查看下一次开放的时间。[Staker Space 的仪表板](https://crosslink.staker.space/) 会显示倒计时。
-- **无需其他内容。** 不需要 ZEC、账户或注册。
+- **一台可以一直开着的电脑。** 14 版提供适用于 Windows、macOS、Ubuntu 和 Arch Linux 的构建版本。17 和 18 版提供适用于 Windows、macOS 和 Ubuntu 的构建版本。本指南在 Windows 上运行，使用的电脑配备 Intel Core i5-8350U 处理器。
+- **一个质押日。** 计划任何事情之前，先查看下一次开放的时间。[Staker Space 的仪表板](https://crosslink.staker.space/)会倒计时。
+- **无需其他条件。** 不需要 ZEC，不需要账户，也不需要注册。
 
 ## 第 1 步：下载应用并检查文件
 
-1. 打开 [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)，并滚动至 **Assets**。
-2. 下载适用于你系统的文件。在 Windows 上，该文件是 `zebrad_v14_win32.exe`。
-3. 将文件的 SHA-256 与 GitHub 在该资产旁显示的摘要进行比对。
+1. 打开 [最新发布版本](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)，然后滚动到 **Assets**。本指南使用的是 [版本 14 发布版本](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)，该版本已无法加入网络。
+2. 下载适用于你系统的文件。在 Windows 上，文件名以 `_win32.exe` 结尾：以下操作中使用的是 `zebrad_v14_win32.exe`，版本 18 则使用 `zebra-crosslink_v18_win32.exe`。在后续命令中使用你自己的文件名和摘要。
+3. 将文件的 SHA-256 值与 GitHub 在对应资源旁显示的摘要进行比较。
 
 在 Windows 上，于 PowerShell 中：
 
@@ -397,6 +399,8 @@ http://127.0.0.1:8232
 ```
 
 它注册的质押方法是 [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420)，它接受一个以 JSON 形式保存请求的字符串，其中 finalizer 由其 `zfinv1` 身份指定（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)）。本指南未尝试该方法。
+
+**14 版之后发生了变化。**从 15 版开始，节点会注册 `wallet_staking_action`，并且不再有 `staking_command`（[version 18 source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)）。它接受一个且仅有以下 4 种形状之一的对象：`CreateNewDelegationBond`、`RetargetDelegationBond`、`BeginDelegationUnbonding`或 `WithdrawDelegationBond`；finalizer 则以 64 个字符的十六进制密钥形式给出（[version 15 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)）。从区块 189,000 开始，每个质押操作还会注明 bond 的当前版本，因此针对过期 bond 构建的操作会被拒绝，钱包必须运行 18 版（[version 18 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)）。本指南也没有对此进行尝试。
 
 ## 解除质押并提取
 

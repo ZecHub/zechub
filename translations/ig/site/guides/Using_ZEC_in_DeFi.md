@@ -69,7 +69,7 @@ N'ihe gbasara Zcash, teknụzụ bridge dịka ZenRock na-eme ka akụ ZEC jik�
 
 Interoperability bụ akụkụ dị oke mkpa n'ịzụlite DeFi n'ihi na ọ na-ekwe ka akụ sitere n'otu blockchain sonye na akụnụba dijitalụ cross-network. 
 
-Mụtakwuo na : [ZenRock Bridge Mụta](https://docs.zenrocklabs.io/)
+Mụtakwuo na : [ZenRock Bridge Mụta](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

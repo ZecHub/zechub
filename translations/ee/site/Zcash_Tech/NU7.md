@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU7.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Page Ŋutɔŋutɔ"/>
 </a>
 
 # NU7
@@ -28,7 +28,7 @@ Le nyagblɔɖi bɔbɔe me: gaƒuƒowo vaa le sekɔnd 25 siaa, ZEC yeye siwo tsɔ
 
 Bu ɖoɖonu la abe trɛn ƒe mɔ ene. Le NU7 ŋgɔ la, trɛn dzea mɔ le sekɔnd 75 siaa, eye ate ŋu atsɔ amewo siwo ate ŋu ade 2 MB me. NU7 ɖea trɛn ɖe mɔ dzi le sekɔnd 25 siaa, dea fetu na trɛn ƒe dɔwɔla siaa abe tsã ƒe fetu ƒe afã etɔ̃ me ene be dɔgbeba ƒe nu wòatsɔ esime xoxo, eye wòtsɔ se aɖe de eme ɖe ame siwo nye dzidzedze kpekpe (ɣaɣla dɔwɔwɔ) si ate ŋu akɔ trɛn ɖeka me ŋu, ale be trɛn aɖeke mate ŋu anɔ ŋuɖoɖo te sesẽ wu o.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 le ɖe akpa ene me: gaɖoɖowo ƒuƒoƒeawo wɔa dɔ zi etɔ̃ sesẽ, eye ZEC yeyewo siwo doa ɖe ŋkeke sia ŋkeke me menɔa asi o; adzɔwo ƒe 60% doa ge ɖe ga si le ame sia ame ƒe asi me, eye wòana fetuwo tso 2031; Sprout gaƒuƒoƒo xoxo si tso 2016 me la, womate ŋu asɔ dɔ le edzi o; ZEC siwo wotsɔ 98.9% vote na la tia be yewoaɖu fetu ƒe afãmama dzi](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Nu siwo NU7 trɔ
 
@@ -56,11 +56,11 @@ Le NU7 ŋgɔ la, gaƒuƒoƒo 2 MB blibo ate ŋu akpe abe Orchard 617 ene alo Iro
 
 ### Mɔ̃ ƒe Dedie Ŋuɖoɖo Mɔ̃ (ZIP 235 + ZIP 237)
 
-- **Adzɔ ɖeɖe (ZIP 235):** transaction ƒe adzɔ 60% le gaƒuƒoƒo ɖeka me tsoa dzodzo me; 40% si susɔ la yi nukula gbɔ abe tsã ene. Le burn ƒe nɔnɔme me o la, ZEC si wotsɔ ɖe dzodzo me la le xexlẽme me be woate ŋu agbugbɔe ade eme le etsɔ.
-- **Gbugbɔɖeɖe (ZIP 237):** ZEC si wotsɔ ɖe dzodzo me la le mɔ̃ ƒe consensus state si nye amewo katã ƒe si woyɔna be NSM Value Balance me. Woɖe eƒe gɔmeɖeɖe ɖe NU7 me (368.58 ZEC) kple xɔxɔ si nukulawo ɖe ɖoɖi le tsã me. Tso gaƒuƒoƒo **8,939,664** (woɖo ŋu be around February 2031) me, gaƒuƒoƒo sia sia ɖea balance la ƒe akpa ɖoɖo aɖe kpe ɖe halving ƒe ɖoɖo dzi.
+- **Adzɔ ɖeɖe (ZIP 235):** Gaɖoɖo ƒe adzɔ 60% le gaƒuƒoƒo ɖeka me tsoa dzodzo me; 40% si susɔ la yi nukula gbɔ abe tsã ene. Le burn ƒe nɔnɔme me o la, ZEC si wotsɔ ɖe dzodzo me la le xexlẽme me be woate ŋu agbugbɔe ade eme le etsɔ.
+- **Gbugbɔɖeɖe (ZIP 237):** ZEC si wotsɔ ɖe dzodzo me la le mɔ̃ ƒe consensus state si nye amewo katã ƒe si woyɔna be NSM Value Balance me. Woɖe eƒe gɔmeɖeɖe ɖe NU7 me kple xɔxɔ si nukulawo ɖe ɖoɖi le tsã me. Tso gaƒuƒoƒo **8,939,664** (woɖo ŋu be February 2031 ŋu) me, gaƒuƒoƒo sia sia ɖea balance la ƒe akpa ɖoɖo aɖe kpe ɖe halving ƒe ɖoɖo dzi.
 - Supply ƒe gɔmeɖeɖe meɖe ɖe dzi o. Ne balance la meɖe eme ɖo la, ɖoɖoɖe la sɔ tsã ƒe halving ƒe ɖoɖo.
 - NU7 meɖe [ZIP 233](https://zips.z.cash/zip-0233) (ameawo ƒe ɖeɖe si womeɖo se ɖe eme o) alo [ZIP 234](https://zips.z.cash/zip-0234) (tsɔ halvingwo ɖeɖe ɖo, eye wòtsɔ curve si yɔna ɖe dzi ɖo). Coinholder ƒe pollwo tia halving si le edzi le ZIP 237 me.
-- Dzesiwo kple xexlẽmeawo le axa [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md).
+- Xexlẽmeawo (368.58 ZEC, akpa si wotsɔna gbugbɔ ɖe gaƒuƒoƒo sia sia me, eye nu si tae wòwɔna tso gaƒuƒoƒo 8,939,664 me) le [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) axa dzi.
 
 ### Version 4 gaɖoɖowo womeɖe mɔ na wò o (ZIP 2003)
 
@@ -149,11 +149,11 @@ Le NU7 ŋgɔ la, gaƒuƒoƒo 2 MB blibo ate ŋu akpe abe Orchard 617 ene alo Iro
 
 | Axa | Nu ka ta wòdo ƒome |
 |---|---|
-| [Ironwood](./Ironwood.md) | mɔ̃ ƒe sewo trɔtrɔ si va tsã le series la me, si de v6 transactions ɖe eme |
-| [Network Sustainability Mechanism](./Network_Sustainability_Mechanism.md) | Fee ɖeɖe kple gbugbɔɖeɖe ƒe dzesiwo |
-| [Gaƒuƒowo sekɔnd 25 ƒe Trɔtrɔ Vavã](../research/what-25-second-blocks-actually-change) | gãmeɖeɖe le gaƒuƒowo ƒe ɣeyiɣi bɔbɔ wu ŋu |
+| [Ironwood](./Ironwood.md) | mɔ̃ ƒe sewo trɔtrɔ si va tsã le series la me, si de v6 gaɖoɖowo ɖe eme |
+| [Gaƒuƒowo ƒe sekɔnd 25 ƒe Trɔtrɔ Vavã](../research/what-25-second-blocks-actually-change) | gãmeɖeɖe le gaƒuƒowo ƒe ɣeyiɣi bɔbɔ wu ŋu |
+| [Mɔ̃ ƒe Nɔnɔme Ɖoɖo Ƒe Mɔ](./Network_Sustainability_Mechanism.md) | ale si adzɔ ƒe ɖeɖe kple agbagbaɖoɖo gbugbɔwɔwɔ NU7 siwo wòwɔ dɔ la nye, kple xexlẽdzesiwo |
 | [Sprout](./Sprout.md) | gaƒuƒoƒo si NU7 ɖe xexlẽme |
-| [Nuwo Xɔxɔ Gbɔ](../using-zcash/recovering-funds) | nu si Sprout ƒe freeze fia na nu xoxo |
+| [Gaɖoɖowo ƒe Gbugbɔxɔxɔ](../using-zcash/recovering-funds) | nu si Sprout ƒe freeze fia na nu xoxo |
 | [Gaɖoɖowo](../using-zcash/transactions) | expiry kple edziɖoɖo le NU7 megbe |
 
 ---
