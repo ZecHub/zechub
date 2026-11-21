@@ -33,7 +33,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Canopy | Zcash의 다섯 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | 커미터가 짧은 문자열로 다항식에 커밋할 수 있게 하며, 검증자는 이를 사용해 커밋된 다항식의 주장된 평가값을 확인할 수 있습니다. Zcash 프로토콜의 통신 비용을 줄이는 데 유용합니다. |
 | Community | [공식 Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com) / [Zcash 커뮤니티 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Zcash의 기존 작업증명과 함께 지분증명을 운영하는 하이브리드 합의 설계 제안입니다. Shielded Labs가 이 작업을 주도하며, `zebra-crosslink` 저장소에 프로토타입을 유지하고 있습니다. Crosslink는 현재 Zcash의 일부가 아닙니다. [Crosslink 프로토콜](/zcash-tech/crosslink-protocol) |
+| Crosslink | Zcash의 기존 작업증명과 함께 지분증명을 운영하는 하이브리드 합의 설계 제안입니다. Shielded Labs가 이 작업을 주도하며, `crosslink_monolith` 저장소에서 테스트 네트워크인 Feature Net를 운영합니다. 이전 `zebra-crosslink` 프로토타입 저장소는 2026년 11월에 폐기되었습니다. Crosslink는 현재 Zcash의 일부가 아닙니다. [Crosslink 프로토콜](/zcash-tech/crosslink-protocol) |
 | CrossPay | ZODL 지갑의 기능으로, 중앙화 거래소를 거치지 않고 NEAR Intents를 통해 라우팅되어 수신자가 선호하는 자산과 체인으로 지급받는 동안 사용자는 shielded ZEC를 사용할 수 있게 해줍니다. |
 | Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 소셜](https://x.com/cypherpunkZero) / [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
 

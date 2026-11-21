@@ -31,9 +31,9 @@ Zcashに関連する主要な用語、概念、リソースを網羅した用語
 | 用語 | 定義 |
 |------|-----------|
 | Canopy | Zcashの第5回主要ネットワークアップグレードです。[詳細情報](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | コミッターが短い文字列を用いて多項式にコミットし、検証者がその文字列を使用してコミットされた多項式の主張された評価値を確認できるようにします。Zcashプロトコルにおける通信コストの削減に役立ちます。 |
+| Commitment Scheme | コミッターが短い文字列を用いて多項式にコミットし、検証者がその文字列を使ってコミットされた多項式の主張された評価値を確認できるようにします。Zcashプロトコルにおける通信コストの削減に役立ちます。 |
 | Community | [公式Zcashコミュニティフォーラム](https://forum.zcashcommunity.com) / [Zcash コミュニティ Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | proof of stakeをZcashの既存のproof of workと並行して実行する、提案されたハイブリッドコンセンサス設計です。Shielded Labsがこの作業を主導し、`zebra-crosslink`リポジトリでプロトタイプを維持しています。Crosslinkは現在Zcashの一部ではありません。[Crosslinkプロトコル](/zcash-tech/crosslink-protocol) |
+| Crosslink | proof of stakeをZcashの既存のproof of workと並行して実行する、提案されたハイブリッドコンセンサス設計です。Shielded Labsが取り組みを主導し、`crosslink_monolith`リポジトリからテストネットであるFeature Netを運用しています。以前の`zebra-crosslink`プロトタイプリポジトリは2026年11月に廃止されました。Crosslinkは現在Zcashの一部ではありません。[Crosslinkプロトコル](/zcash-tech/crosslink-protocol) |
 | CrossPay | ZODLウォレットの機能で、シールドされたZECを支出しながら、受取人が希望する資産とチェーンで支払いを受けられるようにします。中央集権型取引所ではなくNEAR Intentsを経由します。 |
 | Cypherpunk Zero | ECC、イラストレーターのStranger Wolf、Mighty Jaxx、および選ばれたエコシステムパートナーによるクリエイティブユニバースおよび協働プロジェクトです。[Cypherpunk Zero ソーシャル](https://x.com/cypherpunkZero) / [OpenSea コレクション](https://opensea.io/collection/cypherpunk-zero) |
 

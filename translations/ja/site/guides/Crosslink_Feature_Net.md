@@ -15,6 +15,8 @@
 
 *Feature Netバージョン14をWindows 11（バージョン10.0.26200.9550）で使用し、2026年10月8日から10日にテストしました。このソフトウェアはプロトタイプであり、リリースごとに変更されます。表示内容がこのページと異なる場合は、ご自身の実行結果を信頼し、PRを作成してください。*
 
+**更新、2026年11月17日：バージョン14ではFeature Netに参加できなくなりました。** [バージョン15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)（10月13日）では、PoW高が55,296に達した時点でネットワークアップグレードが行われました。[バージョン16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16)からは、「各バージョンはリリースから2週間後に動作を停止」し、Shielded Labsは毎週リリースを予定しています。[バージョン17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17)（11月5日）では、PoW高が165,000に達した時点で再びアップグレードが行われました。このノートの執筆時点での最新リリースは[バージョン18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)（2026年11月17日）です。バージョン17のノードとは通信できず、ブロック高189,000でネットワークアップグレードが行われ、ブロック高212,568（11月30日ごろ）で動作を停止します。バージョン14ではなく、[最新リリース](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)をダウンロードしてください。以下の手順はこのバージョンでは再実行していません。既知の違いは2つあります。ファイル名が変更されていることと、ステーキングRPCが現在`wallet_staking_action`であることです（[確認すべきRPC名](#one-rpc-name-to-watch)を参照してください）。
+
 ## Feature Netとは
 
 Crosslinkは提案であり、現時点ではZcashの一部ではありません。Shielded Labsの[Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)には、メインネットに到達する前に「標準のZcashガバナンス（governance）プロセスを通過する必要がある」と記されています。[のCrosslink Protocol](/zcash-tech/crosslink-protocol)ページでは設計を説明しています。
@@ -54,15 +56,15 @@ cTAZ（「Crosslink TAZ」）は、Feature Netのテストコインです。ス�
 
 ## 始める前に
 
-- **稼働させたままにできるコンピューター。** リリースにはWindows、macOS、Ubuntu、Arch Linux向けのビルドがあります。このガイドは、Intel Core i5-8350Uプロセッサーを搭載したPCのWindowsで実行しました。
-- **ステーキングデイ。** 何かを計画する前に、次回の開始時刻を確認してください。[Staker Space's dashboard](https://crosslink.staker.space/)でカウントダウンを確認できます。
-- **それ以外は不要です。** ZECも、アカウントも、登録も不要です。
+- **稼働し続けられるコンピューター。** バージョン14には、Windows、macOS、Ubuntu、Arch Linux向けのビルドがあります。バージョン17と18には、Windows、macOS、Ubuntu向けのビルドがあります。このガイドはWindowsで、Intel Core i5-8350Uプロセッサーを搭載したPCを使って実行しました。
+- **ステーキングデー。** 何かを計画する前に、次回の開催日を確認してください。[Staker Spaceのダッシュボード](https://crosslink.staker.space/)で、開催までのカウントダウンを確認できます。
+- **それ以外は何も必要ありません。** ZECもアカウントも登録も必要ありません。
 
 ## ステップ1：アプリをダウンロードしてファイルを確認する
 
-1. [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)を開き、**Assets**までスクロールします。
-2. お使いのシステム向けのファイルをダウンロードします。Windowsでは`zebrad_v14_win32.exe`です。
-3. ファイルのSHA-256を、GitHubがそのアセットの横に表示するダイジェストと比較します。
+1. [最新リリース](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)を開き、**Assets**までスクロールします。このガイドでは[バージョン14のリリース](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)を使いましたが、このバージョンではネットワークに参加できなくなっています。
+2. お使いのシステム用のファイルをダウンロードします。Windowsでは、ファイル名は`_win32.exe`で終わります。以下の実行例では`zebrad_v14_win32.exe`、バージョン18では`zebra-crosslink_v18_win32.exe`です。以降のコマンドでは、お使いのファイル名とダイジェストを使用してください。
+3. ファイルのSHA-256を、GitHubがそのアセットの横に表示しているダイジェストと照合します。
 
 Windowsでは、PowerShellで次を実行します。
 
@@ -397,6 +399,8 @@ Linuxでは、リリースノートにより、アプリでコピー＆ペース
 ```
 
 登録されているステーキングメソッドは[`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420)です。これはリクエストをJSONとして保持する1つの文字列を受け取り、ファイナライザーは`zfinv1`アイデンティティで指定します（[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)）。本ガイドでは試していません。
+
+**バージョン14以降の変更点。** バージョン15以降、ノードは`wallet_staking_action`を登録し、`staking_command`はなくなりました（[バージョン18のソース](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)）。4つの形式のうちいずれか1つだけを持つオブジェクトを1つ指定します。形式は`CreateNewDelegationBond`、`RetargetDelegationBond`、`BeginDelegationUnbonding`、`WithdrawDelegationBond`です。また、ファイナライザーは64文字の16進数キーで指定します（[バージョン15のリリースノート](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)）。ブロック189,000以降は、各ステーキング操作でボンドの現在のバージョンも指定するため、古いバージョンのボンドを基に作成された操作は拒否され、ウォレットはバージョン18を実行する必要があります（[バージョン18のリリースノート](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)）。このガイドでも試していません。
 
 ## アンステークと引き出し
 

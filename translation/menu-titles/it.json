@@ -1,7 +1,7 @@
 {
   "Glossary_and_FAQs/FAQ.md": "Domande frequenti",
   "Glossary_and_FAQs/Gallery.md": "Zcash Galleria di sfondi",
-  "Glossary_and_FAQs/Zcash_Library.md": "Biblioteca di Zcash",
+  "Glossary_and_FAQs/Zcash_Library.md": "Zcash Libreria",
   "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": "Guida del builder per l'hackathon di ZecHub",
   "Privacy_Tools/2FA_Hardware_Devices.md": "Dispositivi hardware 2FA",
   "Privacy_Tools/Arti_Tor.md": "Arti: il client Tor di nuova generazione in Rust",
@@ -118,6 +118,7 @@
   "Zcash_Tech/Blossom.md": "Blossom",
   "Zcash_Tech/Canopy.md": "Canopy",
   "Zcash_Tech/Crosslink_Protocol.md": "Protocollo Crosslink",
+  "Zcash_Tech/Detecting_Shielded_Payments.md": "Rilevare i pagamenti schermati: quanto costa la scansione",
   "Zcash_Tech/FROST.md": "FROST",
   "Zcash_Tech/FROST_Threshold_Custody.md": "FROST e custodia a soglia per ZEC schermato",
   "Zcash_Tech/Full_Nodes.md": "Full node (nodo completo)",

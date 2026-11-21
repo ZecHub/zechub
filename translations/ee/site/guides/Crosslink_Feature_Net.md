@@ -15,6 +15,8 @@
 
 *Wodoe kpɔ kple Feature Net version 14 le Windows 11 (version 10.0.26200.9550) dzi, tso 8 va 10 October 2026. Software la nye dodokpɔnu eye wotrɔe le release sia release sia me. Ne nusi nèkpɔ to vovo tso axa sia ŋu la, xɔ wò ŋutɔ ƒe dodokpɔ dzi eye mèlekuku ɖe PR ŋu.*
 
+**Nudzraɖoɖo, 17 November 2026: version 14 mate ŋu akpe ɖe Feature Net o.** [Version 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 October) wɔ mɔ̃ ƒe sewo trɔtrɔ le PoW ƒe ŋkeke 55,296. Esia tso [version 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) me, "version ɖesiaɖe dzea dɔwɔwɔ nu ŋkeke eve megbe ne wotu e," eye Shielded Labs ɖoɖo be wòatu version yeye ɖesiaɖe le kwasiɖa ɖesiaɖe me. [Version 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 November) wɔ mɔ̃ ƒe sewo trɔtrɔ bubu le PoW ƒe ŋkeke 165,000. Ɖoɖo yeye si le eme esime ŋlɔ nusiae nye [version 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 November 2026): mate ŋu wɔ dzeɖoɖo kple version 17 ɣaɣla dzesi ŋɔŋlɔwo o, wɔ mɔ̃ ƒe sewo trɔtrɔ le gaɖoɖowo ƒuƒoƒe 189,000, eye wòadze dɔwɔwɔ nu le gaɖoɖowo ƒuƒoƒe 212,568, si nye ƒe 30 November gbɔ. Ɖe [release yeye si wòle fifia la](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest), menye version 14 o. Womegate ŋu ate azɔla siwo le teƒe la kpɔe le esia me o. Nɔnɔme eve siwo wònya: faɛl ŋkɔwo trɔ, eye staking RPC la azɔ nye `wallet_staking_action` (kpɔ [RPC ŋkɔ ɖeka si wòle be nàkpɔ](#one-rpc-name-to-watch)).
+
 ## Nusi Feature Net nye
 
 Crosslink nye ɖoɖo, menye akpa si le Zcash me egbe o. Shielded Labs ƒe [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) gblɔ be "ele be wòato dzɔdzɔme ƒe Zcash dziɖuɖu [governance] mɔ nu" hafi wòate ŋu ava mainnet dzi. [Crosslink Protocol](/zcash-tech/crosslink-protocol) axa la ɖe ɖoɖo la ƒe nɔnɔ fia.
@@ -54,15 +56,15 @@ ZEC vavã va le nuwuwu ko. Shielded Labs de [500 ZEC](https://shieldedlabs.net/c
 
 ## Hafi nàdze egɔme
 
-- **Kɔmpiuta si nàte ŋu aɖe le dɔ wɔm.** Release la ƒe builds le Windows, macOS, Ubuntu kple Arch Linux ta. Wodzo mɔfiame sia me le Windows dzi, le PC si me Intel Core i5-8350U processor le.
-- **Staking Day.** Kpɔ ɣeyiɣi si esia ava ʋu me hafi nàɖo nu aɖeke ɖi. [Staker Space ƒe ɖoɖowo ƒuƒopé dashboard](https://crosslink.staker.space/) le xexlẽm ɣeyiɣi si susɔ ɖe eŋu.
-- **Naneke bubu o.** ZEC aɖeke menye, account aɖeke menye, eye womebia be nàŋlɔ ɖe eŋu o.
+- **Kɔmpiuta si wòate ŋu aɖe mɔe wòatsi dɔ wɔm.** Version 14 wɔ nu siwo wòate ŋu aɖe ɖe Windows, macOS, Ubuntu kple Arch Linux dzi. Versions 17 kple 18 wɔ nu siwo wòate ŋu aɖe ɖe Windows, macOS kple Ubuntu dzi. Wɔwɔ mɔfiafia sia ɖe Windows dzi, le PC si si Intel Core i5-8350U processor le.
+- **Staking ƒe ŋkeke.** Kpɔ ɣe ka ŋu wòatoa dɔ yɔyɔ la do ŋgɔ nàɖo ɖoɖo aɖeke. [Staker Space ƒe ɖoɖowo ƒuƒopé](https://crosslink.staker.space/) ɖea ŋkeke kple ɣeyiɣi siwo susɔ la fiam.
+- **Naneke bubu mele eme o.** ZEC mele eme o, akawnt mele eme o, eye ŋkɔ ŋlɔɖe mele eme o.
 
 ## Afɔ 1: Ɖe app la eye nàkpɔ file la
 
-1. Ʋu [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) eye nàɖi ɖe **Assets**.
-2. Ɖe file si le wò system ta. Le Windows dzi la, esia nye `zebrad_v14_win32.exe`.
-3. Sɔ file la ƒe SHA-256 kple digest si GitHub fia le asset ma ŋu.
+1. Ɛle [latest release](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) eye dzo va **Assets**. Woɖe mɔ̃fiagbe sia wɔ kple [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), si meɖe asi le mɔ̃a dzi o azɔ.
+2. Ɖe fail si wɔ ɖe wò mɔ̃ ŋu. Le Windows dzi la, ewuwu kple `_win32.exe`: `zebrad_v14_win32.exe` le dɔwɔwɔ si gbɔna me, `zebra-crosslink_v18_win32.exe` hena version 18. Zã wò fail ŋkɔ kple digest le ɖoɖo siwo gbɔna me.
+3. Sɔ fail ƒe SHA-256 ɖe digest si GitHub ɖe eƒe asset gbɔ la ŋu.
 
 Le Windows dzi, le PowerShell me:
 
@@ -397,6 +399,8 @@ Version 14 ƒe release notes gblɔ ga ƒuƒoƒo ƒe yɔyɔ aɖe si woyɔna be `w
 ```
 
 Ga ƒuƒoƒo ƒe method si wòregister nye [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), si xɔ string ɖeka si me request la le JSON me, eye woɖe nuwuwu dɔwɔla la fia kple eƒe `zfinv1` identity ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Womekpe ɖe edzi na mɔfia sia o.
+
+**Trɔtrɔ si wɔ le version 14 megbe.** Tso version 15 dzi la, ɣaɣla dzesi ŋɔŋlɔ la ŋlɔa `wallet_staking_action` eye megakpɔa `staking_command` o ([version 18 source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Eya xɔa nuɖeka si le ɖoɖo vovovowo 4 ƒe ɖeka ko me, `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` alo `WithdrawDelegationBond`, eye nuwuwu dɔwɔla la xɔa 64-character hex key ([version 15 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). Tso gaɖoɖowo ƒuƒoƒe 189,000 dzi la, ga ƒuƒoƒo dɔwɔwɔ ɖe sia ɖe hã ŋɔŋlɔa bond la ƒe version si le fifia, ale be wogbea dɔwɔwɔ si wòwɔ kple bond si megatrɔ ɖoɖo o, eye gakotokuwo ele be woawɔ dɔ kple version 18 ([version 18 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). Womekpɔe le agbalẽ sia hã me o.
 
 ## Ɖe le ga ƒuƒoƒo me eye nàxɔe
 

@@ -31,11 +31,11 @@
 | 术语 | 定义 |
 |------|-----------|
 | Canopy | Zcash 的第 5 次重大网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | 允许提交者使用一个短字符串对多项式进行 commitment，验证者可用它确认所提交多项式的声称求值。可用于降低 Zcash 协议中的通信成本。 |
+| Commitment Scheme | 允许提交者用一个短字符串对多项式进行 commitment，验证者可用它确认所提交多项式的声称求值。可用于降低 Zcash 协议中的通信成本。 |
 | Community | [官方 Zcash 社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash 研发 Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | 一种提议的混合共识设计，将在 Zcash 现有工作量证明的基础上并行运行权益证明。Shielded Labs 主导这项工作，并在 `zebra-crosslink` 仓库中维护原型。Crosslink 目前不属于 Zcash。[Crosslink 协议](/zcash-tech/crosslink-protocol) |
-| CrossPay | ZODL 钱包中的一项功能，使你可以花费屏蔽 ZEC，同时接收者以其偏好的资产和链获得支付，该过程通过 NEAR Intents 路由，而非通过中心化交易所。 |
-| Cypherpunk Zero | ECC、插画师 Stranger Wolf、Mighty Jaxx 和精选生态系统合作伙伴之间的创意宇宙及协作项目。[Cypherpunk Zero 社交媒体](https://x.com/cypherpunkZero) / [OpenSea 系列](https://opensea.io/collection/cypherpunk-zero) |
+| Crosslink | 一种提议中的混合共识设计，将在 Zcash 现有的工作量证明机制旁运行权益证明机制。Shielded Labs 负责推进这项工作，并基于 `crosslink_monolith` 仓库运行一个测试网络 Feature Net。此前的 `zebra-crosslink` 原型仓库已于 2026 年 11 月停用。Crosslink 目前不属于 Zcash。[Crosslink 协议](/zcash-tech/crosslink-protocol) |
+| CrossPay | ZODL 钱包中的一项功能，让你可以花费屏蔽 ZEC，同时让接收者以其偏好的资产和链收款；交易经由 NEAR Intents 路由，而非通过中心化交易所。 |
+| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 和部分生态系统合作伙伴共同打造的创意宇宙及协作项目。[Cypherpunk Zero 社交媒体](https://x.com/cypherpunkZero) / [OpenSea 系列](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

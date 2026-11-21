@@ -91,18 +91,18 @@ Crosslink یک **حالت ایمنی** را در خود دارد تا خطرات
 * منطق فعال‌سازی: معرفی Crosslink مستلزم تغییر در قواعد اجماع Zcash است، از جمله تعریف فرایند توزیع سهام و به‌روزرسانی قواعد پروتکل شبکه برای پشتیبانی از اجماع ترکیبی.
 * استقرار مرحله‌ای: این پروتکل به‌صورت مرحله‌ای عرضه می‌شود تا پایداری شبکه و انطباق کامیونیتی تضمین شود. مراحل اولیه بر پیاده‌سازی فنی تمرکز دارند و پس از آن ادغام حکمرانی برای انتخاب دفترداران رسمی انجام می‌شود.
 
-نمونهٔ اولیهٔ پیشین و مستندات آن در [مخزن zebra-crosslink در GitHub](https://github.com/ShieldedLabs/zebra-crosslink) و [کتاب zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/) قرار دارند. کارهای فعلی در بخش بعدی شرح داده شده‌اند.
+نمونهٔ اولیهٔ پیشین و مستندات آن در [مخزن zebra-crosslink در GitHub](https://github.com/ShieldedLabs/zebra-crosslink)، که در 12 نوامبر 2026 بازنشسته شد، و [کتاب zebra-crosslink](https://shieldedlabs.github.io/zebra-crosslink/) قرار دارند. کارهای فعلی در بخش بعدی شرح داده شده‌اند.
 
 ### وضعیت فعلی Crosslink
 
 Crosslink هنوز یک پیشنهاد است. [پرسش‌های متداول Crosslink](https://shieldedlabs.net/crosslink-faq/) از Shielded Labs می‌گوید که این پروتکل پیش از آنکه بتواند روی شبکهٔ اصلی فعال شود، «باید از فرایند استاندارد حکمرانی Zcash عبور کند».
 
-آنچه امروز وجود دارد **Feature Net** است: یک شبکهٔ آزمایشی که توسط Shielded Labs اداره می‌شود و کوین آزمایشی خود به نام cTAZ را دارد، و در آن هر کسی می‌تواند استخراج، استیک و یک نهایی‌کننده اجرا کند. [نسخهٔ 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) که در 1 اکتبر 2026 منتشر شد، به‌صورت اثبات کار ساده آغاز می‌شود و Crosslink را به‌صورت مرحله‌ای فعال می‌کند: استیکینگ از بلوک 20,736، نخستین فهرست نهایی‌کننده‌ها در بلوک 34,560 و نهایی‌شدن BFT از بلوک 36,288 ([منبع](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+آنچه امروز وجود دارد **Feature Net** است: یک شبکهٔ آزمایشی که توسط Shielded Labs اداره می‌شود و کوین آزمایشی خود به نام cTAZ را دارد، و در آن هر کسی می‌تواند استخراج کند، استیکینگ انجام دهد و یک نهایی‌کننده اجرا کند. [نسخهٔ 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) که در 1 اکتبر 2026 منتشر شد، با اثبات کار ساده آغاز به کار کرد و Crosslink را به‌صورت مرحله‌ای فعال کرد: استیکینگ از بلوک 20,736، نخستین فهرست نهایی‌کننده‌ها در بلوک 34,560 و نهایی‌شدن BFT از بلوک 36,288 ([منبع](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)). نسخه‌های بعدی همین شبکه را ارتقا می‌دهند: [نسخهٔ 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) در ارتفاع اثبات کار 55,296، [نسخهٔ 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 نوامبر 2026) در ارتفاع 165,000، و [نسخهٔ 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 نوامبر 2026) در بلوک 189,000. از [نسخهٔ 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) به بعد، هر نسخه دو هفته پس از انتشار از کار می‌افتد؛ بنابراین همیشه [آخرین نسخه](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) را اجرا کنید.
 
 از زمان نگارش این صفحه، دو مورد در آن تغییر کرده است:
 
 * **نقشی که در اینجا دفتردار رسمی نامیده می‌شود، نهایی‌کننده نام دارد** در نرم‌افزار و یادداشت‌های انتشار Shielded Labs. استیک‌کنندگان کوین‌های خود را به یک نهایی‌کننده واگذار می‌کنند و نهایی‌کننده‌هایی که بیشترین سهام را دارند برای نهایی‌کردن بلوک‌ها رأی می‌دهند.
-* **کد جابه‌جا شده است.** مخزن zebra-crosslink که در بالا ذکر شد، آخرین بار در آوریل 2026 به‌روزرسانی شده است. نسخه‌های Feature Net از [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases) منتشر می‌شوند و طرح آن در [کتاب Crosslink](https://shieldedlabs.github.io/crosslink_book/) نوشته شده است.
+* **کد جابه‌جا شده است.** مخزن zebra-crosslink در 12 نوامبر 2026 بازنشسته شد و فایل README آن اکنون به صفحه [Shielded Labs' Crosslink](https://shieldedlabs.net/crosslink) ارجاع می‌دهد. نسخه‌های Feature Net از [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases) منتشر می‌شوند و طرح آن در کتاب [Crosslink](https://shieldedlabs.github.io/crosslink_book/) نوشته شده است.
 
 برای امتحان آن، راهنمای [Crosslink Feature Net](/guides/crosslink-feature-net) را دنبال کنید. برای مشاهدهٔ شبکه بدون اجرای هیچ چیزی، زبانهٔ Crosslink را در [ابزارهای ZecHub](https://zechub.wiki/tools?tool=crosslink) باز کنید.
 

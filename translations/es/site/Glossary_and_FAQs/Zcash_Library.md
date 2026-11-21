@@ -31,11 +31,11 @@ Un glosario completo de términos, conceptos y recursos clave relacionados con Z
 | Término | Definición |
 |------|-----------|
 | Canopy | La 5.ª actualización principal de red para Zcash. [Más información](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | Permite a quien se compromete comprometerse con un polinomio mediante una cadena corta que puede ser utilizada por un verificador para confirmar las evaluaciones declaradas del polinomio comprometido. Es útil para reducir los costes de comunicación en el protocolo Zcash. |
+| Commitment Scheme | Permite a quien se compromete vincularse a un polinomio mediante una cadena corta que un verificador puede usar para confirmar las evaluaciones declaradas del polinomio vinculado. Es útil para reducir los costes de comunicación en el protocolo Zcash. |
 | Community | [El foro comunitario oficial de Zcash](https://forum.zcashcommunity.com) / Comunidad de [Zcash Discord](https://discord.com/channels/669694001464737815/669694001921654794) / I+D de [Zcash Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Un diseño híbrido de consenso propuesto que ejecutaría proof of stake junto con el proof of work existente de Zcash. Shielded Labs dirige el trabajo y mantiene un prototipo en el repositorio `zebra-crosslink`. Crosslink no forma parte de Zcash actualmente. [Crosslink protocolo](/zcash-tech/crosslink-protocol) |
+| Crosslink | Un diseño híbrido de consenso propuesto que combinaría proof of stake con el proof of work existente de Zcash. Shielded Labs lidera el trabajo y ejecuta una red de prueba, Feature Net, desde el repositorio `crosslink_monolith`. El repositorio del prototipo anterior `zebra-crosslink` se retiró en noviembre de 2026. Crosslink no forma parte de Zcash hoy. [Crosslink protocolo](/zcash-tech/crosslink-protocol) |
 | CrossPay | Una función de la billetera ZODL que permite gastar ZEC blindado mientras el destinatario recibe el pago en el activo y la cadena que prefiera, encaminado mediante NEAR Intents en vez de un exchange centralizado. |
-| Cypherpunk Zero | Un universo creativo y esfuerzo colaborativo entre ECC, el ilustrador Stranger Wolf, Mighty Jaxx y socios seleccionados del ecosistema. [Redes sociales de Cypherpunk Zero](https://x.com/cypherpunkZero) / Colección de [OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Un universo creativo y un esfuerzo colaborativo entre ECC, el ilustrador Stranger Wolf, Mighty Jaxx y socios seleccionados del ecosistema. [Redes sociales de Cypherpunk Zero](https://x.com/cypherpunkZero) / Colección de [OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 

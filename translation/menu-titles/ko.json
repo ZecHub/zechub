@@ -118,6 +118,7 @@
   "Zcash_Tech/Blossom.md": "Blossom",
   "Zcash_Tech/Canopy.md": "Canopy",
   "Zcash_Tech/Crosslink_Protocol.md": "Crosslink Protocol",
+  "Zcash_Tech/Detecting_Shielded_Payments.md": "실드 결제 감지: 스캔 비용은 얼마나 들까",
   "Zcash_Tech/FROST.md": "FROST",
   "Zcash_Tech/FROST_Threshold_Custody.md": "Shielded ZEC를 위한 FROST & 임계값 커스터디",
   "Zcash_Tech/Full_Nodes.md": "풀 노드",

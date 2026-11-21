@@ -91,18 +91,18 @@ Crosslinkプロトコルは、Shielded Labsによって、ZODLなどの主要な
 * 有効化ロジック：Crosslinkの導入には、ステーク分配プロセスの定義やハイブリッドコンセンサスをサポートするネットワークプロトコルルールの更新を含む、Zcashコンセンサスルールの変更が必要です。
 * 段階的展開：ネットワークの安定性とコミュニティの適応を確保するため、プロトコルは段階的に展開されます。初期段階では技術実装に焦点を当て、その後、公証人選出のためのガバナンス統合を行います。
 
-初期のプロトタイプとそのドキュメントは、[zebra-crosslinkリポジトリのGitHub](https://github.com/ShieldedLabs/zebra-crosslink)および[The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/)にあります。現在の作業については次の節で説明します。
+初期のプロトタイプとそのドキュメントは、[zebra-crosslinkリポジトリのGitHub](https://github.com/ShieldedLabs/zebra-crosslink)（2026年11月12日に廃止）および[The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/)にあります。現在の作業については次の節で説明します。
 
 ### Crosslinkの現状
 
 Crosslinkは依然として提案段階です。Shielded Labsの[CrosslinkFAQ](https://shieldedlabs.net/crosslink-faq/)では、メインネットで有効化される前に「標準的なZcashガバナンスプロセスを経る必要がある」と述べられています。
 
-現在存在するのは、**Feature Net**です。これはShielded Labsが運営する独自のテストコインcTAZを備えたテストネットワークであり、誰でもマイニング、ステーキング、ファイナライザーの実行ができます。2026年10月1日にリリースされた[Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)は、通常のProof-of-Workとして開始され、段階的にCrosslinkを有効化します。ステーキングはブロック20,736から、最初のファイナライザー名簿はブロック34,560で取得され、BFTファイナリティはブロック36,288から開始されます（[ソース](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)）。
+現在存在するのは、**Feature Net**です。これはShielded Labsが運営する独自のテストコインcTAZを備えたテストネットワークであり、誰でもマイニング、ステーキング、ファイナライザーの実行ができます。2026年10月1日にリリースされた[Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)は、通常のプルーフ・オブ・ワークとして開始され、段階的にCrosslinkを有効化しました。ステーキングはブロック20,736から、最初のファイナライザー名簿はブロック34,560で取得され、BFTファイナリティはブロック36,288から開始されました（[ソース](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)）。後続のリリースでは同じネットワークがアップグレードされます。[version 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)はPoWの高さ55,296で、[version 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17)は2026年11月5日に高さ165,000で、[version 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)は2026年11月17日にブロック189,000でリリースされます。[version 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16)以降は、各バージョンのリリースから2週間後に稼働を停止するため、常に[最新リリース](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)を実行してください。
 
 このページが書かれて以降、2つの点が変わりました。
 
 * **ここで公証人と呼ばれている役割は、Shielded Labsのソフトウェアおよびリリースノートではファイナライザーと呼ばれています。** ステーカーはコインをファイナライザーに委任し、最も多くのステークを持つファイナライザーがブロックをファイナライズするための投票を行います。
-* **コードは移動しました。** 上記のzebra-crosslinkリポジトリは2026年4月に最後の更新が行われました。Feature Netのリリースは[crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)から提供され、設計は[Crosslinkbook](https://shieldedlabs.github.io/crosslink_book/)に記載されています。
+* **コードは移動しました。** 上記のzebra-crosslinkリポジトリは2026年11月12日に廃止され、READMEは現在[Shielded LabsのCrosslinkページ](https://shieldedlabs.net/crosslink)を案内しています。Feature Netのリリースは[crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)から提供され、設計は[Crosslinkのブック](https://shieldedlabs.github.io/crosslink_book/)に記載されています。
 
 ご自身で試すには、[Crosslink Feature Net](/guides/crosslink-feature-net)ガイドに従ってください。何も実行せずにネットワークを監視するには、Crosslink[ZecHubツール](https://zechub.wiki/tools?tool=crosslink)のタブを開いてください。
 

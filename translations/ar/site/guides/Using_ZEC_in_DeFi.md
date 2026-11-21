@@ -69,7 +69,7 @@
 
 يُعد التشغيل البيني عنصرًا حاسمًا في تطوير DeFi لأنه يسمح لأصول سلسلة كتل معينة بالمشاركة في اقتصاد رقمي عابر للشبكات. 
 
-اعرف المزيد على: [مركز تعلّم جسر ZenRock](https://docs.zenrocklabs.io/)
+اعرف المزيد على: [مركز تعلّم جسر ZenRock](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
