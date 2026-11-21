@@ -200,7 +200,7 @@ Step-by-step operator notes: [Migration Guide: zcashd to Zebrad/Zallet](/guides/
 
 Zallet and **zecd** can both sit in front of Zebra. Pick Zallet when you need the `z_*` wallet surface and a migration path from `wallet.dat`. Pick zecd when you want a shielded-first server that is explicitly *not* a `zcashd` clone.
 
-There is a separate consumer product at [zallet.io](https://www.zallet.io/) that reuses the name. That app is not this project.
+A separate consumer product once used the name at zallet.io (the domain no longer resolves as of November 2026). That app is not this project.
 
 ---
 
