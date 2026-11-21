@@ -6887,10 +6887,10 @@
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
-      "src": "sha256:9141d35e8c60ce95e31ae6e52bbae9189ec94b6e174435247b0d4eebaacee7b4",
-      "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
+      "src": "sha256:4639f21a38fb92dd2b922a3ab4dc9f99f8b5c23dcb0f21acbba9d90308328c03",
+      "src_commit": "d636097bba13998a3e0bec437cb897a6f7e2e95d",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-6-luna",
       "edited": false
     },
@@ -15359,11 +15359,11 @@
       "edited": false
     },
     "Zcash_Tech/NU7.md": {
-      "src": "sha256:c1b6b1127edd7536560d071a726cb437fdd3f33b1cfb18575c5bd023c9fbf86c",
-      "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
+      "src": "sha256:bf2dae1947261102a590ba33ab8d424c8164480f673e467a6c9e9b85ebda936a",
+      "src_commit": "d636097bba13998a3e0bec437cb897a6f7e2e95d",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna+handfix",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "guides/Akash_Network_Zakura.md": {
@@ -36701,11 +36701,11 @@
       "edited": false
     },
     "Zcash_Tech/NU7.md": {
-      "src": "sha256:c1b6b1127edd7536560d071a726cb437fdd3f33b1cfb18575c5bd023c9fbf86c",
-      "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
+      "src": "sha256:bf2dae1947261102a590ba33ab8d424c8164480f673e467a6c9e9b85ebda936a",
+      "src_commit": "d636097bba13998a3e0bec437cb897a6f7e2e95d",
       "engine": "llm",
-      "mode": "full",
-      "tool": "codex/gpt-6-luna+handfix",
+      "mode": "diff",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "Zcash_Tech/Zinder.md": {
