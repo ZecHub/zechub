@@ -207,9 +207,9 @@
 
 ## W
 
-| Gaƒu | Nuŋɔŋlɔ |  
-|------|-----------|  
-| Wallet | Software alo asikplɔ si dzra ɣaɣlaŋlɔŋlɔ ƒe safuiwo eye wòna wò ate ŋu aɖo/axɔ ZEC. Gakotoku siwo wozã fifia lae nye ZODL (iOS/Android), Zingo! (mobile/desktop), Zkool (mobile/desktop), Zallet (ɣaɣla dzesi ŋɔŋlɔ blibo ƒe gakotoku, le beta me), kple Keystone (asikplɔwo dzra mɔ). Be nàkpɔ list blibo la, kpɔ [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) |  
+| Gaƒu | Nuŋɔŋlɔ |
+|------|-----------|
+| Wallet | Software alo asikplɔ si dzra ɣaɣlaŋlɔŋlɔ ƒe safuiwo eye wòna wò ate ŋu aɖo/axɔ ZEC. Gakotoku siwo wozã fifia lae nye ZODL (iOS/Android), Zingo! (mobile/desktop), Zkool (mobile/desktop), Zallet (ɣaɣla dzesi ŋɔŋlɔ blibo ƒe gakotoku, le beta me), kple Keystone (asikplɔwo dzra mɔ). Be nàkpɔ list blibo la, kpɔ [Zcash Ecosystem Wallets](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | SDK si gbãtɔ le Zcash ƒe JavaScript, si ChainSafe wɔe na browser ƒe nɔnɔmewo. Esi wòle dzi la, eɖo anyi na Zcash Shielded Wallet snap si kplɔ ɣaɣla ZEC va ɖo MetaMask. |
 
 ## X

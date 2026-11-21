@@ -5763,7 +5763,7 @@
       "src_commit": "b5488a11f483e3334ce5e36ba658ec2aa410d73d",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
