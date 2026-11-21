@@ -23677,7 +23677,7 @@
       "src_commit": "ae320f633c40c6b51f87dc1024b241a0e1e833df",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex-regen/gpt-5.6-terra",
+      "tool": "codex-regen/gpt-5.6-terra+alignmentfix",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
