@@ -170,7 +170,7 @@ Browser-based Zcash Unified Address parser for inspecting Unified Addresses.
 Global map of businesses and locations that accept Zcash.  
 [Visit](https://zecmap.com/)
 
-### ZECping
+### zecping
 Tool to check gRPC response times of Zcash lightwalletd nodes.  
 [Visit](https://github.com/zecrocks/zecping)
 
