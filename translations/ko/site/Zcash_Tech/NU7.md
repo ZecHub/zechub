@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU7.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
 # NU7
@@ -28,7 +28,7 @@ Zcash을 처음 접하시나요? 먼저 [What is ZEC 및 Zcash](../start-here/wh
 
 블록체인을 기차 노선이라고 생각해 보세요. NU7 전에는 75초마다 기차가 출발했고, 2 MB에 들어가는 만큼 승객을 태울 수 있었습니다. NU7에서는 25초마다 기차가 출발하고, 기관사에게는 기존 운임의 3분의 1을 지급해 하루 총액은 같게 유지합니다. 또 가장 무거운 승객(실드 작업)이 한 기차에 너무 많이 타지 못하도록 제한해, 어느 한 기차든 검사에 지나치게 오래 걸리는 일을 막습니다.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![4개 패널로 구성된 NU7: 블록 속도는 3배 빨라지고 하루 신규 ZEC 발행량은 그대로 유지됩니다. 수수료의 60%는 2031년부터 보상을 지급하기 위한 공개 준비금으로 들어갑니다. 2016년의 기존 Sprout 풀은 더 이상 사용할 수 없습니다. 투표한 ZEC의 98.9%가 반감기 유지를 선택했습니다](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7이 바꾼 점
 

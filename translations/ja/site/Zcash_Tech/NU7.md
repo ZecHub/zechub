@@ -28,7 +28,7 @@ Zcashを初めて知る方は、まず[ZECとは何かZcashと](../start-here/wh
 
 チェーン（chain）を鉄道路線だと考えてください。NU7以前は、75秒ごとに列車が出発し、2 MBに収まるだけの乗客を乗せられました。NU7では、25秒ごとに列車を走らせ、各運転手には以前の運賃の3分の1を支払うことで1日の合計を同じに保ちます。また、最も重い乗客（シールドされたアクション）が1列車に乗車できる人数に上限を設けるため、1本の列車の確認に過度な時間がかかることはありません。
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7の4つのパネル：ブロックは3倍速くなり、1日あたりの新しいZECの量は変わりません。手数料の60%は、2031年からの報酬のために公開準備金へ入ります。2016年からある旧Sproutプールは、もう使用できません。投票したZECの98.9%が半減期の維持を選びました](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7が変更した内容
 

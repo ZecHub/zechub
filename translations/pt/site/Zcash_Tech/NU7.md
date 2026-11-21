@@ -28,7 +28,7 @@ Em termos simples: agora os blocos chegam a cada 25 segundos, a quantidade de no
 
 Imagine a chain como uma linha de trem. Antes de NU7, um trem partia a cada 75 segundos e podia levar tantos passageiros quantos coubessem em 2 MB. NU7 faz um trem partir a cada 25 segundos, paga a cada maquinista um terço da tarifa antiga, mantendo o mesmo total diário, e limita quantos dos passageiros mais pesados (ações blindadas) podem embarcar em cada trem, para que a verificação de um único trem não demore demais.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 em quatro painéis: os blocos ficam três vezes mais rápidos e a quantidade diária de novos ZEC permanece igual; 60% das taxas vão para uma reserva pública destinada a recompensas a partir de 2031; o antigo pool Sprout de 2016 não pode mais ser gasto; 98,9% dos ZEC que votaram escolheram manter o halving](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## O que NU7 mudou
 

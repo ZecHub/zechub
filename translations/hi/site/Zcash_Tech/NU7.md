@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU7.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
 </a>
 
 # NU7
@@ -28,7 +28,7 @@ NU7, Zcash [नेटवर्क अपग्रेड(network upgrade)](../sta
 
 चेन को रेल लाइन समझें। NU7 से पहले हर 75 सेकंड में एक ट्रेन निकलती थी और उसमें 2 MB में समा सकने वाले जितने यात्री हों, उतने ले जा सकती थी। NU7 में हर 25 सेकंड में ट्रेन चलती है, हर ड्राइवर को पुराने किराये का एक-तिहाई दिया जाता है ताकि दैनिक कुल समान रहे, और सबसे भारी यात्रियों (शील्डेड कार्रवाइयों) की संख्या सीमित की जाती है, ताकि किसी एक ट्रेन की जाँच में बहुत अधिक समय न लगे।
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![चार पैनलों में NU7: ब्लॉक तीन गुना तेज़ हैं और हर दिन नए ZEC की मात्रा समान रहती है; शुल्क का 60% 2031 से मिलने वाले पुरस्कारों के लिए सार्वजनिक रिज़र्व में जाता है; 2016 का पुराना Sprout पूल अब खर्च नहीं किया जा सकता; मतदान करने वाले ZEC में से 98.9% ने हॉल्विंग जारी रखने के पक्ष में वोट दिया](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7 ने क्या बदला
 

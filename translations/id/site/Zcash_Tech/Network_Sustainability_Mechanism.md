@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Network_Sustainability_Mechanism.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
 </a>
 
 # Mekanisme Keberlanjutan Jaringan (NSM)
@@ -113,3 +113,5 @@ Jawaban: (1) 40,000 zatoshi; 60,000 dikeluarkan; (2) hadiah blok dan biaya yang 
 | [Perubahan Sebenarnya dari Blok 25 Detik](../research/what-25-second-blocks-actually-change) | alasan subsidi dan interval halving berubah pada NU7 |
 | [Dana Pengembangan](../start-here/development-fund) | cara subsidi blok dibagi |
 | [Transaksi](../using-zcash/transactions) | cara biaya transaksi ditetapkan |
+
+---

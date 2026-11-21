@@ -158,4 +158,4 @@ Referensi:
        allowFullScreen
        loading="lazy"
      />
-</div >
+</div>

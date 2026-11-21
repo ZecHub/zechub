@@ -28,7 +28,7 @@ NU7 یک ارتقای شبکه Zcash [network upgrade](../start-here/network-upg
 
 زنجیره را مانند خط قطار در نظر بگیرید. پیش از NU7، هر 75 ثانیه قطاری حرکت می‌کرد و می‌توانست به اندازه ظرفیت 2 MB مسافر ببرد. NU7 هر 25 ثانیه قطاری به حرکت درمی‌آورد، به هر راننده یک‌سوم کرایه قبلی را می‌دهد تا مجموع روزانه ثابت بماند و برای تعداد سنگین‌ترین مسافران (کنش‌های محافظت‌شده) که می‌توانند سوار یک قطار شوند سقف می‌گذارد تا بررسی هیچ قطاری بیش از حد طول نکشد.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 در چهار بخش: بلوک‌ها سه برابر سریع‌تر هستند و مقدار ZEC جدید در هر روز ثابت می‌ماند؛ 60% از کارمزدها به ذخیره‌ای عمومی برای پاداش‌ها از سال 2031 اختصاص می‌یابد؛ دیگر نمی‌توان از استخر قدیمی Sprout متعلق به 2016 خرج کرد؛ 98.9% از ZECهای رأی‌دهنده به حفظ هاوینگ‌ها رأی دادند](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7 چه چیزهایی را تغییر داد
 

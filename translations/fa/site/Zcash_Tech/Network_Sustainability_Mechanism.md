@@ -113,3 +113,5 @@
 | [تغییر واقعی بلوک‌های 25‌ثانیه‌ای](../research/what-25-second-blocks-actually-change) | دلیل تغییر یارانه و فاصله هاوینگ در NU7 |
 | [صندوق توسعه](../start-here/development-fund) | نحوه تقسیم یارانه بلوک |
 | [تراکنش‌ها](../using-zcash/transactions) | نحوه تعیین کارمزد تراکنش |
+
+---

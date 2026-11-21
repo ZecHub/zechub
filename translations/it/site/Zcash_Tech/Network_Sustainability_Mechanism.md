@@ -109,7 +109,9 @@ Risposte: (1) 40,000 zatoshi; 60,000 vengono rimossi; (2) dalle ricompense di bl
 | Pagina | Perché è correlata |
 |---|---|
 | [NU7](./NU7.md) | l'aggiornamento di rete che ha attivato l'NSM |
-| [Zcash Politica monetaria](../start-here/zcash-monetary-policy) | il programma degli halving e il limite massimo dell'offerta mantenuti dall'NSM |
+| [Politica monetaria di Zcash](../start-here/zcash-monetary-policy) | il programma degli halving e il limite massimo dell'offerta mantenuti dall'NSM |
 | [Cosa cambia davvero con i blocchi da 25 secondi](../research/what-25-second-blocks-actually-change) | perché il sussidio e l'intervallo di halving sono cambiati con NU7 |
 | [Fondo per lo sviluppo](../start-here/development-fund) | come viene ripartito il sussidio di blocco |
 | [Transazioni](../using-zcash/transactions) | come vengono stabilite le commissioni di transazione |
+
+---

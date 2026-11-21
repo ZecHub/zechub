@@ -113,3 +113,5 @@
 | [25초 블록이 실제로 바꾸는 것](../research/what-25-second-blocks-actually-change) | NU7에서 보조금과 반감 간격이 바뀐 이유 |
 | [개발 기금](../start-here/development-fund) | 블록 보조금의 배분 방식 |
 | [거래](../using-zcash/transactions) | 거래 수수료의 산정 방식 |
+
+---

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU7.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
 </a>
 
 # NU7
@@ -28,7 +28,7 @@ Singkatnya: blok kini muncul setiap 25 detik, jumlah ZEC baru per hari tetap sam
 
 Bayangkan blockchain sebagai jalur kereta. Sebelum NU7, kereta berangkat setiap 75 detik dan dapat mengangkut penumpang sebanyak yang muat dalam 2 MB. NU7 menjalankan kereta setiap 25 detik, membayar setiap masinis sepertiga ongkos lama sehingga jumlah harian tetap sama, dan membatasi jumlah penumpang terberat (tindakan terlindungi) yang dapat naik ke satu kereta agar pemeriksaan setiap kereta tidak memakan waktu terlalu lama.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 dalam empat panel: block tiga kali lebih cepat dan jumlah ZEC baru per hari tetap sama; 60% biaya masuk ke cadangan publik untuk imbalan mulai 2031; pool Sprout lama dari 2016 tidak lagi dapat dibelanjakan; 98.9% ZEC yang memberikan suara memilih untuk mempertahankan halving](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Perubahan yang dibuat NU7
 

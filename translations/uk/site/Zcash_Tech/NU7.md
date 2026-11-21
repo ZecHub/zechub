@@ -28,7 +28,7 @@ NU7 — це Zcash [мережеве оновлення](../start-here/network-u
 
 Уявіть, що блокчейн — це залізнична лінія. До NU7 потяг вирушав кожні 75 секунд і міг перевозити пасажирів, скільки вміщалося у 2 MB. NU7 запускає потяг кожні 25 секунд, платить кожному машиністу третину старого тарифу, тож добова сума не змінюється, і обмежує кількість найважчих пасажирів (захищених дій) у кожному потязі, щоб перевірка жодного потяга не тривала надто довго.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 у чотирьох блоках: блоки працюють утричі швидше, а щоденна кількість нових ZEC залишається незмінною; 60% комісій надходить до публічного резерву для винагород із 2031 року; кошти зі старого пулу Sprout 2016 року більше не можна витрачати; 98,9% ZEC, що проголосували, обрали збереження халвінгів](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Що змінило NU7
 

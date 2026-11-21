@@ -109,7 +109,9 @@ Respuestas: (1) 40,000 zatoshi; se retiran 60,000; (2) de las recompensas por bl
 | Página | Motivo de su relación |
 |---|---|
 | [NU7](./NU7.md) | la actualización de red que activó el NSM |
-| [Zcash Política monetaria](../start-here/zcash-monetary-policy) | el calendario de halving y el límite de suministro que conserva el NSM |
+| [Política monetaria de Zcash](../start-here/zcash-monetary-policy) | el calendario de halving y el límite de suministro que conserva el NSM |
 | [Qué cambia realmente con los bloques de 25 segundos](../research/what-25-second-blocks-actually-change) | por qué cambiaron el subsidio y el intervalo de halving en NU7 |
 | [Fondo de desarrollo](../start-here/development-fund) | cómo se reparte el subsidio por bloque |
 | [Transacciones](../using-zcash/transactions) | cómo se fijan las comisiones por transacción |
+
+---

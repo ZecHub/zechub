@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Network_Sustainability_Mechanism.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
 
 # Netzwerk-Nachhaltigkeitsmechanismus (NSM)
@@ -35,7 +35,7 @@ Stellen Sie sich ein Sparglas neben der Kasse vor. Jedes Mal, wenn ein Block ges
 ## So funktioniert die erneute Ausgabe (ZIP 237)
 
 - **Der Bestand.** `NSMValueBalance` beginnt bei der Aktivierung von NU7 mit 368.58445520 ZEC (36.858.445.520 Zatoshi). Jeder Block addiert, was ZIP 235 entnommen hat, und zieht den erneut ausgegebenen Betrag ab. Ein Block, durch den der Bestand negativ würde, ist ungültig.
-- **Woher der Anfangsbestand stammt.** Vor NU6 konnte eine Coinbase-Transaktion weniger als die vollständige Blockbelohnung und die Gebühren beanspruchen. In den ersten 2.726.400 Blöcken der Chain ließen Miner 368.58445520 ZEC unbeansprucht: Die bis zu dieser Höhe vorgesehene Subvention betrug 15.750.000 ZEC, und die ausgegebene Menge betrug 15.749.631.41554480 ZEC. ZIP 237 überträgt diesen Wert an den NSM, damit er ausgezahlt statt verloren geht.
+- **Woher der Anfangsbestand stammt.** Vor NU6 konnte eine Coinbase-Transaktion weniger als die vollständige Blockbelohnung und die Gebühren beanspruchen. In den ersten 2.726.400 Blöcken der Chain ließen Miner 368.58445520 ZEC unbeansprucht: Die bis zu dieser Höhe vorgesehene Subvention betrug 15.750.000 ZEC, und die ausgegebene Menge betrug 15,749,631.41554480 ZEC. ZIP 237 überträgt diesen Wert an den NSM, damit er ausgezahlt statt verloren geht.
 - **Keine erneute Ausgabe bis Block 8.939.664.** Zwischen NU7 und dieser Höhe wächst der Bestand nur.
 - **Die Formel.** Ab Block 8.939.664 erhält die Subvention jedes Blocks zusätzlich `ceiling(0.0000001375 × NSMValueBalance)`, berechnet anhand des Bestands nach dem vorherigen Block. Der Anteil beträgt `floor(LN2_SCALED / HalvingInterval) / 10^10` = 1375 / 10.000.000.000; das Halbierungsintervall nach NU7 umfasst 5.040.000 Blöcke.
 - **Warum dieser Anteil.** `(1 − 0.0000001375)^5,040,000 ≈ 0.5`, sodass bei keiner weiteren Entnahme in jedem Halbierungszeitraum etwa die Hälfte des Bestands erneut ausgegeben wird. Es handelt sich um einen exponentiellen Abbau, der nur auf den NSM-Bestand angewendet und über die unveränderten Halbierungsschritte gelegt wird.

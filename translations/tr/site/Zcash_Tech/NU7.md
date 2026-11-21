@@ -28,7 +28,7 @@ Basitçe söylemek gerekirse: bloklar artık her 25 saniyede bir geliyor, günl�
 
 Zinciri bir tren hattı gibi düşünün. NU7 öncesinde trenler her 75 saniyede bir kalkıyor ve 2 MB'lık kapasiteye sığan kadar yolcu taşıyabiliyordu. NU7 her 25 saniyede bir tren çalıştırıyor, günlük toplam aynı kalsın diye her sürücüye eski ücretin üçte birini ödüyor ve tek bir trenin kontrolünün çok uzun sürmemesi için en ağır yolculardan (korumalı eylemler) bir trene binebileceklerin sayısını sınırlıyor.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![Dört panelli NU7: bloklar üç kat daha hızlıdır ve günlük yeni ZEC miktarı aynı kalır; ücretlerin %60’ı, 2031’den itibaren verilecek ödüller için kamuya açık bir rezerve aktarılır; 2016’dan kalma eski Sprout havuzu artık harcanamaz; oy kullanan ZEC’lerin %98,9’u yarılanmaların korunmasını seçti](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7 neleri değiştirdi
 

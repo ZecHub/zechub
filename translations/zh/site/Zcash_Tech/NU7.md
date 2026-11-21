@@ -28,7 +28,7 @@ NU7是一项 Zcash [网络升级](../start-here/network-upgrades)，由 [ZIP 259
 
 把链想象成一条铁路。NU7之前，每 75 秒发出一班列车，载客量上限是 2 MB。NU7每 25 秒发出一班列车，每位司机拿到的报酬是原来的三分之一，因此每日总额保持不变；同时，它限制每班列车可搭载的最重乘客（屏蔽操作）数量，避免任何一班列车的检查耗时过长。
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7分为四个面板：区块速度提高到原来的三倍，每日新增ZEC数量保持不变；60%的手续费进入公共储备金，用于发放2031年起的奖励；2016年的旧Sprout池已无法再支出；98.9%的投票ZEC选择保留减半机制](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## NU7的变化
 

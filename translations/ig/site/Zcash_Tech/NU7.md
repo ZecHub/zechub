@@ -28,7 +28,7 @@ N’okwu dị mfe: blocks na-abịa ugbu a kwa sekọnd 25, ọnụọgụ ZEC �
 
 Were chain ahụ dị ka ụzọ ụgbọ oloko. Tupu NU7, ụgbọ oloko na-apụ kwa sekọnd 75 ma nwee ike ibu ọtụtụ ndị njem dịka ndị dabara n’ime 2 MB. NU7 na-eme ka ụgbọ oloko na-apụ kwa sekọnd 25, na-akwụ onye ọkwọ ụgbọ oloko ụgwọ otu ụzọ n’ime atọ nke ego ochie ka ngụkọta kwa ụbọchị bụrụ otu, ma na-etinye oke n’ọnụọgụ ndị njem kacha arọ (shielded actions) nwere ike ịbanye n’otu ụgbọ oloko, ka o wee ghara iwe ogologo oge inyocha otu ụgbọ oloko.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 n’akụkụ anọ: block na-adị ngwa ugboro atọ, ọnụ ọgụgụ ZEC ọhụrụ kwa ụbọchị ka dị otu; 60% nke ugwo na-abanye n’ebe nchekwa ọha maka ụgwọ ọrụ malite na 2031; a pụghịzi imefu pool Sprout ochie nke 2016; 98.9% nke ZEC ndị tụrụ vootu họọrọ idobe halving](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Ihe NU7 gbanwere
 

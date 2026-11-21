@@ -28,7 +28,7 @@
 
 Σκέψου την αλυσίδα σαν σιδηροδρομική γραμμή. Πριν από το NU7, ένα τρένο αναχωρούσε κάθε 75 δευτερόλεπτα και μπορούσε να μεταφέρει όσους επιβάτες χωρούσαν σε 2 MB. Το NU7 βάζει ένα τρένο να αναχωρεί κάθε 25 δευτερόλεπτα, πληρώνει κάθε μηχανοδηγό το ένα τρίτο της παλιάς αμοιβής ώστε το ημερήσιο σύνολο να παραμείνει ίδιο και θέτει όριο στο πόσοι από τους πιο βαρείς επιβάτες (οι θωρακισμένες ενέργειες) μπορούν να επιβιβαστούν σε ένα τρένο, ώστε κανένα τρένο να μην απαιτεί υπερβολικά πολύ χρόνο για έλεγχο.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![Το NU7 σε τέσσερα μέρη: τα μπλοκ είναι τρεις φορές ταχύτερα και η ημερήσια έκδοση νέων ZEC παραμένει ίδια· το 60% των τελών πηγαίνει σε δημόσιο αποθεματικό για ανταμοιβές από το 2031· το παλιό pool Sprout του 2016 δεν μπορεί πλέον να δαπανηθεί· το 98,9% των ZEC που ψήφισαν επέλεξε να διατηρηθούν τα halving](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Τι άλλαξε το NU7
 

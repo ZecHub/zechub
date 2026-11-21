@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU7.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
 # NU7
@@ -28,7 +28,7 @@ Kwa lugha rahisi: block sasa huwasili kila baada ya sekunde 25, kiasi cha ZEC ki
 
 Fikiria mnyororo kama njia ya treni. Kabla ya NU7, treni iliondoka kila baada ya sekunde 75 na ingeweza kubeba abiria wengi kadiri walivyotoshea ndani ya MB 2. NU7 huendesha treni kila baada ya sekunde 25, humpa kila dereva theluthi moja ya nauli ya zamani ili jumla ya kila siku ibaki vilevile, na huweka kikomo cha idadi ya abiria wazito zaidi (vitendo vya faragha) wanaoweza kupanda treni moja, ili ukaguzi wa treni yoyote usichukue muda mrefu kupita kiasi.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 katika paneli nne: block huwa mara tatu kwa kasi zaidi na kiasi cha ZEC mpya kwa siku hubaki vilevile; 60% ya ada huingia kwenye akiba ya umma kwa ajili ya zawadi kuanzia 2031; pool ya zamani ya Sprout ya 2016 haiwezi tena kutumika; 98.9% ya ZEC zilizopiga kura zilichagua kudumisha kupunguzwa kwa nusu](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Mabadiliko yaliyofanywa na NU7
 

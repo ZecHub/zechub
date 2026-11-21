@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/NU7.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Page Ŋutɔŋutɔ"/>
 </a>
 
 # NU7
@@ -28,7 +28,7 @@ Le nyagblɔɖi bɔbɔe me: gaƒuƒowo vaa le sekɔnd 25 siaa, ZEC yeye siwo tsɔ
 
 Bu ɖoɖonu la abe trɛn ƒe mɔ ene. Le NU7 ŋgɔ la, trɛn dzea mɔ le sekɔnd 75 siaa, eye ate ŋu atsɔ amewo siwo ate ŋu ade 2 MB me. NU7 ɖea trɛn ɖe mɔ dzi le sekɔnd 25 siaa, dea fetu na trɛn ƒe dɔwɔla siaa abe tsã ƒe fetu ƒe afã etɔ̃ me ene be dɔgbeba ƒe nu wòatsɔ esime xoxo, eye wòtsɔ se aɖe de eme ɖe ame siwo nye dzidzedze kpekpe (ɣaɣla dɔwɔwɔ) si ate ŋu akɔ trɛn ɖeka me ŋu, ale be trɛn aɖeke mate ŋu anɔ ŋuɖoɖo te sesẽ wu o.
 
-![NU7 in four panels: blocks are three times faster and new ZEC per day stays the same; 60% of fees go into a public reserve for rewards from 2031; the legacy Sprout pool from 2016 can no longer be spent; 98.9% of voting ZEC chose to keep halvings](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
+![NU7 le ɖe akpa ene me: gaɖoɖowo ƒuƒoƒeawo wɔa dɔ zi etɔ̃ sesẽ, eye ZEC yeyewo siwo doa ɖe ŋkeke sia ŋkeke me menɔa asi o; adzɔwo ƒe 60% doa ge ɖe ga si le ame sia ame ƒe asi me, eye wòana fetuwo tso 2031; Sprout gaƒuƒoƒo xoxo si tso 2016 me la, womate ŋu asɔ dɔ le edzi o; ZEC siwo wotsɔ 98.9% vote na la tia be yewoaɖu fetu ƒe afãmama dzi](https://raw.githubusercontent.com/ZecHub/zechub/main/site/Zcash_Tech/assets/nu7-four-changes.png)
 
 ## Nu siwo NU7 trɔ
 
