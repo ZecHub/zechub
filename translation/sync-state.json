@@ -25503,7 +25503,7 @@
       "src_commit": "351565babc6198d7b9ecce33286f66047871b55c",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
