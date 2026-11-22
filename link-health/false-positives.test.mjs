@@ -13,7 +13,7 @@ import { dirname, join } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import test from "node:test";
 
-const source = readFileSync(new URL("./check-links.mjs", import.meta.url), "utf8");
+const source = readFileSync(new URL("./check-links.mjs", import.meta.url), "utf8").replace(/\r\n/g, "\n");
 const between = (from, to) => {
   assert.ok(source.includes(from) && source.includes(to), `marker missing: ${from} / ${to}`);
   return source.slice(source.indexOf(from), source.indexOf(to));
