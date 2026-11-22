@@ -4,7 +4,7 @@
 
 ![](/content-images/image-2023-11-18-152209271-6bea8ac30e.webp)
 
-# 창작자 가이드
+# 크리에이터를 위한 가이드
 
 <a href="/ZFAV-Club/Guides-for-Creators/AI_tools">
     <img src="/content-images/aitools-e218ab1d0f.webp" alt="" width="400" height="200"/>
@@ -13,7 +13,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -26,7 +26,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -39,7 +39,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -52,7 +52,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -65,7 +65,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -78,7 +78,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -91,7 +91,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -104,7 +104,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 
@@ -117,7 +117,7 @@
 <aside>
   
 #### 읽는 시간
-| 2 분 |
+| 2분 |
 
 </aside>
 

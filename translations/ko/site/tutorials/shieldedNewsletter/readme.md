@@ -1,20 +1,20 @@
-# Shielded 뉴스레터
+# 거래정보 보호 뉴스레터
 
 
 ## 설정
 
- * RPC가 켜져 있고 쿠키를 사용하도록 구성된 상태로 실행 중이며 완전히 동기화된 Zebrad 노드
- * 완전히 동기화된 zainod
- * RPC를 실행하도록 설정된 Zallet
+ * Zebrad 노드가 실행 중이며 완전히 동기화되었고, RPC가 활성화되어 쿠키를 사용하도록 설정됨
+ * zainod 완전히 동기화됨
+ * Zallet RPC가 실행되도록 설정됨
 
 
-### Zallet 시작
+### Zallet 시작하기
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml start`
 
-구성된 zallet.toml 파일과 함께
+설정된 zallet.toml 파일 사용
 
-예시 toml:
+toml 예시:
 
 ```markdown
 [builder]
@@ -72,7 +72,7 @@ bind = ["127.0.0.1:8237"]
 
 `chmod +x toCurl.sh`
 
-올바른 zebrad RPC (8232) 포트로 수정하고 zebrad 쿠키의 사용자 이름과 비밀번호를 포함하세요
+올바른 zebrad RPC 포트(8232)를 수정하고 zebrad 쿠키의 사용자 이름과 비밀번호를 포함합니다
 
 
 `__cookie__:yourpasswordhere`
@@ -82,7 +82,7 @@ bind = ["127.0.0.1:8237"]
 
 `./target/release/zallet -c /home/zktails/.zallet/zallet.toml rpc help`
 
-다음이 출력되어야 합니다
+다음과 같이 출력되어야 합니다
 
 ```bash
 getrawtransaction
@@ -107,15 +107,15 @@ z_recoveraccounts
 z_sendmany
 z_viewtransaction
 ```
-참고: 스크립트를 실행하는 폴더에 zallet 실행 파일의 복사본이 있는지 확인하세요
+참고: 스크립트를 실행하는 폴더에 zallet 실행 파일의 사본이 있는지 확인하세요
 
 ### 스크립트 실행
 
 `chmod +x ascii2hex hex2ascii shieldNewsletter.sh txBuilderFromFile.sh toCurl.sh`
 
-사용하려는 UA로 daoAddress.md를 업데이트하세요
+daoAddress.md를 업데이트하여 사용할 UA를 지정합니다
 
-txBuilderFromFile.sh를 열고 "from" 변수를 zallet 지갑에 있는 자금이 들어 있는 UA로 업데이트하세요
+txBuilderFromFile.sh를 열고 “from” 변수를 zallet 지갑에 있는 잔액이 있는 UA로 업데이트합니다
 
 그런 다음,
 

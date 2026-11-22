@@ -1,47 +1,49 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-# encrypt.trade를 사용해 SOL/USDC를 ZEC로 스왑하기
+# SOL/USDC에서 ZEC로 스왑하기: encrypt.trade 사용법
 
-> Solana에서 SOL 또는 USDC을 ZEC로 스왑하며, 크로스체인 단계는 NEAR Intents를 통해 라우팅됩니다.
+> Solana에서 SOL 또는 USDC를 스왑해 ZEC로 보내세요. 크로스체인 단계는 NEAR Intents을 통해 진행됩니다.
+
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
+
 
 
 ---
 
 ## 요약
 
-* [encrypt.trade](https://encrypt.trade/zec)는 SOL 또는 USDC를 암호화 토큰(eSOL/eUSDC)으로 래핑한 다음 NEAR Intents를 통해 ZEC로 스왑합니다.
-* 금액은 Solana에서 숨겨지지만, 지갑 주소와 앱 사용 여부는 공개됩니다.
-* ZEC는 투명(t1/t3) 주소로만 전송되므로, 실드하기 전까지 Zcash 체인에서 볼 수 있습니다.
-* ZEC가 도착하는 즉시 지갑에서 실드하세요.
-* 앱과 NEAR Intents는 모두 규정 준수를 위해 지갑을 검사합니다.
+* [encrypt.trade](https://encrypt.trade/zec)는 SOL 또는 USDC를 암호화된 토큰(encrypted tokens)(eSOL/eUSDC)으로 래핑한 다음, NEAR Intents을 통해 ZEC로 스왑합니다.
+* 금액은 Solana에서 숨겨지지만, 지갑 주소와 앱 사용 내역은 공개됩니다.
+* ZEC는 투명 주소(t1/t3)로만 전송되므로, 거래정보 보호를 적용하기 전까지 Zcash 체인에서 확인할 수 있습니다.
+* ZEC가 도착하면 즉시 지갑에서 거래정보 보호를 적용하세요.
+* 앱과 NEAR Intents 모두 규정 준수를 위해 지갑을 심사합니다.
 
 ---
 
 ## 핵심 설명
-[**encrypt.trade**](https://encrypt.trade/zec)은 JMD Labs Inc.가 운영하는 Solana 앱입니다. 이를 통해 Solana에서 **SOL 또는 USDC**을 **Zcash(ZEC)**으로 스왑할 수 있습니다. 먼저 토큰을 암호화된 버전으로 래핑하여 Solana에서 금액을 숨긴 다음, NEAR Intents을 통해 ZEC으로 스왑합니다.
+[**encrypt.trade**](https://encrypt.trade/zec)는 JMD Labs Inc.가 운영하는 Solana 앱입니다. Solana에서 **SOL 또는 USDC**를 스왑해 **Zcash(ZEC)**로 보낼 수 있습니다. 먼저 토큰을 암호화된 버전으로 래핑해 Solana에서 금액을 숨긴 다음, NEAR Intents을 통해 ZEC로 스왑합니다.
 
-이 스왑은 일부 측면에서는 비공개이지만, 모든 면에서 그렇지는 않습니다. 앱의 자체 [문서](https://docs.encifher.io/docs)에 따르면 체인과의 상호작용은 익명이 아닙니다. 즉, 사람들이 지갑이 앱을 사용했다는 사실은 볼 수 있지만, 이동한 금액은 볼 수 없습니다. 또한 ZEC는 투명 주소로 도착하므로, 실드 처리하기 전까지 Zcash 체인에서 계속 공개됩니다.
+이 스왑은 일부 측면에서는 프라이버시를 보호하지만, 모든 측면에서 그런 것은 아닙니다. 앱의 [문서](https://docs.encifher.io/docs)에 따르면 체인과의 상호작용은 익명으로 이루어지지 않습니다. 지갑이 앱을 사용했다는 사실은 다른 사람이 볼 수 있지만, 얼마를 옮겼는지는 알 수 없습니다. ZEC도 투명 주소로 도착하므로, 거래정보 보호를 적용하기 전까지 Zcash 체인에서 확인할 수 있습니다.
 
 
 ![img2](/content-images/ByQ2qpeRee-67fce2814c.webp)
 
 ---
 
-###  스왑 전에 알아둘 사항  
-- **Solana 측.** 래핑은 금액을 숨기지만, 지갑 주소와 앱 사용 사실은 공개됩니다. [모범 사례](https://docs.encifher.io/docs/best-practices)에서는 단순히 래핑, 스왑, 언래핑을 하면 거래가 연결될 수 있다고 경고합니다.
-- **암호화.** 암호화된 잔액은 하드웨어 엔클레이브(TEE) 내부에서 오프체인으로 처리됩니다. 개발자의 [논문](https://eprint.iacr.org/2026/1504)에 따르면 이는 암호화 기술만이 아니라 TEE 무결성, 정직한 임계값 키 관리, 클라우드 증명 루트에 의존합니다.
-- **크로스체인 단계.** ZEC로의 스왑은 독립적인 솔버가 주문을 이행하는 NEAR Intents를 통해 라우팅됩니다.
-- **Zcash 측.** NEAR Intents는 ZEC가 [투명 주소 전용](https://docs.near-intents.org/resources/chain-support)으로 지원된다고 명시하며, 2026년 9월에 이 가이드를 확인했을 때 encrypt.trade의 ZEC 입력란도 투명 주소(t1 또는 t3)만 허용했습니다. 투명 주소에서는 실드 처리하기 전까지 잔액과 수신 전송이 공개됩니다.
-- **심사.** 앱은 연결하는 지갑을 TRM 및 Chainalysis 같은 데이터베이스로 확인하며, [컴플라이언스 페이지](https://docs.encifher.io/docs/compliance)에는 정당한 법적 사유가 있을 경우 암호화된 기록을 검토할 수 있다고 명시되어 있습니다. NEAR Intents도 자체 [심사](https://docs.near-intents.org/security-compliance/risk-and-compliance)를 수행합니다.
+###  스왑 전에 알아둘 점
+- **Solana 측면.** 래핑하면 금액은 숨겨지지만, 지갑 주소와 앱 사용 내역은 공개됩니다. [모범 사례](https://docs.encifher.io/docs/best-practices)에서는 단순히 래핑하고 스왑한 뒤 다시 래핑을 해제하면 거래를 서로 연결할 수 있다고 경고합니다.
+- **암호화.** 암호화된 잔액은 하드웨어 보안 영역(TEE) 안에서 오프체인으로 처리됩니다. 개발자들의 [논문](https://eprint.iacr.org/2026/1504)에 따르면, 이 방식은 암호화만으로 보호되는 것이 아니라 TEE의 무결성, 신뢰할 수 있는 임계값 키 관리, 클라우드 증명 루트에 의존합니다.
+- **크로스체인 단계.** NEAR Intents을 통해 ZEC로 스왑이 전달되며, 독립적인 솔버가 주문을 체결합니다.
+- **Zcash 측면.** NEAR Intents에서는 [투명 주소만](https://docs.near-intents.org/resources/chain-support) ZEC에 지원된다고 안내합니다. 2026년 9월에 이 안내서를 확인했을 당시 encrypt.trade의 ZEC 입력란에서도 투명 주소(t1 또는 t3)만 허용했습니다. 투명 주소에서는 거래정보 보호를 적용할 때까지 잔액과 수신한 전송 내역을 누구나 볼 수 있습니다.
+- **심사.** 앱은 연결된 지갑을 TRM 및 Chainalysis 등의 데이터베이스와 대조하며, [규정 준수 페이지](https://docs.encifher.io/docs/compliance)에 따르면 정당한 법적 사유가 있는 경우 암호화된 기록을 검토할 수 있습니다. NEAR Intents도 자체적으로 [심사](https://docs.near-intents.org/security-compliance/risk-and-compliance)를 진행합니다.
 
 ---
 
-###  1단계: Solana 지갑 연결  
-**Chrome 또는 Firefox**에서 [encrypt.trade](https://encrypt.trade/zec)를 방문하고 **Phantom**, **Solflare** 또는 **Slope** 지갑을 연결합니다. 지갑에 가스 수수료로 쓸 충분한 **SOL**과 거래하려는 토큰이 있는지 확인하세요. 연결되면 자산을 래핑할 준비가 됩니다.  
+###  1단계: Solana 지갑 연결
+**Chrome 또는 Firefox**에서 [encrypt.trade](https://encrypt.trade/zec)에 접속해 **Phantom**, **Solflare** 또는 **Slope** 지갑을 연결하세요. 지갑에 거래 수수료로 쓸 SOL과 거래하려는 토큰이 충분히 있는지 확인하세요. 연결하면 자산을 래핑할 준비가 완료됩니다.
 
 
 ![img3](/content-images/SyVOs6lRxx-cbd8193e84.webp)
@@ -57,8 +59,8 @@
 
 ---
 
-###  2단계: 토큰 래핑  
-**Wrap** 섹션으로 이동합니다. **SOL** 또는 **USDC**를 선택하고 금액을 입력한 뒤 확인합니다. 앱이 자산을 잠그고 **암호화된 버전(eSOL 또는 eUSDC)**을 발행합니다. 스왑할 금액과 다른 금액을 래핑하면 금액을 기준으로 둘을 연결하기가 더 어려워지지만, 지갑이 앱을 사용했다는 사실까지 숨기지는 못합니다.  
+###  2단계: 토큰 래핑
+**Wrap** 섹션으로 이동하세요. **SOL** 또는 **USDC**를 선택하고 금액을 입력한 다음 확인하세요. 앱은 자산을 잠그고 **암호화된 버전(eSOL 또는 eUSDC)**을 발행합니다. 스왑하려는 금액과 다른 금액을 래핑하면 두 금액을 서로 연결하기 어려워지지만, 지갑이 앱을 사용했다는 사실까지 숨겨지지는 않습니다.
 
 
 
@@ -74,8 +76,8 @@
 
 ---
 
-###  3단계: ZODL 지갑 준비  
-[**ZODL**](https://zodl.com)를 다운로드하세요. 이는 ZODL가 유지 관리하는 Zcash 지갑입니다. 수신 화면에서 **Zcash 투명 주소**(t1로 시작)를 복사합니다. 현재 encrypt.trade는 ZEC에 대해 실드 주소 또는 통합 주소를 허용하지 않습니다. 진행하기 전에 시드 구문을 안전하게 보관하세요.  
+###  3단계: ZODL 지갑 준비
+ZODL에서 관리하는 Zcash 지갑인 [**ZODL**](https://zodl.com)를 다운로드하세요. Receive 화면에서 **Zcash 투명 주소**(t1로 시작)를 복사하세요. 현재 encrypt.trade에서는 ZEC에 거래정보 보호 주소나 통합 주소를 사용할 수 없습니다. 계속 진행하기 전에 seed phrase를 안전하게 보관하세요.
 
 
 ![img7](/content-images/SykjhpgRll-60d19f6979.webp)
@@ -83,8 +85,8 @@
 
 ---
 
-###  4단계: 스왑  
-**encrypt.trade**로 돌아가 **Swap**으로 이동합니다. **eSOL/eUSDC -> ZEC**를 선택하고, ZODL 투명 주소를 붙여넣은 다음 세부 사항을 검토하고 확인합니다.
+###  4단계: 스왑
+**encrypt.trade**로 돌아가 **Swap**으로 이동하세요. **eSOL/eUSDC -> ZEC**를 선택하고 ZODL 투명 주소를 붙여 넣은 다음, 세부 정보를 확인하고 확정하세요.
 
 
 
@@ -96,7 +98,7 @@
 ![img9](/content-images/S1yoapgRle-6d2031a62c.webp)
 
 
-**NEAR Intents**가 크로스체인 라우팅을 처리하고 **ZEC**를 ZODL 지갑으로 보냅니다. 몇 분 정도 걸릴 수 있습니다. NEAR Intents는 크로스체인 스왑에 최대 15분을 허용할 것을 권장합니다.  
+**NEAR Intents**가 크로스체인 전송을 처리해 **ZEC**를 ZODL 지갑으로 보냅니다. 몇 분 정도 걸릴 수 있습니다. NEAR Intents에서는 크로스체인 스왑에 최대 15분이 걸릴 수 있다고 안내합니다.
 
 
 
@@ -104,17 +106,17 @@
 
 ---
 
-###  5단계: ZEC 실드 처리  
-ZEC가 도착하면 ZODL의 **Shield** 옵션을 사용하여 [실드 풀](/using-zcash/shielded-pools)로 이동하세요. 그전까지는 누구나 잔액을 볼 수 있는 투명 주소에 있습니다. 실드 처리는 이후 활동을 보호하지만, 수신 전송과 실드 처리 거래는 체인에 계속 공개됩니다. 항상 링크를 확인하고, 주소 재사용을 피하며, 먼저 소액으로 테스트하세요.  
+###  5단계: ZEC에 거래정보 보호 적용
+ZEC가 도착하면 ZODL의 **Shield** 옵션을 사용해 [거래정보 보호 구역](/using-zcash/shielded-pools)으로 옮기세요. 그때까지는 누구나 잔액을 확인할 수 있는 투명 주소에 보관됩니다. 거래정보 보호를 적용하면 이후의 활동은 보호되지만, 수신 전송과 거래정보 보호 적용 거래는 체인에 계속 표시됩니다. 링크를 항상 확인하고, 주소를 재사용하지 말고, 먼저 소액으로 테스트하세요.
 
 ---
 
-###  관련 주체 및 도움받는 곳  
-- **encrypt.trade**는 JMD Labs Inc.가 운영하는 앱입니다. [개인정보 처리방침](https://encrypt.trade/privacy)에 따르면 IP, 브라우저, 기기 세부 정보 같은 기술 데이터를 수집하고, 스왑 전에 지갑 주소, 최근 기록 및 잔액을 컴플라이언스 제공업체에 전송하며, 로그와 AML 심사 결과를 최대 5년간 보관할 수 있습니다. [이용 약관](https://encrypt.trade/terms)에서는 위치를 숨기기 위한 VPN 또는 프록시 사용을 금지합니다. 지원: help@encifher.io 또는 앱에서 연결되는 [Telegram 그룹](https://t.me/+ZWHGMW4ZHXQwYTZl).
-- **NEAR Intents**는 크로스체인 단계를 라우팅하고 ZEC를 전달합니다. [1Click API 약관](https://docs.near-intents.org/security-compliance/terms-of-service)과 near.com/privacy의 개인정보 처리방침을 참고하고, [NEAR Intents Explorer](https://explorer.near-intents.org)에서 스왑을 추적하며, [NEAR Intents Telegram](https://t.me/near_intents)에서 도움을 요청하세요.
+###  관련 서비스와 도움을 받을 수 있는 곳
+- **encrypt.trade**는 JMD Labs Inc.가 운영하는 앱입니다. [개인정보 보호정책](https://encrypt.trade/privacy)에 따르면 IP 주소, 브라우저와 기기 정보 등의 기술 데이터를 수집하고, 스왑 전에 지갑 주소, 최근 내역과 잔액을 규정 준수 서비스 제공업체에 전송합니다. 또한 최대 5년 동안 로그와 자금세탁 방지 심사 결과를 보관할 수 있습니다. [이용 약관](https://encrypt.trade/terms)에서는 위치를 숨기기 위해 VPN이나 프록시를 사용하는 것을 금지합니다. 지원 문의: help@encifher.io 또는 앱에서 연결되는 [Telegram 그룹](https://t.me/+ZWHGMW4ZHXQwYTZl)을 이용하세요.
+- **NEAR Intents**는 크로스체인 단계를 처리하고 ZEC를 전송합니다. [1Click API 이용 약관](https://docs.near-intents.org/security-compliance/terms-of-service)과 near.com/privacy의 개인정보 보호정책을 확인하고, [NEAR Intents Explorer](https://explorer.near-intents.org)에서 스왑을 추적하세요. 도움이 필요하면 [NEAR Intents Telegram](https://t.me/near_intents)에서 문의하세요.
 
-약관과 지원되는 주소는 변경될 수 있으므로, 큰 금액을 스왑하기 전에 최신 버전을 확인하세요. 더 넓은 관점은 [비수탁형 거래소](/using-zcash/non-custodial-exchanges)를 참고하세요.
+약관과 지원 주소는 변경될 수 있으므로, 큰 금액을 스왑하기 전에 최신 내용을 확인하세요. 더 넓은 맥락은 [비커스터디형 거래소](/using-zcash/non-custodial-exchanges)에서 확인하세요.
 
 ---
 
-**Solana**, **Zcash**, **NEAR Intents**를 결합하여 **encrypt.trade**는 SOL 또는 USDC에서 ZEC로 빠르게 이동할 수 있는 경로를 제공합니다. Solana에서는 금액을 숨기지만 처음부터 끝까지 비공개인 것은 아니므로, ZEC가 도착하면 실드 처리하세요.
+**Solana**, **Zcash**, **NEAR Intents**를 결합하면 **encrypt.trade**를 통해 SOL 또는 USDC에서 ZEC로 빠르게 이동할 수 있습니다. Solana에서 금액을 숨기지만 처음부터 끝까지 프라이버시를 보장하지는 않으므로, ZEC가 도착하면 거래정보 보호를 적용하세요.

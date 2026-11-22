@@ -1,30 +1,30 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/zk_SNARKS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-# ZKP & zk-SNARKs
+# 영지식 증명 및 zk-SNARK
 
-## TL;DR
+## 핵심 요약
 
 - **zk-SNARKs** = 영지식 간결 비대화형 지식 논증
-- 한쪽 당사자가 정보 자체를 공개하지 않고도 **무언가를 알고 있음을 증명할 수 있게 해줍니다**
-- Zcash는 zk-SNARKs를 사용하여 거래가 유효함(올바른 금액, 미사용 입력)을 **보낸 사람, 받는 사람 또는 금액을 공개하지 않고** 증명합니다
-- "간결"은 복잡한 명제의 경우에도 증명이 매우 작고 빠르게 검증될 수 있음을 의미합니다
-- Orchard 풀은 **신뢰 설정이 필요 없는** zk-SNARK 시스템인 Halo 2를 사용합니다
+- 한쪽 당사자는 정보 자체를 공개하지 않고도 **무언가를 알고 있음을 증명**할 수 있습니다
+- Zcash은 zk-SNARKs을 사용해 거래가 유효함을 증명합니다(금액이 정확하고 입력이 사용되지 않았음). **송신자, 수신자 또는 금액을 공개하지 않습니다**
+- “간결”하다는 것은 복잡한 명제도 증명이 작고 빠르게 검증된다는 뜻입니다
+- Orchard 풀은 Halo 2를 사용합니다. 이는 **트러스트 셋업이 필요 없는** zk-SNARK 시스템입니다
 
 ---
 
-## 증명이란 무엇인가?
+## 증명이란 무엇인가요?
 
-증명은 모든 수학의 기초입니다. 증명은 당신이 증명하려는 주장 또는 정리와, 그 정리가 증명되었음을 선언하기 위해 만들어진 도출 과정의 순서입니다. 예를 들어 삼각형의 각도 총합이 180°라는 것은 누구나 독립적으로 확인할 수 있습니다(검증자).
+증명은 모든 수학의 기초입니다. 증명은 증명하려는 주장이나 정리, 그리고 정리가 증명되었음을 선언하기 위해 수행하는 연속적인 추론으로 이루어집니다. 예를 들어, 삼각형의 모든 각도의 합은 180°라는 사실은 누구나 독립적으로 확인할 수 있습니다(검증자).
 
 **증명**
 
-증명자 ---> 주장 ---> 검증자 선택 ---> 승인/거부
+증명자 ---> 주장 제시 ---> 검증자 선택 ---> 수락/거부
 
 (증명자와 검증자는 모두 알고리즘입니다)
 
-컴퓨터 과학에서 효율적으로 검증 가능한 증명을 NP 증명이라고 합니다. 이러한 짧은 증명은 다항식 시간 내에 검증할 수 있습니다. 일반적인 아이디어는 "정리에 대한 해가 존재하며, 그 해는 검증자에게 전달되어 확인된다"는 것입니다.
+컴퓨터 과학에서 효율적으로 검증할 수 있는 증명을 NP 증명이라고 합니다. 이 짧은 증명은 다항 시간 내에 검증할 수 있습니다. 기본 개념은 “정리에 대한 해가 존재하고, 그 해를 검증자에게 전달해 확인하게 한다”는 것입니다.
 
 
 <a href="">
@@ -32,18 +32,17 @@
 </a>
 
 
-NP 언어에서 두 가지 조건이 충족되어야 합니다:
+NP 언어에서는 2가지 조건이 성립해야 합니다:
 
-완전성: 진실한 주장은 검증자가 승인합니다(정직한 증명자가 검증에 도달할 수 있도록 허용).
+완전성: 참인 주장은 검증자가 수락합니다(정직한 증명자가 검증을 통과할 수 있게 합니다).
 
-신뢰성: 거짓된 주장에는 증명이 존재하지 않습니다(모든 부정행위를 시도하는 증명자 전략에도 불구하고, 잘못된 주장을 올바르게 증명할 수 없습니다).
+건전성: 거짓인 주장에는 증명이 없습니다(어떤 부정행위 증명자 전략을 사용하더라도 잘못된 주장이 옳음을 증명할 수 없습니다).
 
+### 대화형 및 확률적 증명
 
-### 상호작용적 및 확률적 증명
+**상호작용**: 검증자는 단순히 증명을 읽는 대신, 여러 메시지 라운드에 걸쳐 증명자와 번갈아 소통합니다.
 
-**상호작용**: 단순히 증명을 읽는 것이 아니라, 검증자는 여러 메시지 라운드를 통해 증명자와 오가하는 대화에 참여합니다.
-
-**난수성**: 검증자가 증명자에게 요청하는 것은 무작위이며, 증명자는 각 요청에 대해 올바르게 답해야 합니다. 
+**무작위성**: 검증자가 증명자에게 보내는 요청은 무작위로 정해지며, 증명자는 각 요청에 올바르게 답할 수 있어야 합니다.
 
 
 <a href="">
@@ -51,180 +50,180 @@ NP 언어에서 두 가지 조건이 충족되어야 합니다:
 </a>
 
 
-상호작용과 난수성을 함께 사용하면 확률 다항 시간(PPT) 내에서 맹검 검증자에게 주장이 증명될 수 있습니다.
+상호작용과 무작위성을 함께 사용하면 확률적 다항 시간(PPT) 내에 눈이 먼 검증자에게 주장을 증명할 수 있습니다.
 
-상호작용 증명은 NP 증명보다 더 효율적으로 검증할 수 있나요?
+대화형 증명은 NP 증명보다 더 많은 것을 효율적으로 검증할 수 있을까요?
 
-NP 증명 vs IP 증명:
+NP 증명 대 IP 증명:
 
 |  명제   |    NP     | IP    |
 |--------------|-----------|--------|
 |    NP        |  예      |  예   |
-|    CO-NP     |  아니오       |  예   |
-|    #P        |  아니오       |  예   |
-|    PSPACE    |  no       |  yes   |
+|    CO-NP     |  아니요       |  예   |
+|    #P        |  아니요       |  예   |
+|    PSPACE    |  아니요       |  예   |
 
 
-NP - 문장에 대한 해가 존재함
+NP - 명제에 대한 해가 존재함
 
-CO-NP - 문장에 해가 없음을 증명함
+CO-NP - 명제에 대한 해가 존재하지 않음을 증명함
 
-#P - 문장에 몇 개의 해가 있는지 세는 것
+#P - 명제에 대한 해가 몇 개인지 셈함
 
-PSPACE  - 서로 다른 문장들의 교대를 증명하는 것
+PSPACE - 서로 다른 명제들이 번갈아 나타나는 것을 증명함
 
-### 제로 커널이란 무엇인가?
+### 영지식이란 무엇인가요?
 
-검증자가 상호작용 후 계산할 수 있는 내용은 이전에 증명할 수 있었던 것과 동일하다. 증명자와 검증자 간의 다단계 상호작용은 검증자의 계산 능력을 증가시키지 않는다.
+상호작용 후 검증자가 계산할 수 있는 것은 상호작용 전에 증명할 수 있었던 것과 동일합니다. 증명자와 검증자가 여러 라운드에 걸쳐 상호작용해도 검증자의 계산 능력이 늘어나지는 않습니다.
 
 **시뮬레이션 Paradigm**
 
-이 실험은 암호학 전반에 걸쳐 존재한다. "실제 시점"과 "시뮬레이션 시점"을 제시한다.
+이 실험은 암호학 전반에서 사용됩니다. “실제 뷰”와 “시뮬레이션 뷰”를 제시합니다.
 
-실제 시점: 증명자와 검증자(P,V) 간의 모든 가능한 상호작용 역사
+실제 뷰: 증명자와 검증자(P,V) 사이에서 발생할 수 있는 모든 상호작용 기록
 
-시뮬레이션 시점: 검증자가 증명자와 검증자 간의 모든 가능한 상호작용을 시뮬레이션함
+시뮬레이션 뷰: 검증자가 증명자와 검증자 사이에서 발생할 수 있는 모든 상호작용을 시뮬레이션합니다
 
 <a href="">
     <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
-다항 시간 구분자는 실제 또는 시뮬레이션 시점을 보고 있는지 판단하려고 시도하고, 두 가지 모두에서 샘플을 반복적으로 요청한다.
+다항 시간 판별자는 자신이 실제 뷰를 보는지 시뮬레이션 뷰를 보는지 알아내려 시도하며, 양쪽에서 반복해서 표본을 요청합니다.
 
-두 시점이 "계산적으로 구분 불가능"하다는 것은 모든 구분 알고리즘/전략에 대해, 실제 또는 시뮬레이션 시점으로부터 다항 수의 샘플을 받은 후에도 확률이 >1/2인 경우이다.
+실제 뷰 또는 시뮬레이션 뷰에서 다항 개수의 표본을 받은 뒤에도 모든 판별 알고리즘이나 전략에 대해 확률이 >1/2이면, 두 뷰는 “계산적으로 구별 불가능”하다고 합니다.
 
-**제로 커널 지식 증명**
+**영지식 지식 논증**
 
-상호작용 프로토콜(P,V)이 제로 커널임은, 모든 확률 다항 시간 검증자(정리가 올바를 때)에 대해 시뮬레이터(알고리즘)가 존재하여 실제와 시뮬레이션 시점의 확률 분포가 계산적으로 구분 불가능하다는 것이다.
+대화형 프로토콜(P,V)은 시뮬레이터(알고리즘)가 존재하여, 모든 확률적 다항 시간 검증자(정리가 옳을 때)에 대해 실제 뷰와 시뮬레이션 뷰를 판별하는 확률 분포가 계산적으로 구별 불가능하다면 영지식입니다.
 
-상호작용 프로토콜은 단일 검증자가 있을 때 유용하다. 예를 들어, 제로 커널 '세금 증명' 애플리케이션에서 세무 감사관이다.
+대화형 프로토콜은 검증자가 한 명일 때 유용합니다. 예를 들어 영지식 ‘세금 납부 증명’ 애플리케이션에서 세무 감사관이 검증자가 될 수 있습니다.
 
-## SNARK란 무엇인가?
+## SNARK란 무엇인가요?
 
-**간결한 비상호작용 지식 증명**
+**간결 비대화형 지식 논증**
 
-광의의 정의 - 진술이 참임을 간결하게 증명하는 것. 증명은 짧고 빠르게 검증되어야 한다. SNARK에서는 증명자가 검증자에게 단일 메시지를 전송한다. 이후 검증자는 수락하거나 거부할 수 있다.
+광의의 정의로는 명제가 참이라는 간결한 증명입니다. 증명은 짧고 검증이 빨라야 합니다. SNARK에서는 증명자가 검증자에게 메시지 하나를 보냅니다. 그러면 검증자는 이를 수락하거나 거부할 수 있습니다.
 
-예시 진술: "메시지(m)를 알고 있고, SHA256(m)=0인 경우"
+명제의 예: “SHA256(m)=0인 메시지(m)를 알고 있다”
 
-zk-SNARK 증명은 메시지(m)에 대해 아무것도 드러내지 않는다.
+zk-SNARK에서 증명은 메시지(m)에 관한 어떤 정보도 드러내지 않습니다.
 
-**다항식**: 상수(예: 1, 2, 3), 변수(예: x, y, z), 변수의 지수(예: x², y³)를 포함하는 항들의 합
+**다항식**: 상수(예: 1,2,3), 변수(예: x,y,z), 변수의 지수(예: x², y³)를 포함하는 항들의 합입니다.
 
-예시: "3x² + 8x + 17"
+예: “3x² + 8x + 17”
 
-**산술 회로**: 다항식을 계산하기 위한 모델. 일반적으로 이는 각 노드에서 산술 연산이 수행되는 방향성 없는 순환 그래프로 정의될 수 있다. 회로는 덧셈 게이트, 곱셈 게이트 및 상수 게이트로 구성된다. 비트를 전선에 통해 운반하는 부울 회로와 마찬가지로 산술 회로는 정수를 운반한다.
+**산술 회로**: 다항식을 계산하기 위한 모델입니다. 더 일반적으로는 그래프의 각 노드에서 산술 연산을 수행하는 유향 비순환 그래프로 정의할 수 있습니다. 회로는 덧셈 게이트, 곱셈 게이트 및 일부 상수 게이트로 구성됩니다. 불 회로가 와이어로 비트를 전달하는 것처럼, 산술 회로는 정수를 전달합니다.
 
 
 <a href="">
 <img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
-이 예시에서 증명자는 검증자가 산술 회로의 해를 알고 있음을 설득하고자 한다.
+이 예에서 증명자는 자신이 산술 회로의 해를 알고 있다고 검증자를 설득하려 합니다.
 
-**커밋먼트**: 이를 위해 증명자는 회로와 관련된 모든 값(공개 및 비공개)을 커밋먼트에 넣습니다. 커밋먼트는 출력이 역전되지 않는 함수를 사용하여 입력값을 숨깁니다.
+**커밋먼트**: 이를 위해 증명자는 회로와 관련된 모든 값(비공개 및 공개)을 커밋먼트에 담습니다. 커밋먼트는 출력값을 되돌릴 수 없는 함수를 사용해 입력값을 숨깁니다.
 
-SHA-256은 커밋먼트 스키마에서 사용할 수 있는 해시 함수의 예입니다.
+SHA256은 커밋먼트 방식에 사용할 수 있는 해시 함수의 한 예입니다.
 
-증명자가 값에 커밋한 후, 커밋먼트는 검증자에게 전달됩니다(검증자가 원래 값을 알아낼 수 없다는 것을 확신합니다). 증명자는 이후 그래프의 노드에 있는 각각의 값을 알고 있음을 검증자에게 보여줄 수 있습니다.
+증명자가 값에 커밋하면 커밋먼트가 검증자에게 전송됩니다(검증자는 원래 값 중 어느 것도 알아낼 수 없다고 확신합니다). 그런 다음 증명자는 그래프 노드에 있는 각 값을 알고 있음을 검증자에게 보여줄 수 있습니다.
 
-**피아트-샴리르 변환**
+**피아트-샤미르 변환**
 
-프로토콜을 *비상호적*으로 만들기 위해 증명자는 암호화 해시 함수를 사용하여 검증자의 대신 랜덤성을 생성합니다(숨겨진 도전에 사용됨). 이는 랜덤 오라클이라고 알려져 있습니다. 증명자는 이후 단일 메시지를 검증자에게 전송할 수 있으며, 검증자는 이를 확인할 수 있습니다.
+프로토콜을 *비대화형*으로 만들기 위해 증명자는 암호학적 해시 함수를 사용해 검증자를 대신하여 무작위성(숨겨진 도전에 사용됨)을 생성합니다. 이를 랜덤 오라클이라고 합니다. 그러면 증명자가 메시지 하나를 검증자에게 보낼 수 있고, 검증자는 그 메시지가 올바른지 확인할 수 있습니다.
 
-일반 회로를 위한 SNARK를 형성하기 위해 두 가지 요소가 필요합니다:
+일반 회로에 사용할 수 있는 SNARK를 구성하려면 2가지 요소가 필요합니다:
 
-기능 커밋먼트 스키마: 커미터는 다항식을 짧은 문자열로 커밋하고, 검증자는 커밋된 다항식의 주장된 평가를 확인할 수 있도록 합니다.
+함수형 커밋먼트 방식: 커밋자가 짧은 문자열로 다항식에 커밋할 수 있게 하며, 검증자는 이 문자열을 사용해 커밋된 다항식의 주장된 평가값을 확인할 수 있습니다.
 
-다항식 상호 오라클: 검증자가 증명자(알고리즘)에게 자신이 선택한 다양한 지점에서 커밋먼트를 열도록 요청하고, 다항식 커밋먼트 스키마를 사용하여 그들 사이의 정체성을 확인합니다.
+다항식 대화형 오라클: 검증자는 증명자(알고리즘)에게 다항식 커밋먼트 방식을 사용해 자신이 선택한 여러 지점에서 모든 커밋먼트를 공개하도록 요청하고, 그 사이의 항등식이 성립하는지 확인합니다.
 
-**설정**
+**셋업**
 
-설정 절차는 회로를 요약하고 공개 파라미터를 출력함으로써 검증자에게 도움을 줍니다.
+셋업 절차는 회로를 요약하고 공개 매개변수를 출력해 검증자를 돕습니다.
 
 <a href="">
 <img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
-**사전 처리 설정 유형**:
+**사전 처리 셋업의 유형**:
 
-회로별 신뢰 설정 - 각 회로마다 별도로 실행됩니다. 그 결과 생성되는 공통 참조 문자열(CRS)에는 증명자와 검증자가 사용하는 공개 매개변수가 포함됩니다. 비밀로 유지하고 파기해야 하는 것은 CRS가 아니라 비밀 중간 설정 자료("toxic waste")입니다. ECC의 [공개 매개변수 설명](https://zodl.com/snark-parameters/)은 둘을 구분합니다.
+회로별 트러스트 셋업 - 각 회로마다 별도로 실행합니다. 그 결과 생성되는 공통 참조 문자열(CRS)에는 증명자와 검증자가 사용하는 공개 매개변수가 포함됩니다. 비밀 중간 셋업 자료(“독성 폐기물”)는 비밀로 유지하고 폐기해야 하지만, CRS는 그렇지 않습니다. ECC의 [공개 매개변수 설명](https://zodl.com/snark-parameters/)에서는 두 가지를 구분합니다.
 
-필요한 비밀 설정 자료가 보존되거나 복구되면, 불량한 증명자가 거짓 진술에 대한 증명을 생성할 수 있습니다. MPC 세리머니에서는 최소 한 명의 참여자가 프로토콜을 따르고 자신의 비밀 기여분을 파기하는 것에 보안이 좌우될 수 있습니다.
+필요한 비밀 셋업 자료가 보관되거나 복구되면, 부정직한 증명자가 거짓 명제의 증명을 만들어낼 수 있습니다. MPC 의식의 보안은 프로토콜을 따르고 자신의 비밀 기여분을 폐기하는 참여자가 최소 1명 존재하는지에 달려 있을 수 있습니다.
 
-신뢰되지만 보편적인 설정 - 단일 신뢰 설정은 지원되는 크기 범위 내의 여러 회로에 대한 증명 및 검증 키를 도출하는 데 사용할 수 있는 매개변수를 생성합니다. 여기에는 여전히 비밀 폐기 가정이 따릅니다. 보편적이라고 해서 투명하다는 뜻은 아닙니다.
+트러스트 셋업이지만 범용인 방식 - 신뢰된 단일 셋업으로, 지원되는 크기 범위 안에서 여러 회로의 증명 키와 검증 키를 도출하는 데 사용할 수 있는 매개변수를 생성합니다. 여기에도 비밀 폐기라는 가정이 따릅니다. 범용이라는 말이 투명하다는 뜻은 아닙니다.
 
-투명 설정(신뢰 설정 없음) - 공개 매개변수는 누군가가 반드시 파기할 것이라고 신뢰해야 하는 비밀 설정 트랩도어 없이 생성할 수 있습니다. 이는 증명에 랜덤성을 사용하지 않거나 시스템에 공개 매개변수가 없다는 의미는 아닙니다. [Halo 2 책](https://zcash.github.io/halo2/background/pc-ipa.html#setup)은 공개 그룹 매개변수의 예를 제시합니다.
+투명 셋업(트러스트 셋업 없음) - 누군가가 폐기할 것이라고 신뢰해야 하는 비밀 셋업 트랩도어 없이 공개 매개변수를 생성할 수 있습니다. 그렇다고 증명 과정에 무작위성이 필요 없다거나 시스템에 공개 매개변수가 없다는 뜻은 아닙니다. [Halo 2 책](https://zcash.github.io/halo2/background/pc-ipa.html#setup)은 공개 그룹 매개변수의 예를 제공합니다.
 
 
-**SNARK 증명 구축 유형**:
+**SNARK 증명 구성의 유형**:
 
-[Groth16](https://eprint.iacr.org/2016/260): 신뢰 설정이 필요하지만 빠르게 검증할 수 있는 매우 짧은 증명을 제공합니다.
+[Groth16](https://eprint.iacr.org/2016/260): 트러스트 셋업이 필요하지만, 증명이 매우 짧아 빠르게 검증할 수 있습니다.
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): 보편적인 신뢰 설정.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): 범용 트러스트 셋업을 사용합니다.
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 신뢰 설정이 필요하지 않지만, 증명이 약간 더 길거나 증명자가 실행하는 데 시간이 더 오래 걸릴 수 있습니다.
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): 트러스트 셋업이 필요하지 않지만, 증명이 약간 더 길거나 증명자의 실행 시간이 더 오래 걸릴 수 있습니다.
 
-SNARKS are useful when multiple verifiers are needed such as a blockchain like Zcash or zk-Rollup such as [Aztec](https://docs.aztec.network) so that multiple validating nodes don't have to interact over several rounds with each proof. 
+SNARK는 Zcash 같은 블록체인이나 [Aztec](https://docs.aztec.network) 같은 zk-Rollup처럼 여러 검증자가 필요한 경우 유용합니다. 각 증명마다 여러 검증 노드가 여러 라운드에 걸쳐 상호작용할 필요가 없기 때문입니다.
 
-## Zcash에서 zk-SNARK는 어떻게 구현되나요?
+## zk-SNARK은 Zcash에서 어떻게 구현되나요?
 
-일반적으로 제로 지식 증명은 정보를 드러내지 않고 프로토콜 내에서 정직한 행동을 강제하는 도구입니다.
+일반적으로 영지식 증명은 정보를 공개하지 않고 프로토콜에서 정직한 행동을 강제하는 도구입니다.
 
-Zcash는 개인 거래가 가능한 공개 블록체인입니다. zk-SNARK는 네트워크의 합의 규칙에 따라 비공개 거래가 유효함을 증명하면서도 거래에 대한 다른 세부 사항은 드러내지 않습니다.
+Zcash은 프라이빗 거래를 지원하는 공개 블록체인입니다. zk-SNARK은 거래의 다른 세부 정보를 공개하지 않고도 프라이빗 거래가 네트워크 합의 규칙에 따라 유효함을 증명하는 데 사용됩니다.
 
-[영상 설명](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - 이 강의에서 Ariel Gabizon이 Zcash 노트 커밋먼트 트리, 블라인드 다항식 평가 및 동형으로 숨겨진 도전과 그들이 네트워크에 어떻게 구현되는지 설명합니다.
+[영상 설명](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - 이 강의에서 Ariel Gabizon은 Zcash 노트 커밋먼트 트리, 블라인드 다항식 평가, 동형적으로 숨겨진 도전에 대해 설명하고, 이것들이 네트워크에서 어떻게 구현되는지 살펴봅니다.
 
-Read the [Halo2 book](https://zcash.github.io/halo2/index.html) for more information.
+자세한 내용은 [Halo2 책](https://zcash.github.io/halo2/index.html)을 읽어보세요.
 
-## Other Zero-Knowledge Applications 
+## 기타 영지식 응용 분야
 
-zk-SNARKs는 다양한 애플리케이션에서 여러 가지 장점을 제공합니다. 몇 가지 예를 살펴보겠습니다.
+zk-SNARKs은 다양한 응용 분야에서 여러 이점을 제공합니다. 몇 가지 예를 살펴보겠습니다.
 
-**Scalability**: This is achieved by 'Outsourcing Computation'. There is no strict need for zero-knowledge for an L1 chain to verify the work of an off-chain service. Transactions are not necessarily private on a zk-EVM.
+**scalability**: 이는 ‘계산 외주화’를 통해 달성됩니다. L1 체인이 오프체인 서비스의 작업을 검증하는 데 영지식이 반드시 필요한 것은 아닙니다. zk-EVM에서 거래가 반드시 비공개인 것도 아닙니다.
 
-The advantage of a proof based Rollup (zk-Rollup) service is to process a batch of hundreds/thousands of transactions & the L1 is able to verify a succinct proof that all transactions were processed correctly, scaling the networks transaction throughput by a factor of 100 or 1000.
+증명 기반 롤업(zk-Rollup) 서비스의 장점은 수백 또는 수천 건의 거래를 한꺼번에 처리할 수 있다는 것입니다. L1은 모든 거래가 올바르게 처리되었음을 보여주는 간결한 증명을 검증할 수 있으므로, 네트워크의 거래 처리량이 100배 또는 1,000배로 늘어납니다.
 
 <a href="">
   <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 
-**Interoperability**: This is achieved on a zk-Bridge by 'locking' assets on a source chain and proving to the target chain the assets have been locked (proof of consensus).
+**상호운용성**: zk-브릿지에서는 자산을 소스 체인에 ‘잠그고’, 자산이 잠겼음을 타깃 체인에 증명해 이를 달성합니다(합의 증명).
 
-**Compliance**: Projects such as [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) are able to prove that a private transaction is compliant with local banking laws without revealing the details of the transaction. 
+**규정 준수**: [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) 같은 프로젝트는 거래 세부 정보를 공개하지 않고도 프라이빗 거래가 현지 은행법을 준수함을 증명할 수 있습니다.
 
-**Fighting Disinformation**: Among several examples outside of blockchain & cryptocurrency, the use of proof generation on images that have been processed by news & media outlets to enable viewers to independently verify the source of an image and all operations performed on it. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
+**허위 정보 대응**: 블록체인 및 암호화폐 이외의 여러 사례 중 하나로, 뉴스 및 미디어 매체에서 처리한 이미지에 증명을 생성해 시청자가 이미지의 출처와 이미지에 수행된 모든 작업을 독립적으로 확인할 수 있게 하는 방식이 있습니다. https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
 
 
 ____
 
 
-Further Learning: 
+더 알아보기:
 
-[Zero-Knowledge Bibliography - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
+[영지식 참고 문헌 - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
 
-[zkSNARK's with Hanh Huynh Huu](https://www.youtube.com/watch?v=zXF-BDohZjk)
+[Hanh Huynh Huu와 함께하는 zkSNARK](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
-[Zcash: Halo 2 and SNARKs without Trusted Setups - Sean Bowe on Dystopia labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Zcash: Halo 2 및 트러스트 셋업 없는 SNARK - Dystopia labs의 Sean Bowe](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
-[Zero knowledge Proofs with Avi Wigderson - Numberphile](https://youtu.be/5ovdoxnfFVc)
+[Avi Wigderson과 함께 알아보는 영지식 증명 - Numberphile](https://youtu.be/5ovdoxnfFVc)
 
-[Interactive Zero-Knowledge Proofs - Chainlink article](https://blog.chain.link/interactive-zero-knowledge-proofs/)
+[대화형 영지식 증명 - Chainlink 기사](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
-[Lecture 1: Introduction and History of ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
+[강의 1: ZKP 소개와 역사 - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 
-[Simple Explanation of Arithmetic Circuits - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
+[산술 회로를 쉽게 설명하기 - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
-[Scalability is Boring, Privacy is Dead: ZK-Proofs, What are They Good for?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
+[scalability는 지루하고 프라이버시는 죽었다: 영지식 증명은 무엇에 쓸 수 있을까?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
 
 ---
 
-## Related Pages
+## 관련 페이지
 
-- [Shielded Pools](/using-zcash/shielded-pools) — zk-SNARKs가 Zcash 가치 풀에서 사용되는 방식
-- [Halo](/zcash-tech/halo) — 신뢰 설정을 없애는 Zcash의 zk-SNARK 시스템
-- [Zcash의 양자 내성 보안](/zcash-tech/post-quantum-security) - 미래의 양자 위험이 Zcash 암호학과 관련되는 방식
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — zk-SNARK 기술을 기반으로 구축된 ZSA
-- [ZEC와 Zcash란 무엇인가](/start-here/what-is-zec-and-zcash) — Zcash 및 그 프라이버시 모델 소개
-- [누가 당신의 Zcash 결제를 볼 수 있나요?](/start-here/who-can-see-your-zcash-payment) — 무엇이 공개되고, 실드가 무엇을 숨기는지
+- [거래정보 보호 구역](/using-zcash/shielded-pools) — zk-SNARKs는 Zcash의 가치 풀에서 어떻게 사용될까요?
+- [Halo](/zcash-tech/halo) — Zcash의 트러스트 셋업을 없앤 zk-SNARK 시스템
+- [Zcash](/zcash-tech/post-quantum-security)의 양자 이후 보안 - 미래의 양자 위험은 Zcash 암호화와 어떤 관련이 있을까요?
+- [Zcash 거래정보 보호 자산](/zcash-tech/zcash-shielded-assets) — zk-SNARK 기술을 기반으로 한 ZSA
+- [ZEC란 무엇이며 Zcash](/start-here/what-is-zec-and-zcash) — Zcash와 그 프라이버시 모델 소개
+- [누가 사용자의 Zcash 결제를 볼 수 있을까요?](/start-here/who-can-see-your-zcash-payment) — 공개되는 정보와 거래정보 보호가 숨기는 정보

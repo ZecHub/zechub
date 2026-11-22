@@ -1,129 +1,140 @@
-# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="기자 아이콘"/> Zcash를 사용하여 비공개 커뮤니티 펀드 운영
+# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="Journalist icon"/>  Zcash으로 비공개 공동체 공동 기금 운영하기
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
   중급 - 7분
 </span>
 
-## TL;DR
+## 핵심 요약
 
-- 공유 자금을 보호된 주소로 보관하세요.
-- 잔액과 거래 내역의 가시성을 제한하세요.
-- 운영 역할을 공개 신원에서 분리하세요.
-- 내부 책임감을 위해 메모를 사용하세요.
-
-<br/>
-
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="사용자 아이콘"/> 이 문서는 누구에게 적합한가요?
-
-- DAO 및 커뮤니티
-- 보조금 프로그램
-- 오픈소스 팀
-- 암호화폐 집단
+- 공동 자금을 보관할 때 거래정보 보호 주소를 사용합니다
+- 잔액과 거래 내역의 공개 범위를 제한합니다
+- 운영 역할과 공개된 신원을 분리합니다
+- 내부 책임 추적을 위해 메모를 사용합니다
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="경고 아이콘"/> 문제점
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> 대상
 
-공개 블록체인 상의 커뮤니티 자금은 다음을 노출시킬 수 있습니다:
-- 전체 펀드 잔액
+- DAO 및 공동체
+- 개발 지원금 프로그램
+- 오픈 소스 팀
+- 암호화폐 공동체
+  
+
+<br/>
+
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> 문제점
+
+공개 블록체인에서 공동체 자금을 관리하면 다음 정보가 노출됩니다:
+- 공동 기금의 총 잔액
 - 지출 내역
 - 기여자 신원
 
-이로 인해 다음과 같은 위험이 발생할 수 있습니다:
-- 자금에 대한 공격
-- 투명성 압력으로 인한 내부 갈등
-- 전략적 프라이버시의 손실
+이로 인해 다음과 같은 위험이 발생합니다:
+- 자금 탈취 표적이 될 위험
+- 투명성 압박으로 인한 내부 갈등
+- 전략적 프라이버시의 상실
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> Zcash의 장점
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcash을 사용하는 이유
 
-Zcash는 커뮤니티가 다음과 같이 할 수 있도록 합니다:
-- 자금을 비공개로 보관
-- 세부 정보를 노출하지 않고 거래를 실행
-- 공개 없이 내부 책임감 유지
-
-<br/>
-
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="도구 상자 아이콘"/> 필요한 사항
-
-- Zcash 지갑 (역할 분리를 위해 여러 지갑 사용 가능)
-- 자금 관리를 위한 명확한 내부 프로세스
-- 선택사항: 추적을 위한 공유 문서
+Zcash을 사용하면 공동체는 다음을 할 수 있습니다:
+- 자금을 비공개로 보관합니다
+- 세부 정보를 노출하지 않고 거래를 실행합니다
+- 외부에 공개하지 않으면서 내부 책임 추적 체계를 유지합니다
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="단계 아이콘"/> 단계별 가이드
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> 준비물
 
-### 단계 1: 보호된 펀드 주소 생성
+- Zcash 지갑 (또는 역할을 분리하기 위한 여러 지갑)
+- 자금 관리에 관한 명확한 내부 절차
+- 선택 사항: 내역 추적을 위한 공유 문서
 
-- **z-주소**를 만들어 펀드에 사용
-- 이 주소가 기본 보유 계좌가 됩니다.
+<br/>
 
-### 단계 2: 역할 정의
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> 단계별 안내
 
-책임을 분리하세요:
-- 재무 담당자 (자금 조절)
+### 1단계: 거래정보 보호 공동 기금 주소 만들기
+
+- 공동 기금용 **z-address**를 생성합니다
+- 이 주소가 주요 자금 보관 계정이 됩니다
+
+
+### 2단계: 역할 정하기
+
+책임을 분리합니다:
+- 공동 기금 관리자 (자금 관리)
 - 기여자 (지출 요청)
 - 검토자 (내부 승인)
 
-공개 신원과 연결되지 않도록 주의하세요.
+이러한 역할을 공개된 신원과 연결하지 마세요.
 
-### 단계 3: 비공개 자금 수령
 
-- 보호된 주소를 통해 기여를 받으세요
-- 기여자에게 보호된 지갑에서 보내도록 권장하세요
 
-### 단계 4: 내부 거래 추적
+### 3단계: 비공개로 자금 받기
 
-사용:
+- 거래정보 보호 주소로 기부금을 받습니다
+- 기여자가 거래정보 보호 지갑에서 보내도록 권장합니다
+
+
+
+### 4단계: 거래 내역을 내부적으로 추적하기
+
+다음 방법을 사용합니다:
 - 지갑 메모
-- 오프체인 로그 (예: 공유 문서)
+- 오프체인 기록 (예: 공유 문서)
 
-메모 예시:
- - 보조금 #12 - 개발자 지급
+메모 예시: 
+ - 개발 지원금 #12 - 개발자 결제
 
-### 단계 5: 비공개 결제 실행
 
-- 보호된 거래를 통해 자금을 이동 (z → z)
-- 수령자의 신원을 공개하지 않도록 주의하세요
 
-<br/>
+### 5단계: 비공개로 결제 실행하기
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="취소 아이콘"/> 피해야 할 일반적인 실수
-
-- 펀드에 투명 주소 사용
-- 지갑 잔액을 공개
-- 내부 거래 추적 생략
-- 펀드 주소를 식별 가능한 개인과 연결
+- 거래정보 보호 거래(z → z)를 통해 자금을 보냅니다
+- 수취인의 신원을 공개적으로 노출하지 마세요
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="완료 아이콘"/> 결과
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> 피해야 할 흔한 실수
 
-커뮤니티는 다음과 같이 할 수 있습니다:
-- 자금을 안전하게 관리
-- 기여자와 수령자를 보호
-- 재무 전략을 노출하지 않고 운영
+- 공동 기금에 투명 주소 사용하기  
+- 지갑 잔액을 공개적으로 게시하기  
+- 거래 내역을 내부적으로 추적하지 않기  
+- 공동 기금 주소를 신원을 알아볼 수 있는 개인과 연결하기  
 
-<br/>
-
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="연결 아이콘"/> 관련 문서
-
-- [누가 당신의 Zcash 결제를 볼 수 있나요](/start-here/who-can-see-your-zcash-payment)
-- [신분을 연결하지 않고 돈 보내기](/zcash-use-cases/send-money-without-linking-identity)
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="진행 아이콘"/> 진행 상황
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> 결과
+
+공동체는 다음과 같이 할 수 있습니다:
+- 자금을 안전하게 관리합니다
+- 기여자와 수취인을 보호합니다
+- 재정 전략을 노출하지 않고 운영합니다
+
+
+<br/>
+
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> 관련 문서
+
+- [Zcash 결제를 누가 볼 수 있나요](/start-here/who-can-see-your-zcash-payment)
+- [신원을 연결하지 않고 송금하기](/zcash-use-cases/send-money-without-linking-identity)
+ 
+
+<br/>
+
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> 진행 상황
 
 **6단계 중 5단계**
 
-공유 자금을 비공개로 관리하는 방법을 이해하셨습니다.
+공동 자금을 비공개로 관리하는 방법을 익혔습니다.
 
  <br/>
 
 ## 다음 단계
 
-- [기자 프라이버시 설정](/zcash-use-cases/journalist-privacy-setup)
+- [기자를 위한 프라이버시 설정](/zcash-use-cases/journalist-privacy-setup)

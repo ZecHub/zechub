@@ -4,17 +4,17 @@
 
 # 중앙화 스왑 플랫폼
 
-ZecHub는 특정 거래소 서비스를 보증하지 않습니다. 직접 조사한 뒤 이용하세요.
+ZecHub은 특정 거래소 서비스를 보증하지 않습니다. 직접 조사해 보시기 바랍니다.
 
-아래의 각 `###` 제목은 https://zechub.wiki/using-zcash/centralizedswaps 페이지의 카드 하나에 해당합니다.
-여기에서 블록을 추가, 편집 또는 삭제하면 위키가 이 파일에서 내용을 가져옵니다.
+아래의 각 `###` 제목은 https://zechub.wiki/using-zcash/centralizedswaps.에 표시되는 카드입니다.
+여기에 블록을 추가하거나 수정하거나 삭제하면 위키가 이 파일을 반영합니다.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
 - 웹사이트: https://letsexchange.io/
-- 설명: 4,500개 이상의 암호화폐, 풍부한 유동성, 크로스체인 스왑, 온·오프램프, DEX, 빠르고 안전한 거래를 지원하는 암호화폐 거래 허브입니다.
+- 설명: 4,500개 이상의 암호화폐, 풍부한 유동성, 크로스체인 스왑, 온램프 및 오프램프, DEX를 제공하는 암호화폐 거래소 허브입니다. 빠르고 안전한 거래를 지원합니다.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - 웹사이트: https://app.near-intents.org/
-- 설명: NEAR를 기반으로 하는 빠른 거래 서비스입니다. 입금, 매도, 스왑을 지원하며 TRUMP, MELANIA, BERA 등 인기 밈 코인도 이용할 수 있습니다.
+- 설명: NEAR을 지원하는 빠른 거래소입니다. TRUMP, MELANIA, BERA 및 기타 인기 밈 토큰을 포함해 입금, 판매, 스왑을 할 수 있습니다.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - 웹사이트: https://private.shapeshift.com/
-- 설명: 하나의 앱에서 지갑을 관리하고 다양한 기회를 누릴 수 있습니다. 주요 DEX와 애그리게이터의 최적 환율을 이용해 비트코인, 이더리움 등을 거래할 수 있습니다.
+- 설명: 여러분의 지갑. 하나의 앱. 무한한 기회 · 주요 DEX 및 애그리게이터에서 제공하는 최적의 환율로 비트코인, 이더리움 등을 거래하세요.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
 - 웹사이트: https://stealthex.io/
-- 설명: StealthEX는 가입 없이 무제한으로 스왑할 수 있고 사용자 자금을 보관하지 않는 즉시 암호화폐 거래소입니다. 암호화폐를 구매하기에 적합한 곳입니다.
+- 설명: StealthEX는 제한 없이 스왑할 수 있는 즉시 실행 암호화폐 거래소입니다. 회원가입이 필요 없으며 플랫폼에 사용자 자금을 보관하지 않습니다. StealthEX는 암호화폐를 구매하기에 가장 좋은 곳입니다.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - 웹사이트: https://changelly.com/
-- 설명: Changelly는 암호화폐 거래 수수료가 최대 0.25%로 낮은 것으로 잘 알려진 즉시 체결형 암호화폐 거래소입니다. 다양한 암호화폐를 폭넓게 지원합니다.
+- 설명: Changelly은 즉시 거래가 실행되는 암호화폐 거래소로, 암호화폐 거래 수수료가 최대 0.25%에 불과해 업계 최저 수준으로 잘 알려져 있습니다. 또한 가장 다재다능한 암호화폐 거래소의 정의에도 부합합니다.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - 웹사이트: https://flyp.me/en/#/
-- 설명: flyp.me 계정이 필요 없는 거래소와 FYP 토큰은 개인정보 보호와 탈중앙화를 촉진하고, 풀뿌리 소유권과 합의를 중시하는 커뮤니티를 지원하기 위해 만들어졌습니다.
+- 설명: flyp.me 계정이 필요 없는 거래소와 FYP 토큰은 프라이버시(privacy)를 보호하고, 탈중앙화(decentralisation)를 촉진하며, 풀뿌리 소유권을 지원하고, 합의(consensus)를 믿는 커뮤니티를 육성하기 위해 탄생했습니다.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - 웹사이트: https://exolix.com
-- 설명: 가입 없이 1,311개 이상의 암호화폐를 최적 환율로 즉시 교환할 수 있습니다.
+- 설명: 1,311개 이상의 암호화폐를 가입 없이 최적의 환율로 즉시 거래하세요.
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - 웹사이트: https://trocador.app/
-- 설명: 번거로운 절차 없이 빠르고 안전하게 익명으로 암호화폐를 거래할 수 있습니다. 선불 직불카드도 이용할 수 있습니다.
+- 설명: 익명으로 암호화폐를 거래하세요. 빠르고 안전하며 관료적 절차가 없습니다. 선불 직불카드도 이용할 수 있습니다.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - 웹사이트: https://dex.decred.org/
-- 설명: 거래 수수료와 KYC 없이 개인 간에 암호화폐를 거래할 수 있습니다. Decred 프로젝트가 만든 탈중앙화 거래소입니다.
+- 설명: 개인 간 암호화폐 거래를 하세요. 거래 수수료가 없고 KYC도 필요하지 않습니다. Decred Project가 만든 탈중앙화 거래소입니다.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - 웹사이트: https://github.com/firoorg/FiroDEX-Desktop
-- 설명: 아토믹 스왑 데스크톱 앱입니다. 더 이상 유지 관리되지 않습니다. Firo에서 FiroDEX-Desktop 저장소를 보관 처리했으며, 마지막 릴리스는 0.8.2-beta(2025년 2월)입니다.
+- 설명: 아토믹 스왑 데스크톱 앱입니다. 더 이상 유지 관리되지 않습니다. Firo이(가) FiroDEX-Desktop 저장소를 보관 처리했으며, 마지막 릴리스는 0.8.2-beta(2025년 2월)입니다.
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
 - 웹사이트: https://changenow.io/?from=usdterc20&to=zec
-- 설명: 한도 없이 간편하고 빠르게 이용할 수 있는 비수탁형 Web3 암호화폐 거래소입니다.
+- 설명: 무한한 가능성의 WEB 3 암호화폐 거래소 — 간편하고 빠르며 커스터디가 필요 없습니다.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - 웹사이트: https://ff.io
-- 설명: 라이트닝 네트워크를 지원하는 즉시 완전 자동 암호화폐 거래소입니다.
+- 설명: Lightning Network를 지원하는 즉시 자동 암호화폐 거래소입니다.
 
 ___
 
@@ -122,7 +122,7 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - 웹사이트: https://xchange.me/
-- 설명: 가입 없이 저렴하고 안정적으로 항상 제때 처리되는 익명 암호화폐 거래소입니다. 전용 Tor 미러도 제공합니다.
+- 설명: 저렴하고 신뢰할 수 있으며 항상 제시간에 이용할 수 있는 익명 암호화폐 거래소입니다. 가입이 필요하지 않습니다. 전용 Tor 미러도 이용할 수 있습니다.
 
 ___
 
@@ -131,7 +131,7 @@ ___
 <img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - 웹사이트: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- 설명: 베트남의 즉시 비트코인 및 암호화폐 거래소입니다. VND, BTC, XMR, USDT, ETH, BCH, SOL을 포함한 80개 자산을 구매, 판매 또는 스왑할 수 있습니다.
+- 설명: 베트남에서 비트코인과 암호화폐를 즉시 거래할 수 있습니다. VND, BTC, XMR, USDT, ETH, BCH, SOL을 포함한 80개 자산을 구매, 판매 또는 스왑할 수 있습니다.
 
 ___
 
@@ -140,4 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - 웹사이트: https://leodex.io/
-- 설명: 계정이나 KYC 없이 크로스체인 스왑을 할 수 있습니다. 지갑 연결 없이도 어떤 지갑, 거래소 또는 콜드 스토리지에서 BTC, ETH 등을 일회용 입금 주소로 보내고 ZEC를 받을 수 있습니다.
+- 설명: 계정과 KYC 없이 크로스체인 스왑을 이용할 수 있습니다. 어떤 지갑, 거래소 또는 콜드 스토리지에서든 BTC, ETH 등을 일회용 입금 주소로 보내고 ZEC을 받으세요. 지갑 연결은 필요하지 않습니다.

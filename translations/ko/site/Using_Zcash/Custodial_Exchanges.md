@@ -2,9 +2,9 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   수탁형 거래소
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   커스터디 거래소
 
-Ironwood는 2026년 7월 네트워크 업그레이드와 함께 도입된 실드 풀입니다. 투명 t-주소만 처리하는 거래소는 이를 전혀 다루지 않으므로 해당 없음으로 표시됩니다. 거래소가 실드 주소를 처리하지만 어떤 풀을 사용하는지 밝히지 않은 경우에는 추측하지 않고 그 내용을 명시합니다.
+Ironwood는 2026년 7월 네트워크 업그레이드와 함께 도입된 거래정보 보호 구역(shielded pool)입니다. 투명 t-주소만 취급하는 거래소는 이 구역을 전혀 사용하지 않으므로 해당 항목은 해당 없음으로 표시했습니다. 거래정보 보호 주소를 취급하지만 어떤 구역을 사용하는지 밝히지 않은 거래소의 경우, 추측하지 않고 그 사실을 표시했습니다.
 
 ---
 
@@ -15,9 +15,9 @@ Ironwood는 2026년 7월 네트워크 업그레이드와 함께 도입된 실드
 </a>
 
 - 웹사이트: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
-- 거래쌍: ZEC/BTC
-- 지원: 투명 주소
-- 입금 시간: 약 30분 (24회 컨펌)
+- 거래 쌍: ZEC/BTC
+- 지원: 투명
+- 입금 시간: 약 30분(확인 24회)
 - Ironwood: 해당 없음, 투명 주소만 지원
 ___
 
@@ -28,8 +28,8 @@ ___
 </a>
 
 - 웹사이트: [Backpack](https://backpack.exchange)
-- 거래쌍: ZEC/USDC | ZEC-PERP
-- 지원: 입금 및 출금 활성화됨. 주소 유형은 명시되지 않음
+- 거래 쌍: ZEC/USDC | ZEC-PERP
+- 지원: 입금 및 출금 가능. 주소 유형은 명시되지 않음
 - 입금 시간: 명시되지 않음
 - Ironwood: 명시되지 않음
 ___
@@ -41,7 +41,7 @@ ___
 </a>
 
 - 웹사이트: [Binance](https://binance.com)
-- 거래쌍: ALL/ZEC
+- 거래 쌍: ALL/ZEC
 - 지원: 투명(TEX 주소 입금)
 - 입금 시간: 20분
 - Ironwood: 해당 없음, 투명 주소만 지원
@@ -54,9 +54,9 @@ ___
 </a>
 
 - 웹사이트: [BitcoinVN](https://bitcoinvn.io)
-- 거래쌍: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- 지원: 투명 | 실드(z-주소 입금 및 출금)
-- 입금 시간: 즉시(비수탁형 스왑)
+- 거래 쌍: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
+- 지원: 투명 | 거래정보 보호(z-address 입금 및 출금)
+- 입금 시간: 즉시(비커스터디 스왑)
 - Ironwood: 명시되지 않음
 ___
 
@@ -67,7 +67,7 @@ ___
 </a>
 
 - 웹사이트: [Bitfinex](https://bitfinex.com)
-- 거래쌍: ALL/ZEC
+- 거래 쌍: ALL/ZEC
 - 지원: 투명
 - 입금 시간: 25분 
 - Ironwood: 해당 없음, 투명 주소만 지원
@@ -80,7 +80,7 @@ ___
 </a>
 
 - 웹사이트: [Coinbase](https://coinbase.com)
-- 거래쌍: ALL/ZEC
+- 거래 쌍: ALL/ZEC
 - 지원: 투명
 - 입금 시간: 150분
 - Ironwood: 해당 없음, 투명 주소만 지원
@@ -93,10 +93,10 @@ ___
 </a>
 
 - 웹사이트: [Gemini](https://gemini.com)
-- 거래쌍: ALL/ZEC
-- 지원: 투명 | 실드 및 통합 출금, 2025년 11월부터 Orchard
+- 거래 쌍: ALL/ZEC
+- 지원: 투명 | 거래정보 보호 및 통합 출금, 2025년 11월부터 Orchard
 - 입금 시간: 50분 
-- Ironwood: 실드 출금 지원, 풀은 명시되지 않음
+- Ironwood: 거래정보 보호 출금 지원, 구역은 명시되지 않음
 ___
 
 ### [HTX](https://www.htx.com)
@@ -105,10 +105,10 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- 웹사이트: [HTX](https://www.htx.com) (이전 Huobi)
-- 거래쌍: ALL/ZEC
+- 웹사이트: [HTX](https://www.htx.com)(이전 이름: Huobi)
+- 거래 쌍: ALL/ZEC
 - 지원: 투명
-- 상태: ZEC 입금 및 출금이 현재 중단됨 (HTX 공개 API 기준, 2026년 11월); 현물 거래는 여전히 등록되어 있음
+- 상태: ZEC 입금 및 출금이 현재 중단됨(2026년 11월 HTX 공개 API 기준). 현물 거래는 계속 등록되어 있음
 - 입금 시간: 35분 
 - Ironwood: 해당 없음, 투명 주소만 지원
 ___
@@ -120,7 +120,7 @@ ___
 </a>
 
 - 웹사이트: [Kraken](https://kraken.com)
-- 거래쌍: ALL/ZEC
+- 거래 쌍: ALL/ZEC
 - 지원: 투명
 - 입금 시간: 60분
 - Ironwood: 해당 없음, 투명 주소만 지원
@@ -133,20 +133,20 @@ ___
 </a>
 
 - 웹사이트: [KuCoin](https://kucoin.com)
-- 거래쌍: ALL/ZEC
+- 거래 쌍: ALL/ZEC
 - 지원: 투명
 - 입금 시간: 20분 
 - Ironwood: 해당 없음, 투명 주소만 지원
 ___
 
-## [OKX (구 OKEx)](https://www.okx.com)
+## [OKX(이전 이름: OKEx)](https://www.okx.com)
 
 <a href="https://www.okx.com">
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Official_logo_of_OKEx.png" alt="OKX logo (shown under its former OKEx branding)" width="200" height="100"/>
 </a>
 
 - 웹사이트: [OKX](https://www.okx.com)
-- 거래쌍: ALL/ZEC
+- 거래 쌍: ALL/ZEC
 - 지원: 투명
 - 입금 시간: 25분 
 - Ironwood: 해당 없음, 투명 주소만 지원
@@ -159,8 +159,8 @@ ___
 </a>
 
 - 웹사이트: [Robinhood](https://robinhood.com)
-- 거래쌍: USD/ZEC | EUR/ZEC
-- 지원: 투명 t-주소로의 출금만 지원. ZEC 입금은 지원되지 않음
+- 거래 쌍: USD/ZEC | EUR/ZEC
+- 지원: 투명 t-주소로만 출금 가능. ZEC 입금은 지원하지 않음
 - 입금 시간: 입금 미지원
 - Ironwood: 해당 없음, 투명 주소만 지원
 ___

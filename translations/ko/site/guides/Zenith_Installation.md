@@ -1,12 +1,12 @@
-# Zenith GUI 전체 노드 지갑 설치  
+# Zenith GUI 풀 노드 지갑 설치  
 
-## 비디오 튜토리얼
+## 동영상 튜토리얼
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/zu8nvr4FlXE"
-    title="Zenith 전체 노드 지갑 설치 및 데모"
+    title="Zenith 풀 노드 지갑 설치 및 데모"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -20,7 +20,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/-gawirv0L_U"
-    title="Zebrad + Zenith와 RPC 사용"
+    title="Zebrad 및 Zenith에서 RPC 사용하기"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -43,18 +43,18 @@
 
 > cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 
-Zebra 7.0.0 이상을 사용하세요. NU7는 Mainnet에서 블록 3,543,405에 활성화되었으며, 이전 `zebrad` 버전은 그 높이 이후의 체인을 따라갈 수 없습니다([릴리스 노트](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). 아래의 Zenith 버전(0.7.2.0-beta)은 오래되었습니다. 작성 시점의 최신 릴리스는 0.13.0.0-beta입니다(2026년 6월, NU6.2 지원). Mainnet에서 사용하기 전에 NU7을 지원하는 버전이 있는지 [Zenith 릴리스](https://code.vergara.tech/Vergara_Tech/zenith/releases)를 확인하세요.
+Zebra 7.0.0 이상을 사용하세요. NU7은 블록 3,543,405에서 메인넷에 활성화되었으며, 이전 `zebrad` 버전은 해당 높이 이후 체인을 따라갈 수 없습니다([릴리스 노트](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). 아래의 Zenith 버전(0.7.2.0-beta)은 오래된 버전입니다. 이 문서를 작성하는 시점의 최신 릴리스는 0.13.0.0-beta(2026년 6월, NU6.2 지원)입니다. 메인넷에서 사용하기 전에 [Zenith 릴리스](https://code.vergara.tech/Vergara_Tech/zenith/releases)를 확인하여 NU7을 지원하는 버전을 찾으세요.
 
 > zebrad generate -o ~/.config/zebrad.toml
 
 > nano ~/.config/zebrad.toml
 
 
-#### 로컬 호스트에서 RPC 쿼리 수신
+#### 로컬호스트에서 RPC 요청 수신
 
 > listen_addr = "127.0.0.1:8232"
 
-#### 자동으로 여러 CPU 스레드 사용
+#### 여러 CPU 스레드 자동 사용
 
 parallel_cpu_threads = 0
 
@@ -62,7 +62,7 @@ enable_cookie_auth = false
 
 ## Zenith 설치
 
-**tar.gz 다운로드 및 홈 디렉토리에 압축 해제**
+**tar.gz를 다운로드한 다음 홈 디렉터리에 압축을 풉니다**
 
 > wget https://code.vergara.tech/Vergara_Tech/zenith/archive/0.7.2.0-beta.tar.gz
 
@@ -75,7 +75,7 @@ enable_cookie_auth = false
 > git clone https://code.vergara.tech/Vergara_Tech/zcash-haskell.git
 
 
-### 의존성 설치
+### 종속성 설치
 
 > sudo apt install libssl-dev libgmp-dev libsecp256k1-dev libtinfo-dev libsdl2-dev libfreetype-dev libglew-dev gdk-pixbuf-tests raspi-config
   
@@ -94,11 +94,11 @@ enable_cookie_auth = false
 
 > nano configure
 
-**두 줄 모두의 triple을 "aarch64-unknown-linux-gnu"로 변경합니다.**
+**두 줄 모두에서 트리플을 "aarch64-unknown-linux-gnu"로 변경합니다.**
 
 > nano Setup.hs
  
- **Zcash-Haskell 폴더와 Zenith 폴더의 Setup.hs를 수정합니다.**
+ **zcash-haskell 폴더와 zenith 폴더의 Setup.hs를 모두 수정합니다**
 
 ### 컴파일 
 
@@ -121,7 +121,7 @@ enable_cookie_auth = false
 
 ### zenith.cfg 조정
 
-nodeUser = yourusername
+nodeUser = 사용자 이름
 
 nodePwd = superSecret
 
@@ -144,13 +144,13 @@ zebraPort = 8232
   
 > sudo raspi-config
 
-  **고급 설정으로 이동하여 opengl => GL (Full KMS) 선택**
+  **고급 메뉴로 이동한 다음 opengl => GL (Full KMS)을 선택합니다**
 
-  **재부팅**
+  **재부팅합니다**
 
 
 
-## Zenith 실행
+## zenith 실행
 
  ./zenith gui
  또는
@@ -160,4 +160,4 @@ zebraPort = 8232
 
 ## RPC
 
-[howto](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
+[사용법](https://github.com/ZecHub/zechub/blob/main/site/tutorials/zenithserver/zenithBeta.md)
