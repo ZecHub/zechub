@@ -33,7 +33,7 @@ ECC 기간에 구축된 통합 기능:
 
 그 뒤로 [Sapling 네트워크 업그레이드](https://electriccoin.co/blog/sapling-activation-complete/)와 같은 여러 성과가 있었습니다. 이를 통해 거래정보 보호 거래를 더 가볍게 구성할 수 있었으며, 거래 구성 시간을 90% 단축하고 메모리 사용량을 97% 이상 줄여 모바일 기기에서 거래정보 보호 거래를 처음으로 가능하게 했습니다.
 
-가장 중요한 돌파구는 가장 최근의 성과입니다. [](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/)Zcash를 위한 halo2 무신뢰 증명 시스템을 네트워크 업그레이드 5에서 구축하고 배포한 것입니다. 이를 통해 트러스트 셋업이 사라지고 Zcash의 새로운 시대가 열렸습니다. 2022년부터 Zcash 메인넷에서 운영되고 있으며, 사용자는 결제 프로토콜을 더욱 안전하고 쉽게 업그레이드할 수 있는 방식으로 구성할 수 있습니다.
+가장 중요한 돌파구는 가장 최근의 성과입니다. Zcash를 위한 halo2 무신뢰 증명 시스템을 네트워크 업그레이드 5에서 [구축하고 배포한 것](https://electriccoin.co/blog/nu5-activates-on-mainnet-eliminating-trusted-setup-and-launching-a-new-era-for-zcash/)입니다. 이를 통해 트러스트 셋업이 사라지고 Zcash의 새로운 시대가 열렸습니다. 2022년부터 Zcash 메인넷에서 운영되고 있으며, 사용자는 결제 프로토콜을 더욱 안전하고 쉽게 업그레이드할 수 있는 방식으로 구성할 수 있습니다.
 
 ## 협업 및 파트너십
 

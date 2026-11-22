@@ -86,6 +86,6 @@ flyp.me는 회원 가입이 필요 없는 암호화폐 거래소입니다. 30개
 
 - [지갑](/using-zcash/wallets) — 거래소에서 출금하기 전에 지갑을 선택하세요
 - [비커스터디형 거래소](/using-zcash/non-custodial-exchanges) — ZEC을 지원하는 DEX 전체 목록
-- [커스터디형 거래소](/using-zcash/custodial-exchanges) — ZEC을 지원하는 CEX 전체 목록
+- [수탁형 거래소](/using-zcash/custodial-exchanges) — ZEC을 지원하는 CEX 전체 목록
 - [거래정보 보호 구역](/using-zcash/shielded-pools) — 거래정보 보호 출금이 중요한 이유
 - [신규 사용자 안내서](/start-here/new-user-guide) — 신규 Zcash 사용자를 위한 전체 시작 체크리스트

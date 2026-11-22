@@ -25231,7 +25231,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Privacy_Tools/VPN_and_DVPN.md": {
@@ -25255,7 +25255,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -25271,7 +25271,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Research/Namada_Privacy_and_Best_Practices.md": {
@@ -25279,7 +25279,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Research/Navigating_the_Central_Bank_Digital_Currency.md": {
@@ -25399,7 +25399,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Research/zcash-foundations-series/article-5/article-5-zero-knowledge-proofs.md": {
@@ -25511,7 +25511,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Using_Zcash/Buying_ZEC.md": {
@@ -25519,7 +25519,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Using_Zcash/Centralized_Swaps.md": {
@@ -25575,7 +25575,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Using_Zcash/Metamask_Snap.md": {
@@ -25591,7 +25591,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Using_Zcash/Non-Custodial_Exchanges.md": {
@@ -25607,7 +25607,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Using_Zcash/Payment_Request_URIs.md": {
@@ -25615,7 +25615,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Using_Zcash/Recovering_Funds.md": {
@@ -25623,7 +25623,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Using_Zcash/Shielded_Newsletter.md": {
@@ -25647,7 +25647,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Using_Zcash/Solswap.md": {
@@ -25655,7 +25655,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
@@ -25719,7 +25719,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Using_Zcash/Zecmap.md": {
@@ -25839,7 +25839,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2+termrepair",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+termrepair+handfix",
       "edited": false
     },
     "Zcash_Community/Community_Projects.md": {
@@ -25959,7 +25959,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Organizations/Financial_Privacy_Foundation.md": {
@@ -25983,7 +25983,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Organizations/Sovright.md": {
@@ -25999,7 +25999,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Organizations/ZKAV.md": {
@@ -26031,7 +26031,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Organizations/Zcash_Labs.md": {
@@ -26055,7 +26055,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Tech/Canopy.md": {
@@ -26079,7 +26079,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Tech/FROST_Threshold_Custody.md": {
@@ -26103,7 +26103,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Tech/Heartwood.md": {
@@ -26127,7 +26127,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Tech/Is_Zcash_Post_Quantum.md": {
@@ -26135,7 +26135,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
@@ -26207,7 +26207,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Tech/Private_Information_Retrieval.md": {
@@ -26223,7 +26223,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Tech/Sapling.md": {
@@ -26247,7 +26247,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Tech/Sprout.md": {
@@ -26271,7 +26271,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Tech/Viewing_Keys.md": {
@@ -26287,7 +26287,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Tech/Z3_Stack.md": {
@@ -26311,7 +26311,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
@@ -26351,7 +26351,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zcash_Tech/Zebra_Full_Node.md": {
@@ -26367,7 +26367,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -26471,7 +26471,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/Mnemonic_Seed_Phrases.md": {
@@ -26535,7 +26535,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "Zero_to_Zero_Knowledge/TEEs.md": {
@@ -26743,7 +26743,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "guides/Nym_Mixnet_Wallet_Setup.md": {
@@ -26807,7 +26807,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix",
       "edited": false
     },
     "guides/Verifying_Zcash_Releases.md": {
@@ -26895,7 +26895,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "guides/Zingolib_and_Zaino_Tutorial.md": {
@@ -26951,7 +26951,7 @@
       "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2+handfix+termrepair",
       "edited": false
     },
     "Zcash_Use_Cases/Where_To_Donate_ZEC.md": {

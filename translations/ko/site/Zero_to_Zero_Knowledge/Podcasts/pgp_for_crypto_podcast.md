@@ -6,7 +6,7 @@
 # 암호화폐 팟캐스트를 위한 PGP*
 ![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
-Electric Coin Co.에서 진행하는 “”암호화폐 팟캐스트를 위한 PGP*(Pretty Good Policy)”에 오신 것을 환영합니다!
+Electric Coin Co.에서 진행하는 “암호화폐 팟캐스트를 위한 PGP*(Pretty Good Policy)”에 오신 것을 환영합니다!
 
 블록체인 기술, 공공 정책, 글로벌 규제 현안이 만나는 지점을 살펴봅니다. 블록체인과 암호화폐의 미래를 형성하는 주요 사안에 대해 깊이 있는 통찰과 전문가의 관점을 청취자 여러분께 전하는 것이 목표입니다.
 

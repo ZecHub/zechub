@@ -8,7 +8,7 @@
 
 **[Zcash 미디어](https://www.youtube.com/c/ZcashMedia)**
 
-Zcash 미디어는 Zcash에 관한 교육 다큐멘터리를 제작하는 독립 단체입니다. 첫 번째 영상인 “”비트코인의 치명적인 결함을 해결하도록 설계된 Zcash(ZEC)란 무엇인가?””는 Zcash을 소개하는 훌륭한 자료입니다.
+Zcash 미디어는 Zcash에 관한 교육 다큐멘터리를 제작하는 독립 단체입니다. 첫 번째 영상인 “비트코인의 치명적인 결함을 해결하도록 설계된 Zcash(ZEC)란 무엇인가?”는 Zcash을 소개하는 훌륭한 자료입니다.
 
 **[X(구 Twitter)](https://x.com)**
 

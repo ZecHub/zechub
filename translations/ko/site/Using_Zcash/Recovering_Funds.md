@@ -44,7 +44,7 @@
 
 **버전 1.1 · 2026년 9월 18일 업데이트**
 
-[ZecHubZEC 풀 마이그레이션 현장 가이드 읽기](/research/zec-pool-migration/view)
+[ZecHub ZEC 풀 마이그레이션 현장 가이드 읽기](/research/zec-pool-migration/view)
 
 > **시작하기 전에:** 먼저 **무엇을 복구하려는지, 아직 어떤 복구 자료를 보유하고 있는지** 확인하세요. 현재 지갑의 시드 또는 지원되는 비-Sprout spending key라면 일반적인 복원만으로 충분할 수 있습니다. Zecwallet Lite 시드, 레거시 `wallet.dat` 또는 독립형 Sapling이나 Sprout spending key와 같은 오래된 자료에는 전용 복구 경로가 필요할 수 있습니다.
 >

@@ -4,7 +4,7 @@
 
 # <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs 로고" width="50"/> Shielded Labs
 
-[Shielded Labs](https://shieldedlabs.net/)는 스위스에 기반을 둔 독립적인 기부금으로 운영되는 Zcash 지원 단체입니다. 이 단체의 사명은 인간의 자유와 자기 주권을 실현하는 지속 불가능한 프라이빗 머니를 구축하고, Zcash 네트워크의 지속 가능성, 보안, 확장성을 높이는 작업에 집중하는 것입니다.
+[Shielded Labs](https://shieldedlabs.net/)는 스위스에 기반을 둔 독립적인 기부금으로 운영되는 Zcash 지원 단체입니다. 이 단체의 사명은 인간의 자유와 자기 주권을 실현하는 멈출 수 없는 프라이빗 머니를 구축하고, Zcash 네트워크의 지속 가능성, 보안, scalability를 높이는 작업에 집중하는 것입니다.
 
 Shielded Labs는 Zcash 생태계에 독립적인 엔지니어링 역량을 더합니다. Electric Coin Company, Zcash Foundation 또는 Zcash Community Grants의 일부가 아니며, 개발 기금이나 블록 보상으로부터 직접 또는 간접적으로 자금을 지원받지 않은 최초의 Zcash 생태계 단체라고 설명합니다.
 
@@ -16,7 +16,7 @@ Shielded Labs는 장기적으로 Zcash의 회복력을 높일 수 있는 프로�
 - 개발 기금 외부의 독립적인 자금 조달
 - ZEC 보유자와 코인 보유자의 의견 존중
 - 사용자 자율성과 자기 주권
-- 지속 가능성, 보안, 확장성을 위한 기술 혁신
+- 지속 가능성, 보안, scalability를 위한 기술 혁신
 - 다른 Zcash 기여자와의 협력
 
 이 단체는 직접적인 엔지니어링, 공개 연구, 인프라 지원, 생태계 조정을 통해 기여합니다. 또한 거버넌스 여론 조사와 코인 보유자 주도 자금 지원에 관한 공개 자료를 유지 관리하여, Zcash 커뮤니티 구성원이 거버넌스 신호에 언제, 어떻게 참여할 수 있는지 이해하도록 돕습니다.

@@ -31,7 +31,7 @@
 ![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. 정보 입력 및 구매하기
-휴대폰 번호와 금액을 입력한 뒤 “”지금 구매””를 클릭하세요. 장바구니를 열어 주문 내용을 확인하고, 계속하기를 클릭한 다음 결제 수단으로 ZEC를 선택하세요.
+휴대폰 번호와 금액을 입력한 뒤 “지금 구매”를 클릭하세요. 장바구니를 열어 주문 내용을 확인하고, 계속하기를 클릭한 다음 결제 수단으로 ZEC를 선택하세요.
 
 ![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 

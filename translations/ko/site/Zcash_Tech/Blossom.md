@@ -8,7 +8,7 @@
 
 이 글에서 알아볼 내용: Blossom이(가) 시간이 지나도 네트워크가 생성하는 ZEC의 양은 바꾸지 않으면서 Zcash 블록을 약 2배 빠르게 생성한 방법입니다.
 
-Blossom은(는) Zcash [네트워크 업그레이드](../start-here/network-upgrades)입니다. [ZIP 206](https://zips.z.cash/zip-0206)에 따라 배포되었으며, 주요 합의 변경 사항은 [ZIP 208](https://zips.z.cash/zip-0208)에 정의되어 있습니다. Blossom은(는) 확장성 업그레이드였습니다. 블록 간 목표 시간을 150초에서 75초로 줄여 블록이 약 2배 자주 생성되도록 했습니다. Electric Coin Company이(가) Blossom을(를) 주도하고 발표했습니다.
+Blossom은(는) Zcash [네트워크 업그레이드](../start-here/network-upgrades)입니다. [ZIP 206](https://zips.z.cash/zip-0206)에 따라 배포되었으며, 주요 합의 변경 사항은 [ZIP 208](https://zips.z.cash/zip-0208)에 정의되어 있습니다. Blossom은(는) scalability 업그레이드였습니다. 블록 간 목표 시간을 150초에서 75초로 줄여 블록이 약 2배 자주 생성되도록 했습니다. Electric Coin Company이(가) Blossom을(를) 주도하고 발표했습니다.
 
 이것이 중요한 이유. ZEC을(를) 보내면 네트워크가 이를 블록에서 확인할 때까지 기다려야 합니다. 블록 생성이 느리면 더 오래 기다리게 됩니다. Blossom 이전에는 약 150초마다 새 블록이 생성될 것으로 예상했습니다. Blossom은(는) 목표 시간을 절반인 75초로 줄여 확인을 더 빨리 받고, 같은 시간 동안 체인에서 더 많은 거래를 처리할 수 있게 했습니다. ZEC를 더 많이 생성하거나 이후 반감기 시점을 바꾸지 않고 이를 실현했습니다. (2026년 11월 활성화된 NU7은(는) 이후 [ZIP 218](https://zips.z.cash/zip-0218)에 따라 같은 방식을 사용해 목표 시간을 다시 25초로 줄였습니다.)
 
@@ -102,7 +102,7 @@ Blossom은(는) 블록당 보상도 절반으로 줄이고 반감기 간격을 8
 
 [Blossom 네트워크 업그레이드](https://z.cash/upgrade/blossom/)
 
-[Blossom 업그레이드로 속도, 확장성, 용량 향상(Electric Coin Company)](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
+[Blossom 업그레이드로 속도, scalability, 용량 향상(Electric Coin Company)](https://electriccoin.co/blog/blossom-upgrade-improves-speed-scalability-capacity/)
 
 ### 함께 보기
 

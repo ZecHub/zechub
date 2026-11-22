@@ -136,7 +136,7 @@ cbZEC는 ZEC 사용자가 Zcash 생태계에 대한 자산 보유를 유지하�
 
 [Base 네트워크](https://www.base.org/)를 통해 cbZEC는 이더리움 레이어 2 환경에서 사용할 수 있는 ZEC의 표현 자산으로 기능합니다. 이를 통해 사용자는 메인 이더리움 네트워크보다 낮은 거래 수수료와 빠른 확인 속도로 자산을 교환하고, 유동성을 공급하고, 대출 마켓에 접근하고, 다양한 디파이 서비스를 이용할 수 있습니다.
 
-[](https://x.com/base/status/2094848959986409953?s=20) cbZEC를 다양한 Base 디파이 플랫폼에 통합하면 Zcash의 활용도가 단순한 결제 자산을 넘어 폭넓은 탈중앙화 금융 활동에 사용할 수 있는 자산으로 확장됩니다.
+cbZEC를 다양한 Base 디파이 플랫폼에 [통합하면](https://x.com/base/status/2094848959986409953?s=20) Zcash의 활용도가 단순한 결제 자산을 넘어 폭넓은 탈중앙화 금융 활동에 사용할 수 있는 자산으로 확장됩니다.
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   
@@ -172,7 +172,7 @@ cbZEC 지원을 통해 사용자는 다음을 할 수 있습니다.
 
 Base 네트워크에서 Uniswap V3는 유동성 공급자가 특정 가격 범위 안에 자본을 배분할 수 있도록 하는 집중 유동성 시스템을 제공합니다.
 
-Uniswap V3Base에서 cbZEC를 지원하면 사용자는 다음을 할 수 있습니다.
+Uniswap V3 Base에서 cbZEC를 지원하면 사용자는 다음을 할 수 있습니다.
 
 - 무허가 방식으로 cbZEC를 거래합니다.
 - cbZEC 페어에 유동성을 공급합니다.
@@ -268,7 +268,7 @@ DZap 통합은 디파이 사용자가 더 쉽게 접근할 수 있게 해 cbZEC�
 - 대출 활동으로 수익을 얻습니다.
 - 탈중앙화 신용 마켓의 일부로 cbZEC를 사용합니다.
 
-[](https://x.com/ClearstarLabs/status/2102035274096361747?s=20) 이번 통합은 cbZEC를 단순한 거래 자산이 아니라 디파이 생태계에서 생산적인 자산으로 활용할 수 있게 한다는 점에서 중요한 진전입니다.
+[이번 통합](https://x.com/ClearstarLabs/status/2102035274096361747?s=20)은 cbZEC를 단순한 거래 자산이 아니라 디파이 생태계에서 생산적인 자산으로 활용할 수 있게 한다는 점에서 중요한 진전입니다.
 
 자세히 알아보기: [Clearstar cbAssets Vault에서 Morpho](https://app.morpho.org/base/variable/0xe458a501c1103ca3b256f2bcb45d223263fb34b6349d82675494ce3a94ce1327/usdc-cbzec)
 

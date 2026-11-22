@@ -150,7 +150,7 @@ NEAR의 브릿지에는 표준 Zcash 출금의 최소 금액 0.01 ZEC와 수수�
 Solana에서 나오는 모든 경로는 OmniBridge를 신뢰합니다. 브릿지가 토큰을 뒷받침하는 ZEC를 보유하기 때문입니다. 그 외에 다음 사항도 고려해야 합니다.
 
 - **위에 소개한 경로**는 NEAR Intents를 신뢰합니다. 서명으로 전송을 승인하고, 솔버가 Zcash 측에서 ZEC를 전달하며, NEAR Intents는 규정 준수 검토를 위해 자금을 보류할 수 있습니다. 2026년에 Zcash 보유자 한 명이 [대규모 스왑이 몇 주 동안 보류되었다고 보고했습니다](https://www.cryptotimes.io/2026/09/11/zcash-holder-says-589k-usdt-stuck-on-near-intents-50-days-after-zodl-swap/). 또한 두 웹사이트에 지갑을 연결하므로 매번 주소 표시줄을 확인하세요.
-- **NEAR Intents가 내장된 지갑**([](/wallets) 디렉터리NEAR Intents 기능 확인)은 Zcash 지갑 안에서 같은 시스템을 사용합니다. 신뢰하는 대상은 같고, 거쳐야 하는 웹사이트는 더 적습니다. Solana에서 ZEC를 사용한 이 방법은 테스트하지 않았습니다.
+- **NEAR Intents가 내장된 지갑**([디렉터리](/wallets)에서 NEAR Intents 기능 확인)은 Zcash 지갑 안에서 같은 시스템을 사용합니다. 신뢰하는 대상은 같고, 거쳐야 하는 웹사이트는 더 적습니다. Solana에서 ZEC를 사용한 이 방법은 테스트하지 않았습니다.
 - **거래소**: Solana 네트워크에서 이 토큰의 입금을 받는 경우에만 이용할 수 있지만, 대부분의 거래소는 지원하지 않습니다. 자산의 보관 권한과 대개 신원 정보도 넘겨야 하며, 많은 거래소는 `t1` 주소로만 ZEC를 전송합니다. [커스터디 거래소](/using-zcash/custodial-exchanges)를 참조하세요.
 
 ---

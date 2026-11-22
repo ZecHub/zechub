@@ -88,7 +88,7 @@ WooCommerce 상점 내 전체 흐름은 다음과 같습니다.
 5. 5회 확인을 거친 뒤 ZGo는 플러그인에 결제가 최종 완료되었음을 알립니다.
 6. 플러그인이 WooCommerce 주문을 결제 완료로 표시하고 주문 데이터베이스를 업데이트합니다.
 
-6단계가 완료되어야 주문이 결제된 것으로 처리됩니다. 그보다 이른 상태(브로드캐스트, 첫 번째 확인)는 고객에게 “”결제가 접수되었으며 확인을 기다리는 중입니다””라고 표시할 수 있지만, 재고, 주문 처리 및 후속 자동화는 최종 상태가 될 때까지 기다려야 합니다.
+6단계가 완료되어야 주문이 결제된 것으로 처리됩니다. 그보다 이른 상태(브로드캐스트, 첫 번째 확인)는 고객에게 “결제가 접수되었으며 확인을 기다리는 중입니다”라고 표시할 수 있지만, 재고, 주문 처리 및 후속 자동화는 최종 상태가 될 때까지 기다려야 합니다.
 
 플러그인은 WordPress 내에 관리 대시보드도 설치합니다. 여기에서 판매자는 일반적인 WooCommerce 주문 화면과 함께 주문 및 들어오는 ZEC 결제를 모니터링할 수 있습니다. 플러그인은 현재 사용되는 모든 Zcash 주소 유형인 Orchard, Sapling 및 투명 주소를 지원합니다. 규격을 준수하는 지갑으로 결제하는 고객이라면 누구나 거래를 완료할 수 있습니다.
 
@@ -127,4 +127,4 @@ ZGo를 이용하면 판매자는 커스터디를 포기하거나 중개자에 �
 - [Zcash 프로젝트 홈페이지](https://z.cash/)
 - [ZecHub 지갑](https://zechub.wiki/wallets), 호환되는 Zcash 지갑 목록
 - [ZecHub 결제 지원 서비스 개요](https://zechub.wiki/payment-processors), 다른 Zcash 결제 옵션과 비교한 ZGo
-- [BTCPayServer Zcash 플러그인](https://zechub.wiki/guides/btcpayserver-zcash-plugin), 자체 호스팅 대안을 위한 관련 ZecHub 가이드
+- [BTCPayServer Zcash Plugin](https://zechub.wiki/guides/btcpayserver-zcash-plugin), 자체 호스팅 대안을 위한 관련 ZecHub 가이드

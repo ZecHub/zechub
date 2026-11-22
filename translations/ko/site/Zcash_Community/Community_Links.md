@@ -12,7 +12,7 @@ Zcash 커뮤니티는 ZEC를 세계에서 가장 널리 사용되는 프라이�
 
 ### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="대체 텍스트" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
-Zcash 커뮤니티는 Telegram 커뮤니티에서 매우 활발하게 활동합니다. 일상적인 이야기를 나누고, 뉴스와 업데이트를 논의하고, 다른 커뮤니티 구성원들을 만나 보세요: [t.me/Zcash_Community](https://t.me/Zcash_Community)
+Zcash 커뮤니티는 <span translate="no" class="notranslate">Telegram</span> 커뮤니티에서 매우 활발하게 활동합니다. 일상적인 이야기를 나누고, 뉴스와 업데이트를 논의하고, 다른 커뮤니티 구성원들을 만나 보세요: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="대체 텍스트" width="50"/> <span translate="no" class="notranslate">Discord</span>
 

@@ -123,7 +123,7 @@ Zcash로 결제 요청을 만드는 방법:
 zcash:ztestsapling10yy2ex5dcqkclhc7z7yrnjq2z6feyjad56ptwlfgmy77dmaqqrl9gyhprdx59qgmsnyfska2kez?amount=1&memo=VGhpcyBpcyBhIHNpbXBsZSBtZW1vLg&message=Thank%20you%20for%20your%20purchase
 ```
 
-ZEC 1개를 거래정보 보호(shielded) Sapling 주소 1개로 보내도록 요청합니다. 메모를 디코딩하면 “”This is a simple memo.””가 됩니다. “”Thank you for your purchase””는 지갑 화면에 표시되는 문구입니다.
+ZEC 1개를 거래정보 보호(shielded) Sapling 주소 1개로 보내도록 요청합니다. 메모를 디코딩하면 “This is a simple memo.”가 됩니다. “Thank you for your purchase”는 지갑 화면에 표시되는 문구입니다.
 
 ### 지갑이 확인하는 규칙
 

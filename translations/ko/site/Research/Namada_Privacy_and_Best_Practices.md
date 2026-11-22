@@ -64,7 +64,7 @@ Namada는 지갑 주소(wallet address), 거래 금액(transaction amount), 잔�
 - 기본적으로 모든 자산을 MASP 안에 보관합니다.
 - MASP 잔액을 기본 비공개 지갑으로 사용합니다.
 
-### 4. 보기 키
+### 4. viewing keys
 - viewing key는 완전히 신뢰하는 상대에게만 공유합니다.
 - viewing key를 공개적으로 게시하거나 공유하지 않습니다.
 

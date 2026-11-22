@@ -95,7 +95,7 @@ DKG 프로토콜이 끝나면 공동 검증 키 vk가 생성됩니다. 각 참�
 
 ### 더 넓은 생태계에서 FROST의 활용
 
-**[에서의 FROSTCoinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)**
+**[Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost)에서의 FROST**
 
 Coinbase의 임계값 서명 시스템 효율을 높이기 위해, 이들은 FROST 버전을 개발했습니다. 이 Coinbase 구현은 원본 FROST 초안에서 일부를 약간 수정했습니다.
 
@@ -138,7 +138,7 @@ FROST는 Zcash Shielded Assets (ZSA)의 안전한 발행과 관리에도 필수�
 ## 관련 페이지
 
 - [Halo](/zcash-tech/halo) — Zcash의 Orchard 풀에서 사용하는 신뢰가 필요 없는 재귀적 증명 시스템입니다.
-- [뷰잉 키](/zcash-tech/viewing-keys) — 거래정보 보호 거래의 선택적 공개를 지원합니다.
+- [Viewing Keys](/zcash-tech/viewing-keys) — 거래정보 보호 거래의 선택적 공개를 지원합니다.
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — FROST가 지출 및 발행 권한을 관리하는 데 도움을 주는 곳입니다.
 - [Zcash 지갑 동기화](/zcash-tech/zcash-wallet-syncing) — Zcash 프라이버시 인프라의 또 다른 핵심 요소입니다.
 

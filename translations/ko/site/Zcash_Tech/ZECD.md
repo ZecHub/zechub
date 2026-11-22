@@ -150,7 +150,7 @@ zecd init --datadir ./data --encrypt
 # later: walletpassphrase "my-passphrase" 300
 ```
 
-### 3. 감시 전용(UFVK — 지출 키 없음)
+### 3. 감시 전용(UFVK — spending key 없음)
 
 다른 지갑에서 내보낸 통합 Full Viewing Key(UFVK)로 초기화합니다. 자금을 받고, 스캔하고, 잔액을 보고할 수 있지만 거래에 서명할 수는 없습니다. 서명용 지갑과 분리된 모니터링, 청구서 발행 또는 감사용 노드에 적합합니다.
 

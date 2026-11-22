@@ -103,7 +103,7 @@ IRS에서는 ZEC을 자산으로 취급하므로([Notice 2014-21](https://www.ir
 
 ### 7단계: 필요한 경우 달러로 환전하기
 
-- [커스터디 거래소](/using-zcash/custodial-exchanges)에서 거래정보 보호 입금을 받는 거래소를 확인하세요. 많은 거래소가 투명 입금만 받습니다.
+- [수탁형 거래소](/using-zcash/custodial-exchanges)에서 거래정보 보호 입금을 받는 거래소를 확인하세요. 많은 거래소가 투명 입금만 받습니다.
 - 거래소가 투명 입금만 받는다면 매도 시점에 ZEC을 거래정보 보호 지갑에서 거래소로 한 번에 옮기세요. 해당 금액은 공개되지만 다른 기부금과 잔액은 비공개로 유지됩니다.
 - 기부받은 ZEC을 3년 이내에 매도하고 기부자의 Form 8283 Section B에 서명했다면, 매도 후 125일 이내에 [Form 8282](https://www.irs.gov/pub/irs-pdf/f8282.pdf)를 제출하고 기부자에게 사본을 보내세요([IRS FAQ, Q37](https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions)).
 

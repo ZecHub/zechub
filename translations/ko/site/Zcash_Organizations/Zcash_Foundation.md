@@ -20,7 +20,7 @@ Zcash Foundation는 Electric Coin Co의 기부에 따른 최신 조건에 따라
 
 ## 조직 구조
 
-Zcash Foundation는 세금 면제 대상인 비영리 [자선 단체](https://zfnd.org/#:~:text=Committed%20to%20Transparency)로, [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962)에 해당합니다. [팀](https://zfnd.org/#:~:text=Our%20Team) 외에도 이사회[](https://zfnd.org/#:~:text=Board%20of%20Directors)가 있으며, Zcash 커뮤니티 자문 [패널](https://zfnd.org/zcash-community-advisory-panel/) 투표를 통해 커뮤니티 거버넌스 선거를 진행합니다.
+Zcash Foundation는 세금 면제 대상인 비영리 [자선 단체](https://zfnd.org/#:~:text=Committed%20to%20Transparency)로, [501(c)(3)](https://projects.propublica.org/nonprofits/organizations/820707962)에 해당합니다. [팀](https://zfnd.org/#:~:text=Our%20Team) 외에도 [이사회](https://zfnd.org/#:~:text=Board%20of%20Directors)가 있으며, Zcash 커뮤니티 자문 [패널](https://zfnd.org/zcash-community-advisory-panel/) 투표를 통해 커뮤니티 거버넌스 선거를 진행합니다.
 
 ## 자금 조달
 
