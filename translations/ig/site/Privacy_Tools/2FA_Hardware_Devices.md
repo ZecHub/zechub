@@ -20,7 +20,7 @@ Site na igodo nchekwa ngwaike dịka YubiKey, naanị tinye igodo ngwaike ahụ 
 
 ## Gịnị bụ uru dị n'iji igodo nchekwa ngwaike?
 
-Igodo nchekwa ngwaike na-enye ọtụtụ uru karịa ụzọ nkwenye ọdịnala dabere na paswọọdụ. Ọ na-esiri ike ịwakpo ha karịa paswọọdụ, ndị enwere ike imebi ngwa ngwa site na mwakpo ike mmanye, injinia mmekọrịta, ma ọ bụ phishing. Igodo nchekwa na-emepụta koodu pụrụ iche oge ọ bụla eji ha, nke na-eme ka ọ fọrọ nke nta ka ọ ghara ikwe omume ka ndị mwakpo buo amụma ma ọ bụ mepụtaghachi koodu ahụ. Ha dịkwa mfe iji na ịhazi, ha anaghị achọ ka etinye software ma ọ bụ drivers ndị ọzọ n'ime ngwaọrụ gị.
+Mgbe ejiri FIDO U2F ma ọ bụ FIDO2/WebAuthn, igodo nchekwa ngwaike na-eme nkwenye [authentication] site n'ịbịanye aka n'ihe ịma aka ọhụrụ, kama ịmepụta koodu ka ị pịnye. Ọrụ ahụ na-edobe igodo ọha, ebe igodo nzuzo na-anọgide n'ime ngwaọrụ nkwenye ahụ. A na-ekechi nzere na ọrụ ahụ, ihe nchọgharị na-enyochakwa njirimara nke akụkụ na-adabere na ya iji guzogide phishing. Uru ndị a na-akọwa nkwenye FIDO, ọ bụghị usoro ọ bụla igodo nwere ọtụtụ protokol nwere ike ịkwado. Lelee na ọrụ gị, ihe nchọgharị, ngwaọrụ, na ụdị njikọ gị na-akwado usoro ị bu n'obi iji. Lee [mmalite WebAuthn Yubico](https://developers.yubico.com/WebAuthn/) na ntuziaka onye mmepụta [FIDO2/WebAuthn](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## Igodo nchekwa ngwaike hà dakọtara na ngwaọrụ na sistemụ arụmọrụ niile?
 

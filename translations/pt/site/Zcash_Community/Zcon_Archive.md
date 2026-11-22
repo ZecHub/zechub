@@ -1,23 +1,23 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcon_Archive.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-A seguir está uma coleção da maioria das mídias relacionadas ao Zcon em um local fácil de encontrar.
+A seguir está uma coleção da maior parte das mídias relacionadas à Zcon, reunidas em um local fácil de encontrar.
 
 # Zcon
-Zcon é uma conferência anual organizada pela [Zcash Foundation](https://zfnd.org/).
+A Zcon é uma conferência anual organizada pela [Zcash Foundation](https://zfnd.org/).
 
-## Zcon0: privacidade de A a Zcon
+## Zcon0: Privacidade de A a Zcon
 
-Zcon0 foi a nossa primeira conferência anual, e correu incrivelmente bem. Passamos de 26 a 28 de junho de 2018 na bela Montreal
+A Zcon0 foi a nossa primeira conferência anual, e foi incrivelmente bem. Passamos os dias 26 a 28 de junho de 2018 na bela Montreal
 
-[Playlist do Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+[Playlist da Zcon0](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=LSWQXFdGUkKVg4EQ&amp;list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS"
-    title="Playlist do Zcon0"
+    title="Zcon0 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -25,17 +25,17 @@ Zcon0 foi a nossa primeira conferência anual, e correu incrivelmente bem. Passa
 </div>
 
 
-## Zcon1: do zero ao herói da privacidade
+## Zcon1: De zero a herói da privacidade
 
-A segunda conferência anual sobre privacidade e tecnologia organizada pela Zcash Foundation foi realizada em Split, Croácia, de 22 a 24 de junho de 2019.
+A segunda conferência anual de privacidade e tecnologia, organizada pela Zcash Foundation, foi realizada em Split, na Croácia, de 22 a 24 de junho de 2019.
 
-[Playlist do Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+[Playlist da Zcon1](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=9OVMGx-9GW_0ADw6&amp;list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj"
-    title="Playlist do Zcon1"
+    title="Zcon1 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -43,17 +43,17 @@ A segunda conferência anual sobre privacidade e tecnologia organizada pela Zcas
 </div>
 
 
-## Zcon2: privacidade até o fim
+## Zcon2: Privacidade em todas as camadas
 
-Zcon2 aconteceu na terça-feira, 8 de junho, e na quarta-feira, 9 de junho de 2021. Zcon2 foi uma conferência virtual
+A Zcon2 aconteceu na terça-feira, 8 de junho, e na quarta-feira, 9 de junho de 2021. A Zcon2 foi uma conferência virtual
 
-[Playlist do Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+[Playlist da Zcon2](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=f5dbKWQYi8uUwyp1&amp;list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4"
-    title="Playlist do Zcon2"
+    title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -61,17 +61,17 @@ Zcon2 aconteceu na terça-feira, 8 de junho, e na quarta-feira, 9 de junho de 20
 </div>
 
 
-## Zcon3: só código não basta
+## Zcon3: Só o código não basta
 
-Zcon3 aconteceu em Las Vegas de 7 a 9 de agosto de 2022.
+A Zcon3 aconteceu em Las Vegas, de 7 a 9 de agosto de 2022.
 
-[Playlist do Zcon3](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+[Playlist da Zcon3](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=Th6bxLipUFXM0EGj&amp;list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb"
-    title="Playlist do Zcon3"
+    title="Zcon3 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -79,53 +79,53 @@ Zcon3 aconteceu em Las Vegas de 7 a 9 de agosto de 2022.
 </div>
 
 
-## Zcon4: o futuro ainda não foi escrito
+## Zcon4: O futuro ainda não foi escrito
 
-A conferência presencial será em Barcelona, Espanha, nos dias 30 e 31 de julho de 2023, e será transmitida ao vivo a partir do local. 
+A conferência presencial acontece em Barcelona, na Espanha, de 30 a 31 de julho de 2023, e será transmitida ao vivo do local do evento. 
 
-[Playlist do Zcon4](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+[Playlist da Zcon4](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=M8RwBEgu3hSRrR_C&amp;list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL"
-    title="Playlist do Zcon4"
+    title="Zcon4 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-## ZconV: Zcash Unified
+## ZconV: Zcash unificado
 
-ZconV aconteceu de 6 a 10 de maio de 2024. ZconV foi uma conferência virtual
+A ZconV aconteceu de 6 a 10 de maio de 2024. A ZconV foi uma conferência virtual
 
-[Playlist do ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+[Playlist da ZconV](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=1M-vTsYjCEtq7_jo&amp;list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR"
-    title="Playlist do ZconV"
+    title="ZconV Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-## ZconVI: sinergia através da descentralização
+## ZconVI: Sinergia por meio da descentralização
 
-ZconVI aconteceu de 4 a 7 de março de 2025. ZconVI foi uma conferência virtual
+A ZconVI aconteceu de 4 a 7 de março de 2025. A ZconVI foi uma conferência virtual
 
-[Playlist do ZconVI](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+[Playlist da ZconVI](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
 
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=YTXE18wOOqQY44lA&amp;list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk"
-    title="Playlist do ZconVI"
+    title="ZconVI Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

@@ -36,6 +36,36 @@ Heartwood è una tappa in una serie di aggiornamenti di Zcash, ognuno dei quali 
 
 ![Cronologia degli aggiornamenti di Zcash: Overwinter e Sapling nel 2018, Blossom nel 2019 e Heartwood nel 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## In breve
+
+- Heartwood è stato attivato al blocco 903.000 della mainnet (16 luglio 2020 UTC), distribuito tramite ZIP 250 con un nuovo consensus branch id per la protezione bidirezionale dal replay.
+- ZIP 213 (Shielded Coinbase): le transazioni coinbase possono contenere output Sapling, così i miner possono ricevere le ricompense dei blocchi direttamente in un indirizzo schermato.
+- ZIP 221 (FlyClient): il campo hashLightClientRoot dell'header ora fa commitment a un Merkle Mountain Range, permettendo ai light client di verificare la proof-of-work con prove che crescono solo in modo logaritmico.
+- Gli output coinbase trasparenti sono ancora pienamente supportati: la coinbase schermata è una nuova opzione, non un obbligo.
+- L'attivazione avviene a un'altezza di blocco, non a un orario preciso, quindi il minuto esatto varia tra dashboard e fusi orari.
+
+## Spiegazione di base
+
+Prima di Heartwood, i ZEC appena coniati da un miner dovevano iniziare la loro esistenza in un indirizzo trasparente, quindi chiunque poteva osservare le entrate di un miner e tracciarne la destinazione. Lo ZIP 213 ha allentato la regola di consenso in modo che la transazione coinbase possa pagare output Sapling, mantenendo privato il compenso di un miner fin dal primo istante della sua esistenza. Si rivolge specificamente a Sapling perché la generazione efficiente delle prove di Sapling ha reso pratica la schermatura all'interno della coinbase; le prove pesanti di Sprout non erano realizzabili in quel contesto.
+
+ZIP 221 ha riconvertito il campo dell'intestazione hashFinalSaplingRoot in hashLightClientRoot. Ora impegna una Merkle Mountain Range costruita sui dati delle intestazioni dei blocchi precedenti: timestamp, target di difficoltà, radici Sapling, lavoro accumulato, numero di transazioni. Un light client o un'altra chain può così verificare la proof-of-work di Zcash con una piccola prova invece di scaricare ogni blocco.
+
+## Analogia visiva
+
+Prima, il giorno di paga di ogni miner veniva affisso su una bacheca pubblica: chiunque poteva leggerne l'importo e la traccia. Dopo, il giorno di paga può arrivare in una busta sigillata. E ora ogni nuovo blocco porta con sé un piccolo sigillo di ceralacca che riassume tutti i blocchi precedenti, così uno sconosciuto può verificare con un'occhiata l'intera catena di lavoro invece di leggere ogni pagina.
+
+## Approfondimento
+
+La modifica della regola aveva una storia: Sapling aveva esteso il divieto originale sulle coinbase schermate anche agli output Sapling, e Heartwood ha rimosso tale restrizione per consentirli. È un chiaro esempio di come l'infrastruttura di un aggiornamento diventi la base di quello successivo. Il commitment MMR dà i suoi frutti nei portafogli leggeri e nell'integrazione cross-chain, dove in precedenza verificare il lavoro di Zcash richiedeva il download dell'intera chain. Il consensus branch id aggiunto all'attivazione offre una protezione dal replay in entrambe le direzioni: una transazione costruita secondo le nuove regole non può essere riprodotta sulla vecchia chain, e viceversa.
+
+## Errori comuni
+
+- **Pensare che la coinbase schermata sia diventata obbligatoria.** Gli output coinbase trasparenti sono ancora validi; sono i miner a scegliere.
+- **Presumere che Sprout possa ricevere la coinbase schermata.** Sono consentiti solo gli output Sapling: la generazione delle prove di Sprout richiedeva troppe risorse.
+- **Credere che FlyClient elimini la necessità dei full node (nodi completi).** Serve i light client e i verificatori cross-chain; i full node restano comunque il punto di riferimento della rete.
+- **Cercare un orario di attivazione fisso.** L'attivazione è stata definita al blocco 903.000, quindi il minuto esatto sull'orologio varia.
+- **Confondere hashLightClientRoot con il vecchio hashFinalSaplingRoot.** Lo stesso campo è stato riutilizzato e rinominato.
+
 ## Glossario
 
 | Termine | Significato in parole semplici |
@@ -67,7 +97,7 @@ Prima di Heartwood, perché la ricompensa di blocco pagata a un miner compariva 
 <details>
 <summary>Risposta</summary>
 
-Gli output coinbase dovevano essere trasparenti, quindi la ricompensa appena creata di un miner finiva sempre in un indirizzo trasparente pubblico che chiunque poteva ispezionare. Heartwood ha cambiato le regole di consenso (ZIP 213) in modo che le transazioni coinbase possano contenere output Sapling, permettendo ai miner di ricevere le loro ricompense direttamente in indirizzi schermati.
+Gli output Coinbase dovevano essere trasparenti, quindi la ricompensa appena coniata di un miner finiva sempre in un indirizzo trasparente pubblico che chiunque poteva ispezionare. Heartwood ha modificato le regole di consenso (ZIP 213) in modo che le transazioni coinbase possano contenere output Sapling, permettendo ai miner di ricevere le ricompense direttamente in indirizzi schermati.
 </details>
 
 ### Risorse
@@ -95,5 +125,12 @@ Gli output coinbase dovevano essere trasparenti, quindi la ricompensa appena cre
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Pagine correlate
+
+- [Sapling](./Sapling.md): il meccanismo efficiente che ha reso possibile il coinbase schermato
+- [Canopy](./Canopy.md): il prossimo aggiornamento della serie
+- [Full node](./Full_Nodes.md): cosa offre ancora la verifica completa
+- [Cosa può vedere un block explorer](./What_a_Block_Explorer_Can_See.md): cosa rivela il coinbase trasparente rispetto a quello schermato
 
 Serie: [Indice degli aggiornamenti di rete](../start-here/network-upgrades) · Precedente: [Blossom](../zcash-tech/blossom) · Successivo: [Canopy](../zcash-tech/canopy)

@@ -108,9 +108,9 @@ Block ahorow a ɛyɛ ntɛmntɛm no nyɛ nea wontua hwee. Stale block yɛ block a
 
 ## Gyinabea ne bere nhyehyɛe
 
-- **ZIP tebea:** Draft. Wɔn a wɔyɛ wuranom Dev Ojha ne Evan Forbes; wɔbɔɔ no 13 Oforisuo 2026.
+- **ZIP tebea:** Wɔahyɛ ho nyansa. Wɔn a wɔyɛ wuranom Dev Ojha ne Evan Forbes; wɔbɔɔ no 13 Oforisuo 2026.
 - **Coinholder poll:** wɔtoo mu 14 September 2026, a 99.9% na ɛboaa. Nhwehwɛmu no kyerɛ sɛ wɔpɛ; ɛnsakra mmara a wɔpene so no ankasa.
-- **Bere nhyehyɛe:** wɔ Zcash Community Forum dawurubɔ bi mu wɔ 17 September mu no, nkɔso ahyehyɛde ahorow no penee so sɛ wɔbɛyɛ nhyehyɛe a ɛbɛma wɔawie mmara no ansa na September 30 adu, NU7 wɔ testnet so wɔ October 6, gyinaesi a etwa to ne mainnet activation sorokɔ wɔ October 20, ne mainnet activation a wɔde wɔn ani asi so sɛ wɔbɛyɛ bɛyɛ 5 November 2026. November 5 yɛ botae, ɛnyɛ da a wɔahyɛ ato hɔ, kosi sɛ wɔde sorokɔ no besi hɔ.
+- **Bere nhyehyɛe:** wɔ Zcash Community Forum dawurubɔ bi mu wɔ 17 September mu no, nkɔso ahyehyɛde ahorow no penee so sɛ wɔbɛyɛ nhyehyɛe a ɛbɛma wɔawie mmara no ansa na September 30 adu, NU7 wɔ testnet so wɔ October 6, ne gyinaesi a etwa to wɔ October 20. Mprempren wɔde mainnet activation sorokɔ asi hɔ sɛ 3,543,405 ([ZIP 259 na ɛwɔ hɔ](https://zips.z.cash/zip-0259)), a wɔde wɔn ani asi so sɛ wɔbɛyɛ bɛyɛ 5 November 2026.
 - **Nneɛma a wɔde di dwuma:** wɔadi akyi wɔ Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) ne Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Nea eyi kyerɛ ma wo

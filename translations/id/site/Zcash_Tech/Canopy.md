@@ -44,6 +44,36 @@ Sejak saat Canopy diaktifkan, tidak ada nilai baru yang dapat ditambahkan ke dal
 
 Bersamaan dengan perubahan pendanaan, Canopy membawa dua ZIP teknis yang lebih kecil. [ZIP 212](https://zips.z.cash/zip-0212) mengubah cara penerima menurunkan rahasia ephemeral Sapling, dengan menurunkannya dari plaintext note. [ZIP 215](https://zips.z.cash/zip-0215) menuliskan aturan eksplisit untuk memvalidasi tanda tangan Ed25519, sehingga setiap node menyepakati secara tepat tanda tangan mana yang dianggap valid.
 
+## TL;DR
+
+- Canopy (NU4) diaktifkan pada block mainnet 1.046.400 (18 November 2020 UTC), block yang sama dengan halving pertama Zcash, yang memotong block reward dari 6,25 menjadi 3,125 ZEC.
+- Peningkatan ini mengakhiri founders reward dan membentuk Zcash Development Fund: 20% dari setiap block reward selama empat tahun, hingga halving kedua pada 2024 (kebijakan ZIP 1014; mekanisme ZIP 207/214).
+- Porsi 20% dana tersebut dibagi menjadi 35% untuk Bootstrap (Electric Coin Company), 25% untuk Zcash Foundation, dan 40% untuk Major Grants, yang kemudian dikenal sebagai Zcash Community Grants.
+- Peningkatan ini menutup pool Sprout bagi nilai baru (ZIP 211): tidak ada setoran baru yang dapat masuk, tetapi penarikan tetap berfungsi.
+- Dua ZIP teknis turut disertakan: ZIP 212 (rahasia ephemeral Sapling diturunkan dari plaintext note) dan ZIP 215 (aturan validasi Ed25519 yang eksplisit).
+
+## Penjelasan Inti
+
+Zcash mendanai pengembangannya sendiri dari block reward karena tidak ada perusahaan yang berdiri di belakangnya. Founders reward menutupi tahun-tahun awal dan dijadwalkan berakhir pada halving pertama, sehingga penggantinya harus sudah ada sebelum tenggat waktu tersebut. Canopy adalah pengganti tersebut: ZIP 207 memperkenalkan mekanisme funding stream umum yang mengarahkan sebagian subsidi blok ke alamat penerima yang telah ditentukan, dan ZIP 214 menetapkan aturan dan alamat spesifik untuk Development Fund. Jika diukur terhadap keseluruhan reward dan bukan hanya terhadap dana tersebut, porsinya adalah 7% ECC, 5% Zcash Foundation, dan 8% Major Grants — angka yang sama yang dijelaskan dengan dua cara.
+
+Canopy juga mulai menghentikan Sprout, pool terlindungi tertua milik Zcash: sejak aktivasi, field vpub_old pada setiap JoinSplit harus bernilai nol, sehingga nilai dapat keluar dari Sprout tetapi tidak pernah dapat masuk kembali.
+
+## Analogi visual
+
+Canopy adalah momen ketika fase gaji pendiri sebuah startup berakhir dan sebuah konstitusi mulai berlaku: sejak blok tersebut, 20 sen dari setiap dolar yang dicetak oleh jaringan dialokasikan untuk pemeliharaan dan dibagi 35/25/40 di antara tiga departemen. Pada saat yang sama, gudang lama (Sprout) ditutup untuk penyimpanan baru. Siapa pun masih dapat mengambil barang mereka, tetapi tidak ada barang baru yang boleh masuk.
+
+## Pembahasan Mendalam
+
+Aliran pendanaan ditegakkan oleh konsensus, bukan oleh kepercayaan: node menolak blok yang coinbase-nya tidak membayar penerima yang telah ditentukan sesuai bagian yang telah ditentukan. Canopy sengaja diaktifkan tepat pada blok halving, sehingga penambang melihat imbalan mereka terpotong setengah pada saat yang sama ketika sebagian baru dari imbalan yang lebih kecil itu mulai mengalir ke pengembangan. ZIP 212 mengubah cara penurunan rahasia efemeral Sapling (dari plaintext note), dan ZIP 215 menetapkan aturan penerimaan Ed25519 secara eksplisit sehingga setiap node memvalidasi tanda tangan secara identik. Keduanya adalah perubahan kecil yang menghilangkan seluruh kelas ambiguitas konsensus.
+
+## Kesalahan Umum
+
+- **Menganggap Canopy sebagai halving itu sendiri.** Keduanya berbagi satu blok aktivasi, tetapi keduanya merupakan perubahan yang terpisah: ZIP 251 (Canopy) dibandingkan dengan jadwal penerbitan.
+- **Menafsirkan 20% sebagai bagian yang diambil dari porsi baru penambang.** Penambang tetap menerima 80%; dana tersebut mengambil 20% dari block reward.
+- **Mengira dana Sprout dibekukan atau dimusnahkan.** Penarikan tetap dapat dilakukan; hanya setoran baru yang dihentikan.
+- **Memperlakukan "35/25/40 dari dana" dan "7/5/8 dari reward" sebagai pembagian yang berbeda.** Keduanya adalah angka yang sama yang diukur terhadap basis yang berbeda.
+- **Menyebut Canopy sebagai peningkatan kriptografi.** Peningkatan ini terutama menyangkut tata kelola dan kebijakan moneter; ZIP teknisnya hanya berupa penyesuaian kecil.
+
 ## Glosarium
 
 | Istilah | Makna dalam Bahasa Inggris sederhana |
@@ -108,5 +138,12 @@ Dana Pengembangan [](../start-here/development-fund)
 [Zcash Tata Kelola](../zcash-community/zcash-governance)
 
 ---
+
+## Halaman Terkait
+
+- [Sprout](./Sprout.md) — pool Canopy ditutup untuk deposit baru
+- [Heartwood](./Heartwood.md) — peningkatan sebelumnya dalam rangkaian ini
+- [NU5](./NU5.md) — peningkatan berikutnya, yang diluncurkan Orchard
+- [NU6.1](./NU6_1.md) — penyempurnaan terbaru atas pendanaan pengembangan
 
 Seri: Indeks Peningkatan Jaringan [](../start-here/network-upgrades) · Sebelumnya: [Heartwood](../zcash-tech/heartwood) · Berikutnya: [NU5](../zcash-tech/nu5)

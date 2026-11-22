@@ -12,6 +12,18 @@ NU6, [ZIP 253](https://zips.z.cash/zip-0253) tarafından devreye alınan bir Zca
 
 Bu neden önemlidir? Zcash’in [Geliştirme Fonu’nun](../zcash-tech/canopy), tarihindeki ikinci halving olan Kasım 2024 halving’i civarında sona ermesi planlanmıştı. NU6 bu finansmanı sürdürdü, ancak her coin’i sabit alıcılara vermek yerine, topluluğun daha sonra ne yapılacağına karar verebilmesi için bir kısmını protokol içinde ayırdı. Ayrıca sessiz bir muhasebe açığını da kapattı; böylece artık var olacak toplam ZEC miktarı tam olarak öngörülebilir hale geldi.
 
+## Özetle
+
+- NU6, ZIP 253 ile devreye alınarak ana ağda 2.726.400 numaralı blokta (23 Kasım 2024 UTC) etkinleştirildi.
+- Kasım 2024 halving’inden sonra blok sübvansiyonunun %20’sinin geliştirmeye akmasını sürdürdü: %8’i Zcash Community Grants’ye (ZCG), %12’si ise yeni Ertelenmiş Geliştirme Fonu Kasası’na (Deferred Dev Fund Lockbox, ZIP 2001).
+- Kasa, harcayıcısı tanımlanmamış, protokol içi bir rezervdir. NU6 yönetişim konusunu bilerek açık bıraktı, bu soruyu daha sonra NU6.1 (2025) yanıtladı.
+- ZIP 236 artık her coinbase işleminin tam olarak dengelenmesini zorunlu kılıyor. Böylece madenciler artık eksik talepte bulunarak yanlışlıkla ZEC yakamaz ve toplam gelecek arz tam olarak öngörülebilir hale gelir.
+- Bakiyeler, gizlilik ve işlem kuralları değişmeden kalır: NU6 bir finansman ve muhasebe yükseltmesidir.
+
+## Görsel benzetme
+
+NU6'ı, inşacılarına sabit bir harçlık ödeyen ve maaş gününün sona ermesinin planlandığını bilen bir hane olarak düşünün. NU6 ödemeyi durdurmak yerine harçlığı böler: bir kısmı topluluk hibe komitesine gitmeye devam eder, bir kısmı ise henüz şifresi açıklanmamış bir aile kasasına konur. Kasa, hane daha sonra kasanın açılma kuralları üzerinde anlaşana kadar parayı ayrı tutar. Bu anlaşma NU6.1'dir.
+
 ## NU6 neyi değiştirdi
 
 NU6, [ZIP 1015](https://zips.z.cash/zip-1015) içinde tanımlanan bir kural olarak, Kasım 2024 halving’inden sonra blok sübvansiyonunun %20’sini geliştirme finansmanına göndermeye devam etti. Bu %20’yi ikiye böldü.
@@ -41,7 +53,7 @@ NU6 ayrıca, [ZIP 236](https://zips.z.cash/zip-0236) içinde tanımlanan, yeni Z
 2. NU6’dan sonra, bir coinbase işlemi tam olarak dengelenmelidir: toplam çıktı değeri madenci sübvansiyonu artı ücretlere eşit olmalıdır; ne fazla ne eksik.
 3. Madenciler artık eksik talep edip yanlışlıkla ZEC yakamayacağı için, var olacak toplam ZEC miktarı artık tam olarak öngörülebilir.
 
-![NU6 öncesi ve sonrası coinbase dengelemesi: önce coinbase eksik talep edip ZEC yakabiliyordu, bu yüzden arz tam olarak öngörülemiyordu. Sonra coinbase tam olarak dengelenmek zorunda kaldı, bu yüzden ihraç tam olarak öngörülebilir oldu](/content-images/nu6-coinbase-balance-0fa2394799.webp)
+![Coinbase balancing before and after NU6: before, coinbase could under-claim and burn ZEC so supply was not exactly predictable. After, coinbase must balance exactly so issuance is exactly predictable](/content-images/nu6-coinbase-balance-0fa2394799.webp)
 
 ## Finansman nasıl evrildi
 
@@ -52,6 +64,14 @@ NU6, Zcash’in kendisini nasıl finanse ettiğine dair daha uzun bir hikâyenin
 3. NU6.1 (2025), NU6’nın açık bıraktığı, ayrılan fonları kimin kontrol edeceği sorusunu; blok sübvansiyonunun %8’ini Zcash Community Grants’e sürdürüp %12’sini başlangıç sermayesi lockbox’tan gelen coin-holder-controlled bir fona yönlendirerek yanıtladı.
 
 ![Zcash finansmanının evrimi: Canopy geliştirme fonunu oluşturdu, NU6 lockbox’ı kurdu ve NU6.1 onu kimin kontrol edeceğine dair kuralları belirledi](/content-images/nu6-funding-timeline-2427db58c0.webp)
+
+## Sık Yapılan Hatalar
+
+- **NU6'nın para politikasını değiştirdiğini düşünmek.** İhraç takvimi ve yarılanma zamanlaması değiştirilmedi; NU6, yeni ZEC ihracının miktarını değil, sübvansiyondan bir payı kimin alacağını değiştirdi.
+- **Lockbox'ı bir vakıf cüzdanıyla karıştırmak.** Deferred Dev Fund Lockbox, mutabakat tarafından takip edilen bir zincir değer havuzudur; herhangi birinin harcama yapabileceği bir adres değildir.
+- **NU6.1 ve NU6'ün aynı yükseltme olduğunu varsaymak.** NU6 rezervi oluşturdu; NU6.1 ise onu kimin kontrol edeceğine karar verdi: %8'i ZCG'a, %12'si coin sahiplerinin kontrolündeki bir fona.
+- **Tam bakiye kuralının (ZIP 236) kullanıcı coin'lerini değiştirdiğine inanmak.** Bu kural, mevcut bakiyeleri veya sıradan işlemleri değil, coinbase işlemlerini, yani blok başına ihraç ödemelerini kısıtlar.
+- **%20'lik geliştirme payını yeni bir şey sanmak.** %20'lik geliştirme fonu Canopy'den beri mevcuttu; NU6 bunu yarılanmanın ötesine taşıdı ve %8 ZCG / %12 lockbox olarak böldü.
 
 ## Sözlük
 
@@ -115,5 +135,14 @@ Rezervi oluşturmak, ihraçtan bir payın sabit alıcılara ödenmek yerine prot
 [ZEC ve Zcash nedir](../start-here/what-is-zec-and-zcash)
 
 ---
+
+## İlgili Sayfalar
+
+| Sayfa | Neden ilgili |
+|---|---|
+| [Canopy](./Canopy.md) | NU6 tarafından yeniden yapılandırılan geliştirme fonunu oluşturdu |
+| [NU6.1](./NU6_1.md) | kilit kutusu fonlarını kimin kontrol edeceğine karar verdi |
+| [NU6.2](./NU6_2.md) | aynı serideki Orchard acil onarım yükseltmesi |
+| [Geliştirme Fonu](../start-here/development-fund) | %20'lik payın ardındaki finansman geçmişi |
 
 Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [NU5](../zcash-tech/nu5) · Sonraki: [NU6.1](../zcash-tech/nu6-1)

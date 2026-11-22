@@ -16,7 +16,7 @@
 
 import { readFile, writeFile, readdir, stat } from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { join, dirname, basename, relative } from "node:path";
+import { join, dirname, basename, relative, resolve } from "node:path";
 
 // ── args ─────────────────────────────────────────────────────────────────────
 
@@ -257,9 +257,11 @@ function routeExists(route, mdFiles, appRoutes) {
   // The app falls back to a loose match inside the same folder, so a report that
   // ignored this would flag links that actually resolve in production.
   const wanted = normalize(basename(clean));
-  const folder = dirname(target);
+  // walk() uses native separators and may start from an absolute --root.
+  // Compare directories in one form without changing filename matching.
+  const folder = dirname(resolve(target));
   const sibling = mdFiles.find(
-    (f) => dirname(f) === folder && (normalize(basename(f)) === wanted || normalize(basename(f)).includes(wanted)),
+    (f) => dirname(resolve(f)) === folder && normalize(basename(f)) === wanted,
   );
   if (sibling) return { ok: true, how: `fuzzy → ${sibling}` };
 
@@ -310,7 +312,18 @@ async function checkExternal(url) {
     if (r.status === 405 || r.status === 403 || r.status === 501) r = await attempt("GET");
 
     if (r.status >= 200 && r.status < 300) return { state: "ok", status: r.status };
-    if (r.status >= 300 && r.status < 400) return { state: "redirect", status: r.status, to: r.location };
+    if (r.status >= 300 && r.status < 400) {
+      // Signed-out GitHub edit links lead to login, not a new content location.
+      // Keep them unverified instead of advising replacement with /login.
+      try {
+        const from = new URL(url);
+        const to = new URL(r.location, from);
+        if (from.origin === "https://github.com" && to.origin === from.origin && to.pathname === "/login") {
+          return { state: "blocked", status: r.status, detail: "GitHub login required" };
+        }
+      } catch { /* Keep malformed locations in the existing redirect report. */ }
+      return { state: "redirect", status: r.status, to: r.location };
+    }
     if (BLOCKED.has(r.status)) {
       // Retry-After in seconds only; the HTTP-date form is rare and ignored.
       const wait = /^\d+$/.test(String(r.retryAfter ?? "").trim()) ? Number(r.retryAfter) : null;

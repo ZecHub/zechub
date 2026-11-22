@@ -69,7 +69,7 @@ En el contexto de Zcash, las tecnologías de puente como ZenRock permiten que lo
 
 La interoperabilidad es un componente crítico en el desarrollo de DeFi porque permite que los activos de una blockchain específica participen en una economía digital entre redes. 
 
-Más información en: [ZenRock Bridge Aprender](https://docs.zenrocklabs.io/)
+Más información en: [ZenRock Bridge Aprender](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,7 +260,7 @@ Más información: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x8
 
 [Morpho](https://markets.morpho.org/fixed) es un protocolo de préstamo descentralizado que proporciona un mercado de préstamos altamente eficiente en capital.
 
-[Clearstar Labs](clearstar.xyz) introduce la cbAssets Vault mediante Morpho, permitiendo que activos como cbZEC se utilicen en el mercado de préstamos.
+[Clearstar Labs](https://clearstar.xyz) presenta la bóveda cbAssets [cbAssets Vault] mediante Morpho, lo que permite utilizar activos como cbZEC en el mercado de préstamos.
 
 A través de esta bóveda, los usuarios pueden:
 

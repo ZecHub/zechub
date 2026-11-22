@@ -21,7 +21,7 @@ Saat data melewati server atau internet, data tersebut terpapar pada banyak fakt
 
 **Memo Terenkripsi Zcash**
 
-Dompet Desktop & Mobile Zcash memiliki fitur bawaan yang memungkinkan pengguna untuk mengirim pesan terenkripsi bersama dengan transaksi terlindungi secara privat. Ukuran memo/pesan dapat mencapai hingga 512 byte per transaksi dengan biaya transaksi kurang dari 1 sen AS. Karena cara transaksi dideteksi yang menjaga privasi serta waktu blok jaringan, pesan mungkin memerlukan waktu hingga 1 menit atau lebih untuk diterima.
+Dompet Zcash yang mendukung memo terlindungi memungkinkan pengguna melampirkan pesan terenkripsi pada pembayaran terlindungi. Setiap output terlindungi memiliki field memo 512 byte sendiri. Ini bukan jatah tunggal 512 byte untuk seluruh transaksi. Lihat [Memo](/using-zcash/memos) untuk format teks dan dukungan dompet. Biaya transaksi dibayar dalam ZEC, dan [ZIP 317](https://zips.z.cash/zip-0317) menetapkan biaya konvensional yang bergantung pada kompleksitas transaksi. Biaya dalam dolar AS juga berubah mengikuti nilai tukar ZEC, jadi biaya di bawah 1 sen AS tidak dijamin. Periksa perkiraan biaya di dompet sebelum mengirim. Pengiriman pesan bergantung pada propagasi transaksi, kebijakan konfirmasi, dan sinkronisasi dompet penerima. Ini bukan chat instan.
 
 Coba sendiri: https://z.cash/wallets
 

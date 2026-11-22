@@ -7,7 +7,7 @@
 
 1. **Brave:** Otu n'ime ihe nchọgharị kachasị ama na nke kachasị nchebe n'ahịa taa. Ọ na-egbochi mgbasa ozi na ndị na-esochi na-emebi Nzuzo [privacy]. Ọ na-egbochi nchekwa data nke ndị ọzọ. 
 
-2. **Mulvad:** Ihe nchọgharị weebụ lekwasịrị anya na Nzuzo, nke e mepụtara site na mmekorita n'etiti Mullvad VPN na ọrụ Tor. E mepụtara ya iji belata nleba anya na mkpisiaka dijitalụ
+2. **Mullvad:** Ihe nchọgharị weebụ lekwasịrị anya na Nzuzo, nke e mepụtara site na mmekorita n'etiti Mullvad VPN na ọrụ Tor. E mepụtara ya iji belata nleba anya na mkpisiaka dijitalụ
 
 3. **Tor:** Ihe nchọgharị a na-egbochi plugins dịka Flash, RealPlayer, QuickTime, na ndị ọzọ: enwere ike iji ha kpughee Adreesị IP gị. Anyị anaghị akwado ka ị wụnye add-ons ma ọ bụ plugins ndị ọzọ n'ime ihe nchọgharị Tor
 

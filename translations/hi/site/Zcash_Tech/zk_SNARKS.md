@@ -2,29 +2,29 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# ZKP & zk-SNARKs
+# ZKP और ZK-SNARKS
 
-## TL;DR
+## सारांश (TL;DR)
 
-- **zk-SNARKs** = Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge
-- ये एक पक्ष को **यह साबित करने** की अनुमति देते हैं कि वह कुछ जानता है, बिना स्वयं उस जानकारी को उजागर किए
-- Zcash, zk-SNARKs का उपयोग यह साबित करने के लिए करता है कि कोई transaction वैध है (सही amounts, unspent inputs) **बिना sender, receiver, या amount को उजागर किए**
-- "Succinct" का अर्थ है कि proof बहुत छोटा होता है और जटिल statements के लिए भी उसे verify करना तेज़ होता है
-- Orchard pool Halo 2 का उपयोग करता है, जो एक zk-SNARK system है जिसमें **trusted setup की आवश्यकता नहीं होती**
+- **zk-SNARKs** = ज़ीरो-नॉलेज सक्सिंक्ट नॉन-इंटरैक्टिव आर्ग्युमेंट्स ऑफ़ नॉलेज (Zero-Knowledge Succinct Non-Interactive Arguments of Knowledge)
+- ये एक पक्ष को जानकारी उजागर किए बिना **यह प्रूफ (proof) देने देते हैं कि वह कुछ जानता है**
+- Zcash zk-SNARKs का उपयोग यह प्रूफ देने के लिए करता है कि कोई लेनदेन (transaction) मान्य है (सही राशि, बिना खर्च किए गए इनपुट), **प्रेषक, प्राप्तकर्ता या राशि उजागर किए बिना**
+- “सक्सिंक्ट” (Succinct) का अर्थ है कि जटिल कथनों के लिए भी प्रूफ बहुत छोटा होता है और उसका सत्यापन तेज़ी से होता है
+- Orchard पूल (pool) Halo 2 का उपयोग करता है, जो एक zk-SNARK प्रणाली है जिसमें **किसी ट्रस्टेड सेटअप (trusted setup) की आवश्यकता नहीं होती**
 
 ---
 
-## Proof क्या है?
+## प्रूफ क्या है?
 
-Proofs सभी गणित की आधारशिला हैं। एक proof वह claim या theorem है जिसे आप सिद्ध करना चाहते हैं, तथा derivations का वह क्रम है जिसके आधार पर यह घोषित किया जाता है कि theorem सिद्ध हो चुका है। उदाहरण के लिए, यह कि किसी triangle के सभी angles का कुल 180° होता है, इसे कोई भी व्यक्ति स्वतंत्र रूप से जाँच सकता है (verifier)।
+प्रूफ संपूर्ण गणित का आधार हैं। प्रूफ एक दावा या प्रमेय है जिसे आप सिद्ध करने का प्रयास कर रहे हैं, तथा व्युत्पत्तियों का वह क्रम है जिसके द्वारा यह घोषित किया जाता है कि प्रमेय सिद्ध हो गया है। उदाहरण के लिए, “किसी त्रिभुज के सभी कोणों का योग 180° होता है” — इसकी जाँच कोई भी (सत्यापनकर्ता) स्वतंत्र रूप से कर सकता है।
 
-**Proofs** 
+**प्रूफ** 
 
-Prover ---> Claim करता है ---> Verifier चुनता है ---> Accept/Reject 
+प्रूवर ---> दावा करता है ---> सत्यापनकर्ता चुनता है ---> स्वीकार/अस्वीकार 
 
-(प्रोवर और verifier दोनों algorithms हैं)
+(प्रूवर और सत्यापनकर्ता दोनों एल्गोरिदम हैं)
 
-Computer science में efficiently verifiable proofs के लिए प्रयुक्त शब्द NP proofs है। इन छोटे proofs को polynomial time में verify किया जा सकता है। इसका व्यापक विचार यह है: "किसी theorem का एक solution मौजूद है और उसे verifier के पास जाँच के लिए भेजा जाता है"
+कंप्यूटर विज्ञान में कुशलतापूर्वक सत्यापन योग्य प्रूफ के लिए NP प्रूफ शब्द का उपयोग होता है। इन छोटे प्रूफ का सत्यापन बहुपद समय (polynomial time) में किया जा सकता है। मूल विचार यह है कि “किसी प्रमेय का एक समाधान मौजूद है और उसे जाँच के लिए सत्यापनकर्ता को सौंपा जाता है”
 
 
 <a href="">
@@ -32,18 +32,18 @@ Computer science में efficiently verifiable proofs के लिए प्
 </a>
 
 
-किसी NP-language में = दो शर्तें पूरी होनी चाहिए: 
+एक NP-भाषा में दो शर्तें पूरी होनी चाहिए: 
 
-Completeness: सच्चे claims verifier द्वारा स्वीकार किए जाएंगे (जिससे ईमानदार provers verification तक पहुँच सकें)
+पूर्णता (Completeness): सत्य दावे सत्यापनकर्ता द्वारा स्वीकार किए जाएँगे (ईमानदार प्रूवर को सत्यापन तक पहुँचने देती है)
 
-Soundness: झूठे claims के लिए कोई proof नहीं होगा (किसी भी cheating prover strategy के लिए वे गलत claim की correctness सिद्ध नहीं कर पाएंगे)।
+सुदृढ़ता (Soundness): असत्य दावों का कोई प्रूफ नहीं होगा (धोखा देने वाले प्रूवर की किसी भी रणनीति से गलत दावे की शुद्धता सिद्ध नहीं की जा सकेगी)।
 
 
-### Interactive & Probabalistic Proofs
+### इंटरैक्टिव और प्रायिकतात्मक प्रूफ
 
-**Interaction**: केवल proof पढ़ने के बजाय, verifier कई message rounds में prover के साथ आगे-पीछे संवाद करता है।
+**इंटरैक्शन**: केवल प्रूफ पढ़ने के बजाय, सत्यापनकर्ता संदेशों के कई दौरों में प्रूवर के साथ आगे-पीछे संवाद करता है।
 
-**Randomness**: verifier की prover से की गई requests randomized होती हैं और prover को प्रत्येक का सही उत्तर देने में सक्षम होना चाहिए। 
+**यादृच्छिकता**: प्रूवर से सत्यापनकर्ता के अनुरोध यादृच्छिक होते हैं और प्रूवर को प्रत्येक का सही उत्तर देने में सक्षम होना चाहिए। 
 
 
 <a href="">
@@ -51,180 +51,180 @@ Soundness: झूठे claims के लिए कोई proof नहीं ह
 </a>
 
 
-Interaction और randomness को साथ उपयोग करके, किसी blind verifier को Probabilistic Polynomial Time (PPT) में कोई claim सिद्ध किया जा सकता है। 
+इंटरैक्शन और यादृच्छिकता का एक साथ उपयोग करके किसी अंधे सत्यापनकर्ता के सामने प्रायिकतात्मक बहुपद समय (Probabilistic Polynomial Time, PPT) में दावा सिद्ध करना संभव है। 
 
-क्या Interactive Proofs, NP proofs से अधिक को efficiently verify कर सकते हैं?
+क्या इंटरैक्टिव प्रूफ NP प्रूफ से अधिक का कुशलतापूर्वक सत्यापन कर सकते हैं?
 
-NP Proofs बनाम IP proofs:
+NP प्रूफ बनाम IP प्रूफ:
 
-|  Statement   |    NP     | IP    |
+|  कथन   |    NP     | IP    |
 |--------------|-----------|--------|
-|    NP        |  yes      |  yes   |
-|    CO-NP     |  no       |  yes   |
-|    #P        |  no       |  yes   |
-|    PSPACE    |  no       |  yes   |
+|    NP        |  हाँ      |  हाँ   |
+|    CO-NP     |  नहीं       |  हाँ   |
+|    #P        |  नहीं       |  हाँ   |
+|    PSPACE    |  नहीं       |  हाँ   |
 
 
-NP - किसी statement के लिए एक solution मौजूद है
+NP - किसी कथन का एक समाधान मौजूद है
 
-CO-NP - यह सिद्ध करना कि किसी statement का कोई solution नहीं है
+CO-NP - यह सिद्ध करना कि किसी कथन का कोई समाधान नहीं है
 
-#P - यह गिनना कि किसी statement के कितने solutions मौजूद हैं
+#P - यह गिनना कि किसी कथन के कितने समाधान मौजूद हैं
 
-PSPACE  - विभिन्न statements के alternation को सिद्ध करना
+PSPACE  - विभिन्न कथनों के एक प्रत्यावर्तन को सिद्ध करना
 
-### Zero Knowledge क्या है?
+### ज़ीरो नॉलेज क्या है?
 
-किसी interaction के बाद verifier जो compute कर सकता है, वह उसी के समान होता है जो वह पहले से सिद्ध कर सकता था। prover और verifier के बीच कई rounds में हुआ interaction, verifier की computational power को नहीं बढ़ाता।
+इंटरैक्शन के बाद सत्यापनकर्ता जो गणना कर सकता है, वह ठीक वही है जो वह पहले सिद्ध कर सकता था। प्रूवर और सत्यापनकर्ता के बीच कई दौरों के इंटरैक्शन से सत्यापनकर्ता की गणना-क्षमता नहीं बढ़ी है।
 
-**The Simulation Paradigm**
+**सिमुलेशन Paradigm**
 
-यह प्रयोग cryptography में व्यापक रूप से मिलता है। यह एक "Real View" और "Simulated View" प्रस्तुत करता है। 
+यह प्रयोग पूरी क्रिप्टोग्राफी में मौजूद है। यह एक “वास्तविक दृश्य” और एक “सिम्युलेटेड दृश्य” प्रस्तुत करता है। 
 
-Real View: Prover और Verifier (P,V) के बीच interactions की सभी संभावित histories
+वास्तविक दृश्य: प्रूवर और सत्यापनकर्ता (P,V) के बीच इंटरैक्शन के सभी संभावित इतिहास
 
-Simulated View: verifier, Prover और Verifier के बीच सभी संभावित interactions को simulate करता है 
+सिम्युलेटेड दृश्य: सत्यापनकर्ता प्रूवर और सत्यापनकर्ता के बीच सभी संभावित इंटरैक्शन का सिमुलेशन करता है 
 
 <a href="">
     <img width="850" height="397" alt="simulation1" src="/content-images/0e68649d-a231-44d8-a76a-25a307f68b9e-ba1f0027cf.webp"  alt="" width="600" height="400"/>
 </a>
 
-एक polynomial-time distinguisher यह निर्धारित करने का प्रयास करता है कि वह real view देख रहा है या simulated view, और वह दोनों से बार-बार sample माँगता है।
+एक बहुपद-समय विभेदक (distinguisher) यह निर्धारित करने का प्रयास करता है कि वह वास्तविक दृश्य देख रहा है या सिम्युलेटेड, और बार-बार दोनों से नमूने माँगता है।
 
-इन दोनों views को "computationally indistinguishable" कहा जाता है यदि सभी distinguisher algorithms/strategies के लिए, real या simulated से polynomial संख्या में samples प्राप्त करने के बाद भी, probability >1/2 हो। 
+दोनों दृश्यों को “गणनात्मक रूप से अविभेद्य” कहा जाता है यदि सभी विभेदक एल्गोरिदम/रणनीतियों के लिए, वास्तविक या सिम्युलेटेड से बहुपद संख्या में नमूने प्राप्त करने के बाद भी, प्रायिकता >1/2 है। 
 
-**Zero-Knowledge Arguments of Knowledge**
+**ज़ीरो-नॉलेज (zero-knowledge) आर्ग्युमेंट्स ऑफ़ नॉलेज**
 
-एक interactive protocol (P,V) zero-knowledge होता है यदि कोई simulator (algorithm) मौजूद हो ताकि प्रत्येक probabilty polynomial-time verifier के लिए (जब theorem सही हो), real view और simulated view में अंतर निर्धारित करने वाली probability distributions computationaly indistinguishable हों। 
+एक इंटरैक्टिव प्रोटोकॉल (P,V) ज़ीरो-नॉलेज है यदि एक ऐसा सिम्युलेटर (एल्गोरिदम) मौजूद है कि प्रत्येक प्रायिकतात्मक बहुपद-समय सत्यापनकर्ता के लिए (जब प्रमेय सही हो), वास्तविक को सिम्युलेटेड दृश्य से अलग करने वाले प्रायिकता वितरण गणनात्मक रूप से अविभेद्य हों। 
 
-Interactive Protocols तब उपयोगी होते हैं जब केवल एक verifier हो। इसका एक उदाहरण zero-knowledge 'proof of taxes' application में tax auditor हो सकता है।
+इंटरैक्टिव प्रोटोकॉल तब उपयोगी होते हैं जब एक ही सत्यापनकर्ता हो। उदाहरण के लिए, ज़ीरो-नॉलेज ‘करों का प्रूफ’ एप्लिकेशन में एक कर लेखा परीक्षक।
 
 ## SNARK क्या है?
 
-**Succinct Non-Interactive Argument of Knowledge**
+**सक्सिंक्ट नॉन-इंटरैक्टिव आर्ग्युमेंट ऑफ़ नॉलेज (Succinct Non-Interactive Argument of Knowledge)**
 
-व्यापक परिभाषा - ऐसा succinct proof कि कोई statement सत्य है। proof छोटा होना चाहिए और verify करने में तेज़ होना चाहिए। SNARKS में Prover से Verifier को एक single message भेजा जाता है। verifier फिर उसे accept या reject कर सकता है। 
+व्यापक परिभाषा - इस बात का एक संक्षिप्त प्रूफ कि कोई कथन सत्य है। प्रूफ छोटा और शीघ्र सत्यापन योग्य होना चाहिए। SNARKS में प्रूवर से सत्यापनकर्ता को एक ही संदेश भेजा जाता है। इसके बाद सत्यापनकर्ता स्वीकार या अस्वीकार करना चुन सकता है। 
 
-उदाहरण statement: "मैं एक message (m) जानता हूँ ऐसा कि SHA256(m)=0"
+उदाहरण कथन: “मैं एक ऐसा संदेश (m) जानता हूँ जिसके लिए SHA256(m)=0”
 
-एक zk-SNARK में proof, message (m) के बारे में कुछ भी प्रकट नहीं करता।
+एक zk-SNARK में प्रूफ संदेश (m) के बारे में कुछ भी उजागर नहीं करता।
 
-**Polynomials**: ऐसे पदों के योग जिनमें एक constant (जैसे 1,2,3), variables (जैसे x,y,z), और variables के exponents (जैसे x², y³) शामिल होते हैं। 
+**बहुपद**: ऐसे पदों का योग जिनमें एक स्थिरांक (जैसे 1,2,3), चर (जैसे x,y,z), और चरों के घातांक (जैसे x², y³) होते हैं। 
 
-उदाहरण: "3x² + 8x + 17"
+उदाहरण: “3x² + 8x + 17”
 
-**Arithmetic Circuit**: polynomials को compute करने का एक model। अधिक सामान्य रूप से, इसे Directed Acyclic Graph के रूप में परिभाषित किया जा सकता है, जिसमें graph के प्रत्येक node पर एक arithmetic operation किया जाता है। circuit में addition gates, multiplication gates और कुछ constant gates होते हैं। जिस प्रकार Boolean circuits wires में bits ले जाते हैं, उसी प्रकार Arithmetic circuits integers ले जाते हैं।
+**अंकगणितीय सर्किट**: बहुपदों की गणना के लिए एक मॉडल। अधिक सामान्य रूप से इसे एक निर्देशित अचक्रीय ग्राफ़ (Directed Acyclic Graph) के रूप में परिभाषित किया जा सकता है, जिसके प्रत्येक नोड (node) पर एक अंकगणितीय संक्रिया की जाती है। सर्किट में योग गेट, गुणा गेट और कुछ स्थिरांक गेट होते हैं। जिस प्रकार बूलियन सर्किट तारों में बिट ले जाते हैं, उसी प्रकार अंकगणितीय सर्किट पूर्णांक ले जाते हैं।
 
 
 <a href="">
 <img width="785" height="368" alt="circuit1" src="/content-images/be1de1d6-60d3-4fd1-b9a2-5094c65d696f-dbd3177247.webp" alt="" width="300" height="200"/>
 </a>
 
-इस उदाहरण में, prover verifier को यह विश्वास दिलाना चाहता है कि वह arithmetic circuit का एक solution जानता है।  
+इस उदाहरण में, प्रूवर सत्यापनकर्ता को यह विश्वास दिलाना चाहता है कि वह अंकगणितीय सर्किट का एक समाधान जानता है।  
 
-**Commitments**: ऐसा करने के लिए, prover circuit से संबद्ध सभी values (private और public) को एक commitment में रखेगा। Commitments अपने inputs को ऐसी function का उपयोग करके छिपाते हैं जिसका output irreversible होता है।
+**कमिटमेंट (Commitments)**: ऐसा करने के लिए, प्रूवर सर्किट से जुड़े सभी मानों (निजी और सार्वजनिक) को एक कमिटमेंट में डालेगा। कमिटमेंट ऐसे फ़ंक्शन का उपयोग करके अपने इनपुट छिपाते हैं जिसका आउटपुट अपरिवर्तनीय होता है।
 
-Sha256 एक hashing function का उदाहरण है जिसका उपयोग commitment scheme में किया जा सकता है।
+Sha256 एक हैशिंग फ़ंक्शन का उदाहरण है जिसका उपयोग कमिटमेंट योजना में किया जा सकता है।
 
-जब prover values के लिए commitment कर देता है, तो commitments verifier को भेजे जाते हैं (यह विश्वास रखते हुए कि वे मूल values में से किसी को भी उजागर नहीं कर पाएंगे)। इसके बाद prover, verifier को graph के nodes पर प्रत्येक value के ज्ञान का प्रदर्शन कर सकता है। 
+प्रूवर द्वारा मानों पर कमिट करने के बाद, कमिटमेंट सत्यापनकर्ता को भेजे जाते हैं (इस विश्वास के साथ कि वह किसी भी मूल मान को उजागर नहीं कर सकता)। इसके बाद प्रूवर सत्यापनकर्ता को ग्राफ़ के नोड पर स्थित प्रत्येक मान का ज्ञान दिखा सकता है। 
 
-**Fiat-Shamir Transform**
+**फ़िएट-शमीर रूपांतरण (Fiat-Shamir Transform)**
 
-Protocol को *non-interactive* बनाने के लिए prover, verifier की ओर से randomness generate करता है (जो hidden challenge के लिए उपयोग होती है) और इसके लिए एक cryptographic hash function का उपयोग करता है। इसे random oracle कहा जाता है। इसके बाद prover verifier को एक single message भेज सकता है, जिसे verifier सही होने पर जाँच सकता है। 
+प्रोटोकॉल को *नॉन-इंटरैक्टिव* बनाने के लिए प्रूवर एक क्रिप्टोग्राफ़िक हैश फ़ंक्शन का उपयोग करके सत्यापनकर्ता की ओर से यादृच्छिकता (छिपी चुनौती के लिए प्रयुक्त) उत्पन्न करता है। इसे रैंडम ओरेकल कहा जाता है। इसके बाद प्रूवर सत्यापनकर्ता को एक ही संदेश भेज सकता है, जो फिर जाँच सकता है कि वह सही है। 
 
-ऐसा SNARK बनाने के लिए जिसे general circuits के लिए उपयोग किया जा सके, दो elements आवश्यक हैं:
+सामान्य सर्किट के लिए उपयोग किए जा सकने वाले SNARK को बनाने के लिए दो तत्वों की आवश्यकता होती है:
 
-Functional commitment scheme: committer को एक polynomial के लिए एक short string के साथ commitment करने देती है, जिसका उपयोग verifier committed polynomial के claimed evaluations की पुष्टि के लिए कर सकता है।
+फ़ंक्शनल कमिटमेंट योजना: कमिट करने वाले को एक छोटी स्ट्रिंग के साथ किसी बहुपद पर कमिट करने देती है, जिसका उपयोग सत्यापनकर्ता कमिट किए गए बहुपद के दावा किए गए मूल्यांकनों की पुष्टि के लिए कर सकता है।
 
-Polynomial interactive oracle: Verifier, prover (algorithm) से polynomial commitment scheme का उपयोग करके अपनी पसंद के विभिन्न points पर सभी commitments को open करने के लिए कहता है और जाँचता है कि उनके बीच identity सही है।
+बहुपद इंटरैक्टिव ओरेकल: सत्यापनकर्ता प्रूवर (एल्गोरिदम) से बहुपद कमिटमेंट योजना का उपयोग करके अपनी पसंद के विभिन्न बिंदुओं पर सभी कमिटमेंट खोलने को कहता है और जाँचता है कि उनके बीच सर्वसमिका सत्य है।
 
-**Setup**
+**सेटअप**
 
-Setup procedures verifier की सहायता करती हैं, circuit का सार प्रस्तुत करके और public parameters output करके। 
+सेटअप प्रक्रियाएँ किसी सर्किट का सारांश बनाकर और सार्वजनिक पैरामीटर आउटपुट करके सत्यापनकर्ता की सहायता करती हैं। 
 
 <a href="">
 <img width="845" height="398" alt="setup1" src="/content-images/c41212ca-b5e9-4ac8-8695-be612c45a679-80a6a87752.webp" alt="" width="600" height="300"/>
 </a>
 
-**Pre-processing setup के प्रकार**:
+**पूर्व-प्रसंस्करण सेटअप के प्रकार**:
 
-Trusted Setup per circuit - प्रत्येक circuit के लिए एक बार चलाया जाता है। यह circuit-specific होता है और secret randomness (Common Reference String) को गोपनीय रखा जाना चाहिए तथा नष्ट कर देना चाहिए। 
+प्रति सर्किट ट्रस्टेड सेटअप - प्रत्येक सर्किट के लिए अलग से चलाया जाता है। परिणामी कॉमन रेफ़रेंस स्ट्रिंग (CRS) में प्रूवर और सत्यापनकर्ताओं द्वारा उपयोग किए जाने वाले सार्वजनिक पैरामीटर होते हैं। गुप्त रखी और नष्ट की जानी चाहिए वह गुप्त मध्यवर्ती सेटअप सामग्री (“टॉक्सिक वेस्ट”) है, न कि CRS। ECC का [सार्वजनिक-पैरामीटर विवरण](https://zodl.com/snark-parameters/) इन दोनों में अंतर बताता है।
 
-इस method में compromised setup का अर्थ है कि कोई dishonest prover false statements को सिद्ध कर सकता है। 
+यदि आवश्यक गुप्त सेटअप सामग्री को रखा या पुनः प्राप्त कर लिया जाए, तो एक बेईमान प्रूवर असत्य कथनों के प्रूफ बना सकता है। एक MPC समारोह में, सुरक्षा इस पर निर्भर हो सकती है कि कम से कम एक प्रतिभागी प्रोटोकॉल का पालन करे और अपना गुप्त योगदान नष्ट कर दे।
 
-Trusted but Universal Setup - trusted setup केवल एक बार चलाना होता है और उसके बाद deterministically कई circuits का preprocess किया जा सकता है। 
+ट्रस्टेड किंतु सार्वभौमिक सेटअप - एक ही ट्रस्टेड सेटअप ऐसे पैरामीटर उत्पन्न करता है जिनका उपयोग समर्थित आकार सीमाओं के भीतर अनेक सर्किट के लिए प्रूविंग और सत्यापन कुंजियाँ व्युत्पन्न करने में किया जा सकता है। इसमें भी गुप्त सामग्री नष्ट करने की धारणा बनी रहती है; सार्वभौमिक का अर्थ ट्रांसपेरेंट (transparent) नहीं है।
 
-Transparent Setup (No Trusted Setup)- preprocessing algorithm किसी भी secret randomness का उपयोग नहीं करता। 
+ट्रांसपेरेंट सेटअप (कोई ट्रस्टेड सेटअप नहीं) - सार्वजनिक पैरामीटर ऐसे गुप्त सेटअप ट्रैपडोर के बिना उत्पन्न किए जा सकते हैं जिसे नष्ट करने के लिए किसी पर भरोसा करना पड़े। इसका अर्थ यह नहीं है कि प्रूविंग में कोई यादृच्छिकता नहीं होती या प्रणाली में कोई सार्वजनिक पैरामीटर नहीं होते। [Halo 2 पुस्तक](https://zcash.github.io/halo2/background/pc-ipa.html#setup) सार्वजनिक समूह पैरामीटर का एक उदाहरण देती है।
 
 
-**SNARK proof constructions के प्रकार**:
+**SNARK प्रूफ निर्माण के प्रकार**:
 
-[Groth16](https://eprint.iacr.org/2016/260): Trusted Setup की आवश्यकता होती है, लेकिन proofs बहुत छोटे होते हैं और उन्हें तेज़ी से verify किया जा सकता है।
+[Groth16](https://eprint.iacr.org/2016/260): ट्रस्टेड सेटअप आवश्यक है, किंतु इसके प्रूफ बहुत छोटे होते हैं जिनका सत्यापन तेज़ी से हो सकता है।
 
-[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): Universally Trusted Setup.
+[Sonic](https://www.youtube.com/watch?v=oTRAg6Km1os)/[Marlin](https://www.youtube.com/watch?v=bJDLf8KLdL0)/[PLONK](https://eprint.iacr.org/2019/953): सार्वभौमिक ट्रस्टेड सेटअप।
 
-[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): Trusted Setup नहीं होता, लेकिन proofs थोड़े लंबे हो सकते हैं या prover को चलने में अधिक समय लग सकता है।
+[DARK](https://eprint.iacr.org/2019/1229)/[Halo](https://eprint.iacr.org/archive/2019/1021/20200218:011907)/[STARK](https://www.youtube.com/watch?v=wFZ_YIetK1o): कोई ट्रस्टेड सेटअप नहीं, किंतु थोड़े लंबे प्रूफ बनते हैं या प्रूवर को चलने में अधिक समय लग सकता है। 
 
-SNARKS तब उपयोगी होते हैं जब कई verifiers की आवश्यकता हो, जैसे Zcash जैसी blockchain में या [Aztec](https://docs.aztec.network) जैसे zk-Rollup में, ताकि कई validating nodes को प्रत्येक proof के लिए कई rounds में interact न करना पड़े। 
+SNARKS तब उपयोगी होते हैं जब अनेक सत्यापनकर्ताओं की आवश्यकता हो, जैसे Zcash जैसा कोई ब्लॉकचेन (blockchain) या [Aztec](https://docs.aztec.network) जैसा कोई zk-Rollup, ताकि अनेक सत्यापन करने वाले नोड को प्रत्येक प्रूफ के साथ कई दौरों में इंटरैक्ट न करना पड़े। 
 
-## Zcash में zk-SNARK's कैसे implement किए गए हैं?
+## Zcash में zk-SNARK को कैसे लागू किया जाता है?
 
-सामान्यतः zero-knowledge proofs ऐसे tools हैं जिनका उपयोग protocols में बिना कोई जानकारी उजागर किए ईमानदार व्यवहार लागू करने के लिए किया जाता है। 
+सामान्यतः ज़ीरो-नॉलेज प्रूफ किसी भी जानकारी को उजागर किए बिना प्रोटोकॉल में ईमानदार व्यवहार लागू करने का एक उपकरण (tool) हैं। 
 
-Zcash एक public blockchain है जो private transactions को संभव बनाती है। zk-SNARK's का उपयोग यह सिद्ध करने के लिए किया जाता है कि कोई private transaction network consensus rules के भीतर वैध है, बिना transaction के किसी अन्य विवरण को उजागर किए। 
+Zcash एक सार्वजनिक ब्लॉकचेन है जो निजी लेनदेन को सुगम बनाता है। zk-SNARK का उपयोग यह सिद्ध करने के लिए किया जाता है कि कोई निजी लेनदेन नेटवर्क के कंसेंसस (consensus) नियमों के भीतर मान्य है, लेनदेन के बारे में कोई अन्य विवरण उजागर किए बिना। 
 
-[Video Explainer](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - इस lecture में Ariel Gabizon, Zcash Note Commitment Tree, Blind Polynomial Evaluation और Homomorphically Hidden Challenges का विवरण देते हैं तथा बताते हैं कि इन्हें network पर कैसे implement किया जाता है। 
+[वीडियो व्याख्या](https://www.youtube.com/watch?v=Kx4cIkCY2EA) - इस व्याख्यान में Ariel Gabizon Zcash नोट (note) कमिटमेंट ट्री, ब्लाइंड बहुपद मूल्यांकन और होमोमॉर्फ़िक रूप से छिपी चुनौतियों का वर्णन करते हैं, और बताते हैं कि इन्हें नेटवर्क पर कैसे लागू किया जाता है। 
 
-अधिक जानकारी के लिए [Halo2 book](https://zcash.github.io/halo2/index.html) पढ़ें।
+अधिक जानकारी के लिए [Halo2 पुस्तक](https://zcash.github.io/halo2/index.html) पढ़ें।
 
-## अन्य Zero-Knowledge Applications 
+## अन्य ज़ीरो-नॉलेज अनुप्रयोग 
 
-zk-SNARKs विभिन्न प्रकार के अनुप्रयोगों में कई लाभ प्रदान करते हैं। आइए कुछ उदाहरणों पर नज़र डालें।
+zk-SNARKs विभिन्न अनुप्रयोगों में अनेक लाभ प्रदान करते हैं। आइए कुछ उदाहरण देखें।
 
-**Scalability**: यह 'Outsourcing Computation' द्वारा प्राप्त की जाती है। किसी L1 chain को off-chain service के काम को verify करने के लिए zero-knowledge की सख्त आवश्यकता नहीं होती। zk-EVM पर transactions अनिवार्य रूप से private नहीं होते।
+**स्केलेबिलिटी**: यह ‘गणना की आउटसोर्सिंग’ द्वारा प्राप्त की जाती है। किसी L1 चेन (chain) को ऑफ़-चेन सेवा के कार्य का सत्यापन करने के लिए ज़ीरो-नॉलेज की कड़ाई से आवश्यकता नहीं है। zk-EVM पर लेनदेन आवश्यक रूप से निजी नहीं होते।
 
-Proof आधारित Rollup (zk-Rollup) service का लाभ यह है कि यह सैकड़ों/हज़ारों transactions के batch को process कर सकती है और L1 यह verify कर सकता है कि सभी transactions सही ढंग से process किए गए, इसके लिए केवल एक succinct proof की आवश्यकता होती है, जिससे network की transaction throughput 100 या 1000 गुना तक बढ़ सकती है।
+प्रूफ-आधारित Rollup (zk-Rollup) सेवा का लाभ यह है कि यह सैकड़ों/हज़ारों लेनदेन के एक बैच को प्रोसेस करती है और L1 एक संक्षिप्त प्रूफ का सत्यापन कर सकता है कि सभी लेनदेन सही ढंग से प्रोसेस किए गए, जिससे नेटवर्क के लेनदेन थ्रूपुट की स्केलिंग (scaling) 100 या 1000 गुना हो जाती है।
 
 <a href="">
   <img width="606" height="336" alt="zkvm1" src="/content-images/a3cbb5c9-8767-4b34-9fcb-868ca421838f-d69b264b5b.webp" width="600" height="300"/>
 </a>
 
 
-**Interoperability**: यह zk-Bridge पर source chain पर assets को 'lock' करके और target chain को यह सिद्ध करके प्राप्त की जाती है कि assets lock किए जा चुके हैं (proof of consensus)।
+**अंतरसंचालनीयता**: यह zk-ब्रिज (bridge) पर स्रोत चेन पर संपत्तियों को ‘लॉक’ करके और लक्ष्य चेन को यह प्रूफ देकर प्राप्त की जाती है कि संपत्तियाँ लॉक कर दी गई हैं (कंसेंसस का प्रूफ)।
 
-**Compliance**: [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) जैसे projects यह सिद्ध कर सकते हैं कि कोई private transaction स्थानीय banking laws के अनुरूप है, बिना transaction के विवरण उजागर किए। 
+**अनुपालन**: [Espresso](https://www.espressosys.com/blog/decentralizing-rollups-announcing-the-espresso-sequencer) जैसी परियोजनाएँ लेनदेन का विवरण उजागर किए बिना यह सिद्ध कर सकती हैं कि कोई निजी लेनदेन स्थानीय बैंकिंग कानूनों के अनुरूप है। 
 
-**Fighting Disinformation**: blockchain और cryptocurrency के बाहर के कई उदाहरणों में, news और media outlets द्वारा process की गई images पर proof generation का उपयोग, ताकि दर्शक स्वतंत्र रूप से image के source और उस पर किए गए सभी operations को verify कर सकें। https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
+**दुष्प्रचार से लड़ाई**: ब्लॉकचेन और क्रिप्टोकरेंसी के बाहर के कई उदाहरणों में से एक है समाचार और मीडिया संस्थानों द्वारा प्रोसेस की गई छवियों पर प्रूफ निर्माण का उपयोग, ताकि दर्शक किसी छवि के स्रोत और उस पर किए गए सभी संचालनों का स्वतंत्र रूप से सत्यापन कर सकें। https://medium.com/@boneh/using-zk-proofs-to-fight-disinformation-17e7d57fe52f
 
 
 ____
 
 
-आगे सीखें: 
+आगे की पढ़ाई: 
 
-[Zero-Knowledge Bibliography - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
+[ज़ीरो-नॉलेज ग्रंथसूची - a16z Crypto](https://a16zcrypto.com/zero-knowledge-canon/)
 
-[Hanh Huynh Huu के साथ zkSNARK's](https://www.youtube.com/watch?v=zXF-BDohZjk)
+[Hanh Huynh Huu के साथ zkSNARK](https://www.youtube.com/watch?v=zXF-BDohZjk)
 
-[Zcash: Halo 2 and SNARKs without Trusted Setups - Dystopia labs पर Sean Bowe](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Zcash: Halo 2 और ट्रस्टेड सेटअप के बिना SNARKs - Dystopia labs पर Sean Bowe](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
-[Avi Wigderson के साथ Zero knowledge Proofs - Numberphile](https://youtu.be/5ovdoxnfFVc)
+[Avi Wigderson के साथ ज़ीरो-नॉलेज प्रूफ - Numberphile](https://youtu.be/5ovdoxnfFVc)
 
-[Interactive Zero-Knowledge Proofs - Chainlink लेख](https://blog.chain.link/interactive-zero-knowledge-proofs/)
+[इंटरैक्टिव ज़ीरो-नॉलेज प्रूफ - Chainlink लेख](https://blog.chain.link/interactive-zero-knowledge-proofs/)
 
-[Lecture 1: Introduction and History of ZKP - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
+[व्याख्यान 1: ZKP का परिचय और इतिहास - zklearning.org](https://www.youtube.com/watch?v=uchjTIlPzFo)
 
-[Arithmetic Circuits की सरल व्याख्या - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
+[अंकगणितीय सर्किट की सरल व्याख्या - Medium](https://medium.com/web3studio/simple-explanations-of-arithmetic-circuits-and-zero-knowledge-proofs-806e59a79785)
 
-[Scalability is Boring, Privacy is Dead: ZK-Proofs, What are They Good for?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
+[स्केलेबिलिटी उबाऊ है, गोपनीयता मृत है: ZK-प्रूफ, ये किस काम के हैं?](https://www.youtube.com/watch?v=AX7eAzfSB6w)
 
 ---
 
 ## संबंधित पृष्ठ
 
-- [शील्डेड पूल](/using-zcash/shielded-pools) — Zcash value pools में zk-SNARKs का उपयोग कैसे किया जाता है
-- [Halo](/zcash-tech/halo) — Zcash का zk-SNARK सिस्टम, जो trusted setups को समाप्त करता है
-- [Zcash में Post-Quantum Security](/zcash-tech/post-quantum-security) - भविष्य के quantum risks का Zcash cryptography से क्या संबंध है
-- [Zcash शील्डेड एसेट्स](/zcash-tech/zcash-shielded-assets) — zk-SNARK technology पर निर्मित ZSAs
-- [ZEC और Zcash क्या हैं](/start-here/what-is-zec-and-zcash) — Zcash और उसके privacy model का परिचय
-- [आपका Zcash भुगतान कौन देख सकता है?](/start-here/who-can-see-your-zcash-payment) — क्या सार्वजनिक रहता है, और shielding क्या छिपाती है
+- [शील्डेड पूल](/using-zcash/shielded-pools) — Zcash वैल्यू पूल में zk-SNARKs का उपयोग कैसे होता है
+- [Halo](/zcash-tech/halo) — Zcash की zk-SNARK प्रणाली जो ट्रस्टेड सेटअप को समाप्त करती है
+- [Zcash में पोस्ट-क्वांटम सुरक्षा](/zcash-tech/post-quantum-security) - भविष्य के क्वांटम जोखिम Zcash क्रिप्टोग्राफी से कैसे संबंधित हैं
+- [Zcash शील्डेड एसेट्स](/zcash-tech/zcash-shielded-assets) — zk-SNARK तकनीक पर निर्मित ZSA
+- [ZEC और Zcash क्या है](/start-here/what-is-zec-and-zcash) — Zcash और उसके गोपनीयता (privacy) मॉडल का परिचय
+- [आपका Zcash भुगतान कौन देख सकता है?](/start-here/who-can-see-your-zcash-payment) — क्या सार्वजनिक रहता है, और शील्डिंग क्या छिपाती है

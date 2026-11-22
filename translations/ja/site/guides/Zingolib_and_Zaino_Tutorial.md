@@ -28,7 +28,7 @@
 - Zcash ユーザーはZingolibをインストール／コンパイルし、zingo-cliにアクセスできます。必要に応じてZECを送受信できます。
 - zingo-cliは、ローカルまたはオンラインの安全なチャネルを通じてzainoに接続します（Zcashのユーザーは、この仕組みを気にする必要はありません！）
 - Zainoにより、zebradまたはzcashdのいずれかにアクセスできます。            
-- 完全に同期されたzebradが信頼できる情報源です（ここにはもうウォレット（wallet）はありません！）
+- 完全に同期されたzebradが信頼できる情報源です（ここにはもうウォレット（Wallet）はありません！）
 
 
 
@@ -43,10 +43,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Zebra 7.0.0以降を使用してください。NU7はブロック3,543,405でMainnet上で有効化されており、それより古い`zebrad`のバージョンでは、その高さを超えてチェーンを追跡できません（[リリースノート](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)）。
+
 *任意*（zebrad用のscreenセッションを作成します）
 
 ```

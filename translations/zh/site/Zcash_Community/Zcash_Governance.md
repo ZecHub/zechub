@@ -6,14 +6,14 @@ Zcash 的链上 [on-chain] 资金模式、区块奖励机制，以及主要组�
 
 Zcash 是一种工作量证明 [Proof-of-Work] 加密货币。每个挖出的区块都会根据由网络升级 [network upgrade] 设定的固定协议规则，分配其 **区块补贴 [block subsidy]**（新创建的 ZEC）以及交易 [transaction] 手续费 [fee]。
 
-- **当前模式（NU6 之后 / 自 2024 年 11 月起）**  
-  截至 2026 年 4 月，分配如下：
+- **当前模式（NU6.1 / 自 2025 年 11 月 24 日起）**  
+  分配如下：
 
 | 接收方                      | 百分比 | 资金用途 / 状态                                      |
 |--------------------------------|------------|-------------------------------------------------------------|
-| 矿工 [Miners]                         | 80%        | 直接向矿工发放区块奖励                               |
+| 矿工                         | 80%        | 直接向矿工发放区块奖励                               |
 | Zcash Community Grants（ZCG）   | 8%         | 社区拨款（持续至约 2028 年）                  |
-| Lockbox（由协议控制）  | 12%        | 资金持续累积；尚无支出机制；未来需要社区投票决定 |
+| 持币者控制基金（Coinholder-Controlled Fund）     | 12%        | 由原 Lockbox 的资金注入；持币者对拨款进行投票（[ZIP 1016](https://zips.z.cash/zip-1016)） |
 
 - **NU6 之前的历史开发基金（2020 年至 2024 年 11 月）**  
   每个区块补贴的 20% 直接流向开发组织：
@@ -22,18 +22,18 @@ Zcash 是一种工作量证明 [Proof-of-Work] 加密货币。每个挖出的区
   - 5% -> Zcash Foundation（ZF）  
   - 8% -> Zcash Community Grants（ZCG）
 
-这项 20% 的“开发基金”通过 [ZIP 1015](https://zips.z.cash/zip-1015) 被 8% ZCG + 12% Lockbox 模式取代。
+这项 20% 的"开发基金"通过 [ZIP 1015](https://zips.z.cash/zip-1015)（NU6，2024 年 11 月）被 8% ZCG + 12% Lockbox 模式取代。从 2024 年 11 月到 2025 年 11 月，这 12% 的资金一直累积在延期开发基金 Lockbox（Deferred Dev Fund Lockbox）中，无法动用。
 
-### 拟议演变：ZIP 1016——社区与持币者资金模式
-ZIP 1016（于 2025 年 2 月提出，状态：已提议）引入了更去中心化 [decentralized] 的资金模式。它将：
+### 当前模式：ZIP 1016——社区与持币者资金模式
+ZIP 1016（创建于 2025 年 2 月）于 2025 年 11 月 24 日通过 [NU6.1](/zcash-tech/nu6-1) 在区块 3,146,400 处于主网激活（[ZIP 255](https://zips.z.cash/zip-0255)）。它：
 - 继续向 ZCG 分配 8%。
-- 将 12% 的 Lockbox 转换为“持币者控制基金”（由现有 Lockbox 资金 + 持续的 12% 区块补贴注入）。
-- 启用该模式直至第 3 次减半 [halving]（约 3 年）。
-- 授权 ZEC 持币者通过社区定义的流程按季度对拨款进行投票（简单多数、最低法定人数为 420,000 ZEC）。
+- 已将 12% 的 Lockbox 转换为“持币者控制基金”（由现有 Lockbox 资金 + 持续的 12% 区块补贴注入）。
+- 运行至第 3 次减半（halving）（如果 NU7 改变了出块时间，ZIP 允许该日期相应调整）。
+- 允许 ZEC 持币者对拨款进行投票（简单多数，最低投票量为 420,000 ZEC）。
 - 要求密钥持有组织（目前包括 ZF 和 Shielded Labs，且在拨款情境中提及 Bootstrap/ECC）通过多重签名管理资金发放，并受法律协议和持币者决定的约束。
 - 保留 ZIP 1015 对 Lockbox 使用的所有要求（为生态系统拨款提供资金）。
 
-该提案旨在将 12% 分配的治理 [governance] 从组织控制转向由持币者直接治理。它不会改变 ZIP 流程或商标规则。
+该模式将 12% 分配的治理 [governance] 从组织控制转向由持币者直接治理。它不会改变 ZIP 流程或商标规则。
 
 ## 2. 核心组织及其资金来源
 
@@ -54,12 +54,12 @@ ZIP 1016（于 2025 年 2 月提出，状态：已提议）引入了更去中心
 -> 官方网站：[zodl.com](https://zodl.com/)
   
 **Zcash Foundation（ZF）**  
-- 独立的 501(c)(3) 非营利组织，专注于基础设施、节点 [node] 软件、研究和生态系统健康。  
+- 独立的 501(c)(3) 非营利组织，专注于基础设施、节点（node）软件、研究和生态系统健康。  
 - 历史上获得开发基金的 5%。  
 - 在 NU6 后不再获得直接协议资金。依赖捐款和拨款。  
 - 持有 Zcash 商标（由 ECC 于 2019 年捐赠），并在治理中发挥核心作用。  
 - 运营 Zcash 社区咨询小组（ZCAP），并协助推动社区投票。  
-- 在拟议的 ZIP 1016 下担任密钥持有组织。  
+- 根据 ZIP 1016 担任密钥持有组织。  
 -> 查看完整简介：[Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
 -> 官方网站：[zfnd.org](https://zfnd.org/)
 
@@ -83,7 +83,7 @@ ZIP 1016（于 2025 年 2 月提出，状态：已提议）引入了更去中心
 - 总部位于瑞士、由捐款资助的独立 Zcash 支持组织。  
 - 是 Zcash 生态系统中首个从未获得开发基金或区块奖励直接或间接资金的组织。  
 - 专注于使 ZEC 持有者受益的倡议，并优先考虑持有者的声音来塑造 Zcash 的发展方向。  
-- 在拟议的 ZIP 1016 下担任密钥持有组织，负责管理持币者控制基金。  
+- 根据 ZIP 1016 担任密钥持有组织，负责管理持币者控制基金。  
 - 为协议开发、ZIP 流程和治理作出贡献（ZIP 编辑代表）。  
 -> 查看完整简介：[Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
 -> 官方网站：[shieldedlabs.net](https://shieldedlabs.net/)
@@ -95,8 +95,8 @@ Zcash 的治理结合了“链上协议规则”和“链下社会共识 [consen
 1. **ZIP 流程（Zcash 改进提案）**  
    - 任何人都可以提交 ZIP。  
    - 在论坛、Discord、GitHub 上公开讨论。  
-   - ZIP 编辑（目前包括以个人身份参与的 Jack Grigg、Daira-Emma Hopwood、Kris Nuttycombe，来自 ZF 的 Arya，以及 Shielded Labs 的代表）进行审查并决定是否接受。  
-   - 获接受的 ZIP 将被纳入下一次网络升级。
+   - 目前的 ZIP 编辑包括：以个人身份参与的 Jack Grigg、Daira-Emma Hopwood 和 Kris Nuttycombe；Arya 和 Marek（Zcash Foundation）；Mark Henderson 和 Sam H. Smith（Shielded Labs）；Sean Bowe 和 Tal Derei（Project Tachyon）；以及 Dev Ojha（Valar Group）。
+   - ZIP 获批并不意味着会自动安排纳入下一次网络升级。共识（consensus）类 ZIP 需要部署计划和具体实现，其规则将在指定的网络升级区块高度激活。
 
 2. **商标协议（2019-2024）**  
    - ECC 于 2019 年将 Zcash 商标捐赠给 ZF。  
@@ -109,25 +109,25 @@ Zcash 的治理结合了“链上协议规则”和“链下社会共识 [consen
    - 用于就重大决策进行不具约束力的社区投票。
 
 4. **链上批准**  
-   - 一旦部署网络升级，网络大多数算力必须采用它（如果达成共识，则不存在硬分叉风险）。
+   - 网络升级会在预先设定的区块高度激活。从该高度开始，运行兼容软件的节点会执行新的共识规则。未升级的节点可能会继续沿用升级前的共识分支，从而可能导致链分裂。
 
-5. **未来方向——Lockbox 与 ZIP 1016**  
-   - 12% 的 Lockbox 资金正在协议中累积。  
-   - ZIP 1016 提议将其转换为持币者控制基金，并由持币者按季度投票，以及由密钥持有组织（目前注明为 ZF 和 Shielded Labs）进行多重签名管理。
+5. **Lockbox 与 ZIP 1016**  
+   - 2024 年 11 月至 2025 年 11 月期间，12% 的 Lockbox 资金在协议中累积。  
+   - NU6.1 将这些资金转换为持币者控制基金，由持币者投票，并由密钥持有组织（目前注明为 ZF 和 Shielded Labs）进行多重签名管理。
 
 ## 4. 快速参考表——资金演变
 
 | 时期           | 矿工 | ECC/Bootstrap | ZF   | ZCG  | Lockbox | 注释                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
 | 2020 年 - 2024 年 11 月  | 80%    | 7%            | 5%   | 8%   | -       | 经典开发基金                           |
-| 2024 年 11 月 - 至今   | 80%    | 0%            | 0%   | 8%   | 12%     | NU6 模式 + ZCG 延期                  |
-| 拟议（ZIP 1016） | 80% | 0%         | 0%   | 8%   | 12%（持币者控制） | 直至第 3 次减半；持币者投票 |
+| 2024 年 11 月 - 2025 年 11 月 | 80% | 0%            | 0%   | 8%   | 12%     | NU6 模式 + ZCG 延期                  |
+| 2025 年 11 月 - 至今（ZIP 1016） | 80% | 0%   | 0%   | 8%   | 12%（持币者控制） | NU6.1；直至第 3 次减半；持币者投票 |
 
 ## 5. 相关资源
 
 - 官方资金说明 -> [z.cash 网络资金部分](https://z.cash/network/?funding=#funding)  
 - ZIP 1015（NU6 资金变更）-> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
-- ZIP 1016（拟议的持币者模式）-> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
+- ZIP 1016（持币者模式，自 NU6.1 起生效）-> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Zcash 改进提案 -> [zips.z.cash](https://zips.z.cash)  
 - Zcash Community Grants 门户 -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 

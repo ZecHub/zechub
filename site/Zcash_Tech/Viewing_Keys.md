@@ -4,7 +4,7 @@
 
 # Viewing Keys
 
-Shielded addresses let you transact while revealing as little as possible on the Zcash blockchain. So what happens when you *do* need to show a specific party what you hold, or what you sent? Every shielded address has a viewing key that grants read access without granting the ability to spend. Viewing keys were introduced in [ZIP 310](https://zips.z.cash/zip-0310) and added to the protocol in the Sapling network upgrade.
+Shielded addresses let you transact while revealing as little as possible on the Zcash blockchain. So what happens when you *do* need to show a specific party what you hold, or what you sent? A viewing key grants read access without granting the ability to spend. Viewing keys already existed for Sprout; Sapling added capabilities such as detecting when a received note is spent. [ZIP 310](https://zips.z.cash/zip-0310) is an informational draft documenting the security properties of Sapling viewing keys, not the upgrade that introduced viewing keys.
 
 A viewing key is the tool for selective disclosure: you choose who sees what, and you never hand over spend authority to do it.
 
@@ -12,7 +12,7 @@ A viewing key is the tool for selective disclosure: you choose who sees what, an
 
 A viewing key grants **read-only** access to the activity of a shielded Zcash address or account: whoever holds it can see incoming (and, for full viewing keys, outgoing) transactions, but can never spend.
 
-- **What it is:** the selective-disclosure tool of the shielded pools. Introduced in [ZIP 310](https://zips.z.cash/zip-0310), added to the protocol in the Sapling network upgrade.
+- **What it is:** the selective-disclosure tool of the shielded pools, with capabilities that differ by pool and key type. [ZIP 310](https://zips.z.cash/zip-0310) documents what a Sapling full viewing key reveals and which information is guaranteed, unverified, undefined or unrevealed.
 - **What it grants:** detection of deposits (`uivk…` incoming keys) or full in/out visibility for an account (`uview…` unified full viewing keys), and legacy Sapling `zxviews…` keys.
 - **What it does not grant:** spend authority. Nothing a viewing key holder does can move funds.
 - **Where it works today:** export/import in [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) and watch-only accounts in wallets such as Zkool; see the [Wallets](/using-zcash/wallets) page for the current support matrix.
@@ -94,7 +94,9 @@ The [Wallets](/using-zcash/wallets) page tracks viewing-key support and Ironwood
 
 [Zkool](https://github.com/hhanh00/zkool2) is the most flexible option here, because it accepts unified keys as well as legacy ones. Its README documents view-only accounts created from a **unified viewing key** or a **Sapling extended viewing key**, alongside legacy shielded extended keys exported from zcashd. Add a new account, choose the view-only route, and paste the `uview…` or `zxviews…` key; the account then syncs and reports balances and history with no spend authority.
 
-Ironwood protocol support and the Orchard-to-Ironwood migration landed in Zkool 6.24.0 (20 July 2026), and 6.26.1 (2 August 2026) fixed Ironwood transaction detection in the mempool. Run 6.26.1 or later.
+Ironwood protocol support and the Orchard-to-Ironwood migration landed in Zkool 6.24.0 (20 July 2026), and 6.26.1 (2 August 2026) fixed Ironwood transaction detection in the mempool. Since NU7 activated on Mainnet (block 3,543,405), run [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 October 2026) or later: it's the first Zkool release built with the NU7 Mainnet activation height ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 also accepts **unified incoming viewing keys**. Paste a `uivk…` key where any key goes and Zkool creates an incoming-only account: it shows what the original account receives, including memos, and nothing it sends ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). An incoming key can't see spends, so the account's balance is the total received, not what's left, and the account can't spend. Zkool can also export an account's UIVK ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 
@@ -137,7 +139,7 @@ A viewing key is a piece of information, not a permission entry. Once copied, it
 
 ### Trial decryption: how viewing actually works
 
-Every shielded transaction encrypts its note plaintexts to the intended recipient. A wallet holding a viewing key performs **trial decryption**: for each transaction it finds on chain, it attempts to decrypt note ciphertexts with the key. Hits reveal the note's value, recipient diversifier and memo; misses cost nothing. This is why the same incoming viewing key keeps working across the Orchard and Ironwood pools — [ZIP 326](https://zips.z.cash/zip-0326) scopes a receiver to the Orchard *protocol*, so Ironwood note ciphertexts are Orchard-shaped and are trial-decrypted with the account's Orchard viewing keys under the Ironwood note-encryption domain.
+Every shielded transaction encrypts its note plaintexts to the intended recipient. A wallet holding a viewing key performs **trial decryption**: for each transaction it finds on chain, it attempts to decrypt note ciphertexts with the key. Hits reveal the note's value, recipient diversifier and memo. A miss costs about as much as a hit, because the expensive step, a key agreement, comes before the wallet can tell whether the note is its own, so scanning cost grows with every key a wallet watches (see [Detecting shielded payments](Detecting_Shielded_Payments.md)). This is why the same incoming viewing key keeps working across the Orchard and Ironwood pools — [ZIP 326](https://zips.z.cash/zip-0326) scopes a receiver to the Orchard *protocol*, so Ironwood note ciphertexts are Orchard-shaped and are trial-decrypted with the account's Orchard viewing keys under the Ironwood note-encryption domain.
 
 ### Full vs incoming: what derivation decides
 

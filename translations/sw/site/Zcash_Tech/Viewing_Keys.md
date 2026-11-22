@@ -4,7 +4,7 @@
 
 # Funguo za kutazama
 
-Anwani za faragha [shielded addresses] hukuruhusu kufanya miamala huku ukifichua kiasi kidogo iwezekanavyo kwenye blockchain ya Zcash. Hivyo, nini hutokea unapohitaji kumwonyesha mhusika maalumu unachomiliki, au ulichotuma? Kila anwani ya faragha ina ufunguo wa kutazama [viewing key] unaotoa ufikiaji wa kusoma bila kutoa uwezo wa kutumia pesa. Funguo za kutazama zilianzishwa katika [ZIP 310](https://zips.z.cash/zip-0310) na kuongezwa kwenye itifaki katika uboreshaji wa mtandao [network upgrade] wa Sapling.
+Anwani za faragha [shielded addresses] hukuruhusu kufanya miamala huku ukifichua kiasi kidogo iwezekanavyo kwenye blockchain ya Zcash. Hivyo, nini hutokea unapohitaji *kweli* kumwonyesha mhusika maalumu unachomiliki, au ulichotuma? Ufunguo wa kutazama [viewing key] hutoa ufikiaji wa kusoma bila kutoa uwezo wa kutumia pesa. Funguo za kutazama tayari zilikuwepo kwa ajili ya Sprout; Sapling iliongeza uwezo kama vile kugundua wakati dokezo lililopokelewa linapotumiwa. [ZIP 310](https://zips.z.cash/zip-0310) ni rasimu ya taarifa inayorekodi sifa za usalama za funguo za kutazama za Sapling, wala si uboreshaji ulioanzisha funguo za kutazama.
 
 Ufunguo wa kutazama ni kifaa cha selective disclosure: unachagua ni nani aone nini, na kamwe humpi mamlaka ya kutumia pesa ili kufanya hivyo.
 
@@ -12,7 +12,7 @@ Ufunguo wa kutazama ni kifaa cha selective disclosure: unachagua ni nani aone ni
 
 Ufunguo wa kutazama hutoa ufikiaji wa **kusoma pekee** shughuli za anwani au akaunti ya faragha ya Zcash: yeyote anayeushikilia anaweza kuona miamala inayoingia (na, kwa funguo kamili za kutazama, inayotoka), lakini hawezi kamwe kutumia pesa.
 
-- **Ni nini:** Kifaa cha selective disclosure cha mabwawa ya faragha [shielded pools]. Kilianzishwa katika [ZIP 310](https://zips.z.cash/zip-0310), na kuongezwa kwenye itifaki katika uboreshaji wa mtandao wa Sapling.
+- **Ni nini:** Kifaa cha selective disclosure cha mabwawa ya faragha, chenye uwezo unaotofautiana kulingana na bwawa na aina ya ufunguo. [ZIP 310](https://zips.z.cash/zip-0310) kinaeleza kile ambacho ufunguo kamili wa kutazama wa Sapling hufichua na taarifa zipi zimehakikishwa, hazijathibitishwa, hazijafafanuliwa au hazijafichuliwa.
 - **Kinachotoa:** Utambuzi wa amana (funguo za kuingia za `uivk…`) au uwezo kamili wa kuona kinachoingia/kinachotoka kwa akaunti (funguo kamili zilizounganishwa za kutazama za `uview…`), pamoja na funguo za zamani za Sapling `zxviews…`.
 - **Kisichotoa:** Mamlaka ya kutumia pesa. Hakuna chochote anachofanya mmiliki wa ufunguo wa kutazama kinachoweza kuhamisha fedha.
 - **Mahali kinapofanya kazi leo:** Kuuza nje/kuingiza katika [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) na akaunti za kutazama pekee katika pochi kama Zkool; tazama ukurasa wa [Pochi](/using-zcash/wallets) kwa jedwali la sasa la usaidizi.
@@ -94,7 +94,9 @@ Ukurasa wa [Pochi](/using-zcash/wallets) hufuatilia usaidizi wa funguo za kutaza
 
 [Zkool](https://github.com/hhanh00/zkool2) ndilo chaguo lenye kubadilika zaidi hapa, kwa sababu linakubali funguo zilizounganishwa pamoja na zile za zamani. README yake huandika akaunti za kutazama pekee zilizoundwa kutoka **ufunguo wa kutazama uliounganishwa** au **ufunguo uliopanuliwa wa kutazama wa Sapling**, pamoja na funguo za zamani zilizopanuliwa za faragha zilizouzwa nje kutoka zcashd. Ongeza akaunti mpya, chagua njia ya kutazama pekee, na ubandike ufunguo wa `uview…` au `zxviews…`; akaunti hiyo kisha husawazisha na kuripoti salio na historia bila mamlaka ya kutumia pesa.
 
-Usaidizi wa itifaki wa Ironwood na uhamaji wa Orchard-kwenda-Ironwood uliwasili katika Zkool 6.24.0 (20 Julai 2026), na 6.26.1 (2 Agosti 2026) ilirekebisha utambuzi wa miamala ya Ironwood katika mempool. Tumia 6.26.1 au toleo la baadaye.
+Usaidizi wa itifaki wa Ironwood na uhamaji wa Orchard-kwenda-Ironwood uliwasili katika Zkool 6.24.0 (20 Julai 2026), na 6.26.1 (2 Agosti 2026) ilirekebisha utambuzi wa miamala ya Ironwood katika mempool. Kwa kuwa NU7 imewashwa kwenye Mainnet (block 3,543,405), tumia [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 Oktoba 2026) au toleo la baadaye: ni toleo la kwanza la Zkool lililojengwa kwa urefu wa kuwezesha Mainnet wa NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 pia inakubali **funguo za kutazama zinazoingia zilizounganishwa**. Bandika ufunguo wa `uivk…` mahali ambapo ufunguo wowote huwekwa, na Zkool itaunda akaunti ya kupokea pekee: inaonyesha kile ambacho akaunti ya awali inapokea, pamoja na jumbe, na haionyeshi chochote inachotuma ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Ufunguo wa kupokea hauwezi kuona matumizi, kwa hivyo salio la akaunti ni jumla ya pesa zilizopokelewa, si kiasi kilichobaki, na akaunti haiwezi kutumia pesa. Zkool pia inaweza kuhamisha UIVK ya akaunti ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 
@@ -137,7 +139,7 @@ Ufunguo wa kutazama ni taarifa, si ingizo la ruhusa. Baada ya kunakiliwa, huende
 
 ### Ufumbuzi wa majaribio: jinsi utazamaji unavyofanya kazi
 
-Kila muamala wa faragha husimba kwa fiche maandishi wazi ya madokezo kwa mpokeaji aliyekusudiwa. Pochi inayoshikilia ufunguo wa kutazama hufanya **ufumbuzi wa majaribio**: kwa kila muamala unaoupata kwenye mnyororo, hujaribu kufumbua maandishi fiche ya madokezo kwa ufunguo huo. Mafanikio hufichua thamani ya dokezo, diversifier ya mpokeaji na ujumbe; kutofaulu hakugharimu chochote. Hii ndiyo sababu ufunguo huohuo wa kutazama unaoingia huendelea kufanya kazi katika mabwawa ya Orchard na Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) huweka upeo wa mpokeaji kwenye itifaki ya Orchard, hivyo maandishi fiche ya dokezo ya Ironwood yana muundo wa Orchard na hujaribiwa kufumbuliwa kwa funguo za kutazama za Orchard za akaunti chini ya kikoa cha usimbaji fiche wa dokezo cha Ironwood.
+Kila muamala wa faragha husimba kwa fiche maandishi wazi ya madokezo kwa mpokeaji aliyekusudiwa. Pochi inayoshikilia ufunguo wa kutazama hufanya **ufumbuzi wa majaribio**: kwa kila muamala unaoupata kwenye mnyororo, hujaribu kufumbua maandishi fiche ya madokezo kwa ufunguo huo. Mafanikio hufichua thamani ya dokezo, diversifier ya mpokeaji na ujumbe. Jaribio lisilofanikiwa hugharimu karibu sawa na lililofanikiwa, kwa sababu hatua ghali, makubaliano ya ufunguo, hutokea kabla pochi haijatambua kama dokezo ni lake, hivyo gharama ya uchanganuzi huongezeka kwa kila ufunguo ambao pochi hufuatilia (tazama [Detecting shielded payments](Detecting_Shielded_Payments.md)). Hii ndiyo sababu ufunguo huohuo wa kutazama unaoingia huendelea kufanya kazi katika mabwawa ya Orchard na Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) huweka upeo wa mpokeaji kwenye itifaki ya Orchard *protocol*, hivyo maandishi fiche ya dokezo ya Ironwood yana muundo wa Orchard na hufumbuliwa kwa majaribio kwa funguo za kutazama za Orchard za akaunti chini ya kikoa cha usimbaji fiche wa dokezo cha Ironwood.
 
 ### Kamili dhidi ya unaoingia: kile kinachoamuliwa na upataji
 

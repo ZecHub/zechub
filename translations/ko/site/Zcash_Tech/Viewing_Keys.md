@@ -4,7 +4,7 @@
 
 # Viewing Key
 
-실드 주소를 사용하면 Zcash 블록체인에서 가능한 한 적은 정보만 드러내며 거래할 수 있습니다. 그렇다면 보유 자산이나 전송한 내역을 특정 상대에게 보여줘야 할 때는 어떻게 할까요? 모든 실드 주소에는 지출 권한은 부여하지 않으면서 읽기 접근 권한을 부여하는 Viewing Key가 있습니다. Viewing Key는 [ZIP 310](https://zips.z.cash/zip-0310)에서 도입되었고 Sapling 네트워크 업그레이드에서 프로토콜에 추가되었습니다.
+실드 주소를 사용하면 Zcash 블록체인에서 가능한 한 적은 정보만 드러내며 거래할 수 있습니다. 그렇다면 보유 자산이나 전송한 내역을 특정 상대에게 보여줘야 할 때는 어떻게 할까요? Viewing Key는 지출 권한은 부여하지 않으면서 읽기 접근 권한을 부여합니다. Viewing Key는 Sprout에 이미 존재했으며, Sapling는 수신한 노트가 지출되었는지 감지하는 등의 기능을 추가했습니다. [ZIP 310](https://zips.z.cash/zip-0310)은 Sapling Viewing Key의 보안 특성을 문서화한 정보 제공용 초안으로, Viewing Key를 도입한 업그레이드는 아닙니다.
 
 Viewing Key는 선택적 공개를 위한 도구입니다. 누구에게 무엇을 보여줄지 직접 선택하며, 이를 위해 지출 권한을 넘겨줄 필요가 없습니다.
 
@@ -12,7 +12,7 @@ Viewing Key는 선택적 공개를 위한 도구입니다. 누구에게 무엇�
 
 뷰잉 키는 차폐된 Zcash 주소 또는 계정의 활동에 대한 **읽기 전용** 접근 권한을 부여합니다. 이를 보유한 사람은 수신 거래(그리고 Full Viewing Key의 경우 발신 거래도)를 볼 수 있지만, 절대 지출할 수는 없습니다.
 
-- **무엇인가:** 실드 풀의 선택적 공개 도구입니다. [ZIP 310](https://zips.z.cash/zip-0310)에서 도입되어 Sapling 네트워크 업그레이드에서 프로토콜에 추가되었습니다.
+- **무엇인가:** 풀과 키 유형에 따라 기능이 달라지는 실드 풀의 선택적 공개 도구입니다. [ZIP 310](https://zips.z.cash/zip-0310)은 Sapling 전체 보기 키가 공개하는 정보와 어떤 정보가 보장됨, 검증되지 않음, 정의되지 않음 또는 공개되지 않음에 해당하는지를 문서화합니다.
 - **무엇을 제공하는가:** 입금 감지(`uivk…` 인커밍 키) 또는 계정의 전체 입출금 가시성(`uview…` 통합 전체 보기 키), 그리고 레거시 Sapling `zxviews…` 키입니다.
 - **무엇을 제공하지 않는가:** 지출 권한입니다. 보기 키 보유자가 하는 어떤 작업도 자금을 이동할 수 없습니다.
 - **현재 어디서 작동하는가:** [Zallet](https://github.com/zcash/zallet)에서 내보내기/가져오기(v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`)와 Zkool 등의 지갑에서 감시 전용 계정을 사용할 수 있습니다. 현재 지원 매트릭스는 [지갑](/using-zcash/wallets) 페이지를 참조하세요.
@@ -94,7 +94,9 @@ Sapling 주소를 전달하면 해당 계정의 Sapling 확장 Full Viewing Key(
 
 [Zkool](https://github.com/hhanh00/zkool2)은 Unified Key와 레거시 키를 모두 허용하므로 여기서 가장 유연한 선택지입니다. README는 **Unified Viewing Key** 또는 **Sapling 확장 Viewing Key**로 생성한 보기 전용 계정과 zcashd에서 내보낸 레거시 실드 확장 키를 설명합니다. 새 계정을 추가하고 보기 전용 경로를 선택한 후 `uview…` 또는 `zxviews…` 키를 붙여 넣으세요. 그러면 해당 계정은 동기화되어 지출 권한 없이 잔액과 내역을 표시합니다.
 
-Ironwood 프로토콜 지원 및 Orchard-에서-Ironwood로의 마이그레이션은 Zkool 6.24.0(2026년 7월 20일)에 도입되었으며, 6.26.1(2026년 8월 2일)에서는 mempool의 Ironwood 거래 탐지 문제가 수정되었습니다. 6.26.1 이상을 실행하세요.
+Ironwood 프로토콜 지원 및 Orchard-에서-Ironwood로의 마이그레이션은 Zkool 6.24.0(2026년 7월 20일)에 도입되었으며, 6.26.1(2026년 8월 2일)에서는 mempool의 Ironwood 거래 탐지 문제가 수정되었습니다. NU7가 Mainnet(블록 3,543,405)에서 활성화되었으므로, [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0)(2026년 10월 25일) 이상을 실행하세요. 이는 NU7 Mainnet 활성화 높이([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388))로 빌드된 최초의 Zkool 릴리스입니다.
+
+6.35.0은 **통합 수신 뷰잉 키**도 지원합니다. `uivk…` 키를 아무 키나 입력하는 곳에 붙여넣으면 Zkool 수신 전용 계정이 생성됩니다. 이 계정에는 원래 계정이 받는 항목과 메모가 표시되지만, 원래 계정이 보내는 항목은 표시되지 않습니다([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). 수신 키로는 지출 내역을 볼 수 없으므로 계정 잔액은 남은 금액이 아니라 받은 금액의 합계이며, 계정에서 지출할 수도 없습니다. Zkool는 계정의 UIVK도 내보낼 수 있습니다([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 
@@ -137,7 +139,7 @@ Viewing Key는 권한 항목이 아니라 정보 조각입니다. 한 번 복사
 
 ### 시험 복호화: 보기 기능이 실제로 작동하는 방식
 
-모든 차폐 트랜잭션은 의도된 수신자에게 노트 평문을 암호화합니다. viewing key를 보유한 지갑은 **시도 복호화**를 수행합니다. 체인에서 찾은 각 트랜잭션에 대해 이 키로 노트 암호문을 복호화하려 시도합니다. 성공하면 노트의 가치, 수신자 diversifier 및 메모가 드러나며, 실패해도 비용은 들지 않습니다. यही 때문에 동일한 incoming viewing key는 Orchard 및 Ironwood 풀 전반에서 계속 작동합니다. [ZIP 326](https://zips.z.cash/zip-0326)은 수신자를 Orchard *protocol*에 한정하므로, Ironwood 노트 암호문은 Orchard 형태이며 Ironwood 노트 암호화 도메인에서 계정의 Orchard viewing key로 시도 복호화됩니다.
+모든 차폐 트랜잭션은 의도된 수신자에게 노트 평문을 암호화합니다. viewing key를 보유한 지갑은 **시도 복호화**를 수행합니다. 체인에서 찾은 각 트랜잭션에 대해 이 키로 노트 암호문을 복호화하려 시도합니다. 성공하면 노트의 가치, 수신자 diversifier 및 메모가 드러납니다. 실패해도 비용은 성공할 때와 거의 같은데, 비용이 큰 단계인 키 합의가 노트가 지갑의 것인지 알아내기 전에 수행되므로 지갑이 감시하는 키가 늘어날수록 스캔 비용도 커집니다([차폐 결제 감지](Detecting_Shielded_Payments.md) 참조). यही 때문에 동일한 incoming viewing key는 Orchard 및 Ironwood 풀 전반에서 계속 작동합니다. [ZIP 326](https://zips.z.cash/zip-0326)은 수신자를 Orchard *protocol*에 한정하므로, Ironwood 노트 암호문은 Orchard 형태이며 Ironwood 노트 암호화 도메인에서 계정의 Orchard viewing key로 시도 복호화됩니다.
 
 ### 전체 대 수신: 어떤 파생이 이를 결정하는가
 

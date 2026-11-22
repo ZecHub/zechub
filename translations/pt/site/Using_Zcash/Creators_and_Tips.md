@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Creators_and_Tips.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Ferramentas do Zcash para criadores: gorjetas e plataformas de perfil
+# Ferramentas do Zcash para criadores: plataformas de gorjetas e perfis
 
-> **Um guia abrangente sobre ferramentas de gorjetas e perfis que preservam a privacidade, desenvolvidas no Zcash para criadores de conteúdo, cypherpunks e a comunidade consciente da privacidade.**
+> **Um guia completo sobre ferramentas de gorjetas e perfis que preservam a privacidade, construídas sobre o Zcash, para criadores de conteúdo, cypherpunks e a comunidade preocupada com a privacidade.**
 
 ---
 
@@ -12,60 +12,60 @@
 
 1. [Zcash.me](#zcashme)
 2. [TIPZ](#tipz)
-   - [Por que a privacidade é importante para os criadores](#why-privacy-matters-for-creators)
-3. [Visual / Analogia](#visual--analogy)
+   - [Por que a privacidade é importante para criadores](#why-privacy-matters-for-creators)
+3. [Visual / analogia](#visual--analogy)
 4. [Páginas relacionadas](#related-pages)
 
 ---
 
-## Em resumo
+## Resumo
 
-* Duas ferramentas do Zcash ajudam os criadores a receber pagamentos de forma privada. O Zcash.me oferece uma página de perfil com seu endereço blindado, e o TIPZ permite que os fãs enviem gorjetas para você.
-* Com o Zcash.me, você compartilha um link, `zcash.me/[username]`, que mostra seu endereço unificado e suas contas de redes sociais.
+* Duas ferramentas do Zcash ajudam criadores a receber pagamentos com privacidade. O Zcash.me oferece a você uma página de perfil com seu endereço blindado, e o TIPZ permite que fãs enviem gorjetas para você.
+* Com o Zcash.me, você compartilha um único link, `zcash.me/[username]`, que mostra seu endereço unificado e suas contas em redes sociais.
 * Com o TIPZ, os fãs podem dar gorjetas em outras criptomoedas, e cada gorjeta chega até você como ZEC blindado.
-* Ambas as ferramentas pedem seu endereço unificado (`u1...`).
-* As gorjetas para um endereço blindado mantêm seus rendimentos e saldo fora da vista do público.
+* As duas ferramentas pedem seu endereço unificado (`u1...`).
+* Gorjetas enviadas para um endereço blindado mantêm sua renda e seu saldo fora da visão pública.
 
 ## Explicação principal
 
 ### Zcash.me
 
-![Logotipo do Zcash.me](/content-images/_unavailable.svg)
+![Zcash.me Logo](/content-images/_unavailable.svg)
 
 #### Visão geral
 
-**Zcash.me** é um diretório de perfis e plataforma de descoberta que facilita que qualquer pessoa encontre e envie ZEC para usuários do Zcash. Funciona como o "Linktree para o Zcash" — uma forma simples de compartilhar seu endereço blindado e sua presença nas redes sociais por meio de um único link.
+O **Zcash.me** é um diretório de perfis e uma plataforma de descoberta que facilita para qualquer pessoa encontrar usuários do Zcash e enviar ZEC para eles. Ele funciona como o "Linktree do Zcash": uma forma simples de compartilhar seu endereço blindado e sua presença nas redes sociais com um único link.
 
 | Item              | Detalhes |
 |-------------------|---------|
-| **Site**          | [https://zcash.me/](https://zcash.me/) |
+| **Site**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
 | **Formato do perfil**| `zcash.me/[username]` |
-| **Estado**        | Ativo (com funcionalidades em desenvolvimento) |
+| **Status**        | No ar (com recursos em desenvolvimento) |
 
-#### Funcionalidades principais
+#### Principais recursos
 
-##### Atualmente disponíveis
-- **Páginas de perfil personalizadas** - Página personalizada com nome de usuário, biografia, avatar e localização
-- **Exibição de endereço blindado** - Botão para copiar seu endereço unificado com um clique
-- **Integração de links sociais** - X, LinkedIn, Telegram e sites personalizados
-- **Sistema de verificação** - Selo verificado para gerar confiança na comunidade
-- **Ranking de referências** - Acompanhe os principais indicantes e líderes da comunidade
-- **Status de atividade** - Mostra a última vez que esteve ativo.
+##### Disponíveis atualmente
+- **Páginas de perfil personalizadas** - Página personalizada com nome de usuário, bio, avatar e localização
+- **Exibição do endereço blindado** - Botão para copiar seu endereço unificado com um clique
+- **Integração com redes sociais** - X, LinkedIn, Telegram e sites personalizados
+- **Sistema de verificação** - Selo de verificado para gerar confiança na comunidade
+- **Ranking de indicações** - Acompanhe os principais indicadores e líderes da comunidade
+- **Status de atividade** - Mostra o horário da última atividade.
 
 ##### Em breve
-| Funcionalidade            | Descrição |
+| Recurso            | Descrição |
 |--------------------|-------------|
-| Mapa de localização       | Encontre usuários do Zcash nas proximidades |
+| Mapa de localização       | Encontre usuários do Zcash próximos |
 | Estatísticas da plataforma| Veja métricas de crescimento |
 | Enquetes da comunidade    | Vote em temas do ecossistema |
 | Notícias e anúncios | Atualizações oficiais |
-| Fórum              | Discussão da comunidade |
-| Aplicativo móvel         | Experiência móvel completa |
+| Fórum              | Discussões da comunidade |
+| App para celular         | Experiência completa no celular |
 
-#### Como começar
-1. Visite [https://zcash.me/](https://zcash.me/) e clique em **Join**.
-2. Escolha um nome de usuário único e adicione uma biografia e uma foto de perfil.
+#### Primeiros passos
+1. Acesse [https://zcash.me/](https://zcash.me/) e clique em **Join**.
+2. Escolha um nome de usuário único e adicione uma bio e uma foto de perfil.
 3. Cole seu endereço unificado do Zcash (`u1...`)
 4. Conecte suas contas de redes sociais.
 5. Compartilhe seu link: `zcash.me/[yourusername]`
@@ -74,54 +74,54 @@
 
 ### TIPZ
 
-![Logotipo da TIPZ](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
+![TIPZ Logo](/content-images/BbXM8cDV_400x400-e6071ba983.webp)
 
 #### Visão geral
 
-**TIPZ** é um **protocolo privado de gorjetas** criado especificamente para criadores e cypherpunks. Os fãs dão gorjetas em qualquer criptomoeda importante; ela é automaticamente convertida e entregue como **ZEC blindado**.
+O **TIPZ** é um **protocolo de gorjetas privado** criado especialmente para criadores e cypherpunks. Os fãs dão gorjetas em qualquer uma das principais criptomoedas, e o valor é convertido automaticamente e entregue como **ZEC blindado**.
 
 | Item              | Detalhes |
 |-------------------|---------|
-| **Site**          | [https://tipz.cash/](https://tipz.cash/) |
+| **Site**       | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
 | **Formato do perfil**| `tipz.cash/@[username]` |
-| **Estado**        | Ativo |
+| **Status**        | No ar |
 
-> *"tipz.cash é um protocolo privado de gorjetas para criadores e cypherpunks."*
+> *"tipz.cash é um protocolo de gorjetas privado para criadores e cypherpunks."*
 
-#### Por que a privacidade é importante para os criadores
+#### Por que a privacidade é importante para criadores
 
 ##### Liberdade financeira
 - 0% de taxas da plataforma
-- Não custodial e autocustódia
+- Não custodiante e autocustódia
 - Sem intermediários
 
-##### Design centrado na privacidade
+##### Design com privacidade em primeiro lugar
 - Cada gorjeta chega como ZEC blindado.
 - Saldo da carteira privado
-- Mensagens criptografadas com gorjetas
-- Opção de anonimato completo para o criador
+- Mensagens com criptografia junto com as gorjetas
+- Opção de anonimato total para o criador
 
 ##### Pagamentos cross-chain
 | Moeda | Rede |
 |----------|---------|
 | ETH      | Ethereum |
-| USDC     | Múltiplas chains |
+| USDC     | Várias chains |
 | SOL      | Solana |
 | ZEC      | Zcash direto |
 
-##### Proteção do criador
-- Sem risco de desmonetização pela plataforma
+##### Proteção ao criador
+- Sem risco de banimento da plataforma
 - Resistente à censura
-- Não requer KYC
+- Sem necessidade de KYC
 
 ---
 
-## Visual / Analogia
+## Visual / analogia
 
-Um pote de gorjetas em um balcão de café é de vidro. Todas as pessoas na sala veem quem colocou uma moeda e quão cheio está o pote.
+Um pote de gorjetas no balcão de um café é de vidro. Todo mundo no local vê quem colocou uma moeda e o quanto o pote está cheio.
 
-Um endereço blindado funciona como uma caixa de correio trancada com uma abertura. Os fãs colocam um envelope com uma moeda e uma note, e apenas o criador abre a caixa. O TIPZ acrescenta uma corretora na porta: um fã pode chegar com ETH ou SOL, e o que cai na caixa de correio é ZEC.
+Um endereço blindado funciona como uma caixa de correio trancada com uma abertura. Os fãs colocam um envelope com uma moeda e uma *note*, e só o criador abre a caixa. O TIPZ adiciona uma casa de câmbio na porta: um fã pode chegar com ETH ou SOL, e o que cai na caixa de correio é ZEC.
 
 ```
 TIPZ Payment Flow
@@ -133,10 +133,10 @@ Fan selects amount + message -> Protocol auto-converts -> Creator receives priva
 
 ## Páginas relacionadas
 
-- [Endereços unificados](/using-zcash/unified-addresses): o endereço `u1...` que ambas as ferramentas pedem.
+- [Endereços unificados](/using-zcash/unified-addresses): o endereço do `u1...` que as duas ferramentas pedem.
 - [Carteiras](/using-zcash/wallets): escolha uma carteira para receber gorjetas blindadas.
-- [Memorandos](/using-zcash/memos): como uma note privada acompanha um pagamento blindado.
-- [URIs de solicitação de pagamento](/using-zcash/payment-request-uris): um link ou código QR de `zcash:` que solicita um valor definido.
-- [Processadores de pagamento](/using-zcash/payment-processors): ferramentas para vender bens e serviços por ZEC.
+- [Memorandos](/using-zcash/memos): como uma note privada viaja junto com um pagamento blindado.
+- [URIs de solicitação de pagamento](/using-zcash/payment-request-uris): um link ou QR code do `zcash:` que solicita um valor definido.
+- [Processadores de pagamento](/using-zcash/payment-processors): ferramentas para vender produtos e serviços em troca de ZEC.
 
 **Última atualização:** outubro de 2026

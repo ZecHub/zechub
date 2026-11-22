@@ -41,7 +41,9 @@
 
 > sudo apt install libclang-dev
 
-> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
+
+Zebra 7.0.0以降を使用してください。NU7はブロック3,543,405でメインネット上で有効化され、古い`zebrad`のバージョンでは、それより先の高さまでチェーンを追跡できません（[リリースノート](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)）。以下のZenithのバージョン（0.7.2.0-beta）は古く、執筆時点での最新リリースは0.13.0.0-beta（2026年6月、NU6.2サポート）です。メインネットで使用する前に、[Zenithのリリース](https://code.vergara.tech/Vergara_Tech/zenith/releases)を確認し、NU7に対応したバージョンを選んでください。
 
 > zebrad generate -o ~/.config/zebrad.toml
 

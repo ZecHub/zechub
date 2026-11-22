@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
 # RPi5 Zebra lightwalletd com Zingo
@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="Usando um nó Zcash Zebra com lightwalletd: TUTORIAL"
+    title="Usando o nó Zcash Zebra com lightwalletd: TUTORIAL"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -25,13 +25,15 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 ```
 
-## Compilar Zebra
+## Compilar o Zebra
 
-[GitHub do Zebra](https://github.com/ZcashFoundation/zebra)
+[Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
 
-## Configurar zebrad.toml
+Use o Zebra 7.0.0 ou mais recente. O NU7 foi ativado na Mainnet no bloco 3.543.405, e versões mais antigas do `zebrad` não conseguem acompanhar a chain além dessa altura ([notas de versão](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). O Zebra 7 requer Rust 1.91 ou mais recente (`rustup update`).
+
+## Configurar o zebrad.toml
 
 Adicione:
 
@@ -39,17 +41,17 @@ Adicione:
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Sincronizar Zebra
+## Sincronizar o Zebra
 
 * `zebrad start`
 
-## Compilar lightwalletd
+## Compilar o lightwalletd
 
-* Instale o Go
+* Instale o go
 
 ```bash
-wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.27.3.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 
@@ -63,14 +65,14 @@ make install
 export PATH=$PATH:~/go/bin
 ```
 
-## Sincronizar lightwalletd
+## Sincronizar o lightwalletd
 
 * Observe a mudança no data-dir
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
 
-## Instalar NodeJS
+## Instalar o NodeJS
 
 ```bash
  curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
@@ -80,11 +82,11 @@ export PATH=$PATH:~/go/bin
 ```
 Se você encontrar algum erro, [aqui](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) estão algumas formas alternativas de instalar o NodeJS.
 
-## Instalar Yarn
+## Instalar o Yarn
 
 `corepack enable`
 
-## Instalar Zingo
+## Instalar o Zingo
 
 ```bash
 git clone https://github.com/zingolabs/zingo-pc.git
@@ -96,9 +98,9 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Iniciar Zingo-PC
+## Iniciar o Zingo-PC
 
-* Você pode usar o appimage ou o binário na pasta unpacked
+* Você pode usar o appimage ou o binário na pasta descompactada
 * Aproveite! :)
 
 # Fontes

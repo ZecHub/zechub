@@ -1,138 +1,176 @@
-# Akash Network पर Zebra कैसे चलाएँ
+# Akash Network पर Zebra चलाने का तरीका
 
-[Akash Console](https://console.akash.network) का उपयोग करके Zebra Zcash full node deploy करने के लिए चरण-दर-चरण मार्गदर्शिका।
+Akash पर Zebra Zcash फुल नोड (full node) डिप्लॉय करने के लिए चरण-दर-चरण गाइड।
 
-### आप क्या Deploy कर रहे हैं
+### आप क्या डिप्लॉय कर रहे हैं
 
-एक पूर्ण Zebra node जो:
+एक फुल Zebra नोड (node), जो:
 
--> पूरी Zcash blockchain को sync करेगा (mainnet के लिए 100GB+, testnet के लिए ~40GB)
+-> पूरी Zcash ब्लॉकचेन (blockchain) को सिंक करेगा (मेननेट (mainnet) के लिए 100GB+, टेस्टनेट (testnet) के लिए ~40GB)
 
--> AKT token की कीमतों के आधार पर लगभग $15/माह खर्च करेगा
+-> AKT टोकन (token) की कीमतों के आधार पर लगभग $15/माह खर्च करेगा
 
--> पूरी तरह sync होने में कई घंटों से लेकर कई दिन तक लेगा
+-> पूरी तरह सिंक होने में कई घंटों से लेकर कई दिनों तक का समय लेगा
 
--> 4 vCPUs, 16GB RAM, 350GB storage (mainnet) या 2 vCPUs, 8GB RAM, 50GB (testnet) का उपयोग करेगा
+-> 4 vCPU, 16GB RAM, 350GB स्टोरेज (मेननेट) या 2 vCPU, 8GB RAM, 50GB (टेस्टनेट) का उपयोग करेगा
 
+awesome-akash टेम्पलेट अब **Zebra 7.0.0** को पिन करता है (कभी भी `:latest` नहीं)। यह Prometheus (`9999`) और हेल्थ (`8080`) को आंतरिक रूप से सक्षम करता है, साथ ही gRPC **9067** पर एक ही डिप्लॉयमेंट में चल रहे **lightwalletd** के लिए JSON-RPC को आंतरिक रूप से, और फ़ीचर फ़्लैग `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD` को भी सक्षम करता है।
 
-### महत्वपूर्ण: Akash पर Port Mapping
-
-जब आप Akash पर कोई port expose करते हैं (उदाहरण के लिए, Zebra P2P के लिए port 8233), तो वह provider के public IP पर **ठीक उसी port** से bind **नहीं होता**। इसके बजाय, provider एक random high port (जैसे 31234 या 42567) assign करता है और उसे reverse-proxy करके आपके container के port 8233 तक पहुंचाता है।
-
-यह design के अनुसार है - providers कई deployments चलाते हैं, और यदि हर कोई सीधे port 8233 का उपयोग करे तो conflict हो जाएगा।
-
-**इसका आपके लिए क्या मतलब है:**
-
--> आप SDL में port 8233 configure करते हैं (Zebra का standard P2P port)
-
--> Akash आपको *provider.com:31234* जैसा एक URI देता है
-
--> अन्य Zcash nodes आपसे *provider.com:31234* पर connect करते हैं
-
--> आपके container के अंदर, Zebra अब भी 8233 पर listen करता है
+तेज़, प्रून किए गए मेननेट नोड के लिए [Akash पर Zakura चलाने का तरीका](/guides/akash-network-zakura) देखें। अस्थायी Regtest डैशबोर्ड (dashboard) के लिए [Akash पर Thus Spoke Zakura](/guides/thus-spoke-zakura-akash) देखें।
 
 
-यह अपने-आप handle हो जाता है। बस वही URI उपयोग करें जो Akash आपको देता है।
+### Akash पोर्ट कैसे प्रकाशित करता है
+
+SDL में दिए गए नंबर (`port` / `as`) **कंटेनर पोर्ट** हैं। Zebra अब भी **8233** पर सुनता है, lightwalletd **9067** पर और हेल्थ **8080** पर। ये नंबर प्रोसेस के लिए और उसी डिप्लॉयमेंट की अन्य सेवाओं के लिए हैं (`zebra:8232`)।
+
+ये प्रोवाइडर के सार्वजनिक IP पर पोर्ट **नहीं** हैं।
+
+**डिफ़ॉल्ट (यह टेम्पलेट):** कोई समर्पित IP नहीं। हर `global: true` TCP एक्सपोज़ के लिए प्रोवाइडर एक साझा होस्ट पर एक **रैंडम हाई पोर्ट** को आपके कंटेनर पोर्ट से मैप करता है। लीज़ सक्रिय होने के बाद Console/Air में **Leases → URIs** वास्तविक एंडपॉइंट दिखाता है, उदाहरण के लिए:
+
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
+
+पीयर और वॉलेट (wallet) **इन्हीं** host:port मानों का उपयोग करते हैं। जिस एक्सपोज़ से आपको मतलब है (P2P या lightwalletd), उसका URI कॉपी करें। यदि आप `ZEBRA_NETWORK__EXTERNAL_ADDR` सेट करते हैं, तो उसे मैप किए गए P2P URI (`provider.example:31482`) पर सेट करें, `…:8233` पर नहीं।
+
+**HTTP** (`http_options` के साथ `as: 80`, जिसका उपयोग Thus Spoke डैशबोर्ड पर होता है): कई प्रोवाइडर रैंडम TCP पोर्ट के बजाय एक **इनग्रेस होस्टनेम** (अक्सर 80/443 पर) प्रकाशित करते हैं। उस सेवा का URI ब्राउज़र में खोलें।
+
+**आंतरिक** (`global: false` या `to: service: lightwalletd`): केवल क्लस्टर DNS (`zebra:8232`)। कोई सार्वजनिक URI नहीं।
+
+**समर्पित IP** (SDL में `endpoints` / `kind: ip`) एक **प्रीमियम अतिरिक्त सुविधा** हैं। ये एक सार्वजनिक IP और कभी-कभी उस IP पर `as` पोर्ट को भी पिन कर सकते हैं। ये टेम्पलेट इसका अनुरोध **नहीं** करते। यदि आपको स्थिर `host:8233` चाहिए, तो इसे बाद में स्वयं जोड़ें। अतिरिक्त खर्च और बोली लगाने वाले कम प्रोवाइडर की अपेक्षा रखें।
+
+### कौन-सी साइट इस्तेमाल करें (भुगतान)
+
+SDL एक ही है। Akash के दोनों वेब UI में फ़र्क **भुगतान के तरीके** में है।
+
+| साइट | भुगतान | वॉलेट |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | पारंपरिक वेब चेकआउट (Console द्वारा दिए जाने वाले कार्ड / फ़िएट विकल्प) | Console अकाउंट |
+| [air.akash.network](https://air.akash.network) | नेटिव Akash चेन (chain) भुगतान (AKT / ACT) | **Keplr** |
+
+जब आप Keplr से ऑन-चेन (on-chain) भुगतान करना चाहें, तो **Air** का उपयोग करें। जब आप पारंपरिक वेब भुगतान प्रक्रिया चाहें, तो **Console** का उपयोग करें। Console पर Keplr नेटिव सेटलमेंट की अपेक्षा न रखें।
 
 ### आवश्यकताएँ
 
-1. **Keplr Wallet** browser extension installed हो (Chrome/Brave/Firefox)
-2. **AKT tokens** - किसी exchange (Coinbase, Kraken, Osmosis) से 50-100 AKT लें
-3. Console UI में आगे बढ़ने के लिए **5 मिनट**
+**यदि आप Console पर भुगतान करते हैं (वेब चेकआउट)**
 
-#### चरण 1: अपना Wallet कनेक्ट करें
+1. [console.akash.network](https://console.akash.network) पर एक Console अकाउंट
+2. एक भुगतान विधि, जिसे Console UI स्वीकार करता हो
+3. UI में कुछ मिनट
+
+**यदि आप Air पर भुगतान करते हैं (नेटिव Akash / Keplr)**
+
+1. **Keplr** ब्राउज़र एक्सटेंशन (Chrome/Brave/Firefox)
+2. डिपॉज़िट और लीज़ के लिए Keplr में **AKT / ACT** (किसी एक्सचेंज (exchange) या IBC से)
+3. [air.akash.network](https://air.akash.network) खोलें
+
+#### चरण 1: कनेक्ट
+
+**Console (वेब भुगतान)**
 
 -> [https://console.akash.network](https://console.akash.network) पर जाएँ
 
--> ऊपर दाईं ओर **"Connect Wallet"** पर क्लिक करें
+-> साइन इन करें / Console अकाउंट की प्रक्रिया पूरी करें
 
--> **Keplr** चुनें (या अपना पसंदीदा Cosmos wallet)
+-> UI में दिखने वाले चेकआउट का उपयोग करें (Keplr ऑन-चेन का नहीं)
 
--> जब Keplr pop up हो, तब connection approve करें
+**Air (नेटिव Akash भुगतान)**
 
+-> [https://air.akash.network](https://air.akash.network) पर जाएँ
 
-आपका AKT balance ऊपर दाईं ओर दिखना चाहिए। यदि वह zero है, तो पहले अपने wallet में funds जोड़ें।
+-> **“Connect Wallet”** पर क्लिक करें
 
-#### चरण 2: Deployment बनाएँ
+-> **Keplr** चुनें और कनेक्शन को स्वीकृति दें
 
--> **"Deploy"** button पर क्लिक करें (बड़ा नीला button, पेज के बीच में)
+-> पुष्टि करें कि आपका AKT/ACT बैलेंस डिपॉज़िट और लीज़ के लिए पर्याप्त है
 
--> **"Build your template"** चुनें (या सीधे SDL upload करने पर जाएँ)
+#### चरण 2: डिप्लॉयमेंट बनाना
 
+-> **“Deploy”** पर क्लिक करें
 
-##### विकल्प A: SDL फ़ाइल Upload करें (अनुशंसित)
-
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
-
-##### विकल्प B: SDL Editor का उपयोग करें
-
-यदि आप manually [the SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml) paste करना चाहते हैं:
-
--> *zebra-akash.yml* की contents कॉपी करें
-
--> उसे SDL editor में paste करें
-
--> आवश्यकता अनुसार संशोधित करें (नीचे configuration section देखें)
-
--> **"Create Deployment"** पर क्लिक करें
+-> **“Build your template”** चुनें (या सीधे SDL अपलोड करने पर जाएँ)
 
 
-#### चरण 3: Deposit की समीक्षा करें और Approve करें
+##### विकल्प A: SDL फ़ाइल अपलोड (अनुशंसित)
 
-Console आपको यह दिखाएगा:
+**वेब भुगतान (Console)**
 
--> **Deployment deposit**: ~5 AKT (जब आप deployment बंद करेंगे तो यह वापस मिल जाएगा)
+[![Akash Console पर डिप्लॉय करें](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
--> **Estimated cost**: आपके SDL pricing के आधार पर
+**Keplr के साथ नेटिव Akash भुगतान (Air)**
 
-**"Approve"** पर क्लिक करें और Keplr में transaction sign करें।
+[इस टेम्पलेट को Air पर खोलें](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-#### चरण 4: एक Provider चुनें
+##### विकल्प B: SDL एडिटर का उपयोग
 
-लगभग 30 सेकंड बाद, आपको providers से bids दिखाई देंगी। हर bid में यह दिखेगा:
+यदि आप [SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml) को मैन्युअल रूप से पेस्ट करना चाहते हैं:
 
--> **Price per block** (AKT या USDC में)
+-> *zebra-akash.yml* की सामग्री कॉपी करें
 
--> **Monthly estimated cost**
+-> इसे SDL एडिटर में पेस्ट करें
 
--> **Provider details** (uptime, region, आदि)
+-> आवश्यकतानुसार बदलाव करें (नीचे कॉन्फ़िगरेशन सेक्शन देखें)
 
-
-**सिर्फ सबसे सस्ता विकल्प न चुनें।** यह जाँचें:
-
--> Uptime % (लक्ष्य > 95%)
-
--> Region (आपके करीब = बेहतर latency, लेकिन blockchain nodes के लिए इसका बहुत अधिक महत्व नहीं है)
-
--> Audited status (हरा checkmark = अधिक भरोसेमंद)
+-> **“Create Deployment”** पर क्लिक करें
 
 
-अपने चुने हुए provider पर **"Accept Bid"** क्लिक करें और Keplr में sign करें।
+#### चरण 3: डिपॉज़िट की समीक्षा और स्वीकृति
 
-#### चरण 5: Deployment के लिए प्रतीक्षा करें
+UI आपको दिखाएगा:
+
+-> **डिप्लॉयमेंट डिपॉज़िट**: ~5 AKT (डिप्लॉयमेंट बंद करने पर यह आपको वापस मिल जाता है)
+
+-> **अनुमानित लागत**: आपके SDL की कीमत निर्धारण के आधार पर
+
+**Air** पर **“Approve”** पर क्लिक करें और **Keplr** में साइन करें। **Console** पर UI में दिखने वाला वेब चेकआउट पूरा करें।
+
+#### चरण 4: प्रोवाइडर का चुनाव
+
+लगभग 30 सेकंड के बाद आपको प्रोवाइडर की बोलियाँ दिखेंगी। हर बोली में दिखता है:
+
+-> **प्रति ब्लॉक (block) कीमत** (AKT या USDC में)
+
+-> **अनुमानित मासिक लागत**
+
+-> **प्रोवाइडर का विवरण** (अपटाइम, क्षेत्र, आदि)
+
+
+**सिर्फ़ सबसे सस्ता न चुनें।** जाँचें:
+
+-> अपटाइम % (> 95% का लक्ष्य रखें)
+
+-> क्षेत्र (आपके नज़दीक = बेहतर लेटेंसी, लेकिन ब्लॉकचेन नोड के लिए इसका ज़्यादा महत्व नहीं है)
+
+-> ऑडिटेड स्थिति (हरा चेकमार्क = अधिक भरोसेमंद)
+
+
+अपने चुने हुए प्रोवाइडर पर **“Accept Bid”** पर क्लिक करें। Air पर Keplr में साइन करें। Console पर वेब भुगतान प्रक्रिया से पुष्टि करें।
+
+#### चरण 5: डिप्लॉयमेंट की प्रतीक्षा
 
 Console:
 
--> आपके चुने हुए provider के साथ lease बनाएगा
+-> आपके चुने हुए प्रोवाइडर के साथ लीज़ बनाएगा
 
--> manifest भेजेगा (जो provider को बताता है कि क्या चलाना है)
+-> मैनिफ़ेस्ट भेजेगा (जो प्रोवाइडर को बताता है कि क्या चलाना है)
 
--> आपका container शुरू करेगा
+-> आपका कंटेनर शुरू करेगा
 
-इसमें 1-2 मिनट लगते हैं। UI में आपको status updates दिखेंगी।
+इसमें 1-2 मिनट लगते हैं। आपको UI में स्थिति के अपडेट दिखेंगे।
 
-#### चरण 6: सत्यापित करें कि यह चल रहा है
+#### चरण 6: पुष्टि कि यह चल रहा है
 
-Deploy होने के बाद, आपको यह दिखाई देगा:
+डिप्लॉय होने के बाद आपको दिखेगा:
 
--> **Services** tab: status के साथ आपकी *zebra* service दिखाता है
+-> **Services** टैब: आपकी *zebra* सेवा और उसकी स्थिति दिखाता है
 
--> **Logs** tab: live container logs
+-> **Logs** टैब: कंटेनर के लाइव लॉग
 
--> **Leases** tab: आपके deployment का विवरण (DSEQ, provider, cost)
+-> **Leases** टैब: आपके डिप्लॉयमेंट का विवरण (DSEQ, प्रोवाइडर, लागत)
 
 
-##### Logs जाँचें
+##### लॉग की जाँच
 
 **Logs** पर क्लिक करें और आपको Zebra शुरू होता हुआ दिखना चाहिए:
 
@@ -143,52 +181,51 @@ Listening for peer connections on [::]:8233
 Starting initial sync...
 ```
 
-Sync होने में network के आधार पर **कई घंटे से कई दिन** लग सकते हैं। इन बातों पर नज़र रखें:
+नेटवर्क के आधार पर सिंक में **कई घंटों से लेकर कई दिनों** तक का समय लगेगा। इन पर ध्यान दें:
 
--> block heights बढ़ रही हों
+-> बढ़ती हुई ब्लॉक ऊँचाई
 
--> peer connections (10-30 peers होने चाहिए)
+-> पीयर कनेक्शन (10-30 पीयर होने चाहिए)
 
--> बार-बार errors न आ रही हों
+-> कोई दोहराई जाने वाली त्रुटि नहीं
 
 
-#### चरण 7: अपने Node का Address प्राप्त करें
+#### चरण 7: अपने नोड का एड्रेस (address)
 
-**Leases** tab पर क्लिक करें, फिर **URIs** पर।
+**Leases** टैब पर क्लिक करें, फिर **URIs** पर।
 
 आपको कुछ ऐसा दिखेगा:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-यह आपके node का **public P2P endpoint** है। अन्य Zcash nodes आपसे इसी address पर connect करेंगे।
+हर पंक्ति एक `global: true` एक्सपोज़ है। नाम में SDL का `as` पोर्ट (8233, 9067) शामिल होता है। होस्टनेम के बाद वाला नंबर **प्रोवाइडर का मैप किया गया पोर्ट** है, जो लीज़ के समय दिया जाता है। अन्य Zcash नोड `provider-hostname.com:31482` से कनेक्ट करते हैं। कॉम्पैक्ट वॉलेट lightwalletd URI का उपयोग करते हैं (TLS बंद, जब तक आप स्वयं TLS टर्मिनेट न करें)।
 
-**Port mapping पर ध्यान दें:** आपने SDL में port 8233 configure किया था, लेकिन Akash ने इसे किसी अलग public port पर assign किया है (इस उदाहरण में 31234)। यह सामान्य है - यदि यह भ्रमित कर रहा हो तो ऊपर दिया गया "Port Mapping on Akash" section देखें। आपका node उसी port पर accessible है जो Akash यहाँ दिखाता है, ज़रूरी नहीं कि वह 8233 ही हो।
+कंटेनर अब भी 8233 / 9067 पर सुन रहा है। सार्वजनिक एड्रेस हमेशा URI ही होता है, जब तक आप बाद में कोई समर्पित IP न जोड़ें (जो इस टेम्पलेट में नहीं है)।
 
-यदि आपने RPC enable किया है (SDL में default रूप से commented out), तो उसका RPC endpoint भी यहाँ अपने mapped port के साथ दिखाई देगा।
+### कॉन्फ़िगरेशन विकल्प
 
-### Configuration विकल्प
+#### टेस्टनेट पर स्विच
 
-#### Testnet पर स्विच करना
+SDL डिफ़ॉल्ट रूप से मेननेट पर है। इसके बजाय टेस्टनेट का उपयोग करने के लिए:
 
-SDL default रूप से Mainnet पर सेट है। इसके बजाय Testnet उपयोग करने के लिए:
-
--> *env* section में **Mainnet config को comment out करें**:
+-> *env* सेक्शन में **मेननेट कॉन्फ़िग को कमेंट आउट करें**:
 
    ```yaml
    # - "ZEBRA_NETWORK__NETWORK=Mainnet"
    # - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:8233"
    ```
 
--> **Testnet config को uncomment करें**:
+-> **टेस्टनेट कॉन्फ़िग को अनकमेंट करें**:
 
    ```yaml
    - "ZEBRA_NETWORK__NETWORK=Testnet"
    - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:18233"
    ```
 
--> *expose* section में **exposed port को update करें**:
+-> *expose* सेक्शन में **एक्सपोज़ किया गया पोर्ट अपडेट करें**:
 
    ```yaml
    # Comment out Mainnet port:
@@ -206,7 +243,7 @@ SDL default रूप से Mainnet पर सेट है। इसके ब
      proto: tcp
    ```
 
--> **वैकल्पिक: Testnet के लिए resources घटाएँ** *profiles.compute.zebra.resources* में:
+-> **वैकल्पिक: टेस्टनेट के लिए संसाधन कम करें** *profiles.compute.zebra.resources* में:
 
    ```yaml
    cpu:
@@ -217,26 +254,26 @@ SDL default रूप से Mainnet पर सेट है। इसके ब
      - size: 50Gi  # Down from 150Gi
    ```
 
--> **वैकल्पिक: pricing कम करें** *profiles.placement.akash.pricing* में:
+-> **वैकल्पिक: कीमत कम करें** *profiles.placement.akash.pricing* में:
 
    ```yaml
    amount: 5000  # Down from 10000
    ```
 
-#### RPC Access enable करें
+#### RPC एक्सेस सक्षम करना
 
-सुरक्षा कारणों से RPC default रूप से disabled है। इसे enable करने के लिए:
+सुरक्षा के लिए RPC डिफ़ॉल्ट रूप से अक्षम है। इसे सक्षम करने के लिए:
 
-**Mainnet के लिए:**
+**मेननेट के लिए:**
 
--> *env* section में uncomment करें:
+-> *env* सेक्शन में अनकमेंट करें:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:8232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> *expose* में Mainnet RPC port को uncomment करें:
+-> *expose* में मेननेट RPC पोर्ट अनकमेंट करें:
 
    ```yaml
    - port: 8232
@@ -246,16 +283,16 @@ SDL default रूप से Mainnet पर सेट है। इसके ब
      proto: tcp
    ```
 
-**Testnet के लिए:**
+**टेस्टनेट के लिए:**
 
--> *env* section में uncomment करें:
+-> *env* सेक्शन में अनकमेंट करें:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> *expose* में Testnet RPC port को uncomment करें:
+-> *expose* में टेस्टनेट RPC पोर्ट अनकमेंट करें:
 
    ```yaml
    - port: 18232
@@ -265,21 +302,21 @@ SDL default रूप से Mainnet पर सेट है। इसके ब
      proto: tcp
    ```
 
-**चेतावनी**: यदि आप RPC के लिए *global: true* सेट करते हैं, तो आप उसे internet पर expose कर रहे हैं। Zebra default रूप से cookie auth का उपयोग करता है, लेकिन फिर भी - जब तक आप पूरी तरह नहीं जानते कि आप क्या कर रहे हैं, ऐसा न करें।
+**चेतावनी**: यदि आप RPC के लिए *global: true* सेट करते हैं, तो आप इसे इंटरनेट पर एक्सपोज़ कर रहे हैं। Zebra डिफ़ॉल्ट रूप से कुकी ऑथ का उपयोग करता है, फिर भी ऐसा तब तक न करें जब तक आप ठीक से न जानते हों कि आप क्या कर रहे हैं।
 
-**Port mapping reminder**: भले ही आप RPC को globally expose करें, Akash उसे एक random high port पर map करेगा (8232/18232 पर नहीं)। वास्तविक public endpoint देखने के लिए अपने deployment में URIs देखें। *global: false* (अनुशंसित) के लिए, RPC endpoint केवल Akash deployment network के भीतर accessible होता है, public internet से नहीं।
+यदि आप `global: true` के साथ RPC एक्सपोज़ करते हैं, तो सार्वजनिक एड्रेस फिर भी एक **लीज़ URI** (`host:&lt;random-high-port&gt;`) होता है, `host:8232` नहीं। `global: false` के साथ (यह टेम्पलेट) RPC डिप्लॉयमेंट नेटवर्क पर ही रहता है (lightwalletd के लिए `zebra:8232`)। समर्पित IP लीज़ एक अलग सशुल्क विकल्प हैं और SDL में शामिल नहीं हैं।
 
-#### Metrics enable करें (Prometheus)
+#### मेट्रिक्स सक्षम करना (Prometheus)
 
-Monitoring के लिए metrics scrape करने हेतु:
+मॉनिटरिंग के लिए मेट्रिक्स स्क्रेप करने हेतु:
 
--> *env* में uncomment करें:
+-> *env* में अनकमेंट करें:
 
    ```yaml
    - "ZEBRA_METRICS__ENDPOINT_ADDR=0.0.0.0:9999"
    ```
 
--> *expose* में metrics port को uncomment करें:
+-> *expose* में मेट्रिक्स पोर्ट अनकमेंट करें:
 
    ```yaml
    - port: 9999
@@ -289,130 +326,130 @@ Monitoring के लिए metrics scrape करने हेतु:
      proto: tcp
    ```
 
-#### Resources/Pricing समायोजित करें
+#### संसाधन/कीमत समायोजन
 
-यदि आपको bids नहीं मिल रही हैं या आप cost optimize करना चाहते हैं:
+यदि आपको बोलियाँ नहीं मिल रही हैं या आप लागत को अनुकूलित करना चाहते हैं:
 
-**कम-spec providers के लिए**, *profiles.compute.zebra.resources* section में घटाएँ:
+**कम स्पेसिफ़िकेशन वाले प्रोवाइडर के लिए**, *profiles.compute.zebra.resources* सेक्शन में कम करें:
 
--> CPU: *units: 2* (उचित sync speed के लिए न्यूनतम)
+-> CPU: *units: 2* (उचित सिंक गति के लिए न्यूनतम)
 
--> Memory: *size: 12Gi* (स्थिरता के लिए न्यूनतम)
+-> मेमोरी: *size: 12Gi* (स्थिरता के लिए न्यूनतम)
 
--> Storage: *size: 120Gi* (mainnet के लिए न्यूनतम)
+-> स्टोरेज: *size: 120Gi* (मेननेट के लिए न्यूनतम)
 
-**अधिक bids आकर्षित करने के लिए**, *profiles.placement.akash.pricing* में बढ़ाएँ:
+**अधिक बोलियाँ आकर्षित करने के लिए**, *profiles.placement.akash.pricing* में बढ़ाएँ:
 
--> Mainnet: *amount: 1000000* uakt/block आज़माएँ
+-> मेननेट: *amount: 1000000* uakt/block आज़माएँ
 
--> Testnet: *amount: 1000000* uakt/block आज़माएँ
+-> टेस्टनेट: *amount: 1000000* uakt/block आज़माएँ
 
-### अपना Deployment अपडेट करना
+### अपने डिप्लॉयमेंट का अपडेट
 
-Deploy करने के बाद configuration बदलनी है?
+क्या डिप्लॉय करने के बाद कॉन्फ़िगरेशन बदलना है?
 
 -> Console में **My Deployments** पर जाएँ
 
--> अपना Zebra deployment खोजें
+-> अपना Zebra डिप्लॉयमेंट ढूँढें
 
--> **"Update Deployment"** पर क्लिक करें
+-> **“Update Deployment”** पर क्लिक करें
 
--> SDL edit करें
+-> SDL संपादित करें
 
--> **"Update"** पर क्लिक करें और Keplr में approve करें
+-> **“Update”** पर क्लिक करें (Air: Keplr में साइन करें; Console: वेब भुगतान प्रक्रिया से पुष्टि करें)
 
-**नोट**: Update करने पर आपका container restart होगा। Node अपनी saved state (persistent storage) से फिर शुरू होगा, लेकिन 1-2 मिनट के downtime की अपेक्षा रखें।
+**ध्यान दें**: अपडेट करने से आपका कंटेनर रीस्टार्ट होगा। नोड अपनी सहेजी गई स्थिति (परसिस्टेंट स्टोरेज) से फिर शुरू होगा, लेकिन 1-2 मिनट के डाउनटाइम की अपेक्षा रखें।
 
-### Monitoring
+### मॉनिटरिंग
 
 #### Console के माध्यम से
 
--> **Logs tab**: live container logs
+-> **Logs टैब**: कंटेनर के लाइव लॉग
 
--> **Shell tab**: container के अंदर shell प्राप्त करें (debugging के लिए उपयोगी)
+-> **Shell टैब**: कंटेनर के अंदर शेल प्राप्त करें (डिबगिंग के लिए उपयोगी)
 
--> **Events tab**: Kubernetes events (ज़्यादातर बेकार, जब तक कुछ टूटा न हो)
+-> **Events टैब**: Kubernetes इवेंट (जब तक कुछ खराब न हो, ज़्यादातर बेकार)
 
 
-#### RPC के माध्यम से (यदि enabled हो)
+#### RPC के माध्यम से (यदि सक्षम हो)
 
-यदि आपने RPC enable किया है, तो आप अपने node को एक सामान्य zebrad full node की तरह query कर सकते हैं (क्योंकि वह वही है!)
+यदि आपने RPC सक्षम किया है, तो आप अपने नोड से एक सामान्य zebrad फुल नोड की तरह क्वेरी कर सकते हैं (क्योंकि यह वही है!)
 
-### अपना Deployment बंद करना
+### अपना डिप्लॉयमेंट बंद करना
 
-जब आपका काम पूरा हो जाए या आप भुगतान रोकना चाहें:
+जब आपका काम पूरा हो जाए या आप भुगतान बंद करना चाहें:
 
 -> **My Deployments** पर जाएँ
 
--> अपना Zebra deployment खोजें
+-> अपना Zebra डिप्लॉयमेंट ढूँढें
 
--> **"Close Deployment"** पर क्लिक करें
+-> **“Close Deployment”** पर क्लिक करें
 
--> पुष्टि करें और Keplr में sign करें
+-> पुष्टि करें (Air: Keplr में साइन करें; Console: Console UI में पुष्टि करें)
 
-आपका 5 AKT deposit refund हो जाएगा। **Persistent storage** provider द्वारा सुरक्षित रखी जानी चाहिए, लेकिन इस पर निर्भर न रहें - इसे किसी भी अन्य cloud provider की तरह ही मानें।
+आपका 5 AKT डिपॉज़िट वापस कर दिया जाएगा। **परसिस्टेंट स्टोरेज** प्रोवाइडर द्वारा सुरक्षित रखा जाना चाहिए, लेकिन इस पर निर्भर न रहें। इसे किसी भी अन्य क्लाउड प्रोवाइडर की तरह ही समझें।
 
-### Troubleshooting
+### समस्या निवारण
 
-#### "Insufficient funds" error
+#### “Insufficient funds” त्रुटि
 
-आपको अधिक AKT की आवश्यकता है। अपने Keplr wallet में funds जोड़ें।
+Air पर Keplr में AKT/ACT जमा करें। Console पर Console भुगतान विधि को टॉप-अप (top up) करें।
 
-#### कोई bids दिखाई नहीं दे रहीं
+#### कोई बोली नहीं दिख रही
 
-या तो:
+इनमें से कोई एक कारण हो सकता है:
 
--> आपकी pricing बहुत कम है (SDL में *amount* बढ़ाएँ)
+-> आपकी कीमत बहुत कम है (SDL में *amount* बढ़ाएँ)
 
--> आपकी resource requirements उपलब्ध providers के लिए बहुत अधिक हैं (CPU/memory/storage घटाएँ)
+-> उपलब्ध प्रोवाइडर के लिए आपकी संसाधन आवश्यकताएँ बहुत अधिक हैं (CPU/मेमोरी/स्टोरेज कम करें)
 
--> थोड़ा और इंतज़ार करें (कभी-कभी bids आने में 60-90 सेकंड लगते हैं)
-
-
-#### Deployment "pending" में अटका हुआ है
-
-हो सकता है provider को समस्या हो। Deployment बंद करें और कोई दूसरा provider आज़माएँ।
-
-#### Zebra logs में "No peers connected" दिखता है
-
-पहले कुछ मिनटों के लिए यह सामान्य है। Zebra अपने-आप peers खोज लेगा। यदि 10+ मिनट बाद भी ऐसा ही रहे, तो शायद network issue हो सकता है (हालाँकि Akash पर इसकी संभावना कम है)।
-
-#### Logs में "Out of memory" errors
-
-आपने RAM पर बहुत कटौती कर दी। Deployment बंद करें और कम से कम 12Gi memory (16Gi अनुशंसित) के साथ फिर deploy करें।
-
-#### Sync में बहुत ज़्यादा समय लग रहा है
-
-"बहुत ज़्यादा" से आपका क्या मतलब है:
-
--> **Hours**: सामान्य
-
--> **Days**: scratch से mainnet के लिए यह भी सामान्य है
-
--> **Weeks**: कुछ गड़बड़ है, errors के लिए logs जाँचें
+-> थोड़ा और प्रतीक्षा करें (कभी-कभी बोलियाँ दिखने में 60-90 सेकंड लगते हैं)
 
 
-### Cost Management
+#### डिप्लॉयमेंट “pending” में अटका है
 
-Console में अपना खर्च monitor करें:
+प्रोवाइडर को कोई समस्या हो सकती है। डिप्लॉयमेंट बंद करें और किसी दूसरे प्रोवाइडर को आज़माएँ।
 
--> **My Deployments** -> आपका deployment -> "Cost per month" estimate दिखाता है
+#### Zebra लॉग में “No peers connected” दिख रहा है
 
--> समय के साथ आपके Keplr wallet का balance कम होता जाएगा
+पहले कुछ मिनटों के लिए यह सामान्य है। Zebra अपने आप पीयर खोज लेगा। यदि 10+ मिनट बाद भी यह बना रहे, तो नेटवर्किंग की कोई समस्या हो सकती है (Akash पर इसकी संभावना कम है)।
+
+#### लॉग में “Out of memory” त्रुटियाँ
+
+आपने RAM में कंजूसी की है। डिप्लॉयमेंट बंद करें और कम से कम 12Gi मेमोरी (16Gi अनुशंसित) के साथ फिर से डिप्लॉय करें।
+
+#### सिंक में बहुत ज़्यादा समय लग रहा है
+
+“बहुत ज़्यादा” का मतलब क्या है:
+
+-> **कुछ घंटे**: सामान्य
+
+-> **कुछ दिन**: शुरुआत से मेननेट के लिए यह भी सामान्य है
+
+-> **कुछ हफ़्ते**: कुछ गड़बड़ है, लॉग में त्रुटियाँ जाँचें
 
 
-जब आपका balance कम हो जाएगा, Akash अपने-आप आपका deployment बंद कर देगा। **समय-समय पर अपने wallet में top up करें** या alerts सेट करें।
+### लागत प्रबंधन
 
-#### Costs कम करना
+Console या Air में अपने खर्च पर नज़र रखें:
 
--> non-production testing के लिए **Testnet उपयोग करें** (50% सस्ता)
+-> **My Deployments** -> आपका डिप्लॉयमेंट -> “Cost per month” का अनुमान दिखाता है
 
--> यदि तेज sync की आवश्यकता नहीं है तो **CPU/memory कम करें**
-
--> **सस्ते providers चुनें** (हमेशा समझदारी नहीं - uptime महत्वपूर्ण है)
+-> Air: समय के साथ आपका Keplr AKT/ACT बैलेंस घटता है। Console: आपका Console भुगतान बैलेंस घटता है।
 
 
-### Mainnet बनाम Testnet
+जब आपका बैलेंस कम हो जाता है, तो Akash आपका डिप्लॉयमेंट अपने आप बंद कर देगा। **समय-समय पर अपने वॉलेट को टॉप-अप करें** या अलर्ट सेट करें।
+
+#### लागत कम करना
+
+-> नॉन-प्रोडक्शन परीक्षण के लिए **टेस्टनेट का उपयोग करें** (50% सस्ता)
+
+-> यदि आपको तेज़ सिंक की ज़रूरत नहीं है, तो **CPU/मेमोरी कम करें**
+
+-> **सस्ते प्रोवाइडर चुनें** (हमेशा समझदारी नहीं, क्योंकि अपटाइम मायने रखता है)
+
+
+### मेननेट बनाम टेस्टनेट
 
 ```markdown
 ----------------------------------------------------------------------------------
@@ -429,16 +466,18 @@ Console में अपना खर्च monitor करें:
 ----------------------------------------------------------------------------------
 ```
 
-यदि आप केवल deployment process का परीक्षण कर रहे हैं, तो Testnet से शुरू करें। Configuration के लिए ऊपर दिया गया "Switching to Testnet" section देखें।
+यदि आप केवल डिप्लॉयमेंट प्रक्रिया का परीक्षण कर रहे हैं, तो टेस्टनेट से शुरुआत करें। कॉन्फ़िगरेशन के लिए ऊपर “टेस्टनेट पर स्विच” सेक्शन देखें।
 
 ### अतिरिक्त संसाधन
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Console** (वेब भुगतान): [https://console.akash.network](https://console.akash.network)
 
-**Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
+**Akash Air** (नेटिव AKT/ACT + Keplr): [https://air.akash.network](https://air.akash.network)
 
-**Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
+**Akash दस्तावेज़**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zcash एक्सप्लोरर्स**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Zebra दस्तावेज़**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (provider issues के लिए)
+**Zcash एक्सप्लोरर**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+
+**Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (प्रोवाइडर से जुड़ी समस्याओं के लिए)

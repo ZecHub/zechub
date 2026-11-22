@@ -8,6 +8,19 @@ Ironwood bụ pool nke e chebere echebe [shielded] nke bịara na network upgrad
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- Weebụsaịtị: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Ụzọ abụọ: ZEC/BTC
+- Nkwado: Oha
+- Oge nkwụnye ego: Ihe dị ka nkeji 30 (nkwenye 24)
+- Ironwood: Ọ dịghị mkpa, naanị Adreesị akpa ego Oha
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,17 +99,19 @@ ___
 - Ironwood: A na-akwado mwepụ ego nke e chebere echebe, ekwubeghị pool
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Weebụsaịtị: [Huobi](https://huobi.com)
+- Weebụsaịtị: [HTX](https://www.htx.com) (nke bụbu Huobi)
 - Ụzọ abụọ: ALL/ZEC
 - Nkwado: Oha
+- Ọnọdụ: ZEC nkwụnye ego na iwepụ ego kwụsịtụrụ ugbu a (dị ka HTX API ọha si dị, Nọvemba 2026); a ka depụtara ahia spot
 - Oge nkwụnye ego: Nkeji 35 
 - Ironwood: Ọ naghị emetụta ya, naanị Adreesị akpa ego Oha
+
 ___
 
 ### [Kraken](https://kraken.com)

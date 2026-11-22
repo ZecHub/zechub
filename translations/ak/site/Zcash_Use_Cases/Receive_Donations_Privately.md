@@ -8,7 +8,7 @@
 
 ## TL;DR
 
-- Fa **address a wɔabɔ ho ban (z)** di dwuma.
+- Fa **address a wɔabɔ ho ban (z)** di dwuma
 - Mfa address a ɛda adi pefee (t) nkyɛ wɔ baguam da
 - Hyɛ wɔn a wɔde mmoa ma no nkuran ma wɔmfa sika kotoku a wɔabɔ ho ban mu nkɔma
 - Kwati sɛ wode wo identity bɛbata nnwuma ho
@@ -33,7 +33,7 @@ Cryptocurrencies dodow no ara da biribiara adi:
 Eyi de asiane ahorow a anibere wom ba:
 - Sikasɛm mu kokoam nsɛm a wɔhwere
 - Targeting anaa surveillance a wɔde wɔn ani si so
-- Ɔmanfo a wɔda wɔn ho adi wɔ wɔn a wɔde mmoa ma no ho
+- Wɔn a wɔde mmoa ma no a wɔda wɔn ho adi wɔ baguam
 
 <br/>
 
@@ -73,11 +73,11 @@ Eyi taa fi ase wɔ: `zs...`
 
 **MMFA address a ɛda adi pefee (t) nkyɛ.**
 
-### Anamɔn 3: Kyerɛkyerɛ wɔn a wɔde mmoa ma (Wɔpɛ nanso wɔkamfo kyerɛ) .
+### Anamɔn 3: Kyerɛkyerɛ wɔn a wɔde mmoa ma (Wɔpɛ nanso wɔkamfo kyerɛ)
 
 Hyɛ wɔn a wɔde mmoa ma no nkuran sɛ:
 - Fa sika kotoku a ɛboa nnwuma a wɔabɔ ho ban di dwuma
-- Fa fi atare a wɔabɔ ho ban mu (ɛnyɛ nea ɛda adi pefee) soma .
+- Fa fi atare a wɔabɔ ho ban (ɛnyɛ nea ɛda adi pefee) so mena
 
 ### Anamɔn 4: Kura Kokoam Nsɛm Ho Ahotew Mfitiase Mu
 
@@ -106,7 +106,7 @@ Wobɛtumi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Kokoamsɛm - Shielded vs Transparent](/zcash-tech/what-a-block-explorer-can-see)
+- [Nea Block Explorer Betumi Ahu](/zcash-tech/what-a-block-explorer-can-see)
 - [Sika kotoku](/wallets)
 
 <br/>

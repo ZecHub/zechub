@@ -1,6 +1,28 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+</a>
+
 # Exchange descentralizado Maya
 
----
+> Maya Protocol es un DEX cross-chain para realizar swaps nativos (por ejemplo, de ETH o BTC a ZEC) sin tokens envueltos, cuentas ni KYC.
+
+## En resumen
+
+* Maya intercambia monedas nativas entre blockchains: envías un activo y recibes otro en su propia red. Sin tokens envueltos, sin cuenta, sin KYC.
+* Es un fork de THORChain, construido con el SDK de Cosmos y protegido por operadores de nodos que aportan capital como bond (Proof of Bond).
+* Su token nativo es $CACAO. Los proveedores de liquidez ganan comisiones por swap y están cubiertos por la Protección contra Pérdidas Impermanentes (ILP) después de 50 días.
+* Maya es un backend: lo usas a través de un frontend o una billetera como THORWallet, CacaoSwap, Asgardex, Ctrl Wallet o KeepKey.
+* El video tutorial muestra un swap de ETH a ZEC en LeoDex, uno de estos frontends.
+* Maya admite depósitos blindados/unificados de ZEC mediante SwapKit (salida de valor transparente más un memo blindado), por lo que algunos frontends pueden enviar ZEC directamente a una dirección unificada. Si el tuyo paga a una dirección transparente (t1), protégela en tu billetera después para preservar la privacidad.
+* Maya no es la única opción para swaps nativos de ZEC: THORChain también tiene un pool nativo de ZEC.
+
+## Explicación principal
+
+Un exchange centralizado guarda tus monedas y necesita tu identidad. Maya utiliza en cambio una red de nodos que controlan bóvedas en cada red compatible. Envías monedas a una bóveda Maya, al menos dos tercios de los nodos confirman el depósito y el activo equivalente se envía desde otra bóveda a tu dirección en la red de destino.
+
+Los operadores de nodos ponen un bond que puede sufrir una penalización si actúan de forma indebida, lo que les da un incentivo financiero para mantenerse honestos. Maya añade funciones sobre THORChain, como nodos de liquidez y su propio diseño de reserva, y también funciona como una segunda red independiente junto a ella.
+
+Las secciones siguientes explican cómo funciona Maya, la prueba de bond, en qué se diferencia de THORChain y qué billeteras lo admiten.
 
 ## Tutorial
 
@@ -29,7 +51,7 @@ De esta manera, los usuarios pueden enviar un tipo de token en una blockchain y 
 
 ## ¿Qué es Prueba de bond?
 
-Prueba de bond (PoB) es un mecanismo de consenso en el que los operadores de nodos deben comprometer un bond (normalmente en forma del token nativo de la red) para participar en la red. Este bond actúa como una forma de seguridad económica, garantizando que los nodos actúen honestamente y mantengan la integridad de la red2. Si un nodo intenta actuar de forma maliciosa o no cumple con sus deberes, su bond puede ser recortado, lo que significa que una parte se le retira como penalización.
+La prueba de bond (Proof of Bond, PoB) es un mecanismo de consenso en el que los operadores de nodos deben comprometer un bond (normalmente en forma del token nativo de la red) para participar en la red. Este bond actúa como una forma de seguridad económica, garantizando que los nodos actúen con honestidad y mantengan la integridad de la red. Si un nodo intenta actuar de forma maliciosa o no cumple con sus obligaciones, su bond puede ser reducido, lo que significa que se le quita una parte como penalización.
 
 En Maya Protocol, este mecanismo ayuda a producir valor económico a partir de los recursos en staking de los operadores de nodos, aumentando la eficiencia del capital. De manera similar, en THORChain, los operadores de nodos vinculan RUNE (el token nativo) para asegurar la red y garantizar la cooperación entre los participantes.
 
@@ -43,8 +65,8 @@ En lugar de seguir el Modelo de bond puro, Maya está considerando un cambio hac
 
 ### Protección contra pérdidas impermanentes
 
-Un sistema que protege a los proveedores de liquidez de la pérdida temporal (LPs) que pueden experimentar al proporcionar liquidez, debido a las fluctuaciones constantes de los precios de los criptoactivos.
-ILP mantiene el 10 % del suministro de $CACAO (10 millones de $CACAO) y se repone continuamente con el 10 % de las comisiones [fees] del protocolo. ILP se activa 50 días después de un depósito de liquidez, con una cobertura limitada al 100 %.
+Un sistema que protege a los proveedores de liquidez (LP) de la pérdida temporal que pueden sufrir al proporcionar liquidez debido a las constantes fluctuaciones en los precios de los criptoactivos.
+ILP posee el 10 % del suministro de $CACAO (10 millones de $CACAO) y se repone continuamente con el 10 % de las comisiones del protocolo. ILP se activa 50 días después de un depósito de liquidez, con una cobertura limitada al 100 %.
 
 La duración de la cobertura de ILP depende del rendimiento del ACTIVO y de $CACAO. La cobertura completa se alcanza después de 150 días si el ACTIVO tiene un mejor rendimiento, y después de 450 días si $CACAO tiene un mejor rendimiento. ILP se paga y se restablece al realizar un retiro completo, pero no se ve afectada por los retiros parciales. Para las recargas [top-ups], ILP se restablece, pero no se paga.
 
@@ -58,16 +80,16 @@ En la génesis de Maya Protocol, las reservas disponibles de CACAO eran solo el 
 
 Aun así, pese a sus diferencias, Maya también sirve como una solución complementaria a THORChain, al ofrecer redundancia, extensión y validación, e integrar nuevas redes que no existen en la implementación actual de THORChain.
 
-Además, el objetivo de Maya es convertirse en un *backend* sobre el que puedan construirse otros servicios, con la esperanza de ver muchos nuevos *frontends*, o servicios DEX construidos sobre la infraestructura de Maya.
+Además, el objetivo de Maya es convertirse en un *backend* sobre el que otros servicios puedan construir, con la esperanza de que surjan muchos *frontends* nuevos o servicios DEX basados en la infraestructura de Maya.
 
 ## Integración de billetera [wallet] Maya Protocol
 
 Al actuar como un *backend*, Maya necesita contar con el soporte de diferentes interfaces de usuario y billeteras para poder utilizarse. 
 Aquí tienes una lista de algunos de los servicios que ya son compatibles con Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+El Dorado: ya no está en línea, su dominio no se resuelve.
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 

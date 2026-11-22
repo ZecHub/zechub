@@ -28,13 +28,13 @@ Halo, Electric Coin Co'te Sean Bowe tarafından keşfedilen, güven gerektirmeye
 
 ### Güvenilir kurulum yok
 
-zk-SNARKs, kanıtlama ve doğrulama için herkese açık bir parametre olarak ortak bir referans dizesine (CRS) dayanır. Bu CRS, güvenilir bir tarafça önceden oluşturulmalıdır. Yakın zamana kadar, bu [güvenilir kurulum töreni](https://zkproof.org/2021/06/30/setup-ceremonies/amp/) sırasındaki riski azaltmak için Aztec ağı ve Zcash tarafından gerçekleştirilenler gibi ayrıntılı güvenli çok taraflı hesaplamalar (MPC) gerekliydi.
+Groth16 gibi bazı zk-SNARK yapıları, genellikle ortak referans dizesi (CRS) olarak adlandırılan herkese açık parametrelerini oluşturmak için güvenilir bir kurulum gerektirir. CRS, kanıtlayıcılar ve doğrulayıcılarla paylaşılır; yok edilmesi gereken sır bu değildir. Böyle bir kurulumun ürettiği gizli ara materyal ("zehirli atık") imha edilmelidir. Güvenli bir çok taraflı hesaplama bu güveni dağıtabilir: en az bir katılımcı protokole uyup gizli katkısını imha ederse tören güvenlidir. ECC'in [herkese açık parametreler ve zehirli atık açıklamasına](https://zodl.com/snark-parameters/) bakın.
 
-Zcash'in önceki Sprout ve Sapling korumalı havuzları, BCTV14 ve Groth16 zk-kanıtlama sistemlerini kullanıyordu. Bunlar güvenli olsa da sınırlamaları vardı: tek bir uygulamaya bağlı oldukları için ölçeklenebilir değillerdi, "zehirli atık" (başlangıç töreni sırasında üretilen kriptografik materyalin kalıntıları) kalıcı olabilirdi ve törenin kabul edilebilir sayılmasında, çok küçük de olsa, bir güven unsuru bulunuyordu.
+Zcash'in önceki Sprout ve Sapling korumalı havuzları, sırasıyla BCTV14 ve Groth16 olmak üzere güvenilir kurulumlu kanıtlama sistemlerini kullanıyordu. Bunların genel parametreleri kanıtlama ve doğrulama için kullanılabilir olmaya devam etmektedir. Endişe, yanlış kanıtlara olanak tanıyabilecek gizli kurulum materyalinin saklanıp saklanmadığıdır; CRS'nin kendisinin yayımlanması beklenen bir durumdur ve bu gizli materyali açığa çıkarmaz.
 
-Halo, zor problemlerin birden çok örneğini eliptik eğri döngüleri üzerinde tekrar tekrar bir araya getirerek güvenilir kurulumu ortadan kaldırır; böylece hesaplamalı kanıtlar, kendileri hakkında verimli biçimde akıl yürütmek için kullanılabilir (iç içe amortizasyon). Bunun bir yan etkisi olarak, yapılandırılmış referans dizesi (bir törenin çıktısı) yükseltilebilir hâle gelir ve akıllı sözleşmeler gibi uygulamaları mümkün kılar.
+Halo, özyinelemeli kanıt bileşimini iç çarpım argümanına dayalı bir polinom taahhüt şemasıyla birleştirir. Genel parametreleri, güvenilir bir kurulum töreni ya da gizli kurulum tuzağının imha edilmesini gerektirmez. [Halo 2 kitabı bu genel grup parametrelerini açıklar](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Bu, törenle oluşturulan yapılandırılmış bir referans dizesinin yükseltilebilir hâle getirilmesinden farklıdır.
 
-Halo, kullanıcılara büyük ölçekli bir sıfır bilgi kanıt sisteminin güvenliği hakkında iki önemli güvence sunar. İlk olarak, kullanıcıların başlangıç törenine katılan hiç kimsenin sahte işlemler yürütmek için gizli bir arka kapı oluşturmadığını kanıtlamasını sağlar. İkinci olarak, sistem güncellemelerden ve değişikliklerden geçse bile zaman içinde güvenli kaldığını göstermelerine olanak tanır.
+Bu kurulum gereksiniminin kaldırılması, Halo kanıtları için gizli tören materyalinin imhasına dayanmayı önler. Bu, önceki bir Sprout veya Sapling töreninin tehlikeye atılmadığını kanıtlamaz ya da sonraki tüm protokol değişikliklerinin güvenli olduğunu belgelemez. Özyinelemeli kanıtlar, kanıt sisteminin varsayımları altında devrelerinde kodlanan hesaplamalara tanıklık eder. Doğru devreler ve uygulamalar hâlâ önemlidir; ECC'ün [Halo 2 dağıtım açıklaması](https://zodl.com/technical-explainer-halo-on-zcash/), yeni hatalar veya tasarım kusurları riskine açıkça dikkat çeker.
 
 [Sean Bowe'in Dystopia Labs'teki açıklayıcısı](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo, doğrulanmış her belgeyi *bir sonraki* belgenin damgasına dönüştür�
 
 ### Güvenilir kurulumu kaldırmak neden önemlidir
 
-Eski sistemlerde "mühür" (CRS) bir törenden gelirdi. Katılımcıların ara materyali yok etmesi gerekiyordu ve herkesin bunu yaptıklarına güvenmesi gerekiyordu. Halo'in mührü yalnızca matematik tarafından üretilir: yok edilecek, sızdırılacak veya güvenilecek bir tören yoktur.
+Eski güvenilir kurulum sistemlerinde, herkese açık "mühür" (CRS) bir törenden gelirdi. Katılımcıların herkese açık parametreleri erişilebilir tutarken gizli ara materyallerini yok etmeleri gerekiyordu. Halo bu törenden ve onun gizli kurulum arka kapısından kaçınır. Bu, kullanıcıların harcama anahtarlarını koruma veya kanıt sisteminin varsayımlarını ve uygulamasını denetleme ihtiyacını ortadan kaldırmaz.
 
 ---
 
@@ -120,7 +120,7 @@ Ek olarak, Halo 2, [MIT ve Apache 2.0 açık kaynak lisansları](https://github.
 | Yaygın inanış | Gerçekte durum nedir |
 | --- | --- |
 | "Halo, Zcash'in beklediği gelecekteki bir yükseltmedir." | Orchard, NU5'den (2022) beri ana ağda yayındadır ve zaten Halo 2 üzerinde çalışmaktadır. |
-| "Güvenilir kurulum olmaması, hiç parametre olmadığı anlamına gelir." | Halo hâlâ yapılandırılmış parametreler kullanır; fark, bunların zehirli atık taşımaması ve katılımcıların güvenmek zorunda olduğu bir tören olmadan üretilebilmesi ve yükseltilebilmesidir. |
+| "Güvenilir kurulum olmaması, hiç parametre olmadığı anlamına gelir." | Halo hâlâ herkese açık parametreler kullanır. Katılımcıların gizli kurulum materyalini yok edeceğine güvenilmesini gerektiren bir törene ihtiyaç duymazlar. |
 | "Halo 2 ile Halo makalesi aynı şeydir." | [makale](https://eprint.iacr.org/2019/1021.pdf), polinom taahhüt şemasını ve iç içe amortizasyonu açıklar; Halo 2 ise birikim şeması ve PLONKish aritmetizasyon içeren üretim amaçlı Rust uygulamasıdır. |
 | "Özyineleme yalnızca blok doğrulamasını ölçeklendirmeye yardımcı olur." | Özyineleme ayrıca uygulama düzeyindeki hesaplamayı da sıkıştırır — Filecoin'in uzay-zaman/çoğaltma kanıtlarına ve Ethereum için VDF çalışmalarına bakın. |
 

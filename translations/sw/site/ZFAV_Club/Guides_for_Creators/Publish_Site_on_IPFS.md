@@ -18,9 +18,7 @@ Tofauti na muundo wa jadi wa mteja-seva wa intaneti, IPFS huwaruhusu watumiaji k
 
 Faili katika IPFS hupewa anwani [address] kwa kutumia *uanwani wa maudhui [content-addressing]*, kumaanisha kuwa kila faili hupewa hashi ya kipekee au KITAMBULISHO CHA MAUDHUI (CID) kulingana na maudhui yake, na hashi hii hutumika kurejesha faili kutoka kwenye mtandao.
 
-Mtumiaji anapoongeza faili kwenye IPFS, faili hugawanywa katika vipande vidogo vinavyoitwa block, na kila block hupewa CID. Block hizi kisha huhifadhiwa kwenye node tofauti katika mtandao, ili faili iweze kurejeshwa kwa urahisi kutoka vyanzo vingi.
-
-Hii huhakikisha urudufu na ustahimilivu wa hitilafu huku pia ikifanya iwe vigumu kwa node yoyote moja kuwa sehemu moja ya kushindwa au udhibiti.
+IPFS huhifadhi maudhui kama block zinazotambuliwa kwa CID. Kuongeza faili huihifadhi kwenye node yako; haiinakili kiotomatiki kwenda kwenye node nyingine. Weka nakala inayofikika mtandaoni, au panga ubandikaji wa mbali (remote pinning), ili wasomaji wengine waweze kuirejesha. Tazama [IPFS udumishaji](https://docs.ipfs.tech/concepts/persistence/).
 
 **Soma: [Utangulizi wa IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,22 +32,29 @@ Kwa mfano huu, tunaunda tovuti [site] rahisi.
 
 **Hatua ya 2:** Tumia [kiolezo cha HTML!](https://nicepage.com/html-templates). Bandika maandishi uliyoandika ipasavyo. Pia unaweza kuunda laha ya mitindo ya .CSS kwa tovuti yako.
 
-**Hatua ya 3:** Hifadhi saraka yako. Kurasa zote za .html pamoja na picha lazima ziwe katika Folda moja.
+**Hatua ya 3:** Weka ukurasa wako wa nyumbani katika `index.html` kwenye mzizi wa folda ya tovuti. Jumuisha picha zake na CSS, ukitumia njia linganishi (relative paths) kama vile `style.css` ili zifanye kazi pia chini ya URL ya lango (gateway) la IPFS.
 
 ## Kusanidi Node
 
-Pakua na usakinishe IPFS kutoka kwenye [tovuti Rasmi](https://docs.ipfs.tech/install/ipfs-desktop/).
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) inasimamia node kwa niaba yako. Tafadhali iache ikiendelea kufanya kazi wakati wote unaposhiriki tovuti yako.
 
-### Anzisha IPFS:
+Kwa [njia ya mstari wa amri](https://docs.ipfs.tech/how-to/command-line-quick-start/), anzisha hazina mpya mara moja:
 
-Ikiwa unatumia Programu ya Eneo-kazi, hutahitaji kuanzisha.
+```sh
+ipfs init
+```
 
-Kwa kutumia Terminal au kidokezo cha amri, endesha amri: ipfs init
+Kisha anzisha node na uache terminal hii ikiwa wazi:
+
+```sh
+ipfs daemon
+```
+
+Endesha amri zilizobaki katika terminal ya pili. Usianzishe daemon ya pili ikiwa IPFS Desktop tayari inasimamia hazina (repository) hii.
 
 ### **Ongeza Folda ya Tovuti kwenye IPFS**:
 
-Chagua folda yenye faili za tovuti yako na uende kwenye chaguo la Ongeza Folda.
-
+Katika IPFS Desktop, chagua folda yenye faili za tovuti yako kwa kutumia chaguo la Ongeza Folda (Add Folder).
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -57,29 +62,29 @@ Chagua folda yenye faili za tovuti yako na uende kwenye chaguo la Ongeza Folda.
 
 –
 
-Ikiwa unatumia Terminal, endesha amri: ipfs add -r folder_name ili kuongeza folda nzima kwenye IPFS kwa kujirudia.
+Kwa njia ya CLI, endesha amri hii kutoka kwenye saraka kuu ya folda ya tovuti yako:
+
+```sh
+ipfs add -r folder_name
+```
+
+Badilisha `folder_name` kwa jina la folda yako (weka majina yenye nafasi ndani ya alama za nukuu). Hifadhi CID iliyo kwenye mstari wa mwisho wa `added ... folder_name`: inatambulisha saraka nzima, si `index.html` pekee.
 
 ### Funga Tovuti kwenye IPFS:
 
-Mara faili za tovuti yako zinapoongezwa kwenye IPFS, unahitaji **kuzifunga [pin]** ili kuhakikisha zinaendelea kupatikana kwenye mtandao.
+Amri ya CLI `ipfs add` kwa chaguo-msingi hubandika (pin) maudhui yaliyoingizwa ndani ya kompyuta yako. Hakikisha folda imebandikwa kwa kutumia:
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-Ikiwa unatumia Terminal, endesha amri: Ikiwa unatumia Terminal, endesha amri: ipfs pin add **hash**
-
-**hash** = CID ya folda uliyoiongeza katika hatua iliyotangulia.
-
-Vinginevyo, unaweza pia kufunga saraka ukitumia huduma kama vile [Pinata](https://pinata.cloud/) au [Dolpin](https://dolpin.io/)
-
-Hii huokoa muda mwingi!
-
-–
+Badilisha `YOUR_FOLDER_CID` kwa CID kutoka hatua iliyotangulia; matokeo yanapaswa kuonyesha `recursive`. Kubandika (pinning) kunalinda nakala ya node hii dhidi ya ukusanyaji wa taka (garbage collection), lakini hakuifanyi kompyuta iliyozimwa ibaki mtandaoni. Ili maudhui yapatikane wakati node yako iko nje ya mtandao, panga [ubandikaji wa mbali](https://docs.ipfs.tech/how-to/work-with-pinning-services/) (remote pinning) na uthibitishe kwamba huduma ya mbali imemaliza kubandika.
 
 ### Fikia tovuti yako kwenye IPFS:
 
-Tovuti yako sasa imechapishwa kwenye IPFS na inaweza kufikiwa kwa kutumia hashi ya folda. Ili kufikia tovuti yako, unaweza kutembelea https://ipfs.io/ipfs/**hash**
+Kwanza, kagua tovuti yako kupitia lango la ndani (local gateway) kwenye `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` (tumia mlango wa lango uliochapishwa na daemon yako ikiwa ni tofauti). Alama ya mkwaju wa mwisho (/) huwezesha viungo vya jamaa kupatikana ndani ya saraka.
 
-**hash** = CID ya folda.
+Lango la umma (public gateway) kama `https://ipfs.io/ipfs/YOUR_FOLDER_CID/` linaweza kuihudumia mara tu litakapoweza kupata maudhui kutoka kwa node inayofikika. Onyesho la awali la ndani lililofanikiwa halithibitishi kwamba maudhui yanapatikana kwa umma.
 
 Katika hali yetu CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
@@ -107,15 +112,20 @@ Unaweza pia kutumika kutazama tovuti yetu kupitia lango: https://ipfs.io/ipns/k5
 
 Tovuti imeundwa, sasa tunahitaji njia ya kuelekeza URL kwenye maudhui.
 
-Ikiwa tayari unamiliki anwani ya wavuti, unaweza kuongeza rekodi mpya kwa kutumia rekodi ya TXT _dnslink(kikoa chako). Kulingana na mtoa huduma, inaweza kujazwa kiotomatiki.
+Kwa `example.com`, ongeza rekodi hii ya DNS, ukibadilisha `YOUR_FOLDER_CID` na CID ya saraka yako:
 
+| Aina | Jina | Thamani |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Baadhi ya watoa huduma za DNS huongeza zoni (zone) kiotomatiki; katika hali hiyo, ingizeni `_dnslink` pekee. Mkitumia jina la IPNS lililotajwa hapo juu, thamani inaweza badala yake kuwa `dnslink=/ipns/YOUR_IPNS_NAME`. Tazameni [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 
-Itachukua muda kuenea katika mtandao kabla ya kuweza kuiona.
+Baada ya DNS kusambaa, jaribu `https://ipfs.io/ipns/example.com/`. Ili kuhudumia tovuti moja kwa moja kwenye `https://example.com/`, unahitaji pia lango (gateway) linaloweza kutumia DNSLink pamoja na usanidi wa HTTPS; rekodi ya TXT peke yake haiweki mambo hayo. Fuata [mwongozo wa kikoa maalum](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
 *Hongera! Sasa una tovuti inayostahimili udhibiti.*
 

@@ -17,7 +17,7 @@ Bu sayfa, çalışan bir Zcash tam düğümle JSON-RPC üzerinden iletişim kurm
 * **JSON-RPC**, operatörlerin ve cüzdanların bir düğüme zincir ucu, eşler ve (bir cüzdan sürecinde) bakiyeler hakkında soru sorma yoludur. Z3'te Zebra düğüm RPC'sini; Zallet ise cüzdan RPC'sini sunar.
 * **Regtest**, çağrıları öğrenmek için doğru yerdir. Z3'ün `http://127.0.0.1:8181` üzerindeki rpc-router'ı `zebra` / `zebra` kabul eder ve düğüm yöntemlerini Zebra'e, cüzdan yöntemlerini ise Zallet'a yönlendirir.
 * **Mainnet ve testnet**, Zebra üzerinde cookie kimlik doğrulaması kullanır. Regtest kullanıcı adı/parolasını genel bir düğüme kopyalamayın.
-* **İndeksleme**, doğrulamadan ayrı bir iştir. Zebra doğrulama yapar. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`), lightwalletd uyumlu gRPC sunar. [Ztreamer](https://github.com/distractedm1nd/ztreamer), Zakura destekli bir indeksleyicidir; Z3'ün sunduğu şey bu değildir.
+* **İndeksleme**, doğrulamadan ayrı bir iştir. Zebra doğrulama yapar. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`), lightwalletd uyumlu gRPC sunar. [Ztreamer](https://github.com/zcashlabs/ztreamer), Zakura destekli bir indeksleyicidir; Z3'ün sunduğu şey bu değildir.
 * Zaino JSON-RPC'si ve Zebra'nin isteğe bağlı indeksleyici gRPC'si geri döngü veya güvenilir bir ağ içindir. Bunları kimlik doğrulaması olmadan genel internete açmayın.
 
 ---
@@ -117,7 +117,8 @@ Zaino gRPC'si tüm ağlarda düz metin h2c'dir. Ana makine dışından herhangi 
 ### Diğer indeksleyiciler (Z3 değil)
 
 * **lightwalletd** — eski kompakt blok sunucusu. Hâlâ yaygın olarak kullanılıyor; bu rol için Zaino onun ardıl yoludur.
-* **Ztreamer** — Zakura destekli bir indeksleyici ve `CompactTxStreamer` uygulaması. Bir Z3 hizmeti değildir. [Ztreamer repository](https://github.com/distractedm1nd/ztreamer)'ye bakın.
+* **Ztreamer** — Zakura destekli bir indeksleyici ve `CompactTxStreamer` uygulaması. Bir Z3 hizmeti değildir. [Ztreamer repository](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — Zcash Foundation indeksleyicisi (alfa). Bir arşiv Zebra veya Zakura düğümünden veri okur ve kendi `WalletQuery` gRPC API’sinin yanı sıra lightwalletd uyumlu bir `CompactTxStreamer` adaptörü sunar. Hızlı başlangıç kılavuzu bir Z3 düğümünün yanında çalıştırır, ancak bu bir Z3 hizmeti değildir. Bkz. [Zinder](/zcash-tech/zinder).
 * **Zebra `rpc.indexer_listen_addr`** — Zebra içindeki isteğe bağlı bir gRPC dinleyicisi. Z3 bunu gerektirmez ve ana makineye yayınlamaz.
 
 ---
@@ -145,7 +146,8 @@ Zaino gRPC'si tüm ağlarda düz metin h2c'dir. Ana makine dışından herhangi 
 * [Full Nodes](/zcash-tech/full-nodes)
 * [Zebra Full Node](/zcash-tech/zebra-full-node)
 * [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
-* [Migration Guide: zcashd'den Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)'ye
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (veya Zaino) üzerinde Kubernetes veya Docker Compose
+* [zcashd'den Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)'ye geçiş kılavuzu
 * [Zingolib ve Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 
 ## Kaynaklar
@@ -156,6 +158,6 @@ Zaino gRPC'si tüm ağlarda düz metin h2c'dir. Ana makine dışından herhangi 
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zallet Book](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **Son güncelleme:** Eylül 2026

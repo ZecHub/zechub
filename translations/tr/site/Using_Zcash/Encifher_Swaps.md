@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC Encrypt.trade Kullanarak Takas**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# encrypt.trade Kullanarak SOL/USDC ile ZEC Takası
+
+> Solana üzerinde SOL veya USDC'ı ZEC'ye takas edin; zincirler arası adım NEAR Intents üzerinden yönlendirilir.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Solana'dan Zcash'a takas yapın; zincirler arası adım NEAR Intents üzerinden yönlendirilir.*  
+---
+
+## Kısaca
+
+* [encrypt.trade](https://encrypt.trade/zec), SOL veya USDC'yi şifrelenmiş token'lara (eSOL/eUSDC) dönüştürür, ardından bunları NEAR Intents aracılığıyla ZEC ile takas eder.
+* Tutarlar Solana üzerinde gizlidir, ancak cüzdan adresiniz ve uygulamayı kullanımınız herkese açıktır.
+* ZEC yalnızca şeffaf bir (t1/t3) adrese teslim edilir; bu nedenle korumaya alana kadar Zcash zincirinde görünür durumdadır.
+* ZEC cüzdanınıza ulaşır ulaşmaz korumaya alın.
+* Uygulama ve NEAR Intents, uyumluluk açısından cüzdanları tarar.
 
 ---
 
-###  Giriş  
-[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. tarafından işletilen bir Solana uygulamasıdır. Solana üzerindeki **SOL veya USDC** varlıklarınızı **Zcash (ZEC)** varlığına takas etmenizi sağlar. Tokenleriniz önce, tutarlar Solana üzerinde gizli kalacak şekilde şifrelenmiş sürümlere sarılır; ardından NEAR Intents aracılığıyla ZEC'a takas edilir.
+## Temel Açıklama
+[**encrypt.trade**](https://encrypt.trade/zec), JMD Labs Inc. tarafından işletilen bir Solana uygulamasıdır. Solana üzerinde **SOL veya USDC** varlıklarını **Zcash (ZEC)** ile takas etmenizi sağlar. Tokenlarınız önce şifrelenmiş sürümlere sarılır; böylece tutarlar Solana üzerinde gizlenir, ardından NEAR Intents aracılığıyla ZEC ile takas edilir.
 
 Takas bazı açılardan özeldir, ancak tümüyle değildir. Uygulamanın kendi [dokümantasyonu](https://docs.encifher.io/docs), zincirle etkileşiminizin anonim olmadığını belirtir: insanlar cüzdanınızın uygulamayı kullandığını görebilir, ancak ne kadar taşıdığınızı göremez. ZEC ayrıca şeffaf bir adrese ulaşır; dolayısıyla onu korumalı hale getirene kadar Zcash zincirinde görünür kalır.
 

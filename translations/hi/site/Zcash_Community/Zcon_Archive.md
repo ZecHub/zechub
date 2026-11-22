@@ -2,13 +2,14 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-निम्नलिखित में Zcon से संबंधित अधिकांश मीडिया के संग्रह है, जो आसानी से पाए जा सकते हैं।
+नीचे Zcon से संबंधित अधिकांश मीडिया का संग्रह एक ही स्थान पर दिया गया है, ताकि आप उसे आसानी से ढूँढ सकें।
 
 # Zcon
-Zcon [Zcash Foundation](https://zfnd.org/) द्वारा आयोजित एक वार्षिक कॉन्फ्रेंस है।
+Zcon एक वार्षिक सम्मेलन है, जिसका आयोजन [Zcash Foundation](https://zfnd.org/) द्वारा किया जाता है।
 
-## Zcon0: गोपनीयता से A लेकर Zcon
-Zcon0 हमारा पहला वार्षिक कॉन्फ्रेंस था, और यह बहुत अच्छा गया। हमने 26-28 जून 2018 में सुंदर मॉन्ट्रियल में व्यतीत किया
+## Zcon0: A से Zcon तक गोपनीयता (privacy)
+
+Zcon0 हमारा पहला वार्षिक सम्मेलन था और यह बेहद सफल रहा। हमने 26-28 जून 2018 को सुंदर शहर Montreal में समय बिताया।
 
 [Zcon0 प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
@@ -23,8 +24,10 @@ Zcon0 हमारा पहला वार्षिक कॉन्फ्र�
   />
 </div>
 
-## Zcon1: शून्य से गोपनीयता हीरो
-Zcash Foundation द्वारा आयोजित दूसरा वार्षिक गोपनीयता और प्रौद्योगिकी कॉन्फ्रेंस, 22 से 24 जून 2019 के बीच क्रोएशिया के स्पलिट में हुआ।
+
+## Zcon1: शून्य से गोपनीयता हीरो तक
+
+Zcash Foundation द्वारा आयोजित दूसरा वार्षिक गोपनीयता और टेक्नोलॉजी सम्मेलन 22 से 24 जून 2019 तक Split, Croatia में आयोजित किया गया था।
 
 [Zcon1 प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
@@ -39,8 +42,10 @@ Zcash Foundation द्वारा आयोजित दूसरा वार
   />
 </div>
 
-## Zcon2: गोपनीयता सभी तक
-Zcon2 8 जून, 2021 के मंगलवार और 9 जून, 2021 के बुधवार को हुआ। Zcon2 एक वर्चुअल कॉन्फ्रेंस था
+
+## Zcon2: हर स्तर पर गोपनीयता
+
+Zcon2 मंगलवार, 8 जून और बुधवार, 9 जून 2021 को आयोजित हुआ। Zcon2 एक वर्चुअल सम्मेलन था।
 
 [Zcon2 प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
@@ -55,8 +60,10 @@ Zcon2 8 जून, 2021 के मंगलवार और 9 जून, 2021 �
   />
 </div>
 
-## Zcon3: कोड ही अकेला काफी नहीं
-Zcon3 7 से 9 अगस्त, 2022 के बीच लॉस एंजिल्स में हुआ।
+
+## Zcon3: केवल कोड काफ़ी नहीं है
+
+Zcon3 7-9 अगस्त 2022 तक Las Vegas में आयोजित हुआ।
 
 [Zcon3 प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
@@ -71,11 +78,13 @@ Zcon3 7 से 9 अगस्त, 2022 के बीच लॉस एंजि�
   />
 </div>
 
-## Zcon4: भविष्य लिखा नहीं गया है
 
-अनुप्रयोग कॉन्फ्रेंस 30-31 जुलाई, 2023 में स्पेन के बर्सिलोना में होगा और वहाँ से लाइव स्ट्रीम किया जाएगा। 
+## Zcon4: भविष्य अभी लिखा नहीं गया है
+
+यह प्रत्यक्ष सम्मेलन 30-31 जुलाई 2023 को Barcelona, Spain में है और इसे कार्यक्रम स्थल से लाइव स्ट्रीम किया जाएगा। 
 
 [Zcon4 प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -88,9 +97,9 @@ Zcon3 7 से 9 अगस्त, 2022 के बीच लॉस एंजि�
   />
 </div>
 
-## ZconV: Zcash एकीकृत
+## ZconV: एकजुट Zcash
 
-ZconV 6-10 मई, 2024 को हुआ। ZconV एक वर्चुअल कॉन्फ्रेंस था
+ZconV 6-10 मई 2024 को आयोजित हुआ। ZconV एक वर्चुअल सम्मेलन था।
 
 [ZconV प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
@@ -105,11 +114,12 @@ ZconV 6-10 मई, 2024 को हुआ। ZconV एक वर्चुअल �
   />
 </div>
 
-## ZconVI: वितरकता के माध्यम से सहयोग
+## ZconVI: डिसेंट्रलाइज़ेशन (decentralization) के माध्यम से सिनर्जी
 
-ZconVI 4-7 मार्च, 2025 को हुआ। ZconVI एक वर्चुअल कॉन्फ्रेंस था
+ZconVI 4-7 मार्च 2025 को आयोजित हुआ। ZconVI एक वर्चुअल सम्मेलन था।
 
 [ZconVI प्लेलिस्ट](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
 </a>
 
-# دليل عملي: عقدة Zcash وRPC وفهرسة blockchain
+# دليل عملي: عقدة Zcash وRPC وفهرسة سلسلة الكتل
 
 هذه الصفحة دليل عملي للتواصل مع عقدة كاملة Zcash قيد التشغيل عبر JSON-RPC، ولربط مفهرس يمكن للمحافظ الخفيفة والمستكشفات الاستعلام منه. وهي **ليست** دليلاً ثانياً للتثبيت.
 
@@ -17,7 +17,7 @@
 * يتيح **JSON-RPC** للمشغّلين والمحافظ سؤال عقدة عن رأس السلسلة والأقران، وعن الأرصدة في حالة عملية المحفظة. في Z3، تقدّم Zebra RPC للعقدة؛ وتقدّم Zallet RPC للمحفظة.
 * تُعد **Regtest** المكان المناسب لتعلّم الاستدعاءات. يقبل موجّه rpc-router الخاص بـ Z3 على `http://127.0.0.1:8181` بيانات `zebra` / `zebra` ويحوّل أساليب العقدة إلى Zebra وأساليب المحفظة إلى Zallet.
 * تستخدم **Mainnet وtestnet** مصادقة ملفات تعريف الارتباط على Zebra. لا تنسخ اسم المستخدم/كلمة المرور الخاصة بـ regtest إلى عقدة عامة.
-* تُعد **الفهرسة** مهمة منفصلة عن التحقق. تتحقق Zebra. وتقدّم [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) واجهة gRPC متوافقة مع lightwalletd. أما [Ztreamer](https://github.com/distractedm1nd/ztreamer) فهو مفهرس مدعوم بـ Zakura؛ وليس مما تشحنه Z3.
+* تُعد **الفهرسة** مهمة منفصلة عن التحقق. تتحقق Zebra. وتقدّم [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) واجهة gRPC متوافقة مع lightwalletd. أما [Ztreamer](https://github.com/zcashlabs/ztreamer) فهو مفهرس مدعوم بـ Zakura؛ وليس مما تشحنه Z3.
 * إن JSON-RPC الخاص بـ Zaino وgRPC الاختياري للمفهرس الخاص بـ Zebra مخصصان للاتصال المحلي أو لشبكة موثوقة. لا تكشفهما دون مصادقة على الإنترنت العام.
 
 ---
@@ -116,8 +116,9 @@ grpcurl -plaintext \
 
 ### مفهرسات أخرى (ليست Z3)
 
-* **lightwalletd** — خادم الكتل المدمجة الأقدم. لا يزال منشوراً في بيئات فعلية؛ Zaino هو مسار الخلف لهذا الدور.
-* **Ztreamer** — مفهرس مدعوم بـ Zakura وتنفيذ لـ `CompactTxStreamer`. ليس خدمة Z3. راجع مستودع [Ztreamer](https://github.com/distractedm1nd/ztreamer).
+* **lightwalletd** — خادم الكتل المدمجة الأقدم. لا يزال منشوراً في بيئات فعلية؛ Zaino هو المسار اللاحق لهذا الدور.
+* **Ztreamer** — مفهرس مدعوم بـ Zakura وتنفيذ لـ `CompactTxStreamer`. ليس خدمة Z3. راجع مستودع [Ztreamer](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — مفهرس Zcash Foundation (ألفا). يقرأ من عقدة أرشيفية Zebra أو Zakura ويقدّم واجهة gRPC خاصة به `WalletQuery`، بالإضافة إلى محوّل متوافق مع lightwalletd `CompactTxStreamer`. يعمل في دليل البدء السريع بجوار عقدة Z3، لكنه ليس خدمة Z3. راجع [Zinder](/zcash-tech/zinder).
 * **Zebra `rpc.indexer_listen_addr`** — مستمع gRPC اختياري *داخل* Zebra. لا تتطلبه Z3 ولا تنشره إلى المضيف.
 
 ---
@@ -145,8 +146,9 @@ grpcurl -plaintext \
 * [العقد الكاملة](/zcash-tech/full-nodes)
 * [العقدة الكاملة Zebra](/zcash-tech/zebra-full-node)
 * [عقد المحافظ الخفيفة](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (أو Zaino) على Kubernetes أو Docker Compose
 * [دليل الترحيل: من zcashd إلى Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
-* [Zingolib ودليل Zaino](/guides/zingolib-and-zaino-tutorial)
+* [Zingolib ودرس Zaino](/guides/zingolib-and-zaino-tutorial)
 
 ## الموارد
 
@@ -156,6 +158,6 @@ grpcurl -plaintext \
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * كتاب [Zallet](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **آخر تحديث:** سبتمبر 2026

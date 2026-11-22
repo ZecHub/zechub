@@ -6,10 +6,10 @@ Esta página explica ZIP 218 a partir de su propio texto: qué cambia, qué no c
 
 ## La versión corta
 
-| | Hoy | Después de ZIP 218 |
+| | Antes de NU7 | Después de ZIP 218 (NU7) |
 |---|---|---|
 | Espaciado objetivo de bloques | 75 segundos | 25 segundos |
-| Bloques por día | 1.152 | 3.456 |
+| Bloques por día | 1,152 | 3,456 |
 | Subsidio de bloque [block subsidy] (era de halving actual) | 1,5625 ZEC | 0,52083333 ZEC |
 | Nuevos ZEC por día | sin cambios | sin cambios |
 | Intervalo de halving | 1.680.000 bloques | 5.040.000 bloques |
@@ -22,7 +22,7 @@ Tres veces más bloques, cada uno pagando un tercio. El calendario de suministro
 
 ## Por qué cambiar el tiempo de bloque
 
-El objetivo principal es **reducir el tiempo de espera**. Hoy, un pago [payment] espera 75 segundos de media para su primera confirmación, independientemente de la carga de la red [chain]. A 25 segundos, esto baja a 25 segundos de media. El ZIP menciona los pagos en puntos de venta, los depósitos en exchanges y los puentes cross-chain como los usos que más lo perciben.
+El objetivo principal es **reducir el tiempo de espera**. Antes de NU7, un pago [payment] esperaba 75 segundos de media para su primera confirmación, independientemente de la carga de la red [chain]. A 25 segundos, esto baja a 25 segundos de media. El ZIP menciona los pagos en puntos de venta, los depósitos en exchanges y los puentes cross-chain como los usos que más lo perciben.
 
 Conviene tener presentes dos puntos del ZIP:
 
@@ -99,7 +99,7 @@ Estas son recomendaciones para implementaciones, no reglas de consenso [consensu
 
 Los bloques más rápidos no son gratuitos. Un bloque obsoleto es un bloque válido que pierde la carrera por incluirse en la red porque otro bloque llegó primero a la red. Cuanto menor es el intervalo entre bloques, más a menudo ocurre esto, y el ZIP vincula la tasa de bloques obsoletos con la propagación de bloques, el tiempo de verificación y el riesgo de centralización del minado [mining].
 
-- **Hoy:** aproximadamente 0,4%, cifra que el ZIP señala que puede subestimar la tasa subyacente porque el poder de hash está concentrado en pools.
+- **Antes de NU7:** aproximadamente 0,4%, cifra que el ZIP señala que puede subestimar la tasa subyacente porque el poder de hash está concentrado en pools.
 - **Teórico a 25 segundos:** aproximadamente 3,26%, basado en retrasos de propagación medidos de Zcash.
 - **Prueba en devnet:** 99 nodos de Zebra distribuidos geográficamente que producían bloques completos de 2 MB con un espaciado de 25 segundos midieron una tasa de bloques obsoletos del 4,86% y una tasa de bifurcaciones del 0,37%. El único ajuste necesario fue la configuración de TCP. Puesto que esa devnet estaba más descentralizada que la mainnet actual, el ZIP considera estas cifras cercanas al peor caso.
 - **Punto de referencia:** el ZIP utiliza la tasa histórica de bloques obsoletos del 5,4% de la prueba de trabajo de Ethereum como umbral de seguridad. Ambas cifras de la devnet están por debajo de ella.
@@ -110,7 +110,7 @@ También hay dos costes menores. Las billeteras ligeras descargan unos 200 KB m�
 
 - **Estado de ZIP:** Propuesto. Propietarios Dev Ojha y Evan Forbes; creado el 13 de marzo de 2026.
 - **Consulta de titulares de monedas:** cerró el 14 de septiembre de 2026, con un 99,9% de apoyo. La consulta indica preferencia; no modifica por sí sola las reglas de consenso.
-- **Calendario:** en un anuncio del Community Forum de Zcash del 17 de septiembre, las organizaciones de desarrollo acordaron un calendario con código completo para el 30 de septiembre, NU7 en testnet el 6 de octubre y una decisión final el 20 de octubre. La altura de activación de mainnet está ahora fijada en 3.543.405 ([ZIP 259](https://zips.z.cash/zip-0259)), prevista aproximadamente para el 5 de noviembre de 2026.
+- **Calendario:** en un anuncio del Community Forum de Zcash del 17 de septiembre, las organizaciones de desarrollo acordaron un calendario con código completo para el 30 de septiembre, NU7 en testnet el 6 de octubre y una decisión final el 20 de octubre. NU7 se activó en mainnet a la altura 3.543.405 ([ZIP 259](https://zips.z.cash/zip-0259)) el 6 de noviembre de 2026 (UTC), por lo que el objetivo de 25 segundos ya está vigente.
 - **Implementación:** seguida en Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) y en Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Qué significa esto para usted

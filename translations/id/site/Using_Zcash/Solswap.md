@@ -39,7 +39,7 @@ Tombol **Swap** milik Phantom juga mencantumkan ZEC, tetapi itu akan memberimu t
 - Pilih **ZEC** sebagai **token tujuan** kamu.
 - Pastikan Zcash tersedia melalui antarmuka swap.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

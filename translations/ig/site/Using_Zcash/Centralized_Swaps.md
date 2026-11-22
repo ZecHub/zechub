@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Weebụsaịtị: https://trocador.app/
 - Nkọwa: Zụọ Cryptocurrency n’amaghị aha. Ngwa ngwa. Nchebe. Enweghị birokrasi. Kaadị debit akwụgoro ụgwọ dị.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Weebụsaịtị: https://github.com/firoorg/FiroDEX-Desktop
-- Nkọwa: Mgbawe decentralized enweghị mkpa ntụkwasị obi site n'iji atomic swaps na FiroDEX!.
+- Nkọwa: Ngwa desktọpụ atomic-swap. A naghịzi elekọta ya: Firo echekwala ebe nchekwa FiroDEX-Desktop, ntọhapụ ikpeazụ ya bụ 0.8.2-beta (Febụwarị 2025).
 
 ___
 

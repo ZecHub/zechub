@@ -57,19 +57,19 @@ Como se indica en la sección de buenas prácticas, se recomienda utilizar la gu
 
 - 2 GB de memoria libre y 32 GB de espacio de almacenamiento libre.
 - Cable USB (A o C)
-- Sistema operativo compatible: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 y 23.04), ChromeOS, GrapheneOS, Google Android (Pixel OS de fábrica)
-- Navegadores compatibles: Chromium (no compatible con Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, navegador Brave.
+- Utiliza un sistema operativo anfitrión compatible y un navegador con compatibilidad funcional con WebUSB. Consulta los [requisitos oficiales de WebUSB](https://grapheneos.org/install/web#prerequisites) vigentes para conocer las versiones compatibles y las restricciones de empaquetado de navegadores; los sistemas antiguos que han llegado al final de su vida útil no cuentan con soporte oficial.
+- El instalador web también puede ejecutarse desde un dispositivo Android compatible, ChromeOS o GrapheneOS. Sigue las notas específicas del navegador en la guía oficial en lugar de asumir que todos los paquetes de Chromium admiten WebUSB.
 
 Consulta la guía de instalación mediante el siguiente enlace y sigue el proceso de instalación
 
-[Guía del instalador webGrapheneOS](https://grapheneos.org/install/web#prerequisites)
+[Guía del instalador web de GrapheneOS](https://grapheneos.org/install/web#prerequisites)
 
 **Instalación mediante línea de comandos** La instalación mediante línea de comandos no se recomienda para usuarios sin conocimientos técnicos, y se requieren las siguientes herramientas y recursos para la instalación mediante línea de comandos:
 
 - Debes disponer de al menos 2 GB de memoria libre y 32 GB de espacio de almacenamiento libre
 - Cable USB (A o C)
-- Sistema operativo compatible: Windows 10, Windows 11, macOS Big Sur (11), macOS Monterey (12), macOS Ventura (13), Arch Linux, Debian 10 (buster), Debian 11 (bullseye), Debian 12 (bookworm), Ubuntu 20.04 LTS, Ubuntu 22.04 LTS, Ubuntu 22.10, Ubuntu 23.04
-- Instalador web desde Android, ChromeOS o GrapheneOS
+- Usa un sistema operativo anfitrión compatible con los [prerrequisitos actuales de la línea de comandos](https://grapheneos.org/install/cli#prerequisites) y sigue esa guía para obtener las herramientas necesarias.
+- Los anfitriones Android, ChromeOS y GrapheneOS deben usar el instalador web; no figuran como anfitriones compatibles para la instalación mediante línea de comandos.
 
 Consulta la guía de instalación mediante el siguiente enlace y sigue el proceso de instalación 
 
@@ -89,7 +89,7 @@ Consulta la guía de instalación mediante el siguiente enlace y sigue el proces
 
 **Pantalla de bloqueo segura** Utiliza una pantalla de bloqueo segura, como un PIN, una contraseña o autenticación biométrica, para impedir el acceso no autorizado.
 
-**Evita rootear tu dispositivo Android** Evita rootear o desbloquear el bootloader, ya que esto puede debilitar la seguridad del dispositivo.
+**Vuelve a bloquear el bootloader después de la instalación** El proceso oficial de instalación requiere [desbloquear temporalmente el bootloader](https://grapheneos.org/install/web#unlocking-the-bootloader) para flashear GrapheneOS y, después, [bloquearlo de nuevo antes de usarlo](https://grapheneos.org/install/web#locking-the-bootloader) para habilitar el arranque verificado completo. Desbloquearlo y volver a bloquearlo borran todos los datos del usuario, así que haz una copia de seguridad primero y sigue los pasos oficiales en orden. No rootees el sistema operativo instalado.
 
 **Verifica las fuentes de las aplicaciones** Verifica la autenticidad de las aplicaciones y sus fuentes para evitar instalar software malicioso.
 

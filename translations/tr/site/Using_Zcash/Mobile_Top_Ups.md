@@ -1,69 +1,93 @@
-# Zcash ile Mobil Kontör Yükleme
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Mobile_Top_Ups.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-Bu rehberde, ZEC ile nasıl kontör satın alacağınızı öğreneceksiniz.
+# Zcash ile Mobil Bakiye Yükleme
 
-## Şu adımları izleyin:
+> Hesap oluşturarak ya da oluşturmadan, ön ödemeli bir telefona ZEC ile bakiye yükleyin.
+
+## Özetle
+
+* Coinsbee ve CardsRelay gibi çevrimiçi hediye kartı mağazalarından ZEC ile ön ödemeli mobil kontör satın alabilirsiniz.
+* Coinsbee bir hesap gerektirir. CardsRelay ise onay için yalnızca bir e-posta adresi ister.
+* Her ikisi de ödeme sırasında size tam ZEC tutarını ve bir ödeme adresini gösterir. Fatura süresi dolmadan tam olarak bu tutarı gönderin.
+* Notlar (memo) yalnızca korumalı (shielded) adreslere ulaşır. Ödeme adresi şeffaf (transparent) ise not iletilmez, bu yüzden olası bir iade talebi için sipariş numaranızı saklayın.
+* Bakiye yükleme genellikle yalnızca ön ödemeli hatlarda çalışır. Ödeme yapmadan önce numarayı ve operatörü kontrol edin.
+
+## Temel Açıklama
+
+Mobil bakiye yükleme, ön ödemeli bir telefon numarasına konuşma veya internet kredisi ekler. Kripto karşılığında hediye kartı satan birçok mağaza, dünya genelinde yüzlerce mobil operatör için bakiye yükleme de sunar ve bunların bazıları ZEC kabul eder.
+
+İşleyiş her yerde aynıdır: ülkeyi ve operatörü seçin, telefon numarasını ve tutarı girin, faturayı ZEC ile ödeyin ve kredinin gelmesini bekleyin. Aşağıda iki seçenek bulunmaktadır: Coinsbee (hesap gerekli) ve CardsRelay (hesap gerekmez).
+
+## Seçenek 1: Coinsbee (hesap gerekli)
 
 ### 1. Hesap oluşturun
 [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) adresini ziyaret edin ve bir hesap oluşturun.
 
 ### 2. Ülkenizi ve operatörünüzü seçin
-Sol üst köşeye gidin ve ülkenizi seçin; ardından mobil telefon kredisi seçeneğini belirleyin ve kontör yüklemek istediğiniz operatörü seçin (örnek: MTN).
+Sol üst köşeden ülkenizi seçin, mobil telefon kredisini seçin ve bakiye yüklemek istediğiniz operatörü seçin (örneğin MTN).
 
-![Adım 2 - Ülke ve operatör seçimi](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
 ### 3. Bilgileri doldurun ve satın alın
-Doğru bilgileri doldurun ve "Buy Now" düğmesine tıklayın. Siparişinizi görüntülemek için sepeti açın, devam'a tıklayın ve satın alma işlemini $ZEC ile onaylayın.
+Telefon numarasını ve tutarı girin, ardından "Buy Now" (Şimdi Satın Al) düğmesine tıklayın. Siparişinizi görmek için sepeti açın, devam et'e tıklayın ve ödeme yöntemi olarak ZEC seçin.
 
-![Adım 3 - Satın alma ekranı](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. Ödeme bilgileri
-$ZEC cinsinden karşılık gelen tutar ile fonların gönderilmesi gereken şeffaf bir adres sağlanacaktır.
+Fatura, ZEC cinsinden tutarı ve fonların gönderilmesi gereken adresi gösterir. Aşağıdaki örnekte adres şeffaftır.
 
-![Adım 4 - ZEC ödeme bilgileri](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
 ### 5. Ödemeyi gönderin
-Tutarı ve adresi dikkatlice kopyalayıp yapıştırın. İade olması ihtimaline karşı not alanına kendi korumalı adresinizi ekleyin.
+Tutarı ve adresi dikkatlice kopyalayın ve fatura geri sayımı bitmeden tutarın tamamını gönderin. Eksik ödenmiş veya süresi dolmuş bir fatura işleme alınmaz.
 
-![Adım 5 - ZEC gönderimi](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+İadeler için not alanına güvenmeyin: notlar yalnızca korumalı adreslere iletilir ve şeffaf bir adrese yapılan ödeme not taşımaz. Bunun yerine sipariş numaranızı saklayın. Coinsbee faturaları bir ödeme sağlayıcısı tarafından işlenir ve sağlayıcının [yardım merkezi](https://help.coinsbee.com/en/support/home/), bir sipariş eksik ödenirse veya süresi dolarsa bu sağlayıcıdan nasıl iade talep edileceğini açıklar.
 
-### 6. İşleme alınıyor
-Fonlar gönderildikten sonra talebiniz birkaç dakika içinde işleme alınacaktır.
+![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
-![Adım 6 - İşleme ekranı](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+### 6. İşleme
+Ödeme onaylandıktan sonra sipariş genellikle birkaç dakika içinde işlenir.
+
+![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Onay
-Hey… Hattıma kontör yüklendi! İşlem tamamlandığında e-posta yoluyla bildirim almak için ödeme sürecinde e-postanızı da onaylayabilirsiniz.
+Kredi telefon hattına yüklenir. Ödeme sırasında e-postanızı doğrularsanız, sipariş tamamlandığında ayrıca bir e-posta da alırsınız.
 
-![Adım 7 - Başarılı kontör yükleme](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
-## Hesap olmadan kontör satın alma
+## Seçenek 2: CardsRelay (hesap gerekmez)
 
-Yukarıdaki yöntem, bir Coinsbee hesabı oluşturmayı gerektirir. Bunu tercih etmiyorsanız CardsRelay, kayıt olmadan ZEC karşılığında mobil kontör satmaktadır.
+Hesap oluşturmak istemiyorsanız, CardsRelay kayıt gerektirmeden ZEC karşılığında mobil bakiye yükleme satar.
 
 ### 1. Ülkenizi ve operatörünüzü seçin
-[CardsRelay](https://cardsrelay.com) adresini ziyaret edin ve Mobile Top Ups bölümünü açın. Dünya genelinde 750'den fazla operatör desteklenmektedir.
+[CardsRelay](https://cardsrelay.com) adresini ziyaret edin ve Mobile Top Ups (Mobil Bakiye Yükleme) bölümünü açın. Dünya genelinde 750'den fazla operatör desteklenmektedir.
 
 ### 2. Numarayı ve tutarı girin
-Kontör yüklenecek mobil numarayı girin ve yükleme tutarını seçin. Gösterilen fiyat, sonradan eklenen ayrı bir döviz kuru farkı olmaksızın tek ve her şey dahil toplam tutardır.
+Bakiye yüklenecek cep telefonu numarasını girin ve yükleme tutarını seçin. Gösterilen fiyat, her şeyin dahil olduğu tek bir toplamdır; sonradan ayrıca bir döviz kuru farkı eklenmez.
 
 ### 3. E-postanızı girin
-Onayın teslim edilebilmesi için bir e-posta adresi gereklidir ve sipariş verilmeden önce doğrulanır. Hesap oluşturulmaz ve kimlik belgesi istenmez.
+Onayın iletilebilmesi için bir e-posta adresi gereklidir ve bu adres sipariş verilmeden önce doğrulanır. Hesap oluşturulmaz ve kimlik belgesi istenmez.
 
 ### 4. ZEC ile ödeyin
-Ödeme sırasında Zcash'i seçin. ZEC, üçüncü bir taraf tarafından dönüştürülmek yerine doğrudan kabul edilir. Bir ödeme adresi ve kesin tutar gösterilir.
+Ödeme sırasında Zcash seçin. ZEC, üçüncü bir tarafça dönüştürülmek yerine doğrudan kabul edilir. Bir ödeme adresi ve tam tutar gösterilir.
 
 ### 5. Onay
-Kontör yükleme işleme alınır ve onay, genellikle saniyeler içinde e-posta yoluyla gelir.
+Bakiye yükleme işlenir ve onay, genellikle birkaç saniye içinde e-posta ile gelir.
 
-CardsRelay ayrıca yaklaşık 2.500 marka için hediye kartı satar ve Zcash'in yanı sıra Monero ile Zano'yu da kabul eder. Payzy ME FZ Ltd tarafından işletilmektedir.
+CardsRelay ayrıca yaklaşık 2.500 marka için hediye kartı satar ve Zcash yanında Monero ve Zano da kabul eder. Payzy ME FZ Ltd tarafından işletilmektedir.
 
----
+![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
-![Ek ekran görüntüsü](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
+## Sorun Giderme
 
-### ZEC Harcamak İçin Diğer Yerler
+* **Kredi hiç gelmedi.** Bakiye yükleme genellikle yalnızca ön ödemeli hatlarda çalışır. Numarada yazım hatası olup olmadığını kontrol edin ve doğru operatörü seçtiğinizden emin olun (yakın zamanda taşınmış bir numara hâlâ eski operatörü gösteriyor olabilir).
+* **Sipariş yerine getirilmek yerine iade edildi.** Bazı operatörler bir numaranın günlük veya aylık alabileceği yükleme sayısını sınırlar ve operatörlerde zaman zaman kesintiler yaşanır. Daha sonra tekrar deneyin veya mağazanın destek ekibiyle iletişime geçin.
+* **Faturanın süresi doldu veya eksik ödendi.** Mağaza siparişi yerine getirmez. Sipariş numaranızla mağazanın yardım merkezi üzerinden iade talep edin.
 
-Son dönemde Zcash, günlük kullanım için daha da pratik hâle gelmesini sağlayan çeşitli yeni kullanım alanlarına tanık oldu. Özellikle gizlilik dostu işlemlere öncelik veren birçok çevrimiçi mağaza ve satıcı, mal ve hizmetler için ödeme yöntemi olarak ZEC kabul etmektedir.  
+## ZEC Harcayabileceğiniz Diğer Yerler
 
-Bir işletmeniz var ve ZEC ödemelerini kabul etmeye başlamak mı istiyorsunuz? [PayWithZash](https://paywithz.cash/) ile işletmeniz, sundukları hizmetler karşılığında ZEC kabul eden işletmeler listesine eklenebilir.
+Giderek daha fazla çevrimiçi mağaza ve satıcı, özellikle de özel ödemelere önem verenler, mal ve hizmetler için ZEC kabul ediyor.
+
+Bir işletmeniz varsa ve ZEC kabul etmek istiyorsanız, [Pay with Zcash](https://paywithz.cash/) işletmenizi ZEC kabul eden satıcılar listesine ekleyebilir.

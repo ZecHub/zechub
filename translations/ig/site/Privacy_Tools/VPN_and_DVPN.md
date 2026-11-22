@@ -37,14 +37,14 @@ Mgbe ị na-ahọrọ ọrụ VPN, ọ dị mkpa ịtụle ihe nchekwa ndị a:
 
 7. __Ọnụahịa na Njirimara__: Tulee ọnụ ahịa na njirimara ndị na-eweta ọrụ dị iche iche na-enye iji chọta nke dabara mkpa na mmefu ego gị.
 
-# VPN Ndị Na-anabata Zcash
+# Ọrụ VPN na Kwụọ ụhwọ [payments] Zcash
 
-Zcash (ZEC) bụ cryptocurrency e mere maka Nzuzo ka mma, nke na-eme ka ọ bụrụ nhọrọ ndị mmadụ na-achọ amaghị aha n'Azụmahia [transaction] ego ha na-enwe mmasị na ya. Ọ bụ ezie na ọ bụghị ọrụ VPN niile na-anabata Zcash ozugbo, ụfọdụ nwere ike ịnakwere Kwụọ ụhwọ [payment] cryptocurrency site n'ọrụ ndị nnọchi anya. Agbanyeghị, ọ dị mkpa ịjụ onye na-eweta VPN ozugbo maka nhọrọ Kwụọ ụhwọ kachasị ọhụrụ. Ndị a bụ ụfọdụ ọrụ VPN a maara na ha na-anabata Kwụọ ụhwọ cryptocurrency:
+A ga-enyocha nkwado Kwụọ ụhwọ Zcash maka onye na-eweta ọ bụla. Ịnakwere cryptocurrency apụtaghị n'ụzọ doro anya na ọ gụnyere ZEC, ịkwụkwa exchange nke ndị ọzọ ma ọ bụ onye na-ereghachi ngwaahịa dị iche na ịkwụ onye na-eweta VPN ozugbo. Ọrụ ndị dị n'okpuru nwere iwu Kwụọ ụhwọ dị iche iche; kwado ego ndị a na-anabata ugbu a tupu izipu ego.
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-   Mullvad VPN bụ ọrụ VPN a na-akwanyere ùgwù nke ukwuu, nke a maara maka nkwụsi ike ya siri ike n'ihe gbasara Nzuzo na nchekwa onye ọrụ. Ọ bụ otu n'ime ndị na-eweta VPN ole na ole na-anabata cryptocurrency, gụnyere 
-   Zcash, dịka usoro Kwụọ ụhwọ. Njirimara isi Mullvad gụnyere:
+Mullvad VPN bụ ọrụ VPN lekwasịrị anya na Nzuzo. [Ajụjụ a na-ajụkarị ugbu a gbasara Kwụọ ụhwọ](https://mullvad.net/en/pricing) ya depụtara ụzọ Kwụọ ụhwọ ndị a nabatara.
+Nkwado cryptocurrency apụtaghị nkwado kpọmkwem maka mkpụrụ ego ọ bụla. Njirimara isi Mullvad gụnyere:
 
    __Iwu Enweghị Ndekọ__: Mullvad na-agbaso iwu siri ike nke enweghị ndekọ, nke pụtara na ọ naghị echekwa data ọ bụla metụtara ihe ị na-eme n'ịntanetị.
 
@@ -56,7 +56,7 @@ Zcash (ZEC) bụ cryptocurrency e mere maka Nzuzo ka mma, nke na-eme ka ọ bụ
 
    __Ime Akaụntụ N'amaghị Aha__: A na-enye ndị ọrụ nọmba akaụntụ emepụtara na-enweghị usoro, nke na-ewepụ mkpa maka ozi onwe onye mgbe a na-edebanye aha.
 
-   __Kwụọ ụhwọ Zcash__: Mullvad na-anabata Zcash dịka nhọrọ Kwụọ ụhwọ, na-ekwe ka ndị ọrụ jiri Nzuzo ka mma kwụọ ụgwọ maka ndenye aha ha.Mullvad VPN.
+__Kwụọ ụhwọ cryptocurrency [Cryptocurrency payments]__: Ndepụta e bipụtara kpọrọ Bitcoin, Bitcoin Cash na Monero aha, ọ bụghị Zcash. Exchange ma ọ bụ onye na-ereghachi ahịa nke ndị ọzọ bụ ọrụ dị iche; akọwala ya dị ka nnabata ZEC kpọmkwem nke Mullvad.
 
 3. [__Nym VPN (dVPN)__](https://nym.com/)
    
@@ -71,9 +71,9 @@ Zcash (ZEC) bụ cryptocurrency e mere maka Nzuzo ka mma, nke na-eme ka ọ bụ
 
    __Nzuzo Siri Ike__: Nym VPN ka e ji Nzuzo chepụta, ọ dịghịkwa achọ ka ndị ọrụ nye ozi onwe onye mgbe ha na-emepụta akaụntụ.
 
-   Maka iduzi okporo ụzọ kpọmkwem maka e-akpa ego [wallet] Zcash, lee [Duzie Okporo Ụzọ E-akpa Ego Zcash N'elu Mixnet Nym](./Nym_Mixnet_Wallet_Setup.md).
+Maka iduzi okporo ụzọ kpọmkwem maka e-akpa ego Zcash, lee [Duzie Okporo Ụzọ E-akpa Ego Zcash N'elu Mixnet Nym](../guides/Nym_Mixnet_Wallet_Setup.md).
 
-## VPN Ndị Ọzọ Na-akwado Kwụọ ụhwọ zcash:-
+## Ndị na-enye VPN ndị ọzọ ị ga-enyocha
 
  3. [__ExpressVPN__](https://www.expressvpn.com/)
  4. [__NordVPN__](https://nordvpn.com/)

@@ -14,11 +14,11 @@ Ne èdi be nànya ale si nàna post-`zcashd` stack la nadze egɔme (Zebra + Zall
 
 ## Nyagbegbe
 
-* **JSON-RPC** nye mɔ si dzi operators kple gakotokuwo bia biabia ɖe ɖoɖonu [chain] ƒe tip, xɔlɔwo, kple (le gakotoku ƒe process aɖe dzi) balancewo ŋu. Le Z3 dzi la, Zebra dea node RPC; Zallet dea gakotoku RPC.
-* **Regtest** nye teƒe si nyo be nàsɔ srɔ̃a calls la. Z3 ƒe rpc-router si le `http://127.0.0.1:8181` xɔa `zebra` / `zebra` eye wòɖoa node methods yi Zebra gbɔ, eye wòɖoa gakotoku methods yi Zallet gbɔ.
+* **JSON-RPC** nye mɔ si dzi operators kple gakotokuwo bia node la tso chain tip, xɔlɔwo, kple balancewo (le gakotoku ƒe process aɖe dzi) ŋu. Le Z3 dzi la, Zebra dea node RPC; Zallet dea gakotoku RPC.
+* **Regtest** nye teƒe nyui be wòasrɔ̃ calls la. Z3 ƒe rpc-router si le `http://127.0.0.1:8181` xɔa `zebra` / `zebra` eye wòɖoa node methods yi Zebra gbɔ, eye wallet methods yi Zallet gbɔ.
 * **Mainnet kple testnet** zã cookie auth le Zebra. Mègatsɔ regtest ƒe username/password ade public node aɖe ŋu o.
-* **Indexing** nye dɔ bubu tso validation gbɔ. Zebra wɔa validation. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) dea lightwalletd-compatible gRPC. [Ztreamer](https://github.com/distractedm1nd/ztreamer) nye Zakura-backed indexer; menye nusi Z3 dea la o.
-* Zaino JSON-RPC kple Zebra ƒe indexer gRPC si wòate ŋu atia la nye loopback alo network si wòka ɖe dzi ƒe tanya. Mègana woanɔ public internet dzi, eye authentication manɔ o.
+* **Indexing** nye dɔ bubu si menye validation o. Zebra wɔa validation. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) dea lightwalletd-compatible gRPC. [Ztreamer](https://github.com/zcashlabs/ztreamer) nye Zakura-backed indexer; menye nu si Z3 tsɔna o.
+* Zaino JSON-RPC kple Zebra ƒe indexer gRPC si wòate ŋu atia la nye loopback alo network si wòka ɖe dzi ƒe tanya. Mègana woafɔ woƒe nuŋɔŋlɔwo le public internet dzi, eye authentication manɔ o.
 
 ---
 
@@ -116,9 +116,10 @@ Zaino gRPC nye plaintext h2c le networkwo katã dzi. Tsɔ TLS wu le reverse prox
 
 ### Indexer bubuwo (menye Z3 o)
 
-* **lightwalletd** — compact-block server tsɔtsɔe. Wogale eƒe zazã me le afi geɖewo; Zaino nye mɔ si kplɔe ɖo na dɔ sia.
-* **Ztreamer** — Zakura-backed indexer kple `CompactTxStreamer` implementation. Menye Z3 service o. Kpɔ [Ztreamer repository](https://github.com/distractedm1nd/ztreamer).
-* **Zebra `rpc.indexer_listen_addr`** — gRPC listener si wòate ŋu atia, si le Zebra ƒe me. Z3 mehia e o, eye wòmede e ɖe host la ŋu o.
+* **lightwalletd** — compact-block server xoxo. Wogale le dɔwɔwɔ me le afi geɖewo; Zaino nye mɔ yeye si dze eƒe teƒe le dɔ sia me.
+* **Ztreamer** — indexer si dzi Zakura te, kple `CompactTxStreamer` implementation. Menye Z3 service o. Kpɔ [Ztreamer repository](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — indexer na Zcash Foundation (alpha). Etsɔ data le archive Zebra alo Zakura node me, eye wòna eƒe ŋutɔ `WalletQuery` gRPC API kple lightwalletd-compatible `CompactTxStreamer` adapter. Eƒe quickstart wɔa dɔ le Z3 node gbɔ, gake menye Z3 service o. Kpɔ [Zinder](/zcash-tech/zinder).
+* **Zebra `rpc.indexer_listen_addr`** — gRPC listener si wòate ŋu atia, si le Zebra ƒe me. Z3 mehiae o, eye wòmede e ɖe host la ŋu o.
 
 ---
 
@@ -145,6 +146,7 @@ Zaino gRPC nye plaintext h2c le networkwo katã dzi. Tsɔ TLS wu le reverse prox
 * [Full Nodes](/zcash-tech/full-nodes)
 * [Zebra Full Node](/zcash-tech/zebra-full-node)
 * [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra kple lightwalletd (alo Zaino) le Kubernetes alo Docker Compose dzi
 * [Migration Guide: zcashd yi Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib kple Zaino Tutorial](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ Zaino gRPC nye plaintext h2c le networkwo katã dzi. Tsɔ TLS wu le reverse prox
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zallet Book](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **Wotrɔe egbe:** September 2026

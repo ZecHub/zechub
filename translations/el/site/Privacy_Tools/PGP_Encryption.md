@@ -10,9 +10,9 @@
 
 Υπάρχουν πολλά διαφορετικά διαθέσιμα εργαλεία PGP, αλλά μερικά από τα πιο δημοφιλή περιλαμβάνουν:
 
-* **[GPG](https://gpgtools.org/)**: Το GPG είναι μια δωρεάν και ανοικτού κώδικα υλοποίηση PGP που είναι διαθέσιμη για Windows, macOS και Linux.
-* **[PGPMail](https://www.openpgp.org/software/)**: Το PGPMail είναι ένας εμπορικός πελάτης email PGP που είναι διαθέσιμος για Windows και macOS.
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Το Mailvelope είναι μια δωρεάν και ανοικτού κώδικα επέκταση PGP για Gmail και Thunderbird.
+* **[GnuPG (GPG)](https://gnupg.org/)**: Ένα δωρεάν, ανοικτού κώδικα εργαλείο OpenPGP για τη γραμμή εντολών. Επίλεξε το πακέτο ή το γραφικό περιβάλλον που είναι κατάλληλο για το λειτουργικό σου σύστημα.
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: Ένας δωρεάν, ανοικτού κώδικα πελάτης email για υπολογιστές γραφείου με ενσωματωμένη υποστήριξη OpenPGP από την έκδοση 78. Δεν χρειάζεται το Mailvelope για να κρυπτογραφεί email.
+* **[Mailvelope](https://mailvelope.com/)**: Μια επέκταση προγράμματος περιήγησης ανοικτού κώδικα που προσθέτει το OpenPGP σε υποστηριζόμενες υπηρεσίες webmail, συμπεριλαμβανομένου του Gmail. Είναι εργαλείο webmail, όχι επέκταση για το Thunderbird.
 
 ![Εργαλεία PGP](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 

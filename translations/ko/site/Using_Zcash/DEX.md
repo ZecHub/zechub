@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - 웹사이트: https://github.com/firoorg/FiroDEX-Desktop
-- 설명: FiroDEX!의 아토믹 스왑을 사용한 신뢰 불필요 탈중앙화 스왑.
+- 설명: 아토믹 스왑 데스크톱 앱. 더 이상 유지 관리되지 않습니다. Firo에서 FiroDEX-Desktop 저장소를 보관 처리했으며, 마지막 릴리스는 0.8.2-beta(2025년 2월)입니다.
 
 ___
 

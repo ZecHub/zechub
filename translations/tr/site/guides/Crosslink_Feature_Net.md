@@ -15,6 +15,8 @@
 
 *Feature Net sürüm 14 ile, Windows 11'de (sürüm 10.0.26200.9550), 8-10 Ekim 2026 tarihleri arasında test edilmiştir. Yazılım bir prototiptir ve her sürümde değişir. Gördükleriniz bu sayfadan farklıysa kendi çalıştırmanızı esas alın ve lütfen bir PR açın.*
 
+**Güncelleme, 17 Kasım 2026: 14. sürüm artık Feature Net ağına katılamıyor.** [15. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 Ekim), PoW yüksekliği 55.296'da bir ağ yükseltmesi içeriyordu. [16. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) ile birlikte “her sürüm, yayımlandıktan iki hafta sonra çalışmayı durduruyor” ve Shielded Labs her hafta bir sürüm yayımlamayı planlıyor. [17. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 Kasım), PoW yüksekliği 165.000'de başka bir yükseltme içeriyordu. Bu not yazılırken en yeni sürüm [18. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 Kasım 2026): 17. sürümdeki düğümlerle iletişim kuramıyor, 189.000. blokta bir ağ yükseltmesi içeriyor ve yaklaşık 30 Kasım'da, 212.568. blokta çalışmayı durduruyor. 14. sürümü değil, [en son sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) indirin. Aşağıdaki adımlar bu sürümde yeniden uygulanmadı. Bilinen iki fark var: dosya adları değişti ve staking RPC'si artık `wallet_staking_action` (bkz. [Dikkat edilmesi gereken bir RPC adı](#one-rpc-name-to-watch)).
+
 ## Feature Net nedir?
 
 Crosslink bir öneridir; bugün Zcash'ın parçası değildir. Shielded Labs'ın [Crosslink SSS'si](https://shieldedlabs.net/crosslink-faq/), ana ağa ulaşabilmesi için önce "standart Zcash yönetişim sürecinden geçmesi gerekeceğini" söyler. [Crosslink Protokolü](/zcash-tech/crosslink-protocol) sayfası tasarımı açıklar.
@@ -54,15 +56,15 @@ Gerçek ZEC yalnızca sonunda devreye girer. Shielded Labs, özellik ağları i�
 
 ## Başlamadan önce
 
-- **Açık bırakabileceğiniz bir bilgisayar.** Sürümün Windows, macOS, Ubuntu ve Arch Linux için derlemeleri vardır. Bu rehber, Windows üzerinde, Intel Core i5-8350U işlemcili bir bilgisayarda çalıştırıldı.
-- **Bir Staking Day.** Herhangi bir plan yapmadan önce bir sonrakinin ne zaman açıldığını kontrol edin. [Staker Space'in panosu](https://crosslink.staker.space/) buna geri sayım yapar.
-- **Başka hiçbir şey.** ZEC yok, hesap yok, kayıt yok.
+- **Çalışır durumda bırakabileceğiniz bir bilgisayar.** 14. sürümün Windows, macOS, Ubuntu ve Arch Linux için derlemeleri vardı. 17. ve 18. sürümlerin Windows, macOS ve Ubuntu için derlemeleri var. Bu kılavuz Windows üzerinde, Intel Core i5-8350U işlemcili bir bilgisayarda uygulandı.
+- **Bir Staking Day.** Herhangi bir plan yapmadan önce sıradakinin ne zaman başlayacağını kontrol edin. [Staker Space'in kontrol paneli](https://crosslink.staker.space/) geri sayımı gösteriyor.
+- **Başka hiçbir şey gerekmiyor.** ZEC yok, hesap yok, kayıt yok.
 
 ## Adım 1: Uygulamayı indirin ve dosyayı kontrol edin
 
-1. [sürüm 14 yayınını](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) açın ve **Assets** bölümüne kaydırın.
-2. Sisteminiz için olan dosyayı indirin. Windows üzerinde bu `zebrad_v14_win32.exe` dosyasıdır.
-3. Dosyanın SHA-256 değerini, GitHub'ın o varlığın yanında gösterdiği özetle karşılaştırın.
+1. [en son sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) açın ve **Assets** bölümüne gidin. Bu kılavuz, artık ağa katılamayan [14. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) ile uygulandı.
+2. Sisteminiz için olan dosyayı indirin. Windows üzerinde dosya adı `_win32.exe` ile biter: aşağıdaki örnekte `zebrad_v14_win32.exe`, 18. sürüm için `zebra-crosslink_v18_win32.exe`. Sonraki komutlarda kendi dosyanızın adını ve özetini kullanın.
+3. Dosyanın SHA-256 değerini, GitHub ilgili dosyanın yanında gösterdiği özetle karşılaştırın.
 
 Windows üzerinde, PowerShell içinde:
 
@@ -100,7 +102,7 @@ Başlangıç mesajlarının ekranda kalması için uygulamayı terminalden başl
 
 "Zcash Crosslink Visualizer" başlıklı bir pencere açılır. Solda **Your Wallet** ve **Faucet Wallet** sekmeleriyle cüzdan, ortada çizilmiş zincir, sağda ise kesinleştiriciler bulunur. Terminal düğüm günlüğünü yazdırmaya devam eder. Ağı kullanırken ikisini de açık bırakın.
 
-Sürüm notları, [ kurulumunun Windowsvideosuna](https://www.youtube.com/watch?v=cO-5Oa4B1Tk) bağlantı verir.
+Sürüm notlarında, Windows kurulumunun [videosuna ](https://www.youtube.com/watch?v=cO-5Oa4B1Tk) bağlantı veriliyor.
 
 Uygulama verilerini bir önbellek klasöründe tutar: sürüm notlarına göre `%LOCALAPPDATA%\zebra` üzerinde Windows, `~/.cache/zebra` üzerinde Linux ve macOS üzerinde `~/Library/Caches/zebra`.
 
@@ -397,6 +399,8 @@ Sürüm 14 notları, nesne alan `wallet_staking_action` adlı bir staking çağr
 ```
 
 Kaydettiği staking yöntemi, isteği JSON olarak tutan tek bir dizge alan ve kesinleştiriciyi `zfinv1` kimliğiyle veren [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420) yöntemidir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Bu rehber için denenmedi.
+
+**14. sürümden sonra değişti.** 15. sürümden itibaren düğüm `wallet_staking_action` kaydeder ve artık `staking_command` sahibi değildir ([version 18 source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Dört biçimden tam olarak birine sahip tek bir nesne alır: `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` veya `WithdrawDelegationBond`; sonlandırıcı 64 karakterlik bir onaltılık anahtar olarak verilir ([version 15 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). 189.000 numaralı bloktan itibaren her staking işlemi tahvilin geçerli sürümünü de belirtir; bu nedenle güncel olmayan bir tahvile göre oluşturulmuş işlem reddedilir ve cüzdanların 18. sürümü çalıştırması gerekir ([version 18 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). Bu kılavuz için de denenmedi.
 
 ## Staking'den çıkma ve çekme
 

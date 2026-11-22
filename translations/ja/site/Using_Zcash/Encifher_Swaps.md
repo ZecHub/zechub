@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC スワップ（Swap）をEncrypt.tradeで行う**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+</a>
 
+# SOL/USDC から ZEC への encrypt.trade を使ったスワップ（Swap）
+
+> Solana上のSOLまたはUSDCをZECへスワップし、クロスチェーン（cross-chain）のステップはNEAR Intentsを経由します。
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*SolanaからZcashへスワップし、クロスチェーン（cross-chain）のステップはNEAR Intentsを経由します。*  
+---
+
+## TL;DR
+
+* [encrypt.trade](https://encrypt.trade/zec)は、SOLまたはUSDCを暗号化（Encryption）されたトークン（Token）（eSOL/eUSDC）にラップし、それらをNEAR Intents経由でZECにスワップ（Swap）します。
+* 金額はSolana上で隠されますが、あなたのウォレット（Wallet）アドレス（Address）とそのアプリの利用状況は公開されます。
+* ZECは公開型（Transparent）（t1/t3）アドレスにのみ送られるため、シールド（Shield）するまではZcashチェーン（Chain）上で見える状態になります。
+* ZECが届いたら、すぐにウォレットでシールドしてください。
+* アプリとNEAR Intentsはどちらも、コンプライアンスのためにウォレットを審査しています。
 
 ---
 
-###  はじめに  
-[**encrypt.trade**](https://encrypt.trade/zec)は、JMD Labs Inc.が運営するSolanaアプリです。Solana上の**SOLまたはUSDC**を、**Zcash（ZEC）**へスワップできます。まずトークン（token）が暗号化されたバージョンにラップされ、Solana上で金額が隠されます。その後、NEAR Intentsを通じてZECへスワップされます。
+## コアとなる説明
+[**encrypt.trade**](https://encrypt.trade/zec)は、JMD Labs Inc.が運営するSolanaアプリです。Solana上の**SOLまたはUSDC**を**Zcash（ZEC）**にスワップ（swap）できます。まずトークン（token）が暗号化（encryption）されたバージョンにラップされるため、Solana上では金額が隠されます。その後、NEAR Intentsを経由してZECにスワップされます。
 
 このスワップにはプライバシー（privacy）が保たれる面もありますが、すべてではありません。アプリの[ドキュメント](https://docs.encifher.io/docs)によると、チェーンとのやり取りは匿名ではありません。ウォレット（wallet）がアプリを使用したことは見られますが、移動した金額は見られません。ZECは公開型（transparent）アドレスにも到着するため、シールドするまでZcashチェーン上で表示されたままです。
 

@@ -2,86 +2,86 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# VDO.Ninja और OBS Studio का उपयोग करके सामुदायिक प्रसारण
+# VDO.Ninja और OBS Studio के साथ सामुदायिक प्रसारण (Community Broadcasting)
 
-यह छोटा ट्यूटोरियल [DWeb Camp 2023](https://dwebcamp.org/) के दौरान साथियों और स्वयंसेवकों के एक समूह द्वारा बनाया गया था। इस अभ्यास का उद्देश्य सहयोगात्मक वीडियो रिकॉर्डिंग और स्ट्रीमिंग के लिए offline MESH network से जुड़े smart phone डिवाइसों के उपयोग का लाभ उठाना है।
+यह छोटा ट्यूटोरियल [DWeb Camp 2023](https://dwebcamp.org/) के दौरान फ़ेलो और स्वयंसेवकों के एक समूह ने बनाया था। इस अभ्यास का उद्देश्य ऑफ़लाइन MESH नेटवर्क से जुड़े स्मार्टफ़ोन डिवाइसों का उपयोग करके मिलकर वीडियो रिकॉर्डिंग और स्ट्रीमिंग करना है।
 
-हम दो open source software का उपयोग करते हैं: [OBS Studio (Open Broadcaster software)](https://obsproject.com/) और [VDO.Ninja](https://vdo.ninja/)। इन software को डाउनलोड करके आपके कंप्यूटर पर locally चलाया जा सकता है।
+हम दो ओपन सोर्स सॉफ़्टवेयर (open source software) का उपयोग करते हैं: [OBS Studio (Open Broadcaster Software)](https://obsproject.com/) और [VDO.Ninja](https://vdo.ninja/)। इन सॉफ़्टवेयर को डाउनलोड करके आप अपने कंप्यूटर पर लोकल रूप से चला सकते हैं।
 
-## OBS Studio (Open Boardcaster software)
+## OBS Studio (Open Broadcaster Software)
 
-OBS Studio रिकॉर्डिंग और live streaming के लिए Free और Open source software है, जो कई operating systems पर उपलब्ध है। यह software पहली बार 2012 में जारी किया गया था और game streaming community तथा स्वतंत्र video content creators के बीच इसका काफी बड़ा अनुसरण है।
+OBS Studio रिकॉर्डिंग और लाइव स्ट्रीमिंग (live streaming) के लिए एक मुफ़्त और ओपन सोर्स सॉफ़्टवेयर है, जो कई ऑपरेटिंग सिस्टम के लिए उपलब्ध है। यह सॉफ़्टवेयर पहली बार 2012 में जारी किया गया था और गेम स्ट्रीमिंग समुदाय तथा स्वतंत्र वीडियो कंटेंट क्रिएटर के बीच यह काफ़ी लोकप्रिय है।
 
-OBS Studio का user interface पहली बार उपयोग करने वालों को काफी जटिल लग सकता है। OBS studio दो windows में विभाजित है: "Preview" और "Broadcast"। Preview window उपलब्ध videos (विभिन्न cameras जैसे webcam, Iriun Webcam, OBS Virtual Camera, Video और Browser source) को दिखाती है, जिन्हें "Scenes" कहा जाता है, और "Broadcast" live stream दिखाता है।
+पहली बार उपयोग करने वालों को OBS Studio का यूज़र इंटरफ़ेस काफ़ी जटिल लग सकता है। OBS Studio दो विंडो में बँटा है: “Preview” और “Broadcast”। Preview विंडो उपलब्ध वीडियो (विभिन्न कैमरे, जैसे वेबकैम, Iriun Webcam, OBS Virtual Camera, Video और Browser source) दिखाती है, जिन्हें “Scenes” कहा जाता है, और “Broadcast” लाइव स्ट्रीम दिखाती है।
 
-VDO.ninja से remote camera stream को OBS Studio में stream करने के लिए, आप "Sources > Add > Browser" के माध्यम से एक नया "Browser Source" जोड़कर शुरुआत करते हैं। नई window में, आप VDO.Ninja से source URL दे सकते हैं और "Make source visible" चुन सकते हैं।
+VDO.Ninja से किसी रिमोट कैमरा स्ट्रीम को OBS Studio में स्ट्रीम करने के लिए, सबसे पहले “Sources > Add > Browser” के माध्यम से एक नया “Browser Source” जोड़ें। नई विंडो में आप VDO.Ninja से मिला सोर्स URL दर्ज कर सकते हैं और “Make source visible” चुन सकते हैं।
 
-अब आप remote streams का प्रसारण शुरू कर सकते हैं।
+अब आप रिमोट स्ट्रीम का प्रसारण शुरू कर सकते हैं।
 
 ## VDO.Ninja
 
-[VDO.Ninja](https://vdo.ninja/) एक Free और open source web application है, जो आपको अपने mobile devices को live streaming camera में बदलने की अनुमति देता है। इस software को डाउनलोड करके आपके local computer पर deploy किया जा सकता है या आप सीधे [online version at https://vdo.ninja](https://vdo.ninja/) का उपयोग कर सकते हैं।
+[VDO.Ninja](https://vdo.ninja/) एक मुफ़्त और ओपन सोर्स वेब एप्लिकेशन है, जिससे आप अपने मोबाइल डिवाइस को लाइव स्ट्रीमिंग कैमरे में बदल सकते हैं। इस सॉफ़्टवेयर को डाउनलोड करके अपने लोकल कंप्यूटर पर डिप्लॉय किया जा सकता है, या आप सीधे [ऑनलाइन संस्करण https://vdo.ninja](https://vdo.ninja/). का उपयोग कर सकते हैं।
 
-VOD.Ninja का interface सरल है, बस अपने mobile device के web browser में VDO.Ninja खोलें और "Add your camera to OBS" चुनें। फिर आप devices की सूची से अपना camera और audio device चुनेंगे और "Start" पर क्लिक करेंगे। इसके बाद आपको एक "view" link मिलेगा, जिसे OBS Studio में जोड़ा जा सकता है।
+VDO.Ninja का इंटरफ़ेस सरल है: बस अपने मोबाइल डिवाइस के वेब ब्राउज़र में VDO.Ninja खोलें और “Add your camera to OBS” चुनें। इसके बाद डिवाइस की सूची से अपना कैमरा और ऑडियो डिवाइस चुनें और “Start” पर क्लिक करें। फिर आपको एक “view” लिंक मिलेगा, जिसे आप OBS Studio में जोड़ सकते हैं।
 
-## VDO.Ninja के साथ एक community call को direct करना
+## VDO.Ninja के साथ सामुदायिक कॉल का संचालन
 
-शुरुआत अपने desktop/laptop पर web browser में [VDO.ninja](http://VDO.ninja) पर जाकर करें।
+डेस्कटॉप/लैपटॉप पर अपने वेब ब्राउज़र से [VDO.ninja](http://VDO.ninja) पर जाकर शुरुआत करें।
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
-एक नया room बनाने और अपनी community call livestream को direct करने के लिए, Create a Room पर क्लिक करें।
+नया रूम बनाने और अपनी सामुदायिक कॉल की लाइवस्ट्रीम का संचालन करने के लिए, Create a Room पर क्लिक करें।
 
-अगली स्क्रीन आपसे अपना room setup करने के लिए बुनियादी जानकारी मांगेगी।
-
-<a href="">
-    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
-</a>
-
-एक बार room बन जाने के बाद, director के पास अगली स्क्रीन पर उपलब्ध कई control options होते हैं।
+अगली स्क्रीन आपसे रूम सेट अप करने के लिए बुनियादी जानकारी माँगेगी।
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
+रूम बन जाने के बाद, अगली स्क्रीन पर डायरेक्टर के पास नियंत्रण के कई विकल्प उपलब्ध होते हैं।
 
-जब लोग आपके room में शामिल होते हैं, तब आप, director, उनके video और audio के साथ सभी source options और controls को दिखाई देते हुए देखेंगे।
+<a href="">
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
+</a>
+
+
+जब लोग आपके रूम में शामिल होंगे, तब आपको, यानी डायरेक्टर को, उनके वीडियो और ऑडियो के साथ सभी सोर्स विकल्प और नियंत्रण दिखाई देंगे।
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
 </a>
 
 
-## अक्सर पूछे जाने वाले प्रश्न
+## अक्सर पूछे जाने वाले प्रश्न (FAQ)
 
-- OBS Studio के लिए किस प्रकार के video graphic cards आवश्यक हैं?
+- OBS Studio के लिए किस प्रकार के वीडियो ग्राफ़िक कार्ड आवश्यक हैं?
 
-आप एक अच्छे graphic card और काफी memory वाले personal computer का उपयोग कर सकते हैं, या वैकल्पिक रूप से hardware encoders [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE) का उपयोग कर सकते हैं।
-- क्या OBS आपको live translation और captioning करने की अनुमति देता है?
+आप अच्छे ग्राफ़िक कार्ड और पर्याप्त मेमोरी वाले पर्सनल कंप्यूटर का उपयोग कर सकते हैं, या विकल्प के रूप में [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE) जैसे हार्डवेयर एनकोडर का उपयोग कर सकते हैं।
+- क्या OBS लाइव अनुवाद और कैप्शनिंग की सुविधा देता है?
 
-कुछ community-contributed plugins हैं जो ऐसा feature प्रदान करते प्रतीत होते हैं। [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+समुदाय द्वारा बनाए गए कुछ प्लगइन ऐसी सुविधा प्रदान करते प्रतीत होते हैं। [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
 
-- क्या आप OBS Studio के लिए अपने स्वयं के plugins विकसित कर सकते हैं?
+- क्या आप OBS Studio के लिए अपने स्वयं के प्लगइन विकसित कर सकते हैं?
 
-हाँ, OBS lua, python scripting का समर्थन करता है। साथ ही Overlays और webviews के लिए JavaScript भी।
+हाँ, OBS में Lua और Python स्क्रिप्टिंग का समर्थन है। इसके अलावा ओवरले और वेबव्यू के लिए JavaScript भी है।
 
-- क्या हम live fade to black या transitions का उपयोग करते हैं?
+- क्या हम लाइव फ़ेड टू ब्लैक या ट्रांज़िशन का उपयोग करते हैं?
 
-यह आप पर निर्भर है, producer!
+यह आप पर, यानी प्रोड्यूसर पर, निर्भर है!
 
-- जब आप streaming कर रहे होते हैं, तो क्या latency होती है?
+- क्या स्ट्रीमिंग करते समय लेटेंसी होती है?
 
-यह मुख्य रूप से उस destination पर निर्भर करता है जहाँ आप streaming कर रहे हैं। उदाहरण के लिए, YouTube पर एक मिनट या उससे अधिक की देरी हो सकती है, क्योंकि broadcast होने से पहले उनके servers पर video processing की जाती है।
+यह मुख्य रूप से इस पर निर्भर करता है कि आप किस गंतव्य पर स्ट्रीम कर रहे हैं। उदाहरण के लिए, YouTube में एक मिनट या उससे अधिक की देरी हो सकती है, क्योंकि प्रसारण से पहले उनके सर्वर पर वीडियो प्रोसेसिंग की जाती है।
 
-- धीमी मशीन पर OBS का उपयोग करते समय और green-screening करते समय audio drop हो जाता है
+- धीमी मशीन पर OBS का उपयोग करते समय और ग्रीन-स्क्रीनिंग करते समय ऑडियो कट जाता है
 
-Hardware encoder का उपयोग करें या stream yard का उपयोग करें
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) या [RiverSide.FM](http://riverside.fm/)
+हार्डवेयर एनकोडर का उपयोग करें, या StreamYard
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) या [RiverSide.FM](http://riverside.fm/) का उपयोग करें।
 
-## श्रेय
+## आभार
 
 - Ryan
 - Ajay
@@ -93,5 +93,5 @@ Hardware encoder का उपयोग करें या stream yard का �
 
 [https://docs.vdo.ninja/](https://docs.vdo.ninja/)
 
-Office Hours: media और digital event community
+Office Hours: मीडिया और डिजिटल इवेंट समुदाय
 [https://alex4d.com/notes/item/media-and-digital-event-community](https://alex4d.com/notes/item/media-and-digital-event-community)

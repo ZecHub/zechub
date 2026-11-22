@@ -4,6 +4,7 @@ import { mkdtempSync, mkdirSync, writeFileSync, readFileSync, rmSync } from "nod
 import { execFileSync } from "node:child_process";
 import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
+import { pathToFileURL } from "node:url";
 
 const SCRIPT = resolve("scripts/check-verbatim-columns.mjs");
 let failures = 0;
@@ -50,6 +51,12 @@ const sw = (d) => readFileSync(join(d, "translations/sw/site/G/Glossary.md"), "u
 
 let d = repo(SW_OK);
 check("verbatim term and parameter cells pass; headers, prose columns and code blocks stay translated", run(d).code, 0);
+check("a passing CLI actually checks and reports the translation",
+  /verbatim columns OK.*1 translation\(s\)/.test(run(d).out), true);
+check("importing the helpers does not execute the CLI",
+  execFileSync(process.execPath, ["--input-type=module", "--eval",
+    `await import(${JSON.stringify(pathToFileURL(SCRIPT).href)})`],
+    { cwd: d, encoding: "utf8" }), "");
 rmSync(d, { recursive: true });
 
 for (const [label, bad] of [

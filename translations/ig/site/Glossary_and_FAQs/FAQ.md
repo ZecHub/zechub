@@ -45,7 +45,7 @@ Zcash bụ ego dijitalụ nke nwere Azụmahia [transaction] ngwa ngwa, nke nzuz
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash nwere Nzuzo karịa Bitcoin ma ọ bụ Ethereum n’ụzọ bụ isi. Ọ na-enye oge block ngwa ngwa (sekọnd 75), ugwo dị ala, na mmelite mgbe niile.
+Zcash nwere Nzuzo karịa Bitcoin ma ọ bụ Ethereum n’ụzọ bụ isi. Ọ na-enye oge block ngwa ngwa (sekọnd 25 kemgbe NU7 malitere ọrụ na Nọvemba 2026, belatara site na sekọnd 75), ugwo dị ala, na mmelite mgbe niile.
 
 Ndị ọrụ nwere ike ịhọrọ n’etiti Azụmahia **Oha [transparent]** ma ọ bụ **nke e chebere echebe [shielded]**. Maka ozi ndị ọzọ, lee [Usoro gburugburu nke e chebere echebe](https://electriccoin.co/blog/shielded-ecosystem).
 
@@ -70,7 +70,7 @@ A na-ede mkpebi n’ime nkọwapụta ahụ ma kwado ha on-chain mgbe network na
 
 Buru ụzọ gụọ [ntuziaka anyị gbasara ndị nyocha block](/guides/blockchain-explorers). Mgbe ahụ lelee [Zcash Onye Nchọpụta Block](https://mainnet.zcashexplorer.app).
 
-Azụmahia na-agwụ mgbe ihe dị ka nkeji 25 (block 20) gachara, a na-eweghachikwa ego ahụ ozugbo.
+Enweghị oge ngwụcha nkeji 25 a kapịrị ọnụ ma ọ bụ oge nkwụghachi ego akpaka. Lelee ogo ngwụcha e dekọrọ na e-akpa ego [wallet] gị na ma egwupụtara Kwụọ ụhwọ mbụ. Ọ bụrụ na ọ gwụrụ n'egwupụtaghị ya, emeghị ya na on-chain [on-chain]; ngwụcha anaghị emepụta Azụmahia nkwụghachi ego. Kwe ka e-akpa ego ahụ mekọrịta tupu ị soro ntụziaka ịnwale ọzọ ya. Hụ [nchọpụta nsogbu Azụmahia](/using-zcash/transactions#troubleshooting-stuck-transactions) na [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Ihe ndị a na-ahụkarị mere Azụmahia nwere ike ghara ịpụta:**
 

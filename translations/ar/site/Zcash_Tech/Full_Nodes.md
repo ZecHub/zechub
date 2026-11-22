@@ -94,7 +94,7 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 يساعد ذلك في منع السيطرة العدائية والحفاظ على مرونة الشبكة في مواجهة بعض أشكال التعطيل.
 
-تكشف موزعات DNS قائمة بعقد موثوقة أخرى عبر خادم مدمج. وهذا يسمح للمعاملات بالانتشار في جميع أنحاء الشبكة.
+تكشف موزعات DNS قائمة بعقد موثوقة أخرى عبر خادم مدمج. وهذا يسمح للمعاملات بالانتشار في جميع أنحاء الشبكة. تعمل موزعات Zcash Foundation باستخدام [Zeeder](https://github.com/ZcashFoundation/zeeder)، وهو موزّع DNS مكتوب بلغة Rust حلّ محل موزّع dnsseeder المعتمد على CoreDNS. تُنشر صوره باسم `zfnd/zeeder`؛ ويجري إيقاف الاسم الأقدم `zfnd/dnsseeder`.
 
 ### إحصاءات الشبكة
 
@@ -102,7 +102,7 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 [Zcash مستكشف الكتل](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics بيانات الشبكة](https://docs.coinmetrics.io/network-data/network-data-overview) — توثيق المقاييس وروابط إلى التغطية الحالية للأصول.
 
 يمكنك أيضاً المساهمة في تطوير الشبكة عبر إجراء الاختبارات أو اقتراح تحسينات جديدة وتقديم المقاييس.
 
@@ -134,8 +134,9 @@ Zakura هو عقدة كاملة ثانية متوافقة مع الإجماع، 
 
 - [Zebra العقدة الكاملة](/zcash-tech/zebra-full-node) - تثبيت العقدة الموصى بها وإعدادها وتشغيلها
 - [Zakura العقدة](/zcash-tech/zakura-node) - تطبيق العقدة الثاني، المتفرع من Zebra
-- [عقد Lightwallet](/zcash-tech/lightwallet-nodes) - الخوادم التي تستعلم منها المحافظ الخفيفة
-- [Zaino](/zcash-tech/zaino) - مفهرس Rust الذي يخدم المحافظ الخفيفة
+- [عقد المحافظ الخفيفة](/zcash-tech/lightwallet-nodes) - الخوادم التي تستعلم منها المحافظ الخفيفة
+- [Zaino](/zcash-tech/zaino) - المفهرس Rust الذي يخدم المحافظ الخفيفة
+- [Zinder](/zcash-tech/zinder) - المفهرس التجريبي لـ Zcash Foundation الخاص بـ Zebra وZakura
 - [Zcash مزامنة المحفظة](/zcash-tech/zcash-wallet-syncing) - سبب عمل المزامنة بهذه الطريقة
 
 ## تعلّم المزيد

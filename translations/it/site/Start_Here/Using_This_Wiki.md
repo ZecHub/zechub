@@ -5,7 +5,7 @@
 
 # Usare questa wiki
 
-Alcune cose potrebbero sembrare opprimenti. Lo capiamo! C'è molta informazione qui. Ecco una semplice guida passo-passo che evidenzia come navigare la wiki.
+Alcune cose potrebbero sembrare opprimenti. Lo capiamo![Schermata di verifica in 2 passaggi]C'è molta informazione qui. Ecco una semplice guida passo-passo che evidenzia come navigare la wiki.
 
 ## Nuovo a Zcash
 
@@ -23,8 +23,8 @@ Dopo aver letto i documenti introduttivi e le risorse ad essi associate, dai un'
 
 ## Sono un membro della comunità di Zcash
 
-Se sei un membro della comunità, fantastico! La cosa migliore che puoi fare per rimanere aggiornato è seguire la newsletter settimanale [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) e tutti gli account elencati nella [Lista delle pagine della comunità di Zcash](https://zechub.wiki/zcash-community/community-links#content).
+Se sei un membro della comunità, fantastico![Schermata di verifica in 2 passaggi]La cosa migliore che puoi fare per rimanere aggiornato è seguire la newsletter settimanale [Zcash Ecosystem Digest](https://zechub.substack.com/s/zcash-ecosystem-digest) e tutti gli account elencati nella [Lista delle pagine della comunità di Zcash](https://zechub.wiki/zcash-community/community-links#content).
 
 ## Voglio contribuire a ZecHub
 
-Ottimo! Leggi [Cos'è ZecHub](https://zechub.wiki/start-here/what-is-zechub#content) e poi consulta [Aiuta a costruire ZecHub](https://zechub.wiki/contribute/help-build-zechub) per scoprire come contribuire.
+Ottimo![Schermata di verifica in 2 passaggi]Leggi [Cos'è ZecHub](https://zechub.wiki/start-here/what-is-zechub#content) e poi consulta [Aiuta a costruire ZecHub](https://zechub.wiki/contribute/help-build-zechub) per scoprire come contribuire.

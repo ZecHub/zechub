@@ -1,12 +1,12 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Visualizing_the_Zcash_Network.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 
-#  Visualizando a rede do Zcash
+#  Visualizando a rede Zcash
 
-A seguir está um guia sobre como executar o Crawler Ziggurat 3.0 para o Zcash, bem como os programas associados Crunchy e P2P-Viz no Ubuntu 22.04 para coletar e visualizar informações da rede do Zcash.  
-O vídeo vinculado abaixo segue o mesmo processo.
+Este é um guia sobre como executar o Ziggurat 3.0 Crawler para Zcash, além dos programas associados Crunchy e P2P-Viz, no Ubuntu 22.04, para coletar e visualizar informações da rede Zcash.  
+O vídeo abaixo segue o mesmo processo.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -20,13 +20,13 @@ O vídeo vinculado abaixo segue o mesmo processo.
 </div>
     
 ----------------
-## Instale os requisitos: 
+## Requisitos de instalação: 
 
 Rust -> [https://rustup.rs/](https://rustup.rs/)
 
 ## Opcional:
 jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/download/)
-(para exibir informações json no terminal)
+(para exibir informações em json no terminal)
 
 curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
 (para consultar o RPC do crawler)
@@ -58,7 +58,7 @@ sudo apt upgrade
 
 ----------------
 
-## Crawler da rede do Zcash
+## Crawler da rede Zcash
 
 O Crawler do Zcash fica dentro de uma pasta chamada 'zcash', então pode ser aconselhável criar um novo diretório antes de clonar o crawler (repositório runziggurat/zcash).
 
@@ -71,13 +71,13 @@ git clone https://github.com/runziggurat/zcash.git
 cd zcash
 ```
 
-Navegue até 
+No navegador, acesse 
 [https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md](https://github.com/runziggurat/zcash/blob/main/src/tools/crawler/README.md)
 
 Ou abra o readme em 
 '/runziggurat/zcash/src/tools/crawler/README.md'
 
-Esta página contém informações sobre o uso específico. 
+Essa página contém informações sobre usos específicos. 
 
 ----------------
 
@@ -105,13 +105,13 @@ OPTIONS:
             Print version information
 ```
 
-`--seed-addrs` \ `--dns-seed` são os únicos argumentos obrigatórios e exigem pelo menos um endereço especificado para funcionar.
+`--seed-addrs` \ `--dns-seed` é o único argumento obrigatório e precisa de pelo menos um endereço especificado para ser executado.
 
 
 
 ----------------
 
-O comando 'cargo run --release --features crawler --bin crawler -- --help' é o comando literal de execução e imprimirá o menu de ajuda mostrado.
+O comando 'cargo run --release --features crawler --bin crawler -- --help' é o comando de execução literal e vai exibir o menu de ajuda mostrado.
 
 
 >  Execute o comando
@@ -120,11 +120,11 @@ cargo run --release --features crawler --bin crawler -- --help
 ```
 
 
-Isso irá compilar o programa e garantir que tudo esteja funcionando corretamente.
+Isso vai compilar o programa e garantir que tudo esteja funcionando corretamente.
 
-Para executar o Crawler, é necessário adicionar uma flag '--seed-addrs' ao comando de inicialização, contendo pelo menos um endereço IP válido de nó do Zcash. O crawler deve poder rodar por um período razoável de tempo para obter um resultado preciso. Alguns exemplos de endereços IP de nós podem ser encontrados em [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
+Para executar o Crawler, é necessário adicionar a flag '--seed-addrs' ao comando de inicialização, contendo pelo menos um endereço IP válido de um nó Zcash. O crawler deve ficar rodando por um tempo razoável para obter um resultado preciso. Alguns endereços IP de nós de exemplo podem ser encontrados em  [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
-Para obter informações do Crawler enquanto ele estiver sendo executado, é necessário adicionar a flag '--rpc-addr' ao comando de inicialização. Isso não é necessário apenas para executar o crawler em si, mas caso contrário será preciso parar o crawler (ctrl+c ou SIGKILL) para exibir qualquer informação.
+Para obter informações do Crawler enquanto ele está rodando, é necessário adicionar a flag '--rpc-addr' ao comando de inicialização. Ela não é necessária apenas para executar o crawler em si, mas, sem ela, será preciso parar o crawler (ctrl+c ou SIGKILL) para exibir qualquer informação.
 
 
 >  Execute o comando
@@ -132,7 +132,7 @@ Para obter informações do Crawler enquanto ele estiver sendo executado, é nec
 cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
-O crawler começará a se comunicar com a rede (por padrão a cada 20 segundos) e a coletar dados da rede. 
+O crawler vai começar a se comunicar com a rede (por padrão, a cada 20 segundos) e a coletar dados da rede. 
 As informações do Crawler podem ser exibidas usando curl para consultar o nó (isso requer jq para exibir essas informações). 
 O endereço RPC do Crawler neste exemplo está definido como '127.0.0.1:54321'
 
@@ -142,13 +142,13 @@ O endereço RPC do Crawler neste exemplo está definido como '127.0.0.1:54321'
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
-Isso exibirá os dados atuais coletados de '.protocol_version' contidos no campo '.result'. O campo '.result' é muito grande, então é útil chamar partes específicas dele em vez disso. Outros tipos de dados úteis são '.num_known_nodes', '.num_good_nodes', '.user_agents' etc. Veja a seção de métricas [Aqui](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
+Isso vai exibir os dados de '.protocol_version' coletados até o momento, contidos no campo '.result'. O campo '.result' é muito grande, então é útil consultar partes específicas dele. Outros tipos de dados úteis são '.num_known_nodes', '.num_good_nodes', '.user_agents' etc. Veja a seção de métricas [aqui](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
 
 ----------------
 
 
 ----------------
-Para executar o Crunchy e o P2P-Viz, é necessário direcionar o '.result' para um arquivo .json. 
+Para executar o Crunchy e o P2P-Viz, é necessário redirecionar o '.result' para um arquivo .json. 
 
 
 >  Execute o comando
@@ -156,9 +156,9 @@ Para executar o Crunchy e o P2P-Viz, é necessário direcionar o '.result' para 
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ > latest.json
 ```
 
-Isso criará um arquivo 'latest.json' no diretório atual. Esse arquivo 'latest.json' será usado com o Crunchy. 
+Isso vai criar um arquivo 'latest.json' no diretório atual. Esse arquivo 'latest.json' será usado com o Crunchy. 
 
-Neste ponto, o Crawler pode ser interrompido com 'ctrl+c' se não forem necessários mais dados. O Crawler exibirá um relatório no terminal com informações úteis.
+Neste ponto, o Crawler pode ser parado com 'ctrl+c' se não forem necessários mais dados. O Crawler vai exibir no terminal um relatório com informações úteis.
 
 
 ----------------
@@ -168,7 +168,7 @@ Neste ponto, o Crawler pode ser interrompido com 'ctrl+c' se não forem necessá
 O Crunchy é necessário para agregar o arquivo json de saída para uso com o P2P-Viz.
 
 
-Para compilar o Crunchy, navegue até sua pasta '/runziggurat' 
+Para compilar o Crunchy, navegue até a sua pasta '/runziggurat' 
 
 >  Para clonar o repositório do Crunchy, execute os seguintes comandos
 ```bash
@@ -182,16 +182,16 @@ Copie e cole o arquivo 'latest.json' na pasta 'crunchy/testdata/'.
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-Isso criará um arquivo 'state.json' filtrado de nós do Zcash na pasta 'crunchy/testdata/' para ser usado com o P2P-Viz.
+Isso vai criar um arquivo 'state.json' filtrado por nós Zcash na pasta 'crunchy/testdata/', para ser usado com o P2P-Viz.
 
 ----------------
 
 ## P2P-Viz
 
-Para compilar o P2P-Viz, é necessário ter npm. 
+Para compilar o P2P-Viz, é necessário ter o npm. 
 
 
->  Para instalar npm com nvm, execute os seguintes comandos:
+>  Para instalar o npm com nvm, execute os seguintes comandos:
 ```bash
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
 ```
@@ -204,7 +204,7 @@ Feche e reinicie o terminal.
 nvm install --lts
 ```
 
-Navegue até sua pasta '/runziggurat'
+Navegue até a sua pasta '/runziggurat'
 
 
 >  Para clonar o repositório do P2P-Viz e iniciá-lo, execute os seguintes comandos
@@ -224,14 +224,14 @@ Selecione 'Geolocation' e depois selecione 'Choose state file'.
 
 Na janela pop-up do explorador de arquivos, selecione o arquivo 'state.json'. 
 
-O mapa-múndi do explorador de nós será preenchido com os dados do arquivo. Veja o readme [Aqui](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) para mais detalhes sobre opções de uso e configurações.
+O mapa-múndi do explorador de nós será preenchido com os dados do arquivo. Veja o readme [aqui](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) para mais detalhes sobre opções de uso e configurações.
 
 
 ----------------
 DICAS! 
 
-Você pode definir o Crawler para uma varredura temporizada simplesmente com o comando 'timeout', que emitirá um comando de encerramento específico após um período definido. Execute 'timeout --help' para mais informações.
-O comando a seguir iniciará e também interromperá automaticamente o crawler após 50 min.
+Você pode configurar o Crawler para uma varredura com tempo definido simplesmente usando o comando 'timeout', que envia um comando de encerramento específico após um período definido. Execute 'timeout --help' para mais informações.
+O comando a seguir vai iniciar o crawler e também pará-lo automaticamente após 50 minutos.
 
 >  Execute o comando
 ```bash
@@ -241,9 +241,9 @@ timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- -
 ----------------
 DICAS! 
 
-O 'latest.json' pode ser chamado e gravado em '/testdata' para que você não precise copiá-lo e colá-lo manualmente.
+O 'latest.json' pode ser consultado e gravado diretamente em '/testdata', assim você não precisa copiá-lo e colá-lo manualmente.
 
 ----------------
 DICAS! 
 
-As informações de endereço IP podem ser coletadas da saída e depois usadas como seeds do Crawler na inicialização (--seed-addrs). Isso reduzirá o tempo necessário para realizar uma varredura completa!
+As informações de endereços IP podem ser coletadas da saída e depois usadas para alimentar novamente o Crawler na inicialização (--seed-addrs). Isso vai reduzir o tempo necessário para fazer uma varredura completa!

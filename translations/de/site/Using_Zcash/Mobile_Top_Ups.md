@@ -1,69 +1,93 @@
-# Mobilfunk-Aufladung mit Zcash
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Mobile_Top_Ups.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-In diesem Leitfaden erfährst du, wie du mit ZEC Mobilfunkguthaben kaufen kannst.
+# Mobile Aufladungen mit Zcash
 
-## Befolge diese Schritte:
+> Lade ein Prepaid-Handy mit ZEC auf, mit oder ohne Konto.
 
-### 1. Erstelle ein Konto
+## TL;DR
+
+* Du kannst Prepaid-Guthaben fürs Handy mit ZEC in Online-Shops für Geschenkkarten wie Coinsbee und CardsRelay kaufen.
+* Coinsbee erfordert ein Konto. CardsRelay braucht nur eine E-Mail-Adresse für die Bestätigung.
+* Beide zeigen dir an der Kasse den genauen ZEC-Betrag und eine Zahlungsadresse an. Sende genau diesen Betrag, bevor die Rechnung abläuft.
+* Memos erreichen nur abgeschirmte (shielded) Adressen. Ist eine Zahlungsadresse transparent, wird kein Memo zugestellt. Bewahre deshalb deine Bestellnummer für eventuelle Rückerstattungsanfragen auf.
+* Aufladungen funktionieren in der Regel nur für Prepaid-Nummern. Überprüfe Nummer und Netz, bevor du bezahlst.
+
+## Grundlegende Erklärung
+
+Eine mobile Aufladung fügt einer Prepaid-Telefonnummer Gesprächs- oder Datenguthaben hinzu. Mehrere Shops, die Geschenkkarten gegen Krypto verkaufen, bieten auch Aufladungen für Hunderte Mobilfunknetze weltweit an, und einige davon akzeptieren ZEC.
+
+Der Ablauf ist überall gleich: Land und Netz auswählen, Telefonnummer und Betrag eingeben, die Rechnung in ZEC bezahlen und warten, bis das Guthaben ankommt. Im Folgenden findest du zwei Optionen: Coinsbee (Konto erforderlich) und CardsRelay (kein Konto).
+
+## Option 1: Coinsbee (Konto erforderlich)
+
+### 1. Konto erstellen
 Besuche [Coinsbee.com](https://www.coinsbee.com/en/shop/mobile-top-ups/) und erstelle ein Konto.
 
-### 2. Wähle dein Land und dein Netz
-Scrolle in die obere linke Ecke und wähle dein Land aus; wähle dann Mobilfunkguthaben und das Netz, das du aufladen möchtest (Beispiel: MTN).
+### 2. Land und Netz auswählen
+Wähle oben links dein Land aus, wähle Handyguthaben und dann das Netz, das du aufladen möchtest (zum Beispiel MTN).
 
-![Schritt 2 – Auswahl von Land und Netz](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
+![Step 2 - Selecting country and network](/content-images/0-qvB7ZCWaVWa-C2d8-db0d4ea372.webp)
 
-### 3. Gib die Details ein und kaufe
-Gib die korrekten Daten ein und klicke auf die Schaltfläche „Jetzt kaufen“. Öffne den Warenkorb, um deine Bestellung anzusehen, klicke auf „Weiter“ und bestätige den Kauf mit $ZEC.
+### 3. Angaben ausfüllen und kaufen
+Gib die Telefonnummer und den Betrag ein und klicke dann auf „Buy Now“. Öffne den Warenkorb, um deine Bestellung anzusehen, klicke auf „Weiter“ und wähle ZEC als Zahlungsmethode.
 
-![Schritt 3 – Kaufbildschirm](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
+![Step 3 - Purchase screen](/content-images/0-ikF-ooBc9W7olfNt-7a4584edda.webp)
 
 ### 4. Zahlungsdetails
-Der entsprechende Betrag in $ZEC wird zusammen mit einer transparenten Adresse angegeben, an die die Mittel gesendet werden sollen.
+Die Rechnung zeigt den Betrag in ZEC und die Adresse, an die die Mittel gesendet werden sollen. Im folgenden Beispiel ist die Adresse transparent.
 
-![Schritt 4 – ZEC-Zahlungsdetails](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
+![Step 4 - ZEC payment details](/content-images/0-6_YhAhQnsLbrMvHN-c9646f3604.webp)
 
-### 5. Sende die Zahlung
-Kopiere Betrag und Adresse sorgfältig und füge sie ein. Gib im Memofeld deine eigene abgeschirmte Adresse an, falls es eine Rückerstattung geben sollte.
+### 5. Zahlung senden
+Kopiere Betrag und Adresse sorgfältig und sende den vollen Betrag, bevor der Countdown der Rechnung abläuft. Eine unterbezahlte oder abgelaufene Rechnung wird nicht ausgeführt.
 
-![Schritt 5 – ZEC senden](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
+Verlasse dich bei Rückerstattungen nicht auf das Memo-Feld: Memos werden nur an abgeschirmte Adressen zugestellt, und eine Zahlung an eine transparente Adresse enthält kein Memo. Bewahre stattdessen deine Bestellnummer auf. Rechnungen von Coinsbee werden von einem Zahlungsdienstleister abgewickelt, und dessen [Hilfe-Center](https://help.coinsbee.com/en/support/home/) erklärt, wie du bei diesem Anbieter eine Rückerstattung beantragst, falls eine Bestellung unterbezahlt ist oder abläuft.
+
+![Step 5 - Sending ZEC](/content-images/0-DNnpyemsKcW-k-u-bcaaa51d3a.webp)
 
 ### 6. Bearbeitung
-Sobald die Mittel gesendet wurden, wird deine Anfrage innerhalb weniger Minuten bearbeitet.
+Sobald die Zahlung bestätigt ist, wird die Bestellung in der Regel innerhalb weniger Minuten bearbeitet.
 
-![Schritt 6 – Bearbeitungsbildschirm](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
+![Step 6 - Processing screen](/content-images/0-LgXuUVLVecqrUW5G-a894c7b2dd.webp)
 
 ### 7. Bestätigung
-Hey … mein Anschluss wurde aufgeladen! Du kannst während des Zahlungsvorgangs auch deine E-Mail-Adresse bestätigen, damit du per E-Mail benachrichtigt wirst, sobald die Transaktion abgeschlossen ist.
+Das Guthaben wird der Telefonleitung gutgeschrieben. Wenn du beim Bezahlvorgang deine E-Mail-Adresse bestätigst, erhältst du außerdem eine E-Mail, sobald die Bestellung abgeschlossen ist.
 
-![Schritt 7 – Erfolgreiche Aufladung](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
+![Step 7 - Successful top-up](/content-images/0-TJKIcqznQ4Y8_jgo-e725aed571.webp)
 
-## Eine Aufladung ohne Konto kaufen
+## Option 2: CardsRelay (kein Konto)
 
-Die oben beschriebene Methode erfordert die Erstellung eines Coinsbee-Kontos. Wenn du das lieber nicht möchtest, verkauft CardsRelay Mobilfunk-Aufladungen für ZEC ohne Registrierung.
+Wenn du lieber kein Konto erstellen möchtest, verkauft CardsRelay mobile Aufladungen für ZEC ohne Registrierung.
 
-### 1. Wähle dein Land und deinen Anbieter
+### 1. Land und Anbieter auswählen
 Besuche [CardsRelay](https://cardsrelay.com) und öffne den Bereich „Mobile Top Ups“. Weltweit werden über 750 Anbieter unterstützt.
 
-### 2. Gib die Nummer und den Betrag ein
-Gib die aufzuladende Mobilfunknummer ein und wähle den Aufladewert. Der angezeigte Preis ist ein einziger Gesamtbetrag ohne später hinzugefügten separaten Wechselkursaufschlag.
+### 2. Nummer und Betrag eingeben
+Gib die aufzuladende Handynummer ein und wähle den Aufladebetrag. Der angezeigte Preis ist ein einziger Gesamtbetrag ohne nachträglich hinzugefügten Wechselkursaufschlag.
 
-### 3. Gib deine E-Mail-Adresse ein
-Eine E-Mail-Adresse ist erforderlich, damit die Bestätigung zugestellt werden kann, und sie wird vor der Bestellung verifiziert. Es wird kein Konto erstellt und es werden keine Identitätsdokumente verlangt.
+### 3. E-Mail-Adresse eingeben
+Eine E-Mail-Adresse ist erforderlich, damit die Bestätigung zugestellt werden kann, und sie wird vor der Bestellung verifiziert. Es wird kein Konto erstellt, und es werden keine Ausweisdokumente verlangt.
 
-### 4. Bezahle mit ZEC
-Wähle Zcash beim Bezahlen aus. ZEC wird direkt akzeptiert, statt durch einen Dritten umgewandelt zu werden. Eine Zahlungsadresse und der genaue Betrag werden angezeigt.
+### 4. Mit ZEC bezahlen
+Wähle an der Kasse Zcash. ZEC wird direkt akzeptiert und nicht von einem Drittanbieter umgetauscht. Eine Zahlungsadresse und der genaue Betrag werden angezeigt.
 
 ### 5. Bestätigung
-Die Aufladung wird verarbeitet und die Bestätigung trifft per E-Mail ein, üblicherweise innerhalb von Sekunden.
+Die Aufladung wird bearbeitet, und die Bestätigung kommt per E-Mail, meist innerhalb von Sekunden.
 
-CardsRelay verkauft auch Geschenkkarten für rund 2.500 Marken und akzeptiert neben Zcash auch Monero und Zano. Das Unternehmen wird von Payzy ME FZ Ltd. betrieben.
+CardsRelay verkauft außerdem Geschenkkarten für rund 2.500 Marken und akzeptiert neben Zcash auch Monero und Zano. Betrieben wird es von der Payzy ME FZ Ltd.
 
----
+![Additional screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
 
-![Zusätzlicher Screenshot](/content-images/0-Jn7tD9lb2xtMBpIw-ea9fbfb630.webp)
+## Fehlerbehebung
 
-### Weitere Möglichkeiten, ZEC auszugeben
+* **Das Guthaben ist nie angekommen.** Aufladungen funktionieren in der Regel nur für Prepaid-Nummern. Überprüfe die Nummer auf Tippfehler und stelle sicher, dass du das richtige Netz gewählt hast (bei einer kürzlich portierten Nummer wird möglicherweise noch das alte angezeigt).
+* **Die Bestellung wurde erstattet statt ausgeführt.** Manche Netze begrenzen, wie viele Aufladungen eine Nummer pro Tag oder Monat erhalten kann, und gelegentlich kommt es zu Netzausfällen. Versuche es später erneut oder wende dich an den Support des Shops.
+* **Die Rechnung ist abgelaufen oder wurde unterbezahlt.** Der Shop führt die Bestellung nicht aus. Beantrage über das Hilfe-Center des Shops eine Rückerstattung mit deiner Bestellnummer.
 
-In letzter Zeit hat Zcash mehrere neue Anwendungsbereiche erlebt, wodurch es für den täglichen Gebrauch noch praktischer geworden ist. Viele Onlineshops und Händler akzeptieren ZEC als Zahlungsmethode für Waren und Dienstleistungen, insbesondere solche, die datenschutzfreundliche Transaktionen priorisieren.  
+## Weitere Orte, um ZEC auszugeben
 
-Du besitzt ein Unternehmen und möchtest ZEC-Zahlungen akzeptieren? Mit [PayWithZash](https://paywithz.cash/) könnte dein Unternehmen zur Liste der Unternehmen hinzugefügt werden, die ZEC für die von ihnen angebotenen Dienstleistungen akzeptieren.
+Immer mehr Online-Shops und Händler akzeptieren ZEC für Waren und Dienstleistungen, vor allem solche, denen private Zahlungen wichtig sind.
+
+Wenn du ein Unternehmen besitzt und ZEC akzeptieren möchtest, kann [Pay with Zcash](https://paywithz.cash/) dein Unternehmen in seine Liste der Händler aufnehmen, die ZEC akzeptieren.

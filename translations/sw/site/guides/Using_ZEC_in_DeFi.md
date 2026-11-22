@@ -69,7 +69,7 @@ Katika muktadha wa Zcash, teknolojia za daraja kama ZenRock huruhusu mali za ZEC
 
 Ushirikiano ni sehemu muhimu katika maendeleo ya DeFi kwa sababu unaruhusu mali kutoka blockchain mahususi kushiriki katika uchumi wa kidijitali wa mitandao mbalimbali. 
 
-Jifunze Zaidi Katika : [ZenRock Bridge Jifunze](https://docs.zenrocklabs.io/)
+Jifunze Zaidi Katika : [ZenRock Bridge Jifunze](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,7 +260,7 @@ Jifunze Zaidi: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x83358
 
 [Morpho](https://markets.morpho.org/fixed) ni itifaki ya ukopeshaji iliyogatuliwa inayotoa soko la ukopeshaji lenye ufanisi mkubwa wa mtaji.
 
-[Clearstar Labs](clearstar.xyz) huanzisha cbAssets Vault kupitia Morpho, ikiruhusu mali kama cbZEC kutumika katika soko la ukopeshaji.
+[Clearstar Labs](https://clearstar.xyz) huanzisha cbAssets Vault kupitia Morpho, ikiruhusu mali kama cbZEC kutumika katika soko la ukopeshaji.
 
 Kupitia hifadhi hii, watumiaji wanaweza:
 

@@ -69,7 +69,7 @@ Le Zcash ƒe nyateƒe me la, ga ƒe lẽ ƒe mɔwo abe ZenRock ene na ZEC ƒe nu
 
 Networkwo dome dɔwɔwɔ nye akpa vevi aɖe le DeFi ƒe ŋgɔyiyi me elabena ena nunɔamesiwo si tso blockchain aɖe dzi la ŋu woate ŋu anɔ digital ga ƒe dɔwɔwɔ si le network geɖe dome me. 
 
-Srɔ̃ Nu Geɖe Le : [ZenRock Ga ƒe Lẽ Srɔ̃](https://docs.zenrocklabs.io/)
+Srɔ̃ Nu Geɖe Le : [ZenRock Ga ƒe Lẽ Srɔ̃](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,7 +260,7 @@ Srɔ̃ Nu Geɖe: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833
 
 [Morpho](https://markets.morpho.org/fixed) nye ha nuɖo agni me fiaɖeɖe protocol si naa fiaɖeɖe ƒe asiƒoƒe si zãa ga nyuie ŋutɔ.
 
-[Clearstar Labs](clearstar.xyz) tsɔ cbAssets Vault va to Morpho me, eye esia na nunɔamesi abe cbZEC ene ŋu woate ŋu azãe le fiaɖeɖe ƒe asiƒoƒe me.
+[Clearstar Labs](https://clearstar.xyz) tsɔ cbAssets Vault va to Morpho me, eye esia na nunɔamesi abe cbZEC ene ŋu woate ŋu azãe le fiaɖeɖe ƒe asiƒoƒe me.
 
 To dzraƒe sia me la, zãlawo ate ŋu:
 

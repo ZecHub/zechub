@@ -59,8 +59,8 @@ Jukwaa la ushirikishaji na zawadi za jumuiya lililoundwa kwa jumuiya za Zcash, m
 [Tembelea](https://gleyo.app/)
 
 ### Kitovu cha Ruzuku cha Zcash
-Dashibodi [dashboard] ya ruzuku inayolenga jumuiya, iliyoundwa kurahisisha jinsi ruzuku za Zcash zinavyogunduliwa, kufuatiliwa, na kukaguliwa. Inakusanya maombi ya ruzuku, hatua muhimu, bajeti, mijadala, na uchanganuzi mahali pamoja kwa kuvuta data ya moja kwa moja kutoka hazina ya Zcash Community Grants GitHub. Jukwaa linalenga kutoa uzoefu ulio wazi zaidi na rafiki kwa watumiaji kwa waombaji, wanachama wa kamati, na wakaguzi wa jumuiya.  
-[Tembelea](https://staging.zgrantshub.com/)
+Dashibodi (dashboard) ya ruzuku inayolenga jumuiya, iliyoundwa kurahisisha jinsi ruzuku za Zcash zinavyogunduliwa, kufuatiliwa, na kukaguliwa. Inakusanya maombi ya ruzuku, hatua muhimu, bajeti, mijadala, na uchanganuzi mahali pamoja kwa kuvuta data ya moja kwa moja kutoka hazina ya Zcash Community Grants GitHub. Jukwaa linalenga kutoa uzoefu ulio wazi zaidi na rafiki kwa watumiaji kwa waombaji, wanachama wa kamati, na wakaguzi wa jumuiya.  
+[Tembelea](https://zgrantshub.com/)
 
 ---
 
@@ -132,7 +132,7 @@ Jukwaa la vidokezo la moja kwa moja lisilohifadhiwa na mtu mwingine ambapo kila 
 
 ### CYZE
 Pochi shirikishi na jukwaa la uratibu linaloruhusu wanachama wengi wa timu kusimamia pamoja fedha za Zcash za faragha. Linatumia sahihi za kizingiti za FROST, likiwezesha makundi kuidhinisha kwa pamoja miamala ya Orchard bila kumpa mshiriki mmoja udhibiti kamili wa pochi.  
-[Tembelea](https://github.com/USCMig/Cyze)
+[Tembelea](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 Pochi ya eneo-kazi ya kutazama pekee, iliyoundwa kwa watu binafsi na mashirika yanayohitaji kufuatilia fedha za faragha bila uwezo wa kuzitumia. Inasaidia ufuatiliaji wa miamala na salio, madokezo ya Orchard na Sapling, utazamaji wa jumbe [memo], tathmini ya kihistoria ya fiat, arifa za miamala, usimbaji fiche [encryption] wa pochi, na vipengele vya kushiriki skrini vinavyolenga faragha.  
@@ -168,7 +168,7 @@ Ramani ya kimataifa ya biashara na maeneo yanayokubali Zcash.
 
 ### ZECping
 Kifaa cha kuangalia muda wa majibu ya gRPC wa node za Zcash lightwalletd.  
-[Tembelea](https://github.com/emersonian/zecping)
+[Tembelea](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Dashibodi ya takwimu za mtandao wa Zcash za wakati halisi na vipimo vya ulinzi wa faragha.  
@@ -216,8 +216,8 @@ Kiendelezi cha kivinjari kinachobadilisha bei za sarafu za fiat kuwa ZEC kwa wak
 [Tembelea](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
 ### Shielded Wall
-Jukwaa lisilojulikana la maungamo linalotumia teknolojia ya faragha ya Zcash.  
-[Tembelea](https://shieldedwall.org/)
+Jukwaa la maungamo lisilomtambulisha mtumiaji linalotumia faragha ya Zcash.  
+[Tembelea](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Kikasha cha barua pepe cha matumizi ya muda mfupi kinacholipiwa kwa ZEC za faragha.  
@@ -232,7 +232,7 @@ Kifaa cha kufuatilia fedha na uhasibu kinachohifadhi faragha kwa Zcash. Kinaunga
 [Tembelea](https://zecledger-web.vercel.app/)
 
 ### Uthibitishaji kwa ZcashMe
-Mfumo wa uthibitishaji unaolenga faragha unaotumia miamala ya Zcash ya faragha kama utaratibu wa kuingia. Watumiaji huchanganua msimbo wa QR na kutuma muamala mdogo wa uthibitishaji.  
+Mfumo wa uthibitishaji unaolenga faragha unaotumia miamala ya Zcash ya faragha kama utaratibu wa kuingia. Watumiaji huchanganua msimbo wa QR na kutuma muamala mdogo wa uthibitishaji. Hazina ya msimbo imehifadhiwa kwenye kumbukumbu na kusomwa pekee, kwa hiyo mradi hauendelezwi tena.  
 [Tembelea](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Mfumo wa uthibitishaji unaolenga faragha unaotumia miamala ya Zcash ya faragha k
 
 ### Ztreamer
 Kitekelezaji kilichoboreshwa sana cha huria cha indexer ya Zcash na itifaki ya lightwallet (CompactTxStreamer), kinachoungwa mkono na node ya Zakura iliyopachikwa. Huendesha node + indexer + seva ya pochi katika mchakato mmoja (ztreamerd); kinaunga mkono gRPC na P2P v2 ya Zakura. Uorodheshaji wa haraka wa kihistoria na utoaji wenye muda mdogo wa kusubiri kwa pochi nyepesi.  
-[Tembelea](https://github.com/distractedm1nd/ztreamer)  
+[Tembelea](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Kifurushi cha majaribio ya mtandao kwa wasanidi programu wa zcashd na Zebra. Kinajumuisha kitambazaji cha Zcash.  
-[Tembelea](https://github.com/runziggurat/zcash)
+[Tembelea](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Kifurushi cha vifaa kinachotanguliza Linux, kinachoanzisha mtandao wa regtest wa Zebra wenye chanzo cha sarafu za bure [faucet], vianzio vya Unified Address, na lightwalletd au Zaino, pamoja na Actions za GitHub zinazoweza kutumika tena kwa mitiririko ya mwanzo-hadi-mwisho ya faragha.  
@@ -273,8 +273,8 @@ Muundo wa ushirika na wa kupanga biashara kutoka chini kwenda juu, uliojengwa ju
 [Tembelea](https://aftok.com)
 
 ### ZK Global Credit
-Miundombinu ya mikopo na upigaji kura ya asili ya Zcash kwa selective disclosure, ukamilishaji wa malipo, sifa ya kuvuka mipaka, na utawala wa faragha.  
-[Tembelea](https://voting.zkglobalcredit.tech/)
+Miundombinu ya mikopo na upigaji kura ya asili ya Zcash kwa selective disclosure, utayari wa kukamilisha malipo, sifa ya kuvuka mipaka, na utawala wa faragha.  
+[Tembelea](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Kifaa cha kuunda maudhui bila kujulikana na michango ya faragha kinachotumia Zcash.  
@@ -303,6 +303,10 @@ Jukwaa la AI linalotoa ufikiaji wa miundo mingi bora ya AI huku likisaidia malip
 ### zk.poker
 Jukwaa la poker la rika-kwa-rika linalounganisha usimbaji fiche wa mwanzo-hadi-mwisho, poker ya kiakili, na teknolojia ya faragha ya Zcash. Limeundwa ili mwendeshaji asihitaji kujua kadi za wachezaji wala kushikilia moja kwa moja fedha za kamari.  
 [Tembelea](https://zkbtc.org/)
+
+### ZKöy
+Mchezo wa sherehe wa mtindo wa Werewolf kwa vikundi vilivyo katika chumba kimoja. Wachezaji hujiunga kupitia simu zao; kila chaguo la usiku na kila kura hufungwa kama ujumbe wa faragha (shielded memo) kwenye testnet ya Zcash. Mchezo unapoisha, seed, salt na ufunguo wa kutazama (viewing key) hufichuliwa ili mtu yeyote aweze kuthibitisha matokeo on-chain.  
+[Tembelea](https://zkoy.fun)
 
 ---
 

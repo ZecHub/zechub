@@ -21,7 +21,7 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 | Istilahi | Ufafanuzi |
 |------|-----------|
 | Benchmarking | Wachimbaji wanaweza kuwasilisha vipimo vya ufanisi wa vifaa mbalimbali vinavyotumiwa kuchimba Zcash. [Tazama hapa](https://zcashbenchmarks.info) |
-| Block | Block ni rekodi katika blockchain ya Zcash ambayo ina mkusanyiko wa miamala iliyotumwa kwenye mtandao. Kwa wastani, block mpya huongezwa kwenye blockchain takribani kila sekunde 75. |
+| Block | Block ni rekodi katika blockchain ya Zcash iliyo na seti ya miamala iliyotumwa kwenye mtandao. Kwa wastani, block mpya huongezwa kwenye blockchain takribani kila sekunde 25 (sekunde 75 kabla ya NU7 kuanza kutumika mnamo Novemba 2026). |
 | Block Explorer | Kifaa cha mtandaoni cha kutazama miamala yote, ya zamani na ya sasa, kwenye blockchain. [Kichunguzi cha Block cha Zcash](https://zcashexplorer.app/) |
 | Blogs | [Blogu ya ZODL (zamani Electric Coin Co)](https://zodl.com/blog/) / [Blogu ya Zcash Foundation](https://zfnd.org/blog/) / [Jarida la habari la ZecHub](https://zechub.substack.com/) |
 | Blossom | Uboreshaji mkuu wa 3 wa mtandao wa Zcash. [Maelezo zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -33,9 +33,9 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 | Canopy | Uboreshaji mkuu wa 5 wa mtandao wa Zcash. [Maelezo zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Humruhusu mtoa commitment kuweka commitment kwa polinomu kwa mfuatano mfupi unaoweza kutumiwa na mthibitishaji kuthibitisha tathmini zinazodaiwa za polinomu iliyowekewa commitment. Hii ni muhimu kwa kupunguza gharama za mawasiliano katika itifaki ya Zcash. |
 | Community | [Jukwaa Rasmi la Jamii la Zcash](https://forum.zcashcommunity.com) / [Jamii ya Discord ya Zcash](https://discord.com/channels/669694001464737815/669694001921654794) / [Discord ya Utafiti na Maendeleo ya Zcash](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Muundo wa makubaliano mseto unaopendekezwa ambao ungeendesha proof of stake sambamba na proof of work iliyopo ya Zcash. Shielded Labs inaongoza kazi hiyo na huhifadhi mfano wa awali katika hazina ya `zebra-crosslink`. Crosslink si sehemu ya Zcash kwa sasa. [Crosslink itifaki](/zcash-tech/crosslink-protocol) |
+| Crosslink | Muundo wa makubaliano mseto unaopendekezwa ambao ungeendesha proof of stake sambamba na proof of work iliyopo ya Zcash. Shielded Labs inaongoza kazi hiyo na kuendesha mtandao wa majaribio, Feature Net, kutoka kwenye hazina ya `crosslink_monolith`. Hazina ya awali ya mfano wa majaribio ya `zebra-crosslink` ilistaafishwa mnamo Novemba 2026. Crosslink si sehemu ya Zcash kwa sasa. [Crosslink itifaki](/zcash-tech/crosslink-protocol) |
 | CrossPay | Kipengele katika pochi ya ZODL kinachokuruhusu kutumia ZEC za faragha huku mpokeaji akilipwa katika mali na mnyororo anaopendelea, kwa kupitishwa kupitia NEAR Intents badala ya soko la kubadilishana sarafu lililowekwa kati. |
-| Cypherpunk Zero | Ulimwengu wa Ubunifu [Creative Universe] na juhudi shirikishi kati ya ECC, mchoraji Stranger Wolf, Mighty Jaxx na washirika teule wa ikolojia. [Mitandao ya Kijamii ya Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Mkusanyo](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Ulimwengu wa ubunifu na juhudi shirikishi kati ya ECC, mchoraji Stranger Wolf, Mighty Jaxx na washirika teule wa ikolojia. [Mitandao ya Kijamii ya Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Mkusanyo](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -127,11 +127,11 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 | Istilahi | Ufafanuzi |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Pendekezo kutoka Shielded Labs la kuchoma sehemu ya ada za miamala ili bajeti ya usalama wa muda mrefu ya itifaki isitegemee utoaji pekee. Limebainishwa katika ZIP 234, na linapitiwa mwaka 2026. |
-| Nighthawk | Pochi ya simu ya Zcash. [Tovuti](https://nighthawkwallet.com) |
+| Nighthawk | Pochi ya zamani ya simu ya Zcash kutoka Nighthawk Apps. Pochi zake za Zcash hazitunzwii tena, na Nighthawk Wallet 3.0 imeundwa kwa ajili ya DarkFi. Ili kuhamisha fedha kutoka kwenye seed ya zamani ya Nighthawk, tazama [Kurejesha Fedha](/using-zcash/recovering-funds). |
 | Noir Wallet | Pochi ya kiendelezi cha kivinjari ya Zcash inayoungwa mkono na Zcash Community Grants, iliyoundwa kuunganisha ZEC za faragha moja kwa moja na programu za kivinjari badala ya kutegemea misimbo ya QR na uhamisho wa mikono. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Uboreshaji mkuu wa 6 wa mtandao wa Zcash, unaoanzisha bwawa la faragha la Orchard na Anwani Zilizounganishwa. [Maelezo zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Uboreshaji mkuu wa 7 wa mtandao wa Zcash, unaorekebisha ruzuku ya block kufadhili programu ya Zcash Community Grants na Deferred Dev Fund Lockbox. Uliamilishwa mwishoni mwa 2024. [Maelezo zaidi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Uboreshaji wa mtandao baada ya Ironwood, unaolengwa kwa mainnet tarehe 5 Novemba 2026. Kwa mujibu wa [ZIP 259](https://zips.z.cash/zip-0259), unaleta block za sekunde 25 (ZIP 218), Utaratibu wa Uendelevu wa Mtandao wenye urejelezaji wa ada (ZIPs 235 na 237), na mwisho wa miamala ya toleo la 4, ambao huacha fedha za Sprout zisizoweza kutumika (ZIP 2003). Hauongezi muundo mpya wa muamala; Tachyon na Shielded Assets za Zcash si sehemu yake. |
+| NU7 | Uboreshaji wa mtandao uliofuata Ironwood, ulioamilishwa kwenye mainnet katika urefu wa 3,543,405 tarehe 6 Novemba 2026 (UTC). Kwa mujibu wa [ZIP 259](https://zips.z.cash/zip-0259), unaleta block za sekunde 25 (ZIP 218), Utaratibu wa Uendelevu wa Mtandao wenye urejelezaji wa ada (ZIPs 235 na 237), na mwisho wa miamala ya toleo la 4, jambo linaloacha fedha za Sprout zisizoweza kutumika (ZIP 2003). Hauongezi muundo mpya wa muamala; Tachyon na Shielded Assets za Zcash si sehemu yake. |
 
 ## O
 
@@ -181,15 +181,15 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 
 | Neno | Ufafanuzi |
 |------|-----------|
-| Tachyon | Programu ya kupanua uwezo ya Zcash. Si sehemu ya NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) na haina tarehe ya uamilishaji. Husogeza pochi kutoka kuskani kila block kuelekea hali ya pochi inayobeba thibitisho, usawazishaji usio na ufahamu na hali ya node inayoweza kupunguzwa, kwa lengo la kufikia uwezo wa miamala ya faragha wa maelfu ya miamala kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
+| Tachyon | Programu ya kupanua uwezo [scaling] ya Zcash. Si sehemu ya NU7 ([ZIP 259](https://zips.z.cash/zip-0259)) na haina tarehe ya uamilishaji. Husogeza pochi [wallets] kutoka kuskani kila block kuelekea hali ya pochi inayobeba thibitisho [proof], usawazishaji usio na ufahamu na hali ya node inayoweza kupunguzwa, kwa lengo la kufikia uwezo wa miamala ya faragha [shielded] wa maelfu ya miamala [transactions] kwa sekunde. [Tovuti ya mradi](https://tachyon.z.cash/overview/) |
 | TAZ | Tokeni ya majaribio ya Zcash (sarafu ya majaribio isiyo na thamani). |
-| Testnet | Blockchain tofauti ya kupima maboresho na vipengele kabla ya mainnet. |
-| Trailing Finality Layer (TFL) | Utafiti wa kuongeza tabaka la uhakika wa mwisho nyuma ya mnyororo wa proof-of-work wa Zcash ili block za hivi karibuni ziweze kuthibitishwa kikamilifu bila kuchukua nafasi ya uchimbaji. Crosslink ndiyo muundo uliotokana nao. |
-| Transaction | Malipo kati ya watumiaji, yanayowasilishwa kwenye mtandao na hatimaye kuthibitishwa katika block. |
-| Transaction Expiry | Miamala huisha muda baada ya takribani dakika 25 (block 20) ikiwa haijathibitishwa; fedha hurudi kiotomatiki. |
-| Transaction Fee | Ada chaguo-msingi ni 0.0001 ZEC. Ada za juu hupata kipaumbele; ada za chini sana zinaweza kusababisha ucheleweshaji au kuisha muda. |
+| Testnet | Blockchain tofauti ya kupima maboresho ya mtandao [upgrades] na vipengele kabla ya mainnet. |
+| Trailing Finality Layer (TFL) | Utafiti wa kuongeza tabaka la uhakika wa mwisho nyuma ya mnyororo wa proof-of-work wa Zcash ili block za hivi karibuni ziweze kuthibitishwa kikamilifu bila kuchukua nafasi ya uchimbaji [mining]. Crosslink ndiyo muundo uliotokana nao. |
+| Transaction | Malipo [payment] kati ya watumiaji, yanayowasilishwa kwenye mtandao na hatimaye kuthibitishwa katika block. |
+| Transaction Expiry | Kikomo cha urefu wa block kinachoamua wakati ambapo malipo ambayo hayajachimbwa yanaweza kujumuishwa. Malipo ya kawaida yenye urefu wa kuisha muda N usio sifuri yanaweza kuchimbwa katika block N au ya awali, lakini si N+1. Urefu wa 0 huzima kuisha muda. Hiki si kipima muda cha kurejesha fedha kiotomatiki. [ZIP 203](https://zips.z.cash/zip-0203) |
+| Transaction Fee | Ada [fee] chaguo-msingi ni 0.0001 ZEC. Ada za juu hupata kipaumbele; ada za chini sana zinaweza kusababisha ucheleweshaji au kuisha muda. |
 | Transparent Address | Pia huitwa taddr. Huanza kwa t. Ni ya umma kabisa (kama Bitcoin). |
-| Transparent Transaction | Muamala unaofanyika pekee kati ya anwani za uwazi - kila kitu kinaonekana hadharani. |
+| Transparent Transaction | Muamala unaofanyika pekee kati ya anwani za uwazi [transparent] - kila kitu kinaonekana hadharani. |
 | Turnstile | Kanuni ya uhasibu inayofuatilia kiasi cha thamani kinachoingia na kutoka katika kila bwawa la faragha, ili hakuna bwawa linaloweza kutoa zaidi ya kilichoingia ndani yake. Hutumika katika kila mpito wa bwawa katika historia ya Zcash, na kwa sasa inalinda uhamishaji kutoka Orchard hadi Ironwood. [Maelezo zaidi](/zcash-tech/the-turnstile) |
 
 ## U
@@ -209,7 +209,7 @@ Faharasa pana ya istilahi, dhana, na rasilimali muhimu zinazohusiana na Zcash. H
 
 | Neno | Ufafanuzi |
 |------|-----------|
-| Wallet | Programu au vifaa vinavyohifadhi funguo binafsi na kukuruhusu kutuma/kupokea ZEC. Pochi zinazotumika ni pamoja na ZODL (iOS/Android), Zingo! (simu ya mkononi/kompyuta ya mezani), Nighthawk (Android), Zkool (simu ya mkononi/kompyuta ya mezani), Zallet (inayokuja), na Keystone (hardware). Kwa orodha kamili, tazama [Pochi za Mfumo Ikolojia za Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Programu au vifaa vinavyohifadhi funguo binafsi na kukuruhusu kutuma/kupokea ZEC. Pochi zinazotumika ni pamoja na ZODL (iOS/Android), Zingo! (simu ya mkononi/kompyuta ya mezani), Zkool (simu ya mkononi/kompyuta ya mezani), Zallet (pochi ya full node, katika majaribio ya beta), na Keystone (hardware). Kwa orodha kamili, tazama [Pochi za Mfumo Ikolojia za Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | SDK ya kwanza ya JavaScript kwa Zcash, iliyoundwa na ChainSafe kwa mazingira ya kivinjari. Inategemeza snap ya Shielded Wallet ya Zcash iliyowezesha ZEC za faragha katika MetaMask. |
 
 ## X

@@ -13,8 +13,8 @@ DeFi 및 DApp 지원: Zcash 보유자는 이제 프라이버시를 훼손하지 
 
 ### 기술 구성 요소
 
-**탈중앙화 ZavaX 오라클**
-설명: ZavaX 오라클은 크로스체인 가격 피드를 제공하고 신뢰가 필요 없는 ZEC-AVAX 변환을 가능하게 하는 브리지의 핵심 요소입니다.
+**탈중앙화 ZavaX Oracle**
+설명: ZavaX Oracle은 크로스체인 가격 피드를 제공하고 신뢰가 필요 없는 ZEC에서 AVAX로의 변환을 가능하게 하는 브리지의 핵심 요소입니다.
 [오라클 링크](https://zavax-oracle.red.dev)
 
 **크로스체인 브리지 계약**
@@ -25,20 +25,20 @@ DeFi 및 DApp 지원: Zcash 보유자는 이제 프라이버시를 훼손하지 
 
 ## 산출물 및 문서
 
-**Zcash Avalanche의 Elastic Subnet Bridge**: [보조금 제안서](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Zcash Avalanche의 Elastic Subnet Bridge**: [보조금 제안서](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 아래는 Zcash Avalanche RedBridge 프로젝트를 위해 완료된 주요 산출물과 기술 리소스입니다.
 
-산출물 1.1: CLI를 통해 테스트넷 Avalanche 서브넷에서 테스트넷 Zcash 거래를 조회할 수 있도록 지원하는 예비 PoC로, GitHub에 게시되었으며 Avalanche 테스트넷에 하나의 노드 서브넷을 갖추고 있습니다. https://github.com/red-dev-inc/zavax-oracle
+산출물 1.1: CLI를 통해 테스트넷 Avalanche 서브넷에서 테스트넷 Zcash 거래를 조회할 수 있도록 지원하는 예비 PoC로, GitHub에 게시되었으며 Avalanche 테스트넷에 하나의 노드 서브넷을 갖추고 있습니다. https://github.com/red-dev-inc/redbridge-oracle
 
-산출물 2.1: [아키텍처](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+산출물 2.1: [아키텍처](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### 마일스톤 3: 2024년 3월 31일
 
 산출물 3.1이 완료되었으며, ZavaX 브리지의 임계값 서명에 BLS 대신 FROST을 채택하는 것에 대한 분석을 제시합니다. 이 전환은 Zcash Foundation의 감사된 라이브러리를 활용하며 더 나은 통합과 보안을 촉진합니다. https://github.com/ZcashFoundation/frost
 
-산출물 3.2 GUI의 UX 및 UI 디자인이 완료되었으며, 침투 테스트 결과를 바탕으로 ZavaX Oracle 서브넷의 보안 향상 내용을 상세히 설명합니다. 서버 구성 및 테스트 결과를 포함한 자세한 내용은 [보안 평가](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[감사 보고서](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+산출물 3.2 GUI의 UX 및 UI 디자인이 완료되었으며, 침투 테스트 결과를 바탕으로 ZavaX Oracle 서브넷의 보안 향상 내용을 상세히 설명합니다. 서버 구성 및 테스트 결과를 포함한 자세한 내용은 [보안 평가](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[감사 보고서](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 또한 팀은 ZavaX에서 redbridge로 리브랜딩하고 스테이킹 토큰을 ZAX에서 RBR로 변경했습니다.
 
 ### 마일스톤 4: 2024년 4월 30일
@@ -51,9 +51,9 @@ DeFi 및 DApp 지원: Zcash 보유자는 이제 프라이버시를 훼손하지 
 산출물 6.1 소프트웨어 감사 성공적 통과
 산출물 6.2 감사된 소스 코드를 공개 GitHub 저장소에 게시
 
-[GitHub 저장소](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)를 살펴보세요.
+[GitHub 저장소](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)를 살펴보세요.
   
-더 자세한 기술 정보는 사용자가 RedBridge 프로젝트의 저장소 및 문서를 검토하여 통합 세부 사항, 테스트 프레임워크 및 보안 프로토콜을 [살펴볼](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) 것을 권장합니다.
+더 자세한 기술 정보를 위해 사용자는 RedBridge 프로젝트의 저장소와 문서를 검토하여 통합 세부 사항, 테스트 프레임워크 및 보안 프로토콜을 [살펴보는 것](https://github.com/red-dev-inc/red-bridge)이 권장됩니다.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

@@ -5,9 +5,9 @@
 
 # Igosipụta Adreesị Zcash
 
-Ọ bụrụ na ị na-amụta gbasara Zcash maka oge mbụ, ị ga-achọpụta ozugbo na e nwere ụdị Azụmahia [transaction] abụọ nke [transactions](https://zechub.wiki/using-zcash/transactions) nwere ike ime: *Oha [transparent]* na *nke e chebere echebe [shielded]*.
-Ọzọkwa, ọ bụrụ na ị nọgidewo na-esochi mmepe ọhụrụ n'ime gburugburu obibi Zcash, ị nwere ike ịmụta gbasara [Adreesị Ejikọtara Ọnụ](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), ma ọ bụ UA.
-Mgbe ndị mmadụ nọ n'ọrụ Zcash na-ekwu maka Azụmahia *nke e chebere echebe*, ha pụtara Azụmahia metụtara Adreesị akpa ego [address] ndị e debere koodu maka ụkpụrụ sapling ma ọ bụ orchard. 
+Ọ bụrụ na ị na-amụta gbasara Zcash maka oge mbụ, ị ga-achọpụta ozugbo na e nwere ụdị abụọ nke [Azụmahia](https://zechub.wiki/using-zcash/transactions) ndị nwere ike ime: *Oha* na *nke e chebere echebe*.
+Ọzọkwa, ọ bụrụ na ị nọgidewo na-esochi mmepe ọhụrụ n'ime gburugburu obibi Zcash, ị nwere ike ịmụta gbasara [Adreesị Ejikọtara Ọnụ](https://zips.z.cash/zip-0316), ma ọ bụ UA.
+Mgbe ndị mmadụ nọ n'ọrụ Zcash na-ekwu maka Azụmahia *nke e chebere echebe*, ha pụtara Azụmahia metụtara Adreesị akpa ego ndị e debere koodu maka ụkpụrụ sapling ma ọ bụ orchard. 
 E mere UA ka ha jikọta *ụdị ọ bụla* nke Azụmahia nke e chebere echebe ma ọ bụ Oha n'ime otu Adreesị akpa ego. Nchịkọta a bụ isi ihe maka ime ka UX dị mfe n'ihu. Ebumnuche nduzi a bụ ịgbakwunye nghọta banyere UA site n'ihe atụ a na-ahụ anya doro anya.
 
 ## Ụdị Adreesị akpa ego Zcash

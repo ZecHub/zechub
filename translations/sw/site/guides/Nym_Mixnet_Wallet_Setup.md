@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Haririhttps://github.com/ZecHub/zechub/pull/2238t Ukurasa"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Elekeza Trafiki ya Pochi ya Zcash Kupitia Mixnet ya Nym
@@ -13,7 +13,7 @@ Nym huongeza safu tofauti ya faragha ya mtandao. Kufikia Septemba 2026, mbinu bo
 1. **Pendelea ujumuishaji asilia wa Nym wa pochi unapopatikana.**
 2. Vinginevyo, tumia **hali ya Mixnet ya NymVPN katika kiwango cha mfumo** ili trafiki ya mtandao ya pochi ielekezwe kupitia Nym bila kutegemea usaidizi wa proksi mahususi wa pochi.
 
-Kwa maelezo ya jumla kuhusu VPN na dVPN, tazama [VPN & dVPN](./VPN_and_DVPN.md).
+Kwa maelezo ya jumla kuhusu VPN na dVPN, tazama [VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## Kile ambacho Nym huongeza — na kile ambacho haiongezi
 

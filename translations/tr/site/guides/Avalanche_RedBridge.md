@@ -25,20 +25,20 @@ Açıklama: Zcash gizlilik özelliklerinin köprüleme süreci boyunca korunmas�
 
 ## Teslimatlar ve Dokümantasyon
 
-**Avalanche Üzerindeki Zcash Elastic Subnet Bridge**: [Hibe Teklifi](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Avalanche Üzerindeki Zcash Elastic Subnet Bridge**: [Hibe Teklifi](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Aşağıda Zcash Avalanche RedBridge projesi için tamamlanan temel teslimatlar ve teknik kaynaklar yer almaktadır:
 
-Teslimat 1.1: GitHub’da yayımlanan ve Avalanche testnet üzerinde tek düğümlü bir subnet ile, bir CLI aracılığıyla testnet Avalanche subnet’inden testnet Zcash işlemlerinin sorgulanmasını destekleyen ön PoC. https://github.com/red-dev-inc/zavax-oracle
+Teslimat 1.1: Bir CLI ile testnet Avalanche subnet’inden testnet Zcash işlemlerinin sorgulanmasını destekleyen, GitHub’da yayımlanan ve Avalanche testnet’inde tek düğümlü bir subnet’e sahip ön PoC. https://github.com/red-dev-inc/redbridge-oracle
 
-Teslimat 2.1: [Mimari](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Teslimat 2.1: [Mimari](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Kilometre Taşı 3 31 Mart 2024
 
 Teslimat 3.1 tamamlandı ve ZavaX köprüsünde eşik imzaları için BLS yerine FROST benimsenmesine ilişkin analizimizi sunuyor. Bu değişim, Zcash Foundation tarafından denetlenmiş kütüphanelerden yararlanıyor ve daha iyi entegrasyon ile güvenlik sağlıyor. https://github.com/ZcashFoundation/frost
 
-Teslimat 3.2 GUI için UX ve UI tasarımı tamamlandı; penetrasyon testi sonuçlarıyla desteklenen ZavaX Oracle subnet’ine yönelik güvenlik iyileştirmelerimizi ayrıntılandırıyor. Sunucu yapılandırması ve test sonuçları dahil daha fazla ayrıntı için [Güvenlik Değerlendirmesi](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Denetim Raporu](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Teslimat 3.2 GUI için UX ve UI tasarımı tamamlandı; penetrasyon testi sonuçlarıyla desteklenen ZavaX Oracle alt ağına yönelik güvenlik iyileştirmelerimizi ayrıntılandırıyor. Sunucu yapılandırması ve test sonuçları dahil daha fazla ayrıntı için [Güvenlik Değerlendirmesi](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Denetim Raporu](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Ek olarak ekip, ZavaX markasını redbridge olarak yeniden markaladı ve staking token’ını ZAX’ten RBR’ye değiştirdi.
 
 ### Kilometre Taşı 4 30 Nisan 2024
@@ -51,9 +51,9 @@ Kilometre Taşı 6 30 Haziran 2024
 Teslimat 6.1 Yazılım denetiminin başarıyla geçilmesi
 Teslimat 6.2 Denetlenmiş kaynak kodunun herkese açık bir GitHub reposunda yayımlanması
 
-[GitHub reposuna](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture) göz atın
+[GitHub reposuna](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture) göz atın
   
-Daha fazla teknik ayrıntı için kullanıcıların, entegrasyonun ayrıntılarını, test çerçevelerini ve güvenlik protokollerini [incelemek](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) üzere RedBridge projesinin reposunu ve dokümantasyonunu gözden geçirmeleri tavsiye edilir.
+Daha fazla teknik ayrıntı için kullanıcıların, entegrasyonun ayrıntılarını, test çerçevelerini ve güvenlik protokollerini [incelemek](https://github.com/red-dev-inc/red-bridge) üzere RedBridge projesinin reposunu ve dokümantasyonunu gözden geçirmeleri tavsiye edilir.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

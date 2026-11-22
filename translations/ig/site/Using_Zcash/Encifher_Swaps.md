@@ -1,15 +1,28 @@
-# **Mgbawe [Swap] SOL/USDC -> ZEC site na Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe a"/>
+</a>
 
+# Mgbawe SOL/USDC gaa ZEC site na iji encrypt.trade
+
+> Mgbawe SOL ma ọ bụ USDC dị na Solana gaa na ZEC, ebe a na-ebugharị nzọụkwụ cross-chain site na NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Gbanwee site na Solana gaa na Zcash, ebe a na-ebugharị nzọụkwụ cross-chain site na NEAR Intents.*  
+---
+
+## Nchịkọta dị mkpirikpi (TL;DR)
+
+* [encrypt.trade](https://encrypt.trade/zec) na-etinye SOL ma ọ bụ USDC n'ime token e nwere Nzobe ederede (encryption) (eSOL/eUSDC), wee mee Mgbawe (swap) ha ka ha ghọọ ZEC site na NEAR Intents.
+* Ego ole a na-ezipụ zoro ezo na Solana, mana Adreesị akpa ego (address) gị na otu i si eji ngwa ahụ eme ihe bụ ihe ọha mmadụ na-ahụ.
+* A na-ezitere ZEC naanị na Adreesị akpa ego Oha (transparent) (t1/t3), ya mere a na-ahụ ya na chain Zcash ruo mgbe ị ga-eme ka ọ bụrụ nke e chebere echebe (shielded).
+* Mee ka ZEC dị n'e-akpa ego (wallet) gị bụrụ nke e chebere echebe ozugbo ọ bịarutere.
+* Ngwa ahụ na NEAR Intents abụọ na-enyocha e-akpa ego maka idebe iwu (compliance).
 
 ---
 
-###  Mmalite  
-[**encrypt.trade**](https://encrypt.trade/zec) bụ app Solana nke JMD Labs Inc. na-arụ. Ọ na-enye gị ohere ịgbanwe **SOL ma ọ bụ USDC** na Solana gaa na **Zcash (ZEC)**. A na-ebu ụzọ kechie token [tokens] gị n'ime ụdị ezoro ezo ka e wee zoo ọnụọgụ ha na Solana, emesịa gbanwee ha gaa na ZEC site na NEAR Intents.
+## Nkọwa Isi
+[**encrypt.trade**](https://encrypt.trade/zec) bụ app Solana nke JMD Labs Inc. na-agba. Ọ na-enye gị ohere ime Mgbawe [swap] **SOL ma ọ bụ USDC** dị na Solana ka ọ bụrụ **Zcash (ZEC)**. A na-ebu ụzọ kechie token [token] gị (ngwongwo dijitalụ dị na blockchain) n'ụdị Nzobe ederede [encryption] ka e zoo ọnụọgụ ha na Solana, mgbe ahụ a na-eme ha Mgbawe gaa na ZEC site na NEAR Intents.
 
 Mgbawe ahụ bụ nke Nzuzo [privacy] n'akụkụ ụfọdụ, ma ọ bụghị n'akụkụ niile. [docs](https://docs.encifher.io/docs) nke app ahụ kwuru na mmekọrịta gị na chain [chain] abụghị nke a na-amaghị onye mere ya: mmadụ nwere ike ịhụ na e-akpa ego [wallet] gị ji app ahụ, mana ha agaghị ahụ ego ole ị bufere. ZEC na-erutekwa na Adreesị akpa ego Oha [transparent address], ya mere ọ na-anọgide na-apụta ìhè na chain Zcash ruo mgbe i chebere ya.
 

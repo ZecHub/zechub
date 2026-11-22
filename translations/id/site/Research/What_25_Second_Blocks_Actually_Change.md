@@ -6,7 +6,7 @@ Halaman ini menjelaskan ZIP 218 dari teksnya sendiri: apa yang berubah, apa yang
 
 ## Versi singkat
 
-| | Hari Ini | Setelah ZIP 218 |
+| | Sebelum NU7 | Setelah ZIP 218 (NU7) |
 |---|---|---|
 | Jarak target blok | 75 detik | 25 detik |
 | Blok per hari | 1.152 | 3.456 |
@@ -22,7 +22,7 @@ Tiga kali lipat jumlah blok, masing-masing membayar sepertiga dari sebelumnya. J
 
 ## Mengapa mengubah waktu blok
 
-Tujuan utamanya adalah **waktu tunggu yang lebih rendah**. Saat ini, sebuah pembayaran menunggu rata-rata 75 detik untuk konfirmasi pertamanya, apa pun beban jaringannya. Pada 25 detik, angka tersebut turun menjadi rata-rata 25 detik. ZIP menyebutkan pembayaran point-of-sale, deposit exchange, dan cross-chain bridges sebagai penggunaan yang paling merasakan hal ini.
+Tujuan utamanya adalah **waktu tunggu yang lebih rendah**. Sebelum NU7, sebuah pembayaran menunggu rata-rata 75 detik untuk konfirmasi pertamanya, apa pun beban jaringannya. Pada 25 detik, angka tersebut turun menjadi rata-rata 25 detik. ZIP menyebutkan pembayaran point-of-sale, deposit exchange, dan cross-chain bridges sebagai penggunaan yang paling merasakan hal ini.
 
 Dua poin dari ZIP perlu untuk diingat:
 
@@ -99,9 +99,9 @@ Ini adalah rekomendasi untuk implementasi, bukan aturan konsensus:
 
 Blok yang lebih cepat tidaklah gratis. Blok stale adalah blok valid yang kalah dalam persaingan untuk disertakan ke dalam chain karena blok lain mencapai jaringan lebih dulu. Semakin pendek celah antar blok, semakin sering hal ini terjadi, dan ZIP menghubungkan tingkat stale dengan propagasi blok, waktu verifikasi, serta risiko sentralisasi penambangan.
 
-- **Saat ini:** sekitar 0,4%, di mana ZIP mencatat bahwa angka ini mungkin merendahkan tingkat yang sebenarnya karena hashpower terkonsentrasi di dalam pool.
+- **Sebelum NU7:** sekitar 0,4%, dan ZIP mencatat bahwa angka ini mungkin lebih rendah daripada tingkat sebenarnya karena hashpower terkonsentrasi di dalam pool.
 - **Teoretis pada 25 detik:** sekitar 3,26%, berdasarkan pengukuran delay propagasi Zcash.
-- **Uji devnet:** 99 node Zebra yang tersebar secara geografis menghasilkan blok penuh sebesar 2 MB dengan interval 25 detik mencatat tingkat stale sebesar 4,86% dan tingkat fork sebesar 0,37%. Satu-satunya penyetelan yang diperlukan hanyalah konfigurasi TCP. Karena devnet tersebut lebih terdesentralisasi daripada mainnet saat ini, ZIP menganggap angka-angka ini mendekati skenario terburuk.
+- **Uji devnet:** 99 node Zebra yang tersebar secara geografis menghasilkan blok penuh sebesar 2 MB dengan interval 25 detik. Pengukuran menunjukkan tingkat stale sebesar 4,86% dan tingkat fork sebesar 0,37%. Satu-satunya penyetelan yang diperlukan adalah konfigurasi TCP. Karena devnet tersebut lebih terdesentralisasi daripada mainnet saat ini, ZIP menganggap angka-angka ini mendekati skenario terburuk.
 - **Titik referensi:** ZIP menggunakan tingkat stale proof-of-work historis Ethereum sebesar 5,4% sebagai ambang batas keamanannya. Kedua angka devnet berada di bawah ambang tersebut.
 
 Terdapat dua biaya tambahan yang lebih kecil. Dompet light client mengunduh sekitar 200 KB lebih banyak per hari berupa header blok ringkas. Dan karena jumlah blok tiga kali lipat lebih banyak, sebuah full node yang sempat offline memiliki lebih banyak blok untuk diproses saat melakukan sinkronisasi kembali, meskipun setiap blok lebih murah untuk diverifikasi. ZIP menerima keduanya.
@@ -110,7 +110,7 @@ Terdapat dua biaya tambahan yang lebih kecil. Dompet light client mengunduh seki
 
 - **Status ZIP:** Diusulkan. Pemilik Dev Ojha dan Evan Forbes; dibuat pada 13 Maret 2026.
 - **Polling pemegang koin:** ditutup pada 14 September 2026, dengan dukungan 99,9%. Polling ini menandakan preferensi; polling tersebut tidak mengubah aturan konsensus dengan sendirinya.
-- **Lini masa:** dalam pengumuman Forum Komunitas Zcash pada 17 September, organisasi pengembangan menyepakati jadwal penyelesaian kode paling lambat 30 September, NU7 pada testnet pada 6 Oktober, dan keputusan akhir pada 20 Oktober. Tinggi aktivasi mainnet kini ditetapkan pada 3.543.405 ([ZIP 259](https://zips.z.cash/zip-0259)), dengan target sekitar 5 November 2026.
+- **Lini masa:** dalam pengumuman Forum Komunitas Zcash pada 17 September, organisasi pengembangan menyepakati jadwal penyelesaian kode paling lambat 30 September, NU7 pada testnet pada 6 Oktober, dan keputusan akhir pada 20 Oktober. NU7 diaktifkan di mainnet pada ketinggian 3.543.405 ([ZIP 259](https://zips.z.cash/zip-0259)) pada 6 November 2026 (UTC), sehingga target 25 detik kini berlaku.
 - **Implementasi:** dilacak dalam Zebra ([#11440](https://github.com/ZcashFoundation/zebra/issues/11440)) dan dalam Zakura ([PR #1066](https://github.com/zakura-core/zakura/pull/1066)).
 
 ## Apa artinya ini bagi Anda

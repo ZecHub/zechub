@@ -8,6 +8,19 @@ Ironwood 是随 2026 年 7 月网络升级[network upgrade]而来的屏蔽 pool�
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- 网站：[AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- 交易对：ZEC/BTC
+- 支持：透明
+- 充值时间：约 30 分钟（24 个确认）
+- Ironwood：不适用，仅支持透明地址
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,15 +99,16 @@ ___
 - Ironwood：支持屏蔽提现，未说明 pool
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- 网站：[Huobi](https://huobi.com)
+- 网站：[HTX](https://www.htx.com)（原为Huobi）
 - 交易对：ALL/ZEC
 - 支持：透明
+- 状态：ZEC 目前暂停充值和提现（根据 HTX 公开 API，2026 年 11 月）；现货交易仍有列出
 - 充值时间：35 分钟 
 - Ironwood：不适用，仅限透明地址
 ___

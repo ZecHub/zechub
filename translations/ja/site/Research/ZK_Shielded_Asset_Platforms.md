@@ -95,5 +95,5 @@ Firnを使用するには、ETHをプロトコルへ預け入れます。Firnの
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMOはレイヤー1公開ブロックチェーンです。TomoChainは、TomoChain上で開発され、安全かつ追跡不可能なトランザクションを作成するよう設計されたプライバシープロトコルです -**アセットスワップ**: はい- [ホワイトペーパー](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction（旧TomoChain）](https://viction.xyz/ecosystem)**: VIC（旧TOMO）はレイヤー1公開ブロックチェーンです。TomoChainは、TomoChain上で開発され、安全かつ追跡不可能なトランザクションを作成するよう設計されたプライバシープロトコルです -**アセットスワップ**: はい- [ホワイトペーパー](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

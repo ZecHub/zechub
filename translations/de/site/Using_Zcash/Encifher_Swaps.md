@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC-Swap mit Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# SOL/USDC-Tausch zu ZEC mit encrypt.trade
+
+> Tausche SOL oder USDC auf Solana gegen ZEC, wobei der Cross-Chain-Schritt über NEAR Intents abgewickelt wird.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Tausche von Solana in Zcash, wobei der Cross-Chain-Schritt über NEAR Intents abgewickelt wird.*  
+---
+
+## Kurz gesagt
+
+* [encrypt.trade](https://encrypt.trade/zec) wandelt SOL oder USDC in verschlüsselte Token (eSOL/eUSDC) um und tauscht sie anschließend über NEAR Intents gegen ZEC.
+* Beträge werden auf Solana verborgen, aber deine Wallet-Adresse und deine Nutzung der App sind öffentlich.
+* ZEC wird nur an eine transparente (t1/t3) Adresse ausgezahlt und ist daher auf der Zcash-Chain sichtbar, bis du sie shieldest.
+* Shielde die ZEC in deiner Wallet, sobald sie eingetroffen sind.
+* Sowohl die App als auch NEAR Intents prüfen Wallets auf Compliance.
 
 ---
 
-###  Einführung  
-[**encrypt.trade**](https://encrypt.trade/zec) ist eine von JMD Labs Inc. betriebene Solana-App. Sie ermöglicht dir, **SOL oder USDC** auf Solana in **Zcash (ZEC)** zu tauschen. Deine Token werden zunächst in verschlüsselte Versionen umgewandelt, sodass die Beträge auf Solana verborgen bleiben, und anschließend über NEAR Intents in ZEC getauscht.
+## Grundlegende Erklärung
+[**encrypt.trade**](https://encrypt.trade/zec) ist eine von JMD Labs Inc. betriebene Solana-App. Sie ermöglicht dir, **SOL oder USDC** auf Solana in **Zcash (ZEC)** zu tauschen. Deine Token werden zunächst in verschlüsselte Versionen gewrappt, sodass die Beträge auf Solana verborgen sind, und dann über NEAR Intents in ZEC getauscht.
 
 Der Swap ist in mancher Hinsicht privat, aber nicht vollständig. Die eigenen [Docs](https://docs.encifher.io/docs) der App sagen, dass deine Interaktion mit der Chain nicht anonym ist: Andere können sehen, dass deine Wallet die App genutzt hat, jedoch nicht, wie viel du bewegt hast. Das ZEC kommt außerdem an einer transparenten Adresse an und bleibt daher auf der Zcash-Chain sichtbar, bis du es shieldest.
 

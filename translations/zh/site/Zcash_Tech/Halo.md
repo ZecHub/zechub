@@ -28,13 +28,13 @@ Halo 是由 Sean Bowe 在 Electric Coin Co 发现的无需信任、可递归的�
 
 ### 无需可信设置
 
-zk-SNARKs 依赖公共参考字符串（CRS）作为证明和验证的公共参数。该 CRS 必须由可信方预先生成。直到最近，为降低这场 Aztec 网络和 Zcash 所执行的复杂安全多方计算（MPC）中的风险，才有必要进行 [可信设置仪式](https://zkproof.org/2021/06/30/setup-ceremonies/amp/)。
+某些 zk-SNARK 构造，例如 Groth16，需要可信设置来生成其公共参数，通常称为公共参考字符串（CRS）。CRS 会与证明者和验证者共享；它并不是必须销毁的秘密。此类设置产生的秘密中间材料（"有毒废料"）必须被丢弃。安全多方计算可以分散这份信任：只要至少一名参与者遵循协议并销毁其秘密贡献，该仪式就是安全的。请参阅 ECC 对 [公共参数和有毒废料的解释](https://zodl.com/snark-parameters/)。
 
-Zcash 早期的 Sprout 和 Sapling 屏蔽池使用了 BCTV14 和 Groth16 zk 证明系统。尽管这些系统是安全的，但存在局限：它们无法扩容，因为它们绑定于单个应用；“有毒废料”（创世仪式期间生成的加密材料残留）可能持续存在；并且认定仪式可接受时仍存在一定程度的信任因素（尽管极其微小）。
+Zcash 早期的 Sprout 和 Sapling 屏蔽池分别使用了可信设置证明系统（trusted-setup proving systems）BCTV14 和 Groth16。它们的公共参数（public parameters）仍可用于生成证明和验证。问题在于秘密设置材料是否被保留，这可能允许伪造证明；发布 CRS 本身是预期行为，并不会泄露该秘密材料。
 
-Halo 通过在椭圆曲线循环中反复将多个困难问题的实例折叠在一起，消除了可信设置，从而使计算证明能够高效地推理自身（嵌套摊销）。一个副作用是，结构化参考字符串（仪式的输出）变得可升级，从而支持智能合约等应用。
+Halo 将递归证明组合与基于内积论证的多项式 commitment 方案相结合。其公共参数不需要可信设置仪式或销毁秘密设置后门。[Halo 2 一书描述了这些公共群参数](https://zcash.github.io/halo2/background/pc-ipa.html#setup)。这不同于将由仪式生成的结构化参考字符串变为可升级。
 
-Halo 为用户提供了关于大规模零知识证明系统安全性的两项重要保证。首先，它使用户能够证明，参与创世仪式的任何人都没有创建秘密后门来执行欺诈交易。其次，它使用户能够证明系统即使经历更新和变更，仍始终保持安全。
+移除这一设置要求，避免了 Halo 证明依赖于秘密仪式材料的销毁。这并不能证明较早的 Sprout 或 Sapling 仪式未被破坏，也不能保证之后所有协议变更都是安全的。递归证明 [Recursive proofs] 在证明系统假设下，证实其电路中编码的计算。正确的电路和实现仍然至关重要；ECC 的 [Halo 2 部署说明](https://zodl.com/technical-explainer-halo-on-zcash/)明确指出了新漏洞或设计缺陷的风险。
 
 [Sean Bowe 在 Dystopia Labs 的说明](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo 将每一份已验证文件变为*下一份*文件上的一个印章，直�
 
 ### 为什么移除可信设置很重要
 
-在较早的系统中，“印章”（CRS）来自一场仪式。参与者必须销毁中间材料，且所有人都必须相信他们确实这样做了。Halo 的印章完全由数学产生：没有任何东西需要销毁，没有任何东西会泄露，也没有任何仪式需要信任。
+在较早的可信设置[trusted setup]系统中，公开的“印章”（CRS）来自一场仪式。参与者必须销毁他们秘密的中间材料，同时保持公开参数可用。Halo 避开了那场仪式及其秘密设置陷门。这并不能消除保护用户花费密钥[spending keys]的需求，也不能消除核查证明[proof]系统的假设与实现的需求。
 
 ---
 
@@ -119,10 +119,10 @@ Electric Coin Company 与 Protocol Labs、Filecoin Foundation 以及 Ethereum Fo
 
 | 常见看法 | 实际情况 |
 | --- | --- |
-| “Halo 是 Zcash 正在等待的未来升级。” | 自 NU5（2022）起已在主网上线的 Orchard，已运行在 Halo 2 上。 |
-| “无需可信设置意味着完全没有参数。” | Halo 仍使用结构化参数；区别在于它们不包含有毒废料，并且可在不依赖参与者信任的仪式下生成和升级。 |
-| “Halo 2 和 Halo 论文是同一件事。” | [论文](https://eprint.iacr.org/2019/1021.pdf) 描述了多项式 commitment 方案和嵌套摊销；Halo 2 是带有累积方案和 PLONKish 算术化的生产级 Rust 实现。 |
-| “递归只对扩展区块验证有帮助。” | 递归也能压缩应用层计算——请参阅 Filecoin 的时空/复制证明以及 Ethereum 的 VDF 工作。 |
+| "Halo 是 Zcash 正在等待的未来升级。" | 自 NU5（2022）起已在主网上线的 Orchard，已运行在 Halo 2 上。 |
+| "无需可信设置意味着完全没有参数。" | Halo 仍使用公开参数 [public parameters]。它们不需要举行仪式，让参与者受信任地销毁秘密设置材料。 |
+| "Halo 2 和 Halo 论文是同一件事。" | [论文](https://eprint.iacr.org/2019/1021.pdf) 描述了多项式 commitment 方案和嵌套摊销；Halo 2 是带有累积方案和 PLONKish 算术化的生产级 Rust 实现。 |
+| "递归只对扩容区块验证有帮助。" | 递归也能压缩应用层计算——请参阅 Filecoin 的时空/复制证明以及 Ethereum 的 VDF 工作。 |
 
 ---
 

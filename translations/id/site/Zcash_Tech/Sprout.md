@@ -6,7 +6,7 @@
 
 > Zcash diluncurkan pada 28 Oktober 2016, dengan pool terlindungi Sprout.
 
-> **Peringatan:** NU7 membuat ZEC yang masih berada di pool Sprout tidak dapat dibelanjakan setelah diaktifkan (ketinggian aktivasi mainnet 3.543.405, ditargetkan pada 5 November 2026; lihat [ZIP 259](https://zips.z.cash/zip-0259)). Jika Anda memiliki dana Sprout, baca [Memulihkan dana](../using-zcash/recovering-funds) dan migrasikan terlebih dahulu.
+> **Peringatan:** NU7 diaktifkan di mainnet pada ketinggian 3.543.405 pada 6 November 2026 (UTC; lihat [ZIP 259](https://zips.z.cash/zip-0259)). Sejak saat itu, ZEC yang masih berada di pool Sprout tidak dapat dibelanjakan karena transaksi versi 4 tidak lagi valid (ZIP 2003). Untuk mengetahui opsi pemulihan, baca [Memulihkan dana](../using-zcash/recovering-funds).
 
 Apa yang akan Anda pelajari: Sprout adalah tempat di mana Zcash dimulai, pertama kalinya uang privat dan dapat diverifikasi berjalan pada blockchain yang aktif.
 

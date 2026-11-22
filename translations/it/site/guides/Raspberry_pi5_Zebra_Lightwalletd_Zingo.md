@@ -4,7 +4,7 @@
 
 # RPi5 Zebra lightwalletd con Zingo
 
-## Video tutorial
+## Tutorial video
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -29,7 +29,9 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
+
+Usa Zebra 7.0.0 o versione successiva. NU7 si è attivato sulla Mainnet al blocco 3,543,405, e le versioni più vecchie di `zebrad` non possono seguire la chain oltre quell'altezza ([note di rilascio](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Zebra 7 richiede Rust 1.91 o versione successiva (`rustup update`).
 
 ## Configura zebrad.toml
 
@@ -45,15 +47,15 @@ aggiungi:
 
 ## Compila lightwalletd
 
-* installa go
+* Installa go
 
 ```bash
-wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.27.3.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 
-* installa lightwalletd
+* Installa lightwalletd
 
 ```bash
 git clone https://github.com/zcash/lightwalletd
@@ -98,8 +100,8 @@ yarn dist:linux
 
 ## Avvia Zingo-PC
 
-* Puoi usare l'appimage, oppure il binario nella cartella unpacked
-* Buon divertimento! :)
+* Puoi usare l'appimage, oppure il binario nella cartella decompressa
+* Buon divertimento![Schermata di verifica in 2 passaggi]:)
 
 # Fonti
 

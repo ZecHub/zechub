@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Редагуватиhttps://github.com/ZecHub/zechub/pull/2238t сторінку"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Редагувати сторінку"/>
 </a>
 
 # Спрямування трафіку гаманця Zcash через Mixnet Nym
@@ -13,7 +13,7 @@ Nym додає окремий рівень конфіденційності ме
 1. **Надавайте перевагу вбудованій інтеграції Nym у гаманці, якщо вона доступна.**
 2. В іншому разі використовуйте **системний режим Mixnet NymVPN**, щоб мережевий трафік гаманця спрямовувався через Nym без залежності від підтримки проксі конкретним гаманцем.
 
-Загальну інформацію про VPN і dVPN дивіться у [VPN і dVPN](./VPN_and_DVPN.md).
+Загальну інформацію про VPN і dVPN дивіться у [VPN і dVPN](../Privacy_Tools/VPN_and_DVPN.md).
 
 ## Що додає Nym — і чого він не робить
 

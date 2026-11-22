@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Ledger 隐蔽 ZEC 用户指南
+
+> 使用您的 Ledger 硬件钱包，在 Ledger Wallet Desktop 中持有、接收和发送私密（private）的屏蔽 ZEC。
+
+## 摘要 [TL;DR]
+
+* 自 2026 年 9 月 23 日起，Ledger Wallet Desktop 支持屏蔽 [shielded] ZEC。一个 Zcash 账户在透明余额之外，还在 Ironwood pool 中拥有私密余额。
+* 目前仅支持桌面端。移动端支持已宣布为“即将推出”。
+* 您需要 Nano S Plus、Nano X、Stax 或 Flex（不包括原始 Nano S）、Ledger Wallet Desktop 4.21+ 以及最新的 Zcash 应用。
+* 点击一次 **启用屏蔽**：您的 Ledger 会导出 viewing key，以便桌面应用找到您的私密资金。花费密钥绝不会离开设备。
+* 尽可能接收至私密地址（u1...）。将 ZEC 从透明余额转入私密余额可行，但会将两者关联起来。
+* 每次发送都会在 Ledger 屏幕上进行审核和签名。请逐个字符检查其中的地址。
+
+## 核心说明 [Core Explanation]
+
+Zcash 有两种余额。透明（Transparent）ZEC（t1 地址）的运作方式类似 Bitcoin：金额和地址均公开可见。屏蔽（Shielded）ZEC 位于屏蔽池中，其中发送方、接收方和金额均在链上加密。
+
+Ledger 将您的花费密钥 [spending keys] 保存在硬件设备 [hardware device] 上。要显示私密余额 [private balance]，Ledger Wallet Desktop 需要一个 Unified Full Viewing Key (UFVK)。该设备会将其导出一次，桌面应用会用它扫描 blockchain 以查找您的屏蔽 note [shielded notes]。您的 viewing key 可以查看您的屏蔽历史记录，但不能花费资金，因此请将其视为私密信息 [private information]。
+
+以下步骤涵盖安装 Zcash 应用（app）、添加账户（account）、启用私密余额（private balance）、接收、屏蔽透明 ZEC，以及从私密余额发送。
+
+## 概述 [Overview]
 
 2026 年 9 月 23 日，Ledger 在 Ledger Wallet Desktop 中添加了原生隐蔽 ZEC 支持。一个 Zcash 账户现在同时持有透明余额和 Zcash Ironwood 池中的私密余额。您的私钥保存在 Ledger 设备上，每笔交易都在设备上审核和签名。
 

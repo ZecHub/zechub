@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edihttps://github.com/ZecHub/zechub/pull/2238t Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash ウォレット（Wallet）のトラフィックをNym ミックスネット（Mixnet）経由でルーティングする
@@ -13,7 +13,7 @@ Nymは、独立したネットワーク・プライバシー（privacy）レイ�
 1. **利用可能な場合は、ウォレットにネイティブのNym統合があるものを優先してください。**
 2. それ以外の場合は、**システムレベルのNymVPN Mixnetモード**を使用し、ウォレット固有のプロキシ対応に依存せず、ウォレットのネットワークトラフィックをNym経由でルーティングしてください。
 
-一般的なVPNおよびdVPNの背景については、[VPN & dVPN](./VPN_and_DVPN.md)を参照してください。
+一般的なVPNおよびdVPNの背景については、[VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md)を参照してください。
 
 ## Nymが追加するものと、追加しないもの
 

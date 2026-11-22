@@ -60,7 +60,7 @@
 
 ### Zcash 拨款 [Grants] 中心
 以社区为中心的拨款仪表板 [dashboard]，旨在简化 Zcash 拨款的发现、跟踪和审查流程。它通过从 Zcash Community Grants GitHub 仓库提取实时数据，将拨款申请、里程碑、预算、讨论和分析汇集于一处。该平台旨在为申请人、委员会成员和社区审查者提供更清晰、更易用的体验。  
-[访问](https://staging.zgrantshub.com/)
+[访问](https://zgrantshub.com/)
 
 ---
 
@@ -132,7 +132,7 @@ YWallet 的继任者。支持当前的屏蔽池 Ironwood。
 
 ### CYZE
 协作型钱包和协调平台，允许多个团队成员共同管理屏蔽的 Zcash 资金。它采用 FROST 门限签名，使群组能够集体授权 Orchard 交易，而无需让单个参与者完全控制钱包。  
-[访问](https://github.com/USCMig/Cyze)
+[访问](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 专为需要监控屏蔽资金但不具备支出能力的个人和组织设计的只读桌面钱包。支持交易和余额监控、Orchard 与 Sapling notes、备忘录 [memo] 查看、历史法币估值、交易通知、钱包加密 [encryption]，以及注重隐私的屏幕共享功能。  
@@ -168,7 +168,7 @@ YWallet 的继任者。支持当前的屏蔽池 Ironwood。
 
 ### ZECping
 用于检查 Zcash lightwalletd 节点 gRPC 响应时间的工具。  
-[访问](https://github.com/emersonian/zecping)
+[访问](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 提供实时 Zcash 网络统计数据和屏蔽指标的仪表板。  
@@ -217,7 +217,7 @@ Zcash 生态系统中以隐私为先的市场。支付直接结算，平台绝�
 
 ### Shielded Wall
 由 Zcash 隐私驱动的匿名告白平台。  
-[访问](https://shieldedwall.org/)
+[访问](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 使用屏蔽 ZEC 支付的一次性电子邮件收件箱。  
@@ -232,7 +232,7 @@ Zcash 生态系统中以隐私为先的市场。支付直接结算，平台绝�
 [访问](https://zecledger-web.vercel.app/)
 
 ### 使用 ZcashMe 进行身份验证
-以隐私为先的身份验证系统，使用屏蔽 Zcash 交易作为登录机制。用户扫描二维码并发送一笔小额身份验证交易。  
+以隐私为先的身份验证系统，使用屏蔽 Zcash 交易作为登录机制。用户扫描二维码并发送一笔小额身份验证交易。该代码仓库已归档（只读），因此项目不再维护。  
 [访问](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Zcash 生态系统中以隐私为先的市场。支付直接结算，平台绝�
 
 ### Ztreamer
 高度优化的开源 Zcash 索引器和轻钱包协议 (CompactTxStreamer) 实现，由嵌入式 Zakura 节点支持。在一个进程 (ztreamerd) 中运行节点、索引器和钱包服务器；支持 gRPC 和 Zakura v2 P2P。为轻钱包提供快速历史索引和低延迟服务。  
-[访问](https://github.com/distractedm1nd/ztreamer)  
+[访问](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 面向 zcashd 和 Zebra 开发者的网络测试套件。包括一个 Zcash 爬虫。  
-[访问](https://github.com/runziggurat/zcash)
+[访问](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 以 Linux 为先的工具包，可启动一个 Zebra regtest 网络，配备水龙头 [faucet]、Unified Address 固件，以及 lightwalletd 或 Zaino，并提供可复用的 GitHub Actions，用于屏蔽端到端流程。  
@@ -273,8 +273,8 @@ Zcash 生态系统中以隐私为先的市场。支付直接结算，平台绝�
 [访问](https://aftok.com)
 
 ### ZK Global Credit
-Zcash 原生信贷和投票基础设施，支持选择性披露 [selective disclosure]、结算准备、跨境信誉和屏蔽治理。  
-[访问](https://voting.zkglobalcredit.tech/)
+Zcash 原生信贷和投票基础设施，支持选择性披露、结算准备、跨境信誉和屏蔽治理。  
+[访问](https://zkglobalcredit.tech/)
 
 ### Free2Z
 由 Zcash 驱动的匿名内容创作和私密捐款工具。  
@@ -303,6 +303,10 @@ Zcash 原生信贷和投票基础设施，支持选择性披露 [selective discl
 ### zk.poker
 点对点扑克平台，结合端到端加密、心理扑克和 Zcash 隐私技术。其设计使运营方无需知晓玩家的牌，也无需直接持有投注资金。  
 [访问](https://zkbtc.org/)
+
+### ZKöy
+一款适合同处一室的多人玩的狼人杀式派对游戏。玩家用手机加入游戏；每个夜晚的选择和投票都会作为屏蔽(shielded)备忘录(memo)封存在Zcash测试网上，游戏结束时会公开种子、盐值和viewing key，任何人都可以在链上(on-chain)核验结果。  
+[访问](https://zkoy.fun)
 
 ---
 

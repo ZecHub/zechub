@@ -1,194 +1,194 @@
-[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
+[![पेज संपादित करें](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/guides/Free2z_Live.md)
 
-# Free2Z: अकाउंट सेटअप + Livestream ट्यूटोरियल
+# Free2Z: अकाउंट सेटअप + लाइवस्ट्रीम ट्यूटोरियल
 
 ## परिचय
 
-Free2Z एक ऐसा प्लेटफ़ॉर्म है जहाँ creators और supporters जुड़ सकते हैं और अपने लक्ष्यों को हासिल कर सकते हैं। Free2Z creators को ऐसे tools प्रदान करता है जिनसे वे अपनी प्रतिभा दिखा सकें और अपनी privacy से समझौता किए बिना अपने प्रोजेक्ट्स के लिए धन जुटा सकें। Supporters उन कारणों को खोज सकते हैं और समर्थन दे सकते हैं जिन पर वे विश्वास करते हैं।
+Free2Z क्रिएटर (creators) और समर्थकों (supporters) के लिए एक-दूसरे से जुड़ने और अपने लक्ष्य हासिल करने का एक प्लेटफ़ॉर्म है। Free2Z क्रिएटर को ऐसे उपकरण (tools) देता है जिनसे वे गोपनीयता (privacy) से समझौता किए बिना अपनी प्रतिभा दिखा सकते हैं और अपने प्रोजेक्ट के लिए धन जुटा सकते हैं। समर्थक उन उद्देश्यों को खोज सकते हैं और उनका समर्थन कर सकते हैं जिनमें वे विश्वास करते हैं।
 
-## अपना अकाउंट बनाएं
+## अपना अकाउंट बनाना
 
-इस समय Free2Z पर अपना अकाउंट बनाने के दो तरीके हैं:  
-1. एक username और password चुनें।  
+अभी Free2Z पर अपना अकाउंट बनाने के दो तरीके हैं:  
+1. एक यूज़रनेम और पासवर्ड चुनें।  
 2. अपना Twitter अकाउंट कनेक्ट करें।  
 
-अकाउंट बनाने या लॉग इन करने के लिए https://free2z.cash/ पर जाएँ और 'CREATE' बटन पर क्लिक करें।
+अकाउंट बनाने या लॉग इन करने के लिए https://free2z.cash/ पर जाएँ और “CREATE” बटन पर क्लिक करें।
 
-![Login/signup form](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
+![लॉगिन/साइनअप फ़ॉर्म](/content-images/image-2023-11-19-133101013-3ee51e3b6f.webp)
 
-लॉगिन/साइनअप फ़ॉर्म आपके browser में दिखाई देगा। अपना username और एक मज़बूत password चुनें - यही आपकी login जानकारी होगी। Captcha हल करें और अपना अकाउंट बनाने के लिए 'Enter' बटन पर क्लिक करें।
+आपके ब्राउज़र में लॉगिन/साइनअप फ़ॉर्म दिखाई देगा। अपना यूज़रनेम और एक मज़बूत पासवर्ड चुनें। यही आपकी लॉगिन जानकारी होगी। कैप्चा हल करें और अपना अकाउंट बनाने के लिए “Enter” बटन पर क्लिक करें।
 
-![Username and password entry form](/content-images/image-2023-11-19-133141052-0387984be1.webp)
+![उपयोगकर्ता नाम और पासवर्ड दर्ज करने का फ़ॉर्म](/content-images/image-2023-11-19-133141052-0387984be1.webp)
 
-वैकल्पिक रूप से, आप अपना Twitter अकाउंट कनेक्ट करके भी Free2Z अकाउंट बना सकते हैं। ऐसा करने के लिए, 'Login With' के पास Twitter लोगो पर क्लिक करें, और आपसे अपना Twitter अकाउंट कनेक्ट करने के लिए कहा जाएगा।
+इसके अलावा, आप अपना Twitter अकाउंट कनेक्ट करके भी Free2Z अकाउंट बना सकते हैं। इसके लिए “Login With” के बगल में दिए गए Twitter लोगो पर क्लिक करें। इसके बाद आपसे अपना Twitter अकाउंट कनेक्ट करने के लिए कहा जाएगा।
 
-![Twitter login option](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
+![Twitter से लॉगिन का विकल्प](/content-images/image-2023-11-19-133210103-f65246bbee.webp)
 
 अपने Twitter अकाउंट को Free2Z से कनेक्ट करने के लिए **Authorize app** पर क्लिक करें।
 
-## अपनी प्रोफ़ाइल को व्यक्तिगत बनाएं
+## अपनी प्रोफ़ाइल को व्यक्तिगत रूप देना
 
-अकाउंट बनने के बाद, आपको आपकी Free2Z profile page पर redirect कर दिया जाएगा। यदि आपने अपना अकाउंट Twitter कनेक्ट करके बनाया है, तो अधिकांश fields अपने-आप भर जाएँगी। यदि आपने username और password दर्ज करके अकाउंट बनाया है, तो आपको यहाँ अपनी जानकारी भरनी चाहिए। आप अपने असली नाम की जगह एक pseudonym भी इस्तेमाल कर सकते हैं।
+अकाउंट बनने के बाद आपको आपके Free2Z प्रोफ़ाइल पेज पर भेज दिया जाएगा। अगर आपने अपना Twitter कनेक्ट करके अकाउंट बनाया है, तो ज़्यादातर फ़ील्ड अपने-आप भर जाएँगे। अगर आपने यूज़रनेम और पासवर्ड डालकर अकाउंट बनाया है, तो आपको अपनी जानकारी यहाँ भरनी होगी। आप अपने असली नाम की जगह किसी छद्म नाम का उपयोग कर सकते हैं।
 
-![Default empty profile header](/content-images/default-header-a11eb8328f.webp)
+![डिफ़ॉल्ट खाली प्रोफ़ाइल हेडर](/content-images/default-header-a11eb8328f.webp)
 
-अभी यह काफ़ी साधारण लग रहा है, तो चलिए avatar और banner सेट करके इसे थोड़ा अधिक रोचक बनाते हैं। Free2Z interface upload बटन (दाईं ओर ऊपर की ओर तीर) का उपयोग करके इस चरण को बहुत आसान बना देता है।
+अभी यह काफ़ी फीका लग रहा है, इसलिए आइए एक अवतार और बैनर सेट करके इसे और दिलचस्प बनाएँ। Free2Z का इंटरफ़ेस अपलोड बटन (दाईं ओर ऊपर की ओर वाला तीर) की मदद से यह चरण बहुत आसान बना देता है।
 
-![Avatar and banner upload buttons](/content-images/avatar-and-banner-bd20d0bbfb.webp)
+![अवतार और बैनर अपलोड बटन](/content-images/avatar-and-banner-bd20d0bbfb.webp)
 
-आप पेज के सबसे ऊपर इसका परिणाम देख सकते हैं।
+आप पेज के सबसे ऊपर परिणाम देख सकते हैं।
 
-![Profile page after customization](/content-images/resultatpage-f4ddacb8b8.webp)
+![अनुकूलन के बाद प्रोफ़ाइल पेज](/content-images/resultatpage-f4ddacb8b8.webp)
 
-आह, अब काफ़ी बेहतर! यदि आपके पास कुछ artistic skills हैं, तो आप अपनी Free2Z profile page को शानदार बना सकते हैं! अपने पेज के लिए एक अच्छा description लिखें। आप अपने बारे में बता सकते हैं या उस तरह के content का वर्णन कर सकते हैं जिसकी लोग आपसे उम्मीद कर सकते हैं। (टिप: अपने description को व्यक्तिगत बनाने के लिए markdown syntax का उपयोग करें!)
+अब यह बहुत बेहतर है! अगर आपमें कुछ कलात्मक कौशल है, तो आप अपने Free2Z प्रोफ़ाइल पेज को शानदार बना सकते हैं! अपने पेज के लिए एक अच्छा विवरण लिखें। आप अपने बारे में बता सकते हैं या यह बता सकते हैं कि दूसरे लोग आपसे किस तरह के कंटेंट की उम्मीद कर सकते हैं। (सुझाव: अपने विवरण को व्यक्तिगत रूप देने के लिए मार्कडाउन सिंटैक्स का उपयोग करें!)
 
-![Editing the description field](/content-images/edit-description-b52afabec1.webp)
+![विवरण फ़ील्ड का संपादन](/content-images/edit-description-b52afabec1.webp)
 
-अपना Zcash shielded address देना न भूलें, ताकि supporters आपको सीधे donation भेज सकें!
+अपना Zcash शील्डेड (shielded) एड्रेस (address) देना न भूलें, ताकि समर्थक सीधे आपको दान कर सकें!
 
-![Zcash shielded address field](/content-images/p2p-address-b89f035bd9.webp)
+![Zcash शील्डेड एड्रेस फ़ील्ड](/content-images/p2p-address-b89f035bd9.webp)
 
-अपने पेज का सेटअप पूरा करने का आख़िरी चरण है 'Member Price' सेट करना। यह 2Zs (Tuzies) में वह कीमत है जो दूसरे users आपकी page को subscribe करने के लिए चुकाएँगे! (2Zs के बारे में आगे और जानकारी दी गई है।)
+अपना पेज सेटअप पूरा करने का आखिरी चरण “Member Price” सेट करना है। यह 2Zs (Tuzies) में वह कीमत है जो दूसरे यूज़र आपके पेज को सब्सक्राइब करने के लिए चुकाएँगे! (2Zs के बारे में अधिक जानकारी आगे दी गई है।)
 
-![Member price setting](/content-images/member-price-2dafd7e399.webp)
+![सदस्य मूल्य सेटिंग](/content-images/member-price-2dafd7e399.webp)
 
-अंत में, अपनी profile setup को पूरा करने के लिए 'Update Profile' बटन पर क्लिक करें!
+अंत में, अपना प्रोफ़ाइल सेटअप पूरा करने के लिए “Update Profile” बटन पर क्लिक करें!
 
-## Subscriptions और 2Zs
+## सब्सक्रिप्शन और 2Zs
 
-Free2Z users को अपने पसंदीदा creators को subscribe करने और exclusive features तथा केवल members के लिए content तक पहुँच प्राप्त करने की अनुमति देता है। Subscription के लिए creator को 2Zs की एक न्यूनतम राशि configure करनी चाहिए।  
+Free2Z यूज़र को अपने पसंदीदा क्रिएटर को सब्सक्राइब करने और विशेष फ़ीचर तथा केवल सदस्यों के लिए उपलब्ध कंटेंट तक पहुँच पाने की सुविधा देता है। क्रिएटर को सब्सक्रिप्शन के लिए 2Zs की न्यूनतम राशि तय करनी होती है।  
 
-2Zs या Tuzies, Free2Z में उपयोग होने वाले in-app digital credits हैं, जिनका कई उद्देश्यों के लिए उपयोग होता है, जिनमें शामिल हैं:  
-1. creators को subscribe करना  
-2. Free2Z page की visibility बढ़ाना  
-3. creators को donation देना  
+2Zs या Tuzies ऐप के भीतर इस्तेमाल होने वाले डिजिटल क्रेडिट हैं, जिनका उपयोग Free2Z में कई कामों के लिए होता है, जैसे:  
+1. क्रिएटर को सब्सक्राइब करना  
+2. किसी Free2Z पेज की विज़िबिलिटी बढ़ाना  
+3. क्रिएटर को दान देना  
 
-आप अपने 2Zs credits अपनी profile page के header में देख सकते हैं।
+आप अपने प्रोफ़ाइल पेज के हेडर में अपने 2Zs क्रेडिट देख सकते हैं।
 
-![2Zs / Tuzies balance in header](/content-images/tuzis-balance-9d6a9eff7f.webp)
+![हेडर में 2Zs / Tuzies बैलेंस](/content-images/tuzis-balance-9d6a9eff7f.webp)
 
-आप अपने 2Zs balance पर क्लिक करके Zcash से और 2Zs खरीद सकते हैं। खरीद के लिए न्यूनतम राशि 0.05 ZEC है, और वर्तमान conversion rate 0.05 ZEC = 10 2Zs है।
+अपने 2Zs बैलेंस पर क्लिक करके आप Zcash से और 2Zs खरीद सकते हैं। खरीदने के लिए न्यूनतम राशि 0.05 ZEC है, और वर्तमान रूपांतरण दर 0.05 ZEC = 10 2Zs है।
 
-![Buying 2Zs interface](/content-images/buy-tuzies-e82c626047.webp)
+![2Zs खरीदने का इंटरफ़ेस](/content-images/buy-tuzies-e82c626047.webp)
 
-## Donation देना और subscribe करना
+## दान और सब्सक्रिप्शन
 
-जब आपको कोई creator पसंद आ जाए, तो आप donation और subscription के माध्यम से अपनी सराहना दिखा सकते हैं। सभी donations सीधे creator के wallet में जाते हैं। उदाहरण के तौर पर, आइए [Free2Z के अपने page](https://free2z.cash/free2z) को subscribe करें।
+जब आपको कोई पसंदीदा क्रिएटर मिल जाए, तो आप उसे दान देकर और सब्सक्राइब करके अपनी सराहना दिखा सकते हैं। सभी दान सीधे क्रिएटर के वॉलेट (wallet) में जाते हैं। उदाहरण के तौर पर, आइए [Free2Z के अपने पेज](https://free2z.cash/free2z) को सब्सक्राइब करें।
 
-![Free2Z official page](/content-images/free2z-page-94c5fd5f4f.webp)
+![Free2Z का आधिकारिक पेज](/content-images/free2z-page-94c5fd5f4f.webp)
 
-किसी page को subscribe करने के लिए, आपको बस page header पर मौजूद subscribe icon पर क्लिक करना है।
+किसी पेज को सब्सक्राइब करने के लिए आपको बस पेज हेडर में सब्सक्राइब आइकन पर क्लिक करना है।
 
-![Subscribe button on creator page](/content-images/subscribe-to-creator-76c306d924.webp)
+![क्रिएटर पेज पर सब्सक्राइब बटन](/content-images/subscribe-to-creator-76c306d924.webp)
 
-आपको subscription के लिए न्यूनतम राशि दिखाई देगी। जाँच लें कि आपके पास पर्याप्त tuzis हैं और subscribe पर क्लिक करें।
+आपको सब्सक्राइब करने के लिए न्यूनतम राशि दिखाई देगी। जाँच लें कि आपके पास पर्याप्त Tuzies हैं या नहीं, और सब्सक्राइब पर क्लिक करें।
 
-![Confirm subscription popup](/content-images/confirm-subscribe-7381923e36.webp)
+![सदस्यता पुष्टि पॉपअप](/content-images/confirm-subscribe-7381923e36.webp)
 
-### 2Zs या Zcash का उपयोग करके donation दें
+### 2Zs या Zcash से दान
 
-आप creator के page पर सीधे donation दे सकते हैं, इसके लिए Fund creator icon पर क्लिक करें।
+आप क्रिएटर के पेज पर Fund creator आइकन पर क्लिक करके सीधे दान कर सकते हैं।
 
-![Fund creator button](/content-images/fund-creator-ac59aee7bf.webp)
+![क्रिएटर को फंड करने का बटन](/content-images/fund-creator-ac59aee7bf.webp)
 
-या, किसी post के भीतर floating plus बटन खोजें। यहाँ से आप creator को donation दे सकते हैं या Free2Z पर post को promote कर सकते हैं।
+या फिर, किसी पोस्ट के अंदर तैरते हुए प्लस बटन को खोजें। यहाँ से आप क्रिएटर को दान दे सकते हैं या Free2Z पर पोस्ट को प्रमोट कर सकते हैं।
 
-![Floating action buttons inside a post](/content-images/post-floating-buttons-a1e2ef1102.webp)
+![पोस्ट के भीतर फ़्लोटिंग एक्शन बटन](/content-images/post-floating-buttons-a1e2ef1102.webp)
 
-## Live Streaming
+## लाइव स्ट्रीमिंग
 
-Free2Z प्लेटफ़ॉर्म एक शानदार feature प्रदान करता है जिसे Free2Z Live कहा जाता है। इस tool के साथ, creators subscribed members के लिए live streams शुरू कर सकते हैं। Free2Z Live की कुछ मुख्य विशेषताएँ हैं:  
-- Audio और video  
-- Screen sharing  
-- Collaborative code editing  
-- Chat  
-- Whiteboarding  
+Free2Z प्लेटफ़ॉर्म Free2Z Live नाम का एक शानदार फ़ीचर देता है। इस उपकरण की मदद से क्रिएटर सब्सक्राइब किए हुए सदस्यों के लिए लाइव स्ट्रीम शुरू कर सकते हैं। Free2Z Live के कुछ मुख्य फ़ीचर हैं:  
+- ऑडियो और वीडियो  
+- स्क्रीन शेयरिंग  
+- सहयोगात्मक कोड एडिटिंग  
+- चैट  
+- व्हाइटबोर्डिंग  
 - और भी बहुत कुछ!
 
-### Free2Z Live के साथ आप क्या कर सकते हैं
+### Free2Z Live से आप क्या कर सकते हैं
 
-Free2Z Live एक शक्तिशाली tool है, जो creators को किसी भी प्रकार का content stream करने की अनुमति देता है। यहाँ कुछ उदाहरण दिए गए हैं कि आप Free2Z Live के साथ किस तरह का content stream कर सकते हैं:  
-- Tutorials और demonstrations  
-- Performances और events  
-- Collaborative projects  
-- Live reporting और journalism  
-- आपकी creativity ही इसकी सीमा है!
+Free2Z Live एक शक्तिशाली उपकरण है, जिससे क्रिएटर किसी भी तरह का कंटेंट स्ट्रीम कर सकते हैं। यहाँ कुछ उदाहरण दिए गए हैं कि आप Free2Z Live से किस तरह का कंटेंट स्ट्रीम कर सकते हैं:  
+- ट्यूटोरियल और डेमोंस्ट्रेशन  
+- परफ़ॉर्मेंस और इवेंट  
+- सहयोगात्मक प्रोजेक्ट  
+- लाइव रिपोर्टिंग और पत्रकारिता  
+- आपकी रचनात्मकता ही एकमात्र सीमा है!
 
-### Live कैसे जाएँ
+### लाइव कैसे जाएँ
 
-Free2Z Live के साथ live stream शुरू करना बहुत आसान है। लेकिन stream शुरू करने से पहले कुछ आवश्यकताएँ हैं।  
-1. Creator के पास न्यूनतम **member price** 10 2Zs **होना ही चाहिए**।  
-2. Creator के अकाउंट में कम से कम 150 2Zs का balance **होना ही चाहिए**।  
+Free2Z Live से लाइव स्ट्रीम शुरू करना बहुत आसान है। लेकिन स्ट्रीम शुरू करने से पहले कुछ शर्तें पूरी करनी होती हैं।  
+1. क्रिएटर का न्यूनतम **member price** 10 2Zs **होना ज़रूरी** है।  
+2. क्रिएटर के अकाउंट में कम से कम 150 2Zs का बैलेंस **होना ज़रूरी** है।  
 
-यदि creator ऊपर दी गई **दोनों** शर्तों को पूरा करता है, तो उनकी profile page पर **Go Live** नाम का एक icon उपलब्ध होगा।
+अगर क्रिएटर ऊपर दी गई **दोनों** शर्तें पूरी करता है, तो उसके प्रोफ़ाइल पेज पर **Go Live** नाम का एक आइकन उपलब्ध होगा।
 
-![Go Live button](/content-images/go-live-4c8ac67505.webp)
+![Go Live बटन](/content-images/go-live-4c8ac67505.webp)
 
-Live stream शुरू करने के लिए बस **Go Live** बटन पर क्लिक करें, और Free2Z app आपसे आपके microphone और webcam (यदि आपके पास है) के उपयोग की अनुमति माँगेगा। आवश्यक permissions देने के बाद, Free2Z आपसे एक nickname दर्ज करने के लिए कहेगा जिसे आप live stream के दौरान उपयोग करना चाहते हैं। Nickname चुन लेने के बाद, अपनी live stream शुरू करने के लिए **Join** पर क्लिक करें।
+लाइव स्ट्रीम शुरू करने के लिए बस **Go Live** बटन पर क्लिक करें। इसके बाद Free2Z ऐप आपके माइक्रोफ़ोन और वेबकैम (अगर आपके पास है) का उपयोग करने की अनुमति माँगेगा। ज़रूरी अनुमतियाँ देने के बाद Free2Z आपसे एक निकनेम डालने के लिए कहेगा, जिसका उपयोग आप लाइव स्ट्रीम के दौरान करना चाहते हैं। निकनेम चुनने के बाद अपनी लाइव स्ट्रीम शुरू करने के लिए **Join** पर क्लिक करें।
 
-![Select nickname for live stream](/content-images/select-nickname-414444b992.webp)
+![लाइव स्ट्रीम के लिए उपनाम चुनें](/content-images/select-nickname-414444b992.webp)
 
-और हो गया! जब आप live stream शुरू करते हैं, तो आपकी profile पर एक icon दिखाई देगा जो बताएगा कि आप live हैं, ताकि आपके subscribers उस live stream में शामिल हो सकें।
+बस हो गया! जब आप लाइव स्ट्रीम शुरू करते हैं, तो आपकी प्रोफ़ाइल पर एक आइकन दिखाई देगा जो बताता है कि आप लाइव हैं, ताकि आपके सब्सक्राइबर लाइव स्ट्रीम से जुड़ सकें।
 
-![Joining a livestream](/content-images/join-livestream-679334ba53.webp)
+![लाइवस्ट्रीम में शामिल होना](/content-images/join-livestream-679334ba53.webp)
 
-जब लोग live stream में शामिल होते हैं, तो वे chat कर सकते हैं, stage पर आने का अनुरोध कर सकते हैं, polls में vote देकर interact कर सकते हैं, और भी बहुत कुछ कर सकते हैं।
+जब लोग लाइव स्ट्रीम से जुड़ते हैं, तो वे चैट कर सकते हैं, स्टेज पर आने का अनुरोध कर सकते हैं, पोल में वोट देकर भाग ले सकते हैं, और भी बहुत कुछ कर सकते हैं।
 
-![Example of a Free2Z Live session](/content-images/free2z-live-example-eecb2ae553.webp)
+![Free2Z लाइव सत्र का उदाहरण](/content-images/free2z-live-example-eecb2ae553.webp)
 
-_(Free2Z Live session का उदाहरण)_
+_(Free2Z Live सत्र का उदाहरण)_
 
-Free2Z Live बहुउपयोगी और शक्तिशाली है। अगले section में, मैं इसकी functionalities और tools का एक overview दूँगा।
+Free2Z Live बहुमुखी और शक्तिशाली है। अगले सेक्शन में मैं इसकी कार्यक्षमताओं और उपकरणों का एक संक्षिप्त परिचय दूँगा।
 
-### Free2Z Live को समझना
+### Free2Z Live की खोज
 
-यह wiki-doc Free2Z या Free2Z Live की गहराई से व्याख्या करने के लिए नहीं है। लेकिन यहाँ इसके tools का एक सामान्य overview दिया गया है।
+यह विकी-डॉक Free2Z या Free2Z Live की विस्तृत गाइड के रूप में नहीं बनाया गया है। लेकिन यहाँ इसके उपकरणों का एक सामान्य परिचय दिया गया है।
 
-स्क्रीन के नीचे बाईं ओर, हमें कुछ बटन दिखाई देते हैं।
+स्क्रीन के नीचे बाईं ओर हमें कुछ बटन दिखाई देते हैं।
 
-![Bottom left controls](/content-images/free2z-live-left-60b450b01c.webp)
+![नीचे बाईं ओर के नियंत्रण](/content-images/free2z-live-left-60b450b01c.webp)
 
-यहाँ एक अच्छा function आपकी screen share करने की क्षमता है, ताकि दूसरे users देख सकें कि आप क्या कर रहे हैं।
+यहाँ एक अच्छा फ़ंक्शन अपनी स्क्रीन शेयर करने की सुविधा है, ताकि दूसरे यूज़र देख सकें कि आप क्या कर रहे हैं।
 
-नीचे की ओर हमें live stream options मिलते हैं।
+नीचे हमें लाइव स्ट्रीम के विकल्प मिलते हैं।
 
-![Bottom toolbar](/content-images/free2z-live-bottom-ae64a6960c.webp)
+![निचला टूलबार](/content-images/free2z-live-bottom-ae64a6960c.webp)
 
-यहाँ कुछ मुख्य options हैं:  
-- Microphone को mute / unmute करना  
-- Webcam को enable / disable करना  
-- Stage छोड़ना  
-- सभी speakers को mute करना  
-- Leave  
+यहाँ के कुछ मुख्य विकल्प हैं:  
+- माइक्रोफ़ोन म्यूट / अनम्यूट करना  
+- वेबकैम चालू / बंद करना  
+- स्टेज छोड़ना  
+- सभी स्पीकर को म्यूट करना  
+- बाहर निकलना  
 
-Live stream समाप्त करने के लिए, आपको 'Leave' बटन पर क्लिक करना चाहिए, और फिर सभी participants के लिए meeting रोकने हेतु 'End meeting for all' पर क्लिक करना चाहिए।
+लाइव स्ट्रीम खत्म करने के लिए आपको “Leave” बटन पर क्लिक करना चाहिए, और फिर सभी प्रतिभागियों के लिए मीटिंग बंद करने के लिए “End meeting for all” पर क्लिक करना चाहिए।
 
-![Bottom right interaction panel](/content-images/free2z-live-right-c83cb6d209.webp)
+![नीचे दाईं ओर का इंटरैक्शन पैनल](/content-images/free2z-live-right-c83cb6d209.webp)
 
-नीचे दाईं ओर के बटनों में live stream interaction से संबंधित functions होते हैं, जैसे:  
-- **Chat**: यह participants को live stream के दौरान एक-दूसरे और host के साथ chat करने की अनुमति देता है।  
-- **Polls**: यह host को polls बनाने और participants से feedback एकत्र करने की अनुमति देता है।  
-- **प्रतिभागियों की सूची**: यह live stream में शामिल participants की सूची दिखाता है।  
-- **Plugins**: यह host को live stream अनुभव को बेहतर बनाने के लिए plugins और extensions जोड़ने की अनुमति देता है।
+नीचे दाईं ओर के बटनों में लाइव स्ट्रीम में बातचीत से जुड़े फ़ंक्शन होते हैं, जैसे:  
+- **Chat**: इससे प्रतिभागी लाइव स्ट्रीम के दौरान एक-दूसरे से और होस्ट से चैट कर सकते हैं।  
+- **Polls**: इससे होस्ट पोल बना सकता है और प्रतिभागियों से फ़ीडबैक ले सकता है।  
+- **List of participants**: यह लाइव स्ट्रीम में शामिल प्रतिभागियों की सूची दिखाता है।  
+- **Plugins**: इससे होस्ट लाइव स्ट्रीम के अनुभव को बेहतर बनाने के लिए प्लगइन और एक्सटेंशन जोड़ सकता है।
 
-![Plugins panel](/content-images/free2z-live-plugins-e9a30ee355.webp)
+![प्लगइन पैनल](/content-images/free2z-live-plugins-e9a30ee355.webp)
 
-इस wiki-doc का उद्देश्य सभी plugins की व्याख्या करना नहीं है, लेकिन मैं वास्तव में आपको हर एक को आज़माने के लिए प्रोत्साहित करता हूँ, क्योंकि वे सभी creators और viewers के बीच शानदार interaction value प्रदान करते हैं। किसी plugin को शुरू करने के लिए, बस दाईं ओर मौजूद 'rocket' बटन पर क्लिक करें।
+इस विकी-डॉक का उद्देश्य सभी प्लगइन को समझाना नहीं है, लेकिन मैं आपको हर एक को आज़माने के लिए ज़रूर प्रोत्साहित करता हूँ, क्योंकि ये सभी क्रिएटर और दर्शकों के बीच बेहतरीन इंटरैक्शन देते हैं। कोई प्लगइन शुरू करने के लिए बस दाईं ओर “रॉकेट” बटन पर क्लिक करें।
 
 ## निष्कर्ष
 
-निष्कर्षतः, Free2Z creators के लिए एक बहुउपयोगी प्लेटफ़ॉर्म है, जहाँ वे अपनी क्षमताओं का प्रदर्शन कर सकते हैं, ज्ञान साझा कर सकते हैं और अपने प्रोजेक्ट्स के लिए धन जुटा सकते हैं, तथा Free2Z Live के शक्तिशाली tool के माध्यम से अपने supporters के साथ जुड़ सकते हैं।
+निष्कर्ष के तौर पर, Free2Z क्रिएटर के लिए एक बहुमुखी प्लेटफ़ॉर्म है, जहाँ वे अपनी क्षमताएँ दिखा सकते हैं, ज्ञान साझा कर सकते हैं, अपने प्रोजेक्ट के लिए धन जुटा सकते हैं, और Free2Z Live जैसे शक्तिशाली उपकरण के ज़रिए अपने समर्थकों से जुड़ सकते हैं।
 
 ----
 
 ### संसाधन
 
 [Free2Z](https://free2z.cash/)  
-[Free2Z दस्तावेज़ीकरण](https://free2z.cash/docs/)  
-[2Z अवलोकन](https://free2z.cash/docs/getting-started/tuzis)  
+[Free2Z डॉक्यूमेंटेशन](https://free2z.cash/docs/)  
+[2Z का परिचय](https://free2z.cash/docs/getting-started/tuzis)  
 [प्रोफ़ाइल बनाना](https://free2z.cash/docs/for-creators/creating-a-profile)  
 [Free2Z Live क्या है?](https://free2z.cash/docs/for-creators/free2z-live)  
-[Supporters के लिए Free2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
+[समर्थकों के लिए Free2Z](https://web.archive.org/web/20260118172223/https://free2z.cash/docs/category/for-supporters/)
 
 ---
 

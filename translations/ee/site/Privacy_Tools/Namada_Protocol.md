@@ -38,11 +38,11 @@ Le Namada me la, wobu ɣaɣla set la be nye dukɔ ƒe nyui si ame ɖeka meɖe e�
 
 ## Ɣaɣla Nunɔamesiwo Ƒe Gaɖoɖo
 
-Ne wòva ɖe ɣaɣla gaɖoɖowo ŋu la, ne nye Ethereum non-fungible token (NFT), ATOM, alo NAM la, womate ŋu aɖe wɔnɔewo dome o. Esia fia be ɣaɣla siwo naa mɔ be woagblɔ nu le MASP (Modified Accumulator Sapling Protocol) me, si nye Zcash Sapling circuit ƒe version si woɖo ɖe eŋu wu, wɔa dɔ ɖeka pɛ na nunɔamesi ƒomevi katã. MASP circuit la na nunɔamesi katã siwo le Namada ecosystem me la be woama ɣaɣla set ɖeka. Mɔ sia wɔ be ɣaɣla ƒe wɔnukuwo magbã agbã na nunɔamesi ɖeka ɖeka o. Ne gaɖoɖo ƒe lolome le nunɔamesi aɖe ŋu hã, ɣaɣla ƒe dedienɔnɔ nɔa ɖeka eye meɖo asi ɖe eŋu o.
+MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)) doa Zcash ƒe Sapling circuit ɖe edzi be wòakpe ɖe ɣaɣla gaɖoɖowo, le nunɔamesi siwo tso eya ŋutɔ me kple esiwo metso eya ŋutɔ me o, ŋu. Gaƒuƒoƒo ɖeka mamama menye be ɣaɣla mele nunɔamesi aɖe zaza ŋu o. Namada ƒe ŋlɔŋlɔwo gblɔ be nunɔamesi siwo ƒomevi ɖeka nana mɛɖeɖe set [anonymity set] ɖeka, eye duto katã ƒe ɣaɣla kple ɣaɣla tata ƒe nɔnɔmewo hã ate ŋu aɖe nunɔamesi aɖe ƒe afisi wòtso la afia.
 
 ![Shielded Assets Transaction Diagram](/content-images/image-1-512c639d56.webp)
 
-To ɣaɣla set la ƒe wɔwɔ ɖeka na nunɔamesi vovovowo me la, Namada wɔa be ɣaɣla nanɔ ɖeka, ne nunɔamesi ƒomevi kae le ɣaɣla gaɖoɖo me hã. Mɔ sia dea asi ɖe ɣaɣla ƒe ɖoɖo ɖeka le protocol la me eye wòdoa gaɖoɖowo siwo me Ethereum NFTs, ATOM, NAM, kple nunɔamesi bubu siwo woɖe mɔ na le la ƒe gbesɔsɔ ɖe dzi. Namada hã na mɔ be woawɔ fungible kple non-fungible tokens ƒe gaɖoɖo le ɣaɣla me to zk-SNARKs yeye ƒe zazã me, eye wòwɔ be native kple non-native tokens ƒe gbesɔsɔ nanɔ abe ale si wowɔnɛ le Zcash dzi ene.
+Le kpɔɖeŋu me, ne account ɖeka koe wɔ BTC ɣaɣla eye emegbe wòɖe asi le eŋu ɖe account ma ke me, woate ŋu aka dzeƒe kple doƒe si ame katã ate ŋu akpɔ lawo ɖe asi, togbɔ be ga la zɔ le ɣaɣla me le MASP la me. Ne accounts geɖe wɔ BTC ɣaɣla, eye emegbe woɖe asi le eŋu, ate ŋu nye accounts ma dometɔ aɖeke tɔ. Hãhĩã ƒe nye amewo ƒe gomekpɔkpɔ kple gaɖoɖo ƒe nɔnɔme; gaƒuƒoƒo si woama ƒe lolome ɖe eɖokui ŋu menana be nunɔamesi ɖe sia ɖe nanɔ ɣaɣla ɖeka me o.
 
 ## Adzɔ Sue Kple Gaɖoɖowo Siwo Kabaa
 

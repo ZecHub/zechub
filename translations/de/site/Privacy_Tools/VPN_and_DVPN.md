@@ -37,14 +37,14 @@ Bei der Wahl eines VPN-Dienstes ist es wichtig, die folgenden Sicherheitsfaktore
 
 7. __Preis und Funktionen__: Vergleichen Sie die Kosten und Funktionen verschiedener Anbieter, um einen Dienst zu finden, der zu Ihren Anforderungen und Ihrem Budget passt.
 
-# VPNs, die Zcash akzeptieren
+# VPN-Dienste und Zahlungen mit Zcash
 
-Zcash (ZEC) ist eine Kryptowährung, die für einen verbesserten Datenschutz entwickelt wurde, was sie zu einer bevorzugten Wahl für Personen macht, die Anonymität bei ihren Finanztransaktionen suchen. Zwar akzeptieren nicht alle VPN-Dienste Zcash direkt, einige können jedoch Kryptowährungszahlungen über zwischengeschaltete Dienste annehmen. Dennoch ist es wichtig, sich direkt beim VPN-Anbieter über die aktuellsten Zahlungsoptionen zu informieren. Hier sind einige VPN-Dienste, von denen bekannt ist, dass sie Kryptowährungszahlungen akzeptieren:
+Die Unterstützung von Zahlungen mit Zcash muss bei jedem Anbieter geprüft werden. Die Akzeptanz von Kryptowährungen schließt ZEC nicht zwangsläufig ein, und die Zahlung an eine Drittanbieterbörse oder einen Wiederverkäufer unterscheidet sich von einer direkten Zahlung an den VPN-Anbieter. Die unten aufgeführten Dienste haben unterschiedliche Zahlungsrichtlinien; prüfen Sie die aktuell akzeptierten Währungen, bevor Sie Gelder senden.
 
 1. [__Mullvad VPN__](https://mullvad.net/en)
    
-   Mullvad VPN ist ein hoch angesehener VPN-Dienst, der für sein starkes Engagement für die Privatsphäre und Sicherheit der Nutzer bekannt ist. Er ist einer der wenigen VPN-Anbieter, die Kryptowährungen, einschließlich 
-   Zcash, als Zahlungsmethode akzeptieren. Zu den Kernfunktionen von Mullvad gehören:
+Mullvad VPN ist ein auf Privatsphäre ausgerichteter VPN-Dienst. Seine [aktuelle Zahlungs-FAQ](https://mullvad.net/en/pricing) führt die akzeptierten Zahlungsmethoden auf.
+Die Unterstützung von Kryptowährungen bedeutet nicht die direkte Unterstützung jeder einzelnen Coin. Zu den Kernfunktionen von Mullvad gehören:
 
    __No-Logs-Richtlinie__: Mullvad verfolgt eine strikte No-Logs-Richtlinie, das heißt, es speichert keinerlei Daten im Zusammenhang mit Ihren Online-Aktivitäten.
 
@@ -56,7 +56,7 @@ Zcash (ZEC) ist eine Kryptowährung, die für einen verbesserten Datenschutz ent
 
    __Anonyme Kontoerstellung__: Nutzern wird eine zufällig generierte Kontonummer zugewiesen, wodurch bei der Registrierung keine persönlichen Informationen erforderlich sind.
 
-   __Zcash-Zahlung__: Mullvad akzeptiert Zcash als Zahlungsoption, sodass Nutzer ihr Abonnement mit verbesserter Privatsphäre bezahlen können.Mullvad VPN.
+__Zahlungen mit Kryptowährungen__: Die veröffentlichte Liste nennt Bitcoin, Bitcoin Cash und Monero, nicht Zcash. Eine Drittanbieterbörse oder ein Wiederverkäufer ist ein separater Dienst; beschreiben Sie dies nicht als direkte Akzeptanz von ZEC durch Mullvad.
 
 3. [__Nym VPN (dVPN)__](https://nym.com/)
    
@@ -71,9 +71,9 @@ Zcash (ZEC) ist eine Kryptowährung, die für einen verbesserten Datenschutz ent
 
    __Starker Datenschutz__: Nym VPN wurde mit Blick auf Datenschutz entwickelt und verlangt von Nutzern bei der Kontoerstellung keine persönlichen Informationen.
 
-Für wallet-spezifisches Routing von Zcash siehe [Leite den Datenverkehr der Zcash Wallet über das Nym Mixnet](./Nym_Mixnet_Wallet_Setup.md).
+Für wallet-spezifisches Routing von Zcash siehe [Leite den Datenverkehr der Zcash Wallet über das Nym Mixnet](../guides/Nym_Mixnet_Wallet_Setup.md).
 
-## Andere VPNs mit Zcash-Zahlung:-
+## Weitere VPN-Anbieter zum Ausprobieren
 
 3. [__ExpressVPN__](https://www.expressvpn.com/)
 4. [__NordVPN__](https://nordvpn.com/)

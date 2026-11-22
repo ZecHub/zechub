@@ -6,9 +6,9 @@
 # Kuona Anwani za Zcash
 
 Ikiwa unajifunza kuhusu Zcash kwa mara ya kwanza, utagundua mara moja kwamba kuna aina mbili za [miamala](https://zechub.wiki/using-zcash/transactions) [transactions] inayoweza kutokea: *ya uwazi [transparent]* na *ya faragha [shielded]*.
-Zaidi ya hayo, ikiwa umekuwa ukifuatilia maendeleo ya hivi karibuni katika mfumo ikolojia wa Zcash, huenda umejifunza kuhusu [Anwani Zilizounganishwa](https://web.archive.org/web/20260823012524/https://electriccoin.co/blog/unified-addresses-in-zcash-explained/), au UA.
-Watu katika tasnia ya Zcash wanapozungumzia miamala ya *faragha*, wanamaanisha miamala inayohusisha anwani ambazo zimesimbwa kwa itifaki za Sapling au Orchard. 
-UA zimeundwa kuunganisha muamala wa aina yoyote wa faragha au wa uwazi katika anwani moja. Ujumlishaji huu ni ufunguo wa kurahisisha UX katika siku zijazo. Madhumuni ya mwongozo huu ni kuongeza uelewa wa UA kwa mifano thabiti ya kuona.
+Zaidi ya hayo, ikiwa umekuwa ukifuatilia maendeleo ya hivi karibuni katika mfumo ikolojia wa Zcash, huenda umejifunza kuhusu [Anwani Zilizounganishwa](https://zips.z.cash/zip-0316), au UA.
+Watu katika tasnia ya Zcash wanapozungumzia miamala ya *faragha*, wanamaanisha miamala inayohusisha anwani [address] ambazo zimesimbwa kwa itifaki za Sapling au Orchard. 
+UA zimeundwa kuunganisha muamala wa aina yoyote wa faragha au wa uwazi katika anwani moja. Ujumlishaji huu ni ufunguo wa kurahisisha UX katika siku zijazo. Madhumuni ya mwongozo huu ni kuongeza uelewa wa UA kwa mifano halisi ya kuona.
 
 ## Aina za anwani za Zcash
 

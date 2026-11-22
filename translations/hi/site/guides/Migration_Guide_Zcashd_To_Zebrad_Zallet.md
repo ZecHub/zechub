@@ -1,15 +1,15 @@
 # माइग्रेशन गाइड: zcashd से Zebrad/Zallet तक
 
-पारंपरिक zcashd फुल नोड, जिसका रखरखाव *Electric Coin Company (ECC)* / *Zodl* द्वारा किया जाता था, को Zebra और Zallet ने प्रतिस्थापित कर दिया है। zcashd 18 जुलाई 2026 को अपनी समर्थन-समाप्ति रोक तक पहुँच गया और अब नहीं चलता है।
+*Electric Coin Company (ECC)* / *Zodl* द्वारा अनुरक्षित पारंपरिक zcashd फुल नोड (full node) की जगह अब Zebra और Zallet ने ले ली है। zcashd 18 जुलाई 2026 को अपने एंड-ऑफ-सपोर्ट हॉल्ट पर पहुँच गया और अब नहीं चलता।
 
-- Zebra, Zcash Foundation द्वारा विकसित Zcash प्रोटोकॉल का एक आधुनिक Rust कार्यान्वयन है
-- Zallet, Zodl द्वारा विकसित Zebra नोड से निर्बाध रूप से जुड़ने के लिए बनाया गया एक हल्का wallet है
+- Zebra Zcash Foundation द्वारा विकसित Zcash प्रोटोकॉल का एक आधुनिक Rust इम्प्लीमेंटेशन है
+- Zallet Zodl द्वारा विकसित एक हल्का वॉलेट (wallet) है, जिसे Zebra नोड (node) के साथ सहजता से काम करने के लिए बनाया गया है
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![आरेख: नोड कार्यों के लिए zcashd का zebrad में और wallet कार्यों के लिए Zallet में विभाजन](/content-images/SJNBsSYTel-dfd19f34e4.webp)
+![आरेख: zcashd का नोड कार्यों के लिए zebrad और वॉलेट कार्यों के लिए Zallet में विभाजन](/content-images/SJNBsSYTel-dfd19f34e4.webp)
 </div>
 
-यह गाइड आपको **zcashd** से **Zebrad** और **Zallet** में माइग्रेशन की प्रक्रिया से परिचित कराती है, जिसमें सेटअप, wallet इंपोर्ट और सामान्य माइग्रेशन समस्याओं का समाधान शामिल है।
+यह गाइड आपको **zcashd** से **Zebrad** और **Zallet** तक माइग्रेशन की पूरी प्रक्रिया से परिचित कराती है, जिसमें सेटअप, वॉलेट इम्पोर्ट और माइग्रेशन की आम समस्याओं का निवारण शामिल है।
 
 ---
 
@@ -17,49 +17,49 @@
 
 **इसका क्या अर्थ है**
 
-- zcashd 18 जुलाई 2026 को अपनी समर्थन-समाप्ति रोक तक पहुँच गया। यह फिर से chain tip तक sync नहीं होगा, और न ही धन भेज या प्राप्त कर सकता है। यह समाप्त हो चुका है, नियोजित नहीं है।
-- zcashd के दो कार्य अब विभाजित हैं: **zebrad** फुल नोड है, और **Zallet** wallet है।
-- Zallet **beta** में है। रिलीज़ के बीच breaking changes हो सकते हैं, और कुछ zcashd JSON-RPC methods अभी लागू नहीं किए गए हैं। किसी विशिष्ट call पर निर्भर होने से पहले [method status matrix](https://zcash.github.io/zallet/) देखें।
-- यदि आपके पास अभी भी **Sprout** धन है, तो पहले चरण 6 में चेतावनी पढ़ें। Zallet Sprout pool का समर्थन नहीं करता, और उन धनराशियों को स्थानांतरित करने का सामान्य तरीका चालू zcashd पर निर्भर था।
+- zcashd 18 जुलाई 2026 को अपने एंड-ऑफ-सपोर्ट हॉल्ट पर पहुँच गया। यह फिर कभी चेन (chain) टिप तक सिंक नहीं होगा, और यह फंड भेज या प्राप्त नहीं कर सकता। यह हो चुका है, केवल नियोजित नहीं।
+- zcashd के दो काम अब बँट गए हैं: **zebrad** फुल नोड है, और **Zallet** वॉलेट है।
+- Zallet **बीटा** में है। रिलीज़ के बीच ब्रेकिंग बदलाव हो सकते हैं, और कुछ zcashd JSON-RPC मेथड अभी लागू नहीं हुए हैं। किसी विशेष कॉल पर निर्भर होने से पहले [मेथड स्टेटस मैट्रिक्स](https://zcash.github.io/zallet/) देखें।
+- यदि आपके पास अब भी **Sprout** फंड हैं, तो पहले चरण 6 की चेतावनी पढ़ें। Zallet Sprout पूल (pool) का समर्थन नहीं करता, और उन फंड को स्थानांतरित करने के सामान्य तरीके के लिए चालू zcashd की आवश्यकता थी।
 
-**माइग्रेट क्यों करें - अप्रचलन से परे**
+**माइग्रेट क्यों करें - डेप्रिकेशन से परे**
 
-अप्रचलन को अलग रखकर भी, माइग्रेट करने के ठोस कारण हैं:
-- सुरक्षा और मज़बूती: Rust की memory-safety और आधुनिक tooling कमजोरियों के जोखिम कम करते हैं।
-- प्रदर्शन और दक्षता: Zebrad को parallelism, अधिक कुशल संसाधन उपयोग और तेज़ sync के लिए डिज़ाइन किया गया है।
-- मॉड्यूलर आर्किटेक्चर: नोड लॉजिक (Zebrad) को wallet UI (Zallet) से अलग करने से स्पष्ट सीमाएँ और बेहतर upgrade paths मिलते हैं।
-- भविष्य के ecosystem के साथ संगतता: टूल, enhancements और Zcash के बाकी ecosystem का लक्ष्य लगातार Zebrad/Zallet होगा।
-- निश्चिंतता: अप्रचलित, असमर्थित component चलाने में फँसने से बचें।
+डेप्रिकेशन को अलग रखें, तब भी माइग्रेट करने के ठोस कारण हैं:
+- सुरक्षा और मज़बूती: Rust की मेमोरी-सेफ्टी और आधुनिक टूलिंग कमज़ोरियों के जोखिम को कम करती है।
+- प्रदर्शन और दक्षता: Zebrad को समानांतरता, अधिक कुशल संसाधन उपयोग और तेज़ सिंक के लिए डिज़ाइन किया गया है।
+- मॉड्यूलर आर्किटेक्चर: नोड लॉजिक (Zebrad) को वॉलेट UI (Zallet) से अलग करने से स्पष्ट सीमाएँ और बेहतर अपग्रेड पथ मिलते हैं।
+- भविष्य के इकोसिस्टम के साथ अनुकूलता: उपकरण (tools), सुधार और Zcash का बाकी इकोसिस्टम अधिकाधिक Zebrad/Zallet को लक्ष्य करेंगे।
+- मन की शांति: एक डेप्रिकेटेड, असमर्थित घटक चलाते रहने में फँसने से बचें।
 
-### अब माइग्रेशन गाइड में विस्तार से चलते हैं
+### अब माइग्रेशन गाइड में आगे बढ़ते हैं
 
-**1. हर चीज़ का बैकअप लें**
-* अपने zcashd नोड से अपने wallet.dat (या किसी अन्य wallet फ़ाइल / key store) का बैकअप लें।
+**1. हर चीज़ का बैकअप**
+* अपने zcashd नोड से अपनी wallet.dat (या कोई अन्य वॉलेट फ़ाइल / की स्टोर) का बैकअप लें।
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (1)](/content-images/SJ_0mUtTxg-1441185a72.svg)
 </div>
 
 * अपनी zcash.conf और कोई भी कस्टम सेटिंग सहेजें।
-* उपयोग किए जाने वाले किसी भी RPC scripts या automation की कॉपी export करें।
-* सत्यापित करें कि आपके बैकअप वैध हैं (जैसे, दूसरे environment में उन्हें खोलने या inspect करने का प्रयास करें)।
-* समीक्षा करें कि आप वर्तमान में किन JSON-RPC methods पर निर्भर हैं।
-* [Zcash support site](https://z.cash/support/zcashd-deprecation/) पर रखी गई नियोजित compatibility table से तुलना करें 
-* परिवर्तनों या अनुपलब्ध methods के लिए तैयार रहें (कुछ को workaround या adaptation की आवश्यकता हो सकती है)।
+* आपके द्वारा उपयोग की जाने वाली किसी भी RPC स्क्रिप्ट या ऑटोमेशन की एक प्रति निर्यात करें।
+* सत्यापित करें कि आपके बैकअप मान्य हैं (उदाहरण के लिए, किसी अन्य वातावरण में उन्हें खोलने या जाँचने का प्रयास करें)।
+* देखें कि आप वर्तमान में किन JSON-RPC मेथड पर निर्भर हैं।
+* [Zcash सपोर्ट साइट](https://z.cash/support/zcashd-deprecation/) पर अनुरक्षित नियोजित संगतता तालिका से तुलना करें 
+* बदलावों या अनुपलब्ध मेथड के लिए तैयार रहें (कुछ के लिए वर्कअराउंड या अनुकूलन की आवश्यकता हो सकती है)।
 
 **2. सिस्टम आवश्यकताएँ और डिस्क स्पेस**
-* डिस्क स्पेस वह आवश्यकता है जिसे लोग कम आँकते हैं। अगस्त 2026 में Zcash chain **270 GB** पार कर गई, इसलिए कम से कम **300 GB** खाली स्थान रखें, और संभव हो तो SSD पर।
-* सुनिश्चित करें कि आपकी मशीन में स्थिर नेटवर्क, CPU और RAM है।
+* डिस्क स्पेस वह आवश्यकता है जिसे लोग कम आँकते हैं। Zcash चेन अगस्त 2026 में **270 GB** पार कर गई, इसलिए कम से कम **300 GB** खाली स्थान रखें, और संभव हो तो SSD पर।
+* सुनिश्चित करें कि आपकी मशीन में स्थिर नेटवर्क, CPU और RAM हो।
 * एक इंटरनेट कनेक्शन 
-* यदि आप source से compile करने की योजना रखते हैं, तो Rust और Cargo स्थापित रखें।
+* यदि आप सोर्स से कंपाइल करने की योजना बना रहे हैं, तो Rust और Cargo इंस्टॉल रखें।
 
-**3. Zebrad इंस्टॉल / सेटअप करें**
-आप पहले से बनी binary डाउनलोड कर सकते हैं या source से build कर सकते हैं।
-* Zcash Foundation, Zebra के लिए releases और binaries प्रकाशित करती है। उदाहरण के लिए, आप कोई install script इस्तेमाल कर सकते हैं या अपने OS के लिए उपयुक्त binary डाउनलोड कर सकते हैं।
+**3. Zebrad का इंस्टॉलेशन / सेटअप**
+आप या तो प्रीबिल्ट बाइनरी डाउनलोड कर सकते हैं या सोर्स से बिल्ड कर सकते हैं।
+* Zcash Foundation Zebra के लिए रिलीज़ और बाइनरी प्रकाशित करता है। उदाहरण के लिए, आप इंस्टॉल स्क्रिप्ट का उपयोग कर सकते हैं या अपने OS के लिए उपयुक्त बाइनरी डाउनलोड कर सकते हैं।
 
-* ध्यान दें कि Zebra के हाल के संस्करणों में, [Docker में RPC endpoint अब डिफ़ॉल्ट रूप से सक्षम नहीं है।](https://zfnd.org/zebra-2-3-0-release/)
+* ध्यान दें कि हाल के Zebra संस्करणों में, [Docker में RPC एंडपॉइंट अब डिफ़ॉल्ट रूप से सक्षम नहीं है।](https://zfnd.org/zebra-2-3-0-release/)
 
-**विकल्प A: पहले से बनी binary के माध्यम से इंस्टॉल करें**  
+**विकल्प A: प्रीबिल्ट बाइनरी के माध्यम से इंस्टॉलेशन**  
 **Linux**/**macOS** पर:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
@@ -68,59 +68,59 @@
 
 यह zebrad का नवीनतम स्थिर संस्करण इंस्टॉल करता है।
 
-**विकल्प B: source से build करें**
+**विकल्प B: सोर्स से बिल्ड**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![bash (3)](/content-images/Syg8FUK6eg-b4557e52e0.svg)
 </div>
 
-Build करने के बाद, binary को अपने path में ले जाएँ:
+बिल्ड करने के बाद, बाइनरी को अपने पाथ में ले जाएँ:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
 ![माइग्रेशन 11](/content-images/BJ0zjLY6ll-f77354d701.webp)
 </div>
 
 **4. कॉन्फ़िगरेशन और लॉन्च**  
-एक डिफ़ॉल्ट config बनाएँ:
+एक डिफ़ॉल्ट कॉन्फ़िग जनरेट करें:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![माइग्रेशन2](/content-images/HJV1C8tTxx-5823395651.webp)
+![migration2](/content-images/HJV1C8tTxx-5823395651.webp)
 </div>
 
-अपनी प्राथमिकताओं के अनुसार **zebrad.toml** संपादित करें (listen address, ports, state directory, caching)।
+**zebrad.toml** को अपनी प्राथमिकताओं के अनुसार संपादित करें (लिसन एड्रेस (listen address), पोर्ट, स्टेट डायरेक्टरी, कैशिंग)।
 
 **नोड शुरू करें:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![छवि](/content-images/H1KPkvt6gl-864c48ca40.webp)
+![image](/content-images/H1KPkvt6gl-864c48ca40.webp)
 </div>
 
-नोड genesis से sync करना शुरू करेगा - hardware और नेटवर्क के आधार पर कई घंटे (या अधिक) लगने की अपेक्षा करें।
+नोड जेनेसिस से सिंक होना शुरू करेगा - हार्डवेयर और नेटवर्क के आधार पर कई घंटे (या अधिक) लगने की अपेक्षा करें।
 
-**5. Zallet (Wallet) इंस्टॉल / सेटअप करें**
+**5. Zallet (वॉलेट) का इंस्टॉलेशन / सेटअप**
 
-Zallet को zcashd के wallet वाले भाग को प्रतिस्थापित करने के लिए डिज़ाइन किया गया है।
+Zallet को zcashd के वॉलेट वाले हिस्से की जगह लेने के लिए डिज़ाइन किया गया है।
 
-Binaries के लिए Zallet GitHub / release page देखें।
+बाइनरी के लिए Zallet GitHub / रिलीज़ पेज देखें।
 
-**या source से build करें:**
+**या सोर्स से बिल्ड करें:**
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![छवि](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
+![image](/content-images/SyUFxvFTex-5bb10ee1d3.webp)
 </div>
 
-* GUI या CLI लॉन्च करें (जैसा आपके installation में उपलब्ध हो)।
-* इसे RPC या API endpoint के माध्यम से अपने स्थानीय Zebrad नोड से जुड़ने के लिए कॉन्फ़िगर करें।
+* GUI या CLI लॉन्च करें (जैसा आपका इंस्टॉलेशन प्रदान करता है)।
+* इसे RPC या API एंडपॉइंट के माध्यम से अपने लोकल Zebrad नोड से कनेक्ट करने के लिए कॉन्फ़िगर करें।
 
-**6. अपना zcashd Wallet Zallet में इंपोर्ट करना**
+**6. आपके zcashd वॉलेट का Zallet में इम्पोर्ट**
 
-इसके लिए आपको चालू zcashd की आवश्यकता नहीं है। Zallet `wallet.dat` फ़ाइल को सीधे पढ़ता है, जो महत्वपूर्ण है क्योंकि zcashd अब शुरू नहीं किया जा सकता।
+इसके लिए आपको चालू zcashd की आवश्यकता नहीं है। Zallet `wallet.dat` फ़ाइल को सीधे पढ़ता है, जो महत्वपूर्ण है क्योंकि zcashd को अब शुरू नहीं किया जा सकता।
 
-> **`wallet.dat` को रखें।** माइग्रेशन उन सभी चीज़ों की रिपोर्ट करता है जिन्हें यह Zallet wallet में प्रदर्शित नहीं कर सकता, इंपोर्ट नहीं करता; तब वह key material केवल `wallet.dat` में मौजूद रहता है। माइग्रेट करने के बाद इसे हटाएँ नहीं।
+> **`wallet.dat` को सुरक्षित रखें।** माइग्रेशन ऐसी किसी भी चीज़ को इम्पोर्ट करने के बजाय रिपोर्ट करता है जिसे वह Zallet वॉलेट में प्रदर्शित नहीं कर सकता, और वह की मटीरियल फिर केवल `wallet.dat` में मौजूद रहता है। माइग्रेट करने के बाद इसे डिलीट न करें।
 
-पहले `zallet init-wallet-encryption` चलाएँ। Zallet key material को age identity में encrypt करता है, और किसी भी keys के इंपोर्ट से पहले उस identity का होना आवश्यक है।
+पहले `zallet init-wallet-encryption` चलाएँ। Zallet की मटीरियल को एक age आइडेंटिटी पर एन्क्रिप्ट करता है, और किसी भी की के इम्पोर्ट होने से पहले उस आइडेंटिटी का मौजूद होना ज़रूरी है।
 
-फिर अपना config और wallet रूपांतरित करें:
+फिर अपने कॉन्फ़िग और अपने वॉलेट को कन्वर्ट करें:
 
 ```bash
 # translate zcash.conf into zallet.toml
@@ -130,44 +130,44 @@ zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir -o /path/to/z
 zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 ```
 
-`migrate-zcashd-wallet` केवल `zcashd-import` feature वाले builds में मौजूद है, और `wallet.dat` पढ़ने के लिए Berkeley DB 6.2 से `db_dump` utility चाहिए, जो zcashd द्वारा इस्तेमाल किया गया संस्करण है। यदि आपके पास एक से अधिक wallet फ़ाइलें हैं, तो प्रत्येक फ़ाइल के लिए command एक बार चलाएँ और बाद के runs में `--allow-multiple-wallet-imports` जोड़ें; प्रत्येक अपने accounts का अलग set बनता है। आपके `rpcuser` और `rpcpassword` स्थानांतरित नहीं किए जाते, क्योंकि Zallet का JSON-RPC डिफ़ॉल्ट रूप से cookie authentication उपयोग करता है; यदि उनकी आवश्यकता हो तो `zallet add-rpc-user` से credentials जोड़ें।
+`migrate-zcashd-wallet` केवल `zcashd-import` फ़ीचर वाले बिल्ड में मौजूद होता है, और `wallet.dat` को पढ़ने के लिए Berkeley DB 6.2 की `db_dump` यूटिलिटी की आवश्यकता होती है, जो वही संस्करण है जिसका zcashd उपयोग करता था। यदि आपके पास एक से अधिक वॉलेट फ़ाइल हैं, तो प्रत्येक फ़ाइल के लिए कमांड एक बार चलाएँ और बाद के रन में `--allow-multiple-wallet-imports` जोड़ें; प्रत्येक फ़ाइल अकाउंट का अपना अलग समूह बन जाती है। आपके `rpcuser` और `rpcpassword` आगे नहीं ले जाए जाते, क्योंकि Zallet का JSON-RPC डिफ़ॉल्ट रूप से कुकी ऑथेंटिकेशन का उपयोग करता है; यदि आपको इनकी आवश्यकता है तो `zallet add-rpc-user` के साथ क्रेडेंशियल जोड़ें।
 
 **क्या स्थानांतरित होता है**
 
-* Mnemonic seeds और उनसे derived keys, जिनमें accounts को zcashd wallet से मेल खाने के लिए फिर से बनाया जाता है
-* स्वतंत्र रूप से इंपोर्ट की गई Sapling spending keys और transparent keys
-* ऐसे transparent watch-only entries जिनमें public key या redeem script शामिल है
-* Account birthdays, ताकि chain scanning सही height से शुरू हो
+* मेनेमोनिक सीड और उनसे व्युत्पन्न की, जिनके अकाउंट zcashd वॉलेट से मेल खाने के लिए फिर से बनाए जाते हैं
+* स्टैंडअलोन रूप से इम्पोर्ट की गई Sapling स्पेंडिंग की (spending key) और ट्रांसपेरेंट (transparent) की
+* ट्रांसपेरेंट वॉच-ओनली एंट्री जिनमें उनकी पब्लिक की या रिडीम स्क्रिप्ट शामिल है
+* अकाउंट बर्थडे, ताकि चेन स्कैनिंग सही ऊँचाई से शुरू हो
 
-**क्या स्थानांतरित नहीं होता।** इन्हें इंपोर्ट करने के बजाय counts के साथ रिपोर्ट किया जाता है:
+**क्या स्थानांतरित नहीं होता।** इन्हें इम्पोर्ट करने के बजाय गिनती के साथ रिपोर्ट किया जाता है:
 
-* **Sprout spending keys और धन।** Zallet Sprout pool का समर्थन नहीं करता। दस्तावेज़ित तरीका zcashd को retire करने से पहले उसके माध्यम से Sprout धन को बाहर स्थानांतरित करना था, और यह अब संभव नहीं है। यदि यह आपको प्रभावित करता है, तो कुछ और करने से पहले [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) या [community forum](https://forum.zcashcommunity.com/) पर पूछें।
-* Address book entries
-* public key या redeem script के बिना संग्रहित watch-only entries, और uncompressed public keys वाली entries
-* Regtest wallets
+* **Sprout स्पेंडिंग की और फंड।** Zallet Sprout पूल का समर्थन नहीं करता। प्रलेखित तरीका यह था कि zcashd को रिटायर करने से पहले उसका उपयोग करके Sprout फंड बाहर निकाले जाएँ, और अब यह संभव नहीं है। यदि यह आपको प्रभावित करता है, तो कुछ भी और करने से पहले [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) या [कम्युनिटी फ़ोरम](https://forum.zcashcommunity.com/) पर पूछें।
+* एड्रेस (address) बुक एंट्री
+* पब्लिक की या रिडीम स्क्रिप्ट के बिना संग्रहीत वॉच-ओनली एंट्री, और अनकम्प्रेस्ड पब्लिक की वाली एंट्री
+* Regtest वॉलेट
 
-**बाद में बैकअप लेना।** केवल mnemonic अपने आप में पूर्ण बैकअप नहीं है, क्योंकि इंपोर्ट की गई keys केवल wallet database में मौजूद होती हैं। `wallet.db`, `keystore.encryption_identity` option द्वारा नामित age encryption identity फ़ाइल, और अपने mnemonic phrase की सुरक्षित प्रतियाँ रखें, तथा मूल `wallet.dat` भी रखें। ध्यान दें कि `wallet.db` स्वयं encrypted नहीं है: इसमें आपकी transaction history और viewing keys स्पष्ट रूप में रहती हैं, इसलिए बैकअप को किसी सुरक्षित स्थान पर संग्रहित करें।
+**बाद में बैकअप।** केवल मेनेमोनिक पूरा बैकअप नहीं है, क्योंकि इम्पोर्ट की गई की केवल वॉलेट डेटाबेस में मौजूद होती हैं। `wallet.db`, `keystore.encryption_identity` विकल्प द्वारा नामित age एन्क्रिप्शन (encryption) आइडेंटिटी फ़ाइल, और अपने मेनेमोनिक फ़्रेज़ की सुरक्षित प्रतियाँ रखें, और मूल `wallet.dat` भी संभालकर रखें। ध्यान दें कि `wallet.db` स्वयं एन्क्रिप्टेड नहीं है: इसमें आपका लेनदेन (transaction) इतिहास और व्यूइंग की (viewing key) बिना एन्क्रिप्शन के रखी होती हैं, इसलिए बैकअप को किसी सुरक्षित स्थान पर रखें।
 
-**Wallet Rescan और Synchronization**
+**वॉलेट रीस्कैन और सिंक्रोनाइज़ेशन**
 
-* Keys इंपोर्ट हो जाने पर, Zallet Zebrad के माध्यम से chain का rescan शुरू करेगा।
-* Zallet को अपना balance और transaction history फिर से बनाने के लिए कुछ समय दें।
+* की इम्पोर्ट होने के बाद, Zallet Zebrad के माध्यम से चेन का रीस्कैन शुरू करेगा।
+* Zallet को आपका बैलेंस और लेनदेन इतिहास फिर से बनाने के लिए कुछ समय दें।
 
-**7. Balances और Sync सत्यापित करें**
+**7. बैलेंस और सिंक का सत्यापन**
 
-इंपोर्ट होने के बाद, Zallet आपके Zebrad नोड से जुड़ेगा और blockchain को फिर से scan करेगा।
-Synchronization पूरा होने पर, आपके balances और transactions पहले की तरह ही दिखने चाहिए।
+इम्पोर्ट होने के बाद, Zallet आपके Zebrad नोड से कनेक्ट होगा और ब्लॉकचेन (blockchain) को रीस्कैन करेगा।
+सिंक्रोनाइज़ेशन पूरा होने पर, आपके बैलेंस और लेनदेन ठीक पहले की तरह दिखाई देने चाहिए।
 
-आप यह चलाकर अपने नोड की sync स्थिति सत्यापित कर सकते हैं:
+आप यह चलाकर अपने नोड की सिंक स्थिति सत्यापित कर सकते हैं:
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![छवि](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
+![image](/content-images/SyIyVDY6xl-10d6bed7b8.webp)
 </div>
 
-या logs जाँचें।
+या लॉग देखें।
 
 <div className="my-8 w-full max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-xl">
-![छवि](/content-images/r1HfVPF6gg-b6b76e9907.webp)
+![image](/content-images/r1HfVPF6gg-b6b76e9907.webp)
 </div>
 
 **8. समस्या निवारण**
@@ -184,28 +184,28 @@ Synchronization पूरा होने पर, आपके balances और t
     <tbody>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
         <td className="px-6 py-4">Zebrad शुरू नहीं होता</td>
-        <td className="px-6 py-4">Port उपयोग में है या config गलत है</td>
-        <td className="px-6 py-4">**zebrad.toml** जाँचें और एक खाली port उपयोग करें</td>
+        <td className="px-6 py-4">पोर्ट पहले से उपयोग में है या कॉन्फ़िग गलत है</td>
+        <td className="px-6 py-4">**zebrad.toml** जाँचें और एक खाली पोर्ट का उपयोग करें</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">धीमा sync</td>
-        <td className="px-6 py-4">नेटवर्क congestion</td>
-        <td className="px-6 py-4">स्थिर इंटरनेट सुनिश्चित करें, Zebrad पुनः आरंभ करें</td>
+        <td className="px-6 py-4">धीमा सिंक</td>
+        <td className="px-6 py-4">नेटवर्क कंजेशन</td>
+        <td className="px-6 py-4">स्थिर इंटरनेट सुनिश्चित करें, Zebrad को रीस्टार्ट करें</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Wallet में transactions गायब हैं</td>
-        <td className="px-6 py-4">अपूर्ण key import</td>
-        <td className="px-6 py-4">Keys फिर से इंपोर्ट करें या Zallet में rescan करें</td>
+        <td className="px-6 py-4">वॉलेट में लेनदेन गायब हैं</td>
+        <td className="px-6 py-4">की का आंशिक इम्पोर्ट</td>
+        <td className="px-6 py-4">की फिर से इम्पोर्ट करें या Zallet में रीस्कैन करें</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
-        <td className="px-6 py-4">Zallet नोड से जुड़ नहीं सकता</td>
-        <td className="px-6 py-4">नोड नहीं चल रहा है या endpoint गलत है</td>
-        <td className="px-6 py-4">Zebrad शुरू करें और सही RPC port सत्यापित करें</td>
+        <td className="px-6 py-4">Zallet नोड से कनेक्ट नहीं हो पा रहा</td>
+        <td className="px-6 py-4">नोड नहीं चल रहा या एंडपॉइंट गलत है</td>
+        <td className="px-6 py-4">Zebrad शुरू करें और सही RPC पोर्ट सत्यापित करें</td>
       </tr>
       <tr className="border-b border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-900/50">
         <td className="px-6 py-4">Zallet क्रैश होता है</td>
-        <td className="px-6 py-4">पुराना build</td>
-        <td className="px-6 py-4">GitHub से नवीनतम release में अपडेट करें</td>
+        <td className="px-6 py-4">पुराना बिल्ड</td>
+        <td className="px-6 py-4">GitHub से नवीनतम रिलीज़ में अपडेट करें</td>
       </tr>
     </tbody>
   </table>
@@ -213,8 +213,8 @@ Synchronization पूरा होने पर, आपके balances और t
 
 **9. निष्कर्ष**
 
-zcashd से Zebrad और Zallet में माइग्रेट करने से आपको तेज़, अधिक सुरक्षित और अधिक आधुनिक Zcash अनुभव मिलता है।
-Rust-आधारित सुरक्षा, मॉड्यूलर डिज़ाइन और बेहतर tooling के साथ, यह सेटअप सुनिश्चित करता है कि Zcash ecosystem के निरंतर विकसित होने पर आपका नोड और wallet भविष्य के लिए तैयार रहें।
+zcashd से Zebrad और Zallet पर माइग्रेट करने से आपको एक तेज़, सुरक्षित और अधिक आधुनिक Zcash अनुभव मिलता है।
+Rust-आधारित सुरक्षा, मॉड्यूलर डिज़ाइन और बेहतर टूलिंग के साथ, यह सेटअप सुनिश्चित करता है कि जैसे-जैसे Zcash इकोसिस्टम विकसित होता रहेगा, आपका नोड और वॉलेट भविष्य के लिए तैयार रहें।
 
-सुझाव: अपनी wallet keys को offline रखें और नियमित रूप से अपने Zallet data का बैकअप लें।
-Zebra के लिए [zebra.zfnd.org](https://zebra.zfnd.org), और Zallet के लिए [The Zallet Book](https://zcash.github.io/zallet/) या [Zallet repository](https://github.com/zcash/zallet) देखें। चरण 6 के लिए The Zallet Book का [zcashd से माइग्रेट करना](https://zcash.github.io/zallet/) अध्याय आधिकारिक संदर्भ है।
+सुझाव: अपनी वॉलेट की ऑफ़लाइन रखें और नियमित रूप से अपने Zallet डेटा का बैकअप लें।
+Zebra के लिए [zebra.zfnd.org](https://zebra.zfnd.org) पर जाएँ, और Zallet के लिए [The Zallet Book](https://zcash.github.io/zallet/) या [Zallet रिपॉज़िटरी](https://github.com/zcash/zallet) देखें। The Zallet Book का [zcashd से माइग्रेशन](https://zcash.github.io/zallet/) अध्याय चरण 6 के लिए आधिकारिक संदर्भ है।

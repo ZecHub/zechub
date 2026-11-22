@@ -4,7 +4,7 @@
 
 # Viewing Key'ler
 
-Shielded adresler, Zcash blokzincirinde mümkün olduğunca az bilgi açığa çıkararak işlem yapmanızı sağlar. Peki *gerçekten* belirli bir tarafa neye sahip olduğunuzu veya ne gönderdiğinizi göstermeniz gerektiğinde ne olur? Her shielded adresin, harcama yetkisi vermeden okuma erişimi tanıyan bir viewing key'i vardır. Viewing key'ler [ZIP 310](https://zips.z.cash/zip-0310) ile tanıtıldı ve Sapling ağ yükseltmesinde protokole eklendi.
+Shielded adresler, Zcash blokzincirinde mümkün olduğunca az bilgi açığa çıkararak işlem yapmanızı sağlar. Peki *gerçekten* belirli bir tarafa neye sahip olduğunuzu veya ne gönderdiğinizi göstermeniz gerektiğinde ne olur? Bir viewing key, harcama yetkisi vermeden okuma erişimi tanır. Viewing key'ler Sprout için zaten mevcuttu; Sapling, alınan bir notun harcandığını tespit etme gibi yetenekler ekledi. [ZIP 310](https://zips.z.cash/zip-0310), viewing key'leri getiren yükseltme değil, Sapling viewing key'lerinin güvenlik özelliklerini belgeleyen bilgilendirici bir taslaktır.
 
 Viewing key, seçici açıklama aracıdır: kimin neyi göreceğini siz seçersiniz ve bunu yapmak için asla harcama yetkisini teslim etmezsiniz.
 
@@ -12,7 +12,7 @@ Viewing key, seçici açıklama aracıdır: kimin neyi göreceğini siz seçersi
 
 Bir görüntüleme anahtarı, korumalı bir Zcash adresinin veya hesabının faaliyetlerine **salt okunur** erişim verir: ona sahip olan kişi gelen (ve tam görüntüleme anahtarları için giden) işlemleri görebilir, ancak asla harcama yapamaz.
 
-- **Nedir:** shielded havuzların seçici açıklama aracı. [ZIP 310](https://zips.z.cash/zip-0310)'da tanıtıldı, Sapling ağ yükseltmesiyle protokole eklendi.
+- **Nedir:** havuz ve anahtar türüne göre yetenekleri değişen shielded havuzların seçici açıklama aracı. [ZIP 310](https://zips.z.cash/zip-0310), bir Sapling tam görüntüleme anahtarının neleri açığa çıkardığını ve hangi bilgilerin garanti edildiğini, doğrulanmadığını, tanımsız veya açığa çıkarılmamış olduğunu belgeler.
 - **Ne sağlar:** yatırımların algılanması (`uivk…` incoming keys) veya bir hesap için tam gelen/giden görünürlüğü (`uview…` unified full viewing keys) ile eski Sapling `zxviews…` anahtarları.
 - **Ne sağlamaz:** harcama yetkisi. Viewing key sahibinin yaptığı hiçbir şey fonları hareket ettiremez.
 - **Bugün nerede çalışır:** [Zallet](https://github.com/zcash/zallet) içinde dışa/içe aktarma (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) ve Zkool gibi cüzdanlarda salt izleme hesapları; güncel destek matrisi için [Wallets](/using-zcash/wallets) sayfasına bakın.
@@ -94,7 +94,9 @@ Bir Sapling adresi geçirmek, eski zcashd davranışıyla uyumlu olarak o hesab�
 
 [Zkool](https://github.com/hhanh00/zkool2), legacy anahtarların yanı sıra unified anahtarları da kabul ettiği için burada en esnek seçenektir. README dosyası, zcashd'den dışa aktarılan legacy shielded extended anahtarların yanında **unified viewing key** veya **Sapling extended viewing key** ile oluşturulan yalnızca görüntüleme hesaplarını belgeler. Yeni bir hesap ekleyin, yalnızca görüntüleme yolunu seçin ve `uview…` veya `zxviews…` anahtarını yapıştırın; hesap daha sonra senkronize olur ve harcama yetkisi olmadan bakiyeleri ve geçmişi raporlar.
 
-Ironwood protokol desteği ve Orchard'dan Ironwood'a geçiş Zkool 6.24.0'da (20 Temmuz 2026) geldi; 6.26.1 (2 Ağustos 2026) ise mempool'daki Ironwood işlem algılamasını düzeltti. 6.26.1 veya daha yeni bir sürüm kullanın.
+Ironwood protokol desteği ve Orchard'dan Ironwood'a geçiş Zkool 6.24.0'da (20 Temmuz 2026) geldi; 6.26.1 (2 Ağustos 2026) ise mempool'daki Ironwood işlem algılamasını düzeltti. NU7 Mainnet'te etkinleştirildiğinden (3.543.405. blok), [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 Ekim 2026) veya daha yeni bir sürüm kullanın: NU7 Mainnet etkinleştirme yüksekliğiyle oluşturulan ilk Zkool sürümüdür ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 ayrıca **birleşik gelen görüntüleme anahtarlarını** da kabul eder. Herhangi bir anahtar girilebilen yere `uivk…` anahtarını yapıştırın; Zkool yalnızca gelen işlemler için bir hesap oluşturur: orijinal hesabın aldığı her şeyi, notlar dâhil, gösterir; gönderdiği hiçbir şeyi göstermez ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Gelen anahtar harcamaları göremez; bu nedenle hesabın bakiyesi kalan tutar değil, alınan toplam tutardır ve hesap harcama yapamaz. Zkool bir hesabın UIVK’sini de dışa aktarabilir ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 
@@ -137,7 +139,7 @@ Bir Viewing Key, bir izin girdisi değil, bir bilgi parçasıdır. Kopyalandıkt
 
 ### Deneme şifre çözme: görüntülemenin gerçekte nasıl çalıştığı
 
-Her korumalı işlem, not açık metinlerini amaçlanan alıcı için şifreler. Görüntüleme anahtarına sahip bir cüzdan **deneme şifre çözme** gerçekleştirir: zincirde bulduğu her işlem için, anahtarla not şifreli metinlerini çözmeye çalışır. Eşleşmeler notun değerini, alıcı çeşitlendiricisini ve notunu ortaya çıkarır; eşleşmemelerin maliyeti yoktur. Bu nedenle aynı gelen görüntüleme anahtarı Orchard ve Ironwood havuzları arasında çalışmaya devam eder — [ZIP 326](https://zips.z.cash/zip-0326), bir alıcıyı Orchard *protokolüne* kapsamlar; dolayısıyla Ironwood not şifreli metinleri Orchard biçimindedir ve Ironwood not şifreleme alanı altında hesabın Orchard görüntüleme anahtarlarıyla deneme şifre çözme uygulanır.
+Her korumalı işlem, notların açık metinlerini hedeflenen alıcı için şifreler. Görüntüleme anahtarına sahip bir cüzdan **deneme şifre çözme** gerçekleştirir: zincirde bulduğu her işlem için anahtarı kullanarak notların şifreli metinlerini çözmeye çalışır. Eşleşmeler notun değerini, alıcı çeşitlendiricisini ve notunu ortaya çıkarır. Bir eşleşme olmaması, eşleşme olması kadar maliyetlidir; çünkü pahalı adım olan anahtar anlaşması, cüzdan notun kendisine ait olup olmadığını anlayamadan önce gerçekleşir. Bu nedenle tarama maliyeti, cüzdanın izlediği her anahtarla birlikte artar (bkz. [Korumalı ödemeleri algılama](Detecting_Shielded_Payments.md)). Aynı gelen görüntüleme anahtarının Orchard ve Ironwood havuzlarında çalışmaya devam etmesinin nedeni budur — [ZIP 326](https://zips.z.cash/zip-0326), bir alıcıyı Orchard *protokolü* kapsamında tanımlar; dolayısıyla Ironwood not şifreli metinleri Orchard biçimindedir ve Ironwood not şifreleme alanı altında hesabın Orchard görüntüleme anahtarlarıyla deneme şifre çözme işleminden geçirilir.
 
 ### Tam ve gelen: hangi türetmenin karar verdiği
 

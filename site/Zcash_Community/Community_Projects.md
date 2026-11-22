@@ -60,7 +60,7 @@ Community engagement and rewards platform designed for Zcash communities, Web3 p
 
 ### Zcash Grants Hub
 Community-focused grants dashboard designed to simplify how Zcash grants are discovered, tracked, and reviewed. It brings grant applications, milestones, budgets, discussions, and analytics into one place by pulling live data from the Zcash Community Grants GitHub repository. The platform aims to provide a clearer and more user-friendly experience for applicants, committee members, and community reviewers.  
-[Visit](https://staging.zgrantshub.com/)
+[Visit](https://zgrantshub.com/)
 
 ---
 
@@ -132,7 +132,7 @@ Live non-custodial tipping platform where every tip arrives as shielded ZEC. Sup
 
 ### CYZE
 A collaborative wallet and coordination platform that allows multiple team members to manage shielded Zcash funds together. It uses FROST threshold signatures, enabling groups to authorize Orchard transactions collectively without giving a single participant complete control over the wallet.  
-[Visit](https://github.com/USCMig/Cyze)
+[Visit](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.  
@@ -168,7 +168,7 @@ Global map of businesses and locations that accept Zcash.
 
 ### ZECping
 Tool to check gRPC response times of Zcash lightwalletd nodes.  
-[Visit](https://github.com/emersonian/zecping)
+[Visit](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Dashboard for real-time Zcash network statistics and shielding metrics.  
@@ -217,7 +217,7 @@ Browser extension that converts fiat currency prices to ZEC in real time as you 
 
 ### Shielded Wall
 Anonymous confession platform powered by Zcash privacy.  
-[Visit](https://shieldedwall.org/)
+[Visit](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Disposable email inbox paid for with shielded ZEC.  
@@ -232,7 +232,7 @@ A privacy-preserving financial tracking and accounting tool for Zcash. It combin
 [Visit](https://zecledger-web.vercel.app/)
 
 ### Authentication with ZcashMe
-A privacy-focused authentication system that uses shielded Zcash transactions as a login mechanism. Users scan a QR code and send a small authentication transaction.  
+A privacy-focused authentication system that uses shielded Zcash transactions as a login mechanism. Users scan a QR code and send a small authentication transaction. The repository is archived (read-only), so the project is no longer maintained.  
 [Visit](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ A privacy-focused authentication system that uses shielded Zcash transactions as
 
 ### Ztreamer
 Heavily optimized open-source Zcash indexer and lightwallet-protocol (CompactTxStreamer) implementation backed by an embedded Zakura node. Runs node + indexer + wallet server in one process (ztreamerd); supports gRPC and Zakura v2 P2P. Fast historical indexing and low-latency serving for light wallets.  
-[Visit](https://github.com/distractedm1nd/ztreamer)  
+[Visit](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Network test suite for zcashd and Zebra developers. Includes a Zcash crawler.  
-[Visit](https://github.com/runziggurat/zcash)
+[Visit](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Linux-first toolkit that brings up a Zebra regtest network with faucet, Unified Address fixtures, and lightwalletd or Zaino, plus reusable GitHub Actions for shielded end-to-end flows.  
@@ -274,7 +274,7 @@ Cooperative, bottom-up business organization model built on Zcash.
 
 ### ZK Global Credit
 Zcash-native credit and voting infrastructure for selective disclosure, settlement readiness, cross-border reputation, and shielded governance.  
-[Visit](https://voting.zkglobalcredit.tech/)
+[Visit](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Tool for anonymous content creation and private donations powered by Zcash.  
@@ -303,6 +303,10 @@ AI platform that provides access to multiple leading AI models while supporting 
 ### zk.poker
 A peer-to-peer poker platform that combines end-to-end encryption, mental poker, and Zcash privacy technology. It is designed so that the operator does not need to know players' cards or directly hold the betting funds.  
 [Visit](https://zkbtc.org/)
+
+### ZKöy
+A Werewolf-style party game for groups in the same room. Players join from their phones; every night choice and vote is sealed as a shielded memo on Zcash testnet, and when the game ends the seed, salt and viewing key are revealed so anyone can check the result on-chain.  
+[Visit](https://zkoy.fun)
 
 ---
 

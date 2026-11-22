@@ -8,6 +8,19 @@ Ironwood è la pool schermata introdotta con l'aggiornamento di rete di luglio 2
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Logo di AltQuick" width="200" height="100"/>
+</a>
+
+- Sito web: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Coppie: ZEC/BTC
+- Supporta: trasparente
+- Tempo di deposito: circa 30 minuti (24 conferme)
+- Ironwood: non applicabile, solo indirizzi trasparenti
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,15 +99,16 @@ ___
 - Ironwood: Prelievi schermati supportati, pool non indicato
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Sito web: [Huobi](https://huobi.com)
+- Sito web: [HTX](https://www.htx.com) (in precedenza Huobi)
 - Coppie: ALL/ZEC
 - Supporta: Trasparente
+- Stato: ZEC depositi e prelievi attualmente sospesi (secondo l'API pubblica HTX, novembre 2026); il trading spot è ancora disponibile
 - Tempo di deposito: 35 minuti 
 - Ironwood: Non applicabile, solo indirizzi trasparenti
 ___

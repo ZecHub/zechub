@@ -39,7 +39,7 @@ Phantom 自己的 **Swap** 按钮也列出了 ZEC，但那会给您上面描述�
 - 选择 **ZEC** 作为您的**目标代币**。
 - 确保 Zcash 可通过兑换界面使用。
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

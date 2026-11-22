@@ -60,7 +60,7 @@ Piattaforma di coinvolgimento e ricompense della community progettata per le com
 
 ### Hub dei finanziamenti di Zcash
 Dashboard dei finanziamenti incentrata sulla community, progettata per semplificare la scoperta, il monitoraggio e la revisione dei finanziamenti di Zcash. Riunisce in un unico luogo richieste di finanziamento, traguardi, budget, discussioni e analisi, recuperando dati in tempo reale dal repository Zcash Community Grants di GitHub. La piattaforma mira a offrire un'esperienza più chiara e intuitiva a candidati, membri del comitato e revisori della community.  
-[Visita](https://staging.zgrantshub.com/)
+[Visita](https://zgrantshub.com/)
 
 ---
 
@@ -132,7 +132,7 @@ Piattaforma di mance live non-custodial in cui ogni mancia arriva come ZEC scher
 
 ### CYZE
 Portafoglio collaborativo e piattaforma di coordinamento che consente a più membri del team di gestire insieme fondi di Zcash schermati. Utilizza firme a soglia FROST, permettendo ai gruppi di autorizzare collettivamente transazioni Orchard senza assegnare a un singolo partecipante il controllo completo del portafoglio.  
-[Visita](https://github.com/USCMig/Cyze)
+[Visita](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 Portafoglio desktop di sola visualizzazione progettato per persone e organizzazioni che devono monitorare fondi schermati senza poterli spendere. Supporta il monitoraggio di transazioni e saldi, note Orchard e Sapling, la visualizzazione dei memo, la valutazione storica in valuta fiat, notifiche di transazione, la crittografia del portafoglio e funzionalità di condivisione dello schermo incentrate sulla privacy.  
@@ -168,7 +168,7 @@ Mappa globale di attività e luoghi che accettano Zcash.
 
 ### ZECping
 Strumento per verificare i tempi di risposta gRPC dei nodi di Zcash lightwalletd.  
-[Visita](https://github.com/emersonian/zecping)
+[Visita](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Dashboard per statistiche della rete di Zcash e metriche di schermatura in tempo reale.  
@@ -217,7 +217,7 @@ Estensione del browser che converte in tempo reale i prezzi in valuta fiat in ZE
 
 ### Shielded Wall
 Piattaforma di confessioni anonime alimentata dalla privacy di Zcash.  
-[Visita](https://shieldedwall.org/)
+[Visita](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Casella di posta elettronica usa e getta pagata con ZEC schermati.  
@@ -232,7 +232,7 @@ Strumento di monitoraggio finanziario e contabilità che preserva la privacy per
 [Visita](https://zecledger-web.vercel.app/)
 
 ### Autenticazione con ZcashMe
-Sistema di autenticazione incentrato sulla privacy che utilizza transazioni di Zcash schermate come meccanismo di accesso. Gli utenti scansionano un codice QR e inviano una piccola transazione di autenticazione.  
+Sistema di autenticazione incentrato sulla privacy che utilizza transazioni di Zcash schermate come meccanismo di accesso. Gli utenti scansionano un codice QR e inviano una piccola transazione di autenticazione. Il repository è archiviato (in sola lettura), quindi il progetto non è più mantenuto.  
 [Visita](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Sistema di autenticazione incentrato sulla privacy che utilizza transazioni di Z
 
 ### Ztreamer
 Implementazione open-source altamente ottimizzata di un indicizzatore di Zcash e del protocollo lightwallet (CompactTxStreamer), supportata da un nodo Zakura integrato. Esegue nodo + indicizzatore + server di portafoglio in un unico processo (ztreamerd); supporta gRPC e Zakura v2 P2P. Indicizzazione storica rapida e servizio a bassa latenza per portafogli leggeri.  
-[Visita](https://github.com/distractedm1nd/ztreamer)  
+[Visita](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Suite di test della rete per sviluppatori di zcashd e Zebra. Include un crawler di Zcash.  
-[Visita](https://github.com/runziggurat/zcash)
+[Visita](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Toolkit incentrato su Linux che avvia una rete regtest Zebra con faucet, fixture Unified Address e lightwalletd o Zaino, oltre ad Actions GitHub riutilizzabili per flussi end-to-end schermati.  
@@ -274,7 +274,7 @@ Modello cooperativo e dal basso di organizzazione aziendale costruito su Zcash.
 
 ### ZK Global Credit
 Infrastruttura di credito e voto nativa di Zcash per divulgazione selettiva, predisposizione al regolamento, reputazione transfrontaliera e governance schermata.  
-[Visita](https://voting.zkglobalcredit.tech/)
+[Visita](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Strumento per la creazione di contenuti anonimi e donazioni private, alimentato da Zcash.  
@@ -303,6 +303,10 @@ Piattaforma AI che offre accesso a diversi modelli AI leader, supportando al con
 ### zk.poker
 Piattaforma di poker peer-to-peer che combina crittografia end-to-end, mental poker e tecnologia per la privacy di Zcash. È progettata affinché l'operatore non debba conoscere le carte dei giocatori né detenere direttamente i fondi delle scommesse.  
 [Visita](https://zkbtc.org/)
+
+### ZKöy
+Un party game in stile Lupus per gruppi riuniti nella stessa stanza. I giocatori si uniscono dal proprio telefono; ogni scelta notturna e ogni voto vengono sigillati come memo schermato sulla testnet di Zcash e, alla fine della partita, vengono rivelati il seed, il salt e le chiavi di visualizzazione, così chiunque può verificare il risultato on-chain.  
+[Visita](https://zkoy.fun)
 
 ---
 

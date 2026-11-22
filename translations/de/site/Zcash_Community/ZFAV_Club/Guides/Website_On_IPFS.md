@@ -14,9 +14,7 @@ Im Gegensatz zum traditionellen Client-Server-Modell des Internets ermöglicht I
 
 Dateien in IPFS werden mittels *content-addressing* adressiert, was bedeutet, dass jede Datei auf Grundlage ihres Inhalts einen eindeutigen Hash oder CONTENT IDENTIFIER (CID) erhält, und dieser Hash verwendet wird, um die Datei aus dem Netzwerk abzurufen.
 
-Wenn ein Nutzer eine Datei zu IPFS hinzufügt, wird die Datei in kleine Teile, sogenannte Blöcke, zerlegt, und jedem Block wird ein CID zugewiesen. Diese Blöcke werden dann auf verschiedenen Nodes im Netzwerk gespeichert, sodass die Datei leicht aus mehreren Quellen abgerufen werden kann.
-
-Dies sorgt für Redundanz und Fehlertoleranz und macht es zugleich schwierig, dass ein einzelner Node zu einem Single Point of Failure oder der Kontrolle wird.
+IPFS speichert Inhalte als Blöcke, die durch CIDs identifiziert werden. Wenn du eine Datei hinzufügst, wird sie auf deinem Knoten gespeichert; sie wird nicht automatisch auf andere Knoten kopiert. Halte eine erreichbare Kopie online oder richte Remote-Pinning ein, damit andere Leser sie abrufen können. Siehe [IPFS-Persistenz](https://docs.ipfs.tech/concepts/persistence/).
 
 Lies [Eine Einführung in IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)
 
@@ -33,57 +31,57 @@ Für dieses Beispiel erstellen wir eine einfache Website.
 
 **Schritt 2:** Verwende eine [HTML-Vorlage!](https://nicepage.com/html-templates) Füge den von dir geschriebenen Text entsprechend ein. Optional kannst du auch ein .CSS-Stylesheet für deine Website erstellen.
 
-**Schritt 3:** Speichere dein Verzeichnis. Alle .html-Seiten + Bilder müssen sich im selben Ordner befinden.
-
-
+**Schritt 3:** Lege deine Startseite in `index.html` im Stammverzeichnis des Website-Ordners ab. Füge ihre Bilder und das CSS hinzu und verwende dabei relative Pfade wie `style.css`, damit sie auch unter einer IPFS-Gateway-URL funktionieren.
 
 ## Einen Node einrichten
 
-Lade IPFS von der [offiziellen Website](https://docs.ipfs.tech/install/ipfs-desktop/) herunter und installiere es.
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) verwaltet den Knoten für dich. Lass ihn laufen, solange du deine Website teilst.
 
+Für den [Kommandozeilen-Weg](https://docs.ipfs.tech/how-to/command-line-quick-start/) initialisiere einmalig ein neues Repository:
 
+```sh
+ipfs init
+```
 
-### IPFS initialisieren:
+Starte dann den Knoten und lass dieses Terminal geöffnet:
 
-Wenn du die Desktop-Anwendung verwendest, musst du nichts initialisieren.
+```sh
+ipfs daemon
+```
 
-Verwende ein Terminal oder eine Eingabeaufforderung und führe den Befehl aus: <mark>ipfs init </mark>.
-
-
+Führen Sie die übrigen Befehle in einem zweiten Terminal aus. Starten Sie keinen zweiten Daemon, wenn IPFS Desktop dieses Repository bereits verwaltet.
 
 **Website-Ordner zu IPFS hinzufügen**:
 
-Wähle den Ordner mit den Dateien deiner Website aus und navigiere zur Option Add Folder.
+Wählen Sie in IPFS Desktop über die Option „Ordner hinzufügen“ den Ordner mit Ihren Website-Dateien aus.
 
 ![](/content-images/ipfs-site-folder-2c96524d98.webp)
 
 --
 
-Wenn du das Terminal verwendest, führe den Befehl <mark>ipfs add -r "folder_name"</mark> aus, um den gesamten Ordner rekursiv zu IPFS hinzuzufügen.
+Führe für den CLI-Weg diesen Befehl im übergeordneten Verzeichnis deines Website-Ordners aus:
 
+```sh
+ipfs add -r folder_name
+```
+
+Ersetze `folder_name` durch den Namen deines Ordners (Namen mit Leerzeichen in Anführungszeichen setzen). Speichere die CID aus der letzten `added ... folder_name`-Zeile: Sie identifiziert das gesamte Verzeichnis, nicht nur `index.html`.
 
 ### Website auf IPFS anpinnen:
 
-Sobald die Dateien deiner Website zu IPFS hinzugefügt wurden, musst du sie **anpinnen**, damit sie im Netzwerk verfügbar bleiben.
+Der CLI-Befehl `ipfs add` pinnt importierte Inhalte standardmäßig lokal. Überprüfe den Pin des Ordners mit:
 
---
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-Wenn du das Terminal verwendest, führe den Befehl aus: If using Terminal, Run command: <mark>ipfs pin add "hash"</mark> 
-
-"hash" = CID des Ordners, den du im vorherigen Schritt hinzugefügt hast.
-
-
-Alternativ kannst du Verzeichnisse auch mit Diensten wie [Pinata](https://pinata.cloud) oder [Dolpin](https://dolpin.io) anpinnen.
-
-Das spart viel Zeit!
-
---
+Ersetze `YOUR_FOLDER_CID` durch die CID aus dem vorherigen Schritt; die Ausgabe sollte `recursive` lauten. Das Pinning schützt die Kopie auf diesem Knoten vor der Garbage Collection, hält einen ausgeschalteten Computer aber nicht online. Damit die Inhalte verfügbar bleiben, während dein Knoten offline ist, richte [Remote-Pinning](https://docs.ipfs.tech/how-to/work-with-pinning-services/) ein und vergewissere dich, dass der Remote-Dienst das Pinning abgeschlossen hat.
 
 ### Auf deine Website über IPFS zugreifen:
 
-Deine Website ist jetzt auf IPFS veröffentlicht und kann mithilfe des Hashs des Ordners aufgerufen werden. Um auf deine Website zuzugreifen, kannst du https://ipfs.io/ipfs/"hash" besuchen.
+Prüfe deine Website zuerst über das lokale Gateway unter `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` (verwende den Gateway-Port, den dein Daemon ausgibt, falls er abweicht). Durch den abschließenden Schrägstrich werden relative Links innerhalb des Verzeichnisses korrekt aufgelöst.
 
-"hash" = CID des Ordners.
+Ein öffentliches Gateway wie `https://ipfs.io/ipfs/YOUR_FOLDER_CID/` kann sie ausliefern, sobald es die Inhalte von einem erreichbaren Knoten abrufen kann. Eine erfolgreiche lokale Vorschau beweist nicht, dass sie öffentlich verfügbar ist.
 
 In unserem Fall ist die CID = "QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3"
 
@@ -107,11 +105,17 @@ Er kann auch verwendet werden, um unsere Website über ein Gateway anzuzeigen: h
 
 Die Website wurde erstellt, jetzt brauchen wir eine Möglichkeit, eine URL auf den Inhalt verweisen zu lassen.
 
-Wenn du bereits eine Webadresse besitzt, kannst du einen neuen Eintrag mit dem TXT-Record "_dnslink(your domain)" hinzufügen. Je nach Anbieter wird dieser möglicherweise automatisch ausgefüllt.
+Für `example.com` fügen Sie diesen DNS-Eintrag hinzu und ersetzen Sie `YOUR_FOLDER_CID` durch die CID Ihres Verzeichnisses:
+
+| Typ | Name | Wert |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Einige DNS-Anbieter hängen die Zone automatisch an; gib dort nur `_dnslink` ein. Wenn du den obigen IPNS-Namen verwendest, kann der Wert stattdessen `dnslink=/ipns/YOUR_IPNS_NAME` lauten. Siehe [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 ![](/content-images/example-c2a9edb28b.webp)
 
-Es wird einige Zeit dauern, bis sich dies im Netzwerk verbreitet hat, bevor du es ansehen kannst.
+Nach der DNS-Propagierung probiere `https://ipfs.io/ipns/example.com/` aus. Um die Website direkt unter `https://example.com/` bereitzustellen, sind außerdem ein DNSLink-fähiges Gateway und eine HTTPS-Konfiguration nötig; der TXT-Eintrag allein richtet diese nicht ein. Folge der [Anleitung für benutzerdefinierte Domains](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
 Glückwunsch! Du hast eine zensurresistente Website eingerichtet.
 

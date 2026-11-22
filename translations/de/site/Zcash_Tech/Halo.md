@@ -28,13 +28,13 @@ Halo ist ein vertrauensloses, rekursives Zero-Knowledge-Proof-System, das von Se
 
 ### Kein vertrauenswürdiges Setup
 
-zk-SNARKs stützen sich als öffentlichen Parameter für das Erstellen und Verifizieren von Beweisen auf eine gemeinsame Referenzzeichenfolge (CRS). Diese CRS muss im Voraus von einer vertrauenswürdigen Partei erzeugt werden. Bis vor Kurzem waren aufwendige sichere Mehrparteienberechnungen (MPC) — wie jene des Aztec-Netzwerks und von Zcash — erforderlich, um das Risiko während dieser [Zeremonie für ein vertrauenswürdiges Setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/) zu mindern.
+Einige zk-SNARK-Konstruktionen wie Groth16 erfordern ein vertrauenswürdiges Setup, um ihre öffentlichen Parameter zu erzeugen, die häufig als gemeinsame Referenzzeichenfolge (CRS) bezeichnet werden. Die CRS wird mit Beweiserstellern und Verifizierern geteilt; sie ist nicht das Geheimnis, das zerstört werden muss. Das geheime Zwischenmaterial („toxischer Abfall“), das durch ein solches Setup entsteht, muss verworfen werden. Eine sichere Mehrparteienberechnung kann dieses Vertrauen verteilen: Die Zeremonie ist sicher, wenn mindestens ein Teilnehmer dem Protokoll folgt und seinen geheimen Beitrag zerstört. Siehe die [Erklärung von ECC zu öffentlichen Parametern und toxischem Abfall](https://zodl.com/snark-parameters/).
 
-Die früheren Sprout- und Sapling-Shielded-Pools von Zcash nutzten die zk-Proving-Systeme BCTV14 und Groth16. Obwohl diese sicher waren, hatten sie Einschränkungen: Sie waren nicht skalierbar, weil sie an eine einzige Anwendung gebunden waren, der „toxic waste“ (Reste des bei der Genesis-Zeremonie erzeugten kryptografischen Materials) konnte fortbestehen, und bei der Einschätzung, ob die Zeremonie akzeptabel war, bestand ein — wenn auch geringes — Vertrauenselement.
+Die früheren Sprout- und Sapling-Shielded-Pools von Zcash nutzten jeweils die Beweissysteme mit vertrauenswürdigem Setup BCTV14 und Groth16. Ihre öffentlichen Parameter stehen weiterhin für die Beweisführung und Verifizierung zur Verfügung. Die Sorge besteht darin, ob geheimes Setup-Material aufbewahrt wurde, das falsche Beweise ermöglichen könnte; die Veröffentlichung des CRS selbst wird erwartet und legt dieses geheime Material nicht offen.
 
-Halo beseitigt das vertrauenswürdige Setup, indem mehrere Instanzen schwieriger Probleme über Zyklen elliptischer Kurven hinweg wiederholt zusammengeführt werden, sodass Rechenbeweise effizient über sich selbst schlussfolgern können (verschachtelte Amortisierung). Ein Nebeneffekt ist, dass die strukturierte Referenzzeichenfolge (das Ergebnis einer Zeremonie) aktualisierbar wird, wodurch Anwendungen wie Smart Contracts ermöglicht werden.
+Halo kombiniert rekursive Beweiskomposition mit einem auf einem Inner-Product-Argument basierenden Polynomial-Commitment-Schema. Seine öffentlichen Parameter erfordern weder eine vertrauenswürdige Setup-Zeremonie noch die Zerstörung einer geheimen Setup-Hintertür. Das Buch [Halo 2 beschreibt diese öffentlichen Gruppenparameter](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Dies unterscheidet sich davon, eine durch eine Zeremonie erzeugte strukturierte Referenzzeichenfolge aktualisierbar zu machen.
 
-Halo gibt Nutzern zwei wichtige Zusicherungen zur Sicherheit eines großskaligen Zero-Knowledge-Proof-Systems. Erstens ermöglicht es Nutzern nachzuweisen, dass niemand, der an der Genesis-Zeremonie beteiligt war, eine geheime Hintertür für die Ausführung betrügerischer Transaktionen geschaffen hat. Zweitens können Nutzer zeigen, dass das System im Laufe der Zeit sicher geblieben ist, auch während es Aktualisierungen und Änderungen durchlief.
+Durch den Wegfall dieser Setup-Anforderung entfällt die Abhängigkeit von der Zerstörung geheimen Zeremonienmaterials für Halo-Beweise. Dadurch wird weder nachgewiesen, dass eine frühere Sprout- oder Sapling-Zeremonie nicht kompromittiert wurde, noch zertifiziert, dass alle späteren Protokolländerungen sicher sind. Rekursive Beweise bestätigen die in ihren Schaltkreisen kodierten Berechnungen unter den Annahmen des Beweissystems. Korrekte Schaltkreise und Implementierungen bleiben weiterhin wichtig; ECCs Erklärung zur Bereitstellung von [Halo 2](https://zodl.com/technical-explainer-halo-on-zcash/) weist ausdrücklich auf das Risiko neuer Bugs oder Designfehler hin.
 
 [Sean Bowe's Erklärung bei Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo verwandelt jedes verifizierte Dokument in einen Stempel auf dem *nächsten*
 
 ### Warum das Entfernen des vertrauenswürdigen Setups wichtig ist
 
-In älteren Systemen stammte das „Siegel“ (die CRS) aus einer Zeremonie. Die Teilnehmenden mussten das Zwischenmaterial vernichten, und alle mussten darauf vertrauen, dass sie dies taten. Das Siegel von Halo wird allein durch Mathematik erzeugt: Es gibt nichts zu vernichten, nichts preiszugeben und keiner Zeremonie zu vertrauen.
+In älteren Systemen mit vertrauenswürdigem Setup stammte das öffentliche „Siegel“ (die CRS) aus einer Zeremonie. Die Teilnehmenden mussten ihr geheimes Zwischenmaterial vernichten und gleichzeitig die öffentlichen Parameter verfügbar halten. Halo vermeidet diese Zeremonie und ihre geheime Setup-Hintertür. Dadurch entfällt nicht die Notwendigkeit, die Ausgabeschlüssel der Nutzer zu schützen oder die Annahmen und Implementierung des Beweissystems zu überprüfen.
 
 ---
 
@@ -120,7 +120,7 @@ Zusätzlich steht Halo 2 unter den [MIT- und Apache-2.0-Open-Source-Lizenzen](ht
 | Häufige Annahme | Wie es tatsächlich ist |
 | --- | --- |
 | „Halo ist ein zukünftiges Upgrade, auf das Zcash wartet.“ | Orchard, seit NU5 (2022) im Mainnet aktiv, läuft bereits auf Halo 2. |
-| „Kein vertrauenswürdiges Setup bedeutet überhaupt keine Parameter.“ | Halo verwendet weiterhin strukturierte Parameter; der Unterschied besteht darin, dass sie keinen toxic waste enthalten und ohne eine Zeremonie erzeugt und aktualisiert werden können, der die Teilnehmenden vertrauen müssen. |
+| „Kein vertrauenswürdiges Setup bedeutet überhaupt keine Parameter.“ | Halo verwendet weiterhin öffentliche Parameter. Sie erfordern keine Zeremonie, bei der den Teilnehmenden vertraut werden muss, geheimes Setup-Material zu zerstören. |
 | „Halo 2 und das Halo-Paper sind dasselbe.“ | Das [Paper](https://eprint.iacr.org/2019/1021.pdf) beschreibt das polynomiale Commitment-Schema und die verschachtelte Amortisierung; Halo 2 ist die Rust-Produktionsimplementierung mit einem Akkumulationsschema und PLONKish-Arithmetisierung. |
 | „Rekursion hilft nur bei der Skalierung der Blockverifizierung.“ | Rekursion komprimiert auch Berechnungen auf Anwendungsebene — siehe die Proofs of Spacetime/Replication von Filecoin und die VDF-Arbeit für Ethereum. |
 

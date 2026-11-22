@@ -39,7 +39,7 @@ Phantom ƒe **Swap** button ŋutɔ hã fia ZEC, gake ema ana token si woɖe fia 
 - Tia **ZEC** abe wò **token si wòayi ɖoƒe** ene.
 - Kpɔ be Zcash li ɖe asi to ɖɔli ɖɔli interface la me.
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

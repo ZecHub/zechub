@@ -25,21 +25,21 @@ RedBridge 支持广泛的用例 [use cases]，包括跨链 [cross-chain] 去中�
 
 ## 交付成果与文档
 
-**Avalanche 上的 Zcash Elastic Subnet Bridge**：[拨款提案](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Avalanche 上的 Zcash Elastic Subnet Bridge**：[拨款提案](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 以下是为 Zcash Avalanche RedBridge 项目完成的主要交付成果和技术资源：
 
-交付成果 1.1：初步 PoC，支持通过 CLI 从测试网 Avalanche 子网查询测试网 Zcash 交易，已发布于 GitHub，并在 Avalanche 测试网上部署了一个单节点子网。https://github.com/red-dev-inc/zavax-oracle
+交付成果 1.1：初步 PoC，支持通过 CLI 从测试网 Avalanche 子网查询测试网 Zcash 交易，已发布于 GitHub，并在 Avalanche 测试网上部署了一个单节点子网。https://github.com/red-dev-inc/redbridge-oracle
 
-交付成果 2.1：[架构](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+交付成果 2.1：[架构](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### 里程碑 3：2024 年 3 月 31 日
 
 交付成果 3.1 已完成，展示了我们关于在 ZavaX 桥中采用 FROST 而非 BLS 进行阈值签名 [signatures] 的分析。这一转变利用了来自 Zcash Foundation 的经审计库，并有助于实现更好的集成和安全性。https://github.com/ZcashFoundation/frost
 
-交付成果 3.2：已完成 GUI 的 UX 和 UI 设计，详细说明了我们针对 ZavaX Oracle 子网的安全增强措施，并获得渗透测试结果支持。有关更多详情，包括服务器配置和测试结果，请参阅 [安全评估](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[审计报告](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
-此外，团队已从 ZavaX 更名为 redbridge，并将质押 [staking] 代币 [token] 从 ZAX 更改为 RBR。
+交付成果 3.2：已完成 GUI 的 UX 和 UI 设计，详细说明了我们针对 ZavaX Oracle 子网的安全增强措施，并获得渗透测试结果支持。有关更多详情，包括服务器配置和测试结果，请参阅 [安全评估](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[审计报告](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
+此外，团队已从 ZavaX 更名为 redbridge，并将我们的质押 [staking] 代币 [token] 从 ZAX 更改为 RBR。
 
 ### 里程碑 4：2024 年 4 月 30 日
 交付成果 4.1：已完全功能化部署至 Zcash 和 Avalanche 测试网，配备一个 3 验证者子网，并支持 CLI
@@ -51,9 +51,9 @@ RedBridge 支持广泛的用例 [use cases]，包括跨链 [cross-chain] 去中�
 交付成果 6.1：成功通过软件审计
 交付成果 6.2：将经审计的源代码发布至公开的 GitHub 仓库
 
-查看 [GitHub 仓库](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+查看 [GitHub 仓库](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-如需更多技术细节，建议用户查阅 RedBridge 项目的仓库和文档，以 [探索](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) 集成细节、测试框架和安全协议。
+如需更多技术细节，建议用户查阅RedBridge项目的仓库和文档，以[探索](https://github.com/red-dev-inc/red-bridge)集成细节、测试框架和安全协议。
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

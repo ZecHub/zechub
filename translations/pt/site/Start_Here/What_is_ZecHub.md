@@ -1,19 +1,19 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/What_is_ZecHub.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 
 # O que é o ZecHub?
 ---
 
-ZecHub é um hub de educação descentralizado para o Zcash. O objetivo do [ZecHub](http://zechub.xyz) é fornecer uma plataforma educacional onde membros da comunidade possam trabalhar juntos na criação, validação e promoção de conteúdo que apoie o ecossistema do Zcash. Fazemos isso por meio de alguns mecanismos.
+O ZecHub é um hub educacional descentralizado para o Zcash. O objetivo do [ZecHub](http://zechub.xyz) é oferecer uma plataforma educacional onde os membros da comunidade possam trabalhar juntos para criar, validar e divulgar conteúdo que apoie o ecossistema Zcash. Fazemos isso por meio de alguns mecanismos.
 
 1. [Tutoriais](https://www.youtube.com/playlist?list=PL6_epn0lASLFF28ePj7P5TvtMG_WE7p3O)
-2. [Documentação wiki](https://zechub.wiki/)
-3. [Um podcast entrevistando membros da comunidade](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
+2. [Documentos da wiki](https://zechub.wiki/)
+3. [Um podcast com entrevistas de membros da comunidade](https://www.youtube.com/playlist?list=PL6_epn0lASLHlNCMtUErX8UfaJK6N9K5O).
 4. [Uma newsletter semanal do Zcash.](https://zechub.substack.com/)
 
-Os tutoriais, blogs de formato curto e a newsletter são open source e hospedados no GitHub, o que significa que qualquer pessoa da comunidade pode contribuir. Isso garante que o conteúdo seja preciso e que o próprio canal não sofra com um único ponto de falha.
+Os tutoriais, os blogs curtos e a newsletter são de código aberto e hospedados no GitHub, ou seja, qualquer pessoa da comunidade pode contribuir. Isso garante que o conteúdo seja preciso e que o próprio canal não tenha nenhum ponto único de falha.
 
 Se você é novo no Zcash, use [este guia](/start-here/new-user-guide).****
 
@@ -21,17 +21,17 @@ Se você é novo no Zcash, use [este guia](/start-here/new-user-guide).****
 
 ---
 
-1. Vá para o [repositório do GitHub do ZecHub](https://github.com/ZecHub/zechub)
+1. Acesse o [repositório GitHub do ZecHub](https://github.com/ZecHub/zechub)
    
-2. Crie uma nova conta no GitHub ou entre com a sua própria
+2. Crie uma nova conta no GitHub ou faça login com a sua
    
-3. Siga este guia para aprender como fazer um pull request:
+3. Siga este guia para aprender a fazer um pull request:
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/8eYDTyV39a4"
-    title="Como contribuir para o ZecHub!"
+    title="How to Contribute to ZecHub!"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -39,11 +39,11 @@ Se você é novo no Zcash, use [este guia](/start-here/new-user-guide).****
 </div>
 
 
-## Diretrizes para contribuidores
+## Diretrizes para colaboradores
 
 ---
 
-No interesse de manter uma aparência uniforme no ZecHub, há um modelo que você pode usar ao adicionar páginas ao repositório.
+Para manter uma aparência uniforme no ZecHub, existe um modelo que você pode usar ao adicionar páginas ao repositório.
 
 ```markdown
 1. All pages should have additional resources (ie. links to z.cash) to support content
@@ -59,8 +59,8 @@ Doações: [aqui](https://mainnet.zcashexplorer.app/ua/u17sawf3pdh7z6tsy83vhjd2z
 
 
 
-**AVISO LEGAL: O ZecHub é uma iniciativa completamente independente e open source fundada por membros da comunidade do Zcash. Nada contido neste repositório do GitHub deve ser considerado aconselhamento financeiro ou de investimento - é apenas para fins informativos.**
+**AVISO: o ZecHub é uma iniciativa totalmente independente e de código aberto, fundada por membros da comunidade Zcash. Nada do que está contido neste repositório do GitHub deve ser considerado aconselhamento financeiro ou de investimento; ele tem fins exclusivamente informativos.**
 
 ---
 
-*Se você quiser adicionar ou sugerir edições para esta página da wiki, acesse o [repositório do GitHub do ZecHub](https://github.com/ZecHub/zechub) e envie um pull request.*
+*Se você quiser adicionar conteúdo ou sugerir edições a esta página da wiki, acesse o [repositório ZecHub no GitHub](https://github.com/ZecHub/zechub) e envie um pull request.*

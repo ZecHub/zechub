@@ -25,7 +25,7 @@
 [Αρχιτεκτονική συστήματος](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- Ο χρήστης εγκαθιστά/μεταγλωττίζει το Zcash Zingolib, το οποίο παρέχει πρόσβαση στο zingo-cli. Μπορεί να στείλει/λάβει το ZEC όπως χρειάζεται.
+- Ο χρήστης εγκαθιστά/μεταγλωττίζει το Zcash Zingolib, το οποίο παρέχει πρόσβαση στο zingo-cli. Μπορεί να στείλει/λάβει ZEC όπως χρειάζεται.
 - Το zingo-cli συνδέεται με το zaino είτε τοπικά είτε μέσω ασφαλούς καναλιού online (ο χρήστης του Zcash δεν ενδιαφέρεται για το πώς λειτουργεί αυτό!)
 - Το Zaino επιτρέπει πρόσβαση είτε στο zebrad είτε στο zcashd            
 - Το πλήρως συγχρονισμένο zebrad είναι η πηγή αλήθειας (δεν υπάρχουν πλέον πορτοφόλια εδώ!)
@@ -43,10 +43,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Χρησιμοποίησε Zebra 7.0.0 ή νεότερη έκδοση: το NU7 ενεργοποιήθηκε στο Mainnet στο μπλοκ 3.543.405 και οι παλαιότερες εκδόσεις του `zebrad` δεν μπορούν να ακολουθήσουν την αλυσίδα πέρα από αυτό το ύψος ([σημειώσεις έκδοσης](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *προαιρετικό* (δημιούργησε μια συνεδρία screen για το zebrad)
 
 ```

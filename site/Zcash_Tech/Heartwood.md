@@ -36,6 +36,37 @@ Heartwood is one step in a run of Zcash upgrades, each adding a piece the next o
 
 ![Timeline of Zcash upgrades: Overwinter and Sapling in 2018, Blossom in 2019, and Heartwood in 2020](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
+## TL;DR
+
+- Heartwood activated at mainnet block 903,000 (July 16, 2020 UTC), deployed by ZIP 250 with a new consensus branch id for two-way replay protection.
+- ZIP 213 (Shielded Coinbase): coinbase transactions may contain Sapling outputs, so miners can receive block rewards straight into a shielded address.
+- ZIP 221 (FlyClient): the header's hashLightClientRoot now commits to a Merkle Mountain Range, letting light clients verify proof-of-work with proofs that grow only logarithmically.
+- Transparent coinbase outputs are still fully supported — shielded coinbase is a new option, not a mandate.
+- Activation happens at a block height, not a clock time, so the exact minute differs between dashboards and timezones.
+
+## Core Explanation
+
+Before Heartwood, a miner's freshly minted ZEC had to start life in a transparent address, so anyone could watch a miner's income and trace where it went. ZIP 213 relaxed the consensus rule so the coinbase transaction may pay Sapling outputs, keeping a miner's pay private from the very first moment of existence. It targets Sapling specifically because Sapling's efficient proving made shielding inside the coinbase practical; Sprout's heavy proofs were not feasible there.
+
+ZIP 221 repurposed the header field hashFinalSaplingRoot as hashLightClientRoot. It now commits to a Merkle Mountain Range built over prior blocks' header data — timestamps, difficulty targets, Sapling roots, accumulated work, transaction counts. A light client or another chain can then verify Zcash's proof-of-work with a small proof instead of downloading every block.
+
+## Visual analogy
+
+Before: every miner's payday was posted on a public noticeboard — the amount and the trail were readable by anyone. After: payday can arrive in a sealed envelope. And each new block now carries a compact wax seal summarizing every block before it, so a stranger can confirm the whole chain of work with a glance instead of reading every page.
+
+## Deep Dive
+
+The rule change had history: Sapling had extended the original ban on shielded coinbase to also cover Sapling outputs, and Heartwood lifted that restriction to permit them — a clean example of one upgrade's plumbing becoming the next upgrade's foundation. The MMR commitment pays off in lightweight wallets and cross-chain integration, where verifying Zcash's work previously required full-chain downloads. The consensus branch id added at activation gives two-way replay protection: a transaction built under the new rules cannot be replayed on the old chain, and the reverse.
+
+## Common Mistakes
+
+- **Thinking shielded coinbase became mandatory.** Transparent coinbase outputs are still valid; miners choose.
+- **Assuming Sprout can receive shielded coinbase.** Only Sapling outputs are permitted — Sprout's proving was too resource-intensive.
+- **Believing FlyClient removes the need for full nodes.** It serves light clients and cross-chain verifiers; full nodes still anchor the network.
+- **Looking for a fixed activation clock time.** Activation was defined at block 903,000, so the wall-clock minute varies.
+- **Confusing hashLightClientRoot with the old hashFinalSaplingRoot.** The same field was repurposed and renamed.
+
+
 ## Glossary
 
 | Term | Plain-English meaning |
@@ -95,5 +126,13 @@ Coinbase outputs had to be transparent, so a miner's newly minted reward always 
 [Zcash Foundation](../zcash-organizations/zcash-foundation)
 
 ---
+
+## Related Pages
+
+- [Sapling](./Sapling.md) — the efficient machinery that made shielded coinbase feasible
+- [Canopy](./Canopy.md) — the next upgrade in the series
+- [Full Nodes](./Full_Nodes.md) — what full verification still provides
+- [What a Block Explorer Can See](./What_a_Block_Explorer_Can_See.md) — what transparent vs shielded coinbase reveals
+
 
 Series: [Network Upgrades index](../start-here/network-upgrades) · Previous: [Blossom](../zcash-tech/blossom) · Next: [Canopy](../zcash-tech/canopy)

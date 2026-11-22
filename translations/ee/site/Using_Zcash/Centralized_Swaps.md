@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Nudzɔdzɔƒe si le Internet dzi: https://trocador.app/
 - Ɖeɖeŋugbe: Ɖo asi le Cryptocurrency ŋu le ɣaɣla me. Kaba. Dedie. Burokrasi aɖeke mele o. Debit kadidi siwo wòxɔa ga ɖe edzi hafi wozãe li.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Nudzɔdzɔƒe si le Internet dzi: https://github.com/firoorg/FiroDEX-Desktop
-- Ɖeɖeŋugbe: Haɖeɖe aɖeke manye mɔfiame o me ɖɔli ɖɔli si wotsɔ atomic swaps kple FiroDEX! wɔ.
+- Ɖeɖeŋugbe: Atomic-swap ƒe desktop app. Wometsɔa dzi le eme azɔ o: Firo kɔ repository la ɖe nudzraɖoƒe, eye eƒe release mlɔetɔe nye 0.8.2-beta (February 2025). FiroDEX-Desktop
 
 ___
 

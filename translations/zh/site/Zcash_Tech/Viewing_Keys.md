@@ -4,7 +4,7 @@
 
 # Viewing Keys
 
-屏蔽地址让您可以在 Zcash blockchain 上进行交易，同时尽可能少地暴露信息。那么，当您*确实*需要向特定方展示您持有什么或发送了什么时，会发生什么？每个屏蔽地址都有一个 viewing key，它授予读取权限，但不授予花费能力。Viewing keys 最初在 [ZIP 310](https://zips.z.cash/zip-0310) 中提出，并在 Sapling 网络升级中加入协议。
+屏蔽地址让您可以在 Zcash blockchain 上进行交易，同时尽可能少地暴露信息。那么，当您*确实*需要向特定方展示您持有什么或发送了什么时，会发生什么？viewing key 授予读取权限，但不授予花费能力。Sprout 已有 viewing key；Sapling 增加了诸如检测已接收的 note 是否已被花费等功能。[ZIP 310](https://zips.z.cash/zip-0310) 是一份记录 Sapling viewing key 安全属性的信息性草案，而非引入 viewing key 的升级。
 
 Viewing key 是用于选择性披露的工具：您可以选择谁能看到什么，并且无需交出花费权限。
 
@@ -12,7 +12,7 @@ Viewing key 是用于选择性披露的工具：您可以选择谁能看到什�
 
 Viewing key 授予对屏蔽 Zcash 地址或账户活动的**只读**访问权限：持有者可以查看传入交易（以及对于完整 viewing key 而言的传出交易），但永远无法花费。
 
-- **它是什么：** 屏蔽池的选择性披露工具。最初在 [ZIP 310](https://zips.z.cash/zip-0310) 中提出，并在 Sapling 网络升级中加入协议。
+- **它是什么：** 屏蔽池的选择性披露工具，其功能因 pool 和密钥类型而异。[ZIP 310](https://zips.z.cash/zip-0310) 记录了 Sapling 完整 viewing key 会揭示什么，以及哪些信息是保证、未经验证、未定义或未披露的。
 - **它授予什么：** 检测存款（`uivk…` 传入密钥），或查看账户完整的传入/传出记录（`uview…` 统一完整 viewing keys），以及旧版 Sapling `zxviews…` 密钥。
 - **它不授予什么：** 花费权限。Viewing key 持有者所做的任何事情都无法转移资金。
 - **目前适用范围：** 在 [Zallet](https://github.com/zcash/zallet)（v0.1.0-beta.2+、`z_exportviewingkey` / `z_importviewingkey`）中导出/导入，以及在诸如 Zkool 等钱包中使用仅监视账户；请参阅 [钱包](/using-zcash/wallets) 页面了解当前支持矩阵。
@@ -94,7 +94,9 @@ zallet rpc z_exportviewingkey '"<unified address>"' true
 
 [Zkool](https://github.com/hhanh00/zkool2) 是这里最灵活的选项，因为它既接受统一密钥，也接受旧版密钥。其 README 记录了通过**统一 viewing key**或**Sapling 扩展 viewing key**创建的仅监视账户，以及从 zcashd 导出的旧版屏蔽扩展密钥。添加新账户，选择仅监视路径，然后粘贴 `uview…` 或 `zxviews…` 密钥；该账户随后会同步，并在没有花费权限的情况下报告余额和历史记录。
 
-Ironwood 协议支持以及 Orchard 到 Ironwood 的迁移在 Zkool 6.24.0（2026 年 7 月 20 日）中推出，而 6.26.1（2026 年 8 月 2 日）修复了 mempool 中的 Ironwood 交易检测。请运行 6.26.1 或更高版本。
+Ironwood 协议支持以及 Orchard 到 Ironwood 的迁移在 Zkool 6.24.0（2026 年 7 月 20 日）中推出，而 6.26.1（2026 年 8 月 2 日）修复了 mempool 中的 Ironwood 交易检测。由于 NU7 已在 Mainnet 激活（区块 3,543,405），请运行 [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0)（2026 年 10 月 25 日）或更高版本：这是首个基于 NU7 Mainnet 激活高度构建的 Zkool 版本（[zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)）。
+
+6.35.0 还支持**统一接收 viewing key**。在任何可以输入密钥的位置粘贴一个 `uivk…` 密钥，Zkool 就会创建一个仅接收的账户：它会显示原账户收到的内容，包括备忘录，但不会显示原账户发送的任何内容（[zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)）。接收密钥无法查看支出，因此账户余额是收到的总额，而不是剩余金额，并且该账户无法花费。Zkool 还可以导出账户的 UIVK（[zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)）。
 
 ### Zallet
 
@@ -137,7 +139,7 @@ Viewing key 是一段信息，而不是权限条目。一旦被复制，它会�
 
 ### 试解密：查看实际如何运作
 
-每笔屏蔽交易都会将其 note 明文加密给预定接收者。持有 viewing key 的钱包会进行**试解密**：对于它在链上发现的每笔交易，它都会尝试用该密钥解密 note 密文。成功时会揭示 note 的价值、接收者 diversifier 和备忘录；失败则无需付出代价。这就是为什么同一个传入 viewing key 能持续适用于 Orchard 和 Ironwood pools——[ZIP 326](https://zips.z.cash/zip-0326) 将接收器的范围定义为 Orchard *协议*，因此 Ironwood note 密文具有 Orchard 形态，并在 Ironwood note 加密域下使用账户的 Orchard viewing keys 进行试解密。
+每笔屏蔽交易都会将其 note 明文加密给预定接收者。持有 viewing key 的钱包会进行**试解密**：对于它在链上发现的每笔交易，它都会尝试用该密钥解密 note 密文。成功时会揭示 note 的价值、接收者 diversifier 和备忘录。失败所需的计算量与成功时大致相同，因为在钱包能够判断该 note 是否属于自己之前，就必须先完成耗时的密钥协商，因此随着钱包监控的每个密钥增加，扫描成本也会增加（参见 [检测屏蔽支付](Detecting_Shielded_Payments.md)）。这就是为什么同一个传入 viewing key 能持续适用于 Orchard 和 Ironwood pool——[ZIP 326](https://zips.z.cash/zip-0326) 将接收器的范围限定为 Orchard *协议*，因此 Ironwood note 密文具有 Orchard 形态，并在 Ironwood note 加密域下使用账户的 Orchard viewing keys 进行试解密。
 
 ### 完整与传入：派生方式决定什么
 

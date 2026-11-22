@@ -91,18 +91,18 @@ Crosslink 协议正由 Shielded Labs 与 ZODL 等关键生态系统合作伙伴�
 * 激活逻辑：引入 Crosslink 需要修改 Zcash 共识规则，包括定义质押分配流程以及更新网络协议规则以支持混合共识。
 * 分阶段部署：该协议将分阶段推出，以确保网络稳定性和社区适应。初始阶段侧重于技术实施，随后纳入用于选择公证人的治理机制。
 
-早期原型及其文档位于 [zebra-crosslink 存储库，托管于 GitHub](https://github.com/ShieldedLabs/zebra-crosslink)，以及 [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/)。当前工作将在下一节中说明。
+早期原型及其文档位于 [zebra-crosslink 存储库，托管于 GitHub](https://github.com/ShieldedLabs/zebra-crosslink)（已于 2026 年 11 月 12 日停用），以及 [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/)。当前工作将在下一节中说明。
 
 ### Crosslink 当前进展
 
 Crosslink 仍是一项提案。Shielded Labs 的 [Crosslink 常见问题](https://shieldedlabs.net/crosslink-faq/) 表示，在它能够在主网上激活之前，"需要经过标准的 Zcash 治理流程"。
 
-目前存在的是**Feature Net**：这是由 Shielded Labs 运行的测试网络，拥有自己的测试币 cTAZ，任何人都可以挖矿、质押并运行 finalizer。[Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) 于 2026 年 10 月 1 日发布，起初为纯工作量证明，并分阶段启用 Crosslink：从区块 20,736 开始质押，在区块 34,560 确定首批 finalizer 名单，并从区块 36,288 开始实现 BFT 终局性（[来源](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)）。
+目前存在的是**Feature Net**：这是由 Shielded Labs 运行的测试网络，拥有自己的测试币 cTAZ，任何人都可以挖矿、质押并运行 finalizer。[Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) 于 2026 年 10 月 1 日发布，最初采用纯工作量证明，并分阶段启用了 Crosslink：从区块 20,736 开始质押，在区块 34,560 确定首批 finalizer 名单，并从区块 36,288 开始实现 BFT 终局性（[来源](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)）。后续版本会升级同一网络：[version 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) 在 PoW 高度 55,296 发布，[version 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17)（2026 年 11 月 5 日）在高度 165,000 发布，[version 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)（2026 年 11 月 17 日）在区块 189,000 发布。从 [version 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) 开始，每个版本在发布两周后停止运行，因此请始终运行 [最新版本](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)。
 
 本页中的两项内容自撰写以来已有变化：
 
-* **此处称为公证人的角色，在 Shielded Labs 的软件和发行说明中被称为 finalizer。** 质押者将代币委托给 finalizer，拥有最多质押额的 finalizer 会投票使区块终局化。
-* **代码已迁移。** 上述 zebra-crosslink 存储库最后一次更新于 2026 年 4 月。Feature Net 的发行版本来自 [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)，其设计记录于 [Crosslink 一书](https://shieldedlabs.github.io/crosslink_book/)中。
+* **此处称为公证人的角色，在 Shielded Labs 的软件和发行说明中被称为 finalizer。** 质押者将代币委托给 finalizer，质押额最高的 finalizer 会投票敲定区块。
+* **代码已迁移。** 上述 zebra-crosslink 存储库已于 2026 年 11 月 12 日停用，其 README 现在指向 [Shielded Labs 的 Crosslink 页面](https://shieldedlabs.net/crosslink)。Feature Net 的发行版本来自 [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)，其设计记录于 [Crosslink 一书](https://shieldedlabs.github.io/crosslink_book/)中。
 
 如要亲自尝试，请遵循 [Crosslink Feature Net](/guides/crosslink-feature-net) 指南。如要在不运行任何内容的情况下观察网络，请在 Crosslink[ZecHub 工具](https://zechub.wiki/tools?tool=crosslink)中打开该标签页。
 

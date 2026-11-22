@@ -28,13 +28,13 @@ Halo is a trustless, recursive zero-knowledge proof system discovered by Sean Bo
 
 ### No trusted setup
 
-zk-SNARKs rely on a common reference string (CRS) as a public parameter for proving and verifying. This CRS must be generated in advance by a trusted party. Until recently, elaborate secure multi-party computations (MPC) — as those performed by the Aztec network and Zcash — were necessary to mitigate the risk involved during this [trusted setup ceremony](https://zkproof.org/2021/06/30/setup-ceremonies/amp/).
+Some zk-SNARK constructions, such as Groth16, require a trusted setup to generate their public parameters, often called a common reference string (CRS). The CRS is shared with provers and verifiers; it is not the secret that must be destroyed. The secret intermediate material ("toxic waste") produced by such a setup must be discarded. A secure multi-party computation can distribute that trust: the ceremony is secure if at least one participant follows the protocol and destroys their secret contribution. See ECC's [explanation of public parameters and toxic waste](https://zodl.com/snark-parameters/).
 
-Zcash's earlier Sprout and Sapling shielded pools utilised the BCTV14 and Groth16 zk-proving systems. While these were secure, they had limitations: they were not scalable because they were tied to a single application, the "toxic waste" (remnants of cryptographic material generated during the genesis ceremony) could persist, and there was an element of trust (albeit minute) in deeming the ceremony acceptable.
+Zcash's earlier Sprout and Sapling shielded pools used trusted-setup proving systems, BCTV14 and Groth16 respectively. Their public parameters remain available for proving and verification. The concern is whether secret setup material was retained, which could allow false proofs; publishing the CRS itself is expected and does not reveal that secret material.
 
-Halo removes the trusted setup by repeatedly collapsing multiple instances of hard problems together over cycles of elliptic curves, so that computational proofs can be used to reason about themselves efficiently (nested amortization). A side effect is that the structured reference string (the output of a ceremony) becomes upgradeable, enabling applications such as smart contracts.
+Halo combines recursive proof composition with a polynomial commitment scheme based on an inner product argument. Its public parameters do not require a trusted setup ceremony or the destruction of a secret setup trapdoor. The [Halo 2 book describes these public group parameters](https://zcash.github.io/halo2/background/pc-ipa.html#setup). This is different from making a ceremony-generated structured reference string upgradeable.
 
-Halo provides users with two important assurances about the security of a large-scale zero-knowledge proof system. First, it enables users to prove that no one involved in the genesis ceremony has created a secret backdoor to execute fraudulent transactions. Second, it allows users to demonstrate that the system has remained secure over time, even as it has undergone updates and changes.
+Removing this setup requirement avoids relying on the destruction of secret ceremony material for Halo proofs. It does not prove that an earlier Sprout or Sapling ceremony was uncompromised, nor certify that all later protocol changes are secure. Recursive proofs attest to the computations encoded in their circuits, under the proof system's assumptions. Correct circuits and implementations still matter; ECC's [Halo 2 deployment explainer](https://zodl.com/technical-explainer-halo-on-zcash/) explicitly notes the risk of new bugs or design flaws.
 
 [Sean Bowe's explainer at Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo turns each verified document into a stamp on the *next* document, until the
 
 ### Why removing the trusted setup matters
 
-In older systems, the "seal" (the CRS) came from a ceremony. Participants had to destroy the intermediate material, and everyone had to trust that they did. Halo's seal is produced by mathematics alone: there is nothing to destroy, nothing to leak, and no ceremony to trust.
+In older trusted-setup systems, the public "seal" (the CRS) came from a ceremony. Participants had to destroy their secret intermediate material while keeping the public parameters available. Halo avoids that ceremony and its secret setup trapdoor. This does not remove the need to protect users' spending keys or to check the proof system's assumptions and implementation.
 
 ---
 
@@ -120,7 +120,7 @@ Additionally, Halo 2 is under the [MIT and Apache 2.0 open-source licenses](http
 | Common belief | What is actually the case |
 | --- | --- |
 | "Halo is a future upgrade Zcash is waiting for." | Orchard, live on mainnet since NU5 (2022), already runs on Halo 2. |
-| "No trusted setup means no parameters at all." | Halo still uses structured parameters; the difference is that they carry no toxic waste and can be generated and upgraded without a ceremony participants must trust. |
+| "No trusted setup means no parameters at all." | Halo still uses public parameters. They do not require a ceremony in which participants must be trusted to destroy secret setup material. |
 | "Halo 2 and the Halo paper are the same thing." | The [paper](https://eprint.iacr.org/2019/1021.pdf) describes the polynomial commitment scheme and nested amortization; Halo 2 is the production Rust implementation with an accumulation scheme and PLONKish arithmetisation. |
 | "Recursion only helps with scaling block verification." | Recursion also compresses application-level computation — see Filecoin's proofs of spacetime/replication and the VDF work for Ethereum. |
 

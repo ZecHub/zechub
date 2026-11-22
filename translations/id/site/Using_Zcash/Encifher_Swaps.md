@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC Swap Menggunakan Encrypt.trade**
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# Swap SOL/USDC ke ZEC Menggunakan encrypt.trade
+
+> Swap SOL atau USDC di Solana menjadi ZEC, dengan langkah lintas-chain yang diarahkan melalui NEAR Intents.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Swap dari Solana ke Zcash, dengan langkah lintas-chain yang diarahkan melalui NEAR Intents.*
+---
+
+## Ringkasan singkat
+
+* [encrypt.trade](https://encrypt.trade/zec) membungkus SOL atau USDC menjadi token terenkripsi (eSOL/eUSDC), lalu menukarnya menjadi ZEC melalui NEAR Intents.
+* Jumlah dana disembunyikan di Solana, tetapi alamat dompetmu dan penggunaan aplikasinya bersifat publik.
+* ZEC hanya dikirim ke alamat transparan (t1/t3), sehingga terlihat di chain Zcash hingga kamu menjadikannya terlindungi.
+* Jadikan ZEC terlindungi di dompetmu segera setelah tiba.
+* Aplikasi dan NEAR Intents sama-sama menyaring dompet untuk kepatuhan.
 
 ---
 
-###  Pendahuluan  
-[**encrypt.trade**](https://encrypt.trade/zec) adalah aplikasi Solana yang dijalankan oleh JMD Labs Inc. Aplikasi ini memungkinkan kamu untuk melakukan swap **SOL atau USDC** di Solana menjadi **Zcash (ZEC)**. Token kamu pertama-tama akan dibungkus ke dalam versi terenkripsi agar jumlahnya tersembunyi di Solana, kemudian di-swap ke ZEC melalui NEAR Intents.
+## Penjelasan Inti
+[**encrypt.trade**](https://encrypt.trade/zec) adalah aplikasi Solana yang dijalankan oleh JMD Labs Inc. Aplikasi ini memungkinkan kamu melakukan swap **SOL atau USDC** di Solana menjadi **Zcash (ZEC)**. Token kamu pertama-tama dibungkus menjadi versi terenkripsi sehingga jumlahnya disembunyikan di Solana, lalu di-swap ke ZEC melalui NEAR Intents.
 
 Swap ini bersifat privat dalam beberapa hal tetapi tidak sepenuhnya. [docs](https://docs.encifher.io/docs) milik aplikasi itu sendiri menyatakan bahwa interaksi kamu dengan chain tidak anonim: orang dapat melihat bahwa dompet kamu menggunakan aplikasi tersebut, tetapi tidak tahu berapa banyak yang kamu pindahkan. ZEC juga tiba di alamat transparan, sehingga tetap terlihat di chain Zcash sampai kamu menjadikannya terlindungi.
 

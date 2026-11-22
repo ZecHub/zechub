@@ -12,6 +12,18 @@ Sapling adalah Zcash peningkatan jaringan utama kedua, yang diaktifkan pada hari
 
 Mengapa ini penting. Sebelum Sapling, melakukan pembayaran yang benar-benar privat berarti harus menunggu beberapa menit sementara komputer Anda menghabiskan gigabyte memori untuk membangun proof. Hal itu terlalu lambat dan terlalu berat bagi kebanyakan orang, sehingga banyak pengguna, exchange, dan toko melewatkan transaksi terlindungi dan justru mengirim ZEC secara terbuka. Sapling memangkas pekerjaan tersebut menjadi hanya beberapa detik dan sekitar 40 megabyte memori. Perubahan tunggal itulah yang membuat ZEC terlindungi praktis untuk digunakan dalam kehidupan sehari-hari, pada ponsel biasa dan pada dompet perangkat keras.
 
+## Ringkasan
+
+- Sapling adalah peningkatan jaringan utama kedua Zcash, yang diaktifkan pada blok 419.200 (29 Oktober 2018, 02:15 UTC) — ulang tahun kedua Zcash.
+- Peningkatan ini membangun ulang transaksi terlindungi dengan dua sirkuit yang dibuat khusus (Spend dan Output), menggantikan satu sirkuit JoinSplit Sprout yang lambat (ZIP 205, ZIP 243).
+- Hasilnya: pembuatan proof berkurang dari menit dan gigabyte memori menjadi beberapa detik dan sekitar 40 MB — cukup ringan untuk ponsel dan dompet perangkat keras.
+- Fitur baru: alamat terdiversifikasi (banyak alamat pembayaran yang tidak dapat dihubungkan dari satu key), viewing key untuk akses khusus audit, dan pemisahan pembuatan proof dari penandatanganan.
+- Parameternya berasal dari upacara multipihak dua tahap (Powers of Tau + Sapling MPC); keamanan tetap terjaga jika bahkan hanya satu peserta yang jujur.
+
+## Analogi visual
+
+Sprout adalah kurir pribadi yang mengantarkan setiap surat ke seluruh negeri dengan berjalan kaki — benar-benar privat, tetapi lambat dan melelahkan. Sapling mengubah kurir yang sama menjadi pesepeda dengan ransel ringan: tetap privat, tetapi cukup cepat untuk pengiriman sehari-hari. Dan viewing key baru seperti memberi auditor jendela bening ke buku catatan kurir tanpa pernah menyerahkan kunci muatannya.
+
 ## Apa yang berubah
 
 Inti dari Sapling adalah cara yang lebih cepat untuk membangun zero-knowledge proof yang menjaga privasi transaksi terlindungi. Desain Sprout yang asli menggunakan satu sirkuit pembuktian (sirkuit JoinSplit) yang lambat dan boros memori. Sapling menggantinya dengan dua sirkuit yang dibuat khusus, yaitu sirkuit Spend dan sirkuit Output, yang dijelaskan dalam Spesifikasi Protokol Zcash. Hasilnya adalah penurunan biaya yang besar. Berdasarkan Electric Coin Company, sebuah transaksi terlindungi dapat dibangun hanya dalam beberapa detik dengan menggunakan sekitar 40 megabyte memori. Baseline Sprout sebelum Sapling jauh lebih berat, pada kisaran menit dan beberapa gigabyte memori (angka sisi Sprout ini adalah baseline perkiraan yang banyak dikutip).
@@ -35,6 +47,14 @@ Sirkuit dari Sapling bergantung pada sekumpulan parameter publik yang harus dibu
 Sapling diikuti oleh Overwinter, peningkatan Juni 2018 yang mempersiapkan mekanisme peningkatan jaringan. Electric Coin Company menetapkan tinggi aktivasi mainnet dalam zcashd 2.0.0, yang dirilis pada Agustus 2018, dan jaringan beralih ke aturan Sapling saat blok 419.200 ditambang. Di dalam chain, momen tersebut ditandai dengan id cabang konsensus Sapling.
 
 ![Timeline from Zcash launch to Sapling activation](/content-images/sapling-timeline-6cad184c30.webp)
+
+## Kesalahan Umum
+
+- **Mengasumsikan pembayaran terlindungi selalu dapat digunakan.** Sebelum Sapling, pembuatan proof membutuhkan waktu beberapa menit dan memori hingga gigabita, sehingga sebagian besar pengguna, exchange, dan toko sepenuhnya melewatkan transaksi terlindungi.
+- **Menyebut alamat Sapling sama dengan alamat Sprout.** Sapling memperkenalkan jenis alamat dan kuncinya sendiri (serta alamat terdiversifikasi dan viewing key); kunci Sprout tidak dapat berinteroperasi dengan alamat Sapling.
+- **Meyakini bahwa trusted setup adalah "rahasia satu perusahaan".** Ini adalah seremoni multipihak: hanya jika setiap peserta bersekongkol, proof dapat dipalsukan.
+- **Mengira Sapling mengubah penerbitan atau saldo.** Ini mengubah cara transaksi terlindungi dibuat — tidak ada jumlah ZEC yang terpengaruh.
+- **Mengasumsikan pembuktian dan penandatanganan harus terjadi pada perangkat yang sama.** Pemisahan Sapling justru memungkinkan dompet hardware menjaga spending key tetap terisolasi sementara perangkat lain membuat proof.
 
 ## Glosarium
 
@@ -88,5 +108,12 @@ Di bawah Sprout, pembuatan transaksi terlindungi memakan waktu beberapa menit da
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
+
+## Halaman Terkait
+
+- [Viewing Key](./Viewing_Keys.md) — fitur berbagi audit yang diperkenalkan oleh Sapling
+- [Sprout](./Sprout.md) — protokol terlindungi asli yang digantikan oleh Sapling
+- [Blossom](./Blossom.md) — peningkatan berikutnya dalam seri ini (waktu blok, bukan kriptografi)
+- [zk_SNARKS](./zk_SNARKS.md) — teknologi zero-knowledge di balik sirkuit
 
 Seri: Indeks Peningkatan Jaringan [](../start-here/network-upgrades) · Sebelumnya: [Overwinter](../zcash-tech/overwinter) · Berikutnya: [Blossom](../zcash-tech/blossom)

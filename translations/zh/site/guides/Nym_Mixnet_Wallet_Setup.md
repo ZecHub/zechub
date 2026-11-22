@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="编辑https://github.com/ZecHub/zechub/pull/2238t页面"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # 通过 Nym Mixnet 路由 Zcash 钱包流量
@@ -13,7 +13,7 @@ Nym 增加了单独的网络隐私[privacy]层。截至 2026 年 9 月，最佳�
 1. **在钱包提供原生 Nym 集成时，优先使用该集成。**
 2. 否则，请使用**系统级 NymVPN Mixnet 模式**，以便通过 Nym 路由钱包网络流量，而无需依赖钱包专用的代理支持。
 
-有关通用 VPN 和 dVPN 背景信息，请参阅 [VPN 与 dVPN](./VPN_and_DVPN.md)。
+有关通用 VPN 和 dVPN 背景信息，请参阅 [VPN 与 dVPN](../Privacy_Tools/VPN_and_DVPN.md)。
 
 ## Nym 增加了什么——以及没有增加什么
 

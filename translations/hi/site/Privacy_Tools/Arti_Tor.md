@@ -1,178 +1,178 @@
-![Tor लोगो](/content-images/_unavailable.svg)
+![Tor logo](/content-images/_unavailable.svg)
 
-# **Arti: Rust में अगली पीढ़ी का Tor Client**
-![Atri लोगो](/content-images/_unavailable.svg)
+# **Arti: Rust में अगली पीढ़ी का Tor क्लाइंट**
+![Atri Logo](/content-images/_unavailable.svg)
 
-**Arti** Tor Project की पहल है, जिसका उद्देश्य **Rust** programming language का उपयोग करके अगली पीढ़ी का **Tor** client बनाना है। Arti को modular, embeddable, और production-ready बनने के लिए डिज़ाइन किया गया है, ताकि **Tor** anonymity protocols का अधिक सुरक्षित और कुशल implementation प्रदान किया जा सके। **Arti version 1.4.0** के साथ, कई महत्वपूर्ण अपडेट पेश किए गए हैं:
+**Arti**, Tor Project की एक पहल है, जिसका उद्देश्य **Rust** प्रोग्रामिंग भाषा का उपयोग करके अगली पीढ़ी का **Tor** क्लाइंट बनाना है। Arti को मॉड्यूलर, एम्बेड करने योग्य और प्रोडक्शन के लिए तैयार होने के लिए डिज़ाइन किया गया है, जो **Tor** गुमनामी प्रोटोकॉल का अधिक सुरक्षित और कुशल कार्यान्वयन प्रदान करता है। **Arti संस्करण 1.4.0** के साथ, कई महत्वपूर्ण अपडेट पेश किए गए हैं:
 
-- बेहतर interaction के लिए एक **new RPC interface**।
-- **relay support** के लिए प्रारंभिक तैयारी।
-- **service-side onion service denial-of-service resistance** में सुधार।
+- बेहतर इंटरैक्शन के लिए एक **नया RPC इंटरफ़ेस**।
+- **रिले सपोर्ट (relay support)** के लिए प्रारंभिक कार्य।
+- **सर्विस-साइड ओनियन सर्विस डिनायल-ऑफ़-सर्विस प्रतिरोध (service-side onion service denial-of-service resistance)** में सुधार।
 
-यह release Tor Project के उस प्रयास को आगे बढ़ाती है, जिसका लक्ष्य Tor उपयोगकर्ताओं और developers के लिए बेहतर security, performance, और modularity उपलब्ध कराना है।
+यह रिलीज़ Tor उपयोगकर्ताओं और डेवलपर के लिए बेहतर सुरक्षा, प्रदर्शन और मॉड्यूलैरिटी प्रदान करने के Tor Project के प्रयासों को आगे बढ़ाती है।
 
 
 ---
 
 
-## **Arti Client की Installation**
+## **Arti क्लाइंट का इंस्टॉलेशन**
 
-अपने system पर **Arti** को SOCKS proxy के रूप में install और run करने के लिए इन चरणों का पालन करें।
+अपने सिस्टम पर **Arti** को SOCKS प्रॉक्सी के रूप में इंस्टॉल करने और चलाने के लिए इन चरणों का पालन करें।
 
 ---
 
-### **चरण 1: Rust Development Environment सेट अप करें**
+### **चरण 1: Rust डेवलपमेंट एनवायरनमेंट सेट करें**
 
-Arti को source से build करने से पहले, आपके पास **Rust** का नवीनतम stable version install होना चाहिए।
+सोर्स से Arti बनाने से पहले, आपके पास **Rust** का नवीनतम स्थिर संस्करण इंस्टॉल होना चाहिए।
 
-#### Rust Install करने के लिए:
+#### Rust इंस्टॉल करने के लिए:
 
-1. आधिकारिक [Rust website](https://www.rust-lang.org/) पर जाएँ।
-2. अपने operating system के लिए installation instructions का पालन करें।
-3. यह command चलाकर installation verify करें:
+1. आधिकारिक [Rust वेबसाइट](https://www.rust-lang.org/) पर जाएँ।
+2. अपने ऑपरेटिंग सिस्टम के लिए इंस्टॉलेशन निर्देशों का पालन करें।
+3. निम्नलिखित कमांड चलाकर इंस्टॉलेशन की पुष्टि करें:
    
    ```sh
    rustc --version
    ```
 
-यह पुष्टि करेगा कि आपके system पर Rust का नवीनतम stable version install है।
+इससे पुष्टि होगी कि आपके सिस्टम पर Rust का नवीनतम स्थिर संस्करण इंस्टॉल है।
 
-#### **Windows Users के लिए नोट**:
-- Rust को Windows पर [**rustup**](https://rustup.rs/) के माध्यम से install किया जा सकता है, जो एक toolchain installer है। यह भी सुनिश्चित करें कि आपने compatible build environment सेट किया है (Windows पर आपको **Visual Studio Build Tools** की आवश्यकता पड़ सकती है)।
+#### **Windows उपयोगकर्ताओं के लिए नोट**:
+- Rust को Windows पर [**rustup**](https://rustup.rs/) के माध्यम से इंस्टॉल किया जा सकता है, जो एक टूलचेन इंस्टॉलर है। सुनिश्चित करें कि आपने एक संगत बिल्ड एनवायरनमेंट भी सेट किया है (Windows पर आपको **Visual Studio Build Tools** की आवश्यकता हो सकती है)।
   
 ---
 
-### **चरण 2: Arti Repository Clone करें**
+### **चरण 2: Arti रिपॉज़िटरी क्लोन करें**
 
-Arti client का नवीनतम version प्राप्त करने के लिए, आपको repository को [**GitLab**](https://gitlab.torproject.org/tpo/core/arti) से clone करना होगा।
+Arti क्लाइंट का नवीनतम संस्करण प्राप्त करने के लिए, आपको [**GitLab**](https://gitlab.torproject.org/tpo/core/arti) से रिपॉज़िटरी (repository) क्लोन करनी होगी।
 
 #### चरण:
-1. अपना terminal खोलें (Windows पर Command Prompt, PowerShell, या Git Bash)।
-2. Repository clone करने के लिए निम्न command चलाएँ:
+1. अपना टर्मिनल खोलें (Windows पर Command Prompt, PowerShell या Git Bash)।
+2. रिपॉज़िटरी क्लोन करने के लिए निम्नलिखित कमांड चलाएँ:
    
    ```sh
    git clone https://gitlab.torproject.org/tpo/core/arti.git
    ```
-4. नई बनी हुई *arti* directory में जाएँ:
+4. नई बनाई गई *arti* डायरेक्टरी में जाएँ:
    
    ```sh
    cd arti
    ```
 
-यह Arti का source code आपकी local machine पर pull कर देगा।
+इससे Arti का सोर्स कोड आपकी लोकल मशीन पर आ जाएगा।
 
 ---
 
-### **चरण 3: Arti Binary Build करें**
+### **चरण 3: Arti बाइनरी बनाएँ**
 
-Repository clone करने के बाद, आपको **Cargo** का उपयोग करके Arti build करना होगा, जो Rust का package manager और build tool है।
+रिपॉज़िटरी क्लोन करने के बाद, आपको **Cargo** का उपयोग करके Arti बनाना होगा, जो Rust का पैकेज मैनेजर और बिल्ड उपकरण है।
 
-#### Arti Build करने के लिए:
-1. Terminal में निम्न command चलाएँ:
+#### Arti बनाने के लिए:
+1. टर्मिनल में निम्नलिखित कमांड चलाएँ:
    ```sh
    cargo build --release
    ```
 
-यह command Arti code को compile करती है और इसे production के लिए optimize करती है (*--release* flag)। Binary *target/release* directory में बनाई जाएगी।
+यह कमांड Arti कोड को कंपाइल करती है और इसे प्रोडक्शन के लिए ऑप्टिमाइज़ करती है (*--release* फ़्लैग)। बाइनरी *target/release* डायरेक्टरी में बनाई जाएगी।
 
-#### Compiled Binary का स्थान:
-- Build होने के बाद, Arti binary यहाँ मिलेगी:  
+#### कंपाइल की गई बाइनरी का स्थान:
+- बिल्ड करने के बाद, Arti बाइनरी यहाँ स्थित होगी:  
   ```sh
   target/release/arti
   ```
 
-आप इस binary को सीधे terminal से run कर सकते हैं।
+आप इस बाइनरी को सीधे टर्मिनल से चला सकते हैं।
 
 ---
 
-### **चरण 4: Arti SOCKS Proxy Run करें**
+### **चरण 4: Arti SOCKS प्रॉक्सी चलाएँ**
 
-Arti को SOCKS proxy के रूप में उपयोग करने के लिए (जो आपके internet traffic को Tor network के माध्यम से route करेगा), आपको proxy शुरू करनी होगी।
+Arti को SOCKS प्रॉक्सी के रूप में उपयोग करने के लिए (जो आपके इंटरनेट ट्रैफ़िक को Tor नेटवर्क के माध्यम से रूट करेगा), आपको प्रॉक्सी शुरू करनी होगी।
 
-#### SOCKS Proxy शुरू करने के लिए:
-1. निम्न command चलाएँ:
+#### SOCKS प्रॉक्सी शुरू करने के लिए:
+1. निम्नलिखित कमांड चलाएँ:
    ```sh
    ./target/release/arti proxy -p 9150
    ```
 
-यह command Arti को **port 9150** पर एक **SOCKS5 proxy** के रूप में शुरू करती है, जो SOCKS traffic के लिए Tor द्वारा उपयोग किया जाने वाला default port है।
+यह कमांड Arti को **पोर्ट 9150** पर **SOCKS5 प्रॉक्सी** के रूप में शुरू करती है, जो SOCKS ट्रैफ़िक के लिए Tor द्वारा उपयोग किया जाने वाला डिफ़ॉल्ट पोर्ट है।
 
 ---
 
-### **चरण 5: Applications को Arti उपयोग करने के लिए Configure करें**
+### **चरण 5: Arti का उपयोग करने के लिए एप्लिकेशन कॉन्फ़िगर करें**
 
-जब Arti SOCKS proxy के रूप में run हो रही हो, तब आपको अपने applications को इस तरह configure करना होगा कि वे traffic को Tor network के माध्यम से route करने के लिए इसका उपयोग करें।
+जब Arti SOCKS प्रॉक्सी के रूप में चल रहा हो, तो आपको अपने एप्लिकेशन को कॉन्फ़िगर करना होगा ताकि वे Tor नेटवर्क के माध्यम से ट्रैफ़िक रूट करने के लिए इसका उपयोग करें।
 
 #### चरण:
-1. अपनी application settings में (उदाहरण के लिए web browser, terminal application), **proxy settings** खोजें।
-2. **SOCKS5 proxy** को *localhost:9150* पर सेट करें।
+1. अपने एप्लिकेशन की सेटिंग्स में (जैसे, वेब ब्राउज़र, टर्मिनल एप्लिकेशन), **प्रॉक्सी सेटिंग्स** खोजें।
+2. **SOCKS5 प्रॉक्सी** को *localhost:9150* पर सेट करें।
 
-इससे आपकी applications का सारा traffic **Tor network** के माध्यम से route होगा, जहाँ Arti intermediary के रूप में कार्य करेगी।
+इससे आपके एप्लिकेशन का सारा ट्रैफ़िक Arti को मध्यस्थ के रूप में उपयोग करते हुए **Tor नेटवर्क** के माध्यम से रूट होगा।
 
 ---
 
-## **Tor Network के साथ Arti का Integration**
+## **Tor नेटवर्क के साथ Arti का एकीकरण**
 
-यहाँ एक सरल diagram है, जो दिखाता है कि Arti, Tor network के साथ मिलकर कैसे काम करती है:
+यहाँ एक सरल आरेख है जो दर्शाता है कि Arti, Tor नेटवर्क के साथ मिलकर कैसे काम करता है:
 
 
 ```plaintext
 [Application] --(SOCKS5)--> [Arti SOCKS Proxy] --(Tor Protocol)--> [Tor Network]
 ```
 
-- **Application**, **SOCKS5** protocol का उपयोग करके **Arti SOCKS Proxy** से connect करती है।
-- इसके बाद Arti **Tor network** से communicate करती है, जिससे यह सुनिश्चित होता है कि network से गुजरते समय आपका traffic anonymized रहे।
+- **एप्लिकेशन**, **SOCKS5** प्रोटोकॉल का उपयोग करके **Arti SOCKS प्रॉक्सी** से कनेक्ट होता है।
+- इसके बाद Arti, **Tor नेटवर्क** के साथ संचार करता है, जिससे यह सुनिश्चित होता है कि नेटवर्क से गुज़रते समय आपका ट्रैफ़िक गुमनाम रहे।
 
 ---
 
-## **GitLab Repository और Contribution**
+## **GitLab रिपॉज़िटरी और योगदान**
 
-यदि आप **Arti** के development में योगदान देने में रुचि रखते हैं, तो आप code देख सकते हैं और **GitLab** के माध्यम से योगदान कर सकते हैं।
+यदि आप **Arti** के विकास में योगदान देने में रुचि रखते हैं, तो आप **GitLab** के माध्यम से कोड देख सकते हैं और योगदान दे सकते हैं।
 
-- **Repository Link**: [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti)
-- **Repo Clone करें**:
+- **रिपॉज़िटरी लिंक**: [Arti GitLab रिपॉज़िटरी](https://gitlab.torproject.org/tpo/core/arti)
+- **रिपॉज़िटरी क्लोन करें**:
   ```sh
   git clone https://gitlab.torproject.org/tpo/core/arti.git
   ```
 
-### **Forking और Contribution**:
-1. GitLab पर repository को **Fork** करें (इसके लिए GitLab account आवश्यक है)।
-2. अपनी fork की हुई repository को अपने local setup से link करें:
+### **फ़ोर्क करना और योगदान देना**:
+1. GitLab पर रिपॉज़िटरी को **फ़ोर्क (fork)** करें (इसके लिए GitLab खाता आवश्यक है)।
+2. अपनी फ़ोर्क की गई रिपॉज़िटरी को अपने लोकल सेटअप से लिंक करें:
    ```sh
    git remote add _name_ git@gitlab.torproject.org:_name_/arti.git
    git fetch _name_
    ```
-   *_name_* को अपने GitLab username से बदलें।
+   *_name_* को अपने GitLab यूज़रनेम से बदलें।
 
-3. अपने fork में **changes push** करें:
+3. अपने फ़ोर्क में **बदलाव पुश करें**:
    ```sh
    git push _name_ main
    ```
 
-4. GitLab पर एक **Merge Request (MR)** बनाएँ:
-   अपने GitLab fork में Merge Request section पर जाएँ:
+4. GitLab पर **एक मर्ज रिक्वेस्ट (Merge Request, MR) बनाएँ**:
+   अपने GitLab फ़ोर्क में मर्ज रिक्वेस्ट सेक्शन पर जाएँ:
    ```plaintext
    https://gitlab.torproject.org/_name_/arti/-/merge_requests
    ```
 
-### **Merge Request Guidelines**:
-- Review के दौरान **commits को rebase और squash न करें**।
-- यदि आवश्यक हो, तो commits के auto-squashing के लिए *fixup!* या *squash!* का उपयोग करें।
-- Review cycle के दौरान squash करने के बजाय **new commits जोड़ने** का प्रयास करें।
+### **मर्ज रिक्वेस्ट दिशानिर्देश**:
+- **समीक्षा के दौरान कमिट (commit) को रीबेस और स्क्वैश न करें**।
+- यदि आवश्यक हो, तो कमिट को स्वचालित रूप से स्क्वैश करने के लिए *fixup!* या *squash!* का उपयोग करें।
+- समीक्षा चक्र के दौरान स्क्वैश करने के बजाय **नए कमिट जोड़ने** का प्रयास करें।
 
 ---
 
-### **अतिरिक्त नोट्स**:
+### **अतिरिक्त नोट**:
 
-- **Pre-built Binaries**: फिलहाल, **Arti** आधिकारिक pre-built binaries उपलब्ध नहीं कराता। आपको ऊपर बताए अनुसार client को source से build करना होगा।
-- **Rust Knowledge**: यदि आप Arti में योगदान दे रहे हैं, तो ध्यान दें कि codebase अभी भी विकसित हो रहा है, और नई features जुड़ने पर इसमें changes या refactoring हो सकती है।
+- **पहले से बनी बाइनरी**: फ़िलहाल, **Arti** आधिकारिक रूप से पहले से बनी बाइनरी प्रदान नहीं करता है। आपको ऊपर बताए अनुसार क्लाइंट को सोर्स से बनाना होगा।
+- **Rust ज्ञान**: यदि आप Arti में योगदान दे रहे हैं, तो ध्यान दें कि कोडबेस अभी भी विकसित हो रहा है, और नई सुविधाएँ जोड़े जाने पर इसमें बदलाव या रीफ़ैक्टरिंग हो सकती है।
 
 ---
 
 
 
-यदि आप project में योगदान देने में रुचि रखते हैं, तो निःसंकोच code देखें, repository fork करें, और एक Merge Request submit करें। अधिक जानकारी, updates, और troubleshooting के लिए [Arti GitLab Repository](https://gitlab.torproject.org/tpo/core/arti) देखें। 
+यदि आप इस प्रोजेक्ट में योगदान देने में रुचि रखते हैं, तो बेझिझक कोड देखें, रिपॉज़िटरी फ़ोर्क करें और मर्ज रिक्वेस्ट सबमिट करें। अधिक जानकारी, अपडेट और समस्या-निवारण के लिए, [Arti GitLab रिपॉज़िटरी](https://gitlab.torproject.org/tpo/core/arti) देखें। 
 
-**Arti** के साथ अपने अनुभव का आनंद लें और happy hacking!
+**Arti** के साथ अपने अनुभव का आनंद लें और हैप्पी हैकिंग!
 
 ---

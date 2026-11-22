@@ -148,13 +148,13 @@ Los procedimientos de configuración ayudan al verificador resumiendo un circuit
 
 **Tipos de configuración de preprocesamiento**:
 
-Configuración confiable por circuito - Se ejecuta una vez por circuito. Es específica de un circuito y la aleatoriedad secreta (cadena de referencia común) debe mantenerse en secreto y destruirse. 
+Configuración confiable [trusted setup] por circuito - Se realiza por separado para cada circuito. La cadena de referencia común (CRS) resultante contiene parámetros públicos utilizados por los probadores y verificadores. Es el material intermedio secreto de configuración («desechos tóxicos»), y no la CRS, lo que debe mantenerse en secreto y destruirse. La [explicación de los parámetros públicos](https://zodl.com/snark-parameters/) de ECC distingue ambos.
 
-Una configuración comprometida en este método significa que un demostrador deshonesto puede demostrar afirmaciones falsas. 
+Si el material secreto de configuración [secret setup material] requerido se conserva o recupera, un demostrador deshonesto puede ser capaz de producir pruebas de afirmaciones falsas. En una ceremonia MPC [MPC ceremony], la seguridad puede depender de que al menos un participante siga el protocolo y destruya su contribución secreta.
 
-Configuración confiable pero universal - Solo debe ejecutar la configuración confiable una vez y luego puede preprocesar determinísticamente varios circuitos. 
+Configuración confiable pero universal [Trusted but universal setup] - Una única configuración confiable produce parámetros que pueden utilizarse para derivar claves de prueba y verificación para varios circuitos dentro de los límites de tamaño admitidos. Esto todavía implica una suposición de destrucción del secreto; universal no significa transparente.
 
-Configuración transparente (sin configuración confiable)- El algoritmo de preprocesamiento no utiliza ninguna aleatoriedad secreta. 
+Configuración transparente [Transparent setup] (sin configuración confiable [no trusted setup]) - Los parámetros públicos [public parameters] pueden generarse sin una trampa secreta de configuración que se deba confiar que alguien destruya. No significa que la generación de pruebas no use aleatoriedad [randomness] ni que el sistema no tenga parámetros públicos. El libro [Halo 2](https://zcash.github.io/halo2/background/pc-ipa.html#setup) ofrece un ejemplo de parámetros de grupo públicos.
 
 
 **Tipos de construcciones de pruebas SNARK**:

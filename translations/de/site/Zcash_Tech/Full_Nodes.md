@@ -94,7 +94,7 @@ Durch den Betrieb eines vollständigen Knotens hilfst du, das zcash-Netzwerk zu 
 
 Dies hilft, gegnerische Kontrolle zu verhindern und das Netzwerk gegen einige Arten von Störungen widerstandsfähig zu halten.
 
-DNS-Seeder stellen über einen integrierten Server eine Liste anderer zuverlässiger Knoten bereit. Dadurch können sich Transaktionen im gesamten Netzwerk verbreiten.
+DNS-Seeder stellen über einen integrierten Server eine Liste anderer zuverlässiger Knoten bereit. Dadurch können sich Transaktionen im gesamten Netzwerk verbreiten. Die Seeder von Zcash Foundation laufen mit [Zeeder](https://github.com/ZcashFoundation/zeeder), einem in Rust geschriebenen DNS-Seeder, der den auf CoreDNS basierenden dnsseeder ersetzt hat. Seine Images werden als `zfnd/zeeder` veröffentlicht; der ältere Name `zfnd/dnsseeder` wird ausgemustert.
 
 ### Netzwerkstatistiken
 
@@ -102,7 +102,7 @@ Dies sind Beispielplattformen, die Zugriff auf Zcash-Netzwerkdaten ermöglichen:
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics-Netzwerkdaten](https://docs.coinmetrics.io/network-data/network-data-overview) – Dokumentation der Metriken und Links zur aktuellen Asset-Abdeckung.
 
 Du kannst außerdem zur Entwicklung des Netzwerks beitragen, indem du Tests ausführst, neue Verbesserungen vorschlägst und Metriken bereitstellst.
 
@@ -136,6 +136,7 @@ Dies bietet den zusätzlichen Vorteil, dass andere Nutzer sich privat mit der .o
 - [Zakura Knoten](/zcash-tech/zakura-node) - die zweite Knotenimplementierung, geforkt von Zebra
 - [Lightwallet-Knoten](/zcash-tech/lightwallet-nodes) - die Server, die Light Wallets abfragen
 - [Zaino](/zcash-tech/zaino) - der Rust-Indexer, der Light Wallets bereitstellt
+- [Zinder](/zcash-tech/zinder) - der Alpha-Indexer von Zcash Foundation für Zebra und Zakura
 - [Zcash Wallet-Synchronisierung](/zcash-tech/zcash-wallet-syncing) - warum die Synchronisierung so funktioniert
 
 ## Weiterführendes Lernen

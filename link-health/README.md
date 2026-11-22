@@ -23,6 +23,10 @@ are skipped, since those are examples rather than live links.
 | Redirects | 3xx, worth pointing at the final destination |
 | Duplicate URLs | The same external link repeated within one page |
 
+GitHub links that redirect to GitHub's sign-in page are also reported as
+**Could not verify**. Keep an "Edit this page" link pointed at its edit target:
+the sign-in redirect does not mean the content moved.
+
 Rate limits (429), server errors (5xx) and network failures from the fast sweep
 get one more probe at the end, one request at a time per host with a pause
 before each (longer if the host sends `Retry-After`, capped at 30 seconds), so
@@ -37,6 +41,8 @@ resolves to `site/Zcash_Use_Cases/Sign_in_With_Zcash.md` with a lowercase `in`.
 
 `check-links.mjs` mirrors that conversion, including the loose fallback match the
 app falls back on, so a link that works in production is not reported as broken.
+The fallback compares complete basenames after ignoring case and separators;
+a shorter slug must not match a page merely because its name contains that slug.
 If the rules in the app's `src/lib/helpers.ts` change, update `transformUri` here
 to match.
 
@@ -77,6 +83,11 @@ node link-health/check-links.mjs --concurrency 20   # more parallel requests
 ```
 
 Outputs `link-health.json` for machines and `link-health.md` for the issue body.
+
+Run from the repository root. `--root <dir>` narrows the scanned Markdown files;
+it accepts relative or absolute paths, including paths with spaces. The loose
+route lookup uses the scanned files in either case, comparing absolute native
+directory paths. It does not search additional folders outside the scan.
 
 The workflow runs on Mondays and can be started by hand from the Actions tab.
 Because a GitHub issue body is capped, the dashboard shows the first 40 rows per

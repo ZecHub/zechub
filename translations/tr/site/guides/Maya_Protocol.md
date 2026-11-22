@@ -1,6 +1,28 @@
-# Maya Merkeziyetsiz Borsası
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+</a>
 
----
+# Maya Merkeziyetsiz Borsa
+
+> Maya Protocol, sarılmış tokenlar, hesap veya KYC gerektirmeden yerel takaslar (örneğin ETH veya BTC'den ZEC'e) yapmayı sağlayan zincirler arası bir DEX'tir.
+
+## Kısaca
+
+* Maya, blok zincirleri arasında yerel coin takası yapar: bir varlık gönderir, diğerini kendi zincirinde alırsınız. Sarılmış token, hesap veya KYC gerekmez.
+* THORChain'nın bir çatallanmasıdır; Cosmos SDK ile geliştirilmiştir ve sermaye bağlayan düğüm operatörleri tarafından güvence altına alınır (Bond Kanıtı).
+* Yerel tokenı $CACAO'dir. Likidite sağlayıcıları takas ücretlerinden kazanç elde eder ve 50 günün ardından Geçici Olmayan Kayıp Koruması (ILP) kapsamına girer.
+* Maya bir arka uçtur: THORWallet, CacaoSwap, Asgardex, Ctrl Wallet veya KeepKey gibi bir ön uç ya da cüzdan aracılığıyla kullanılır.
+* Eğitim videosu, bu ön uçlardan biri olan LeoDex üzerinde ETH'den ZEC'e yapılan takası gösteriyor.
+* Maya, SwapKit aracılığıyla korumalı/birleşik ZEC yatırma işlemlerini destekler (şeffaf değer çıktısı ile korumalı bir not). Böylece bazı ön uçlar ZEC'i doğrudan birleşik bir adrese gönderebilir. Kullandığınız ön uç ödemeyi şeffaf bir t1 adresine yapıyorsa gizlilik için sonrasında cüzdanınızda korumalı hâle getirin.
+* Yerel ZEC takasları için tek seçenek Maya değildir: THORChain'ın da yerel bir ZEC havuzu vardır.
+
+## Temel Açıklama
+
+Merkezi bir borsa coinlerinizi elinde tutar ve kimliğinizi ister. Maya ise desteklenen her zincirdeki kasaları kontrol eden düğümlerden oluşan bir ağ kullanır. Coinlerinizi bir Maya kasasına gönderirsiniz; düğümlerin en az üçte ikisi yatırma işlemini onaylar ve eşdeğer varlık başka bir kasadan hedef zincirdeki adresinize gönderilir.
+
+Düğüm operatörleri, kötü davranmaları hâlinde kesilebilecek bir teminat yatırır; bu da dürüst kalmaları için onlara finansal bir gerekçe sağlar. Maya, THORChain üzerine likidite düğümleri ve kendi rezerv tasarımı gibi özellikler ekler ve onun yanında ikinci, bağımsız bir ağ olarak da çalışır.
+
+Aşağıdaki bölümlerde Maya'ın nasıl çalıştığı, Bond Kanıtı, THORChain'dan farkları ve onu destekleyen cüzdanlar ele alınıyor.
 
 ## Eğitim
 
@@ -9,7 +31,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/f1k6xhNfTV8"
-    title="LeoDex üzerinde Ethereum'dan Zcash'e Nasıl Swap Yapılır"
+    title="Ethereum'dan Zcash'e LeoDex ile Nasıl Takas Yapılır?"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -19,62 +41,62 @@
 
 ## Maya Protocol nedir?
 
-Maya, farklı blokzincirler arasında kripto para alım satımını mümkün kılan bir [merkeziyetsiz borsa](https://nym.com/blog/what-is-dex) (DEX) sistemidir. Örneğin, Bitcoin blokzincirindeki Bitcoin (BTC) ile Ethereum blokzincirindeki Ethereum (ETH) arasında, varlıkları emanet etmeden ve herhangi bir merkezi otorite ya da Müşterini Tanı (KYC) prosedürlerine dahil olmadan, kolay bir şekilde swap yapabilirsiniz.
+Maya, farklı blok zincirleri arasında kripto para alım satımını sağlayan bir [merkeziyetsiz borsa](https://nym.com/blog/what-is-dex) (DEX) sistemidir. Örneğin, varlıkları elinizde tutmadan veya herhangi bir merkezi otoriteyi ya da Müşterini Tanı (KYC) prosedürünü devreye sokmadan, Bitcoin blok zincirindeki Bitcoin'i (BTC) Ethereum blok zincirindeki Ethereum ile (ETH) kolayca takas edebilirsiniz.
 
-Maya Protocol, Cosmos Software Development Kit (Cosmos SDK) kullanılarak geliştirilmiştir ve Proof of Bond (PoB) mutabakat mekanizmasıyla çalışır. Protokol, sisteme sermaye stake eden ve katkıları ile çabalarının karşılığında getiri elde eden "Node Operators" tarafından ayakta tutulur. Temelde node’lar, kullanıcı swap’larını doğrulayan ve farklı blokzincirlerde belirlenmiş adreslerdeki varlıkları denetleyen yazılımları çalıştıran bilgisayarlardır.
+Maya Protocol, Cosmos Yazılım Geliştirme Kiti (Cosmos SDK) kullanılarak geliştirilmiş ve Bond Kanıtı (PoB) mutabakat mekanizmasıyla çalışır. Protokol, sermayelerini sisteme yatıran ve katkı ve çabalarının karşılığında getiri elde eden “Düğüm Operatörleri” tarafından sürdürülür. Düğümler, kullanıcı takaslarını doğrulayan ve farklı blok zincirlerinde belirlenmiş adreslerdeki varlıkları denetleyen yazılımları çalıştıran bilgisayarlardır.
 
-Bir swap’ı tamamlamak için, desteklenen kripto paranın kullanıcının gönderimiyle Maya'nın adreslerinden birine ulaşması gerekir; ardından farklı bir blokzincirdeki Maya adreslerinden birinden eşdeğer miktar gönderilir. Bu süreç, özellikle fonların düzgün şekilde alındığını teyit etmek için, node’ların en az üçte ikisi tarafından yönetilir ve onaylanır.
+Bir takasın tamamlanması için desteklenen kripto para, kullanıcının gönderdiği şekilde Maya adreslerinden birine ulaşmalıdır. Ardından farklı bir blok zincirindeki Maya adreslerinden birinden eşdeğer miktar gönderilir. Bu süreç, özellikle fonların doğru şekilde ulaştığından emin olmak için düğümlerin en az üçte ikisi tarafından yönetilir ve onaylanır.
 
-Bu şekilde kullanıcılar, bir blokzincirde bir tür token gönderip başka bir blokzincirde farklı bir tür token’ı, wrapped token kullanmadan ve tamamen yerel biçimde alabilirler.
+Böylece kullanıcılar, sarılmış token kullanmadan, tamamen yerel biçimde bir blok zincirinde bir token türü gönderip başka bir blok zincirinde farklı bir tür alabilir.
 
-## Proof of Bond nedir?
+## Bond Kanıtı nedir?
 
-Proof of Bond (PoB), node operatörlerinin ağa katılabilmek için bir bond (genellikle ağın yerel token’ı biçiminde) taahhüt etmek zorunda olduğu bir mutabakat mekanizmasıdır. Bu bond, ekonomik bir güvenlik biçimi olarak işlev görür ve node’ların dürüst davranmasını, ayrıca ağın bütünlüğünü korumasını sağlar2. Bir node kötü niyetli davranmaya çalışırsa ya da görevlerini yerine getiremezse, bond’u slashing’e uğrayabilir; yani ceza olarak bir kısmı elinden alınabilir.
+Bond Kanıtı (PoB), düğüm operatörlerinin ağa katılmak için bir teminat (genellikle ağın yerel tokenı biçiminde) yatırmasını gerektiren bir mutabakat mekanizmasıdır. Bu teminat ekonomik güvenlik sağlar; düğümlerin dürüst davranmasını ve ağın bütünlüğünü korumasını güvence altına alır. Bir düğüm kötü niyetli davranmaya çalışırsa veya görevlerini yerine getirmezse teminatının bir kısmı ceza olarak kesilebilir.
 
-Maya Protocol’te bu mekanizma, node operatörlerinin stake ettiği kaynaklardan ekonomik değer üretilmesine yardımcı olarak sermaye verimliliğini artırır. Benzer şekilde THORChain’de node operatörleri, ağı güvence altına almak ve katılımcılar arasındaki iş birliğini sağlamak için RUNE (yerel token) bond eder.
+Maya Protocol'da bu mekanizma, düğüm operatörlerinin stake ettiği kaynaklardan ekonomik değer üretilmesine yardımcı olarak sermaye verimliliğini artırır. Benzer şekilde THORChain'da düğüm operatörleri, ağı güvenceye almak ve katılımcılar arasındaki iş birliğini sağlamak için RUNE (yerel tokenı) teminat olarak yatırır.
 
 ## Maya ve THORChain arasındaki farklar
 
-Maya, THORChain'in bir fork’udur ancak onu güçlü bir alternatif haline getiren birkaç yeni özellik ve işleve sahiptir. En önemlileri şunlardır:
+Maya, THORChain'nın çatallanmasıdır; ancak onu güçlü bir alternatif hâline getiren bazı yeni özellikler ve işlevlerle donatılmıştır. En önemlileri şunlardır:
 
-### Liquidity Nodes
+### Likidite Düğümleri
 
-Saf Bond Modelini izlemek yerine Maya, Liquidity Nodes modeline geçmeyi değerlendiriyor. Bu sistemde node’lar, likiditeyi doğrudan ağa bağlayarak katkıda bulunabilir. Bu yaklaşım, node operatörlerinin ciddi bir risk üstlenmesi anlamına gelir: fonları kötüye kullanırlarsa kayıp yaşarlar ve bu da güçlü bir caydırıcı unsur olarak işlev görür. Sonuç olarak node operatörleri, aynı anda hem likidite sağlayan hem de ağ güvenliğini güçlendiren Likidite Havuzlarından gelen Liquidity Units kullanır.
+Saf Teminat Modeli'ni izlemek yerine Maya, Likidite Düğümleri modeline geçmeyi değerlendiriyor. Bu sistemde düğümler doğrudan likidite sağlayabilir ve bunu ağa teminat olarak bağlayabilir. Bu yaklaşım, düğüm operatörleri için önemli bir risk doğurur: fonları kötüye kullanırlarsa zarara uğrarlar; bu da güçlü bir caydırıcı etki yaratır. Sonuç olarak düğüm operatörleri, aynı anda likidite sağlayıp ağ güvenliğini güçlendiren Likidite Havuzlarındaki Likidite Birimlerini kullanır.
 
-### Impermanent Loss Protection
+### Geçici Olmayan Kayıp Koruması
 
-Kripto varlık fiyatlarındaki sürekli dalgalanmalar nedeniyle likidite sağlarken likidite sağlayıcılarının (LPs) yaşayabileceği geçici kayba karşı koruma sunan bir sistemdir.
-ILP, $CACAO arzının %10’unu (10 milyon $CACAO) elinde tutar ve protokol ücretlerinin %10’u ile sürekli olarak yenilenir. ILP, bir likidite yatırımı yapıldıktan 50 gün sonra devreye girer ve kapsama oranı en fazla %100’dür.
+Kripto varlık fiyatlarındaki sürekli dalgalanmalar nedeniyle likidite sağlarken yaşayabilecekleri geçici kayıplara karşı likidite sağlayıcılarını (LP'ler) koruyan bir sistem.
+ILP, $CACAO arzının %10'unu (10 milyon $CACAO) elinde tutar ve protokol ücretlerinin %10'u ile sürekli yenilenir. ILP, likidite yatırma işleminden 50 gün sonra etkinleşir ve kapsamı en fazla %100 olabilir.
 
-ILP kapsamının süresi, ASSET ve $CACAO performansına bağlıdır. ASSET daha iyi performans gösterirse 150 gün sonra, $CACAO daha iyi performans gösterirse 450 gün sonra tam kapsama sağlanır. Tam çekim yapıldığında ILP hem ödenir hem de sıfırlanır, ancak kısmi çekimlerden etkilenmez. Eklemelerde ise ILP sıfırlanır fakat ödeme yapılmaz.
+ILP kapsamının süresi, ASSET'in ve $CACAO'in performansına bağlıdır. ASSET daha iyi performans gösterirse 150 gün sonra, $CACAO daha iyi performans gösterirse 450 gün sonra tam kapsama ulaşılır. Tüm varlık çekildiğinde ILP ödemesi yapılır ve sıfırlanır; kısmi çekimlerden etkilenmez. Ek yatırımlarda ILP sıfırlanır ancak ödeme yapılmaz.
 
-### Farklı bir tahsis modeli
+### Farklı bir dağıtım modeli
 
-Liquidity Auction, $CACAO token’larını katılımcılar arasında dağıtmak için tasarlanmış 21 günlük bir etkinlikti. Etkinlik boyunca kullanıcılar, desteklenen varlıkları belirli bir adrese yatırdı. Açık artırmanın sonunda, $CACAO token’larının %90’ı katılımcılara likidite katkılarıyla orantılı olarak tahsis edilirken, kalan %10 ILP rezervine tahsis edildi. Katılımcılar, yatırdıkları varlıklar ve $CACAO token’ları Maya havuzlarına yerleştirildiği için likidite sağlayıcısı oldular ve üretilen ücretlerden pay kazanabildiler.
+Likidite Açık Artırması, katılımcılara $CACAO tokenları dağıtmak için tasarlanmış 21 günlük bir etkinlikti. Etkinlik boyunca kullanıcılar desteklenen varlıkları belirli bir adrese yatırdı. Açık artırma sona erdiğinde $CACAO tokenlarının %90'ı likidite katkıları oranında katılımcılara, kalan %10'u ise ILP rezervine tahsis edildi. Katılımcılar likidite sağlayıcısı oldu; yatırdıkları varlıklar ve $CACAO tokenları Maya havuzlarına kondu ve böylece üretilen ücretlerden pay kazanmaları sağlandı.
 
-### Rezervlerin ele alınışında farklı bir yaklaşım
+### Rezervleri yönetmenin farklı bir yolu
 
-Maya Protocol’ün genesis anında, mevcut CACAO rezervleri toplam arzın yalnızca %10’uydu; THORChain’de ise bu oran %44’tü ve ağırlıklı olarak Impermanent Loss Protection (ILP) için tasarlanmıştı. Maya'da blok emisyonları yoktur; ayrıca Protocol Owned Liquidity ve Lending uygulanırsa, bunlar farklı bir tasarıma sahip olacaktır, çünkü THORChain’de bu unsurlar Rezervlerle yakından entegredir.
+Maya Protocol'ın başlangıcında mevcut CACAO rezervleri toplam arzın yalnızca %10'uydu; bu oran THORChain için %44'tü ve rezervler öncelikle Geçici Olmayan Kayıp Koruması (ILP) için ayrılmıştı. Maya blok emisyonlarına sahip değildir. Protokolün Sahip Olduğu Likidite ve Borç Verme uygulamaya konursa, THORChain'da olduğu gibi farklı bir tasarıma sahip olacak; bu özellikler rezervlerle yakından bütünleşecektir.
 
-Yine de farklılıklarına rağmen Maya, THORChain için tamamlayıcı bir çözüm olarak da hizmet eder; yedeklilik, genişleme ve doğrulama sunar ve mevcut THORChain uygulamasında bulunmayan yeni ağları entegre eder.
+Yine de Maya, farklılıklarına rağmen yedeklilik, genişletme ve doğrulama sunarak ve mevcut THORChain uygulamasında bulunmayan yeni ağları entegre ederek THORChain'ı tamamlayıcı bir çözüm olarak da işlev görür.
 
-Ayrıca Maya'nın amacı, başka hizmetlerin üzerine inşa edebileceği bir *backend* haline gelmektir; böylece Maya altyapısı üzerine kurulu çok sayıda yeni *frontend* veya DEX hizmeti ortaya çıkması hedeflenmektedir.
+Ayrıca Maya'ın amacı, başka hizmetlerin üzerine inşa edebileceği bir *arka uç* olmaktır. Böylece Maya altyapısı üzerine kurulu çok sayıda yeni *ön uç* veya DEX hizmetinin ortaya çıkması hedeflenir.
 
 ## Maya Protocol cüzdan entegrasyonu
 
-Bir *backend* olarak çalışan Maya'nın kullanılabilmesi için farklı kullanıcı arayüzleri ve cüzdanlar tarafından desteklenmesi gerekir. 
-İşte Maya'yı hâlihazırda destekleyen bazı hizmetlerin listesi:
+Bir *arka uç* olarak Maya'ın kullanılabilmesi için farklı arayüzler ve cüzdanlar tarafından desteklenmesi gerekir.
+Maya'ı hâlihazırda destekleyen hizmetlerden bazıları şunlardır:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+El Dorado: artık çevrimiçi değil; alan adı çözümlenmiyor.
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 
 [Asgardex](https://www.asgardex.com/): Keystore, Ledger
 
-DefiSpot: artık çevrimiçi değil, alan adı çözümlenmiyor.
+DefiSpot: artık çevrimiçi değil; alan adı çözümlenmiyor.
 
-[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON ve daha fazlası dahil olmak üzere 30’dan fazla yerel blokzinciri ile tüm EVM ve Cosmos zincirlerini destekleyen, çok ekosistemli bir self-custody cüzdan.
+[Ctrl Wallet (XDEFI)](https://ctrl.xyz/): Bitcoin, Ethereum, Solana, THORChain, Maya Protocol, TRON ve daha fazlası dâhil 30'dan fazla yerel blok zincirini, tüm EVM ve Cosmos zincirlerini destekleyen çoklu ekosistemli, kullanıcının kendi varlıklarını sakladığı bir cüzdan.
 
-[KeepKey ](https://keepkey.com/): Dijital varlıkları güvenli bir şekilde saklamak için kullanılan bir donanım cüzdanı.
+[KeepKey ](https://keepkey.com/): Dijital varlıkları güvenle saklamak için bir donanım cüzdanı.

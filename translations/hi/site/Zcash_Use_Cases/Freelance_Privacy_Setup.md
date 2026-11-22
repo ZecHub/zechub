@@ -1,124 +1,128 @@
-# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> फ्रीलांसर के लिए Zcash के साथ गोपनीयता सेटअप
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> Zcash के साथ फ्रीलांसर के लिए गोपनीयता सेटअप
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  प्रारंभिक - 6 मिनट
+  शुरुआती - 6 मिनट
 </span>
 
-## TL;DR
+## संक्षेप में (TL;DR)
 
-- छिपे हुए पतों के माध्यम से भुगतान प्राप्त करें  
-- आवश्यकता के अनुसार प्रति ग्राहक पहचान को अलग करें  
-- आंतरिक ट्रैकिंग के लिए मेमो का उपयोग करें  
-- अपनी आय को गोपनीय रखें
+- शील्डेड (shielded) एड्रेस (address) के ज़रिए भुगतान (payment) प्राप्त करें
+- हर क्लाइंट के लिए अलग पहचान रखें (यदि आवश्यक हो)
+- आंतरिक ट्रैकिंग के लिए मेमो (memo) का उपयोग करें
+- अपनी आय को निजी रखें
 
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> यह किसके लिए है?
 
-- फ्रीलांसर और संबोधक  
-- क्रिप्टो में भुगतान प्राप्त करने वाले रिमोट कर्मचारी  
-- गोपनीयता संबंधी चिंता वाले व्यवसायज्ञ
-
+- फ्रीलांसर और कॉन्ट्रैक्टर
+- क्रिप्टो में भुगतान पाने वाले रिमोट कर्मचारी
+- गोपनीयता (privacy) के प्रति सजग पेशेवर
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> समस्या
 
-पब्लिक क्रिप्टो उपयोग करने वाले फ्रीलांसर प्रकट करते हैं:
-- अपनी आय  
-- अपने ग्राहकों  
-- अपना वित्तीय इतिहास  
+सार्वजनिक क्रिप्टो का उपयोग करने वाले फ्रीलांसर ये चीज़ें उजागर कर देते हैं:
+- उनकी आय
+- उनके क्लाइंट
+- उनका वित्तीय इतिहास
 
-इससे निम्न परिणाम हो सकते हैं:
-- बाजार में कीमत निर्धारण की शक्ति का नुकसान  
-- गोपनीयता के खतरे  
-- अवांछित दृश्यता  
-
-<br/>
-
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> क्यों Zcash?
-
-Zcash आपको अनुमति देता है:
-- गोपनीय रूप से भुगतान प्राप्त करें  
-- अपनी आय को छिपाएं  
-- ग्राहक संबंधों की सुरक्षा  
+इससे ये हो सकता है:
+- मोलभाव की शक्ति में कमी
+- गोपनीयता से जुड़े जोखिम
+- अनचाही दृश्यता
+  
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आवश्यकता
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcash क्यों?
 
-- मेमो समर्थन के साथ Zcash वॉलेट  
-- छिपे हुए पतों के बारे में मूल ज्ञान  
+Zcash आपको ये सुविधाएँ देता है:
+- निजी रूप से भुगतान प्राप्त करना
+- अपनी कमाई छिपाना
+- क्लाइंट के साथ संबंधों की सुरक्षा
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-दर-चरण मार्गदर्शन
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आपको क्या चाहिए
 
-### चरण 1: भुगतान पता बनाएं
+- मेमो सपोर्ट वाला एक Zcash वॉलेट (wallet)
+- शील्डेड एड्रेस की बुनियादी समझ
 
-एक छिपे हुए (z) पता उत्पन्न करें।  
+
+<br/>
+
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-दर-चरण गाइड
+
+### चरण 1: भुगतान एड्रेस बनाएँ
+
+एक शील्डेड (z) एड्रेस जनरेट करें।
 
 वैकल्पिक रूप से:
-- अलग-अलग ग्राहकों के लिए अलग-अलग पतों का उपयोग करें  
+- अलग-अलग क्लाइंट के लिए अलग-अलग एड्रेस का उपयोग करें
 
-### चरण 2: ग्राहक के साथ पता साझा करें
 
-अपने z-पता को अपने ग्राहक के साथ सीधे साझा करें।  
+### चरण 2: क्लाइंट के साथ एड्रेस साझा करें
 
-बचाएं:
-- यदि आवश्यक नहीं है, तो इसे सार्वजनिक रूप से प्रकाशित करें  
+अपना z-एड्रेस सीधे अपने क्लाइंट को भेजें।
+
+इससे बचें:
+- आवश्यक न हो तो इसे सार्वजनिक रूप से पोस्ट करना
 
 ### चरण 3: ट्रैकिंग के लिए मेमो का उपयोग करें
 
 भुगतान प्राप्त करते समय:
-- ग्राहकों से एक मेमो (उदाहरण: बिल की संख्या) शामिल करने के लिए प्रार्थना करें  
+- क्लाइंट से एक मेमो शामिल करने के लिए कहें (जैसे, इनवॉइस ID)
 
-यह आपको मदद करता है:
-- डेटा को सार्वजनिक रूप से प्रकट किए बिना भुगतान की ट्रैकिंग करें  
+इससे आपको मदद मिलती है:
+- डेटा को सार्वजनिक रूप से उजागर किए बिना भुगतान ट्रैक करने में
 
-### चरण 4: पहचान के अलगाव को बनाए रखें
+
+### चरण 4: पहचान को अलग बनाए रखें
 
 यदि आवश्यक हो:
-- ग्राहकों के लिए अलग वॉलेट या पतों का उपयोग करें  
-- पहचानों के मध्य संबंध बनाए रखें  
+- हर क्लाइंट के लिए अलग वॉलेट या एड्रेस का उपयोग करें
+- पहचानों को आपस में जोड़ने से बचें
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> बचाव के लिए सामान्य गलतियों
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> इन आम गलतियों से बचें
 
-- भुगतान के लिए प्रकाशित पता का उपयोग  
-- सभी ग्राहकों में एक ही पता का पुनर्उपयोग  
-- वॉलेट के साथ पहचान के सार्वजनिक बंधन  
-- भुगतान के ट्रैकिंग का अभाव (असमंजस की ओर ले जाता है)  
+- भुगतान के लिए ट्रांसपेरेंट (transparent) एड्रेस का उपयोग करना  
+- सभी क्लाइंट के लिए एक ही एड्रेस का बार-बार उपयोग करना  
+- वॉलेट को सार्वजनिक रूप से अपनी पहचान से जोड़ना  
+- भुगतान ट्रैक न करना (जिससे भ्रम पैदा होता है)
+
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> परिणाम
 
-आप कर सकते हैं:
-- गोपनीय रूप से भुगतान प्राप्त करें  
-- अपनी आय डेटा की सुरक्षा करें  
-- व्यवसाय के लचीलापन को बनाए रखें  
+अब आप:
+- निजी रूप से भुगतान प्राप्त कर सकते हैं
+- अपनी आय के डेटा की सुरक्षा कर सकते हैं
+- पेशेवर लचीलापन बनाए रख सकते हैं
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> संबंधित
 
-- [वॉलेट्स](/wallets)
+- [वॉलेट](/wallets)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> प्रगति
 
-**6 चरणों में 3वाँ चरण**
+**चरण 3 / 6**
 
-अब आपको अपनी आय कैसे गोपनीय रूप से प्राप्त करना है, इसके बारे में आपको समझ में आ गया है।  
+अब आप समझ गए हैं कि आय को निजी रूप से कैसे प्राप्त करें।
 
 <br/>
 
 ## अगला चरण
 
-- [एक व्यापारी के रूप में भुगतान प्राप्त करें](/zcash-use-cases/accept-payments-as-a-merchant)
+- [मर्चेंट के रूप में भुगतान स्वीकार करें](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

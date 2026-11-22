@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Websaịtị: https://github.com/firoorg/FiroDEX-Desktop
-- Nuxlɔɖi: Ha nuɖo agni ɖɔli ɖɔli si me mɔkpɔkpɔ mele o, si wotsɔ atomic swaps kple FiroDEX! wɔ.
+- Nuxlɔɖi: Atomic-swap ƒe desktop app. Womegale edzi wɔwɔ o: Firo ɖo FiroDEX-Desktop repository la ɖe archive me, eye eƒe release mamlɛtɔe nye 0.8.2-beta (February 2025).
 
 ___
 

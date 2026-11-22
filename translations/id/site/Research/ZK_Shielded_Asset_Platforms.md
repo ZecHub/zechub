@@ -94,5 +94,5 @@ Sebagai contoh, pertimbangkan sebuah listing NFT di Solana; state publiknya (mis
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO adalah blockchain publik layer 1. TomoChain adalah protokol privasi yang dikembangkan di atas TomoChain dan dirancang untuk menciptakan transaksi yang aman dan tidak dapat dilacak -**Swap Aset**: Ya- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (sebelumnya TomoChain)](https://viction.xyz/ecosystem)**: VIC (sebelumnya TOMO) adalah blockchain publik layer 1. TomoChain adalah protokol privasi yang dikembangkan di atas TomoChain dan dirancang untuk menciptakan transaksi yang aman dan tidak dapat dilacak -**Swap Aset**: Ya- [Whitepaper](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

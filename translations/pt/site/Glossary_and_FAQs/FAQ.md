@@ -1,22 +1,22 @@
 # Perguntas frequentes
 
-Uma lista das perguntas mais comuns sobre o Zcash. Para resolver problemas com o cliente Zcash, consulte o [guia oficial de resolução de problemas](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
+Uma lista das perguntas mais comuns sobre o Zcash. Para solucionar problemas do cliente Zcash, consulte o [guia oficial de solução de problemas](https://zcash.readthedocs.io/en/latest/rtd_pages/troubleshooting_guide.html).
 
 ### Navegação rápida
 
 <div className="flex flex-wrap gap-2 my-4">
   <a href="#what-is-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">O que é o Zcash?</a>
-  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Como você pode adquirir Zcash?</a>
+  <a href="#how-can-i-acquire-zcash" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Como posso adquirir Zcash?</a>
   <a href="#what-is-the-difference-between-zcash-and-other-cryptocurrencies" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Diferença em relação a outras criptomoedas?</a>
   <a href="#how-is-the-zcash-protocol-governed" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Governança do protocolo?</a>
   <a href="#where-is-my-transaction" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Onde está minha transação?</a>
   <a href="#is-zcash-really-private" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">O Zcash é realmente privado?</a>
   <a href="#a-few-common-misconceptions" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Equívocos comuns</a>
-  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">zcashd deixou de funcionar?</a>
-  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Mover minha carteira para Zallet?</a>
-  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">O que é Ironwood?</a>
+  <a href="#zcashd-stopped-working-what-do-i-run-now" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">O zcashd parou de funcionar?</a>
+  <a href="#how-do-i-move-my-zcashd-wallet-to-zallet" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Mover minha carteira para a Zallet?</a>
+  <a href="#what-is-ironwood-and-do-i-need-to-do-anything" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">O que é o Ironwood?</a>
   <a href="#which-full-node-should-i-run" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Qual nó integral?</a>
-  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Procurar um termo?</a>
+  <a href="#where-do-i-look-up-a-term-from-a-release-note" className="inline-flex px-3 py-1.5 rounded-full border border-border bg-card text-sm no-underline hover:bg-accent">Consultar um termo?</a>
 </div>
 
 ---
@@ -25,19 +25,19 @@ Uma lista das perguntas mais comuns sobre o Zcash. Para resolver problemas com o
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-O Zcash é uma moeda digital com transações rápidas e confidenciais, e taxas baixas. A privacidade é a funcionalidade central do Zcash. Foi pioneiro no uso de provas de conhecimento zero para criptografar todas as transações.
+O Zcash é uma moeda digital com transações rápidas e confidenciais e taxas baixas. A privacidade é o recurso central do Zcash. Ele foi pioneiro no uso de provas de conhecimento zero para criptografar todas as transações.
 
-Há várias carteiras disponíveis para pagamentos instantâneos, móveis, seguros e privados: [Carteiras](/using-zcash/wallets)
+Várias carteiras estão disponíveis para pagamentos instantâneos, móveis, seguros e privados: [Carteiras](/using-zcash/wallets)
 
 </div>
 
-## Como você pode adquirir Zcash?
+## Como posso adquirir Zcash?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
 Você pode comprar ZEC em [corretoras custodiantes](/using-zcash/custodial-exchanges), [DEXs](/using-zcash/dex) ou [plataformas centralizadas de conversão](/using-zcash/centralized-swaps).
 
-Você também pode comprar Zcash diretamente de outras pessoas ou adquiri-lo por meio da mineração.
+Você também pode comprar Zcash ponto a ponto ou adquiri-lo por meio da mineração.
 
 </div>
 
@@ -45,22 +45,22 @@ Você também pode comprar Zcash diretamente de outras pessoas ou adquiri-lo por
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-O Zcash é fundamentalmente mais privado que Bitcoin ou Ethereum. Oferece tempos de bloco rápidos (75 segundos), taxas baixas e atualizações regulares.
+O Zcash é fundamentalmente mais privado que o Bitcoin ou o Ethereum. Ele oferece tempos de bloco rápidos (25 segundos desde a ativação do NU7 em novembro de 2026, contra 75 segundos antes), taxas baixas e atualizações regulares.
 
-Os usuários podem escolher entre transações **transparentes** ou **blindadas**. Para mais informações, consulte [A Shielded Ecosystem](https://electriccoin.co/blog/shielded-ecosystem).
+Os usuários podem escolher entre transações **transparentes** ou **blindadas**. Para mais informações, consulte [Um ecossistema blindado](https://electriccoin.co/blog/shielded-ecosystem).
 
 </div>
 
-## Como o protocolo Zcash é governado?
+## Como é governado o protocolo Zcash?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-O protocolo é governado pelo processo de **Proposta de melhoria do Zcash (ZIP)**. Qualquer pessoa pode enviar um rascunho de ZIP. Os rascunhos são debatidos pela comunidade e aceitos ou rejeitados pelos editores de ZIP:
+O protocolo é governado pelo processo de **propostas de melhoria do Zcash (ZIP)**. Qualquer pessoa pode enviar um rascunho de ZIP. Os rascunhos são debatidos pela comunidade e aceitos ou rejeitados pelos editores de ZIP:
 
 - [Daira Hopwood](https://twitter.com/feministPLT) (Electric Coin Company)
 - [Deirdre Connolly](https://twitter.com/durumcrustulum) (Zcash Foundation)
 
-As decisões são registradas na especificação e ratificadas on-chain quando a rede as adota.
+As decisões são incorporadas à especificação e ratificadas on-chain quando a rede as adota.
 
 </div>
 
@@ -68,21 +68,21 @@ As decisões são registradas na especificação e ratificadas on-chain quando a
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Leia primeiro [nosso guia sobre exploradores de blocos](/guides/blockchain-explorers). Depois, consulte o [Explorador de blocos do Zcash](https://mainnet.zcashexplorer.app).
+Primeiro, leia [nosso guia sobre exploradores de blocos](/guides/blockchain-explorers). Depois, verifique o [explorador de blocos Zcash](https://mainnet.zcashexplorer.app).
 
-As transações expiram após aproximadamente 25 minutos (20 blocos), e os fundos são devolvidos automaticamente.
+Não existe um prazo fixo de expiração de 25 minutos nem um temporizador de reembolso automático. Verifique a altura de expiração registrada pela sua carteira e se o pagamento original foi minerado. Se ele expirou sem ser minerado, não foi liquidado on-chain; a expiração não cria uma transação de reembolso. Deixe a carteira sincronizar antes de seguir as orientações dela para tentar novamente. Consulte [solução de problemas de transações](/using-zcash/transactions#troubleshooting-stuck-transactions) e o [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Motivos comuns pelos quais uma transação pode não aparecer:**
 
 - Perda de conectividade
 - Taxa de transação muito baixa
 - Sobrecarga da rede
-- Muitas entradas transparentes (tamanho muito grande)
+- Excesso de entradas transparentes (tamanho muito grande)
 
 **Dicas para ter sucesso:**
 
 - Use uma conexão estável
-- Pague a taxa padrão (ou uma taxa mais alta para ter prioridade)
+- Pague a taxa padrão (ou uma mais alta para ter prioridade)
 - Aguarde e tente novamente mais tarde
 - Use menos entradas para manter a transação pequena
 
@@ -92,55 +92,55 @@ As transações expiram após aproximadamente 25 minutos (20 blocos), e os fundo
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-**Sim.** O Zcash criptografa os dados do remetente, do valor e do destinatário em transações blindadas.
+**Sim.** O Zcash criptografa os dados de remetente, valor e destinatário nas transações blindadas.
 
 O Zcash **não**:
 
-- Criptografa transações com múltiplas assinaturas (integração com FROST pendente)
+- Criptografa transações multiassinatura (integração com FROST pendente)
 - Protege contra correlações com transações transparentes
 - Oculta endereços IP
 
-Leitura adicional: [A Shielded Ecosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
+Leitura complementar: [Um ecossistema blindado](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 </div>
 
-## zcashd deixou de funcionar, o que devo executar agora?
+## O zcashd parou de funcionar, o que devo executar agora?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-zcashd foi descontinuado. A versão 6.20.0 foi encerrada no bloco 3417100 em 18 de julho de 2026 e nunca ofereceu suporte ao Ironwood (NU6.3), portanto não há uma versão posterior para atualizar.
+O zcashd foi descontinuado. A versão 6.20.0 se desligou automaticamente no bloco 3417100, em 18 de julho de 2026, e nunca deu suporte ao Ironwood (NU6.3), portanto não existe uma versão posterior para a qual atualizar.
 
-Em vez disso, execute o conjunto Z3. Três programas dividem o trabalho que zcashd costumava fazer sozinho:
+Em vez dele, execute a stack Z3. Três programas dividem o trabalho que o zcashd fazia sozinho:
 
 - **[Zebra](/zcash-tech/zebra-full-node)** valida a chain
-- **[Zaino](/zcash-tech/zaino)** a indexa e fornece dados da carteira
+- **[Zaino](/zcash-tech/zaino)** indexa a chain e fornece os dados para as carteiras
 - **[Zallet](/zcash-tech/zallet)** guarda seus fundos
 
-[Zakura](/zcash-tech/zakura-node) é um nó integral alternativo. Ele também executa zcashd sobre si mesmo, o que ajuda se outro software ainda espera a interface antiga.
+O [Zakura](/zcash-tech/zakura-node) é um nó integral alternativo. Ele também executa o zcashd sobre si mesmo, o que ajuda se outros softwares ainda esperam a interface antiga.
 
 Comece pelo [guia de migração](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 </div>
 
-## Como movo minha carteira zcashd para Zallet?
+## Como movo minha carteira do zcashd para a Zallet?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zallet migra um `wallet.dat` existente, para que você mantenha seus fundos e endereços.
+A Zallet migra um `wallet.dat` existente, então você mantém seus fundos e endereços.
 
-Faça primeiro um backup de `wallet.dat` e, em seguida, siga o [guia de migração](/guides/migration-guide-zcashd-to-zebrad-zallet). Mantenha esse backup até confirmar seu saldo na Zallet.
+Primeiro, faça um backup do `wallet.dat` e depois siga o [guia de migração](/guides/migration-guide-zcashd-to-zebrad-zallet). Guarde esse backup até confirmar seu saldo na Zallet.
 
-A referência rápida da [Zallet](/using-zcash/zallet-quick-reference-guide) aborda os comandos do dia a dia depois que você concluir a migração.
+A [referência rápida da Zallet](/using-zcash/zallet-quick-reference-guide) aborda os comandos do dia a dia depois que você tiver concluído a migração.
 
 </div>
 
-## O que é Ironwood e preciso fazer alguma coisa?
+## O que é o Ironwood, e preciso fazer alguma coisa?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Ironwood é a atualização da rede NU6.3, ativa na mainnet desde o bloco 3.428.143 em 28 de julho de 2026. Ela adiciona um pool blindado construído sobre um circuito corrigido e fecha o pool mais antigo [Orchard](/using-zcash/shielded-pools), para que qualquer pessoa possa verificar que nenhum ZEC foi forjado.
+O Ironwood é a atualização da rede NU6.3, ativa na mainnet desde o bloco 3.428.143, em 28 de julho de 2026. Ela adiciona uma pool blindada construída sobre um circuito corrigido e lacra a pool [Orchard](/using-zcash/shielded-pools) mais antiga, para que qualquer pessoa possa verificar que nenhum ZEC foi forjado.
 
-**Se você possui fundos blindados, talvez seja necessário movê-los.** O valor sai de Orchard apenas pela [catraca](/zcash-tech/the-turnstile), e as carteiras realizam a migração em momentos e de formas diferentes. Pergunte ao provedor da sua carteira antes de mover qualquer coisa manualmente.
+**Se você tem fundos blindados, talvez eles precisem ser movidos.** O valor só sai do Orchard por meio da [catraca](/zcash-tech/the-turnstile), e as carteiras fazem essa movimentação em momentos e de formas diferentes. Consulte o provedor da sua carteira antes de mover qualquer coisa manualmente.
 
 Leia [Ironwood](/zcash-tech/ironwood) para saber o que mudou e por quê.
 
@@ -150,19 +150,19 @@ Leia [Ironwood](/zcash-tech/ironwood) para saber o que mudou e por quê.
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-**[Zebra](/zcash-tech/zebra-full-node)** é a substituição direta do zcashd e o nó que o guia de migração pressupõe. Escolha-o, a menos que você tenha um motivo para não fazê-lo.
+O **[Zebra](/zcash-tech/zebra-full-node)** é o substituto direto do zcashd e o nó que o guia de migração pressupõe. Escolha-o, a menos que você tenha um motivo para não fazer isso.
 
-**[Zakura](/zcash-tech/zakura-node)** é uma segunda implementação voltada para escala, com sincronização mais rápida e poda nativa de blocos. Escolha-o se precisar desses recursos ou se depender de software que ainda se comunica com zcashd.
+O **[Zakura](/zcash-tech/zakura-node)** é uma segunda implementação voltada para escala, com sincronização mais rápida e poda nativa de blocos. Escolha-o se você precisar desses recursos ou se depender de softwares que ainda se comunicam com o zcashd.
 
-Ambos validam a mesma chain, portanto esta é uma escolha operacional, não de consenso.
+Ambos validam a mesma chain, então esta é uma escolha operacional, e não de consenso.
 
 </div>
 
-## Onde procuro um termo de uma nota de versão?
+## Onde consulto um termo de uma nota de versão?
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Consulte a [Biblioteca do Zcash](/glossary-and-faqs/zcash-library). Ela abrange o software de nó e de carteira, os pools blindados e os números ZIP que aparecem com mais frequência.
+Consulte a [biblioteca Zcash](/glossary-and-faqs/zcash-library). Ela abrange os softwares de nó e de carteira, as pools blindadas e os números de ZIP que aparecem com mais frequência.
 
 </div>
 
@@ -180,19 +180,19 @@ Consulte a [Biblioteca do Zcash](/glossary-and-faqs/zcash-library). Ela abrange 
   <tbody>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
       <td className="py-4 px-5 font-medium text-foreground">O Zcash é uma moeda centralizada?</td>
-      <td className="py-4 px-5 text-foreground">Não. Um acordo de marca registrada impede a Zcash Foundation ou a ECC de agir contra o consenso da comunidade. A governança é comprovadamente descentralizada (consulte o relatório [Messari](https://messari.io/report/decentralizing-zcash)). Enquetes da comunidade, ZecHub e o A/V Club da Zcash Foundation permitem ampla participação.</td>
+      <td className="py-4 px-5 text-foreground">Não. Um acordo de marca registrada impede que a Zcash Foundation ou a ECC ajam contra o consenso da comunidade. Está comprovado que a governança é descentralizada (veja o [relatório da Messari](https://messari.io/report/decentralizing-zcash)). Enquetes da comunidade, a ZecHub e o A/V Club do Zcash Foundation possibilitam uma ampla participação.</td>
     </tr>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
-      <td className="py-4 px-5 font-medium text-foreground">O Zcash tem uma porta dos fundos?</td>
-      <td className="py-4 px-5 text-foreground">Não. Nem o Zcash nem qualquer software criptográfico que criamos contém uma porta dos fundos, nem jamais conterá.</td>
+      <td className="py-4 px-5 font-medium text-foreground">O Zcash tem um backdoor?</td>
+      <td className="py-4 px-5 text-foreground">Não. Nem o Zcash nem qualquer software criptográfico que desenvolvemos contém um backdoor, e nunca conterá.</td>
     </tr>
     <tr className="border-b border-border hover:bg-amber-50 dark:hover:bg-zinc-700">
       <td className="py-4 px-5 font-medium text-foreground">O Zcash é controlado por uma empresa?</td>
-      <td className="py-4 px-5 text-foreground">Incorreto. Embora façamos parcerias com empresas para pesquisa, o Zcash mantém o compromisso com a descentralização. Várias organizações autônomas trabalham juntas em prol da autocustódia e dos direitos de privacidade.</td>
+      <td className="py-4 px-5 text-foreground">Incorreto. Embora façamos parcerias com empresas para pesquisa, o Zcash continua comprometido com a descentralização. Várias organizações autônomas trabalham juntas em prol da autocustódia e do direito à privacidade.</td>
     </tr>
     <tr className="hover:bg-amber-50 dark:hover:bg-zinc-700">
       <td className="py-4 px-5 font-medium text-foreground">O Zcash tem privacidade limitada em comparação com outras moedas de privacidade</td>
-      <td className="py-4 px-5 text-foreground">Não. A privacidade no estilo Monero/Grin se baseia em iscas (que podem ser derrotadas). O Zcash criptografa todos os dados de transações blindadas, portanto todas as transações no pool são indistinguíveis. Consulte [Not Private Enough?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
+      <td className="py-4 px-5 text-foreground">Não. A privacidade no estilo Monero/Grin depende de iscas (que podem ser contornadas). O Zcash criptografa todos os dados das transações blindadas, de modo que todas as transações na pool são indistinguíveis. Veja [Não é privado o suficiente?](https://electriccoin.co/blog/not-private-enough-mixers-and-decoys-wont-protect-you-for-long/).</td>
     </tr>
   </tbody>
 </table>

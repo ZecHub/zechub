@@ -1,8 +1,8 @@
 # Nym VPN 
 
-Nym é uma mix network (mixnet) em evolução, um tipo de infraestrutura de rede de computadores para privacidade que oculta os metadados do usuário, separando os endereços IP de origem e destino. Anonimiza vários tipos de comunicação, incluindo mensagens, transferências de arquivos, transações de pagamento e navegação na web em sites básicos. O projeto é construído com software livre e de código aberto e é descentralizado, mantido por um conjunto distribuído de nós independentes em todo o mundo. Nym VPN & Mixnet aceita pagamentos em ZEC blindado! 
+O Nym é uma rede mix (mixnet) em evolução, um tipo de infraestrutura de rede de computadores voltada para a privacidade que mascara os metadados do usuário, separando os endereços IP de origem e de destino. Ele anonimiza vários tipos de comunicação, incluindo mensagens, transferências de arquivos, transações de pagamento e navegação em sites básicos. O projeto é construído com software livre e de código aberto e é descentralizado, mantido por um conjunto distribuído de nós independentes ao redor do mundo.Nym VPN & Mixnet aceita pagamento em ZEC blindado! 
 
-[Artigo do blog da Nym](https://nym.com/blog/nymvpn-with-zcash) | [Baixe a Nym VPN](https://nym.com)
+[Post do blog do Nym](https://nym.com/blog/nymvpn-with-zcash) | [Baixe o Nym VPN](https://nym.com)
 
 ## Tutorial
 
@@ -22,41 +22,41 @@ Nym é uma mix network (mixnet) em evolução, um tipo de infraestrutura de rede
 
 Contorne restrições geográficas para acessar serviços de streaming, sites ou conteúdos indisponíveis na sua região.
 
-### Reforce sua segurança em Wi-Fi público
+### Aumente sua segurança em Wi-Fi público
 
 Proteja seus dados contra hackers ao usar Wi-Fi público em cafés, aeroportos ou hotéis.
 
-### Privacidade avançada em um só lugar
+### Privacidade avançada tudo em um 
 
 Proteja sua privacidade
-Criptografe sua conexão com a internet para ocultar suas atividades online de ISPs, anunciantes e rastreadores de dados.
+Criptografe sua conexão com a internet para esconder suas atividades online de provedores de internet, anunciantes e rastreadores de dados.
 
-### Seja anônimo online
+### Fique anônimo online
 
-Oculte seu endereço IP para permanecer anônimo enquanto navega, evitando perfis ou anúncios direcionados.
+Mascare seu endereço IP para permanecer anônimo enquanto navega, evitando a criação de perfis ou anúncios direcionados.
 
-### Evite limitação de largura de banda
+### Evite a limitação de banda
 
-Impeça que os ISPs reduzam a velocidade da sua conexão com a internet quando estiver fazendo streaming ou jogando.
+Impeça que os provedores de internet deixem sua conexão mais lenta quando você estiver assistindo a streaming ou jogando.
 
 ### Evite vigilância e censura
 
-Contorne a censura e acesse sites ou redes sociais bloqueados em países restritivos.
+Contorne a censura e acesse sites ou redes sociais bloqueados em países com restrições.
 
-### Proteja o acesso ao banco online
+### Banco online seguro
 
-Proteja informações financeiras sensíveis ao acessar o banco online ou ao efetuar pagamentos.
+Proteja informações financeiras sensíveis ao acessar o banco online ou fazer pagamentos.
 
 ### Evite preços dinâmicos
 
-Oculte sua localização para evitar discriminação de preços com base na localização em voos, hotéis ou produtos.
+Esconda sua localização para evitar a discriminação de preços com base na localização em voos, hotéis ou produtos.
 
 ### Proteja suas transações de cripto
 
-Proteja suas atividades com criptomoedas com os pagamentos não vinculáveis da NymVPN e a proteção avançada de metadados.
+Proteja suas atividades com criptomoedas com os pagamentos não vinculáveis e a proteção avançada de metadados do NymVPN.
 
 
-## Guias de instalação da Nym VPN:
+## Guias de instalação do Nym VPN:
 
 [iOS](https://vimeo.com/1083490444/81e95709b0) 
 

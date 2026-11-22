@@ -1,44 +1,44 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zallet_Quick_Reference_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Guia de referência rápida da Zallet
 
 ## TL;DR
 
-- A Zallet é uma carteira Zcash de nó integral escrita em Rust. Ela substitui a carteira que antes fazia parte do zcashd.
-- O zcashd chegou à sua interrupção de fim de suporte em 18 de julho de 2026 e não é mais executado. O Zebra agora gerencia o lado do nó; a Zallet gerencia o lado da carteira.
-- Você opera a Zallet pela linha de comando com `zallet rpc <command>`, de forma semelhante a como usava `zcash-cli` antes.
-- Todos os argumentos após o nome do comando precisam ser JSON válido, o que significa que os valores de texto mantêm suas aspas duplas.
-- A Zallet está em beta. Os comandos podem mudar entre versões, e nem todos os RPCs do zcashd foram migrados ainda.
+- A Zallet é uma carteira de nó integral do Zcash escrita em Rust. Ela substitui a carteira que antes ficava dentro do zcashd.
+- O zcashd atingiu sua parada de fim de suporte em 18 de julho de 2026 e não funciona mais. O Zebra agora cuida da parte do nó; a Zallet cuida da parte da carteira.
+- Você controla a Zallet pela linha de comando com `zallet rpc <command>`, de forma muito parecida com o uso que fazia do `zcash-cli` antes.
+- Todo argumento após o nome do comando deve ser um JSON válido, o que significa que os valores de string mantêm suas aspas duplas.
+- A Zallet está em beta. Os comandos podem mudar entre versões, e nem todas as RPCs do zcashd foram portadas ainda.
 
 ## Explicação principal
 
-A Zallet expõe suas funcionalidades por meio de JSON-RPC, o mesmo estilo de interface que a carteira do zcashd usava. Tudo o que você quiser que a carteira faça — verificar um saldo, criar uma conta, enviar um pagamento blindado — é um comando que você passa para `zallet rpc`.
+A Zallet expõe suas funcionalidades por meio de JSON-RPC, o mesmo estilo de interface que a carteira do zcashd usava. Tudo o que você quiser que a carteira faça (verificar um saldo, criar uma conta, enviar um pagamento blindado) é um comando que você passa para `zallet rpc`.
 
-Duas coisas diferem do antigo hábito com `zcash-cli` e explicam a maioria dos erros iniciais. Primeiro, os argumentos precisam ser JSON válido em vez de texto simples, por isso um argumento de texto traz suas próprias aspas dentro das aspas do shell. Segundo, o conjunto de comandos disponíveis depende da versão beta que você está executando, por isso a lista incorporada ao seu binário é mais confiável do que qualquer página escrita, incluindo esta.
+Duas coisas são diferentes do antigo hábito com o `zcash-cli` e explicam a maioria dos erros iniciais. Primeiro, os argumentos devem ser JSON válido em vez de texto simples, então um argumento de string leva suas próprias aspas dentro das aspas do shell. Segundo, o conjunto de comandos disponíveis depende da versão beta que você está usando, então a lista embutida no seu binário é mais confiável do que qualquer página escrita, incluindo esta.
 
-Para listar todos os RPCs disponíveis:
+Para listar todas as RPCs disponíveis:
 
 ```bash
 zallet rpc help
 ```
 
-Para obter ajuda detalhada sobre um RPC específico:
+Para obter ajuda detalhada sobre uma RPC específica:
 
 ```bash
 zallet rpc help '"<command>"'
 ```
 
-> **Importante:** Todos os argumentos após o nome do método **precisam ser JSON válido**.  
-> Os valores de texto têm de ser escritos como `"value"` (incluindo as aspas duplas).
+> **Importante:** Todo argumento após o nome do método **deve ser um JSON válido**.  
+> Valores de string devem ser escritos como `"value"` (incluindo as aspas duplas).
 
 ## Erros comuns
 
-- **Omitir as aspas internas em argumentos de texto.** `zallet rpc validateaddress u1abc...` falha, porque o endereço tem de chegar como JSON. Tem de ser escrito como `'"u1abc..."'`.
-- **Supor que todos os RPCs existem aqui.** A migração ainda está em andamento. Alguns métodos se comportam de forma idêntica, alguns precisam de uso diferente e alguns não serão migrados.
-- **Tratar esta página como mais confiável do que seu binário.** A Zallet está em beta e evolui rapidamente. Quando um comando desta página não funcionar, verifique `zallet rpc help` antes de supor que algo está quebrado.
-- **Esperar que a Zallet seja um nó.** Ela é a metade da carteira do par. O Zebra executa o nó, e a Zallet se comunica com ele.
+- **Omitir as aspas internas em argumentos de string.** `zallet rpc validateaddress u1abc...` falha, porque o endereço precisa chegar como JSON. Ele precisa ser escrito `'"u1abc..."'`.
+- **Supor que toda RPC existe aqui.** A portabilidade ainda está em andamento. Alguns métodos se comportam de forma idêntica, alguns exigem um uso diferente e alguns não serão portados de jeito nenhum.
+- **Tratar esta página como mais confiável do que o seu binário.** A Zallet está em beta e evolui rapidamente. Quando um comando daqui não funcionar, verifique `zallet rpc help` antes de supor que algo está quebrado.
+- **Esperar que a Zallet seja um nó.** Ela é a metade carteira da dupla. O Zebra executa o nó, e a Zallet se comunica com ele.
 
 ## Comandos RPC
 
@@ -48,9 +48,9 @@ zallet rpc help '"<command>"'
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
-| Parâmetro   | Tipo   | Obrigatório | Descrição                    |
-|-------------|--------|-------------|------------------------------|
-| hexstring   | string | sim         | String hexadecimal da transação |
+| Parâmetro   | Tipo   | Obrigatório | Descrição                |
+|-------------|--------|----------|--------------------------|
+| hexstring   | string | sim      | String hex da transação  |
 
 ---
 
@@ -60,9 +60,9 @@ zallet rpc decoderawtransaction '"<hexstring>"'
 zallet rpc decodescript '"<hexstring>"'
 ```
 
-| Parâmetro   | Tipo   | Obrigatório | Descrição        |
-|-------------|--------|-------------|------------------|
-| hexstring   | string | sim         | Script em hex    |
+| Parâmetro   | Tipo   | Obrigatório | Descrição       |
+|-------------|--------|----------|-----------------|
+| hexstring   | string | sim      | Script em hex   |
 
 ---
 
@@ -72,11 +72,11 @@ zallet rpc decodescript '"<hexstring>"'
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
-| Parâmetro | Tipo   | Obrigatório | Padrão | Descrição                               |
-|-----------|--------|-------------|--------------|-----------------------------------------|
-| txid       | string | sim         |              | ID da transação                         |
-| verbose    | number | não         | 0            | `0` = hex, diferente de zero = objeto JSON |
-| blockhash  | string | não         |              | Restringir a busca a este bloco      |
+| Parâmetro  | Tipo   | Obrigatório | Padrão  | Descrição                            |
+|------------|--------|----------|---------|--------------------------------------|
+| txid       | string | sim      |         | ID da transação                      |
+| verbose    | number | não      | 0       | `0` = hex, diferente de zero = objeto JSON |
+| blockhash  | string | não      |         | Restringe a busca a este bloco       |
 
 ---
 
@@ -116,7 +116,7 @@ Sem parâmetros.
 zallet rpc rpc.discover
 ```
 
-Sem parâmetros. Retorna o esquema OpenRPC.
+Sem parâmetros. Retorna o schema OpenRPC.
 
 ---
 
@@ -126,7 +126,7 @@ Sem parâmetros. Retorna o esquema OpenRPC.
 zallet rpc stop
 ```
 
-Sem parâmetros. (Apenas Regtest)
+Sem parâmetros. (Somente regtest)
 
 ---
 
@@ -136,9 +136,9 @@ Sem parâmetros. (Apenas Regtest)
 zallet rpc validateaddress '"<address>"'
 ```
 
-| Parâmetro | Tipo   | Obrigatório | Descrição              |
-|-----------|--------|-------------|------------------------|
-| address   | string | sim         | Endereço transparente  |
+| Parâmetro | Tipo   | Obrigatório | Descrição               |
+|-----------|--------|----------|-------------------------|
+| address   | string | sim      | Endereço transparente   |
 
 ---
 
@@ -148,11 +148,11 @@ zallet rpc validateaddress '"<address>"'
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
-| Parâmetro | Tipo   | Obrigatório | Descrição              |
-|-----------|--------|-------------|------------------------|
-| address    | string | sim         | Endereço transparente  |
-| signature  | string | sim         | Assinatura Base64      |
-| message    | string | sim         | Mensagem original      |
+| Parâmetro  | Tipo   | Obrigatório | Descrição               |
+|------------|--------|----------|-------------------------|
+| address    | string | sim      | Endereço transparente   |
+| signature  | string | sim      | Assinatura em Base64    |
+| message    | string | sim      | Mensagem original       |
 
 ---
 
@@ -172,10 +172,10 @@ Sem parâmetros.
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
-| Parâmetro  | Tipo   | Obrigatório | Descrição                             |
-|------------|--------|-------------|---------------------------------------|
-| passphrase  | string | sim         | Senha da carteira               |
-| timeout     | number | sim         | Segundos para manter a carteira desbloqueada |
+| Parâmetro   | Tipo   | Obrigatório | Descrição                            |
+|-------------|--------|----------|--------------------------------------|
+| passphrase  | string | sim      | Senha da carteira                    |
+| timeout     | number | sim      | Segundos para manter a carteira desbloqueada |
 
 ---
 
@@ -185,9 +185,9 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
-| Parâmetro            | Tipo   | Obrigatório | Descrição                    |
-|----------------------|--------|-------------|------------------------------|
-| transparent_address   | string | sim         | Endereço P2PKH a converter   |
+| Parâmetro             | Tipo   | Obrigatório | Descrição                  |
+|-----------------------|--------|----------|----------------------------|
+| transparent_address   | string | sim      | Endereço P2PKH a converter |
 
 ---
 
@@ -197,11 +197,11 @@ zallet rpc z_converttex '"<transparent_address>"'
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
-| Parâmetro | Tipo   | Obrigatório | Descrição                                         |
-|-----------|--------|-------------|---------------------------------------------------|
-| address   | string | sim         | Endereço Sapling cuja chave de gastos será exportada |
+| Parâmetro | Tipo   | Obrigatório | Descrição                                        |
+|-----------|--------|----------|--------------------------------------------------|
+| address   | string | sim      | Endereço Sapling cuja chave de gastos será exportada |
 
-> A carteira precisa estar desbloqueada. Exporta apenas a chave de gastos Sapling.
+> A carteira deve estar desbloqueada. Exporta apenas a chave de gastos Sapling.
 
 ---
 
@@ -211,9 +211,9 @@ zallet rpc z_exportkey '"<sapling_address>"'
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
-| Parâmetro    | Tipo   | Obrigatório | Descrição        |
-|--------------|--------|-------------|------------------|
-| account_uuid  | string | sim         | UUID da conta    |
+| Parâmetro     | Tipo   | Obrigatório | Descrição       |
+|---------------|--------|----------|-----------------|
+| account_uuid  | string | sim      | UUID da conta   |
 
 ---
 
@@ -223,11 +223,11 @@ zallet rpc z_getaccount '"<account_uuid>"'
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
-| Parâmetro         | Tipo            | Obrigatório | Descrição                               |
-|-------------------|------------------|-------------|-----------------------------------------|
-| account            | string / number | sim         | UUID da conta ou índice da conta ZIP-32 |
-| receiver_types     | array of string | não         | Tipos de receiver a incluir             |
-| diversifier_index  | number          | não         | Índice específico do diversifier           |
+| Parâmetro          | Tipo            | Obrigatório | Descrição                                |
+|--------------------|-----------------|----------|------------------------------------------|
+| account            | string / number | sim      | UUID da conta ou índice de conta ZIP-32  |
+| receiver_types     | array of string | não      | Tipos de receptor a incluir              |
+| diversifier_index  | number          | não      | Índice de diversificador específico      |
 
 ---
 
@@ -237,10 +237,10 @@ zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
-| Parâmetro | Tipo            | Obrigatório | Padrão | Descrição                           |
-|-----------|------------------|-------------|--------------|-------------------------------------|
-| account   | string / number | sim         |              | UUID da conta ou índice ZIP-32      |
-| minconf   | number          | não         | 1            | Confirmações mínimas                |
+| Parâmetro | Tipo            | Obrigatório | Padrão  | Descrição                        |
+|-----------|-----------------|----------|---------|----------------------------------|
+| account   | string / number | sim      |         | UUID da conta ou índice ZIP-32   |
+| minconf   | number          | não      | 1       | Mínimo de confirmações           |
 
 ---
 
@@ -250,9 +250,9 @@ zallet rpc z_getbalanceforaccount <account> [<minconf>]
 zallet rpc z_getbalances [<minconf>]
 ```
 
-| Parâmetro | Tipo   | Obrigatório | Padrão | Descrição               |
-|-----------|--------|-------------|--------------|-------------------------|
-| minconf   | number | não         | 1            | Confirmações mínimas    |
+| Parâmetro | Tipo   | Obrigatório | Padrão  | Descrição                 |
+|-----------|--------|----------|---------|---------------------------|
+| minconf   | number | não      | 1       | Mínimo de confirmações    |
 
 ---
 
@@ -262,10 +262,10 @@ zallet rpc z_getbalances [<minconf>]
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
-| Parâmetro    | Tipo   | Obrigatório | Descrição                               |
-|--------------|--------|-------------|-----------------------------------------|
-| account_name  | string | sim         | Nome legível para humanos                |
-| seedfp        | string | não         | Obrigatório se a carteira tiver várias seeds |
+| Parâmetro     | Tipo   | Obrigatório | Descrição                                |
+|---------------|--------|----------|------------------------------------------|
+| account_name  | string | sim      | Nome legível                             |
+| seedfp        | string | não      | Obrigatório se a carteira tiver várias seeds |
 
 ---
 
@@ -275,10 +275,10 @@ zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
-| Parâmetro    | Tipo   | Obrigatório | Padrão | Descrição                               |
-|--------------|--------|-------------|--------------|-----------------------------------------|
-| minconf       | number | não         | 1            | Confirmações mínimas                    |
-| as_of_height  | number | não         |              | Consultar a partir desta altura (`-1` = tip)     |
+| Parâmetro     | Tipo   | Obrigatório | Padrão  | Descrição                            |
+|---------------|--------|----------|---------|--------------------------------------|
+| minconf       | number | não      | 1       | Mínimo de confirmações               |
+| as_of_height  | number | não      |         | Consulta a partir desta altura (`-1` = topo) |
 
 ---
 
@@ -288,9 +288,9 @@ zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
-| Parâmetro  | Tipo            | Obrigatório | Descrição                                  |
-|------------|------------------|-------------|--------------------------------------------|
-| operationid  | array of string | não         | IDs de operação (omitir para todas as concluídas) |
+| Parâmetro    | Tipo            | Obrigatório | Descrição                                |
+|--------------|-----------------|----------|------------------------------------------|
+| operationid  | array of string | não      | IDs das operações (omita para todas as concluídas) |
 
 ---
 
@@ -300,9 +300,9 @@ zallet rpc z_getoperationresult ['["opid1","opid2"]']
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
-| Parâmetro  | Tipo            | Obrigatório | Descrição                           |
-|------------|------------------|-------------|-------------------------------------|
-| operationid| array of string  | não         | IDs de operação (omitir para todas) |
+| Parâmetro    | Tipo            | Obrigatório | Descrição                      |
+|--------------|-----------------|----------|--------------------------------|
+| operationid  | array of string | não      | IDs das operações (omita para todas) |
 
 ---
 
@@ -312,10 +312,10 @@ zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
-| Parâmetro         | Tipo    | Obrigatório | Padrão | Descrição                    |
-|-------------------|---------|-------------|--------------|------------------------------|
-| minconf           | number  | não         | 1            | Confirmações mínimas         |
-| include_watchonly | boolean | não         | false        | Incluir saldos somente de observação    |
+| Parâmetro          | Tipo    | Obrigatório | Padrão  | Descrição                       |
+|--------------------|---------|----------|---------|---------------------------------|
+| minconf            | number  | não      | 1       | Mínimo de confirmações          |
+| include_watchonly  | boolean | não      | false   | Inclui saldos somente de observação |
 
 ---
 
@@ -325,11 +325,11 @@ zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
-| Parâmetro | Tipo    | Obrigatório | Padrão | Descrição                         |
-|-----------|---------|-------------|--------------|-----------------------------------|
-| account   | string  | sim         |              | UUID da conta                     |
-| hex_data  | string  | sim         |              | Chave pública em hex ou redeem script |
-| rescan    | boolean | não         | true         | Reexaminar após a importação        |
+| Parâmetro  | Tipo    | Obrigatório | Padrão  | Descrição                            |
+|------------|---------|----------|---------|--------------------------------------|
+| account    | string  | sim      |         | UUID da conta                        |
+| hex_data   | string  | sim      |         | Chave pública em hex ou redeem script |
+| rescan     | boolean | não      | true    | Faz um novo escaneamento após a importação |
 
 ---
 
@@ -339,11 +339,11 @@ zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
-| Parâmetro   | Tipo   | Obrigatório | Padrão   | Descrição                             |
-|-------------|--------|-------------|----------------|---------------------------------------|
-| key         | string | sim         |                | Chave de gastos estendida Sapling         |
-| rescan      | string | não         | `"whenkeyisnew"` | `"yes"`, `"no"` ou `"whenkeyisnew"` |
-| start_height| number | não         | 0              | Altura inicial do reexame           |
+| Parâmetro     | Tipo   | Obrigatório | Padrão         | Descrição                                |
+|---------------|--------|----------|----------------|------------------------------------------|
+| key           | string | sim      |                | Chave de gastos estendida Sapling          |
+| rescan        | string | não      | `"whenkeyisnew"` | `"yes"`, `"no"` ou `"whenkeyisnew"`   |
+| start_height  | number | não      | 0              | Altura inicial do novo escaneamento      |
 
 ---
 
@@ -353,9 +353,9 @@ zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
-| Parâmetro         | Tipo    | Obrigatório | Padrão | Descrição                                 |
-|-------------------|---------|-------------|--------------|-------------------------------------------|
-| include_addresses | boolean | não         | true         | Também retornar endereços de cada conta   |
+| Parâmetro          | Tipo    | Obrigatório | Padrão  | Descrição                                |
+|--------------------|---------|----------|---------|------------------------------------------|
+| include_addresses  | boolean | não      | true    | Também retorna os endereços de cada conta |
 
 ---
 
@@ -365,9 +365,9 @@ zallet rpc z_listaccounts [<include_addresses>]
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
-| Parâmetro | Tipo   | Obrigatório | Descrição                             |
-|-----------|--------|-------------|---------------------------------------|
-| status    | string | não         | Filtrar por status (ex.: `"success"`) |
+| Parâmetro | Tipo   | Obrigatório | Descrição                            |
+|-----------|--------|----------|--------------------------------------|
+| status    | string | não      | Filtra por status (por exemplo, `"success"`) |
 
 ---
 
@@ -377,13 +377,13 @@ zallet rpc z_listoperationids ['"<status>"']
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
-| Parâmetro    | Tipo   | Obrigatório | Descrição                     |
-|--------------|--------|-------------|-------------------------------|
-| account_uuid | string | não         | Limitar a uma conta           |
-| start_height | number | não         | Limite inferior inclusivo     |
-| end_height   | number | não         | Limite superior exclusivo     |
-| offset       | number | não         | Ignorar esta quantidade de resultados |
-| limit        | number | não         | Número máximo de resultados a retornar |
+| Parâmetro      | Tipo   | Obrigatório | Descrição                    |
+|----------------|--------|----------|------------------------------|
+| account_uuid   | string | não      | Limita a uma conta           |
+| start_height   | number | não      | Limite inferior inclusivo    |
+| end_height     | number | não      | Limite superior exclusivo    |
+| offset         | number | não      | Pula esta quantidade de resultados |
+| limit          | number | não      | Máximo de resultados a retornar |
 
 ---
 
@@ -393,9 +393,9 @@ zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
-| Parâmetro       | Tipo   | Obrigatório | Descrição                        |
-|-----------------|--------|-------------|----------------------------------|
-| unified_address | string | sim         | Unified Address a inspecionar    |
+| Parâmetro         | Tipo   | Obrigatório | Descrição                    |
+|-------------------|--------|----------|------------------------------|
+| unified_address   | string | sim      | Endereço unificado a inspecionar |
 
 ---
 
@@ -405,13 +405,13 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
-| Parâmetro         | Tipo             | Obrigatório | Padrão | Descrição                    |
-|-------------------|------------------|-------------|--------------|------------------------------|
-| minconf           | number           | não         | 1            | Confirmações mínimas         |
-| maxconf           | number           | não         | ∞            | Confirmações máximas         |
-| include_watchonly | boolean          | não         | false        | Incluir somente de observação           |
-| addresses         | array of string  | não         |              | Filtrar por estes endereços |
-| as_of_height      | number           | não         |              | Consultar nesta altura       |
+| Parâmetro          | Tipo            | Obrigatório | Padrão  | Descrição                            |
+|--------------------|-----------------|----------|---------|--------------------------------------|
+| minconf            | number          | não      | 1       | Mínimo de confirmações               |
+| maxconf            | number          | não      | ∞       | Máximo de confirmações               |
+| include_watchonly  | boolean         | não      | false   | Inclui somente de observação         |
+| addresses          | array of string | não      |         | Filtra por estes endereços           |
+| as_of_height       | number          | não      |         | Consulta a partir desta altura       |
 
 ---
 
@@ -421,9 +421,9 @@ zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
-| Parâmetro | Tipo  | Obrigatório | Descrição                                                                    |
-|-----------|-------|-------------|------------------------------------------------------------------------------|
-| accounts  | array | sim         | Array de objetos: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| Parâmetro | Tipo  | Obrigatório | Descrição                                                                   |
+|-----------|-------|----------|-----------------------------------------------------------------------------|
+| accounts  | array | sim      | Array de objetos: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -433,13 +433,13 @@ zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
-| Parâmetro      | Tipo             | Obrigatório | Padrão    | Descrição                                         |
-|----------------|------------------|-------------|-----------------|---------------------------------------------------|
-| fromaddress    | string           | sim         |                 | Endereço de origem ou `"ANY_TADDR"`               |
-| amounts        | array of object  | sim         |                 | Destinatários (`address`, `amount`, `memo` opcional) |
-| minconf        | number           | não         |                 | Confirmações mínimas                              |
-| fee            | null             | não         |                 | Deve ser `null` (apenas ZIP-317)                |
-| privacy_policy | string           | não         | `"FullPrivacy"` | String da política de privacidade                 |
+| Parâmetro        | Tipo            | Obrigatório | Padrão          | Descrição                                        |
+|------------------|-----------------|----------|-----------------|--------------------------------------------------|
+| fromaddress      | string          | sim      |                 | Endereço de origem ou `"ANY_TADDR"`               |
+| amounts          | array of object | sim      |                 | Destinatários (`address`, `amount`, `memo` opcional)|
+| minconf          | number          | não      |                 | Mínimo de confirmações                           |
+| fee              | null            | não      |                 | Deve ser `null` (somente ZIP-317)                |
+| privacy_policy   | string          | não      | `"FullPrivacy"` | String da política de privacidade                |
 
 ---
 
@@ -449,14 +449,14 @@ zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
-| Parâmetro      | Tipo   | Obrigatório | Descrição                                             |
-|----------------|--------|-------------|-------------------------------------------------------|
-| fromaddress    | string | sim         | Endereço transparente ou UUID da conta                |
-| toaddress      | string | sim         | Destino blindado                                      |
-| fee            | null   | não         | Deve ser `null`                                     |
-| limit          | number | não         | Número máximo de UTXOs coinbase a blindar              |
-| memo           | string | não         | Memorando codificado em hex                                |
-| privacy_policy | string | não         | `AllowRevealedSenders` ou `AllowLinkingAccountAddresses` |
+| Parâmetro        | Tipo   | Obrigatório | Descrição                                        |
+|------------------|--------|----------|--------------------------------------------------|
+| fromaddress      | string | sim      | Endereço transparente ou UUID da conta           |
+| toaddress        | string | sim      | Destino blindado                                 |
+| fee              | null   | não      | Deve ser `null`                                  |
+| limit            | number | não      | Número máximo de UTXOs de coinbase a blindar     |
+| memo             | string | não      | Memorando codificado em hex                      |
+| privacy_policy   | string | não      | `AllowRevealedSenders` ou `AllowLinkingAccountAddresses` |
 
 ---
 
@@ -467,15 +467,15 @@ zallet rpc z_viewtransaction '"<txid>"'
 ```
 
 | Parâmetro | Tipo   | Obrigatório | Descrição       |
-|-----------|--------|-------------|-----------------|
-| txid      | string | sim         | ID da transação |
+|-----------|--------|----------|-----------------|
+| txid      | string | sim      | ID da transação |
 
 ---
 
 ## Páginas relacionadas
 
-- [Guia de migração: zcashd para Zebrad e Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — migração passo a passo a partir de uma configuração existente de zcashd
-- [Nó integral Zebra](/zcash-tech/zebra-full-node) — a implementação de nó com a qual a Zallet funciona
-- [Nós integrais](/zcash-tech/full-nodes) — o que envolve executar um nó integral e por que você pode querer um
-- [Carteiras](/using-zcash/wallets) — opções de carteiras mais leves se um nó integral for mais do que você precisa
-- [Transações](/using-zcash/transactions) — como as transações blindadas e transparentes diferem
+- [Guia de migração: do zcashd para o Zebrad e a Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet): passo a passo para migrar de uma configuração existente do zcashd
+- [Nó integral Zebra](/zcash-tech/zebra-full-node): a implementação de nó com a qual a Zallet trabalha em conjunto
+- [Nós integrais](/zcash-tech/full-nodes): o que envolve executar um nó integral e por que você pode querer um
+- [Carteiras](/using-zcash/wallets): opções de carteiras mais leves, caso um nó integral seja mais do que você precisa
+- [Transações](/using-zcash/transactions): como as transações blindadas e transparentes diferem

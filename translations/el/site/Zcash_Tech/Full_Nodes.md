@@ -94,7 +94,7 @@
 
 Αυτό βοηθά στην αποτροπή κακόβουλου ελέγχου και διατηρεί το δίκτυο ανθεκτικό σε ορισμένες μορφές διαταραχής.
 
-Οι DNS seeders παρέχουν μια λίστα άλλων αξιόπιστων κόμβων μέσω ενός ενσωματωμένου διακομιστή. Αυτό επιτρέπει στις συναλλαγές να διαδίδονται σε όλο το δίκτυο.
+Οι DNS seeders παρέχουν μια λίστα άλλων αξιόπιστων κόμβων μέσω ενός ενσωματωμένου διακομιστή. Αυτό επιτρέπει στις συναλλαγές να διαδίδονται σε όλο το δίκτυο. Οι DNS seeders του Zcash Foundation εκτελούν το [Zeeder](https://github.com/ZcashFoundation/zeeder), ένα DNS seeder γραμμένο σε Rust που αντικατέστησε το dnsseeder του, το οποίο βασιζόταν στο CoreDNS. Οι εικόνες του δημοσιεύονται ως `zfnd/zeeder`· το παλαιότερο όνομα `zfnd/dnsseeder` αποσύρεται.
 
 ### Στατιστικά δικτύου
 
@@ -102,7 +102,7 @@
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics δεδομένα δικτύου](https://docs.coinmetrics.io/network-data/network-data-overview) — τεκμηρίωση μετρικών και σύνδεσμοι προς την τρέχουσα κάλυψη περιουσιακών στοιχείων.
 
 Μπορείς επίσης να συμβάλεις στην ανάπτυξη του δικτύου εκτελώντας δοκιμές ή προτείνοντας νέες βελτιώσεις και παρέχοντας μετρήσεις.
 
@@ -136,6 +136,7 @@
 - [Κόμβος Zakura](/zcash-tech/zakura-node) - η δεύτερη υλοποίηση κόμβου, fork του Zebra
 - [Κόμβοι Lightwallet](/zcash-tech/lightwallet-nodes) - οι διακομιστές που ερωτούν τα light wallets
 - [Zaino](/zcash-tech/zaino) - ο indexer Rust που εξυπηρετεί light wallets
+- [Zinder](/zcash-tech/zinder) - ο alpha indexer του Zcash Foundation για τα Zebra και Zakura
 - [Συγχρονισμός πορτοφολιού Zcash](/zcash-tech/zcash-wallet-syncing) - γιατί ο συγχρονισμός λειτουργεί με αυτόν τον τρόπο
 
 ## Περαιτέρω μάθηση

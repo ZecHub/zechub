@@ -45,6 +45,11 @@ Zcash로 결제받으면서 고객과 수입을 비공개로 유지하세요.
 ###  [기부할 곳 ZEC](/zcash-use-cases/where-to-donate-zec)
 ZEC를 받는 비영리단체와 그중 보호된 기부를 받는 곳을 찾아보세요
 
+###  [ZEC 모금 캠페인 운영하기](/zcash-use-cases/run-a-zec-fundraising-campaign)
+하나의 목표를 위해 ZEC를 모금하고, 기부자가 신뢰할 수 있는 진행 상황을 보여주며, 모든 기부를 비공개로 유지하세요
+###  [ZEC 기부하고 미국 세금 공제 받기](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+ZEC를 비공개로 기부하면서도 공제에 필요한 서류를 받으세요
+
 ###  [기자 프라이버시 설정](/zcash-use-cases/journalist-privacy-setup)   
 모든 거래에 보호된 주소를 사용하고 추적 가능한 결제를 피하여 소스를 보호하세요. 안전한 커뮤니케이션을 위해 메모를 신중하게 사용하세요.
 

@@ -7,12 +7,13 @@
 // Run: node --test scripts/check-numbers.test.mjs
 import { strict as assert } from "node:assert";
 import { execFileSync, spawnSync } from "node:child_process";
-import { chmodSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from "node:fs";
+import { chmodSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmdirSync, rmSync, writeFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { after, before, test } from "node:test";
+import { fileURLToPath } from "node:url";
 
-const GATE = new URL("./check-numbers.mjs", import.meta.url).pathname;
+const GATE = fileURLToPath(new URL("./check-numbers.mjs", import.meta.url));
 let repo, out;
 // A git hook (e.g. pre-push) exports GIT_DIR and friends. Inherited, they make
 // `git -C <tmp> init` re-initialise the REAL repository instead of the temp one,
@@ -35,6 +36,7 @@ before(() => {
   repo = mkdtempSync(join(tmpdir(), "check-numbers-"));
   out = mkdtempSync(join(tmpdir(), "check-numbers-json-"));
   git("init", "-q", "-b", "main");
+  git("config", "core.autocrlf", "false");
   w("translation/protected-terms.json", JSON.stringify({ preserveVerbatim: ["NU6.1", "Zcash"] }));
   w("site/poll.md", EN_POLL);
   w("translations/yo/site/poll.md", YO_GOOD);
@@ -327,7 +329,26 @@ test("--json writes a failure report when the check cannot run", () => {
   assert.deepEqual(readdirSync(out).filter((n) => n.includes(".tmp-")), [], "no temporary file left behind");
 });
 
-test("--json writes a failure report when a page cannot be read", { skip: process.getuid?.() === 0 && "root reads everything" }, () => {
+test("--json writes a failure report when a page cannot be read", () => {
+  git("checkout", "-q", "pr-yo");
+  const page = join(repo, "translations/yo/site/poll.md");
+  const body = readFileSync(page);
+  // A directory cannot be read as a page on Windows or Linux, including root.
+  // Keep the changed tracked path in scope and restore it for later tests.
+  rmSync(page);
+  mkdirSync(page);
+  let r;
+  try { r = runJson("unreadable", "--base", "main"); }
+  finally { rmdirSync(page); writeFileSync(page, body); }
+  assert.equal(r.status, 1, r.out);
+  assert.match(r.report.error, /could not read translations\/yo\/site\/poll\.md/);
+  assert.equal(r.report.pages, 0);
+});
+
+test("--json reports a page denied by POSIX read permissions", {
+  skip: process.platform === "win32" ? "Windows chmod cannot remove read permission" :
+    process.getuid?.() === 0 && "root reads everything",
+}, () => {
   git("checkout", "-q", "pr-yo");
   const page = join(repo, "translations/yo/site/poll.md");
   chmodSync(page, 0o000);

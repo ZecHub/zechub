@@ -2,27 +2,27 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# परिरक्षित न्यूज़लेटर
+# शील्डेड न्यूज़लेटर
 
-> Zallet का उपयोग करके Zcash मेमो के रूप में परिरक्षित पतों की सूची को एक markdown नोट भेजें। प्राप्तकर्ता सूची और नोट पारदर्शी पतों से दूर रहते हैं।
+> Zallet का उपयोग करके शील्डेड एड्रेस की एक सूची पर Zcash मेमो के रूप में एक मार्कडाउन (markdown) नोट भेजें। प्राप्तकर्ताओं की सूची और नोट ट्रांसपेरेंट एड्रेस से दूर रहते हैं।
 
-एक परिरक्षित न्यूज़लेटर परिरक्षित लेन-देनों की एक श्रृंखला है। प्रत्येक आउटपुट प्राप्तकर्ता Unified Address को बहुत छोटी राशि का भुगतान करता है और मेमो फ़ील्ड में नोट का अगला भाग रखता है। Zallet उन लेन-देनों को बनाता और भेजता है। Zebra और Zaino केवल चेन डेटा प्रदान करते हैं।
+शील्डेड न्यूज़लेटर (shielded newsletter) शील्डेड लेनदेन की एक श्रृंखला है। हर आउटपुट किसी प्राप्तकर्ता के Unified Address को बहुत छोटी राशि भेजता है। साथ ही उसके मेमो फ़ील्ड में नोट का अगला हिस्सा होता है। Zallet इन लेनदेन को बनाता और भेजता है। Zebra और Zaino केवल चेन डेटा देते हैं।
 
-स्क्रिप्ट [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter) में हैं। वे प्रारंभिक Zallet के लिए लिखी गई थीं और वर्तमान रिलीज़ के विरुद्ध जैसी हैं वैसी चलाना सुरक्षित नहीं है। यह पृष्ठ अद्यतन प्रक्रिया है। 7 अक्टूबर 2026 तक Zallet `v0.1.0-beta.3` और Zallet पुस्तक के आधार पर जाँचा गया।
+स्क्रिप्ट [`site/tutorials/shieldedNewsletter`](https://github.com/ZecHub/zechub/tree/main/site/tutorials/shieldedNewsletter) में हैं। उन्हें एक शुरुआती Zallet के लिए लिखा गया था। मौजूदा रिलीज़ पर उन्हें बिना बदलाव के चलाना सुरक्षित नहीं है। यह पेज अद्यतन प्रक्रिया बताता है। इसे 7 अक्टूबर 2026 की स्थिति के अनुसार Zallet `v0.1.0-beta.3` और Zallet बुक से जाँचा गया है।
 
 ## आपको क्या चाहिए
 
-- Zebra पूरी तरह सिंक किया हुआ, जिसमें RPC localhost से बंधा हो।
-- उस Zebra नोड के विरुद्ध सिंक किया हुआ Zaino।
-- Zallet `v0.1.0-beta.3` या नया, wallet build, जिसका RPC localhost से बंधा हो। पुस्तक `z_sendmany` को कार्यान्वित के रूप में सूचीबद्ध करती है। संख्यात्मक शुल्क अस्वीकार कर दिया जाता है: यदि आप `fee` देते हैं, तो वह `null` होना चाहिए, क्योंकि Zallet हमेशा ZIP 317 शुल्क का उपयोग करता है।
-- ऐसा वित्तपोषित खाता जिसकी Unified Address परिरक्षित धनराशि खर्च कर सके।
-- प्राप्तकर्ता Unified Addresses। पारदर्शी पते पर मेमो एक त्रुटि है।
+- पूरी तरह सिंक किया हुआ Zebra, जिसका RPC localhost से बंधा हो।
+- उस Zebra नोड के साथ सिंक किया हुआ Zaino।
+- Zallet `v0.1.0-beta.3` या उससे नया वॉलेट बिल्ड, जिसका RPC localhost से बंधा हो। बुक में `z_sendmany` को लागू (implemented) बताया गया है। संख्यात्मक शुल्क अस्वीकार कर दिया जाता है। अगर आप `fee` देते हैं, तो वह `null` होना चाहिए, क्योंकि Zallet हमेशा ZIP 317 शुल्क का उपयोग करता है।
+- पैसों वाला एक अकाउंट, जिसका Unified Address शील्डेड फ़ंड खर्च कर सके।
+- प्राप्तकर्ताओं के Unified Address। ट्रांसपेरेंट एड्रेस पर मेमो भेजना एक त्रुटि है।
 
-वित्तपोषित पता या cookie को wiki अथवा committed script में न डालें। वर्तमान `txBuilderFromFile.sh` में Unified Address हार्डकोड किया हुआ है। उसे स्थानीय रूप से बदलें और commit न करें।
+किसी पैसों वाले एड्रेस या कुकी को विकी में या कमिट की गई स्क्रिप्ट में न डालें। मौजूदा `txBuilderFromFile.sh` में एक Unified Address हार्डकोड किया हुआ है। उसे स्थानीय रूप से बदलें और कमिट न करें।
 
-## Zallet कॉन्फ़िगर करें
+## Zallet का कॉन्फ़िगरेशन
 
-आप जो Zallet चला रहे हैं, उससे एक config जनरेट करें, फिर उसे Zebra और Zaino की ओर इंगित करें। पुराने tutorial में नमूना `as_of_version = "0.0.0"` और व्यक्तिगत home path का उपयोग करता है। उस फ़ाइल को template नहीं, snapshot मानें।
+आप जो Zallet चला रहे हैं, उसी से एक कॉन्फ़िग बनाएँ। फिर उसे Zebra और Zaino की ओर पॉइंट करें। पुराने ट्यूटोरियल का नमूना `as_of_version = "0.0.0"` और एक निजी होम पाथ का उपयोग करता है। उस फ़ाइल को टेम्पलेट नहीं, बल्कि एक स्नैपशॉट मानें।
 
 ```bash
 zallet init
@@ -30,22 +30,22 @@ zallet -c ~/.zallet/zallet.toml start
 zallet -c ~/.zallet/zallet.toml rpc help
 ```
 
-`rpc help` में `z_sendmany`, `z_getoperationstatus` और `z_getoperationresult` सूचीबद्ध होने चाहिए। RPC को केवल `127.0.0.1` से bind करें।
+`rpc help` में `z_sendmany`, `z_getoperationstatus` और `z_getoperationresult` सूचीबद्ध होने चाहिए। RPC को केवल `127.0.0.1` से बाँधें।
 
-## प्राप्तकर्ता सूची
+## प्राप्तकर्ताओं की सूची
 
-प्रति पंक्ति एक Unified Address, बिना quotes, बिना रिक्त पंक्तियों के। स्क्रिप्ट `daoAddresses.md` पढ़ती है। पुराना readme `daoAddress.md` कहता है। वह फ़ाइल repo में नहीं है, और नाम मेल नहीं खाते।
+हर पंक्ति में एक Unified Address हो, बिना उद्धरण चिह्नों के और बिना खाली पंक्तियों के। स्क्रिप्ट `daoAddresses.md` पढ़ती है। पुराना readme `daoAddress.md` बताता है। वह फ़ाइल रिपॉज़िटरी में नहीं है, और नाम मेल नहीं खाते।
 
 ```text
 u1...
 u1...
 ```
 
-## एक मेमो भेजें
+## एक मेमो भेजना
 
-`z_sendmany` asynchronous है। यह एक operation id लौटाता है। स्थिति `success` या त्रुटि होने तक `z_getoperationstatus` को poll करें। एक निश्चित 5 सेकंड sleep, जो स्क्रिप्ट करती है, build में अधिक समय लगने पर परिणाम खो देता है। `z_getoperationresult` operation को consume करता है, इसलिए स्थिति terminal होने तक उसे न बुलाएँ।
+`z_sendmany` एसिंक्रोनस है। यह एक ऑपरेशन id लौटाता है। `z_getoperationstatus` को तब तक पोल करें जब तक स्थिति `success` या कोई त्रुटि न हो जाए। स्क्रिप्ट 5 सेकंड का एक निश्चित इंतज़ार करती है। अगर बिल्ड में इससे ज़्यादा समय लगता है, तो परिणाम खो जाता है। `z_getoperationresult` ऑपरेशन को खत्म कर देता है, इसलिए स्थिति अंतिम होने से पहले उसे कॉल न करें।
 
-शुल्क छोड़ा गया है। Zallet ZIP 317 की गणना करता है। कोई संख्या न दें।
+शुल्क छोड़ दिया गया है। Zallet ZIP 317 की गणना करता है। कोई संख्या न दें।
 
 ```bash
 MEMO_HEX=$(printf '%s' "$NOTE" | xxd -p -c 9999)
@@ -54,29 +54,29 @@ zallet -c ~/.zallet/zallet.toml rpc z_sendmany \
   "[{\"address\":\"$TO_UA\",\"amount\":0.0001,\"memo\":\"$MEMO_HEX\"}]"
 ```
 
-मेमो फ़ील्ड raw hex है, अधिकतम 512 bytes। `ascii2hex` केवल ASCII encode करता है। किसी भी non-ASCII वर्ण वाला नोट विफल हो जाता है। `xxd` या `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` UTF-8 संभालता है।
+मेमो फ़ील्ड कच्चा hex है, अधिकतम 512 बाइट। `ascii2hex` केवल ASCII एनकोड करता है। किसी भी गैर-ASCII अक्षर वाला नोट विफल हो जाता है। `xxd` या `python3 -c 'import sys; sys.stdout.write(sys.stdin.buffer.read().hex())'` UTF-8 को संभालता है।
 
-Privacy policy डिफ़ॉल्ट रूप से `FullPrivacy` है। परिरक्षित प्राप्तकर्ता के लिए यह सही डिफ़ॉल्ट है। `AllowFullyTransparent` न दें।
+गोपनीयता (privacy) नीति डिफ़ॉल्ट रूप से `FullPrivacy` होती है। शील्डेड प्राप्तकर्ता के लिए यही सही डिफ़ॉल्ट है। `AllowFullyTransparent` न दें।
 
-## स्क्रिप्ट की कमियाँ
+## स्क्रिप्ट की खामियाँ
 
-ये 8 अक्टूबर 2026 तक tree में मौजूद हैं। इनके ठीक होने तक `shieldNewsletter.sh` न चलाएँ।
+ये 8 अक्टूबर 2026 तक कोड में मौजूद हैं। इन्हें ठीक किए जाने तक `shieldNewsletter.sh` न चलाएँ।
 
-- `[[ bytesInFile -lt 512 ]]` में `$` अनुपस्थित है। single-memo branch कभी नहीं चलती।
-- chunk loop hex संग्रहीत करता है, फिर `hex2ascii` उसे decode करता है, फिर `txBuilderFromFile.sh` उसे दोबारा encode करता है। अंतिम chunk तब तक flush नहीं होता जब तक बाद की पंक्ति 512 से अधिक न हो जाए। लंबी पंक्ति विभाजित नहीं होती। वह पूरी भेजी जाती है और 512-byte मेमो से अधिक हो सकती है।
-- `txBuilderFromFile.sh` बिना config path के `./zallet rpc` को call करता है और binary के current directory में होने की अपेक्षा करता है। `zallet -c <config> rpc` का उपयोग करें।
-- `toCurl.sh` cookie के साथ port 8232 पर Zebra से बात करता है, और `getinfo` तथा `sendmany` को call करता है। Zallet `sendmany` प्रदान नहीं करता। mine-wait loop भी `[[ chainHeight -gt temp ]]` के बिना `$` का उपयोग करता है, इसलिए वह प्रतीक्षा नहीं करता।
-- `z_gettotalbalance 0 true` अतिरिक्त positional arguments के रूप में दिया जाता है। उस call का उपयोग करने से पहले, जिस binary को आप चलाते हैं उस पर `rpc help z_gettotalbalance` जाँचें।
-- प्रत्येक chunk हर प्राप्तकर्ता को `0.0001` ZEC भेजता है। ZIP 317 शुल्क इसके अतिरिक्त है। कई पतों को भेजा गया लंबा नोट dust राशियों से अधिक खर्च करता है।
+- `[[ bytesInFile -lt 512 ]]` में `$` नहीं है। एकल-मेमो वाली ब्रांच कभी नहीं चलती।
+- चंक लूप hex स्टोर करता है। फिर `hex2ascii` उसे डिकोड करता है और फिर `txBuilderFromFile.sh` उसे दोबारा एनकोड करता है। आखिरी चंक तब तक नहीं भेजा जाता जब तक कोई बाद की पंक्ति 512 से आगे न निकल जाए। लंबी पंक्ति को विभाजित नहीं किया जाता। वह पूरी भेजी जाती है और 512-बाइट के मेमो से बड़ी हो सकती है।
+- `txBuilderFromFile.sh` बिना कॉन्फ़िग पाथ के `./zallet rpc` को कॉल करता है, और बाइनरी के मौजूदा डायरेक्टरी में होने की उम्मीद करता है। `zallet -c <config> rpc` का उपयोग करें।
+- `toCurl.sh` कुकी के साथ पोर्ट 8232 पर Zebra से संपर्क करता है, और `getinfo` तथा `sendmany` को कॉल करता है। Zallet `sendmany` प्रदान नहीं करता। माइनिंग का इंतज़ार करने वाला लूप भी `$` के बिना `[[ chainHeight -gt temp ]]` का उपयोग करता है, इसलिए वह इंतज़ार नहीं करता।
+- `z_gettotalbalance 0 true` को अतिरिक्त पोज़िशनल आर्ग्युमेंट के रूप में दिया जाता है। उस कॉल का उपयोग करने से पहले, आप जो बाइनरी चला रहे हैं उस पर `rpc help z_gettotalbalance` जाँचें।
+- हर चंक हर प्राप्तकर्ता को `0.0001` ZEC भेजता है। ZIP 317 शुल्क इसके अतिरिक्त है। कई एड्रेस पर भेजा गया लंबा नोट डस्ट राशियों से ज़्यादा खर्च करता है।
 
 ## सुधार के बाद
 
-एक सुधारा हुआ runner को:
+एक सुधारा हुआ रनर ये काम करे:
 
-1. नोट को bytes के रूप में पढ़ना चाहिए और पंक्तियों पर नहीं, 512-byte boundaries पर विभाजित करना चाहिए।
-2. प्रत्येक chunk को एक बार hex-encode करना चाहिए।
-3. वित्तपोषित UA, प्राप्तकर्ता array और बिना शुल्क argument के `zallet -c <config> rpc z_sendmany` call करना चाहिए।
-4. उस operation id के लिए `z_getoperationstatus` को poll करना चाहिए।
-5. केवल `success` के बाद txid रिकॉर्ड करना चाहिए।
+1. नोट को बाइट के रूप में पढ़े और उसे पंक्तियों पर नहीं, बल्कि 512-बाइट की सीमाओं पर विभाजित करे।
+2. हर चंक को एक बार hex-एनकोड करे।
+3. पैसों वाले UA, प्राप्तकर्ताओं के ऐरे और बिना शुल्क आर्ग्युमेंट के `zallet -c <config> rpc z_sendmany` को कॉल करे।
+4. उस ऑपरेशन id के लिए `z_getoperationstatus` को पोल करे।
+5. txid को केवल `success` के बाद दर्ज करे।
 
-पुराना tutorial पृष्ठ [Shielded Newsletter scripts](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md) पर बना हुआ है। प्रक्रिया के लिए इस पृष्ठ का उपयोग करें।
+पुराना ट्यूटोरियल पेज [शील्डेड न्यूज़लेटर स्क्रिप्ट](https://github.com/ZecHub/zechub/blob/main/site/tutorials/shieldedNewsletter/readme.md) पर अब भी उपलब्ध है। प्रक्रिया के लिए इस पेज का उपयोग करें।

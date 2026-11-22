@@ -1,32 +1,32 @@
-# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="أيقونة صحفي"/>  شغّل خزينة مجتمعية خاصة باستخدام Zcash
+# <img src="/content-images/people-community-add-svgrepo-com-3c6ac75333.svg" width="24" height="24" alt="Journalist icon"/>  إدارة خزينة مجتمعية خاصة بـ Zcash
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
   متوسط - 7 دقائق
 </span>
 
-## الخلاصة
+## باختصار
 
-- استخدم العناوين المحمية للاحتفاظ بالأموال المشتركة
-- قلّل من إمكانية رؤية الأرصدة والمعاملات
+- استخدم عناوين (addresses) محمية (shielded) لحفظ الأموال المشتركة
+- قلّل من إمكانية رؤية الأرصدة والمعاملات (transactions)
 - افصل الأدوار التشغيلية عن الهوية العامة
-- استخدم المذكرات للمساءلة الداخلية
+- استخدم المذكرات (memos) للمساءلة الداخلية
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة مستخدم"/> لمن هذا؟
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> لمن هذا الدليل؟
 
-- DAOs والمجتمعات
-- برامج المنح
+- المنظمات المستقلة اللامركزية (DAO) والمجتمعات
+- برامج المنح (grants)
 - فرق المصادر المفتوحة
-- التجمعات المشفرة
+- التجمعات المهتمة بالعملات المشفرة
   
 
 <br/>
 
-## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تحذير"/> المشكلة
+## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> المشكلة
 
-أموال المجتمعات على سلاسل الكتل العامة تكشف:
+تكشف أموال المجتمعات على سلاسل الكتل (blockchains) العامة ما يلي:
 - إجمالي رصيد الخزينة
 - سجل الإنفاق
 - هويات المساهمين
@@ -34,33 +34,33 @@
 وهذا يخلق مخاطر:
 - استهداف الأموال
 - نزاعات داخلية بسبب ضغط الشفافية
-- فقدان الخصوصية الاستراتيجية
+- فقدان الخصوصية (privacy) الاستراتيجية
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق الأدوات"/> لماذا Zcash؟
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> لماذا Zcash؟
 
-يتيح Zcash للمجتمعات ما يلي:
-- الاحتفاظ بالأموال بشكل خاص
-- تنفيذ المعاملات دون كشف التفاصيل
+يتيح Zcash للمجتمعات:
+- حفظ الأموال بشكل خاص
+- تنفيذ المعاملات دون كشف تفاصيلها
 - الحفاظ على المساءلة الداخلية دون انكشاف علني
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة صندوق الأدوات"/> ما الذي تحتاجه
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> ما تحتاج إليه
 
-- محفظة Zcash (أو عدة محافظ للفصل بين الأدوار)
+- محفظة (wallet) Zcash (أو عدة محافظ لفصل الأدوار)
 - عمليات داخلية واضحة لإدارة الأموال
-- اختياري: توثيق مشترك للتتبع
+- اختياري: وثائق مشتركة للتتبع
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة خطوة"/> دليل خطوة بخطوة
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> دليل خطوة بخطوة
 
-### الخطوة 1: أنشئ عنوان خزينة محمي
+### الخطوة 1: أنشئ عنوان خزينة محميًا
 
-- أنشئ **z-address** للخزينة
-- سيصبح هذا الحساب الرئيسي للاحتفاظ بالأموال
+- أنشئ **عنوان z** للخزينة
+- يصبح هذا الحساب الرئيسي لحفظ الأموال
 
 
 ### الخطوة 2: حدّد الأدوار
@@ -68,13 +68,13 @@
 افصل المسؤوليات:
 - أمين الخزينة (يتحكم في الأموال)
 - المساهمون (يطلبون الإنفاق)
-- المراجعون (يعتمدون داخليًا)
+- المراجعون (يوافقون داخليًا)
 
 تجنّب ربط هذه الأدوار بهويات عامة.
 
 
 
-### الخطوة 3: استقبل الأموال بشكل خاص
+### الخطوة 3: استلم الأموال بشكل خاص
 
 - اقبل المساهمات عبر العنوان المحمي
 - شجّع المساهمين على الإرسال من محافظ محمية
@@ -85,10 +85,10 @@
 
 استخدم:
 - مذكرات المحفظة
-- سجلات خارج السلسلة (مثل المستندات المشتركة)
+- سجلات خارج السلسلة (chain) (مثل الوثائق المشتركة)
 
 مثال على مذكرة: 
- - منحة #12 - دفعة للمطور
+ - المنحة رقم 12 - دفع (payment) للمطور (developer)
 
 
 
@@ -99,42 +99,42 @@
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة إلغاء"/> أخطاء شائعة يجب تجنّبها
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> أخطاء شائعة يجب تجنّبها
 
-- استخدام العناوين الشفافة للخزينة  
-- نشر أرصدة المحفظة علنًا  
+- استخدام عناوين شفافة (transparent) للخزينة  
+- نشر أرصدة المحافظ علنًا  
 - عدم تتبّع المعاملات داخليًا  
-- ربط عنوان الخزينة بأفراد يمكن التعرف عليهم  
+- ربط عنوان الخزينة بأفراد يمكن التعرّف عليهم  
 
 
 <br/>
 
-## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة تم"/> النتيجة
+## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> النتيجة
 
-يمكن لمجتمعك أن:
-- يدير الأموال بأمان
-- يحمي المساهمين والمستلمين
-- يعمل دون كشف الاستراتيجية المالية
+يستطيع مجتمعك:
+- إدارة الأموال بأمان
+- حماية المساهمين والمستلمين
+- العمل دون كشف الاستراتيجية المالية
 
 
 <br/>
 
-## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة روابط السلسلة"/> ذو صلة
+## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> ذو صلة
 
-- [من يمكنه رؤية دفعتك عبر Zcash؟](/start-here/who-can-see-your-zcash-payment)
-- [أرسل الأموال دون ربط الهوية](/zcash-use-cases/send-money-without-linking-identity)
+- [من يمكنه رؤية مدفوعاتك على Zcash](/start-here/who-can-see-your-zcash-payment)
+- [أرسل الأموال دون ربط هويتك](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
 
-## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="أيقونة التقدم"/> التقدم
+## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> التقدّم
 
 **الخطوة 5 من 6**
 
-أنت تفهم الآن كيفية إدارة الأموال المشتركة بشكل خاص.
+أنت الآن تفهم كيفية إدارة الأموال المشتركة بشكل خاص.
 
  <br/>
 
 ## الخطوة التالية
 
-- [إعداد خصوصية الصحفي](/zcash-use-cases/journalist-privacy-setup)
+- [إعداد خصوصية الصحفيين](/zcash-use-cases/journalist-privacy-setup)

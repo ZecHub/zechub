@@ -50,8 +50,8 @@ Zcash de ma:
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> What You Need
 
-- Zcash sika kotoku a wɔde kyɛm a ɛboa
-- Nkitahodi kwan a ahobammɔ wom (blockchain akyi) .
+- Zcash kotoku a wɔde kyɛm a ɛboa
+- Nkitahodi kwan a ahobammɔ wom (blockchain akyi)
 - Adwumayɛ mu nteɛso
 
 <br/>
@@ -73,7 +73,7 @@ Zcash de ma:
 ### Anamɔn 3: Bɔ Source Payments ho ban
 
 Sɛ fibea ahorow a wotua ho ka a:
-- Fa nkitahodi a wɔabɔ ho ban (z → z) di dwuma .
+- Fa nkitahodi a wɔabɔ ho ban (z → z) di dwuma
 - Kwati bere nhyehyɛe ahorow a wotumi hyɛ ho nkɔm
 - Mfa address ahorow nni dwuma bio
 
@@ -113,7 +113,7 @@ Wobɛtumi:
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> Related
 
-- [Privacy - Nneyɛe a eye sen biara](/start-here/who-can-see-your-zcash-payment)
+- [Hena na obetumi ahu wo Zcash sikatua](/start-here/who-can-see-your-zcash-payment)
 - [Fa sika mena a womfa wo ho nhyɛ wo ho](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>

@@ -2,13 +2,13 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-Zcash Engineering Office Hours की रिकॉर्डिंग्स का संग्रह।
+Zcash Engineering Office Hours रिकॉर्डिंग का संग्रह।
 
 # Zcash Engineering Office Hours
 
-नियमित तकनीकी सत्र, जिनमें Zcash प्रोटोकॉल, zero-knowledge proofs, application development, ZIPs, और ecosystem engineering विषयों को कवर किया जाता है। इनका संचालन मुख्य रूप से Mark Henderson [](https://x.com/shieldedmark) द्वारा किया जाता है, जिसमें Shielded Labs, ZcashMe, Edge और अन्य योगदानकर्ताओं की भागीदारी होती है। लाइव सत्र आमतौर पर Zcash Discord stages पर आयोजित किए जाते हैं (अक्सर Luma के माध्यम से); रिकॉर्डिंग्स [Zcash Brasil](https://www.youtube.com/@zcashbrasil) द्वारा प्रकाशित की जाती हैं।
+Zcash प्रोटोकॉल, ज़ीरो-नॉलेज (zero-knowledge) प्रूफ (proof), एप्लिकेशन डेवलपमेंट, ZIP और इकोसिस्टम इंजीनियरिंग विषयों पर नियमित तकनीकी सत्र। इनकी मेज़बानी मुख्य रूप से Mark Henderson [](https://x.com/shieldedmark) करते हैं, और इनमें Shielded Labs, ZcashMe, Edge तथा अन्य योगदानकर्ता भाग लेते हैं। लाइव सत्र आमतौर पर Zcash Discord स्टेज पर आयोजित किए जाते हैं (अक्सर Luma के माध्यम से); रिकॉर्डिंग [Zcash Brasil](https://www.youtube.com/@zcashbrasil) द्वारा प्रकाशित की जाती हैं।
 
-इस श्रृंखला में standalone deep-dives भी शामिल हैं और जारी रहने वाली **Protocol Study** उप-श्रृंखला भी (Zcash Protocol Specification का मार्गदर्शित अध्ययन)।
+इस सीरीज़ में स्वतंत्र गहन सत्र और चल रही **प्रोटोकॉल अध्ययन** उप-सीरीज़ (Zcash प्रोटोकॉल स्पेसिफिकेशन का निर्देशित पठन), दोनों शामिल हैं।
 
 [Zcash Engineering Office Hours प्लेलिस्ट](https://www.youtube.com/playlist?list=PLez2pAhViAI3zb2wnXomrdr3Qmf3lRTiY)
 

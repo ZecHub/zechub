@@ -18,9 +18,7 @@ IPFS（InterPlanetary File System）是一种对等网络协议和网络，旨�
 
 IPFS 中的文件使用*内容寻址 [content-addressing]*进行地址标识，这意味着每个文件都会根据其内容获得唯一的哈希值或内容标识符（CID），并使用该哈希值从网络中检索文件。
 
-当用户将文件添加到 IPFS 时，文件会被拆分为称为区块 [blocks] 的小部分，并且每个区块都会获得一个 CID。随后，这些区块会存储在网络中的不同节点 [nodes] 上，因此可以从多个来源轻松检索该文件。
-
-这既确保了冗余性和容错性，也使得任何单个节点都难以成为单点故障或控制点。
+IPFS 以区块（blocks）的形式存储内容，每个区块都由 CID 标识。添加文件只会将其存储在你自己的节点（node）上，不会自动复制到其他节点。请保持一份可访问的副本在线，或安排远程固定（remote pinning），以便其他读者能够检索该文件。请参阅 [IPFS 持久性](https://docs.ipfs.tech/concepts/persistence/)。
 
 **阅读：[IPFS 简介](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,22 +32,29 @@ IPFS 中的文件使用*内容寻址 [content-addressing]*进行地址标识，�
 
 **第 2 步：**使用一个 [HTML 模板!](https://nicepage.com/html-templates)，并相应地粘贴你编写的文本。你也可以选择为网站创建 .CSS 样式表。
 
-**第 3 步：**保存你的目录。所有 .html 页面和图片必须位于同一文件夹中。
+**第 3 步：**将你的主页放在网站文件夹根目录下的 `index.html` 中。同时包含其图片和 CSS，并使用 `style.css` 这样的相对路径（relative path），以便它们在 IPFS 网关（gateway）URL 下也能正常工作。
 
 ## 设置节点
 
-从 [官方网站](https://docs.ipfs.tech/install/ipfs-desktop/)下载并安装 IPFS。
+[IPFS 桌面版（Desktop）](https://docs.ipfs.tech/install/ipfs-desktop/)会为您管理节点。分享网站期间，请保持其运行。
 
-### 初始化 IPFS：
+对于[命令行方式](https://docs.ipfs.tech/how-to/command-line-quick-start/)，只需初始化一次新的仓库：
 
-如果你使用桌面应用程序，则无需初始化。
+```sh
+ipfs init
+```
 
-使用终端或命令提示符，运行命令：ipfs init
+然后启动节点，并保持此终端处于打开状态：
+
+```sh
+ipfs daemon
+```
+
+在第二个终端中运行其余命令。如果 IPFS Desktop 已在管理此仓库，请勿再启动第二个守护进程（daemon）。
 
 ### **将网站文件夹添加到 IPFS**：
 
-选择包含网站文件的文件夹，并导航至“添加文件夹”选项。
-
+在 IPFS Desktop 中，使用"Add Folder"（添加文件夹）选项选择包含网站文件的文件夹。
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -57,29 +62,29 @@ IPFS 中的文件使用*内容寻址 [content-addressing]*进行地址标识，�
 
 –
 
-如果使用终端，请运行命令：ipfs add -r folder_name，以递归方式将整个文件夹添加到 IPFS。
+对于命令行界面（CLI）方式，请在你的网站文件夹的上级目录中运行以下命令：
+
+```sh
+ipfs add -r folder_name
+```
+
+将 `folder_name` 替换为你的文件夹名称（名称中含有空格时需加引号）。请保存最后一行 `added ... folder_name` 中的 CID：它标识的是整个目录，而不仅仅是 `index.html`。
 
 ### 在 IPFS 上固定网站：
 
-网站文件添加到 IPFS 后，你需要将其**固定**，以确保它们持续在网络中可用。
+CLI `ipfs add` 命令默认会在本地固定（pin）导入的内容。使用以下命令检查文件夹的固定状态：
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-如果使用终端，请运行命令：如果使用终端，请运行命令：ipfs pin add **hash**
-
-**hash** = 你在上一步添加的文件夹的 CID。
-
-或者，你也可以使用 [Pinata](https://pinata.cloud/) 或 [Dolpin](https://dolpin.io/) 等服务来固定目录。
-
-这能节省大量时间！
-
-–
+将 `YOUR_FOLDER_CID` 替换为上一步得到的 CID；输出应显示 `recursive`。固定（pinning）可保护此节点上的副本不被垃圾回收（garbage collection），但无法让已关机的计算机保持在线。若要在你的节点离线时仍保持可用，请设置[远程固定（remote pinning）](https://docs.ipfs.tech/how-to/work-with-pinning-services/)，并确认远程服务已完成固定。
 
 ### 在 IPFS 上访问你的网站：
 
-你的网站现已发布在 IPFS 上，并可通过文件夹的哈希值访问。要访问你的网站，可以访问 https://ipfs.io/ipfs/**hash**
+首先通过本地网关 `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` 检查你的网站（如果你的守护进程（daemon）显示的网关端口不同，请使用该端口）。末尾的斜杠可让相对链接在该目录内正确解析。
 
-**hash** = 文件夹的 CID。
+一旦公共网关（如 `https://ipfs.io/ipfs/YOUR_FOLDER_CID/`）能够从一个可访问的节点检索到内容，它就可以提供该网站。本地预览成功并不能证明网站已可公开访问。
 
 在我们的示例中，CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
@@ -108,15 +113,20 @@ Interplanetary Naming System（IPNS）允许你更新与你的网站关联的 IP
 
 网站已经创建完成，现在我们需要一种将 URL 指向内容的方法。
 
-如果你已经拥有网址，可以使用 TXT 记录 _dnslink(你的域名) 添加一条新记录。根据服务提供商的不同，它可能会自动填充。
+对于 `example.com`，添加以下 DNS 记录，并将 `YOUR_FOLDER_CID` 替换为你的目录 CID：
 
+| 类型 | 名称 | 值 |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+部分 DNS 提供商会自动追加区域（zone）；在这种情况下只需输入 `_dnslink`。如果使用上面的 IPNS 名称，值也可以改为 `dnslink=/ipns/YOUR_IPNS_NAME`。参见 [DNSLink](https://docs.ipfs.tech/concepts/dnslink/)。
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 
-在你能够查看网站之前，需要等待其在网络中传播。
+DNS 传播完成后，尝试 `https://ipfs.io/ipns/example.com/`。要直接在 `https://example.com/` 上提供该网站，还需要一个支持 DNSLink 的网关以及 HTTPS 配置；仅靠 TXT 记录无法完成这些设置。请参阅[自定义域名指南](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/)。
 
 *恭喜！你现在拥有了一个抗审查网站。*
 

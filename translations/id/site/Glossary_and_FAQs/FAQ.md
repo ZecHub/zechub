@@ -45,7 +45,7 @@ Anda juga dapat membeli Zcash secara peer-to-peer atau memperolehnya melalui pen
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash pada dasarnya lebih privat daripada Bitcoin atau Ethereum. Mata uang ini menawarkan waktu blok yang cepat (75 detik), biaya rendah, dan peningkatan rutin.
+Zcash pada dasarnya lebih privat daripada Bitcoin atau Ethereum. Mata uang ini menawarkan waktu blok yang cepat (25 detik sejak NU7 diaktifkan pada November 2026, turun dari 75 detik), biaya rendah, dan peningkatan rutin.
 
 Pengguna dapat memilih antara transaksi **Transparan** atau **Terlindungi**. Untuk informasi lebih lanjut, lihat [Ekosistem Terlindungi](https://electriccoin.co/blog/shielded-ecosystem).
 
@@ -70,7 +70,7 @@ Keputusan ditulis ke dalam spesifikasi dan diratifikasi on-chain ketika network 
 
 Pertama, bacalah [panduan kami tentang block explorer](/guides/blockchain-explorers). Kemudian periksa [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Transaksi kedaluwarsa setelah sekitar 25 menit (20 blok) dan dana dikembalikan secara otomatis.
+Tidak ada masa kedaluwarsa tetap 25 menit atau pengatur waktu pengembalian dana otomatis. Periksa ketinggian kedaluwarsa yang dicatat oleh dompet Anda dan apakah pembayaran asli telah ditambang. Jika kedaluwarsa tanpa ditambang, pembayaran tersebut tidak diselesaikan on-chain; kedaluwarsa tidak membuat transaksi pengembalian dana. Biarkan dompet tersinkronisasi sebelum mengikuti panduan percobaannya kembali. Lihat [pemecahan masalah transaksi](/using-zcash/transactions#troubleshooting-stuck-transactions) dan [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Alasan umum transaksi mungkin tidak muncul:**
 

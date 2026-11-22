@@ -50,6 +50,11 @@ Terima ZEC terlindungi sebagai organisasi 501(c)(3) dan tetap berikan donor tand
 ### [Tempat Berdonasi ZEC](/zcash-use-cases/where-to-donate-zec)
 Temukan organisasi nirlaba yang menerima ZEC, serta yang menerima donasi terlindungi
 
+### [Jalankan Kampanye Penggalangan Dana ZEC](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Kumpulkan ZEC untuk satu tujuan, tunjukkan progres yang bisa dipercaya donatur, dan jaga privasi setiap donasi
+### [Donasikan ZEC dan Klaim Potongan Pajak AS](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Berikan ZEC secara privat dan tetap dapatkan dokumen yang kamu butuhkan untuk memotongnya dari pajak
+
 ### [Pengaturan Privasi Jurnalis](/zcash-use-cases/journalist-privacy-setup)   
 Gunakan alamat terlindungi untuk semua transaksi dan lindungi sumber berita dengan menghindari pembayaran yang dapat dilacak. Gunakan memo dengan hati-hati untuk komunikasi yang aman
 

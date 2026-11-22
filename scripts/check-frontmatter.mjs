@@ -98,7 +98,10 @@ if (base) {
 
 let files;
 try {
-  files = git(["ls-files", "-z", "--", "translations/"]).split("\0").filter((p) => p.endsWith(".md"));
+  // Local preflight must also check new pages before `git add`. Keep ignored
+  // scratch translations out, just as the scoped change collector does.
+  files = git(["ls-files", "--cached", "--others", "--exclude-standard", "-z", "--", "translations/"])
+    .split("\0").filter((p) => p.endsWith(".md"));
 } catch (e) {
   die(`could not list translated files: ${e.message}`);
 }

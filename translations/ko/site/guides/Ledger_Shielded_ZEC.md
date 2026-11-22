@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
+</a>
+
 # Ledger Shielded ZEC 사용자 가이드
+
+> Ledger Wallet Desktop에서 Ledger 하드웨어 지갑으로 비공개(shielded) ZEC를 보관하고, 받고, 보내세요.
+
+## 요약
+
+* 2026년 9월 23일부터 Ledger Wallet Desktop에서 차폐된 ZEC를 지원합니다. 하나의 Zcash 계정에 투명 잔액과 Ironwood 풀의 비공개 잔액이 함께 있습니다.
+* 현재는 데스크톱에서만 지원됩니다. 모바일 지원은 "곧 출시 예정"으로 발표되었습니다.
+* Nano S Plus, Nano X, Stax 또는 Flex(기존 Nano S 제외), Ledger Wallet Desktop 4.21 이상, 그리고 최신 Zcash 앱이 필요합니다.
+* **Enable shielded**를 한 번 클릭하세요. Ledger가 뷰잉 키를 내보내 데스크톱 앱이 비공개 자금을 찾을 수 있게 합니다. 지출 키는 절대 기기 밖으로 나가지 않습니다.
+* 가능하면 비공개 주소(u1...)로 받으세요. 투명 잔액의 ZEC를 비공개로 옮길 수는 있지만, 그렇게 하면 두 잔액이 연결됩니다.
+* 모든 송금은 Ledger 화면에서 검토하고 서명합니다. 주소는 그 화면에서 한 글자씩 확인하세요.
+
+## 핵심 설명
+
+Zcash에는 두 종류의 잔액이 있습니다. 투명 ZEC(t1 주소)은 Bitcoin처럼 작동하며, 금액과 주소가 공개됩니다. 차폐 ZEC는 차폐 풀에 보관되며, 이곳에서는 송신자, 수신자, 금액이 온체인에서 암호화됩니다.
+
+Ledger는 지출 키를 하드웨어 기기에 보관합니다. 비공개 잔액을 표시하려면 Ledger Wallet Desktop에 Unified Full Viewing Key(UFVK)가 필요합니다. 기기가 이를 한 번 내보내면, 데스크톱 앱은 이를 사용해 블록체인에서 사용자의 차폐(shielded) 노트를 스캔합니다. 뷰잉 키로는 차폐 거래 내역을 볼 수 있지만 자금을 지출할 수는 없습니다. 그래도 비공개 정보로 취급하세요.
+
+아래 단계에서는 Zcash 앱 설치, 계정 추가, 비공개 잔액 활성화, 수신, 투명 ZEC 차폐, 비공개 잔액에서 송금하는 방법을 다룹니다.
+
+## 개요
 
 2026년 9월 23일, Ledger는 Ledger Wallet Desktop에 네이티브 shielded ZEC를 추가했습니다. 이제 하나의 Zcash 계정에서 투명 잔액과 Zcash의 Ironwood 풀에 있는 비공개 잔액을 모두 보유할 수 있습니다. 비공개 키는 Ledger에 그대로 유지되며, 모든 거래는 기기에서 검토 및 서명됩니다.
 

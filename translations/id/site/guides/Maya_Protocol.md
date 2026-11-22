@@ -1,6 +1,28 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
+</a>
+
 # Maya Decentralised Exchange
 
----
+> Maya Protocol adalah DEX lintas chain untuk swap native (misalnya ETH atau BTC ke ZEC) tanpa token wrapped, akun, atau KYC.
+
+## Ringkasan singkat
+
+* Maya menukar koin native antar-blockchain: kamu mengirim satu aset dan menerima aset lain di chain-nya sendiri. Tanpa wrapped token, akun, atau KYC.
+* Ini adalah fork dari THORChain, dibuat dengan SDK Cosmos dan diamankan oleh operator node yang mengunci modal (Proof of Bond).
+* Token native-nya adalah $CACAO. Penyedia likuiditas mendapatkan biaya swap dan dilindungi oleh Impermanent Loss Protection (ILP) setelah 50 hari.
+* Maya adalah backend: kamu menggunakannya melalui frontend atau dompet seperti THORWallet, CacaoSwap, Asgardex, Ctrl Wallet, atau KeepKey.
+* Video tutorial menunjukkan swap ETH ke ZEC di LeoDex, salah satu frontend tersebut.
+* Maya mendukung deposit ZEC terlindungi/terpadu melalui SwapKit (output nilai transparan ditambah memo terlindungi), sehingga beberapa frontend dapat mengirim ZEC langsung ke alamat terpadu. Jika frontend yang kamu gunakan mengirim pembayaran ke alamat transparan (t1), lindungi aset tersebut di dompetmu setelahnya demi privasi.
+* Maya bukan satu-satunya opsi untuk swap ZEC native: THORChain juga memiliki pool ZEC native.
+
+## Penjelasan Inti
+
+Exchange terpusat menyimpan koinmu dan memerlukan identitasmu. Maya menggunakan jaringan node yang mengendalikan vault di setiap chain yang didukung. Kamu mengirim koin ke vault Maya, setidaknya dua pertiga node mengonfirmasi deposit, lalu aset yang sesuai dikirim dari vault lain ke alamatmu di chain tujuan.
+
+Operator node menyetorkan obligasi yang dapat dipotong jika mereka berperilaku buruk, sehingga mereka punya alasan finansial untuk tetap jujur. Maya menambahkan fitur di atas THORChain, seperti node likuiditas dan desain cadangannya sendiri, serta berfungsi sebagai jaringan kedua yang independen di sampingnya.
+
+Bagian-bagian di bawah ini membahas cara kerja Maya, Proof of Bond, perbedaannya dengan THORChain, serta dompet mana saja yang mendukungnya.
 
 ## Tutorial
 
@@ -29,7 +51,7 @@ Dengan cara ini, kamu dapat mengirim satu jenis token di satu blockchain dan men
 
 ## Apa itu Proof of Bond?
 
-Proof of Bond (PoB) adalah mekanisme konsensus di mana operator node harus menjaminkan sebuah bond (biasanya dalam bentuk token asli jaringan) untuk berpartisipasi dalam jaringan. Bond ini berfungsi sebagai bentuk keamanan ekonomi, memastikan bahwa node bertindak jujur dan menjaga integritas jaringan2. Jika sebuah node mencoba bertindak secara jahat atau gagal menjalankan tugasnya, bond miliknya dapat di-slash, yang berarti sebagian dari bond tersebut diambil sebagai penalti.
+Proof of Bond (PoB) adalah mekanisme konsensus yang mengharuskan operator node mengunci bond (biasanya berupa token asli jaringan) untuk berpartisipasi dalam jaringan. Bond ini berfungsi sebagai bentuk keamanan ekonomi, memastikan node bertindak jujur dan menjaga integritas jaringan. Jika sebuah node mencoba bertindak jahat atau gagal menjalankan tugasnya, bond-nya dapat dipotong sebagai penalti, artinya sebagian dari bond tersebut diambil.
 
 Dalam Maya Protocol, mekanisme ini membantu menghasilkan nilai ekonomi dari sumber daya yang di-stake oleh operator node, sehingga meningkatkan efisiensi modal. Demikian pula, dalam THORChain, operator node menjaminkan RUNE (token asli) untuk mengamankan jaringan dan memastikan kerja sama antar peserta.
 
@@ -43,8 +65,8 @@ Alih-alih mengikuti Model Pure Bond, Maya sedang mempertimbangkan peralihan ke m
 
 ### Perlindungan Impermanent Loss
 
-Sebuah sistem yang melindungi penyedia likuiditas (LPs) dari kerugian sementara yang mungkin mereka alami saat menyediakan likuiditas, akibat fluktuasi harga aset kripto yang terus-menerus.
-ILP memegang 10% dari pasokan $CACAO (10 juta $CACAO) dan terus diisi ulang oleh 10% dari biaya protokol. ILP menjadi aktif 50 hari setelah deposit likuiditas, dengan cakupan dibatasi maksimal 100%.
+Sebuah sistem yang melindungi penyedia likuiditas (LP) dari kerugian sementara yang dapat mereka alami saat menyediakan likuiditas akibat fluktuasi harga aset kripto yang terus-menerus.
+ILP menyimpan 10% dari pasokan $CACAO (10 juta $CACAO) dan terus diisi kembali dengan 10% dari biaya protokol. ILP mulai aktif 50 hari setelah deposit likuiditas, dengan cakupan maksimal 100%.
 
 Durasi cakupan ILP bergantung pada performa ASSET dan $CACAO. Cakupan penuh tercapai setelah 150 hari jika ASSET berkinerja lebih baik, dan setelah 450 hari jika $CACAO berkinerja lebih baik. ILP dibayarkan sekaligus diatur ulang saat penarikan lengkap, namun tidak terpengaruh oleh penarikan sebagian. Untuk top-up, ILP diatur ulang tetapi tidak dibayarkan.
 
@@ -58,16 +80,16 @@ Pada awal mula Maya Protocol, cadangan CACAO yang tersedia hanya 10% dari total 
 
 Meskipun memiliki perbedaan, Maya juga berfungsi sebagai solusi pelengkap bagi THORChain, menawarkan redundansi, ekstensi, dan validasi, serta mengintegrasikan jaringan baru yang belum ada dalam implementasi THORChain saat ini.
 
-Selain itu, tujuan Maya adalah untuk menjadi *backend* bagi layanan lain agar dapat dikembangkan lebih lanjut, dengan harapan dapat melihat banyak *frontend* baru, atau layanan DEX yang dibangun di atas infrastruktur Maya.
+Selain itu, tujuan Maya adalah menjadi *backend* yang dapat digunakan layanan lain untuk membangun, dengan harapan akan muncul banyak *frontend* baru atau layanan DEX yang dibangun di atas infrastruktur Maya.
 
-## Integrasi dompet protokol Maya
+## Integrasi dompet Maya Protocol
 
 Bertindak sebagai *backend*, Maya perlu didukung oleh berbagai UI dan dompet agar dapat digunakan.
 Berikut adalah daftar beberapa layanan yang sudah mendukung Maya:
 
-[Thorwallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
+[THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+El Dorado: sudah tidak online, domainnya tidak dapat diakses.
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 

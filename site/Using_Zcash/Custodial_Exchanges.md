@@ -8,6 +8,19 @@ Ironwood is the shielded pool that arrived with the July 2026 network upgrade. E
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- Website: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Pairs: ZEC/BTC
+- Supports: Transparent
+- Deposit Time: About 30 minutes (24 confirmations)
+- Ironwood: Not applicable, transparent addresses only
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,15 +99,16 @@ ___
 - Ironwood: Shielded withdrawals supported, pool not stated
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Website: [Huobi](https://huobi.com)
+- Website: [HTX](https://www.htx.com) (formerly Huobi)
 - Pairs: ALL/ZEC
 - Supports: Transparent
+- Status: ZEC deposits and withdrawals currently suspended (per HTX public API, November 2026); spot trading still listed
 - Deposit Time: 35 Minutes 
 - Ironwood: Not applicable, transparent addresses only
 ___

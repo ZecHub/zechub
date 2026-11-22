@@ -25,7 +25,7 @@ Zaino 位于 Zebra 与客户端软件之间。Zebra 是共识节点：它下载�
 
 Zaino 为轻客户端、全客户端或钱包，以及区块链浏览器提供功能。它可访问最终确定的链、未最终确定的最佳链，以及由 Zebra 持有的内存池数据。
 
-## 它如何融入当前的 Zcash 技术栈
+## 它如何融入当前的 Zcash Stack
 
 当前的 Z3 技术栈围绕 Zebra、Zallet 和可选的 Zaino 构建。
 
@@ -89,5 +89,6 @@ Zaino 公开两种网络服务。gRPC 服务是面向 lightwallet 的 API。JSON
 * [Z3 部署仓库](https://github.com/ZcashFoundation/z3)
 * [Zebra 文档](https://zebra.zfnd.org/)
 * [Zaino 拨款和项目讨论](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder)，来自Zcash Foundation的另一个Rust索引器（alpha）
 
 **最后更新：**2026 年 8 月

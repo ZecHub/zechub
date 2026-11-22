@@ -8,6 +8,19 @@ Ironwood nye ɣaɣla [shielded] gaƒuƒoƒo [pool] si va kple mɔ̃ ƒe sewo tr�
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="AltQuick Logo" width="200" height="100"/>
+</a>
+
+- Websaɖe: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Ɖɔliwo: ZEC/BTC
+- Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Deposit Ɣeyiɣi: Abe aɖabaƒoƒo 30 ene (kpeɖodzi 24)
+- Ironwood: Mehiã o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ɖeɖeko
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,17 +99,19 @@ ___
 - Ironwood: Ɣaɣla withdrawals le dzɔdzɔm, womɛ gaƒuƒoƒo aɖe fia o
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Websaɖe: [Huobi](https://huobi.com)
+- Websaɖe: [HTX](https://www.htx.com) (kplɔ Huobi)
 - Ɖɔliwo: ALL/ZEC
 - Wodoa alɔ: Nuwo ƒe ʋuʋuɖi
+- Nɔnɔme: ZEC wodeƒe kple ɖeɖe le susu me fifia (abe ale si HTX ƒe API dzɔdzɔtɔ̃ kãtɔ, November 2026 ene); spot trading gale ŋlɔ
 - Deposit Ɣeyiɣi: Minuten 35 
 - Ironwood: Mele bubu o, nuwo ƒe ʋuʋuɖi gaɖoƒe ƒe dzesiwo ko
+
 ___
 
 ### [Kraken](https://kraken.com)

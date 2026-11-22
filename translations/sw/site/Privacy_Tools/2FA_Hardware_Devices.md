@@ -20,7 +20,7 @@ Kwa funguo za usalama za vifaa kama YubiKey, unaunganisha tu ufunguo wa kifaa kw
 
 ## Je, manufaa ya kutumia ufunguo wa usalama wa vifaa ni yapi?
 
-Funguo za usalama za vifaa hutoa faida kadhaa dhidi ya mbinu za jadi za uthibitishaji zinazotegemea nenosiri. Ni vigumu zaidi kushambulia kuliko manenosiri, ambayo yanaweza kuathiriwa kwa urahisi kupitia mashambulizi ya nguvu ghafi, uhandisi wa kijamii au hadaa. Funguo za usalama huzalisha msimbo wa kipekee kila zinapotumiwa, jambo linalofanya iwe karibu haiwezekani kwa washambuliaji kutabiri au kuiga msimbo huo. Pia ni rahisi kutumia na kusanidi, na hazihitaji programu au viendeshi vya ziada kusakinishwa kwenye kifaa chako.
+Inapotumiwa pamoja na FIDO U2F au FIDO2/WebAuthn, ufunguo wa usalama wa maunzi huthibitisha utambulisho kwa kutia sahihi changamoto mpya, badala ya kukuzalishia msimbo wa kuandika. Huduma huhifadhi ufunguo wa umma, ilhali ufunguo wa faragha hubaki kwenye kithibitishaji. Stakabadhi za uthibitishaji huwekwa mahususi kwa huduma, na kivinjari hukagua utambulisho wa mhusika tegemezi ili kuzuia hadaa. Faida hizi zinaelezea uthibitishaji wa FIDO, si kila mbinu ambayo ufunguo wa itifaki nyingi unaweza kuunga mkono. Hakikisha kwamba huduma, kivinjari, kifaa na aina ya muunganisho wako vinaunga mkono mbinu unayokusudia kutumia. Tazama [utangulizi wa Yubico kuhusu WebAuthn](https://developers.yubico.com/WebAuthn/) na [mwongozo wa wasanidi programu wa FIDO2/WebAuthn](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## Je, funguo za usalama za vifaa zinaendana na vifaa na mifumo yote ya uendeshaji?
 

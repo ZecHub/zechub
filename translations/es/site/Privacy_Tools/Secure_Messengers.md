@@ -21,7 +21,7 @@ A medida que los datos viajan por servidores o Internet, están expuestos a much
 
 **Zcash Memos cifrados [Encrypted Memos]**
 
-Zcash Las billeteras [wallets] de escritorio y móviles cuentan con una función integrada que permite a los usuarios enviar mensajes cifrados con transacciones blindadas [shielded transactions] privadas. El tamaño del memo/mensaje puede ser de hasta 512 bytes por transacción, con tarifas de transacción inferiores a 1 centavo de dólar estadounidense. Debido a la forma en que se detectan las transacciones que preservan la privacidad y al tiempo de bloque [block time] de la red, los mensajes pueden tardar hasta 1 minuto o más en recibirse. 
+Zcash Las billeteras [wallets] que admiten memos blindados [shielded memos] permiten a los usuarios adjuntar mensajes cifrados a pagos blindados. Cada salida blindada [shielded output] tiene su propio campo de memo de 512 bytes; no se trata de un único límite de 512 bytes para toda la transacción. Consulta [Memos](/using-zcash/memos) para conocer el formato del texto y la compatibilidad de las billeteras. Las tarifas de transacción se pagan en ZEC, y [ZIP 317](https://zips.z.cash/zip-0317) define una tarifa convencional que depende de la complejidad de la transacción. El costo en dólares estadounidenses también varía según el tipo de cambio de ZEC, por lo que no se garantiza una tarifa inferior a 1 centavo de dólar estadounidense. Comprueba la tarifa que indica la billetera antes de enviar. La entrega de los mensajes depende de la propagación de la transacción, de la política de confirmación y de la sincronización de la billetera del destinatario; no es un chat instantáneo.
 
 Pruébalo: https://z.cash/wallets 
 

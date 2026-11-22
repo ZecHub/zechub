@@ -15,6 +15,8 @@
 
 *Imejaribiwa kwa Feature Net toleo la 14 kwenye Windows 11 (toleo la 10.0.26200.9550), kuanzia 8 hadi 10 Oktoba 2026. Programu hii ni mfano wa awali na hubadilika kwa kila toleo. Ikiwa unachokiona kinatofautiana na ukurasa huu, amini uendeshaji wako mwenyewe na tafadhali fungua PR.*
 
+**Taarifa, 17 Novemba 2026: toleo la 14 haliwezi tena kujiunga na Feature Net.** [Toleo la 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 Oktoba) lilileta uboreshaji wa mtandao katika urefu wa PoW 55,296. Kuanzia na [toleo la 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16), “kila toleo huacha kufanya kazi wiki mbili baada ya kutolewa”, na Shielded Labs hupanga kutoa toleo kila wiki. [Toleo la 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 Novemba) lilileta uboreshaji mwingine katika urefu wa PoW 165,000. Toleo jipya zaidi wakati dokezo hili lilipoandikwa ni [toleo la 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 Novemba 2026): haliwezi kuwasiliana na node za toleo la 17, lina uboreshaji wa mtandao katika block 189,000, na huacha kufanya kazi katika block 212,568, karibu tarehe 30 Novemba. Pakua [toleo la hivi karibuni](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest), si toleo la 14. Hatua zilizo hapa chini hazikujaribiwa tena kwenye toleo hilo. Tofauti mbili zinazojulikana: majina ya faili yamebadilika, na RPC ya kuweka sarafu sasa ni `wallet_staking_action` (tazama [Jina moja la RPC la kuangalia](#one-rpc-name-to-watch)).
+
 ## Feature Net ni nini
 
 Crosslink ni pendekezo, si sehemu ya Zcash leo. Maswali yanayoulizwa mara kwa mara ya Shielded Labs kuhusu [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/) yanasema kwamba “ingehitaji kupitia mchakato wa kawaida wa utawala wa Zcash” kabla haijafika mainnet. Ukurasa wa [Crosslink Protocol](/zcash-tech/crosslink-protocol) unaeleza usanifu huo.
@@ -54,15 +56,15 @@ ZEC halisi huingia tu mwishoni. Shielded Labs imetenga [500 ZEC](https://shielde
 
 ## Kabla ya kuanza
 
-- **Kompyuta unayoweza kuiacha ikiendelea kufanya kazi.** Toleo hili lina miundo ya Windows, macOS, Ubuntu na Arch Linux. Mwongozo huu uliendeshwa kwenye Windows, kwenye PC yenye kichakataji cha Intel Core i5-8350U.
-- **Siku ya Kuweka Sarafu.** Angalia wakati inayofuata inafunguliwa kabla ya kupanga chochote. Dashibodi ya [Staker Space's dashboard](https://crosslink.staker.space/) huhesabu muda uliosalia kuifikia.
-- **Hakuna kingine.** Hakuna ZEC, akaunti wala usajili.
+- **Kompyuta unayoweza kuiacha ikiendelea kufanya kazi.** Toleo la 14 lilikuwa na matoleo ya Windows, macOS, Ubuntu na Arch Linux. Matoleo ya 17 na 18 yana matoleo ya Windows, macOS na Ubuntu. Mwongozo huu ulitekelezwa kwenye Windows, kwenye kompyuta yenye kichakataji cha Intel Core i5-8350U.
+- **Siku ya Kuweka Sarafu (Staking Day).** Angalia itakapofunguliwa tena kabla ya kupanga chochote. [Dashibodi ya Staker Space](https://crosslink.staker.space/) inaonyesha muda uliosalia.
+- **Hakuna kingine.** Hakuna ZEC, akaunti wala kujisajili.
 
 ## Hatua ya 1: Pakua programu na uhakiki faili
 
-1. Fungua [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) na usogeze chini hadi **Assets**.
-2. Pakua faili la mfumo wako. Kwenye Windows hilo ni `zebrad_v14_win32.exe`.
-3. Linganisha SHA-256 ya faili na digest ambayo GitHub inaonyesha kando ya asset hiyo.
+1. Fungua [toleo la hivi karibuni](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) kisha usogeze chini hadi **Vipengee**. Mwongozo huu ulitekelezwa kwa kutumia [toleo la 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), ambalo haliwezi tena kujiunga na mtandao.
+2. Pakua faili ya mfumo wako. Kwenye Windows jina lake huishia na `_win32.exe`: `zebrad_v14_win32.exe` katika utekelezaji ulio hapa chini, `zebra-crosslink_v18_win32.exe` kwa toleo la 18. Tumia jina na thamani ya heshi ya faili yako katika amri zinazofuata.
+3. Linganisha SHA-256 ya faili na thamani ya heshi ambayo GitHub inaonyesha kando ya kipengee hicho.
 
 Kwenye Windows, katika PowerShell:
 
@@ -397,6 +399,8 @@ Maelezo ya toleo la 14 yanaeleza mwito wa kuweka sarafu unaoitwa `wallet_staking
 ```
 
 Mbinu ya kuweka sarafu inayosajili ni [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), ambayo huchukua mfuatano mmoja unaoshikilia ombi kama JSON, huku kithibitishaji cha mwisho kikitolewa kwa utambulisho wake wa `zfinv1` ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Haikujaribiwa kwa mwongozo huu.
+
+**Iliyobadilishwa baada ya toleo la 14.** Kuanzia toleo la 15, node husajili `wallet_staking_action` na haina tena `staking_command` ([version 18 source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Huchukua kifaa kimoja chenye mojawapo tu ya miundo minne, `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` au `WithdrawDelegationBond`, na finalizer hutolewa kama ufunguo wa heksadesimali wenye herufi 64 ([version 15 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). Kuanzia block 189,000, kila hatua ya kuweka sarafu pia hutaja toleo la sasa la dhamana, kwa hivyo hatua iliyoundwa kwa kutumia dhamana iliyopitwa na wakati hukataliwa na pochi lazima zitumie toleo la 18 ([version 18 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). Hili pia halikujaribiwa kwa mwongozo huu.
 
 ## Toa sarafu na utoe
 

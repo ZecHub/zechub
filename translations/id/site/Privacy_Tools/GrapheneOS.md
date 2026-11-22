@@ -55,10 +55,10 @@ Seperti yang dinyatakan dalam bagian praktik terbaik, kamu disarankan untuk meng
 
 **Instalasi Berbasis Web USB** Untuk menginstal GrapheneOS menggunakan metode Web installer, kamu biasanya akan membutuhkan bahan dan sumber daya berikut:
 
-- 2GB memori bebas & 32GB ruang penyimpanan bebas.
+- Memori bebas 2GB & ruang penyimpanan bebas 32GB.
 - Kabel USB (A atau C)
-- Sistem Operasi yang Didukung: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 dan 23.04), ChromeOS, GrapheneOS, Google Android (stock Pixel OS)
-- Browser yang Didukung: Chromium (tidak didukung di Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, Browser Brave.
+- Gunakan sistem operasi host yang didukung dan browser dengan dukungan WebUSB yang berfungsi. Periksa [prasyarat resmi WebUSB terkini](https://grapheneos.org/install/web#prerequisites) untuk versi yang didukung dan pembatasan paket browser; sistem lama yang sudah mencapai akhir masa pakainya tidak didukung secara resmi.
+- Pemasang web juga dapat berjalan dari perangkat Android yang didukung, ChromeOS atau GrapheneOS. Ikuti catatan khusus browser dalam panduan resmi, alih-alih menganggap setiap paket Chromium mendukung WebUSB.
 
 Lihat Panduan instalasi melalui tautan di bawah ini dan ikuti proses instalasinya
 
@@ -68,8 +68,8 @@ Panduan Web Installer [GrapheneOS](https://grapheneos.org/install/web#prerequisi
 
 - Kamu harus memiliki setidaknya 2GB memori kosong yang tersedia dan 32GB ruang penyimpanan kosong
 - Kabel USB (A atau C)
-- Sistem Operasi yang Didukung Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Web Installer dari Android, ChromeOS atau GrapheneOS
+- Gunakan sistem operasi host yang didukung oleh [prasyarat baris perintah saat ini](https://grapheneos.org/install/cli#prerequisites), dan ikuti panduan tersebut untuk alat yang diperlukan.
+- Host Android, ChromeOS, dan GrapheneOS harus menggunakan Web Installer; host tersebut tidak tercantum sebagai host pemasangan baris perintah yang didukung.
 
 Lihat Panduan instalasi melalui tautan di bawah ini dan ikuti proses instalasinya
 
@@ -89,7 +89,7 @@ Lihat Panduan instalasi melalui tautan di bawah ini dan ikuti proses instalasiny
 
 **Layar Kunci Aman** Gunakan layar kunci yang aman, seperti PIN, kata sandi, atau autentikasi biometrik, untuk mencegah akses yang tidak sah.
 
-**Hindari Melakukan Root pada Perangkat Android Kamu** Hindari melakukan root atau membuka bootloader, karena hal ini dapat memperlemah keamanan perangkat.
+**Kunci Kembali Bootloader Setelah Instalasi** Proses instalasi resmi mengharuskan [membuka kunci bootloader untuk sementara](https://grapheneos.org/install/web#unlocking-the-bootloader) untuk melakukan flash GrapheneOS, lalu [menguncinya kembali sebelum digunakan](https://grapheneos.org/install/web#locking-the-bootloader) untuk mengaktifkan verified boot penuh. Membuka kunci dan mengunci kembali masing-masing menghapus semua data pengguna, jadi buat cadangan terlebih dahulu dan ikuti langkah-langkah resmi secara berurutan. Jangan melakukan root pada sistem operasi yang telah diinstal.
 
 **Verifikasi Sumber Aplikasi** Verifikasi keaslian aplikasi dan sumbernya untuk menghindari instalasi perangkat lunak berbahaya.
 

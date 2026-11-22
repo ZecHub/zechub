@@ -1,6 +1,7 @@
 import { strict as assert } from "node:assert";
 import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import { test } from "node:test";
 
 import { canonical, validateLocale } from "./glossary.mjs";
@@ -210,9 +211,9 @@ test("import: the real menus kit, after the pages kit", () => {
   const { glossary: afterPages } = run(skeleton(), PAGES_KIT);
   const { glossary: g, report } = run(afterPages, MENUS_KIT);
   assert.deepEqual(report.errors, []);
-  // Protected names are listed, not reviewed (Shielded Labs and Brave Wallet
-  // joined preserveVerbatim after the Indonesian review).
-  assert.deepEqual(report.skippedNames, ["Shielded Labs", "Keystone Zashi", "Brave Wallet"]);
+  // Protected names are listed, not reviewed (Shielded Labs, Brave Wallet,
+  // Avalanche and RedBridge joined preserveVerbatim after the Indonesian review).
+  assert.deepEqual(report.skippedNames, ["Shielded Labs", "Keystone Zashi", "Avalanche RedBridge", "Brave Wallet"]);
   assert.deepEqual(report.needsMaintainer.map((m) => m.english).sort(), [
     "Metamask Snap", // rows disagree on case; the protected name is "MetaMask Snap"
     "Privacy Tools", // Tools -> Alat vs Tools Privasi, needs a context on both
@@ -301,7 +302,7 @@ test("round trip: export -> every cell OK -> import gives back the committed id.
 });
 
 test("round trip: the committed id.json is in canonical form", () => {
-  assert.equal(serializeGlossary(ID, TERMS_EN), read("../id.json"));
+  assert.equal(serializeGlossary(ID, TERMS_EN), read("../id.json").replace(/\r\n/g, "\n"));
 });
 
 test("export: deterministic, and the kit proposes the glossary over the dictionary", () => {
@@ -443,12 +444,12 @@ test("evidence: counts English occurrences and today's renderings, with scope", 
 // ---- the CLIs ------------------------------------------------------------------
 
 test("CLI: validate.mjs passes on the committed files", () => {
-  const out = execFileSync("node", [here("../validate.mjs").pathname], { encoding: "utf8" });
+  const out = execFileSync("node", [fileURLToPath(here("../validate.mjs"))], { encoding: "utf8" });
   assert.match(out, /glossary OK/);
 });
 
 test("CLI: review-kit.mjs exports the pages kit", () => {
-  const out = execFileSync("node", [here("../review-kit.mjs").pathname, "export", "id", "--kit", "pages", "--no-evidence"], { encoding: "utf8" });
+  const out = execFileSync("node", [fileURLToPath(here("../review-kit.mjs")), "export", "id", "--kit", "pages", "--no-evidence"], { encoding: "utf8" });
   assert.match(out, new RegExp(`\\(\`terms\`: ${TERMS_EN.terms.filter((t) => t.applies_to !== "ui").length} rows\\)`));
   assert.match(out, /\| \d+ \| mining \| mining \| .* \| penambangan \|/);
 });

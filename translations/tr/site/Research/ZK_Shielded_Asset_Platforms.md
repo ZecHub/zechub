@@ -95,5 +95,5 @@ Vesayetsiz RAILGUN Wallet'ınızı kurun, istediğiniz bir 0zk adresine herhangi
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: TOMO bir katman 1 kamu blokzinciridir. TomoChain, TomoChain üzerinde geliştirilen ve güvenli, izlenemez işlemler oluşturmak için tasarlanmış bir gizlilik protokolüdür -**Varlık Takası**: Evet- [Beyaz Kitap](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (eski adıyla TomoChain)](https://viction.xyz/ecosystem)**: VIC (eski adıyla TOMO) bir katman 1 kamu blokzinciridir. TomoChain, TomoChain üzerinde geliştirilen ve güvenli, izlenemez işlemler oluşturmak için tasarlanmış bir gizlilik protokolüdür -**Varlık Takası**: Evet- [Beyaz Kitap](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

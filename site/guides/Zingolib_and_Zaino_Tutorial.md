@@ -25,7 +25,7 @@
 [System Architecture](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. They can send/recieve ZEC as needed.
+- Zcash User Installs/Compiles Zingolib Which gives access to zingo-cli. They can send/receive ZEC as needed.
 - zingo-cli connects to zaino either locally or via a secure channel online (Zcash user doesnt care how this works!)
 - Zaino allows access to either zebrad or zcashd            
 - Fully synced zebrad is source of truth (no more wallets here!)
@@ -43,8 +43,10 @@ You will need to intall 3 things for this to work correctly. I also recommend sc
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
+
+Use Zebra 7.0.0 or newer: NU7 activated on Mainnet at block 3,543,405, and older `zebrad` versions can't follow the chain past that height ([release notes](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
 
  
 *optional* (create a screen session for zebrad)

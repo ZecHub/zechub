@@ -69,7 +69,7 @@ Im Kontext von Zcash ermöglichen Bridge-Technologien wie ZenRock, dass ZEC-Asse
 
 Interoperabilität ist eine entscheidende Komponente bei der Entwicklung von DeFi, da sie Assets einer bestimmten Blockchain die Teilnahme an einer netzwerkübergreifenden digitalen Wirtschaft ermöglicht. 
 
-Mehr erfahren unter: [ZenRock Bridge Mehr erfahren](https://docs.zenrocklabs.io/)
+Mehr erfahren unter: [ZenRock Bridge Mehr erfahren](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10: Die ZenRock-Mitgründer Aditya Dave und Jack Krevitt diskutieren Zcash auf Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,7 +260,7 @@ Mehr erfahren: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x83358
 
 [Morpho](https://markets.morpho.org/fixed) ist ein dezentrales Kreditprotokoll, das einen äußerst kapitaleffizienten Kreditmarkt bereitstellt.
 
-[Clearstar Labs](clearstar.xyz) führt den cbAssets Vault über Morpho ein, wodurch Assets wie cbZEC im Kreditmarkt verwendet werden können.
+[Clearstar Labs](https://clearstar.xyz) führt den cbAssets Vault über Morpho ein, wodurch Assets wie cbZEC im Kreditmarkt verwendet werden können.
 
 Über diesen Vault können Nutzer:
 

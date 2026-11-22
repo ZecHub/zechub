@@ -50,6 +50,11 @@ Xɔ ɣaɣla ZEC abe 501(c)(3) ene, eye nàtsɔ asiɖeɖe kpukpuiwo kple IRS ƒe 
 ###  [Afisi nàtsɔ avu ZEC](/zcash-use-cases/where-to-donate-zec)
 Di dzikpɔdzikpɔ dɔwɔƒewo siwo xɔ ZEC, eye nàkpɔ be wo dometɔ kae xɔ ɣaɣla [shielded] nunanaewo
 
+###  [Wɔ ZEC Ga Ƒoƒo Ƒu Dɔwɔwɔ](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Ƒo ZEC ƒu na taɖodzinu ɖeka, ɖe ŋgɔyiyi si dzi nunanalawo ate ŋu aɖo ŋu ɖo la fia, eye nàna nunana ɖe sia ɖe nanɔ ɣaɣla me
+###  [Na ZEC Abe Nunana Ene Eye Nàbia Be Woaɖe Nu Le Wò US Adzɔxexe Me](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Na ZEC le ɣaɣla me, eye nàgakpɔ agbalẽ siwo hiã be nàzã atsɔ aɖe nu le wò adzɔxexe me
+
 ###  [Nyadzɔdzɔla Ƒe Ɣaɣla Ɖoɖoɖo](/zcash-use-cases/journalist-privacy-setup)   
 Zã ɣaɣla gaɖoƒe ƒe dzesiwo na gaɖoɖoawo katã, eye nàdzɔ nyateƒe ƒe nudzɔdzɔlawo to fexexe siwo wòate ŋu awɔ abe woɖe nɔnɔme ene la me. Zã nya kpui [memo]wo kple nukpɔkpɔ na nyadzɔdzɔ ɖeɖe me
 

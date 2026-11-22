@@ -69,7 +69,7 @@ Maya Protocol інтегрував Zcash, щоб посилити свою де�
 
 Сумісність є критично важливим компонентом розвитку DeFi, оскільки вона дозволяє активам конкретного блокчейну брати участь у цифровій економіці між різними мережами. 
 
-Дізнатися більше на: [ZenRock Bridge Дізнатися](https://docs.zenrocklabs.io/)
+Дізнатися більше на: [ZenRock Bridge Дізнатися](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,7 +260,7 @@ Curve допомагає зміцнити ліквідність cbZEC у DeFi-�
 
 [Morpho](https://markets.morpho.org/fixed) — це децентралізований протокол кредитування, який надає ринок кредитування з високою ефективністю капіталу.
 
-[Clearstar Labs](clearstar.xyz) представляє cbAssets Vault через Morpho, що дозволяє використовувати такі активи, як cbZEC, на ринку кредитування.
+[Clearstar Labs](https://clearstar.xyz) представляє cbAssets Vault через Morpho, що дозволяє використовувати такі активи, як cbZEC, на ринку кредитування.
 
 Через цей vault користувачі можуть:
 

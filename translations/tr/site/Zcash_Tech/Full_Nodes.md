@@ -94,7 +94,7 @@ Bir tam düğüm çalıştırarak merkeziyetsizliğini destekleyip zcash ağın�
 
 Bu, hasım kontrolünü önlemeye ve ağın bazı kesinti türlerine karşı dayanıklı kalmasına yardımcı olur.
 
-DNS tohumlayıcıları, yerleşik bir sunucu üzerinden diğer güvenilir düğümlerin listesini sunar. Bu, işlemlerin ağ boyunca yayılmasını sağlar.
+DNS tohumlayıcıları, yerleşik bir sunucu üzerinden diğer güvenilir düğümlerin listesini sunar. Bu, işlemlerin ağ boyunca yayılmasını sağlar. Zcash Foundation'ın tohumlayıcıları, Rust ile yazılmış bir DNS tohumlayıcısı olan [Zeeder](https://github.com/ZcashFoundation/zeeder)'ü çalıştırır; bu, CoreDNS tabanlı eski dnsseeder'ın yerini almıştır. Görüntüleri `zfnd/zeeder` olarak yayımlanır; eski `zfnd/dnsseeder` adı kullanımdan kaldırılıyor.
 
 ### Ağ İstatistikleri
 
@@ -102,7 +102,7 @@ Bunlar, Zcash Ağ verilerine erişim sağlayan örnek platformlardır:
 
 [Zcash Blok Gezgini](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics ağ verileri](https://docs.coinmetrics.io/network-data/network-data-overview) — metrik belgeleri ve güncel varlık kapsamına ait bağlantılar.
 
 Ayrıca testler çalıştırarak veya yeni iyileştirmeler önerip metrikler sağlayarak ağın geliştirilmesine katkıda bulunabilirsiniz.
 
@@ -136,6 +136,7 @@ Bunun ek bir avantajı, diğer kullanıcıların düğümünüzün .onion adresi
 - [Zakura Düğüm](/zcash-tech/zakura-node) - Zebra üzerinden çatallanmış ikinci düğüm uygulaması
 - [Hafif Cüzdan Düğümleri](/zcash-tech/lightwallet-nodes) - hafif cüzdanların sorguladığı sunucular
 - [Zaino](/zcash-tech/zaino) - hafif cüzdanlara hizmet veren Rust indeksleyicisi
+- [Zinder](/zcash-tech/zinder) - Zcash Foundation'nın Zebra ve Zakura için alfa indeksleyicisi
 - [Zcash Cüzdan Senkronizasyonu](/zcash-tech/zcash-wallet-syncing) - senkronizasyonun neden bu şekilde çalıştığı
 
 ## Daha Fazla Öğrenme

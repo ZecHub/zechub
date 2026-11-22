@@ -25,20 +25,20 @@ DeFiおよびDAppsのサポート：Zcash保有者は、プライバシーを損
 
 ## 成果物とドキュメント
 
-**Avalanche上のZcash Elastic Subnet Bridge**：[助成金提案](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Avalanche上のZcash Elastic Subnet Bridge**：[助成金提案](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 以下は、Zcash Avalanche RedBridgeプロジェクトで完了した主な成果物および技術リソースです。
 
-成果物1.1：CLIを使用してテストネットAvalancheサブネットからテストネットZcashトランザクションを照会できる予備PoC。GitHubで公開され、Avalancheテストネット上の1ノードサブネットを備えています。https://github.com/red-dev-inc/zavax-oracle
+成果物1.1：CLIを使用してテストネットAvalancheサブネットからテストネットZcashトランザクションを照会できる予備PoC。GitHubで公開され、Avalancheテストネット上の1ノードサブネットを備えています。https://github.com/red-dev-inc/redbridge-oracle
 
-成果物2.1：[アーキテクチャ](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+成果物2.1：[アーキテクチャ](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### マイルストーン3：2024年3月31日
 
 成果物3.1は完了しており、ZavaXブリッジにおけるしきい値署名にBLSではなくFROSTを採用する分析を提示しています。この変更はZcash Foundationの監査済みライブラリを活用し、統合性とセキュリティの向上を促進します。https://github.com/ZcashFoundation/frost
 
-成果物3.2では、GUI向けUXおよびUIデザインが完了し、侵入テスト結果に裏付けられたZavaX Oracleサブネットのセキュリティ強化について詳述しています。サーバー構成およびテスト結果を含む詳細については、[セキュリティ評価](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[監査レポート](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+成果物3.2では、GUI向けUXおよびUIデザインが完了し、侵入テスト結果に裏付けられたZavaX Oracleサブネットのセキュリティ強化について詳述しています。サーバー構成およびテスト結果を含む詳細については、[セキュリティ評価](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[監査レポート](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 さらに、チームはZavaXからredbridgeへリブランドし、ステーキングトークンをZAXからRBRへ変更しました。
 
 ### マイルストーン4：2024年4月30日
@@ -51,9 +51,9 @@ DeFiおよびDAppsのサポート：Zcash保有者は、プライバシーを損
 成果物6.1：ソフトウェア監査の合格
 成果物6.2：監査済みソースコードを公開GitHubリポジトリへ公開
 
-[GitHubリポジトリ](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)をご覧ください。
+[GitHubリポジトリ](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)をご覧ください。
   
-技術的な詳細については、ユーザーはRedBridgeプロジェクトのリポジトリおよびドキュメントを確認し、統合の詳細、テストフレームワーク、セキュリティプロトコルを[確認](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)することを推奨します。
+技術的な詳細については、ユーザーはRedBridgeプロジェクトのリポジトリおよびドキュメントを確認し、統合の詳細、テストフレームワーク、セキュリティプロトコルを[詳しく確認](https://github.com/red-dev-inc/red-bridge)することを推奨します。
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

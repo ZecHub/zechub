@@ -1,6 +1,6 @@
 # 如何在 Akash Network 上运行 Zebra
 
-使用 [Akash Console](https://console.akash.network) 部署 Zebra Zcash 全节点的分步指南。
+在 Akash 上部署 Zebra Zcash 全节点的分步指南。
 
 ### 你将部署的内容
 
@@ -15,54 +15,92 @@
 -> 使用 4 个 vCPU、16GB RAM、350GB 存储空间（主网），或 2 个 vCPU、8GB RAM、50GB 存储空间（测试网）
 
 
-### 重要：Akash 上的端口映射
+awesome-akash 模板现在固定使用 **Zebra 7.0.0**（绝不使用 `:latest`）。它在内部启用 Prometheus（`9999`）和 health（`8080`），为同机部署的 **lightwalletd** 在 gRPC **9067** 上启用内部 JSON-RPC，并启用功能标志 `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`。
 
-当你在 Akash 上暴露端口时（例如用于 Zebra P2P 的端口 8233），它**不会绑定到提供商公共 IP 上的该确切端口**。相反，提供商会分配一个随机高位端口（例如 31234 或 42567），并将其反向代理到你容器的 8233 端口。
+如需运行速度更快的裁剪版 Mainnet 节点，请参阅 [如何在 Akash](/guides/akash-network-zakura) 上运行 Zakura。如需使用一次性的 Regtest 仪表板，请参阅 [Thus Spoke Zakura 在 Akash](/guides/thus-spoke-zakura-akash) 上的内容。
 
-这是有意设计的——提供商运行多个部署，如果每个人都直接尝试使用端口 8233，就会产生冲突。
+### Akash 如何发布端口
 
-**这对你意味着：**
+SDL 中的数字（`port` / `as`）是**容器端口**。Zebra仍监听 **8233**，lightwalletd监听 **9067**，健康检查使用 **8080**。这些数字适用于进程以及同一部署中的其他服务（`zebra:8232`）。
 
--> 你在 SDL 中配置端口 8233（Zebra 的标准 P2P 端口）
+它们**不是**服务提供商公共 IP 上的端口。
 
--> Akash 会给你一个类似 *provider.com:31234* 的 URI
+**默认（此模板）：**没有专用 IP。对于每个 `global: true` TCP 暴露，提供商会将共享主机上的一个**随机高位端口**映射到你的容器端口。租用建立后，Console/Air **Leases → URIs** 会列出实际端点，例如：
 
--> 其他 Zcash 节点会通过 *provider.com:31234* 连接到你
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
--> 在你的容器内部，Zebra 仍会监听 8233 端口
+对等节点和钱包会使用**这些**主机:端口值。复制你需要的暴露服务的 URI（P2P 或 lightwalletd）。如果你设置了 `ZEBRA_NETWORK__EXTERNAL_ADDR`，请将其设为映射后的 P2P URI（`provider.example:31482`），而不是 `…:8233`。
 
+**HTTP**（搭配 `http_options` 的 `as: 80`，用于 Thus Spoke 仪表板）：许多提供商会发布**入口主机名**（通常使用 80/443 端口），而不是随机 TCP 端口。在浏览器中打开该服务的 URI。
 
-这会自动处理。只需使用 Akash 提供给你的 URI。
+**内部**（`global: false` 或 `to: service: lightwalletd`）：仅集群 DNS（`zebra:8232`）。没有公共 URI。
+
+**专用 IP**（SDL 中的 `endpoints` / `kind: ip`）是**高级附加项**。它们可以固定一个公共 IP，有时还能固定该 IP 上的 `as` 端口。这些模板**不会**请求此项。如果你想要稳定的 `host:8233`，可以之后自行添加；但要预计会产生额外费用，而且可竞价的提供商会更少。
+
+### 使用哪个网站（支付）
+
+SDL 保持不变。两个 Akash Web UI 的**付款方式**不同。
+
+| 网站 | 支付方式 | 钱包 |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | 传统网页结账（Console 提供的银行卡 / 法币渠道） | Console 账户 |
+| [air.akash.network](https://air.akash.network) | 原生 Akash 链支付（AKT / ACT） | **Keplr** |
+
+如果你想用 Keplr 进行链上支付，请使用 **Air**。如果你想采用传统的网页支付流程，请使用 **Console**。不要指望在 Console 上以 Keplr 进行原生结算。
 
 ### 前置条件
 
-1. 已安装 **Keplr Wallet** 浏览器扩展程序（Chrome/Brave/Firefox）
-2. **AKT 代币** - 从交易所获取 50-100 AKT（Coinbase、Kraken、Osmosis）
-3. 用 **5 分钟** 操作 Console UI
+**如果你在 Console（网页结账）中支付**
 
-#### 第 1 步：连接你的钱包
+1. [console.akash.network](https://console.akash.network) 处的 Console 账户
+2. Console UI 接受的支付方式
+3. 在 UI 中操作几分钟
+
+**如果你在 Air 上支付（原生 Akash / Keplr）**
+
+1. **Keplr** 浏览器扩展（Chrome/Brave/Firefox）
+2. 在 Keplr 中使用 **AKT / ACT** 支付押金和租赁费用（从交易所或 IBC 获取）
+3. 打开 [air.akash.network](https://air.akash.network)
+
+#### 第 1 步：连接
+
+**控制台（网页支付）**
 
 -> 前往 [https://console.akash.network](https://console.akash.network)
 
--> 点击右上角的 **"连接钱包"**
+-> 登录 / 完成 Console 账户流程
 
--> 选择 **Keplr**（或你偏好的 Cosmos 钱包）
+使用界面显示的结账方式（而不是链上 Keplr）
 
--> 当 Keplr 弹出时批准连接
+**Air（原生 Akash 支付）**
 
+-> 转到 [https://air.akash.network](https://air.akash.network)
 
-你的 AKT 余额应显示在右上角。如果为零，请先为你的钱包充值。
+-> 点击 **"连接钱包"**
+
+-> 选择 **Keplr** 并批准连接
+
+-> 确认你的 AKT/ACT 余额足以支付存款和租赁费用
 
 #### 第 2 步：创建部署
 
--> 点击 **"部署"** 按钮（页面中央的大蓝色按钮）
+-> 点击 **"部署"**
 
 -> 选择 **"构建你的模板"**（或直接跳至上传 SDL）
 
 
 ##### 选项 A：上传 SDL 文件（推荐）
 
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Web 支付（控制台）**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**使用 Keplr（Air）进行原生 Akash 支付**
+
+[在 Air 上打开此模板](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### 选项 B：使用 SDL 编辑器
 
@@ -79,13 +117,13 @@
 
 #### 第 3 步：审核并批准押金
 
-Console 将向你显示：
+界面会显示：
 
 -> **部署押金**：约 5 AKT（关闭部署时会返还给你）
 
 -> **预估成本**：基于你的 SDL 定价
 
-点击 **"批准"**，并在 Keplr 中签署交易。
+在 **Air** 上，点击 **""批准""** 并在 **Keplr** 中登录。在 **Console** 上，完成 UI 显示的网页结账流程。
 
 #### 第 4 步：选择提供商
 
@@ -107,7 +145,7 @@ Console 将向你显示：
 -> 已审计状态（绿色勾选标记 = 更值得信赖）
 
 
-在你选择的提供商上点击 **"接受出价"**，并在 Keplr 中签名。
+在选定的服务提供商处点击 **"接受竞价"**。在 Air 上，登录 Keplr。在 Console 上，通过网页支付流程确认。
 
 #### 第 5 步：等待部署
 
@@ -158,15 +196,14 @@ Starting initial sync...
 
 你将看到类似以下内容：
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-这是你节点的**公共 P2P 端点**。其他 Zcash 节点将通过此地址连接到你。
+每一行都是一个 `global: true` 暴露。名称中包含 SDL `as` 端口（8233、9067）。主机名后的数字是**提供商映射的端口**，在租用时分配。其他 Zcash 节点会连接 `provider-hostname.com:31482`。轻量钱包使用 lightwalletd URI（除非你自行终止 TLS，否则关闭 TLS）。
 
-**请注意端口映射：** 你在 SDL 中配置了端口 8233，但 Akash 将其分配到不同的公共端口（本例中为 31234）。这是正常的——如果这让你感到困惑，请参阅顶部的 "Akash 上的端口映射" 部分。你的节点可通过 Akash 在此处显示的任何端口访问，不一定是 8233。
-
-如果你启用了 RPC（默认在 SDL 中被注释掉），你也会在此处看到具有自己映射端口的 RPC 端点。
+容器仍在监听 8233 / 9067。公共地址始终是 URI，除非你之后添加专用 IP（此模板中未包含）。
 
 ### 配置选项
 
@@ -267,7 +304,7 @@ SDL 默认使用主网。要改用测试网：
 
 **警告**：如果你为 RPC 设置 *global: true*，你会将它暴露到互联网。Zebra 默认使用 cookie 身份验证，但仍然——除非你清楚自己在做什么，否则不要这样做。
 
-**端口映射提醒**：即使你全局暴露 RPC，Akash 也会将它映射到一个随机高位端口（不是 8232/18232）。请检查部署中的 URI 以查看实际公共端点。对于 *global: false*（推荐），RPC 端点只能在 Akash 部署网络内访问，无法从公共互联网访问。
+如果你通过 `global: true` 暴露 RPC，公共地址仍然是 **租赁 URI**（`host:&lt;random-high-port&gt;`），而不是 `host:8232`。使用 `global: false`（此模板）时，RPC 仍位于部署网络上（对于 lightwalletd，为 `zebra:8232`）。专用 IP 租赁是单独付费的选项，不包含在 SDL 中。
 
 #### 启用指标（Prometheus）
 
@@ -319,7 +356,7 @@ SDL 默认使用主网。要改用测试网：
 
 -> 编辑 SDL
 
--> 点击 **"更新"**，并在 Keplr 中批准
+-> 点击**"Update"**（Air：登录 Keplr；Console：确认网页支付流程）
 
 **注意**：更新将重启你的容器。节点将从其保存的状态（持久化存储）恢复，但预计会有 1-2 分钟的停机时间。
 
@@ -348,7 +385,7 @@ SDL 默认使用主网。要改用测试网：
 
 -> 点击 **"关闭部署"**
 
--> 在 Keplr 中确认并签名
+-> 确认（Air：登录 Keplr；Console：在 Console UI 中确认）
 
 你的 5 AKT 押金将被退还。**持久化存储**应由提供商保留，但不要依赖它——把它当作任何其他云提供商一样对待。
 
@@ -356,7 +393,7 @@ SDL 默认使用主网。要改用测试网：
 
 #### "资金不足"错误
 
-你需要更多 AKT。为你的 Keplr 钱包充值。
+在 Air 上，用 AKT/ACT 为 Keplr 充值。在 Console 上，为 Console 支付方式充值。
 
 #### 没有显示出价
 
@@ -394,12 +431,11 @@ SDL 默认使用主网。要改用测试网：
 
 ### 成本管理
 
-在 Console 中监控你的支出：
+在 Console 或 Air 中监控你的支出:
 
 -> **我的部署** -> 你的部署 -> 显示 "每月成本" 估算
 
--> 你的 Keplr 钱包余额会随时间减少
-
+-> Air：你的 Keplr AKT/ACT 余额会随时间减少。Console：你的 Console 支付余额会减少。
 
 当你的余额不足时，Akash 将自动关闭你的部署。请**定期为你的钱包充值**或设置提醒。
 
@@ -433,7 +469,9 @@ SDL 默认使用主网。要改用测试网：
 
 ### 其他资源
 
-**Akash Console**：[https://console.akash.network](https://console.akash.network)
+**Akash Console**（网络支付）：[https://console.akash.network](https://console.akash.network)
+
+**Akash Air**（原生 AKT/ACT + Keplr）：[https://air.akash.network](https://air.akash.network)
 
 **Akash 文档**：[https://akash.network/docs/](https://akash.network/docs/)
 

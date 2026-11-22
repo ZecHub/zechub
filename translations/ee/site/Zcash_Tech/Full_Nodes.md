@@ -94,7 +94,7 @@ Ne nàwɔ ɣaɣla dzesi ŋɔŋlɔ blibo ƒe dɔ la, èle kpekpeɖeŋu nam be zca
 
 Esia kpea ɖe ŋutilã ƒe nuɖoɖo ƒe seɖeɖe ŋu eye wòna network la nɔa anyi sesĩe ɖe nu tsɔtsɔ ƒe mɔ aɖewo ŋu.
 
-DNS seeders ɖea ɣaɣla dzesi ŋɔŋlɔ siwo wɔnɛ nyuie bubuwo ƒe xexlẽ fia to server si le eme xoxo. Esia naa gaɖoɖowo ŋutɔ trɔ yi network la katã me.
+DNS seeders ɖea ɣaɣla dzesi ŋɔŋlɔ siwo wɔnɛ nyuie bubuwo ƒe xexlẽ fia to server si le eme xoxo. Esia naa gaɖoɖowo ŋutɔ trɔ yi network la katã me. Zcash Foundation ƒe seeders zã [Zeeder](https://github.com/ZcashFoundation/zeeder), DNS seeder si wowɔ ɖe Rust me, eye esi xɔ eƒe dnsseeder si wotu ɖe CoreDNS dzi teƒe. Wode eƒe images ɖe eme abe `zfnd/zeeder` ene; wole `zfnd/dnsseeder` ŋkɔ xoxo la gblẽm.
 
 ### Network Ƒe Statistikwo
 
@@ -102,7 +102,7 @@ Esiawo nye platform ƒe kpɔɖeŋuwo siwo naa mɔ na Zcash Network ƒe data:
 
 [Zcash Gaɖoɖowo ƒuƒoƒe ƒe Kpɔla](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics ƒe kadodonu ŋuti nyatakakawo](https://docs.coinmetrics.io/network-data/network-data-overview) — Dzidzenuwo ŋuti nuŋlɔɖiwo kple kadodowo yi nunɔamesi siwo ŋu wole fifia gbɔ.
 
 Àte ŋu akpe ɖe network la ƒe ŋgɔyiyi ŋu hã to testwo ƒe dɔwɔwɔ alo nyonyo yeyeawo ƒe ɖeɖegbe kple metrics ƒe nana me.
 
@@ -136,6 +136,7 @@ Esia hã naa mɔ be zazãla bubuwo nakplɔ ɖe wò ɣaɣla dzesi ŋɔŋlɔ ƒe .
 - [Zakura Ɣaɣla dzesi ŋɔŋlɔ](/zcash-tech/zakura-node) - ɣaɣla dzesi ŋɔŋlɔ ƒe dɔwɔwɔ evelia, si wotso tso Zebra me
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) - serverwo siwo light gakotokuwo bia nu tso
 - [Zaino](/zcash-tech/zaino) - Rust indexer si subɔa light gakotokuwo
+- [Zinder](/zcash-tech/zinder) - Zcash Foundation ƒe alpha indexer na Zebra kple Zakura
 - [Zcash Gakotoku ƒe Syncing](/zcash-tech/zcash-wallet-syncing) - nu si ta syncing wɔa dɔ ale
 
 ## Nusɔsrɔ̃ Kpeɖeŋu

@@ -1,6 +1,6 @@
 # How to run Zebra on Akash Network
 
-Step-by-step guide for deploying a Zebra Zcash full node using [Akash Console](https://console.akash.network).
+Step-by-step guide for deploying a Zebra Zcash full node on Akash.
 
 ### What You're Deploying
 
@@ -14,55 +14,93 @@ A full Zebra node that will:
 
 -> Use 4 vCPUs, 16GB RAM, 350GB storage (mainnet) or 2 vCPUs, 8GB RAM, 50GB (testnet)
 
+The awesome-akash template now pins **Zebra 7.0.0** (never `:latest`). It enables Prometheus (`9999`) and health (`8080`) internally, JSON-RPC internally for a colocated **lightwalletd** on gRPC **9067**, and feature flags `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`.
 
-### Important: Port Mapping on Akash
-
-When you expose a port on Akash (e.g., port 8233 for Zebra P2P), it **does NOT bind to that exact port** on the provider's public IP. Instead, the provider assigns a random high port (like 31234 or 42567) and reverse-proxies it to your container's port 8233.
-
-This is by design - providers run multiple deployments, and they'd have conflicts if everyone tried to use port 8233 directly.
-
-**What this means for you:**
-
--> You configure port 8233 in the SDL (Zebra's standard P2P port)
-
--> Akash gives you a URI like *provider.com:31234*
-
--> Other Zcash nodes connect to you at *provider.com:31234*
-
--> Inside your container, Zebra still listens on 8233
+For a faster pruned Mainnet node, see [How to run Zakura on Akash](/guides/akash-network-zakura). For a disposable Regtest dashboard, see [Thus Spoke Zakura on Akash](/guides/thus-spoke-zakura-akash).
 
 
-This is handled automatically. Just use the URI that Akash gives you.
+### How Akash publishes ports
+
+The numbers in the SDL (`port` / `as`) are **container ports**. Zebra still listens on **8233**, lightwalletd on **9067**, health on **8080**. Those numbers are for the process and for other services in the same deployment (`zebra:8232`).
+
+They are **not** the ports on the provider's public IP.
+
+**Default (this template):** no dedicated IP. For each `global: true` TCP expose, the provider maps a **random high port** on a shared host to your container port. After the lease is up, Console/Air **Leases → URIs** lists the real endpoints, for example:
+
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
+
+Peers and wallets use **those** host:port values. Copy the URI for the expose you care about (P2P vs lightwalletd). If you set `ZEBRA_NETWORK__EXTERNAL_ADDR`, set it to the mapped P2P URI (`provider.example:31482`), not `…:8233`.
+
+**HTTP** (`as: 80` with `http_options`, used on the Thus Spoke dashboard): many providers publish an **ingress hostname** (often on 80/443) instead of a random TCP port. Open the URI for that service in a browser.
+
+**Internal** (`global: false` or `to: service: lightwalletd`): cluster DNS only (`zebra:8232`). No public URI.
+
+**Dedicated IPs** (`endpoints` / `kind: ip` in the SDL) are a **premium extra**. They can pin a public IP and sometimes the `as` port on that IP. These templates do **not** request one. Add that yourself later if you want a stable `host:8233`; expect extra cost and fewer bidding providers.
+
+### Which site to use (payments)
+
+The SDL is the same. The two Akash web UIs differ in **how you pay**.
+
+| Site | Payments | Wallet |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Traditional web checkout (card / fiat rails Console offers) | Console account |
+| [air.akash.network](https://air.akash.network) | Native Akash chain payments (AKT / ACT) | **Keplr** |
+
+Use **Air** when you want to pay with Keplr on-chain. Use **Console** when you want a conventional web payment flow. Do not expect Keplr native settlement on Console.
 
 ### Prerequisites
 
-1. **Keplr Wallet** browser extension installed (Chrome/Brave/Firefox)
-2. **AKT tokens** - Get 50-100 AKT from an exchange (Coinbase, Kraken, Osmosis)
-3. **5 minutes** to click through the Console UI
+**If you pay on Console (web checkout)**
 
-#### Step 1: Connect Your Wallet
+1. A Console account at [console.akash.network](https://console.akash.network)
+2. A payment method the Console UI accepts
+3. A few minutes in the UI
+
+**If you pay on Air (native Akash / Keplr)**
+
+1. **Keplr** browser extension (Chrome/Brave/Firefox)
+2. **AKT / ACT** in Keplr for the deposit and lease (from an exchange or IBC)
+3. Open [air.akash.network](https://air.akash.network)
+
+#### Step 1: Connect
+
+**Console (web payments)**
 
 -> Go to [https://console.akash.network](https://console.akash.network)
 
--> Click **"Connect Wallet"** in the top right
+-> Sign in / complete the Console account flow
 
--> Choose **Keplr** (or your preferred Cosmos wallet)
+-> Use the checkout the UI presents (not Keplr on-chain)
 
--> Approve the connection when Keplr pops up
+**Air (native Akash payments)**
 
+-> Go to [https://air.akash.network](https://air.akash.network)
 
-Your AKT balance should appear in the top right. If it's zero, go fund your wallet first.
+-> Click **"Connect Wallet"**
+
+-> Choose **Keplr** and approve the connection
+
+-> Confirm your AKT/ACT balance is enough for deposit plus the lease
 
 #### Step 2: Create Deployment
 
--> Click **"Deploy"** button (big blue button, center of page)
+-> Click **"Deploy"**
 
 -> Choose **"Build your template"** (or skip directly to uploading SDL)
 
 
 ##### Option A: Upload SDL File (Recommended)
 
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Web payments (Console)**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**Native Akash payments with Keplr (Air)**
+
+[Open this template on Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Option B: Use SDL Editor
 
@@ -79,13 +117,13 @@ If you want to manually paste [the SDL](https://github.com/akash-network/awesome
 
 #### Step 3: Review and Approve Deposit
 
-The Console will show you:
+The UI will show you:
 
 -> **Deployment deposit**: ~5 AKT (you get this back when you close the deployment)
 
 -> **Estimated cost**: Based on your SDL pricing
 
-Click **"Approve"** and sign the transaction in Keplr.
+On **Air**, click **"Approve"** and sign in **Keplr**. On **Console**, complete the web checkout the UI presents.
 
 #### Step 4: Choose a Provider
 
@@ -107,7 +145,7 @@ After ~ 30 seconds, you'll see bids from providers. Each bid shows:
 -> Audited status (green checkmark = more trustworthy)
 
 
-Click **"Accept Bid"** on your chosen provider and sign in Keplr.
+Click **"Accept Bid"** on your chosen provider. On Air, sign in Keplr. On Console, confirm with the web payment flow.
 
 #### Step 5: Wait for Deployment
 
@@ -158,15 +196,14 @@ Click on the **Leases** tab, then **URIs**.
 
 You'll see something like:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-This is your node's **public P2P endpoint**. Other Zcash nodes will connect to you at this address.
+Each line is one `global: true` expose. The name includes the SDL `as` port (8233, 9067). The number after the hostname is the **provider's mapped port**, assigned at lease time. Other Zcash nodes dial `provider-hostname.com:31482`. Compact wallets use the lightwalletd URI (TLS off unless you terminate TLS yourself).
 
-**Note the port mapping:** You configured port 8233 in the SDL, but Akash assigned it to a different public port (31234 in this example). This is normal - see the "Port Mapping on Akash" section at the top if this confuses you. Your node is accessible at whatever port Akash shows here, not necessarily 8233.
-
-If you enabled RPC (commented out by default in the SDL), you'll also see the RPC endpoint here with its own mapped port.
+The container is still listening on 8233 / 9067. The public address is always the URI, unless you later add a dedicated IP (not in this template).
 
 ### Configuration Options
 
@@ -267,7 +304,7 @@ RPC is disabled by default for security. To enable it:
 
 **Warning**: If you set *global: true* for RPC, you're exposing it to the internet. Zebra uses cookie auth by default, but still - don't do this unless you know what you're doing.
 
-**Port mapping reminder**: Even if you expose RPC globally, Akash will map it to a random high port (not 8232/18232). Check the URIs in your deployment to see the actual public endpoint. For *global: false* (recommended), the RPC endpoint is only accessible within the Akash deployment network, not from the public internet.
+If you expose RPC with `global: true`, the public address is still a **lease URI** (`host:&lt;random-high-port&gt;`), not `host:8232`. With `global: false` (this template), RPC stays on the deployment network (`zebra:8232` for lightwalletd). Dedicated IP leases are a separate paid option and are not in the SDL.
 
 #### Enable Metrics (Prometheus)
 
@@ -319,7 +356,7 @@ Need to change configuration after deploying?
 
 -> Edit the SDL
 
--> Click **"Update"** and approve in Keplr
+-> Click **"Update"** (Air: sign in Keplr; Console: confirm the web payment flow)
 
 **Note**: Updating will restart your container. The node will resume from its saved state (persistent storage), but expect 1-2 minutes of downtime.
 
@@ -348,7 +385,7 @@ When you're done or want to stop paying:
 
 -> Click **"Close Deployment"**
 
--> Confirm and sign in Keplr
+-> Confirm (Air: sign in Keplr; Console: confirm in the Console UI)
 
 Your 5 AKT deposit will be refunded. **Persistent storage** should be preserved by the provider, but don't rely on it - treat it like any other cloud provider.
 
@@ -356,7 +393,7 @@ Your 5 AKT deposit will be refunded. **Persistent storage** should be preserved 
 
 #### "Insufficient funds" error
 
-You need more AKT. Fund your Keplr wallet.
+On Air, fund Keplr with AKT/ACT. On Console, top up the Console payment method.
 
 #### No bids showing up
 
@@ -394,11 +431,11 @@ Define "forever":
 
 ### Cost Management
 
-Monitor your spending in the Console:
+Monitor your spending in Console or Air:
 
 -> **My Deployments** -> Your deployment -> Shows "Cost per month" estimate
 
--> Your Keplr wallet balance will decrease over time
+-> Air: your Keplr AKT/ACT balance decreases over time. Console: your Console payment balance decreases.
 
 
 When your balance runs low, Akash will auto-close your deployment. **Top up your wallet periodically** or set up alerts.
@@ -433,7 +470,9 @@ Start with Testnet if you're just testing the deployment process. See "Switching
 
 ### Additional Resources
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Akash Console** (web payments): [https://console.akash.network](https://console.akash.network)
+
+**Akash Air** (native AKT/ACT + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 

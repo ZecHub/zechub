@@ -55,10 +55,10 @@ Kama ilivyoelezwa katika sehemu ya mbinu bora, inashauriwa kutumia mwongozo rasm
 
 **Usakinishaji Unaotegemea Web USB** Ili kusakinisha GrapheneOS kwa kutumia mbinu ya kisakinishi cha wavuti, kwa kawaida utahitaji vifaa na rasilimali zifuatazo:
 
-- 2GB ya kumbukumbu huru na 32GB ya nafasi huru ya hifadhi.
+- 2GB ya kumbukumbu inayopatikana na 32GB ya nafasi ya hifadhi inayopatikana.
 - Kebo ya USB (A au C)
-- Mfumo wa uendeshaji unaotumika: Windows 10, Windows 11, macOS Big Sur (11 - 13), Arch Linux, Debian (10 - 12), Ubuntu (22.04, 22.10 na 23.04), ChromeOS, GrapheneOS, Google Android (Pixel OS ya kawaida)
-- Vivinjari vinavyotumika: Chromium (haitumiki kwenye Ubuntu), Vanadium (GrapheneOS), Google Chrome, Microsoft Edge, kivinjari cha Brave.
+- Tumia mfumo wa uendeshaji wa mwenyeji unaotumika na kivinjari chenye uwezo unaofanya kazi wa WebUSB. Angalia [mahitaji rasmi ya awali ya sasa ya WebUSB](https://grapheneos.org/install/web#prerequisites) kwa matoleo yanayotumika na vikwazo vya upakiaji wa kivinjari; mifumo ya zamani iliyofikia mwisho wa muda wake wa matumizi haiungwi mkono rasmi.
+- Kisakinishi cha wavuti kinaweza pia kuendeshwa kutoka kwenye kifaa kinachotumika cha Android, ChromeOS au GrapheneOS. Fuata maelezo mahususi ya kivinjari katika mwongozo rasmi badala ya kudhani kuwa kila kifurushi cha Chromium kinatumia WebUSB.
 
 Tazama mwongozo wa usakinishaji kupitia kiungo kilicho hapa chini na ufuate mchakato wa usakinishaji
 
@@ -68,8 +68,8 @@ Tazama mwongozo wa usakinishaji kupitia kiungo kilicho hapa chini na ufuate mcha
 
 - Unapaswa kuwa na angalau 2GB ya kumbukumbu huru na 32GB ya nafasi huru ya hifadhi
 - Kebo ya USB (A au C)
-- Mfumo wa uendeshaji unaotumika Windows 10 Windows 11 macOS Big Sur (11) macOS Monterey (12) macOS Ventura (13) Arch Linux Debian 10 (buster) Debian 11 (bullseye) Debian 12 (bookworm) Ubuntu 20.04 LTS Ubuntu 22.04 LTS Ubuntu 22.10 Ubuntu 23.04
-- Kisakinishi cha wavuti kutoka Android, ChromeOS au GrapheneOS
+- Tumia mfumo wa uendeshaji unaopangisha unaotumika na [mahitaji ya awali ya sasa ya mstari wa amri](https://grapheneos.org/install/cli#prerequisites), na fuata mwongozo huo kwa vifaa vinavyohitajika.
+- Wapangishaji wa Android, ChromeOS na GrapheneOS wanapaswa kutumia kisakinishi cha wavuti; hawajaorodheshwa kama wapangishaji wanaotumika kwa usakinishaji wa mstari wa amri.
 
 Tazama mwongozo wa usakinishaji kupitia kiungo kilicho hapa chini na ufuate mchakato wa usakinishaji 
 
@@ -89,7 +89,7 @@ Tazama mwongozo wa usakinishaji kupitia kiungo kilicho hapa chini na ufuate mcha
 
 **Skrini Salama ya Kufunga** Tumia skrini salama ya kufunga, kama vile PIN, nywila, au uthibitishaji wa kibayometriki, ili kuzuia ufikiaji usioidhinishwa.
 
-**Epuka Kuweka Root Kifaa Chako cha Android** Epuka kuweka root au kufungua bootloader, kwa kuwa hali hii inaweza kudhoofisha usalama wa kifaa.
+**Funga Upya Bootloader Baada ya Usakinishaji** Mchakato rasmi wa usakinishaji unahitaji [kufungua bootloader kwa muda](https://grapheneos.org/install/web#unlocking-the-bootloader) ili kusakinisha GrapheneOS, kisha [kuifunga tena kabla ya matumizi](https://grapheneos.org/install/web#locking-the-bootloader) ili kuwezesha boot iliyothibitishwa kikamilifu. Kufungua na kufunga tena kila kimoja hufuta data yote ya mtumiaji, kwa hivyo hifadhi nakala kwanza na ufuate hatua rasmi kwa mpangilio. Usifanye root mfumo wa uendeshaji uliosakinishwa.
 
 **Thibitisha Vyanzo vya Programu** Thibitisha uhalisi wa programu na vyanzo vyake ili kuepuka kusakinisha programu hasidi.
 

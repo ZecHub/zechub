@@ -43,10 +43,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Використовуйте Zebra 7.0.0 або новішу версію: NU7 активовано в Mainnet на блоці 3,543,405, а старіші версії `zebrad` не можуть відстежувати ланцюг вище цього блоку ([примітки до випуску](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *необов’язково* (створіть screen-сесію для zebrad)
 
 ```

@@ -228,7 +228,7 @@ La mappa mondiale dell'esploratore di nodi si popolerà con i dati del file. Ved
 
 
 ----------------
-CONSIGLI! 
+CONSIGLI![Schermata di verifica in 2 passaggi]
 
 Puoi impostare il crawler su una scansione a tempo semplicemente con il comando 'timeout', che emetterà uno specifico comando di terminazione dopo un determinato lasso di tempo. Esegui 'timeout --help' per maggiori informazioni.
 Il seguente comando avvierà e arresterà automaticamente il crawler dopo 50 minuti.
@@ -239,11 +239,11 @@ timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- -
 ```
 
 ----------------
-CONSIGLI! 
+CONSIGLI![Schermata di verifica in 2 passaggi]
 
 Il 'latest.json' può essere richiamato e scritto direttamente in '/testdata' così da non doverlo copiare e incollare manualmente.
 
 ----------------
-CONSIGLI! 
+CONSIGLI![Schermata di verifica in 2 passaggi]
 
-Le informazioni sugli indirizzi IP possono essere raccolte dall'output e poi usate per ri-inizializzare (reseed) il crawler all'avvio (--seed-addrs). Questo ridurrà il tempo necessario per condurre una scansione completa! 
+Le informazioni sugli indirizzi IP possono essere raccolte dall'output e poi usate per ri-inizializzare (reseed) il crawler all'avvio (--seed-addrs). Questo ridurrà il tempo necessario per condurre una scansione completa![Schermata di verifica in 2 passaggi]

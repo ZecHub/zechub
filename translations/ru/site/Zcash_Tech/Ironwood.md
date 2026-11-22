@@ -135,4 +135,4 @@ NU6.2 обеспечил безопасность схемы Orchard для вс
 
 ---
 
-Серия: [Указатель обновлений сети](../start-here/network-upgrades) · Предыдущее: [NU6.2](../zcash-tech/nu6-2)
+Серия: [Указатель обновлений сети](../start-here/network-upgrades) · Предыдущее: [NU6.2](../zcash-tech/nu6-2) · Следующее: [NU7](../zcash-tech/nu7)

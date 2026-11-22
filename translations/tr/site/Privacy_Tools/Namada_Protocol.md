@@ -38,11 +38,11 @@ Namada'da shielded set, dışlayıcı olmayan ve rekabet karşıtı bir kamusal 
 
 ## Shielded Varlık İşlemi
 
-Shielded transferler söz konusu olduğunda, ister bir Ethereum non-fungible token (NFT), ister ATOM, ister NAM olsun, bunlar birbirinden ayırt edilemez. Bu, Zcash Sapling devresinin geliştirilmiş bir sürümü olan MASP (Modified Accumulator Sapling Protocol) tarafından sağlanan gizliliği koruyan özelliklerin tüm varlık türlerine eşit şekilde uygulandığı anlamına gelir. MASP devresi, Namada ekosistemi içindeki tüm varlıkların aynı shielded set'i paylaşmasını sağlar. Bu yaklaşım, gizlilik güvencelerinin tek tek varlıklar arasında parçalanmamasını garanti eder. Belirli bir varlıkla ilişkili işlem hacmi ne olursa olsun, gizlilik koruması tutarlı ve bağımsız kalır.
+MASP ([Multi-Asset Shielded Pool](https://docs.namada.net/users/shielded-accounts)), yerel ve yerel olmayan varlıkların shielded transferlerini desteklemek için Zcash'in Sapling devresini genişletir. Bir havuzu paylaşmak, gizliliğin bir varlığın kullanımından bağımsız olduğu anlamına gelmez. Namada dokümantasyonu, aynı türdeki varlıkların bir anonimlik kümesini paylaştığını ve herkese açık shielding ve unshielding örüntülerinin yine de bir varlığın kökenini ortaya çıkarabileceğini açıklar.
 
 ![Shielded Varlık İşlemi Diyagramı](/content-images/image-1-512c639d56.webp)
 
-Farklı varlıklar arasında shielded set'i birleştirerek Namada, shielded bir transfere dahil olan belirli varlık türünden bağımsız olarak gizliliğin eşit biçimde korunmasını sağlar. Bu yaklaşım, protokol içinde bütüncül bir gizlilik çerçevesini teşvik eder ve Ethereum NFT'leri, ATOM, NAM ve diğer desteklenen varlıkları içeren işlemlerin gizliliğini artırır. Namada ayrıca, yeni zk-SNARKs kullanarak fungible ve non-fungible tokenların özel transferini mümkün kılar ve yerel ile yerel olmayan tokenlar için tıpkı Zcash'te yapıldığı gibi gizlilik sağlar.
+Örneğin, yalnızca bir hesap BTC'yi shield eder ve daha sonra aynı hesaba geri çekerse, fonlar MASP içinde gizli olarak hareket etmiş olsa bile bu herkese açık giriş ve çıkış noktaları birbirine bağlanabilir. Daha fazla hesap BTC'yi shield ettiğinde ise sonraki bir çekim, bu hesapların herhangi birine ait olabilir. Belirleyici olan, ilgili katılım ve işlem örüntüsüdür; ortak havuzun büyüklüğü tek başına her varlık için aynı düzeyde gizliliği garanti etmez.
 
 ## Daha Düşük Ücretler ve Hızlı İşlemler
 

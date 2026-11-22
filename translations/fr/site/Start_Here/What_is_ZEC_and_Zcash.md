@@ -1,46 +1,46 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/What_is_ZEC_and_Zcash.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Les bases de Zcash
 
-## TL;DR
+## En bref
 
 - **ZEC** est une monnaie numérique axée sur la confidentialité, construite sur la blockchain Zcash
-- Contrairement à Bitcoin, ZEC prend en charge des **transactions protégées (privées)** entièrement protégées grâce aux preuves à divulgation nulle de connaissance
-- Vous contrôlez votre confidentialité financière : choisissez ce que vous souhaitez révéler, et à qui
-- Zcash est open-source, sans permission et décentralisé
+- Contrairement au Bitcoin, ZEC prend en charge des **transactions entièrement protégées (privées)** grâce à des preuves à divulgation nulle de connaissance
+- Vous maîtrisez la confidentialité de vos finances : vous choisissez ce que vous révélez, et à qui
+- Zcash est open source, sans permission et décentralisé
 
 ---
 
-## Qu’est-ce que ZEC ?
+## Qu'est-ce que ZEC ?
 
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/J1Nr1VL5dGU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 
-ZEC est une monnaie numérique basée sur la blockchain Zcash. C’est l’approximation la plus proche de l’argent liquide sur le web. Bien qu’elle partage de nombreuses caractéristiques similaires à Bitcoin, elle résout le plus grand défaut de Bitcoin en permettant aux utilisateurs d’effectuer des transactions monétaires entièrement privées.
+ZEC est une monnaie numérique basée sur la blockchain Zcash. C'est ce qui se rapproche le plus de l'argent liquide sur le Web. Bien qu'elle partage de nombreuses caractéristiques avec le Bitcoin, elle corrige le plus grand défaut du Bitcoin en permettant aux utilisateurs d'effectuer des transactions monétaires entièrement privées.
 
 #### Pourquoi une monnaie privée est-elle importante ?
 
-ZEC donne aux gens la possibilité de transférer des données sans permission. Disposer d’un système monétaire pair à pair et sans permission permet aux individus de stocker de la valeur ou de faire des transactions avec d’autres, indépendamment d’entités centralisées. ZEC permet aux gens de choisir quand ils souhaitent divulguer à d’autres des informations sur leurs finances.
+ZEC offre aux gens la possibilité de transférer des données sans permission. Disposer d'un système monétaire pair-à-pair et sans permission permet aux gens de conserver de la valeur ou d'effectuer des transactions avec d'autres, indépendamment des entités centralisées. ZEC permet à chacun de choisir quand divulguer des informations sur ses finances à d'autres personnes.
 
 #### Ressources
 
-[Les arguments en faveur de Zcash et de la confidentialité](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
+[Le cas de Zcash et la confidentialité](https://www.zcashzeal.org/blog/the-case-for-zcash-amp-privacy)
 
 [Un écosystème protégé](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
 [Recommandations de confidentialité de Zcash](https://z.cash/support/security/privacy-security-recommendations/)
 
-## Qu’est-ce que Zcash ?
+## Qu'est-ce que Zcash ?
 
-Zcash est une implémentation du protocole « Zerocash ». C’est un registre open-source basé sur la blockchain, qui intègre un système sophistiqué de preuves à divulgation nulle de connaissance. Basé sur le code de Bitcoin, il se spécialise dans l’offre d’un niveau de confidentialité plus élevé grâce à son système de preuve, qui préserve la confidentialité des [métadonnées de transaction](https://nym.com/blog/what-is-metadata). Au fond, Zcash repose sur la propriété privée des données, transférée sans permission lors des transactions. 
+Zcash est une implémentation du protocole « Zerocash ». Il s'agit d'un registre open source basé sur une blockchain, doté d'un système de preuves à divulgation nulle de connaissance sophistiqué. Fondé sur le code du Bitcoin, il se distingue par un niveau de confidentialité plus élevé, grâce à son système de preuves qui préserve la confidentialité des [métadonnées des transactions](https://nym.com/blog/what-is-metadata). Fondamentalement, Zcash est une propriété privée des données, transférée sans permission lors des transactions.
 
 #### Pourquoi est-ce important ?
 
-Zcash résout le plus grand défaut de Bitcoin : la propriété privée et le transfert privé des données. Dans un monde où les applications blockchain et les cryptomonnaies sont de plus en plus largement acceptées, les transactions pseudonymes ne sont plus une option viable pour protéger la vie privée des utilisateurs. Les applications de surveillance sont de plus en plus utilisées pour analyser les transactions sur la blockchain.
+Zcash corrige le plus grand défaut du Bitcoin : la propriété et le transfert privés des données. Dans un monde où les applications blockchain et les cryptomonnaies sont de plus en plus largement acceptées, les transactions pseudonymes ne suffisent plus à protéger la confidentialité des utilisateurs. Les applications de surveillance servent de plus en plus à analyser les transactions sur la blockchain.
 
 <a href="">
     <img src="/content-images/Zcash-logo-1-26747e0dd3.webp" alt="" width="60" height="60"/>
@@ -50,14 +50,14 @@ Zcash résout le plus grand défaut de Bitcoin : la propriété privée et le tr
 
 [Les bases](https://z.cash/the-basics/)
 
-[Comment cela fonctionne](https://z.cash/technology/)
+[Comment ça marche](https://z.cash/technology/)
 
 ---
 
-## Pages associées
+## Pages connexes
 
-- [Guide des nouveaux utilisateurs](/start-here/new-user-guide) — Intégration étape par étape des nouveaux détenteurs de ZEC
+- [Guide du nouvel utilisateur](/start-here/new-user-guide) — Prise en main pas à pas pour les nouveaux détenteurs de ZEC
 - [Portefeuilles](/using-zcash/wallets) — Choisissez un portefeuille protégé pour conserver vos ZEC
 - [Acheter des ZEC](/using-zcash/buying-zec) — Où et comment acquérir des ZEC
-- [Pools protégés](/using-zcash/shielded-pools) — Comment les pools Zcash préservent la confidentialité des transactions
+- [Pools protégés](/using-zcash/shielded-pools) — Comment les pools de Zcash préservent la confidentialité des transactions
 - [zk-SNARKs](/zcash-tech/zk-snarks) — La cryptographie derrière la confidentialité de Zcash

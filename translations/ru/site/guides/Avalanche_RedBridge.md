@@ -13,8 +13,8 @@ RedBridge поддерживает широкий спектр сценарие�
 
 ### Технические компоненты
 
-**Децентрализованный оракул ZavaX**
-Описание: оракул ZavaX является ключевым элементом моста, предоставляя кроссчейн-ценовые потоки и обеспечивая конвертацию ZEC в AVAX без доверия.
+**Децентрализованный ZavaX Oracle**
+Описание: ZavaX Oracle имеет ключевое значение для моста, предоставляя кроссчейн-потоки цен и обеспечивая конвертацию ZEC в AVAX без доверия.
 [Ссылка на оракул](https://zavax-oracle.red.dev)
 
 **Контракт кроссчейн-моста**
@@ -25,20 +25,20 @@ RedBridge поддерживает широкий спектр сценарие�
 
 ## Результаты и документация
 
-**Эластичный Subnet-мост Zcash в Avalanche**: [Грантовая заявка](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/)
+**Эластичный Subnet-мост Zcash в Avalanche**: [Грантовая заявка](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Ниже приведены ключевые результаты и технические ресурсы, завершенные в рамках проекта Zcash Avalanche RedBridge:
 
-Результат 1.1: предварительный PoC, поддерживающий запрос тестнет-транзакций Zcash из тестового subnet Avalanche через CLI, опубликованный на GitHub и с одноузловым subnet в тестнете Avalanche. https://github.com/red-dev-inc/zavax-oracle
+Результат 1.1: предварительный PoC, поддерживающий запрос тестнет-транзакций Zcash из тестовой подсети Avalanche через CLI, опубликованный на GitHub и с подсетью из одного узла в тестнете Avalanche. https://github.com/red-dev-inc/redbridge-oracle
 
-Результат 2.1: [Архитектура](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Результат 2.1: [Архитектура](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
 ### Этап 3, 31 марта 2024
 
 Результат 3.1 завершен и представляет наш анализ перехода на FROST вместо BLS для пороговых подписей в мосте ZavaX. Этот переход использует прошедшие аудит библиотеки от Zcash Foundation и способствует лучшей интеграции и безопасности. https://github.com/ZcashFoundation/frost
 
-Результат 3.2 UX- и UI-дизайн для GUI завершен, с подробным описанием наших улучшений безопасности для subnet ZavaX Oracle, подтвержденных результатами тестирования на проникновение. Подробнее, включая конфигурацию сервера и результаты тестирования: [Оценка безопасности](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/deployment-notes.md)
-[Отчет об аудите](https://github.com/red-dev-inc/zavax-oracle/blob/main/security/pen-testing-report-2024-09.md)
+Результат 3.2: UX- и UI-дизайн для GUI завершен, с подробным описанием наших улучшений безопасности для подсети ZavaX Oracle, подтвержденных результатами тестирования на проникновение. Подробнее, включая конфигурацию сервера и результаты тестирования: [Оценка безопасности](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+[Отчет об аудите](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
 Кроме того, команда провела ребрендинг с ZavaX на redbridge и изменила свой токен стейкинга с ZAX на RBR.
 
 ### Этап 4, 30 апреля 2024
@@ -51,9 +51,9 @@ RedBridge поддерживает широкий спектр сценарие�
 Результат 6.1 Успешное прохождение аудита программного обеспечения
 Результат 6.2 Публикация прошедшего аудит исходного кода в публичном репозитории GitHub
 
-Взгляните на [репозиторий GitHub](https://github.com/red-dev-inc/zavax-bridge/tree/main/Architecture)
+Взгляните на [репозиторий GitHub](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
   
-Для получения дополнительных технических подробностей пользователям рекомендуется ознакомиться с репозиторием и документацией проекта RedBridge, чтобы [изучить](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/36243580/) особенности интеграции, фреймворки тестирования и протоколы безопасности.
+Для получения дополнительных технических подробностей пользователям рекомендуется ознакомиться с репозиторием и документацией проекта RedBridge, чтобы [изучить](https://github.com/red-dev-inc/red-bridge) особенности интеграции, фреймворки тестирования и протоколы безопасности.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)

@@ -12,6 +12,18 @@ NU6 adalah sebuah [network upgrade](../start-here/network-upgrades) Zcash dari [
 
 Mengapa ini penting. [Development Fund](../zcash-tech/canopy) milik Zcash dijadwalkan berakhir sekitar halving November 2024, yang kedua dalam sejarahnya. NU6 menjaga pendanaan tersebut tetap berjalan, tetapi alih-alih menyerahkan setiap koin kepada penerima tetap, ia menyisihkan sebagian di dalam protokol sehingga komunitas dapat memutuskan apa yang akan dilakukan dengannya nanti. Hal ini juga menutup celah akuntansi yang tidak terlihat, sehingga jumlah total ZEC yang akan pernah ada kini dapat diprediksi secara tepat.
 
+## TL;DR
+
+- NU6 diaktifkan di mainnet pada blok 2.726.400 (23 November 2024 UTC), diterapkan melalui ZIP 253.
+- Peningkatan ini mempertahankan aliran 20% dari subsidi blok untuk pengembangan setelah halving November 2024: 8% ke Zcash Community Grants (ZCG), 12% ke Deferred Dev Fund Lockbox yang baru (ZIP 2001).
+- Lockbox adalah cadangan di dalam protokol tanpa pembelanja yang ditetapkan — NU6 sengaja membiarkan tata kelolanya terbuka, dan NU6.1 (2025) kemudian menjawabnya.
+- ZIP 236 kini mewajibkan setiap transaksi coinbase seimbang secara tepat, sehingga penambang tidak lagi dapat mengklaim kurang dari semestinya dan secara tidak sengaja membakar ZEC; total pasokan di masa depan menjadi dapat diprediksi secara tepat.
+- Saldo, privasi, dan aturan transaksi tidak berubah: NU6 adalah peningkatan untuk pendanaan dan pembukuan.
+
+## Analogi visual
+
+Bayangkan NU6 sebagai sebuah rumah tangga yang selama ini membayar uang saku tetap kepada para pembangunnya dan tahu bahwa hari gajian dijadwalkan akan berakhir. Alih-alih menghentikan pembayaran, NU6 membagi uang saku tersebut: sebagian tetap diberikan kepada komite hibah komunitas, dan sebagian lagi dimasukkan ke dalam brankas keluarga yang kombinasinya belum diumumkan. Brankas tersebut menyimpan uang itu hingga rumah tangga tersebut kelak menyepakati aturan untuk membukanya, dan kesepakatan itu adalah NU6.1.
+
 ## Apa yang diubah oleh NU6
 
 NU6 terus mengirimkan 20% dari subsidi blok ke pendanaan pengembangan setelah halving November 2024, sebuah aturan yang ditetapkan dalam [ZIP 1015](https://zips.z.cash/zip-1015). Bagian 20% tersebut dibagi menjadi dua cara.
@@ -52,6 +64,14 @@ NU6 adalah satu bab dalam sebuah cerita yang lebih panjang tentang bagaimana Zca
 3. NU6.1 (2025) menjawab pertanyaan NU6 yang dibiarkan terbuka, mengenai siapa yang mengontrol dana cadangan tersebut, dengan melanjutkan 8% dari subsidi blok ke Zcash Community Grants dan mengarahkan 12% ke dalam dana yang dikendalikan oleh pemegang koin yang didanai oleh lockbox.
 
 ![How Zcash funding evolved: Canopy created the development fund, NU6 set up the lockbox, and NU6.1 set the rules for who controls it](/content-images/nu6-funding-timeline-2427db58c0.webp)
+
+## Kesalahan Umum
+
+- **Mengira NU6 mengubah kebijakan moneter.** Jadwal emisi dan waktu halving tidak diubah; NU6 mengubah siapa yang menerima sebagian dari subsidi, bukan berapa banyak ZEC baru yang diterbitkan.
+- **Mengira lockbox sama dengan dompet milik yayasan.** Deferred Dev Fund Lockbox adalah pool nilai rantai yang dilacak oleh konsensus, bukan alamat yang dananya dapat dibelanjakan oleh siapa pun.
+- **Menganggap NU6.1 dan NU6 adalah peningkatan jaringan yang sama.** NU6 membentuk cadangan tersebut; NU6.1 menetapkan siapa yang mengendalikannya, yaitu 8% untuk ZCG dan 12% untuk dana yang dikendalikan oleh pemegang koin.
+- **Percaya bahwa aturan saldo persis (ZIP 236) mengubah koin milik pengguna.** Aturan ini membatasi transaksi coinbase, yaitu pembayaran penerbitan per blok, bukan saldo yang sudah ada atau transaksi biasa.
+- **Menganggap porsi pengembangan 20% sebagai hal baru.** Pendanaan pengembangan sebesar 20% sudah ada sejak Canopy; NU6 melanjutkannya setelah halving dan membaginya menjadi 8% untuk ZCG dan 12% untuk lockbox.
 
 ## Glosarium
 
@@ -115,5 +135,14 @@ Dana Pengembangan [](../start-here/development-fund)
 [Apa itu ZEC dan Zcash](../start-here/what-is-zec-and-zcash)
 
 ---
+
+## Halaman Terkait
+
+| Halaman | Mengapa terkait |
+|---|---|
+| [Canopy](./Canopy.md) | membentuk dana pengembangan yang direstrukturisasi oleh NU6 |
+| [NU6.1](./NU6_1.md) | memutuskan siapa yang mengendalikan dana lockbox |
+| [NU6.2](./NU6_2.md) | peningkatan perbaikan darurat Orchard dalam seri yang sama |
+| [Dana Pengembangan](../start-here/development-fund) | sejarah pendanaan di balik porsi 20% |
 
 Seri: Indeks Peningkatan Jaringan [](../start-here/network-upgrades) · Sebelumnya: [NU5](../zcash-tech/nu5) · Berikutnya: [NU6.1](../zcash-tech/nu6-1)

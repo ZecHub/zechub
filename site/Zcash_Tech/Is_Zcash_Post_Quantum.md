@@ -71,7 +71,7 @@ What Ironwood did not change: the cryptography used for spending and proving tod
 
 **There is an exposure window.** From Ironwood's activation until the old protocols are switched off, a quantum attacker could still steal, inflate or block funds in every shielded pool. ZIP 2005 calls this the "critical exposure period" and warns that an attack during it could still hurt a holder's ability to recover later. That is why it says Zcash must switch off Orchard, Sapling and Sprout **before** quantum attacks become feasible.
 
-**The switch-off has no date, except for Sprout.** No ZIP schedules turning off Orchard or Sapling. Sprout is different: [ZIP 259](https://zips.z.cash/zip-0259) lists ZIP 2003 among the changes NU7 deploys, so version 4 transactions become invalid once NU7 activates and any ZEC left in the Sprout pool becomes unspendable. Mainnet activation is set for block 3,543,405, targeted for 5 November 2026 ([ZIP 259](https://zips.z.cash/zip-0259), [forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). A Sapling withdraw-only discussion started on the forum in April 2026.
+**The switch-off has no date, except for Sprout.** No ZIP schedules turning off Orchard or Sapling. Sprout is different: [ZIP 259](https://zips.z.cash/zip-0259) lists ZIP 2003 among the changes NU7 deploys, so since NU7 activated, version 4 transactions are invalid and any ZEC left in the Sprout pool is unspendable. NU7 activated on Mainnet at block 3,543,405 on 6 November 2026 UTC ([ZIP 259](https://zips.z.cash/zip-0259), [forum announcement](https://forum.zcashcommunity.com/t/nu7-timeline/57655)). A Sapling withdraw-only discussion started on the forum in April 2026.
 
 **The Recovery Protocol is not finished.** ZIP 2005 only outlines it, and says the details "are subject to change". Nothing about it is deployed.
 
@@ -97,7 +97,7 @@ None of these are live.
 
 ## Status table
 
-Last checked 13 September 2026, except the Sprout row, which was updated on 9 October 2026. A ZIP's header status and its network status are different things: ZIP 2005 still says "Proposed" in its header even though its rules have been enforced on Mainnet since July 2026.
+Last checked 13 September 2026, except the Sprout row, which was updated on 13 November 2026 after NU7 activated. A ZIP's header status and its network status are different things: ZIP 2005 still says "Proposed" in its header even though its rules have been enforced on Mainnet since July 2026.
 
 | Item | ZIP status | Network status | Date | Source |
 |---|---|---|---|---|
@@ -106,7 +106,7 @@ Last checked 13 September 2026, except the Sprout row, which was updated on 9 Oc
 | Wallets moving funds into Ironwood | Guidance in ZIP 2005, ZIP 318 and ZIP 326 (Draft) | Recommended, depends on your wallet | Since 28 Jul 2026 | [ZIP 318](https://zips.z.cash/zip-0318), [ZIP 326](https://zips.z.cash/zip-0326) |
 | Recovery Protocol | Outlined inside ZIP 2005 only | **Not implemented** | No date | [ZIP 2005](https://zips.z.cash/zip-2005) |
 | Switching off Orchard and Sapling | No ZIP | **Not scheduled** | Sapling discussion from Apr 2026 | [Forum](https://forum.zcashcommunity.com/t/sapling-withdraw-only-discussion-kickoff/55223) |
-| Disabling Sprout spends (ZIP 2003) | Proposed, deployed by NU7 per ZIP 259 (Proposed) | **Not activated** | Mainnet height 3,543,405, targeted 5 Nov 2026 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
+| Disabling Sprout spends (ZIP 2003) | Proposed, deployed by NU7 per ZIP 259 (Proposed) | **Activated** on Mainnet | 6 Nov 2026, block 3,543,405 | [ZIP 2003](https://zips.z.cash/zip-2003), [ZIP 259](https://zips.z.cash/zip-0259) |
 | Transparent recoverability (ZIP 2007) | Reserved | **Proposal** | ZIP reserved 5 Jul 2025, discussion opened 17 Jun 2026 | [zips#1302](https://github.com/zcash/zips/issues/1302) |
 | Post-quantum privacy for known addresses | Open issues, no ZIP | **Research** | #1133 opened 18 Aug 2022, #1307 opened 23 Jun 2026 | [zips#1133](https://github.com/zcash/zips/issues/1133), [zips#1307](https://github.com/zcash/zips/issues/1307) |
 | Project Tachyon | No ZIP | **Proposal**, under development | First published Apr 2025 | [tachyon.z.cash](https://tachyon.z.cash/roadmap/) |

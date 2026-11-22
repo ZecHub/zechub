@@ -1,16 +1,41 @@
-# Keystone Zashi Nduzi Onye Ọrụ
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Keystone_Zashi.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
+</a>
 
-Twitter Nduzi:  => [Zashi x Keystone Hardware Wallet Njikọta Twitter Nduzi](https://x.com/zashi_app/status/1869793574880973144) 
+# Ntuziaka Onye Ọrụ Keystone Zodl (nke bụbu Zashi)
 
-Njikọta a na-akara nnukwu ọganihu n'iji Zcash eme ihe, site n'ikwe ka echekwa ZEC nke e chebere echebe n'ebe oyi. Ndị obodo Zcash enweela ihe ndọghachi azụ n'oge gara aga n'ọdụ hardware wallet ndị ọzọ, mana Keystone pụtara dịka onye mmekọ nkwado dị njikere ịgafe ókè ma mepụta ihe ọhụrụ n'akụkụ Electric Coin Company. Ndị otu Keystone nwetara ikike ZCG iji kwado akụkụ ọrụ ha.
+> Debe ZEC nke e chebere echebe (shielded) n'ebe nchekwa oyi: jikọta hardware wallet Keystone na ngwa Zodl (nke bụbu Zashi, e degharịrị aha ya na February 2026), ma jiri koodu QR binye aka na Azụmahịa (transactions).
 
-## Keystone X Zashi Nkuzi
+## TL;DR
+
+* Keystone 3 Pro (ma ọ bụ Keystone 3) nke nwere firmware Cypherpunk na-arụ ọrụ dị ka ngwaọrụ binye aka na-adịghị ejikọta na ịntanetị maka Zodl; ya mere, ZEC nke e chebere echebe nwere ike ịnọ n'ebe nchekwa oyi.
+* Tupu ịmalite: chajịa batrị ka ọ gafee 20%, nwee eriri USB (ma ọ bụ kaadị MicroSD FAT32) maka imelite firmware, ma tinye ngwa Zodl na ekwentị gị.
+* Buru ụzọ nyochaa ngwaọrụ ahụ na webụsaịtị Keystone. Nke a na-enyocha na e metụtaghị ya n'ụzọ njem.
+* Mepụta e-akpa ego (wallet) na Keystone ma detuo Mkpuru mgbake (seed phrase) nke nwere mkpụrụokwu 24 n'ebe na-anọghị n'ịntanetị. Ọ gaghị abanye na Zodl.
+* Jikọọ: na Keystone pịa "..." > Jikọọ E-akpa Ego Ngwanrọ > Zodl, ma n'ime Zodl pịa Jikọọ Hardware Wallet ma nyochaa koodu QR.
+* Zodl na-ewu Azụmahịa ọ bụla; ị ga-akwado ma binye aka na ya na ihuenyo Keystone site n'ịnyochakọrịta koodu QR.
+
+## Nkọwa Ndị Dị Mkpa
+
+Hardware wallet na-edobe igodo ego (spending keys) gị na ngwaọrụ dị iche nke na-adịghị ejikọta na ịntanetị ma ọlị. Keystone anaghị ejikọta na ịntanetị: ọ na-ekwurịta okwu na ekwentị gị naanị site na koodu QR, ọ bụghị Bluetooth ma ọ bụ USB.
+
+N'ime nhazi a, Zodl bụ akụkụ “nlele”. Ọ na-emekọrịta na netwọk Zcash, na-egosi ego gị nke e chebere echebe ma na-akwadebe Azụmahịa. Keystone na-ejide Mkpuru mgbake ma na-abịanye aka. Ekwentị e mebiri nwere ike ịhụ ego gị, ma ọ pụghị ịbugharị ego na-enweghị nkwenye na Keystone.
+
+Nzọụkwụ ndị dị n'okpuru na-akọwa otu esi akwadebe ngwaọrụ, nyochaa ya, imelite firmware, mepụta e-akpa ego ma jikọta ya na Zodl.
+
+## Nchịkọta
+
+Twitter Ntuziaka:  => [Zodl (nke bụbu Zashi) x Keystone Njikọ Hardware Wallet Twitter Ntuziaka](https://x.com/zashi_app/status/1869793574880973144) 
+
+Njikọ a bụ nnukwu ọganihu n'ịkwalite ịdị mfe iji Zcash, ebe ọ na-eme ka o kwe omume idebe ZEC nke e chebere echebe n'ebe nchekwa oyi. Ndị obodo Zcash enweela nsogbu n'oge gara aga na nyiwe hardware wallet ndị ọzọ, ma Keystone pụtara dị ka onye mmekọ na-arụkọ ọrụ ọnụ, dị njikere ịgbasa oke ma mepụta ihe ọhụrụ ya na Electric Coin Company. Ndị otu Keystone nwetara ikike (grant) ZCG iji kwado akụkụ ọrụ ha.
+
+## Nkuzi Keystone X Zodl
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/ktYf7josJKM"
-    title="Keystone X Zashi Tutorial"
+    title="Nkuzi Keystone X Zodl"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -19,68 +44,69 @@ Njikọta a na-akara nnukwu ọganihu n'iji Zcash eme ihe, site n'ikwe ka echekw
     
 
 ## Nkwadebe
-[Nye Iwu & Nata Keystone 3 Pro ma ọ bụ Keystone 3](https://keyst.one) 
+[Zụọ ma Nata Keystone 3 Pro ma ọ bụ Keystone 3](https://keyst.one) 
 
-Ọkwa Batrị: Gbaa mbọ hụ na ngwaọrụ keystone gị nwere ọkwa batrị karịrị 20%.
+Ọkwa Batrị: Gbaa mbọ hụ na batrị ngwaọrụ keystone gị karịrị 20%.
 
 Eriri USB ma ọ bụ Kaadị SD:
 
-- Eriri USB maka mmelite firmware (agụnyere).
-- Kaadị Micro SD (n'okpuru 1 TB) maka nkwalite (zụta iche).
+- Eriri USB maka imelite firmware (so na ngwugwu).
+- Kaadị Micro SD (nke na-erughị 1 TB) maka nkwalite (zụrụ iche).
 
-Ịnweta weebụsaịtị gọọmentị Keystones maka nkwenye na mmelite Firmware.
+Ịnweta webụsaịtị gọọmentị nke Keystones maka Nyocha na Mmelite Firmware.
 
-Ntọala ngwa Zashi na ngwaọrụ mkpanaka gị.
+Nhazi ngwa Zodl na ngwaọrụ mkpanaka gị.
 
-## [Nduzi Nzọụkwụ site na Nzọụkwụ(Keystone Ngwaọrụ)](https://keyst.one/get-started) 
+## [Ntuziaka Nzọụkwụ Nzọụkwụ (Keystone Ngwaọrụ)](https://keyst.one/get-started) 
 
 
 **Họrọ Asụsụ Gị**
--Nkwenye Ngwaọrụ(site na QR): Nkwenye Ngwaọrụ dị mkpa iji chọpụta mmetọ nwere ike ime n'oge njem, gbochie mwakpo chain nke inye ngwaahịa, ma hụ na firmware arụnyere dị nchebe.
-  - Gaa na ibe Nkwenye Ngwaọrụ na weebụsaịtị Keystone.
-  - Pịa Scan QR Code na weebụsaịtị gọọmentị.
-  - Jiri kamera Keystone gị nyochaa koodu QR e gosiri na weebụsaịtị.
-  - Koodu nkwenye ga-apụta na ihuenyo Keystone gị.
-  - Tinye koodu a na weebụsaịtị iji mezue usoro nkwenye ahụ.
+
+- **Nyocha Ngwaọrụ (site na QR):** Nyocha ngwaọrụ dị mkpa iji chọpụta ma e metụrụ ya aka n'oge njem, gbochie mwakpo n'usoro mbubata, ma hụ na firmware arụnyere dị nchebe.
+  - Gaa na peeji Nyocha Ngwaọrụ na webụsaịtị Keystone.
+  - Pịa Nyochaa Koodu QR na webụsaịtị gọọmentị.
+  - Jiri igwefoto Keystone gị nyochaa koodu QR e gosiri na webụsaịtị.
+  - Koodu nyocha ga-apụta na ihuenyo Keystone gị.
+  - Tinye koodu a na webụsaịtị iji mechaa usoro nyocha ahụ.
 
 - **Mmelite Firmware:**
-  - Melite site na kaadị MicroSD
-    - Gbaa mbọ hụ na e-akpa ego Keystone gị nwere opekata mpe 20% ụgwọ batrị.
-    - Tinye kaadị SD n'ime kọmputa gị wee hazie ya dịka FAT32.
-    - Budata ụdị firmware Cypherpunk kachasị ọhụrụ site na ibe Mmelite Firmware [Keystone](https://keyst.one/firmware) ma chekwaa faịlụ keystone3.bin n'akụkụ mgbọrọgwụ nke kaadị MicroSD gị.
+  - Mmelite site na kaadị MicroSD
+    - Gbaa mbọ hụ na e-akpa ego Keystone gị nwere opekata mpe 20% chajị batrị.
+    - Tinye kaadị SD n'ime kọmputa gị ma hazie ya ka ọ bụrụ FAT32.
+    - Budata ụdị firmware Cypherpunk kachasị ọhụrụ site na [Keystone Mmelite Firmware](https://keyst.one/firmware) ma chekwaa faịlụ keystone3.bin na folda mgbọrọgwụ kaadị MicroSD gị.
     - Tinye kaadị SD nwere firmware n'ime e-akpa ego Keystone gị.
-    - Nweta nhọrọ …Upgrade… na e-akpa ego Keystone gị, wee soro ntụziaka dị na ihuenyo malite usoro mmelite.
-  - **Melite site na Eriri USB**
-    - Ọ bụrụ na ụdị firmware gị dị n'okpuru 1.0.4, ị ga-eji kaadị MicroSD mee mmelite mbụ tupu ịga n'ihu na mmelite USB.
-    - Gbaa mbọ hụ na e-akpa ego Keystone gị nwere opekata mpe 20% ụgwọ batrị.
-    - Kpatụ via USB ma jiri eriri USB jikọọ e-akpa ego Keystone gị na kọmputa gị. Kpatụ [Approve] iji nye e-akpa ego Keystone gị ohere USB, n'ihi na ma ọ bụghị ya ọ nwere ike ikwe naanị ịchaji.
-    - Mepee ihe nchọgharị weebụ kọmputa gị wee gaa na ibe Mmelite Firmware [Keystone](https://keyst.one/firmware)
-    - N'ibe mmelite ahụ, pịa bọtịnụ Install Update ma soro ntụziaka e nyere iji wụnye firmware kachasị ọhụrụ.
+    - Họrọ nhọrọ "Nkwalite" na e-akpa ego Keystone gị, ma soro ntuziaka dị na ihuenyo ka ịmalite usoro mmelite ahụ.
+  - **Mmelite site na Eriri USB**
+    - Ọ bụrụ na ụdị firmware gị erughị 1.0.4, ị ga-ebu ụzọ jiri kaadị MicroSD mee mmelite mbụ tupu i nwee ike ịga n'ihu na mmelite USB.
+    - Gbaa mbọ hụ na e-akpa ego Keystone gị nwere opekata mpe 20% chajị batrị.
+    - Pịa Site na USB ma jiri eriri USB jikọọ e-akpa ego Keystone gị na kọmputa gị. Pịa [Kwado] iji nye e-akpa ego Keystone gị ohere USB, n'ihi na ma ọ bụghị ya ọ nwere ike ikwe ka chajị naanị.
+    - Mepee ihe nchọgharị weebụ nke kọmputa gị ma gaa na [Keystone peeji Mmelite Firmware](https://keyst.one/firmware)
+    - Na peeji mmelite, pịa bọtịnụ Wụnye Mmelite ma soro ntuziaka e nyere iji wụnye firmware kachasị ọhụrụ.
 - **Mepụta E-akpa Ego:**
-    - Okwuntughe Nchekwa: Họrọ PIN siri ike ma ọ bụ okwuntughe iji chebe e-akpa ego gị.
-    - Kpọọ E-akpa Ego Gị Aha (Nhọrọ): Ọ bụrụ na ịchọrọ, nye e-akpa ego gị aha maka ịmata ya ngwa ngwa, ma ọ bụ gafee nzọụkwụ a.
-    - Họrọ Create New Wallet ma ọ bụrụ na ị na-ahazi e-akpa ego maka oge mbụ.
-    - Ngwaọrụ gị ga-emepụta mkpuru mgbake [seed phrase] nke nwere mkpụrụokwu 24.
-    - Detuo mkpuru mgbake a ma chekwaa ya n'enweghị nsogbu.
-    - Kwenye mkpuru mgbake ahụ site n'ịchọpụta mkpụrụokwu ndị ahụ n'usoro ziri ezi dịka e gosiri na ihuenyo.
-- **Jikọọ E-akpa Ego Zashi + Keystone:**
-    - Na ngwaọrụ Keystone: Kpatụ … n'ibe bụ isi
-    - Kpatụ Connect Software Wallet wee họrọ Zashi. Koodu QR maka ijikọta na Zashi ga-apụta.
-    - Na Ngwa Zashi: Kpatụ menu ndọpụta zashi (n'elu aka ekpe nke ihuenyo)
-    - Kpatụ Connect Hardware Wallet
-    - Kpatụ Ready to Scan
-    - Nyochaa QR e gosiri na Ngwaọrụ Keystone
-    - Na Ngwa Zashi: Kwenye Akaụntụ E-akpa Ego Keystone site n'ịpị akaụntụ e gosiri
-    - Kpatụ Connect n'okpuru ihuenyo
+    - Paswọọdụ Echekwara: Họrọ PIN ma ọ bụ paswọọdụ siri ike iji chebe e-akpa ego gị.
+    - Nye E-akpa Ego Gị Aha (Ọ Bụ Nhọrọ): Ọ bụrụ na ịchọrọ, nye e-akpa ego gị aha ka ọ dị mfe ịmata, ma ọ bụ wụfee nzọụkwụ a.
+    - Họrọ Mepụta E-akpa Ego Ọhụrụ ma ọ bụrụ na nke a bụ nke mbụ ị na-ahazi e-akpa ego.
+    - Ngwaọrụ gị ga-emepụta Mkpuru mgbake nke nwere mkpụrụokwu 24.
+    - Detuo Mkpuru mgbake a ma chekwaa ya nke ọma.
+    - Kwenye Mkpuru mgbake site n'ịlele na mkpụrụokwu ndị ahụ nọ n'usoro ziri ezi dịka e gosiri na ihuenyo.
+- **Jikọọ Zodl + E-akpa Ego Keystone:**
+    - Na ngwaọrụ Keystone: Pịa … na peeji mbụ
+    - Pịa Jikọọ E-akpa Ego Ngwanrọ ma họrọ Zodl. Koodu QR iji jikọọ na Zodl ga-apụta.
+    - N'ime Ngwa Zodl: Pịa menu wedata Zodl (n'elu aka ekpe ihuenyo)
+    - Pịa Jikọọ Hardware Wallet
+    - Pịa Njikere Iji Nyochaa
+    - Nyochaa koodu QR e gosiri na Ngwaọrụ Keystone
+    - N'ime Ngwa Zodl: Kwenye Akaụntụ E-akpa Ego Keystone site n'ịpị akaụntụ e gosiri
+    - Pịa Jikọọ n'okpuru ihuenyo
 
 
-## Enyemaka Ọzọ
+## Enyemaka Ndị Ọzọ
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Jr6LqtD1W0s"
-    title="Connect Keystone Hardware Wallet to Zashi"
+    title="Jikọọ Hardware Wallet Keystone na Zodl"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -92,7 +118,7 @@ Ntọala ngwa Zashi na ngwaọrụ mkpanaka gị.
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/t_OHb1KqrRg"
-    title="Sign an Outgoing Transaction with Keystone"
+    title="Binye aka na Azụmahịa Na-apụ Apụ site na Keystone"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

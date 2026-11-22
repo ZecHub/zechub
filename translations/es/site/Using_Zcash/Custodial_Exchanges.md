@@ -8,6 +8,19 @@ Ironwood es el pool blindado [shielded pool] que llegó con la actualización de
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Logo de AltQuick" width="200" height="100"/>
+</a>
+
+- Sitio web: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Pares: ZEC/BTC
+- Admite: Transparente
+- Tiempo de depósito: Unos 30 minutos (24 confirmaciones)
+- Ironwood: No aplica, solo direcciones transparentes
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,17 +99,19 @@ ___
 - Ironwood: Retiros blindados admitidos, pool no especificado
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Sitio web: [Huobi](https://huobi.com)
+- Sitio web: [HTX](https://www.htx.com) (anteriormente Huobi)
 - Pares: TODOS/ZEC
 - Admite: Transparente
+- Estado: ZEC depósitos y retiros suspendidos actualmente (según la API pública de HTX, noviembre de 2026); el trading al contado sigue apareciendo
 - Tiempo de depósito: 35 minutos 
 - Ironwood: No aplicable, solo direcciones transparentes
+
 ___
 
 ### [Kraken](https://kraken.com)

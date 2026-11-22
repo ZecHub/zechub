@@ -5,142 +5,142 @@
     <img src="/content-images/image-2023-11-18-160742427-658dda69c0.webp" alt="" width="800" height="500"/>
 </a>
 
-# Zcash Shielded Assets
+# Zcash शील्डेड एसेट
 
 ## संक्षेप में
 
-Zcash Shielded Assets (ZSA) एक प्रस्तावित प्रोटोकॉल विस्तार है, जो **ZEC के अलावा** अन्य एसेट्स — stablecoins, governance tokens, या किसी भी custom asset — को Zcash के shielded pool के भीतर रहने की अनुमति देगा, जहाँ प्रेषक, प्राप्तकर्ता और राशि निजी रखी जाएगी।
+Zcash शील्डेड एसेट (Shielded Assets, ZSA) एक प्रस्तावित प्रोटोकॉल विस्तार है। इसके ज़रिए **ZEC के अलावा** दूसरे एसेट, जैसे स्टेबलकॉइन (stablecoin), गवर्नेंस (governance) टोकन (token) या कोई भी कस्टम एसेट, Zcash के शील्डेड (shielded) पूल (pool) में रह सकेंगे। इनमें प्रेषक, प्राप्तकर्ता और राशि निजी रहेंगे।
 
-- **यह क्या है:** ERC-20-शैली के custom assets, लेकिन डिफ़ॉल्ट रूप से shielded।
-- **इसे कौन बना रहा है:** [QEDIT](https://qed-it.com/), Zcash Foundation से मिले एक grant के तहत, Electric Coin Company के सहयोग से।
-- **इसे कैसे निर्दिष्ट किया गया है:** [ZIP 226](https://zips.z.cash/zip-0226) (transfer और burn) के साथ [ZIP 227](https://zips.z.cash/zip-0227) (issuance)।
-- **स्थिति:** अभी mainnet पर live नहीं है और Network Upgrade 7 (NU7) का हिस्सा भी नहीं है। [ZIP 259](https://zips.z.cash/zip-0259), जिसमें NU7 द्वारा deploy की जाने वाली हर चीज़ सूचीबद्ध है, में ZIP 226 या ZIP 227 शामिल नहीं हैं, और ZSA सक्रियण की कोई तारीख तय नहीं की गई है।
-- **फ़ीस:** हमेशा ZEC में चुकाई जाती है, चाहे कौन-सा asset भेजा जा रहा हो।
+- **यह क्या है:** ERC-20 जैसे कस्टम एसेट, जो डिफ़ॉल्ट रूप से शील्डेड होते हैं।
+- **इसे कौन बना रहा है:** [QEDIT](https://qed-it.com/), Zcash Foundation से मिले ग्रांट (grant) के तहत और Electric Coin Company के सहयोग से।
+- **इसका विनिर्देश:** [ZIP 226](https://zips.z.cash/zip-0226) (ट्रांसफ़र और बर्न) और [ZIP 227](https://zips.z.cash/zip-0227) (इश्यूएंस)।
+- **स्थिति:** यह मेननेट पर लाइव नहीं है और नेटवर्क अपग्रेड (network upgrade) 7 (NU7) का हिस्सा भी नहीं है। [ZIP 259](https://zips.z.cash/zip-0259) में NU7 द्वारा तैनात की जाने वाली हर चीज़ की सूची है। इसमें ZIP 226 या ZIP 227 शामिल नहीं हैं, और ZSA के सक्रियण की कोई तिथि तय नहीं हुई है।
+- **शुल्क (fees):** यह हमेशा ZEC में चुकाया जाता है, चाहे कोई भी एसेट भेजा जा रहा हो।
 
 ---
 
 ## मुख्य व्याख्या
 
-Zcash Shielded Assets (ZSA), Zcash प्रोटोकॉल में एक प्रस्तावित सुधार है, जो Zcash chain पर custom assets के निर्माण, transfer और burn को सक्षम करेगा।
+Zcash शील्डेड एसेट (ZSA) Zcash प्रोटोकॉल में एक प्रस्तावित सुधार है। इससे Zcash चेन (chain) पर कस्टम एसेट बनाए, ट्रांसफ़र किए और बर्न किए जा सकेंगे।
 
-यदि आप Ethereum blockchain पर [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) token standard से परिचित हैं, तो ZSAs का Zcash से वही संबंध है जो ERC-20 tokens का Ethereum से है।
+अगर आप Ethereum ब्लॉकचेन (blockchain) के [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) टोकन मानक से परिचित हैं, तो इसे ऐसे समझिए: Zcash के लिए ZSA वही हैं जो Ethereum के लिए ERC-20 टोकन हैं।
 
-Zcash Shielded Assets, Zcash blockchain पर custom tokens के निर्माण को सक्षम करेंगे, जिससे [ZEC](/guides/using-zec-privately) के अलावा अन्य tokens भी Zcash blockchain पर shielded transactions की anonymity और privacy का लाभ उठा सकेंगे।
+Zcash शील्डेड एसेट की मदद से Zcash ब्लॉकचेन पर कस्टम टोकन बनाए जा सकेंगे। इस तरह [ZEC](/guides/using-zec-privately) के अलावा दूसरे टोकन भी Zcash ब्लॉकचेन पर शील्डेड लेनदेन (transactions) की गुमनामी और गोपनीयता (privacy) का लाभ उठा सकेंगे।
 
-ZSAs का एक बड़ा संभावित उपयोग Zcash प्रोटोकॉल पर stablecoins जारी करना होगा। Stablecoins वे cryptocurrencies हैं जिनका मूल्य किसी fiat currency, जैसे US Dollar या Euro, से जुड़ा होता है। वर्तमान में, सबसे व्यापक रूप से प्रचलित stablecoins में से कुछ ERC-20 tokens हैं, जैसे [USDC](https://www.circle.com/en/usdc) और [Dai](https://docs.makerdao.com/)।
+ZSA का एक बड़ा संभावित उपयोग Zcash प्रोटोकॉल पर स्टेबलकॉइन जारी करना होगा। स्टेबलकॉइन ऐसी क्रिप्टोकरेंसी हैं जिनका मूल्य किसी फ़िएट मुद्रा, जैसे अमेरिकी डॉलर या यूरो, से जुड़ा होता है। अभी सबसे ज़्यादा प्रचलित स्टेबलकॉइन में से कुछ ERC-20 टोकन हैं, जैसे [USDC](https://www.circle.com/en/usdc) और [Dai](https://docs.makerdao.com/)।
 
-ZSAs का एक और संभावित उपयोग governance tokens जारी करने में होगा। उदाहरण के लिए, ZecHub (इस wiki का प्रकाशक) एक Decentralized Autonomous Organization (DAO) है और अपने सदस्यों को प्रस्तावों तथा governance निर्णयों पर मतदान के लिए एक ZSA बना और जारी कर सकता है।
+ZSA का दूसरा संभावित उपयोग गवर्नेंस टोकन जारी करना होगा। उदाहरण के लिए, ZecHub (इस विकी का प्रकाशक) एक डिसेंट्रलाइज़्ड (decentralized) ऑटोनॉमस ऑर्गनाइज़ेशन (DAO) है। यह प्रस्तावों और गवर्नेंस निर्णयों पर मतदान के लिए एक ZSA बनाकर अपने सदस्यों को जारी कर सकता है।
 
-ZSAs को [QEDIT](https://qed-it.com/) द्वारा विकसित किया जा रहा है, [Zcash Foundation](/zcash-organizations/zcash-foundation) से मिले एक बड़े grant के तहत, [Electric Coin Company](/zcash-organizations/electric-coin-company) के सहयोग से। चूँकि इस परियोजना पर अभी सक्रिय रूप से काम चल रहा है, इसलिए अपडेट्स Zcash forum के [इस thread](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) पर पोस्ट किए जाते हैं। QEDIT द्वारा किया गया [ZSA grant application](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) Zcash Foundation grants website पर उपलब्ध है।
+ZSA को [QEDIT](https://qed-it.com/) विकसित कर रहा है। इसके लिए [Zcash Foundation](/zcash-organizations/zcash-foundation) से एक बड़ा ग्रांट मिला है, और यह काम [Electric Coin Company](/zcash-organizations/electric-coin-company) के सहयोग से हो रहा है। यह परियोजना अभी सक्रिय विकास में है, इसलिए अपडेट Zcash फ़ोरम के [इस थ्रेड](https://forum.zcashcommunity.com/t/grant-update-zcash-shielded-assets-monthly-updates/41153) पर पोस्ट किए जाते हैं। QEDIT का [ZSA ग्रांट आवेदन](https://zcashgrants.org/gallery/25215916-53ea-4041-a3b2-6d00c487917d/33106640/) Zcash Foundation ग्रांट वेबसाइट पर उपलब्ध है।
 
 ---
 
-## दृश्य उदाहरण / उपमा
+## दृश्य / उपमा
 
 ### सीलबंद लिफ़ाफ़ा
 
-कल्पना कीजिए कि एक Zcash shielded transaction एक साधारण, सीलबंद लिफ़ाफ़े की तरह है जिसे किसी सार्वजनिक डाकपेटी में डाल दिया गया हो। हर कोई देख सकता है कि एक लिफ़ाफ़ा पोस्ट किया गया है। लेकिन कोई यह नहीं देख सकता कि उसे किसने भेजा, कौन उसे लेता है, या उसके अंदर क्या है — और हर लिफ़ाफ़ा दूसरे हर लिफ़ाफ़े जैसा ही दिखता है।
+कल्पना कीजिए कि Zcash का शील्डेड लेनदेन एक सादा, सीलबंद लिफ़ाफ़ा है जिसे सार्वजनिक लेटरबॉक्स में डाला गया है। सबको दिखता है कि एक लिफ़ाफ़ा डाला गया। पर यह कोई नहीं देख सकता कि इसे किसने भेजा, कौन इसे लेगा या इसके अंदर क्या है। हर लिफ़ाफ़ा बाकी सभी लिफ़ाफ़ों जैसा ही दिखता है।
 
-आज, Zcash नेटवर्क पर एक लिफ़ाफ़ा केवल एक ही चीज़ ले जा सकता है: ZEC।
+आज Zcash नेटवर्क पर एक लिफ़ाफ़े में केवल एक ही चीज़ जा सकती है: ZEC।
 
-ZSA लिफ़ाफ़े को नहीं बदलता। यह **उसके भीतर क्या रखने की अनुमति है** उसे बदलता है। ZSA के बाद, वही सीलबंद लिफ़ाफ़ा एक stablecoin, एक DAO governance token, या किसी कंपनी का loyalty point ले जा सकता है — और बाहर से वह फिर भी नेटवर्क के हर दूसरे लिफ़ाफ़े जैसा ही दिखेगा।
+ZSA लिफ़ाफ़े को नहीं बदलता। यह बदलता है कि **उसके अंदर क्या रखा जा सकता है**। ZSA के बाद उसी सीलबंद लिफ़ाफ़े में स्टेबलकॉइन, DAO गवर्नेंस टोकन या किसी कंपनी का लॉयल्टी पॉइंट भी जा सकेगा। फिर भी बाहर से वह नेटवर्क के बाकी सभी लिफ़ाफ़ों जैसा ही दिखेगा।
 
-एक बात विशेष रूप से याद रखने योग्य है: **डाक-शुल्क हमेशा ZEC में चुकाया जाता है**, चाहे लिफ़ाफ़े के भीतर कुछ भी हो।
+एक बात याद रखने लायक है: लिफ़ाफ़े के अंदर कुछ भी हो, **डाक-टिकट का भुगतान (payment) हमेशा ZEC में होता है**।
 
 ### बाहरी पर्यवेक्षक क्या देख सकता है
 
-| एक पर्यवेक्षक देख सकता है... | Ethereum पर ERC-20 | Zcash पर ZSA |
+| पर्यवेक्षक क्या देख सकता है... | Ethereum पर ERC-20 | Zcash पर ZSA |
 | --- | --- | --- |
-| किसने भेजा | सार्वजनिक | Shielded |
-| किसने प्राप्त किया | सार्वजनिक | Shielded |
-| कितनी राशि भेजी गई | सार्वजनिक | Shielded |
-| व्यक्तिगत balances | सार्वजनिक | Shielded |
-| asset की कुल supply | सार्वजनिक | **सार्वजनिक — जानबूझकर** |
-| फ़ीस किस currency में चुकाई जाती है | ETH | ZEC |
+| किसने भेजा | सार्वजनिक | शील्डेड |
+| किसे मिला | सार्वजनिक | शील्डेड |
+| कितनी राशि भेजी गई | सार्वजनिक | शील्डेड |
+| अलग-अलग बैलेंस | सार्वजनिक | शील्डेड |
+| एसेट की कुल आपूर्ति | सार्वजनिक | **सार्वजनिक — जानबूझकर** |
+| शुल्क किस मुद्रा में चुकाया जाता है | ETH | ZEC |
 
-### supply वाली पंक्ति कोई bug क्यों नहीं है
+### आपूर्ति वाली पंक्ति कोई बग क्यों नहीं है
 
-तालिका की अंतिम दो पंक्तियाँ वही जगह हैं जहाँ ZSA रोचक बनता है।
+तालिका की आखिरी दो पंक्तियाँ ZSA को दिलचस्प बनाती हैं।
 
-ZIP 227 जानबूझकर **issuance को transparent** रखता है, ताकि हर asset की circulating supply को on-chain ट्रैक किया जा सके। व्यक्तिगत holdings और व्यक्तिगत payments निजी रहते हैं; अस्तित्व में मौजूद tokens की कुल संख्या निजी नहीं रहती।
+ZIP 227 जानबूझकर **इश्यूएंस को ट्रांसपेरेंट (transparent)** रखता है, ताकि हर एसेट की प्रचलित आपूर्ति ऑन-चेन (on-chain) ट्रैक की जा सके। अलग-अलग होल्डिंग और अलग-अलग भुगतान निजी रहते हैं, पर मौजूद टोकन की कुल संख्या निजी नहीं रहती।
 
-किसी stablecoin issuer के लिए, यह संयोजन समझौता नहीं बल्कि उद्देश्य है। reserves का audit सार्वजनिक रूप से सत्यापित की जा सकने वाली supply के विरुद्ध किया जा सकता है, जबकि वास्तव में token का उपयोग करने वाले लोग अपने balances और payments को निजी रख सकते हैं।
+स्टेबलकॉइन जारीकर्ता के लिए यह संयोजन कोई समझौता नहीं, बल्कि असली उद्देश्य है। रिज़र्व का ऑडिट सार्वजनिक रूप से सत्यापित की जा सकने वाली आपूर्ति के आधार पर हो सकता है, जबकि टोकन के असली उपयोगकर्ताओं के बैलेंस और भुगतान निजी रहते हैं।
 
-### एक asset, एक पहचान
+### एक एसेट, एक पहचान
 
-हर asset को एक अद्वितीय **Asset Identifier** मिलता है, जो issuer की issuance key और asset के text description से मिलकर निकाला जाता है। दो अलग-अलग issuers एक ही identifier नहीं बना सकते, और किसी asset को mint करना या बदलना उसके issuer से cryptographic authorization की माँग करता है। लिफ़ाफ़े की उपमा में: कोई भी लिफ़ाफ़ा पोस्ट कर सकता है, लेकिन किसी दिए गए asset का मालिक mint ही उसका और उत्पादन कर सकता है।
+हर एसेट को एक अनोखा **एसेट आइडेंटिफ़ायर (Asset Identifier)** मिलता है। यह जारीकर्ता की इश्यूएंस कुंजी और एसेट के टेक्स्ट विवरण से बनता है। दो अलग जारीकर्ता एक जैसा आइडेंटिफ़ायर नहीं बना सकते। किसी एसेट को मिंट करने या बदलने के लिए उसके जारीकर्ता की क्रिप्टोग्राफ़िक अनुमति चाहिए। लिफ़ाफ़े की भाषा में कहें तो लिफ़ाफ़ा कोई भी डाल सकता है, पर किसी एसेट को और छापने का अधिकार केवल उस टकसाल के पास है जो उसकी मालिक है।
 
 ---
 
-## गहराई से समझें
+## गहराई से
 
-### Zebra पर ZSA Demo
+### Zebra पर ZSA डेमो
 
-[![Video Thumbnail](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
+[![वीडियो थंबनेल](/content-images/hqdefault-3ae84de424.webp)](https://youtu.be/1MZMGC9ViyA)
 
-**डेमो स्वयं चलाकर देखें!**
+**डेमो खुद चलाकर देखिए!**
 
-zcash-tx-tool repository को clone करें: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
+zcash-tx-tool रिपॉज़िटरी क्लोन करें: [https://github.com/QED-it/zcash_tx_tool](https://github.com/QED-it/zcash_tx_tool)
 
-### Zcash Improvement Proposals (ZIPs)
+### Zcash इम्प्रूवमेंट प्रपोज़ल (ZIP)
 
-- [ZIP 226](https://zips.z.cash/zip-0226): Zcash Shielded Assets का Transfer और Burn
-- [ZIP 227](https://zips.z.cash/zip-0227): Zcash Shielded Assets का Issuance
-- [ZIP 230](https://zips.z.cash/zip-0230): Version 6 Transaction Format
+- [ZIP 226](https://zips.z.cash/zip-0226): Zcash शील्डेड एसेट का ट्रांसफ़र और बर्न
+- [ZIP 227](https://zips.z.cash/zip-0227): Zcash शील्डेड एसेट का इश्यूएंस
+- [ZIP 230](https://zips.z.cash/zip-0230): वर्ज़न 6 लेनदेन फ़ॉर्मेट
 
-> **ZIP 230 पर टिप्पणी:** बाद में ZIP 230 वापस ले लिया गया है और इसे deploy नहीं किया जाएगा। Transaction version 6 अब [ZIP 229](https://zips.z.cash/zip-0229) द्वारा परिभाषित है। सूचना के लिए [ZIP 230](https://zips.z.cash/zip-0230) पेज के शीर्ष पर दिया गया notice देखें।
+> **ZIP 230 के बारे में सूचना:** ZIP 230 वापस ले लिया गया है और तैनात नहीं होगा। लेनदेन वर्ज़न 6 अब [ZIP 229](https://zips.z.cash/zip-0229) में परिभाषित है। [ZIP 230](https://zips.z.cash/zip-0230) पेज के ऊपर दी गई सूचना देखें।
 
-ZIP 226 OrchardZSA प्रोटोकॉल को परिभाषित करता है — Orchard प्रोटोकॉल का एक विस्तार, जो custom assets के transfer और burn को वहन करता है। ZIP 227 यह परिभाषित करता है कि इन assets को मूल रूप से कैसे बनाया जाता है, और इसे केवल ZIP 226 के साथ ही लागू किया जाना चाहिए।
+ZIP 226 OrchardZSA प्रोटोकॉल को परिभाषित करता है। यह Orchard प्रोटोकॉल का विस्तार है और कस्टम एसेट का ट्रांसफ़र और बर्न संभालता है। ZIP 227 बताता है कि ये एसेट शुरू में कैसे बनाए जाते हैं। इसे केवल ZIP 226 के साथ ही लागू किया जाना चाहिए।
 
-### ZSA Grant Proposal
+### ZSA ग्रांट प्रस्ताव
 
-Shielded Assets (ZSA/UDA) के लिए ZSA प्रस्ताव [QEDIT](https://qed-it.com/) टीम द्वारा Zcash blockchain पर generic shielded assets बनाने के लिए प्रस्तुत किया गया था। इन्हें आमतौर पर User Defined Assets (UDA) या Zcash Shielded Assets (ZSA) कहा जाता है।
+शील्डेड एसेट (ZSA/UDA) का ZSA प्रस्ताव [QEDIT](https://qed-it.com/) टीम ने प्रस्तुत किया था। इसका उद्देश्य Zcash ब्लॉकचेन पर सामान्य शील्डेड एसेट बनाना है। इन्हें आम तौर पर यूज़र डिफ़ाइंड एसेट (UDA) या Zcash शील्डेड एसेट (ZSA) कहा जाता है।
 
-इस प्रस्ताव के साथ, [QEDIT](https://qed-it.com/) की टीम Zcash ecosystem में DeFi लाने की योजना बना रही है और साथ ही मौजूदा DeFi ecosystem के भीतर सर्वोत्तम privacy technology के उपयोग को सक्षम करना चाहती है। एक poll survey में टीम ने पूछा, और समुदाय ने उत्तर दिया कि [generic shielded assets (ZSA/UDA) इस समय सबसे अधिक माँगी जाने वाली सुविधा है](https://twitter.com/BenarrochDaniel/status/1428327864034791429)।
+इस प्रस्ताव के ज़रिए [QEDIT](https://qed-it.com/) की टीम Zcash इकोसिस्टम में DeFi लाना चाहती है। साथ ही वह मौजूदा DeFi इकोसिस्टम में सबसे अच्छी गोपनीयता तकनीक का उपयोग संभव बनाना चाहती है। टीम ने एक पोल सर्वे में समुदाय से पूछा, और समुदाय का जवाब था कि [सामान्य शील्डेड एसेट (ZSA/UDA) इस समय सबसे ज़्यादा माँगी जाने वाली सुविधा हैं](https://twitter.com/BenarrochDaniel/status/1428327864034791429)।
 
-ये प्रस्ताव तकनीकी रूप से [Zcash Improvement Proposal (ZIP)](https://zips.z.cash/zip-0000) specification का पालन करते हैं और ZIP 226 तथा ZIP 227 में परिभाषित हैं।
+ये प्रस्ताव तकनीकी रूप से [Zcash इम्प्रूवमेंट प्रपोज़ल (ZIP)](https://zips.z.cash/zip-0000) विनिर्देश का पालन करते हैं और ZIP 226 तथा ZIP 227 में परिभाषित हैं।
 
-1. [ZIP 226](https://zips.z.cash/zip-0226): Zcash Shielded Assets का Transfer और Burn
-2. [ZIP 227](https://zips.z.cash/zip-0227): Zcash Shielded Assets का Issuance
+1. [ZIP 226](https://zips.z.cash/zip-0226): Zcash शील्डेड एसेट का ट्रांसफ़र और बर्न
+2. [ZIP 227](https://zips.z.cash/zip-0227): Zcash शील्डेड एसेट का इश्यूएंस
 
 ---
 
 ## व्यावहारिक प्रभाव
 
-**यदि आप ZEC रखते हैं या उसका उपयोग करते हैं**
+**अगर आपके पास ZEC है या आप इसका उपयोग करते हैं**
 
-- ZSAs को Orchard ("OrchardZSA") के एक extension के रूप में परिभाषित किया गया है, इसलिए वे उसी shielded machinery को साझा करेंगे जिसका उपयोग ZEC पहले से करता है। आपके wallet को ZSA रखने या भेजने से पहले स्पष्ट ZSA support की आवश्यकता होगी।
-- आपके पास हमेशा कुछ ZEC होना आवश्यक होगा। ZSA जारी करने और transfer करने की फ़ीस ZEC में चुकाई जाती है, स्वयं asset में नहीं।
-- आपके मौजूदा ZEC transactions में कुछ भी नहीं बदलेगा।
+- ZSA को Orchard के विस्तार (“OrchardZSA”) के रूप में परिभाषित किया गया है। इसलिए वे उसी शील्डेड व्यवस्था का उपयोग करेंगे जिसका उपयोग ZEC पहले से करता है। ZSA रखने या भेजने से पहले आपके वॉलेट (wallet) में ZSA का स्पष्ट समर्थन होना चाहिए।
+- आपके पास हमेशा कुछ ZEC होना चाहिए। ZSA जारी करने और ट्रांसफ़र करने का शुल्क ZEC में चुकाया जाता है, खुद उस एसेट में नहीं।
+- आपके मौजूदा ZEC लेनदेन में कुछ नहीं बदलता।
 
-**यदि आप एक संभावित issuer हैं — एक stablecoin, एक DAO, एक company**
+**अगर आप संभावित जारीकर्ता हैं, जैसे कोई स्टेबलकॉइन, DAO या कंपनी**
 
-- किसी asset को जारी करने के लिए issuance key से जुड़ा cryptographic authorization आवश्यक है, इसलिए केवल आप ही अपने asset को mint कर सकते हैं या उसकी विशेषताओं में परिवर्तन कर सकते हैं।
-- आपके asset की circulating supply सार्वजनिक रूप से auditable होती है, जबकि आपके users के balances और transfers नहीं। एक regulated issuer के लिए, आमतौर पर यही सटीक संयोजन आवश्यक होता है।
-- एक ही issuance transaction एक साथ एक से अधिक asset बना सकता है।
+- एसेट जारी करने के लिए इश्यूएंस कुंजी से जुड़ी क्रिप्टोग्राफ़िक अनुमति चाहिए। इसलिए केवल आप ही अपना एसेट मिंट कर सकते हैं या उसकी विशेषताएँ बदल सकते हैं।
+- आपके एसेट की प्रचलित आपूर्ति का सार्वजनिक ऑडिट हो सकता है, पर आपके उपयोगकर्ताओं के बैलेंस और ट्रांसफ़र निजी रहते हैं। किसी विनियमित जारीकर्ता को आम तौर पर ठीक यही संयोजन चाहिए।
+- एक ही इश्यूएंस लेनदेन में एक साथ एक से अधिक एसेट बनाए जा सकते हैं।
 
-**ecosystem के लिए**
+**इकोसिस्टम के लिए**
 
-- क्योंकि हर ZSA fee का निर्धारण ZEC में होता है, इसलिए Zcash पर भविष्य में जारी किसी भी asset में होने वाली activity स्वयं ZEC की माँग पैदा करती है।
+- हर ZSA शुल्क ZEC में तय होता है। इसलिए भविष्य में Zcash पर जारी किसी भी एसेट की गतिविधि से खुद ZEC की माँग बढ़ती है।
 
 ---
 
 ## आम गलतफ़हमियाँ
 
-| आम धारणा | वास्तव में क्या स्थिति है |
+| आम धारणा | वास्तविकता |
 | --- | --- |
-| "ZSAs आज Zcash पर live हैं।" | नहीं हैं। ZSA, Network Upgrade 7 (NU7) का हिस्सा नहीं है, जिसे [ZIP 259](https://zips.z.cash/zip-0259) ने ZIP 226 या ZIP 227 के बिना परिभाषित किया है, और यह अभी भी review और testing के अधीन है। |
-| "ZSA, Zcash में smart contracts लाता है।" | ZSA assets के issuance, transfer और burn को निर्दिष्ट करता है। यह सामान्य-उद्देश्य programmable contract layer नहीं है। |
-| "आप ZSA fees को उसी ZSA token में चुका सकते हैं।" | फ़ीस ZEC में चुकाई जाती है। |
-| "यदि यह shielded है, तो token supply भी गुप्त होनी चाहिए।" | ZIP 227 जानबूझकर issuance को transparent बनाता है, ताकि हर asset की supply को सार्वजनिक रूप से ट्रैक किया जा सके। Balances और transfers निजी रहते हैं; supply नहीं। |
-| "ZIP 230 वर्तमान version 6 transaction format है।" | ZIP 230 वापस ले लिया गया है। Version 6 अब ZIP 229 द्वारा परिभाषित है। |
+| “ZSA आज Zcash पर लाइव हैं।” | ऐसा नहीं है। ZSA नेटवर्क अपग्रेड 7 (NU7) का हिस्सा नहीं है। [ZIP 259](https://zips.z.cash/zip-0259) इस अपग्रेड को ZIP 226 या ZIP 227 के बिना परिभाषित करता है, और ZSA की अभी समीक्षा और परीक्षण चल रहे हैं। |
+| “ZSA Zcash में स्मार्ट कॉन्ट्रैक्ट (smart contracts) लाता है।” | ZSA एसेट के इश्यूएंस, ट्रांसफ़र और बर्न का विनिर्देश है। यह सामान्य उद्देश्य वाली प्रोग्रामेबल कॉन्ट्रैक्ट लेयर नहीं है। |
+| “आप ZSA शुल्क खुद ZSA टोकन में चुका सकते हैं।” | शुल्क ZEC में चुकाया जाता है। |
+| “अगर यह शील्डेड है, तो टोकन की आपूर्ति भी गुप्त होनी चाहिए।” | ZIP 227 जानबूझकर इश्यूएंस को ट्रांसपेरेंट रखता है, ताकि हर एसेट की आपूर्ति सार्वजनिक रूप से ट्रैक की जा सके। बैलेंस और ट्रांसफ़र निजी रहते हैं, आपूर्ति नहीं। |
+| “ZIP 230 मौजूदा वर्ज़न 6 लेनदेन फ़ॉर्मेट है।” | ZIP 230 वापस ले लिया गया है। वर्ज़न 6 अब ZIP 229 में परिभाषित है। |
 
 ---
 
-## संबंधित पृष्ठ
+## संबंधित पेज
 
-- [Halo](/zcash-tech/halo) — Orchard के पीछे की proving system, जिसका विस्तार ZSA प्रोटोकॉल करता है
-- [zk-SNARKs](/zcash-tech/zk-snarks) — वे zero-knowledge proofs जो किसी shielded transfer को उजागर किए बिना सत्यापित करने देते हैं
-- [Shielded Pools](/using-zcash/shielded-pools) — जहाँ ZSAs, ZEC के साथ मौजूद होंगे
-- [Transactions](/using-zcash/transactions) — एक Zcash transaction कैसे तैयार किया जाता है
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — ऊपर दिए गए ZSA demo में प्रयुक्त नोड कार्यान्वयन
+- [Halo](/zcash-tech/halo) — Orchard के पीछे की प्रूविंग प्रणाली। ZSA इसी प्रोटोकॉल का विस्तार करता है।
+- [zk-SNARKs](/zcash-tech/zk-snarks) — ज़ीरो-नॉलेज (zero-knowledge) प्रूफ (proofs), जिनसे शील्डेड ट्रांसफ़र को उजागर किए बिना सत्यापित किया जा सकता है।
+- [शील्डेड पूल](/using-zcash/shielded-pools) — जहाँ ZSA ZEC के साथ रहेंगे।
+- [लेनदेन](/using-zcash/transactions) — Zcash लेनदेन कैसे बनता है।
+- [Zebra फुल नोड](/zcash-tech/zebra-full-node) — ऊपर दिए गए ZSA डेमो में इस्तेमाल हुआ नोड (node) इम्प्लीमेंटेशन।

@@ -1,96 +1,97 @@
-# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> अपनी पहचान के साथ धन भेजें
+# <img src="/content-images/send-svgrepo-com-b62f643de0.svg" width="24" height="24" alt="Journalist icon"/> अपनी पहचान जोड़े बिना धन भेजना
 
-<span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>मध्यस्त - 7 मिनट</span>
+<span className="inline-flex items-center gap-[6px]"><span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>मध्यम स्तर - 7 मिनट</span>
 
 ## TL;DR
 
-- हमेशा **छिपे एड्रेस** से भेजें
-- सीधे t के t लेनदेन से बचें
-- पहचानों के बीच लिंकता को तोड़ें
-- समय और पैटर्न के बारे में सावधान रहें
+- हमेशा **शील्डेड एड्रेस (shielded address)** से भेजें
+- सीधे t से t लेनदेन (transaction) से बचें
+- पहचानों के बीच की कड़ी (linkability) तोड़ें
+- समय और पैटर्न का ध्यान रखें
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> यह किसके लिए है?
 
-- संवेदनशील भुगतान भेजने वाला कोई भी
-- गोपनीयता पर ध्यान देने वाले उपयोगकर्ता
-- निगरानी के खतरे में रहने वाले लोग
+- संवेदनशील भुगतान (payment) भेजने वाला कोई भी व्यक्ति
+- गोपनीयता (privacy) के प्रति सजग उपयोगकर्ता
+- निगरानी के जोखिम में काम करने वाले लोग
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> समस्या
 
-क्रिप्टो भेजने के अक्सर परिणाम होते हैं:
-- आपकी वॉलेट पहचान
-- आपका लेनदेन इतिहास
-- आपके साथ किसके साथ बातचीत
+क्रिप्टो भेजने से अक्सर ये बातें उजागर हो जाती हैं:
+- आपके वॉलेट (wallet) की पहचान
+- आपके लेनदेन का इतिहास
+- आप किसके साथ लेनदेन करते हैं
 
-यह एक **अनुसरणीय वित्तीय ग्राफ** बना देता है।
+इससे एक **ट्रेस किया जा सकने वाला वित्तीय ग्राफ़** बन जाता है।
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> क्यों Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcash क्यों?
 
-Zcash **पूरी तरह से गोपनीय ट्रांसफर** की अनुमति देता है छिपे लेनदेन के माध्यम से।
 
-इसके परिणामस्वरूप:
-- एड्रेस लिंकता
-- सार्वजनिक लेनदेन ट्रैकिंग को तोड़ देता है
+Zcash शील्डेड लेनदेन के माध्यम से **पूरी तरह निजी ट्रांसफ़र** संभव बनाता है।
+
+इससे ये टूट जाते हैं:
+- एड्रेस के बीच की कड़ी
+- सार्वजनिक लेनदेन ट्रेसिंग
 
 <br/>
 
 ## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> आपको क्या चाहिए
 
-- छिपे लेनदेन के समर्थन वाली वॉलेट
-- z-एड्रेस के मूल बुनियादी ज्ञान
+- शील्डेड लेनदेन का समर्थन करने वाला एक वॉलेट
+- z-एड्रेस की बुनियादी समझ
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-द्वारा-चरण मार्गदर्शन
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> चरण-दर-चरण गाइड
 
-### चरण 1: धन के छिपे होने सुनिश्चित करें
+### चरण 1: सुनिश्चित करें कि धनराशि शील्डेड है
 
-अगर आपके धन एक प्रतिबंधित एड्रेस में है:
-- पहले उन्हें छिपे एड्रेस में ले जाएं
-
-
-### चरण 2: छिपे से छिपे के भेजें
-हमेशा `z to z` लेनदेन पसंद करें
-
-यह अधिकतम गोपनीयता सुनिश्चित करता है।
+यदि आपकी धनराशि किसी ट्रांसपेरेंट (transparent) एड्रेस में है:
+- पहले उसे किसी शील्डेड एड्रेस में ले जाएँ
 
 
-### चरण 3: पहचान के लिंक को बचाएं
+### चरण 2: शील्डेड से शील्डेड में भेजें
+हमेशा `z to z` लेनदेन को प्राथमिकता दें
 
-कभी नहीं:
-- लेनदेन को सार्वजनिक रूप से घोषित करें
-- अलग-अलग प्रसंगों में एक ही एड्रेस का उपयोग करें
-- एड्रेस को ज्ञात पहचान से लिंक करें
+इससे अधिकतम गोपनीयता सुनिश्चित होती है।
 
-### चरण 4: समय के पैटर्न की ओर ध्यान दें
+
+### चरण 3: पहचान से जुड़ाव से बचें
+
+ऐसा बिल्कुल न करें:
+- लेनदेन की सार्वजनिक घोषणा
+- अलग-अलग संदर्भों में एक ही एड्रेस का दोबारा उपयोग
+- एड्रेस को ज्ञात पहचानों से जोड़ना
+
+### चरण 4: समय के पैटर्न पर विचार करें
 
 उन्नत सुझाव:
-- बड़ी मात्रा में प्राप्ति के तुरंत बाद भेजने से बचें
-- जहाँ संभव हो उतना ही अपूर्व पैटर्न बनाएं
+- बड़ी राशि प्राप्त करने के तुरंत बाद भेजने से बचें
+- जहाँ संभव हो, अनुमानित पैटर्न तोड़ें
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> बचाव के लिए सामान्य गलतियाँ
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> आम गलतियाँ जिनसे बचना चाहिए
 
-- प्रतिबंधित एड्रेस से सीधे भेजना  
-- अलग-अलग व्यक्तियों के बीच एड्रेस का दोहरा उपयोग
-- लेनदेन के सार्वजनिक पुष्टि
-- मेटाडेटा (समय, आवृत्ति) की ओर ध्यान देना बंद कर दें
+- ट्रांसपेरेंट एड्रेस से सीधे भेजना  
+- कई लोगों के साथ एक ही एड्रेस का दोबारा उपयोग  
+- लेनदेन की सार्वजनिक रूप से पुष्टि करना  
+- मेटाडेटा (समय, आवृत्ति) को अनदेखा करना
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> परिणाम
 
-आप कर सकते हैं:
-- धन को गोपनीय रूप से भेजें
-- अपनी पहचान के लिंक को बचाएं
-- ट्रैकिंग को कम करें
+आप:
+- निजी रूप से धनराशि भेज सकते हैं
+- अपनी पहचान जुड़ने से बचा सकते हैं
+- ट्रेस किए जाने की संभावना कम कर सकते हैं
 
 <br/>
 
@@ -101,12 +102,12 @@ Zcash **पूरी तरह से गोपनीय ट्रांसफ�
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> प्रगति
 
-**6 में से 2 चरण**
+**6 में से चरण 2**
 
-अब आप अपनी पहचान को बाहर रखे बिना धन को गोपनीय रूप से भेज सकते हैं।
+अब आप अपनी पहचान उजागर किए बिना निजी रूप से धनराशि भेज सकते हैं।
 
 <br/>
 
 ## अगला चरण
 
-- [फ्रीलांसर गोपनीयता सेटअप](/zcash-use-cases/freelance-privacy-setup)
+- [फ़्रीलांसर के लिए गोपनीयता सेटअप](/zcash-use-cases/freelance-privacy-setup)

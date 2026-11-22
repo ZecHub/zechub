@@ -18,9 +18,7 @@ N'adịghị ka usoro client-server ọdịnala nke ịntanetị, IPFS na-enye n
 
 A na-enye faịlụ ndị dị na IPFS adreesị site n'iji *adreesị ọdịnaya [content-addressing]*, nke pụtara na a na-enye faịlụ ọ bụla hash pụrụ iche ma ọ bụ NJIRIMARA ỌDỊNAYA (CID) dabere n’ọdịnaya ya, a na-ejikwa hash a weghachite faịlụ ahụ site na netwọk.
 
-Mgbe onye ọrụ tinyere faịlụ na IPFS, a na-ekewa faịlụ ahụ n'ime obere akụkụ a na-akpọ block [blocks], a na-enyekwa block ọ bụla CID. A na-echekwa block ndị a na node dị iche iche n'ime netwọk, ka e wee nwee ike weghachite faịlụ ahụ n'ụzọ dị mfe site n'ọtụtụ ebe.
-
-Nke a na-ahụ na e nwere nkwado ndabere na nnagide mmejọ, ma na-emekwa ka o sie ike ka node ọ bụla bụrụ otu ebe ọdịda ma ọ bụ njikwa.
+IPFS na-echekwa ọdịnaya dị ka block ndị a na-amata site na CID. Itinye faịlụ na-echekwa ya na node gị; ọ naghị eji onwe ya depụtaghachi ya na node ndị ọzọ. Debe otu mbipụta a na-enweta n'ịntanetị, ma ọ bụ hazie ịpịn n'ebe dị anya (remote pinning), ka ndị ọgụgụ ndị ọzọ wee nwee ike weghachite ya. Lee [ịdịgide nke IPFS](https://docs.ipfs.tech/concepts/persistence/).
 
 **Gụọ: [Mmalite maka IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,22 +32,29 @@ Maka ihe atụ a, anyị na-emepụta weebụsaịtị dị mfe.
 
 **Nzọụkwụ 2:** Jiri [template HTML!](https://nicepage.com/html-templates). Tapawa ederede ị dere n'ime ya dịka o kwesịrị. Ị nwekwara ike ịmepụta akwụkwọ ụdị .CSS maka weebụsaịtị gị.
 
-**Nzọụkwụ 3:** Chekwaa directory gị. Ibe .html niile na onyonyo ga-adịrị n'otu Folder.
+**Nzọụkwụ 3:** Tinye ibe mbụ (homepage) nke weebụsaịtị gị n'ime `index.html` na mgbọrọgwụ (root) nke folda saịtị ahụ. Tinyekwa onyonyo ya na CSS ya, jiri ụzọ mmekọ (relative paths) dịka `style.css` ka ha wee rụọkwa ọrụ n'okpuru URL ọnụ ụzọ (gateway) IPFS.
 
 ## Ịhazi Node
 
-Budata ma wụnye IPFS site na [weebụsaịtị gọọmenti](https://docs.ipfs.tech/install/ipfs-desktop/).
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) na-elekọta node ahụ maka gị. Biko hapụ ya ka ọ na-arụ ọrụ mgbe ị na-ekesa saịtị gị.
 
-### Malite IPFS:
+Maka [ụzọ command-line (command-line route)](https://docs.ipfs.tech/how-to/command-line-quick-start/), malite repository ọhụrụ otu ugboro:
 
-Ọ bụrụ na ị na-eji Ngwa Desktop, ị gaghị achọ ịmalite ya.
+```sh
+ipfs init
+```
 
-N'iji Terminal ma ọ bụ command prompt, gbaa iwu a: ipfs init
+Mgbe ahụ, malite node ahụ ma hapụ terminal a ka ọ ghere oghe:
+
+```sh
+ipfs daemon
+```
+
+Mee iwu ndị fọdụrụ na terminal nke abụọ. Ebidola daemon nke abụọ ma ọ bụrụ na IPFS Desktop na-ejikwalarị repository a.
 
 ### **Tinye Folder Saịtị na IPFS**:
 
-Họrọ folder nwere faịlụ weebụsaịtị gị, gaa na nhọrọ Add Folder.
-
+Na IPFS Desktop, họrọ folda nwere faịlụ weebụsaịtị gị site n'iji nhọrọ Tinye Folda (Add Folder).
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -57,29 +62,29 @@ Họrọ folder nwere faịlụ weebụsaịtị gị, gaa na nhọrọ Add Fold
 
 –
 
-Ọ bụrụ na ị na-eji Terminal, gbaa iwu a: ipfs add -r folder_name iji tinye folder niile na IPFS n'usoro recursive.
+Maka ụzọ CLI (command-line interface), mee nke a site na ndekọ nne (parent directory) nke folda saịtị gị:
+
+```sh
+ipfs add -r folder_name
+```
+
+Dochie `folder_name` na aha folda gị (tinye aha nwere oghere n'ime akara nkọwa). Chekwaa CID dị n'ahịrị `added ... folder_name` ikpeazụ: ọ na-amata ndekọ (directory) ahụ dum, ọ bụghị naanị `index.html`.
 
 ### Tụọ Saịtị na IPFS:
 
-Ozugbo etinyere faịlụ weebụsaịtị gị na IPFS, ị ga-**pin** ha iji hụ na ha ka dị na netwọk.
+Iwu CLI `ipfs add` na-atụdo (pin) ọdịnaya ebubatara n'ime kọmputa gị dị ka ndabara. Lelee pin nke folder ahụ site na:
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-Ọ bụrụ na ị na-eji Terminal, gbaa iwu a: Ọ bụrụ na ị na-eji Terminal, gbaa iwu a: ipfs pin add **hash**
-
-**hash** = CID nke folder ị tinyere na nzọụkwụ gara aga.
-
-N'aka nke ọzọ, ị nwekwara ike ịpin directory site na ọrụ dịka [Pinata](https://pinata.cloud/) ma ọ bụ [Dolpin](https://dolpin.io/)
-
-Ọ na-echekwa ọtụtụ oge!
-
-–
+Dochie `YOUR_FOLDER_CID` na CID sitere na nzọụkwụ gara aga; ihe ọ ga-egosipụta kwesịrị ịbụ `recursive`. Ịpịn (pinning) na-echebe mbipụta node a ka a ghara ihichapụ ya site na nhicha ihe mkpofu (garbage collection), mana ọ naghị eme ka kọmputa a gbanyụrụ agbanyụ nọrọ n'ịntanetị. Ka ihe ahụ dịrị mgbe node gị anọghị n'ịntanetị, hazie [ịpịn n'ebe dị anya](https://docs.ipfs.tech/how-to/work-with-pinning-services/) ma kwenye na ọrụ ahụ dị n'ebe dị anya ewechaala ịpịn ya.
 
 ### Nweta weebụsaịtị gị na IPFS:
 
-E bipụtala weebụsaịtị gị ugbu a na IPFS, ma enwere ike ịnweta ya site n'iji hash nke folder ahụ. Iji nweta weebụsaịtị gị, ị nwere ike ịga na https://ipfs.io/ipfs/**hash**
+Buru ụzọ lelee saịtị gị site na ọnụ ụzọ mpaghara (local gateway) dị na `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` (jiri nọmba port nke ọnụ ụzọ ahụ daemon gị bipụtara ma ọ bụrụ na ọ dị iche). Akara slash dị na njedebe na-eme ka njikọ ndị metụtara ya (relative links) rụọ ọrụ n'ime ndekọ ahụ (directory).
 
-**hash** = CID nke folder ahụ.
+Ọnụ ụzọ ọha (public gateway) dị ka `https://ipfs.io/ipfs/YOUR_FOLDER_CID/` nwere ike ijere ya ozi ozugbo o nwere ike iweta ọdịnaya ahụ site na node a na-enweta. Nlele mbụ (preview) nke na-aga nke ọma na kọmputa gị anaghị egosi na ọha mmadụ nwere ike ịnweta ya.
 
 N'ọnọdụ anyị, CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
@@ -108,15 +113,20 @@ A pụkwara iji ya lee saịtị anyị site na gateway: https://ipfs.io/ipns/k5
 
 E mepụtala saịtị ahụ; ugbu a, anyị chọrọ ụzọ iji tụọ URL gaa na ọdịnaya ahụ.
 
-Ọ bụrụ na i nweelarị adreesị weebụ, ị nwere ike itinye record ọhụrụ site n'iji TXT record _dnslink(domain gị). Dabere na provider, ọ nwere ike iji aka ya jupụta.
+Maka `example.com`, tinye ndekọ DNS a (DNS record), dochie `YOUR_FOLDER_CID` na CID nke ndekọ faịlụ (directory) gị:
 
+| Ụdị | Aha | Uru |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Ụfọdụ ndị na-enye ọrụ DNS (DNS providers) na-agbakwunye zone ahụ n'onwe ha; tinye naanị `_dnslink` ebe ahụ. Ọ bụrụ na ị na-eji aha IPNS dị n'elu, uru ya nwere ike ịbụ `dnslink=/ipns/YOUR_IPNS_NAME` kama. Lee [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 
-Ọ ga-ewe oge ịgbasa n'ime netwọk tupu ị nwee ike ịhụ ya.
+Mgbe DNS gbasasịrị (propagation), nwalee `https://ipfs.io/ipns/example.com/`. Ije ozi saịtị ahụ ozugbo na `https://example.com/` chọkwara gateway nwere ike ịrụ ọrụ DNSLink na nhazi HTTPS; naanị ndekọ TXT ahụ anaghị edozi ihe ndị ahụ. Soro [ntuziaka custom-domain](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
 *Ekele! Ị nwere ugbu a weebụsaịtị na-eguzogide censorship.*
 

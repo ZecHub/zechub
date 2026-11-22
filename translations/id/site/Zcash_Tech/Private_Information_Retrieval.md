@@ -1,97 +1,123 @@
-# Pengambilan informasi pribadi
+# Pengambilan Informasi Privat
 
-## Ringkasan Singkat
+## Ringkasan
 
-- Private information retrieval, atau PIR, memungkinkan sebuah perangkat mengambil satu item dari database server tanpa membuat server mengetahui item mana yang diminta
-- Zcash membutuhkan ini karena dompet pribadi tidak dapat menanyakan transaksi mana yang miliknya kepada server tanpa mengungkap identitasnya sendiri
-- Saat ini, dompet mengunduh dan memindai jauh lebih banyak data daripada yang mereka butuhkan, yang menjadi alasan utama mengapa sinkronisasi berjalan lambat
-- PIR akan memungkinkan sebuah dompet mengambil datanya sendiri secara privat, menghilangkan hambatan tersebut sambil tetap menjaga privasi tetap utuh
-- Ini adalah area penelitian aktif bagi Zcash, sangat kuat secara teori, dan sedang diupayakan agar dapat diterapkan secara praktis untuk dompet nyata
+- Pengambilan informasi privat, atau PIR, memungkinkan perangkat mengambil satu item dari basis data server tanpa server mengetahui item mana yang diminta
+- Zcash membutuhkannya karena dompet privat tidak dapat bertanya kepada server transaksi mana yang merupakan miliknya tanpa mengungkapkan identitasnya
+- Saat ini, dompet mengunduh dan memindai jauh lebih banyak data daripada yang dibutuhkan, yang menjadi salah satu alasan utama sinkronisasi berjalan lambat
+- PIR akan memungkinkan dompet mengambil hanya datanya sendiri secara privat, menghilangkan hambatan tersebut sekaligus menjaga privasi
+- Ini merupakan bidang riset aktif untuk Zcash, secara teoretis sangat menjanjikan, dan sedang dibuat praktis untuk dompet sungguhan
+- Demonstrasi langsung sudah tersedia: [ZecBlock Private](https://private.zecblock.com) adalah block explorer Zcash berbasis PIR pertama yang lengkap (transaksi, blok, dan alamat)
 
-<br/>
+## Untuk siapa halaman ini
 
-## Untuk siapa ini ditujukan
+- Siapa pun yang pernah bertanya-tanya bagaimana dompet privat menemukan koinnya sendiri tanpa membocorkan koin mana
+- Pendatang baru yang sering melihat PIR disebut bersama upaya penskalaan Zcash
+- Pembaca yang ingin memahami konsepnya terlebih dahulu, lalu kriptografi di baliknya
+- Siapa pun yang tertarik pada block explorer berbasis PIR yang sudah berfungsi
 
-- Siapa pun yang pernah bertanya-tanya bagaimana sebuah dompet pribadi menemukan koinnya sendiri tanpa membocorkan koin mana saja itu
-- Pendatang baru yang terus melihat PIR disebutkan bersamaan dengan pekerjaan penskalaan Zcash
-- Pembaca yang ingin memahami konsepnya terlebih dahulu dan kriptografinya setelah itu
+## Masalah yang diatasi PIR untuk Zcash
 
-<br/>
+Zcash menyembunyikan siapa penerima suatu transaksi. Privasi itu menimbulkan pertanyaan yang sulit: jika jaringan tidak dapat melihat transaksi mana yang menjadi milik Anda, bagaimana dompet Anda sendiri menemukannya?
 
-## Masalah yang diselesaikan PIR untuk Zcash
+Saat ini, jawabannya sederhana. Dompet tidak dapat bertanya kepada server transaksi mana yang menjadi milik saya, karena pertanyaan itu akan mengungkapkan hal yang berusaha disembunyikan oleh Zcash. Jadi, dompet mengunduh banyak data lalu memeriksa setiap item secara lokal untuk mengetahui mana yang menjadi miliknya. Cara ini berhasil dan menjaga privasi, tetapi lambat dan membebani perangkat. Pemindaian ini adalah salah satu alasan utama sinkronisasi dompet terasa lamban.
 
-Zcash menyembunyikan untuk siapa sebuah transaksi ditujukan. Privasi tersebut menimbulkan pertanyaan yang sulit: jika jaringan tidak dapat melihat transaksi mana yang milik Anda, bagaimana dompet Anda sendiri menemukannya?
-
-Hari ini jawabannya sangat lugas. Sebuah dompet tidak dapat bertanya kepada server transaksi mana yang milik saya, karena pertanyaan tersebut akan mengungkap dengan tepat apa yang sedang coba disembunyikan oleh Zcash. Jadi sebagai gantinya, dompet mengunduh data dalam jumlah besar dan memeriksa setiap item secara lokal untuk melihat apa yang menjadi miliknya. Cara ini berhasil, dan menjaga privasi, tetapi lambat dan berat. Pemindaian ini adalah salah satu alasan utama mengapa sinkronisasi dompet dapat terasa lamban.
-
-Idealnya adalah sebuah cara bagi dompet untuk meminta data miliknya secara tepat kepada server, dan menerimanya, tanpa server tersebut pernah mengetahui apa yang diminta. Itulah tepatnya yang disediakan oleh *private information retrieval*.
-
-<br/>
+Idealnya, dompet dapat meminta data yang benar-benar menjadi miliknya dari server dan menerimanya tanpa server mengetahui apa yang diminta. Itulah yang disediakan oleh pengambilan informasi privat.
 
 ## Apa itu PIR
 
-Pengambilan informasi privat adalah metode kriptografi yang memungkinkan klien membaca satu entri dari basis data server tanpa mengungkapkan kepada server entri mana yang telah dibaca.
+Pengambilan informasi privat adalah metode kriptografi yang memungkinkan client membaca satu entri dari basis data server tanpa mengungkapkan kepada server entri mana yang dibaca.
 
-Bayangkan sebuah perpustakaan di mana Anda dapat menerima buku yang persis Anda inginkan, tetapi pustakawan tidak pernah tahu buku mana yang mereka berikan kepada Anda. Anda mendapatkan barang Anda, dan minat Anda tetap terjaga privasinya. PIR adalah versi matematis dari ide tersebut, yang diterapkan pada basis data apa pun.
+Bayangkan sebuah perpustakaan tempat Anda bisa menerima buku yang tepat Anda inginkan, tetapi pustakawan tidak pernah tahu buku mana yang diberikan kepada Anda. Anda mendapatkan item yang diminta, sementara minat Anda tetap privat. PIR adalah versi matematis dari gagasan itu, yang diterapkan pada basis data apa pun.
 
-Konsep ini telah dipelajari dalam kriptografi selama beberapa dekade. Konsep ini pertama kali diperkenalkan pada tahun 1995 oleh Chor, Goldreich, Kushilevitz, dan Sudan, yang mendeskripsikan pendekatan multi-server, dan versi single server pertama menyusul pada tahun 1997 dari Kushilevitz dan Ostrovsky. Ini bukanlah sesuatu yang diciptakan oleh Zcash, melainkan sebuah bidang mapan yang kini diterapkan oleh Zcash pada masalah nyata dan sulit.
+Konsep ini telah dipelajari dalam kriptografi selama puluhan tahun. Konsep ini pertama kali diperkenalkan pada 1995 oleh Chor, Goldreich, Kushilevitz, dan Sudan, yang menjelaskan pendekatan dengan beberapa server. Versi server tunggal pertama menyusul pada 1997, dari Kushilevitz dan Ostrovsky. PIR bukan sesuatu yang diciptakan oleh Zcash; ini adalah bidang mapan yang kini diterapkan oleh Zcash untuk mengatasi masalah nyata yang sulit diselesaikan.
 
-<br/>
+## Cara kerja PIR, tingkat dasar
 
-## Bagaimana cara kerja PIR, pada tingkat pertama
+Ada dua pendekatan umum untuk membangun PIR, dan perbedaannya penting.
 
-Ada dua cara luas untuk membangun PIR, dan perbedaannya sangat penting.
+Pendekatan pertama menggunakan beberapa server. Client mengirimkan sebagian kueri kepada masing-masing server, lalu menggabungkan jawaban mereka secara lokal. Tidak satu pun server memiliki cukup informasi untuk mengetahui apa yang diminta. Cara ini efisien, tetapi bergantung pada server yang tidak berkolusi satu sama lain, sesuatu yang sulit dijamin di dunia nyata.
 
-Metode pertama menggunakan beberapa server. Klien mengirimkan sebagian dari kueri ke masing-masing dari beberapa server tersebut, lalu menggabungkan jawaban mereka secara lokal. Tidak ada satu pun server yang melihat informasi yang cukup untuk mengetahui apa yang diminta. Hal ini efisien, namun bergantung pada kondisi di mana server-server tersebut tidak berkolusi satu sama lain, yang mana sulit untuk dijamin dalam dunia nyata.
+Pendekatan kedua menggunakan satu server dan kriptografi cerdas sebagai pengganti beberapa pihak. Di sini, client mengandalkan alat khusus bernama enkripsi homomorfik. Pendekatan ini paling berguna untuk penerapan nyata karena tidak memerlukan beberapa server yang tidak berkolusi.
 
-Metode kedua menggunakan satu server tunggal dan kriptografi yang cerdas alih-alih banyak pihak. Di sini klien mengandalkan alat khusus yang disebut homomorphic encryption, dan inilah arah yang paling berguna untuk penerapan nyata, karena tidak memerlukan banyak server yang tidak berkolusi.
+## Mekanismenya: enkripsi homomorfik
 
-<br/>
+Enkripsi homomorfik adalah jenis enkripsi yang memungkinkan server melakukan komputasi atas data selagi data tersebut tetap terenkripsi. Server menghasilkan jawaban terenkripsi yang benar tanpa pernah melihat nilai yang mendasarinya.
 
-## Mekanisme: enkripsi homomorfik
+Berikut gagasan di balik PIR server tunggal yang dibangun dengan cara ini. Client menginginkan item nomor tiga dari sebuah daftar. Client membuat kueri yang pada dasarnya berupa jawaban ya terenkripsi untuk posisi tiga dan jawaban tidak terenkripsi untuk setiap posisi lainnya. Bagi server, kueri ini hanyalah derau yang tidak bermakna; server tidak dapat mengetahui posisi yang berisi jawaban ya.
 
-Enkripsi homomorfik adalah sejenis enkripsi yang memungkinkan server melakukan komputasi pada data selama data tersebut tetap terenkripsi. Server menghasilkan jawaban terenkripsi yang benar tanpa pernah melihat nilai-nilai dasarnya.
+Server kemudian menggabungkan basis datanya dengan kueri terenkripsi menggunakan sifat khusus enkripsi homomorfik, yaitu mengalikan setiap item tersimpan dengan jawaban ya atau tidak terenkripsi yang sesuai, lalu menjumlahkan hasilnya. Hasilnya berupa satu paket terenkripsi yang hanya berisi item yang diinginkan client, tanpa mengungkapkan item yang dimaksud. Client mendekripsi paket itu dan membaca itemnya. Server telah menjawab pertanyaan tersebut tanpa pernah mengetahui pertanyaannya.
 
-Berikut adalah ide di balik PIR single-server yang dibangun dengan cara ini. Klien menginginkan item nomor tiga dari sebuah daftar. Klien membuat kueri yang, pada dasarnya, merupakan "ya" terenkripsi untuk posisi ketiga dan "tidak" terenkripsi untuk setiap posisi lainnya. Bagi server, kueri ini hanyalah derau (noise) yang tidak berarti; server tidak dapat mengetahui posisi mana yang berisi jawaban "ya".
+Versi yang lebih kuat, disebut PIR simetris, menambahkan jaminan kedua: client hanya mempelajari item yang dimintanya dan tidak mengetahui apa pun tentang entri lain dalam basis data. Ini melindungi basis data sekaligus client.
 
-Server kemudian menggabungkan basis datanya dengan kueri terenkripsi ini menggunakan properti khusus dari enkripsi homomorfik, mengalikan setiap item yang tersimpan dengan jawaban "ya" atau "tidak" terenkripsi yang sesuai dan menjumlahkan hasilnya. Hasil akhirnya adalah sebuah paket terenkripsi tunggal yang berisi tepat item yang diinginkan klien, dan tidak ada satu pun yang mengungkapkan item mana itu. Klien mendekripsi paket tersebut dan membaca isinya. Server telah menjawab pertanyaan tersebut tanpa pernah mengetahui apa pertanyaannya.
+## Penjelasan lebih mendalam bagi pembaca teknis
 
-Versi yang lebih kuat, yang disebut symmetric PIR, menambahkan jaminan kedua: klien hanya mempelajari item yang diminta dan tidak ada informasi apa pun mengenai entri lain dalam basis data. Hal tersebut melindungi basis data sekaligus klien.
+Skema server tunggal modern dibangun di atas kriptografi kisi, yang paling umum menggunakan asumsi learning with errors. Kueri client berupa vektor ciphertext: enkripsi bernilai satu pada indeks target dan nol di tempat lain. Enkripsi ini bersifat homomorfik secara aditif, sehingga server dapat menjumlahkan ciphertext dan mengalikannya dengan entri basis data plaintext tanpa melakukan dekripsi.
 
-<br/>
+Server memperlakukan basis data sebagai matriks, menerapkan vektor seleksi terenkripsi, lalu mengembalikan satu ciphertext yang akan didekripsi menjadi baris yang diinginkan. Karena kueri tidak dapat dibedakan dari derau acak, server tidak memperoleh informasi tentang indeks tersebut.
 
-## Penjelasan lebih mendalam untuk pembaca teknis
+Hambatan historisnya selalu berupa biaya. Secara naif, server harus mengakses setiap entri dalam basis data untuk setiap kueri, yang mahal dari segi komputasi, sementara ukuran ciphertext besar dan mahal dari segi bandwidth. Riset terbaru mengatasi masalah ini dengan prapemrosesan. Skema seperti SimplePIR dan FrodoPIR memungkinkan server menyiapkan basis data terlebih dahulu dan memberikan petunjuk kecil kepada setiap client. Sebagian besar pekerjaan dipindahkan ke fase offline sehingga kueri langsung dapat diproses dengan cepat. Manfaat tambahan yang berguna adalah bahwa konstruksi berbasis kisi juga dianggap tahan terhadap serangan kuantum, sejalan dengan peralihan Zcash yang lebih luas menuju privasi pascakuantum.
 
-Skema single-server modern dibangun di atas kriptografi lattice, yang paling umum adalah asumsi learning with errors. Query klien berupa vektor ciphertext, sebuah enkripsi dari satu nilai pada indeks target dan nol di tempat lain, dan enkripsinya bersifat additively homomorphic, sehingga server dapat menjumlahkan ciphertext dan mengalikannya dengan entri database plaintext tanpa melakukan dekripsi.
+## PIR di Zcash
 
-Server memperlakukan basis data sebagai sebuah matriks, menerapkan vektor seleksi terenkripsi, dan mengembalikan satu ciphertext tunggal yang jika didekripsi akan menghasilkan baris yang diinginkan. Karena kueri tersebut tidak dapat dibedakan dari noise acak, server tidak memperoleh informasi apa pun mengenai indeksnya.
+PIR merupakan bagian dari upaya untuk membuat Zcash tetap privat dan cepat dalam skala besar.
 
-Hambatan historisnya selalu berupa biaya. Secara naif, server harus menyentuh setiap entri dalam database untuk setiap kueri, yang mana mahal dalam hal komputasi, dan ciphertext berukuran besar, yang mana mahal dalam hal bandwidth. Penelitian terbaru mengatasi hal ini dengan preprocessing; skema seperti SimplePIR dan FrodoPIR memungkinkan server menyiapkan database sebelumnya dan memberikan petunjuk kecil kepada setiap client, memindahkan sebagian besar pekerjaan ke fase offline sehingga kueri langsung menjadi cepat. Manfaat sampingan yang berguna adalah konstruksi berbasis lattice juga dianggap tahan terhadap serangan kuantum, yang selaras dengan langkah Zcash yang lebih luas menuju privasi pasca-kuantum.
+Hambatan pemindaian dompet yang dijelaskan sebelumnya adalah sasaran utamanya. Riset di Valar Group mengembangkan teknik pengambilan informasi privat agar dompet dapat mengambil datanya sendiri dari server tanpa server mengetahui entri mana yang diminta. Salah satu penerapan konkretnya adalah memeriksa nullifier secara privat. Nullifier adalah penanda unik yang dipublikasikan ketika sebuah note dibelanjakan, sehingga dana yang sama tidak dapat dibelanjakan dua kali. Dompet sering kali perlu memeriksa apakah nullifier tertentu sudah muncul—dengan kata lain, apakah note masih belum dibelanjakan. Jika pemeriksaan itu dilakukan melalui server saat ini, informasi tentang note yang ditanyakan dapat bocor. Pengambilan informasi privat memungkinkan dompet mengajukan pertanyaan tersebut tanpa mengungkapkan nullifier mana yang ingin diperiksanya. Ini melengkapi upaya penskalaan lain, termasuk Project Tachyon dan perangkat lunak node baru, yang bertujuan menghilangkan batas kinerja yang saat ini menghambat dompet privat.
 
-<br/>
+Penting untuk menjelaskan tahap pengembangannya dengan jujur. Ini masih berupa riset dan rekayasa aktif, belum menjadi fitur final yang sudah dirilis. Konsepnya sudah mapan dan arahnya sudah ditentukan, tetapi membuat PIR cukup efisien untuk dompet sehari-hari pada perangkat biasa adalah bagian sulit yang sedang dikerjakan.
 
-## PIR dalam Zcash
+## Contoh langsung: ZecBlock Private
 
-PIR adalah bagian dari upaya untuk membuat Zcash menjadi privat sekaligus cepat dalam skala besar.
+Pada November 2026, ZecBlock meluncurkan **ZecBlock Private** (private.zecblock.com), versi explorer mereka yang menggunakan pengambilan informasi privat untuk pencarian transaksi, blok, dan alamat.
 
-Hambatan pemindaian dompet yang dijelaskan sebelumnya adalah target utamanya. Tim di Valar Group sedang mengembangkan teknik *private information retrieval* agar sebuah dompet dapat mengambil datanya sendiri dari server tanpa membuat server mengetahui entri mana yang diminta. Salah satu penerapan konkretnya adalah memeriksa *nullifier* secara privat. *Nullifier* adalah penanda unik yang dipublikasikan saat sebuah *note* digunakan, yang mencegah dana yang sama digunakan dua kali. Sebuah dompet sering kali perlu memeriksa apakah suatu *nullifier* tertentu sudah muncul atau belum, dengan kata lain apakah sebuah *note* masih belum digunakan, dan melakukan hal tersebut melalui server saat ini dapat membocorkan *note* mana yang sedang ditanyakan. *Private information retrieval* memungkinkan dompet mengajukan pertanyaan tersebut tanpa mengungkapkan *nullifier* mana yang menjadi perhatiannya. Hal ini berjalan berdampingan dengan upaya penskalaan lainnya, termasuk Project Tachyon dan perangkat lunak node baru, yang bertujuan untuk menghilangkan batasan performa yang menghambat dompet terlindungi saat ini.
+Ini adalah block explorer Zcash lengkap pertama (mencakup transaksi, blok, dan alamat) yang dibangun dengan PIR. Demonstrasi explorer PIR sebelumnya terbatas pada kueri yang lebih sempit, seperti saldo alamat.
 
-Sangat penting untuk bersikap jujur mengenai tahapannya. Ini adalah penelitian dan rekayasa aktif, bukan fitur yang sudah selesai atau dirilis. Konsepnya sudah mapan dan arahnya telah ditetapkan, namun membuat PIR cukup efisien untuk dompet sehari-hari pada perangkat biasa adalah bagian tersulit yang sedang dikerjakan saat ini.
+### Cara kerja pencarian privat
 
-<br/>
+- Kueri (ID transaksi, tinggi/hash blok, atau alamat) dienkripsi sepenuhnya di browser sebelum dikirim.
+- Server memproses seluruh dataset yang dipublikasikan tanpa mengetahui catatan mana yang diminta.
+- Server mengembalikan satu respons terenkripsi yang hanya dapat didekripsi oleh browser.
+- Pencarian atas sesuatu yang ada tidak dapat dibedakan dari pencarian atas sesuatu yang tidak ada (ukuran dan bentuk permintaan sama).
+
+Setelah setiap pencarian, situs menampilkan ringkasan singkat tentang hal yang dikirim secara persis, sehingga sifat privasinya mudah diperiksa.
+
+### Langkah verifikasi
+
+Setiap publikasi data ditandatangani. Browser memverifikasi tanda tangan pada setiap hasil sebelum menampilkannya, sehingga server yang berbahaya atau mengalami kesalahan tidak dapat mengganti data dengan data lain.
+
+### Kemutakhiran data
+
+Blok baru dipublikasikan setiap beberapa detik. Data di private explorer biasanya hanya berselisih sekitar 20 detik dari explorer ZecBlock biasa.
+
+### Biaya bandwidth
+
+PIR lebih mahal daripada pencarian biasa karena server harus mengakses seluruh dataset:
+
+- Pencarian transaksi: sekitar 1,2 MB diunggah
+- Pencarian alamat: sekitar 0,4 MB diunggah
+
+Inilah biaya praktis agar server tidak mengetahui apa pun tentang kueri.
+
+### Implementasi client
+
+Client browser adalah wrapper Rust → WebAssembly (saat ini berada di repositori ZecBlock di bawah `prototype/pir-browser`). Wrapper ini dibangun di atas pustaka PIR open source dari Valar Group. Wrapper ini belum diterbitkan sebagai paket npm mandiri, tetapi penerbitannya direncanakan.
+
+### Perbedaan dengan PIR untuk dompet
+
+ZecBlock Private mendemonstrasikan PIR untuk data chain **publik** (mencari transaksi, blok, atau alamat yang sudah diketahui tanpa mengungkapkan yang mana). Ini **tidak** menyelesaikan masalah dompet yang lebih sulit: menemukan secara privat note mana yang menjadi milik suatu viewing key atau memeriksa secara privat nullifier untuk note yang belum dibelanjakan. Hal-hal tersebut masih menjadi bidang riset aktif.
 
 ## Kesalahpahaman umum
 
-- PIR menyembunyikan item mana yang Anda minta, namun tidak selalu menyembunyikan fakta bahwa Anda menghubungi server sama sekali; metadata pada tingkat jaringan adalah masalah terpisah
-- PIR tidak hanya unik untuk Zcash, melainkan merupakan alat kriptografi umum yang diterapkan oleh Zcash untuk privasi dompet
-- Sinkronisasi yang lebih cepat melalui PIR adalah tujuan yang sedang dalam proses pengembangan, bukan fitur yang sudah tersedia di dalam dompet
-- Mengunduh semuanya dan memindai secara lokal, yang merupakan pendekatan saat ini, bersifat privat namun lambat; PIR bertujuan untuk menjaga privasi sambil menghilangkan kelambatan tersebut
-
-<br/>
+- PIR menyembunyikan item yang Anda minta, tetapi belum tentu menyembunyikan bahwa Anda menghubungi server; metadata pada tingkat jaringan adalah persoalan terpisah
+- PIR tidak hanya ada di Zcash; ini adalah alat kriptografi umum yang diterapkan oleh Zcash untuk privasi dompet
+- Sinkronisasi yang lebih cepat berkat PIR masih menjadi sasaran yang sedang diupayakan, bukan fitur yang sudah tersedia di dompet
+- Mengunduh semuanya lalu memindainya secara lokal, pendekatan saat ini, menjaga privasi tetapi lambat; PIR bertujuan mempertahankan privasi sekaligus menghilangkan kelambatan
 
 ## Halaman terkait
 
-- [Zcash Sinkronisasi Dompet](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - mengapa sinkronisasi bekerja seperti sekarang ini
-- [Node Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - model light client yang akan ditingkatkan oleh PIR
+- [Zcash Sinkronisasi Dompet](https://zechub.wiki/zcash-tech/zcash-wallet-syncing) - alasan sinkronisasi berjalan seperti sekarang
+- [Node Lightwallet](https://zechub.wiki/zcash-tech/lightwallet-nodes) - model light client yang dapat ditingkatkan dengan PIR
 - [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks) - alat kriptografi utama lainnya di balik privasi Zcash
-- [Keamanan Pasca-Quantum](https://zechub.wiki/zcash-tech/post-quantum-security) - mengapa metode berbasis lattice penting untuk masa depan
+- [Keamanan Pascakuantum](https://zechub.wiki/zcash-tech/post-quantum-security) - alasan metode berbasis kisi penting untuk masa depan
+- [ZecBlock](https://zecblock.com) - explorer publik utama
+- [Valar Group](https://zechub.wiki/zcash-organizations/valar-group) - developer pustaka PIR yang digunakan oleh prototipe explorer dan riset dompet

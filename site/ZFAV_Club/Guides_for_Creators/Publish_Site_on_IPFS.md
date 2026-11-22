@@ -18,9 +18,7 @@ Unlike the traditional client-server model of the internet, IPFS allows users to
 
 Files in IPFS are addressed using *content-addressing*, meaning each file is given a unique hash or CONTENT IDENTIFIER (CID) based on its content, and this hash is used to retrieve the file from the network.
 
-When a user adds a file to IPFS, the file is broken up into small pieces called blocks, and each block is given a CID. These blocks are then stored on different nodes in the network, so that the file can be easily retrieved from multiple sources.
-
-This ensures redundancy and fault-tolerance while also making it difficult for any one node to become a single point of failure or control.
+IPFS stores content as blocks identified by CIDs. Adding a file stores it on your node; it does not automatically copy it to other nodes. Keep a reachable copy online, or arrange remote pinning, so other readers can retrieve it. See [IPFS persistence](https://docs.ipfs.tech/concepts/persistence/).
 
 **Read: [An Introduction to IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,21 +32,29 @@ For this example we are creating a simple website.
 
 **Step 2:** Use a [HTML template!](https://nicepage.com/html-templates) Paste the text you have written accordingly. Optional to also create a .CSS stylesheet for your website.
 
-**Step 3:** Save your directory. All .html pages + images must be in the same Folder.
+**Step 3:** Put your homepage in `index.html` at the root of the site folder. Include its images and CSS, using relative paths such as `style.css` so they also work under an IPFS gateway URL.
 
 ## Setting up a Node
 
-Download and install IPFS from the [Official website](https://docs.ipfs.tech/install/ipfs-desktop/).
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/) manages the node for you. Keep it running while sharing your site.
 
-### Initialise IPFS:
+For the [command-line route](https://docs.ipfs.tech/how-to/command-line-quick-start/), initialize a new repository once:
 
-If you are using the Desktop Application you will not have to initialise.
+```sh
+ipfs init
+```
 
-Using a Terminal or command prompt, Run command: ipfs init
+Then start the node and leave this terminal open:
+
+```sh
+ipfs daemon
+```
+
+Run the remaining commands in a second terminal. Do not start a second daemon if IPFS Desktop already manages this repository.
 
 ### **Add Site Folder to IPFS**:
 
-Select the folder with your website files and navigate to the Add Folder option.
+In IPFS Desktop, select the folder with your website files using the Add Folder option.
 
 
 <a href="">
@@ -57,29 +63,29 @@ Select the folder with your website files and navigate to the Add Folder option.
 
 –
 
-If using Terminal, Run command: ipfs add -r folder_name to add the entire folder recursively to IPFS.
+For the CLI route, run this from the parent directory of your site folder:
+
+```sh
+ipfs add -r folder_name
+```
+
+Replace `folder_name` with your folder name (quote names containing spaces). Save the CID on the final `added ... folder_name` line: it identifies the whole directory, not just `index.html`.
 
 ### Pin Site on IPFS:
 
-Once your website files are added to IPFS, you need to **pin** them to ensure they remain available on the network.
+The CLI `ipfs add` command pins imported content locally by default. Check the folder pin with:
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-If using Terminal, Run command: If using Terminal, Run command: ipfs pin add **hash**
-
-**hash** = CID of the folder you added in the previous step.
-
-Alternatively, you are also able to pin directories using services such as [Pinata](https://pinata.cloud/) or [Dolpin](https://dolpin.io/)
-
-It saves a lot of time!
-
-–
+Replace `YOUR_FOLDER_CID` with the CID from the previous step; the output should say `recursive`. Pinning protects this node's copy from garbage collection, but does not keep a switched-off computer online. For availability while your node is offline, arrange [remote pinning](https://docs.ipfs.tech/how-to/work-with-pinning-services/) and confirm the remote service has finished pinning.
 
 ### Access your website on IPFS:
 
-Your website is now published on IPFS and can be accessed using the hash of the folder. To access your website, you can visit https://ipfs.io/ipfs/**hash**
+First check your site through the local gateway at `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/` (use the gateway port printed by your daemon if different). The trailing slash lets relative links resolve inside the directory.
 
-**hash** = CID of the folder.
+A public gateway such as `https://ipfs.io/ipfs/YOUR_FOLDER_CID/` can serve it once it can retrieve the content from a reachable node. A successful local preview does not prove public availability.
 
 In our case the CID = QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3
 
@@ -108,7 +114,13 @@ It can also be used to view our site via a gateway: https://ipfs.io/ipns/k51qzi5
 
 The site has been created, now we need a way to point a URL to the content.
 
-If you already own a web address you are able to add a new record using the TXT record _dnslink(your domain). Depending on provider it may auto populate.
+For `example.com`, add this DNS record, replacing `YOUR_FOLDER_CID` with your directory CID:
+
+| Type | Name | Value |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+Some DNS providers append the zone automatically; enter just `_dnslink` there. If using the IPNS name above, the value can instead be `dnslink=/ipns/YOUR_IPNS_NAME`. See [DNSLink](https://docs.ipfs.tech/concepts/dnslink/).
 
 
 <a href="">
@@ -116,7 +128,7 @@ If you already own a web address you are able to add a new record using the TXT 
 </a>
 
 
-It will take time to propagate through the network before you can view it.
+After DNS propagation, try `https://ipfs.io/ipns/example.com/`. Serving the site directly at `https://example.com/` also needs a DNSLink-capable gateway and HTTPS configuration; the TXT record alone does not set those up. Follow the [custom-domain guide](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/).
 
 *Congratulations! You now have a censorship resistant website.*
 

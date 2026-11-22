@@ -4,7 +4,7 @@
 
 # Node ya Zakura
 
-Zakura ni utekelezaji huru wa full node wa chanzo huria kwa ajili ya Zcash, uliojengwa kwa ajili ya kiwango kikubwa. Uligawanywa kutoka [Zebra](Zebra_Full_Node.md) na kuendelezwa kupitia ushirikiano kati ya **Valar Group** na **Project Tachyon**, Zakura hutoa ulandanishaji wa kasi zaidi kwa kiwango kikubwa, upunguzaji wa asili wa block, na safu ya uoanifu kwa zana za zamani za `zcashd`. Toleo la 1.0.0 lilitolewa tarehe 15 Julai 2026.
+Zakura ni utekelezaji huru wa full node wa chanzo huria kwa ajili ya Zcash, uliojengwa kwa ajili ya kiwango kikubwa. Uligawanywa kutoka [Zebra](Zebra_Full_Node.md) na kuendelezwa kupitia ushirikiano kati ya **Valar Group** na **Project Tachyon**, Zakura hutoa ulandanishaji wa kasi zaidi kwa kiwango kikubwa, upunguzaji wa asili wa block, na safu ya uoanifu kwa zana za zamani za `zcashd`. Toleo la 1.0.0 lilitolewa tarehe 15 Julai 2026. Matoleo yametolewa kwa kasi tangu wakati huo: 1.7.0 (22 Oktoba 2026) iliwasha NU7 kwenye Mainnet, na mfululizo wa 1.8 ukafuata mwezi Novemba.
 
 ---
 
@@ -16,6 +16,7 @@ Zakura ni utekelezaji huru wa full node wa chanzo huria kwa ajili ya Zcash, ulio
 - **Hali ya uoanifu ya RPC ya zcashd** huruhusu pochi na miunganisho iliyopo kufanya kazi bila marekebisho.
 - **Safu ya majaribio ya usafirishaji ya P2P** (imezimwa kwa chaguo-msingi) inalenga uenezaji wa block wa chini ya ms 500 wenye gossip inayokinza DoS.
 - Inaoana na **Ironwood (NU6.3)**, uboreshaji wa mtandao (network upgrade) wa Zcash ulioanzishwa katikati ya 2026.
+- Inafuata **NU7**: Zakura 1.7.0 ndiyo toleo linaloianzisha kwenye Mainnet. Kila toleo pia husitisha usaidizi katika block ya mwisho wa kipindi cha usaidizi wiki chache baada ya kutolewa, kwa hiyo panga kusasisha mara kwa mara (tazama Kabla Hujaendesha Hapa Chini).
 - **Zakura Common** (v1.3.0, Agosti 2026) huharakisha kriptografia inayotumiwa na pochi kuunda miamala ya faragha: kutoka zaidi ya sekunde 3 hadi chini ya ms 200 katika hali nyingi, kulingana na vigezo vya Zakura.
 - Inaongozwa na **Sean Bowe** (mwanzilishi mwenza wa Zcash, Project Tachyon) na **Dev Ojha** (Valar Group).
 
@@ -69,6 +70,10 @@ Safu hii inawakilisha onyesho la awali la maboresho ya baadaye ya kiwango cha mt
 
 Zakura inaoana kikamilifu na uboreshaji wa mtandao wa Ironwood (NU6.3), ulioanzishwa kwenye mainnet ya Zcash katikati ya 2026.
 
+### NU7
+
+Zakura 1.7.0, iliyotolewa tarehe 22 Oktoba 2026, ndiyo toleo linalowasha NU7 kwenye Mainnet ([maelezo ya toleo](https://github.com/zakura-core/zakura/releases/tag/v1.7.0)). Node inahitaji toleo la 1.7.0 au jipya zaidi ili kufuata mnyororo baada ya uboreshaji. [NU7](NU7.md) inaeleza mabadiliko yanayoletwa na uboreshaji huu.
+
 ---
 
 ## Zakura Common: Kriptografia ya Pochi yenye Kasi Zaidi
@@ -95,12 +100,12 @@ Kwa watumiaji, mabadiliko yanayoonekana zaidi ni muda wa kusubiri. Kuunda muamal
 
 | | zcashd | Zebra | Zakura |
 |--|--------|-------|--------|
-| Lugha | C++ (imegawanywa kutoka Bitcoin) | Rust | Rust (imegawanywa kutoka Zebra) |
-| Hali | Imeachwa | Inatumika | Inatumika (v1.0.0, Julai 2026) |
-| Kasi ya ulandanishaji | Kiwango cha msingi | ~1× | ~5× haraka zaidi |
-| Upunguzaji wa block | Hapana | Hapana | Ndiyo |
+| Lugha | C++ (forked from Bitcoin) | Rust | Rust (forked from Zebra) |
+| Hali | Haijaidhinishwa tena | Inatumika | Inatumika (v1.0.0 Jul 2026; v1.8.8 Nov 2026) |
+| Kasi ya usawazishaji | Msingi | ~1× | ~5× haraka zaidi |
+| Kupunguza block | Hapana | Hapana | Ndiyo |
 | Uoanifu wa RPC wa zcashd | Asilia | Sehemu | Ndiyo (hali ya uoanifu) |
-| Uanzishaji kwa snapshot | Hapana | Hapana | Ndiyo (chini ya dakika 2) |
+| Kuanzisha kutoka kwenye snapshot | Hapana | Hapana | Ndiyo (chini ya dakika 2) |
 | P2P ya majaribio | Hapana | Hapana | Ndiyo (kwa hiari) |
 
 ---
@@ -110,8 +115,28 @@ Kwa watumiaji, mabadiliko yanayoonekana zaidi ni muda wa kusubiri. Kuunda muamal
 Chaguo za kupakua, snapshot, na nyaraka za usanidi zinapatikana katika:
 
 - **Mwongozo wa kupakua na kusanidi:** [zakura.com/download](https://zakura.com/download/)
-- **Snapshot za mnyororo:** [zakura.com/snapshots](https://zakura.com/snapshots/)
-- **Msimbo chanzo:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Picha za mnyororo:** [zakura.com/snapshots](https://zakura.com/snapshots/)
+- **Msimbo wa chanzo:** [github.com/zakura-core/zakura](https://github.com/zakura-core/zakura)
+- **Maelezo ya matoleo:** [github.com/zakura-core/zakura/releases](https://github.com/zakura-core/zakura/releases)
+
+### Kuhudumia Pochi Nyepesi
+
+Zakura si seva ya pochi nyepesi. Haitumii `CompactTxStreamer`, itifaki ya gRPC inayotumiwa na pochi nyepesi kama vile Zodl (zamani Zashi), kwa hivyo pochi haiwezi kuunganishwa moja kwa moja na `zakurad`. Ili kuhudumia pochi nyepesi, endesha mojawapo ya hizi mbele yake:
+
+- [Zaino](Zaino.md) (inayopendelewa)
+- [lightwalletd](Lightwallet_Nodes.md)
+- [Ztreamer](https://github.com/zcashlabs/ztreamer), Zcash Labs kiweka faharasa na seva ya pochi nyepesi, ambayo husoma mnyororo kutoka kwa node ya Zakura, iliyopachikwa katika mchakato wake au ya mbali kupitia JSON-RPC
+
+gRPC ya indexer ya Zakura yenyewe (`indexer_listen_addr` katika sehemu ya `[rpc]`, imezimwa kwa chaguomsingi) ni kiolesura tofauti: mitiririko ya block, mempool na ncha ya mnyororo kwa programu inayoaminika unayoendesha mwenyewe, si itifaki ya pochi nyepesi. Maandishi wazi yanaruhusiwa kwenye loopback pekee, na anwani nyingine yoyote inahitaji TLS ya pande zote ([rejeleo la usanidi](https://github.com/zakura-core/zakura/blob/v1.8.7/crates/zakura-rpc/src/config/rpc.rs)).
+
+### Kabla ya Kukiendesha (Before You Run It)
+
+Mambo machache katika maelezo ya toleo la 1.8 yanayowashangaza waendeshaji:
+
+- **Matoleo huisha muda wake.** Kila toleo la Zakura lina urefu wa block wa mwisho wa usaidizi, na node ya Mainnet inayoendesha toleo hilo husimama kwenye block hiyo. Matoleo ya 1.8.x “Yanatumika kwenye Mainnet hadi block 3,643,309, karibu Desemba 3, 2026”, huku maonyo ya uboreshaji yakitolewa takriban siku 3 mapema ([v1.8.8](https://github.com/zakura-core/zakura/releases/tag/v1.8.8)). Angalia toleo jipya zaidi kabla ya tarehe hiyo, na usifunge toleo la zamani kwenye hati za script au violezo vya usambazaji bila mpango wa kulisasisha.
+- **Sharti la CPU ya x86-64 tangu 1.8.0.** Faili za programu za matoleo na picha za Docker hutumia maagizo ya BMI2/ADX, ambayo yanahitaji Intel Broadwell, AMD Zen au CPU mpya zaidi. Kwenye CPU ya zamani zaidi, `zakurad` husimama wakati wa kuwasha na kuonyesha hitilafu inayotaja viendelezi vinavyokosekana. Tengeneza kutoka kwenye msimbo chanzo kwa kutumia `--features portable` ili kuendesha kwenye mashine hizo ([v1.8.0](https://github.com/zakura-core/zakura/releases/tag/v1.8.0)).
+- **Mipangilio ya zamani iliyozalishwa na P2P asilia.** `zakurad generate` ilikuwa ikiandika `peer_memory_budget_bytes = 8589934592` (8 GiB). Tangu 1.8.3, thamani hiyo inaruhusu takriban nusu ya miunganisho ya P2P asilia, na 4 GiB au chini yake haitaruhusu node inayotumia P2P asilia kuwaka. Ongeza `[network.zakura] peer_memory_budget_bytes` iwe angalau 15 GiB, au futa mstari huo ili kutumia thamani-msingi mpya ya 15 GiB ([v1.8.3](https://github.com/zakura-core/zakura/releases/tag/v1.8.3)).
+- **Vifaa vya hali vimehamishiwa ndani ya `zakurad`.** Tangu 1.8.3, programu za pekee za `zakura-prune-state` na `zakura-rollback-state` hazisambazwi tena, hata ndani ya Docker. Tumia `zakurad prune-state` na `zakurad rollback-state` badala yake. Zinakubali hoja zilezile, lakini hupakia `zakura.toml`, kwa hiyo pitisha `--cache-dir` ili kuelekeza kwenye saraka mahususi ya hali.
 
 ---
 

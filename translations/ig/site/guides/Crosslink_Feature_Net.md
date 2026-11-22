@@ -15,6 +15,8 @@
 
 *Anwalere ya na Feature Net ụdị 14 na Windows 11 (ụdị 10.0.26200.9550), site na 8 ruo 10 Ọktoba 2026. Akụrụngwa a bụ prototype ma na-agbanwe n'oge ntọhapụ ọ bụla. Ọ bụrụ na ihe ị hụrụ dị iche na peeji a, tụkwasị obi n'ihe ị mere ma biko mepee PR.*
 
+**Mmelite, 17 November 2026: ụdị 14 enweghịzi ike isonye na Feature Net.** [Ụdị 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 October) wetara network upgrade na PoW height 55,296. Malite na [ụdị 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16), …ụdị ọ bụla na-akwụsị ịrụ ọrụ izu abụọ ka e wepụtara ya… , ma Shielded Labs na-ewepụta ụdị ọhụrụ kwa izu. [Ụdị 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 November) wetara upgrade ọzọ na PoW height 165,000. Mwepụta kacha ọhụrụ mgbe e dere note a bụ [ụdị 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 November 2026): ọ pụghị ikwurịta okwu na nodes ụdị 17, ọ na-eweta network upgrade na block 189,000, ọ na-akwụsị ịrụ ọrụ na block 212,568, ihe dịka 30 November. Budata [mwepụta kacha ọhụrụ](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest), ọ bụghị ụdị 14. Emeghịgharị usoro ndị dị n'okpuru na ya. E nwere ọdịiche abụọ a maara: aha faịlụ agbanweela, RPC staking bụkwazi `wallet_staking_action` (lee [Otu aha RPC ị ga-eleba anya](#one-rpc-name-to-watch)).
+
 ## Ihe Feature Net bụ
 
 Crosslink bụ atụmatụ, ọ bụghị akụkụ nke Zcash taa. FAQ nke Shielded Labs [Crosslink](https://shieldedlabs.net/crosslink-faq/) kwuru na ọ "ga-achọ ịgafe usoro Gọọmentị [governance] ọkọlọtọ nke Zcash" tupu o nwee ike iru mainnet. Peeji Protocol nke [Crosslink](/zcash-tech/crosslink-protocol) kọwara nhazi ahụ.
@@ -54,15 +56,15 @@ ZEC n'ezie na-abata naanị na ngwụcha. Shielded Labs edobela [ZEC](https://sh
 
 ## Tupu ịmalite
 
-- **Kọmpụta ị nwere ike ịhapụ ka ọ na-agba.** Ntọhapụ ahụ nwere build maka Windows, macOS, Ubuntu na Arch Linux. E mere ntuziaka a na Windows, na PC nwere processor Intel Core i5-8350U.
-- **Ụbọchị Mkpọchi Ego.** Lelee mgbe nke na-esote ga-emeghe tupu ịmee atụmatụ ọ bụla. Dashboard nke [Staker Space's dashboard](https://crosslink.staker.space/) na-agụta oge fọdụrụ ruo mgbe ahụ.
-- **Ọ dịghị ihe ọzọ.** Ọ dịghị ZEC, akaụntụ, ma ọ bụ ndebanye aha.
+- **Kọmputa unu nwere ike ịhapụ ka ọ na-arụ ọrụ.** Ụdị 14 nwere nsụgharị maka Windows, macOS, Ubuntu na Arch Linux. Ụdị 17 na 18 nwere nsụgharị maka Windows, macOS na Ubuntu. E duziri ntuziaka a na Windows, na PC nwere ihe nhazi Intel Core i5-8350U.
+- **Ụbọchị Mkpọchi ego dijitalụ.** Lelee mgbe nke ọzọ ga-amalite tupu unu hazie ihe ọ bụla. [dashboard nke Staker Space](https://crosslink.staker.space/) na-agụ oge fọdụrụ ruo mgbe ọ ga-amalite.
+- **Ọ dịghị ihe ọzọ.** Enweghị ZEC, enweghị akaụntụ, enweghịkwa ndebanye aha.
 
 ## Nzọụkwụ 1: Budata ngwa ahụ ma lelee faịlụ ahụ
 
-1. Mepee [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) ma pịgharịa gaa na **Assets**.
-2. Budata faịlụ maka sistemụ gị. Na Windows, nke ahụ bụ `zebrad_v14_win32.exe`.
-3. Tụlee SHA-256 faịlụ ahụ na digest GitHub na-egosi n'akụkụ asset ahụ.
+1. Mepee [mwepụta kacha ọhụrụ](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) ma pịgharịa ruo **Assets**. E ji [mwepụta ụdị 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) mee ntuziaka a, nke na-enweghịzi ike isonye na netwọk.
+2. Budata faịlụ maka sistemụ gị. Na Windows, ọ na-ejedebe na `_win32.exe`: `zebrad_v14_win32.exe` n'iwu ndị dị n'okpuru, `zebra-crosslink_v18_win32.exe` maka ụdị 18. Jiri aha na digest nke faịlụ nke gị n'iwu ndị na-esote.
+3. Tulee SHA-256 nke faịlụ ahụ na digest GitHub gosiri n'akụkụ ihe ahụ.
 
 Na Windows, n'ime PowerShell:
 
@@ -397,6 +399,8 @@ Release notes nke version 14 na-akọwa ọkpụkpọ Mkpọchi ego dijitalụ a
 ```
 
 Method Mkpọchi ego dijitalụ ọ na-edebanye aha bụ [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), nke na-anara otu string jidere arịrịọ ahụ dị ka JSON, ebe e nyere finalizer site na identity `zfinv1` ya ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Anwalebeghị ya maka ntuziaka a.
+
+**Agbanwere mgbe ụdị 14 gasịrị.** Site n'ụdị 15 gawa, node na-edebanye aha `wallet_staking_action`, ọ naghịkwa enwezi `staking_command` ([isi mmalite ụdị 18](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Ọ na-anabata otu ihe nwere otu n’ime ụdị anọ kpọmkwem, `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` ma ọ bụ `WithdrawDelegationBond`, a na-enyekwa finalizer dị ka igodo hex nwere mkpụrụedemede 64 ([ndetu mwepụta ụdị 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). Malite na block 189,000, a na-akpọkwa ụdị bond dị ugbu a aha n’omume Mkpọchi ego dijitalụ ọ bụla, ya mere a na-ajụ omume e wuru dabere na bond ochie, ndị nwe e-akpa ego aghaghịkwa iji ụdị 18 ([ndetu mwepụta ụdị 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). A nwaleghị ya maka ntuziaka a kwa.
 
 ## Kwụsị Mkpọchi ego dijitalụ ma wepụ ego
 

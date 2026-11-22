@@ -2,11 +2,24 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   منصات التداول الحاضنة
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   منصات التداول الوصائية
 
 Ironwood هو مجمع الحماية الذي وصل مع ترقية الشبكة في يوليو 2026. منصات التداول التي لا تتعامل إلا مع عناوين t الشفافة لا تتفاعل معه مطلقًا، لذا تُعلَّم بأنها غير منطبقة. وحيثما تتعامل منصة تداول مع عناوين محمية لكنها لم تُعلن عن المجمع الذي تستخدمه، يوضّح السطر ذلك بدلًا من التخمين.
 
 ---
+
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="شعار AltQuick" width="200" height="100"/>
+</a>
+
+- الموقع الإلكتروني: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- الأزواج: ZEC/BTC
+- يدعم: شفاف
+- وقت الإيداع: حوالي 30 دقيقة (24 تأكيدًا)
+- Ironwood: لا ينطبق، العناوين الشفافة فقط
+___
 
 ### [Backpack](https://backpack.exchange)
 
@@ -43,7 +56,7 @@ ___
 - الموقع الإلكتروني: [BitcoinVN](https://bitcoinvn.io)
 - الأزواج: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
 - يدعم: شفاف | محمي (إيداع وسحب عبر عنوان z)
-- وقت الإيداع: فوري (مبادلة غير حاضنة)
+- وقت الإيداع: فوري (مبادلة غير وصائية)
 - Ironwood: غير مذكور
 ___
 
@@ -86,17 +99,19 @@ ___
 - Ironwood: السحوبات المحمية مدعومة، لكن المجمع غير مذكور
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- الموقع الإلكتروني: [Huobi](https://huobi.com)
+- الموقع الإلكتروني: [HTX](https://www.htx.com) (المعروف سابقًا باسم Huobi)
 - الأزواج: ALL/ZEC
 - يدعم: شفاف
+- الحالة: ZEC الإيداعات والسحوبات معلّقة حاليًا (وفقًا لواجهة برمجة التطبيقات العامة HTX، نوفمبر 2026)؛ وما زال تداول السوق الفوري مدرجًا
 - وقت الإيداع: 35 دقيقة 
 - Ironwood: غير منطبق، عناوين شفافة فقط
+
 ___
 
 ### [Kraken](https://kraken.com)

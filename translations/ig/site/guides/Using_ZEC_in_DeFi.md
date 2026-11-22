@@ -69,7 +69,7 @@ N'ihe gbasara Zcash, teknụzụ bridge dịka ZenRock na-eme ka akụ ZEC jik�
 
 Interoperability bụ akụkụ dị oke mkpa n'ịzụlite DeFi n'ihi na ọ na-ekwe ka akụ sitere n'otu blockchain sonye na akụnụba dijitalụ cross-network. 
 
-Mụtakwuo na : [ZenRock Bridge Mụta](https://docs.zenrocklabs.io/)
+Mụtakwuo na : [ZenRock Bridge Mụta](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,7 +260,7 @@ Mụtakwuo: [Dzap](https://app.dzap.io/trade?fromChain=8453&fromToken=0x833589fC
 
 [Morpho](https://markets.morpho.org/fixed) bụ protocol mgbazinye ego decentralized na-enye ahịa mgbazinye ego na-arụ ọrụ nke ọma nke ukwuu n'isi ego.
 
-[Clearstar Labs](clearstar.xyz) na-ewebata cbAssets Vault site na Morpho, na-eme ka e jiri akụ dịka cbZEC n'ahịa mgbazinye ego.
+[Clearstar Labs](https://clearstar.xyz) na-ewebata cbAssets Vault site na Morpho, na-eme ka e jiri akụ dịka cbZEC n'ahịa mgbazinye ego.
 
 Site na vault a, ndị ọrụ nwere ike:
 

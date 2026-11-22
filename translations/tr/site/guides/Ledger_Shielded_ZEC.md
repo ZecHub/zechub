@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Ledger Korumalı ZEC Kullanıcı Kılavuzu
+
+> Ledger donanım cüzdanınızla Ledger Wallet Desktop'ta özel (korumalı) ZEC tutun, alın ve gönderin.
+
+## Kısaca
+
+* 23 Eylül 2026’dan beri Ledger Wallet Desktop, shielded ZEC desteği sunuyor. Bir Zcash hesabının şeffaf bakiyesi ve Ironwood havuzunda özel bakiyesi bulunur.
+* Şimdilik yalnızca masaüstünde kullanılabilir. Mobil desteğin “yakında” sunulacağı duyuruldu.
+* Bir Nano S Plus, Nano X, Stax veya Flex’e (orijinal Nano S değil), Ledger Wallet Desktop 4.21+ sürümüne ve en güncel Zcash uygulamasına ihtiyacınız var.
+* **Enable shielded** seçeneğine bir kez tıklayın: Ledger cihazınız, masaüstü uygulamasının özel fonlarınızı bulabilmesi için bir viewing key dışa aktarır. Harcama anahtarları cihazdan asla ayrılmaz.
+* Mümkün olduğunda özel adrese (u1...) alın. ZEC tutarını şeffaf bakiyenizden özele taşımak işe yarar, ancak ikisi arasında bağlantı kurar.
+* Her gönderim, Ledger ekranında gözden geçirilir ve imzalanır. Adresleri orada karakter karakter kontrol edin.
+
+## Temel Açıklama
+
+Zcash iki tür bakiyeye sahiptir. Şeffaf ZEC (t1 adresleri) Bitcoin gibi çalışır: tutarlar ve adresler herkese açıktır. Korumalı ZEC, gönderenin, alıcının ve tutarın zincir üzerinde şifrelendiği korumalı bir havuzda bulunur.
+
+Ledger harcama anahtarlarınızı donanım cihazında tutar. Özel bakiyeyi göstermek için Ledger Wallet Desktop'ın Birleşik Full Viewing Key'ye (UFVK) ihtiyacı vardır. Cihaz bunu bir kez dışa aktarır ve masaüstü uygulaması, shielded notlarınızı bulmak için blockchain'i taramak üzere bunu kullanır. Bir görüntüleme anahtarı shielded geçmişinizi görebilir ancak harcama yapamaz; bu nedenle onu gizli bilgi olarak değerlendirin.
+
+Aşağıdaki adımlar, Zcash uygulamasını yüklemeyi, bir hesap eklemeyi, gizli bakiyeyi etkinleştirmeyi, almayı, şeffaf ZEC'i korumalı hâle getirmeyi ve gizli bakiyeden göndermeyi kapsar.
+
+## Genel Bakış
 
 23 Eylül 2026'da Ledger, Ledger Wallet Desktop'a yerel korumalı ZEC desteği ekledi. Artık tek bir Zcash hesabı, şeffaf bakiye ile Zcash'in Ironwood havuzundaki özel bakiyeyi bir arada tutuyor. Özel anahtarlarınız Ledger'inizde kalır ve her işlem cihaz üzerinde incelenip imzalanır.
 

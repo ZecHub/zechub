@@ -2,23 +2,23 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zallet त्वरित संदर्भ मार्गदर्शिका
+# Zallet त्वरित संदर्भ गाइड
 
-## संक्षेप में
+## सारांश
 
-- Zallet, Rust में लिखा गया एक full-नोड Zcash wallet है। यह उस wallet की जगह लेता है जो पहले zcashd के अंदर मौजूद था।
-- zcashd ने 18 जुलाई 2026 को अपना End-of-Support halt प्राप्त कर लिया और अब नहीं चलता। अब नोड वाले हिस्से को Zebra संभालता है; wallet वाले हिस्से को Zallet संभालता है।
-- आप Zallet को command line से `zallet rpc <command>` के माध्यम से चलाते हैं, लगभग वैसे ही जैसे पहले `zcash-cli` का उपयोग करते थे।
-- command नाम के बाद आने वाला हर argument मान्य JSON होना चाहिए, यानी string values अपने double quotes के साथ ही रहती हैं।
-- Zallet अभी beta में है। Releases के बीच commands बदल सकती हैं, और अभी हर zcashd RPC को यहाँ port नहीं किया गया है।
+- Zallet एक फुल नोड (full node) Zcash वॉलेट है, जो Rust में लिखा गया है। यह उस वॉलेट की जगह लेता है जो पहले zcashd के अंदर हुआ करता था।
+- zcashd 18 जुलाई 2026 को अपने एंड-ऑफ़-सपोर्ट हॉल्ट पर पहुँच गया और अब नहीं चलता। अब नोड का काम Zebra संभालता है और वॉलेट का काम Zallet संभालता है।
+- आप Zallet को कमांड लाइन से `zallet rpc <command>` के ज़रिए चलाते हैं, लगभग वैसे ही जैसे आप पहले `zcash-cli` का उपयोग करते थे।
+- कमांड के नाम के बाद आने वाला हर आर्ग्युमेंट वैध JSON होना चाहिए, यानी स्ट्रिंग वैल्यू के डबल कोट बने रहते हैं।
+- Zallet बीटा में है। रिलीज़ के बीच कमांड बदल सकती हैं, और zcashd की हर RPC अभी तक पोर्ट नहीं की गई है।
 
 ## मुख्य व्याख्या
 
-Zallet अपनी functionality को JSON-RPC के माध्यम से उपलब्ध कराता है, जो वही interface style है जिसका उपयोग zcashd wallet करता था। आप wallet से जो भी करवाना चाहते हैं — balance जांचना, account बनाना, shielded भुगतान भेजना — वह सब `zallet rpc` को दिया जाने वाला एक command है।
+Zallet अपनी कार्यक्षमता JSON-RPC के माध्यम से उपलब्ध कराता है, जो वही इंटरफ़ेस शैली है जिसका उपयोग zcashd वॉलेट करता था। आप वॉलेट से जो कुछ भी करवाना चाहते हैं — बैलेंस जाँचना, अकाउंट बनाना, शील्डेड (shielded) भुगतान (payment) भेजना — वह एक कमांड है जिसे आप `zallet rpc` को देते हैं।
 
-पुरानी `zcash-cli` आदत की तुलना में दो चीजें अलग हैं, और शुरुआती अधिकतर गलतियों की वजह भी वही हैं। पहली, arguments को bare text की बजाय मान्य JSON होना चाहिए, इसलिए shell quotes के अंदर किसी string argument को अपने quotation marks भी साथ रखने होते हैं। दूसरी, उपलब्ध commands का सेट इस बात पर निर्भर करता है कि आप कौन-सी beta release चला रहे हैं, इसलिए आपके binary में शामिल सूची किसी भी लिखित पेज से अधिक भरोसेमंद है, इसमें यह पेज भी शामिल है।
+दो बातें पुरानी `zcash-cli` आदत से अलग हैं और शुरुआती ज़्यादातर गलतियों की वजह यही होती हैं। पहली, आर्ग्युमेंट सादे टेक्स्ट के बजाय वैध JSON होने चाहिए, इसलिए स्ट्रिंग आर्ग्युमेंट शेल कोट के अंदर अपने खुद के उद्धरण चिह्न रखता है। दूसरी, उपलब्ध कमांड का सेट इस पर निर्भर करता है कि आप कौन-सी बीटा रिलीज़ चला रहे हैं, इसलिए आपकी बाइनरी में बनी सूची किसी भी लिखित पेज से, इस पेज सहित, ज़्यादा भरोसेमंद है।
 
-सभी उपलब्ध RPCs की सूची देखने के लिए:
+सभी उपलब्ध RPC की सूची देखने के लिए:
 
 ```bash
 zallet rpc help
@@ -30,17 +30,17 @@ zallet rpc help
 zallet rpc help '"<command>"'
 ```
 
-> **महत्वपूर्ण:** method name के बाद आने वाला हर argument **मान्य JSON होना चाहिए**।  
-> String values को `"value"` के रूप में लिखा जाना चाहिए (double quotes सहित)।
+> **महत्वपूर्ण:** मेथड के नाम के बाद आने वाला हर आर्ग्युमेंट **वैध JSON होना चाहिए**।  
+> स्ट्रिंग वैल्यू को `"value"` के रूप में लिखा जाना चाहिए (डबल कोट सहित)।
 
 ## आम गलतियाँ
 
-- **String arguments में अंदर वाले quotes हटा देना।** `zallet rpc validateaddress u1abc...` विफल हो जाएगा, क्योंकि address को JSON के रूप में पहुँचना होता है। इसे `'"u1abc..."'` के रूप में लिखा जाना चाहिए।
-- **यह मान लेना कि हर RPC यहाँ मौजूद है।** Porting अभी जारी है। कुछ methods बिल्कुल वैसा ही व्यवहार करते हैं, कुछ के उपयोग का तरीका अलग है, और कुछ को बिल्कुल भी आगे नहीं लाया जाएगा।
-- **इस पेज को अपने binary से अधिक आधिकारिक मान लेना।** Zallet beta में है और तेज़ी से बदल रहा है। यदि यहाँ दिया गया कोई command काम न करे, तो यह मानने से पहले कि कुछ टूटा हुआ है, `zallet rpc help` जांचें।
-- **यह अपेक्षा करना कि Zallet स्वयं एक नोड है।** यह इस जोड़ी का wallet वाला आधा हिस्सा है। Zebra नोड चलाता है, और Zallet उससे बात करता है।
+- **स्ट्रिंग आर्ग्युमेंट के अंदरूनी कोट हटा देना।** `zallet rpc validateaddress u1abc...` विफल हो जाता है, क्योंकि एड्रेस (address) को JSON के रूप में पहुँचना ज़रूरी है। इसे `'"u1abc..."'` के रूप में लिखा जाना चाहिए।
+- **यह मान लेना कि हर  RPC यहाँ मौजूद है।** पोर्टिंग अभी जारी है। कुछ मेथड बिल्कुल एक जैसा व्यवहार करती हैं, कुछ को अलग तरीके से उपयोग करना पड़ता है, और कुछ को बिल्कुल भी आगे नहीं लाया जाएगा।
+- **इस पेज को अपनी बाइनरी से ज़्यादा प्रामाणिक मानना।** Zallet बीटा में है और तेज़ी से बदलता है। जब यहाँ दी गई कोई कमांड काम न करे, तो यह मानने से पहले कि कुछ खराब है, `zallet rpc help` जाँचें।
+- **Zallet से नोड होने की उम्मीद करना।** यह इस जोड़ी का वॉलेट वाला हिस्सा है। Zebra नोड चलाता है, और Zallet उससे संवाद करता है।
 
-## RPC Commands
+## RPC कमांड
 
 ### decoderawtransaction
 
@@ -48,9 +48,9 @@ zallet rpc help '"<command>"'
 zallet rpc decoderawtransaction '"<hexstring>"'
 ```
 
-| Parameter   | Type   | Required | Description              |
+| पैरामीटर   | प्रकार   | आवश्यक | विवरण              |
 |-------------|--------|----------|--------------------------|
-| hexstring   | string | yes      | Transaction hex string   |
+| hexstring   | string | हाँ      | लेनदेन (transaction) की हेक्स स्ट्रिंग   |
 
 ---
 
@@ -60,9 +60,9 @@ zallet rpc decoderawtransaction '"<hexstring>"'
 zallet rpc decodescript '"<hexstring>"'
 ```
 
-| Parameter   | Type   | Required | Description     |
+| पैरामीटर   | प्रकार   | आवश्यक | विवरण     |
 |-------------|--------|----------|-----------------|
-| hexstring   | string | yes      | Script hex      |
+| hexstring   | string | हाँ      | स्क्रिप्ट हेक्स      |
 
 ---
 
@@ -72,11 +72,11 @@ zallet rpc decodescript '"<hexstring>"'
 zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 ```
 
-| Parameter  | Type   | Required | Default | Description                          |
+| पैरामीटर  | प्रकार   | आवश्यक | डिफ़ॉल्ट | विवरण                          |
 |------------|--------|----------|---------|--------------------------------------|
-| txid       | string | yes      |         | Transaction ID                       |
-| verbose    | number | no       | 0       | `0` = hex, non-zero = JSON object    |
-| blockhash  | string | no       |         | खोज को इस block तक सीमित करें       |
+| txid       | string | हाँ      |         | लेनदेन ID                       |
+| verbose    | number | नहीं       | 0       | `0` = हेक्स, शून्य से भिन्न = JSON ऑब्जेक्ट    |
+| blockhash  | string | नहीं       |         | खोज को इस ब्लॉक तक सीमित करें        |
 
 ---
 
@@ -86,7 +86,7 @@ zallet rpc getrawtransaction '"<txid>"' [verbose] ['"<blockhash>"']
 zallet rpc getwalletinfo
 ```
 
-कोई parameters नहीं।
+कोई पैरामीटर नहीं।
 
 ---
 
@@ -96,7 +96,7 @@ zallet rpc getwalletinfo
 zallet rpc getwalletstatus
 ```
 
-कोई parameters नहीं।
+कोई पैरामीटर नहीं।
 
 ---
 
@@ -106,7 +106,7 @@ zallet rpc getwalletstatus
 zallet rpc listaddresses
 ```
 
-कोई parameters नहीं।
+कोई पैरामीटर नहीं।
 
 ---
 
@@ -116,7 +116,7 @@ zallet rpc listaddresses
 zallet rpc rpc.discover
 ```
 
-कोई parameters नहीं। OpenRPC schema लौटाता है।
+कोई पैरामीटर नहीं। OpenRPC स्कीमा लौटाता है।
 
 ---
 
@@ -126,7 +126,7 @@ zallet rpc rpc.discover
 zallet rpc stop
 ```
 
-कोई parameters नहीं। (केवल Regtest)
+कोई पैरामीटर नहीं। (केवल Regtest)
 
 ---
 
@@ -136,9 +136,9 @@ zallet rpc stop
 zallet rpc validateaddress '"<address>"'
 ```
 
-| Parameter | Type   | Required | Description             |
+| पैरामीटर | प्रकार   | आवश्यक | विवरण             |
 |-----------|--------|----------|-------------------------|
-| address   | string | yes      | पारदर्शी address        |
+| address   | string | हाँ      | ट्रांसपेरेंट एड्रेस     |
 
 ---
 
@@ -148,11 +148,11 @@ zallet rpc validateaddress '"<address>"'
 zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 ```
 
-| Parameter  | Type   | Required | Description             |
+| पैरामीटर  | प्रकार   | आवश्यक | विवरण             |
 |------------|--------|----------|-------------------------|
-| address    | string | yes      | पारदर्शी address        |
-| signature  | string | yes      | Base64 signature        |
-| message    | string | yes      | मूल संदेश               |
+| address    | string | हाँ      | ट्रांसपेरेंट एड्रेस     |
+| signature  | string | हाँ      | Base64 सिग्नेचर        |
+| message    | string | हाँ      | मूल संदेश        |
 
 ---
 
@@ -162,7 +162,7 @@ zallet rpc verifymessage '"<address>"' '"<signature>"' '"<message>"'
 zallet rpc walletlock
 ```
 
-कोई parameters नहीं।
+कोई पैरामीटर नहीं।
 
 ---
 
@@ -172,10 +172,10 @@ zallet rpc walletlock
 zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 ```
 
-| Parameter   | Type   | Required | Description                          |
+| पैरामीटर   | प्रकार   | आवश्यक | विवरण                          |
 |-------------|--------|----------|--------------------------------------|
-| passphrase  | string | yes      | Wallet passphrase                    |
-| timeout     | number | yes      | Wallet को unlocked रखने के सेकंड     |
+| passphrase  | string | हाँ      | वॉलेट पासफ़्रेज़                    |
+| timeout     | number | हाँ      | वॉलेट को अनलॉक रखने के सेकंड  |
 
 ---
 
@@ -185,9 +185,9 @@ zallet rpc walletpassphrase '"<passphrase>"' <timeout>
 zallet rpc z_converttex '"<transparent_address>"'
 ```
 
-| Parameter             | Type   | Required | Description                |
+| पैरामीटर             | प्रकार   | आवश्यक | विवरण                |
 |-----------------------|--------|----------|----------------------------|
-| transparent_address   | string | yes      | Convert करने के लिए P2PKH address   |
+| transparent_address   | string | हाँ      | बदला जाने वाला P2PKH एड्रेस   |
 
 ---
 
@@ -197,11 +197,11 @@ zallet rpc z_converttex '"<transparent_address>"'
 zallet rpc z_exportkey '"<sapling_address>"'
 ```
 
-| Parameter | Type   | Required | Description                                      |
+| पैरामीटर | प्रकार   | आवश्यक | विवरण                                      |
 |-----------|--------|----------|--------------------------------------------------|
-| address   | string | yes      | वह Sapling address जिसकी spending key export करनी है |
+| address   | string | हाँ      | Sapling एड्रेस, जिसकी स्पेंडिंग की एक्सपोर्ट करनी है     |
 
-> Wallet unlocked होना चाहिए। यह केवल Sapling spending key export करता है।
+> वॉलेट अनलॉक होना चाहिए। केवल Sapling स्पेंडिंग की एक्सपोर्ट करता है।
 
 ---
 
@@ -211,9 +211,9 @@ zallet rpc z_exportkey '"<sapling_address>"'
 zallet rpc z_getaccount '"<account_uuid>"'
 ```
 
-| Parameter     | Type   | Required | Description     |
+| पैरामीटर     | प्रकार   | आवश्यक | विवरण     |
 |---------------|--------|----------|-----------------|
-| account_uuid  | string | yes      | Account UUID    |
+| account_uuid  | string | हाँ      | अकाउंट UUID    |
 
 ---
 
@@ -223,11 +223,11 @@ zallet rpc z_getaccount '"<account_uuid>"'
 zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<diversifier_index>]
 ```
 
-| Parameter          | Type            | Required | Description                              |
+| पैरामीटर          | प्रकार            | आवश्यक | विवरण                              |
 |--------------------|-----------------|----------|------------------------------------------|
-| account            | string / number | yes      | Account UUID या ZIP-32 account index     |
-| receiver_types     | array of string | no       | शामिल किए जाने वाले receiver types       |
-| diversifier_index  | number          | no       | विशिष्ट diversifier index                |
+| account            | string / number | हाँ      | अकाउंट UUID या ZIP-32 अकाउंट इंडेक्स     |
+| receiver_types     | array of string | नहीं       | शामिल किए जाने वाले रिसीवर प्रकार                |
+| diversifier_index  | number          | नहीं       | विशिष्ट डाइवर्सिफ़ायर इंडेक्स               |
 
 ---
 
@@ -237,10 +237,10 @@ zallet rpc z_getaddressforaccount <account> ['["p2pkh","sapling","orchard"]'] [<
 zallet rpc z_getbalanceforaccount <account> [<minconf>]
 ```
 
-| Parameter | Type            | Required | Default | Description                      |
+| पैरामीटर | प्रकार            | आवश्यक | डिफ़ॉल्ट | विवरण                      |
 |-----------|-----------------|----------|---------|----------------------------------|
-| account   | string / number | yes      |         | Account UUID या ZIP-32 index     |
-| minconf   | number          | no       | 1       | न्यूनतम confirmations            |
+| account   | string / number | हाँ      |         | अकाउंट UUID या ZIP-32 इंडेक्स     |
+| minconf   | number          | नहीं       | 1       | न्यूनतम कन्फ़र्मेशन            |
 
 ---
 
@@ -250,9 +250,9 @@ zallet rpc z_getbalanceforaccount <account> [<minconf>]
 zallet rpc z_getbalances [<minconf>]
 ```
 
-| Parameter | Type   | Required | Default | Description               |
+| पैरामीटर | प्रकार   | आवश्यक | डिफ़ॉल्ट | विवरण               |
 |-----------|--------|----------|---------|---------------------------|
-| minconf   | number | no       | 1       | न्यूनतम confirmations     |
+| minconf   | number | नहीं       | 1       | न्यूनतम कन्फ़र्मेशन     |
 
 ---
 
@@ -262,10 +262,10 @@ zallet rpc z_getbalances [<minconf>]
 zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 ```
 
-| Parameter     | Type   | Required | Description                              |
+| पैरामीटर     | प्रकार   | आवश्यक | विवरण                              |
 |---------------|--------|----------|------------------------------------------|
-| account_name  | string | yes      | इंसानों द्वारा पढ़ा जा सकने वाला नाम     |
-| seedfp        | string | no       | यदि wallet में कई seeds हों तो आवश्यक    |
+| account_name  | string | हाँ      | मानव-पठनीय नाम                      |
+| seedfp        | string | नहीं       | आवश्यक, यदि वॉलेट में कई सीड हों    |
 
 ---
 
@@ -275,10 +275,10 @@ zallet rpc z_getnewaccount '"<account_name>"' ['"<seedfp>"']
 zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 ```
 
-| Parameter     | Type   | Required | Default | Description                          |
+| पैरामीटर     | प्रकार   | आवश्यक | डिफ़ॉल्ट | विवरण                          |
 |---------------|--------|----------|---------|--------------------------------------|
-| minconf       | number | no       | 1       | न्यूनतम confirmations                |
-| as_of_height  | number | no       |         | इस height तक query करें (`-1` = tip) |
+| minconf       | number | नहीं       | 1       | न्यूनतम कन्फ़र्मेशन                |
+| as_of_height  | number | नहीं       |         | इस ऊँचाई के अनुसार क्वेरी (`-1` = टिप) |
 
 ---
 
@@ -288,9 +288,9 @@ zallet rpc z_getnotescount [<minconf>] [<as_of_height>]
 zallet rpc z_getoperationresult ['["opid1","opid2"]']
 ```
 
-| Parameter    | Type            | Required | Description                              |
+| पैरामीटर    | प्रकार            | आवश्यक | विवरण                              |
 |--------------|-----------------|----------|------------------------------------------|
-| operationid  | array of string | no       | Operation IDs (सभी finished के लिए छोड़ दें) |
+| operationid  | array of string | नहीं       | ऑपरेशन ID (सभी पूर्ण ऑपरेशन के लिए छोड़ दें)    |
 
 ---
 
@@ -300,9 +300,9 @@ zallet rpc z_getoperationresult ['["opid1","opid2"]']
 zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 ```
 
-| Parameter    | Type            | Required | Description                    |
+| पैरामीटर    | प्रकार            | आवश्यक | विवरण                    |
 |--------------|-----------------|----------|--------------------------------|
-| operationid  | array of string | no       | Operation IDs (सभी के लिए छोड़ दें) |
+| operationid  | array of string | नहीं       | ऑपरेशन ID (सभी के लिए छोड़ दें)   |
 
 ---
 
@@ -312,10 +312,10 @@ zallet rpc z_getoperationstatus ['["opid1","opid2"]']
 zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 ```
 
-| Parameter          | Type    | Required | Default | Description                     |
+| पैरामीटर          | प्रकार    | आवश्यक | डिफ़ॉल्ट | विवरण                     |
 |--------------------|---------|----------|---------|---------------------------------|
-| minconf            | number  | no       | 1       | न्यूनतम confirmations           |
-| include_watchonly  | boolean | no       | false   | watch-only balances शामिल करें  |
+| minconf            | number  | नहीं       | 1       | न्यूनतम कन्फ़र्मेशन           |
+| include_watchonly  | boolean | नहीं       | false   | वॉच-ओनली बैलेंस शामिल करें     |
 
 ---
 
@@ -325,11 +325,11 @@ zallet rpc z_gettotalbalance [<minconf>] [<include_watchonly>]
 zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 ```
 
-| Parameter  | Type    | Required | Default | Description                          |
+| पैरामीटर  | प्रकार    | आवश्यक | डिफ़ॉल्ट | विवरण                          |
 |------------|---------|----------|---------|--------------------------------------|
-| account    | string  | yes      |         | Account UUID                         |
-| hex_data   | string  | yes      |         | Hex public key या redeem script      |
-| rescan     | boolean | no       | true    | Import के बाद rescan                 |
+| account    | string  | हाँ      |         | अकाउंट UUID                         |
+| hex_data   | string  | हाँ      |         | हेक्स पब्लिक की या रिडीम स्क्रिप्ट      |
+| rescan     | boolean | नहीं       | true    | इम्पोर्ट के बाद रीस्कैन                  |
 
 ---
 
@@ -339,11 +339,11 @@ zallet rpc z_importaddress '"<account_uuid>"' '"<hex_data>"' [<rescan>]
 zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 ```
 
-| Parameter     | Type   | Required | Default        | Description                              |
+| पैरामीटर     | प्रकार   | आवश्यक | डिफ़ॉल्ट        | विवरण                              |
 |---------------|--------|----------|----------------|------------------------------------------|
-| key           | string | yes      |                | Sapling extended spending key            |
-| rescan        | string | no       | `"whenkeyisnew"` | `"yes"`, `"no"`, या `"whenkeyisnew"`   |
-| start_height  | number | no       | 0              | Rescan की शुरुआती height                 |
+| key           | string | हाँ      |                | Sapling एक्सटेंडेड स्पेंडिंग की            |
+| rescan        | string | नहीं       | `"whenkeyisnew"` | `"yes"`, `"no"` या `"whenkeyisnew"`   |
+| start_height  | number | नहीं       | 0              | रीस्कैन की शुरुआती ऊँचाई                      |
 
 ---
 
@@ -353,9 +353,9 @@ zallet rpc z_importkey '"<key>"' ['"<rescan>"'] [<start_height>]
 zallet rpc z_listaccounts [<include_addresses>]
 ```
 
-| Parameter          | Type    | Required | Default | Description                              |
+| पैरामीटर          | प्रकार    | आवश्यक | डिफ़ॉल्ट | विवरण                              |
 |--------------------|---------|----------|---------|------------------------------------------|
-| include_addresses  | boolean | no       | true    | प्रत्येक account के लिए addresses भी लौटाएँ |
+| include_addresses  | boolean | नहीं       | true    | हर अकाउंट के एड्रेस भी लौटाएँ   |
 
 ---
 
@@ -365,9 +365,9 @@ zallet rpc z_listaccounts [<include_addresses>]
 zallet rpc z_listoperationids ['"<status>"']
 ```
 
-| Parameter | Type   | Required | Description                          |
+| पैरामीटर | प्रकार   | आवश्यक | विवरण                          |
 |-----------|--------|----------|--------------------------------------|
-| status    | string | no       | status के आधार पर filter करें (जैसे `"success"`) |
+| status    | string | नहीं       | स्टेटस के अनुसार फ़िल्टर करें (जैसे `"success"`)  |
 
 ---
 
@@ -377,13 +377,13 @@ zallet rpc z_listoperationids ['"<status>"']
 zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height>] [<offset>] [<limit>]
 ```
 
-| Parameter      | Type   | Required | Description                  |
+| पैरामीटर      | प्रकार   | आवश्यक | विवरण                  |
 |----------------|--------|----------|------------------------------|
-| account_uuid   | string | no       | एक account तक सीमित करें    |
-| start_height   | number | no       | समावेशी निचली सीमा          |
-| end_height     | number | no       | अपवर्जित ऊपरी सीमा          |
-| offset         | number | no       | इतने results छोड़ दें        |
-| limit          | number | no       | लौटाए जाने वाले अधिकतम results |
+| account_uuid   | string | नहीं       | एक अकाउंट तक सीमित करें         |
+| start_height   | number | नहीं       | समावेशी निचली सीमा        |
+| end_height     | number | नहीं       | अपवर्जी ऊपरी सीमा        |
+| offset         | number | नहीं       | इतने परिणाम छोड़ें       |
+| limit          | number | नहीं       | लौटाए जाने वाले अधिकतम परिणाम    |
 
 ---
 
@@ -393,9 +393,9 @@ zallet rpc z_listtransactions ['"<account_uuid>"'] [<start_height>] [<end_height
 zallet rpc z_listunifiedreceivers '"<unified_address>"'
 ```
 
-| Parameter         | Type   | Required | Description                  |
+| पैरामीटर         | प्रकार   | आवश्यक | विवरण                  |
 |-------------------|--------|----------|------------------------------|
-| unified_address   | string | yes      | जाँचने के लिए Unified Address |
+| unified_address   | string | हाँ      | जाँचा जाने वाला यूनिफ़ाइड एड्रेस   |
 
 ---
 
@@ -405,13 +405,13 @@ zallet rpc z_listunifiedreceivers '"<unified_address>"'
 zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1","addr2"]'] [<as_of_height>]
 ```
 
-| Parameter          | Type            | Required | Default | Description                          |
+| पैरामीटर          | प्रकार            | आवश्यक | डिफ़ॉल्ट | विवरण                          |
 |--------------------|-----------------|----------|---------|--------------------------------------|
-| minconf            | number          | no       | 1       | न्यूनतम confirmations                |
-| maxconf            | number          | no       | ∞       | अधिकतम confirmations                 |
-| include_watchonly  | boolean         | no       | false   | watch-only शामिल करें                |
-| addresses          | array of string | no       |         | इन addresses तक filter करें         |
-| as_of_height       | number          | no       |         | इस height तक query करें              |
+| minconf            | number          | नहीं       | 1       | न्यूनतम कन्फ़र्मेशन                |
+| maxconf            | number          | नहीं       | ∞       | अधिकतम कन्फ़र्मेशन                |
+| include_watchonly  | boolean         | नहीं       | false   | वॉच-ओनली शामिल करें                   |
+| addresses          | array of string | नहीं       |         | इन एड्रेस तक फ़िल्टर करें            |
+| as_of_height       | number          | नहीं       |         | इस ऊँचाई के अनुसार क्वेरी              |
 
 ---
 
@@ -421,9 +421,9 @@ zallet rpc z_listunspent [<minconf>] [<maxconf>] [<include_watchonly>] ['["addr1
 zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index":0,"birthday_height":123456}]'
 ```
 
-| Parameter | Type  | Required | Description                                                                 |
+| पैरामीटर | प्रकार  | आवश्यक | विवरण                                                                 |
 |-----------|-------|----------|-----------------------------------------------------------------------------|
-| accounts  | array | yes      | objects की array: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
+| accounts  | array | हाँ      | ऑब्जेक्ट का array: `name`, `seedfp`, `zip32_account_index`, `birthday_height` |
 
 ---
 
@@ -433,13 +433,13 @@ zallet rpc z_recoveraccounts '[{"name":"...","seedfp":"...","zip32_account_index
 zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":"..."}]' [<minconf>] [null] ['"<privacy_policy>"']
 ```
 
-| Parameter        | Type            | Required | Default         | Description                                      |
+| पैरामीटर        | प्रकार            | आवश्यक | डिफ़ॉल्ट         | विवरण                                      |
 |------------------|-----------------|----------|-----------------|--------------------------------------------------|
-| fromaddress      | string          | yes      |                 | Source address या `"ANY_TADDR"`                  |
-| amounts          | array of object | yes      |                 | Recipients (`address`, `amount`, वैकल्पिक `memo`)|
-| minconf          | number          | no       |                 | न्यूनतम confirmations                            |
-| fee              | null            | no       |                 | `null` होना चाहिए (केवल ZIP-317)                |
-| privacy_policy   | string          | no       | `"FullPrivacy"` | Privacy policy string                            |
+| fromaddress      | string          | हाँ      |                 | स्रोत एड्रेस या `"ANY_TADDR"`                  |
+| amounts          | array of object | हाँ      |                 | प्राप्तकर्ता (`address`, `amount`, वैकल्पिक `memo`)|
+| minconf          | number          | नहीं       |                 | न्यूनतम कन्फ़र्मेशन                            |
+| fee              | null            | नहीं       |                 | `null` होना चाहिए (केवल ZIP-317)                    |
+| privacy_policy   | string          | नहीं       | `"FullPrivacy"` | गोपनीयता (privacy) पॉलिसी स्ट्रिंग                            |
 
 ---
 
@@ -449,14 +449,14 @@ zallet rpc z_sendmany '"<fromaddress>"' '[{"address":"...","amount":1.23,"memo":
 zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [null] [<limit>] ['"<memo_hex>"'] ['"<privacy_policy>"']
 ```
 
-| Parameter        | Type   | Required | Description                                      |
+| पैरामीटर        | प्रकार   | आवश्यक | विवरण                                      |
 |------------------|--------|----------|--------------------------------------------------|
-| fromaddress      | string | yes      | पारदर्शी address या account UUID                |
-| toaddress        | string | yes      | Shielded destination                             |
-| fee              | null   | no       | `null` होना चाहिए                               |
-| limit            | number | no       | Shield करने के लिए coinbase UTXOs की अधिकतम संख्या |
-| memo             | string | no       | Hex-encoded memo                                 |
-| privacy_policy   | string | no       | `AllowRevealedSenders` या `AllowLinkingAccountAddresses` |
+| fromaddress      | string | हाँ      | ट्रांसपेरेंट एड्रेस या अकाउंट UUID              |
+| toaddress        | string | हाँ      | शील्डेड गंतव्य                             |
+| fee              | null   | नहीं       | `null` होना चाहिए                                   |
+| limit            | number | नहीं       | शील्ड किए जाने वाले कॉइनबेस UTXO की अधिकतम संख्या           |
+| memo             | string | नहीं       | हेक्स-एन्कोडेड मेमो                                 |
+| privacy_policy   | string | नहीं       | `AllowRevealedSenders` या `AllowLinkingAccountAddresses` |
 
 ---
 
@@ -466,16 +466,16 @@ zallet rpc z_shieldcoinbase '"<fromaddress_or_account_uuid>"' '"<toaddress>"' [n
 zallet rpc z_viewtransaction '"<txid>"'
 ```
 
-| Parameter | Type   | Required | Description     |
+| पैरामीटर | प्रकार   | आवश्यक | विवरण     |
 |-----------|--------|----------|-----------------|
-| txid      | string | yes      | Transaction ID  |
+| txid      | string | हाँ      | लेनदेन ID  |
 
 ---
 
 ## संबंधित पेज
 
-- [Migration Guide: zcashd से Zebrad और Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet) — मौजूदा zcashd सेटअप से चरण-दर-चरण स्थानांतरण
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — वह नोड implementation जिसके साथ Zallet काम करता है
-- [Full Nodes](/zcash-tech/full-nodes) — full-नोड चलाने में क्या शामिल है और आप इसे क्यों चलाना चाह सकते हैं
-- [Wallets](/using-zcash/wallets) — यदि full-नोड आपकी ज़रूरत से अधिक है तो हल्के wallet विकल्प
-- [Transactions](/using-zcash/transactions) — shielded और पारदर्शी transactions में क्या अंतर है
+- [माइग्रेशन गाइड: zcashd से Zebrad और Zallet तक](/guides/migration-guide-zcashd-to-zebrad-zallet) — किसी मौजूदा zcashd सेटअप से चरण-दर-चरण माइग्रेशन
+- [Zebra फुल नोड](/zcash-tech/zebra-full-node) — वह नोड इम्प्लीमेंटेशन जिसके साथ Zallet काम करता है
+- [फुल नोड](/zcash-tech/full-nodes) — फुल नोड चलाने में क्या शामिल है और आप इसे क्यों चलाना चाह सकते हैं
+- [वॉलेट](/using-zcash/wallets) — यदि फुल नोड आपकी ज़रूरत से ज़्यादा है, तो हल्के वॉलेट विकल्प
+- [लेनदेन](/using-zcash/transactions) — शील्डेड और ट्रांसपेरेंट लेनदेन में क्या अंतर है

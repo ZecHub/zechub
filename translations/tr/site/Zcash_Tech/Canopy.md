@@ -44,6 +44,36 @@ Canopy etkinleştiği andan itibaren Sprout havuzuna yeni değer eklenemez. Tekn
 
 Fonlama değişikliklerinin yanında Canopy, iki küçük teknik ZIP daha içeriyordu. [ZIP 212](https://zips.z.cash/zip-0212), bir alıcının Sapling ephemeral secret’ı nasıl türettiğini değiştirdi; artık bunu note plaintext’ten türetiyor. [ZIP 215](https://zips.z.cash/zip-0215) ise Ed25519 imzalarının doğrulanması için açık kuralları yazıya döktü; böylece her düğüm tam olarak hangi imzaların geçerli sayıldığı konusunda aynı sonuca varır.
 
+## Özet
+
+- Canopy (NU4), ana ağda 1.046.400 numaralı blokta (18 Kasım 2020 UTC) etkinleştirildi. Bu, Zcash’in blok ödülünü 6,25’ten 3,125 ZEC’ye düşüren ilk yarılanmasıyla aynı bloktur.
+- Kurucu ödülünü sona erdirdi ve Zcash Development Fund’ı oluşturdu. Fon, 2024’teki ikinci yarılanmaya kadar dört yıl boyunca her blok ödülünün %20’sini alır (ZIP 1014 politikası; ZIP 207/214 mekanizması).
+- Fonun %20’lik payı şöyle bölünür: %35’i Bootstrap’ye (Electric Coin Company), %25’i Zcash Foundation’ye, %40’ı da daha sonra Zcash Community Grants adını alan Major Grants’e gider.
+- Sprout havuzunu yeni değere kapattı (ZIP 211). Havuza yeni yatırım yapılamaz, ancak çekimler hâlâ çalışır.
+- Beraberinde iki teknik ZIP de geldi: ZIP 212 (not düz metninden türetilen Sapling geçici sırrı) ve ZIP 215 (açık Ed25519 doğrulama kuralları).
+
+## Temel Açıklama
+
+Zcash, arkasında herhangi bir şirket bulunmadığı için kendi geliştirmesini blok ödüllerinden finanse eder. Kurucu ödülü ilk yılları karşılamıştı ve ilk yarılanmada sona ermesi planlanmıştı; bu nedenle o tarihten önce yerine geçecek bir mekanizmanın hazır olması gerekiyordu. Canopy bu yerine geçen mekanizma oldu: ZIP 207, blok sübvansiyonunun bir kısmını belirlenmiş alıcı adreslerine yönlendiren genel finansman akışı mekanizmasını getirdi ve ZIP 214, Geliştirme Fonu için özel kuralları ve adresleri belirledi. Yalnızca fona göre değil, ödülün tamamına göre ölçüldüğünde paylar %7 ECC, %5 Zcash Foundation ve %8 Büyük Hibeler şeklindedir; bunlar iki farklı biçimde ifade edilen aynı rakamlardır.
+
+Canopy, Zcash’in en eski korumalı havuzu olan Sprout’u kullanımdan kaldırma sürecini de başlattı: etkinleşmeden itibaren her JoinSplit’in vpub_old alanı sıfır olmak zorundadır; böylece değer Sprout’tan çıkabilir ama asla geri giremez.
+
+## Görsel benzetme
+
+Canopy, bir girişimin kurucu maaşı döneminin sona erip yerini bir anayasanın aldığı andır: o bloktan itibaren ağın bastığı her doların 20 senti bakım için ayrılır ve üç departman arasında 35/25/40 oranında paylaştırılır. Aynı anda eski depo (Sprout) yeni depolamaya kapatılır: herkes mallarını hâlâ teslim alabilir, ancak içeri yeni hiçbir şey giremez.
+
+## Derinlemesine İnceleme
+
+Funding stream güvene değil, mutabakata (consensus) dayanarak uygulanır: düğümler, coinbase işlemi tanımlı alıcılara tanımlı paylarını ödemeyen blokları reddeder. Canopy bilinçli olarak halving bloğuna denk getirildi. Böylece madenciler ödülün yarıya indiğini gördükleri anda, küçülen bu ödülün yeni bir dilimi de geliştirmeye akmaya başladı. ZIP 212, Sapling geçici (ephemeral) gizli anahtarının nasıl türetildiğini değiştirdi (artık not düz metninden türetiliyor). ZIP 215 ise her düğümün imzaları aynı şekilde doğrulaması için açık Ed25519 kabul kurallarını yazıya geçirdi. Bu küçük değişiklikler, mutabakattaki belirsizliklerin bütün bir sınıfını ortadan kaldırdı.
+
+## Yaygın Hatalar
+
+- **Canopy'ın yarılanmanın kendisi olduğunu düşünmek.** İkisi aynı etkinleşme bloğunu paylaştı, ancak ayrı değişikliklerdir: ZIP 251 (Canopy) ile ihraç takvimi birbirinden farklıdır.
+- **%20'nin madencilerin yeni payından alındığını sanmak.** Madenciler %80'i korudu; fon ise blok ödülünün %20'sini alır.
+- **Sprout fonlarının dondurulduğunu veya yok edildiğini varsaymak.** Para çekme işlemleri hâlâ mümkündür; yalnızca yeni yatırımlar durduruldu.
+- **"Fonun 35/25/40'ı" ile "ödülün 7/5/8'i" ifadelerini farklı dağılımlar olarak görmek.** Bunlar farklı tabanlara göre ölçülmüş aynı rakamlardır.
+- **Canopy'ü bir kriptografi yükseltmesi olarak adlandırmak.** Bu esas olarak yönetişim ve para politikasıyla ilgiliydi; teknik ZIP'ler yalnızca küçük düzenlemelerdi.
+
 ## Sözlük
 
 | Terim | Sade anlamı |
@@ -108,5 +138,12 @@ Orijinal kurucu ödülünün ilk yarılanmada sona ermesi planlanmıştı. Canop
 [Zcash Yönetişimi](../zcash-community/zcash-governance)
 
 ---
+
+## İlgili Sayfalar
+
+- [Sprout](./Sprout.md) — Canopy yeni yatırımlara kapattığı havuz
+- [Heartwood](./Heartwood.md) — serideki bir önceki yükseltme
+- [NU5](./NU5.md) — Orchard başlatan bir sonraki yükseltme
+- [NU6.1](./NU6_1.md) — geliştirme finansmanındaki en son iyileştirme
 
 Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [Heartwood](../zcash-tech/heartwood) · Sonraki: [NU5](../zcash-tech/nu5)

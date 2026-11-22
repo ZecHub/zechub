@@ -4,7 +4,7 @@
 
 # Viewing Keys
 
-Alamat terlindungi memungkinkan Anda bertransaksi dengan mengungkap sesedikit mungkin informasi pada blockchain Zcash. Jadi, apa yang terjadi ketika Anda *perlu* menunjukkan kepada pihak tertentu apa yang Anda miliki, atau apa yang Anda kirim? Setiap alamat terlindungi memiliki viewing key yang memberikan akses baca tanpa memberikan kemampuan untuk membelanjakan dana. Viewing key diperkenalkan pada [ZIP 310](https://zips.z.cash/zip-0310) dan ditambahkan ke protokol dalam peningkatan jaringan Sapling.
+Alamat terlindungi memungkinkan Anda bertransaksi dengan mengungkap sesedikit mungkin informasi pada blockchain Zcash. Jadi, apa yang terjadi ketika Anda *perlu* menunjukkan kepada pihak tertentu apa yang Anda miliki, atau apa yang Anda kirim? Sebuah viewing key memberikan akses baca tanpa memberikan kemampuan untuk membelanjakan. Viewing key sudah ada untuk Sprout; Sapling menambahkan kemampuan seperti mendeteksi ketika note yang diterima dibelanjakan. [ZIP 310](https://zips.z.cash/zip-0310) adalah draf informasional yang mendokumentasikan properti keamanan viewing key Sapling, bukan peningkatan yang memperkenalkan viewing key.
 
 Viewing key adalah tools untuk pengungkapan selektif: Anda memilih siapa yang dapat melihat apa, dan Anda tidak pernah menyerahkan otoritas spending untuk melakukannya.
 
@@ -12,7 +12,7 @@ Viewing key adalah tools untuk pengungkapan selektif: Anda memilih siapa yang da
 
 Sebuah viewing key memberikan akses **hanya-baca** ke aktivitas alamat atau akun Zcash terlindungi: siapa pun yang memilikinya dapat melihat transaksi masuk (dan, untuk full viewing key, transaksi keluar), tetapi tidak pernah dapat membelanjakan.
 
-- **Apa itu:** alat pengungkapan selektif dari pool terlindungi. Diperkenalkan dalam [ZIP 310](https://zips.z.cash/zip-0310), ditambahkan ke protokol dalam peningkatan jaringan Sapling.
+- **Apa itu:** alat pengungkapan selektif dari pool terlindungi, dengan kemampuan yang berbeda menurut pool dan jenis key. [ZIP 310](https://zips.z.cash/zip-0310) mendokumentasikan informasi yang diungkapkan oleh viewing key penuh Sapling serta informasi yang dijamin, tidak diverifikasi, tidak didefinisikan, atau tidak diungkapkan.
 - **Apa yang diberikannya:** deteksi deposit (`uivk…` incoming keys) atau visibilitas masuk/keluar penuh untuk sebuah akun (`uview…` unified full viewing keys), serta key lama Sapling `zxviews…`.
 - **Apa yang tidak diberikannya:** otoritas untuk membelanjakan. Tidak ada tindakan pemegang viewing key yang dapat memindahkan dana.
 - **Di mana ini berfungsi saat ini:** ekspor/impor di [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) dan akun watch-only di dompet seperti Zkool; lihat halaman [Dompet](/using-zcash/wallets) untuk matriks dukungan terkini.
@@ -94,7 +94,9 @@ Halaman [Wallets](/using-zcash/wallets) melacak dukungan viewing-key dan Ironwoo
 
 [Zkool](https://github.com/hhanh00/zkool2) adalah opsi yang paling fleksibel di sini, karena ia menerima kunci terpadu maupun kunci lama. README miliknya mendokumentasikan akun khusus lihat yang dibuat dari **unified viewing key** atau **Sapling extended viewing key**, bersama dengan kunci extended terlindungi lama yang diekspor dari zcashd. Tambahkan akun baru, pilih rute khusus lihat, dan tempelkan kunci `uview…` atau `zxviews…`; akun tersebut kemudian akan sinkron dan melaporkan saldo serta riwayat tanpa otoritas pengeluaran.
 
-Dukungan protokol Ironwood dan migrasi Orchard-ke-Ironwood telah hadir di Zkool 6.24.0 (20 Juli 2026), dan 6.26.1 (2 Agustus 2026) memperbaiki deteksi transaksi Ironwood di dalam mempool. Jalankan 6.26.1 atau versi yang lebih baru.
+Dukungan protokol Ironwood dan migrasi Orchard-ke-Ironwood telah hadir di Zkool 6.24.0 (20 Juli 2026), dan 6.26.1 (2 Agustus 2026) memperbaiki deteksi transaksi Ironwood di dalam mempool. Karena NU7 telah diaktifkan di Mainnet (blok 3.543.405), jalankan [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 Oktober 2026) atau versi yang lebih baru: ini adalah rilis pertama Zkool yang dibuat dengan ketinggian aktivasi Mainnet NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+Versi 6.35.0 juga menerima **unified incoming viewing key**. Tempelkan key `uivk…` di tempat untuk memasukkan key, lalu Zkool membuat akun khusus penerimaan: akun ini menampilkan apa yang diterima akun asli, termasuk memo, dan tidak menampilkan apa pun yang dikirimnya ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Incoming key tidak dapat melihat transaksi pengeluaran, sehingga saldo akun adalah jumlah total yang diterima, bukan saldo yang tersisa, dan akun tersebut tidak dapat membelanjakan dana. Zkool juga dapat mengekspor UIVK akun ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 
@@ -137,7 +139,7 @@ Viewing key adalah informasi, bukan entri izin. Setelah disalin, viewing key tet
 
 ### Dekripsi percobaan: cara kerja viewing sebenarnya
 
-Setiap transaksi terlindungi mengenkripsi plaintext note-nya kepada penerima yang dituju. Sebuah dompet yang memiliki viewing key melakukan **dekripsi percobaan**: untuk setiap transaksi yang ditemukannya di chain, dompet tersebut berupaya mendekripsi ciphertext note dengan key tersebut. Keberhasilan mengungkap nilai note, diversifier penerima, dan memo; kegagalan tidak menimbulkan biaya. Inilah alasan viewing key masuk yang sama tetap berfungsi di seluruh pool Orchard dan Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) membatasi receiver pada *protokol* Orchard, sehingga ciphertext note Ironwood berbentuk Orchard dan didekripsi secara percobaan dengan viewing key Orchard milik akun dalam domain enkripsi note Ironwood.
+Setiap transaksi terlindungi mengenkripsi plaintext note-nya kepada penerima yang dituju. Dompet yang memiliki viewing key melakukan **dekripsi percobaan**: untuk setiap transaksi yang ditemukannya di chain, dompet tersebut berupaya mendekripsi ciphertext note dengan key tersebut. Keberhasilan mengungkap nilai note, diversifier penerima, dan memo. Kegagalan memerlukan biaya yang kurang lebih sama dengan keberhasilan, karena langkah yang mahal, yaitu key agreement, berlangsung sebelum dompet dapat mengetahui apakah note itu miliknya. Karena itu, biaya pemindaian meningkat seiring bertambahnya jumlah key yang dipantau dompet (lihat [Mendeteksi pembayaran terlindungi](Detecting_Shielded_Payments.md)). Inilah alasan viewing key masuk yang sama tetap berfungsi di seluruh pool Orchard dan Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) membatasi receiver pada Orchard *protokol*, sehingga ciphertext note Ironwood berbentuk Orchard dan didekripsi secara percobaan dengan viewing key Orchard milik akun dalam domain enkripsi note Ironwood.
 
 ### Full vs incoming: apa yang ditentukan oleh derivasi
 

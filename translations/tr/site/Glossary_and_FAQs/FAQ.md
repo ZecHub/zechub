@@ -45,7 +45,7 @@ Ayrıca Zcash'ü eşler arası olarak satın alabilir veya madencilik yoluyla ed
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash, Bitcoin veya Ethereum'dan temelde daha gizlidir. Hızlı blok süreleri (75 saniye), düşük ücretler ve düzenli yükseltmeler sunar.
+Zcash, Bitcoin veya Ethereum'dan temelde daha gizlidir. Hızlı blok süreleri (NU7 Kasım 2026'da etkinleştirildiğinden beri 25 saniye; öncesinde 75 saniyeydi), düşük ücretler ve düzenli yükseltmeler sunar.
 
 Kullanıcılar **Şeffaf** veya **Korumalı** işlemler arasında seçim yapabilir. Daha fazla bilgi için [Korumalı Bir Ekosistem](https://electriccoin.co/blog/shielded-ecosystem) sayfasına bakın.
 
@@ -70,7 +70,7 @@ Kararlar teknik belirtime yazılır ve ağ bunları benimsediğinde zincir üzer
 
 Önce [blok gezginleri kılavuzumuzu](/guides/blockchain-explorers) okuyun. Ardından [Zcash Blok Gezgini'ni](https://mainnet.zcashexplorer.app) kontrol edin.
 
-İşlemler yaklaşık 25 dakika (20 blok) sonra sona erer ve fonlar otomatik olarak iade edilir.
+Sabit bir 25 dakikalık son kullanma süresi veya otomatik iade zamanlayıcısı yoktur. Cüzdanınızın kaydettiği son kullanma yüksekliğini ve orijinal ödemenin madenciliğinin yapılıp yapılmadığını kontrol edin. Madenciliği yapılmadan süresi dolduysa, zincir üzerinde gerçekleşmedi; sürenin dolması bir iade işlemi oluşturmaz. Yeniden deneme yönergelerini izlemeden önce cüzdanın senkronize olmasına izin verin. [işlem sorun giderme](/using-zcash/transactions#troubleshooting-stuck-transactions) bölümüne ve [ZIP 203](https://zips.z.cash/zip-0203) bölümüne bakın.
 
 **Bir işlemin görünmemesinin yaygın nedenleri:**
 

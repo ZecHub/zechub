@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC Ɖɔli Ɖɔli [Swap] si wo Wɔ Kple Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# SOL/USDC ɖɔli ɖɔli ɖe ZEC ŋu le encrypt.trade dzi
+
+> Wɔ ɖɔli ɖɔli na SOL alo USDC si le Solana dzi yi ZEC me, eye wo tsɔ ɖoɖonu geɖe dome [cross-chain] ƒe akpa la to NEAR Intents me.
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*Wɔ ɖɔli ɖɔli tso Solana me yi Zcash me, eye wo tsɔ ɖoɖonu geɖe dome [cross-chain] ƒe akpa la to NEAR Intents me.*  
+---
+
+## TL;DR
+
+* [encrypt.trade](https://encrypt.trade/zec) trɔa SOL alo USDC wòzua token siwo wotsɔ ɣaɣlaŋlɔŋlɔ (encryption) ŋlɔ (eSOL/eUSDC), eye emegbe ewɔa ɖɔli ɖɔli (swap) na wo yi ZEC me to NEAR Intents dzi.
+* Woɣla home siwo le Solana dzi, gake wò gakotoku (wallet) ƒe gaɖoƒe ƒe dzesi (address) kple ale si nèzãa app la le ŋgɔ na amesiame.
+* Woɖoa ZEC ɖe nuwo ƒe ʋuʋuɖi (transparent) gaɖoƒe ƒe dzesi (t1/t3) ko dzi, eya ta wokpɔa wo le Zcash ɖoɖonu (chain) dzi va se ɖe esime nàwɔ wo ɣaɣla (shielded).
+* Wɔ ZEC ɣaɣla le wò gakotoku me enumake ne eva ɖo.
+* App la kple NEAR Intents siaa dzroa gakotokuwo me be yewoalé se siwo le anyi la me ɖe asi.
 
 ---
 
-###  Gɔmedzedze  
-[**encrypt.trade**](https://encrypt.trade/zec) nye Solana app si JMD Labs Inc. ƒe dzi. Eɖe mɔ na wò be nàwɔ ɖɔli ɖɔli **SOL alo USDC** le Solana dzi yi **Zcash (ZEC)** me. Woatsɔ wò tokenwo atrɔ gbã zu wɔnɔƒe siwo woŋlɔ kple ɣaɣlaŋlɔŋlɔ [encryption], ale be gaƒuƒowo manɔ ʋuʋuɖi o le Solana dzi, eye emegbe woawɔ ɖɔli ɖɔli kple wo ayi ZEC to NEAR Intents me.
+## Nusiwo Le Vevie Ŋuti Ɖeɖefia
+[**encrypt.trade**](https://encrypt.trade/zec) nye Solana app si JMD Labs Inc. wɔa dɔ kplii. Eɖea mɔ na wò be nàwɔ ɖɔli ɖɔli [swap] **SOL alo USDC** le Solana dzi wòazu **Zcash (ZEC)**. Gbã la, wotsɔa wò token siwo nye ga ƒe dzesi siwo le blockchain dzi la blana ɖe ɣaɣlaŋlɔŋlɔ [encryption] me be woaɣla gaƒuƒowo le Solana dzi, emegbe wowɔa ɖɔli ɖɔli wo wozua ZEC to NEAR Intents me.
 
 Ɖɔli ɖɔli la le ɣaɣla me le mɔ aɖewo nu, gake menye mɔ katã nu o. App la ŋutɔ ƒe [nuxlɔ̃amewo](https://docs.encifher.io/docs) gblɔ be wò ha kple ɖoɖonu la menye togbɔbe o: amewo ate ŋu akpɔ be wò gakotoku [wallet] zã app la, gake womate ŋu akpɔ ga si nètsɔ va o. ZEC hã va ɖo gaɖoƒe ƒe dzesi [address] si le nuwo ƒe ʋuʋuɖi me, ale eanɔ ʋuʋuɖi le Zcash ɖoɖonu la dzi va se ɖe esime nàɣaɣlae.
 

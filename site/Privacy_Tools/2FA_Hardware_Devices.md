@@ -20,7 +20,7 @@ With hardware security keys like the YubiKey, you simply plug the hardware key i
 
 ## What are the benefits of using a hardware security key?
 
-Hardware security keys offer several advantages over traditional password-based authentication methods. They are much more difficult to attack than passwords, which can easily be compromised through brute force, social engineering or phishing attacks. Security keys generate a unique code each time they are used, making it nearly impossible for attackers to predict or replicate the code. They are also easy to use and configure and do not require any additional software or drivers to be installed on your device.
+When used with FIDO U2F or FIDO2/WebAuthn, a hardware security key authenticates by signing a fresh challenge, rather than generating a code for you to type. The service keeps a public key, while the private key stays on the authenticator. Credentials are scoped to the service, and the browser checks the relying party's identity to resist phishing. These benefits describe FIDO authentication, not every method a multi-protocol key may support. Check that your service, browser, device and connection type support the method you intend to use. See [Yubico's WebAuthn introduction](https://developers.yubico.com/WebAuthn/) and [FIDO2/WebAuthn developer guide](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/).
 
 ## Are hardware security keys compatible with all devices and operating systems?
 

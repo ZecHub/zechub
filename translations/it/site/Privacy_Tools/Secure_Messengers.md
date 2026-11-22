@@ -21,11 +21,11 @@ Mentre i dati viaggiano sui server o su internet, sono esposti a molti fattori c
 
 **Memo cifrati di Zcash**
 
-I portafogli desktop e mobile di Zcash hanno una funzionalità integrata che permette agli utenti di inviare messaggi crittografati con transazioni schermate private. La dimensione del memo/messaggio può arrivare fino a 512 byte per transazione, con commissioni di transazione inferiori a 1 centesimo di dollaro USA. A causa del modo in cui le transazioni vengono rilevate per preservare la privacy e del tempo di blocco della rete, i messaggi possono richiedere fino a 1 minuto o più per essere ricevuti. 
+I portafogli di Zcash che supportano i memo schermati permettono agli utenti di allegare messaggi crittografati ai pagamenti schermati. Ogni output schermato ha il proprio campo memo da 512 byte: non si tratta di un unico limite di 512 byte per l'intera transazione. Consulta [Memo](/using-zcash/memos) per il formato del testo e il supporto dei portafogli. Le commissioni di transazione si pagano in ZEC, e la [ZIP 317](https://zips.z.cash/zip-0317) definisce una commissione convenzionale che dipende dalla complessità della transazione. Anche il costo in dollari USA cambia con il tasso di cambio di ZEC, quindi una commissione inferiore a 1 centesimo di dollaro USA non è garantita. Prima di inviare, controlla la commissione indicata dal portafoglio. La consegna dei messaggi dipende dalla propagazione della transazione, dalla politica di conferma e dalla sincronizzazione del portafoglio del destinatario: non è una chat istantanea.
 
 Provalo: https://z.cash/wallets 
 
-![Zcash Encrypted Memos](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Memo crittografati di Zcash](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **App Signal**
 
@@ -39,7 +39,7 @@ Provala: [https://signal.org/download/](https://signal.org/download/)
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-L'app Bison Relay ha fatto il suo debutto nel 2022. Bison Relay non dipende dal fatto che gli utenti abbiano account - assolutamente incredibile! Qui, ogni messaggio inviato e ricevuto viene pagato individualmente tramite la Decred Lightning Network. L'unico scopo di questa app è eliminare completamente la necessità di account minimizzando al contempo i metadati. D'altra parte, Bison Relay mette fine al modo in cui la censura viene tipicamente attuata. 
+L'app Bison Relay ha fatto il suo debutto nel 2022. Bison Relay non dipende dal fatto che gli utenti abbiano account - assolutamente incredibile![Schermata di verifica in 2 passaggi]Qui, ogni messaggio inviato e ricevuto viene pagato individualmente tramite la Decred Lightning Network. L'unico scopo di questa app è eliminare completamente la necessità di account minimizzando al contempo i metadati. D'altra parte, Bison Relay mette fine al modo in cui la censura viene tipicamente attuata. 
 
 Provala: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
@@ -47,7 +47,7 @@ Provala: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
 ![Session App](/content-images/logo-black-9e799f2b06.webp)
 
-Se non sai già cosa sia l'app Session, non preoccuparti! Ecco un assaggio: Session è uno dei messenger crittografati end-to-end in competizione. L'app è stata costruita per minimizzare i metadati sensibili. L'app Session è stata progettata per gli individui che vogliono privacy assoluta e libertà da ogni forma di sorveglianza. Su Session, gli utenti possono creare un account senza numeri di telefono o indirizzi email, il che significa che è completamente anonima. Gli utenti possono inviare messaggi in modo sicuro tramite la loro rete senza alcuna traccia, quindi non c'è nulla che possa trapelare.
+Se non sai già cosa sia l'app Session, non preoccuparti![Schermata di verifica in 2 passaggi]Ecco un assaggio: Session è uno dei messenger crittografati end-to-end in competizione. L'app è stata costruita per minimizzare i metadati sensibili. L'app Session è stata progettata per gli individui che vogliono privacy assoluta e libertà da ogni forma di sorveglianza. Su Session, gli utenti possono creare un account senza numeri di telefono o indirizzi email, il che significa che è completamente anonima. Gli utenti possono inviare messaggi in modo sicuro tramite la loro rete senza alcuna traccia, quindi non c'è nulla che possa trapelare.
 
 Provala: [https://getsession.org](https://getsession.org)
 

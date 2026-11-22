@@ -63,6 +63,27 @@ const scriptLetter = (s) => new RegExp(`(?=\\p{L})\\p{Script=${s}}`, "u");
 // the page. Fenced blocks, inline code and HTML comments are shown verbatim or
 // hidden, never prose.
 const blank = (s) => s.replace(/[^\n]/g, " ");
+// Inline spans close on an EXACT run, not part of a longer one. Backslashes
+// can escape an opener in prose, but are literal inside a code span.
+// This remains line-oriented, like the surrounding damage scanner.
+function maskInlineCode(line) {
+  const runs = [...line.matchAll(/`+/g)];
+  let out = line;
+  for (let i = 0; i < runs.length; i++) {
+    let start = runs[i].index, width = runs[i][0].length, slashes = 0;
+    for (let p = start - 1; p >= 0 && line[p] === "\\"; p--) slashes++;
+    if (slashes % 2) { start++; width--; }
+    if (!width) continue;
+    let close = i + 1;
+    while (close < runs.length && runs[close][0].length !== width) close++;
+    if (close === runs.length) continue;
+    const end = runs[close].index + width;
+    out = out.slice(0, start) + blank(line.slice(start, end)) + out.slice(end);
+    i = close;
+  }
+  return out;
+}
+
 export function maskCode(lines) {
   let fence = null, comment = false;
   return lines.map((l) => {
@@ -72,14 +93,13 @@ export function maskCode(lines) {
       comment = false;
       l = blank(l.slice(0, e + 3)) + l.slice(e + 3);
     }
-    const f = l.match(/^\s*(?:>\s*)*(?:[-*+]\s+|\d+[.)]\s+)?(`{3,}|~{3,})/);
-    if (f) {
-      if (fence === null) fence = f[1];
-      else if (f[1][0] === fence[0] && f[1].length >= fence.length) fence = null;
+    const f = l.match(/^\s*(?:>\s*)*(?:[-*+]\s+|\d+[.)]\s+)?(`{3,}|~{3,})(.*)\r?$/);
+    if (fence !== null) {
+      if (f && f[1][0] === fence[0] && f[1].length >= fence.length && /^[ \t\r]*$/.test(f[2])) fence = null;
       return blank(l);
     }
-    if (fence !== null) return blank(l);
-    l = l.replace(/(`+)[^`]*?\1/g, blank).replace(/<!--.*?-->/g, blank);
+    if (f && (f[1][0] !== "`" || !f[2].includes("`"))) { fence = f[1]; return blank(l); }
+    l = maskInlineCode(l).replace(/<!--.*?-->/g, blank);
     const open = l.indexOf("<!--");
     if (open >= 0) { comment = true; l = l.slice(0, open) + blank(l.slice(open)); }
     return l;

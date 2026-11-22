@@ -1,158 +1,158 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/FROST_Threshold_Custody.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifier la page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# FROST et la garde à seuil pour les ZEC protégés
+# FROST et garde à seuil pour les ZEC protégés
 
-> Pour les détails cryptographiques complets du protocole FROST, voir la [page technique de FROST](FROST.md).
+> Pour tous les détails cryptographiques du protocole FROST, consultez la [page technique FROST](FROST.md).
 
-La garde à seuil FROST revient souvent dans les discussions sur Zcash — c’était le thème principal du ZecHub Hackathon 2026 — mais le concept n’est pas toujours expliqué en langage clair. Cette page explique ce que cela signifie, quand vous en avez réellement besoin, les compromis, et quels outils le prennent en charge aujourd’hui.
+La garde à seuil FROST revient sans cesse dans les discussions autour de Zcash : c'était la catégorie phare du Hackathon ZecHub 2026. Pourtant, le concept n'est pas toujours expliqué en termes simples. Cette page explique ce qu'elle signifie, dans quels cas vous en avez réellement besoin, quels compromis elle implique et quels outils la prennent en charge aujourd'hui.
 
 ---
 
 ## En bref
 
-- **FROST** permet à un groupe de détenteurs de clés de contrôler collectivement une adresse Zcash protégée sans qu’aucune personne ne détienne la clé privée complète.
-- Un seuil **t-sur-n** signifie : t personnes doivent cosigner pour dépenser ; n’importe quel groupe de t-1 personnes ou moins ne peut pas déplacer les fonds seul.
-- Les transactions ressemblent à n’importe quelle autre transaction protégée — aucune empreinte on-chain ne révèle qu’une signature à seuil a été utilisée.
-- Cela est fondamentalement différent du multisig transparent (qui est public on-chain et que Zcash prend en charge depuis longtemps) — FROST fonctionne à l’intérieur du pool protégé.
-- C’est utile pour les DAO, les exchanges, les services de garde, l’épargne commune et les trésoreries d’équipe — partout où un point unique de défaillance de clé est inacceptable.
+- **FROST** permet à un groupe de détenteurs de clés de contrôler collectivement une adresse Zcash protégée sans qu'aucune personne ne détienne à elle seule la clé privée complète.
+- Un seuil **t-sur-n** signifie que t personnes doivent cosigner pour dépenser ; t-1 personnes ou moins ne peuvent pas déplacer les fonds seules.
+- Les transactions ressemblent à n'importe quelle autre transaction protégée : aucune trace on-chain ne révèle qu'une signature à seuil a été utilisée.
+- C'est fondamentalement différent de la multisignature transparente (publique on-chain, et prise en charge depuis longtemps par Zcash) : FROST fonctionne à l'intérieur du pool protégé.
+- C'est utile pour les DAO, les exchanges, les services de garde, l'épargne commune et les trésoreries d'équipe, partout où un point de défaillance unique au niveau des clés est inacceptable.
 
 ---
 
-## Qu’est-ce que FROST en langage clair ?
+## Qu'est-ce que FROST, en termes simples ?
 
-Imaginez que trois associés détiennent chacun une partie d’une clé. Pour dépenser depuis leur wallet commun, deux des trois doivent être d’accord et cosigner. La transaction résultante paraît identique à un envoi individuel classique — aucun observateur ne peut voir sur la blockchain que plusieurs personnes étaient impliquées.
+Imaginez trois associés qui détiennent chacun un morceau d'une clé. Pour dépenser depuis leur portefeuille commun, deux des trois doivent se mettre d'accord et cosigner. La transaction obtenue est identique à un envoi individuel ordinaire : aucun observateur ne peut déduire de la blockchain que plusieurs personnes y ont participé.
 
-FROST (**Flexible Round-Optimized Schnorr Threshold Signatures**) est le protocole cryptographique qui rend cela possible pour Zcash protégé. Il a été créé par Chelsea Komlo (University of Waterloo / Zcash Foundation) et Ian Goldberg.
+FROST (**Flexible Round-Optimized Schnorr Threshold Signatures**) est le protocole cryptographique qui rend cela possible pour les Zcash protégés. Il a été créé par Chelsea Komlo (Université de Waterloo / Zcash Foundation) et Ian Goldberg.
 
-Les propriétés clés :
+Ses propriétés essentielles :
 
-- **Seuil** : seuls t signataires sur n doivent participer (par ex. 2-sur-3, 3-sur-5)
-- **Protégé** : fonctionne dans le pool de confidentialité Orchard — les montants, l’expéditeur et le destinataire restent privés
-- **Indiscernable** : la signature finale ressemble à n’importe quelle autre transaction Zcash protégée
-- **Non-custodial** : aucune partie ne détient jamais la clé complète — pas même le coordinateur
+- **Seuil** : seuls t signataires sur n doivent participer (p. ex. 2 sur 3, 3 sur 5)
+- **Protégé** : fonctionne à l'intérieur du pool de confidentialité Orchard ; les montants, l'expéditeur et le destinataire restent confidentiels
+- **Indiscernable** : la signature finale ressemble à celle de n'importe quelle autre transaction protégée Zcash
+- **Non dépositaire** : aucune partie ne détient jamais la clé complète, pas même le coordinateur
 
 ---
 
-## Quand faut-il utiliser la garde à seuil ?
+## Quand utiliser la garde à seuil ?
 
-La garde à seuil a du sens lorsque **perdre une clé ou perdre une personne ne doit pas signifier perdre les fonds**.
+La garde à seuil est pertinente lorsque **la perte d'une clé ou d'une personne ne doit pas entraîner la perte des fonds**.
 
-| Situation | Pourquoi la garde à seuil aide |
+| Situation | Pourquoi la garde à seuil est utile |
 |-----------|----------------------------|
-| **Trésorerie de DAO ou d’équipe** | Aucun administrateur unique ne peut vider les fonds unilatéralement ; un consensus est requis |
+| **DAO ou trésorerie d'équipe** | Aucun administrateur ne peut vider les fonds unilatéralement ; un consensus est requis |
 | **Exchange ou dépositaire** | Répartit le risque lié aux clés entre plusieurs zones de sécurité ou employés |
-| **Stockage à froid personnel (avec une famille de confiance)** | 2-sur-3 entre vous + deux membres de la famille — en cas de décès ou de perte d’accès, les fonds ne sont pas perdus |
-| **Escrow** | L’acheteur, le vendeur et l’arbitre détiennent chacun une part ; les fonds sont libérés quand deux sont d’accord |
-| **Décaissement de subvention à forte valeur** | Style ZCG : exige plusieurs signataires indépendants avant tout paiement |
-| **Gestion des clés des développeurs** | Empêche la menace interne — aucun ingénieur seul ne peut vider un fonds de protocole |
+| **Stockage à froid personnel (avec des proches de confiance)** | 2 sur 3 entre vous et deux membres de votre famille : en cas de décès ou de perte d'accès, les fonds ne sont pas perdus |
+| **Séquestre** | L'acheteur, le vendeur et l'arbitre détiennent chacun une part ; les fonds sont libérés lorsque deux d'entre eux sont d'accord |
+| **Versement de subventions importantes** | À la manière de ZCG : plusieurs signataires indépendants sont requis avant tout paiement |
+| **Gestion des clés des développeurs** | Prévient la menace interne : aucun ingénieur ne peut vider seul les fonds d'un protocole |
 
-Vous n’avez probablement **pas** besoin de garde à seuil pour un wallet personnel que vous contrôlez seul, de petits montants, ou des situations où la surcharge de coordination dépasse la réduction du risque.
+Vous n'avez probablement **pas** besoin de la garde à seuil pour un portefeuille personnel que vous contrôlez seul, pour de petits montants, ou lorsque la charge de coordination supplémentaire l'emporte sur la réduction du risque.
 
 ---
 
-## En quoi cela diffère-t-il du multisig transparent ?
+## En quoi diffère-t-elle de la multisignature transparente ?
 
-Zcash prend en charge depuis longtemps le multisig transparent — plusieurs clés requises pour dépenser depuis une t-address. Mais le multisig transparent a un coût important en matière de confidentialité : **la structure multisig, toutes les clés publiques et tous les signataires sont visibles sur la blockchain**.
+Zcash prend en charge depuis longtemps la multisignature transparente, qui exige plusieurs clés pour dépenser depuis une adresse t. Mais la multisignature transparente a un coût important en matière de confidentialité : **la structure multisignature, toutes les clés publiques et tous les signataires sont visibles sur la blockchain**.
 
-FROST résout cela en opérant à l’intérieur du pool protégé :
+FROST résout ce problème en fonctionnant à l'intérieur du pool protégé :
 
-| | Multisig transparent | Seuil FROST (protégé) |
+| | Multisignature transparente | Seuil FROST (protégé) |
 |--|---------------------|--------------------------|
 | Pool | Transparent (public) | Orchard (protégé) |
-| Signataires visibles on-chain | Oui — toutes les clés publiques sont exposées | Non — indiscernable d’une dépense à signataire unique |
+| Signataires visibles on-chain | Oui : toutes les clés publiques sont exposées | Non : indiscernable d'une dépense à signataire unique |
 | Montants visibles | Oui | Non |
-| Coordination requise | Script on-chain | Tour de communication off-chain |
+| Coordination requise | Script on-chain | Échange de messages hors chaîne |
 | Confidentialité | Aucune | Confidentialité protégée complète |
 
 ---
 
 ## Compromis et limites
 
-FROST est puissant, mais il comporte de vrais compromis que vous devez comprendre avant de l’utiliser :
+FROST est puissant, mais implique de réels compromis que vous devez comprendre avant de l'utiliser :
 
-### Surcharge de coordination
-Les signataires doivent être en ligne simultanément (ou presque) pour terminer un tour de signature. Si vos t signataires sont répartis sur plusieurs fuseaux horaires ou ont des connexions peu fiables, dépenser exige une coordination qu’un wallet individuel n’a pas.
+### Charge de coordination
+Les signataires doivent être en ligne simultanément (ou presque) pour mener à bien une session de signature. Si vos t signataires sont répartis sur plusieurs fuseaux horaires ou disposent de connexions peu fiables, chaque dépense exige une coordination dont un portefeuille individuel se passe.
 
-### Aucune signature si le quorum n’est pas disponible
-Si un nombre suffisant de détenteurs de clés n’est pas disponible (malades, en voyage, non réactifs), les fonds sont temporairement impossibles à dépenser. Choisissez soigneusement votre seuil et le nombre de parts — 2-sur-3 est plus résilient que 2-sur-2.
+### Aucune signature possible sans quorum
+Si trop de détenteurs de clés sont indisponibles (malades, en voyage, injoignables), les fonds sont temporairement impossibles à dépenser. Choisissez soigneusement votre seuil et le nombre de parts : 2 sur 3 est plus résilient que 2 sur 2.
 
-### Cérémonie de génération de clé
-La mise en place de FROST nécessite une cérémonie de génération distribuée de clé (DKG) où les n participants sont tous en ligne ensemble. C’est un événement unique, mais il doit être réalisé avec soin — si des participants sont compromis pendant le DKG, la sécurité est affaiblie.
+### Cérémonie de génération des clés
+La mise en place de FROST nécessite une cérémonie de génération distribuée de clés (DKG) au cours de laquelle les n participants sont en ligne ensemble. Il s'agit d'un événement unique, mais il doit être mené avec soin : si des participants sont compromis pendant la DKG, la sécurité est affaiblie.
 
-### Les outils sont encore en maturation
-FROST pour Zcash protégé est relativement nouveau. Le standard IETF (draft-irtf-cfrg-frost) est mature, mais les intégrations dans les wallets sont limitées. Attendez-vous à quelques aspérités par rapport à un wallet standard à clé unique.
+### Des outils encore en maturation
+FROST pour les Zcash protégés est relativement récent. La norme de l'IETF (draft-irtf-cfrg-frost) est mature, mais les intégrations dans les portefeuilles restent limitées. Attendez-vous à quelques imperfections par rapport à un portefeuille standard à clé unique.
 
-### Complexité de récupération
-Perdre un fragment n’est pas la fin du monde (c’est justement l’intérêt du seuil), mais les plans de récupération doivent être documentés à l’avance. Qui détient les sauvegardes ? Que se passe-t-il si deux fragments sont perdus simultanément ?
+### Complexité de la récupération
+Perdre une part n'est pas une catastrophe (c'est tout l'intérêt du seuil), mais les plans de récupération doivent être documentés à l'avance. Qui détient les sauvegardes ? Que se passe-t-il si deux parts sont perdues simultanément ?
 
 ---
 
-## Qui construit avec FROST sur Zcash ?
+## Qui développe avec FROST sur Zcash ?
 
 ### Zcash Foundation — frost.zfnd.org
-La Zcash Foundation a livré une implémentation FROST fonctionnelle ainsi qu’un site de démonstration. C’est l’implémentation de référence utilisée pour les tests et le développement.
+La Zcash Foundation a publié une implémentation fonctionnelle de FROST ainsi qu'un site de démonstration. Il s'agit de l'implémentation de référence utilisée pour les tests et le développement.
 
-### Démo FROST de Ywallet
-Ywallet disposait d’une intégration de démonstration FROST précoce, présentée dans le [guide de démo FROST de Ywallet](/guides/Ywallet_FROST_Demo). Ywallet n’est plus maintenu et ne sera pas mis à jour pour Ironwood ; lisez donc ce guide comme documentation de référence plutôt que comme quelque chose à exécuter aujourd’hui. Zkool, du même développeur, est le successeur maintenu et mentionne le multisig FROST parmi ses fonctionnalités.
+### Démo Ywallet FROST
+Ywallet disposait d'une première intégration de démonstration de FROST, présentée pas à pas dans le [guide de la démo Ywallet FROST](/guides/Ywallet_FROST_Demo). Ywallet n'est plus maintenu et ne sera pas mis à jour pour Ironwood : lisez donc ce guide à titre de contexte plutôt que comme une procédure à suivre aujourd'hui. Zkool, du même développeur, en est le successeur maintenu et compte la multisignature FROST parmi ses fonctionnalités.
 
-### ZecHub Hackathon 2026 — Projets de la piste FROST
+### Hackathon ZecHub 2026 — projets de la catégorie FROST
 
-La piste FROST a été la plus compétitive du ZecHub Hackathon 2026. Projets notables :
+La catégorie FROST a été la plus disputée du Hackathon ZecHub 2026. Projets notables :
 
-- **ZecVault** — escrow protégé 2-sur-3 réglé sur le mainnet (seuil FROST)
-- **Steward** — garde à seuil pour Zcash protégé avec une UX axée sur la récupération
+- **ZecVault** — séquestre protégé 2 sur 3 réglé sur le réseau principal (seuil FROST)
+- **Steward** — garde à seuil pour les Zcash protégés, avec une expérience utilisateur axée sur la récupération
 
 ### Coinbase
-Coinbase a construit une implémentation FROST de production pour ses systèmes de signature à seuil (pour Bitcoin), avec des modifications qui suppriment l’étape de prétraitement et répartissent le rôle d’agrégateur entre tous les participants. Leur expérience valide le modèle de sécurité de FROST à l’échelle de la production.
+Coinbase a développé une implémentation de production de FROST pour ses systèmes de signature à seuil (pour Bitcoin), avec des modifications qui suppriment l'étape de prétraitement et répartissent le rôle d'agrégateur entre tous les participants. Son expérience valide le modèle de sécurité de FROST à l'échelle de la production.
 
 ---
 
-## Comment fonctionne une session de signature (version simplifiée)
+## Comment se déroule une session de signature (version simplifiée)
 
-1. **Configuration (une seule fois) :** Les n participants exécutent une cérémonie de génération distribuée de clé (DKG). Chacun reçoit un fragment privé ; une clé publique partagée est dérivée. Aucune partie ne connaît la clé privée complète.
+1. **Mise en place (une seule fois) :** les n participants mènent une cérémonie de génération distribuée de clés (DKG). Chacun obtient une part privée ; une clé publique commune en est dérivée. Aucune partie ne connaît la clé privée complète.
 
-2. **Coordonner les signataires :** Lorsqu’une dépense est nécessaire, un coordinateur (qui peut être l’un des signataires) recueille les engagements de t participants prêts à signer.
+2. **Coordination des signataires :** lorsqu'une dépense est nécessaire, un coordinateur (qui peut être l'un des signataires) recueille les engagements de t participants disposés à signer.
 
-3. **Round 1 :** Chaque signataire participant génère un nonce et diffuse un engagement (public, non sensible).
+3. **Tour 1 :** chaque signataire participant génère un nonce et diffuse un engagement (public, non sensible).
 
-4. **Round 2 :** Chaque signataire participant calcule sa signature partielle à l’aide de son fragment privé et la diffuse.
+4. **Tour 2 :** chaque signataire participant calcule sa signature partielle à l'aide de sa part privée et la diffuse.
 
-5. **Agrégation :** Le coordinateur combine les t signatures partielles en une signature Schnorr finale — indiscernable on-chain d’une signature à partie unique.
+5. **Agrégation :** le coordinateur combine les t signatures partielles en une signature Schnorr finale, indiscernable on-chain d'une signature à partie unique.
 
-6. **Diffusion :** La transaction est diffusée sur le réseau Zcash comme d’habitude.
+6. **Diffusion :** la transaction est diffusée sur le réseau Zcash comme d'habitude.
 
-Si un signataire envoie une mauvaise signature partielle, le protocole l’identifie et s’interrompt (il est exclu des sessions futures). La coordination se fait off-chain — la blockchain ne voit que la transaction finale.
+Si un signataire envoie une signature partielle invalide, le protocole l'identifie et s'interrompt (le signataire est exclu des sessions suivantes). La coordination a lieu hors chaîne : la blockchain ne voit que la transaction finale.
 
 ---
 
 ## Choisir vos paramètres de seuil
 
-| Setup | Résilience | Risque |
+| Configuration | Résilience | Risque |
 |-------|-----------|------|
-| 1-sur-1 | Aucune résilience — point unique de défaillance | Perte de clé = perte permanente |
-| 2-sur-2 | Les deux signataires sont nécessaires — aucune tolérance aux pannes | Un indisponible = fonds bloqués |
-| 2-sur-3 | Un fragment peut être perdu ou indisponible | Marge de sécurité plus faible que 3-sur-5 |
-| 3-sur-5 | Deux fragments peuvent être perdus ; sécurité forte | Plus de surcharge de coordination |
-| 3-sur-7 | Niveau institutionnel ; tolère deux défaillances | Coût de coordination élevé |
+| 1 sur 1 | Aucune résilience : point de défaillance unique | Perte de la clé = perte définitive |
+| 2 sur 2 | Les deux signataires sont indispensables : aucune tolérance aux pannes | Un signataire indisponible = fonds gelés |
+| 2 sur 3 | Une part peut être perdue ou indisponible | Marge de sécurité inférieure à 3 sur 5 |
+| 3 sur 5 | Deux parts peuvent être perdues ; sécurité élevée | Charge de coordination plus importante |
+| 3 sur 7 | Niveau institutionnel ; tolère deux défaillances | Coût de coordination élevé |
 
-Un point de départ pratique pour la plupart des équipes : **2-sur-3** (résilient, coordination minimale) ou **3-sur-5** (institutionnel, sécurité plus élevée).
+Un point de départ pratique pour la plupart des équipes : **2 sur 3** (résilient, coordination minimale) ou **3 sur 5** (institutionnel, sécurité accrue).
 
 ---
 
-## Pages liées
+## Pages connexes
 
-- [FROST — Analyse technique approfondie](FROST.md) — détails cryptographiques du protocole (DKG, rounds de signature, preuves de sécurité)
-- [Guide de démo FROST de Ywallet](/guides/Ywallet_FROST_Demo) — contexte : Ywallet n’est plus maintenu
-- [Viewing Keys](Viewing_Keys.md) — accès en lecture seule aux adresses protégées (complémentaire à la garde à seuil)
-- [Actifs protégés Zcash](Zcash_Shielded_Assets.md) — FROST est aussi une infrastructure clé pour l’émission de ZSA
+- [FROST — analyse technique approfondie](FROST.md) — détails cryptographiques du protocole (DKG, tours de signature, preuves de sécurité)
+- [Guide de la démo Ywallet FROST](/guides/Ywallet_FROST_Demo) — contexte, Ywallet n'est plus maintenu
+- [Clés pour lecture seule](Viewing_Keys.md) — accès en lecture seule aux adresses protégées (complémentaire de la garde à seuil)
+- [Actifs protégés Zcash](Zcash_Shielded_Assets.md) — FROST est également une infrastructure clé pour l'émission de ZSA
 
 ## Ressources
 
-- [Article de recherche FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
-- [Projet de standard IETF FROST (draft-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
+- [Article de recherche sur FROST (Komlo & Goldberg, 2020)](https://eprint.iacr.org/2020/852.pdf)
+- [Projet de norme FROST de l'IETF (draft-irtf-cfrg-frost)](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/)
 - [Implémentation FROST de la Zcash Foundation](https://frost.zfnd.org)
-- [Chelsea Komlo — Que sont les Threshold Signatures ? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
+- [Chelsea Komlo — Que sont les signatures à seuil ? (Zcon3)](https://youtu.be/cAfTTfblzoU?t=110)
 - [Coinbase — Signatures numériques à seuil](https://www.coinbase.com/blog/threshold-digital-signatures)
-- [ROAST — Signatures à seuil Schnorr asynchrones robustes (Blockstream)](https://eprint.iacr.org/2022/550.pdf)
+- [ROAST — Robust Async Schnorr Threshold Signatures (Blockstream)](https://eprint.iacr.org/2022/550.pdf)

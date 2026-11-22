@@ -3,7 +3,7 @@
 </a>
 
 # Podcasts
-Vous voulez en savoir plus sur l’écosystème Zcash ? Voici une liste de podcasts que vous pouvez suivre :
+Vous souhaitez en savoir plus sur l'écosystème Zcash ? Voici une liste de podcasts que vous pouvez suivre :
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
@@ -22,12 +22,12 @@ Vous voulez en savoir plus sur l’écosystème Zcash ? Voici une liste de podca
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* pour la crypto</a>
+<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* For Crypto</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=5wgdhsq7sDxdosGt&amp;list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Playlist de transactions protégées</a>
+<a href="https://www.youtube.com/playlist?list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-d965cb4785.webp" alt="" width="40" height="41" />Playlist Transactions protégées</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=MXbM7LrvNJBm9uM5&amp;list=PLH78wfbGI1x2Rj7tLp1RCG68wNvKqCT74" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 
@@ -37,4 +37,4 @@ Vous voulez en savoir plus sur l’écosystème Zcash ? Voici une liste de podca
 </li>
 </ul>
 
-Un bon podcast manque à la liste ? Contactez-nous sur [Discord](https://discord.gg/zcash) et nous l’ajouterons à la liste.
+Il nous manque un bon podcast ? Contactez-nous sur [Discord](https://discord.gg/zcash) et nous l'ajouterons à la liste.

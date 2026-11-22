@@ -21,7 +21,7 @@
 | 术语 | 定义 |
 |------|-----------|
 | Benchmarking | 矿工能够提交有关用于挖掘 Zcash 的各种硬件效率的指标。[在此查看](https://zcashbenchmarks.info) |
-| Block | 区块是 Zcash blockchain 中的一条记录，包含一组在网络上发送的交易。平均约每 75 秒，一个新区块会被追加到 blockchain。 |
+| Block | 区块是 Zcash blockchain 中的一条记录，包含一组在网络上发送的交易。平均每 25 秒左右，一个新区块会被追加到 blockchain（在 NU7 于 2026 年 11 月激活之前，平均为 75 秒）。 |
 | Block Explorer | 用于查看 blockchain 上所有过往和当前交易的在线工具。[Zcash 区块链浏览器](https://zcashexplorer.app/) |
 | Blogs | [ZODL 博客（原为 Electric Coin Co）](https://zodl.com/blog/) / [Zcash Foundation 博客](https://zfnd.org/blog/) / [ZecHub 新闻简报](https://zechub.substack.com/) |
 | Blossom | Zcash 的第 3 次重大网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -31,11 +31,11 @@
 | 术语 | 定义 |
 |------|-----------|
 | Canopy | Zcash 的第 5 次重大网络升级。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | 允许提交者使用一个短字符串对多项式进行 commitment，验证者可用它确认所提交多项式的声称求值。可用于降低 Zcash 协议中的通信成本。 |
+| Commitment Scheme | 允许提交者用一个短字符串对多项式进行 commitment，验证者可用它确认所提交多项式的声称求值。可用于降低 Zcash 协议中的通信成本。 |
 | Community | [官方 Zcash 社区论坛](https://forum.zcashcommunity.com) / [Zcash 社区 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash 研发 Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | 一种提议的混合共识设计，将在 Zcash 现有工作量证明的基础上并行运行权益证明。Shielded Labs 主导这项工作，并在 `zebra-crosslink` 仓库中维护原型。Crosslink 目前不属于 Zcash。[Crosslink 协议](/zcash-tech/crosslink-protocol) |
-| CrossPay | ZODL 钱包中的一项功能，使你可以花费屏蔽 ZEC，同时接收者以其偏好的资产和链获得支付，该过程通过 NEAR Intents 路由，而非通过中心化交易所。 |
-| Cypherpunk Zero | ECC、插画师 Stranger Wolf、Mighty Jaxx 和精选生态系统合作伙伴之间的创意宇宙及协作项目。[Cypherpunk Zero 社交媒体](https://x.com/cypherpunkZero) / [OpenSea 系列](https://opensea.io/collection/cypherpunk-zero) |
+| Crosslink | 一种提议中的混合共识设计，将在 Zcash 现有的工作量证明机制旁运行权益证明机制。Shielded Labs 负责推进这项工作，并基于 `crosslink_monolith` 仓库运行一个测试网络 Feature Net。此前的 `zebra-crosslink` 原型仓库已于 2026 年 11 月停用。Crosslink 目前不属于 Zcash。[Crosslink 协议](/zcash-tech/crosslink-protocol) |
+| CrossPay | ZODL 钱包中的一项功能，让你可以花费屏蔽 ZEC，同时让接收者以其偏好的资产和链收款；交易经由 NEAR Intents 路由，而非通过中心化交易所。 |
+| Cypherpunk Zero | 由 ECC、插画师 Stranger Wolf、Mighty Jaxx 和部分生态系统合作伙伴共同打造的创意宇宙及协作项目。[Cypherpunk Zero 社交媒体](https://x.com/cypherpunkZero) / [OpenSea 系列](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -127,11 +127,11 @@
 | 术语 | 定义 |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Shielded Labs 提出的一项提案，旨在销毁部分交易手续费，使协议的长期安全预算不完全依赖于发行。详见 ZIP 234，目前正于 2026 年审议。 |
-| Nighthawk | 一款面向 Zcash 的移动钱包。[网站](https://nighthawkwallet.com) |
+| Nighthawk | 一款曾由 Nighthawk Apps 推出的 Zcash 移动钱包。其 Zcash 钱包已不再维护，Nighthawk Wallet 3.0 则面向 DarkFi 打造。若要从旧版 Nighthawk 助记词中转移资金，请参阅 [恢复资金](/using-zcash/recovering-funds)。 |
 | Noir Wallet | 由 Zcash Community Grants 支持的 Zcash 浏览器扩展钱包，旨在将屏蔽 ZEC 直接连接至浏览器应用，而不是依赖二维码和手动转账。[zknoir.com](https://www.zknoir.com/) |
 | NU5 | Zcash 的第 6 次重大网络升级，引入了 Orchard 屏蔽 pool 和统一地址。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Zcash 的第 7 次重大网络升级，调整区块补贴以资助 Zcash Community Grants 项目及延期开发基金锁箱。于 2024 年末激活。[更多信息](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood 之后的网络升级，目标于 2026 年 11 月 5 日在主网上线。根据 [ZIP 259](https://zips.z.cash/zip-0259)，它带来 25 秒区块（ZIP 218）、带手续费循环利用的网络可持续性机制（ZIP 235 和 237），以及版本 4 交易的终止，这将使 Sprout 资金无法花费（ZIP 2003）。它未增加新的交易格式；Tachyon 和 Zcash Shielded Assets 并不属于此次升级。 |
+| NU7 | Ironwood 之后的网络升级，于 2026 年 11 月 6 日（UTC）在主网区块高度 3,543,405 处激活。根据 [ZIP 259](https://zips.z.cash/zip-0259)，它带来 25 秒区块（ZIP 218）、包含手续费循环利用的网络可持续性机制（ZIP 235 和 237），以及版本 4 交易的终止，这将使 Sprout 资金无法花费（ZIP 2003）。它未增加新的交易格式；Tachyon 和 Zcash Shielded Assets 并不属于此次升级。 |
 
 ## O
 
@@ -186,7 +186,7 @@
 | Testnet | 一个独立的 blockchain，用于在主网之前测试升级和功能。 |
 | Trailing Finality Layer (TFL) | 研究如何在 Zcash 的工作量证明链之后添加最终性层，使近期区块无需取代挖矿即可被最终确认。Crosslink 是由此产生的设计。 |
 | Transaction | 用户之间的一次支付，提交至网络并最终在一个区块中得到确认。 |
-| Transaction Expiry | 如果交易未经确认，将在约 25 分钟（20 个区块）后过期；资金会自动退回。 |
+| Transaction Expiry | 对尚未挖出的支付可被纳入的区块高度限制。具有非零过期高度 N 的普通支付可以在区块 N 或更早的区块中被挖出，但不能在 N+1 中被挖出。高度为 0 会禁用过期。这不是自动退款计时器。[ZIP 203](https://zips.z.cash/zip-0203) |
 | Transaction Fee | 默认手续费为 0.0001 ZEC。较高手续费可获得优先处理；极低手续费可能导致延迟或过期。 |
 | Transparent Address | 也称为 taddr。以 t 开头。完全公开（类似 Bitcoin）。 |
 | Transparent Transaction | 仅在透明地址之间进行的交易 - 所有内容均公开可见。 |
@@ -209,7 +209,7 @@
 
 | 术语 | 定义 |
 |------|-----------|
-| Wallet | 用于存储私钥并让你发送/接收 ZEC 的软件或硬件。活跃的钱包包括 ZODL（iOS/Android）、Zingo!（移动端/桌面端）、Nighthawk（Android）、Zkool（移动端/桌面端）、Zallet（即将推出）和 Keystone（硬件）。如需完整列表，请参阅 [Zcash 生态系统钱包](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | 用于存储私钥并让你发送/接收 ZEC 的软件或硬件。活跃的钱包包括 ZODL（iOS/Android）、Zingo!（移动端/桌面端）、Zkool（移动端/桌面端）、Zallet（全节点钱包，处于测试阶段）和 Keystone（硬件钱包）。如需完整列表，请参阅 [Zcash 生态系统钱包](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | 首个面向 Zcash 的 JavaScript SDK，由 ChainSafe 为浏览器环境构建。它支撑了 Zcash Shielded Wallet snap，将屏蔽 ZEC 引入 MetaMask。 |
 
 ## X

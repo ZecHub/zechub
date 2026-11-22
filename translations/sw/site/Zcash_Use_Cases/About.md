@@ -50,6 +50,11 @@ Kubali ZEC za faragha kama shirika la 501(c)(3) na bado uwape wafadhili stakabad
 ###  [Mahali pa Kutoa ZEC](/zcash-use-cases/where-to-donate-zec)
 Pata mashirika yasiyo ya faida yanayokubali ZEC, na ni yapi kati yao yanayokubali zawadi za faragha
 
+###  [Endesha Kampeni ya Kuchangisha Fedha kwa ZEC](/zcash-use-cases/run-a-zec-fundraising-campaign)
+Changisha ZEC kwa ajili ya lengo moja, onyesha maendeleo ambayo wafadhili wanaweza kuyaamini, na uweke kila mchango kuwa wa faragha
+###  [Changia ZEC na Udai Punguzo la Kodi la Marekani](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+Toa ZEC kwa faragha na bado upate nyaraka unazohitaji ili kuitoa katika kodi
+
 ###  [Mpangilio wa Faragha kwa Mwanahabari](/zcash-use-cases/journalist-privacy-setup)   
 Tumia anwani za faragha kwa miamala yote na ulinde vyanzo kwa kuepuka malipo yanayoweza kufuatiliwa. Tumia jumbe [memos] kwa uangalifu kwa mawasiliano salama
 

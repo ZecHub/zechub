@@ -18,9 +18,7 @@ IPFS(InterPlanetary File System)는 파일을 저장하고 공유하는 분산�
 
 IPFS의 파일은 *콘텐츠 주소 지정* 방식으로 참조됩니다. 이는 각 파일이 내용 기반으로 고유한 해시 또는 CONTENT IDENTIFIER (CID)가 부여되며, 이 해시는 네트워크에서 파일을 검색하는 데 사용됩니다.
 
-사용자가 IPFS에 파일을 추가하면 파일은 작은 조각들인 블록으로 나뉘고, 각 블록에는 CID가 부여됩니다. 이러한 블록들은 네트워크의 다른 노드에 저장되어, 파일이 여러 출처에서 쉽게 검색될 수 있도록 합니다.
-
-이러한 방식은 중복성과 고장 허용성을 보장하면서도, 어떤 하나의 노드가 단일 고장 지점이나 통제 요소가 되는 것을 어렵게 만듭니다.
+IPFS는 콘텐츠를 CID로 식별되는 블록 형태로 저장합니다. 파일을 추가하면 해당 파일은 사용자의 노드에 저장될 뿐, 다른 노드로 자동 복사되지는 않습니다. 다른 사용자가 파일을 검색할 수 있도록 접근 가능한 사본을 온라인 상태로 유지하거나 원격 피닝(remote pinning)을 설정하세요. [IPFS 지속성](https://docs.ipfs.tech/concepts/persistence/)을 참조하세요.
 
 **읽기: [IPFS 소개](https://blog.infura.io/post/an-introduction-to-ipfs)**
 
@@ -34,22 +32,29 @@ IPFS의 파일은 *콘텐츠 주소 지정* 방식으로 참조됩니다. 이는
 
 **2단계:** [HTML 템플릿](https://nicepage.com/html-templates)을 사용하세요. 작성한 텍스트를 적절히 붙여넣고, 웹사이트에 대한 .CSS 스타일시트도 선택적으로 생성할 수 있습니다.
 
-**3단계:** 디렉토리를 저장합니다. 모든 .html 페이지와 이미지는 동일한 폴더에 있어야 합니다.
+**3단계:** 홈페이지를 사이트 폴더의 루트에 있는 `index.html`에 넣으세요. 이미지와 CSS도 함께 포함하되, `style.css`와 같은 상대 경로를 사용하면 IPFS 게이트웨이 URL에서도 제대로 작동합니다.
 
 ## 노드 설정
 
-[공식 사이트](https://docs.ipfs.tech/install/ipfs-desktop/)에서 IPFS를 다운로드하고 설치하세요.
+[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/)이(가) 노드를 대신 관리해 줍니다. 사이트를 공유하는 동안에는 계속 실행해 두세요.
 
-### IPFS 초기화:
+[명령줄 방식](https://docs.ipfs.tech/how-to/command-line-quick-start/)의 경우, 새 저장소를 한 번 초기화하세요:
 
-데스크탑 애플리케이션을 사용하는 경우, 초기화는 필요 없습니다.
+```sh
+ipfs init
+```
 
-터미널이나 명령 프롬프트를 사용하여 다음 명령어를 실행합니다: ipfs init
+그런 다음 노드를 시작하고 이 터미널을 열어 둔 채로 두세요:
+
+```sh
+ipfs daemon
+```
+
+나머지 명령은 두 번째 터미널에서 실행하세요. IPFS Desktop이 이미 이 저장소를 관리하고 있다면 두 번째 데몬을 시작하지 마세요.
 
 ### **사이트 폴더를 IPFS에 추가**:
 
-웹사이트 파일이 있는 폴더를 선택하고 "Add Folder" 옵션으로 이동합니다.
-
+IPFS Desktop에서 폴더 추가 옵션을 사용해 웹사이트 파일이 들어 있는 폴더를 선택합니다.
 
 <a href="">
     <img src="/content-images/ipfs-site-folder-2c96524d98.webp" alt="" width="400" height="200"/>
@@ -57,29 +62,29 @@ IPFS의 파일은 *콘텐츠 주소 지정* 방식으로 참조됩니다. 이는
 
 –
 
-터미널을 사용하는 경우, 다음 명령어를 실행하여 폴더를 IPFS에 재귀적으로 추가합니다: ipfs add -r folder_name
+CLI 방식을 사용하려면 사이트 폴더의 상위 디렉터리에서 다음 명령을 실행하세요:
+
+```sh
+ipfs add -r folder_name
+```
+
+`folder_name`을(를) 폴더 이름으로 바꾸세요(공백이 포함된 이름은 따옴표로 감싸세요). 마지막 `added ... folder_name` 줄의 CID를 저장하세요. 이 CID는 `index.html`만이 아니라 디렉터리 전체를 식별합니다.
 
 ### IPFS에 사이트 고정:
 
-웹사이트 파일이 IPFS에 추가된 후에는 그들이 네트워크에서 계속 이용 가능하도록 **고정**해야 합니다.
+CLI `ipfs add` 명령은 가져온 콘텐츠를 기본적으로 로컬에 고정(pin)합니다. 다음 명령으로 폴더 고정 상태를 확인하세요:
 
-–
+```sh
+ipfs pin ls YOUR_FOLDER_CID
+```
 
-터미널을 사용하는 경우, 다음 명령어를 실행하세요: ipfs pin add **hash**
-
-**hash** = 이전 단계에서 추가한 폴더의 CID입니다.
-
-또는 [Pinata](https://pinata.cloud/) 또는 [Dolpin](https://dolpin.io/)과 같은 서비스를 사용하여 디렉토리를 고정할 수도 있습니다.
-
-시간을 많이 절약할 수 있습니다!
-
-–
+`YOUR_FOLDER_CID`을(를) 이전 단계에서 얻은 CID로 바꾸세요. 출력에는 `recursive`이(가) 표시되어야 합니다. 고정(pinning)은 이 노드의 사본이 가비지 컬렉션으로 삭제되지 않도록 보호하지만, 꺼진 컴퓨터를 온라인 상태로 유지해 주지는 않습니다. 노드가 오프라인일 때도 가용성을 확보하려면 [원격 고정](https://docs.ipfs.tech/how-to/work-with-pinning-services/)을 설정하고, 원격 서비스가 고정을 완료했는지 확인하세요.
 
 ### IPFS에서 사이트에 액세스:
 
-이제 웹사이트는 IPFS에 게시되었으며, 폴더의 해시를 사용하여 액세스할 수 있습니다. 웹사이트에 액세스하려면 https://ipfs.io/ipfs/**hash**로 이동하세요.
+먼저 `http://127.0.0.1:8080/ipfs/YOUR_FOLDER_CID/`의 로컬 게이트웨이를 통해 사이트를 확인하세요(데몬이 출력한 게이트웨이 포트가 다르다면 그 포트를 사용하세요). 끝에 붙은 슬래시 덕분에 상대 링크가 디렉터리 안에서 올바르게 연결됩니다.
 
-**hash** = 폴더의 CID입니다.
+`https://ipfs.io/ipfs/YOUR_FOLDER_CID/`와 같은 공개 게이트웨이는 접근 가능한 노드에서 콘텐츠를 가져올 수 있게 되면 이를 제공할 수 있습니다. 로컬 미리보기가 성공했다고 해서 공개적으로 이용 가능하다는 것이 증명되지는 않습니다.
 
 우리의 경우 CID는 QmW2UEfap1vrRRvS5H9wed8qmsx4WsvXBk3GPGVVfWx3r3입니다.
 
@@ -108,15 +113,20 @@ IPFS 데스크탑 애플리케이션에서 사이트 폴더의 설정 메뉴로 
 
 사이트가 생성되었으므로, 이제 URL을 콘텐츠로 연결하는 방법이 필요합니다.
 
-이미 웹 주소를 소유하고 있다면 _dnslink(your domain)의 TXT 레코드를 추가하여 새 레코드를 만들 수 있습니다. 제공업체에 따라 자동으로 채워질 수도 있습니다.
+`example.com`의 경우, 다음 DNS 레코드를 추가하고 `YOUR_FOLDER_CID`을(를) 사용자의 디렉터리 CID로 바꾸세요:
 
+| 유형 | 이름 | 값 |
+|---|---|---|
+| TXT | `_dnslink.example.com` | `dnslink=/ipfs/YOUR_FOLDER_CID` |
+
+일부 DNS 제공업체는 영역(zone)을 자동으로 덧붙이므로, 그곳에는 `_dnslink`만 입력하면 됩니다. 위의 IPNS 이름을 사용하는 경우에는 값을 대신 `dnslink=/ipns/YOUR_IPNS_NAME`로 지정할 수 있습니다. [DNSLink](https://docs.ipfs.tech/concepts/dnslink/)를 참조하세요.
 
 <a href="">
     <img src="/content-images/example-c2a9edb28b.webp" alt="" width="400" height="100"/>
 </a>
 
 
-네트워크를 통해 전파되기까지 시간이 걸릴 수 있습니다.
+DNS 전파가 완료된 후 `https://ipfs.io/ipns/example.com/`에 접속해 보세요. `https://example.com/`에서 사이트를 직접 제공하려면 DNSLink를 지원하는 게이트웨이와 HTTPS 구성도 필요합니다. TXT 레코드만으로는 이러한 설정이 이루어지지 않습니다. [사용자 지정 도메인 가이드](https://docs.ipfs.tech/how-to/websites-on-ipfs/custom-domains/)를 따르세요.
 
 *축하합니다! 이제 검열에 강한 웹사이트가 있습니다.*
 

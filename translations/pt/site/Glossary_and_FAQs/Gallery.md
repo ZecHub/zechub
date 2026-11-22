@@ -1,4 +1,4 @@
-# Galeria de papéis de parede Zcash
+# Galeria de papéis de parede do Zcash
 
 [Infográficos](/glossary-and-faqs/gallery/infographics)
 

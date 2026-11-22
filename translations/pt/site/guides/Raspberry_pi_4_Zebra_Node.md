@@ -1,20 +1,20 @@
 <a href="https://github.com/henryquincy/zechub/edit/main/site/guides/Raspberry_pi_4_Zebra_Node.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar Página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Guia do Raspberry Pi 4 para executar o Zebra
 
 <img src="/content-images/image-2023-11-28-172907488-e7e9fd4ac5.webp" alt="raspberry pi" width="300" height="300"/>
 
-Executar o software do nó Zebra em um Raspberry Pi 4 permite que você participe da rede do Zcash como um nó independente, compatível com o consenso. Este guia vai orientar você pelas etapas para configurar e executar o Zebra no seu Raspberry Pi 4.
+Executar o software de nó Zebra em um Raspberry Pi 4 permite que você participe da rede Zcash como um nó independente e compatível com o consenso. Este guia mostrará o passo a passo para configurar e executar o Zebra no seu Raspberry Pi 4.
 
 ## Pré-requisitos
 
 1. Raspberry Pi 4 (recomenda-se 2GB de RAM ou mais).
 
-2. Cartão microSD (recomenda-se 16GB ou mais) com Raspberry Pi OS (Raspbian) instalado.
+2. Cartão MicroSD (recomenda-se 16GB ou mais) com o Raspberry Pi OS (Raspbian) instalado.
 
-3. Conexão de internet estável.
+3. Conexão estável com a internet.
 
 4. Teclado, mouse e monitor (para a configuração inicial).
 
@@ -23,7 +23,7 @@ Executar o software do nó Zebra em um Raspberry Pi 4 permite que você particip
 ## Instalação
 
 1. __Atualize seu sistema__
-   Abra um terminal ou acesse seu Raspberry Pi via SSH e certifique-se de que seu sistema está atualizado executando:
+   Abra um terminal ou conecte-se via SSH ao seu Raspberry Pi e garanta que seu sistema esteja atualizado executando:
 
    __sudo apt update__
 
@@ -46,14 +46,14 @@ Executar o software do nó Zebra em um Raspberry Pi 4 permite que você particip
 
    __cargo build --release__
 
-   Este processo pode levar algum tempo. Certifique-se de que seu Raspberry Pi esteja adequadamente resfriado, pois a compilação pode gerar calor.
+   Esse processo pode levar algum tempo. Certifique-se de que seu Raspberry Pi esteja adequadamente refrigerado, pois a compilação pode gerar calor.
 
 5. __Configuração__
    Crie um arquivo de configuração para o Zebra. Você pode usar a configuração padrão como ponto de partida:
 
    __cp zcash.conf.example zcash.conf__
 
-   Edite o arquivo zcash.conf para personalizar as configurações do seu nó. Você pode especificar a rede, habilitar a mineração, configurar conexões com peers e muito mais.
+   Edite o arquivo zcash.conf para personalizar as configurações do seu nó. Você pode especificar a rede, ativar a mineração, configurar conexões com pares e muito mais.
 
 6. __Inicie o Zebra__
    Agora você pode iniciar o Zebra com sua configuração personalizada:
@@ -62,19 +62,19 @@ Executar o software do nó Zebra em um Raspberry Pi 4 permite que você particip
 
    __git comment__ 
 
-   Este comando iniciará o nó Zebra, e ele começará a sincronizar com a blockchain do Zcash.
+   Esse comando iniciará o nó Zebra, que começará a sincronizar com a blockchain do Zcash.
 
 7. __Monitoramento__
-   Você pode monitorar o progresso e o status do seu nó Zebra abrindo um navegador web e acessando __http://127.0.0.1:8233/status__.
+   Você pode monitorar o progresso e o status do seu nó Zebra abrindo um navegador e acessando __http://127.0.0.1:8233/status__.
 
-<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="logo do zebra" width="200" height="200"/>
+<img src="/content-images/image-2023-11-28-173024853-99540511cf.webp" alt="zebra logo" width="200" height="200"/>
 
 ## Solução de problemas
 
-Se você encontrar qualquer problema ao compilar ou executar o Zebra, consulte a [documentação do Zebra](https://zebra.zfnd.org/user/troubleshooting.html) para dicas de solução de problemas e informações adicionais.
+Se você encontrar algum problema ao compilar ou executar o Zebra, consulte a [Zebra documentação](https://zebra.zfnd.org/user/troubleshooting.html) para obter dicas de solução de problemas e informações adicionais.
 
-Certifique-se de manter seu Raspberry Pi resfriado, pois executar um nó pode gerar calor. Você pode querer usar uma solução de resfriamento, como uma ventoinha ou um dissipador de calor.
+Mantenha seu Raspberry Pi refrigerado, pois executar um nó pode gerar calor. Talvez você queira usar uma solução de refrigeração, como um ventilador ou um dissipador de calor.
 
 ## Conclusão
 
-Seguindo este guia, você deverá ter configurado e executado com sucesso o Zebra no seu Raspberry Pi 4. Agora você está contribuindo para a rede do Zcash como um nó independente, ajudando a proteger a privacidade das transações do Zcash.
+Seguindo este guia, você deve ter configurado e executado com sucesso o Zebra no seu Raspberry Pi 4. Agora você está contribuindo com a rede Zcash como um nó independente, ajudando a garantir a privacidade das transações do Zcash.

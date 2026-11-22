@@ -1,165 +1,192 @@
-# Пулы для майнинга Zcash
-
-## Что такое пулы для майнинга Zcash?
-
-Пулы для майнинга Zcash — это сервисы, которые позволяют отдельным майнерам объединять свои вычислительные мощности (хешрейт). Объединяя ресурсы, участники повышают свои шансы на нахождение блоков сети и получают стабильные, меньшие по размеру выплаты вместо того, чтобы полагаться на непредсказуемую лотерейную систему соло-майнинга.
-
----
-
-## Список пулов для майнинга Zcash:
-
----
-
-### [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-
-<a href="https://braiins.com/pool">
-    <img src="/content-images/braiins_logo-dce5130f46.webp" alt="Slush Pool (Braiins Pool) Logo" width="200" height="100"/>
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Pools.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Изменить страницу"/>
 </a>
 
-- Сайт: [Slush Pool (Braiins Pool)](https://braiins.com/pool)
-- Приватные выплаты: ДА
-- Тип пула: Оплата за долю
-- Комиссия пула: 2%
+# Zcash пулы для майнинга
+
+## Кратко
+
+* Пул для майнинга объединяет хешрейт многих майнеров и распределяет награду за каждый найденный блок пропорционально вкладу каждого участника.
+* Участники пула получают небольшие, но регулярные выплаты. Соло-майнеру с домашним оборудованием может потребоваться несколько лет, чтобы найти собственный блок.
+* Пулы различаются способом выплат, комиссией и конфиденциальностью выплат. В описании каждого пула ниже указаны все три параметра.
+* В поле «Конфиденциальные выплаты» указано, может ли пул отправлять средства на защищённый адрес.
+* Перед подключением оборудования проверьте статус пула и текущую комиссию на его сайте.
+
+## Основное объяснение
+
+### Что такое Zcash пул для майнинга?
+
+Zcash пулы для майнинга — это сервисы, которые позволяют отдельным майнерам объединять вычислительные мощности (хешрейт). Объединяя ресурсы, участники повышают шансы найти блоки сети и получают стабильные, но небольшие выплаты вместо участия в непредсказуемой лотерее соло-майнинга.
+
+### Как работают выплаты
+
+Каждый майнер отправляет пулу небольшие части выполненной работы, называемые шарами. Пул подсчитывает шары и выплачивает вознаграждение выбранным способом. В списке ниже указаны три способа:
+
+- **Оплата за шару (PPS):** пул выплачивает фиксированную сумму за каждую действительную шару, независимо от того, находит ли он блок. Риск, связанный с удачей, несёт пул, поэтому комиссия при PPS обычно выше.
+- **Оплата за последние N шар (PPLNS):** пул выплачивает вознаграждение за найденные им блоки, распределяя его между последними N шарами. Размер выплат зависит от удачи пула, а комиссии обычно ниже.
+- **Оплата за шару плюс (PPS+):** награда за блок выплачивается по схеме PPS, а комиссии за транзакции распределяются по схеме PPLNS.
 
 ---
 
-### [Luxor](https://luxor.tech/)
+### Список Zcash пулов для майнинга
+
+---
+
+#### [Luxor](https://luxor.tech/)
 
 <a href="https://luxor.tech/">
-    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Luxor Logo" width="200" height="100"/>
+    <img src="/content-images/Luxor-20Pool-3aa38cd52b.webp" alt="Логотип Luxor" width="200" height="100"/>
 </a>
 
 - Сайт: [Luxor](https://luxor.tech/)
-- Приватные выплаты: ДА
-- Тип пула: Оплата за долю
+- Конфиденциальные выплаты: Да
+- Тип пула: Оплата за шару
 - Комиссия пула: 3%
 
 ---
 
-### [Flypool](https://zcash.flypool.org/)
-
-<a href="https://zcash.flypool.org/">
-    <img src="/content-images/Flypool-031c2edf57.webp" alt="FlyPool Logo" width="200" height="100"/>
-</a>
-
-- Сайт: [Flypool](https://zcash.flypool.org/)
-- Приватные выплаты: ДА
-- Тип пула: Оплата за последние N долей 
-- Комиссия пула: 1%
-
----
-
-### [2Miners](https://zec.2miners.com/)
+#### [2Miners](https://zec.2miners.com/)
 
 <a href="https://zec.2miners.com/">
-    <img src="/content-images/2Miners-3c99609047.webp" alt="2Miners Logo" width="200" height="100"/>
+    <img src="/content-images/2Miners-3c99609047.webp" alt="Логотип 2Miners" width="200" height="100"/>
 </a>
 
 - Сайт: [2Miners](https://zec.2miners.com/)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за последние N долей 
+- Конфиденциальные выплаты: Нет
+- Тип пула: Оплата за последние N шар
 - Комиссия пула: 1%
 
 ---
 
-### [Nanopool](https://zec.nanopool.org/)
+#### [Nanopool](https://zec.nanopool.org/)
 
 <a href="https://zec.nanopool.org/">
-    <img src="/content-images/Nanopool-e484b00998.webp" alt="Nanopool Logo" width="200" height="100"/>
+    <img src="/content-images/Nanopool-e484b00998.webp" alt="Логотип Nanopool" width="200" height="100"/>
 </a>
 
 - Сайт: [Nanopool](https://zec.nanopool.org/)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за последние N долей 
+- Конфиденциальные выплаты: Нет
+- Тип пула: Оплата за последние N шар
 - Комиссия пула: 1%
 
 ---
 
-### [Poolin](https://www.poolin.com/)
+#### [Poolin](https://www.poolin.com/)
 
 <a href="https://www.poolin.com/">
-    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Poolin Logo" width="200" height="100"/>
+    <img src="/content-images/Poolin-6fd4b44ba3.webp" alt="Логотип Poolin" width="200" height="100"/>
 </a>
 
 - Сайт: [Poolin](https://www.poolin.com/)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за долю
+- Статус: Poolin Technology PTE. LTD. проходит процедуру банкротства по главе 11 с 22 июля 2026 года (дело № 26-18325, Суд по делам о банкротстве США, округ Нью-Джерси; [информация о деле](https://veritaglobal.net/Poolin)). Перед подключением хешрейта проверьте, что пул продолжает майнить и выплачивать вознаграждение ZEC (проверено 13 ноября 2026 года).
+- Конфиденциальные выплаты: Нет
+- Тип пула: Оплата за шару
 - Комиссия пула: 3%
 
 ---
 
-### [Antpool](https://v3.antpool.com/home)
+#### [Antpool](https://v3.antpool.com/home)
 
 <a href="https://v3.antpool.com/home">
-    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Antpool Logo" width="200" height="100"/>
+    <img src="/content-images/Antpool-9c5dac3b65.webp" alt="Логотип Antpool" width="200" height="100"/>
 </a>
 
 - Сайт: [Antpool](https://v3.antpool.com/home)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за долю
+- Конфиденциальные выплаты: Нет
+- Тип пула: Оплата за шару
 - Комиссия пула: 3%
 
 ---
 
-### [ViaBTC](https://www.viabtc.com/en/)
+#### [ViaBTC](https://www.viabtc.com/en/)
 
 <a href="https://www.viabtc.com/en/">
-    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="ViaBTC Logo" width="200" height="100"/>
+    <img src="/content-images/ViaBTC-8fa5be7bd7.webp" alt="Логотип ViaBTC" width="200" height="100"/>
 </a>
 
 - Сайт: [ViaBTC](https://www.viabtc.com/en/)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за долю+
+- Конфиденциальные выплаты: Нет
+- Тип пула: Оплата за шару+
 - Комиссия пула: 4%
 
 ---
 
-### [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
+#### [Foundry Zcash пул для майнинга](https://foundrydigital.com/foundry-zcash-pool/)
 
 <a href="https://foundrydigital.com/foundry-zcash-pool/">
-    <img src="/content-images/Foundry-3f33346374.webp" alt="Foundry Zcash Mining Pool Logo" width="200" height="100"/>
+    <img src="/content-images/Foundry-3f33346374.webp" alt="Логотип пула для майнинга Foundry Zcash" width="200" height="100"/>
 </a>
 
-- Сайт: [Foundry Zcash Mining Pool](https://foundrydigital.com/foundry-zcash-pool/)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за последние N долей
-- Комиссия пула: Публично не указана
+- Сайт: [Foundry пул для майнинга Zcash](https://foundrydigital.com/foundry-zcash-pool/)
+- Конфиденциальные выплаты: Нет
+- Тип пула: Оплата за последние N шар
+- Комиссия пула: не опубликована
 
 ---
 
-### [suprnova](https://zec.suprnova.cc/)
+#### [suprnova](https://zec.suprnova.cc/)
 
 <a href="https://zec.suprnova.cc/">
-    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="suprnova Logo" width="200" height="100"/>
+    <img src="/content-images/suprnova-logo-1-small-e95de6cdb3.webp" alt="Логотип suprnova" width="200" height="100"/>
 </a>
 
 - Сайт: [suprnova](https://zec.suprnova.cc/)
-- Приватные выплаты: Нет
-- Тип пула: Оплата за последние N долей
-- Комиссия пула: 0,5% - 1%
+- Конфиденциальные выплаты: Нет
+- Тип пула: Оплата за последние N шар
+- Комиссия пула: 0,5%–1%
 
 ---
 
-### [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
+#### [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
 
 <a href="https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash">
-    <img src="data:image/png;base64,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" alt="NiceHash Logo" width="200" height="100"/>
+    <img src="data:image/png;base64,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" alt="Логотип NiceHash" width="200" height="100"/>
 </a>
 
 - Сайт: [NiceHash](https://www.nicehash.com/blog/post/how-to-start-mining-zec-equihash-on-nicehash)
-- Приватные выплаты: выплаты в Bitcoin (BTC)
-- Тип пула: Маркетплейс хешрейта / прокси-пул
-- Комиссия пула: 0,5% - 1%
+- Конфиденциальные выплаты: выплата в Bitcoin (BTC)
+- Тип пула: маркетплейс хешрейта / прокси-пул
+- Комиссия пула: 0,5%–1%
 
 ---
 
-### [Sovright Mining Pool](https://mining.sovright.com/)
+#### [Sovright пул для майнинга](https://mining.sovright.com/)
 
 <a href="https://mining.sovright.com/">
-    <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Sovright Logo" width="200" height="100"/>
+    <img src="/content-images/-qOtwa1p_400x400-fce1523375.webp" alt="Логотип Sovright" width="200" height="100"/>
 </a>
 
-- Сайт: [Sovright Mining Pool](https://mining.sovright.com/)
-- Приватные выплаты: ДА
-- Тип пула: Оплата за последние N долей (PPLNS)
+- Сайт: [Sovright пул для майнинга ](https://mining.sovright.com/)
+- Конфиденциальные выплаты: Да
+- Тип пула: Оплата за последние N шар (PPLNS)
 - Комиссия пула: 1%
+
+
+---
+
+### Бывшие Zcash пулы
+
+#### Slush Pool (Braiins Pool)
+
+Braiins Pool больше не является действующим вариантом для майнинга Zcash. В [официальном FAQ пула](https://academy.braiins.com/braiins-pool/faqs/pool) указано, что поддерживается Bitcoin и планов по поддержке альткоинов нет (проверено 12 ноября 2026 года).
+
+## Наглядный пример
+
+Пул для майнинга похож на рыбацкую артель. Одна лодка с одной сетью может поймать крупную рыбу раз в несколько лет. Флотилия лодок расставляет сети по всей бухте, каждый день приносит улов и делит его пропорционально тому, сколько сетей каждая лодка опустила в воду.
+
+Ваш хешрейт — это сеть. Награда за блок — это улов.
+
+## Типичные ошибки
+
+- **Путать пулы для майнинга и защищённые пулы.** Пул для майнинга — это сервис для майнеров. [защищённый пул](/using-zcash/shielded-pools) — часть протокола Zcash, где хранятся приватные средства.
+- **Выбирать пул только по комиссии.** Способ выплат влияет на стабильность дохода. В неудачные недели пул PPLNS с низкой комиссией выплачивает меньше.
+- **Пропускать примечания о статусе.** Для Poolin есть примечание о банкротстве, а в разделе «Бывшие Zcash пулы» перечислены пулы, которые больше не майнят ZEC.
+- **Использовать прозрачный адрес для выплат.** Если в поле «Конфиденциальные выплаты» указано «Да», укажите пулу защищённый адрес.
+- **Ожидать ZEC от NiceHash.** NiceHash выплачивает майнерам средства в Bitcoin (BTC).
+
+## Связанные страницы
+
+- [Zcash руководство по майнингу](/using-zcash/zcash-mining-guide): настройте оборудование и программное обеспечение, а затем подключитесь к пулу.
+- [Zcash денежно-кредитная политика](/start-here/zcash-monetary-policy): награда за блок, которую распределяют пулы.
+- [защищённые пулы](/using-zcash/shielded-pools): куда поступают конфиденциальные выплаты.
+- [кошельки](/using-zcash/wallets): кошельки, позволяющие получить защищённый адрес для выплат.

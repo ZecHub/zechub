@@ -8,6 +8,19 @@ Ironwood — это экранированный пул, появившийся 
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Логотип AltQuick" width="200" height="100"/>
+</a>
+
+- Веб-сайт: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Пары: ZEC/BTC
+- Поддержка: Прозрачные адреса
+- Время зачисления: Около 30 минут (24 подтверждения)
+- Ironwood: Не применимо, только прозрачные адреса
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,15 +99,16 @@ ___
 - Ironwood: Поддерживается вывод на экранированные адреса, пул не указан
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Веб-сайт: [Huobi](https://huobi.com)
+- Веб-сайт: [HTX](https://www.htx.com) (ранее Huobi)
 - Пары: ALL/ZEC
 - Поддержка: Прозрачные
+- Статус: ввод и вывод ZEC в настоящее время приостановлены (согласно HTX публичному API, ноябрь 2026 года); спотовая торговля по-прежнему доступна в списке
 - Время зачисления: 35 минут 
 - Ironwood: Неприменимо, только прозрачные адреса
 ___

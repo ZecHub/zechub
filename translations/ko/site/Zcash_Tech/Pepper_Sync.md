@@ -14,7 +14,7 @@
 
 ## 핵심 설명
 
-Zingo 2.0은 Zcash 커뮤니티를 위해 만들어진 가볍고 오픈소스인 지갑 Zingo!의 최신 버전입니다. 이번 릴리스의 핵심은 Pepper Sync로, 지갑이 블록체인과 연결되는 방식을 완전히 새롭게 설계한 대규모 업그레이드입니다.
+Zingo 2.0은 Zcash 커뮤니티를 위해 만들어진 가볍고 오픈소스인 지갑 Zingo!의 릴리스로, 지갑이 블록체인과 연결되는 방식을 완전히 새롭게 설계한 대규모 업그레이드인 Pepper Sync를 도입했습니다. 이후 릴리스에도 Pepper Sync가 유지됩니다. 현재 모바일 릴리스인 [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324)(2026년 10월 31일)에는 NU7 지원과 내장 스왑 기능이 추가되었습니다.
 
 과거에는 동기화가 몹시 느리고, 오류가 잦고, 리소스를 많이 소모하는 작업처럼 느껴졌으며, 때로는 사용자가 처음부터 다시 시작해야 했습니다. Pepper Sync는 이 모든 것을 바꿉니다. 동기화를 더 빠르고, 더 매끄럽고, 더 안정적이며, 기기 부담은 더 적게 만들면서도 shielded 거래의 프라이버시는 완전히 유지합니다.
 
@@ -93,8 +93,8 @@ Pepper Sync는 다음과 같은 방식으로 도움을 줍니다:
 
 ### 시작하기: Zingo 2.0 온보딩
 
-1. 지갑 다운로드 - [Zingo GitHub releases page](https://github.com/zingolabs/zingolib)에서 올바른 버전을 받으세요
-2. 지갑 설정 - 새 지갑을 만들거나 기존 시드 구문으로 복원하세요. [Zingo Labs와 함께하는 Zingo 2.0](https://www.youtube.com/watch?v=FREwMzf_LlM)
+1. 지갑 다운로드 - [zingolabs.org](https://zingolabs.org/) 또는 GitHub [모바일](https://github.com/zingolabs/zingo-mobile/releases) 및 [데스크톱](https://github.com/zingolabs/zingo-pc/releases)용 릴리스 페이지에서 올바른 버전을 받으세요
+2. 지갑 설정 - 새 지갑을 만들거나 기존 시드 구문으로 복원하세요. [Zingo 2.0과 함께 Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Pepper Sync 실행 - 지갑이 업데이트되는 동안 진행 표시기를 확인하세요. [Pepper Sync 실행](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Zcash 사용 시작 - 동기화가 완료되는 즉시 shielded ZEC를 송금하고 받을 수 있습니다.
 5. 중단에 대해 걱정하지 않기 - 앱이 닫히거나 연결이 끊겨도 Pepper Sync가 자동으로 재개됩니다.

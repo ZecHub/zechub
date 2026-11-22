@@ -50,6 +50,11 @@ Zcashは、理論上のプライバシーだけではありません。**実用�
 ###  [ZECを寄付できる場所](/zcash-use-cases/where-to-donate-zec)
 ZECを受け付ける非営利団体と、そのうちシールドされた寄付を受け付ける団体を見つけます
 
+###  [ZEC 募金キャンペーンを実施する](/zcash-use-cases/run-a-zec-fundraising-campaign)
+1つの目標に向けて ZEC を集め、寄付者が信頼できる進捗を示し、すべての寄付をプライベートに保ちます
+###  [ZEC を寄付して米国の税控除を申請する](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
+ZEC をプライベートに寄付しながら、控除に必要な書類もきちんと受け取れます
+
 ###  [ジャーナリスト向けプライバシー設定](/zcash-use-cases/journalist-privacy-setup)   
 すべてのトランザクションにシールドされたアドレスを使用し、追跡可能な支払いを避けることで情報源を保護します。安全な通信のためにメモ（Memo）を慎重に使用します
 

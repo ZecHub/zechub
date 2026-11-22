@@ -13,6 +13,8 @@ Dompet Zingo adalah dompet Zcash berfitur lengkap yang dirancang agar mudah digu
 
 Salah satu fitur utama Zingo! adalah kemampuannya menggunakan bidang Memo untuk menawarkan wawasan berharga tentang transaksi Anda.
 
+Zingo 3.0 untuk perangkat seluler (31 Oktober 2026) mendukung NU7 dan menambahkan swap lintas blockchain bawaan melalui SwapKit. Aplikasi PC telah mendukung swap SwapKit sejak versi 2.0.26 dan dukungan NU7 Mainnet sejak 2.0.27.
+
 Zingo! tersedia untuk perangkat seluler dan PC. Anda akan menemukan semua unduhan [di sini](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

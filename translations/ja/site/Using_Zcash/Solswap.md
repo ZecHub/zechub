@@ -39,7 +39,7 @@ Phantom独自の**スワップ**ボタンにもZECが表示されますが、取
 - **送信先トークン**として**ZEC**を選択します。
 - Zcashがスワップインターフェースで利用可能であることを確認します。
 
-![img4](/content-images/ry4QQF-5gx-2a27ccdd47.webp)
+![img4](/content-images/ry4QQF-5gx-f3805528ea.webp)
 
 ---
 

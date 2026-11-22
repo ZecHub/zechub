@@ -2,46 +2,46 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
 </a>
 
-# Usando ZEC de forma privada
+# Usando o ZEC de forma privada
 
 #### Blindado (privado) vs. transparente
 
-Atualmente, existem dois tipos de endereços e transações no Zcash: blindados e transparentes. A diferença entre ZEC blindado e transparente é muito simples. O ZEC blindado mantém seu dinheiro e suas transações privados, enquanto o ZEC transparente funciona como o Bitcoin, de forma completamente transparente. Isso significa que alguém pode ver seu saldo e todas as suas transações se souber seu endereço.
+Atualmente, existem dois tipos de endereços e de transações no Zcash: blindados e transparentes. A diferença entre o ZEC blindado e o transparente é muito simples. O ZEC blindado mantém o seu dinheiro e as suas transações privados, enquanto o ZEC transparente funciona como o Bitcoin, de forma completamente transparente. Isso significa que alguém pode ver o seu saldo e todas as suas transações se souber o seu endereço.
 
-Quando as pessoas começam a usar ZEC pela primeira vez, talvez não percebam qual tipo de endereço estão usando. Isso acontece porque nem todas as corretoras oferecem suporte a ZEC blindado e/ou saques de ZEC blindado.
+Quando as pessoas começam a usar o ZEC, talvez não percebam qual tipo de endereço estão usando. Isso acontece porque nem todas as corretoras oferecem suporte a ZEC blindado e/ou a saques de ZEC blindados. 
 
-Então, por exemplo, se alguém usa a Coinbase e compra ZEC, estará comprando ZEC transparente e só poderá sacar esse ZEC para um endereço transparente em uma carteira. Carteiras como [Zodl](https://zodl.com/) podem blindar fundos enviados para um endereço transparente para resolver isso, mas nem todo mundo sabe disso. Em termos simples, muitas pessoas usam ZEC da forma que sua corretora ou carteira principal permite.
+Assim, por exemplo, se alguém usa a Coinbase e compra ZEC, estará comprando ZEC transparente e só poderá sacar esse ZEC para um endereço transparente em uma carteira. Carteiras como [Zodl](https://zodl.com/) podem blindar fundos enviados para um endereço transparente para resolver isso, mas nem todo mundo sabe disso. Muitas pessoas, em resumo, usam o ZEC da forma que a corretora ou a carteira principal delas permite.
 
-#### Garantindo que seu ZEC esteja blindado
+#### Garantindo que o seu ZEC esteja blindado
 
-Recomendamos que você faça a autocustódia do seu ZEC. Ou seja, mova seu ZEC de uma corretora para uma carteira. A melhor forma de saber se você está usando ZEC blindado, também conhecido como privado, é observando o endereço onde o saldo está. Se o endereço começar com `z` ou `u1`, então seu saldo está blindado. Se o endereço começar com `t`, então o saldo é transparente.
+Recomendamos que todos mantenham a autocustódia do seu ZEC. Ou seja, transfira o seu ZEC de uma corretora para uma carteira. A melhor forma de saber se você está usando ZEC blindado, ou seja, privado, é olhar o endereço em que o saldo está. Se o endereço começar com "z" ou "u1", o seu saldo está blindado. Se o endereço começar com "t", o saldo está transparente.
 
-Em geral, há dois caminhos para obter ZEC blindado.
+Em geral, existem dois caminhos para chegar ao ZEC blindado.
 
-De uma corretora que oferece suporte a saques **blindados**:
-
-  1. Compre ZEC em uma corretora
-  2. Inicie o processo de saque na corretora
-  3. Abra sua carteira de ZEC blindado e verifique se o endereço de recebimento começa com `u1` ou `z`
-  4. Execute o saque da sua corretora
-
-De uma corretora que oferece suporte a saques **transparentes**:
-
+A partir de uma corretora que oferece suporte a saques **blindados**:
 
   1. Compre ZEC em uma corretora
   2. Inicie o processo de saque na corretora
-  3. Abra sua carteira de ZEC com blindagem automática e use o endereço transparente de recebimento
-  4. Execute o saque da sua corretora
-  5. Aguarde dez confirmações e, em seguida, blinde o ZEC do seu endereço transparente para um endereço blindado
+  3. Abra a sua carteira de ZEC blindada e verifique se o endereço de recebimento começa com "u1" ou "z"
+  4. Execute o saque na sua corretora
+
+A partir de uma corretora que oferece suporte a saques **transparentes**:
 
 
-Aqui está um tutorial sobre como sacar ZEC de uma corretora. Observe que este é um saque blindado.
+  1. Compre ZEC em uma corretora
+  2. Inicie o processo de saque na corretora
+  3. Abra a sua carteira de ZEC com blindagem automática e use o endereço de recebimento transparente
+  4. Execute o saque na sua corretora
+  5. Aguarde dez confirmações e, em seguida, blinde o ZEC do seu endereço transparente para o endereço blindado
+
+
+Aqui está um tutorial de como sacar ZEC de uma corretora. Observe que este é um saque blindado.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/REUbkLzK7J4"
-    title="Compre e saque ZEC para uma carteira blindada pela Gemini"
+    title="Compre e saque ZEC para uma carteira blindada a partir da Gemini"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -50,13 +50,13 @@ Aqui está um tutorial sobre como sacar ZEC de uma corretora. Observe que este �
     
 
 ---
-Aqui está um tutorial sobre como blindar seu ZEC de um endereço transparente para um endereço blindado.
+Aqui está um tutorial de como blindar o seu ZEC de um endereço transparente para um endereço blindado.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/W2msuzrxr3s"
-    title="Blinde seu ZEC de um endereço transparente para um endereço blindado"
+    title="Blinde o seu ZEC de um endereço transparente para um blindado"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -64,7 +64,8 @@ Aqui está um tutorial sobre como blindar seu ZEC de um endereço transparente p
 </div>
 
 
-Aqui está um tutorial sobre como comprar ZEC na Coinbase e enviar para a Zodl.
+---
+Aqui está um tutorial de como comprar ZEC na Coinbase e enviar para a Zodl.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -80,16 +81,16 @@ Aqui está um tutorial sobre como comprar ZEC na Coinbase e enviar para a Zodl.
 
 #### Transações
 
-Depois de garantir que seu ZEC esteja em uma carteira blindada que ofereça suporte a endereços blindados, você pode decidir se deseja transacionar com esse ZEC. Transacionar com ZEC é super fácil. Você pode enviar ZEC para endereços blindados ou transparentes, dependendo da preferência da pessoa. Como em qualquer transação monetária, há pequenas chances de as pessoas vazarem dados. O ZEC é o melhor no combate ao vazamento de dados, mas isso não significa que você deva usá-lo de forma descuidada. Aqui estão algumas coisas que você vai querer evitar ao transacionar com ZEC.
+Depois de garantir que o seu ZEC está em uma carteira blindada que oferece suporte a endereços blindados, você pode decidir se quer fazer transações com esse ZEC. Fazer transações com ZEC é superfácil. Você pode enviar ZEC para endereços blindados ou transparentes, dependendo da preferência da pessoa. Como em qualquer transação monetária, existe uma pequena chance de as pessoas vazarem dados. O ZEC é o melhor no combate ao vazamento de dados, mas isso não significa que você deva usá-lo sem cuidado. Aqui estão algumas coisas que você deve evitar ao fazer transações com ZEC.
 
-- Divulgar seu endereço blindado
-- Usar um endereço blindado como ponte para t-addresses (também conhecido como "mixing")
+- Divulgar o seu endereço blindado
+- Usar um endereço blindado como intermediário para t-addresses (também conhecido como "mixing")
 - Realizar, e divulgar que realiza, um grande número de transações de blindado para transparente
 - Informar regularmente às pessoas onde você gasta ZEC blindado
 
 
-Essencialmente, a melhor coisa a fazer com seu ZEC é mantê-lo em uma carteira blindada, transacionar entre endereços blindados e ter cuidado com a forma como você usa ZEC em público (por exemplo, em uma cafeteria). Garantir privacidade envolve um nível de responsabilidade.
+Basicamente, o melhor a fazer com o seu ZEC é mantê-lo em uma carteira blindada, fazer transações entre endereços blindados e ter cuidado com a forma como você usa o ZEC em público (por exemplo, em uma cafeteria). Garantir a privacidade exige um certo nível de responsabilidade. 
 
 #### Recursos
 
-[Transações do Zcash](https://zechub.wiki/using-zcash/transactions)
+[Transações Zcash](https://zechub.wiki/using-zcash/transactions)

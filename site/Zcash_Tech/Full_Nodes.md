@@ -94,7 +94,7 @@ By running a full node, you are helping to strengthen the zcash network by suppo
 
 This helps to prevent adversarial control and keep the network resilient to some forms of disruption.
 
-DNS seeders expose a list of other reliable nodes via a built-in server. This allows transactions to propagate throughout the network.
+DNS seeders expose a list of other reliable nodes via a built-in server. This allows transactions to propagate throughout the network. The Zcash Foundation's seeders run [Zeeder](https://github.com/ZcashFoundation/zeeder), a DNS seeder written in Rust that replaced its CoreDNS-based dnsseeder. Its images are published as `zfnd/zeeder`; the older `zfnd/dnsseeder` name is being retired.
 
 ### Network Stats
 
@@ -102,7 +102,7 @@ These are example platforms that allow access to Zcash Network data:
 
 [Zcash Block Explorer](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics](https://docs.coinmetrics.io/info/assets/zec)
+[Coin Metrics network data](https://docs.coinmetrics.io/network-data/network-data-overview) — metric documentation and links to current asset coverage.
 
 You can also contribute to the development of the network by running tests or proposing new improvements & providing metrics.
 
@@ -136,6 +136,7 @@ This has an added advantage of allowing other users to connect privately to your
 - [Zakura Node](/zcash-tech/zakura-node) - the second node implementation, forked from Zebra
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) - the servers that light wallets query
 - [Zaino](/zcash-tech/zaino) - the Rust indexer that serves light wallets
+- [Zinder](/zcash-tech/zinder) - the Zcash Foundation's alpha indexer for Zebra and Zakura
 - [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) - why syncing works the way it does
 
 ## Further Learning

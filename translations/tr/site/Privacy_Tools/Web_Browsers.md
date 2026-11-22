@@ -7,7 +7,7 @@
 
 1. **Brave:** Günümüzde piyasadaki en öne çıkan ve en güvenli tarayıcılardan biridir. Gizliliği ihlal eden reklamları ve takipçileri engeller. Üçüncü taraf veri depolamayı engeller. 
 
-2. **Mulvad:** Mullvad VPN ve Tor Project arasındaki iş birliğiyle geliştirilen, gizlilik odaklı bir web tarayıcısıdır. Takibi ve parmak izi çıkarmayı en aza indirmek için üretilmiştir.
+2. **Mullvad:** Mullvad VPN ile Tor Project'in iş birliğiyle geliştirilen, gizlilik odaklı bir web tarayıcısıdır. Takibi ve parmak izi çıkarmayı en aza indirmek için üretilmiştir.
 
 3. **Tor:** Bu tarayıcı Flash, RealPlayer, QuickTime ve benzeri eklentileri engeller; bunlar IP adresinizi ortaya çıkaracak şekilde manipüle edilebilir. Tor Browser içine ek eklentiler veya pluginler yüklemenizi önermiyoruz.
 

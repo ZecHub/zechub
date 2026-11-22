@@ -95,5 +95,5 @@ published: 2024-01-12
 
 
 
-**[TomoChain](https://tomochain.com/ecosystem/)**: Το TOMO είναι ένα δημόσιο blockchain layer 1. Το TomoChain είναι ένα πρωτόκολλο ιδιωτικότητας που αναπτύχθηκε στο TomoChain και σχεδιάστηκε για να δημιουργεί ασφαλείς και μη ανιχνεύσιμες συναλλαγές -**Swap περιουσιακών στοιχείων**: Ναι- [Whitepaper](https://tomochain.com/files/technical-whitepaper-1.0.pdf) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
+**[Viction (πρώην TomoChain)](https://viction.xyz/ecosystem)**: Το VIC (πρώην TOMO) είναι ένα δημόσιο blockchain layer 1. Το TomoChain είναι ένα πρωτόκολλο ιδιωτικότητας που αναπτύχθηκε στο TomoChain και σχεδιάστηκε για να δημιουργεί ασφαλείς και μη ανιχνεύσιμες συναλλαγές -**Swap περιουσιακών στοιχείων**: Ναι- [Whitepaper](https://docs.viction.xyz/whitepaper-and-research) - ![TomoChain.png](/content-images/tomochain-7598abfbb7.webp)
 ***

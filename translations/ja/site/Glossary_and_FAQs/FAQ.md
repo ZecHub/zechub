@@ -45,7 +45,7 @@ ZECは、[カストディアル取引所](/using-zcash/custodial-exchanges)、[D
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcashは、BitcoinやEthereumよりも根本的にプライバシー性が高いです。高速なブロック時間（75秒）、低い手数料、定期的なアップグレードを提供します。
+Zcashは、BitcoinやEthereumよりも根本的にプライバシー性が高いです。NU7が2026年11月に有効化されて以降はブロック時間が25秒となり（従来は75秒）、低い手数料と定期的なアップグレードを提供します。
 
 ユーザーは、**公開型**または**シールドされた**トランザクションを選択できます。詳細は[シールドされたエコシステム](https://electriccoin.co/blog/shielded-ecosystem)をご覧ください。
 
@@ -70,7 +70,7 @@ Zcashは、BitcoinやEthereumよりも根本的にプライバシー性が高い
 
 まず、[ブロックエクスプローラーのガイド](/guides/blockchain-explorers)をお読みください。次に、[Zcashブロックエクスプローラー](https://mainnet.zcashexplorer.app)を確認してください。
 
-トランザクションは約25分（20ブロック）後に期限切れとなり、資金は自動的に返却されます。
+固定の25分の期限切れや自動返金タイマーはありません。ウォレットに記録された有効期限のブロック高と、元の支払いがマイニングされたかどうかを確認してください。マイニングされずに期限切れになった場合、オンチェーンで決済されておらず、期限切れによって返金トランザクションが作成されることはありません。ウォレットを同期してから、再試行に関する案内に従ってください。[トランザクションのトラブルシューティング](/using-zcash/transactions#troubleshooting-stuck-transactions)および[ZIP 203](https://zips.z.cash/zip-0203)を参照してください。
 
 **トランザクションが表示されない一般的な理由：**
 

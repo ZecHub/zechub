@@ -10,9 +10,9 @@ Pretty Good Privacy (PGP), güvensiz kanallar üzerinden güvenli iletişim sağ
 
 Kullanılabilir birçok farklı PGP aracı vardır, ancak en popüler olanlardan bazıları şunlardır:
 
-* **[GPG](https://gpgtools.org/)**: GPG, Windows, macOS ve Linux için kullanılabilen ücretsiz ve açık kaynaklı bir PGP uygulamasıdır.
-* **[PGPMail](https://www.openpgp.org/software/)**: PGPMail, Windows ve macOS için kullanılabilen ticari bir PGP e-posta istemcisidir.
-* **[Mailvelope](https://www.comparitech.com/blog/information-security/pgp-encryption-gmail/)**: Mailvelope, Gmail ve Thunderbird için ücretsiz ve açık kaynaklı bir PGP eklentisidir.
+* **[GnuPG (GPG)](https://gnupg.org/)**: Ücretsiz, açık kaynaklı bir OpenPGP komut satırı aracı. İşletim sisteminize uygun paketi veya grafik arayüzü seçin.
+* **[Thunderbird](https://www.openpgp.org/software/thunderbird/)**: 78. sürümünden beri yerleşik OpenPGP desteğine sahip ücretsiz, açık kaynaklı bir masaüstü e-posta istemcisi. E-postayı şifrelemek için Mailvelope gerektirmez.
+* **[Mailvelope](https://mailvelope.com/)**: Gmail dahil desteklenen web posta hizmetlerine OpenPGP ekleyen açık kaynaklı bir tarayıcı uzantısı. Bu bir web posta aracıdır, Thunderbird için bir uzantı değildir.
 
 ![PGP Tools](/content-images/44984a75-800a-4f7a-94a5-88827e39b431-c66ef53a2b.webp)
 

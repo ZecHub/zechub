@@ -81,13 +81,13 @@ Zwei Vorbehalte: Tor verbirgt Ihre IP-Adresse vor dem Server, ändert aber nicht
 
 [Zaino](/zcash-tech/zaino) ist ein vom Zingo-Team geschriebener Indexer in Rust, der als Ersatz für lightwalletd im Rahmen der Arbeiten zur Ablösung von zcashd entwickelt wurde. Er bedient Light Clients, vollständige Clients und Block Explorer und liest Chain-Daten, die von "entweder einem vollständigen Zebra- oder zcashd-Validator" gehalten werden.
 
-Er befindet sich in aktiver Entwicklung; Version 0.8.0 wurde im August 2026 veröffentlicht. Er soll, wo möglich, abwärtskompatibel mit lightwalletd bleiben, sodass Wallets auf ihn verweisen können, ohne neu geschrieben werden zu müssen.
+Er befindet sich in aktiver Entwicklung; Version 0.10.1 wurde im September 2026 veröffentlicht. Er soll, wo möglich, abwärtskompatibel mit lightwalletd bleiben, sodass Wallets auf ihn verweisen können, ohne neu geschrieben werden zu müssen.
 
 Zaino verfügt über eine eigene Seite mit Architekturdiagrammen, daher behandelt diese Seite nur seine Rolle als Light-Wallet-Server.
 
 ### Eigenen Server betreiben
 
-Die stärkste Option besteht darin, selbst Betreiber zu sein, wodurch die Vertrauensfrage vollständig entfällt. Beide Server sind Open Source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go und [Zaino](https://github.com/zingolabs/zaino) in Rust. Beide lesen von einem vollständigen Validator, daher benötigen Sie außerdem [Zebra](/zcash-tech/zebra-full-node).
+Die stärkste Option besteht darin, selbst Betreiber zu sein, wodurch die Vertrauensfrage vollständig entfällt. Beide Server sind Open Source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go und [Zaino](https://github.com/zingolabs/zaino) in Rust. Beide lesen von einem vollständigen Validator, daher benötigen Sie außerdem [Zebra](/zcash-tech/zebra-full-node). Die zec.rocks-Server werden mit [Zcash Stack](/guides/zcash-stack) bereitgestellt, einem Open-Source-Helm-Chart und Docker-Compose-Kit, das Zebra und lightwalletd gemeinsam ausführt.
 
 ## Praktische Auswirkungen
 
@@ -117,11 +117,9 @@ Die untenstehenden Menüpfade waren bei der Aktualisierung dieser Seite korrekt,
 
 Früher Zashi. Tippen Sie auf das Zahnrad oben rechts und dann auf Erweiterte Einstellungen. Tor befindet sich im selben Bildschirm. ZODL bietet außerdem die Verknüpfung Server wechseln, wenn ein Synchronisierungsfehler dadurch verursacht wird, dass der Server nicht aktuell ist.
 
-#### Ywallet
+#### Zkool
 
-Tippen Sie auf das Zahnrad oben rechts und dann auf den Tab Zcash.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+Der Nachfolger von Ywallet vom selben Entwickler (Ywallet selbst wird nicht mehr gewartet und kann dem Netzwerk nach Ironwood nicht mehr folgen). Das Zahnradsymbol (Einstellungen öffnen) oben auf dem Kontobildschirm, dann das Feld „Light Node Server“. Über die Listen-Schaltfläche daneben lassen sich bekannte Server auswählen, und mit dem Schalter „Direct / Tor / Nym / Proxy“ darunter wird festgelegt, wie die Wallet eine Verbindung herstellt.
 
 #### Zingo
 
@@ -153,10 +151,11 @@ Light Wallets ermöglichen Ihnen den abgeschirmten Pool ohne den Speicherplatzbe
 
 ## Verwandte Seiten
 
-- [Wer kann Ihre Zcash-Zahlung sehen?](/start-here/who-can-see-your-zcash-payment) — die Einsteigerperspektive auf dieselbe Frage.
-- [Was ein Block Explorer sehen kann](/zcash-tech/what-a-block-explorer-can-see) — was on-chain sichtbar ist, im Gegensatz zu dem, was am Server sichtbar ist.
-- [Zaino](/zcash-tech/zaino) — Architekturdiagramme und die weitergehende Rolle des Rust-Indexers.
-- [Zebra-Vollknoten](/zcash-tech/zebra-full-node) — der Validator, von dem ein Light-Wallet-Server liest.
-- [Synchronisierung von Zcash-Wallets](/zcash-tech/zcash-wallet-syncing) — wie die kompakten Blöcke, die ein Server sendet, von Ihrer Wallet verarbeitet werden.
+- [Wer kann deine Zcash-Zahlung](/start-here/who-can-see-your-zcash-payment) sehen — die Einsteigerperspektive auf dieselbe Frage.
+- [Was ein Block-Explorer sehen kann](/zcash-tech/what-a-block-explorer-can-see) — was on-chain sichtbar ist, im Gegensatz zu dem, was auf dem Server sichtbar ist.
+- [Zaino](/zcash-tech/zaino) — Architekturdiagramme und die umfassendere Rolle des Rust-Indexers.
+- [Zinder](/zcash-tech/zinder) — der Alpha-Indexer des Zcash Foundation, der Light Wallets über einen lightwalletd-kompatiblen Adapter bedient.
+- [ZebraFull Node](/zcash-tech/zebra-full-node) — der Validator, von dem ein Light-Wallet-Server liest.
+- [ZcashWallet-Synchronisierung](/zcash-tech/zcash-wallet-syncing) — wie dein Wallet die kompakten Blöcke verarbeitet, die ein Server sendet.
 
 **Zuletzt aktualisiert:** August 2026

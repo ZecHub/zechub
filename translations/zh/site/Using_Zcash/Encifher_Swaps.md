@@ -1,15 +1,28 @@
-# **SOL/USDC -> ZEC 兑换 [Swap]，使用 Encrypt.trade**  
+<a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Encifher_Swaps.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
+# 使用 encrypt.trade 将 SOL/USDC 兑换 (Swap) 为 ZEC
+
+> 将 Solana 上的 SOL 或 USDC 兑换为 ZEC，跨链 [cross-chain] 步骤通过 NEAR Intents 路由。
 
 ![img1](/content-images/Bkbg5alCll-7a02545c00.webp)
 
 
-*从 Solana 兑换到 Zcash，跨链 [cross-chain] 步骤通过 NEAR Intents 路由。*  
+---
+
+## 太长不看（TL;DR）
+
+* [encrypt.trade](https://encrypt.trade/zec) 将 SOL 或 USDC 封装为加密代币（eSOL/eUSDC），然后通过 NEAR Intents 将其兑换为 ZEC。
+* 金额在 Solana 上是隐藏的，但您的钱包地址及其对该应用的使用情况是公开的。
+* ZEC 只会发送到透明（t1/t3）地址，因此在您将其屏蔽之前，它在 Zcash 链上是可见的。
+* 收到 ZEC 后，请立即在您的钱包中将其屏蔽。
+* 该应用和 NEAR Intents 都会出于合规目的对钱包进行筛查。
 
 ---
 
-###  介绍 [Introduction]  
-[**encrypt.trade**](https://encrypt.trade/zec) 是由 JMD Labs Inc. 运营的 Solana 应用。它让你能够在 Solana 上将 **SOL 或 USDC** 兑换为 **Zcash (ZEC)**。你的代币会先被封装为加密版本，以便在 Solana 上隐藏金额，然后再通过 NEAR Intents 兑换为 ZEC。
+## 核心说明
+[**encrypt.trade**](https://encrypt.trade/zec) 是由 JMD Labs Inc. 运营的 Solana 应用。它可以让你将 Solana 上的 **SOL 或 USDC** 兑换 [swap] 为 **Zcash (ZEC)**。你的代币 [token] 会先被封装成加密版本，使金额在 Solana 上被隐藏，然后通过 NEAR Intents 兑换为 ZEC。
 
 该兑换在某些方面具有隐私 [privacy]，但并非全部如此。该应用自己的 [文档](https://docs.encifher.io/docs) 表示，你与链 [chain] 的交互并非匿名：他人可以看到你的钱包 [wallet] 使用了该应用，但看不到你转移了多少金额。ZEC 也会到达一个透明 [transparent] 地址，因此在你将其屏蔽 [shielded] 前，它会一直在 Zcash 链上可见。
 

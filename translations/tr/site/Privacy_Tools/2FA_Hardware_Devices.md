@@ -20,7 +20,7 @@ YubiKey gibi donanım güvenlik anahtarlarıyla, donanım anahtarını masaüst�
 
 ## Donanım güvenlik anahtarı kullanmanın avantajları nelerdir?
 
-Donanım güvenlik anahtarları, geleneksel parola tabanlı kimlik doğrulama yöntemlerine göre çeşitli avantajlar sunar. Parolalara kıyasla saldırıya uğramaları çok daha zordur; çünkü parolalar kaba kuvvet, sosyal mühendislik veya oltalama saldırılarıyla kolayca ele geçirilebilir. Güvenlik anahtarları her kullanımda benzersiz bir kod üretir, bu da saldırganların kodu tahmin etmesini veya kopyalamasını neredeyse imkânsız hâle getirir. Ayrıca kullanımı ve yapılandırılması kolaydır ve cihazınıza ek bir yazılım ya da sürücü kurulmasını gerektirmez.
+FIDO U2F veya FIDO2/WebAuthn ile kullanıldığında, bir donanım güvenlik anahtarı yazmanız için bir kod üretmek yerine yeni bir sınamayı imzalayarak kimlik doğrulaması yapar. Hizmet genel anahtarı saklarken, özel anahtar kimlik doğrulayıcıda kalır. Kimlik bilgileri hizmete özgüdür ve tarayıcı, oltalama saldırılarına karşı koymak için güvenen tarafın kimliğini kontrol eder. Bu avantajlar, çoklu protokol destekleyen bir anahtarın destekleyebileceği her yöntemi değil, FIDO kimlik doğrulamasını açıklar. Hizmetinizin, tarayıcınızın, cihazınızın ve bağlantı türünüzün kullanmayı amaçladığınız yöntemi desteklediğini kontrol edin. [Yubico'nun WebAuthntanıtımına](https://developers.yubico.com/WebAuthn/) ve [FIDO2/WebAuthn geliştirici kılavuzuna](https://developers.yubico.com/WebAuthn/WebAuthn_Developer_Guide/) bakın.
 
 ## Donanım güvenlik anahtarları tüm cihazlar ve işletim sistemleriyle uyumlu mu?
 

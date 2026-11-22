@@ -45,6 +45,36 @@ Birleşik görüntüleme anahtarları, görüntüleme için aynı şekilde çal�
 
 NU5, Zcash'in önceki yükseltmelerini takip etti: Overwinter, Sapling, Blossom, Heartwood ve Canopy. 31 Mayıs 2022'de ana ağda etkinleştirildi. Orchard'in eğri döngüsü, daha sonraki ölçeklendirme çalışmaları için temel oluşturan özyinelemeyi desteklediği için seçildi. NU5, NU6 ve NU6.x yükseltme serisinin doğrudan öncüsüdür; bu seri Orchard havuzu üzerine inşa edildi ve daha sonra onu yamaladı.
 
+## Özet
+
+- NU5, ana ağda 1.687.104 numaralı blokta (31 Mayıs 2022 UTC) etkinleştirildi — Zcash'in Sapling'den bu yana ZIP 252 ile devreye alınan en büyük kriptografik yükseltmesi.
+- Hiç güvenilir kurulum gerektirmeyen bir kanıtlama sistemi olan Halo 2 üzerine inşa edilen ilk Zcash havuzu olan Orchard korumalı havuzunu kullanıma sundu.
+- Birkaç havuzun alıcılarını bir araya getirebilen tek bir adres dizgesi olan Unified Addresses ve birleşik görüntüleme anahtarlarını (ZIP 316) kullanıma sundu.
+- İşlemleri sürüm 5 biçimine (ZIP 225) taşıdı ve işlem kimliklerini değiştirilemez hâle getirdi (ZIP 244).
+- Orchard, özyinelemeli kanıtları destekleyen Pallas/Vesta eğri döngüsü üzerinde çalışır — sonraki ölçeklendirme çalışmaları ve NU6.x serisi için temel oluşturur.
+
+## Temel Açıklama
+
+Güvenilir kurulum sorunu: Sprout (2016) ve Sapling (2018), gizli parametrelerin oluşturulması için tek seferlik bir tören gerektiriyordu ve güvenlik, en az bir katılımcının kendi parçasını yok etmesine dayanıyordu. Her katılımcı gizlice bir kopya saklamış olsaydı, sahte ZEC mümkün olabilirdi. Orchard bu varsayımı tamamen ortadan kaldırır: Halo 2, güvenilir kurulum veya yapılandırılmış referans dizisi kullanmaz; dolayısıyla kötüye kullanılabilecek hiçbir sır yoktur.
+
+NU5, birlikte etkinleştirilen çeşitli fikir birliği değişikliğini bir araya getirdi: Orchard havuzu (ZIP 224), sürüm 5 işlem formatı (ZIP 225), Birleşik Adresler (ZIP 316), işlem kimliği değiştirilemezliği (ZIP 244), kanonik Jubjub nokta kodlamaları (ZIP 216) ve v5 işlemlerinin eşler arası iletimi (ZIP 239). Ayrıca yeni havuzu hesaba katmak için ZIP 32, 203, 209, 212, 213, 221 ve 401'i güncelledi.
+
+## Görsel benzetme
+
+Eski havuzlar, şifresi tek seferlik bir grup töreninde oluşturulmuş kasalar gibidir — her katılımcının kendi kopyasını parçaladığına güvenirsiniz. Orchard ise kilidi her kullanımda kendini yeniden doğrulayan bir kasadır: tören yoktur, ana sır yoktur, saklanmış olabilecek hiçbir şey yoktur. Birleşik Adresler, her girişi — şeffaf, Sapling, Orchard — listeleyen bir kartvizit gibidir; ziyaretçi gerçekten açabileceği kapıyı seçer.
+
+## Derinlemesine İnceleme
+
+Halo 2, Pallas ve Vesta eğri döngüsünde PLONKish aritmetizasyon kullanır — birbirini tamamlayan ve eşleştirme dostu iki eğri; diğer ispatları doğrulayan ispatlar olan özyinelemeyi mümkün kılan da budur. Bu özyineleme, Zcash'nin sonraki ölçeklendirme çalışmalarının üzerine inşa edildiği temeldir. v5 işlem düzeni şeffaf, Sapling ve Orchard bölgelerini birbirinden ayırır ve Sprout alanlarını kaldırır; eski sürüm 4 formatı etkinleştirmeden sonra da geçerliliğini korudu. ZIP 244, işlem kimliğini onu yetkilendiren ispatlar ve imzalardan değil, bir işlemin yaptıklarından yeniden hesaplayarak değiştirilebilirlik vektörlerini kapatır.
+
+## Yaygın Hatalar
+
+- **NU5'in güvenilir kurulumu her havuz için kaldırdığını düşünmek.** Yalnızca Orchard tören gerektirmez; Sapling'in parametreleri hâlâ mevcut olduğundan, kurulum gerektirmeme güvencesi Orchard'te tutulan fonlar için geçerlidir.
+- **Eski adreslerin veya cüzdanların çalışmayı bıraktığını varsaymak.** NU5 seçenekler ekledi; havuz bazındaki adres türleri ve v4 işlem formatı geçerliliğini korudu.
+- **Orchard ile Halo 2'yi karıştırmak.** Orchard, gizli protokol/havuzdur; Halo 2 ise onun kullandığı ispat sistemidir.
+- **Unified Addresses'ı tek adres türü olarak görmek.** Cüzdanınız desteklediğinde kullanabileceğiniz ek bir formattır.
+- **NU5'in arzı veya mevcut gizliliği değiştirdiğine inanmak.** Bir havuz ve formatlar ekledi; mevcut ZEC ve gizliliğine dokunulmadı.
+
 ## Sözlük
 
 | Terim | Sade açıklama |
@@ -109,5 +139,13 @@ Orchard, güvenilir kurulum veya yapılandırılmış başvuru dizisi gerektirme
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## İlgili Sayfalar
+
+- [Halo](./Halo.md) — Orchard’ün arkasındaki güvenilir kurulum gerektirmeyen kanıtlama sistemi
+- [Birleşik Adresler](./Unified_Addresses.md) — ZIP 316 adresleme hakkında derinlemesine inceleme
+- [Sapling](./Sapling.md) — önceki korumalı havuz; hâlâ kendi törenine bağlı
+- [NU6](./NU6.md) — Orchard havuzu üzerine inşa edilen bir sonraki yükseltme
+- [zk_SNARKS](./zk_SNARKS.md) — altında yatan sıfır bilgi teknolojisi
 
 Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [Canopy](../zcash-tech/canopy) · Sonraki: [NU6](../zcash-tech/nu6)

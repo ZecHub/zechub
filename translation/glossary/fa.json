@@ -1,0 +1,2394 @@
+{
+  "locale": "fa",
+  "version": 2,
+  "meta": {
+    "language_name": "Persian",
+    "native_name": "فارسی",
+    "engine": "llm",
+    "script": "Arab",
+    "dir": "rtl",
+    "language_lead": [
+      "@samizdatproject"
+    ],
+    "last_review": "2026-11-13"
+  },
+  "style": {
+    "variety": "natural, fluent standard Persian, written in Persian script (right to left); keep Latin-script names, terms and URLs as-is inline",
+    "register": {
+      "default": "شما",
+      "ui": "شما",
+      "text": {
+        "شما": "Address the reader formally with «شما» (plural/polite 'you') everywhere, in tutorials and technical pages alike."
+      }
+    },
+    "english_in_brackets": "never",
+    "loanwords": "translate",
+    "loanwords_text": "Use the Persian word where the terminology list gives one; common crypto loanwords Persian readers use (توکن, کامیونیتی, گرنت, بلاک‌چین) are written in Persian script. The terminology list below wins over this rule.",
+    "capitalise_kept_english_at_sentence_start": true,
+    "numerals": "western",
+    "decimal_separator": ".",
+    "quotes": "Persian guillemets «…»",
+    "abbreviations_with_full_stop": [
+      "e.g",
+      "i.e",
+      "etc"
+    ],
+    "writing_rules": [
+      "Use the half-space (ZWNJ, نیم‌فاصله) in compounds and before suffixes: کیف‌پول‌ها, استخراج‌کننده, سخت‌افزاری."
+    ]
+  },
+  "terms": {
+    "wallet": {
+      "target": "کیف‌پول",
+      "forms": [
+        "کیف‌پول",
+        "کیف‌پول‌ها",
+        "کیف‌پول‌های"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-1"
+    },
+    "shielded": {
+      "target": "محافظت‌شده",
+      "forms": [
+        "محافظت‌شده"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-2"
+    },
+    "transaction": {
+      "target": "تراکنش",
+      "forms": [
+        "تراکنش",
+        "تراکنش‌ها",
+        "تراکنش‌های"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-3"
+    },
+    "privacy": {
+      "target": "حریم خصوصی",
+      "forms": [
+        "حریم خصوصی"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-5"
+    },
+    "pool": {
+      "target": "استخر",
+      "forms": [
+        "استخر",
+        "استخرها",
+        "استخرهای"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-6"
+    },
+    "proof": {
+      "target": "اثبات",
+      "forms": [
+        "اثبات"
+      ],
+      "rejected": [
+        {
+          "text": "proof"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "There wasn't any Persian value.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-10"
+    },
+    "node": {
+      "target": "نود",
+      "forms": [
+        "نود"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-9"
+    },
+    "transparent": {
+      "target": "شفاف",
+      "forms": [
+        "شفاف"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-12"
+    },
+    "exchange": {
+      "target": "صرافی",
+      "forms": [
+        "صرافی",
+        "صرافی‌ها",
+        "صرافی‌های"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-16"
+    },
+    "memo": {
+      "target": "یادداشت",
+      "forms": [
+        "یادداشت"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-17"
+    },
+    "viewing-key": {
+      "target": "کلید مشاهده",
+      "forms": [
+        "کلید مشاهده"
+      ],
+      "rejected": [
+        {
+          "text": "viewing key"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are correct translations, and the English terms are not popular among Persian speakers. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-24"
+    },
+    "fee": {
+      "target": "کارمزد",
+      "forms": [
+        "کارمزد"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-20"
+    },
+    "swap": {
+      "target": "مبادله",
+      "forms": [
+        "مبادله"
+      ],
+      "rejected": [
+        {
+          "text": "swap"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "They need translation, and these are the correct format of the words in Persian. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-27"
+    },
+    "custodial": {
+      "target": "امانی",
+      "forms": [
+        "امانی"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-18"
+    },
+    "zero-knowledge": {
+      "target": "دانش صفر",
+      "forms": [
+        "دانش صفر"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-22"
+    },
+    "network-upgrade": {
+      "target": "ارتقای شبکه",
+      "forms": [
+        "ارتقای شبکه"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-32"
+    },
+    "mining": {
+      "target": "استخراج",
+      "forms": [
+        "استخراج"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-21"
+    },
+    "miner": {
+      "target": "استخراج‌کننده",
+      "forms": [
+        "استخراج‌کننده"
+      ],
+      "rejected": [
+        {
+          "text": "ماینر"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation provides a meaningful explanation. [half-space added at import (reviewer OK on #2663)]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-39"
+    },
+    "full-node": {
+      "target": "فول‌نود",
+      "forms": [
+        "فول‌نود"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-35"
+    },
+    "turnstile": {
+      "target": "دروازه",
+      "forms": [
+        "دروازه"
+      ],
+      "rejected": [
+        {
+          "text": "turnstile"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are correct translations, and the English terms are not popular among Persian speakers. مکانیزم کنترل یکپارچگی موجودی [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-37"
+    },
+    "spending-key": {
+      "target": "کلید خرج‌کننده",
+      "forms": [
+        "کلید خرج‌کننده"
+      ],
+      "rejected": [
+        {
+          "text": "spending key"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation provides a meaningful explanation. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-38"
+    },
+    "seed-phrase": {
+      "target": "عبارت بازیابی",
+      "forms": [
+        "عبارت بازیابی"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-50"
+    },
+    "light-client": {
+      "target": "کلاینت سبک",
+      "forms": [
+        "کلاینت سبک"
+      ],
+      "rejected": [
+        {
+          "text": "light client"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These Persian terms are common among Persian speakers.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-54"
+    },
+    "token": {
+      "target": "توکن",
+      "forms": [
+        "توکن"
+      ],
+      "rejected": [
+        {
+          "text": "token"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These Persian terms are common among Persian speakers.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-28"
+    },
+    "chain": {
+      "target": "زنجیره",
+      "forms": [
+        "زنجیره",
+        "زنجیره‌ها"
+      ],
+      "context": "The word chain on its own in a sentence: «زنجیره». The fixed term on-chain stays English; cross-chain is «بین‌بلاک‌چینی».",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-11"
+    },
+    "cross-chain": {
+      "target": "بین‌بلاک‌چینی",
+      "forms": [
+        "بین‌بلاک‌چینی"
+      ],
+      "context": "Built on بلاک‌چین (the reviewer's word for blockchain, answer on #2663), not on زنجیره.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-52"
+    },
+    "faucet": {
+      "target": "فاست",
+      "forms": [
+        "فاست"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-49"
+    },
+    "developer": {
+      "target": "توسعه‌دهنده",
+      "forms": [
+        "توسعه‌دهنده",
+        "توسعه‌دهندگان"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-33"
+    },
+    "dashboard": {
+      "target": "داشبورد",
+      "forms": [
+        "داشبورد"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-51"
+    },
+    "visualizer": {
+      "target": "تصویرساز",
+      "forms": [
+        "تصویرساز"
+      ],
+      "rejected": [
+        {
+          "text": "visualizer"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These Persian terms are common among Persian speakers. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-62"
+    },
+    "use-case": {
+      "target": "کاربرد",
+      "forms": [
+        "کاربرد",
+        "کاربردها",
+        "کاربردهای"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-53"
+    },
+    "brand": {
+      "target": "برند",
+      "forms": [
+        "برند"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-61"
+    },
+    "treasury": {
+      "target": "خزانه",
+      "forms": [
+        "خزانه"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-57"
+    },
+    "top-up": {
+      "target": "شارژ کردن",
+      "forms": [
+        "شارژ کردن",
+        "شارژ"
+      ],
+      "context": "The verb is «شارژ کردن»; as a noun in labels «شارژ» (Mobile Top Ups = «شارژ موبایل», answer on #2663).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-58"
+    },
+    "tools": {
+      "target": "ابزار",
+      "forms": [
+        "ابزار",
+        "ابزارها",
+        "ابزارهای"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "They need translation, and these are the correct format of the words in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-26"
+    },
+    "newsletter": {
+      "target": "خبرنامه",
+      "forms": [
+        "خبرنامه"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-46"
+    },
+    "address": {
+      "target": "آدرس",
+      "forms": [
+        "آدرس",
+        "آدرس‌ها",
+        "آدرس‌های"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-4"
+    },
+    "block": {
+      "target": "بلوک",
+      "forms": [
+        "بلوک"
+      ],
+      "context": "A block of the chain: «بلوک». «بلاک» appears only inside بلاک‌چین (blockchain).",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are common terms in the blockchain ecosystem.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-7"
+    },
+    "blockchain": {
+      "target": "بلاک‌چین",
+      "forms": [
+        "بلاک‌چین"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are common terms in the blockchain ecosystem. [#2663 follow-up (بلاک‌چین everywhere)]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-15"
+    },
+    "signature": {
+      "target": "امضای دیجیتال",
+      "forms": [
+        "امضای دیجیتال"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-19"
+    },
+    "commitment": {
+      "target": "تعهد",
+      "forms": [
+        "تعهد"
+      ],
+      "rejected": [
+        {
+          "text": "سرسپردگی"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The correct term is تعهد; the suggestion was completely wrong.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-23"
+    },
+    "nullifier": {
+      "target": "باطل‌کننده",
+      "forms": [
+        "باطل‌کننده"
+      ],
+      "rejected": [
+        {
+          "text": "nullifier"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are correct translations, and the English terms are not popular among Persian speakers. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-40"
+    },
+    "note": {
+      "target": "note",
+      "keep_english": true,
+      "forms": [
+        "note",
+        "Note",
+        "notes",
+        "Notes"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are correct translations, and the English terms are not popular among Persian speakers. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-13"
+    },
+    "trusted-setup": {
+      "target": "تنظیمات اولیه مورد اعتماد",
+      "forms": [
+        "تنظیمات اولیه مورد اعتماد"
+      ],
+      "rejected": [
+        {
+          "text": "trusted setup"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are correct translations, and the English terms are not popular among Persian speakers. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-45"
+    },
+    "consensus": {
+      "target": "اجماع",
+      "forms": [
+        "اجماع"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-29"
+    },
+    "governance": {
+      "target": "حکمرانی",
+      "forms": [
+        "حکمرانی"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-36"
+    },
+    "grant": {
+      "target": "گرنت",
+      "forms": [
+        "گرنت",
+        "گرنت‌ها",
+        "گرنت‌های"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "They need translation, and these are the correct format of the words in Persian. [#2663 follow-up (گرنت)]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-25"
+    },
+    "halving": {
+      "target": "هاوینگ",
+      "forms": [
+        "هاوینگ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-43"
+    },
+    "staking": {
+      "target": "استیکینگ",
+      "forms": [
+        "استیکینگ"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-30"
+    },
+    "finalizer": {
+      "target": "نهایی‌کننده",
+      "forms": [
+        "نهایی‌کننده"
+      ],
+      "rejected": [
+        {
+          "text": "finalizer"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are correct translations, and the English terms are not popular among Persian speakers. [half-space added at import (reviewer OK on #2663)]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-44"
+    },
+    "bond": {
+      "target": "سپرده",
+      "forms": [
+        "سپرده"
+      ],
+      "rejected": [
+        {
+          "text": "bond"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "They need translation, and these are the correct format of the words in Persian. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-48"
+    },
+    "encryption": {
+      "target": "رمزنگاری",
+      "forms": [
+        "رمزنگاری"
+      ],
+      "rejected": [
+        {
+          "text": "رمزگذاری"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The correct term is رمزنگاری (ramznegari).",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-14"
+    },
+    "decentralized": {
+      "target": "غیرمتمرکز",
+      "forms": [
+        "غیرمتمرکز"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-31"
+    },
+    "on-chain": {
+      "target": "on-chain",
+      "keep_english": true,
+      "forms": [
+        "on-chain",
+        "On-chain",
+        "off-chain",
+        "Off-chain"
+      ],
+      "context": "The fixed crypto term Persian readers use (answer on #2663); not the word chain on its own (زنجیره).",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-34"
+    },
+    "bridge": {
+      "target": "پل",
+      "forms": [
+        "پل"
+      ],
+      "rejected": [
+        {
+          "text": "بریج"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These are common terms in the blockchain ecosystem.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-42"
+    },
+    "payment": {
+      "target": "پرداخت",
+      "forms": [
+        "پرداخت"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-8"
+    },
+    "smart-contract": {
+      "target": "قرارداد هوشمند",
+      "forms": [
+        "قرارداد هوشمند"
+      ],
+      "rejected": [
+        {
+          "text": "smart contract"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "These Persian terms are common among Persian speakers.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-55"
+    },
+    "unlinkable": {
+      "target": "غیرقابل‌پیوند",
+      "forms": [
+        "غیرقابل‌پیوند"
+      ],
+      "rejected": [
+        {
+          "text": "قطع‌شده"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation provides a meaningful explanation. [half-space added at import (reviewer OK on #2663)]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-60"
+    },
+    "permissionless": {
+      "target": "بدون نیاز به مجوز",
+      "forms": [
+        "بدون نیاز به مجوز"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-59"
+    },
+    "scaling": {
+      "target": "مقیاس‌پذیری",
+      "forms": [
+        "مقیاس‌پذیری"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-47"
+    },
+    "selective-disclosure": {
+      "target": "افشای انتخابی",
+      "forms": [
+        "افشای انتخابی"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-56"
+    },
+    "hardware-wallet": {
+      "target": "کیف‌پول سخت‌افزاری",
+      "forms": [
+        "کیف‌پول سخت‌افزاری"
+      ],
+      "rejected": [
+        {
+          "text": "hardware wallet"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The translation provides a meaningful explanation. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "glossary-review-fa.md#terms-41"
+    }
+  },
+  "phrases": {
+    "Accept Payments": {
+      "target": "پذیرش پرداخت",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-32"
+    },
+    "Akash Network": {
+      "target": "شبکه Akash",
+      "context": "The guides-menu label for the network itself.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-60"
+    },
+    "Akash Network Zebra": {
+      "target": "Akash Network Zebra",
+      "context": "Guide title kept in English as a whole, as the reviewer confirmed.",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-2"
+    },
+    "All languages": {
+      "target": "همه زبان‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#common-6"
+    },
+    "Block Explorers": {
+      "target": "اکسپلوررهای بلوک",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "This is how we actually say these things. [half-space added at import (reviewer OK on #2663)]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-20"
+    },
+    "Blockchain Explorers": {
+      "target": "کاوشگرهای بلاک‌چین",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-64"
+    },
+    "Brand": {
+      "target": "برند",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-50"
+    },
+    "BTCPayServer Plugin": {
+      "target": "پلاگین BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-65"
+    },
+    "BTCPayServer Zcash Plugin": {
+      "target": "پلاگین Zcash برای BTCPayServer",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-4"
+    },
+    "Buying ZEC": {
+      "target": "خرید ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-16"
+    },
+    "Close": {
+      "target": "بستن",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#common-3"
+    },
+    "CoinHolder Directed Retroactive Grants": {
+      "target": "گرنت‌های گذشته‌نگر با تصمیم‌گیری دارندگان کوین",
+      "rejected": [
+        {
+          "text": "گرنت‌های گذشته‌نگر به انتخاب دارندگان سکه"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "These should be descriptive: they are not known in Persian communities, so they need some description.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-51"
+    },
+    "Community": {
+      "target": "کامیونیتی",
+      "rejected": [
+        {
+          "text": "جامعه"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-11"
+    },
+    "Community Blogs": {
+      "target": "وبلاگ‌های کامیونیتی",
+      "rejected": [
+        {
+          "text": "وبلاگ‌های جامعه"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-40"
+    },
+    "Community Building": {
+      "target": "کامیونیتی‌سازی",
+      "rejected": [
+        {
+          "text": "جامعه‌سازی"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-80"
+    },
+    "Community Forum": {
+      "target": "انجمن کامیونیتی",
+      "rejected": [
+        {
+          "text": "انجمن جامعه"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-42"
+    },
+    "Community Links": {
+      "target": "پیوندهای کامیونیتی",
+      "rejected": [
+        {
+          "text": "پیوندهای جامعه"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-41"
+    },
+    "Community Projects": {
+      "target": "پروژه‌های کامیونیتی",
+      "rejected": [
+        {
+          "text": "پروژه‌های جامعه"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-43"
+    },
+    "Contribute": {
+      "target": "مشارکت",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-12"
+    },
+    "Custodial Exchanges": {
+      "target": "صرافی‌های امانی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-74"
+    },
+    "Cypherpunk Zero NFT": {
+      "target": "Cypherpunk Zero NFT",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-47"
+    },
+    "DAO": {
+      "target": "DAO",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-6"
+    },
+    "Dashboard": {
+      "target": "داشبورد",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-13"
+    },
+    "Developers": {
+      "target": "توسعه‌دهندگان",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-10"
+    },
+    "Donate": {
+      "target": "حمایت مالی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-8"
+    },
+    "Donations": {
+      "target": "کمک‌های مالی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-37"
+    },
+    "Ecosystem": {
+      "target": "اکوسیستم",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-39"
+    },
+    "Exchanges": {
+      "target": "صرافی‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-19"
+    },
+    "Explore": {
+      "target": "کاوش",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-9"
+    },
+    "Extras": {
+      "target": "موارد بیشتر",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-18"
+    },
+    "Faucets": {
+      "target": "فاست‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-17"
+    },
+    "For Forks & Maintainers": {
+      "target": "برای فورک‌ها و نگه‌دارندگان",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#exploreMenu-13"
+    },
+    "Fork zechub": {
+      "target": "فورک zechub",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#exploreMenu-15"
+    },
+    "Fork zechub-wiki": {
+      "target": "فورک zechub-wiki",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#exploreMenu-14"
+    },
+    "Free2z Live": {
+      "target": "Free2z Live",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-53"
+    },
+    "Freelance Privacy": {
+      "target": "حریم خصوصی فریلنسرها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-33"
+    },
+    "Full Explore": {
+      "target": "کاوش کامل",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#exploreMenu-1"
+    },
+    "Glossary & FAQ's": {
+      "target": "واژه‌نامه و پرسش‌های متداول",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-78"
+    },
+    "Glossary & FAQs": {
+      "target": "واژه‌نامه و پرسش‌های متداول",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#exploreMenu-11"
+    },
+    "Governance": {
+      "target": "حکمرانی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-4"
+    },
+    "Guides": {
+      "target": "راهنماها",
+      "rejected": [
+        {
+          "text": "راهنمایان"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "/ These are the better terms for Persian speakers.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-2"
+    },
+    "How to Participate": {
+      "target": "چگونه مشارکت کنیم",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-24"
+    },
+    "Journalist Privacy": {
+      "target": "حریم خصوصی خبرنگاران",
+      "rejected": [
+        {
+          "text": "حریم خصوصی روزنامه‌نگاران"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "These should be descriptive: they are not known in Persian communities, so they need some description.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-34"
+    },
+    "Keeping Records": {
+      "target": "نگه‌داشتن سوابق",
+      "rejected": [
+        {
+          "text": "ثبت سوابق"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "These should be descriptive: they are not known in Persian communities, so they need some description. [half-space added at import (reviewer OK on #2663)]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-35"
+    },
+    "Language": {
+      "target": "زبان",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#common-1"
+    },
+    "Memos": {
+      "target": "یادداشت‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-24"
+    },
+    "Mobile Top Ups": {
+      "target": "شارژ موبایل",
+      "rejected": [
+        {
+          "text": "لوازم جانبی موبایل"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "We partially use the same word in our language, but the mobile part should be written in Persian. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-25"
+    },
+    "More": {
+      "target": "بیشتر",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-14"
+    },
+    "Navigation": {
+      "target": "ناوبری",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#sideMenu-1"
+    },
+    "Newsletter": {
+      "target": "خبرنامه",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-7"
+    },
+    "No language found": {
+      "target": "زبانی پیدا نشد",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#common-7"
+    },
+    "Nym Mixnet Wallet Setup": {
+      "target": "راه‌اندازی کیف‌پول Nym Mixnet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-81"
+    },
+    "Nym VPN": {
+      "target": "Nym VPN",
+      "keep_english": true,
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-54"
+    },
+    "Organizations": {
+      "target": "سازمان‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-49"
+    },
+    "Overview": {
+      "target": "نمای کلی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-72"
+    },
+    "Pay for AI": {
+      "target": "پرداخت برای AI",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-79"
+    },
+    "Payment Processors": {
+      "target": "پردازشگرهای پرداخت",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-27"
+    },
+    "Payment Request URIs": {
+      "target": "URIهای درخواست پرداخت",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-26"
+    },
+    "Podcast": {
+      "target": "پادکست",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-33"
+    },
+    "Privacy Tools": {
+      "target": "ابزارهای حریم خصوصی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-77"
+    },
+    "Private Community Treasury": {
+      "target": "خزانه خصوصی کامیونیتی",
+      "rejected": [
+        {
+          "text": "خزانه خصوصی جامعه"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-36"
+    },
+    "Raspberry Pi 4 Full Node": {
+      "target": "فول‌نود Raspberry Pi 4",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-35"
+    },
+    "Raspberry pi 4 Zebra Node": {
+      "target": "نود Zebra با Raspberry Pi 4",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-36"
+    },
+    "Raspberry Pi Zcashd Node": {
+      "target": "نود Zcashd با Raspberry Pi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-57"
+    },
+    "Raspberry Pi Zebra Node": {
+      "target": "نود Zebra با Raspberry Pi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-59"
+    },
+    "Raspberry pi5 Zebra Lightwalletd Zingo": {
+      "target": "Raspberry Pi 5، Zebra، Lightwalletd و Zingo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-58"
+    },
+    "Recovering Funds": {
+      "target": "بازیابی دارایی‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-28"
+    },
+    "Research": {
+      "target": "پژوهش",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-39"
+    },
+    "Search": {
+      "target": "جست‌وجو",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#common-2"
+    },
+    "Search languages": {
+      "target": "جست‌وجوی زبان‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#common-4"
+    },
+    "Send Money Privately": {
+      "target": "ارسال خصوصی پول",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-38"
+    },
+    "Shielded Pools": {
+      "target": "استخرهای محافظت‌شده",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-21"
+    },
+    "Shop": {
+      "target": "فروشگاه",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-73"
+    },
+    "Sitemap": {
+      "target": "نقشه سایت",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-42"
+    },
+    "Start Here": {
+      "target": "از اینجا شروع کنید",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-31"
+    },
+    "Store": {
+      "target": "فروشگاه",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-44"
+    },
+    "Suggested": {
+      "target": "پیشنهادی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#common-5"
+    },
+    "Tools": {
+      "target": "ابزارها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-29"
+    },
+    "Transactions": {
+      "target": "تراکنش‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-23"
+    },
+    "Transparent Exchange Addresses": {
+      "target": "آدرس‌های شفاف صرافی",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-22"
+    },
+    "Tutorials": {
+      "target": "آموزش‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-3"
+    },
+    "Use Cases": {
+      "target": "کاربردها",
+      "rejected": [
+        {
+          "text": "پرونده‌ها"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "[#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-30"
+    },
+    "Use Zcash": {
+      "target": "استفاده از Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-15"
+    },
+    "Using Zcash": {
+      "target": "استفاده از Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-52"
+    },
+    "Using ZEC in DeFi": {
+      "target": "استفاده از ZEC در DeFi",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-55"
+    },
+    "Using ZEC Privately": {
+      "target": "استفاده خصوصی از ZEC",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-56"
+    },
+    "Visual Identity": {
+      "target": "هویت بصری",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-53"
+    },
+    "Visualizer": {
+      "target": "تصویرساز",
+      "rejected": [
+        {
+          "text": "Visualizer"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "These are the better terms for Persian speakers. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-5"
+    },
+    "Visualizing the Zcash Network": {
+      "target": "تصویرسازی شبکه Zcash",
+      "rejected": [
+        {
+          "text": "نمایش شبکه Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "These are the correct terms.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-66"
+    },
+    "Visualizing Zcash Addresses": {
+      "target": "تصویرسازی آدرس‌های Zcash",
+      "rejected": [
+        {
+          "text": "نمایش آدرس‌های Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "These are the correct terms.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-67"
+    },
+    "Wallets": {
+      "target": "کیف‌پول‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "These are the better terms for Persian speakers. [#2663 follow-up]",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-1"
+    },
+    "Ywallet FROST Demo": {
+      "target": "دموی FROST در Ywallet",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-63"
+    },
+    "Zcash Community": {
+      "target": "کامیونیتی Zcash",
+      "rejected": [
+        {
+          "text": "جامعه Zcash"
+        }
+      ],
+      "applies_to": "ui",
+      "status": "approved",
+      "notes": "Community (کامیونیتی) is widely used in Persian.",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-60"
+    },
+    "Zcash Ecosystem Security": {
+      "target": "امنیت اکوسیستم Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-46"
+    },
+    "Zcash Governance": {
+      "target": "حکمرانی Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-62"
+    },
+    "Zcash Improvement Proposals": {
+      "target": "پیشنهادهای بهبود Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-68"
+    },
+    "Zcash Media": {
+      "target": "رسانه Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-44"
+    },
+    "Zcash Organizations": {
+      "target": "سازمان‌های Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-65"
+    },
+    "Zcash Podcasts": {
+      "target": "پادکست‌های Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-45"
+    },
+    "Zcash Tech": {
+      "target": "فناوری Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-76"
+    },
+    "Zcash Use Cases": {
+      "target": "کاربردهای Zcash",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-75"
+    },
+    "Zcon Archive": {
+      "target": "آرشیو Zcon",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-48"
+    },
+    "Zcon Vozes Archive": {
+      "target": "آرشیو Zcon Vozes",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-68"
+    },
+    "Zenith Installation": {
+      "target": "نصب Zenith",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-70"
+    },
+    "Zero Knowledge vs Decoy Systems": {
+      "target": "دانش صفر در برابر سیستم‌های طعمه",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-71"
+    },
+    "Zero-Knowledge vs Decoys": {
+      "target": "دانش صفر در برابر طعمه‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-70"
+    },
+    "Zgo Payment Processor": {
+      "target": "پردازشگر پرداخت Zgo",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-52"
+    },
+    "Zingolib and Zaino Tutorial": {
+      "target": "آموزش Zingolib و Zaino",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-69"
+    },
+    "ZIPs & Grants": {
+      "target": "ZIPها و گرنت‌ها",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#menuLabels-59"
+    },
+    "Zkool Multisig": {
+      "target": "مولتی‌سیگ Zkool",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@samizdatproject"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "menus-review-fa.md#navigation-62"
+    }
+  },
+  "changelog": [
+    {
+      "version": 2,
+      "date": "2026-11-13",
+      "terms": [
+        "address",
+        "block",
+        "blockchain",
+        "bond",
+        "brand",
+        "bridge",
+        "chain",
+        "commitment",
+        "consensus",
+        "cross-chain",
+        "custodial",
+        "dashboard",
+        "decentralized",
+        "developer",
+        "encryption",
+        "exchange",
+        "faucet",
+        "fee",
+        "finalizer",
+        "full-node",
+        "governance",
+        "grant",
+        "halving",
+        "hardware-wallet",
+        "light-client",
+        "memo",
+        "miner",
+        "mining",
+        "network-upgrade",
+        "newsletter",
+        "node",
+        "note",
+        "nullifier",
+        "on-chain",
+        "payment",
+        "permissionless",
+        "pool",
+        "privacy",
+        "proof",
+        "scaling",
+        "seed-phrase",
+        "selective-disclosure",
+        "shielded",
+        "signature",
+        "smart-contract",
+        "spending-key",
+        "staking",
+        "swap",
+        "token",
+        "tools",
+        "top-up",
+        "transaction",
+        "transparent",
+        "treasury",
+        "trusted-setup",
+        "turnstile",
+        "unlinkable",
+        "use-case",
+        "viewing-key",
+        "visualizer",
+        "wallet",
+        "zero-knowledge"
+      ],
+      "phrases": [
+        "Accept Payments",
+        "Akash Network",
+        "Akash Network Zebra",
+        "All languages",
+        "BTCPayServer Plugin",
+        "BTCPayServer Zcash Plugin",
+        "Block Explorers",
+        "Blockchain Explorers",
+        "Brand",
+        "Buying ZEC",
+        "Close",
+        "CoinHolder Directed Retroactive Grants",
+        "Community",
+        "Community Blogs",
+        "Community Building",
+        "Community Forum",
+        "Community Links",
+        "Community Projects",
+        "Contribute",
+        "Custodial Exchanges",
+        "Cypherpunk Zero NFT",
+        "DAO",
+        "Dashboard",
+        "Developers",
+        "Donate",
+        "Donations",
+        "Ecosystem",
+        "Exchanges",
+        "Explore",
+        "Extras",
+        "Faucets",
+        "For Forks & Maintainers",
+        "Fork zechub",
+        "Fork zechub-wiki",
+        "Free2z Live",
+        "Freelance Privacy",
+        "Full Explore",
+        "Glossary & FAQ's",
+        "Glossary & FAQs",
+        "Governance",
+        "Guides",
+        "How to Participate",
+        "Journalist Privacy",
+        "Keeping Records",
+        "Language",
+        "Memos",
+        "Mobile Top Ups",
+        "More",
+        "Navigation",
+        "Newsletter",
+        "No language found",
+        "Nym Mixnet Wallet Setup",
+        "Nym VPN",
+        "Organizations",
+        "Overview",
+        "Pay for AI",
+        "Payment Processors",
+        "Payment Request URIs",
+        "Podcast",
+        "Privacy Tools",
+        "Private Community Treasury",
+        "Raspberry Pi 4 Full Node",
+        "Raspberry Pi Zcashd Node",
+        "Raspberry Pi Zebra Node",
+        "Raspberry pi 4 Zebra Node",
+        "Raspberry pi5 Zebra Lightwalletd Zingo",
+        "Recovering Funds",
+        "Research",
+        "Search",
+        "Search languages",
+        "Send Money Privately",
+        "Shielded Pools",
+        "Shop",
+        "Sitemap",
+        "Start Here",
+        "Store",
+        "Suggested",
+        "Tools",
+        "Transactions",
+        "Transparent Exchange Addresses",
+        "Tutorials",
+        "Use Cases",
+        "Use Zcash",
+        "Using ZEC Privately",
+        "Using ZEC in DeFi",
+        "Using Zcash",
+        "Visual Identity",
+        "Visualizer",
+        "Visualizing Zcash Addresses",
+        "Visualizing the Zcash Network",
+        "Wallets",
+        "Ywallet FROST Demo",
+        "ZIPs & Grants",
+        "Zcash Community",
+        "Zcash Ecosystem Security",
+        "Zcash Governance",
+        "Zcash Improvement Proposals",
+        "Zcash Media",
+        "Zcash Organizations",
+        "Zcash Podcasts",
+        "Zcash Tech",
+        "Zcash Use Cases",
+        "Zcon Archive",
+        "Zcon Vozes Archive",
+        "Zenith Installation",
+        "Zero Knowledge vs Decoy Systems",
+        "Zero-Knowledge vs Decoys",
+        "Zgo Payment Processor",
+        "Zingolib and Zaino Tutorial",
+        "Zkool Multisig"
+      ],
+      "summary": "New locale. Imported the stage-1 review by @samizdatproject (#2663, Translation Quality bounty): 62 terms, menu phrases and style answers, with his follow-up answers on #2663 (note kept English, grant = گرنت); steward: half-spaces added."
+    }
+  ]
+}

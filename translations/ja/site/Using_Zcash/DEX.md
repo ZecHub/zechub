@@ -32,7 +32,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - ウェブサイト: https://github.com/firoorg/FiroDEX-Desktop
-- 説明: FiroDEX!によるアトミックスワップを用いた、信頼不要の分散型スワップです。
+- 説明: アトミックスワップ用のデスクトップアプリです。現在はメンテナンスされていません。FiroがFiroDEX-Desktopリポジトリをアーカイブしており、最終リリースは0.8.2-beta（2025年2月）です。
 
 ___
 

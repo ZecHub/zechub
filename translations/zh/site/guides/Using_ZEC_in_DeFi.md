@@ -69,7 +69,7 @@ Maya Protocol 已集成 Zcash，以增强其去中心化、流动性和交易隐
 
 互操作性是 DeFi 发展的关键组成部分，因为它使来自特定 blockchain 的资产能够参与跨网络数字经济。 
 
-在此了解更多：[ZenRock 桥了解](https://docs.zenrocklabs.io/)
+在此了解更多：[ZenRock 桥了解](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks 第 10 集，ZenRock 联合创始人 Aditya Dave 和 Jack Krevitt 在 Solana 上讨论 Zcash。" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -260,7 +260,7 @@ DZap 集成通过为 DeFi 用户提供更便捷的访问方式，帮助扩大 cb
 
 [Morpho](https://markets.morpho.org/fixed) 是一个去中心化借贷协议，提供资本效率极高的借贷市场。
 
-[Clearstar Labs](clearstar.xyz) 通过 Morpho 引入 cbAssets Vault，使 cbZEC 等资产能够用于借贷市场。
+[Clearstar Labs](https://clearstar.xyz) 通过 Morpho 引入 cbAssets Vault，使 cbZEC 等资产能够用于借贷市场。
 
 通过该金库，用户可以：
 

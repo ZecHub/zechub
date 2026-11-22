@@ -14,7 +14,7 @@
 
 ## Core Explanation
 
-Zingo 2.0 is the latest version of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community. The star of this release is Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain.
+Zingo 2.0 is the release of the Zingo! wallet, a lightweight, open-source wallet built for the Zcash community, that introduced Pepper Sync, a major upgrade that completely rethinks how wallets connect with the blockchain. Later releases keep Pepper Sync: the current mobile release, [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (October 31, 2026), adds NU7 support and built-in swaps.
 
 In the past, syncing could feel painfully slow, error-prone, and resource-heavy, sometimes forcing users to restart from scratch. Pepper Sync changes all that. It makes syncing faster, smoother, more reliable, and less demanding on your device, while fully preserving the privacy of shielded transactions.
 
@@ -93,7 +93,7 @@ By improving the wallet experience, Pepper Sync strengthens the entire Zcash eco
 
 ### Getting started: onboarding with Zingo 2.0
 
-1. Download the Wallet - Get the right version from the [Zingo GitHub releases page](https://github.com/zingolabs/zingolib)
+1. Download the Wallet - Get the right version from [zingolabs.org](https://zingolabs.org/) or the GitHub releases pages for [mobile](https://github.com/zingolabs/zingo-mobile/releases) and [desktop](https://github.com/zingolabs/zingo-pc/releases)
 2. Set Up Your Wallet - Create a new one or restore from an existing seed phrase. [Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Let Pepper Sync Run - Watch the progress indicators as your wallet updates. [Pepper Sync Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Start Using Zcash - Send and receive shielded ZEC as soon as syncing completes.

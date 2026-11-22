@@ -1,86 +1,86 @@
-# Tenir des registres avec des ZEC protégés
+# Tenir sa comptabilité avec des ZEC protégés
 
-## TL;DR
+## En bref
 
-- Les fonds protégés sont privés, mais vous pouvez quand même tenir des registres financiers propres et complets
-- Les mémos servent de lignes dans votre registre, comme un numéro de facture ou l’objet d’un paiement
-- Une viewing key vous permet, à vous ou à une personne de votre choix comme un comptable, de consulter votre historique sans le rendre public
-- Vous pouvez totaliser les revenus et les dépenses pour n’importe quelle période, ce dont vous avez besoin pour les déclarations ou les impôts
-- Rien de tout cela n’affaiblit votre confidentialité, car c’est vous qui décidez qui voit quoi
+- Les fonds protégés sont confidentiels, mais vous pouvez tout de même tenir des registres financiers propres et complets
+- Les mémos servent de lignes d'écriture dans votre registre, par exemple un numéro de facture ou l'objet d'un paiement
+- Une clé pour lecture seule vous permet, à vous ou à une personne de votre choix comme un comptable, de consulter votre historique sans le rendre public
+- Vous pouvez calculer le total de vos revenus et de vos dépenses pour n'importe quelle période, ce dont vous avez besoin pour vos déclarations ou vos impôts
+- Rien de tout cela n'affaiblit votre confidentialité, car c'est vous qui décidez qui voit quoi
 
 <br/>
 
-## À qui cela s’adresse-t-il ?
+## À qui s'adresse ce guide ?
 
-- Aux freelances et aux petites entreprises payés en ZEC
-- À toute personne qui doit tenir une comptabilité tout en restant privée
-- Aux personnes préparant des documents pour un comptable ou pour les impôts
+- Aux travailleurs indépendants et aux petites entreprises payés en ZEC
+- À toute personne qui doit tenir une comptabilité tout en préservant sa confidentialité
+- Aux personnes qui préparent leurs registres pour un comptable ou pour leurs impôts
 
 <br/>
 
 ## Le défi
 
-La confidentialité et la tenue de registres peuvent sembler opposées. Si vos transactions sont protégées, les montants et les adresses sont cachés au public, alors comment tenir une comptabilité correcte ou montrer vos revenus à un comptable ?
+La confidentialité et la tenue de registres peuvent sembler opposées. Si vos transactions sont protégées, les montants et les adresses sont cachés au public : comment alors tenir une comptabilité correcte ou justifier vos revenus auprès d'un comptable ?
 
-Avec Zcash, c’est un faux compromis. Les transactions protégées cachent par défaut votre activité à tout le monde, mais Zcash vous donne aussi des outils pour divulguer vos propres registres aux personnes qui en ont besoin, selon vos conditions. Vous restez privé vis-à-vis du monde et transparent pour votre comptable en même temps.
+Avec Zcash, ce dilemme est un faux problème. Les transactions protégées cachent votre activité à tout le monde par défaut, mais Zcash vous donne aussi les outils pour divulguer vos propres registres aux personnes qui en ont besoin, selon vos conditions. Vous restez confidentiel vis-à-vis du monde tout en restant transparent envers votre comptable.
 
 <br/>
 
 ## Les mémos sont votre registre
 
-Chaque transaction protégée (z à z) peut contenir un [mémo](/using-zcash/memos) chiffré. Pour la tenue de registres, le mémo est l’endroit où vous indiquez à quoi servait le paiement : un numéro de facture, un nom de client, un code projet ou une courte note comme « loyer de mars ».
+Chaque transaction protégée (de z à z) peut contenir un [mémo](/using-zcash/memos) chiffré. Pour la tenue de registres, c'est dans le mémo que vous indiquez l'objet du paiement : un numéro de facture, le nom d'un client, un code de projet ou une courte note comme « Loyer de mars ».
 
-Comme le mémo accompagne la transaction et n’est lisible que par les parties concernées, il devient une ligne privée dans votre comptabilité. Lorsque vous ou votre client incluez un mémo clair sur chaque paiement, votre historique de transactions devient un registre exploitable au lieu d’une liste de montants sans contexte.
+Comme le mémo accompagne la transaction et n'est lisible que par les parties concernées, il devient une ligne d'écriture privée dans votre comptabilité. Lorsque vous ou votre client ajoutez un mémo clair à chaque paiement, votre historique de transactions devient un registre exploitable plutôt qu'une liste de montants sans contexte.
 
-Une habitude simple : convenez avec vos clients de toujours inclure le numéro de facture dans le mémo. Plus tard, faire correspondre les paiements aux factures devient simple.
+Une habitude simple : convenez avec vos clients d'indiquer systématiquement le numéro de facture dans le mémo. Il sera ensuite facile de rapprocher les paiements des factures.
 
 <br/>
 
 ## Consulter votre propre historique
 
-Pour tenir une comptabilité, vous devez voir votre propre activité. Votre wallet contient les clés qui déchiffrent vos transactions protégées, donc votre wallet peut vous montrer l’ensemble : les dates, les montants, ce qui a été reçu, ce qui a été envoyé, et les mémos associés.
+Pour tenir votre comptabilité, vous devez pouvoir consulter votre propre activité. Votre portefeuille détient les clés qui déchiffrent vos transactions protégées : il peut donc vous montrer l'ensemble des informations, à savoir les dates, les montants, les transactions reçues, celles envoyées et les mémos associés.
 
-C’est la partie que le public ne peut pas voir, mais vous, si, parce que ces données vous appartiennent. Consulter régulièrement votre historique, plutôt qu’à la fin de l’année, permet de garder des registres exacts et de repérer plus facilement les erreurs.
-
-<br/>
-
-## Partager des registres avec un comptable
-
-Lorsque vous avez besoin qu’une autre personne voie votre activité protégée, comme un comptable ou un auditeur, vous n’avez pas à lui remettre vos spending keys ni à rendre quoi que ce soit public. Vous partagez une [viewing key](/zcash-tech/viewing-keys).
-
-Une full viewing key est en lecture seule. Elle permet à son détenteur de voir les transactions entrantes et sortantes d’une adresse, y compris les montants et les mémos, mais elle ne lui permet jamais de déplacer vos fonds. C’est donc ce qu’il faut donner à un comptable en toute sécurité. Il obtient exactement la visibilité dont il a besoin, votre argent reste sous votre contrôle, et le reste du monde ne voit toujours rien.
-
-Cela s’appelle la divulgation sélective, et c’est l’une des raisons pratiques pour lesquelles Zcash protégé fonctionne avec une comptabilité honnête au lieu d’aller contre elle.
+C'est la partie que le public ne peut pas voir, mais vous si, car ces données vous appartiennent. Consulter régulièrement votre historique, plutôt qu'en fin d'année, permet de garder des registres exacts et de repérer plus facilement les erreurs.
 
 <br/>
 
-## Totaliser sur une période
+## Partager vos registres avec un comptable
 
-Pour la plupart des déclarations, vous avez besoin de totaux sur une période donnée : combien vous avez reçu ce trimestre, combien vous avez envoyé, votre position nette. Puisque vous pouvez consulter l’intégralité de votre propre historique, vous pouvez calculer ces totaux pour n’importe quelle période, un mois, un trimestre ou une année.
+Lorsqu'une autre personne, comme un comptable ou un auditeur, doit voir votre activité protégée, vous n'avez pas besoin de lui remettre vos clés de dépense ni de rendre quoi que ce soit public. Vous partagez une [clé pour lecture seule](/zcash-tech/viewing-keys).
 
-Garder des mémos cohérents facilite cela, car vous pouvez regrouper les paiements selon leur objet, et pas seulement selon la date et le montant.
+Une clé pour lecture seule complète ne donne qu'un accès en lecture. Elle permet à son détenteur de voir les transactions entrantes et sortantes d'une adresse, y compris les montants et les mémos, mais jamais de déplacer vos fonds. C'est donc ce que vous pouvez confier sans risque à un comptable. Il obtient exactement la visibilité dont il a besoin, votre argent reste sous votre contrôle et le reste du monde ne voit toujours rien.
+
+C'est ce qu'on appelle la divulgation sélective, et c'est l'une des raisons concrètes pour lesquelles les Zcash protégés facilitent une comptabilité honnête au lieu de l'entraver.
 
 <br/>
 
-## Une note sur la fiscalité
+## Calculer les totaux d'une période
 
-Les règles fiscales diffèrent selon les pays et évoluent avec le temps ; il s’agit donc d’informations générales et non de conseils fiscaux. Dans de nombreux endroits, recevoir ou céder des cryptomonnaies peut avoir des conséquences fiscales, et l’on peut attendre de vous que vous conserviez des registres de ce que vous avez reçu, quand vous l’avez reçu, et de sa valeur à ce moment-là.
+Pour la plupart des déclarations, vous avez besoin de totaux sur une période donnée : combien vous avez reçu ce trimestre, combien vous avez envoyé, votre solde net. Comme vous pouvez consulter l'intégralité de votre historique, vous pouvez faire ces calculs pour la période de votre choix : un mois, un trimestre ou une année.
 
-La bonne nouvelle, c’est que Zcash protégé ne vous empêche pas de respecter ces obligations. Vous pouvez conserver des registres privés complets, les totaliser pour la période exigée par votre administration fiscale et les divulguer à un comptable ou à une autorité fiscale à l’aide d’une viewing key, sans rendre votre activité publique. Si vous n’êtes pas sûr de vos obligations, parlez-en à un professionnel qualifié dans votre pays.
+Des mémos cohérents simplifient cette tâche, car vous pouvez regrouper les paiements selon leur objet, et pas seulement par date et par montant.
+
+<br/>
+
+## Un mot sur la fiscalité
+
+Les règles fiscales varient d'un pays à l'autre et évoluent avec le temps : ces informations sont donc générales et ne constituent pas un conseil fiscal. Dans de nombreux pays, le fait de recevoir ou de céder des cryptomonnaies peut avoir des conséquences fiscales, et vous pouvez être tenu de conserver une trace de ce que vous avez reçu, à quelle date et de sa valeur à ce moment-là.
+
+Bonne nouvelle : les Zcash protégés ne vous empêchent pas de respecter ces obligations. Vous pouvez tenir des registres privés complets, en calculer les totaux pour la période exigée par votre administration fiscale et les divulguer à un comptable ou à l'administration fiscale au moyen d'une clé pour lecture seule, sans rendre votre activité publique. Si vous avez des doutes sur vos obligations, adressez-vous à un professionnel qualifié de votre pays.
 
 <br/>
 
 ## Erreurs courantes à éviter
 
-- Omettre les mémos, ce qui vous laisse avec des montants sans contexte à la fin de l’année
-- Réutiliser une seule adresse pour tout, ce qui rend plus difficile la séparation des clients ou des usages
-- Attendre la saison des impôts pour passer en revue une année d’historique au lieu de tenir vos registres au fur et à mesure
-- Partager une spending key alors qu’une viewing key en lecture seule est tout ce dont un comptable a besoin
+- Omettre les mémos, ce qui vous laisse en fin d'année avec des montants sans contexte
+- Réutiliser une seule adresse pour tout, ce qui complique la distinction entre clients ou entre usages
+- Attendre la période des impôts pour examiner une année d'historique au lieu de tenir vos registres au fur et à mesure
+- Partager une clé de dépense alors qu'une clé pour lecture seule suffit à un comptable
 
 <br/>
 
 ## Pages associées
 
-- [Mémos](/using-zcash/memos) - comment fonctionnent les mémos chiffrés
-- [Viewing Keys](/zcash-tech/viewing-keys) - comment exporter et partager un accès en lecture seule
-- [Configuration de confidentialité pour freelance](/zcash-use-cases/freelance-privacy-setup) - recevoir des revenus de manière privée, l’étape qui précède la tenue de registres
+- [Mémos](/using-zcash/memos) - le fonctionnement des mémos chiffrés
+- [Clés pour lecture seule](/zcash-tech/viewing-keys) - comment exporter et partager un accès en lecture seule
+- [Configuration de la confidentialité pour les indépendants](/zcash-use-cases/freelance-privacy-setup) - recevoir des revenus de manière confidentielle, l'étape qui précède la tenue de registres

@@ -6,14 +6,14 @@ Muundo wa ufadhili wa on-chain wa Zcash, utaratibu wa tuzo za block, na majukumu
 
 Zcash ni sarafu ya kidijitali ya Proof-of-Work. Kila block inayochimbwa husambaza **ruzuku yake ya block [block subsidy]** (ZEC mpya zinazoundwa) pamoja na ada za miamala kulingana na kanuni za itifaki zilizowekwa na maboresho ya mtandao.
 
-- **Muundo wa sasa (baada ya NU6 / kuanzia Novemba 2024)**  
-  Kufikia Aprili 2026, mgawanyo ni:
+- **Muundo wa sasa (NU6.1 / kuanzia Novemba 24, 2025)**  
+  Mgawanyo ni:
 
 | Mpokeaji                      | Asilimia | Kinachofadhili / hali                                      |
 |--------------------------------|------------|-------------------------------------------------------------|
 | Wachimbaji                         | 80%        | Tuzo ya block inayotolewa moja kwa moja kwa wachimbaji                               |
 | Zcash Community Grants (ZCG)   | 8%         | Ruzuku za jamii (zinaendelea hadi takribani 2028)                  |
-| Lockbox (inayodhibitiwa na itifaki)  | 12%        | Fedha hukusanywa; bado hakuna utaratibu wa matumizi; kura ya jamii ya baadaye inahitajika |
+| Mfuko Unaodhibitiwa na Wamiliki wa Sarafu (Coinholder-Controlled Fund)     | 12%        | Umeanzishwa kwa fedha za lockbox ya awali; wamiliki wa sarafu hupiga kura kuhusu ruzuku ([ZIP 1016](https://zips.z.cash/zip-1016)) |
 
 - **Hazina ya kihistoria ya maendeleo kabla ya NU6 (2020-Nov 2024)**  
   20% ya kila ruzuku ya block ilikwenda moja kwa moja kwa mashirika ya maendeleo:
@@ -22,18 +22,18 @@ Zcash ni sarafu ya kidijitali ya Proof-of-Work. Kila block inayochimbwa husambaz
   - 5% -> Zcash Foundation (ZF)  
   - 8% -> Zcash Community Grants (ZCG)
 
-“Hazina ya maendeleo” hii ya 20% ilibadilishwa na muundo wa 8% wa ZCG + 12% wa lockbox kupitia [ZIP 1015](https://zips.z.cash/zip-1015).
+“Hazina ya maendeleo” hii ya 20% ilibadilishwa na muundo wa 8% wa ZCG + 12% wa lockbox kupitia [ZIP 1015](https://zips.z.cash/zip-1015) (NU6, Novemba 2024). Kuanzia Novemba 2024 hadi Novemba 2025, asilimia 12 zilikusanywa katika Lockbox ya Hazina ya Maendeleo Iliyoahirishwa (Deferred Dev Fund Lockbox) bila njia yoyote ya kuzitumia.
 
-### Mageuzi Yanayopendekezwa: ZIP 1016 - Muundo wa Ufadhili wa Jamii na Wamiliki wa Sarafu
-ZIP 1016 (iliyopendekezwa Februari 2025, hali: Imependekezwa) inaleta muundo wa ufadhili uliogatuliwa zaidi. Ingefanya yafuatayo:
-- Kuendeleza mgao wa 8% kwa ZCG.
-- Kubadilisha lockbox ya 12% kuwa “Mfuko Unaodhibitiwa na Wamiliki wa Sarafu” (unaopandikizwa kwa fedha zilizopo za lockbox + ruzuku endelevu ya 12% ya block).
-- Kuanzisha muundo huu hadi kupunguzwa kwa nusu kwa tatu (takribani miaka 3).
-- Kuwawezesha wamiliki wa sarafu za ZEC kupiga kura kila robo mwaka kuhusu ruzuku kupitia mchakato unaofafanuliwa na jamii (wingi rahisi, akidi ya chini ya ZEC 420,000).
-- Kuhitaji Mashirika ya Wamiliki wa Funguo (ambayo kwa sasa yanajumuisha ZF na Shielded Labs, huku Bootstrap/ECC yakitajwa katika muktadha wa ruzuku) kusimamia utoaji wa fedha kupitia multisig, kwa kufungwa na makubaliano ya kisheria na maamuzi ya wamiliki wa sarafu.
-- Kudumisha mahitaji yote ya ZIP 1015 kuhusu matumizi ya lockbox (kufadhili ruzuku za mfumo ikolojia).
+### Muundo wa sasa: ZIP 1016 - Muundo wa Ufadhili wa Jamii na Wamiliki wa Sarafu
+ZIP 1016 (iliyoundwa Februari 2025) iliamilishwa kwenye mainnet na [NU6.1](/zcash-tech/nu6-1) kwenye block 3,146,400 tarehe 24 Novemba 2025 ([ZIP 255](https://zips.z.cash/zip-0255)). Inafanya yafuatayo:
+- Inaendeleza mgao wa 8% kwa ZCG.
+- Ilibadilisha lockbox ya 12% kuwa “Mfuko Unaodhibitiwa na Wamiliki wa Sarafu” (unaopandikizwa kwa fedha zilizopo za lockbox + ruzuku endelevu ya 12% ya block).
+- Inaendelea hadi kupunguzwa kwa nusu kwa tatu (ZIP inaruhusu tarehe hiyo kubadilika iwapo NU7 itabadilisha muda wa block).
+- Inawaruhusu wamiliki wa sarafu za ZEC kupiga kura kuhusu ruzuku (wingi rahisi, kiwango cha chini cha ZEC 420,000 zilizopigiwa kura).
+- Inahitaji Mashirika ya Wamiliki wa Funguo (ambayo kwa sasa yanajumuisha ZF na Shielded Labs, huku Bootstrap/ECC yakitajwa katika muktadha wa ruzuku) kusimamia utoaji wa fedha kupitia multisig, kwa kufungwa na makubaliano ya kisheria na maamuzi ya wamiliki wa sarafu.
+- Inadumisha mahitaji yote ya ZIP 1015 kuhusu matumizi ya lockbox (kufadhili ruzuku za mfumo ikolojia).
 
-Pendekezo hili linalenga kuhamisha utawala wa mgao wa 12% kutoka kwa udhibiti wa mashirika hadi utawala wa moja kwa moja wa wamiliki wa sarafu. Halibadilishi mchakato wa ZIP wala kanuni za alama ya biashara.
+Mfumo huu unahamisha utawala wa mgao wa 12% kutoka kwa udhibiti wa mashirika hadi utawala wa moja kwa moja wa wamiliki wa sarafu. Haubadilishi mchakato wa ZIP wala kanuni za alama ya biashara.
 
 ## 2. Mashirika ya Msingi na Vyanzo Vyake vya Ufadhili
 
@@ -59,7 +59,7 @@ Pendekezo hili linalenga kuhamisha utawala wa mgao wa 12% kutoka kwa udhibiti wa
 - Halipokei tena ufadhili wa moja kwa moja wa itifaki baada ya NU6. Linategemea michango na ruzuku.  
 - Linamiliki alama ya biashara ya Zcash (iliyotolewa na ECC mwaka 2019) na lina jukumu kuu katika utawala.  
 - Linaendesha Jopo la Ushauri la Jamii la Zcash (ZCAP) na husaidia kurahisisha upigaji kura wa jamii.  
-- Linafanya kazi kama Shirika la Mmiliki wa Funguo chini ya pendekezo la ZIP 1016.  
+- Linafanya kazi kama Shirika la Mmiliki wa Funguo chini ya ZIP 1016.  
 -> Tazama wasifu kamili: [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation)  
 -> Tovuti rasmi: [zfnd.org](https://zfnd.org/)
 
@@ -83,7 +83,7 @@ Pendekezo hili linalenga kuhamisha utawala wa mgao wa 12% kutoka kwa udhibiti wa
 - Shirika huru la msaada kwa Zcash linalofadhiliwa na michango na lenye makao yake Uswisi.  
 - Shirika la kwanza katika mfumo ikolojia wa Zcash ambalo halijawahi kupokea ufadhili wa moja kwa moja wala usio wa moja kwa moja kutoka Hazina ya Maendeleo au tuzo za block.  
 - Linaangazia mipango inayowanufaisha wamiliki wa ZEC na kuweka kipaumbele sauti ya wamiliki katika kuunda mwelekeo wa Zcash.  
-- Linafanya kazi kama Shirika la Mmiliki wa Funguo chini ya pendekezo la ZIP 1016 kwa usimamizi wa Mfuko Unaodhibitiwa na Wamiliki wa Sarafu.  
+- Linafanya kazi kama Shirika la Mmiliki wa Funguo chini ya ZIP 1016 kwa usimamizi wa Mfuko Unaodhibitiwa na Wamiliki wa Sarafu.  
 - Linachangia maendeleo ya itifaki, mchakato wa ZIP, na utawala (uwakilishi wa wahariri wa ZIP).  
 -> Tazama wasifu kamili: [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs)  
 -> Tovuti rasmi: [shieldedlabs.net](https://shieldedlabs.net/)
@@ -95,8 +95,8 @@ Utawala wa Zcash ni mchanganyiko wa “kanuni za itifaki za on-chain” na “ma
 1. **Mchakato wa ZIP (Mapendekezo ya Uboreshaji ya Zcash)**  
    - Mtu yeyote anaweza kuwasilisha ZIP.  
    - Mjadala wa umma kwenye mijadala, Discord, GitHub.  
-   - Wahariri wa ZIP (kwa sasa Jack Grigg, Daira-Emma Hopwood, Kris Nuttycombe kwa nyadhifa binafsi, Arya kutoka ZF, na wawakilishi kutoka Shielded Labs) hupitia na kuamua ukubalifu.  
-   - ZIP zilizokubaliwa hujumuishwa katika uboreshaji unaofuata wa mtandao.
+   - Wahariri wa sasa wa ZIP ni Jack Grigg, Daira-Emma Hopwood, na Kris Nuttycombe (kwa nyadhifa binafsi); Arya na Marek (Zcash Foundation); Mark Henderson na Sam H. Smith (Shielded Labs); Sean Bowe na Tal Derei (Mradi wa Tachyon); na Dev Ojha (Valar Group).
+   - Kuidhinishwa kwa ZIP hakupangi moja kwa moja kujumuishwa kwake katika uboreshaji unaofuata wa mtandao. ZIP za makubaliano (consensus) zinahitaji mpango wa utekelezaji na utekelezaji wenyewe, na kanuni zake huanza kutumika katika urefu wa block uliobainishwa kwa uboreshaji wa mtandao.
 
 2. **Makubaliano ya Alama ya Biashara (2019-2024)**  
    - ECC ilitoa alama ya biashara ya Zcash kwa ZF mwaka 2019.  
@@ -109,25 +109,25 @@ Utawala wa Zcash ni mchanganyiko wa “kanuni za itifaki za on-chain” na “ma
    - Hutumika kwa upigaji kura wa jamii usio wa lazima kuhusu maamuzi makuu.
 
 4. **Uthibitishaji wa On-chain**  
-   - Mara tu uboreshaji wa mtandao unapowekwa, kiwango kikubwa cha hash rate cha mtandao lazima kiupitishe (hakuna hatari ya hard fork ikiwa makubaliano yamefikiwa).
+   - Maboresho ya mtandao huanza kutumika katika kimo cha block (block height) kilichoamuliwa mapema. Node zinazoendesha programu inayooana hutekeleza sheria mpya za makubaliano kuanzia kimo hicho. Node zisizoboreshwa zinaweza kuendelea kufuata tawi la makubaliano la kabla ya uboreshaji, jambo linaloweza kusababisha mgawanyiko wa mnyororo (chain split).
 
-5. **Mwelekeo wa Baadaye - Lockbox na ZIP 1016**  
-   - Fedha za lockbox za 12% zinakusanywa kwenye itifaki.  
-   - ZIP 1016 inapendekeza kubadilisha hii kuwa Mfuko Unaodhibitiwa na Wamiliki wa Sarafu wenye upigaji kura wa kila robo mwaka wa wamiliki wa sarafu na usimamizi wa multisig unaofanywa na Mashirika ya Wamiliki wa Funguo (ZF na Shielded Labs zikitajwa kwa sasa).
+5. **Lockbox na ZIP 1016**  
+   - Fedha za lockbox za 12% zilikusanywa kwenye itifaki kuanzia Novemba 2024 hadi Novemba 2025.  
+   - NU6.1 ilizibadilisha kuwa Mfuko Unaodhibitiwa na Wamiliki wa Sarafu, wenye upigaji kura wa wamiliki wa sarafu na usimamizi wa multisig unaofanywa na Mashirika ya Wamiliki wa Funguo (ZF na Shielded Labs zikitajwa kwa sasa).
 
 ## 4. Jedwali la Marejeleo ya Haraka - Mageuzi ya Ufadhili
 
 | Kipindi           | Wachimbaji | ECC/Bootstrap | ZF   | ZCG  | Lockbox | Madokezo                                      |
 |------------------|--------|---------------|------|------|---------|--------------------------------------------|
 | 2020 - Nov 2024  | 80%    | 7%            | 5%   | 8%   | -       | Hazina ya kawaida ya maendeleo                           |
-| Nov 2024 - sasa   | 80%    | 0%            | 0%   | 8%   | 12%     | Muundo wa NU6 + nyongeza ya ZCG                  |
-| Imependekezwa (ZIP 1016) | 80% | 0%         | 0%   | 8%   | 12% (Inayodhibitiwa na Wamiliki wa Sarafu) | Hadi kupunguzwa kwa nusu kwa tatu; upigaji kura wa wamiliki wa sarafu |
+| Nov 2024 - Nov 2025 | 80% | 0%            | 0%   | 8%   | 12%     | Muundo wa NU6 + nyongeza ya ZCG                  |
+| Nov 2025 - sasa (ZIP 1016) | 80% | 0%   | 0%   | 8%   | 12% (Inayodhibitiwa na Wamiliki wa Sarafu) | NU6.1; hadi kupunguzwa kwa nusu kwa tatu; upigaji kura wa wamiliki wa sarafu |
 
 ## 5. Rasilimali Zinazohusiana
 
 - Maelezo rasmi ya ufadhili -> sehemu ya ufadhili ya [z.cash/network](https://z.cash/network/?funding=#funding)  
 - ZIP 1015 (mabadiliko ya ufadhili ya NU6) -> [zips.z.cash/zip-1015](https://zips.z.cash/zip-1015)  
-- ZIP 1016 (muundo uliopendekezwa wa wamiliki wa sarafu) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
+- ZIP 1016 (muundo wa wamiliki wa sarafu, unaotumika tangu NU6.1) -> [zips.z.cash/zip-1016](https://zips.z.cash/zip-1016)  
 - Mapendekezo ya Uboreshaji ya Zcash -> [zips.z.cash](https://zips.z.cash)  
 - Lango la Zcash Community Grants -> [zcashcommunitygrants.org](https://zcashcommunitygrants.org)
 

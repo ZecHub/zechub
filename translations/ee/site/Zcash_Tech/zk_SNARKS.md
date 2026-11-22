@@ -148,13 +148,13 @@ Polynomial interactive oracle: Ame si kpɔa nu ɖe asi la bia be ame si ɖea kpe
 
 **Pre-processing ƒe ɖoɖo ƒomeviwo**:
 
-Mɔ̃ ƒe Ɖoɖo Xexlẽnuwo na circuit sia circuit - Wɔa e zi ɖeka na circuit sia circuit. Eƒe nyateƒe le circuit aɖe ŋu eye ele be woaɣla nasiaɖi si wo zã (Common Reference String) eye woatsrɔ̃e. 
+Mɔ̃ ƒe ɖoɖo xexlẽnuwo na circuit sia sia - Wɔe vovo na circuit sia sia. Common reference string (CRS) si tsoe me la me duɖuɖu si le amesiwo wɔa ɖaseɖigbalɛ kple amesiwo kpɔa ɖaseɖigbalɛ ɖa la ƒe zazã me. Mɔ̃ ƒe ɖoɖo ƒe nu si le titina ("toxic waste"), menye CRS o, wòle be woaɣla eye woatsrɔ̃e. ECC ƒe [duɖuɖu si le amesiwo katã ŋu ƒe gɔmeɖeɖe](https://zodl.com/snark-parameters/) ɖe vovototo si le wo eve ma dome fia.
 
-Ne ɖoɖo la gbã la, eɖe mɔ na ame si ɖea kpe si menya dzɔdzɔe o be wòaɖe kpe na alakpa ƒe nyagblɔɖiwo. 
+Ne woɖe asi ɖe asiri me ƒe ɖoɖo xexlẽnuwo si woɖo ɖi hia la dzi alo woɖu eƒe gɔme la, ame si ɖea ɖaseɖigbalɛ si menya dzɔdzɔe o ate ŋu awɔ ɖaseɖigbalɛ na alakpa ƒe nyagblɔɖiwo. Le MPC ƒe kɔnu me la, dedienyenye ate ŋu azɔ ɖe edzi be ame aɖe le wo dome to mɔɖoɖo la dzi eye wògbã eƒe asiri me ƒe akpa.
 
-Mɔ̃ ƒe Ɖoɖo Xexlẽnuwo si le na Circuit Katã - Ele be woawɔ mɔ̃ ƒe ɖoɖo xexlẽnuwo zi ɖeka ko eye emegbe woate ŋu awɔ preprocessing na circuits geɖe le mɔ si woɖo da ɖi me. 
+Mɔ̃ ƒe ɖoɖo xexlẽnuwo [trusted setup] si le na katã - Mɔ̃ ƒe ɖoɖo xexlẽnuwo ɖeka koe hea parameterwo si woate ŋu azã atsɔ ana ɖaseɖigbalɛ wɔwɔ kple ɖaseɖe keys na circuits geɖe siwo le size siwo wodoa alɔ la me. Esia hã le gbe le be woatsrɔ̃ ɣaɣla; universal menye be nuwo ƒe ʋuʋuɖi o.
 
-Ɖoɖo si ƒe Nuwo Katã Le Ƒe Dzeɖeɖe Me (Mɔ̃ ƒe Ɖoɖo Xexlẽnuwo Menye Mahiã O)- Preprocessing algorithm la mezãa nasiaɖi aɖeke o. 
+Nuwo ƒe ʋuʋuɖi ƒe ɖoɖo (mɔ̃ ƒe ɖoɖo xexlẽnuwo mele o) - Dukɔƒe parameterwo ate ŋu woawɔ wo ne ame aɖeke meshiã be woakpɔ dzɔgbe be wòatsrɔ̃ dzɔgbenyenye ƒe ɖoɖo trapdoor aɖe o. Eya menye be ɖaseɖigbalɛɖeɖe mezãa nasiaɖi o alo be system la mekpɔ dukɔƒe parameterwo o. [Halo 2 book](https://zcash.github.io/halo2/background/pc-ipa.html#setup) naa dukɔƒe group parameterwo ƒe kpɔɖeŋu.
 
 
 **SNARK ɖaseɖigbalɛ ƒe ɖoɖo ƒomeviwo**:

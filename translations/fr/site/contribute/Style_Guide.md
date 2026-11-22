@@ -1,50 +1,50 @@
 # Guide de style ZecHub
 
-Le style ZecHub est simple et accessible. Nous accueillons tout le monde et nous nous concentrons sur la communauté Zcash.
+Le style de ZecHub est simple et accessible. Nous accueillons tout le monde et nous concentrons sur la communauté Zcash.
 
 ## Principes
 
-1. **Prêt à aider** - Montrer aux utilisateurs de Zcash que nous sommes de leur côté.
+1. **Prêts à aider** - Montrez aux utilisateurs de Zcash que nous sommes de leur côté.
 
-2. **Bref et précis :**  Transmettez le message le plus simple possible. Commencez par le point le plus important.
+2. **Bref et direct :**  Transmettez le message le plus simple possible. Commencez par le point le plus important.
 
-3. **Axé sur l'utilisateur :** Nous écrivons d'abord pour les utilisateurs, ensuite pour les développeurs, et enfin pour tous les autres.
+3. **Centré sur l'utilisateur :** Nous écrivons d'abord pour les utilisateurs, ensuite pour les développeurs et enfin pour tous les autres.
 
-## Les bases
+## Notions de base
 
-- **Allez droit au but**. Commencez par le point le plus important. Placez les mots-clés en premier pour faciliter la lecture en diagonale. Rendez claires les options de l'utilisateur et les prochaines étapes.
+- **Allez droit au but**. Commencez par le point le plus important. Placez les mots-clés en début de phrase pour faciliter la lecture en diagonale. Indiquez clairement à l'utilisateur ses options et les prochaines étapes.
 
 - **Écrivez comme vous parlez**. Nos utilisateurs sont de vraies personnes. Adressez-vous à eux par écrit.
 
-- **Soyez bref**. Donnez aux utilisateurs suffisamment d'informations pour résoudre un problème ou faire un choix.
+- **Soyez bref**. Donnez aux utilisateurs suffisamment d'informations pour qu'ils puissent résoudre un problème ou faire un choix.
 
-- **Supprimez les points dans les titres**. Retirez la ponctuation finale des titres, en-têtes, sous-titres, titres d'interface et éléments de liste de trois mots ou moins. Les points sont utilisés dans les paragraphes et le corps du texte.
+- **Pas de point dans les titres**. Supprimez la ponctuation finale des titres, intertitres, sous-titres, titres d'interface et éléments de liste de trois mots ou moins. Les points s'utilisent dans les paragraphes et le corps du texte.
 
-  - Exemples : Press the Send button->Press the Send button
+  - Exemples : Appuyez sur le bouton Envoyer->Appuyez sur le bouton Envoyer
 
-- **En cas de doute, évitez les majuscules**. Mettez une majuscule uniquement aux noms propres ou aux noms comme Zcash, ainsi qu'au premier mot d'un titre ou d'une expression.
+- **En cas de doute, évitez les majuscules**. Ne mettez une majuscule qu'aux noms propres ou aux noms comme Zcash, ainsi qu'au premier mot d'un titre ou d'une phrase.
 
-  - Exemples : How to Send ZEC with Unified Address. → How to send ZEC with unified address
+  - Exemples : Comment Envoyer des ZEC Avec Une Adresse Unifiée. → Comment envoyer des ZEC avec une adresse unifiée
 
-- **Réécrivez les formulations faibles**. La plupart du temps, commencez chaque énoncé par un verbe. Les formulations comme You can et there were doivent être révisées.
+- **Réécrivez les formulations faibles**. La plupart du temps, commencez chaque énoncé par un verbe. Les tournures « Vous pouvez » et « Il y avait » doivent être reformulées.
 
-  - Exemples : You can send and receive ZEC from your mobile phone->Send and receive ZEC with your phone
+  - Exemples : Vous pouvez envoyer et recevoir des ZEC depuis votre téléphone mobile->Envoyez et recevez des ZEC avec votre téléphone
 
-- **N'ajoutez pas d'espaces inutiles**. Utilisez un seul espace après les points et les deux-points.
+- **Pas d'espaces superflues**. N'utilisez qu'une seule espace après les points et les deux-points.
 
-- **Évitez les mots non anglais** tels que de facto ou ad hoc. Évitez les abréviations latines pour des expressions anglaises courantes.
+- **Évitez les mots non anglais** tels que de facto ou ad hoc. Évitez les abréviations latines d'expressions anglaises courantes.
 
     | Utilisez ceci | Au lieu de ceci |
     |---------------|-----------------|
-    | for example   | e.g.            |
-    | that is       | i.e.            |
+    | par exemple   | e.g.            |
+    | c'est-à-dire  | i.e.            |
 
 ## Tweets
 
-> Ce guide de style général est destiné à la rédaction d'articles ou de guides utilisateur pour ZecHub. Il s'applique également aux tweets et autres déclarations courtes : restez concis, annoncez l'essentiel d'emblée et omettez la ponctuation finale sur les lignes courtes.
+> Ce guide de style général sert à rédiger des articles ou des guides d'utilisation pour ZecHub. Il s'applique également aux tweets et aux autres énoncés courts : restez bref, placez l'essentiel en premier et omettez la ponctuation finale sur les lignes courtes.
 
 ---
 
 <small>
-Le guide de style ZecHub est adapté du <a href="https://learn.microsoft.com/en-us/style-guide/">Guide de rédaction Microsoft</a> avec des modifications. Consultez le guide Microsoft lorsque vous en avez besoin.
+Le guide de style de ZecHub est adapté du <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Writing Style Guide</a> avec des modifications. Consultez le guide de Microsoft si nécessaire.
 </small>

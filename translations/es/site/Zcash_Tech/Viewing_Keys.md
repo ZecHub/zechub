@@ -4,7 +4,7 @@
 
 # Claves de visualización [Viewing Keys]
 
-Las direcciones blindadas [Shielded] te permiten realizar transacciones mientras revelas lo menos posible en la blockchain Zcash. Entonces, ¿qué sucede cuando *sí* necesitas mostrarle a una parte específica lo que posees o lo que enviaste? Toda dirección blindada tiene una clave de visualización que concede acceso de lectura sin otorgar la capacidad de gastar. Las claves de visualización se introdujeron en [ZIP 310](https://zips.z.cash/zip-0310) y se añadieron al protocolo en la actualización de red [network upgrade] Sapling.
+Las direcciones blindadas [shielded addresses] te permiten realizar transacciones mientras revelas lo menos posible en la blockchain Zcash. Entonces, ¿qué sucede cuando *sí* necesitas mostrarle a una parte específica lo que posees o lo que enviaste? Una clave de visualización [viewing key] concede acceso de lectura sin otorgar la capacidad de gastar. Las claves de visualización ya existían para Sprout; Sapling añadió capacidades como detectar cuándo se gasta una nota [note] recibida. [ZIP 310](https://zips.z.cash/zip-0310) es un borrador informativo que documenta las propiedades de seguridad de las claves de visualización de Sapling, no la actualización que introdujo las claves de visualización.
 
 Una clave de visualización es la herramienta para la divulgación selectiva [selective disclosure]: eliges quién ve qué y nunca entregas autoridad de gasto para hacerlo.
 
@@ -12,7 +12,7 @@ Una clave de visualización es la herramienta para la divulgación selectiva [se
 
 Una clave de visualización concede acceso **de solo lectura** a la actividad de una dirección o cuenta blindada Zcash: quien la posee puede ver las transacciones entrantes (y, para las claves de visualización completas, salientes), pero nunca puede gastar.
 
-- **Qué es:** la herramienta de divulgación selectiva de los pools blindados. Introducida en [ZIP 310](https://zips.z.cash/zip-0310), añadida al protocolo en la actualización de red Sapling.
+- **Qué es:** la herramienta de divulgación selectiva [selective-disclosure] de los pools blindados [shielded pools], con capacidades que varían según el pool y el tipo de clave. [ZIP 310](https://zips.z.cash/zip-0310) documenta qué revela una clave de visualización completa [full viewing key] de Sapling y qué información está garantizada, no verificada, no definida o no revelada.
 - **Qué concede:** detección de depósitos (claves entrantes `uivk…`) o visibilidad completa de entrada/salida para una cuenta (claves de visualización completas unificadas `uview…`), y claves heredadas Sapling `zxviews…`.
 - **Qué no concede:** autoridad de gasto. Nada de lo que haga el titular de una clave de visualización puede mover fondos.
 - **Dónde funciona hoy:** exportación/importación en [Zallet](https://github.com/zcash/zallet) (v0.1.0-beta.2+, `z_exportviewingkey` / `z_importviewingkey`) y cuentas de solo visualización en billeteras como Zkool; consulta la página [Billeteras](/using-zcash/wallets) para ver la matriz de compatibilidad actual.
@@ -94,7 +94,9 @@ La página [Billeteras](/using-zcash/wallets) registra la compatibilidad con cla
 
 [Zkool](https://github.com/hhanh00/zkool2) es la opción más flexible aquí, porque acepta claves unificadas además de las heredadas. Su README documenta cuentas de solo visualización creadas a partir de una **clave de visualización unificada** o una **clave de visualización extendida Sapling**, junto con claves extendidas blindadas heredadas exportadas desde zcashd. Añade una cuenta nueva, elige la ruta de solo visualización y pega la clave `uview…` o `zxviews…`; la cuenta se sincroniza y luego informa los saldos y el historial sin autoridad de gasto.
 
-La compatibilidad con el protocolo Ironwood y la migración de Orchard a Ironwood llegaron en Zkool 6.24.0 (20 de julio de 2026), y 6.26.1 (2 de agosto de 2026) corrigió la detección de transacciones Ironwood en el mempool. Ejecuta la versión 6.26.1 o posterior.
+La compatibilidad con el protocolo Ironwood y la migración de Orchard a Ironwood llegaron en Zkool 6.24.0 (20 de julio de 2026), y 6.26.1 (2 de agosto de 2026) corrigió la detección de transacciones Ironwood en el mempool. Como NU7 se activó en Mainnet (bloque 3,543,405), ejecuta [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 de octubre de 2026) o una versión posterior: es la primera versión Zkool compilada con la altura de activación de NU7 en Mainnet ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+La versión 6.35.0 también acepta **claves de visualización entrantes unificadas** (unified incoming viewing keys). Pega una clave `uivk…` donde se pueda introducir cualquier clave y Zkool crea una cuenta solo de recepción: muestra lo que recibe la cuenta original, incluidos los memos, y nada de lo que envía ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Una clave entrante no puede ver los gastos, así que el saldo de la cuenta es el total recibido, no lo que queda, y la cuenta no puede gastar. Zkool también puede exportar la UIVK de una cuenta ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 
@@ -137,7 +139,7 @@ Una clave de visualización es una pieza de información, no una entrada de perm
 
 ### Descifrado mediante prueba: cómo funciona realmente la visualización
 
-Cada transacción blindada cifra los textos sin formato de sus notas para el destinatario previsto. Una billetera que posee una clave de visualización realiza **descifrado mediante prueba**: para cada transacción que encuentra en la cadena, intenta descifrar los textos cifrados de las notas con la clave. Los aciertos revelan el valor de la nota, el diversificador del destinatario y el memo; los fallos no cuestan nada. Por eso la misma clave de visualización entrante sigue funcionando en los pools Orchard y Ironwood: [ZIP 326](https://zips.z.cash/zip-0326) limita un receptor al *protocolo* Orchard, de modo que los textos cifrados de notas Ironwood tienen forma Orchard y se descifran mediante prueba con las claves de visualización Orchard de la cuenta bajo el dominio de cifrado de notas Ironwood.
+Cada transacción blindada cifra los textos sin formato de sus notas para el destinatario previsto. Una billetera que posee una clave de visualización realiza **descifrado mediante prueba**: para cada transacción que encuentra en la cadena, intenta descifrar los textos cifrados de las notas con la clave. Los aciertos revelan el valor de la nota, el diversificador del destinatario y el memo. Un fallo cuesta aproximadamente lo mismo que un acierto, porque el paso costoso —un acuerdo de claves— ocurre antes de que la billetera pueda saber si la nota es suya, así que el costo del escaneo aumenta con cada clave que la billetera vigila (consulta [Detectar pagos blindados](Detecting_Shielded_Payments.md)). Por eso la misma clave de visualización entrante sigue funcionando en los pools Orchard y Ironwood: [ZIP 326](https://zips.z.cash/zip-0326) limita un receptor al *protocolo* Orchard, de modo que los textos cifrados de notas Ironwood tienen forma Orchard y se descifran mediante prueba con las claves de visualización Orchard de la cuenta bajo el dominio de cifrado de notas Ironwood.
 
 ### Completa frente a entrante: qué decide la derivación
 

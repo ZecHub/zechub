@@ -8,6 +8,19 @@
 
 ---
 
+### [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+
+<a href="https://altquick.com/market/zcash-bitcoin/">
+    <img src="/content-images/_unavailable.svg" alt="Λογότυπο AltQuick" width="200" height="100"/>
+</a>
+
+- Ιστότοπος: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
+- Ζεύγη: ZEC/BTC
+- Υποστηρίζει: Διαφανείς
+- Χρόνος κατάθεσης: Περίπου 30 λεπτά (24 επιβεβαιώσεις)
+- Ironwood: Δεν ισχύει, μόνο διαφανείς διευθύνσεις
+___
+
 ### [Backpack](https://backpack.exchange)
 
 <a href="https://backpack.exchange">
@@ -86,15 +99,16 @@ ___
 - Ironwood: Υποστηρίζονται θωρακισμένες αναλήψεις, το pool δεν αναφέρεται
 ___
 
-### [Huobi](https://huobi.com)
+### [HTX](https://www.htx.com)
 
-<a href="https://huobi.com">
+<a href="https://www.htx.com">
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Λογότυπο Huobi" width="200" height="100"/>
 </a>
 
-- Ιστότοπος: [Huobi](https://huobi.com)
+- Ιστότοπος: [HTX](https://www.htx.com) (πρώην Huobi)
 - Ζεύγη: ALL/ZEC
 - Υποστηρίζει: Διαφανές
+- Κατάσταση: Οι καταθέσεις και οι αναλήψεις σε ZEC έχουν ανασταλεί προσωρινά (σύμφωνα με το δημόσιο API του HTX, Νοέμβριος 2026)· οι συναλλαγές spot εξακολουθούν να εμφανίζονται
 - Χρόνος κατάθεσης: 35 λεπτά 
 - Ironwood: Δεν εφαρμόζεται, μόνο διαφανείς διευθύνσεις
 ___

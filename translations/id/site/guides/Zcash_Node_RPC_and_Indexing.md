@@ -14,11 +14,11 @@ Untuk cara menjalankan stack pasca-`zcashd` (Zebra + Zallet, Zaino opsional, por
 
 ## Ringkasan
 
-* **JSON-RPC** adalah cara operator dan dompet menanyakan node mengenai chain tip, peer, dan (pada proses dompet) saldo. Pada Z3, Zebra melayani node RPC; Zallet melayani wallet RPC.
+* **JSON-RPC** adalah cara operator dan dompet menanyakan node tentang chain tip, peer, dan (pada proses dompet) saldo. Pada Z3, Zebra melayani node RPC; Zallet melayani wallet RPC.
 * **Regtest** adalah tempat yang tepat untuk mempelajari pemanggilan ini. Router RPC Z3 pada `http://127.0.0.1:8181` menerima `zebra` / `zebra` dan meneruskan metode node ke Zebra serta metode dompet ke Zallet.
 * **Mainnet dan testnet** menggunakan autentikasi cookie pada Zebra. Jangan menyalin nama pengguna/kata sandi regtest ke node publik.
-* **Pengindeksan** adalah pekerjaan terpisah dari validasi. Zebra memvalidasi. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) melayani gRPC yang kompatibel dengan lightwalletd. [Ztreamer](https://github.com/distractedm1nd/ztreamer) adalah indexer yang didukung Zakura; ini bukan yang disediakan Z3.
-* JSON-RPC Zaino dan gRPC indexer opsional Zebra ditujukan untuk loopback atau jaringan tepercaya. Jangan mengeksposnya tanpa autentikasi di internet publik.
+* **Pengindeksan** adalah pekerjaan terpisah dari validasi. Zebra memvalidasi. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) melayani gRPC yang kompatibel dengan lightwalletd. [Ztreamer](https://github.com/zcashlabs/ztreamer) adalah indexer yang didukung Zakura; ini bukan yang disediakan Z3.
+* JSON-RPC Zaino dan gRPC indexer opsional milik Zebra ditujukan untuk loopback atau jaringan tepercaya. Jangan mengeksposnya tanpa autentikasi di internet publik.
 
 ---
 
@@ -116,9 +116,10 @@ gRPC Zaino adalah h2c plaintext di semua jaringan. Akhiri TLS pada reverse proxy
 
 ### Indexer lain (bukan Z3)
 
-* **lightwalletd** — server blok ringkas yang lebih lama. Masih digunakan secara luas; Zaino adalah jalur penerus untuk peran ini.
-* **Ztreamer** — indexer yang didukung Zakura dan implementasi `CompactTxStreamer`. Ini bukan layanan Z3. Lihat [Ztreamer repositori](https://github.com/distractedm1nd/ztreamer).
-* **Zebra `rpc.indexer_listen_addr`** — listener gRPC opsional *di dalam* Zebra. Z3 tidak memerlukannya dan tidak memublikasikannya ke host.
+* **lightwalletd** — server compact-block yang lebih lama. Masih digunakan; Zaino adalah jalur penerus untuk peran ini.
+* **Ztreamer** — indexer yang didukung Zakura dan implementasi `CompactTxStreamer`. Ini bukan layanan Z3. Lihat repositori [Ztreamer](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — indexer milik Zcash Foundation (alfa). Komponen ini membaca dari Zebra arsip atau node Zakura, lalu menyediakan API gRPC `WalletQuery` sendiri serta adapter `CompactTxStreamer` yang kompatibel dengan lightwalletd. Panduan quickstart-nya menjalankan komponen ini berdampingan dengan node Z3, tetapi ini bukan layanan Z3. Lihat [Zinder](/zcash-tech/zinder).
+* **Zebra `rpc.indexer_listen_addr`** — listener gRPC opsional *di dalam* Zebra. Z3 tidak memerlukannya dan tidak mengeksposnya ke host.
 
 ---
 
@@ -145,6 +146,7 @@ gRPC Zaino adalah h2c plaintext di semua jaringan. Akhiri TLS pada reverse proxy
 * [Full Node](/zcash-tech/full-nodes)
 * [Zebra Full Node](/zcash-tech/zebra-full-node)
 * [Node Lightwallet](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (atau Zaino) di Kubernetes atau Compose Docker
 * [Panduan Migrasi: zcashd ke Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib dan Tutorial Zaino](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ gRPC Zaino adalah h2c plaintext di semua jaringan. Akhiri TLS pada reverse proxy
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [Zallet Buku](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **Terakhir diperbarui:** September 2026

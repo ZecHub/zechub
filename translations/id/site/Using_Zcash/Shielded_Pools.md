@@ -87,7 +87,7 @@ Zcash Sapling memungkinkan pengguna untuk melakukan transaksi privat hanya dalam
 
 Penyelubungan transaksi meningkatkan privasi, sehingga mustahil bagi pihak ketiga untuk menghubungkan transaksi dan menentukan jumlah ZEC yang sedang ditransfer. Sapling juga meningkatkan kegunaan dengan mengurangi persyaratan komputasi untuk menghasilkan transaksi privat agar lebih mudah diakses oleh pengguna.
 
-Alamat dompet Sapling dimulai dengan "zs" dan ini dapat diamati di semua Zcash Shielded Wallet (Zkool, Zingo Wallet, Nighthawk, dll.) yang memiliki alamat Sapling bawaan. Zcash Sapling mewakili perkembangan signifikan dalam teknologi terkait privasi dan efisiensi transaksi yang menjadikan Zcash cryptocurrency yang praktis dan efektif bagi pengguna yang menghargai privasi dan keamanan.
+Alamat dompet Sapling dimulai dengan "zs" dan ini dapat diamati di semua Zcash Shielded Wallet (Zkool, Zingo Wallet, dll.) yang memiliki alamat Sapling bawaan. Zcash Sapling mewakili perkembangan signifikan dalam teknologi terkait privasi dan efisiensi transaksi yang menjadikan Zcash cryptocurrency yang praktis dan efektif bagi pengguna yang menghargai privasi dan keamanan.
 
 ____
 

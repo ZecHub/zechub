@@ -1,4 +1,29 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Ledger_Shielded_ZEC.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
+
 # Ledger Shielded ZEC User Guide
+
+> Hold, receive and send private (shielded) ZEC with your Ledger hardware wallet in Ledger Wallet Desktop.
+
+## TL;DR
+
+* Since 23 September 2026, Ledger Wallet Desktop supports shielded ZEC. One Zcash account has a transparent balance and a private balance in the Ironwood pool.
+* Desktop only for now. Mobile support is announced as "coming soon".
+* You need a Nano S Plus, Nano X, Stax or Flex (not the original Nano S), Ledger Wallet Desktop 4.21+ and the latest Zcash app.
+* Click **Enable shielded** once: your Ledger exports a viewing key so the desktop app can find your private funds. Spending keys never leave the device.
+* Receive to the private address (u1...) when you can. Moving ZEC from your transparent balance to private works, but links the two.
+* Every send is reviewed and signed on the Ledger screen. Check addresses there, character by character.
+
+## Core Explanation
+
+Zcash has two kinds of balance. Transparent ZEC (t1 addresses) works like Bitcoin: amounts and addresses are public. Shielded ZEC lives in a shielded pool, where the sender, receiver and amount are encrypted on-chain.
+
+Ledger keeps your spending keys on the hardware device. To show a private balance, Ledger Wallet Desktop needs a Unified Full Viewing Key (UFVK). The device exports it once, and the desktop app uses it to scan the blockchain for your shielded notes. A viewing key can see your shielded history but cannot spend, so treat it as private information.
+
+The steps below cover installing the Zcash app, adding an account, enabling the private balance, receiving, shielding transparent ZEC and sending from the private balance.
+
+## Overview
 
 On 23 September 2026 Ledger added native shielded ZEC to Ledger Wallet Desktop. One Zcash account now holds a transparent balance and a private balance in Zcash's Ironwood pool. Your private keys stay on your Ledger, and every transaction is reviewed and signed on the device.
 

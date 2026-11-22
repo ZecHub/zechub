@@ -45,7 +45,7 @@ Sie können Zcash auch direkt von anderen Personen kaufen oder durch Mining erwe
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash ist grundlegend privater als Bitcoin oder Ethereum. Es bietet schnelle Blockzeiten (75 Sekunden), niedrige Gebühren und regelmäßige Upgrades.
+Zcash ist grundlegend privater als Bitcoin oder Ethereum. Es bietet schnelle Blockzeiten (25 Sekunden seit der Aktivierung von NU7 im November 2026, gegenüber zuvor 75 Sekunden), niedrige Gebühren und regelmäßige Upgrades.
 
 Nutzer können zwischen **transparenten** oder **abgeschirmten** Transaktionen wählen. Weitere Informationen finden Sie unter [Ein abgeschirmtes Ökosystem](https://electriccoin.co/blog/shielded-ecosystem).
 
@@ -70,7 +70,7 @@ Entscheidungen werden in die Spezifikation aufgenommen und on-chain ratifiziert,
 
 Lesen Sie zunächst [unseren Leitfaden zu Block-Explorern](/guides/blockchain-explorers). Prüfen Sie anschließend den [Zcash Block Explorer](https://mainnet.zcashexplorer.app).
 
-Transaktionen laufen nach etwa 25 Minuten (20 Blöcken) ab und die Gelder werden automatisch zurückerstattet.
+Es gibt keinen festen 25-Minuten-Ablauf oder automatischen Rückerstattungs-Timer. Prüfe die von deiner Wallet verzeichnete Ablaufhöhe und ob die ursprüngliche Zahlung in einen Block aufgenommen wurde. Wenn sie ablief, ohne in einen Block aufgenommen worden zu sein, wurde sie nicht on-chain abgewickelt; der Ablauf erstellt keine Rückerstattungstransaktion. Lass die Wallet synchronisieren, bevor du ihren Hinweisen zum erneuten Versuch folgst. Siehe [Fehlerbehebung bei Transaktionen](/using-zcash/transactions#troubleshooting-stuck-transactions) und [ZIP 203](https://zips.z.cash/zip-0203).
 
 **Häufige Gründe, warum eine Transaktion möglicherweise nicht erscheint:**
 

@@ -7,7 +7,7 @@
 
 1. **Brave:** Kimoja cha vivinjari maarufu na salama zaidi sokoni leo. Huzuia matangazo na vifuatiliaji vinavyoingilia faragha. Huzuia uhifadhi wa data wa wahusika wengine. 
 
-2. **Mulvad:** Kivinjari cha wavuti kinacholenga faragha, kilichoundwa kwa ushirikiano kati ya Mullvad VPN na Mradi wa Tor. Kimetengenezwa ili kupunguza ufuatiliaji na utambuzi wa alama za kidijitali.
+2. **Mullvad:** Kivinjari cha wavuti kinacholenga faragha, kilichoundwa kwa ushirikiano kati ya Mullvad VPN na Mradi wa Tor. Kimetengenezwa ili kupunguza ufuatiliaji na utambuzi wa alama za kidijitali.
 
 3. **Tor:** Kivinjari hiki huzuia programu-jalizi kama Flash, RealPlayer, QuickTime, na nyinginezo: zinaweza kudanganywa ili kufichua anwani yako ya IP. Hatupendekezi kusakinisha programu-jalizi au viendelezi vya ziada kwenye Kivinjari cha Tor.
 

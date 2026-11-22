@@ -14,7 +14,7 @@
 
 ## Nkọwa Isi
 
-Zingo 2.0 bụ ụdị kachasị ọhụrụ nke e-akpa ego Zingo!, e-akpa ego dị fechaa, nke mepere emepe e wuru maka obodo Zcash. Kpakpando nke mwepụta a bụ Mmekọrịta Pepper, nkwalite dị mkpa nke na-atụgharị kpamkpam otú e-akpa ego si ejikọta na blockchain.
+Zingo 2.0 bụ mwepụta nke e-akpa ego Zingo!, e-akpa ego dị fechaa, nke mepere emepe e wuru maka obodo Zcash, nke webatara Mmekọrịta Pepper, nkwalite dị mkpa nke na-atụgharị kpamkpam otú e-akpa ego si ejikọta na blockchain. Mwepụta ndị e mesịrị ka na-eji Mmekọrịta Pepper: ụdị ekwentị mkpanaaka dị ugbu a, [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (Ọktoba 31, 2026), na-agbakwunye nkwado NU7 na mgbanwe ego arụnyere n'ime ya.
 
 N'oge gara aga, mmekọrịta nwere ike ịdị ka nke na-adị nwayọ nke ukwuu, nke njehie na-adịkarị, ma na-achọ nnukwu akụrụngwa, mgbe ụfọdụ na-amanye ndị ọrụ ịmalite site na mbido. Mmekọrịta Pepper na-agbanwe ihe ahụ niile. Ọ na-eme ka mmekọrịta dị ngwa, dị nro, bụrụ nke a pụrụ ịtụkwasị obi karịa, ma na-achọ obere ihe n'aka ngwaọrụ gị, ebe ọ na-echekwa Nzuzo nke Azụmahia nke e chebere echebe nke ọma.
 
@@ -93,11 +93,11 @@ Site n'ịkwalite ahụmịhe e-akpa ego, Mmekọrịta Pepper na-ewusi gburugbu
 
 ### Ịmalite: ibido iji Zingo 2.0
 
-1. Budata E-akpa ego - Nweta ụdị kwesịrị ekwesị site na [Zingo ibe mwepụta GitHub](https://github.com/zingolabs/zingolib)
-2. Hazie E-akpa ego Gị - Mepụta nke ọhụrụ ma ọ bụ weghachi site na Mkpuru mgbake (seed phrase) dị adị. [Zingo 2.0 nwere Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Kwe ka Mmekọrịta Pepper Gbaa Ọrụ - Lelee ihe ngosi ọganihu ka e-akpa ego gị na-emelite. [Mmekọrịta Pepper Gbaa Ọrụ](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Malite Iji Zcash - Zipụ ma nata ZEC nke e chebere echebe ozugbo mmekọrịta zuru.
-5. Echegbula Maka Nkwụsị - Ọ bụrụ na ngwa emechie ma ọ bụ njikọ akwụsị, Mmekọrịta Pepper na-amaliteghachi na-akpaghị aka.
+1. Budata e-akpa ego – Nweta ụdị kwesịrị ekwesị na [zingolabs.org](https://zingolabs.org/) ma ọ bụ na ibe mwepụta GitHubmaka [ekwentị mkpanaaka](https://github.com/zingolabs/zingo-mobile/releases) na [kọmputa](https://github.com/zingolabs/zingo-pc/releases)
+2. Hazie e-akpa ego gị – Mepụta nke ọhụrụ ma ọ bụ weghachi ya site na Mkpuru mgbake (seed phrase) dị adị. [Zingo 2.0 nwere Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Kwe ka Mmekọrịta Pepper Gbaa Ọrụ – Lelee ihe ngosi ọganihu ka e-akpa ego gị na-emelite. [Mmekọrịta Pepper Gbaa Ọrụ](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Malite Iji Zcash – Zipụ ma nata ZEC nke e chebere echebe ozugbo mmekọrịta zuru.
+5. Echegbula Maka Nkwụsị – Ọ bụrụ na ngwa emechie ma ọ bụ njikọ kwụsị, Mmekọrịta Pepper ga-amaliteghachi n'onwe ya.
 
 ## Njehie Ndị A Na-ahụkarị
 

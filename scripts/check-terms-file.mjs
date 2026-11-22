@@ -166,9 +166,10 @@ export function checkTermsData(data, raw) {
 
   // Formatting last: it matters least, and --fix handles it.
   if (typeof raw === "string") {
-    if (!raw.endsWith("\n")) p("file does not end with a newline. Run with --fix.");
+    const normalizedRaw = raw.replace(/\r\n/g, "\n");
+    if (!normalizedRaw.endsWith("\n")) p("file does not end with a newline. Run with --fix.");
     const expected = serialize(data);
-    if (raw !== expected) {
+    if (normalizedRaw !== expected) {
       p("file is not formatted as 2-space-indented JSON with a trailing newline. Run with --fix.");
     }
   }

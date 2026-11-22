@@ -28,13 +28,13 @@ Halo bụ usoro proof zero-knowledge na-enweghị ntụkwasị obi, nke na-emegh
 
 ### Enweghị trusted setup
 
-zk-SNARKs na-adabere n’ahịrịokwu ntụaka nkịtị (CRS) dịka parampita ọha maka inye na inyocha proof. A ghaghị ịmepụta CRS a tupu oge eruo site n’aka otu a tụkwasịrị obi. Ruo nso nso a, mgbakọ nchekwa nke ọtụtụ ndị sonyere (MPC) dị mgbagwoju anya — dịka ndị netwọk Aztec na Zcash mere — dị mkpa iji belata ihe ize ndụ dị n’oge [emume trusted setup](https://zkproof.org/2021/06/30/setup-ceremonies/amp/) a.
+Ụfọdụ nhazi zk-SNARK, dịka Groth16, chọrọ trusted setup iji mepụta parampita ọha ha, nke a na-akpọkarị ahịrịokwu ntụaka nkịtị (common reference string, CRS). A na-ekekọrịta CRS ahụ na ndị na-enye proof na ndị na-enyocha proof; ọ bụghị ihe nzuzo a ga-ebibi. A ghaghị ịtụfu ihe etiti nzuzo (“toxic waste”) sitere na nhazi dị otú ahụ. Mgbakọ nchekwa nke ọtụtụ ndị sonyere nwere ike ikesa ntụkwasị obi ahụ: emume ahụ dị nchebe ma ọ bụrụ na opekata mpe otu onye sonyere na-agbaso protocol ma bibie onyinye nzuzo ya. Lee ECC [nkọwa banyere parampita ọha na toxic waste](https://zodl.com/snark-parameters/).
 
-Pool nke e chebere echebe Sprout na Sapling mbụ nke Zcash ji usoro zk-proving BCTV14 na Groth16 mee ihe. Ọ bụ ezie na ndị a dị nchebe, ha nwere oke: ha enweghị scaling n’ihi na ejikọtara ha na otu ngwa, “toxic waste” (ihe fọdụrụ nke cryptographic material e mepụtara n’oge emume genesis) nwere ike ịdịgide, ma e nwekwara ihe ntụkwasị obi, n’agbanyeghị na ọ dị ntakịrị, n’ịkpọ emume ahụ ihe a nabatara.
+Pool nke e chebere echebe Sprout na Sapling mbụ nke Zcash jiri usoro proving trusted setup, BCTV14 na Groth16 n'otu n'otu. Parameeta ọha ha [public parameters] ka dị maka ịmepụta proof na nyocha. Ihe na-echegbu bụ ma echekwala ihe nzuzo e ji hazie usoro ahụ, nke nwere ike ikwe ka e mepụta proof ụgha; ibipụta CRS n'onwe ya bụ ihe a na-atụ anya ya, ọ naghị ekpughe ihe nzuzo ahụ.
 
-Halo na-ewepụ trusted setup site n’ịkpakọta ugboro ugboro ọtụtụ ọnọdụ nke nsogbu siri ike ọnụ n’elu okirikiri elliptic curves, ka e wee jiri proof mgbakọ tụgharịa uche gbasara onwe ha nke ọma (nested amortization). Mmetụta ọzọ bụ na structured reference string (mmeputa emume) na-enwe ike imelite, na-eme ka ngwa dịka smart contract kwe omume.
+Halo na-ejikọta nhazi proof na-alaghachi n’onwe ya [recursive proof composition] na atụmatụ commitment polynomial [polynomial commitment scheme] dabere na arụmụka inner product. Oke ọhaneze ya [public parameters] anaghị achọ emume trusted setup ma ọ bụ mbibi trapdoor nzuzo nke nhazi mbụ [secret setup trapdoor]. Akwụkwọ [Halo 2 na-akọwa oke group ndị a nke ọhaneze](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Nke a dị iche na ime ka structured reference string nke emume mepụtara nwee ike imelite.
 
-Halo na-enye ndị ọrụ nkwa abụọ dị mkpa gbasara nchekwa nke usoro proof zero-knowledge buru ibu. Nke mbụ, ọ na-enyere ndị ọrụ igosi na ọ dịghị onye sonyeere n’emume genesis mepụtara ụzọ nzuzo iji mee Azụmahia aghụghọ. Nke abụọ, ọ na-enye ndị ọrụ ohere igosi na usoro ahụ nọgidere na-adị nchebe ka oge na-aga, ọbụna mgbe emelitela ma gbanwee ya.
+Iwepụ ihe a chọrọ maka nhazi a na-ezere ịdabere na mbibi nke ihe nzuzo e ji eme emume maka proof Halo. Ọ naghị egosi na emume Sprout ma ọ bụ Sapling gara aga enweghị mmebi, ma ọ bụ kwado na mgbanwe protocol niile e mere mgbe e mesịrị dị nchebe. Proof recursive na-agba akaebe banyere mgbako ndị etinyere na sekit ha, n'okpuru echiche nke usoro proof. Sekit na mmejuputa ziri ezi ka dị mkpa; nkọwa mbugharị [Halo 2 nke ECC](https://zodl.com/technical-explainer-halo-on-zcash/) na-ekwu kpọmkwem maka ihe ize ndụ nke bugs ọhụrụ ma ọ bụ ntụpọ dị na nhazi.
 
 [Sean Bowe's nkọwa na Dystopia Labs](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
@@ -50,7 +50,7 @@ Halo na-atụgharị akwụkwọ ọ bụla a nyochara ka ọ bụrụ stampụ 
 
 ### Ihe mere iwepụ trusted setup ji dị mkpa
 
-N’usoro ochie, “akara” ahụ (CRS) sitere n’emume. Ndị sonyere ga-ebibi ihe ndị dị n’etiti, onye ọ bụla aghaghịkwa ịtụkwasị ha obi na ha mere nke ahụ. Akara Halo sitere naanị na mgbakọ na mwepụ: ọ nweghị ihe a ga-ebibi, ọ nweghị ihe a ga-ewepụta n’enweghị ikike, ọ nweghịkwa emume a ga-atụkwasị obi.
+N’usoro trusted setup ochie, “akara” ọhaneze ahụ (CRS) sitere n’emume. Ndị sonyere ga-ebibi ihe nzuzo ha dị n’etiti ebe ha na-edobe paramita ọhaneze ka ha dị. Halo na-ezere emume ahụ na trapdoor nhazi nzuzo ya. Nke a anaghị ewepụ mkpa ọ dị ichekwa Igodo ego ndị ọrụ ma ọ bụ ịlele echiche na mmejuputa usoro proof.
 
 ---
 
@@ -120,7 +120,7 @@ Electric Coin Company batara na nkwekọrịta na Protocol Labs, Filecoin Founda
 | Echiche a na-enwekarị | Ihe dị n’eziokwu |
 | --- | --- |
 | “Halo bụ mmelite n’ọdịnihu Zcash na-eche.” | Orchard, nke dị ndụ na mainnet kemgbe NU5 (2022), na-agba ọsọ ugbu a na Halo 2. |
-| “Enweghị trusted setup pụtara na enweghị parampita ọ bụla.” | Halo ka na-eji parampita ahaziri ahazi; ihe dị iche bụ na ha enweghị toxic waste, a pụkwara ịmepụta ma melite ha n’enweghị emume ndị sonyere ga-atụkwasị obi. |
+| “Enweghị trusted setup pụtara na enweghị parampita ọ bụla.” | Halo ka na-eji parampita ọha. Ha anaghị achọ emume ndị sonyere ga-atụkwasị obi ka ha bibie ihe nzuzo e ji hazie ya. |
 | “Halo 2 na akwụkwọ Halo bụ otu ihe.” | Akwụkwọ [](https://eprint.iacr.org/2019/1021.pdf) na-akọwa atụmatụ polynomial commitment na nested amortization; Halo 2 bụ mmejuputa Rust maka iji n’ezi ụwa, nke nwere atụmatụ nchịkọta na PLONKish arithmetisation. |
 | “Recursion na-enyere naanị scaling nke nyocha block aka.” | Recursion na-akpakọkwa mgbakọ n’ogo ngwa — lee proof spacetime/replication nke Filecoin na ọrụ VDF maka Ethereum. |
 

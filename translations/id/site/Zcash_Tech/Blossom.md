@@ -10,7 +10,19 @@ Apa yang akan Anda pelajari: bagaimana Blossom membuat blok Zcash tiba sekitar d
 
 Blossom adalah Zcash [peningkatan jaringan](../start-here/network-upgrades). Ini diterapkan oleh [ZIP 206](https://zips.z.cash/zip-0206), dan perubahan konsensus utamanya didefinisikan dalam [ZIP 208](https://zips.z.cash/zip-0208). Blossom adalah peningkatan skalabilitas: ini memperpendek target waktu antar blok dari 150 detik menjadi 75 detik, sehingga blok tiba sekitar dua kali lebih sering. Electric Coin Company memimpin dan mengumumkan Blossom.
 
-Mengapa ini penting. Saat Anda mengirim ZEC, Anda menunggu jaringan mengonfirmasinya dalam sebuah blok. Jika blok lambat, Anda akan menunggu lebih lama. Sebelum Blossom, blok baru diharapkan muncul sekitar setiap 150 detik. Blossom memangkas target tersebut menjadi setengahnya, yaitu 75 detik, sehingga konfirmasi datang lebih cepat dan chain dapat membawa lebih banyak transaksi dalam jumlah waktu yang sama. Hal ini dilakukan tanpa menciptakan lebih banyak ZEC atau mengubah waktu halving di masa mendatang.
+Mengapa ini penting. Saat Anda mengirim ZEC, Anda menunggu jaringan mengonfirmasinya dalam sebuah blok. Jika blok lambat, Anda akan menunggu lebih lama. Sebelum Blossom, blok baru diharapkan muncul sekitar setiap 150 detik. Blossom memangkas target tersebut menjadi setengahnya, yaitu 75 detik, sehingga konfirmasi datang lebih cepat dan chain dapat membawa lebih banyak transaksi dalam jumlah waktu yang sama. Hal ini dilakukan tanpa menciptakan lebih banyak ZEC atau mengubah waktu halving di masa mendatang. (NU7, yang diaktifkan pada November 2026, kemudian memangkas target tersebut lagi menjadi 25 detik berdasarkan [ZIP 218](https://zips.z.cash/zip-0218), dengan pendekatan yang sama.)
+
+## TL;DR
+
+- Blossom adalah peningkatan jaringan ketiga Zcash, yang aktif pada blok mainnet 653.600 (11 Desember 2019 UTC), diterapkan melalui ZIP 206 dengan perubahan intinya di ZIP 208.
+- Peningkatan ini memangkas target interval blok dari 150 detik menjadi 75 detik — blok muncul sekitar dua kali lebih sering, sehingga konfirmasi pertama datang lebih cepat dan throughput kira-kira berlipat dua.
+- Agar penerbitan tetap stabil, imbalan per blok dibagi dua dan interval halving digandakan dari 840.000 menjadi 1.680.000 blok.
+- Total ZEC yang tercipta per satuan waktu dan waktu nyata halving di masa mendatang tidak berubah.
+- Ini adalah perubahan bilateral yang wajib: setiap node harus ditingkatkan agar tetap berada di chain.
+
+## Analogi visual
+
+Blossom adalah jaringan bus yang menggandakan jumlah keberangkatannya. Bus kini datang setiap 75 detik, bukan setiap 150 detik, sehingga Anda hanya menunggu separuh waktu (konfirmasi lebih cepat) dan jaringan mengangkut dua kali lipat jumlah penumpang (throughput). Agar total gaji pengemudi tetap sama, bayaran per perjalanan untuk setiap pengemudi dipotong setengah. Total pengeluaran gaji tetap sama, hanya dibayarkan untuk dua kali lebih banyak perjalanan.
 
 ## Blok yang lebih cepat
 
@@ -36,6 +48,14 @@ Blossom adalah perubahan konsensus bilateral, yang berarti setiap node harus mel
 ## Di mana posisi Blossom
 
 Blossom adalah peningkatan jaringan ketiga dari Zcash. Ini mengikuti Overwinter dan Sapling, serta terjadi sebelum Heartwood dan Canopy. Berbeda dengan Sapling, yang merombak kriptografi terlindungi milik Zcash, Blossom berfokus pada skala dan kecepatan. Tugas utamanya adalah pengaturan waktu blok, bukan fitur privasi baru.
+
+## Kesalahan Umum
+
+- **Mengira block yang lebih cepat berarti lebih banyak ZEC.** Memangkas setengah imbalan per block sambil menggandakan laju block membuat emisi tetap persis sama per satuan waktu.
+- **Mengira halving terjadi lebih cepat dalam waktu nyata.** Interval halving digandakan dari 840.000 menjadi 1.680.000 block, sehingga tanggal halving dalam waktu nyata tidak bergeser.
+- **Menganggap "75 detik" sebagai jaminan.** Ini adalah target proof of work; selang waktu antar block yang sebenarnya bervariasi di sekitar angka tersebut.
+- **Menganggap Blossom sebagai peningkatan privasi.** Tugasnya adalah pengaturan waktu block dan skala. Berbeda dengan Sapling, peningkatan ini tidak mengubah kriptografi apa pun.
+- **Mengira operator node dapat melewatinya.** Blossom adalah perubahan konsensus bilateral; node yang tidak ditingkatkan akan terpisah dari jaringan karena fork.
 
 ## Glosarium
 
@@ -95,5 +115,12 @@ Karena Blossom juga memotong setengah dari imbalan yang dibayarkan per blok dan 
 [NU6.1](../zcash-tech/nu6-1)
 
 ---
+
+## Halaman Terkait
+
+- [Sapling](./Sapling.md) — peningkatan sebelumnya (kriptografi, bukan waktu)
+- [Heartwood](./Heartwood.md) — peningkatan berikutnya dalam seri ini
+- [Full Node](./Full_Nodes.md) — apa saja yang diperlukan untuk menjalankan node melalui peningkatan wajib
+- [Indeks Peningkatan Jaringan](../start-here/network-upgrades) — linimasa lengkap peningkatan
 
 Seri: Indeks Peningkatan Jaringan [](../start-here/network-upgrades) · Sebelumnya: [Sapling](../zcash-tech/sapling) · Berikutnya: [Heartwood](../zcash-tech/heartwood)

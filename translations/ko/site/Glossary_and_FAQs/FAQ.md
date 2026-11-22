@@ -45,7 +45,7 @@ ZEC는 [수탁형 거래소](/using-zcash/custodial-exchanges), [DEX](/using-zca
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash는 Bitcoin이나 Ethereum보다 근본적으로 더 프라이빗합니다. 빠른 블록 시간(75초), 낮은 수수료 및 정기적인 업그레이드를 제공합니다.
+Zcash는 Bitcoin이나 Ethereum보다 근본적으로 더 프라이빗합니다. NU7이 2026년 11월 활성화된 이후 블록 시간이 75초에서 25초로 단축되었으며, 수수료가 낮고 정기적으로 업그레이드됩니다.
 
 사용자는 **투명한** 거래와 **차폐된** 거래 중에서 선택할 수 있습니다. 자세한 내용은 [차폐된 생태계](https://electriccoin.co/blog/shielded-ecosystem)를 참조하세요.
 
@@ -70,7 +70,7 @@ Zcash는 Bitcoin이나 Ethereum보다 근본적으로 더 프라이빗합니다.
 
 먼저 [블록 탐색기 가이드](/guides/blockchain-explorers)를 읽으세요. 그런 다음 [Zcash 블록 탐색기](https://mainnet.zcashexplorer.app)를 확인하세요.
 
-거래는 약 25분(20블록) 후 만료되며 자금은 자동으로 반환됩니다.
+고정된 25분 만료 또는 자동 환불 타이머는 없습니다. 지갑에 기록된 만료 높이와 원래 결제가 채굴되었는지 확인하세요. 채굴되지 않은 채 만료되었다면 온체인에서 정산되지 않은 것이며, 만료가 환불 거래를 생성하지는 않습니다. 지갑의 재시도 안내를 따르기 전에 동기화가 완료되도록 하세요. [거래 문제 해결](/using-zcash/transactions#troubleshooting-stuck-transactions) 및 [ZIP 203](https://zips.z.cash/zip-0203)을(를) 참조하세요.
 
 **거래가 표시되지 않을 수 있는 일반적인 이유:**
 

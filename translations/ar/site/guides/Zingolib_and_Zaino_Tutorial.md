@@ -25,7 +25,7 @@
 [بنية النظام](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- يقوم مستخدم Zcash بتثبيت/ترجمة Zingolib مما يتيح الوصول إلى zingo-cli. ويمكنه إرسال/استلام ZEC حسب الحاجة.
+- يقوم مستخدم Zcash بتثبيت/تجميع Zingolib مما يتيح الوصول إلى zingo-cli. ويمكنه إرسال/استلام ZEC حسب الحاجة.
 - يتصل zingo-cli بـ zaino إما محليًا أو عبر قناة آمنة على الإنترنت (مستخدم Zcash لا يهتم بكيفية عمل ذلك!)
 - يتيح Zaino الوصول إلى كل من zebrad أو zcashd            
 - يشكّل zebrad المتزامن بالكامل المصدر المرجعي للحقيقة (لم تعد هناك محافظ هنا!)
@@ -42,10 +42,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+استخدم Zebra 7.0.0 أو أحدث: فُعِّل NU7 على Mainnet عند الكتلة 3,543,405، ولا تستطيع إصدارات `zebrad` الأقدم متابعة السلسلة بعد هذا الارتفاع (ملاحظات الإصدار [](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *اختياري* (أنشئ جلسة screen لـ zebrad)
 
 ```
