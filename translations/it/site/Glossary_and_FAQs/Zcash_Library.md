@@ -33,7 +33,7 @@ Un glossario completo di termini chiave, concetti e risorse relativi a Zcash. Qu
 | Canopy | Il 5° grande aggiornamento di rete per Zcash. [Maggiori informazioni](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Permette a un committer di impegnare un polinomio tramite una stringa breve che un verificatore può usare per confermare le valutazioni dichiarate del polinomio impegnato. Utile per ridurre i costi di comunicazione nel protocollo Zcash. |
 | Community | [Il forum ufficiale della community di Zcash](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Un progetto di design del consenso ibrido che eseguirebbe proof of stake accanto all'attuale proof of work di Zcash. Shielded Labs guida il lavoro e mantiene un prototipo nel repository di `zebra-crosslink`. Crosslink oggi non fa parte di Zcash. [Protocollo Crosslink](/zcash-tech/crosslink-protocol) |
+| Crosslink | Un progetto di consenso ibrido proposto, che affiancherebbe il proof of stake al proof of work già esistente di Zcash. Shielded Labs coordina il lavoro e gestisce una rete di test, la Feature Net, dal repository `crosslink_monolith`. Il precedente repository del prototipo `zebra-crosslink` è stato ritirato nel novembre 2026. Oggi Crosslink non fa parte di Zcash. [Protocollo Crosslink](/zcash-tech/crosslink-protocol) |
 | CrossPay | Una funzione del portafoglio ZODL che ti permette di effettuare spese schermate in ZEC mentre il destinatario viene pagato nell'asset e nella chain che preferisce, con instradamento tramite NEAR Intents invece che attraverso un exchange centralizzato. |
 | Cypherpunk Zero | Un Creative Universe e uno sforzo collaborativo tra ECC, l'illustratore Stranger Wolf, Mighty Jaxx e alcuni partner selezionati dell'ecosistema. [Cypherpunk Zero Social](https://x.com/cypherpunkZero) / [Collezione OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
@@ -209,7 +209,7 @@ Un glossario completo di termini chiave, concetti e risorse relativi a Zcash. Qu
 
 | Termine | Definizione |
 |------|-----------|
-| Wallet | Software o hardware che memorizza le chiavi private e ti permette di inviare/ricevere ZEC. I portafogli attivi includono ZODL (iOS/Android), Zingo![Schermata di verifica in 2 passaggi](mobile/desktop), Zkool (mobile/desktop), Zallet (portafoglio full node, in beta) e Keystone (hardware). Per un elenco completo, vedi [Portafogli dell'ecosistema di Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software o dispositivo hardware che conserva le chiavi private e ti permette di inviare e ricevere ZEC. Tra i portafogli attivi ci sono ZODL (iOS/Android), Zingo! (dispositivi mobili/desktop), Zkool (dispositivi mobili/desktop), Zallet (portafoglio full node, in beta) e Keystone (hardware). Per un elenco completo, consulta [Portafogli dell'ecosistema di Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Il primo SDK JavaScript per Zcash, creato da ChainSafe per gli ambienti browser. È alla base della snap Zcash Shielded Wallet che ha portato gli ZEC schermati su MetaMask. |
 
 ## X

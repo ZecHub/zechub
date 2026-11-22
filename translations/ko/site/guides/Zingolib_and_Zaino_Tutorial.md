@@ -43,10 +43,11 @@
 ```
 git clone https://github.com/ZcashFoundation/zebra.git
 cd zebra
-cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.0.1 zebrad
+cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
- 
+Zebra 7.0.0 이상을 사용하세요. NU7은 Mainnet의 블록 3,543,405에서 활성화되었으며, 이전 `zebrad` 버전은 그 높이 이후의 체인을 따라갈 수 없습니다([릴리스 노트](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 *선택 사항* (zebrad용 screen 세션 생성)
 
 ```

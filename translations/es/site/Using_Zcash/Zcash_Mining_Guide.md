@@ -50,12 +50,12 @@ Esta guía se centra en minar Zcash utilizando hardware personal (p. ej., una PC
 
 ### Software
 - **Sistema Operativo:** Windows 10/11, Linux (se recomienda Ubuntu por su estabilidad).
-- **Software de Minado:**
+- **Software de minado:**
   - Para GPU: lolMiner (compatible con AMD/NVIDIA), GMiner o miniZ (centrado en NVIDIA). Descarga desde repositorios oficiales de GitHub (p. ej., github.com/Lolliedieb/lolMiner-releases).
-  - Para ASIC: Usa el firmware/panel [dashboard] integrado del fabricante (p. ej., la interfaz web de Bitmain).
+  - Para ASIC: Usa el firmware/panel integrado del fabricante (p. ej., la interfaz web de Bitmain).
 - **Billetera [Wallet]:** Una billetera de Zcash para recibir pagos. Recomendadas:
   - Blindada [Shielded] (privada): ZODL Wallet, Zingo (móvil/escritorio), Zkool (móvil/escritorio).
-  - Transparente [Transparent] (más sencilla, pero menos privada): Edge Wallet, Zecwallet Lite.
+  - Transparente [Transparent] (más sencilla, pero menos privada): Edge Wallet.
   - Descarga desde [wallets](https://zechub.wiki/wallets). Genera una dirección [address] blindada (que comience con «zs») para la privacidad si el pool la admite.
 
 ### Otros

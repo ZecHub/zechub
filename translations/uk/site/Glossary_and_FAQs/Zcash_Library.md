@@ -21,7 +21,7 @@
 | Термін | Визначення |
 |------|-----------|
 | Benchmarking | Майнери можуть надсилати метрики ефективності різного обладнання, яке використовується для майнінгу Zcash. [Переглянути тут](https://zcashbenchmarks.info) |
-| Block | Блок — це запис у блокчейні Zcash, що містить набір транзакцій, надісланих у мережі. Приблизно кожні 75 секунд у середньому новий блок додається до блокчейна. |
+| Block | Блок — це запис у блокчейні Zcash, що містить набір транзакцій, надісланих у мережі. У середньому приблизно кожні 25 секунд до блокчейна додається новий блок (до активації NU7 у листопаді 2026 року інтервал становив 75 секунд). |
 | Block Explorer | Онлайн-інструмент для перегляду всіх транзакцій у блокчейні, як минулих, так і поточних. [Zcash Оглядач блоків](https://zcashexplorer.app/) |
 | Blogs | [ZODL Блог (раніше Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Блог](https://zfnd.org/blog/) / [ZecHub Інформаційний бюлетень](https://zechub.substack.com/) |
 | Blossom | 3-тє велике мережеве оновлення для Zcash. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -33,7 +33,7 @@
 | Canopy | 5-те велике мережеве оновлення для Zcash. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Дозволяє стороні, що здійснює зобов'язання, зафіксувати поліном за допомогою короткого рядка, який перевіряльник може використати для підтвердження заявлених значень зафіксованого полінома. Корисна для зменшення витрат на комунікацію в протоколі Zcash. |
 | Community | [Офіційний Zcash форум спільноти](https://forum.zcashcommunity.com) / [Zcash Спільнота Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash дослідження та розробки Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Запропонований гібридний дизайн консенсусу, який поєднував би доказ частки з наявним доказом роботи Zcash. Shielded Labs очолює роботу й підтримує прототип у репозиторії `zebra-crosslink`. Crosslink наразі не є частиною Zcash. [Crosslink протокол](/zcash-tech/crosslink-protocol) |
+| Crosslink | Запропонований гібридний дизайн консенсусу, який поєднував би доказ частки з наявним доказом роботи Zcash. Shielded Labs очолює роботу й запускає тестову мережу Feature Net з репозиторію `crosslink_monolith`. Попередній репозиторій прототипу `zebra-crosslink` було виведено з експлуатації в листопаді 2026 року. Crosslink наразі не є частиною Zcash. [Crosslink протокол](/zcash-tech/crosslink-protocol) |
 | CrossPay | Функція в гаманці ZODL, яка дозволяє витрачати захищені ZEC, тоді як одержувач отримує оплату в активі та мережі на свій вибір, із маршрутизацією через NEAR Intents, а не через централізовану біржу. |
 | Cypherpunk Zero | Творчий всесвіт і спільний проєкт між ECC, ілюстратором Stranger Wolf, Mighty Jaxx та обраними партнерами екосистеми. [Соціальні мережі Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Колекція](https://opensea.io/collection/cypherpunk-zero) |
 
@@ -127,11 +127,11 @@
 | Термін | Визначення |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Пропозиція від Shielded Labs спалювати частку комісій за транзакції, щоб довгостроковий бюджет безпеки протоколу не ґрунтувався виключно на емісії. Визначено в ZIP 234, перебуває на розгляді у 2026 році. |
-| Nighthawk | Мобільний гаманець для Zcash. [Вебсайт](https://nighthawkwallet.com) |
+| Nighthawk | Колишній мобільний гаманець Zcash від Nighthawk Apps. Його гаманці Zcash більше не підтримуються, а Nighthawk Wallet 3.0 створено для DarkFi. Щоб перенести кошти зі старої seed-фрази Nighthawk, див. [Відновлення коштів](/using-zcash/recovering-funds). |
 | Noir Wallet | Гаманець Zcash у вигляді браузерного розширення, що підтримується Zcash Community Grants і створений для прямого підключення екранованих ZEC до браузерних застосунків замість використання QR-кодів і ручних переказів. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | 6-те велике мережеве оновлення Zcash, що запровадило екранований пул Orchard і Unified Addresses. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | 7-ме велике мережеве оновлення Zcash, яке коригує субсидію блока для фінансування програми Zcash Community Grants і відкладеного Lockbox Фонду розвитку. Активовано наприкінці 2024 року. [Докладніше](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Мережеве оновлення після Ironwood, заплановане для mainnet на 5 листопада 2026 року. Згідно з [ZIP 259](https://zips.z.cash/zip-0259), воно запроваджує 25-секундні блоки (ZIP 218), Network Sustainability Mechanism із переробленням комісій (ZIPs 235 і 237), а також припинення транзакцій версії 4, через що кошти Sprout стають неможливими для витрачання (ZIP 2003). Воно не додає нового формату транзакцій; Tachyon та Zcash екрановані активи не є його частиною. |
+| NU7 | Мережеве оновлення після Ironwood, активоване в mainnet на висоті 3,543,405 6 листопада 2026 року (UTC). Згідно з [ZIP 259](https://zips.z.cash/zip-0259), воно запроваджує 25-секундні блоки (ZIP 218), Network Sustainability Mechanism із переробленням комісій (ZIPs 235 і 237), а також припинення транзакцій версії 4, через що кошти Sprout стають неможливими для витрачання (ZIP 2003). Воно не додає нового формату транзакцій; Tachyon та Zcash екрановані активи не є його частиною. |
 
 ## O
 
@@ -209,7 +209,7 @@
 
 | Термін | Визначення |
 |------|-----------|
-| Wallet | Програмне або апаратне забезпечення, яке зберігає приватні ключі та дозволяє надсилати/отримувати ZEC. До активних гаманців належать ZODL (iOS/Android), Zingo! (мобільний/десктопний), Nighthawk (Android), Zkool (мобільний/десктопний), Zallet (незабаром) і Keystone (апаратний). Повний список дивіться у [Гаманці екосистеми Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Програмне або апаратне забезпечення, яке зберігає приватні ключі та дозволяє надсилати/отримувати ZEC. До активних гаманців належать ZODL (iOS/Android), Zingo! (мобільний/десктопний), Zkool (мобільний/десктопний), Zallet (гаманець із повним вузлом, у бета-версії) і Keystone (апаратний). Повний список дивіться у [Гаманці екосистеми Zcash](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Перший JavaScript SDK для Zcash, створений ChainSafe для браузерних середовищ. Він лежить в основі снапу Zcash Shielded Wallet, який приніс shielded ZEC до MetaMask. |
 
 ## X

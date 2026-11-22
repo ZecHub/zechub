@@ -21,7 +21,7 @@ Nkowa okwu zuru oke nke isiokwu, echiche, na akụrụngwa ndị metụtara Zcas
 | Okwu | Nkọwa |
 |------|-----------|
 | Benchmarking | Ndị na-egwụputa nwere ike izipu metrik gbasara arụmọrụ ngwaike dị iche iche eji egwuputa Zcash. [Lee ebe a](https://zcashbenchmarks.info) |
-| Block | block bụ ndekọ na blockchain Zcash nke nwere otu Azụmahia ndị ezitere na network. N'ihe dị ka sekọnd 75 ọ bụla, na nkezi, a na-agbakwunye block ọhụrụ na blockchain. |
+| Block | block bụ ndekọ dị na blockchain Zcash nke nwere otu Azụmahia ezitere na network. N'ihe dị ka sekọnd 25 ọ bụla, na nkezi, a na-agbakwunye block ọhụrụ na blockchain (sekọnd 75 tupu NU7 arụ ọrụ na Nọvemba 2026). |
 | Block Explorer | Ngwá ọrụ n'ịntanetị maka ilele Azụmahia niile, nke gara aga na nke ugbu a, na blockchain. [Zcash Nyocha block](https://zcashexplorer.app/) |
 | Blogs | [ZODL Blọọgụ (nke bụbu Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blọọgụ](https://zfnd.org/blog/) / [ZecHub Akwụkwọ Akụkọ](https://zechub.substack.com/) |
 | Blossom | Network upgrade Ukpụhọde Network nke 3 maka Zcash. [Ozi ndị ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -33,7 +33,7 @@ Nkowa okwu zuru oke nke isiokwu, echiche, na akụrụngwa ndị metụtara Zcas
 | Canopy | Network upgrade Ukpụhọde Network nke 5 maka Zcash. [Ozi ndị ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Na-enye onye na-eme commitment ohere ime commitment na polynomial site n'eriri dị mkpirikpi nke onye na-enyocha nwere ike iji kwado nnwale ndị a na-ekwu maka polynomial e mere commitment. Ọ bara uru maka ibelata ụgwọ nkwukọrịta na protocol Zcash. |
 | Community | [Ọgbakọ Obodo Gọọmentị nke Zcash](https://forum.zcashcommunity.com) / [Zcash Obodo Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Nhazi consensus ngwakọ a tụrụ aro nke ga-eme proof of stake n'akụkụ proof of work dị ugbu a nke Zcash. Shielded Labs na-edu ọrụ ahụ ma na-edobe prototype na ebe nchekwa `zebra-crosslink`. Crosslink abụghị akụkụ nke Zcash taa. [Crosslink protocol](/zcash-tech/crosslink-protocol) |
+| Crosslink | Nhazi consensus ngwakọ a tụrụ aro nke ga-eme proof of stake n'akụkụ proof of work dị ugbu a nke Zcash. Shielded Labs na-edu ọrụ ahụ ma na-arụ netwọk nnwale, Feature Net, site na ebe nchekwa `crosslink_monolith`. E wepụrụ ebe nchekwa prototype `zebra-crosslink` gara aga n'ọrụ na Nọvemba 2026. Crosslink abụghị akụkụ nke Zcash taa. [Crosslink protocol](/zcash-tech/crosslink-protocol) |
 | CrossPay | Njirimara dị na e-akpa ego ZODL nke na-enye gị ohere imefu ZEC nke e chebere echebe ebe a na-akwụ onye nnata n'asset na chain ha họọrọ, a na-esi na NEAR Intents aga kama site na exchange etiti. |
 | Cypherpunk Zero | Eluigwe na Ala Okike na mbọ nkwado n'etiti ECC, onye na-ese ihe Stranger Wolf, Mighty Jaxx na ụfọdụ ndị mmekọ ecosystem ahọpụtara. [Mgbasa ozi Cypherpunk Zero](https://x.com/cypherpunkZero) / [OpenSea Nchịkọta](https://opensea.io/collection/cypherpunk-zero) |
 
@@ -126,12 +126,12 @@ Nkowa okwu zuru oke nke isiokwu, echiche, na akụrụngwa ndị metụtara Zcas
 
 | Okwu | Nkọwa |
 |------|-----------|
-| Network Sustainability Mechanism (NSM) | Atụmatụ sitere na Shielded Labs iji kpọọ òkè nke ugwo Azụmahia ọkụ ka mmefu ego nchekwa ogologo oge nke protocol ghara ịdabere kpamkpam na mwepụta. A kọwara ya na ZIP 234, a na-enyocha ya na 2026. |
-| Nighthawk | E-akpa ego ekwentị maka Zcash. [Weebụsaịtị](https://nighthawkwallet.com) |
+| Network Sustainability Mechanism (NSM) | Atụmatụ sitere na Shielded Labs iji kpọọ òkè nke ugwo Azụmahia ọkụ ka mmefu ego nchekwa protocol nke ogologo oge ghara ịdabere kpamkpam na mwepụta ego. A kọwara ya na ZIP 234, a na-enyocha ya na 2026. |
+| Nighthawk | E-akpa ego ekwentị mbụ nke Zcash sitere na Nighthawk Apps. A naghịzi elekọta e-akpa ego Zcash ya, e wuru Nighthawk Wallet 3.0 maka DarkFi kama. Iji nyefee ego site na mkpụrụ okwu nzuzo ochie nke Nighthawk, lee [Iweghachite Ego](/using-zcash/recovering-funds). |
 | Noir Wallet | E-akpa ego mgbatị ihe nchọgharị Zcash nke Zcash Community Grants na-akwado, nke e wuru iji jikọọ ZEC nke e chebere echebe ozugbo na ngwa ihe nchọgharị kama ịdabere na koodu QR na nnyefe aka. [zknoir.com](https://www.zknoir.com/) |
-| NU5 | Network upgrade Ukpụhọde Network nke 6 maka Zcash, na-ewebata pool Orchard nke e chebere echebe na Adreesị Jikọtara Ọnụ. [Ozi ndị ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Network upgrade Ukpụhọde Network nke 7 maka Zcash, na-ahazi subsidy block iji kwado mmemme Zcash Community Grants na Deferred Dev Fund Lockbox. Emebere ya na ngwụcha 2024. [Ozi ndị ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Network upgrade na-esote Ironwood, e zubere maka mainnet na 5 Nọvemba 2026. Dịka [ZIP 259](https://zips.z.cash/zip-0259) si kwuo, ọ na-eweta blocks nke sekọnd 25 (ZIP 218), Usoro Ịdịgide Network nwere imegharị ugwo (ZIPs 235 na 237), na njedebe Azụmahia mbipụta 4, nke na-ahapụ ego Sprout ka enweghị ike imefu (ZIP 2003). Ọ naghị agbakwunye ụdị Azụmahia ọhụrụ; Tachyon na Shielded Assets Zcash abụghị akụkụ ya. |
+| NU5 | Network upgrade nke isii maka Zcash, nke na-ewebata pool Orchard nke e chebere echebe na Adreesị Jikọtara Ọnụ. [Ozi ndị ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU6 | Network upgrade nke asaa maka Zcash, nke na-ahazi onyinye block iji kwado mmemme Zcash Community Grants na igbe mkpọchi Deferred Dev Fund. E tinyere ya n'ọrụ na ngwụcha 2024. [Ozi ndị ọzọ](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Network upgrade sochiri Ironwood, e tinyere ya n'ọrụ na mainnet n'ogo 3,543,405 na 6 Nọvemba 2026 (UTC). Dịka [ZIP 259](https://zips.z.cash/zip-0259) si kwuo, ọ na-eweta blocks nke sekọnd 25 (ZIP 218), Network Sustainability Mechanism nke na-emegharị ugwo (ZIPs 235 na 237), na njedebe Azụmahia mbipụta 4, nke na-eme ka ego Sprout ghara inwe ike imefu (ZIP 2003). Ọ naghị agbakwunye ụdị Azụmahia ọhụrụ; Tachyon na Zcash Shielded Assets abụghị akụkụ ya. |
 
 ## O
 
@@ -209,7 +209,7 @@ Nkowa okwu zuru oke nke isiokwu, echiche, na akụrụngwa ndị metụtara Zcas
 
 | Usoro okwu | Nkọwa |
 |------|-----------|
-| Wallet | Software ma ọ bụ hardware nke na-echekwa igodo nzuzo ma na-enye gị ohere izipu/nata ZEC. E-akpa ego ndị na-arụ ọrụ gụnyere ZODL (iOS/Android), Zingo! (mkpanaka/desktọọpụ), Nighthawk (Android), Zkool (mkpanaka/desktọọpụ), Zallet (na-abịa n'ihu), na Keystone (hardware). Maka ndepụta zuru oke, lee [Zcash E-akpa ego Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software ma ọ bụ hardware nke na-echekwa igodo nzuzo ma na-enye gị ohere izipu/nata ZEC. E-akpa ego ndị na-arụ ọrụ gụnyere ZODL (iOS/Android), Zingo! (mkpanaka/desktọọpụ), Zkool (mkpanaka/desktọọpụ), Zallet (e-akpa ego full node, nke ka nọ na beta), na Keystone (hardware). Maka ndepụta zuru oke, lee [Zcash E-akpa ego Ecosystem](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | SDK mbụ JavaScript maka Zcash, nke ChainSafe wuru maka gburugburu browser. Ọ na-akwado snap Shielded Wallet Zcash nke wetara ZEC nke e chebere echebe na MetaMask. |
 
 ## X

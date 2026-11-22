@@ -51,11 +51,11 @@ Zcash (ZEC) एक गोपनीयता (privacy) पर केंद्र�
 ### सॉफ़्टवेयर
 - **ऑपरेटिंग सिस्टम:** Windows 10/11, Linux (स्थिरता के लिए Ubuntu अनुशंसित)।
 - **माइनिंग सॉफ़्टवेयर:**
-  - GPU के लिए: lolMiner (AMD/NVIDIA समर्थित), GMiner या miniZ (NVIDIA-केंद्रित)। आधिकारिक GitHub रिपॉज़िटरी से डाउनलोड करें (जैसे github.com/Lolliedieb/lolMiner-releases)।
-  - ASIC के लिए: निर्माता के बिल्ट-इन फ़र्मवेयर/डैशबोर्ड का उपयोग करें (जैसे Bitmain का वेब इंटरफ़ेस)।
+  - GPU के लिए: lolMiner (AMD/NVIDIA समर्थित), GMiner या miniZ (NVIDIA-केंद्रित)। आधिकारिक GitHub रिपॉज़िटरी से डाउनलोड करें (जैसे, github.com/Lolliedieb/lolMiner-releases)।
+  - ASIC के लिए: निर्माता के बिल्ट-इन फ़र्मवेयर/डैशबोर्ड का उपयोग करें (जैसे, Bitmain का वेब इंटरफ़ेस)।
 - **वॉलेट:** भुगतान प्राप्त करने के लिए एक Zcash वॉलेट। अनुशंसित:
-  - शील्डेड (shielded) (निजी): ZODL Wallet, Zingo (मोबाइल/डेस्कटॉप), Zkool (मोबाइल/डेस्कटॉप)।
-  - ट्रांसपेरेंट (transparent) (आसान लेकिन कम निजी): Edge Wallet, Zecwallet Lite।
+  - शील्डेड (निजी): ZODL Wallet, Zingo (मोबाइल/डेस्कटॉप), Zkool (मोबाइल/डेस्कटॉप)।
+  - ट्रांसपेरेंट (आसान लेकिन कम निजी): Edge Wallet।
   - [वॉलेट](https://zechub.wiki/wallets) से डाउनलोड करें। यदि पूल समर्थन करता है, तो गोपनीयता के लिए एक शील्डेड एड्रेस (“zs” से शुरू होने वाला) बनाएँ।
 
 ### अन्य

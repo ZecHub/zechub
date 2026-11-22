@@ -69,7 +69,7 @@ Zcash bağlamında, ZenRock gibi köprü teknolojileri ZEC varlıklarının akı
 
 Birlikte çalışabilirlik, belirli bir blokzincirdeki varlıkların ağlar arası dijital ekonomiye katılmasına olanak verdiği için DeFi gelişiminin kritik bir bileşenidir. 
 
-Daha Fazla Bilgi: [ZenRock Bridge Bilgi](https://docs.zenrocklabs.io/)
+Daha Fazla Bilgi: [ZenRock Bridge Bilgi](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Bölüm 10'da, ZenRock kurucu ortakları Aditya Dave ve Jack Krevitt, Solana üzerinde Zcash konusunu konuşuyor." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

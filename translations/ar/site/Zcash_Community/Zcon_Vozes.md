@@ -1,16 +1,16 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcon_Vozes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-فيما يلي مجموعة من أبرز الوسائط المتعلقة بـ Zcon Vozes في مكان يسهل العثور عليه.
+فيما يلي مجموعة تضم معظم الوسائط المتعلقة بـ Zcon Vozes في مكان واحد يسهل الوصول إليه.
 
 # Zcon Vozes
-Zcon Vozes هو مؤتمر سنوي تنظمه [Zcash Brazil](https://zcashbr.com/) | [zcashbrasil.com.br](https://zcashbrasil.com.br/).
+Zcon Vozes مؤتمر سنوي تنظمه [Zcash Brazil](https://zcashbr.com/) | [zcashbrasil.com.br](https://zcashbrasil.com.br/).
 
-## Zcon Vozes Brasil
+## Zcon  Vozes Brasil
 
-أُقيم أول حدث لـ Zcash خارج الولايات المتحدة، برعاية Zcash Foundation، في 18 مارس 2023.
-وقد استُضيف في متحف الغد الشهير، مما رسّخ القارة بوصفها موطنًا لثاني أكبر مجتمع لـ Zcash في العالم. 💛
+أُقيمت أول فعالية لـ Zcash خارج الولايات المتحدة، برعاية Zcash Foundation، في 18 مارس 2023.
+وقد عُقدت في متحف الغد الشهير، تأكيدًا على أن القارة موطن لثاني أكبر مجتمع لـ Zcash في العالم. 💛
 
 [قائمة تشغيل Zcon Vozes 1](https://www.youtube.com/playlist?list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf)
 
@@ -18,7 +18,7 @@ Zcon Vozes هو مؤتمر سنوي تنظمه [Zcash Brazil](https://zcashbr.co
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=9FVjor70RRnNKOSs&amp;list=PLez2pAhViAI2KiXyPtcXIfmC5FQ-ozrPf"
-    title="Zcon Vozes البرازيل"
+    title="Zcon  Vozes Brasil"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -28,9 +28,9 @@ Zcon Vozes هو مؤتمر سنوي تنظمه [Zcash Brazil](https://zcashbr.co
 
 ## Zcon Vozes 2
 
-فعالية مخصصة لمناقشة التكنولوجيا، والخصوصية، وblockchain، والأصول المشفرة، والبنية التحتية المالية، والابتكار، ومستقبل الإنترنت المفتوح.
-نجمع حوارات مع خبراء، وأساتذة، ومطورين، وباحثين، وأعضاء من المجتمع لاستكشاف موضوعات مثل Zcash، والخصوصية المالية، وRWAs (الأصول في العالم الحقيقي)، وترميز الأصول، وWeb3، والأمن، والسيادة الرقمية، والتطبيقات الجديدة لتقنية blockchain.
-يهدف Zcon Vozes إلى ردم الفجوة بين المعرفة التقنية، ورؤى السوق، والتعليم الميسّر، بما يقرّب المجتمع البرازيلي من أهم النقاشات المتعلقة بالخصوصية، واللامركزية، ومستقبل التمويل الرقمي.
+فعالية مخصصة لمناقشة التكنولوجيا والخصوصية (privacy) وسلسلة الكتل (blockchain) والأصول المشفرة والبنية التحتية المالية والابتكار ومستقبل الإنترنت المفتوح.
+نجمع فيها حوارات مع خبراء وأساتذة ومطورين (developers) وباحثين وأعضاء من المجتمع لاستكشاف موضوعات مثل Zcash والخصوصية المالية وRWAs (الأصول الواقعية) وترميز الأصول وWeb3 والأمان والسيادة الرقمية والتطبيقات الجديدة لتقنية سلسلة الكتل.
+يهدف Zcon Vozes إلى أن يكون جسرًا (bridge) يربط بين المعرفة التقنية ورؤى السوق والتعليم الميسّر، بما يقرّب المجتمع البرازيلي من أهم النقاشات المتعلقة بالخصوصية واللامركزية (decentralization) ومستقبل التمويل الرقمي.
 
 [قائمة تشغيل Zcon Vozes 2](https://www.youtube.com/playlist?list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz)
 
@@ -38,7 +38,7 @@ Zcon Vozes هو مؤتمر سنوي تنظمه [Zcash Brazil](https://zcashbr.co
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=PYJQbHyhQCgHncp7&amp;list=PLez2pAhViAI1S5fJwhJa9g91x3io4NLTz"
-    title="قائمة تشغيل Zcon2"
+    title="Zcon2 Playlist"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

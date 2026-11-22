@@ -21,7 +21,7 @@ Zcash से जुड़े प्रमुख शब्दों, अवधा
 | शब्द | परिभाषा |
 |------|-----------|
 | Benchmarking | माइनर (miner) Zcash की माइनिंग (mining) के लिए उपयोग किए जाने वाले विभिन्न हार्डवेयर की दक्षता से जुड़े मेट्रिक्स जमा कर सकते हैं। [यहाँ देखें](https://zcashbenchmarks.info) |
-| Block | ब्लॉक Zcash ब्लॉकचेन (blockchain) में एक रिकॉर्ड है, जिसमें नेटवर्क पर भेजे गए लेनदेन (transaction) का एक समूह होता है। औसतन लगभग हर 75 सेकंड में ब्लॉकचेन में एक नया ब्लॉक जोड़ा जाता है। |
+| Block | ब्लॉक Zcash ब्लॉकचेन (blockchain) में एक रिकॉर्ड है, जिसमें नेटवर्क पर भेजे गए लेनदेन (transaction) का एक समूह होता है। औसतन लगभग हर 25 सेकंड में ब्लॉकचेन में एक नया ब्लॉक जोड़ा जाता है (नवंबर 2026 में NU7 सक्रिय होने से पहले 75 सेकंड)। |
 | Block Explorer | ब्लॉकचेन पर सभी पिछले और वर्तमान लेनदेन देखने के लिए एक ऑनलाइन उपकरण (tools)। [Zcash ब्लॉक एक्सप्लोरर](https://zcashexplorer.app/) |
 | Blogs | [ZODL ब्लॉग (पहले Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation ब्लॉग](https://zfnd.org/blog/) / [ZecHub न्यूज़लेटर](https://zechub.substack.com/) |
 | Blossom | Zcash का 3रा प्रमुख नेटवर्क अपग्रेड (network upgrade)। [अधिक जानकारी](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -31,10 +31,10 @@ Zcash से जुड़े प्रमुख शब्दों, अवधा
 | शब्द | परिभाषा |
 |------|-----------|
 | Canopy | Zcash का 5वाँ प्रमुख नेटवर्क अपग्रेड। [अधिक जानकारी](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | एक कमिटर को एक छोटी स्ट्रिंग के माध्यम से किसी पॉलिनोमियल के प्रति कमिट करने की अनुमति देती है, जिसका उपयोग वेरिफ़ायर कमिट किए गए पॉलिनोमियल के दावा किए गए मूल्यांकनों की पुष्टि के लिए कर सकता है। Zcash प्रोटोकॉल में संचार लागत कम करने के लिए उपयोगी। |
+| Commitment Scheme | एक कमिटर को छोटी स्ट्रिंग के माध्यम से किसी पॉलिनोमियल के प्रति कमिट करने देती है। वेरिफ़ायर इस स्ट्रिंग का उपयोग कमिट किए गए पॉलिनोमियल के दावा किए गए मूल्यांकनों की पुष्टि करने के लिए कर सकता है। Zcash प्रोटोकॉल में संचार लागत कम करने के लिए उपयोगी। |
 | Community | [आधिकारिक Zcash कम्युनिटी फ़ोरम](https://forum.zcashcommunity.com) / [Zcash कम्युनिटी Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | एक प्रस्तावित हाइब्रिड कंसेंसस (consensus) डिज़ाइन, जो Zcash के मौजूदा प्रूफ ऑफ़ वर्क के साथ-साथ प्रूफ ऑफ़ स्टेक चलाएगा। Shielded Labs इस काम का नेतृत्व करता है और `zebra-crosslink` रिपॉज़िटरी में एक प्रोटोटाइप रखता है। Crosslink आज Zcash का हिस्सा नहीं है। [Crosslink प्रोटोकॉल](/zcash-tech/crosslink-protocol) |
-| CrossPay | ZODL वॉलेट की एक सुविधा, जो आपको शील्डेड ZEC खर्च करने देती है, जबकि प्राप्तकर्ता को उसकी पसंद के एसेट और चेन (chain) में भुगतान (payment) मिलता है। यह किसी सेंट्रलाइज़्ड एक्सचेंज (exchange) के बजाय NEAR Intents के माध्यम से रूट होता है। |
+| Crosslink | एक प्रस्तावित हाइब्रिड कंसेंसस डिज़ाइन, जिसमें Zcash के मौजूदा प्रूफ ऑफ़ वर्क के साथ प्रूफ ऑफ़ स्टेक भी चलेगा। Shielded Labs इस काम का नेतृत्व करता है और `crosslink_monolith` रिपॉज़िटरी से Feature Net टेस्ट नेटवर्क चलाता है। पहले की `zebra-crosslink` प्रोटोटाइप रिपॉज़िटरी नवंबर 2026 में बंद कर दी गई थी। Crosslink आज Zcash का हिस्सा नहीं है। [Crosslink प्रोटोकॉल](/zcash-tech/crosslink-protocol) |
+| CrossPay | ZODL वॉलेट की एक सुविधा, जो आपको शील्डेड ZEC खर्च करने देती है, जबकि प्राप्तकर्ता को उसकी पसंद के एसेट और चेन में भुगतान मिलता है। यह किसी केंद्रीकृत एक्सचेंज के बजाय NEAR Intents के माध्यम से रूट होता है। |
 | Cypherpunk Zero | ECC, इलस्ट्रेटर Stranger Wolf, Mighty Jaxx और चुनिंदा इकोसिस्टम पार्टनरों के बीच एक क्रिएटिव यूनिवर्स और सहयोगात्मक प्रयास। [Cypherpunk Zero सोशल](https://x.com/cypherpunkZero) / [OpenSea कलेक्शन](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
@@ -126,12 +126,12 @@ Zcash से जुड़े प्रमुख शब्दों, अवधा
 
 | शब्द | परिभाषा |
 |------|-----------|
-| Network Sustainability Mechanism (NSM) | Shielded Labs का एक प्रस्ताव, जिसमें लेनदेन शुल्क (fee) का एक हिस्सा बर्न किया जाता है, ताकि प्रोटोकॉल का दीर्घकालिक सुरक्षा बजट पूरी तरह से इश्यूअन्स पर निर्भर न रहे। ZIP 234 में निर्दिष्ट, 2026 में समीक्षाधीन। |
-| Nighthawk | Zcash के लिए एक मोबाइल वॉलेट। [वेबसाइट](https://nighthawkwallet.com) |
+| Network Sustainability Mechanism (NSM) | Shielded Labs का एक प्रस्ताव, जिसमें लेनदेन शुल्क का एक हिस्सा बर्न किया जाता है, ताकि प्रोटोकॉल का दीर्घकालिक सुरक्षा बजट पूरी तरह से इश्यूअन्स पर निर्भर न रहे। ZIP 234 में निर्दिष्ट, 2026 में समीक्षाधीन। |
+| Nighthawk | Zcash का एक पूर्व मोबाइल वॉलेट, जिसे Nighthawk Apps ने बनाया था। इसके Zcash वॉलेट अब मेंटेन नहीं किए जाते, और Nighthawk Wallet 3.0 इसके बजाय DarkFi के लिए बनाया गया है। पुराने Nighthawk सीड से फ़ंड रिकवर करने के लिए, [फ़ंड रिकवर करना](/using-zcash/recovering-funds) देखें। |
 | Noir Wallet | एक Zcash ब्राउज़र एक्सटेंशन वॉलेट, जिसे Zcash Community Grants का समर्थन प्राप्त है और जिसे QR कोड और मैनुअल ट्रांसफ़र पर निर्भर रहने के बजाय शील्डेड ZEC को सीधे ब्राउज़र ऐप्लिकेशन से जोड़ने के लिए बनाया गया है। [zknoir.com](https://www.zknoir.com/) |
-| NU5 | Zcash का 6ठा प्रमुख नेटवर्क अपग्रेड, जिसने Orchard शील्डेड पूल और यूनिफ़ाइड एड्रेस पेश किए। [अधिक जानकारी](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU5 | Zcash का 6वाँ प्रमुख नेटवर्क अपग्रेड, जिसने Orchard शील्डेड पूल और यूनिफ़ाइड एड्रेस पेश किए। [अधिक जानकारी](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | Zcash का 7वाँ प्रमुख नेटवर्क अपग्रेड, जिसने Zcash Community Grants प्रोग्राम और डिफ़र्ड डेव फ़ंड लॉकबॉक्स को फ़ंड करने के लिए ब्लॉक सब्सिडी में बदलाव किया। यह 2024 के अंत में सक्रिय हुआ। [अधिक जानकारी](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood के बाद का नेटवर्क अपग्रेड, जिसका मेननेट लक्ष्य 5 नवंबर 2026 है। [ZIP 259](https://zips.z.cash/zip-0259) के अनुसार, यह 25-सेकंड के ब्लॉक (ZIP 218), शुल्क रीसाइक्लिंग के साथ नेटवर्क सस्टेनेबिलिटी मैकेनिज़्म (ZIP 235 और 237), और वर्ज़न 4 लेनदेन का अंत लाता है, जिससे Sprout फ़ंड खर्च करने योग्य नहीं रह जाते (ZIP 2003)। यह कोई नया लेनदेन फ़ॉर्मेट नहीं जोड़ता; Tachyon और Zcash शील्डेड एसेट इसका हिस्सा नहीं हैं। |
+| NU7 | Ironwood के बाद का नेटवर्क अपग्रेड, जो 6 नवंबर 2026 (UTC) को मेननेट पर ब्लॉक ऊँचाई 3,543,405 पर सक्रिय हुआ। [ZIP 259](https://zips.z.cash/zip-0259) के अनुसार, यह 25-सेकंड के ब्लॉक (ZIP 218), शुल्क रीसाइक्लिंग के साथ नेटवर्क सस्टेनेबिलिटी मैकेनिज़्म (ZIP 235 और 237), और वर्ज़न 4 लेनदेन का अंत लाता है, जिससे Sprout फ़ंड खर्च करने योग्य नहीं रह जाते (ZIP 2003)। यह कोई नया लेनदेन फ़ॉर्मेट नहीं जोड़ता; Tachyon और Zcash शील्डेड एसेट इसका हिस्सा नहीं हैं। |
 
 ## O
 
@@ -209,7 +209,7 @@ Zcash से जुड़े प्रमुख शब्दों, अवधा
 
 | शब्द | परिभाषा |
 |------|-----------|
-| Wallet | सॉफ़्टवेयर या हार्डवेयर, जो निजी की संग्रहीत करता है और आपको ZEC भेजने और प्राप्त करने देता है। सक्रिय वॉलेट में ZODL (iOS/Android), Zingo! (मोबाइल/डेस्कटॉप), Nighthawk (Android), Zkool (मोबाइल/डेस्कटॉप), Zallet (आगामी) और Keystone (हार्डवेयर) शामिल हैं। पूरी सूची के लिए [Zcash इकोसिस्टम वॉलेट](https://z.cash/ecosystem/?wallets=#tag-wallets) देखें। |
+| Wallet | सॉफ़्टवेयर या हार्डवेयर, जो निजी की संग्रहीत करता है और आपको ZEC भेजने और प्राप्त करने देता है। सक्रिय वॉलेट में ZODL (iOS/Android), Zingo! (मोबाइल/डेस्कटॉप), Zkool (मोबाइल/डेस्कटॉप), Zallet (फुल नोड वॉलेट, बीटा में) और Keystone (हार्डवेयर) शामिल हैं। पूरी सूची के लिए [Zcash इकोसिस्टम वॉलेट](https://z.cash/ecosystem/?wallets=#tag-wallets) देखें। |
 | WebZjs | Zcash के लिए पहला JavaScript SDK, जिसे ChainSafe ने ब्राउज़र वातावरण के लिए बनाया है। Zcash शील्डेड वॉलेट Snap इसी पर आधारित है, जिसके ज़रिए शील्डेड ZEC MetaMask तक पहुँचा। |
 
 ## X

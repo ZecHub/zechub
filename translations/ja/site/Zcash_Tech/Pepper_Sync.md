@@ -14,7 +14,7 @@
 
 ## 基本的な説明
 
-Zingo 2.0は、Zcashコミュニティ向けに作られた軽量オープンソースのZingo!ウォレットの最新版です。このリリースの主役は、ウォレットがブロックチェーン（Blockchain）に接続する方法を根本から見直した大規模なアップグレード、Pepper Syncです。
+Zingo 2.0は、Zcashコミュニティ向けに作られた軽量でオープンソースのZingo!ウォレットのリリースで、ウォレットがブロックチェーンに接続する方法を根本から見直す大規模なアップグレード、Pepper Syncを導入しました。その後のリリースでもPepper Syncは引き継がれています。現在のモバイル版である[Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324)（2026年10月31日）では、NU7に対応し、スワップ機能が組み込まれています。
 
 以前は、同期が非常に遅く、エラーが発生しやすく、リソースを大量に消費するように感じられ、場合によっては最初からやり直さざるを得ませんでした。Pepper Syncはそれをすべて変えます。シールドされたトランザクションのプライバシーを完全に維持しながら、同期をより高速、円滑、信頼性の高いものにし、デバイスへの負担を軽減します。
 
@@ -93,8 +93,8 @@ Pepper Syncは、以下の点で役立ちます。
 
 ### はじめに：Zingo 2.0のオンボーディング
 
-1. ウォレットをダウンロード - [Zingo GitHubリリースページ](https://github.com/zingolabs/zingolib)から適切なバージョンを入手します。
-2. ウォレットを設定 - 新しいウォレットを作成するか、既存のシードフレーズ（Seed Phrase）から復元します。[Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+1. ウォレットをダウンロード - [zingolabs.org](https://zingolabs.org/)またはGitHubリリースページから、[モバイル](https://github.com/zingolabs/zingo-mobile/releases)版と[デスクトップ](https://github.com/zingolabs/zingo-pc/releases)版の適切なバージョンを入手します。
+2. ウォレットを設定 - 新しいウォレットを作成するか、既存のシードフレーズ（seed phrase）から復元します。[Zingo 2.0 with Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Pepper Syncを実行 - ウォレットの更新中に進行状況インジケーターを確認します。[Pepper Sync Run](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Zcashを使い始める - 同期が完了したらすぐに、シールドされたZECを送受信します。
 5. 中断を気にしない - アプリが閉じたり接続が切れたりしても、Pepper Syncは自動的に再開します。

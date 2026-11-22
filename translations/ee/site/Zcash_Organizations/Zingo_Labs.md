@@ -13,6 +13,8 @@ Zingo gakotoku nye Zcash gakotoku si ƒe nɔnɔwo blibo, eye woɖoe be wòasɔ n
 
 Zingo! ƒe nɔnɔ vevi aɖe nye be wòate ŋu azã nya kpui [Memo] ƒe teƒe atsɔ ana nya siwo le vevie ku ɖe wò gaɖoɖo [transactions] ŋu.
 
+Zingo 3.0 na mɔ̃nyawo (Kɔsiɖa 31, 2026) wɔa dɔ kple NU7 eye wòtsɔ ɖɔli ɖɔli siwo le ɖoɖonu geɖe dome kpe ɖe eme le SwapKit. PC app la wɔ SwapKit ɖɔli ɖɔli tso version 2.0.26 va, eye wòwɔ Mainnet NU7 kpekpeɖeŋu tso version 2.0.27 va.
+
 Zingo! le mɔ̃ nyuitɔwo kple PCwo dzi. Àkpɔ downloadwo katã le [afi](https://zingolabs.org/)
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))

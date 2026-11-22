@@ -69,7 +69,7 @@ Maya Protocol интегрировал Zcash для повышения свое�
 
 Совместимость — критически важный компонент развития DeFi, поскольку она позволяет активам конкретного блокчейна участвовать в кросссетевой цифровой экономике. 
 
-Подробнее: [ZenRock Bridge Подробнее](https://docs.zenrocklabs.io/)
+Подробнее: [ZenRock Bridge Подробнее](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10: сооснователи ZenRock Адитья Даве и Джек Кревитт обсуждают Zcash на Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

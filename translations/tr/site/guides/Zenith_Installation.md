@@ -41,7 +41,9 @@
 
 > sudo apt install libclang-dev
 
-> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
+
+Zebra 7.0.0 veya daha yenisini kullanın: NU7 Mainnet'te 3.543.405. blokta etkinleştirildi ve eski `zebrad` sürümleri bu yükseklikten sonra zinciri takip edemez ([sürüm notları](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Aşağıdaki Zenith sürümü (0.7.2.0-beta) eskidir: yazım sırasında en yeni sürüm 0.13.0.0-beta'dır (Haziran 2026, NU6.2 desteği). Mainnet'te kullanmadan önce [Zenithsürümlerini](https://code.vergara.tech/Vergara_Tech/zenith/releases) kontrol ederek NU7 destekleyen bir sürüm bulun.
 
 > zebrad generate -o ~/.config/zebrad.toml
 

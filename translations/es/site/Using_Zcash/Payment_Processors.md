@@ -41,7 +41,7 @@ Para obtener la máxima privacidad y control, usa **BTCPay Server**, un **Cipher
 
 Para aceptar pagos en una tienda en vez de en línea, usa **Flexa**.
 
-Para una pasarela alojada donde los pagos transparentes sean aceptables, usa **NOWPayments** o **Plisio**.
+Para una pasarela alojada donde los pagos transparentes sean aceptables, usa **NOWPayments**. **Plisio** ha suspendido los pagos (consulta el aviso fechado en su entrada más abajo), así que por ahora no lo elijas.
 
 Conviene repetir una advertencia: un procesador que solo admite pagos transparentes publica cada importe y dirección de pago en la blockchain. Y con cualquier procesador alojado sin custodia entregas tu clave de visualización, por lo que la empresa puede ver tus pagos aunque no pueda gastarlos. El autoalojamiento es la única forma de evitarlo.
 

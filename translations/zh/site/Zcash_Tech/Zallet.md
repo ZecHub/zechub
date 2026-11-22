@@ -12,15 +12,16 @@ Zallet 目前处于 **beta** 阶段。它尚未经过完整审查。破坏性变
 
 ## TL;DR
 
-- Zallet 是一个**全节点 RPC 钱包**，不是移动端轻客户端 [light client] 钱包，也不是共识节点。
+- Zallet 是一个**全节点 RPC 钱包**，不是移动端轻客户端钱包，也不是共识节点。
 - 它取代了 `zcashd` 的钱包部分。节点部分是 [Zebra](Zebra_Full_Node.md) 或 [Zakura](Zakura_Node.md)。
 - 使用 **Rust** 编写，采用 MIT / Apache-2.0 双许可证，在 [zcash/zallet](https://github.com/zcash/zallet) 中维护。
-- 截至 2026 年 8 月下旬，最新发布版本为：**v0.1.0-beta.3**。
-- 通过两种后端之一与链数据通信：**zebra-state**（针对本地 `zebrad` 的直接 `ReadStateService`）或 **Zaino**。
+- 最新发布版本：**v0.1.0-beta.4**（2026 年 11 月 2 日）。该版本基于 [NU7](NU7.md)，需要 `zebrad` **7.0.0 或更高版本**。
+- 通过一个后端读取链数据，即 **zebra**：在同一主机上的 `zebrad` 状态目录上执行 `ReadStateService`，并使用 Zebra 的 JSON-RPC。Zaino 后端已在 v0.1.0-beta.4 中移除。
 - 提供兼容 **zcashd** 的 JSON-RPC 子集。部分方法已变更；部分方法被有意省略。
-- 密钥材料始终使用 **age** 加密 [encryption]。交易历史、地址 [address] 和 viewing key 以明文形式存放在 `wallet.db` 中。
-- 一个已签名归档中包含三个二进制文件：`zallet`（启动器）、`zallet-zebra` 和 `zallet-zaino`。
-- 官方文档：[The Zallet Book](https://zcash.github.io/zallet/)。
+- 密钥材料始终使用 **age** 加密。交易历史、地址和 viewing key 以明文形式存放在 `wallet.db` 中。
+- 一个已签名归档中包含两个二进制文件：`zallet`（启动器）和 `zallet-zebra`。**仅 Linux** 可用于同步钱包：macOS 或 Windows 上尚无链后端运行。
+- `zallet backup`（beta.4 新增）可对运行中或已停止的钱包创建一致的快照。
+- 官方文档：[[The Zallet Book](https://zcash.github.io/zallet/)。
 
 ---
 
@@ -64,17 +65,18 @@ Zallet 处于 **beta** 阶段。
 
 ## 架构
 
-Zallet 被拆分为三个 Cargo 工作区，以便两个链后端可跟踪不同的依赖关系图。
+Zallet 被拆分为多个 Cargo 工作区，以便每个链后端都能跟踪自己的依赖关系图。自 v0.1.0-beta.4 起，仅发布 zebra 后端。
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
-                  and execs zallet-zebra or zallet-zaino
+                  and execs zallet-zebra
 zallet-core       shared wallet: CLI, config, JSON-RPC, SQLite DB, sync
 zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
-zallet-zaino      Zaino indexer backend
 ```
 
-所有三个二进制文件都会打开**同一个** `wallet.db`。启动器在运行时选择后端；切换时无需重新编译。
+两个二进制文件都会打开同一个 `wallet.db`。在 v0.1.0-beta.3 及之前的版本中，还有一个 `zallet-zaino` 后端。如果你的 `zallet.toml` 显示 `backend = "zaino"`，请将其改为 `backend = "zebra"`。钱包数据库无需迁移，数据目录中的旧 `zaino` 文件夹可以删除。
+
+zebra 后端直接读取 `zebrad` 的状态数据库，因此需要在同一主机上运行一个启用了 `indexer` 功能构建的 `zebrad`，并将其状态目录放在**同一主机**上。一个容器中的 Zallet 通过网络连接另一个容器中的 `zebrad`，在仅支持网络的后端实现之前，这种配置尚不受支持（[zallet#900](https://github.com/zcash/zallet/pull/900)）。
 
 典型部署：
 
@@ -82,7 +84,7 @@ zallet-zaino      Zaino indexer backend
 zebrad  (or Zakura)
    │  JSON-RPC / ReadStateService
    ▼
-Zallet  (zallet-zebra or zallet-zaino)
+Zallet  (zallet-zebra)
    │  JSON-RPC on 127.0.0.1
    ▼
 Your application, exchange, faucet, or operator scripts
@@ -90,7 +92,7 @@ Your application, exchange, faucet, or operator scripts
 
 Zallet 是一个**全节点钱包**：它需要本地验证节点。它不是轻客户端。有关轻钱包和紧凑区块服务器，请参阅 [Zaino](Zaino.md) 和 [轻钱包节点](Lightwallet_Nodes.md)。
 
-Zcash Foundation 的 [Z3](https://github.com/ZcashFoundation/z3) compose 技术栈会将 Zebra 与 Zallet 一同运行，并可选择为外部轻客户端单独运行 Zaino。
+Zcash Foundation 的 [Z3](https://github.com/ZcashFoundation/z3) compose stack 将 Zebra + Zallet 一起运行，并可选配独立的 Zaino，供外部轻客户端使用。其固定镜像早于 NU7 和 Zallet beta.4：使用前请参阅 [Z3 Stack](Z3_Stack.md)。
 
 ---
 
@@ -120,7 +122,13 @@ Zallet 围绕 ZIP 32 账户构建，而不是 `zcashd` 的单一隐式账户。
 - 身份可使用密码短语包装（`generate-encryption-identity -p`）。通过 `walletpassphrase` RPC 解锁；使用 `walletlock` 锁定。
 - 丢失身份文件或其密码短语会导致花费密钥无法恢复。请备份身份、每个助记词，以及你保留的任何 `wallet.db` 副本（单独加密）。
 
-在 Zallet 运行期间复制 `wallet.db` 并非安全备份。SQLite 可能发生撕裂。请优先停止进程，或等待官方在线备份命令。
+在 Zallet 运行时手动复制 `wallet.db` 并不是安全的备份方式：SQLite 可能会损坏。从 v0.1.0-beta.4 开始，请使用 [`backup` 命令](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md)。
+
+```bash
+zallet -d /path/to/zallet/datadir backup /path/to/backups/
+```
+
+它会为运行中或已停止的钱包写入一个交易一致性、经过完整性检查的快照。给定目录后，它会将文件命名为 `zallet-wallet-backup-<UTC time>.db`，并且绝不会覆盖现有文件。如果钱包持续写入（例如在初始同步期间）不断重启复制过程，它会在 10 分钟后明确报错退出：请稍后重试，或先停止钱包。此备份**不**包含 age 身份文件。请单独备份该文件，并将其与数据库备份分开存放，因为同时持有两者的任何人都能解密这些密钥。
 
 ---
 
@@ -141,14 +149,14 @@ Zallet 通过 HTTP 和 Basic 认证实现了 `zcashd` 钱包 RPC 的一个子集
 
 ## 快速开始
 
-官方安装路径（Debian 软件包、Docker、发布二进制文件）位于 [安装指南](https://zcash.github.io/zallet/guide/installation/index.html)。发布归档名为 `zallet-<version>-<arch>.tar.gz`，并包含全部三个二进制文件。
+官方安装方式（Debian 软件包、Docker、发布版二进制文件）见[安装指南](https://zcash.github.io/zallet/guide/installation/index.html)。发布版归档文件名为`zallet-v<version>-linux-<amd64|arm64>.tar.gz`，其中包含`zallet`和`zallet-zebra`。Docker镜像以`zodlinc/zallet`的形式发布。
 
 最小化的新钱包流程：
 
 ```bash
 # data directory; default is $HOME/.zallet
 zallet -d /path/to/zallet/datadir example-config > /path/to/zallet/datadir/zallet.toml
-# edit zallet.toml: network, backend, indexer / read-state, rpc.bind
+# edit zallet.toml: network, indexer.validator_address, [indexer.read_state_service], rpc.bind
 
 zallet -d /path/to/zallet/datadir generate-encryption-identity
 zallet -d /path/to/zallet/datadir init-wallet-encryption
@@ -157,7 +165,7 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-将 `[indexer]` 指向本地 `zebrad` JSON-RPC 端点。zebra 后端还需要 `[indexer.read_state_service]` 和一个使用索引器功能构建的 `zebrad`，以便 Zallet 可直接读取链状态。
+将 `[indexer]` 指向本地 `zebrad` JSON-RPC 端点，并使用 `validator_address`。此项为必需配置，且不会默认使用 localhost。zebra 后端还需要 `[indexer.read_state_service]` 和 7.0.0 或更高版本的 `zebrad`，并且该版本需启用 `indexer` 功能；其状态目录必须位于同一主机上，以便 Zallet 直接读取链状态。`indexer.db_path` 仅配置了已移除的 Zaino 后端：现在该配置会被忽略，并显示警告。
 
 可复现映像可使用 [StageX](https://codeberg.org/stagex/stagex/) 构建（Docker 25+、containerd 映像存储、GNU Make）。
 
@@ -182,13 +190,13 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 ## Zallet 与其他软件的关系
 
-| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
-|--|--------|------|------------------------|----------------|-------|
-| 它是什么 | 全节点 RPC 钱包 | 屏蔽优先的钱包服务器 | 最终用户钱包 | 共识节点 | 索引器 / lightwalletd 替代方案 |
-| 替代对象 | `zcashd` 钱包 | 不是可直接替换的 `zcashd` 克隆 | 移动端/桌面应用 | `zcashd` 节点 | `lightwalletd` |
-| 需要本地节点 | 是 | 是（默认使用 Zebra） | 否（轻客户端） | 它*就是*节点 | 是 |
-| zcashd RPC 兼容性 | 被设计为兼容路径 | 仅选择性支持小型子集 | 不适用 | 部分支持 / Zakura 兼容模式 | 不同 API |
-| 托管模型 | 运营者在 `wallet.db` 中持有密钥 | 可由种子恢复的服务器 | 用户设备密钥 | 无钱包 | 无密钥 |
+| | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
+|--|--------|------|------------------------------|----------------|-------|
+| 定义 | 全节点 RPC 钱包 | 屏蔽优先的钱包服务器 | 面向终端用户的钱包 | 共识节点 | 索引器 / lightwalletd 替代品 |
+| 替代对象 | `zcashd` 钱包 | 不是可直接替换的 `zcashd` 克隆版 | 移动端/桌面端应用 | `zcashd` 节点 | `lightwalletd` |
+| 需要本地节点 | 是 | 是（默认情况下 Zebra） | 否（轻客户端） | 它本身就是节点 | 是 |
+| zcashd RPC 兼容性 | 设计为兼容路径 | 仅支持少量精选子集 | 不适用 | 部分兼容 / Zakura 兼容模式 | 使用不同的 API |
+| 托管模式 | 操作者在 `wallet.db` 中持有密钥 | 可通过助记词恢复的服务器 | 用户设备上的密钥 | 无钱包 | 无密钥 |
 
 Zallet 和 **zecd** 都可以位于 Zebra 前端。当你需要 `z_*` 钱包接口以及从 `wallet.dat` 迁移的路径时，请选择 Zallet。当你需要一个明确*不是* `zcashd` 克隆的屏蔽优先服务器时，请选择 zecd。
 
@@ -198,21 +206,22 @@ Zallet 和 **zecd** 都可以位于 Zebra 前端。当你需要 `z_*` 钱包接�
 
 ## 相关页面
 
-- [全节点](Full_Nodes.md) — Zebra、Zakura 以及已退役的 `zcashd` 节点
-- [Zebra 全节点](Zebra_Full_Node.md) — 节点 Zallet 的默认后端读取的对象
-- [Zakura 节点](Zakura_Node.md) — 替代验证节点
-- [Zaino](Zaino.md) — 索引器后端和轻客户端服务器
-- [zecd](ZECD.md) — 基于 librustzcash 的另一种钱包服务器设计
+- [全节点](Full_Nodes.md) — Zebra、Zakura和已停用的 `zcashd` 节点
+- [Zebra 全节点](Zebra_Full_Node.md) — 节点 Zallet 默认读取的后端
+- [Zakura 节点](Zakura_Node.md) — 另一种验证节点
+- [Zaino](Zaino.md) — 索引器和轻客户端服务器（自 beta.4 起不再是 Zallet 后端）
+- [Z3 Stack](Z3_Stack.md) — Zebra + Zallet 组合栈
+- [zecd](ZECD.md) — 另一种基于 librustzcash 的钱包服务器设计
 - [Zcash 钱包同步](Zcash_Wallet_Syncing.md) — 屏蔽钱包如何扫描链
-- [Viewing Keys](Viewing_Keys.md)
+- [查看密钥](Viewing_Keys.md)
 
 ## 资源
 
-- [The Zallet Book](https://zcash.github.io/zallet/)
-- [zcash/zallet on GitHub](https://github.com/zcash/zallet)
-- [发布版本](https://github.com/zcash/zallet/releases)
-- [JSON-RPC 已变更语义](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [ZecHub 迁移指南](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [ZecHub Raspberry Pi 指南（Zebra + Zallet）](/guides/raspberry-pi-4-full-node)
-- [Z3（Zebra + Zallet compose 技术栈）](https://github.com/ZcashFoundation/z3)
-- [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`
+- [Zallet书](https://zcash.github.io/zallet/)
+- [zcash/zallet 位于 GitHub](https://github.com/zcash/zallet)
+- [发布](https://github.com/zcash/zallet/releases) · [v0.1.0-beta.4 更新日志](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
+- [JSON-RPC 语义变更](https://zcash.github.io/zallet/zcashd/json_rpc.html)
+- [ZecHub迁移指南](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [ZecHubRaspberry Pi 指南（Zebra + Zallet）](/guides/raspberry-pi-4-full-node)
+- [Z3（Zebra + Zalletcompose 栈）](https://github.com/ZcashFoundation/z3)
+- [Zcash研发Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`

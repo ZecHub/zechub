@@ -1,12 +1,12 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Visualizing_the_Zcash_Network.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تحرير الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 
 #  تصوّر شبكة Zcash
 
-فيما يلي دليل حول كيفية تشغيل Ziggurat 3.0 Crawler لـ Zcash بالإضافة إلى البرامج المرتبطة به Crunchy وP2P-Viz على Ubuntu 22.04 من أجل جمع معلومات شبكة Zcash وتصوّرها.  
-يتبع الفيديو المرتبط أدناه العملية نفسها.
+فيما يلي دليل يشرح كيفية تشغيل Ziggurat 3.0 Crawler لـ Zcash، بالإضافة إلى البرنامجين المرتبطين به Crunchy وP2P-Viz على Ubuntu 22.04، وذلك لجمع معلومات شبكة Zcash وتصوّرها.  
+يتّبع الفيديو المرفق أدناه الخطوات نفسها.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -20,7 +20,7 @@
 </div>
     
 ----------------
-## تثبيت المتطلبات: 
+## متطلبات التثبيت: 
 
 Rust -> [https://rustup.rs/](https://rustup.rs/)
 
@@ -29,7 +29,7 @@ jq -> [https://jqlang.github.io/jq/download/](https://jqlang.github.io/jq/downlo
 (لعرض معلومات json في الطرفية)
 
 curl -> [https://everything.curl.dev/install/linux.html](https://everything.curl.dev/install/linux.html)
-(لاستعلام RPC الخاص بالزاحف)
+(للاستعلام عن RPC الخاص بالزاحف)
 
 npm (مع nvm) -> [https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1](https://medium.com/@iam_vinojan/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1)
 (لعرض P2P-Viz في المتصفح)
@@ -58,12 +58,12 @@ sudo apt upgrade
 
 ----------------
 
-## Crawler شبكة Zcash
+## زاحف شبكة Zcash
 
-يوجد Zcash Crawler داخل مجلد باسم 'zcash' لذلك قد يكون من المستحسن إنشاء دليل جديد قبل استنساخ الـ crawler (مستودع runziggurat/zcash).
+يوجد زاحف Zcash داخل مجلد باسم 'zcash'، لذا يُستحسن إنشاء دليل جديد قبل استنساخ الزاحف (مستودع runziggurat/zcash).
 
 
->  من دليل /Home، شغّل الأوامر التالية:
+>  من الدليل /Home، شغّل الأوامر التالية:
 ```bash
 mkdir runziggurat
 cd runziggurat
@@ -77,7 +77,7 @@ cd zcash
 أو افتح ملف readme في 
 '/runziggurat/zcash/src/tools/crawler/README.md'
 
-تحتوي هذه الصفحة على معلومات حول الاستخدام المحدد. 
+تحتوي هذه الصفحة على معلومات حول طرق الاستخدام المحددة. 
 
 ----------------
 
@@ -105,13 +105,13 @@ OPTIONS:
             Print version information
 ```
 
-يُعد `--seed-addrs` \ `--dns-seed` الوسيط المطلوب الوحيد، ويحتاج إلى عنوان محدد واحد على الأقل لكي يعمل.
+`--seed-addrs` \ `--dns-seed` هو الوسيط الإلزامي الوحيد، ويحتاج إلى عنوان (address) واحد محدد على الأقل كي يعمل.
 
 
 
 ----------------
 
-الأمر 'cargo run --release --features crawler --bin crawler -- --help' هو أمر التشغيل الحرفي وسيطبع قائمة المساعدة المعروضة.
+الأمر 'cargo run --release --features crawler --bin crawler -- --help' هو أمر التشغيل الحرفي، وسيطبع قائمة المساعدة المعروضة.
 
 
 >  شغّل الأمر
@@ -120,11 +120,11 @@ cargo run --release --features crawler --bin crawler -- --help
 ```
 
 
-سيؤدي ذلك إلى ترجمة البرنامج والتأكد من أن كل شيء يعمل بشكل صحيح.
+سيؤدي هذا إلى تصريف البرنامج والتأكد من أن كل شيء يعمل بشكل صحيح.
 
-لتشغيل Crawler، يلزم إضافة العلامة '--seed-addrs' إلى أمر البدء، بحيث تحتوي على عنوان IP واحد صالح على الأقل لعقدة Zcash. يجب السماح للـ crawler بالعمل لمدة زمنية معقولة للحصول على نتيجة دقيقة. يمكن العثور على بعض عناوين IP النموذجية للعقد على [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
+لتشغيل الزاحف، يجب إضافة الخيار '--seed-addrs' إلى أمر البدء، على أن يحتوي على عنوان IP صالح واحد على الأقل لعقدة (node) Zcash. ينبغي ترك الزاحف يعمل لمدة زمنية معقولة للحصول على نتيجة دقيقة. يمكنك العثور على بعض عناوين IP للعقد كأمثلة على [https://mainnet.zcashexplorer.app/nodes](https://mainnet.zcashexplorer.app/nodes).
 
-للحصول على معلومات من Crawler أثناء تشغيله، يلزم إضافة العلامة '--rpc-addr' إلى أمر البدء. هذا ليس مطلوبًا لتشغيل الـ crawler وحده، لكنه بخلاف ذلك سيتطلب إيقاف الـ crawler (`ctrl+c` أو SIGKILL) لعرض أي معلومات على الإطلاق.
+للحصول على معلومات من الزاحف أثناء تشغيله، يجب إضافة الخيار '--rpc-addr' إلى أمر البدء. هذا ليس ضروريًا لمجرد تشغيل الزاحف نفسه، لكن بدونه ستضطر إلى إيقاف الزاحف (ctrl+c أو SIGKILL) لعرض أي معلومات على الإطلاق.
 
 
 >  شغّل الأمر
@@ -132,9 +132,9 @@ cargo run --release --features crawler --bin crawler -- --help
 cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172.190:8233 194.135.81.61:8233 35.233.224.178:8233 --rpc-addr 127.0.0.1:54321
 ```
 
-سيبدأ الـ crawler بالتواصل مع الشبكة (افتراضيًا كل 20 ثانية) وجمع بيانات الشبكة. 
-يمكن عرض المعلومات من Crawler باستخدام curl لاستعلام العقدة (وهذا يتطلب jq لعرض تلك المعلومات). 
-تم تعيين عنوان Crawler RPC في هذا المثال إلى '127.0.0.1:54321'
+سيبدأ الزاحف بالتواصل مع الشبكة (افتراضيًا كل 20 ثانية) وجمع بيانات الشبكة. 
+يمكنك عرض المعلومات من الزاحف باستخدام curl للاستعلام عن العقدة (يتطلب ذلك jq لعرض تلك المعلومات). 
+عنوان RPC الخاص بالزاحف في هذا المثال مضبوط على '127.0.0.1:54321'
 
 
 >  في طرفية أخرى، شغّل الأمر
@@ -142,13 +142,13 @@ cargo run --release --features crawler --bin crawler -- --seed-addrs 157.245.172
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ | jq .result.protocol_versions
 ```
 
-سيعرض هذا بيانات '.protocol_version' المجمعة حاليًا والموجودة داخل الحقل '.result'. الحقل '.result' كبير جدًا، لذلك من المفيد استدعاء أجزاء محددة منه بدلًا من ذلك. من أنواع البيانات المفيدة الأخرى '.num_known_nodes' و'.num_good_nodes' و'.user_agents' وغيرها. راجع قسم المقاييس [هنا](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
+سيعرض هذا بيانات '.protocol_version' المجمّعة حاليًا والموجودة ضمن الحقل '.result'. الحقل '.result' كبير جدًا، لذا من المفيد استدعاء أجزاء محددة منه بدلًا من ذلك. من أنواع البيانات المفيدة الأخرى '.num_known_nodes' و'.num_good_nodes' و'.user_agents' إلخ. راجع قسم المقاييس [هنا](https://github.com/runziggurat/zcash/tree/main/src/tools/crawler#metrics)
 
 ----------------
 
 
 ----------------
-لتشغيل Crunchy وP2P-Viz، يلزم تمرير '.result' إلى ملف ‎.json. 
+لتشغيل Crunchy وP2P-Viz، يجب توجيه '.result' إلى ملف .json. 
 
 
 >  شغّل الأمر
@@ -156,16 +156,16 @@ curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params":
 curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params": [] }' -H 'content-type: application/json' http://127.0.0.1:54321/ > latest.json
 ```
 
-سيؤدي ذلك إلى إنشاء ملف 'latest.json' في الدليل الحالي. سيُستخدم ملف 'latest.json' هذا مع Crunchy. 
+سيُنشئ هذا ملف 'latest.json' في الدليل الحالي. سيُستخدم ملف 'latest.json' هذا مع Crunchy. 
 
-عند هذه النقطة، يمكن إيقاف Crawler باستخدام 'ctrl+c' إذا لم تعد هناك حاجة إلى مزيد من البيانات. سيقوم Crawler بإخراج تقرير إلى الطرفية يتضمن معلومات مفيدة.
+عند هذه المرحلة، يمكنك إيقاف الزاحف باستخدام 'ctrl+c' إذا لم تعد بحاجة إلى مزيد من البيانات. سيُخرج الزاحف إلى الطرفية تقريرًا بمعلومات مفيدة.
 
 
 ----------------
 
 ## Crunchy
 
-يُطلب Crunchy لتجميع ملف json الناتج لاستخدامه مع P2P-Viz.
+Crunchy مطلوب لتجميع ملف json الناتج لاستخدامه مع P2P-Viz.
 
 
 لبناء Crunchy، انتقل إلى مجلد '/runziggurat' الخاص بك 
@@ -175,20 +175,20 @@ curl --data-binary '{"jsonrpc": "2.0", "id":0, "method": "getmetrics", "params":
 git clone https://github.com/runziggurat/crunchy.git
 cd crunchy
 ```
-انسخ والصق ملف 'latest.json' داخل مجلد 'crunchy/testdata/'.
+انسخ ملف 'latest.json' والصقه في المجلد 'crunchy/testdata/'.
 
 >  شغّل الأوامر التالية 
 ```bash
 cargo run --release -- -i testdata/latest.json -o testdata/state.json -g testdata/geoip-cache.json -f Zcash
 ```
 
-سيؤدي ذلك إلى إنشاء ملف 'state.json' مُرشَّح لعقد Zcash داخل مجلد 'crunchy/testdata/' لاستخدامه مع P2P-Viz.
+سيُنشئ هذا ملف 'state.json' مُرشَّحًا لعقد Zcash في المجلد 'crunchy/testdata/' لاستخدامه مع P2P-Viz.
 
 ----------------
 
 ## P2P-Viz
 
-لبناء P2P-Viz، يلزم توفر npm. 
+لبناء P2P-Viz، يجب أن يكون npm مثبتًا لديك. 
 
 
 >  لتثبيت npm باستخدام nvm، شغّل الأوامر التالية:
@@ -207,7 +207,7 @@ nvm install --lts
 انتقل إلى مجلد '/runziggurat' الخاص بك
 
 
->  لاستنساخ مستودع P2P-Viz وبدء التشغيل، شغّل الأوامر التالية
+>  لاستنساخ مستودع P2P-Viz وتشغيله، شغّل الأوامر التالية
 ```bash
 git clone https://github.com/runziggurat/p2p-viz.git
 cd p2p-viz
@@ -222,16 +222,16 @@ npm run start http
 
 اختر 'Geolocation' ثم اختر 'Choose state file'.
 
-من النافذة المنبثقة لمستكشف الملفات، اختر ملف 'state.json'. 
+من نافذة مستكشف الملفات المنبثقة، اختر ملف 'state.json'. 
 
-سيتم ملء خريطة العالم في مستكشف العقد ببيانات الملف. راجع ملف readme [هنا](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) لمزيد من التفاصيل حول خيارات الاستخدام والإعدادات.
+ستمتلئ خريطة العالم في مستكشف العقد ببيانات الملف. راجع ملف readme [هنا](https://github.com/runziggurat/p2p-viz#build-and-run-the-app) لمزيد من التفاصيل حول خيارات الاستخدام والإعدادات.
 
 
 ----------------
 نصائح! 
 
-يمكنك ضبط Crawler على زحف مؤقت ببساطة باستخدام الأمر 'timeout' الذي سيصدر أمر إيقاف محددًا بعد مدة زمنية معينة. شغّل 'timeout --help' لمزيد من المعلومات.
-سيقوم الأمر التالي ببدء الـ crawler وكذلك إيقافه تلقائيًا بعد 50 دقيقة.
+يمكنك ضبط الزاحف على زحف موقوت ببساطة باستخدام الأمر 'timeout'، الذي يُصدر أمر إيقاف محددًا بعد مدة زمنية معينة. شغّل 'timeout --help' لمزيد من المعلومات.
+سيبدأ الأمر التالي تشغيل الزاحف ويوقفه تلقائيًا بعد 50 دقيقة.
 
 >  شغّل الأمر
 ```bash
@@ -241,9 +241,9 @@ timeout --signal=2 50m cargo run --release --features crawler --bin crawler -- -
 ----------------
 نصائح! 
 
-يمكن استدعاء 'latest.json' وكتابته داخل '/testdata' حتى لا تضطر إلى نسخه ولصقه يدويًا.
+يمكن استدعاء ملف 'latest.json' وكتابته مباشرة في '/testdata' حتى لا تضطر إلى نسخه ولصقه يدويًا.
 
 ----------------
 نصائح! 
 
-يمكن جمع معلومات عنوان IP من المخرجات ثم استخدامها لإعادة تزويد Crawler عند البدء (`--seed-addrs`). سيؤدي ذلك إلى تقليل الوقت المطلوب لإجراء زحف كامل!
+يمكن جمع معلومات عناوين IP من المُخرجات ثم استخدامها لإعادة تغذية الزاحف عند البدء (--seed-addrs). سيقلل هذا من الوقت اللازم لإجراء زحف كامل!

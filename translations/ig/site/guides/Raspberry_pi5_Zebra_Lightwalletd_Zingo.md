@@ -29,7 +29,9 @@ sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
-* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v3.1.0 zebrad`
+* `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
+
+Jiri Zebra 7.0.0 ma ọ bụ nke ọhụrụ. E mere ka NU7 rụọ ọrụ na Mainnet na block 3,543,405, ma ụdị `zebrad` ndị ochie enweghị ike iso chain gafee ogo ahụ ([ndetu mwepụta](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Zebra 7 chọrọ Rust 1.91 ma ọ bụ nke ọhụrụ (`rustup update`).
 
 ## Hazie zebrad.toml
 
@@ -48,8 +50,8 @@ tinye:
 * wụnye go
 
 ```bash
-wget https://go.dev/dl/go1.25.5.linux-arm64.tar.gz
-sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.25.5.linux-arm64.tar.gz go/
+wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
+sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.27.3.linux-arm64.tar.gz go/
 export PATH=$PATH:/usr/local/go/bin
 ```
 

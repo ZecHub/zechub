@@ -1,6 +1,6 @@
 {
   "locale": "es",
-  "version": 3,
+  "version": 4,
   "meta": {
     "language_name": "Spanish",
     "native_name": "Español",
@@ -8,12 +8,12 @@
     "script": "Latn",
     "dir": "ltr",
     "language_lead": [],
-    "last_review": "2026-11-08"
+    "last_review": "2026-11-20"
   },
   "style": {
     "variety": "natural, fluent Spanish",
     "register": "informal",
-    "english_in_brackets": "first-use",
+    "english_in_brackets": "never",
     "loanwords": "keep-english",
     "loanwords_text": "Common technical loanwords (e.g. blockchain, wallet, bridge) may remain in Latin script where that is the natural Spanish usage; do not force awkward coinages.",
     "capitalise_kept_english_at_sentence_start": true,
@@ -46,7 +46,15 @@
       "UU",
       "vol"
     ],
-    "notes": "Reviewer (register): informal\nReviewer (numerals): western\nReviewer (decimal_separator): ,\nReviewer (quotes): «»\nReviewer (abbreviations_with_full_stop): ."
+    "writing_rules": [
+      "Write natural Spanish for the reader rather than following English word order literally. Rephrase awkward sentences and avoid unnecessary repetition without adding or removing facts, dates, amounts, links or technical distinctions.",
+      "Do not append routine English glosses such as billetera [wallet], comisiones [fees] or exchange [exchange]. If an English reference is essential for understanding, explain it once in prose. Keep established approved loanwords such as exchange, swap, cross-chain and on-chain.",
+      "Write solo without an accent when unambiguous, including when it means solamente; sólo is optional only when the writer perceives ambiguity (RAE). Always write de un solo uso without an accent. Rephrase with solamente or únicamente if necessary.",
+      "Use comisiones for fees charged on exchange operations; distinguish a fee from an exchange rate. The approved general term tarifa remains valid in other contexts.",
+      "Use exchange for a platform, but cambiar or intercambiar for the act of exchanging; avoid Haz exchange. Make centralizadas agree with plataformas when describing centralized platforms.",
+      "In TEX explanations, distinguish accepting deposits or issuing deposit addresses from sending funds. Preserve salida and entrada as transaction outputs and inputs. Do not turn the exchange on our list into the first exchange without source evidence."
+    ],
+    "notes": "Follow-up: @MBB_Caffepoesia feedback supplied by Gianni (2026-11-13); editorial adaptations and RAE orthography approved by Gianni on 2026-11-20. English glosses are no longer mandatory at first use; established loanwords remain approved.\nReviewer (register): informal\nReviewer (numerals): western\nReviewer (decimal_separator): ,\nReviewer (quotes): «»\nReviewer (abbreviations_with_full_stop): ."
   },
   "terms": {
     "wallet": {
@@ -190,7 +198,7 @@
       ],
       "reviewed_at": "2026-11-08",
       "source": "glossary-review-es.md#terms-16",
-      "context": "keep English as standalone; compounds use current rendering"
+      "context": "Use exchange for the platform, not as a verb. Translate the act of exchanging with cambiar, intercambiar or operar as appropriate; do not write Haz exchange. Existing approved loanwords are unchanged."
     },
     "memo": {
       "target": "memo",
@@ -235,7 +243,8 @@
         "@MBB_Caffepoesia"
       ],
       "reviewed_at": "2026-11-08",
-      "source": "glossary-review-es.md"
+      "source": "glossary-review-es.md",
+      "context": "Use comisiones for fees charged on exchange operations; tarifa remains valid in other contexts. Do not confuse a fee with an exchange rate."
     },
     "swap": {
       "target": "swap",
@@ -254,7 +263,8 @@
         "@MBB_Caffepoesia"
       ],
       "reviewed_at": "2026-11-08",
-      "source": "glossary-review-es.md#terms-27"
+      "source": "glossary-review-es.md#terms-27",
+      "context": "Keep swap as the established standalone technical loanword. In the section heading Centralized Swap Platforms, use Plataformas de intercambio centralizadas for natural Spanish; this heading exception does not replace swap elsewhere."
     },
     "custodial": {
       "target": "en custodia",
@@ -955,6 +965,62 @@
     }
   },
   "phrases": {
+    "Centralised Swap platforms": {
+      "target": "Plataformas de intercambio centralizadas",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@bloxster (steward)"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "Gianni-approved adaptation of Spanish reviewer platform-agreement feedback; matches the website dictionary label",
+      "context": "Website platforms label; centralizadas modifies plataformas. This deliberate heading exception translates Swap as intercambio without changing the standalone swap loanword."
+    },
+    "Centralized Swap Platform Listing": {
+      "target": "Listado de plataformas centralizadas de intercambio",
+      "applies_to": "ui",
+      "status": "approved",
+      "reviewed_by": [
+        "@bloxster (steward)"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "Gianni-approved adaptation of Spanish reviewer platform-agreement feedback; matches the website dictionary label",
+      "context": "Website platforms label; centralizadas modifies plataformas. This deliberate heading exception translates Swap as intercambio without changing the standalone swap loanword."
+    },
+    "Centralized Swap Platforms": {
+      "target": "Plataformas de intercambio centralizadas",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia",
+        "@bloxster (steward)"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "Spanish reviewer feedback (2026-11-13), applied with Gianni approval (2026-11-20)",
+      "context": "Section heading for platforms; intercambio describes their function, while centralizadas agrees with plataformas. The standalone loanword swap remains approved."
+    },
+    "Visual / Analogy": {
+      "target": "Analogía / Cómo se ve",
+      "applies_to": "pages",
+      "status": "approved",
+      "reviewed_by": [
+        "@MBB_Caffepoesia"
+      ],
+      "reviewed_at": "2026-11-13",
+      "source": "Spanish reviewer follow-up supplied by Gianni",
+      "context": "Explanatory section heading in the TEX-address guide"
+    },
+    "grassroot ownership": {
+      "target": "propiedad comunitaria",
+      "applies_to": "pages",
+      "status": "approved",
+      "reviewed_by": [
+        "@bloxster (steward)"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "Gianni-approved editorial adaptation of the Spanish reviewer follow-up; reviewer originally wrote propiedad popular",
+      "context": "Ownership at community level in the flyp.me description; not popular in the sense of popularity"
+    },
     "Akash Network": {
       "target": "Akash Network",
       "applies_to": "ui",
@@ -1594,16 +1660,15 @@
       "context": "keep English in UI menu label"
     },
     "Using Zcash": {
-      "target": "Using Zcash",
+      "target": "Cómo usar Zcash",
       "applies_to": "ui",
       "status": "approved",
       "reviewed_by": [
-        "@MBB_Caffepoesia"
+        "@bloxster (steward)"
       ],
-      "reviewed_at": "2026-11-08",
-      "source": "menus-review-es.md#menuLabels-52",
-      "keep_english": true,
-      "context": "keep English in UI menu label"
+      "reviewed_at": "2026-11-20",
+      "source": "Spanish reviewer follow-up; editorial choice approved by Gianni, not the reviewer's proposed Usando Zcash",
+      "context": "UI section label; steward-approved replacement for the previous keep-English decision"
     },
     "Using ZEC in DeFi": {
       "target": "Using ZEC in DeFi",
@@ -2384,6 +2449,24 @@
         "Zkool Multisig"
       ],
       "summary": "Import 62 terms + 69 UI phrases from Mayra's (@MBB_Caffepoesia) native review. Key decisions: billetera, blindado (context-dep), red for chain, compromiso, anulador, invinculable."
+    },
+    {
+      "version": 4,
+      "date": "2026-11-20",
+      "terms": [
+        "exchange",
+        "fee",
+        "swap"
+      ],
+      "phrases": [
+        "Using Zcash",
+        "Centralized Swap Platforms",
+        "Visual / Analogy",
+        "grassroot ownership",
+        "Centralised Swap platforms",
+        "Centralized Swap Platform Listing"
+      ],
+      "summary": "Apply Spanish reviewer follow-up: natural prose, selective English references instead of automatic bracket glosses, TEX technical fidelity and centralized-platform agreement. Retain established loanwords and unaccented solo under current RAE guidance. Cómo usar Zcash and propiedad comunitaria are Gianni-approved steward adaptations, not verbatim reviewer choices. Existing pages outside this focused follow-up are fix-on-touch."
     }
   ]
 }

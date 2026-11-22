@@ -69,7 +69,7 @@ Zcash의 맥락에서 ZenRock와 같은 브리지 기술은 ZEC 자산을 스마
 
 상호운용성은 특정 블록체인의 자산이 크로스 네트워크 디지털 경제에 참여할 수 있게 해 주므로 DeFi 발전의 핵심 구성 요소입니다. 
 
-다음에서 자세히 알아보기: [ZenRock Bridge 알아보기](https://docs.zenrocklabs.io/)
+다음에서 자세히 알아보기: [ZenRock Bridge 알아보기](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10에서 ZenRock 공동 창립자 Aditya Dave와 Jack Krevitt가 Solana의 Zcash에 관해 논의합니다." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

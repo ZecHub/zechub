@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - ウェブサイト: https://trocador.app/
 - 説明: 匿名で暗号資産を取引できます。高速。安全。煩雑な手続き不要。プリペイドデビットカードをご利用いただけます。
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - ウェブサイト: https://github.com/firoorg/FiroDEX-Desktop
-- 説明: FiroDEX!によるアトミックスワップを使用した、信頼不要の分散型スワップです。
+- 説明: アトミックスワップ用のデスクトップアプリです。現在はメンテナンスされていません。FiroがFiroDEX-Desktopリポジトリをアーカイブしており、最後のリリースは0.8.2-beta（2025年2月）です。
 
 ___
 

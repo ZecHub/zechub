@@ -1,6 +1,28 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica pagina"/>
+</a>
+
 # Exchange decentralizzato Maya
 
----
+> Maya Protocol è un DEX cross-chain per scambi nativi (per esempio da ETH o BTC a ZEC) senza token wrapped, account o KYC.
+
+## In breve
+
+* Maya scambia monete native tra blockchain: invii un asset e ne ricevi un altro sulla sua chain. Nessun token wrapped, nessun account, nessun KYC.
+* È un fork di THORChain, realizzato con l'SDK Cosmos e protetto da operatori dei nodi che vincolano capitale (Proof of Bond).
+* Il suo token nativo è $CACAO. Chi fornisce liquidità guadagna commissioni sugli scambi e beneficia della protezione contro la perdita impermanente (ILP) dopo 50 giorni.
+* Maya è un backend: lo usi tramite un frontend o un portafoglio come THORWallet, CacaoSwap, Asgardex, Ctrl Wallet o KeepKey.
+* Il video tutorial mostra uno scambio da ETH a ZEC su LeoDex, uno di questi frontend.
+* Maya supporta depositi di ZEC schermati/unificati tramite SwapKit (output di valore trasparente più un memo schermato), così alcuni frontend possono inviare ZEC direttamente a un indirizzo unificato. Se il tuo frontend invia i fondi a un indirizzo trasparente (t1), schermali nel tuo portafoglio in seguito per tutelare la privacy.
+* Maya non è l'unica opzione per gli scambi nativi di ZEC: anche THORChain ha una pool nativa di ZEC.
+
+## Spiegazione principale
+
+Un exchange centralizzato detiene le tue monete e ha bisogno della tua identità. Maya usa invece una rete di nodi che controllano i vault su ogni chain supportata. Invii monete a un vault Maya, almeno due terzi dei nodi confermano il deposito e l'asset corrispondente viene inviato da un altro vault al tuo indirizzo sulla chain di destinazione.
+
+Gli operatori dei nodi mettono a vincolo una somma che può essere confiscata se si comportano male, dando loro un incentivo finanziario a restare onesti. Maya aggiunge funzionalità a THORChain, come i nodi di liquidità e un proprio design delle riserve, e funziona anche come seconda rete indipendente al suo fianco.
+
+Le sezioni seguenti spiegano come funziona Maya, la prova di vincolo, in cosa si differenzia da THORChain e quali portafogli lo supportano.
 
 ## Tutorial
 
@@ -29,7 +51,7 @@ In questo modo, gli utenti possono inviare un tipo di token su una blockchain e 
 
 ## Cos'è Proof of Bond?
 
-Proof of Bond (PoB) è un meccanismo di consenso in cui gli operatori di nodo devono impegnare un bond (di solito sotto forma del token nativo della rete) per partecipare alla rete. Questo bond agisce come una forma di sicurezza economica, garantendo che i nodi agiscano onestamente e mantengano l'integrità della rete. Se un nodo cerca di agire in modo malevolo o non riesce a svolgere i propri compiti, il suo bond può essere tagliato (slashed), il che significa che una porzione di esso viene sottratta come penalità.
+La Proof of Bond (PoB) è un meccanismo di consenso in cui gli operatori dei nodi devono impegnare un vincolo (di solito sotto forma del token nativo della rete) per partecipare alla rete. Questo vincolo funge da forma di sicurezza economica, assicurando che i nodi agiscano onestamente e mantengano l'integrità della rete. Se un nodo tenta di agire in modo malevolo o non adempie ai propri compiti, il suo vincolo può essere ridotto, ossia una parte viene sottratta come penalità.
 
 In Maya Protocol, questo meccanismo aiuta a produrre valore economico dalle risorse messe in staking dagli operatori di nodo, aumentando l'efficienza del capitale. Allo stesso modo, in THORChain, gli operatori di nodo vincolano (bond) RUNE (il token nativo) per mettere in sicurezza la rete e garantire la cooperazione tra i partecipanti.
 
@@ -43,8 +65,8 @@ Anziché seguire il modello Pure Bond, Maya sta valutando un passaggio a un mode
 
 ### Protezione dall'Impermanent Loss
 
-Un sistema che protegge i fornitori di liquidità dalla perdita temporanea (LP) che possono subire quando forniscono liquidità, a causa delle costanti fluttuazioni nei prezzi degli asset crypto.
-L'ILP detiene il 10% della fornitura di $CACAO (10 milioni di $CACAO) ed è continuamente reintegrata dal 10% delle commissioni del protocollo. L'ILP diventa attiva 50 giorni dopo un deposito di liquidità, con una copertura limitata al 100%.
+Un sistema che protegge i fornitori di liquidità (LP) dalla perdita temporanea che possono subire fornendo liquidità, a causa delle continue oscillazioni dei prezzi degli asset crypto.
+ILP detiene il 10% dell'offerta di $CACAO (10 milioni di $CACAO) e viene continuamente rifornito con il 10% delle commissioni del protocollo. ILP si attiva 50 giorni dopo un deposito di liquidità, con una copertura massima del 100%.
 
 La durata della copertura ILP dipende dalla performance dell'ASSET e di $CACAO. La copertura completa si raggiunge dopo 150 giorni se l'ASSET ha una performance migliore, e dopo 450 giorni se $CACAO ha una performance migliore. L'ILP viene sia pagata che azzerata in caso di prelievo completo, ma non è influenzata dai prelievi parziali. In caso di ricariche (top-up), l'ILP viene azzerata ma non pagata.
 
@@ -58,7 +80,7 @@ Alla genesi di Maya Protocol, le riserve di CACAO disponibili erano solo il 10% 
 
 Ciononostante, nonostante le sue differenze, Maya funge anche da soluzione complementare a THORChain, offrendo ridondanza, estensione e validazione, e integrando nuove reti non presenti nell'attuale implementazione di THORChain.
 
-Inoltre, l'obiettivo di Maya è diventare un *backend* su cui altri servizi possano costruire, nella speranza di vedere numerosi nuovi *frontend*, ossia servizi DEX costruiti sull'infrastruttura di Maya.
+Inoltre, l'obiettivo di Maya è diventare un *backend* su cui altri servizi possano basarsi, nella speranza di vedere molti nuovi *frontend* o servizi DEX basati sull'infrastruttura di Maya.
 
 ## Integrazione del portafoglio Maya Protocol
 
@@ -67,7 +89,7 @@ Ecco un elenco con alcuni dei servizi che già supportano Maya:
 
 [THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+El Dorado: non è più online, il suo dominio non si risolve.
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 

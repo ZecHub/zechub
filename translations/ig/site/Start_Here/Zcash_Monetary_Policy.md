@@ -6,7 +6,7 @@
 
 ## Gịnị bụ akụ na ụba [economics] nke Zcash?
 
-Ntọala ego [monetary base] nke Zcash bụ otu ihe ahụ na ọkọnọ [supply] Bitcoin kwụsiri ike nke ijeri 21 nkeji ego ZEC. Kwa sekọnd 75, a na-egwụputa block [block](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) ọhụrụ n’ime blockchain Zcash ma ụgwọ ọrụ block [block reward] nke 1.5625 ZEC abata n’ime mgbasa. A na-ekesa ụgwọ ọrụ block a nye ndị na-egwụputa na ego mmepe [Zcash development fund](https://zips.z.cash/zip-1014).
+Ntọala ego [monetary base] nke Zcash bụ otu ihe ahụ na ọkọnọ [supply] Bitcoin kwụsiri ike nke nkeji ego nde 21 ZEC. Ná nkezi, kwa sekọnd 25 (sekọnd 75 tupu NU7 amalite na 6 Nọvemba 2026), a na-egwụputa block [block](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) ọhụrụ n’ime blockchain Zcash, ụgwọ ọrụ block [block reward] nke 0.52083333 ZEC abata n’ime mgbasa. Tupu NU7, ụgwọ ọrụ ahụ bụ 1.5625 ZEC kwa block; [ZIP 218](https://zips.z.cash/zip-0218) kewara ya ụzọ atọ, ya na oge block, ya mere ọnụọgụ ZEC ọhụrụ kwa ụbọchị agbanwebeghị. Kemgbe NU7, a na-ekewa 0.52083333 ZEC dị ka ndị a: 80% nye onye na-egwụputa (0.41666668 ZEC, tinyere ugwo Azụmahia), 8% nye Zcash Community Grants (0.04166666 ZEC), na 12% nye igbe mkpọchi (0.06249999 ZEC), dịka [ZIP 1015](https://zips.z.cash/zip-1015) si dị.
 
 Ọnụego ụgwọ ọrụ block na-ebelata ọkara ihe dị ka kwa afọ anọ ruo mgbe ZEC niile dị ijeri 21 batara n’ime mgbasa. Ọnụego mmụba ego [inflation] nke Zcash na-eṅomi nke Bitcoin fọrọ nke nta ka ọ bụrụ kpamkpam. Ọ dị mkpa ịmara na ka a na-emepụta mkpụrụ ego ọhụrụ, mmụba ego na-ebelata, ma n’oge mbelata ọkara [halvening] ọ bụla, ọnụego ahụ na-agbada nke ukwuu.
 

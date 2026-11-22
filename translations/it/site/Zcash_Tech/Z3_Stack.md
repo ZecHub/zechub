@@ -8,16 +8,18 @@ Lo **Stack Z3** è la piattaforma di nodi preconfezionata di Zcash Foundation: *
 
 L'implementazione di riferimento è il progetto Docker Compose disponibile su [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3).
 
+> **Stato, 14 novembre 2026: i pin predefiniti sono precedenti a NU7.** L'ultima modifica a `docker-compose.yml` di Z3 risale al 10 agosto 2026. Usa ancora `zfnd/zebra:6.2.3` e `zodlinc/zallet:v0.1.0-beta.1` ed è nato come binario `zallet-zaino`. [NU7](NU7.md) è stato attivato sulla Mainnet al blocco 3,543,405 il 6 novembre 2026, e solo Zebra 7.0.0 o versioni successive lo seguono: un Zebra 6.x resta alle vecchie regole e si stacca dalla chain reale. Zallet v0.1.0-beta.4, la prima versione che segue NU7, non include più `zallet-zaino`. Controlla il repository per verificare se ci sono pin più recenti prima del deployment. Se sostituisci le immagini tu, tieni presente che il backend `zebra` rimanente di Zallet legge direttamente la directory di stato di Zebra, quindi Zallet deve essere eseguito sullo stesso host con accesso a quella directory ([Zallet](Zallet.md)).
+
 ---
 
 ## In breve
 
-* Z3 **non è un nuovo client di consenso**. È il modo per eseguire insieme lo stack post-`zcashd`: Zebra convalida la chain, Zallet conserva le chiavi e offre RPC del portafoglio, e Zaino (opzionale) parla il protocollo gRPC lightwalletd.
-* `zcashd` riuniva nodo + portafoglio. Z3 **separa questi ruoli**. Gli exchange, le pool di mining e altri operatori di portafogli per full node migrano a questa combinazione anziché a Zebra da solo.
-* Tre progetti Compose isolati possono essere eseguiti su un singolo host: **mainnet**, **testnet** e **regtest**.
-* La prima sincronizzazione di mainnet richiede circa **24–72 ore** e circa **300 GB**. Regtest si avvia in pochi secondi ed è il posto giusto per imparare a usare lo stack.
-* Zallet incorpora le librerie dell'indicizzatore di Zaino e comunica con Zebra tramite JSON-RPC. Il servizio Zaino indipendente è necessario soltanto se desideri un endpoint compatibile con lightwalletd per portafogli esterni.
-* Zallet è in **beta**. Le modifiche incompatibili possono richiedere l'eliminazione e la ricreazione del portafoglio. Non considerarlo un software definitivo per custodire somme elevate.
+* Z3 **non è un nuovo client di consenso**. È il modo per eseguire insieme lo stack successivo a `zcashd`: Zebra valida la chain, Zallet custodisce le chiavi e fornisce wallet RPC, e Zaino (facoltativo) parla il protocollo gRPC di lightwalletd.
+* `zcashd` è un nodo e portafoglio integrati. Z3 **separa questi ruoli**. Gli exchange, le pool di mining e gli altri operatori di portafogli basati su full node migrano a questa combinazione, anziché passare a Zebra da solo.
+* Tre progetti Compose isolati possono essere eseguiti su un unico host: **mainnet**, **testnet** e **regtest**.
+* La prima sincronizzazione della mainnet richiede circa **24–72 ore** e occupa circa **300 GB**. Il regtest è pronto in pochi secondi ed è il posto giusto per imparare a usare lo stack.
+* Nell'immagine Z3 fissata, Zallet usa il backend `zallet-zaino` (le librerie di indicizzazione di Zaino) e comunica con Zebra tramite JSON-RPC. Zallet ha rimosso quel backend nella versione v0.1.0-beta.4; le versioni attuali di Zallet leggono direttamente lo stato di Zebra. Il servizio Zaino autonomo serve solo se vuoi un endpoint compatibile con lightwalletd per portafogli esterni.
+* Zallet è in **beta**. Le modifiche incompatibili possono richiedere di eliminare e ricreare il portafoglio. Non considerarlo un software di custodia completo per grandi somme.
 
 ---
 
@@ -53,9 +55,9 @@ Il nome è un'abbreviazione informale nell'ecosistema — Zebra, Zaino, Zallet �
 
 | Componente | Ruolo in Z3 | Obbligatorio? |
 | --- | --- | --- |
-| **Zebra** | Sincronizza e convalida la chain, gossip, JSON-RPC, endpoint di integrità | Sì |
-| **Zallet** | Portafoglio per full node. Incorpora librerie Zaino. Si connette direttamente al JSON-RPC di Zebra. **Non** chiama il container Zaino indipendente | Sì |
-| **Zaino** | Indicizzatore indipendente. gRPC compatibile con lightwalletd per client leggeri esterni, più un proxy JSON-RPC per explorer e faucet | No — `--profile indexer` |
+| **Zebra** | Sincronizza e convalida la chain, gestisce il gossip, JSON-RPC e l'endpoint di stato | Sì |
+| **Zallet** | Portafoglio per full node. L'immagine beta.1 fissata esegue il backend basato sulla libreria Zaino (`zallet-zaino`, rimosso nella beta.4 di Zallet) e si collega direttamente a JSON-RPC di Zebra. **Non** chiama il container Zaino autonomo | Sì |
+| **Zaino** | Indicizzatore autonomo. gRPC compatibile con lightwalletd per i light client esterni, più un proxy JSON-RPC per Block Explorers e faucet | No — `--profile indexer` |
 
 Z3 fissa le versioni delle immagini in `docker-compose.yml`. Sostituiscile con `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE` o `Z3_ZALLET_IMAGE` se hai bisogno di un tag diverso.
 
@@ -180,12 +182,12 @@ Le porte Grafana predefinite sono 3000 (mainnet), 13000 (testnet), 23000 (regtes
 
 ## Note per gli operatori
 
-* **Immagini fissate.** Z3 non passa silenziosamente a `:latest`. Aggiorna un pin in una modifica revisionata oppure imposta `Z3_<SERVICE>_IMAGE`.
-* **Container non root.** Le capability Linux vengono rimosse. I controlli di integrità ritardano il portafoglio finché Zebra non è pronto. Il criterio di riavvio è attivo per impostazione predefinita.
-* **Log.** Z3 non fissa un driver di logging. Imposta limiti di dimensione nella configurazione del demone Docker, altrimenti i log crescono senza limiti su un nodo attivo 24/7.
-* **P2P.** Mainnet e testnet pubblicano la porta P2P di Zebra. Dietro NAT, imposta `ZEBRA_NETWORK__EXTERNAL_ADDR` all'indirizzo che i peer devono contattare. Regtest non ha peer.
-* **Zaino su ARM.** L'immagine upstream Zaino è solo `linux/amd64`. Su Apple Silicon viene eseguita in emulazione, a meno che tu non compili dai sorgenti. Zebra e Zallet sono multi-arch.
-* **Host condivisi.** Per impostazione predefinita non sono configurati limiti di CPU o memoria. Aggiungi `deploy.resources.limits` in un file di override se la macchina non è dedicata al nodo.
+* **Immagini fissate.** Z3 non passa silenziosamente a `:latest`. Aggiorna una versione fissata con una modifica revisionata oppure imposta `Z3_<SERVICE>_IMAGE`. Le versioni fissate non cambiano da agosto 2026, quindi sono precedenti a NU7 (vedi la nota sullo stato in cima).
+* **Container senza privilegi di root.** Le capability di Linux vengono rimosse. I controlli di integrità tengono fermo il portafoglio finché Zebra non è pronto. Il criterio di riavvio è attivo per impostazione predefinita.
+* **Log.** Z3 non fissa un driver di logging. Imposta limiti di dimensione nella configurazione del daemon di Docker, altrimenti i log crescono senza limiti su un nodo attivo 24 ore su 24, 7 giorni su 7.
+* **P2P.** Mainnet e testnet pubblicano la porta P2P di Zebra. Se sei dietro NAT, imposta `ZEBRA_NETWORK__EXTERNAL_ADDR` sull'indirizzo a cui i peer dovrebbero connettersi. Regtest non ha peer.
+* **Zaino su ARM.** L'immagine upstream Zaino è solo `linux/amd64`. Sui dispositivi Apple Silicon viene eseguita tramite emulazione, a meno che tu non compili dal codice sorgente. Zebra e Zallet supportano più architetture.
+* **Host condivisi.** Per impostazione predefinita non vengono impostati limiti per CPU o memoria. Aggiungi `deploy.resources.limits` in un file di override se il server non è dedicato al nodo.
 
 Checklist orientata alla produzione e FAQ: [docs/faq.md](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md), [docs/docker-architecture.md](https://github.com/ZcashFoundation/z3/blob/main/docs/docker-architecture.md).
 
@@ -202,9 +204,9 @@ Checklist orientata alla produzione e FAQ: [docs/faq.md](https://github.com/Zcas
 
 **Solitamente lo strumento sbagliato**
 
-* Utenti finali che devono soltanto inviare e ricevere ZEC — usino un portafoglio light come ZODL / Zashi, Zingo o YWallet
-* Persone che vogliono soltanto convalidare la chain — eseguano Zebra (o Zakura) da solo
-* Persone che vogliono soltanto servire blocchi compatti — eseguano Zebra + Zaino oppure Zebra + lightwalletd, senza Zallet
+* Utenti finali che hanno solo bisogno di inviare e ricevere ZEC — usa un light client come ZODL / Zashi, Zingo o Zkool (il successore mantenuto di YWallet)
+* Chi vuole solo convalidare la chain — esegui solo Zebra (o Zakura)
+* Chi vuole solo fornire blocchi compatti — esegui Zebra + Zaino oppure Zebra + lightwalletd, senza Zallet
 
 ---
 

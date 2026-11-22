@@ -94,7 +94,9 @@ Ibe [Wallets](/using-zcash/wallets) na-enyocha nkwado viewing-key na njikere Iro
 
 [Zkool](https://github.com/hhanh00/zkool2) bụ nhọrọ kacha agbanwe agbanwe ebe a, n'ihi na ọ na-anabata unified keys yana legacy ones. README ya na-edepụta akaụntụ view-only e kere site na **unified viewing key** ma ọ bụ **Sapling extended viewing key**, tinyere legacy shielded extended keys e bubatara site na zcashd. Tinye akaụntụ ọhụrụ, họrọ ụzọ view-only, ma mado key `uview…` ma ọ bụ `zxviews…`; akaụntụ ahụ ga-emekọrịta ma kọọ nguzo ego na akụkọ na-enweghị ikike imefu ego.
 
-Nkwado protocol Ironwood na mbugharị Orchard-gaa-Ironwood batara na Zkool 6.24.0 (20 Julaị 2026), ma 6.26.1 (2 Ọgọọst 2026) doziri nchọpụta Azụmahia Ironwood na mempool. Jiri 6.26.1 ma ọ bụ nke mechara.
+Nkwado protocol Ironwood na mbugharị Orchard-gaa-Ironwood batara na Zkool 6.24.0 (20 Julaị 2026), ma 6.26.1 (2 Ọgọọst 2026) doziri nchọpụta Azụmahia Ironwood na mempool. Ebe ọ bụ na NU7 arụgoro ọrụ na Mainnet (block 3,543,405), jiri [6.35.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.35.0) (25 Ọktoba 2026) ma ọ bụ nke mechara: ọ bụ mwepụta Zkool mbụ e wuru na ịdị elu mmegharị Mainnet NU7 ([zkool2#1388](https://github.com/hhanh00/zkool2/pull/1388)).
+
+6.35.0 na-anabatakwa **igodo nlele mbata jikọtara ọnụ** (unified incoming viewing keys). Tinye igodo `uivk…` ebe a na-etinye igodo ọ bụla, Zkool emee akaụntụ nke mbata naanị: ọ na-egosi ihe akaụntụ mbụ na-enweta, gụnyere memo, ma ọ dịghị ihe ọ na-eziga ([zkool2#1348](https://github.com/hhanh00/zkool2/pull/1348)). Igodo mbata enweghị ike ịhụ mmefu, ya mere nguzozi akaụntụ ahụ bụ mkpokọta ihe a natara, ọ bụghị ihe fọdụrụ, akaụntụ ahụ enweghịkwa ike imefu. Zkool nwekwara ike mbupụ UIVK nke akaụntụ ([zkool2#1347](https://github.com/hhanh00/zkool2/pull/1347)).
 
 ### Zallet
 
@@ -137,7 +139,7 @@ Viewing key bụ mpempe ozi, ọ bụghị ndenye ikike. Ozugbo e depụtachara 
 
 ### Trial decryption: otu ikiri si arụ ọrụ n'ezie
 
-Azụmahia ọ bụla nke e chebere echebe na-ezo note plaintexts ya nye onye e bu n'obi nata ha. E-akpa ego ji viewing key na-eme **trial decryption**: maka Azụmahia ọ bụla ọ hụrụ na chain, ọ na-anwa iwepụ nzobe note ciphertexts site na key ahụ. Ihe gara nke ọma na-ekpughe uru note ahụ, diversifier onye nata ya na memo; ihe dara ada anaghị efu ihe ọbụla. Nke a bụ ihe mere otu incoming viewing key ji nọgide na-arụ ọrụ n'ofe pools Orchard na Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) na-ejikọta receiver na Orchard *protocol*, ya mere note ciphertexts Ironwood nwere ọdịdị Orchard ma jiri viewing keys Orchard nke akaụntụ anwale-nzobe ederede ha n'okpuru mpaghara nzobe note Ironwood.
+Azụmahia ọ bụla nke e chebere echebe na-ezo note plaintexts ya nye onye e bu n’obi ịnata ha. E-akpa ego ji viewing key na-eme **trial decryption**: maka Azụmahia ọ bụla ọ hụrụ na chain, ọ na-anwa iwepụ nzobe note ciphertexts site na key ahụ. Ihe gara nke ọma na-ekpughe uru note ahụ, diversifier onye nata ya na memo. Ihe na-adịghị aga nke ọma na-efu ihe fọrọ nke nta ka hà ka ihe gara nke ọma, n’ihi na nzọụkwụ dị oke ọnụ, nkwekọrịta igodo, na-eme tupu e-akpa ego amata ma note ahụ ọ bụ nke ya; ya mere, ụgwọ nyocha na-abawanye na igodo ọ bụla e-akpa ego na-enyocha (lee [Ịchọpụta ịkwụ ụgwọ ndị e chebere echebe](Detecting_Shielded_Payments.md)). Nke a bụ ihe mere otu incoming viewing key ji nọgide na-arụ ọrụ n’ofe pools Orchard na Ironwood — [ZIP 326](https://zips.z.cash/zip-0326) na-ejikọta receiver na Orchard *protocol*, ya mere note ciphertexts Ironwood nwere ọdịdị Orchard ma jiri viewing keys Orchard nke akaụntụ anwale nzobe ha n’okpuru ngalaba nzobe note Ironwood.
 
 ### Full megide incoming: ihe derivation na-ekpebi
 

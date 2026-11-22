@@ -21,7 +21,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Term | Definition |
 |------|-----------|
 | Benchmarking | 채굴자는 Zcash 채굴에 사용되는 다양한 하드웨어의 효율성에 대한 지표를 제출할 수 있습니다. [여기서 보기](https://zcashbenchmarks.info) |
-| Block | 블록은 네트워크에서 전송된 거래 집합을 담고 있는 Zcash 블록체인의 기록입니다. 평균적으로 약 75초마다 새로운 블록이 블록체인에 추가됩니다. |
+| Block | 블록은 네트워크에서 전송된 거래 집합을 담고 있는 Zcash 블록체인의 기록입니다. 평균적으로 약 25초마다 새로운 블록이 블록체인에 추가됩니다(NU7가 2026년 11월에 활성화되기 전에는 75초였습니다). |
 | Block Explorer | 블록체인상의 모든 거래를 과거와 현재를 포함해 볼 수 있는 온라인 도구입니다. [Zcash 블록 탐색기](https://zcashexplorer.app/) |
 | Blogs | [ZODL 블로그 (구 Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation 블로그](https://zfnd.org/blog/) / [ZecHub 뉴스레터](https://zechub.substack.com/) |
 | Blossom | Zcash의 세 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -33,7 +33,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | Canopy | Zcash의 다섯 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | 커미터가 짧은 문자열로 다항식에 커밋할 수 있게 하며, 검증자는 이를 사용해 커밋된 다항식의 주장된 평가값을 확인할 수 있습니다. Zcash 프로토콜의 통신 비용을 줄이는 데 유용합니다. |
 | Community | [공식 Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com) / [Zcash 커뮤니티 Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Zcash의 기존 작업증명과 함께 지분증명을 운영하는 하이브리드 합의 설계 제안입니다. Shielded Labs가 이 작업을 주도하며, `zebra-crosslink` 저장소에 프로토타입을 유지하고 있습니다. Crosslink는 현재 Zcash의 일부가 아닙니다. [Crosslink 프로토콜](/zcash-tech/crosslink-protocol) |
+| Crosslink | Zcash의 기존 작업증명과 함께 지분증명을 운영하는 하이브리드 합의 설계 제안입니다. Shielded Labs가 이 작업을 주도하며, `crosslink_monolith` 저장소에서 테스트 네트워크인 Feature Net를 운영합니다. 이전 `zebra-crosslink` 프로토타입 저장소는 2026년 11월에 폐기되었습니다. Crosslink는 현재 Zcash의 일부가 아닙니다. [Crosslink 프로토콜](/zcash-tech/crosslink-protocol) |
 | CrossPay | ZODL 지갑의 기능으로, 중앙화 거래소를 거치지 않고 NEAR Intents를 통해 라우팅되어 수신자가 선호하는 자산과 체인으로 지급받는 동안 사용자는 shielded ZEC를 사용할 수 있게 해줍니다. |
 | Cypherpunk Zero | ECC, 일러스트레이터 Stranger Wolf, Mighty Jaxx 및 일부 생태계 파트너 간의 창의적 세계관이자 협업 프로젝트입니다. [Cypherpunk Zero 소셜](https://x.com/cypherpunkZero) / [OpenSea 컬렉션](https://opensea.io/collection/cypherpunk-zero) |
 
@@ -127,11 +127,11 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 | 용어 | 정의 |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | 프로토콜의 장기적인 보안 예산이 전적으로 발행량에만 의존하지 않도록 거래 수수료의 일부를 소각하자는 Shielded Labs의 제안입니다. ZIP 234에 명시되어 있으며, 2026년에 검토 중입니다. |
-| Nighthawk | Zcash용 모바일 지갑입니다. [웹사이트](https://nighthawkwallet.com) |
+| Nighthawk | Zcash용 모바일 지갑으로, Nighthawk Apps에서 제공했었습니다. Zcash 지갑은 더 이상 유지 관리되지 않으며, Nighthawk Wallet 3.0은 대신 DarkFi용으로 개발되었습니다. 기존 Nighthawk 시드에서 자금을 옮기는 방법은 [자금 복구](/using-zcash/recovering-funds)를 참조하세요. |
 | Noir Wallet | Zcash Community Grants의 지원을 받는 Zcash 브라우저 확장 지갑으로, QR 코드와 수동 전송에 의존하는 대신 shielded ZEC를 브라우저 애플리케이션에 직접 연결하도록 구축되었습니다. [zknoir.com](https://www.zknoir.com/) |
-| NU5 | Orchard shielded 풀과 Unified Addresses를 도입한 Zcash의 여섯 번째 주요 네트워크 업그레이드입니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Zcash Community Grants 프로그램과 지연된 개발자 기금 락박스에 자금을 지원하기 위해 블록 보조금을 조정한 Zcash의 일곱 번째 주요 네트워크 업그레이드입니다. 2024년 말에 활성화되었습니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood 이후의 네트워크 업그레이드로, 2026년 11월 5일 메인넷 적용을 목표로 합니다. [ZIP 259](https://zips.z.cash/zip-0259)에 따르면, 25초 블록(ZIP 218), 수수료 재순환을 포함한 Network Sustainability Mechanism(ZIP 235 및 237), 그리고 버전 4 거래의 종료를 도입하며, 이로 인해 Sprout 자금은 사용할 수 없게 됩니다(ZIP 2003). 새로운 거래 형식은 추가하지 않으며, Tachyon 및 Zcash Shielded Assets는 여기에 포함되지 않습니다. |
+| NU5 | Zcash의 여섯 번째 주요 네트워크 업그레이드로, Orchard shielded 풀과 Unified Addresses를 도입합니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
+| NU6 | Zcash의 일곱 번째 주요 네트워크 업그레이드로, Zcash Community Grants 프로그램과 Deferred Dev Fund Lockbox에 자금을 지원하도록 블록 보조금을 조정합니다. 2024년 말에 활성화되었습니다. [자세히 보기](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Ironwood 이후의 네트워크 업그레이드로, 2026년 11월 6일(UTC) 메인넷 블록 높이 3,543,405에서 활성화되었습니다. [ZIP 259](https://zips.z.cash/zip-0259)에 따르면, 25초 블록(ZIP 218), 수수료 재순환을 포함한 Network Sustainability Mechanism(ZIPs 235 및 237), 그리고 버전 4 거래의 종료를 도입하며, 이로 인해 Sprout 자금은 사용할 수 없게 됩니다(ZIP 2003). 새로운 거래 형식은 추가하지 않으며, Tachyon 및 Zcash Shielded Assets는 여기에 포함되지 않습니다. |
 
 ## O
 
@@ -209,7 +209,7 @@ Zcash와 관련된 핵심 용어, 개념, 리소스를 종합적으로 정리한
 
 | 용어 | 정의 |
 |------|-----------|
-| Wallet | 개인 키를 저장하고 ZEC를 송수신할 수 있게 해주는 소프트웨어 또는 하드웨어입니다. 현재 활성 지갑에는 ZODL (iOS/Android), Zingo! (모바일/데스크톱), Nighthawk (Android), Zkool (모바일/데스크톱), Zallet (출시 예정), Keystone (하드웨어)가 포함됩니다. 전체 목록은 [Zcash 생태계 지갑](https://z.cash/ecosystem/?wallets=#tag-wallets)에서 확인하세요 |
+| Wallet | 개인 키를 저장하고 ZEC를 송수신할 수 있게 해주는 소프트웨어 또는 하드웨어입니다. 현재 활성 지갑에는 ZODL (iOS/Android), Zingo! (모바일/데스크톱), Zkool (모바일/데스크톱), Zallet (풀 노드 지갑, 베타 버전), Keystone (하드웨어)가 포함됩니다. 전체 목록은 [Zcash 생태계 지갑](https://z.cash/ecosystem/?wallets=#tag-wallets)에서 확인하세요 |
 | WebZjs | 브라우저 환경을 위해 ChainSafe가 구축한 Zcash용 최초의 JavaScript SDK입니다. 이 SDK는 MetaMask에 shielded ZEC를 도입한 Zcash Shielded Wallet 스냅의 기반이 됩니다. |
 
 ## X

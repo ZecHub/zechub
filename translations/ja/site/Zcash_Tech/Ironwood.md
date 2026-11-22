@@ -135,4 +135,4 @@ Zcashは依然としてプライベートですか？はい。Ironwood内の支�
 
 ---
 
-シリーズ: [ネットワークアップグレード一覧](../start-here/network-upgrades) · 前へ: [NU6.2](../zcash-tech/nu6-2)
+シリーズ: [ネットワークアップグレード一覧](../start-here/network-upgrades) · 前へ: [NU6.2](../zcash-tech/nu6-2) · 次へ: [NU7](../zcash-tech/nu7)

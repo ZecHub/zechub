@@ -3,7 +3,7 @@
 </a>
 
 # البودكاست
-هل تريد معرفة المزيد عن منظومة Zcash؟ إليك قائمة ببودكاست يمكنك متابعتها:
+هل تريد معرفة المزيد عن منظومة Zcash؟ إليك قائمة بالبودكاست التي يمكنك متابعتها:
 
 <ul class="podcast-list grid grid-cols-1 imd:grid-cols-2 md:grid-cols-3 gap-6">
 <li>
@@ -22,7 +22,7 @@
 </li>
 
 <li>
-<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* للعملات المشفرة</a>
+<a href="https://www.youtube.com/playlist?list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq"><img class="podcast-img" src="/content-images/https-3A-2F-2Fs3-us-west-2.amazonaws.com-5ae3f48687.webp" alt="" width="40" height="41" />PGP* For Crypto</a>
 <iframe width="320" height="200" src="https://www.youtube.com/embed/videoseries?si=5wgdhsq7sDxdosGt&amp;list=PLWmtTg-WFLv7ONEIgDk4E6POEvi8hKPhq" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </li>
 

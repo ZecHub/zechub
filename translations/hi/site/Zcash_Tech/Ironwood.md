@@ -135,4 +135,4 @@ Ironwood का मुख्य विचार टर्नस्टाइल �
 
 ---
 
-श्रृंखला: [नेटवर्क अपग्रेड सूची](../start-here/network-upgrades) · पिछला: [NU6.2](../zcash-tech/nu6-2)
+श्रृंखला: [नेटवर्क अपग्रेड सूची](../start-here/network-upgrades) · पिछला: [NU6.2](../zcash-tech/nu6-2) · अगला: [NU7](../zcash-tech/nu7)

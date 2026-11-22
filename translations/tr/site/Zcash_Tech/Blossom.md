@@ -10,7 +10,7 @@ Buradan çıkaracağınız sonuç: Blossom'un, ağın zaman içinde ne kadar ZEC
 
 Blossom, bir Zcash [ağ yükseltmesi](../start-here/network-upgrades)dir. [ZIP 206](https://zips.z.cash/zip-0206) ile devreye alındı ve ana uzlaşma değişikliği [ZIP 208](https://zips.z.cash/zip-0208) içinde tanımlanmıştır. Blossom bir ölçeklenebilirlik yükseltmesiydi: bloklar arasındaki hedef süreyi 150 saniyeden 75 saniyeye düşürdü, böylece bloklar yaklaşık iki kat daha sık gelir hale geldi. Electric Coin Company, Blossom'a liderlik etti ve onu duyurdu.
 
-Bu neden önemlidir? ZEC gönderdiğinizde, ağın bunu bir blok içinde onaylamasını beklersiniz. Bloklar yavaşsa, daha uzun beklersiniz. Blossom'dan önce yeni bir blok yaklaşık her 150 saniyede bir bekleniyordu. Blossom bu hedefi yarıya, yani 75 saniyeye indirdi; böylece onaylar daha erken gelir ve zincir aynı süre içinde daha fazla işlem taşıyabilir. Bunu daha fazla ZEC üretmeden veya gelecekteki yarılanmaların zamanlamasını kaydırmadan yaptı.
+Bu neden önemlidir? ZEC gönderdiğinizde, ağın bunu bir blok içinde onaylamasını beklersiniz. Bloklar yavaşsa, daha uzun beklersiniz. Blossom'dan önce yeni bir blok yaklaşık her 150 saniyede bir bekleniyordu. Blossom bu hedefi yarıya, yani 75 saniyeye indirdi; böylece onaylar daha erken gelir ve zincir aynı süre içinde daha fazla işlem taşıyabilir. Bunu daha fazla ZEC üretmeden veya gelecekteki yarılanmaların zamanlamasını kaydırmadan yaptı. (NU7, Kasım 2026'da etkinleştirildikten sonra aynı yaklaşımı kullanarak [ZIP 218](https://zips.z.cash/zip-0218) kapsamında hedefi daha sonra 25 saniyeye düşürdü.)
 
 ## Özet
 

@@ -25,7 +25,7 @@ Zaino میان Zebra و نرم‌افزار کلاینت قرار می‌گیر�
 
 Zaino قابلیت‌هایی را برای کلاینت‌های سبک، کلاینت‌های کامل یا کیف‌پول‌ها و بلوک اکسپلوررها فراهم می‌کند. این ابزار دسترسی به زنجیره نهایی‌شده، بهترین زنجیره نهایی‌نشده و داده‌های mempool نگهداری‌شده توسط Zebra را فراهم می‌کند.
 
-## جایگاه آن در پشته فعلی Zcash
+## جایگاه آن در Zcash Stack فعلی
 
 پشته فعلی Z3 بر پایه Zebra، Zallet و Zaino (اختیاری) ساخته شده است.
 
@@ -89,5 +89,6 @@ Zaino دو نوع سرویس شبکه ارائه می‌دهد. سرویس gRPC�
 * [مخزن استقرار Z3](https://github.com/ZcashFoundation/z3)
 * [مستندات Zebra](https://zebra.zfnd.org/)
 * [گرنت و بحث درباره پروژه Zaino](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder)، یک نمایه‌ساز دیگر، از Zcash Foundation (آلفا) Rust
 
 **آخرین به‌روزرسانی:** August 2026

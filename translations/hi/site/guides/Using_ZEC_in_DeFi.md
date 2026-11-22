@@ -69,7 +69,7 @@ Zcash के संदर्भ में, ZenRock जैसी ब्रिज 
 
 इंटरऑपरेबिलिटी डीफ़ाई के विकास का एक महत्वपूर्ण घटक है, क्योंकि यह किसी विशेष ब्लॉकचेन के एसेट को क्रॉस-नेटवर्क डिजिटल अर्थव्यवस्था में भाग लेने की अनुमति देती है। 
 
-अधिक जानें: [ZenRock ब्रिज के बारे में जानें](https://docs.zenrocklabs.io/)
+अधिक जानें: [ZenRock ब्रिज के बारे में जानें](https://github.com/Zenrock-Foundation/zrchain/tree/main/docs)
 
 <div class="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/GUczWBmO74M?si=fzuxS1HzshFqxNHc" title="ZR Talks Ep.10, ZenRock co-founders Aditya Dave and Jack Krevitt discuss Zcash on Solana." allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

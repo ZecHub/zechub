@@ -7,7 +7,7 @@
 ## 摘要
 
 - **Zimppy** 是面向 AI 代理的、以隐私 [privacy] 为先的支付 [payment] 基础设施，使用 Zcash 的 Machine Payment Protocol (MPP)
-- 在链上 [on-chain] **存入一次**（约 75 秒），随后可发起**无限次即时请求**，无需逐请求与 blockchain 交互
+- 在链上 [on-chain] **存入一次**（自 NU7 起每个区块约 25 秒），随后可发起**无限次即时请求**，无需逐请求与 blockchain 交互
 - 支持**完全屏蔽的 Zcash（Orchard）**支付——发送方、接收方、金额和备忘录 [memo] 均经过加密 [encryption]
 - 可与 **TypeScript 和 Rust SDK** 配合使用，轻松集成到 AI 流水线和 API 服务器中
 - 非常适合 **LLM API、数据市场、MCP 工具服务器**以及任何 M2M 支付用例 [use case]
@@ -52,7 +52,7 @@
 
 ### 核心特性
 
-- 在链上**存入一次**（Zcash 确认约需 75 秒）
+- 在链上**存入一次**（自 NU7 起，Zcash 区块约需 25 秒确认；此前为 75 秒）
 - 会话开启后可发起**无限次即时请求**，逐请求链交互为零
 - **屏蔽支付**使用 Zcash 的 Orchard 协议加密发送方、接收方、金额和备忘录
 - **透明支付**使用逐挑战 T 地址，以防止重放但不提供完整隐私
@@ -77,12 +77,12 @@
 
 ### 会话解决延迟问题
 
-> *“但 Zcash 的区块 [block] 时间为 75 秒。”*
+> *“但 Zcash 的区块仍需 25 秒（NU7 之前为 75 秒）。”*
 
 **会话解决了这一问题。** 链上等待仅在存入时发生**一次**。之后的每次请求都是即时的。
 
 ```
-Agent  ->  deposit 100,000 zat           (one on-chain tx, ~75s)
+Agent  ->  deposit 100,000 zat           (one on-chain tx, ~25s)
 Agent  ->  open session                  (bearer token issued)
 Agent  ->  request -> response           (0ms - no chain interaction)
 Agent  ->  request -> response           (0ms - no chain interaction)
@@ -417,7 +417,7 @@ Zimppy 钱包专为 AI 代理的编程使用而设计，而非人工管理的浏
 
 ### 会话，逐请求零延迟
 
-会话架构将链上确认等待与逐请求延迟解耦。单次存入（约 75 秒）后，所有后续持有者 token 请求均可即时处理，在会话关闭前无需 blockchain 交互。
+会话架构将链上确认等待与逐请求延迟解耦。单次存入（自 NU7 起约 25 秒）后，所有后续持有者 token 请求均可即时处理，在会话关闭前无需 blockchain 交互。
 
 ### 流式传输，按 Token 计费
 

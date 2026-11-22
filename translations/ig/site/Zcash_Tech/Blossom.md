@@ -10,7 +10,7 @@ Ihe ị ga-amụta: otu Blossom siri mee ka blocks Zcash bịarute ihe dị ka u
 
 Blossom bụ Zcash [network upgrade](../start-here/network-upgrades). E tinyere ya n’ọrụ site na [ZIP 206](https://zips.z.cash/zip-0206), a kọwakwara mgbanwe consensus ya bụ isi na [ZIP 208](https://zips.z.cash/zip-0208). Blossom bụ upgrade maka scaling: o mere ka oge e lekwasịrị anya n’etiti blocks dị mkpụmkpụ site na sekọnd 150 ruo sekọnd 75, ya mere blocks na-abịa ihe dị ka ugboro abụọ karịa. Electric Coin Company duziri ma kwupụta Blossom.
 
-Ihe kpatara nke a ji dị mkpa. Mgbe ị zitere ZEC, ị na-eche ka network kwado ya n’ime block. Ọ bụrụ na blocks adịghị ọsọ, ị ga-eche ogologo oge. Tupu Blossom, a na-atụ anya block ọhụrụ ihe dị ka kwa sekọnd 150. Blossom belatara ebumnuche ahụ ọkara, ruo sekọnd 75, ya mere nkwenye na-abịa ngwa ngwa ma chain nwere ike ibu Azụmahia ndị ọzọ n’otu oge ahụ. O mere nke a n’emepụtaghị ZEC ọzọ ma ọ bụ gbanwee oge halving ndị ga-abịa.
+Ihe kpatara nke a ji dị mkpa. Mgbe ị zitere ZEC, ị na-eche ka network kwado ya n’ime block. Ọ bụrụ na blocks adịghị ọsọ, ị ga-eche ogologo oge. Tupu Blossom, a na-atụ anya block ọhụrụ ihe dị ka kwa sekọnd 150. Blossom belatara ebumnuche ahụ ọkara, ruo sekọnd 75, ya mere nkwenye na-abịa ngwa ngwa ma chain nwere ike ibu Azụmahia ndị ọzọ n’otu oge ahụ. O mere nke a n’emepụtaghị ZEC ọzọ ma ọ bụ gbanwee oge halving ndị ga-abịa. (NU7, nke malitere ọrụ na Nọvemba 2026, mechara belata ebumnuche ahụ ọzọ ruo sekọnd 25 n’okpuru [ZIP 218](https://zips.z.cash/zip-0218), site n’iji otu usoro ahụ.)
 
 ## Nchịkọta dị mkpirikpi (TL;DR)
 

@@ -14,7 +14,7 @@
 
 ## Explication principale
 
-Zingo 2.0 est la dernière version du portefeuille Zingo!, un portefeuille léger et open source conçu pour la communauté Zcash. La vedette de cette version est Pepper Sync, une mise à niveau majeure qui repense entièrement la manière dont les portefeuilles se connectent à la blockchain.
+Zingo 2.0 est la version du portefeuille Zingo!, un portefeuille léger et open source conçu pour la communauté Zcash, qui a introduit Pepper Sync, une mise à niveau majeure qui repense entièrement la manière dont les portefeuilles se connectent à la blockchain. Les versions ultérieures conservent Pepper Sync : la version mobile actuelle, [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (31 octobre 2026), ajoute la prise en charge de NU7 et des échanges intégrés.
 
 Auparavant, la synchronisation pouvait être terriblement lente, sujette aux erreurs et gourmande en ressources, obligeant parfois les utilisateurs à tout recommencer depuis le début. Pepper Sync change tout cela. La synchronisation devient plus rapide, plus fluide, plus fiable et moins exigeante pour votre appareil, tout en préservant pleinement la confidentialité des transactions protégées.
 
@@ -93,7 +93,7 @@ En améliorant l'expérience de portefeuille, Pepper Sync renforce l'ensemble de
 
 ### Premiers pas : prise en main de Zingo 2.0
 
-1. Téléchargez le portefeuille - Obtenez la version adaptée sur la [page des versions de Zingo GitHub](https://github.com/zingolabs/zingolib)
+1. Téléchargez le portefeuille - Obtenez la version adaptée sur [zingolabs.org](https://zingolabs.org/) ou sur les pages de versions GitHub pour [mobile](https://github.com/zingolabs/zingo-mobile/releases) et [desktop](https://github.com/zingolabs/zingo-pc/releases)
 2. Configurez votre portefeuille - Créez-en un nouveau ou restaurez-le à partir d'une phrase de récupération existante. [Zingo 2.0 avec Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
 3. Laissez Pepper Sync fonctionner - Suivez les indicateurs de progression pendant la mise à jour de votre portefeuille. [Exécution de Pepper Sync](https://x.com/ZingoLabs/status/1961871338441724191)
 4. Commencez à utiliser Zcash - Envoyez et recevez des ZEC protégés dès la fin de la synchronisation.

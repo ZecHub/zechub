@@ -8,16 +8,18 @@
 
 Implementasi referensinya adalah proyek Docker Compose di [github.com/ZcashFoundation/z3](https://github.com/ZcashFoundation/z3).
 
+> **Status, 14 November 2026: pin default mendahului NU7.** `docker-compose.yml` milik Z3 terakhir diubah pada 10 Agustus 2026. Isinya masih mematok `zfnd/zebra:6.2.3` dan `zodlinc/zallet:v0.1.0-beta.1`, serta awalnya menggunakan binary `zallet-zaino`. [NU7](NU7.md) diaktifkan di Mainnet pada blok 3.543.405 pada 6 November 2026, dan hanya Zebra 7.0.0 atau yang lebih baru yang mengikutinya: Zebra 6.x tetap menggunakan aturan lama dan tertinggal dari chain yang sebenarnya. Zallet v0.1.0-beta.4, rilis pertama yang mengikuti NU7, tidak lagi menyertakan `zallet-zaino`. Periksa repo untuk mengetahui pin terbaru sebelum melakukan deployment. Jika Anda mengganti image sendiri, perhatikan bahwa backend `zebra` yang masih digunakan oleh Zallet membaca direktori state milik Zebra secara langsung, sehingga Zallet harus berjalan di host yang sama dan memiliki akses ke direktori tersebut ([Zallet](Zallet.md)).
+
 ---
 
 ## Ringkasan (TL;DR)
 
-* Z3 **bukan merupakan client konsensus baru**. Ini adalah cara Anda menjalankan stack pasca-`zcashd` secara bersamaan: Zebra memvalidasi chain, Zallet menyimpan kunci dan menyediakan RPC dompet, dan Zaino (opsional) menggunakan protokol gRPC lightwalletd.
-* Node + dompet `zcashd` yang terbundel. Z3 **memisahkan peran-peran tersebut**. Exchange, pool penambangan, dan operator wallet full-node lainnya bermigrasi ke kombinasi ini daripada hanya ke Zebra saja.
-* Tiga proyek Compose yang terisolasi dapat berjalan pada satu host: **mainnet**, **testnet**, dan **regtest**.
-* Sinkronisasi pertama mainnet memakan waktu sekitar **24–72 jam** dan berukuran sekitar **300 GB**. Regtest aktif dalam hitungan detik dan merupakan tempat yang tepat untuk mempelajari stack ini.
-* Zallet menyematkan library indexer milik Zaino dan berkomunikasi dengan Zebra melalui JSON-RPC. Layanan Zaino mandiri hanya diperlukan jika Anda menginginkan endpoint yang kompatibel dengan lightwalletd untuk dompet eksternal.
-* Zallet masih dalam tahap **beta**. Perubahan yang merusak (breaking changes) dapat mengharuskan penghapusan dan pembuatan ulang dompet. Jangan menganggapnya sebagai perangkat lunak kustodial yang sudah selesai untuk jumlah besar.
+* Z3 **bukan klien konsensus baru**. Z3 adalah cara untuk menjalankan stack pasca-`zcashd` secara terpadu: Zebra memvalidasi chain, Zallet menyimpan kunci dan menyediakan RPC dompet, dan Zaino (opsional) menggunakan protokol gRPC lightwalletd.
+* Node + dompet `zcashd` dalam satu paket. Z3 **memisahkan peran tersebut**. Exchange, pool penambangan, dan operator dompet full node lainnya beralih ke kombinasi ini, bukan hanya ke Zebra.
+* Tiga project Compose yang terisolasi dapat berjalan di satu host: **mainnet**, **testnet**, dan **regtest**.
+* Sinkronisasi pertama mainnet memerlukan sekitar **24–72 jam** dan sekitar **300 GB**. Regtest siap dalam hitungan detik dan merupakan tempat yang tepat untuk mempelajari stack ini.
+* Pada image Z3 yang dipatok, Zallet menjalankan backend `zallet-zaino`-nya (pustaka pengindeks Zaino) dan berkomunikasi dengan Zebra melalui JSON-RPC. Zallet menghapus backend tersebut pada v0.1.0-beta.4; Zallet saat ini membaca state Zebra secara langsung. Layanan Zaino mandiri hanya diperlukan jika Anda menginginkan endpoint yang kompatibel dengan lightwalletd untuk dompet eksternal.
+* Zallet masih dalam **beta**. Perubahan yang merusak kompatibilitas dapat mengharuskan penghapusan dan pembuatan ulang dompet. Jangan menganggapnya sebagai perangkat lunak kustodi yang sudah matang untuk menyimpan dana dalam jumlah besar.
 
 ---
 
@@ -51,11 +53,11 @@ Nama tersebut adalah singkatan ekosistem informal — Zebra, Zaino, Zallet — m
                         light wallets / explorers
 ```
 
-| Komponen | Peran dalam Z3 | Diperlukan? |
+| Komponen | Peran di Z3 | Wajib? |
 | --- | --- | --- |
-| **Zebra** | Menyinkronkan dan memvalidasi chain, gossip, JSON-RPC, endpoint health | Ya |
-| **Zallet** | Dompet full-node. Menyematkan library Zaino. Terhubung langsung ke JSON-RPC Zebra. **Tidak** memanggil kontainer Zaino yang berdiri sendiri | Ya |
-| **Zaino** | Indexer mandiri. gRPC yang kompatibel dengan lightwalletd untuk light client eksternal, ditambah proxy JSON-RPC untuk explorer dan faucet | Tidak — `--profile indexer` |
+| **Zebra** | Menyinkronkan dan memvalidasi chain, gossip, JSON-RPC, serta endpoint kesehatan | Ya |
+| **Zallet** | Dompet full node. Image beta.1 yang disematkan menjalankan backend pustaka Zaino (`zallet-zaino`, dihapus pada beta.4 Zallet) dan terhubung langsung ke JSON-RPC Zebra. Tidak memanggil container Zaino mandiri | Ya |
+| **Zaino** | Indexer mandiri. gRPC yang kompatibel dengan lightwalletd untuk light client eksternal, serta proxy JSON-RPC untuk explorer dan faucet | Tidak — `--profile indexer` |
 
 Z3 menyematkan versi gambar di `docker-compose.yml`. Timpa dengan `Z3_ZEBRA_IMAGE`, `Z3_ZAINO_IMAGE`, atau `Z3_ZALLET_IMAGE` jika Anda memerlukan tag yang berbeda.
 
@@ -180,12 +182,12 @@ Port default Grafana adalah 3000 (mainnet), 13000 (testnet), 23000 (regtest).
 
 ## Catatan operator
 
-* **Gambar yang disematkan.** Z3 tidak melayang secara diam-diam ke `:latest`. Perbarui pin dalam perubahan yang telah ditinjau, atau atur `Z3_<SERVICE>_IMAGE`.
-* **Kontainer non-root.** Kapabilitas Linux akan dihapus. Pemeriksaan kesehatan (health checks) menahan dompet hingga Zebra siap. Kebijakan restart aktif secara default.
-* **Log.** Z3 tidak menetapkan driver logging tertentu. Atur batas ukuran dalam konfigurasi daemon Docker atau log akan tumbuh tanpa batas pada node yang berjalan 24/7.
-* **P2P.** Mainnet dan testnet mempublikasikan port P2P dari Zebra. Di belakang NAT, atur `ZEBRA_NETWORK__EXTERNAL_ADDR` ke alamat yang harus dihubungi oleh peer. Regtest tidak memiliki peer.
-* **Zaino pada ARM.** Gambar Zaino upstream hanya untuk `linux/amd64`. Pada Apple Silicon, ini berjalan di bawah emulasi kecuali jika Anda membangunnya dari source. Zebra dan Zallet bersifat multi-arch.
-* **Host bersama.** Tidak ada batasan CPU atau memori yang ditetapkan secara default. Tambahkan `deploy.resources.limits` dalam file override jika server tersebut tidak didedikasikan untuk node.
+* **Image yang di-pin.** Z3 tidak diam-diam beralih ke `:latest`. Perbarui pin dalam perubahan yang telah ditinjau, atau tetapkan `Z3_<SERVICE>_IMAGE`. Pin tidak berubah sejak Agustus 2026, jadi mendahului NU7 (lihat catatan status di bagian atas).
+* **Container non-root.** Kapabilitas Linux dihapus. Pemeriksaan kesehatan menahan dompet hingga Zebra siap. Kebijakan restart aktif secara default.
+* **Log.** Z3 tidak menetapkan driver logging. Tetapkan batas ukuran di konfigurasi daemon Docker atau log akan terus bertambah tanpa batas pada node yang berjalan 24/7.
+* **P2P.** Mainnet dan testnet memublikasikan port P2P Zebra. Jika berada di balik NAT, tetapkan `ZEBRA_NETWORK__EXTERNAL_ADDR` ke alamat yang harus dihubungi peer. Regtest tidak memiliki peer.
+* **Zaino di ARM.** Image Zaino upstream hanya tersedia untuk `linux/amd64`. Di Apple Silicon, image ini berjalan melalui emulasi kecuali Anda membangunnya dari kode sumber. Zebra dan Zallet mendukung banyak arsitektur.
+* **Host bersama.** Secara default, tidak ada batas CPU atau memori yang ditetapkan. Tambahkan `deploy.resources.limits` dalam file override jika mesin tersebut tidak dikhususkan untuk node.
 
 Daftar periksa dan FAQ siap produksi: [docs/faq.md](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md), [docs/docker-architecture.md](https://github.com/ZcashFoundation/z3/blob/main/docs/docker-architecture.md).
 
@@ -202,9 +204,9 @@ Daftar periksa dan FAQ siap produksi: [docs/faq.md](https://github.com/ZcashFoun
 
 **Biasanya alat yang salah**
 
-* Pengguna akhir yang hanya perlu mengirim dan menerima ZEC — gunakan light wallet seperti ZODL / Zashi, Zingo, atau YWallet
+* Pengguna akhir yang hanya perlu mengirim dan menerima ZEC — gunakan light wallet seperti ZODL / Zashi, Zingo, atau Zkool (penerus YWallet yang masih dipelihara)
 * Orang yang hanya ingin memvalidasi chain — jalankan Zebra (atau Zakura) saja
-* Orang yang hanya ingin melayani compact blocks — jalankan Zebra + Zaino, atau Zebra + lightwalletd, tanpa Zallet
+* Orang yang hanya ingin menyediakan compact block — jalankan Zebra + Zaino, atau Zebra + lightwalletd, tanpa Zallet
 
 ---
 

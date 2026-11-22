@@ -21,7 +21,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Terim | Tanım |
 |------|-----------|
 | Benchmarking | Madenciler, Zcash madenciliğinde kullanılan çeşitli donanımların verimliliğine ilişkin metrikler gönderebilir. [Buradan görüntüleyin](https://zcashbenchmarks.info) |
-| Block | Block, Zcash blokzincirinde ağ üzerinden gönderilmiş bir işlem kümesini içeren bir kayıttır. Ortalama olarak yaklaşık her 75 saniyede bir blokzincire yeni bir blok eklenir. |
+| Block | Block, Zcash blokzincirinde ağ üzerinden gönderilmiş bir işlem kümesini içeren bir kayıttır. Ortalama olarak yaklaşık her 25 saniyede bir blokzincire yeni bir blok eklenir (NU7 Kasım 2026'da etkinleştirilmeden önce 75 saniyeydi). |
 | Block Explorer | Blokzincirdeki geçmiş ve güncel tüm işlemleri görüntülemek için çevrimiçi bir araç. [Zcash Block Explorer](https://zcashexplorer.app/) |
 | Blogs | [ZODL Blog (eski adıyla Electric Coin Co)](https://zodl.com/blog/) / [Zcash Foundation Blogu](https://zfnd.org/blog/) / [ZecHub Bülten](https://zechub.substack.com/) |
 | Blossom | Zcash için 3. Büyük Ağ Yükseltmesi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -33,7 +33,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Canopy | Zcash için 5. Büyük Ağ Yükseltmesi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
 | Commitment Scheme | Bir taahhütte bulunanın, doğrulayıcının taahhüt edilen polinomun iddia edilen değerlendirmelerini doğrulamak için kullanabileceği kısa bir dizeyle bir polinoma taahhütte bulunmasını sağlar. Zcash protokolündeki iletişim maliyetlerini azaltmak için faydalıdır. |
 | Community | [Resmî Zcash Community Forum](https://forum.zcashcommunity.com) / [Zcash Community Discord](https://discord.com/channels/669694001464737815/669694001921654794) / [Zcash R&D Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Hisse ispatını Zcash’in mevcut iş ispatıyla birlikte çalıştıracak önerilmiş hibrit bir konsensüs tasarımıdır. Çalışmaya Shielded Labs liderlik eder ve `zebra-crosslink` deposunda bir prototip bulundurur. Crosslink bugün Zcash’in bir parçası değildir. [Crosslink protokolü](/zcash-tech/crosslink-protocol) |
+| Crosslink | Hisse ispatını Zcash’in mevcut iş ispatıyla birlikte çalıştıracak önerilmiş hibrit bir konsensüs tasarımıdır. Çalışmaya Shielded Labs liderlik eder ve `crosslink_monolith` deposundan Feature Net adlı bir test ağı çalıştırır. Önceki `zebra-crosslink` prototip deposu Kasım 2026’da kullanımdan kaldırıldı. Crosslink bugün Zcash’in bir parçası değildir. [Crosslink protokolü](/zcash-tech/crosslink-protocol) |
 | CrossPay | ZODL cüzdanındaki bir özelliktir; merkezi bir borsa yerine NEAR Intents üzerinden yönlendirilerek, alıcının tercih ettiği varlık ve zincirde ödeme almasını sağlarken shielded ZEC harcamanıza olanak tanır. |
 | Cypherpunk Zero | ECC, illüstratör Stranger Wolf, Mighty Jaxx ve seçili ekosistem ortakları arasındaki yaratıcı bir evren ve iş birliği girişimi. [Cypherpunk Zero Sosyal](https://x.com/cypherpunkZero) / [OpenSea Koleksiyonu](https://opensea.io/collection/cypherpunk-zero) |
 
@@ -127,11 +127,11 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 | Terim | Tanım |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Shielded Labs tarafından, protokolün uzun vadeli güvenlik bütçesinin tamamen ihraçlara dayanmaması için işlem ücretlerinin bir kısmının yakılmasını öneren bir teklif. ZIP 234'te belirtilmiştir, 2026 itibarıyla inceleme altındadır. |
-| Nighthawk | Zcash için bir mobil cüzdan. [Web Sitesi](https://nighthawkwallet.com) |
+| Nighthawk | Nighthawk Apps tarafından sunulan, artık kullanılmayan eski bir Zcash mobil cüzdan. Zcash cüzdanlarının bakımı artık yapılmıyor; Nighthawk Wallet 3.0 ise bunun yerine DarkFi için geliştirildi. Eski bir Nighthawk seed'indeki fonları taşımak için [Fonları Kurtarma](/using-zcash/recovering-funds) sayfasına bakın. |
 | Noir Wallet | Zcash Community Grants tarafından desteklenen, shielded ZEC'i QR kodlara ve manuel transferlere dayanmak yerine doğrudan tarayıcı uygulamalarına bağlamak için geliştirilmiş bir Zcash tarayıcı eklentisi cüzdanı. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | Orchard shielded havuzu ve Unified Address'leri tanıtan, Zcash için 6. Büyük Ağ Yükseltmesi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
-| NU6 | Zcash Community Grants programını ve Ertelenmiş Geliştirici Fonu Kilit Kutusu'nu finanse etmek için blok sübvansiyonunu ayarlayan, Zcash için 7. Büyük Ağ Yükseltmesi. 2024'ün sonlarında etkinleştirildi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | Ironwood'dan sonraki ağ yükseltmesi; ana ağ için 5 Kasım 2026 hedefleniyor. [ZIP 259](https://zips.z.cash/zip-0259) uyarınca, 25 saniyelik blokları (ZIP 218), ücret geri dönüşümüyle birlikte Network Sustainability Mechanism'i (ZIP 235 ve 237) ve Sprout fonlarını harcanamaz hâle getiren sürüm 4 işlemlerinin sona ermesini (ZIP 2003) getiriyor. Yeni bir işlem formatı eklemiyor; Tachyon ve Zcash Shielded Assets bunun parçası değil. |
+| NU6 | Zcash için 7. Büyük Ağ Yükseltmesi; Zcash Community Grants programını ve Ertelenmiş Geliştirici Fonu Kilit Kutusu'nu finanse etmek için blok sübvansiyonunu ayarlıyor. 2024'ün sonlarında etkinleştirildi. [Daha Fazla Bilgi](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
+| NU7 | Ironwood'dan sonraki ağ yükseltmesi; ana ağda 6 Kasım 2026'da (UTC) 3.543.405 yüksekliğinde etkinleştirildi. [ZIP 259](https://zips.z.cash/zip-0259) uyarınca, 25 saniyelik blokları (ZIP 218), ücret geri dönüşümüyle birlikte Network Sustainability Mechanism'i (ZIP'ler 235 ve 237) ve Sprout fonlarını harcanamaz hâle getiren sürüm 4 işlemlerinin sona ermesini (ZIP 2003) getiriyor. Yeni bir işlem formatı eklemiyor; Tachyon ve Zcash Shielded Assets bunun parçası değil. |
 
 ## O
 
@@ -209,7 +209,7 @@ Zcash ile ilgili temel terimler, kavramlar ve kaynaklar için kapsamlı bir söz
 
 | Terim | Tanım |
 |------|-----------|
-| Wallet | Özel anahtarları saklayan ve ZEC gönderip almanızı sağlayan yazılım veya donanım. Aktif cüzdanlar arasında ZODL (iOS/Android), Zingo! (mobil/masaüstü), Nighthawk (Android), Zkool (mobil/masaüstü), Zallet (yakında) ve Keystone (donanım) bulunur. Tam liste için bkz. [Zcash Ekosistem Cüzdanları](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Özel anahtarları saklayan ve ZEC gönderip almanızı sağlayan yazılım veya donanım. Aktif cüzdanlar arasında ZODL (iOS/Android), Zingo! (mobil/masaüstü), Zkool (mobil/masaüstü), Zallet (tam düğüm cüzdanı, beta aşamasında) ve Keystone (donanım) bulunur. Tam liste için bkz. [Zcash Ekosistem Cüzdanları](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | Tarayıcı ortamları için ChainSafe tarafından geliştirilen, Zcash için ilk JavaScript SDK'sı. MetaMask'e shielded ZEC getiren Zcash Shielded Wallet snap'inin temelini oluşturur. |
 
 ## X

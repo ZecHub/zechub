@@ -1,6 +1,6 @@
 # Otu esi agba Zebra na Akash Network
 
-Ntuziaka nzọụkwụ-site-nzọụkwụ maka ibuga full node Zebra Zcash site n'iji [Akash Console](https://console.akash.network).
+Ntuziaka nzọụkwụ-site-nzọụkwụ maka ibuga full node Zebra Zcash na Akash.
 
 ### Ihe Ị Na-ebuga
 
@@ -15,54 +15,92 @@ full node Zebra nke ga-eme:
 -> Jiri 4 vCPU, RAM 16GB, nchekwa 350GB (mainnet) ma ọ bụ 2 vCPU, RAM 8GB, 50GB (testnet)
 
 
-### Ihe Dị Mkpa: Nkụnye ọdụ ụgbọ mmiri na Akash
+Ụdị awesome-akash na-arapara ugbu a na **Zebra 7.0.0** (ọ bụghị `:latest`). Ọ na-eme ka Prometheus (`9999`) na ahụike (`8080`) rụọ ọrụ n'ime ime, JSON-RPC n'ime ime maka **lightwalletd** dị n'otu ebe na gRPC **9067**, yana ọkọlọtọ njirimara `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD`.
 
-Mgbe ị kpughere ọdụ ụgbọ mmiri na Akash (dịka ọmụmaatụ, ọdụ 8233 maka Zebra P2P), ọ **NAGHỊ ejikọta na kpọmkwem ọdụ ahụ** na IP ọha nke onye na-eweta ọrụ. Kama nke ahụ, onye na-eweta ọrụ na-ekenye ọdụ dị elu na-enweghị usoro (dịka 31234 ma ọ bụ 42567) wee jiri reverse-proxy jikọta ya na ọdụ 8233 nke container gị.
+Maka node Mainnet e bepụrụ ka ọ dị ngwa karịa, lee [Otu esi arụ ọrụ Zakura na Akash](/guides/akash-network-zakura). Maka dashboard Regtest a ga-atụfu, lee [Otú a ka Zakura kwuru na Akash](/guides/thus-spoke-zakura-akash).
 
-E mere nke a kpọmkwem otú ahụ - ndị na-eweta ọrụ na-agba ọtụtụ deployment, ha ga-enwe esemokwu ma ọ bụrụ na onye ọ bụla nwaa iji ọdụ 8233 ozugbo.
+### Otu Akash si ebipụta ọdụ ụgbọ mmiri
 
-**Ihe nke a pụtara nye gị:**
+Nọmba ndị dị na SDL (`port` / `as`) bụ **ọdụ ụgbọ mmiri akpa**. Zebra ka na-ege ntị na **8233**, lightwalletd na **9067**, ebe nlele ahụike na **8080**. Nọmba ndị a bụ maka usoro ahụ na ọrụ ndị ọzọ nọ n’otu deployment (`zebra:8232`).
 
--> Ị na-ahazi ọdụ 8233 na SDL (ọdụ P2P ọkọlọtọ nke Zebra)
+Ha **abụghị** ọdụ ụgbọ mmiri dị na IP ọha onye na-eweta ọrụ.
 
--> Akash na-enye gị URI dịka *provider.com:31234*
+**Nke ndabara (ndebiri a):** enweghị IP pụrụ iche. Maka ikpughe TCP `global: true` ọ bụla, onye na-eweta ọrụ na-ejikọta **ọdụ ụgbọ mmiri dị elu nke a họpụtara na mberede** dị n’otu host ọtụtụ mmadụ na-ekerịta na ọdụ ụgbọ mmiri container gị. Mgbe oge mgbazinye gwụrụ, Console/Air **Leases → URIs** na-edepụta ebe njedebe ndị ahụ n’ezie, dịka ọmụmaatụ:
 
--> node Zcash ndị ọzọ na-ejikọta gị na *provider.com:31234*
+```
+zebra-8233: provider.example:31482
+lightwalletd-9067: provider.example:32011
+```
 
--> N'ime container gị, Zebra ka na-ege ntị na 8233
+Ndị ọgbọ na e-akpa ego na-eji **uru host:port ndị ahụ**. Detuo URI nke expose ị chọrọ (P2P vs lightwalletd). Ọ bụrụ na ị tọọ `ZEBRA_NETWORK__EXTERNAL_ADDR`, tọọ ya ka ọ bụrụ URI P2P nke e mapịrị (`provider.example:31482`), ọ bụghị `…:8233`.
 
+**HTTP** (`as: 80` na `http_options`, nke a na-eji na dashboard Thus Spoke): ọtụtụ ndị na-enye ọrụ na-ebipụta **aha nnabata ingress** (ọtụtụ mgbe na 80/443) kama iji ọdụ TCP na-enweghị usoro. Mepee URI maka ọrụ ahụ na ihe nchọgharị.
 
-A na-ahazi nke a na-akpaghị aka. Naanị jiri URI Akash nyere gị.
+**Nke dị n'ime** (`global: false` ma ọ bụ `to: service: lightwalletd`): DNS nke cluster naanị (`zebra:8232`). Enweghị URI ọha.
+
+**IP ndị e kenyere naanị ha** (`endpoints` / `kind: ip` na SDL) bụ **ihe mgbakwunye dị oke ọnụ**. Ha nwere ike ịdo IP ọha n'otu ebe, ma mgbe ụfọdụ dozie ọdụ ụgbọ mmiri `as` dị na IP ahụ. Ụdị ndebiri ndị a anaghị arịọ maka ya. Ọ bụrụ na ịchọrọ `host:8233` kwụsiri ike, tinyekwa ya n'onwe gị ma emechaa; tụọ anya ụgwọ mgbakwunye na ndị na-enye ọrụ ole na ole ga-etinye ọnụahịa.
+
+### Saịtị nke a ga-eji (Kwụọ ụhwọ)
+
+SDL ahụ ka bụ otu. Web UI Akash abụọ ahụ dị iche n’ụzọ e si Kwụọ ụhwọ.
+
+| Saịtị | Kwụọ ụhwọ | E-akpa ego |
+| --- | --- | --- |
+| [console.akash.network](https://console.akash.network) | Ịkwụ ụgwọ ọdịnala n'ịntanetị (kaadị / ụzọ ịkwụ ụgwọ fiat Console na-enye) | Akaụntụ Console |
+| [air.akash.network](https://air.akash.network) | Ịkwụ ụgwọ Akash chain nke aka ya (AKT / ACT) | **Keplr** |
+
+Jiri **Air** mgbe ịchọrọ ịkwụ ụgwọ na Keplr na chain. Jiri **Console** mgbe ịchọrọ usoro ịkwụ ụgwọ webụ nke a na-emekarị. Atụla anya ka Keplr dozie ụgwọ na Console n’ụzọ nkịtị.
 
 ### Ihe Achọrọ Tupu Ịmalite
 
-1. Etinyela mgbatị ihe nchọgharị **Keplr Wallet** (Chrome/Brave/Firefox)
-2. **token AKT** - Nweta AKT 50-100 site na exchange (Coinbase, Kraken, Osmosis)
-3. **Nkeji 5** iji pịa site na UI Console
+**Ọ bụrụ na ịkwụ ụgwọ na Console (nlele ịkwụ ụgwọ na weebụ)**
 
-#### Nzọụkwụ 1: Jikọọ e-akpa ego Gị
+1. Akaụntụ Console na [console.akash.network](https://console.akash.network)
+2. Ụzọ Kwụọ ụhwọ nke Console UI na-anabata
+3. Nkeji ole na ole n'ime UI
+
+**Ọ bụrụ na ịkwụ ụgwọ na Air (nke e wuru n’ime ya Akash / Keplr)**
+
+1. **Keplr** ndọtị ihe nchọgharị (Chrome/Brave/Firefox)
+2. **AKT / ACT** dị na Keplr maka nkwụnye ego na mgbazinye (site na exchange ma ọ bụ IBC)
+3. Mepee [air.akash.network](https://air.akash.network)
+
+#### Nzọụkwụ 1: Jikọọ
+
+**Console (ịkwụ ụgwọ web)**
 
 -> Gaa na [https://console.akash.network](https://console.akash.network)
 
--> Pịa **"Jikọọ e-akpa ego"** n'elu aka nri
+-> Banye / mezue usoro akaụntụ Console
 
--> Họrọ **Keplr** (ma ọ bụ e-akpa ego Cosmos masịrị gị)
+Jiri checkout UI gosiri gị (ọ bụghị Keplr on-chain)
 
--> Kwado njikọ ahụ mgbe Keplr pụtara
+**Air (Kwụọ ụhwọ Akash nke ala ya)**
 
+-> Gaa na [https://air.akash.network](https://air.akash.network)
 
-Nha AKT gị kwesịrị ịpụta n'elu aka nri. Ọ bụrụ na ọ bụ efu, buru ụzọ tinye ego n'e-akpa ego gị.
+-> Pịa **"Jikọọ e-akpa ego"**
+
+-> Họrọ **Keplr** ma kwado njikọ ahụ
+
+-> Kwenye na ego AKT/ACT dị na gị ezuru maka ego nkwụnye ego yana ụgwọ mgbazinye
 
 #### Nzọụkwụ 2: Mepụta Deployment
 
--> Pịa bọtịnụ **"Deploy"** (nnukwu bọtịnụ anụnụ, n'etiti ibe)
+-> Pịa **"Deploy"**
 
 -> Họrọ **"Wuo template gị"** (ma ọ bụ gaa ozugbo n'itinye SDL)
 
 
 ##### Nhọrọ A: Bulite Faịlụ SDL (A Tụrụ Aro)
 
-[![Deploy on Akash](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+**Ịkwụ ụgwọ na Web (Console)**
+
+[![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+
+**Kwụọ ụhwọ nke Akash sitere na ya na Keplr (Air)**
+
+[Mepee ndebiri a na Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
 ##### Nhọrọ B: Jiri SDL Editor
 
@@ -79,13 +117,13 @@ Nha AKT gị kwesịrị ịpụta n'elu aka nri. Ọ bụrụ na ọ bụ efu, 
 
 #### Nzọụkwụ 3: Nyochaa ma Kwado Deposit
 
-Console ga-egosi gị:
+UI ga-egosi gị:
 
 -> **Deposit deployment**: ~5 AKT (ị ga-enwetaghachi nke a mgbe ị mechiri deployment)
 
 -> **Ọnụ ego e mere atụmatụ**: Dabere na ọnụahịa SDL gị
 
-Pịa **"Kwado"** wee bịanye aka na Azụmahia ahụ na Keplr.
+Na **Air**, pịa **"Kwado"** wee banye **Keplr**. Na **Console**, mezue ịkwụ ụgwọ na web dịka UI gosiri.
 
 #### Nzọụkwụ 4: Họrọ Onye Na-eweta Ọrụ
 
@@ -107,7 +145,7 @@ Mgbe ihe dị ka sekọnd 30 gachara, ị ga-ahụ bid sitere n'aka ndị na-ewe
 -> Ọnọdụ enyochara (akara nlele ndụ ndụ = ntụkwasị obi ka ukwuu)
 
 
-Pịa **"Nabata Bid"** n'aka onye na-eweta ọrụ ị họọrọ wee bịanye aka na Keplr.
+Pịa **"Nabata onyinye"** na ndị na-eweta ọrụ ị họọrọ. Na Air, banye Keplr. Na Console, jiri usoro ịkwụ ụgwọ webụ gosi nkwenye.
 
 #### Nzọụkwụ 5: Chere Ka Deployment Gaa N'ihu
 
@@ -158,15 +196,14 @@ Pịa taabụ **Leases**, wee pịa **URIs**.
 
 Ị ga-ahụ ihe dịka:
 
-```bash
-zebra-8233: provider-hostname.com:31234
+```
+zebra-8233: provider-hostname.com:31482
+lightwalletd-9067: provider-hostname.com:32011
 ```
 
-Nke a bụ **endpoint P2P ọha** nke node gị. node Zcash ndị ọzọ ga-ejikọta gị na Adreesị akpa ego a.
+Ahịrị nke ọ bụla bụ otu `global: true` ekpughere. Aha ahụ gụnyere ọdụ ụgbọ mmiri SDL `as` (8233, 9067). Nọmba dị n’azụ aha nnabata bụ **ọdụ ụgbọ mmiri onye na-eweta ọrụ mapụtara**, nke a na-ekenye n’oge mgbazinye. Node Zcash ndị ọzọ na-akpọ `provider-hostname.com:31482`. E-akpa ego kọmpat na-eji URI lightwalletd (TLS agbanyụghị ya ma ọ bụrụ na unu ejighị aka unu mechie TLS).
 
-**Rịba ama nkụnye ọdụ ụgbọ mmiri:** Ị haziri ọdụ 8233 na SDL, mana Akash kenyere ya ọdụ ọha ọzọ (31234 na ihe atụ a). Nke a bụ ihe nkịtị - lee ngalaba "Nkụnye ọdụ ụgbọ mmiri na Akash" dị n'elu ma ọ bụrụ na nke a agbagwoju gị anya. A na-enweta node gị na ọdụ ọ bụla Akash gosiri ebe a, ọ bụghị n'ezie 8233.
-
-Ọ bụrụ na ị kwadoro RPC (a kpọchiri ya na mbụ na SDL), ị ga-ahụkwa endpoint RPC ebe a yana ọdụ ekenyere ya.
+Akpa ahụ ka na-ege ntị na 8233 / 9067. Adreesị ọha bụ URI mgbe niile, ma ọ bụrụ na ị tinyeghị IP pụrụ iche ma emechaa (nke adịghị na ndebiri a).
 
 ### Nhọrọ Nhazi
 
@@ -267,7 +304,7 @@ A kwụsịrị RPC na ndabara maka nchekwa. Iji kwado ya:
 
 **Ịdọ aka ná ntị**: Ọ bụrụ na ị tọọ *global: true* maka RPC, ị na-ekpughe ya n'ịntanetị. Zebra na-eji cookie auth na ndabara, mana ka o sina dị - emela nke a ma ọ bụrụ na ị maghị ihe ị na-eme.
 
-**Nchetara nkụnye ọdụ ụgbọ mmiri**: Ọbụna ma ọ bụrụ na ị kpughere RPC n'ụwa niile, Akash ga-akụnye ya na ọdụ dị elu na-enweghị usoro (ọ bụghị 8232/18232). Lelee URIs na deployment gị iji hụ endpoint ọha n'ezie. Maka *global: false* (a tụrụ aro), endpoint RPC na-adị naanị n'ime netwọk deployment Akash, ọ bụghị site n'ịntanetị ọha.
+Ọ bụrụ na i jiri `global: true` kpughee RPC, adreesị ọha ka bụ **lease URI** (`host:&lt;random-high-port&gt;`), ọ bụghị `host:8232`. Site na `global: false` (ndezi a), RPC na-anọgide na network mbunye (`zebra:8232` maka lightwalletd). Mgbazinye IP pụrụ iche bụ nhọrọ a na-akwụ ụgwọ iche, ọ dịghịkwa na SDL.
 
 #### Kwado Metrics (Prometheus)
 
@@ -319,7 +356,7 @@ Iji nakọta metrics maka nlekota:
 
 -> Dezie SDL
 
--> Pịa **"Update"** wee kwado na Keplr
+-> Pịa **"Melite"** (Air: banye na Keplr; Console: kwenye usoro ịkwụ ụgwọ weebụ)
 
 **Rịba ama**: Imelite ga-amaliteghachi container gị. node ga-aga n'ihu site n'ọnọdụ echekwara ya (nchekwa na-adịgide adịgide), mana tụrụ anya nkeji 1-2 nke downtime.
 
@@ -348,7 +385,7 @@ Mgbe ị mechara ma ọ bụ chọọ ịkwụsị ịkwụ ụgwọ:
 
 -> Pịa **"Close Deployment"**
 
--> Kwenye wee bịanye aka na Keplr
+-> Kwenye (Air: banye na Keplr; Console: kwenye na UI Console)
 
 A ga-eweghachite deposit AKT 5 gị. **Nchekwa na-adịgide adịgide** kwesịrị ka onye na-eweta ọrụ chekwaa ya, mana atụkwasịla ya obi - were ya dịka onye na-eweta cloud ọ bụla ọzọ.
 
@@ -356,7 +393,7 @@ A ga-eweghachite deposit AKT 5 gị. **Nchekwa na-adịgide adịgide** kwesịr
 
 #### Njehie "Insufficient funds"
 
-Ị chọrọ AKT ọzọ. Tinye ego n'e-akpa ego Keplr gị.
+N'On Air, tinye ego na Keplr site na AKT/ACT. Na Console, jiri Ntinye ego tinye ego na ụzọ Kwụọ ụhwọ Console.
 
 #### Enweghị bid na-apụta
 
@@ -394,12 +431,11 @@ Kọwaa "ogologo oge":
 
 ### Njikwa Ọnụ Ego
 
-Lelee mmefu gị na Console:
+Soro mmefu ego unu na Console ma ọ bụ Air:
 
 -> **My Deployments** -> Deployment gị -> Na-egosi atụmatụ "Cost per month"
 
--> Nha e-akpa ego Keplr gị ga-ebelata ka oge na-aga
-
+-> Ikuku: nguzozi AKT/ACT gị Keplr na-ebelata ka oge na-aga. Console: nguzozi Kwụọ ụhwọ gị na Console na-ebelata.
 
 Mgbe nha gị belatara, Akash ga-emechi deployment gị na-akpaghị aka. **Na-etinye ego n'e-akpa ego gị mgbe ụfọdụ** ma ọ bụ hazie alerts.
 
@@ -433,7 +469,9 @@ Malite na Testnet ma ọ bụrụ na ị na-anwale naanị usoro deployment. Lee
 
 ### Akụrụngwa Ndị Ọzọ
 
-**Akash Console**: [https://console.akash.network](https://console.akash.network)
+**Console Akash** (ịkwụ ụgwọ na webụ): [https://console.akash.network](https://console.akash.network)
+
+**Akash Air** (AKT/ACT nke ala + Keplr): [https://air.akash.network](https://air.akash.network)
 
 **Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 

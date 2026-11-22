@@ -1,6 +1,28 @@
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Maya_Protocol.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
+</a>
+
 # Soko la kubadilishana sarafu lililogatuliwa la Maya
 
----
+> Maya Protocol ni soko la kubadilishana sarafu la cross-chain kwa ajili ya kubadilisha sarafu asilia (kwa mfano ETH au BTC kuwa ZEC) bila tokeni zilizofungwa, akaunti au KYC.
+
+## Kwa kifupi
+
+* Maya hubadilisha sarafu asilia kati ya blockchains: unatuma mali moja na kupokea nyingine kwenye mnyororo wake. Hakuna tokeni zilizofungwa, akaunti wala KYC.
+* Ni uma wa THORChain, uliojengwa kwa SDK ya Cosmos na kulindwa na waendeshaji wa node wanaoweka mtaji kama dhamana (Thibitisho la Dhamana).
+* Tokeni yake asilia ni $CACAO. Watoa ukwasi hupata ada za kubadilisha sarafu na hulindwa na Ulinzi dhidi ya Hasara Isiyodumu (ILP) baada ya siku 50.
+* Maya ni mfumo wa nyuma; unautumia kupitia kiolesura cha mtumiaji au pochi kama THORWallet, CacaoSwap, Asgardex, Ctrl Wallet au KeepKey.
+* Video ya mafunzo inaonyesha ubadilishaji wa ETH kuwa ZEC kwenye LeoDex, mojawapo ya violesura hivi.
+* Maya hutumia amana za ZEC za faragha/umoja kupitia SwapKit (matokeo ya thamani ya uwazi pamoja na ujumbe wa faragha), hivyo baadhi ya violesura vinaweza kupeleka ZEC moja kwa moja kwenye anwani ya umoja. Ikiwa yako inalipa kwenye anwani ya uwazi (t1), ihamishe kwenye bwawa la faragha kupitia pochi yako baadaye ili kulinda faragha.
+* Maya si chaguo pekee la kubadilisha sarafu asilia za ZEC: THORChain pia ina bwawa asilia la ZEC.
+
+## Maelezo ya Msingi
+
+Soko la kubadilishana sarafu lililowekwa katikati hushikilia sarafu zako na huhitaji utambulisho wako. Maya badala yake hutumia mtandao wa node zinazodhibiti hifadhi kwenye kila mnyororo unaotumika. Unatuma sarafu kwenye hifadhi ya Maya, angalau theluthi mbili ya node huthibitisha amana hiyo, kisha mali inayolingana hutumwa kutoka hifadhi nyingine kwenda kwenye anwani yako kwenye mnyororo lengwa.
+
+Waendeshaji wa node huweka dhamana inayoweza kupunguzwa iwapo watatenda vibaya, jambo linalowapa motisha ya kifedha ya kubaki waaminifu. Maya huongeza vipengele juu ya THORChain, kama vile node za ukwasi na muundo wake wa akiba, na pia hufanya kazi kama mtandao wa pili ulio huru kando yake.
+
+Sehemu zilizo hapa chini zinaeleza jinsi Maya inavyofanya kazi, thibitisho la dhamana (Proof of Bond), jinsi linavyotofautiana na THORChain, na pochi zipi zinazoiunga mkono.
 
 ## Mafunzo
 
@@ -29,7 +51,7 @@ Kwa namna hii, watumiaji wanaweza kutuma aina moja ya tokeni [token] kwenye bloc
 
 ## Thibitisho la Dhamana ni nini?
 
-Thibitisho la Dhamana [Proof of Bond] (PoB) ni utaratibu wa makubaliano ambapo waendeshaji wa node lazima waweke dhamana [bond] (kwa kawaida katika mfumo wa tokeni asilia ya mtandao) ili kushiriki katika mtandao. Dhamana hii hufanya kazi kama aina ya usalama wa kiuchumi, ikihakikisha kuwa node zinatenda kwa uaminifu na kudumisha uadilifu wa mtandao2. Ikiwa node itajaribu kutenda kwa nia mbaya au itashindwa kutekeleza majukumu yake, dhamana yake inaweza kupunguzwa, kumaanisha kuwa sehemu yake huchukuliwa kama adhabu.
+Thibitisho la Dhamana (PoB) ni utaratibu wa makubaliano ambapo waendeshaji wa node lazima waweke dhamana (kwa kawaida ikiwa katika mfumo wa tokeni asilia ya mtandao) ili kushiriki kwenye mtandao. Dhamana hii hutumika kama aina ya usalama wa kiuchumi, ikihakikisha kuwa node hutenda kwa uaminifu na kudumisha uadilifu wa mtandao. Ikiwa node itajaribu kutenda kwa nia mbaya au itashindwa kutekeleza wajibu wake, dhamana yake inaweza kupunguzwa, yaani, sehemu yake huondolewa kama adhabu.
 
 Katika Maya Protocol, utaratibu huu husaidia kuzalisha thamani ya kiuchumi kutoka rasilimali zilizowekwa na waendeshaji wa node, hivyo kuongeza ufanisi wa mtaji. Vivyo hivyo, katika THORChain, waendeshaji wa node huweka dhamana ya RUNE (tokeni asilia) ili kuulinda mtandao na kuhakikisha ushirikiano kati ya washiriki.
 
@@ -43,8 +65,8 @@ Badala ya kufuata Muundo wa Dhamana Pekee, Maya inazingatia kubadilika kwenda kw
 
 ### Ulinzi dhidi ya Hasara ya Muda
 
-Mfumo unaowalinda watoa ukwasi dhidi ya hasara ya muda (LPs) wanayoweza kupata wanapotoa ukwasi, kutokana na mabadiliko ya mara kwa mara ya bei za mali za kidijitali.
-ILP inashikilia 10% ya ugavi wa $CACAO (milioni 10 za $CACAO) na hujazwa upya mara kwa mara kwa 10% ya ada [fees] za itifaki. ILP huanza kutumika siku 50 baada ya amana ya ukwasi, huku ulinzi ukiwa na kikomo cha 100%.
+Mfumo unaowalinda watoa huduma za ukwasi (LPs) dhidi ya hasara ya muda wanayoweza kupata wanapotoa ukwasi, kutokana na mabadiliko ya mara kwa mara ya bei za mali za crypto.
+ILP inashikilia 10% ya jumla ya usambazaji wa $CACAO ($CACAO milioni 10), na hujazwa tena kila wakati kwa 10% ya ada za itifaki. ILP huanza kufanya kazi siku 50 baada ya kuweka amana ya ukwasi, huku kiwango cha juu cha bima kikiwa 100%.
 
 Muda wa ulinzi wa ILP hutegemea utendaji wa ASSET na $CACAO. Ulinzi kamili hufikiwa baada ya siku 150 ikiwa ASSET inafanya vizuri zaidi, na baada ya siku 450 ikiwa $CACAO inafanya vizuri zaidi. ILP hulipwa na kuwekwa upya wakati wa utoaji kamili wa fedha, lakini haiathiriwi na utoaji wa sehemu. Kwa kuongeza salio [top-ups], ILP huwekwa upya lakini hailipwi.
 
@@ -58,7 +80,7 @@ Wakati wa uzinduzi wa Maya Protocol, akiba za CACAO zilizopatikana zilikuwa 10% 
 
 Hata hivyo, licha ya tofauti zake, Maya pia hufanya kazi kama suluhisho linalokamilisha THORChain, likitoa urudufu, upanuzi na uthibitishaji, na kuunganisha mitandao mipya isiyopo katika utekelezaji wa sasa wa THORChain.
 
-Pia, lengo la Maya ni kuwa *backend* kwa huduma nyingine kujenga juu yake, kwa matumaini ya kuona *frontends* nyingi mpya, au huduma za DEX zilizojengwa juu ya miundombinu ya Maya.
+Pia, lengo la Maya ni kuwa *backend* ambayo huduma nyingine zinaweza kujenga juu yake, kwa matumaini ya kuona *frontends* nyingi mpya, au huduma za DEX zinazojengwa juu ya miundombinu ya Maya.
 
 ## Ujumuishaji wa pochi wa Maya Protocol
 
@@ -67,7 +89,7 @@ Hii hapa ni orodha ya baadhi ya huduma zinazounga mkono Maya tayari:
 
 [THORWallet DEX](https://www.thorwallet.org/): Ledger, XDEFI, MetaMask, Keystore
 
-[El Dorado](https://www.eldorado.market/): XDEFI, Keystore
+El Dorado: haipatikani tena mtandaoni, na jina lake la kikoa halitatuliwi.
 
 [CacaoSwap](https://cacaoswap.app/): Keystore, MetaMask, XDEFI, Keplr, Leap
 

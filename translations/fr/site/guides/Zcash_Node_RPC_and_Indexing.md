@@ -116,9 +116,10 @@ Le gRPC de Zaino est en h2c en clair sur tous les réseaux. Terminez le TLS au n
 
 ### Autres indexeurs (hors Z3)
 
-* **lightwalletd** — l'ancien serveur de blocs compacts. Toujours déployé en pratique ; Zaino est la voie qui lui succède pour ce rôle.
-* **Ztreamer** — un indexeur reposant sur Zakura et une implémentation de `CompactTxStreamer`. Ce n'est pas un service Z3. Consultez le [dépôt Ztreamer](https://github.com/zcashlabs/ztreamer).
-* **Zebra `rpc.indexer_listen_addr`** — un écouteur gRPC optionnel *intégré à* Zebra. Z3 ne l'exige pas et ne le publie pas sur l'hôte.
+* **lightwalletd** — l’ancien serveur de blocs compacts. Toujours déployé en pratique ; Zaino est la voie qui lui succède pour ce rôle.
+* **Ztreamer** — un indexeur reposant sur Zakura et une implémentation de `CompactTxStreamer`. Ce n’est pas un service Z3. Consultez le dépôt [Ztreamer](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — l’indexeur de Zcash Foundation (alpha). Il lit les données d’un nœud d’archive Zebra ou Zakura et expose sa propre API gRPC `WalletQuery` ainsi qu’un adaptateur `CompactTxStreamer` compatible avec lightwalletd. Son guide de démarrage rapide le fait fonctionner à côté d’un nœud Z3, mais ce n’est pas un service Z3. Consultez [Zinder](/zcash-tech/zinder).
+* **Zebra `rpc.indexer_listen_addr`** — un écouteur gRPC optionnel *intégré à* Zebra. Z3 ne l’exige pas et ne le publie pas sur l’hôte.
 
 ---
 
@@ -145,8 +146,9 @@ Le gRPC de Zaino est en h2c en clair sur tous les réseaux. Terminez le TLS au n
 * [Nœuds complets](/zcash-tech/full-nodes)
 * [Nœud complet Zebra](/zcash-tech/zebra-full-node)
 * [Nœuds pour portefeuilles légers](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (ou Zaino) sur Kubernetes ou Docker Compose
 * [Guide de migration : de zcashd vers Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
-* [Tutoriel Zingolib et Zaino](/guides/zingolib-and-zaino-tutorial)
+* [Zingolib et Zaino tutoriel](/guides/zingolib-and-zaino-tutorial)
 
 ## Ressources
 

@@ -81,13 +81,13 @@ Zaino geliştiricileri, doğrudan tehdit modeline atıf yaparak aynı savı öne
 
 [Zaino](/zcash-tech/zaino), zcashd kullanım dışı bırakma çalışmasının parçası olarak lightwalletd'nin yerini almak üzere Zingo ekibi tarafından Rust ile yazılmış bir indeksleyicidir. Hafif istemcilere, tam istemcilere ve blok gezginlerine hizmet verir; zincir verilerini "Zebra veya zcashd tam doğrulayıcısından" okur.
 
-Ağustos 2026'da yayımlanan 0.8.0 sürümüyle aktif geliştirme altındadır. Mümkün olan yerlerde lightwalletd ile geriye dönük uyumlu kalmayı hedefler; böylece cüzdanlar yeniden yazılmadan ona yönlendirilebilir.
+Eylül 2026'da yayımlanan 0.10.1 sürümüyle aktif geliştirme altındadır. Mümkün olan yerlerde lightwalletd ile geriye dönük uyumlu kalmayı hedefler; böylece cüzdanlar yeniden yazılmadan ona yönlendirilebilir.
 
 Zaino'nun mimari diyagramlar içeren kendi sayfası vardır; bu nedenle bu sayfa yalnızca hafif cüzdan sunucusu rolünü kapsar.
 
 ### Kendi sunucunuzu çalıştırma
 
-En güçlü seçenek, güven sorusunu tamamen ortadan kaldıran kendi operatörünüz olmaktır. Her iki sunucu da açık kaynaklıdır: Go ile yazılmış [lightwalletd](https://github.com/zcash/lightwalletd) ve Rust ile yazılmış [Zaino](https://github.com/zingolabs/zaino). Her ikisi de tam doğrulayıcıdan okur; bu nedenle [Zebra](/zcash-tech/zebra-full-node)'ya da ihtiyacınız olacaktır.
+En güçlü seçenek, güven sorusunu tamamen ortadan kaldıran kendi operatörünüz olmaktır. Her iki sunucu da açık kaynaklıdır: Go ile yazılmış [lightwalletd](https://github.com/zcash/lightwalletd) ve Rust ile yazılmış [Zaino](https://github.com/zingolabs/zaino). Her ikisi de tam doğrulayıcıdan okur; bu nedenle [Zebra](/zcash-tech/zebra-full-node)'ya da ihtiyacınız olacaktır. zec.rocks sunucuları, açık kaynaklı bir Helm chart'ı olan [Zcash Stack](/guides/zcash-stack) ve Zebra ile lightwalletd'yı birlikte çalıştıran Docker Compose kitiyle dağıtılır.
 
 ## Pratik Sonuçlar
 
@@ -117,11 +117,9 @@ Aşağıdaki menü yolları bu sayfa güncellendiğinde doğruydu; ancak cüzdan
 
 Eskiden Zashi. Sağ üst köşedeki dişli simgesi, ardından Gelişmiş Ayarlar. Tor aynı ekranda bulunur. ZODL ayrıca bir senkronizasyon hatası sunucunun güncel olmamasından kaynaklandığında Sunucuyu değiştir kısayolu sunar.
 
-#### Ywallet
+#### Zkool
 
-Sağ üst köşedeki dişli simgesi, ardından Zcash sekmesi.
-
-![Ywallet server settings](/content-images/b0a2910b-dbdf-4292-8e69-af5a386aa183-f51f098d19.webp)
+Ywallet’ın halefi; aynı geliştirici tarafından geliştirilmiştir (Ywallet artık bakımı yapılmadığı için Ironwood sonrasında ağı takip edemiyor). Hesaplar ekranının üst kısmındaki dişli simgesi (Open Settings), ardından Light Node Server alanı. Yanındaki liste düğmesi bilinen sunuculardan seçim yapar; altındaki Direct / Tor / Nym / Proxy anahtarı ise cüzdanın nasıl bağlanacağını belirler.
 
 #### Zingo
 
@@ -153,10 +151,11 @@ Hafif cüzdanlar, disk alanı gereksinimi olmadan size korumalı havuzu sunar; b
 
 ## İlgili Sayfalar
 
-- [Zcash Ödemenizi Kim Görebilir](/start-here/who-can-see-your-zcash-payment) — aynı sorunun başlangıç düzeyindeki görünümü.
-- [Bir Blok Gezgini Neleri Görebilir](/zcash-tech/what-a-block-explorer-can-see) — sunucuda görünene karşılık, zincir üzerinde görünenler.
-- [Zaino](/zcash-tech/zaino) — mimari diyagramlar ve Rust indeksleyicisinin daha geniş rolü.
-- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) — hafif cüzdan sunucusunun okuduğu doğrulayıcı.
-- [Zcash Cüzdan Senkronizasyonu](/zcash-tech/zcash-wallet-syncing) — sunucunun gönderdiği sıkıştırılmış blokların cüzdanınız tarafından nasıl işlendiği.
+- [Kimler Zcash Ödemenizi](/start-here/who-can-see-your-zcash-payment) Görebilir — aynı soruya başlangıç düzeyinde bir bakış.
+- [Bir Blok Gezgini Neleri Görebilir](/zcash-tech/what-a-block-explorer-can-see) — sunucu tarafında görülebilenlerin aksine, zincir üzerinde nelerin görülebildiği.
+- [Zaino](/zcash-tech/zaino) — mimari diyagramları ve Rust dizinleyicisinin daha geniş kapsamlı rolü.
+- [Zinder](/zcash-tech/zinder) — Zcash Foundation'ın ışık cüzdanlarına lightwalletd uyumlu bir adaptör aracılığıyla hizmet veren alfa dizinleyicisi.
+- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) — ışık cüzdanı sunucusunun veri okuduğu doğrulayıcı.
+- [Zcash Cüzdan Senkronizasyonu](/zcash-tech/zcash-wallet-syncing) — sunucunun gönderdiği kompakt blokların cüzdanınız tarafından nasıl işlendiği.
 
 **Son güncelleme:** Ağustos 2026

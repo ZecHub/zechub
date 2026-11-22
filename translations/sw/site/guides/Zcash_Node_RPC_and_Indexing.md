@@ -4,41 +4,41 @@
 
 # Mwongozo wa Vitendo: Zcash Node RPC na Uorodheshaji wa Blockchain
 
-Ukurasa huu ni mwongozo wa kuwasiliana na full node inayofanya kazi ya Zcash kupitia JSON-RPC na kuunganisha kiorodheshi ambacho pochi nyepesi na vichunguzi vinaweza kuuliza. Huu **si** mwongozo wa pili wa usakinishaji.
+Ukurasa huu ni mkusanyiko wa maelekezo ya kuwasiliana na Zcash full node inayoendesha kupitia JSON-RPC na kuunganisha kihorodha ambacho pochi nyepesi na vivinjari vinaweza kuuliza. **Huu si mwongozo mwingine wa usakinishaji.**
 
-Kwa maelezo ya jinsi ya kuanzisha mfumo baada ya `zcashd` (Zebra + Zallet, Zaino ya hiari, bandari, kiasi cha hifadhi, uanzishaji wa awamu mbili), tumia ukurasa wa [Mfumo wa Z3](/zcash-tech/z3-stack) na [hazina ya Z3](https://github.com/ZcashFoundation/z3). Kwa maelezo ya msingi kuhusu node ya makubaliano [consensus node], angalia [Full Nodes](/zcash-tech/full-nodes) na [Zebra Full Node](/zcash-tech/zebra-full-node).
+Kwa maelekezo ya kuwasha mfumo wa baada ya `zcashd` (Zebra + Zallet, Zaino ya hiari, milango, ujazo, kuwasha kwa awamu mbili), tumia ukurasa wa [Z3 Stack](/zcash-tech/z3-stack) na [hazina ya Z3](https://github.com/ZcashFoundation/z3). Kwa maelezo ya msingi kuhusu consensus-node, angalia [Full Nodes](/zcash-tech/full-nodes) na [Zebra Full Node](/zcash-tech/zebra-full-node).
 
-`zcashd` ilifikia mwisho wa matumizi tarehe 18 Julai 2026. Kazi mpya za waendeshaji zinapaswa kulenga Zebra (au [Zakura](/zcash-tech/zakura-node)) pamoja na pochi/kiorodheshi, si `zcashd`.
-
----
-
-## Kwa Muhtasari
-
-* **JSON-RPC** ndiyo njia ambayo waendeshaji na pochi huuliza node kuhusu kilele cha mnyororo [chain tip], wenzake, na (kwenye mchakato wa pochi) salio. Kwenye Z3, Zebra hutoa node RPC; Zallet hutoa pochi RPC.
-* **Regtest** ni mahali sahihi pa kujifunza miito hiyo. Kipanga njia cha RPC cha Z3 kwenye `http://127.0.0.1:8181` hukubali `zebra` / `zebra` na kuelekeza mbinu za node kwa Zebra na mbinu za pochi kwa Zallet.
-* **Mainnet na testnet** hutumia uthibitishaji wa cookie kwenye Zebra. Usinakili jina la mtumiaji/nenosiri la regtest kwenye node ya umma.
-* **Uorodheshaji [Indexing]** ni kazi tofauti na uthibitishaji. Zebra huthibitisha. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) hutoa gRPC inayooana na lightwalletd. [Ztreamer](https://github.com/distractedm1nd/ztreamer) ni kiorodheshi kinachotegemea Zakura; si kile ambacho Z3 husambaza.
-* JSON-RPC ya Zaino na gRPC ya hiari ya kiorodheshi cha Zebra ni kwa loopback au mtandao unaoaminika. Usiziweke hadharani bila uthibitishaji kwenye intaneti ya umma.
+`zcashd` ilifikia mwisho wa kipindi chake cha matumizi tarehe 18 Julai 2026. Kazi mpya za waendeshaji zinapaswa kulenga Zebra (au [Zakura](/zcash-tech/zakura-node)) pamoja na pochi/kihorodha, wala si `zcashd`.
 
 ---
 
-## Ni mchakato upi hujibu mwito upi
+## Kwa kifupi
 
-| Unataka | Wasiliana na | Bandari ya seva pangishi ya Z3 mainnet | Maelezo |
+* **JSON-RPC** ndiyo njia ambayo waendeshaji na pochi hutumia kuuliza node kuhusu kilele cha mnyororo, wenzao, na salio (kwenye mchakato wa pochi). Kwenye Z3, Zebra hutoa node RPC; Zallet hutoa wallet RPC.
+* **Regtest** ndiyo mahali panapofaa kujifunza maombi haya. Kipanga njia cha rpc-router cha Z3 kwenye `http://127.0.0.1:8181` kinakubali `zebra` / `zebra` na kuelekeza mbinu za node kwa Zebra na mbinu za wallet kwa Zallet.
+* **Mainnet na testnet** hutumia uthibitishaji wa cookie kwenye Zebra. Usinakili jina la mtumiaji/nenosiri la regtest kwenda kwenye node ya umma.
+* **Uorodheshaji** ni kazi tofauti na uthibitishaji. Zebra huthibitisha. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) hutoa gRPC inayooana na lightwalletd. [Ztreamer](https://github.com/zcashlabs/ztreamer) ni kihorodha kinachotumia Zakura; hakisambazwi na Z3.
+* JSON-RPC ya Zaino na gRPC ya kihorodha cha hiari cha Zebra ni kwa mawasiliano ya ndani ya kifaa au mtandao unaoaminika. Usivifichue bila uthibitishaji kwenye intaneti ya umma.
+
+---
+
+## Ni mchakato upi hujibu ombi gani
+
+| Unachotaka | Wasiliana na | Mlango wa mwenyeji wa Z3 mainnet | Maelezo |
 | --- | --- | --- | --- |
-| Kilele cha mnyororo, wenzake, `getblockchaininfo` | JSON-RPC ya Zebra | 8232 | Uthibitishaji wa cookie |
+| Kilele cha mnyororo, wenzao, `getblockchaininfo` | JSON-RPC ya Zebra | 8232 | Uthibitishaji wa cookie |
 | Salio la pochi, anwani, kutuma | RPC ya Zallet | 28232 | Mchakato tofauti; programu ya beta |
-| Block fupi za pochi nyepesi | gRPC ya Zaino | 8137 | Kwa `--profile indexer` pekee; h2c ya maandishi wazi |
-| Proksi ya JSON-RPC ya kichunguzi / chanzo cha sarafu za bure | JSON-RPC ya Zaino | 8237 | Mtandao unaoaminika pekee |
-| Kufanyia mazoezi yote yaliyo hapo juu bila kusawazisha | Kipanga njia cha RPC cha Z3 regtest | 8181 | Jina la mtumiaji `zebra` / nenosiri `zebra` |
+| blocks fupi kwa pochi nyepesi | gRPC ya Zaino | 8137 | Kwa `--profile indexer` pekee; h2c ya maandishi wazi |
+| Wakala wa JSON-RPC wa kichunguzi / chanzo cha sarafu za bure | JSON-RPC ya Zaino | 8237 | Mtandao unaoaminika pekee |
+| Fanya mazoezi ya yote hapo juu bila kusawazisha | Kipanga njia cha rpc-router cha Z3 regtest | 8181 | Jina la mtumiaji `zebra` / nenosiri `zebra` |
 
-Jedwali la bandari na majina ya miradi ya Compose: [Mfumo wa Z3](/zcash-tech/z3-stack) na [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
+Jedwali la milango na majina ya miradi ya Compose: [Z3 Stack](/zcash-tech/z3-stack) na [`z3-contract.yaml`](https://github.com/ZcashFoundation/z3/blob/main/z3-contract.yaml).
 
 ---
 
-## Fanyia mazoezi kwenye regtest kwanza
+## Fanya mazoezi kwenye regtest kwanza
 
-Kutoka kwenye checkout ya Z3, baada ya `./scripts/regtest-init.sh` na `docker compose --env-file .env.regtest up -d`:
+Kutoka kwenye nakala ya Z3, baada ya `./scripts/regtest-init.sh` na `docker compose --env-file .env.regtest up -d`:
 
 ```bash
 # Node method (Zebra)
@@ -52,17 +52,17 @@ curl -s -X POST -H "Content-Type: application/json" \
   http://127.0.0.1:8181
 ```
 
-Matokeo salama ya `getblockchaininfo` yanajumuisha `"blocks"` na ramani ya `"upgrades"`. Ikiwa curl inanasa, kipanga njia hakijaanza; ukipata `401`, unawasiliana na Zebra moja kwa moja badala ya kipanga njia (Zebra ya moja kwa moja kwenye regtest ni `29232` na bado inatarajia vitambulisho vya kipanga njia isipokuwa umevibadilisha).
+Jibu lenye afya la `getblockchaininfo` linajumuisha `"blocks"` na ramani ya `"upgrades"`. Ikiwa curl inasubiri bila majibu, kipanga njia hakijawashwa; ukipata `401`, unawasiliana na Zebra moja kwa moja badala ya kipanga njia (Zebra ya moja kwa moja kwenye regtest ni `29232` na bado huhitaji kitambulisho cha kipanga njia isipokuwa umebadilisha).
 
-Mtiririko kamili wa kazi wa regtest, ikijumuisha uchimbaji wa block za uanzishaji: [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
+Mtiririko kamili wa kazi wa regtest, ikijumuisha uchimbaji wa blocks za uamilishaji: [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
 
 ---
 
 ## JSON-RPC ya Mainnet / testnet (uthibitishaji wa cookie)
 
-Kwenye mainnet na testnet, Zallet na huduma ya hiari ya Zaino husoma **kiasi cha hifadhi cha cookie kinachoshirikiwa**. Cookie hiyo huzalishwa upya wakati wa uanzishaji; si lengo la kuhifadhi nakala.
+Kwenye mainnet na testnet, Zallet na huduma ya hiari ya Zaino husoma **ujazo wa cookie unaoshirikiwa**. Cookie hiyo hutengenezwa upya wakati wa kuwasha; si lengwa la nakala rudufu.
 
-**Usichapishe** JSON-RPC ya Zebra kwenye intaneti ya umma. Iite kutoka kwenye mtandao wa Compose (`zebra:8232`) au kutoka kwa seva pangishi tu ikiwa umeifunga kwenye loopback.
+**Usichapishe** JSON-RPC ya Zebra kwenye intaneti ya umma. Iite kutoka kwenye mtandao wa Compose (`zebra:8232`) au kutoka kwa mwenyeji ikiwa tu umeifunga kwenye loopback.
 
 Ukaguzi wa kawaida wa mwendeshaji baada ya Zebra kuwa `/ready`:
 
@@ -74,25 +74,25 @@ Ukaguzi wa kawaida wa mwendeshaji baada ya Zebra kuwa `/ready`:
 docker compose --env-file .env.mainnet up -d
 ```
 
-`getblocktemplate` / `getmininginfo` ni RPC za uchimbaji. Mabwawa ambayo bado yalitarajia mchakato mmoja wa `zcashd` yanahitaji Zebra (au Zakura) kwa violezo pamoja na pochi yoyote wanayotumia kwa coinbase. Angalia [Mabwawa ya Uchimbaji ya Zcash](/using-zcash/zcash-mining-pools) na [mwongozo wa uhamishaji](/guides/migration-guide-zcashd-to-zebrad-zallet).
+`getblocktemplate` / `getmininginfo` ni RPC za uchimbaji. Mabwawa ambayo bado yalitarajia mchakato mmoja wa `zcashd` yanahitaji Zebra (au Zakura) kwa violezo, pamoja na pochi yoyote wanayotumia kwa coinbase. Tazama [Zcash Mining Pools](/using-zcash/zcash-mining-pools) na [mwongozo wa uhamishaji](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 ---
 
-## Unganisha kiorodheshi
+## Unganisha kihorodha
 
 Uthibitishaji na uorodheshaji ni kazi tofauti.
 
-### Zaino (kile ambacho Z3 husambaza)
+### Zaino (kile kinachosambazwa na Z3)
 
-Zaino husoma Zebra na kutoa API ya gRPC inayooana na lightwalletd pamoja na proksi ya JSON-RPC. Zallet **haihitaji** kontena huru la Zaino; inajumuisha maktaba za Zaino na kuwasiliana na Zebra kupitia JSON-RPC. Anzisha Zaino huru unapohitaji pochi nyepesi za nje, vichunguzi, au vyanzo vya sarafu za bure:
+Zaino husoma Zebra na kutoa API ya gRPC inayooana na lightwalletd pamoja na wakala wa JSON-RPC. Zallet **haihitaji** kontena la Zaino la kujitegemea; hupachika maktaba za Zaino na kuwasiliana na Zebra kupitia JSON-RPC. Washa Zaino ya kujitegemea unapotaka pochi nyepesi za nje, vivinjari au vyanzo vya sarafu za bure:
 
 ```bash
 docker compose --env-file .env.mainnet --profile indexer up -d
 ```
 
-Subiri hadi Zebra isawazishwe kabla ya kuelekeza wateja kwa Zaino. Kiorodheshi cha wingi katika hali ya kufikia usawazishaji chenye ushindani mkubwa wa uchukuaji kinaweza kupunguza kasi ya kithibitishaji cha Zebra; weka `fetch_concurrency` katika tarakimu ndogo za tarakimu moja hadi kiorodheshi kifikie usawazishaji.
+Subiri hadi Zebra iwe imesawazishwa kabla ya kuelekeza wateja kwenye Zaino. Kihorodha cha data nyingi kinachofuatilia data ya nyuma na kutumia konkurenzi kubwa ya upokeaji kinaweza kupunguza kasi ya kithibitishaji cha Zebra; weka `fetch_concurrency` kwenye tarakimu chache za mwanzo hadi kihorodha kifuatilie data ya nyuma.
 
-gRPC ya Regtest (maandishi wazi; bandari `28137`):
+gRPC ya regtest (maandishi wazi; mlango wa `28137`):
 
 ```bash
 # From the Z3 repo, after: scripts/vendor.sh zaino
@@ -112,50 +112,52 @@ grpcurl -plaintext \
   cash.z.wallet.sdk.rpc.CompactTxStreamer/GetLatestBlock
 ```
 
-gRPC ya Zaino ni h2c ya maandishi wazi kwenye mitandao yote. Sitisha TLS kwenye proksi geuzi ikiwa kitu chochote nje ya seva pangishi kitaunganisha. Maelezo: [Zaino](/zcash-tech/zaino) na [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
+gRPC ya Zaino ni h2c ya maandishi wazi kwenye mitandao yote. Sitisha TLS kwenye wakala wa nyuma ikiwa kifaa chochote nje ya mwenyeji kitaunganishwa. Maelezo: [Zaino](/zcash-tech/zaino) na [Z3 `docs/regtest.md`](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md).
 
-### Viorodheshi vingine (si Z3)
+### Vihorodha vingine (si vya Z3)
 
-* **lightwalletd** — seva ya zamani ya block fupi. Bado imetumwa katika mazingira mengi; Zaino ndiyo njia mbadala ya jukumu hili.
-* **Ztreamer** — kiorodheshi kinachotegemea Zakura na utekelezaji wa `CompactTxStreamer`. Si huduma ya Z3. Angalia [Ztreamer hazina](https://github.com/distractedm1nd/ztreamer).
-* **Zebra `rpc.indexer_listen_addr`** — kisikilizaji cha gRPC cha hiari *ndani ya* Zebra. Z3 haikihitaji na haikichapishi kwa seva pangishi.
+* **lightwalletd** — seva ya zamani zaidi ya compact-block. Bado inatumika katika maeneo mbalimbali; Zaino ndiyo njia mrithi kwa jukumu hili.
+* **Ztreamer** — kihorodha kinachotumia Zakura na utekelezaji wa `CompactTxStreamer`. Si huduma ya Z3. Tazama [Ztreamerhazina](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — kihorodha cha Zcash Foundation (alpha). Husoma kutoka kwenye Zebra ya hifadhi au node ya Zakura na hutoa API yake ya gRPC ya `WalletQuery` pamoja na adapta ya lightwalletd inayooana na `CompactTxStreamer`. Mwongozo wake wa kuanza haraka huendesha kando ya node ya Z3, lakini si huduma ya Z3. Tazama [Zinder](/zcash-tech/zinder).
+* **Zebra `rpc.indexer_listen_addr`** — kisikilizaji cha hiari cha gRPC *ndani ya* Zebra. Z3 hakikihitaji wala kukichapisha kwa mwenyeji.
 
 ---
 
 ## Makosa ya kawaida
 
-**Kuita mbinu za pochi kwenye Zebra.** `getwalletinfo` na RPC za kutuma ni za Zallet (au pochi nyingine), si za node ya makubaliano.
+**Kuita mbinu za wallet kwenye Zebra.** RPC za `getwalletinfo` na kutuma ni za Zallet (au pochi nyingine), si za node ya makubaliano.
 
-**Kuanzisha Zallet kabla ya Zebra kuwa `/ready`.** Zallet itaingia kwenye mzunguko wa kuanzisha upya. Tumia `scripts/check-zebra-readiness.sh` kwenye mainnet/testnet.
+**Kuwasha Zallet kabla ya Zebra kuwa `/ready`.** Zallet itajifungua upya mfululizo. Tumia `scripts/check-zebra-readiness.sh` kwenye mainnet/testnet.
 
-**Kunakili `zebra`/`zebra` za regtest kwenye mainnet.** Uthibitishaji wa cookie ndio chaguo-msingi la mainnet/testnet kwa sababu.
+**Kunakili `zebra`/`zebra` za regtest kwenda mainnet.** Uthibitishaji wa cookie ndiyo chaguo-msingi la mainnet/testnet kwa sababu maalumu.
 
 **Kuchukulia Zaino kama full node.** Zebra (au Zakura) huthibitisha. Zaino huorodhesha.
 
-**Kuweka JSON-RPC ya Zaino au gRPC ya kiorodheshi cha Zebra hadharani.** Vituo hivyo ni vya loopback au mtandao binafsi unaoaminika.
+**Kufichua JSON-RPC ya Zaino au gRPC ya kihorodha cha Zebra hadharani.** Miisho hiyo ni kwa mawasiliano ya ndani ya kifaa au mtandao binafsi unaoaminika.
 
-**Kudhani kuwa kila pochi nyepesi tayari inazungumza Zaino.** Angalia toleo la sasa la pochi dhidi ya itifaki inayotekeleza kwa kweli.
+**Kudhani kila pochi nyepesi tayari inatumia Zaino.** Kagua toleo la sasa la pochi kulingana na itifaki ambayo inatekeleza kwa hakika.
 
 ---
 
 ## Kurasa zinazohusiana
 
-* [Mfumo wa Z3](/zcash-tech/z3-stack) — usakinishaji, bandari, kiasi cha hifadhi, uanzishaji wa awamu mbili
-* [Zaino](/zcash-tech/zaino) — jukumu la kiorodheshi na maelezo ya waendeshaji
+* [Z3 Stack](/zcash-tech/z3-stack) — usakinishaji, milango, ujazo, kuwasha kwa awamu mbili
+* [Zaino](/zcash-tech/zaino) — jukumu la kihorodha na madokezo ya mwendeshaji
 * [Full Nodes](/zcash-tech/full-nodes)
 * [Zebra Full Node](/zcash-tech/zebra-full-node)
-* [Node za Lightwallet](/zcash-tech/lightwallet-nodes)
-* [Mwongozo wa Uhamishaji: zcashd hadi Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
+* [Lightwallet Nodes](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (au Zaino) kwenye Kubernetes au Compose ya Docker
+* [Mwongozo wa Uhamishaji: zcashd kwenda Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib na Mafunzo ya Zaino](/guides/zingolib-and-zaino-tutorial)
 
 ## Rasilimali
 
 * [hazina ya Z3](https://github.com/ZcashFoundation/z3)
-* [mwongozo wa Z3 regtest (curl / grpcurl)](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)
+* [Kitabu cha mapishi cha Z3 regtest (curl / grpcurl)](https://github.com/ZcashFoundation/z3/blob/main/docs/regtest.md)
 * [Maswali Yanayoulizwa Mara kwa Mara ya Z3](https://github.com/ZcashFoundation/z3/blob/main/docs/faq.md)
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
-* [Kitabu cha Zallet](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Zallet Book](https://zcash.github.io/zallet/)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **Ilisasishwa mwisho:** Septemba 2026

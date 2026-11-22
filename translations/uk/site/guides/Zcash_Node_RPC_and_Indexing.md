@@ -17,7 +17,7 @@
 * **JSON-RPC** — це спосіб, яким оператори та гаманці запитують у вузла вершину ланцюга, піри й (у процесі гаманця) баланси. У Z3 Zebra надає RPC вузла; Zallet надає RPC гаманця.
 * **Regtest** — правильне місце для вивчення викликів. rpc-router Z3 на `http://127.0.0.1:8181` приймає `zebra` / `zebra` і пересилає методи вузла до Zebra, а методи гаманця — до Zallet.
 * **Mainnet і testnet** використовують автентифікацію cookie на Zebra. Не копіюйте ім’я користувача/пароль regtest на публічний вузол.
-* **Індексування** — окреме завдання від валідації. Zebra виконує валідацію. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) надає gRPC, сумісний з lightwalletd. [Ztreamer](https://github.com/distractedm1nd/ztreamer) — це індексатор на основі Zakura; Z3 його не постачає.
+* **Індексування** — окреме завдання від валідації. Zebra виконує валідацію. [Zaino](/zcash-tech/zaino) (Z3 `--profile indexer`) надає gRPC, сумісний з lightwalletd. [Ztreamer](https://github.com/zcashlabs/ztreamer) — це індексатор на основі Zakura; Z3 його не постачає.
 * JSON-RPC Zaino і необов’язковий gRPC індексатора Zebra призначені для loopback або довіреної мережі. Не відкривайте їх без автентифікації в публічному інтернеті.
 
 ---
@@ -74,7 +74,7 @@ curl -s -X POST -H "Content-Type: application/json" \
 docker compose --env-file .env.mainnet up -d
 ```
 
-`getblocktemplate` / `getmininginfo` — це RPC для майнінгу. Пулам, які все ще очікували єдиний процес `zcashd`, потрібен Zebra (або Zakura) для шаблонів, а також гаманець, який вони використовують для coinbase. Дивіться [ZcashМайнінгові пули](/using-zcash/zcash-mining-pools) та [посібник із міграції](/guides/migration-guide-zcashd-to-zebrad-zallet).
+`getblocktemplate` / `getmininginfo` — це RPC для майнінгу. Пулам, які все ще очікували єдиний процес `zcashd`, потрібен Zebra (або Zakura) для шаблонів, а також гаманець, який вони використовують для coinbase. Дивіться [Zcash Майнінгові пули](/using-zcash/zcash-mining-pools) та [посібник із міграції](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 ---
 
@@ -117,7 +117,8 @@ gRPC Zaino використовує відкритий текст h2c у всі�
 ### Інші індексатори (не Z3)
 
 * **lightwalletd** — старіший сервер компактних блоків. Досі розгорнутий у реальному середовищі; Zaino є наступним шляхом для цієї ролі.
-* **Ztreamer** — індексатор на основі Zakura та реалізація `CompactTxStreamer`. Це не служба Z3. Дивіться [Ztreamerрепозиторій](https://github.com/distractedm1nd/ztreamer).
+* **Ztreamer** — індексатор на основі Zakura та реалізація `CompactTxStreamer`. Це не служба Z3. Дивіться [Ztreamer репозиторій](https://github.com/zcashlabs/ztreamer).
+* **Zinder** — індексатор Zcash Foundation (альфа-версія). Він читає з архівного Zebra або вузла Zakura і надає власний `WalletQuery` API gRPC, а також сумісний із lightwalletd адаптер `CompactTxStreamer`. У короткому посібнику з початку роботи його запускають поруч із вузлом Z3, але це не служба Z3. Дивіться [Zinder](/zcash-tech/zinder).
 * **Zebra `rpc.indexer_listen_addr`** — необов’язковий слухач gRPC *всередині* Zebra. Z3 його не вимагає й не публікує на хості.
 
 ---
@@ -145,6 +146,7 @@ gRPC Zaino використовує відкритий текст h2c у всі�
 * [Повні вузли](/zcash-tech/full-nodes)
 * [повний вузол Zebra](/zcash-tech/zebra-full-node)
 * [Вузли легких гаманців](/zcash-tech/lightwallet-nodes)
+* [Zcash Stack](/guides/zcash-stack) — Zebra + lightwalletd (або Zaino) на Kubernetes або Docker Compose
 * [Посібник із міграції: zcashd до Zebrad/Zallet](/guides/migration-guide-zcashd-to-zebrad-zallet)
 * [Zingolib та посібник Zaino](/guides/zingolib-and-zaino-tutorial)
 
@@ -156,6 +158,6 @@ gRPC Zaino використовує відкритий текст h2c у всі�
 * [Zebra](https://zebra.zfnd.org/)
 * [Zaino](https://github.com/zingolabs/zaino)
 * [книга Zallet](https://zcash.github.io/zallet/)
-* [Ztreamer](https://github.com/distractedm1nd/ztreamer)
+* [Ztreamer](https://github.com/zcashlabs/ztreamer)
 
 **Останнє оновлення:** вересень 2026

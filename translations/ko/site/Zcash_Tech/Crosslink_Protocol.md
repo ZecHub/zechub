@@ -91,18 +91,18 @@ Crosslink Protocol은 ZODL과 같은 주요 생태계 파트너와 협력하여 
 * 활성화 로직: Crosslink의 도입은 Zcash 합의 규칙의 변경을 필요로 하며, 여기에는 지분 분배 프로세스 정의와 하이브리드 합의를 지원하기 위한 네트워크 프로토콜 규칙 업데이트가 포함됩니다.
 * 단계적 배포: 네트워크 안정성과 커뮤니티 적응을 보장하기 위해 프로토콜은 단계적으로 출시됩니다. 초기 단계는 기술적 구현에 초점을 맞추고, 이후 공증인 선정을 위한 거버넌스 통합이 뒤따릅니다.
 
-이전 프로토타입과 그 문서는 [GitHub의 zebra-crosslink 리포지토리](https://github.com/ShieldedLabs/zebra-crosslink) 및 [zebra-crosslink 안내서](https://shieldedlabs.github.io/zebra-crosslink/)에 있습니다. 현재 작업은 다음 섹션에서 설명합니다.
+이전 프로토타입과 그 문서는 [GitHub의 zebra-crosslink 리포지토리](https://github.com/ShieldedLabs/zebra-crosslink)(2026년 11월 12일 폐기) 및 [zebra-crosslink 안내서](https://shieldedlabs.github.io/zebra-crosslink/)에 있습니다. 현재 작업은 다음 섹션에서 설명합니다.
 
 ### Crosslink의 현재 위치
 
 Crosslink는 여전히 제안입니다. Shielded Labs' [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/)에는 메인넷에서 활성화되기 전에 “표준 Zcash 거버넌스 절차를 거쳐야 한다”고 명시되어 있습니다.
 
-현재 존재하는 것은 **Feature Net**입니다. 이는 Shielded Labs가 운영하는 테스트 네트워크로, 자체 테스트 코인 cTAZ를 보유하며 누구나 채굴, 스테이킹, 그리고 파이널라이저를 실행할 수 있습니다. 2026년 10월 1일 출시된 [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)는 일반적인 작업 증명으로 시작해 Crosslink를 단계적으로 활성화합니다: 블록 20,736부터 스테이킹, 블록 34,560에서 첫 번째 파이널라이저 명단을 확정하고, 블록 36,288부터 BFT 최종성을 적용합니다 ([출처](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)).
+현재 존재하는 것은 **Feature Net**입니다. 이는 Shielded Labs가 운영하는 테스트 네트워크로, 자체 테스트 코인 cTAZ를 보유하며 누구나 채굴, 스테이킹, 파이널라이저 실행을 할 수 있습니다. 2026년 10월 1일 출시된 [Version 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14)는 일반적인 작업 증명으로 시작해 Crosslink를 단계적으로 활성화했습니다: 블록 20,736부터 스테이킹을 시작하고, 블록 34,560에서 첫 번째 파이널라이저 명단을 확정했으며, 블록 36,288부터 BFT 최종성을 적용했습니다 ([출처](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)). 이후 릴리스에서도 같은 네트워크를 업그레이드합니다: PoW 높이 55,296에서 [version 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15), 높이 165,000에서 [version 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17)(2026년 11월 5일), 블록 189,000에서 [version 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)(2026년 11월 17일)이 적용됩니다. [version 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16)부터는 각 버전이 출시 2주 후 실행을 중단하므로 항상 [최신 릴리스](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest)를 실행하세요.
 
 이 페이지의 두 가지 사항은 작성된 이후 변경되었습니다:
 
 * **여기서 공증인이라고 부르는 역할은 Shielded Labs의 소프트웨어 및 릴리스 노트에서 finalizer라고 불립니다.** 스테이커는 코인을 finalizer에게 위임하며, 스테이크가 가장 많은 finalizer들이 블록을 최종 확정하기 위해 투표합니다.
-* **코드가 이동했습니다.** 위의 zebra-crosslink 리포지터리는 2026년 4월에 마지막으로 업데이트되었습니다. Feature Net 릴리스는 [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)에서 제공되며, 설계는 [Crosslink 책](https://shieldedlabs.github.io/crosslink_book/)에 문서화되어 있습니다.
+* **코드가 이동했습니다.** 위의 zebra-crosslink 리포지터리는 2026년 11월 12일에 폐기되었으며, 이제 README는 [Shielded Labs의 Crosslink 페이지](https://shieldedlabs.net/crosslink)를 가리킵니다. Feature Net 릴리스는 [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases)에서 제공되며, 설계는 [Crosslink 책](https://shieldedlabs.github.io/crosslink_book/)에 문서화되어 있습니다.
 
 직접 해보려면 [Crosslink Feature Net](/guides/crosslink-feature-net) 가이드를 따라 하세요. 아무것도 실행하지 않고 네트워크를 확인하려면 [ZecHub Tools](https://zechub.wiki/tools?tool=crosslink)에서 Crosslink 탭을 여세요.
 

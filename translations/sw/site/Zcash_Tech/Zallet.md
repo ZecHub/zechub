@@ -12,14 +12,15 @@ Zallet kwa sasa iko katika **beta**. Haijapitiwa kikamilifu. Mabadiliko yasiyooa
 
 ## Kwa ufupi
 
-- Zallet ni **pochi ya RPC ya full-node**, si pochi nyepesi ya simu na si node ya makubaliano.
+- Zallet ni **pochi ya RPC ya full-node**, si pochi nyepesi ya simu wala node ya makubaliano.
 - Inachukua nafasi ya nusu ya pochi ya `zcashd`. Nusu ya node ni [Zebra](Zebra_Full_Node.md) au [Zakura](Zakura_Node.md).
 - Imeandikwa kwa **Rust**, ina leseni mbili MIT / Apache-2.0, na inadumishwa katika [zcash/zallet](https://github.com/zcash/zallet).
-- Toleo la hivi karibuni lililochapishwa kufikia mwishoni mwa Agosti 2026: **v0.1.0-beta.3**.
-- Huwasiliana na data ya mnyororo kupitia mojawapo ya backends mbili: **zebra-state** (`ReadStateService` ya moja kwa moja dhidi ya `zebrad` ya ndani) au **Zaino**.
+- Toleo la hivi karibuni lililochapishwa: **v0.1.0-beta.4** (2 Novemba 2026). Linafuata [NU7](NU7.md) na linahitaji `zebrad` **7.0.0 au toleo jipya zaidi**.
+- Husoma data ya mnyororo kupitia backend moja, **zebra**: `ReadStateService` dhidi ya saraka ya hali ya `zebrad` kwenye mashine hiyohiyo, pamoja na JSON-RPC ya Zebra. Backend ya Zaino iliondolewa katika v0.1.0-beta.4.
 - Hutoa sehemu ndogo ya JSON-RPC inayooana na **zcashd**. Baadhi ya mbinu zilibadilishwa; baadhi ziliachwa kimakusudi.
-- Nyenzo za funguo husimbwa fiche [encrypted] kila wakati kwa **age**. Historia ya miamala [transaction], anwani, na funguo za kutazama [viewing keys] hubaki wazi katika `wallet.db`.
-- Husafirisha binaries tatu katika kumbukumbu moja iliyotiwa saini: `zallet` (kianzishaji), `zallet-zebra`, na `zallet-zaino`.
+- Nyenzo za funguo husimbwa fiche kila wakati kwa **age**. Historia ya miamala, anwani, na funguo za kutazama hubaki wazi katika `wallet.db`.
+- Husafirisha programu mbili katika kumbukumbu moja iliyotiwa saini: `zallet` (kianzishaji) na `zallet-zebra`. **Linux pekee** ndiyo inayoweza kusawazisha pochi: hakuna backend ya mnyororo inayotumika kwenye macOS au Windows kwa sasa.
+- `zallet backup` (imeongezwa katika beta.4) hupiga picha thabiti ya pochi inayoendeshwa au iliyosimamishwa.
 - Hati rasmi: [Kitabu cha Zallet](https://zcash.github.io/zallet/).
 
 ---
@@ -64,17 +65,18 @@ Awamu thabiti ya baadaye imepangwa mara tu uso wa RPC unaokusudiwa utakapokuwepo
 
 ## Usanifu
 
-Zallet imegawanywa katika sehemu tatu za kazi za Cargo ili backends mbili za mnyororo ziweze kufuatilia grafu tofauti za utegemezi.
+Zallet imegawanywa katika sehemu za kazi za Cargo ili kila backend ya mnyororo iweze kufuatilia grafu yake ya utegemezi. Tangu v0.1.0-beta.4, ni backend ya zebra pekee inayosafirishwa.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
-                  and execs zallet-zebra or zallet-zaino
+                  and execs zallet-zebra
 zallet-core       shared wallet: CLI, config, JSON-RPC, SQLite DB, sync
 zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
-zallet-zaino      Zaino indexer backend
 ```
 
-Binaries zote tatu hufungua **`wallet.db` sawa**. Kianzishaji huchagua backend wakati wa utekelezaji; huhitaji kukusanya upya ili kubadilisha.
+Binaries zote mbili hufungua `wallet.db` ileile. Hadi v0.1.0-beta.3 kulikuwa pia na backend ya `zallet-zaino`. Ikiwa `zallet.toml` yako inasema `backend = "zaino"`, ibadilishe iwe `backend = "zebra"`. Hifadhidata ya pochi haihitaji kuhamishwa, na folda ya zamani ya `zaino` katika saraka ya data inaweza kufutwa.
+
+Backend ya zebra husoma moja kwa moja hifadhidata ya hali ya `zebrad`, kwa hivyo inahitaji `zebrad` iliyojengwa kwa kipengele cha `indexer` na saraka yake ya hali **kwenye seva pangishi ileile**. Zallet iliyo kwenye kontena moja ikiwasiliana na `zebrad` iliyo kwenye kontena jingine kupitia mtandao haina usanidi unaoungwa mkono hadi backend inayotumia mtandao pekee itakapopatikana ([zallet#900](https://github.com/zcash/zallet/pull/900)).
 
 Utekelezaji wa kawaida:
 
@@ -82,7 +84,7 @@ Utekelezaji wa kawaida:
 zebrad  (or Zakura)
    │  JSON-RPC / ReadStateService
    ▼
-Zallet  (zallet-zebra or zallet-zaino)
+Zallet  (zallet-zebra)
    │  JSON-RPC on 127.0.0.1
    ▼
 Your application, exchange, faucet, or operator scripts
@@ -90,7 +92,7 @@ Your application, exchange, faucet, or operator scripts
 
 Zallet ni **pochi ya full-node**: inatarajia node ya uthibitishaji ya ndani. Si light client. Kwa pochi nyepesi na seva za compact-block, tazama [Zaino](Zaino.md) na [Node za Lightwallet](Lightwallet_Nodes.md).
 
-Stack ya compose ya Zcash Foundation ya [Z3](https://github.com/ZcashFoundation/z3) huendesha Zebra + Zallet pamoja, ikiwa na Zaino huru ya hiari kwa light clients za nje.
+Rafu ya compose ya Zcash Foundation ya [Z3](https://github.com/ZcashFoundation/z3) huendesha Zebra + Zallet pamoja, huku Zaino ya pekee ikiwa hiari kwa light client za nje. Picha zake zilizobandikwa ni za kabla ya NU7 na beta.4 ya Zallet: tazama [Rafu ya Z3](Z3_Stack.md) kabla ya kuitumia.
 
 ---
 
@@ -120,7 +122,13 @@ Nyenzo za funguo **husimbwa fiche [encryption] kila wakati**. Hakuna hali isiyos
 - Utambulisho unaweza kufungwa kwa kaulisiri (`generate-encryption-identity -p`). Fungua kwa RPC ya `walletpassphrase`; funga kwa `walletlock`.
 - Kupoteza faili ya utambulisho au kaulisiri yake hufanya funguo za kutumia pesa zisiweze kurejeshwa. Hifadhi nakala ya utambulisho, kila mnemonic, na (kando, ikiwa imesimbwa fiche) nakala yoyote ya `wallet.db` unayohifadhi.
 
-Kunakili `wallet.db` wakati Zallet inaendelea kufanya kazi si nakala salama ya akiba. SQLite inaweza kuharibika. Pendelea mchakato uliosimamishwa, au subiri amri rasmi ya nakala ya akiba ya mtandaoni.
+Kunakili `wallet.db` kwa mkono huku Zallet ikiendelea kufanya kazi si njia salama ya kuhifadhi nakala: SQLite inaweza kuharibika. Tangu v0.1.0-beta.4, tumia amri ya [`backup`](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md):
+
+```bash
+zallet -d /path/to/zallet/datadir backup /path/to/backups/
+```
+
+Huhifadhi nakala ya papo hapo ya pochi inayoendana na miamala na iliyokaguliwa uadilifu, iwe pochi inaendelea kufanya kazi au imesimamishwa. Ukiipa saraka, hutaja faili `zallet-wallet-backup-<UTC time>.db`, na haiandiki kamwe juu ya faili iliyopo. Huacha kwa kutoa ujumbe wa hitilafu baada ya dakika kumi ikiwa uandishi wa mara kwa mara kwenye pochi (kwa mfano wakati wa usawazishaji wa awali) unaendelea kuanzisha upya unakili: jaribu tena baadaye au simamisha pochi kwanza. Nakala hii **haijumuishi** faili ya utambulisho wa age. Ihifadhi faili hiyo mara moja kando na nakala za hifadhidata, kwa sababu mtu yeyote anayemiliki faili zote mbili anaweza kusimbua funguo.
 
 ---
 
@@ -141,14 +149,14 @@ Mbinu zilizoachwa kimakusudi zinajumuisha `createrawtransaction`, `fundrawtransa
 
 ## Kuanza
 
-Njia rasmi za usakinishaji (vifurushi vya Debian, Docker, binaries za toleo) ziko katika [mwongozo wa usakinishaji](https://zcash.github.io/zallet/guide/installation/index.html). Kumbukumbu za toleo huitwa `zallet-<version>-<arch>.tar.gz` na zina binaries zote tatu.
+Njia rasmi za usakinishaji (vifurushi vya Debian, Docker, programu za toleo) ziko kwenye [mwongozo wa usakinishaji](https://zcash.github.io/zallet/guide/installation/index.html). Kumbukumbu za matoleo hupewa majina `zallet-v<version>-linux-<amd64|arm64>.tar.gz` na huwa na `zallet` na `zallet-zebra`. Picha za Docker huchapishwa kama `zodlinc/zallet`.
 
 Mtiririko mdogo wa pochi mpya:
 
 ```bash
 # data directory; default is $HOME/.zallet
 zallet -d /path/to/zallet/datadir example-config > /path/to/zallet/datadir/zallet.toml
-# edit zallet.toml: network, backend, indexer / read-state, rpc.bind
+# edit zallet.toml: network, indexer.validator_address, [indexer.read_state_service], rpc.bind
 
 zallet -d /path/to/zallet/datadir generate-encryption-identity
 zallet -d /path/to/zallet/datadir init-wallet-encryption
@@ -157,7 +165,7 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-Elekeza `[indexer]` kwenye endpoint ya JSON-RPC ya ndani ya `zebrad`. Backend ya zebra pia inahitaji `[indexer.read_state_service]` na `zebrad` iliyojengwa kwa kipengele cha kiashiria ili Zallet iweze kusoma hali ya mnyororo moja kwa moja.
+Elekeza `[indexer]` kwenye endpoint ya ndani ya `zebrad` JSON-RPC kwa kutumia `validator_address`. Hili linahitajika na halitumii localhost kama thamani chaguo-msingi. Backend ya zebra pia inahitaji `[indexer.read_state_service]` na `zebrad` ya toleo la 7.0.0 au la baadaye, iliyojengwa ikiwa na kipengele cha `indexer`, ambayo saraka yake ya hali iko kwenye host ileile ili Zallet iweze kusoma hali ya mnyororo moja kwa moja. `indexer.db_path` iliseti tu backend ya Zaino iliyoondolewa: sasa hupuuzwa na onyo huonyeshwa.
 
 Picha zinazoweza kuzalishwa upya zinaweza kujengwa kwa [StageX](https://codeberg.org/stagex/stagex/) (Docker 25+, hifadhi ya picha ya containerd, GNU Make).
 
@@ -182,13 +190,13 @@ Maelezo ya hatua kwa hatua kwa waendeshaji: [Mwongozo wa Kuhama: zcashd hadi Zeb
 
 ## Jinsi Zallet inavyohusiana na programu nyingine
 
-| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
-|--|--------|------|------------------------|----------------|-------|
-| Ni nini | Pochi ya RPC ya full-node | Seva ya pochi inayotanguliza faragha | Pochi za watumiaji wa mwisho | Node ya makubaliano | Kiashiria / mbadala wa lightwalletd |
-| Huchukua nafasi ya | Pochi ya `zcashd` | Si nakala ya moja kwa moja ya `zcashd` | Programu za simu/kompyuta ya mezani | Node ya `zcashd` | `lightwalletd` |
-| Inahitaji node ya ndani | Ndiyo | Ndiyo (Zebra kwa chaguomsingi) | Hapana (light client) | Ndiyo node yenyewe | Ndiyo |
-| Uoanifu wa RPC wa zcashd | Imeundwa kama njia ya uoanifu | Sehemu ndogo iliyochaguliwa tu | Haitumiki | Hali ya uoanifu ya sehemu / Zakura | API tofauti |
-| Muundo wa uhifadhi | Mwendelezaji hushikilia funguo katika `wallet.db` | Seva inayorejesheka kwa seed | Funguo za kifaa cha mtumiaji | Hakuna pochi | Hakuna funguo |
+| | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
+|--|--------|------|------------------------------|----------------|-------|
+| Aina yake | Pochi ya RPC ya full node | Seva ya pochi inayoanza na faragha | Pochi za watumiaji wa mwisho | Node ya makubaliano | Kielezo / mbadala wa lightwalletd |
+| Inachukua nafasi ya | Pochi ya `zcashd` | Si nakala ya `zcashd` inayoweza kutumika moja kwa moja | Programu za simu/kompyuta | Node ya `zcashd` | `lightwalletd` |
+| Inahitaji node ya ndani | Ndiyo | Ndiyo (Zebra kwa chaguo-msingi) | Hapana (light client) | Hiyo ndiyo node yenyewe | Ndiyo |
+| Ulinganifu wa RPC wa zcashd | Imeundwa kuwa njia ya ulinganifu | Sehemu ndogo iliyochaguliwa pekee | Haitumiki | Hali ya ulinganifu wa sehemu / Zakura | API tofauti |
+| Muundo wa uhifadhi wa funguo | Mwendeshaji hushikilia funguo katika `wallet.db` | Seva inayoweza kurejeshwa kwa seed | Funguo kwenye kifaa cha mtumiaji | Hakuna pochi | Hakuna funguo |
 
 Zallet na **zecd** zote zinaweza kukaa mbele ya Zebra. Chagua Zallet unapohitaji uso wa pochi wa `z_*` na njia ya kuhama kutoka `wallet.dat`. Chagua zecd unapotaka seva inayotanguliza faragha ambayo kwa uwazi *si* nakala ya `zcashd`.
 
@@ -198,21 +206,22 @@ Kuna bidhaa tofauti ya watumiaji katika [zallet.io](https://www.zallet.io/) inay
 
 ## Kurasa zinazohusiana
 
-- [Node Kamili](Full_Nodes.md) — Zebra, Zakura, na node ya `zcashd` iliyostaafishwa
-- [Full Node ya Zebra](Zebra_Full_Node.md) — node ambayo backend chaguomsingi ya Zallet husoma
-- [Node ya Zakura](Zakura_Node.md) — node mbadala ya uthibitishaji
-- [Zaino](Zaino.md) — backend ya kiashiria na seva ya light client
-- [zecd](ZECD.md) — muundo mwingine wa seva ya pochi kwenye librustzcash
-- [Usawazishaji wa Pochi ya Zcash](Zcash_Wallet_Syncing.md) — jinsi pochi za faragha huchanganua mnyororo
-- [Funguo za kutazama](Viewing_Keys.md)
+- [Full Nodes](Full_Nodes.md) — Zebra, Zakura, na node ya `zcashd` iliyostaafishwa
+- [Zebra Full Node](Zebra_Full_Node.md) — usomaji chaguomsingi wa backend ya node ya Zallet
+- [Zakura Node](Zakura_Node.md) — node mbadala inayothibitisha miamala
+- [Zaino](Zaino.md) — seva ya kielezo na light client (si backend ya Zallet tena tangu beta.4)
+- [Z3 Stack](Z3_Stack.md) — Zebra + Zallet stack ya compose
+- [zecd](ZECD.md) — muundo mwingine wa seva ya pochi unaotumia librustzcash
+- [Zcash Usawazishaji wa Pochi](Zcash_Wallet_Syncing.md) — jinsi pochi za faragha zinavyochanganua mnyororo
+- [Viewing Keys](Viewing_Keys.md)
 
 ## Rasilimali
 
 - [Kitabu cha Zallet](https://zcash.github.io/zallet/)
 - [zcash/zallet kwenye GitHub](https://github.com/zcash/zallet)
-- [Matoleo](https://github.com/zcash/zallet/releases)
+- [Matoleo](https://github.com/zcash/zallet/releases) · [orodha ya mabadiliko ya v0.1.0-beta.4](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
 - [Semantiki za JSON-RPC zilizobadilishwa](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [Mwongozo wa kuhama wa ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [Mwongozo wa Raspberry Pi wa ZecHub (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
-- [Z3 (stack ya compose ya Zebra + Zallet)](https://github.com/ZcashFoundation/z3)
-- [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`
+- [ZecHub mwongozo wa uhamishaji](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [ZecHub Mwongozo wa Raspberry Pi (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
+- [Z3 (Zebra + Zallet safu ya compose)](https://github.com/ZcashFoundation/z3)
+- [Zcash Utafiti na Maendeleo Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`

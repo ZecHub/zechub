@@ -135,4 +135,4 @@ Durch die Schleuse. Jede Coin, die den alten Orchard Pool verlässt, wird an ein
 
 ---
 
-Serie: [Netzwerk-Upgrades-Index](../start-here/network-upgrades) · Zurück: [NU6.2](../zcash-tech/nu6-2)
+Serie: [Netzwerk-Upgrades-Index](../start-here/network-upgrades) · Zurück: [NU6.2](../zcash-tech/nu6-2) · Weiter: [NU7](../zcash-tech/nu7)

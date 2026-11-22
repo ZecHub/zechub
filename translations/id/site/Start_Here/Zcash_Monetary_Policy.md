@@ -6,7 +6,7 @@
 
 ## Bagaimana ekonomi dari Zcash?
 
-Basis moneter Zcash sama dengan pasokan tetap Bitcoin sebesar 21 juta unit mata uang ZEC. Setiap 75 detik, sebuah [block](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) baru ditambang ke dalam Zcash blockchain dan imbalan block sebesar 1,5625 ZEC masuk ke dalam sirkulasi. Imbalan block ini didistribusikan kepada penambang dan dana pengembangan [Zcashdevelopment fund](https://zips.z.cash/zip-1014).
+Basis moneter Zcash sama dengan pasokan tetap Bitcoin sebesar 21 juta unit mata uang ZEC. Rata-rata setiap 25 detik (sebelumnya 75 detik, sebelum NU7 diaktifkan pada 6 November 2026), sebuah [block](https://zcash.readthedocs.io/en/latest/rtd_pages/glossary.html#:~:text=Block,mempool%20in%20an%20unconfirmed%20state.) baru ditambang ke dalam Zcash blockchain dan imbalan block sebesar 0,52083333 ZEC mulai beredar. Sebelum NU7, imbalannya sebesar 1,5625 ZEC per block; [ZIP 218](https://zips.z.cash/zip-0218) membaginya menjadi sepertiga seiring dengan waktu block, sehingga jumlah ZEC baru per hari tidak berubah. Sejak NU7, 0,52083333 ZEC dibagi menjadi 80% untuk penambang (0,41666668 ZEC, ditambah biaya transaksi), 8% untuk Zcash Community Grants (0,04166666 ZEC), dan 12% untuk lockbox (0,06249999 ZEC), sesuai dengan [ZIP 1015](https://zips.z.cash/zip-1015).
 
 Jumlah imbalan blok berkurang setengahnya sekitar setiap empat tahun hingga seluruh 21 juta ZEC beredar. Inflasi Zcash hampir secara presisi meniru inflasi Bitcoin. Penting untuk dicatat bahwa seiring dengan terciptanya koin baru, inflasi akan menurun, dan pada setiap halving, tingkatnya turun secara signifikan.
 

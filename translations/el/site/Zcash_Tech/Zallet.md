@@ -15,12 +15,13 @@
 - Το Zallet είναι ένα **πορτοφόλι RPC πλήρους κόμβου**, όχι ένα mobile light wallet και όχι ένας κόμβος συναίνεσης.
 - Αντικαθιστά το μισό του πορτοφολιού του `zcashd`. Το μισό του κόμβου είναι το [Zebra](Zebra_Full_Node.md) ή το [Zakura](Zakura_Node.md).
 - Είναι γραμμένο σε **Rust**, με διπλή άδεια MIT / Apache-2.0, και συντηρείται στο [zcash/zallet](https://github.com/zcash/zallet).
-- Η πιο πρόσφατη δημοσιευμένη έκδοση στα τέλη Αυγούστου 2026: **v0.1.0-beta.3**.
-- Επικοινωνεί με δεδομένα αλυσίδας μέσω ενός από δύο backends: **zebra-state** (άμεσο `ReadStateService` έναντι ενός τοπικού `zebrad`) ή **Zaino**.
+- Η πιο πρόσφατη δημοσιευμένη έκδοση είναι η **v0.1.0-beta.4** (2 Νοεμβρίου 2026). Ακολουθεί τα [NU7](NU7.md) και χρειάζεται `zebrad` **7.0.0 ή νεότερη έκδοση**.
+- Διαβάζει δεδομένα αλυσίδας μέσω ενός backend, του **zebra**: `ReadStateService` έναντι του καταλόγου κατάστασης ενός `zebrad` στον ίδιο υπολογιστή, καθώς και το JSON-RPC του Zebra. Το backend Zaino καταργήθηκε στην έκδοση v0.1.0-beta.4.
 - Εκθέτει ένα υποσύνολο JSON-RPC συμβατό με το **zcashd**. Ορισμένες μέθοδοι άλλαξαν· άλλες παραλείφθηκαν σκόπιμα.
 - Το υλικό κλειδιών κρυπτογραφείται πάντα με **age**. Το ιστορικό συναλλαγών, οι διευθύνσεις και τα viewing keys αποθηκεύονται χωρίς κρυπτογράφηση στο `wallet.db`.
-- Περιλαμβάνει τρία binaries σε ένα υπογεγραμμένο archive: `zallet` (launcher), `zallet-zebra` και `zallet-zaino`.
-- Επίσημη τεκμηρίωση: [Βιβλίο του Zallet](https://zcash.github.io/zallet/).
+- Περιλαμβάνει δύο binaries σε ένα υπογεγραμμένο archive: `zallet` (launcher) και `zallet-zebra`. **Μόνο Linux** για τον συγχρονισμό πορτοφολιού: κανένα backend αλυσίδας δεν εκτελείται ακόμα σε macOS ή Windows.
+- Το `zallet backup` (νέο στην έκδοση beta.4) δημιουργεί ένα συνεπές στιγμιότυπο ενός πορτοφολιού που εκτελείται ή είναι σταματημένο.
+- Επίσημη τεκμηρίωση: [Το Zallet Book](https://zcash.github.io/zallet/).
 
 ---
 
@@ -64,17 +65,18 @@
 
 ## Αρχιτεκτονική
 
-Το Zallet χωρίζεται σε τρία Cargo workspaces ώστε τα δύο backends αλυσίδας να μπορούν να παρακολουθούν διαφορετικά dependency graphs.
+Το Zallet χωρίζεται σε Cargo workspaces ώστε κάθε backend αλυσίδας να μπορεί να παρακολουθεί το δικό του dependency graph. Από την έκδοση v0.1.0-beta.4 διατίθεται μόνο το backend zebra.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
-                  and execs zallet-zebra or zallet-zaino
+                  and execs zallet-zebra
 zallet-core       shared wallet: CLI, config, JSON-RPC, SQLite DB, sync
 zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
-zallet-zaino      Zaino indexer backend
 ```
 
-Και τα τρία binaries ανοίγουν την **ίδια** `wallet.db`. Ο launcher επιλέγει backend κατά τον χρόνο εκτέλεσης· δεν χρειάζεται να κάνεις recompile για να αλλάξεις.
+Και τα δύο binaries ανοίγουν την ίδια `wallet.db`. Μέχρι την έκδοση v0.1.0-beta.3 υπήρχε επίσης backend `zallet-zaino`. Αν το `zallet.toml` σου γράφει `backend = "zaino"`, άλλαξέ το σε `backend = "zebra"`. Η βάση δεδομένων του πορτοφολιού δεν χρειάζεται μετάβαση, και μπορείς να διαγράψεις τον παλιό φάκελο `zaino` από τον κατάλογο δεδομένων.
+
+Το backend του zebra διαβάζει απευθείας τη βάση δεδομένων κατάστασης του `zebrad`, οπότε χρειάζεται ένα `zebrad` που έχει δημιουργηθεί με τη δυνατότητα `indexer` και τον κατάλογο κατάστασής του **στον ίδιο host**. Δεν υπάρχει υποστηριζόμενη διαμόρφωση όπου ένα Zallet σε ένα container επικοινωνεί μέσω δικτύου με ένα `zebrad` σε άλλο, μέχρι να προστεθεί ένα backend που λειτουργεί μόνο μέσω δικτύου ([zallet#900](https://github.com/zcash/zallet/pull/900)).
 
 Τυπική ανάπτυξη:
 
@@ -82,7 +84,7 @@ zallet-zaino      Zaino indexer backend
 zebrad  (or Zakura)
    │  JSON-RPC / ReadStateService
    ▼
-Zallet  (zallet-zebra or zallet-zaino)
+Zallet  (zallet-zebra)
    │  JSON-RPC on 127.0.0.1
    ▼
 Your application, exchange, faucet, or operator scripts
@@ -90,7 +92,7 @@ Your application, exchange, faucet, or operator scripts
 
 Το Zallet είναι ένα **πορτοφόλι πλήρους κόμβου**: αναμένει έναν τοπικό κόμβο που επικυρώνει. Δεν είναι light client. Για light wallets και compact-block servers, δες τα [Zaino](Zaino.md) και [κόμβοι Lightwallet](Lightwallet_Nodes.md).
 
-Το compose stack [Z3](https://github.com/ZcashFoundation/z3) του Zcash Foundation εκτελεί μαζί τα Zebra + Zallet, με προαιρετικό αυτόνομο Zaino για εξωτερικούς light clients.
+Η στοίβα compose του Zcash Foundation [Z3](https://github.com/ZcashFoundation/z3) εκτελεί μαζί τα Zebra + Zallet, με προαιρετικό αυτόνομο Zaino για εξωτερικά light client. Οι καρφιτσωμένες εικόνες του προηγούνται των NU7 και της beta.4 του Zallet: δες το [Z3 Stack](Z3_Stack.md) πριν το χρησιμοποιήσεις.
 
 ---
 
@@ -120,7 +122,13 @@ Your application, exchange, faucet, or operator scripts
 - Η ταυτότητα μπορεί να προστατευτεί με passphrase (`generate-encryption-identity -p`). Ξεκλείδωσέ την με το RPC `walletpassphrase`· κλείδωσέ την με το `walletlock`.
 - Η απώλεια του αρχείου ταυτότητας ή του passphrase του καθιστά τα spending keys μη ανακτήσιμα. Δημιούργησε αντίγραφα ασφαλείας της ταυτότητας, κάθε mnemonic και, ξεχωριστά και κρυπτογραφημένα, κάθε αντίγραφο `wallet.db` που διατηρείς.
 
-Η αντιγραφή του `wallet.db` ενώ εκτελείται το Zallet δεν είναι ασφαλές αντίγραφο ασφαλείας. Η SQLite μπορεί να καταστρέψει τμήματα δεδομένων. Προτίμησε μια σταματημένη διεργασία ή περίμενε μια επίσημη εντολή online backup.
+Η χειροκίνητη αντιγραφή του `wallet.db` ενώ εκτελείται το Zallet δεν είναι ασφαλές αντίγραφο ασφαλείας: το SQLite μπορεί να καταστραφεί. Από την έκδοση v0.1.0-beta.4, χρησιμοποίησε την εντολή [`backup`](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md):
+
+```bash
+zallet -d /path/to/zallet/datadir backup /path/to/backups/
+```
+
+Δημιουργεί ένα συνεπές ως προς τις συναλλαγές και ελεγμένο ως προς την ακεραιότητα στιγμιότυπο ενός πορτοφολιού που εκτελείται ή έχει σταματήσει. Αν του δώσεις έναν κατάλογο, ονομάζει το αρχείο `zallet-wallet-backup-<UTC time>.db` και δεν αντικαθιστά ποτέ ένα υπάρχον αρχείο. Εγκαταλείπει με σαφές μήνυμα έπειτα από δέκα λεπτά, αν οι συνεχείς εγγραφές στο πορτοφόλι (για παράδειγμα, κατά τον αρχικό συγχρονισμό) προκαλούν επανειλημμένες επανεκκινήσεις της αντιγραφής: δοκίμασε ξανά αργότερα ή σταμάτησε πρώτα το πορτοφόλι. Το αντίγραφο ασφαλείας **δεν** περιλαμβάνει το αρχείο ταυτότητας age. Δημιούργησε αντίγραφο ασφαλείας του μία φορά και φύλαξέ το χωριστά από τα αντίγραφα ασφαλείας της βάσης δεδομένων, επειδή όποιος έχει και τα δύο μπορεί να αποκρυπτογραφήσει τα κλειδιά.
 
 ---
 
@@ -141,14 +149,14 @@ Your application, exchange, faucet, or operator scripts
 
 ## Ξεκινώντας
 
-Οι επίσημες διαδρομές εγκατάστασης (πακέτα Debian, Docker, release binaries) βρίσκονται στον [οδηγό εγκατάστασης](https://zcash.github.io/zallet/guide/installation/index.html). Τα release archives ονομάζονται `zallet-<version>-<arch>.tar.gz` και περιέχουν και τα τρία binaries.
+Οι επίσημοι τρόποι εγκατάστασης (πακέτα Debian, Docker, δυαδικά αρχεία έκδοσης) περιγράφονται στον [οδηγό εγκατάστασης](https://zcash.github.io/zallet/guide/installation/index.html). Τα αρχεία της έκδοσης ονομάζονται `zallet-v<version>-linux-<amd64|arm64>.tar.gz` και περιέχουν τα `zallet` και `zallet-zebra`. Οι εικόνες Docker δημοσιεύονται ως `zodlinc/zallet`.
 
 Ελάχιστη ροή νέου πορτοφολιού:
 
 ```bash
 # data directory; default is $HOME/.zallet
 zallet -d /path/to/zallet/datadir example-config > /path/to/zallet/datadir/zallet.toml
-# edit zallet.toml: network, backend, indexer / read-state, rpc.bind
+# edit zallet.toml: network, indexer.validator_address, [indexer.read_state_service], rpc.bind
 
 zallet -d /path/to/zallet/datadir generate-encryption-identity
 zallet -d /path/to/zallet/datadir init-wallet-encryption
@@ -157,7 +165,7 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-Στρέψε το `[indexer]` σε ένα τοπικό endpoint JSON-RPC `zebrad`. Το backend zebra θέλει επίσης το `[indexer.read_state_service]` και ένα `zebrad` χτισμένο με το χαρακτηριστικό indexer, ώστε το Zallet να μπορεί να διαβάζει απευθείας την κατάσταση της αλυσίδας.
+Όρισε το `[indexer]` να δείχνει στο τοπικό endpoint JSON-RPC του `zebrad` με το `validator_address`. Είναι υποχρεωτικό και δεν έχει ως προεπιλογή το localhost. Το backend του zebra χρειάζεται επίσης το `[indexer.read_state_service]` και ένα `zebrad` έκδοσης 7.0.0 ή νεότερης, μεταγλωττισμένο με τη δυνατότητα `indexer`, του οποίου ο κατάλογος κατάστασης βρίσκεται στον ίδιο κεντρικό υπολογιστή, ώστε το Zallet να μπορεί να διαβάζει απευθείας την κατάσταση της αλυσίδας. Το `indexer.db_path` ρύθμιζε μόνο το καταργημένο backend Zaino: πλέον αγνοείται και εμφανίζεται προειδοποίηση.
 
 Αναπαραγώγιμες εικόνες μπορούν να δημιουργηθούν με [StageX](https://codeberg.org/stagex/stagex/) (Docker 25+, containerd image store, GNU Make).
 
@@ -182,13 +190,13 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 ## Πώς σχετίζεται το Zallet με άλλο λογισμικό
 
-| | Zallet | zecd | Zashi / ZODL / YWallet | Zebra / Zakura | Zaino |
-|--|--------|------|------------------------|----------------|-------|
-| Τι είναι | Πορτοφόλι RPC πλήρους κόμβου | Server πορτοφολιού με προτεραιότητα στα θωρακισμένα | Πορτοφόλια τελικού χρήστη | Κόμβος συναίνεσης | Indexer / αντικατάσταση του lightwalletd |
-| Αντικαθιστά | Πορτοφόλι `zcashd` | Δεν είναι άμεσο αντίγραφο του `zcashd` | Εφαρμογές mobile/desktop | Κόμβο `zcashd` | `lightwalletd` |
+| | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
+|--|--------|------|------------------------------|----------------|-------|
+| Τι είναι | Πορτοφόλι RPC πλήρους κόμβου | Διακομιστής πορτοφολιού με προτεραιότητα στα θωρακισμένα | Πορτοφόλια τελικών χρηστών | Κόμβος συναίνεσης | Ευρετήριο / αντικατάσταση lightwalletd |
+| Τι αντικαθιστά | Πορτοφόλι `zcashd` | Δεν είναι άμεσος κλώνος του `zcashd` | Εφαρμογές για κινητά και υπολογιστές | Κόμβο `zcashd` | `lightwalletd` |
 | Χρειάζεται τοπικό κόμβο | Ναι | Ναι (Zebra από προεπιλογή) | Όχι (light client) | Είναι ο ίδιος ο κόμβος | Ναι |
-| Συμβατότητα RPC zcashd | Σχεδιασμένο ως η διαδρομή συμβατότητας | Μόνο μικρό επιλεγμένο υποσύνολο | Δ/Ι | Μερική / λειτουργία συμβατότητας Zakura | Διαφορετικό API |
-| Μοντέλο custody | Ο διαχειριστής κρατά τα κλειδιά στο `wallet.db` | Server ανακτήσιμος από seed | Κλειδιά στη συσκευή του χρήστη | Χωρίς πορτοφόλι | Χωρίς κλειδιά |
+| Συμβατότητα RPC του zcashd | Σχεδιάστηκε ως διαδρομή συμβατότητας | Μόνο ένα μικρό, επιλεγμένο υποσύνολο | Δεν εφαρμόζεται | Μερική / λειτουργία συμβατότητας Zakura | Διαφορετικό API |
+| Μοντέλο φύλαξης | Ο χειριστής έχει τα κλειδιά στο `wallet.db` | Διακομιστής που ανακτάται με seed | Κλειδιά στη συσκευή του χρήστη | Χωρίς πορτοφόλι | Χωρίς κλειδιά |
 
 Τα Zallet και **zecd** μπορούν και τα δύο να βρίσκονται μπροστά από το Zebra. Επίλεξε το Zallet όταν χρειάζεσαι την επιφάνεια πορτοφολιού `z_*` και μια διαδρομή μετάβασης από το `wallet.dat`. Επίλεξε το zecd όταν θέλεις έναν server με προτεραιότητα στα θωρακισμένα που ρητά *δεν* είναι αντίγραφο του `zcashd`.
 
@@ -198,21 +206,22 @@ zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 
 ## Σχετικές σελίδες
 
-- [Πλήρεις κόμβοι](Full_Nodes.md) — Zebra, Zakura και ο αποσυρμένος κόμβος `zcashd`
-- [Πλήρης κόμβος Zebra](Zebra_Full_Node.md) — ο κόμβος που διαβάζει το προεπιλεγμένο backend του Zallet
-- [Κόμβος Zakura](Zakura_Node.md) — εναλλακτικός κόμβος επικύρωσης
-- [Zaino](Zaino.md) — backend indexer και server light-client
-- [zecd](ZECD.md) — άλλη σχεδίαση wallet-server πάνω στο librustzcash
-- [Συγχρονισμός πορτοφολιού Zcash](Zcash_Wallet_Syncing.md) — πώς τα θωρακισμένα πορτοφόλια σαρώνουν την αλυσίδα
-- [Viewing Keys](Viewing_Keys.md)
+- [Πλήρεις κόμβοι](Full_Nodes.md) — Zebra, Zakura και ο παρωχημένος κόμβος `zcashd`
+- [Zebra πλήρης κόμβος](Zebra_Full_Node.md) — τα προεπιλεγμένα backend του κόμβου Zallet διαβάζουν
+- [Zakura κόμβος](Zakura_Node.md) — εναλλακτικός κόμβος επικύρωσης
+- [Zaino](Zaino.md) — ευρετήριο και διακομιστής light client (δεν είναι πλέον backend του Zallet από την beta.4)
+- [Στοίβα Z3](Z3_Stack.md) — σύνθετη στοίβα των Zebra + Zallet
+- [zecd](ZECD.md) — άλλο σχέδιο διακομιστή πορτοφολιού στο librustzcash
+- [Zcash Συγχρονισμός πορτοφολιών](Zcash_Wallet_Syncing.md) — πώς τα θωρακισμένα πορτοφόλια σαρώνουν την αλυσίδα
+- [Viewing keys](Viewing_Keys.md)
 
 ## Πόροι
 
-- [Βιβλίο του Zallet](https://zcash.github.io/zallet/)
+- [Το Zallet βιβλίο](https://zcash.github.io/zallet/)
 - [zcash/zallet στο GitHub](https://github.com/zcash/zallet)
-- [Εκδόσεις](https://github.com/zcash/zallet/releases)
-- [Τροποποιημένη σημασιολογία JSON-RPC](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [Οδηγός μετάβασης ZecHub](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [Οδηγός Raspberry Pi ZecHub (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
-- [Z3 (compose stack Zebra + Zallet)](https://github.com/ZcashFoundation/z3)
+- [Εκδόσεις](https://github.com/zcash/zallet/releases) · [αρχείο αλλαγών v0.1.0-beta.4](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
+- [Αλλαγμένες σημασιολογίες JSON-RPC](https://zcash.github.io/zallet/zcashd/json_rpc.html)
+- [ZecHub οδηγός μετάβασης](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [ZecHub οδηγός Raspberry Pi (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
+- [Z3 (Zebra + Zallet στοίβα compose)](https://github.com/ZcashFoundation/z3)
 - [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`

@@ -10,7 +10,7 @@ Apa yang akan Anda pelajari: bagaimana Blossom membuat blok Zcash tiba sekitar d
 
 Blossom adalah Zcash [peningkatan jaringan](../start-here/network-upgrades). Ini diterapkan oleh [ZIP 206](https://zips.z.cash/zip-0206), dan perubahan konsensus utamanya didefinisikan dalam [ZIP 208](https://zips.z.cash/zip-0208). Blossom adalah peningkatan skalabilitas: ini memperpendek target waktu antar blok dari 150 detik menjadi 75 detik, sehingga blok tiba sekitar dua kali lebih sering. Electric Coin Company memimpin dan mengumumkan Blossom.
 
-Mengapa ini penting. Saat Anda mengirim ZEC, Anda menunggu jaringan mengonfirmasinya dalam sebuah blok. Jika blok lambat, Anda akan menunggu lebih lama. Sebelum Blossom, blok baru diharapkan muncul sekitar setiap 150 detik. Blossom memangkas target tersebut menjadi setengahnya, yaitu 75 detik, sehingga konfirmasi datang lebih cepat dan chain dapat membawa lebih banyak transaksi dalam jumlah waktu yang sama. Hal ini dilakukan tanpa menciptakan lebih banyak ZEC atau mengubah waktu halving di masa mendatang.
+Mengapa ini penting. Saat Anda mengirim ZEC, Anda menunggu jaringan mengonfirmasinya dalam sebuah blok. Jika blok lambat, Anda akan menunggu lebih lama. Sebelum Blossom, blok baru diharapkan muncul sekitar setiap 150 detik. Blossom memangkas target tersebut menjadi setengahnya, yaitu 75 detik, sehingga konfirmasi datang lebih cepat dan chain dapat membawa lebih banyak transaksi dalam jumlah waktu yang sama. Hal ini dilakukan tanpa menciptakan lebih banyak ZEC atau mengubah waktu halving di masa mendatang. (NU7, yang diaktifkan pada November 2026, kemudian memangkas target tersebut lagi menjadi 25 detik berdasarkan [ZIP 218](https://zips.z.cash/zip-0218), dengan pendekatan yang sama.)
 
 ## TL;DR
 

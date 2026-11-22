@@ -72,9 +72,9 @@ ___
 
 ___
 
-### Trocodor
+### Trocador
 
-<img src="/Trocodor.png" alt="Trocodor" width="200" height="100"/>
+<img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Ιστότοπος: https://trocador.app/
 - Περιγραφή: Κάνε συναλλαγές με κρυπτονόμισμα ανώνυμα. Γρήγορα. Ασφαλώς. Χωρίς γραφειοκρατία. Διατίθενται προπληρωμένες χρεωστικές κάρτες.
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Ιστότοπος: https://github.com/firoorg/FiroDEX-Desktop
-- Περιγραφή: Αξιόπιστα χωρίς εμπιστοσύνη αποκεντρωμένα swaps με χρήση atomic swaps με το FiroDEX!.
+- Περιγραφή: Εφαρμογή desktop για atomic swap. Δεν συντηρείται πλέον: το Firo έχει αρχειοθετήσει το αποθετήριο FiroDEX-Desktop και η τελευταία έκδοσή του είναι η 0.8.2-beta (Φεβρουάριος 2025).
 
 ___
 

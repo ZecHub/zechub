@@ -41,7 +41,7 @@ En yüksek gizlilik ve kontrol için kendi sunucunuzda barındırılan **BTCPay 
 
 Çevrim içi yerine mağazada ödeme almak için **Flexa** kullanın.
 
-Şeffaf ödemelerin kabul edilebilir olduğu, barındırılan bir ağ geçidi için **NOWPayments** veya **Plisio** kullanın.
+Şeffaf ödemelerin kabul edilebilir olduğu, barındırılan bir ağ geçidi için **NOWPayments** kullanın. **Plisio** ödemeleri askıya aldı (aşağıdaki girdisindeki tarihli duyuruya bakın), bu yüzden şimdilik onu tercih etmeyin.
 
 Tekrarlanmaya değer bir uyarı: yalnızca şeffaf bir işleyici, her ödeme tutarını ve adresini blokzincirde yayımlar. Barındırılan tüm saklamasız işleyicilerde görüntüleme anahtarınızı teslim edersiniz; böylece şirket onları harcayamasa bile ödemelerinizi görebilir. Bundan kaçınmanın tek yolu kendi sunucunuzda barındırmaktır.
 

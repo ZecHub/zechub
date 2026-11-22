@@ -41,7 +41,9 @@
 
 > sudo apt install libclang-dev
 
-> cargo install --git https://github.com/ZcashFoundation/zebra --tag v2.1.0 zebrad
+> cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
+
+Zã Zebra 7.0.0 alo si wu: NU7 wɔ dɔ le Mainnet le gaɖoɖowo ƒuƒoƒe 3,543,405 dzi, eye `zebrad` ƒe nu vovowo xoxo mate ŋu akplɔ ɖoɖonu la ayi teƒe ma megbe o ([xexlẽŋlɔwo si gblɔ nu siwo va yeyee](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Zenith ƒe nu vovowo si le ete (0.7.2.0-beta) xoxo: nu vovowo siwo va yeyee le nuŋɔŋlɔ ƒe ɣeyiɣi me nye 0.13.0.0-beta (June 2026, NU6.2 ƒe kpekpeɖeŋu). De dzesii be [Zenith ƒe nu vovowo](https://code.vergara.tech/Vergara_Tech/zenith/releases) le nu si akplɔ NU7 kplɔ wo hã la ŋu, hafi nàzãe le Mainnet.
 
 > zebrad generate -o ~/.config/zebrad.toml
 

@@ -1,16 +1,41 @@
-# Keystone Zashi Kullanım Kılavuzu
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Keystone_Zashi.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
+</a>
 
-Twitter Rehberi:  => [Zashi x Keystone Donanım Cüzdanı Entegrasyonu Twitter Rehberi](https://x.com/zashi_app/status/1869793574880973144) 
+# Keystone Zodl (eski adıyla Zashi) Kullanım Kılavuzu
 
-Bu entegrasyon, korumalı ZEC için soğuk depolamayı mümkün kılarak Zcash kullanılabilirliğinde önemli bir evrime işaret ediyor. Zcash topluluğu geçmişte diğer donanım cüzdanı platformlarıyla aksaklıklar yaşadı, ancak Keystone sınırları zorlamaya ve Electric Coin Company ile birlikte yenilik yapmaya istekli, iş birliğine açık bir ortak olarak öne çıktı. Keystone ekibi, çalışmanın kendi tarafını finanse etmek için bir ZCG hibesi aldı.
+> Korumalı ZEC varlıklarınızı soğuk depolamada tutun: Keystone donanım cüzdanını Zodl uygulamasıyla (eski adıyla Zashi, Şubat 2026'da yeniden markalandı) eşleştirin ve işlemleri QR koduyla imzalayın.
 
-## Keystone X Zashi Eğitimi
+## Kısaca
+
+* Cypherpunk firmware'li Keystone 3 Pro (veya Keystone 3), Zodl için çevrimdışı imzalayıcı olarak çalışır; böylece korumalı ZEC varlıklar soğuk depolamada tutulabilir.
+* Başlamadan önce: pil seviyesi %20'nin üzerinde olmalı; firmware güncellemeleri için USB kablosunu (veya FAT32 MicroSD kartını) ve telefonunuzda Zodl uygulamasını hazır bulundurun.
+* Önce cihazı Keystone web sitesinde doğrulayın. Bu, cihazın taşıma sırasında kurcalanmadığını kontrol eder.
+* Cüzdanı Keystone üzerinde oluşturun ve 24 kelimelik kurtarma ifadesini çevrimdışı olarak not edin. Bu ifade hiçbir zaman Zodl içine girilmez.
+* Bağlanmak için: Keystone üzerinde "..." > Yazılım Cüzdanını Bağla > Zodl seçeneğine dokunun; ardından Zodl içinde Donanım Cüzdanını Bağla'ya dokunup QR kodunu tarayın.
+* Zodl her işlemi oluşturur; siz de QR kodlarını karşılıklı tarayarak Keystone ekranında işlemi onaylayıp imzalarsınız.
+
+## Temel Açıklama
+
+Donanım cüzdanı, harcama anahtarlarınızı internete hiç bağlanmayan ayrı bir cihazda tutar. Keystone çevrimdışı çalışır: telefonunuzla Bluetooth veya USB üzerinden değil, yalnızca QR kodları aracılığıyla iletişim kurar.
+
+Bu düzende Zodl "izleme" tarafıdır. Zcash ağıyla eşitlenir, korumalı bakiyenizi gösterir ve işlemleri hazırlar. Keystone kurtarma ifadesini saklar ve işlemleri imzalar. Ele geçirilmiş bir telefon bakiyenizi görebilir, ancak Keystone üzerinde onay verilmeden fonları taşıyamaz.
+
+Aşağıdaki adımlarda cihazın hazırlanması, doğrulanması, firmware'inin güncellenmesi, cüzdanın oluşturulması ve Zodl ile bağlanması anlatılıyor.
+
+## Genel Bakış
+
+Twitter Kılavuzu:  => [Zodl (eski adıyla Zashi) x Keystone Donanım Cüzdanı Entegrasyonu Twitter Kılavuzu](https://x.com/zashi_app/status/1869793574880973144) 
+
+Bu entegrasyon, korumalı ZEC varlıkların soğuk depolamada saklanmasını sağlayarak Zcash kullanım kolaylığında önemli bir ilerleme sunuyor. Zcash topluluğu geçmişte diğer donanım cüzdanı platformlarında aksaklıklar yaşadı; ancak Keystone, sınırları zorlamaya ve Electric Coin Company ile birlikte yenilik yapmaya istekli bir iş ortağı olarak öne çıktı. Keystone ekibi, kendi çalışmalarını desteklemek için ZCG hibesi aldı.
+
+## Keystone X Zodl Eğitimi
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/ktYf7josJKM"
-    title="Keystone X Zashi Tutorial"
+    title="Keystone X Zodl Eğitimi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -19,59 +44,60 @@ Bu entegrasyon, korumalı ZEC için soğuk depolamayı mümkün kılarak Zcash k
     
 
 ## Hazırlık
-[Keystone 3 Pro veya Keystone 3'ünüzü Sipariş Edin ve Teslim Alın](https://keyst.one) 
+[Keystone 3 Pro veya Keystone 3'ü Sipariş Edin ve Teslim Alın](https://keyst.one) 
 
 Pil Seviyesi: Keystone cihazınızın pil seviyesinin %20'nin üzerinde olduğundan emin olun.
 
 USB Kablosu veya SD Kart:
 
-- Firmware güncellemesi için USB kablosu (dahil).
-- Yükseltmeler için Micro SD kart (1 TB'den küçük) (ayrıca satın alınır).
+- Firmware güncellemesi için USB kablosu (pakete dahildir).
+- Yükseltmeler için Micro SD kart (1 TB'tan küçük, ayrıca satın alınır).
 
-Doğrulama ve Firmware Güncellemesi için Keystone'un resmî web sitesine erişim.
+Doğrulama ve Firmware Güncellemesi için Keystone'un resmi web sitesine erişim.
 
-Mobil cihazınızda Zashi uygulamasının kurulumu.
+Mobil cihazınızda Zodl uygulamasının kurulumu.
 
-## [Adım Adım Kılavuz (Keystone Cihazı)](https://keyst.one/get-started) 
+## [Adım Adım Kılavuz(Keystone Cihazı)](https://keyst.one/get-started) 
 
 
 **Dilinizi Seçin**
--Cihaz Doğrulaması (QR ile): Cihaz Doğrulaması, taşıma sırasında olası müdahaleleri tespit etmek, tedarik zinciri saldırılarını önlemek ve kurulu firmware'in güvenliğini sağlamak için kritik öneme sahiptir.
-  - Keystone web sitesindeki Cihaz Doğrulaması sayfasını ziyaret edin.
-  - Resmî web sitesinde QR Kodunu Tara seçeneğine tıklayın.
-  - Web sitesinde gösterilen QR kodunu taramak için Keystone kameranızı kullanın.
-  - Keystone ekranınızda bir doğrulama kodu görünecektir.
+
+- **Cihaz Doğrulaması (QR ile):** Cihaz doğrulaması; taşıma sırasında oluşabilecek müdahaleleri tespit etmek, tedarik zinciri saldırılarını önlemek ve yüklenen firmware'in güvenliğini sağlamak için çok önemlidir.
+  - Keystone web sitesindeki Cihaz Doğrulama sayfasını ziyaret edin.
+  - Resmi web sitesinde QR Kodunu Tara'ya tıklayın.
+  - Web sitesinde gösterilen QR kodunu taramak için Keystone kamerasını kullanın.
+  - Keystone ekranınızda bir doğrulama kodu görüntülenir.
   - Doğrulama sürecini tamamlamak için bu kodu web sitesine girin.
 
 - **Firmware Güncellemesi:**
   - MicroSD kart ile güncelleme
-    - Keystone cüzdanınızın en az %20 pil şarjına sahip olduğundan emin olun.
+    - Keystone cüzdanınızın pil seviyesinin en az %20 olduğundan emin olun.
     - SD kartı bilgisayarınıza takın ve FAT32 olarak biçimlendirin.
-    - En güncel Cypherpunk firmware sürümünü [Keystone Firmware Güncelleme sayfasından](https://keyst.one/firmware) indirin ve keystone3.bin dosyasını MicroSD kartınızın kök dizinine kaydedin.
-    - Firmware yüklü SD kartı Keystone cüzdanınıza yerleştirin.
-    - Keystone cüzdanınızda "Upgrade" seçeneğine erişin, ardından güncelleme sürecini başlatmak için ekrandaki talimatları izleyin.
-  - **USB Kablosu ile Güncelleme**
-    - Firmware sürümünüz 1.0.4'ün altındaysa, USB güncellemelerine geçmeden önce ilk güncellemeyi bir MicroSD kart kullanarak yapmanız gerekir.
-    - Keystone cüzdanınızın en az %20 pil şarjına sahip olduğundan emin olun.
-    - via USB seçeneğine dokunun ve USB kablosunu kullanarak Keystone cüzdanınızı bilgisayarınıza bağlayın. Keystone cüzdanınıza USB erişimi vermek için [Approve] seçeneğine dokunun; aksi takdirde yalnızca şarja izin verebilir.
+    - [Keystone Firmware Güncelleme sayfasından](https://keyst.one/firmware) en yeni Cypherpunk firmware sürümünü indirin ve keystone3.bin dosyasını MicroSD kartınızın kök dizinine kaydedin.
+    - Firmware'in bulunduğu SD kartı Keystone cüzdanınıza takın.
+    - Keystone cüzdanınızda "Yükselt" seçeneğine gidin, ardından güncelleme sürecini başlatmak için ekrandaki talimatları izleyin.
+  - **USB Kablosuyla Güncelleme**
+    - Firmware sürümünüz 1.0.4'ten eskiyse USB üzerinden güncellemeye geçmeden önce ilk güncellemeyi MicroSD kart kullanarak yapmanız gerekir.
+    - Keystone cüzdanınızın pil seviyesinin en az %20 olduğundan emin olun.
+    - USB ile seçeneğine dokunun ve USB kablosunu kullanarak Keystone cüzdanınızı bilgisayarınıza bağlayın. [Onayla] seçeneğine dokunarak Keystone cüzdanınıza USB erişim izni verin; aksi takdirde yalnızca şarj etmeye izin verebilir.
     - Bilgisayarınızın web tarayıcısını açın ve [Keystone Firmware Güncelleme sayfasına](https://keyst.one/firmware) gidin
-    - Güncelleme sayfasında Install Update düğmesine tıklayın ve en güncel firmware'i yüklemek için verilen talimatları izleyin.
-- **Cüzdan Oluşturun:**
-    - Güvenli Parola: Cüzdanınızı korumak için güçlü bir PIN veya parola seçin.
-    - Cüzdanınıza İsim Verin (İsteğe Bağlı): Kolay tanınması için isteğe bağlı olarak cüzdanınıza bir ad verin veya bu adımı atlayın.
-    - İlk kez bir cüzdan kuruyorsanız Create New Wallet seçeneğini seçin.
-    - Cihazınız 24 kelimelik bir seed phrase oluşturacaktır.
-    - Bu seed phrase'i yazın ve güvenli bir şekilde saklayın.
-    - Ekranda gösterildiği şekilde kelimeleri doğru sırayla doğrulayarak seed phrase'i onaylayın.
-- **Zashi + Keystone Cüzdanını Bağlayın:**
-    - Keystone cihazında: Ana sayfada … öğesine dokunun
-    - Connect Software Wallet seçeneğine dokunun ve Zashi'yi seçin. Zashi'ye bağlantı için QR kodu görünecektir.
-    - Zashi Uygulamasında: zashi açılır menüsüne dokunun (ekranın sol üstü)
-    - Connect Hardware Wallet seçeneğine dokunun
-    - Ready to Scan seçeneğine dokunun
-    - Keystone Cihazında gösterilen QR kodunu tarayın
-    - Zashi Uygulamasında: Gösterilen hesaba dokunarak Keystone Cüzdan Hesabını onaylayın
-    - Ekranın altındaki Connect seçeneğine dokunun
+    - Güncelleme sayfasında Güncellemeyi Yükle düğmesine tıklayın ve en yeni firmware'i yüklemek için verilen talimatları izleyin.
+- **Cüzdan Oluşturma:**
+    - Güvenli parola: Cüzdanınızı korumak için güçlü bir PIN veya parola belirleyin.
+    - Cüzdanınıza ad verin (isteğe bağlı): Kolayca tanımak için cüzdanınıza bir ad verebilir veya bu adımı atlayabilirsiniz.
+    - İlk kez cüzdan kuruyorsanız Yeni Cüzdan Oluştur'u seçin.
+    - Cihazınız 24 kelimelik bir kurtarma ifadesi oluşturur.
+    - Bu ifadeyi not edin ve güvenli bir yerde saklayın.
+    - Ekranda gösterilen kelimeleri doğru sırayla doğrulayarak kurtarma ifadesini onaylayın.
+- **Zodl + Keystone Cüzdanını Bağlama:**
+    - Keystone cihazında: Ana sayfada … simgesine dokunun
+    - Yazılım Cüzdanını Bağla'ya dokunun ve Zodl seçeneğini belirleyin. Zodl bağlantısı için QR kodu görüntülenir.
+    - Zodl Uygulamasında: Zodl açılır menüsüne (ekranın sol üstünde) dokunun
+    - Donanım Cüzdanını Bağla'ya dokunun
+    - Taramaya Hazırım'a dokunun
+    - Keystone Cihazında görüntülenen QR kodunu tarayın
+    - Zodl Uygulamasında: Görüntülenen hesaba dokunarak Keystone Cüzdanı Hesabını onaylayın
+    - Ekranın altındaki Bağlan'a dokunun
 
 
 ## Ek Yardım
@@ -80,7 +106,7 @@ Mobil cihazınızda Zashi uygulamasının kurulumu.
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Jr6LqtD1W0s"
-    title="Connect Keystone Hardware Wallet to Zashi"
+    title="Keystone Donanım Cüzdanını Zodl Uygulamasına Bağlama"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -92,7 +118,7 @@ Mobil cihazınızda Zashi uygulamasının kurulumu.
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/t_OHb1KqrRg"
-    title="Sign an Outgoing Transaction with Keystone"
+    title="Keystone ile Giden Bir İşlemi İmzalama"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"

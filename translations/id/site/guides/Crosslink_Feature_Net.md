@@ -15,6 +15,8 @@
 
 *Diuji dengan Feature Net versi 14 pada Windows 11 (versi 10.0.26200.9550), dari 8 hingga 10 Oktober 2026. Perangkat lunak ini adalah prototipe dan berubah pada setiap rilis. Jika yang kamu lihat berbeda dari halaman ini, percayai hasil penggunaanmu sendiri dan silakan buka PR.*
 
+**Pembaruan, 17 November 2026: versi 14 tidak lagi bisa bergabung dengan Feature Net.** [Versi 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 Oktober) membawa peningkatan jaringan pada ketinggian PoW 55.296. Mulai dari [versi 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16), “setiap versi berhenti berjalan dua minggu setelah dirilis”, dan Shielded Labs merencanakan rilis setiap minggu. [Versi 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 November) membawa peningkatan lain pada ketinggian PoW 165.000. Rilis terbaru saat catatan ini ditulis adalah [versi 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 November 2026): versi ini tidak dapat berkomunikasi dengan node versi 17, membawa peningkatan jaringan pada blok 189.000, dan berhenti berjalan pada blok 212.568, sekitar 30 November. Unduh [rilis terbaru](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest), bukan versi 14. Langkah-langkah di bawah ini belum dijalankan ulang pada versi tersebut. Ada dua perbedaan yang diketahui: nama berkas telah berubah, dan RPC staking sekarang adalah `wallet_staking_action` (lihat [Satu nama RPC yang perlu diperhatikan](#one-rpc-name-to-watch)).
+
 ## Apa itu Feature Net
 
 Crosslink adalah sebuah proposal, dan belum menjadi bagian dari Zcash saat ini. FAQ Shielded Labs [Crosslink](https://shieldedlabs.net/crosslink-faq/) menyatakan bahwa proposal ini "perlu melalui proses tata kelola Zcash standar" sebelum dapat mencapai mainnet. Halaman [Crosslink Protocol](/zcash-tech/crosslink-protocol) menjelaskan desainnya.
@@ -54,14 +56,14 @@ ZEC asli hanya terlibat pada akhirnya. Shielded Labs telah [menyisihkan 500 ZEC]
 
 ## Sebelum memulai
 
-- **Komputer yang dapat kamu biarkan menyala.** Rilis ini menyediakan build untuk Windows, macOS, Ubuntu, dan Arch Linux. Panduan ini dijalankan pada Windows, pada PC dengan prosesor Intel Core i5-8350U.
-- **Staking Day.** Periksa kapan hari berikutnya dibuka sebelum merencanakan apa pun. [Staker Space's dashboard](https://crosslink.staker.space/) menghitung mundur hingga saat itu.
-- **Tidak ada yang lain.** Tidak perlu ZEC, akun, maupun pendaftaran.
+- **Komputer yang bisa kamu biarkan tetap menyala.** Versi 14 tersedia untuk Windows, macOS, Ubuntu, dan Arch Linux. Versi 17 dan 18 tersedia untuk Windows, macOS, dan Ubuntu. Panduan ini dijalankan di Windows, pada PC dengan prosesor Core i5-8350U Intel.
+- **Staking Day.** Periksa kapan acara berikutnya dibuka sebelum merencanakan apa pun. [Dashboard Staker Space](https://crosslink.staker.space/) menampilkan hitung mundur menuju acara tersebut.
+- **Tidak perlu yang lain.** Tidak perlu ZEC, akun, atau mendaftar.
 
 ## Langkah 1: Unduh aplikasi dan periksa file
 
-1. Buka [version 14 release](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) dan gulir ke **Assets**.
-2. Unduh file untuk sistemmu. Pada Windows, file tersebut adalah `zebrad_v14_win32.exe`.
+1. Buka [rilis terbaru](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) dan gulir ke **Assets**. Panduan ini dijalankan dengan [rilis versi 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), yang sudah tidak bisa bergabung dengan jaringan.
+2. Unduh file untuk sistem kamu. Di Windows, nama file diakhiri dengan `_win32.exe`: `zebrad_v14_win32.exe` dalam contoh di bawah, `zebra-crosslink_v18_win32.exe` untuk versi 18. Gunakan nama file dan digest milikmu sendiri dalam perintah berikutnya.
 3. Bandingkan SHA-256 file dengan digest yang ditampilkan GitHub di samping aset tersebut.
 
 Pada Windows, di PowerShell:
@@ -397,6 +399,8 @@ Catatan rilis versi 14 menjelaskan panggilan staking bernama `wallet_staking_act
 ```
 
 Metode staking yang didaftarkannya adalah [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420), yang menerima satu string berisi permintaan sebagai JSON, dengan finalizer diberikan melalui identitas `zfinv1` miliknya ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Metode ini tidak dicoba untuk panduan ini.
+
+**Berubah setelah versi 14.** Mulai versi 15, node mencatat `wallet_staking_action` dan tidak lagi memiliki `staking_command` ([sumber versi 18](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Node menerima satu objek dengan tepat satu dari empat bentuk, `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` atau `WithdrawDelegationBond`, dan finalizer diberikan sebagai kunci hex sepanjang 64 karakter ([catatan rilis versi 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). Mulai blok 189.000, setiap tindakan staking juga mencantumkan versi obligasi saat ini, sehingga tindakan yang dibuat berdasarkan obligasi yang sudah kedaluwarsa akan ditolak dan dompet harus menjalankan versi 18 ([catatan rilis versi 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). Panduan ini juga tidak mencobanya.
 
 ## Unstake dan tarik
 

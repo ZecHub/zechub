@@ -45,7 +45,7 @@ Ayrıca Zcash'ü eşler arası olarak satın alabilir veya madencilik yoluyla ed
 
 <div className="rounded-2xl border border-border bg-card p-5 my-4">
 
-Zcash, Bitcoin veya Ethereum'dan temelde daha gizlidir. Hızlı blok süreleri (75 saniye), düşük ücretler ve düzenli yükseltmeler sunar.
+Zcash, Bitcoin veya Ethereum'dan temelde daha gizlidir. Hızlı blok süreleri (NU7 Kasım 2026'da etkinleştirildiğinden beri 25 saniye; öncesinde 75 saniyeydi), düşük ücretler ve düzenli yükseltmeler sunar.
 
 Kullanıcılar **Şeffaf** veya **Korumalı** işlemler arasında seçim yapabilir. Daha fazla bilgi için [Korumalı Bir Ekosistem](https://electriccoin.co/blog/shielded-ecosystem) sayfasına bakın.
 

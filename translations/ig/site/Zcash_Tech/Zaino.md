@@ -25,7 +25,7 @@ Nkewa a na-eme ka ọrụ ndị ahụ doo anya:
 
 Zaino na-enye arụmọrụ maka light client, full client ma ọ bụ e-akpa ego, na ndị nyocha block. Ọ na-enye ohere ịnweta chain emechara, chain kacha mma nke emechabeghị, na data mempool nke Zebra jidere.
 
-## Otu O Si Daba n'Usoro Zcash Dị Ugbu A
+## Otu Ọ Si Daba na Zcash Stack Dị Ugbu A
 
 A na-ewu usoro Z3 dị ugbu a gburugburu Zebra, Zallet, na Zaino nhọrọ.
 
@@ -89,5 +89,6 @@ Zaino na-ekpughe ụdị ọrụ netwọk abụọ. Ọrụ gRPC bụ API chere 
 * [ebe nchekwa mbugharị Z3](https://github.com/ZcashFoundation/z3)
 * [akwụkwọ Zebra](https://zebra.zfnd.org/)
 * [mkparịta ụka ikike na ọrụ Zaino](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
+* [Zinder](/zcash-tech/zinder), onye ọzọ na-edepụta Rust, sitere na Zcash Foundation (alpha)
 
 **Emelitere ikpeazụ:** Ọgọọst 2026

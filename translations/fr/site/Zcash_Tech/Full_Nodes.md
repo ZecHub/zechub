@@ -94,7 +94,7 @@ En faisant tourner un nœud complet, vous contribuez à renforcer le réseau Zca
 
 Cela aide à empêcher la prise de contrôle par des adversaires et à maintenir la résilience du réseau face à certaines formes de perturbation.
 
-Les DNS seeders exposent une liste d'autres nœuds fiables via un serveur intégré. Cela permet aux transactions de se propager dans tout le réseau.
+Les DNS seeders exposent une liste d’autres nœuds fiables via un serveur intégré. Cela permet aux transactions de se propager dans tout le réseau. Les seeders de Zcash Foundation fonctionnent avec [Zeeder](https://github.com/ZcashFoundation/zeeder), un DNS seeder écrit en Rust qui a remplacé son ancien dnsseeder basé sur CoreDNS. Ses images sont publiées sous le nom `zfnd/zeeder` ; l’ancien nom `zfnd/dnsseeder` est en cours d’abandon.
 
 ### Statistiques du réseau
 
@@ -136,6 +136,7 @@ Cela présente l'avantage supplémentaire de permettre à d'autres utilisateurs 
 - [Nœud Zakura](/zcash-tech/zakura-node) - la seconde implémentation de nœud, dérivée de Zebra
 - [Nœuds pour portefeuilles légers](/zcash-tech/lightwallet-nodes) - les serveurs que les portefeuilles légers interrogent
 - [Zaino](/zcash-tech/zaino) - l'indexeur Rust qui sert les portefeuilles légers
+- [Zinder](/zcash-tech/zinder) - l'indexeur alpha de Zcash Foundation pour Zebra et Zakura
 - [Synchronisation des portefeuilles Zcash](/zcash-tech/zcash-wallet-syncing) - pourquoi la synchronisation fonctionne ainsi
 
 ## Pour aller plus loin

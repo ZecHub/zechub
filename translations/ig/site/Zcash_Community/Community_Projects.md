@@ -131,8 +131,8 @@ Ikpo okwu inye ego obere na-adị ndụ, na-abụghị Onye nlekota, ebe ego obe
 [Gaa leta](https://tipz.cash/)
 
 ### CYZE
-E-akpa ego mmekọrịta na ikpo okwu nhazi nke na-enye ọtụtụ ndị òtù otu ohere ijikwa ego Zcash e chebere echebe ọnụ. Ọ na-eji signature ọnụ ụzọ FROST, na-enye ndị otu ohere ikwe Azụmahia Orchard ọnụ na-enweghị inye otu onye so na ya njikwa e-akpa ego dum.  
-[Gaa leta](https://github.com/USCMig/Cyze)
+E-akpa ego mmekọrịta na ikpo okwu nhazi nke na-enye ọtụtụ ndị òtù otu ohere ijikwa ego Zcash nke e chebere echebe ọnụ. Ọ na-eji FROST signature ọnụ ụzọ, na-enye ndị otu ohere ikwe Orchard Azụmahia ọnụ na-enweghị inye otu onye so na ya njikwa e-akpa ego dum.  
+[Gaa leta](https://github.com/JustShieldMe/Cyze)
 
 ### Pendrake Watch
 E-akpa ego desktop maka ilele naanị, e mere maka ndị mmadụ n'otu n'otu na òtù chọrọ ileba ego e chebere echebe anya na-enweghị ikike imefu ya. Ọ na-akwado nlekota Azụmahia na nguzozi, note Orchard na Sapling, ile memo [memo] anya, ọnụ ahịa fiat n'oge gara aga, ọkwa Azụmahia, Nzobe ederede [encryption] e-akpa ego, na atụmatụ ikesa ihuenyo lekwasịrị anya na Nzuzo.  
@@ -167,8 +167,8 @@ Map ụwa niile nke azụmahịa na ebe na-anabata Zcash.
 [Gaa leta](https://zecmap.com/)
 
 ### ZECping
-Ngwá ọrụ iji lelee oge nzaghachi gRPC nke node lightwalletd Zcash.  
-[Gaa leta](https://github.com/emersonian/zecping)
+Ngwá ọrụ iji lelee oge nzaghachi gRPC nke node Zcash lightwalletd.  
+[Gaa leta](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Dashboard maka ọnụ ọgụgụ netwọkụ Zcash na metrics nchebe n'oge dị adị.  
@@ -217,7 +217,7 @@ Mgbatị nchọgharị nke na-atụgharị ọnụahịa ego fiat gaa ZEC n'oge 
 
 ### Shielded Wall
 Ikpo okwu nkwupụta na-amaghị onye dere ya nke Nzuzo Zcash kwadoro.  
-[Gaa leta](https://shieldedwall.org/)
+[Gaa leta](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
 
 ### Ztrash
 Igbe mbata email nwaoge, nke e ji ZEC e chebere echebe kwụọ ụgwọ.  
@@ -232,7 +232,7 @@ Ngwá ọrụ nleba ego na ndekọ ego nke na-echekwa Nzuzo maka Zcash. Ọ na-e
 [Gaa leta](https://zecledger-web.vercel.app/)
 
 ### Nyocha Njirimara na ZcashMe
-Usoro nyocha njirimara lekwasịrị anya na Nzuzo nke na-eji Azụmahia Zcash e chebere echebe dị ka usoro nbanye. Ndị ọrụ na-enyocha QR code ma ziga obere Azụmahia nyocha njirimara.  
+Usoro nyocha njirimara lekwasịrị anya na Nzuzo nke na-eji Azụmahia Zcash nke e chebere echebe dị ka usoro nbanye. Ndị ọrụ na-enyocha QR code ma ziga obere Azụmahia nyocha njirimara. Edebere ebe nchekwa koodu ahụ n’ọnọdụ nke naanị ịgụ ihe, ya mere anaghịzi elekọta ọrụ ahụ.  
 [Gaa leta](https://github.com/zcashme/zns-login)
 
 ---
@@ -241,12 +241,12 @@ Usoro nyocha njirimara lekwasịrị anya na Nzuzo nke na-eji Azụmahia Zcash e
 
 ### Ztreamer
 Indexer Zcash open-source emelitere nke ukwuu na mmejuputa lightwallet-protocol (CompactTxStreamer), nke node Zakura agbakwunyere n'ime ya kwadoro. Ọ na-arụ node + indexer + sava e-akpa ego n'otu usoro (ztreamerd); ọ na-akwado gRPC na Zakura v2 P2P. Indexing ngwa ngwa maka akụkọ ihe mere eme na ọrụ latency dị ala maka e-akpa ego light.  
-[Gaa leta](https://github.com/distractedm1nd/ztreamer)  
+[Gaa leta](https://github.com/zcashlabs/ztreamer)  
 [Crate](https://crates.io/crates/ztreamer-indexer)
 
 ### Ziggurat
 Nchịkọta nnwale netwọkụ maka ndị onye mmepụta zcashd na Zebra. Ọ gụnyere crawler Zcash.  
-[Gaa leta](https://github.com/runziggurat/zcash)
+[Gaa leta](https://github.com/equilibriumco/ziggurat-zcash)
 
 ### ZecDev
 Ngwaọrụ Linux na-ebute ụzọ nke na-ebulite netwọkụ regtest Zebra nwere faucet [faucet], fixtures Unified Address, na lightwalletd ma ọ bụ Zaino, tinyere Actions GitHub a pụrụ iji ọzọ maka usoro e chebere echebe site na mmalite ruo n'ọgwụgwụ.  
@@ -273,8 +273,8 @@ Nnwale n'usoro nke akụkụ parsing, netwọkụ, na cryptographic nke Zebra me
 [Gaa leta](https://aftok.com)
 
 ### ZK Global Credit
-Akụrụngwa kredit na ntuli aka sitere na Zcash maka Mpughe ahọpụtara [selective disclosure], ịdị njikere mmecha, aha ọma gafere ókèala, na Gọọmentị e chebere echebe.  
-[Gaa leta](https://voting.zkglobalcredit.tech/)
+Akụrụngwa kredit na ntuli aka sitere na Zcash maka Mpughe ahọpụtara, ịdị njikere mmecha, aha ọma gafere ókèala, na Gọọmentị nke e chebere echebe.  
+[Gaa leta](https://zkglobalcredit.tech/)
 
 ### Free2Z
 Ngwá ọrụ maka imepụta ọdịnaya na-amaghị onye kere ya na onyinye nzuzo nke Zcash kwadoro.  

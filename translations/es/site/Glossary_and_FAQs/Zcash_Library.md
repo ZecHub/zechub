@@ -21,7 +21,7 @@ Un glosario completo de términos, conceptos y recursos clave relacionados con Z
 | Término | Definición |
 |------|-----------|
 | Benchmarking | Los mineros pueden enviar métricas sobre la eficiencia de diversos hardware utilizados para minar Zcash. [Ver aquí](https://zcashbenchmarks.info) |
-| Block | Un bloque es un registro en la blockchain Zcash que contiene un conjunto de transacciones enviadas en la red. Aproximadamente cada 75 segundos, en promedio, se añade un nuevo bloque a la blockchain. |
+| Block | Un bloque es un registro en la blockchain Zcash que contiene un conjunto de transacciones enviadas en la red. Aproximadamente cada 25 segundos, en promedio, se añade un nuevo bloque a la blockchain (antes, cada 75 segundos, hasta que NU7 se activó en noviembre de 2026). |
 | Block Explorer | Una herramienta en línea para ver todas las transacciones, pasadas y actuales, en la blockchain. [Zcash Explorador de bloques](https://zcashexplorer.app/) |
 | Blogs | Blog de [ZODL (anteriormente Electric Coin Co)](https://zodl.com/blog/) / Blog de [Zcash Foundation](https://zfnd.org/blog/) / Boletín de [ZecHub](https://zechub.substack.com/) |
 | Blossom | La 3.ª actualización principal de red para Zcash. [Más información](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#blossom) |
@@ -31,11 +31,11 @@ Un glosario completo de términos, conceptos y recursos clave relacionados con Z
 | Término | Definición |
 |------|-----------|
 | Canopy | La 5.ª actualización principal de red para Zcash. [Más información](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html?highlight=orchard#canopy) |
-| Commitment Scheme | Permite a quien se compromete comprometerse con un polinomio mediante una cadena corta que puede ser utilizada por un verificador para confirmar las evaluaciones declaradas del polinomio comprometido. Es útil para reducir los costes de comunicación en el protocolo Zcash. |
+| Commitment Scheme | Permite a quien se compromete vincularse a un polinomio mediante una cadena corta que un verificador puede usar para confirmar las evaluaciones declaradas del polinomio vinculado. Es útil para reducir los costes de comunicación en el protocolo Zcash. |
 | Community | [El foro comunitario oficial de Zcash](https://forum.zcashcommunity.com) / Comunidad de [Zcash Discord](https://discord.com/channels/669694001464737815/669694001921654794) / I+D de [Zcash Discord](https://discord.com/invite/6AK7keWFaK) / [Reddit](https://www.reddit.com/r/zec/) / [Telegram](https://t.me/Zcash_Community) / [Twitter](https://x.com/zcash) |
-| Crosslink | Un diseño híbrido de consenso propuesto que ejecutaría proof of stake junto con el proof of work existente de Zcash. Shielded Labs dirige el trabajo y mantiene un prototipo en el repositorio `zebra-crosslink`. Crosslink no forma parte de Zcash actualmente. [Crosslink protocolo](/zcash-tech/crosslink-protocol) |
+| Crosslink | Un diseño híbrido de consenso propuesto que combinaría proof of stake con el proof of work existente de Zcash. Shielded Labs lidera el trabajo y ejecuta una red de prueba, Feature Net, desde el repositorio `crosslink_monolith`. El repositorio del prototipo anterior `zebra-crosslink` se retiró en noviembre de 2026. Crosslink no forma parte de Zcash hoy. [Crosslink protocolo](/zcash-tech/crosslink-protocol) |
 | CrossPay | Una función de la billetera ZODL que permite gastar ZEC blindado mientras el destinatario recibe el pago en el activo y la cadena que prefiera, encaminado mediante NEAR Intents en vez de un exchange centralizado. |
-| Cypherpunk Zero | Un universo creativo y esfuerzo colaborativo entre ECC, el ilustrador Stranger Wolf, Mighty Jaxx y socios seleccionados del ecosistema. [Redes sociales de Cypherpunk Zero](https://x.com/cypherpunkZero) / Colección de [OpenSea](https://opensea.io/collection/cypherpunk-zero) |
+| Cypherpunk Zero | Un universo creativo y un esfuerzo colaborativo entre ECC, el ilustrador Stranger Wolf, Mighty Jaxx y socios seleccionados del ecosistema. [Redes sociales de Cypherpunk Zero](https://x.com/cypherpunkZero) / Colección de [OpenSea](https://opensea.io/collection/cypherpunk-zero) |
 
 ## D
 
@@ -127,11 +127,11 @@ Un glosario completo de términos, conceptos y recursos clave relacionados con Z
 | Término | Definición |
 |------|-----------|
 | Network Sustainability Mechanism (NSM) | Una propuesta de Shielded Labs para quemar una parte de las tarifas de transacción, de modo que el presupuesto de seguridad a largo plazo del protocolo no dependa por completo de la emisión. Se especifica en ZIP 234 y está en revisión en 2026. |
-| Nighthawk | Una billetera móvil para Zcash. [Sitio web](https://nighthawkwallet.com) |
+| Nighthawk | Una billetera móvil anterior de Zcash, desarrollada por Nighthawk Apps. Sus billeteras Zcash ya no reciben mantenimiento, y Nighthawk Wallet 3.0 está diseñada para DarkFi. Para mover fondos desde una semilla antigua de Nighthawk, consulta [Recuperar fondos](/using-zcash/recovering-funds). |
 | Noir Wallet | Una billetera de extensión de navegador Zcash compatible con Zcash Community Grants, creada para conectar ZEC blindado directamente con aplicaciones de navegador en vez de depender de códigos QR y transferencias manuales. [zknoir.com](https://www.zknoir.com/) |
 | NU5 | La 6.ª actualización principal de red para Zcash, que introduce el pool blindado Orchard y las direcciones unificadas. [Más información](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu5) |
 | NU6 | La 7.ª actualización principal de red para Zcash, que ajusta la subvención de bloque para financiar el programa Zcash Community Grants y el Deferred Dev Fund Lockbox. Se activó a finales de 2024. [Más información](https://zcash.readthedocs.io/en/latest/rtd_pages/nu_dev_guide.html#nu6) |
-| NU7 | La actualización de red posterior a Ironwood, prevista para mainnet el 5 de noviembre de 2026. Según [ZIP 259](https://zips.z.cash/zip-0259), incorpora bloques de 25 segundos (ZIP 218), el Mecanismo de sostenibilidad de la red con reciclaje de tarifas (ZIPs 235 y 237) y el fin de las transacciones de versión 4, lo que deja los fondos Sprout imposibles de gastar (ZIP 2003). No añade ningún formato de transacción nuevo; Tachyon y los Shielded Assets de Zcash no forman parte de ella. |
+| NU7 | La actualización de red posterior a Ironwood, activada en mainnet a la altura de bloque 3,543,405 el 6 de noviembre de 2026 (UTC). Según [ZIP 259](https://zips.z.cash/zip-0259), incorpora bloques de 25 segundos (ZIP 218), el Mecanismo de sostenibilidad de la red con reciclaje de tarifas (ZIPs 235 y 237) y el fin de las transacciones de versión 4, lo que deja los fondos Sprout imposibles de gastar (ZIP 2003). No añade ningún formato de transacción nuevo; Tachyon y los Shielded Assets de Zcash no forman parte de ella. |
 
 ## O
 
@@ -209,7 +209,7 @@ Un glosario completo de términos, conceptos y recursos clave relacionados con Z
 
 | Término | Definición |
 |------|-----------|
-| Wallet | Software o hardware que almacena claves privadas y permite enviar/recibir ZEC. Entre las billeteras activas se incluyen ZODL (iOS/Android), Zingo! (móvil/escritorio), Nighthawk (Android), Zkool (móvil/escritorio), Zallet (próximamente) y Keystone (hardware). Para ver una lista completa, consulta [Zcash Billeteras del ecosistema](https://z.cash/ecosystem/?wallets=#tag-wallets) |
+| Wallet | Software o hardware que almacena claves privadas y permite enviar/recibir ZEC. Entre las billeteras activas se incluyen ZODL (iOS/Android), Zingo! (móvil/escritorio), Zkool (móvil/escritorio), Zallet (billetera de nodo completo, en beta) y Keystone (hardware). Para ver una lista completa, consulta [Zcash Billeteras del ecosistema](https://z.cash/ecosystem/?wallets=#tag-wallets) |
 | WebZjs | El primer SDK JavaScript para Zcash, creado por ChainSafe para entornos de navegador. Sustenta el snap Shielded Wallet de Zcash que llevó ZEC blindado a MetaMask. |
 
 ## X

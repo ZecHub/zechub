@@ -94,7 +94,7 @@ Al ejecutar un nodo completo, ayudas a fortalecer la red Zcash al apoyar su desc
 
 Esto ayuda a prevenir el control adversario y a mantener la red resiliente ante algunas formas de interrupción.
 
-Los seeders DNS exponen una lista de otros nodos fiables mediante un servidor integrado. Esto permite que las transacciones se propaguen por toda la red.
+Los seeders DNS exponen una lista de otros nodos fiables mediante un servidor integrado. Esto permite que las transacciones se propaguen por toda la red. Los seeders de Zcash Foundation ejecutan [Zeeder](https://github.com/ZcashFoundation/zeeder), un seeder DNS escrito en Rust que reemplazó su dnsseeder basado en CoreDNS. Sus imágenes se publican como `zfnd/zeeder`; el nombre anterior `zfnd/dnsseeder` se está retirando.
 
 ### Estadísticas de la red
 
@@ -136,6 +136,7 @@ Esto tiene la ventaja adicional de permitir que otros usuarios se conecten de fo
 - [Zakura Nodo](/zcash-tech/zakura-node) - la segunda implementación de nodo, bifurcada de Zebra
 - [Nodos de billeteras ligeras](/zcash-tech/lightwallet-nodes) - los servidores que consultan las billeteras ligeras
 - [Zaino](/zcash-tech/zaino) - el indexador Rust que sirve a las billeteras ligeras
+- [Zinder](/zcash-tech/zinder) - el indexador alfa de Zcash Foundation para Zebra y Zakura
 - [Zcash Sincronización de billeteras](/zcash-tech/zcash-wallet-syncing) - por qué la sincronización funciona de esta manera
 
 ## Aprendizaje adicional
