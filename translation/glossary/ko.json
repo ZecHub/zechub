@@ -1,6 +1,6 @@
 {
   "locale": "ko",
-  "version": 3,
+  "version": 2,
   "meta": {
     "language_name": "Korean",
     "native_name": "한국어",
@@ -37,547 +37,6 @@
     ]
   },
   "terms": {
-    "wallet": {
-      "target": "지갑",
-      "forms": [
-        "지갑"
-      ],
-      "context": "Use 지갑 for the general wallet concept. The reviewed UI title Nym Mixnet Wallet Setup intentionally stays English as a whole; this is a UI-title exception, not permission to keep wallet English in ordinary prose.",
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-1"
-    },
-    "shielded": {
-      "target": "거래정보 보호",
-      "forms": [
-        "거래정보 보호"
-      ],
-      "context": "Privacy-preserving Zcash address/transaction type. The complete phrase shielded pool(s) has priority: 거래정보 보호 구역. Translate unshielded by its opposite meaning, never by the same target as shielded. Protected product names containing Shielded stay verbatim.",
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "@the-zero-korea",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-22",
-      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
-    },
-    "transaction": {
-      "target": "거래",
-      "forms": [
-        "거래"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-3"
-    },
-    "privacy": {
-      "target": "프라이버시",
-      "forms": [
-        "프라이버시"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-5"
-    },
-    "pool": {
-      "target": "풀",
-      "forms": [
-        "풀"
-      ],
-      "context": "Generic pool: 풀. Exception: shielded pool(s) is 거래정보 보호 구역; use the full-phrase entry instead of composing the two individual terms.",
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "@the-zero-korea"
-      ],
-      "reviewed_at": "2026-11-22",
-      "source": "glossary-review-ko.md#terms-6"
-    },
-    "proof": {
-      "target": "증명",
-      "forms": [
-        "증명"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-10"
-    },
-    "node": {
-      "target": "노드",
-      "forms": [
-        "노드"
-      ],
-      "rejected": [
-        {
-          "text": "node",
-          "word": true,
-          "ci": true
-        },
-        {
-          "text": "nodes",
-          "word": true,
-          "ci": true
-        }
-      ],
-      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-9"
-    },
-    "transparent": {
-      "target": "투명",
-      "forms": [
-        "투명"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-12"
-    },
-    "exchange": {
-      "target": "거래소",
-      "forms": [
-        "거래소"
-      ],
-      "rejected": [
-        {
-          "text": "환전소"
-        }
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-16"
-    },
-    "memo": {
-      "target": "메모",
-      "forms": [
-        "메모"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-19"
-    },
-    "viewing-key": {
-      "target": "viewing key",
-      "keep_english": true,
-      "forms": [
-        "viewing key",
-        "viewing keys",
-        "view key",
-        "view keys"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "It's mostly used within the Zcash ecosystem, and the English term sounds much more natural.",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-26"
-    },
-    "fee": {
-      "target": "수수료",
-      "forms": [
-        "수수료"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-22"
-    },
-    "swap": {
-      "target": "스왑",
-      "forms": [
-        "스왑"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-27"
-    },
-    "custodial": {
-      "target": "커스터디",
-      "forms": [
-        "커스터디"
-      ],
-      "context": "AidenZ chose 커스터디 for the custody concept in prose. The reviewed UI label Custodial Exchanges intentionally remains 수탁형 거래소; preserve that approved compound as a UI exception.",
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "The term 'sutak-hyeong' isn't really used much Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-18"
-    },
-    "zero-knowledge": {
-      "target": "영지식",
-      "forms": [
-        "영지식"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-23"
-    },
-    "network-upgrade": {
-      "target": "네트워크 업그레이드",
-      "forms": [
-        "네트워크 업그레이드"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-32"
-    },
-    "mining": {
-      "target": "채굴",
-      "forms": [
-        "채굴"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-20"
-    },
-    "miner": {
-      "target": "채굴자",
-      "forms": [
-        "채굴자"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-39"
-    },
-    "full-node": {
-      "target": "풀 노드",
-      "forms": [
-        "풀 노드"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-34"
-    },
-    "turnstile": {
-      "target": "턴스타일",
-      "forms": [
-        "턴스타일"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-37"
-    },
-    "spending-key": {
-      "target": "spending key",
-      "keep_english": true,
-      "forms": [
-        "spending key",
-        "spending keys",
-        "Spending key",
-        "Spending Key"
-      ],
-      "rejected": [
-        {
-          "text": "지출 키"
-        }
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-38"
-    },
-    "seed-phrase": {
-      "target": "seed phrase",
-      "keep_english": true,
-      "forms": [
-        "seed phrase",
-        "seed phrases",
-        "Seed phrase",
-        "Seed Phrase"
-      ],
-      "rejected": [
-        {
-          "text": "시드 문구"
-        }
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "It doesn't sound very natural in Korean.",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-50"
-    },
-    "light-client": {
-      "target": "라이트 클라이언트",
-      "forms": [
-        "라이트 클라이언트"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-55"
-    },
-    "token": {
-      "target": "토큰",
-      "forms": [
-        "토큰"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-28"
-    },
-    "chain": {
-      "target": "체인",
-      "forms": [
-        "체인"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-11"
-    },
-    "cross-chain": {
-      "target": "크로스체인",
-      "forms": [
-        "크로스체인"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-52"
-    },
-    "faucet": {
-      "target": "파우셋",
-      "forms": [
-        "파우셋"
-      ],
-      "context": "Crypto service distributing small amounts of coins, not a water tap. Steward alignment approved by Gianni follows AidenZ’s two explicit menu corrections 파우셋.",
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Steward alignment approved by Gianni on 2026-11-20: original answer 'OK' on 'faucet'; aligned with confirmed wording elsewhere in this delivery and the English meaning. Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-49"
-    },
-    "developer": {
-      "target": "개발자",
-      "forms": [
-        "개발자"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-33"
-    },
-    "dashboard": {
-      "target": "대시보드",
-      "forms": [
-        "대시보드"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-51"
-    },
-    "visualizer": {
-      "target": "시각화 도구",
-      "forms": [
-        "시각화 도구"
-      ],
-      "context": "Tool that visualizes data: use 시각화 도구. The activity visualization or visualizing is 시각화, not the tool term.",
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Steward alignment approved by Gianni on 2026-11-20: original answer 'OK' on '시각화'; aligned with confirmed wording elsewhere in this delivery and the English meaning. Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-62"
-    },
-    "use-case": {
-      "target": "사용 사례",
-      "forms": [
-        "사용 사례"
-      ],
-      "context": "Use 사용 사례 for the general concept and Use Cases. The specifically reviewed UI title Zcash Use Cases intentionally uses Zcash 활용 사례.",
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-53"
-    },
-    "brand": {
-      "target": "브랜드",
-      "forms": [
-        "브랜드"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-61"
-    },
-    "treasury": {
-      "target": "공동 기금",
-      "forms": [
-        "공동 기금"
-      ],
-      "rejected": [
-        {
-          "text": "펀드"
-        }
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "@the-zero-korea",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-22",
-      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
-    },
-    "top-up": {
-      "target": "충전",
-      "forms": [
-        "충전"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-58"
-    },
-    "tools": {
-      "target": "도구",
-      "forms": [
-        "도구"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Steward alignment approved by Gianni on 2026-11-20: original answer 'tools' on '도구'; aligned with confirmed wording elsewhere in this delivery and the English meaning.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-25"
-    },
-    "newsletter": {
-      "target": "뉴스레터",
-      "forms": [
-        "뉴스레터"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-45"
-    },
     "address": {
       "target": "주소",
       "forms": [
@@ -617,10 +76,32 @@
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-15"
     },
-    "signature": {
-      "target": "서명",
+    "bond": {
+      "target": "위임 지분",
       "forms": [
-        "서명"
+        "위임 지분"
+      ],
+      "rejected": [
+        {
+          "text": "본드"
+        }
+      ],
+      "context": "Crosslink staking bond: 위임 지분, not glue or a financial debt security. Explain that this is stake committed as collateral; do not invent delegation or imply a custodial transfer. Translate bonding/unbonding as committing/releasing this stake according to the source.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "@the-zero-korea",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-22",
+      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
+    },
+    "brand": {
+      "target": "브랜드",
+      "forms": [
+        "브랜드"
       ],
       "applies_to": "both",
       "status": "approved",
@@ -628,7 +109,41 @@
         "@AidenJeonZ"
       ],
       "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-17"
+      "source": "glossary-review-ko.md#terms-61"
+    },
+    "bridge": {
+      "target": "브릿지",
+      "forms": [
+        "브릿지"
+      ],
+      "rejected": [
+        {
+          "text": "교량"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "@the-zero-korea",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-22",
+      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
+    },
+    "chain": {
+      "target": "체인",
+      "forms": [
+        "체인"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-11"
     },
     "commitment": {
       "target": "커밋먼트",
@@ -643,56 +158,6 @@
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-21"
     },
-    "nullifier": {
-      "target": "nullifier",
-      "keep_english": true,
-      "forms": [
-        "nullifier",
-        "Nullifier",
-        "nullifiers",
-        "Nullifiers"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "It doesn't sound very natural in Korean.",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-40"
-    },
-    "note": {
-      "target": "노트",
-      "forms": [
-        "노트"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-13"
-    },
-    "trusted-setup": {
-      "target": "트러스트 셋업",
-      "forms": [
-        "트러스트 셋업"
-      ],
-      "rejected": [
-        {
-          "text": "신뢰할 수 있는 설정"
-        }
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Using the English word phonetically.",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-46"
-    },
     "consensus": {
       "target": "합의",
       "forms": [
@@ -705,6 +170,160 @@
       ],
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-29"
+    },
+    "cross-chain": {
+      "target": "크로스체인",
+      "forms": [
+        "크로스체인"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-52"
+    },
+    "custodial": {
+      "target": "커스터디",
+      "forms": [
+        "커스터디"
+      ],
+      "context": "AidenZ chose 커스터디 for the custody concept in prose. The reviewed UI label Custodial Exchanges intentionally remains 수탁형 거래소; preserve that approved compound as a UI exception.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "The term 'sutak-hyeong' isn't really used much Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-18"
+    },
+    "dashboard": {
+      "target": "대시보드",
+      "forms": [
+        "대시보드"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-51"
+    },
+    "decentralized": {
+      "target": "탈중앙화",
+      "forms": [
+        "탈중앙화"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-31"
+    },
+    "developer": {
+      "target": "개발자",
+      "forms": [
+        "개발자"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-33"
+    },
+    "encryption": {
+      "target": "암호화",
+      "forms": [
+        "암호화"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-14"
+    },
+    "exchange": {
+      "target": "거래소",
+      "forms": [
+        "거래소"
+      ],
+      "rejected": [
+        {
+          "text": "환전소"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-16"
+    },
+    "faucet": {
+      "target": "파우셋",
+      "forms": [
+        "파우셋"
+      ],
+      "context": "Crypto service distributing small amounts of coins, not a water tap. Steward alignment approved by Gianni follows AidenZ’s two explicit menu corrections 파우셋.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward alignment approved by Gianni on 2026-11-20: original answer 'OK' on 'faucet'; aligned with confirmed wording elsewhere in this delivery and the English meaning. Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-49"
+    },
+    "fee": {
+      "target": "수수료",
+      "forms": [
+        "수수료"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-22"
+    },
+    "finalizer": {
+      "target": "파이널라이저",
+      "forms": [
+        "파이널라이저"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-44"
+    },
+    "full-node": {
+      "target": "풀 노드",
+      "forms": [
+        "풀 노드"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-34"
     },
     "governance": {
       "target": "거버넌스",
@@ -749,10 +368,10 @@
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-43"
     },
-    "staking": {
-      "target": "스테이킹",
+    "hardware-wallet": {
+      "target": "하드웨어 지갑",
       "forms": [
-        "스테이킹"
+        "하드웨어 지갑"
       ],
       "applies_to": "both",
       "status": "approved",
@@ -760,12 +379,12 @@
         "@AidenJeonZ"
       ],
       "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-30"
+      "source": "glossary-review-ko.md#terms-41"
     },
-    "finalizer": {
-      "target": "파이널라이저",
+    "light-client": {
+      "target": "라이트 클라이언트",
       "forms": [
-        "파이널라이저"
+        "라이트 클라이언트"
       ],
       "applies_to": "both",
       "status": "approved",
@@ -773,34 +392,103 @@
         "@AidenJeonZ"
       ],
       "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-44"
+      "source": "glossary-review-ko.md#terms-55"
     },
-    "bond": {
-      "target": "위임 지분",
+    "memo": {
+      "target": "메모",
       "forms": [
-        "위임 지분"
+        "메모"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-19"
+    },
+    "miner": {
+      "target": "채굴자",
+      "forms": [
+        "채굴자"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-39"
+    },
+    "mining": {
+      "target": "채굴",
+      "forms": [
+        "채굴"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-20"
+    },
+    "network-upgrade": {
+      "target": "네트워크 업그레이드",
+      "forms": [
+        "네트워크 업그레이드"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-32"
+    },
+    "newsletter": {
+      "target": "뉴스레터",
+      "forms": [
+        "뉴스레터"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-45"
+    },
+    "node": {
+      "target": "노드",
+      "forms": [
+        "노드"
       ],
       "rejected": [
         {
-          "text": "본드"
+          "text": "node",
+          "word": true,
+          "ci": true
+        },
+        {
+          "text": "nodes",
+          "word": true,
+          "ci": true
         }
       ],
-      "context": "Crosslink staking bond: 위임 지분, not glue or a financial debt security. Explain that this is stake committed as collateral; do not invent delegation or imply a custodial transfer. Translate bonding/unbonding as committing/releasing this stake according to the source.",
+      "inflection": "It is NOT a loanword: use the translated term in compounds and plurals too.",
       "applies_to": "both",
       "status": "approved",
-      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
       "reviewed_by": [
-        "@AidenJeonZ",
-        "@the-zero-korea",
-        "Gianni"
+        "@AidenJeonZ"
       ],
-      "reviewed_at": "2026-11-22",
-      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-9"
     },
-    "encryption": {
-      "target": "암호화",
+    "note": {
+      "target": "노트",
       "forms": [
-        "암호화"
+        "노트"
       ],
       "applies_to": "both",
       "status": "approved",
@@ -808,20 +496,25 @@
         "@AidenJeonZ"
       ],
       "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-14"
+      "source": "glossary-review-ko.md#terms-13"
     },
-    "decentralized": {
-      "target": "탈중앙화",
+    "nullifier": {
+      "target": "nullifier",
+      "keep_english": true,
       "forms": [
-        "탈중앙화"
+        "nullifier",
+        "Nullifier",
+        "nullifiers",
+        "Nullifiers"
       ],
       "applies_to": "both",
       "status": "approved",
+      "notes": "It doesn't sound very natural in Korean.",
       "reviewed_by": [
         "@AidenJeonZ"
       ],
       "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-31"
+      "source": "glossary-review-ko.md#terms-40"
     },
     "on-chain": {
       "target": "온체인",
@@ -836,27 +529,6 @@
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-35"
     },
-    "bridge": {
-      "target": "브릿지",
-      "forms": [
-        "브릿지"
-      ],
-      "rejected": [
-        {
-          "text": "교량"
-        }
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "@the-zero-korea",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-22",
-      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
-    },
     "payment": {
       "target": "결제",
       "forms": [
@@ -870,39 +542,6 @@
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-8"
     },
-    "smart-contract": {
-      "target": "스마트 컨트랙트",
-      "forms": [
-        "스마트 컨트랙트"
-      ],
-      "rejected": [
-        {
-          "text": "스마트 계약"
-        }
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "notes": "Using the English word phonetically. Steward spelling correction approved by Gianni on 2026-11-20: AidenZ originally answered '스마트 컨트렉트'; use 스마트 컨트랙트, as in Upbit https://m.upbitcare.com/academy/advice/70 . Pending confirmation in the second native review.",
-      "reviewed_by": [
-        "@AidenJeonZ",
-        "Gianni"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-54"
-    },
-    "unlinkable": {
-      "target": "연결 불가능",
-      "forms": [
-        "연결 불가능"
-      ],
-      "applies_to": "both",
-      "status": "approved",
-      "reviewed_by": [
-        "@AidenJeonZ"
-      ],
-      "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-60"
-    },
     "permissionless": {
       "target": "무허가",
       "forms": [
@@ -915,6 +554,47 @@
       ],
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-59"
+    },
+    "pool": {
+      "target": "풀",
+      "forms": [
+        "풀"
+      ],
+      "context": "Generic pool: 풀. Exception: shielded pool(s) is 거래정보 보호 구역; use the full-phrase entry instead of composing the two individual terms.",
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "@the-zero-korea"
+      ],
+      "reviewed_at": "2026-11-22",
+      "source": "glossary-review-ko.md#terms-6"
+    },
+    "privacy": {
+      "target": "프라이버시",
+      "forms": [
+        "프라이버시"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-5"
+    },
+    "proof": {
+      "target": "증명",
+      "forms": [
+        "증명"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-10"
     },
     "scaling": {
       "target": "scaling",
@@ -939,6 +619,29 @@
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-48"
     },
+    "seed-phrase": {
+      "target": "seed phrase",
+      "keep_english": true,
+      "forms": [
+        "seed phrase",
+        "seed phrases",
+        "Seed phrase",
+        "Seed Phrase"
+      ],
+      "rejected": [
+        {
+          "text": "시드 문구"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "It doesn't sound very natural in Korean.",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-50"
+    },
     "selective-disclosure": {
       "target": "선택적 공개",
       "forms": [
@@ -952,10 +655,27 @@
       "reviewed_at": "2026-11-20",
       "source": "glossary-review-ko.md#terms-56"
     },
-    "hardware-wallet": {
-      "target": "하드웨어 지갑",
+    "shielded": {
+      "target": "거래정보 보호",
       "forms": [
-        "하드웨어 지갑"
+        "거래정보 보호"
+      ],
+      "context": "Privacy-preserving Zcash address/transaction type. The complete phrase shielded pool(s) has priority: 거래정보 보호 구역. Translate unshielded by its opposite meaning, never by the same target as shielded. Protected product names containing Shielded stay verbatim.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "@the-zero-korea",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-22",
+      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
+    },
+    "signature": {
+      "target": "서명",
+      "forms": [
+        "서명"
       ],
       "applies_to": "both",
       "status": "approved",
@@ -963,7 +683,287 @@
         "@AidenJeonZ"
       ],
       "reviewed_at": "2026-11-20",
-      "source": "glossary-review-ko.md#terms-41"
+      "source": "glossary-review-ko.md#terms-17"
+    },
+    "smart-contract": {
+      "target": "스마트 컨트랙트",
+      "forms": [
+        "스마트 컨트랙트"
+      ],
+      "rejected": [
+        {
+          "text": "스마트 계약"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Using the English word phonetically. Steward spelling correction approved by Gianni on 2026-11-20: AidenZ originally answered '스마트 컨트렉트'; use 스마트 컨트랙트, as in Upbit https://m.upbitcare.com/academy/advice/70 . Pending confirmation in the second native review.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-54"
+    },
+    "spending-key": {
+      "target": "spending key",
+      "keep_english": true,
+      "forms": [
+        "spending key",
+        "spending keys",
+        "Spending key",
+        "Spending Key"
+      ],
+      "rejected": [
+        {
+          "text": "지출 키"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-38"
+    },
+    "staking": {
+      "target": "스테이킹",
+      "forms": [
+        "스테이킹"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-30"
+    },
+    "swap": {
+      "target": "스왑",
+      "forms": [
+        "스왑"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-27"
+    },
+    "token": {
+      "target": "토큰",
+      "forms": [
+        "토큰"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-28"
+    },
+    "tools": {
+      "target": "도구",
+      "forms": [
+        "도구"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward alignment approved by Gianni on 2026-11-20: original answer 'tools' on '도구'; aligned with confirmed wording elsewhere in this delivery and the English meaning.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-25"
+    },
+    "top-up": {
+      "target": "충전",
+      "forms": [
+        "충전"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-58"
+    },
+    "transaction": {
+      "target": "거래",
+      "forms": [
+        "거래"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-3"
+    },
+    "transparent": {
+      "target": "투명",
+      "forms": [
+        "투명"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-12"
+    },
+    "treasury": {
+      "target": "공동 기금",
+      "forms": [
+        "공동 기금"
+      ],
+      "rejected": [
+        {
+          "text": "펀드"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Second native review supersedes the initial wording; original AidenZ answers remain preserved in the review-kit fixtures.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "@the-zero-korea",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-22",
+      "source": "Korean second review by @the-zero-korea, 2026-11-22; applied with Gianni approval"
+    },
+    "trusted-setup": {
+      "target": "트러스트 셋업",
+      "forms": [
+        "트러스트 셋업"
+      ],
+      "rejected": [
+        {
+          "text": "신뢰할 수 있는 설정"
+        }
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Using the English word phonetically.",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-46"
+    },
+    "turnstile": {
+      "target": "턴스타일",
+      "forms": [
+        "턴스타일"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-37"
+    },
+    "unlinkable": {
+      "target": "연결 불가능",
+      "forms": [
+        "연결 불가능"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-60"
+    },
+    "use-case": {
+      "target": "사용 사례",
+      "forms": [
+        "사용 사례"
+      ],
+      "context": "Use 사용 사례 for the general concept and Use Cases. The specifically reviewed UI title Zcash Use Cases intentionally uses Zcash 활용 사례.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-53"
+    },
+    "viewing-key": {
+      "target": "viewing key",
+      "keep_english": true,
+      "forms": [
+        "viewing key",
+        "viewing keys",
+        "view key",
+        "view keys"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "It's mostly used within the Zcash ecosystem, and the English term sounds much more natural.",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-26"
+    },
+    "visualizer": {
+      "target": "시각화 도구",
+      "forms": [
+        "시각화 도구"
+      ],
+      "context": "Tool that visualizes data: use 시각화 도구. The activity visualization or visualizing is 시각화, not the tool term.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward alignment approved by Gianni on 2026-11-20: original answer 'OK' on '시각화'; aligned with confirmed wording elsewhere in this delivery and the English meaning. Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-62"
+    },
+    "wallet": {
+      "target": "지갑",
+      "forms": [
+        "지갑"
+      ],
+      "context": "Use 지갑 for the general wallet concept. The reviewed UI title Nym Mixnet Wallet Setup intentionally stays English as a whole; this is a UI-title exception, not permission to keep wallet English in ordinary prose.",
+      "applies_to": "both",
+      "status": "approved",
+      "notes": "Steward: context/exception approved by Gianni on 2026-11-20; not a new native answer.",
+      "reviewed_by": [
+        "@AidenJeonZ",
+        "Gianni"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-1"
+    },
+    "zero-knowledge": {
+      "target": "영지식",
+      "forms": [
+        "영지식"
+      ],
+      "applies_to": "both",
+      "status": "approved",
+      "reviewed_by": [
+        "@AidenJeonZ"
+      ],
+      "reviewed_at": "2026-11-20",
+      "source": "glossary-review-ko.md#terms-23"
     }
   },
   "phrases": {
@@ -2205,7 +2205,7 @@
     },
     {
       "version": 2,
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "terms": [
         "address",
         "block",
@@ -2373,34 +2373,10 @@
         "Zero-Knowledge vs Decoys",
         "Zgo Payment Processor",
         "Zingolib and Zaino Tutorial",
-        "Zkool Multisig"
+        "Zkool Multisig",
+        "shielded pool"
       ],
-      "summary": "Imported the complete Korean glossary, style and menus review by AidenZ (@AidenJeonZ), delivered as ZecHub_review_kit_ko_20261120.docx. Gianni approved steward alignments for visualizer/faucet/tools, consistent duplicate menu labels, technical meaning and structured style, and documented contextual UI exceptions. No page regeneration; no second-review claim."
-    },
-    {
-      "version": 3,
-      "date": "2026-11-22",
-      "terms": [
-        "shielded",
-        "grant",
-        "bridge",
-        "bond",
-        "treasury",
-        "pool"
-      ],
-      "phrases": [
-        "Payment Processors",
-        "Private Community Treasury",
-        "Store",
-        "Visual Identity",
-        "Zgo Payment Processor",
-        "Shielded Pools",
-        "shielded pool",
-        "Transparent Exchange Addresses",
-        "ZIPs & Grants",
-        "CoinHolder Directed Retroactive Grants"
-      ],
-      "summary": "Apply The Zero (@the-zero-korea) second native review with Gianni approval: accessible Korean terminology and aligned menus. Preserve AidenZ (@AidenJeonZ) initial-review attribution; identify steward adaptations. Keep all technical source content. MetaMask Snap is protected: preserve its spelling and append a Korean description in menus rather than replacing the name."
+      "summary": "Consolidate two previously unpublished drafts into one release. Original Korean glossary, style and menus review: AidenZ (@AidenJeonZ), delivered in ZecHub_review_kit_ko_20261120.docx. Second native review: The Zero (@the-zero-korea). Apply Gianni-approved steward adaptations, accessible technical terminology, contextual menu exceptions and the shielded-pool compound rule; preserve the original reviewer fixtures. Preserve protected MetaMask Snap and Zcash Community Grants spelling. The previous local v2/v3 draft labels are release metadata only; the reviewed terms, phrases and style are unchanged."
     }
   ]
 }

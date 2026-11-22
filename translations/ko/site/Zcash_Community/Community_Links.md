@@ -26,9 +26,9 @@ Zcash 커뮤니티는 Telegram 커뮤니티에서 매우 활발하게 활동합�
 - [ZecHub.Social](https://zechub.social/public/local) - Zcash 커뮤니티의 마스토돈 인스턴스
 - [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Bluesky의 Zcash 스페인어 계정(X 계정 정지 후 이전)
 
-### <span translate="no" class="notranslate">매트릭스</span>
+### <span translate="no" class="notranslate">Matrix</span>
 
-- [ZecHub 매트릭스](https://matrix.to/#/#zechub:matrix.org)
+- [ZecHub Matrix](https://matrix.to/#/#zechub:matrix.org)
 
 ### Zcash 커뮤니티 포럼
 

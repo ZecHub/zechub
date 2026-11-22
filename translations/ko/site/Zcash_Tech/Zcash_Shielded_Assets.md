@@ -23,7 +23,7 @@ Zcash 거래정보 보호 자산(ZSA)은 **ZEC 외의 자산**, 즉 스테이블
 
 Zcash 거래정보 보호 자산(ZSA)은 Zcash 프로토콜을 개선하기 위해 제안된 것으로, Zcash 체인에서 맞춤형 자산을 생성하고 전송 및 소각할 수 있게 합니다.
 
-이더리움 블록체인의 [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) 토큰 표준을 알고 계신다면, ZSA는 Zcash에서 ERC-20 토큰이 이더리움에서 하는 역할과 같은 역할을 합니다.
+Ethereum 블록체인의 [ERC-20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) 토큰 표준을 알고 계신다면, ZSA는 Zcash에서 ERC-20 토큰이 Ethereum에서 하는 역할과 같은 역할을 합니다.
 
 Zcash 거래정보 보호 자산을 사용하면 Zcash 블록체인에서 맞춤형 토큰을 생성할 수 있으므로, [ZEC](/guides/using-zec-privately) 이외의 토큰도 Zcash 블록체인의 거래정보 보호 거래가 제공하는 익명성과 프라이버시의 혜택을 누릴 수 있습니다.
 
@@ -49,7 +49,7 @@ ZSA는 봉투를 바꾸지 않습니다. **봉투 안에 넣을 수 있는 것**
 
 ### 외부 관찰자가 볼 수 있는 정보
 
-| 관찰자가 볼 수 있는 정보... | 이더리움의 ERC-20 | Zcash의 ZSA |
+| 관찰자가 볼 수 있는 정보... | Ethereum의 ERC-20 | Zcash의 ZSA |
 | --- | --- | --- |
 | 송신자 | 공개 | 거래정보 보호 |
 | 수신자 | 공개 | 거래정보 보호 |
