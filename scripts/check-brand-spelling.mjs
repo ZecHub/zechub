@@ -186,6 +186,11 @@ const suggestionRes = [...new Map(
   return new RegExp(`(?<![A-Za-z0-9])(${alt})\\s+or\\s+(${alt})(?![A-Za-z0-9])`, "g");
 });
 
+const formRes = Array.from(okForms.entries()).map(([lower, forms]) => [
+  new RegExp(`(?<![A-Za-z0-9])(${esc(lower)})(?![A-Za-z0-9])`, "gi"),
+  forms,
+]);
+
 const findings = [];
 for (const f of files) {
   if (!existsSync(f)) continue;
@@ -199,8 +204,7 @@ for (const f of files) {
   const rawLines = content.split("\n");
   proseMask(content).forEach((line, i) => {
     if (!line.trim()) return;
-    for (const [lower, forms] of okForms) {
-      const re = new RegExp(`(?<![A-Za-z0-9])(${esc(lower)})(?![A-Za-z0-9])`, "gi");
+    for (const [re, forms] of formRes) {
       for (const m of line.matchAll(re)) {
         if (forms.has(m[1])) continue;                 // already a correct form
         // An all-lowercase form is ambiguous with an ordinary word and must not
