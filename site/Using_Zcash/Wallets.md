@@ -325,7 +325,7 @@
 ## [Vultisig](https://vultisig.com)
 ![logo](/content-images/wallets/vultisig.webp "Vultisig")
 - Source Code: https://github.com/vultisig
-- Devices: Web | Mobile | Desktop
+- Devices: Mobile | Desktop | Web
 - Operating System: Android | iOS | Windows | Linux | macOS | Browser
 - Wallet Support: MPC Vault
 - Pools: Transparent
@@ -338,7 +338,7 @@
 ## [Vizor](https://vizor.cash/)
 ![logo](/content-images/wallets/vizor.webp "Vizor")
 - Source Code: https://github.com/chainapsis/vizor-wallet
-- Devices: Desktop | Mobile
+- Devices: Mobile | Desktop
 - Operating System: Windows | macOS | Linux | Android | iOS
 - Wallet Support: Seed Phrase | Unified Address | Hardware | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | Ironwood
