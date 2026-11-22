@@ -7661,6 +7661,14 @@
       "mode": "full",
       "tool": "codex/gpt-6-luna",
       "edited": false
+    },
+    "Zcash_Tech/Network_Sustainability_Mechanism.md": {
+      "src": "sha256:3d5bbd48f16169265801fa4193946ce8a4962162a3f9334c79814d2aea761ddb",
+      "src_commit": "96997b74365c698cf8321e819ae4fb113fa7a256",
+      "engine": "llm",
+      "mode": "full",
+      "tool": "codex/gpt-6-luna+recovered+handfix",
+      "edited": false
     }
   },
   "el": {
@@ -23665,11 +23673,11 @@
       "edited": false
     },
     "Zcash_Tech/Shielded_Cold_Signing.md": {
-      "src": "sha256:b229f4d23dfeb869b65121363b24f5f29008271cb984aec304b8d03e17c179ce",
-      "src_commit": "ae320f633c40c6b51f87dc1024b241a0e1e833df",
+      "src": "sha256:a0ba6e5a699218d5226a94c2577c74fb0ce5aa77b19233729e0bd4e818b35d60",
+      "src_commit": "7916ff1973ea198461e97fdb69688356d5134093",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex-regen/gpt-5.6-terra",
+      "tool": "openai/gpt-6-luna",
       "edited": false
     },
     "Zcash_Tech/Payment_Disclosures.md": {
