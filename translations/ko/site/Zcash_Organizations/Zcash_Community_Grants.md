@@ -2,44 +2,44 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/> Zcash Community Grants
+# <img src="/content-images/ZCG-Circle-Logo-10-f41b8229ca.webp" alt="Alt Text" width="50"/>  Zcash Community Grants
 
-## 미션 선언문
+## 사명 선언문
 
-Zcash Community Grants 프로그램은 독립적인 팀들이 Zcash 생태계에 진입하여 Zcash 생태계의 공공 이익을 위해 주요한 지속적 개발(또는 기타 작업)을 수행할 수 있도록 자금을 지원합니다.
+Zcash Community Grants 프로그램은 Zcash 생태계에 진입해 Zcash 생태계의 공익을 위해 주요 개발을 지속적으로 수행하거나 기타 활동을 하는 독립 팀에 개발 지원금을 제공합니다.
 
-## 인물 및 팀
+## 사람과 팀
 
-Zcash Community Grants는 현재 5명으로 구성된 위원회가 관리합니다. 이 커뮤니티는 Zcash 프로토콜 위에 구축하고자 하는 제3자 팀의 그랜트 신청을 검토하고 승인합니다. 더 자세한 정보는 [팀](https://zcashcommunitygrants.org/committee/)에서 확인할 수 있습니다.
+Zcash Community Grants은 현재 5명으로 구성된 위원회에서 관리합니다. 이 커뮤니티는 Zcash 프로토콜을 기반으로 구축하려는 제3자 팀의 개발 지원금 신청서를 검토하고 승인합니다. [팀에 관한 자세한 정보](https://zcashcommunitygrants.org/committee/)
 
-최근 ZCG에 의해 승인된 프로젝트 중 하나는 QEDIT 팀이 주도한 Zcash Shielded Assets (ZSA)입니다. 이 프로젝트는 새로운 결제 프로토콜을 도입하여 ZEC에 DeFi를 가져오고, Zcash 메인넷에 추가 기능을 제공합니다.
+최근 ZCG의 승인을 받은 프로젝트로는 QEDIT 팀이 이끄는 Zcash Shielded Assets(ZSA)가 있습니다. Zcash와 함께 새로운 결제 프로토콜을 도입해 ZEC에 디파이를 구현하고, Zcash 메인넷에 추가 기능을 제공하는 프로젝트입니다.
 
-Zcash Media의 짧은 다큐멘터리에는 에드워드 스노든, 주코 및 디어드리 컨놀리와 같은 유명한 Zcash 개발자들이 등장하며, 관련성 있고 흥미롭고 교육적인 영상들을 널리 공유하는 것을 목표로 합니다.
+Zcash 미디어의 단편 다큐멘터리에는 Edward Snowden, Zooko, Deirdre Connolly 등 유명한 Zcash 커뮤니티 구성원이 등장합니다. 널리 공유할 수 있는 관련성 있고 재미있으며 교육적인 영상을 제작하는 것이 목적입니다.
 
-Ledger 하드웨어 지갑의 통합은 Sapling 암호화 거래를 완전히 지원하게 되며, 이는 Zcash가 개인적으로 및 보안적으로 저장될 수 있도록 합니다. 이 작업은 Zondax 팀이 수행했습니다.
+Ledger의 하드웨어 지갑 통합을 통해 Sapling 거래정보 보호 거래를 완벽하게 지원하며, 이에 따라 Zcash을 비공개로 안전하게 보관할 수 있습니다. 이 작업은 Zondax 팀에서 수행했습니다.
 
-ZGo는 벽돌과 콘크리트 건물의 점포에 쉽게 클릭하여 암호화 결제와 판매점 시스템 SDK를 구현하고 있습니다.
+오프라인 매장을 위한 사용하기 쉬운 원클릭 거래정보 보호 결제 및 판매 시점 시스템 SDK는 ZGo에서 개발하고 있습니다.
 
-글로벌 대사 프로그램은 Zcash가 국제적으로 더 넓은 인지도를 얻고, 전 세계에서의 오프라인 커뮤니티 행사에 참여하도록 도와줍니다.
+글로벌 앰배서더 프로그램은 Zcash이 국제적으로 더 폭넓게 대표성을 갖고, 전 세계에서 대면 커뮤니티 행사를 개최하도록 지원합니다.
 
-Zcash 그랜트 위원회는 여러 다른 프로젝트들을 검토했으며, 제출된 프로젝트들의 [완전하고 업데이트된 목록](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745)을 참조하십시오.
+Zcash 개발 지원금 위원회는 여러 프로젝트를 추가로 검토했습니다. 제출된 프로젝트의 [전체 최신 목록](https://docs.google.com/spreadsheets/d/1FQ28rDCyRW0TiNxrm3rgD8ai2KGUsXAjPieQmI1kKKg/edit?gid=135980745#gid=135980745)을 확인하세요.
 
 ## 조직 구조
 
-Zcash Community Grants는 Electric Coin Company 및 Zcash Foundation와 독립된 조직입니다.
+Zcash Community Grants은 Electric Coin Company 및 Zcash Foundation과는 별개의 독립 조직입니다.
 
 ## 자금 지원
 
-Zcash Community Grants는 [ZIP 1016](https://zips.z.cash/zip-1016)에 의해 NU6.1에서 수립된 자금 조달 모델에 따라 블록 보조금의 8%를 받습니다. 이 스트림은 이전 [ZIP 1015](https://zips.z.cash/zip-1015) 스트림이 만료되면서 시작되었으며, 현재 블록 간격 기준으로 블록 4,406,400에서 이루어지는 Zcash의 세 번째 반감기까지 지속됩니다. ZCG는 이 자금을 사용해 Zcash 생태계 전반의 독립적인 팀을 지원합니다.
+Zcash Community Grants는 [ZIP 1016](https://zips.z.cash/zip-1016)에서 NU6.1에 수립된 자금 지원 모델에 따라 블록 보조금의 8%를 받습니다. 이 자금 지원 흐름은 이전 [ZIP 1015](https://zips.z.cash/zip-1015) 자금 지원 흐름이 만료된 뒤 시작되었으며, 현재 블록 간격을 기준으로 Zcash의 3번째 반감기인 블록 4,406,400까지 이어집니다. ZCG는 이 자금을 사용해 Zcash 생태계 전반의 독립 팀을 지원합니다.
 
-## 자원
+## 자료
 
 [Zcash 개발 및 거버넌스](https://z.cash/zcash-development-and-governance/)
 
 
 
 
-## ZCG(GitHub + 커뮤니티 포럼)를 통해 그랜트 신청서 제출 방법
+## ZCG을 통해 개발 지원금을 신청하는 방법(GitHub + 커뮤니티 포럼)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -53,44 +53,44 @@ Zcash Community Grants는 [ZIP 1016](https://zips.z.cash/zip-1016)에 의해 NU6
 </div>
 
 
-### 단계 1: 제안서 준비
-다음 내용을 포함한 명확한 제안서를 작성하십시오:
+### 1단계: 제안서 준비
+다음 내용을 포함해 명확한 제안서를 작성하세요.
 - 프로젝트 제목 및 신청자 정보
-- 문제 진술과 제안된 해결책
-- 결과물, 일정 및 마일스톤
-- 예산 및 자금 요청
-- 관련 경험 및 위험
+- 문제 설명 및 제안하는 해결책
+- 결과물, 일정 및 주요 단계
+- 예산 및 자금 지원 요청
+- 관련 경험 및 위험 요소
 
 ---
 
-### 단계 2: GitHub에서 제출
-1. **Zcash Community Grants GitHub 저장소**로 이동하십시오.
-2. **Issues** 탭을 열고 **New Issue**를 클릭하십시오.
-3. 적절한 **그랜트 신청서 템플릿**을 선택하십시오.
-4. 모든 필수 항목을 작성하고 제출하십시오.
+### 2단계: GitHub에 제출
+1. **Zcash Community Grants GitHub 저장소**로 이동합니다.
+2. **Issues** 탭을 열고 **New Issue**를 클릭합니다.
+3. 적절한 **개발 지원금 신청서 템플릿**을 선택합니다.
+4. 필수 항목을 모두 작성하고 제출합니다.
 
-GitHub 이슈는 **공식적인 신청 기록**입니다.
-
----
-
-### 단계 3: 커뮤니티 포럼 게시물 작성
-1. **Zcash 커뮤니티 포럼**으로 이동하십시오.
-2. **Zcash Community Grants** 카테고리에 새 스레드를 생성하십시오.
-3. GitHub 이슈와 동일한 제목을 사용하십시오.
-4. 간단한 요약을 추가하고, **GitHub 이슈의 링크**를 포함하십시오.
+GitHub 이슈는 **공식 신청 기록**입니다.
 
 ---
 
-### 단계 4: 검토 참여
-- GitHub 이슈 및 포럼 스레드를 모니터링하십시오.
-- ZCG 위원회와 커뮤니티로부터의 질문과 피드백에 응답하십시오.
+### 3단계: 커뮤니티 포럼 게시물 작성
+1. **Zcash 커뮤니티 포럼**으로 이동합니다.
+2. **Zcash Community Grants** 카테고리에서 새 글을 작성합니다.
+3. GitHub 이슈와 같은 제목을 사용합니다.
+4. 간략한 요약을 추가하고 **GitHub 이슈 링크**를 포함합니다.
 
 ---
 
-### 단계 5: 결과
-- 승인된 제안서는 자금 지원 및 보고로 이어집니다.
-- 승인되지 않은 제안서는 **수정** 후 재제출될 수 있습니다.
+### 4단계: 검토 과정에 참여
+- GitHub 이슈와 포럼 글을 확인합니다.
+- ZCG 위원회와 커뮤니티의 질문 및 의견에 답변합니다.
 
 ---
 
-**참고:** GitHub가 공식 기록의 원천이며, 포럼은 공개 토론을 위한 것입니다.
+### 5단계: 결과
+- 승인된 제안서는 자금 지원 및 보고 단계로 진행됩니다.
+- 승인되지 않은 제안서는 수정하여 다시 제출할 수 있습니다.
+
+---
+
+**참고:** GitHub이 공식 기록의 기준입니다. 포럼은 공개 토론을 위한 공간입니다.

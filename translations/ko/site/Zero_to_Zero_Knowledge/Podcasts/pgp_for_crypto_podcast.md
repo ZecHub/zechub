@@ -2,26 +2,28 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-# 암호화폐를 위한 PGP* 팟캐스트
+
+# 암호화폐 팟캐스트를 위한 PGP*
 ![bannerpgp](/content-images/221758326-06cea3f5-4c9e-4466-b9ee-738546-01f88aec39.webp)
 
-"암호화폐를 위한 PGP* (Pretty Good Policy) 팟캐스트"는 Electric Coin Co.의 프로젝트입니다.
+Electric Coin Co.에서 진행하는 “”암호화폐 팟캐스트를 위한 PGP*(Pretty Good Policy)”에 오신 것을 환영합니다!
 
-우리는 블록체인 기술, 공공 정책 및 글로벌 규제 주제의 교차점을 탐구합니다. 우리의 목표는 청중에게 블록체인과 암호화폐의 미래를 형성하는 핵심 이슈에 대한 심층적인 통찰력과 전문가의 관점 제공하기입니다.
+블록체인 기술, 공공 정책, 글로벌 규제 현안이 만나는 지점을 살펴봅니다. 블록체인과 암호화폐의 미래를 형성하는 주요 사안에 대해 깊이 있는 통찰과 전문가의 관점을 청취자 여러분께 전하는 것이 목표입니다.
 
-산업 리더, 정부 공무원 및 블록체인 기술을 위한 공공 정책 환경을 형성하고 있는 학계 인사와의 인터뷰를 들을 수 있습니다. 게스트들은 산업에 직면한 도전과 기회에 대한 독특한 관점을 공유할 것이며, 현재 및 제안된 규제와 정책 접근 방식이 블록체인 생태계의 성장과 발전에 미치는 영향을 설명합니다.
+블록체인 기술의 공공 정책 환경을 주도하는 업계 리더, 정부 관계자, 학계 전문가와의 인터뷰를 들으실 수 있습니다. 게스트들은 업계가 직면한 과제와 기회, 그리고 현재 및 제안된 규제와 정책 접근 방식이 블록체인 생태계의 성장과 발전에 미치는 영향에 대한 각자의 관점을 들려드립니다.
 
-* [암호화폐를 위한 PGP 팟캐스트 #1 - 애마nda Wick](https://www.youtube.com/watch?v=m7tvz-U1kJU)
-* [암호화폐를 위한 PGP 팟캐스트 #2 - 크리스틴 스미스](https://www.youtube.com/watch?v=fpT-f82Wzc8)
-* [암호화폐를 위한 PGP 팟캐스트 #3 - 루크 헥](https://www.youtube.com/watch?v=467EFsIx4yg)
-* [암호화폐를 위한 PGP 팟캐스트 #4 - 제니퍼 슈플](https://www.youtube.com/watch?v=Cgnye-QYV7Q)
-* [암호화폐를 위한 PGP 팟캐스트 #5 - 클리브 메시도르](https://www.youtube.com/watch?v=sS35aykvf6E)
-* [암호화폐를 위한 PGP 팟캐스트 #6 - 브레트 퀵](https://www.youtube.com/watch?v=im0sXlnaGmU)
-* [암호화폐를 위한 PGP 팟캐스트 #7 - 밀러 화이트하우스-리브인](https://www.youtube.com/watch?v=-utatp0lK6s)
-* [암호화폐를 위한 PGP 팟캐스트 #8 - 피터 반 발켄버그](https://www.youtube.com/watch?v=mMoAph6CBWA)
-* [암호화폐를 위한 PGP 팟캐스트 #9 - 론 해먼드](https://youtu.be/wdODEjbi41o)
-* [암호화폐를 위한 PGP 팟캐스트 #10 - 세스 허트레인 및 이언 로저스](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
-* [암호화폐를 위한 PGP 팟캐스트 #11 - 밀러 화이트하우스-리브인 및 애마nda 투민elli](https://youtu.be/VwRJ1Ia3h6A)
-* [암호화폐를 위한 PGP 팟캐스트 #12 - 바트 스텝포스, 블록체인 캐피탈 설립자 및 최고 파트너](https://youtu.be/Ce58qD5SXzw)
-* [암호화폐를 위한 PGP 팟캐스트 #13 - 마리사 코펠, 블록체인 협회 고문](https://youtu.be/etqA9xwuCOg)
-* [암호화폐를 위한 PGP 팟캐스트 #14 - Zcon4 특별판: 제이 스탠리 (ACLU), 커트 오페슐 (Filecoin), 재크 와이너 참여](https://www.youtube.com/watch?v=Ior4r0YtBUE)
+
+* [암호화폐 팟캐스트를 위한 PGP 1회 - Amanda Wick](https://www.youtube.com/watch?v=m7tvz-U1kJU)
+* [암호화폐 팟캐스트를 위한 PGP 2회 - Kristin Smith](https://www.youtube.com/watch?v=fpT-f82Wzc8)
+* [암호화폐 팟캐스트를 위한 PGP 3회 - Luke Hogg](https://www.youtube.com/watch?v=467EFsIx4yg)
+* [암호화폐 팟캐스트를 위한 PGP 4회 - Jennifer Schulp](https://www.youtube.com/watch?v=Cgnye-QYV7Q)
+* [암호화폐 팟캐스트를 위한 PGP 5회 - Cleve Mesidor](https://www.youtube.com/watch?v=sS35aykvf6E)
+* [암호화폐 팟캐스트를 위한 PGP 6회 - Brett Quick](https://www.youtube.com/watch?v=im0sXlnaGmU)
+* [암호화폐 팟캐스트를 위한 PGP 7회 - Miller Whitehouse-Levine](https://www.youtube.com/watch?v=-utatp0lK6s)
+* [암호화폐 팟캐스트를 위한 PGP 8회 - Peter Van Valkenburgh](https://www.youtube.com/watch?v=mMoAph6CBWA)
+* [암호화폐 팟캐스트를 위한 PGP 9회 - Ron Hammond](https://youtu.be/wdODEjbi41o)
+* [암호화폐 팟캐스트를 위한 PGP 10회 - Seth Hertlein 및 Ian Rogers](https://www.youtube.com/watch?v=1tgNKdiKUHQ)
+* [암호화폐 팟캐스트를 위한 PGP 11회 - Miller Whitehouse-Levine 및 Amanda Tuminelli](https://youtu.be/VwRJ1Ia3h6A)
+* [암호화폐 팟캐스트를 위한 PGP 12회 - Blockchain Capital 창립자 겸 매니징 파트너 Bart Stephens](https://youtu.be/Ce58qD5SXzw)
+* [암호화폐 팟캐스트를 위한 PGP 13회 - Blockchain Association 선임 법률고문 Marisa Coppel](https://youtu.be/etqA9xwuCOg)
+* [암호화폐 팟캐스트를 위한 PGP 14회 - Jay Stanley(ACLU), Kurt Opsahl(Filecoin), Jake Wiener가 출연하는 Zcon4 특별판](https://www.youtube.com/watch?v=Ior4r0YtBUE)

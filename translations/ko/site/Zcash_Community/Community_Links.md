@@ -1,56 +1,56 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Links.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash 커뮤니티 링크
+# <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="대체 텍스트" width="400"/> Zcash 커뮤니티 링크
 
-Zcash 커뮤니티는 전 세계에서 가장 널리 사용되는 프라이버시 보호 암호화폐 중 하나인 ZEC을 만들기 위해 노력하는 생생한 그룹입니다. 이 커뮤니티는 개발자, 교육자, 옹호자 및 창작자 등 전 세계의 다양한 사람들이 모여 금융 프라이버시에 대한 공유된 신념으로 연결되어 있습니다.
+Zcash 커뮤니티는 ZEC를 세계에서 가장 널리 사용되는 프라이버시 보호 암호화폐 중 하나로 만들기 위해 노력하는 활기찬 사람들의 모임입니다. 전 세계에서 온 개발자, 교육자, 옹호자, 구축자 등 다양한 사람들이 금융 프라이버시라는 공통된 신념으로 하나가 되어 있습니다.
 
 ----
 
-## 커뮤니티 구성원을 찾을 수 있는 곳
+## 커뮤니티 구성원을 만날 수 있는 곳
 
-### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
+### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="대체 텍스트" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
-Zcash 커뮤니티는 매우 활발한 <span translate="no" class="notranslate">Telegram</span> 그룹에 있습니다. 일상적인 대화, 뉴스 및 업데이트 토론, 그리고 다른 구성원들과의 만남을 위해 가입하세요: [t.me/Zcash_Community](https://t.me/Zcash_Community)
+Zcash 커뮤니티는 Telegram 커뮤니티에서 매우 활발하게 활동합니다. 일상적인 이야기를 나누고, 뉴스와 업데이트를 논의하고, 다른 커뮤니티 구성원들을 만나 보세요: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
-### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
+### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="대체 텍스트" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
-- [Zcash Global](https://discord.gg/zcash) - 메인 커뮤니티 서버
-- [Zcash R&D](https://discord.gg/xpzPR53xtU) - 프로토콜 및 개발자 토론
+- [Zcash 글로벌](https://discord.gg/zcash) - 메인 커뮤니티 서버
+- [Zcash 연구개발](https://discord.gg/xpzPR53xtU) - 프로토콜 및 개발자 논의
 - [Zcash Foundation](https://discord.gg/na6QZNd) - 재단 업데이트 및 거버넌스
 - [ZecHub DAO](https://discord.gg/zcash) - 커뮤니티 DAO 기여자
 
-### <span translate="no" class="notranslate">Mastodon / 분산형 소셜</span>
+### <span translate="no" class="notranslate">마스토돈 / 탈중앙화 소셜</span>
 
-- [ZecHub.Social](https://zechub.social/public/local) - Zcash 커뮤니티를 위한 Mastodon 인스턴스
-- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - X에서 계정이 정지된 후 스페인어로 운영되는 Bluesky의 Zcash
+- [ZecHub.Social](https://zechub.social/public/local) - Zcash 커뮤니티의 마스토돈 인스턴스
+- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Bluesky의 Zcash 스페인어 계정(X 계정 정지 후 이전)
 
-### <span translate="no" class="notranslate">Matrix</span>
+### <span translate="no" class="notranslate">매트릭스</span>
 
-- [ZecHub Matrix](https://matrix.to/#/#zechub:matrix.org)
+- [ZecHub 매트릭스](https://matrix.to/#/#zechub:matrix.org)
 
 ### Zcash 커뮤니티 포럼
 
-[Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/)은 Zcash에 관한 장문의 논의를 위한 중심지입니다 - 거버넌스, 보조금 제안, 기술적 토론 및 생태계 공지. ECC가 ZODL로 전환됨에 따라 관리 책임은 이제 Zcash Foundation로 이전되었습니다.
+[Zcash 커뮤니티 포럼](https://forum.zcashcommunity.com/)은 Zcash의 거버넌스, 개발 지원금 제안, 기술 논쟁, 생태계 공지 등 장문의 논의를 위한 중심 공간입니다. 이제 Zcash Foundation가 ECC의 ZODL 전환에 따라 운영 관리를 이어받았습니다.
 
-### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
+### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="대체 텍스트" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
-Zcash는 X에서 활발한 글로벌 존재를 가지고 있습니다. 주요로 팔로우해야 할 계정:
+Zcash는 X에서 활발한 글로벌 활동을 펼치고 있습니다. 팔로우할 주요 계정은 다음과 같습니다.
 
 | 계정 | 설명 |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | 공식 Zcash 계정 |
-| [@ZecHub](https://x.com/zechub) | ZecHub DAO - 커뮤니티 교육 및 보상 |
-| [@zodl_app](https://x.com/zodl_app) | ZODL 지갑 (이전 명칭: Zashi) |
+| [@ZecHub](https://x.com/zechub) | ZecHub DAO - 커뮤니티 교육 및 바운티 |
+| [@zodl_app](https://x.com/zodl_app) | ZODL 지갑(이전 Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation 업데이트 |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Zcash 브라질 커뮤니티 |
 | [@ZcashMx](https://x.com/ZcashMx) | Zcash 멕시코 |
-| [@ZcashTR](https://x.com/ZcashTR) | Zcash 터키 |
+| [@ZcashTR](https://x.com/ZcashTR) | Zcash 튀르키예 |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash 아라비아 |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash 나이지리아 |
 | [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - 스페인어 Zcash 팟캐스트 |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK 시청각 클럽 |
 | [@cipherscan_app](https://x.com/cipherscan_app) | CipherScan 블록체인 탐색기 |
 | [@zerodartz](https://x.com/Zerodartz) | 커뮤니티 밈 및 논평 |
 
@@ -58,23 +58,23 @@ Zcash는 X에서 활발한 글로벌 존재를 가지고 있습니다. 주요로
 
 ## 지역 커뮤니티 허브
 
-- [Zcash en Espanol](https://zcashesp.com) - 스페인어 사용자 커뮤니티 (X 계정 정지 후 Bluesky에도 있음)
-- [Zcash Brazil](https://x.com/zcashbrazil) - 브라질 커뮤니티
-- [Zcash Mexico](https://x.com/ZcashMx) - 멕시코 커뮤니티
-- [Zcash Turkey](https://x.com/ZcashTR) - 터키 커뮤니티
-- [Zcash Arabia](https://x.com/ZcashArabia) - 아랍어 사용자 커뮤니티
-- [Zcash Nigeria](https://x.com/ZcashNigeria) - 나이지리아 커뮤니티
-- [ruZcash](https://x.com/ruZCASH) - 러시아어 사용자 Zcash 커뮤니티
-- [Zcash Korea](https://x.com/zcash_korea) - 한국 커뮤니티
-- [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - 남아프리카 및 동아프리카
+- [Zcash 스페인어](https://zcashesp.com) - 스페인어권 커뮤니티(X 계정 정지 후 Bluesky에서도 활동)
+- [Zcash 브라질](https://x.com/zcashbrazil) - 브라질 커뮤니티
+- [Zcash 멕시코](https://x.com/ZcashMx) - 멕시코 커뮤니티
+- [Zcash 튀르키예](https://x.com/ZcashTR) - 튀르키예 커뮤니티
+- [Zcash 아라비아](https://x.com/ZcashArabia) - 아랍어권 커뮤니티
+- [Zcash 나이지리아](https://x.com/ZcashNigeria) - 나이지리아 커뮤니티
+- [ruZcash](https://x.com/ruZCASH) - 러시아어권 Zcash 커뮤니티
+- [Zcash 한국](https://x.com/zcash_korea) - 한국 커뮤니티
+- [Zcash 동아프리카](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - 남아프리카 및 동아프리카
 - [genzcash](https://x.com/genzcash) - 청년 중심 Zcash 커뮤니티
 
 ----
 
-## 자원
+## 자료
 
 - [Zcash 커뮤니티 웹사이트](https://www.zcashcommunity.com/)
 - [ZecHub 위키](https://zechub.wiki)
-- [Zcash 보조금 허브](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash 글로벌 대사](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - 이 위키의 프로그램 개요 (zcashambassadors.com은 오프라인)
+- [Zcash 개발 지원금 허브](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Zcash 글로벌 앰배서더](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - 이 위키의 프로그램 개요(zcashambassadors.com은 오프라인 상태)
 - [ZEC Bounties](https://bounties.zechub.wiki/)

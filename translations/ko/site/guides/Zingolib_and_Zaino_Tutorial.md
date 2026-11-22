@@ -1,10 +1,10 @@
 # Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**    : zcash 풀 노드
+**zebrad**    : Zcash 풀 노드
 
-**zaino**     : zcash 블록체인 인덱서
+**zaino**     : Zcash 블록체인 인덱서
 
-**zingo-cli** : zcash 명령줄 zaino-proxy 클라이언트 (Zingolib의 일부)
+**zingo-cli** : Zcash 명령줄 zaino-proxy 클라이언트(Zingolib의 하위 집합)
 
 ## 동영상
 
@@ -20,21 +20,21 @@
 </div>
 
 
-## 전체 그림
+## 전체 개요
 
 [시스템 아키텍처](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- Zcash 사용자는 Zingolib을 설치/컴파일하여 zingo-cli에 접근할 수 있습니다. 필요에 따라 ZEC를 보내고 받을 수 있습니다.
-- zingo-cli는 로컬에서 또는 온라인의 보안 채널을 통해 zaino에 연결됩니다 (Zcash 사용자는 이것이 어떻게 동작하는지 신경 쓸 필요가 없습니다!)
-- Zaino는 zebrad 또는 zcashd에 대한 접근을 허용합니다            
-- 완전히 동기화된 zebrad가 신뢰의 원천입니다 (이제 여기에는 더 이상 지갑이 없습니다!)
+- Zcash 사용자가 Zingolib을 설치하거나 컴파일하면 zingo-cli에 액세스할 수 있습니다. 필요에 따라 ZEC을 보내거나 받을 수 있습니다.
+- zingo-cli는 로컬 또는 온라인 보안 채널을 통해 zaino에 연결됩니다(Zcash 사용자는 작동 방식을 신경 쓸 필요가 없습니다!).
+- Zaino을 사용하면 zebrad 또는 zcashd에 액세스할 수 있습니다.
+- 완전히 동기화된 zebrad가 신뢰할 수 있는 정보의 원천입니다(이제 지갑은 여기에 없습니다!).
 
 
 
 ## 설치
 
-이것이 제대로 작동하려면 3가지를 설치해야 합니다. 또한 화면 관리를 위해 screen이나 이와 비슷한 것을 사용하는 것을 추천합니다.
+제대로 작동하도록 하려면 3가지를 설치해야 합니다. 화면을 관리하는 데 도움이 되도록 screen이나 비슷한 도구도 사용하는 것을 권장합니다.
 
 `sudo apt install screen`
 
@@ -46,16 +46,17 @@ cd zebra
 cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
-Zebra 7.0.0 이상을 사용하세요. NU7은 Mainnet의 블록 3,543,405에서 활성화되었으며, 이전 `zebrad` 버전은 그 높이 이후의 체인을 따라갈 수 없습니다([릴리스 노트](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+Zebra 7.0.0 이상을 사용하세요. NU7은 메인넷 블록 3,543,405에서 활성화되었으며, 이전 `zebrad` 버전은 해당 높이 이후의 체인을 따라갈 수 없습니다([릴리스 노트](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
 
-*선택 사항* (zebrad용 screen 세션 생성)
+ 
+*선택 사항* (zebrad용 screen 세션 만들기)
 
 ```
 screen -S zebra
 zebrad start
 ```
 
-참고: 이것은 완전히 동기화되어야 합니다! 
+참고: 완전히 동기화해야 합니다!
 
 ### zaino
 
@@ -67,12 +68,12 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 
 
-*선택 사항* (zaino용 screen 세션 생성)
+*선택 사항* (zaino용 screen 세션 만들기)
 
 ```
 screen -S zaino
 cd ~/zaino/zainod
-nano zindexer.toml  => 메인넷용으로 포트를 8232로 조정
+nano zindexer.toml  => Adjust port to 8232 for mainnet
 zainod --config zindexer.toml
 ```
 
@@ -85,16 +86,16 @@ cd zingolib
 cargo build --release --package zingo-cli
 ```
 
-*선택 사항* (zingo-cli용 screen 세션 생성)
+*선택 사항* (zingo-cli용 screen 세션 만들기)
 
 ```
 screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-참고: 이것도 lightwalletd와 마찬가지로 완전히 동기화되어야 합니다. 시간을 절약하려면 외장 드라이브를 사용하는 것을 추천합니다 :)
+참고: lightwalletd과 마찬가지로 완전히 동기화해야 합니다. 시간을 절약할 수 있도록 외장 드라이브를 사용하는 것을 권장합니다 :)
 
 
 ## 실행
 
-이것들을 screen에서 실행 중이라면, `screen -r` 가 각 screen을 표시해 주므로 필요에 따라 이동할 수 있습니다
+이 항목들을 screen에서 실행 중이라면, `screen -r`을 사용해 필요할 때 이동할 screen을 확인할 수 있습니다.

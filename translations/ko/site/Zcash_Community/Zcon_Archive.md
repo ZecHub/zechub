@@ -1,17 +1,17 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcon_Archive.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-다음은 Zcon 관련 미디어가 쉽게 찾을 수 있는 위치에 모아진 것입니다.
+다음은 Zcon 관련 미디어를 쉽게 찾아볼 수 있도록 한곳에 모아 놓은 모음입니다.
 
 # Zcon
-Zcon은 [Zcash Foundation](https://zfnd.org/)이 주최하는 연간 컨퍼런스입니다.
+Zcon은 [Zcash Foundation](https://zfnd.org/)가 주최하는 연례 콘퍼런스입니다.
 
-## Zcon0: Privacy from A to Zcon
+## Zcon0: 프라이버시의 모든 것
 
-Zcon0는 우리의 첫 번째 연간 컨퍼런스였으며, 매우 잘 진행되었습니다. 우리는 2018년 6월 26일부터 28일까지 아름다운 몬트리올에서 개최했습니다.
+첫 번째 연례 콘퍼런스인 Zcon0은 매우 성공적으로 개최되었습니다. 2018년 6월 26일부터 28일까지 아름다운 몬트리올에서 진행되었습니다.
 
-[Zcon0 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
+[Zcon0 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -24,11 +24,12 @@ Zcon0는 우리의 첫 번째 연간 컨퍼런스였으며, 매우 잘 진행되
   />
 </div>
 
-## Zcon1: Zero to Privacy Hero
 
-두 번째 연간 프라이버시 및 기술 컨퍼런스는 Zcash Foundation이 주최했으며, 2019년 6월 22일부터 24일까지 크로아티아 스플리트에서 개최되었습니다.
+## Zcon1: 프라이버시 영웅으로 나아가기
 
-[Zcon1 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
+Zcash Foundation가 주최한 두 번째 프라이버시 및 기술 연례 콘퍼런스는 2019년 6월 22일부터 24일까지 크로아티아 스플리트에서 열렸습니다.
+
+[Zcon1 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -41,11 +42,12 @@ Zcon0는 우리의 첫 번째 연간 컨퍼런스였으며, 매우 잘 진행되
   />
 </div>
 
-## Zcon2: Privacy All the Way Down
 
-Zcon2는 2021년 6월 8일 화요일과 9일 수요일에 개최되었습니다. Zcon2는 가상 컨퍼런스였습니다.
+## Zcon2: 끝까지 이어지는 프라이버시
 
-[Zcon2 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
+Zcon2는 2021년 6월 8일 화요일과 6월 9일 수요일에 개최되었습니다. Zcon2는 온라인 콘퍼런스였습니다.
+
+[Zcon2 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -58,11 +60,12 @@ Zcon2는 2021년 6월 8일 화요일과 9일 수요일에 개최되었습니다.
   />
 </div>
 
-## Zcon3: Code Alone Doesn't Cut It
 
-Zcon3는 2022년 8월 7일부터 9일까지 라스베이거스에서 개최되었습니다.
+## Zcon3: 코드만으로는 충분하지 않습니다
 
-[Zcon3 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
+Zcon3은 2022년 8월 7일부터 9일까지 라스베이거스에서 개최되었습니다.
+
+[Zcon3 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -75,11 +78,13 @@ Zcon3는 2022년 8월 7일부터 9일까지 라스베이거스에서 개최되�
   />
 </div>
 
-## Zcon4: The Future Has Not Been Written
 
-실제 행사가 스페인 바르셀로나에서 2023년 7월 30일부터 31일까지 개최되며, 현장에서 생중계됩니다.
+## Zcon4: 미래는 아직 쓰이지 않았습니다
 
-[Zcon4 Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+대면 콘퍼런스는 2023년 7월 30일부터 31일까지 스페인 바르셀로나에서 열리며, 행사장에서 실시간 스트리밍으로 중계됩니다.
+
+[Zcon4 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
+
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -92,11 +97,11 @@ Zcon3는 2022년 8월 7일부터 9일까지 라스베이거스에서 개최되�
   />
 </div>
 
-## ZconV: Zcash Unified
+## ZconV: Zcash 통합
 
-ZconV는 2024년 5월 6일부터 10일까지 개최되었습니다. ZconV는 가상 컨퍼런스였습니다.
+ZconV는 2024년 5월 6일부터 10일까지 개최되었습니다. ZconV는 온라인 콘퍼런스였습니다.
 
-[ZconV Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
+[ZconV 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJ41e2uSOJItvbW1YVR49aR)
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
@@ -109,11 +114,12 @@ ZconV는 2024년 5월 6일부터 10일까지 개최되었습니다. ZconV는 가
   />
 </div>
 
-## ZconVI: Synergy Through Decentralization
+## ZconVI: 탈중앙화를 통한 시너지
 
-ZconVI는 2025년 3월 4일부터 7일까지 개최되었습니다. ZconVI는 가상 컨퍼런스였습니다.
+ZconVI는 2025년 3월 4일부터 7일까지 개최되었습니다. ZconVI는 온라인 콘퍼런스였습니다.
 
-[ZconVI Playlist](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+[ZconVI 재생목록](https://www.youtube.com/playlist?list=PL40dyJ0UYTLIIhRk8vu2hkPL_q7OWO7wk)
+
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
