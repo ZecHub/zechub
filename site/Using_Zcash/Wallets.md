@@ -173,8 +173,8 @@
 ## [Brave](https://brave.com/wallet/)
 ![logo](/content-images/wallets/brave.webp "Brave")
 - Source Code: https://github.com/brave/brave-core
-- Devices: Desktop
-- Operating System: Windows | Linux | macOS
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Unified Address | 12-Word Seed Phrase
 - Pools: Transparent | Ironwood
 - Features: Shielded Memo | Testnet Support
