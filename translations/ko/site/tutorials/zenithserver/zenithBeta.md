@@ -1,6 +1,6 @@
-# Zenith 0.10 베타
+# Zenith 0.10 Beta
 
-실행 중인 zebrad가 RPC를 활성화한 상태여야 합니다.
+RPC가 활성화된 실행 중인 zebrad이 필요합니다
 
 # NIX 설치
 
@@ -11,7 +11,7 @@ sudo chown -R <username> /nix'
 ```
 
 
-다음 내용을 ~/.config/nix/nix.conf 또는 /etc/nix/nix.conf에 추가하세요:
+다음 내용을 ~/.config/nix/nix.conf 또는 /etc/nix/nix.conf에 추가합니다.
 
 `experimental-features = nix-command flakes`
 

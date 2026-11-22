@@ -1,15 +1,15 @@
-# 강화된 Zebra 풀 노드
+# 하드닝된 Zebra 풀 노드
 
-- 전용 비특권 사용자와 커널 수준의 systemd 샌드박싱을 사용합니다(Docker과 동일한 격리 방식).
-- RPC는 localhost에서만 사용할 수 있으며 보안 쿠키 인증을 사용합니다(기본값이자 권장 설정).
+- 전용 비특권 사용자와 커널 수준의 systemd 샌드박싱을 사용합니다(Docker와 동일한 격리 방식).
+- RPC는 보안 쿠키 인증을 사용하며 로컬호스트에서만 접근할 수 있습니다(기본값이자 권장 설정).
 
 ---
 
-## 필수 조건
+## 사전 요구 사항
 
 - Ubuntu 기반 배포판
-- Rust 도구 체인 설치(`rustup` + `cargo`)
-- 디스크 여유 공간 최소 300 GB(`/var` 파티션)
+- Rust 툴체인 설치(`rustup` + `cargo`)
+- 여유 디스크 공간 300 GB 이상(`/var` 파티션)
 
 ---
 
@@ -23,7 +23,7 @@ sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev c
 
 ## Rust 업데이트 및 최신 zebrad 설치(7.0.0 이상)
 
-NU7이 메인넷 블록 3,543,405에서 활성화되었습니다. [Zebra 7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) 이상만 해당 높이 이후의 체인을 따라가므로, 6.x 이하 버전의 `zebrad`은 이전 규칙에 머물러 있습니다. 이를 빌드하려면 Rust 1.91 이상이 필요하며, `rustup update`에서 설치합니다. Zebra 6.x에서 기존 노드를 업그레이드하는 경우 먼저 `/var/lib/zebrad/state/v28`을 백업하세요. Zebra 7은 처음 시작할 때 데이터베이스를 새 v29 형식으로 변환하며, 이후에는 6.x에서 이를 읽을 수 없습니다.
+NU7은 메인넷 블록 3,543,405에서 활성화되었습니다. [Zebra 7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) 이상만 해당 높이 이후의 체인을 따르므로, 6.x 이하 버전의 `zebrad`은 이전 규칙에 머물게 됩니다. 빌드하려면 Rust 1.91 이상이 필요하며, 이는 `rustup update`에서 설치합니다. 기존 노드를 Zebra 6.x에서 업그레이드하는 경우 먼저 `/var/lib/zebrad/state/v28`을 백업하세요. Zebra 7은 처음 시작할 때 새 v29 데이터베이스 형식으로 변경하며, 이후에는 6.x에서 해당 형식을 읽을 수 없습니다.
 
 ```
 rustup update
@@ -34,13 +34,13 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## 전용 비특권 zebra 사용자 만들기
+## 전용 비특권 zebra 사용자 생성
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
-## 보안 데이터 디렉터리 만들기
+## 보안 데이터 디렉터리 생성
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -53,7 +53,7 @@ sudo chmod 750 /var/lib/zebrad-rpc
 
 `/var/lib/zebrad-rpc`에는 RPC 인증 쿠키가 저장됩니다. 아래 서비스는 이 두 디렉터리에만 쓸 수 있으며, 둘 중 하나라도 없으면 systemd가 서비스 시작을 거부합니다.
 
-## 보안 구성 파일 만들기(/etc/zebrad/zebrad.toml)
+## 보안 구성 파일 생성(/etc/zebrad/zebrad.toml)
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -82,7 +82,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## 강화된 systemd 서비스 만들기
+## 하드닝된 systemd 서비스 생성
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -117,19 +117,19 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-Zebra은 시작할 때마다 새 쿠키를 생성합니다. 쿠키는 `zebra` 사용자만 읽을 수 있으며(모드 600), 서비스가 중지되면 삭제됩니다. 아래와 같이 `sudo`로 읽으세요. 쿠키 모드를 변경하는 `ExecStartPost=` 줄은 추가하지 마세요. 해당 명령은 zebrad이 쿠키를 기록하기 전에 실행될 수 있으며, `ExecStartPost=` 명령이 실패하면 서비스가 중지됩니다.
+Zebra은 시작할 때마다 새 쿠키를 작성합니다. 쿠키는 `zebra` 사용자만 읽을 수 있고(모드 600), 서비스가 중지되면 삭제됩니다. 아래와 같이 `sudo`로 쿠키를 읽으세요. 쿠키 모드를 변경하는 `ExecStartPost=` 줄은 추가하지 마세요. zebrad이 쿠키를 작성하기 전에 실행될 수 있으며, `ExecStartPost=` 명령이 실패하면 서비스가 중지됩니다.
 
 ## 일상적인 사용 - 단일 명령 워크플로
 
 | 작업                    | 명령                                         | 참고 |
 |-------------------------|----------------------------------------------|-------|
-| **시작**                | `sudo systemctl start zebrad`                                         | 명령 하나 |
-| **중지**                | `sudo systemctl stop zebrad`                                        | 명령 하나 |
-| **상태**                | `sudo systemctl status zebrad`                                      | 실행 여부 표시 |
-| **실시간 로그**          | `journalctl -u zebrad -f -o short-precise`                                         | `screen -r`을 대체 |
-| **RPC 쿠키 가져오기**    | `sudo cat /var/lib/zebrad-rpc/.cookie`                                     | 실행 중일 때만 |
+| **시작**                | `sudo systemctl start zebrad`                | 명령 1개 |
+| **중지**                | `sudo systemctl stop zebrad`                 | 명령 1개 |
+| **상태**                | `sudo systemctl status zebrad`               | 실행 중인지 표시 |
+| **실시간 로그**          | `journalctl -u zebrad -f -o short-precise`  | `screen -r` 대체 |
+| **RPC 쿠키 가져오기**    | `sudo cat /var/lib/zebrad-rpc/.cookie`           | 실행 중일 때만 |
 
-**편의 별칭**(`~/.bashrc` 또는 `~/.zshrc`에 추가):
+**편의용 별칭**(`~/.bashrc` 또는 `~/.zshrc`에 추가):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

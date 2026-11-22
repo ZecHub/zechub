@@ -1,39 +1,41 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Buying_ZEC.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="편집 페이지"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-# Zcash 구매 방법
 
-## TL;DR
+# Zcash 얻기
 
-- 가능하다면 **보호된 출금**을 지원하는 거래소(Gemini, BitcoinVN, flyp.me)에서 ZEC을 구매하세요
-- 대부분의 주요 중앙화 거래소(Coinbase, Kraken, Binance)는 **투명한 출금**만 지원합니다 — ZEC을 받은 후에는 보호된 상태로 전환하세요
-- 분산형 거래소는 비관리형 스왑을 허용하지만 일반적으로 투명 주소로 출금됩니다
-- 전체 ZEC를 구매할 필요는 없습니다 — 일부분도 충분합니다
+## 핵심 요약
+
+- 가능하면 **거래정보 보호 출금**을 지원하는 거래소(Gemini, BitcoinVN, flyp.me)에서 ZEC을 구매하세요
+- 대부분의 주요 중앙화 거래소(Coinbase, Kraken, Binance)는 **투명 출금**만 지원하므로, 받은 후 ZEC의 거래정보를 보호하세요
+- 탈중앙화 거래소에서는 커스터디 없이 스왑할 수 있지만, 일반적으로 투명 주소로 출금됩니다
+- ZEC을 통째로 구매할 필요는 없습니다. 소액으로도 충분합니다
 
 ---
 
-Zcash을 사용하여 **보호된** 거래를 하려면 ZEC가 필요합니다. ZEC를 얻으려면 구매해야 합니다. ZEC를 구매할 수 있는 다양한 거래소들이 있으며, 아래에서 그 목록을 제공하겠습니다. 보호된 출금을 지원하는 거래소를 사용하는 것이 좋습니다.
+Zcash을 비공개 거래(거래정보 보호 거래)에 사용하려면 ZEC이 있어야 합니다. ZEC을 얻으려면 구매해야 합니다. 아래에 나열한 여러 거래소에서 ZEC을 구매할 수 있습니다. 거래정보 보호 출금을 지원하는 거래소를 이용하는 것이 좋습니다.
 
-_ZEC를 채굴할 수도 있지만 일반 소비자에게는 거의 불가능합니다. 여기서 더 자세히 알아보세요 [여기](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281) 및 [여기](https://zec.suprnova.cc/StartMining)_.
+_ZEC을 채굴할 수도 있지만, 일반 소비자가 채굴하기는 대체로 어렵습니다. 자세한 내용은 [여기](https://forum.zcashcommunity.com/t/mining-to-shielded-addresses-community-mining-pool/50281)와 [여기](https://zec.suprnova.cc/StartMining)를 참조하세요._
 
-## 보호된 출금을 지원하는 거래소
+## 거래정보 보호 출금을 지원하는 거래소
 
 **[Gemini](https://www.gemini.com)**
 
-Gemini는 규제를 받는 암호화폐 거래소, 지갑 및 보관 서비스로 ZEC, 이더리움 및 기타 암호화폐를 쉽게 안전하게 구매할 수 있도록 도와줍니다. 법정 통화 또는 다른 암호화폐로 ZEC를 구매할 수 있습니다.
+Gemini는 ZEC, Ether 및 기타 암호화폐를 간편하고 안전하게 구매할 수 있는 규제 대상 암호화폐 거래소이자 지갑 및 커스터디 서비스입니다. 법정화폐나 다른 암호화폐로 ZEC을 구매할 수 있습니다.
 
 **[BitcoinVN](https://bitcoinvn.io)**
 
-BitcoinVN은 비관리형 즉시 거래소로 ZEC에 대해 보호된(z-주소) 입금 및 출금을 지원합니다 — 전 세계적으로 완전한 z-주소 지원을 제공하는 매우 드문 거래소 중 하나입니다. 2014년부터 운영되어 BTC, ETH, USDT 및 기타 암호화폐를 직접 보호된 지갑으로 ZEC로 교환할 수 있습니다.
+BitcoinVN은 거래정보 보호(z 주소) 입금 및 출금을 지원하는 비커스터디형 즉시 거래소로, ZEC을 지원하는 전 세계 몇 안 되는 거래소 중 하나입니다. 2014년부터 운영되어 온 이곳에서는 BTC, ETH, USDT 및 기타 암호화폐를 거래정보 보호 지갑으로 직접 ZEC와 스왑할 수 있습니다.
 
 **[flyp.me](https://flyp.me)**
 
-flyp.me는 등록이 필요 없는 암호화폐 거래소입니다. 30개 이상의 암호화폐를 바로 지갑으로 교환하는 가장 안전하고 사생활 보호가 잘 된 방법 중 하나였습니다. 다른 암호화폐로 ZEC를 구매할 수 있습니다.
+flyp.me는 회원 가입이 필요 없는 암호화폐 거래소입니다. 30개가 넘는 암호화폐를 지갑으로 바로 교환할 수 있는 가장 안전하고 비공개적인 방법 중 하나였습니다. 다른 암호화폐로 ZEC을 구매할 수 있습니다.
 
-## 투명한 출금을 지원하는 거래소
+## 투명 출금을 지원하는 거래소
 
-대부분의 주요 거래소는 Zcash를 지원합니다. 자세한 목록은 여기에서 확인하세요: [여기](https://zechub.wiki/using-zcash/custodial-exchanges).
+대부분의 주요 거래소는 Zcash을 지원합니다. 자세한 목록은 [여기](https://zechub.wiki/using-zcash/custodial-exchanges)를 참조하세요.
+
 
 **[Coinbase](https://www.coinbase.com)**
 
@@ -41,47 +43,49 @@ flyp.me는 등록이 필요 없는 암호화폐 거래소입니다. 30개 이상
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/Avweu5V9QRc"
-    title="Coinbase + Zodl: Buy Zcash & Shield Instantly"
+    title="Coinbase + Zodl: Zcash 구매 및 즉시 거래정보 보호"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-## 투명한 출금을 지원하는 분산형 거래소
+## 투명 출금을 지원하는 탈중앙화 거래소
 
-이 거래소들은 투명한 출금을 지원합니다. 이는 ZEC를 지갑으로 출금할 때, 당신의 투명 주소, 즉 공개된 ZEC 주소로 보내야 한다는 의미입니다.
-자세한 내용은 [여기](https://zechub.wiki/using-zcash/non-custodial-exchanges)에서 확인하세요.
+이 거래소들은 투명 출금을 지원합니다. 즉, ZEC을 지갑으로 출금할 때 투명 주소, 즉 공개 ZEC 주소로 보내야 합니다.
+자세한 내용은 [여기](https://zechub.wiki/using-zcash/non-custodial-exchanges)를 클릭하세요.
 
 ![dex](/content-images/bfe2e9cf-2def-4593-b790-152e14b23da3-f94f97c7e6.webp)
 
-이를 수행할 때, 다음 중 하나의 [지갑](https://zechub.wiki/wallets)을 사용하는 것이 좋습니다.
+
+이 경우에는 다음 [지갑](https://zechub.wiki/wallets) 중 하나를 사용하는 것이 좋습니다.
 
 ![mobile](/content-images/8b7618f5-dec6-4e6b-9804-db75be5c1e2f-14fa53d3bd.webp)
+
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/6IIRRZ17Q74"
-    title="Reviewing all Zcash Shielded Wallets"
+    title="Zcash의 모든 거래정보 보호 지갑 살펴보기"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
   />
 </div>
 
-## 피해야 할 일반적인 실수
+## 피해야 할 흔한 실수
 
-- **투명 주소로 출금**하는 것 — 거래소가 보호된 출금을 지원할 경우, 가능한 한 z-주소를 사용하세요.
-- **보호 단계를 건너뛰는 것** — 투명 주소에 받은 후 즉시 지갑의 "자금 보호" 기능을 사용하세요.
-- **처음에는 필요 이상으로 많이 구매하는 것** — 더 큰 구매 전에 작은 규모로 시작하여 흐름을 배우세요.
+- 거래소가 거래정보 보호 출금을 지원하는데도 **투명 주소로 출금하기** — 가능한 경우 항상 z-address를 사용하세요
+- 투명 주소로 받은 후 **거래정보를 보호하는 단계 건너뛰기** — 즉시 지갑의 “자금 거래정보 보호” 기능을 사용하세요
+- **처음부터 필요 이상으로 많이 구매하기** — 큰 금액을 구매하기 전에 소액으로 시작해 과정을 익히세요
 
 ---
 
 ## 관련 페이지
 
 - [지갑](/using-zcash/wallets) — 거래소에서 출금하기 전에 지갑을 선택하세요
-- [비관리형 거래소](/using-zcash/non-custodial-exchanges) — ZEC를 지원하는 DEX 목록 전체 보기
-- [관리형 거래소](/using-zcash/custodial-exchanges) — ZEC를 지원하는 CEX 목록 전체 보기
-- [보호된 풀](/using-zcash/shielded-pools) — 보호된 출금이 중요한 이유
-- [새로운 사용자 가이드](/start-here/new-user-guide) — 새로운 Zcash 사용자를 위한 완전한 온보딩 체크리스트
+- [비커스터디형 거래소](/using-zcash/non-custodial-exchanges) — ZEC을 지원하는 DEX 전체 목록
+- [수탁형 거래소](/using-zcash/custodial-exchanges) — ZEC을 지원하는 CEX 전체 목록
+- [거래정보 보호 구역](/using-zcash/shielded-pools) — 거래정보 보호 출금이 중요한 이유
+- [신규 사용자 안내서](/start-here/new-user-guide) — 신규 Zcash 사용자를 위한 전체 시작 체크리스트

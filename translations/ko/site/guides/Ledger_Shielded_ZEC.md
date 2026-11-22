@@ -2,106 +2,106 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="페이지 편집"/>
 </a>
 
-# Ledger Shielded ZEC 사용자 가이드
+# Ledger 거래정보 보호 ZEC 사용자 가이드
 
-> Ledger Wallet Desktop에서 Ledger 하드웨어 지갑으로 비공개(shielded) ZEC를 보관하고, 받고, 보내세요.
+> Ledger Wallet Desktop에서 Ledger 하드웨어 지갑으로 비공개(거래정보 보호) ZEC를 보관하고, 받고, 보내세요.
 
 ## 요약
 
-* 2026년 9월 23일부터 Ledger Wallet Desktop에서 차폐된 ZEC를 지원합니다. 하나의 Zcash 계정에 투명 잔액과 Ironwood 풀의 비공개 잔액이 함께 있습니다.
-* 현재는 데스크톱에서만 지원됩니다. 모바일 지원은 "곧 출시 예정"으로 발표되었습니다.
-* Nano S Plus, Nano X, Stax 또는 Flex(기존 Nano S 제외), Ledger Wallet Desktop 4.21 이상, 그리고 최신 Zcash 앱이 필요합니다.
-* **Enable shielded**를 한 번 클릭하세요. Ledger가 뷰잉 키를 내보내 데스크톱 앱이 비공개 자금을 찾을 수 있게 합니다. 지출 키는 절대 기기 밖으로 나가지 않습니다.
-* 가능하면 비공개 주소(u1...)로 받으세요. 투명 잔액의 ZEC를 비공개로 옮길 수는 있지만, 그렇게 하면 두 잔액이 연결됩니다.
-* 모든 송금은 Ledger 화면에서 검토하고 서명합니다. 주소는 그 화면에서 한 글자씩 확인하세요.
+* 2026년 9월 23일부터 Ledger Wallet Desktop에서 거래정보 보호 ZEC를 지원합니다. Zcash 계정 하나에 투명 잔액과 Ironwood 거래정보 보호 구역의 비공개 잔액이 있습니다.
+* 현재는 데스크톱에서만 사용할 수 있습니다. 모바일 지원은 “곧 제공될 예정”이라고 안내되어 있습니다.
+* Nano S Plus, Nano X, Stax 또는 Flex(기존 Nano S 제외), Ledger Wallet Desktop 4.21 이상, 최신 Zcash 앱이 필요합니다.
+* **거래정보 보호 활성화**를 한 번 클릭하면 Ledger에서 viewing key를 내보내 데스크톱 앱이 비공개 자금을 찾을 수 있습니다. spending key는 기기 밖으로 나가지 않습니다.
+* 가능하면 비공개 주소(u1...)로 받으세요. 투명 잔액에서 비공개 잔액으로 ZEC를 옮길 수도 있지만, 이 경우 두 잔액의 연결 관계가 드러납니다.
+* 보낼 때마다 Ledger 화면에서 내용을 검토하고 서명합니다. 해당 화면에서 주소의 각 문자를 하나씩 확인하세요.
 
 ## 핵심 설명
 
-Zcash에는 두 종류의 잔액이 있습니다. 투명 ZEC(t1 주소)은 Bitcoin처럼 작동하며, 금액과 주소가 공개됩니다. 차폐 ZEC는 차폐 풀에 보관되며, 이곳에서는 송신자, 수신자, 금액이 온체인에서 암호화됩니다.
+Zcash에는 두 종류의 잔액이 있습니다. 투명 ZEC(t1 주소)는 Bitcoin과 마찬가지로 금액과 주소가 공개됩니다. 거래정보 보호 ZEC는 거래정보 보호 구역에 보관되며, 송신자와 수신자, 금액이 온체인에서 암호화됩니다.
 
-Ledger는 지출 키를 하드웨어 기기에 보관합니다. 비공개 잔액을 표시하려면 Ledger Wallet Desktop에 Unified Full Viewing Key(UFVK)가 필요합니다. 기기가 이를 한 번 내보내면, 데스크톱 앱은 이를 사용해 블록체인에서 사용자의 차폐(shielded) 노트를 스캔합니다. 뷰잉 키로는 차폐 거래 내역을 볼 수 있지만 자금을 지출할 수는 없습니다. 그래도 비공개 정보로 취급하세요.
+Ledger는 spending key를 하드웨어 기기에 보관합니다. 비공개 잔액을 표시하려면 Ledger Wallet Desktop에 통합 Full Viewing Key(UFVK)가 필요합니다. 기기에서 UFVK를 한 번 내보내면 데스크톱 앱이 이를 사용해 블록체인을 검색하고 거래정보 보호 노트를 찾습니다. viewing key로 거래정보 보호 거래 내역을 볼 수는 있지만 자금을 사용할 수는 없으므로, 비공개 정보로 취급하세요.
 
-아래 단계에서는 Zcash 앱 설치, 계정 추가, 비공개 잔액 활성화, 수신, 투명 ZEC 차폐, 비공개 잔액에서 송금하는 방법을 다룹니다.
+아래 단계에서는 Zcash 앱 설치, 계정 추가, 비공개 잔액 활성화, 받기, 투명 ZEC를 거래정보 보호로 전환하기, 비공개 잔액에서 보내기를 설명합니다.
 
 ## 개요
 
-2026년 9월 23일, Ledger는 Ledger Wallet Desktop에 네이티브 shielded ZEC를 추가했습니다. 이제 하나의 Zcash 계정에서 투명 잔액과 Zcash의 Ironwood 풀에 있는 비공개 잔액을 모두 보유할 수 있습니다. 비공개 키는 Ledger에 그대로 유지되며, 모든 거래는 기기에서 검토 및 서명됩니다.
+2026년 9월 23일, Ledger에서 Ledger Wallet Desktop에 거래정보 보호 ZEC 기능을 기본으로 추가했습니다. 이제 Zcash 계정 하나에 투명 잔액과 Zcash의 Ironwood 거래정보 보호 구역에 있는 비공개 잔액이 보관됩니다. 비공개 키는 Ledger에 보관되며, 모든 거래는 기기에서 검토하고 서명합니다.
 
-**데스크톱 전용.** Ledger의 발표에 따르면 shielded ZEC는 "Ledger Wallet Desktop에서만 사용할 수 있습니다. 현재 모바일 지원은 제공되지 않지만 곧 출시될 예정입니다." 데스크톱 앱에도 동일한 안내가 표시됩니다. 2026년 10월 15일 확인.
+**데스크톱에서만 사용 가능.** Ledger의 안내에 따르면 거래정보 보호 ZEC는 “Ledger Wallet Desktop에서만 사용할 수 있습니다. 현재 모바일 지원은 제공되지 않지만, 곧 제공될 예정입니다.” 데스크톱 앱에도 같은 안내가 표시됩니다. 2026년 10월 15일 확인.
 
-## 준비
+## 준비 사항
 
-- Zcash 앱을 실행하는 Ledger 기기: Nano S Plus, Nano X, Stax 또는 Flex. 현재 Zcash 앱은 기존 Nano S용으로 제작되지 않았습니다.
-- [ledger.com](https://www.ledger.com)에서만 다운로드한 Ledger Wallet Desktop 4.21 이상. 이 가이드에서는 버전 4.24.0을 사용했습니다.
-- Ledger에 설치된 최신 Zcash 앱(이 가이드 작성 당시 3.9.4).
-- 테스트에 사용할 소량의 ZEC. 아래 모든 단계는 메인넷에서 0.001 ZEC로 수행했습니다. 각 거래에는 소액의 네트워크 수수료가 발생합니다(테스트에서는 0.00015 ZEC).
-- 24개 단어 복구 문구는 종이에 보관하세요. 절대 컴퓨터에 입력하거나 공유하지 마세요.
+- Zcash 앱을 실행할 수 있는 Ledger 기기: Nano S Plus, Nano X, Stax 또는 Flex. 현재 Zcash 앱은 기존 Nano S용으로 제작되지 않았습니다.
+- Ledger Wallet Desktop 4.21 이상. [ledger.com](https://www.ledger.com)에서만 다운로드하세요. 이 가이드에서는 버전 4.24.0을 사용했습니다.
+- Ledger에 설치된 최신 Zcash 앱(이 가이드 작성 당시 버전 3.9.4).
+- 테스트에 사용할 소량의 ZEC. 아래 단계는 모두 메인넷에서 0.001 ZEC로 진행했습니다. 각 거래에는 소액의 네트워크 수수료가 듭니다(테스트에서는 0.00015 ZEC).
+- 24단어 복구 문구는 종이에 보관하세요. 컴퓨터에 입력하거나 다른 사람과 공유하지 마세요.
 
 ## 단계별 가이드(Ledger Wallet Desktop)
 
 **1. Zcash 앱 설치 또는 업데이트**
-- Ledger Wallet을 열고 Ledger를 연결 및 잠금 해제한 다음 **My Ledger**를 엽니다. 기기에서 연결을 허용하세요.
-- 앱 카탈로그에서 **Zcash**를 검색한 뒤 **Install**을 클릭합니다. 이미 설치되어 있다면 **Update**를 클릭하세요.
-- Ledger에서 Zcash 앱을 엽니다. 화면에 "Zcash app is ready"라고 표시됩니다. 오른쪽으로 스크롤하여 **App info**에서 버전을 확인하세요.
+- Ledger Wallet을 열고 Ledger를 연결해 잠금 해제한 다음 **내 Ledger**를 여세요. 기기에서 연결을 허용하세요.
+- 앱 카탈로그에서 **Zcash**을 검색한 다음 **설치**를 클릭하세요. 이미 설치되어 있다면 **업데이트**를 클릭하세요.
+- Ledger에서 Zcash 앱을 여세요. 화면에 “Zcash 앱이 준비되었습니다”라고 표시됩니다. 오른쪽으로 스크롤해 **앱 정보**에서 버전을 확인하세요.
 
 **2. Zcash 계정 추가**
-- Ledger Wallet에서 **Add account**를 선택합니다. **Select asset**에서 Zcash를 검색하고 래핑 토큰(예: Binance-Peg Zcash Token)이 아닌 **Zcash (ZEC)**를 선택하세요.
-- Ledger에서 Zcash 앱을 연 상태로 있으면 Ledger Wallet이 계정을 찾습니다. **Select the accounts you want to add** 아래에서 선택하고 **Confirm**을 클릭하세요.
-- 계정 페이지에는 **Available balance**, **Transparent balance**, **Private balance** 및 **Enable shielded** 버튼이 표시됩니다.
+- Ledger Wallet에서 **계정 추가**를 선택하세요. **자산 선택**에서 Zcash를 검색하고 **Zcash(ZEC)**를 선택하세요. Binance-Peg Zcash Token과 같은 래핑된 토큰은 선택하지 마세요.
+- Ledger에서 Zcash 앱을 연 상태로 두면 Ledger Wallet에서 계정을 찾습니다. **추가할 계정 선택** 아래에서 해당 계정을 선택하고 **확인**을 클릭하세요.
+- 계정 페이지에 **사용 가능 잔액**, **투명 잔액**, **비공개 잔액**과 **거래정보 보호 활성화** 버튼이 표시됩니다.
 
-![데스크톱 전용 안내, 투명 잔액과 비공개 잔액, “Enable shielded” 버튼을 표시하는 Ledger Wallet Desktop의 Zcash 계정](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
+![Zcash account in Ledger Wallet Desktop showing the desktop-only notice, transparent and private balances, and the Enable shielded button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-01-account-desktop-only.png)
 
 **3. 비공개 잔액 활성화**
-- **Enable shielded**를 클릭합니다. **Enable Zcash private balance** 창에는 Birthday, UFVK, Device, Confirmation의 네 단계가 있습니다.
-- **Birthday:** 새 계정의 경우 생일 블록 높이를 오늘 날짜로 유지하세요. 과거에 shielded ZEC를 받은 사실을 알고 있는 경우에만 "This account received shielded ZEC in the past"를 선택하세요. 블록 0부터 스캔하면 매우 오래 걸릴 수 있습니다.
-- **UFVK 및 Device:** Ledger Wallet이 Ledger에 Unified Full Viewing Key(UFVK) 내보내기를 요청합니다. 기기 화면을 읽고 승인하세요. "Device connection lost"가 표시되면 Zcash 앱이 열려 있는지 확인하고 신속히 승인한 뒤 **Retry**를 클릭하세요.
-- **UFVK successfully imported**가 표시되면 **Start sync**를 클릭합니다. 동기화가 완료되면 버튼이 "Last sync" 시간이 표시된 **Update balance**로 바뀝니다.
-- 뷰잉 키는 컴퓨터에 유지됩니다. 이 키로 shielded 자금을 찾을 수는 있지만 사용할 수는 없습니다.
+- **거래정보 보호 활성화**를 클릭하세요. **Zcash 비공개 잔액 활성화** 창에는 생일, UFVK, 기기, 확인의 4단계가 표시됩니다.
+- **생일:** 새 계정이라면 생일 블록 높이를 오늘 날짜로 유지하세요. “이 계정은 과거에 거래정보 보호 ZEC를 받았습니다”는 해당 사실을 알고 있는 경우에만 선택하세요. 블록 0부터 검색하면 시간이 오래 걸릴 수 있습니다.
+- **UFVK 및 기기:** Ledger Wallet에서 Ledger에 통합 Full Viewing Key(UFVK)를 내보내도록 요청합니다. 기기 화면을 읽고 승인하세요. “기기 연결이 끊겼습니다”라는 메시지가 표시되면 Zcash 앱이 열려 있는지 확인하고, 신속히 승인한 다음 **다시 시도**를 클릭하세요.
+- **UFVK를 성공적으로 가져왔습니다**가 표시되면 **동기화 시작**을 클릭하세요. 동기화가 완료되면 버튼이 **잔액 업데이트**로 바뀌고 “마지막 동기화” 시간이 표시됩니다.
+- viewing key는 컴퓨터에 보관됩니다. 거래정보 보호 자금을 찾을 수는 있지만 사용할 수는 없습니다.
 
 ![Enable Zcash private balance window showing UFVK successfully imported and the Start sync button](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-02-ufvk-imported.png)
 
-**4. Ledger에서 ZEC를 받고 두 주소를 모두 확인**
-- **Receive**를 클릭하고 Zcash 계정을 선택합니다. Ledger Wallet에는 **Address for Zcash 1**(t1으로 시작하는 투명 주소)과 **Private address for Zcash 1**(u1으로 시작하는 비공개 주소)이 표시됩니다. 이전 주소도 계속 유효합니다.
-- Ledger에는 "Verify Zcash addresses"가 표시되고, 이어서 두 페이지에 걸친 **Private address**, 그다음 **Public Address**가 표시됩니다. 어느 주소를 공유하기 전에 모든 문자를 화면과 비교한 후 기기에서 확인하세요.
-- 비공개 주소를 우선 사용하고, 송금인이 다른 방식을 지원하지 않을 때만 투명 주소를 사용하세요.
+**4. ZEC 받기 및 Ledger에서 두 주소 확인하기**
+- **받기**를 클릭하고 Zcash 계정을 선택하세요. Ledger Wallet에 **Zcash 1의 주소**(투명 주소, t1로 시작)와 **Zcash 1의 비공개 주소**(u1로 시작)가 표시됩니다. 이전 주소도 계속 유효합니다.
+- Ledger에 “Zcash 주소 확인”이 표시됩니다. 이어서 2페이지에 걸쳐 **비공개 주소**, 그 다음 **공개 주소**가 표시됩니다. 주소를 공유하기 전에 화면의 모든 문자를 대조한 다음 기기에서 확인하세요.
+- 비공개 주소를 우선 사용하고, 송신자가 다른 방식을 지원하지 않을 때만 투명 주소를 사용하세요.
 
 ![Ledger Wallet Receive window showing the transparent address and the private address for Zcash 1](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-03-receive-addresses.png)
 
 ![Ledger device screens: Verify Zcash addresses, Private address in two pages, then Public Address](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-04-device-verify-addresses.png)
 
-**5. 투명 ZEC를 비공개 잔액으로 이동**
-- **Send**를 클릭합니다. **Self transfer**에서 **Send to private balance**를 선택하세요.
-- 금액을 입력하거나 25%, 50%, 75% 또는 **Max**를 사용하세요. 네트워크 수수료를 확인한 뒤 **Review**를 클릭합니다.
-- Ledger에서 다음 항목을 차례로 확인하세요. "Review transaction to send ZEC", "Transfer from public to private address", 금액, 두 페이지에 표시되는 출력 주소, 수수료 및 만료 높이. 출력 주소가 4단계의 비공개 주소와 일치하는지 확인한 뒤 **Sign transaction**에서 두 버튼을 모두 누르세요.
-- Ledger Wallet에 **Transaction sent**가 표시됩니다. 거래 세부정보에서 유형은 **Private (Ironwood)**로 표시됩니다.
-- Ledger Wallet은 자체 전송이 shielded 자금과 공개 주소를 연결한다고 안내합니다. 비공개 주소로 직접 받으면 연결되지 않습니다.
+**5. 투명 ZEC를 비공개 잔액으로 옮기기**
+- **보내기**를 클릭하세요. **자체 전송** 아래에서 **비공개 잔액으로 보내기**를 선택하세요.
+- 금액을 입력하거나 25%, 50%, 75% 또는 **최대**를 선택하세요. 네트워크 수수료를 확인한 다음 **검토**를 클릭하세요.
+- Ledger에서 다음 화면을 차례대로 확인하세요. “ZEC 전송 거래 검토”, “공개 주소에서 비공개 주소로 전송”, 금액, 2페이지에 걸쳐 표시되는 출력 주소, 수수료, 만료 블록 높이입니다. 출력 주소가 4단계의 비공개 주소와 일치하는지 확인한 다음 **거래 서명** 화면에서 버튼 2개를 모두 누르세요.
+- Ledger Wallet에 **거래 전송 완료**가 표시됩니다. 거래 세부 정보의 유형은 **비공개(Ironwood)**로 표시됩니다.
+- Ledger Wallet에 따르면 자체 전송은 거래정보 보호 자금을 공개 주소와 연결합니다. 비공개 주소로 바로 받으면 서로 연결되지 않습니다.
 
 ![Send ZEC window in Ledger Wallet with the Self transfer option Send to private balance](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-05-send-to-private-balance.png)
 
 ![Ledger device review screens for moving ZEC from the transparent balance to the private address, ending with Sign transaction and Transaction signed](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-06-device-review-shielding.png)
 
-- 거래가 확인된 후 투명 잔액은 감소하고 비공개 잔액은 증가합니다. 새 shielded 자금은 사용할 만큼 충분한 확인 횟수를 얻을 때까지 "maturing"으로 표시됩니다.
+- 거래가 확인되면 투명 잔액은 줄고 비공개 잔액은 늘어납니다. 새 거래정보 보호 자금은 사용할 수 있을 만큼 충분한 확인을 받을 때까지 “숙성 중”으로 표시됩니다.
 
-![실드 적용 후 Zcash 계정: 투명 잔액이 줄고 비공개 잔액이 늘어나며 성숙 중으로 표시됨](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
+![Zcash account after shielding: transparent balance reduced, private balance increased and shown as maturing](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-07-balances-after-shielding.png)
 
 **6. 비공개 잔액에서 ZEC 보내기**
-- 비공개 잔액을 사용할 수 있게 되면 **Send**를 클릭하고 **Transfer from**을 **Private balance**로 설정합니다.
-- 수신자 주소를 붙여넣고 금액을 입력하세요. 수신자만 읽을 수 있는 최대 512바이트의 암호화된 **Memo (optional)**를 추가할 수 있습니다.
-- Ledger에서 수신자, 금액 및 수수료를 검토한 다음 **Sign transaction**에서 두 버튼을 모두 누르세요.
+- 비공개 잔액을 사용할 수 있게 되면 **보내기**를 클릭하고 **보내는 잔액**을 **비공개 잔액**으로 설정하세요.
+- 수신자 주소를 붙여넣고 금액을 입력하세요. 수신자만 읽을 수 있는 암호화된 **메모(선택 사항)**를 최대 512바이트까지 추가할 수 있습니다.
+- Ledger에서 수신자, 금액, 수수료를 확인한 다음 **거래 서명** 화면에서 버튼 2개를 모두 누르세요.
 
 ![Sent transaction from the private balance in Ledger Wallet transaction details](https://raw.githubusercontent.com/ZecHub/zechub/main/site/guides/assets/ledger-zec-08-private-send.png)
 
 ## 알아두면 좋은 점
 
-- Ledger에서 shielded ZEC는 현재 데스크톱 전용입니다(2026년 10월 15일 확인).
-- Ledger Wallet의 비공개 잔액은 Ironwood 풀을 사용합니다.
-- Ledger는 세무 자문가와 거래 내역에 대한 읽기 전용 접근 권한을 공유할 수 있다고 말합니다. 뷰잉 키를 가진 사람은 누구나 shielded 내역을 볼 수 있으므로, 의도한 경우에만 공유하세요.
-- 이 가이드의 기기 화면은 Ledger의 Speculos 에뮬레이터(Nano S Plus)에서 Zcash 앱 3.9.4를 실행하고, Zcash 메인넷에서 Ledger Wallet Desktop 4.24.0에 연결하여 캡처했습니다. 실제 Ledger도 동일한 앱을 실행하며 같은 화면을 표시합니다.
+- Ledger의 거래정보 보호 ZEC는 현재 데스크톱에서만 사용할 수 있습니다(2026년 10월 15일 확인).
+- Ledger Wallet의 비공개 잔액은 Ironwood 거래정보 보호 구역을 사용합니다.
+- Ledger에 따르면 세무 자문가와 거래 내역에 대한 읽기 전용 접근 권한을 공유할 수 있습니다. viewing key가 있으면 누구나 거래정보 보호 거래 내역을 볼 수 있으므로, 의도한 경우에만 공유하세요.
+- 이 가이드의 기기 화면은 Ledger의 Speculos 에뮬레이터(Nano S Plus)에서 Zcash 앱 3.9.4를 실행해 캡처했습니다. Zcash 메인넷에서 Ledger Wallet Desktop 4.24.0에 연결했습니다. 실제 Ledger에서도 같은 앱이 실행되며 화면도 동일하게 표시됩니다.
 
 ## 추가 도움말
 
-- [Ledger Wallet의 새로운 기능: 네이티브 Shielded Zcash 지원](https://www.ledger.com/blog-native-shielded-zcash-support)(Ledger의 발표)
+- [Ledger Wallet의 새로운 기능: 기본 거래정보 보호 Zcash 지원](https://www.ledger.com/blog-native-shielded-zcash-support)(Ledger의 안내)
 - [Ledger 도움말 센터](https://support.ledger.com)
-- [ZecHub Wallets 페이지](/using-zcash/wallets)
-- ZecHub의 [Shielded Pools](/using-zcash/shielded-pools) 및 [Viewing Keys](/zcash-tech/viewing-keys)
-- 또 다른 하드웨어 지갑 옵션: [Keystone Zashi 사용자 가이드](/guides/keystone-zashi)
+- [ZecHub 지갑 페이지](/using-zcash/wallets)
+- [거래정보 보호 구역](/using-zcash/shielded-pools) 및 [Viewing Keys](/zcash-tech/viewing-keys)(ZecHub)
+- 다른 하드웨어 지갑 옵션: [Keystone Zashi 사용자 가이드](/guides/keystone-zashi)
