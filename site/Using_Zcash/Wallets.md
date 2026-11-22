@@ -28,8 +28,8 @@
 
 ## [Dizzy](https://forum.zcashcommunity.com/t/dizzy-wallet-a-dedicated-zcash-wallet-for-discord/43988)
 ![logo](/content-images/wallets/dizzy.webp "Dizzy")
-- Devices: Mobile | Desktop
-- Operating System: Android | iOS | Windows | Linux | macOS
+- Devices: Mobile | Desktop | Web
+- Operating System: Android | iOS | Windows | Linux | macOS | Browser
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Sapling | Orchard | Ironwood
 - Features: Discord Bot
@@ -262,8 +262,8 @@
 
 ## [Coinomi](https://www.coinomi.com/)
 ![logo](/content-images/wallets/coinomi.webp "Coinomi")
-- Devices: Mobile
-- Operating System: Android | iOS
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin
@@ -300,7 +300,7 @@
 ## [Safepal](https://safepal.com)
 ![logo](/content-images/wallets/safepal.webp "Safepal")
 - Source Code: https://github.com/SafePalWallet/safepal-app
-- Devices: Mobile | Web
+- Devices: Mobile | Web | Hardware
 - Operating System: Android | iOS | Browser
 - Wallet Support: Seed Phrase | Hardware
 - Pools: Transparent
@@ -364,8 +364,8 @@
 ## [LeoDex](https://leodex.io/)
 ![logo](/content-images/wallets/leodex.webp "LeoDex")
 - Source Code: https://github.com/steemleo/leodex-shielded
-- Devices: Desktop | Web
-- Operating System: Windows | Linux | macOS | Browser
+- Devices: Mobile | Desktop | Web
+- Operating System: iOS | Windows | Linux | macOS | Browser
 - Wallet Support: Seed Phrase | Unified Address
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Coin | NEAR Intents
@@ -417,8 +417,8 @@
 ## [Nozy Wallet](https://www.nozywallet.com/)
 ![logo](/content-images/wallets/nozy-wallet.webp "Nozy Wallet")
 - Source Code: https://github.com/LEONINE-DAO/Nozy-wallet
-- Devices: Desktop | Web
-- Operating System: Windows | Linux | macOS | Browser
+- Devices: Mobile | Desktop | Web
+- Operating System: iOS | Windows | Linux | macOS | Browser
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node | 24-Word Seed Phrase
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
@@ -471,8 +471,8 @@
 
 ## [Freedom Wallet](https://www.freedomwallet.com/)
 ![logo](/content-images/wallets/freedom-wallet.webp "Freedom Wallet")
-- Devices: Mobile
-- Operating System: Android | iOS
+- Devices: Mobile | Desktop
+- Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase
 - Pools: Transparent
 - Features: Multi Coin | Swaps
@@ -498,7 +498,7 @@
 ## [Laurel](https://laurel.cash/)
 ![logo](/content-images/wallets/Laurel.webp "Laurel Wallet") 
 - Source Code: https://github.com/laurel-cash/laurel
-- Devices: Mobile
+- Devices: Mobile | Desktop
 - Operating System: Android | Windows | Linux
 - Wallet Support: 24-Word Seed Phrase | Wallet Import | Offline Signing | Viewing Keys
 - Pools: Transparent | Sapling | Orchard | Ironwood
@@ -512,8 +512,8 @@
 ## [Veylor](https://veylor.cash/)
 ![logo](/content-images/wallets/Veylor.webp "Veylor Wallet") 
 - Source Code: https://github.com/ChinmayGopal931/vizor-fork
-- Devices: Mobile
-- Operating System: iOS | Android
+- Devices: Mobile | Desktop
+- Operating System: iOS | Android | Linux
 - Wallet Support: Seed Phrase | Self-Custody | Keystone | Ledger | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | RAILGUN (0zkUSDC)
 - Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Hardware | Voting
@@ -540,8 +540,8 @@
 ## [Leek](https://zcash.leekwallet.xyz/)
 ![logo](/content-images/wallets/leek.webp "Leek")
 - Source Code: https://github.com/0xOucan/leekwallet-zcash
-- Devices: Hardware | Mobile | Desktop
-- Operating System: Android | Windows | Linux | macOS
+- Devices: Mobile | Desktop | Web | Hardware
+- Operating System: Android | Windows | Linux | macOS | Browser
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | Leek
 - Pools: Transparent | Orchard | Ironwood
 - Features: Address Check | NEAR Intents | Offline Signing | Shielded Memo | Testnet Support
