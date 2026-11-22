@@ -173,7 +173,7 @@
 ## [Brave](https://brave.com/wallet/)
 ![logo](/content-images/wallets/brave.webp "Brave")
 - Source Code: https://github.com/brave/brave-core
-- Devices: Web
+- Devices: Desktop
 - Operating System: Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Unified Address | 12-Word Seed Phrase
 - Pools: Transparent | Ironwood
@@ -351,7 +351,7 @@
 ## [Noir wallet](https://www.zknoir.com/)
 ![logo](/content-images/wallets/noir-wallet.webp "Noir")
 - Source Code: https://github.com/NoirWallet/noir-wallet
-- Devices: Web | Desktop
+- Devices: Web
 - Operating System: Browser
 - Wallet Support: Seed Phrase | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
