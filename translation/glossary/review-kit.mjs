@@ -25,12 +25,13 @@
 import { execFileSync } from "node:child_process";
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, dirname, join, resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
 import { canonical, formatError, validateLocale } from "./lib/glossary.mjs";
 import { computeEvidence, exportKit, importKit, renderReport, serializeGlossary } from "./lib/review-kit.mjs";
 import { siteDirectories } from "./validate.mjs";
 
-const root = new URL("../../", import.meta.url).pathname;
+const root = fileURLToPath(new URL("../../", import.meta.url));
 const dir = join(root, "translation/glossary");
 
 function die(message) {
