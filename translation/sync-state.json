@@ -25148,10 +25148,10 @@
     },
     "Glossary_and_FAQs/ZecHub_Hackathon_Builders_Guide.md": {
       "src": "sha256:c13a3922a4d3368d43e44b7eabccaf186935c0ac1f6e458f6fad14244aeb0120",
-      "src_commit": "54589f386caf9c657b85a0541e5503dfd25be1fb",
+      "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "gpt-5.4",
+      "tool": "nearai/openai/gpt-6-luna+handfix+glossary-v2",
       "edited": false
     },
     "Privacy_Tools/2FA_Hardware_Devices.md": {
@@ -25316,10 +25316,10 @@
     },
     "Research/ZK_Shielded_Asset_Platforms.md": {
       "src": "sha256:b63073bac9cf295a9c5be7ffa3573d108721ebffc641f30eb5039a624c3fd66f",
-      "src_commit": "f58c7f5fce1df21e8c4b1fb3e2df99ca30e12d79",
+      "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "claude-opus-5-5",
+      "mode": "full",
+      "tool": "nearai/openai/gpt-6-luna+handfix+glossary-v2",
       "edited": false
     },
     "Research/confidentiality-compared.md": {
@@ -25420,10 +25420,10 @@
     },
     "Start_Here/Developer_Resources.md": {
       "src": "sha256:8437414a5ac90c4459e01cece2516040e1f35c4aca7dad31c1b780c3da46a2cd",
-      "src_commit": "2a0efe929f35ee6935ca4cc78b9d14a996d854c6",
+      "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
-      "mode": "diff",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "mode": "full",
+      "tool": "nearai/openai/gpt-6-luna+handfix+glossary-v2",
       "edited": false
     },
     "Start_Here/Development_Fund.md": {
@@ -25660,10 +25660,10 @@
     },
     "Using_Zcash/Spend_Zcash/Top_10_Places_to_spend_ZEC.md": {
       "src": "sha256:a589f9b582fc5f08f8e485136ba3ff72c7ed1a3647146f7d202fb93a75e111c5",
-      "src_commit": "908304c900d3767bb6b240fde919c0667ba75ef8",
+      "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "nearai/openai/gpt-6-luna+handfix+glossary-v2",
       "edited": false
     },
     "Using_Zcash/Testnet.md": {
@@ -26572,10 +26572,10 @@
     },
     "contribute/Contributing_Guide.md": {
       "src": "sha256:505e09ee91fa06780ac39513bf493ea7917cb4f1f66b41050837a99436ff6440",
-      "src_commit": "1016455f585ca46eda1781a8114b34dcd0028942",
+      "src_commit": "87b66b99d6117f5ed8bbb4c2f8589a63cf45362e",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+handfix",
+      "tool": "nearai/openai/gpt-6-luna+glossary-v2",
       "edited": false
     },
     "contribute/Help_build_ZecHub.md": {
