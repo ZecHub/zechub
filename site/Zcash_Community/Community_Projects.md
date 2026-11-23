@@ -252,6 +252,11 @@ Network test suite for zcashd and Zebra developers. Includes a Zcash crawler.
 Linux-first toolkit that brings up a Zebra regtest network with faucet, Unified Address fixtures, and lightwalletd or Zaino, plus reusable GitHub Actions for shielded end-to-end flows.  
 [Visit](https://github.com/zecdev)
 
+### Applied Zcash
+Community reference for building apps on Zcash with today's consensus rules: patterns made from shielded notes, memos and keys, such as payment links, watch-only keys, bound notes, wallet-native orders and log in with Zcash. Each pattern has its mechanism, cost, spec and a live demo.  
+[Visit](https://appliedzcash.com/)  
+[GitHub](https://github.com/appliedzcash/appliedzcash.com)
+
 ### Zebra Coverage-Guided Fuzzing Infrastructure
 Systematic testing of Zebra's parsing, networking, and cryptographic components against malformed inputs.  
 [Forum](https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/234)
@@ -264,10 +269,6 @@ Threshold signature scheme (FROST) work being advanced for broader adoption in t
 Open-source performance-testing project that evaluates different methods of synchronizing Zcash blockchain data.  
 [Visit](https://github.com/openkoder/benchmarks_zcash/)
 
-### Applied Zcash
-Community reference for building apps on Zcash with today's consensus rules: patterns made from shielded notes, memos and keys, such as payment links, watch-only keys, bound notes, wallet-native orders and log in with Zcash. Each pattern has its mechanism, cost, spec and a live demo.  
-[Visit](https://appliedzcash.com/)  
-[GitHub](https://github.com/appliedzcash/appliedzcash.com)
 
 ---
 
