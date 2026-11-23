@@ -17,6 +17,8 @@ Because the ZIPs are maintained as text files in a versioned repository, their r
 
 -> [zips.z.cash](https://zips.z.cash)
 
+-> [zipreader.org](https://zipreader.org/), an unofficial reader for the same ZIPs: filter them by status, category and network upgrade, and follow drafts, open pull requests, implementations and upgrade timelines.
+
 
 ## ZIP Editors
 

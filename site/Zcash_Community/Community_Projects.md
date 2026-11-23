@@ -264,6 +264,10 @@ Threshold signature scheme (FROST) work being advanced for broader adoption in t
 Open-source performance-testing project that evaluates different methods of synchronizing Zcash blockchain data.  
 [Visit](https://github.com/openkoder/benchmarks_zcash/)
 
+### zipreader
+Unofficial reader for the Zcash Improvement Proposals (ZIPs): every ZIP rendered and searchable by status, category and network upgrade, plus drafts, open pull requests, implementations and network upgrade timelines. In English and Spanish.  
+[Visit](https://zipreader.org/)
+
 ---
 
 ## Wider Applications Utilizing Zcash
