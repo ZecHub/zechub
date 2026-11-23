@@ -16,6 +16,7 @@ We intend ZIPs to be the primary mechanism for proposing new features, for colle
 Because the ZIPs are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
 
 -> [zips.z.cash](https://zips.z.cash)
+-> [zipreader](https://www.zipreader.org/) — community ZIP browser with search, drafts, new PRs and upgrade tracking
 
 
 ## ZIP Editors
