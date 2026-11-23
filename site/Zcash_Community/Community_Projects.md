@@ -264,6 +264,11 @@ Threshold signature scheme (FROST) work being advanced for broader adoption in t
 Open-source performance-testing project that evaluates different methods of synchronizing Zcash blockchain data.  
 [Visit](https://github.com/openkoder/benchmarks_zcash/)
 
+### Applied Zcash
+Community reference for building apps on Zcash with today's consensus rules: patterns made from shielded notes, memos and keys, such as payment links, watch-only keys, bound notes, wallet-native orders and log in with Zcash. Each pattern has its mechanism, cost, spec and a live demo.  
+[Visit](https://appliedzcash.com/)  
+[GitHub](https://github.com/appliedzcash/appliedzcash.com)
+
 ---
 
 ## Wider Applications Utilizing Zcash
