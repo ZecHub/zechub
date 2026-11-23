@@ -5,7 +5,7 @@
 - Source Code: https://github.com/zodl-inc
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | 24-Word Seed Phrase
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | Keystone | Ledger | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting | OHTTP
 - NU7: Compatible
@@ -95,7 +95,7 @@
 - Source Code: https://github.com/hhanh00/zkool2
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | Ledger
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Rotation | Encrypted Backup | Multisig - FROST | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - Nym Mixnet: Supported
@@ -214,7 +214,7 @@
 - Source Code: https://github.com/anoma/zillions
 - Devices: Web
 - Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Keystone | Ledger
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
 - NU7: Compatible
@@ -252,7 +252,7 @@
 ![logo](/content-images/wallets/exodus.webp "Exodus")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Hardware
+- Wallet Support: Seed Phrase | Hardware | Trezor
 - Pools: Transparent
 - Features: Multi Coin | Swaps
 - NU7: Not Ready
@@ -302,7 +302,7 @@
 - Source Code: https://github.com/SafePalWallet/safepal-app
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
-- Wallet Support: Seed Phrase | Hardware
+- Wallet Support: Seed Phrase | Hardware | Ledger
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
@@ -340,7 +340,7 @@
 - Source Code: https://github.com/chainapsis/vizor-wallet
 - Devices: Desktop | Mobile
 - Operating System: Windows | macOS | Linux | Android | iOS
-- Wallet Support: Seed Phrase | Unified Address | Hardware | 24-Word Seed Phrase
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Keystone | Ledger | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
 - NU7: Compatible
@@ -353,7 +353,7 @@
 - Source Code: https://github.com/NoirWallet/noir-wallet
 - Devices: Web | Desktop
 - Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Keystone | Ledger
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names | Voting
 - NU7: Compatible
