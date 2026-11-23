@@ -276,7 +276,7 @@
 ![logo](/content-images/wallets/keystone.webp "Keystone")
 - Source Code: https://github.com/KeystoneHQ/keystone3-firmware/releases
 - Devices: Hardware
-- Wallet Support: Hardware | Unified Address
+- Wallet Support: Hardware | Keystone | Unified Address
 - Pools: Transparent | Orchard | Ironwood
 - Features: Multi Coin | Voting
 - NU7: Compatible
@@ -289,7 +289,7 @@
 - Source Code: https://github.com/LedgerHQ/app-zcash
 - Devices: Hardware
 - Operating System: Windows | macOS | Linux | Android | iOS
-- Wallet Support: Hardware
+- Wallet Support: Hardware | Ledger
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
 - NU7: Compatible
@@ -302,7 +302,7 @@
 - Source Code: https://github.com/SafePalWallet/safepal-app
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
-- Wallet Support: Seed Phrase | Hardware | Ledger
+- Wallet Support: Seed Phrase | Hardware | Ledger | SafePal
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
@@ -314,7 +314,7 @@
 ![logo](/content-images/wallets/trezor.webp "Trezor")
 - Source Code: https://github.com/trezor/trezor-firmware
 - Devices: Hardware
-- Wallet Support: Hardware
+- Wallet Support: Hardware | Trezor
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
