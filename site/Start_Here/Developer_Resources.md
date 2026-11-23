@@ -76,7 +76,7 @@ For the cryptography underneath, read [The halo2 Book](https://zcash.github.io/h
 
 Testnet is a separate chain with valueless coins, called TAZ. Both Zebra and Zakura can run against it, and the [testnet guide](https://zcash.readthedocs.io/en/latest/rtd_pages/testnet_guide.html) covers node configuration.
 
-[testnet.zcashexplorer.app](https://testnet.zcashexplorer.app/) is a working testnet block explorer, with a mainnet counterpart at [mainnet.zcashexplorer.app](https://mainnet.zcashexplorer.app/).
+[testnet.zecblock.com](https://testnet.zecblock.com/) is a working testnet block explorer from ZecBlock (formerly CipherScan), with a mainnet counterpart at [zecblock.com](https://zecblock.com/). Its testnet [REST API](https://api.testnet.cipherscan.app/api/blocks) and lightwalletd endpoint (`lightwalletd.testnet.cipherscan.app:443`) are listed in the [ZecBlock README](https://github.com/Kenbak/zecblock#testnet).
 
 Getting TAZ is the awkward part, because the faucets linked from older documentation have stopped responding. [zcashfaucet.jinolabs.xyz](https://zcashfaucet.jinolabs.xyz) is a community-run faucet that runs "its own node, wallet and miner", pays "shielded z2z drips", and gates claims with "browser proof of work instead of a captcha vendor". It is open source under MIT. If it is unavailable, ask in the Zcash R&D Discord, which is what the Zcash documentation itself suggests.
 
