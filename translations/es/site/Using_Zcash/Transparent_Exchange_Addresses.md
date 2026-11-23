@@ -9,7 +9,7 @@
 * Una dirección TEX es una dirección transparente de Zcash escrita en un formato diferente. Empieza con `tex1` y se define en [ZIP 320](https://zips.z.cash/zip-0320).
 * Le indica una cosa a tu billetera: paga esta dirección solo con fondos transparentes.
 * Si tu saldo está blindado, una billetera compatible realiza dos pasos por ti. Mueve el importe a una dirección transparente temporal y luego lo envía a la dirección TEX.
-* En 2023, Binance pidió a la comunidad de Zcash una forma de rechazar depósitos blindados y devolverlos. Las direcciones TEX son la respuesta, y Binance es el exchange de la lista de ZecHub [Exchanges custodios](/using-zcash/custodial-exchanges) que acepta depósitos TEX.
+* En 2023, Binance pidió a la comunidad de Zcash una forma de rechazar depósitos blindados y devolverlos. Las direcciones TEX son la respuesta. Consulta la lista de [Exchanges custodios de ZecHub](/using-zcash/custodial-exchanges).
 * El soporte también ha crecido en el lado de los envíos: Coinbase permite a sus usuarios enviar ZEC a direcciones TEX, y los kits de herramientas de billeteras han ido añadiendo soporte para ZIP 320.
 * Un pago a una dirección TEX es público en la blockchain, como cualquier pago transparente. El resto de tu saldo blindado permanece privado.
 
@@ -42,7 +42,7 @@ Ciertas billeteras no permiten enviar directamente a una dirección transparente
 
 #### Necesitas una dirección TEX cuando envías fondos a un exchange centralizado que exige que esos fondos procedan de una fuente transparente.
 
-[Binance](https://www.binance.com/) es la razón por la que existen las direcciones TEX. En noviembre de 2023, informó a la comunidad de Zcash que ZEC podría ser excluido de la lista a menos que existiera una forma de rechazar depósitos provenientes de direcciones blindadas y devolverlos al depositante ([ZIP 320, Antecedentes](https://zips.z.cash/zip-0320#background)). ZIP 320 no espera que otros exchanges emitan direcciones TEX, a menos que necesiten saber de qué dirección procedía un pago. Binance es el exchange de nuestra lista de [Exchanges custodios](/using-zcash/custodial-exchanges) que acepta depósitos a una dirección TEX.
+[Binance](https://www.binance.com/) es la razón por la que existen las direcciones TEX. En noviembre de 2023, informó a la comunidad de Zcash que ZEC podría ser excluido de la lista a menos que existiera una forma de rechazar depósitos provenientes de direcciones blindadas y devolverlos al depositante ([ZIP 320, Antecedentes](https://zips.z.cash/zip-0320#background)). Consulta [Exchanges custodios](/using-zcash/custodial-exchanges) para ver qué exchanges aceptan depósitos TEX.
 Las direcciones TEX informan a una billetera compatible de que todos los fondos enviados a esa dirección deben ser transparentes y excluyen el envío de cualquier valor blindado a dicha dirección.
 Si un exchange como Binance rechaza el valor enviado, dispone de los medios necesarios para devolver ese valor a la dirección de la que procedía. También ayuda a entidades como Binance a cumplir las leyes y regulaciones impuestas por gobiernos u otras autoridades.
 
