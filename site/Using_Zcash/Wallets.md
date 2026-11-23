@@ -379,7 +379,7 @@
 - Source Code: https://github.com/ZLabcash/zapp
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Orchard | Ironwood | RAILGUN (0zkUSDC)
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
 - NU7: Compatible
@@ -486,7 +486,7 @@
 - Source Code: https://github.com/rotkonetworks/zafu/
 - Devices: Web
 - Operating System: Windows | macOS | Linux
-- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | Self-Custody | Unified Address | Keystone | 24-Word Seed Phrase | 12-Word Seed Phrase
+- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | Self-Custody | Unified Address | Hardware | Keystone | 24-Word Seed Phrase | 12-Word Seed Phrase
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
 - Features: Address Book | Automatic Shielding | Cross-Chain Bridge | DApp Connections | Encrypted Backup | Fiat Off-ramp | Multi Coin | Shielded Transactions | Shielded USDC | Swaps | Multisig - FROST | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments | Reproducible Build
 - Nym Mixnet: Supported
