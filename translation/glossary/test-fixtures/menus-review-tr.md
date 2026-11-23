@@ -24,342 +24,342 @@ No conflicts.
 
 | # | ID | English | Turkish | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | navigation.wallets | Wallets | Cüzdanlar |  |  |
-| 2 | navigation.guides | Guides | Rehberler |  |  |
-| 3 | navigation.tutorials | Tutorials | Eğitmenler |  |  |
-| 4 | navigation.governance | Governance | Yönetişim |  |  |
-| 5 | navigation.visualizer | Visualizer | Görselleştirici |  |  |
-| 6 | navigation.dao | DAO | DAO |  |  |
-| 7 | navigation.newsletter | Newsletter | Bülten |  |  |
-| 8 | navigation.donate | Donate | Kan Bağışla |  |  |
-| 9 | navigation.explore | Explore | Keşfet |  |  |
-| 10 | navigation.developers | Developers | Geliştiriciler |  |  |
-| 11 | navigation.community | Community | Topluluk |  |  |
-| 12 | navigation.contribute | Contribute | Katkıda Bulun |  |  |
-| 13 | navigation.dashboard | Dashboard | Gösterge Paneli |  |  |
-| 14 | navigation.more | More | Daha Fazla |  |  |
-| 15 | navigation.usingZcash.label | Use Zcash | Zcash Kullan |  |  |
-| 16 | navigation.usingZcash.buyingZec | Buying ZEC | ZEC Satın Alma |  |  |
-| 17 | navigation.usingZcash.faucets | Faucets | Faucet'ler |  |  |
-| 18 | navigation.usingZcash.wallets | Wallets | Cüzdanlar |  |  |
-| 19 | navigation.usingZcash.exchanges | Exchanges | Borsalar |  |  |
-| 20 | navigation.usingZcash.blockExplorers | Block Explorers | Blok Gezginleri |  |  |
-| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | Korumalı Havuzlar |  |  |
-| 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | Şeffaf Borsa Adresleri |  |  |
-| 23 | navigation.usingZcash.transactions | Transactions | İşlemler |  |  |
-| 24 | navigation.usingZcash.memos | Memos | Notlar |  |  |
-| 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | Mobil Bakiye Yüklemeleri |  |  |
-| 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Ödeme Talep URI'leri |  |  |
-| 27 | navigation.usingZcash.paymentProcessors | Payment Processors | Ödeme İşlemcileri |  |  |
-| 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | Fonları Kurtarma |  |  |
-| 29 | navigation.usingZcash.tools | Tools | Araçlar |  |  |
-| 30 | navigation.usingZcash.useCases | Use Cases | Kullanım Alanları |  |  |
-| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Buradan Başlayın |  |  |
-| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Ödeme Kabul Et |  |  |
-| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Serbest Çalışan Gizliliği |  |  |
-| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Gazeteci Gizliliği |  |  |
-| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Kayıt Tutma |  |  |
-| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Özel Topluluk Hazinesi |  |  |
-| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Bağışlar |  |  |
-| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Parayı Özel Olarak Gönder |  |  |
-| 39 | navigation.zcashCommunity.label | Ecosystem | Ekosistem |  |  |
-| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | Topluluk Blogları |  |  |
-| 41 | navigation.zcashCommunity.communityLinks | Community Links | Topluluk Bağlantıları |  |  |
-| 42 | navigation.zcashCommunity.communityForum | Community Forum | Topluluk Forumu |  |  |
-| 43 | navigation.zcashCommunity.communityProjects | Community Projects | Topluluk Projeleri |  |  |
-| 44 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash Medyası |  |  |
-| 45 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash Podcast'leri |  |  |
-| 46 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Zcash Ekosistemi Menkul Kıymetleri |  |  |
-| 47 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
-| 48 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon Arşivi |  |  |
-| 49 | navigation.organizations.label | Organizations | Organizasyonlar |  |  |
-| 50 | navigation.organizations.brand | Brand | Marka |  |  |
-| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | CoinHolder Yönlendirmeli Geriye Dönük Hibeler |  |  |
-| 52 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo Ödeme İşlemcisi |  |  |
-| 53 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Canlı |  |  |
-| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN |  |  |
-| 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | DeFi'de ZEC Kullanımı |  |  |
-| 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC'i Özel Olarak Kullanma |  |  |
-| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü |  |  |
-| 58 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 59 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Düğümü |  |  |
-| 60 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network |  |  |
-| 61 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
-| 62 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig |  |  |
-| 63 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST Demosu |  |  |
-| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain Gezginleri |  |  |
-| 65 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer Eklentisi |  |  |
-| 66 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Zcash Ağını Görselleştirme |  |  |
-| 67 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash Adreslerini Görselleştirme |  |  |
-| 68 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash İyileştirme Önerileri |  |  |
-| 69 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib ve Zaino Eğitimi |  |  |
-| 70 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith Kurulumu |  |  |
-| 71 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Sıfır Bilgi ve Aldatmaca Sistemleri |  |  |
-| 72 | navigation.overview | Overview | Genel Bakış |  |  |
-| 73 | navigation.shop | Shop | Mağaza |  |  |
+| 1 | navigation.wallets | Wallets | Cüzdanlar | OK |  |
+| 2 | navigation.guides | Guides | Rehberler | OK |  |
+| 3 | navigation.tutorials | Tutorials | Eğitmenler | Eğitimler | This top-level header label names learning material, not people who teach; “Eğitmenler” should therefore be normalized to “Eğitimler”. |
+| 4 | navigation.governance | Governance | Yönetişim | OK |  |
+| 5 | navigation.visualizer | Visualizer | Görselleştirici | OK |  |
+| 6 | navigation.dao | DAO | DAO | OK |  |
+| 7 | navigation.newsletter | Newsletter | Bülten | OK |  |
+| 8 | navigation.donate | Donate | Kan Bağışla | Bağış yapın | The destination accepts financial contributions; “kan bağışla” incorrectly narrows the action to donating blood. |
+| 9 | navigation.explore | Explore | Keşfet | OK |  |
+| 10 | navigation.developers | Developers | Geliştiriciler | OK |  |
+| 11 | navigation.community | Community | Topluluk | OK |  |
+| 12 | navigation.contribute | Contribute | Katkıda Bulun | OK |  |
+| 13 | navigation.dashboard | Dashboard | Gösterge Paneli | OK |  |
+| 14 | navigation.more | More | Daha Fazla | OK |  |
+| 15 | navigation.usingZcash.label | Use Zcash | Zcash Kullan | OK |  |
+| 16 | navigation.usingZcash.buyingZec | Buying ZEC | ZEC Satın Alma | OK |  |
+| 17 | navigation.usingZcash.faucets | Faucets | Faucet'ler | Faucetler | The Use Zcash header submenu keeps the recognizable crypto loanword, but its Turkish plural suffix takes no apostrophe. |
+| 18 | navigation.usingZcash.wallets | Wallets | Cüzdanlar | OK |  |
+| 19 | navigation.usingZcash.exchanges | Exchanges | Borsalar | OK |  |
+| 20 | navigation.usingZcash.blockExplorers | Block Explorers | Blok Gezginleri | OK |  |
+| 21 | navigation.usingZcash.shieldedPools | Shielded Pools | Korumalı Havuzlar | OK |  |
+| 22 | navigation.usingZcash.transparentExchangeAddresses | Transparent Exchange Addresses | Şeffaf Borsa Adresleri | OK |  |
+| 23 | navigation.usingZcash.transactions | Transactions | İşlemler | OK |  |
+| 24 | navigation.usingZcash.memos | Memos | Notlar | Memolar | The Use Zcash header submenu refers to Zcash transaction memos, not ordinary written notes; “Memolar” keeps them distinct from Zcash notes. |
+| 25 | navigation.usingZcash.mobileTopUps | Mobile Top Ups | Mobil Bakiye Yüklemeleri | OK |  |
+| 26 | navigation.usingZcash.paymentRequestUris | Payment Request URIs | Ödeme Talep URI'leri | Ödeme talebi URI'leri | “Ödeme talebi” is the correct Turkish noun compound for a URI that encodes a payment request; “ödeme talep” is not grammatical. |
+| 27 | navigation.usingZcash.paymentProcessors | Payment Processors | Ödeme İşlemcileri | Ödeme işleyicileri | In the Use Zcash header submenu, “işleyici” is the established software/service noun and matches the translated page title. |
+| 28 | navigation.usingZcash.recoveringFunds | Recovering Funds | Fonları Kurtarma | OK |  |
+| 29 | navigation.usingZcash.tools | Tools | Araçlar | OK |  |
+| 30 | navigation.usingZcash.useCases | Use Cases | Kullanım Alanları | OK |  |
+| 31 | navigation.usingZcash.useCasesSubmenu.startHere | Start Here | Buradan Başlayın | OK |  |
+| 32 | navigation.usingZcash.useCasesSubmenu.acceptPayments | Accept Payments | Ödeme Kabul Et | OK |  |
+| 33 | navigation.usingZcash.useCasesSubmenu.freelancePrivacy | Freelance Privacy | Serbest Çalışan Gizliliği | Serbest çalışanlar için gizlilik | The page addresses privacy for freelance workers, so “Serbest çalışanlar için gizlilik” states the intended audience rather than treating freelance as an adjective for privacy. |
+| 34 | navigation.usingZcash.useCasesSubmenu.journalistPrivacy | Journalist Privacy | Gazeteci Gizliliği | Gazeteciler için gizlilik | The page addresses privacy for journalists generally; the plural audience form “Gazeteciler için gizlilik” is clearer than the compressed singular compound. |
+| 35 | navigation.usingZcash.useCasesSubmenu.keepingRecords | Keeping Records | Kayıt Tutma | OK |  |
+| 36 | navigation.usingZcash.useCasesSubmenu.privateCommunityTreasury | Private Community Treasury | Özel Topluluk Hazinesi | OK |  |
+| 37 | navigation.usingZcash.useCasesSubmenu.donations | Donations | Bağışlar | OK |  |
+| 38 | navigation.usingZcash.useCasesSubmenu.sendMoneyPrivately | Send Money Privately | Parayı Özel Olarak Gönder | Gizliliğinizi koruyarak para gönderin | Here “privately” means protecting transaction privacy, not sending money in a personal/private manner; “Gizliliğinizi koruyarak” preserves that distinction. |
+| 39 | navigation.zcashCommunity.label | Ecosystem | Ekosistem | OK |  |
+| 40 | navigation.zcashCommunity.communityBlogs | Community Blogs | Topluluk Blogları | OK |  |
+| 41 | navigation.zcashCommunity.communityLinks | Community Links | Topluluk Bağlantıları | OK |  |
+| 42 | navigation.zcashCommunity.communityForum | Community Forum | Topluluk Forumu | OK |  |
+| 43 | navigation.zcashCommunity.communityProjects | Community Projects | Topluluk Projeleri | OK |  |
+| 44 | navigation.zcashCommunity.zcashMedia | Zcash Media | Zcash Medyası | OK |  |
+| 45 | navigation.zcashCommunity.zcashPodcasts | Zcash Podcasts | Zcash Podcast'leri | Zcash podcastleri | Podcast is a common noun in this phrase, so its Turkish plural suffix is attached without an apostrophe: “Zcash podcastleri”. |
+| 46 | navigation.zcashCommunity.ecosystemSecurity | Zcash Ecosystem Security | Zcash Ekosistemi Menkul Kıymetleri | Zcash ekosistemi güvenliği | In the Ecosystem header submenu, “menkul kıymetleri” means securities/financial instruments; this destination is about ecosystem safety and security. |
+| 47 | navigation.zcashCommunity.cypherpunkZeroNFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT | OK |  |
+| 48 | navigation.zcashCommunity.zconArchive | Zcon Archive | Zcon Arşivi | OK |  |
+| 49 | navigation.organizations.label | Organizations | Organizasyonlar | Kuruluşlar | This section lists ecosystem bodies and institutions; “Kuruluşlar” is the natural Turkish category label, whereas “organizasyonlar” can also mean events or arrangements. |
+| 50 | navigation.organizations.brand | Brand | Marka | OK |  |
+| 51 | navigation.organizations.coinholderDirectedRetroactiveGrants | CoinHolder Directed Retroactive Grants | CoinHolder Yönlendirmeli Geriye Dönük Hibeler | CoinHolder Directed Retroactive Grants | “CoinHolder Directed Retroactive Grants” is the name of a grant programme, so the Organizations header submenu should preserve the complete English title rather than translate its components. |
+| 52 | navigation.guidesSubmenu.zgoPaymentProcessor | Zgo Payment Processor | Zgo Ödeme İşlemcisi | ZGo ödeme işleyicisi | The protected spelling is “ZGo”, and “ödeme işleyicisi” consistently names the service that processes payments. |
+| 53 | navigation.guidesSubmenu.free2zLive | Free2z Live | Free2z Canlı | Free2Z Live | In the Guides header submenu, the protected product spelling is “Free2Z”; retaining “Live” avoids inventing a translated product subtitle without evidence. |
+| 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN | OK |  |
+| 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | DeFi'de ZEC Kullanımı | OK |  |
+| 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC'i Özel Olarak Kullanma | ZEC kullanırken gizliliği koruma | “ZEC kullanırken gizliliği koruma” is a natural page-title noun phrase and makes privacy protection during ZEC use explicit. |
+| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü | OK |  |
+| 58 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry Pi 5'te Zebra, lightwalletd ve Zingo | For the Guides header submenu key “navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo”, the wording preserves the device/software names and states the deployment relationship expressed by “Raspberry pi5 Zebra Lightwalletd Zingo”. |
+| 59 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Düğümü | OK |  |
+| 60 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network | OK |  |
+| 61 | navigation.guidesSubmenu.avalancheRedbridge | Avalanche RedBridge | Avalanche RedBridge | OK |  |
+| 62 | navigation.guidesSubmenu.zkoolMultisig | Zkool Multisig | Zkool Multisig | OK |  |
+| 63 | navigation.guidesSubmenu.ywalletFrostDemo | Ywallet FROST Demo | Ywallet FROST Demosu | OK |  |
+| 64 | navigation.guidesSubmenu.blockchainExplorers | Blockchain Explorers | Blockchain Gezginleri | Blokzincir gezginleri | The chosen glossary form is “blokzincir”; “Blokzincir gezginleri” therefore keeps this navigation label terminologically consistent. |
+| 65 | navigation.guidesSubmenu.btcPayServerPlugin | BTCPayServer Plugin | BTCPayServer Eklentisi | BTCPay Server eklentisi | The protected product spelling is “BTCPay Server”; only the generic component “Plugin” is translated as “eklenti”. |
+| 66 | navigation.guidesSubmenu.visualizingZcashNetwork | Visualizing the Zcash Network | Zcash Ağını Görselleştirme | OK |  |
+| 67 | navigation.guidesSubmenu.visualizingZcashAddresses | Visualizing Zcash Addresses | Zcash Adreslerini Görselleştirme | OK |  |
+| 68 | navigation.guidesSubmenu.zcashImprovementProposals | Zcash Improvement Proposals | Zcash İyileştirme Önerileri | OK |  |
+| 69 | navigation.guidesSubmenu.zingolibAndZainoTutorial | Zingolib and Zaino Tutorial | Zingolib ve Zaino Eğitimi | OK |  |
+| 70 | navigation.guidesSubmenu.zenithInstallation | Zenith Installation | Zenith Kurulumu | OK |  |
+| 71 | navigation.guidesSubmenu.zeroKnowledgeVsDecoys | Zero Knowledge vs Decoy Systems | Sıfır Bilgi ve Aldatmaca Sistemleri | Sıfır bilgi kanıtları ile yanıltıcı girdilere dayalı sistemlerin karşılaştırılması | The source is a comparison: zero-knowledge proofs are contrasted with systems that hide the real input among plausible false inputs, so “karşılaştırılması” preserves “vs” explicitly. |
+| 72 | navigation.overview | Overview | Genel Bakış | OK |  |
+| 73 | navigation.shop | Shop | Mağaza | OK |  |
 
 ## Submenu entries (page names in the menus)
 (`menuLabels`: 81 labels)
 
 | # | ID | English | Turkish | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | menuLabels.Accept Payments | Accept Payments | Ödemeleri Kabul Et |  |  |
-| 2 | menuLabels.Akash Network Zebra | Zebra on Akash | Akash Network Zebra |  |  |
-| 3 | menuLabels.Avalanche RedBridge | Avalanche RedBridge | Avalanche RedBridge |  |  |
-| 4 | menuLabels.BTCPayServer Zcash Plugin | BTCPayServer Zcash Plugin | BTCPayServer Zcash Plugin |  |  |
-| 5 | menuLabels.Blockchain Explorers | Blockchain Explorers | Blockchain Gezginleri |  |  |
-| 6 | menuLabels.Brand | Brand | Marka |  |  |
-| 7 | menuLabels.Buying ZEC | Buying ZEC | ZEC Satın Alma |  |  |
-| 8 | menuLabels.Community Blogs | Community Blogs | Topluluk Blogları |  |  |
-| 9 | menuLabels.Community Forum | Community Forum | Topluluk Forumu |  |  |
-| 10 | menuLabels.Community Links | Community Links | Topluluk Bağlantıları |  |  |
-| 11 | menuLabels.Community Projects | Community Projects | Topluluk Projeleri |  |  |
-| 12 | menuLabels.Contribute | Contribute | Katkıda Bulun |  |  |
-| 13 | menuLabels.Cypherpunk Zero NFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT |  |  |
-| 14 | menuLabels.DAO | DAO | DAO |  |  |
-| 15 | menuLabels.Developers | Developers | Geliştiriciler |  |  |
-| 16 | menuLabels.Donations | Donations | Bağışlar |  |  |
-| 17 | menuLabels.Exchanges | Exchanges | Borsalar |  |  |
-| 18 | menuLabels.Extras | Extras | Ekstralar |  |  |
-| 19 | menuLabels.Faucets | Faucets | Faucetler |  |  |
-| 20 | menuLabels.Free2z Live | Free2z Live | Free2z Live |  |  |
-| 21 | menuLabels.Freelance Privacy | Freelance Privacy | Serbest Çalışan Gizliliği |  |  |
-| 22 | menuLabels.Governance | Governance | Yönetişim |  |  |
-| 23 | menuLabels.Guides | Guides | Rehberler |  |  |
-| 24 | menuLabels.How to Participate | How to Participate | Nasıl Katılınır |  |  |
-| 25 | menuLabels.Journalist Privacy | Journalist Privacy | Gazeteci Gizliliği |  |  |
-| 26 | menuLabels.Keeping Records | Keeping Records | Kayıt Tutma |  |  |
-| 27 | menuLabels.Memos | Memos | Notlar |  |  |
-| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | Mobil Kontör Yüklemeleri |  |  |
-| 29 | menuLabels.Newsletter | Newsletter | Bülten |  |  |
-| 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN |  |  |
-| 31 | menuLabels.Payment Processors | Payment Processors | Ödeme İşleyicileri |  |  |
-| 32 | menuLabels.Payment Request URIs | Payment Request URIs | Ödeme Talebi URI'leri |  |  |
-| 33 | menuLabels.Podcast | Podcast | Podcast |  |  |
-| 34 | menuLabels.Private Community Treasury | Private Community Treasury | Özel Topluluk Hazinesi |  |  |
-| 35 | menuLabels.Raspberry Pi 4 Full Node | Zebra + Zallet on Raspberry Pi 4 | Raspberry Pi 4 Tam Düğüm |  |  |
-| 36 | menuLabels.Raspberry pi 4 Zebra Node | Zebra on Raspberry Pi 4 | Raspberry pi 4 Zebra Düğümü |  |  |
-| 37 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Zebra stack on Raspberry Pi 5 | Raspberry pi5 Zebra Lightwalletd Zingo |  |  |
-| 38 | menuLabels.Recovering Funds | Recovering Funds | Fonları Kurtarma |  |  |
-| 39 | menuLabels.Research | Research | Araştırma |  |  |
-| 40 | menuLabels.Send Money Privately | Send Money Privately | Özel Olarak Para Gönder |  |  |
-| 41 | menuLabels.Shielded Pools | Shielded Pools | Korumalı Havuzlar |  |  |
-| 42 | menuLabels.Sitemap | Sitemap | Site Haritası |  |  |
-| 43 | menuLabels.Start Here | Start Here | Buradan Başlayın |  |  |
-| 44 | menuLabels.Store | Store | Mağaza |  |  |
-| 45 | menuLabels.Tools | Tools | Araçlar |  |  |
-| 46 | menuLabels.Transactions | Transactions | İşlemler |  |  |
-| 47 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | Şeffaf Borsa Adresleri |  |  |
-| 48 | menuLabels.Tutorials | Tutorials | Eğitimler |  |  |
-| 49 | menuLabels.Use Cases | Use Cases | Kullanım Alanları |  |  |
-| 50 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC'i Özel Olarak Kullanma |  |  |
-| 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | DeFi'de ZEC Kullanımı |  |  |
-| 52 | menuLabels.Using Zcash | Using Zcash | Zcash Kullanımı |  |  |
-| 53 | menuLabels.Visual Identity | Visual Identity | Görsel Kimlik |  |  |
-| 54 | menuLabels.Visualizer | Visualizer | Görselleştirici |  |  |
-| 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash Adreslerini Görselleştirme |  |  |
-| 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Zcash Ağını Görselleştirme |  |  |
-| 57 | menuLabels.Wallets | Wallets | Cüzdanlar |  |  |
-| 58 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST Demosu |  |  |
-| 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIP'ler ve Hibeler |  |  |
-| 60 | menuLabels.Zcash Community | Zcash Community | Zcash Topluluğu |  |  |
-| 61 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Zcash Ekosistemi Güvenliği |  |  |
-| 62 | menuLabels.Zcash Governance | Zcash Governance | Zcash Yönetişimi |  |  |
-| 63 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash İyileştirme Önerileri |  |  |
-| 64 | menuLabels.Zcash Media | Zcash Media | Zcash Medyası |  |  |
-| 65 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash Kuruluşları |  |  |
-| 66 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash Podcast'leri |  |  |
-| 67 | menuLabels.Zcon Archive | Zcon Archive | Zcon Arşivi |  |  |
-| 68 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes Arşivi |  |  |
-| 69 | menuLabels.Zenith Installation | Zenith Installation | Zenith Kurulumu |  |  |
-| 70 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Sıfır Bilgi ve Decoy'lar |  |  |
-| 71 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo Ödeme İşlemcisi |  |  |
-| 72 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib ve Zaino Eğitimi |  |  |
-| 73 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool Multisig |  |  |
-| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | Saklamalı Borsalar |  |  |
-| 75 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash Kullanım Alanları |  |  |
-| 76 | menuLabels.Zcash Tech | Zcash Tech | Zcash Teknolojisi |  |  |
-| 77 | menuLabels.Privacy Tools | Privacy Tools | Gizlilik Araçları |  |  |
-| 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | Sözlük ve SSS'ler |  |  |
-| 79 | menuLabels.Pay for AI | Pay for AI | AI için Öde |  |  |
-| 80 | menuLabels.Community Building | Community Building | Community Building |  |  |
-| 81 | menuLabels.Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup |  |  |
+| 1 | menuLabels.Accept Payments | Accept Payments | Ödemeleri Kabul Et | OK |  |
+| 2 | menuLabels.Akash Network Zebra | Zebra on Akash | Akash Network Zebra | Akash üzerinde Zebra | For the page-name menu dictionary key “menuLabels.Akash Network Zebra”, the wording preserves the device/software names and states the deployment relationship expressed by “Zebra on Akash”. |
+| 3 | menuLabels.Avalanche RedBridge | Avalanche RedBridge | Avalanche RedBridge | OK |  |
+| 4 | menuLabels.BTCPayServer Zcash Plugin | BTCPayServer Zcash Plugin | BTCPayServer Zcash Plugin | BTCPay Server Zcash eklentisi | The protected product spelling is “BTCPay Server”, while “Zcash eklentisi” accurately names the plugin's function. |
+| 5 | menuLabels.Blockchain Explorers | Blockchain Explorers | Blockchain Gezginleri | Blokzincir gezginleri | The chosen glossary form is “blokzincir”; “Blokzincir gezginleri” therefore keeps this navigation label terminologically consistent. |
+| 6 | menuLabels.Brand | Brand | Marka | OK |  |
+| 7 | menuLabels.Buying ZEC | Buying ZEC | ZEC Satın Alma | OK |  |
+| 8 | menuLabels.Community Blogs | Community Blogs | Topluluk Blogları | OK |  |
+| 9 | menuLabels.Community Forum | Community Forum | Topluluk Forumu | OK |  |
+| 10 | menuLabels.Community Links | Community Links | Topluluk Bağlantıları | OK |  |
+| 11 | menuLabels.Community Projects | Community Projects | Topluluk Projeleri | OK |  |
+| 12 | menuLabels.Contribute | Contribute | Katkıda Bulun | OK |  |
+| 13 | menuLabels.Cypherpunk Zero NFT | Cypherpunk Zero NFT | Cypherpunk Zero NFT | OK |  |
+| 14 | menuLabels.DAO | DAO | DAO | OK |  |
+| 15 | menuLabels.Developers | Developers | Geliştiriciler | OK |  |
+| 16 | menuLabels.Donations | Donations | Bağışlar | OK |  |
+| 17 | menuLabels.Exchanges | Exchanges | Borsalar | OK |  |
+| 18 | menuLabels.Extras | Extras | Ekstralar | Ek içerikler | This menu item groups additional material, for which “Ek içerikler” is descriptive Turkish; “Ekstralar” is an unnecessary loan rendering. |
+| 19 | menuLabels.Faucets | Faucets | Faucetler | OK |  |
+| 20 | menuLabels.Free2z Live | Free2z Live | Free2z Live | Free2Z Live | In the page-name menu dictionary, the protected product spelling is “Free2Z”; retaining “Live” avoids inventing a translated product subtitle without evidence. |
+| 21 | menuLabels.Freelance Privacy | Freelance Privacy | Serbest Çalışan Gizliliği | Serbest çalışanlar için gizlilik | The page addresses privacy for freelance workers, so “Serbest çalışanlar için gizlilik” states the intended audience rather than treating freelance as an adjective for privacy. |
+| 22 | menuLabels.Governance | Governance | Yönetişim | OK |  |
+| 23 | menuLabels.Guides | Guides | Rehberler | OK |  |
+| 24 | menuLabels.How to Participate | How to Participate | Nasıl Katılınır | OK |  |
+| 25 | menuLabels.Journalist Privacy | Journalist Privacy | Gazeteci Gizliliği | Gazeteciler için gizlilik | The page addresses privacy for journalists generally; the plural audience form “Gazeteciler için gizlilik” is clearer than the compressed singular compound. |
+| 26 | menuLabels.Keeping Records | Keeping Records | Kayıt Tutma | OK |  |
+| 27 | menuLabels.Memos | Memos | Notlar | Memolar | The page-name menu dictionary refers to Zcash transaction memos, not ordinary written notes; “Memolar” keeps them distinct from Zcash notes. |
+| 28 | menuLabels.Mobile Top Ups | Mobile Top Ups | Mobil Kontör Yüklemeleri | Mobil bakiye yüklemeleri | The page concerns adding mobile balance/credit, so “Mobil bakiye yüklemeleri” is broader and clearer than limiting the action to the older term “kontör”. |
+| 29 | menuLabels.Newsletter | Newsletter | Bülten | OK |  |
+| 30 | menuLabels.Nym VPN | Nym VPN | Nym VPN | OK |  |
+| 31 | menuLabels.Payment Processors | Payment Processors | Ödeme İşleyicileri | OK |  |
+| 32 | menuLabels.Payment Request URIs | Payment Request URIs | Ödeme Talebi URI'leri | OK |  |
+| 33 | menuLabels.Podcast | Podcast | Podcast | OK |  |
+| 34 | menuLabels.Private Community Treasury | Private Community Treasury | Özel Topluluk Hazinesi | OK |  |
+| 35 | menuLabels.Raspberry Pi 4 Full Node | Zebra + Zallet on Raspberry Pi 4 | Raspberry Pi 4 Tam Düğüm | Raspberry Pi 4 üzerinde Zebra + Zallet | For the page-name menu dictionary key “menuLabels.Raspberry Pi 4 Full Node”, the wording preserves the device/software names and states the deployment relationship expressed by “Zebra + Zallet on Raspberry Pi 4”. |
+| 36 | menuLabels.Raspberry pi 4 Zebra Node | Zebra on Raspberry Pi 4 | Raspberry pi 4 Zebra Düğümü | Raspberry Pi 4 üzerinde Zebra | For the page-name menu dictionary key “menuLabels.Raspberry pi 4 Zebra Node”, the wording preserves the device/software names and states the deployment relationship expressed by “Zebra on Raspberry Pi 4”. |
+| 37 | menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo | Zebra stack on Raspberry Pi 5 | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry Pi 5'te Zebra, lightwalletd ve Zingo | For the page-name menu dictionary key “menuLabels.Raspberry pi5 Zebra Lightwalletd Zingo”, the wording preserves the device/software names and states the deployment relationship expressed by “Zebra stack on Raspberry Pi 5”. |
+| 38 | menuLabels.Recovering Funds | Recovering Funds | Fonları Kurtarma | OK |  |
+| 39 | menuLabels.Research | Research | Araştırma | OK |  |
+| 40 | menuLabels.Send Money Privately | Send Money Privately | Özel Olarak Para Gönder | Gizliliğinizi koruyarak para gönderin | Here “privately” means protecting transaction privacy, not sending money in a personal/private manner; “Gizliliğinizi koruyarak” preserves that distinction. |
+| 41 | menuLabels.Shielded Pools | Shielded Pools | Korumalı Havuzlar | OK |  |
+| 42 | menuLabels.Sitemap | Sitemap | Site Haritası | OK |  |
+| 43 | menuLabels.Start Here | Start Here | Buradan Başlayın | OK |  |
+| 44 | menuLabels.Store | Store | Mağaza | OK |  |
+| 45 | menuLabels.Tools | Tools | Araçlar | OK |  |
+| 46 | menuLabels.Transactions | Transactions | İşlemler | OK |  |
+| 47 | menuLabels.Transparent Exchange Addresses | Transparent Exchange Addresses | Şeffaf Borsa Adresleri | OK |  |
+| 48 | menuLabels.Tutorials | Tutorials | Eğitimler | OK |  |
+| 49 | menuLabels.Use Cases | Use Cases | Kullanım Alanları | OK |  |
+| 50 | menuLabels.Using ZEC Privately | Using ZEC Privately | ZEC'i Özel Olarak Kullanma | ZEC kullanırken gizliliği koruma | “ZEC kullanırken gizliliği koruma” is a natural page-title noun phrase and makes privacy protection during ZEC use explicit. |
+| 51 | menuLabels.Using ZEC in DeFi | Using ZEC in DeFi | DeFi'de ZEC Kullanımı | OK |  |
+| 52 | menuLabels.Using Zcash | Using Zcash | Zcash Kullanımı | OK |  |
+| 53 | menuLabels.Visual Identity | Visual Identity | Görsel Kimlik | OK |  |
+| 54 | menuLabels.Visualizer | Visualizer | Görselleştirici | OK |  |
+| 55 | menuLabels.Visualizing Zcash Addresses | Visualizing Zcash Addresses | Zcash Adreslerini Görselleştirme | OK |  |
+| 56 | menuLabels.Visualizing the Zcash Network | Visualizing the Zcash Network | Zcash Ağını Görselleştirme | OK |  |
+| 57 | menuLabels.Wallets | Wallets | Cüzdanlar | OK |  |
+| 58 | menuLabels.Ywallet FROST Demo | Ywallet FROST Demo | Ywallet FROST Demosu | OK |  |
+| 59 | menuLabels.ZIPs & Grants | ZIPs & Grants | ZIP'ler ve Hibeler | OK |  |
+| 60 | menuLabels.Zcash Community | Zcash Community | Zcash Topluluğu | OK |  |
+| 61 | menuLabels.Zcash Ecosystem Security | Zcash Ecosystem Security | Zcash Ekosistemi Güvenliği | OK |  |
+| 62 | menuLabels.Zcash Governance | Zcash Governance | Zcash Yönetişimi | OK |  |
+| 63 | menuLabels.Zcash Improvement Proposals | Zcash Improvement Proposals | Zcash İyileştirme Önerileri | OK |  |
+| 64 | menuLabels.Zcash Media | Zcash Media | Zcash Medyası | OK |  |
+| 65 | menuLabels.Zcash Organizations | Zcash Organizations | Zcash Kuruluşları | OK |  |
+| 66 | menuLabels.Zcash Podcasts | Zcash Podcasts | Zcash Podcast'leri | Zcash podcastleri | Podcast is a common noun in this phrase, so its Turkish plural suffix is attached without an apostrophe: “Zcash podcastleri”. |
+| 67 | menuLabels.Zcon Archive | Zcon Archive | Zcon Arşivi | OK |  |
+| 68 | menuLabels.Zcon Vozes Archive | Zcon Vozes Archive | Zcon Vozes Arşivi | OK |  |
+| 69 | menuLabels.Zenith Installation | Zenith Installation | Zenith Kurulumu | OK |  |
+| 70 | menuLabels.Zero-Knowledge vs Decoys | Zero-Knowledge vs Decoys | Sıfır Bilgi ve Decoy'lar | Sıfır bilgi kanıtları ile yanıltıcı girdilere dayalı sistemlerin karşılaştırılması | The source is a comparison: zero-knowledge proofs are contrasted with systems that hide the real input among plausible false inputs, so “karşılaştırılması” preserves “vs” explicitly. |
+| 71 | menuLabels.Zgo Payment Processor | Zgo Payment Processor | Zgo Ödeme İşlemcisi | ZGo ödeme işleyicisi | The protected spelling is “ZGo”, and “ödeme işleyicisi” consistently names the service that processes payments. |
+| 72 | menuLabels.Zingolib and Zaino Tutorial | Zingolib and Zaino Tutorial | Zingolib ve Zaino Eğitimi | OK |  |
+| 73 | menuLabels.Zkool Multisig | Zkool Multisig | Zkool Multisig | OK |  |
+| 74 | menuLabels.Custodial Exchanges | Custodial Exchanges | Saklamalı Borsalar | Gözetimli borsalar | This side-menu item links to exchanges that control users' keys; “gözetimli” matches the documented Turkish custodial/non-custodial adjective pair, while “saklamalı” is not idiomatic. |
+| 75 | menuLabels.Zcash Use Cases | Zcash Use Cases | Zcash Kullanım Alanları | OK |  |
+| 76 | menuLabels.Zcash Tech | Zcash Tech | Zcash Teknolojisi | OK |  |
+| 77 | menuLabels.Privacy Tools | Privacy Tools | Gizlilik Araçları | OK |  |
+| 78 | menuLabels.Glossary & FAQ's | Glossary & FAQ's | Sözlük ve SSS'ler | Sözlük ve SSS | “SSS” already means “Sıkça Sorulan Sorular” and is plural in meaning, so the extra Turkish plural suffix in “SSS'ler” is unnecessary. |
+| 79 | menuLabels.Pay for AI | Pay for AI | AI için Öde | OK |  |
+| 80 | menuLabels.Community Building | Community Building | Community Building | Topluluk geliştirme | The page concerns developing a community; leaving the whole label English is unnecessary. |
+| 81 | menuLabels.Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup | Nym Mixnet Wallet Setup | Nym Mixnet cüzdan kurulumu | “Nym Mixnet” remains the product/network name, while “cüzdan kurulumu” clearly describes the setup guide. |
 
 ## Yellow coin menu (bottom right)
 (`exploreMenu`: 15 labels)
 
 | # | ID | English | Turkish | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | exploreMenu.Full Explore | Full Explore | Tam Keşfet |  |  |
-| 2 | exploreMenu.Start Here | Start Here | Buradan Başlayın |  |  |
-| 3 | exploreMenu.Tutorials | Tutorials | Öğreticiler |  |  |
-| 4 | exploreMenu.Using Zcash | Using Zcash | Zcash Kullanımı |  |  |
-| 5 | exploreMenu.Guides | Guides | Rehberler |  |  |
-| 6 | exploreMenu.Zcash Tech | Zcash Tech | Zcash Teknolojisi |  |  |
-| 7 | exploreMenu.Zcash Organizations | Zcash Organizations | Zcash Organizasyonları |  |  |
-| 8 | exploreMenu.Zcash Community | Zcash Community | Zcash Topluluğu |  |  |
-| 9 | exploreMenu.Privacy Tools | Privacy Tools | Gizlilik Araçları |  |  |
-| 10 | exploreMenu.Research | Research | Araştırma |  |  |
-| 11 | exploreMenu.Glossary & FAQs | Glossary & FAQs | Sözlük ve SSS |  |  |
-| 12 | exploreMenu.Contribute | Contribute | Katkıda Bulun |  |  |
-| 13 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Fork'lar ve Bakımcılar İçin |  |  |
-| 14 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | zechub-wiki'yi forkla |  |  |
-| 15 | exploreMenu.Fork zechub | Fork zechub | zechub'u forkla |  |  |
+| 1 | exploreMenu.Full Explore | Full Explore | Tam Keşfet | Tümünü keşfet | This control opens the complete Explore area; “Tümünü keşfet” expresses viewing everything, unlike the literal and unnatural “Tam Keşfet”. |
+| 2 | exploreMenu.Start Here | Start Here | Buradan Başlayın | OK |  |
+| 3 | exploreMenu.Tutorials | Tutorials | Öğreticiler | Eğitimler | This yellow Explore menu label names learning material, not people who teach; “Öğreticiler” should therefore be normalized to “Eğitimler”. |
+| 4 | exploreMenu.Using Zcash | Using Zcash | Zcash Kullanımı | OK |  |
+| 5 | exploreMenu.Guides | Guides | Rehberler | OK |  |
+| 6 | exploreMenu.Zcash Tech | Zcash Tech | Zcash Teknolojisi | OK |  |
+| 7 | exploreMenu.Zcash Organizations | Zcash Organizations | Zcash Organizasyonları | Zcash kuruluşları | The label names Zcash ecosystem institutions, so “Zcash kuruluşları” matches the selected translation of Organizations. |
+| 8 | exploreMenu.Zcash Community | Zcash Community | Zcash Topluluğu | OK |  |
+| 9 | exploreMenu.Privacy Tools | Privacy Tools | Gizlilik Araçları | OK |  |
+| 10 | exploreMenu.Research | Research | Araştırma | OK |  |
+| 11 | exploreMenu.Glossary & FAQs | Glossary & FAQs | Sözlük ve SSS | OK |  |
+| 12 | exploreMenu.Contribute | Contribute | Katkıda Bulun | OK |  |
+| 13 | exploreMenu.For Forks & Maintainers | For Forks & Maintainers | Fork'lar ve Bakımcılar İçin | Forklar ve bakım sorumluları için | “Fork” is a common technical loanword, but its Turkish plural takes no apostrophe; “bakım sorumluları” is clearer than literal “bakımcılar”. |
+| 14 | exploreMenu.Fork zechub-wiki | Fork zechub-wiki | zechub-wiki'yi forkla | OK |  |
+| 15 | exploreMenu.Fork zechub | Fork zechub | zechub'u forkla | OK |  |
 
 ## Side menu on article pages
 (`sideMenu`: 2 labels)
 
 | # | ID | English | Turkish | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|
-| 1 | sideMenu.navigation | Navigation | Gezinme |  |  |
-| 2 | sideMenu.explore | Explore | Keşfet |  |  |
+| 1 | sideMenu.navigation | Navigation | Gezinme | OK |  |
+| 2 | sideMenu.explore | Explore | Keşfet | OK |  |
 
 ## New or previously missing dictionary menu rows
 (`frontend`: 69 labels)
 
 | # | ID | English | Displayed now | Proposed | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|---|
-| 172 | menuLabels.Use Zcash | Use Zcash | Zcash kullanın | Zcash kullanın |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 173 | menuLabels.Block Explorers | Block Explorers | Blok Gezginleri | Blok Gezginleri |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 174 | menuLabels.Ecosystem | Ecosystem | Ekosistem | Ekosistem |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 175 | menuLabels.Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü | Raspberry Pi Zcashd Düğümü |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 176 | menuLabels.Raspberry Pi Zebra Node | Raspberry Pi Zebra Node | Raspberry Pi Zebra Düğümü | Raspberry Pi Zebra Düğümü |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 177 | menuLabels.Zero Knowledge vs Decoy Systems | Zero Knowledge vs Decoy Systems | Sıfır Bilgi ve Yem Sistemleri | Sıfır Bilgi ve Yem Sistemleri |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 178 | menuLabels.Organizations | Organizations | Organizasyonlar | Organizasyonlar |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 179 | menuLabels.Zallet Quick Reference Guide | Zallet Quick Reference Guide | Zallet Quick Reference Guide | Zallet Quick Reference Guide |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 180 | menuLabels.Spend Zcash | Spend Zcash | Zcash Harca | Zcash Harca |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 181 | menuLabels.Places to Spend ZEC | Places to Spend ZEC | ZEC Harcanabilecek Yerler | ZEC Harcanabilecek Yerler |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 182 | menuLabels.Free2Z Livestreaming | Free2Z Livestreaming | Free2Z Canlı Yayın | Free2Z Canlı Yayın |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 183 | menuLabels.Hardened Zebrad | Hardened Zebrad | Güçlendirilmiş Zebrad | Güçlendirilmiş Zebrad |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 184 | menuLabels.Migration Guide Zcashd To Zebrad Zallet | Migration Guide Zcashd To Zebrad Zallet | Zcashd'den Zebrad Zallet'e Geçiş Kılavuzu | Zcashd'den Zebrad Zallet'e Geçiş Kılavuzu |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 185 | menuLabels.My First Zcash Workbook | My First Zcash Workbook | İlk Zcash Çalışma Kitabım | İlk Zcash Çalışma Kitabım |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 186 | menuLabels.Verifying Zcash Releases | Verifying Zcash Releases | Zcash Sürümleri Doğrulanıyor | Zcash Sürümleri Doğrulanıyor |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 187 | menuLabels.Viewing Key Transaction Export | Viewing Key Transaction Export | Viewing Key İşlem Dışa Aktarımı | Viewing Key İşlem Dışa Aktarımı |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 188 | menuLabels.Brave Wallet Guide | Brave Wallet Guide | Brave Wallet Rehberi | Brave Wallet Rehberi |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 189 | menuLabels.Akash Network Zcashd | Akash Network Zcashd | Akash Network Zcashd | Akash Network Zcashd |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 190 | menuLabels.CoinHolder Directed Retroactive Grants | CoinHolder Directed Retroactive Grants | CoinHolder Yönlendirmeli Geriye Dönük Hibeler | CoinHolder Yönlendirmeli Geriye Dönük Hibeler |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 191 | menuLabels.Browse all Use Zcash | Browse all Use Zcash | Browse all Use Zcash | Zcash kullanımıyla ilgili tüm içerikler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 192 | menuLabels.More orgs | More orgs | More orgs | Diğer kuruluşlar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 193 | menuLabels.Browse all Guides | Browse all Guides | Browse all Guides | Tüm rehberler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 194 | menuLabels.Data | Data | Data | Data |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 195 | menuLabels.Network | Network | Network | Ağ |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 196 | menuLabels.Ecosystem Dashboard | Ecosystem Dashboard | Ecosystem Dashboard | Ecosystem Dashboard |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 197 | menuLabels.Protocol Parameters | Protocol Parameters | Protocol Parameters | Protocol Parameters |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 198 | menuLabels.All Visualizers | All Visualizers | All Visualizers | All Visualizers |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 199 | menuLabels.Network & Infrastructure | Network & Infrastructure | Network & Infrastructure | Ağ ve altyapı |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 200 | menuLabels.Value Pools | Value Pools | Value Pools | Value Pools |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 201 | menuLabels.zk-SNARK Proofs | zk-SNARK Proofs | zk-SNARK Proofs | zk-SNARK Proofs |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 202 | menuLabels.Consensus | Consensus | Consensus | Konsensüs |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). |
-| 203 | menuLabels.Hash Function | Hash Function | Hash Function | Hash Function |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 204 | menuLabels.Zcash Keys | Zcash Keys | Zcash Keys | Zcash Anahtarları |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). |
-| 205 | menuLabels.Learn Zcash | Learn Zcash | Learn Zcash | Zcash'i öğrenin |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 206 | menuLabels.Zcash Basics | Zcash Basics | Zcash Basics | Zcash Basics |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 207 | menuLabels.Who Can See Your Payment? | Who Can See Your Payment? | Who Can See Your Payment? | Who Can See Your Payment? |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 208 | menuLabels.New User Guide | New User Guide | New User Guide | Yeni kullanıcı rehberi |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). |
-| 209 | menuLabels.Monetary Policy | Monetary Policy | Monetary Policy | Monetary Policy |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 210 | menuLabels.How Zcash Is Organized | How Zcash Is Organized | How Zcash Is Organized | How Zcash Is Organized |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 211 | menuLabels.Zcash Evolution | Zcash Evolution | Zcash Evolution | Zcash Evolution |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 212 | menuLabels.Crosslink Protocol | Crosslink Protocol | Crosslink Protocol | Crosslink Protocol |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 213 | menuLabels.Project Tachyon | Project Tachyon | Project Tachyon | Project Tachyon |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 214 | menuLabels.Zcash Library | Zcash Library | Zcash Library | Zcash Library |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 215 | menuLabels.FAQ | FAQ | FAQ | SSS |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). |
-| 216 | menuLabels.Full Nodes | Full Nodes | Full Nodes | Full Nodes |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 217 | menuLabels.Zebra + Zallet on Raspberry Pi 4 | Zebra + Zallet on Raspberry Pi 4 | Zebra + Zallet on Raspberry Pi 4 | Raspberry Pi 4 Tam Düğüm |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). |
-| 218 | menuLabels.Zakura Node | Zakura Node | Zakura Node | Zakura Node |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 219 | menuLabels.Zakura on Akash | Zakura on Akash | Zakura on Akash | Zakura on Akash |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 220 | menuLabels.Chain State Explorer | Chain State Explorer | Chain State Explorer | Chain State Explorer |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 221 | menuLabels.Network Upgrades | Network Upgrades | Network Upgrades | Ağ yükseltmeleri |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). |
-| 222 | menuLabels.Unified Addresses | Unified Addresses | Unified Addresses | Unified Addresses |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 223 | menuLabels.Viewing Keys | Viewing Keys | Viewing Keys | Viewing Keys |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 224 | menuLabels.FROST Threshold Signatures | FROST Threshold Signatures | FROST Threshold Signatures | FROST Threshold Signatures |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 225 | menuLabels.Shielded Assets (ZSAs) | Shielded Assets (ZSAs) | Shielded Assets (ZSAs) | Shielded Assets (ZSAs) |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 226 | menuLabels.Post-Quantum Security | Post-Quantum Security | Post-Quantum Security | Post-Quantum Security |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
-| 227 | menuLabels.Browse all Learn Zcash | Browse all Learn Zcash | Browse all Learn Zcash | Tüm Zcash eğitimleri |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 228 | menuLabels.Browse all Ecosystem | Browse all Ecosystem | Browse all Ecosystem | Tüm ekosistem |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 229 | menuLabels.Browse all articles | Browse all articles | Browse all articles | Tüm yazılar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. |
-| 230 | sideMenu.continueReading.heading | Continue reading | Okumaya devam edin | Okumaya devam edin |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 231 | sideMenu.continueReading.previous | Previous | Önceki | Önceki |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 232 | sideMenu.continueReading.next | Next | Sonraki | Sonraki |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 233 | sideMenu.continueReading.nextStep | Next step | Sonraki adım | Sonraki adım |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 234 | common.language | Language | Dil | Dil |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 235 | common.search | Search | Ara | Ara |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 236 | common.close | Close | Kapat | Kapat |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 237 | common.languageSearch | Search languages | Dil ara | Dil ara |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 238 | common.languageSuggested | Suggested | Önerilen | Önerilen |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 239 | common.languageAll | All languages | Tüm diller | Tüm diller |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 240 | common.languageNone | No language found | Dil bulunamadı | Dil bulunamadı |  | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 172 | menuLabels.Use Zcash | Use Zcash | Zcash kullanın | Zcash kullanın | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 173 | menuLabels.Block Explorers | Block Explorers | Blok Gezginleri | Blok Gezginleri | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 174 | menuLabels.Ecosystem | Ecosystem | Ekosistem | Ekosistem | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 175 | menuLabels.Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü | Raspberry Pi Zcashd Düğümü | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 176 | menuLabels.Raspberry Pi Zebra Node | Raspberry Pi Zebra Node | Raspberry Pi Zebra Düğümü | Raspberry Pi Zebra Düğümü | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 177 | menuLabels.Zero Knowledge vs Decoy Systems | Zero Knowledge vs Decoy Systems | Sıfır Bilgi ve Yem Sistemleri | Sıfır Bilgi ve Yem Sistemleri | Sıfır bilgi kanıtları ile yanıltıcı girdilere dayalı sistemlerin karşılaştırılması | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: The source is a comparison: zero-knowledge proofs are contrasted with systems that hide the real input among plausible false inputs, so “karşılaştırılması” preserves “vs” explicitly. |
+| 178 | menuLabels.Organizations | Organizations | Organizasyonlar | Organizasyonlar | Kuruluşlar | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: This section lists ecosystem bodies and institutions; “Kuruluşlar” is the natural Turkish category label, whereas “organizasyonlar” can also mean events or arrangements. |
+| 179 | menuLabels.Zallet Quick Reference Guide | Zallet Quick Reference Guide | Zallet Quick Reference Guide | Zallet Quick Reference Guide | Zallet hızlı başvuru rehberi | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Hızlı başvuru rehberi” denotes a concise reference document, while preserving the product name Zallet. |
+| 180 | menuLabels.Spend Zcash | Spend Zcash | Zcash Harca | Zcash Harca | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 181 | menuLabels.Places to Spend ZEC | Places to Spend ZEC | ZEC Harcanabilecek Yerler | ZEC Harcanabilecek Yerler | ZEC harcayabileceğiniz yerler | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: “ZEC harcayabileceğiniz yerler” directly tells readers that these are places where they can spend ZEC; the existing passive form is impersonal and awkward. |
+| 182 | menuLabels.Free2Z Livestreaming | Free2Z Livestreaming | Free2Z Canlı Yayın | Free2Z Canlı Yayın | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 183 | menuLabels.Hardened Zebrad | Hardened Zebrad | Güçlendirilmiş Zebrad | Güçlendirilmiş Zebrad | Güvenliği güçlendirilmiş Zebrad | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: For the page-name menu dictionary key “menuLabels.Hardened Zebrad”, the wording preserves the device/software names and states the deployment relationship expressed by “Hardened Zebrad”. |
+| 184 | menuLabels.Migration Guide Zcashd To Zebrad Zallet | Migration Guide Zcashd To Zebrad Zallet | Zcashd'den Zebrad Zallet'e Geçiş Kılavuzu | Zcashd'den Zebrad Zallet'e Geçiş Kılavuzu | zcashd'den Zebrad ve Zallet'e geçiş rehberi | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: For the page-name menu dictionary key “menuLabels.Migration Guide Zcashd To Zebrad Zallet”, the wording preserves the device/software names and states the deployment relationship expressed by “Migration Guide Zcashd To Zebrad Zallet”. |
+| 185 | menuLabels.My First Zcash Workbook | My First Zcash Workbook | İlk Zcash Çalışma Kitabım | İlk Zcash Çalışma Kitabım | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 186 | menuLabels.Verifying Zcash Releases | Verifying Zcash Releases | Zcash Sürümleri Doğrulanıyor | Zcash Sürümleri Doğrulanıyor | Zcash sürümlerini doğrulama | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: The page explains the verification action; the noun phrase “Zcash sürümlerini doğrulama” is a stable guide title, unlike the progressive “doğrulanıyor”. |
+| 187 | menuLabels.Viewing Key Transaction Export | Viewing Key Transaction Export | Viewing Key İşlem Dışa Aktarımı | Viewing Key İşlem Dışa Aktarımı | Viewing Key ile işlem geçmişini dışa aktarma | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: In the page-name menu dictionary label “Viewing Key Transaction Export”, the capitalized protected Zcash term remains English while its surrounding function is explained in Turkish. |
+| 188 | menuLabels.Brave Wallet Guide | Brave Wallet Guide | Brave Wallet Rehberi | Brave Wallet Rehberi | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 189 | menuLabels.Akash Network Zcashd | Akash Network Zcashd | Akash Network Zcashd | Akash Network Zcashd | Akash üzerinde zcashd | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: For the page-name menu dictionary key “menuLabels.Akash Network Zcashd”, the wording preserves the device/software names and states the deployment relationship expressed by “Akash Network Zcashd”. |
+| 190 | menuLabels.CoinHolder Directed Retroactive Grants | CoinHolder Directed Retroactive Grants | CoinHolder Yönlendirmeli Geriye Dönük Hibeler | CoinHolder Yönlendirmeli Geriye Dönük Hibeler | CoinHolder Directed Retroactive Grants | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: “CoinHolder Directed Retroactive Grants” is the name of a grant programme, so the page-name menu dictionary should preserve the complete English title rather than translate its components. |
+| 191 | menuLabels.Browse all Use Zcash | Browse all Use Zcash | Browse all Use Zcash | Zcash kullanımıyla ilgili tüm içerikler | Tüm Zcash kullanım içerikleri | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: This is a browse-all link, so “Tüm Zcash kullanım içerikleri” states the destination rather than exposing an English fallback. |
+| 192 | menuLabels.More orgs | More orgs | More orgs | Diğer kuruluşlar | Diğer kuruluşlar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: This link reveals additional organizations, so “Diğer kuruluşlar” identifies the items shown rather than translating “more” mechanically. |
+| 193 | menuLabels.Browse all Guides | Browse all Guides | Browse all Guides | Tüm rehberler | Tüm rehberler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: This is a browse-all link, so “Tüm rehberler” states the destination rather than exposing an English fallback. |
+| 194 | menuLabels.Data | Data | Data | Data | Veri | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Veri” is the standard Turkish heading for the section containing network and protocol data. |
+| 195 | menuLabels.Network | Network | Network | Ağ | Ağ | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: “Ağ” is the established Turkish technical term for the Zcash network category. |
+| 196 | menuLabels.Ecosystem Dashboard | Ecosystem Dashboard | Ecosystem Dashboard | Ecosystem Dashboard | Ekosistem gösterge paneli | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Ekosistem gösterge paneli” names a dashboard that summarizes ecosystem metrics and preserves the selected glossary term for dashboard. |
+| 197 | menuLabels.Protocol Parameters | Protocol Parameters | Protocol Parameters | Protocol Parameters | Protokol parametreleri | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Protokol parametreleri” is the standard technical compound for configurable or defined protocol values. |
+| 198 | menuLabels.All Visualizers | All Visualizers | All Visualizers | All Visualizers | Tüm görselleştiriciler | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: This browse link covers every visualization tool, so “Tüm görselleştiriciler” preserves the scope expressed by “All”. |
+| 199 | menuLabels.Network & Infrastructure | Network & Infrastructure | Network & Infrastructure | Ağ ve altyapı | Ağ ve altyapı | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: “Ağ ve altyapı” accurately groups network operation with supporting infrastructure without altering either technical category. |
+| 200 | menuLabels.Value Pools | Value Pools | Value Pools | Value Pools | Değer havuzları | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: In Zcash these are pools that account for value under a privacy technology; “Değer havuzları” preserves that protocol meaning. |
+| 201 | menuLabels.zk-SNARK Proofs | zk-SNARK Proofs | zk-SNARK Proofs | zk-SNARK Proofs | zk-SNARK kanıtları | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: The protected identifier “zk-SNARK” remains unchanged, and “kanıtları” translates the cryptographic proofs it qualifies. |
+| 202 | menuLabels.Consensus | Consensus | Consensus | Konsensüs | Konsensüs | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). <br><br>Reviewer note: “Konsensüs” is the selected repository term for nodes agreeing on valid chain state. |
+| 203 | menuLabels.Hash Function | Hash Function | Hash Function | Hash Function | Hash fonksiyonu | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Hash fonksiyonu” retains the established crypto loanword and identifies the mathematical function, rather than a resulting hash value. |
+| 204 | menuLabels.Zcash Keys | Zcash Keys | Zcash Keys | Zcash Anahtarları | Zcash anahtarları | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). <br><br>Reviewer note: “Zcash anahtarları” is the concise category for viewing, spending, and related cryptographic keys. |
+| 205 | menuLabels.Learn Zcash | Learn Zcash | Learn Zcash | Zcash'i öğrenin | Zcash'i öğrenin | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: “Zcash'i öğrenin” is a direct navigation invitation to the learning section and applies the proper-name suffix correctly. |
+| 206 | menuLabels.Zcash Basics | Zcash Basics | Zcash Basics | Zcash Basics | Zcash temelleri | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Zcash temelleri” accurately labels introductory material about the system's core concepts. |
+| 207 | menuLabels.Who Can See Your Payment? | Who Can See Your Payment? | Who Can See Your Payment? | Who Can See Your Payment? | Ödemenizi kimler görebilir? | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Ödemenizi kimler görebilir?” preserves the page's question about payment visibility and uses natural Turkish word order. |
+| 208 | menuLabels.New User Guide | New User Guide | New User Guide | Yeni kullanıcı rehberi | Yeni kullanıcı rehberi | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). <br><br>Reviewer note: “Yeni kullanıcı rehberi” is the established Turkish compound for an introductory guide aimed at new users. |
+| 209 | menuLabels.Monetary Policy | Monetary Policy | Monetary Policy | Monetary Policy | Para politikası | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Para politikası” is the standard Turkish term for issuance, supply, and related monetary rules. |
+| 210 | menuLabels.How Zcash Is Organized | How Zcash Is Organized | How Zcash Is Organized | How Zcash Is Organized | Zcash'in yapısı | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Zcash'in yapısı” is a concise heading for the page explaining Zcash organizations and governance structure. |
+| 211 | menuLabels.Zcash Evolution | Zcash Evolution | Zcash Evolution | Zcash Evolution | Zcash'in gelişimi | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: As a descriptive learning-page title, “Zcash'in gelişimi” communicates historical/protocol evolution; confirm it is not intended as a fixed programme name. |
+| 212 | menuLabels.Crosslink Protocol | Crosslink Protocol | Crosslink Protocol | Crosslink Protocol | Crosslink protokolü | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: Crosslink is the protocol's proper name; the generic descriptor is translated as “protokolü”. |
+| 213 | menuLabels.Project Tachyon | Project Tachyon | Project Tachyon | Project Tachyon | OK | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. |
+| 214 | menuLabels.Zcash Library | Zcash Library | Zcash Library | Zcash Library | Zcash kütüphanesi | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Zcash kütüphanesi” identifies a collection of Zcash reference material, not a software library in this navigation context. |
+| 215 | menuLabels.FAQ | FAQ | FAQ | SSS | SSS | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). <br><br>Reviewer note: “SSS” is the conventional Turkish abbreviation for “Sıkça Sorulan Sorular”. |
+| 216 | menuLabels.Full Nodes | Full Nodes | Full Nodes | Full Nodes | Tam düğümler | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Tam düğümler” is the selected technical term for nodes that independently validate and retain full chain data. |
+| 217 | menuLabels.Zebra + Zallet on Raspberry Pi 4 | Zebra + Zallet on Raspberry Pi 4 | Zebra + Zallet on Raspberry Pi 4 | Raspberry Pi 4 Tam Düğüm | Raspberry Pi 4 üzerinde Zebra + Zallet | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). <br><br>Reviewer note: For the page-name menu dictionary key “menuLabels.Zebra + Zallet on Raspberry Pi 4”, the wording preserves the device/software names and states the deployment relationship expressed by “Zebra + Zallet on Raspberry Pi 4”. |
+| 218 | menuLabels.Zakura Node | Zakura Node | Zakura Node | Zakura Node | Zakura düğümü | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: Zakura remains the product name; “düğümü” identifies the node deployment described by the page. |
+| 219 | menuLabels.Zakura on Akash | Zakura on Akash | Zakura on Akash | Zakura on Akash | Akash üzerinde Zakura | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Akash üzerinde Zakura” clearly describes deploying or running the protected Zakura product on Akash. |
+| 220 | menuLabels.Chain State Explorer | Chain State Explorer | Chain State Explorer | Chain State Explorer | Zincir durumu gezgini | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Zincir durumu gezgini” names a tool for inspecting current chain state rather than a general block explorer. |
+| 221 | menuLabels.Network Upgrades | Network Upgrades | Network Upgrades | Ağ yükseltmeleri | Ağ yükseltmeleri | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). <br><br>Reviewer note: “Ağ yükseltmeleri” is the established Zcash term for scheduled changes to consensus and protocol rules. |
+| 222 | menuLabels.Unified Addresses | Unified Addresses | Unified Addresses | Unified Addresses | Birleşik adresler | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Birleşik adresler” is the repository's Turkish rendering for addresses that combine multiple receiver types. |
+| 223 | menuLabels.Viewing Keys | Viewing Keys | Viewing Keys | Viewing Keys | Viewing Key'ler | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: In the page-name menu dictionary label “Viewing Keys”, the capitalized protected Zcash term remains English while its surrounding function is explained in Turkish. |
+| 224 | menuLabels.FROST Threshold Signatures | FROST Threshold Signatures | FROST Threshold Signatures | FROST Threshold Signatures | FROST eşik imzaları | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: FROST remains the protected acronym; “eşik imzaları” states that a threshold of participants produces the signature. |
+| 225 | menuLabels.Shielded Assets (ZSAs) | Shielded Assets (ZSAs) | Shielded Assets (ZSAs) | Shielded Assets (ZSAs) | Korumalı varlıklar (ZSA'lar) | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Korumalı varlıklar” follows the selected translation of shielded, while “ZSA” remains the protocol acronym. |
+| 226 | menuLabels.Post-Quantum Security | Post-Quantum Security | Post-Quantum Security | Post-Quantum Security | Kuantum sonrası güvenlik | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. <br><br>Reviewer note: “Kuantum sonrası güvenlik” is the standard Turkish construction for security intended to withstand future quantum attacks. |
+| 227 | menuLabels.Browse all Learn Zcash | Browse all Learn Zcash | Browse all Learn Zcash | Tüm Zcash eğitimleri | Tüm Zcash eğitimleri | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: This is a browse-all link, so “Tüm Zcash eğitimleri” states the destination rather than exposing an English fallback. |
+| 228 | menuLabels.Browse all Ecosystem | Browse all Ecosystem | Browse all Ecosystem | Tüm ekosistem | Tüm ekosistem içerikleri | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: This is a browse-all link, so “Tüm ekosistem içerikleri” states the destination rather than exposing an English fallback. |
+| 229 | menuLabels.Browse all articles | Browse all articles | Browse all articles | Tüm yazılar | Tüm yazılar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. <br><br>Reviewer note: This is a browse-all link, so “Tüm yazılar” states the destination rather than exposing an English fallback. |
+| 230 | sideMenu.continueReading.heading | Continue reading | Okumaya devam edin | Okumaya devam edin | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 231 | sideMenu.continueReading.previous | Previous | Önceki | Önceki | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 232 | sideMenu.continueReading.next | Next | Sonraki | Sonraki | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 233 | sideMenu.continueReading.nextStep | Next step | Sonraki adım | Sonraki adım | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 234 | common.language | Language | Dil | Dil | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 235 | common.search | Search | Ara | Ara | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 236 | common.close | Close | Kapat | Kapat | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 237 | common.languageSearch | Search languages | Dil ara | Dil ara | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 238 | common.languageSuggested | Suggested | Önerilen | Önerilen | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 239 | common.languageAll | All languages | Tüm diller | Tüm diller | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 240 | common.languageNone | No language found | Dil bulunamadı | Dil bulunamadı | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
 
 ## Current header aliases, group headings and source-only menu labels
 (`frontend`: 66 labels)
 
 | # | ID | English | Displayed now | Proposed | ✅ Confirmed | Notes |
 |---:|---|---|---|---|---|---|
-| 241 | menuLabels.Start here | Start here | Start here | Buradan Başlayın |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 242 | menuLabels.How Zcash works | How Zcash works | How Zcash works | Zcash nasıl çalışır |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 243 | menuLabels.Go deeper | Go deeper | Go deeper | Daha Derine İn |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 244 | menuLabels.Visualize | Visualize | Visualize | Görselleştir |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 245 | menuLabels.Reference | Reference | Reference | Başvuru kaynakları |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 246 | menuLabels.More | More | More | Daha Fazla |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 247 | menuLabels.Get started | Get started | Get started | Başlayın |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 248 | menuLabels.Spend & pay | Spend & pay | Spend & pay | Harcayın ve ödeyin |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 249 | menuLabels.Understand | Understand | Understand | Anlayın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 250 | menuLabels.Community | Community | Community | Topluluk |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 251 | menuLabels.Media & events | Media & events | Media & events | Medya ve etkinlikler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 252 | menuLabels.Organizations & governance | Organizations & governance | Organizations & governance | Kuruluşlar ve yönetişim |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 253 | menuLabels.Live data | Live data | Live data | Canlı veriler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 254 | menuLabels.Protocol | Protocol | Protocol | Protokol |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 255 | menuLabels.Cryptography | Cryptography | Cryptography | Kriptografi |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 256 | menuLabels.Addresses & assets | Addresses & assets | Addresses & assets | Adresler ve varlıklar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 257 | menuLabels.Run a node | Run a node | Run a node | Düğüm çalıştırın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 258 | menuLabels.Upgrade & verify | Upgrade & verify | Upgrade & verify | Yükseltin ve doğrulayın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 259 | menuLabels.Wallets & signing | Wallets & signing | Wallets & signing | Cüzdanlar ve imzalama |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 260 | menuLabels.Privacy & networks | Privacy & networks | Privacy & networks | Gizlilik ve ağlar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 261 | menuLabels.Payments & creators | Payments & creators | Payments & creators | Ödemeler ve içerik üreticileri |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 262 | menuLabels.DeFi & swaps | DeFi & swaps | DeFi & swaps | DeFi ve takaslar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 263 | menuLabels.Developer tools | Developer tools | Developer tools | Geliştirici araçları |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. |
-| 264 | menuLabels.Getting started | Getting started | Getting started | İlk adımlar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 265 | frontend.readingNextGroup.Wallets and hardware | Wallets and hardware | Wallets and hardware | Cüzdanlar ve donanım |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 266 | menuLabels.Wallets and hardware | Wallets and hardware | Wallets and hardware | Cüzdanlar ve donanım |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 267 | frontend.readingNextGroup.Privacy | Privacy | Privacy | Privacy |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 268 | menuLabels.Privacy | Privacy | Privacy | Privacy |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 269 | frontend.readingNextGroup.Payments and DeFi | Payments and DeFi | Payments and DeFi | Ödemeler ve DeFi |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 270 | menuLabels.Payments and DeFi | Payments and DeFi | Payments and DeFi | Ödemeler ve DeFi |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 271 | frontend.readingNextGroup.Run a node | Run a node | Run a node | Düğüm çalıştırın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 272 | frontend.readingNextGroup.Deploy on Akash | Deploy on Akash | Deploy on Akash | Akash üzerinde dağıtım |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 273 | menuLabels.Deploy on Akash | Deploy on Akash | Deploy on Akash | Akash üzerinde dağıtım |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 274 | frontend.readingNextGroup.Developer tools | Developer tools | Developer tools | Geliştirici araçları |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 275 | frontend.readingNextGroup.Explore the network | Explore the network | Explore the network | Ağı keşfet |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 276 | menuLabels.Explore the network | Explore the network | Explore the network | Ağı keşfet |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 277 | frontend.readingNextGroup.Media | Media | Media | Medya |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 278 | menuLabels.Media | Media | Media | Medya |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 279 | frontend.readingNextGroup.Understand Zcash | Understand Zcash | Understand Zcash | Zcash'i anlayın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 280 | menuLabels.Understand Zcash | Understand Zcash | Understand Zcash | Zcash'i anlayın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 281 | frontend.readingNextGroup.ZecHub and resources | ZecHub and resources | ZecHub and resources | ZecHub ve kaynaklar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 282 | menuLabels.ZecHub and resources | ZecHub and resources | ZecHub and resources | ZecHub ve kaynaklar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 283 | frontend.readingNextGroup.Swaps and exchanges | Swaps and exchanges | Swaps and exchanges | Takaslar ve borsalar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 284 | menuLabels.Swaps and exchanges | Swaps and exchanges | Swaps and exchanges | Takaslar ve borsalar |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 285 | frontend.readingNextGroup.Pay and get paid | Pay and get paid | Pay and get paid | Ödeyin ve ödeme alın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 286 | menuLabels.Pay and get paid | Pay and get paid | Pay and get paid | Ödeyin ve ödeme alın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 287 | frontend.readingNextGroup.Understand | Understand | Understand | Anlayın |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 288 | frontend.readingNextGroup.Mining | Mining | Mining | Mining |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 289 | menuLabels.Mining | Mining | Mining | Mining |  | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 290 | frontend.readingNextGroup.Tools | Tools | Tools | Araçlar |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 291 | frontend.readingNextGroup.Governance and security | Governance and security | Governance and security | Yönetişim ve güvenlik |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 292 | menuLabels.Governance and security | Governance and security | Governance and security | Yönetişim ve güvenlik |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 293 | frontend.readingNextGroup.Calls and events | Calls and events | Calls and events | Toplantılar ve etkinlikler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 294 | menuLabels.Calls and events | Calls and events | Calls and events | Toplantılar ve etkinlikler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. |
-| 295 | frontend.drawer.Dashboard | Dashboard | Dashboard | Gösterge Paneli |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 296 | frontend.drawer.Visualizer | Visualizer | Visualizer | Görselleştirici |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 297 | frontend.drawer.Builders | Builders | Builders | Geliştiriciler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 298 | frontend.drawer.Bounties | Bounties | Bounties | Ödüller |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 299 | frontend.drawer.Explore | Explore | Explore | Keşfet |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 300 | frontend.drawer.Pages | Pages | Pages | Sayfalar |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 301 | navigation.preferences | Preferences | Preferences | Tercihler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. |
-| 302 | frontend.accessible.Open menu | Open menu | Open menu | Menüyü aç |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 303 | frontend.accessible.Close menu | Close menu | Close menu | Menüyü kapat |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 304 | frontend.accessible.Toggle theme | Toggle theme | Toggle theme | Temayı değiştir |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 305 | frontend.accessible.Sections | Sections | Sections | Bölümler |  | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
-| 306 | frontend.series.Overview | Overview | Overview | Genel Bakış |  | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/SideMenu/SideMenu.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. |
+| 241 | menuLabels.Start here | Start here | Start here | Buradan Başlayın | Buradan başlayın | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Buradan başlayın” is a natural entry-point instruction for the first group of learning links. |
+| 242 | menuLabels.How Zcash works | How Zcash works | How Zcash works | Zcash nasıl çalışır | Zcash nasıl çalışır | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Zcash nasıl çalışır” directly labels explanatory material about the protocol's operation. |
+| 243 | menuLabels.Go deeper | Go deeper | Go deeper | Daha Derine İn | Derinlemesine | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Derinlemesine” is a compact heading for advanced material without turning the category title into an unnecessarily long command. |
+| 244 | menuLabels.Visualize | Visualize | Visualize | Görselleştir | Görselleştirin | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Görselleştirin” directs readers to tools that render Zcash data visually. |
+| 245 | menuLabels.Reference | Reference | Reference | Başvuru kaynakları | Başvuru kaynakları | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Başvuru kaynakları” makes clear that the group contains material consulted for technical reference. |
+| 246 | menuLabels.More | More | More | Daha Fazla | Daha fazla | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Daha fazla” is the conventional compact label for additional navigation items. |
+| 247 | menuLabels.Get started | Get started | Get started | Başlayın | Başlayın | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Başlayın” is a concise entry command for onboarding content. |
+| 248 | menuLabels.Spend & pay | Spend & pay | Spend & pay | Harcayın ve ödeyin | Harcayın ve ödeyin | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Harcayın ve ödeyin” retains both actions: spending ZEC and making payments. |
+| 249 | menuLabels.Understand | Understand | Understand | Anlayın | Anlayın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Anlayın” labels explanatory material intended to help the reader understand the subject. |
+| 250 | menuLabels.Community | Community | Community | Topluluk | Topluluk | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Topluluk” is the direct category name for community resources. |
+| 251 | menuLabels.Media & events | Media & events | Media & events | Medya ve etkinlikler | Medya ve etkinlikler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Medya ve etkinlikler” preserves both the media archive and event content grouped here. |
+| 252 | menuLabels.Organizations & governance | Organizations & governance | Organizations & governance | Kuruluşlar ve yönetişim | Kuruluşlar ve yönetişim | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Kuruluşlar ve yönetişim” distinguishes ecosystem bodies from the decision-making processes grouped with them. |
+| 253 | menuLabels.Live data | Live data | Live data | Canlı veriler | Canlı veriler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Canlı veriler” identifies current, updating network or ecosystem measurements. |
+| 254 | menuLabels.Protocol | Protocol | Protocol | Protokol | Protokol | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Protokol” is the standard Turkish technical label for protocol-level material. |
+| 255 | menuLabels.Cryptography | Cryptography | Cryptography | Kriptografi | Kriptografi | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Kriptografi” is the established Turkish name for the mathematical security topic. |
+| 256 | menuLabels.Addresses & assets | Addresses & assets | Addresses & assets | Adresler ve varlıklar | Adresler ve varlıklar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Adresler ve varlıklar” preserves both address technology and asset-related material in the group. |
+| 257 | menuLabels.Run a node | Run a node | Run a node | Düğüm çalıştırın | Düğüm çalıştırın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Düğüm çalıştırın” uses the selected translation of node and describes operating one, not merely installing software. |
+| 258 | menuLabels.Upgrade & verify | Upgrade & verify | Upgrade & verify | Yükseltin ve doğrulayın | Yükseltin ve doğrulayın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Yükseltin ve doğrulayın” preserves the two actions covered by release migration and verification guides. |
+| 259 | menuLabels.Wallets & signing | Wallets & signing | Wallets & signing | Cüzdanlar ve imzalama | Cüzdanlar ve imzalama | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Cüzdanlar ve imzalama” groups wallet software with transaction/message signing operations. |
+| 260 | menuLabels.Privacy & networks | Privacy & networks | Privacy & networks | Gizlilik ve ağlar | Gizlilik ve ağlar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Gizlilik ve ağlar” preserves both privacy tools and network-layer privacy topics. |
+| 261 | menuLabels.Payments & creators | Payments & creators | Payments & creators | Ödemeler ve içerik üreticileri | Ödemeler ve içerik üreticileri | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Ödemeler ve içerik üreticileri” identifies payment tools and creator-oriented use cases without treating creators as payment objects. |
+| 262 | menuLabels.DeFi & swaps | DeFi & swaps | DeFi & swaps | DeFi ve takaslar | DeFi ve takaslar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: DeFi remains the established acronym, while “takaslar” translates cryptoasset swaps. |
+| 263 | menuLabels.Developer tools | Developer tools | Developer tools | Geliştirici araçları | Geliştirici araçları | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/navigation.ts / GroupedLinks. <br><br>Reviewer note: “Geliştirici araçları” is the standard category for software and resources used to build or integrate Zcash. |
+| 264 | menuLabels.Getting started | Getting started | Getting started | İlk adımlar | İlk adımlar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “İlk adımlar” is a natural noun heading for introductory setup and onboarding material. |
+| 265 | frontend.readingNextGroup.Wallets and hardware | Wallets and hardware | Wallets and hardware | Cüzdanlar ve donanım | Cüzdanlar ve donanım | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Cüzdanlar ve donanım” covers both wallet software and physical wallet/device topics. |
+| 266 | menuLabels.Wallets and hardware | Wallets and hardware | Wallets and hardware | Cüzdanlar ve donanım | Cüzdanlar ve donanım | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Cüzdanlar ve donanım” covers both wallet software and physical wallet/device topics. |
+| 267 | frontend.readingNextGroup.Privacy | Privacy | Privacy | Privacy | Gizlilik | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Gizlilik” is the direct Turkish category term for privacy-preserving use and technology. |
+| 268 | menuLabels.Privacy | Privacy | Privacy | Privacy | Gizlilik | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Gizlilik” is the direct Turkish category term for privacy-preserving use and technology. |
+| 269 | frontend.readingNextGroup.Payments and DeFi | Payments and DeFi | Payments and DeFi | Ödemeler ve DeFi | Ödemeler ve DeFi | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Ödemeler ve DeFi” retains the established DeFi acronym while translating the payment category. |
+| 270 | menuLabels.Payments and DeFi | Payments and DeFi | Payments and DeFi | Ödemeler ve DeFi | Ödemeler ve DeFi | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Ödemeler ve DeFi” retains the established DeFi acronym while translating the payment category. |
+| 271 | frontend.readingNextGroup.Run a node | Run a node | Run a node | Düğüm çalıştırın | Düğüm çalıştırın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Düğüm çalıştırın” uses the selected translation of node and describes operating one, not merely installing software. |
+| 272 | frontend.readingNextGroup.Deploy on Akash | Deploy on Akash | Deploy on Akash | Akash üzerinde dağıtım | Akash üzerinde dağıtım | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Akash üzerinde dağıtım” describes deploying the relevant Zcash software on the Akash platform. |
+| 273 | menuLabels.Deploy on Akash | Deploy on Akash | Deploy on Akash | Akash üzerinde dağıtım | Akash üzerinde dağıtım | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Akash üzerinde dağıtım” describes deploying the relevant Zcash software on the Akash platform. |
+| 274 | frontend.readingNextGroup.Developer tools | Developer tools | Developer tools | Geliştirici araçları | Geliştirici araçları | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Geliştirici araçları” is the standard category for software and resources used to build or integrate Zcash. |
+| 275 | frontend.readingNextGroup.Explore the network | Explore the network | Explore the network | Ağı keşfet | Ağı keşfedin | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Ağı keşfedin” tells readers that the linked tools inspect or visualize the Zcash network. |
+| 276 | menuLabels.Explore the network | Explore the network | Explore the network | Ağı keşfet | Ağı keşfedin | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Ağı keşfedin” tells readers that the linked tools inspect or visualize the Zcash network. |
+| 277 | frontend.readingNextGroup.Media | Media | Media | Medya | Medya | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Medya” is the established Turkish category for audio, video, and publication content. |
+| 278 | menuLabels.Media | Media | Media | Medya | Medya | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Medya” is the established Turkish category for audio, video, and publication content. |
+| 279 | frontend.readingNextGroup.Understand Zcash | Understand Zcash | Understand Zcash | Zcash'i anlayın | Zcash'i anlayın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Zcash'i anlayın” identifies explanatory resources rather than instructions to use or buy Zcash. |
+| 280 | menuLabels.Understand Zcash | Understand Zcash | Understand Zcash | Zcash'i anlayın | Zcash'i anlayın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Zcash'i anlayın” identifies explanatory resources rather than instructions to use or buy Zcash. |
+| 281 | frontend.readingNextGroup.ZecHub and resources | ZecHub and resources | ZecHub and resources | ZecHub ve kaynaklar | ZecHub ve kaynaklar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “ZecHub ve kaynaklar” preserves the project name and distinguishes its resource collection. |
+| 282 | menuLabels.ZecHub and resources | ZecHub and resources | ZecHub and resources | ZecHub ve kaynaklar | ZecHub ve kaynaklar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “ZecHub ve kaynaklar” preserves the project name and distinguishes its resource collection. |
+| 283 | frontend.readingNextGroup.Swaps and exchanges | Swaps and exchanges | Swaps and exchanges | Takaslar ve borsalar | Takaslar ve borsalar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Takaslar ve borsalar” distinguishes asset-swap operations from exchange services. |
+| 284 | menuLabels.Swaps and exchanges | Swaps and exchanges | Swaps and exchanges | Takaslar ve borsalar | Takaslar ve borsalar | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Takaslar ve borsalar” distinguishes asset-swap operations from exchange services. |
+| 285 | frontend.readingNextGroup.Pay and get paid | Pay and get paid | Pay and get paid | Ödeyin ve ödeme alın | Ödeyin ve ödeme alın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Ödeyin ve ödeme alın” preserves both outgoing payment and receiving-payment use cases. |
+| 286 | menuLabels.Pay and get paid | Pay and get paid | Pay and get paid | Ödeyin ve ödeme alın | Ödeyin ve ödeme alın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Ödeyin ve ödeme alın” preserves both outgoing payment and receiving-payment use cases. |
+| 287 | frontend.readingNextGroup.Understand | Understand | Understand | Anlayın | Anlayın | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Anlayın” labels explanatory material intended to help the reader understand the subject. |
+| 288 | frontend.readingNextGroup.Mining | Mining | Mining | Mining | Madencilik | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Madencilik” is the established Turkish crypto term for proof-of-work block production. |
+| 289 | menuLabels.Mining | Mining | Mining | Mining | Madencilik | Context (not reviewer answer): Current English fallback/placeholder; native rendering or explicit keep-English decision needed. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Madencilik” is the established Turkish crypto term for proof-of-work block production. |
+| 290 | frontend.readingNextGroup.Tools | Tools | Tools | Araçlar | Araçlar | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Araçlar” is the natural category name for software utilities and services. |
+| 291 | frontend.readingNextGroup.Governance and security | Governance and security | Governance and security | Yönetişim ve güvenlik | Yönetişim ve güvenlik | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Yönetişim ve güvenlik” keeps decision-making and ecosystem security as distinct grouped topics. |
+| 292 | menuLabels.Governance and security | Governance and security | Governance and security | Yönetişim ve güvenlik | Yönetişim ve güvenlik | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Yönetişim ve güvenlik” keeps decision-making and ecosystem security as distinct grouped topics. |
+| 293 | frontend.readingNextGroup.Calls and events | Calls and events | Calls and events | Toplantılar ve etkinlikler | Toplantılar ve etkinlikler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / ContinueReading. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Toplantılar ve etkinlikler” covers scheduled community calls as well as broader events. |
+| 294 | menuLabels.Calls and events | Calls and events | Calls and events | Toplantılar ve etkinlikler | Toplantılar ve etkinlikler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/constants/readingPaths.ts / SideMenu. <br><br>Reviewer note: “Toplantılar ve etkinlikler” covers scheduled community calls as well as broader events. |
+| 295 | frontend.drawer.Dashboard | Dashboard | Dashboard | Gösterge Paneli | Gösterge paneli | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Gösterge paneli” is the selected glossary term for a screen summarizing metrics and status. |
+| 296 | frontend.drawer.Visualizer | Visualizer | Visualizer | Görselleştirici | Görselleştirici | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Görselleştirici” names a tool that presents network or protocol data visually. |
+| 297 | frontend.drawer.Builders | Builders | Builders | Geliştiriciler | Geliştiriciler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: In this developer-oriented drawer, “Geliştiriciler” is the concise audience label used elsewhere in the UI. |
+| 298 | frontend.drawer.Bounties | Bounties | Bounties | Ödüller | Ödüllü görevler | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: A bounty is a rewarded task, not merely a reward already won; “Ödüllü görevler” preserves the work component. |
+| 299 | frontend.drawer.Explore | Explore | Explore | Keşfet | Keşfet | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Keşfet” is the conventional concise navigation command for browsing available content. |
+| 300 | frontend.drawer.Pages | Pages | Pages | Sayfalar | Sayfalar | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/Navigation/Navigation.tsx / mobile drawer. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Sayfalar” labels the drawer section containing site pages. |
+| 301 | navigation.preferences | Preferences | Preferences | Tercihler | Tercihler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. <br><br>Reviewer note: “Tercihler” is the standard interface label for user-configurable options. |
+| 302 | frontend.accessible.Open menu | Open menu | Open menu | Menüyü aç | Menüyü aç | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Menüyü aç” states the accessibility control's action and object explicitly. |
+| 303 | frontend.accessible.Close menu | Close menu | Close menu | Menüyü kapat | Menüyü kapat | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Menüyü kapat” states the accessibility control's action and object explicitly. |
+| 304 | frontend.accessible.Toggle theme | Toggle theme | Toggle theme | Temayı değiştir | Temayı değiştir | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Temayı değiştir” describes switching the interface theme without exposing the technical verb “toggle”. |
+| 305 | frontend.accessible.Sections | Sections | Sections | Bölümler | Bölümler | Context (not reviewer answer): Coordinator/AI draft suggestion, not native-approved. Display is selected by src/components/Navigation/Navigation.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Bölümler” is the accessibility label for the page's navigable content sections. |
+| 306 | frontend.series.Overview | Overview | Overview | Genel Bakış | Genel bakış | Context (not reviewer answer): Reuses current same-label dictionary wording (not native-approved). Display is selected by src/components/SideMenu/SideMenu.tsx. Currently source-only/hardcoded: accepting a word does not localize this component by itself. <br><br>Reviewer note: “Genel bakış” is the conventional heading for a series or page summary. |
 
 ## Historical row continuity
 
