@@ -1,6 +1,18 @@
-# Nym VPN 
+<a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_VPN.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+</a>
 
-Nym is an evolving mix network (mixnet), a type of computer network infrastructure for privacy that masks user metadata, separating source and destination IP addresses. It anonymizes various types of communication, including messaging, files transfers, payments transactions, and web browsing on basic websites. The project is built on free and open-source software and is decentralized, maintained by a distributed set of independent nodes worldwide.Nym VPN & Mixnet accepts payment in shielded ZEC! 
+# Nym VPN
+
+## TL;DR
+
+* NymVPN routes traffic through the Nym mixnet, a decentralized network that separates source and destination IP addresses to hide user metadata.
+* NymVPN accepts payment in shielded ZEC.
+* The video below shows how to buy NymVPN with ZEC; installation videos for iOS, macOS, Windows and Android are at the end of this page.
+
+## Core Explanation
+
+Nym is an evolving mix network (mixnet), a type of computer network infrastructure for privacy that masks user metadata, separating source and destination IP addresses. It anonymizes various types of communication, including messaging, files transfers, payments transactions, and web browsing on basic websites. The project is built on free and open-source software and is decentralized, maintained by a distributed set of independent nodes worldwide. Nym VPN & Mixnet accepts payment in shielded ZEC! 
 
 [Nym Blog Post](https://nym.com/blog/nymvpn-with-zcash) | [Download Nym VPN](https://nym.com)
 
@@ -26,9 +38,8 @@ Bypass geo-restrictions to access streaming services, websites, or content unava
 
 Protect your data from hackers when using public Wi-Fi in cafes, airports, or hotels.
 
-### Advanced Privacy In One 
+### Advanced Privacy In One
 
-Protect your privacy
 Encrypt your internet connection to hide your online activities from ISPs, advertisers, and data trackers.
 
 ### Be anonymous online
@@ -56,7 +67,7 @@ Hide your location to avoid price discrimination based on location for flights, 
 Protect your cryptocurrency activities with NymVPN's unlinkable payments and advanced metadata protection.
 
 
-## Nym VPN Installation Guides:
+## Nym VPN Installation Guides
 
 [iOS](https://vimeo.com/1083490444/81e95709b0) 
 
