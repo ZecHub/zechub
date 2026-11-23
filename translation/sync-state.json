@@ -10375,7 +10375,7 @@
       "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna+es-review-followup",
+      "tool": "codex/gpt-6-luna+es-review-followup+es-review-followup-fix",
       "edited": false
     },
     "Research/FROST_and_Viewing_Keys_Zcash_Dash_Interop.md": {
@@ -10543,7 +10543,7 @@
       "src_commit": "e929ccc0f887a914d451ae9900904a5e2cb2f8e2",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-5.6-terra+es-review-followup",
+      "tool": "codex/gpt-5.6-terra+es-review-followup+es-review-followup-fix",
       "edited": false
     },
     "Using_Zcash/Unified_Addresses.md": {
