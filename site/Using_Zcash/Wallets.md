@@ -302,7 +302,7 @@
 - Source Code: https://github.com/SafePalWallet/safepal-app
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
-- Wallet Support: Seed Phrase | Hardware | Ledger | SafePal
+- Wallet Support: Seed Phrase | Hardware | Ledger | Safepal
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
