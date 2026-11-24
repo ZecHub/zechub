@@ -550,3 +550,31 @@
 - Source: Open Source
 
 ---
+
+## [Zecky Lock it](https://zecky.app/)
+![logo](/content-images/wallets/zecky.webp "Zecky Lock it")
+- Source Code: https://github.com/zecky-app
+- Devices: Desktop
+- Operating System: macOS | Windows
+- Wallet Support: 24-Word Seed Phrase | Own Node (pruned) | Hardware | Keystone | Security Key
+- Pools: Transparent | Sapling | Orchard | Ironwood
+- Features: Address Book | Genuine Node (macOS, experimental) | Multiple Wallets | Own Node (Go Max) | TEX Address | Time Lock | Tor Support
+- NU7: Compatible
+- Stage: Beta
+- Source: Open Source
+
+---
+
+## [Pendrake Watch](https://github.com/auzum197/pendrake-watch)
+![logo](/content-images/wallets/pendrake-watch.webp "Pendrake Watch")
+- Source Code: https://github.com/auzum197/pendrake-watch
+- Devices: Desktop
+- Operating System: macOS | Windows | Linux
+- Wallet Support: Viewing Keys | Watch-Only
+- Pools: Transparent | Sapling | Orchard | Ironwood
+- Features: Background Sync | Desktop Notifications | Passphrase Lock | Regtest Support
+- NU7: Not Verified
+- Stage: Beta
+- Source: Open Source
+
+---
