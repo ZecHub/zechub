@@ -5,7 +5,7 @@
 - Source Code: https://github.com/zodl-inc
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | 24-Word Seed Phrase | Self-Custody
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | 24-Word Seed Phrase | Self-Custodial
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Offline Signing | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting | OHTTP
 - NU7: Compatible
@@ -43,7 +43,7 @@
 - Source Code: https://github.com/zingolabs/zingo-mobile
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | 24-Word Seed Phrase | Self-Custody
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | 24-Word Seed Phrase | Self-Custodial
 - Pools: Transparent | Sapling | Ironwood
 - Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
 - Nym Mixnet: Supported
@@ -95,7 +95,7 @@
 - Source Code: https://github.com/hhanh00/zkool2
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | Self-Custody
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | Self-Custodial
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Rotation | Encrypted Backup | Multisig - FROST | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - Nym Mixnet: Supported
@@ -109,7 +109,7 @@
 - Source Code: https://github.com/cake-tech/cake_wallet
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Self-Custody
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Self-Custodial
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
 - NU7: Compatible
@@ -214,7 +214,7 @@
 - Source Code: https://github.com/anoma/zillions
 - Devices: Web
 - Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address | Hardware | Self-Custody
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Self-Custodial
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Request | Pool Transfer | Shielded Memo
 - NU7: Compatible
@@ -340,7 +340,7 @@
 - Source Code: https://github.com/chainapsis/vizor-wallet
 - Devices: Desktop | Mobile
 - Operating System: Windows | macOS | Linux | Android | iOS
-- Wallet Support: Seed Phrase | Unified Address | Hardware | 24-Word Seed Phrase | Self-Custody
+- Wallet Support: Seed Phrase | Unified Address | Hardware | 24-Word Seed Phrase | Self-Custodial
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Gift Cards | NEAR Intents | Offline Signing | Shielded Memo | Testnet Support | Voting
 - NU7: Compatible
@@ -353,7 +353,7 @@
 - Source Code: https://github.com/NoirWallet/noir-wallet
 - Devices: Web | Desktop
 - Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address | Hardware | Self-Custody
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Self-Custodial
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names | Voting
 - NU7: Compatible
@@ -419,7 +419,7 @@
 - Source Code: https://github.com/LEONINE-DAO/Nozy-wallet
 - Devices: Desktop | Web
 - Operating System: Windows | Linux | macOS | Browser
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node | 24-Word Seed Phrase | Self-Custody
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Spending Key | Full Node | 24-Word Seed Phrase | Self-Custodial
 - Pools: Ironwood
 - Features: Address Book | I2P Support | Shielded Memo | Tor Support | Transaction Export
 - Nym Mixnet: Supported
@@ -486,7 +486,7 @@
 - Source Code: https://github.com/rotkonetworks/zafu/
 - Devices: Web
 - Operating System: Windows | macOS | Linux
-- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | Self-Custody | Unified Address | Keystone | 24-Word Seed Phrase | 12-Word Seed Phrase
+- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | Self-Custodial | Unified Address | Keystone | 24-Word Seed Phrase | 12-Word Seed Phrase
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
 - Features: Address Book | Automatic Shielding | Cross-Chain Bridge | DApp Connections | Encrypted Backup | Fiat Off-ramp | Multi Account | Multi Coin | Shielded Memo | Shielded Transactions | Shielded USDC | Swaps | Multisig - FROST | Messenger | NEAR Intents | Offline Signing | Payment Request | Pool Transfer | QR Payments | Reproducible Build | TEX Address | Testnet Support | Voting
 - Nym Mixnet: Supported
@@ -500,7 +500,7 @@
 - Source Code: https://github.com/laurel-cash/laurel
 - Devices: Mobile
 - Operating System: Android | Windows | Linux
-- Wallet Support: 24-Word Seed Phrase | Wallet Import | Offline Signing | Viewing Keys | Self-Custody
+- Wallet Support: 24-Word Seed Phrase | Wallet Import | Offline Signing | Viewing Keys | Self-Custodial
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Shielded Transactions | QR Payments | Pool Transfers | Offline Signing | Encrypted Backup
 - NU7: Not Ready
@@ -514,7 +514,7 @@
 - Source Code: https://github.com/ChinmayGopal931/vizor-fork
 - Devices: Mobile
 - Operating System: iOS | Android
-- Wallet Support: Seed Phrase | Self-Custody | Keystone | Ledger | 24-Word Seed Phrase
+- Wallet Support: Seed Phrase | Self-Custodial | Keystone | Ledger | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | RAILGUN (0zkUSDC)
 - Features: Shielded Transactions | Shielded USDC | Atomic Swaps | Cross-Chain Bridge | Voting
 - NU7: Not Ready
