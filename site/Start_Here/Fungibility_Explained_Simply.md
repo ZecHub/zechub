@@ -42,7 +42,7 @@ Bitcoin and Ethereum record every transfer on a public ledger. Anyone can follow
 
 ## Strangers can taint your wallet
 
-In August 2022 the U.S. Treasury sanctioned Tornado Cash, an Ethereum mixing tool. The next day an anonymous user sent 0.1 ETH from Tornado Cash to more than 600 public wallets, among them those of Jimmy Fallon, Coinbase CEO Brian Armstrong and Tron founder Justin Sun. Nobody asked for these coins.
+In August 2022 the U.S. Treasury sanctioned Tornado Cash, an Ethereum mixing tool. The next day an anonymous user sent 0.1 ETH from Tornado Cash to more than 600 public wallets, among them those of Jimmy Fallon, Coinbase CEO Brian Armstrong and TRON founder Justin Sun. Nobody asked for these coins.
 
 The lending app Aave ran wallet screening on its website, and the screening flagged every wallet that had received coins from Tornado Cash. Justin Sun found his address blocked there. Aave fixed the settings within days.
 
