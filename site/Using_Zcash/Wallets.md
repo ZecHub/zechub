@@ -551,14 +551,14 @@
 
 ---
 
-## [Zecky](https://zecky.app/)
-![logo](/content-images/wallets/zecky.webp "Zecky")
+## [Zecky Lock it](https://zecky.app/)
+![logo](/content-images/wallets/zecky.webp "Zecky Lock it")
 - Source Code: https://github.com/zecky-app
 - Devices: Desktop
 - Operating System: macOS | Windows
-- Wallet Support: 24-Word Seed Phrase | Full Node | Security Key
-- Pools: Sapling | Orchard | Ironwood
-- Features: Address Book | Multiple Wallets | Own Node (Go Max) | Tor Support
+- Wallet Support: 24-Word Seed Phrase | Own Node (pruned) | Hardware | Keystone | Security Key
+- Pools: Transparent | Sapling | Orchard | Ironwood
+- Features: Address Book | Genuine Node (macOS, experimental) | Multiple Wallets | Own Node (Go Max) | TEX Address | Time Lock | Tor Support
 - NU7: Compatible
 - Stage: Beta
 - Source: Open Source
