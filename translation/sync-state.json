@@ -23633,10 +23633,10 @@
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
-      "src": "sha256:55bf5d18d2dfe857362a360f7c882548f6ecd11d01dd7238a4207c6d740a0519",
-      "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
+      "src": "sha256:7a72b2e1fedcd1c5073475a7f9fb5b03d420a57ab781c1ef4f8f962397171931",
+      "src_commit": "6fd4883f0f89c7a4ae387a9713308f46140ddcaf",
       "engine": "llm",
-      "mode": "full",
+      "mode": "diff",
       "tool": "codex/gpt-6-luna",
       "edited": false
     },
@@ -28077,8 +28077,8 @@
       "edited": false
     },
     "Zcash_Tech/Lightwallet_Nodes.md": {
-      "src": "sha256:55bf5d18d2dfe857362a360f7c882548f6ecd11d01dd7238a4207c6d740a0519",
-      "src_commit": "ae55e3952d7af543e758107f72f5d5555a6d12ac",
+      "src": "sha256:7a72b2e1fedcd1c5073475a7f9fb5b03d420a57ab781c1ef4f8f962397171931",
+      "src_commit": "6fd4883f0f89c7a4ae387a9713308f46140ddcaf",
       "engine": "llm",
       "mode": "diff",
       "tool": "codex/gpt-6-luna",
