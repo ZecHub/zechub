@@ -166,7 +166,7 @@ Unified Address'leri incelemek için tarayıcı tabanlı Zcash Unified Address a
 Zcash kabul eden işletmelerin ve yerlerin küresel haritası.  
 [Ziyaret et](https://zecmap.com/)
 
-### ZECping
+### zecping
 Zcash lightwalletd düğümlerinin gRPC yanıt sürelerini kontrol etmeye yarayan araç.  
 [Ziyaret et](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Zcash ekosisteminde daha geniş çaplı benimsenmek üzere geliştirilen eşik i
 ### MonteZcret Benchmark
 Zcash blokzinciri verilerini senkronize etmek için farklı yöntemleri değerlendiren açık kaynaklı performans test projesi.  
 [Ziyaret et](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Canlı demolarla geliştiricilerin Zcash korumalı note’lar, memo’lar ve anahtarlar kullanarak uygulama geliştirmelerine yönelik kalıplar.  
+[Ziyaret edin](https://appliedzcash.com/)
 
 ---
 

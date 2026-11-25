@@ -1,6 +1,8 @@
-# Zaino インデクサー（Indexer）
+<a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Zaino.md" target="_blank">
+  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+</a>
 
-Zainoは、ZcashブロックチェーンのためのRustインデクサーです。Zebraフルノード（full node）からチェーン（chain）データを読み取り、ウォレット（wallet）、エクスプローラー、フォーセット（faucet）、その他のサービスが必要とするデータを提供します。これにより、Zebra自体がすべてのクライアント向けインデックスを担う必要はありません。
+# Zaino インデクサー（Indexer）
 
 ## 要約
 
@@ -10,7 +12,11 @@ Zainoは、ZcashブロックチェーンのためのRustインデクサーです
 * 独立したZainoサービスは、運用者がlightwalletd互換のgRPCエンドポイント、JSON-RPCプロキシ、またはライトウォレット、エクスプローラー、フォーセット、および類似サービス向けのインフラストラクチャを必要とする場合に役立ちます。
 * Zainoは稼働中のインフラストラクチャですが、本番環境で実行する前に、運用者は現在のデプロイメント詳細について公式のZainoおよびZ3のドキュメントを確認する必要があります。
 
-## Zainoの機能
+## 基本説明
+
+ZainoはZcashブロックチェーン向けのRustインデクサーです。Zebraフルノードからチェーンデータを読み取ります。Zebraがすべてのクライアント向けインデックスを担うことなく、ウォレット、エクスプローラー、フォーセット、その他のサービスに必要なデータを提供します。
+
+### Zainoの役割
 
 Zainoは、Zebraとクライアントソフトウェアの間に位置します。Zebraはコンセンサス（consensus）ノードです。Zcashブロックチェーンをダウンロード、検証、追跡します。ZainoはZebraをチェーンデータのソースとして使用し、クライアントアプリケーションが効率的にクエリできるインデックス付きビューを準備します。
 
@@ -23,9 +29,9 @@ Zainoは、Zebraとクライアントソフトウェアの間に位置します�
 | Zallet | ウォレットサービス |
 | lightwalletd | Zainoが置き換える、または補完するよう設計された旧来のライトウォレットサーバー |
 
-Zainoは、ライトクライアント（light client）、フルクライアントまたはウォレット、ブロックエクスプローラー向けの機能を提供します。Zebraが保持する、確定済みチェーン、未確定のベストチェーン、およびメモリプールデータへのアクセスを提供します。
+Zainoはライトクライアント、フルクライアントやウォレット、ブロックエクスプローラー向けの機能を提供します。確定済みチェーン、未確定の最良チェーン、およびZebraが保持するメンプールデータにアクセスできます。
 
-## 現在のZcash Stackにおける位置付け
+### 現行のZcash Stackにおける位置づけ
 
 現在のZ3スタックは、Zebra、Zallet、および任意のZainoを中心に構築されています。
 
@@ -39,13 +45,39 @@ Zainoは、運用者が外部クライアントにサービスを提供したい
 
 このため、Zainoは特に、ウォレットバックエンド、公開インフラストラクチャ運用者、エクスプローラー、フォーセット、およびインデックス化されたZcashチェーンデータを必要とするサービスをテストするdeveloperに関連します。
 
-## Zainoとlightwalletd
+### Zainoとlightwalletd
 
 lightwalletdは元のライトウォレットサーバーです。Zainoは、この役割のためのRustベースの後継パスです。その目標は、可能な限り互換性のあるAPIを提供し、ウォレットとサービスが一度に完全に書き直すことなく移行できるようにすることです。
 
 これは、すべてのlightwalletdデプロイメントがすでにZainoへ移行したことを意味するわけではありません。運用者はZainoを、現在のZebraベースのスタックの一部として扱い、何を実行するか選ぶ前に、最新のプロジェクトドキュメント、リリース、サービスダッシュボードを確認する必要があります。
 
-## 運用者向け注記
+## 視覚的な説明 / たとえ
+
+Zcashブロックチェーンを、台帳のページが詰まった巨大なアーカイブだと考えてください。
+
+Zebraはアーキビストです。新しいページをすべて受け取り、そのページがルールに従っているかを確認し、適切な場所に保管します。
+
+Zainoはアーカイブの前にある案内デスクです。Zebraが保管した内容を読み取り、素早く検索できる目録を作成して、来訪者の質問にすばやく答えます。ライトウォレット、エクスプローラー、フォーセットは、「このブロックには何が含まれていますか？」や「メンプールで待機しているトランザクションはどれですか？」といった質問をしに、この案内デスクを訪れます。案内デスクがページの正当性を判断することはありません。その役割はアーキビストが担います。
+
+デフォルトのZ3構成では、Zalletは同じ建物内で動作し、アーキビストのところへ直接向かいます。案内デスクを必要としません。
+
+### Zainoの動作を示す図
+
+#### Zainoの内部アーキテクチャ
+
+![Zainoの内部アーキテクチャ](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+
+#### Zainoのライブサービスアーキテクチャ
+
+![Zebraのライブサービスアーキテクチャ](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+
+#### Zainoのシステムアーキテクチャ
+
+![Zainoのシステムアーキテクチャ](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+
+## 詳細
+
+### 運用者向けの注意事項
 
 最も簡単で権威あるデプロイメントパスは、Z3リポジトリです。Z3には、任意のサービスとしてZainoが含まれています。
 
@@ -55,21 +87,7 @@ docker compose --env-file .env.<network> --profile indexer up -d
 
 通常のZ3セットアップを先に実行し、メインネットまたはテストネットで依存サービスを開始する前に、Zebraが同期するまで待ってください。
 
-Zainoは2種類のネットワークサービスを公開します。gRPCサービスはライトウォレット向けAPIです。JSON-RPCサービスは、外部レイヤーが保護を提供しない限り、ループバックまたは信頼できるプライベートネットワーク向けです。認証されていない、または暗号化されていないJSON-RPCエンドポイントをパブリックインターネットに公開しないでください。
-
-## Zainoの仕組みを示すいくつかの図
-
-### Zainoの内部アーキテクチャ
-
-![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
-
-### Zainoのライブサービスアーキテクチャ
-
-![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
-
-### Zainoのシステムアーキテクチャ
-
-![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+Zainoは2種類のネットワークサービスを提供します。gRPCサービスはライトウォレット向けAPIです。JSON-RPCサービスは、別の保護レイヤーがない限り、ループバックまたは信頼できるプライベートネットワークでの利用を想定しています。認証や暗号化のないJSON-RPCエンドポイントを公開インターネットに公開しないでください。
 
 ## よくある間違い
 
@@ -81,14 +99,24 @@ Zainoは2種類のネットワークサービスを公開します。gRPCサー�
 
 **JSON-RPCを不注意に公開すること。** ZainoのJSON-RPCインターフェースは、別のレイヤーによって保護されない限り、ループバックまたは信頼できるプライベートネットワーク向けです。
 
-## 詳しく学ぶには？
+## 関連ページ
 
-* [ZainoリポジトリGitHub](https://github.com/zingolabs/zaino)
+- [ライトウォレットノード](/zcash-tech/lightwallet-nodes)：ライトウォレットが接続するサーバーであるlightwalletdとZaino、およびそれらを切り替える方法です。
+- [Zinder](/zcash-tech/zinder)：Zcash Foundationの別のRustインデクサー（アルファ版）です。
+- [Zebraフルノード](/zcash-tech/zebra-full-node)：ノードがチェーンデータを読み取る元ですZaino。
+- [Zallet](/zcash-tech/zallet)：Z3スタックのフルノードウォレットです。
+- [Z3スタック](/zcash-tech/z3-stack)：Zebra、Zallet、およびオプションのZainoインデクサーをまとめてパッケージ化したものです。
+- [インデクサーのベンチマーク：ZainoとZtreamer](/zcash-tech/indexer-benchmark-zaino-vs-ztreamer)：2つのライトウォレットインデクサーを再現可能な方法で比較します。
+- [フルノード](/zcash-tech/full-nodes)：Zcashのフルノードソフトウェアの概要です。
+- [Zcashウォレットの同期](/zcash-tech/zcash-wallet-syncing)：シールドされたウォレットにそもそも同期プロセスが必要な理由です。
+
+### リソース
+
+* [Zaino GitHubリポジトリ](https://github.com/zingolabs/zaino)
 * [Zainoリリース](https://github.com/zingolabs/zaino/releases)
-* [Zaino生成ドキュメント](https://zingolabs.github.io/zaino/)
-* [Z3デプロイメントリポジトリ](https://github.com/ZcashFoundation/z3)
+* [Zaino生成されたドキュメント](https://zingolabs.github.io/zaino/)
+* [Z3デプロイリポジトリ](https://github.com/ZcashFoundation/z3)
 * [Zebraドキュメント](https://zebra.zfnd.org/)
-* [Zainoの助成金およびプロジェクトに関する議論](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
-* [Zinder](/zcash-tech/zinder)、Zcash Foundation（alpha）からのもう1つのRustインデクサー
+* [Zaino助成金とプロジェクトに関する議論](https://forum.zcashcommunity.com/t/zingo-labs-accelerates-zcashd-deprecation-with-zaino/48545)
 
-**最終更新:** 2026年8月
+**最終更新日:** 2026年11月

@@ -166,7 +166,7 @@ Block explorer σχεδιασμένος για δοκιμή συναλλαγών
 Παγκόσμιος χάρτης επιχειρήσεων και τοποθεσιών που δέχονται Zcash.  
 [Επίσκεψη](https://zecmap.com/)
 
-### ZECping
+### zecping
 Εργαλείο για τον έλεγχο των χρόνων απόκρισης gRPC των κόμβων Zcash lightwalletd.  
 [Επίσκεψη](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Toolkit Linux-first που δημιουργεί ένα δίκτυο regtest το
 ### MonteZcret Benchmark
 Έργο ανοιχτού κώδικα για δοκιμές απόδοσης, το οποίο αξιολογεί διαφορετικές μεθόδους συγχρονισμού δεδομένων blockchain Zcash.  
 [Επίσκεψη](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Μοτίβα για προγραμματιστές του Zcash ώστε να δημιουργούν εφαρμογές με θωρακισμένα note, σημειώματα και κλειδιά, με ζωντανές επιδείξεις.  
+[Επισκέψου](https://appliedzcash.com/)
 
 ---
 

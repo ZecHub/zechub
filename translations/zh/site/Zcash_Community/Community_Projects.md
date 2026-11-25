@@ -166,7 +166,7 @@ YWallet 的继任者。支持当前的屏蔽池 Ironwood。
 接受 Zcash 的企业和地点全球地图。  
 [访问](https://zecmap.com/)
 
-### ZECping
+### zecping
 用于检查 Zcash lightwalletd 节点 gRPC 响应时间的工具。  
 [访问](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Zcash 生态系统中以隐私为先的市场。支付直接结算，平台绝�
 ### MonteZcret 基准测试
 评估同步 Zcash blockchain 数据的不同方法的开源性能测试项目。  
 [访问](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+帮助 Zcash 开发者基于屏蔽 note、备忘录和密钥构建应用的模式，附带实时演示。  
+[访问](https://appliedzcash.com/)
 
 ---
 

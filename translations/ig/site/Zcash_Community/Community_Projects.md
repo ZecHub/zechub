@@ -166,7 +166,7 @@ Ntụgharị Unified Address Zcash dabere na nchọgharị maka inyocha Unified 
 Map ụwa niile nke azụmahịa na ebe na-anabata Zcash.  
 [Gaa leta](https://zecmap.com/)
 
-### ZECping
+### zecping
 Ngwá ọrụ iji lelee oge nzaghachi gRPC nke node Zcash lightwalletd.  
 [Gaa leta](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Nnwale n'usoro nke akụkụ parsing, netwọkụ, na cryptographic nke Zebra me
 ### MonteZcret Benchmark
 Ọrụ nnwale arụmọrụ open-source nke na-enyocha ụzọ dị iche iche e si emekọrịta data blockchain Zcash.  
 [Gaa leta](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Ụdị maka ndị Zcash onye mmepụta iji wuo ngwa site na note, memo, na igodo nke e chebere echebe, tinyere ngosi dị ndụ.  
+[Gaa](https://appliedzcash.com/)
 
 ---
 

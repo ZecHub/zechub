@@ -166,9 +166,9 @@ Analisador de Unified Address do Zcash no navegador, para inspecionar Unified Ad
 Mapa global de empresas e locais que aceitam Zcash.  
 [Visitar](https://zecmap.com/)
 
-### ZECping
-Ferramenta para verificar os tempos de resposta gRPC de nós Zcash lightwalletd.  
-[Visitar](https://github.com/zecrocks/zecping)
+### zecping
+Ferramenta para verificar os tempos de resposta gRPC dos nós Zcash lightwalletd.  
+[Visite](https://github.com/zecrocks/zecping)
 
 ### ZecStats
 Painel com estatísticas em tempo real da rede do Zcash e métricas de blindagem.  
@@ -263,6 +263,10 @@ Trabalho sobre o esquema de assinaturas de limiar (FROST) em andamento para uma 
 ### MonteZcret Benchmark
 Projeto de código aberto de testes de desempenho que avalia diferentes métodos de sincronização dos dados da blockchain do Zcash.  
 [Visitar](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Padrões para desenvolvedores de Zcash criarem aplicativos usando notes, memorandos e chaves blindadas, com demonstrações ao vivo.  
+[Acesse](https://appliedzcash.com/)
 
 ---
 
