@@ -7,18 +7,18 @@
 
 ## Na nkenke
 
-* Ọtụtụ ndị na-eji Zcash site n’e-akpa ego [wallet] dị mfe, nke na-adịghị ebudata blockchain dum. Kama nke ahụ, ọ na-agwa sava nke rụgoro ọrụ ahụ.
-* Akụrụngwa abụọ na-eje ozi e-akpa ego dị mfe taa: **lightwalletd**, ọrụ mbụ e dere na Go, na **Zaino**, indexer ọhụrụ e dere na Rust.
-* Igodo gị anaghị ahapụ ngwaọrụ gị, sava ahụ enweghị ike imefu ego gị ma ọ bụ gụọ ọnụego na memo ndị dị n’ime Azụmahia [transaction] nke e chebere echebe [shielded] kpamkpam.
-* Ihe sava ahụ nwere ọnọdụ ọma iji mata bụ adreesị IP gị na oge ọrụ gị — Azụmahia nke e chebere echebe na-echebe ihe na-eme na blockchain, ọ bụghị njikọ gị na sava ahụ.
+* Ọtụtụ ndị na-eji Zcash site na light wallet [light wallet], nke na-adịghị ebudata blockchain dum. Kama nke ahụ, ọ na-agwa sava nke rụgoro ọrụ ahụ.
+* Akụrụngwa atọ na-ejikarị enye light wallets ọrụ taa: **lightwalletd** (nke mbụ, Go), **Zaino** (indexer Rust), na ztreamer (indexer Rust na-arụ ọrụ nke ọma sitere na Zcash Labs, nke na-eme ka netwọk fastz.cash ọha na eze rụọ ọrụ).
+* Igodo gị anaghị ahapụ ngwaọrụ gị, sava ahụ enweghị ike imefu ego gị ma ọ bụ gụọ ọnụego na memo ndị dị n’ime Azụmahia nke e chebere echebe kpamkpam.
+* Ihe sava ahụ nwere ọnọdụ ọma iji mata bụ adreesị IP gị na oge ọrụ gị — Azụmahia ndị e chebere echebe na-echebe ihe na-eme na blockchain, ọ bụghị njikọ gị na sava ahụ.
 * Tor na-ewepụ njirimara IP; ọ dị na e-akpa ego ndị e wuru na `zcash_client_backend`, ma na ZODL ọ bụ ntọala dị na Advanced Settings.
-* Ị nwere ike ịgbanwe sava e-akpa ego gị ji, ma ọ bụ mee nke gị — ma lightwalletd na Zaino bụ open source.
+* Ị nwere ike ịgbanwe sava e-akpa ego gị ji, ma ọ bụ mee nke gị — lightwalletd, Zaino, na ztreamer bụ open source.
 
 ## Nkọwa Isi
 
 Ọtụtụ ndị na-eji Zcash site n’e-akpa ego dị mfe, nke na-adịghị ebudata blockchain dum. Kama nke ahụ, ọ na-agwa sava nke rụgoro ọrụ ahụ. Peeji a na-akọwa ihe sava ndị ahụ bụ, ihe ha nwere na enweghị ike ịhụ gbasara gị, otu esi agafe njikọ gị n’elu Tor, na otu esi agbanwe sava e-akpa ego gị ji.
 
-Akụrụngwa abụọ na-eje ozi e-akpa ego dị mfe taa. **lightwalletd** bụ ọrụ mbụ, e dere na Go. **Zaino** bụ indexer ọhụrụ e dere na Rust, e wuru dịka akụkụ nke ọrụ ịkwụsị zcashd.
+Ngwanrọ atọ na-ejekarị ozi e-akpa ego dị mfe taa. **lightwalletd** bụ ọrụ mbụ, e dere na Go. **Zaino** bụ indexer ọhụrụ e dere na Rust, e wuru dịka akụkụ nke ọrụ ịkwụsị zcashd. **ztreamer** bụ indexer Rust na-arụ ọrụ nke ọma nke Zcash Labs, nke na-enye netwọk fastz.cash ọha ike.
 
 ### Ihe sava e-akpa ego dị mfe na-eme
 
@@ -85,27 +85,40 @@ Ihe ịdọ aka ná ntị abụọ. Tor na-ezobe IP gị n’aka sava ahụ, man
 
 Zaino nwere peeji nke ya nwere eserese nhazi, yabụ peeji a na-ekpuchi naanị ọrụ ya dịka sava e-akpa ego dị mfe.
 
+### ztreamer na fastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer) bụ indexer Zcash na sava e-akpa ego dị fechaa nke arụmọrụ ya dị elu, e dere ya na Rust site n'aka Zcash Labs. E mere ya maka igbu oge dị ala na izipu ọtụtụ data ngwa ngwa, ọ bụkwa ya na-arụ netwọk indexer ọha [fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478) (nke a mara ọkwa na 19 Nọvemba 2026).
+
+fastz.cash na-arụ ọrụ nkesa edge mpaghara (ugbu a Frankfurt, London, Virginia, Oregon, São Paulo, Singapore, na Osaka). Mpaghara nke ọ bụla nwere full node nke ya na ndeksi ztreamer mpaghara. TLS na-akwụsị na node. Oge etiti a tụrụ maka nzaghachi mbụ nke oku GetLatestBlock bụ ihe dị ka 35 ms n'ụwa niile. A na-akọ na mmekọrịta nso block na-adị ngwa ihe ruru ~3× karịa lightwalletd ndị na-adịbeghị anya, ebe ndeksi pere mpe (~18 GB) na-eme ka itinye ebe edge ndị ọzọ dị mfe.
+
+Ọnọdụ na ebe njedebe kacha nso: [status.fastz.cash](https://status.fastz.cash).
+
+**Ihe ndetu gbasara Nzuzo:** fastz.cash na-arụkwa ọrụ wallet-pir nke Valar Group. Ndị ọrụ Vizor nwere ike iji ya taa maka ajụjụ sync nke nzuzo na-ebelata metadata sava ahụ na-amụta banyere notes ma ọ bụ mpaghara ndị a na-arịọ. Nke a bụ usoro nzuzo agbakwunyere n’elu ụdị iyi egwu light-wallet nkịtị akọwara n’elu; ọ naghị anọchi Tor ma ọ bụ nhọrọ onye na-arụ ọrụ.
+
+ztreamer bụ sọftụwia nwere koodu mepere emepe, a pụkwara ịrụ ya n’onwe ya (Zakura node etinyere n’ime ya ma ọ bụ n’ụdị dị anya). Dịka lightwalletd na Zaino, ọ na-eje ozi na light-wallet protocol site na gRPC. A ka na-arụsi ọrụ ike n’ịzụlite ya, e mekwara ya ka ọ bụrụ ma akụrụngwa mmepụta ma ebe a na-anwale mmezi protocol light-wallet n’ọdịnihu.
+
 ### Ịgba nke gị
 
-Nhọrọ kasị mma bụ ịbụ onye na-arụ nke gị, nke na-ewepụ ajụjụ ntụkwasị obi kpamkpam. Sava abụọ ahụ bụ open source: [lightwalletd](https://github.com/zcash/lightwalletd) na Go na [Zaino](https://github.com/zingolabs/zaino) na Rust. Ha abụọ na-agụ site na full validator, yabụ ị ga-achọkwa [Zebra](/zcash-tech/zebra-full-node). A na-etinye sava zec.rocks site na [Zcash Stack](/guides/zcash-stack), Helm chart open source na ngwa Compose Docker nke na-arụ Zebra na lightwalletd ọnụ.
+Nhọrọ kachasị mma bụ ka ị bụrụ onye na-arụ ọrụ sava nke gị, nke na-ewepụ kpamkpam ajụjụ ntụkwasị obi. Sava atọ a niile bụ ngwa mepere emepe: [lightwalletd](https://github.com/zcash/lightwalletd) na Go, [Zaino](https://github.com/zingolabs/zaino) na Rust, na [ztreamer](https://github.com/zcashlabs/ztreamer) na Rust. Ha na-agụ site na full validator, ya mere ị ga-achọkwa [Zebra](/zcash-tech/zebra-full-node) ma ọ bụ Zakura. A na-etinye sava zec.rocks site na [Zcash Stack](/guides/zcash-stack), Helm chart mepere emepe na ngwa Compose Docker nke na-arụ Zebra na lightwalletd ọnụ.
 
 ## Mmetụta Bara Uru
 
 ### Ndepụta sava
 
-Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) na-enyocha sava ọha na ahụike ha, ọ bụkwa ebe a ga-enyocha ihe na-arụ ọrụ n’ezie. [status.zec.rocks](https://status.zec.rocks/) na-egosi ọnọdụ ọrụ.
+Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) na-enyocha sava ọha na ahụike ha, ọ bụkwa ebe ị ga-elele ihe na-arụ ọrụ n’ezie. [status.zec.rocks](https://status.zec.rocks/) na-egosi ọnọdụ ọrụ. Maka netwọk fastz.cash, lee [status.fastz.cash](https://status.fastz.cash).
 
 Sava ndị edepụtara na dashboard ahụ n’oge edere ihe a:
 
-| Sava | Ihe edeturu |
+| Sava | Ihe ndetu |
 |:--|:--|
-| zec.rocks:443 | Edepụtara endpoints mpaghara n’akụkụ ya na na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
-| zec-node.cakewallet.com:443 | Na domain Wallet Cake |
-| zec.0xrpc.io:443 | 0xRPC na-agba ya, nke na-enye endpoints ọha n’efu maka ọtụtụ chain ma na-arịọ onyinye iji kpuchie ike ọrụ |
-| zaino.unsafe.zec.rocks:443 | Oge Zaino. Rịba ama hostname ahụ, were ya dị ka ihe nnwale |
-| testnet.zec.rocks:443 | Testnet, nwere oge testnet Zaino edepụtara na zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | Edepụtara ebe njikọ mpaghara n'akụkụ ya na na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Ọ dị na ngalaba Cake Wallet |
+| zec.0xrpc.io:443 | 0xRPC na-arụ ya; ọ na-enye ebe njikọ ọha n'efu maka ọtụtụ chain ma na-arịọ onyinye iji kwụọ ụgwọ ikike |
+| zaino.unsafe.zec.rocks:443 | Ihe atụ Zaino. Rịba aha nnabata ahụ ama; were ya dịka nke a ka na-anwale |
+| testnet.zec.rocks:443 | Testnet, nwere ihe atụ testnet Zaino e depụtara na zaino.testnet.unsafe.zec.rocks |
+| rpc.fastz.cash | Netwọk ztreamer ọha nke Zcash Labs na-arụ. Lelee status.fastz.cash maka ebe njikọ mpaghara na ọnọdụ ọrụ. |
 
-Lelee dashboard kama ịtụkwasị ndepụta a obi. Ndị na-arụ sava na-abịa ma na-apụ, peeji dị ka nke a na-akakarị nká.
+Lelee dashboard kama ịtụkwasị ndepụta a obi. Ndị na-arụ ọrụ na-abịa ma na-apụ, ibe dị otu a na-emekwa ochie.
 
 ### Ịgbanwe sava n’e-akpa ego gị
 
@@ -143,7 +156,7 @@ Ewere screenshot ndị ahụ na March 2025, ngwa ndị ahụ ewepụtakwala mbip
 
 **Iche na Tor na-ewepụ akara ọ bụla**. Tor na-ezobe IP gị n’aka sava ahụ, mana ọ naghị agbanwe ihe sava ahụ na-amụta site n’arịrịọ ị na-eme, ọ na-agbakwụnyekwa latency na syncing.
 
-**Ịtụkwasị ndepụta sava dị na peeji wiki obi**. Ndị na-arụ sava na-abịa ma na-apụ. Lelee [hosh.zec.rocks](https://hosh.zec.rocks/zec) maka ihe na-arụ ọrụ n’ezie tupu ị tụọ e-akpa ego gị aka n’ihe ọ bụla.
+**Ịtụkwasị ndepụta sava dị na ibe wiki obi**. Ndị na-arụ ọrụ na-abịa ma na-apụ. Lelee [hosh.zec.rocks](https://hosh.zec.rocks/zec) na [status.fastz.cash](https://status.fastz.cash) ka ị mara ihe na-arụ ọrụ n’ezie tupu i jiri e-akpa ego gị jikọọ na ihe ọ bụla.
 
 ## Nchịkọta
 
@@ -151,11 +164,12 @@ E-akpa ego dị mfe na-enye gị pool nke e chebere echebe na-enweghị oghere d
 
 ## Peeji Ndị Metụtara
 
-- [Onye nwere ike ịhụ Zcash Kwụọ ụhwọ](/start-here/who-can-see-your-zcash-payment) — nkọwa maka ndị mbido gbasara otu ajụjụ ahụ.
-- [Ihe onye nyocha block nwere ike ịhụ](/zcash-tech/what-a-block-explorer-can-see) — ihe a pụrụ ịhụ na on-chain, ma e jiri ya tụnyere ihe a pụrụ ịhụ n’akụkụ sava.
-- [Zaino](/zcash-tech/zaino) — eserese nhazi na ọrụ sara mbara nke Rust indexer.
-- [Zinder](/zcash-tech/zinder) — indexer alpha nke Zcash Foundation, nke na-ejere e-akpa ego dị fechaa ozi site na ihe nkwụnye dakọtara na lightwalletd.
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator nke sava e-akpa ego dị fechaa na-agụ ozi na ya.
-- [Zcash Mmekọrịta e-akpa ego](/zcash-tech/zcash-wallet-syncing) — otú e-akpa ego gị si ahazi compact blocks sava na-eziga.
+- [Onye nwere ike ịhụ Zcash Ịkwụ Ụhwọ](/start-here/who-can-see-your-zcash-payment) Gị — echiche maka ndị mbido banyere otu ajụjụ ahụ.
+- [Ihe onye na-enyocha block nwere ike ịhụ](/zcash-tech/what-a-block-explorer-can-see) — ihe a na-ahụ na on-chain, ma e jiri ya tụnyere ihe a na-ahụ n’akụkụ sava.
+- [Zaino](/zcash-tech/zaino) — eserese owuwu na ọrụ sara mbara nke Rust indexer.
+- [Zinder](/zcash-tech/zinder) — alpha indexer nke Zcash Foundation, nke na-ejere e-akpa ego dị mfe ozi site na ihe nkwụnye dakọtara na lightwalletd.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — onye na-akwado nkwado nke sava e-akpa ego dị mfe na-agụ ozi n’aka ya.
+- [Zcash Ịmekọrịta e-akpa ego](/zcash-tech/zcash-wallet-syncing) — otu e-akpa ego gị si hazie compact blocks ndị sava na-eziga.
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — indexer Rust dị elu nke netwọkụ fastz.cash na-eji.
 
-**Emelitere ikpeazụ:** August 2026
+**Emelitere ikpeazụ:** Nọvemba 2026

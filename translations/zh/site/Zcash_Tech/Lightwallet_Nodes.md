@@ -8,17 +8,17 @@
 ## TL;DR
 
 * 大多数人通过轻钱包 [light wallet] 使用 Zcash，它不会下载整个 blockchain。相反，它会与已完成该工作的服务器通信。
-* 如今有两款软件为轻钱包提供服务：以 Go 编写的原始服务 **lightwalletd**，以及以 Rust 编写的较新索引器 **Zaino**。
+* 如今常见的轻钱包服务软件有 3 款：**lightwalletd**（原始版本，使用 Go 编写）、**Zaino**（Rust 索引器），以及 ztreamer（来自 Zcash Labs 的高性能 Rust 索引器，为公开的 fastz.cash 网络提供支持）。
 * 您的密钥绝不会离开您的设备，服务器也无法花费您的资金，或读取完全屏蔽 [shielded] 交易中的金额和备忘录。
 * 服务器特别容易获知的是您的 IP 地址及活动时间——屏蔽交易保护的是 blockchain 上发生的事情，而不是您与服务器之间的连接。
 * Tor 会移除 IP 标识符；它可用于基于 `zcash_client_backend` 构建的钱包中，在 ZODL 中则是"高级设置"中的一项设置。
-* 您可以更改钱包使用的服务器，或自行运行服务器——lightwalletd 和 Zaino 都是开源的。
+* 您可以更改钱包使用的服务器，或自行运行服务器——lightwalletd、Zaino 和 ztreamer 都是开源的。
 
 ## 核心说明
 
 大多数人通过轻钱包使用 Zcash，它不会下载整个 blockchain。相反，它会与已完成该工作的服务器通信。本页说明这些服务器是什么、它们能和不能看到您的哪些信息、如何通过 Tor 路由您的连接，以及如何更改钱包使用的服务器。
 
-如今有两款软件为轻钱包提供服务。**lightwalletd** 是以 Go 编写的原始服务。**Zaino** 是以 Rust 编写的较新索引器，作为 zcashd 弃用工作的一部分构建。
+如今有三款软件通常为轻钱包提供服务。**lightwalletd** 是以 Go 编写的原始服务。**Zaino** 是以 Rust 编写的较新索引器，作为 zcashd 弃用工作的一部分构建。**ztreamer** 是来自 Zcash Labs 的高性能 Rust 索引器，为公共 fastz.cash 网络提供支持。
 
 ### 轻钱包服务器的作用
 
@@ -85,27 +85,40 @@ Zaino 开发者也提出了相同论点，并直接引用了威胁模型：需�
 
 Zaino 拥有自己的页面及架构图，因此本页仅介绍其作为轻钱包服务器的角色。
 
+### ztreamer 和 fastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer) 是由 Zcash Labs 使用 Rust 编写的高性能 Zcash 索引器和轻钱包服务器。它专为低延迟和高吞吐量而设计，并为公共 [fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478) 索引器网络提供支持（该网络于 2026 年 11 月 19 日公布）。
+
+fastz.cash 运行区域边缘服务器（目前位于 Frankfurt、London、Virginia、Oregon、São Paulo、Singapore 和 Osaka）。每个区域都有自己的全节点和本地 ztreamer 索引。TLS 在节点处终止。全球范围内，GetLatestBlock 调用的首字节响应时间中位数约为 35 ms。据称，区块范围同步速度最高比近期的 lightwalletd 快约 3 倍；其索引占用空间较小（约 18 GB），因此实际部署更多边缘节点也很方便。
+
+状态和最近的端点：[status.fastz.cash](https://status.fastz.cash)。
+
+**隐私提示：** fastz.cash 也运行 Valar Group 的 wallet-pir 服务。Vizor 用户如今可以使用它进行私密同步查询，减少服务器获知用户请求哪些 note 或范围的元数据。这是在上述常规轻钱包威胁模型之上的额外隐私层；它不能取代 Tor 或对运营方的选择。
+
+ztreamer 是开源的，可独立运行（嵌入式 Zakura 节点或远程模式）。与 lightwalletd 和 Zaino 一样，它通过 gRPC 提供轻钱包协议服务。它正在积极开发中，既定位为生产基础设施，也定位为未来轻钱包协议改进的试验场。
+
 ### 自行运行
 
-最稳妥的选择是自行运营，这会彻底消除信任问题。两个服务器都是开源的：以 Go 编写的 [lightwalletd](https://github.com/zcash/lightwalletd)，以及以 Rust 编写的 [Zaino](https://github.com/zingolabs/zaino)。两者都从全节点验证器读取数据，因此您还需要 [Zebra](/zcash-tech/zebra-full-node)。zec.rocks 服务器通过 [Zcash Stack](/guides/zcash-stack) 部署，这是一个开源 Helm chart 和 Docker Compose 套件，可同时运行 Zebra 和 lightwalletd。
+最好的选择是自己运行服务器，这样就完全无需考虑信任问题。3 个服务器都是开源的：[lightwalletd](https://github.com/zcash/lightwalletd)，使用 Go 编写；[Zaino](https://github.com/zingolabs/zaino)，使用 Rust 编写；以及 [ztreamer](https://github.com/zcashlabs/ztreamer)，使用 Rust 编写。它们从全验证节点读取数据，因此你还需要 [Zebra](/zcash-tech/zebra-full-node) 或 Zakura。zec.rocks服务器通过 [Zcash Stack](/guides/zcash-stack) 部署，这是一个开源 Helm chart 和 Docker Compose 工具包，可同时运行 Zebra 和 lightwalletd。
 
 ## 实际影响
 
 ### 服务器列表
 
-[hosh.zec.rocks](https://hosh.zec.rocks/zec) 仪表板会跟踪公共服务器及其健康状况，是查看实际在线服务的地方。[status.zec.rocks](https://status.zec.rocks/) 显示服务状态。
+[hosh.zec.rocks](https://hosh.zec.rocks/zec) 仪表板会跟踪公共服务器及其运行状况，可在此查看哪些服务器实际在线。[status.zec.rocks](https://status.zec.rocks/) 显示服务状态。有关 fastz.cash 网络，请查看 [status.fastz.cash](https://status.fastz.cash)。
 
 撰写本文时，该仪表板上列出的服务器：
 
-| 服务器 | 说明 |
+| 服务器 | 备注 |
 |:--|:--|
-| zec.rocks:443 | 其旁边还列出了区域端点：na.zec.rocks、eu.zec.rocks、ap.zec.rocks 和 sa.zec.rocks |
-| zec-node.cakewallet.com:443 | 位于 Cake Wallet 的域名上 |
-| zec.0xrpc.io:443 | 由 0xRPC 运行；该服务为多个链提供免费公共端点，并请求捐款以覆盖容量成本 |
-| zaino.unsafe.zec.rocks:443 | 一个 Zaino 实例。请注意主机名，并将其视为实验性服务 |
-| testnet.zec.rocks:443 | 测试网，列有一个 Zaino 测试网实例：zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | 区域端点还列在 na.zec.rocks、eu.zec.rocks、ap.zec.rocks 和 sa.zec.rocks |
+| zec-node.cakewallet.com:443 | 位于 Cake Wallet 的域名下 |
+| zec.0xrpc.io:443 | 由 0xRPC 运行，该服务为多个链提供免费的公共端点，并请求捐款以承担容量成本 |
+| zaino.unsafe.zec.rocks:443 | 一个 Zaino 实例。请留意主机名，并将其视为实验性服务 |
+| testnet.zec.rocks:443 | 测试网；zaino.testnet.unsafe.zec.rocks 上列有一个 Zaino 测试网实例 |
+| rpc.fastz.cash | 由 Zcash Labs 提供的公共 ztreamer 网络。请查看 status.fastz.cash，了解区域端点和运行状况。 |
 
-请查看仪表板，而非盲目信任此列表。运营者时来时去，此类页面会过时。
+查看仪表板，而不要轻信此列表。运营者来来去去，这样的页面会过时。
 
 ### 在钱包中更改服务器
 
@@ -143,7 +156,7 @@ Ywallet的后继产品，由同一位开发者开发（Ywallet本身已不再维
 
 **假设 Tor 能消除所有痕迹**。Tor 会向服务器隐藏您的 IP，但不会改变服务器从您发出的请求中获知的信息，而且会增加同步延迟。
 
-**信任 wiki 页面上的服务器列表**。运营者时来时去。在将钱包指向任何服务之前，请查看 [hosh.zec.rocks](https://hosh.zec.rocks/zec) 以了解实际正在运行的服务。
+**信任 wiki 页面上的服务器列表**。运营者会不断更替。在将你的钱包连接到任何服务之前，请查看 [hosh.zec.rocks](https://hosh.zec.rocks/zec) 和 [status.fastz.cash](https://status.fastz.cash)，确认当前实际运行的服务。
 
 ## 总结
 
@@ -151,11 +164,12 @@ Ywallet的后继产品，由同一位开发者开发（Ywallet本身已不再维
 
 ## 相关页面
 
-- [谁能看到你的Zcash支付](/start-here/who-can-see-your-zcash-payment)——以入门级视角探讨同一个问题。
-- [区块浏览器能看到什么](/zcash-tech/what-a-block-explorer-can-see)——链上可见的信息，与服务器端可见的信息有何不同。
-- [Zaino](/zcash-tech/zaino)——架构图以及Rust索引器的更广泛作用。
-- [Zinder](/zcash-tech/zinder)——Zcash Foundation的 alpha 索引器，它通过兼容lightwalletd的适配器为轻钱包提供服务。
-- [Zebra全节点](/zcash-tech/zebra-full-node)——轻钱包服务器读取数据的验证者。
-- [Zcash钱包同步](/zcash-tech/zcash-wallet-syncing)——服务器发送的紧凑区块如何由你的钱包处理。
+- [谁能看到你的Zcash支付](/start-here/who-can-see-your-zcash-payment) — 以初学者的视角探讨同一个问题。
+- [区块浏览器能看到什么](/zcash-tech/what-a-block-explorer-can-see) — 链上可见的内容，与服务器端可见的内容相对。
+- [Zaino](/zcash-tech/zaino) — 架构图，以及Rust索引器的更广泛作用。
+- [Zinder](/zcash-tech/zinder) — Zcash Foundation的 alpha 索引器，它通过兼容lightwalletd的适配器为轻钱包提供服务。
+- [Zebra全节点](/zcash-tech/zebra-full-node) — 轻钱包服务器读取数据的验证者。
+- [Zcash钱包同步](/zcash-tech/zcash-wallet-syncing) — 服务器发送的紧凑区块如何由你的钱包处理。
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — fastz.cash 网络使用的高性能Rust索引器。
 
-**最后更新：**2026 年 8 月
+**最后更新：** 2026 年 11 月

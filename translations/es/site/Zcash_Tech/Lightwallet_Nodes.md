@@ -7,18 +7,18 @@
 
 ## TL;DR
 
-* La mayoría de las personas usa Zcash mediante una billetera [wallet] ligera, que no descarga toda la blockchain. En su lugar, se comunica con un servidor que ya ha realizado ese trabajo.
-* Actualmente, dos piezas de software sirven a las billeteras ligeras: **lightwalletd**, el servicio original escrito en Go, y **Zaino**, un indexador más reciente escrito en Rust.
-* Tus claves nunca salen de tu dispositivo, y el servidor no puede gastar tus fondos ni leer los importes y memos dentro de transacciones completamente blindadas [fully shielded].
-* Lo que el servidor está bien posicionado para conocer es tu dirección IP y el momento de tu actividad — las transacciones blindadas protegen lo que sucede en la blockchain, no tu conexión con el servidor.
-* Tor elimina el identificador de IP; está disponible en billeteras construidas sobre `zcash_client_backend` y, en ZODL, es una opción de Configuración avanzada.
-* Puedes cambiar el servidor que utiliza tu billetera o ejecutar el tuyo propio — tanto lightwalletd como Zaino son de código abierto.
+* La mayoría de las personas usa Zcash mediante una billetera ligera, que no descarga toda la blockchain. En su lugar, se comunica con un servidor que ya ha realizado ese trabajo.
+* Actualmente, tres programas suelen dar servicio a las billeteras ligeras: **lightwalletd** (original, escrito en Go), **Zaino** (indexador de Rust) y ztreamer (indexador de alto rendimiento de Rust, creado por Zcash Labs, que impulsa la red pública fastz.cash).
+* Tus claves nunca salen de tu dispositivo, y el servidor no puede gastar tus fondos ni leer los importes y memos de las transacciones completamente blindadas.
+* Lo que el servidor puede conocer con facilidad es tu dirección IP y el momento de tu actividad: las transacciones blindadas protegen lo que ocurre en la blockchain, no tu conexión con el servidor.
+* Tor elimina el identificador de IP; está disponible en las billeteras basadas en `zcash_client_backend` y, en ZODL, es una opción de Configuración avanzada.
+* Puedes cambiar el servidor que usa tu billetera o ejecutar uno propio: lightwalletd, Zaino y ztreamer son de código abierto.
 
 ## Explicación principal
 
 La mayoría de las personas usa Zcash mediante una billetera ligera, que no descarga toda la blockchain. En su lugar, se comunica con un servidor que ya ha realizado ese trabajo. Esta página explica qué son esos servidores, qué pueden y no pueden ver sobre ti, cómo enrutar tu conexión mediante Tor y cómo cambiar el servidor que utiliza tu billetera.
 
-Actualmente, dos piezas de software sirven a las billeteras ligeras. **lightwalletd** es el servicio original, escrito en Go. **Zaino** es un indexador más reciente escrito en Rust, creado como parte del trabajo de descontinuación de zcashd.
+Actualmente, tres piezas de software suelen servir a las billeteras ligeras. **lightwalletd** es el servicio original, escrito en Go. **Zaino** es un indexador más reciente escrito en Rust, creado como parte del trabajo de descontinuación de zcashd. **ztreamer** es un indexador Rust de alto rendimiento de Zcash Labs que impulsa la red pública fastz.cash.
 
 ### Qué hace un servidor de billetera ligera
 
@@ -85,27 +85,40 @@ Está en desarrollo activo, con la versión 0.10.1 publicada en septiembre de 20
 
 Zaino tiene su propia página con diagramas de arquitectura, por lo que esta página solo cubre su función como servidor de billetera ligera.
 
+### ztreamer y fastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer) es un indexador Zcash de alto rendimiento y un servidor de billeteras ligeras escrito en Rust por Zcash Labs. Está diseñado para ofrecer baja latencia y un alto rendimiento, y es la base de la red pública de indexadores [fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478) (anunciada el 19 de noviembre de 2026).
+
+fastz.cash ejecuta servidores edge regionales (actualmente en Frankfurt, Londres, Virginia, Oregón, São Paulo, Singapur y Osaka). Cada región tiene su propio nodo completo y un índice local de ztreamer. TLS termina en el nodo. La mediana medida del tiempo hasta la primera respuesta de una llamada GetLatestBlock fue de aproximadamente 35 ms en todo el mundo. Se informa que la sincronización por rangos de bloques es hasta ~3× más rápida que con lightwalletd recientes, con un índice de tamaño reducido (~18 GB) que facilita la incorporación de más ubicaciones edge.
+
+Estado y endpoint más cercano: [status.fastz.cash](https://status.fastz.cash).
+
+**Nota de privacidad:** fastz.cash también ejecuta el servicio wallet-pir de Valar Group. Los usuarios de Vizor ya pueden usarlo para realizar consultas de sincronización privadas que reducen los metadatos que el servidor obtiene sobre las notas o los rangos solicitados. Esta capa adicional de privacidad se suma al modelo de amenazas habitual de las billeteras ligeras descrito arriba; no sustituye a Tor ni a la elección del operador.
+
+ztreamer es de código abierto y puede ejecutarse de forma independiente (en un nodo integrado Zakura o en modo remoto). Al igual que lightwalletd y Zaino, ofrece el protocolo de billetera ligera a través de gRPC. Está en desarrollo activo y se plantea tanto como infraestructura de producción como entorno de pruebas para futuras mejoras del protocolo de billetera ligera.
+
 ### Ejecutar el tuyo propio
 
-La opción más sólida es ser tu propio operador, lo que elimina por completo la cuestión de confianza. Ambos servidores son de código abierto: [lightwalletd](https://github.com/zcash/lightwalletd) en Go y [Zaino](https://github.com/zingolabs/zaino) en Rust. Ambos leen de un validador completo, por lo que también necesitarás [Zebra](/zcash-tech/zebra-full-node). Los servidores de zec.rocks se implementan con [Zcash Stack](/guides/zcash-stack), un chart de Helm de código abierto y un kit de Compose Docker que ejecuta Zebra y lightwalletd juntos.
+La opción más sólida es operar tu propio servidor, lo que elimina por completo la cuestión de la confianza. Los tres servidores son de código abierto: [lightwalletd](https://github.com/zcash/lightwalletd) en Go, [Zaino](https://github.com/zingolabs/zaino) en Rust y [ztreamer](https://github.com/zcashlabs/ztreamer) en Rust. Leen datos de un validador completo, así que también necesitarás [Zebra](/zcash-tech/zebra-full-node) o Zakura. Los servidores zec.rocks se implementan con [Zcash Stack](/guides/zcash-stack), un chart de Helm de código abierto y un kit de Compose Docker que ejecuta Zebra y lightwalletd juntos.
 
 ## Implicaciones prácticas
 
 ### Lista de servidores
 
-El panel [hosh.zec.rocks](https://hosh.zec.rocks/zec) rastrea los servidores públicos y su estado, y es el lugar para comprobar cuáles están realmente activos. [status.zec.rocks](https://status.zec.rocks/) muestra el estado del servicio.
+El panel de [hosh.zec.rocks](https://hosh.zec.rocks/zec) hace seguimiento de los servidores públicos y su estado, y permite comprobar cuáles están funcionando realmente. [status.zec.rocks](https://status.zec.rocks/) muestra el estado del servicio. Para la red fastz.cash, consulta [status.fastz.cash](https://status.fastz.cash).
 
 Servidores enumerados en ese panel al momento de escribir:
 
 | Servidor | Notas |
 |:--|:--|
-| zec.rocks:443 | Los puntos de conexión regionales se enumeran junto a él en na.zec.rocks, eu.zec.rocks, ap.zec.rocks y sa.zec.rocks |
-| zec-node.cakewallet.com:443 | En el dominio de Wallet Cake |
-| zec.0xrpc.io:443 | Operado por 0xRPC, que ofrece puntos de conexión públicos gratuitos para varias redes y solicita donaciones para cubrir la capacidad |
-| zaino.unsafe.zec.rocks:443 | Una instancia de Zaino. Ten en cuenta el nombre de host; considéralo experimental |
-| testnet.zec.rocks:443 | Testnet, con una instancia de testnet Zaino enumerada en zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | Los endpoints regionales aparecen junto a este en na.zec.rocks, eu.zec.rocks, ap.zec.rocks y sa.zec.rocks |
+| zec-node.cakewallet.com:443 | En el dominio de Cake Wallet |
+| zec.0xrpc.io:443 | Lo gestiona 0xRPC, que ofrece endpoints públicos gratuitos para varias redes y solicita donaciones para cubrir la capacidad |
+| zaino.unsafe.zec.rocks:443 | Una instancia de Zaino. Ten en cuenta el nombre de host y considérala experimental |
+| testnet.zec.rocks:443 | Testnet, con una instancia de testnet de Zaino en zaino.testnet.unsafe.zec.rocks |
+| rpc.fastz.cash | Red pública de ztreamer de Zcash Labs. Consulta status.fastz.cash para ver los endpoints regionales y el estado. |
 
-Consulta el panel en vez de confiar en esta lista. Los operadores vienen y van, y una página como esta envejece.
+Consulta los paneles en lugar de confiar en esta lista. Los operadores aparecen y desaparecen, y una página como esta queda desactualizada.
 
 ### Cambiar el servidor en tu billetera
 
@@ -143,7 +156,7 @@ Esas capturas de pantalla se tomaron en marzo de 2025, y las aplicaciones han pu
 
 **Suponer que Tor elimina todo rastro**. Tor oculta tu IP del servidor, pero no cambia lo que el servidor aprende de las solicitudes que realizas, y añade latencia a la sincronización.
 
-**Confiar en una lista de servidores de una página wiki**. Los operadores vienen y van. Consulta [hosh.zec.rocks](https://hosh.zec.rocks/zec) para saber qué está funcionando realmente antes de apuntar tu billetera a algo.
+**Confiar en una lista de servidores en una página wiki**. Los operadores van y vienen. Consulta [hosh.zec.rocks](https://hosh.zec.rocks/zec) y [status.fastz.cash](https://status.fastz.cash) para saber qué está funcionando realmente antes de conectar tu billetera a cualquier servicio.
 
 ## Resumen
 
@@ -151,11 +164,12 @@ Las billeteras ligeras te ofrecen el pool blindado sin el espacio de disco, lo q
 
 ## Páginas relacionadas
 
-- [Quién puede ver tu Zcash pago](/start-here/who-can-see-your-zcash-payment) — una explicación para principiantes de la misma cuestión.
-- [Qué puede ver un explorador de bloques](/zcash-tech/what-a-block-explorer-can-see) — qué es visible on-chain, en contraste con lo que se ve en el servidor.
-- [Zaino](/zcash-tech/zaino) — diagramas de arquitectura y el papel más amplio del Rust indexador.
-- [Zinder](/zcash-tech/zinder) — el indexador alfa del Zcash Foundation, que da servicio a billeteras ligeras mediante un adaptador compatible con lightwalletd.
-- [Zebra Nodo completo](/zcash-tech/zebra-full-node) — el validador del que lee un servidor de billetera ligera.
-- [Zcash Sincronización de la billetera](/zcash-tech/zcash-wallet-syncing) — cómo procesa tu billetera los bloques compactos que envía un servidor.
+- [Quién Puede Ver Tu Pago de Zcash ](/start-here/who-can-see-your-zcash-payment) — una explicación para principiantes de la misma pregunta.
+- [Qué Puede Ver un Explorador de Bloques](/zcash-tech/what-a-block-explorer-can-see) — qué es visible on-chain, frente a lo que se ve en el servidor.
+- [Zaino](/zcash-tech/zaino) — diagramas de arquitectura y el papel más amplio del indexador Rust.
+- [Zinder](/zcash-tech/zinder) — el indexador alfa de Zcash Foundation, que presta servicio a billeteras ligeras mediante un adaptador compatible con lightwalletd.
+- [Zebra Nodo Completo](/zcash-tech/zebra-full-node) — el validador del que lee el servidor de una billetera ligera.
+- [Zcash Sincronización de la Billetera](/zcash-tech/zcash-wallet-syncing) — cómo procesa tu billetera los bloques compactos que envía un servidor.
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — indexador de alto rendimiento Rust utilizado por la red fastz.cash.
 
-**Última actualización:** Agosto de 2026
+**Última actualización:** noviembre de 2026

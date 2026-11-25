@@ -7,18 +7,18 @@
 
 ## TL;DR
 
-* Die meisten Menschen nutzen Zcash über eine Light Wallet, die nicht die gesamte blockchain herunterlädt. Stattdessen kommuniziert sie mit einem Server, der diese Arbeit bereits erledigt hat.
-* Heute bedienen zwei Softwareprogramme Light Wallets: **lightwalletd**, der ursprüngliche Dienst, der in Go geschrieben wurde, und **Zaino**, ein neuerer Indexer, der in Rust geschrieben wurde.
+* Die meisten Menschen nutzen Zcash über eine Light Wallet, die nicht die gesamte Blockchain herunterlädt. Stattdessen kommuniziert sie mit einem Server, der diese Arbeit bereits erledigt hat.
+* Heute bedienen üblicherweise drei Softwareprogramme Light Wallets: **lightwalletd** (ursprünglich, in Go), **Zaino** (Rust-Indexer) und ztreamer (Hochleistungs-Rust-Indexer von Zcash Labs, der das öffentliche fastz.cash-Netzwerk betreibt).
 * Ihre Schlüssel verlassen niemals Ihr Gerät, und der Server kann weder Ihre Mittel ausgeben noch die Beträge und Memos in vollständig abgeschirmten Transaktionen lesen.
-* Was der Server gut ermitteln kann, sind Ihre IP-Adresse und der Zeitpunkt Ihrer Aktivitäten — abgeschirmte Transaktionen schützen, was auf der blockchain geschieht, nicht Ihre Verbindung zum Server.
+* Was der Server gut ermitteln kann, sind Ihre IP-Adresse und der Zeitpunkt Ihrer Aktivitäten — abgeschirmte Transaktionen schützen, was auf der Blockchain geschieht, nicht Ihre Verbindung zum Server.
 * Tor entfernt den IP-Identifier; es ist in Wallets verfügbar, die auf `zcash_client_backend` basieren, und in ZODL ist es eine Einstellung unter Erweiterte Einstellungen.
-* Sie können den Server wechseln, den Ihre Wallet verwendet, oder einen eigenen betreiben — sowohl lightwalletd als auch Zaino sind Open Source.
+* Sie können den Server wechseln, den Ihre Wallet verwendet, oder einen eigenen betreiben — lightwalletd, Zaino und ztreamer sind alle Open Source.
 
 ## Grundlegende Erklärung
 
 Die meisten Menschen nutzen Zcash über eine Light Wallet, die nicht die gesamte blockchain herunterlädt. Stattdessen kommuniziert sie mit einem Server, der diese Arbeit bereits erledigt hat. Diese Seite erklärt, was diese Server sind, was sie über Sie sehen können und was nicht, wie Sie Ihre Verbindung über Tor leiten und wie Sie den von Ihrer Wallet verwendeten Server wechseln.
 
-Heute bedienen zwei Softwareprogramme Light Wallets. **lightwalletd** ist der ursprüngliche Dienst, geschrieben in Go. **Zaino** ist ein neuerer Indexer, geschrieben in Rust und entwickelt im Rahmen der Arbeiten zur Ablösung von zcashd.
+Heute bedienen üblicherweise drei Softwareprogramme Light Wallets. **lightwalletd** ist der ursprüngliche Dienst, geschrieben in Go. **Zaino** ist ein neuerer Indexer, geschrieben in Rust und entwickelt im Rahmen der Arbeiten zur Ablösung von zcashd. **ztreamer** ist ein leistungsstarker Rust-Indexer von Zcash Labs, der das öffentliche fastz.cash-Netzwerk antreibt.
 
 ### Was ein Light-Wallet-Server tut
 
@@ -85,27 +85,40 @@ Er befindet sich in aktiver Entwicklung; Version 0.10.1 wurde im September 2026 
 
 Zaino verfügt über eine eigene Seite mit Architekturdiagrammen, daher behandelt diese Seite nur seine Rolle als Light-Wallet-Server.
 
+### ztreamer und fastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer) ist ein leistungsstarker Zcash-Indexer und Light-Wallet-Server, geschrieben in Rust von Zcash Labs. Er ist auf geringe Latenz und hohen Durchsatz ausgelegt und betreibt das öffentliche [fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478)-Indexernetzwerk (angekündigt am 19. November 2026).
+
+fastz.cash betreibt regionale Edge-Server (derzeit in Frankfurt, London, Virginia, Oregon, São Paulo, Singapur und Osaka). Jede Region verfügt über einen eigenen vollständigen Knoten und einen lokalen ztreamer-Index. TLS wird am Knoten beendet. Die gemessene mediane Zeit bis zur ersten Antwort für einen GetLatestBlock-Aufruf betrug weltweit etwa 35 ms. Die Synchronisierung von Blockbereichen ist Berichten zufolge bis zu ~3× schneller als mit aktuellen lightwalletd, bei einem geringen Indexumfang (~18 GB), der zusätzliche Edge-Standorte praktikabel macht.
+
+Status und nächstgelegener Endpunkt: [status.fastz.cash](https://status.fastz.cash).
+
+**Datenschutzhinweis:** fastz.cash betreibt auch den Wallet-PIR-Dienst von Valar Group. Nutzer von Vizor können ihn heute für private Sync-Abfragen nutzen, die die Metadaten reduzieren, anhand derer der Server erfährt, welche Notes oder Bereiche abgefragt werden. Dies ist eine zusätzliche Datenschicht über dem oben beschriebenen üblichen Bedrohungsmodell für Light-Wallets; sie ersetzt weder Tor noch die Wahl des Betreibers.
+
+ztreamer ist Open Source und kann unabhängig betrieben werden (mit eingebettetem Zakura-Knoten oder im Remote-Modus). Wie lightwalletd und Zaino stellt es das Light-Wallet-Protokoll über gRPC bereit. Es wird aktiv weiterentwickelt und ist sowohl als Produktionsinfrastruktur als auch als Testfeld für künftige Verbesserungen des Light-Wallet-Protokolls vorgesehen.
+
 ### Eigenen Server betreiben
 
-Die stärkste Option besteht darin, selbst Betreiber zu sein, wodurch die Vertrauensfrage vollständig entfällt. Beide Server sind Open Source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go und [Zaino](https://github.com/zingolabs/zaino) in Rust. Beide lesen von einem vollständigen Validator, daher benötigen Sie außerdem [Zebra](/zcash-tech/zebra-full-node). Die zec.rocks-Server werden mit [Zcash Stack](/guides/zcash-stack) bereitgestellt, einem Open-Source-Helm-Chart und Docker-Compose-Kit, das Zebra und lightwalletd gemeinsam ausführt.
+Die sicherste Option ist, den Betrieb selbst zu übernehmen. Damit entfällt die Vertrauensfrage vollständig. Alle drei Server sind Open Source: [lightwalletd](https://github.com/zcash/lightwalletd) in Go, [Zaino](https://github.com/zingolabs/zaino) in Rust und [ztreamer](https://github.com/zcashlabs/ztreamer) in Rust. Sie lesen von einem vollständigen Validator. Daher benötigen Sie außerdem [Zebra](/zcash-tech/zebra-full-node) oder Zakura. Die zec.rocks-Server werden mit [Zcash Stack](/guides/zcash-stack) bereitgestellt, einem Open-Source-Helm-Chart und Docker-Compose-Kit, das Zebra und lightwalletd gemeinsam ausführt.
 
 ## Praktische Auswirkungen
 
 ### Serverliste
 
-Das Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) verfolgt öffentliche Server und ihren Zustand und ist der richtige Ort, um zu prüfen, was tatsächlich verfügbar ist. [status.zec.rocks](https://status.zec.rocks/) zeigt den Dienststatus.
+Das Dashboard von [hosh.zec.rocks](https://hosh.zec.rocks/zec) erfasst öffentliche Server und ihren Zustand und zeigt, welche davon tatsächlich erreichbar sind. [status.zec.rocks](https://status.zec.rocks/) zeigt den Dienststatus an. Den Status des fastz.cash-Netzwerks finden Sie unter [status.fastz.cash](https://status.fastz.cash).
 
 Zum Zeitpunkt der Erstellung auf diesem Dashboard aufgeführte Server:
 
 | Server | Hinweise |
 |:--|:--|
-| zec.rocks:443 | Regionale Endpunkte werden daneben unter na.zec.rocks, eu.zec.rocks, ap.zec.rocks und sa.zec.rocks aufgeführt |
+| zec.rocks:443 | Regionale Endpunkte sind daneben unter na.zec.rocks, eu.zec.rocks, ap.zec.rocks und sa.zec.rocks aufgeführt |
 | zec-node.cakewallet.com:443 | Auf der Domain von Cake Wallet |
-| zec.0xrpc.io:443 | Betrieben von 0xRPC, das kostenlose öffentliche Endpunkte für mehrere Chains anbietet und um Spenden zur Deckung der Kapazität bittet |
+| zec.0xrpc.io:443 | Betrieben von 0xRPC, das kostenlose öffentliche Endpunkte für mehrere Chains anbietet und um Spenden zur Abdeckung der Kapazität bittet |
 | zaino.unsafe.zec.rocks:443 | Eine Zaino-Instanz. Beachten Sie den Hostnamen und behandeln Sie sie als experimentell |
-| testnet.zec.rocks:443 | Testnet, mit einer aufgeführten Zaino-Testnet-Instanz unter zaino.testnet.unsafe.zec.rocks |
+| testnet.zec.rocks:443 | Testnet, mit einer Zaino-Testnet-Instanz unter zaino.testnet.unsafe.zec.rocks |
+| rpc.fastz.cash | Öffentliches ztreamer-Netzwerk von Zcash Labs. Unter status.fastz.cash finden Sie regionale Endpunkte und den Status. |
 
-Prüfen Sie das Dashboard, statt dieser Liste zu vertrauen. Betreiber kommen und gehen, und eine Seite wie diese altert.
+Prüfe die Dashboards, statt dieser Liste zu vertrauen. Betreiber kommen und gehen, und eine Seite wie diese veraltet.
 
 ### Server in Ihrer Wallet wechseln
 
@@ -143,7 +156,7 @@ Diese Screenshots wurden im März 2025 aufgenommen. Die Apps haben seitdem neue 
 
 **Anzunehmen, Tor entferne jede Spur**. Tor verbirgt Ihre IP-Adresse vor dem Server, ändert aber nicht, was der Server aus Ihren Anfragen erfährt, und erhöht die Latenz bei der Synchronisierung.
 
-**Einer Serverliste auf einer Wiki-Seite zu vertrauen**. Betreiber kommen und gehen. Prüfen Sie [hosh.zec.rocks](https://hosh.zec.rocks/zec), um zu sehen, was tatsächlich läuft, bevor Sie Ihre Wallet auf irgendetwas verweisen.
+**Einer Serverliste auf einer Wiki-Seite vertrauen**. Betreiber kommen und gehen. Prüfe auf [hosh.zec.rocks](https://hosh.zec.rocks/zec) und [status.fastz.cash](https://status.fastz.cash), was tatsächlich läuft, bevor du deine Wallet mit irgendetwas verbindest.
 
 ## Zusammenfassung
 
@@ -154,8 +167,9 @@ Light Wallets ermöglichen Ihnen den abgeschirmten Pool ohne den Speicherplatzbe
 - [Wer kann deine Zcash-Zahlung](/start-here/who-can-see-your-zcash-payment) sehen — die Einsteigerperspektive auf dieselbe Frage.
 - [Was ein Block-Explorer sehen kann](/zcash-tech/what-a-block-explorer-can-see) — was on-chain sichtbar ist, im Gegensatz zu dem, was auf dem Server sichtbar ist.
 - [Zaino](/zcash-tech/zaino) — Architekturdiagramme und die umfassendere Rolle des Rust-Indexers.
-- [Zinder](/zcash-tech/zinder) — der Alpha-Indexer des Zcash Foundation, der Light Wallets über einen lightwalletd-kompatiblen Adapter bedient.
-- [ZebraFull Node](/zcash-tech/zebra-full-node) — der Validator, von dem ein Light-Wallet-Server liest.
-- [ZcashWallet-Synchronisierung](/zcash-tech/zcash-wallet-syncing) — wie dein Wallet die kompakten Blöcke verarbeitet, die ein Server sendet.
+- [Zinder](/zcash-tech/zinder) — der Alpha-Indexer von Zcash Foundation, der Light Wallets über einen lightwalletd-kompatiblen Adapter bedient.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — der Validator, von dem ein Light-Wallet-Server liest.
+- [Zcash Wallet-Synchronisierung](/zcash-tech/zcash-wallet-syncing) — wie deine Wallet die kompakten Blöcke verarbeitet, die ein Server sendet.
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — ein leistungsstarker Rust-Indexer, der vom fastz.cash-Netzwerk verwendet wird.
 
-**Zuletzt aktualisiert:** August 2026
+**Zuletzt aktualisiert:** November 2026
