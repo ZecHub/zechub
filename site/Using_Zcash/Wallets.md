@@ -550,3 +550,29 @@
 - Source: Open Source
 
 ---
+
+## [Zecky](https://zecky.app/)
+![logo](/content-images/wallets/zecky.webp "Zecky")
+- Source Code: https://github.com/zecky-app
+- Devices: Mobile | Desktop
+- Operating System: iOS | macOS | Windows | Android (In Development)
+- Wallet Support: Self-custody Wallet | Full Node | Watch-only Monitoring | Offline Signing
+- Pools: Transparent | Sapling | Orchard
+- Features: Local Node Support | Secure Enclave | Tor Support | Security Key Support
+- NU7: Compatible
+- Stage: Beta
+- Source: Open Source
+
+  ---
+
+  ## [Pendrake Watch](https://pendrake.app/)
+![logo](/content-images/wallets/pendrake.webp "Pendrake Watch")
+- Source Code: https://github.com/auzum197/pendrake-watch
+- Devices: Desktop
+- Operating System: Linux | macOS | Windows
+- Wallet Support: Unified Full Viewing Key (UFVK) | Watch-only Wallet
+- Pools: Sapling | Orchard | Ironwood
+- Features: Background Sync | Transaction Notifications | Transaction History | Memo Viewing | Balance Chart | Passphrase Protection
+- NU7: Not Verified
+- Stage: Beta
+- Source: Open Source

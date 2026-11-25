@@ -23,7 +23,7 @@ ___
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Sitio web: https://app.near-intents.org/
-- Descripción: Exchange rápido con el respaldo de NEAR. Haz depósitos, vende, realiza swaps, incluidos los populares TRUMP, MELANIA, BERA y otros memes.
+- Descripción: Una plataforma de intercambio rápida con el respaldo de NEAR. Haz depósitos, vende y realiza swaps, incluidos los populares TRUMP, MELANIA, BERA y otros memes.
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Sitio web: https://trocador.app/
-- Descripción: Opera con criptomonedas de forma anónima. Rápido. Seguro. Sin burocracia. Tarjetas de débito prepagadas disponibles.
+- Descripción: Opera con criptomonedas de forma anónima, rápida y segura, sin burocracia. Hay tarjetas de débito prepagadas disponibles.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Sitio web: https://dex.decred.org/
-- Descripción: Opera con criptomonedas de persona a persona. Sin tarifas de operación. Sin KYC. Exchange descentralizado creado por Decred Project.
+- Descripción: Sin tarifas de operación ni KYC: permite intercambios de criptomonedas entre pares. Exchange descentralizado creado por Decred Project.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - Sitio web: https://ff.io
-- Descripción: Exchange de criptomonedas instantáneo y totalmente automático con Lightning Network.
+- Descripción: Servicio de intercambio instantáneo de criptomonedas, totalmente automático y con Lightning Network.
 
 ___
 
@@ -122,7 +122,7 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - Sitio web: https://xchange.me/
-- Descripción: Exchange anónimo de criptomonedas, económico, fiable, AlwaysOnTime y sin ningún registro. Hay disponible un espejo dedicado de Tor.
+- Descripción: Una opción anónima para intercambiar criptomonedas: económica, fiable, AlwaysOnTime y sin ningún registro. Hay disponible un espejo dedicado de Tor.
 
 ___
 
@@ -131,7 +131,7 @@ ___
 <img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Sitio web: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Descripción: Exchange instantáneo de Bitcoin y criptomonedas en Vietnam. Compra, vende o realiza swaps entre 80 activos, incluidos VND, BTC, XMR, USDT, ETH, BCH y SOL.
+- Descripción: En Vietnam, puedes intercambiar Bitcoin y criptomonedas al instante. Compra, vende o realiza swaps entre 80 activos, incluidos VND, BTC, XMR, USDT, ETH, BCH y SOL.
 
 ___
 
