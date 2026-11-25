@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="पृष्ठ संपादित करें"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash मौद्रिक नीति
@@ -66,7 +66,7 @@ NU7 के बाद से, हर ब्लॉक के लेनदेन �
 
 ### संसाधन
 
-[Zcash की अर्थव्यवस्था क्या है?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Zcash का अर्थशास्त्र क्या है?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: 25-सेकंड का ब्लॉक लक्ष्य अंतराल](https://zips.z.cash/zip-0218)
 

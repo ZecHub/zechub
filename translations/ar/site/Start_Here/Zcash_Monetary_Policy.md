@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="تعديل الصفحة"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash السياسة النقدية
+# السياسة النقدية لـ Zcash
 
 ## خلاصة سريعة
 
@@ -62,11 +62,11 @@
 - [صندوق التنمية](/start-here/development-fund): تاريخ حصة التنمية من مكافأة الكتلة.
 - [ترقيات الشبكة](/start-here/network-upgrades): كل ترقية لـ Zcash، مع تواريخها وارتفاعات الكتل.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): المنظمة التي تتلقى حصة 8%.
-- [Zcash مجمّعات التعدين](/using-zcash/zcash-mining-pools): المكان الذي يكسب فيه معظم المُعدّنين حصتهم من مكافأة الكتلة.
+- [مجمّعات التعدين لـ Zcash](/using-zcash/zcash-mining-pools): المكان الذي يكسب فيه معظم المُعدّنين حصتهم من مكافأة الكتلة.
 
 ### المصادر
 
-[ما اقتصاديات Zcash؟](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[ما الجوانب الاقتصادية لـ Zcash؟](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: استهداف فاصل قدره 25 ثانية بين الكتل](https://zips.z.cash/zip-0218)
 

@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Halaman"/>
 </a>
 
-# Zcash Kebijakan Moneter
+# Kebijakan Moneter Zcash
 
 ## Ringkasan
 
@@ -62,11 +62,11 @@ Sejak NU7, 60% biaya transaksi di setiap blok dihapus dari peredaran dan disimpa
 - [Dana Pengembangan](/start-here/development-fund): sejarah bagian imbalan blok yang dialokasikan untuk pengembangan.
 - [Peningkatan Jaringan](/start-here/network-upgrades): setiap peningkatan Zcash, lengkap dengan tanggal dan tinggi blok.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): organisasi yang menerima bagian sebesar 8%.
-- [Zcash Pool Penambangan](/using-zcash/zcash-mining-pools): tempat sebagian besar penambang memperoleh bagian imbalan blok.
+- [Pool Penambangan Zcash](/using-zcash/zcash-mining-pools): tempat sebagian besar penambang memperoleh bagian imbalan blok.
 
 ### Sumber
 
-[Bagaimana ekonomi Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+Bagaimana ekonomi dari Zcash? [](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: Target Jarak Blok 25 Detik](https://zips.z.cash/zip-0218)
 

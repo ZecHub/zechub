@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Editar página"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Política monetaria de Zcash
@@ -62,7 +62,7 @@ Desde NU7, el 60 % de las comisiones de transacción de cada bloque se retira de
 - [Fondo de desarrollo](/start-here/development-fund): la historia de la parte de la recompensa por bloque destinada al desarrollo.
 - [Actualizaciones de red](/start-here/network-upgrades): todas las actualizaciones de Zcash, con sus fechas y alturas de bloque.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): la organización que recibe el 8 %.
-- [Zcash Pools de minado](/using-zcash/zcash-mining-pools): donde la mayoría de los mineros obtienen su parte de la recompensa por bloque.
+- [Pools de minado de Zcash](/using-zcash/zcash-mining-pools): donde la mayoría de los mineros obtienen su parte de la recompensa por bloque.
 
 ### Recursos
 

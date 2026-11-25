@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ویرایش صفحه"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash سیاست پولی
+# سیاست پولی Zcash
 
 ## خلاصه
 
@@ -62,7 +62,7 @@ NU7 باعث شد بلوک‌ها سه برابر بیشتر تکرار شوند
 - [صندوق توسعه](/start-here/development-fund): تاریخچه سهم توسعه از پاداش بلوک.
 - [ارتقاهای شبکه](/start-here/network-upgrades): همه ارتقاهای Zcash، همراه با تاریخ‌ها و ارتفاع بلوک‌ها.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): سازمانی که سهم 8% را دریافت می‌کند.
-- [Zcash استخرهای استخراج](/using-zcash/zcash-mining-pools): جایی که بیشتر استخراج‌کنندگان سهم خود از پاداش بلوک را به دست می‌آورند.
+- [استخرهای استخراج Zcash](/using-zcash/zcash-mining-pools): جایی که بیشتر استخراج‌کنندگان سهم خود از پاداش بلوک را به دست می‌آورند.
 
 ### منابع
 

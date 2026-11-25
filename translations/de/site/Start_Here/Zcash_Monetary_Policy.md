@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Seite bearbeiten"/>
 </a>
 
-# Zcash Geldpolitik
+# Zcash-Geldpolitik
 
 ## Kurzfassung
 
@@ -62,11 +62,11 @@ Seit NU7 werden 60 % der Transaktionsgebühren in jedem Block aus dem Umlauf gen
 - [Development Fund](/start-here/development-fund): die Geschichte des Anteils der Blockbelohnung für die Entwicklung.
 - [Network Upgrades](/start-here/network-upgrades): alle Zcash-Upgrades mit Datumsangaben und Blockhöhen.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): die Organisation, die den Anteil von 8 % erhält.
-- [Zcash Mining Pools](/using-zcash/zcash-mining-pools): dort verdienen die meisten Miner ihren Anteil an der Blockbelohnung.
+- [Zcash-Mining-Pools](/using-zcash/zcash-mining-pools): dort verdienen die meisten Miner ihren Anteil an der Blockbelohnung.
 
 ### Ressourcen
 
-[Wie funktioniert die Geldpolitik von Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Wie sieht die Ökonomie von Zcash aus?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: Ziel-Blockabstand von 25 Sekunden](https://zips.z.cash/zip-0218)
 

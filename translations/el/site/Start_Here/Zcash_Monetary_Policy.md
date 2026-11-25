@@ -62,7 +62,7 @@
 - [Development Fund](/start-here/development-fund): Η ιστορία του μεριδίου της ανταμοιβής μπλοκ που προορίζεται για την ανάπτυξη.
 - [Network Upgrades](/start-here/network-upgrades): Κάθε αναβάθμιση Zcash, με ημερομηνίες και ύψη μπλοκ.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): Ο οργανισμός που λαμβάνει το μερίδιο του 8%.
-- [Zcash Mining Pools](/using-zcash/zcash-mining-pools): Πού κερδίζουν οι περισσότεροι εξορύκτες το μερίδιό τους από την ανταμοιβή μπλοκ.
+- [Mining Pools του Zcash](/using-zcash/zcash-mining-pools): Πού κερδίζουν οι περισσότεροι εξορύκτες το μερίδιό τους από την ανταμοιβή μπλοκ.
 
 ### Πηγές
 

@@ -66,7 +66,7 @@ Tso NU7, gaɖoɖo ƒe adzɔwo siwo le gaɖoɖowo ƒuƒoƒe ɖesiaɖi me ƒe 60% 
 
 ### Nyatakakadzro
 
-[Zcash ƒe ga ƒe ɖoɖo kae nye?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Zcash ƒe gaɖoɖonuwo kae?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: Gaɖoɖowo ƒuƒoƒe ƒe taɖoɖo ƒe ɣeyiɣi 25 seconds](https://zips.z.cash/zip-0218)
 

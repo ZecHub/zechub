@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
-# Zaino Kielezo
+# Kielezo cha Zaino
 
 ## Kwa ufupi
 
 * **Zebra** huthibitisha mnyororo wa Zcash.
-* **Zaino** huweka faharasa ya data ya mnyororo wa Zebra na kutoa API zinazotumiwa na programu za wateja.
-* **Zallet** ni kipengele cha pochi katika stack ya Z3. Katika usanidi chaguomsingi wa Z3, Zallet huwasiliana moja kwa moja na Zebra na haihitaji huduma huru ya Zaino.
-* Huduma huru ya Zaino ni muhimu pale waendeshaji wanapohitaji endpoint ya gRPC inayooana na lightwalletd, proksi ya JSON-RPC, au miundombinu ya pochi nyepesi, vivinjari vya blockchain, vyanzo vya sarafu za bure na huduma zinazofanana.
-* Zaino ni miundombinu inayotumika, lakini waendeshaji wanapaswa kuangalia Zaino rasmi na nyaraka za Z3 kwa maelezo ya sasa ya uwekaji kabla ya kuiendesha katika mazingira ya uzalishaji.
+* **Zaino** huweka kielezo cha data ya mnyororo ya Zebra na kutoa API za programu zinazotumia huduma hizo.
+* **Zallet** ni sehemu ya pochi katika mkusanyiko wa Z3. Katika usanidi wa kawaida wa Z3, Zallet huwasiliana moja kwa moja na Zebra na haihitaji huduma ya pekee ya Zaino.
+* Huduma ya pekee ya Zaino ni muhimu waendeshaji wanapohitaji endpoint ya gRPC inayooana na lightwalletd, proksi ya JSON-RPC, au miundombinu ya pochi nyepesi, vivinjari vya blockchain, vyanzo vya sarafu za bure na huduma zinazofanana.
+* Zaino ni miundombinu inayotumika, lakini kabla ya kuiendesha katika mazingira ya uzalishaji, waendeshaji wanapaswa kuangalia Zaino rasmi na nyaraka za Z3 ili kupata maelezo ya sasa ya uwekaji.
 
 ## Maelezo ya Msingi
 
@@ -18,14 +18,14 @@ Zaino ni kielezo cha Rust cha blockchain ya Zcash. Husoma data ya mnyororo kutok
 
 ### Kazi ya Zaino
 
-Zaino hukaa kati ya Zebra na programu za wateja. Zebra ni node ya makubaliano: hupakua, huthibitisha na kufuatilia blockchain ya Zcash. Zaino hutumia Zebra kama chanzo cha data ya mnyororo, kisha huandaa mitazamo iliyowekwa faharasa ambayo programu za wateja zinaweza kuiuliza kwa ufanisi.
+Zaino iko kati ya Zebra na programu za watumiaji. Zebra ni node ya makubaliano: hupakua, huthibitisha na kufuata blockchain ya Zcash. Zaino hutumia Zebra kama chanzo cha data ya mnyororo, kisha huandaa mitazamo yenye faharasa ambayo programu za watumiaji zinaweza kuulizia kwa ufanisi.
 
 Mgawanyo huu huweka majukumu wazi:
 
 | Kipengele | Jukumu |
 |:--|:--|
 | Zebra | Full node na kithibitishaji |
-| Zaino | Kielezo na huduma ya API kwa programu za wateja |
+| Zaino | Kielezo na huduma ya API kwa programu zinazotumia huduma hizo |
 | Zallet | Huduma ya pochi |
 | lightwalletd | Seva ya zamani ya pochi nyepesi ambayo Zaino imeundwa kuibadilisha au kuikamilisha |
 
@@ -33,23 +33,23 @@ Zaino hutoa utendaji kwa light client, full client au pochi, na vivinjari vya bl
 
 ### Jinsi Inavyolingana na Zcash Stack ya Sasa
 
-Stack ya sasa ya Z3 imejengwa kuzunguka Zebra, Zallet, na Zaino ya hiari.
+Mkusanyiko wa sasa wa Z3 umejengwa kwa kutumia Zebra, Zallet na Zaino za hiari.
 
-Katika uwekaji chaguomsingi wa Z3, Zebra na Zallet huendeshwa pamoja. Zallet huwasiliana moja kwa moja na Zebra, kwa hiyo mwendeshaji anayeendesha stack ya ndani ya pochi pekee hahitaji kuanzisha huduma huru ya Zaino.
+Katika uwekaji wa kawaida wa Z3, Zebra na Zallet huendeshwa pamoja. Zallet huwasiliana moja kwa moja na Zebra, kwa hivyo mwendeshaji anayeendesha tu mkusanyiko wa pochi wa ndani hahitaji kuanzisha huduma ya pekee ya Zaino.
 
-Zaino huongezwa pale mwendeshaji anapotaka kuhudumia wateja wa nje. Katika Z3, huendeshwa kupitia wasifu wa Compose wa `indexer` na huongeza:
+Zaino huongezwa mwendeshaji anapotaka kutoa huduma kwa wateja wa nje. Katika Z3, huendeshwa kupitia wasifu wa Compose wa `indexer` na huongeza:
 
-* endpoint ya gRPC inayoendana na lightwalletd kwa wateja wa pochi nyepesi
-* proksi ya JSON-RPC kwa vivinjari vya blockchain, vyanzo vya sarafu za bure na mifumo ya nyuma ya huduma
+* endpoint ya gRPC inayoendana na lightwalletd kwa light wallet clients
+* proksi ya JSON-RPC kwa vivinjari vya blockchain, vyanzo vya sarafu za bure na mifumo saidizi ya huduma
 * hifadhidata ya kielezo iliyo tofauti na hali ya mnyororo ya Zebra
 
-Hii hufanya Zaino kuwa muhimu hasa kwa mifumo ya nyuma ya pochi, waendeshaji wa miundombinu ya umma, vivinjari vya blockchain, vyanzo vya sarafu za bure na wasanidi programu wanaojaribu huduma zinazohitaji data ya mnyororo ya Zcash iliyowekwa faharasa.
+Hivyo, Zaino ni muhimu hasa kwa mifumo saidizi ya pochi, waendeshaji wa miundombinu ya umma, vivinjari vya blockchain, vyanzo vya sarafu za bure na wasanidi programu wanaojaribu huduma zinazohitaji data ya mnyororo ya Zcash iliyo na faharasa.
 
 ### Zaino na lightwalletd
 
-lightwalletd ndiyo seva ya awali ya pochi nyepesi. Zaino ndiyo njia mrithi inayotegemea Rust kwa jukumu hili. Lengo lake ni kutoa API zinazooana inapowezekana ili pochi na huduma ziweze kuhamia bila kuandikwa upya kikamilifu mara moja.
+lightwalletd ndiyo seva asilia ya pochi nyepesi. Zaino ndiyo njia ya mrithi inayotumia Rust kwa jukumu hili. Lengo lake ni kutoa API zinazooana pale inapowezekana ili pochi na huduma ziweze kuhamia bila kuhitaji kuandikwa upya kabisa mara moja.
 
-Hii haimaanishi kuwa kila uwekaji wa lightwalletd tayari umehamia kwenye Zaino. Waendeshaji wanapaswa kuichukulia Zaino kama sehemu ya stack ya sasa inayotegemea Zebra na kuangalia nyaraka za hivi karibuni za mradi, matoleo na dashibodi za huduma kabla ya kuchagua watakachoendesha.
+Hii haimaanishi kwamba kila uwekaji wa lightwalletd tayari umehamia kwenye Zaino. Waendeshaji wanapaswa kuichukulia Zaino kama sehemu ya mkusanyiko wa sasa unaotumia Zebra na kuangalia nyaraka za hivi karibuni za mradi, matoleo na dashibodi za huduma kabla ya kuchagua cha kuendesha.
 
 ## Taswira / Mfano
 
@@ -65,15 +65,15 @@ Zallet, katika usanidi chaguomsingi wa Z3, hufanya kazi katika jengo moja na hue
 
 #### Usanifu wa Ndani wa Zaino
 
-![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Muundo wa ndani wa Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 #### Usanifu wa Huduma Inayotumika wa Zaino
 
-![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Muundo wa huduma ya moja kwa moja ya Zebra](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 #### Usanifu wa Mfumo wa Zaino
 
-![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Muundo wa mfumo wa Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 ## Uchambuzi wa Kina
 
@@ -85,34 +85,34 @@ Njia rahisi zaidi ya uwekaji iliyoidhinishwa ni hazina ya Z3. Z3 inajumuisha Zai
 docker compose --env-file .env.<network> --profile indexer up -d
 ```
 
-Anza kwa kuendesha usanidi wa kawaida wa Z3 na usubiri Zebra isawazishe kabla ya kuanzisha huduma tegemezi kwenye mainnet au testnet.
+Anzisha usanidi wa kawaida wa Z3 kwanza, kisha subiri Zebra isawazishe kabla ya kuanzisha huduma tegemezi kwenye mainnet au testnet.
 
 Zaino hutoa aina mbili za huduma za mtandao. Huduma ya gRPC ndiyo API inayotumiwa na lightwallet. Huduma ya JSON-RPC imekusudiwa kwa loopback au mitandao binafsi inayoaminika, isipokuwa kama safu ya nje inatoa ulinzi. Usiweke hadharani kwenye intaneti endpoint ya JSON-RPC isiyo na uthibitishaji au usimbaji fiche.
 
 ## Makosa ya Kawaida
 
-**Kuchukulia Zaino kama full node.** Zaino si kithibitishaji. Zebra huthibitisha mnyororo; Zaino huweka faharasa ya data kutoka kwa Zebra.
+**Kuchukulia Zaino kama full node.** Zaino si kithibitishaji. Zebra huthibitisha mnyororo; Zaino huweka faharasa ya data kutoka Zebra.
 
-**Kudhani kila uwekaji wa Z3 unahitaji Zaino huru.** Zallet inaweza kuwasiliana moja kwa moja na Zebra katika stack chaguomsingi ya Z3. Anzisha Zaino unapohitaji huduma huru ya kielezo kwa wateja wa nje.
+**Kudhani kwamba kila uwekaji wa Z3 unahitaji Zaino ya pekee.** Zallet inaweza kuwasiliana moja kwa moja na Zebra katika mkusanyiko wa kawaida wa Z3. Anzisha Zaino unapohitaji huduma ya pekee ya kielezo kwa wateja wa nje.
 
-**Kuwasilisha vipengele vilivyopangwa kana kwamba tayari vimewekwa.** Zaino inaendelezwa kikamilifu, kwa hiyo angalia maelezo ya sasa ya matoleo na nyaraka kabla ya kueleza kuwa kipengele kinapatikana.
+**Kuwasilisha vipengele vilivyopangwa kana kwamba tayari vimewekwa.** Zaino inaendelezwa kikamilifu, kwa hivyo angalia madokezo ya matoleo na nyaraka za sasa kabla ya kueleza kwamba kipengele kinapatikana.
 
-**Kuweka JSON-RPC wazi bila tahadhari.** Kiolesura cha JSON-RPC cha Zaino ni cha loopback au mitandao binafsi inayoaminika, isipokuwa kilindwe na safu nyingine.
+**Kufichua JSON-RPC bila tahadhari.** Kiolesura cha JSON-RPC cha Zaino ni cha loopback au mitandao binafsi inayoaminika, isipokuwa kilindwe na safu nyingine.
 
 ## Kurasa Zinazohusiana
 
 - [Nodi za Lightwallet](/zcash-tech/lightwallet-nodes): seva ambazo pochi nyepesi huunganishwa nazo, lightwalletd na Zaino, na jinsi ya kubadilisha kati yake.
 - [Zinder](/zcash-tech/zinder), kielezo kingine cha Rust, kutoka kwa Zcash Foundation (alpha)
-- [Zebra Full Node](/zcash-tech/zebra-full-node): node ambayo Zaino husoma data yake ya mnyororo kutoka kwayo.
+- [Full Node ya Zebra](/zcash-tech/zebra-full-node): node ambayo Zaino husoma data yake ya mnyororo kutoka kwayo.
 - [Zallet](/zcash-tech/zallet): pochi ya full node katika stack ya Z3.
 - [Stack ya Z3](/zcash-tech/z3-stack): Zebra, Zallet na kielezo cha hiari cha Zaino vimefungashwa pamoja.
 - [Kiwango cha Utendaji cha Kielezo: Zaino dhidi ya Ztreamer](/zcash-tech/indexer-benchmark-zaino-vs-ztreamer): ulinganisho unaoweza kurudiwa wa vielezo viwili vya lightwallet.
 - [Full Nodes](/zcash-tech/full-nodes): muhtasari wa programu za full node za Zcash.
-- [Zcash Usawazishaji wa Pochi](/zcash-tech/zcash-wallet-syncing): kwa nini pochi za faragha zinahitaji mchakato wa kusawazisha.
+- [Usawazishaji wa Pochi ya Zcash](/zcash-tech/zcash-wallet-syncing): kwa nini pochi za faragha zinahitaji mchakato wa kusawazisha.
 
 ### Nyenzo
 
-* [Zaino hazina ya GitHub](https://github.com/zingolabs/zaino)
+* [Hazina ya GitHub ya Zaino](https://github.com/zingolabs/zaino)
 * matoleo ya [Zaino](https://github.com/zingolabs/zaino/releases)
 * nyaraka zilizozalishwa za [Zaino](https://zingolabs.github.io/zaino/)
 * hazina ya uwekaji wa Z3[](https://github.com/ZcashFoundation/z3)

@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Dezie Ibe"/>
 </a>
 
-# Zcash Amụma Ego
+# Amụma Ego Zcash
 
 ## Nchịkọta
 
@@ -62,11 +62,11 @@ Kemgbe NU7, a na-ewepụ 60% nke ugwo Azụmahịa dị na block ọ bụla n’
 - [Development Fund](/start-here/development-fund): akụkọ banyere òkè mmepe nke ụgwọ block.
 - [Network Upgrades](/start-here/network-upgrades): network upgrade Zcash niile, tinyere ụbọchị na nọmba block ha.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): nzukọ na-enweta òkè 8% ahụ.
-- [Zcash Ndị nwe pool ịgwụputa](/using-zcash/zcash-mining-pools): ebe ọtụtụ ndị na-egwụputa si enweta òkè ha n’ụgwọ block.
+- [Ndị nwe pool ịgwụputa Zcash](/using-zcash/zcash-mining-pools): ebe ọtụtụ ndị na-egwụputa si enweta òkè ha n’ụgwọ block.
 
 ### Akụ Ndị E Ji Eme Nnyocha
 
-[Gịnị bụ akụnụba nke Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Gịnị bụ akụ na ụba nke Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: Oge Dị N’etiti Ihe Mgbaru Ọsọ Block Sekọnd 25](https://zips.z.cash/zip-0218)
 

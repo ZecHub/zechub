@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Sera ya Fedha
+# Sera ya Fedha ya Zcash
 
 ## Kwa Ufupi
 
@@ -62,11 +62,11 @@ Tangu NU7, 60% ya ada za miamala katika kila block huondolewa kwenye mzunguko na
 - [Mfuko wa Maendeleo](/start-here/development-fund): historia ya sehemu ya maendeleo katika zawadi ya block.
 - [Maboresho ya Mtandao](/start-here/network-upgrades): kila uboreshaji wa Zcash, pamoja na tarehe na urefu wa block.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): shirika linalopokea sehemu ya 8%.
-- [Zcash Mabwawa ya Uchimbaji](/using-zcash/zcash-mining-pools): mahali ambapo wachimbaji wengi hupata sehemu yao ya zawadi ya block.
+- [Mabwawa ya Uchimbaji ya Zcash](/using-zcash/zcash-mining-pools): mahali ambapo wachimbaji wengi hupata sehemu yao ya zawadi ya block.
 
 ### Marejeo
 
-[Uchumi wa Zcash ukoje?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Uchumi wa Zcash ni upi?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: Muda Lengwa wa Sekunde 25 Kati ya Block](https://zips.z.cash/zip-0218)
 

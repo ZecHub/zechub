@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Редактировать страницу"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Денежно-кредитная политика
+# Денежно-кредитная политика Zcash
 
 ## Кратко
 
@@ -62,11 +62,11 @@ NU7 сделал блоки втрое более частыми, поэтому
 - [Фонд развития](/start-here/development-fund): история доли награды за блок, выделяемой на развитие.
 - [Обновления сети](/start-here/network-upgrades): все обновления Zcash с датами и высотой блоков.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): организация, получающая долю в 8%.
-- [Zcash Пулы для майнинга](/using-zcash/zcash-mining-pools): здесь большинство майнеров получают свою долю награды за блок.
+- [Пулы для майнинга Zcash](/using-zcash/zcash-mining-pools): здесь большинство майнеров получают свою долю награды за блок.
 
 ### Материалы
 
-[Какова экономика Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Как устроена экономика Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: интервал между блоками — 25 секунд](https://zips.z.cash/zip-0218)
 

@@ -42,7 +42,7 @@ NU7让每一把新币的发放频率提高到原来的 3 倍，同时将每一�
 | [Blossom](/zcash-tech/blossom)，2019 年 12 月至 2020 年 11 月 | 75 秒 | 6.25 枚ZEC | 7,200 |
 | 第一次减半（[Canopy](/zcash-tech/canopy)），2020 年 11 月至 2024 年 11 月 | 75 秒 | 3.125 枚ZEC | 3,600 |
 | 第二次减半（[NU6](/zcash-tech/nu6)），2024 年 11 月至 2026 年 11 月 | 75 秒 | 1.5625 枚ZEC | 1,800 |
-| [NU7](/zcash-tech/nu7)，2026 年 11 月至 2028 年 11 月下旬 | 25 秒 | 0.52083333 枚ZEC | 1,800 |
+| [NU7](/zcash-tech/nu7)，2026 年 11 月至 2028 年末 | 25 秒 | 0.52083333 枚ZEC | 1,800 |
 | 第三次减半，预计在 2028 年 11 月下旬 | 25 秒 | 当前奖励的一半 | 约 900 |
 
 每天新增的数量等于每个区块的奖励乘以每天产生的区块数（86,400 秒除以区块时间）。实际区块时间会有轻微波动，因此每天的实际发行量也会略微偏离这些数字。
@@ -66,7 +66,7 @@ NU7让区块的产生频率提高到原来的 3 倍，因此下一次减半对�
 
 ### 资源
 
-[Zcash的经济机制是什么？](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Zcash 的经济模型是什么？](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218：25 秒区块目标间隔](https://zips.z.cash/zip-0218)
 

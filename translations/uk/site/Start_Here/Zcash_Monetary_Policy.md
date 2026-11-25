@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Редагувати сторінку"/>
 </a>
 
-# Zcash Монетарна політика
+# Монетарна політика Zcash
 
 ## Коротко
 
@@ -62,11 +62,11 @@ NU7 зробив блоки втричі частішими, тому зміни
 - [Фонд розвитку](/start-here/development-fund): історія частки винагороди за блок, призначеної для розвитку.
 - [Оновлення мережі](/start-here/network-upgrades): усі оновлення Zcash із датами та висотами блоків.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): організація, яка отримує частку у 8%.
-- [Zcash Пули майнінгу](/using-zcash/zcash-mining-pools): де більшість майнерів отримує свою частку винагороди за блок.
+- [Пули майнінгу Zcash](/using-zcash/zcash-mining-pools): де більшість майнерів отримує свою частку винагороди за блок.
 
 ### Ресурси
 
-[Яка економічна модель Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Якою є економіка Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: 25-секундний інтервал між блоками](https://zips.z.cash/zip-0218)
 

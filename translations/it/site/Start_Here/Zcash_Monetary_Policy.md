@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica la pagina"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Zcash Politica monetaria
+# Politica monetaria di Zcash
 
 ## In breve
 
@@ -62,11 +62,11 @@ Da NU7, il 60% delle commissioni di transazione in ogni blocco viene rimosso dal
 - [Fondo per lo sviluppo](/start-here/development-fund): la storia della quota della ricompensa del blocco destinata allo sviluppo.
 - [Aggiornamenti di rete](/start-here/network-upgrades): ogni aggiornamento di Zcash, con date e altezze dei blocchi.
 - [Zcash Community Grants](/zcash-organizations/zcash-community-grants): l'organizzazione che riceve la quota dell'8%.
-- [Zcash pool di mining](/using-zcash/zcash-mining-pools): dove la maggior parte dei miner guadagna la propria quota della ricompensa del blocco.
+- [pool di mining di Zcash](/using-zcash/zcash-mining-pools): dove la maggior parte dei miner guadagna la propria quota della ricompensa del blocco.
 
 ### Risorse
 
-[Qual è l'economia di Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Quali sono le dinamiche economiche di Zcash?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: intervallo di 25 secondi tra i blocchi](https://zips.z.cash/zip-0218)
 

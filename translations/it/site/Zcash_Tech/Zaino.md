@@ -2,15 +2,15 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Modifica la pagina"/>
 </a>
 
-# Zaino Indexer
+# Indexer di Zaino
 
 ## In breve
 
-* **Zebra** convalida la chain di Zcash.
+* **Zebra** valida la chain Zcash.
 * **Zaino** indicizza i dati della chain di Zebra ed espone API rivolte ai client.
 * **Zallet** è il componente portafoglio dello stack Z3. Nella configurazione predefinita di Z3, Zallet comunica direttamente con Zebra e non richiede il servizio autonomo Zaino.
 * Il servizio autonomo Zaino è utile quando gli operatori hanno bisogno di un endpoint gRPC compatibile con lightwalletd, di un proxy JSON-RPC o di un'infrastruttura per portafogli leggeri, explorer, faucet e servizi simili.
-* Zaino è un'infrastruttura attiva, ma prima di usarla in produzione gli operatori dovrebbero consultare la documentazione ufficiale di Zaino e di Z3 per i dettagli aggiornati sulla distribuzione.
+* Zaino è un'infrastruttura attiva, ma prima di usarla in produzione gli operatori dovrebbero consultare Zaino ufficiale e la documentazione di Z3 per i dettagli aggiornati sulla distribuzione.
 
 ## Spiegazione principale
 
@@ -18,7 +18,7 @@ Zaino è un indexer Rust per la blockchain di Zcash. Legge i dati della chain da
 
 ### Cosa fa Zaino
 
-Zaino si colloca tra Zebra e il software client. Zebra è il nodo di consenso: scarica, verifica e segue la blockchain di Zcash. Zaino usa Zebra come fonte dei dati della chain e prepara viste indicizzate che le applicazioni client possono interrogare in modo efficiente.
+Zaino si trova tra Zebra e il software client. Zebra è il nodo di consenso: scarica, verifica e segue la blockchain Zcash. Zaino usa Zebra come fonte di dati della chain, quindi prepara viste indicizzate che le applicazioni client possono interrogare in modo efficiente.
 
 Questa separazione mantiene chiari i ruoli:
 
@@ -26,30 +26,30 @@ Questa separazione mantiene chiari i ruoli:
 |:--|:--|
 | Zebra | Full node e validatore |
 | Zaino | Indexer e servizio API rivolto ai client |
-| Zallet | Servizio per portafogli |
+| Zallet | Servizio portafoglio |
 | lightwalletd | Server per portafogli leggeri meno recente che Zaino è progettato per sostituire o affiancare |
 
 Zaino fornisce funzionalità per light client, client completi o portafogli e block explorer. Consente di accedere alla chain finalizzata, alla best chain non finalizzata e ai dati del mempool conservati da Zebra.
 
 ### Come si integra nello stack Zcash Stack attuale
 
-Lo stack Z3 attuale si basa su Zebra, Zallet e Zaino opzionale.
+Lo stack Z3 attuale è basato su Zebra, Zallet e Zaino facoltativo.
 
-Nella distribuzione predefinita di Z3, Zebra e Zallet vengono eseguiti insieme. Zallet si collega direttamente a Zebra, quindi un operatore che esegue solo uno stack locale per portafogli non deve avviare il servizio autonomo Zaino.
+Nella distribuzione predefinita di Z3, Zebra e Zallet vengono eseguiti insieme. Zallet comunica direttamente con Zebra, quindi un operatore che esegue solo uno stack locale per portafogli non deve avviare il servizio autonomo Zaino.
 
-Zaino viene aggiunto quando l'operatore vuole fornire servizi a client esterni. In Z3, viene eseguito dietro il profilo Compose `indexer` e aggiunge:
+Zaino viene aggiunto quando l'operatore vuole fornire servizi a client esterni. In Z3, viene eseguito tramite il profilo Compose `indexer` e aggiunge:
 
 * un endpoint gRPC compatibile con lightwalletd per i client di portafogli leggeri
-* un proxy JSON-RPC per explorer, faucet e backend dei servizi
+* un proxy JSON-RPC per explorer, faucet e backend di servizi
 * un database dell'indexer separato dallo stato della chain di Zebra
 
-Questo rende Zaino particolarmente rilevante per i backend dei portafogli, gli operatori di infrastrutture pubbliche, gli explorer, i faucet e gli sviluppatori che testano servizi basati su dati della chain di Zcash indicizzati.
+Per questo Zaino è particolarmente rilevante per i backend di portafogli, gli operatori di infrastrutture pubbliche, gli explorer, i faucet e gli sviluppatori che testano servizi che necessitano di dati della chain Zcash indicizzati.
 
 ### Zaino e lightwalletd
 
-lightwalletd è il server originale per portafogli leggeri. Zaino è il percorso successivo basato su Rust per questo ruolo. Il suo obiettivo è offrire API compatibili dove possibile, così che portafogli e servizi possano migrare senza dover essere riscritti completamente in una sola volta.
+lightwalletd è il server originale per portafogli leggeri. Zaino è il percorso successore basato su Rust per questo ruolo. Il suo obiettivo è fornire API compatibili, dove possibile, così che portafogli e servizi possano migrare senza dover essere riscritti completamente tutti insieme.
 
-Questo non significa che tutte le distribuzioni di lightwalletd siano già passate a Zaino. Gli operatori dovrebbero considerare Zaino parte dello stack attuale basato su Zebra e consultare la documentazione di progetto, le release e le dashboard dei servizi più recenti prima di scegliere cosa eseguire.
+Questo non significa che tutte le distribuzioni lightwalletd siano già passate a Zaino. Gli operatori dovrebbero considerare Zaino parte dello stack attuale basato su Zebra e consultare la documentazione aggiornata del progetto, le release e i dashboard dei servizi prima di scegliere cosa eseguire.
 
 ## Immagine / analogia
 
@@ -65,54 +65,54 @@ Zallet, nella configurazione predefinita di Z3, lavora nello stesso edificio e s
 
 #### Architettura interna di Zaino
 
-![Zaino Internal Architecture](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
+![Architettura interna di Zaino](/content-images/image-2025-01-02-190143429-3f3cc78fa5.webp)
 
 #### Architettura del servizio in esecuzione di Zaino
 
-![Zebra Live Service Architecture](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
+![Architettura del servizio live di Zebra](/content-images/image-2025-01-02-190349017-892cb409ea.webp)
 
 #### Architettura di sistema di Zaino
 
-![Zaino System Architecture](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
+![Architettura di sistema di Zaino](/content-images/image-2025-01-02-190448037-1e4e675ccb.webp)
 
 ## Approfondimento
 
 ### Note per gli operatori
 
-Il percorso di distribuzione ufficiale più semplice è il repository di Z3. Z3 include Zaino come servizio opzionale:
+Il percorso di distribuzione più semplice e autorevole è il repository di Z3. Z3 include Zaino come servizio facoltativo:
 
 ```bash
 docker compose --env-file .env.<network> --profile indexer up -d
 ```
 
-Esegui prima la configurazione standard di Z3 e aspetta che Zebra completi la sincronizzazione prima di avviare servizi dipendenti su mainnet o testnet.
+Esegui prima la configurazione standard di Z3 e attendi che Zebra completi la sincronizzazione prima di avviare servizi dipendenti su mainnet o testnet.
 
 Zaino espone due tipi di servizi di rete. Il servizio gRPC è l'API rivolta a lightwallet. Il servizio JSON-RPC è pensato per loopback o reti private fidate, a meno che un livello esterno non fornisca protezione. Non esporre su internet un endpoint JSON-RPC non autenticato o non cifrato.
 
 ## Errori comuni
 
-**Considerare Zaino un full node.** Zaino non è il validatore. Zebra convalida la chain; Zaino indicizza i dati di Zebra.
+**Considerare Zaino un full node.** Zaino non è il validatore. Zebra valida la chain; Zaino indicizza i dati provenienti da Zebra.
 
-**Supporre che ogni distribuzione Z3 abbia bisogno di Zaino autonomo.** Zallet può collegarsi direttamente a Zebra nello stack Z3 predefinito. Avvia Zaino quando ti serve il servizio indexer autonomo per client esterni.
+**Supporre che ogni distribuzione di Z3 richieda Zaino autonomo.** Nello stack Z3 predefinito, Zallet può comunicare direttamente con Zebra. Avvia Zaino quando ti serve il servizio indexer autonomo per client esterni.
 
-**Presentare funzionalità pianificate come già disponibili.** Zaino è in fase di sviluppo attivo, quindi consulta le note di rilascio e la documentazione aggiornate prima di descrivere una funzionalità come disponibile.
+**Presentare le funzionalità pianificate come già distribuite.** Zaino è in fase di sviluppo attivo, quindi consulta le note di rilascio e la documentazione aggiornate prima di descrivere una funzionalità come disponibile.
 
-**Esporre JSON-RPC senza attenzione.** L'interfaccia JSON-RPC di Zaino è destinata al loopback o a reti private fidate, a meno che non sia protetta da un altro livello.
+**Esporre JSON-RPC senza le dovute precauzioni.** L'interfaccia JSON-RPC di Zaino è destinata a loopback o reti private fidate, a meno che non sia protetta da un altro livello.
 
 ## Pagine correlate
 
 - [Nodi Lightwallet](/zcash-tech/lightwallet-nodes): i server a cui si collegano i portafogli leggeri, lightwalletd e Zaino, e come passare da uno all'altro.
 - [Zinder](/zcash-tech/zinder), un altro indexer di Rust, da Zcash Foundation (alpha)
-- [Zebra Full Node](/zcash-tech/zebra-full-node): il nodo da cui Zaino legge i dati della chain.
+- [Full Node di Zebra](/zcash-tech/zebra-full-node): il nodo da cui Zaino legge i dati della chain.
 - [Zallet](/zcash-tech/zallet): il portafoglio per full node nello stack Z3.
 - [Stack Z3](/zcash-tech/z3-stack): Zebra, Zallet e l'indexer Zaino opzionale, inclusi nello stesso pacchetto.
 - [Benchmark degli indexer: Zaino contro Ztreamer](/zcash-tech/indexer-benchmark-zaino-vs-ztreamer): un confronto riproducibile tra due indexer per lightwallet.
 - [Full node](/zcash-tech/full-nodes): una panoramica dei software per full node di Zcash.
-- [Zcash Sincronizzazione dei portafogli](/zcash-tech/zcash-wallet-syncing): perché i portafogli schermati hanno bisogno di un processo di sincronizzazione.
+- [Sincronizzazione dei portafogli di Zcash](/zcash-tech/zcash-wallet-syncing): perché i portafogli schermati hanno bisogno di un processo di sincronizzazione.
 
 ### Risorse
 
-* [Zaino repository di GitHub](https://github.com/zingolabs/zaino)
+* [Repository di GitHub di Zaino](https://github.com/zingolabs/zaino)
 * [release di Zaino](https://github.com/zingolabs/zaino/releases)
 * [documentazione generata di Zaino](https://zingolabs.github.io/zaino/)
 * [Repository di distribuzione di Z3](https://github.com/ZcashFoundation/z3)

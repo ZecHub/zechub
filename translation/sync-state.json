@@ -2247,7 +2247,7 @@
       "src_commit": "f7868c48a4af8ab9b5f0354aaf676a1453b27bd8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -3063,7 +3063,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -4185,7 +4185,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -5001,7 +5001,7 @@
       "src_commit": "1826374799d8141f9523c11ed55fa658507cf4f8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -6123,7 +6123,7 @@
       "src_commit": "f7868c48a4af8ab9b5f0354aaf676a1453b27bd8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna +preserve",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -6931,7 +6931,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -7733,7 +7733,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -8341,7 +8341,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Use_Cases/About.md": {
@@ -10311,7 +10311,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -11079,7 +11079,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -11609,7 +11609,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Using_Zcash/Custodial_Exchanges.md": {
@@ -12377,7 +12377,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md": {
@@ -13875,7 +13875,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -14691,7 +14691,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -15813,7 +15813,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna +preserve",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -16629,7 +16629,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -17751,7 +17751,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -18567,7 +18567,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -19977,7 +19977,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -20713,7 +20713,7 @@
       "src_commit": "1826374799d8141f9523c11ed55fa658507cf4f8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -21627,7 +21627,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -22443,7 +22443,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -23317,7 +23317,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna +preserve",
       "edited": false
     },
     "Start_Here/Who_Can_See_Your_Zcash_Payment.md": {
@@ -23533,7 +23533,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Halo.md": {
@@ -27441,7 +27441,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -28257,7 +28257,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -29379,7 +29379,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -30195,7 +30195,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -31317,7 +31317,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -32133,7 +32133,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -33255,7 +33255,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna +preserve",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -34071,7 +34071,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -35193,7 +35193,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -36009,7 +36009,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {
@@ -39285,7 +39285,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -40037,7 +40037,7 @@
       "src_commit": "10d300f18f2befe81ce14a7ae5a6d4a393a9ba0c",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+handfix",
       "edited": false
     },
     "Zcash_Tech/Zakura_Node.md": {

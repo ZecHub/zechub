@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="ページを編集"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash 金融政策
@@ -66,7 +66,7 @@ NU7以降、各ブロックのトランザクション手数料の60%は流通�
 
 ### 参考資料
 
-[Zcashの経済的な仕組みとは？](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Zcashの経済モデルとは何ですか？](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218：25秒のブロック目標間隔](https://zips.z.cash/zip-0218)
 

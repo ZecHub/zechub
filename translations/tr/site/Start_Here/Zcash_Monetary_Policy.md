@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/Zcash_Monetary_Policy.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash Para Politikası
@@ -66,7 +66,7 @@ NU7'ten beri her bloktaki işlem ücretlerinin %60'ı dolaşımdan çıkarılır
 
 ### Kaynaklar
 
-[Zcash ekonomisi nasıldır?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
+[Zcash'in ekonomisi nasıldır?](https://z.cash/support/faq/#:~:text=Zcash's%20monetary%20base%20is%20the,3.125%20ZEC%20comes%20into%20circulation.)
 
 [ZIP 218: 25 Saniyelik Blok Hedef Aralığı](https://zips.z.cash/zip-0218)
 
