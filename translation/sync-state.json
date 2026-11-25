@@ -2243,11 +2243,11 @@
       "edited": false
     },
     "Start_Here/Zcash_Monetary_Policy.md": {
-      "src": "sha256:ffdf6a10ae31d32570adad5a856482858d498fda1ee51e9562b998edc4685f43",
-      "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
+      "src": "sha256:2fc0eec9477df13bb831f7c210a1e58ad97c845ba479442bb9843e4a382c5498",
+      "src_commit": "f7868c48a4af8ab9b5f0354aaf676a1453b27bd8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna+ar-adoption-20261119+ar-block-agreement-20261119",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
@@ -6119,11 +6119,11 @@
       "edited": false
     },
     "Start_Here/Zcash_Monetary_Policy.md": {
-      "src": "sha256:ffdf6a10ae31d32570adad5a856482858d498fda1ee51e9562b998edc4685f43",
-      "src_commit": "775e3110baeba5034d6aef8e33b61d99c02a3bbb",
+      "src": "sha256:2fc0eec9477df13bb831f7c210a1e58ad97c845ba479442bb9843e4a382c5498",
+      "src_commit": "f7868c48a4af8ab9b5f0354aaf676a1453b27bd8",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna+handfix",
+      "tool": "codex/gpt-6-luna",
       "edited": false
     },
     "Start_Here/Zcash_Resources.md": {
