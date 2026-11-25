@@ -130,7 +130,7 @@ From the wallet-serving runbook:
 
 * [Zinder GitHub repository](https://github.com/ZcashFoundation/zinder)
 * [Zinder releases](https://github.com/ZcashFoundation/zinder/releases) and [changelog](https://github.com/ZcashFoundation/zinder/blob/main/CHANGELOG.md)
-* [What Zinder is and is not](https://github.com/ZcashFoundation/zinder/blob/main/docs/architecture/indexer-wallet-boundary.md)
-* [Deploying on a VM](https://github.com/ZcashFoundation/zinder/blob/main/docs/runbooks/deploying-on-a-vm.md) and [wallet-serving image](https://github.com/ZcashFoundation/zinder/blob/main/docs/runbooks/deploying-wallet-serving.md) runbooks
+* [How Zinder works](https://github.com/ZcashFoundation/zinder/blob/main/docs/architecture/overview.md)
+* [Deploying on a VM](https://github.com/ZcashFoundation/zinder/blob/main/docs/runbooks/deploying-on-a-vm.md) and [Deploying Zinder](https://github.com/ZcashFoundation/zinder/blob/main/docs/runbooks/deploying.md) runbooks
 
 **Last updated:** November 2026
