@@ -2887,7 +2887,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -4825,7 +4825,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -6763,7 +6763,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -10903,7 +10903,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -12633,7 +12633,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+a11ylabel",
       "edited": false
     },
     "Research/zcash-foundations-series/article-3/article-3-hashing-commitments.md": {
@@ -14515,7 +14515,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -15087,11 +15087,11 @@
       "edited": false
     },
     "guides/Maya_Protocol.md": {
-      "src": "sha256:94d874d1c1db441342095f89631b5d4605e5c50903933a8e0ac1a90ed0b98b24",
-      "src_commit": "87c1b5439d27eab02ff41e3a936fdbdbf0e8514f",
+      "src": "sha256:fc48f17ffff9c4cc8a0a389249c214f1cffb1b75857700dccf7e355d4c63294b",
+      "src_commit": "d5ea7f8ac17c92323437f8605a12f50aaf835203",
       "engine": "llm",
       "mode": "full",
-      "tool": "claude-opus-5-5+brandfix",
+      "tool": "claude-opus-5-5+brandfix+verified-noop",
       "edited": false
     },
     "guides/Migration_Guide_Zcashd_To_Zebrad_Zallet.md": {
@@ -16453,7 +16453,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -18391,7 +18391,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -20553,7 +20553,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -22267,7 +22267,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -28081,7 +28081,7 @@
       "src_commit": "6fd4883f0f89c7a4ae387a9713308f46140ddcaf",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -30019,7 +30019,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -31957,7 +31957,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "full",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+preserve+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -35833,7 +35833,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
@@ -39869,7 +39869,7 @@
       "src_commit": "6c52f476bdcc3d7c786add082cafe3b6be2f4ac4",
       "engine": "llm",
       "mode": "diff",
-      "tool": "codex/gpt-6-luna",
+      "tool": "codex/gpt-6-luna+a11ylabel",
       "edited": false
     },
     "Zcash_Tech/NU5.md": {
