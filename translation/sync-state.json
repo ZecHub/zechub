@@ -4997,10 +4997,10 @@
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
-      "src": "sha256:1dff9960f9bcdca83f8274d1d6caf28b8ca5406a1e2b681e62395efd506f4783",
-      "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
+      "src": "sha256:eccb3144f0f26aea5268fd8bd32d0e5b57443fb3c364537c07a8405ff05e190e",
+      "src_commit": "1826374799d8141f9523c11ed55fa658507cf4f8",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-6-luna",
       "edited": false
     },
@@ -20709,10 +20709,10 @@
       "edited": false
     },
     "Zcash_Tech/Zaino.md": {
-      "src": "sha256:1dff9960f9bcdca83f8274d1d6caf28b8ca5406a1e2b681e62395efd506f4783",
-      "src_commit": "9f9c9d291788bb0867d58175949e124793567a06",
+      "src": "sha256:eccb3144f0f26aea5268fd8bd32d0e5b57443fb3c364537c07a8405ff05e190e",
+      "src_commit": "1826374799d8141f9523c11ed55fa658507cf4f8",
       "engine": "llm",
-      "mode": "diff",
+      "mode": "full",
       "tool": "codex/gpt-6-luna",
       "edited": false
     },
