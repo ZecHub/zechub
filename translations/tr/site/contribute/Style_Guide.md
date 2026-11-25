@@ -1,50 +1,50 @@
 # ZecHub Stil Rehberi
 
-ZecHub stili sade ve anlaşılırdır. Herkesi memnuniyetle karşılarız ve odağımız Zcash topluluğudur.
+ZecHub stili basit ve anlaşılırdır. Herkesi memnuniyetle karşılıyor ve Zcash topluluğuna odaklanıyoruz.
 
 ## İlkeler
 
-1. **Yardım etmeye hazır** - Zcash kullanıcılarına onların yanında olduğumuzu gösterin.
+1. **Yardım etmeye hazır:** Zcash kullanıcılarına onların yanında olduğumuzu gösterin.
 
-2. **Kısa ve öz:** Mümkün olan en basit mesajı verin. En önemli noktadan başlayın.
+2. **Kısa ve öz:** Mümkün olan en basit mesajı verin. En önemli noktayla başlayın.
 
-3. **Kullanıcı odaklı:** Önce kullanıcılar için, sonra geliştiriciler için ve en son diğer herkes için yazarız.
+3. **Kullanıcı odaklı:** Öncelikle kullanıcılar, sonra geliştiriciler, en son da diğer herkes için yazarız.
 
-## Temel noktalar
+## Temel Bilgiler
 
-- **Doğrudan konuya girin**. En önemli noktadan başlayın. Göz gezdirmeyi kolaylaştırmak için anahtar kelimeleri öne alın. Kullanıcının seçeneklerini ve sonraki adımlarını netleştirin.
+- **Konuya girin**. En önemli noktayla başlayın. Hızlıca gözden geçirmeyi kolaylaştırmak için anahtar kelimeleri başa alın. Kullanıcının seçeneklerini ve sonraki adımlarını netleştirin.
 
-- **Konuştuğunuz gibi yazın**. Kullanıcılarımız gerçek insanlardır. Yazarken onlarla konuşur gibi iletişim kurun.
+- **Konuştuğunuz gibi yazın**. Kullanıcılarımız gerçek insanlardır. Onlarla yazılı olarak konuşun.
 
-- **Kısa yazın**. Kullanıcılara bir sorunu çözmeleri veya bir seçim yapmaları için yeterli bilgiyi verin.
+- **Kısa tutun**. Kullanıcıların bir sorunu çözmesi veya bir seçim yapması için yeterli bilgiyi verin.
 
-- **Başlıklarda nokta kullanmayın**. Başlıkların, alt başlıkların, arayüz başlıklarının ve üç ya da daha az kelimeden oluşan liste öğelerinin sonundaki noktalama işaretlerini kaldırın. Noktalar paragraf ve gövde metninde kullanılır.
+- **Başlıklarda nokta kullanmayın**. Başlıkların, alt başlıkların, kullanıcı arayüzü başlıklarının ve üç veya daha az kelimeden oluşan liste öğelerinin sonundaki noktalama işaretlerini kaldırın. Noktalar paragraflarda ve ana metinde kullanılır.
 
-  - Örnekler: Send düğmesine basın->Send düğmesine basın
+  - Örnekler: Gönder düğmesine basın->Gönder düğmesine basın
 
-- **Emin değilseniz, büyük harften kaçının**. Yalnızca Zcash gibi özel adları veya isimleri, ayrıca bir başlığın ya da ifadenin ilk kelimesini büyük harfle yazın.
+- **Şüpheye düştüğünüzde büyük harf kullanmaktan kaçının**. Yalnızca Zcash gibi özel adları veya isimleri ve ayrıca bir başlığın ya da ifadenin ilk kelimesini büyük harfle yazın.
 
-  - Örnekler: Unified Address ile ZEC Nasıl Gönderilir. → Unified Address ile ZEC nasıl gönderilir
+  - Örnekler: Unified Address ile ZEC Gönderme. → unified address ile ZEC gönderme
 
-- **Zayıf ifadeleri yeniden yazın**. Çoğu zaman, her ifadeye bir fiille başlayın. You can ve there were gibi yapılar gözden geçirilmelidir.
+- **Zayıf ifadeleri yeniden yazın**. Çoğu zaman her ifadeye bir fiille başlayın. You can ve there were gibi ifadeler yeniden yazılmalıdır.
 
-  - Örnekler: Cep telefonunuzdan ZEC gönderip alabilirsiniz->Telefonunuzla ZEC gönderin ve alın
+  - Örnekler: ZEC cep telefonunuzdan gönderebilir ve alabilirsiniz->ZEC telefonunuzla gönderin ve alın
 
-- **Gereksiz boşluk kullanmayın**. Noktalardan ve iki nokta üst üste işaretinden sonra yalnızca bir boşluk kullanın.
+- **Gereksiz boşluk kullanmayın**. Noktalardan ve iki noktalardan sonra yalnızca bir boşluk kullanın.
 
-- **İngilizce olmayan sözcüklerden kaçının**; örneğin de facto veya ad hoc. Yaygın İngilizce ifadelerin Latince kısaltmalarından kaçının.
+- **De facto veya ad hoc gibi İngilizce olmayan kelimelerden kaçının**. Yaygın İngilizce ifadelerin Latince kısaltmalarını kullanmaktan kaçının.
 
     | Bunu kullanın | Bunun yerine |
-    |-------------|-----------------|
-    | örneğin | e.g.            |
-    | yani     | i.e.            |
+    |---------------|--------------|
+    | örneğin       | e.g.         |
+    | yani          | i.e.         |
 
 ## Tweetler
 
-Bu genel stil rehberi, ZecHub için makale veya kullanıcı rehberi yazmak içindir. Tweetler ve diğer kısa ifadeler için de geçerlidir: kısa tutun, ana fikri en başa koyun ve kısa satırlarda son noktalama işareti kullanmayın.
+> Bu genel stil rehberi, ZecHub için makaleler ve kullanıcı kılavuzları yazmaya yöneliktir. Tweetler ve diğer kısa ifadeler için de geçerlidir: kısa tutun, ana noktayı başa alın ve kısa satırların sonunda noktalama işareti kullanmayın.
 
 ---
 
 <small>
-ZecHub stil rehberi, değişiklikler yapılarak <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Writing Style Guide</a>'dan uyarlanmıştır. Gerektiğinde Microsoft rehberine başvurun.
+ZecHub stil rehberi, bazı değişikliklerle birlikte <a href="https://learn.microsoft.com/en-us/style-guide/">Microsoft Yazım Stil Rehberi</a> temel alınarak hazırlanmıştır. Gerektiğinde Microsoft rehberine başvurun.
 </small>

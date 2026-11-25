@@ -2,40 +2,40 @@
 
 [Resmî Web Sitesi](https://zingolabs.org/) - [GitHub](https://github.com/zingolabs) - [X/Twitter](https://x.com/ZingoLabs) - [Instagram](https://www.instagram.com/zingolabesp/)
 
-ZingoLabs insan deneyimini geliştirmeye kendini adamış vizyonerlerden oluşan bir ekip. Teknolojinin insanlığa fayda sağlaması gerektiğine ve rızaya dayalı etkileşimler yoluyla geliştiğimize inanıyoruz. Bunu mümkün kılan örüntüleri belirliyoruz.
+ZingoLabs, insan deneyimini geliştirmeye adanmış vizyonerlerden oluşan bir ekiptir. Teknolojinin insanlığa fayda sağlaması gerektiğine ve rızaya dayalı etkileşimlerle geliştiğimize inanıyoruz. Bunu mümkün kılan örüntüleri belirliyoruz.
 
-Zingo Lab Cyan, Shielded DAO olarak faaliyet gösterir. Fonlarımızı, her üyenin bir görüntüleme anahtarına sahip olduğu bir hazinede tutuyoruz. Üyeler bir öneri lehinde oy verdiğinde fonlar hazineden harcanır.
+Zingo Lab Cyan, Korumalı DAO olarak faaliyet gösterir. Fonlarımızı, her üyenin bir görüntüleme anahtarına sahip olduğu bir hazinede saklıyoruz. Üyeler bir teklifi onaylamak için oy kullandığında fonlar hazineden harcanır.
 
 ## Projeler
 
-### Zingo! Cüzdanı ([GitHub](https://github.com/zingolabs/zingo-mobile))
-Zingo Cüzdanı, kullanıcı dostu olacak şekilde tasarlanmış, ancak daha ileri düzey kullanıcılar için bazı gelişmiş özellikler de içeren tam donanımlı bir Zcash cüzdanıdır. Şeffaf, Sapling ve Ironwood havuzlarını destekler, tekrarlanan ödemeler için bir adres defterine sahiptir ve çeşitli dillerde kullanılabilir. Orchard desteği sunan ve NU5 formatlarını uygulayan ilk cüzdandı.
+### Zingo! Cüzdan ([GitHub](https://github.com/zingolabs/zingo-mobile))
+Zingo Cüzdan, kullanım kolaylığı için tasarlanmış, tüm özelliklere sahip bir Zcash cüzdanıdır; ancak ileri düzey kullanıcılar için bazı gelişmiş özellikler de içerir. Şeffaf, Sapling ve Ironwood havuzlarını destekler, yinelenen ödemeler için bir adres defteri sunar ve çeşitli dillerde kullanılabilir. Orchard desteği sunan ve NU5 biçimlerini uygulayan ilk cüzdandır.
 
-Zingo!'ün başlıca özelliklerinden biri, işlemleriniz hakkında değerli bilgiler sunmak için Memo alanını kullanabilmesidir.
+Zingo! ürününün başlıca özelliklerinden biri, işlemleriniz hakkında değerli bilgiler sunmak için Memo alanını kullanabilmesidir.
 
-Zingo 3.0 mobil sürümü (31 Ekim 2026) NU7 desteği sunar ve SwapKit üzerinden yerleşik zincirler arası takaslar ekler. PC uygulamasında 2.0.26 sürümünden beri SwapKit takasları, 2.0.27 sürümünden beri de Mainnet NU7 desteği bulunur.
+Zingo mobil için 3.0 sürümü (31 Ekim 2026), NU7 desteği sunar ve SwapKit üzerinden yerleşik zincirler arası takaslar ekler. Bilgisayar uygulaması, 2.0.26 sürümünden beri SwapKit takaslarını, 2.0.27 sürümünden beri de Mainnet NU7 desteğini sunar.
 
-Zingo! mobil cihazlar ve bilgisayarlar için kullanılabilir. Tüm indirmeleri [burada](https://zingolabs.org/) bulabilirsiniz
+Zingo! mobil cihazlarda ve bilgisayarlarda kullanılabilir. Tüm indirmeleri [burada](https://zingolabs.org/) bulabilirsiniz.
 
 ### Zingolib ([GitHub](https://github.com/zingolabs/zingolib))
-Uygulamaların kullanımı için Zcash işlevselliğini sunan bir API ve test uygulaması. Zingolib, zingo-mobile için bir kitaplığın yanı sıra, zingo-cli adlı, [Zaino](/zcash-tech/zaino) gibi bir zincir indeksleyiciyle iletişim kuran komut satırı hafif cüzdan uygulamasını da sağlar.
+Uygulamaların kullanabilmesi için zcash işlevlerini sunan bir API ve test uygulaması. Zingolib, zingo-mobile için bir kütüphanenin yanı sıra zingo-cli adlı bir komut satırı uygulaması da sağlar. Bu hafif cüzdan, [Zaino](/zcash-tech/zaino) gibi bir Zincir indeksleyicisiyle iletişim kurar.
 
-### Zaino İndeksleyici ([GitHub](https://github.com/zingolabs/zaino))
-Zaino, Zingo ekibi tarafından geliştirilen, Zcash blok zinciri için bir Rust indeksleyicidir. [Z3 stack](/zcash-tech/z3-stack) içindeki indeksleyicidir: bir [Zebra](/zcash-tech/zebra-full-node) doğrulayıcısından zincir verilerini indeksler ve cüzdanlara, gezginlere ve diğer istemcilere hizmet verir. lightwalletd için devam yoludur.
+### Zaino İndeksleyicisi ([GitHub](https://github.com/zingolabs/zaino))
+Zaino, Zcash blokzinciri için Rust indeksleyicisidir ve Zingo ekibi tarafından geliştirilmiştir. [Z3 yığınının](/zcash-tech/z3-stack) indeksleyicisidir: bir [Zebra](/zcash-tech/zebra-full-node) doğrulayıcısından Zincir verilerini indeksler ve cüzdanlara, gezginlere ve diğer istemcilere sunar. lightwalletd için ardıl çözümdür.
 
-Zaino, hem cüzdanlar gibi hafif istemciler ve blok zincirinin tam geçmişini gerektirmeyen uygulamalar hem de tam istemciler veya cüzdanlar için temel özellikler sunar. Ayrıca, bir Zebra tam doğrulayıcı tarafından yönetilen hem kesinleşmiş blok zincirine hem de kesinleşmemiş en iyi zincir ve bellek havuzuna erişim sağlayarak blok gezginlerini de destekler.
+Zaino, tam blokzincir geçmişine ihtiyaç duymayan cüzdanlar ve uygulamalar gibi hafif istemciler için olduğu kadar tam istemciler veya cüzdanlar için de temel özellikler sunar. Ayrıca, Zebra tam doğrulayıcısı tarafından yönetilen son hâli kesinleşmiş blokzincire ve henüz kesinleşmemiş en iyi Zincir'e ve mempool'a erişim sağlayarak blok gezginlerini de destekler.
 
-`zcashd`, 18 Temmuz 2026'da 3.417.100 numaralı blokta Destek Sonu durmasına ulaştı ve Ironwood (NU6.3) desteği sunmaz. Zaino, bir Zebra doğrulayıcısını okur.
+`zcashd`, 18 Temmuz 2026 tarihinde 3.417.100 numaralı blokta Destek Sonu nedeniyle durduruldu ve Ironwood (NU6.3) desteği sunmaz. Zaino, bir Zebra doğrulayıcısından veri okur.
 
 ###  ZLN (zcash-local-net) ([GitHub](https://github.com/zingolabs/infrastructure/tree/dev/zcash_local_net))
 
-Zcash süreçlerini başlatan ve yöneten bir yardımcı araçlar kümesi. Bu, aşağıdakilerin geliştirilmesindeki entegrasyon testlerinde kullanılır:
+Zcash süreçlerini başlatıp yöneten bir araçlar kümesi. Bu araçlar, aşağıdakilerin geliştirilmesinde entegrasyon testleri için kullanılır:
 - hafif istemciler
 - indeksleyiciler
 - doğrulayıcılar
 
 Amacı, Zebra gibi çekirdek düğümler (doğrulayıcılar), Zaino gibi indeksleyiciler ve zingo-cli gibi hafif istemci cüzdanları için son derece uyarlanabilir ve sağlam bir test ortamı sunmaktır.
 
-Başlattığı varsayılan yığın Zebrad, zainod ve zcash-devtool'dir. Eski `zcashd` ve lightwalletd süreçleri, desteklenmeyen bir `legacy-stack` özelliğinin arkasında bulunur ve kaldırılmaları planlanmıştır.
+Başlattığı varsayılan yığın Zebrad, zainod ve zcash-devtool bileşenlerinden oluşur. Eski `zcashd` ve lightwalletd süreçleri, desteklenmeyen bir `legacy-stack` özelliğinin arkasında çalışır ve kaldırılmaları planlanmıştır.
 
-Ana ağ, test ağı ve regtest için Zcash zincir verilerini başlatmak, önbelleğe almak ve yüklemek için araçlar sağlamanın yanı sıra zcash-local-net, Zaino'ün test paketinden Zaino üzerinde barındırılan Lightwallet RPC hizmetlerini değerlendirmek için kullanılır (bkz. [Zaino test belgeleri](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)).
+Zcash Zincir verilerini (mainnet, testnet ve regtest için) başlatma, önbelleğe alma ve yükleme araçları sunmanın yanı sıra zcash-local-net, Zaino'nin test paketinde Zaino içinde barındırılan Lightwallet RPC hizmetlerini değerlendirmek için kullanılır (bkz. [Zaino test belgeleri](https://github.com/zingolabs/zaino/blob/dev/docs/testing.md)).

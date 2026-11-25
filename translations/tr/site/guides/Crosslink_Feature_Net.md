@@ -2,69 +2,69 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# Crosslink Feature Net Ağına Katılın
+# Crosslink Feature Net ağına katılın
 
 ## Kısaca
 
-- Feature Net, Shielded Labs tarafından [Crosslink](/zcash-tech/crosslink-protocol) için oluşturulan herkese açık test ağıdır; bu, Zcash'ın iş ispatına staking ekleyen önerilen kesinlik katmanıdır.
-- Test parası cTAZ üzerinde çalışır. Burada yaptığınız hiçbir şey ana ağdaki ZEC'i hareket ettirmez veya riske atmaz.
-- Tek bir masaüstü uygulaması düğüm, madenci, cüzdan ve kesinleştiricidir. Varsayılan olarak cTAZ madenciliği yapar ve bir musluk düğmesi içerir.
-- Staking, staking'den çıkma ve çekme işlemleri yalnızca her üç günde bir olan bir "Staking Day" sırasında çalışır. Kaçırırsanız bir sonrakini beklersiniz.
-- Staking yapmak için bir kesinleştiricinin kimliğini yapıştırır ve bir tutara tıklarsınız. Bu rehber örnek olarak ZecHub'ın kesinleştiricisini kullanır.
-- İki RPC çağrısı durumunuzu gösterir: `wallet_staking_positions` ve `get_tfl_recency_status`.
+- Feature Net, Zcash'nin iş kanıtının yanına staking ekleyen önerilen kesinlik katmanı olan [Crosslink](/zcash-tech/crosslink-protocol) için Shielded Labs'in herkese açık test ağıdır.
+- cTAZ adlı bir test coin'i üzerinde çalışır. Burada yaptığınız hiçbir şey ana ağdaki ZEC'yi taşımaz veya riske atmaz.
+- Tek bir masaüstü uygulaması düğüm, madenci, cüzdan ve finalizer görevi görür. Varsayılan olarak cTAZ madenciliği yapar ve bir faucet düğmesine sahiptir.
+- Staking, staking'i bırakma ve çekme işlemleri yalnızca her üç günde bir gerçekleşen bir “Staking Day” sırasında çalışır. Bu günü kaçırırsanız bir sonrakini beklersiniz.
+- Staking yapmak için bir finalizer'ın kimliğini yapıştırıp bir miktar seçersiniz. Bu kılavuzda örnek olarak ZecHub'nin finalizer'ı kullanılmıştır.
+- Durumunuzu iki RPC çağrısı gösterir: `wallet_staking_positions` ve `get_tfl_recency_status`.
 
-*Feature Net sürüm 14 ile, Windows 11'de (sürüm 10.0.26200.9550), 8-10 Ekim 2026 tarihleri arasında test edilmiştir. Yazılım bir prototiptir ve her sürümde değişir. Gördükleriniz bu sayfadan farklıysa kendi çalıştırmanızı esas alın ve lütfen bir PR açın.*
+*8-10 Ekim 2026 tarihleri arasında Windows 11 (10.0.26200.9550 sürümü) üzerinde Feature Net sürüm 14 ile test edilmiştir. Yazılım bir prototiptir ve her sürümde değişir. Gördükleriniz bu sayfadan farklıysa kendi çalıştırdığınız sürüme güvenin ve lütfen bir PR açın.*
 
-**Güncelleme, 17 Kasım 2026: 14. sürüm artık Feature Net ağına katılamıyor.** [15. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 Ekim), PoW yüksekliği 55.296'da bir ağ yükseltmesi içeriyordu. [16. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) ile birlikte “her sürüm, yayımlandıktan iki hafta sonra çalışmayı durduruyor” ve Shielded Labs her hafta bir sürüm yayımlamayı planlıyor. [17. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 Kasım), PoW yüksekliği 165.000'de başka bir yükseltme içeriyordu. Bu not yazılırken en yeni sürüm [18. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 Kasım 2026): 17. sürümdeki düğümlerle iletişim kuramıyor, 189.000. blokta bir ağ yükseltmesi içeriyor ve yaklaşık 30 Kasım'da, 212.568. blokta çalışmayı durduruyor. 14. sürümü değil, [en son sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) indirin. Aşağıdaki adımlar bu sürümde yeniden uygulanmadı. Bilinen iki fark var: dosya adları değişti ve staking RPC'si artık `wallet_staking_action` (bkz. [Dikkat edilmesi gereken bir RPC adı](#one-rpc-name-to-watch)).
+**Güncelleme, 17 Kasım 2026: Sürüm 14 artık Feature Net ağına katılamıyor.** [Sürüm 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15) (13 Ekim), PoW yüksekliği 55.296'da bir ağ yükseltmesi içeriyordu. [sürüm 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) ile birlikte “”her sürüm yayımlandıktan iki hafta sonra çalışmayı durdurur”” ve Shielded Labs her hafta bir sürüm yayımlamayı planlıyor. [Sürüm 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 Kasım), PoW yüksekliği 165.000'de başka bir ağ yükseltmesi içeriyordu. Bu not yazılırken en yeni sürüm [sürüm 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 Kasım 2026) idi: sürüm 17 düğümleriyle iletişim kuramıyor, 189.000. blokta bir ağ yükseltmesi içeriyor ve yaklaşık 30 Kasım'da, 212.568. blokta çalışmayı durduruyor. Sürüm 14 yerine [en yeni sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) indirin. Aşağıdaki adımlar bu sürümde yeniden uygulanmadı. Bilinen iki fark var: dosya adları değişti ve staking RPC'si artık `wallet_staking_action` oldu (bkz. [İzlenecek bir RPC adı](#one-rpc-name-to-watch)).
 
 ## Feature Net nedir?
 
-Crosslink bir öneridir; bugün Zcash'ın parçası değildir. Shielded Labs'ın [Crosslink SSS'si](https://shieldedlabs.net/crosslink-faq/), ana ağa ulaşabilmesi için önce "standart Zcash yönetişim sürecinden geçmesi gerekeceğini" söyler. [Crosslink Protokolü](/zcash-tech/crosslink-protocol) sayfası tasarımı açıklar.
+Crosslink bir öneridir; günümüzde Zcash'nin parçası değildir. Shielded Labs'nin [Crosslink SSS'si](https://shieldedlabs.net/crosslink-faq/), bunun ana ağa ulaşabilmesi için “”standart Zcash yönetişim sürecinden geçmesi gerektiğini”” söylüyor. [Crosslink Protokol](/zcash-tech/crosslink-protocol) sayfası tasarımı açıklıyor.
 
-Tasarımı gerçek kullanıcılarla denemek için Shielded Labs, [teşvikli özellik ağları](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) adını verdiği, "bir dizi teşvikli test ağı" çalıştırır. Ağda üç rol bulunur ve masaüstü uygulaması bunların üçünü de üstlenebilir:
+Tasarımı gerçek kullanıcılarla denemek için Shielded Labs, [teşvikli özellik ağları](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) olarak adlandırdığı, “”bir dizi teşvikli test ağı”” çalıştırıyor. Ağda üç rol bulunuyor ve masaüstü uygulaması bunların tümünü üstlenebiliyor:
 
-| Rol | Ne yapar |
+| Rol | Yaptığı iş |
 |---|---|
-| Madenci | Bugün Zcash'da olduğu gibi iş ispatı blokları üretir |
-| Staker | cTAZ'i bir delegasyon tahvilinde kilitler ve bunu bir kesinleştiriciye yönlendirir |
-| Kesinleştirici | Blokları kesinleştirmek için oy verir. Oy gücü, kendisine devredilen stake'tir |
+| Madenci | Günümüzde Zcash'de olduğu gibi iş kanıtı blokları üretir |
+| Staker | cTAZ'yi bir delegasyon bond'unda kilitler ve onu bir finalizer'a yönlendirir |
+| Finalizer | Blokları kesinleştirmek için oy kullanır. Oy gücü, kendisine devredilen stake miktarıdır |
 
-Arkasındaki depo, herhangi bir şey yüklemeden önce okunmaya değer bir uyarıyla başlar: "üretim mühendisliğini göstermek için değil, fikirleri kanıtlamak için vardır" ve "üretime hazır kod değildir" ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). Bunu, kabul edilebilir olduğu bir makinede çalıştırın.
+Bunun arkasındaki repository, herhangi bir şey yüklemeden önce okunmaya değer bir sorumluluk reddiyle başlıyor: bu repository “”fikirleri kanıtlamak için vardır, üretim mühendisliğini göstermek için değil”” ve “”üretime hazır kod değildir”” ([README](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/README.md)). Bunu çalıştırmanın kabul edilebilir olduğu bir makinede çalıştırın.
 
-### Sürüm 14'ün değiştirdikleri
+### Sürüm 14'te değişenler
 
-[Sürüm 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), 1 Ekim 2026'da yayınlandı. Ağı düz iş ispatı olarak başlar ve Crosslink'ı üç adımda etkinleştirir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555), ayrıca [ctaz.cash](https://ctaz.cash/v14) üzerinde gösterilmiştir):
+[Sürüm 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), 1 Ekim 2026'da yayımlandı. Ağ, basit iş kanıtı olarak başlıyor ve Crosslink'yi üç adımda etkinleştiriyor ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555); ayrıca [ctaz.cash](https://ctaz.cash/v14) üzerinde gösteriliyor):
 
 | Blok | Ne olur |
 |---|---|
 | 20.736 | Staking açılır |
-| 34.560 | İlk kesinleştirici listesi zincirdeki stake'lerden alınır |
-| 36.288 | BFT kesinliği ve onunla birlikte staking ödülleri başlar |
+| 34.560 | İlk finalizer listesi, zincir üstündeki stake'lerden alınır |
+| 36.288 | BFT kesinliği ve bununla birlikte staking ödülleri başlar |
 
-Staking ödülleri bu blokların sonuncusunda başlar. Daha önce oluşturulan bir tahvil o zamana kadar hiçbir şey kazanmaz ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
+Staking ödülleri bu blokların sonuncusunda başlar. Daha önce oluşturulan bir bond, o zamana kadar hiçbir şey kazanmaz ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-chain/src/parameters/network/subsidy.rs#L487-L508)).
 
-Aynı sürüm etkin listeyi en çok stake'e sahip 12 kesinleştiriciye indirdi ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) ve sürüm notlarının ifadesiyle onlara bir komisyon verdi: "Bir bloktaki tüm PoS Ödüllerinin %10'u bu komisyonlara giderken, %90'ı tüm staking tahvillerine dağıtılır".
+Aynı sürüm, etkin listeyi en fazla stake'e sahip 12 finalizer'a indirdi ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L884)) ve sürüm notlarının ifadesiyle onlara bir komisyon verdi: “”Bir bloktaki tüm PoS ödüllerinin %10'u bu komisyonlara giderken %90'ı tüm staking bond'larına dağıtılır.””
 
 ### cTAZ ve gerçek ZEC
 
-cTAZ ("Crosslink TAZ"), Feature Net'ın test parasıdır. ZEC değil, cTAZ stake edersiniz.
+cTAZ (””Crosslink TAZ””), Feature Net'nin test coin'idir. cTAZ stake edersiniz, asla ZEC değil.
 
-Gerçek ZEC yalnızca sonunda devreye girer. Shielded Labs, özellik ağları için [500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) ayırmıştır ve [sürüm notları](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) bunun, "yalnızca her katılımcının madencilik veya staking yoluyla kazandığı cTAZ miktarına göre orantılı olarak" ödendiğini söyler. Bunun iki sonucu vardır:
+Gerçek ZEC yalnızca sonunda devreye girer. Shielded Labs, özellik ağları için [500 ZEC](https://shieldedlabs.net/crosslink-incentivized-feature-nets/) ayırdı ve [sürüm notlarında](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) bunun “”yalnızca her katılımcının madencilik veya staking yoluyla kazandığı cTAZ miktarına göre orantılı olarak”” ödendiği yazıyor. Bunun iki sonucu var:
 
-- **Musluk paraları sayılmaz.** Musluktan veya başka birinden verilen cTAZ, cüzdanınızda durarak hiçbir şey kazandırmaz. Yalnızca madencilik ve staking'den gelen blok ödülleri sayılır.
-- **Ödemeler talep edilir, otomatik değildir.** Shielded Labs her turu [forum başlığında](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) duyurur. 2. Tur için katılımcılardan cüzdanlarının görüntüleme anahtarını ve bir ana ağ adresini 4 Ekim 2026'ya kadar göndermelerini istedi ([gönderi 94](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). Sürüm 14'ün çalıştığı, bu rehberin katıldığı ağ 3. Tur olarak duyuruldu ([gönderi 101](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
+- **Faucet coin'leri sayılmaz.** Faucet'in veya başka birinin size verdiği cTAZ, cüzdanınızda durarak hiçbir şey kazandırmaz. Yalnızca madencilik ve staking yoluyla elde edilen blok ödülleri sayılır.
+- **Ödemeler otomatik değil, talep edilmelidir.** Shielded Labs her turu [forum başlığında](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) duyurur. Round 2 için katılımcılardan cüzdanlarının görüntüleme anahtarını ve bir ana ağ adresini 4 Ekim 2026'ya kadar göndermeleri istendi ([94. gönderi](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/94)). Sürüm 14'ün çalıştığı ve bu kılavuzun katıldığı ağ, Round 3 olarak duyuruldu ([101. gönderi](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210/101)).
 
 ## Başlamadan önce
 
-- **Çalışır durumda bırakabileceğiniz bir bilgisayar.** 14. sürümün Windows, macOS, Ubuntu ve Arch Linux için derlemeleri vardı. 17. ve 18. sürümlerin Windows, macOS ve Ubuntu için derlemeleri var. Bu kılavuz Windows üzerinde, Intel Core i5-8350U işlemcili bir bilgisayarda uygulandı.
-- **Bir Staking Day.** Herhangi bir plan yapmadan önce sıradakinin ne zaman başlayacağını kontrol edin. [Staker Space'in kontrol paneli](https://crosslink.staker.space/) geri sayımı gösteriyor.
-- **Başka hiçbir şey gerekmiyor.** ZEC yok, hesap yok, kayıt yok.
+- **Çalışır durumda bırakabileceğiniz bir bilgisayar.** Sürüm 14'ün Windows, macOS, Ubuntu ve Arch Linux için derlemeleri vardı. Sürüm 17 ve 18'in Windows, macOS ve Ubuntu için derlemeleri var. Bu kılavuz Windows üzerinde, Intel Core i5-8350U işlemcili bir bilgisayarda uygulandı.
+- **Bir Staking Day.** Herhangi bir plan yapmadan önce bir sonraki günün ne zaman açılacağını kontrol edin. [Staker Space'in gösterge paneli](https://crosslink.staker.space/) bu zamana geri sayar.
+- **Başka hiçbir şey gerekmez.** ZEC, hesap veya kayıt yok.
 
-## Adım 1: Uygulamayı indirin ve dosyayı kontrol edin
+## 1. adım: Uygulamayı indirin ve dosyayı kontrol edin
 
-1. [en son sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) açın ve **Assets** bölümüne gidin. Bu kılavuz, artık ağa katılamayan [14. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) ile uygulandı.
-2. Sisteminiz için olan dosyayı indirin. Windows üzerinde dosya adı `_win32.exe` ile biter: aşağıdaki örnekte `zebrad_v14_win32.exe`, 18. sürüm için `zebra-crosslink_v18_win32.exe`. Sonraki komutlarda kendi dosyanızın adını ve özetini kullanın.
-3. Dosyanın SHA-256 değerini, GitHub ilgili dosyanın yanında gösterdiği özetle karşılaştırın.
+1. [en yeni sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) açın ve **Assets** bölümüne kaydırın. Bu kılavuzda, artık ağa katılamayan [sürüm 14 sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14) kullanıldı.
+2. Sisteminiz için olan dosyayı indirin. Windows üzerinde dosya adı `_win32.exe` ile biter: aşağıdaki çalıştırmada `zebrad_v14_win32.exe`, sürüm 18 için `zebra-crosslink_v18_win32.exe`. Aşağıdaki komutlarda kendi dosyanızın adını ve özetini kullanın.
+3. Dosyanın SHA-256 değerini, GitHub'nin ilgili asset'in yanında gösterdiği özetle karşılaştırın.
 
 Windows üzerinde, PowerShell içinde:
 
@@ -78,7 +78,7 @@ Hash      : 1D464E31CCC110E175D45E3EDC0B7FB0B9583ACC996E99F4398F390EC111297E
 Path      : C:\crosslink\zebrad_v14_win32.exe
 ```
 
-GitHub'ın bu dosya için gösterdiği özet `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`'dır. Onaltılık sistemde büyük/küçük harf ayrımı yoktur, dolayısıyla yukarıdaki büyük harfler sorun değildir. Gözleriniz yerine kabuğun karşılaştırmasını sağlamak için:
+GitHub'nin bu dosya için gösterdiği özet `1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e`. Onaltılık gösterimde büyük-küçük harf farkı olmadığı için yukarıdaki büyük harfler uygundur. Karşılaştırmayı gözleriniz yerine shell'in yapmasını sağlamak için:
 
 ```powershell
 $expected = "1d464e31ccc110e175d45e3edc0b7fb0b9583acc996e99f4398f390ec111297e"
@@ -90,27 +90,27 @@ if ($actual -eq $expected) { "OK" } else { "MISMATCH" }
 OK
 ```
 
-Bu kontrolün ne kadar değerli olduğunu bilin. Sürüm imza taşımadığından, eşleşen bir hash indirmenin tamamlandığını ve GitHub'ın sunduğu dosya olduğunu gösterir. Dosyayı kimin oluşturduğunu göstermez. [Zcash Sürümlerini Doğrulama](/guides/verifying-zcash-releases) farkı açıklar.
+Bu kontrolün neyi doğruladığını bilin. Sürüm imza taşımıyor; dolayısıyla eşleşen bir hash, indirmenin tamamlandığını ve GitHub'nin sunduğu dosya olduğunu gösterir. Dosyayı kimin oluşturduğunu göstermez. [Zcash sürümlerini doğrulama](/guides/verifying-zcash-releases) bu farkı açıklar.
 
-## Adım 2: Düğümü başlatın ve eşzamanlanmasını bekleyin
+## 2. adım: Düğümü başlatın ve eşitlenmesine izin verin
 
-Başlangıç mesajlarının ekranda kalması için uygulamayı terminalden başlatın. "Yönetici olarak çalıştır" ile açılmış bir pencere değil, sıradan bir PowerShell penceresi kullanın: bu imzasız prototip yazılımdır ve yönetici haklarına ihtiyaç duymaz.
+Uygulamayı bir terminalden başlatın; böylece başlangıç iletileri ekranda kalır. “”Yönetici olarak çalıştır”” seçeneğiyle açılmamış sıradan bir PowerShell penceresi kullanın: bu imzasız prototip yazılımının yönetici haklarına ihtiyacı yoktur.
 
 ```powershell
 .\zebrad_v14_win32.exe
 ```
 
-"Zcash Crosslink Visualizer" başlıklı bir pencere açılır. Solda **Your Wallet** ve **Faucet Wallet** sekmeleriyle cüzdan, ortada çizilmiş zincir, sağda ise kesinleştiriciler bulunur. Terminal düğüm günlüğünü yazdırmaya devam eder. Ağı kullanırken ikisini de açık bırakın.
+“”Zcash Crosslink Görselleştirici”” başlıklı bir pencere açılır. Solda **Your Wallet** ve **Faucet Wallet** sekmeleriyle cüzdan, ortada zincir ve sağda finalizer'lar gösterilir. Terminal, düğümün günlüğünü yazdırmaya devam eder. Ağı kullanırken ikisini de açık bırakın.
 
-Sürüm notlarında, Windows kurulumunun [videosuna ](https://www.youtube.com/watch?v=cO-5Oa4B1Tk) bağlantı veriliyor.
+Sürüm notlarında [Windows kurulum videosuna](https://www.youtube.com/watch?v=cO-5Oa4B1Tk) bağlantı veriliyor.
 
-Uygulama verilerini bir önbellek klasöründe tutar: sürüm notlarına göre `%LOCALAPPDATA%\zebra` üzerinde Windows, `~/.cache/zebra` üzerinde Linux ve macOS üzerinde `~/Library/Caches/zebra`.
+Sürüm notlarına göre uygulama verilerini şu önbellek klasöründe tutar: Windows üzerinde `%LOCALAPPDATA%\zebra`, Linux üzerinde `~/.cache/zebra` ve macOS üzerinde `~/Library/Caches/zebra`.
 
-**Sırrı kendinize saklayın.** Bu klasör `secret.seed` adlı bir dosya tutar. Uygulama bunu ilk başlangıçta oluşturur ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) ve cüzdanınızı ile kesinleştirici kimliğinizi bundan türetir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). Uygulamada aynı sırrı panonuza koyan bir **Copy Seed** düğmesi de vardır. Bunlardan herhangi birine sahip olan kişi cüzdanınızı kontrol eder. Bunları asla bir sohbete, forum gönderisine veya ekran görüntüsüne yapıştırmayın.
+**Sırrınızı kendinize saklayın.** Bu klasörde `secret.seed` adlı bir dosya bulunur. Uygulama bu dosyayı ilk başlatmada oluşturur ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L280-L305)) ve cüzdanınızı ve finalizer kimliğinizi bundan türetir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L625-L626)). Uygulamada aynı sırrı panonuza koyan bir **Copy Seed** düğmesi de bulunur. Bunlardan herhangi birine sahip olan kişi cüzdanınızı kontrol eder. Bunları asla bir sohbete, forum gönderisine veya ekran görüntüsüne yapıştırmayın.
 
-### Eşzamanlandığınızı nasıl anlarsınız?
+### Eşitlendiğinizi nasıl anlarsınız?
 
-Sürüm notları, "ağ ucuna ne kadar yakın eşzamanlandığınıza dair yerleşik bir izleme olmadığını" söyler. Sürüm 14'te bir miktar vardır: pencerenin üstündeki **Network Info** açılır menüsünde PoW Height, Wallet Sync ve Blocks Behind Known PoW satırları bulunur ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)). Yüksekliğinizi [Staker Space](https://crosslink.staker.space/) veya [ctaz.cash](https://ctaz.cash/) üzerindekiyle karşılaştırın.
+Sürüm notlarında, ağa ne kadar yaklaştığınızın eşitlenme durumunu izlemek için “”yerleşik bir izleme bulunmadığı”” yazıyor. Sürüm 14'te gerçekten de bazı bilgiler var: pencerenin üst kısmındaki **Network Info** açılır menüsünde PoW Height, Wallet Sync ve Blocks Behind Known PoW satırları bulunuyor ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L4362-L4373)). Yüksekliğinizi [Staker Space](https://crosslink.staker.space/) veya [ctaz.cash](https://ctaz.cash/) üzerindeki değerle karşılaştırın.
 
 Düğüm ayrıca RPC üzerinden yanıt verir:
 
@@ -126,19 +126,19 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-RPC bağlantı noktası `127.0.0.1:8232`, bu derlemede varsayılan olarak açıktır ve parola gerektirmez ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)). Yalnızca kendi makinenizde dinler ve o makinede çalışan her şey onu çağırabilir.
+Bu derlemede RPC bağlantı noktası `127.0.0.1:8232` varsayılan olarak açıktır ve parola gerektirmez ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L333-L337)). Yalnızca kendi makinenizi dinler ve o makinede çalışan her şey onu çağırabilir.
 
-Bu çalıştırmada, blok 0'dan yaklaşık 28.400. bloktaki uca ilk eşzamanlama yaklaşık 50 dakika sürdü.
+Bu çalıştırmada, 0. bloktan yaklaşık 28.400. bloktaki tepeye kadar olan ilk eşitleme yaklaşık 50 dakika sürdü.
 
-**Yeniden başlatmadan sonra bakiyeniz bir süre sıfır görünür.** Uygulama her başladığında cüzdanı `secret.seed`'dan yeniden oluşturur ve zinciri blok 0'dan tekrar tarar ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). Tarama işlemlerinizin bulunduğu yere ulaşana kadar bakiyeniz ve stake'iniz 0 görünür. Bu çalıştırmada, yeniden başlatmadan yaklaşık 15 dakika sonra geri geldiler. Musluğun cüzdanı da aynı şekilde yeniden taranır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)) ve tarama sırasında Faucet Wallet sekmesi çok büyük bir bakiye gösterdi. Wallet Sync tamamlanana kadar ikisini de dikkate almayın.
+**Yeniden başlattıktan sonra bakiyeniz bir süre sıfır görünür.** Uygulama her başladığında cüzdanı `secret.seed` üzerinden yeniden oluşturur ve zinciri 0. bloktan itibaren tekrar tarar ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3609-L3623)). Tarama işlemlerinizin bulunduğu yere ulaşana kadar bakiyeniz ve stake'iniz 0 görünür. Bu çalıştırmada, yeniden başlatmadan yaklaşık 15 dakika sonra değerler geri geldi. Faucet'in cüzdanı da aynı şekilde yeniden taranır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3588)) ve tarama sırasında Faucet Wallet sekmesinde çok büyük bir bakiye gösterildi. Wallet Sync tamamlanana kadar her ikisini de göz ardı edin.
 
-## Adım 3: Biraz cTAZ alın
+## 3. adım: Biraz cTAZ edinin
 
 ### Madencilik yapın
 
-Sürüm notlarına göre uygulama, eşzamanlandığında kendi cüzdanınıza CPU madenciliği başlatır. Herhangi bir şeyi açmanız gerekmez. Kazılan paralar kendi cüzdanınızın şeffaf bir adresine gider ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
+Sürüm notlarına göre uygulama, eşitlendiğinde kendi cüzdanınız için CPU madenciliğini başlatır. Herhangi bir şeyi açmanız gerekmez. Madencilikle elde edilen coin'ler kendi cüzdanınızın şeffaf adresine gider ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/commands/start.rs#L349-L355)).
 
-Bir blok bulup bulamayacağı ise başka konudur. Notlar, "daha hızlı madencilik yapan diğerleri tarafından geride bırakılabileceğiniz, dolayısıyla başarı garantisi olmadığı" uyarısını yapar. Yerleşik madenci varsayılan olarak tek bir CPU iş parçacığı kullanır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
+Bir blok bulup bulamayacağı ise başka bir konudur. Notlarda “”daha hızlı madencilik yapanlar tarafından geride bırakılabileceğiniz için başarı garantisi yoktur”” uyarısı yapılıyor. Yerleşik madenci varsayılan olarak tek bir CPU iş parçacığı kullanır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/config/mining.rs#L97-L100)).
 
 Daha fazla iş parçacığı kullanmak için uygulamayı başlatmadan önce aynı PowerShell penceresinde bir ortam değişkeni ayarlayın ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebrad/src/config.rs#L109-L128)). Bu çalıştırmada dört iş parçacığı kullanıldı:
 
@@ -147,7 +147,7 @@ $env:ZEBRA_MINING__INTERNAL_MINER_THREADS = "4"
 .\zebrad_v14_win32.exe
 ```
 
-Değişken yalnızca o pencere açık kaldığı sürece geçerlidir. Ayarlandığında Windows'ın işlemci sayacı, düğümün mantıksal bir işlemcinin yüzdesi cinsinden dört ila beş işlemciye denk zaman kullandığını gösterdi:
+Değişken yalnızca o pencere açık kaldığı sürece geçerlidir. Ayarlandığında Windows'nin işlemci sayacı, düğümün bir mantıksal işlemcinin yüzdesi olarak dört ila beş işlemci değerinde zaman kullandığını gösterdi:
 
 ```powershell
 (Get-Counter '\Process(zebrad_v14_win32)\% Processor Time' -SampleInterval 2 -MaxSamples 3).CounterSamples.CookedValue
@@ -159,15 +159,15 @@ Değişken yalnızca o pencere açık kaldığı sürece geçerlidir. Ayarlandı
 505.957457577538
 ```
 
-Sonuç: Dört iş parçacığında madencilik yapan bir Intel Core i5-8350U, 8 Ekim sabahından 9 Ekim öğleden sonrasına kadar hiçbir blok bulmadı.
+Sonuç: dört iş parçacığında madencilik yapan bir Intel Core i5-8350U, 8 Ekim'in erken saatlerinden 9 Ekim öğleden sonrasına kadar hiçbir blok bulamadı.
 
-### Veya musluğu kullanın
+### Veya faucet'i kullanın
 
-Uygulamanın sağ altında bir **Receive cTAZ** düğmesi vardır. Sürüm 14 kaynak kodunda tek bir basış, musluğun cüzdanından sizinkine 0,5 cTAZ gönderir ([tutar](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073), [gönder](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). Musluk, uygulamanın her kopyasının taşıdığı tek bir cüzdandır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)) ve **Faucet Wallet** sekmesi bakiyesini gösterir.
+Uygulamanın sağ alt kısmında **Receive cTAZ** düğmesi bulunur. Sürüm 14 kaynak kodunda, bir kez basıldığında faucet'in cüzdanından sizin cüzdanınıza 0,5 cTAZ gönderilir ([miktar](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3073), [gönderme](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5018-L5021)). Faucet, uygulamanın her kopyasının taşıdığı tek bir cüzdandır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3579-L3583)) ve **Faucet Wallet** sekmesi onun bakiyesini gösterir.
 
-Düğme, muslukta korumalı para olarak 5,01 cTAZ'den fazla olmadıkça devre dışıdır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). Sekme musluğun kazdığı paraları da sayar ve bunlar yalnızca ücretle birlikte tam 10 cTAZ'lik miktarlarda korumalıdır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)); dolayısıyla sekme bol miktar gösterirken düğme gri kalabilir. Bu çalıştırmada 8 ve 9 Ekim'de, sekme 14,74695 cTAZ gösterirken üzerine gelindiğinde "The faucet is mining more funds." ifadesiyle gri kaldı.
+Düğme, faucet'in korumalı coin'lerinde 5,01 cTAZ'den fazla olmadığı sürece etkin değildir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L3975-L3989)). Sekme faucet'in madencilikle kazandığı coin'leri de sayar; bunlar yalnızca tam olarak 10 cTAZ artı bir ücretlik gruplar hâlinde korumalı olduğundan ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4880-L4884)), düğme gri kalırken sekmede yüksek bir bakiye görünebilir. Bu çalıştırmada düğme 8 ve 9 Ekim'de gri kaldı; üzerine gelindiğinde “”Faucet daha fazla fon madenciliği yapıyor.”” yazarken sekmede 14,74695 cTAZ gösteriliyordu.
 
-**Düğme griyse kendi düğümünüze sorun.** Düğüm, düğmenin 5,01 cTAZ kuralını uygulamayan `requestfaucetdonation` adlı bir musluk istek yöntemine sahiptir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)). `YOUR_ADDRESS` yerine kendi adresinizi koyun (aşağıdaki `wallet_spendable_funds`'ın `address` alanıdır):
+**Düğme gri olduğunda kendi düğümünüze sorun.** Düğümde `requestfaucetdonation` adlı bir faucet isteme yöntemi vardır ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L314-L315)) ve düğmenin 5,01 cTAZ kuralını uygulamaz. `YOUR_ADDRESS` yerine kendi adresinizi yazın (aşağıdaki `wallet_spendable_funds` öğesinin `address` alanıdır):
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"requestfaucetdonation","params":[{"address":"YOUR_ADDRESS"}],"id":1}' | ConvertTo-Json -Depth 20
@@ -183,21 +183,21 @@ Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'applicat
 }
 ```
 
-Bu yanıt, gönderildiği değil, isteğin kuyruğa alındığı anlamına gelir. Bu çalıştırmada musluğun 0,5 cTAZ'i 33.306. blokta kazıldı ve 33.322. blokta harcanabilir oldu. Bir kez isteyin: musluk paylaşılır ve ilk istek beklemedeyken aynı adres için ikinci istek reddedilir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
+Bu yanıt isteğin kuyruğa alındığı anlamına gelir; gönderildiği anlamına gelmez. Bu çalıştırmada faucet'in 0,5 cTAZ'si 33.306. blokta madencilikle elde edildi ve 33.322. blokta harcanabilir hâle geldi. Yalnızca bir kez isteyin: faucet ortaktır ve ilk istek beklemedeyken aynı adres için ikinci bir istek reddedilir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L3553)).
 
-### Veya başka bir katılımcıya sorun
+### Veya başka bir katılımcıdan isteyin
 
-Ağdaki herkes uygulamanın **Send** düğmesiyle size cTAZ gönderebilir. Bu çalıştırmada başka bir katılımcı 31 cTAZ gönderdi. Uygulamanın kendi Send işlevinin eklediği not olan "send from user wallet" notuyla "Received" olarak ulaştı ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). [forum başlığında](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) isteyin ve yalnızca adresinizi verin.
+Ağdaki herkes uygulamanın **Send** düğmesiyle size cTAZ gönderebilir. Bu çalıştırmada başka bir katılımcı 31 cTAZ gönderdi. Bu, “”Received”” olarak geldi ve uygulamanın kendi Send işleminin eklediği note olan “”send from user wallet”” note'unu içeriyordu ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L5036)). [forum başlığında](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210) isteyin ve yalnızca adresinizi verin.
 
-Musluk paraları ve hediyeler staking'i öğrenmek için yeterlidir. ZEC ödüllerine sayılmazlar.
+Faucet coin'leri ve hediyeler staking öğrenmek için yeterlidir. Bunlar ZEC ödüllerine dahil edilmez.
 
-### Harcayabileceklerinizi kontrol edin
+### Harcayabileceğiniz miktarı kontrol edin
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_spendable_funds","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Adres kısaltılmış şekilde, musluğun 0,5 cTAZ'i ulaştığında yanıt buydu:
+Faucet'in 0,5 cTAZ'si geldikten sonra adres kısaltılmış olarak yanıt şöyleydi:
 
 ```text
 {
@@ -214,62 +214,62 @@ Adres kısaltılmış şekilde, musluğun 0,5 cTAZ'i ulaştığında yanıt buyd
 }
 ```
 
-Tutarlar zatoshi cinsindendir: 100.000.000 tanesi bir cTAZ eder. Korumalı paraların harcanabilir sayılması için 3 onay gerekir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)). Musluktan ve diğer katılımcılardan gelen paralar `spendable_zats`'a ulaşır. Kazılan paralar şeffaftır, dolayısıyla `unshielded_zats`'a ulaşırlar ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
+Miktarlar zatoshi cinsindendir: 100.000.000 zatoshi, 1 cTAZ eder. Korumalı coin'lerin harcanabilir sayılması için 3 onay gerekir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L621-L634)). Faucet'ten ve diğer katılımcılardan gelen coin'ler `spendable_zats` içine düşer. Madencilikle elde edilen coin'ler şeffaftır; bu nedenle `unshielded_zats` içine düşer ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/wallet/src/lib.rs#L4659)).
 
-Bu çalıştırmadaki ikinci stake'ten bir blok sonra, bakiyenin kalanı `pending_zats` altında görünüyordu. Birkaç blok sonra yeniden harcanabilir hale geldi.
+Bu çalıştırmada ikinci stake işleminden bir blok sonra bakiyenin geri kalanı `pending_zats` altında göründü. Birkaç blok sonra yeniden harcanabilir hâle geldi.
 
-## Adım 4: Bir kesinleştiriciye stake edin
+## 4. Adım: Bir finalizer'a staking yapma
 
 ### Bir Staking Day bekleyin
 
-Staking, staking'den çıkma ve çekme işlemleri yalnızca şu sırada kabul edilir:
+Staking, staking'i kaldırma ve çekme işlemleri yalnızca
 
 ```text
 block height mod 10,368 < 3,456
 ```
 
-Bu, her 10.368 bloğun başında 3.456 blokluk bir penceredir. Ağın 25 saniyelik blok hedefinde bu, her üç günde bir gün eder ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). Sürüm 14'ün ilk pencereleri 20.736, 31.104, 41.472 ve 51.840. bloklarda açılır.
+sırasında kabul edilir. Bu, her 10.368 blokta başlangıçta bulunan 3.456 blokluk bir aralıktır. Ağın 25 saniyelik blok hedefinde bu, her üç günde bir gün anlamına gelir ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/transaction/mod.rs#L1540-L1547)). Sürüm 14'ün ilk aralıkları 20.736, 31.104, 41.472 ve 51.840 numaralı bloklarda açılır.
 
-Sürüm notlarına göre uygulama her Staking Day'in başlangıcını ve bitişini duyurur. Bu çalıştırmada blok listesi 34.559 ve 34.560. bloklar arasında kırmızı bir "* STAKING DAY END *" satırı gösterdi.
+Sürüm notlarına göre uygulama, her Staking Day'in başlangıcını ve bitişini duyurur. Bu çalıştırmada blok listesinde 34.559 ve 34.560 blokları arasında kırmızı bir “* STAKING DAY END *” satırı gösterildi.
 
-**Sürüm notları iki farklı şey söylüyor.** Değişiklik listelerinde "~1 gün Staking Day ve ~3 gün Staking Cycle" ifadesi yer alır; bu kodla eşleşir. Aşağıda, 1. Sezondan devralınmış bir bölüm ise hâlâ bir Staking Day'in her 150 blokta bir başladığını ve 70 blok sürdüğünü söyler. İlkini esas alın. Yukarıdaki bitiş satırı, ilk kuralın pencereyi kapattığı yerde bulunur (34.560 mod 10.368 = 3.456); ikinci kurala göre 34.560. blok pencerenin içinde kalırdı.
+**Sürüm notları iki şey söylüyor.** Değişiklikler listesinde “Staking Day için yaklaşık 1 gün ve Staking Cycle için yaklaşık 3 gün” ifadesi yer alıyor; bu, kodla uyuşuyor. Daha aşağıda, Season 1'den devralınan bir bölüm hâlâ Staking Day'in her 150 blokta başladığını ve 70 blok sürdüğünü söylüyor. İlk kuralı esas alın. Yukarıdaki bitiş satırı, ilk kuralın aralığı kapattığı yerde bulunuyor (34.560 mod 10.368 = 3.456); ikinci kurala göre 34.560 numaralı blok bir aralığın içinde olurdu.
 
-### Bir kesinleştirici seçin
+### Bir finalizer seçin
 
-Bir kesinleştirici, `zfinv1` ile başlayan bir dizge olan kimliğiyle adlandırılır. ZecHub, çalıştırdığı kesinleştiricinin kimliğini [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json) içinde yayımlar:
+Bir finalizer, `zfinv1` ile başlayan bir dize olan kimliğiyle adlandırılır. ZecHub, çalıştırdığı finalizer'ın kimliğini [`zechub_validator_crosslink.json`](https://github.com/ZecHub/zechub/blob/main/zechub_validator_crosslink.json) içinde yayımlar:
 
 ```text
 zfinv1j65qJgeSId7ssZk6a71NvQG2KjD5hfJCYxWkCSPvQSmwibffVw52UYU72wKbrEL0-cw-C4PQoO5IlLgbsgA3q_Gf1mzYIKcnixNP9XXVgphIDuLI6RBMhjFfYWyzp4YN
 ```
 
-Kimliği güvendiğiniz bir kaynaktan kopyalayın. Sürüm notlarına göre uygulama ayrıca sağ panelinde kesinleştiricileri, her birinin solunda bir kopyalama simgesiyle listeler.
+Güvendiğiniz bir kaynaktan bir kimlik kopyalayın. Sürüm notlarına göre uygulama, finalizer'ları sağ panelinde de listeler ve her birinin solunda bir kopyalama simgesi bulunur.
 
-Stake ettikten sonra cüzdan geçmişi ve RPC, kesinleştiriciyi kimliği yerine onaltılık bir anahtarla adlandırır. ZecHub'ın kesinleştiricisi için bu anahtar `2941ef23...266aae8f`'tir.
+Staking yaptıktan sonra cüzdan geçmişi ve RPC, finalizer'ı kimliği yerine bir onaltılık anahtarla adlandırır. ZecHub finalizer'ı için bu anahtar `2941ef23...266aae8f` değeridir.
 
-Güvendiğiniz bir kesinleştirici seçin. Tasarım otomatik kesinti içermez ancak "adlandırılmış bir kesinleştiriciye devredilmiş tüm stake'i yakan, kullanıcıların koordine ettiği bir hard fork"a izin verir ([Crosslink kitabı, tasarım özeti](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
+Güvendiğiniz bir finalizer seçin. Tasarımda otomatik slashing yoktur, ancak “kullanıcıların koordine ettiği ve adı belirtilen bir finalizer'a devredilmiş tüm stake'i yakan bir hard fork” yapılmasına izin verir ([Crosslink book, design overview](https://shieldedlabs.github.io/crosslink_book/branches/main/crosslink-design-overview-20260914.html)).
 
-Seçim aynı zamanda kimin oy vereceğine karar verir. Her etkin tahvil staking ödülündeki payını kazanır. Kesinleştiricisi listedeki 12 kişi arasındaysa, o payın onda biri komisyon olarak kesinleştiriciye gider. Bu 12'nin dışında bir kesinleştiriciye yönlendirilmiş tahvil payının tamamını korur, ancak o kesinleştirici oy kullanmaz ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
+Seçim, kimin oy kullanacağını da belirler. Her etkin bond, staking ödülündeki payını kazanır. Finalizer'ı 12 kişilik listede yer alıyorsa, bu payın onda biri komisyon olarak finalizer'a gider. 12 kişinin dışındaki bir finalizer'a yönlendirilmiş bir bond, payının tamamını korur; ancak bu finalizer oy kullanmaz ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-state/src/service.rs#L2063-L2079)).
 
-### Stake edin
+### Stake yapın
 
-1. Kesinleştirici kimliğini kopyalayın.
+1. Finalizer kimliğini kopyalayın.
 2. **Your Wallet** sekmesinde **Stake** düğmesine basın.
-3. **Paste Identity** düğmesine basın. Düğmenin üzerindeki satır, kimliğin ilk ve son karakterlerine dönüşür; ZecHub'ınki için `[zfinv1j6..YWyzp4YN]`. Devam etmeden önce bunu kontrol edin.
-4. Bir tutara tıklayın. Tutarlar sabit adımlarla gelir, en küçüğü 0,01 cTAZ'dir ve yalnızca bakiyenizin karşıladığı tutarlar yanar. 0,5 cTAZ ile +0,01 cTAZ ve +0,1 cTAZ yanıyordu.
+3. **Paste Identity** düğmesine basın. Düğmenin üstündeki satır, kimliğin ilk ve son karakterlerine dönüşür; ZecHub için bu değer `[zfinv1j6..YWyzp4YN]` olur. Devam etmeden önce kontrol edin.
+4. Bir miktara tıklayın. Miktarlar sabit adımlarla gelir; en küçük miktar 0,01 cTAZ'dır ve yalnızca bakiyenizin karşıladığı miktarlar etkin görünür. 0,5 cTAZ ile +0,01 cTAZ ve +0,1 cTAZ etkin görünüyordu.
 
-**Hiçbir şey sizden onay istemez ve hiçbir şey olmuş gibi görünmez.** Bu çalıştırmada test kullanıcısının ifadesiyle: "Bir kez tıkladım ve hiçbir şey olmadı, sadece griye dönüp tekrar yandı." Stake gerçekleşmişti. Cüzdan geçmişinde "Staked @ 33334 to 2941ef23..266aae8f" görünüyordu, ücret 0,00015 cTAZ'di ve cüzdan 0,010 cTAZ Staked gösteriyordu. Birkaç dakika sonraki ikinci stake, 33.348. blokta ikinci bir tahvil oluşturdu.
+**Hiçbir şey sizden onay istemez ve hiçbir şey oluyor gibi görünmez.** Bu çalıştırmada test uzmanının sözleriyle: “Bir kez tıkladım ve hiçbir şey olmadı; sadece griye döndü, sonra tekrar etkinleşti.” Stake işlemi gerçekleşmişti. Cüzdan geçmişinde “Staked @ 33334 to 2941ef23..266aae8f” gösterildi, ücret 0,00015 cTAZ idi ve cüzdanda 0,010 cTAZ Staked görünüyordu. Birkaç dakika sonra yapılan ikinci stake işlemi, 33.348 numaralı blokta ikinci bir bond oluşturdu.
 
-Her stake kendi delegasyon tahvilini oluşturur. Sabit tutarlar ve Staking Day'in ikisi de gizlilik içindir: bir kişinin stake'ini diğerinden ayırt etmeyi zorlaştırırlar.
+Her stake işlemi kendi delegation bond'unu oluşturur. Sabit miktarlar ve Staking Day, gizlilik amacıyla kullanılır: Bir kişinin stake'ini diğerinden ayırt etmeyi zorlaştırırlar.
 
-## Adım 5: Konumunuzu kontrol edin
+## 5. Adım: Pozisyonunuzu kontrol edin
 
-### Tahvilleriniz
+### Bond'larınız
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"wallet_staking_positions","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Bu, staking'den iki gün sonra, 36.490. bloktaki yanıttı:
+Bu, staking işleminden iki gün sonra, 36.490 numaralı bloktaki yanıttı:
 
 ```text
 {
@@ -301,21 +301,21 @@ Bu, staking'den iki gün sonra, 36.490. bloktaki yanıttı:
 }
 ```
 
-Çağrı parametre almaz. Destekledikleri kesinleştiricinin anahtarı altında gruplanmış etkin tahvillerinizi ve staking'den çıkışı tamamlanmış, çekilebilecek tahvilleri döndürür. Her tahvil stake edilen tutarı (`initial_val`), mevcut değerini (`latest_val`) ve onu oluşturan işlemi ile blok yüksekliğini gösterir. Ödüller tahvilin kendisine eklenir: 36.490. blokta 1.000.000 zatoshi olan her tahvil 1.003.451'e büyümüştü.
+Bu çağrı parametre almaz. Etkin bond'larınızı, her birinin desteklediği finalizer'ın anahtarı altında gruplandırılmış şekilde ve staking'i kaldırma işlemi tamamlanmış, çekilmeye hazır bond'ları döndürür. Her bond, stake yapılan miktarı (`initial_val`), mevcut değerini (`latest_val`) ve onu oluşturan işlemi ve blok yüksekliğini gösterir. Ödüller doğrudan bond'a eklenir: 36.490 numaralı blokta 1.000.000 zatoshi değerindeki her bond 1.003.451'e yükselmişti.
 
-**Edit Stake penceresi her tahvili on kat fazla gösterir.** Bu çalıştırmada her 0,01 cTAZ tahvil kendi satırında 0,100 cTAZ, ödüller başladıktan sonra ise 0,1003536 cTAZ görünüyordu; satırların üzerindeki toplamlar (0,020 cTAZ, daha sonra 0,02007 cTAZ) RPC ile uyuşuyordu. Toplamları ve RPC'yi esas alın.
+**Edit Stake penceresi her bond'u on kat büyük gösterir.** Bu çalıştırmada her 0,01 cTAZ değerindeki bond kendi satırında 0,100 cTAZ olarak görünüyordu; ödüller başladıktan sonra ise 0,1003536 cTAZ görünüyordu. Satırların üzerindeki toplamlar (0,020 cTAZ, daha sonra 0,02007 cTAZ) RPC ile uyuşuyordu. Toplamları ve RPC'yi esas alın.
 
-Aynı pencere, kesinlik başlamadan önce de başladıktan sonra da kesinleştiricinin yanında bir uyarı üçgeni gösterdi. Kaynakta üçgen, uygulamanızın bu kesinleştiriciyi çevrimiçi saymadığı anlamına gelir; çevrimiçi olanın yerine bir Wi-Fi simgesi görünür ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). Tahviller yine de ödül kazandı.
+Aynı pencere, finalizer'ın yanında hem finalite başlamadan önce hem de başladıktan sonra bir uyarı üçgeni gösteriyordu. Kaynak kodda üçgen, uygulamanızın bu finalizer'ı çevrimiçi olarak saymadığı anlamına gelir; çevrimiçi olan bir finalizer yerine bir Wi-Fi simgesi alır ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-gui/src/ui.rs#L2646-L2648)). Bond'lar yine de ödül kazandı.
 
-### Kesinleştiriciler
+### Finalizer'lar
 
 ```powershell
 Invoke-RestMethod -Uri http://127.0.0.1:8232 -Method Post -ContentType 'application/json' -Body '{"jsonrpc":"2.0","method":"get_tfl_recency_status","params":[],"id":1}' | ConvertTo-Json -Depth 20
 ```
 
-Sürüm notlarına göre bu, düğümünüzün oylama sürecinde nerede olduğunu ve her kesinleştirici için düğümünüzün ondan en son ne zaman haber aldığını ve nasıl oy kullandığını bildirir.
+Sürüm notlarına göre bu, düğümünüzün oylama sürecinde nerede bulunduğunu ve her finalizer için düğümünüzün ondan en son ne zaman haber aldığını ve nasıl oy kullandığını bildirir.
 
-36.288. bloktan önce her alan sıfırdır ve liste boştur. Bu, 33.354. bloktaki yanıttı:
+36.288 numaralı bloktan önce her alan sıfırdır ve liste boştur. Bu, 33.354 numaralı bloktaki yanıttı:
 
 ```text
 {
@@ -335,7 +335,7 @@ Sürüm notlarına göre bu, düğümünüzün oylama sürecinde nerede olduğun
 }
 ```
 
-Kesinlik başladıktan sonra liste, listedeki kesinleştiricileri tutar. 36.490. blokta 12 adet vardı; bunların arasında ZecHub'ın `2941ef23...`'ı da bulunuyordu ve bu, 12 kişilik liste sınırıyla uyuşuyordu. Bu, ilk girdiden sonra kesilmiş yanıtın başlangıcıdır:
+Finalite başladıktan sonra listede roster'daki finalizer'lar bulunur. 36.490 numaralı blokta listede, aralarında `2941ef23...`'nın ZecHub değerinin de bulunduğu 12 finalizer vardı; bu, 12 kişilik roster sınırıyla uyuşur. Bu, ilk girdiden sonra kesilmiş yanıtın başlangıcıdır:
 
 ```text
 {
@@ -369,11 +369,11 @@ Kesinlik başladıktan sonra liste, listedeki kesinleştiricileri tutar. 36.490.
                                               ],
 ```
 
-Birkaç dakika sonra uygulamanın sağ panelinde "Finalizers (23)" görünüyordu.
+Birkaç dakika sonra uygulamanın sağ panelinde “Finalizers (23)” gösterildi.
 
-### Linux ve macOS üzerinde
+### Linux ve macOS hakkında
 
-[kaynağı](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610), çağrıyı `curl` biçiminde verir. Diğer çağrılar için yöntem adını değiştirin. Bu biçim bu rehber için çalıştırılmadı:
+[source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L602-L610), çağrıyı `curl` biçiminde verir. Diğer çağrılar için yöntem adını değiştirin. Bu biçim bu rehber için çalıştırılmadı:
 
 ```bash
 curl -X POST -H "Content-Type: application/json" -d \
@@ -381,11 +381,11 @@ curl -X POST -H "Content-Type: application/json" -d \
 http://127.0.0.1:8232
 ```
 
-Linux üzerinde sürüm notları, uygulamada kopyalama ve yapıştırmanın çalışması için muhtemelen önce `xclip` yüklemeniz gerektiğini söyler.
+Linux üzerinde, sürüm notlarına göre uygulamada kopyalama ve yapıştırmanın çalışması için muhtemelen önce `xclip` yüklemeniz gerekir.
 
 ### Dikkat edilmesi gereken bir RPC adı
 
-Sürüm 14 notları, nesne alan `wallet_staking_action` adlı bir staking çağrısını açıklar. Sürüm 14 kaynak kodunda bu adda bir yöntem yoktur ve bu çalıştırmada düğüm şunu yanıtladı:
+Sürüm 14 sürüm notları, bir nesne alan ve `wallet_staking_action` adını taşıyan bir staking çağrısını açıklar. Sürüm 14 kaynak kodunda bu ada sahip bir yöntem yoktur ve bu çalıştırmada düğüm şu yanıtı verdi:
 
 ```text
 {
@@ -398,55 +398,55 @@ Sürüm 14 notları, nesne alan `wallet_staking_action` adlı bir staking çağr
 }
 ```
 
-Kaydettiği staking yöntemi, isteği JSON olarak tutan tek bir dizge alan ve kesinleştiriciyi `zfinv1` kimliğiyle veren [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420) yöntemidir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Bu rehber için denenmedi.
+Kaydettiği staking yöntemi, isteği JSON olarak içeren tek bir dize alan [`staking_command`](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-rpc/src/methods.rs#L418-L420) yöntemidir; finalizer, `zfinv1` kimliğiyle verilir ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-crosslink/src/lib.rs#L750-L760)). Bu rehber için denenmedi.
 
-**14. sürümden sonra değişti.** 15. sürümden itibaren düğüm `wallet_staking_action` kaydeder ve artık `staking_command` sahibi değildir ([version 18 source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Dört biçimden tam olarak birine sahip tek bir nesne alır: `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` veya `WithdrawDelegationBond`; sonlandırıcı 64 karakterlik bir onaltılık anahtar olarak verilir ([version 15 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). 189.000 numaralı bloktan itibaren her staking işlemi tahvilin geçerli sürümünü de belirtir; bu nedenle güncel olmayan bir tahvile göre oluşturulmuş işlem reddedilir ve cüzdanların 18. sürümü çalıştırması gerekir ([version 18 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). Bu kılavuz için de denenmedi.
+**Sürüm 14'ten sonra değişti.** Sürüm 15'ten itibaren düğüm `wallet_staking_action` kaydeder ve artık `staking_command` yöntemine sahip değildir ([version 18 source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v18/zebra-crosslink/zebra-rpc/src/methods.rs#L620-L622)). Bu yöntem, tam olarak dört biçimden birine sahip tek bir nesne alır: `CreateNewDelegationBond`, `RetargetDelegationBond`, `BeginDelegationUnbonding` veya `WithdrawDelegationBond`. Finalizer, 64 karakterlik bir onaltılık anahtar olarak verilir ([version 15 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15)). 189.000 numaralı bloktan itibaren her staking işlemi bond'un mevcut sürümünü de belirtir; bu nedenle güncel olmayan bir bond'a karşı oluşturulan işlem reddedilir ve cüzdanların sürüm 18'i çalıştırması gerekir ([version 18 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18)). Bu da bu rehber için denenmedi.
 
-## Staking'den çıkma ve çekme
+## Staking'i kaldırma ve çekme
 
-Bir tahvil oluşturulduğu gün geri alınamaz. Baştan sona üç Staking Day sürer: birinde stake edin, daha sonraki birinde staking'den çıkın, üçüncüsünde çekin. Sürüm notları, bir tahvilin aynı Staking Day içinde iki staking işlemi yapamayacağını ekler.
+Bir bond oluşturulduğu gün geri alınamaz. Başlangıçtan tamamlanmaya kadar üç Staking Day gerekir: Birinde stake yapın, daha sonrakinde staking'i kaldırın, üçüncüsünde çekin. Sürüm notları, tek bir bond'un aynı Staking Day içinde iki staking işlemi gerçekleştiremeyeceğini de ekler.
 
-*Bu rehber için çalıştırılmadı. Sürüm 14 notlarına göre:* staking'den çıkmak için **Edit Stake** düğmesine basın, Staked Bonds listesinden bir tahvil seçin ve zincir bağlantısı simgesine tıklayın. Daha sonraki bir Staking Day'de çekmek için **Edit Stake** düğmesine basın, Withdrawable Bonds listesinden bir tahvil seçin ve para simgesine tıklayın. Notların retargeting dediği, tahvili farklı bir kesinleştiriciye taşıma işlemi her zaman yapılabilir.
+*Bu rehber için çalıştırılmadı. Sürüm 14 sürüm notlarına göre:* staking'i kaldırmak için **Edit Stake** düğmesine basın, Staked Bonds listesinden bir bond seçin ve zincir bağlantısı simgesine tıklayın. Daha sonraki bir Staking Day'de çekmek için **Edit Stake** düğmesine basın, Withdrawable Bonds listesinden bir bond seçin ve para simgesine tıklayın. Sürüm notlarında retargeting olarak adlandırılan bir bond'u farklı bir finalizer'a taşımaya her zaman izin verilir.
 
-## Ağı nereden izlemeli?
+## Ağı nereden izleyebilirsiniz
 
-[Crosslink sekmesi, ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) üzerinde araçları, "Bu ağda staking yapmak ZEC'i hareket ettirmez" yazan bir bildirimin altında tek yerde toplar:
+[Crosslink sekmesi, ZecHub Tools](https://zechub.wiki/tools?tool=crosslink) üzerinde, “Bu ağda staking yapmak ZEC taşımaz” bildiriminin altında araçları tek bir yerde toplar:
 
-- Düğüm gerektirmeyen barındırılan araçlar: yüksekliği, madencileri, çözüm oranını, Staking Day geri sayımını ve kesinliği içeren, "mevcut cTAZ test ağı için canlı pano" [Staker Space](https://crosslink.staker.space/); ayrıca madencilik üretimini, kesinleştirici listesini, eşleri ve staking adresi ad taleplerini içeren [ctaz.cash](https://ctaz.cash/).
-- Kendi makinenizde: etkinleştirme, kesinlik gecikmesi, liste ve staking konumlarını gösteren `/live/crosslink` sayfasına sahip `zcash-explorer` ve bir Crosslink düğümünün SQLite dizini olan `crosslink_indexer`.
+- Barındırılan, düğüm gerektirmeyen: “mevcut cTAZ testnet'i için canlı gösterge paneli” olan [Staker Space](https://crosslink.staker.space/); blok yüksekliğini, madencileri, çözüm oranını, Staking Day geri sayımını ve finaliteyi gösterir. Ayrıca madencilik üretimini, finalizer roster'ını, eşleri ve staking-adresi ad taleplerini gösteren [ctaz.cash](https://ctaz.cash/) bulunur.
+- Kendi makinenizde: etkinleştirmeyi, finalite gecikmesini, roster'ı ve staking pozisyonlarını gösteren `/live/crosslink` sayfasına sahip `zcash-explorer` ve bir Crosslink düğümünün SQLite dizini olan `crosslink_indexer`.
 
 ## Yaygın hatalar
 
-**Saat yerine blok yüksekliğine göre plan yapmak.** Staking Day'ler bloklarla sayılır. Takvimi değil, panonun geri sayımını izleyin.
+**Saat yerine blok yüksekliğine göre plan yapmamak.** Staking Day'ler bloklarla sayılır. Takvimi değil, bir gösterge panelinin geri sayımını izleyin.
 
-**Pencerenin son dakikalarında stake etmek.** Kural, işleminizi içeren bloğa göre kontrol edilir ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)); dolayısıyla stake'in yalnızca gönderilmesi değil, pencere kapanmadan önce kazılması gerekir.
+**Aralığın son dakikalarında staking yapmak.** Kural, işleminizi içeren bloğa göre denetlenir ([source](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/zebra-crosslink/zebra-consensus/src/transaction.rs#L941-L953)); bu nedenle stake işleminin yalnızca gönderilmesi değil, aralık kapanmadan önce madenciliğinin yapılması gerekir.
 
-**Stake'inizi madencilikle elde etmeyi beklemek.** Dört iş parçacıklı bir CPU madencisi, Intel Core i5-8350U üzerinde 8-9 Ekim arasında hiçbir blok bulmadı. İlk cTAZ'inizi musluktan veya başka bir katılımcıdan alın.
+**Stake'inizi madencilik yaparak kazanmayı beklemek.** Intel Core i5-8350U üzerinde çalışan dört iş parçacıklı bir CPU madencisi, 8 ve 9 Ekim arasında hiçbir blok bulamadı. İlk cTAZ'ınızı faucet'tan veya başka bir katılımcıdan alın.
 
-**Hiçbir şey olmuş gibi görünmediği için yeniden tıklamak.** Bir tutara yapılan her tıklama yeni bir tahvildir. Önce cüzdan geçmişini veya `wallet_staking_positions`'ı kontrol edin.
+**Hiçbir şey olmuş gibi görünmediği için yeniden tıklamak.** Bir miktara yapılan her tıklama yeni bir bond oluşturur. Önce cüzdan geçmişini veya `wallet_staking_positions` kontrol edin.
 
-**Yeniden başlatmadan sonra panik yapmak.** Cüzdan yeniden taranana kadar bakiyeniz ve stake'iniz sıfır görünür. Wallet Sync'in bitmesini bekleyin.
+**Yeniden başlatma sonrasında paniğe kapılmak.** Cüzdan yeniden tarama yapmayı tamamlayana kadar bakiyeniz ve stake'iniz sıfır görünür. Wallet Sync işleminin tamamlanmasını bekleyin.
 
-**cTAZ'i oyuncak para veya sırrı zararsız görmek.** cTAZ test parasıdır, ancak kazandığınız cTAZ gerçek ZEC içindeki payınıza karar verir. `secret.seed`'ı bir cüzdanı korur gibi koruyun.
+**cTAZ'ı oyun parası veya sırrı zararsız bir şey olarak görmek.** cTAZ bir test coin'idir, ancak kazandığınız cTAZ gerçek ZEC içindeki payınızı belirler. `secret.seed` bir cüzdanı koruduğunuz gibi koruyun.
 
-**Eski talimatları okumak.** Sürüm notları, yeni kuralların yanında önceki sezonlardan gelen metinler taşır. Düğümünüzün yaptığıyla çeliştikleri yerde düğümünüz doğrudur.
+**Eski talimatları okumak.** Sürüm notlarında, yeni kuralların yanında önceki sezonlardan kalma metinler bulunur. Düğümünüzün davranışıyla çeliştikleri yerde düğümünüzü esas alın.
 
 ## İlgili sayfalar
 
-- [Crosslink Protokolü](/zcash-tech/crosslink-protocol) - bu ağın test ettiği tasarım
-- [Shielded Labs](/zcash-organizations/shielded-labs) - Crosslink'ın arkasındaki ekip
-- [Zcash Sürümlerini Doğrulama](/guides/verifying-zcash-releases) - bir sağlama toplamının neyi kanıtladığı ve kanıtlamadığı
-- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) - Feature Net uygulamasının üzerine kurulduğu düğüm
+- [Crosslink Protocol](/zcash-tech/crosslink-protocol) - bu ağın sınadığı tasarım
+- [Shielded Labs](/zcash-organizations/shielded-labs) - Crosslink arkasındaki ekip
+- [Verifying Zcash Releases](/guides/verifying-zcash-releases) - bir sağlama toplamının neyi kanıtlayıp neyi kanıtlamadığı
+- [Zebra Full Node](/zcash-tech/zebra-full-node) - Feature Net uygulamasının üzerine kurulduğu düğüm
 - [Zcash Testnet](/using-zcash/testnet) - farklı bir ağ olan sıradan Zcash test ağı
 
 ## Kaynaklar
 
-- [Sürüm 14 sürüm notları](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), Shielded Labs, 1 Ekim 2026
-- [Crosslink: Teşvikli Özellik Ağları](https://shieldedlabs.net/crosslink-incentivized-feature-nets/), Shielded Labs, 2 Nisan 2026
-- [Crosslink: Teşvikli Feature Net](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), Zcash Topluluk Forumu
-- [Crosslink SSS](https://shieldedlabs.net/crosslink-faq/), Shielded Labs
-- [Crosslink kitabı](https://shieldedlabs.github.io/crosslink_book/), Shielded Labs
+- [Version 14 release notes](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), Shielded Labs, 1 Ekim 2026
+- [Crosslink: Incentivized Feature Nets](https://shieldedlabs.net/crosslink-incentivized-feature-nets/), Shielded Labs, 2 Nisan 2026
+- [Crosslink: Incentivized Feature Net](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210), Zcash Community Forum
+- [Crosslink FAQ](https://shieldedlabs.net/crosslink-faq/), Shielded Labs
+- [The Crosslink book](https://shieldedlabs.github.io/crosslink_book/), Shielded Labs
 
 ---
 
-*Bu sayfadaki adımlar, Feature Net sürüm 14 ile, Windows 11 üzerinde (sürüm 10.0.26200.9550), 8-10 Ekim 2026 arasında çalıştırılmıştır. Sürüm notlarına veya kaynak koda atıfta bulunan bir ifade bunlardan alınmıştır. "Çalıştırılmadı" olarak işaretlenen hiçbir şey denenmemiştir.*
+*Bu sayfadaki adımlar, 8-10 Ekim 2026 tarihleri arasında, Feature Net version 14 ile Windows 11 (version 10.0.26200.9550) üzerinde çalıştırıldı. Sürüm notlarına veya kaynak koduna atıfta bulunan ifadeler bunlardan alınmıştır. “not run” olarak işaretlenen hiçbir şey denenmedi.*

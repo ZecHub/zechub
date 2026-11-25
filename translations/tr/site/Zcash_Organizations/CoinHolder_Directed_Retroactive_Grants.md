@@ -1,103 +1,103 @@
 # Coinholder-Directed Retroactive Grants
 
-**Coinholder-Directed Retroactive Grants Program**, Zcash ekosistemine doğrulanabilir değer sağlamış tamamlanmış çalışmaları finanse eder.
+**Coinholder-Directed Retroactive Grants Program**, Zcash ekosistemine doğrulanabilir değer kazandırmış tamamlanmış çalışmaları finanse eder.
 
-ZIP 1016 ile oluşturulan ve NU6.1'de (Kasım 2025) etkinleştirilen **Coinholder-Controlled Fund**'dan (blok ödüllerinin %12'si + Deferred Dev Fund Lockbox seed) beslenir. 
+Program, ZIP 1016 ile kurulan ve NU6.1 (Kasım 2025) tarihinde etkinleştirilen **Coinholder-Controlled Fund**’dan (blok ödüllerinin %12’si + ertelenmiş geliştirici fonu kilitli varlık kutusu başlangıç fonu) yararlanır.
 
-Program, 3. yarılanmaya (~2028) kadar üç ayda bir yürütülür. Fonlar, Key-Holder Organizations (ör. Shielded Labs, FPF) tarafından multisig içinde tutulur.
-
----
-
-Hibeler **yalnızca geriye dönüktür** - geçmiş katkıları ödüllendirir (ör. geliştirme, entegrasyonlar, topluluk oluşturma). Geleceğe dönük çalışmalar Zcash Community Grants'e (ZCG, ödüllerin %8'i) başvurmalıdır.
+Program, 3. yarılanmaya (~2028) kadar üç ayda bir yürütülür. Fonlar, Anahtar Sahibi Kuruluşlar (ör. Shielded Labs, FPF) tarafından çoklu imzalı olarak tutulur.
 
 ---
 
-## Uygun Başvurular
+Hibeler **yalnızca geriye dönüktür** - geçmiş katkıları (ör. geliştirme, entegrasyonlar, topluluk oluşturma) ödüllendirir. Gelecekte yapılacak çalışmalar için Zcash Community Grants’e (ZCG, ödüllerin %8’i) başvurulmalıdır.
+
+---
+
+## Başvuruya Uygunluk
 
 **Odak**:
 
-Zcash'e fayda sağlayan (gizlilik, benimsenme, araçlar, güvenlik) tamamlanmış, kamuya açık şekilde doğrulanabilir çalışmalar.
+Zcash’a fayda sağlayan, tamamlanmış ve kamuya açık biçimde doğrulanabilir çalışmalar (gizlilik, benimsenme, araçlar, güvenlik).
 
-**Kriterler** (coinholder'lar değerlendirir):
+**Kriterler** (coinholder’lar değerlendirir):
 
-  - Gösterilmiş etki ve sağlanmış değer.
+  - Kanıtlanmış etki ve sağlanan değer.
   - Zcash değerleriyle uyum (gizlilik, merkeziyetsizlik).
-  - Şeffaf kanıtlar (kod, raporlar, metrikler).
+  - Şeffaf kanıtlar (kod, raporlar, ölçümler).
 
 
-**Kısıtlama yok**: 
+**Kısıtlama yoktur**:
 
 Herkes (bireyler, ekipler, kuruluşlar) başvurabilir veya aday gösterilebilir.
 
-**Rakip teklifler**: 
+**Rekabet eden teklifler**:
 
-Ayrı ayrı oylanır; ZEC desteği en yüksek olan kazanır.
+Ayrı ayrı oylanır; en yüksek ZEC desteğini alan kazanır.
 
-**Veto mümkün**: 
+**Veto olasılığı**:
 
-Yasal sorunlar veya kullanıcılara/topluluğa zarar verilmesi durumunda Key-Holders tarafından uygulanabilir (nadir, gerekçesiyle birlikte).
+Yasal sorunlar veya kullanıcılara/topluluğa zarar verme durumunda Anahtar Sahipleri tarafından (nadir olarak ve gerekçesiyle birlikte).
 
-## Başvuru Nasıl Gönderilir
+## Başvuru Nasıl Yapılır
 
-**Teklifi Hazırlayın**:
+**Teklifinizi Hazırlayın**:
 
-- Tamamlanan çalışmayı, etkisini ve kanıtlarını (bağlantılar, teslimatlar) açıklayın.
-- Talep edilen tutarı (ZEC/USD eşdeğeri) ve gerekçesini belirtin.
+- Tamamlanmış çalışmayı, etkisini ve kanıtları (bağlantılar, teslimatlar) açıklayın.
+- Talep edilen miktarı (ZEC/USD karşılığı) ve gerekçesini belirtin.
 - Ödeme adresini ve iletişim bilgilerini ekleyin.
 
 
-**Gönderim**:
+**Gönderin**:
 
 
-- Zcash Community Forum'da (forum.zcashcommunity.com) Grants bölümünde paylaşın.
+- Zcash Community Forum’daki (forum.zcashcommunity.com) Grants bölümünde paylaşın.
 - Başlık: "[Retroactive Grant] - [Project Name]".
-- Açık ve düzenli bir markdown biçimi kullanın.
+- Açık bir Markdown biçimi kullanın.
 
 
-**Son Tarih**:
+**Son Başvuru Tarihi**:
 
 
-- Üç ayda bir; forum/X üzerinden duyurulur (ör. Q4 2025: 12 Ekim 2025, 11:59 PM UTC).
-- Geç başvurular: Bir sonraki turda yeniden gönderin veya ZCG'ye başvurun.
+- Üç ayda bir; forum/X üzerinden duyurulur (ör. 2025 4. çeyrek: 12 Ekim 2025, 23:59 UTC).
+- Geç başvurular: Bir sonraki dönemde yeniden gönderin veya ZCG’e başvurun.
 
 
-**Katılım Sağlayın**:
+**Katılım**:
 
-30 günlük inceleme süresince topluluk sorularını yanıtlayın.
+30 günlük inceleme süresince topluluğun sorularını yanıtlayın.
 
-#### not: FPF tarafından yönetilir (uyumluluk, iletişim); teklifler görünürlük için GitHub'da derlenir.
+#### not: FPF tarafından yönetilir (uyumluluk, iletişim); görünürlük için teklifler GitHub üzerinde derlenir.
 
 ## Oylama Süreci ve Takvim
 
-**Üç Aylık Takvim** (ör. Q4 2025, Q1 2026):
+**Üç Aylık Takvim** (ör. 2025 4. çeyrek, 2026 1. çeyrek):
 
-**Başvuru Son Tarihi**: 
+**Son Başvuru Tarihi**:
 
 Çeyreğin ortası (duyurulur).
 
 **30 Günlük İnceleme**: 
 
-Son tarihten sonra başlar; forum başlıklarında tartışma/geri bildirim yapılır (çoğunlukla bir özet başlığı oluşturulur).
+Son başvuru tarihinden sonra başlar; forum başlıklarında tartışılır ve geri bildirim verilir (genellikle bir özet başlığı oluşturulur).
 
-**Oylama Dönemi**: 
+**Oylama Süresi**:
 
-İncelemeyi takip eder (ör. Q4 için Kasım ayında ~1-2 hafta).
+İncelemenin ardından gelir (ör. 4. çeyrek için Kasım ayında yaklaşık 1-2 hafta).
 
-**Sonuçlar ve Ödeme**: 
+**Sonuçlar ve Ödemeler**:
 
-Kısa süre sonra; onaylanan hibeler şartlara göre ödenir (>$50k için KYC).
+Kısa süre sonra; onaylanan hibeler koşullara göre ödenir (50.000 USD üzeri için KYC).
 
 **Oylama**:
 
-  - Coinholder'lar, sahip oldukları ZEC ile oy kullanır (kilitleme yok; Orchard havuzu uygundur).
-  - Mekanizma: Merkeziyetsiz oylama (ör. voting authorities aracılığıyla).
-  - **Onay**: en az 420,000 ZEC nisabı + basit çoğunluk evet.
-  - Bağımsız oylar; coin'ler teklifler arasında yeniden kullanılabilir.
-  - Kamuya açık, şeffaf sonuçlar.
+  - Coinholder’lar ZEC varlıklarıyla oy kullanır (kilitleme yoktur; Orchard havuzu uygundur).
+  - Mekanizma: Merkeziyetsiz oylama (ör. oylama yetkilileri aracılığıyla).
+  - **Onay**: En az 420.000 ZEC yeter sayısı ve basit çoğunlukla evet.
+  - Oylar bağımsızdır; coin’ler teklifler arasında yeniden kullanılabilir.
+  - Sonuçlar kamuya açık ve şeffaftır.
 
 
-#### not: **Güncel Tur (5 Ocak 2026 itibarıyla)**: Q4 2025 tamamlandı (Kasım oylaması); Q1 2026 başvurularının yakında başlaması bekleniyor - duyurular için forumu takip edin.
+#### not: **Güncel Dönem (5 Ocak 2026 itibarıyla)**: 2025 4. çeyrek tamamlandı (Kasım oylaması); 2026 1. çeyrek başvurularının yakında başlaması bekleniyor - duyurular için forumu takip edin.
 
 ## Son Güncellemeler: 
 
-[Zcash Community Forum Grants Section](https://forum.zcashcommunity.com/c/grants/32) sayfasını kontrol edin. Süreç, topluluk geri bildirimleriyle zaman içinde gelişebilir.
+[Zcash Community Forum Grants Bölümüne](https://forum.zcashcommunity.com/c/grants/32) göz atın. Süreç, topluluk geri bildirimleriyle gelişebilir.

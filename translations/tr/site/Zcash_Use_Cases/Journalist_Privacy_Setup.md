@@ -1,140 +1,140 @@
-# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Zcash ile Gazeteci Gizlilik Kurulumu
+# <img src="/content-images/journalist-host-profession-interview-svg-2eb63ae5c9.svg" width="24" height="24" alt="Journalist icon"/> Zcash ile Gazeteciler için Gizlilik Kurulumu
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Başlangıç - 7 dk.
+  Başlangıç - 7 dakika
 </span>
 
-## Özet
+## Özetle
 
-- Tüm işlemler için shielded adresleri kullanın
-- Cüzdan kimliğinizi asla herkese açık şekilde ifşa etmeyin
-- İzlenebilir ödemelerden kaçınarak kaynakları koruyun
+- Tüm işlemlerinizde korumalı adresler kullanın
+- Cüzdan kimliğinizi asla herkese açık şekilde paylaşmayın
+- İzlenebilir ödemelerden kaçınarak kaynaklarınızı koruyun
 - Güvenli iletişim için memoları dikkatli kullanın
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimin için?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimler için?
 
 - Gazeteciler
 - Araştırmacılar
 - Aktivistler
-- Hassas ödemeleri yöneten yüksek riskli kişiler
+- Hassas ödemeleri yöneten yüksek risk altındaki kişiler
 
 
 <br/>
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Sorun
 
-Gazeteciler şunlarla karşı karşıyadır:
+Gazeteciler şu risklerle karşılaşır:
 - Gözetim
-- Kaynakların ifşa edilmesi riskleri
-- Rakipler tarafından finansal takibe alınma
+- Kaynakların ifşa olma riski
+- Hasımlar tarafından finansal takibe alınma
 
-Şeffaf kripto kullanımı şunları ortaya çıkarabilir:
+Şeffaf kripto kullanımı şunları açığa çıkarabilir:
 - Size kimin ödeme yaptığını
 - Kime ödeme yaptığınızı
 - Ne zaman ve ne kadar ödeme yapıldığını
 
 <br/>
 
-## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Neden Zcash?
+## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Zcash neden?
 
 
 Zcash şunları sağlar:
 - Güçlü finansal gizlilik
 - Hassas işlemler için koruma
-- Gazetecilerin kaynaklarla ilişkilendirilmesi riskinin azalması
+- Gazeteciler ile kaynakları arasında bağlantı kurulması riskinin azalması
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> İhtiyacınız Olanlar
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Gerekenler
 
-- Shielded desteğine sahip bir Zcash cüzdanı
-- Güvenli iletişim kanalı (blockchain dışında)
+- Korumalı desteği olan bir Zcash cüzdanı
+- Güvenli bir iletişim kanalı (blokzincir dışında)
 - Operasyonel disiplin
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım Adım Rehber
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım adım kılavuz
 
 
-### Adım 1: Ayrı Bir Cüzdan Oluşturun
+### 1. Adım: Özel bir cüzdan oluşturun
 
-- Yalnızca hassas işler için bir cüzdan kullanın
-- Kişisel işlemlerinizle karıştırmayın
+- Yalnızca hassas işler için kullanacağınız bir cüzdan kullanın
+- Kişisel işlemlerle karıştırmayın
 
-### Adım 2: Yalnızca Shielded Adresleri Kullanın
+### 2. Adım: Yalnızca korumalı adresler kullanın
 
-- Her zaman z-adreslerini kullanarak işlem yapın
+- İşlemlerinizi her zaman z adreslerini kullanarak gerçekleştirin
 - Şeffaf işlemlerden tamamen kaçının
 
 
-### Adım 3: Kaynaklara Yapılan Ödemeleri Koruyun
+### 3. Adım: Kaynaklara yapılan ödemeleri koruyun
 
 Kaynaklara ödeme yapıyorsanız:
-- Shielded işlemleri kullanın (z → z)
+- Korumalı işlemler kullanın (z → z)
 - Öngörülebilir zamanlama düzenlerinden kaçının
 - Adresleri yeniden kullanmayın
 
 
-### Adım 4: Memolara Dikkat Edin
+### 4. Adım: Memoları dikkatli kullanın
 
-- Memolara hassas bilgi EKLEMEYİN
-- Gerekirse nötr veya kodlu referanslar kullanın
+- Memolara hassas bilgileri EKLEMEYİN
+- Gerekirse tarafsız veya kodlanmış ifadeler kullanın
 
 
-### Adım 5: Operasyonel Güvenliği Koruyun
+### 5. Adım: Operasyonel güvenliği koruyun
 
-- Cüzdanı kimliğinizle ilişkilendirmekten kaçının
+- Cüzdanınızı kimliğinizle ilişkilendirmekten kaçının
 - İşlemleri herkese açık şekilde doğrulamayın
 - İletişim için ayrı kanallar kullanın
 
 
 <br/>
 
-## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Kaçınılması Gereken Yaygın Hatalar
+## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Kaçınılması gereken yaygın hatalar
 
-- Şeffaf adreslerin kullanılması  
-- Kaynaklar arasında adreslerin yeniden kullanılması  
-- Memolara hassas veri eklenmesi  
-- Cüzdanın herkese açık kimlikle ilişkilendirilmesi  
+- Şeffaf adresler kullanmak  
+- Kaynaklar arasında adresleri yeniden kullanmak  
+- Memolara hassas veriler eklemek  
+- Cüzdanı herkese açık kimlikle ilişkilendirmek
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Sonuç
 
 Şunları yapabilirsiniz:
-- Kaynaklarınızı koruyabilirsiniz
-- Gözetim risklerini azaltabilirsiniz
-- Hassas çalışmalarda finansal gizliliği koruyabilirsiniz
+- Kaynaklarınızı korumak
+- Gözetim risklerini azaltmak
+- Hassas işlerde finansal gizliliğinizi korumak
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> İlgili
 
-- [Zcash ödemenizi kimler görebilir](/start-here/who-can-see-your-zcash-payment)
-- [Kimliği ilişkilendirmeden para gönderin](/zcash-use-cases/send-money-without-linking-identity)
+- [Zcash ödemesini kimler görebilir](/start-here/who-can-see-your-zcash-payment)
+- [Kimliğinizi ilişkilendirmeden para gönderin](/zcash-use-cases/send-money-without-linking-identity)
 
  <br/>
 
 ## <img src="/content-images/celebration-spark-svgrepo-com-bc98dec7c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="celebration icon"/> Tamamlama
 
-**6. adım / 6 — Tamamlandı**
+**6 adımın 6. adımı — Tamamlandı**
 
-Zcash kullanımında en ileri seviyeye ulaştınız.
+Zcash kullanımının en ileri düzeyine ulaştınız.
 
-Artık şunları anlıyorsunuz:
+Artık şunları biliyorsunuz:
 - Özel işlemler
 - Kimlik koruması
 - Operasyonel güvenlik
 
 <br/> 
 
-## Sırada Ne Var?
+## Sırada ne var?
 
-- [Ana sayfaya git](/)
+- [Ana sayfaya gidin](/)
 - [Geliştirici yollarını keşfedin](/developers)
-- [ZecHub'ye katkıda bulunun](/contribute/help-build-zechub)
+- [ZecHub için katkıda bulunun](/contribute/help-build-zechub)
 
 <br/>

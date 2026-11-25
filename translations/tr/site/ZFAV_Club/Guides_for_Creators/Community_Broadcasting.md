@@ -1,54 +1,54 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Community_Broadcasting.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# VDO.Ninja ve OBS Studio kullanarak Community Yayını
+# VDO.Ninja ve OBS Studio ile Topluluk Yayını
 
-Bu kısa eğitim, [DWeb Camp 2023](https://dwebcamp.org/) sırasında bir grup fellow ve gönüllü tarafından oluşturuldu. Bu çalışmanın amacı, iş birliğine dayalı video kaydı ve yayın için çevrimdışı MESH ağına bağlı akıllı telefon cihazlarının kullanımından yararlanmaktır.
+Bu kısa eğitim, [DWeb Camp 2023](https://dwebcamp.org/) sırasında bir grup katılımcı ve gönüllü tarafından hazırlandı. Bu çalışmanın amacı, ortaklaşa video kaydı ve yayını için çevrimdışı bir MESH ağına bağlı akıllı telefonlardan yararlanmaktır.
 
-İki açık kaynaklı yazılım kullanıyoruz: [OBS Studio (Open Broadcaster software)](https://obsproject.com/) ve [VDO.Ninja](https://vdo.ninja/). Bu yazılımlar indirilebilir ve bilgisayarınızda yerel olarak çalıştırılabilir.
+İki açık kaynaklı yazılım kullanıyoruz: [OBS Studio (Open Broadcaster software)](https://obsproject.com/) ve [VDO.Ninja](https://vdo.ninja/). Bu yazılımları indirip bilgisayarınızda yerel olarak çalıştırabilirsiniz.
 
 ## OBS Studio (Open Boardcaster software)
 
-OBS Studio, kayıt ve canlı yayın için birden fazla işletim sisteminde kullanılabilen ücretsiz ve açık kaynaklı bir yazılımdır. Yazılım ilk olarak 2012 yılında yayımlandı ve oyun yayıncılığı topluluğu ile bağımsız video içerik üreticileri arasında oldukça geniş bir kullanıcı kitlesine sahiptir.
+OBS Studio, birden fazla işletim sisteminde kullanılabilen, kayıt ve canlı yayın için ücretsiz ve açık kaynaklı bir yazılımdır. Yazılım ilk olarak 2012'de yayımlandı ve oyun yayını topluluğu ile bağımsız video içerik üreticileri arasında oldukça geniş bir takipçi kitlesine sahip.
 
-OBS Studio kullanıcı arayüzü, ilk kez kullananlar için oldukça göz korkutucu görünebilir. OBS Studio iki pencereye ayrılır: "Preview" ve "Broadcast". Preview penceresi, "Scenes" olarak adlandırılan kullanılabilir videoları (webcam, Iriun Webcam, OBS Virtual Camera, Video ve Browser source gibi çeşitli kameralar) gösterir; "Broadcast" ise canlı yayını gösterir.
+OBS Studio kullanıcı arayüzü, ilk kez kullananlara oldukça göz korkutucu gelebilir. OBS Studio, “Önizleme” ve “Yayın” adlı iki pencereye ayrılır. Önizleme penceresinde kullanılabilir videolar (web kamerası, Iriun Webcam, OBS Virtual Camera, Video ve Tarayıcı kaynakları gibi çeşitli kameralar) “Sahneler” olarak gösterilir; “Yayın” penceresinde ise canlı yayın görünür.
 
-VDO.ninja üzerindeki uzak bir kamera akışını OBS Studio’ya aktarmak için, "Sources > Add > Browser" yolunu izleyerek yeni bir "Browser Source" ekleyerek başlarsınız. Yeni pencerede, VDO.Ninja’dan gelen kaynak URL’sini girebilir ve "Make source visible" seçeneğini işaretleyebilirsiniz.
+VDO.ninja'dan OBS Studio'ya uzak kamera yayını aktarmak için “Kaynaklar > Ekle > Tarayıcı” yolunu izleyerek yeni bir “Tarayıcı Kaynağı” ekleyin. Açılan pencerede VDO.Ninja kaynak URL'sini girebilir ve “Kaynağı görünür yap” seçeneğini belirleyebilirsiniz.
 
-Artık uzak akışları yayınlamaya başlayabilirsiniz.
+Artık uzak yayınları başlatabilirsiniz.
 
 ## VDO.Ninja
 
-[VDO.Ninja](https://vdo.ninja/), mobil cihazlarınızı canlı yayın kamerasına dönüştürmenizi sağlayan ücretsiz ve açık kaynaklı bir web uygulamasıdır. Yazılım indirilebilir ve yerel bilgisayarınıza kurulabilir ya da doğrudan [https://vdo.ninja adresindeki çevrimiçi sürümü](https://vdo.ninja/) kullanabilirsiniz.
+[VDO.Ninja](https://vdo.ninja/), mobil cihazlarınızı canlı yayın kamerasına dönüştürmenizi sağlayan ücretsiz ve açık kaynaklı bir web uygulamasıdır. Yazılımı indirip yerel bilgisayarınıza kurabilir veya doğrudan [çevrimiçi sürümünü https://vdo.ninja](https://vdo.ninja/). kullanabilirsiniz.
 
-VOD.Ninja arayüzü basittir; mobil cihazınızın web tarayıcısında VDO.Ninja’yı açın ve "Add your camera to OBS" seçeneğini seçin. Ardından cihaz listesinden kamera ve ses aygıtınızı seçip "Start" düğmesine tıklarsınız. Sonrasında OBS Studio’ya eklenebilecek bir "view" bağlantısı elde edersiniz.
+VDO.Ninja arayüzü basittir: Mobil cihazınızın web tarayıcısında VDO.Ninja'yı açın ve “Kameranızı OBS'ye ekleyin” seçeneğini belirleyin. Ardından cihaz listesinden kameranızı ve ses cihazınızı seçip “Başlat”a tıklayın. OBS Studio'ya ekleyebileceğiniz bir “görüntüleme” bağlantısı alırsınız.
 
-## VDO.Ninja ile bir community çağrısını yönetmek
+## VDO.Ninja ile topluluk görüşmesini yönetme
 
-Masaüstü/dizüstü bilgisayarınızda web tarayıcınızla [VDO.ninja](http://VDO.ninja) adresine giderek başlayın.
+Masaüstü veya dizüstü bilgisayarınızdaki web tarayıcısıyla [VDO.ninja](http://VDO.ninja) adresine giderek başlayın.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="300" height="400"/>
 </a>
 
 
-Yeni bir oda oluşturmak ve kendi community çağrısı canlı yayınınızı yönetmek için Create a Room’a tıklayın.
+Yeni bir oda oluşturup kendi topluluk görüşmesi canlı yayınınızı yönetmek için Oda Oluştur'a tıklayın.
 
-Bir sonraki ekranda odanızı kurmak için temel bilgiler istenecektir.
-
-<a href="">
-    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
-</a>
-
-Bir oda oluşturulduktan sonra, yönetmen olarak bir sonraki ekranda kullanabileceğiniz çok sayıda kontrol seçeneğiniz olur.
+Sonraki ekranda odanızı kurmak için temel bilgiler istenir.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
 </a>
 
+Oda oluşturulduktan sonra yönetici, sonraki ekranda birçok kontrol seçeneğine erişebilir.
 
-İnsanlar odanıza katıldığında, yönetmen olarak tüm kaynak seçeneklerinin ve kontrollerin video ve sesleriyle birlikte göründüğünü göreceksiniz.
+<a href="">
+    <img src="/content-images/_unavailable.svg" alt="" width="400" height="400"/>
+</a>
+
+
+Kişiler odanıza katıldığında yönetici olarak video ve sesleriyle birlikte tüm kaynak seçeneklerini ve kontrolleri görürsünüz.
 
 <a href="">
     <img src="/content-images/_unavailable.svg" alt="" width="400" height="300"/>
@@ -57,29 +57,29 @@ Bir oda oluşturulduktan sonra, yönetmen olarak bir sonraki ekranda kullanabile
 
 ## SSS
 
-- OBS Studio için ne tür ekran kartları gereklidir?
+- OBS Studio için ne tür video grafik kartları gerekir?
 
-İyi bir ekran kartına ve bol miktarda belleğe sahip bir kişisel bilgisayar kullanabilirsiniz ya da alternatif olarak bir donanım kodlayıcı kullanabilirsiniz: [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE)
-- OBS canlı çeviri ve altyazı yapmanıza izin veriyor mu?
+İyi bir grafik kartı ve bol miktarda belleği olan bir kişisel bilgisayar kullanabilir veya bunun yerine [Teradek VidiU](https://www.bhphotovideo.com/c/product/1609186-REG/teradek_10_0235_vidiu_x_modem.html?gclid=EAIaIQobChMIl4aIo7zX_wIVDhqtBh0PgwhxEAAYAiAAEgInufD_BwE) gibi donanım kodlayıcıları tercih edebilirsiniz.
+- OBS ile canlı çeviri ve altyazı eklemek mümkün mü?
 
-Böyle bir özellik sunduğu görülen, topluluk katkısıyla geliştirilmiş bazı eklentiler var. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
+Topluluğun katkıda bulunduğu ve bu özelliği sağlıyor gibi görünen bazı eklentiler var. [https://github.com/eddieoz/OBS-live-translation](https://github.com/eddieoz/OBS-live-translation)
 
 - OBS Studio için kendi eklentilerinizi geliştirebilir misiniz?
 
-Evet, OBS lua ve python betiklerini destekler. Ayrıca Overlay’ler ve webview’ler için JavaScript de desteklenir.
+Evet, OBS Lua ve Python betiklerini destekler. Ayrıca JavaScript kaplamalar ve web görünümleri için de destek sunar.
 
-- Canlı yayında kararma geçişi veya diğer geçişleri kullanıyor muyuz?
+- Canlı yayında siyaha geçiş veya geçiş efektleri kullanıyor muyuz?
 
-Bu tamamen size, yani yapımcıya kalmış!
+Bu, yapımcı olarak size kalmış!
 
-- Yayın yaparken gecikme oluyor mu?
+- Yayın yaparken gecikme olur mu?
 
-Bu çoğunlukla yayın yaptığınız hedefe bağlıdır. Örneğin, YouTube, yayınlanmadan önce sunucularında yapılan video işleme nedeniyle bir dakika veya daha fazla gecikmeye sahip olabilir.
+Bu, çoğunlukla yayını yaptığınız hedef platforma bağlıdır. Örneğin, YouTube sunucularında yayınlanmadan önce yapılan video işleme nedeniyle bir dakika veya daha uzun gecikme yaşanabilir.
 
-- Yavaş bir makinede OBS kullanırken ve green-screen yaparken ses kesiliyor
+- Yavaş bir makinede OBS kullanırken ve yeşil perde uygularken ses kesiliyor
 
-Donanım kodlayıcı kullanın ya da stream yard kullanın
-[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) veya [RiverSide.FM](http://riverside.fm/)
+Donanım kodlayıcı kullanın veya stream yard kullanın
+[https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard](https://support.streamyard.com/hc/en-us/articles/360056350852-How-to-Use-OBS-Virtual-Camera-with-StreamYard) ya da [RiverSide.FM](http://riverside.fm/)
 
 ## Katkıda Bulunanlar
 
@@ -93,5 +93,5 @@ Donanım kodlayıcı kullanın ya da stream yard kullanın
 
 [https://docs.vdo.ninja/](https://docs.vdo.ninja/)
 
-Ofis Saatleri: Medya ve dijital etkinlik community’si
+Ofis Saatleri: Medya ve dijital etkinlik topluluğu
 [https://alex4d.com/notes/item/media-and-digital-event-community](https://alex4d.com/notes/item/media-and-digital-event-community)

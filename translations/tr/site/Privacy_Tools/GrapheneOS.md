@@ -1,123 +1,123 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/GrapheneOS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Graphene OS
 
-## Özet
+## Kısaca
 
-- **GrapheneOS**, günlük Android uygulamalarıyla tam uyumlu, gizlilik ve güvenliğe odaklanan kâr amacı gütmeyen, açık kaynaklı bir mobil işletim sistemidir
-- Temel güçlü yönleri: güçlendirilmiş uygulama sandbox’ı, bellek güvenli kod ve istismar azaltımları, donanım destekli doğrulanmış önyükleme, ayrıntılı izinler ve cihaz kilitliyken USB-C bağlantı noktası koruması
+- **GrapheneOS**, gizlilik ve güvenliğe odaklanan, kâr amacı gütmeyen, açık kaynaklı bir mobil işletim sistemidir ve günlük Android uygulamalarıyla tam uyumludur
+- Temel güçlü yönleri: güçlendirilmiş uygulama korumalı alanı, bellek güvenli kod ve istismar azaltma önlemleri, donanım destekli doğrulanmış önyükleme, ayrıntılı izinler ve cihaz kilitliyken USB-C bağlantı noktası koruması
 - Kurulum, resmî **WebUSB yükleyicisi** (çoğu kullanıcı için önerilir) veya teknik kullanıcılar için **komut satırı yöntemi** aracılığıyla yapılır
-- Bir Zcash kullanıcısı için mobil kendi saklama konusunda güçlü bir temel sunar: bakımı yapılan bir shielded wallet ve standart OPSEC alışkanlıklarıyla eşleştirin
+- Bir Zcash kullanıcısı için bu sistem, mobil varlıkları kendi gözetiminde tutmanın güçlü bir temelidir: güncel tutulan korumalı bir cüzdan ve standart OPSEC uygulamalarıyla birlikte kullanın
 
-GrapheneOS, Android uygulamalarıyla uyumluluğu korurken mobil cihazlarda gizliliği ve güvenliği artırmaya adanmış, kâr amacı gütmeyen, açık kaynaklı bir projedir. Bu işletim sistemi, özellikle sandboxing, istismar azaltımları ve izin modelinin iyileştirilmesine odaklanarak gizlilik ve güvenlik teknolojilerini geliştirmeye büyük önem verir. 2014 yılında **CopperheadOS** adıyla doğan proje, o zamandan beri dijital gizliliğinizin ve güvenliğinizin güçlü koruyucusuna dönüşmüştür.
+GrapheneOS, Android uygulamalarıyla uyumluluğu korurken mobil cihazlardaki gizliliği ve güvenliği geliştirmeye adanmış, kâr amacı gütmeyen, açık kaynaklı bir projedir. Bu işletim sistemi, özellikle korumalı alanı güçlendirmeye, istismar azaltma önlemlerine ve izin modelini iyileştirmeye odaklanarak gizlilik ve güvenlik teknolojilerini geliştirmeye büyük önem verir. 2014'te **CopperheadOS** adıyla doğan proje, o zamandan bu yana dijital gizliliğinizin ve güvenliğinizin güçlü bir koruyucusuna dönüştü.
 
-GrapheneOS’in temel amacı, kullanıcı deneyimini olumsuz etkilemeden uygulama sandbox’ı gibi güvenlik sınırlarını güçlendirmektir. 
+GrapheneOS temel amacı, kullanıcı deneyimini olumsuz etkilemeden uygulama korumalı alanı gibi güvenlik sınırlarını güçlendirmektir.
 
-GrapheneOS, Ağ izinleri, Sensör izinleri veya cihaz kilitliyken geçerli kısıtlamalar (USB çevre birimleri, kamera erişimi ve hızlı ayarlar kutucukları gibi unsurları kapsayan) gibi belirli özellikler için çeşitli anahtarlar sunabilir. Buna ek olarak, kullanıcıya yönelik daha gelişmiş gizlilik ve güvenlik özellikleri, kullanıcı dostu bir deneyimi koruyacak şekilde özenle tasarlanmıştır; her biri kendi kullanıcı arayüzü iyileştirmeleriyle gelir.
+GrapheneOS, Ağ izinleri, Sensör izinleri veya cihaz kilitliyken geçerli olan kısıtlamalar (USB çevre birimleri, kamera erişimi ve hızlı ayarlar gibi) gibi belirli özellikler için çeşitli açma-kapama seçenekleri sunabilir. Ayrıca, daha karmaşık kullanıcıya dönük gizlilik ve güvenlik özellikleri, her biri kendine özgü kullanıcı arayüzü iyileştirmelerine sahip olacak şekilde, kullanımı kolay bir deneyim sunmak üzere özenle tasarlanmıştır.
 
-## **GrapheneOS’in Özellikleri**
+## **GrapheneOS özellikleri**
 
-**Güvenlik Güçlendirmesi** GrapheneOS, yaygın güvenlik açıklarını azaltmak için bellek güvenli programlama dilleri ve derleyici tabanlı güvenlik özellikleri gibi kapsamlı güvenlik geliştirmeleri içerir.
+**Güvenlik Güçlendirmeleri** GrapheneOS, yaygın güvenlik açıklarını azaltmak için bellek güvenli programlama dilleri ve derleyici tabanlı güvenlik özellikleri gibi kapsamlı güvenlik iyileştirmeleri içerir.
 
-**Sandboxing** Uygulamaları birbirinden izole etmek için uygulama sandboxing’ini güçlendirir ve olası saldırı vektörlerini sınırlar.
+**Korumalı Alan** Uygulamaları birbirinden yalıtarak olası saldırı vektörlerini sınırlandırmak için uygulama korumalı alanını güçlendirir.
 
-**Verified Boot** GrapheneOS, işletim sisteminin bütünlüğünü sağlamak için donanım destekli anahtarlar ve doğrulanabilir bir açılış süreci kullanır.
+**Doğrulanmış Önyükleme** GrapheneOS, işletim sisteminin bütünlüğünü sağlamak için donanım destekli anahtarlar ve doğrulanabilir bir önyükleme süreci kullanır.
 
-**Geliştirilmiş İzinler** Kullanıcılara uygulama izinleri üzerinde daha iyi kontrol sağlar ve uygulamaların hangi verilere erişebileceğini ayrıntılı biçimde yönetmelerine olanak tanır.
+**Gelişmiş İzinler** Uygulama izinleri üzerinde daha fazla denetim sağlar ve kullanıcıların uygulamaların hangi verilere erişebileceğini ayrıntılı olarak ayarlayıp yönetmesine olanak tanır.
 
-**Gizlilik Paneli** Kullanıcılar, uygulama davranışını bir gizlilik paneli üzerinden izleyip kontrol edebilir; bu da veri kullanımı konusunda şeffaflık sağlar.
+**Gizlilik Gösterge Paneli** Kullanıcılar, veri kullanımı hakkında şeffaflık sağlayan bir gizlilik gösterge paneli aracılığıyla uygulamaların davranışını izleyip denetleyebilir.
 
-**Yerleşik Güvenlik Güncellemeleri** GrapheneOS, zamanında güvenlik güncellemeleri sunarak kullanıcıların güvenlik açıklarına karşı en güncel korumaya sahip olmasını sağlar.
+**Yerleşik Güvenlik Güncellemeleri** GrapheneOS, kullanıcılara güvenlik açıklarına karşı en güncel korumayı sağlamak için zamanında güvenlik güncellemeleri sunar.
 
-**Güçlü Şifreleme** Varsayılan olarak tam disk şifrelemesi kullanır ve cihazda depolanan verileri korur.
+**Güçlü Şifreleme** Cihazda depolanan verileri korumak için varsayılan olarak tam disk şifrelemesi kullanır.
 
-**Geliştirilmiş Tarayıcı Güvenliği** Varsayılan tarayıcı, izlemeye karşı koruma da dahil olmak üzere artırılmış güvenlik için yapılandırılmıştır.
+**Geliştirilmiş Tarayıcı Güvenliği** Varsayılan tarayıcı, izlemeye karşı koruma da dâhil olmak üzere gelişmiş güvenlik sağlayacak şekilde yapılandırılmıştır.
 
-**Minimum Ön Yüklü Uygulama** GrapheneOS, minimum sayıda ön yüklü uygulamayla gelir; bu da olası güvenlik ve gizlilik risklerini azaltır.
+**Önceden Yüklenmiş Uygulamaların Az Olması** GrapheneOS, olası güvenlik ve gizlilik risklerini azaltmak için az sayıda önceden yüklenmiş uygulamayla gelir.
 
-**USB Düşmanca Port Koruması** Cihaz kilitliyken USB bağlantı noktaları üzerinden cihaza yetkisiz erişime karşı koruma sunar.
+**USB Bağlantı Noktası Saldırılarına Karşı Koruma** Cihaz kilitliyken USB bağlantı noktaları üzerinden cihaza yetkisiz erişime karşı koruma sağlar.
 
-**Kötü Amaçlı Yazılım Karşıtı Korumalar** GrapheneOS, bilinen kötü amaçlı yazılımları tespit etmeye ve önlemeye yönelik özellikler içerir.
+**Kötü Amaçlı Yazılımlara Karşı Koruma** GrapheneOS, bilinen kötü amaçlı yazılımları tespit edip engelleyen özellikler içerir.
 
-**Gizlilik Odaklıdır** İşletim sistemi, veri toplama ve veri açığa çıkmasını en aza indirecek şekilde kullanıcı gizliliğine güçlü bir vurgu yapılarak tasarlanmıştır.
+**Gizliliğe Odaklı** İşletim sistemi, veri toplamayı ve açığa çıkarmayı en aza indirerek kullanıcı gizliliğine büyük önem verecek şekilde tasarlanmıştır.
 
-**Açık Kaynak** Güvenliği geliştirmek için şeffaflığa ve topluluk katkılarına imkân tanıyan açık kaynaklı bir projedir.
+**Açık Kaynak** Güvenliği geliştirmek amacıyla şeffaflık ve topluluk katkılarına olanak tanıyan açık kaynaklı bir projedir.
 
-**Özelleştirilebilir Güvenlik Politikaları** Kullanıcılar, çeşitli güvenlik politikalarını kendi tercihlerine göre özelleştirebilir.
+**Özelleştirilebilir Güvenlik Politikaları** Kullanıcılar, çeşitli güvenlik politikalarını tercihlerine göre özelleştirebilir.
 
-**Uyumluluk** GrapheneOS, Android uygulamalarıyla uyumluluğu korumaya çalışır; böylece kullanıcılar gelişmiş güvenlik ve gizlilik özelliklerinden faydalanırken favori uygulamalarını kullanmaya devam edebilir.
+**Uyumluluk** GrapheneOS, Android uygulamalarıyla uyumluluğu korumaya çalışır; böylece kullanıcılar gelişmiş güvenlik ve gizlilik özelliklerinden yararlanırken sevdikleri uygulamaları kullanmaya devam edebilir.
 
-## **GrapheneOS Kurulumu**
+## **GrapheneOS kurulumu**
 
-En iyi uygulamalar bölümünde belirtildiği gibi, önerilen resmî kurulum kılavuzunun kullanılması tavsiye edilir. GrapheneOS’i kurmanın iki yöntemi vardır: ya [WebUSB tabanlı yükleyiciyi](https://grapheneos.org/install/web) kullanmak ya da [komut satırı kurulum kılavuzunu](https://grapheneos.org/install/cli) takip etmek.
+En iyi uygulamalar bölümünde belirtildiği gibi, önerilen resmî kurulum kılavuzunu kullanmanız tavsiye edilir. GrapheneOS kurmanın iki yöntemi vardır: [WebUSB tabanlı yükleyiciyi](https://grapheneos.org/install/web) kullanmak veya [komut satırı kurulum kılavuzunu](https://grapheneos.org/install/cli) izlemek.
 
-**Web USB Tabanlı Kurulum** GrapheneOS’i Web yükleyici yöntemiyle kurmak için genellikle aşağıdaki materyal ve kaynaklara ihtiyacınız olacaktır:
+**Web USB Üzerinden Kurulum** GrapheneOS sistemini Web yükleyici yöntemiyle kurmak için genellikle aşağıdaki malzeme ve kaynaklara ihtiyacınız olur:
 
 - 2 GB boş bellek ve 32 GB boş depolama alanı.
-- USB Kablosu (A veya C)
-- Desteklenen bir ana işletim sistemi ve çalışan WebUSB desteğine sahip bir tarayıcı kullanın. Desteklenen sürümler ve tarayıcı paketleme kısıtlamaları için mevcut [resmî WebUSBön koşulları](https://grapheneos.org/install/web#prerequisites)nı kontrol edin; kullanım ömrünü doldurmuş eski sistemler resmî olarak desteklenmez.
-- Web yükleyicisi, desteklenen bir Android cihazından, ChromeOS veya GrapheneOS üzerinden de çalıştırılabilir. Her Chromium paketinin WebUSB desteği sunduğunu varsaymak yerine resmî kılavuzdaki tarayıcıya özgü notları izleyin.
+- USB kablosu (A veya C)
+- Desteklenen bir ana işletim sistemi ve çalışan WebUSB desteği olan bir tarayıcı kullanın. Desteklenen sürümler ve tarayıcı paketleme kısıtlamaları için güncel [resmî WebUSBön koşulları](https://grapheneos.org/install/web#prerequisites) kontrol edin; kullanım ömrü sona ermiş eski sistemler resmî olarak desteklenmez.
+- Web yükleyici, desteklenen bir Android cihazdan, ChromeOS veya GrapheneOS üzerinden de çalıştırılabilir. Her Chromium paketinin WebUSB desteği olduğunu varsaymak yerine resmî kılavuzdaki tarayıcıya özgü notları izleyin.
 
-Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini takip edin
+Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini izleyin.
 
-[GrapheneOS Web Kurulum Kılavuzu](https://grapheneos.org/install/web#prerequisites)
+[GrapheneOS Web Yükleyici Kılavuzu](https://grapheneos.org/install/web#prerequisites)
 
-**Komut Satırı kurulumu** Komut satırı kurulumu, teknik açıdan yatkın olmayan kullanıcılar için önerilmez ve aşağıdaki araçlar ile kaynaklar Komut Satırı Kurulumu için gereklidir;
+**Komut Satırıyla Kurulum** Komut satırıyla kurulum, teknik bilgiye sahip olmayan kullanıcılar için önerilmez. Komut satırıyla kurulum için aşağıdaki araçlar ve kaynaklar gereklidir:
 
-- En az 2 GB boş belleğiniz ve 32 GB boş depolama alanınız olmalıdır
-- USB Kablosu (A veya C)
-- [mevcut komut satırı ön koşulları](https://grapheneos.org/install/cli#prerequisites) tarafından desteklenen bir ana işletim sistemi kullanın ve gerekli araçlar için bu kılavuzu takip edin.
-- Android, ChromeOS ve GrapheneOS ana bilgisayarlarında web installer kullanılmalıdır; bunlar desteklenen komut satırı kurulum ana bilgisayarları arasında listelenmemiştir.
+- En az 2 GB boş belleğiniz ve 32 GB boş depolama alanınız olmalıdır.
+- USB kablosu (A veya C)
+- [güncel komut satırı ön koşulları](https://grapheneos.org/install/cli#prerequisites) tarafından desteklenen bir ana işletim sistemi kullanın ve gerekli araçlar için bu kılavuzu izleyin.
+- Android, ChromeOS ve GrapheneOS ana sistemleri web yükleyicisini kullanmalıdır; bunlar desteklenen komut satırı kurulum ana sistemleri arasında listelenmemiştir.
 
-Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini takip edin 
+Aşağıdaki bağlantıdan kurulum kılavuzuna göz atın ve kurulum sürecini izleyin.
 
-[Komut Satırı Kurulumu](https://grapheneos.org/install/cli#prerequisites)
+[Komut Satırıyla Kurulum](https://grapheneos.org/install/cli#prerequisites)
 
 ## **En İyi Uygulamalar**
 
-**İşletim Sistemini Güncel Tutun** En son güvenlik yamalarına ve geliştirmelere sahip olduğunuzdan emin olmak için GrapheneOS’i düzenli olarak güncelleyin.
+**İşletim Sistemini Güncel Tutun** En güncel güvenlik yamalarına ve iyileştirmelere sahip olduğunuzdan emin olmak için GrapheneOS sistemini düzenli olarak güncelleyin.
 
-**Güçlü Parolalar Kullanın** Yetkisiz erişimi önlemek için cihaz şifrelemesi ve uygulama girişleri için güçlü, benzersiz parolalar belirleyin.
+**Güçlü Parolalar Kullanın** Yetkisiz erişimi önlemek için cihaz şifrelemesinde ve uygulama girişlerinde güçlü, benzersiz parolalar belirleyin.
 
-**Uygulama İzinleri** Uygulama izinlerini dikkatle gözden geçirin ve yönetin; her uygulamanın çalışması için yalnızca gerekli olan izinleri verin.
+**Uygulama İzinleri** Uygulama izinlerini dikkatle gözden geçirip yönetin ve her uygulamanın çalışması için yalnızca gerekli olan izinleri verin.
 
-**Düzenli Yedeklemeler** Cihaz kaybı veya veri bozulması durumunda verilerinizi korumak için düzenli yedeklemeler yapın.
+**Düzenli Yedekleme** Cihazın kaybolması veya verilerin bozulması ihtimaline karşı verilerinizi düzenli olarak yedekleyin.
 
-**Depolamayı Şifreleyin** Varsayılan olarak etkin değilse, cihaz kaybolur veya çalınırsa verilerinizi korumak için cihaz depolamanızı şifreleyin.
+**Depolamayı Şifreleyin** Varsayılan olarak etkin değilse, cihaz kaybolduğunda veya çalındığında verilerinizi korumak için cihaz depolama alanınızı şifreleyin.
 
 **Güvenli Kilit Ekranı** Yetkisiz erişimi önlemek için PIN, parola veya biyometrik kimlik doğrulama gibi güvenli bir kilit ekranı kullanın.
 
-**Kurulumdan Sonra Bootloader'ı Yeniden Kilitleyin** Resmî kurulum süreci, [bootloader'ın geçici olarak kilidinin açılmasını](https://grapheneos.org/install/web#unlocking-the-bootloader) GrapheneOS yüklemek için, ardından tam doğrulanmış önyüklemeyi etkinleştirmek üzere kullanımdan önce [yeniden kilitlenmesini](https://grapheneos.org/install/web#locking-the-bootloader) gerektirir. Kilidi açma ve yeniden kilitleme işlemlerinin her ikisi de tüm kullanıcı verilerini siler; bu nedenle önce yedek alın ve resmî adımları sırasıyla izleyin. Kurulu işletim sistemini rootlamayın.
+**Kurulumdan Sonra Önyükleyici Kilidini Yeniden Etkinleştirin** Tam doğrulanmış önyüklemeyi etkinleştirmek için resmî kurulum sürecinde [önyükleyicinin kilidini geçici olarak açmanız](https://grapheneos.org/install/web#unlocking-the-bootloader), GrapheneOS sistemini yüklemeniz ve kullanmadan önce [kilidi yeniden etkinleştirmeniz](https://grapheneos.org/install/web#locking-the-bootloader) gerekir. Kilidi açma ve yeniden etkinleştirme işlemlerinin her biri tüm kullanıcı verilerini siler; bu nedenle önce yedek alın ve resmî adımları sırasıyla izleyin. Kurulu işletim sisteminde root erişimi etkinleştirmeyin.
 
 **Uygulama Kaynaklarını Doğrulayın** Kötü amaçlı yazılım yüklemekten kaçınmak için uygulamaların ve kaynaklarının gerçekliğini doğrulayın.
 
-**Gizlilik Odaklı Bir Tarayıcı Kurun** Güvenli gezinme için Brave browser, Firefox veya Bromite gibi gizlilik odaklı bir tarayıcı kullanmayı değerlendirin.
+**Gizlilik Odaklı Bir Tarayıcı Yükleyin** Güvenli gezinme için Brave tarayıcısı, Firefox veya Bromite gibi gizlilik odaklı bir tarayıcı kullanmayı değerlendirin.
 
-**Uygulamaları Düzenli Olarak Denetleyin** Saldırı yüzeyini azaltmak için artık kullanmadığınız veya güvenmediğiniz uygulamaları periyodik olarak gözden geçirin ve kaldırın.
+**Uygulamaları Düzenli Olarak Denetleyin** Saldırı yüzeyini azaltmak için artık kullanmadığınız veya güvenmediğiniz uygulamaları belirli aralıklarla gözden geçirip kaldırın.
 
-**İki Faktörlü Kimlik Doğrulamayı (2FA) Etkinleştirin** Ekstra bir güvenlik katmanı eklemek için çevrimiçi hesaplarınızda 2FA’yı etkinleştirin.
+**İki Faktörlü Kimlik Doğrulamayı (2FA) Etkinleştirin** Ek bir güvenlik katmanı eklemek için çevrimiçi hesaplarınızda 2FA'yı etkinleştirin.
 
-**Halka Açık Wi-Fi’dan Kaçının** Herkese açık Wi-Fi ağlarına bağlanırken dikkatli olun; çünkü bunlar daha az güvenli olabilir. Gerektiğinde bir VPN kullanın.
+**Halka Açık Wi-Fi'den Kaçının** Halka açık Wi-Fi ağlarına bağlanırken dikkatli olun; bu ağlar daha az güvenli olabilir. Gerektiğinde VPN kullanın.
 
-**Konum Verileri Konusunda Dikkatli Olun** Uygulamalar için konum takibini sınırlayın ve gizliliğe önem veriyorsanız bir konum yanıltma aracı kullanmayı değerlendirin.
+**Konum Verileri Konusunda Dikkatli Olun** Uygulamaların konum takibini sınırlandırın ve gizliliğe önem veriyorsanız konum sahtekârlığı aracı kullanmayı değerlendirin.
 
-**Bilinmeyen Bağlantı ve Eklerden Kaçının** İstenmeyen bağlantılara ve e-posta eklerine karşı dikkatli olun; bunlar phishing girişimleri veya kötü amaçlı yazılım olabilir.
+**Bilinmeyen Bağlantılardan ve Eklerden Kaçının** İstenmeyen bağlantılara ve e-posta eklerine karşı dikkatli olun; bunlar kimlik avı girişimleri veya kötü amaçlı yazılımlar içerebilir.
 
-**Varsayılan Ayarları Gözden Geçirin** Varsayılan ayarları dikkatlice inceleyin ve gizlilik tercihlerinize uyacak şekilde düzenleyin.
+**Varsayılan Ayarları Gözden Geçirin** Varsayılan ayarları gizlilik tercihlerinize uygun hâle getirmek için dikkatlice gözden geçirip düzenleyin.
 
-**Topluluk Desteği** İpuçları, güncellemeler ve güvenlik tavsiyeleri için GrapheneOS topluluğu ve forumlarıyla etkileşim kurun. Ek iletişim yollarını keşfetmek için [buraya](https://grapheneos.org/contact) tıklayarak ekiple iletişime geçebilir ve güncel kalabilirsiniz.
+**Topluluk Desteği** İpuçları, güncellemeler ve güvenlik önerileri için GrapheneOS topluluğuna ve forumlarına katılın. Daha fazla iletişim bilgisi için [buraya](https://grapheneos.org/contact) tıklayarak ekiple iletişim kurabilir ve güncel kalabilirsiniz.
 
-**Resmî Kurulum Yöntemini Kullanın** GrapheneOS, resmî olarak desteklenen iki kurulum yöntemi sunar. Kullanıcılar, çoğu kişi için önerilen WebUSB tabanlı yükleyiciyi tercih edebilir ya da teknik açıdan daha yetkin kullanıcılara uygun olan komut satırı kurulum kılavuzunu takip edebilir.
+**Resmî Kurulum Yöntemini Kullanın** GrapheneOS, resmî olarak desteklenen iki kurulum yöntemi sunar. Kullanıcılar, çoğu kişi için önerilen WebUSB tabanlı yükleyiciyi seçebilir veya teknik konulara daha yatkın kullanıcılar için hazırlanmış komut satırı kurulum kılavuzunu izleyebilir.
 
 ## **Sonuç**
 
-Özünde GrapheneOS, kullanıcı gizliliğini ve güvenliğini önceliklendiren alternatif bir mobil işletim sistemi sunmayı amaçlar; böylece kullanıcılarına dijital yaşamları üzerinde daha fazla kontrol sağlarken güvendikleri uygulamalarla uyumluluk da sunar. Gizlilik ve güvenlik kaygılarının son derece önemli olduğu bir çağda, mobil cihaz güvenliği ve gizliliği için yüksek bir standart belirlemeyi hedefleyen bir projedir.
+Özetle GrapheneOS, kullanıcılarının gizliliğine ve güvenliğine öncelik veren alternatif bir mobil işletim sistemi sunmayı amaçlar; kullanıcılara güvendikleri uygulamalarla uyumluluğu korurken dijital yaşamları üzerinde daha fazla denetim sağlar. Gizlilik ve güvenlik kaygılarının büyük önem taşıdığı bir dönemde, mobil cihaz güvenliği ve gizliliği için yüksek bir standart belirlemeyi hedefleyen bir projedir.
 
 ## İlgili sayfalar
 
 - [Güvenli Mesajlaşma Uygulamaları](Secure_Messengers.md) — güçlendirilmiş bir cihazda özel iletişim
-- [PGP Şifreleme](PGP_Encryption.md) — şifrelenmiş e-posta ve dosya alışverişi
-- [VPN ve DVPN](VPN_and_DVPN.md) — mobilde ağ katmanı gizliliği
-- [Web Tarayıcıları](Web_Browsers.md) — mobil tarayıcı seçimi ve güçlendirilmesi
+- [PGP Şifrelemesi](PGP_Encryption.md) — şifrelenmiş e-posta ve dosya alışverişi
+- [VPN ve DVPN](VPN_and_DVPN.md) — mobil cihazlarda ağ katmanı gizliliği
+- [Web Tarayıcıları](Web_Browsers.md) — mobil tarayıcı seçimi ve güvenli hâle getirilmesi

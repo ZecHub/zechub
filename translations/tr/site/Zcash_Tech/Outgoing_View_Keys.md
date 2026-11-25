@@ -1,20 +1,20 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Outgoing_Viewing_Keys.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 # Giden Görüntüleme Anahtarları (OVK'ler)
 
-Giden görüntüleme anahtarı (OVK), yalnızca korumalı bir çıktının *giden* şifreli metnini şifrelemek için kullanılan 32 baytlık bir değerdir. Bir tarafın, fon harcama veya gelen notları görme yetkisi olmadan gönderilen notun düz metnini (alıcı adresi, değer ve not) geri almasını sağlar.
+Giden görüntüleme anahtarı (outgoing viewing key, OVK), korumalı bir çıktının *giden* şifreli metnini şifrelemek için kullanılan, yalnızca bu amaçla kullanılan 32 baytlık bir değerdir. Bir tarafın, fonları harcama veya gelen notları görme olanağı olmadan gönderilen note'un açık metnini (alıcı adresi, değer ve memo) kurtarmasını sağlar.
 
-Alıcı, gelen notun şifresini her zaman kendi gelen görüntüleme anahtarıyla çözer. OVK seçimi alıcının gördüklerini değiştirmez. Ham bir OVK için standart bir kodlama yoktur; yalnızca 32 bayttır.
+Alıcı, gelen note'u her zaman kendi gelen görüntüleme anahtarıyla çözer. OVK seçimi, alıcının gördüklerini değiştirmez. Ham bir OVK için standart bir kodlama yoktur; yalnızca 32 bayttan oluşur.
 
 ## Kısaca
 
-- Bir OVK yalnızca korumalı bir ödemenin giden düz metnini kimin geri alabileceğini kontrol eder.
-- Cüzdanlar üç politika arasından seçim yapar: **Gönderen** (hesabın UFVK'siyle normal kurtarma), **Özel** (sağladığınız bir anahtarla kurtarma) veya **Discard** (hiç kimse giden düz metni zincirden geri alamaz).
-- Discard veya özel bir OVK kullanılsa bile, bir UFVK sahibi hangi notların harcandığını görmeye ve hesaptan çıkan net tutarı hesaplamaya devam eder.
-- Bir tutarı belirli bir UFVK'den gizli tutmanın tek güvenilir yolu, notların hiçbir zaman o hesaba ait olmamasını sağlamaktır (ayrı hesap veya ayrı cüzdan).
-- Üç politikanın tümü zaten `zcash_client_backend` içinde bulunmaktadır; günümüzde neredeyse her cüzdan yalnızca varsayılan Gönderen politikasını kullanır.
+- Bir OVK, korumalı bir ödemenin giden açık metnini kimin kurtarabileceğini belirler.
+- Cüzdanlar üç politikadan birini seçer: **Gönderici** (hesabın UFVK'siyle olağan kurtarma), **Özel** (sağladığınız bir anahtarla kurtarma) veya **Discard** (hiç kimse Zincir'den giden açık metni kurtaramaz).
+- Discard veya özel bir OVK kullanılsa bile, UFVK sahibi hangi note'ların harcandığını görür ve hesaptan çıkan net tutarı hesaplayabilir.
+- Belirli bir UFVK'den bir tutarı gizli tutmanın tek güvenilir yolu, note'ların hiçbir zaman o hesaba ait olmamasını sağlamaktır (ayrı bir hesap veya ayrı bir cüzdan).
+- Üç politika da `zcash_client_backend` içinde mevcuttur; günümüzde neredeyse tüm cüzdanlar yalnızca varsayılan Gönderici politikasını kullanır.
 
 ---
 
@@ -22,66 +22,66 @@ Alıcı, gelen notun şifresini her zaman kendi gelen görüntüleme anahtarıyl
 
 `zcash_client_backend` üzerine kurulu cüzdanlar, bir işlem oluştururken bir `OvkPolicy` seçer:
 
-| Politika | Giden şifreli metinler | Giden düz metni daha sonra kim geri alabilir |
+| Politika | Giden şifreli metinler | Giden açık metni daha sonra kim kurtarabilir |
 |--------|----------------------|----------------------------------------------|
-| **Gönderen** (varsayılan) | Hesabın normal OVK'sine şifrelenir | Gönderen hesabın Birleşik Full Viewing Key'si |
-| **Özel** | Sağladığınız anahtar(lar)a şifrelenir | Sağlanan anahtar(lar)ı elinde tutan kişi |
-| **Discard** | OVK kullanılmaz (`ovk = ⊥`) | Hiç kimse (gönderen bile değil) |
+| **Gönderici** (varsayılan) | Hesabın olağan OVK'siyle şifrelenir | Gönderen hesabın Birleşik Full Viewing Key |
+| **Özel** | Sağladığınız anahtar(lar)la şifrelenir | Sağlanan anahtar(lar)a sahip olan kişi |
+| **Discard** | OVK kullanılmaz (`ovk = ⊥`) | Hiç kimse (gönderen bile) |
 
-Kolaylık sağlayan bir kurucu, hem harici hem de dahili OVK'nin aynı anahtar olması için tek bir 32 baytlık değerden bir `Custom` politikası oluşturur.
+Bir kolaylık oluşturucusu, hem harici hem de dahili OVK'nin aynı anahtar olması için tek bir 32 baytlık değerden `Custom` politikası oluşturur.
 
-![Outgoing Viewing Key policy comparison](/content-images/ovk-policies.webp)
+![Outgoing Viewing Key politika karşılaştırması](/content-images/ovk-policies.webp)
 
-[OvkPolicy belgelerine](https://zcash.github.io/librustzcash/rustdoc/latest/zcash_client_backend/wallet/enum.OvkPolicy.html) ve [ZIP 310](https://zips.z.cash/zip-0310)'a bakın.
+[OvkPolicy belgelerine](https://zcash.github.io/librustzcash/rustdoc/latest/zcash_client_backend/wallet/enum.OvkPolicy.html) ve [ZIP 310](https://zips.z.cash/zip-0310) sayılı belgeye bakın.
 
-## Her politikanın kullanım amacı
+## Her politika ne için kullanılır?
 
-**Gönderen**, normal cüzdan davranışıdır. İşlem madenciliği yapıldıktan sonra, hesabın UFVK'sini elinde tutan herkes giden şifreli metinlerin şifresini çözebilir ve alıcı adreslerini, tutarları ve notları geri alabilir.
+**Gönderici**, olağan cüzdan davranışıdır. İşlem madenciliğe alındıktan sonra, hesabın UFVK'sine sahip olan herkes giden şifreli metinleri çözerek alıcı adreslerini, tutarları ve memoları kurtarabilir.
 
-**Özel**, üçüncü bir tarafa (denetçi, ödeme işleyicisi, makbuz sistemi veya ayrı bir cihaz) tam görüntüleme anahtarını vermeden belirli giden ödemelerin şifresini çözme yetkisi vermenizi sağlar. İşlemden sonra attığınız geçici bir anahtar da kullanabilir veya tek bir anahtarın her giden ödemeyi görmemesi için farklı karşı taraflar için farklı anahtarlar kullanabilirsiniz.
+**Özel**, üçüncü bir tarafa (denetçi, ödeme işlemcisi, makbuz sistemi veya ayrı bir cihaz) tam görüntüleme anahtarını vermeden belirli giden ödemelerin şifresini çözme olanağı sunmanızı sağlar. İşlemden sonra sileceğiniz geçici bir anahtar da kullanabilir veya tek bir anahtarın tüm giden ödemeleri görmemesi için farklı karşı taraflar için farklı anahtarlar kullanabilirsiniz.
 
-**Discard**, gönderen cüzdanın giden düz metni zincirden geri alamayacağı anlamına gelir. Bu, UFVK'nin daha sonra ele geçirilmesi durumunda geri alınabilir olanları en aza indirmek istediğinizde veya kasıtlı olarak hesabın OVK'sinin açabileceği zincir üstü bir kayıt istemediğinizde kullanışlıdır.
+**Discard**, gönderen cüzdanın Zincir'den giden açık metni kurtaramayacağı anlamına gelir. UFVK daha sonra ele geçirilirse kurtarılabilecek verileri en aza indirmek istediğinizde veya hesabın OVK'sinin açabileceği zincir üstü bir kayıt olmasını özellikle istemediğinizde bu kullanışlıdır.
 
-## Bir UFVK sahibinin yine de gördükleri
+## UFVK sahibi neleri görmeye devam eder?
 
-Discard veya özel bir OVK kullanılsa bile, hesabın UFVK'sini elinde tutan kişi şunları yapabilir:
+Discard veya özel bir OVK kullanılsa bile, hesabın UFVK'sine sahip olan biri şunları yapabilir:
 
-- Hesabın hangi notlarının harcandığını tespit edebilir (nullifier'lar aracılığıyla).
-- Bu girdi notlarının değerlerini bilir.
-- Herhangi bir para üstü notunu geri alabilir (bunlar OVK'ye değil, dahili gelen görüntüleme anahtarına şifrelenir).
+- Hesabın hangi note'larının harcandığını tespit edebilir (nullifier'lar aracılığıyla).
+- Bu girdi note'larının değerlerini öğrenebilir.
+- Herhangi bir para üstü note'unu kurtarabilir (bunlar bir OVK'ye değil, dahili gelen görüntüleme anahtarına şifrelenir).
 - Dolayısıyla hesaptan çıkan net tutarı hesaplayabilir.
 
-Görünür olmayanlar, tekil alıcı adresleri, tutarın nasıl bölündüğü ve notlardır. `WalletWrite` belgeleri, Discard (veya rastgele bir özel OVK) altında oluşturulan işlemlere ilişkin verilerin yerel kayıt kaybolursa zincir verilerinden geri alınamayacağı konusunda uyarır.
+Görünür olmayanlar, tek tek alıcı adresleri, tutarın nasıl bölündüğü ve memolardır. `WalletWrite` belgeleri, Discard altında oluşturulan işlemlere (veya rastgele bir özel OVK'ye) ilişkin verilerin yerel kayıt kaybolursa Zincir verilerinden kurtarılamayacağı konusunda uyarır.
 
-## Tutarları belirli bir UFVK'den uzak tutmak
+## Tutarları belirli bir UFVK'den gizli tutma
 
-`OvkPolicy` yalnızca giden düz metnin geri alınmasını kontrol eder. Harcamaları veya net tutarları hesabın kendi UFVK'sinden gizlemez.
+`OvkPolicy` yalnızca giden açık metnin kurtarılmasını kontrol eder. Harcamaları veya net tutarları hesabın kendi UFVK'sinden gizlemez.
 
-Bir tutarı belirli bir UFVK'nin görememesini sağlamanın tek güvenilir yolu, o tutarı taşıyan notların UFVK'nin kontrol ettiği hesaba hiçbir zaman ait olmamasını sağlamaktır:
+Bir tutarın belirli bir UFVK tarafından görülmesini önlemenin tek güvenilir yolu, bu tutarı taşıyan note'ların söz konusu UFVK'nin kontrol ettiği hesaba hiçbir zaman ait olmamasını sağlamaktır:
 
-1. **Ayrı ZIP-32 hesapları** (aynı seed) — Yeni bir hesap dizini oluşturun, fonları buraya taşıyın ve bu hesabın UFVK'sini asla dışa aktarmayın. Orijinal hesabın UFVK'si yalnızca yeni hesaba yapılan transferi görür.
-2. **Tamamen ayrı cüzdan** (farklı seed) — Yeni bir cüzdanı fonlayın, ondan harcama yapın ve seed'i veya UFVK'yi atın. Orijinal cüzdan yalnızca fonlama transferini kaydeder.
-3. **Geçici tek kullanımlık cüzdanlar** — Yukarıdakiyle aynıdır, ancak harcama cüzdanını tek kullanımlık kabul edin.
+1. **Ayrı ZIP-32 hesapları** (aynı tohum) — Yeni bir hesap dizini oluşturun, fonları bu hesaba aktarın ve o hesabın UFVK'sini hiçbir zaman dışa aktarmayın. Özgün hesabın UFVK'si yalnızca yeni hesaba yapılan aktarımı görür.
+2. **Tamamen ayrı cüzdan** (farklı tohum) — Yeni bir cüzdana fon aktarın, bu cüzdandan harcama yapın ve tohumu veya UFVK'yi silin. Özgün cüzdan yalnızca fonlama aktarımını kaydeder.
+3. **Tek kullanımlık geçici cüzdanlar** — Yukarıdakiyle aynıdır; ancak harcama cüzdanını kullan-at olarak değerlendirin.
 
-Bir UFVK hesap başınadır. Bu hesapta hiç bulunmamış notlar, hesabın bakiyesinde veya çıkış toplamlarında asla görünmez.
+UFVK hesap başınadır. Bir hesapta hiçbir zaman bulunmamış note'lar, o hesabın bakiyesinde veya çıkış toplamlarında görünmez.
 
-## Cüzdanlar politikaları bugün nasıl kullanıyor
+## Cüzdanlar bugün bu politikaları nasıl kullanıyor?
 
-Üretimdeki neredeyse her cüzdan yalnızca varsayılan **Gönderen** politikasını kullanır; dolayısıyla tam giden geçmiş UFVK'den geri alınabilir. Diğer iki politika kütüphanede mevcuttur ancak kullanıcı arayüzlerinde nadiren sunulur.
+Üretim ortamındaki neredeyse tüm cüzdanlar yalnızca varsayılan **Gönderici** politikasını kullanır; bu nedenle giden işlemlerin tam geçmişi UFVK'den kurtarılabilir. Diğer iki politika kütüphanede mevcuttur, ancak kullanıcı arayüzlerinde nadiren sunulur.
 
-Olası gelecekteki seçenekler şunlardır:
+Gelecekte sunulabilecek seçenekler şunlardır:
 
-- Kullanıcının tek bir ödeme için Özel veya Discard seçmesini sağlayan işlem başına bir işaret.
-- Kalıcı bir Discard modu (seed geri yükleme bu durumda yalnızca net çıkışları gösterir).
-- Tekil ödemelerin seçici olarak açıklanması için özel OVK'ler (tam bir [ZIP 311](https://zips.z.cash/zip-0311) ödeme açıklamasından daha hafiftir).
-- Daha güçlü yalıtım için hesap veya cüzdan ayrımını sürdürme.
+- Kullanıcının tek bir ödeme için Özel veya Discard seçmesine olanak tanıyan işlem başına bir işaret.
+- Kalıcı bir Discard modu (tohum geri yüklendiğinde yalnızca net çıkışlar gösterilir).
+- Tek tek ödemelerin seçici açıklaması için özel OVK'ler (tam bir [ZIP 311](https://zips.z.cash/zip-0311) ödeme açıklamasından daha hafif bir yöntem).
+- Daha güçlü yalıtım için hesap veya cüzdan ayrımının sürdürülmesi.
 
 ## Kaynaklar
 
 - [ZIP 310: Sapling Görüntüleme Anahtarlarının Güvenlik Özellikleri](https://zips.z.cash/zip-0310)
 - [ZIP 316: Birleşik Adresler ve Birleşik Görüntüleme Anahtarları](https://zips.z.cash/zip-0316)
 - [ZIP 315: Cüzdan Uygulamaları için En İyi Uygulamalar](https://zips.z.cash/zip-0315)
-- [OvkPolicy zcash_client_backend içindeki](https://zcash.github.io/librustzcash/rustdoc/latest/zcash_client_backend/wallet/enum.OvkPolicy.html)
+- [OvkPolicy zcash_client_backend içinde](https://zcash.github.io/librustzcash/rustdoc/latest/zcash_client_backend/wallet/enum.OvkPolicy.html)
 - [librustzcash](https://github.com/zcash/librustzcash)
 - [zingolib](https://github.com/zingolabs/zingolib)
 
@@ -90,4 +90,4 @@ Olası gelecekteki seçenekler şunlardır:
 - [Görüntüleme Anahtarları](/zcash-tech/viewing-keys)
 - [Ödeme Açıklamaları](/zcash-tech/payment-disclosures)
 - [Birleşik Adresler](/zcash-tech/unified-addresses)
-- [Bir Blok Gezgini Ne Görebilir](/zcash-tech/what-a-block-explorer-can-see)
+- [Bir Blok Gezgini Neleri Görebilir](/zcash-tech/what-a-block-explorer-can-see)

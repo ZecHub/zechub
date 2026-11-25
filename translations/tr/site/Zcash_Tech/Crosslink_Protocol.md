@@ -1,150 +1,150 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Crosslink_Protocol.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 # Crosslink Protokolü
 
-## Kısaca
+## Özet
 
-* Crosslink protokolü, Zcash'ün hibrit İş İspatı/Hisse İspatı (PoW/PoS) aşaması için önerilen bir tasarımdır. PoW'ı Bizans Hata Toleransı (BFT) protokolüyle entegre ederek, PoW veya PoS güvenli kaldığı sürece garantili kesinlik sağlar.
-* Hibrit PoS, stake edilmiş ZEC temelinde blokları doğrulayan noterleri sunar — başlangıçta sabit, daha sonra stake edilmiş ZEC temelinde seçilen noterler.
-* Crosslink iki defter sunmayı amaçlar: geri alma güvenliği için bir **kesinleşmiş defter (LOG_fin)** ve bunu en fazla *L* blok genişleten bir **daha düşük gecikmeli defter (LOG_ba)**.
-* Kesinleşmiş defter *L* bloktan fazla geride kalırsa bir **Güvenlik Modu** etkinleşir: PoW devam eder, ancak sorun çözülene kadar ekonomik faaliyetler duraklatılır.
-* Zamanla PoS doğrulayıcıları ödüllerden giderek daha büyük bir pay alacak, PoW madencilerinin gelirleri azalacaktır; protokol değişiklikleri kademeli olarak sunar.
-* Protokol, Shielded Labs tarafından geliştirilmektedir ve Crosslink 2*'nin Zcash'ün Zebra istemcisine entegre edilmesi için bir yol haritasına sahiptir.
-* Crosslink, Zcash ana ağında etkin değildir. Herkesin katılabileceği bir test ağı olan Shielded Labs'ün Feature Net üzerinde çalışır. Aşağıdaki "Crosslink'ün mevcut durumu" bölümüne bakın.
+* Crosslink protokolü, Zcash'ın hibrit İş Kanıtı/Stake Kanıtı (PoW/PoS) aşaması için önerilen bir tasarımdır. PoW'yi Bizans Hata Toleransı (BFT) protokolüyle birleştirerek, PoW veya PoS güvenli kaldığı sürece kesin kesinlik sağlar.
+* Hibrit PoS, stake edilmiş ZEC temelinde blokları doğrulayan noterleri sisteme dahil eder — başlangıçta noterler statiktir, daha sonra stake edilmiş ZEC temelinde seçilirler.
+* Crosslink iki defter sunmayı amaçlar: geri alma güvenliği sağlayan **kesinleştirilmiş defter (LOG_fin)** ve onu en fazla *L* blokla genişleten **daha düşük gecikmeli defter (LOG_ba)**.
+* Kesinleştirilmiş defter *L* bloktan fazla geride kalırsa **Güvenlik Modu** etkinleşir: PoW devam eder, ancak sorun çözülene kadar ekonomik faaliyetler duraklatılır.
+* Zamanla PoS doğrulayıcıları ödüllerin giderek artan bir payını alacak ve PoW madencilerinin kazançları azalacaktır; protokol değişiklikleri kademeli olarak devreye sokar.
+* Protokol Shielded Labs tarafından geliştirilmektedir. Crosslink 2*'yi Zcash'ın Zebra istemcisine entegre etmek için bir yol haritası bulunmaktadır.
+* Crosslink, Zcash ana ağında etkin değildir. Herkesin katılabileceği bir test ağı olan Shielded Labs' Feature Net üzerinde çalışır. Aşağıdaki “Crosslink ne durumda?” bölümüne bakın.
 
 ## Temel Açıklama
 
 ### Giriş: Zcash Hibrit PoS ve Crosslink Protokolü
 
-Crosslink Protokolü, Zcash'ün evriminde onu **Hibrit Hisse İspatı (PoS)** ve **İş İspatı (PoW)** modeline yönlendiren dönüm noktası niteliğinde bir gelişmedir. Ağ güvenliğini sağlamada güvenilir olsa da geleneksel PoW; enerji tüketimi ve endüstriyel madencilikle ilişkili merkezileşme riskleri nedeniyle eleştirilir. Crosslink, PoW'ın kanıtlanmış dayanıklılığını PoS'un verimlilik ve yönetişim avantajlarıyla birleştiren hibrit bir sistem sunar.
+Crosslink Protokolü, Zcash evriminde dönüm noktası niteliğinde bir gelişmedir ve onu **Hibrit Stake Kanıtı (PoS)** ile **İş Kanıtı (PoW)** modeline yönlendirir. Geleneksel PoW, ağ güvenliğini sağlamada güvenilir olsa da enerji tüketimi ve endüstriyel madencilikle ilişkili merkezileşme riskleri nedeniyle eleştirilir. Crosslink, PoW'nin kanıtlanmış sağlamlığını PoS'nin verimlilik ve yönetişim avantajlarıyla birleştiren hibrit bir sistem sunar.
 
 ![image](/content-images/a2ffb19d-e570-4723-b669-a66e14fc6b71-a727c958de.webp)
 
-Bu geçiş, projelerin çevresel olarak sürdürülebilir ve merkeziyetsiz mekanizmalara yöneldiği blok zinciri inovasyonundaki küresel eğilimlerle uyumludur. Crosslinks'in çift konsensüs modeli, Zcash'ün güncel zorluklara uyum sağlarken güçlü kriptografik gizlilik güvencelerini korumasını sağlar.
+Bu geçiş, projelerin çevresel açıdan sürdürülebilir ve merkeziyetsiz mekanizmalara yöneldiği blokzincir yeniliklerindeki küresel eğilimlerle uyumludur. Crosslink'in ikili konsensüs modeli, çağdaş zorluklara uyum sağlarken Zcash'ın güçlü kriptografik gizlilik güvencelerini korumasını sağlar.
 
-Hibrit Hisse İspatı (PoS) yaklaşımı, geleneksel İş İspatı'nı (PoW) PoS ile birleştirerek merkeziyetsizliği korurken ve enerji tüketimini azaltırken %51 saldırıları gibi zafiyetleri ele almayı amaçlar. Hibrit PoS, stake edilmiş ZEC temelinde blokları doğrulayan noterleri sunar. Bu mekanizma, zincir güvenliğini ve kontrol noktası doğrulamasını iyileştirmek, salt PoW sistemlerine daha sağlam bir alternatif sunmak üzere tasarlanmıştır.
+Hibrit Stake Kanıtı (PoS) yaklaşımı, %51 saldırıları gibi güvenlik açıklarını gidermeyi, aynı zamanda merkeziyetsizliği korumayı ve enerji tüketimini azaltmayı amaçlayarak geleneksel İş Kanıtı'nı (PoW) PoS ile birleştirir. Hibrit PoS, stake edilmiş ZEC temelinde blokları doğrulayan noterleri sisteme dahil eder. Bu mekanizma, Zincir güvenliğini ve kontrol noktası doğrulamasını iyileştirmek üzere tasarlanmıştır ve salt PoW sistemlerine kıyasla daha sağlam bir seçenek sunar.
 
 ### İlk test olarak neden Hibrit PoS/PoW?
 
-* Saf PoS'a doğru ilerleme sağlar.
-* Eşzamanlı madencilik ve stake kullanım senaryolarını ve ekosistemler arası geçişi mümkün kılar.
-* Daha fazla doğrulayıcı hissesi ve güven kazanana kadar PoS protokolündeki olası güvenlik sorunlarını hafifletir.
-* Genel yaklaşım Ethereum tarafından üretimde gösterilmiştir.
+* Salt PoS'ye doğru ilerleme sağlar.
+* Madencilik ve staking kullanım alanlarının eşzamanlı olarak yürütülmesine ve ekosistemler arası geçişe olanak tanır.
+* PoS protokolünün daha fazla doğrulayıcı stake'i ve güven kazanmasına kadar olası güvenlik sorunlarını azaltır.
+* Genel yaklaşım, Ethereum tarafından üretim ortamında gösterilmiştir.
 
-### Crosslink nedir
+### Crosslink nedir?
 
-Crosslink protokolü, Zcash'ün hibrit İş İspatı/Hisse İspatı (PoW/PoS) aşaması için önerilen bir tasarımdır. PoW'ı Bizans Hata Toleransı (BFT) protokolüyle entegre ederek, PoW veya PoS güvenli kaldığı sürece garantili kesinlik sağlar. Tasarım, madenci katılımını korurken stake edilmiş doğrulamayı dahil ederek ağ güvenliğini ve merkeziyetsizliği güçlendirmeyi amaçlar. Crosslink 2 olarak adlandırılan önerinin temel bir özelliği, BFT teklifçilerini ve madencileri birleştirerek mimariyi sadeleştirir. Bu yalınlaştırılmış yaklaşım, yapısal değişiklikleri en aza indirir ve yüksek güvenlik standartlarını korurken prototiplemeyi ve dağıtımı kolaylaştıran bir "kukla" BFT katmanının kullanılmasına olanak tanır.
+Crosslink protokolü, Zcash'ın hibrit İş Kanıtı/Stake Kanıtı (PoW/PoS) aşaması için önerilen bir tasarımdır. PoW'yi Bizans Hata Toleransı (BFT) protokolüyle birleştirerek, PoW veya PoS güvenli kaldığı sürece kesin kesinlik sağlar. Tasarım, madenci katılımını korurken stake edilmiş doğrulamayı dahil ederek ağ güvenliğini ve merkeziyetsizliği güçlendirmeyi amaçlar. Önerinin Crosslink 2 adı verilen temel bir özelliği, BFT teklifçilerini ve madencileri birleştirerek mimariyi basitleştirir. Bu yalın yaklaşım yapısal değişiklikleri en aza indirir ve yüksek güvenlik standartlarını korurken prototip oluşturmayı ve dağıtımı kolaylaştıran bir “kukla” BFT katmanının kullanılmasına olanak tanır.
 
-Uygulama planı, Crosslink 2*'nin Zcash'ün Zebra istemcisine entegre edilmesi için tahmini mühendislik maliyetlerini içeren bir yol haritası içerir. Bu aşamalı dağıtım, paydaş teşviklerini dengelemeye, aksaklığı azaltmaya ve ölçeklenebilirlik, kullanılabilirlik ve merkeziyetsizlik için Zcash hedefleriyle uyum sağlamaya odaklanır. Protokolün güçlü güvenlik özelliklerine duyulan artan güven, Zcash evriminde önemli bir adım olma potansiyelini daha da pekiştirir. Enerji verimliliğini ele alarak ve konsensüs mekanizmalarını geliştirerek Crosslink, gelişen blok zinciri zorluklarına yönelik ileriye dönük bir çözüm sunar. Daha fazla ayrıntı için [GitHub deposuna](https://github.com/ShieldedLabs/zebra-crosslink) ve [Zcash Topluluk Forumuna](https://forum.zcashcommunity.com) başvurun.
+Uygulama planı, Crosslink 2*'yi Zcash'ın Zebra istemcisine entegre etmek için tahmini mühendislik maliyetlerini içeren bir yol haritası barındırır. Bu aşamalı dağıtım; paydaş teşviklerini dengelemeye, kesintileri azaltmaya ve Zcash'ın ölçeklendirme, kullanılabilirlik ve merkeziyetsizlik hedefleriyle uyum sağlamaya odaklanır. Protokolün sağlam güvenlik özelliklerine duyulan güvenin artması, Zcash evriminde önemli bir adım olma potansiyelini daha da pekiştirir. Enerji verimliliği sorunlarını ele alarak ve konsensüs mekanizmalarını iyileştirerek Crosslink, gelişen blokzincir zorluklarına yönelik ileri görüşlü bir çözüm sunar. Daha fazla bilgi için [GitHub deposuna](https://github.com/ShieldedLabs/zebra-crosslink) ve [Zcash Topluluk Forumu'na](https://forum.zcashcommunity.com) bakın.
 
-### Crosslink'ün Amaçları ve Hedefleri
+### Crosslink Amaç ve Hedefleri
 
-Crosslink Protokolü, Zcash'ün geleceği açısından kritik olan birkaç stratejik hedefi ele almak üzere tasarlanmıştır:
+Crosslink Protokolü, Zcash'ın geleceği açısından kritik önem taşıyan çeşitli stratejik hedefleri ele almak üzere tasarlanmıştır:
 
 1. **Merkeziyetsizlik**:
-   * PoS'u dahil ederek Zcash, madencilik gücünü sıklıkla birkaç büyük işletmecinin elinde yoğunlaştıran özel PoW donanımına (ASIC'ler) bağımlılığı azaltır.
-   * PoS, coin sahiplerinin ağı güvence altına almak için varlıklarını stake ettiği daha geniş bir topluluğun katılımına olanak tanır ve daha dağıtık bir konsensüs sağlar.
-   * Protokol, stake edilmiş doğrulamayı sunarak ekonomik katılımcıların konsensüste aktif rol oynamasını sağlar ve yalnızca madenciliğe bağımlılığı azaltır.
-2. **Geliştirilmiş Yönetişim**:
-   * Coin sahipleri stake etme yoluyla oy hakkı kazanır; böylece ağ yükseltmeleri, fon tahsisleri ve ekosistem öncelikleri hakkındaki kararları etkileyebilirler. Bu demokratik mekanizma, protokolün evrimini topluluğun çıkarlarıyla uyumlu hâle getirir.
+   * PoS'yi dahil ederek Zcash, madencilik gücünü çoğunlukla birkaç büyük operatörün elinde yoğunlaştıran özel PoW donanımlarına (ASIC'ler) olan bağımlılığı azaltır.
+   * PoS, coin sahiplerinin ağı güvenceye almak için varlıklarını stake ettiği daha geniş bir topluluğun katılımını sağlar ve daha dağıtık bir konsensüsü güvence altına alır.
+   * Stake edilmiş doğrulamayı devreye sokarak protokol, ekonomik katılımcıların konsensüste etkin rol oynamasını sağlar ve yalnızca madenciliğe olan bağımlılığı azaltır.
+2. **Gelişmiş Yönetişim**:
+   * Coin sahipleri staking yoluyla oy kullanma hakkı kazanır; bu da ağ yükseltmeleri, fon tahsisleri ve ekosistem öncelikleriyle ilgili kararları etkilemelerine olanak tanır. Bu demokratik mekanizma, protokolün evrimini topluluk çıkarlarıyla uyumlu hale getirir.
 3. **Enerji Verimliliği**:
-   * Kısmen PoS'a geçmek, enerji gereksinimlerini önemli ölçüde azaltarak Zcash'ü küresel sürdürülebilirlik girişimleriyle uyumlu hâle getirir. PoS, hesaplama açısından yoğun PoW'a kıyasla doğası gereği daha az kaynak tüketir. Hibrit sistemler, yüksek güvenliği korurken yalnızca PoW kullanan sistemlere kıyasla enerji kullanımını azaltmayı amaçlar.
+   * Kısmen PoS'ye geçiş, enerji gereksinimlerini önemli ölçüde düşürür ve Zcash'ı küresel sürdürülebilirlik girişimleriyle uyumlu hale getirir. PoS, yoğun hesaplama gerektiren PoW'ye kıyasla doğası gereği daha az kaynak tüketir. Hibrit sistemler, yüksek güvenliği korurken yalnızca PoW kullanan sistemlere kıyasla enerji tüketimini azaltmayı amaçlar.
 4. **Ekonomik Güvenlik ve Sürdürülebilirlik**:
-   * PoW ve PoS'u birleştirmek, ağ katılımcılarının ekonomik teşviklerini çeşitlendirir ve tek bir mekanizmaya aşırı bağımlı olmadan güçlü güvenlik sağlar.
-   * Stake etme ayrıca katılımcılar için öngörülebilir bir ödül modeli sunarak uzun vadeli yatırımcılar için cazip bir öneri oluşturur.
-5. **Artan Güvenlik**: Crosslink, PoW'ın yanında PoS'u entegre ederek ağın zincir yeniden düzenleme saldırılarına karşı dayanıklılığını artırmayı amaçlar.
+   * PoW ile PoS'nin birleştirilmesi, ağ katılımcılarına yönelik ekonomik teşvikleri çeşitlendirerek tek bir mekanizmaya aşırı bağımlı olmadan sağlam güvenlik sağlar.
+   * Staking ayrıca katılımcılar için öngörülebilir bir ödül modeli sunarak uzun vadeli yatırımcılar için cazip bir seçenek oluşturur.
+5. **Artırılmış Güvenlik**: Crosslink, PoS'yi PoW'nin yanında entegre ederek ağın Zincir yeniden düzenleme saldırılarına karşı direncini artırmayı amaçlar.
 
-## Görsel / Analoji
+## Görsel / Benzetme
 
 ![image](/content-images/b34afda4-fe33-448f-b0dd-279fd6cef1f5-73f58cdcc6.webp)
 
-Aynı teslimat için iki farklı belge düzenleyen bir kargo hizmeti düşünün. İlki bir takip taramasıdır: hızla görünür, paketin büyük olasılıkla nerede olduğunu söyler ve bazen düzeltilir. İkincisi imzalı teslimat makbuzudur: daha sonra gelir, ancak var olduğunda kimse ona itiraz etmez.
+Aynı teslimat için iki farklı belge düzenleyen bir kargo hizmeti düşünün. İlki bir takip taramasıdır: Hızlıca görünür, paketin muhtemelen nerede olduğunu bildirir ve bazen düzeltilir. İkincisi imzalı bir teslimat makbuzudur: Daha geç gelir ama bir kez oluşturulduğunda kimse ona itiraz etmez.
 
-Daha düşük gecikmeli defter takip taramasıdır, kesinleşmiş defter ise imzalı makbuzdur. Her ikisi de aynı olay zincirini tanımlar; ortaya çıkma hızları ve ne kadar kesin oldukları bakımından farklıdırlar.
+Daha düşük gecikmeli defter takip taramasına, kesinleştirilmiş defter ise imzalı makbuza karşılık gelir. İkisi de aynı olaylar Zincir'ini anlatır; aralarındaki fark, ne kadar hızlı ortaya çıktıkları ve ne kadar kesin olduklarıdır.
 
-Güvenlik Modu, taramalar birikmeye devam ederken imzalı makbuzların gelmemesi durumunda deponun yaptığı şeydir. Paketler bina içinde hareket etmeyi sürdürür — ancak imzalar yetişene kadar ofis yalnızca taramalara dayanarak ödeme yapmayı durdurur.
+Güvenlik Modu, taramalar birikmeye devam ederken imzalı makbuzların gelmemesi durumunda deponun uyguladığı önlemdir. Paketler binanın içinde hareket etmeye devam eder — ancak imzalar yetişene kadar ofis yalnızca taramalara dayanarak ödeme yapmayı durdurur.
 
 ## Derinlemesine İnceleme
 
-### Crosslink'ün Güvenlik ve Performans Hedefleri
+### Crosslink Güvenlik ve Performans Hedefleri
 
-Crosslink protokolü, Zcash için iki tür defter sağlamayı amaçlar: bir **kesinleşmiş defter (LOG_fin)** ve bir **daha düşük gecikmeli defter (LOG_ba)**. Kesinleşmiş defter, Bizans Hata Toleransı (BFT) veya blok zinciri (BC) protokolü hakkında makul varsayımlar altında geri alma güvenliğini sağlar. Ağ bölünmeleri altında bile canlı ve güvenli kalacak şekilde tasarlanmıştır; eşdeğer blok onayları için mevcut Zcash blok zincirinin gecikmesinin iki katından biraz fazla bir gecikmeye sahiptir.
+Crosslink protokolü, Zcash için iki tür defter sunmayı amaçlar: **kesinleştirilmiş defter (LOG_fin)** ve **daha düşük gecikmeli defter (LOG_ba)**. Kesinleştirilmiş defter, Bizans Hata Toleransı (BFT) veya blokzincir (BC) protokollerinden biriyle ilgili makul varsayımlar altında geri alma güvenliği sağlar. Ağ bölünmeleri sırasında bile çalışır ve güvenli kalacak şekilde tasarlanmıştır; eşdeğer blok onayları için gecikmesi mevcut Zcash blokzincirinin gecikmesinin iki katından biraz fazladır.
 
-Daha düşük gecikmeli defter, kesinleşmiş defteri en fazla *L* blok genişletir. Yalnızca blok zinciri protokolü kapsamında geri alma güvenliği sağlar ve mevcut Zcash modelinden daha kötü olmayan gecikme ve güvenliği korur. Yalınlaştırılmış Crosslink 2* tasarımında, daha düşük gecikmeli defter bir PoW zinciri olarak işleyerek geliştirmeyi ve benimsemeyi basitleştirir.
+Daha düşük gecikmeli defter, kesinleştirilmiş defteri en fazla *L* blokla genişletir. Yalnızca blokzincir protokolü altında geri alma güvenliği sağlar ve mevcut Zcash modelinden daha kötü olmayan gecikme ve güvenlik özelliklerini korur. Basitleştirilmiş Crosslink 2* tasarımında, daha düşük gecikmeli defter bir PoW Zinciri işlevi görerek geliştirme ve benimsemeyi kolaylaştırır.
 
 ![image](/content-images/fd039664-4852-4fb0-8c88-0615f1ed116e-41459b81dc.webp)
 
 ### Sınırlı Kullanılabilirlik ve Güvenlik Modu
 
-Crosslink, daha düşük gecikmeli defterin kesinleşmiş defterin çok önünde çalışmasıyla ilişkili riskleri ele almak için bir **Güvenlik Modu** içerir. Bu, hizmet sağlayıcıların geçici çözümlerindeki dengesiz hesap durumları veya doğrulanmamış güvenlik açıkları gibi tutarsızlıkları önler. Kesinleşmiş defter sabit *L* bloktan fazla geride kalırsa Güvenlik Modu etkinleştirilir. Bu durumda blok zinciri PoW işlemlerini sürdürür (temel güvenliği sağlayarak), ancak sorun çözülene kadar ekonomik faaliyetler duraklatılır. Bu mekanizma, yönetişim temelli geri alma politikalarını desteklerken büyük saldırılar gibi istisnai koşullardan kurtulmak üzere tasarlanmıştır.
+Crosslink, daha düşük gecikmeli defterin kesinleştirilmiş defterin çok önüne geçmesiyle ilişkili riskleri ele almak için **Güvenlik Modu** içerir. Bu, dengesiz hesap durumları veya hizmet sağlayıcıların geçici çözümlerindeki doğrulanmamış güvenlik açıkları gibi tutarsızlıkları önler. Kesinleştirilmiş defter sabit *L* bloktan fazla geride kalırsa Güvenlik Modu etkinleşir. Bu durumda blokzincir PoW işlemlerine devam eder (temel güvenliği sağlar), ancak sorun çözülene kadar ekonomik faaliyetler duraklatılır. Bu mekanizma, yönetişim temelli geri alma politikalarını desteklerken büyük saldırılar gibi olağanüstü durumlardan kurtulmak üzere tasarlanmıştır.
 
 ### Teknik Ayrıntılar ve Dağıtım
 
-Crosslink Protokolü, ZODL gibi kilit ekosistem ortaklarıyla iş birliği içinde Shielded Labs tarafından aktif olarak geliştirilmektedir ve dağıtılmaktadır. Protokolün uygulanması şunları içerir:
+Crosslink Protokolü, Shielded Labs tarafından ZODL gibi temel ekosistem ortaklarıyla işbirliği içinde etkin biçimde geliştiriliyor ve dağıtılıyor. Protokolün uygulaması şunları içerir:
 
-* PoS katılımcıları için güvenli stake mekanizmaları oluşturmak.
+* PoS katılımcıları için güvenli staking mekanizmaları oluşturmak.
 * Madenciler ve stake edenler arasındaki teşvikleri dengelemek için ödül yapısını değiştirmek.
-* Geçiş sırasında geriye dönük uyumluluğu ve sorunsuz bir kullanıcı deneyimini sağlamak.
-* Noter Sistemi: Protokol, blokları onaylayan noterleri içerir. Başlangıçta sabit noterler kullanılır; ardından noterlerin stake edilmiş ZEC temelinde seçildiği dinamik bir sisteme geçilir.
-* Etkinleştirme Mantığı: Crosslink'ün sunulması, stake dağıtım sürecinin tanımlanması ve hibrit konsensüsü desteklemek için ağ protokol kurallarının güncellenmesi dâhil olmak üzere Zcash konsensüs kurallarında değişiklikler gerektirir.
-* Aşamalı Dağıtım: Protokol, ağ istikrarını ve topluluğun uyumunu sağlamak için aşamalar hâlinde kullanıma sunulacaktır. İlk aşamalar teknik uygulamaya odaklanır, bunu noterlerin seçimi için yönetişim entegrasyonu izler.
+* Geçiş sırasında geriye dönük uyumluluğu ve sorunsuz bir kullanıcı deneyimini güvence altına almak.
+* Noter Sistemi: Protokol, blokları onaylayıp imzalayan noterleri içerir. Başlangıçta statik noterler kullanılır; daha sonra noterlerin stake edilmiş ZEC temelinde seçildiği dinamik bir sisteme geçilir.
+* Etkinleştirme Mantığı: Crosslink'ın devreye alınması, stake dağıtım sürecinin tanımlanması ve hibrit konsensüsü desteklemek için ağ protokolü kurallarının güncellenmesi dahil olmak üzere Zcash konsensüs kurallarında değişiklikler gerektirir.
+* Aşamalı Dağıtım: Ağın istikrarını ve topluluğun uyumunu güvence altına almak için protokol aşamalar halinde kullanıma sunulacaktır. İlk aşamalar teknik uygulamaya odaklanacak, ardından noterlerin seçimi için yönetişim entegrasyonu yapılacaktır.
 
-Önceki prototip ve belgeleri, [zebra-crosslink deposunda, GitHub](https://github.com/ShieldedLabs/zebra-crosslink) üzerinde (12 Kasım 2026'da kullanımdan kaldırıldı) ve [The zebra-crosslink Book'ta](https://shieldedlabs.github.io/zebra-crosslink/) bulunmaktadır. Güncel çalışmalar bir sonraki bölümde açıklanmaktadır.
+Önceki prototip ve belgeleri, 12 Kasım 2026'da kullanımdan kaldırılan [zebra-crosslink deposunda, GitHub](https://github.com/ShieldedLabs/zebra-crosslink) üzerinde ve [The zebra-crosslink Book](https://shieldedlabs.github.io/zebra-crosslink/) içinde bulunur. Mevcut çalışmalar bir sonraki bölümde açıklanmıştır.
 
-### Crosslink'ün mevcut durumu
+### Crosslink ne durumda?
 
-Crosslink hâlâ bir öneridir. Shielded Labs'ün [Crosslink SSS'si](https://shieldedlabs.net/crosslink-faq/), ana ağda etkinleşebilmesi için "standart Zcash yönetişim sürecinden geçmesi gerekeceğini" belirtir.
+Crosslink hâlâ bir öneridir. Shielded Labs' [Crosslink SSS](https://shieldedlabs.net/crosslink-faq/), ana ağda etkinleştirilmeden önce “standart Zcash yönetişim sürecinden geçmesi gerekeceğini” söylüyor.
 
-Bugün var olan şey **Feature Net**'dür: Shielded Labs tarafından işletilen, herkesin madencilik yapabileceği, stake edebileceği ve bir kesinleştirici çalıştırabileceği, kendi cTAZ test coin'ine sahip bir test ağı. 1 Ekim 2026'da yayınlanan [Sürüm 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), düz iş ispatı olarak başladı ve Crosslink'ü aşamalar hâlinde etkinleştirdi: 20.736. bloktan itibaren stake, 34.560. blokta alınan ilk kesinleştirici listesi ve 36.288. bloktan itibaren BFT kesinliği ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)). Daha sonraki sürümler aynı ağı yükseltiyor: PoW yüksekliği 55.296'da [15. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15), 165.000 yüksekliğinde (5 Kasım 2026) [17. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) ve 189.000. blokta (17 Kasım 2026) [18. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18). [16. sürüm](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) ile başlayarak her sürüm yayınlandıktan iki hafta sonra çalışmayı durdurur; bu nedenle her zaman [en son sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) kullanın.
+Bugün mevcut olan, **Feature Net**: Shielded Labs tarafından işletilen, cTAZ adlı kendi test coin'ine sahip bir test ağıdır. Herkes burada madencilik yapabilir, staking yapabilir ve bir finalizer çalıştırabilir. 1 Ekim 2026'da yayımlanan [Sürüm 14](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v14), basit iş kanıtı olarak başladı ve Crosslink aşamalar halinde etkinleştirildi: staking 20.736. blokta, ilk finalizer listesi 34.560. blokta ve BFT kesinliği 36.288. blokta başladı ([kaynak](https://github.com/ShieldedLabs/crosslink_monolith/blob/v14/librustzcash/zcash_primitives/src/bft.rs#L546-L555)). Sonraki sürümler aynı ağı yükseltir: PoW yüksekliği 55.296'da [sürüm 15](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v15), 165.000 yüksekliğinde [sürüm 17](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v17) (5 Kasım 2026) ve 189.000. blokta [sürüm 18](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v18) (17 Kasım 2026). [sürüm 16](https://github.com/ShieldedLabs/crosslink_monolith/releases/tag/v16) ile başlayarak her sürüm yayımlandıktan iki hafta sonra çalışmayı durdurur; bu nedenle her zaman [en son sürümü](https://github.com/ShieldedLabs/crosslink_monolith/releases/latest) çalıştırın.
 
-Bu sayfadaki iki şey yazıldığından beri değişti:
+Bu sayfadaki iki bilgi, yazıldığı zamandan bu yana değişti:
 
-* **Burada noter olarak adlandırılan rol, Shielded Labs yazılımında ve sürüm notlarında kesinleştirici olarak adlandırılır.** Stake edenler coin'lerini bir kesinleştiriciye devreder ve en fazla stake'e sahip kesinleştiriciler blokları kesinleştirmek için oy kullanır.
-* **Kod taşındı.** Yukarıdaki zebra-crosslink deposu 12 Kasım 2026'da kullanımdan kaldırıldı ve README dosyası artık [Shielded Labs' Crosslink sayfasına](https://shieldedlabs.net/crosslink) yönlendiriyor. Feature Net sürümleri [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases) üzerinden gelir ve tasarım [Crosslink kitapta](https://shieldedlabs.github.io/crosslink_book/) açıklanmıştır.
+* **Burada noter olarak adlandırılan rol, Shielded Labs yazılımında ve sürüm notlarında finalizer olarak adlandırılır.** Stake edenler coin'lerini bir finalizer'a devreder ve en fazla stake'e sahip finalizer'lar blokları kesinleştirmek için oy kullanır.
+* **Kodun yeri değişti.** Yukarıda belirtilen zebra-crosslink deposu 12 Kasım 2026'da kullanımdan kaldırıldı ve README dosyası artık [Shielded Labs' Crosslink sayfasına](https://shieldedlabs.net/crosslink) yönlendiriyor. Feature Net sürümleri [crosslink_monolith](https://github.com/ShieldedLabs/crosslink_monolith/releases) deposundan yayımlanıyor ve tasarım [Crosslink kitabında](https://shieldedlabs.github.io/crosslink_book/) açıklanıyor.
 
-Kendiniz denemek için [Crosslink Feature Net](/guides/crosslink-feature-net) rehberini izleyin. Ağı hiçbir şey çalıştırmadan izlemek için Crosslink sekmesini [ZecHub Tools'ta](https://zechub.wiki/tools?tool=crosslink) açın.
+Kendiniz denemek için [Crosslink Feature Net](/guides/crosslink-feature-net) kılavuzunu izleyin. Hiçbir şey çalıştırmadan ağı izlemek için Crosslink sekmesini [ZecHub Araçlar](https://zechub.wiki/tools?tool=crosslink) üzerinde açın.
 
-## Pratik Sonuçlar
+## Uygulamadaki Etkileri
 
-### PoW Madencilerinin Gelirleri Üzerindeki Etki
+### PoW Madencilerinin Gelirine Etkisi
 
-Crosslink, Zcash'ün erken gelişiminde PoW madencilerinin temel rolünü kabul ederken kademeli bir geçişe hazırlanır:
+Crosslink, PoW madencilerinin Zcash'ın ilk dönemindeki temel rolünü kabul ederken kademeli bir geçişe hazırlanır:
 
-* **Azalan Blok Ödülleri**:
-  * Zamanla PoS doğrulayıcıları ödüllerden giderek daha büyük bir pay alacak, PoW madencilerinin gelirleri azalacaktır. Bu yeniden dağıtım, hibrit modelde PoW'ın azalan rolünü yansıtır.
+* **Blok Ödüllerinin Azalması**:
+  * Zamanla PoS doğrulayıcıları ödüllerin giderek artan bir payını alacak ve PoW madencilerinin kazançları azalacaktır. Bu yeniden dağıtım, hibrit modelde PoW'nin azalan rolünü yansıtır.
 * **Adil Geçiş**:
-  * Protokol değişiklikleri kademeli olarak sunarak madencilerin uyum sağlaması veya Zcash ekosistemi içinde stake etmeye geçiş ya da diğer ağ hizmetlerine katkıda bulunma gibi yeni rolleri keşfetmesi için yeterli zaman sağlar.
-* **Merkezileşme Risklerini Hafifletme**:
-  * PoS stake havuzları, gücün yoğunlaşmasını önlemek üzere tasarlanmıştır ve daha küçük katılımcılara eşit koşullarda katılma fırsatı sunar. Bu kapsayıcı yaklaşım, ASIC tabanlı madencilikte görülen mevcut yoğunlaşmaya karşı koyar.
-* Blok ödülünün bir kısmı PoS doğrulayıcılarına yeniden tahsis edileceğinden PoW madencilerinin gelirleri azalacaktır. Bu yeniden tahsis, hem madencileri hem de stake edenleri ağı güvence altına aldıkları için ödüllendiren dengeli bir teşvik sistemi sağlar.
-* Paydaş katılımını teşvik ederken madenciler üzerindeki ekonomik etkiyi hafifletmek için kademeli bir geçiş planlanmıştır.
+  * Protokol, değişiklikleri kademeli olarak uygulayarak madencilere uyum sağlamaları veya staking'e geçmek ya da diğer ağ hizmetlerine katkıda bulunmak gibi Zcash ekosistemi içindeki yeni rolleri keşfetmeleri için yeterli zaman tanır.
+* **Merkezileşme Risklerini Azaltma**:
+  * PoS staking havuzları, gücün yoğunlaşmasını önleyecek ve küçük katılımcılara eşit koşullarda katılma fırsatı sunacak şekilde tasarlanmıştır. Bu kapsayıcı yaklaşım, ASIC tabanlı madencilikte görülen mevcut yoğunlaşmayı önler.
+* PoW madencileri, blok ödülünün bir kısmı PoS doğrulayıcılarına yeniden tahsis edildiğinden gelirlerinin azalmasıyla karşılaşacaktır. Bu yeniden tahsis, ağı güvenceye almaları karşılığında hem madencileri hem de stake edenleri ödüllendirerek dengeli bir teşvik sistemi sağlar.
+* Madenciler üzerindeki ekonomik etkiyi azaltırken paydaş katılımını teşvik etmek için kademeli bir geçiş planlanmıştır.
 
-Bu çift konsensüs mekanizması, Zcash'ün gizlilik, sürdürülebilirlik ve merkeziyetsizliğe olan bağlılığını güçlendirerek onu blok zinciri alanında ileriye dönük bir lider konumuna getirir.
+Bu ikili konsensüs mekanizması, Zcash'ın gizlilik, sürdürülebilirlik ve merkeziyetsizlik taahhüdünü güçlendirerek onu blokzincir alanında ileri görüşlü bir lider olarak konumlandırır.
 
-## Yaygın Hatalar
+## Sık Yapılan Hatalar
 
-**Crosslink'ü etkin bir konsensüs kuralı olarak okumak**. Bu sayfa, aşamalı bir dağıtım planı içeren önerilen bir tasarımı açıklar. Bunun sunulması, yol haritası ve Zebra entegrasyon çalışmasının amacı olan Zcash konsensüs kurallarında değişiklikler gerektirir.
+**Crosslink'ı etkin bir konsensüs kuralı olarak değerlendirmek**. Bu sayfa, aşamalı bir dağıtım planı içeren önerilen bir tasarımı açıklar. Tasarımın devreye alınması, yol haritasının ve Zebra entegrasyon çalışmalarının amacı olan Zcash konsensüs kurallarında değişiklikler gerektirir.
 
-**PoS'un madenciliğin yerini aldığını varsaymak**. Crosslink hibrit bir tasarımdır: PoW blok üretimi stake edilmiş doğrulamayla birlikte devam eder. Güvenlik Modunda bile blok zinciri PoW işlemlerini sürdürürken ekonomik faaliyetler duraklatılır.
+**PoS'nin madenciliğin yerini aldığını varsaymak**. Crosslink hibrit bir tasarımdır: PoW blok üretimi, stake edilmiş doğrulamayla birlikte devam eder. Güvenlik Modu'nda bile blokzincir PoW işlemlerini sürdürürken ekonomik faaliyetler duraklatılır.
 
-**"Kesinlik"i daha hızlı onayla karıştırmak**. Kesinleşmiş defter, eşdeğer blok onayları için mevcut Zcash blok zincirinin gecikmesinin iki katından biraz fazla bir gecikmeye sahip olacak şekilde tasarlanmıştır. Eklediği şey hız değil, geri alma güvenliğidir — hızlı görünüm daha düşük gecikmeli defterdir.
+**“Kesinliği” daha hızlı onay olarak değerlendirmek**. Kesinleştirilmiş defter, eşdeğer blok onayları için mevcut Zcash blokzincirinin gecikmesinin iki katından biraz fazla gecikmeye sahip olacak şekilde tasarlanmıştır. Sağladığı şey hız değil, geri alma güvenliğidir — hızlı görünüm, daha düşük gecikmeli defterdir.
 
-**İki defteri karıştırmak**. LOG_ba ayrı bir zincir değildir: kesinleşmiş defteri en fazla *L* blok genişletir ve Crosslink 2* tasarımında bir PoW zinciri olarak işlev görür.
+**İki defteri birbirine karıştırmak**. LOG_ba ayrı bir Zincir değildir: Kesinleştirilmiş defteri en fazla *L* blokla genişletir ve Crosslink 2* tasarımında PoW Zinciri işlevi görür.
 
 ## İlgili Sayfalar
 
-- [Crosslink Feature Net](/guides/crosslink-feature-net) — Feature Net masaüstü uygulamasını yükleyin, bir kesinleştiriciye stake edin ve konumunuzu kontrol edin.
-- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) — Crosslink 2* istemcisinin entegre edilmesinin planlandığı istemci.
+- [Crosslink Feature Net](/guides/crosslink-feature-net) — Feature Net masaüstü uygulamasını yükleyin, bir finalizer'a stake devredin ve durumunuzu kontrol edin.
+- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) — Crosslink 2*'nin entegre edilmesinin planlandığı istemci.
 - [Tam Düğümler](/zcash-tech/full-nodes) — hibrit konsensüs değişikliğinden önce düğümlerin bugün konsensüs kurallarını nasıl doğruladığı.
 - [Ağ Yükseltmeleri](/start-here/network-upgrades) — konsensüs kuralı değişikliklerinin Zcash ağına nasıl ulaştığı.
-- [Zcash Para Politikası](/start-here/zcash-monetary-policy) — Crosslink'ün yeniden dağıtacağı blok ödül yapısı.
+- [Zcash Para Politikası](/start-here/zcash-monetary-policy) — Crosslink'ın yeniden dağıtacağı blok ödülü yapısı.
 
 ## Ek Kaynaklar
 
-- Topluluk tartışması: [Crosslink: Teşvikli Feature Net, Zcash Topluluk Forumunda](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
-- Resmî güncellemeler: [Crosslink, Shielded Labs](https://shieldedlabs.net/crosslink/) adresinde ve [Feature Net sürümlerinde](https://github.com/ShieldedLabs/crosslink_monolith/releases)
+- Topluluk tartışması: [Crosslink: Teşvikli Feature Net, Zcash Topluluk Forumu'nda](https://forum.zcashcommunity.com/t/crosslink-incentivized-feature-net/55210)
+- Resmî güncellemeler: [Crosslink, Shielded Labs](https://shieldedlabs.net/crosslink/) üzerinde ve [Feature Net sürümlerinde](https://github.com/ShieldedLabs/crosslink_monolith/releases)
 - Tasarım referansı: [Crosslink kitabı](https://shieldedlabs.github.io/crosslink_book/)
 
   Referans:

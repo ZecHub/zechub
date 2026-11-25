@@ -1,150 +1,150 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Pepper_Sync.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 # Zingo 2.0 - Pepper Sync
 
-## Kısaca
+## Özet
 
-* Pepper Sync, Zingo Labs tarafından geliştirilen açık kaynaklı Zcash cüzdanı Zingo! 2.0 ile sunulan senkronizasyon motorudur.
-* Zinciri büyük sıralı parçalar halinde taramak yerine doğrusal olmayan senkronizasyon kullanır; böylece bakiyeniz ve işlemleriniz çok daha erken görünür.
-* İlerleme sürekli kaydedilir. Bağlantı koparsa veya uygulama kapanırsa, senkronizasyon baştan başlamak yerine durduğu yerden devam eder.
-* Senkronizasyon tamamlanmadan önce harcama yapabilirsiniz.
-* Shielded işlemler tüm süreç boyunca gizli kalır.
+* Pepper Sync, Zingo! 2.0'da tanıtılan, Zingo Labs tarafından geliştirilen açık kaynaklı Zcash cüzdanının eşitleme motorudur.
+* Zinciri büyük, ardışık parçalar hâlinde taramak yerine doğrusal olmayan eşitleme kullanır; böylece bakiyeniz ve işlemleriniz çok daha kısa sürede görünür.
+* İlerleme sürekli kaydedilir. Bağlantı kesilirse veya uygulama kapanırsa eşitleme baştan başlamak yerine kaldığı yerden devam eder.
+* Eşitleme tamamlanmadan harcama yapabilirsiniz.
+* Korumalı işlemler tüm süreç boyunca gizli kalır.
 
 ## Temel Açıklama
 
-Zingo 2.0, Zcash topluluğu için geliştirilmiş hafif, açık kaynaklı Zingo! cüzdanının Pepper Sync'i tanıtan sürümüdür. Pepper Sync, cüzdanların blokzincire nasıl bağlandığını tamamen yeniden ele alan büyük bir yükseltmedir. Daha sonraki sürümlerde de Pepper Sync korunuyor: mevcut mobil sürüm olan [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (31 Ekim 2026), NU7 desteği ve yerleşik takaslar ekliyor.
+Zingo 2.0, Zcash topluluğu için geliştirilmiş, hafif ve açık kaynaklı Zingo! cüzdanının sürümüdür. Bu sürüm, cüzdanların blokzincire nasıl bağlandığını baştan ele alan önemli bir yükseltme olan Pepper Sync'i tanıttı. Sonraki sürümlerde de Pepper Sync kullanılmaya devam ediyor: mevcut mobil sürüm olan [Zingo 3.0](https://github.com/zingolabs/zingo-mobile/releases/tag/zingo-3.0.0-324) (31 Ekim 2026), NU7 desteği ve yerleşik takaslar ekliyor.
 
-Geçmişte senkronizasyon acı verecek kadar yavaş, hataya açık ve kaynak yoğun hissettirebiliyordu; hatta bazen kullanıcıları her şeye sıfırdan başlamaya zorluyordu. Pepper Sync bunu tamamen değiştiriyor. Senkronizasyonu daha hızlı, daha akıcı, daha güvenilir ve cihazınız için daha az yorucu hale getirirken shielded işlemlerin gizliliğini de tamamen koruyor.
+Geçmişte eşitleme son derece yavaş, hatalara açık ve kaynakları yoğun kullanan bir süreç olabiliyor, bazen de kullanıcıları baştan başlamaya zorluyordu. Pepper Sync tüm bunları değiştiriyor. Korumalı işlemlerin gizliliğini bütünüyle korurken eşitlemeyi daha hızlı, daha akıcı ve daha güvenilir hâle getiriyor ve cihazınızdan daha az kaynak kullanıyor.
 
-İster Zcash'i ilk kez deneyen yepyeni bir kullanıcı olun, ister birden fazla shielded cüzdan yöneten uzun süreli bir topluluk üyesi olun, Pepper Sync bu deneyimi çok daha pratik ve keyifli hale getiriyor.
+İster Zcash'i ilk kez deneyen yepyeni bir kullanıcı, ister birden fazla korumalı cüzdanı yöneten uzun süredir topluluğun üyesi olun, Pepper Sync deneyimi çok daha kullanışlı ve keyifli hâle getiriyor.
 
 ### Pepper Sync'in temel özellikleri
 
-Pepper Sync çeşitli iyileştirmeler sunar:
+Pepper Sync çeşitli iyileştirmeler sunuyor:
 
-- Çok Daha Hızlı Senkronizasyon - Cüzdanınız saatler içinde değil, dakikalar içinde hazır olur.
-- Akıllı Güncellemeler - Veriler daha küçük parçalar halinde işlenir, tam yeniden taramalardan kaçınılır.
-- Kesintilere Dayanıklı - Bağlantınız koparsa senkronizasyon kaldığı yerden devam eder.
-- Hafif ve Verimli - Telefonlar, dizüstüler ve daha düşük güçlü diğer cihazlar için optimize edilmiştir.
-- Daha Net Geri Bildirim - Gerçek zamanlı ilerleme güncellemeleri kafa karışıklığını azaltır.
-- Gizliliği Koruyan - Shielded işlemler süreç boyunca gizli kalır.
+- Çok Daha Hızlı Eşitleme - Cüzdanınız saatler değil, dakikalar içinde hazır olur.
+- Akıllı Güncellemeler - Veriler daha küçük parçalar hâlinde işlenerek tam tarama ihtiyacı önlenir.
+- Kesintilere Dayanıklı - Bağlantınız kesilirse eşitleme kaldığı yerden devam eder.
+- Hafif ve Verimli - Telefonlar, dizüstü bilgisayarlar ve gücü daha düşük diğer cihazlar için optimize edilmiştir.
+- Daha Anlaşılır Geri Bildirim - Gerçek zamanlı ilerleme güncellemeleri kafa karışıklığını azaltır.
+- Gizliliği Korur - Korumalı işlemler süreç boyunca gizli kalır.
 
-### Öncesine göre daha iyi olan ne
+### Öncekine göre neler daha iyi?
 
-Zingo'nun eski sürümleri uzun senkronizasyon süreleri, belirsiz hata yönetimi ve yüksek kaynak kullanımı nedeniyle kullanıcıları sık sık hayal kırıklığına uğratıyordu. Pepper Sync bu yaygın sorunları çözüyor:
+Zingo! uygulamasının eski sürümleri, uzun eşitleme süreleri, belirsiz hata yönetimi ve yoğun kaynak kullanımı nedeniyle kullanıcıları sık sık hayal kırıklığına uğratıyordu. Pepper Sync bu yaygın sorunları gideriyor:
 
-| Özellik            | Önceki Zingo Sürümleri                | Pepper Sync ile Zingo 2.0                  |
-| ------------------ | ------------------------------------- | ------------------------------------------ |
-| Senkronizasyon Hızı| Daha yavaş, özellikle ilk kurulumda   | İlk ve sürekli senkronizasyon çok daha hızlı |
-| Hata Yönetimi      | Ara sıra takılmalar ve belirsiz hatalar | Otomatik toparlanma ile gelişmiş kararlılık |
-| Kullanıcı Deneyimi | Senkronizasyon yeni başlayanlara "kapalı kutu" gibi geliyordu | Daha net durum ve güncellemelerle şeffaf |
-| Cihaz Performansı  | Yüksek CPU/bellek kullanımı           | Sorunsuz kaynak kullanımı için optimize edilmiş |
+| Özellik            | Önceki Zingo Sürümleri                | Pepper Sync ile Zingo 2.0                   |
+| ------------------ | -------------------------------------- | -------------------------------------------- |
+| Eşitleme Hızı         | Daha yavaş, özellikle ilk kurulumda      | İlk ve sonraki eşitlemeler çok daha hızlı         |
+| Hata Yönetimi     | Ara sıra takılmalar ve belirsiz hatalar | Otomatik kurtarma ile geliştirilmiş kararlılık   |
+| Kullanıcı Deneyimi    | Eşitleme yeni kullanıcılar için “anlaşılmaz” geliyordu        | Daha anlaşılır durum ve güncellemelerle şeffaf |
+| Cihaz Performansı | Yüksek CPU/bellek kullanımı                  | Kaynakları akıcı biçimde kullanacak şekilde optimize edilmiş            |
 
-Kısacası: senkronizasyon artık daha hızlı, daha güvenilir ve daha anlaşılır.
+Kısacası, eşitleme artık daha hızlı, daha güvenilir ve daha kolay anlaşılır.
 
-## Görsel / Analoji
+## Görsel / Benzetme
 
-Eski bir cüzdan senkronizasyonunu, onun hakkında bir şey söylemenize izin verilmeden önce çok uzun bir kitabı ilk sayfadan başlayarak yüksek sesle okumaya benzetin. Yarıda durursanız, yine ilk sayfadan başlarsınız. Pepper Sync aynı kitabı okur, ama bir ayraç kullanır, önce sizin için önemli bölümleri okur ve son sayfayı bitirmeden önce hikâye hakkında konuşmanıza izin verir.
+Eski bir cüzdanın eşitlemesini, hakkında herhangi bir şey söylemenize izin verilmeden önce çok uzun bir kitabı baştan başlayarak yüksek sesle okumaya benzetebilirsiniz. Yarıda durursanız, birinci sayfadan yeniden başlarsınız. Pepper Sync aynı kitabı okur ama bir ayraç kullanır, sizin için önemli bölümleri önce okur ve son sayfayı bitirmeden hikâye hakkında konuşmanıza olanak tanır.
 
-Ayraç burada en önemli kısımdır. Önceki tüm sürümler kesintiye uğrayan bir senkronizasyonu boşa gitmiş emek olarak görüyordu; Pepper Sync ise bunu bir duraklama olarak görüyor.
+Önemli olan ayraçtır. Önceki tüm sürümler kesintiye uğrayan eşitlemeyi boşa harcanmış emek olarak görürken Pepper Sync bunu duraklatma olarak ele alır.
 
-### Görsel rehberler
+### Görsel kılavuzlar
 
-- Ayrıntılı Akış - Tüm süreci gösterir. ![Ayrıntılı Akış](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
+- Ayrıntılı Akış - Sürecin tamamını gösterir. ![Ayrıntılı akış](/content-images/119c13ec-76be-42bd-b558-762d09275a1b-8ba7a18302.webp)
 
-- Basitleştirilmiş Akış - Günlük kullanıcılar için hızlı görünüm. ![Basitleştirilmiş Akış](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
+- Basitleştirilmiş Akış - Günlük kullanıcılar için hızlı bir genel bakış. ![Basitleştirilmiş akış](/content-images/9b612cbd-f24d-4472-9b87-0f2c908bb368-eb34a722a2.webp)
 
 ## Derinlemesine İnceleme
 
-### Pepper Sync nasıl çalışır (basit görünüm)
+### Pepper Sync nasıl çalışır? (basit görünüm)
 
-Pepper Sync, blokzinciri devasa ve hantal parçalar halinde yeniden taramak yerine küçük, yönetilebilir adımlarla çalışır ve bunu yaparken yerinizi her zaman kaydeder.
+Blokzinciri büyük ve hantal parçalar hâlinde yeniden taramak yerine Pepper Sync, ilerledikçe konumunuzu kaydederek küçük ve yönetilebilir adımlarla çalışır.
 
-1. Bağlan - Cüzdan ağla bağlantı kurar.
-2. Blokları Al - Veriler kademeli olarak indirilir.
+1. Bağlan - Cüzdan ağa bağlanır.
+2. Blokları Getir - Veriler aşamalı olarak indirilir.
 3. Doğrula - İşlemler doğrulanır.
-4. Shielded Notları İşle - Gizlilik her zaman korunur.
-5. Bakiyeleri Güncelle - Cüzdan güvenli şekilde yenilenir.
-6. İlerlemeyi Kaydet - Sorunsuz şekilde durur ve devam eder.
-7. Bitir - Cüzdan işlem yapmaya hazırdır.
+4. Korumalı Note'ları İşle - Gizlilik her zaman korunur.
+5. Bakiyeleri Güncelle - Cüzdan güvenli biçimde yenilenir.
+6. İlerlemeyi Kaydet - Sorunsuz biçimde durur ve devam eder.
+7. Tamamla - Cüzdan işlem yapmaya hazırdır.
 
-## Pratik Sonuçlar
+## Kullanım Açısından Etkileri
 
-### Pepper Sync'ten kimler faydalanır?
+### Pepper Sync'ten kimler yararlanır?
 
-- Yeni Kullanıcılar - Gecikmeler nedeniyle cesaretleri kırılmadan cüzdanlarını hızlıca kurabilir.
-- Günlük Kullanıcılar - Güvenilir senkronizasyon, shielded ödemeleri günlük kullanım için pratik hale getirir.
-- Geliştiriciler ve Test Uzmanları - Daha kısa senkronizasyon süreleri daha hızlı test döngüleri anlamına gelir.
-- Mobil ve Hafif Cihazlar - Zingo artık kaynakları sınırlı donanımlarda bile verimli çalışır.
+- Yeni Kullanıcılar - Gecikmeler nedeniyle vazgeçmeden cüzdanlarını hızlıca kurabilir.
+- Günlük Kullanıcılar - Güvenilir eşitleme, korumalı ödemeleri günlük kullanım için pratik hâle getirir.
+- Geliştiriciler ve Test Uzmanları - Daha kısa eşitleme süreleri, test döngülerinin hızlanması demektir.
+- Mobil ve Hafif Cihazlar - Zingo artık kaynakları kısıtlı donanımlarda bile verimli çalışır.
 
-### Zcash için neden önemlidir
+### Zcash için neden önemlidir?
 
-Zcash, kripto para dünyasındaki en güçlü gizlilik araçlarından biri olan shielded işlemler etrafında inşa edilmiştir. Ancak gizlilik ancak erişilebilir olduğunda faydalıdır.
+Zcash, kripto para alanındaki en güçlü gizlilik araçlarından biri olan korumalı işlemler üzerine kuruludur. Ancak gizlilik, yalnızca erişilebilir olduğunda işe yarar.
 
-Pepper Sync buna şu yollarla yardımcı olur:
+Pepper Sync şu yollarla yardımcı olur:
 
-- Giriş engellerini azaltır - Yeni kullanıcılar hızlıca başlayabilir.
-- Günlük kullanılabilirliği destekler - Shielded adreslere güvenmek daha kolay hale gelir.
-- Ekosistem büyümesini teşvik eder - Daha iyi bir cüzdan deneyimi daha fazla benimsenme, uygulama ve hizmet getirir.
+- Giriş engellerini azaltır - Yeni kullanıcılar hızla başlayabilir.
+- Günlük kullanımı destekler - Korumalı adreslere güvenmek kolaylaşır.
+- Ekosistemin büyümesini teşvik eder - Daha iyi bir cüzdan deneyimi, benimsenmeyi, uygulamaları ve hizmetleri artırır.
 
-Pepper Sync, cüzdan deneyimini iyileştirerek tüm Zcash ekosistemini güçlendirir.
+Cüzdan deneyimini iyileştirerek Pepper Sync, Zcash ekosisteminin tamamını güçlendirir.
 
-### Başlarken: Zingo 2.0 ile ilk kurulum
+### Başlangıç: Zingo 2.0 ile ilk kurulum
 
-1. Cüzdanı İndirin - Doğru sürümü [zingolabs.org](https://zingolabs.org/) veya GitHub [mobil](https://github.com/zingolabs/zingo-mobile/releases) ve [masaüstü](https://github.com/zingolabs/zingo-pc/releases) sürüm sayfalarından edinin
-2. Cüzdanınızı Kurun - Yeni bir cüzdan oluşturun veya mevcut bir seed phrase'den geri yükleyin. [Zingo 2.0 ile Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
-3. Pepper Sync'in Çalışmasına İzin Verin - Cüzdanınız güncellenirken ilerleme göstergelerini izleyin. [Pepper Sync Çalışıyor](https://x.com/ZingoLabs/status/1961871338441724191)
-4. Zcash Kullanmaya Başlayın - Senkronizasyon tamamlanır tamamlanmaz korumalı ZEC gönderip alın.
-5. Kesintiler İçin Endişelenmeyin - Uygulama kapanırsa veya bağlantı koparsa Pepper Sync otomatik olarak devam eder.
+1. Cüzdanı İndirin - Doğru sürümü [zingolabs.org](https://zingolabs.org/) adresinden veya GitHub'in [mobil](https://github.com/zingolabs/zingo-mobile/releases) ve [masaüstü](https://github.com/zingolabs/zingo-pc/releases) sürüm sayfalarından indirin
+2. Cüzdanınızı Kurun - Yeni bir cüzdan oluşturun veya mevcut bir kurtarma ifadesini kullanarak cüzdanınızı geri yükleyin. [Zingo 2.0 ve Zingo Labs](https://www.youtube.com/watch?v=FREwMzf_LlM)
+3. Pepper Sync'in Çalışmasına İzin Verin - Cüzdanınız güncellenirken ilerleme göstergelerini izleyin. [Pepper Sync'i çalıştırın](https://x.com/ZingoLabs/status/1961871338441724191)
+4. Zcash'i Kullanmaya Başlayın - Eşitleme tamamlanır tamamlanmaz korumalı ZEC gönderip alın.
+5. Kesintiler Konusunda Endişelenmeyin - Uygulama kapanırsa veya bağlantı kesilirse Pepper Sync otomatik olarak devam eder.
 
-## Yaygın Hatalar
+## Sık Yapılan Hatalar
 
-**Pepper Sync'i başlı başına bir cüzdan sanmak**. Pepper Sync, ayrı bir uygulama değil, Zingo! cüzdanının içindeki senkronizasyon motorudur. Siz Zingo'yu kurarsınız; Pepper Sync onun altında çalışan bileşendir.
+**Pepper Sync'i başlı başına bir cüzdan sanmak**. Pepper Sync, Zingo! cüzdanının içindeki eşitleme motorudur; ayrı bir uygulama değildir. Zingo! cüzdanını yüklersiniz; arka planda çalışan Pepper Sync'tir.
 
-**Daha hızlı senkronizasyonun daha zayıf gizlilik anlamına geldiğini varsaymak**. Hız, daha fazla bilgi açığa çıkmasından değil, blok verisinin nasıl alındığı, sıralandığı ve önbelleğe alındığından kaynaklanır. Shielded işlemler süreç boyunca gizli kalır.
+**Daha hızlı eşitlemenin daha zayıf gizlilik anlamına geldiğini varsaymak**. Hız, blok verilerinin nasıl getirildiğinden, sıralandığından ve önbelleğe alındığından kaynaklanır; daha fazla bilgi açığa çıkarılmasından değil. Korumalı işlemler gizli kalır.
 
-**Harcama yapabilmek için tamamen senkronize olmanız gerektiğini varsaymak**. Senkronizasyon tamamlanmadan harcama yapabilmek, Pepper Sync'in öne çıkan özelliklerinden biridir; bu yüzden cüzdanın zincirin en ucuna ulaşmasını beklemeniz gerekmez.
+**Harcama yapmadan önce eşitlemenin tamamen tamamlanması gerektiğini varsaymak**. Eşitleme tamamlanmadan harcama yapmak, Pepper Sync'in öne çıkan özelliklerinden biridir. Bu nedenle cüzdanın Zincir ucuna ulaşmasını beklemeniz gerekmez.
 
-## SSS - Yaygın sorular
+## SSS - Sık sorulan sorular
 
 **S: Cüzdanı her açtığımda yeniden tarama yapmam gerekiyor mu?**
 
-C: Hayır. Pepper Sync ilerlemeyi kaydeder, bu yüzden yalnızca son noktadan itibaren güncelleme yaparsınız.
+C: Hayır. Pepper Sync ilerlemeyi kaydeder; böylece yalnızca son kaldığınız noktadan itibaren güncelleme yaparsınız.
 
 **S: İnternet bağlantım kesilirse ne olur?**
 
-C: Senkronizasyon duraklar ve daha sonra yeniden başlamadan devam eder.
+C: Eşitleme duraklar ve baştan başlamadan daha sonra devam eder.
 
-**S: Senkronizasyon sırasında gizliliğim güvende mi?**
+**S: Eşitleme sırasında gizliliğim güvende mi?**
 
-C: Evet. Shielded işlemler tamamen gizli kalır.
+C: Evet. Korumalı işlemler tamamen gizli kalır.
 
-**S: İlk senkronizasyon ne kadar sürer?**
+**S: İlk eşitleme ne kadar sürer?**
 
-C: Cihazınıza ve internetinize bağlı olarak genellikle saatler yerine dakikalar sürer.
+C: Cihazınıza ve internet bağlantınıza bağlı olarak genellikle saatler yerine dakikalar sürer.
 
-**S: Senkronizasyon bitmeden cüzdanı kullanabilir miyim?**
+**S: Eşitleme tamamlanmadan cüzdanı kullanabilir miyim?**
 
-C: Evet. Pepper Sync, senkronizasyon tamamlanmadan önce harcamayı destekler; bu nedenle cüzdanın zincirin en ucuna ulaşmasını beklemeniz gerekmez.
+C: Evet. Pepper Sync, eşitleme tamamlanmadan harcama yapmayı destekler; bu nedenle cüzdanın Zincir ucuna ulaşmasını beklemeniz gerekmez.
 
 ## Sonuç
 
-Zingo 2.0 Pepper Sync ile senkronizasyon artık shielded cüzdanların en büyük sıkıntı noktası değil. Artık hızlı, kararlı ve kullanıcı dostu; yeni gelenler için giriş engelini azaltıyor ve günlük kullanımı çok daha pratik hale getiriyor.
+Zingo 2.0 Pepper Sync ile eşitleme, korumalı cüzdanların artık en büyük sorunlarından biri değil. Artık hızlı, kararlı ve kullanıcı dostu; yeni kullanıcıların önündeki engelleri azaltıyor ve günlük kullanımı çok daha pratik hâle getiriyor.
 
-Kullanıcılar için bu, daha az bekleme ve daha fazla gizlilik demek. Geliştiriciler için üzerine inşa edilebilecek daha güçlü bir temel anlamına geliyor. Zcash ekosistemi içinse, shielded işlemleri herkes için erişilebilir kılma yolunda atılmış bir adım daha.
+Kullanıcılar için bu, daha az beklemek ve daha fazla gizlilik demek. Geliştiriciler için üzerine inşa edilebilecek daha sağlam bir temel demek. Zcash ekosistemi içinse korumalı işlemleri herkesin erişimine açma yolunda atılmış bir adım daha demek.
 
-Pepper Sync'li Zingo 2.0 sadece bir yükseltme değil; özel ve kullanılabilir kripto için ileriye doğru büyük bir sıçrama.
+Zingo 2.0 ve Pepper Sync yalnızca bir yükseltme değil; gizli ve kullanışlı kripto para alanında ileriye doğru büyük bir adımdır.
 
 ## İlgili Sayfalar
 
-- [Zcash Cüzdan Senkronizasyonu](/zcash-tech/zcash-wallet-syncing) — cüzdan senkronizasyonunun Zcash ekosisteminde nasıl çalıştığı.
-- [Lightwallet Düğümleri](/zcash-tech/lightwallet-nodes) — Zingo gibi bir hafif cüzdanın senkronize olduğu altyapı.
-- [Zaino](/zcash-tech/zaino) — Zingo ekibi tarafından geliştirilen indeksleyici.
-- [Cüzdanlar](/wallets) — Zcash cüzdanlarının ve özelliklerinin tam dizini.
+- [Zcash Cüzdan Eşitleme](/zcash-tech/zcash-wallet-syncing) — cüzdan eşitlemesinin Zcash ekosisteminde nasıl çalıştığını açıklar.
+- [Hafif Cüzdan Düğümleri](/zcash-tech/lightwallet-nodes) — Zingo gibi hafif bir cüzdanın eşitlendiği altyapı.
+- [Zaino](/zcash-tech/zaino) — Zingo ekibi tarafından geliştirilen dizinleyici.
+- [Cüzdanlar](/wallets) — Zcash cüzdanlarının ve özelliklerinin kapsamlı dizini.
 
-## Daha Fazla Öğrenme
+## Daha Fazla Bilgi
 
 - [Zingo! GitHub Deposu](https://github.com/zingolabs/zingolib)
 - [Zcash Topluluk Forumu](https://forum.zcashcommunity.com/)

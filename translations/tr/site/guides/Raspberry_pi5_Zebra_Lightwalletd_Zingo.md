@@ -1,8 +1,8 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# Zingo ile RPi5 Zebra lightwalletd
+# RPi5 Zebra lightwalletd ve Zingo ile
 
 ## Video Eğitimi
 
@@ -10,7 +10,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/FfH5jiX8pT0"
-    title="lightwalletd ile Zcash Zebra Node Kullanımı: EĞİTİM"
+    title="lightwalletd ile Zcash Zebra Düğümünü Kullanma: EĞİTİM"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -25,29 +25,29 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 sudo apt install libclang-dev clang pkg-config openssl protobuf-compiler npm
 ```
 
-## Zebra'yı Derleme
+## Zebra Derleme
 
 [Zebra GitHub](https://github.com/ZcashFoundation/zebra)
 
 * `time cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad`
 
-7.0.0 veya üzeri Zebra kullanın. NU7 Mainnet'te 3.543.405 numaralı blokta etkinleştirildi ve daha eski `zebrad` sürümleri bu yükseklikten sonra zinciri takip edemez ([sürüm notları](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Zebra 7, Rust 1.91 veya üzeri bir sürüm gerektirir (`rustup update`).
+Zebra 7.0.0 veya daha yenisini kullanın. NU7 Mainnet'te 3.543.405 numaralı blokta etkinleştirildi ve eski `zebrad` sürümleri Zincir'i bu yüksekliğin ötesinde takip edemez ([sürüm notları](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)). Zebra 7 için Rust 1.91 veya daha yenisi gerekir (`rustup update`).
 
-## zebrad.toml Yapılandırması
+## zebrad.toml dosyasını yapılandırma
 
-ekleyin:
+Şunu ekleyin:
 
 `listen_addr = '127.0.0.1:8232'`
 
 `cache_dir = "/media/zebra5/zebra/"`
 
-## Zebra'yı Senkronize Etme
+## Zebra eşitleme
 
 * `zebrad start`
 
 ## lightwalletd Derleme
 
-* go yükleyin
+* Go'yu yükleyin
 
 ```bash
 wget https://go.dev/dl/go1.27.3.linux-arm64.tar.gz
@@ -65,14 +65,14 @@ make install
 export PATH=$PATH:~/go/bin
 ```
 
-## lightwalletd Senkronizasyonu
+## lightwalletd eşitleme
 
 * data-dir değişikliğine dikkat edin
 
   `lightwalletd --zcash-conf-path ~/.config/zcash.conf --data-dir /media/zebra5/zebra/.cache/lightwalletd --log-file /dev/stdout --no-tls-very-insecure`
 
 
-## NodeJS Kurulumu
+## NodeJS yükleme
 
 ```bash
  curl -fsSL https://deb.nodesource.com/setup_23.x -o nodesource_setup.sh
@@ -80,13 +80,13 @@ export PATH=$PATH:~/go/bin
  sudo apt update
  sudo apt install nodejs
 ```
-Herhangi bir hata yaşarsanız, NodeJS kurmak için bazı alternatif yöntemlere [buradan](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) ulaşabilirsiniz.
+Herhangi bir hatayla karşılaşırsanız, [burada](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-22-04) NodeJS yüklemek için bazı alternatif yöntemler bulabilirsiniz.
 
-## Yarn Kurulumu
+## Yarn'ı yükleme
 
 `corepack enable`
 
-## Zingo Kurulumu
+## Zingo yükleme
 
 ```bash
 git clone https://github.com/zingolabs/zingo-pc.git
@@ -98,9 +98,9 @@ sudo apt-get install ruby-dev build-essential && sudo gem i fpm -f
 yarn dist:linux
 ```
 
-## Zingo-PC'yi Başlatma
+## Zingo-PC'yi başlatma
 
-* AppImage veya unpacked klasöründeki binary kullanılabilir
+* AppImage veya paketi açılmış klasördeki ikili dosya kullanılabilir
 * Keyfini çıkarın! :)
 
 # Kaynaklar

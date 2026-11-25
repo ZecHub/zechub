@@ -1,46 +1,46 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/ZFAV_Club/Guides_for_Creators/Serve_Github_Repo_with_IPFS.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# GitHub Repo'sunu IPFS ile Sunma
+# GitHub Deposu IPFS ile nasıl sunulur
 
 ## Giriş
 
-Bu rehberde, IPFS CID kullanılarak sunulan GitHub deponuz için nasıl git clone yapılabilir bir URL oluşturacağımızı öğreneceğiz. 
+Bu kılavuzda, IPFS CID'si kullanılarak sunulan GitHub deponuz için git ile klonlanabilir bir URL oluşturmayı öğreneceğiz.
 
-Bu, coğrafi bölgeden bağımsız olarak içeriğin erişilebilirliğini sağlamak, sansüre karşı dayanıklılık kazanmak ve değerli bilgilerin kalıcı bir yedeğini oluşturmak için faydalıdır!
+Bu, coğrafi bölgeden bağımsız olarak içeriğin erişilebilir olmasını, sansüre karşı dayanıklılığı ve değerli bilgilerin kalıcı bir yedeğini sağlamaya yardımcı olur!
 
-Not: IPFS'ye yüklenen veriler ağdaki tüm kullanıcılar tarafından erişilebilir durumdadır. Kişisel/hassas verileri yerel olarak şifrelemek isteyebilirsiniz.
+Not: IPFS üzerine yüklenen verilere tüm ağ kullanıcıları erişebilir. Kişisel/hassas verileri yerel olarak şifrelemek isteyebilirsiniz.
 
-## IPFS Kubo'yu Kurun
+## IPFS Kubo'yu yükleme
 
-Kurulum talimatlarını [buradan](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions) takip edin
+[burada](https://docs.ipfs.tech/install/command-line/#install-official-binary-distributions) verilen yükleme talimatlarını izleyin.
 
-Bu örnekte Linux kullanıyoruz, diğer işletim sistemi sürümleri de mevcuttur.
+Bu örnekte Linux kullanıyoruz; diğer işletim sistemi sürümleri de mevcuttur.
 
-Kurulumun başarılı olduğunu   ipfs –version kullanarak kontrol edin
+Yüklemenin başarılı olduğunu ipfs –version komutunu kullanarak kontrol edin.
 
-## Depoyu Klonlayın
+## Depoyu klonlama
 
 Başlamak için, barındırmak istediğiniz bir Git deposu seçin ve onu klonlayın:
 
-Komutu çalıştırın: “git clone https://github.com/zechub/zechub”
+Şu komutu çalıştırın: “git clone https://github.com/zechub/zechub”
 
-![/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
+![https://i.ibb.co/HxFX37b/Screenshot-from-2023-05-20-14-14-46.png](/content-images/Screenshot-from-2023-05-20-14-14-46-8503afccc3.webp)
 
-Şimdi, bunu IPFS üzerinden klonlanmaya hazır hale getirelim.
+Şimdi, IPFS üzerinden klonlanmaya hazır hale getirmek için:
 
 cd zechub git update-server-info
 
-Git nesnelerini açın:
+Git nesnelerini paketinden çıkarın:
 
 ![](/content-images/image-2024-04-20-175848513-2ceb90dd7b.webp)
 
-Bunu yapmak, Git deposunu daha sonra güncellerseniz IPFS'nin nesneleri tekilleştirmesine olanak tanır.
+Bunu yapmak, Git deposunu daha sonra güncellerseniz IPFS nesneleri tekilleştirmesini sağlar.
 
-## IPFS'ye Ekleyin
+## IPFS üzerine ekleme
 
-Bunu yaptıktan sonra, depo sunulmaya hazır hale gelir. Geriye yalnızca onu IPFS'ye eklemek kalır:
+Bunu yaptıktan sonra, depo sunulmaya hazırdır. Geriye yalnızca onu IPFS üzerine eklemek kalıyor:
 
 $ pwd
 
@@ -48,20 +48,20 @@ $ pwd
 
 $ ipfs add -r 
 
-![/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
+![https://i.ibb.co/LJgK1q3/Screenshot-from-2023-05-20-14-22-38.png](/content-images/Screenshot-from-2023-05-20-14-22-38-3fc2f72d91.webp)
 
 Ortaya çıkan CID: Qmbgqox5g3614gjTb43s5mdSmmk95aGWWA9EHksL2T91A2
 
-![/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
+![https://i.ibb.co/GvhCLwn/Screenshot-from-2023-05-20-14-26-34.png](/content-images/Screenshot-from-2023-05-20-14-26-34-6e00fee828.webp)
 
-Harika! Artık deponuz ağa yüklenmiş durumda.
+Harika! Artık deponuz ağa yüklendi.
 
-## IPFS kullanarak klonlayın
+## IPFS kullanarak klonlama
 
-Artık GitHub reposunu şu komutla alabilmelisiniz:
+Artık GitHub deposunu şu komutu kullanarak alabilmelisiniz:
 
 git clone http://ipfs.io/ipfs/yourCID
 
-Alternatif olarak, yerel IPFS düğümünüzü kullanarak arama yapabilir ve depoyu alabilirsiniz.
+Alternatif olarak, yerel IPFS düğümünüzü kullanarak arama yapabilir ve içeriği alabilirsiniz.
 
-Son Not: IPFS üzerindeki repo klasörü, gerçek github deposuyla birlikte güncelleme almaz. Klasörü düzenli aralıklarla yeniden yüklemeniz önerilir.
+Son not: IPFS üzerindeki depo klasörü, gerçek GitHub deposuyla birlikte güncellenmez. Klasörü düzenli aralıklarla yeniden yüklemeniz önerilir.

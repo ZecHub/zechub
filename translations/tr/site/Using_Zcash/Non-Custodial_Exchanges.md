@@ -1,127 +1,127 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Non-Custodial_Exchanges.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alt Text" width="50"/>   Saklama Hizmeti Sunmayan Borsalar
+# <img src="/content-images/ZEC-USD-a2189a84b9.webp" alt="Alternatif Metin" width="50"/>   Gözetimsiz Borsalar
 
 ## Kısaca
 
-* Saklama hizmeti sunmayan bir borsa, kendi cüzdanınızdaki coin'leri takas etmenizi sağlar. Özel anahtarlarınızı elinizde tutarsınız ve fonlarınız hiçbir borsa hesabında tutulmaz.
-* Anahtarlarınızı elinizde tutmak, sizi borsa hack'lerine ve arızalarına karşı korur. Gizlilik ayrı bir konudur.
-* Solana veya Ethereum gibi başka bir zincirden gönderdiğiniz yatırma işlemi, o zincirde herkese açıktır. Takas hizmeti ayrıca adreslerinizi ve bağlantı verilerinizi de görür.
-* Bazı takas rotaları ZEC'i herkese açık olan şeffaf bir adrese gönderir.
-* ZEC, korumalı bir adreste bulunduğunda gizli hâle gelir. Harcamadan önce kendi cüzdanınızda korumaya alın.
+* Gözetimsiz bir borsa, coin’leri kendi cüzdanınızdan takas etmenizi sağlar. Özel anahtarlarınız sizde kalır ve hiçbir borsa hesabında varlıklarınız tutulmaz.
+* Anahtarlarınızı kendinizde tutmak, sizi borsa saldırılarından ve arızalarından korur. Gizlilik ayrı bir konudur.
+* Solana veya Ethereum gibi başka bir Zincirden gönderdiğiniz yatırma işlemi, o Zincirde herkese açıktır. Takas hizmeti de adreslerinizi ve bağlantı verilerinizi görür.
+* Bazı takas rotaları, ZEC varlıklarını herkese açık olan şeffaf bir adrese gönderir.
+* ZEC, korumalı bir adreste tutulduğu andan itibaren gizli hâle gelir. Harcamadan önce kendi cüzdanınızda korumalı hâle getirin.
 
 ## Temel Açıklama
 
-[Zcash Saklama Hizmeti Sunmayan Borsalar](/dex)
+[Zcash Gözetimsiz Borsalar](/dex)
 
-Sürekli gelişen kripto para alım satım dünyasında, Merkeziyetsiz Borsalar veya DEX'ler olarak da bilinen saklama hizmeti sunmayan borsalar, kullanıcıların fonlarını bir borsa hesabına teslim etmeden işlem yapmalarına olanak tanır. Kendi anahtarlarınızı elinizde tutarsınız, ancak bu başka hiç kimsenin sürece dahil olmadığı anlamına gelmez. İzlenen yola bağlı olarak bir takas; bir web sitesi veya cüzdan uygulaması, yönlendirme hizmeti, akıllı sözleşmeler, çözücüler ve köprülerden geçebilir.
+Kripto para alım satımının sürekli değişen dünyasında, Merkeziyetsiz Borsalar veya DEX’ler olarak da bilinen gözetimsiz borsalar, kullanıcıların varlıklarını bir borsa hesabına teslim etmeden alım satım yapmalarını sağlar. Kendi anahtarlarınız sizde kalır; ancak bu, sürece başka hiç kimsenin dâhil olmadığı anlamına gelmez. Rotaya bağlı olarak takas; bir web sitesi veya cüzdan uygulamasından, yönlendirme hizmetinden, akıllı sözleşmelerden, çözücülerden ve köprülerden geçebilir.
 
-Yukarıda listelenen borsalar, kendi cüzdanınızdan Zcash edinmenize ve işlem yapmanıza olanak tanır. Bir takasın ne kadar gizli olduğu; hizmete, ödeme yaptığınız ağa ve ZEC varlığınızın korumalı bir adrese ulaşıp ulaşmadığına bağlıdır. Aşağıdaki bölümler farkı açıklar.
+Yukarıda listelenen borsalar, kendi cüzdanınızdan Zcash edinmenize ve alıp satmanıza olanak tanır. Bir takasın ne kadar gizli olduğu hizmete, ödeme yaptığınız ağa ve ZEC varlığınızın korumalı bir adrese ulaşıp ulaşmadığına bağlıdır. Aşağıdaki bölümlerde bu fark açıklanmaktadır.
 
-### **Saklama Hizmeti Sunmayan Borsaları Anlamak**
+### **Gözetimsiz Borsaları Anlamak**
 
-Saklama hizmeti sunmayan borsalar, Merkeziyetsiz Borsalar (DEX'ler) olarak da bilinir ve kullanıcıların fonlarını borsanın kendisine yatırmalarını gerektirmeden kripto para alım satımını kolaylaştıran platformlardır. Bunun yerine kullanıcılar özel anahtarlarının kontrolünü ellerinde tutar ve kendi cüzdanlarından işlem yapar. Zincirler arası takaslar, işlemi fiyatlandırmak, yönlendirmek ve sonuçlandırmak için hâlâ diğer taraflara dayanır (aşağıya bakın).
+Merkeziyetsiz Borsalar (DEX’ler) olarak da bilinen gözetimsiz borsalar, kullanıcıların varlıklarını borsanın kendisine yatırmasını gerektirmeden kripto para alım satımını kolaylaştıran platformlardır. Bunun yerine kullanıcılar özel anahtarları üzerindeki kontrollerini korur ve kendi cüzdanlarından alım satım yapar. Zincirler arası takaslar, işlemi fiyatlandırmak, yönlendirmek ve tamamlamak için yine de başka taraflara dayanır (aşağıya bakın).
 
-Bu, kullanıcılar varlıklarını tutması için borsaya güvenmediğinden güvenliği artırabilir ve hacklenme veya kötü yönetim riskini azaltır. Ancak tek başına bir takası gizli hâle getirmez. Saklama hizmeti sunmayan borsalardaki işlemler genellikle herkese açık olan akıllı sözleşmeleri kullanır ve kullandığınız hizmet adreslerinizi ve bağlantı ayrıntılarınızı yine de görebilir.
+Kullanıcılar varlıklarını tutması için borsaya güvenmediğinden bu durum güvenliği artırabilir ve saldırı ya da kötü yönetim riskini azaltabilir. Ancak bu, bir takası tek başına gizli hâle getirmez. Gözetimsiz borsalardaki işlemlerde çoğu zaman herkese açık olan akıllı sözleşmeler kullanılır; kullandığınız hizmet de adreslerinizi ve bağlantı ayrıntılarınızı görebilir.
 
-Saklama hizmeti sunmayan kripto para borsalarının temel bir avantajı, kullanıcılara varlıkları üzerinde sağladıkları artan kontroldür. Bu borsalar varlıkları elinde tutmadığından, kullanıcılar dijital para birimleri üzerinde tam mülkiyet ve yetkiye sahip olur.
+Gözetimsiz kripto para borsalarının önemli bir avantajı, kullanıcılara varlıkları üzerinde daha fazla kontrol sağlamasıdır. Bu borsalar varlıkları ellerinde tutmadığından kullanıcılar dijital para birimleri üzerinde tam mülkiyet ve yetkiye sahip olur.
 
-### **Saklama hizmeti sunmayan borsalar ve saklama hizmeti sunan borsalar**
+### **Gözetimsiz Borsalar ve Gözetimli Borsalar**
 
-**#1 Güvenlik**: Saklama hizmeti sunmayan borsalar, fonları merkezi bir borsa hesabında tutma ihtiyacını ortadan kaldırır. Kullanıcılar özel anahtarlarının kontrolünü koruyarak, saklama hizmeti sunan borsaların yaşayabileceği hacklenme, içeriden saldırı ve platform arızası risklerini azaltır. Zincirler arası takaslarda, işlem sonuçlanırken fonlar kısa süreliğine bir yatırma adresinde veya köprüde tutulabilir.
+**#1 Güvenlik**: Gözetimsiz borsalar, varlıkların merkezi bir borsa hesabında tutulması gerekliliğini ortadan kaldırır. Kullanıcılar özel anahtarları üzerindeki kontrollerini korur; böylece gözetimli borsaların karşılaşabileceği saldırı, içeriden gelen tehdit ve platform arızası riskleri azalır. Zincirler arası takaslarda, işlem tamamlanırken varlıklar kısa süreliğine bir yatırma adresinde veya köprüde tutulabilir.
 
-**#2 Gizlilik**: Saklama hizmeti sunmayan takaslar genellikle bir borsa hesabı gerektirmez; bu nedenle çoğu zaman e-posta veya kimlikle kayıt olmayı atlarsınız. Bu, anonimlikle aynı şey değildir. Kaynak ağda gönderdiğiniz yatırma işlemi (örneğin, Solana veya Ethereum) o zincirde herkese açıktır ve hizmet yine de cüzdan adreslerinizi, IP adresinizi ve takas ayrıntılarını görebilir. Zcash tarafındaki gizlilik, ZEC varlıklarınızın nereye ulaştığına bağlıdır (aşağıya bakın).
+**#2 Gizlilik**: Gözetimsiz takaslar genellikle borsa hesabı gerektirmez; bu nedenle çoğu zaman e-posta veya kimlikle kaydolmanız gerekmez. Ancak bu, anonim olmakla aynı şey değildir. Kaynak ağda gönderdiğiniz yatırma işlemi (örneğin Solana veya Ethereum) o Zincirde herkese açıktır; hizmet de cüzdan adreslerinizi, IP adresinizi ve takas ayrıntılarını görebilir. Zcash tarafındaki gizlilik, ZEC varlığınızın nereye ulaştığına bağlıdır (aşağıya bakın).
 
-**#3 Merkeziyetsizlik**: Saklama hizmeti sunmayan borsalar, kripto paraların merkeziyetsiz anlayışıyla daha yakından uyumludur. Kullanıcılar, blokzincir teknolojisinin daha geniş ilkeleriyle uyumlu olarak alım satım faaliyetleri üzerinde daha fazla özerkliğe ve kontrole sahiptir.
+**#3 Merkeziyetsizlik**: Gözetimsiz borsalar, kripto paraların merkeziyetsiz anlayışıyla daha fazla örtüşür. Kullanıcılar, blokzincir teknolojisinin daha geniş ilkeleri doğrultusunda alım satım faaliyetleri üzerinde daha fazla özerkliğe ve kontrole sahiptir.
 
-Saklama hizmeti sunan borsalar söz konusu olduğunda, merkezi borsaların çoğunda merkeziyetsizlik düzeyi genellikle oldukça düşüktür; bu da borsa ekibinin veya yetkililerinin borsadaki kullanıcı verilerini ya da bilgilerini yönetmesine yol açar.
+Gözetimli Borsalar söz konusu olduğunda, çoğu merkezi borsada merkeziyetsizlik düzeyi genellikle oldukça düşüktür; bu da borsa ekibinin veya yetkililerin borsadaki kullanıcı verilerini ya da bilgilerini yönetmesine yol açar.
 
-**#4 Değişen Düzenlemelere Uyarlanabilirlik**: Saklama hizmeti sunmayan borsalar, değişen düzenleyici ortamlara genellikle daha uyumludur. Kullanıcı fonlarını tutmadıkları için, saklama hizmeti sunan borsalara kıyasla daha az uyumluluk zorluğuyla karşılaşabilirler.
+**#4 Değişen Düzenlemelere Uyum**: Gözetimsiz borsalar, değişen düzenleyici ortamlara genellikle daha kolay uyum sağlar. Kullanıcı varlıklarını tutmadıkları için gözetimli borsalara kıyasla daha az uyum zorluğuyla karşılaşabilirler.
 
-**#5 Yenilik ve Deneyler**: Saklama hizmeti sunmayan borsalar kripto alanında sıkça yeniliğe öncülük eder. Otomatik piyasa yapıcılar (AMM'ler) ve merkeziyetsiz finans (DeFi) uygulamaları gibi merkeziyetsiz teknolojilerin geliştirilmesini teşvik ederler.
+**#5 Yenilik ve Deney**: Gözetimsiz borsalar, kripto alanında sıklıkla yeniliğe öncülük eder. Otomatik piyasa yapıcılar (AMM’ler) ve merkeziyetsiz finans (DeFi) uygulamaları gibi merkeziyetsiz teknolojilerin geliştirilmesini teşvik ederler.
 
-**#6 Küresel Erişilebilirlik**: Saklama hizmeti sunmayan borsalar, düzenleyici engellerin saklama hizmeti sunan borsa hizmetlerinin kullanılabilirliğini sınırlayabileceği bölgeler de dâhil olmak üzere, dünyanın dört bir yanındaki kullanıcılara kripto paralara erişim sağlar.
+**#6 Küresel Erişilebilirlik**: Gözetimsiz borsalar, düzenleyici engellerin gözetimli borsa hizmetlerinin kullanılabilirliğini sınırlayabileceği bölgeler de dâhil olmak üzere dünyanın dört bir yanındaki kullanıcıların kripto paralara erişmesini sağlar.
 
-**#7 KYC Gereksinimi Yok**: Birçok saklama hizmeti sunmayan borsa, en başta kimlik belgesi istemez. Çoğu yine de cüzdan adreslerini uyumluluk veritabanlarında tarar ve bir şey işaretlenirse takas gecikebilir, engellenebilir veya reddedilebilir. Buna güvenmeden önce hizmetin koşullarını kontrol edin.
+**#7 KYC Gerekliliğinin Olmaması**: Gözetimsiz borsaların çoğu, başlangıçta kimlik belgesi istemez. Ancak çoğu, cüzdan adreslerini uyum veri tabanlarına karşı tarar; şüpheli olarak işaretlenen bir takas geciktirilebilir, engellenebilir veya reddedilebilir. Hizmete güvenmeden önce koşullarını inceleyin.
 
 ### **Zcash Neyi Korur, Neyi Koruyamaz**
 
-Zcash gizliliği korumalı adreslerden gelir. ZEC korumalı adresler arasında hareket ettiğinde, gönderen, alıcı, tutar ve not Zcash zincirinde şifrelenir. Bunun nasıl çalıştığını öğrenmek için [Korumalı Havuzlar](/using-zcash/shielded-pools) bölümüne bakın.
+Zcash gizliliği korumalı adreslerden gelir. ZEC korumalı adresler arasında hareket ettiğinde, gönderen, alıcı, tutar ve memo Zcash Zincirinde şifrelenir. Bunun nasıl çalıştığını görmek için [Korumalı Havuzlar](/using-zcash/shielded-pools) sayfasına bakın.
 
-Bir takasın Zcash tarafından gizlenemeyen bölümleri vardır:
+Bir takasın Zcash gizleyemediği kısımları vardır:
 
-- **Kaynak ağ.** Solana, Ethereum veya başka bir herkese açık zincirden gönderdiğiniz fonlar, adresiniz ve tutar dâhil olmak üzere o zincirde görünür.
-- **Alıcı adresi.** Bazı takas yolları ZEC varlığını şeffaf bir adrese teslim eder. Örneğin NEAR Intents, ZEC varlığını yalnızca [şeffaf adresler için](https://docs.near-intents.org/resources/chain-support) desteklenen olarak listeler. Şeffaf bir (t1 veya t3) adrese gönderilen ZEC, Bitcoin'e benzer şekilde herkese açıktır. Sonrasında korumaya almak, bundan sonra yaptıklarınızı korur; ancak gelen transfer ve korumaya alma işlemi görünür kalır.
-- **Hizmet.** Uygulama ve tüm yönlendirme hizmetleri, IP adresiniz gibi bağlantı verilerinin yanı sıra kendilerine verdiğiniz adresleri ve tutarları görür.
+- **Kaynak ağ.** Solana, Ethereum veya başka bir herkese açık Zincirden gönderdiğiniz varlıklar; adresiniz ve tutar da dâhil olmak üzere, o Zincirde görünür.
+- **Alıcı adresi.** Bazı takas rotaları, ZEC varlıklarını şeffaf bir adrese gönderir. Örneğin NEAR Intents, ZEC varlığını yalnızca [şeffaf adresler](https://docs.near-intents.org/resources/chain-support) için desteklenen olarak listeler. Şeffaf (t1 veya t3) bir adrese gönderilen ZEC, Bitcoin’e benzer şekilde herkese açıktır. Sonrasında korumalı hâle getirmek, bundan sonra yapacaklarınızı korur; ancak gelen transfer ve korumalı hâle getirme işlemi görünür kalır.
+- **Hizmet.** Uygulama ve yönlendirme hizmetleri, kendilerine verdiğiniz adresleri ve tutarları, IP adresiniz gibi bağlantı verileriyle birlikte görür.
 
-ZEC varlığını kontrol ettiğiniz bir cüzdana gönderin ve harcamadan önce korumaya alın. [ZEC Varlığını Gizli Kullanmak](/guides/using-zec-privately) sonraki adımları kapsar.
+ZEC varlığını kontrolünüzdeki bir cüzdana gönderin ve harcamadan önce korumalı hâle getirin. Sonraki adımlar için [ZEC’ı Gizli Kullanma](/guides/using-zec-privately) sayfasına bakın.
 
-### **Bir Takasta Kimler Yer Alır**
+### **Bir Takasa Kimler Dâhil Olur**
 
-Örnek olarak NEAR Intents 1Click hizmeti üzerinden yönlendirilen bir takası ele alalım. [API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service) bunları ayrı bölümler olarak ele alır:
+Örnek olarak NEAR Intents 1Click hizmeti üzerinden yönlendirilen bir takası ele alalım. Hizmetin [API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service), bu unsurları ayrı bileşenler olarak değerlendirir:
 
-- **Arayüz**: kullandığınız web sitesi veya cüzdan. Intents Technology tarafından ya da kendi koşulları olan üçüncü bir tarafça işletilebilir.
-- **1Click**: Intents Technology Limited tarafından işletilen bir yönlendirme ve mutabakat hizmeti. Fonları, teklifiniz için oluşturulan bir yatırma adresine gönderirsiniz. Belgeler 1Click'in saklama hizmeti sunmadığını söyler; ancak koşullar, bir transfer devam ederken varlıkların köprü altyapısında tutulabileceğini veya kilitlenebileceğini belirtir.
+- **Arayüz**: kullandığınız web sitesi veya cüzdan. Intents Technology ya da kendi koşulları olan bir üçüncü taraf tarafından işletilebilir.
+- **1Click**: Intents Technology Limited tarafından işletilen bir yönlendirme ve takas tamamlama hizmeti. Teklifiniz için oluşturulan bir yatırma adresine varlık gönderirsiniz. Belgelerde 1Click’in varlıkları gözetiminde tutmadığı belirtilir; ancak koşullarda, transfer devam ederken varlıkların köprü altyapısında tutulabileceği veya kilitlenebileceği de belirtilir.
 - **Protokol**: NEAR Intents akıllı sözleşmeleri.
-- **Çözücüler**: teklifi karşılayan bağımsız üçüncü taraflar.
-- **Köprüler**: yerel ZEC, Intents Technology'nin işlettiği PoA Bridge üzerinden hareket eder.
+- **Çözücüler**: teklifi yerine getiren bağımsız üçüncü taraflar.
+- **Köprüler**: Intents Technology tarafından işletilen PoA Bridge üzerinden gerçekleşen yerel ZEC transferleri.
 
-NEAR Intents ayrıca entegre teklif akışlarını çeşitli AML veritabanlarına karşı [tarar](https://docs.near-intents.org/security-compliance/risk-and-compliance) ve kapsamın akışa ve entegrasyona göre değiştiğini belirtir. Koşulları uyarınca işaretlenen bir takas gecikebilir, engellenebilir, dondurulabilir veya reddedilebilir.
+NEAR Intents ayrıca entegre teklif akışlarını birkaç kara para aklamayla mücadele (AML) veri tabanına karşı [tarar](https://docs.near-intents.org/security-compliance/risk-and-compliance) ve kapsamın akışa ve entegrasyona göre değiştiğini belirtir. Koşullarına göre şüpheli olarak işaretlenen bir takas geciktirilebilir, engellenebilir, dondurulabilir veya reddedilebilir.
 
-### **Takas Sırasında Paylaştıklarınız**
+### **Takas Sırasında Neleri Paylaşırsınız**
 
 - Takası alan ZEC adresi ve kaynak ağdaki bir iade adresi.
-- Varlık ve tutar ile gönderdiğiniz ve kaynak zincirde herkese açık olan yatırma işlemi.
-- Bağlantı verileri. 1Click koşulları, Intents Technology'nin istek meta verilerini, IP adreslerini ve cüzdan adreslerini toplayabileceğini; near.com gizlilik politikası ise IP adresi, konum, tarayıcı ve cihaz bilgilerini listeler.
-- Uygulamanın eklediği her şey; örneğin diğer bağlı cüzdan adresleri. Uygulamalar cüzdanınızı kendi uyumluluk kontrollerinden de geçirebilir.
+- Varlık ve tutar ile gönderdiğiniz yatırma işlemi; bu işlem kaynak Zincirde herkese açıktır.
+- Bağlantı verileri. 1Click koşullarında Intents Technology’nin istek meta verilerini, IP adreslerini ve cüzdan adreslerini toplayabileceği belirtilir; near.com üzerindeki gizlilik politikası da IP adresini, konumu, tarayıcı ve cihaz bilgilerini listeler.
+- Uygulamanın eklediği diğer bağlantılı cüzdan adresleri gibi bilgiler. Uygulamalar, cüzdanınızı kendi uyum kontrollerinden de geçirebilir.
 
-## Görsel / Analoji
+## Görsel / Benzetme
 
-Saklama hizmeti sunan bir borsa banka gibi çalışır. Bir hesap açar, paranızı kasasında tutar ve bankadan sizin adınıza işlem yapmasını istersiniz.
+Gözetimli bir borsa banka gibidir. Bir hesap açar, paranızı kasasına bırakırsınız ve bankadan sizin için alım satım yapmasını istersiniz.
 
-Saklama hizmeti sunmayan bir swap, yoğun bir caddedeki döviz bürosu gişesi gibi çalışır. Gişeden nakit uzatır, karşılığında farklı bir para birimi alır ve paranızı asla görevliye bırakmazsınız. Sokaktaki insanlar gişeye yaklaştığınızı ve nakdinizi verdiğinizi görebilir; tıpkı herkesin kaynak zincirdeki yatırma işleminizi görebilmesi gibi. Gişedeki görevli yüzünüzü ve tutarı görür.
+Gözetimsiz takas, kalabalık bir caddedeki döviz büfesine benzer. Nakit paranızı pencereden uzatır, karşılığında farklı bir para alır ve paranızı görevliye bırakmazsınız. Sokaktaki insanlar yaklaşıp paranızı verdiğinizi görebilir; tıpkı herkesin kaynak Zincirdeki yatırma işleminizi görebilmesi gibi. Görevli yüzünüzü ve tutarı görür.
 
-Süre dolduktan sonra ne olacağı size kalmış. Yeni coinleri mühürlü bir zarfa koyun, korumalı bir adres kullanın ve kimse onları oradan itibaren takip edemez.
+Büfeden sonraki adımlar size bağlıdır. Yeni coin’leri kapalı bir zarfa koyun, korumalı bir adres kullanın; bundan sonra kimse onları takip edemez.
 
-## Pratik Sonuçlar
+## Uygulamadaki Sonuçlar
 
-### **Koşulları ve Desteği Nerede Kontrol Edebilirsiniz**
+### **Koşullar ve Destek Bilgileri Nereden Kontrol Edilir**
 
-Koşullar değişir; bu nedenle büyük bir takastan önce güncel sürümleri okuyun.
+Koşullar değişebilir; bu nedenle büyük bir takas yapmadan önce güncel sürümleri okuyun.
 
-- **Kullandığınız uygulamayla başlayın.** Başlıca iletişim noktanız odur. 1Click API koşulları, Intents Technology'nin bunun üzerine kurulu uygulamaların kullanıcılarıyla doğrudan ilişkisi olmadığını söyler.
-- **NEAR Intents:** near.com/terms ve near.com/privacy adreslerindeki koşullar ve gizlilik politikası ile [1Click API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service) ve [risk ve uyumluluk](https://docs.near-intents.org/security-compliance/risk-and-compliance).
-- **Takip ve destek:** bir takası [NEAR Intents Explorer](https://explorer.near-intents.org) üzerinde arayın veya [NEAR Intents Telegram](https://t.me/near_intents) içinde sorun.
-- **İadeler:** başarısız bir takas, verdiğiniz iade adresine geri gönderilebilir; ancak near.com koşulları iadenin garanti edilmediğini söyler. 1Click koşulları ayrıca USD 300 altındaki kullanıcı hatalarına ilişkin kurtarma taleplerinin değerlendirilmediğini belirtir.
+- **Kullandığınız uygulamayla başlayın.** İlk başvuracağınız yer burasıdır. 1Click API koşullarında, Intents Technology’nin bu altyapı üzerine kurulu uygulamaların kullanıcılarıyla doğrudan bir ilişkisi olmadığı belirtilir.
+- **NEAR Intents:** near.com/terms ve near.com/privacy adreslerindeki koşullar ve gizlilik politikası ile [1Click API koşulları](https://docs.near-intents.org/security-compliance/terms-of-service) ve [risk ve uyum](https://docs.near-intents.org/security-compliance/risk-and-compliance) bilgileri.
+- **Takip ve destek:** Bir takası [NEAR Intents Explorer](https://explorer.near-intents.org) üzerinden arayın veya [NEAR Intents Telegram](https://t.me/near_intents) üzerinden yardım isteyin.
+- **İadeler:** Başarısız bir takas, verdiğiniz iade adresine geri gönderilebilir; ancak near.com koşullarında iadenin garanti edilmediği belirtilir. 1Click koşullarında da kullanıcı hataları nedeniyle 300 USD altındaki kurtarma taleplerinin dikkate alınmadığı belirtilir.
 
-Şimdi, Zcash alım satımını kolaylaştıran erişilebilir saklama hizmeti sunmayan borsalardan birkaçını inceleyelim. Bu platformları kullanmak, daha fazla Zcash coin edinmeniz için size uygun bir yol sağlayacaktır.
+Şimdi, Zcash alım satımını kolaylaştıran erişilebilir gözetimsiz borsalardan birkaçını inceleyelim. Bu platformları kullanarak daha fazla Zcash coin’i kolayca edinebilirsiniz.
 
 ### **Özet**
 
-Saklama hizmeti sunmayan borsalar veya DEX'ler, özel anahtarlarınızın kontrolünü korurken kendi cüzdanınızdan işlem yapmanıza olanak tanır. Bu güvenliğe yardımcı olur, ancak gizlilik izlenen yola bağlıdır: kaynak zincir herkese açıktır, hizmet adreslerinizi ve bağlantı verilerinizi görür ve ZEC varlığınız yalnızca korumalı bir adrese ulaştığında gizlidir.
+Gözetimsiz borsalar veya DEX’ler, özel anahtarlarınız üzerindeki kontrolü korurken kendi cüzdanınızdan alım satım yapmanızı sağlar. Bu, güvenliğe katkıda bulunur; ancak gizlilik rotaya bağlıdır: kaynak Zincir herkese açıktır, hizmet adreslerinizi ve bağlantı verilerinizi görür ve ZEC yalnızca korumalı bir adreste tutulduğunda gizlidir.
 
-Saklama hizmeti sunmayan borsalar cazip avantajlar sunarken, olası likidite sorunları ve daha az deneyimli kullanıcılar için daha dik bir öğrenme eğrisi gibi dezavantajlara sahip olabileceklerini kabul etmek önemlidir.
+Gözetimsiz borsalar önemli avantajlar sunsa da olası likidite sorunları ve daha az deneyimli kullanıcılar için öğrenme eğrisinin daha dik olması gibi dezavantajları olabileceğini unutmamak gerekir.
 
-Her finansal kararda olduğu gibi, yatırımcılar saklama hizmeti sunmayan ve saklama hizmeti sunan borsa seçenekleri arasında seçim yapmadan önce önceliklerini, risk toleranslarını ve teknolojiye aşinalıklarını dikkatle değerlendirmelidir.
+Her finansal kararda olduğu gibi, gözetimsiz ve gözetimli borsa seçenekleri arasında tercih yapmadan önce önceliklerinizi, risk toleransınızı ve teknolojiye aşinalığınızı dikkatlice değerlendirmelisiniz.
 
-## Yaygın Hatalar
+## Sık Yapılan Hatalar
 
-- **"Non-custodial"ı "gizli" olarak görmek.** Anahtarlarınızı elinizde tutmak, fonlarınızı bir borsa arızasına karşı korur. Kaynak zincirdeki yatırma işlemi herkese açıktır ve hizmet, adreslerinizi ve IP adresinizi görür.
-- **Takas edilen ZEC'yi şeffaf bir adreste bırakmak.** Rota t1 veya t3 adresine ödeme yapıyorsa, ZEC'yi harcamadan önce kendi cüzdanınızdaki shielded bir adrese taşıyın.
-- **İade adresi kontrolünü atlamak.** Başarısız bir takas, verdiğiniz iade adresine geri gidebilir ve iadeler garanti edilmez. Göndermeden önce bu adresi kontrol edin.
-- **"KYC yok" ifadesini "kontrol yok" olarak okumak.** Çoğu hizmet, cüzdan adreslerini uyumluluk veritabanlarında tarar; bu nedenle işaretlenmiş bir takas gecikebilir veya engellenebilir.
+- **“Gözetimsiz” olmayı “gizli” olmakla bir tutmak.** Anahtarlarınızı kendinizde tutmak, varlıklarınızı borsa arızalarına karşı korur. Kaynak Zincirdeki yatırma işlemi herkese açıktır ve hizmet adreslerinizi ve IP adresinizi görür.
+- Takas edilen ZEC varlıklarını şeffaf bir adreste bırakmak. Rota, ödemeyi t1 veya t3 adresine yapıyorsa ZEC varlığını harcamadan önce kendi cüzdanınızdaki korumalı bir adrese taşıyın.
+- **İade adresini kontrol etmemek.** Başarısız bir takas verdiğiniz iade adresine geri gönderilebilir ve iadeler garanti edilmez. Göndermeden önce adresi kontrol edin.
+- **“KYC yok” ifadesini “hiç kontrol yok” diye yorumlamak.** Hizmetlerin çoğu, cüzdan adreslerini uyum veri tabanlarına karşı tarar; bu nedenle şüpheli olarak işaretlenen bir takas geciktirilebilir veya engellenebilir.
 
 ## İlgili Sayfalar
 
-- [DEX](/using-zcash/dex): ZEC'i destekleyen emanetsiz borsalar.
+- [DEX](/using-zcash/dex): ZEC desteği sunan gözetimsiz borsalar.
 - [Merkezi Takaslar](/using-zcash/centralized-swaps): borsa hesabı olmadan çalışan anlık takas hizmetleri.
-- [Saklama Hizmetli Borsalar](/using-zcash/custodial-exchanges): fonlarınızı bir hesapta tutan borsalar.
-- [Korumalı Havuzlar](/using-zcash/shielded-pools): bir takastan sonra ZEC'unuzun gizli hâle geldiği yer.
-- [Birleşik Adresler](/using-zcash/unified-addresses): çoğu cüzdanın ZEC almak için size verdiği `u1` adresi.
-- [Solana ZEC Korumalıya](/using-zcash/solana-zec-to-shielded): ZEC'i Solana'den korumalı bir adrese taşımak.
-- [ZEC'i Gizli Kullanma](/guides/using-zec-privately): ZEC geldikten sonra ne yapmanız gerektiği.
-- [Zcash Ödemenizi Kimler Görebilir](/start-here/who-can-see-your-zcash-payment): bir ödemenin her iki tarafında nelerin görünür kaldığı.
+- [Gözetimli Borsalar](/using-zcash/custodial-exchanges): varlıklarınızı bir hesapta tutan borsalar.
+- [Korumalı Havuzlar](/using-zcash/shielded-pools): takas sonrasında ZEC varlığınızın gizli hâle geldiği yer.
+- [Birleşik Adresler](/using-zcash/unified-addresses): çoğu cüzdanın ZEC almak için size verdiği `u1` adres.
+- [Solana ZEC Varlıklarını Korumalı Hâle Getirme](/using-zcash/solana-zec-to-shielded): ZEC varlıklarını Solana üzerinden korumalı bir adrese taşıma.
+- [ZEC’ı Gizli Kullanma](/guides/using-zec-privately): ZEC varlığınız ulaştıktan sonra ne yapmanız gerektiği.
+- [Zcash Ödemenizi Kimler Görebilir](/start-here/who-can-see-your-zcash-payment): bir ödemenin her iki tarafında da görünür kalanlar.
 
 **Son güncelleme:** Ekim 2026

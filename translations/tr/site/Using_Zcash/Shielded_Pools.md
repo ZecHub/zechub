@@ -1,58 +1,58 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Shielded_Pools.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Sayfası"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Zcash Değer Havuzları 
 
-## Kısaca
+## Özet
 
-- Zcash şu anda **5 değer havuzuna** sahiptir: Sprout (eski), Sapling, Orchard (yalnızca harcama), Ironwood ve Transparent.
-- **Ironwood**, 28 Temmuz 2026’daki NU6.3 yükseltmesinden beri aktif olan mevcut birincil shielded havuzdur.
-- **Orchard** artık **yalnızca harcama** modundadır: yeni değer bu havuza giremez ve mevcut fonlar buradan Ironwood’a taşınır.
-- **Sapling** (`zs` ile başlayan z-adresleri) yaygın şekilde desteklenmeye devam eder ve önemli miktarda shielded ZEC’i korumayı sürdürür.
-- **Transparent** adresler (t...) işlem gizliliği sağlamaz ve Bitcoin’e benzer şekilde çalışır.
-- **Sprout**, aktif kullanımdan kaldırılmış eski bir shielded havuzdur.
-- Orchard’dan Ironwood’a geçiş **devam etmektedir** ve turnstile tarafından herkesin görebileceği şekilde denetlenmektedir.
-- En güçlü gizlilik garantileri için kullanıcılar, mümkün olduğunda **shielded-to-shielded (z → z)** işlemleri tercih etmeye devam etmelidir.
+- Zcash şu anda **5 değer havuzuna** sahiptir: Sprout (eski), Sapling, Orchard (yalnızca harcama), Ironwood ve Şeffaf.
+- **Ironwood**, 28 Temmuz 2026'da NU6.3 yükseltmesiyle kullanıma açılan, mevcut birincil korumalı havuzdur.
+- **Orchard** artık **yalnızca harcama için** kullanılabilir: İçine yeni değer giremez ve mevcut fonlar buradan Ironwood'e taşınır.
+- **Sapling** (`zs` ile başlayan z adresleri) geniş çapta desteklenmeye devam eder ve önemli miktarda korumalı ZEC'i güvence altına alır.
+- **Şeffaf** adresler (t...) işlem gizliliği sağlamaz ve Bitcoin'e benzer şekilde çalışır.
+- **Sprout**, etkin kullanımdan kaldırılmış eski bir korumalı havuzdur.
+- Orchard'dan Ironwood'e geçiş **devam etmektedir** ve turnike tarafından herkese açık biçimde denetlenir.
+- En güçlü gizlilik güvenceleri için kullanıcılar, mümkün olduğunda **korumalıdan korumalıya (z → z)** işlemleri tercih etmeye devam etmelidir.
 
 
 <br/>
 
 ## Zcash Değer Havuzlarını Anlamak
 
-Zcash, fonları değer havuzları olarak bilinen ayrı muhasebe sistemlerine ayırır. Her havuzun kendine özgü kriptografik kuralları ve gizlilik özellikleri vardır; protokol ise bunlar arasında hareket eden toplam değeri izler.
+Zcash, fonları değer havuzları olarak bilinen ayrı muhasebe sistemlerine böler. Her havuzun kendi kriptografik kuralları ve gizlilik özellikleri vardır; protokol ise aralarında hareket eden toplam değeri izler.
 
-Bugün ağ beş ana değer havuzu içerir:
+Bugün ağda beş temel değer havuzu bulunur:
 
-- Transparent — Herkese açık ve zincir üzerinde tamamen görünür.
-- Sapling — Geniş çapta benimsenen ilk modern shielded havuz, hâlâ aktif.
-- Orchard — Önceki birincil shielded havuz, artık yalnızca harcama modunda.
-- Ironwood — NU6.3 ile sunulan mevcut birincil shielded havuz.
-- Sprout — 2016’da Zcash ile birlikte başlatılan ilk shielded havuz.
+- Şeffaf — Herkese açıktır ve zincir üstünde tamamen görünür.
+- Sapling — İlk geniş çapta benimsenen modern korumalı havuzdur ve hâlâ etkindir.
+- Orchard — Önceki birincil korumalı havuzdur; artık yalnızca harcama için kullanılabilir.
+- Ironwood — NU6.3 ile kullanıma sunulan mevcut birincil korumalı havuzdur.
+- Sprout — 2016'da Zcash ile kullanıma sunulan ilk korumalı havuzdur.
   
 
 
-Zcash geliştikçe, mevcut fonlarla uyumluluğu korurken güvenlik, gizlilik, kullanılabilirlik ve denetlenebilirliği iyileştirmek için yeni shielded havuzlar kullanılmaya başlanabilir.
+Zcash geliştikçe, mevcut fonlarla uyumluluğu korurken güvenliği, gizliliği, kullanılabilirliği ve denetlenebilirliği iyileştirmek için yeni korumalı havuzlar kullanıma sunulabilir.
 
 <br/>
 
 ![img1](/content-images/4ba8cca2-cea5-42d2-8ec2-2122b26f5144-9db37e245e.webp)
-Şekil 1: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki üç shielded havuzu (Sprout, Sapling ve Orchard) gösteren bir grafik
+Şekil 1: Ironwood etkinleşmeden önce, 29 Ekim 2025'e kadar olan üç korumalı havuzu (Sprout, Sapling ve Orchard) gösteren grafik
 
 <br/>
 
-## Shielded Havuzlar 
+## Korumalı Havuzlar
 
 
 1. <h3 id="ironwood" class="text-3xl font-bold my-4">Ironwood Havuzu</h3>
 
-Ironwood, mevcut birincil shielded havuzdur. 28 Temmuz 2026’da 3.428.143 numaralı blokta NU6.3 ağ yükseltmesinin bir parçası olarak etkinleştirilmiştir ve yeni shielded değer artık burada bulunur.
+Ironwood mevcut birincil korumalı havuzdur. NU6.3 ağ yükseltmesinin bir parçası olarak 28 Temmuz 2026'da 3.428.143 numaralı blokta etkinleşti ve yeni korumalı değerler artık burada tutuluyor.
 
-Bunun nedeni, Mayıs 2026’da Orchard’ın proving sisteminde bir güvenlik açığının bulunmuş olmasıdır. Bunun hiç istismar edildiğine dair bir kanıt yoktur, ancak bu kusur shielded arzın yalnızca ispatlarla sağlam olduğunun kanıtlanamaması anlamına geliyordu. Yerinde yamamak yerine ağ, düzeltilmiş bir devreyle yeni bir havuz oluşturdu ve değeri, her coini herkesin görebileceği şekilde sayan bir turnstile üzerinden taşıdı. Shielded arzın tamamen desteklendiği garantisini geri getiren şey bu muhasebedir.
+Bu havuz, Mayıs 2026'da Orchard'ın kanıt sistemiyle ilgili bir güvenlik açığının bulunması nedeniyle oluşturuldu. Bu açığın kötüye kullanıldığına dair hiçbir kanıt yoktur; ancak bu kusur, korumalı arzın yalnızca kanıtlarla sağlam olduğunun doğrulanamayacağı anlamına geliyordu. Ağ, açığı mevcut sistemde yamamak yerine düzeltilmiş bir devreyle yeni bir havuz oluşturdu ve tüm coinleri herkese açık biçimde sayan bir turnike üzerinden değeri buraya taşıdı. Arzın tamamının karşılığının bulunduğu güvencesini yeniden sağlayan şey bu muhasebedir.
 
-Ironwood, Orchard’ın Action modelini ve Halo 2 ispatlarını yeniden kullanır; bu yüzden günlük kullanımda aynı şekilde davranır. İki şey yenidir: işlemler v6 biçimini kullanır ve Ironwood notları, [ZIP 2005](https://zips.z.cash/zip-2005) kapsamında **quantum-recoverable** özelliğine sahiptir; yani gelecekte bir kuantum bilgisayar bugünün kriptografisini kırarsa, bir coinin zincir üzerindeki kaydı kurtarılabilir olmaya devam eder. Bu, kuantum direnci değil bir kurtarma yoludur ve eski havuzlar için geçerli değildir.
+Ironwood, Orchard'ın Action modelini ve Halo 2 kanıtlarını yeniden kullanır; bu nedenle günlük işleyişi aynıdır. İki yenilik vardır: İşlemler v6 biçimini kullanır ve Ironwood note'ları, [ZIP 2005](https://zips.z.cash/zip-2005) kapsamında **kuantumla kurtarılabilir**; yani gelecekteki bir kuantum bilgisayar günümüzün kriptografisini kırarsa bir coinin zincir üstü kaydı kurtarılabilir durumda kalır. Bu, kuantuma dayanıklılık değil, kurtarma yoludur ve daha eski havuzlar için geçerli değildir.
 
-Yeni bir adrese ihtiyacınız yoktur. Unified Address’ler birden fazla alıcıyı bir araya getirir ve cüzdanlar sizin için doğru havuzu seçer.
+Yeni bir adrese ihtiyacınız yoktur. Birleşik adresler birkaç alıcıyı bir araya getirir ve cüzdanlar sizin için doğru havuzu seçer.
 
 ____
 
@@ -60,17 +60,17 @@ ____
 
 
 ![img2](/content-images/a672e001-6dbc-4e76-ab31-0ed7d7d2ff72-93b5a23e5d.webp)
-Şekil 2: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Orchard havuzunu gösteren bir grafik
+Şekil 2: Ironwood etkinleşmeden önce, 29 Ekim 2025'e kadar olan Orchard havuzunu gösteren grafik
 
 <br/>
 
-Orchard Shielded Havuzu, 31 Mayıs 2022’de NU5 ağ yükseltmesinin bir parçası olarak etkinleştirildi. Orchard, güvenilir kurulum gereksinimini ortadan kaldıran yeni bir shielded protokol sundu ve Unified Address’ler (UA’ler) tarafından kullanılan birincil shielded havuz hâline geldi.
+Orchard Korumalı Havuzu, NU5 ağ yükseltmesinin bir parçası olarak 31 Mayıs 2022'de etkinleştirildi. Orchard, güvene dayalı kurulum ihtiyacını ortadan kaldıran yeni bir korumalı protokol sundu ve Birleşik Adresler (UA) tarafından kullanılan birincil korumalı havuz hâline geldi.
 
-Orchard, geleneksel shielded girişler ve çıkışlar yerine Action’lara dayalı daha esnek bir işlem modeli sunarak işlem üstverisi sızıntısını azalttı; böylece kullanılabilirliği, verimliliği ve gizliliği önemli ölçüde geliştirdi.
+Orchard, işlem meta verilerinin sızmasını azaltarak ve geleneksel korumalı girdi ve çıktılar yerine Action'lara dayanan daha esnek bir işlem modeli sunarak kullanılabilirliği, verimliliği ve gizliliği önemli ölçüde iyileştirdi.
 
-28 Temmuz 2026’da Ironwood yükseltmesi etkinleştirildiğinden beri **Orchard yalnızca harcama** modundadır. Yeni değer bu havuza giremez. Burada tutulan fonlar hâlâ harcanabilir ve turnstile üzerinden Ironwood’a taşınmaktadır. Cüzdanlar bunu sizin için halleder, ancak çoğu size hız konusunda bir miktar kontrol sunar. Orchard’dan yapılan her çıkış, tutarını blokzincirde gösterir; bu nedenle bir cüzdanın geçişi nasıl bölümlendirdiği ve zamanladığı gizlilik açısından önemlidir.
+Ironwood yükseltmesi 28 Temmuz 2026'da etkinleştiğinden beri, **Orchard yalnızca harcama için kullanılabilir**. Havuzun içine yeni değer giremez. Burada tutulan fonlar harcanabilir ve turnike aracılığıyla Ironwood'e taşınmaktadır. Cüzdanlar bu işlemi sizin için yapar; ancak çoğu cüzdan geçiş hızını bir ölçüde kontrol etmenizi sağlar. Orchard'ten yapılan her çıkışın miktarı blokzincirde görünür; bu nedenle cüzdanın geçişi nasıl böldüğü ve zamanladığı gizlilik açısından önemlidir.
 
-Orchard fonlarınız varsa, geçişin pratikte ne anlama geldiğini görmek için [Ironwood](/zcash-tech/ironwood) sayfasına bakın.
+Orchard fonlarınız varsa, geçişin uygulamada ne anlama geldiğini öğrenmek için [Ironwood](/zcash-tech/ironwood) sayfasına bakın.
 
 ____
 
@@ -78,19 +78,19 @@ ____
 
 
 ![img3](/content-images/b1c6bb71-9356-45eb-8e4a-19d7cf1790ae-5e3051b082.webp)
-Şekil 3: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Sapling havuzunu gösteren bir grafik
+Şekil 3: Ironwood etkinleşmeden önce, 29 Ekim 2025'e kadar olan Sapling havuzunu gösteren grafik
 
 <br/>
 
-[Zcash Sapling](https://z.cash/upgrade/sapling), 28 Ekim 2018’de kullanıma sunulan Zcash protokolü yükseltmesidir. Gizlilik, verimlilik ve kullanılabilirlik açısından bazı sınırlamaları bulunan önceki sürüm Sprout’a göre büyük bir iyileştirmedir. 
+[Zcash Sapling](https://z.cash/upgrade/sapling), Zcash protokolüne 28 Ekim 2018'de getirilen bir yükseltmeydi. Gizlilik, verimlilik ve kullanılabilirlik açısından bazı kısıtlamaları olan önceki Sprout sürümüne kıyasla büyük bir iyileştirmeydi.
 
-Yükseltmeler arasında shielded adresler için geliştirilmiş performans, kullanıcıların özel anahtarlarını açığa çıkarmadan gelen ve giden işlemleri görüntülemelerini sağlayan geliştirilmiş viewing key’ler ve işlem imzalama sırasında donanım cüzdanları için bağımsız Zero Knowledge anahtarları bulunur. 
+Yükseltmeler arasında korumalı adresler için iyileştirilmiş performans, kullanıcıların özel anahtarlarını açığa çıkarmadan gelen ve giden işlemleri görmesini sağlayan geliştirilmiş görüntüleme anahtarları ve işlem imzalama sırasında donanım cüzdanları için bağımsız sıfır bilgi anahtarları yer alır.
 
-Zcash Sapling, kullanıcıların Sprout serisine kıyasla çok daha kısa sürede, yalnızca birkaç saniye içinde özel işlemler gerçekleştirmesini sağlar. 
+Zcash Sapling, Sprout Serisi'nde daha uzun süren işlemlere kıyasla kullanıcıların özel işlemleri yalnızca birkaç saniyede gerçekleştirmesini sağlar.
 
-İşlem shielded özelliği gizliliği artırır; üçüncü tarafların işlemleri ilişkilendirmesini ve aktarılan ZEC miktarını belirlemesini imkânsız hâle getirir. Sapling ayrıca özel işlem üretmek için gereken hesaplama gereksinimlerini azaltarak kullanılabilirliği iyileştirir ve bunu kullanıcılar için daha erişilebilir kılar.
+İşlemlerin korumalı hâle getirilmesi gizliliği artırır; üçüncü tarafların işlemleri ilişkilendirmesini ve aktarılan ZEC miktarını belirlemesini imkânsız kılar. Sapling, özel işlem oluşturmak için gereken hesaplama kaynaklarını azaltarak kullanılabilirliği de artırır ve bu işlemleri kullanıcılar için daha erişilebilir hâle getirir.
 
-Sapling cüzdan adresleri "zs" ile başlar ve bu, yerleşik Sapling adreslerine sahip desteklenen tüm Zcash Shielded Wallet’larda (Zkool, Zingo Wallet vb.) görülebilir. Zcash Sapling, işlem gizliliği ve verimliliği açısından önemli bir teknolojik gelişmeyi temsil eder; bu da Zcash’i gizlilik ve güvenliğe önem veren kullanıcılar için pratik ve etkili bir kripto para birimi hâline getirir.
+Sapling cüzdan adresleri "zs" ile başlar; bu, yerleşik Sapling adresleri bulunan desteklenen tüm Zcash Korumalı Cüzdanlarda (Zkool, Zingo Cüzdan vb.) görülebilir. Zcash Sapling, işlemlerin gizliliği ve verimliliği bakımından teknolojide önemli bir gelişmeyi temsil eder ve gizlilikle güvenliğe önem veren kullanıcılar için Zcash'i pratik ve etkili bir kripto para hâline getirir.
 
 ____
 
@@ -98,82 +98,82 @@ ____
 
 
 ![img4](/content-images/956eceed-f4d6-4087-99d0-32a770449dda-a3cc45305e.webp)
-Şekil 4: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Sprout havuzunu gösteren bir grafik
+Şekil 4: Ironwood etkinleşmeden önce, 29 Ekim 2025'e kadar olan Sprout havuzunu gösteren grafik
 
-Sprout, şimdiye kadar başlatılan ilk açık ve izinsiz Zero Knowledge gizlilik protokolüydü. 28 Ekim 2016’da başlatıldı.
+Sprout, kullanıma sunulan ilk açık, izin gerektirmeyen sıfır bilgi gizlilik protokolüydü. 28 Ekim 2016'da kullanıma sunuldu.
 
-Sprout adresleri, her zaman "zc" olan ilk iki harfleriyle tanımlanır. "Sprout" adı, yazılımın genç, filizlenen ve gelişime açık, büyüme potansiyeli yüksek bir blokzincir olduğunu vurgulamak amacıyla verilmiştir. 
+Sprout adresleri, her zaman "zc" olan ilk iki harflerinden tanınır. Yazılıma henüz genç, gelişme potansiyeli yüksek ve geliştirmeye açık bir blokzincir olduğunu vurgulamak amacıyla "Sprout" adı verildi.
 
-Sprout, [Zcash slow start Mining](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) için erken bir araç olarak kullanıldı; bu da madenciler için ZEC dağıtımını ve blok ödüllerini beraberinde getirdi. 
+Sprout, [Zcash yavaş başlangıç madenciliği](https://electriccoin.co/blog/slow-start-and-mining-ecosystem/) için erken bir araç olarak kullanıldı; bu süreçte ZEC ve madenci blok ödülleri dağıtıldı.
 
-Daha fazla sayıda shielded işlemin gerçekleşmesiyle Zcash ekosistemi genişlemeye devam ettikçe, Zcash Sprout Serisinin kullanıcı gizliliği, işlem ölçeklenebilirliği ve işleme açısından sınırlı ve daha az verimli olduğu gözlemlendi. Bu da ağın değiştirilmesine ve Sapling yükseltmesine yol açtı. 
+Zcash ekosistemi büyümeyi sürdürüp korumalı işlem sayısı arttıkça, Zcash Sprout Serisi'nin kullanıcı gizliliği, işlem ölçeklendirmesi ve işleme açısından sınırlı ve daha az verimli kaldığı gözlemlendi. Bu durum ağın değiştirilmesine ve Sapling Yükseltmesi'ne yol açtı.
 
 ---
-5. <h3 id="transparent" class="text-3xl font-bold my-4">Transparent Havuzu</h3>
+5. <h3 id="transparent" class="text-3xl font-bold my-4">Şeffaf Havuz</h3>
 <br/>
 
 ![img5](/content-images/01de2907-b62d-4421-83d7-ea4908faa828-6f74b724ed.webp)
-Şekil 5: 29 Ekim 2025 itibarıyla, Ironwood etkinleşmeden önceki Transparent havuzunu gösteren bir grafik
+Şekil 5: Ironwood etkinleşmeden önce, 29 Ekim 2025'e kadar olan Şeffaf havuzu gösteren grafik
 
 <br/>
 
-Zcash Transparent havuzu shielded değildir ve özel değildir. Zcash üzerindeki Transparent cüzdan adresleri "t" harfiyle başlar; bu adres türünü işlemler için kullanırken gizlilik seviyesi çok düşüktür.
+Zcash Şeffaf havuzu korumasızdır ve gizlilik sağlamaz. Zcash üzerindeki şeffaf cüzdan adresleri "t" harfiyle başlar; bu adres türüyle yapılan işlemlerde gizlilik çok düşüktür.
 
-Zcash’teki Transparent işlemler, çoklu imzalı işlemleri destekleyen ve standart herkese açık adresleri kullanan Bitcoin işlemlerine benzer.
+Zcash üzerindeki şeffaf işlemler, çoklu imza işlemlerini destekleyen ve standart herkese açık adresler kullanan Bitcoin işlemlerine benzer.
 
-Zcash Transparent adresleri çoğunlukla merkezi borsalar tarafından, kullanıcılar arasında ZEC gönderip alırken yüksek şeffaflık ve ağ onayı sağlamak için kullanılır.
+Zcash Şeffaf adresleri çoğunlukla merkezi borsalar, kullanıcılar arasında ZEC gönderirken ve alırken yüksek şeffaflık ve ağ onayı sağlamak için kullanır.
 
-Ayrıca belirtmek gerekir ki, Zcash shielded adresleri işlemler sırasında yüksek gizlilik sağlarken, işlemleri işlemek için daha fazla hesaplama kaynağı da gerektirir. Bu nedenle bazı kullanıcılar, aynı düzeyde gizlilik gerektirmeyen işlemler için Transparent adresleri tercih edebilir.
-
-<br/>
-
-## Havuzlar Arası Transfer İçin Önerilen Uygulamalar
-
-Zcash Ağında işlem sırasında yüksek düzeyde gizlilik istendiğinde, aşağıdaki uygulamaları takip etmeniz önerilir;
-
-Zcash blokzincirinde "z to z" cüzdanlar arasında gerçekleşen işlemler çoğunlukla shielded olur ve üretilen yüksek gizlilik seviyesi nedeniyle bazen Private Transaction olarak adlandırılır. Gizlilik gerektiğinde $ZEC gönderip almanın genellikle en iyi ve en çok önerilen yolu budur. 
-
----
-
-"Z-address" üzerinden "T-address"e ZEC gönderdiğinizde, bu basitçe bir Deshielding işlemi anlamına gelir. Bu işlem türünde gizlilik seviyesi her zaman yüksek değildir; çünkü ZEC’in bir Transparent Address’e gönderilmesi nedeniyle bazı bilgiler blokzincir üzerinde görünür olacaktır. Yüksek gizlilik gerektiğinde Deshielding işlemi her zaman önerilmez. 
-
----
-
-Bir Transparent Address’ten (T-address) bir Z-address’e ZEC aktarmak basitçe Shielding olarak bilinir. Bu işlem türünde gizlilik seviyesi, z-z işlemine kıyasla her zaman o kadar yüksek değildir; ancak gizlilik gerektiğinde yine de önerilir. 
-
----
-
-Zcash Ağında bir Transparent Address’ten (T-address) başka bir Transparent Address’e (T-address) ZEC göndermek (T-T işlemi), Bitcoin işlemlerine çok benzer ve bu yüzden Zcash üzerindeki T-T işlemleri her zaman Public transaction olarak adlandırılır; çünkü hem gönderenin hem de alıcının işlem ayrıntıları kamuya görünür hâle gelir, bu da bu tür işlemlerde gizlilik seviyesini çok düşürür. 
-
-Kripto para merkezi borsalarının çoğu, Zcash blokzinciri üzerinde işlem yaparken Transparent Address ("T-address) kullanır, ancak bu işlem türü (T-T) herhangi bir özel özellik taşımaz.
+Zcash Korumalı adresler işlemler sırasında yüksek gizlilik sağlasa da işlemleri işlemek için daha fazla hesaplama kaynağı gerektirir. Bu nedenle bazı kullanıcılar, aynı düzeyde gizlilik gerektirmeyen işlemler için Şeffaf adresleri tercih edebilir.
 
 <br/>
 
-## Orchard’dan Ironwood’a Geçiş
+## Havuzlar Arası Aktarım İçin Önerilen Uygulamalar
 
-Geçiş şu anda gerçekleşiyor. Orchard yeni yatırımlara kapatıldı ve hâlâ orada duran değer, işlem işlem Ironwood’a taşınıyor. Toplamları [ironwood.live](https://ironwood.live/) üzerinden izleyebilirsiniz.
+Zcash Ağında işlem yaparken yüksek düzeyde gizlilik sağlamak için aşağıdaki uygulamaları izlemeniz önerilir:
 
-Bunun sizin için anlamı, fonlarınızın nerede olduğuna bağlıdır:
+Zcash blokzincirindeki "z'den z'ye" cüzdanlar arasındaki işlemler çoğunlukla korumalıdır ve sağladıkları yüksek gizlilik nedeniyle bazen Özel İşlem olarak adlandırılır. Gizlilik gerektiğinde, $ZEC gönderip almanın genellikle en iyi ve en çok önerilen yolu budur.
 
-1. **Yeni shielded etkinlik** otomatik olarak Ironwood’a gider. Yapmanız gereken bir şey yok.
-2. **Mevcut Orchard fonlarının** taşınması gerekir. Bakımı yapılan cüzdanlar bunu sizin için yapar; genellikle hepsini bir anda değil, aşamalar hâlinde gerçekleştirir.
-3. **Sapling etkilenmez** ve hâlâ fon kabul eder. Yalnızca Orchard kapatıldı.
-4. **Turnstile, havuzlar arasında geçen her şeyi sayar**; bu da yol boyunca hiçbir coin üretilmediğini kanıtlayan şeydir.
+---
 
-> **Bilinmesi gereken önemli bir gizlilik uyarısı.** Turnstile, havuzlar arasında geçen *miktarı* blok yüksekliğiyle birlikte yayınlar. Gönderen ve alıcı her zamanki gibi gizli kalır, ancak ayırt edici bir miktar size kadar geri izlenebilir. Bu nedenle cüzdanlar, bakiyenizi tek ve tanınabilir bir toplu hareket olarak taşımak yerine, standart miktarlar kullanarak aşamalı geçiş yapar. Cüzdanınızın kendi hızında ilerlemesine izin verin ve IP adresinizin taşıdığınız miktarlara bağlanmaması için Tor veya bir VPN kullanmayı düşünün.
+ZEC'i "Z adresi"nden "T adresi"ne gönderdiğinizde, bu bir korumayı kaldırma işlemidir. Bu işlem türünde gizlilik düzeyi her zaman yüksek değildir; çünkü ZEC'i Şeffaf bir adrese göndermek, bazı bilgileri blokzincirde görünür hâle getirir. Yüksek gizlilik gerektiğinde korumayı kaldırma işlemi her zaman önerilmez.
 
-Yükseltmenin kendisi için [Ironwood](/zcash-tech/ironwood), muhasebenin nasıl çalıştığı için ise [The Turnstile](/zcash-tech/the-turnstile) sayfalarına bakın.
+---
+
+ZEC'i Şeffaf bir adresten (T adresi) bir Z adresine aktarmaya korumaya alma denir. Bu işlemde gizlilik düzeyi z-z işlemlerine kıyasla her zaman yüksek değildir; ancak gizlilik gerektiğinde bu yöntem de önerilir.
+
+---
+
+ZEC'i Zcash Ağında bir Şeffaf adresten (T adresi) başka bir Şeffaf adrese (T adresi) göndermek, Bitcoin işlemine çok benzer. Bu nedenle Zcash üzerindeki T-T işlemleri her zaman herkese açık işlemler olarak adlandırılır: Gönderenin ve alıcının işlem bilgileri herkese görünür olduğundan bu tür işlemlerde gizlilik düzeyi çok düşüktür.
+
+Merkezi kripto para borsalarının çoğu, Zcash blokzincirinde işlem yapmak için Şeffaf adresleri ("T adresi) kullanır; ancak bu işlem türü (T-T) hiçbir gizlilik özelliği sağlamaz.
+
+<br/>
+
+## Orchard'dan Ironwood'e Geçiş
+
+Geçiş şu anda gerçekleşiyor. Orchard yeni yatırımlara kapatıldı ve orada hâlâ bulunan değer, her seferinde bir işlemle Ironwood'e taşınıyor. Toplamları [ironwood.live](https://ironwood.live/) adresinden izleyebilirsiniz.
+
+Bunun sizin için anlamı, fonlarınızın nerede bulunduğuna bağlıdır:
+
+1. **Yeni korumalı etkinlik** otomatik olarak Ironwood'e gider. Yapmanız gereken bir şey yoktur.
+2. **Mevcut Orchard fonlarının** taşınması gerekir. Bakımı sürdürülen cüzdanlar bunu sizin için genellikle tek seferde değil, aşamalar hâlinde yapar.
+3. **Sapling etkilenmez** ve fon kabul etmeye devam eder. Yalnızca Orchard kapatıldı.
+4. **Turnike havuzlar arasında geçen her şeyi sayar** ve bu sayım, süreç boyunca hiçbir coin'in yaratılmadığını kanıtlar.
+
+> **Bilmeniz gereken bir gizlilik notu.** Turnike, havuzlar arasında geçen *miktarı* ve blok yüksekliğini yayımlar. Gönderen ve alıcı her zamanki gibi gizli kalır; ancak ayırt edici bir miktar sizinle ilişkilendirilebilir. Bu nedenle cüzdanlar, bakiyenizi tek ve tanınabilir bir meblağ hâlinde taşımak yerine standart kupürleri kullanarak aşamalı geçiş yapar. Cüzdanınızın geçiş hızını ayarlamasına izin verin ve IP adresinizin taşıdığınız miktarlarla ilişkilendirilmemesi için Tor veya VPN kullanmayı değerlendirin.
+
+Yükseltmenin kendisi için [Ironwood](/zcash-tech/ironwood) sayfasına, muhasebe işlemlerinin nasıl yürüdüğü için [The Turnstile](/zcash-tech/the-turnstile) sayfasına bakın.
 
 <br/>
 
 ## Kaçınılması Gereken Yaygın Hatalar
 
-- **t-address’ten t-address’e göndermek** — tamamen herkese açıktır, gizlilik yoktur. Fonları önce her zaman shielded yapın.
-- **Orchard’ın hâlâ fon kabul ettiğini sanmak** — 28 Temmuz 2026’dan beri yalnızca harcama modundadır. Değer çıkabilir, ama yeni bir şey giremez
-- **Sapling adresleri ile Unified Address’leri karıştırmak** — Sapling adresleri `zs` ile başlar. Unified Address’ler `u1` ile başlar ve birden fazla alıcıyı bir araya getirir; dolayısıyla ödemenizin hangi havuza ulaşacağı, bu adresin hangi alıcıları taşıdığına bağlıdır
-- **Fonları Sprout havuzunda bırakmak** — Sprout yıllardır kullanım dışıdır; bu fonları oradan çıkarın
-- **Bir geçişin tamamen görünmez olmasını beklemek** — gönderen ve alıcı görünmese de, turnstile’dan geçen miktar herkese açıktır
-- **t → z (shielding) işleminin tamamen özel olduğunu varsaymak** — shielding işleminin kendisi zincir üzerinde görünürdür; içeriği görünmez
+- **t adresinden t adresine gönderim yapmak** — tamamen herkese açıktır ve gizlilik sağlamaz. Önce fonlarınızı mutlaka korumalı hâle getirin.
+- **Orchard'in hâlâ fon kabul ettiğini varsaymak** — 28 Temmuz 2026'dan beri yalnızca harcama için kullanılabilir. Değer havuzdan çıkabilir, ancak yeni değer giremez
+- **Sapling ile Birleşik adresleri karıştırmak** — Sapling adresleri `zs` ile başlar. Birleşik adresler `u1` ile başlar ve birkaç alıcıyı bir araya getirir; bu nedenle ödemenizin hangi havuza gideceği adresin içerdiği alıcılara bağlıdır
+- **Fonları Sprout havuzunda bırakmak** — Sprout yıllardır kullanımdan kaldırılmıştır; bu fonları dışarı taşıyın
+- **Geçişin tamamen görünmez olmasını beklemek** — gönderen ve alıcı görünmese de turnikeden geçen miktar herkese açıktır
+- **t → z (korumaya alma) işleminin tamamen gizli olduğunu varsaymak** — korumaya alma işleminin kendisi zincir üstünde görünür, içeriği ise görünmez
 
 ---
 
@@ -181,8 +181,8 @@ Yükseltmenin kendisi için [Ironwood](/zcash-tech/ironwood), muhasebenin nasıl
 
 - [Ironwood](/zcash-tech/ironwood) — Mevcut havuzu oluşturan yükseltme
 - [The Turnstile](/zcash-tech/the-turnstile) — Havuzlar arasında hareket eden değerin nasıl denetlendiği
-- [Cüzdanlar](/using-zcash/wallets) — Hangi cüzdanların bakımının yapıldığı ve Ironwood için hazır olduğu
-- [İşlemler](/using-zcash/transactions) — Shielded işlemler nasıl gönderilir
-- [ZEC Satın Alma](/using-zcash/buying-zec) — Havuzlarda kullanmadan önce ZEC edinme
-- [zk-SNARKs](/zcash-tech/zk-snarks) — Shielded havuzların kriptografik temeli
-- [ZEC ve Zcash Nedir](/start-here/what-is-zec-and-zcash) — Zcash gizliliği hakkında arka plan
+- [Wallets](/using-zcash/wallets) — Hangi cüzdanların bakımının sürdürüldüğü ve Ironwood için hazır olduğu
+- [Transactions](/using-zcash/transactions) — Korumalı işlemlerin nasıl gönderileceği
+- [Buying ZEC](/using-zcash/buying-zec) — Havuzlarda kullanmadan önce ZEC edinme
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Korumalı havuzların kriptografik temeli
+- [What is ZEC and Zcash](/start-here/what-is-zec-and-zcash) — Zcash gizliliği hakkında arka plan

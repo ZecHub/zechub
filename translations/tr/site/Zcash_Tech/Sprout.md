@@ -4,65 +4,65 @@
 
 # Sprout
 
-> Zcash, 28 Ekim 2016'da Sprout shielded pool ile başlatıldı.
+> Zcash, 28 Ekim 2016'da Sprout korumalı havuzuyla kullanıma sunuldu.
 
-> **Uyarı:** NU7 ana ağda 6 Kasım 2026 tarihinde (UTC) 3.543.405 yüksekliğinde etkinleşti (bkz. [ZIP 259](https://zips.z.cash/zip-0259)). O tarihten bu yana Sprout havuzunda hâlâ bulunan ZEC harcanamaz durumda, çünkü 4. sürüm işlemler artık geçerli değil (ZIP 2003). Kurtarma seçenekleri hakkında bilgi için [Fonların kurtarılması](../using-zcash/recovering-funds) bölümünü okuyun.
+> **Uyarı:** NU7, 6 Kasım 2026'da (UTC; bkz. [ZIP 259](https://zips.z.cash/zip-0259)) 3.543.405 blok yüksekliğinde ana ağda etkinleştirildi. O tarihten bu yana, Sprout havuzunda kalan ZEC harcanamaz; çünkü 4. sürüm işlemler artık geçerli değildir (ZIP 2003). Kurtarma seçeneklerinin arka planı için [Fonları Kurtarma](../using-zcash/recovering-funds) sayfasını okuyun.
 
-Buradan çıkaracağınız ana fikir: Sprout, Zcash'in başladığı yerdir; özel, doğrulanabilir paranın canlı bir blok zincirinde ilk kez çalıştığı andır.
+Öğrenecekleriniz: Zcash'ın başladığı yer Sprout'tır; özel ve doğrulanabilir paranın canlı bir blokzincirde çalıştığı ilk örnektir.
 
-Sprout, Zcash ağının orijinal başlangıcıdır; daha sonraki bir [ağ yükseltmesi](../start-here/network-upgrades) değildir. 28 Ekim 2016'da genesis bloğunda canlıya geçti. Sprout'u tanımlayan numaralı bir ZIP yoktur: ZIP süreci daha sonra Overwinter ile başladı, bu yüzden Sprout, orijinal Zcash Protocol Specification ve üzerine inşa edildiği Zerocash yapısı tarafından tanımlanır. Zooko Wilcox liderliğindeki [Electric Coin Company](../zcash-organizations/electric-coin-company) (o zamanki adıyla Zerocoin Electric Coin Company) bunu geliştirdi ve kullanıma sundu. Sprout, ilk pratik zk-SNARK shielded işlemlerini ve orijinal shielded pool'u tanıttı; böylece insanlar ZEC göndereni, alıcısı ve miktarı gizliyken gönderebilirken ağ da bakiyelerin toplamının tuttuğunu kontrol etmeye devam edebildi. İsim, ekibin büyümesini beklediği genç, filizlenen bir zinciri simgeliyordu.
+Sprout, Zcash ağının daha sonraki bir [ağ yükseltmesi](../start-here/network-upgrades) değil, ilk kez kullanıma sunulmasıdır. 28 Ekim 2016'da başlangıç bloğuyla birlikte yayına girdi. Numaralandırılmış hiçbir ZIP, Sprout'ı tanımlamaz: ZIP süreci daha sonra Overwinter ile başladı; bu nedenle Sprout, ilk Zcash Protokol Belirtimi ve üzerine inşa edildiği Zerocash yapısıyla tanımlanır. Zooko Wilcox liderliğindeki [Electric Coin Company](../zcash-organizations/electric-coin-company) (o zamanlar Zerocoin Electric Coin Company), sistemi geliştirip kullanıma sundu. Sprout, ilk pratik zk-SNARK korumalı işlemleri ve özgün korumalı havuzu tanıttı; böylece ağ bakiyelerin tutarlı olduğunu doğrulamaya devam ederken kişiler, gönderen, alıcı ve tutar gizli kalacak şekilde ZEC gönderebildi. İsim, ekibin büyümesini beklediği genç ve filizlenen bir Zincir'e işaret ediyordu.
 
-Bu neden önemlidir? Sprout'tan önceki her açık blok zinciri ödemelerinizi gözler önüne seriyordu: herkes kimin kime ne kadar ödediğini görebiliyordu. Sprout, bu ayrıntıları gizleyip aynı zamanda kimsenin hile yapmadığını kanıtlayan ilk canlı, izinsiz ağdı. Bu, sıradan finansal mahremiyet için önemlidir; yani nakitte ya da başkasının okuyamadığı bir banka ekstresinde beklediğiniz türden mahremiyet. Ayrıca güçlü zincir üstü gizliliğin yalnızca kâğıt üzerindeki bir tasarımın ötesinde, pratikte çalışabileceğini de kanıtladı. Bunu mümkün kılan trusted-setup Ceremony, daha sonraki kriptografi çalışmaları için bir referans noktası oldu ve Sprout ile sunulan yavaş, bellek açısından ağır ispat sistemi, ekibi iki yıl sonra Sapling'i geliştirmeye iten şeyin tam olarak kendisiydi.
+Bunun önemi. Sprout'dan önceki her açık blokzincir ödemelerinizi herkesin görebileceği şekilde sergiliyordu: herkes kimin kime ne kadar ödediğini görebilirdi. Sprout, bu ayrıntıları gizleyip yine de kimsenin hile yapmadığını kanıtlayan ilk canlı, izin gerektirmeyen ağdı. Bu, nakitten ya da başkalarının okuyamadığı bir banka ekstresinden beklediğiniz türden olağan finansal gizlilik için önemlidir. Ayrıca güçlü zincir üstü gizliliğin, kâğıt üzerindeki bir tasarımın ötesinde, pratikte işe yarayabileceğini de kanıtladı. Bunu mümkün kılan güvene dayalı kurulum Seremonisi, sonraki kriptografi çalışmaları için bir referans noktası hâline geldi; Sprout ile birlikte sunulan yavaş ve bellek yoğun kanıtlama sistemi ise ekibi tam da iki yıl sonra Sapling'ı geliştirmeye itti.
 
-## İlk shielded pool
+## İlk korumalı havuz
 
-Sprout iki tür adres oluşturdu. Transparent adresler (t-addresses) Bitcoin gibi çalışır; ayrıntılar herkese açık defterde görünür. Shielded adresler (z-addresses) fonları Sprout [shielded pool](../using-zcash/shielded-pools) içine gönderir; burada gönderen, alıcı ve miktar gizli kalır. İşin püf noktası [zk-SNARKs](../zcash-tech/zk-snarks) yani bir işlemin ayrıntıların hiçbirini açıklamadan, çift harcama olmadığını ve bakiyelerin tuttuğunu gösteren sıfır bilgi ispatlarıdır. Sprout, bunun canlı bir kripto para sisteminde üretim ortamında ilk kez çalıştırılmasıydı.
+Sprout iki tür adres oluşturdu. Şeffaf adresler (t-adresleri), ayrıntıların herkese açık defterde görülebildiği Bitcoin gibi çalışır. Korumalı adresler (z-adresleri), fonları gönderenin, alıcının ve tutarın gizli kaldığı Sprout [korumalı havuz](../using-zcash/shielded-pools) içine gönderir. Bunun yöntemi [zk-SNARKs](../zcash-tech/zk-snarks): Bir işlemin geçerli olduğunu, çift harcama olmadığını ve bakiyelerin tutarlı olduğunu, hiçbir ayrıntıyı açığa çıkarmadan gösteren sıfır bilgi kanıtlarıdır. Sprout, bunun canlı bir kripto para üzerinde üretim ortamında çalıştığı ilk örnekti.
 
-![Transparent işlemler göndereni, alıcıyı ve miktarı açığa çıkarırken, Sprout shielded işlemleri üçünü de gizler ama yine de doğrulanabilir kalır](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
+![Şeffaf işlemler göndereni, alıcıyı ve tutarı açığa çıkarırken Sprout korumalı işlemleri üçünü de gizler ancak doğrulanabilir kalır](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
-## Ceremony
+## Seremoni
 
-Sprout'taki zk-SNARKs için bir dizi açık parametre gerekiyordu ve bunların güvenli biçimde üretilmesi Ceremony adı verilen tek seferlik bir kurulum gerektiriyordu. Birbirinden uzak, ayrı konumlardaki altı katılımcı, toxic waste denilen gizli birer parça üretti. Eğer biri bu parçaların tamamını yeniden bir araya getirebilseydi, yoktan ZEC üretebilirdi. Tasarım bu riski basit bir kurala dönüştürdü: en az bir katılımcı kendi parçasını yok ettiği sürece tam sır hiçbir zaman yeniden oluşturulamazdı, böylece sahte ZEC üretmek imkânsız kalırdı. Kamuya açık olarak adı bilinen katılımcılar arasında Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd ve NCC Group'tan Derek Hinch bulunur. Bir katılımcı anonim kalmayı seçti.
+Sprout içindeki zk-SNARKs bir dizi açık parametreye ihtiyaç duyuyordu ve bunları güvenli biçimde oluşturmak, Seremoni adı verilen tek seferlik bir kurulum gerektiriyordu. Birbirinden uzakta ve ayrı konumlarda bulunan altı katılımcının her biri, zehirli atık adı verilen gizli bir parça oluşturdu. Herhangi biri tüm parçaları yeniden bir araya getirebilseydi, yoktan ZEC oluşturabilirdi. Tasarım, bu riski basit bir kurala dönüştürdü: Katılımcılardan en az biri kendi parçasını yok ettiği sürece, gizli anahtarın tamamı asla yeniden oluşturulamazdı; böylece sahtecilik imkânsız kalıyordu. Adları kamuya açıklanan katılımcılar arasında Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd ve NCC Group'tan Derek Hinch bulunuyor. Bir katılımcı anonim kalmayı tercih etti.
 
-![Ceremony: altı katılımcı özel parçalar üretir, ardından toxic waste'i yok eder ve geriye yalnızca herkese açık Sprout parametreleri kalır](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
+![Seremoni: altı katılımcı gizli parçalar oluşturur, ardından zehirli atığı yok eder; geriye yalnızca Sprout'ın açık parametreleri kalır](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## Köken
 
-Sprout, sonraki her değişikliğin üzerine inşa edildiği temel çizgidir. Overwinter ile ağ yükseltme mekanizması geldiğinde, orijinal kuralları consensus branch id 0 olarak etiketledi; bu basitçe henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrası) Sprout'un başlattığı zincirin üzerine oturur. Başlangıç, 28 Ekim'deki bir genesis için Ağustos 2016'da duyuruldu, Ceremony önceki haftalarda gerçekleştirildi ve genesis bloğunun sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak okunur.
+Sprout, sonraki tüm değişikliklerin üzerine inşa edildiği temel sürümdür. Ağ yükseltme mekanizması Overwinter ile geldiğinde, özgün kuralları konsensüs dal kimliği 0 olarak etiketledi; bu, henüz hiçbir yükseltmenin uygulanmadığı anlamına gelir. O zamandan beri gelen her şey (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6 ve sonrakiler), Sprout'ın başlattığı Zincir üzerinde yer alır. Kullanıma sunulacağı Ağustos 2016'da duyuruldu ve başlangıç bloğunun 28 Ekim'de oluşturulacağı belirtildi; Seremoni önceki haftalarda yürütüldü ve başlangıç bloğunda sabit kodlanmış zaman damgası 28 Ekim 2016, 07:56 UTC olarak kaydedildi.
 
-![Ağustos 2016 duyurusundan parametre Ceremony'sine ve 28 Ekim 2016'daki Sprout başlangıcına uzanan zaman çizelgesi](/content-images/sprout-timeline-348766352a.webp)
+![Ağustos 2016 duyurusundan parametre Seremonisi üzerinden 28 Ekim 2016 Sprout lansmanına kadar zaman çizelgesi](/content-images/sprout-timeline-348766352a.webp)
 
-## Sözlük
+## Sözlükçe
 
-| Terim | Düz anlamı |
+| Terim | Sade dille anlamı |
 |---|---|
-| zk-SNARK | Göndereni, alıcıyı veya miktarı açıklamadan bir işlemin geçerli olduğunu gösteren bir sıfır bilgi ispatı |
-| Shielded pool | Zcash'in miktarların ve tarafların gizlendiği özel tarafı. Sprout pool ilk olandı |
-| z-address and t-address | z-address shielded'dır ve ayrıntıları gizli tutar. t-address transparent'tır ve ayrıntıları herkese açık defterde gösterir |
-| The Ceremony | Sprout'un herkese açık parametrelerini üreten ve ardından toxic waste'i ortadan kaldıran 2016 tarihli çok taraflı kurulum |
-| Toxic waste | ZEC'in sahte şekilde üretilememesi için yok edilmesi gereken Ceremony'deki gizli anahtar parçaları |
-| Consensus branch id 0 | Sprout kurallarının etiketi; herhangi bir ağ yükseltmesinden önceki temel durumu ifade eder |
+| zk-SNARK | Göndereni, alıcıyı veya tutarı açığa çıkarmadan bir işlemin geçerli olduğunu gösteren sıfır bilgi kanıtı |
+| Shielded pool | Tutarların ve tarafların gizli olduğu Zcash'ın özel bölümü. Sprout havuzu ilkti |
+| z-address and t-address | z-adresi korumalıdır ve ayrıntıları gizli tutar. t-adresi şeffaftır ve ayrıntıları herkese açık defterde gösterir |
+| The Ceremony | Sprout'ın açık parametrelerini oluşturup ardından zehirli atığı ortadan kaldıran 2016'daki çok taraflı kurulum |
+| Toxic waste | ZEC'ın taklit edilememesi için yok edilmesi gereken Seremoni'deki gizli anahtar parçaları |
+| Consensus branch id 0 | Sprout'ın kuralları için kullanılan etiket; herhangi bir ağ yükseltmesinden önceki temel sürümü ifade eder |
 
 ## SSS
 
-Sprout bugün benim ZEC'imi ya da gizliliğimi değiştiriyor mu? Hayır. Sprout tarihtir; ZEC'inizin üzerinde yaşadığı zinciri başlatan açılıştır. Bugünkü coin'leriniz ve gizliliğiniz, Sprout hakkında yapmanız gereken bir şeye değil, şu anda kullandığınız cüzdana ve shielded pool'a bağlıdır.
+Sprout benim ZEC’ımı ya da bugün gizliliğimi değiştirir mi? Hayır. Sprout tarihtir; ZEC’ınızın üzerinde bulunduğu Zincir’i başlatan lansmandır. Bugünkü coinleriniz ve gizliliğiniz, Sprout hakkında yapmanız gereken herhangi bir şeye değil, şu anda kullandığınız cüzdana ve korumalı havuza bağlıdır.
 
-Sprout için neden bir ZIP numarası yok? ZIP süreci daha sonra, Overwinter yükseltmesiyle başladı. Sprout, dayandığı Zcash Protocol Specification ve Zerocash yapısı tarafından tanımlanan orijinal başlangıçtır. ZIP 200, Sprout'tan yalnızca geriye dönük olarak, herhangi bir yükseltmeden önceki temel çizgi olan consensus branch id 0 şeklinde söz eder.
+Sprout için neden bir ZIP numarası yok? ZIP süreci daha sonra, Overwinter yükseltmesiyle başladı. Sprout ilk kullanıma sunumdur; Zcash Protokol Belirtimi ve temel aldığı Zerocash yapısıyla tanımlanır. ZIP 200, Sprout'dan yalnızca geriye dönük olarak, herhangi bir yükseltmeden önceki temel sürüm olan konsensüs dal kimliği 0 şeklinde bahseder.
 
-Ceremony'deki altı kişiye güvenmem gerekiyor muydu? Kurulum, yalnızca birinin dürüst olması yeterli olacak şekilde tasarlanmıştı. Her biri gizli bir parça tuttu ve tek bir katılımcı bile kendi parçasını yok ettiği sürece tam sır yeniden oluşturulamaz, kimse de sahte ZEC üretemezdi. Beş katılımcı kamuya açık olarak adlandırıldı ve biri anonim kaldı.
+Seremoni'deki altı kişiye güvenmem gerekiyor muydu? Kurulum, yalnızca birinin dürüst olması yeterli olacak şekilde tasarlanmıştı. Her biri gizli bir parça tuttu ve tek bir katılımcı bile kendi parçasını yok ettiği sürece gizli anahtarın tamamı asla yeniden oluşturulamaz, hiç kimse de ZEC taklit edemezdi. Beş katılımcının adı kamuya açıklandı; biri anonim kaldı.
 
-Sprout pool şu anda cüzdanımın kullandığı pool mu? Muhtemelen değil. Sprout ilk shielded pool'du, ancak Sapling gibi sonraki yükseltmeler daha hızlı bir shielded tasarım sundu ve bugün çoğu cüzdan daha yeni pool'ları kullanıyor. Sprout hâlâ önemlidir çünkü özel, doğrulanabilir işlemlerin canlı bir ağda çalışabileceğini kanıtlayan çalışma oydu.
+Sprout havuzu, cüzdanımın bugün kullandığı havuz mu? Muhtemelen değil. Sprout ilk korumalı havuzdu; ancak Sapling gibi sonraki yükseltmeler daha hızlı bir korumalı tasarım getirdi ve günümüzde çoğu cüzdan daha yeni havuzları kullanıyor. Sprout, özel ve doğrulanabilir işlemlerin canlı bir ağda çalışabileceğini kanıtlayan çalışma olarak önemini koruyor.
 
-Sprout'u Bitcoin'den farklı kılan neydi? Bitcoin, her ödemeyi miktarların ve adreslerin görünür olduğu herkese açık bir deftere koyar. Sprout, göndereni, alıcıyı ve miktarı gizleyen ama yine de ağın işlemin geçerli olduğunu doğrulamasına izin veren shielded işlemler ekledi. Transparent adresleri de korudu; yani iki tarz da aynı zincirde birlikte yaşar.
+Sprout'ı Bitcoin'den farklı kılan neydi? Bitcoin her ödemeyi, tutarların ve adreslerin görülebildiği herkese açık bir deftere yazar. Sprout, göndereni, alıcıyı ve tutarı gizleyen, ancak yine de ağın işlemin geçerli olduğunu doğrulamasına olanak tanıyan korumalı işlemler ekledi. Şeffaf adresleri de korudu; böylece her iki yöntem de aynı Zincir'de yer alıyor.
 
-## Bilginizi test edin
+## Bilginizi sınayın
 
-Sprout'a sık sık etkinleştirme yüksekliği olan bir ağ yükseltmesi denir. Bu neden tam olarak doğru değildir?
+Sprout genellikle etkinleştirme yüksekliği olan bir ağ yükseltmesi olarak anılır. Bu neden tam olarak doğru değildir?
 
 <details>
-<summary>Cevap</summary>
+<summary>Yanıt</summary>
 
-Sprout, daha sonraki bir yükseltme değil, Zcash'in orijinal başlangıcıdır. 28 Ekim 2016'da genesis bloğundan (blok 0) beri aktiftir, dolayısıyla işaret edilecek bir etkinleştirme yüksekliği yoktur. Ağ yükseltme mekanizması daha sonra geldi ve Sprout kurallarını consensus branch id 0, yani herhangi bir yükseltmeden önceki temel çizgi olarak etiketledi.
+Sprout, Zcash'ın daha sonraki bir yükseltme değil, ilk kez kullanıma sunulmasıdır. 28 Ekim 2016'daki başlangıç bloğundan (blok 0) beri etkindir; dolayısıyla belirtilecek bir etkinleştirme yüksekliği yoktur. Ağ yükseltme mekanizması daha sonra geldi ve Sprout'ın kurallarını, herhangi bir yükseltmeden önceki temel sürüm olan konsensüs dal kimliği 0 olarak etiketledi.
 </details>
 
 ### Kaynaklar
@@ -71,19 +71,19 @@ Sprout, daha sonraki bir yükseltme değil, Zcash'in orijinal başlangıcıdır.
 
 [Zcash ağ yükseltmeleri](https://z.cash/upgrade/)
 
-[Electric Coin Company: Zcash Sprout başlangıcı](https://electriccoin.co/blog/zcash-sprout-launch/)
+[Electric Coin Company: Zcash Sprout lansmanı](https://electriccoin.co/blog/zcash-sprout-launch/)
 
-[Electric Coin Company: Ceremony'nin Tasarımı](https://electriccoin.co/blog/the-design-of-the-ceremony/)
+[Electric Coin Company: Seremoni'nin Tasarımı](https://electriccoin.co/blog/the-design-of-the-ceremony/)
 
-### Ayrıca bakınız
+### Ayrıca bkz.
 
-[Shielded Pools](../using-zcash/shielded-pools)
+[Korumalı Havuzlar](../using-zcash/shielded-pools)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
 
 [Zcash Ağ Yükseltmeleri](../start-here/network-upgrades)
 
-[ZEC ve Zcash nedir](../start-here/what-is-zec-and-zcash)
+[ZEC nedir ve Zcash](../start-here/what-is-zec-and-zcash)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
 

@@ -4,117 +4,117 @@
 
 # Heartwood
 
-> Heartwood, Zcash ana ağında 903.000. blokta (16 Temmuz 2020 UTC) etkinleşti.
+> Heartwood, 16 Temmuz 2020 UTC tarihinde Zcash ana ağında 903.000 numaralı blokta devreye girdi.
 
-Buradan çıkaracağınız sonuç: Heartwood'un madencilerin blok ödüllerini doğrudan shielded adreslere almasını nasıl sağladığı ve Zcash'in proof-of-work'ünün hafif istemciler tarafından nasıl doğrulanabilir hâle geldiği.
+Öğrenecekleriniz: Heartwood madencilerin blok ödüllerini doğrudan korumalı adreslere almasını nasıl sağladı ve Zcash'ın iş kanıtının hafif istemciler tarafından doğrulanabilir olmasını nasıl mümkün kıldı.
 
-Heartwood, Zcash'in bir [ağ yükseltmesidir](../start-here/network-upgrades); dağıtımı [ZIP 250](https://zips.z.cash/zip-0250) içinde tanımlanan, konsensüs kurallarını değiştiren bir hard fork'tur. İki özellik değişikliğini bir araya getirmiştir: [ZIP 213](https://zips.z.cash/zip-0213) (Shielded Coinbase) ve [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient). Heartwood, Zcash'in dördüncü büyük ağ yükseltmesiydi ve [Electric Coin Company](../zcash-organizations/electric-coin-company) ile [Zcash Foundation](../zcash-organizations/zcash-foundation) tarafından ortaklaşa desteklendi. Her Zcash yükseltmesinde olduğu gibi, yeni bir consensus branch id belirledi; bu etiket, yeni kurallar altında oluşturulan bir işlemin eski zincirde tekrar oynatılamamasını ve tersinin de geçerli olmasını sağlayan çift yönlü replay koruması sunar.
+Heartwood, bir Zcash [ağ yükseltmesi](../start-here/network-upgrades), dağıtımı [ZIP 250](https://zips.z.cash/zip-0250) ile tanımlanan bir konsensüs kuralları hard fork'udur. İki özellik değişikliğini bir araya getirdi: [ZIP 213](https://zips.z.cash/zip-0213) (Korumalı Coinbase) ve [ZIP 221](https://zips.z.cash/zip-0221) (FlyClient). Heartwood, Zcash'ın dördüncü büyük ağ yükseltmesiydi ve hem [Electric Coin Company](../zcash-organizations/electric-coin-company) hem de [Zcash Foundation](../zcash-organizations/zcash-foundation) tarafından ortaklaşa desteklendi. Her Zcash yükseltmesinde olduğu gibi, yeni bir konsensüs dal kimliği belirledi. Bu etiket, iki yönlü tekrar oynatma koruması sağlar; böylece yeni kurallar altında oluşturulan bir işlem eski Zincir üzerinde tekrar oynatılamaz, bunun tersi de geçerlidir.
 
-Heartwood sabit bir saat zamanında değil, belirli bir blok yüksekliğinde (903.000) etkinleşir; bu yüzden bir panoda gördüğünüz tam dakika, bir yerden diğerine biraz farklılık gösterebilir. Blok da an da aynıdır.
+Heartwood sabit bir saat zamanında değil, belirli bir blok yüksekliğinde (903.000) etkinleşir; bu nedenle gösterge panelinde gördüğünüz tam dakika konuma göre biraz farklılık gösterebilir. Blok da an da aynıdır.
 
-Bu neden önemlidir? Madenciler, her blok kazdıklarında yeni basılmış ZEC kazanırlar. Heartwood'dan önce bu gelir şeffaf bir adrese gitmek zorundaydı; yani herkese açıktı. Herkes bir madencinin ne kadar kazandığını ve coin'lerin daha sonra nereye gittiğini görebiliyordu. Heartwood, bu ödülün bunun yerine doğrudan bir shielded adrese gitmesine izin verdi; böylece bir madencinin kazancı gizli kalabilir. Ayrıca hafif cüzdanların ve diğer zincirlerin, tüm zinciri indirmeden Zcash'in proof-of-work'ünü doğrulayabilmesini mümkün kıldı.
+Bunun önemi. Madenciler, bir bloğu her kazdıklarında yeni basılmış ZEC kazanır. Heartwood öncesinde bu gelir, herkese açık olan şeffaf bir adrese gitmek zorundaydı. Herkes bir madencinin ne kadar kazandığını ve coin'lerin daha sonra nereye gittiğini takip edebilirdi. Heartwood bu ödülün doğrudan korumalı bir adrese gitmesini sağladı; böylece madencinin ödemesi gizli kalabilir. Ayrıca hafif cüzdanların ve diğer Zincirlerin tüm Zincir'i indirmeden Zcash'ın iş kanıtını doğrulamasını mümkün kıldı.
 
-## Shielded coinbase
+## Korumalı coinbase
 
-Coinbase işlemi, blok ödülünü ödeyen özel işlemdir. Heartwood'dan önce, çıktılarının şeffaf olması gerekiyordu; bu nedenle bir madencinin yeni basılmış ZEC'i her zaman herkese açık bir adreste hayata başlıyordu. Heartwood, konsensüs kurallarını değiştirerek ZIP 213'ün ifadesiyle coinbase işlemlerinin Sapling çıktıları içerebilmesini sağladı. Basitçe söylemek gerekirse, madenciler artık ödüllerini doğrudan shielded Sapling adreslerine alabiliyor. Şeffaf coinbase çıktıları hâlâ desteklenmektedir; yani bu zorunlu bir değişiklik değil, yeni bir seçenektir.
+Coinbase işlemi, blok ödülünü dağıtan özel işlemdir. Heartwood öncesinde çıktılarının şeffaf olması gerekiyordu; bu nedenle madencinin yeni basılmış ZEC'i her zaman halka açık bir adreste hayata başlıyordu. Heartwood, konsensüs kurallarını değiştirdi; ZIP 213'ün ifadesiyle coinbase işlemleri artık Sapling çıktıları içerebilir. Başka bir deyişle, madenciler artık ödülleri doğrudan korumalı Sapling adreslerine alabilir. Şeffaf coinbase çıktıları desteklenmeye devam eder; dolayısıyla bu, zorunlu bir değişiklik değil, yeni bir seçenektir.
 
-![Heartwood'dan önce bir madencinin blok ödülü şeffaf, herkese açık bir adrese gitmek zorundaydı. Heartwood'dan sonra coinbase işlemleri Sapling çıktıları içerebilir, böylece ödül doğrudan bir shielded adrese gidebilir](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
+![Heartwood'dan önce madencinin blok ödülü şeffaf bir genel adrese gitmek zorundaydı. Heartwood'dan sonra coinbase işlemleri Sapling çıktıları içerebilir; böylece ödül doğrudan korumalı bir adrese gidebilir](/content-images/heartwood-shielded-coinbase-3bf38ae60d.webp)
 
-## Neden önce Sapling
+## Önce neden Sapling
 
-Shielded coinbase özellikle Sapling çıktılarını hedefler ve bunun bir nedeni vardır. ZIP 213, Sapling yükseltmesinin fonların doğrudan coinbase işleminde shielded hâle getirilmesini mümkün kılan mimari değişiklikler ve performans iyileştirmeleri getirdiğini açıklar. Orijinal Sprout shielded havuzu, korumayı doğrudan coinbase içinde yapabilmek için fazla kaynak yoğundu. Sapling'in daha verimli proving sistemi ve note formatı bunu uygulanabilir kıldı. Sapling, shielded coinbase çıktılarını engelleyen eski kuralı, Sapling çıktılarını da kapsayacak şekilde zaten genişletmişti; Heartwood ise bu kurala izin verecek biçimde esneklik kazandırır. Bu, Zcash yükseltmelerinin nasıl birbirinin üzerine inşa edildiğine dair iyi bir örnektir: bir yükseltmenin altyapısı, sonrakinin temeli hâline gelir.
+Korumalı coinbase özellikle Sapling çıktılarını hedefler ve bunun bir nedeni vardır. ZIP 213, Sapling yükseltmesinin mimari değişiklikler ve performans iyileştirmeleri getirerek fonların doğrudan coinbase işleminde korumalı hâle getirilmesini mümkün kıldığını açıklar. İlk Sprout korumalı havuzu, coinbase içinde doğrudan korumalı hâle getirmek için fazla kaynak gerektiriyordu. Sapling'ın daha verimli kanıtlama sistemi ve note biçimi bunu uygulanabilir kıldı. Sapling, korumalı coinbase çıktılarını yasaklayan eski kuralı Sapling çıktılarını da kapsayacak şekilde genişletmişti; Heartwood ise bu çıktılara izin vermek için kuralı gevşetiyor. Bu, Zcash yükseltmelerinin birbirinin üzerine nasıl inşa edildiğine iyi bir örnektir: Bir yükseltmenin altyapısı, bir sonraki yükseltmenin temelini oluşturur.
 
 ## FlyClient
 
-Heartwood ayrıca bir blok başlığının neye taahhütte bulunduğunu da değiştirdi. Önceden `hashFinalSaplingRoot` adı verilen başlık alanı, yeniden amaçlandırıldı ve `hashLightClientRoot` olarak yeniden adlandırıldı. Artık önceki blokların başlık verileri ve meta verileri üzerine kurulan, zaman damgaları, zorluk hedefleri, Sapling kökleri, birikmiş iş ve işlem sayıları gibi bilgileri içeren bir Merkle Mountain Range (MMR) köküne taahhütte bulunur. Bu taahhüt, bir hafif istemcinin veya dış bir zincirin, boyutu yalnızca zincirin uzunluğuna logaritmik olarak büyüyen küçük bir ispatla Zcash'in proof-of-work'ünü doğrulamasına imkân verir. Bunun getirisi daha iyi hafif istemci cüzdanları ve daha kolay üçüncü taraf ile zincirler arası entegrasyondur; çünkü artık bir istemcinin zincirin arkasındaki işe güvenmek için her bloğu indirmesi gerekmez.
+Heartwood, blok başlığının taahhüt ettiği bilgileri de değiştirdi. Daha önce hashFinalSaplingRoot olarak adlandırılan başlık alanının işlevi değiştirildi ve adı hashLightClientRoot olarak değiştirildi. Artık önceki blokların zaman damgaları, zorluk hedefleri, Sapling kökleri, birikmiş iş miktarı ve işlem sayıları gibi başlık verileri ve meta verileri üzerinden oluşturulan, sürekli güncellenen bir Merkle Dağ Silsilesi'nin (MMR) köküne taahhüt ediyor. Bu taahhüt, hafif bir istemcinin veya harici bir Zincir'in, Zincir'in uzunluğuyla yalnızca logaritmik olarak büyüyen küçük bir kanıt kullanarak Zcash'ın iş kanıtını doğrulamasını sağlar. Bunun getirisi, daha iyi hafif istemci cüzdanları ve üçüncü taraflarla zincirler arası entegrasyonun kolaylaşmasıdır; çünkü bir istemcinin artık Zincir'in arkasındaki işi doğrulamak için her bloğu indirmesi gerekmez.
 
-![FlyClient akışı: her bloğun başlık verisi bir Merkle Mountain Range köküne (`hashLightClientRoot`) taahhüt edilir; bu da bir hafif istemcinin küçük, logaritmik boyutlu bir ispatla proof-of-work'ü doğrulamasını sağlar](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
+![FlyClient akışı: her bloğun başlık verileri bir Merkle Mountain Range köküne (hashLightClientRoot) taahhüt edilir; bu, hafif istemcinin iş kanıtını küçük, logaritmik boyutlu bir kanıtla doğrulamasını sağlar](/content-images/heartwood-flyclient-0c6b5bda0d.webp)
 
-## Heartwood'un yeri
+## Heartwood nereye oturuyor
 
-Heartwood, Zcash yükseltmeleri dizisindeki adımlardan biridir; her biri, sonrakinin dayandığı bir parçayı ekler. Overwinter ve Sapling 2018'de, Blossom 2019'da ve Heartwood 2020'de 903.000. blokta geldi. Canopy ise 2020'nin ilerleyen dönemlerinde 1.046.400. blokta geldi. Heartwood için bu zincirdeki temel halka Sapling'dir: onun verimli shielded işlem altyapısı, shielded coinbase'i mümkün kılan teknik ön koşuldu.
+Heartwood, Zcash yükseltmelerinden oluşan bir dizinin adımlarından biridir; her yükseltme, bir sonrakinin dayandığı bir parçayı ekler. Overwinter ve Sapling 2018'de, Blossom 2019'da, Heartwood ise 2020'de 903.000 numaralı blokta devreye girdi. Canopy, 2020'nin ilerleyen dönemlerinde 1.046.400 numaralı blokta bunları izledi. Sapling, Heartwood için bu Zincir'in kilit halkasıdır: Verimli korumalı işlem mekanizması, korumalı coinbase'i mümkün kılan teknik ön koşuldu.
 
-![Zcash yükseltmelerinin zaman çizelgesi: Overwinter ve Sapling 2018'de, Blossom 2019'da ve Heartwood 2020'de](/content-images/heartwood-timeline-99bc79b6e9.webp)
+![Zcash yükseltmeleri zaman çizelgesi: 2018'de Overwinter ve Sapling, 2019'da Blossom ve 2020'de Heartwood](/content-images/heartwood-timeline-99bc79b6e9.webp)
 
-## Özet
+## Kısaca
 
-- Heartwood, ana ağda 903.000 numaralı blokta (16 Temmuz 2020 UTC) etkinleşti; iki yönlü replay koruması için yeni bir konsensüs dal kimliğiyle (consensus branch id) ZIP 250 aracılığıyla devreye alındı.
-- ZIP 213 (Shielded Coinbase): coinbase işlemleri Sapling çıktıları içerebilir; böylece madenciler blok ödüllerini doğrudan shielded bir adrese alabilir.
-- ZIP 221 (FlyClient): blok başlığındaki hashLightClientRoot artık bir Merkle Mountain Range'e taahhütte bulunur; bu da hafif istemcilerin proof-of-work'ü yalnızca logaritmik olarak büyüyen ispatlarla doğrulamasını sağlar.
-- Transparent coinbase çıktıları hâlâ tam olarak desteklenmektedir. Shielded coinbase bir zorunluluk değil, yeni bir seçenektir.
-- Etkinleşme bir saat zamanına göre değil, bir blok yüksekliğine göre gerçekleşir. Bu nedenle tam dakika, panolar ve saat dilimleri arasında farklılık gösterir.
+- Heartwood, 16 Temmuz 2020 UTC tarihinde ana ağın 903.000 numaralı bloğunda etkinleşti. ZIP 250 ile dağıtıldı ve iki yönlü tekrar oynatma koruması için yeni bir konsensüs dal kimliği belirlendi.
+- ZIP 213 (Korumalı Coinbase): Coinbase işlemleri Sapling çıktıları içerebilir; böylece madenciler blok ödüllerini doğrudan korumalı bir adrese alabilir.
+- ZIP 221 (FlyClient): Başlığın hashLightClientRoot alanı artık bir Merkle Dağ Silsilesi'ne taahhüt ediyor; böylece hafif istemciler, yalnızca logaritmik olarak büyüyen kanıtlarla iş kanıtını doğrulayabiliyor.
+- Şeffaf coinbase çıktıları tamamen desteklenmeye devam eder; korumalı coinbase bir zorunluluk değil, yeni bir seçenektir.
+- Etkinleşme belirli bir blok yüksekliğinde olur, saat zamanında değil; bu nedenle gösterge panelleri ve saat dilimleri arasındaki tam dakika farklılık gösterir.
 
 ## Temel Açıklama
 
-Heartwood öncesinde, bir madencinin yeni basılmış ZEC'i hayatına şeffaf bir adreste başlamak zorundaydı; bu nedenle herkes bir madencinin gelirini izleyebilir ve nereye gittiğini takip edebilirdi. ZIP 213, coinbase işleminin Sapling çıktılarına ödeme yapabilmesi için mutabakat kuralını gevşetti ve böylece bir madencinin kazancı, var olduğu ilk andan itibaren gizli kalır. Özellikle Sapling'ı hedef alır, çünkü Sapling'ın verimli ispat üretimi coinbase içinde korumayı pratik hale getirdi; Sprout'ın ağır ispatları ise orada uygulanabilir değildi.
+Heartwood öncesinde, madencinin yeni basılmış ZEC'i şeffaf bir adreste hayata başlamak zorundaydı; böylece herkes madencinin gelirini görebiliyor ve nereye gittiğini izleyebiliyordu. ZIP 213, konsensüs kuralını gevşeterek coinbase işleminin Sapling çıktıları ödemesine izin verdi ve madencinin ödemesini var olduğu ilk andan itibaren gizli tuttu. Özellikle Sapling'i hedefler; çünkü Sapling'ın verimli kanıtlama sistemi, coinbase içinde korumalı hâle getirmeyi uygulanabilir kıldı. Sprout'ın ağır kanıtları ise burada kullanılamıyordu.
 
-ZIP 221, hashFinalSaplingRoot başlık alanını hashLightClientRoot olarak yeniden kullandı. Bu alan artık önceki blokların başlık verileri üzerine kurulan bir Merkle Mountain Range'e taahhütte bulunur: zaman damgaları, zorluk hedefleri, Sapling kökleri, birikmiş iş ve işlem sayıları. Böylece bir hafif istemci ya da başka bir zincir, her bloğu indirmek yerine küçük bir kanıtla Zcash'ın iş ispatını doğrulayabilir.
+ZIP 221, başlık alanı hashFinalSaplingRoot'un işlevini değiştirerek hashLightClientRoot adını verdi. Artık önceki blokların başlık verileri (zaman damgaları, zorluk hedefleri, Sapling kökleri, birikmiş iş miktarı ve işlem sayıları) üzerinden oluşturulan bir Merkle Dağ Silsilesi'ne taahhüt ediyor. Böylece hafif bir istemci veya başka bir Zincir, her bloğu indirmek yerine küçük bir kanıtla Zcash'ın iş kanıtını doğrulayabilir.
 
 ## Görsel benzetme
 
-Önce: her madencinin maaş günü herkese açık bir ilan panosuna asılıyordu; tutar da iz de herkes tarafından okunabiliyordu. Sonra: maaş artık mühürlü bir zarf içinde gelebiliyor. Üstelik her yeni blok artık kendisinden önceki tüm blokları özetleyen küçük bir mum mühür taşıyor; böylece bir yabancı, her sayfayı tek tek okumak yerine tek bir bakışla tüm iş zincirini doğrulayabiliyor.
+Önce: Her madencinin maaş günü halka açık bir duyuru panosuna asılıyordu; tutarı ve izlediği yol herkes tarafından okunabiliyordu. Sonra: Maaş, mühürlü bir zarf içinde gelebilir. Ayrıca her yeni blok artık kendisinden önceki tüm blokları özetleyen kompakt bir mum mühür taşıyor; böylece bir yabancı, her sayfayı okumak yerine tek bakışta tüm iş Zincirini doğrulayabiliyor.
 
-## Derinlemesine İnceleme
+## Derinlemesine inceleme
 
-Kural değişikliğinin bir geçmişi vardı: Sapling, korumalı coinbase üzerindeki orijinal yasağı Sapling çıktılarını da kapsayacak şekilde genişletmişti; Heartwood ise bu kısıtlamayı kaldırarak bunlara izin verdi. Bu, bir yükseltmenin altyapısının bir sonraki yükseltmenin temeline dönüşmesine dair net bir örnektir. MMR taahhüdü, daha önce Zcash'ün işini doğrulamanın tüm zincirin indirilmesini gerektirdiği hafif cüzdanlarda ve zincirler arası entegrasyonda karşılığını verir. Aktivasyonla birlikte eklenen konsensüs dal kimliği (consensus branch id) iki yönlü tekrar oynatma koruması sağlar: yeni kurallar altında oluşturulan bir işlem eski zincirde tekrar oynatılamaz, bunun tersi de geçerlidir.
+Kural değişikliğinin bir geçmişi vardı: Sapling, korumalı coinbase'e yönelik ilk yasağı Sapling çıktılarını da kapsayacak şekilde genişletmişti; Heartwood ise bu çıktılara izin vermek için kısıtlamayı kaldırdı. Bu, bir yükseltmenin altyapısının bir sonrakinin temelini oluşturmasına iyi bir örnektir. MMR taahhüdü, hafif cüzdanlar ve zincirler arası entegrasyon için fayda sağlar; bu alanlarda Zcash'ın işini doğrulamak daha önce tüm Zincir'in indirilmesini gerektiriyordu. Etkinleştirme sırasında eklenen konsensüs dal kimliği, iki yönlü tekrar oynatma koruması sağlar: Yeni kurallar altında oluşturulan bir işlem eski Zincir üzerinde tekrar oynatılamaz, bunun tersi de geçerlidir.
 
-## Sık Yapılan Hatalar
+## Yaygın Hatalar
 
-- **Shielded coinbase'in zorunlu hale geldiğini düşünmek.** Şeffaf coinbase çıktıları hâlâ geçerlidir; seçim madencilere aittir.
-- **Sprout'ün shielded coinbase alabileceğini varsaymak.** Yalnızca Sapling çıktılarına izin verilir; Sprout'ün ispat üretimi çok fazla kaynak gerektiriyordu.
-- **FlyClient'ün tam düğümlere olan ihtiyacı ortadan kaldırdığına inanmak.** Hafif istemcilere ve zincirler arası doğrulayıcılara hizmet eder; ağın dayanağı hâlâ tam düğümlerdir.
-- **Sabit bir aktivasyon saati aramak.** Aktivasyon 903,000 numaralı blokta tanımlandığı için gerçek saatteki dakika değişir.
-- **hashLightClientRoot'u eski hashFinalSaplingRoot ile karıştırmak.** Aynı alanın amacı değiştirildi ve adı yenilendi.
+- **Korumalı coinbase'in zorunlu hâle geldiğini düşünmek.** Şeffaf coinbase çıktıları hâlâ geçerlidir; seçimi madenciler yapar.
+- **Sprout'in korumalı coinbase alabileceğini varsaymak.** Yalnızca Sapling çıktılarına izin verilir; Sprout'ın kanıtlama sistemi çok fazla kaynak gerektiriyordu.
+- **FlyClient'in tam düğümlere olan ihtiyacı ortadan kaldırdığını sanmak.** Hafif istemcilere ve zincirler arası doğrulayıcılara hizmet eder; tam düğümler ağı sabitlemeye devam eder.
+- **Sabit bir etkinleşme saati aramak.** Etkinleşme 903.000 numaralı blokta tanımlanmıştı; bu nedenle duvar saatindeki dakika değişiklik gösterir.
+- **hashLightClientRoot'u eski hashFinalSaplingRoot ile karıştırmak.** Aynı alanın işlevi değiştirilip adı yenilendi.
 
 ## Sözlük
 
-| Terim | Sade anlamı |
+| Terim | Sade dille anlamı |
 |---|---|
-| Network upgrade (NU) | Zcash'in konsensüs kurallarında, belirli bir blok yüksekliğinde etkinleşen koordineli bir değişiklik |
-| Coinbase transaction | Her bloktaki blok ödülünü ödeyen özel işlem |
-| Shielded Sapling address | Sapling yükseltmesiyle tanıtılan özel bir Zcash adres türü |
-| Shielded coinbase | Blok ödüllerinin shielded Sapling adreslerine ödenmesini sağlayan Heartwood değişikliği |
-| FlyClient | Hafif istemcilerin proof-of-work'ü küçük ispatlarla doğrulamasını sağlayan bir yöntem |
-| Merkle Mountain Range (MMR) | Blok başlığının taahhütte bulunduğu, geçmiş blokların çalışan bir özeti |
-| Consensus branch id | Bir işlemin hangi yükseltmenin kurallarını izlediğini belirten ve replay koruması için kullanılan etiket |
+| Ağ yükseltmesi (NU) | Zcash'ın belirli bir blok yüksekliğinde etkinleşen konsensüs kurallarında yapılan eşgüdümlü değişiklik |
+| Coinbase işlemi | Her blokta blok ödülünü dağıtan özel işlem |
+| Korumalı Sapling adresi | Sapling yükseltmesiyle tanıtılan özel bir Zcash adres türü |
+| Korumalı coinbase | Blok ödüllerinin korumalı Sapling adreslerine ödenmesini sağlayan Heartwood değişikliği |
+| FlyClient | Hafif istemcilerin küçük kanıtlarla iş kanıtını doğrulamasını sağlayan yöntem |
+| Merkle Dağ Silsilesi (MMR) | Blok başlığının taahhüt ettiği, geçmiş blokların sürekli güncellenen özeti |
+| Konsensüs dal kimliği | Bir işlemin hangi yükseltmenin kurallarına tabi olduğunu belirten ve tekrar oynatma koruması için kullanılan etiket |
 
 ## SSS
 
-Heartwood benim ZEC'imi veya gizliliğimi değiştiriyor mu? Hayır. Heartwood mevcut fonlarınıza dokunmadı. Madencilerin ödüllerini shielded adreslere alabilmesi seçeneğini ekledi ve hafif istemcilere yönelik desteği iyileştirdi. Kendi bakiyeleriniz ve shielded işlemleriniz etkilenmez.
+Heartwood ZEC'imi veya gizliliğimi etkiler mi? Hayır. Heartwood mevcut fonlarınıza dokunmadı. Madencilerin ödülleri korumalı adreslere alabilmesi için bir seçenek ekledi ve hafif istemci desteğini iyileştirdi. Bakiyeleriniz ve korumalı işlemleriniz etkilenmez.
 
-Shielded coinbase nedir? Coinbase, blok ödülünü ödeyen işlemdir. Heartwood, bu ödülün şeffaf bir adres yerine shielded bir Sapling adresine gitmesine izin verir; böylece madenci geliri özel kalabilir.
+Korumalı coinbase nedir? Coinbase, blok ödülünü ödeyen işlemdir. Heartwood, bu ödülün şeffaf bir adres yerine korumalı bir Sapling adresine gitmesini sağlar; böylece madencinin geliri gizli kalabilir.
 
-Madenciler artık ödüllerini zorunlu olarak shielded mı almak zorunda? Hayır. Shielded coinbase isteğe bağlıdır. Şeffaf coinbase çıktıları desteklenmeye devam eder; dolayısıyla madenciler ikisinden birini seçebilir.
+Madenciler artık ödülleri korumalı olarak almak zorunda mı? Hayır. Korumalı coinbase isteğe bağlıdır. Şeffaf coinbase çıktıları desteklenmeye devam eder; madenciler ikisinden birini seçebilir.
 
-Shielded coinbase neden eski Sprout havuzu yerine Sapling kullanıyor? Çünkü Sapling'in daha verimli tasarımı, korumayı doğrudan coinbase içinde uygulanabilir hâle getirdi. Daha önceki Sprout havuzu bunu yapmak için fazla kaynak yoğundu.
+Korumalı coinbase neden eski Sprout havuzu yerine Sapling kullanıyor? Çünkü Sapling'ın daha verimli tasarımı, doğrudan coinbase içinde korumalı hâle getirmeyi uygulanabilir kıldı. Önceki Sprout havuzu bunu yapmak için çok fazla kaynak gerektiriyordu.
 
-Hafif istemciler için ne değişti? Blok başlığı artık `hashLightClientRoot` alanı aracılığıyla geçmiş bloklar üzerinde bir Merkle Mountain Range'e taahhütte bulunur. Bu, hafif istemcilerin ve diğer zincirlerin, tüm zincir yerine küçük, logaritmik boyutlu ispatlarla Zcash'in proof-of-work'ünü doğrulamasını sağlar.
+Hafif istemciler için ne değişti? Blok başlığı artık hashLightClientRoot alanı üzerinden geçmiş bloklar hakkındaki bir Merkle Dağ Silsilesi'ne taahhüt ediyor. Bu sayede hafif istemciler ve diğer Zincirler, tüm Zincir'i indirmek yerine küçük ve boyutu logaritmik olarak büyüyen kanıtlarla Zcash'ın iş kanıtını doğrulayabilir.
 
-## Bilginizi test edin
+## Anlayıp anlamadığınızı sınayın
 
-Heartwood'dan önce, bir madenciye ödenen blok ödülü neden herkesin görebildiği şekilde ortaya çıkıyordu ve Heartwood neyi değiştirdi?
+Heartwood öncesinde madenciye ödenen blok ödülü neden herkese açık görünüyordu ve Heartwood neyi değiştirdi?
 
 <details>
-<summary>Cevap</summary>
+<summary>Yanıt</summary>
 
-Coinbase çıktılarının şeffaf olması gerekiyordu; bu yüzden bir madencinin yeni basılmış ödülü her zaman herkesin inceleyebileceği şeffaf, herkese açık bir adrese gidiyordu. Heartwood, konsensüs kurallarını (ZIP 213) değiştirerek coinbase işlemlerinin Sapling çıktıları içerebilmesini sağladı; böylece madenciler ödüllerini doğrudan shielded adreslere alabilir oldu.
+Coinbase çıktılarının şeffaf olması gerekiyordu; bu nedenle madencinin yeni basılmış ödülü her zaman herkesin inceleyebileceği halka açık, şeffaf bir adrese gidiyordu. Heartwood, konsensüs kurallarını değiştirerek (ZIP 213) coinbase işlemlerinin Sapling çıktıları içermesine izin verdi; böylece madenciler ödüllerini doğrudan korumalı adreslere alabilir.
 </details>
 
 ### Kaynaklar
 
 [ZIP 250: Heartwood Ağ Yükseltmesinin Dağıtımı](https://zips.z.cash/zip-0250)
 
-[ZIP 213: Shielded Coinbase](https://zips.z.cash/zip-0213)
+[ZIP 213: Korumalı Coinbase](https://zips.z.cash/zip-0213)
 
 [ZIP 221: FlyClient - Konsensüs Katmanı Değişiklikleri](https://zips.z.cash/zip-0221)
 
 [Heartwood ağ yükseltmesi](https://z.cash/upgrade/heartwood/)
 
-### Ayrıca bakınız
+### Ayrıca bkz.
 
 [Zcash Ağ Yükseltmeleri](../start-here/network-upgrades)
 
-[Shielded Havuzlar](../using-zcash/shielded-pools)
+[Korumalı Havuzlar](../using-zcash/shielded-pools)
 
 [Cüzdanlar](../using-zcash/wallets)
 
@@ -131,6 +131,7 @@ Coinbase çıktılarının şeffaf olması gerekiyordu; bu yüzden bir madencini
 - [Sapling](./Sapling.md) — korumalı coinbase'i mümkün kılan verimli mekanizma
 - [Canopy](./Canopy.md) — serideki bir sonraki yükseltme
 - [Tam Düğümler](./Full_Nodes.md) — tam doğrulamanın hâlâ sağladıkları
-- [Bir Blok Gezgininin Görebildikleri](./What_a_Block_Explorer_Can_See.md) — şeffaf ve korumalı coinbase'in neleri açığa çıkardığı
+- [Bir Blok Gezgini Neleri Görebilir](./What_a_Block_Explorer_Can_See.md) — şeffaf ve korumalı coinbase'in ortaya çıkardıkları
+
 
 Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [Blossom](../zcash-tech/blossom) · Sonraki: [Canopy](../zcash-tech/canopy)

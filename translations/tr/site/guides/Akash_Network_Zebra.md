@@ -1,178 +1,178 @@
-# Akash Network üzerinde Zebra nasıl çalıştırılır
+# Zebra Akash Ağında nasıl çalıştırılır
 
-Akash üzerinde bir Zebra Zcash tam düğüm dağıtmak için adım adım rehber.
+Akash üzerinde bir Zebra Zcash tam düğümünü dağıtmak için adım adım kılavuz.
 
-### Ne Dağıtıyorsunuz
+### Dağıtacağınız şey
 
-Şunları yapacak bir tam Zebra node'u:
+Şunları yapacak bir tam Zebra düğümü:
 
--> Tüm Zcash blockchain'ini senkronize edecek (mainnet için 100GB+, testnet için ~40GB)
+-> Zcash blokzincirinin tamamını eşitleme (mainnet için 100 GB+, testnet için yaklaşık 40 GB)
 
--> AKT token fiyatlarına bağlı olarak yaklaşık aylık $15 maliyet oluşturacak
+-> AKT token fiyatlarına bağlı olarak ayda yaklaşık 15 $ maliyet
 
--> Tamamen senkronize olması birkaç saatten birkaç güne kadar sürecek
+-> Tamamen eşitlenmesinin birkaç saatten birkaç güne kadar sürmesi
 
--> 4 vCPU, 16GB RAM, 350GB depolama (mainnet) veya 2 vCPU, 8GB RAM, 50GB (testnet) kullanacak
+-> 4 vCPU, 16 GB RAM, 350 GB depolama (mainnet) veya 2 vCPU, 8 GB RAM, 50 GB (testnet) kullanma
 
+awesome-akash şablonu artık **Zebra 7.0.0** sürümünü sabitler (asla `:latest` değil). Prometheus'u (`9999`) ve health'i (`8080`) dahili olarak etkinleştirir, gRPC **9067** üzerinde birlikte konumlandırılmış bir **lightwalletd** için JSON-RPC'yi dahili olarak etkinleştirir ve `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD` özellik işaretlerini etkinleştirir.
 
-awesome-akash şablonu artık **Zebra 7.0.0** sürümünü sabitler (`:latest` kullanmaz). Prometheus'u (`9999`) ve health'i (`8080`) dahili olarak, aynı yerde bulunan **lightwalletd** için JSON-RPC'yi gRPC **9067** üzerinden dahili olarak ve `ENABLE_METRICS` / `ENABLE_HEALTH` / `ENABLE_RPC` / `ENABLE_LIGHTWALLETD` özellik bayraklarını etkinleştirir.
+Daha hızlı budanmış bir Mainnet düğümü için bkz. [Zakura Akash](/guides/akash-network-zakura). Atılabilir bir Regtest gösterge paneli için bkz. [Zakura Akash](/guides/thus-spoke-zakura-akash).
 
-Budanmış Mainnet düğümünü daha hızlı çalıştırmak için [Zakura'ı Akash](/guides/akash-network-zakura) üzerinde çalıştırma yöntemine bakın. Kullan-at Regtest panosu için [Thus Spoke Zakura'a Akash](/guides/thus-spoke-zakura-akash) üzerinde bakın.
 
 ### Akash bağlantı noktalarını nasıl yayımlar
 
-SDL'deki sayılar (`port` / `as`) **konteyner bağlantı noktalarıdır**. Zebra hâlâ **8233**'ü, lightwalletd **9067**'yi, sağlık denetimi ise **8080**'i dinler. Bu sayılar süreç ve aynı dağıtımdaki diğer hizmetler içindir (`zebra:8232`).
+SDL'deki (`port` / `as`) sayılar **konteyner bağlantı noktalarıdır**. Zebra hâlâ **8233** üzerinde, lightwalletd **9067** üzerinde, health ise **8080** üzerinde dinler. Bu sayılar işlem ve aynı dağıtımdaki diğer hizmetler (`zebra:8232`) içindir.
 
-Bunlar, sağlayıcının genel IP adresindeki portlar **değildir**.
+Bunlar sağlayıcının genel IP'sindeki bağlantı noktaları **değildir**.
 
-**Varsayılan (bu şablon):** özel IP yok. Her `global: true` TCP dışa açılımı için sağlayıcı, paylaşılan bir ana makinedeki **rastgele yüksek bir portu** kapsayıcı portunuza eşler. Kira süresi başladıktan sonra Console/Air **Leases → URIs** gerçek uç noktaları listeler; örneğin:
+**Varsayılan (bu şablon):** özel IP yoktur. Her `global: true` TCP expose için sağlayıcı, paylaşılan bir ana bilgisayardaki **rastgele yüksek bir bağlantı noktasını** konteyner bağlantı noktanıza eşler. Lease oluşturulduktan sonra Console/Air **Leases → URIs**, örneğin aşağıdaki gibi gerçek uç noktaları listeler:
 
 ```
 zebra-8233: provider.example:31482
 lightwalletd-9067: provider.example:32011
 ```
 
-Eşler ve cüzdanlar **bu** ana bilgisayar:bağlantı noktası değerlerini kullanır. İlgilendiğiniz dışa açma için URI’yi kopyalayın (P2P veya lightwalletd). `ZEBRA_NETWORK__EXTERNAL_ADDR` ayarlıyorsanız, bunu `…:8233` yerine eşlenen P2P URI’sine (`provider.example:31482`) ayarlayın.
+Eşler ve cüzdanlar **bu** ana bilgisayar:bağlantı noktası değerlerini kullanır. İlgilendiğiniz expose için URI'yi (P2P veya lightwalletd) kopyalayın. `ZEBRA_NETWORK__EXTERNAL_ADDR` ayarlarsanız, bunu `provider.example:31482` eşlenmiş P2P URI'sine ayarlayın; `…:8233` değerine değil.
 
-**HTTP** (`as: 80` ve `http_options` ile, Thus Spoke panosunda kullanılır): birçok sağlayıcı rastgele bir TCP portu yerine bir **giriş ana bilgisayar adı** (genellikle 80/443 üzerinde) yayımlar. Bu hizmetin URI'sini tarayıcıda açın.
+**HTTP** (`as: 80` ve `http_options` ile, Thus Spoke gösterge panelinde kullanılır): birçok sağlayıcı rastgele bir TCP bağlantı noktası yerine bir **ingress ana bilgisayar adı** (genellikle 80/443 üzerinde) yayımlar. Bu hizmetin URI'sini tarayıcıda açın.
 
-**Dahili** (`global: false` veya `to: service: lightwalletd`): yalnızca küme DNS’i (`zebra:8232`). Genel URI yok.
+**Dahili** (`global: false` veya `to: service: lightwalletd`): yalnızca küme DNS'i (`zebra:8232`). Genel URI yoktur.
 
-**Özel IP’ler** (SDL’de `endpoints` / `kind: ip`), **premium bir eklentidir**. Genel bir IP’yi ve bazen o IP’deki `as` bağlantı noktasını sabit tutabilirler. Bu şablonlar IP talep etmez. İstersen daha sonra sabit bir `host:8233` için bunu kendin ekleyebilirsin; ek maliyet ve daha az teklif veren sağlayıcı bekle.
+**Özel IP'ler** (SDL'de `endpoints` / `kind: ip`) **ücretli bir eklentidir**. Bunlar genel bir IP'yi ve bazen o IP üzerindeki `as` bağlantı noktasını sabitleyebilir. Bu şablonlar özel IP talep **etmez**. Sabit bir `host:8233` istiyorsanız bunu daha sonra kendiniz ekleyin; ek maliyet ve daha az teklif veren sağlayıcı bekleyin.
 
 ### Hangi site kullanılmalı (ödemeler)
 
-SDL aynıdır. İki Akash web kullanıcı arayüzü **ödeme şekliniz** bakımından farklıdır.
+SDL aynıdır. İki Akash web kullanıcı arayüzü, **ödeme şekliniz** bakımından farklıdır.
 
 | Site | Ödemeler | Cüzdan |
 | --- | --- | --- |
-| [console.akash.network](https://console.akash.network) | Geleneksel web üzerinden ödeme (Console’ın sunduğu kart / itibari para kanalları) | Console hesabı |
-| [air.akash.network](https://air.akash.network) | Yerel Akash zincir ödemeleri (AKT / ACT) | **Keplr** |
+| [console.akash.network](https://console.akash.network) | Geleneksel web ödeme ekranı (Console'un sunduğu kart / itibari para kanalları) | Console hesabı |
+| [air.akash.network](https://air.akash.network) | Yerel Akash Zincir ödemeleri (AKT / ACT) | **Keplr** |
 
-Zincir üzerinde Keplr ile ödeme yapmak istediğinizde **Air**'i kullanın. Geleneksel bir web ödeme akışı istediğinizde **Console**'u kullanın. Console'da Keplr ile yerel uzlaşma beklemeyin.
+Zincir üstü Keplr ile ödeme yapmak istediğinizde **Air** kullanın. Geleneksel bir web ödeme akışı istediğinizde **Console** kullanın. Console üzerinde Keplr yerel mutabakat beklemeyin.
 
-### Ön Koşullar
+### Ön koşullar
 
-**Console üzerinden ödeme yapıyorsanız (web ödeme sayfası)**
+**Console ile ödeme yapacaksanız (web ödeme ekranı)**
 
 1. [console.akash.network](https://console.akash.network) adresinde bir Console hesabı
-2. Console arayüzünün kabul ettiği bir ödeme yöntemi
-3. Arayüzde birkaç dakika
+2. Console kullanıcı arayüzünün kabul ettiği bir ödeme yöntemi
+3. Kullanıcı arayüzünde birkaç dakika
 
-**Air üzerinde ödeme yaparsanız (yerel Akash / Keplr)**
+**Air ile ödeme yapacaksanız (yerel Akash / Keplr)**
 
 1. **Keplr** tarayıcı uzantısı (Chrome/Brave/Firefox)
-2. Yatırma ve kiralama için Keplr içinde **AKT / ACT** (bir borsadan veya IBC üzerinden)
+2. Teminat ve lease için Keplr içinde **AKT / ACT** (bir borsadan veya IBC üzerinden)
 3. [air.akash.network](https://air.akash.network) adresini açın
 
-#### Adım 1: Bağlan
+#### 1. Adım: Bağlanma
 
-**Konsol (web ödemeleri)**
+**Console (web ödemeleri)**
 
 -> [https://console.akash.network](https://console.akash.network) adresine gidin
 
--> Console hesap akışında oturum açın / akışı tamamlayın
+-> Oturum açın / Console hesabı akışını tamamlayın
 
-UI'da gösterilen checkout'ı kullanın (zincir üzerinde Keplr değil)
+-> Kullanıcı arayüzünün sunduğu ödeme ekranını kullanın (Keplr zincir üstü değil)
 
 **Air (yerel Akash ödemeleri)**
 
 -> [https://air.akash.network](https://air.akash.network) adresine gidin
 
--> **"Connect Wallet"** düğmesine tıklayın
+-> **"Connect Wallet"** seçeneğine tıklayın
 
 -> **Keplr** seçeneğini belirleyin ve bağlantıyı onaylayın
 
--> Yatırma tutarı ile kiralama bedelinin toplamını karşılayacak kadar AKT/ACT bakiyeniz olduğunu doğrulayın
+-> AKT/ACT bakiyenizin teminat ve lease için yeterli olduğunu doğrulayın
 
-#### Adım 2: Deployment Oluşturun
+#### 2. Adım: Dağıtım oluşturma
 
--> **"Deploy"** öğesine tıklayın
+-> **"Deploy"** seçeneğine tıklayın
 
--> **"Build your template"** seçeneğini seçin (veya doğrudan SDL yüklemeye geçin)
+-> **"Build your template"** seçeneğini belirleyin (veya doğrudan SDL yüklemeye geçin)
 
 
-##### Seçenek A: SDL Dosyası Yükleyin (Önerilir)
+##### A seçeneği: SDL dosyası yükleme (Önerilen)
 
-**Web ödemeleri (Konsol)**
+**Web ödemeleri (Console)**
 
 [![Deploy on Akash Console](/content-images/deploy-with-akash-btn-74abb88d44.svg)](https://console.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-**Keplr (Air) ile yerel Akash ödemeleri**
+**Akash ve Keplr ile yerel ödemeler (Air)**
 
-[Bu şablonu Air'de aç](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
+[Open this template on Air](https://air.akash.network/new-deployment?step=edit-deployment&templateId=akash-network-awesome-akash-zcash-zebra)
 
-##### Seçenek B: SDL Düzenleyicisini Kullanın
+##### B seçeneği: SDL düzenleyicisini kullanma
 
-[SDL](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml) dosyasını manuel olarak yapıştırmak istiyorsanız:
+[SDL'yi](https://github.com/akash-network/awesome-akash/blob/master/zcash-zebra/deploy.yaml) manuel olarak yapıştırmak istiyorsanız:
 
--> *zebra-akash.yml* içeriğini kopyalayın
+-> *zebra-akash.yml* dosyasının içeriğini kopyalayın
 
 -> SDL düzenleyicisine yapıştırın
 
--> Gerektiği gibi düzenleyin (aşağıdaki yapılandırma bölümüne bakın)
+-> Gerektiği gibi değiştirin (aşağıdaki yapılandırma bölümüne bakın)
 
--> **"Create Deployment"** düğmesine tıklayın
+-> **"Create Deployment"** seçeneğine tıklayın
 
 
-#### Adım 3: Depozitoyu Gözden Geçirin ve Onaylayın
+#### 3. Adım: Teminatı inceleme ve onaylama
 
-Arayüz size şunları gösterecek:
+Kullanıcı arayüzü size şunları gösterecektir:
 
--> **Deployment depozitosu**: ~5 AKT (deployment'ı kapattığınızda bunu geri alırsınız)
+-> **Dağıtım teminatı**: yaklaşık 5 AKT (dağıtımı kapattığınızda bunu geri alırsınız)
 
 -> **Tahmini maliyet**: SDL fiyatlandırmanıza göre
 
-**Air**’de **"Approve"**’a tıklayın ve **Keplr** üzerinden oturum açın. **Console**’da, arayüzün sunduğu web ödeme adımını tamamlayın.
+**Air** üzerinde **"Approve"** seçeneğine tıklayın ve **Keplr** ile oturum açın. **Console** üzerinde, kullanıcı arayüzünün sunduğu web ödeme ekranını tamamlayın.
 
-#### Adım 4: Bir Sağlayıcı Seçin
+#### 4. Adım: Bir sağlayıcı seçme
 
-Yaklaşık 30 saniye sonra sağlayıcılardan teklifleri göreceksiniz. Her teklif şunları gösterir:
+Yaklaşık 30 saniye sonra sağlayıcılardan gelen teklifleri göreceksiniz. Her teklifte şunlar gösterilir:
 
 -> **Blok başına fiyat** (AKT veya USDC cinsinden)
 
 -> **Aylık tahmini maliyet**
 
--> **Sağlayıcı detayları** (çalışma süresi, bölge vb.)
+-> **Sağlayıcı ayrıntıları** (çalışma süresi, bölge vb.)
 
 
-**Sadece en ucuzu seçmeyin.** Şunları kontrol edin:
+**Yalnızca en ucuz olanı seçmeyin.** Şunları kontrol edin:
 
--> Çalışma süresi yüzdesi (hedef > %95)
+-> Çalışma süresi yüzdesi (%95'in üzerinde olmasını hedefleyin)
 
--> Bölge (size daha yakın = daha iyi gecikme, ancak blockchain node'ları için çok önemli değil)
+-> Bölge (size daha yakın olması gecikmeyi azaltır ancak blokzincir düğümleri için çok önemli değildir)
 
 -> Denetlenmiş durumu (yeşil onay işareti = daha güvenilir)
 
 
-Seçtiğiniz sağlayıcıda **"Teklifi Kabul Et"** seçeneğine tıklayın. Air'de Keplr ile oturum açın. Console'da web ödeme akışını kullanarak onaylayın.
+Seçtiğiniz sağlayıcıda **"Accept Bid"** seçeneğine tıklayın. Air üzerinde Keplr ile oturum açın. Console üzerinde web ödeme akışıyla onaylayın.
 
-#### Adım 5: Deployment'ın Hazırlanmasını Bekleyin
+#### 5. Adım: Dağıtımı bekleme
 
 Console şunları yapacaktır:
 
--> Seçtiğiniz sağlayıcıyla lease oluşturacak
+-> Seçtiğiniz sağlayıcıyla lease oluşturma
 
--> Manifest'i gönderecek (sağlayıcıya ne çalıştıracağını söyler)
+-> Manifest'i gönderme (sağlayıcıya ne çalıştıracağını bildirir)
 
--> Container'ınızı başlatacak
+-> Konteynerinizi başlatma
 
-Bu 1-2 dakika sürer. Arayüzde durum güncellemelerini göreceksiniz.
+Bu işlem 1-2 dakika sürer. Kullanıcı arayüzünde durum güncellemelerini göreceksiniz.
 
-#### Adım 6: Çalıştığını Doğrulayın
+#### 6. Adım: Çalıştığını doğrulama
 
-Dağıtım tamamlandıktan sonra şunları göreceksiniz:
+Dağıtım tamamlandığında şunları göreceksiniz:
 
--> **Services** sekmesi: *zebra* servisinizin durumunu gösterir
+-> **Services** sekmesi: Durumuyla birlikte *zebra* hizmetinizi gösterir
 
--> **Logs** sekmesi: Canlı container logları
+-> **Logs** sekmesi: Canlı konteyner günlükleri
 
--> **Leases** sekmesi: Deployment'ınızla ilgili ayrıntılar (DSEQ, sağlayıcı, maliyet)
+-> **Leases** sekmesi: Dağıtımınızla ilgili ayrıntılar (DSEQ, sağlayıcı, maliyet)
 
 
-##### Logları Kontrol Edin
+##### Günlükleri kontrol etme
 
-**Logs** sekmesine tıklayın; Zebra'nın başlatıldığını görmelisiniz:
+**Logs** seçeneğine tıklayın; Zebra öğesinin başlatıldığını görmelisiniz:
 
 ```bash
 Loading config from environment variables
@@ -181,16 +181,16 @@ Listening for peer connections on [::]:8233
 Starting initial sync...
 ```
 
-Senkronizasyon ağa bağlı olarak **saatlerden günlere** kadar sürecektir. Şunlara dikkat edin:
+Eşitleme, ağa bağlı olarak **saatler veya günler** sürecektir. Şunları gözlemleyin:
 
 -> Artan blok yükseklikleri
 
--> Eş bağlantıları (10-30 eş olmalı)
+-> Eş bağlantıları (10-30 eş olmalıdır)
 
--> Tekrarlanan hata olmaması
+-> Tekrarlanan hataların olmaması
 
 
-#### Adım 7: Node'unuzun Adresini Alın
+#### 7. Adım: Düğümünüzün adresini alma
 
 **Leases** sekmesine, ardından **URIs** seçeneğine tıklayın.
 
@@ -201,15 +201,15 @@ zebra-8233: provider-hostname.com:31482
 lightwalletd-9067: provider-hostname.com:32011
 ```
 
-Her satır bir `global: true` dışa açar. Ad, SDL `as` portunu (8233, 9067) içerir. Ana bilgisayar adından sonraki sayı, kiralama sırasında atanan **sağlayıcının eşlediği porttur**. Diğer Zcash düğümleri `provider-hostname.com:31482` adresine bağlanır. Kompakt cüzdanlar lightwalletd URI’sini kullanır (TLS’yi kendiniz sonlandırmadığınız sürece TLS kapalıdır).
+Her satır bir `global: true` expose'udur. Ad, SDL `as` bağlantı noktasını (8233, 9067) içerir. Ana bilgisayar adından sonraki sayı, lease sırasında atanan **sağlayıcının eşlenmiş bağlantı noktasıdır**. Diğer Zcash düğümleri `provider-hostname.com:31482` adresine bağlanır. Kompakt cüzdanlar lightwalletd URI'sini kullanır (TLS'yi kendiniz sonlandırmadığınız sürece TLS kapalıdır).
 
-Kapsayıcı hâlâ 8233 / 9067 bağlantı noktalarını dinliyor. Daha sonra özel bir IP eklemediğiniz sürece (bu şablonda yoktur) genel adres her zaman URI'dir.
+Konteyner hâlâ 8233 / 9067 üzerinde dinlemektedir. Daha sonra özel bir IP eklemediğiniz sürece genel adres her zaman URI'dir (bu şablonda yoktur).
 
-### Yapılandırma Seçenekleri
+### Yapılandırma seçenekleri
 
-#### Testnet'e Geçiş
+#### Testnet'e geçme
 
-SDL varsayılan olarak Mainnet kullanır. Bunun yerine Testnet kullanmak için:
+SDL varsayılan olarak Mainnet'i kullanır. Bunun yerine Testnet'i kullanmak için:
 
 -> *env* bölümünde **Mainnet yapılandırmasını yorum satırına alın**:
 
@@ -225,17 +225,17 @@ SDL varsayılan olarak Mainnet kullanır. Bunun yerine Testnet kullanmak için:
    - "ZEBRA_NETWORK__LISTEN_ADDR=[::]:18233"
    ```
 
--> *expose* bölümünde **dışa açılan portu güncelleyin**:
+-> *expose* bölümünde **yayımlanan bağlantı noktasını güncelleyin**:
 
    ```yaml
-   # Mainnet portunu yorum satırına alın:
+   # Comment out Mainnet port:
    # - port: 8233
    #   as: 8233
    #   to:
    #     - global: true
    #   proto: tcp
 
-   # Testnet portunun yorumunu kaldırın:
+   # Uncomment Testnet port:
    - port: 18233
      as: 18233
      to:
@@ -243,56 +243,56 @@ SDL varsayılan olarak Mainnet kullanır. Bunun yerine Testnet kullanmak için:
      proto: tcp
    ```
 
--> İsteğe bağlı: *profiles.compute.zebra.resources* içinde Testnet için **kaynakları azaltın**:
+-> **İsteğe bağlı: *profiles.compute.zebra.resources* içinde Testnet kaynaklarını azaltın**:
 
    ```yaml
    cpu:
-     units: 2  # 4'ten düşürüldü
+     units: 2  # Down from 4
    memory:
-     size: 8Gi  # 16Gi'den düşürüldü
+     size: 8Gi  # Down from 16Gi
    storage:
-     - size: 50Gi  # 150Gi'den düşürüldü
+     - size: 50Gi  # Down from 150Gi
    ```
 
--> İsteğe bağlı: *profiles.placement.akash.pricing* içinde **fiyatlandırmayı düşürün**:
+-> **İsteğe bağlı: *profiles.placement.akash.pricing* içinde fiyatlandırmayı düşürün**:
 
    ```yaml
-   amount: 5000  # 10000'den düşürüldü
+   amount: 5000  # Down from 10000
    ```
 
-#### RPC Erişimini Etkinleştirin
+#### RPC erişimini etkinleştirme
 
-Güvenlik nedeniyle RPC varsayılan olarak devre dışıdır. Etkinleştirmek için:
+RPC, güvenlik nedeniyle varsayılan olarak devre dışıdır. Etkinleştirmek için:
 
 **Mainnet için:**
 
--> *env* bölümünde yorumunu kaldırın:
+-> *env* bölümündeki yorum satırını kaldırın:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:8232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> *expose* içinde Mainnet RPC portunun yorumunu kaldırın:
+-> *expose* bölümündeki Mainnet RPC bağlantı noktasının yorum satırını kaldırın:
 
    ```yaml
    - port: 8232
      as: 8232
      to:
-       - global: false  # Güvenlik için dahili tutun
+       - global: false  # Keep internal for security
      proto: tcp
    ```
 
 **Testnet için:**
 
--> *env* bölümünde yorumunu kaldırın:
+-> *env* bölümündeki yorum satırını kaldırın:
 
    ```yaml
    - "ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232"
    - "ZEBRA_RPC__COOKIE_DIR=/home/zebra/.cache/zebra"
    ```
 
--> *expose* içinde Testnet RPC portunun yorumunu kaldırın:
+-> *expose* bölümündeki Testnet RPC bağlantı noktasının yorum satırını kaldırın:
 
    ```yaml
    - port: 18232
@@ -302,21 +302,21 @@ Güvenlik nedeniyle RPC varsayılan olarak devre dışıdır. Etkinleştirmek i�
      proto: tcp
    ```
 
-**Uyarı**: RPC için *global: true* ayarlarsanız, onu internete açmış olursunuz. Zebra varsayılan olarak cookie auth kullanır, ama yine de - ne yaptığınızı bilmiyorsanız bunu yapmayın.
+**Uyarı**: RPC için *global: true* ayarlarsanız, onu internete açmış olursunuz. Zebra varsayılan olarak çerez kimlik doğrulamasını kullanır ancak ne yaptığınızı bilmiyorsanız yine de bunu yapmayın.
 
-`global: true` ile RPC’yi dışarı açarsanız, genel adres yine bir **lease URI**’dir (`host:&lt;random-high-port&gt;`), `host:8232` değildir. `global: false` (bu şablon) ile RPC, dağıtım ağında kalır (lightwalletd için `zebra:8232`). Özel IP kiralamaları ayrı ve ücretli bir seçenektir; SDL’de yer almaz.
+RPC'yi `global: true` ile açarsanız genel adres yine `host:8232` değil, **lease URI'sidir** (`host:&lt;random-high-port&gt;`). `global: false` (bu şablon) ile RPC dağıtım ağında kalır (`zebra:8232`, lightwalletd için). Özel IP lease'leri ayrı bir ücretli seçenektir ve SDL'de yer almaz.
 
-#### Metrics'i Etkinleştirin (Prometheus)
+#### Metrikleri etkinleştirme (Prometheus)
 
-İzleme için metrikleri toplamak istiyorsanız:
+İzleme için metrikleri toplamak üzere:
 
--> *env* içinde yorumunu kaldırın:
+-> *env* içindeki yorum satırını kaldırın:
 
    ```yaml
    - "ZEBRA_METRICS__ENDPOINT_ADDR=0.0.0.0:9999"
    ```
 
--> *expose* içinde metrics portunun yorumunu kaldırın:
+-> Metrik bağlantı noktasındaki yorum satırını *expose* bölümünde kaldırın:
 
    ```yaml
    - port: 9999
@@ -326,157 +326,158 @@ Güvenlik nedeniyle RPC varsayılan olarak devre dışıdır. Etkinleştirmek i�
      proto: tcp
    ```
 
-#### Kaynakları/Fiyatlandırmayı Ayarlayın
+#### Kaynakları/fiyatlandırmayı ayarlama
 
 Teklif alamıyorsanız veya maliyeti optimize etmek istiyorsanız:
 
-**Daha düşük özellikli sağlayıcılar için**, *profiles.compute.zebra.resources* bölümünde azaltın:
+**Daha düşük özellikli sağlayıcılar için**, *profiles.compute.zebra.resources* bölümünde şunları azaltın:
 
--> CPU: *units: 2* (makul senkronizasyon hızı için minimum)
+-> CPU: *units: 2* (makul eşitleme hızı için minimum)
 
 -> Bellek: *size: 12Gi* (kararlılık için minimum)
 
 -> Depolama: *size: 120Gi* (mainnet için minimum)
 
-**Daha fazla teklif çekmek için**, *profiles.placement.akash.pricing* içinde artırın:
+**Daha fazla teklif çekmek için**, *profiles.placement.akash.pricing* bölümünde artırın:
 
--> Mainnet: *amount: 1000000* uakt/block deneyin
+-> Mainnet: blok başına *amount: 1000000* uakt değerini deneyin
 
--> Testnet: *amount: 1000000* uakt/block deneyin
+-> Testnet: blok başına *amount: 1000000* uakt değerini deneyin
 
-### Deployment'ınızı Güncelleme
+### Dağıtımınızı güncelleme
 
-Dağıtımdan sonra yapılandırmayı değiştirmeniz mi gerekiyor?
+Dağıtım sonrasında yapılandırmayı değiştirmeniz mi gerekiyor?
 
 -> Console'da **My Deployments** bölümüne gidin
 
--> Zebra deployment'ınızı bulun
+-> Zebra dağıtımınızı bulun
 
--> **"Update Deployment"** düğmesine tıklayın
+-> **"Update Deployment"** seçeneğine tıklayın
 
 -> SDL'yi düzenleyin
 
--> **"Güncelle"**'ye tıklayın (Air: Keplr ile oturum açın; Console: web ödeme akışını onaylayın)
+-> **"Update"** seçeneğine tıklayın (Air: Keplr ile oturum açın; Console: web ödeme akışıyla onaylayın)
 
-**Not**: Güncelleme container'ınızı yeniden başlatacaktır. Node kaydedilmiş durumundan devam edecektir (kalıcı depolama), ancak 1-2 dakikalık kesinti bekleyin.
+**Not**: Güncelleme, konteynerinizi yeniden başlatır. Düğüm, kaydedilmiş durumundan (kalıcı depolama) devam eder ancak 1-2 dakikalık kesinti bekleyin.
 
 ### İzleme
 
-#### Console Üzerinden
+#### Console üzerinden
 
--> **Logs sekmesi**: Canlı container logları
+-> **Logs sekmesi**: Canlı konteyner günlükleri
 
--> **Shell sekmesi**: Container içinde bir shell açın (debug için kullanışlı)
+-> **Shell sekmesi**: Konteyner içinde bir kabuk açma (hata ayıklama için kullanışlıdır)
 
--> **Events sekmesi**: Kubernetes olayları (bir şey bozulmadıkça çoğunlukla işe yaramaz)
+-> **Events sekmesi**: Kubernetes olayları (bir şey bozulmadığı sürece çoğunlukla işe yaramaz)
 
 
-#### RPC Üzerinden (etkinse)
+#### RPC üzerinden (etkinse)
 
-RPC'yi etkinleştirdiyseniz, node'unuzu normal bir zebrad full node gibi sorgulayabilirsiniz (çünkü öyle!)
+RPC'yi etkinleştirdiyseniz düğümünüzü normal bir zebrad tam düğüm gibi sorgulayabilirsiniz (çünkü öyledir!)
 
-### Deployment'ınızı Kapatma
+### Dağıtımınızı kapatma
 
 İşiniz bittiğinde veya ödeme yapmayı durdurmak istediğinizde:
 
 -> **My Deployments** bölümüne gidin
 
--> Zebra deployment'ınızı bulun
+-> Zebra dağıtımınızı bulun
 
--> **"Close Deployment"** düğmesine tıklayın
+-> **"Close Deployment"** seçeneğine tıklayın
 
--> Onaylayın (Air: Keplr üzerinden oturum açın; Console: Console arayüzünde onaylayın)
+-> Onaylayın (Air: Keplr ile oturum açın; Console: Console kullanıcı arayüzünde onaylayın)
 
-5 AKT depozitonuz iade edilir. **Kalıcı depolama** sağlayıcı tarafından korunmalıdır, ancak buna güvenmeyin - buna diğer cloud sağlayıcıları gibi yaklaşın.
+5 AKT tutarındaki teminatınız iade edilir. **Kalıcı depolama** sağlayıcı tarafından korunmalıdır ancak buna güvenmeyin; diğer tüm bulut sağlayıcılarında olduğu gibi değerlendirin.
 
-### Sorun Giderme
+### Sorun giderme
 
 #### "Insufficient funds" hatası
 
-On Air’de Keplr’a AKT/ACT yatırın. Console’da Console ödeme yöntemine bakiye ekleyin.
+Air üzerinde Keplr hesabınıza AKT/ACT yatırın. Console üzerinde Console ödeme yöntemine yükleme yapın.
 
-#### Hiç teklif görünmüyor
+#### Teklif görünmüyor
 
-Ya:
+Şunlardan biri söz konusu olabilir:
 
--> Fiyatlandırmanız çok düşük (SDL içinde *amount* değerini artırın)
+-> Fiyatlandırmanız çok düşük (SDL'deki *amount* değerini artırın)
 
--> Kaynak gereksinimleriniz mevcut sağlayıcılar için fazla yüksek (CPU/bellek/depolamayı azaltın)
+-> Kaynak gereksinimleriniz mevcut sağlayıcılar için çok yüksek (CPU/bellek/depolama değerlerini azaltın)
 
--> Daha uzun bekleyin (bazen tekliflerin görünmesi 60-90 saniye sürebilir)
+-> Daha uzun süre bekleyin (tekliflerin görünmesi bazen 60-90 saniye sürer)
 
 
-#### Deployment "pending" durumunda takılı kaldı
+#### Dağıtım "pending" durumunda takılı kaldı
 
-Sağlayıcı sorun yaşıyor olabilir. Deployment'ı kapatın ve farklı bir sağlayıcı deneyin.
+Sağlayıcı sorun yaşıyor olabilir. Dağıtımı kapatın ve farklı bir sağlayıcı deneyin.
 
-#### Zebra loglarında "No peers connected" görünüyor
+#### Zebra günlüklerinde "No peers connected" gösteriliyor
 
-İlk birkaç dakika için bu normaldir. Zebra eşleri otomatik olarak keşfedecektir. 10+ dakika sonra da devam ederse bir ağ sorununuz olabilir (Akash'ta pek olası değil).
+İlk birkaç dakika için bu normaldir. Zebra eşleri otomatik olarak keşfeder. 10 dakikadan uzun süre devam ederse ağ sorununuz olabilir (Akash üzerinde olası değildir).
 
-#### Loglarda "Out of memory" hataları
+#### Günlüklerde "Out of memory" hataları
 
-RAM'den fazla kısmışsınız. Deployment'ı kapatın ve en az 12Gi bellekle yeniden dağıtın (16Gi önerilir).
+RAM'den tasarruf etmeye çalışmışsınız. Dağıtımı kapatın ve en az 12Gi bellekle (16Gi önerilir) yeniden dağıtın.
 
-#### Senkronizasyon çok uzun sürüyor
+#### Eşitleme çok uzun sürüyor
 
-"Çok uzun" derken neyi kastediyorsunuz:
+“Çok uzun” derken neyi kastediyorsunuz:
 
 -> **Saatler**: Normal
 
--> **Günler**: Mainnet'i sıfırdan senkronize ederken bu da normal
+-> **Günler**: Sıfırdan mainnet için bu da normal
 
--> **Haftalar**: Bir sorun var, hata için logları kontrol edin
+-> **Haftalar**: Bir sorun var; hatalar için günlükleri kontrol edin
 
 
-### Maliyet Yönetimi
+### Maliyet yönetimi
 
-Harcamalarınızı Console veya Air'de izleyin:
+Harcamalarınızı Console veya Air üzerinde izleyin:
 
--> **My Deployments** -> Deployment'ınız -> "Cost per month" tahminini gösterir
+-> **My Deployments** -> Dağıtımınız -> “Cost per month” tahminini gösterir
 
 -> Air: Keplr AKT/ACT bakiyeniz zamanla azalır. Console: Console ödeme bakiyeniz azalır.
 
-Bakiyeniz azaldığında Akash deployment'ınızı otomatik olarak kapatacaktır. **Cüzdanınıza düzenli olarak bakiye ekleyin** veya uyarılar ayarlayın.
 
-#### Maliyetleri Azaltma
+Bakiyeniz azaldığında Akash dağıtımınızı otomatik olarak kapatır. **Cüzdanınıza düzenli olarak yükleme yapın** veya uyarılar ayarlayın.
+
+#### Maliyetleri azaltma
 
 -> Üretim dışı testler için **Testnet kullanın** (%50 daha ucuz)
 
--> Hızlı senkronizasyona ihtiyacınız yoksa **CPU/belleği düşürün**
+-> Hızlı eşitlemeye ihtiyacınız yoksa **CPU/belleği düşürün**
 
--> **Daha ucuz sağlayıcıları seçin** (her zaman akıllıca olmayabilir - çalışma süresi önemlidir)
+-> **Daha ucuz sağlayıcılar seçin** (her zaman akıllıca değildir; çalışma süresi önemlidir)
 
 
-### Mainnet vs Testnet
+### Mainnet ve Testnet karşılaştırması
 
 ```markdown
 ----------------------------------------------------------------------------------
-|            | Mainnet (varsayılan)           | Testnet                         |
+|            | Mainnet (default)               | Testnet                         |
 ---------------------------------------------------------------------------------|
-| Amaç      | Üretim Zcash blockchain'i       | Test ve geliştirme              |
-| Ağ        | ZEBRA_NETWORK__NETWORK=Mainnet  | ZEBRA_NETWORK__NETWORK=Testnet  |
-| P2P Portu | 8233                            | 18233                           |
-| RPC Portu | 8232                            | 18232                           |
-| Senk. süresi | Günler                       | Saatler                         |
-| Depolama  | 350GB+                          | 50GB                            |
-| Kaynaklar | 4 CPU / 16GB RAM                | 2 CPU / 8GB RAM                 |
-| Maliyet   | ~$15/ay                         | ~$5/ay                          |
+| Purpose   | Production Zcash blockchain      | Testing and development         |
+| Network   | ZEBRA_NETWORK__NETWORK=Mainnet   | ZEBRA_NETWORK__NETWORK=Testnet  |
+| P2P Port  | 8233                             | 18233                           |
+| RPC Port  | 8232                             | 18232                           |
+| Sync time | Days                             | Hours                           |
+| Storage   | 350GB+                           | 50GB                            |
+| Resources | 4 CPU / 16GB RAM                 | 2 CPU / 8GB RAM                 |
+| Cost      | ~$15/month                       | ~$5/month                       |
 ----------------------------------------------------------------------------------
 ```
 
-Yalnızca deployment sürecini test ediyorsanız Testnet ile başlayın. Yapılandırma için yukarıdaki "Testnet'e Geçiş" bölümüne bakın.
+Yalnızca dağıtım sürecini test ediyorsanız Testnet ile başlayın. Yapılandırma için yukarıdaki “Testnet'e geçme” bölümüne bakın.
 
-### Ek Kaynaklar
+### Ek kaynaklar
 
-**Akash Konsolu** (web ödemeleri): [https://console.akash.network](https://console.akash.network)
+**Akash Console** (web ödemeleri): [https://console.akash.network](https://console.akash.network)
 
 **Akash Air** (yerel AKT/ACT + Keplr): [https://air.akash.network](https://air.akash.network)
 
-**Akash Belgeleri**: [https://akash.network/docs/](https://akash.network/docs/)
+**Akash Docs**: [https://akash.network/docs/](https://akash.network/docs/)
 
-**Zebra Belgeleri**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
+**Zebra Docs**: [https://zebra.zfnd.org/](https://zebra.zfnd.org/)
 
-**Zcash Explorer'ları**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
+**Zcash Explorers**: [https://zechub.wiki/guides/blockchain-explorers](https://zechub.wiki/guides/blockchain-explorers)
 
 **Akash Discord**: [https://discord.akash.network](https://discord.akash.network) (sağlayıcı sorunları için)

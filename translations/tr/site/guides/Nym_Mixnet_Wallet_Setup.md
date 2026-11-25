@@ -1,52 +1,52 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Nym_Mixnet_Wallet_Setup.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# Zcash Cüzdan Trafiğini Nym Mixnet Üzerinden Yönlendirin
+# Zcash Cüzdan Trafiğini Nym Mixnet Üzerinden Yönlendirme
 
 > Son doğrulama: 29 Eylül 2026
 
-Zcash shielded işlemleri, işlem verilerini zincir üzerinde korur; ancak cüzdanlar yine de internet üzerinden iletişim kurar. Ağ gözlemcileri IP adresiniz, cüzdanınızın ne zaman bağlandığı ve hangi altyapıyla iletişim kurduğu gibi meta verileri potansiyel olarak öğrenebilir.
+Zcash korumalı işlemler Zincir üzerindeki işlem verilerini korur, ancak cüzdanlar yine de internet üzerinden iletişim kurar. Ağ gözlemcileri IP adresiniz, cüzdanınızın ne zaman bağlandığı ve hangi altyapıyla iletişim kurduğu gibi meta verileri öğrenebilir.
 
-Nym ayrı bir ağ gizliliği katmanı ekler. Eylül 2026 itibarıyla en iyi yaklaşım cüzdana bağlıdır:
+Nym ayrı bir ağ gizliliği katmanı sağlar. Eylül 2026 itibarıyla en iyi yaklaşım cüzdana bağlıdır:
 
-1. **Mevcut olduğunda cüzdanın yerel Nym entegrasyonunu tercih edin.**
-2. Aksi hâlde, cüzdana özgü proxy desteğine bağlı kalmadan cüzdanın ağ trafiğinin Nym üzerinden yönlendirilmesi için **sistem düzeyinde NymVPN Mixnet modunu** kullanın.
+1. **Yerleşik Nym entegrasyonu varsa cüzdanın bunu tercih edin.**
+2. Aksi takdirde, cüzdana özgü proxy desteğine bağlı kalmadan cüzdanın ağ trafiğini Nym üzerinden yönlendirmek için **sistem düzeyinde NymVPN Mixnet modunu** kullanın.
 
-Genel VPN ve dVPN bilgileri için [VPN & dVPN](../Privacy_Tools/VPN_and_DVPN.md) bölümüne bakın.
+VPN ve dVPN hakkında genel bilgi için [VPN ve dVPN](../Privacy_Tools/VPN_and_DVPN.md) sayfasına bakın.
 
-## Nym ne ekler — ve ne eklemez
+## Nym neler sağlar — neleri sağlamaz
 
-Shielded bir Zcash ödemesi ve bir ağ gizliliği aracı farklı sorunları çözer:
+Korumalı bir Zcash ödemesi ile ağ gizliliği aracı farklı sorunları çözer:
 
-- **Zcash shielded havuzları**, işlem ayrıntılarını zincir üzerinde korur.
+- **Zcash korumalı havuzlar**, Zincir üzerindeki işlem ayrıntılarını korur.
 - **Nym mixnet yönlendirmesi**, gerçek ağ kimliğiniz ile cüzdan trafiğini alan hizmet arasındaki ilişkilendirilebilirliği azaltmak üzere tasarlanmıştır.
-- Sistem düzeyindeki bir NymVPN tüneli üzerinden iletişim kurulan hedef, ev/mobil IP'niz yerine bir Nym çıkışı görmelidir.
+- Sistem düzeyinde bir NymVPN tüneli üzerinden iletişim kurulan hedef, ev veya mobil IP adresiniz yerine bir Nym çıkış noktası görmelidir.
 
-Nym'nin mixnet'i, ağ meta verisi sızıntısını azaltmak için birden fazla atlama, paket karıştırma, rastgele gecikmeler, örtü trafiği ve onion şifreleme kullanır.
+Nym mixnet'i, ağ meta verilerinin sızmasını azaltmak için birden çok atlama, paket karıştırma, rastgele gecikmeler, örtü trafiği ve soğan şifrelemesi kullanır.
 
-Nym; ele geçirilmiş bir cihaza, kötü amaçlı cüzdan yazılımına, açığa çıkmış kurtarma ifadelerine, borsa hesapları üzerinden ifşa ettiğiniz kimliğe veya şeffaf Zcash faaliyetinin neden olduğu gizlilik kaybına karşı **koruma sağlamaz**.
+Nym; güvenliği ihlal edilmiş bir cihaza, kötü amaçlı cüzdan yazılımına, açığa çıkmış kurtarma ifadelerine, borsa hesapları aracılığıyla ifşa ettiğiniz kimliğe veya şeffaf Zcash etkinliğinin yol açtığı gizlilik kaybına karşı **koruma sağlamaz**.
 
-## Yerel Nym desteği: mevcut olduğunda bunu önce kullanın
+## Yerel Nym desteği: Varsa önce bunu kullanın
 
-Nym, 24 Eylül 2026'da Zcash Community Grant çalışmasının tamamlandığını ve yerel mixnet desteğinin gerçek Zcash cüzdanlarında kullanıma sunulduğunu duyurdu.
+Nym, 24 Eylül 2026'da Zcash Community Grant çalışmalarının tamamlandığını ve yerel mixnet desteğinin gerçek Zcash cüzdanlarında sunulmaya başladığını duyurdu.
 
-### Zingo! Wallet
+### Zingo! Cüzdan
 
-Zingo PC yerel bir Nym taşıma katmanı içerir. Zingo Mobile, uygulama içi bir Nym proxy kullanarak iOS ve Android üzerinde Mixnet Mode ile birlikte sunulur.
+Zingo PC yerel bir Nym aktarım katmanı içerir. Zingo Mobile da uygulama içi bir Nym proxy'si kullanan Mixnet Modu'nu iOS ve Android üzerinde sunar.
 
-Zingo tarafından belgelenen güncel davranış:
+Zingo tarafından belgelenen mevcut davranış:
 
-- Nym kontrolü **Settings → Nym Mixnet** altında bulunur.
-- Ödeme gönderimi mixnet üzerinden yönlendirilir.
-- Ironwood geçiş aktarımları aynı korumalı gönderim yolunu izler.
+- Nym denetimi **Ayarlar → Nym Mixnet** altındadır.
+- Ödeme gönderimleri mixnet üzerinden yönlendirilir.
+- Ironwood geçiş iletimleri de aynı korumalı gönderim yolunu izler.
 - ZEC fiyat istekleri de mixnet üzerinden yönlendirilir.
-- Nym etkin durumdayken gönderim kapalı hata verir: mixnet taşıma katmanı kullanılamazsa ödeme sessizce clearnet üzerinden gönderilmez.
-- **Zincir senkronizasyonu şu anda Zingo PC içinde mixnet üzerinden yönlendirilmemektedir.** Compact bloklar, nullifier sorguları, işlem getirmeleri, mempool trafiği ve sunucu sağlık kontrolleri hâlâ normal sunucu bağlantısını kullanır.
+- Nym etkinleştirildiğinde gönderimler güvenli hata yaklaşımını izler: mixnet aktarım katmanı kullanılamıyorsa ödeme sessizce açık ağ üzerinden gönderilmez.
+- **Zincir eşitlemesi şu anda Zingo PC içinde mixnet üzerinden yönlendirilmez.** Sıkıştırılmış bloklar, nullifier sorguları, işlem alımları, mempool trafiği ve sunucu durumu denetimleri normal sunucu bağlantısını kullanmaya devam eder.
 
-Bu ayrım önemlidir: Zingo'nin yerel entegrasyonu, en yüksek ilişkilendirme riskine sahip yayın yolunu korur; ancak henüz tam cihaz kapsamlı bir ağ tüneli değildir.
+Bu ayrım önemlidir: Zingo yerel entegrasyonu, ilişkilendirilebilirliğin en yüksek olduğu yayın yolunu korur, ancak henüz tüm cihaz trafiğini kapsayan bir ağ tüneli değildir.
 
-Tehdit modeliniz sunucudan senkronizasyon trafiğini gizlemeyi de gerektiriyorsa, bunun getirdiği ek gecikmeyi ve karmaşıklığı anlayarak NymVPN gibi sistem düzeyinde bir gizlilik tüneli kullanın.
+Tehdit modeliniz eşitleme trafiğini de sunucudan gizlemeyi gerektiriyorsa, bunun getireceği ek gecikme ve karmaşıklığı da göz önünde bulundurarak NymVPN gibi sistem düzeyinde bir gizlilik tüneli kullanın.
 
 Kaynaklar:
 
@@ -56,11 +56,11 @@ Kaynaklar:
 
 ### Zkool
 
-Nym, **Zkool** ürününün artık yerel bir geçiş kullanarak Zcash RPC altyapısına Nym mixnet üzerinden bağlanmayı desteklediğini bildiriyor.
+Nym, **Zkool** uygulamasının artık yerel bir düğmeyle Nym mixnet'i üzerinden Zcash RPC altyapısına bağlanmayı desteklediğini bildiriyor.
 
-Zkool, YWallet ürününün etkin olarak sürdürülen halefidir. Projesi ayrıca Zcash sunucu bağlantıları için Tor proxy kullanımı ve onion hizmetlerini destekler.
+Zkool, YWallet uygulamasının aktif olarak sürdürülen devamıdır. Projesi ayrıca Zcash sunucu bağlantıları için Tor proxy kullanımını ve onion hizmetlerini destekler.
 
-Belgelenmemiş bir proxy yolu üzerinden eski bir YWallet sürümünü zorlamaya çalışmak yerine, Zkool'nin yerel Nym seçeneğini tercih edin.
+Belgelenmemiş bir proxy yoluyla eski bir YWallet derlemesini kullanmaya çalışmak yerine Zkool uygulamasının yerel Nym seçeneğini tercih edin.
 
 Kaynaklar:
 
@@ -69,7 +69,7 @@ Kaynaklar:
 
 ### Nozy
 
-NozyWallet ayrıca Nym farkındalığı olan taşıma yollarına sahiptir. Güncel uygulaması, giden işlem gönderimlerinin Nym mixnet üzerinden yönlendirilmesini ve compact blok senkronizasyonu için ayrı bir Nym dVPN yolunu destekler. Her cüzdan isteğinin otomatik olarak mixnet'i kullandığını varsaymak yerine, bunları farklı korumalar olarak değerlendirin.
+NozyWallet uygulamasında da Nym uyumlu aktarım yolları bulunur. Mevcut uygulaması, giden işlem gönderimlerinin Nym mixnet'i üzerinden ve sıkıştırılmış blok eşitlemesinin ayrı bir Nym dVPN yolu üzerinden yönlendirilmesini destekler. Her cüzdan isteğinin otomatik olarak mixnet'i kullandığını varsaymak yerine bunları ayrı koruma yöntemleri olarak değerlendirin.
 
 Kaynaklar:
 
@@ -79,33 +79,33 @@ Kaynaklar:
 
 ### Zodl
 
-Zodl şu anda, yukarıda Zingo, Zkool ve Nozy için açıklanan yerel Nym entegrasyonuyla aynı olmayan yerleşik **Tor Protection** özelliğine sahiptir.
+Zodl uygulamasında şu anda yerleşik **Tor Koruması** bulunur; bu, yukarıda Zingo, Zkool ve Nozy için açıklanan yerel Nym entegrasyonuyla aynı değildir.
 
-Zodl'nin Tor özelliği; işlem gönderimini, işlem verisi alımını, döviz kuru isteklerini ve üçüncü taraf API çağrılarını Tor üzerinden yönlendirebilir. Nym, 24 Eylül 2026'da daha kapsamlı mixnet entegrasyonu konusunda Zodl ekibiyle hâlâ aktif görüşmeler yürüttüğünü belirtti.
+Zodl uygulamasının Tor özelliği; işlem gönderimlerini, işlem verilerinin alınmasını, döviz kuru isteklerini ve üçüncü taraf API çağrılarını Tor üzerinden yönlendirebilir. Nym, 24 Eylül 2026'da daha kapsamlı mixnet entegrasyonu hakkında Zodl ekibiyle görüşmelerinin sürdüğünü belirtti.
 
-Bugün Zodl için şunlardan birini kullanın:
+Bugün Zodl için şu seçeneklerden birini kullanın:
 
-- Zodl'nin belgelenmiş Tor Protection özelliği veya
-- amacınız cüzdanın genel cihaz trafiğini Nym üzerinden yönlendirmekse sistem düzeyinde NymVPN.
+- Zodl uygulamasının belgelenmiş Tor Koruması veya
+- Amacınız cüzdanın genel cihaz trafiğini Nym üzerinden yönlendirmekse sistem düzeyinde NymVPN.
 
-Her ikisi de gizlilik ağı olduğu için Tor ve Nym'nin cüzdan içinde birbirinin yerine geçebilen taşıma katmanları olduğunu varsaymayın.
+Tor ve Nym ağlarının ikisi de gizlilik ağı olduğu için cüzdan içindeki aktarım yöntemlerinin birbirinin yerine kullanılabileceğini varsaymayın.
 
 Zodl Tor ayarları:
 
-**More → Advanced Features → Beta: Tor Protection → Enable → Save changes**
+**Daha Fazla → Gelişmiş Özellikler → Beta: Tor Koruması → Etkinleştir → Değişiklikleri kaydet**
 
 Kaynaklar:
 
 - https://support.zodl.com/article/17-enabling-tor-protection
 - https://nym.com/blog/nym-mixnet-zcash-wallets
 
-## Yedek seçenek: sistem düzeyinde NymVPN
+## Alternatif: sistem düzeyinde NymVPN
 
-Bu, cüzdanın Nym'ye özgü proxy ayarlarını anlamasını gerektirmediği için en geniş uyumluluğa sahip Nym seçeneğidir.
+Cüzdanın Nym'a özgü proxy ayarlarını anlamasını gerektirmediği için en geniş uyumluluğa sahip Nym seçeneğidir.
 
-### 1. NymVPN yükleyin
+### 1. NymVPN uygulamasını yükleyin
 
-NymVPN uygulamasını yalnızca Nym'nin resmi web sitesinden veya resmi platform mağazasından indirin:
+NymVPN uygulamasını yalnızca Nym'ın resmî web sitesinden veya resmî platform mağazasından indirin:
 
 - https://nym.com/
 - https://nym.com/blog/nymvpn-v2026.12
@@ -114,102 +114,102 @@ NymVPN; Android, iOS, Linux, Windows ve macOS'u destekler.
 
 ### 2. Mixnet modunu seçin
 
-NymVPN; daha düşük gecikme için optimize edilmiş 2 atlamalı dVPN yolu olan **Fast mode**'u ve daha güçlü ağ meta verisi koruması için optimize edilmiş 5 atlamalı mixnet yolu olan **Mixnet mode**'u sunar. Hassas cüzdan faaliyetleri için Mixnet mode'u seçin ve cüzdanı açmadan veya yenilemeden önce istemcinin bağlantının kurulduğunu bildirmesini bekleyin.
+NymVPN, daha düşük gecikme için optimize edilmiş 2 atlamalı bir dVPN yolu olan **Hızlı mod** ile daha güçlü ağ meta verisi koruması için optimize edilmiş 5 atlamalı bir mixnet yolu olan **Mixnet modu** seçeneklerini sunar. Hassas cüzdan işlemleri için Mixnet modunu seçin ve cüzdanı açmadan veya yenilemeden önce istemcinin bağlantının kurulduğunu bildirmesini bekleyin.
 
-### 3. Cüzdanı normal ağ ayarlarında bırakın
+### 3. Cüzdanın normal ağ ayarlarını kullanmasına izin verin
 
-İşletim sistemi trafiği zaten NymVPN üzerinden tünelliyorsa, çoğu cüzdan özel proxy ayarlarına ihtiyaç duymaz.
+İşletim sistemi trafiği zaten NymVPN üzerinden tünelliyorsa çoğu cüzdan özel proxy ayarlarına ihtiyaç duymaz.
 
-Cüzdanı normal şekilde açın ve senkronize olmasına izin verin.
+Cüzdanı normal şekilde açın ve eşitlemenin tamamlanmasına izin verin.
 
-NymVPN platformunuzda split tunneling sunuyorsa, cüzdanın atlama veya hariç tutma listesine konulmadığını, **korumalı tünele dâhil edildiğini** doğrulayın.
+NymVPN platformunuzda bölünmüş tünelleme sunuyorsa cüzdanın bir atlama veya hariç tutma listesine alınmadığını, **korumalı tünele dahil edildiğini** doğrulayın.
 
 ### 4. Cüzdanı kullanmadan önce tüneli doğrulayın
 
-Basit bir sistem düzeyi kontrolü:
+Sistem düzeyinde basit bir denetim:
 
 1. NymVPN bağlantısını kesin.
-2. Herkese açık bir IP kontrol hizmetini ziyaret edin veya masaüstünde şunu çalıştırın:
+2. Herkese açık bir IP denetleme hizmetini ziyaret edin veya masaüstünde şunu çalıştırın:
 
    ```bash
    curl https://api.ipify.org
    ```
 
-3. Görünen IP'yi kaydedin.
+3. Görünen IP adresini kaydedin.
 4. Mixnet modunda NymVPN bağlantısını kurun.
-5. Kontrolü tekrarlayın.
+5. Denetimi tekrarlayın.
 
-Görünen genel IP değişmelidir.
+Görünen herkese açık IP adresi değişmiş olmalıdır.
 
-Bu, sistem tünelini doğrular. Bir uygulamanın veya işletim sisteminin özel yönlendirme kuralları varsa, belirli bir cüzdanın yaptığı her isteğin aynı yolu izlediğini **kanıtlamaz**.
+Bu, sistem tünelinin çalıştığını doğrular. Uygulamanın veya işletim sisteminin özel yönlendirme kuralları varsa belirli bir cüzdanın yaptığı her isteğin aynı yolu izlediğini **kanıtlamaz**.
 
 Masaüstünde daha fazla güvence için:
 
-- cüzdan sürecini işletim sisteminin ağ monitörüyle inceleyin,
-- split-tunnel hariç tutması olmadığını doğrulayın,
-- NymVPN bağlantısı kesildiğinde beklenen cüzdan davranışının değiştiğini doğrulayın.
+- işletim sisteminin ağ izleme aracını kullanarak cüzdan sürecini inceleyin,
+- bölünmüş tünel dışında bırakılmadığını doğrulayın,
+- NymVPN bağlantısı kesildiğinde cüzdan davranışının beklendiği gibi değiştiğini teyit edin.
 
-Sorun giderirken cüzdan adresleri, bakiyeler, işlem kimlikleri, IP adresleri veya kurtarma materyalleri içeren ekran görüntülerini paylaşmayın.
+Sorun giderirken cüzdan adreslerini, bakiyeleri, işlem kimliklerini, IP adreslerini veya kurtarma bilgilerini içeren ekran görüntülerini paylaşmayın.
 
 ## NymVPN dApp / cüzdan proxy modu
 
-NymVPN ayrıca mixnet üzerinden SOCKS5 / RPC yönlendirmesi kullanan bir uygulama ve cüzdan proxy modu sunar.
+NymVPN, mixnet üzerinden SOCKS5 / RPC yönlendirmesi kullanan bir uygulama ve cüzdan proxy modu da sunar.
 
-Nym'nin herkese açık kurulum belgeleri bunu temel olarak Ethereum tarzı RPC yapılandırmasıyla gösterir. Uyumlu bir genel proxy/RPC yolunu açıkça destekleyen yazılımlar için yararlıdır; ancak her Zcash cüzdanıyla çalıştığı varsayılmamalıdır.
+Nym'ın herkese açık kurulum belgelerinde bu özellik ağırlıklı olarak Ethereum tarzı RPC yapılandırmasıyla gösterilir. Uyumlu, genel bir proxy/RPC yolunu açıkça destekleyen yazılımlar için kullanışlıdır, ancak her Zcash cüzdanında çalıştığı **varsayılmamalıdır**.
 
-Bu yolu yalnızca cüzdanın kendi belgeleri uyumlu proxy veya RPC desteğini doğruladığında kullanın.
+Bu yolu yalnızca cüzdanın kendi belgelerinde uyumlu proxy veya RPC desteği doğrulanıyorsa kullanın.
 
-Aksi hâlde şunları tercih edin:
+Aksi takdirde şunları tercih edin:
 
 - cüzdanın yerel Nym entegrasyonu veya
 - sistem düzeyinde NymVPN.
 
-## Performans ve zaman aşımı dengeleri
+## Performans ve zaman aşımı ödünleşimleri
 
-Mixnet'ler daha güçlü meta veri koruması için kasıtlı olarak hızdan ödün verir.
+Mixnet'ler, daha güçlü meta veri koruması sağlamak için bilerek hızdan ödün verir.
 
-Şunlar üzerinde olası etkiler bekleyin:
+Şunlar etkilenebilir:
 
-- ilk cüzdan senkronizasyonu,
-- büyük kapsamlı eşitleme senkronizasyonları,
+- cüzdanın ilk eşitlemesi,
+- büyük eşitleme birikimlerini tamamlama,
 - işlem geçmişi sorguları,
-- RPC zaman aşımları,
+- RPC zaman aşımı,
 - üçüncü taraf API çağrıları.
 
-Pratik öneriler:
+Uygulamaya yönelik öneriler:
 
 - Varsayılan Nym ayarlarıyla başlayın.
-- İlk senkronizasyonun veya uzun kapsamlı eşitleme senkronizasyonunun daha uzun süreceğini bekleyin.
-- Gizlilik ayarlarını zayıflatmadan önce zaman aşımını yeniden deneyin.
+- İlk eşitlemenin veya uzun süren eşitleme birikimlerini tamamlamanın daha uzun süreceğini göz önünde bulundurun.
+- Gizlilik ayarlarını gevşetmeden önce zaman aşımına uğrayan işlemi yeniden deneyin.
 - Hassas bir işlemden hemen önce gizlilik modları arasında tekrar tekrar geçiş yapmaktan kaçının.
-- Toplu senkronizasyon için daha hızlı bir yol kullanıyorsanız, iletişim kurulan altyapının o süre boyunca gerçek ağ kimliğinizi görebileceğini anlayın.
-- Özellikle Zingo PC için, yerel Nym taşıma katmanının şu anda gönderimleri ve fiyat sorgusunu koruduğunu, senkronizasyonun ise doğrudan kaldığını unutmayın.
+- Toplu eşitleme için daha hızlı bir yol kullanırsanız, bu süre boyunca iletişim kurulan altyapının gerçek ağ kimliğinizi görebileceğini unutmayın.
+- Özellikle Zingo PC için yerel Nym aktarım katmanının şu anda gönderimleri ve fiyat sorgularını koruduğunu, eşitlemenin ise doğrudan gerçekleştiğini unutmayın.
 
-## Mobil hususlar
+## Mobil cihazlarla ilgili noktalar
 
-Android ve iOS üzerinde, genel cüzdan trafiğini NymVPN üzerinden yönlendirmenin genellikle en basit yolu işletim sisteminin VPN yuvasıdır: önce NymVPN bağlantısını kurun, ardından cüzdanı açın.
+Android ve iOS'ta genel cüzdan trafiğini NymVPN üzerinden yönlendirmenin en kolay yolu genellikle işletim sisteminin VPN yuvasıdır: önce NymVPN bağlantısını kurun, sonra cüzdanı açın.
 
-Başka bir VPN, güvenlik duvarı veya yerel VPN tabanlı reklam engelleyici zaten sistem VPN arayüzünü kullanıyorsa, iki ürün aynı anda çalışamayabilir. Cüzdanın korunduğunu varsaymadan önce işletim sisteminin VPN durumunu doğrulayın.
+Başka bir VPN, güvenlik duvarı veya yerel VPN tabanlı reklam engelleyici sistemin VPN arayüzünü zaten kullanıyorsa iki ürün aynı anda çalışamayabilir. Cüzdanın korunduğunu varsaymadan önce işletim sisteminin VPN durumunu doğrulayın.
 
 ## Tehdit modeli kontrol listesi
 
-Kuruluma güvenmeden önce şunları sorun:
+Bu yapılandırmaya güvenmeden önce şunları sorun:
 
-- Uygun olduğunda shielded Zcash adreslerini kullanıyor muyum?
-- Cüzdanım yerel Nym desteğine sahip mi?
-- Öyleyse, bu yerel entegrasyon tam olarak hangi trafiği koruyor?
-- Daha geniş kapsama ihtiyacım varsa, cüzdan ağ etkinliğine başlamadan önce NymVPN bağlı mı?
-- Cüzdan bir split-tunneling kuralıyla hariç tutulmuş mu?
-- Cüzdanın gerçekten belgelediği bir proxy moduna mı güveniyorum?
-- Bir borsa, tarayıcı oturumu, üçüncü taraf API veya şeffaf adres yoluyla kimlik sızdırıyor muyum?
-- Daha yavaş senkronizasyona ve ara sıra yaşanabilecek zaman aşımlarına hazır mıyım?
+- Uygun durumlarda korumalı Zcash adresleri kullanıyor muyum?
+- Cüzdanımın yerel Nym desteği var mı?
+- Varsa bu yerel entegrasyon tam olarak hangi trafiği koruyor?
+- Daha geniş kapsamlı korumaya ihtiyacım varsa cüzdan ağ etkinliği başlatmadan önce NymVPN bağlantısı kurulmuş mu?
+- Cüzdan bölünmüş tünelleme kuralıyla kapsam dışında bırakılmış mı?
+- Cüzdan belgelerinde gerçekten yer alan bir proxy modunu mu kullanıyorum?
+- Bir borsa, tarayıcı oturumu, üçüncü taraf API'si veya şeffaf adres üzerinden kimliğimi açığa çıkarıyor muyum?
+- Daha yavaş eşitlemeye ve zaman zaman yaşanabilecek zaman aşımlarına hazırlıklı mıyım?
 
 ## Kaynaklar
 
-- Nym: Nym mixnet artık Zcash cüzdanlarında yayında, 24 Eylül 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
+- Nym: Zcash cüzdanlarında Nym mixnet'i kullanıma sunuldu, 24 Eylül 2026: https://nym.com/blog/nym-mixnet-zcash-wallets
 - Zingo PC Nym davranışı: https://github.com/zingolabs/zingo-pc#the-nym-mixnet
-- Zingo Mobile Nym taşıma katmanı: https://github.com/zingolabs/zingo-mobile
+- Zingo Mobile Nym aktarım katmanı: https://github.com/zingolabs/zingo-mobile
 - Zkool deposu: https://github.com/hhanh00/zkool2
-- NozyWallet Nym taşıma çalışması: https://github.com/LEONINE-DAO/Nozy-wallet
+- NozyWallet Nym aktarım katmanı çalışması: https://github.com/LEONINE-DAO/Nozy-wallet
 - NymVPN v2026.12: https://nym.com/blog/nymvpn-v2026.12
-- Zodl Tor Protection: https://support.zodl.com/article/17-enabling-tor-protection
+- Zodl Tor Koruması: https://support.zodl.com/article/17-enabling-tor-protection

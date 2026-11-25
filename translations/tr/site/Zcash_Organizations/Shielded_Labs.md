@@ -1,73 +1,73 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Organizations/Shielded_Labs.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logo" width="50"/> Shielded Labs
+# <img src="/content-images/Shielded-labs-shield-white-2-27aef199ae.webp" alt="Shielded Labs logosu" width="50"/> Shielded Labs
 
-[Shielded Labs](https://shieldedlabs.net/), merkezi İsviçre'de bulunan, bağışlarla finanse edilen bağımsız bir Zcash destek kuruluşudur. Misyonu; Zcash ağının sürdürülebilirliğini, güvenliğini ve ölçeklenebilirliğini ileri taşıyan çalışmalara odaklanarak insan özgürlüğünü ve öz-egemenliğini güçlendiren durdurulamaz özel para oluşturmaktır.
+[Shielded Labs](https://shieldedlabs.net/), İsviçre merkezli, bağışlarla finanse edilen bağımsız bir Zcash destek kuruluşudur. Misyonu, insan özgürlüğünü ve öz egemenliği güçlendiren, durdurulamaz ve özel bir para birimi oluşturmak; Zcash ağının sürdürülebilirliğini, güvenliğini ve ölçeklenebilirliğini geliştiren çalışmalara odaklanmaktır.
 
-Shielded Labs, Zcash ekosistemine bağımsız mühendislik kapasitesi kazandırır. Electric Coin Company, Zcash Foundation veya Zcash Community Grants'in bir parçası değildir ve kendisini Development Fund ya da blok ödüllerinden doğrudan veya dolaylı fon almamış ilk Zcash ekosistemi kuruluşu olarak tanımlar.
+Shielded Labs, Zcash ekosistemine bağımsız mühendislik kapasitesi kazandırır. Electric Coin Company, Zcash Foundation veya Zcash Community Grants bünyesinde değildir ve kendisini, Geliştirme Fonu’ndan veya blok ödüllerinden doğrudan ya da dolaylı fon almamış ilk Zcash ekosistem kuruluşu olarak tanımlar.
 
 ## Misyon ve Rol
 
-Shielded Labs, Zcash'i uzun vadede daha dayanıklı kılabilecek protokol ve altyapı çalışmalarına odaklanır. Kamuya açık materyallerinde şu unsurlar vurgulanır:
+Shielded Labs, Zcash’yı uzun vadede daha dayanıklı hâle getirebilecek protokol ve altyapı çalışmalarına odaklanır. Kamuya açık materyalleri şu konuları vurgular:
 
 - İnsan özgürlüğü ve finansal gizlilik
-- Development Fund dışındaki bağımsız finansman
-- ZEC sahiplerine ve coin sahibi girdilerine saygı
-- Kullanıcı özerkliği ve öz-egemenlik
-- Sürdürülebilirlik, güvenlik ve ölçeklenebilirlik için teknik inovasyon
+- Geliştirme Fonu dışında bağımsız finansman
+- ZEC sahiplerine ve coinholder katkılarına saygı
+- Kullanıcı özerkliği ve öz egemenlik
+- Sürdürülebilirlik, güvenlik ve ölçeklenebilirlik için teknik yenilik
 - Diğer Zcash katkıda bulunanlarıyla iş birliği
 
-Kuruluş; doğrudan mühendislik, kamuya açık araştırma, altyapı desteği ve ekosistem koordinasyonu yoluyla katkıda bulunur. Ayrıca yönetişim yoklamaları ve coin sahibi yönlendirmeli fonlama için kamuya açık kaynaklar sunar; Zcash topluluğu üyelerinin yönetişim sinyallerine ne zaman ve nasıl katılabileceklerini anlamalarına yardımcı olur.
+Kuruluş; doğrudan mühendislik, kamuya açık araştırma, altyapı desteği ve ekosistem koordinasyonu yoluyla katkıda bulunur. Ayrıca, yönetişim yoklamaları ve coinholder yönlendirmeli finansman için kamuya açık kaynaklar sunarak Zcash topluluğu üyelerinin yönetişim sinyallerine ne zaman ve nasıl katılabileceklerini anlamalarına yardımcı olur.
 
 ## Mevcut Projeler
 
-Shielded Labs, kamuya açık olarak çeşitli etkin proje alanları listeler:
+Shielded Labs, aktif birkaç proje alanını kamuya açık biçimde listeler:
 
-- [Network Sustainability Mechanism](https://shieldedlabs.net/nsm/) - 21 milyon ZEC arz sınırını korurken Zcash'in uzun vadeli güvenlik bütçesini desteklemeyi amaçlayan önerilen değişiklikler kümesi. NSM çalışması, ZIP 233, 234 ve 235'te açıklanan gönüllü ZEC yakımları, ihraç yumuşatma ve ücret yakma önerilerini içerir.
-- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Zcash'in iş ispatı blok üretimini hisse ispatı kesinliğiyle birleştirecek önerilen hibrit bir mutabakat yükseltmesi. Böylece madenciler blok üretmeye devam ederken ZEC sahipleri ağın güvenliğine yardımcı olabilir.
-- [Dynamic Fees](https://shieldedlabs.net/fees/) - Ağ geliştikçe daha öngörülebilir, kullanıcı dostu ve dayanıklı Zcash işlem ücretleri için araştırma ve araçlar.
-- [Zero](https://shieldedlabs.net/zero/) - Borsalar, madencilik havuzları, cüzdan sağlayıcıları ve Zcash altyapısına bağlı diğer kuruluşlar için desteklenen açık kaynaklı Zcash altyapı yazılımları paketi.
-- [Ironwood](https://shieldedlabs.net/ironwood/) - Orchard sahtecilik açığına yanıt olarak oluşturulan, Zcash'in dolaşımdaki arzının bağımsız olarak doğrulanabilir sağlamlığını yeniden tesis etmek üzere tasarlanmış bir Zcash ağ yükseltmesi ve korumalı havuz.
-- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Zcash için üretime hazır, yüksek güvence düzeyine sahip kuantum sonrası kriptografi geliştirmek ve kritik kriptografik bileşenlerin biçimsel doğrulamasını genişletmek üzere Ekim 2026'da duyurulan bir araştırma ve mühendislik projesi. Proje, gelecekteki bir ağ yükseltmesinin temelini oluşturabilecek, 2027 sonuna kadar üretime hazır bir uygulamayı hedeflemektedir. Project Tachyon ve ekosistem genelindeki diğer kuantum sonrası çalışmaları tamamlar.
+- [Ağ Sürdürülebilirliği Mekanizması](https://shieldedlabs.net/nsm/) - 21 milyon ZEC arz sınırını korurken Zcash’ın uzun vadeli güvenlik bütçesini desteklemeyi amaçlayan bir dizi önerilen değişiklik. NSM çalışmaları; gönüllü ZEC yakımlarını, ihracın dengelenmesini ve ZIP 233, 234 ve 235’te açıklanan ücret yakma önerilerini içerir.
+- [Crosslink](https://shieldedlabs.net/crosslink-faq/) - Zcash’ın iş kanıtı blok üretimini hisse kanıtı kesinliğiyle birleştirecek, önerilen hibrit bir konsensüs yükseltmesi. Böylece madenciler blok üretmeye devam ederken ZEC sahipleri de ağın güvenliğini sağlamaya yardımcı olabilir.
+- [Dinamik Ücretler](https://shieldedlabs.net/fees/) - Ağ geliştikçe daha öngörülebilir, kullanıcı dostu ve dayanıklı Zcash işlem ücretleri için araştırma ve araçlar.
+- [Zero](https://shieldedlabs.net/zero/) - Borsalar, madencilik havuzları, cüzdan sağlayıcıları ve Zcash altyapısına dayanan diğer kuruluşlar için desteklenen açık kaynaklı Zcash altyapı yazılımları paketi.
+- [Ironwood](https://shieldedlabs.net/ironwood/) - Orchard sahtecilik açığına yanıt olarak oluşturulan bir Zcash ağ yükseltmesi ve korumalı havuz. Zcash’ın dolaşımdaki arzının doğruluğunun bağımsız biçimde doğrulanabilir hâle gelmesini sağlamayı amaçlar.
+- [Epoch](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) - Ekim 2026’da duyurulan; Zcash için üretime hazır, yüksek güvenceli kuantum sonrası kriptografi geliştirmeyi ve kritik kriptografik bileşenlerin biçimsel doğrulamasını genişletmeyi amaçlayan bir araştırma ve mühendislik projesi. Proje, gelecekteki bir ağ yükseltmesinin temelini oluşturabilecek, 2027 sonuna kadar üretime hazır bir uygulama geliştirmeyi hedefliyor. Project Tachyon ve ekosistemdeki diğer kuantum sonrası çalışmalarını tamamlar.
 
 ## Epoch ve kriptografi ekibi
 
-Ekim 2026'da Shielded Labs, Zcash'i kuantum bilişim, yapay zekâ destekli saldırılar ve diğer gelişmiş tehditlere karşı geleceğe hazırlamaya yönelik özel bir çalışma olan Epoch'i başlattı. Proje, kuantuma karşı savunmasız kriptografik bileşenleri değiştirmeyi ve protokolün kritik bölümlerine biçimsel doğrulama uygulamayı amaçlıyor.
+Ekim 2026’da Shielded Labs, Zcash’yı kuantum hesaplama, yapay zekâ destekli saldırılar ve diğer gelişmiş tehditlere karşı geleceğe hazırlamaya yönelik özel bir çalışma olan Epoch’i başlattı. Proje, kuantuma karşı savunmasız kriptografik bileşenleri değiştirmeyi ve protokolün kritik bölümlerine biçimsel doğrulama uygulamayı amaçlıyor.
 
-Epoch, üç kişilik bir kriptografi ekibi tarafından yönetilmektedir:
+Epoch, üç kişilik bir kriptografi ekibi tarafından yürütülüyor:
 
-- **Ulrich Haböck** – Baş Kriptograf (daha önce StarkWare'de; daha önce Polygon Zero'da). Sıfır bilgi ispatları ve kuantum sonrası kriptografi uzmanı; logUp lookup argümanının yazarı ve Circle STARKs makalesinin ortak yazarı.
-- **Luke Edwards** – Kriptografi Mühendisi (daha önce Aztec'deki kriptografi mühendisliği ekibinin teknik lideri). Arizona Üniversitesi'nden Uygulamalı Matematik alanında doktora derecesine sahiptir.
-- **Suyash Bagad** – Kriptografi Mühendisi (daha önce Aztec'de, Barretenberg kütüphanesi ve PLONK ispat sistemleri ailesi üzerinde çalıştı). IIT Bombay'dan BTech ve MTech derecelerine sahiptir; lisansüstü araştırması gizliliği koruyan rezerv ispatlarına odaklandı.
+- **Ulrich Haböck** – Baş Kriptograf (önceden StarkWare bünyesindeydi; daha önce Polygon Zero’da çalıştı). Sıfır bilgi kanıtları ve kuantum sonrası kriptografi uzmanı; logUp arama argümanının yazarı ve Circle STARKs makalesinin ortak yazarı.
+- **Luke Edwards** – Kriptografi Mühendisi (önceden Aztec kriptografi mühendisliği ekibinin teknik lideriydi). Arizona Üniversitesi’nden Uygulamalı Matematik alanında doktora derecesine sahiptir.
+- **Suyash Bagad** – Kriptografi Mühendisi (önceden Aztec bünyesinde Barretenberg kütüphanesi ve PLONK kanıt sistemleri ailesi üzerinde çalıştı). IIT Bombay’dan BTech ve MTech derecelerine sahiptir; lisansüstü araştırmaları gizliliği koruyan rezerv kanıtlarına odaklandı.
 
-1. Aşama, mevcut araştırmaların incelenmesine, aday yapıların Zcash güvenlik ve performans gereksinimlerine göre değerlendirilmesine ve somut bir kuantum sonrası önerinin hazırlanmasına odaklanır. Üretime hazır bir uygulamanın 2027 sonuna kadar tamamlanması hedeflenmektedir.
+1. Aşama, mevcut araştırmaları incelemeye, aday yapıları Zcash güvenlik ve performans gereksinimlerine göre değerlendirmeye ve somut bir kuantum sonrası öneri hazırlamaya odaklanır. Üretime hazır bir uygulamanın 2027 sonuna kadar tamamlanması hedefleniyor.
 
-## Ironwood Katkısı
+## Ironwood katkısı
 
-2026'da Shielded Labs, Orchard sahtecilik açığına verilen ekosistem yanıtında önemli bir rol oynadı. Açık, Shielded Labs güvenlik araştırmacısı Taylor Hornby tarafından keşfedildi ve diğer Zcash katkıda bulunanlarıyla acil çözümü koordine eden Zcash Open Development Lab (ZODL)'a bildirildi.
+2026’da Shielded Labs, Orchard sahtecilik açığına ekosistemin verdiği yanıtta önemli bir rol oynadı. Açığı, Shielded Labs güvenlik araştırmacısı Taylor Hornby keşfetti ve Zcash Open Development Lab’a (ZODL) bildirdi. ZODL, diğer Zcash katkıda bulunanlarıyla birlikte acil düzeltmeyi koordine etti.
 
-Acil düzeltmenin ardından topluluğun, Zcash'in dolaşımdaki arzına yönelik bağımsız güveni yeniden tesis etmenin bir yoluna hâlâ ihtiyacı vardı. Ironwood, düzeltilmiş Orchard devresini kullanan yeni bir korumalı havuz oluşturarak ve özgün Orchard havuzunu, fonların yalnızca turnikeden çıkabilmesini sağlayacak şekilde mühürleyerek bunu ele aldı. Shielded Labs, Ironwood'un tasarımı, incelemesi ve ekosistem hazırlığı için Project Tachyon, Valar Group, ZODL ve Zcash Foundation ile birlikte çalıştı.
+Acil düzeltmenin ardından topluluğun, Zcash’ın dolaşımdaki arzına duyulan bağımsız güveni yeniden tesis edecek bir yönteme ihtiyacı vardı. Ironwood, düzeltilmiş Orchard devresini kullanan yeni bir korumalı havuz oluşturarak ve eski Orchard havuzunu, fonların yalnızca turnike üzerinden çıkabilmesini sağlayacak şekilde mühürleyerek bu ihtiyacı karşıladı. Shielded Labs; Tachyon, Valar Group, ZODL ve Zcash Foundation ile birlikte Ironwood için tasarım, inceleme ve ekosistem hazırlığı çalışmalarını yürüttü.
 
-Bu çalışma, Shielded Labs'in Zcash'teki temel rollerinden birini gösterdi: özgün Zcash geliştirme kuruluşlarının dışında bağımsız protokol geliştirme ve güvenlik kapasitesi eklemek.
+Bu çalışma, Zcash içinde Shielded Labs’nin temel rollerinden birini gösterdi: özgün Zcash geliştirme kuruluşlarının dışında, bağımsız protokol geliştirme ve güvenlik kapasitesi sağlamak.
 
-## Yönetişim Çalışması
+## Yönetişim Çalışmaları
 
-Shielded Labs ayrıca Zcash topluluğu üyeleri için yönetişim bilgileri yayımlar. Yönetişim sayfası, protokol yönetişimi yoklamalarını, ZCAP katılımını, coin sahibi yönlendirmeli fonlamayı ve desteklenen oylama cüzdanlarını takip eder. Bu, Zcash karar alma süreçlerinin coin sahipleri, ZCAP üyeleri ve daha geniş topluluk katılımcıları tarafından daha kolay takip edilmesine yardımcı olur.
+Shielded Labs, Zcash topluluğu üyeleri için yönetişim bilgileri de yayımlar. Yönetişim sayfası; protokol yönetişimi yoklamalarını, ZCAP katılımını, coinholder yönlendirmeli finansmanı ve desteklenen oylama cüzdanlarını takip eder. Bu, Zcash karar alma süreçlerinin coinholder’lar, ZCAP üyeleri ve daha geniş topluluk katılımcıları tarafından daha kolay izlenmesine yardımcı olur.
 
-Zcash, protokol değişiklikleri için otomatik zincir üzeri yönetişim kullanmaz. Yoklamalar ve topluluk girdileri, daha geniş yaklaşık mutabakat sürecini besleyen tavsiye niteliğinde sinyallerdir. Shielded Labs'in yönetişim çalışması, bu sinyallerin daha erişilebilir ve doğrulanmasının daha kolay olmasına yardımcı olur.
+Zcash, protokol değişiklikleri için otomatik zincir üstü yönetişim kullanmaz. Yoklamalar ve topluluk katkıları, daha geniş kaba konsensüs sürecine girdi sağlayan tavsiye niteliğindeki sinyallerdir. Shielded Labs’in yönetişim çalışmaları, bu sinyalleri daha erişilebilir ve doğrulanabilir hâle getirmeye yardımcı olur.
 
 ## Kaynaklar
 
 - [Shielded Labs web sitesi](https://shieldedlabs.net/)
-- [Shielded Labs projeler](https://shieldedlabs.net/projects/)
+- [Shielded Labs projeleri](https://shieldedlabs.net/projects/)
 - [Ağ Sürdürülebilirliği Mekanizması](https://shieldedlabs.net/nsm/)
 - [Crosslink SSS](https://shieldedlabs.net/crosslink-faq/)
 - [Dinamik Ücretler](https://shieldedlabs.net/fees/)
 - [Zero](https://shieldedlabs.net/zero/)
 - [Ironwood](https://shieldedlabs.net/ironwood/)
-- [Epoch: Zcash](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/) için Geleceğe Dayanıklı Kriptografi
+- [Epoch: Zcash için geleceğe hazır kriptografi](https://shieldedlabs.net/epoch-future-proof-cryptography-for-zcash/)
 - [Ekip](https://shieldedlabs.net/team/)
-- [Yönetişim ve oylama](https://shieldedlabs.net/governance/)
+- [Yönetişim ve yoklamalar](https://shieldedlabs.net/governance/)
 - [Shielded Labs GitHub](https://github.com/ShieldedLabs)

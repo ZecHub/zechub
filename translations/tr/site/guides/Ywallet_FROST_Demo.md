@@ -1,12 +1,12 @@
-# Ywallet FROST demosu
+# Ywallet FROST demo
 
-> **Ywallet artık desteklenmiyor.** Geliştiricisi, Ironwood (NU6.3) için güncellenmeyeceğini doğruladı; bu nedenle artık zinciri takip edemiyor ve aşağıdaki adımlar mainnet üzerinde tamamlanamıyor. Bu sayfa referans olarak tutulmaktadır. Aynı geliştiricinin ürünü olan Zkool, desteklenen devam ürünüdür ve FROST multisig'i destekler.
+> **Ywallet artık bakımı yapılmıyor.** Geliştiricisi, Ironwood (NU6.3) için güncellenmeyeceğini doğruladı; bu nedenle artık Zincir’i takip edemiyor ve aşağıdaki adımlar ana ağda tamamlanamıyor. Bu sayfa başvuru amacıyla tutulmaktadır. Aynı geliştiricinin ürünü olan Zkool, bakımı sürdürülen yeni sürümüdür ve FROST çoklu imzayı destekler.
 
 <div className="my-8 w-full aspect-video max-w-3xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-black">
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/3IZgxDqQNbw"
-    title="FROST + Ywallet Transaction Demo"
+    title="FROST + Ywallet İşlem Demosu"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -14,11 +14,11 @@
 </div>
 
 
-## FROST ikililerini derleyin
+## FROST ikili dosyalarını derleme
 
-[GitHub bağlantısı](https://github.com/ZcashFoundation/frost-zcash-demo)
+[GitHub bağlantısını](https://github.com/ZcashFoundation/frost-zcash-demo)
 
-Yukarıdaki depoyu kullanın ve derleme talimatlarını izleyin: 
+Yukarıdaki depoyu kullanın ve derleme yönergelerini izleyin:
 
 ```bash
 cargo build --bin trusted-dealer
@@ -27,51 +27,51 @@ cargo build --bin coordinator
 cargo build --bin participant
 ```
 
-İkililer target klasöründe olacaktır.
+İkili dosyalar hedef klasörde olacaktır.
 
-## FROST UA oluşturun
+## FROST UA oluşturma
 
 `./generateFROST_UA.sh`
 
 
 
-## UFVK'yi Ywallet'e aktarın
+## UFVK'yi Ywallet içine aktarma
 
-Hesaplar -> + işaretine tıklayın ve yukarıdaki adımdaki ufvk'yi yapıştırın
+Accounts -> + simgesine tıklayın ve yukarıdaki adımdaki UFVK'yi yapıştırın
 
-## Ywallet ile bir işlem oluşturun
+## Ywallet ile işlem oluşturma
 
-Herhangi bir UA'yı yapıştırın ve bir tx gönderin. Dosyayı kaydedin.
+Herhangi bir UA yapıştırıp bir işlem gönderin. Dosyayı kaydedin.
 
-## FROST imzalama prosedürünü başlatın
+## FROST imzalama prosedürünü başlatma
 
 `./signFROST_tx.sh rawtxs/mytx signedtxs/mysignedtx`
 
-ilk girdi, yukarıdaki adımdaki ham tx'nin konumudur
-ikinci girdi, yayınlamak istediğiniz imzalı tx'nin konumu ve adıdır
-Bu, FROST'a herkesin hangi işlemi imzalamasını istediğinizi belirttiğiniz bölümdür
+İlk girdi, yukarıdaki adımdaki ham işlemin konumudur.
+İkinci girdi, yayınlamak istediğiniz imzalı işlemin konumu ve adıdır.
+Bu bölümde herkese hangi işlemi imzalamasını istediğinizi FROST'ye bildirirsiniz.
 
-## Koordinatörü başlatın
+## Koordinatörü başlatma
 
 `./runCoordinator.sh`
 
-Bu, her katılımcının imzasını koordine eder ve bir grup imzası oluşturur
+Bu, her katılımcının imzasını koordine eder ve bir grup imzası oluşturur.
 
-## Her Katılımcının bu işlemi imzalamasını sağlayın
+## Her katılımcının bu işlemi imzalamasını sağlama
 
 ```bash
 ./participantSign.sh key-package-1.json
 ./participantSign.sh key-package-2.json
 ```
 
-## İmzalı İşlemi tamamlayın
+## İmzalı işlemi sonlandırma
 
-Koordinatör penceresinde, çıktısı verilen grup imzasını kopyalayın ve FROST imzalama penceresine yapıştırın.
-Bu, FROST imzalamayı tamamlayacak ve 'mysingedtx' çıktısını verecektir
+Koordinatör penceresinde, çıktılanan grup imzasını kopyalayıp FROST imzalama penceresine yapıştırın.
+Böylece FROST imzalama işlemi tamamlanır ve 'mysingedtx' çıktısı oluşturulur.
 
 
-## İşleminizi Ywallet ile yayınlayın
+## İşleminizi Ywallet ile yayınlama
 
-Ywallet'in sağ alt tarafındaki 'More' seçeneğine tıklayın ve 'Broadcast' seçeneğini bulun. 'mysignedtx' dosyasını bulun ve tamam'a tıklayın.
+Ywallet penceresinin sağ alt köşesindeki 'More' seçeneğine tıklayın ve 'Broadcast' seçeneğini bulun. 'mysignedtx' dosyasını bulun ve Tamam'a tıklayın.
 
-Her şey çalışırsa bir işlem kimliği alırsınız :)
+Her şey yolunda giderse bir işlem kimliği alırsınız :)

@@ -1,119 +1,122 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Sapling.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 # Sapling
 
-> Sapling, Zcash mainnet’inde 419.200. blokta etkinleşti (29 Ekim 2018, 02:15 UTC).
+> Sapling, Zcash ana ağında 419.200. blokta (29 Ekim 2018, 02:15 UTC) devreye girdi.
 
-Edineceğiniz ana fikir: Sapling, özel Zcash ödemelerini telefonda veya bir donanım cüzdanında çalışacak kadar hızlı ve hafif hâle getirdi.
+Öğrenecekleriniz: Sapling, korumalı Zcash ödemelerini telefon veya donanım cüzdanında çalışabilecek kadar hızlı ve hafif hâle getirdi.
 
-Sapling, Zcash ağının ikinci büyük yükseltmesiydi ve Zcash’in ikinci yıldönümünde etkinleşti. Korumalı (özel) işlemlerin nasıl oluşturulduğunu yeniden inşa eden bir konsensüs hard fork’uydu. Dağıtım ZIP 205 ile, yeni işlem imza kuralları ZIP 243 ile tanımlanır ve her ikisi de ağ yükseltme mekanizması olan ZIP 200 üzerine kuruludur. Tüm ayrıntılar Zcash Protocol Specification içinde yer alır. Electric Coin Company bu yükseltmeyi geliştirdi ve bunu destekleyen ilk sürüm olan zcashd 2.0.0’ı Ağustos 2018’de yayımladı. Zincir üzerinde ağ, Sapling kurallarını konsensüs branch id ile tanımlar.
+Sapling, Zcash'in ikinci yıl dönümünde etkinleşen ikinci büyük Zcash ağ yükseltmesiydi. Korumalı (özel) işlemlerin oluşturulma biçimini yeniden düzenleyen bir konsensüs hard fork'uydu. Dağıtım, ZIP 205 ile; yeni işlem imza kuralları ise ZIP 243 ile tanımlanır ve her ikisi de ağ yükseltme mekanizması olan ZIP 200 üzerine kuruludur. Tüm ayrıntılar Zcash Protokol Spesifikasyonu'nda yer alır. Electric Coin Company yükseltmeyi geliştirdi ve destekleyen ilk sürüm olan zcashd 2.0.0'ı Ağustos 2018'de yayımladı. Zincir üstünde ağ, Sapling kurallarını konsensüs dal kimliğiyle tanımlar.
 
-Bu neden önemlidir? Sapling’den önce gerçekten özel bir ödeme yapmak, ispatı oluşturmak için bilgisayarınızın gigabaytlarca belleği kullanarak dakikalar boyunca çalışmasını beklemek anlamına geliyordu. Bu çoğu insan için fazla yavaş ve ağırdı; bu yüzden birçok kullanıcı, borsa ve mağaza korumalı işlemleri atlıyor ve bunun yerine ZEC’i açık şekilde gönderiyordu. Sapling bu işi birkaç saniyeye ve yaklaşık 40 megabayt belleğe düşürdü. Günlük yaşamda, sıradan telefonlarda ve donanım cüzdanlarında korumalı ZEC kullanımını pratik hâle getiren şey işte bu tek değişiklik oldu.
+Önemi. Sapling öncesinde gerçekten özel bir ödeme yapmak, bilgisayarınız kanıtı oluşturmak için gigabaytlarca belleği işlerken dakikalarca beklemek anlamına geliyordu. Çoğu kişi için bu işlem çok yavaş ve ağırdı; bu nedenle birçok kullanıcı, borsa ve mağaza korumalı işlemleri atlayıp ZEC ödemelerini açık olarak gönderiyordu. Sapling, gereken işi birkaç saniyeye ve yaklaşık 40 megabayt belleğe indirdi. Bu tek değişiklik, korumalı ZEC işlemlerini gündelik hayatta, sıradan telefonlarda ve donanım cüzdanlarında kullanılabilir hâle getirdi.
 
 ## Kısaca
 
-- Sapling, 419.200. blokta (29 Ekim 2018, 02:15 UTC) etkinleşen ikinci büyük Zcash ağ yükseltmesiydi — Zcash'nin ikinci yıl dönümü.
-- Korumalı işlemleri, Sprout'nin tek ve yavaş JoinSplit devresinin yerine iki amaca özel devre (Spend ve Output) etrafında yeniden inşa etti (ZIP 205, ZIP 243).
-- Sonuç: ispat oluşturma süresi dakikalardan ve gigabaytlarca bellek kullanımından birkaç saniyeye ve yaklaşık 40 MB'a düştü — telefonlar ve donanım cüzdanları için yeterince hafifti.
-- Yeni özellikler: çeşitlendirilmiş adresler (tek bir anahtardan birçok ilişkilendirilemeyen ödeme adresi), yalnızca denetim erişimi için görüntüleme anahtarları ve ispat oluşturmanın imzalamadan ayrıştırılması.
-- Parametreleri, iki aşamalı çok taraflı bir törenden (Powers of Tau + Sapling MPC) geldi; katılımcılardan yalnızca birinin bile dürüst olması güvenliği sağlar.
+- Sapling, 419.200. blokta (29 Ekim 2018, 02:15 UTC) etkinleşen ikinci büyük Zcash ağ yükseltmesiydi — Zcash'in ikinci yıl dönümünde.
+- Korumalı işlemleri, Sprout'ün tek ve yavaş JoinSplit devresinin yerine amaca özel iki devreyle (Spend ve Output) yeniden oluşturdu (ZIP 205, ZIP 243).
+- Sonuç: Kanıt oluşturma süresi dakikalardan birkaç saniyeye, bellek kullanımı gigabaytlardan yaklaşık 40 MB'a indi — telefonlar ve donanım cüzdanları için yeterince hafif.
+- Yeni özellikler: çeşitlendirilmiş adresler (tek bir anahtardan türetilebilen, birbiriyle ilişkilendirilemez çok sayıda ödeme adresi), yalnızca denetim erişimi sağlayan görüntüleme anahtarları ve kanıt oluşturma ile imzalamanın birbirinden ayrılması.
+- Parametreleri iki aşamalı çok taraflı bir törenden (Powers of Tau + Sapling MPC) geldi; katılımcılardan yalnızca birinin bile dürüst olması güvenlik için yeterliydi.
 
 ## Görsel benzetme
 
-Sprout, ülke genelindeki her mektubu elle taşıyan özel bir kuryeydi — tamamen gizliydi, ancak yavaş ve yorucuydu. Sapling ise aynı kuryeyi hafif sırt çantalı bir bisikletçiye dönüştürdü: hâlâ gizli, ancak günlük teslimatlar için yeterince hızlı. Yeni görüntüleme anahtarları da, kargonun anahtarlarını asla vermeden bir denetçiye kuryenin kayıt defterine açılan net bir pencere sunmak gibidir.
+Sprout, her mektubu ülkenin bir ucundan diğerine yürüyerek taşıyan özel bir kuryeydi — kusursuz bir gizlilik sağlıyordu ama yavaş ve yorucuydu. Sapling, aynı kuryeyi hafif sırt çantalı bir bisikletliye dönüştürdü: Gizlilik aynı kaldı, ancak gündelik teslimatlar için yeterince hızlı oldu. Yeni görüntüleme anahtarları da bir denetçiye, kuryenin yükünün anahtarlarını hiç vermeden kayıt defterine açık bir pencereden bakma olanağı tanımak gibidir.
+
 
 ## Neler değişti
 
-Sapling’in kalbinde, korumalı bir işlemi gizli tutan sıfır bilgi ispatını daha hızlı oluşturmanın bir yolu vardır. Orijinal Sprout tasarımı, yavaş ve çok bellek tüketen tek bir ispat devresi (JoinSplit devresi) kullanıyordu. Sapling bunu, Zcash Protocol Specification içinde açıklanan, belirli amaçlar için tasarlanmış iki devreyle değiştirdi: Spend devresi ve Output devresi. Sonuç, maliyette büyük bir düşüştür. Electric Coin Company’ye göre, korumalı bir işlem yaklaşık 40 megabayt bellek kullanılarak yalnızca birkaç saniyede oluşturulabilir. Sapling öncesi Sprout tabanı ise çok daha ağırdı; dakikalar ve birkaç gigabayt bellek düzeyindeydi (Sprout tarafındaki bu rakamlar, yaygın şekilde alıntılanan yaklaşık temel düzeydir).
+Sapling'in temelinde, korumalı bir işlemi gizli tutan sıfır bilgi kanıtını daha hızlı oluşturmanın bir yolu vardır. İlk Sprout tasarımı, yavaş ve bellek kullanımı yüksek tek bir kanıtlama devresi (JoinSplit devresi) kullanıyordu. Sapling, bunu Zcash Protokol Spesifikasyonu'nda açıklanan, amaca özel iki devreyle — Spend ve Output devreleriyle — değiştirdi. Sonuç, maliyette büyük bir düşüştür. Electric Coin Company'e göre korumalı bir işlem, yaklaşık 40 megabayt bellek kullanılarak yalnızca birkaç saniyede oluşturulabilir. Sapling öncesindeki Sprout referans değeri çok daha yüksekti; süre dakikalar, bellek kullanımı ise birkaç gigabayt düzeyindeydi (bu Sprout tarafı değerleri, yaygın olarak alıntılanan yaklaşık referans değerlerdir).
 
-![Sprout ile Sapling arasında korumalı işlem maliyeti karşılaştırması](/content-images/sapling-before-after-a045b0b48f.webp)
+![Sprout ve Sapling korumalı işlem maliyeti](/content-images/sapling-before-after-a045b0b48f.webp)
 
 ## Yeni anahtarlar
 
-Sapling ayrıca yeni bir korumalı adres ve anahtar seti de tanıttı. Tek bir anahtar, birçok çeşitlendirilmiş adres türetebilir; bunlar dışarıdan bir gözlemcinin birbirine bağlayamayacağı ayrı ödeme adresleridir. Sapling görüntüleme anahtarlarını da ekledi: tam veya gelen görüntüleme anahtarı, bir cüzdanın işlem ayrıntılarını görme yeteneğini, o cüzdandaki fonları harcama yetkisini vermeden paylaşmanıza olanak tanır. Bu; denetim, muhasebe ya da basitçe bir ödemenin yapıldığını kanıtlama için faydalıdır.
+Sapling ayrıca yeni bir korumalı adres ve anahtar kümesi de kullanıma sundu. Tek bir anahtardan, dışarıdan bakan bir gözlemcinin birbiriyle ilişkilendiremeyeceği çok sayıda çeşitlendirilmiş adres, yani ayrı ödeme adresleri türetilebilir. Sapling görüntüleme anahtarlarını da ekledi: Tam veya gelen görüntüleme anahtarı, cüzdanın işlem ayrıntılarını görme yetkisini paylaşmanıza olanak tanırken fonları harcama yetkisini vermez. Bu özellik denetim ve muhasebe işlemlerinde ya da yalnızca bir ödemenin yapıldığını kanıtlamak için kullanışlıdır.
 
-Bununla ilişkili bir başka değişiklik de Sapling’in ispatı oluşturma işi ile işlemi imzalama işini ayırmış olmasıdır. Sıfır bilgi ispatını oluşturan cihazın artık harcama yetkisini elinde tutan cihaz olması gerekmez. Bu ayrıştırma, bir donanım cüzdanının harcama anahtarınızı izole biçimde saklarken daha ağır ispatlama işini ayrı bir cihazın yapmasına olanak tanır.
+Bununla ilişkili bir değişiklik de Sapling'ün kanıt oluşturma işini işlem imzalama işinden ayırmasıdır. Sıfır bilgi kanıtını oluşturan aygıtın artık harcama yetkisini elinde tutan aygıtla aynı olması gerekmez. Bu ayrım, donanım cüzdanının harcama anahtarınızı yalıtılmış tutmasını ve daha ağır kanıtlama işini ayrı bir aygıtın yapmasını sağlar.
 
-![İspat oluşturan cihaz, ispatı ayrı bir imzalama cihazına verir](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
+![Kanıt oluşturma cihazı, kanıtı ayrı bir imzalama cihazına teslim eder](/content-images/sapling-decoupled-spend-6fceca13a2.webp)
 
-## Güvenilir kurulum
+## Güvene dayalı kurulum
 
-Sapling’in devreleri, dikkatle üretilmesi gereken bir dizi ortak parametreye dayanır. Eğer bunları tek bir taraf tek başına üretmiş ve geriye kalan gizli veriyi (“toxic waste”) saklamış olsaydı, bu taraf sahte ispatlar üretebilirdi. Bunu önlemek için parametreler iki aşamalı, çok taraflı bir törenden elde edildi. Powers of Tau adı verilen 1. aşama devreden bağımsızdı; yani Sapling’in belirli devrelerine bağlı değildi. 2. aşama olan Sapling MPC ise devreye özeldi. Her aşama, en az bir katılımcı dürüst olduğu ve toxic waste’i yok ettiği sürece güvenli kalır; dolayısıyla tören ancak bütün katılımcıların iş birliği yapması durumunda başarısız olur.
+Sapling'ün devreleri, dikkatle oluşturulması gereken bir dizi açık parametreye dayanır. Bu parametreleri tek bir taraf üretip geride kalan gizli verileri (“zehirli atık”) saklasaydı, bu taraf sahte kanıtlar oluşturabilirdi. Bunu önlemek için parametreler iki aşamalı, çok taraflı bir törenle üretildi. Powers of Tau adı verilen 1. aşama devreden bağımsızdı; yani Sapling'ün belirli devrelerine bağlı değildi. Sapling MPC olarak adlandırılan 2. aşama ise devreye özeldi. Her iki aşama da en az bir katılımcı dürüst olduğu ve zehirli atığını yok ettiği sürece güvenli kalır; dolayısıyla tören ancak tüm katılımcıların iş birliği yapması durumunda başarısız olur.
 
 ## Nasıl etkinleşti
 
-Sapling, ağın yükseltme mekanizmasını hazırlayan Haziran 2018 yükseltmesi Overwinter’ı takip etti. Electric Coin Company, Ağustos 2018’de yayımlanan zcashd 2.0.0 içinde mainnet etkinleşme yüksekliğini belirledi ve 419.200. blok çıkarıldığında ağ Sapling kurallarına geçti. Zincir üzerinde bu an, Sapling konsensüs branch id ile işaretlenir.
+Sapling, ağın yükseltme mekanizmasını hazırlayan Haziran 2018 yükseltmesi Overwinter'i izledi. Electric Coin Company, ana ağ etkinleşme yüksekliğini Ağustos 2018'de yayımlanan zcashd 2.0.0 sürümünde belirledi ve 419.200. blok kazıldığında ağ Sapling kurallarına geçti. Zincir üstünde bu an, Sapling konsensüs dal kimliğiyle işaretlenir.
 
-![Zcash’in lansmanından Sapling etkinleşmesine uzanan zaman çizelgesi](/content-images/sapling-timeline-6cad184c30.webp)
+![Zcash lansmanından Sapling etkinleştirmesine kadar zaman çizelgesi](/content-images/sapling-timeline-6cad184c30.webp)
 
-## Yaygın Hatalar
+## Sık Yapılan Hatalar
 
-- **Korumalı ödemelerin her zaman kullanılabilir olduğunu varsaymak.** Sapling öncesinde kanıt oluşturma dakikalar sürüyor ve gigabaytlarca bellek gerektiriyordu; bu yüzden çoğu kullanıcı, borsa ve mağaza korumalı işlemleri tamamen atlıyordu.
-- **Sapling adreslerini Sprout adresleriyle aynı olarak adlandırmak.** Sapling kendi adres ve anahtar türlerini (ayrıca çeşitlendirilmiş adresler ve görüntüleme anahtarlarını) getirdi; Sprout anahtarları Sapling adresleriyle birlikte çalışmaz.
-- **Güvenilir kurulumu “tek bir şirketin sırrı” olarak görmek.** Bu, çok taraflı bir törendi: yalnızca tüm katılımcılar iş birliği yapmış olsaydı kanıtlar sahte olarak üretilebilirdi.
-- **Sapling'ün arzı veya bakiyeleri değiştirdiğini düşünmek.** Korumalı işlemlerin nasıl oluşturulduğunu değiştirdi — hiçbir ZEC miktarı etkilenmedi.
-- **Kanıt oluşturmanın ve imzalamanın aynı cihazda gerçekleşmesi gerektiğini varsaymak.** Sapling'ün ayrıştırması, donanım cüzdanlarının harcama anahtarlarını yalıtılmış tutarken başka bir cihazın kanıtları oluşturmasına tam olarak olanak tanır.
+- **Korumalı ödemelerin her zaman kullanılabilir olduğunu varsaymak.** Sapling öncesinde kanıt oluşturma işlemi dakikalar ve gigabaytlarca bellek gerektiriyordu; bu yüzden çoğu kullanıcı, borsa ve mağaza korumalı işlemleri tamamen atlıyordu.
+- **Sapling adreslerinin Sprout adresleriyle aynı olduğunu söylemek.** Sapling kendi adres ve anahtar türlerini (çeşitlendirilmiş adresler ve görüntüleme anahtarlarının yanı sıra) kullanıma sundu; Sprout anahtarları Sapling adresleriyle birlikte çalışmaz.
+- **Güvene dayalı kurulumun “tek bir şirketin sırrı” olduğuna inanmak.** Bu, çok taraflı bir törenle yapıldı: Kanıtlar ancak tüm katılımcılar iş birliği yaparsa sahte olarak oluşturulabilirdi.
+- **Sapling'in ihracı veya bakiyeleri değiştirdiğini düşünmek.** Korumalı işlemlerin oluşturulma biçimini değiştirdi — hiçbir ZEC tutarı etkilenmedi.
+- **Kanıtlama ve imzalamanın aynı aygıtta yapılması gerektiğini varsaymak.** Sapling'ün sağladığı ayrım sayesinde donanım cüzdanları harcama anahtarlarını yalıtılmış tutarken başka bir aygıt kanıt oluşturabilir.
+
 
 ## Sözlük
 
-| Terim | Sade Türkçe anlamı |
+| Terim | Sade dille anlamı |
 |---|---|
-| Shielded transaction | Göndereni, alıcıyı ve tutarı gizleyen özel bir Zcash işlemi. |
-| Sprout | Zcash’in birlikte piyasaya çıktığı, Sapling’e göre daha yavaş ve daha ağır olan ilk korumalı protokol. |
-| Spend and Output circuits | Sprout’un tek JoinSplit devresinin yerini alan iki yeni Sapling ispat devresi. |
-| Diversified address | Tek bir anahtardan türetebileceğiniz, birbiriyle ilişkilendirilemeyen çok sayıdaki ödeme adresinden biri. |
-| Viewing Key | Birinin, bir cüzdanın işlemlerini ondan harcama yapamadan görmesini sağlayan anahtar. |
-| Consensus branch id | Ağa, bir işlemin hangi yükseltmenin kurallarını izlediğini söyleyen kısa kod. |
+| Shielded transaction | Göndereni, alıcıyı ve tutarı gizleyen özel bir Zcash işlemidir. |
+| Sprout | Zcash ile kullanıma sunulan ilk korumalı protokoldür; Sapling'den daha yavaş ve daha ağırdır. |
+| Spend and Output circuits | Sprout'ün tek JoinSplit devresinin yerini alan iki yeni Sapling kanıtlama devresidir. |
+| Diversified address | Tek bir anahtardan türetebileceğiniz, birbiriyle ilişkilendirilemez çok sayıda ödeme adresinden biridir. |
+| Viewing Key | Bir kişinin cüzdan işlemlerini görmesini sağlayan, ancak fonları harcamasına izin vermeyen anahtardır. |
+| Consensus branch id | Bir işlemin hangi yükseltmenin kurallarına uyduğunu ağa bildiren kısa bir koddur. |
 
 ## SSS
 
-Sapling sahip olduğum ZEC miktarını değiştirdi mi? Hayır. Sapling, korumalı işlemlerin nasıl oluşturulduğunu değiştirdi; herhangi birinin elindeki ZEC miktarını ya da toplam arzı değil. Bakiyeniz etkilenmedi.
+Sapling, sahip olduğum ZEC miktarını değiştirdi mi? Hayır. Sapling, korumalı işlemlerin oluşturulma biçimini değiştirdi; herhangi bir kişinin sahip olduğu ZEC miktarını veya toplam arzı değiştirmedi. Bakiyeniz etkilenmedi.
 
-Sapling’den sonra ZEC’im hâlâ özel mi? Evet, hem de daha kullanışlı. Sapling, korumalı işlemlerin güçlü gizliliğini korudu ve onları gerçekten kullanılabilecek kadar hızlı ve ucuz hâle getirdi. Korumalı fonlar aynı şekilde gizli kalır.
+Sapling sonrasında ZEC hâlâ gizli mi? Evet, üstelik kullanımı daha kolay. Sapling, korumalı işlemlerin güçlü gizliliğini korurken onları gerçekten kullanılabilecek kadar hızlı ve ucuz hâle getirdi. Korumalı fonlar aynı şekilde gizli kalır.
 
-Bir şey yapmam gerekiyor mu? Hayır, holder olarak sizden herhangi bir işlem gerekmez. Sapling, cüzdan ve düğüm yazılımlarının benimsediği bir ağ yükseltmesiydi. Modern cüzdanlar zaten Sapling adreslerini destekliyor.
+Bir şey yapmam gerekiyor mu? Hayır. Bir varlık sahibi olarak herhangi bir işlem yapmanız gerekmez. Sapling, cüzdan ve düğüm yazılımlarının benimsediği bir ağ yükseltmesiydi. Güncel cüzdanlar Sapling adreslerini zaten destekliyor.
 
-Sprout ile Sapling arasındaki fark nedir? Sprout ilk korumalı protokoldü ve yavaş, çok bellek kullanan tek bir ispat devresi kullanıyordu. Sapling bunu daha hızlı Spend ve Output devreleriyle değiştirdi, görüntüleme anahtarları ile çeşitlendirilmiş adresler ekledi ve korumalı işlemleri telefonlar ile donanım cüzdanları için yeterince hafif hâle getirdi.
+Sprout ile Sapling arasındaki fark nedir? Sprout ilk korumalı protokoldü ve yavaş, bellek kullanımı yüksek tek bir kanıtlama devresi kullanıyordu. Sapling, bu devrenin yerine daha hızlı Spend ve Output devrelerini koydu; görüntüleme anahtarları ve çeşitlendirilmiş adresler ekledi; korumalı işlemleri telefonlarda ve donanım cüzdanlarında kullanılabilecek kadar hafif hâle getirdi.
 
-Neden bazı kaynaklar 28 Ekim, bazıları ise 29 Ekim diyor? Etkinleşme yüksekliği önceden 28 Ekim 2018’i hedefleyecek şekilde ayarlanmıştı. Değişikliği fiilen tetikleyen blok olan 419.200. blok, UTC’ye göre 29 Ekim’in ilk saatlerinde çıkarıldı. Birçok yerel saat diliminde bu hâlâ 28 Ekim’di. Her iki durumda da aynı blok ve aynı andır.
+Bazı kaynaklar neden 28 Ekim, bazılarıysa 29 Ekim diyor? Etkinleşme yüksekliği, önceden 28 Ekim 2018'i hedefleyecek şekilde belirlenmişti. Değişikliği gerçekten tetikleyen 419.200. blok, UTC'ye göre 29 Ekim'in ilk saatlerinde kazıldı. Birçok yerel saat diliminde tarih hâlâ 28 Ekim'di. Her iki durumda da aynı blok ve aynı andan söz ediliyor.
 
-Görüntüleme anahtarı nedir? Bir görüntüleme anahtarı, korumalı bir cüzdana okuma erişimini paylaşmanıza olanak tanır. Tam veya gelen görüntüleme anahtarına sahip biri cüzdanın işlem ayrıntılarını görebilir ama fonlarını harcayamaz. Daha fazlası için bkz. [Viewing Keys](../zcash-tech/viewing-keys).
+Görüntüleme anahtarı nedir? Görüntüleme anahtarı, korumalı bir cüzdana okuma erişimini paylaşmanıza olanak tanır. Tam veya gelen görüntüleme anahtarına sahip biri cüzdanın işlem ayrıntılarını görebilir, ancak fonlarını harcayamaz. Daha fazla bilgi için [Görüntüleme Anahtarları](../zcash-tech/viewing-keys) sayfasına bakın.
 
-## Anladığınızı test edin
+## Bilginizi sınayın
 
-Sprout döneminde neden bu kadar çok insan korumalı işlemlerden kaçındı ve Sapling bunu nasıl düzeltti?
+Sprout altında birçok kişi korumalı işlemlerden neden kaçınıyordu ve Sapling bunu nasıl düzeltti?
 
 <details>
-<summary>Cevap</summary>
-Sprout döneminde korumalı bir işlem oluşturmak dakikalar sürüyor ve gigabaytlarca bellek kullanıyordu; bu yüzden çoğu kullanıcı, borsa ve mağaza için fazla yavaş ve ağırdı. Sapling, işi birkaç saniyeye ve yaklaşık 40 megabayta indiren daha hızlı Spend ve Output devrelerini tanıttı; böylece korumalı işlemler gündelik telefonlarda ve donanım cüzdanlarında pratik hâle geldi.
+<summary>Yanıt</summary>
+Sprout altında korumalı bir işlem oluşturmak dakikalar sürüyor ve gigabaytlarca bellek kullanıyordu; bu nedenle çoğu kullanıcı, borsa ve mağaza için işlem çok yavaş ve ağırdı. Sapling, işi birkaç saniyeye ve yaklaşık 40 megabayta indiren daha hızlı Spend ve Output devrelerini kullanıma sundu; böylece korumalı işlemler gündelik telefonlarda ve donanım cüzdanlarında kullanılabilir hâle geldi.
 </details>
 
 ### Kaynaklar
 
-- [ZIP 205: Sapling Network Upgrade’in Dağıtımı](https://zips.z.cash/zip-0205)
+- [ZIP 205: Sapling Ağ Yükseltmesinin Dağıtımı](https://zips.z.cash/zip-0205)
 - [ZIP 243: Sapling için İşlem İmzası Doğrulaması](https://zips.z.cash/zip-0243)
 - [Zcash Sapling yükseltme sayfası](https://z.cash/upgrade/sapling/)
 - [Electric Coin Company: Sapling duyurusu](https://electriccoin.co/blog/sapling/)
 - [Electric Coin Company: Sapling MPC duyurusu](https://electriccoin.co/blog/sapling-mpc/)
 
-### Ayrıca bkz.
+### Ayrıca bakınız
 
-- [Shielded Pools](../using-zcash/shielded-pools)
-- [Viewing Keys](../zcash-tech/viewing-keys)
+- [Korumalı Havuzlar](../using-zcash/shielded-pools)
+- [Görüntüleme Anahtarları](../zcash-tech/viewing-keys)
 - [zk-SNARKs](../zcash-tech/zk-snarks)
-- [Zcash Network Upgrades](../start-here/network-upgrades)
-- [Wallets](../using-zcash/wallets)
+- [Zcash Ağ Yükseltmeleri](../start-here/network-upgrades)
+- [Cüzdanlar](../using-zcash/wallets)
 - [Electric Coin Company](../zcash-organizations/electric-coin-company)
 
 ---
 
 ## İlgili Sayfalar
 
-- [Görüntüleme Anahtarları](./Viewing_Keys.md) — Sapling tarafından tanıtılan denetim paylaşımı özelliği
-- [Sprout](./Sprout.md) — yerini alan orijinal korumalı protokol Sapling
-- [Blossom](./Blossom.md) — serideki bir sonraki yükseltme (kriptografi değil, blok zamanlaması)
+- [Görüntüleme Anahtarları](./Viewing_Keys.md) — Sapling'ün kullanıma sunduğu denetim paylaşımı özelliği
+- [Sprout](./Sprout.md) — Sapling'ün yerine geçtiği ilk korumalı protokol
+- [Blossom](./Blossom.md) — serideki sonraki yükseltme (kriptografi değil, blok zamanlaması)
 - [zk_SNARKS](./zk_SNARKS.md) — devrelerin arkasındaki sıfır bilgi teknolojisi
 
-Seri: [Network Upgrades dizini](../start-here/network-upgrades) · Önceki: [Overwinter](../zcash-tech/overwinter) · Sonraki: [Blossom](../zcash-tech/blossom)
+
+Seri: [Ağ Yükseltmeleri dizini](../start-here/network-upgrades) · Önceki: [Overwinter](../zcash-tech/overwinter) · Sonraki: [Blossom](../zcash-tech/blossom)

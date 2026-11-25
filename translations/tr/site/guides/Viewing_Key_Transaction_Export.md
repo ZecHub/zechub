@@ -2,35 +2,35 @@
   <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
-# Viewing Key'den İşlem Geçmişini Dışa Aktarma
+# Viewing Key ile İşlem Geçmişini Dışa Aktarma
 
-Çoğu cüzdan dışa aktarımı yetersizdir. Örneğin ZODL'ün vergi dışa aktarımı, önceki takvim yılı için tarihleri, tutarları ve ücretleri verir; ancak işlem kimlikleri, memolar veya adresler içermez. Bu; muhasebe, bir cüzdan geçişini kontrol etmek ya da bir ödemeye ne olduğunu anlamak için yeterli değildir.
+Çoğu cüzdanın dışa aktardığı veriler sınırlıdır. Örneğin ZODL'ın vergi dışa aktarımı, önceki takvim yılına ait tarihleri, tutarları ve ücretleri verir; ancak işlem kimliklerini, memo'ları veya adresleri içermez. Bu veriler muhasebe tutmak, cüzdan geçişini kontrol etmek veya bir ödemenin akıbetini anlamak için yeterli değildir.
 
-Tam resmi görmek için seed ifadenize ihtiyacınız yoktur. Bir birleşik tam görüntüleme anahtarı (UFVK, `uview1` ile başlayan), bir hesaptaki tüm gelen ve giden işlemleri görebilir ve iki araç bunu saklayacağınız bir dosyaya dönüştürebilir: Zkool GraphQL sunucusu ve zingo-cli. Bu rehber, [bu forum başlığındaki](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) yaklaşımları derler ve güncel sürümler için günceller.
+Tüm ayrıntıları görmek için kurtarma ifadenize ihtiyacınız yoktur. Birleşik tam görüntüleme anahtarı (unified full viewing key, UFVK, `uview1` ile başlar) hesaptaki tüm gelen ve giden işlemleri görebilir. İki araç da bunları saklayabileceğiniz bir dosyaya dönüştürebilir: Zkool GraphQL sunucusu ve zingo-cli. Bu kılavuz, [bu forum başlığındaki](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662) yaklaşımları bir araya getiriyor ve güncel sürümlere göre güncelliyor.
 
-Eylül 2026'da Zkool 6.30.0 ve zingolib 6.0.0 sürümünden zingo-cli ile test edildi. Her ikisi de NU7 öncesine ait olduğundan, adımlar Kasım 2026'da Zkool 6.37.0 ve zingolib 8.0.0 sürümlerine taşındı. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388), NU7 Mainnet etkinleştirme yüksekliğiyle derlenen ilk Zkool sürümüdür ve zingolib 8.0.0, NU7 Mainnet desteği ekleyen sürümdür.
+Eylül 2026'da Zkool 6.30.0 ve zingo-cli zingolib 6.0.0 sürümüyle test edildi. Her ikisi de NU7 öncesine ait olduğundan, Kasım 2026'da adımlar Zkool 6.37.0 ve zingolib 8.0.0 sürümlerine göre güncellendi. [Zkool 6.35.0](https://github.com/hhanh00/zkool2/pull/1388), Zkool'in NU7 Mainnet etkinleştirme yüksekliğiyle derlenen ilk sürümüdür; zingolib 8.0.0 ise NU7 Mainnet desteği ekleyen sürümdür.
 
 ## Başlamadan önce
 
 İki şeye ihtiyacınız var:
 
-1. Hesap için **UFVK**. [Görüntüleme Anahtarları](/zcash-tech/viewing-keys), neyi açığa çıkardığını ve nasıl dışa aktarılacağını açıklar.
-2. **Doğum yüksekliği**, taramaya başlanacak blok. İlk işleminizden önceki bir yüksekliği kullanın. Çok yüksek ayarlarsanız eski geçmiş sessizce eksik kalır. Çok düşük ayarlarsanız tarama yalnızca daha uzun sürer. Sapling etkinleştirmesi (419200) her zaman güvenlidir, ancak taranması saatler sürebilir.
+1. **Hesabın UFVK'si.** [Görüntüleme Anahtarları](/zcash-tech/viewing-keys) neleri açığa çıkardığını ve nasıl dışa aktarılacağını açıklar.
+2. **Doğum yüksekliği**, yani taramanın başlayacağı blok. İlk işleminizden önceki bir yüksekliği kullanın. Çok yüksek ayarlarsanız eski geçmiş görünmeden atlanır. Çok düşük ayarlarsanız tarama daha uzun sürer. Sapling etkinleştirme yüksekliği (419200) her zaman güvenlidir, ancak taranması saatler sürebilir.
 
-## Gizli tutun
+## Gizliliğinizi koruyun
 
-Bir görüntüleme anahtarı harcama yapamaz, ancak anahtarı elinde tutan herkese tüm geçmişinizi gösterir.
+Görüntüleme anahtarı harcama yapamaz, ancak elinde bulunduran kişiye tüm geçmişinizi gösterir.
 
-- Onu bir web sitesine veya blok gezginine yapıştırmayın. Kendi çalıştırdığınız yazılıma içe aktarın.
-- Senkronize olduğunuz sunucu IP adresinizi ve hangi işlemleri tam olarak indirdiğinizi görür. Aşağıdaki iki araç da memoları ve ücretleri okumak için işlemlerinizin her birini kimliğe göre getirir; ayrıca [ZIP 307](https://zips.z.cash/zip-0307), bunun sunucuya hangi işlemlerin size ait olduğunu söylediğini belirtir. Kendi Zebra düğümünüzden Zaino veya lightwalletd ile senkronizasyon bunu önler. [Zingolib ve Zaino Eğitimi](/guides/zingolib-and-zaino-tutorial), kurulumu adım adım anlatır.
-- zingo-cli, ödemeleri Nym mixnet üzerinden gönderir; ancak senkronizasyonu hâlâ doğrudan sunucuya bağlanır, dolayısıyla yukarıdaki nokta bunun için de geçerlidir.
-- Bu araçlara görüntüleme anahtarı verin, asla seed vermeyin. Aşağıdaki Docker komutu, `--allow-unauthenticated` ile Zkool GraphQL sunucusunu başlatır; bu nedenle giriş gerektirmez. API'si, bu sunucuda oluşturulan herhangi bir hesabın seed'ini geri verebilir ve fon gönderebilir.
-- Sunucuyu kendi makinenizde tutun. Aşağıdaki Docker komutu yalnızca bilgisayarınızın `127.0.0.1` adresinde dinler. Container içinde sunucunun tüm arayüzlerde (`--bind-address 0.0.0.0`) dinlemesi gerekir; aksi takdirde Docker ona erişemez. Yerel kalmasını sağlayan `-p 127.0.0.1:8000:8000` eşlemesidir.
-- Her iki araç da anahtarı ve geçmişinizi şifrelenmemiş olarak saklar. Zkool veritabanını şifreleyebilir (`--db-password-file`), ancak aşağıdaki komut basit tutmak için `--allow-unencrypted-database` kullanır. İşiniz bittiğinde çalışma verilerini silin ve dışa aktarımı şifrelenmiş bir yerde tutun.
+- Anahtarı bir web sitesine veya blok gezginine yapıştırmayın. Kendi çalıştırdığınız yazılıma aktarın.
+- Eşitleme yaptığınız sunucu IP adresinizi ve hangi işlemleri tüm ayrıntılarıyla indirdiğinizi görür. Aşağıdaki iki araç da memo'ları ve ücretleri okumak için işlemlerinizin her birini kimliğine göre getirir; [ZIP 307](https://zips.z.cash/zip-0307) bunun sunucuya hangi işlemlerin size ait olduğunu bildirdiğini belirtir. Kendi Zebra düğümünüzden Zaino veya lightwalletd ile eşitleme yapmak bunu önler. [Zingolib ve Zaino Öğreticisi](/guides/zingolib-and-zaino-tutorial) kurulum adımlarını açıklar.
+- zingo-cli ödemeleri Nym mixnet'i üzerinden gönderir; ancak eşitleme sırasında sunucuya doğrudan bağlanmaya devam eder. Bu nedenle yukarıdaki nokta onun için de geçerlidir.
+- Bu araçlara yalnızca görüntüleme anahtarı verin, asla kurtarma ifadesi vermeyin. Aşağıdaki Docker komutu, Zkool GraphQL sunucusunu `--allow-unauthenticated` ile başlatır; dolayısıyla oturum açma gerektirmez. API'si, buradan oluşturulan herhangi bir hesabın kurtarma ifadesini verebilir ve para gönderebilir.
+- Sunucuyu kendi makinenizde çalıştırın. Aşağıdaki Docker komutu yalnızca bilgisayarınızın `127.0.0.1` adresini dinler. Sunucunun kapsayıcı içinde tüm arayüzleri (`--bind-address 0.0.0.0`) dinlemesi gerekir; aksi takdirde Docker ona erişemez. Yerel kalmasını sağlayan `-p 127.0.0.1:8000:8000` eşlemesidir.
+- Her iki araç da anahtarı ve geçmişinizi şifrelenmeden saklar. Zkool veritabanını şifreleyebilir (`--db-password-file`), ancak aşağıdaki komut basit tutmak için `--allow-unencrypted-database` kullanır. İşiniz bittiğinde çalışma verilerini silin ve dışa aktardığınız dosyayı şifrelenmiş bir yerde saklayın.
 
 ## Seçenek 1: Zkool GraphQL
 
-`zkool_graphql`, Zkool'ün bağımsız bir sunucu olarak çalışan cüzdan motorudur. Zkool uygulamasından ayrı bir programdır. Çalıştırmanın en kolay yolu resmî Docker imajıdır (amd64 ve arm64). [Zkool sürümler sayfasında](https://github.com/hhanh00/zkool2/releases) bir Linux x86-64 ikilisi de vardır; glibc 2.38 veya daha yenisini gerektirir; bu nedenle Ubuntu 24.04 çalışır, Debian 12 ise çalışmaz.
+`zkool_graphql`, Zkool'ın cüzdan motorunun bağımsız sunucu olarak çalışan sürümüdür. Zkool uygulamasından ayrı bir programdır. Çalıştırmanın en kolay yolu resmi Docker imajıdır (amd64 ve arm64). Ayrıca [Zkool sürüm sayfasında Linux x86-64 ikili dosyası da bulunur](https://github.com/hhanh00/zkool2/releases); glibc 2.38 veya üzeri gerekir. Bu nedenle Ubuntu 24.04 çalışır, Debian 12 ise çalışmaz.
 
 ### 1. Sunucuyu başlatın
 
@@ -45,11 +45,11 @@ docker run -d --name zkool-export \
   --allow-unencrypted-database
 ```
 
-6.32.0 sürümünden itibaren sunucu, iki tercihi açıkça belirtmediğiniz sürece başlamaz: istemcilerin nasıl oturum açacağı (bir JWT anahtarı veya `--allow-unauthenticated`) ve veritabanının şifrelenip şifrelenmeyeceği (bir parola veya `--allow-unencrypted-database`). Ayrıca artık varsayılan olarak yalnızca `127.0.0.1` adresini dinler; bu da bir kapsayıcı içinde dışarıdan hiçbir şeyin ona erişemeyeceği anlamına gelir. Bu yüzden `--bind-address 0.0.0.0` gerekir. Kapsayıcı hemen durursa, hangi seçeneğin eksik olduğunu `docker logs zkool-export` gösterir.
+6.32.0 sürümünden itibaren sunucu, iki tercihi açıkça belirtmeden başlamaz: istemcilerin nasıl oturum açacağı (JWT anahtarı veya `--allow-unauthenticated`) ve veritabanının şifrelenip şifrelenmeyeceği (parola veya `--allow-unencrypted-database`). Ayrıca artık varsayılan olarak yalnızca `127.0.0.1` adresini dinler; bu, kapsayıcı içinde dışarıdan erişilemeyeceği anlamına gelir. Bu yüzden `--bind-address 0.0.0.0` kullanılır. Kapsayıcı hemen durursa, `docker logs zkool-export` hangi seçeneğin eksik olduğunu gösterir.
 
-`https://zec.rocks` üzerinden eşitlenir; kendi sunucunuzu kullanmak için `--lwd-url` ekleyin. Görüntüde Sapling parametreleri yerleşik olarak bulunur, bu nedenle başka bir şey indirmeniz gerekmez.
+`--lwd-url` ile kendi sunucunuzu eklemediğiniz sürece `https://zec.rocks` üzerinden eşitlenir. İmajda Sapling parametreleri yerleşik olarak bulunur; başka bir şey indirmeniz gerekmez.
 
-Tarayıcıda `http://127.0.0.1:8000/graphiql` adresini açın. Sonraki adımların her birini buraya yapıştırıp çalıştırabilirsiniz.
+Bir tarayıcıda `http://127.0.0.1:8000/graphiql` adresini açın. Sonraki adımların her birini buraya yapıştırıp çalıştırabilirsiniz.
 
 ### 2. Anahtarı içe aktarın
 
@@ -65,26 +65,26 @@ mutation {
 }
 ```
 
-Yeni hesabın kimliğini döndürür; yeni bir sunucuda bu 1'dir.
+Yeni hesabın kimliğini döndürür. Yeni bir sunucuda bu değer 1'dir.
 
-- Her zaman `birth` ayarlayın. Bu olmadan Zkool mevcut bloktan başlar ve hiçbir şey bulmaz.
-- `useInternal: true`, Zkool'in şeffaf para üstü adreslerini de kontrol etmesini sağlar. ZODL kaynaklı anahtarlar için açık tutun; [Fonları Kurtarma](/using-zcash/recovering-funds)'nın ZODL seed'leri için kullandığı ayar da aynıdır.
+- Her zaman `birth` ayarlayın. Bu olmadan Zkool geçerli bloktan başlar ve hiçbir şey bulamaz.
+- `useInternal: true`, Zkool'ın şeffaf para üstü adreslerini de kontrol etmesini sağlar. ZODL anahtarlarında açık bırakın; [Fonları Kurtarma](/using-zcash/recovering-funds), ZODL kurtarma ifadeleri için aynı ayarı kullanır.
 
-### 3. Senkronize edin
+### 3. Eşitleyin
 
 ```graphql
 mutation { synchronizeAccount(idAccount: 1) }
 ```
 
-Bu, senkronizasyon bitene kadar çalışır. `fast: true` eklemeyin. Memoların, ücretlerin ve çıktıların geldiği yer olan tam işlemlerin indirilmesini atlar.
+Bu komut eşitleme bitene kadar çalışır. `fast: true` eklemeyin. Bu seçenek, memo'ların, ücretlerin ve çıktının bulunduğu tam işlemlerin indirilmesini atlar.
 
-Döndürdüğü sayı ulaşılamaya çalışılan yüksekliktir; oraya ulaştığının kanıtı değildir. Bir ağ hatası hiçbir şey bildirmeden senkronizasyonu erken bitirebilir; bu nedenle kontrol edin:
+Döndürülen sayı, ulaşılması hedeflenen yüksekliktir; ulaşıldığının kanıtı değildir. Ağ hatası, hiçbir bildirim vermeden eşitlemeyi erken bitirebilir. Bu nedenle şunu kontrol edin:
 
 ```graphql
 { currentHeight accounts { id name height } }
 ```
 
-Hesabın `height` değeri `currentHeight`'nin gerisindeyse senkronizasyonu tekrar çalıştırın. Durduğu yerden devam eder.
+Hesabın `height` değeri `currentHeight` değerinin gerisindeyse eşitlemeyi yeniden çalıştırın. Kaldığı yerden devam eder.
 
 ### 4. Dışa aktarın
 
@@ -101,9 +101,9 @@ Bunu `history.graphql` olarak kaydedin:
 }
 ```
 
-Kastetmediğiniz sürece `height` bağımsız değişkenini kullanmayın. Bu bir minimum belirler; dolayısıyla forum örneğindeki `height: 3000000`, o bloktan önceki her şeyi çıkarır.
+`height` bağımsız değişkenini, gerçekten kullanmak istemiyorsanız eklemeyin. Bu bir alt sınır belirler; dolayısıyla forum örneğindeki `height: 3000000`, o bloktan önceki her şeyi dışarıda bırakır.
 
-JSON olarak getirin:
+JSON olarak alın:
 
 ```bash
 jq -n --rawfile q history.graphql '{query: $q}' |
@@ -111,15 +111,15 @@ jq -n --rawfile q history.graphql '{query: $q}' |
     -H 'content-type: application/json' --data-binary @- > history.json
 ```
 
-Madencilik ödülleri hariç, her işlemin 0'dan büyük bir ücreti görünmelidir. Bir işlemde `"fee": "0"` ve memo yoksa ayrıntıları indirilmemiştir. Zkool, taramadan sonra tam işlemleri teker teker getirir ve bir başarısızlık geri kalanını sessizce durdurur. Etkilenenleri listelemek için:
+Madencilik ödülleri dışında her işlemde 0'dan büyük bir ücret görünmelidir. Bir işlemde `"fee": "0"` görünüyor ve memo bulunmuyorsa, ayrıntıları indirilmemiştir. Zkool, taramadan sonra tam işlemleri teker teker getirir; tek bir başarısızlık, geri kalan işlemlerin getirilmesini sessizce durdurur. Etkilenen işlemleri listelemek için:
 
 ```bash
 jq -r '.data.transactionsByAccount[] | select(.fee == "0") | .txid' history.json
 ```
 
-Herhangi bir şey görünürse birkaç dakika sonra tekrar senkronize edin ve yeniden dışa aktarın.
+Bir sonuç çıkarsa birkaç dakika sonra yeniden eşitleyin ve tekrar dışa aktarın.
 
-Ardından bunu işlem başına bir satır olacak şekilde CSV'ye düzleştirin:
+Ardından her işlem için bir satır olacak şekilde CSV'ye dönüştürün:
 
 ```bash
 jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
@@ -133,22 +133,22 @@ jq -r '["txid","height","time_utc","net_zec","fee_zec","memos"],
 
 | Alan | Anlamı |
 |---|---|
-| `value` | Ücret dâhil, hesaptaki net değişim ZEC cinsindendir. Gönderimler için negatiftir. |
-| `fee` | ZEC cinsinden ücret. Aldığınız ödemelerde bunu gönderen ödemiştir ve `value` içinde değildir. |
-| `time` | Saat dilimi işareti olmadan UTC'deki blok zamanı |
-| `notes` | Hesabın bu işlemde aldığı şey; para üstü dâhildir. Size gönderilen memolar buradadır. Şeffaf girdilerin adresi yoktur. |
-| `spends` | Bu işlemin kullandığı hesabın kendi notları |
-| `outputs` | İşlemin dışarı gönderdiği şey: her şeffaf çıktı ile memolarıyla birlikte diğer adreslere yapılan korumalı ödemeler |
+| `value` | Ücret dahil, ZEC cinsinden hesaptaki net değişim. Gönderimlerde negatiftir. |
+| `fee` | ZEC cinsinden ücret. Aldığınız ödemelerde ücreti gönderen öder ve bu tutar `value` içinde yer almaz. |
+| `time` | Saat dilimi işareti olmadan UTC cinsinden blok zamanı |
+| `notes` | Bu işlemde hesabın aldığı tutar; para üstü de dahildir. Size gönderilen memo'lar burada yer alır. Şeffaf girdilerde adres bulunmaz. |
+| `spends` | Bu işlemde harcanan, hesaba ait note'lar |
+| `outputs` | İşlemin gönderdiği tutarlar: tüm şeffaf çıktılar ve memo'larıyla birlikte diğer adreslere yapılan korumalı ödemeler |
 | `pool` | 0 şeffaf, 1 Sapling, 2 Orchard, 3 Ironwood |
 | `scope` | 0 harici (gelen ödeme), 1 dahili (para üstü) |
 
-Zkool uygulamasında hesap menüsünde İşlemleri, Memoları ve Notları Dışa Aktar seçenekleri de bulunur; ancak bunlar ham tablo dökümleridir: tutarlar zatoshi cinsinden, Unix zaman damgalarıyla ve memolar ayrı bir dosyadadır.
+Zkool uygulamasında da hesap menüsünde İşlemleri, Memo'ları ve Note'ları Dışa Aktar seçenekleri vardır; ancak bunlar ham tablo dökümleridir: tutarlar zatoshi cinsinden, zaman damgaları Unix biçiminde ve memo'lar ayrı bir dosyadadır.
 
 ## Seçenek 2: zingo-cli
 
-zingo-cli, Zingo’ın komut satırı cüzdanıdır. Önceden derlenmiş indirme dosyaları bulunmadığından, Rust ile kendiniz derlemeniz gerekir. zingolib 8.0.0 veya daha yeni bir sürüm kullanın: [sürüm notlarına](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0) göre, NU7’ın Mainnet etkinleştirme yüksekliğini (3.543.405) bilen ilk sürüm budur. 6.0.0 gibi daha eski etiketlerden yapılan derlemeler bu bilgiyi içermez.
+zingo-cli, Zingo'ın komut satırı cüzdanıdır. Önceden derlenmiş indirme dosyaları yoktur; bu nedenle Rust ile derlemeniz gerekir. zingolib 8.0.0 veya üzerini kullanın: [sürüm notlarına](https://github.com/zingolabs/zingolib/releases/tag/zingolib_v8.0.0) göre bu, NU7'ın Mainnet etkinleştirme yüksekliğini (3,543,405) bilen ilk sürümdür. 6.0.0 gibi daha eski etiketlerden yapılan derlemeler bunu bilmez.
 
-Derleme [cargo-make](https://github.com/sagiegurari/cargo-make) (`cargo install cargo-make`) kullanır. Ubuntu’da ayrıca `sudo apt install build-essential gcc libsqlite3-dev` gerekir.
+Derleme, `cargo install cargo-make` ([cargo-make](https://github.com/sagiegurari/cargo-make)) kullanır. Ubuntu'da ayrıca `sudo apt install build-essential gcc libsqlite3-dev` gerekir.
 
 ```bash
 git clone --branch zingolib_v8.0.0 https://github.com/zingolabs/zingolib.git
@@ -156,13 +156,13 @@ cd zingolib
 makers run-cli --build-only
 ```
 
-Bu, `./target/release/zingo-cli` derler ve `nym-proxy`’i yanına koyar. Yalnızca eşitleme yapmak için bile `nym-proxy` gerekir: zingo-cli onsuz çevrimiçi olmaz. 8.0.0 sürümünden beri `zingo-netutils` ana çalışma alanının bir parçasıdır; bu nedenle `nym-proxy` öğesini `zingo-netutils/target/release/` konumundan kopyalayan eski tarif artık işe yaramaz.
+Bu, `./target/release/zingo-cli`'ı derler ve `nym-proxy`'i yanına koyar. Yalnızca eşitleme için bile `nym-proxy` gerekir: onsuz zingo-cli çevrimiçi olamaz. 8.0.0 sürümünden itibaren `zingo-netutils` ana çalışma alanının parçasıdır; bu nedenle `zingo-netutils/target/release/` konumundan `nym-proxy` kopyalayan eski tarif artık çalışmaz.
 
-`zingo-cli` dosyasını başka bir yere taşırsanız, `nym-proxy` dosyasını da onunla birlikte taşıyın ya da `--nym-proxy /path/to/nym-proxy` veya `ZINGO_NYM_PROXY` ortam değişkeniyle zingo-cli’ye konumunu bildirin. Bunlar olmadan, kendi ikili dosyasının bulunduğu yere, ardından `PATH`’inize bakar. Proxy’yi başlatamazsa çevrimiçi olmaz.
+`zingo-cli`'ı başka bir yere taşırsanız `nym-proxy`'i de onunla taşıyın veya zingo-cli'a nerede olduğunu `--nym-proxy /path/to/nym-proxy` ya da `ZINGO_NYM_PROXY` ortam değişkeniyle bildirin. Bunlar belirtilmezse önce kendi ikili dosyasının yanına, sonra da `PATH` konumuna bakar. Proxy'yi başlatamazsa hiç çevrimiçi olamaz.
 
-Yalnızca ödemeler (ve ZEC fiyat sorgulaması) Nym üzerinden yapılır. Senkronizasyon doğrudan sunucuya bağlanır.
+Yalnızca ödemeler (ve ZEC fiyat sorgusu) Nym üzerinden gider. Eşitleme sunucuya doğrudan bağlanır.
 
-İlk çalıştırma yalnızca görüntülemeye yönelik bir cüzdan oluşturur, senkronize eder ve geçmişi yazdırır:
+İlk çalıştırma salt görüntüleme cüzdanı oluşturur, eşitler ve geçmişi yazdırır:
 
 ```bash
 ./target/release/zingo-cli --data-dir "$HOME/zingo-export" \
@@ -172,9 +172,9 @@ Yalnızca ödemeler (ve ZEC fiyat sorgulaması) Nym üzerinden yapılır. Senkro
 ```
 
 - `--data-dir` mutlak bir yol olmalıdır.
-- `--viewkey` ve `--birthday` yalnızca cüzdan oluşturulurken geçerlidir. Sonrasında bunları kullanmayın.
-- Yeni oluşturulan bir zingo-cli varsayılan olarak çevrimdışıdır ve çevrimiçi olması için izninizi gerektirir. `--server` sunucuyu seçer ve aynı zamanda bu izni de verir. Diğer yöntemler `--online` (yalnızca bu oturum için) ve `--remember-online` yöntemidir; bu yöntem seçimi cüzdanın yanına da kaydeder, böylece sonraki çalıştırmalarda bir işaret olmadan çevrimiçi olur (`--forget-online` bu seçimi geri alır).
-- Anahtar kabuk geçmişinize kaydedilir; bu yüzden sonrasında geçmişi temizleyin.
+- `--viewkey` ve `--birthday` yalnızca cüzdan oluşturulurken geçerlidir. Sonraki çalıştırmalarda bunları kullanmayın.
+- Yeni bir zingo-cli varsayılan olarak çevrimdışıdır ve çevrimiçi olmak için onayınızı gerektirir. `--server` sunucuyu seçer ve aynı zamanda bu onay işlevini görür. Diğer yöntemler `--online` (yalnızca bu oturum için) ve `--remember-online` seçeneğidir. Bu seçenek tercihi cüzdanın yanına kaydeder; böylece sonraki çalıştırmalar bir seçenek kullanmadan çevrimiçi olur (`--forget-online` bu tercihi geri alır).
+- Anahtar kabuk geçmişinizde kalır; daha sonra temizleyin.
 
 Sonraki çalıştırmalar:
 
@@ -185,43 +185,43 @@ $Z --offline value_transfers > value_transfers.txt
 $Z --offline messages > memos.json
 ```
 
-`--offline`, ağa dokunmadan zaten senkronize edilmiş olanı okur.
+`--offline`, ağ bağlantısı kurmadan önceden eşitlenmiş verileri okur.
 
-- `transactions` işlem başına bir girdi verir: txid, zaman (UTC), yükseklik, tür (`received`, `sent`, `shield` veya `send-to-self`), değer, ücret ve ilgili notlar.
-- `value_transfers` ödeme başına bir girdi verir; dolayısıyla iki kişiye yapılan bir gönderim, her biri alıcı adresi ve memolarıyla iki girdi olur.
-- `messages` memoları JSON olarak listeler.
+- `transactions` her işlem için bir kayıt verir: txid, zaman (UTC), yükseklik, tür (`received`, `sent`, `shield` veya `send-to-self`), değer, ücret ve ilgili note'lar.
+- `value_transfers` her ödeme için bir kayıt verir; dolayısıyla iki kişiye yapılan gönderim iki kayıt oluşturur ve her kayıtta alıcı adresiyle memo'lar yer alır.
+- `messages` memo'ları JSON olarak listeler.
 
-Çıktı hakkında bilinmesi gereken birkaç şey:
+Çıktıyla ilgili bilmeniz gereken birkaç nokta:
 
-- `transactions` ve `value_transfers` JSON’a benzeyen ama JSON olmayan düz metinler yazdırır.
-- Tutarlar zatoshi cinsindendir (100.000.000 zatoshi = 1 ZEC) ve her zaman pozitiftir. Yönü `kind` belirtir. Gönderimlerde `value`, ücret hariç başkalarına giden tutardır.
-- Bir işlem size ait olmayan şeffaf fonları harcadığında ücret “kullanılamıyor” olarak gösterilir. Yalnızca metin notları gösterilir.
-- Eşitleme başarısız olursa hata dosyaya değil terminale yazılır. zingolib 8.0.0 sürümünden beri (zingo-cli 0.5.0) başarısız bir komut sıfırdan farklı bir kodla da çıkar; ancak `transactions.txt`’ye güvenmeden önce terminali kontrol edin.
+- `transactions` ve `value_transfers`, JSON'a benzeyen ancak JSON olmayan düz metin yazdırır.
+- Tutarlar zatoshi cinsindendir (1 ZEC başına 100.000.000) ve her zaman pozitiftir. Yönü `kind` belirtir. Gönderimlerde `value`, ücret hariç diğer kişilere giden tutardır.
+- Bir işlem size ait olmayan şeffaf fonları harcıyorsa ücret “mevcut değil” olarak görünür. Yalnızca metin biçimindeki memo'lar gösterilir.
+- Eşitleme başarısız olursa hata dosyaya değil, terminale yazılır. zingolib 8.0.0 (zingo-cli 0.5.0) sürümünden itibaren başarısız bir komut sıfırdan farklı bir çıkış koduyla da sonlanır; yine de `transactions.txt`'a güvenmeden önce terminali kontrol edin.
 
-dismad'in [zingoHelper](https://github.com/dismad/zingoHelper) aracı, `transactions`'ü JSON'a dönüştüren bir `exportToJSON.sh` betiğine sahiptir. zingo-cli 6'dan önce yazılmıştır, testnet için ayarlanmıştır, bazı giden Sapling ve şeffaf girdileri yer tutucu olarak işaretler ve GNU araçlarına ihtiyaç duyar; dolayısıyla standart macOS'ta çalışmaz. Çıktısını başlangıç noktası olarak görün ve toplamları kontrol edin.
+dismad'ın [zingoHelper](https://github.com/dismad/zingoHelper) aracında `transactions`'ı JSON'a dönüştüren bir `exportToJSON.sh` betiği bulunur. zingo-cli 6'dan önce yazılmıştır, testnet için yapılandırılmıştır, giden bazı Sapling ve şeffaf girdileri yer tutucu olarak işaretler ve GNU araçlarına ihtiyaç duyar; bu nedenle standart macOS'ta çalışmaz. Çıktısını başlangıç noktası olarak değerlendirin ve toplamları kontrol edin.
 
-## Bir görüntüleme anahtarının söyleyemeyecekleri
+## Görüntüleme anahtarı neleri gösteremez
 
-- **Fiyatlar.** Hiçbir araç, her işlem anındaki ZEC fiyatını kaydetmez. Fiat değerlerini kendiniz ekleyin.
-- **Anahtar içermiyorsa şeffaf geçmiş.** UFVK'nin şeffaf kısmı [ZIP 316](https://zips.z.cash/zip-0316) kapsamında isteğe bağlıdır. zingo-cli ile `$Z --offline parse_viewkey uview1...`, bir anahtarın hangi havuzları kapsadığını gösterir.
-- **Size kimin ödeme yaptığı.** Korumalı ödemeler gönderenin adresini taşımaz. Gönderen bunu memoya koymadıysa hiçbir yerde bulunmaz.
-- **Bazı giden ayrıntılar.** Korumalı gönderimlerin hedef adresi, tutarı ve memosu anahtarla şifre çözülerek geri kazanılır. Bir cüzdan, bunun mümkün olmadığı bir işlem oluşturabilir; ancak çoğu oluşturmaz.
+- **Fiyatlar.** İki araç da her işlem anındaki ZEC fiyatını kaydetmez. İtibari para değerlerini kendiniz ekleyin.
+- **Anahtar içermiyorsa şeffaf geçmiş.** [ZIP 316](https://zips.z.cash/zip-0316) kapsamında UFVK'nin şeffaf bölümü isteğe bağlıdır. zingo-cli ile `$Z --offline parse_viewkey uview1...`, bir anahtarın hangi havuzları kapsadığını gösterir.
+- **Size kimin ödeme yaptığı.** Korumalı ödemeler gönderenin adresini içermez. Gönderen bunu memo'ya yazmadıysa başka hiçbir yerde bulunmaz.
+- **Giden bazı işlem ayrıntıları.** Korumalı gönderimlerin hedef adresi, tutarı ve memo'su anahtarla şifre çözülerek elde edilir. Bir cüzdan işlemi bu bilgilerin elde edilemeyeceği şekilde oluşturabilir; ancak çoğu bunu yapmaz.
 
 ## Diğer araçlar
 
-| Araç | Aldığınız şey |
+| Araç | Sağladığı |
 |---|---|
-| ZODL | Tarihleri, tutarları, ücretleri ve etiketi içeren vergi CSV'si. Yalnızca önceki takvim yılı; korumaya alma işlemlerini atlar, txid, memo veya adres içermez. |
-| Zkool uygulaması | Hesap menüsünden ham tablo dışa aktarımları |
-| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | Bir UFVK'yi `importvk` ile içe aktarır. RPC üzerinden `listreceived`, txid ve memo içeren alınmış notları döndürür; ancak gönderimleri ve ücretleri döndürmez. |
-| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` ayrıntılıdır ancak deneysel olarak işaretlenmiştir; Zallet ise UFVK'leri değil, yalnızca Sapling görüntüleme anahtarlarını içe aktarır |
-| [zcash-devtool](https://github.com/zcash/zcash-devtool) | Bir UFVK'yi `wallet init-fvk`, ardından `wallet list-tx` ile içe aktarır. CSV modunda txid veya adres yoktur ve proje bunu üretimde kullanmamanızı söyler. |
+| ZODL | Tarihleri, tutarları, ücretleri ve etiketi içeren vergi CSV'si. Yalnızca önceki takvim yılı; havuzlar arası geçiş işlemlerini atlar, txid, memo veya adres içermez. |
+| Zkool uygulaması | Hesap menüsünden alınan ham tablo dışa aktarımları |
+| [Zenith](https://code.vergara.tech/Vergara_Tech/zenith) | `importvk` ile UFVK içe aktarır. RPC üzerinden `listreceived`, txid ve memo içeren alınmış note'ları döndürür; ancak gönderimleri ve ücretleri içermez. |
+| [Zallet](https://github.com/zcash/zallet) | `z_listtransactions` ayrıntılıdır ancak deneysel olarak işaretlenmiştir; Zallet ise yalnızca Sapling görüntüleme anahtarlarını içe aktarır, UFVK'leri aktarmaz. |
+| [zcash-devtool](https://github.com/zcash/zcash-devtool) | `wallet init-fvk` ile UFVK içe aktarır ve ardından `wallet list-tx`. CSV kipinde txid veya adres bulunmaz ve proje, üretim ortamında kullanılmamasını önerir. |
 
 ## İlgili
 
 - [Görüntüleme Anahtarları](/zcash-tech/viewing-keys)
 - [Fonları Kurtarma](/using-zcash/recovering-funds)
-- [Zingolib ve Zaino Eğitimi](/guides/zingolib-and-zaino-tutorial)
-- [Forum: UFVK/tohumdan işlem geçmişini JSON/CSV olarak dışa aktarma](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
+- [Zingolib ve Zaino Öğreticisi](/guides/zingolib-and-zaino-tutorial)
+- [Forum: UFVK/kurtarma ifadesinden işlem geçmişini JSON/CSV olarak dışa aktarma](https://forum.zcashcommunity.com/t/exporting-transaction-history-to-json-csv-from-ufvk-seed/54662)
 - [Forum: Zkool ve GraphQL](https://forum.zcashcommunity.com/t/zkool-graphql/54100)
 - [zingo-cli README](https://github.com/zingolabs/zingolib/blob/zingolib_v8.0.0/zingo-cli/README.md)

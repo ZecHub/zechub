@@ -1,10 +1,10 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Custodial_Exchanges.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alt Text" width="50"/>   Saklama Hizmeti Sunan Borsalar
+# <img src="/content-images/image-2024-02-03-173258092-a5440e5ee2.webp" alt="Alternatif Metin" width="50"/>   Gözetimli Borsalar
 
-Ironwood, Temmuz 2026 ağ yükseltmesiyle gelen korumalı havuzdur. Yalnızca şeffaf t-adreslerini işleyen borsalar buna hiç dokunmaz; bu nedenle bunlar uygulanamaz olarak işaretlenmiştir. Bir borsa korumalı adresleri işliyor ancak hangi havuzu kullandığını belirtmemişse, tahminde bulunmak yerine satırda bu ifade edilir.
+Ironwood, Temmuz 2026 ağ yükseltmesiyle gelen korumalı havuzdur. Yalnızca şeffaf t-adreslerini destekleyen borsalar bu havuzu hiç kullanmaz; bu nedenle ilgili alan “uygulanamaz” olarak işaretlenmiştir. Bir borsa korumalı adresleri destekliyor ancak hangi havuzu kullandığını belirtmiyorsa, tahminde bulunmak yerine bu durum açıkça belirtilir.
 
 ---
 
@@ -16,9 +16,9 @@ Ironwood, Temmuz 2026 ağ yükseltmesiyle gelen korumalı havuzdur. Yalnızca ş
 
 - Web sitesi: [AltQuick](https://altquick.com/market/zcash-bitcoin/)
 - İşlem çiftleri: ZEC/BTC
-- Destekler: Şeffaf
-- Yatırma Süresi: Yaklaşık 30 dakika (24 onay)
-- Ironwood: Geçerli değil, yalnızca şeffaf adresler
+- Desteklenenler: Şeffaf
+- Yatırma süresi: Yaklaşık 30 dakika (24 onay)
+- Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
 ### [Backpack](https://backpack.exchange)
@@ -29,9 +29,9 @@ ___
 
 - Web sitesi: [Backpack](https://backpack.exchange)
 - İşlem çiftleri: ZEC/USDC | ZEC-PERP
-- Destekler: Yatırma ve çekme etkin. Adres türleri belirtilmemiştir
-- Yatırma Süresi: Belirtilmemiştir
-- Ironwood: Belirtilmemiştir
+- Desteklenenler: Yatırma ve çekme işlemleri etkin. Adres türleri belirtilmemiş
+- Yatırma süresi: Belirtilmemiş
+- Ironwood: Belirtilmemiş
 ___
 
 ### [Binance](https://binance.com)
@@ -41,9 +41,9 @@ ___
 </a>
 
 - Web sitesi: [Binance](https://binance.com)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf (TEX Adresine Yatırma)
-- Yatırma Süresi: 20 dakika
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf (TEX adresi yatırma)
+- Yatırma süresi: 20 dakika
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
@@ -55,9 +55,9 @@ ___
 
 - Web sitesi: [BitcoinVN](https://bitcoinvn.io)
 - İşlem çiftleri: BTC/ZEC, ETH/ZEC, USDT/ZEC, XMR/ZEC, LTC/ZEC, DASH/ZEC
-- Destekler: Şeffaf | Korumalı (z-adresine Yatırma ve Çekme)
-- Yatırma Süresi: Anında (saklamasız takas)
-- Ironwood: Belirtilmemiştir
+- Desteklenenler: Şeffaf | Korumalı (z-adresi yatırma ve çekme)
+- Yatırma süresi: Anında (gözetimsiz takas)
+- Ironwood: Belirtilmemiş
 ___
 
 ### [Bitfinex](https://bitfinex.com)
@@ -67,9 +67,9 @@ ___
 </a>
 
 - Web sitesi: [Bitfinex](https://bitfinex.com)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf
-- Yatırma Süresi: 25 Dakika 
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf
+- Yatırma süresi: 25 dakika
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
@@ -80,23 +80,23 @@ ___
 </a>
 
 - Web sitesi: [Coinbase](https://coinbase.com)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf
-- Yatırma Süresi: 150 dakika
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf
+- Yatırma süresi: 150 dakika
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
  ### [Gemini](https://gemini.com)
 
 <a href="https://gemini.com">
-    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Custodian Exchange Logo" width="200" height="100"/>
+    <img src="/content-images/Gemini-Symbol-ddd31ee98b.webp" alt="Gemini Gözetimli Borsa Logosu" width="200" height="100"/>
 </a>
 
 - Web sitesi: [Gemini](https://gemini.com)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf | Korumalı ve birleşik çekimler, Kasım 2025’ten beri Orchard
-- Yatırma Süresi: 50 Dakika 
-- Ironwood: Korumalı çekimler desteklenir, havuz belirtilmemiştir
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf | Korumalı ve birleşik çekimler, Kasım 2025'ten beri Orchard
+- Yatırma süresi: 50 dakika
+- Ironwood: Korumalı çekimler destekleniyor, havuz belirtilmemiş
 ___
 
 ### [HTX](https://www.htx.com)
@@ -105,24 +105,24 @@ ___
     <img src="/content-images/huobi-global-logo-82DAA48E43-seeklogo.co-bc59e6f286.webp" alt="Huobi Logo" width="200" height="100"/>
 </a>
 
-- Web sitesi: [HTX](https://www.htx.com) (eskiden Huobi)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf
+- Web sitesi: [HTX](https://www.htx.com) (eski adıyla Huobi)
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf
 - Durum: ZEC yatırma ve çekme işlemleri şu anda askıya alınmış durumda (HTX herkese açık API'sine göre, Kasım 2026); spot işlemler hâlâ listeleniyor
-- Yatırma Süresi: 35 Dakika 
+- Yatırma süresi: 35 dakika
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
 ### [Kraken](https://kraken.com)
 
 <a href="https://kraken.com">
-    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Promotional" width="200" height="100"/>
+    <img src="/content-images/kraken-logo-7407ab477f.webp" alt="Kraken Tanıtım" width="200" height="100"/>
 </a>
 
 - Web sitesi: [Kraken](https://kraken.com)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf
-- Yatırma Süresi: 60 dakika
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf
+- Yatırma süresi: 60 dakika
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
@@ -133,9 +133,9 @@ ___
 </a>
 
 - Web sitesi: [KuCoin](https://kucoin.com)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf
-- Yatırma Süresi: 20 Dakika 
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf
+- Yatırma süresi: 20 dakika
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
@@ -146,9 +146,9 @@ ___
 </a>
 
 - Web sitesi: [OKX](https://www.okx.com)
-- İşlem çiftleri: TÜMÜ/ZEC
-- Destekler: Şeffaf
-- Yatırma Süresi: 25 Dakika 
+- İşlem çiftleri: ALL/ZEC
+- Desteklenenler: Şeffaf
+- Yatırma süresi: 25 dakika
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___
 
@@ -160,7 +160,7 @@ ___
 
 - Web sitesi: [Robinhood](https://robinhood.com)
 - İşlem çiftleri: USD/ZEC | EUR/ZEC
-- Destekler: Yalnızca şeffaf t-adreslerine çekim. ZEC yatırmaları desteklenmez
-- Yatırma Süresi: Yatırma desteklenmez
+- Desteklenenler: Yalnızca şeffaf t-adreslerine çekim. ZEC yatırmaları desteklenmiyor
+- Yatırma süresi: Yatırmalar desteklenmiyor
 - Ironwood: Uygulanamaz, yalnızca şeffaf adresler
 ___

@@ -1,29 +1,30 @@
-# Hardened Zebra Tam Düğüm
+# Güvenliği Sıkılaştırılmış Zebra Tam Düğümü
 
-- Özel, ayrıcalıksız bir kullanıcı ve çekirdek düzeyinde systemd yalıtımı kullanır (Docker ile aynı yalıtım).
-- RPC yalnızca localhost üzerinden, güvenli çerez kimlik doğrulamasıyla kullanılabilir (varsayılan ve önerilen).
+- Ayrı bir ayrıcalıksız kullanıcı + çekirdek seviyesinde systemd sandboxing (Docker ile aynı izolasyon).  
+- RPC yalnızca localhost için, güvenli çerez kimlik doğrulama (varsayılan ve önerilen).
+
 
 ---
 
-## Ön Koşullar
+## Ön Gereksinimler
 
-- Ubuntu tabanlı herhangi bir dağıtım
-- Rust araç zinciri kurulu olmalı (`rustup` + `cargo`)
+- Herhangi bir Ubuntu tabanlı dağıtım
+- Rust araç zinciri kurulu (`rustup` + `cargo`)
 - En az 300 GB boş disk alanı (`/var` bölümü)
 
 ---
 
-## Tek Seferlik Kurulum (normal kullanıcınız olarak çalıştırın)
+## Tek Seferlik Kurulum (Normal kullanıcı olarak çalıştırın)
 
-### 1. Sistemi güncelleyin ve derleme bağımlılıklarını yükleyin
+### 1. Sistemi güncelleyin & derleme bağımlılıklarını kurun
 
 ```
 sudo apt update && sudo apt install -y build-essential pkg-config libclang-dev clang libssl-dev protobuf-compiler
 ```
 
-## Rust'i güncelleyin ve en son zebrad sürümünü yükleyin (7.0.0 veya üzeri)
+## Rust'ı güncelleyin ve en son zebrad (7.0.0 veya daha yeni) kurun
 
-NU7, Mainnet'te 3.543.405 numaralı blokta etkinleştirildi. Bu blok yüksekliğinden sonraki zinciri yalnızca [Zebra 7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) ve sonraki sürümler takip eder; bu nedenle 6.x veya daha eski bir `zebrad` eski kurallarda takılı kalır. Derlemek için `rustup update` tarafından yüklenen Rust 1.91 veya üzeri gerekir. Mevcut bir düğümü Zebra 6.x sürümünden yükseltiyorsanız önce `/var/lib/zebrad/state/v28` yedeğini alın: Zebra 7, ilk başlatmada veritabanını yeni v29 biçimine geçirir ve 6.x sonrasında bu veritabanını okuyamaz.
+NU7, Mainnet'te blok 3.543.405'te etkin. Sadece [Zebra 7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) ve sonrası bu yükseklikten sonra zinciri takip eder, bu yüzden 6.x veya daha eski `zebrad` eski kurallarda takılı kalır. Derlemek için Rust 1.91 veya yeni sürüm gerekir, bu `rustup update` kurar. Mevcut bir düğümü Zebra 6.x'den yükseltiyorsanız önce `/var/lib/zebrad/state/v28` yedekleyin: Zebra 7, ilk başlatmada yeni v29 veritabanı formatına taşır, 6.x ise sonrasında okuyamaz.
 
 ```
 rustup update
@@ -34,14 +35,13 @@ sudo chmod 755 /usr/local/bin/zebrad
 zebrad --version
 ```
 
-## Ayrıcalıksız özel zebra kullanıcısını oluşturun
+## Ayrıcalıksız zebra kullanıcısı oluşturun
 
 ```
 sudo adduser --system --group --no-create-home --shell /usr/sbin/nologin zebra
 ```
 
-
-## Güvenli veri dizinini oluşturun
+## Güvenli veri dizini oluşturun
 
 ```
 sudo mkdir -p /var/lib/zebrad
@@ -52,9 +52,9 @@ sudo chown zebra:zebra /var/lib/zebrad-rpc
 sudo chmod 750 /var/lib/zebrad-rpc
 ```
 
-`/var/lib/zebrad-rpc`, RPC kimlik doğrulama çerezini tutar. Aşağıdaki hizmet yalnızca bu iki dizine yazabilir ve bu dizinlerden biri eksikse systemd hizmetin başlamasını engeller.
+`/var/lib/zebrad-rpc` RPC kimlik doğrulama çerezini tutar. Aşağıdaki servis yalnızca bu iki dizine yazabilir, ve systemd bunlardan biri eksikse başlatmayı reddeder.
 
-## Güvenli yapılandırmayı oluşturun (/etc/zebrad/zebrad.toml)
+## Güvenli yapılandırma (/etc/zebrad/zebrad.toml) oluşturun
 
 ```
 sudo mkdir -p /etc/zebrad
@@ -83,7 +83,7 @@ sudo chown zebra:zebra /etc/zebrad/zebrad.toml
 sudo chmod 600 /etc/zebrad/zebrad.toml
 ```
 
-## Güçlendirilmiş systemd hizmetini oluşturun
+## Güvenliği sıkılaştırılmış systemd servisi oluşturun
 
 ```
 sudo tee /etc/systemd/system/zebrad.service > /dev/null <<EOF
@@ -118,19 +118,19 @@ EOF
 sudo systemctl daemon-reload
 ```
 
-Zebra, her başlatıldığında yalnızca `zebra` kullanıcısının okuyabildiği (izin modu 600) yeni bir çerez oluşturur ve durduğunda çerezi siler. Aşağıda gösterildiği gibi çerezi `sudo` ile okuyun. Çerezin izin modunu değiştiren bir `ExecStartPost=` satırı eklemeyin: bu satır, zebrad çerezi yazmadan önce çalışabilir ve başarısız bir `ExecStartPost=` komutu hizmeti durdurur.
+Zebra her başlatıldığında yeni bir çerez oluşturur, yalnızca `zebra` kullanıcısı tarafından okunabilir (mod 600), ve durduğunda siler. Aşağıdaki gibi `sudo` ile okuyun. Çerezin modunu değiştiren bir `ExecStartPost=` satırı eklemeyin: bu, zebrad çerezi yazmadan önce çalışabilir, ve başarısız bir `ExecStartPost=` komutu hizmeti durdurur.
 
-## Günlük Kullanım - Tek Komutlu İş Akışı
+## Günlük Kullanım - Tek Komut İş Akışı
 
-| İşlem                  | Komut                                      | Notlar |
-|-------------------------|----------------------------------------------|-------|
-| **Başlat**              | `sudo systemctl start zebrad`                | Tek komut |
-| **Durdur**              | `sudo systemctl stop zebrad`                 | Tek komut |
-| **Durum**               | `sudo systemctl status zebrad`               | Çalışıp çalışmadığını gösterir |
-| **Canlı günlükler**      | `journalctl -u zebrad -f -o short-precise`  | `screen -r` yerine geçer |
-| **RPC çerezini al**     | `sudo cat /var/lib/zebrad-rpc/.cookie`           | Yalnızca çalışırken |
+| Eylem                  | Komut                                      | Notlar |
+|------------------------|--------------------------------------------|--------|
+| **Başlat**             | `sudo systemctl start zebrad`                                      | Tek komut |
+| **Dur**                | `sudo systemctl stop zebrad`                                      | Tek komut |
+| **Durum**              | `sudo systemctl status zebrad`                                      | Çalışıyor mu gösterir |
+| **Canlı günlükler**    | `journalctl -u zebrad -f -o short-precise`                                      | `screen -r` yerine geçer |
+| **RPC çerezi al**      | `sudo cat /var/lib/zebrad-rpc/.cookie`                                      | Yalnızca çalışırken |
 
-**Kullanışlı takma adlar** (`~/.bashrc` veya `~/.zshrc` dosyasına ekleyin):
+**Kullanışlı takma adlar** (`~/.bashrc` veya `~/.zshrc`'ye ekleyin):
 ```
 alias zebra-start='sudo systemctl start zebrad'
 alias zebra-stop='sudo systemctl stop zebrad'

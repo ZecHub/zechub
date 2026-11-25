@@ -1,15 +1,15 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcash_Media.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# Zcash Medyası
+# Zcash Medya
 
-"Bu ortak çalışma içindeki rolümüz, mevcut ve gelecekteki Zcash kullanıcılarını eğitmek, ilham vermek ve heyecanlandırmaktır; en büyük projelerle yarışacak ve hatta onları aşacak bir destekçi tabanı oluşturmaktır."
+“Bu ortak çalışmadaki rolümüz, mevcut ve gelecekteki Zcash kullanıcılarını eğitmek, onlara ilham vermek ve heyecanlandırmak; en büyük projelerle boy ölçüşen ve hatta onları aşan bir destekçi kitlesi oluşturmaktır.”
 
 
-## Arka Plan
+## Arka plan
 
-Kamu yararına [37 LAINES](https://www.37laines.com/) tarafından hazırlanan Zcash Media'nın eğitici videoları tamamen Zcash ve kripto hakkındadır. Bu girişim, [Zcash Community Grants](https://x.com/ZcashCommGrants) programı tarafından finanse edilmektedir ve Zcash ekosisteminde önemli bir oyuncu hâline gelmiştir.
+[37 LAINES](https://www.37laines.com/) tarafından kamu yararına hazırlanan Zcash Medya’nın eğitim videoları tamamen Zcash ve kripto hakkındadır. [Zcash Community Grants](https://x.com/ZcashCommGrants) programı tarafından finanse edilen proje, Zcash ekosisteminde önemli bir aktör hâline gelmiştir.
 
 ## Videolar
 
@@ -17,7 +17,7 @@ Kamu yararına [37 LAINES](https://www.37laines.com/) tarafından hazırlanan Zc
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/videoseries?si=e8-nsKxIHdk9YGY2&amp;list=PLCBF_Zq-SbAL19zav5LPfNzXNPNP9IOeb"
-    title="Zcash Media Playlist"
+    title="Zcash Medya Oynatma Listesi"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
