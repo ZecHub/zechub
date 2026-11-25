@@ -7,18 +7,18 @@
 
 ## Ringkasan Singkat
 
-* Kebanyakan orang menggunakan Zcash melalui dompet light client, yang tidak mengunduh seluruh blockchain. Sebaliknya, ia berkomunikasi dengan server yang telah melakukan pekerjaan tersebut.
-* Dua perangkat lunak melayani dompet light client saat ini: **lightwalletd**, layanan asli yang ditulis dalam Go, dan **Zaino**, indexer yang lebih baru yang ditulis dalam Rust.
-* Kunci Anda tidak pernah meninggalkan perangkat Anda, dan server tidak dapat membelanjakan dana Anda atau membaca jumlah dan memo di dalam transaksi terlindungi secara penuh.
-* Hal yang dapat diketahui dengan mudah oleh server adalah alamat IP Anda dan waktu aktivitas Anda — transaksi terlindungi melindungi apa yang terjadi di blockchain, bukan koneksi Anda ke server.
-* Tor menghapus pengenal IP; fitur ini tersedia di dompet yang dibangun di atas `zcash_client_backend`, dan di ZODL fitur ini merupakan pengaturan di Pengaturan Lanjutan.
-* Anda dapat mengubah server mana yang digunakan dompet Anda, atau menjalankan server Anda sendiri — baik lightwalletd maupun Zaino bersifat open source.
+* Kebanyakan orang menggunakan Zcash melalui light wallet, yang tidak mengunduh seluruh blockchain. Sebagai gantinya, light wallet berkomunikasi dengan server yang telah melakukan pekerjaan tersebut.
+* Saat ini, tiga perangkat lunak umum melayani light wallet: **lightwalletd** (yang pertama, Go), **Zaino** (pengindeks Rust), dan ztreamer (pengindeks Rust berperforma tinggi dari Zcash Labs yang mendukung jaringan fastz.cash publik).
+* Kunci Anda tidak pernah meninggalkan perangkat, dan server tidak dapat membelanjakan dana Anda atau membaca jumlah dan memo di dalam transaksi yang sepenuhnya terlindungi.
+* Server dapat mengetahui alamat IP dan waktu aktivitas Anda — transaksi terlindungi menjaga informasi yang ada di blockchain, bukan koneksi Anda ke server.
+* Tor menghilangkan identitas IP; fitur ini tersedia di dompet yang dibangun di atas `zcash_client_backend`, dan di ZODL berupa pengaturan di Advanced Settings.
+* Anda dapat mengubah server yang digunakan dompet atau menjalankan server sendiri — lightwalletd, Zaino, dan ztreamer semuanya bersifat open source.
 
 ## Penjelasan Inti
 
 Sebagian besar orang menggunakan Zcash melalui light wallet, yang tidak mengunduh seluruh blockchain. Sebaliknya, ia berkomunikasi dengan server yang telah melakukan pekerjaan tersebut. Halaman ini menjelaskan apa itu server-server tersebut, apa yang dapat dan tidak dapat mereka lihat tentang Anda, cara mengarahkan koneksi Anda melalui Tor, dan cara mengubah server yang digunakan oleh dompet Anda.
 
-Dua perangkat lunak melayani light client saat ini. **lightwalletd** adalah layanan asli, yang ditulis dalam Go. **Zaino** adalah indexer yang lebih baru yang ditulis dalam Rust, dibangun sebagai bagian dari pekerjaan deprisiasi zcashd.
+Saat ini, tiga perangkat lunak umum melayani light wallet. **lightwalletd** adalah layanan pertama, yang ditulis dalam Go. **Zaino** adalah pengindeks yang lebih baru, ditulis dalam Rust dan dibuat sebagai bagian dari pekerjaan penghentian zcashd. **ztreamer** adalah pengindeks Rust berperforma tinggi dari Zcash Labs yang mendukung jaringan fastz.cash publik.
 
 ### Apa yang dilakukan oleh server light wallet
 
@@ -85,27 +85,40 @@ Ini sedang dalam pengembangan aktif, dengan versi 0.10.1 yang dirilis pada Septe
 
 Zaino memiliki halamannya sendiri dengan diagram arsitektur, sehingga halaman ini hanya mencakup perannya sebagai server dompet light.
 
+### ztreamer dan fastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer) adalah pengindeks Zcash berperforma tinggi sekaligus server light wallet yang ditulis dalam Rust oleh Zcash Labs. Perangkat lunak ini dirancang untuk latensi rendah dan throughput tinggi, serta mendukung jaringan pengindeks publik [fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478) (diumumkan pada 19 November 2026).
+
+fastz.cash menjalankan server edge regional (saat ini di Frankfurt, London, Virginia, Oregon, São Paulo, Singapura, dan Osaka). Setiap wilayah memiliki full node dan indeks ztreamer lokal. TLS berakhir di node. Median terukur untuk waktu hingga respons pertama pada panggilan GetLatestBlock adalah sekitar 35 ms di seluruh dunia. Sinkronisasi rentang blok dilaporkan hingga ~3× lebih cepat dibandingkan lightwalletd versi terbaru, dengan jejak indeks yang kecil (~18 GB) sehingga lokasi edge tambahan dapat diterapkan dengan praktis.
+
+Status dan endpoint terdekat: [status.fastz.cash](https://status.fastz.cash).
+
+**Catatan privasi:** fastz.cash juga menjalankan layanan wallet-pir milik Valar Group. Pengguna Vizor dapat menggunakannya sekarang untuk kueri sinkronisasi privat yang mengurangi metadata yang dapat diketahui server tentang catatan atau rentang yang diminta. Ini adalah lapisan privasi tambahan di atas model ancaman light wallet yang dijelaskan sebelumnya; fitur ini tidak menggantikan Tor atau pilihan operator.
+
+ztreamer bersifat open source dan dapat dijalankan secara mandiri (node Zakura tertanam atau mode jarak jauh). Seperti lightwalletd dan Zaino, ztreamer melayani protokol light wallet melalui gRPC. Perangkat lunak ini masih aktif dikembangkan dan diposisikan sebagai infrastruktur produksi sekaligus tempat uji untuk peningkatan protokol light wallet di masa depan.
+
 ### Menjalankan milik Anda sendiri
 
-Opsi terkuat adalah menjadi operator Anda sendiri, yang sepenuhnya menghilangkan masalah kepercayaan. Kedua server bersifat open source: [lightwalletd](https://github.com/zcash/lightwalletd) dalam Go dan [Zaino](https://github.com/zingolabs/zaino) dalam Rust. Keduanya membaca dari validator full node, jadi Anda juga akan memerlukan [Zebra](/zcash-tech/zebra-full-node). Server zec.rocks diterapkan menggunakan [Zcash Stack](/guides/zcash-stack), sebuah chart Helm open source dan kit Compose Docker yang menjalankan Zebra dan lightwalletd secara bersamaan.
+Pilihan terkuat adalah menjadi operator sendiri, sehingga persoalan kepercayaan sepenuhnya hilang. Ketiga server bersifat open source: [lightwalletd](https://github.com/zcash/lightwalletd) dalam Go, [Zaino](https://github.com/zingolabs/zaino) dalam Rust, dan [ztreamer](https://github.com/zcashlabs/ztreamer) dalam Rust. Server-server tersebut membaca data dari validator penuh, jadi Anda juga memerlukan [Zebra](/zcash-tech/zebra-full-node) atau Zakura. Server zec.rocks diterapkan dengan [Zcash Stack](/guides/zcash-stack), sebuah Helm chart open source dan kit Compose Docker yang menjalankan Zebra dan lightwalletd secara bersamaan.
 
 ## Implikasi Praktis
 
 ### Daftar server
 
-Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) melacak server publik dan kondisinya, serta merupakan tempat untuk memeriksa apa yang sebenarnya sedang aktif. [status.zec.rocks](https://status.zec.rocks/) menunjukkan status layanan.
+Dashboard [hosh.zec.rocks](https://hosh.zec.rocks/zec) memantau server publik dan kondisinya, serta menjadi tempat untuk memeriksa server yang benar-benar aktif. [status.zec.rocks](https://status.zec.rocks/) menampilkan status layanan. Untuk jaringan fastz.cash, lihat [status.fastz.cash](https://status.fastz.cash).
 
 Server yang terdaftar pada dashboard tersebut pada saat penulisan ini:
 
 | Server | Catatan |
 |:--|:--|
-| zec.rocks:443 | Endpoint regional tercantum di sampingnya pada na.zec.rocks, eu.zec.rocks, ap.zec.rocks dan sa.zec.rocks |
-| zec-node.cakewallet.com:443 | Berada di domain Cake Wallet |
-| zec.0xrpc.io:443 | Dijalankan oleh 0xRPC, yang menawarkan endpoint publik gratis untuk sejumlah chain dan meminta donasi untuk menutupi kapasitas |
-| zaino.unsafe.zec.rocks:443 | Sebuah instance Zaino. Perhatikan hostname-nya, perlakukan sebagai eksperimental |
-| testnet.zec.rocks:443 | Testnet, dengan sebuah instance testnet Zaino yang tercantum di zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | Endpoint regional juga tercantum di na.zec.rocks, eu.zec.rocks, ap.zec.rocks, dan sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Menggunakan domain Wallet Cake |
+| zec.0xrpc.io:443 | Dijalankan oleh 0xRPC, yang menyediakan endpoint publik gratis untuk sejumlah chain dan meminta donasi untuk menanggung kapasitas |
+| zaino.unsafe.zec.rocks:443 | Instans Zaino. Perhatikan nama host dan anggap sebagai eksperimental |
+| testnet.zec.rocks:443 | Testnet, dengan instans testnet Zaino yang tercantum di zaino.testnet.unsafe.zec.rocks |
+| rpc.fastz.cash | Jaringan ztreamer publik oleh Zcash Labs. Periksa status.fastz.cash untuk melihat endpoint regional dan kondisinya. |
 
-Periksalah dashboard daripada mempercayai daftar ini. Operator datang dan pergi, dan halaman seperti ini dapat menjadi usang.
+Periksa dashboard alih-alih mengandalkan daftar ini. Operator bisa berhenti atau mulai beroperasi, dan informasi di halaman seperti ini bisa kedaluwarsa.
 
 ### Mengubah server di dompet Anda
 
@@ -143,7 +156,7 @@ Tangkapan layar tersebut diambil pada Maret 2025, dan aplikasi telah merilis pem
 
 **Dengan asumsi Tor menghapus setiap jejak**. Tor menyembunyikan IP Anda dari server, tetapi hal ini tidak mengubah apa yang dipelajari server dari permintaan yang Anda buat, dan menambahkan latensi pada proses sinkronisasi.
 
-**Memercayai daftar server pada sebuah halaman wiki**. Operator datang dan pergi. Periksa [hosh.zec.rocks](https://hosh.zec.rocks/zec) untuk mengetahui apa yang sebenarnya sedang berjalan sebelum Anda mengarahkan dompet Anda ke apa pun.
+**Memercayai daftar server di halaman wiki**. Operator bisa berhenti atau mulai beroperasi. Periksa [hosh.zec.rocks](https://hosh.zec.rocks/zec) dan [status.fastz.cash](https://status.fastz.cash) untuk mengetahui server yang benar-benar aktif sebelum menghubungkan dompet Anda ke server mana pun.
 
 ## Ringkasan
 
@@ -151,11 +164,12 @@ Dompet light memberikan Anda pool terlindungi tanpa memerlukan ruang disk yang b
 
 ## Halaman Terkait
 
-- [Siapa yang Dapat Melihat Pembayaran Zcash](/start-here/who-can-see-your-zcash-payment) — penjelasan tingkat pemula tentang pertanyaan yang sama.
-- [Yang Dapat Dilihat Penjelajah Blok](/zcash-tech/what-a-block-explorer-can-see) — hal yang terlihat on-chain, berbeda dengan yang terlihat di server.
-- [Zaino](/zcash-tech/zaino) — diagram arsitektur dan peran Rust indexer yang lebih luas.
-- [Zinder](/zcash-tech/zinder) — indexer alfa milik Zcash Foundation, yang melayani dompet ringan melalui adapter yang kompatibel dengan lightwalletd.
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator yang menjadi sumber data server dompet ringan.
+- [Siapa yang Dapat Melihat Pembayaran Zcash](/start-here/who-can-see-your-zcash-payment) — penjelasan untuk pemula tentang pertanyaan yang sama.
+- [Informasi yang Dapat Dilihat Block Explorer](/zcash-tech/what-a-block-explorer-can-see) — informasi yang terlihat secara on-chain, berbeda dari yang terlihat di server.
+- [Zaino](/zcash-tech/zaino) — diagram arsitektur dan peran pengindeks Rust yang lebih luas.
+- [Zinder](/zcash-tech/zinder) — pengindeks alpha milik Zcash Foundation, yang melayani light wallet melalui adaptor yang kompatibel dengan lightwalletd.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator yang menjadi sumber data bagi server light wallet.
 - [Zcash Sinkronisasi Dompet](/zcash-tech/zcash-wallet-syncing) — cara dompet Anda memproses blok ringkas yang dikirim server.
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — pengindeks Rust berperforma tinggi yang digunakan jaringan fastz.cash.
 
-**Terakhir diperbarui:** Agustus 2026
+**Terakhir diperbarui:** November 2026

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Lightwallet_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Aɖe Axɔta"/>
 </a>
 
 
@@ -8,17 +8,17 @@
 ## Nya veviwo
 
 * Ame geɖewo zã Zcash to nyatakaka si hiã ƒe mɔ dzi, eye esia meɖea gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu blibo o. Esi wòle eme la, eƒoa nu kple server si ɖo dɔ siawo xoxo.
-* Software eve siwo se nyatakaka si hiã ƒe mɔwo egbe lae nye **lightwalletd**, dɔwɔnu gbãtɔ si wɔ le Go me, kple **Zaino**, indexer yeye si ŋlɔ le Rust me.
+* Software etɔ̃ siwo zãa nyatakaka si hiã ƒe mɔwo egbe lae nye **lightwalletd** (gbãtɔ, Go), **Zaino** (Rust indexer), kple ztreamer (Zcash Labs ƒe Rust indexer si dɔa ŋutɔ sesẽ, eye wòna fastz.cash ƒe network si le gbɔna la dɔ).
 * Wò safuiwo meɖoa wò legba la o, eye server la mate ŋu aɖu wò ga alo axlẽ ga siwo kple nya kpuiwo le gaɖoɖo ɣaɣla blibo me o.
 * Nu si server la ate ŋu anya ŋutɔe nye wò IP address kple ɣeyiɣi si wòwɔa dɔwo — gaɖoɖo ɣaɣla le gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu dzi la, ke wò kadodo kple server la mele ɣaɣla me o.
 * Tor ɖea IP identifier la ɖa; e le gakotokuwo siwo woɖo ɖe `zcash_client_backend` dzi la me, eye le ZODL me la, enye ɖoɖo le Advanced Settings me.
-* Àte ŋu atrɔ server si wò gakotoku zãa, alo aɖo wò tɔ — lightwalletd kple Zaino siaa nye open source.
+* Àte ŋu atrɔ server si wò gakotoku zãa, alo aɖo wò tɔ — lightwalletd, Zaino, kple ztreamer siaa nye open source.
 
 ## Nyateƒe siwo le eƒe ta me
 
 Ame geɖewo zã Zcash to nyatakaka si hiã ƒe mɔ dzi, eye esia meɖea gaɖoɖowo ƒuƒoƒo ƒe ɖoɖonu blibo o. Esi wòle eme la, eƒoa nu kple server si ɖo dɔ siawo xoxo. Page sia ɖe server siawo, nu siwo ate ŋu akpɔ kple esiwo mate ŋu akpɔ le wò ŋuti o, ale si nàte ŋu akplɔ wò kadodo to Tor dzi, kple ale si nàtrɔ server si wò gakotoku zãa la me.
 
-Software eve siwo se nyatakaka si hiã ƒe mɔwo egbe la. **lightwalletd** nye dɔwɔnu gbãtɔ, woŋlɔ le Go me. **Zaino** nye indexer yeye si woŋlɔ le Rust me, si wowɔ abe zcashd ƒe ɖoɖoɖeɖe dɔ la ƒe akpa ene.
+Dɔwɔnu etɔ̃ siwo naa nyatakaka si hiã ƒe mɔwo dɔ le egbe la. **lightwalletd** nye dɔwɔnu gbãtɔ, woŋlɔ le Go me. **Zaino** nye indexer yeye si woŋlɔ le Rust me, si wowɔ abe zcashd ƒe ɖoɖoɖeɖe dɔ la ƒe akpa ene. **ztreamer** nye Rust indexer si dɔ wɔna ŋutɔ, si tso Zcash Labs, eye wòna fastz.cash ƒe network si le mɔa dzi la dɔ.
 
 ### Nu si server aɖe si se nyatakaka si hiã ƒe mɔwɔ la wɔna
 
@@ -85,27 +85,40 @@ Wole eŋu dzɔdzɔm, eye wode version 0.10.1 ɖe eme le September 2026. Edi be w
 
 Zaino ƒe page si le eƒe architecture ƒe diagramwo kple, ale page sia ɖe eƒe dɔ si wòwɔna abe gakotoku si hiã ƒe mɔ server ko ene ko.
 
+### ztreamer kple fastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer) nye Zcash Labs ƒe Rust me ŋlɔ́ Zcash indexer kple light-wallet server si wɔa dɔ kple ŋusẽ geɖe. Wɔe be wòatsɔ ɣeyiɣi sue aɖe atsɔ nuɖoɖo, eye wòawɔ dɔ geɖe le ɣeyiɣi sue me, eye wò ŋusẽna ame sia ame ƒe [fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478) indexer network (ŋuti nyawo ɖeɖe le 19 November 2026).
+
+fastz.cash zɔa anyigba ƒe edge serverwo (fifia le Frankfurt, London, Virginia, Oregon, São Paulo, Singapore kple Osaka). Region ɖesiaɖe si le eya ŋutɔ ƒe ɣaɣla dzesi ŋɔŋlɔ blibo kple ztreamer ƒe index si le afi ma. TLS nuwuwu le ɣaɣla dzesi ŋɔŋlɔ la dzi. Woɖoɖo be ŋkeke sia ŋkeke ƒe ɣeyiɣi titina si wòle be wòade ŋu axɔ ŋuɖoɖo gbãtɔ na GetLatestBlock call la nye 35 ms le xexeame katã. Woɖoɖo be gaɖoɖowo ƒe ɖoɖonu ƒe range sync zɔa va se 3× wu lightwalletd siwo do ŋgɔ la, eye index ƒe nɔnɔme le sue (~18 GB), si wɔa be edge location bubuwo zɔ̃a.
+
+Status kple endpoint si le didiɖe: [status.fastz.cash](https://status.fastz.cash).
+
+**ɣaɣlaŋlɔŋlɔ ƒe nya kpui:** fastz.cash hã ɖo Valar Group’s wallet-pir dɔwɔnu. Vizor zãlawo ate ŋu azãe egbea be woabia ɖoɖoŋkɔŋkɔ ƒe nyatakakawo le ɣaɣla me, siwo doa asi le nyatakakawo si dzɔla la se tso didienu alo didienu ƒe ƒoƒo siwo wobia tso ŋu. Esia nye ɣaɣlaŋlɔŋlɔ ƒe kpeɖeŋu bubu si kpe ɖe light-wallet ƒe nuxaxa ƒe nukɔnta si ŋu wogblɔ tso ɖoƒe si dzi la ŋu; meɖea Tor alo operator si wòatia teƒe o.
+
+ztreamer nye mɔxenu si woƒo nyadzɔdzɔ kɔa le eme, eye wòate ŋu azã eye wòawɔ dɔ le eɖokui si (Zakura node si wode ɖe eme alo mode si zãa remote). Abe lightwalletd kple Zaino ene la, etsoa light-wallet protocol le gRPC dzi. Wole edzi wɔm dɔ le eŋu, eye woyɔe be infrastructure si woate ŋu azã le production me, eye wòanye teƒe si woato atsɔ akpɔ light-wallet protocol ƒe ŋutinya yeye siwo le ŋgɔ.
+
 ### Wò ŋutɔ ɖo wò server
 
-Mɔ si ŋusẽ wu lae nye be nàwɔ wò ŋutɔ operator, si ɖea trust ƒe biabia la ɖa blibo. Server eve siawo katã nye open source: [lightwalletd](https://github.com/zcash/lightwalletd) le Go me, kple [Zaino](https://github.com/zingolabs/zaino) le Rust me. Woƒe nu xɔa full validator, ale wòhiã hã [Zebra](/zcash-tech/zebra-full-node). Woɖoa zec.rocks serverwo to [Zcash Stack](/guides/zcash-stack) dzi, si nye open-source Helm chart kple Docker Compose kit si ɖoa Zebra kple lightwalletd ƒu.
+Nukam be ele vevi wu enye be nàzu operator wò ŋutɔ, eye esia ɖea dzixɔse ƒe biabia ɖa blibo. Server etɔ̃a katã nye open source: [lightwalletd](https://github.com/zcash/lightwalletd) le Go me, [Zaino](https://github.com/zingolabs/zaino) le Rust me, eye [ztreamer](https://github.com/zcashlabs/ztreamer) le Rust me. Wokpɔ nyatakakawo tso validator blibo aɖe me, eya ta wòahiã hã [Zebra](/zcash-tech/zebra-full-node) alo Zakura. Wotsɔ zec.rocks servers la ɖo dɔ kple [Zcash Stack](/guides/zcash-stack), si nye Helm chart kple Docker Compose kit siwo katã le open source, eye wòdɔa Zebra kple lightwalletd ɖe mɔ dzi ɖo.
 
 ## Nu si wòate ŋu awɔ le nuwɔna me
 
 ### Serverwo ƒe ŋkɔwo
 
-[hosh.zec.rocks](https://hosh.zec.rocks/zec) ɖo ŋku ɖe public serverwo kple woƒe nudzɔdzɔ ŋu, eye esiae nye teƒe si nàkpɔ nu siwo le dɔ me le nyateƒe me. [status.zec.rocks](https://status.zec.rocks/) fia dɔwɔna ƒe nɔnɔme.
+[hosh.zec.rocks](https://hosh.zec.rocks/zec) ƒe ɖoɖowo ƒuƒopé la dzra server siwo le dutoƒo kple woƒe ŋusẽ ta, eye wòate ŋu akpɔ afi si nusiwo le dɔ wɔm nyateƒe. [status.zec.rocks](https://status.zec.rocks/) fia dɔwɔwɔ ƒe nɔnɔme. Le fastz.cash ƒe network ŋu la, kpɔ [status.fastz.cash](https://status.fastz.cash).
 
 Server siwo le dashboard ma dzi le ɣeyiɣi si woŋlɔ page sia:
 
 | Server | Notes |
 |:--|:--|
-| zec.rocks:443 | Woŋlɔ teƒe siwo le regionwo me hã kplii: na.zec.rocks, eu.zec.rocks, ap.zec.rocks kple sa.zec.rocks |
+| zec.rocks:443 | Ɖoƒe siwo le ƒuƒoƒo me la le eŋu le na.zec.rocks, eu.zec.rocks, ap.zec.rocks kple sa.zec.rocks |
 | zec-node.cakewallet.com:443 | Le Cake Wallet ƒe domain dzi |
-| zec.0xrpc.io:443 | 0xRPC ye ɖoa eŋu, si na free public endpoints na ɖoɖonu geɖewo, eye ebia donation be wòakpɔ kapasiti |
-| zaino.unsafe.zec.rocks:443 | Zaino instance. Ɖo ŋku ɖe hostname la ŋu, eye bu e abe nu si wogakpɔ kpuie ene |
-| testnet.zec.rocks:443 | Testnet, kple Zaino testnet instance si woŋlɔ le zaino.testnet.unsafe.zec.rocks |
+| zec.0xrpc.io:443 | 0xRPC ye wɔe, eye wòna mɔxɔxɔ ƒe endpoints siwo le dutoƒo eye wòbia nunana be wòakpɔ ga si hiã na woƒe capacity |
+| zaino.unsafe.zec.rocks:443 | Zaino ƒe instance. Bu hostname ŋu, eye nàbu be wòle experiment me |
+| testnet.zec.rocks:443 | Testnet, kple Zaino testnet ƒe instance si woŋlɔ ɖe zaino.testnet.unsafe.zec.rocks |
+| rpc.fastz.cash | Ztreamer ƒe network si le dutoƒo, si Zcash Labs wɔ. Kpɔ status.fastz.cash be nànya endpoints siwo le ƒuƒoƒo me kple woƒe ŋusẽ. |
 
-Kpɔ dashboard la, mègadoŋlɔ ɖe ŋkɔ siawo ko dzi o. Operatorwo va, eye woɖoa dɔ. Page abe esia ene ŋutɔ va sesẽna.
+Ŋlɔ ɖoɖowo ƒuƒopéwo me kpɔe, eye mègaɖo asi ɖe xexlẽdzesi sia dzi o. Ame siwo lé wo ŋu vaa eye woyina, eye axa abe esia ene ƒe ŋkekewo doa.
 
 ### Ale si nàtrɔ server le wò gakotoku me
 
@@ -143,7 +156,7 @@ Woɖe screenshot siawo le March 2025 me, eye appwo ɖe releases yeye le ema megb
 
 **Susua be Tor ɖea mɔ ɖesiaɖe ƒe xexe la ɖa**. Tor ɣaɣla wò IP le server la ŋu, gake metrɔa nu si server la nya le nu si wòbiawo ŋu o, eye ena sync la ɖoa ɣeyiɣi didi.
 
-**Xɔ server ƒe ŋkɔwo si le wiki page dzi se.** Operatorwo va eye woɖoa dɔ. Kpɔ [hosh.zec.rocks](https://hosh.zec.rocks/zec) be nànya nu siwo le dɔ me le nyateƒe me hafi nàɖo wò gakotoku ɖe nu aɖe dzi.
+**Nɔ ŋu ɖe serverwo ƒe ŋkɔwo ŋu le wiki ƒe axa dzi**. Dɔwɔlawo va eye woyina. Kpɔ [hosh.zec.rocks](https://hosh.zec.rocks/zec) kple [status.fastz.cash](https://status.fastz.cash) be nànya nu si le dɔ wɔm la hafi nàtsɔ wò gakotoku de nu aɖeke me.
 
 ## Nya veviwo
 
@@ -151,11 +164,12 @@ Gakotoku si hiã ƒe mɔwo na wò gaƒuƒoƒo si ɣaɣla la, si mehiã disk spac
 
 ## Page siwo kplɔa esia
 
-- [Ame kae ate ŋu akpɔ wò Zcash Payment](/start-here/who-can-see-your-zcash-payment) — eyae nye ame yeye ƒe nɔnɔme le biabia ma ke ŋu.
-- [Nu kae Block Explorer ate ŋu akpɔ](/zcash-tech/what-a-block-explorer-can-see) — nu si wòkpɔna le ɖoɖonu dzi, si teƒe server la ƒe nɔnɔme.
-- [Zaino](/zcash-tech/zaino) — architecture ƒe diagramwo kple Rust indexer la ƒe dɔ didi.
-- [Zinder](/zcash-tech/zinder) — Zcash Foundation ƒe alpha indexer, si se gakotoku si hiã ƒe mɔwo to lightwalletd-compatible adapter dzi.
-- [Zebra ɣaɣla dzesi ŋɔŋlɔ blibo](/zcash-tech/zebra-full-node) — validator si server si se gakotoku si hiã ƒe mɔ la xɔna le.
-- [Zcash Gakotoku Sync](/zcash-tech/zcash-wallet-syncing) — ale si compact blocks si server la ɖoa la, wò gakotoku la wòwɔ wo.
+- [Ame kaŋu wò ƒe Zcash fexexe](/start-here/who-can-see-your-zcash-payment) — nyatakakaa si wòtsɔna le gɔmedzedze me le nyabiase ma ŋuti.
+- [Nukae Gaɖoɖowo ƒe Laŋu Ate Ŋu Akpɔ](/zcash-tech/what-a-block-explorer-can-see) — nu siwo le ɖoɖonu dzi la, eye menye nu siwo le server la gbɔ o.
+- [Zaino](/zcash-tech/zaino) — ɖoɖo ƒe afɔkuwo kple mɔ̃ ƒe ɖoɖoŋlɔla si le Rust indexer la ƒe dɔ gã la.
+- [Zinder](/zcash-tech/zinder) — Zcash Foundation ƒe alpha indexer, si tsɔ lightwalletd-compatible adapter la wɔa dɔ na nyatakakakotokuwo.
+- [Zebra ɣaɣla dzesi ŋɔŋlɔ blibo](/zcash-tech/zebra-full-node) — validator si nyatakakakotoku ƒe server la xɔa nyatakakawo tso.
+- [Zcash Gakotoku Ɖoɖo](/zcash-tech/zcash-wallet-syncing) — ale si wò gakotoku wɔa gaɖoɖowo ƒe gaɖoɖowo kpui si server la dɔna.
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — Rust indexer si wɔa dɔ kabakaba le fastz.cash network la me.
 
-**Woɖo update mlɔetɔe:** August 2026
+**Eŋu mamlɛtɔ ƒe ŋutinya:** 2026 ƒe November

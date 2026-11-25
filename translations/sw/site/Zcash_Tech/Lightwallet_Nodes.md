@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Lightwallet_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Hariri Ukurasa"/>
 </a>
 
 
@@ -7,18 +7,18 @@
 
 ## Kwa Muhtasari
 
-* Watu wengi hutumia Zcash kupitia pochi nyepesi [light wallet], ambayo haipakui blockchain yote. Badala yake, huwasiliana na seva ambayo tayari imefanya kazi hiyo.
-* Vipande viwili vya programu huhudumia pochi nyepesi leo: **lightwalletd**, huduma ya awali iliyoandikwa kwa Go, na **Zaino**, kiorodheshi kipya zaidi kilichoandikwa kwa Rust.
-* Funguo zako haziondoki kamwe kwenye kifaa chako, na seva haiwezi kutumia fedha zako wala kusoma kiasi na jumbe ndani ya miamala ya faragha kamili.
-* Kile ambacho seva iko katika nafasi nzuri ya kujifunza ni anwani yako ya IP na muda wa shughuli zako — miamala ya faragha hulinda kinachotokea kwenye blockchain, si muunganisho wako kwa seva.
-* Tor huondoa kitambulishi cha IP; inapatikana katika pochi zilizoundwa kwenye `zcash_client_backend`, na katika ZODL ni mpangilio katika Mipangilio ya Kina.
-* Unaweza kubadilisha seva ambayo pochi yako hutumia, au kuendesha yako mwenyewe — lightwalletd na Zaino zote ni chanzo huria.
+* Watu wengi hutumia Zcash kupitia pochi nyepesi (light wallet), ambayo haipakui blockchain nzima. Badala yake, huwasiliana na seva ambayo tayari imefanya kazi hiyo.
+* Programu tatu ndizo zinazotoa huduma kwa pochi nyepesi kwa kawaida leo: **lightwalletd** (ya awali, ya Go), **Zaino** (kiweka faharasa cha Rust), na ztreamer (kiweka faharasa cha Rust chenye utendaji wa juu kutoka Zcash Labs, kinachowezesha mtandao wa umma wa fastz.cash).
+* Funguo zako haziondoki kamwe kwenye kifaa chako, na seva haiwezi kutumia pesa zako au kusoma kiasi na jumbe ndani ya miamala ya faragha kikamilifu.
+* Seva inaweza kujua anwani yako ya IP na nyakati za shughuli zako kwa urahisi — miamala ya faragha hulinda yanayotokea kwenye blockchain, si muunganisho wako na seva.
+* Tor huondoa kitambulisho cha IP; inapatikana katika pochi zilizojengwa kwa kutumia `zcash_client_backend`, na katika ZODL ni mpangilio ndani ya Mipangilio ya Kina.
+* Unaweza kubadilisha seva inayotumiwa na pochi yako, au kuendesha seva yako mwenyewe — lightwalletd, Zaino, na ztreamer zote ni programu huria.
 
 ## Maelezo ya Msingi
 
 Watu wengi hutumia Zcash kupitia pochi nyepesi, ambayo haipakui blockchain yote. Badala yake, huwasiliana na seva ambayo tayari imefanya kazi hiyo. Ukurasa huu unaeleza seva hizo ni nini, zinaweza na haziwezi kuona nini kukuhusu, jinsi ya kupitisha muunganisho wako kupitia Tor, na jinsi ya kubadilisha seva ambayo pochi yako hutumia.
 
-Vipande viwili vya programu huhudumia pochi nyepesi leo. **lightwalletd** ni huduma ya awali, iliyoandikwa kwa Go. **Zaino** ni kiorodheshi kipya zaidi kilichoandikwa kwa Rust, kilichoundwa kama sehemu ya kazi ya kusitisha zcashd.
+Programu tatu ndizo zinazotoa huduma kwa pochi nyepesi kwa kawaida leo. **lightwalletd** ndiyo huduma ya awali, iliyoandikwa kwa Go. **Zaino** ni kiweka faharasa kipya zaidi kilichoandikwa kwa Rust, kilichoundwa kama sehemu ya kazi ya kuacha kutumia zcashd. **ztreamer** ni kiweka faharasa cha Rust chenye utendaji wa juu kutoka Zcash Labs, kinachowezesha mtandao wa umma wa fastz.cash.
 
 ### Seva ya pochi nyepesi hufanya nini
 
@@ -85,27 +85,40 @@ Kiko katika maendeleo hai, na toleo la 0.10.1 lilitolewa Septemba 2026. Kinaleng
 
 Zaino kina ukurasa wake wenye michoro ya usanifu, hivyo ukurasa huu unashughulikia tu jukumu lake kama seva ya pochi nyepesi.
 
+### ztreamer na fastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer) ni kiweka faharasa na seva ya pochi nyepesi ya Zcash yenye utendaji wa juu, iliyoandikwa kwa Rust na Zcash Labs. Imeundwa kwa ucheleweshaji mdogo na uwezo mkubwa wa kushughulikia maombi, na huwezesha mtandao wa umma wa viweka faharasa wa [fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478) (uliotangazwa tarehe 19 Novemba 2026).
+
+fastz.cash ina seva za ukingoni za kikanda (kwa sasa Frankfurt, London, Virginia, Oregon, São Paulo, Singapore na Osaka). Kila eneo lina full node yake na faharasa ya ztreamer ya ndani. TLS huishia kwenye node. Muda wa wastani uliopimwa hadi jibu la kwanza kwa ombi la GetLatestBlock ulikuwa takriban ms 35 duniani kote. Inaripotiwa kuwa usawazishaji wa safu za blocks ni hadi ~3× wa haraka zaidi kuliko lightwalletd za hivi karibuni, na faharasa ndogo (~18 GB) inayorahisisha kutumia maeneo mengine ya ukingo.
+
+Hali na kituo cha karibu zaidi: [status.fastz.cash](https://status.fastz.cash).
+
+**Dokezo kuhusu faragha:** fastz.cash pia huendesha huduma ya wallet-pir ya Valar Group. Watumiaji wa Vizor wanaweza kuitumia leo kwa maombi ya usawazishaji ya faragha yanayopunguza metadata ambayo seva hujifunza kuhusu madokezo au safu zinazoombwa. Hii ni safu ya ziada ya faragha juu ya muundo wa kawaida wa vitisho vya pochi nyepesi ulioelezwa hapo juu; haichukui nafasi ya Tor wala ya uchaguzi wa mwendeshaji.
+
+ztreamer ni programu huria na inaweza kuendeshwa kivyake (node ya Zakura iliyopachikwa au hali ya mbali). Kama lightwalletd na Zaino, hutoa itifaki ya pochi nyepesi kupitia gRPC. Bado inaendelezwa, na inalenga kutumika kama miundombinu ya uzalishaji na kama uwanja wa majaribio ya maboresho yajayo ya itifaki ya pochi nyepesi.
+
 ### Kuendesha yako mwenyewe
 
-Chaguo imara zaidi ni kuwa mwendeshaji wako mwenyewe, jambo linaloondoa swali la uaminifu kabisa. Seva zote mbili ni chanzo huria: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go na [Zaino](https://github.com/zingolabs/zaino) katika Rust. Zote husoma kutoka kwa kithibitishaji kamili, hivyo utahitaji pia [Zebra](/zcash-tech/zebra-full-node). Seva za zec.rocks hupelekwa kwa kutumia [Zcash Stack](/guides/zcash-stack), chati ya Helm iliyo chanzo huria na kifurushi cha Compose cha Docker kinachoendesha Zebra na lightwalletd pamoja.
+Chaguo lenye nguvu zaidi ni kuwa mwendeshaji wako mwenyewe, jambo linaloondoa kabisa suala la kuaminiana. Seva zote tatu ni programu huria: [lightwalletd](https://github.com/zcash/lightwalletd) katika Go, [Zaino](https://github.com/zingolabs/zaino) katika Rust, na [ztreamer](https://github.com/zcashlabs/ztreamer) katika Rust. Zinasoma data kutoka kwa validator kamili, kwa hiyo utahitaji pia [Zebra](/zcash-tech/zebra-full-node) au Zakura. Seva za zec.rocks huwekwa kwa kutumia [Zcash Stack](/guides/zcash-stack), chati huria ya Helm na kifurushi cha Compose cha Docker kinachoendesha Zebra na lightwalletd pamoja.
 
 ## Athari za Kivitendo
 
 ### Orodha ya seva
 
-Dashibodi ya [hosh.zec.rocks](https://hosh.zec.rocks/zec) hufuatilia seva za umma na hali yake, na ndiyo mahali pa kuangalia kinachoendesha kwa kweli. [status.zec.rocks](https://status.zec.rocks/) huonyesha hali ya huduma.
+Dashibodi ya [hosh.zec.rocks](https://hosh.zec.rocks/zec) hufuatilia seva za umma na hali yake, na ndiyo mahali pa kuangalia ni seva zipi zinazofanya kazi kwa sasa. [status.zec.rocks](https://status.zec.rocks/) huonyesha hali ya huduma. Kwa mtandao wa fastz.cash, angalia [status.fastz.cash](https://status.fastz.cash).
 
 Seva zilizoorodheshwa kwenye dashibodi hiyo wakati wa kuandika:
 
 | Seva | Maelezo |
 |:--|:--|
-| zec.rocks:443 | Vituo vya kikanda vimeorodheshwa kando yake katika na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
-| zec-node.cakewallet.com:443 | Kwenye kikoa cha Wallet ya Cake |
-| zec.0xrpc.io:443 | Inaendeshwa na 0xRPC, ambayo hutoa vituo vya umma bila malipo kwa minyororo kadhaa na kuomba michango kufidia uwezo |
-| zaino.unsafe.zec.rocks:443 | Toleo la Zaino. Zingatia jina la mwenyeji, lichukulie kama la majaribio |
-| testnet.zec.rocks:443 | Testnet, yenye toleo la testnet la Zaino lililoorodheshwa katika zaino.testnet.unsafe.zec.rocks |
+| zec.rocks:443 | Vituo vya kikanda vimeorodheshwa pamoja nayo katika na.zec.rocks, eu.zec.rocks, ap.zec.rocks na sa.zec.rocks |
+| zec-node.cakewallet.com:443 | Kwenye kikoa cha pochi ya Cake |
+| zec.0xrpc.io:443 | Inaendeshwa na 0xRPC, inayotoa vituo vya umma bila malipo kwa minyororo kadhaa na kuomba michango ili kulipia uwezo |
+| zaino.unsafe.zec.rocks:443 | Instance ya Zaino. Zingatia jina la seva pangishi na ichukulie kuwa ya majaribio |
+| testnet.zec.rocks:443 | Testnet, yenye instance ya testnet ya Zaino iliyoorodheshwa kwenye zaino.testnet.unsafe.zec.rocks |
+| rpc.fastz.cash | Mtandao wa umma wa ztreamer wa Zcash Labs. Angalia status.fastz.cash kwa vituo vya kikanda na hali ya huduma. |
 
-Angalia dashibodi badala ya kuamini orodha hii. Waendeshaji huja na kuondoka, na ukurasa kama huu hupitwa na wakati.
+Angalia dashibodi badala ya kutegemea orodha hii. Waendeshaji huja na kuondoka, na ukurasa kama huu hupitwa na wakati.
 
 ### Kubadilisha seva katika pochi yako
 
@@ -143,7 +156,7 @@ Picha hizo za skrini zilichukuliwa Machi 2025, na programu zimetoa matoleo tangu
 
 **Kudhani Tor huondoa kila athari**. Tor huficha IP yako kutoka kwa seva, lakini haibadilishi kile ambacho seva hujifunza kutoka kwa maombi unayofanya, na huongeza muda wa kusubiri katika ulandanishi.
 
-**Kuamini orodha ya seva kwenye ukurasa wa wiki**. Waendeshaji huja na kuondoka. Angalia [hosh.zec.rocks](https://hosh.zec.rocks/zec) ili kujua kinachoendesha kwa kweli kabla ya kuelekeza pochi yako kwenye chochote.
+**Kuamini orodha ya seva iliyo kwenye ukurasa wa wiki**. Waendeshaji huja na kuondoka. Angalia [hosh.zec.rocks](https://hosh.zec.rocks/zec) na [status.fastz.cash](https://status.fastz.cash) ili kujua zinazofanya kazi kwa sasa kabla ya kuelekeza pochi yako kwenye seva yoyote.
 
 ## Muhtasari
 
@@ -151,11 +164,12 @@ Pochi nyepesi hukupa bwawa la faragha [shielded pool] bila nafasi ya diski, amba
 
 ## Kurasa Zinazohusiana
 
-- [Nani Anaweza Kuona Zcash Malipo](/start-here/who-can-see-your-zcash-payment) Yako — mwongozo wa wanaoanza kuhusu swali hilohilo.
-- [Kichunguzi cha Block Kinaweza Kuona Nini](/zcash-tech/what-a-block-explorer-can-see) — kinachoonekana kwenye blockchain, tofauti na kinachoonekana kwenye seva.
-- [Zaino](/zcash-tech/zaino) — michoro ya usanifu na jukumu pana la Rust kiashiria.
-- [Zinder](/zcash-tech/zinder) — kiashiria cha majaribio cha Zcash Foundation, kinachohudumia pochi nyepesi kupitia adapta inayooana na lightwalletd.
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — kithibitishaji ambacho seva ya pochi nyepesi husoma data kutoka kwake.
-- [Zcash Usawazishaji wa Pochi](/zcash-tech/zcash-wallet-syncing) — jinsi block fupi zinazotumwa na seva zinavyochakatwa na pochi yako.
+- [Nani Anaweza Kuona Malipo Yako ya Zcash ](/start-here/who-can-see-your-zcash-payment) — maelezo ya kiwango cha wanaoanza kuhusu swali hilohilo.
+- [Mambo Ambayo Kivinjari cha Blocks Kinaweza Kuona](/zcash-tech/what-a-block-explorer-can-see) — yanayoonekana on-chain, tofauti na yale yanayoonekana kwenye seva.
+- [Zaino](/zcash-tech/zaino) — michoro ya usanifu na jukumu pana la kiweka faharasa cha Rust.
+- [Zinder](/zcash-tech/zinder) — kiweka faharasa cha alpha cha Zcash Foundation, kinachotoa huduma kwa pochi nyepesi kupitia adapta inayooana na lightwalletd.
+- [Zebra Full Node](/zcash-tech/zebra-full-node) — validator ambayo seva ya pochi nyepesi husoma data kutoka kwake.
+- [Zcash Usawazishaji wa Pochi](/zcash-tech/zcash-wallet-syncing) — jinsi pochi yako inavyochakata blocks fupi zinazotumwa na seva.
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — kiweka faharasa cha Rust chenye utendaji wa juu kinachotumiwa na mtandao wa fastz.cash.
 
-**Ilisasishwa mwisho:** Agosti 2026
+**Ilisasishwa mwisho:** Novemba 2026

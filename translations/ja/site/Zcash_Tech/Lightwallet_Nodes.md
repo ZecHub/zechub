@@ -8,17 +8,17 @@
 ## 要約
 
 * ほとんどの人はライトウォレットを通じてZcashを利用します。ライトウォレットはブロックチェーン全体をダウンロードせず、すでにその作業を済ませたサーバーと通信します。
-* 現在、ライトウォレットに対応するソフトウェアは2つあります。元祖のGo製サービスである**lightwalletd**と、Rustで書かれた新しいインデクサーである**Zaino**です。
+* 現在、ライトウォレットによく使われるソフトウェアは3つあります。**lightwalletd**（元祖のGo製サービス）、**Zaino**（Rust製インデクサー）、そして公開高速ネットワークfastz.cashを支える、Zcash Labs製の高性能なRustインデクサーztreamerです。
 * 鍵がデバイスの外に出ることはありません。サーバーは資金を使ったり、完全にシールドされたトランザクション内の金額やメモを読み取ったりできません。
 * サーバーが把握しやすいのは、IPアドレスとアクティビティのタイミングです。シールドされたトランザクションが保護するのはブロックチェーン上の情報であり、サーバーへの接続ではありません。
 * Torを使うとIPアドレスによる識別を防げます。`zcash_client_backend`を基盤とするウォレットで利用でき、ZODLでは「詳細設定」の項目から設定できます。
-* ウォレットが使うサーバーは変更できます。また、自分でサーバーを運用することもできます。lightwalletdとZainoはどちらもオープンソースです。
+* ウォレットが使うサーバーは変更できます。また、自分でサーバーを運用することもできます。lightwalletd、Zaino、ztreamerはすべてオープンソースです。
 
 ## 基本的な説明
 
 ほとんどの人はライトウォレットを通じてZcashを利用します。ライトウォレットはブロックチェーン全体をダウンロードせず、すでにその作業を済ませたサーバーと通信します。このページでは、サーバーの仕組み、あなたについて把握できることとできないこと、Tor経由で接続する方法、ウォレットが使うサーバーを変更する方法を説明します。
 
-現在、ライトウォレットに対応するソフトウェアは2つあります。**lightwalletd**はGoで書かれた元祖のサービスです。**Zaino**はRustで書かれた新しいインデクサーで、zcashdの廃止作業の一環として開発されました。
+現在、ライトウォレットに対応するソフトウェアは一般的に3つあります。**lightwalletd**はGoで書かれた元祖のサービスです。**Zaino**はRustで書かれた新しいインデクサーで、zcashdの廃止作業の一環として開発されました。**ztreamer**は、Zcash Labsによる高性能なRustインデクサーで、公開ネットワークfastz.cashを稼働させています。
 
 ### ライトウォレットサーバーの役割
 
@@ -85,27 +85,40 @@ Zainoのdeveloperも同じ見解を示しており、脅威モデルを直接引
 
 Zainoにはアーキテクチャ図を掲載した専用ページがあるため、このページではライトウォレットサーバーとしての役割だけを扱います。
 
+### ztreamerとfastz.cash
+
+[ztreamer](https://github.com/zcashlabs/ztreamer)は、RustでZcash Labsが開発した、高性能なZcashインデクサー兼ライトウォレットサーバーです。低レイテンシーと高スループットを実現するよう設計されており、公開[fastz.cash](https://forum.zcashcommunity.com/t/announcing-fastz-cash-rpc-by-zcash-labs/59478)インデクサーネットワークを支えています（2026年11月19日発表）。
+
+fastz.cashは地域ごとのエッジサーバーを運用しています（現在はフランクフルト、ロンドン、バージニア、オレゴン、サンパウロ、シンガポール、大阪です）。各地域には独自のフルノードとローカルのztreamerインデックスがあります。TLSはノードで終端します。GetLatestBlock呼び出しの初回応答までの世界全体の実測中央値は約35 msでした。ブロック範囲の同期は、最近のlightwalletdより最大約3倍高速と報告されており、インデックスの容量も小さい（約18 GB）ため、エッジロケーションを追加しやすくなっています。
+
+ステータスと最寄りのエンドポイント: [status.fastz.cash](https://status.fastz.cash).
+
+**プライバシーに関する注意：** fastz.cashはValar Groupのwallet-pirサービスも運用しています。Vizorのユーザーは現在、プライベートな同期クエリに利用できます。これにより、要求されているノートや範囲についてサーバーが学習するメタデータを減らせます。これは、上記で説明した通常のライトウォレットの脅威モデルに加わるプライバシー保護の層です。Torや運用者の選択に代わるものではありません。
+
+ztreamerはオープンソースで、単独で実行できます（組み込みのZakuraノード、またはリモートモード）。lightwalletdやZainoと同様に、gRPC経由でライトウォレットプロトコルを提供します。現在も活発に開発されており、本番環境向けのインフラであると同時に、将来のライトウォレットプロトコルの改善に向けた実験の場として位置づけられています。
+
 ### 自分で運用する
 
-最も確実なのは自分で運用者になることです。そうすれば信頼の問題を完全に取り除けます。どちらのサーバーもオープンソースです。Go製の[lightwalletd](https://github.com/zcash/lightwalletd)と、Rust製の[Zaino](https://github.com/zingolabs/zaino)があります。どちらもフルバリデーターからデータを読み取るため、[Zebra](/zcash-tech/zebra-full-node)も必要です。zec.rocksサーバーは、オープンソースのHelmチャートとDocker Composeキットである[Zcash Stack](/guides/zcash-stack)を使ってデプロイできます。このキットではZebraとlightwalletdを一緒に実行します。
+最も確実な選択肢は、自分で運営者になることです。これにより、信頼するかどうかという問題そのものがなくなります。3つのサーバーはすべてオープンソースです。Goで書かれた[lightwalletd](https://github.com/zcash/lightwalletd)、Rustで書かれた[Zaino](https://github.com/zingolabs/zaino)、そしてRustで書かれた[ztreamer](https://github.com/zcashlabs/ztreamer)です。これらはフルバリデーターから読み取るため、[Zebra](/zcash-tech/zebra-full-node)またはZakuraも必要になります。zec.rocksサーバーは、オープンソースのHelmチャートとDocker Composeキットである[Zcash Stack](/guides/zcash-stack)を使ってデプロイされ、Zebraとlightwalletdを一緒に実行します。
 
 ## 実用面での情報
 
 ### サーバー一覧
 
-[hosh.zec.rocks](https://hosh.zec.rocks/zec)ダッシュボードでは、公開サーバーとその稼働状況を確認できます。実際に稼働しているサーバーを調べるには、ここを参照してください。[status.zec.rocks](https://status.zec.rocks/)ではサービスの稼働状況を確認できます。
+[hosh.zec.rocks](https://hosh.zec.rocks/zec)ダッシュボードでは、公開サーバーとその稼働状況を確認でき、実際に稼働しているサーバーを調べる場所です。[status.zec.rocks](https://status.zec.rocks/)ではサービスの状態を確認できます。fastz.cashネットワークについては、[status.fastz.cash](https://status.fastz.cash)をご覧ください。
 
 執筆時点でこのダッシュボードに掲載されていたサーバーは次のとおりです。
 
 | サーバー | 備考 |
 |:--|:--|
-| zec.rocks:443 | na.zec.rocks、eu.zec.rocks、ap.zec.rocks、sa.zec.rocksの地域別エンドポイントも併記されています |
+| zec.rocks:443 | 地域別エンドポイントは、na.zec.rocks、eu.zec.rocks、ap.zec.rocks、sa.zec.rocksにも記載されています |
 | zec-node.cakewallet.com:443 | Cake Walletのドメイン上にあります |
-| zec.0xrpc.io:443 | 0xRPCが運営しています。複数のチェーン向けに無料の公開エンドポイントを提供し、容量の維持に寄付を募っています |
+| zec.0xrpc.io:443 | 複数のチェーン向けに無料の公開エンドポイントを提供し、容量確保のための寄付を募る0xRPCが運営しています |
 | zaino.unsafe.zec.rocks:443 | Zainoのインスタンスです。ホスト名に注意し、実験的なものとして扱ってください |
-| testnet.zec.rocks:443 | テストネットです。Zainoのテストネット用インスタンスがzaino.testnet.unsafe.zec.rocksに掲載されています |
+| testnet.zec.rocks:443 | テストネットです。Zainoのテストネットインスタンスがzaino.testnet.unsafe.zec.rocksに記載されています |
+| rpc.fastz.cash | Zcash Labsによる公開ztreamerネットワークです。地域別エンドポイントと稼働状況はstatus.fastz.cashで確認できます。 |
 
-この一覧を鵜呑みにせず、ダッシュボードを確認してください。運営者は入れ替わるため、このようなページの情報は古くなります。
+ダッシュボードを確認し、この一覧を鵜呑みにしないでください。運営者は入れ替わりますし、このようなページは古くなります。
 
 ### ウォレットのサーバーを変更する
 
@@ -143,7 +156,7 @@ Zainoにはアーキテクチャ図を掲載した専用ページがあるため
 
 **Torですべての痕跡が消えると思い込むこと**。TorはサーバーからIPアドレスを隠しますが、送信するリクエストからサーバーが把握する情報は変わらず、同期にも遅延が加わります。
 
-**Wikiのサーバー一覧を信頼すること**。運営者は入れ替わります。ウォレットの接続先を設定する前に、[hosh.zec.rocks](https://hosh.zec.rocks/zec)で実際に稼働しているサーバーを確認してください。
+**Wikiページ上のサーバーリストを信頼すること**。運営者は入れ替わります。ウォレットを何かに接続する前に、実際に稼働しているものを[hosh.zec.rocks](https://hosh.zec.rocks/zec)と[status.fastz.cash](https://status.fastz.cash)で確認してください。
 
 ## まとめ
 
@@ -151,11 +164,12 @@ Zainoにはアーキテクチャ図を掲載した専用ページがあるため
 
 ## 関連ページ
 
-- [あなたのZcash支払いを見られるのは誰ですか](/start-here/who-can-see-your-zcash-payment) — 同じ問いを初心者向けに説明しています。
-- [ブロックエクスプローラーから見える情報](/zcash-tech/what-a-block-explorer-can-see) — サーバー上の情報と対比し、オンチェーンで見える情報を説明しています。
-- [Zaino](/zcash-tech/zaino) — アーキテクチャ図と、Rustインデクサーのより広い役割を説明しています。
-- [Zinder](/zcash-tech/zinder) — ライトウォレットに対応するZcash Foundationのアルファ版インデクサーについて説明しています。lightwalletd互換のアダプターを通じてサービスを提供します。
-- [Zebraフルノード](/zcash-tech/zebra-full-node) — ライトウォレットサーバーがデータを読み取るバリデーターについて説明しています。
-- [Zcashウォレットの同期](/zcash-tech/zcash-wallet-syncing) — サーバーから送られるコンパクトブロックをウォレットが処理する方法を説明しています。
+- [Zcashの支払い](/start-here/who-can-see-your-zcash-payment)を見られるのは誰ですか — 同じ疑問を初心者向けに解説します。
+- [ブロックエクスプローラーに見えるもの](/zcash-tech/what-a-block-explorer-can-see) — サーバー上で見えるものと対比し、オンチェーンで見える情報を解説します。
+- [Zaino](/zcash-tech/zaino) — アーキテクチャ図と、Rustインデクサーのより広い役割を解説します。
+- [Zinder](/zcash-tech/zinder) — Zcash Foundationのアルファ版インデクサーで、lightwalletd互換アダプターを通じてライトウォレットにサービスを提供します。
+- [Zebraフルノード](/zcash-tech/zebra-full-node) — ライトウォレットサーバーが読み取り元とする検証ノードです。
+- [Zcashウォレットの同期](/zcash-tech/zcash-wallet-syncing) — サーバーから送られるコンパクトブロックをウォレットがどのように処理するかを解説します。
+- [ztreamer](https://github.com/zcashlabs/ztreamer) — fastz.cashネットワークで使用される高性能Rustインデクサーです。
 
-**最終更新：** 2026年8月
+**最終更新日:** 2026年11月
