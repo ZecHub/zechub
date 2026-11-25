@@ -166,7 +166,7 @@ Parser Zcash Unified Address berbasis browser untuk memeriksa Unified Addresses.
 Peta global bisnis dan lokasi yang menerima Zcash.  
 [Kunjungi](https://zecmap.com/)
 
-### ZECping
+### zecping
 Alat untuk memeriksa waktu respons gRPC node Zcash lightwalletd.  
 [Kunjungi](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Pekerjaan skema tanda tangan ambang (FROST) yang sedang dikembangkan untuk adops
 ### Benchmark MonteZcret
 Proyek pengujian kinerja open-source yang mengevaluasi berbagai metode penyelarasan data blockchain Zcash.  
 [Kunjungi](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Pola bagi developer Zcash untuk membangun aplikasi dari note, memo, dan key terlindungi dengan demo langsung.  
+[Kunjungi](https://appliedzcash.com/)
 
 ---
 

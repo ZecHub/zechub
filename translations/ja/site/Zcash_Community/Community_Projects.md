@@ -166,7 +166,7 @@ Unified Addressを調べるための、ブラウザベースのZcash Unified Add
 Zcashを受け入れる企業および場所のグローバルマップです。  
 [訪問](https://zecmap.com/)
 
-### ZECping
+### zecping
 ZcashのlightwalletdノードのgRPC応答時間を確認するツールです。  
 [訪問](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Zcashエコシステムでのより広範な採用に向けて進められてい
 ### MonteZcret Benchmark
 Zcashブロックチェーンデータを同期するさまざまな手法を評価する、オープンソースのパフォーマンステストプロジェクトです。  
 [訪問](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+シールドされたノート、メモ、キーを使ってアプリを構築するZcash開発者向けのパターンを、ライブデモとともに紹介します。  
+[訪問](https://appliedzcash.com/)
 
 ---
 

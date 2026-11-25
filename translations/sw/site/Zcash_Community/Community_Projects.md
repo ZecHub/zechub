@@ -166,7 +166,7 @@ Kichanganuzi cha Unified Address cha Zcash kinachotumia kivinjari kwa ajili ya k
 Ramani ya kimataifa ya biashara na maeneo yanayokubali Zcash.  
 [Tembelea](https://zecmap.com/)
 
-### ZECping
+### zecping
 Kifaa cha kuangalia muda wa majibu ya gRPC wa node za Zcash lightwalletd.  
 [Tembelea](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Kazi ya mpango wa sahihi za kizingiti (FROST) inayosukumwa mbele kwa ajili ya ma
 ### MonteZcret Benchmark
 Mradi huria wa upimaji wa utendaji unaotathmini mbinu tofauti za kusawazisha data ya blockchain ya Zcash.  
 [Tembelea](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Miundo ya kuwasaidia wasanidi programu wa Zcash kujenga programu kwa kutumia madokezo, jumbe na funguo za faragha, pamoja na maonyesho ya moja kwa moja.  
+[Tembelea](https://appliedzcash.com/)
 
 ---
 

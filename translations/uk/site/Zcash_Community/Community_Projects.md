@@ -166,7 +166,7 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 Глобальна мапа компаній і місць, які приймають Zcash.  
 [Відвідати](https://zecmap.com/)
 
-### ZECping
+### zecping
 Інструмент для перевірки часу відповіді gRPC вузлів Zcash lightwalletd.  
 [Відвідати](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ ZcashToCash (zcashto.cash) — ZEC до Cash App, Chime, Monzo, Revolut, Venmo �
 ### MonteZcret Benchmark
 Проєкт тестування продуктивності з відкритим кодом, який оцінює різні методи синхронізації даних блокчейну Zcash.  
 [Відвідати](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Шаблони для розробників Zcash для створення застосунків на основі захищених нотаток, меморандумів і ключів із демонстраціями в реальному часі.  
+[Відвідати](https://appliedzcash.com/)
 
 ---
 

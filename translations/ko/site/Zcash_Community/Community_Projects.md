@@ -166,7 +166,7 @@ Nighthawk Apps에서 제공하는 종합 Zcash 블록 탐색기입니다.
 Zcash을 받는 사업체와 위치를 표시하는 세계 지도입니다.  
 [방문](https://zecmap.com/)
 
-### ZECping
+### zecping
 Zcash lightwalletd 노드의 gRPC 응답 시간을 확인하는 도구입니다.  
 [방문](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Zcash 생태계에서 더 널리 채택될 수 있도록 발전시키고 있는 
 ### MonteZcret 벤치마크
 Zcash 블록체인 데이터 동기화 방법을 평가하는 오픈 소스 성능 테스트 프로젝트입니다.  
 [방문](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Zcash 개발자가 거래정보 보호 노트, 메모, 키를 활용해 앱을 만들 수 있도록 라이브 데모와 함께 패턴을 소개합니다.  
+[방문](https://appliedzcash.com/)
 
 ---
 

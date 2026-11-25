@@ -166,7 +166,7 @@ Browser-me ƒe Zcash Unified Address parser na Unified Addresses ƒe nudzrokpɔ.
 Xexeme blibo ƒe anyigbaŋuti ƒe nɔnɔ ƒe mɔɖoɖo na asitsɔƒeawo kple teƒewo siwo xɔa Zcash.  
 [Yi nàkpɔ](https://zecmap.com/)
 
-### ZECping
+### zecping
 Dɔwɔnu si wòato akpɔ gRPC ƒe ɖoɖoɣeyiɣi na Zcash lightwalletd ɣaɣla dzesi ŋɔŋlɔwo.  
 [Yi nàkpɔ](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Threshold signature scheme (FROST) ƒe dɔ si wowɔna be woazãe kekeake le Zcas
 ### MonteZcret Benchmark
 Open-source ƒe performance-testing ƒe dɔwɔwɔ si le Zcash blockchain ƒe data ƒe synchronization ƒe mɔ vovovowo dometɔwo kpɔm.  
 [Yi nàkpɔ](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+Mɔnu siwo na Zcash mɔ̃ ƒe ɖoɖoŋlɔla be woatu dɔwɔƒe tso ɣaɣla didienuwo, nya kpuiwo, kple safuiwo me, kple demo siwo le edziedzi.  
+[Yi](https://appliedzcash.com/)
 
 ---
 

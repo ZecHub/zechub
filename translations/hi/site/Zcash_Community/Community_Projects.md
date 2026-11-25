@@ -166,7 +166,7 @@ Nighthawk Apps का व्यापक Zcash ब्लॉक एक्सप�
 उन व्यवसायों और स्थानों का वैश्विक मानचित्र, जो Zcash स्वीकार करते हैं।  
 [देखें](https://zecmap.com/)
 
-### ZECping
+### zecping
 Zcash lightwalletd नोड के gRPC रिस्पॉन्स टाइम की जाँच करने का उपकरण।  
 [देखें](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ Zebra के पार्सिंग, नेटवर्किंग और क
 ### MonteZcret Benchmark
 ओपन-सोर्स प्रदर्शन-परीक्षण प्रोजेक्ट, जो Zcash ब्लॉकचेन डेटा को सिंक्रनाइज़ करने के अलग-अलग तरीकों का मूल्यांकन करता है।  
 [देखें](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+शील्डेड नोट, मेमो और की से ऐप बनाने के लिए Zcash डेवलपर के पैटर्न, लाइव डेमो के साथ।  
+[जाएँ](https://appliedzcash.com/)
 
 ---
 

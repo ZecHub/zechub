@@ -166,7 +166,7 @@ ZcashToCash (zcashto.cash) — من ZEC إلى Cash App أو Chime أو Monzo أ
 خريطة عالمية للشركات والمواقع التي تقبل Zcash.  
 [زيارة](https://zecmap.com/)
 
-### ZECping
+### zecping
 أداة للتحقق من أوقات استجابة gRPC لعقد Zcash lightwalletd.  
 [زيارة](https://github.com/zecrocks/zecping)
 
@@ -263,6 +263,10 @@ ZcashToCash (zcashto.cash) — من ZEC إلى Cash App أو Chime أو Monzo أ
 ### معيار MonteZcret
 مشروع مفتوح المصدر لاختبار الأداء، يقيّم طرائق مختلفة لمزامنة بيانات سلسلة كتل Zcash.  
 [زيارة](https://github.com/openkoder/benchmarks_zcash/)
+
+### AppliedZcash
+أنماط لمطوري Zcash لبناء تطبيقات من note ومذكرات ومفاتيح محمية، مع عروض توضيحية مباشرة.  
+[زيارة](https://appliedzcash.com/)
 
 ---
 
