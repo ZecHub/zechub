@@ -1,5 +1,7 @@
 # ZecHub glossary review: Turkish (`tr`)
 
+> Import provenance (2026-11-23): terminology and labels reviewed by @karagozemin in [PR #2830](https://github.com/ZecHub/zechub/pull/2830). Second native review by @BatuhanZcash, Zcash Turkey ambassador, approved the complete delivery without terminology corrections; approval was relayed by Gianni. Context-specific Turkish variants are retained. Steward-only factual/identifier clarifications are marked below. See [import record](../reviews/tr-2026-11-23.md).
+
 Glossary version 2. Kit: ui.
 
 **Nasıl doldurulur**
@@ -80,7 +82,7 @@ No conflicts.
 | 54 | navigation.guidesSubmenu.nymVpn | Nym VPN | Nym VPN | OK |  |
 | 55 | navigation.guidesSubmenu.usingZecInDefi | Using ZEC in DeFi | DeFi'de ZEC Kullanımı | OK |  |
 | 56 | navigation.guidesSubmenu.usingZecPrivately | Using ZEC Privately | ZEC'i Özel Olarak Kullanma | ZEC kullanırken gizliliği koruma | Bu bir komut değil, rehber başlığı. “ZEC kullanırken gizliliği koruma” sayfanın konusunu doğal Türkçeyle anlatıyor. |
-| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü | OK |  |
+| 57 | navigation.guidesSubmenu.raspberryPiZcashdNode | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü | Raspberry Pi zcashd Düğümü | Steward: displayed software identifier normalized to protected zcashd; not a new native wording choice. |
 | 58 | navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry pi5 Zebra Lightwalletd Zingo | Raspberry Pi 5'te Zebra, lightwalletd ve Zingo | For the Guides header submenu key “navigation.guidesSubmenu.raspberryPi5ZebraLightwalletdZingo”, the wording preserves the device/software names and states the deployment relationship expressed by “Raspberry pi5 Zebra Lightwalletd Zingo”. |
 | 59 | navigation.guidesSubmenu.raspberryPiZebraNode | Raspberry Pi Zebra Node | Raspberry Pi Zebra Düğümü | OK |  |
 | 60 | navigation.guidesSubmenu.akashNetwork | Akash Network | Akash Network | OK |  |
@@ -222,7 +224,7 @@ No conflicts.
 | 172 | menuLabels.Use Zcash | Use Zcash | Zcash kullanın | Zcash kullanın | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
 | 173 | menuLabels.Block Explorers | Block Explorers | Blok Gezginleri | Blok Gezginleri | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
 | 174 | menuLabels.Ecosystem | Ecosystem | Ekosistem | Ekosistem | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
-| 175 | menuLabels.Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü | Raspberry Pi Zcashd Düğümü | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
+| 175 | menuLabels.Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Node | Raspberry Pi Zcashd Düğümü | Raspberry Pi zcashd Düğümü | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). Steward: displayed software identifier normalized to protected zcashd; not a new native wording choice. |
 | 176 | menuLabels.Raspberry Pi Zebra Node | Raspberry Pi Zebra Node | Raspberry Pi Zebra Düğümü | Raspberry Pi Zebra Düğümü | OK | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). |
 | 177 | menuLabels.Zero Knowledge vs Decoy Systems | Zero Knowledge vs Decoy Systems | Sıfır Bilgi ve Yem Sistemleri | Sıfır Bilgi ve Yem Sistemleri | Sıfır bilgi kanıtları ile yanıltıcı girdilere dayalı sistemlerin karşılaştırılması | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: “Yem sistemleri” ifadesi teknik anlamı tek başına vermiyor. Burada gerçek girdiyi gizlemek için yanıltıcı girdiler kullanan sistemlerle sıfır bilgi kanıtları karşılaştırılıyor. |
 | 178 | menuLabels.Organizations | Organizations | Organizasyonlar | Organizasyonlar | Kuruluşlar | Context (not reviewer answer): Current website/dictionary rendering (not native-approved). <br><br>Reviewer note: This section lists ecosystem bodies and institutions; “Kuruluşlar” is the natural Turkish category label, whereas “organizasyonlar” can also mean events or arrangements. |
