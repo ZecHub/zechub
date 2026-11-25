@@ -1,15 +1,15 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Zcon_Archive.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-Aşağıda, Zcon ile ilgili medyanın kolay bulunabilir bir yerde toplanmış bir derlemesi yer almaktadır.
+Aşağıda Zcon ile ilgili medyaların kolayca bulunabilecek bir konumdaki derlemesi yer alıyor.
 
 # Zcon
 Zcon, [Zcash Foundation](https://zfnd.org/) tarafından düzenlenen yıllık bir konferanstır.
 
-## Zcon0: Privacy from A to Zcon
+## Zcon0: A'dan Zcon'a Gizlilik
 
-Zcon0 ilk yıllık konferansımızdı ve inanılmaz derecede iyi geçti. 26-28 Haziran 2018 tarihlerini güzel Montreal'de geçirdik.
+İlk yıllık konferansımız olan Zcon0 son derece başarılı geçti. 26-28 Haziran 2018 tarihlerini güzel Montreal'de geçirdik.
 
 [Zcon0 Oynatma Listesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLK507afWUMgzUYeh-i4qQWS)
 
@@ -25,9 +25,9 @@ Zcon0 ilk yıllık konferansımızdı ve inanılmaz derecede iyi geçti. 26-28 H
 </div>
 
 
-## Zcon1: Zero to Privacy Hero
+## Zcon1: Sıfırdan Gizlilik Kahramanına
 
-Zcash Foundation tarafından düzenlenen ikinci yıllık gizlilik ve teknoloji konferansı, 22-24 Haziran 2019 tarihlerinde Hırvatistan'ın Split kentinde gerçekleştirildi.
+Zcash Foundation ev sahipliğindeki ikinci yıllık gizlilik ve teknoloji konferansı, 22-24 Haziran 2019 tarihlerinde Hırvatistan'ın Split kentinde düzenlendi.
 
 [Zcon1 Oynatma Listesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLjPZaKjdhMoCNanb77_Ztj)
 
@@ -43,9 +43,9 @@ Zcash Foundation tarafından düzenlenen ikinci yıllık gizlilik ve teknoloji k
 </div>
 
 
-## Zcon2: Privacy All the Way Down
+## Zcon2: En Derine Kadar Gizlilik
 
-Zcon2, 8 Haziran 2021 Salı ve 9 Haziran 2021 Çarşamba tarihlerinde gerçekleşti. Zcon2 sanal bir konferanstı.
+Zcon2, 8 Haziran Salı ve 9 Haziran Çarşamba 2021 tarihlerinde gerçekleşti. Zcon2 sanal bir konferanstı.
 
 [Zcon2 Oynatma Listesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLLa68H9ibpiSZqeevqKizg4)
 
@@ -61,9 +61,9 @@ Zcon2, 8 Haziran 2021 Salı ve 9 Haziran 2021 Çarşamba tarihlerinde gerçekle�
 </div>
 
 
-## Zcon3: Code Alone Doesn't Cut It
+## Zcon3: Tek Başına Kod Yetmez
 
-Zcon3, 7-9 Ağustos 2022 tarihleri arasında Las Vegas'ta gerçekleşti.
+Zcon3, 7-9 Ağustos 2022 tarihlerinde Las Vegas'ta düzenlendi.
 
 [Zcon3 Oynatma Listesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLJm-Cl7ez3UXp8R4IuUNDfb)
 
@@ -79,9 +79,9 @@ Zcon3, 7-9 Ağustos 2022 tarihleri arasında Las Vegas'ta gerçekleşti.
 </div>
 
 
-## Zcon4: The Future Has Not Been Written
+## Zcon4: Gelecek Henüz Yazılmadı
 
-Yüz yüze konferans, 30-31 Temmuz 2023 tarihlerinde İspanya'nın Barselona kentinde düzenlenecek ve mekândan canlı olarak yayınlanacaktır. 
+Yüz yüze konferans 30-31 Temmuz 2023 tarihlerinde İspanya'nın Barcelona kentinde düzenlenecek ve mekândan canlı yayınlanacak.
 
 [Zcon4 Oynatma Listesi](https://www.youtube.com/playlist?list=PL40dyJ0UYTLII7oQRQmNOFf0d2iKT35tL)
 
@@ -97,7 +97,7 @@ Yüz yüze konferans, 30-31 Temmuz 2023 tarihlerinde İspanya'nın Barselona ken
   />
 </div>
 
-## ZconV: Zcash Unified
+## ZconV: Zcash Birleşti
 
 ZconV, 6-10 Mayıs 2024 tarihlerinde gerçekleşti. ZconV sanal bir konferanstı.
 
@@ -114,7 +114,7 @@ ZconV, 6-10 Mayıs 2024 tarihlerinde gerçekleşti. ZconV sanal bir konferanstı
   />
 </div>
 
-## ZconVI: Synergy Through Decentralization
+## ZconVI: Merkeziyetsizlikle Sinerji
 
 ZconVI, 4-7 Mart 2025 tarihlerinde gerçekleşti. ZconVI sanal bir konferanstı.
 

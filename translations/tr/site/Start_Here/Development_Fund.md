@@ -6,60 +6,60 @@
 
 ## Özet
 
-- Zcash kendi geliştirmesini blok ödüllerinden finanse eder; böylece geliştiricileri dış yatırımcılara bağımlı kalmaz
-- Bugün her blok ödülünün %8'i Zcash Community Grants'ye, %12'si ise coin sahiplerinin kontrol ettiği bir fona gider. Geri kalanı madencilerde kalır
-- Finansman her yarılanmada değişti: başlangıçta kurucu ödülü, 2020'den itibaren Geliştirme Fonu, 2024'ten itibaren bir kilit kutusu (lockbox) ve Kasım 2025'ten beri coin sahiplerinin kontrolü
-- Coin sahipleri %12'lik fonun nasıl kullanılacağına oy verir. Zcash Community Grants kendi hibelerine kendisi karar verir
-- Finansman mı istiyorsunuz? Yeni çalışmalar için Zcash Community Grants'ye, daha önce yapmış olduğunuz çalışmalar için ise coin sahiplerinin geriye dönük hibelerine başvurun
+- Zcash kendi geliştirme çalışmalarını blok ödüllerinden finanse eder; bu nedenle geliştiricileri dış yatırımcılara bağımlı değildir
+- Bugün her blok ödülünün %8'i Zcash Community Grants'e, %12'si ise coin sahiplerinin kontrolündeki bir fona gider. Madenciler geri kalanını alır
+- Finansman her yarılanmada değişti: lansmanda kurucular ödülü, 2020'den itibaren Geliştirme Fonu, 2024'ten itibaren kilitli fon ve Kasım 2025'ten bu yana coin sahiplerinin kontrolü
+- Coin sahipleri %12'lik fonun nasıl kullanılacağına oy verir. Zcash Community Grants hibelerini kendi belirler
+- Finansman mı arıyorsunuz? Yeni çalışmalar için Zcash Community Grants'e, tamamladığınız çalışmalar içinse coin sahiplerinin geriye dönük hibelerine başvurun
 
 ## Kimler için
 
-- Zcash'ın masraflarını kimin karşıladığını öğrenmek isteyen yeni Zcash kullanıcıları
-- Finansman arayan geliştiriciler, yazarlar ve çevirmenler
-- Neye oy verdiklerini anlamak isteyen coin sahipleri
+- Zcash kullanıcıları ve Zcash için kimin ödeme yaptığını öğrenmek isteyenler
+- Fon arayan geliştiriciler, yazarlar ve çevirmenler
+- Ne hakkında oy kullandıklarını anlamak isteyen coin sahipleri
 
-## Bu neden önemli
+## Bunun önemi
 
-Zcash'ın sahibi olan bir şirket yoktur. Yine de cüzdanların, düğüm yazılımlarının, araştırmanın ve eğitimin masraflarını birinin karşılaması gerekir. Zcash, yatırımcılardan para toplamak yerine her yeni blok ödülünün bir kısmını geliştirmeye ayırır. Bu da Zcash'ı inşa eden kişilerin odağını kullanıcılarında ve gizlilik misyonunda tutar.
+Zcash'in sahibi olan bir şirket yoktur. Yine de cüzdanların, düğüm yazılımlarının, araştırmaların ve eğitimin masraflarını birilerinin karşılaması gerekir. Yatırımcılardan para toplamak yerine Zcash her yeni blok ödülünün bir kısmını geliştirme çalışmaları için ayırır. Böylece Zcash'i geliştirenler, kullanıcılarına ve gizlilik misyonuna odaklanabilir.
 
-## Nasıl değişti
+## Nasıl değişti?
 
 | Dönem | Ne oldu | Her blok ödülünün dağılımı |
 |---|---|---|
-| 2016 - 2020 | **Kurucu ödülü.** İlk yarılanmaya kadar Zcash'ın kurucularına, ilk yatırımcılarına, çalışanlarına ve Zcash Foundation'a ödendi | %20 kurucu ödülüne |
-| Kasım 2020 - Kasım 2024 | [Canopy](/zcash-tech/canopy) ile oluşturulan **Geliştirme Fonu** ([ZIP 1014](https://zips.z.cash/zip-1014)) | %7 Electric Coin Company, %5 Zcash Foundation, %8 Büyük Hibeler (sonradan Zcash Community Grants) |
-| Kasım 2024 - Kasım 2025 | [NU6](/zcash-tech/nu6) ile oluşturulan **Kilit kutusu** ([ZIP 1015](https://zips.z.cash/zip-1015)) | %8 Zcash Community Grants, %12 Ertelenmiş Geliştirme Fonu Kilit Kutusuna; topluluk nasıl kullanılacağına karar verene kadar bekletildi |
-| Kasım 2025 - bugün | [NU6.1](/zcash-tech/nu6-1) ile kurulan **Coin sahibi kontrolü** ([ZIP 1016](https://zips.z.cash/zip-1016)) | %8 Zcash Community Grants, %12 kilit kutusuyla başlatılan Coin Sahiplerince Kontrol Edilen Fona |
+| 2016–2020 | **Kurucular ödülü.** İlk yarılanmaya kadar Zcash kurucularına, ilk yatırımcılarına ve çalışanlarına ve Zcash Foundation'e ödeme yapıldı | %20 kurucular ödülüne |
+| Kasım 2020–Kasım 2024 | **Geliştirme Fonu**, [Canopy](/zcash-tech/canopy) ([ZIP 1014](https://zips.z.cash/zip-1014)) ile oluşturuldu | %7 Electric Coin Company'e, %5 Zcash Foundation'e, %8 Büyük Hibeler'e (daha sonra Zcash Community Grants) |
+| Kasım 2024–Kasım 2025 | **Kilitli fon**, [NU6](/zcash-tech/nu6) ([ZIP 1015](https://zips.z.cash/zip-1015)) ile oluşturuldu | %8 Zcash Community Grants'e, %12'si ise topluluk nasıl kullanacağına karar verene kadar ertelenmiş geliştirme fonu kilitli kasasına ayrıldı |
+| Kasım 2025–bugün | **Coin sahiplerinin kontrolü**, [NU6.1](/zcash-tech/nu6-1) ([ZIP 1016](https://zips.z.cash/zip-1016)) ile başlatıldı | %8 Zcash Community Grants'e, %12'si ise kilitli kasadaki fonla oluşturulan coin sahiplerinin kontrolündeki fona |
 
-Her dönemde kalan %80 madencilerde kaldı.
+Her dönemde madenciler kalan %80'i aldı.
 
-## Bugün nasıl işliyor
+## Bugün nasıl işliyor?
 
-NU6.1 24 Kasım 2025'te yürürlüğe girdiğinden beri her blok ödülünden iki finansman akışı çıkar:
+NU6.1 24 Kasım 2025'te devreye girdiğinden beri, her blok ödülünden iki finansman akışı sağlanıyor:
 
-- **%8 [Zcash Community Grants](/zcash-organizations/zcash-community-grants)'ye** (ZCG). Bağımsız bir komite, Zcash ekosistemi için yeni çalışmaları finanse eder: cüzdanlar, araçlar, araştırma, eğitim ve etkinlikler.
-- **%12 Coin Sahiplerince Kontrol Edilen Fona.** Bu fon, kilit kutusunda biriktirilen coinlerle başladı. Coin sahipleri, fondan hibe ödenip ödenmeyeceğine ya da fonun bekletilip bekletilmeyeceğine oy verir. Fonları Anahtar Sahibi Kuruluşlar tutar ve bunları yalnızca coin sahiplerinin kararı doğrultusunda kullanmakla yasal olarak yükümlüdür ([ZIP 1016](https://zips.z.cash/zip-1016)).
+- **%8 [Zcash Community Grants](/zcash-organizations/zcash-community-grants)'e** (ZCG). Bağımsız bir komite, Zcash ekosistemi için cüzdanlar, araçlar, araştırma, eğitim ve etkinlikler gibi yeni çalışmaları finanse eder.
+- **%12 coin sahiplerinin kontrolündeki fona.** Fon, kilitli kasada biriktirilen coinlerle başladı. Coin sahipleri, fondan hibe verilmesine ya da fonun olduğu gibi bırakılmasına oy verir. Anahtar Sahibi Kuruluşlar fonları tutar ve bunları yalnızca coin sahiplerinin karar verdiği şekilde kullanmakla yasal olarak yükümlüdür ([ZIP 1016](https://zips.z.cash/zip-1016)).
 
-Bu model Zcash'ın üçüncü yarılanmasına kadar sürer. NU7 blok zamanlamasını değiştirdiği için ZIP 1016 bu tarihin kaymasına izin verir. Ardından topluluk modeli sürdürmeye, değiştirmeye ya da sona erdirmeye karar verir.
+Bu model, Zcash'in üçüncü yarılanmasına kadar devam eder. ZIP 1016, NU7 blok zamanlamasını değiştirdiği için bu tarihin ileri veya geri alınmasına olanak tanır. Ardından topluluk modelin sürdürülmesine, değiştirilmesine veya sona erdirilmesine karar verir.
 
-## Kim karar veriyor
+## Kararı kim verir?
 
-- **Zcash Community Grants** başvuruları inceler ve her hibe için oy verir.
-- **Coin sahipleri**, %12'lik fona yönelik tekliflere ZEC'leriyle oy verir. Oy vermek için coinlerini kilitlemezler.
-- **Finansmanın kendisinde yapılacak değişiklikler**, [Zcash Topluluk Forumu](https://forum.zcashcommunity.com)'nda yapılan topluluk tartışmasının ardından yeni bir ZIP ve bir ağ yükseltmesi gerektirir.
+- **Zcash Community Grants** başvuruları inceler ve her hibe için oy kullanır.
+- **Coin sahipleri**, %12'lik fona ilişkin tekliflerde ZEC ile oy verir. Oy kullanmak için coinlerini kilitlemezler.
+- **Finansmanın kendisinde yapılacak değişiklikler** için yeni bir ZIP ve ağ yükseltmesi gerekir; öncesinde [Zcash Topluluk Forumu](https://forum.zcashcommunity.com)'nda toplulukla görüşülür.
 
-Genel tablo için [Zcash Yönetişimi](/zcash-community/zcash-governance) ve [Zcash nasıl organize edilir](/start-here/how-zcash-is-organized) sayfalarına bakın.
+Genel bakış için [Zcash Yönetişim](/zcash-community/zcash-governance) ve [Zcash nasıl düzenleniyor](/start-here/how-zcash-is-organized) sayfalarına bakın.
 
-## Nasıl finansman alınır
+## Nasıl finansman alınır?
 
-- **Yapmak istediğiniz yeni çalışmalar:** [Zcash Community Grants](/zcash-organizations/zcash-community-grants)'ye başvurun.
-- **Zaten tamamladığınız çalışmalar:** her çeyrekte düzenlenen [Coin Sahiplerince Yönlendirilen Geriye Dönük Hibeler](/zcash-organizations/coinholder-directed-retroactive-grants)'e başvurun.
-- **Bu wikiye küçük katkılar:** ZecHub katkıda bulunanlara ZEC ile bahşiş verir. Bkz. [ZecHub'un inşasına yardım edin](/contribute/help-build-zechub).
+- **Yapmak istediğiniz yeni çalışmalar:** [Zcash Community Grants](/zcash-organizations/zcash-community-grants)'e başvurun.
+- **Tamamladığınız çalışmalar:** Her çeyrekte açılan [Coin Sahiplerinin Yönlendirdiği Geriye Dönük Hibeler](/zcash-organizations/coinholder-directed-retroactive-grants) programına başvurun.
+- **Bu vikideki küçük katkılar:** ZecHub, ZEC katkıda bulunanlara bahşiş verir. [ZecHub oluşturulmasına katkıda bulunun](/contribute/help-build-zechub) sayfasına bakın.
 
 ## Daha fazla bilgi
 
-- [Canopy](/zcash-tech/canopy): Geliştirme Fonu nasıl başladı
-- [NU6](/zcash-tech/nu6): Ertelenmiş Geliştirme Fonu Kilit Kutusu
-- [NU6.1](/zcash-tech/nu6-1): mevcut model ve coin sahibi kontrolü
+- [Canopy](/zcash-tech/canopy): Geliştirme Fonu'nun nasıl başladığı
+- [NU6](/zcash-tech/nu6): Ertelenmiş Geliştirme Fonu Kilitli Kasası
+- [NU6.1](/zcash-tech/nu6-1): mevcut model ve coin sahiplerinin kontrolü
 - [Zcash Para Politikası](/start-here/zcash-monetary-policy): blok ödülleri ve yarılanmalar
 - [ZIP 1016](https://zips.z.cash/zip-1016): mevcut finansman modelinin kuralları

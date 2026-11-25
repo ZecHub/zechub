@@ -1,4 +1,4 @@
-# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Zcash ile Bağışları Gizli Olarak Alın
+# <img src="/content-images/money-business-and-finance-svgrepo-com-eac0e054bd.svg" width="24" height="24" alt="finance icon"/> Zcash ile Bağışları Gizlilik İçinde Alın
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
@@ -6,20 +6,20 @@
 </span>
 
 
-## TL;DR
+## Kısaca
 
-- **Shielded (z) adres** kullanın
-- Şeffaf (t) bir adresi asla herkese açık şekilde paylaşmayın
-- Bağışçıları shielded cüzdanlardan göndermeye teşvik edin
+- **Korumalı (z) adres** kullanın
+- Şeffaf (t) adresinizi asla herkese açık şekilde paylaşmayın
+- Bağışçıları korumalı cüzdanlardan gönderim yapmaya teşvik edin
 - Kimliğinizi işlemlerle ilişkilendirmekten kaçının
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimin için?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimler için?
 - Bağış kabul eden içerik üreticileri
 - Açık kaynak katkıcıları
 - Fon toplayan topluluklar
-- Gizli mali destek almak isteyen herkes
+- Özel finansal destek isteyen herkes
 
 <br/>
 
@@ -30,27 +30,27 @@
 - Size kimin para gönderdiği
 - Tüm işlem geçmişiniz
 
-Bu ciddi riskler yaratır:
-- Mali gizliliğin kaybı
+Bu durum ciddi riskler doğurur:
+- Finansal gizliliğin kaybı
 - Hedef alınma veya gözetim
-- Bağışçıların kamuya açık hâle gelmesi
+- Bağışçıların herkese açık şekilde ortaya çıkması
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Neden Zcash?
 
-Zcash shielded işlemleri şunları gizler:
+Zcash korumalı işlemler şunları gizler:
 - Gönderen adresi
 - Alıcı adresi
 - İşlem tutarı
 
-Bu, **mali ilişkinizi açığa çıkarmadan** para almanızı sağlar.
+Bu sayede **finansal ağınızı açığa çıkarmadan** para alabilirsiniz.
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> İhtiyacınız Olanlar
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Gerekenler
 
-- Korumalı adresleri destekleyen bir Zcash cüzdanı:
+- Korumalı adresleri destekleyen bir Zcash cüzdan:
   - Zodl
   - Zingo!
   - Desteklenen diğer cüzdanlar
@@ -59,30 +59,30 @@ Bu, **mali ilişkinizi açığa çıkarmadan** para almanızı sağlar.
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım Adım Kılavuz
 
-### Adım 1: Shielded Adres Oluşturun
-Cüzdanınızı açın ve bir **z-address** oluşturun.
-Bu genellikle şu şekilde başlar: `zs...`
+### 1. Adım: Korumalı Bir Adres Oluşturun
+Cüzdanınızı açın ve bir **z-adres** oluşturun.
+Bu adres genellikle şu şekilde başlar: `zs...`
 
 
-### Adım 2: Yalnızca Shielded Adresinizi Paylaşın
+### 2. Adım: Yalnızca Korumalı Adresinizi Paylaşın
 
-- z-address'inizi şu yerlerde yayınlayın:
+- z-adresinizi şuralarda paylaşın:
   - Web sitesi
   - Sosyal medya
   - Bağış sayfaları
 
-**Şeffaf (t) bir adres paylaşMAYIN.**
+**Şeffaf (t) adresinizi paylaşmayın.**
 
-### Adım 3: Bağışçılara Rehberlik Edin (İsteğe Bağlı ama Önerilir)
+### 3. Adım: Bağışçılara Yol Gösterin (İsteğe Bağlı, Ancak Önerilir)
 
-Bağışçıları şunlara teşvik edin:
-- Shielded işlemleri destekleyen cüzdanlar kullanmaya
-- Shielded havuzlardan gönderim yapmaya (şeffaf değil)
+Bağışçıları şunları yapmaya teşvik edin:
+- Korumalı işlemleri destekleyen cüzdanları kullanmak
+- Korumalı havuzlardan (şeffaf havuzlardan değil) göndermek
 
-### Adım 4: Temel Gizlilik Hijyenini Koruyun
+### 4. Adım: Temel Gizlilik Alışkanlıklarını Sürdürün
 
-- Aynı adresi birbiriyle ilgisiz kimliklerde yeniden kullanmaktan kaçının
-- Gerekmedikçe adresinizi kişisel kimliğinizle herkese açık şekilde ilişkilendirmeyin
+- Aynı adresi birbiriyle ilgisiz kimliklerde tekrar kullanmaktan kaçının
+- Gerekli olmadıkça adresinizi kişisel kimliğinizle herkese açık biçimde ilişkilendirmeyin
 
 <br/>
 
@@ -90,23 +90,23 @@ Bağışçıları şunlara teşvik edin:
 
 - Şeffaf (t) bir adres paylaşmak  
 - Cüzdanınızı kişisel kimliğinizle birlikte paylaşmak  
-- Shielded etmeden şeffaf kaynaklardan para kabul etmek  
-- Aynı adresi birden fazla bağlamda yeniden kullanmak  
+- Şeffaf kaynaklardan gelen fonları korumaya almadan kabul etmek  
+- Aynı adresi birden fazla bağlamda tekrar kullanmak
 
 <br/>
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Sonuç
 
 Şunları yapabilirsiniz:
-- Bağışları gizli şekilde alabilirsiniz
-- Sizi destekleyen kişileri koruyabilirsiniz
-- Mali faaliyetlerinizi açığa çıkarmaktan kaçınabilirsiniz
+- Bağışları gizlilik içinde almak
+- Destekçilerinizi korumak
+- Finansal faaliyetlerinizi açığa çıkarmaktan kaçınmak
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> İlgili
 
-- [Bir Block Explorer'ın Görebilecekleri](/zcash-tech/what-a-block-explorer-can-see)
+- [Bir Blok Gezgini Neleri Görebilir](/zcash-tech/what-a-block-explorer-can-see)
 - [Cüzdanlar](/wallets)
 
 <br/>
@@ -115,7 +115,7 @@ Bağışçıları şunlara teşvik edin:
 
 **6 adımın 1. adımı**
 
-Parayı gizli şekilde nasıl alacağınızı öğrendiniz.
+Fonları gizlilik içinde nasıl alacağınızı öğrendiniz.
 
 <br/>
 
@@ -123,6 +123,6 @@ Parayı gizli şekilde nasıl alacağınızı öğrendiniz.
 
 Yolculuğunuza devam edin:
 
-- [Kimliği Bağlantılandırmadan Para Gönderin](/zcash-use-cases/send-money-without-linking-identity)
+- [Kimliğinizi İlişkilendirmeden Para Gönderin](/zcash-use-cases/send-money-without-linking-identity)
   
 <br/>

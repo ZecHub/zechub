@@ -4,52 +4,52 @@
 # FROST
 
 
-## Kısaca
+## Özet
 
-* FROST (Flexible Round-Optimised Schnorr Threshold Signatures), bir eşik imza ve dağıtık anahtar üretim protokolüdür: birden fazla imzacı ortak bir özel anahtarın bir payını elinde tutar ve tek bir imza üretmek için bunların eşik sayıda olanının birlikte çalışması gerekir.
-* Sonuç tek bir Schnorr imzası olduğu için, bu şekilde yapılan bir işlem ağ üzerinde sıradan bir işlem gibi görünür.
-* Minimum sayıda iletişim turu gerektirir, paralel çalışabilir ve kötü davranan bir katılımcıyı tespit edip dışlayabilir.
-* Zcash için bu, FROST'un coğrafi olarak farklı yerlerde bulunan birden fazla tarafın shielded ZEC harcama yetkisini kontrol etmesini sağladığı anlamına gelir — saklama, emanet, saklama dışı hizmetler ve Zcash Shielded Assets (ZSA) için kullanışlıdır.
-* Chelsea Komlo (University of Waterloo, Zcash Foundation) ve Ian Goldberg (University of Waterloo) tarafından oluşturulmuştur.
+* FROST (Esnek Turlu Optimize Edilmiş Schnorr Eşik İmzaları), bir eşik imzası ve dağıtık anahtar oluşturma protokolüdür: Birden fazla imzalayan, ortak bir özel anahtarın birer payını tutar ve tek bir imza oluşturmak için belirli sayıda imzalayanın iş birliği yapması gerekir.
+* Sonuç tek bir Schnorr imza olduğundan, bu yöntemle yapılan bir işlem ağda sıradan bir işlem gibi görünür.
+* Asgari sayıda iletişim turu gerektirir, paralel çalışabilir ve uygunsuz davranan bir katılımcıyı tespit edip hariç tutabilir.
+* Zcash için bu, FROST protokolünün coğrafi olarak birbirinden uzakta bulunan birden fazla tarafın korumalı ZEC harcama yetkisini kontrol etmesini sağladığı anlamına gelir. Bu; saklama, emanet, gözetimsiz hizmetler ve Zcash Shielded Assets (ZSA) için kullanışlıdır.
+* Chelsea Komlo (Waterloo Üniversitesi, Zcash Foundation) ve Ian Goldberg (Waterloo Üniversitesi) tarafından oluşturulmuştur.
 
 ## Temel Açıklama
 
 ### Schnorr imzası nedir?
 
-Bir Schnorr dijital imzası bir algoritma kümesidir: (KeyGen, Sign, Verify).
+Schnorr dijital imza bir algoritmalar kümesidir: (KeyGen, Sign, Verify).
 
-Schnorr imzalarının çeşitli avantajları vardır. Önemli avantajlardan biri, aynı mesajı imzalamak için birden fazla anahtar kullanıldığında ortaya çıkan imzaların tek bir imzada birleştirilebilmesidir. Bu, multisig ödemelerin ve multisig ile ilgili diğer işlemlerin boyutunu önemli ölçüde azaltabilir.
+Schnorr imzalarının birçok avantajı vardır. Önemli avantajlarından biri, aynı mesajı imzalamak için birden fazla anahtar kullanıldığında ortaya çıkan imzaların tek bir imzada birleştirilebilmesidir. Bu, çoklu imza ödemelerinin ve çoklu imzayla ilgili diğer işlemlerin boyutunu önemli ölçüde azaltabilir.
 
 ### FROST nedir?
 
-**Flexible Round-Optimised Schnorr Threshold Signatures** -
-*Chelsea Komlo (University of Waterloo, Zcash Foundation) ve Ian Goldberg (University of Waterloo) tarafından oluşturulmuştur.*
+**Esnek Turlu Optimize Edilmiş Schnorr Eşik İmzaları** -
+*Chelsea Komlo (Waterloo Üniversitesi, Zcash Foundation) ve Ian Goldberg (Waterloo Üniversitesi) tarafından oluşturulmuştur.*
 
-FROST, minimum iletişim turu gerektiren ve paralel olarak çalıştırılabilen bir eşik imza ve dağıtık anahtar üretim protokolüdür. FROST protokolü, Schnorr imza şemasının eşik sürümüdür.
+FROST, asgari sayıda iletişim turu gerektiren ve paralel olarak çalıştırılabilen bir eşik imzası ve dağıtık anahtar oluşturma protokolüdür. FROST protokolü, Schnorr imza şemasının eşik sürümüdür.
 
-Tek taraflı ortamlardaki imzaların aksine, eşik imzalar ortak bir özel anahtarın bir payını elinde tutan eşik sayıda imzacının iş birliğini gerektirir.
+Tek taraflı ortamdaki imzalardan farklı olarak eşik imzaları, her biri ortak bir özel anahtarın bir payını tutan belirli sayıda imzalayanın iş birliğini gerektirir.
 
-[Eşik İmzalar Nedir? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
+[Eşik İmzaları Nedir? Chelsea Komlo - Zcon3](https://youtu.be/cAfTTfblzoU?t=110)
 
-Sonuç olarak, eşik ortamında imza üretmek, imzacılar arasındaki ağ turları nedeniyle ek yük doğurur; bu da gizli payların ağ açısından sınırlı cihazlarda saklandığı veya koordinasyonun güvenilmez ağlar üzerinden gerçekleştiği durumlarda maliyetli hâle gelir.
+Bu nedenle, eşik ortamında imza oluşturmak, imzalayanlar arasındaki ağ turları nedeniyle ek yük getirir. Bu da gizli anahtar paylarının ağ kısıtlaması olan cihazlarda saklanması veya koordinasyonun güvenilir olmayan ağlar üzerinden yapılması durumunda maliyetli hale gelir.
 
 İmzalama işlemleri sırasındaki ağ yükü, sahtecilik saldırılarına karşı koruma sağlayan ve diğer şemalara da uygulanabilen yeni bir teknik kullanılarak azaltılır.
 
-FROST, sınırsız sayıda imzalama işleminin güvenli bir şekilde paralel olarak (eşzamanlılık) yürütülmesine izin vererek eşik imza protokollerini geliştirir.
+FROST, sınırsız sayıda imza işleminin güvenli biçimde paralel olarak (eşzamanlı) gerçekleştirilmesine olanak tanıyarak eşik imzası protokollerini geliştirir.
 
-İmzacıların toplamda 2 mesaj gönderip aldığı 2 turlu bir protokol olarak ya da bir ön işleme aşamasına sahip optimize edilmiş tek turlu bir imzalama protokolü olarak kullanılabilir.
+Protokol, imzalayanların toplamda 2 mesaj gönderip aldığı 2 turlu bir protokol olarak veya ön işleme aşamasına sahip optimize edilmiş tek turlu bir imzalama protokolü olarak kullanılabilir.
 
-FROST, verimlilik iyileştirmelerini kısmen, kötü davranan bir katılımcının varlığında protokolün durdurulmasına izin vererek elde eder; bu katılımcı daha sonra tespit edilir ve gelecekteki işlemlerden dışlanır.
+FROST, uygunsuz davranan bir katılımcının varlığında protokolün sonlandırılmasına izin vererek verimlilik iyileştirmelerini kısmen sağlar; bu katılımcı daha sonra tespit edilir ve sonraki işlemlerden hariç tutulur.
 
-FROST'un, ayrık logaritma probleminin zor olduğu ve saldırganın eşikten daha az katılımcıyı kontrol ettiği varsayımı altında seçilmiş mesaj saldırılarına karşı güvenli olduğunu gösteren güvenlik ispatları [burada](https://eprint.iacr.org/2020/852.pdf#page=16) sunulmuştur.
+Ayrık logaritma probleminin zor olduğu ve saldırganın eşik sayısından daha az katılımcıyı kontrol ettiği varsayımı altında, FROST protokolünün seçilmiş mesaj saldırılarına karşı güvenli olduğunu gösteren güvenlik kanıtları [burada](https://eprint.iacr.org/2020/852.pdf#page=16) sunulmuştur.
 
 ### FROST nasıl çalışır?
 
-FROST protokolü iki önemli bileşen içerir:
+FROST protokolü iki önemli bileşenden oluşur:
 
-İlk olarak, n katılımcı ortak bir doğrulama anahtarı üretmek için bir dağıtık anahtar üretim (DKG) protokolü çalıştırır. Sonunda her katılımcı bir özel gizli anahtar payı ve bir açık doğrulama anahtarı payı elde eder.
+İlk olarak, n katılımcı ortak bir doğrulama anahtarı oluşturmak için dağıtık anahtar oluşturma (DKG) protokolünü çalıştırır. Sonunda her katılımcı özel bir gizli anahtar payı ve herkese açık bir doğrulama anahtarı payı elde eder.
 
-Daha sonra, n içinden herhangi bir t katılımcı birlikte geçerli bir Schnorr imzası üretmek için bir eşik imzalama protokolü çalıştırabilir.
+Ardından, n katılımcıdan herhangi t tanesi bir eşik imzalama protokolü çalıştırarak geçerli bir Schnorr imzasını birlikte oluşturabilir.
 
 <a href="">
     <img src="/content-images/1634081807-frost-flexible-round-optimize-3697a713d9.webp" alt="" width="400" height="300"/>
@@ -57,99 +57,99 @@ Daha sonra, n içinden herhangi bir t katılımcı birlikte geçerli bir Schnorr
 
 ## Görsel / Benzetme
 
-FROST'u, yalnızca birkaç yetkili anahtar sahibinin anahtarlarını birlikte çevirdiğinde açılan bir kasa gibi düşünün — ancak her anahtar sahibinin bulunması gerekmez; yalnızca belirli bir sayısı yeterlidir (örneğin 5 kişiden herhangi 3'ü). Kasa açıldığında, dışarıdan bakan biri hangi anahtar sahiplerinin geldiğini, hatta birden fazlasının dahil olup olmadığını bile anlayamaz. Aynı şekilde, bir grup bir Zcash işlemini birlikte yetkilendirebilirken ağ yalnızca sıradan görünen tek bir imza görür.
+FROST protokolünü, yalnızca birkaç yetkili anahtar sahibinin anahtarlarını birlikte çevirmesiyle açılan bir emanet kasası gibi düşünün; ancak tüm anahtar sahiplerinin katılması gerekmez, yalnızca belirli sayıda kişinin (örneğin, 5 kişiden herhangi 3'ünün) katılması yeterlidir. Kasa açıldığında dışarıdan bir gözlemci hangi anahtar sahiplerinin geldiğini, hatta birden fazla kişinin katıldığını bile anlayamaz. Aynı şekilde bir grup, Zcash işlemini ortaklaşa yetkilendirebilirken ağ yalnızca sıradan görünen tek bir imza görür.
 
 ## Derinlemesine İnceleme
 
-**Dağıtık anahtar üretimi (DKG)**
+**Dağıtık anahtar oluşturma (DKG)**
 
-Bu aşamanın amacı, uzun ömürlü gizli anahtar payları ve ortak bir doğrulama anahtarı üretmektir. Bu aşama n katılımcı tarafından yürütülür.
+Bu aşamanın amacı, uzun ömürlü gizli anahtar payları ve ortak bir doğrulama anahtarı oluşturmaktır. Bu aşama n katılımcı tarafından yürütülür.
 
-FROST, kendi anahtar üretim aşamasını, alt yordamlar olarak hem Shamir'ın gizli paylaşımını hem de Feldman'ın doğrulanabilir gizli paylaşım şemalarını kullanan Pedersen'ın DKG'si (GJKR03) üzerine kurar. Buna ek olarak, her katılımcı kendi sırrını bildiğini diğer katılımcılara sıfır bilgi ispatı göndererek göstermek zorundadır; bu ispatın kendisi de bir Schnorr imzasıdır. Bu ek adım, t ≥ n/2 olduğunda rogue-key saldırılarına karşı koruma sağlar.
+FROST, kendi anahtar oluşturma aşamasını Pedersen'in DKG'si (GJKR03) üzerine kurar. Bu protokol, alt yordamlar olarak hem Shamir'in gizli paylaşımını hem de Feldman'ın doğrulanabilir gizli paylaşım şemalarını kullanır. Ayrıca her katılımcı, diğer katılımcılara bir sıfır bilgi kanıtı göndererek kendi gizli bilgisini bildiğini göstermelidir; bu kanıtın kendisi de bir Schnorr imzasıdır. Bu ek adım, t ≥ n/2 olduğunda sahte anahtar saldırılarına karşı koruma sağlar.
 
-DKG protokolünün sonunda ortak bir doğrulama anahtarı vk üretilir. Her katılımcı Pᵢ, uzun ömürlü gizli payı olan bir (i, skᵢ ) değeri ve bir doğrulama anahtarı payı vkᵢ = skᵢ *G tutar. Katılımcı Pᵢ'nin doğrulama anahtarı payı vkᵢ, imzalama aşamasında Pᵢ'nin imza paylarının doğruluğunu diğer katılımcıların doğrulaması için kullanılırken, doğrulama anahtarı vk ise grup tarafından verilen imzaları dış tarafların doğrulaması için kullanılır.
+DKG protokolünün sonunda ortak bir doğrulama anahtarı vk oluşturulur. Her katılımcı Pᵢ, uzun ömürlü gizli payı olan (i, skᵢ ) değerini ve vkᵢ = skᵢ *G doğrulama anahtarı payını tutar. Katılımcı Pᵢ'nin doğrulama anahtarı payı vkᵢ, imzalama aşamasında Pᵢ'nin imza paylarının doğruluğunu doğrulamak için diğer katılımcılar tarafından kullanılırken, doğrulama anahtarı vk grup tarafından verilen imzaları doğrulamak için harici taraflarca kullanılır.
 
 **Eşik İmzalama**
 
-Bu aşama, her imza için nonce'u etkileşimsiz şekilde üretmek amacıyla toplamsal gizli paylaşım ve pay dönüşümünü kullanan bilinen teknikler üzerine inşa edilir. Ayrıca eşzamanlılığı sınırlamadan bilinen sahtecilik saldırılarından kaçınmak için bağlayıcı tekniklerden de yararlanır.
+Bu aşama, her imza için nonce değerini etkileşimsiz şekilde oluşturmak amacıyla toplamsal gizli paylaşım ve pay dönüşümü kullanan bilinen tekniklerden yararlanır. Ayrıca eşzamanlılığı kısıtlamadan bilinen sahtecilik saldırılarını önlemek için bağlayıcı tekniklerden de yararlanır.
 
-Ön işleme aşamasında, her katılımcı daha sonra kullanmak üzere sabit sayıda Eliptik Eğri (EC) noktası çifti hazırlar. Bu aşama, birden fazla eşik imzalama aşaması boyunca bir kez çalıştırılır.
+Ön işleme aşamasında her katılımcı, daha sonra kullanılmak üzere sabit sayıda eliptik eğri (EC) noktası çifti hazırlar. Bu aşama, birden fazla eşik imzalama aşamasında bir kez yürütülür.
 
 <a href="">
     <img src="/content-images/preprocess-5cbb14f892.webp" alt="" width="400" height="300"/>
 </a>
 
-İmzalama Turu 1: Her katılımcı Pᵢ, tek bir özel nonce çifti (dᵢ, eᵢ) ve buna karşılık gelen EC noktaları çifti (Dᵢ, Eᵢ) üreterek başlar, ardından bu nokta çiftini diğer tüm katılımcılara yayınlar. Her katılımcı bu EC noktası çiftlerini daha sonra kullanmak üzere saklar. İmzalama turları 2 ve 3, n içinden t katılımcının birlikte geçerli bir Schnorr imzası oluşturduğu asıl işlemlerdir.
+İmzalama Turu 1: Her katılımcı Pᵢ, tek bir özel nonce çifti (dᵢ, eᵢ) ve buna karşılık gelen bir EC noktası çifti (Dᵢ, Eᵢ) oluşturarak işe başlar, ardından bu nokta çiftini diğer tüm katılımcılara yayınlar. Her katılımcı bu EC noktası çiftlerini daha sonra kullanmak üzere saklar. İmzalama turları 2 ve 3, n katılımcıdan t tanesinin geçerli bir Schnorr imzası oluşturmak için iş birliği yaptığı gerçek işlemlerdir.
 
-İmzalama Turu 2: Katılımcılar birlikte geçerli bir Schnorr imzası oluşturmak için çalışır. Bu turun arkasındaki temel teknik, t-içinden-t toplamsal gizli paylaşımdır.
+İmzalama Turu 2: Katılımcılar geçerli bir Schnorr imzası oluşturmak için birlikte çalışır. Bu turun temel tekniği, t-out-of-t toplamsal gizli paylaşımdır.
 
-Bu adım sahtecilik saldırılarını engeller çünkü saldırganlar farklı imzalama işlemlerindeki imza paylarını birleştiremez veya her imzacı için imzacı kümesini ya da yayınlanan noktaları permüte edemez.
+Bu adım sahtecilik saldırılarını önler; çünkü saldırganlar farklı imzalama işlemlerindeki imza paylarını birleştiremez veya her imzalayanın imzalayan kümesini ya da yayımlanan noktalarını yeniden sıralayamaz.
 
 <a href="">
     <img src="/content-images/sign-402794d36a.webp" alt="" width="400" height="300"/>
 </a>
 
-Meydan okuma c hesaplandıktan sonra, her katılımcı tek kullanımlık nonce'ları ve grubun uzun ömürlü anahtarının t-içinden-n (derece t-1) Shamir gizli payları olan uzun vadeli gizli payları kullanarak yanıt zᵢ'yi hesaplayabilir. İmzalama turu 2'nin sonunda her katılımcı zᵢ'yi diğer katılımcılara yayınlar.
+Katılımcılar meydan okuma c değerini hesapladıktan sonra, her katılımcı tek kullanımlık nonce değerlerini ve grubun uzun ömürlü anahtarının t-out-of-n (t-1 dereceli) Shamir gizli payları olan uzun vadeli gizli payları kullanarak zᵢ yanıtını hesaplayabilir. İmzalama turu 2'nin sonunda her katılımcı zᵢ değerini diğer katılımcılara yayınlar.
 
-[Tam makaleyi okuyun](https://eprint.iacr.org/2020/852.pdf)
+[Makalenin tamamını okuyun](https://eprint.iacr.org/2020/852.pdf)
 
-### Daha geniş ekosistemde FROST kullanımı
+### FROST protokolünün daha geniş ekosistemdeki kullanımı
 
-**[Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost) içinde FROST**
+**FROST, [Coinbase](https://github.com/coinbase/kryptology/tree/master/pkg/dkg/frost) içinde**
 
-Coinbase'in eşik imzalama sistemlerinin verimliliğini artırmak için, FROST'un bir sürümünü geliştirdiler. Bu Coinbase uygulaması, özgün FROST taslağından küçük değişiklikler içerir.
+Coinbase'ün eşik imzalama sistemlerinin verimliliğini artırmak için FROST sürümünü geliştirdiler. Bu Coinbase uygulaması, özgün FROST taslağında küçük değişiklikler yapar.
 
-İmza toplayıcı rolünü kullanmamayı tercih ettiler. Bunun yerine her katılımcı bir imza toplayıcısıdır. Bu tasarım daha güvenlidir: protokoldeki tüm katılımcılar diğerlerinin hesaplamalarını doğrular, böylece daha yüksek bir güvenlik seviyesi elde edilir ve risk azaltılır. Tek seferlik ön işleme aşaması da uygulamayı hızlandırmak için kaldırılmış, bunun yerine üçüncü bir imzalama turu kullanılmıştır.
-
----
-
-**Blockstream tarafından geliştirilen [ROAST](https://eprint.iacr.org/2022/550.pdf)**
-
-Bitcoin için [Blockstream Liquid Sidechain](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) üzerinde kullanılmak üzere FROST üzerinde uygulamaya özel bir iyileştirme önerilmiştir.
-
-“ROAST, FROST gibi eşik imza şemaları etrafındaki basit bir sarmalayıcıdır. Ağ bağlantıları keyfi derecede yüksek gecikmeye sahip olduğunda bile, örneğin Liquid functionaries gibi dürüst imzacıların oluşturduğu bir yeter sayının, bozucu imzacıların varlığında her zaman geçerli bir imza elde edebilmesini garanti eder.”
+İmza birleştirici rolünü kullanmamayı tercih ettiler. Bunun yerine her katılımcı bir imza birleştiricisi olur. Bu tasarım daha güvenlidir: Protokoldeki tüm katılımcılar diğerlerinin hesaplamalarını doğrulayarak daha yüksek bir güvenlik düzeyi sağlar ve riski azaltır. Uygulamayı hızlandırmak için tek seferlik ön işleme aşaması da kaldırıldı ve bunun yerine üçüncü bir imzalama turu kullanıldı.
 
 ---
 
-**IETF içinde FROST**
+**[Blockstream'in ROAST protokolü](https://eprint.iacr.org/2022/550.pdf)**
 
-1986 yılında kurulan Internet Engineering Task Force, internet için önde gelen standart geliştirme kuruluşudur. IETF, internet kullanıcıları, ağ operatörleri ve ekipman üreticileri tarafından sıklıkla benimsenen gönüllü standartlar geliştirir ve internetin gidişatını şekillendirmeye yardımcı olur.
+FROST protokolünde, Bitcoin için [Blockstream Liquid Sidechain](https://blog.blockstream.com/roast-robust-asynchronous-schnorr-threshold-signatures/) üzerinde kullanılmak üzere uygulamaya özgü bir iyileştirme önerilmiştir.
 
-FROST sürüm 11 (iki turlu varyant), [IRTF'ye sunulmuştur](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). Bu, FROST'un önümüzdeki yıllarda internet genelinde, donanım cihazlarında ve diğer hizmetlerde kullanılmak üzere yeni bir eşik imza şeması standardı olarak tam değerlendirilmesine doğru atılmış önemli bir adımdır.
+“ROAST, FROST gibi eşik imzası şemalarının etrafında çalışan basit bir sarmalayıcıdır. Ağ bağlantılarındaki gecikme keyfi ölçüde yüksek olsa bile, aksatıcı imzalayanların varlığında dürüst imzalayanlardan oluşan bir yeter sayının (ör. Liquid görevlilerinin) her zaman geçerli bir imza elde edebilmesini garanti eder.”
+
+---
+
+**FROST IETF'de**
+
+1986'da kurulan Internet Engineering Task Force, internet için önde gelen standart geliştirme kuruluşudur. IETF, internet kullanıcıları, ağ operatörleri ve ekipman satıcıları tarafından sıklıkla benimsenen gönüllü standartlar geliştirerek internetin geleceğinin şekillenmesine yardımcı olur.
+
+FROST sürüm 11 (iki turlu varyant) [IRTF'ye sunulmuştur](https://datatracker.ietf.org/doc/draft-irtf-cfrg-frost/11/). Bu, FROST protokolünün önümüzdeki yıllarda internette, donanım cihazlarında ve diğer hizmetlerde kullanılacak yeni bir eşik imzası standardı olarak kapsamlı biçimde değerlendirilmesine yönelik önemli bir adımdır.
 
 
-## Pratik Sonuçlar
+## Pratik Etkileri
 
-Kesinlikle evet. FROST'un Zcash'e eklenmesi, coğrafi olarak ayrılmış birden fazla tarafın shielded ZEC harcama yetkisini kontrol etmesine olanak tanıyacaktır. Bu imza şeması kullanılarak yayınlanan işlemler, ağdaki diğer işlemlerden ayırt edilemez olacak; böylece ödeme takibine karşı güçlü direnç korunacak ve analiz için उपलब्ध blockchain verisi miktarı sınırlanacaktır.
+Kesinlikle. FROST protokolünün Zcash eklenmesi, coğrafi olarak birbirinden uzakta bulunan birden fazla tarafın korumalı ZEC harcama yetkisini kontrol etmesini sağlayacaktır. Bu imza şeması kullanılarak yayınlanan işlemler ağdaki diğer işlemlerden ayırt edilemez; böylece ödeme takibine karşı güçlü direnç korunur ve analiz için kullanılabilir blokzincir verisi miktarı sınırlanır.
 
-Pratikte bu, emanet sağlayıcılarından diğer saklama dışı hizmetlere kadar uzanan çok çeşitli yeni uygulamaların ağ üzerinde inşa edilmesini mümkün kılar.
+Uygulamada bu, emanet hizmeti sağlayıcılarından diğer gözetimsiz hizmetlere kadar ağ üzerinde çok çeşitli yeni uygulamaların oluşturulmasını mümkün kılar.
 
-FROST ayrıca, Zcash Shielded Assets (ZSA)'nin güvenli ihraç ve yönetiminde temel bir bileşen hâline gelecek; borsalar gibi geliştirme organizasyonları ve ZEC saklayıcıları içinde harcama yetkisinin daha güvenli yönetilmesini sağlarken, bu yeteneği Zcash kullanıcılarına da sunacaktır.
+FROST, Zcash Shielded Assets (ZSA) varlıklarının güvenli biçimde ihraç edilmesi ve yönetilmesinde de önemli bir bileşen haline gelecek; geliştirme kuruluşları ve ZEC borsalar gibi saklama kuruluşları içinde harcama yetkisinin daha güvenli yönetilmesini sağlarken bu özelliği Zcash kullanıcılara da sunacaktır.
 
 ## Yaygın Hatalar
 
-**FROST'u geleneksel on-chain multisig ile karıştırmak**. Geleneksel multisig, on-chain olarak birden fazla imzacıyı veya birden fazla imzayı açığa çıkarabilir. FROST tek bir birleştirilmiş Schnorr imzası üretir, bu nedenle bir işlem tek imzalı bir işlemden ayırt edilemez.
+**FROST protokolünü geleneksel zincir üstü çoklu imzayla karıştırmak**. Geleneksel çoklu imza, zincir üstünde birden fazla imzalayanı veya imzayı açığa çıkarabilir. FROST protokolü tek bir birleştirilmiş Schnorr imza oluşturur; bu nedenle işlem, tek imzalı bir işlemden ayırt edilemez.
 
-**Eşikten daha az sayıda kişinin imza atabileceğini varsaymak**. Yalnızca birlikte hareket eden eşik sayıda (n içinden t) katılımcı geçerli bir imza üretebilir; bundan daha küçük herhangi bir grup bunu yapamaz.
+**Eşik sayısından daha az katılımcının imza atabileceğini varsaymak**. Yalnızca belirli sayıda katılımcının (t-out-of-n) birlikte hareket etmesi geçerli bir imza oluşturabilir; daha küçük bir grup bunu yapamaz.
 
-**FROST'un off-chain her şeyi gizlediğini varsaymak**. FROST on-chain imzayı korur, ancak imzacılar arasındaki koordinasyon yine de off-chain gerçekleşir ve kendi gizlilik ve güvenlik kontrollerini gerektirir.
+**FROST protokolünün zincir dışındaki her şeyi gizlediğini varsaymak**. FROST protokolü zincir üstü imzayı korur; ancak imzalayanlar arasındaki koordinasyon yine zincir dışında gerçekleşir ve kendine ait gizlilik ve güvenlik önlemleri gerektirir.
 
 
 ## İlgili Sayfalar
 
-- [Halo](/zcash-tech/halo) — Zcash'in Orchard havuzunda kullanılan güven gerektirmeyen, özyinelemeli ispat sistemi.
-- [Viewing Keys](/zcash-tech/viewing-keys) — shielded işlemler için seçici ifşa.
-- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — FROST'un harcama/ihraç yetkisini yönetmeye yardımcı olduğu alan.
-- [Zcash Wallet Syncing](/zcash-tech/zcash-wallet-syncing) — Zcash gizlilik altyapısının bir diğer temel parçası.
+- [Halo](/zcash-tech/halo) — Zcash'ün Orchard havuzunda kullanılan güven gerektirmeyen, özyinelemeli kanıt sistemi.
+- [Görüntüleme Anahtarları](/zcash-tech/viewing-keys) — korumalı işlemler için seçici açıklama.
+- [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — FROST protokolünün harcama/ihraç yetkisinin yönetilmesine yardımcı olduğu alan.
+- [Zcash Cüzdan Eşitleme](/zcash-tech/zcash-wallet-syncing) — Zcash gizlilik altyapısının bir diğer temel bileşeni.
 
 
-## Daha Fazla Öğrenme
+## Daha Fazla Bilgi
 
-[Coinbase Makalesi - Eşik İmzalar](https://www.coinbase.com/blog/threshold-digital-signatures)
+[Coinbase Makale - Eşik İmzaları](https://www.coinbase.com/blog/threshold-digital-signatures)
 
-[Shamir Secret Sharing - Açıklama ve Örnek](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
+[Shamir Gizli Paylaşımı - Açıklama ve Örnek](https://www.geeksforgeeks.org/shamirs-secret-sharing-algorithm-cryptography/)
 
-[Schnorr Dijital İmzaları Hakkında Kısa Video](https://youtu.be/r9hJiDrtukI?t=19)
+[Schnorr Dijital İmzalar hakkında kısa video](https://youtu.be/r9hJiDrtukI?t=19)
 
 ___
 ___

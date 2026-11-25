@@ -1,30 +1,30 @@
 <a href="https://github.com/Zechub/zechub/edit/main/site/Zcash_Community/Community_Links.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # <img src="/content-images/image-2024-02-03-174147713-63a42e536c.webp" alt="Alt Text" width="400"/> Zcash Topluluk Bağlantıları
 
-Zcash topluluğu, ZEC’i dünyada gizliliği koruyan en yaygın kullanılan kripto paralardan biri hâline getirmek için çalışan, canlı ve dinamik bir insan topluluğudur. Topluluk; dünyanın dört bir yanından geliştiriciler, eğitimciler, savunucular ve üreticilerden oluşan çeşitli bireyleri bir araya getirir ve bu insanlar finansal gizliliğe dair ortak bir inanç etrafında birleşir.
+Zcash topluluğu, ZEC dünyanın en yaygın kullanılan gizlilik koruyucu kripto para birimlerinden biri hâline getirmek için çalışan canlı bir insan topluluğudur. Bu topluluk, finansal gizliliğe dair ortak bir inançla bir araya gelen, dünyanın dört bir yanından geliştiriciler, eğitimciler, savunucular ve üreticiler gibi farklı kişilerden oluşur.
 
 ----
 
-## Topluluk üyelerini nerede bulabilirsiniz
+## Topluluk üyelerini nerede bulabilirsiniz?
 
 ### <img src="/content-images/image-2024-02-03-173937048-148e401d5e.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Telegram</span>
 
-Zcash topluluğu, topluluk <span translate="no" class="notranslate">Telegram</span> grubunda oldukça aktiftir. Günlük konular hakkında konuşmak, haberleri ve güncellemeleri tartışmak ve diğer topluluk üyeleriyle tanışmak için katılın: [t.me/Zcash_Community](https://t.me/Zcash_Community)
+Zcash topluluğu, kendi <span translate="no" class="notranslate">Telegram</span> alanında oldukça aktiftir. Gündelik konular hakkında sohbet etmek, haberleri ve güncellemeleri tartışmak ve diğer topluluk üyeleriyle tanışmak için katılın: [t.me/Zcash_Community](https://t.me/Zcash_Community)
 
 ### <img src="/content-images/image-2024-02-03-174056252-8a6a76eabf.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">Discord</span>
 
 - [Zcash Global](https://discord.gg/zcash) - Ana topluluk sunucusu
 - [Zcash R&D](https://discord.gg/xpzPR53xtU) - Protokol ve geliştirici tartışmaları
-- [Zcash Foundation](https://discord.gg/na6QZNd) - Foundation güncellemeleri ve yönetişim
-- [ZecHub DAO](https://discord.gg/zcash) - Topluluk DAO katkıcıları
+- [Zcash Foundation](https://discord.gg/na6QZNd) - Vakıf güncellemeleri ve yönetişim
+- [ZecHub DAO](https://discord.gg/zcash) - Topluluk DAO katkı sağlayıcıları
 
-### <span translate="no" class="notranslate">Mastodon / Decentralized Social</span>
+### <span translate="no" class="notranslate">Mastodon / Merkeziyetsiz Sosyal</span>
 
 - [ZecHub.Social](https://zechub.social/public/local) - Zcash topluluğu için Mastodon sunucusu
-- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Bluesky’de Zcash en Espanol (hesap askıya alındıktan sonra X’ten taşındı)
+- [Bluesky @zcashesp.bsky.social](https://bsky.app/profile/zcashesp.bsky.social) - Bluesky'da Zcash en Espanol (hesabın askıya alınmasının ardından X'ten taşındı)
 
 ### <span translate="no" class="notranslate">Matrix</span>
 
@@ -32,16 +32,16 @@ Zcash topluluğu, topluluk <span translate="no" class="notranslate">Telegram</sp
 
 ### Zcash Topluluk Forumu
 
-[Zcash Topluluk Forumu](https://forum.zcashcommunity.com/), Zcash üzerine uzun biçimli tartışmaların merkezidir — yönetişim, hibe teklifleri, teknik tartışmalar ve ekosistem duyuruları. ECC'nin ZODL’e geçişinin ardından yönetim sorumluluğu artık Zcash Foundation’a devredildi.
+[Zcash Topluluk Forumu](https://forum.zcashcommunity.com/), Zcash hakkında uzun biçimli tartışmaların merkezidir: yönetişim, hibe teklifleri, teknik tartışmalar ve ekosistem duyuruları. Zcash Foundation, ECC'ın ZODL'a geçişinin ardından artık forumun sorumluluğunu devralmıştır.
 
 ### <img src="/content-images/image-2024-02-03-174240928-7a8f751301.webp" alt="Alt Text" width="50"/> <span translate="no" class="notranslate">X / Twitter</span>
 
-Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek önemli hesaplar:
+Zcash, X'te dünya çapında aktif bir varlığa sahiptir. Takip edilecek önemli hesaplar:
 
 | Hesap | Açıklama |
 |---------|-------------|
 | [@Zcash](https://x.com/zcash) | Resmî Zcash hesabı |
-| [@ZecHub](https://x.com/zechub) | ZecHub DAO - topluluk eğitimi ve ödüller |
+| [@ZecHub](https://x.com/zechub) | ZecHub DAO - topluluk eğitimi ve ödül programları |
 | [@zodl_app](https://x.com/zodl_app) | ZODL cüzdanı (eski adıyla Zashi) |
 | [@ZcashFoundation](https://x.com/zcashfoundation) | Zcash Foundation güncellemeleri |
 | [@zcashbrazil](https://x.com/zcashbrazil) | Zcash Brezilya topluluğu |
@@ -49,16 +49,16 @@ Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek ön
 | [@ZcashTR](https://x.com/ZcashTR) | Zcash Türkiye |
 | [@ZcashArabia](https://x.com/ZcashArabia) | Zcash Arabistan |
 | [@ZcashNigeria](https://x.com/ZcashNigeria) | Zcash Nijerya |
-| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - İspanyolca Zcash podcasti |
-| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Audiovisual Club |
+| [@ZcastEsp](https://x.com/ZcastEsp) | Zcast - İspanyolca Zcash podcast'i |
+| [@ZkAv_Club](https://x.com/ZkAv_Club) | ZK Görsel-İşitsel Kulübü |
 | [@cipherscan_app](https://x.com/cipherscan_app) | CipherScan blokzincir gezgini |
-| [@zerodartz](https://x.com/Zerodartz) | Topluluk memeleri ve yorumları |
+| [@zerodartz](https://x.com/Zerodartz) | Topluluk mem'leri ve yorumları |
 
 ----
 
 ## Bölgesel Topluluk Merkezleri
 
-- [Zcash en Espanol](https://zcashesp.com) - İspanyolca konuşan topluluk (X askıya alınmasından sonra artık Bluesky’de de)
+- [Zcash en Espanol](https://zcashesp.com) - İspanyolca konuşan topluluk (X'in askıya alınmasının ardından Bluesky'da da)
 - [Zcash Brazil](https://x.com/zcashbrazil) - Brezilya topluluğu
 - [Zcash Mexico](https://x.com/ZcashMx) - Meksika topluluğu
 - [Zcash Turkey](https://x.com/ZcashTR) - Türk topluluğu
@@ -67,7 +67,7 @@ Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek ön
 - [ruZcash](https://x.com/ruZCASH) - Rusça konuşan Zcash topluluğu
 - [Zcash Korea](https://x.com/zcash_korea) - Kore topluluğu
 - [Zcash East Africa](https://forum.zcashcommunity.com/t/privacy-has-landed-in-south-africa-join-in/55706) - Güney Afrika ve Doğu Afrika
-- [genzcash](https://x.com/genzcash) - Gençlik odaklı Zcash topluluğu
+- [genzcash](https://x.com/genzcash) - Gençlere odaklanan Zcash topluluğu
 
 ----
 
@@ -75,6 +75,6 @@ Zcash, X üzerinde aktif bir küresel varlığa sahiptir. Takip edilebilecek ön
 
 - [Zcash Topluluk Web Sitesi](https://www.zcashcommunity.com/)
 - [ZecHub Wiki](https://zechub.wiki)
-- [Zcash Hibeler Merkezi](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
-- [Zcash Global Ambassadors](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - bu wiki'de program genel bakışı (zcashambassadors.com çevrimdışı)
+- [Zcash Hibe Merkezi](https://forum.zcashcommunity.com/t/introducing-zcash-grants-hub-browse-zcg-coinholder-grants-apply-via-betther-ui-and-explore-zechub-dao-proposals/55267)
+- [Zcash Küresel Elçiler](https://zechub.wiki/zcash-community/zcash-global-ambassadors) - Bu wiki'deki programın genel görünümü (zcashambassadors.com çevrimdışı)
 - [ZEC Bounties](https://bounties.zechub.wiki/)

@@ -1,12 +1,12 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Blockchain_Explorers.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
 </a>
 
-# Blokzincir Gezginleri
+# Blokzincir Gezgini
 
 ## Giriş
 
-Geleneksel iş dünyasında her işlem, satın alma kanıtı olarak bir makbuz içerir. Benzer şekilde, blokzincir dünyasında bir kullanıcı, tamamlanan her işlem için işlem kimliği biçiminde dijital bir makbuz alır. Çoğu cüzdan bunu sizin için sağlar. Blokzincir gezginleri, bir blokzincirde daha önce gerçekleşmiş olanları görselleştirmeyi sağlayan araçlardır. Girdi olarak işlem kimliklerini, adresleri veya blok hash'lerini alır ve gerçekleşenleri görsel olarak sunarlar.
+Geleneksel iş dünyasında her işlem, satın alma kanıtı olarak bir makbuz içerir. Benzer şekilde, blokzincir dünyasında bir kullanıcı, tamamlanan her işlem için işlem kimliği biçiminde dijital bir makbuz alır. Çoğu cüzdan bunu sizin için sağlar. Blokzincir gezginleri, bir blokzincirde gerçekleşmiş olanları görselleştirmenizi sağlayan basit araçlardır. Girdi olarak işlem kimliklerini, adresleri veya blok özetlerini alır ve gerçekleşenleri görsel olarak gösterirler.
 
 ## Örnekler
 <div>
@@ -17,74 +17,75 @@ Geleneksel iş dünyasında her işlem, satın alma kanıtı olarak bir makbuz i
 
 - Cosmos: [D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170](https://www.mintscan.io/cosmos/txs/D0587C76E7689A9EFBDDA587DDB450F6C6E972FCEEA37DD8DA9AF95C23CF8170)
 
-- Zcash (herkese açık): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://mainnet.zcashexplorer.app/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
+- Zcash (genel): [8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82](https://mainnet.zcashexplorer.app/transactions/8dd212847a97c5eb9cee5e7e58c4d9e739f4156273ae3b2da1a4ff79ad95ff82)
 
-- Zcash (gizli): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://mainnet.zcashexplorer.app/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
+- Zcash (özel): [19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d](https://mainnet.zcashexplorer.app/transactions/19a4be270089490ece2e5fe7a6c9b9804af3c7ed43e1fb1b744b0fb29070fa5d)
 
 </div>
 
 
-#### Zcash'te ikinci işlemin tüm önemli ayrıntılarının gizlendiğine dikkat edin; bu önemlidir ve dijital dünyada büyük etkileri vardır.
+#### Zcash ile ikinci işlemin tüm önemli ayrıntılarının gizlendiğine dikkat edin; bu, dijital dünyada önemli ve büyük sonuçları olan bir durumdur.
 
 
 ## Blokzincir Haritaları
 
-Dijital makbuz olarak elimizde bu uzun karakter dizisi var, peki şimdi ne olacak? İşte bu noktada, blokzincirde ne olduğunu anlamamıza yardımcı olması için bir [blokzincir gezgini](https://nym.com/blog/using-blockchain-privately), ya da harita, kullanırız. Yukarıda her zincirin kendi [blokzincir gezgini](https://nym.com/blog/using-blockchain-privately) sürümü olduğuna dikkat edin. Tüm bu blokzincir projelerinin açık kaynaklı yazılım örnekleri olduğunu anlamak önemlidir. Yani herkes koda katkıda bulunabilir ve/veya kodu kendi isteğine göre fork'layabilir. Bu anlayışla, her proje farklı alanlarda uzmanlaşır ve blokzincir gezginini söz konusu projenin ihtiyaçlarına uyacak şekilde özelleştirir.
+Dijital bir makbuz olarak elimizde bu uzun karakter dizisi var; şimdi ne olacak? Blokzincirde ne olduğunu anlamamıza yardımcı olması için bir [blokzincir gezgini](https://nym.com/blog/using-blockchain-privately) veya harita kullandığımız yer burasıdır. Yukarıda her Zincirin kendine ait bir [blokzincir gezgini](https://nym.com/blog/using-blockchain-privately) sürümü olduğuna dikkat edin. Tüm bu blokzincir projelerinin açık kaynaklı yazılım örnekleri olduğunu anlamak önemlidir. Yani herkes koda katkıda bulunabilir veya kodu kendi istediği şekilde çatallayabilir. Bu anlayışla her proje farklı alanlarda uzmanlaşır ve blokzincir gezginini söz konusu projenin ihtiyaçlarına uyacak şekilde özelleştirir.
 
 ### Bloklar
-İşlemler *bloklara* yerleştirilir. Bir blok madenciliği yapıldığında/doğrulandığında, o blok içindeki her işlem onaylanır ve bir blok hash'i oluşturulur. Oluşturulan herhangi bir hash, bir blok gezginine girilebilir. CEX'lerin fonlarınızı serbest bırakmadan önce belirli sayıda *onay* istediğini görmüş olabilirsiniz; işleminizin yeterince kesinleştiğinden emin olmak için kullandıkları ölçüt budur. Blokzincir, hangi işlemlerin bir sonraki bloğa gireceğini nasıl belirler? Bu karmaşık bir araştırma konusudur, ancak modern zincirlerin çoğu, sıranın başına kimin geçeceğini belirlemek için *ücretler* fikrini kullanır. Ücret ne kadar yüksekse, kuyruğun önüne geçme olasılığınız o kadar yüksektir.
+İşlemler *blokların* içine yerleştirilir. Bir blok madencilikle çıkarıldığında/doğrulandığında, o blok içindeki her işlem onaylanır ve bir blok özeti oluşturulur. Oluşturulan herhangi bir özet, bir blok gezginine girilebilir. CEX'lerin paranızı serbest bırakmadan önce belirli sayıda *onay* gerektirdiğini görmüş olabilirsiniz; kullandıkları ölçüt, işleminizin yeterince kesinleştiğinden emin olmaktır. Blokzincir, bir sonraki bloğa hangi işlemlerin gireceğini nasıl belirler? Araştırması karmaşık bir konudur, ancak modern Zincirlerin çoğu, kimin sıranın önüne geçeceğini belirlemek için *ücretler* fikrini kullanır. Ücret ne kadar yüksekse, sıranın önüne geçme olasılığınız o kadar yüksek olur.
 
 ### Adresler
 
-[Blokzincir gezginlerini](https://nym.com/blog/using-blockchain-privately) görsel olarak öğrenmenin eğlenceli bir yolu, rastgele herhangi bir işlemin adresini girmektir. Ardından zamanda geriye giderek fonların nereden geldiğini görebilirsiniz! Her işlemin hem bir giriş hem de bir çıkış adresi vardır. Bu bilgiyle, harcanmış herhangi bir işlemden hem ileri hem de geri yönde kolayca ilerlenebilir. Bulmacaları sevenler için bu, devasa bir finansal bulmacanın dijital karşılığıdır ve şeffaflık amacıyla kullanılabilir. Bir blokzincir gezgini kullanmak bunu yalnızca görselleştirmeyi çok daha kolaylaştırmakla kalmaz, *aynı zamanda işlem gizliliğine duyulan ihtiyacı da vurgular*. Korumalı Zcash kullanmıyorsanız, bunu *herhangi* bir şeffaf blokzincirde yapabilirsiniz: BTC, ETH, ATOM, DOGE, VTC, vb. ... . Bu nokta, yalnızca dijital bir geleceğe güvenle ilerlerken blokzinciri kullanan herkes için kritik önemdedir.
+[blokzincir gezginlerini](https://nym.com/blog/using-blockchain-privately) görsel olarak öğrenmenin eğlenceli bir yolu, rastgele bir işlemin adresini girmektir. Ardından zamanda geriye giderek fonların nereden geldiğini görebilirsiniz! Her işlemin hem bir giriş hem de bir çıkış adresi vardır. Bu bilgiler sayesinde harcanmış herhangi bir işlemden hem ileriye hem de geriye kolayca gidebilirsiniz. Bulmacaları sevenler için bu, devasa bir finansal bulmacanın dijital eşdeğeridir ve şeffaflık amacıyla kullanılabilir. Bir blokzincir gezgini kullanmak, bunu görselleştirmeyi yalnızca çok kolaylaştırmakla kalmaz, aynı zamanda işlem gizliliğinin gerekliliğini de *vurgular*. Korumalı Zcash kullanmadığınız sürece bunu BTC, ETH, ATOM, DOGE, VTC vb. *herhangi bir* şeffaf blokzincir ile yapabilirsiniz... Bu nokta, yalnızca dijital bir geleceğe güvenli biçimde ilerlerken blokzinciri kullanan herkes için kritik öneme sahiptir.
 
-### Miktarlar
+### Tutarlar
 
-Yukarıdaki adreslere benzer şekilde, herkese açık bir blokzincirdeki her işlemin miktarları açıkça görülebilir. Buna, herhangi bir işlem için hem giriş hem de çıkış adreslerindeki miktarlar dahildir. Bunun bir istisnası, Korumalı Zcash kullanmayı seçtiğiniz zamandır -- bu durumda tüm miktarlar gizlenir. *Adil ticaret* için zorunlu olarak gizliliğe ihtiyaç duyan küçük işletme sahipleri açısından bu büyük bir avantajdır!
+Yukarıdaki adreslere benzer şekilde, genel bir blokzincirdeki herhangi bir işlemin tutarları herkesin görebileceği şekilde açıktadır. Buna, herhangi bir işlemin hem giriş hem de çıkış adreslerindeki tutarlar dahildir. Bunun bir istisnası, Shielded Zcash kullanmayı seçtiğiniz zamandır; bu durumda tüm tutarlar gizlenir. *Adil ticaret* için zorunlu olarak gizliliğe ihtiyaç duyan küçük işletme sahipleri için bu büyük bir avantajdır!
 
 ![amounts](/content-images/206312357-e9504151-830f-4fa1-81cb-f23619-210f51493c.webp)
 
 
-### Bir gezginin Zcash üzerinde görebildikleri ve göremedikleri
+### Zcash üzerinde bir gezginin görebileceği ve göremeyeceği şeyler
 
 #### Kısaca
-- Şeffaf (`t`) adresler, tıpkı Bitcoin'de olduğu gibi, bir gezginde tamamen görünür
-- Tamamen korumalı (z'den z'ye) işlemler miktarı, adresleri ve notu gizler
-- Ücret, tamamen korumalı bir işlemde bile görünür
-- Bir taraf şeffaf olduğu için korumalama (`t`'den korumalıya geçiş) ve korumayı kaldırma (korumalıdan tekrar `t`'ye geçiş) kısmen görünür
-- Gizlilik yalnızca fonlar korumalı havuzların içinde kaldığı sürece korunur
+- Şeffaf (`t`) adresler, tıpkı Bitcoin'de olduğu gibi bir gezginde tamamen görünür
+- Tamamen korumalı (z'den z'ye) işlemler tutarı, adresleri ve memo'yu gizler
+- Ücret, tamamen korumalı bir işlemde bile görünür durumdadır
+- Korumalı hâle getirme (`t` korumalı hâle getirme) ve korumasını kaldırma (korumalı hâlden `t` hâline getirme) kısmen görünürdür, çünkü bir taraf şeffaftır
+- Gizlilik yalnızca fonlar korumalı havuzların içinde kaldığı sürece geçerlidir
 
-Zcash'in birden fazla adres türü vardır ve bir gezgin bunlara çok farklı davranır.
+Zcash birden fazla adres türüne sahiptir ve bir gezgin bunlara çok farklı biçimlerde davranır.
 
-`t` ile başlayan şeffaf adresler Bitcoin gibi çalışır. Bir gezgin göndericiyi, alıcıyı, miktarı ve fonların geldiği yere uzanan geçmişi gösterir.
+`t` ile başlayan şeffaf adresler Bitcoin gibi çalışır. Bir gezgin göndereni, alıcıyı, tutarı ve fonların geldiği yere kadar olan izi gösterir.
 
-Korumalı adresler gizli taraftır. Sapling veya Orchard [korumalı havuzlarındaki](https://zechub.wiki/using-zcash/shielded-pools#content) fonlar sıfır bilgi ispatlarıyla korunur. Tamamen korumalı bir işlemi aradığınızda gezgin miktarı, adresleri veya notu gösteremez. Yalnızca geçerli bir işlemin gerçekleştiğini ve bir bloğa kaydedildiğini doğrulayabilir. Bu, sayfanın üst kısmına yakın gösterilen gizli örnektir.
+Korumalı adresler özel taraftır. Sapling veya Orchard [korumalı havuzlar](https://zechub.wiki/using-zcash/shielded-pools#content) içindeki fonlar sıfır bilgi kanıtlarıyla korunur. Tamamen korumalı bir işlemi aradığınızda gezgin tutarı, adresleri veya memo'yu gösteremez. Yalnızca geçerli bir işlemin gerçekleştiğini ve bir bloğa kaydedildiğini doğrulayabilir. Bu, bu sayfanın üst kısmında gösterilen gizli özel örnektir.
 
-Tamamen korumalı işlemler için bile bir ayrıntı görünür kalır: ücret. Zcash konsensüs kuralları, şeffaf ücretin açıkça belirtilmesini gerektirir; dolayısıyla miktarlar maskelenmiş olsa bile bir gezgin bunu her zaman gösterebilir. Bu nedenle, alışılmadık bir miktar ödeyerek işleminizin öne çıkmaması için standart cüzdan ücretini kullanmak iyi bir uygulamadır.
+Tamamen korumalı işlemlerde bile görünür kalan bir ayrıntı vardır: ücret. Zcash konsensüs kuralları, şeffaf ücretin açıkça belirtilmesini gerektirir; bu nedenle tutarlar maskelenmiş olsa bile gezgin ücreti her zaman gösterebilir. Bu nedenle standart cüzdan ücretini kullanmak iyi bir uygulamadır; böylece alışılmadık bir tutar ödeyerek işleminiz dikkat çekmez.
 
-Gezgin ayrıca fonların şeffaf ve korumalı taraflar arasında ne zaman geçtiğini de görebilir. `t` fonlarını bir havuza taşımak korumalamadır, onları tekrar dışarı taşımak ise korumayı kaldırmadır. Bir taraf şeffaf olduğundan bu geçişler kısmen görünür. Bir `t` adresine hiç dokunmayan, yalnızca tamamen gizli z'den z'ye faaliyet, ücret dışındaki her şeyi gizli tutar.
+Gezgin, fonların şeffaf ve korumalı taraflar arasında ne zaman geçtiğini de görebilir. `t` fonlarını bir havuza taşımak korumalı hâle getirmedir; fonları tekrar dışarı taşımak ise korumasını kaldırmadır. Bu geçişler kısmen görünürdür, çünkü bir taraf şeffaftır. Bir `t` adresine hiç dokunmayan tamamen özel z'den z'ye etkinlik, ücret dışındaki her şeyi gizli tutar.
 
-Çıkarım şudur: gizlilik, korumalı havuzların içinde kalmaya bağlıdır. Fonlar bir `t` adresine dokunduğunda, geçmişlerinin bu kısmı Bitcoin kadar herkese açıktır. Korumalı faaliyetlerinizi, örneğin bir muhasebeci gibi seçtiğiniz bir kişiye kanıtlamak için bunu herkese açık hâle getirmek yerine bir viewing key paylaşın. [Viewing Keys](https://zechub.wiki/zcash-tech/viewing-keys#content) sayfasına bakın.
+Çıkarılacak sonuç şudur: Gizlilik, korumalı havuzların içinde kalmaya bağlıdır. Fonlar bir `t` adresine dokunduğunda, geçmişlerinin o kısmı Bitcoin kadar geneldir. Kendi korumalı etkinliğinizi muhasebeci gibi seçtiğiniz birine kanıtlamak için bunu herkese açık hâle getirmek yerine bir görüntüleme anahtarı paylaşın. [Görüntüleme Anahtarları](https://zechub.wiki/zcash-tech/viewing-keys#content) sayfasına bakın.
 
 
-### Zcash Blok Gezginleri Listesi
+### Zcash Blokzincir Gezginleri Listesi
 
 - [Zcash Blok Gezgini](https://mainnet.zcashexplorer.app/)
 
 - [3xpl](https://3xpl.com/zcash)
 
-
 - [ShieldedScan](https://shieldedscan.xyz)
 
 - [ZecBlock](https://zecblock.com/)
 
-- [SoChain](https://sochain.com/zec) ([test ağı](https://sochain.com/zectest))
+- [SoChain](https://sochain.com/zec) ([testnet](https://sochain.com/zectest))
 
 - [ZecZcash Gezgini](https://zeczcash.com/explorer)
 
+
+
 ### Görsel Rehber
 
-İşte farklı blokzincir gezginlerine dair dört iyi örnek:
+Farklı blokzincir gezginlerine ilişkin dört iyi örneği burada bulabilirsiniz:
 
 * [Mempool.space](https://mempool.space)
 * [Ethscan](https://etherscan.io/)

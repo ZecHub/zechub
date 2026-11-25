@@ -1,137 +1,137 @@
-# Zcash nasıl organize edilir
+# Zcash nasıl organize edilmiştir
 
 ## Kısaca
 
-- Zcash tek bir şirket tarafından değil, işin farklı bir bölümünü üstlenen birçok bağımsız kuruluş tarafından geliştirilir
+- Zcash tek bir şirket tarafından değil, çalışmaların farklı bölümlerinden sorumlu birçok bağımsız kuruluş tarafından geliştirilir
 - Tarihinin büyük bölümünde geliştirmeye iki kuruluş öncülük etti: Electric Coin Company ve Zcash Foundation
-- Ocak 2026'da bir yönetişim anlaşmazlığının ardından Electric Coin Company ekibinin tamamı istifa etti ve ekosistem birkaç bağımsız ekip halinde yeniden organize oldu
-- Bugün protokol, düğüm yazılımı, cüzdanlar, araştırma, ölçekleme ve fonlama ayrı gruplar tarafından yürütülüyor
-- Hiçbir kuruluş Zcash'i tek başına kontrol etmez; ağ açık kaynaklı ve izinsizdir ve her değişiklik boyunca normal şekilde çalışmaya devam etmiştir
+- Ocak 2026'da bir yönetişim anlaşmazlığının ardından Electric Coin Company ekibinin tamamı istifa etti ve ekosistem birkaç bağımsız ekibe ayrılarak yeniden düzenlendi
+- Bugün protokol, düğüm yazılımı, cüzdanlar, araştırma, ölçeklendirme ve finansman ayrı gruplar tarafından yürütülüyor
+- Zcash üzerinde tek bir kuruluşun kontrolü yoktur; ağ açık kaynaklıdır ve izin gerektirmez, tüm değişiklikler boyunca normal şekilde çalışmaya devam etmiştir
 
 <br/>
 
-## Bu sayfa kimler için
+## Bu kimler için
 
-- Zcash'i gerçekte kimin inşa edip sürdürdüğünü anlamaya çalışan yeni başlayanlar
-- Ekosistemdeki çok sayıdaki kuruluş adından kafası karışan herkes
-- Kiminle çalışacağına veya bir öneriyi nereye göndereceğine karar veren katkıcılar
+- Zcash'i gerçekte kimin geliştirdiğini ve bakımını yaptığını anlamaya çalışan yeni başlayanlar
+- Ekosistemdeki çok sayıdaki kuruluş adı konusunda kafası karışan herkes
+- Kiminle çalışacağına veya teklifini nereye göndereceğine karar veren katkıda bulunanlar
 
 <br/>
 
 ## Bu neden önemli
 
-Yapıyı anlamak diğer her şeyi kolaylaştırır. Güvendiğiniz kodu kimin sürdürdüğünü, hibe için kime başvurmanız gerektiğini ve ağın önemsediğiniz bölümünden kimin sorumlu olduğunu gösterir. Ayrıca Zcash'in sessiz güçlü yanlarından birini de ortaya koyar: iş bağımsız gruplara yayıldığı için, projeyi ele geçirebilecek veya durdurabilecek tek bir başarısızlık noktası yoktur.
+Yapıyı anlamak diğer her şeyi kolaylaştırır. Güvendiğiniz kodun bakımını kimin yaptığını, hibe için kime başvuracağınızı ve ağın önem verdiğiniz bölümünden kimin sorumlu olduğunu gösterir. Ayrıca Zcash'in sessiz güçlerinden birini de ortaya koyar: Çalışmalar bağımsız gruplara yayıldığı için hiçbir tekil arıza noktası projeyi ele geçiremez veya durduramaz.
 
-Bu sayfa bir haritadır. Bu wikide zaten tam bir sayfası olan her kuruluş için, orada yazılanları tekrar etmek yerine kısa bir not ve daha fazlasını okumak için bir bağlantı bulacaksınız.
-
-<br/>
-
-## Eskiden nasıl işliyordu
-
-Zcash tarihinin büyük bölümünde iki kuruluş öncülük etti.
-
-Electric Coin Company, Zcash'i 2016'da başlattı ve çekirdek geliştirme ekibinin büyük bir kısmını istihdam etti. Bu şirket, Zcash'i desteklemek için oluşturulan kâr amacı gütmeyen bir kurul olan Bootstrap tarafından denetleniyordu. Zcash Foundation ise protokolün gözetimine ve bağımsız bir düğüm oluşturmaya odaklanan bağımsız bir kâr amacı gütmeyen kuruluş olarak onun yanında çalışıyordu. Her ikisi de büyük ölçüde geliştirme için ayrılmış blok ödülünün bir kısmıyla finanse ediliyordu.
-
-Bu iki sütunlu yapı yıllarca sürdü, ancak bu yapı ortak fonlamaya ve iki kuruluşun uyum içinde kalmasına bağlıydı. Başlangıçtaki geliştirme fonlaması değiştikçe ve uzun vadeli geleceği daha az kesin hale geldikçe, süregelen çalışmanın nasıl finanse edileceği sorusu daha acil hale geldi. Bu fonlama sorusu, sonrasında değişen pek çok şeyin arka planında yer alır ve bazı ekiplerin neden dış sermaye toplarken diğerlerinin hibelerle yetindiğinin bir parçasıdır.
+Bu sayfa bir haritadır. Bu wiki'de zaten tam sayfası bulunan her kuruluş için, orada yazılanları tekrarlamak yerine kısa bir not ve daha fazlasını okuyabileceğiniz bir bağlantı bulacaksınız.
 
 <br/>
 
-## 2026 yeniden organizasyonu
+## Önceden nasıl işliyordu
 
-Ocak 2026'da yapı keskin biçimde değişti. 7 Ocak'ta Electric Coin Company CEO'su Josh Swihart, X'te şirket ekibinin tamamının istifa ettiğini duyurdu.
+Zcash'in tarihinin büyük bölümünde iki kuruluş öncülük etti.
 
-Bootstrap, 2020'de Electric Coin Company'yi yönetmek için kurulmuş kâr amacı gütmeyen bir yapıydı; şirket, bunun tamamına sahip olduğu bir iştiraki haline gelmişti. Şirket ekibi ile bu kurul arasındaki anlaşmazlık zamanla büyüdü ve kuruluşun yönü, geliştirme çalışmalarının nasıl finanse edilmesi gerektiği ve ekibin dış sermaye toplamak için özel bir şirkete taşımak istediği Zashi cüzdanının geleceği dahil olmak üzere çeşitli konulara dokundu. Swihart, ayrılığı bir constructive discharge olarak tanımladı; bu, koşulların istifayı fiilen zorlayacak kadar ağır biçimde değiştirildiği anlamına gelen hukuki bir terimdir ve kurulun çoğunluğunun Zcash'in misyonuyla uyumunu kaybettiğini söyledi.
+Electric Coin Company, 2016'da Zcash'i başlattı ve çekirdek geliştirme ekibinin büyük bölümünü istihdam etti. Kuruluş, Zcash'i desteklemek üzere kurulmuş kâr amacı gütmeyen bir yönetim kurulu olan Bootstrap tarafından denetleniyordu. Zcash Foundation ise protokolün idaresine ve bağımsız bir düğüm geliştirmeye odaklanan bağımsız, kâr amacı gütmeyen bir kuruluş olarak onunla birlikte çalıştı. Her iki kuruluş da büyük ölçüde geliştirme için ayrılan blok ödülünün bir bölümüyle finanse ediliyordu.
 
-Adil olmak adına anlatının diğer tarafı da önemlidir. Bootstrap, çatışmayı yönetişim ve kâr amacı gütmeyen kuruluşlara ilişkin yasal uyum meselesi olarak çerçeveledi. Zcash'in kurucusu Zooko Wilcox, anlaşmazlıkta adı geçen kurul üyelerini kamuya açık şekilde savundu; kendileriyle uzun yıllardır çalıştığını ve onları yüksek dürüstlük sahibi insanlar olarak gördüğünü söyledi, ancak anlaşmazlığın kendisinde taraf tutmadığını da açıkça belirtti.
-
-İki konu ise tartışmalı değildi. Hiçbir taraf herhangi bir suç teşkil eden davranış iddiasında bulunmadı; dolayısıyla bu, bir hukuk davasından ziyade kurumsal ve yönetişimle ilgili bir anlaşmazlıktı. Ayrıca Zcash ağı da etkilenmedi; açık kaynaklı, izinsiz, güvenli ve tamamen işler halde kalmaya devam etti; Swihart ve Wilcox da kullanıcılara özellikle bu noktayı vurguladı.
-
-Sonrasında yaşanan şey çöküşten ziyade yeniden organizasyondu. Eski şirket ekibi 2026'nın ilerleyen dönemlerinde ZODL'yi kurdu ve ayrı olarak eski Bootstrap kurul üyelerinden üçü Sovright'ı oluşturdu. Geliştirme, birkaç bağımsız ekip arasında daha dağıtık bir yapıya oturdu.
-
-Burada açıklanan beyanlar, 7 Ocak 2026'da Josh Swihart (@jswihart) ve Zooko Wilcox (@zooko) tarafından X'te kamuya açık biçimde yapıldı; özgün paylaşımların tamamı orada okunabilir.
+Bu iki sütunlu yapı yıllarca sürdü, ancak ortak finansmana ve iki kuruluşun uyum içinde kalmasına bağlıydı. İlk geliştirme finansmanı değiştikçe ve uzun vadeli geleceği daha belirsiz hâle geldikçe, devam eden çalışmaların nasıl finanse edileceği sorusu daha acil hâle geldi. Bu finansman sorusu, sonrasında yaşanan değişikliklerin çoğunun arka planında yer alıyor ve bazı ekiplerin neden artık dış sermaye toplarken diğerlerinin hibelerle geçindiğini açıklamaya yardımcı oluyor.
 
 <br/>
 
-## Zcash'i şimdi kimler geliştiriyor
+## 2026'da yeniden yapılanma
 
-Bugünkü çalışma, her biri net bir bölümün sahipliğini üstlenen bağımsız kuruluşlara yayılmış durumda.
+Ocak 2026'da yapı keskin bir değişim geçirdi. 7 Ocak'ta Electric Coin Company genel müdürü Josh Swihart, X'te şirket ekibinin tamamının istifa ettiğini duyurdu.
 
-### 2026 ayrışmasından çıkan iki kuruluş
+Bootstrap, tamamen kendisine ait bir yan kuruluş hâline gelen Electric Coin Company'i yönetmek üzere 2020'de kurulmuş kâr amacı gütmeyen bir kuruluştur. Şirket ekibi ile bu kurul arasındaki anlaşmazlık zaman içinde büyüdü ve kuruluşun yönü, geliştirmenin nasıl finanse edilmesi gerektiği ve ekibin dış sermaye toplamak için özel bir şirkete taşımak istediği Zashi cüzdanının geleceği gibi çeşitli konuları kapsadı. Swihart, ayrılışı yapıcı fesih olarak nitelendirdi. Bu, koşulların istifayı fiilen zorunlu kılacak kadar ağır biçimde değiştirildiği anlamına gelen hukuki bir terimdir. Ayrıca yönetim kurulunun çoğunluğunun Zcash'in misyonuyla uyumunu yitirdiğini söyledi.
 
-1. ZODL, yani Zcash Open Development Lab, eski Electric Coin Company ekibi tarafından kuruldu ve Josh Swihart tarafından yönetildi. Dış yatırımcılardan yirmi beş milyon doların üzerinde kaynak topladı ve Zcash'in en yeni shielded işlemlerini güçlendiren Halo 2 ispat sistemi dahil çekirdek protokol geliştirmesi üzerinde, ayrıca daha önce Zashi adıyla bilinen, varsayılan olarak shielded mobil cüzdan olan ZODL cüzdanı üzerinde çalışıyor. Bkz. [ZODL](https://zechub.wiki/zcash-organizations/zodl).
-2. Sovright, eski Bootstrap kurul üyelerinden üçü tarafından kurulan kâr amacı gütmeyen bir kuruluştur. Ekosistem için araçlar ve destek üzerine odaklanır ve erken kullanıcıların artık bakım yapılmayan eski bir cüzdanda mahsur kalan fonlarını geri almasına yardımcı olan bir araç olan Argos'u geliştirmiştir. Bkz. [Sovright](https://zechub.wiki/zcash-organizations/sovright).
+Adil olmak için diğer tarafın anlatımı da önemlidir. Bootstrap, çatışmayı yönetişim ve kâr amacı gütmeyen kuruluşlara ilişkin yasal düzenlemelere uyum meselesi olarak çerçeveledi. Zcash'in kurucusu Zooko Wilcox, anlaşmazlıkta adı geçen yönetim kurulu üyelerini kamuoyu önünde savundu; onlarla uzun yıllar çalıştığını ve onları yüksek dürüstlüğe sahip kişiler olarak gördüğünü söyledi. Bununla birlikte, anlaşmazlığın kendisinde taraf tutmadığını da açıkça belirtti.
 
-### Protokol gözetimi, araştırma ve düğüm yazılımı
+İki konuda anlaşmazlık yoktu. Hiçbir taraf herhangi bir suç işlendiğini iddia etmedi; dolayısıyla bu, hukuki bir davadan ziyade kurumsal ve yönetişimle ilgili bir anlaşmazlıktı. Ayrıca Zcash ağının kendisi etkilenmedi; süreç boyunca açık kaynaklı, izin gerektirmeyen, güvenli ve tamamen çalışır durumda kaldı. Hem Swihart hem de Wilcox bu noktayı kullanıcılara özellikle vurguladı.
 
-3. Zcash Foundation, eski zcashd istemcisi emekliye ayrılırken ağın birincil düğümü haline gelen Rust düğümü Zebra'yı sürdürür. Ayrıca Zcash GitHub organizasyonunun, z.cash web sitesinin ve X'teki ana Zcash hesabının gözetimini yapar ve bu varlıkların bir kısmının yönetimine yardımcı olmak için ZecHub ile ortaklık kurar. Bkz. [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation).
-4. Shielded Labs, İsviçre merkezli, bağışlarla finanse edilen bağımsız bir kâr amacı gütmeyen kuruluştur. Gelecekteki geliştirmeleri finanse eden ağ sürdürülebilirlik mekanizması ile Zcash'e proof of stake kesinliği eklemeye yönelik Crosslink çalışması dahil olmak üzere araştırma ve uzun vadeli sürdürülebilirlik üzerine odaklanır; ayrıca 2026'da Orchard havuzu güvenlik açığını ortaya çıkaran güvenlik denetimini de finanse etmiştir. Bkz. [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs).
-5. Electric Coin Company, 2016'da Zcash'i yaratan ve başlatan kuruluş olarak tarihin bir parçası olmaya devam ediyor. Bkz. [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company).
+Sonuç çöküş değil, yeniden yapılanma oldu. Eski şirket ekibi 2026'nın ilerleyen dönemlerinde ZODL'i kurdu; ayrıca eski Bootstrap yönetim kurulu üyelerinden üçü Sovright'i kurdu. Geliştirme, birkaç bağımsız ekibe yayılan daha dağıtık bir yapıya kavuştu.
 
-### Ölçekleme ve kriptografi
+Burada anlatılan açıklamalar, Josh Swihart (@jswihart) ve Zooko Wilcox (@zooko) tarafından 7 Ocak 2026'da X'te kamuya açık olarak yapıldı. Orijinal gönderilerin tamamı okunabilir.
 
-6. Project Tachyon, kriptograf Sean Bowe liderliğinde yürütülen bir ölçekleme çalışmasıdır. Cüzdanların blok zinciriyle senkronize olması için oblivious synchronization adı verilen yeni bir yöntem önerir; bu yöntem işlemleri küçültür ve yan etki olarak Zcash'i kuantum sonrası gizliliğe doğru taşır. Çalışması [tachyon.z.cash](https://tachyon.z.cash/) adresinde belgelenmiştir.
-7. Valar Group, Zcash protokolü üzerinde özel, kuantum sonrası ve ölçeklenebilir dijital nakit için çalışan bir kriptografi araştırma ve mühendislik laboratuvarıdır. Ölçekleme ve kuantum çalışmaları konusunda Project Tachyon ile yakın iş birliği içindedir. Çalışmaları hakkında daha fazlası [valargroup.dev](https://valargroup.dev/) adresindedir.
+<br/>
+
+## Zcash'i bugün kim geliştiriyor
+
+Bugün çalışmalar, her biri belirli bir bölümden sorumlu olan bağımsız kuruluşlara yayılmış durumda.
+
+### 2026'daki ayrılıktan doğan iki kuruluş
+
+1. Eski Electric Coin Company ekibi tarafından kurulan ve Josh Swihart liderliğindeki ZODL, Zcash Açık Geliştirme Laboratuvarı'dır. Dış yatırımcılardan yirmi beş milyon dolardan fazla fon topladı. Zcash'in en yeni korumalı işlemlerine güç veren Halo 2 kanıtlama sistemi dâhil olmak üzere temel protokol geliştirme çalışmalarının yanı sıra, varsayılan olarak korumalı çalışan ve daha önce Zashi olarak adlandırılan mobil cüzdan ZODL üzerinde çalışıyor. Bkz. [ZODL](https://zechub.wiki/zcash-organizations/zodl).
+2. Sovright, eski Bootstrap yönetim kurulu üyelerinden üçünün kurduğu kâr amacı gütmeyen bir kuruluştur. Ekosisteme yönelik araçlara ve desteğe odaklanır; eski ve bakımı yapılmayan bir cüzdanda mahsur kalmış fonları ilk kullanıcıların kurtarmasına yardımcı olan Argos aracını geliştirmiştir. Bkz. [Sovright](https://zechub.wiki/zcash-organizations/sovright).
+
+### Protokol yönetimi, araştırma ve düğüm yazılımı
+
+3. Zcash Foundation, eski zcashd istemcisinin kullanım dışı kalmasıyla ağın birincil düğümü hâline gelecek olan Rust düğümü Zebra'in bakımını yapar. Ayrıca Zcash GitHub kuruluşunun, z.cash web sitesinin ve X'teki ana Zcash hesabının yönetimini üstlenir ve bu varlıkların bazılarının yönetimine yardımcı olmak için ZecHub ile ortak çalışır. Bkz. [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation).
+4. Shielded Labs, İsviçre merkezli, bağışlarla finanse edilen bağımsız ve kâr amacı gütmeyen bir kuruluştur. Gelecekteki geliştirmeleri finanse eden ağ sürdürülebilirliği mekanizması ve Zcash'e hisse kanıtı kesinliği eklemeye yönelik Crosslink çalışmaları dâhil olmak üzere araştırma ve uzun vadeli sürdürülebilirliğe odaklanır. Ayrıca 2026'da Orchard havuzundaki güvenlik açığını ortaya çıkaran güvenlik denetimini finanse etti. Bkz. [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs).
+5. Electric Coin Company, 2016'da Zcash'i oluşturup başlatan kuruluş olarak tarihteki yerini koruyor. Bkz. [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company).
+
+### Ölçeklendirme ve kriptografi
+
+6. Project Tachyon, kriptograf Sean Bowe'ın öncülük ettiği bir ölçeklendirme çalışmasıdır. Blokzincirle eşzamanlama için cüzdanlara yeni bir yöntem, yani gizli eşzamanlama önerir. Bu yöntem işlemleri küçültür ve yan etki olarak Zcash'i kuantum sonrası gizliliğe yaklaştırır. Çalışmaları [tachyon.z.cash](https://tachyon.z.cash/) adresinde belgelenmiştir.
+7. Valar Group, büyük ölçekte özel ve kuantum sonrası dijital nakit için Zcash protokolü üzerinde çalışan bir kriptografi araştırma ve mühendislik laboratuvarıdır. Ölçeklendirme ve kuantum çalışmaları konusunda Project Tachyon ile yakın iş birliği yapar. Çalışmaları hakkında daha fazla bilgiye [valargroup.dev](https://valargroup.dev/) adresinden ulaşabilirsiniz.
 
 ### Bölgesel ve topluluk kuruluşları
 
-8. Obscura Labs, Afrika ve gelişmekte olan pazarlara odaklanan, altyapı ve benimsenme yolları inşa eden, Nijerya'da kayıtlı bağımsız bir kuruluştur. Bkz. [Obscura Labs](https://zechub.wiki/zcash-organizations/obscura-labs).
+8. Obscura Labs, Afrika ve gelişmekte olan pazarlara odaklanan, Nijerya'da kayıtlı bağımsız bir kuruluştur. Altyapı ve benimseme yolları geliştirir. Bkz. [Obscura Labs](https://zechub.wiki/zcash-organizations/obscura-labs).
 
 ### Eğitim
 
-9. ZecHub, Zcash için merkeziyetsiz bir eğitim merkezidir. Topluluk üyeleri, öğreticiler, wiki belgeleri, bir podcast ve haftalık bir bülten aracılığıyla insanların ekosistemi anlamasına ve nasıl katılacaklarını öğrenmesine yardımcı olan içerikler üretmek, doğrulamak ve yaymak için birlikte çalışır. Şu anda okuduğunuz wiki de ZecHub'ın bir parçasıdır ve Zcash Foundation bazı topluluk kaynaklarının yönetimine yardımcı olmak için onunla ortaklık yapar.
+9. ZecHub, Zcash için merkeziyetsiz bir eğitim merkezidir. Topluluk üyeleri, insanların ekosistemi anlamasına ve katılım yollarını öğrenmesine yardımcı olan içerikleri eğitimler, wiki belgeleri, bir podcast ve haftalık bir bülten aracılığıyla oluşturmak, doğrulamak ve tanıtmak için birlikte çalışır. Şu anda okuduğunuz wiki ZecHub'in bir parçasıdır; Zcash Foundation de bazı topluluk kaynaklarının yönetimine yardımcı olmak için onunla ortak çalışır.
 
-### Fonlama
+### Finansman
 
-10. Zcash Community Grants, blok ödülünün bir bölümünden bağımsız katkıcıları ve topluluk projelerini fonlayarak çalışmayı çekirdek kuruluşların ötesinde birçok ekibe yayar. Bkz. [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants).
+10. Zcash Community Grants, çekirdek kuruluşların ötesinde çalışmaları birçok ekibe yayarak, bağımsız katkıda bulunanlara ve topluluk projelerine blok ödülünün bir bölümünden finansman sağlar. Bkz. [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants).
 11. Financial Privacy Foundation, Zcash ekosistemini ve topluluk projelerini destekler. Bkz. [Financial Privacy Foundation](https://zechub.wiki/zcash-organizations/financial-privacy-foundation).
 
-Bu kuruluşların tümü açık kaynak depoları sürdürür; bu nedenle çalışmaları herkes tarafından okunabilir, incelenebilir ve üzerine inşa edilebilir. Ve kuruluşlar hikâyenin tamamı değildir. Pek çok önemli katkı, yalnızca çekirdek kuruluşlardan değil; bireylerden ve hibeler aracılığıyla fonlanan sözleşmeli şirketlerden gelir. Bunların yanında cüzdan ekipleri, bölgesel topluluklar, bağımsız geliştiriciler ve protokolü geliştirmeden ZEC tutan ve destekleyen yatırımcılar bulunur. Yukarıdaki liste omurgadır, tam resim değildir.
+Tüm bu kuruluşlar açık kaynak depolarını korur; böylece herkes çalışmalarını okuyabilir, inceleyebilir ve bunların üzerine inşa edebilir. Üstelik hikâye yalnızca bu kuruluşlardan ibaret değildir. Önemli katkıların çoğu yalnızca çekirdek kuruluşlardan değil, bireylerden ve hibelerle finanse edilen sözleşmeli şirketlerden de gelir. Bunların yanı sıra cüzdan ekipleri, bölgesel topluluklar, bağımsız geliştiriciler ve protokolü geliştirmeden ZEC'i elinde tutan ve destekleyen yatırımcılar da vardır. Yukarıdaki liste omurgayı gösterir; resmin tamamını değil.
 
 <br/>
 
 ## Yeni başlayan biri olarak nereden başlamalı
 
-Sizin için hangi kuruluşun önemli olduğu, ne yapmak istediğinize bağlıdır.
+Hangi kuruluşun sizin için önemli olduğu, ne yapmak istediğinize bağlıdır.
 
-1. Zcash kullanmak istiyorsanız bir cüzdan istersiniz; bu yüzden ZODL ve onun cüzdanı doğal bir başlangıç noktasıdır.
-2. Bir düğüm çalıştırmak veya ağ yazılımını anlamak istiyorsanız, Zcash Foundation'a ve onun Zebra düğümüne bakın.
-3. Bir projeyi fonlamak veya ücretli katkı sunmak istiyorsanız, Zcash Community Grants'e bakın.
-4. Araştırmayı ve protokolün geleceğini takip etmek istiyorsanız, Shielded Labs, Project Tachyon ve Valar Group'u takip edin.
+1. Zcash'i kullanmak için bir cüzdana ihtiyacınız var; bu nedenle ZODL ve onun cüzdanı başlamak için doğal bir seçenektir.
+2. Bir düğüm çalıştırmak veya ağ yazılımını anlamak için Zcash Foundation'e ve onun Zebra düğümüne bakın.
+3. Bir projeye finansman sağlamak veya ücretli çalışmalara katkıda bulunmak için Zcash Community Grants'e bakın.
+4. Araştırmaları ve protokolün geleceğini takip etmek için Shielded Labs'i, Project Tachyon'i ve Valar Group'ı takip edin.
 
 <br/>
 
 ## Öğrenmeye devam edin
 
-Bu wiki daha derine inmenize yardımcı olmak için var, bu yüzden en iyi sonraki adım onu okumaya devam etmektir. Yeni başlayan biri için birkaç iyi devam konusu:
+Bu wiki, konuyu daha derinlemesine öğrenmenize yardımcı olmak için var; bu nedenle en iyi sonraki adım okumaya devam etmektir. Yeni başlayanlar için birkaç iyi devam konusu:
 
-- Ağın ve coin'in temelleri için [ZEC ve Zcash nedir](https://zechub.wiki/start-here/what-is-zec-and-zcash)
-- Zcash'i ilk kez kullanmaya yönelik bir rehber için [Yeni Kullanıcı Rehberi](https://zechub.wiki/start-here/new-user-guide)
-- Zcash'in işlemleri nasıl gizli tuttuğunu öğrenmek için [Shielded Havuzlar](https://zechub.wiki/using-zcash/shielded-pools)
-- Coin arzının nasıl doğrulanabilir kaldığını öğrenmek için [turnstile](https://zechub.wiki/zcash-tech/the-turnstile)
-- Ağın geçiş yaptığı shielded havuz için [Ironwood](https://zechub.wiki/zcash-tech/ironwood)
-- Zcash'in zaman içinde nasıl değiştiğini görmek için [Ağ Yükseltmeleri](https://zechub.wiki/start-here/network-upgrades)
-- Gizliliğin arkasındaki kriptografi için [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks)
+- Ağın ve coinin temelleri için [ZEC nedir ve Zcash](https://zechub.wiki/start-here/what-is-zec-and-zcash)
+- Zcash'i kullanmaya ilk kez adım adım başlamak için [Yeni Kullanıcı Rehberi](https://zechub.wiki/start-here/new-user-guide)
+- Zcash'in işlemleri nasıl gizli tuttuğunu öğrenmek için [Korumalı Havuzlar](https://zechub.wiki/using-zcash/shielded-pools)
+- Coin arzının nasıl doğrulanabilir kaldığını öğrenmek için [Turnike](https://zechub.wiki/zcash-tech/the-turnstile)
+- Ağın geçiş yaptığı korumalı havuz hakkında bilgi için [Ironwood](https://zechub.wiki/zcash-tech/ironwood)
+- Zcash'in zaman içinde nasıl değiştiğini öğrenmek için [Ağ Yükseltmeleri](https://zechub.wiki/start-here/network-upgrades)
+- Gizliliğin ardındaki kriptografi için [zk-SNARKs](https://zechub.wiki/zcash-tech/zk-snarks)
 
-Her sayfa daha fazlasına bağlantı verir, böylece iz sürmeyi istediğiniz kadar ileri götürebilirsiniz.
+Her sayfada başka sayfalara bağlantılar vardır; böylece ilginizi çektiği kadar ilerleyebilirsiniz.
 
 <br/>
 
 ## Yaygın yanlış anlamalar
 
-- Zcash herhangi bir tek şirkete ait değildir veya onun tarafından kontrol edilmez; hiçbir kuruluş ağı tek başına değiştiremez ya da durduramaz
-- 2026 anlaşmazlığı ağı, fonları veya gizliliği etkilemedi; bu kurumsal bir anlaşmazlıktı ve protokol boyunca normal şekilde çalıştı
-- Ekibin Electric Coin Company'den ayrılması Zcash'in sonu olmadı; çalışma yeni bağımsız kuruluşlara taşındı
-- Birçok kuruluşun bulunması bir zayıflık değil, güçtür; tekil başarısızlık noktalarını ortadan kaldırır ve projeyi dayanıklı kılar
-- ZEC tutmak veya tanıtmak, Zcash inşa etmekle aynı şey değildir; yatırımcılar ve savunucular topluluğun bir parçasıdır ancak protokolü geliştiren ekiplerden ayrıdır
+- Zcash tek bir şirkete ait değildir ve tek bir şirket tarafından kontrol edilmez; hiçbir kuruluş ağı tek başına değiştiremez veya durduramaz
+- 2026'daki anlaşmazlık ağı, fonları veya gizliliği etkilemedi; bu, kuruluşlar arasındaki bir anlaşmazlıktı ve protokol süreç boyunca normal şekilde çalıştı
+- Ekibin Electric Coin Company'ten ayrılması Zcash'in sonu anlamına gelmedi; çalışmalar yeni bağımsız kuruluşlara taşındı
+- Çok sayıda kuruluşun bulunması bir zayıflık değil, güçtür; tekil arıza noktalarını ortadan kaldırır ve projeyi dayanıklı tutar
+- ZEC'i elinde tutmak veya tanıtmak, Zcash'i geliştirmekle aynı şey değildir; yatırımcılar ve tanıtım yapanlar topluluğun parçasıdır ancak protokolü geliştiren ekiplerden farklıdır
 
 <br/>
 
 ## İlgili sayfalar
 
 - [ZODL](https://zechub.wiki/zcash-organizations/zodl) - eski Electric Coin Company ekibi tarafından kurulan geliştirme laboratuvarı
-- [Sovright](https://zechub.wiki/zcash-organizations/sovright) - eski Bootstrap kurul üyeleri tarafından kurulan kâr amacı gütmeyen kuruluş
-- [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) - protokolün ve Zebra düğümünün gözeticisi
+- [Sovright](https://zechub.wiki/zcash-organizations/sovright) - eski Bootstrap yönetim kurulu üyelerinin kurduğu kâr amacı gütmeyen kuruluş
+- [Zcash Foundation](https://zechub.wiki/zcash-organizations/zcash-foundation) - protokolün ve Zebra düğümünün yöneticisi
 - [Shielded Labs](https://zechub.wiki/zcash-organizations/shielded-labs) - araştırma ve protokol sürdürülebilirliği
 - [Electric Coin Company](https://zechub.wiki/zcash-organizations/electric-coin-company) - 2016'da Zcash'i başlatan şirket
-- [Obscura Labs](https://zechub.wiki/zcash-organizations/obscura-labs) - Afrika ve gelişmekte olan pazarlarda altyapı ve benimsenme
-- [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants) - bağımsız katkıcılar için fonlama
+- [Obscura Labs](https://zechub.wiki/zcash-organizations/obscura-labs) - Afrika ve gelişmekte olan pazarlarda altyapı ve benimseme
+- [Zcash Community Grants](https://zechub.wiki/zcash-organizations/zcash-community-grants) - bağımsız katkıda bulunanlara yönelik finansman

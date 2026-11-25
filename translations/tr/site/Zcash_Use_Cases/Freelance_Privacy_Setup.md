@@ -1,21 +1,21 @@
-# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> Zcash ile Serbest Çalışan Gizlilik Kurulumu
+# <img src="/content-images/programmer-software-engineer-coder-softw-bce5a0cb5b.svg" width="24" height="24" alt="Freelancer icon"/> Zcash ile Serbest Çalışanlar İçin Gizlilik Kurulumu
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Başlangıç - 6 dk
+  Başlangıç - 6 dakika
 </span>
 
-## TL;DR
+## Kısaca
 
-- Ödemeleri shielded adresler üzerinden alın
-- Her müşteri için ayrı kimlikler kullanın (gerekiyorsa)
+- Ödemeleri korumalı adresler üzerinden alın
+- Her müşteri için ayrı kimlikler kullanın (gerekirse)
 - Dahili takip için memo kullanın
 - Gelirinizi gizli tutun
 
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimin için?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimler için?
 
 - Serbest çalışanlar ve sözleşmeli çalışanlar
 - Kripto ile ödeme alan uzaktan çalışanlar
@@ -25,76 +25,76 @@
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Sorun
 
-Kamusal kripto kullanan serbest çalışanlar şunları açığa çıkarır:
+Herkese açık kripto kullanan serbest çalışanlar şunları açığa çıkarır:
 - Gelirlerini
 - Müşterilerini
 - Finansal geçmişlerini
 
-Bu, şunlara yol açabilir:
-- Pazarlık gücünün kaybı
-- Gizlilik riskleri
-- İstenmeyen görünürlük
+Bu durum şunlara yol açabilir:
+- Pazarlık güçlerinin azalmasına
+- Gizlilik risklerine
+- İstenmeyen görünürlüğe
   
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Neden Zcash?
 
-Zcash size şunları sağlar:
-- Ödemeleri gizli şekilde almak
-- Kazançlarınızı gizlemek
-- Müşteri ilişkilerini korumak
+Zcash şunları yapmanızı sağlar:
+- Ödemeleri gizlilik içinde almanızı
+- Kazançlarınızı gizlemenizi
+- Müşteri ilişkilerinizi korumanızı
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> İhtiyacınız Olanlar
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Gerekenler
 
 - Memo desteği olan bir Zcash cüzdanı
-- Shielded adresler hakkında temel anlayış
+- Korumalı adresler hakkında temel bilgi
 
 
 <br/>
 
 ## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım Adım Rehber
 
-### Adım 1: Bir Ödeme Adresi Oluşturun
+### 1. Adım: Bir Ödeme Adresi Oluşturun
 
-Bir shielded (z) adres oluşturun.
+Korumalı (z) bir adres oluşturun.
 
 İsteğe bağlı olarak:
 - Farklı müşteriler için farklı adresler kullanın
 
 
-### Adım 2: Adresi Müşteriyle Paylaşın
+### 2. Adım: Adresi Müşterinizle Paylaşın
 
-z-adresinizi doğrudan müşterinize gönderin.
+z adresinizi doğrudan müşterinize gönderin.
 
 Şunlardan kaçının:
-- Gerekli değilse bunu herkese açık şekilde paylaşmaktan
+- Gerekli değilse adresi herkese açık olarak paylaşmayın
 
-### Adım 3: Takip İçin Memo Kullanın
+### 3. Adım: Takip İçin Memo Kullanın
 
 Ödeme alırken:
 - Müşterilerden bir memo eklemelerini isteyin (ör. fatura kimliği)
 
-Bu size şunlarda yardımcı olur:
-- Verileri herkese açık etmeden ödemeleri takip etmek
+Bu, şunları yapmanıza yardımcı olur:
+- Verileri herkese açık olarak açığa çıkarmadan ödemeleri takip etmek
 
 
-### Adım 4: Kimlik Ayrımını Koruyun
+### 4. Adım: Kimlikleri Birbirinden Ayrı Tutun
 
-Gerekiyorsa:
+Gerekirse:
 - Her müşteri için ayrı cüzdanlar veya adresler kullanın
-- Kimlikleri birbiriyle ilişkilendirmekten kaçının
+- Kimlikleri birbirine bağlamaktan kaçının
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Kaçınılması Gereken Yaygın Hatalar
 
-- Ödemeler için transparent adresler kullanmak  
-- Aynı adresi tüm müşterilerde yeniden kullanmak  
-- Cüzdanı kimlikle herkese açık şekilde ilişkilendirmek  
-- Ödemeleri takip etmemek (karışıklığa yol açar)
+- Ödemeler için şeffaf adresler kullanmak  
+- Tüm müşterilerde aynı adresi yeniden kullanmak  
+- Cüzdanı kimliğinizle herkese açık biçimde ilişkilendirmek  
+- Ödemeleri takip etmemek (karışıklığa yol açabilir)
 
 
 <br/>
@@ -102,9 +102,9 @@ Gerekiyorsa:
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Sonuç
 
 Şunları yapabilirsiniz:
-- Ödemeleri gizli şekilde almak
+- Ödemeleri gizlilik içinde almak
 - Gelir verilerinizi korumak
-- Profesyonel esnekliğinizi sürdürmek
+- Mesleki esnekliğinizi sürdürmek
 
 <br/>
 
@@ -116,13 +116,13 @@ Gerekiyorsa:
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> İlerleme
 
-**6 adımın 3. adımı**
+**6 adımın 3.sü**
 
-Artık geliri nasıl gizli şekilde alacağınızı anlıyorsunuz.
+Artık geliri gizlilik içinde nasıl alacağınızı biliyorsunuz.
 
 <br/>
 
 ## Sonraki Adım
 
-- [Bir İşletme Olarak Ödeme Kabul Edin](/zcash-use-cases/accept-payments-as-a-merchant)
+- [Bir Satıcı Olarak Ödeme Kabul Edin](/zcash-use-cases/accept-payments-as-a-merchant)
 <br/>

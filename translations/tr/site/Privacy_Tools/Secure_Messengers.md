@@ -1,37 +1,37 @@
-[![Sayfayı Düzenle](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
+[![Edit Page](https://img.shields.io/badge/Edit-blue)](https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Secure_Messengers.md)
 
 # Güvenli Mesajlaşma Uygulamaları
 
-## Uçtan uca şifreleme
+## Uçtan uca Şifreleme
 
-Güvenli mesajlaşma uygulamaları açısından bakıldığında, uçtan uca şifreleme bir konuşmayı güvenli tutan bir güvenlik yöntemi olarak vardır. Mesajlar bir cihazdan diğerine giderken, mesajı gönderdiğiniz iletişim uygulaması da dahil olmak üzere hiç kimse ve üçüncü taraflar uygun mesajları okuyamaz. Ayrıca Facebook, Whatsapp ve Zoom gibi çığır açan ve önde gelen birçok mesajlaşma hizmeti sağlayıcısı da hâlihazırda uçtan uca şifreleme teknolojisinden yararlanmaktadır. 
+Güvenli mesajlaşma uygulamaları bağlamında uçtan uca Şifreleme, bir konuşmayı güvende tutan bir güvenlik yöntemi olarak kullanılır. Mesajlar bir cihazdan diğerine giderken, mesajı gönderdiğiniz iletişim uygulaması da dahil olmak üzere hiç kimse ve üçüncü taraflar uygun mesajları okuyamaz. Ayrıca Facebook, Whatsapp ve Zoom gibi birçok çığır açan ve önde gelen mesajlaşma hizmeti sağlayıcısı, uçtan uca Şifreleme teknolojisinden zaten yararlanıyor.
 
 ## E2EE neden gereklidir?
 
-Daha büyük faydalar sağlamak için, uçtan uca şifreleme teknolojisi; finans, iletişim ve sağlık sektörleri dahil ancak bunlarla sınırlı olmamak üzere, veri güvenliğinin gerekli olduğu durumlarda kritik bir rol oynar. Kuruluşların veri gizliliği, güvenlik düzenlemeleri ve yasalarla sorunsuz şekilde uyum sağlamasına olanak tanır.
+Uçtan uca Şifreleme teknolojisi; finans, iletişim ve sağlık hizmetleri sektörleri dahil ancak bunlarla sınırlı olmamak üzere, veri güvenliğinin gerekli olduğu durumlarda önemli bir rol oynar. Kuruluşların veri gizliliği ve güvenlik düzenlemelerinin yanı sıra yasalara da sorunsuz şekilde uymasını sağlar.
 
-**Veri Gizliliği**: Uçtan uca şifreleme ile yalnızca bir mesajın veya verinin amaçlanan alıcısının ona erişebileceği ve şifresini çözebileceği söylenir. Bu da Facebook ve WhatsApp gibi mesajlaşma hizmeti sağlayıcılarının bile içeriği okuyamayacağı anlamına gelir. Bu yüksek düzeyde veri gizliliği, hassas bilgilerin ifşa edilmesini istemeyen kullanıcılar ve kuruluşlar için önemlidir; bu bilgiler finansal işlemler, iş iletişimleri veya yetkisiz erişime karşı korunması gereken özel sohbet içerikleri olabilir.
+**Veri Gizliliği**: Uçtan uca Şifreleme ile bir mesaj veya veriye yalnızca amaçlanan alıcının erişip şifresini çözebileceği söylenir. Bu, Facebook ve WhatsApp gibi mesajlaşma hizmeti sağlayıcısının bile içeriği okuyamayacağı anlamına gelir. Bu kapsamlı veri gizliliği düzeyi; hassas bilgilerin ifşa edilmesini istemeyen kullanıcılar ve kuruluşlar için önemlidir. Bu bilgiler finansal işlemler, ticari iletişimler veya yetkisiz erişime karşı korunması gereken özel sohbetler olabilir.
 
-**Veri Güvenliği**: Bu güçlü teknoloji düzeyi, verilerin aktarım hâlindeyken ya da depoda dururken olası ihlallere karşı korunmasını sağlar.
-Veriler sunucular veya internet üzerinden yol alırken, bilgisayar korsanları gibi yetkisiz kişilerin müdahalesiyle ele geçirilmeye açık hâle gelmelerine neden olan birçok etkene maruz kalır. Uçtan uca şifreleme teknolojisi sayesinde iletilen veriler ele geçirilebilir, ancak gönderen veya alıcı şifreleme anahtarını elinde bulundurmadığı sürece okunamaz olarak kalır. Bu da olası olarak veri ihlallerinin düzeyini azaltırken bireylerin ve kuruluşların iletişimlerinin güvende tutulmasını sağlar.
+**Veri Güvenliği**: Bu güçlü teknoloji düzeyi, verilerin aktarım hâlindeyken veya depolanırken bile olası ihlallere karşı güvence altına alınmasını sağlar.
+Veriler sunucular veya internet üzerinden aktarılırken, bilgisayar korsanları gibi yetkisiz kişilerin müdahalesine karşı savunmasız kalmalarına yol açan birçok etkene maruz kalır. Uçtan uca Şifreleme teknolojisiyle iletilen veriler ele geçirilebilir ancak gönderen veya alıcı Şifreleme anahtarına sahip olmadığı sürece okunamaz durumda kalır. Bu, bireylerin ve kuruluşların iletişimlerinin güvende tutulmasını sağlarken veri ihlallerinin düzeyini ve sayısını potansiyel olarak azaltır.
 
-**Güven ve Kullanıcı Kontrolü**: Uçtan uca şifreleme sayesinde bireyler ve kuruluşlar, mesajlarının, dosyalarının ve diğer hassas bilgilerinin yetkisiz erişime karşı güvende tutulduğunu bildikleri için özgürce iletişim kurabilirler. Aynı şekilde bu teknoloji, bireyleri ve kuruluşları devlet müdahalesi ve gözetimine karşı korumaya da yardımcı olur.
+**Güven ve Kullanıcı Denetimi**: Uçtan uca Şifreleme, bireylerin ve kuruluşların özgürce iletişim kurmalarını sağlar; çünkü mesajlarının, dosyalarının ve diğer hassas bilgilerinin yetkisiz erişime karşı güvende olduğunu bilirler. Aynı şekilde bu teknoloji, bireyleri ve kuruluşları devlet müdahalesi ve gözetimine karşı korumaya yardımcı olur.
 
 ### Bazı Popüler Güvenli Mesajlaşma Uygulamaları
 
-**Zcash Şifreli Memo’lar**
+**Zcash Şifrelenmiş Memolar**
 
-Zcash shielded memoları destekleyen cüzdanlar, kullanıcıların shielded ödemelere şifreli mesajlar eklemesine olanak tanır. Her shielded çıktının kendi 512 baytlık memo alanı vardır; bu, işlemin tamamı için tek bir 512 baytlık hak değildir. Metin biçimi ve cüzdan desteği için [Memolar](/using-zcash/memos) sayfasına bakın. İşlem ücretleri ZEC ile ödenir ve [ZIP 317](https://zips.z.cash/zip-0317), işlemin karmaşıklığına bağlı olan geleneksel bir ücret tanımlar. ABD doları cinsinden maliyet de ZEC döviz kuruyla birlikte değişir, bu nedenle 1 ABD sentinin altında bir ücret garanti edilmez. Göndermeden önce cüzdanın ücret teklifini kontrol edin. Mesajın iletilmesi işlemin yayılmasına, onay politikasına ve alıcı cüzdanın senkronizasyonuna bağlıdır; anlık bir sohbet değildir.
+Zcash korumalı memoları destekleyen cüzdanlar, kullanıcıların korumalı ödemelere Şifrelenmiş mesajlar eklemesine olanak tanır. Her korumalı çıktı kendi 512 baytlık memo alanına sahiptir; bu, işlemin tamamı için tek bir 512 baytlık sınır değildir. Metin biçimi ve cüzdan desteği için [Memolar](/using-zcash/memos) sayfasına bakın. İşlem ücretleri ZEC olarak ödenir ve [ZIP 317](https://zips.z.cash/zip-0317), işlem karmaşıklığına bağlı geleneksel bir ücreti tanımlar. ABD doları cinsinden maliyet de ZEC borsa kuruyla değişir; bu nedenle ücretin 1 ABD sentinin altında olması garanti edilmez. Göndermeden önce cüzdanın ücret tahminini kontrol edin. Mesajların teslim edilmesi; işlemin yayılmasına, onay politikasına ve alıcının cüzdanının eşitlenmesine bağlıdır; anlık sohbet değildir.
 
-Deneyin: https://z.cash/wallets 
+Deneyin: https://z.cash/wallets
 
-![Zcash Şifreli Memo’lar](/content-images/Zcash-1177103374-7bca37eb4d.webp)
+![Zcash'in şifrelenmiş memoları](/content-images/Zcash-1177103374-7bca37eb4d.webp)
 
 **Signal uygulaması**
 
-![Signal Uygulaması](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
+![Signal uygulaması](/content-images/signal-app-logo-scaled-454032876-81b24a0421.webp)
 
-Signal özel mesajlaşma uygulaması, veri gizliliğini en üst düzeyde sunan güvenli bir mesajlaşma uygulamasıdır. Signal özel mesajlaşma uygulaması ücretsizdir ve kullanımı kolaydır; kullanıcıların önceden herhangi bir deneyime sahip olması gerekmez. Signal uygulaması, iletişiminizin tamamen özel kalmasını sağlayan uçtan uca şifreleme teknolojisine sahiptir. Güvenli biçimde özel mesajlar göndermek isteyen herkes Signal özel mesajlaşma uygulamasını kullanmayı değerlendirmelidir; çünkü bu uygulama hem siber güvenlik açıklarınızı hem de veri izinizi büyük ölçüde azaltacaktır.
+Signal özel mesajlaşma uygulaması, veri gizliliğini en üst düzeyde sunan güvenli bir mesajlaşma uygulamasıdır. Signal özel mesajlaşma uygulaması ücretsiz ve kullanımı kolaydır; kullanıcıların önceden deneyim sahibi olması gerekmez. Signal uygulaması, iletişiminizin tamamen gizli kalmasını sağlayan uçtan uca Şifreleme teknolojisine sahiptir. Özel mesajları güvenli bir şekilde göndermek isteyen herkes Signal özel mesajlaşma uygulamasını kullanmayı değerlendirmelidir; çünkü bu uygulama hem siber güvenlik açıklarınızı hem de dijital ayak izinizi önemli ölçüde azaltır.
 
 Deneyin: [https://signal.org/download/](https://signal.org/download/)
 
@@ -39,18 +39,18 @@ Deneyin: [https://signal.org/download/](https://signal.org/download/)
 
 ![Bison Relay](/content-images/ogimg-v1-1000556235-9390372d1e.webp)
 
-Bison Relay uygulaması 2022 yılında piyasaya çıktı. Bison Relay, kullanıcıların hesap sahibi olmasına bağlı değildir - İnanılmaz ama gerçek! Burada gönderilen ve alınan her mesajın ücreti Decred Lightning Network üzerinden ayrı ayrı ödenir. Bu uygulamanın tek amacı, hesap ihtiyacını tamamen ortadan kaldırırken metadata miktarını en aza indirmektir. Öte yandan Bison Relay, sansürün tipik olarak uygulanma biçimine de son vermiştir. 
+Bison Relay uygulaması 2022'de kullanıma sunuldu. Bison Relay, kullanıcıların hesap sahibi olmasına bağlı değildir; inanılmaz ama gerçek! Burada gönderilen ve alınan her mesaj için Decred Lightning Network üzerinden ayrı ayrı ödeme yapılır. Bu uygulamanın tek amacı, üst verileri en aza indirirken hesap ihtiyacını tamamen ortadan kaldırmaktır. Öte yandan Bison Relay, sansürün genellikle uygulanma biçimine son verir.
 
 Deneyin: [https://bisonrelay.org/download](https://bisonrelay.org/download)
 
-**Session Uygulaması**
+**Session uygulaması**
 
-![Session Uygulaması](/content-images/logo-black-9e799f2b06.webp)
+![Session uygulaması](/content-images/logo-black-9e799f2b06.webp)
 
-Session uygulamasının ne olduğunu hâlâ bilmiyorsanız endişelenmeyin! İşte kısa bir bakış: Session, öne çıkan uçtan uca şifreli mesajlaşma uygulamalarından biridir. Uygulama, hassas metadata miktarını en aza indirmek için oluşturulmuştur. Session uygulaması, mutlak gizlilik ve her türlü gözetimden özgürlük isteyen bireyler için tasarlanmıştır. Session uygulamasında kullanıcılar telefon numarası veya e-posta adresi olmadan hesap oluşturabilir; bu da onun tamamen anonim olduğu anlamına gelir. Kullanıcılar ağları üzerinden iz bırakmadan güvenle mesaj gönderebilir, yani sızacak hiçbir şey yoktur.
+Session uygulamasının ne olduğunu bilmiyorsanız endişelenmeyin! İşte kısaca açıklaması: Session, uçtan uca Şifrelemeli mesajlaşma uygulamaları arasında öne çıkanlardan biridir. Uygulama, hassas üst verileri en aza indirmek için geliştirildi. Session uygulaması, mutlak gizlilik ve her türlü gözetimden özgürlük isteyen bireyler için tasarlandı. Session uygulamasında kullanıcılar telefon numarası veya e-posta adresi olmadan hesap oluşturabilir; bu da uygulamanın tamamen anonim olduğu anlamına gelir. Kullanıcılar ağları üzerinden iz bırakmadan güvenli bir şekilde mesaj gönderebilir; böylece sızdırılacak hiçbir şey olmaz.
 
 Deneyin: [https://getsession.org](https://getsession.org)
 
 ## Özet
 
-Uçtan uca şifreleme önemlidir çünkü güçlü gizlilik korumasını teşvik eder, veri güvenliğini en temelinden güçlendirir ve kullanıcıların ağlar ve cihazlar arasında hareket ederken kendi bilgileri üzerinde tam kontrol sahibi olmasını sağlar; böylece dijital çağdaki kritik endişeleri ele alır.
+Uçtan uca Şifreleme önemlidir; çünkü güçlü bir gizlilik koruması sağlar, veri güvenliğini temelinden güçlendirir ve kullanıcıların ağlar ve cihazlar arasında aktarılırken kendi bilgileri üzerinde tam denetim sahibi olmasına olanak tanıyarak dijital çağın kritik endişelerini ele alır.

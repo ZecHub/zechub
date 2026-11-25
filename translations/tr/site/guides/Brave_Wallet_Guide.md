@@ -1,16 +1,16 @@
-# Brave Wallet ile Shielded Zcash (ZEC) Gönderme ve Alma: Adım Adım Gizlilik Rehberi
+# Brave Wallet ile Korumalı Zcash (ZEC) Gönderme ve Alma: Adım Adım Gizlilik Rehberi
 
-Brave Wallet, doğrudan Brave tarayıcısına entegre edilmiş güvenli ve yerel bir kripto cüzdanıdır - uzantı gerekmez.
-
-
-## Shielded ZEC Desteği Neden Önemlidir?
+Brave Wallet, doğrudan Brave tarayıcısına yerleşik, güvenli ve yerel bir kripto cüzdanıdır; uzantı gerekmez.
 
 
-Zcash, shielded işlemlerle varsayılan olarak gizlilik sunan tek kripto paralardan biridir.
+## Korumalı ZEC Desteği Neden Önemlidir?
 
-Brave Wallet artık Orchard shielded ZEC’i destekliyor; bu da üçüncü taraf bir yazılıma ihtiyaç duymadan özel işlemler yapılmasını sağlıyor.
 
-Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönderip alabilir - üstelik tüm bunlar Brave tarayıcısı içinde gerçekleşir.
+Zcash, varsayılan olarak gizlilik sunan ve korumalı işlemleri destekleyen az sayıdaki kripto para biriminden biridir.
+
+Brave Wallet artık Orchard korumalı ZEC desteği sunarak üçüncü taraf yazılımlar olmadan gizli işlemleri mümkün kılıyor.
+
+Kullanıcılar artık bakiyeleri veya meta verileri açığa çıkarmadan ZEC gönderebilir ve alabilir; üstelik tüm bunlar Brave tarayıcısı içinde gerçekleşir.
 
 
 ## Eğitim
@@ -19,7 +19,7 @@ Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönder
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/TNcHY-GXFVo"
-    title="How to use ZEC on Brave"
+    title="Brave üzerinde ZEC kullanma"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -27,29 +27,29 @@ Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönder
 </div>
 
 
-## Bölüm 1: Brave Wallet Kurulumu
+## 1. Bölüm: Brave Wallet Kurulumu
 
-**Kapsanan adımlar:**
+**Ele alınan adımlar:**
 
-1. Brave Browser’ı açın (şimdilik yalnızca masaüstünde)
+1. Brave Browser'ı açın (şimdilik yalnızca masaüstünde)
 
-2. Wallet simgesine tıklayın veya brave://wallet adresine gidin
+2. Cüzdan simgesine tıklayın veya brave://wallet adresine gidin
 
 3. Cüzdanınızı kurun (oluşturun veya içe aktarın)
 
-4. Kripto kontrol paneline erişin
+4. Kripto gösterge paneline erişin
 
 
 ![img1](/content-images/f54cd1a1-8569-4925-ba1c-7597d030593e-8d83734cd5.webp)
 
 
-## Bölüm 2: Brave Wallet’a Zcash (ZEC) Ekleme
+## 2. Bölüm: Zcash (ZEC) Brave Wallet'a Eklenmesi
 
-**Kapsanan adımlar:**
+**Ele alınan adımlar:**
 
-1. Wallet kontrol panelinde "Manage Assets" seçeneğine tıklayın
+1. Cüzdan gösterge panelinde “Manage Assets” seçeneğine tıklayın
 
-2. ZEC arayın ve etkinleştirin
+2. ZEC için arama yapın ve etkinleştirin
 
 3. ZEC artık cüzdanınızda görünür
 
@@ -57,19 +57,19 @@ Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönder
 ![img2](/content-images/6f2b2190-cf55-4394-9d5f-29ff9b5bb525-13d37cb455.webp)
 
 
-## Bölüm 3: Shielded ZEC Alma (Unified Address)
+## 3. Bölüm: Korumalı ZEC Alma (Birleşik Adres)
 
-**Kapsanan adımlar:**
+**Ele alınan adımlar:**
 
-1. Varlıklarınız arasında ZEC’e tıklayın
+1. Varlıklarınızda ZEC seçeneğine tıklayın
 
-2. "Receive" seçeneğini seçin
+2. “Receive” seçeneğini belirleyin
 
-3. Brave bir Unified Address (UA) oluşturur - hem shielded hem de transparent işlemleri destekleyen tek bir adres
+3. Brave, korumalı ve şeffaf işlemleri destekleyen tek bir adres olan Birleşik Adres (UA) oluşturur
 
 4. QR kodunu kopyalayın veya tarayın
 
-5. UA’nızı göndericiyle paylaşın
+5. UA'nızı göndericiyle paylaşın
 
 
 
@@ -77,19 +77,19 @@ Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönder
 
 
 
-## Bölüm 4: Özel Olarak Shielded ZEC Gönderme
+## 4. Bölüm: Korumalı ZEC Özel Olarak Gönderme
 
-**Kapsanan adımlar:**
+**Ele alınan adımlar:**
 
-1. ZEC -> Send seçeneğini seçin
+1. ZEC -> Send seçeneğini belirleyin
 
-2. Alıcının Unified Address veya shielded adresini yapıştırın
+2. Alıcının Birleşik Adresini veya korumalı adresini yapıştırın
 
 3. Tutarı girin
 
 4. İşlem ayrıntılarını onaylayın
 
-5. Send seçeneğine tıklayın - fonlar artık Orchard havuzu kullanılarak özel olarak aktarılır
+5. Send seçeneğine tıklayın; fonlar artık Orchard havuzunu kullanarak özel olarak aktarılır
 
 
 ![img4](/content-images/Internet_20250808_172118_4-e6df0f7fe2.webp)
@@ -99,13 +99,13 @@ Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönder
 
 ## Adres Türleri
 
-İşte her Zcash adres türünün açıklaması:
+Her Zcash adres türünün açıklaması aşağıda yer almaktadır:
 
-**t-addr (t1...)** - Transparent adresler Bitcoin adresleri gibi çalışır; yani işlemler blockchain üzerinde herkese açıktır. Zcash dışındaki cüzdanlarla kullanımları daha kolaydır ancak gizlilik sağlamazlar.
+**t-addr (t1...)** - Şeffaf adresler Bitcoin adresleri gibi çalışır; yani işlemler blokzincir üzerinde herkese açıktır. Zcash olmayan cüzdanlarla kullanımları daha kolaydır, ancak gizlilik sağlamazlar.
 
-**z-addr (zs...)** - Shielded adresler, göndereni, alıcıyı ve tutarı gizlemek için Zcash’in gizlilik teknolojisini (Sprout/Sapling) kullanır. Ayrıntıları yalnızca görüntüleme anahtarları veya adresin sahibi ortaya çıkarabilir.
+**z-addr (zs...)** - Korumalı adresler, göndericiyi, alıcıyı ve tutarı gizlemek için Zcash'ın gizlilik teknolojisini (Sprout/Sapling) kullanır. Ayrıntıları yalnızca görüntüleme anahtarlarına sahip olanlar veya adresin sahibi açığa çıkarabilir.
 
-**UA (u... or QR)** - Unified Address, birden fazla adres türünü (transparent, shielded, Orchard) tek bir adreste birleştirir. Bu, mümkün olduğunda gizliliği tercih ederken azami uyumluluk sağlar.
+**UA (u... veya QR)** - Birleşik Adresler birden fazla adres türünü (şeffaf, korumalı, Orchard) tek bir adreste birleştirir. Bu, mümkün olduğunda gizliliği tercih ederken en yüksek uyumluluğu sağlar.
 
 
 
@@ -115,7 +115,7 @@ Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönder
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/AmTMa5HXa2w"
-    title="Brave Wallet Tutorial : Defi with Near Intents and Shielded Zcash"
+    title="Brave Wallet Eğitimi: Near Intents ile DeFi ve Korumalı Zcash"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -125,11 +125,11 @@ Kullanıcılar artık bakiye veya metadata bilgilerini ifşa etmeden ZEC gönder
 
 ## Sonuç: Gizliliği Pratik Hale Getirmek
 
-Brave Wallet ve shielded ZEC sayesinde gizlilik artık herkes için erişilebilir - özel bir yazılım ya da ileri düzey bilgi gerekmiyor.
+Brave Wallet ve korumalı ZEC sayesinde gizlilik artık herkes tarafından erişilebilir; özel bir yazılım veya ileri düzeyde bilgi gerekmez.
 
-Gazeteciler, aktivistler veya gizlilik bilincine sahip bireyler için idealdir.
+Gazeteciler, aktivistler veya gizliliğe önem veren kişiler için idealdir.
 
-Bugün Brave içinde ilk shielded işleminizi deneyin!
+Brave içinde bugün ilk korumalı işleminizi gerçekleştirmeyi deneyin!
 
 
-**Gizli kalın. Özgür kalın. Brave Wallet ile ZEC’i özel olarak gönderin.**
+**Gizli kalın. Özgür kalın. Brave Wallet ile ZEC özel olarak gönderin.**

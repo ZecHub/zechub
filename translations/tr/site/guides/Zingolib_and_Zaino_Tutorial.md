@@ -1,10 +1,10 @@
 # Z3: (zebrad)(zaino)(zingo-cli)
 
-**zebrad**    : zcash full node
+**zebrad**    : Zcash tam düğümü
 
-**zaino**     : zcash blockchain indexleyici
+**zaino**     : Zcash blokzincir indeksleyicisi
 
-**zingo-cli** : zcash komut satırı zaino-proxy istemcisi (Zingolib'in bir alt kümesi)
+**zingo-cli** : Zcash komut satırı zaino-proxy istemcisi (Zingolib alt kümesi)
 
 ## Video
 
@@ -12,7 +12,7 @@
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/b5dIuGstMvI"
-    title="An introduction to Zingolib + Zaino"
+    title="Zingolib + Zaino hakkında bir giriş"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -25,16 +25,16 @@
 [Sistem Mimarisi](https://github.com/zingolabs/zaino/blob/dev/docs/zaino_live_system_architecture.pdf)
 
 
-- Zcash kullanıcısı, zingo-cli'ye erişim sağlayan Zingolib'i kurar/derler. Gerektiğinde ZEC gönderip alabilir.
-- zingo-cli, zaino'ya ya yerel olarak ya da çevrimiçi güvenli bir kanal üzerinden bağlanır (Zcash kullanıcısı bunun nasıl çalıştığını umursamaz!)
-- Zaino, zebrad veya zcashd erişimi sağlar            
-- Tamamen senkronize edilmiş zebrad, gerçeğin kaynağıdır (artık burada cüzdan yok!)
+- Zcash Kullanıcı Zingolib yükler/derler; böylece zingo-cli erişebilir. Gerektikçe ZEC gönderip alabilir.
+- zingo-cli, zaino'ya yerel olarak veya çevrimiçi güvenli bir kanal üzerinden bağlanır (Zcash kullanıcının bunun nasıl çalıştığını bilmesine gerek yok!)
+- Zaino, zebrad ya da zcashd düğümlerine erişim sağlar            
+- Tamamen eşitlenmiş zebrad gerçeğin kaynağıdır (artık burada cüzdan yok!)
 
 
 
 ## Kurulum
 
-Bunun düzgün çalışması için 3 şey kurmanız gerekecek. Ekran yönetimine yardımcı olması için ayrıca `screen` veya benzeri bir şey de tavsiye ederim.
+Bunun doğru çalışması için 3 şey yüklemeniz gerekecek. Ekran yönetimine yardımcı olması için screen veya benzeri bir şey kullanmanızı da öneririm.
 
 `sudo apt install screen`
 
@@ -46,7 +46,8 @@ cd zebra
 cargo install --git https://github.com/ZcashFoundation/zebra --tag v7.0.0 zebrad
 ```
 
-Zebra 7.0.0 veya daha yeni bir sürümünü kullanın: NU7 Mainnet'te 3.543.405. blokta etkinleştirildi ve daha eski `zebrad` sürümleri zinciri bu yüksekliğin ötesinde takip edemez ([sürüm notları](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+Zebra 7.0.0 veya daha yenisini kullanın: NU7, Mainnet'te 3.543.405 numaralı blokta etkinleştirildi ve daha eski `zebrad` sürümleri bu yüksekliğin ötesinde Zincir'i takip edemez ([sürüm notları](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0)).
+
 
 *isteğe bağlı* (zebrad için bir screen oturumu oluşturun)
 
@@ -55,7 +56,7 @@ screen -S zebra
 zebrad start
 ```
 
-not: bunun tamamen senkronize olması gerekecek! 
+Not: Tamamen eşitlenmesi gerekecek!
 
 ### zaino
 
@@ -72,7 +73,7 @@ PATH=$PATH:~/Desktop/zaino/target/release/
 ```
 screen -S zaino
 cd ~/zaino/zainod
-nano zindexer.toml  => Ana ağ için portu 8232 olarak ayarlayın
+nano zindexer.toml  => Adjust port to 8232 for mainnet
 zainod --config zindexer.toml
 ```
 
@@ -92,9 +93,9 @@ screen -S zingo
 ./zingo-cli --server http://127.0.0.1:8137 --data-dir /media/zebra5/zebra/.cache/lightwalletd
 ```
 
-not: bunun da tıpkı lightwalletd gibi tamamen senkronize olması gerekecek. Zaman kazanmak için harici bir sürücü kullanmanızı tavsiye ederim :)
+Not: lightwalletd gibi bunun da tamamen eşitlenmesi gerekecek. Zaman kazanmak için harici bir sürücü kullanmanızı öneririm :)
 
 
 ## Çalıştırma
 
-Bunları `screen` oturumlarında çalıştırıyorsanız, `screen -r` gerektiğinde geçiş yapmanız için her bir screen oturumunu listeler
+Bunları screen oturumlarında çalıştırıyorsanız, `screen -r` gerektiğinde geçiş yapabileceğiniz tüm screen oturumlarını listeler.

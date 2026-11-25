@@ -4,7 +4,7 @@
 
 # Zcash İçerik Üreticileri için Araçlar: Bahşiş ve Profil Platformları
 
-> **İçerik üreticileri, cypherpunk'lar ve gizliliğe önem veren topluluk için Zcash üzerine kurulu, gizliliği koruyan bahşiş ve profil araçlarına yönelik kapsamlı bir rehber.**
+> **İçerik üreticileri, cypherpunk’lar ve gizliliğe önem veren topluluk için Zcash üzerinde geliştirilmiş, gizliliği koruyan bahşiş ve profil araçlarına kapsamlı bir rehber.**
 
 ---
 
@@ -13,18 +13,18 @@
 1. [Zcash.me](#zcashme)
 2. [TIPZ](#tipz)
    - [Gizlilik İçerik Üreticileri için Neden Önemlidir](#why-privacy-matters-for-creators)
-3. [Görsel / Analoji](#visual--analogy)
+3. [Görsel / Benzetme](#visual--analogy)
 4. [İlgili Sayfalar](#related-pages)
 
 ---
 
 ## Kısaca
 
-* İki Zcash aracı, içerik üreticilerinin özel olarak ödeme almasına yardımcı olur. Zcash.me size shielded adresinizi içeren bir profil sayfası sunar ve TIPZ hayranların size bahşiş göndermesini sağlar.
-* Zcash.me ile birleşik adresinizi ve sosyal medya hesaplarınızı gösteren tek bir bağlantıyı, `zcash.me/[username]`, paylaşırsınız.
-* TIPZ ile hayranlar başka kripto para birimleriyle bahşiş verebilir ve her bahşiş size shielded ZEC olarak ulaşır.
+* İçerik üreticilerinin gizlilik içinde ödeme almasına yardımcı olan iki Zcash araç vardır. Zcash.me, korumalı adresinizin bulunduğu bir profil sayfası sunarken TIPZ, hayranlarınızın size bahşiş göndermesini sağlar.
+* Zcash.me ile tek bir bağlantı, `zcash.me/[username]` paylaşarak birleşik adresinizi ve sosyal medya hesaplarınızı gösterebilirsiniz.
+* TIPZ ile hayranlarınız başka kripto paralarla bahşiş gönderebilir ve her bahşiş size korumalı ZEC olarak ulaşır.
 * Her iki araç da birleşik adresinizi ister (`u1...`).
-* Shielded bir adrese gelen bahşişler, gelirinizi ve bakiyenizi kamuya açık görünümün dışında tutar.
+* Korumalı bir adrese gönderilen bahşişler, gelirinizi ve bakiyenizi herkesin görebileceği şekilde paylaşmaz.
 
 ## Temel Açıklama
 
@@ -34,39 +34,39 @@
 
 #### Genel Bakış
 
-**Zcash.me**, herkesin Zcash kullanıcılarını bulmasını ve onlara ZEC göndermesini kolaylaştıran bir profil dizini ve keşif platformudur. “Zcash için Linktree” işlevi görür; shielded adresinizi ve sosyal medya varlığınızı tek bir bağlantıyla paylaşmanın basit bir yoludur.
+**Zcash.me**, herkesin Zcash kullanıcılarını bulup onlara kolayca ZEC göndermesini sağlayan bir profil dizini ve keşif platformudur. “Zcash için Linktree” işlevi görür; korumalı adresinizi ve sosyal medya hesaplarınızı tek bir bağlantıyla paylaşmanın kolay bir yoludur.
 
 | Öğe              | Ayrıntılar |
 |-------------------|---------|
 | **Web sitesi**       | [https://zcash.me/](https://zcash.me/) |
 | **Twitter**       | [@zcashme](https://x.com/zcashme) |
-| **Profil Biçimi**| `zcash.me/[username]` |
-| **Durum**        | Aktif (geliştirme aşamasındaki özelliklerle birlikte) |
+| **Profil biçimi**| `zcash.me/[username]` |
+| **Durum**        | Yayında (özellikler geliştiriliyor) |
 
-#### Temel Özellikler
+#### Öne Çıkan Özellikler
 
 ##### Şu Anda Kullanılabilir
 - **Özel Profil Sayfaları** - Kullanıcı adı, biyografi, avatar ve konum içeren kişiselleştirilmiş sayfa
-- **Shielded Adres Gösterimi** - Birleşik adresiniz için tek tıklamayla kopyalama düğmesi
+- **Korumalı Adres Görüntüleme** - Birleşik adresinizi tek tıklamayla kopyalama düğmesi
 - **Sosyal Bağlantı Entegrasyonu** - X, LinkedIn, Telegram ve özel web siteleri
 - **Doğrulama Sistemi** - Topluluk güveni için doğrulanmış rozeti
-- **Yönlendirme Liderlik Tablosu** - En iyi yönlendirenleri ve topluluk liderlerini takip edin
-- **Etkinlik Durumu** - Son etkinlik zamanını gösterir.
+- **Davet Edenler Sıralama Tablosu** - En çok kişiyi davet edenleri ve topluluk liderlerini takip edin
+- **Etkinlik Durumu** - En son etkinlik zamanını gösterir.
 
 ##### Yakında
 | Özellik            | Açıklama |
 |--------------------|-------------|
-| Konum Haritası       | Yakındaki Zcash kullanıcılarını bulun |
-| Platform İstatistikleri| Büyüme metriklerini görüntüleyin |
-| Topluluk Anketleri    | Ekosistem konularında oy verin |
+| Konum Haritası       | Yakınınızdaki Zcash kullanıcılarını bulun |
+| Platform İstatistikleri| Büyüme ölçümlerini görüntüleyin |
+| Topluluk Anketleri    | Ekosistem konularında oy kullanın |
 | Haberler ve Duyurular | Resmî güncellemeler |
-| Forum              | Topluluk tartışması |
-| Mobil Uygulama         | Eksiksiz mobil deneyim |
+| Forum              | Topluluk tartışmaları |
+| Mobil Uygulama         | Tam kapsamlı mobil deneyim |
 
 #### Başlangıç
-1. [https://zcash.me/](https://zcash.me/) adresini ziyaret edin ve **Join** seçeneğine tıklayın.
-2. Benzersiz bir kullanıcı adı seçin, biyografi ve profil fotoğrafı ekleyin.
-3. Zcash birleşik adresinizi yapıştırın (`u1...`)
+1. [https://zcash.me/](https://zcash.me/) adresini ziyaret edin ve **Katıl** düğmesine tıklayın.
+2. Benzersiz bir kullanıcı adı seçin, biyografinizi ve profil fotoğrafınızı ekleyin.
+3. Zcash birleşik adresinizi (`u1...`) yapıştırın.
 4. Sosyal medya hesaplarınızı bağlayın.
 5. Bağlantınızı paylaşın: `zcash.me/[yourusername]`
 
@@ -78,50 +78,50 @@
 
 #### Genel Bakış
 
-**TIPZ**, içerik üreticileri ve cypherpunk'lar için özel olarak tasarlanmış bir **özel bahşiş protokolüdür**. Hayranlar herhangi bir büyük kripto para birimiyle bahşiş verir; bu tutar otomatik olarak dönüştürülür ve **shielded ZEC** olarak teslim edilir.
+**TIPZ**, içerik üreticileri ve cypherpunk’lar için özel olarak tasarlanmış **özel bir bahşiş protokolüdür**. Hayranlar büyük kripto paraların herhangi biriyle bahşiş gönderir; bu bahşiş otomatik olarak dönüştürülerek **korumalı ZEC** şeklinde teslim edilir.
 
 | Öğe              | Ayrıntılar |
 |-------------------|---------|
 | **Web sitesi**       | [https://tipz.cash/](https://tipz.cash/) |
 | **Twitter**       | [@tipz_cash](https://x.com/tipz_cash) |
-| **Profil Biçimi**| `tipz.cash/@[username]` |
-| **Durum**        | Aktif |
+| **Profil biçimi**| `tipz.cash/@[username]` |
+| **Durum**        | Yayında |
 
-> *"tipz.cash, içerik üreticileri ve cypherpunk'lar için özel bir bahşiş protokolüdür."*
+> *“tipz.cash, içerik üreticileri ve cypherpunk’lar için özel bir bahşiş protokolüdür.”*
 
 #### Gizlilik İçerik Üreticileri için Neden Önemlidir
 
 ##### Finansal Özgürlük
 - %0 platform ücreti
-- Saklamasız ve kendi kendine saklama
+- Gözetimsiz ve kullanıcının kendi gözetiminde
 - Aracı yok
 
 ##### Gizlilik Öncelikli Tasarım
-- Her bahşiş shielded ZEC olarak ulaşır.
+- Her bahşiş korumalı ZEC olarak ulaşır.
 - Özel cüzdan bakiyesi
-- Bahşişlerle şifreli mesajlaşma
-- Tam içerik üreticisi anonimliği seçeneği
+- Bahşişlerle birlikte şifrelenmiş mesajlaşma
+- İçerik üreticileri için tam anonimlik seçeneği
 
 ##### Zincirler Arası Ödemeler
-| Para Birimi | Ağ |
+| Para birimi | Ağ |
 |----------|---------|
 | ETH      | Ethereum |
-| USDC     | Birden fazla zincir |
+| USDC     | Birden fazla Zincir |
 | SOL      | Solana |
 | ZEC      | Doğrudan Zcash |
 
-##### İçerik Üreticisi Koruması
+##### İçerik Üreticilerinin Korunması
 - Platformdan çıkarılma riski yok
 - Sansüre dayanıklı
 - KYC gerekmez
 
 ---
 
-## Görsel / Analoji
+## Görsel / Benzetme
 
-Bir kafe tezgâhındaki bahşiş kavanozu camdır. Odadaki herkesin kimin bozuk para bıraktığını ve kavanozun ne kadar dolu olduğunu görmesini sağlar.
+Bir kafenin tezgâhındaki bahşiş kavanozu camdır. Odadaki herkes kimin içine bozuk para attığını ve kavanozun ne kadar dolu olduğunu görür.
 
-Shielded bir adres, yuvalı kilitli bir posta kutusu gibi çalışır. Hayranlar içine bozuk para ve not bulunan bir zarf bırakır; kutuyu yalnızca içerik üreticisi açar. TIPZ kapıya bir döviz bürosu ekler: hayran ETH veya SOL ile gelebilir ve posta kutusuna ulaşan şey ZEC olur.
+Korumalı bir adres, posta yuvası olan kilitli bir posta kutusu gibidir. Hayranlar içine bozuk para ve bir note koydukları zarfı bırakır; kutuyu yalnızca içerik üreticisi açar. TIPZ kapıya bir döviz bürosu ekler: Hayran ETH veya SOL ile gelebilir ve posta kutusuna ulaşan şey ZEC olur.
 
 ```
 TIPZ Payment Flow
@@ -133,10 +133,10 @@ Fan selects amount + message -> Protocol auto-converts -> Creator receives priva
 
 ## İlgili Sayfalar
 
-- [Birleşik Adresler](/using-zcash/unified-addresses): her iki aracın da istediği `u1...` adresi.
-- [Cüzdanlar](/using-zcash/wallets): shielded bahşişleri almak için bir cüzdan seçin.
-- [Notlar](/using-zcash/memos): özel bir notun shielded ödemeyle nasıl iletildiği.
-- [Ödeme Talebi URI'leri](/using-zcash/payment-request-uris): belirli bir tutarı talep eden bir `zcash:` bağlantısı veya QR kodu.
-- [Ödeme İşlemcileri](/using-zcash/payment-processors): ZEC karşılığında mal ve hizmet satmaya yönelik araçlar.
+- [Birleşik Adresler](/using-zcash/unified-addresses): Her iki aracın da istediği `u1...` adres.
+- [Cüzdanlar](/using-zcash/wallets): Korumalı bahşişleri almak için bir cüzdan seçin.
+- [Memolar](/using-zcash/memos): Özel bir note’un korumalı bir ödemeyle nasıl iletildiğini öğrenin.
+- [Ödeme İsteği URI’leri](/using-zcash/payment-request-uris): Belirli bir tutarı talep eden bir `zcash:` bağlantısı veya QR kodu.
+- [Ödeme İşlemcileri](/using-zcash/payment-processors): ZEC karşılığında ürün ve hizmet satmaya yarayan araçlar.
 
 **Son güncelleme:** Ekim 2026

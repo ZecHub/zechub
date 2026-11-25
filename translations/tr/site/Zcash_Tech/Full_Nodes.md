@@ -1,34 +1,34 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Full_Nodes.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Tam Düğümler
 
 ## Özet
 
-- Bir tam düğüm, Zcash blok zincirinin eksiksiz bir kopyasını tutar ve her yeni blok ile işlemi fikir birliği kurallarına göre denetler.
-- Zebra (`zebrad`), bugün kurulacak düğümdür. Zakura, Zebra üzerinden çatallanmış ikinci bir uygulamadır.
-- zcashd kullanımdan kaldırılmıştır. Destek Sonu durdurma noktasına 18 Temmuz 2026'da, 3417100 blok yüksekliğinde ulaşıldı ve bu düğümler artık başlamıyor.
-- Düğüm ve cüzdan artık ayrı programlardır. [Zallet](https://github.com/zcash/zallet) bir düğüm üzerinde çalışır ve anahtarları tutar.
-- Kendi düğümünüzü çalıştırmak size bağımsız doğrulama sağlar ve başka birinin sunucusuna güvenme gereksinimini ortadan kaldırır.
+- Tam bir düğüm, Zcash blokzincirinin eksiksiz bir kopyasını tutar ve her yeni bloğu ve işlemi konsensüs kurallarına göre denetler.
+- Zebra (`zebrad`), bugün kurmanız gereken düğümdür. Zakura, Zebra'ten çatallanmış ikinci bir uygulamadır.
+- zcashd kullanımdan kaldırılmıştır. Destek Sonu durdurması 18 Temmuz 2026'da 3417100 blok yüksekliğinde gerçekleşti ve bu düğümler artık başlatılamıyor.
+- Düğüm ve cüzdan artık ayrı programlardır. [Zallet](https://github.com/zcash/zallet) bir düğüme bağlanarak çalışır ve anahtarları tutar.
+- Kendi düğümünüzü çalıştırmak, bağımsız doğrulama yapmanızı sağlar ve başkasının sunucusuna güvenme gereksinimini ortadan kaldırır.
 
 ## Temel Açıklama
 
-Tam Düğüm, bir kripto paranın blok zincirinin tam bir kopyasını çalıştıran ve size protokolün özelliklerine erişim sağlayan yazılımdır.
+Tam düğüm, bir kripto para biriminin blokzincirinin eksiksiz bir kopyasını çalıştıran ve protokolün özelliklerine erişmenizi sağlayan yazılımdır.
 
-Genesis'ten bu yana gerçekleşen her işlemin eksiksiz kaydını tutar; bu nedenle blok zincirine eklenen yeni işlemlerin ve blokların geçerliliğini doğrulayabilir.
+Başlangıç bloğundan bu yana gerçekleşmiş tüm işlemlerin eksiksiz kaydını tutar; bu nedenle blokzincire eklenen yeni işlem ve blokların geçerliliğini doğrulayabilir.
 
 ## Düğüm Uygulamaları
 
 ### Zebra
 
-Zebra, Zcash Foundation tarafından oluşturulan ve Rust ile yazılmış, Zcash protokolünün bağımsız ve üretime hazır bir tam düğüm uygulamasıdır. zcashd kullanımdan kaldırıldığı için, yeni kurulumlarda önerilen tam düğüm Zebra'dır (`zebrad`).
+Zebra, Zcash Foundation tarafından oluşturulan ve Rust ile yazılmış, Zcash protokolünün bağımsız ve üretime hazır bir tam düğüm uygulamasıdır. zcashd kullanımdan kaldırıldığı için yeni kurulumlarda önerilen tam düğüm Zebra (`zebrad`) uygulamasıdır.
 
-Zebra blokları ve işlemleri doğrular, eşler arası ağa katılır ve uygulamalar için bir RPC arayüzü sunar. Cüzdan artık ayrı bir bileşendir: [Zallet](https://github.com/zcash/zallet), bir Zebra düğümü üzerinde çalışır ve anahtarlar ile bakiyeleri yönetir. Bu, düğümü ve cüzdanı tek bir süreçte birleştiren zcashd'ün yerini alır.
+Zebra blokları ve işlemleri doğrular, eşler arası ağa katılır ve uygulamalar için bir RPC arayüzü sunar. Cüzdan artık ayrı bir bileşendir: [Zallet](https://github.com/zcash/zallet) bir Zebra düğümüne bağlanarak çalışır ve anahtarları ve bakiyeleri yönetir. Bu, düğümü ve cüzdanı tek bir süreçte bir araya getiren zcashd uygulamasının yerini alır.
 
-Korumalı hafif cüzdanlara hizmet vermek için düğüm, yerleşik [lightwalletd](https://github.com/zcash/lightwalletd) veya daha yeni [Zaino](https://zechub.wiki/zcash-tech/zaino) olmak üzere bir indeksleyiciyle birlikte çalışır.
+Korumalı hafif cüzdanlara hizmet vermek için düğüm, yerleşik [lightwalletd](https://github.com/zcash/lightwalletd) veya daha yeni [Zaino](https://zechub.wiki/zcash-tech/zaino) dizinleyicilerinden biriyle birlikte çalışır.
 
-Kurulum talimatları için Zebra kitabını mutlaka okuyun ve destek için Ar-Ge Discord sunucusuna katılın.
+Kurulum talimatları için Zebra kitabını mutlaka okuyun ve destek almak için Ar-Ge Discord sunucusuna katılın.
 
 [GitHub](https://github.com/ZcashFoundation/zebra/)
 
@@ -38,25 +38,25 @@ Kurulum adımları, yapılandırma ve donanım gereksinimleri için [Zebra Tam D
 
 ### Zakura
 
-Zakura, Zebra üzerinden çatallanmış ve Valar Group ile Project Tachyon tarafından geliştirilmiş, fikir birliğiyle uyumlu ikinci bir tam düğümdür. Aynı protokol kurallarını izler; daha hızlı senkronizasyon, blok budama ve bir zcashd RPC uyumluluk katmanı ekler. [Zakura Düğümü](/zcash-tech/zakura-node) sayfasına bakın.
+Zakura, Zebra'ten çatallanmış ve Valar Group ile Project Tachyon tarafından birlikte geliştirilen, konsensüsle uyumlu ikinci bir tam düğümdür. Aynı protokol kurallarına uyar; daha hızlı eşitleme, blok budama ve bir zcashd RPC uyumluluk katmanı ekler. [Zakura Düğüm](/zcash-tech/zakura-node) sayfasına bakın.
 
 ### zcashd (kullanımdan kaldırıldı)
 
-> **Not:** zcashd kullanımdan kaldırılmıştır. Electric Coin Company [kullanımdan kaldırıldığını duyurdu](https://z.cash/support/zcashd-deprecation/) ve otomatik Destek Sonu durdurma noktasına 18 Temmuz 2026'da, 3417100 blok yüksekliğinde ulaşıldı. Değiştirilmemiş her zcashd 6.20.0 düğümü bu yükseklikte kapandı ve yeniden başlamayı reddeder; yazılım NU6.3'ü desteklemez. Zebra kullanın. Bir zcashd `wallet.dat` sahibiyseniz, [Geçiş Rehberi: zcashd'den zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) bölümünü izleyin.
+> **Not:** zcashd kullanımdan kaldırılmıştır. Electric Coin Company [kullanımdan kaldırıldığını duyurdu](https://z.cash/support/zcashd-deprecation/) ve otomatik Destek Sonu durdurması 18 Temmuz 2026'da 3417100 blok yüksekliğinde gerçekleşti. Değiştirilmemiş tüm zcashd 6.20.0 düğümleri bu blok yüksekliğinde kapandı ve yeniden başlatılamıyor; yazılım NU6.3 sürümünü desteklemiyor. Zebra kullanın. Bir zcashd `wallet.dat` kullanıyorsanız [Migration Guide: zcashd to zebrad/Zallet](https://zechub.wiki/guides/migration-guide-zcashd-to-zebrad-zallet) kılavuzunu izleyin.
 
-zcashd, Electric Coin Company tarafından geliştirilen ve sürdürülen, Zcash için özgün Tam Düğüm uygulamasıydı. Aşağıdaki derleme talimatları, başvuru amacıyla ve zcashd'ten geçiş yapan operatörler için korunmuştur.
+zcashd, Zcash için geliştirilen ve bakımı Electric Coin Company tarafından yapılan ilk Tam Düğüm uygulamasıydı. Aşağıdaki derleme talimatları, başvuru amacıyla ve zcashd uygulamasından geçiş yapan operatörler için korunmuştur.
 
-zcashd, RPC arayüzü üzerinden bir dizi API sunar. Bu API'ler, harici uygulamaların düğümle etkileşim kurmasını sağlayan işlevler sunar.
+zcashd, RPC arayüzü üzerinden bir API kümesi sunar. Bu API'ler, harici uygulamaların düğümle etkileşim kurmasını sağlayan işlevler sağlar.
 
-[lightwalletd](https://github.com/zcash/lightwalletd), geliştiricilerin zcashd ile doğrudan etkileşim kurmak zorunda kalmadan mobil uyumlu korumalı hafif cüzdanlar oluşturup sürdürmelerini sağlamak için bir tam düğüm kullanan uygulama örneğidir.
+[lightwalletd](https://github.com/zcash/lightwalletd), geliştiricilerin zcashd ile doğrudan etkileşim kurmadan mobil cihazlara uygun korumalı hafif cüzdanlar oluşturup bakımını yapmalarını sağlamak için tam düğüm kullanan bir uygulama örneğidir.
 
 [Desteklenen RPC komutlarının tam listesi](https://zcash.github.io/rpc/)
 
 [zcashd kitabı](https://zcash.github.io/zcash/)
 
-#### Bir Düğüm Başlatma (Linux)
+#### Düğümü başlatma (Linux)
 
-- Bağımlılıkları Kurun
+- Bağımlılıkları yükleyin
 
       sudo apt update
 
@@ -65,7 +65,7 @@ zcashd, RPC arayüzü üzerinden bir dizi API sunar. Bu API'ler, harici uygulama
       autoconf libtool ncurses-dev unzip git python3 python3-zmq \
       zlib1g-dev curl bsdmainutils automake libtinfo5
 
-- En son sürümü klonlayın, sürümü seçin, kurulum yapın ve derleyin:
+- En son sürümü klonlayın, sürümü seçin, kurulumu yapın ve derleyin:
 
       git clone https://github.com/zcash/zcash.git
 
@@ -76,71 +76,71 @@ zcashd, RPC arayüzü üzerinden bir dizi API sunar. Bu API'ler, harici uygulama
       ./zcutil/clean.sh
       ./zcutil/build.sh -j$(nproc)
 
-- Blok Zincirini Senkronize Edin (birkaç saat sürebilir)
+- Blokzinciri eşitleyin (birkaç saat sürebilir)
 
-    Düğümü başlatmak için şunu çalıştırın:
+    Düğümü başlatmak için şu komutu çalıştırın:
 
       ./src/zcashd
 
-- Özel Anahtarlar ~/.zcash/wallet.dat içinde saklanır
+- Özel anahtarlar ~/.zcash/wallet.dat dosyasında saklanır
 
-[Raspberry Pi üzerinde zcashd rehberi](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
+[Raspberry Pi'de zcashd için kılavuz](https://zechub.notion.site/Raspberry-Pi-4-a-zcashd-full-node-guide-6db67f686e8d4b0db6047e169eed51d1)
 
-## Pratik Sonuçlar
+## Uygulamadaki Etkileri
 
 ### Ağ
 
-Bir tam düğüm çalıştırarak merkeziyetsizliğini destekleyip zcash ağının güçlenmesine yardımcı olursunuz.
+Tam bir düğüm çalıştırarak merkeziyetsizliği destekler ve zcash ağını güçlendirmeye yardımcı olursunuz.
 
-Bu, hasım kontrolünü önlemeye ve ağın bazı kesinti türlerine karşı dayanıklı kalmasına yardımcı olur.
+Bu, düşmanca denetimi önlemeye ve ağı bazı kesinti türlerine karşı dayanıklı tutmaya yardımcı olur.
 
-DNS tohumlayıcıları, yerleşik bir sunucu üzerinden diğer güvenilir düğümlerin listesini sunar. Bu, işlemlerin ağ boyunca yayılmasını sağlar. Zcash Foundation'ın tohumlayıcıları, Rust ile yazılmış bir DNS tohumlayıcısı olan [Zeeder](https://github.com/ZcashFoundation/zeeder)'ü çalıştırır; bu, CoreDNS tabanlı eski dnsseeder'ın yerini almıştır. Görüntüleri `zfnd/zeeder` olarak yayımlanır; eski `zfnd/dnsseeder` adı kullanımdan kaldırılıyor.
+DNS tohum sunucuları, yerleşik bir sunucu aracılığıyla diğer güvenilir düğümlerin listesini sunar. Bu, işlemlerin ağ genelinde yayılmasını sağlar. Zcash Foundation'in tohum sunucuları, Rust ile yazılmış ve CoreDNS tabanlı dnsseeder uygulamasının yerini almış bir DNS tohum sunucusu olan [Zeeder](https://github.com/ZcashFoundation/zeeder) uygulamasını çalıştırır. Görüntüleri `zfnd/zeeder` olarak yayımlanır; eski `zfnd/dnsseeder` adı kullanımdan kaldırılmaktadır.
 
 ### Ağ İstatistikleri
 
-Bunlar, Zcash Ağ verilerine erişim sağlayan örnek platformlardır:
+Zcash ağı verilerine erişim sağlayan platform örnekleri:
 
 [Zcash Blok Gezgini](https://mainnet.zcashexplorer.app)
 
-[Coin Metrics ağ verileri](https://docs.coinmetrics.io/network-data/network-data-overview) — metrik belgeleri ve güncel varlık kapsamına ait bağlantılar.
+[Coin Metrics ağ verileri](https://docs.coinmetrics.io/network-data/network-data-overview) — ölçüm belgeleri ve güncel varlık kapsamına ilişkin bağlantılar.
 
-Ayrıca testler çalıştırarak veya yeni iyileştirmeler önerip metrikler sağlayarak ağın geliştirilmesine katkıda bulunabilirsiniz.
+Testler çalıştırarak veya yeni iyileştirmeler önerip ölçüm verileri sağlayarak ağın geliştirilmesine de katkıda bulunabilirsiniz.
 
 ### Madencilik
 
-Madenciler, getblocktemplate ve getmininginfo gibi madencilikle ilgili tüm RPC'lere erişmek için tam düğümlere ihtiyaç duyar.
+Madencilerin, getblocktemplate ve getmininginfo gibi madencilikle ilgili tüm RPC'lere erişmek için tam düğümlere ihtiyacı vardır.
 
-zcashd ayrıca korumalı coinbase'e madenciliği de mümkün kılar. Madenciler ve madencilik havuzları, varsayılan olarak bir z-adresinde korumalı ZEC biriktirmek için doğrudan madencilik yapma seçeneğine sahiptir.
+zcashd, coinbase işleminin korumalı havuza yönlendirilerek madencilik yapılmasını da sağlar. Madenciler ve madencilik havuzları, korumalı ZEC bir z-adresinde varsayılan olarak biriktirmek için doğrudan bu adrese madencilik yapabilir.
 
-[Madencilik Rehberi](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html)'ni okuyun veya [Zcash Madenciler](https://forum.zcashcommunity.com/c/mining/13) için Topluluk Forumu sayfasına katılın.
+[Madencilik Kılavuzu](https://zcash.readthedocs.io/en/latest/rtd_pages/zcash_mining_guide.html)'nu okuyun veya [Zcash Madencileri](https://forum.zcashcommunity.com/c/mining/13) için Topluluk Forumu sayfasına katılın.
 
 ### Gizlilik
 
-Bir tam düğüm çalıştırmak, Zcash ağındaki tüm işlemleri ve blokları bağımsız olarak doğrulamanızı sağlar.
+Tam bir düğüm çalıştırmak, Zcash ağındaki tüm işlemleri ve blokları bağımsız olarak doğrulamanızı sağlar.
 
-Tam düğüm çalıştırmak, işlemleri sizin adınıza doğrulamak için üçüncü taraf hizmetleri kullanmayla ilişkili bazı gizlilik risklerini önler.
+Tam bir düğüm çalıştırmak, işlemleri sizin adınıza doğrulamak için üçüncü taraf hizmetlerini kullanmanın getirdiği bazı gizlilik risklerini önler.
 
-Kendi düğümünüzü kullanmak ayrıca ağa [Tor](https://zcash.github.io/zcash/user/tor.html) aracılığıyla bağlanmaya da olanak tanır.
-Bunun ek bir avantajı, diğer kullanıcıların düğümünüzün .onion adresine özel olarak bağlanabilmesidir.
+Kendi düğümünüzü kullanmanız, ağa [Tor](https://zcash.github.io/zcash/user/tor.html) üzerinden bağlanmanıza da olanak tanır.
+Bunun ek bir avantajı, diğer kullanıcıların düğümünüze özel olarak .onion adresiniz üzerinden bağlanabilmesidir.
 
-## Yaygın Hatalar
+## Sık Yapılan Hatalar
 
-- Yukarıdaki talimatlarla zcashd derleyip çalışan bir düğüm beklemek. Bu ikili dosyalar kullanım dışı bırakma yüksekliğinde durur.
-- Bir düğüm çalıştırıp mobil cüzdanınızın artık onu kullandığını varsaymak. Bir hafif cüzdan, kendi sunucunuza yönlendirene kadar yapılandırıldığı sunucuyla iletişim kurmaya devam eder. [Hafif Cüzdan Düğümleri](/zcash-tech/lightwallet-nodes) sayfasına bakın.
-- Yalnızca `zebrad` çalıştırıp hafif cüzdanların bağlanmasını beklemek. Düğümün yanında lightwalletd veya [Zaino](/zcash-tech/zaino) olmak üzere bir indeksleyici gerekir.
-- Düğümde cüzdan RPC'leri aramak. Anahtarlar ve bakiyeler Zallet'e taşındı.
+- Yukarıdaki talimatları izleyerek zcashd derlemek ve çalışan bir düğüm elde edeceğinizi sanmak. Bu ikili dosyalar kullanımdan kaldırılma blok yüksekliğinde durur.
+- Bir düğüm çalıştırıp mobil cüzdanınızın artık bu düğümü kullandığını varsaymak. Hafif bir cüzdan, kendi düğümünüzü kullanacak şekilde ayarlayana kadar yapılandırıldığı sunucuyla iletişim kurmaya devam eder. [Hafif Cüzdan Düğümleri](/zcash-tech/lightwallet-nodes) sayfasına bakın.
+- Yalnızca `zebrad` çalıştırıp hafif cüzdanların bağlanmasını beklemek. Düğümün yanında, lightwalletd veya [Zaino](/zcash-tech/zaino) dizinleyicilerinden biri çalışmalıdır.
+- Düğümde cüzdan RPC'lerini aramak. Anahtarlar ve bakiyeler Zallet uygulamasına taşındı.
 
 ## İlgili Sayfalar
 
-- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) - önerilen düğümü kurun, yapılandırın ve çalıştırın
-- [Zakura Düğüm](/zcash-tech/zakura-node) - Zebra üzerinden çatallanmış ikinci düğüm uygulaması
+- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) - önerilen düğümü yükleme, yapılandırma ve çalıştırma
+- [Zakura Düğüm](/zcash-tech/zakura-node) - Zebra'ten çatallanmış ikinci düğüm uygulaması
 - [Hafif Cüzdan Düğümleri](/zcash-tech/lightwallet-nodes) - hafif cüzdanların sorguladığı sunucular
-- [Zaino](/zcash-tech/zaino) - hafif cüzdanlara hizmet veren Rust indeksleyicisi
-- [Zinder](/zcash-tech/zinder) - Zcash Foundation'nın Zebra ve Zakura için alfa indeksleyicisi
-- [Zcash Cüzdan Senkronizasyonu](/zcash-tech/zcash-wallet-syncing) - senkronizasyonun neden bu şekilde çalıştığı
+- [Zaino](/zcash-tech/zaino) - hafif cüzdanlara hizmet veren Rust dizinleyicisi
+- [Zinder](/zcash-tech/zinder) - Zcash Foundation'in Zebra ve Zakura için alfa dizinleyicisi
+- [Zcash Cüzdan Eşitleme](/zcash-tech/zcash-wallet-syncing) - eşitlemenin neden bu şekilde çalıştığı
 
-## Daha Fazla Öğrenme
+## Daha Fazla Bilgi
 
-[Destek Belgeleri](https://zcash.readthedocs.io/en/latest/)'ni okuyun
+[Destek Belgeleri](https://zcash.readthedocs.io/en/latest/) sayfasını okuyun.
 
-[Discord Sunucumuza](https://discord.gg/zcash) katılın veya [X](https://X.com/ZecHub) üzerinden bizimle iletişime geçin
+[Discord Sunucumuza](https://discord.gg/zcash) katılın veya [X](https://X.com/ZecHub) üzerinden bize ulaşın.

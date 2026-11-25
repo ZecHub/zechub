@@ -1,56 +1,56 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Halo.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 # Halo
 
-## Özet
+## Kısaca
 
-Halo, Electric Coin Co'te Sean Bowe tarafından keşfedilen, güven gerektirmeyen, özyinelemeli bir sıfır bilgi kanıtı (ZKP) sistemidir. Güvenilir bir kurulum ihtiyacını ortadan kaldırır ve özyinelemeli kanıt bileşimini pratik hâle getirir; bu da Zcash'in mevcut ölçeklenebilirlik ve güvenlik yol haritasının temelidir.
+Halo, Electric Coin Co bünyesinde Sean Bowe tarafından keşfedilen, güvene dayalı kurulum gerektirmeyen özyinelemeli bir sıfır bilgi kanıtı (zero-knowledge proof, ZKP) sistemidir. Güvene dayalı kurulum ihtiyacını ortadan kaldırır ve özyinelemeli kanıt bileşimini pratik hâle getirir; bu da Zcash'ın güncel ölçeklenebilirlik ve güvenlik yol haritasının temelini oluşturur.
 
-- **Nedir:** verimli özyineleme ve güvenilir kurulum töreni olmadan çalışan bir zk-SNARK yapısıdır.
-- **Neden önemlidir:** 2022'de NU5 ile etkinleştirilen Zcash'in Orchard korumalı havuzu, bu araştırmanın üretim uygulaması olan Halo 2 üzerinde çalışır.
-- **Temel özellik:** kurulum törenlerinden kaynaklanan "zehirli atık" yoktur ve pratik olarak sınırsız sayıda başka kanıtı doğrulayabilen kanıtlar sunar.
-- **Lisanslama:** Halo 2, [MIT ve Apache 2.0](https://github.com/zcash/halo2#readme) kapsamında açık kaynaklıdır; dolayısıyla ekosistemdeki herkes bunun üzerine inşa edebilir.
+- **Nedir:** verimli özyineleme ve güvene dayalı kurulum töreni gerektirmeyen bir zk-SNARK yapısıdır.
+- **Neden önemlidir:** Zcash'ın Orchard korumalı havuzu, 2022'de NU5 ile etkinleştirildi ve araştırmanın üretim uygulaması olan Halo 2 üzerinde çalışıyor.
+- **Temel özelliği:** Kurulum törenlerinden kaynaklanan “zehirli atık” yoktur ve kanıtlar pratikte sınırsız sayıda başka kanıtı doğrulayabilir.
+- **Lisanslama:** Halo 2, [MIT ve Apache 2.0](https://github.com/zcash/halo2#readme) kapsamında açık kaynaklıdır; böylece ekosistemdeki herkes bu sistem üzerine geliştirme yapabilir.
 
 ---
 
 ## Temel Açıklama
 
-Halo, Electric Coin Co'te Sean Bowe tarafından keşfedilen, güven gerektirmeyen, özyinelemeli bir sıfır bilgi kanıtı sistemidir. Güvenilir kurulumu ortadan kaldırır ve Zcash blok zincirinin daha fazla ölçeklenebilmesini sağlar. Halo, hem verimli hem de özyinelemeli olan ilk sıfır bilgi kanıtı sistemiydi ve yaygın olarak bilimsel bir atılım kabul edilir.
+Halo, Electric Coin Co bünyesinde Sean Bowe tarafından keşfedilen, güvene dayalı kurulum gerektirmeyen özyinelemeli bir sıfır bilgi kanıtı sistemidir. Güvene dayalı kurulum ihtiyacını ortadan kaldırır ve Zcash blokzincirinin daha ölçeklenebilir olmasını sağlar. Halo, hem verimli hem de özyinelemeli olan ilk sıfır bilgi kanıtı sistemiydi ve bilimsel bir dönüm noktası olarak kabul ediliyor.
 
 ![halo](/content-images/_unavailable.svg "halo")
 
 ### İki bileşen
 
-- **Özlü Polinom Taahhüt Şeması.** Bir taahhütçünün, doğrulayıcının taahhüt edilen polinomun ileri sürülen değerlendirmelerini onaylamak için kullanabileceği kısa bir dizeyle bir polinoma taahhütte bulunmasına olanak tanır.
-- **Polinom Etkileşimli Oracle Kanıtı.** Doğrulayıcı, polinom taahhüt şemasını kullanarak kanıtlayıcıdan (bir algoritma) seçtiği noktalardaki tüm taahhütleri açmasını ister ve aralarındaki özdeşliğin doğru olup olmadığını kontrol eder.
+- **Kısa Polinom Kriptografik Taahhüt Şeması.** Taahhüt sahibinin bir polinoma kısa bir dizeyle taahhüt etmesini sağlar. Bu dize, doğrulayıcının taahhüt edilen polinomun iddia edilen değerlerini doğrulamak için kullanabileceği bir bilgidir.
+- **Polinom Etkileşimli Oracle Kanıtı.** Doğrulayıcı, kanıtlayıcıdan (bir algoritma) polinom taahhüt şemasını kullanarak seçtiği noktalardaki tüm taahhütleri açmasını ister ve bunlar arasındaki özdeşliğin doğru olduğunu denetler.
 
-### Güvenilir kurulum yok
+### Güvene dayalı kurulum yok
 
-Groth16 gibi bazı zk-SNARK yapıları, genellikle ortak referans dizesi (CRS) olarak adlandırılan herkese açık parametrelerini oluşturmak için güvenilir bir kurulum gerektirir. CRS, kanıtlayıcılar ve doğrulayıcılarla paylaşılır; yok edilmesi gereken sır bu değildir. Böyle bir kurulumun ürettiği gizli ara materyal ("zehirli atık") imha edilmelidir. Güvenli bir çok taraflı hesaplama bu güveni dağıtabilir: en az bir katılımcı protokole uyup gizli katkısını imha ederse tören güvenlidir. ECC'in [herkese açık parametreler ve zehirli atık açıklamasına](https://zodl.com/snark-parameters/) bakın.
+Groth16 gibi bazı zk-SNARK yapıları, genellikle ortak referans dizgesi (CRS) olarak adlandırılan genel parametrelerini oluşturmak için güvene dayalı kurulum gerektirir. CRS, kanıtlayıcılar ve doğrulayıcılarla paylaşılır; yok edilmesi gereken sır bu değildir. Böyle bir kurulumun ürettiği gizli ara malzeme (“zehirli atık”) atılmalıdır. Çok taraflı güvenli hesaplama, bu güveni katılımcılar arasında dağıtabilir: En az bir katılımcı protokolü izleyip kendi gizli katkısını yok ederse tören güvenlidir. ECC'ın [genel parametreler ve zehirli atık açıklamasına](https://zodl.com/snark-parameters/) bakın.
 
-Zcash'in önceki Sprout ve Sapling korumalı havuzları, sırasıyla BCTV14 ve Groth16 olmak üzere güvenilir kurulumlu kanıtlama sistemlerini kullanıyordu. Bunların genel parametreleri kanıtlama ve doğrulama için kullanılabilir olmaya devam etmektedir. Endişe, yanlış kanıtlara olanak tanıyabilecek gizli kurulum materyalinin saklanıp saklanmadığıdır; CRS'nin kendisinin yayımlanması beklenen bir durumdur ve bu gizli materyali açığa çıkarmaz.
+Zcash'ın önceki Sprout ve Sapling korumalı havuzlarında sırasıyla BCTV14 ve Groth16 olmak üzere, güvene dayalı kurulum gerektiren kanıt sistemleri kullanılıyordu. Genel parametreleri kanıt oluşturma ve doğrulama için kullanılabilir durumda. Endişe konusu, yanlış kanıtlar oluşturulmasına olanak sağlayabilecek gizli kurulum malzemesinin saklanmış olup olmadığıdır; CRS'nin yayımlanması beklenen bir durumdur ve bu gizli malzemeyi açığa çıkarmaz.
 
-Halo, özyinelemeli kanıt bileşimini iç çarpım argümanına dayalı bir polinom taahhüt şemasıyla birleştirir. Genel parametreleri, güvenilir bir kurulum töreni ya da gizli kurulum tuzağının imha edilmesini gerektirmez. [Halo 2 kitabı bu genel grup parametrelerini açıklar](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Bu, törenle oluşturulan yapılandırılmış bir referans dizesinin yükseltilebilir hâle getirilmesinden farklıdır.
+Halo, özyinelemeli kanıt bileşimini iç çarpım argümanına dayalı bir polinom kriptografik taahhüt şemasıyla birleştirir. Genel parametreleri için güvene dayalı kurulum töreni veya gizli kurulum tuzağının yok edilmesi gerekmez. [Halo 2 kitabı, bu genel grup parametrelerini açıklar](https://zcash.github.io/halo2/background/pc-ipa.html#setup). Bu, törenle oluşturulan yapılandırılmış bir referans dizgesini yükseltilebilir hâle getirmekten farklıdır.
 
-Bu kurulum gereksiniminin kaldırılması, Halo kanıtları için gizli tören materyalinin imhasına dayanmayı önler. Bu, önceki bir Sprout veya Sapling töreninin tehlikeye atılmadığını kanıtlamaz ya da sonraki tüm protokol değişikliklerinin güvenli olduğunu belgelemez. Özyinelemeli kanıtlar, kanıt sisteminin varsayımları altında devrelerinde kodlanan hesaplamalara tanıklık eder. Doğru devreler ve uygulamalar hâlâ önemlidir; ECC'ün [Halo 2 dağıtım açıklaması](https://zodl.com/technical-explainer-halo-on-zcash/), yeni hatalar veya tasarım kusurları riskine açıkça dikkat çeker.
+Bu kurulum gereksiniminin kaldırılması, Halo kanıtları için gizli tören malzemesinin yok edilmesine güvenme zorunluluğunu ortadan kaldırır. Ancak önceki bir Sprout veya Sapling töreninin güvenli olduğunu kanıtlamaz; sonraki tüm protokol değişikliklerinin güvenli olduğunu da belgelemez. Özyinelemeli kanıtlar, kanıt sisteminin varsayımları çerçevesinde devrelerinde kodlanan hesaplamaları doğrular. Devrelerin ve uygulamaların doğru olması yine önemlidir; ECC'ın [Halo 2 dağıtım açıklaması](https://zodl.com/technical-explainer-halo-on-zcash/), yeni hatalar veya tasarım kusurları riskine özellikle dikkat çeker.
 
-[Sean Bowe'in Dystopia Labs'teki açıklayıcısı](https://www.youtube.com/watch?v=KdkVTEHUxgo)
+[Sean Bowe'ın Dystopia Labs'teki açıklaması](https://www.youtube.com/watch?v=KdkVTEHUxgo)
 
 ---
 
-## Görsel / Analoji
+## Görsel / Benzetme
 
 ### Noter zinciri
 
-Normal bir zk-SNARK'i noter tasdikli bir belge olarak düşünün: bir damga, bir doğrulama, tamam. Şimdi on bin belgeden oluşan bir yığının gerçek olduğunu kanıtlamanız gerektiğini hayal edin. Özyineleme olmadan, bir doğrulayıcının her damgayı kontrol etmesi gerekirdi.
+Normal bir zk-SNARK işlemini noter tasdikli bir belge gibi düşünün: Tek bir mühür, tek bir doğrulama, tamam. Şimdi on bin belgeden oluşan bir yığının gerçek olduğunu kanıtlamanız gerektiğini düşünün. Özyineleme olmasaydı doğrulayıcının her mührü kontrol etmesi gerekirdi.
 
-Halo, doğrulanmış her belgeyi *bir sonraki* belgenin damgasına dönüştürür; sonunda tüm yığın, tek damgalı tek bir belgede toplanır. Son belgeyi kontrol etmek, tüm zincire güvenmek için yeterlidir — ve önemlisi, Halo'in noteri (kanıtlama sistemi), mührünü kurmak için asla harici bir otoriteye ihtiyaç duymadan kendi damgalarını üretir.
+Halo, doğrulanmış her belgeyi *bir sonraki* belge üzerinde bir mühre dönüştürür; ta ki tüm yığın tek mühür taşıyan tek bir belgeye indirgenene kadar. Son belgeyi kontrol etmek, tüm zincire güvenmek için yeterlidir. Üstelik Halo'ın noteri (kanıt sistemi), mührünü oluşturmak için hiçbir zaman harici bir otoriteye ihtiyaç duymadan kendi mühürlerini üretir.
 
-### Güvenilir kurulumu kaldırmak neden önemlidir
+### Güvene dayalı kurulumu kaldırmak neden önemlidir?
 
-Eski güvenilir kurulum sistemlerinde, herkese açık "mühür" (CRS) bir törenden gelirdi. Katılımcıların herkese açık parametreleri erişilebilir tutarken gizli ara materyallerini yok etmeleri gerekiyordu. Halo bu törenden ve onun gizli kurulum arka kapısından kaçınır. Bu, kullanıcıların harcama anahtarlarını koruma veya kanıt sisteminin varsayımlarını ve uygulamasını denetleme ihtiyacını ortadan kaldırmaz.
+Eski güvene dayalı kurulum sistemlerinde genel “mühür” (CRS) bir törenden elde edilirdi. Katılımcıların genel parametreleri erişilebilir tutarken gizli ara malzemelerini yok etmesi gerekirdi. Halo bu töreni ve gizli kurulum tuzağını ortadan kaldırır. Ancak kullanıcıların harcama anahtarlarını koruma veya kanıt sisteminin varsayımlarını ve uygulamasını denetleme gereksinimini ortadan kaldırmaz.
 
 ---
 
@@ -58,90 +58,90 @@ Eski güvenilir kurulum sistemlerinde, herkese açık "mühür" (CRS) bir tören
 
 ### Özyinelemeli kanıtlar
 
-Özyinelemeli kanıt bileşimi, tek bir kanıtın pratik olarak sınırsız sayıda diğer kanıtın doğruluğunu teyit etmesine ve büyük miktarda hesaplamayı (ve bilgiyi) sıkıştırmasına olanak tanır. Bu, ölçeklenebilirlik için temel bir bileşendir; çünkü katılımcı grupları ağın geri kalanının bütünlüğüne güvenmeye devam ederken ağın yatay olarak ölçeklenmesini sağlar.
+Özyinelemeli kanıt bileşimi, tek bir kanıtın pratikte sınırsız sayıda başka kanıtın doğruluğunu tasdik etmesini sağlar; böylece büyük miktarda hesaplamayı (ve bilgiyi) sıkıştırır. Bu, ölçeklenebilirliğin temel bileşenlerinden biridir; çünkü ağın yatay olarak ölçeklenmesine olanak tanırken katılımcı gruplarının ağın geri kalanının bütünlüğüne güvenmesini sağlar.
 
-Halo'den önce özyinelemeli kanıt bileşimini elde etmek, büyük hesaplama maliyeti ve güvenilir bir kurulum gerektiriyordu. Başlıca keşiflerden biri, **iç içe amortizasyon** adı verilen bir teknikti: iç çarpım argümanına dayalı bir polinom taahhüt şeması kullanan özyinelemeli bileşim, güvenilir kurulumdan kaçınırken performansı büyük ölçüde iyileştirir.
+Halo öncesinde özyinelemeli kanıt bileşimine ulaşmak, yüksek hesaplama maliyeti ve güvene dayalı kurulum gerektiriyordu. Başlıca keşiflerden biri **iç içe amortisman** adı verilen bir teknikti: İç çarpım argümanına dayalı bir polinom kriptografik taahhüt şemasıyla özyinelemeli bileşim kuran bu teknik, güvene dayalı kurulumu önlerken performansı büyük ölçüde artırıyordu.
 
-[Halo makalesi](https://eprint.iacr.org/2019/1021.pdf), bu polinom taahhüt şemasını tamamen açıklar ve içinde yeni bir toplama tekniğinin bulunduğunu keşfetti. Bu teknik, bağımsız olarak oluşturulmuş çok sayıda kanıtın, tek bir kanıtın doğrulanmasına neredeyse yakın bir hızda doğrulanmasına olanak tanır. Bu bile tek başına, Zcash'te kullanılan önceki zk-SNARKs'e daha iyi bir alternatif sunuyordu.
+[Halo makalesi](https://eprint.iacr.org/2019/1021.pdf), bu polinom kriptografik taahhüt şemasını bütünüyle açıklar ve içinde yeni bir toplama tekniği bulunduğunu ortaya koyar. Bu teknik, bağımsız olarak oluşturulmuş çok sayıda kanıtın, tek bir kanıtı doğrulamak kadar hızlı doğrulanmasını sağlar. Bu özellik tek başına bile Zcash içinde kullanılan önceki zk-SNARKs yaklaşımına daha iyi bir alternatif sunuyordu.
 
 ### Halo 2
 
-Halo 2, Zcash'de ölçeklenebilirliğin önünü açarken güvenilir kurulum ihtiyacını ortadan kaldıran, Rust ile yazılmış yüksek performanslı bir zk-SNARK uygulamasıdır.
+Halo 2, Rust ile yazılmış, yüksek performanslı bir zk-SNARK uygulamasıdır. Güvene dayalı kurulum ihtiyacını ortadan kaldırırken Zcash'te ölçeklenebilirliğin önünü açar.
 
 <a href="">
     <img src="/content-images/Halo-puzzle-03-1024x517-e034023d10.webp" alt="" width="500" height="300"/>
 </a>
 
-**Birikim şeması** adı verilen yaklaşımın bir genellemesini içerir. Bu biçimselleştirme, iç içe amortizasyonun gerçekte nasıl çalıştığını ortaya koyar: kanıtlar, her kanıtın biriktiricinin önceki durumu hakkında akıl yürüttüğü **biriktirici** adlı bir nesneye eklenerek, önceki tüm kanıtlar yalnızca biriktiricinin mevcut durumu kontrol edilerek (tümevarımla) denetlenebilir.
+Bu uygulama, **biriktirme şeması** adı verilen yaklaşımın genelleştirilmiş bir biçimini içerir. Bu biçimselleştirme, iç içe amortismanın gerçekte nasıl işlediğini gösterir: Kanıtlar **biriktirici** adı verilen bir nesneye eklenir; her kanıt biriktiricinin önceki durumunu ele alır ve tümevarım yoluyla tüm önceki kanıtlar yalnızca biriktiricinin mevcut durumu kontrol edilerek doğrulanabilir.
 
 <a href="">
     <img src="/content-images/l4HrYgE-1ea7bc32f7.webp" alt="" width="500" height="300"/>
 </a>
 
-Buna paralel olarak, birçok başka ekip Marlin gibi Sonic'ten (Halo 1'de kullanılan) daha verimli Polinom IOP'leri keşfediyordu. Bu protokollerin en verimlisi PLONK'dir; uygulamaya özgü ihtiyaçlara dayalı verimli uygulamalar tasarlamada muazzam esneklik sağlar ve Sonic'e kıyasla kanıtlayıcı süresini 5× iyileştirir.
+Aynı dönemde başka birçok ekip de Halo 1'de kullanılan Sonic'ten daha verimli Polinom IOP'ları keşfediyordu; Marlin bunlardan biriydi. Bu protokoller arasındaki en verimlisi PLONK'tır. Uygulamaya özgü ihtiyaçlara dayalı verimli uygulamalar tasarlamak için büyük esneklik sağlar ve kanıtlayıcı süresinde Sonic'e kıyasla 5 kat iyileşme sunar.
 
-[PLONK'e genel bakış](https://www.youtube.com/watch?v=P1JeN30RdwQ)
+[PLONK genel bakış](https://www.youtube.com/watch?v=P1JeN30RdwQ)
 
 ### Daha geniş ekosistemde Halo
 
-Electric Coin Company, teknolojinin kendi ağlarında nasıl kullanılabileceği de dâhil olmak üzere Halo Ar-Ge'sini araştırmak için Protocol Labs, Filecoin Foundation ve Ethereum Foundation ile bir anlaşma yaptı. Anlaşma, ekosistemler genelinde ve Web 3.0 için daha iyi ölçeklenebilirlik, birlikte çalışabilirlik ve gizlilik sağlamayı amaçlamaktadır.
+Electric Coin Company; Protocol Labs, Filecoin Foundation ve Ethereum Foundation ile, teknolojinin kendi ağlarında nasıl kullanılabileceği de dâhil olmak üzere Halo Ar-Ge çalışmalarını araştırmak üzere anlaşma yaptı. Anlaşma, ekosistemler genelinde ve Web 3.0 için daha iyi ölçeklenebilirlik, birlikte çalışabilirlik ve gizlilik sağlamayı amaçlıyor.
 
-Ek olarak, Halo 2, [MIT ve Apache 2.0 açık kaynak lisansları](https://github.com/zcash/halo2#readme) kapsamındadır; bu da ekosistemdeki herkesin kanıtlama sistemiyle geliştirme yapabileceği anlamına gelir.
+Ayrıca Halo 2, [MIT ve Apache 2.0 açık kaynak lisansları](https://github.com/zcash/halo2#readme) kapsamında yayımlanmıştır; bu da ekosistemdeki herkesin kanıt sistemiyle geliştirme yapabileceği anlamına gelir.
 
-**Filecoin.** Dağıtımından bu yana halo2 kütüphanesi zkEVM gibi projelerde benimsendi ve Halo 2'nin Filecoin Virtual Machine için kanıt sistemine potansiyel entegrasyonu bulunmaktadır. Filecoin, çok sayıda maliyetli uzay-zaman kanıtı ve çoğaltma kanıtı gerektirir; Halo 2, alan kullanımını sıkıştırmak ve ağı daha iyi ölçeklendirmek için kilit önemdedir. [Filecoin Foundation'ın Zooko ile videosu](https://www.youtube.com/watch?v=t4XOdagc9xw). Ayrıca Filecoin depolama ödemelerinin ZEC ile yapılabilmesi, Zcash korumalı transferlerde bulunan depolama satın alma gizliliğini sağlayacağı için her iki ekosisteme de fayda sağlar — buna dosyaların Filecoin depolamasında şifrelenmesi ve bir Zcash şifreli nota medya ekleyen mobil istemcilerin desteklenmesi de dâhildir. [ECC × Filecoin blog yazısı](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
+**Filecoin.** Dağıtımından bu yana halo2 kütüphanesi zkEVM gibi projelerde benimsendi ve Filecoin Virtual Machine için kanıt sistemine Halo 2'nin entegre edilmesi olasılığı bulunuyor. Filecoin çok sayıda maliyetli uzay-zaman kanıtı ve çoğaltma kanıtı gerektirir; Halo 2, alan kullanımını sıkıştırmak ve ağı daha iyi ölçeklendirmek açısından kritik önemdedir. [Filecoin Foundation'ın Zooko ile videosu](https://www.youtube.com/watch?v=t4XOdagc9xw). Zcash korumalı transferlerinde olduğu gibi depolama alımlarında da aynı gizliliği sağlamak için Filecoin depolama ödemelerinin ZEC ile yapılabilmesi her iki ekosisteme de fayda sağlayabilir. Buna, Filecoin depolama alanındaki dosyaların şifrelenmesi ve Zcash şifreli memo alanına medya ekleyen mobil istemcilerin desteklenmesi de dâhildir. [ECC × Filecoin blog yazısı](https://electriccoin.co/blog/ethereum-zcash-filecoin-collab/)
 
-**Ethereum.** Verimli bir Doğrulanabilir Gecikme Fonksiyonu (VDF) için bir Halo 2 kanıtı geliştirilmektedir. VDF; akıllı sözleşmeler için genel amaçlı rastgelelik ve Proof of Stake'te lider seçimi dâhil olmak üzere birçok potansiyel kullanım alanına sahip kriptografik bir ilkeldir. ECC, Filecoin Foundation, Protocol Labs ve Ethereum Foundation ayrıca VDF'nin potansiyel GPU ve ASIC geliştirmesi için donanım hızlandırmalı kriptografi konusunda uzmanlaşmış bir tedarikçi olan [SupraNational](https://www.supranational.net/) ile çalışmaktadır. [Privacy and Scaling Explorations grubu](https://appliedzkp.org/), Halo 2 kanıtlarının Ethereum için gizliliği ve ölçeklenebilirliği iyileştirebileceği ek yolları araştırmaktadır.
+**Ethereum.** Verimli bir Doğrulanabilir Gecikme Fonksiyonu (VDF) için Halo 2 kanıtı geliştiriliyor. VDF; akıllı sözleşmelerde genel amaçlı rastgelelik ve Proof of Stake'te lider seçimi de dâhil olmak üzere birçok olası kullanım alanı bulunan kriptografik bir yapı taşıdır. ECC, Filecoin Foundation, Protocol Labs ve Ethereum Foundation ayrıca olası GPU ve ASIC tabanlı VDF geliştirme çalışmaları için donanım hızlandırmalı kriptografi alanında uzmanlaşmış bir sağlayıcı olan [SupraNational](https://www.supranational.net/) ile birlikte çalışıyor. [Gizlilik ve Ölçeklendirme Araştırmaları grubu](https://appliedzkp.org/), Halo 2 kanıtlarının Ethereum'un gizliliğini ve ölçeklenebilirliğini nasıl iyileştirebileceğine yönelik ek yöntemleri araştırıyor.
 
 ### Halo kullanan diğer projeler
 
-- [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — gizliliği koruyan çok zincirli bir atomik takas protokolü
+- [Anoma](https://anoma.net/blog/hash-functions-in-plonkup) — gizliliği koruyan, çok zincirli atomik takas protokolü
 - [Orbis](https://docs.orbisprotocol.com/orbis/technology/halo-2) — Cardano üzerinde bir L2 zkRollup
-- [DarkFi](https://dark.fi/book/arch/arch.html) — özel bir L1 zkEVM blok zinciri
+- [DarkFi](https://dark.fi/book/arch/arch.html) — gizlilik odaklı bir L1 zkEVM blokzinciri
 - [Scroll](https://scroll.mirror.xyz/nDAbJbSIJdQIWqp9kn8J0MVS4s6pYBwHmK7keidQs-k) — Ethereum üzerinde bir L2 zkRollup
 
 ---
 
-## Pratik Çıkarımlar
+## Pratik Etkileri
 
-**Zcash'in kendisi için**
+**Zcash için**
 
-- NU5 ile etkinleştirilen Orchard korumalı havuzu, bu yeni kanıt sisteminin Zcash ağındaki uygulamasıdır. Eski korumalı havuzları aşamalı olarak kullanımdan kaldırma amacıyla, Sprout ve Sapling arasında kullanılan aynı turnike tasarımıyla korunur.
-- NU5'in ardından (2022 ortası), özyinelemeli kanıtların entegrasyonu mümkün hâle geldi ve bununla birlikte çeşitli gizlilik iyileştirmeleri geldi — en önemlisi, işlem meta verisi miktarını azaltan girdi/çıktıların yerine 'Actions'ın getirilmesiydi.
-- Güvenilir kurulumların kaldırılması, aksi hâlde her büyük protokol yükseltmesi için tekrarlanması gereken sistemik bir riski ortadan kaldırır.
+- Orchard korumalı havuzu, NU5 ile etkinleştirildi ve Zcash ağında bu yeni kanıt sisteminin uygulamasıdır. Eski korumalı havuzları kademeli olarak devreden çıkarma amacıyla Sprout ve Sapling arasında kullanılan aynı turnike tasarımıyla korunur.
+- NU5'in ardından (2022 ortası) özyinelemeli kanıtların entegrasyonu mümkün hâle geldi ve beraberinde çeşitli gizlilik iyileştirmeleri geldi. En önemlisi, girdi/çıktıların yerini alan “Actions” özelliğinin kullanıma sunulması işlem meta verisi miktarını azaltıyor.
+- Güvene dayalı kurulumların kaldırılması, aksi takdirde her büyük protokol yükseltmesinde tekrarlanması gerekecek sistemik bir riski ortadan kaldırır.
 
-**Sahipler ve operatörler için**
+**ZEC sahipleri ve düğüm işletmecileri için**
 
-- Özyinelemeli kanıt bileşimi; sınırsız miktarda hesaplamayı sıkıştırma, denetlenebilir dağıtık sistemler oluşturma ve tam düğüm operatörleri için Katman 1 kapasitesini iyileştirme potansiyeline sahiptir — Zcash Shielded Assets gibi uzantılar ve Zcash'in daha uzun vadeli tasarımları için önemlidir.
+- Özyinelemeli kanıt bileşimi, sınırsız miktarda hesaplamayı sıkıştırma, denetlenebilir dağıtık sistemler oluşturma ve tam düğüm işletmecileri için Katman 1 kapasitesini iyileştirme potansiyeli taşır. Bu, Zcash Shielded Assets gibi uzantılar ve Zcash'ın uzun vadeli tasarımları için önemlidir.
 
 ---
 
-## Yaygın Hatalar
+## Sık Yapılan Hatalar
 
-| Yaygın inanış | Gerçekte durum nedir |
+| Yaygın inanış | Gerçekte olan |
 | --- | --- |
-| "Halo, Zcash'in beklediği gelecekteki bir yükseltmedir." | Orchard, NU5'den (2022) beri ana ağda yayındadır ve zaten Halo 2 üzerinde çalışmaktadır. |
-| "Güvenilir kurulum olmaması, hiç parametre olmadığı anlamına gelir." | Halo hâlâ herkese açık parametreler kullanır. Katılımcıların gizli kurulum materyalini yok edeceğine güvenilmesini gerektiren bir törene ihtiyaç duymazlar. |
-| "Halo 2 ile Halo makalesi aynı şeydir." | [makale](https://eprint.iacr.org/2019/1021.pdf), polinom taahhüt şemasını ve iç içe amortizasyonu açıklar; Halo 2 ise birikim şeması ve PLONKish aritmetizasyon içeren üretim amaçlı Rust uygulamasıdır. |
-| "Özyineleme yalnızca blok doğrulamasını ölçeklendirmeye yardımcı olur." | Özyineleme ayrıca uygulama düzeyindeki hesaplamayı da sıkıştırır — Filecoin'in uzay-zaman/çoğaltma kanıtlarına ve Ethereum için VDF çalışmalarına bakın. |
+| “Halo, Zcash'ın beklediği gelecekteki bir yükseltmedir.” | 2022'de NU5'den beri ana ağda çalışan Orchard, zaten Halo 2 üzerinde çalışıyor. |
+| “Güvene dayalı kurulum yoksa hiç parametre yoktur.” | Halo hâlâ genel parametreler kullanır. Ancak katılımcıların gizli kurulum malzemesini yok edeceğine güvenilmesi gereken bir tören gerekmez. |
+| “Halo 2 ile Halo makalesi aynı şeydir.” | [makalesi](https://eprint.iacr.org/2019/1021.pdf), polinom kriptografik taahhüt şemasını ve iç içe amortismanı açıklar; Halo 2 ise biriktirme şeması ve PLONK benzeri aritmetikleştirmeye sahip üretim Rust uygulamasıdır. |
+| “Özyineleme yalnızca blok doğrulamasının ölçeklendirilmesine yardımcı olur.” | Özyineleme, uygulama düzeyindeki hesaplamaları da sıkıştırır. Filecoin'ın uzay-zaman/çoğaltma kanıtlarına ve Ethereum için VDF çalışmalarına bakın. |
 
 ---
 
 ## İlgili Sayfalar
 
-- [zk-SNARKs](/zcash-tech/zk-snarks) — Halo'in ait olduğu genel teknoloji kategorisi
-- [Halo (araştırma makalesi)](https://eprint.iacr.org/2019/1021.pdf) — orijinal yayın
-- [Ironwood](/zcash-tech/ironwood) ve [The Turnstile](/zcash-tech/the-turnstile) — eski korumalı havuzlar kullanımdan kaldırılırken korumalı havuzların nasıl taşındığı
+- [zk-SNARKs](/zcash-tech/zk-snarks) — Halo'ın ait olduğu genel teknoloji kategorisi
+- [Halo (araştırma makalesi)](https://eprint.iacr.org/2019/1021.pdf) — özgün yayın
+- [Ironwood](/zcash-tech/ironwood) ve [Turnike](/zcash-tech/the-turnstile) — korumalı havuzların eskileri devreden çıkarılırken nasıl taşındığı
 - [Zcash Shielded Assets](/zcash-tech/zcash-shielded-assets) — özyinelemeli kanıtlardan yararlanan bir uzantı
-- [Zebra Full Node](/zcash-tech/zebra-full-node) — zincir üzerindeki kanıtları doğrulayan düğüm uygulaması
+- [Zebra Tam Düğüm](/zcash-tech/zebra-full-node) — zincir üstündeki kanıtları doğrulayan düğüm uygulaması
 
-## Daha Fazla Öğrenme
+## Daha Fazla Bilgi
 
 - [ZKP ve Halo 2'ye giriş — Hanh Huynh Huu](https://www.youtube.com/watch?v=jDHWJLjQ9oA)
 - [Halo 2, Daira ve Str4d ile — ZK Podcast](https://www.youtube.com/watch?v=-lZH8T5i-K4)
-- [Teknik açıklayıcı blog](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
-- [Halo 2 Community Showcase — Ying Tong @ Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
+- [Teknik açıklama blogu](https://electriccoin.co/blog/technical-explainer-halo-on-zcash/)
+- [Halo 2 Topluluk Tanıtımı — Ying Tong @ Zcon3](https://www.youtube.com/watch?v=JJi2TT2Ahp0)
 
-**Dokümantasyon**
+**Belgeler**
 
 - [Halo 2 kaynakları](https://github.com/mhchia/awesome-halo2)
 - [Halo 2 belgeleri](https://zcash.github.io/halo2/)

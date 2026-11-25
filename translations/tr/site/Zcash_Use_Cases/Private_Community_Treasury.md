@@ -2,19 +2,19 @@
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Orta Seviye - 7 dk
+  Orta - 7 dk
 </span>
 
-## TL;DR
+## Özet
 
-- Ortak fonları tutmak için shielded adresleri kullanın
+- Ortak fonları korumalı adreslerde tutun
 - Bakiyelerin ve işlemlerin görünürlüğünü sınırlayın
-- Operasyonel rolleri kamusal kimlikten ayırın
-- Kurum içi hesap verebilirlik için memo’ları kullanın
+- Operasyonel rolleri kamusal kimliklerden ayırın
+- İç hesap verebilirlik için memo kullanın
 
 <br/>
 
-## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimin için?
+## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimler için?
 
 - DAO'lar ve topluluklar
 - Hibe programları
@@ -26,84 +26,84 @@
 
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Sorun
 
-Kamusal blokzincirlerde topluluk fonları şunları açığa çıkarır:
+Halka açık blokzincirlerdeki topluluk fonları şunları açığa çıkarır:
 - Toplam hazine bakiyesi
 - Harcama geçmişi
 - Katkıda bulunanların kimlikleri
 
-Bu da şu riskleri doğurur:
+Bu, şu riskleri doğurur:
 - Fonların hedef alınması
 - Şeffaflık baskısı nedeniyle iç çatışmalar
-- Stratejik mahremiyetin kaybı
+- Stratejik gizliliğin kaybı
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Neden Zcash?
 
-Zcash topluluklara şunları sağlar:
-- Fonları özel olarak tutmak
-- Ayrıntıları ifşa etmeden işlem gerçekleştirmek
-- Kamusal ifşaya gerek olmadan kurum içi hesap verebilirliği sürdürmek
+Zcash toplulukların şunları yapmasını sağlar:
+- Fonları gizli tutmak
+- Ayrıntıları açığa çıkarmadan işlemler gerçekleştirmek
+- Kamuya açık etmeden iç hesap verebilirliği sürdürmek
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> İhtiyacınız Olanlar
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Gerekenler
 
-- Bir Zcash cüzdanı (veya rol ayrımı için birden fazla cüzdan)
-- Fonları yönetmek için net iç süreçler
-- İsteğe bağlı: takip için paylaşılan dokümantasyon
+- Bir Zcash cüzdanı (veya rolleri ayırmak için birden fazla cüzdan)
+- Fonları yönetmek için açık iç süreçler
+- İsteğe bağlı: takip için ortak belgeler
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım Adım Rehber
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım Adım Kılavuz
 
-### Adım 1: Shielded Bir Hazine Adresi Oluşturun
+### 1. Adım: Korumalı Bir Hazine Adresi Oluşturun
 
 - Hazine için bir **z-address** oluşturun
-- Bu, ana fon tutma hesabı olur
+- Bu, ana saklama hesabınız olur
 
 
-### Adım 2: Rolleri Tanımlayın
+### 2. Adım: Rolleri Belirleyin
 
 Sorumlulukları ayırın:
 - Sayman (fonları kontrol eder)
 - Katkıda bulunanlar (harcama talep eder)
-- Gözden geçirenler (kurum içinde onay verir)
+- İnceleyenler (dahili olarak onaylar)
 
 Bu rolleri kamusal kimliklerle ilişkilendirmekten kaçının.
 
 
 
-### Adım 3: Fonları Özel Olarak Alın
+### 3. Adım: Fonları Gizlilik İçinde Alın
 
-- Katkıları shielded adres üzerinden kabul edin
-- Katkıda bulunanları shielded cüzdanlardan gönderim yapmaya teşvik edin
+- Katkıları korumalı adres üzerinden kabul edin
+- Katkıda bulunanları korumalı cüzdanlardan gönderim yapmaya teşvik edin
 
 
 
-### Adım 4: İşlemleri Kurum İçinde Takip Edin
+### 4. Adım: İşlemleri Dahili Olarak Takip Edin
 
 Şunları kullanın:
-- Cüzdan memo’ları
-- Zincir dışı kayıtlar (ör. paylaşılan dokümanlar)
+- Cüzdan memoları
+- Zincir dışı kayıtlar (ör. ortak belgeler)
 
 Örnek memo: 
  - Hibe #12 - Geliştirici Ödemesi
 
 
 
-### Adım 5: Ödemeleri Özel Olarak Gerçekleştirin
+### 5. Adım: Ödemeleri Gizlilik İçinde Gerçekleştirin
 
-- Fonları shielded işlemlerle gönderin (z → z)
-- Alıcı kimliklerini kamuya açık şekilde ifşa etmekten kaçının
+- Fonları korumalı işlemler üzerinden gönderin (z → z)
+- Alıcıların kimliklerini kamuya açık etmeyin
 
 <br/>
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Kaçınılması Gereken Yaygın Hatalar
 
-- Hazine için transparent adresler kullanmak  
-- Cüzdan bakiyelerini kamuya açık paylaşmak  
-- İşlemleri kurum içinde takip etmemek  
+- Hazine için şeffaf adresler kullanmak  
+- Cüzdan bakiyelerini kamuya açık yayımlamak  
+- İşlemleri dahili olarak takip etmemek  
 - Hazine adresini kimliği belirlenebilir kişilerle ilişkilendirmek  
 
 
@@ -111,30 +111,30 @@ Bu rolleri kamusal kimliklerle ilişkilendirmekten kaçının.
 
 ## <img src="/content-images/checked-checkbox-svgrepo-com-7ea19022da.svg" width="28" height="28" className="inline-block align-middle mr-1 p-[2px]" alt="done icon"/> Sonuç
 
-Topluluğunuz şunları yapabilir:
-- Fonları güvenli şekilde yönetmek
-- Katkıda bulunanları ve alıcıları korumak
-- Finansal stratejisini ifşa etmeden faaliyet göstermek
+Topluluğunuz:
+- Fonları güvenli bir şekilde yönetebilir
+- Katkıda bulunanları ve alıcıları koruyabilir
+- Finansal stratejisini açığa çıkarmadan faaliyet gösterebilir
 
 
 <br/>
 
 ## <img src="/content-images/chain-for-links-svgrepo-com-117ee0dec1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="chain-links icon"/> İlgili
 
-- [Ödemenizi kim görebilirZcash ödeme](/start-here/who-can-see-your-zcash-payment)
-- [Kimliği ilişkilendirmeden para gönderin](/zcash-use-cases/send-money-without-linking-identity)
+- [Zcash ödemenizi kim görebilir?](/start-here/who-can-see-your-zcash-payment)
+- [Kimliğinizi ilişkilendirmeden para gönderin](/zcash-use-cases/send-money-without-linking-identity)
  
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> İlerleme
 
-**6 adımın 5. adımı**
+**6 adımdan 5'i**
 
-Ortak fonları özel şekilde nasıl yöneteceğinizi anladınız.
+Ortak fonları gizlilik içinde nasıl yöneteceğinizi biliyorsunuz.
 
  <br/>
 
 ## Sonraki Adım
 
-- [Gazeteci Gizlilik Kurulumu](/zcash-use-cases/journalist-privacy-setup)
+- [Gazeteciler için Gizlilik Kurulumu](/zcash-use-cases/journalist-privacy-setup)

@@ -3,100 +3,100 @@ published: 2025-08-02
 ---
 
 <a href="https://github.com/Zechub/zechub/edit/main/site/Research/Namada_Privacy_and_Best_Practices.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-![Namada Logosu](/content-images/nam-078c7b6883.webp)
+![Namada Logo](/content-images/nam-078c7b6883.webp)
 
-# Namada Gizlilik için En İyi Uygulamalar
+# Namada Gizlilik İçin En İyi Uygulamalar
 
-> Namada'da azami gizliliğe ulaşmak ve korumalarının tam olarak nerede sona erdiğini anlamak için pratik, uygulanabilir rehber.
+> Namada üzerinde en yüksek düzeyde gizliliğe ulaşmak ve korumalarının nerede sona erdiğini tam olarak anlamak için pratik, uygulanabilir öneriler.
 
-**Gizlilik temel bir haktır.** Namada, gelişmiş zero-knowledge kriptografisiyle bunu korumak için özel olarak tasarlanmıştır. Bu rehber, gizlilik odaklı kullanıcılar ve geliştiriciler tarafından kullanılan en etkili uygulamaları derler.
+**Gizlilik temel bir haktır.** Namada, gelişmiş sıfır bilgi (zero-knowledge) kriptografisiyle gizliliği korumak üzere özel olarak tasarlanmıştır. Bu kılavuz, gizliliğe önem veren kullanıcıların ve geliştiricilerin uyguladığı en etkili yöntemleri derliyor.
 
 ---
 
-## Namada Gizliliğinizi Nasıl Korur
+## Namada Gizliliğinizi Nasıl Korur?
 
-Namada, cüzdan adreslerini, işlem tutarlarını ve bakiyeleri **zero-knowledge proofs (zk-SNARKs)** kullanarak gizleyen egemen, gizlilik öncelikli bir blokzincirdir.
+Namada, cüzdan adreslerini, işlem tutarlarını ve bakiyelerini sıfır bilgi kanıtları (zk-SNARKs) kullanarak gizleyen, egemen ve gizliliği önceliklendiren bir blokzincirdir.
 
 ### Temel Gizlilik Özellikleri
 
-- **Shielded Transactions** - Göndereni, alıcıyı ve tutarları tamamen gizler.
-- **Multi-Asset Shielded Pool (MASP)** - Herhangi bir varlıkta özel transferler, takaslar ve köprüleme.
-- **Cross-Chain Privacy** - IBC üzerinden shielded köprüleme (Ethereum ve Solana desteği yakında geliyor).
-- **Shielded Yield Rewards** - Yalnızca işlemleri shield ederek NAM token kazan.
-- **Low Fees** - Kullanılabilirlikten ödün vermeden güçlü gizlilik.
+- **Korumalı İşlemler** - Göndereni, alıcıyı ve tutarları tamamen gizler.
+- **Çok Varlıklı Korumalı Havuz (MASP)** - Her türlü varlık arasında özel transferler, takaslar ve köprüleme.
+- **Zincirler Arası Gizlilik** - IBC üzerinden korumalı köprüleme (Ethereum ve Solana desteği yakında geliyor).
+- **Korumalı Getiri Ödülleri** - İşlemleri korumalı hâle getirerek NAM token’larını kazanın.
+- **Düşük Ücretler** - Kullanılabilirlikten ödün vermeden güçlü gizlilik.
 
 ---
 
 ## Önemli Sınırlamalar
 
-Zincir üstündeki en güçlü gizlilik bile kullanıcı davranışları veya zincir dışı etkenler nedeniyle zayıflatılabilir.
+En güçlü zincir üstü gizlilik bile kullanıcı davranışları veya zincir dışı etkenler nedeniyle zayıflatılabilir.
 
 <div class="border-l-4 border-yellow-400 bg-yellow-400/10 p-6 my-8 rounded-r-xl text-sm">
 
-**Namada şunlara karşı koruma sağlamaz:**
+**Namada aşağıdakilere karşı koruma SAĞLAMAZ:**
 
-- VPN veya Tor olmadan bağlanmak (IP adresiniz açığa çıkar)
-- Shielded adresleri tekrar tekrar kullanmak
-- Şeffaf (shielded olmayan) işlemler yapmak
-- Namada adresinizi sosyal medya veya gerçek dünya kimliğinizle ilişkilendirmek
-- Yatırma veya çekme işlemleri için merkezi KYC borsaları kullanmak
+- VPN veya Tor kullanmadan bağlanmak (IP adresiniz açığa çıkar)
+- Korumalı adresleri tekrar tekrar kullanmak
+- Şeffaf (korumasız) işlemler gerçekleştirmek
+- Namada adresinizi sosyal medya hesabınızla veya gerçek dünyadaki kimliğinizle ilişkilendirmek
+- Para yatırma veya çekme işlemleri için merkezi KYC borsalarını kullanmak
 
 </div>
 
 ---
 
-## Azami Gizlilik için En İyi Uygulamalar
+## En Yüksek Düzeyde Gizlilik İçin En İyi Uygulamalar
 
 ### 1. Genel İlkeler
-- Her işlem için varsayılan olarak **shielded transactions** kullanın.
-- Farklı amaçlar için shielded adresleri asla yeniden kullanmayın.
-- Aynı oturum içinde shielded ve şeffaf faaliyetleri karıştırmaktan kaçının.
+- Her işlemde varsayılan olarak **korumalı işlemleri** tercih edin.
+- Korumalı adresleri farklı amaçlar için asla tekrar kullanmayın.
+- Aynı oturumda korumalı ve şeffaf etkinlikleri karıştırmaktan kaçının.
 
 ### 2. Varlıkları Köprüleme
-- Gelen köprüler için **yalnızca** özel bir şeffaf adres kullanın.
-- Köprüleme sonrasında varlıkları hemen shield edin.
-- Mümkün olduğunda Namada dışına köprüleme yapmayı en aza indirin.
+- Gelen köprü işlemleri **yalnızca** özel bir şeffaf adresle gerçekleştirin.
+- Varlıkları köprü üzerinden aldıktan hemen sonra korumalı hâle getirin.
+- Mümkün olduğunda Namada dışına köprüleme işlemlerini en aza indirin.
 
-### 3. MASP (Multi-Asset Shielded Pool)
-- Varsayılan olarak tüm varlıkları MASP içinde tutun.
+### 3. MASP (Çok Varlıklı Korumalı Havuz)
+- Varsayılan olarak tüm varlıklarınızı MASP içinde tutun.
 - MASP bakiyenizi birincil özel cüzdanınız olarak değerlendirin.
 
 ### 4. Görüntüleme Anahtarları
-- Viewing Key'leri **yalnızca** tamamen güvendiğiniz taraflarla paylaşın.
-- Viewing Key'leri asla herkese açık şekilde yayımlamayın veya paylaşmayın.
+- Görüntüleme anahtarlarını **yalnızca** tamamen güvendiğiniz taraflarla paylaşın.
+- Görüntüleme anahtarlarını asla herkese açık şekilde yayımlamayın veya paylaşmayın.
 
-### 5. İşlem Hijyeni
-- İşlemler arasındaki zamanlamayı ve tutarları rastgeleleştirin.
-- Mümkün olduğunda birden fazla işlemi toplu yapın.
-- Yuvarlak veya kolayca ayırt edilebilen tutarlar göndermekten kaçının.
+### 5. İşlem Alışkanlıkları
+- İşlemler arasındaki zamanlamayı ve tutarları rastgele değiştirin.
+- Mümkün olduğunda birden fazla işlemi toplu hâlde gerçekleştirin.
+- Yuvarlak veya kimliğinizi kolayca açığa çıkarabilecek tutarları göndermekten kaçının.
 
 ### 6. Operasyonel Güvenlik
-- Cüzdanlar veya dApp'lerle etkileşime geçerken her zaman bir **VPN** kullanın (tercihen Tor).
+- Cüzdanlarla veya dApp’lerle etkileşim kurarken daima bir **VPN** (tercihen Tor) kullanın.
 - Adres veya bakiye içeren ekran görüntülerini asla paylaşmayın.
-- Farklı faaliyetler için ayrı cüzdanlar kullanın (alım satım, bağışlar, kişisel kullanım).
+- Farklı etkinlikler (alım satım, bağış, kişisel kullanım) için ayrı cüzdanlar kullanın.
 
 ---
 
 ## Genişletilmiş Gizlilik Kontrol Listesi
 
-1. **Önce her zaman shield edin** - işlem yapmadan önce varlıkları MASP içine taşıyın.
-2. **Shielded adresleri dönüşümlü kullanın** ve farklı kullanım senaryoları için düzenli olarak değiştirin.
-3. **Mümkün olduğunda borsalardan doğrudan shielded adreslere çekim yapın.**
-4. **İşlem zamanlamalarını çeşitlendirin** ve ayırt edilebilir kalıpları bozun.
-5. **Daha büyük bakiyeler için hardware wallet kullanın.**
-6. **Yazılımı güncel tutun** - her zaman en güncel Namada istemcisini çalıştırın.
-7. **Cihazınızı güvenceye alın** güçlü şifreleme ve parola yöneticileri kullanın.
-8. **Sohbetlerde veya herkese açık kayıtlarda metadata sızıntıları** konusunda son derece dikkatli olun.
+1. **Önce daima korumalı hâle getirin** - İşlem yapmadan önce varlıkları MASP içine taşıyın.
+2. **Farklı kullanım alanları** için korumalı adresleri düzenli olarak değiştirin.
+3. Mümkün olduğunda borsalardan doğrudan korumalı adreslere **çekim yapın**.
+4. Tanımlanabilir örüntüleri kırmak için **işlem zamanlamalarını çeşitlendirin**.
+5. Büyük varlıklar için **donanım cüzdanları** kullanın.
+6. **Yazılımları güncel tutun** - Daima en güncel Namada istemcisini çalıştırın.
+7. Güçlü Şifreleme ve parola yöneticileriyle **cihazınızın güvenliğini sağlayın**.
+8. Sohbetlerde veya herkese açık kayıtlarda meta verilerin sızmasına karşı **son derece dikkatli olun**.
 
 ---
 
 ## Katkıda Bulunun
 
 Ek en iyi uygulamalarınız veya geri bildiriminiz mi var?  
-[Discord'da tartışmaya katılın](https://discord.gg/srC76aE6)
+[Discord](https://discord.gg/srC76aE6) üzerinde tartışmaya katılın.
 
 ---
 *Son güncelleme: Mart 2026*

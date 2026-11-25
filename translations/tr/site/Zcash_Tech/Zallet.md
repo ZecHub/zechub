@@ -4,44 +4,44 @@
 
 # Zallet
 
-Zallet, Rust ile yazılmış bir tam düğüm Zcash cüzdanıdır. Eskiden `zcashd` içine gömülü olan cüzdanın yerine geçer. `zcashd`, 18 Temmuz 2026'da 3417100 blok yüksekliğinde Destek Sonu durmasına ulaştıktan sonra, fikir birliği ve cüzdan görevleri bölündü: **Zebra** veya **Zakura** zinciri doğrular; **Zallet** ise anahtarları tutar, notları tarar ve cüzdan JSON-RPC'sini sunar.
+Zallet, Rust ile yazılmış tam düğüm Zcash cüzdanıdır. Eskiden `zcashd` içine gömülü olan cüzdanın yerini alır. `zcashd`, 18 Temmuz 2026'da 3417100 blok yüksekliğinde Desteğin Sona Ermesi nedeniyle durduktan sonra konsensüs ve cüzdan görevleri ayrıldı: **Zebra** veya **Zakura** Zincir'i doğrular, **Zallet** ise anahtarları tutar, note'ları tarar ve cüzdan JSON-RPC'sini sunar.
 
-Zallet şu anda **beta** aşamasındadır. Tam olarak incelenmemiştir. Uyumluluğu bozan değişiklikler, cüzdanın silinip yeniden oluşturulmasını gerektirebilir. [The Zallet Book](https://zcash.github.io/zallet/) içindeki güvenlik uyarılarını okumadan, büyük miktardaki ZEC için bunu üretim saklama çözümü olarak değerlendirmeyin.
+Zallet şu anda **beta** aşamasındadır. Henüz tamamen incelenmemiştir. Geriye dönük uyumsuz değişiklikler, cüzdanın silinip yeniden oluşturulmasını gerektirebilir. [The Zallet Book](https://zcash.github.io/zallet/) içindeki güvenlik uyarılarını okumadan, büyük miktarlarda ZEC için üretim ortamında saklama çözümü olarak kullanmayın.
 
 ---
 
 ## Kısaca
 
-- Zallet, bir **tam düğüm RPC cüzdanıdır**; mobil hafif cüzdan veya fikir birliği düğümü değildir.
-- `zcashd`'ın cüzdan yarısının yerine geçer. Düğüm yarısı [Zebra](Zebra_Full_Node.md) veya [Zakura](Zakura_Node.md)'dır.
-- **Rust** ile yazılmıştır, çift lisansı MIT / Apache-2.0'dır ve [zcash/zallet](https://github.com/zcash/zallet) içinde sürdürülür.
-- Yayımlanan en güncel sürüm: **v0.1.0-beta.4** (2 Kasım 2026). [NU7](NU7.md) sürümünü temel alır ve `zebrad` **7.0.0 veya üzerini** gerektirir.
-- Zincir verilerini tek bir arka uç olan **zebra** üzerinden okur: Aynı ana makinedeki bir `zebrad` durum dizinine karşı `ReadStateService` ve ayrıca Zebra'ın JSON-RPC'si. Zaino arka ucu v0.1.0-beta.4'te kaldırıldı.
-- **zcashd uyumlu JSON-RPC** alt kümesi sunar. Bazı yöntemler değişti; bazıları ise kasıtlı olarak çıkarıldı.
-- Anahtar materyali her zaman **age** ile şifrelenir. İşlem geçmişi, adresler ve görüntüleme anahtarları `wallet.db` içinde açık biçimde bulunur.
-- Tek imzalı arşivde iki ikili dosya sunar: `zallet` (başlatıcı) ve `zallet-zebra`. Cüzdanı eşitlemek için şimdilik yalnızca **Linux** kullanılabilir: macOS veya Windows üzerinde herhangi bir zincir arka ucu çalışmaz.
-- `zallet backup` (beta.4'te eklendi), çalışan veya durdurulmuş bir cüzdanın tutarlı bir anlık görüntüsünü alır.
+- Zallet bir **tam düğüm RPC cüzdanıdır**; mobil hafif cüzdan veya konsensüs düğümü değildir.
+- `zcashd`'nin cüzdan kısmının yerini alır. Düğüm kısmı [Zebra](Zebra_Full_Node.md) veya [Zakura](Zakura_Node.md)'tir.
+- **Rust** ile yazılmıştır, MIT / Apache-2.0 çift lisanslıdır ve [zcash/zallet](https://github.com/zcash/zallet) içinde bakımı yapılır.
+- Yayımlanan en son sürüm: **v0.1.0-beta.4** (2 Kasım 2026). [NU7](NU7.md) sürümünü takip eder ve `zebrad` **7.0.0 veya üzerini** gerektirir.
+- Zincir verilerini tek bir arka uç olan **zebra** üzerinden okur: `ReadStateService`, aynı ana bilgisayardaki bir `zebrad`'nin durum dizinini kullanır; ayrıca Zebra'ün JSON-RPC'sinden yararlanır. Zaino arka ucu v0.1.0-beta.4 sürümünde kaldırılmıştır.
+- **zcashd uyumlu JSON-RPC** alt kümesi sunar. Bazı yöntemler değişmiş, bazıları bilerek kapsam dışında bırakılmıştır.
+- Anahtar materyali her zaman **age** ile şifrelenir. İşlem geçmişi, adresler ve görüntüleme anahtarları `wallet.db` içinde açık metin olarak tutulur.
+- Tek bir imzalı arşivde iki ikili dosya sunulur: `zallet` (başlatıcı) ve `zallet-zebra`. Cüzdanı eşitlemek için yalnızca **Linux** kullanılabilir: macOS veya Windows üzerinde henüz hiçbir Zincir arka ucu çalışmaz.
+- `zallet backup` (beta.4'te eklendi), çalışır durumda olan veya durdurulmuş bir cüzdanın tutarlı anlık görüntüsünü alır.
 - Resmî belgeler: [The Zallet Book](https://zcash.github.io/zallet/).
 
 ---
 
 ## Zallet neden var?
 
-`zcashd`, Bitcoin Core türevi bir fikir birliği düğümünü ve bir cüzdanı tek süreçte bir araya getiriyordu. Bu tasarım artık yok.
+`zcashd`, Bitcoin Core'dan türetilmiş bir konsensüs düğümünü ve cüzdanı tek bir süreçte bir araya getiriyordu. Bu tasarım artık yok.
 
 | Rol | Eski yığın | Mevcut yığın |
-|------|-----------|---------------|
-| Fikir birliği / P2P | `zcashd` | Zebra (`zebrad`) veya Zakura |
+|------|------|---------------|
+| Konsensüs / P2P | `zcashd` | Zebra (`zebrad`) veya Zakura |
 | Cüzdan / anahtarlar / bakiyeler | `zcashd` `wallet.dat` | **Zallet** (`wallet.db`) |
-| Hafif istemci dizinleyicisi | `lightwalletd` | Zaino veya `lightwalletd` |
+| Hafif istemci indeksleyicisi | `lightwalletd` | Zaino veya `lightwalletd` |
 
-Cüzdanı düğümden ayırmak şunları sağlar:
+Cüzdanı düğümden ayırmanın anlamı şudur:
 
-- Anahtarlar taşınmadan düğüm yazılımı değiştirilebilir (Zebra ve Zakura).
-- Cüzdan taraması ve harcama yetkisi, ayrı olarak sıkılaştırılabilen bir süreçte bulunur.
-- RPC semantiği, ZIP 32 hesaplarına, Unified Addresses'e ve PCZT'lere doğru gelişebilir; `zcashd` tuhaflıklarında donmuş kalmaz.
+- Anahtarları taşımadan düğüm yazılımı değiştirilebilir (Zebra yerine Zakura veya tersi).
+- Cüzdan taraması ve harcama yetkisi, ayrı olarak güvenliği sıkılaştırılabilen bir süreçte bulunur.
+- RPC anlambilimi, `zcashd` özelliklerine bağlı kalmak yerine ZIP 32 hesaplarına, Birleşik Adreslere ve PCZT'lere doğru gelişebilir.
 
-Zallet; daha önce `zcashd`'ı sıcak cüzdan, borsa arka ucu, faucet veya madencilik ödeme cüzdanı olarak çalıştıran operatörler için tasarlanmış cüzdandır.
+Zallet, daha önce `zcashd`'ü sıcak cüzdan, borsa arka ucu, faucet veya madencilik ödemeleri cüzdanı olarak çalıştıran operatörlere yönelik cüzdandır.
 
 ---
 
@@ -49,23 +49,23 @@ Zallet; daha önce `zcashd`'ı sıcak cüzdan, borsa arka ucu, faucet veya maden
 
 Zallet **beta** aşamasındadır.
 
-Pratikte bunun anlamı:
+Uygulamada bunun anlamı:
 
-- Her beta sürümüne uyumluluğu bozan değişiklikler gelebilir. Veri dizinini silip yeniden başlamak zorunda kalabilirsiniz.
-- Her `zcashd` cüzdan RPC'si taşınmış değildir.
-- Taşınan bazı yöntemlerin semantiği `zcashd`'dan farklıdır. Entegrasyonların [değiştirilmiş semantik sayfasını](https://zcash.github.io/zallet/zcashd/json_rpc.html) okuması gerekir.
-- Crate'ler geliştirme aşamasındadır ve tam olarak incelenmemiştir.
-- Zallet bir Rust kütüphanesi **değildir**. Ona bu şekilde bağımlı olursanız hiçbir garanti yoktur.
+- Geriye dönük uyumsuz değişiklikler herhangi bir beta sürümünde gelebilir. Veri dizinini silip baştan başlamanız gerekebilir.
+- `zcashd` cüzdan RPC'lerinin tümü taşınmamıştır.
+- Taşınan bazı yöntemlerin anlambilimi `zcashd`'den farklıdır. Entegrasyonlar, [anlam farklılıkları sayfasını](https://zcash.github.io/zallet/zcashd/json_rpc.html) incelemelidir.
+- Crate'ler geliştirme aşamasındadır ve henüz tamamen incelenmemiştir.
+- Zallet bir Rust kitaplığı **değildir**. Kitaplık olarak bağımlı olmanız hâlinde hiçbir garanti verilmez.
 
-Geri bildirimler [GitHub sorunlarına](https://github.com/zcash/zallet/issues/new) veya `#wallet-dev` kanalına [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) üzerinde gönderilir.
+Geri bildirimlerinizi [GitHub issues](https://github.com/zcash/zallet/issues/new) bölümüne veya [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) üzerindeki `#wallet-dev` kanalına iletin.
 
-Amaçlanan RPC yüzeyi hazır olduğunda daha sonraki bir kararlı aşama planlanmaktadır. Çağıranların, belgelenmiş semantik farklılıklar dahil olmak üzere, o zaman Zallet yöntemlerine geçmesi beklenecektir.
+Amaçlanan RPC arayüzü tamamlandığında daha sonra kararlı bir aşamaya geçilmesi planlanmaktadır. Bu aşamada çağıranların, belgelenmiş anlamsal farklılıklar da dâhil olmak üzere, Zallet yöntemlerine geçmesi beklenecektir.
 
 ---
 
 ## Mimari
 
-Zallet, her zincir arka ucunun kendi bağımlılık grafiğini takip edebilmesi için Cargo çalışma alanlarına ayrılmıştır. v0.1.0-beta.4 sürümünden itibaren yalnızca zebra arka ucu dağıtılır.
+Zallet, her Zincir arka ucunun kendi bağımlılık grafiğini takip edebilmesi için Cargo çalışma alanlarına bölünmüştür. v0.1.0-beta.4 sürümünden itibaren yalnızca zebra arka ucu sunulmaktadır.
 
 ```
 zallet            launcher: reads `backend` in zallet.toml (default "zebra")
@@ -74,9 +74,9 @@ zallet-core       shared wallet: CLI, config, JSON-RPC, SQLite DB, sync
 zallet-zebra      zebra-state backend (ReadStateService + Zebra JSON-RPC)
 ```
 
-Her iki ikili dosya da aynı `wallet.db`'ı açar. v0.1.0-beta.3 sürümüne kadar bir `zallet-zaino` arka ucu da vardı. `zallet.toml` dosyanızda `backend = "zaino"` yazıyorsa, bunu `backend = "zebra"` olarak değiştirin. Cüzdan veritabanı için geçiş gerekmez ve veri dizinindeki eski `zaino` klasörü silinebilir.
+Her iki ikili dosya da aynı `wallet.db` dosyasını açar. v0.1.0-beta.3 sürümüne kadar bir `zallet-zaino` arka ucu da vardı. `zallet.toml` dosyanızda `backend = "zaino"` yazıyorsa bunu `backend = "zebra"` olarak değiştirin. Cüzdan veritabanı için geçiş gerekmez; veri dizinindeki eski `zaino` klasörü silinebilir.
 
-zebra arka ucu, `zebrad` durum veritabanını doğrudan okur; bu nedenle `indexer` özelliğiyle derlenmiş bir `zebrad` ve onun durum dizininin **aynı ana makinede** bulunması gerekir. Bir kapsayıcıdaki Zallet ile ağ üzerinden başka bir kapsayıcıdaki `zebrad` arasında iletişim kurmak, yalnızca ağ üzerinden çalışan bir arka uç kullanıma sunulana kadar desteklenen bir kurulum değildir ([zallet#900](https://github.com/zcash/zallet/pull/900)).
+zebra arka ucu, `zebrad`'in durum veritabanını doğrudan okur. Bu nedenle, `indexer` özelliği etkinleştirilerek derlenmiş bir `zebrad` ve **aynı ana bilgisayarda** bulunan durum dizini gerekir. Bir kapsayıcıdaki Zallet'in ağ üzerinden başka bir kapsayıcıdaki `zebrad` ile iletişim kurduğu kurulum, yalnızca ağ üzerinden çalışan bir arka uç eklenene kadar desteklenmez ([zallet#900](https://github.com/zcash/zallet/pull/900)).
 
 Tipik dağıtım:
 
@@ -90,68 +90,68 @@ Zallet  (zallet-zebra)
 Your application, exchange, faucet, or operator scripts
 ```
 
-Zallet bir **tam düğüm cüzdanıdır**: yerel doğrulama yapan bir düğüm bekler. Hafif istemci değildir. Hafif cüzdanlar ve kompakt blok sunucuları için bkz. [Zaino](Zaino.md) ve [Hafif Cüzdan Düğümleri](Lightwallet_Nodes.md).
+Zallet bir **tam düğüm cüzdanıdır**: yerel bir doğrulayıcı düğüm bekler. Hafif istemci değildir. Hafif cüzdanlar ve kompakt blok sunucuları için [Zaino](Zaino.md) ve [Lightwallet Nodes](Lightwallet_Nodes.md) sayfalarına bakın.
 
-Zcash Foundation’ın [Z3](https://github.com/ZcashFoundation/z3) Compose yığını, Zebra + Zallet bileşenlerini birlikte çalıştırır; harici hafif istemciler için isteğe bağlı bağımsız Zaino da kullanılabilir. Sabitlenmiş imajları NU7 ve Zallet beta.4 sürümlerinden öncedir: kullanmadan önce [Z3 Yığını](Z3_Stack.md) sayfasına bakın.
+Zcash Foundation'ün [Z3](https://github.com/ZcashFoundation/z3) compose yığını, Zebra + Zallet bileşenlerini birlikte çalıştırır; harici hafif istemciler için isteğe bağlı bağımsız Zaino da kullanılabilir. Sabitlenmiş imajları NU7 ve Zallet beta.4 sürümlerinden öncedir: kullanmadan önce [Z3 Stack](Z3_Stack.md) sayfasına bakın.
 
 ---
 
 ## Hesaplar, adresler ve anahtarlar
 
-Zallet, ZIP 32 hesapları etrafında oluşturulmuştur; `zcashd`'ın tek örtük hesabı etrafında değil.
+Zallet, `zcashd`'ün tek örtük hesabı yerine ZIP 32 hesapları temel alınarak oluşturulmuştur.
 
-- Bir cüzdan **birden fazla BIP 39 anımsatıcı sözcük dizisi** tutabilir. Her anımsatıcı sözcük dizisi, **tohum parmak izi** (`zip32seedfp1…`) ile tanımlanan bağımsız bir harcama köküdür.
-- **Hesaplar**, bir tohumdan ZIP 32 hesap indeksi ile türetilir. Bir Zallet örneği içinde ayrıca yerel bir **UUID**'ye sahiptirler. Bir hesabın taşınabilir kimliği `(seedfp, account index)`'dır.
-- Adresler, `z_getaddressforaccount` ile üretilen **ZIP 316 Unified Addresses**'tir. Bir hesap çok sayıda çeşitlendirilmiş adrese sahip olabilir; korumalı alıcılar zincir üzerinde ilişkilendirilemez.
-- İçe aktarılan harcama anahtarları (`z_importkey`) ve yalnızca izleme adresleri (`z_importaddress`), hiçbir anımsatıcı sözcük dizisinin kapsamadığı UUID hesapları hâline gelir.
-- Görüntüleme anahtarları; birleşik tam görüntüleme anahtarları ve gelen görüntüleme anahtarları dahil olmak üzere dışa aktarılabilir ve içe aktarılabilir (`z_exportviewingkey`, `z_importviewingkey`).
+- Bir cüzdanda **birden fazla BIP 39 anımsatıcı** bulunabilir. Her anımsatıcı, **seed parmak izi**yle (`zip32seedfp1…`) tanımlanan bağımsız bir harcama köküdür.
+- **Hesaplar**, bir seed'den ZIP 32 hesap diziniyle türetilir. Tek bir Zallet örneğinde ayrıca yerel bir **UUID** de bulunur. Bir hesabın taşınabilir kimliği `(seedfp, account index)`'tir.
+- Adresler, `z_getaddressforaccount` ile oluşturulan **ZIP 316 Birleşik Adreslerdir**. Bir hesapta birçok çeşitlendirilmiş adres bulunabilir; korumalı alıcılar zincir üstünde birbirleriyle ilişkilendirilemez.
+- İçe aktarılan harcama anahtarları (`z_importkey`) ve yalnızca izleme amaçlı adresler (`z_importaddress`), hiçbir anımsatıcının kapsamadığı UUID hesaplarına dönüşür.
+- Görüntüleme anahtarları dışa ve içe aktarılabilir (`z_exportviewingkey`, `z_importviewingkey`); buna birleşik tam görüntüleme anahtarları ve gelen görüntüleme anahtarları da dâhildir.
 
 `getnewaddress` uygulanmamıştır. `z_getnewaccount` ve `z_getaddressforaccount` kullanın.
 
-`keystore.require_backup` açıksa (`zcashd`'ın `walletrequirebackup` özelliğinin taşınmış biçimi), Zallet yedeği doğrulanmamış bir anımsatıcı sözcük dizisinden yeni harcama yetkisi türetmeyi reddeder.
+`keystore.require_backup` açıksa (`zcashd`'ün `walletrequirebackup` özelliğinin taşınmış biçimi), Zallet yedeği onaylanmamış bir anımsatıcıdan yeni harcama yetkisi türetmeyi reddeder.
 
 ---
 
 ## Şifreleme ve yedekler
 
-Anahtar materyali **her zaman** şifrelenir. Şifrelenmemiş mod ve `encryptwallet` RPC'si yoktur — bu `zcashd` yöntemi hiçbir zaman tam olarak desteklenmemiştir.
+Anahtar materyali **her zaman** şifrelenir. Şifrelenmemiş çalışma modu ve `encryptwallet` RPC yoktur; bu `zcashd` yöntemi hiçbir zaman tam olarak desteklenmemiştir.
 
 - Kurulum, varsayılan yolu `{datadir}/encryption-identity.txt` olan bir **age** kimliği oluşturur.
-- Anımsatıcı sözcük dizileri ve içe aktarılan harcama anahtarları, `wallet.db` içinde age şifreli metni olarak saklanır.
-- Veritabanının geri kalanı şifrelenmiş **değildir**. Birisi dosyayı ele geçirirse geçmiş, adresler ve görüntüleme anahtarları okunabilir.
-- Kimlik, parola ile sarılabilir (`generate-encryption-identity -p`). `walletpassphrase` RPC'siyle kilidi açın; `walletlock` ile kilitleyin.
-- Kimlik dosyasını veya parolasını kaybetmek, harcama anahtarlarının kurtarılamaz olmasına neden olur. Kimliği, her anımsatıcı sözcük dizisini ve sakladığınız tüm `wallet.db` kopyalarını (ayrı olarak şifrelenmiş) yedekleyin.
+- Anımsatıcılar ve içe aktarılan harcama anahtarları, `wallet.db` içinde age şifreli metinleri olarak saklanır.
+- Veritabanının geri kalanı **şifrelenmez**. Dosyayı ele geçiren biri geçmişi, adresleri ve görüntüleme anahtarlarını okuyabilir.
+- Kimlik dosyası bir parola ile korunabilir (`generate-encryption-identity -p`). Kilidi `walletpassphrase` RPC'siyle açın; `walletlock` ile kilitleyin.
+- Kimlik dosyasını veya parolasını kaybederseniz harcama anahtarları kurtarılamaz. Kimlik dosyasını, her anımsatıcıyı ve sakladığınız tüm `wallet.db` kopyalarını (ayrı olarak, şifrelenmiş biçimde) yedekleyin.
 
-Zallet çalışırken `wallet.db` öğesini elle kopyalamak güvenli bir yedekleme yöntemi değildir: SQLite bozulabilir. v0.1.0-beta.4 sürümünden itibaren [`backup` komutunu kullanın](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md).
+Zallet çalışırken `wallet.db` dosyasını elle kopyalamak güvenli bir yedekleme yöntemi değildir: SQLite verileri bozulabilir. v0.1.0-beta.4 sürümünden itibaren [`backup` command](https://github.com/zcash/zallet/blob/main/book/src/cli/backup.md) komutunu kullanın:
 
 ```bash
 zallet -d /path/to/zallet/datadir backup /path/to/backups/
 ```
 
-Çalışan veya durmuş bir cüzdanın işlem tutarlı, bütünlüğü denetlenmiş bir anlık görüntüsünü yazar. Verilen bir dizinde dosyaya `zallet-wallet-backup-<UTC time>.db` adını verir ve mevcut bir dosyanın üzerine asla yazmaz. Sürekli cüzdan yazma işlemleri (örneğin ilk eşitleme sırasında) kopyalama işlemini yeniden başlatmaya devam ederse on dakika sonra yüksek sesle vazgeçer: daha sonra yeniden deneyin veya önce cüzdanı durdurun. Yedek, **age kimlik dosyasını** içermez. Bu dosyanın yedeğini bir kez alın ve veritabanı yedeklerinden ayrı saklayın; çünkü her ikisine de sahip olan herkes anahtarların şifresini çözebilir.
+Bu komut, çalışır durumda olan veya durdurulmuş bir cüzdanın işlem tutarlılığı olan ve bütünlüğü denetlenmiş bir anlık görüntüsünü yazar. Bir dizin belirtildiğinde dosyaya `zallet-wallet-backup-<UTC time>.db` adını verir ve mevcut bir dosyanın üzerine asla yazmaz. Sürekli cüzdan yazma işlemleri (örneğin ilk eşitleme sırasında) kopyalama işlemini yeniden başlatıp durursa, on dakika sonra açık bir hatayla vazgeçer: daha sonra yeniden deneyin veya önce cüzdanı durdurun. Yedek, age kimlik dosyasını **içermez**. Kimlik dosyasını bir kez yedekleyin ve veritabanı yedeklerinden ayrı saklayın; çünkü her ikisine de sahip olan biri anahtarların şifresini çözebilir.
 
 ---
 
 ## JSON-RPC
 
-Zallet, HTTP üzerinden Basic auth ile `zcashd` cüzdan RPC'lerinin bir alt kümesini uygular. Loopback'e bağlayın. Uzaktan kullanım şifreli tünel üzerinden yapılmalıdır. `rpc.allow_insecure_remote_bind` vardır ve güvenli değildir.
+Zallet, HTTP üzerinden Basic kimlik doğrulamasıyla `zcashd` cüzdan RPC'lerinin bir alt kümesini uygular. Yalnızca yerel geri döngü arayüzüne bağlayın. Uzak erişim şifrelenmiş bir tünel üzerinden yapılmalıdır. `rpc.allow_insecure_remote_bind` vardır ve güvenli değildir.
 
-`zcashd`'dan önemli farklar:
+`zcashd`'den kayda değer farkları:
 
-- `getwalletinfo` üzerindeki bakiye alanları boştur. `z_getbalances`, `z_getbalanceforaccount`, `z_gettotalbalance` kullanın.
-- Ücretler **ZIP 317**'yi izler. `settxfee` yoktur.
-- Harcama oluşturma işlemi **PCZT**'lere (Kısmen Oluşturulmuş Zcash İşlemleri, ZIP 374) taşınıyor. PCZT RPC'leri beta serisinde kullanıma sunuldu.
-- Genel bir **senkronizasyon kilidi**, cüzdan güncellenirken veya yeniden düzenlemeden kurtarılırken bakiye ve harcama RPC'lerini engeller (`ClientInInitialDownload` / `ForbiddenBySafeMode`).
+- `getwalletinfo` içindeki bakiye alanları boştur. `z_getbalances`, `z_getbalanceforaccount`, `z_gettotalbalance` kullanın.
+- Ücretler **ZIP 317** standardına uygundur. `settxfee` yoktur.
+- Harcama oluşturma süreci **PCZT**'lere (Kısmen Oluşturulmuş Zcash İşlemler, ZIP 374) taşınmaktadır. PCZT RPC'leri beta serisinde eklendi.
+- Genel bir **eşitleme kilidi**, cüzdan geriden yetişirken veya zincir yeniden düzenlemesinden sonra kurtarılırken bakiye ve harcama RPC'lerini engeller (`ClientInInitialDownload` / `ForbiddenBySafeMode`).
 
-Kasıtlı olarak çıkarılan yöntemler arasında `createrawtransaction`, `fundrawtransaction`, `getnewaddress`, `getrawchangeaddress`, `keypoolrefill`, `importwallet` ve `encryptwallet` bulunur. Yerine geçenler [Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html) içinde listelenmiştir.
+Bilerek kapsam dışında bırakılan yöntemler arasında `createrawtransaction`, `fundrawtransaction`, `getnewaddress`, `getrawchangeaddress`, `keypoolrefill`, `importwallet` ve `encryptwallet` bulunur. Bunların yerine kullanılacak yöntemler [Zallet Book](https://zcash.github.io/zallet/zcashd/json_rpc.html) içinde listelenmiştir.
 
 ---
 
 ## Başlarken
 
-Resmî kurulum seçenekleri (Debian paketleri, Docker, sürüm ikilileri) [kurulum kılavuzunda](https://zcash.github.io/zallet/guide/installation/index.html) yer alıyor. Sürüm arşivlerinin adı `zallet-v<version>-linux-<amd64|arm64>.tar.gz` şeklindedir ve `zallet` ile `zallet-zebra` içerir. Docker imajları `zodlinc/zallet` olarak yayımlanır.
+Resmî kurulum seçenekleri (Debian paketleri, Docker, sürüm ikili dosyaları) [installation guide](https://zcash.github.io/zallet/guide/installation/index.html) içinde yer alır. Sürüm arşivleri `zallet-v<version>-linux-<amd64|arm64>.tar.gz` adıyla yayımlanır ve `zallet` ile `zallet-zebra` dosyalarını içerir. Docker imajları `zodlinc/zallet` olarak yayımlanır.
 
-Yeni cüzdan için en az akış:
+Yeni cüzdan oluşturmak için temel akış:
 
 ```bash
 # data directory; default is $HOME/.zallet
@@ -165,15 +165,15 @@ zallet -d /path/to/zallet/datadir confirm-backup
 zallet -d /path/to/zallet/datadir start
 ```
 
-`[indexer]` öğesini `validator_address` ile yerel `zebrad` JSON-RPC uç noktasına yönlendirin. Bu ayar zorunludur ve varsayılan olarak localhost'u kullanmaz. zebra arka ucunun ayrıca `[indexer.read_state_service]` ve `indexer` özelliğiyle derlenmiş, aynı ana makinede durum dizini bulunan 7.0.0 veya daha yeni bir `zebrad` sürümüne ihtiyacı vardır; böylece Zallet zincir durumunu doğrudan okuyabilir. `indexer.db_path` yalnızca kaldırılmış Zaino arka ucunu yapılandırıyordu: artık bir uyarıyla yok sayılır.
+`[indexer]`'i yerel `zebrad` JSON-RPC uç noktasına `validator_address` ile yönlendirin. Bu seçenek gereklidir ve varsayılan olarak localhost'u kullanmaz. zebra arka ucu ayrıca `[indexer.read_state_service]` ile aynı ana bilgisayarda bulunan, `indexer` özelliği etkinleştirilerek derlenmiş bir `zebrad` 7.0.0 veya üzerini gerektirir. Böylece Zallet Zincir durumunu doğrudan okuyabilir. `indexer.db_path` yalnızca kaldırılmış olan Zaino arka ucunu yapılandırıyordu: artık bir uyarıyla yok sayılır.
 
-Tekrarlanabilir imajlar [StageX](https://codeberg.org/stagex/stagex/) ile oluşturulabilir (Docker 25+, containerd imaj deposu, GNU Make).
+Yeniden üretilebilir imajlar [StageX](https://codeberg.org/stagex/stagex/) ile oluşturulabilir (Docker 25+, containerd imaj deposu, GNU Make).
 
 ---
 
-## zcashd'dan geçiş
+## zcashd'den geçiş
 
-Bakiyeleri doğrulayıp bir geri yüklemeyi test edene kadar eski `zcashd` veri dizinini saklayın.
+Bakiyeleri doğrulayıp geri yüklemeyi test edene kadar eski `zcashd` veri dizinini saklayın.
 
 ```bash
 zallet init-wallet-encryption
@@ -182,23 +182,23 @@ zallet migrate-zcash-conf --zcashd-datadir /path/to/zcashd/datadir \
 zallet migrate-zcashd-wallet --zcashd-datadir /path/to/zcashd/datadir
 ```
 
-`migrate-zcashd-wallet` yalnızca `zcashd-import` özelliğine sahip derlemelerde bulunur. `wallet.dat`'ı okumak için, `zcashd`'ın kullandığı sürüm olan **Berkeley DB 6.2**'den `db_dump` gerekir.
+`migrate-zcashd-wallet` yalnızca `zcashd-import` özelliği etkinleştirilmiş derlemelerde bulunur. `wallet.dat`'i okumak için, `zcashd`'in kullandığı Berkeley DB'nin **6.2** sürümündeki `db_dump` gerekir.
 
-Adım adım operatör notları: [Geçiş Kılavuzu: zcashd'dan Zebrad/Zallet'a](/guides/migration-guide-zcashd-to-zebrad-zallet).
+Operatörler için adım adım notlar: [Migration Guide: zcashd'den Zebrad/Zallet'e](/guides/migration-guide-zcashd-to-zebrad-zallet).
 
 ---
 
-## Zallet diğer yazılımlarla nasıl ilişkilidir?
+## Zallet'in diğer yazılımlarla ilişkisi
 
 | | Zallet | zecd | ZODL (Zashi) / Zingo / Zkool | Zebra / Zakura | Zaino |
 |--|--------|------|------------------------------|----------------|-------|
-| Nedir | Tam düğüm RPC cüzdanı | Önceliği korumalı işlemler olan cüzdan sunucusu | Son kullanıcı cüzdanları | Mutabakat düğümü | İndeksleyici / lightwalletd alternatifi |
-| Yerini aldığı | `zcashd` cüzdanı | Tak-çalıştır `zcashd` klonu değil | Mobil/masaüstü uygulamalar | `zcashd` düğümü | `lightwalletd` |
-| Yerel düğüm gerekiyor mu | Evet | Evet (varsayılan olarak Zebra) | Hayır (hafif istemci) | Düğümün kendisidir | Evet |
-| zcashd RPC uyumluluğu | Uyumluluk yolu olarak tasarlandı | Yalnızca seçilmiş sınırlı bir alt küme | Uygulanamaz | Kısmi / Zakura uyumluluk modu | Farklı API |
-| Saklama modeli | İşletmeci anahtarları `wallet.db` içinde tutar | Tohumla kurtarılabilen sunucu | Kullanıcı cihazındaki anahtarlar | Cüzdan yok | Anahtar yok |
+| Nedir? | Tam düğüm RPC cüzdanı | Korumalı kullanımı önceleyen cüzdan sunucusu | Son kullanıcı cüzdanları | Konsensüs düğümü | İndeksleyici / lightwalletd alternatifi |
+| Yerini aldığı | `zcashd` cüzdanı | Doğrudan yerine geçebilecek bir `zcashd` klonu değildir | Mobil/masaüstü uygulamalar | `zcashd` düğümü | `lightwalletd` |
+| Yerel düğüm gerekir mi? | Evet | Evet (varsayılan olarak Zebra) | Hayır (hafif istemci) | Düğümün kendisidir | Evet |
+| zcashd RPC uyumluluğu | Uyumluluk yolu olarak tasarlanmıştır | Yalnızca seçilmiş küçük bir alt küme | Uygulanamaz | Kısmi / Zakura uyumluluk modu | Farklı API |
+| Saklama modeli | Operatör, anahtarları `wallet.db` içinde tutar | Seed ile kurtarılabilir sunucu | Kullanıcı cihazındaki anahtarlar | Cüzdan yok | Anahtar yok |
 
-Zallet ve **zecd**, ikisi de Zebra'ın önünde bulunabilir. `z_*` cüzdan yüzeyine ve `wallet.dat`'dan geçiş yoluna ihtiyacınız olduğunda Zallet'i seçin. Açıkça bir `zcashd` klonu *olmayan* korumalı-öncelikli bir sunucu istediğinizde zecd'ü seçin.
+Hem Zallet hem de **zecd**, Zebra önünde çalışabilir. Zallet'i, `wallet.dat`'den geçiş yolu ve `z_*` cüzdan arayüzü gerektiğinde seçin. Açıkça bir `zcashd` klonu olmayan, korumalı kullanımı önceleyen bir sunucu istediğinizde zecd'i seçin.
 
 [zallet.io](https://www.zallet.io/) adresinde aynı adı kullanan ayrı bir tüketici ürünü vardır. Bu uygulama bu proje değildir.
 
@@ -206,22 +206,22 @@ Zallet ve **zecd**, ikisi de Zebra'ın önünde bulunabilir. `z_*` cüzdan yüze
 
 ## İlgili sayfalar
 
-- [Tam Düğümler](Full_Nodes.md) — Zebra, Zakura ve kullanımdan kaldırılan `zcashd` düğümü
-- [Zebra Tam Düğüm](Zebra_Full_Node.md) — Zallet’ın varsayılan arka ucu olan düğüm
-- [Zakura Düğümü](Zakura_Node.md) — alternatif doğrulayıcı düğüm
-- [Zaino](Zaino.md) — dizinleyici ve hafif istemci sunucusu (beta.4’ten beri artık bir Zallet arka ucu değil)
-- [Z3 Stack](Z3_Stack.md) — Zebra + Zallet birleştirme yığını
+- [Full Nodes](Full_Nodes.md) — Zebra, Zakura ve artık kullanılmayan `zcashd` düğümü
+- [Zebra Full Node](Zebra_Full_Node.md) — Zallet düğümünün varsayılan olarak okuduğu arka uç
+- [Zakura Node](Zakura_Node.md) — alternatif doğrulayıcı düğüm
+- [Zaino](Zaino.md) — indeksleyici ve hafif istemci sunucusu (beta.4'ten itibaren Zallet arka ucu değildir)
+- [Z3 Stack](Z3_Stack.md) — Zebra + Zallet compose yığını
 - [zecd](ZECD.md) — librustzcash üzerinde başka bir cüzdan sunucusu tasarımı
-- [Zcash Cüzdan Eşitlemesi](Zcash_Wallet_Syncing.md) — korumalı cüzdanların zinciri nasıl taradığı
-- [Görüntüleme Anahtarları](Viewing_Keys.md)
+- [Zcash Wallet Syncing](Zcash_Wallet_Syncing.md) — korumalı cüzdanların Zincir'i nasıl taradığı
+- [Viewing Keys](Viewing_Keys.md)
 
 ## Kaynaklar
 
-- [Zallet Kitabı](https://zcash.github.io/zallet/)
-- [zcash/zallet, GitHub](https://github.com/zcash/zallet) üzerinde
-- [Sürümler](https://github.com/zcash/zallet/releases) · [v0.1.0-beta.4 değişiklik günlüğü](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
-- [JSON-RPC semantiği değişti](https://zcash.github.io/zallet/zcashd/json_rpc.html)
-- [ZecHub geçiş kılavuzu](/guides/migration-guide-zcashd-to-zebrad-zallet)
-- [ZecHub Raspberry Pi kılavuzu (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
-- [Z3 (Zebra + Zallet compose yığını)](https://github.com/ZcashFoundation/z3)
-- [Zcash Ar-Ge Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`
+- [The Zallet Book](https://zcash.github.io/zallet/)
+- [zcash/zallet on GitHub](https://github.com/zcash/zallet)
+- [Releases](https://github.com/zcash/zallet/releases) · [v0.1.0-beta.4 changelog](https://github.com/zcash/zallet/blob/v0.1.0-beta.4/CHANGELOG.md)
+- [JSON-RPC altered semantics](https://zcash.github.io/zallet/zcashd/json_rpc.html)
+- [ZecHub migration guide](/guides/migration-guide-zcashd-to-zebrad-zallet)
+- [ZecHub Raspberry Pi guide (Zebra + Zallet)](/guides/raspberry-pi-4-full-node)
+- [Z3 (Zebra + Zallet compose stack)](https://github.com/ZcashFoundation/z3)
+- [Zcash R&D Discord](https://discord.gg/xpzPR53xtU) — `#wallet-dev`

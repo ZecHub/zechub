@@ -1,73 +1,73 @@
 # Zcash Avalanche RedBridge
 
-Zcash Avalanche RedBridge, Zcash (ZEC) ve Avalanche (AVAX) blokzincirleri arasında birlikte çalışabilirlik sağlayan merkeziyetsiz bir köprüdür. Bu köprü, ZEC’in Avalanche blokzincirine sorunsuz aktarımını kolaylaştırmak için tasarlanmıştır; Avalanche’ın yüksek işlem kapasitesi, düşük ücretleri ve çevre dostu konsensüs mekanizmalarından yararlanırken Zcash’in gizlilik odaklı özelliklerini korur.
+Zcash Avalanche RedBridge, Zcash (ZEC) ve Avalanche (AVAX) blokzincirleri arasında birlikte çalışabilirliği sağlayan merkeziyetsiz bir köprüdür. Bu köprü, Avalanche ağının yüksek işlem kapasitesinden, düşük ücretlerinden ve çevre dostu konsensüs mekanizmalarından yararlanırken Zcash ağının gizlilik odaklı özelliklerini koruyarak ZEC varlıklarının Avalanche blokzincirine sorunsuz aktarılmasını kolaylaştırmak üzere tasarlanmıştır.
 
-RedBridge; zincirler arası merkeziyetsiz finans (DeFi), özel işlemler ve likidite paylaşımı dahil olmak üzere çok çeşitli kullanım senaryolarını destekler ve Zcash sahiplerine Avalanche ekosistemine daha geniş erişim imkânı sunar. Bu köprü, merkeziyetsiz düğümler ve **ZavaX** olarak bilinen bir oracle aracılığıyla işletilir; bu yapı, Zcash ile Avalanche arasında güvenilir veri aktarımı ve fiyat doğrulaması sağlar.
+RedBridge, zincirler arası merkeziyetsiz finans (DeFi), gizli işlemler ve likidite paylaşımı gibi çok çeşitli kullanım alanlarını destekleyerek Zcash sahiplerine Avalanche ekosistemine daha geniş erişim olanağı sunar. Bu köprü, Zcash ile Avalanche arasında güvenilir veri aktarımını ve fiyat doğrulamasını sağlayan, **ZavaX** olarak bilinen bir oracle ve merkeziyetsiz düğümler bütünü aracılığıyla işletilir.
 
 ### Temel Özellikler
 
-Gizliliği Koruyan Birlikte Çalışabilirlik: Zcash kullanıcılarının Avalanche üzerindeki DeFi uygulamalarını kullanırken gizliliklerini korumalarını sağlar.
-Merkeziyetsiz Oracle ZavaX: Doğru ZEC/AVAX fiyat verilerini sağlamak için bir oracle sistemi entegre eder ve güven gerektirmeyen zincirler arası işlemlere olanak tanır.
-Ölçeklenebilir ve Çevre Dostu: Avalanche’ın konsensüs modelini kullanır ve minimum çevresel etkiyle yüksek hızlı işlemler sunar.
-DeFi ve DApps Desteği: Zcash sahipleri artık gizlilikten ödün vermeden Avalanche üzerindeki çeşitli DeFi platformlarına katılabilir.
+Gizliliği Koruyan Birlikte Çalışabilirlik: Zcash kullanıcılarının, Avalanche üzerindeki DeFi uygulamalarını kullanırken gizliliklerini korumasını sağlar.
+Merkeziyetsiz ZavaX Oracle’ı: Güven gerektirmeyen zincirler arası işlemlere olanak tanıyan, doğru ZEC/AVAX fiyat verileri sağlamak için bir oracle sistemi entegre eder.
+Ölçeklenebilir ve Çevre Dostu: Avalanche’ın konsensüs modelini kullanarak çevresel etkisi en aza indirirken yüksek hızlı işlemler sunar.
+DeFi ve DApp Desteği: Zcash sahipleri artık gizliliklerinden ödün vermeden Avalanche üzerindeki çeşitli DeFi platformlarına katılabilir.
 
 ### Teknik Bileşenler
 
 **Merkeziyetsiz ZavaX Oracle**
-Açıklama: ZavaX Oracle, köprü için kritik öneme sahiptir; zincirler arası fiyat akışları sağlar ve güven gerektirmeyen ZEC’ten AVAX’a dönüşümleri mümkün kılar.
-[Oracle bağlantısı](https://zavax-oracle.red.dev)
+Açıklama: ZavaX Oracle, zincirler arası fiyat akışları sağlayarak ve güven gerektirmeyen ZEC ile AVAX dönüşümlerine olanak tanıyarak köprü için kritik bir rol oynar.
+[Oracle’a bağlantı](https://zavax-oracle.red.dev)
 
 **Zincirler Arası Köprü Sözleşmesi**
-Açıklama: Zcash Avalanche köprüsünü destekleyen akıllı sözleşme mimarisi; ZEC yatırma, dönüştürme ve çekme işlemlerini yönetir.
+Açıklama: Zcash Avalanche köprüsünü destekleyen akıllı sözleşme mimarisi; ZEC yatırma, dönüştürme ve çekme işlemlerini yürütür.
 
 **Gizlilik Katmanı Entegrasyonu**
-Açıklama: Zcash gizlilik özelliklerinin köprüleme süreci boyunca korunmasını sağlar ve özel zincirler arası işlemlere olanak tanır.
+Açıklama: Köprüleme süreci boyunca Zcash gizlilik özelliklerinin korunmasını ve gizli zincirler arası işlemlere olanak tanınmasını sağlar.
 
-## Teslimatlar ve Dokümantasyon
+## Teslimatlar ve Belgeler
 
-**Avalanche Üzerindeki Zcash Elastic Subnet Bridge**: [Hibe Teklifi](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
+**Zcash Avalanche Elastic Subnet Köprüsü**: [Hibe Teklifi](https://forum.zcashcommunity.com/t/zcash-elastic-subnet-bridge-on-avalanche/44220)
 Aşağıda Zcash Avalanche RedBridge projesi için tamamlanan temel teslimatlar ve teknik kaynaklar yer almaktadır:
 
-Teslimat 1.1: Bir CLI ile testnet Avalanche subnet’inden testnet Zcash işlemlerinin sorgulanmasını destekleyen, GitHub’da yayımlanan ve Avalanche testnet’inde tek düğümlü bir subnet’e sahip ön PoC. https://github.com/red-dev-inc/redbridge-oracle
+Teslimat 1.1: CLI içeren bir testnet Avalanche alt ağından testnet Zcash işlemlerini sorgulamayı destekleyen, GitHub üzerinde yayımlanan ve Avalanche testnetinde tek düğümlü bir alt ağla çalışan ön PoC. https://github.com/red-dev-inc/redbridge-oracle
 
 Teslimat 2.1: [Mimari](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture)
 
 
-### Kilometre Taşı 3 31 Mart 2024
+### 3. Aşama 31 Mart 2024
 
-Teslimat 3.1 tamamlandı ve ZavaX köprüsünde eşik imzaları için BLS yerine FROST benimsenmesine ilişkin analizimizi sunuyor. Bu değişim, Zcash Foundation tarafından denetlenmiş kütüphanelerden yararlanıyor ve daha iyi entegrasyon ile güvenlik sağlıyor. https://github.com/ZcashFoundation/frost
+3.1 numaralı teslimat tamamlandı. ZavaX köprüsünde eşik imzaları için BLS yerine FROST kullanılması üzerine yaptığımız analizi sunuyor. Bu değişiklik, Zcash Foundation denetlenmiş kütüphanelerinden yararlanarak daha iyi entegrasyon ve güvenlik sağlıyor. https://github.com/ZcashFoundation/frost
 
-Teslimat 3.2 GUI için UX ve UI tasarımı tamamlandı; penetrasyon testi sonuçlarıyla desteklenen ZavaX Oracle alt ağına yönelik güvenlik iyileştirmelerimizi ayrıntılandırıyor. Sunucu yapılandırması ve test sonuçları dahil daha fazla ayrıntı için [Güvenlik Değerlendirmesi](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
+3.2 numaralı teslimat: GUI için UX ve UI tasarımı tamamlandı. Sızma testi sonuçlarıyla desteklenen ZavaX Oracle alt ağına yönelik güvenlik iyileştirmelerimiz ayrıntılı olarak açıklanıyor. Sunucu yapılandırması ve test sonuçları dâhil daha fazla bilgi için [Güvenlik Değerlendirmesi](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/deployment-notes.md)
 [Denetim Raporu](https://github.com/red-dev-inc/redbridge-oracle/blob/main/security/pen-testing-report-2024-09.md)
-Ek olarak ekip, ZavaX markasını redbridge olarak yeniden markaladı ve staking token’ını ZAX’ten RBR’ye değiştirdi.
+Ayrıca ekip, ZavaX adını redbridge olarak değiştirdi ve staking token’ını ZAX’tan RBR’ye geçirdi.
 
-### Kilometre Taşı 4 30 Nisan 2024
-Teslimat 4.1 CLI desteğiyle birlikte, 3 doğrulayıcılı bir Subnet üzerinde Zcash ve Avalanche testnet’lerine tam işlevsel dağıtım
+### 4. Aşama 30 Nisan 2024
+4.1 numaralı teslimat: CLI desteğiyle, 3 doğrulayıcılı bir alt ağın Zcash ve Avalanche testnetlerinde tamamen işlevsel dağıtımı
 
-### Kilometre Taşı 5 31 Mayıs 2024
-Teslimat 5.1 GUI: köprünün Core veya Webapp’e entegrasyonu
+### 5. Aşama 31 Mayıs 2024
+5.1 numaralı teslimat: GUI: Köprünün Core’a veya web uygulamasına entegrasyonu
 
-Kilometre Taşı 6 30 Haziran 2024
-Teslimat 6.1 Yazılım denetiminin başarıyla geçilmesi
-Teslimat 6.2 Denetlenmiş kaynak kodunun herkese açık bir GitHub reposunda yayımlanması
+Aşama 6: 30 Haziran 2024
+6.1 numaralı teslimat: Yazılım denetiminin başarıyla tamamlanması
+6.2 numaralı teslimat: Denetlenmiş kaynak kodun herkese açık bir GitHub deposunda yayımlanması
 
-[GitHub reposuna](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture) göz atın
+[GitHub depoya](https://github.com/red-dev-inc/red-bridge/tree/main/Architecture) göz atın
   
-Daha fazla teknik ayrıntı için kullanıcıların, entegrasyonun ayrıntılarını, test çerçevelerini ve güvenlik protokollerini [incelemek](https://github.com/red-dev-inc/red-bridge) üzere RedBridge projesinin reposunu ve dokümantasyonunu gözden geçirmeleri tavsiye edilir.
+Daha fazla teknik ayrıntı için kullanıcıların, entegrasyonun özelliklerini, test çerçevelerini ve güvenlik protokollerini [incelemek](https://github.com/red-dev-inc/red-bridge) üzere RedBridge projesinin deposunu ve belgelerini gözden geçirmeleri önerilir.
 
 
 ![img1](/content-images/b8c5d267-1711-458a-8a32-1df9d56fae8a-a93ff66932.webp)
 
 
 * Teslimatlar: 
-2025’in 1. çeyreğinde ekip, herkesin kullanıcı deneyimini deneyebileceği, geri bildirim verebileceği ve iyileştirme önerilerinde bulunabileceği [red·bridge demo web sitesinin](https://redbridge-demo.red.dev/index.html) lansmanını duyurdu. Bu site aynı zamanda teknik olmayan kişileri projeyle tanıştırmanın kolay bir yolu olarak da hizmet veriyor.
+2025’in 1. çeyreğinde ekip, herkesin kullanıcı deneyimini deneyebileceği, geri bildirim verebileceği ve iyileştirme önerilerinde bulunabileceği [red·bridge demo web sitesinin](https://redbridge-demo.red.dev/index.html) kullanıma açıldığını duyurdu. Site, teknik bilgisi olmayan kişileri projeyle tanıştırmanın da kolay bir yolunu sunuyor.
 
-* Ekip, red·bridge’in nihai sürümü için Zebra kullandı. Bunu test etmek için Avalanche’ın Fuji testnet’i üzerinde çalışan test blokzincirleri ZavaX Oracle’daki üç düğümün ikisini yükselttiler. Son düğüm de başarıyla yükseltildi; artık [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) Zebra üzerinde çalışıyor!
+* Ekip, red·bridge için son sürümde Zebra kullandı. Test etmek için test blokzincirlerindeki üç düğümden ikisini yükselttiler: ZavaX Oracle. Bu blokzincir, Avalanche’ün Fuji testnetinde çalışıyor. Son düğüm de başarıyla yükseltildi; artık [ZavaX Oracle](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/) artık Zebra üzerinde çalışıyor!
 
-* 2025’in 1. çeyreğinde, red.bridge web sitesi başlangıçta kırmızı olan ilk sürümün aksine red, Dark, Light ve Zebra olmak üzere dört görünüm sunacak şekilde kodlandı.
+* 2025’in 1. çeyreğinde red.bridge web sitesi, başlangıçtaki kırmızı sürümün aksine kırmızı, Koyu, Açık ve Zebra olmak üzere dört görünüm sunacak şekilde kodlandı.
 
-* Bir diğer nokta da ekibin Aralık 2025’te red·bridge L1’i Avalanche mainnet üzerinde canlıya alacak olmasıdır. Başlangıçta Zcash blokzinciri için, kısa süre sonra da Bitcoin için bir oracle olarak hizmet verecek. Bu kapsamda her talep, gas token olarak 0.001 AVAX maliyetine sahip olacak. Bu yapı, Avalanche üzerindeki herhangi bir L1’in veya akıllı sözleşmenin Zcash ve Bitcoin’den verileri merkeziyetsiz şekilde düşük maliyetle sorgulamasını mümkün kılacak.
+* Bir diğer nokta, ekibin red·bridge L1’i Avalanche ana ağında Aralık 2025’te canlıya alacak olması. Başlangıçta Zcash blokzinciri için, kısa süre sonra da Bitcoin için bir oracle olarak hizmet verecek. Her istek, gas token olarak 0,001 AVAX tutarında ücret gerektirecek. Bu sürüm, Avalanche üzerindeki herhangi bir L1’in veya akıllı sözleşmenin Zcash ve Bitcoin’den merkeziyetsiz biçimde düşük maliyetle veri sorgulamasını sağlayacak.
 
-* 2. çeyrekte ekip, bir red.bridge guardian çalıştırmayı daha erken ve herkes için daha uygun maliyetli hale getirmek amacıyla Avalanche Foundation’a bir kilometre taşı olan ACP-77’yi (Avalanche9000 olarak bilinir) sundu. Başlangıçta doğrulayıcıların yaklaşık 2000 AVAX stake etmesi gerekiyordu; ancak Avalanche9000costs ile doğrulayıcıların yalnızca 1 AVAX (aylık) stake etmesi gerekti. Ayrıca bu kilometre taşı, ZF’nin FROST uygulamasını kullanma planını da nihai hale getiriyor; bu da her Guardian’a köprü cüzdanının güvenli ve dağıtık kontrolü için bir imza payı veriyor.
+* 2. çeyrekte ekip, red.bridge koruyucularının daha erken ve herkes için daha uygun maliyetle çalıştırılmasını sağlamak amacıyla ACP-77 (Avalanche9000 olarak bilinir) kilometre taşını Avalanche Foundation’a sundu. Başlangıçta doğrulayıcıların yaklaşık 2.000 AVAX stake etmesi gerekiyordu; ancak Avalanche9000 maliyetleriyle doğrulayıcıların yalnızca 1 AVAX (ay) stake etmesi yeterli oldu. Ayrıca bu kilometre taşı, her Koruyucuya köprü cüzdanının güvenli ve dağıtık kontrolü için bir imza payı veren ZF’nin FROST uygulamasının kullanılmasına yönelik planı da kesinleştiriyor.
 
-* 2026’nın 1. ve 2. çeyreğinde red.bridge, Zcash ve Avalanche topluluğu üyeleri için RBR token’ının (eski adıyla ZAX) airdrop’unu düzenleyecek. red.dev’in kurucusuna göre, kullanıcıların köprüyü test etmeye yardımcı olurken RBR kazanma şansı elde edeceği teşvikli bir testnet de düzenlenecek.
+* 2026’nın 1. ve 2. çeyreklerinde red.bridge, RBR token’ının (önceki adı ZAX) Zcash ve Avalanche topluluğu üyelerine airdrop’unu düzenleyecek. Kurucunun açıklamasına göre, red.dev ekibi kullanıcıların köprüyü test ederken RBR kazanma şansı bulacağı teşvikli bir testnet düzenleyecek.

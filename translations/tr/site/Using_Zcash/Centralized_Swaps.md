@@ -1,20 +1,20 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Centralized_Swaps.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# Merkezi Swap Platformları
+# Merkezi Takas Platformları
 
-ZecHub herhangi bir belirli borsa hizmetini desteklemez; lütfen kendi araştırmanızı yapın.
+ZecHub herhangi bir borsa hizmetini desteklemez; lütfen kendi araştırmanızı yapın.
 
-Aşağıdaki her bir `###` başlığı, https://zechub.wiki/using-zcash/centralizedswaps. üzerinde bir karttır.
-Buradan bir blok ekleyin, düzenleyin veya kaldırın; wiki bunu bu dosyadan alır.
+Aşağıdaki her `###` başlığı, https://zechub.wiki/using-zcash/centralizedswaps. üzerinde bir karttır
+Buraya bir blok ekleyin, düzenleyin veya kaldırın; wiki bu dosyadaki değişikliği alır.
 
 ### LetsExchange
 
 <img src="/content-images/1500x500-1-9d3b008870.webp" alt="LetsExchange" width="200" height="100"/>
 
 - Web sitesi: https://letsexchange.io/
-- Açıklama: 4.500'den fazla kripto para birimi, derin likidite, zincirler arası swaplar, giriş ve çıkış rampaları, DEX, hızlı ve güvenli işlemler sunan bir kripto borsa merkezi.
+- Açıklama: 4.500'den fazla kripto para birimi, yüksek likidite, zincirler arası takaslar, para yatırma ve çekme kanalları, DEX ve hızlı, güvenli işlemler sunan bir kripto borsa merkezi.
 
 ___
 
@@ -23,7 +23,7 @@ ___
 <img src="/nearintents.png" alt="NEAR Intents" width="200" height="100"/>
 
 - Web sitesi: https://app.near-intents.org/
-- Açıklama: NEAR desteğiyle hızlı borsa. Para yatırın, satın, popüler TRUMP, MELANIA, BERA ve diğer meme coinler dahil swap yapın.
+- Açıklama: NEAR desteğiyle hızlı borsa. TRUMP, MELANIA, BERA ve diğer popüler meme token’ları dahil yatırma, satma ve takas işlemleri yapın.
 
 ___
 
@@ -32,7 +32,7 @@ ___
 <img src="/content-images/shapeshift-27053ae96b.webp" alt="ShapeShift" width="200" height="100"/>
 
 - Web sitesi: https://private.shapeshift.com/
-- Açıklama: Cüzdanınız. Tek Uygulama. Sonsuz Fırsat · Önde gelen DEX'ler ve toplayıcılar arasında en iyi oranlarla Bitcoin, Ethereum ve daha fazlasının alım satımını yapın.
+- Açıklama: Cüzdanınız. Tek uygulama. Sınırsız fırsat · Bitcoin, Ethereum ve daha fazlasını önde gelen DEX'ler ve toplayıcılar üzerinden en iyi oranlarla takas edin.
 
 ___
 
@@ -41,7 +41,7 @@ ___
 <img src="/stealth_ex.png" alt="Stealth EX" width="200" height="100"/>
 
 - Web sitesi: https://stealthex.io/
-- Açıklama: StealthEX, kayıt gerektirmeyen ve kullanıcı fonlarını platformda saklamayan, sınırsız swaplar için anlık bir kripto para borsasıdır. StealthEX, kripto para satın almak için en iyi yerdir.
+- Açıklama: StealthEX, kayıt gerektirmeyen ve kullanıcı fonlarını platformda saklamayan hizmetiyle sınırsız takaslar sunan anlık bir kripto para borsasıdır. StealthEX, kripto para satın almak için en iyi yerdir.
 
 ___
 
@@ -50,7 +50,7 @@ ___
 <img src="/changelly.png" alt="Changelly" width="200" height="100"/>
 
 - Web sitesi: https://changelly.com/
-- Açıklama: Changelly, kripto borsalarında %0,25'e kadar düşen sektörün en düşük ücretleriyle tanınan, anında işlem gerçekleştiren bir kripto coin borsasıdır. Aynı zamanda en çok yönlü kripto borsası tanımını da karşılar.
+- Açıklama: Changelly, kripto para borsalarında %0,25'e varan sektörün en düşük ücretleriyle tanınan, anında işlem gerçekleştiren bir kripto para borsasıdır. Ayrıca en çok yönlü kripto para borsası tanımına da uyar.
 
 ___
 
@@ -59,7 +59,7 @@ ___
 <img src="/flyp.me.png" alt="flyp.me" width="200" height="100"/>
 
 - Web sitesi: https://flyp.me/en/#/
-- Açıklama: flyp.me hesap gerektirmeyen borsası ve FYP Token, gizliliği korumak, merkeziyetsizliği teşvik etmek, tabandan sahipliği desteklemek ve uzlaşıya inanan bir topluluğu büyütmek için doğdu.
+- Açıklama: flyp.me hesapsız borsası ve FYP Token, gizliliği korumak, merkeziyetsizliği teşvik etmek, tabandan gelen sahipliği desteklemek ve konsensüse inanan bir topluluk oluşturmak amacıyla doğdu.
 
 ___
 
@@ -68,7 +68,7 @@ ___
 <img src="/exolix.png" alt="Exolix" width="200" height="100"/>
 
 - Web sitesi: https://exolix.com
-- Açıklama: 1311'den fazla kripto parayı en iyi oranla ve kayıt olmadan anında takas edin.
+- Açıklama: 1.311'den fazla kripto parayı en iyi kurla ve kayıt olmadan anında takas edin.
 
 ___
 
@@ -77,7 +77,7 @@ ___
 <img src="/Trocodor.png" alt="Trocador" width="200" height="100"/>
 
 - Web sitesi: https://trocador.app/
-- Açıklama: Kripto Para Birimlerini Anonim Olarak Alıp Satın. Hızlı. Güvenli. Bürokrasi Yok. Ön ödemeli banka kartları mevcut.
+- Açıklama: Kripto paraları anonim olarak takas edin. Hızlı. Güvenli. Bürokrasi yok. Ön ödemeli banka kartları mevcuttur.
 
 ___
 
@@ -86,7 +86,7 @@ ___
 <img src="/DCRDEX.jpg" alt="Bison Wallet" width="200" height="100"/>
 
 - Web sitesi: https://dex.decred.org/
-- Açıklama: Kripto paraları eşler arası alıp satın. İşlem ücreti yok. KYC yok. Decred Project tarafından oluşturulmuş merkeziyetsiz borsa.
+- Açıklama: Kripto paraları eşler arasında takas edin. İşlem ücreti yok. KYC yok. Decred Project tarafından geliştirilen merkeziyetsiz borsa.
 
 ___
 
@@ -95,7 +95,7 @@ ___
 <img src="/content-images/firodex-beta-release-b1958c5adc.webp" alt="Firo DEX" width="200" height="100"/>
 
 - Web sitesi: https://github.com/firoorg/FiroDEX-Desktop
-- Açıklama: Atomik swap masaüstü uygulaması. Artık bakımı yapılmıyor: Firo FiroDEX-Desktop deposunu arşivledi ve son sürümü 0.8.2-beta (Şubat 2025).
+- Açıklama: Atomik takas masaüstü uygulaması. Artık bakımı yapılmıyor: Firo, FiroDEX-Desktop deposunu arşivledi ve son sürümü 0.8.2-beta'dır (Şubat 2025).
 
 ___
 
@@ -104,7 +104,7 @@ ___
 <img src="/Changenow.png" alt="Changenow" width="200" height="100"/>
 
 - Web sitesi: https://changenow.io/?from=usdterc20&to=zec
-- Açıklama: Sınırsız WEB 3 Kripto Borsası – Basit, Hızlı, Saklama hizmeti olmadan.
+- Açıklama: Sınırsız WEB 3 Kripto Borsası – Basit, Hızlı, Gözetimsiz.
 
 ___
 
@@ -113,7 +113,7 @@ ___
 <img src="/FixedFloat.jpg" alt="Fixed Float" width="200" height="100"/>
 
 - Web sitesi: https://ff.io
-- Açıklama: Lightning Network ile anında, tamamen otomatik kripto para borsası.
+- Açıklama: Lightning Network özellikli, anlık ve tamamen otomatik kripto para borsası.
 
 ___
 
@@ -122,7 +122,7 @@ ___
 <img src="/xchange.png" alt="Xchange" width="200" height="100"/>
 
 - Web sitesi: https://xchange.me/
-- Açıklama: Anonim Kripto Para Borsası; ucuz, güvenilir, her zaman zamanında ve kayıtsız. Özel Tor yansısı mevcuttur.
+- Açıklama: Ucuz, güvenilir, her zaman zamanında ve kayıt gerektirmeyen anonim kripto para borsası. Özel bir Tor yansısı mevcuttur.
 
 ___
 
@@ -131,7 +131,7 @@ ___
 <img src="/Bitcoinvn.png" alt="BitcoinVN" width="200" height="100"/>
 
 - Web sitesi: https://bitcoinvn.io/?deposit=xmr&settle=zec/
-- Açıklama: Vietnam'da Anında Bitcoin ve Kripto Para Borsası. VND, BTC, XMR, USDT, ETH, BCH, SOL dahil 80 varlık arasında satın alın, satın veya swap yapın.
+- Açıklama: Vietnam'da anlık Bitcoin ve kripto para borsası. VND, BTC, XMR, USDT, ETH, BCH ve SOL dahil 80 varlık arasında alım, satım veya takas yapın.
 
 ___
 
@@ -140,4 +140,4 @@ ___
 <img src="/leodex-logo.png" alt="LeoDex" width="200" height="100"/>
 
 - Web sitesi: https://leodex.io/
-- Açıklama: Hesapsız ve KYC'siz zincirler arası swaplar. BTC, ETH ve daha fazlasını herhangi bir cüzdandan, borsadan veya soğuk depolamadan tek kullanımlık bir para yatırma adresine gönderin ve ZEC alın — cüzdan bağlantısı gerekmez.
+- Açıklama: Hesap ve KYC gerektirmeyen zincirler arası takaslar. Herhangi bir cüzdan, borsa veya soğuk depolama alanından BTC, ETH ve daha fazlasını tek kullanımlık bir yatırma adresine gönderin ve ZEC alın — cüzdan bağlantısı gerekmez.

@@ -1,22 +1,22 @@
-# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> Bir Satıcı Olarak Zcash ile Ödeme Kabul Etme
+# <img src="/content-images/shopping-cart-free-15-svgrepo-com-991c5b52e9.svg" width="24" height="24" alt="finance icon"/> Zcash ile Bir Satıcı Olarak Ödeme Kabul Edin
 
 <span className="inline-flex items-center gap-[6px]">
   <span className="inline-block w-[12px] h-[12px] bg-green-500 rounded-full"></span>
-  Başlangıç - 5 dk
+  Başlangıç - 5 dakika
 </span>
 
-## TL;DR
+## Kısaca
 
-- Shielded bir adres kullanarak ödeme kabul edin
-- Müşteri işlem verilerini açığa çıkarmaktan kaçının
-- Sipariş takibi için memoları veya zincir dışı sistemleri kullanın
+- Korumalı bir adres kullanarak ödeme kabul edin
+- Müşteri işlem verilerinin açığa çıkmasını önleyin
+- Sipariş takibi için memo veya zincir dışı sistemler kullanın
 - İşletme gelirlerinizi gizli tutun
 
 <br/>
 
 ## <img src="/content-images/user-svgrepo-com-21adf62b7c.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="user icon"/> Bu kimler için?
 
-- Çevrim içi satıcılar
+- Çevrimiçi satıcılar
 - Hizmet sağlayıcılar
 - Küçük işletmeler
 - Kripto dostu mağazalar
@@ -26,48 +26,48 @@
 ## <img src="/content-images/warning-error-svgrepo-com-b7ea8a50da.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="warning icon"/> Sorun
 
 Geleneksel kripto ödemeleri şunları açığa çıkarır:
-- Müşteri satın alma davranışı
+- Müşterilerin satın alma alışkanlıkları
 - Satıcı geliri
 - İşlem geçmişi
 
-Bu da şunlara yol açar:
+Bu durum şunlara yol açar:
 - Müşteri gizliliğinin kaybı
-- Rekabetçi istihbarat sızıntıları
-- İstemeyebileceğiniz bir finansal şeffaflık
+- Rekabet istihbaratının sızması
+- İstemeyebileceğiniz finansal şeffaflık
 
 <br/>
 
 ## <img src="/content-images/icons8-lock-2f8e221321.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Neden Zcash?
 
-Zcash şunları mümkün kılar:
-- Gizli müşteri ödemeleri
+Zcash şunları sağlar:
+- Özel müşteri ödemeleri
 - Gizli gelir takibi
-- İş faaliyetlerinin korunması
+- İşletme faaliyetlerinin korunması
 
 
 <br/>
 
-## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> İhtiyacınız Olanlar
+## <img src="/content-images/icons8-toolbox-9bebbb1619.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="toolbox icon"/> Gerekenler
 
-- Shielded işlemleri destekleyen bir Zcash cüzdanı
+- Korumalı işlemleri destekleyen bir Zcash cüzdanı
 - Basit bir ödeme akışı (manuel veya entegre)
 - İsteğe bağlı: sipariş takip sistemi
 
 
 <br/>
 
-## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım Adım Rehber
+## <img src="/content-images/ladder-svgrepo-com-7232bf46ed.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="step icon"/> Adım Adım Kılavuz
 
-### Adım 1: Bir Ödeme Adresi Ayarlayın
+### Adım 1: Bir Ödeme Adresi Oluşturun
 
-- Shielded bir (z) adres oluşturun
-- Bunu ödemeleri almak için kullanın
+- Korumalı bir (z) adres oluşturun
+- Ödemeleri almak için bunu kullanın
 
 
 ### Adım 2: Ödeme Talimatlarını Gösterin
 
 Her işlem için:
-- z-adresinizi gösterin
+- z adresinizi gösterin
 - Ödeme tutarını belirtin
 - İsteğe bağlı olarak bir memo referansı ekleyin
 
@@ -75,7 +75,7 @@ Her işlem için:
 
 Şunları kullanın:
 - Memolar (ör. Sipariş Kimliği)
-- Veya zincir dışı takip (veritabanı, elektronik tablo)
+- Veya zincir dışı takip (veritabanı, hesap tablosu)
 
 
 Örnek:
@@ -84,14 +84,14 @@ Her işlem için:
 
 ### Adım 4: Ödemeyi Onaylayın
 
-- Gelen shielded işlemleri izleyin
-- Memo veya tutarı siparişle eşleştirin
+- Gelen korumalı işlemleri izleyin
+- Memoyu veya tutarı siparişle eşleştirin
 
 
 ### Adım 5: Gizlilik Hijyenini Koruyun
 
-- Mümkünse adresleri kamuya açık şekilde tekrar kullanmaktan kaçının
-- İşlem geçmişini ifşa etmeyin
+- Mümkünse adresleri herkese açık şekilde tekrar kullanmaktan kaçının
+- İşlem geçmişini açığa çıkarmayın
 - Gerekirse farklı iş birimleri için ayrı cüzdanlar kullanın
 
 
@@ -99,10 +99,10 @@ Her işlem için:
 
 ## <img src="/content-images/icons8-cancel-7f786be3c1.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="cancel icon"/> Kaçınılması Gereken Yaygın Hatalar
 
-- Ödemeler için transparent adresler kullanmak  
-- İşlem kanıtlarını kamuya açık olarak paylaşmak  
-- Müşteri kimliğini blockchain verileriyle ilişkilendirmek  
-- Ödemeleri düzgün şekilde takip etmemek  
+- Ödemelerde şeffaf adresler kullanmak  
+- İşlem kanıtlarını herkese açık şekilde yayımlamak  
+- Müşteri kimliğini blokzincir verilerine bağlamak  
+- Ödemeleri düzgün takip etmemek
 
 
 <br/>
@@ -121,19 +121,19 @@ Her işlem için:
 
 
 - [Cüzdanlar](/wallets)
-- [Zcash ödemenizi kim görebilir?](/start-here/who-can-see-your-zcash-payment)
+- [Zcash ödemesini kimler görebilir](/start-here/who-can-see-your-zcash-payment)
 
 <br/>
 
 ## <img src="/content-images/progress-arrows-svgrepo-com-aad76739e5.svg" width="24" height="24" className="inline-block align-middle mr-1 p-[2px]" alt="progress icon"/> İlerleme
 
-**6 adımın 4. adımı**
+**6 adımdan 4. adım**
 
-Artık işletmeniz için özel ödeme akışları yürütebilirsiniz.
+Artık işletmeniz için gizli ödeme akışları yürütebilirsiniz.
 
 <br/>
 
 ## Sonraki Adım
 
-- [Özel Bir Topluluk Hazinesi Yürütün](/zcash-use-cases/private-community-treasury)
+- [Gizli Bir Topluluk Hazinesi İşletin](/zcash-use-cases/private-community-treasury)
 <br/>

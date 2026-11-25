@@ -1,27 +1,27 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Start_Here/ZEC_Use_Cases.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# Zcash Temelleri
+# Zcash Temel Bilgiler
 
 ## ZEC Kullanım Alanları
 
-#### Ödemeler
+#### Ödemeler (payments)
 
-İnsanlar, düşük ücretlerle verimli ve güvenli şekilde işlem yapmak için ZEC kullanır. Shielded Zcash, işlemlerin gizli kalmasını sağlarken, dilerlerse adres ve işlem bilgilerini paylaşma seçeneğini de sunar. Özel, "Z-Z" işlemler herkese açık blokzincirde görünür; böylece gerçekleştiği ve ücretlerin ödendiği bilinir. Ancak adresler, işlem tutarı ve not alanının tamamı şifrelenmiştir ve kamuya açık şekilde görünmez. 
+İnsanlar, düşük ücretlerle verimli ve güvenli bir şekilde işlem yapmak için ZEC kullanır. Korumalı (shielded) Zcash, işlemlerin gizli kalmasını sağlarken, isteyenlere adres ve işlem bilgilerini paylaşma seçeneği de sunar. Özel “Z-Z” işlemleri, gerçekleştiği ve ücretlerinin ödendiği bilinsin diye herkese açık blokzincirde (blockchain) görünür. Ancak adresler, işlem tutarı ve memo alanı şifrelenir ve herkese açık olarak görüntülenemez.
 
 #### Değer Saklama Aracı
 
-İnsanlar ayrıca ZEC’i, gizliliği koruyan sağlam bir varlıkta servet saklamak için de kullanabilir. Toplamda yalnızca 21 milyon ZEC birimi olacaktır; bu da varlığın arzının sabit olduğu anlamına gelir. 21 milyonuncu ZEC [dolaşıma kazandırıldığında](https://z.cash/mining-zcash/), varlık enflasyon karşıtı hale gelecektir. Enflasyon karşıtı varlıklar, merkezi bekçilerin ulusal para arzını şişirdiği durumlarda enflasyona karşı iyi bir korunma aracıdır.
+İnsanlar servetlerini sağlam, gizliliği koruyan bir varlıkta saklamak için de ZEC kullanabilir. Toplamda yalnızca 21 milyon ZEC birimi bulunacaktır; bu da varlığın sabit bir arza sahip olduğu anlamına gelir. 21 milyonuncu ZEC [madencilik yoluyla dolaşıma girdikten](https://z.cash/mining-zcash/) sonra varlık enflasyona karşı dayanıklı hâle gelecektir. Enflasyona karşı dayanıklı varlıklar, merkezi bekçilerin ulusal para arzını artırması durumunda enflasyona karşı iyi bir koruma sağlar.
 
 #### Mesajlaşma
 
-İnsanlar, shielded bir Z-Z işlemin not alanını kullanarak tamamen şifrelenmiş mesajlar gönderebilir. Bir not göndermek için kullanıcıların bir işlem gerçekleştirmesi ve işlem ücreti ödemesi gerekir; bu ücret $0.01’den daha azdır.
+İnsanlar, tamamen şifrelenmiş mesajlar göndermek için korumalı bir Z-Z işlemindeki memo alanını kullanabilir. Memo göndermek için kullanıcıların bir işlem gerçekleştirip işlem ücreti ödemesi gerekir; bu ücret 0,01 ABD dolarından düşüktür.
 
 #### Kaynaklar
 
-[Şifrelenmiş Not Alanı](https://electriccoin.co/blog/encrypted-memo-field/)
+[Şifrelenmiş Memo Alanı](https://electriccoin.co/blog/encrypted-memo-field/)
 
-[Zcash ile Ödeyin](https://z.cash/pay-with-zcash/)
+[Zcash ile ödeme yapın](https://z.cash/pay-with-zcash/)
 
-[Zcash ile Nerelerde Ödeme Yapılır](https://paywithz.cash/)
+[Zcash ile nerelerde ödeme yapabilirsiniz](https://paywithz.cash/)

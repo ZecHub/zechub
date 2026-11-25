@@ -1,154 +1,154 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Shielded_Coinholder_Voting.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
-# Shielded Coinholder Oylaması
+# Korumalı Coinholder Oylaması
 
-> Ağustos 2026'da Zcash, oy pusulalarının şifreli kaldığı ve yalnızca nihai toplamların açıklandığı, Valar Group tarafından geliştirilen shielded bir oylama protokolünü kullanarak coin sahipleri arasında bir anket düzenledi.
+> Ağustos 2026'da Zcash, oy pusulalarının şifreli kaldığı ve yalnızca nihai toplamların açıklandığı, Valar Group tarafından oluşturulan korumalı bir oylama protokolünü kullanan bir coinholder anketi düzenledi.
 
-Bu sayfadan öğrenecekleriniz: Ne kadar ZEC tuttuğunuza göre ağırlıklandırılmış bir oyun nasıl gizli tutulup yine de doğru şekilde sayılabileceği; hiç kimse nasıl oy verdiğinizi veya ne kadar varlığa sahip olduğunuzu öğrenmeden.
+Bu sayfadan öğrenecekleriniz: Elinizde tuttuğunuz ZEC miktarına göre oyunuzun nasıl ağırlıklandırılabileceği, gizli tutulabileceği ve yine de doğru şekilde sayılabileceği; üstelik hiç kimse nasıl oy kullandığınızı veya ne kadar varlığa sahip olduğunuzu öğrenmeden.
 
-Shielded coinholder oylaması, Zcash sahiplerinin shielded ZEC kullanarak ekosistemle ilgili sorularda oy vermesini sağlar. Hiç kimse bireysel bir kişinin neye oy verdiğini veya ne kadar ZEC tuttuğunu öğrenmez; buna rağmen herkes toplamların doğru olduğunu denetleyebilir. Valar Group tarafından geliştirilen, Zcash ana ağından ayrı özel bir oylama zincirinde çalışır; böylece gerçek fonlarınız asla hareket etmez. Zcash'in daha geniş ölçekte nasıl karar aldığı için [Zcash Funding and Governance genel bakışına](../zcash-community/zcash-governance) bakın. Bu sayfa yalnızca kriptografik oylama protokolü hakkındadır.
+Korumalı coinholder oylaması, Zcash sahiplerinin ekosistemle ilgili sorularda korumalı ZEC kullanarak oy kullanmasını sağlar. Hiç kimse herhangi bir kişinin nasıl oy kullandığını veya elinde ne kadar ZEC bulunduğunu öğrenmez; buna rağmen herkes toplamların doğru olduğunu denetleyebilir. Bu oylama, Valar Group tarafından oluşturulan ve Zcash ana ağından ayrı olan özel bir oylama Zinciri üzerinde çalışır; böylece gerçek fonlarınız asla hareket etmez. Zcash'ın daha genel olarak nasıl karar aldığını öğrenmek için [Zcash Finansman ve Yönetişim genel bakışına](../zcash-community/zcash-governance) göz atın. Bu sayfa yalnızca kriptografik oylama protokolünü ele alır.
 
-Zcash'e yeni misiniz? Önce [ZEC nedir ve Zcash](../start-here/what-is-zec-and-zcash), [Shielded Pools](../using-zcash/shielded-pools) ve [zk-SNARKs](../zcash-tech/zk-snarks) sayfalarından başlayın; ardından buraya dönün.
+Zcash konusunda yeni misiniz? Önce [ZEC nedir ve Zcash](../start-here/what-is-zec-and-zcash), [Korumalı Havuzlar](../using-zcash/shielded-pools) ve [zk-SNARKs](../zcash-tech/zk-snarks) sayfalarını okuyup sonra buraya dönün.
 
-![Shielded voting flow: a voter proves their Ironwood balance at a snapshot, casts an encrypted ballot split into shares, which are homomorphically tallied and then threshold-decrypted into totals only](/content-images/shielded-voting-flow.webp)
+![Korumalı oylama akışı: seçmen, bir anlık görüntüdeki Ironwood bakiyesini kanıtlar ve paylara bölünmüş şifreli oy kullanır; oylar homomorfik olarak sayılır, ardından yalnızca toplamları elde etmek için eşik şifre çözme uygulanır](/content-images/shielded-voting-flow.webp)
 
-## Özel oylama neden zordur
+## Gizli oylama neden zordur
 
-İyi bir coinholder oylaması aynı anda dört şey ister ve bunları elde etmenin bariz yolları birbiriyle çelişir.
+İyi bir coinholder oylaması aynı anda dört şeyi sağlamalıdır ve bunları sağlamanın bariz yolları birbiriyle çatışır.
 
-1. Paya göre ağırlıklandırma; böylece daha fazla ZEC tutmak daha fazla ağırlık taşır.
-2. Tercih gizliliği; böylece hiç kimse nasıl oy verdiğinizi öğrenmez.
+1. Stake'e göre ağırlıklandırma; böylece daha fazla ZEC tutmak daha fazla ağırlık taşır.
+2. Tercih gizliliği; böylece hiç kimse nasıl oy kullandığınızı öğrenmez.
 3. Bakiye gizliliği; böylece hiç kimse ne kadar ZEC tuttuğunuzu öğrenmez.
-4. Herkesin kontrol edebileceği doğru ve denetlenebilir bir sayım.
+4. Herkesin kontrol edebileceği, doğru ve denetlenebilir bir sayım.
 
-Paya göre ağırlıklandırmak için herkesin bakiyesine ihtiyacınız varmış gibi görünür. Oy pusulalarını saymak için de onları açmanız gerekiyormuş gibi görünür. Bunlardan herhangi birini naif biçimde yapmak, bir [shielded havuzun](../using-zcash/shielded-pools) korumak için var olduğu özel bilgileri tam olarak açığa çıkarır; önceki coin oylamaları da bu nedenle bakiye bilgilerini sızdırdı. Shielded oylama, shielded ödemelere güç veren aynı araçlarla bu gerilimi çözer: [sıfır bilgi kanıtları](../zcash-tech/zk-snarks), nullifier'lar ve şifreleme.
+Stake'e göre ağırlıklandırmak için herkesin bakiyesini bilmeniz gerekiyormuş gibi görünür. Oy pusulalarını saymak içinse onları açmanız gerekiyormuş gibi görünür. Bunlardan herhangi birini en basit şekilde yapmak, tam da [korumalı havuzun](../using-zcash/shielded-pools) korumak üzere tasarlandığı özel bilgileri açığa çıkarır; önceki coin oylamalarında da bu nedenle bakiye bilgileri sızmıştı. Korumalı oylama bu çelişkiyi, korumalı ödemeleri mümkün kılan araçlarla çözer: [sıfır bilgi kanıtları](../zcash-tech/zk-snarks), nullifier'lar ve şifreleme.
 
-## Sezgi: Kendisini sayan bir oy sandığı
+## Temel fikir: kendi kendini sayan bir oy sandığı
 
-> Bir turnike, bir banka kasasından geçenleri içeriyi görmeden saymanızı sağlar. Shielded bir oy sandığı bir adım daha ileri gider: Mühürlü oyları hiç açmadan toplar.
+> Bir turnike, banka kasasının içini görmeden içinden geçenleri saymanızı sağlar. Korumalı bir oy sandığı bir adım daha ileri gider: Mühürlü oyları hiç açmadan toplar.
 
-Üç sıra dışı güce sahip bir oy sandığı düşünün. Mühürlü bir zarfı açmadan, devam eden toplama ekleyebilir. Anahtarı tek başına hiçbirinin elinde bulunmayan bir grup görevli, daha sonra yalnızca nihai toplamları açıklar. Siz zarfınızı atmadan önce ise, hangi coin'lerin size ait olduğunu göstermeden, sabit bir geçmiş anda ZEC tuttuğunuzu ve henüz oy kullanmadığınızı gizlice kanıtlarsınız. Aşağıda, bu sandığın gerçekte nasıl inşa edildiği anlatılmaktadır.
+Üç sıra dışı gücü olan bir oy sandığı hayal edin. Mühürlü bir zarfı açmadan çalışan toplama ekleyebilir. Hiçbiri anahtarı tek başına elinde tutmayan bir yetkililer grubu, daha sonra yalnızca nihai toplamları açıklar. Sandığa bir zarf bırakabilmeniz için önce, hangi coinlerin size ait olduğunu göstermeden, belirli bir geçmiş anda ZEC tuttuğunuzu ve daha önce oy kullanmadığınızı sessizce kanıtlarsınız. Aşağıda anlatılan her şey, bu sandığın gerçekte nasıl oluşturulduğudur.
 
 ## Uygunluk ve anlık görüntü
 
-Bir oylama turu bir anlık görüntü yüksekliği, yani tek bir Zcash ana ağ bloğu belirler; oyunuzun ağırlığı, o bloktaki [Ironwood](../zcash-tech/ironwood) havuzunda harcanabilir shielded bakiyenizdir. Kural basittir: Anlık görüntüdeki bir Ironwood ZEC, bir oya eşittir. NU7 kapsam anketinde anlık görüntü, 24 Ağustos 2026 saat 19:00 UTC civarındaki 3.459.350 numaralı ana ağ bloğuydu; oylama ise 14 Eylül 2026 saat 19:00 UTC'ye kadar açıktı. Şeffaf ZEC, bu protokolle değil eski yöntemle ayrı olarak ele alınır.
+Bir oylama turunda, tek bir Zcash ana ağ bloğu olan bir anlık görüntü yüksekliği belirlenir ve oyunuzun ağırlığı, bu bloktaki [Ironwood](../zcash-tech/ironwood) havuzunda harcanabilir durumda olan korumalı bakiyenizdir. Kural basittir: Anlık görüntü anında her Ironwood ZEC, bir oy demektir. NU7 kapsam anketinde anlık görüntü, 24 Ağustos 2026 saat 19:00 UTC civarındaki 3.459.350 numaralı ana ağ bloğuydu; oylama 14 Eylül 2026 saat 19:00 UTC'ye kadar sürdü. Şeffaf ZEC, bu protokolle değil, eski yöntemle ayrı olarak ele alınır.
 
-1. Fonlarınız asla hareket etmez ve kilitlenmez. Uygunluk anlık görüntüde sabitlenir; bu nedenle oyunuzu etkilemeden ZEC'i hemen sonrasında harcayabilir veya taşıyabilirsiniz.
-2. Kayıt adımı yoktur. Yalnızca bir anlık görüntü yüksekliği gerekir; bu da süreci hafif tutar ve kimin oy vermeyi planladığını açığa çıkarmaz.
+1. Fonlarınız asla hareket etmez veya kilitlenmez. Uygunluk anlık görüntüde sabitlenir; dolayısıyla oyunuzu etkilemeden hemen sonrasında ZEC harcayabilir veya taşıyabilirsiniz.
+2. Kayıt adımı yoktur. Yalnızca anlık görüntü yüksekliği gerekir; bu da süreci yalın tutar ve kimlerin oy kullanmayı planladığını açığa çıkarmaktan kaçınır.
 
-## Bakiyenizi açıklamadan kanıtlama
+## Bakiyenizi açığa çıkarmadan kanıtlama
 
-Oy verdiğinizde cüzdanınız, anlık görüntüde harcanmamış bazı shielded ZEC'leri kontrol ettiğinize dair bir sıfır bilgi kanıtı üretir. Bu kanıt, özel sayım mekanizmasına geçerli bir bakiyeyi ve büyüklüğünü belirler; ancak hiçbir notu açığa çıkarmaz ve Zcash ana ağında işlem oluşturmaz.
+Oy kullandığınızda cüzdanınız, anlık görüntü anında harcanmamış bir miktar korumalı ZEC kontrol ettiğinizi gösteren bir sıfır bilgi kanıtı üretir. Bu kanıt, geçerli bir bakiyenin ve miktarının özel sayım mekanizmasına doğrulanmasını sağlar; ancak hiçbir note'u açığa çıkarmaz ve Zcash ana ağında işlem oluşturmaz.
 
-Bu kanıt, oylama zincirinde anlık görüntü bakiyenize eşit bir oylama kredisi basar ve bu kredi, cüzdanınızın yalnızca bu tur için ürettiği yeni bir oylama anahtarına aittir. Anahtar yeni olduğundan ve Zcash adreslerinize bağlı olmadığından, oylama zincirindeki hiçbir şey gerçek notlarınıza kadar izlenemez. Zincir üstü kimliğiniz ile oy pusulanız tasarım gereği birbirine bağlanamaz.
+Bu kanıt, oylama Zinciri üzerinde, anlık görüntü bakiyenize eşit bir oylama kredisi oluşturur. Bu kredi, cüzdanınızın yalnızca bu tur için ürettiği yeni bir oylama anahtarına aittir. Anahtar yeni olduğu ve Zcash adreslerinizle bağlantılı olmadığı için oylama Zinciri üzerindeki hiçbir şey gerçek note'larınıza kadar izlenemez. Zincir üstü kimliğiniz ile oy pusulanız, tasarım gereği ilişkilendirilemez.
 
-## Çifte oylamayı özel olarak önleme
+## Çifte oylamayı gizliliği koruyarak önleme
 
-Kimsenin aynı coin'lerle iki kez oy vermesini engellemek için sistem, bakiyenizin arkasındaki notların anlık görüntüde harcanmamış olduğunu doğrulamalıdır. Ana ağda bu, bir notun benzersiz harcama işaretleyicisi olan nullifier'ını açığa çıkararak yapılır; tam düğümler bunun yeniden kullanımını kontrol eder. Ancak nullifier'ınızı burada açığa çıkarmak, oy pusulanızı doğrudan notlarınıza bağlardı.
+Bir kişinin aynı coinlerle iki kez oy kullanmasını önlemek için sistem, bakiyenizin arkasındaki note'ların anlık görüntü anında harcanmamış olduğunu doğrulamalıdır. Ana ağda bu, bir note'un nullifier'ını, yani benzersiz harcama işaretleyicisini açıklayarak yapılır; tam düğümler bu işaretleyicinin yeniden kullanılmadığını kontrol eder. Ancak burada nullifier'ınızı açıklamak, oy pusulanızı doğrudan note'larınıza bağlar.
 
-![Private double-vote prevention: instead of revealing a nullifier, the wallet uses Private Information Retrieval to fetch proof material while hiding which nullifier it asked about, then proves the note was unspent](/content-images/shielded-voting-pir.webp)
+![Gizliliği koruyarak çift oy kullanımını önleme: nullifier'ı açığa çıkarmak yerine cüzdan, hangi nullifier'ı sorguladığını gizleyerek kanıt materyalini almak için Private Information Retrieval kullanır; ardından note'un harcanmamış olduğunu kanıtlar](/content-images/shielded-voting-pir.webp)
 
-Bu nedenle protokol, tersini özel olarak kanıtlar. Anlık görüntü itibarıyla kullanılmış her nullifier'ın bir listesini oluşturur ve cüzdanınız, notunuzun nullifier'ının bu listede olmadığını sıfır bilgiyle kanıtlar; böylece hangi not olduğunu açıklamadan notun harcanmamış olduğunu gösterir.
+Bu nedenle protokol bunun tersini gizliliği koruyarak kanıtlar. Anlık görüntü itibarıyla kullanılmış her nullifier'ın bir listesini oluşturur ve cüzdanınız, note'unun nullifier'ının bu listede olmadığını sıfır bilgiyle kanıtlar. Böylece hangi note olduğunu açıklamadan note'un harcanmamış olduğunu gösterir.
 
-Bir sorun daha kalır. Bu listenin gerekli bölümünü bir sunucudan almak nullifier'ınızı sunucuya açık ederdi; listenin tamamı ise büyüktür: Orchard dönemi verileri için yaklaşık 2 GB ve Zcash büyüdükçe çok daha fazlası. [Private Information Retrieval](../zcash-tech/private-information-retrieval) (PIR) her ikisini de çözer: Cüzdanınız, istediği veriyi kriptografik olarak gizlerken tam olarak ihtiyaç duyduğu veriyi alır. Sonuç, nullifier listesinin yayımlanmış bir özetiyle kontrol edilir; dolayısıyla dürüst olmayan bir sunucu sahte bir sonuç üretemez.
+Bir sorun daha kalır. Listenin gereken bölümünü bir sunucudan almak, nullifier'ınızı sunucuya açığa çıkarır; ayrıca listenin tamamı Orchard dönemine ait veriler için yaklaşık 2 GB boyutundadır ve Zcash büyüdükçe çok daha büyük hâle gelir. [Özel Bilgi Getirme](../zcash-tech/private-information-retrieval) (PIR) her iki sorunu da çözer: Cüzdanınız, hangi veriyi istediğini kriptografik olarak gizlerken yalnızca ihtiyaç duyduğu veriyi alır. Sonuç, yayımlanmış bir nullifier listesi özetiyle karşılaştırılarak doğrulanır; böylece dürüst olmayan bir sunucu sahte bir sonuç üretemez.
 
 ## Şifreli oy pusulası kullanma
 
 Cüzdanınız her soru için üç şey yapar.
 
-1. Oy ağırlığınızı sayım komitesine homomorfik şifrelemeyle şifreler; bu, şifreli metinleri şifresi çözülmeden birbirine eklenebilen bir şifreleme türüdür. Bu, sandığın okuyamadığı oyları toplamasını sağlar.
-2. Oyunuzu 16 ayrı paya böler; böylece tamamen iş birliği yapan bir komitenin bile herhangi bir kişinin ne kadar oy kullandığını yeniden birleştirmesi zorlaşır.
-3. Bu payları birden fazla sunucu üzerinden rastgeleleştirilmiş zamanlarda gönderir; böylece bir gözlemci, varış zamanlarından payların aynı seçmene ait olduğunu anlayamaz.
+1. Oyunuzun ağırlığını, homomorfik şifreleme kullanarak sayım komitesine şifreler. Bu, şifreli metinlerin şifreleri çözülmeden birbiriyle toplanmasına imkân veren bir şifreleme türüdür. Böylece sandık, okuyamadığı oyları toplayabilir.
+2. Oyunuzu 16 ayrı paya böler; böylece komite tamamen iş birliği yapsa bile herhangi bir kişinin ne kadar oy kullandığını yeniden bir araya getirmekte zorlanır.
+3. Payları, rastgele zamanlarda birden fazla sunucu üzerinden gönderir; böylece bir gözlemci, ulaşma zamanlarına bakarak payların aynı seçmene ait olduğunu anlayamaz.
 
-Her pay, geçerli bir oy pusulasının meşru parçası olduğuna dair kendi sıfır bilgi kanıtını taşır; dolayısıyla hiç kimse dayanağı olmayan oylar ekleyemez. Doğrulanmış paylar, seçtiğiniz yanıt için şifrelenmiş devam eden toplama homomorfik olarak eklenir.
+Her pay, geçerli bir oy pusulasının meşru bir parçası olduğunu kanıtlayan kendi sıfır bilgi kanıtını taşır; böylece kimse dayanaksız oy ekleyemez. Doğrulanmış paylar, seçtiğiniz yanıtın şifreli çalışan toplamına homomorfik olarak eklenir.
 
-## Hiçbir oy pusulasını açmadan sayma
+## Hiçbir oy pusulasını açmadan sayım
 
-Sayım, dağıtılmış bir seçim otoritesi tarafından yürütülür: En az 10 oylama zinciri doğrulayıcısı; bunların hiçbiri tek başına herhangi bir şeyin şifresini çözemez. Turun başında, eşleşen çözme anahtarı hepsine bölünmüş ve tek bir yerde asla bir araya getirilmeyen bir şifreleme anahtarı üreten ortak bir anahtar oluşturma töreni düzenlerler.
+Sayımı dağıtık bir seçim yetkilisi yürütür: En az 10 oylama Zinciri doğrulayıcısı bulunur ve bunların hiçbiri tek başına herhangi bir şeyin şifresini çözemez. Turun başında, eşleşen şifre çözme anahtarını aralarında paylaştıran ve hiçbir yerde bir araya getirmeyen bir anahtar oluşturma töreni düzenlerler.
 
-> Anahtar tek bir görevlinin elinde değildir. Sandık yalnızca üçte ikisi anahtarlarını birlikte kullandığında açılır ve o zaman bile yalnızca toplamları açıklar.
+> Hiçbir yetkili anahtarı tek başına elinde tutmaz. Sandık yalnızca yetkililerin üçte ikisi anahtarlarını birlikte kullandığında açılır; o zaman bile yalnızca toplamları gösterir.
 
-Tur kapandığında, şifrelenmiş toplamlar yukarıdaki homomorfik ekleme sayesinde zaten mevcuttur. Her doğrulayıcı kısmi bir şifre çözümünü ve doğru çözdüğüne dair bir kanıtı yayımlar. En az üçte ikisi katkıda bulunduğunda, parçaları her soru için nihai açık metin sayımında birleşir ve başka hiçbir şeyin şifresi asla çözülmez. Herhangi bir tam düğüm daha sonra birleştirilmiş doğruluk kanıtını kontrol edebilir; böylece halk, doğrulayıcılara güvenmeden sayımı doğrulayabilir.
+Tur sona erdiğinde, yukarıda açıklanan homomorfik toplama sayesinde şifreli toplamlar zaten hazırdır. Her doğrulayıcı, kısmi bir şifre çözme sonucu ve bunu doğru şekilde gerçekleştirdiğini gösteren bir kanıt yayımlar. En az üçte ikisi katkıda bulunduğunda, bu parçalar her soru için nihai açık metin toplamında birleştirilir; başka hiçbir şeyin şifresi çözülmez. Her tam düğüm birleştirilmiş doğruluk kanıtını kontrol edebilir; böylece herkes doğrulayıcılara güvenmek zorunda kalmadan sayımı doğrulayabilir.
 
-## Sistemi kim yürütür ve ne yapamazlar
+## Kimler yürütür ve neleri yapamazlar
 
-Tasarım, hiçbir grubun aşırı güce sahip olmaması için iki rolü ayırır.
+Tasarım, hiçbir grubun aşırı güce sahip olmaması için iki rolü birbirinden ayırır.
 
-![Separation of powers: a coordinator multisig sets which questions appear but cannot see votes, while a validator set counts but cannot read individual ballots or forge a tally](/content-images/shielded-voting-roles.webp)
+![Kuvvetler ayrılığı: koordinatör multisig hangi soruların görüneceğini belirler ancak oyları göremez; doğrulayıcı kümesi sayım yapar ancak bireysel oyları okuyamaz veya toplamı sahteleyemez](/content-images/shielded-voting-roles.webp)
 
-Koordinatör multisig, Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs) ve Valar Group temsilcilerinden oluşan 2/5'lik bir gruptur. Hangi soruların zincire ulaşacağına karar verir ve her turun şifreleme anahtarını tasdik eder; ancak bireysel oyları göremez, değiştiremez veya engelleyemez. Soruları beğenmeyen herkes, yazılım açık ve izinsiz olduğundan kendi oylama zincirini çalıştırabilir.
+Koordinatör çoklu imza grubu 2/5 yapısındadır ve Project Tachyon, [Zcash Foundation](../zcash-organizations/zcash-foundation), ZODL, [Shielded Labs](../zcash-organizations/shielded-labs) ve Valar Group temsilcilerinden oluşur. Hangi soruların Zincir'e ulaşacağına karar verir ve her turun şifreleme anahtarını tasdik eder; ancak bireysel oyları göremez, değiştiremez veya engelleyemez. Sorulardan hoşlanmayan herkes kendi oylama Zinciri'ni çalıştırabilir; çünkü yazılım açık ve izin gerektirmez.
 
-Doğrulayıcılar, bölünmüş çözme anahtarını tutan ve eşik şifre çözümünü gerçekleştiren en az 10 düğümdür. Bireysel oy pusulalarının şifresini çözemez veya sahte bir sayım üretemezler; çünkü her şifre çözümü herkese açık bir doğruluk kanıtıyla gelir.
+Doğrulayıcılar, bölünmüş şifre çözme anahtarını elinde tutan ve eşik şifre çözme işlemini gerçekleştiren en az 10 düğümdür. Her şifre çözme işlemi herkese açık bir doğruluk kanıtıyla birlikte sunulduğundan, bireysel oy pusulalarının şifresini çözemez veya sahte bir toplam üretemezler.
 
 ## Yeter sayının amacı
 
-Organizatörler bir katılım eşiği belirler: Anket sonuçları, en az 1.000.000 ZEC en az bir soruya katılırsa, çekimser oylar dahil, coin sahiplerini temsil ediyor kabul edilir. Yeter sayı hiçbir soruyu karara bağlamaz ve soru başına uygulanmaz. Tüm anket için tek bir kontroldür; dolayısıyla sonuç, yalnızca önemli miktarda ZEC katıldığında ciddiye alınır. Bu seviyenin altında, sonuç anlamlı bir sinyal sayılmaz.
+Düzenleyiciler bir katılım eşiği belirler: Çekimser oylar dâhil, en az 1.000.000 ZEC herhangi bir soruya katılırsa anket sonuçları coinholder'ları temsil ediyor kabul edilir. Yeter sayı hiçbir soruya karar vermez ve soru başına uygulanmaz. Tüm anket için tek bir kontroldür; böylece bir sonucun ciddiye alınması için kayda değer miktarda ZEC katılımı gerekir. Bu seviyenin altında sonuç, anlamlı bir gösterge kabul edilmez.
 
-## Bu protokolün korumadığı şeyler
+## Bu protokol neleri korumaz
 
-Tasarımı anlamanın bir parçası da sınırları açıkça bilmektir.
+Tasarımın sınırlarını açıkça belirtmek, onu anlamanın bir parçasıdır.
 
-1. Bu bir sinyaldir, bağlayıcı bir karar değildir. Coinholder anketi, paya göre ağırlıklandırılmış duyarlılığı ölçer ve Zcash'in normal [yönetişim sürecini](../zcash-community/zcash-governance) değiştirmek yerine ona katkı sağlar.
-2. Coin ağırlıklıdır; dolayısıyla etki varlıkları takip eder. Daha düşük sürtünme katılımı artırabilir ancak ZEC yoğunlaşmasını değiştirmez.
-3. Gündem, hangi soruların yer alacağını seçen koordinatör multisig tarafından belirlenir. Multisig oylara dokunamaz ve herkes rakip bir zincir çalıştırabilir; ancak gündem belirleme yine de bir etki noktasıdır.
-4. Sayım için doğrulayıcıların çevrimiçi olması gerekir. Sayımın üretilmesi, bunların en az üçte ikisinin iş birliğini gerektirir; bu nedenle büyük bir kesinti veya koordineli ret sonucu geciktirebilir.
-5. Tam iş birliği altında bakiye gizliliği bir teorem değil, derinlemesine savunmadır. Komitenin tamamı anahtarı gizlice yeniden oluştursaydı, bakiyenizi koruyan şey paylara bölme ve zamanlamalı gönderim olurdu; tasarımcılar bunların iş birliği altında daha zayıf olduğunu kabul eder. Gelişmiş trafik analizi kalıcı bir risktir.
-6. Eski tasarımdan daha fazla hareketli parça vardır. PIR sunucuları, gönderim sunucuları, yeni bir oylama anahtarı ve çok aşamalı kanıtların her biri, hata veya yanlış yapılandırmanın ortaya çıkabileceği bir yerdir. Sistem açık kaynaklıdır ve parçaları bağımsız olarak denetlenmiştir; bu, riski ortadan kaldırmak yerine yönetir.
+1. Bu, bağlayıcı bir karar değil, bir göstergedir. Coinholder anketi, stake'e göre ağırlıklandırılmış eğilimi ölçer ve Zcash'ın olağan [yönetişim sürecine](../zcash-community/zcash-governance) katkı sağlar; onun yerini almaz.
+2. Ağırlık coin miktarına göre belirlenir; dolayısıyla etki, elde tutulan varlıkları izler. Daha az zahmetli olması katılımı artırabilir, ancak ZEC yoğunlaşmasını değiştirmez.
+3. Gündemi, hangi soruların yer alacağını seçen koordinatör çoklu imza grubu belirler. Oyları etkileyemez ve herkes rakip bir Zincir çalıştırabilir; ancak gündem belirleme yine de bir etki noktasıdır.
+4. Sayım için doğrulayıcıların çevrimiçi olması gerekir. Toplamı üretmek için en az üçte ikisinin iş birliği yapması gerekir; bu nedenle büyük çaplı bir kesinti veya eş güdümlü bir ret sonucu geciktirebilir.
+5. Tam iş birliği durumunda bakiye gizliliği bir teorem değil, katmanlı bir savunmadır. Komitenin tamamı gizlice anahtarı yeniden oluşturursa, bakiyenizi koruyan önlemler paylara bölme ve zamanlanmış gönderimdir; tasarımcılar bunların iş birliği durumunda daha zayıf olduğunu kabul eder. Gelişmiş trafik analizi artık bir risk olmaya devam eder.
+6. Eski tasarıma kıyasla daha fazla hareketli parça vardır. PIR sunucuları, gönderim sunucuları, yeni bir oylama anahtarı ve çok aşamalı kanıtların her biri hata veya yanlış yapılandırma kaynağı olabilir. Sistem açık kaynaklıdır ve bazı bileşenler bağımsız olarak denetlenmiştir; bu, riski ortadan kaldırmaz ama yönetir.
 
-Güçlü ve doğrulanabilir biçimde koruduğu iki önemli şey şudur: Oy pusulanız kimliğinize bağlanamaz ve yalnızca nihai toplamlar açıklanır.
+Güçlü ve doğrulanabilir biçimde koruduğu en önemli iki şey şunlardır: Oy pusulanız kimliğinize bağlanamaz ve yalnızca nihai toplamlar açıklanır.
 
-## Sözlük
+## Terimler sözlüğü
 
-| Terim | Sade dilde anlamı |
+| Terim | Sade açıklaması |
 |---|---|
-| Voting chain | Valar Group tarafından geliştirilen ve oylamayı yürüten ayrı bir blok zinciri; Zcash notlarınız asla buna taşınmaz |
-| Snapshot height | Bakiyeleri oylama ağırlığını belirleyen ana ağ bloğu (NU7 anketi için 3.459.350. blok) |
-| Nullifier | Bir notun benzersiz harcama işaretleyicisi; bunu açıklamak oy pusulasını nota bağlardı, bu yüzden oylama bunun yerine listede olmadığını kanıtlar |
-| Private Information Retrieval (PIR) | Hangi veriyi istediğinizi gizlerken bir sunucudan veri alma |
-| Homomorphic encryption | Şifreli metinleri şifresi çözülmeden birbirine eklenebilen şifreleme |
-| Coordinator multisig | Soruları ve tur anahtarını yetkilendiren, ancak oyları göremeyen veya değiştiremeyen 2/5'lik grup |
-| Election authority | Bölünmüş çözme anahtarını birlikte tutan ve yalnızca nihai sayımı açıklayan 10 veya daha fazla doğrulayıcı |
-| Threshold decryption | Yalnızca yeterli sayıda anahtar payı sahibinin, burada üçte ikisinin, iş birliği yapmasıyla sonucun elde edilmesi |
-| Quorum | Anketin temsil edici sayılması için gereken 1.000.000 ZEC asgari katılım |
+| Voting chain | Valar Group tarafından oluşturulan ve oylamayı yürüten ayrı bir blokzincir; Zcash note'larınız buraya taşınmaz |
+| Snapshot height | Oylama ağırlığını belirleyen ana ağ bloğu (NU7 anketi için 3.459.350 numaralı blok) |
+| Nullifier | Bir note'un benzersiz harcama işaretleyicisi; açıklanması oy pusulasını note'a bağlayacağından oylama bunun yerine listede bulunmadığını kanıtlar |
+| Private Information Retrieval (PIR) | Hangi veriyi istediğinizi gizlerken bir sunucudan veri alma yöntemi |
+| Homomorphic encryption | Şifreli metinlerin şifreleri çözülmeden birbiriyle toplanmasına imkân veren şifreleme |
+| Coordinator multisig | Soruları ve tur anahtarını yetkilendiren, ancak oyları göremeyen veya değiştiremeyen 2/5 grubu |
+| Election authority | Bölünmüş şifre çözme anahtarını birlikte elinde tutan ve yalnızca nihai toplamı açıklayan 10 veya daha fazla doğrulayıcı |
+| Threshold decryption | Burada anahtar payı sahiplerinin üçte ikisi gibi yeterli sayıda kişinin iş birliği yapmasıyla bir sonucu elde etme |
+| Quorum | Anketin temsil edici sayılması için gereken 1.000.000 ZEC asgari katılımı |
 
-## SSS
+## Sık sorulan sorular
 
-Oy verdiğimde coin'lerim hareket eder veya kilitlenir mi? Hayır. Uygunluk anlık görüntü bloğunda ölçülür; dolayısıyla ZEC yerinde ve harcanabilir kalır. Oylama, Zcash işlemi değil, ayrı bir zincir üzerinde kanıtlar üretir.
+Oy kullanırken coinlerim hareket eder veya kilitlenir mi? Hayır. Uygunluk anlık görüntü bloğunda ölçülür; ZEC yerinde kalır ve harcanabilir. Oylama, Zcash işlemi değil, ayrı bir Zincir üzerinde kanıtlar üretir.
 
-Herhangi biri nasıl oy verdiğimi veya ne kadar tuttuğumu anlayabilir mi? Hayır. Oy pusulaları şifrelidir ve yalnızca toplam sonuçların şifresi çözülür. Oyunuz kimliğinize bağlanamaz; bakiyeniz ise iş birliği yapan bir komiteye karşı bile korunması için zamanlamalı 16 paya bölünür.
+Nasıl oy kullandığımı veya ne kadar varlığım olduğunu biri anlayabilir mi? Hayır. Oy pusulaları şifrelenir ve yalnızca toplam sonuçların şifresi çözülür. Oyunuz kimliğinizle ilişkilendirilemez; bakiyeniz de iş birliği yapan bir komiteye karşı koruma sağlamak için zamanlanmış 16 paya bölünür.
 
-Bir kişinin iki kez oy vermesini veya sahip olmadığı coin'lerle oy vermesini ne engeller? Her oy pusulası, gerçek ve harcanmamış bir anlık görüntü bakiyesiyle desteklendiğine dair sıfır bilgi kanıtları taşır; PIR tabanlı listede olmama kanıtı da hangi not olduğunu açıklamadan temel notun daha önce harcanmadığını gösterir.
+Bir kişinin iki kez oy kullanmasını veya sahip olmadığı coinlerle oy vermesini ne engeller? Her oy pusulası, gerçek ve harcanmamış bir anlık görüntü bakiyesiyle desteklendiğini gösteren sıfır bilgi kanıtları taşır. PIR tabanlı listede bulunmama kanıtı ise hangi note olduğunu açıklamadan, dayanak olan note'un daha önce harcanmadığını gösterir.
 
-Oyları kim sayar? En az 10 doğrulayıcıdan oluşan dağıtılmış bir küme; bunların hiçbiri tek başına herhangi bir şeyin şifresini çözemez. Toplamları açıklamak için üçte ikisinin iş birliği gerekir ve her şifre çözümü herkese açık bir doğruluk kanıtıyla gelir.
+Oyları kim sayar? En az 10 doğrulayıcıdan oluşan dağıtık bir grup; bunların hiçbiri tek başına hiçbir şeyin şifresini çözemez. Toplamları açıklamak için üçte ikisinin iş birliği gerekir ve her şifre çözme işlemi herkese açık bir doğruluk kanıtıyla birlikte sunulur.
 
-Sonuç bağlayıcı mı? Bu, paya göre ağırlıklandırılmış bir coinholder duyarlılık sinyalidir. Bir değişikliği otomatik olarak yürürlüğe koymak yerine Zcash'in normal yönetişimini bilgilendirir.
+Sonuç bağlayıcı mı? Bu, stake'e göre ağırlıklandırılmış bir coinholder eğilimi göstergesidir. Zcash'ın olağan yönetişim sürecini bilgilendirir; değişikliği otomatik olarak yürürlüğe koymaz.
 
-Bunu kendim çalıştırabilir veya denetleyebilir miyim? Evet. Oylama zinciri yazılımı, devreler, PIR sistemi ve bir sayım denetleyicisi, herkesin incelemesi ve çalıştırması için Valar Group tarafından yayımlanmıştır.
+Bunu kendim çalıştırabilir veya denetleyebilir miyim? Evet. Oylama Zinciri yazılımı, devreler, PIR sistemi ve toplam denetleyicisi, herkesin inceleyip çalıştırabilmesi için Valar Group tarafından yayımlanmıştır.
 
-## Bilginizi test edin
+## Anlayıp anlamadığınızı sınayın
 
-Her oy pusulası şifreliyse ve her seçmen anonimse, herkes yayımlanan toplamların doğru olduğundan ve hiç kimsenin iki kez oy vermediğinden nasıl emin olabilir?
+Her oy pusulası şifreliyse ve her seçmen anonimse, yayımlanan toplamların doğru olduğundan ve hiç kimsenin iki kez oy kullanmadığından herkes nasıl emin olabilir?
 
 <details>
 <summary>Yanıt</summary>
 
-Üç kanıt işi yapar. Her oy pusulası, gerçek bir anlık görüntü bakiyesiyle desteklendiğine dair sıfır bilgi kanıtı taşır; böylece dayanağı olmayan oylar sayılmaz. PIR tabanlı listede olmama kanıtı, arkasındaki notun harcanmamış olduğunu gösterir ve notu açıklamadan çifte oylamayı önler. Doğrulayıcılar toplamların şifresini çözdüğünde ise her biri bir doğruluk kanıtı yayımlar; böylece herhangi bir tam düğüm, nihai sayıların şifreli oy pusulalarından dürüstçe çözüldüğünü doğrulayabilir.
+Bu işi üç kanıt yapar. Her oy pusulası, gerçek bir anlık görüntü bakiyesiyle desteklendiğini gösteren bir sıfır bilgi kanıtı taşır; böylece dayanaksız oylar sayılmaz. PIR tabanlı listede bulunmama kanıtı, note'u açığa çıkarmadan arkasındaki note'un harcanmamış olduğunu gösterir ve çifte oylamayı önler. Doğrulayıcılar toplamların şifresini çözdüğünde ise her biri bir doğruluk kanıtı yayımlar; böylece her tam düğüm, nihai sayıların şifreli oy pusulalarından dürüstçe elde edildiğini doğrulayabilir.
 </details>
 
 ## Kaynaklar
 
-- [NU7 Coinholder Vote duyurusu (Valar Group ve Project Tachyon)](https://forum.zcashcommunity.com/t/nu7-coinholder-vote/56912) - anketin kapsamını, anlık görüntü yüksekliğini ve takvimini belirleyen forum gönderisi
-- [The Coinholder Voting Chain: teknik tasarım](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925) - bu sayfanın dayandığı protokol açıklaması
-- [Valar Group shielded oylama belgeleri](https://valargroup.gitbook.io/shielded-vote-docs) - oylama zinciri için güncel tutulan referans
-- [Valar Group oylama kodu ve denetimleri (GitHub)](https://github.com/valargroup/vote-sdk) - açık kaynak uygulama ve denetimleri
+- [NU7 Coinholder Oylaması duyurusu (Valar Group ve Project Tachyon)](https://forum.zcashcommunity.com/t/nu7-coinholder-vote/56912) - anketin kapsamını, anlık görüntü yüksekliğini ve takvimini belirleyen forum gönderisi
+- [Coinholder Oylama Zinciri: teknik tasarım](https://forum.zcashcommunity.com/t/the-coinholder-voting-chain/56925) - bu sayfanın dayandığı protokol açıklaması
+- [Valar Group korumalı oylama belgeleri](https://valargroup.gitbook.io/shielded-vote-docs) - oylama Zinciri için güncel başvuru kaynağı
+- [Valar Group oylama kodu ve denetimleri (GitHub)](https://github.com/valargroup/vote-sdk) - açık kaynaklı uygulama ve denetimleri
 
 ## İlgili sayfalar
 
-- [Private Information Retrieval](../zcash-tech/private-information-retrieval) - özel çifte oy önlemenin arkasındaki listede olmama kanıtlama tekniği
-- [Ironwood](../zcash-tech/ironwood) - bakiyeleri oy ağırlığını belirleyen shielded havuz
-- [zk-SNARKs](../zcash-tech/zk-snarks) - bakiye ve uygunluk kanıtlarının arkasındaki kanıt sistemi
-- [Shielded Pools](../using-zcash/shielded-pools) - shielded bakiyenin ne olduğu ve neden gizli kaldığı
-- [Zcash Funding and Governance genel bakışı](../zcash-community/zcash-governance) - bu duyarlılık sinyalinin Zcash'in daha geniş karar sürecine nasıl katkı sağladığı
-- [Shielded Labs](../zcash-organizations/shielded-labs) - koordinatör multisig'in beş üyesinden biri
+- [Özel Bilgi Getirme](../zcash-tech/private-information-retrieval) - özel çifte oy önlemesinin temelindeki listede bulunmama kanıtı tekniği
+- [Ironwood](../zcash-tech/ironwood) - bakiyeleri oy ağırlığını belirleyen korumalı havuz
+- [zk-SNARKs](../zcash-tech/zk-snarks) - bakiye ve uygunluk kanıtlarının temelindeki kanıt sistemi
+- [Korumalı Havuzlar](../using-zcash/shielded-pools) - korumalı bakiyenin ne olduğu ve neden gizli kaldığı
+- [Zcash Finansman ve Yönetişim genel bakışı](../zcash-community/zcash-governance) - bu eğilim göstergesinin Zcash'ın daha genel karar alma sürecine nasıl katkı sağladığı
+- [Shielded Labs](../zcash-organizations/shielded-labs) - koordinatör çoklu imza grubunun beş üyesinden biri

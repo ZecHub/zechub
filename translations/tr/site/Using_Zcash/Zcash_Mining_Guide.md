@@ -1,118 +1,118 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Using_Zcash/Zcash_Mining_Guide.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 # Zcash Madencilik Rehberi: Kişisel Donanımla Bir Madencilik Havuzuna Katılma
 
-> GPU'nuzu veya ASIC cihazınızı bir havuza yönlendirin, işi diğer madencilerle paylaşın ve tek başınıza bir blok bulmak için yıllarca beklemek yerine düzenli ZEC ödemeleri alın.
+> GPU’nuzu veya ASIC’inizi bir havuza yönlendirin, işi diğer madencilerle paylaşın ve tek başınıza bir blok bulmak için yıllarca beklemek yerine düzenli ZEC ödemeler alın.
 
-## Özetle
+## Kısaca
 
-* Zcash, Equihash iş ispatı (proof of work) kullanır. Ağa ASIC'ler hâkim olduğundan GPU'lar daha çok hobi amaçlı kullanıcılar ve test için uygundur.
-* Küçük kurulumlarla solo madencilik nadiren blok bulur. Bir havuz, hash gücünü birleştirir ve bulduğu her bloktan size bir pay öder.
-* Üç şeye ihtiyacınız var: ödemeler için bir Zcash cüzdan adresi, madencilik donanımı ve madencilik yazılımı (ya da ASIC'in yerleşik kontrol paneli).
-* Havuzlar ücrete (yaklaşık %0-2), ödeme yöntemine (PPLNS, PPS+), minimum ödeme tutarına ve sunucu konumuna göre farklılık gösterir.
-* Önce kârlılığı kontrol edin: madenciliğin kâr getirip getirmeyeceğini elektrik fiyatı, donanım maliyeti ve ZEC fiyatı belirler.
-* İleri düzey yol: kendi Zebra düğümünüzü çalıştırın ve onun `getblocktemplate` RPC'sine karşı madencilik yapın.
+* Zcash, Equihash iş kanıtı kullanır. ASIC’ler ağa hâkimdir; bu nedenle GPU’lar çoğunlukla hobi amaçlı kullanım ve test içindir.
+* Küçük sistemlerle tek başına madencilik yaparken blok bulmak nadirdir. Bir havuz, işlem gücünü birleştirir ve bulduğu her bloktan size pay öder.
+* Üç şeye ihtiyacınız vardır: Ödemeler için bir Zcash cüzdan adresi, madencilik donanımı ve madencilik yazılımı (veya ASIC’in yerleşik gösterge paneli).
+* Havuzlar ücret (%0-2 civarı), ödeme yöntemi (PPLNS, PPS+), minimum ödeme ve sunucu konumuna göre farklılık gösterir.
+* Önce kârlılığı kontrol edin: Elektrik fiyatı, donanım maliyeti ve ZEC fiyatı madenciliğin kazanç sağlayıp sağlamayacağını belirler.
+* İleri düzey seçenek: Kendi Zebra düğümünüzü çalıştırın ve onun `getblocktemplate` RPC’sine karşı madencilik yapın.
 
 ## Temel Açıklama
 
-Madencilik, yeni Zcash bloklarının oluşturulma yoludur. Madenciler bir Equihash bulmacasını çözmek için yarışır; ilk geçerli çözümü bulan bir sonraki bloğu ekler ve blok ödülünü kazanır. Ne kadar çok hashrate katkısı sağlarsanız o kadar sık kazanırsınız; ancak günümüz ağına karşı tek bir ev madencilik düzeneğinin kendi başına kazanması neredeyse imkânsızdır.
+Madencilik, yeni Zcash bloklarının oluşturulma yöntemidir. Madenciler bir Equihash bulmacasını çözmek için yarışır; geçerli ilk çözüm bir sonraki bloğu ekler ve blok ödülünü kazandırır. Ne kadar fazla işlem gücü sağlarsanız kazanma sıklığınız o kadar artar; ancak bugünkü ağda tek bir ev tipi sistemin kendi başına kazanması neredeyse imkânsızdır.
 
-Bir madencilik havuzu bu sorunu çözer. Havuz, her madenciye pay (share) adı verilen daha küçük iş parçaları dağıtır. Kabul edilen her pay, hash gücüne katkıda bulunduğunuzu kanıtlar. Havuzdaki herhangi biri bir blok bulduğunda ödül paylara göre bölüştürülür ve bakiyeniz havuzun minimum ödeme eşiğini geçtiğinde ödemeniz otomatik olarak yapılır.
+Madencilik havuzu bu sorunu çözer. Havuz, her madenciye share adı verilen daha küçük iş parçaları verir. Kabul edilen her share, işlem gücü sağladığınızı kanıtlar. Havuzdaki herhangi biri bir blok bulduğunda ödül, share’lere göre bölüştürülür ve bakiyeniz havuzun minimum tutarını aştığında ödeme otomatik olarak yapılır.
 
 Kurulum, aşağıda adım adım ele alınan beş bölümden oluşur:
 
-1. Ödemeleri almak için bir cüzdan adresi.
-2. Donanım: bir bilgisayardaki GPU'lar ya da bir Equihash ASIC.
-3. Bir havuz hesabı (kayıt gerektirmeyen havuzlarda yalnızca adresiniz yeterlidir).
-4. Kullanıcı adı olarak `YOUR_ADDRESS.WORKER_NAME` ayarlanmış ve havuzun stratum sunucusuna yönlendirilmiş madencilik yazılımı.
-5. İzleme: kabul edilen share'ler, hashrate, sıcaklık ve ödenmemiş bakiye.
+1. Ödeme almak için bir cüzdan adresi.
+2. Donanım: Bilgisayarda GPU’lar veya bir Equihash ASIC.
+3. Bir havuz hesabı (veya kayıt gerektirmeyen havuzlarda yalnızca adresiniz).
+4. Havuzun stratum sunucusuna yönlendirilen madencilik yazılımı; kullanıcı adı olarak `YOUR_ADDRESS.WORKER_NAME` kullanılır.
+5. İzleme: Kabul edilen share’ler, işlem gücü, sıcaklık ve ödenmemiş bakiye.
 
 ## Giriş
 
-Zcash (ZEC), madencilik için Equihash iş ispatı algoritmasını kullanan gizlilik odaklı bir kripto para birimidir. Zcash madenciliği; karmaşık matematiksel problemleri çözmek, işlemleri doğrulamak ve ZEC ödülleri karşılığında ağı güvence altına almak için hesaplama gücü kullanmayı içerir. Ağın yüksek zorluğu nedeniyle, solo madencilik çoğu kullanıcı için önerilmez. Madencilik havuzuna katılmak, hash gücünüzü diğerlerininkiyle birleştirerek düzenli ödüller kazanmanın en iyi yoludur.
+Zcash (ZEC), madencilikte Equihash iş kanıtı algoritmasını kullanan, gizlilik odaklı bir kripto paradır. Zcash madenciliği; hesaplama gücüyle karmaşık matematik problemlerini çözmeyi, işlemleri doğrulamayı ve ağ güvenliğini sağlamayı, karşılığında ZEC ödülleri kazanmayı içerir. Ağın zorluk seviyesi yüksek olduğundan çoğu kullanıcı için tek başına madencilik önerilmez. İşlem gücünüzü başkalarınınkiyle birleştirerek düzenli ödüller kazanmanın en iyi yolu bir madencilik havuzuna katılmaktır.
 
-Bu rehber, kişisel donanım kullanarak (ör. GPU'lu bir ev bilgisayarı veya giriş seviyesi ASIC'ler) Zcash madenciliğine odaklanır. GPU'ların hâlâ Zcash madenciliği yapabildiğini, ancak ağ zorluğu nedeniyle ASIC'lerin 2026'da çok daha verimli ve kârlı olduğunu unutmayın. Elektrik maliyetleri, donanım fiyatları ve ZEC değeri uygulanabilirliği etkilediğinden, WhatToMine.com gibi araçları kullanarak güncel kârlılığı her zaman kontrol edin. Madencilik herkes için kârlı olmayabilir; yerel düzenlemeleri ve enerji tarifelerini araştırın (hedef: < $0.08/kWh).
+Bu rehber, kişisel donanım kullanarak Zcash madenciliği yapmaya odaklanır (ör. GPU’lu ev bilgisayarı veya başlangıç seviyesi ASIC’ler). GPU’larla hâlâ Zcash madenciliği yapılabilse de ağ zorluğu nedeniyle 2026’da ASIC’ler çok daha verimli ve kârlıdır. Elektrik maliyetleri, donanım fiyatları ve ZEC değeri gibi etkenler uygulanabilirliği etkilediğinden WhatToMine.com gibi araçlarla güncel kârlılığı mutlaka kontrol edin. Madencilik herkes için kârlı olmayabilir; yerel mevzuatı ve enerji tarifelerini araştırın (hedefiniz < $0.08/kWh olsun).
 
 
 ## Gereksinimler
 
 ### Donanım
-- **GPU Madenciliği (Yeni Başlayanlar İçin Önerilen Kişisel Kurulum):**
-  - En az 4 GB VRAM'e sahip NVIDIA veya AMD GPU'lar (ör. NVIDIA GTX 1070, RTX 3060; AMD RX 580 veya üzeri).
-  - Uyumlu bir anakart, yeterli PSU (birden çok GPU için en az 750 W) ve aşırı ısınmayı önlemek için iyi soğutma.
-  - Daha iyi hash oranları için çoklu GPU rig'leri yaygındır (ör. 6x GPU 1-2 kSol/s elde edebilir).
-- **ASIC Madenciliği (Daha Verimli Ancak Daha Maliyetli):**
-  - Bitmain Antminer Z15 (420 kSol/s) veya Innosilicon A9 (50 kSol/s) gibi Equihash uyumlu ASIC'ler.
-  - Bunlar daha gürültülü, daha sıcak ve daha fazla güç tüketir (ör. 1500 W+); özel alanlar için uygundur. Bitmain.com veya satıcılar (Blockware Mining) gibi güvenilir kaynaklardan satın alın.
-- **Genel:** Kararlı internet, kurulum/izleme için bir bilgisayar. ASIC'ler ağa hakimdir (2026'da toplam hash oranı ~13 GSol/s); bu durum GPU madenciliğini daha az rekabetçi kılar, ancak hobiciler için hâlâ mümkündür.
+- **GPU ile Madencilik (Yeni Başlayanlar İçin Önerilen Kişisel Kurulum):**
+  - En az 4GB VRAM’e sahip NVIDIA veya AMD GPU’lar (ör. NVIDIA GTX 1070, RTX 3060; AMD RX 580 veya daha iyisi).
+  - Uyumlu bir anakart, yeterli bir güç kaynağı (birden fazla GPU için en az 750W) ve aşırı ısınmayı önleyecek iyi bir soğutma.
+  - Daha yüksek işlem gücü için çok GPU’lu sistemler yaygındır (ör. 6x GPU ile 1-2 kSol/s elde edilebilir).
+- **ASIC ile Madencilik (Daha Verimli Ancak Daha Maliyetli):**
+  - Bitmain Antminer Z15 (420 kSol/s) veya Innosilicon A9 (50 kSol/s) gibi Equihash uyumlu ASIC’ler.
+  - Bunlar daha gürültülü, daha sıcak çalışır ve daha fazla güç tüketir (ör. 1500W+); özel alanlarda kullanıma uygundur. Bitmain.com gibi güvenilir kaynaklardan veya yeniden satıcılardan (Blockware Mining) satın alın.
+- **Genel:** Kararlı internet bağlantısı, kurulum/izleme için bir bilgisayar. ASIC’ler ağa hâkimdir (2026’da toplam işlem gücü yaklaşık 13 GSol/s); bu, GPU ile madenciliği daha az rekabetçi kılar ancak hobi amaçlı kullanım için hâlâ mümkündür.
 
 ### Yazılım
 - **İşletim Sistemi:** Windows 10/11, Linux (kararlılık için Ubuntu önerilir).
 - **Madencilik Yazılımı:**
-  - GPU'lar için: lolMiner (AMD/NVIDIA destekler), GMiner veya miniZ (NVIDIA odaklı). Resmî GitHub depolarından indirin (ör., github.com/Lolliedieb/lolMiner-releases).
-  - ASIC'ler için: Üreticinin yerleşik bellenimini/panosunu kullanın (ör., Bitmain'in web arayüzü).
-- **Cüzdan:** Ödemeleri almak için bir Zcash cüzdanı. Önerilenler:
-  - Korumalı (gizli): ZODL Wallet, Zingo (Mobil/Masaüstü), Zkool (mobil/masaüstü).
+  - GPU’lar için: lolMiner (AMD/NVIDIA desteği), GMiner veya miniZ (NVIDIA odaklı). Resmî GitHub depolarından indirin (ör. github.com/Lolliedieb/lolMiner-releases).
+  - ASIC’ler için: Üreticinin yerleşik aygıt yazılımını/gösterge panelini kullanın (ör. Bitmain’in web arayüzü).
+- **Cüzdan:** Ödeme almak için bir Zcash cüzdanı. Önerilenler:
+  - Korumalı (özel): ZODL Wallet, Zingo (Mobil/Masaüstü), Zkool (mobil/masaüstü).
   - Şeffaf (daha kolay ancak daha az gizli): Edge Wallet.
-  - [wallets](https://zechub.wiki/wallets) adresinden indirin. Havuz destekliyorsa gizlilik için korumalı bir adres (şununla başlar: 'zs') oluşturun.
+  - [wallets](https://zechub.wiki/wallets) adresinden indirin. Havuz destekliyorsa gizlilik için korumalı bir adres oluşturun (‘zs’ ile başlar).
 
 ### Diğer
-- Elektrik: Maliyetleri hesaplayın. GPU'lar kart başına 150-300 W; ASIC'ler 1000 W+ kullanır.
-- Antivirüs: Madencileri tehdit olarak işaretleyebileceğinden kurulum sırasında devre dışı bırakın.
+- Elektrik: Maliyetleri hesaplayın. GPU’lar kart başına 150-300W; ASIC’ler 1000W+ tüketir.
+- Antivirüs: Kurulum sırasında devre dışı bırakın; madencilik yazılımlarını tehdit olarak işaretleyebilir.
 
-## Bir Madencilik Havuzuna Katılmak İçin Adım Adım Rehber
+## Madencilik Havuzuna Katılma Adımları
 
-### Adım 1: Zcash Cüzdanınızı Kurun
-1. Resmî Zcash web sitesi [wallets](https://zechub.wiki/wallets) üzerinden bir cüzdan indirin ve kurun.
-2. Yeni bir cüzdan oluşturun ve seed ifadenizi güvenli biçimde yedekleyin.
-3. Bir alıcı adresi oluşturun (gizlilik için tercihen korumalı). Örneğin, `zs1exampleaddress...` şeklinde not edin.
-4. Şeffaf bir adres (şununla başlar: 't') kullanıyorsanız daha basittir ancak daha az gizlilik sunar.
+### 1. Adım: Zcash Cüzdanınızı Kurun
+1. Resmî Zcash web sitesinden [wallets](https://zechub.wiki/wallets) bir cüzdan indirip kurun.
+2. Yeni bir cüzdan oluşturun ve kurtarma ifadenizi güvenli bir şekilde yedekleyin.
+3. Bir alım adresi oluşturun (gizlilik için tercihen korumalı). Örneğin `zs1exampleaddress...` adresini not edin.
+4. Şeffaf bir adres kullanıyorsanız (‘t’ ile başlar), kullanımı daha kolaydır ancak gizliliği daha düşüktür.
 
-### Adım 2: Donanımınızı Hazırlayın
-- GPU'lar için:
-  1. GPU'ları bilgisayarınıza takın ve sürücüleri güncelleyin (NVIDIA: GeForce Experience; AMD: Radeon Software).
-  2. Deneyimliyseniz hız aşırtma yapın (kararlılık için MSI Afterburner kullanın; verimlilik için +100-200 çekirdek saati, -500 bellek hedefleyin).
-- ASIC'ler için:
-  1. ASIC'i güce ve Ethernet'e bağlayın.
-  2. Advanced IP Scanner gibi bir araçla veya üreticinin uygulamasıyla IP adresini bulun.
-  3. Web panosuna erişin (ör. tarayıcıya IP'yi girin, varsayılan giriş: Bitmain için root/root).
+### 2. Adım: Donanımınızı Hazırlayın
+- GPU’lar için:
+  1. GPU’ları bilgisayarınıza takın ve sürücüleri güncelleyin (NVIDIA: GeForce Experience; AMD: Radeon Software).
+  2. Deneyimliyseniz hız aşırtma yapın (kararlılık için MSI Afterburner kullanın; verimlilik için çekirdek saat hızını +100-200, belleği -500 hedefleyin).
+- ASIC’ler için:
+  1. ASIC’i elektriğe ve Ethernet’e bağlayın.
+  2. Advanced IP Scanner gibi bir araçla veya üreticinin uygulamasını kullanarak IP adresini bulun.
+  3. Web gösterge paneline erişin (ör. tarayıcıya IP’yi girin; Bitmain için varsayılan giriş root/root).
 
-**Uyarı:** Uygun havalandırma sağlayın; madencilik ısı üretir. Test etmek için küçük başlayın.
+**Uyarı:** Yeterli havalandırma olduğundan emin olun; madencilik ısı üretir. Test etmek için küçük başlayın.
 
-### Adım 3: Bir Madencilik Havuzu Seçin ve Katılın
-Madencilik havuzları işi dağıtır ve ödülleri katkıda bulunduğunuz hash oranına göre paylaşır. Ücretlere (%0-2), minimum ödeme tutarına (0.01-0.1 ZEC), konuma (düşük ping) ve güvenilirliğe göre seçim yapın.
+### 3. Adım: Bir Madencilik Havuzu Seçin ve Katılın
+Madencilik havuzları işi dağıtır ve ödülleri sağladığınız işlem gücüne göre paylaşır. Ücretlere (%0-2), minimum ödemeye (0.01-0.1 ZEC), konuma (düşük ping) ve güvenilirliğe göre seçim yapın.
 
-**Önerilen Havuzlar (Hash Oranı, Ücretler ve İncelemelere Göre):**
-- **2Miners (zec.2miners.com)**: %1 ücret, PPLNS ödeme, GPU/ASIC/NiceHash desteği. Yüksek hash oranı (~1.17 GSol/s), güvenilir sunucular.
-- **F2Pool (zec.f2pool.com)**: %2 ücret, PPS+ ödeme, çoklu coin desteği. Büyük havuz (~2.57 GSol/s).
-- **ViaBTC (zec.viabtc.com)**: %2 ücret (PPS+), kullanıcı dostu pano, küresel sunucular.
-- **AntPool (zec.antpool.com)**: %1 ücret, Bitmain'den, ASIC'ler için iyi (~494 MSol/s).
-- **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Foundry Digital tarafından sunulan profesyonel Zcash madencilik havuzu. PPLNS ödemeleri kullanır, şeffaf ödül takibi ve kurumsal düzeyde destek sunar. Kurumsal ve büyük ölçekli ASIC madencileri için en uygunudur; hesap doğrulaması gerektirir.
-- **Sovright (mining.sovright.com)**: Stratum V2 üzerine kurulu bir Zcash havuzu, şu anda herkese açık testnet olarak çalışmaktadır. Henüz canlı ZEC ödemesi yoktur; bu nedenle bir kazanç kaynağı yerine kurulumunuzu test etmenin yolu olarak değerlendirin. Ayrıntılar için aşağıdaki özel bölüme bakın.
-- Diğerleri: Kryptex Pool, Luxor (gerçek zamanlı istatistikler için poolwatch.io/coin/zcash adresine bakın).
+**Önerilen Havuzlar (İşlem Gücü, Ücretler ve Değerlendirmelere Göre):**
+- **2Miners (zec.2miners.com)**: %1 ücret, PPLNS ödeme yöntemi; GPU/ASIC/NiceHash desteği. Yüksek işlem gücü (~1.17 GSol/s), güvenilir sunucular.
+- **F2Pool (zec.f2pool.com)**: %2 ücret, PPS+ ödeme yöntemi, çoklu coin desteği. Büyük havuz (~2.57 GSol/s).
+- **ViaBTC (zec.viabtc.com)**: %2 ücret (PPS+), kullanımı kolay gösterge paneli, küresel sunucular.
+- **AntPool (zec.antpool.com)**: %1 ücret, Bitmain tarafından işletilir; ASIC’ler için uygun (~494 MSol/s).
+- **Foundry Zcash Pool (foundrydigital.com/foundry-zcash-pool/)**: Foundry Digital tarafından işletilen profesyonel Zcash madencilik havuzu. PPLNS ödemelerini kullanır; şeffaf ödül takibi ve kurumsal düzeyde destek sunar. Kurumsal ve büyük ölçekli ASIC madencileri için en uygunudur; hesap doğrulaması gerektirir.
+- **Sovright (mining.sovright.com)**: Stratum V2 üzerine kurulu ve şu anda herkese açık bir test ağı olarak çalışan bir Zcash havuzudur. Henüz gerçek ZEC ödemeleri yoktur; bu nedenle kazanç kaynağı olarak değil, kurulumunuzu test etme yolu olarak değerlendirin. Ayrıntılar için aşağıdaki özel bölüme bakın.
+- Diğerleri: Kryptex Pool, Luxor (gerçek zamanlı istatistikler için poolwatch.io/coin/zcash adresini kontrol edin).
 
-1. Havuzun web sitesini ziyaret edin ve bir hesap oluşturun (2Miners gibi bazıları için e-posta veya kayıt gerekmez).
-2. Ödemeler için ayarlardan Zcash cüzdan adresinizi ekleyin.
+1. Havuzun web sitesini ziyaret edin ve bir hesap oluşturun (e-posta ile veya 2Miners gibi bazı havuzlarda kayıt olmadan).
+2. Ödeme ayarlarına Zcash cüzdan adresinizi ekleyin.
 3. Havuzun stratum sunucusunu (ör. zec.2miners.com:1010) ve portunu not edin.
 
-### Adım 4: Madencilik Yazılımını Kurun ve Yapılandırın
-- GPU'lar için (Örnek: Windows/Linux üzerinde lolMiner):
-  1. lolMiner'ı GitHub adresinden indirin (en son sürüm, ör. 1.88).
+### 4. Adım: Madencilik Yazılımını Kurun ve Yapılandırın
+- GPU’lar için (Örnek: Windows/Linux üzerinde lolMiner):
+  1. lolMiner’ı GitHub adresinden indirin (en son sürüm, ör. 1.88).
   2. Bir klasöre çıkarın.
-  3. Yapılandırma içeren bir toplu iş dosyası (start.bat) oluşturun:
+  3. Yapılandırmayı içeren bir toplu iş dosyası (start.bat) oluşturun:
      ```
      lolMiner.exe --coin ZEC --pool zec.2miners.com:1010 --user YOUR_WALLET_ADDRESS.WORKER_NAME --pass x
      ```
-     - `YOUR_WALLET_ADDRESS` ifadesini ZEC adresinizle değiştirin.
-     - `WORKER_NAME`: Rig'iniz için bir ad (ör. Rig1).
+     - `YOUR_WALLET_ADDRESS` yerine kendi ZEC adresinizi yazın.
+     - `WORKER_NAME`: Sisteminiz için bir ad (ör. Rig1).
      - AB sunucuları için: eu.zec.2miners.com:1010.
-  4. Toplu iş dosyasını çalıştırın. Havuzla bağlantı kuracak ve madenciliğe başlayacaktır.
-- ASIC'ler için (Örnek: Bitmain Antminer):
-  1. Web panosunda oturum açın.
+  4. Toplu iş dosyasını çalıştırın. Havuzla bağlantı kurup madenciliğe başlayacaktır.
+- ASIC’ler için (Örnek: Bitmain Antminer):
+  1. Web gösterge panelinde oturum açın.
   2. Miner Configuration bölümüne gidin.
-  3. Havuz ayrıntılarını ekleyin:
+  3. Havuz bilgilerini ekleyin:
      - URL: stratum+tcp://zec.2miners.com:1010
      - Kullanıcı adı: YOUR_WALLET_ADDRESS.WORKER_NAME
      - Parola: x (veya boş).
@@ -122,49 +122,50 @@ Madencilik havuzları işi dağıtır ve ödülleri katkıda bulunduğunuz hash 
   miner.exe --algo 125_4 --server zec.2miners.com:1010 --user YOUR_WALLET_ADDRESS.WORKER_NAME --pass x
   ```
 
-**Test:** 10-15 dakika çalıştırın; kabul edilen paylar ve hash oranı için konsolu kontrol edin.
+**Test:** 10-15 dakika çalıştırın; konsolda kabul edilen share’leri ve işlem gücünü kontrol edin.
 
-### Adım 5: Madenciliği Başlatın ve İzleyin
-1. Madenciyi başlatın: havuza bağlanacak ve pay göndermeye başlayacaktır.
-2. Şunlar aracılığıyla izleyin:
-   - Havuz panosu: Hash oranını, ödenmemiş bakiyeyi ve istatistikleri görmek için cüzdan adresinizi girin.
-   - Yazılım konsolu: Hataları, sıcaklığı izleyin (80 derece C'nin altında tutun).
-   - Araçlar: Uzaktan rig yönetimi için HiveOS veya SimpleMining OS kullanın.
-3. Ödemeler: Çoğu havuz minimum tutara ulaştığınızda otomatik ödeme yapar (ör. 0.05 ZEC). Havuz kurallarını kontrol edin.
+### 5. Adım: Madenciliği Başlatın ve İzleyin
+1. Madenciyi başlatın: Havuzla bağlantı kurup share göndermeye başlayacaktır.
+2. Şu yollarla izleyin:
+   - Havuz gösterge paneli: İşlem gücünü, ödenmemiş bakiyeyi ve istatistikleri görmek için cüzdan adresinizi girin.
+   - Yazılım konsolu: Hataları ve sıcaklığı izleyin (80 derece C’nin altında tutun).
+   - Araçlar: Sisteminizi uzaktan yönetmek için HiveOS veya SimpleMining OS kullanın.
+3. Ödemeler: Çoğu havuz, minimum tutara ulaştığınızda ödemeyi otomatik yapar (ör. 0.05 ZEC). Havuz kurallarını kontrol edin.
 
    
-![Zcash Mining Monitoring Setup](/content-images/zcashMining-5ca0019c17.webp)
+![Zcash madencilik izleme kurulumu](/content-images/zcashMining-5ca0019c17.webp)
 
 
 ### Foundry Zcash Havuzunu İzleme
 
-Foundry Zcash Pool kullanıcıları için:
+Foundry Zcash Havuzu kullanıcıları için:
 
-- Madenci performansını Foundry havuz panosu üzerinden izleyin.
-- Kontrol edin:
-  - Aktif çalışanlar
-  - Bildirilen hashrate
-  - Kabul edilen paylar
+- Madenci performansını Foundry havuz gösterge panelinden izleyin.
+- Şunları kontrol edin:
+  - Etkin çalışanlar
+  - Bildirilen işlem gücü
+  - Kabul edilen share’ler
   - Tahmini ödüller
   - Ödeme durumu
 
-Foundry, PPLNS ödül modelini kullandığı için madencilik ödülleri yalnızca anlık hash oranına değil, havuzun ödül penceresi boyunca katkıda bulunulan paylara bağlıdır.
+Foundry, PPLNS ödül modeli kullandığından madencilik ödülleri yalnızca anlık işlem gücüne değil, havuzun ödül dönemi boyunca sağlanan share’lere bağlıdır.
 
 Önerilen izleme uygulamaları:
-- ASIC kontrol panelindeki hashrate'i Foundry'nin raporladığı hashrate ile karşılaştırın.
-- Reddedilen payları, eskimiş payları veya bağlantı kararsızlığını inceleyin.
-- Kesinti süresi gönderilen payları ve olası ödülleri azalttığından, ağ bağlantısını kararlı tutun.
+- ASIC gösterge panelindeki işlem gücünü Foundry tarafından bildirilen işlem gücüyle karşılaştırın.
+- Reddedilen veya eski share’leri ya da bağlantı kararsızlığını araştırın.
+- Kesintiler gönderilen share’leri ve olası ödülleri azalttığından ağ bağlantısını kararlı tutun.
 
-## Sovright: Testnet Havuzu ve Aktarım Ağı
 
-Sovright (sovright.com), bir Stratum V2 madencilik havuzu ve ayrı bir blok aktarım ağı işletir. Farklı işleri vardır, bu yüzden aşağıda ayrı ayrı ele alınmıştır.
+## Sovright: Test Ağı Havuzu ve Aktarım Ağı
+
+Sovright (sovright.com), bir Stratum V2 madencilik havuzu ve ayrı bir blok aktarım ağı işletir. Bunlar farklı işler yapar; bu nedenle aşağıda ayrı ayrı ele alınmıştır.
 
 ### Madencilik Havuzu (mining.sovright.com)
 
-Sovright'nin havuzu, mainnet üzerinde değil, herkese açık bir Zcash testnet'inde (NU6, Stratum V2) çalışır. Testnet gerçek ZEC ödemesi yapmaz. Bunu kazanç elde etmek için değil, madenci yapılandırmanızı test etmek için kullanın.
+Sovright havuzu ana ağda değil, herkese açık bir Zcash test ağında çalışır (NU6, Stratum V2). Test ağı gerçek ZEC ödemesi yapmaz. Madenci yapılandırmanızı test etmek için kullanın; kazanç elde etmek için değil.
 
-- Başlamak için hesap gerekmez. Bir CPU veya ASIC Equihash madencisini havuza yönlendirin; paylarınız canlı panoda görünür.
-- Sovright ayrıca, yalnızca havuzun işlerini almak yerine kendi blok şablonlarını seçmek isteyen madenciler için açık kaynaklı bir Stratum V2 proxy yayımlar:
+- Başlamak için hesap gerekmez. Bir CPU veya ASIC Equihash madencisini havuza yönlendirin; share’leriniz canlı gösterge panelinde görünür.
+- Sovright ayrıca, havuzun işlerini olduğu gibi kabul etmek yerine kendi blok şablonlarını seçmek isteyen madenciler için açık kaynaklı bir Stratum V2 proxy’si yayımlar:
 
   ```
   git clone https://github.com/sovright/mining-infra
@@ -172,32 +173,32 @@ Sovright'nin havuzu, mainnet üzerinde değil, herkese açık bir Zcash testnet'
   cargo build --release -p sovright-v1-stratum-proxy
   ./target/release/sovright-v1-stratum-proxy --listen 0.0.0.0:3334 --upstream 34.28.134.13:3333
   ```
-  Madencinizi doğrudan havuza değil, proxy'ye yönlendirin:
+  Madencinizi doğrudan havuz yerine proxy’ye yönlendirin:
   ```
   stratum+tcp://<your-proxy-ip>:3334
   ```
-  `yourname.rig1` gibi bir worker adı kullanarak.
-- Sovright'in şeffaflık sayfası, bazı havuzların aksine korumalı işlemleri filtrelemeyen, "tümünü dahil et" politikasını belirtir. Her blok imzalı bir onay alır, böylece politika bağımsız olarak doğrulanabilir.
-- Örnek pano verileri yerine kendi worker'larınızı takip etmek için mining.sovright.com adresinde bir hesap oluşturun (Google veya e-posta ile giriş).
+  `yourname.rig1` gibi bir çalışan adı kullanarak.
+- Sovright şeffaflık sayfasında, korumalı işlemleri filtreleyen bazı havuzların aksine “tümünü dahil et” politikası belirtilir. Her blok için imzalı bir doğrulama belgesi oluşturulur; böylece politika bağımsız olarak denetlenebilir.
+- Örnek gösterge panelindeki veriler yerine kendi çalışanlarınızı izlemek için mining.sovright.com adresinde hesap oluşturun (Google veya e-posta ile oturum açın).
 
 ### Aktarım Ağı (relay.sovright.com)
 
-Sovright ayrıca Zcash mainnet üzerinde herkese açık bir blok aktarım ağı işletir. Bir havuz blok bulduğunda, bu bloğun ağın geri kalanına ne kadar hızlı ulaştığı ne sıklıkla yetim kaldığını belirler; yani yayılım yarışını kaybeder ve buna ait ödül kaybedilir. Aktarım, ileri hata düzeltmeli kompakt blok aktarımı kullanarak blokları dört bölge arasında iletir.
+Sovright, Zcash ana ağında ayrıca herkese açık bir blok aktarım ağı işletir. Bir havuz blok bulduğunda, bloğun ağın geri kalanına ne kadar hızlı ulaştığı, bloğun ne sıklıkla geçersiz kaldığını belirler. Başka bir deyişle blok, yayılma yarışını kaybeder ve ödülü boşa gider. Aktarım ağı, ileri hata düzeltmeli kompakt blok aktarımı kullanarak blokları dört bölgeye iletir.
 
-Herkese açık pano etkisini canlı gösterir: aktarıma bağlı bölgeler yeni blokları, düz eşten eşe dedikodunun aldığı sürenin yarısından çok daha kısa sürede görür ve pano ağın canlı yetim oranını takip eder.
+Herkese açık gösterge paneli bu etkiyi canlı olarak gösterir: Aktarım ağına bağlı bölgeler yeni blokları, sıradan eşler arası dedikodunun gerektirdiği sürenin yarısından çok daha kısa sürede görür; ayrıca gösterge paneli ağın canlı geçersiz blok oranını izler.
 
-Bu, bireysel madenciler için değil, havuz operatörleri için altyapıdır. Sovright'nin açık kaynaklı `mining-infra` deposu, bulunan blokları yerel P2P'den daha hızlı bir şekilde mesh ağa yaymak için bir `submitblock` aktarım ağ geçidini belgeler. Bağlanmak için aktarım eş adresleri ve bir kimlik doğrulama anahtarı almak üzere doğrudan Sovright ile iletişime geçin (support@sovright.com).
+Bu altyapı bireysel madenciler için değil, havuz işletmecileri içindir. Sovright açık kaynaklı `mining-infra` deposu, bulunan blokları yerel P2P’den daha hızlı biçimde ağa dağıtmak için kullanılan bir `submitblock` aktarım ağ geçidini belgelendirir. Bağlanmak için aktarım eşlerinin adreslerini ve kimlik doğrulama anahtarını almak üzere doğrudan Sovright ile iletişime geçin (support@sovright.com).
 
 
 ## Kendi Zebra düğümünüze karşı madencilik
 
-Yukarıdaki her şey madencinizi başka birinin havuzuna yönlendirir. Diğer yol ise bir düğümü kendiniz çalıştırmak ve madencilik yazılımınızın ondan iş istemesini sağlamaktır. zcashd 18 Temmuz 2026'da durduğundan, bu, bu bölümün ele aldığı düğüm olan [Zebra](/zcash-tech/zebra-full-node) anlamına gelir.
+Yukarıdaki yöntemlerin tümünde madencinizi başka birinin havuzuna yönlendirirsiniz. Diğer seçenek, kendiniz bir düğüm çalıştırıp madencilik yazılımınızın ondan iş istemesini sağlamaktır. zcashd 18 Temmuz 2026’da durdurulduğundan, bu bölümde ele alınan düğüm [Zebra](/zcash-tech/zebra-full-node)’tir.
 
-Zebra'nin görevi küçük ve özeldir: blok şablonları oluşturur ve RPC arayüzü üzerinden çözülmüş blokları kabul eder. Hash işlemi madencilik yazılımı tarafından yapılır ve ödüllerin birden fazla madenci arasında paylaşılması havuz yazılımının işidir. Tek başına madenciliğin bir blok bulup bulamayacağı, bu bölümün tahmin etmeye çalışmadığı ağ hash oranındaki payınıza bağlıdır. Bu nedenle bu sayfanın girişi, çoğu kullanıcı için solo madenciliği önermez.
+Zebra’ün rolü küçük ve özeldir: Blok şablonları oluşturur ve çözülen blokları RPC arayüzü üzerinden kabul eder. Hash hesaplamasını madencilik yazılımı yapar; birkaç madenci arasında ödül paylaşımı ise havuz yazılımının işidir. Tek başına madenciliğin bir blok bulup bulamayacağı ağın işlem gücündeki payınıza bağlıdır; bu bölüm bunu tahmin etmeye çalışmaz. Bu nedenle bu sayfanın girişinde çoğu kullanıcı için tek başına madencilik önerilmez.
 
-Adımlar, 8 Ekim 2026 itibarıyla iki Zebra Book sayfasını, [Mining Zcash with Zebra](https://zebra.zfnd.org/user/mining.html) ve [Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html) sayfalarını izler. Anahtar adları ve varsayılanlar sürümler arasında değişir; bu nedenle birine güvenmeden önce Book'u kontrol edin.
+Adımlar, 8 Ekim 2026 itibarıyla geçerli olan iki Zebra Book sayfasını izler: [Mining Zcash with Zebra](https://zebra.zfnd.org/user/mining.html) ve [Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html). Anahtar adları ve varsayılanlar sürümler arasında değiştiğinden, bunlara güvenmeden önce Book’u kontrol edin.
 
-### Ödülü alan adresi ayarlayın
+### Ödülü alacak adresi ayarlayın
 
 Varsayılan ayarlarla bir yapılandırma dosyası oluşturun, ardından düzenleyin:
 
@@ -206,71 +207,71 @@ mkdir -p ~/.config
 zebrad generate -o ~/.config/zebrad.toml
 ```
 
-Bir madenci adresi gereklidir ([Book: Miner address](https://zebra.zfnd.org/user/mining.html#miner-address)):
+Bir madenci adresi gerekir ([Book: Miner address](https://zebra.zfnd.org/user/mining.html#miner-address)):
 
 ```toml
 [mining]
 miner_address = "YOUR_ADDRESS"
 ```
 
-Zebra şeffaf bir P2PKH veya P2SH adresini, bir Sapling adresini ya da bir Unified Address kabul eder. Birden fazla alıcısı olan bir Unified Address için Book, Zebra'nin tek bir alıcıya ödeme yaptığını, "önce Orchard, sonra Sapling, ardından şeffaf"ı tercih ettiğini söyler.
+Zebra şeffaf bir P2PKH veya P2SH adresini, bir Sapling adresini ya da Birleşik Adresi kabul eder. Birden fazla alıcısı olan Birleşik Adres için Book, Zebra’ın tek bir alıcıya ödeme yaptığını ve “önce Orchard, ardından Sapling, sonra şeffaf alıcıyı tercih ettiğini” belirtir.
 
 Aynı `[mining]` bölümüne iki isteğe bağlı anahtar eklenir:
 
-| Anahtar | Ne yapar | Sınır |
+| Anahtar | İşlevi | Sınır |
 |---|---|---|
-| `extra_coinbase_data` | Madenciliğini yaptığınız her bloğun coinbase girdisine, Zebra'nin kendi işaretçisinden ([Book](https://zebra.zfnd.org/user/mining.html#extra-coinbase-data)) sonra havuz adı gibi herkese açık bir etiket ekler | 86 bayt. Bunun üzerinde, "Zebra başlamayı reddeder" |
-| `miner_memo` | Ödül çıktısına korumalı bir not ekler. `extra_coinbase_data`'nin aksine herkese açık değildir: yalnızca alıcı adresin görüntüleme anahtarına sahip biri onu okuyabilir ([Book](https://zebra.zfnd.org/user/mining.html#miner-memo)) | 512 bayt. Yalnızca ödül korumalı bir alıcıya gittiğinde çalışır. Şeffaf bir adresle "sessizce etkisiz kalır" |
+| `extra_coinbase_data` | Madencilik yaptığınız her bloğun coinbase girdisine, Zebra’ün kendi işaretinden sonra havuz adı gibi herkese açık bir etiket ekler ([Book](https://zebra.zfnd.org/user/mining.html#extra-coinbase-data)) | 86 bayt. Bu sınır aşılırsa “Zebra başlatmayı reddeder” |
+| `miner_memo` | Ödül çıktısına korumalı bir memo ekler. `extra_coinbase_data`’ın aksine herkese açık değildir: Yalnızca alıcı adresin görüntüleme anahtarına sahip biri okuyabilir ([Book](https://zebra.zfnd.org/user/mining.html#miner-memo)) | 512 bayt. Yalnızca ödül korumalı bir alıcıya gönderildiğinde çalışır. Şeffaf adres kullanıldığında “sessizce etkisiz kalır” |
 
 ### RPC portunu açın
 
-Madencilik yazılımı Zebra ile JSON-RPC üzerinden konuşur; dinlemesi için bir adres vermediğiniz sürece kapalı kalır ([Book: RPC section](https://zebra.zfnd.org/user/mining.html#rpc-section)):
+Madencilik yazılımı Zebra ile JSON-RPC üzerinden iletişim kurar. Dinleneceği bir adres belirtmediğiniz sürece bu özellik kapalıdır ([Book: RPC section](https://zebra.zfnd.org/user/mining.html#rpc-section)):
 
 ```toml
 [rpc]
 listen_addr = "127.0.0.1:8232"
 ```
 
-8232, Mainnet'teki standart RPC portudur. `127.0.0.1` portu yalnızca aynı makineden erişilebilir tutar.
+8232, ana ağdaki standart RPC portudur. `127.0.0.1` portu yalnızca aynı makineden erişilebilir durumda tutar.
 
-Zebra 2.0.0'dan beri bir çerez, RPC portunu zcashd'nin kullandığına benzer bir yöntemle korur. Zebra, RPC uç noktası başladığında çerezi yazar ve kapatılırken siler. Varsayılan olarak dosya Zebra'nin önbellek dizininde bulunur; örneğin Linux üzerinde `/home/user/.cache/zebra/.cookie`, ve tek bir satır içerir:
+Zebra 2.0.0 sürümünden itibaren RPC portu, zcashd’ün kullandığına benzer bir yöntem olan çerezle korunur. RPC uç noktası başladığında Zebra çerezi yazar ve kapanırken siler. Varsayılan olarak dosya Zebra’ün önbellek dizininde bulunur; örneğin Linux üzerinde `/home/user/.cache/zebra/.cookie` konumundadır ve tek satır içerir:
 
 ```text
 __cookie__:PASSWORD
 ```
 
-`rpc.cookie_dir` dosyayı taşır. `rpc.enable_cookie_auth = false` denetimi ve bununla birlikte RPC portunun sahip olduğu tek kimlik doğrulamayı kapatır: böylece porta erişebilen her şey onu çağırabilir.
+`rpc.cookie_dir` dosyanın konumunu değiştirir. `rpc.enable_cookie_auth = false` denetimi ve bununla birlikte RPC portundaki tek kimlik doğrulama yöntemini devre dışı bırakır: Bu durumda porta erişebilen herkes çağrı yapabilir.
 
-### Zebra'yi başlatın ve eşitlenmesini bekleyin
+### Zebra’i başlatın ve eşitlenmesini bekleyin
 
 ```bash
 zebrad
 ```
 
-Zebra yapılandırmayı varsayılan konumdan okur. Başka bir dosya kullanmak için `-c /path/to/zebrad.toml` geçirin. Eşitlemenin bitmesini bekleyin. Tamamladığında günlükte `sync_percent=100.000%` görünür ([Book: Running zebra](https://zebra.zfnd.org/user/mining.html#running-zebra)). Donanım ve disk alanı için [Zebra Full Node](/zcash-tech/zebra-full-node) bölümüne bakın.
+Zebra yapılandırmayı varsayılan konumdan okur. Başka bir dosya kullanmak için `-c /path/to/zebrad.toml` parametresini iletin. Eşitlemenin bitmesini bekleyin. Tamamlandığında günlükte `sync_percent=100.000%` görünür ([Book: Running zebra](https://zebra.zfnd.org/user/mining.html#running-zebra)). [Zebra Full Node](/zcash-tech/zebra-full-node) donanımı ve disk alanını ele alır.
 
 ### getblocktemplate ile kontrol edin
 
-`getblocktemplate`, madencilik yazılımının iş almak için yaptığı çağrıdır; dolayısıyla aynı zamanda en hızlı testtir ([Book: Testing the setup](https://zebra.zfnd.org/user/mining.html#testing-the-setup)). Çerez dosyanızın içeriğini `__cookie__:PASSWORD` yerine koyun:
+`getblocktemplate`, madencilik yazılımının iş almak için yaptığı çağrıdır; bu nedenle aynı zamanda en hızlı test yöntemidir ([Book: Testing the setup](https://zebra.zfnd.org/user/mining.html#testing-the-setup)). Çerez dosyanızın içeriğini `__cookie__:PASSWORD` yerine koyun:
 
 ```bash
 curl --silent --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "getblocktemplate", "params": [] }' -H 'Content-type: application/json' http://__cookie__:PASSWORD@127.0.0.1:8232/ | jq
 ```
 
-Çalışan bir kurulum, bir madencinin ihtiyaç duyduğu alanlar arasında `previousblockhash`, `coinbasetxn`, `target` ve `height` bulunan bir `result` nesnesi döndürür. `extra_coinbase_data` ayarlarsanız Book, etiketinizi `coinbasetxn.data` içinde nasıl bulacağınızı açıklar.
+Çalışan bir kurulum, madencinin ihtiyaç duyduğu alanları içeren bir `result` nesnesi döndürür. Bunlar arasında `previousblockhash`, `coinbasetxn`, `target` ve `height` bulunur. `extra_coinbase_data` ayarladıysanız Book, etiketinizi `coinbasetxn.data` içinde nasıl bulacağınızı açıklar.
 
-### Madencilik yazılımınızı buna yönlendirin
+### Madencilik yazılımınızı yönlendirin
 
-Madencilik veya havuz yazılımınıza RPC uç noktasını, `127.0.0.1:8232`'yi ve çerezdeki kullanıcı adı ile parolayı verin. Book, Zebra'nin "çoğu madencilik havuzu yazılımını çalıştırmak için gereken RPC yöntemlerini desteklediğini" söyler ([Book: Run a mining pool](https://zebra.zfnd.org/user/mining.html#run-a-mining-pool)).
+Madencilik veya havuz yazılımınıza RPC uç noktasını, `127.0.0.1:8232` değerini ve çerezdeki kullanıcı adı ile parolayı verin. Book, Zebra’ın “çoğu madencilik havuzu yazılımını çalıştırmak için gereken RPC yöntemlerini desteklediğini” belirtir ([Book: Run a mining pool](https://zebra.zfnd.org/user/mining.html#run-a-mining-pool)).
 
-Yazılım seçmeden önce Book'tan iki not:
+Yazılım seçmeden önce Book’tan iki not:
 
-- **s-nomp yalnızca test içindir.** Book, s-nomp kurulumunu "deneysel" olarak adlandırır ve s-nomp'un "NU5 ile uyumlu olmadığını, dolayısıyla bazı madencilik işlevlerinin devre dışı bırakıldığını" söyler. [Testnet guide](https://zebra.zfnd.org/user/mining-testnet-s-nomp.html) ayrıca s-nomp'un "NU5 veya daha sonraki ağ yükseltmeleri için resmî olarak güncellenmediğini" ekler ve üretim madencilerini güncel yükseltmeleri destekleyen havuz yazılımına yönlendirir.
-- **Zebra hazır bir yığın sunar.** Zebra deposunda, [`docker/mining/`](https://github.com/ZcashFoundation/zebra/tree/main/docker/mining) içindeki bir Docker Compose kurulumu, Zebra'yi bir madencilik havuzuyla ve isterseniz bir CPU madencisiyle birlikte başlatır. İçindeki havuz s-nomp'tur ve siz değiştirmediğiniz sürece Testnet'te başlar; bu nedenle bunu bileşenleri öğrenmenin bir yolu olarak değerlendirin.
+- **s-nomp yalnızca test içindir.** Book, s-nomp kurulumunu “deneysel” olarak tanımlar ve s-nomp’un “NU5 ile uyumlu olmadığını, bu nedenle bazı madencilik işlevlerinin devre dışı bırakıldığını” söyler. [Testnet guide](https://zebra.zfnd.org/user/mining-testnet-s-nomp.html) ayrıca s-nomp’un “NU5 veya sonraki ağ yükseltmeleri için resmî olarak güncellenmediğini” belirtir ve üretim ortamındaki madencileri güncel yükseltmeleri destekleyen havuz yazılımlarına yönlendirir.
+- **Zebra kullanıma hazır bir yazılım yığını sunar.** Zebra deposundaki [`docker/mining/`](https://github.com/ZcashFoundation/zebra/tree/main/docker/mining) konumunda bir Docker Compose kurulumu vardır. Bu kurulum Zebra’i bir madencilik havuzuyla ve isterseniz CPU madencisiyle birlikte başlatır. İçindeki havuz s-nomp’tur ve değiştirmediğiniz sürece Testnet’te başlar; bu nedenle bileşenlerin nasıl çalıştığını öğrenmek için kullanın.
 
-### Docker yolu
+### Docker yöntemi
 
-Book'un en kısa yolu, adres ve RPC portunun ortam değişkenleri olarak geçirildiği `zfnd/zebra` Docker imajıdır ([Book: Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html)). Aşağıdaki komut, Book'takinin tek bir değişiklik yapılmış hâlidir: RPC portunu yalnızca ana makinenin loopback adresinde yayımlar, böylece diğer makineler ona erişemez.
+Book’taki en kısa yol, adres ve RPC portu ortam değişkenleri olarak iletilen `zfnd/zebra` Docker imajıdır ([Book: Mining with Zebra in Docker](https://zebra.zfnd.org/user/mining-docker.html)). Aşağıdaki komut, Book’taki komutun tek bir değişiklik yapılmış hâlidir: RPC portunu yalnızca ana makinenin loopback adresinde yayımlar; böylece başka makineler porta erişemez.
 
 ```bash
 docker run -d --name zebra_local \
@@ -282,23 +283,23 @@ docker run -d --name zebra_local \
   zfnd/zebra:latest
 ```
 
-Bu, bir Mainnet düğümü başlatır, P2P portunu (8233) Docker ana makinesinde yayımlar ve RPC portunu (8232) yalnızca ana makinenin kendisinden erişilebilir kılar. Çerezi şununla yazdırın:
+Bu komut bir ana ağ düğümü başlatır, P2P portunu (8233) Docker ana makinesinde yayımlar ve RPC portunu (8232) yalnızca ana makinenin kendisinden erişilebilir kılar. Çerezi şu komutla yazdırın:
 
 ```bash
 docker exec -it zebra_local cat /home/zebra/.cache/zebra/.cookie
 ```
 
-- **`0.0.0.0`'yi `ZEBRA_RPC__LISTEN_ADDR` içinde tutun.** Bu, Zebra'nin kapsayıcı içinde dinlediği adrestir. Docker yayımlanmış bir portu kapsayıcının kendi ağ arayüzüne yönlendirir; bu nedenle kapsayıcı içinde `127.0.0.1` üzerinde dinleyen bir Zebra, ana makineden bile bağlantıyı alamaz. `-p` önündeki `127.0.0.1:`, portu ağdan uzak tutan şeydir.
-- **Book'un komutu**, RPC portunu `-p 8232:8232` ile yayımlar; bu da onu ana makinenin her ağ arayüzünde açar.
-- **Testnet üzerinde pratik yapmak için**, `-e ZEBRA_NETWORK__NETWORK="Testnet"` ekleyin, `ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232` ayarlayın, `-p 18233:18233` ve `-p 127.0.0.1:18232:18232` yayımlayın ve bir Testnet adresi verin. Bir Mainnet adresi Zebra'nin Testnet'te başlamasını engeller; tersi de geçerlidir.
+- **`0.0.0.0`’ü `ZEBRA_RPC__LISTEN_ADDR` içinde tutun.** Bu, Zebra’ün kapsayıcı içinde dinlediği adrestir. Docker yayımlanan bir portu kapsayıcının kendi ağ arayüzüne yönlendirir; bu nedenle kapsayıcı içinde `127.0.0.1` üzerinde dinleyen bir Zebra, ana makineden gelenler dâhil, bağlantıları alamaz. `-p` önündeki `127.0.0.1:` portu ağdan uzak tutar.
+- **Book’taki komut**, RPC portunu `-p 8232:8232` ile yayımlar; bu da portu ana makinenin tüm ağ arayüzlerinde açar.
+- **Testnet’te denemek için** `-e ZEBRA_NETWORK__NETWORK="Testnet"` ekleyin, `ZEBRA_RPC__LISTEN_ADDR=0.0.0.0:18232` ayarlayın, `-p 18233:18233` ve `-p 127.0.0.1:18232:18232` portlarını yayımlayın ve bir Testnet adresi girin. Ana ağ adresi Zebra’ün Testnet’te başlamasını engeller; bunun tersi de geçerlidir.
 
-Madencilerin ödemelerini yapmak ve cüzdanı yönetmek bu bölümün kapsamı dışındadır. Cüzdan tarafı için [Zallet](/zcash-tech/zallet) bölümüne bakın.
+Madencilere ödeme yapmak ve cüzdanı yönetmek bu bölümün kapsamı dışındadır. Cüzdan tarafı için [Zallet](/zcash-tech/zallet) bölümüne bakın.
 
 ## İpuçları ve En İyi Uygulamalar
-- **Kârlılık:** whattomine.com/coins/166-zec-equihash gibi hesaplayıcıları kullanın. Örnek: Bir RTX 3060 (~300 Sol/s), $50/ZEC seviyesinde günde ~0.001 ZEC kazanır; elektrik için ~$0.50 düşülür.
-- **Gizlilik:** Mevcutsa korumalı havuzları kullanın; adresleri yeniden kullanmaktan kaçının.
-- **Güvenlik:** Güçlü parolalar kullanın; havuzlarda/cüzdanlarda 2FA'yı etkinleştirin. Özel anahtarları asla paylaşmayın.
-- **Sorun Giderme:** Pay yoksa güvenlik duvarını, antivirüsü veya yanlış yapılandırmayı kontrol edin. forum.zcashcommunity.com veya Reddit r/zec gibi forumlara katılın.
-- **Alternatifler:** Kârlı değilse bulut madenciliğini veya diğer coin'lerde staking'i değerlendirin.
+- **Kârlılık:** whattomine.com/coins/166-zec-equihash gibi hesaplayıcılar kullanın. Örnek: Bir RTX 3060 (~300 Sol/s), 50 $/ZEC fiyat üzerinden günde ~0,001 ZEC kazandırır; elektrik için ~0,50 $ düşülür.
+- **Gizlilik:** Varsa korumalı havuzları kullanın; adresleri tekrar kullanmaktan kaçının.
+- **Güvenlik:** Güçlü parolalar kullanın; havuzlarda/cüzdanlarda 2FA’yı etkinleştirin. Özel anahtarlarınızı asla paylaşmayın.
+- **Sorun Giderme:** Havuz payı gelmiyorsa güvenlik duvarını, antivirüsü veya yanlış yapılandırmayı kontrol edin. Bu konuda forum.zcashcommunity.com ya da Reddit r/zec gibi forumlardan yardım alın.
+- **Alternatifler:** Kârlı değilse bulut madenciliğini veya diğer coin’lerde staking’i değerlendirin.
 - **Çevresel Not:** Madencilik enerji tüketir; mümkünse yenilenebilir kaynakları kullanın.
-- **Güncellemeler:** Zcash gelişebilir (ör. olası PoS geçişi); haberler için z.cash'i kontrol edin.
+- **Güncellemeler:** Zcash değişebilir (ör. olası PoS geçişi); haberler için z.cash adresini kontrol edin.

@@ -1,5 +1,5 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/guides/Zcash_Improvement_Proposals.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 # Zcash İyileştirme Önerileri
@@ -8,10 +8,10 @@
 
 
 
-# ZIP Nedir
-Bir Zcash İyileştirme Önerisi (ZIP), Zcash topluluğuna bilgi sağlayan ya da Zcash veya onun süreçleri ya da ortamı için yeni bir özelliği tanımlayan bir tasarım belgesidir. ZIP, özelliğin kısa ve öz bir teknik spesifikasyonunu ve bu özellik için gerekçeyi sunmalıdır.
+# ZIP nedir?
+Bir Zcash İyileştirme Önerisi (ZIP), Zcash topluluğuna bilgi sağlayan veya Zcash ya da süreçleri veya ortamı için yeni bir özelliği açıklayan bir tasarım belgesidir. ZIP, özelliğin kısa bir teknik tanımını ve gerekçesini sunmalıdır.
 
-ZIP'lerin, yeni özellikler önermek, bir konu hakkında topluluk girdisi toplamak ve Zcash'e dahil edilen tasarım kararlarını belgelemek için birincil mekanizma olmasını amaçlıyoruz. ZIP'in Sahibi/Sahipleri (genellikle yazar(lar)) topluluk içinde uzlaşı oluşturmak ve karşıt görüşleri belgelemekten sorumludur.
+ZIP'lerin yeni özellikler önermek, bir konu hakkında topluluk görüşü toplamak ve Zcash için alınan tasarım kararlarını belgelemek üzere birincil mekanizma olmasını amaçlıyoruz. ZIP Sahibi/Sahipleri (genellikle yazarları), topluluk içinde konsensüs oluşturmak ve karşıt görüşleri belgelemekten sorumludur.
 
 ZIP'ler sürüm kontrollü bir depoda metin dosyaları olarak tutulduğundan, revizyon geçmişleri özellik önerisinin tarihsel kaydını oluşturur.
 
@@ -20,7 +20,7 @@ ZIP'ler sürüm kontrollü bir depoda metin dosyaları olarak tutulduğundan, re
 
 ## ZIP Editörleri
 
-Gelen her ZIP inceleme sürecinden geçmelidir. ZIP editörleri, herhangi bir ZIP'in biçiminin ve içeriğinin kullanılan terimleri, gerekçeyi ve yapılan teknik değişiklikleri yeterli şekilde açıkladığından emin olmakla görevlidir. 
+Gelen her ZIP inceleme sürecinden geçmelidir. ZIP editörleri, herhangi bir ZIP içeriğinin ve biçiminin terimleri, gerekçeyi ve yapılan teknik değişiklikleri yeterince açıklamasını sağlamaktan sorumludur.
 
 ```markdown
 * Jack Grigg, Kris Nuttycombe and Daira-Emma Hopwood associated with the ECC.
@@ -28,46 +28,46 @@ Gelen her ZIP inceleme sürecinden geçmelidir. ZIP editörleri, herhangi bir ZI
 * Sam and Mark, associated with SL.
 ```
 
-## Dikkat Çeken Güncel ZIP'ler
+## Güncel Önemli ZIP'ler
 
-Aşağıdaki durumlar ve başlıklar, 18 Ağustos 2026 tarihinde [zips.z.cash](https://zips.z.cash/#index-of-zips) üzerindeki ZIP dizinine göre kontrol edilmiştir. Bir ZIP'in durumu zaman içinde değişir, bu nedenle dizini doğruluk için esas kaynak olarak kabul edin.
+Aşağıdaki durumlar ve başlıklar, 18 Ağustos 2026'da ZIP dizinindeki [zips.z.cash](https://zips.z.cash/#index-of-zips) adresine göre kontrol edilmiştir. Bir ZIP'in durumu zaman içinde değişebilir; bu nedenle doğru bilgi için dizini esas alın.
 
-> Taslak: [Transparent Zcash Extensions](https://zips.z.cash/zip-0222)
+> Taslak: [Şeffaf Zcash Uzantıları](https://zips.z.cash/zip-0222)
 
-> Taslak: [Zcash Shielded Assets Transferi ve Yakımı](https://zips.z.cash/zip-0226)
+> Taslak: [Zcash Korumalı Varlıkların Transferi ve Yakılması](https://zips.z.cash/zip-0226)
 
-> Taslak: [Zcash Shielded Assets İhracı](https://zips.z.cash/zip-0227)
+> Taslak: [Zcash Korumalı Varlıkların İhracı](https://zips.z.cash/zip-0227)
 
-> Geri çekildi: [Geri Çekilen Sürüm 6 İşlem Formatı](https://zips.z.cash/zip-0230) — artık ZIP 229 tarafından geçersiz kılınmıştır; işlem sürüm 6 artık burada tanımlanmaktadır. Aşağıdaki NU6.3 listesine bakın.
+> Geri çekildi: [Geri Çekilen 6. Sürüm İşlem Biçimi](https://zips.z.cash/zip-0230) — artık işlem sürüm 6'yı tanımlayan ZIP 229 tarafından geçersiz kılınmıştır. Aşağıdaki NU6.3 listesini inceleyin.
 
-> Taslak: [Transparent Zcash Extensions için İşlem Tanımlayıcı Özetleri ve İmza Doğrulaması](https://zips.z.cash/zip-0245)
+> Taslak: [Şeffaf Zcash Uzantıları için İşlem Tanımlayıcı Özetleri ve İmza Doğrulaması](https://zips.z.cash/zip-0245)
 
-> Taslak: [Standartlaştırılmış Memo Alanı Formatı](https://zips.z.cash/zip-0302)
+> Taslak: [Standartlaştırılmış Memo Alanı Biçimi](https://zips.z.cash/zip-0302)
 
 > Taslak: [Sapling Adres İmzaları](https://zips.z.cash/zip-0304)
 
 > Taslak: [Ödeme Tespiti için Hafif İstemci Protokolü](https://zips.z.cash/zip-0307)
 
-> Taslak: [Sapling Viewing Key'lerin Güvenlik Özellikleri](https://zips.z.cash/zip-0310)
+> Taslak: [Sapling Görüntüleme Anahtarlarının Güvenlik Özellikleri](https://zips.z.cash/zip-0310)
 
-> Aktif: [Fonların yalnızca Transparent Address'lerden gönderilebildiği bir Adres Türünün Tanımlanması](https://zips.z.cash/zip-0320)
+> Etkin: [Yalnızca Şeffaf Adreslerden Fon Gönderilebilen Bir Adres Türü Tanımlama](https://zips.z.cash/zip-0320)
 
-> Taslak: [Wallet.dat formatı](https://zips.z.cash/zip-0400)
+> Taslak: [Wallet.dat biçimi](https://zips.z.cash/zip-0400)
 
 ## NU6.3 (Ironwood) ZIP'leri
 
-NU6.3, burada listelenen ek ZIP'lerle birlikte ZIP 258'de açıklanmıştır. Adayların tam kümesi [ZIP dizininde](https://zips.z.cash/#nu6-3-candidate-zips) yayımlanmıştır.
+NU6.3, burada listelenen ek ZIP'lerle birlikte ZIP 258'de açıklanmıştır. Adayların tam listesi [ZIP dizininde yayımlanmıştır](https://zips.z.cash/#nu6-3-candidate-zips).
 
 > Taslak: [NU6.3 Ağ Yükseltmesinin Dağıtımı](https://zips.z.cash/zip-0258)
 
-> Taslak: [Sürüm 6 İşlem Formatı](https://zips.z.cash/zip-0229)
+> Taslak: [6. Sürüm İşlem Biçimi](https://zips.z.cash/zip-0229)
 
-> Taslak: [Orchard'dan Ironwood'a Geçiş](https://zips.z.cash/zip-0318)
+> Taslak: [Orchard'den Ironwood'e Geçiş](https://zips.z.cash/zip-0318)
 
-> Taslak: [NU6.3'ün Cüzdanlar İçin Sonuçları](https://zips.z.cash/zip-0326)
+> Taslak: [NU6.3'ün Cüzdanlar Üzerindeki Sonuçları](https://zips.z.cash/zip-0326)
 
 > Önerildi: [Ironwood Kuantum Kurtarılabilirliği](https://zips.z.cash/zip-2005)
 
-> Ayrıldı: [Orchard Havuzuna Yapılan Transferlerin Kısıtlanması](https://zips.z.cash/zip-2006)
+> Ayrıldı: [Orchard Havuzuna Transferlerin Kısıtlanması](https://zips.z.cash/zip-2006)
 
-NU6.3 için üç önceki ZIP de güncellenmektedir: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) ve [ZIP 317](https://zips.z.cash/zip-0317).
+Daha önceki üç ZIP de NU6.3 için güncellenmiştir: [ZIP 209](https://zips.z.cash/zip-0209), [ZIP 213](https://zips.z.cash/zip-0213) ve [ZIP 317](https://zips.z.cash/zip-0317).

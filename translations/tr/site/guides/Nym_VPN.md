@@ -1,8 +1,8 @@
 # Nym VPN 
 
-Nym, kullanıcı meta verilerini maskeleyen ve kaynak ile hedef IP adreslerini ayıran, gizlilik için bir bilgisayar ağı altyapısı türü olan gelişen bir mix network'tür (mixnet). Mesajlaşma, dosya transferleri, ödeme işlemleri ve temel web sitelerinde gezinme dahil olmak üzere çeşitli iletişim türlerini anonimleştirir. Proje, özgür ve açık kaynaklı yazılım üzerine kuruludur ve dünya çapında bağımsız düğümlerden oluşan dağıtık bir yapı tarafından merkeziyetsiz şekilde sürdürülür. Nym VPN & Mixnet, shielded ZEC ile ödemeyi kabul eder! 
+Nym, kullanıcı üst verilerini maskeleyerek kaynak ve hedef IP adreslerini birbirinden ayıran, gizlilik için tasarlanmış bir bilgisayar ağı altyapısı türü olan gelişmekte bir karıştırma ağıdır (mixnet). Mesajlaşma, dosya aktarımları, ödeme işlemleri ve temel web sitelerinde gezinme dahil çeşitli iletişim türlerini anonimleştirir. Proje, özgür ve açık kaynaklı yazılımlar üzerine kuruludur ve dünya çapında bağımsız düğümlerden oluşan dağıtık bir küme tarafından sürdürülen merkeziyetsiz bir yapıya sahiptir.Nym VPN ve Mixnet, korumalı (shielded) ZEC ile ödeme kabul ediyor!
 
-[Nym Blog Yazısı](https://nym.com/blog/nymvpn-with-zcash) | [Nym VPN'i İndir](https://nym.com)
+[Nym Blog Yazısı](https://nym.com/blog/nymvpn-with-zcash) | [Nym VPN’i İndir](https://nym.com)
 
 ## Eğitim
 
@@ -10,7 +10,7 @@ Nym, kullanıcı meta verilerini maskeleyen ve kaynak ile hedef IP adreslerini a
   <iframe
     className="w-full h-full"
     src="https://www.youtube.com/embed/gSeECj4ddYA"
-    title="How to Buy NymVPN with Zcash (ZEC)"
+    title="NymVPN ile Zcash Nasıl Satın Alınır (ZEC)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
     allowFullScreen
     loading="lazy"
@@ -18,45 +18,45 @@ Nym, kullanıcı meta verilerini maskeleyen ve kaynak ile hedef IP adreslerini a
 </div>
    
 
-### Coğrafi olarak kısıtlanmış içeriğe erişin
+### Coğrafi kısıtlamalı içeriklere erişin
 
 Bölgenizde kullanılamayan yayın hizmetlerine, web sitelerine veya içeriklere erişmek için coğrafi kısıtlamaları aşın.
 
-### Herkese açık WiFi'da güvenliğinizi artırın
+### Herkese açık Wi-Fi ağlarında güvenliğinizi artırın
 
-Kafelerde, havaalanlarında veya otellerde herkese açık Wi-Fi kullanırken verilerinizi korsanlardan koruyun.
+Kafelerde, havaalanlarında veya otellerde herkese açık Wi-Fi kullanırken verilerinizi bilgisayar korsanlarından koruyun.
 
-### Tek Bir Yerde Gelişmiş Gizlilik
+### Tek platformda gelişmiş gizlilik
 
 Gizliliğinizi koruyun  
-Çevrimiçi faaliyetlerinizi internet servis sağlayıcılarından, reklamverenlerden ve veri takipçilerinden gizlemek için internet bağlantınızı şifreleyin.
+Çevrimiçi etkinliklerinizi internet servis sağlayıcılarından, reklamverenlerden ve veri izleyicilerinden gizlemek için internet bağlantınızı şifreleyin.
 
-### Çevrimiçi anonim olun
+### Çevrimiçi ortamda anonim kalın
 
-Gezinirken anonim kalmak için IP adresinizi maskeleyin; profillenmekten veya hedefli reklamlardan kaçının.
+Gezinirken anonim kalmak, profilleme ve hedefli reklamlardan kaçınmak için IP adresinizi maskeleyin.
 
-### Bant genişliği kısıtlamasından kaçının
+### Bant genişliği kısıtlamasını önleyin
 
-Yayın izlerken veya oyun oynarken internet servis sağlayıcılarının bağlantınızı yavaşlatmasını önleyin.
+Yayın izlerken veya oyun oynarken internet servis sağlayıcılarının internet bağlantınızı yavaşlatmasını önleyin.
 
-### Gözetimi ve sansürü önleyin
+### Gözetim ve sansürü önleyin
 
-Sansürü aşın ve kısıtlayıcı ülkelerde engellenen web sitelerine veya sosyal medyaya erişin.
+Kısıtlayıcı ülkelerde sansürü aşın ve engellenmiş web sitelerine veya sosyal medyaya erişin.
 
-### Çevrimiçi bankacılığı güvence altına alın
+### Çevrimiçi bankacılığınızı güvenceye alın
 
 Çevrimiçi bankacılığa erişirken veya ödeme yaparken hassas finansal bilgilerinizi koruyun.
 
 ### Dinamik fiyatlandırmadan kaçının
 
-Uçuşlar, oteller veya ürünlerde konuma dayalı fiyat ayrımcılığından kaçınmak için konumunuzu gizleyin.
+Uçuş, otel veya ürün fiyatlarında konuma dayalı ayrımcılıktan kaçınmak için konumunuzu gizleyin.
 
 ### Kripto işlemlerinizi koruyun
 
-Kripto para faaliyetlerinizi NymVPN'in bağlantılandırılamayan ödemeleri ve gelişmiş meta veri korumasıyla koruyun.
+NymVPN ilişkilendirilemez ödemeleri ve gelişmiş üst veri korumasıyla kripto para etkinliklerinizi koruyun.
 
 
-## Nym VPN Kurulum Rehberleri:
+## Nym VPN Kurulum Kılavuzları:
 
 [iOS](https://vimeo.com/1083490444/81e95709b0) 
 
@@ -67,4 +67,4 @@ Kripto para faaliyetlerinizi NymVPN'in bağlantılandırılamayan ödemeleri ve 
 [Android](https://vimeo.com/1096218590?share=copy)
 
 
-[Nym x Zcash entegrasyonu](https://nym.com/blog/zcash-ltgt-nym) hakkında bilgi edinin
+[Nym x Zcash entegrasyonu hakkında bilgi edinin](https://nym.com/blog/zcash-ltgt-nym)

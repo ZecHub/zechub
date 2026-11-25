@@ -1,136 +1,136 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Zcash_Tech/Project_Tachyon.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Edit Page"/>
 </a>
 
 # Project Tachyon
 
 ## Kısaca
 
-- Tachyon, Zcash cüzdanlarının korumalı fonları bulma ve harcama biçimine yönelik, ağın çok büyük kullanıcı sayılarına ulaşmasını sağlamayı amaçlayan önerilmiş bir yeniden tasarımdır
-- Bugün bir cüzdan, kendisine ait ödemeleri keşfetmek için blok zincirinin çok büyük bir kısmını şifresini çözmeye çalışmak zorundadır ve korumalı eşitlemenin yavaş hissettirmesinin temel nedeni budur
-- Tachyon bunu **gizli eşitleme** ile değiştirir; böylece cüzdan, her şeyi taramadan ve sunucuya hangi bölümleri istediğini söylemeden ihtiyaç duyduklarını getirir
-- Ayrıca ödeme ayrıntılarını blok zincirinden çıkarıp ödeme talebinin içine taşır; bu protokolü basitleştirir, ancak sorumluluğu cüzdanlara kaydırır
-- Bu bir öneridir; ilk kez Nisan 2025'te yayımlandı. **NU7'ün parçası değildir** ve **yayınlanmış değildir**; Sapling yükseltmesi ölçeğinde bir mühendislik çalışmasına ihtiyaç duyar
+- Tachyon, Zcash cüzdanlarının korumalı fonları bulup harcama biçimini yeniden tasarlamayı önerir; amaç, ağın çok büyük kullanıcı sayılarına ulaşmasını sağlamaktır
+- Bugün bir cüzdan, hangi ödemelerin kendisine ait olduğunu keşfetmek için blokzincirin büyük bir bölümünün şifresini çözmeye çalışmak zorundadır ve korumalı eşzamanlamanın yavaş hissettirmesinin başlıca nedeni budur
+- Tachyon bunun yerine **gizliliği koruyan eşzamanlama (oblivious synchronization)** yöntemini getirir; böylece cüzdan, her şeyi taramadan ve sunucuya hangi bölümleri istediğini bildirmeden ihtiyaç duyduğu verileri alır
+- Ayrıca ödeme ayrıntılarını blokzincirden çıkarıp ödeme isteğinin içine taşır; bu, protokolü basitleştirirken sorumluluğu cüzdanlara yükler
+- Bu, ilk olarak Nisan 2025'te yayımlanmış bir öneridir. **NU7 parçası değildir** ve **henüz kullanıma sunulmamıştır**; Sapling yükseltmesi ölçeğinde bir mühendislik çalışması gerektirir
 
 <br/>
 
-## Bu kimler için
+## Kimler için
 
-- Korumalı bir cüzdanın eşitlenmesini izleyip neden bu kadar uzun sürdüğünü merak eden herkes
-- Tachyon'un NU7 ve Zcash ölçeklenmesinin yanında anıldığını sürekli gören yeni başlayanlar
-- Önce fikri, sonra kriptografiyi isteyen okuyucular
+- Korumalı bir cüzdanın eşzamanlanmasını izleyip bunun neden bu kadar uzun sürdüğünü merak eden herkes
+- Tachyon terimini NU7 ve Zcash ölçeklendirmesiyle birlikte görüp duran yeni başlayanlar
+- Önce fikri, sonra kriptografiyi öğrenmek isteyen okurlar
 
 <br/>
 
-## Tachyon'un çözdüğü sorun
+## Tachyon'in çözdüğü sorun
 
-Zcash, bir ödemenin kime yönelik olduğunu gizler. Asıl amaç budur ve rahatsız edici bir sorun yaratır: hiç kimse bir ödemenin kime ait olduğunu söyleyemiyorsa, kendi cüzdanınız sizinkini nasıl bulur?
+Zcash bir ödemenin kime yapıldığını gizler. Bütün amaç budur ve bu da çetrefilli bir sorun yaratır: Bir ödemenin kime ait olduğunu kimse anlayamıyorsa, kendi cüzdanınız size ait olanı nasıl bulur?
 
-Bitcoin'de bu kolaydır. Adresler herkese açıktır; bu nedenle bir cüzdan sunucuya "bu adrese ne gönderildi?" diye sorabilir ve yanıt alabilir. Bir Zcash cüzdanı bu soruyu soramaz, çünkü bunu sormak korumalı havuzun gizlemek üzere tasarlandığı şeyi tam olarak açığa çıkarır.
+Bitcoin'de bu kolaydır. Adresler herkese açıktır; dolayısıyla bir cüzdan sunucuya “bu adrese ne gönderildi?” diye sorabilir ve yanıt alabilir. Zcash cüzdanı bu soruyu soramaz; çünkü bunu sorması, korumalı havuzun gizlemek üzere tasarlandığı şeyi tam olarak ortaya çıkarır.
 
-Bu nedenle Zcash farklı bir şey yapar. Gönderen, ödeme ayrıntılarını şifreler ve bunları işlemin içine yerleştirir. Ardından cüzdanınız zincirdeki işlemler üzerinde çalışır ve her birinin şifresini çözmeye çalışır. Neredeyse her deneme başarısız olur. Başarılı olan az sayıdaki deneme sizin ödemelerinizdir. Buna **deneme amaçlı şifre çözme** denir; özeldir, doğrudur ve yavaştır.
+Bu nedenle Zcash farklı bir yöntem kullanır. Gönderen, ödeme ayrıntılarını şifreler ve işlemin içine yerleştirir. Ardından cüzdanınız Zincir üzerindeki işlemleri sırayla inceler ve her birinin şifresini çözmeye çalışır. Denemelerin neredeyse tamamı başarısız olur. Başarılı olan birkaç tanesi sizin ödemelerinizdir. Buna **deneme yoluyla şifre çözme (trial decryption)** denir; yöntem gizlidir, doğrudur ama yavaştır.
 
-![Bugün bir Zcash cüzdanı, kendisine ait az sayıdaki ödemeyi bulmak için her korumalı işlemi indirir ve neredeyse her deneme başarısız olurken her birinin şifresini çözmeye çalışır](/content-images/tachyon-scanning-today.svg)
+![Bugün bir Zcash cüzdanı her korumalı işlemi indirir ve kendisine ait birkaç ödemeyi bulmak için neredeyse her girişim başarısız olacak şekilde her birinin şifresini çözmeye çalışır](/content-images/tachyon-scanning-today.svg)
 
-Sorun, işin neye bağlı olduğudur. Cüzdanınızın harcadığı çaba, gerçekten kaç ödeme aldığınıza değil, zincirin ne kadar büyük olduğuna göre belirlenir. Tek bir ödeme bile almamış biri, günlük ödeme alan biri kadar neredeyse aynı işi yapar. Zcash büyüdükçe bu herkes için kötüleşir. Önerinin ifadesiyle, "basitçe ölçeklenmez."
+Sorun, gereken çalışmanın neye bağlı olduğudur. Cüzdanınızın harcadığı emek, aldığınız ödeme sayısına değil, Zincir'in büyüklüğüne bağlıdır. Hiç ödeme almamış biri, her gün ödeme alan biri kadar iş yapmak zorunda kalır. Zcash büyüdükçe bu durum herkes için kötüleşir. Önerideki ifadeyle, “ölçeklenmesi mümkün değildir.”
 
 <br/>
 
 ## Tachyon neleri değiştiriyor
 
-Tachyon soruna kökünden saldırır: blok zincirini ödeme sırlarının iletim kanalı olarak kullanmayı bırakır.
+Tachyon soruna kökünden yaklaşır: blokzinciri ödeme sırlarını iletmek için kullanmayı bırakır.
 
-Bunun yerine, ihtiyacınız olan ayrıntılar ödeme talebinin kendisiyle birlikte, bant dışından taşınır. Bir ödeme talebi, URI veya QR kodu, eskiden işleme şifrelenmiş olan bilgiyi taşır. Sean Bowe bunu, bir Zcash korumalı protokolünde ilk kez **bant dışı ödemeleri** benimsemek olarak tanımlıyor.
+Bunun yerine ihtiyaç duyduğunuz ayrıntılar, ayrı bir kanaldan doğrudan ödeme isteğiyle birlikte iletilir. Bir ödeme isteği, URI veya QR kodu, eskiden işlemde şifrelenmiş olan bilgileri taşır. Sean Bowe bunu, bir Zcash korumalı protokolünde ilk kez **bant dışı ödemelerin (out-of-band payments)** benimsenmesi olarak tanımlar.
 
-Zincir artık bu bilgiyi taşımadığında, cüzdanınızın onu aramak için de bir nedeni kalmaz ve deneme amaçlı şifre çözme sorunu ortadan kalkar.
+Zincir artık bu bilgileri taşımadığında, cüzdanınızın Zincir'i araması gerekmez ve deneme yoluyla şifre çözme sorunu ortadan kalkar.
 
-Yine de cüzdanınızın harcama yapabilmek için güncel zincir durumunu bilmesi gerekir. Bu tasarımın ikinci yarısı olan **gizli eşitleme**, bir cüzdanın ihtiyaç duyduğu belirli şeyleri, sunucuya hangi şeyleri istediğini açıklamadan getirmesini sağlayan yöntemdir.
+Yine de harcama yapabilmek için cüzdanınızın güncel Zincir durumunu bilmesi gerekir. Tasarımın ikinci yarısı olan **gizliliği koruyan eşzamanlama (oblivious synchronization)** da budur: Cüzdanın, sunucuya hangi verileri istediğini açıklamadan yalnızca ihtiyaç duyduğu belirli verileri almasını sağlayan bir yöntem.
 
-![Tachyon ile gönderen ödeme ayrıntılarını alıcıya bant dışından iletir ve cüzdan tüm zinciri taramak yerine yalnızca ihtiyaç duyduğu verileri almak için gizli eşitlemeyi kullanır](/content-images/tachyon-oblivious-sync.svg)
-
-<br/>
-
-## Bir cüzdan kullanan biri için ne anlama gelir
-
-- **Eşitleme zincirle birlikte büyümeyi bırakır.** Cüzdanınızın güncel duruma ulaşmak için harcadığı süre, Zcash'in boyutu yerine kendi etkinliğinizi takip eder.
-- **Ödemeler birine fatura vermeye daha çok benzer.** Ödeme talebi alıcının ihtiyaç duyduğu şeyi taşır; bu nedenle gönderen ile alıcı arasındaki alışveriş bugün olduğundan daha önemli hâle gelir.
-- **Cüzdanlar daha fazla sorumluluk taşır.** Zincir artık ödeme ayrıntılarınızın şifreli bir kopyasını tutmadığı için, cüzdan verilerinizi kaybetmek daha fazla önem kazanır. Yedekleme ve kurtarma, protokol özelliği olmaktan çıkar ve cüzdan yazılımının doğru yapması gereken bir şey hâline gelir.
-- **Bazı tanıdık parçalar taşınır veya ortadan kalkar.** Tachyon, anahtar çeşitlendirmeyi, görüntüleme anahtarlarını ve ödeme adreslerini çekirdek protokolden çıkararak bunları cüzdan katmanına bırakır. Bu, önerinin en sonuç doğurucu kısımlarından biridir ve üzerinde hâlâ çalışılmaktadır.
+![Tachyon ile gönderen, ödeme ayrıntılarını bant dışı olarak alıcıya iletir; cüzdan tüm zinciri taramak yerine yalnızca ihtiyaç duyduğu verileri almak için gizliliği koruyan eşzamanlama kullanır](/content-images/tachyon-oblivious-sync.svg)
 
 <br/>
 
-## Teknik okuyucular için daha yakından bakış
+## Cüzdan kullananlar için anlamı
 
-Tachyon, Orchard protokolüne tersine uyumlu bir değişiklik olarak tanımlanır. Mevcut Orchard havuzuna yönelik bir yükseltme olarak ya da Zcash'in Ironwood için kullandığı mekanizmayla aynı olan bir [turnstile](https://zechub.wiki/zcash-tech/the-turnstile) üzerinden erişilen ayrı bir korumalı havuz olarak dağıtılabilir. Seçim, tasarımı değil dağıtımı etkiler.
-
-Orchard'dan birçok şeyi korur: RedPallas anahtar yeniden rastgeleleştirme, homomorfik değer taahhütleri ve bağlama imzaları ile bir cihazın harcama yetkisini devretmeden kanıtlama işlemini devretmesini sağlayan bölümlenmiş anahtar yapısı.
-
-Ölçekleme çalışması, **kanıt taşıyan veriye** dayanır; bu, verinin kendi doğruluğuna ilişkin bir kanıtla birlikte taşındığı bir tekniktir, böylece bunu diğer kanıt taşıyan verilerle birleştirmek, bu kanıtları devralan ve genişleten bir sonuç üretir. Büyük miktardaki doğrulanmış çalışmanın küçük ve hızlı kontrol edilebilir bir şeye sıkıştırılmasını sağlayan budur. Zcash'in arkasındaki ekip tarafından keşfedilen Halo, kanıt taşıyan veriyi üzerine inşa edilebilecek kadar pratik hâle getiren şeydir.
-
-Üçüncü unsur **korumalı işlem toplamlarıdır**; bu, korumalı durum değişikliklerinin nasıl iletildiğini değiştirir ve imzalamanın nasıl çalıştığı üzerinde dolaylı etkiler yaratır.
+- **Eşzamanlama artık Zincir büyüdükçe uzamaz.** Cüzdanınızın güncel duruma yetişmesi için harcadığı süre, Zcash boyutundan ziyade kendi etkinliğinizi izler.
+- **Ödeme yapmak birine fatura vermeye daha çok benzer.** Ödeme isteği, alıcının ihtiyaç duyduğu bilgileri taşır; bu nedenle gönderici ile alıcı arasındaki bilgi alışverişi bugünkünden daha önemli hâle gelir.
+- **Cüzdanlara daha fazla sorumluluk düşer.** Zincir, ödeme ayrıntılarınızın şifrelenmiş bir kopyasını artık tutmadığından cüzdan verilerinizi kaybetmeniz daha önemli hâle gelir. Yedekleme ve kurtarma, protokol özelliği olmaktan çıkar ve cüzdan yazılımının doğru şekilde ele alması gereken konulara dönüşür.
+- **Bazı tanıdık bileşenler taşınır veya ortadan kalkar.** Tachyon; anahtar çeşitlendirmeyi, görüntüleme anahtarlarını ve ödeme adreslerini temel protokolün dışına çıkarıp cüzdan katmanına bırakır. Bu, önerinin daha önemli sonuçlar doğurabilecek bölümlerinden biridir ve üzerinde hâlâ çalışılmaktadır.
 
 <br/>
 
-## Çalışmanın durumu
+## Teknik okurlar için daha yakından bakış
 
-Tachyon, **bir öneridir, yayınlanmış bir özellik değildir**. Nisan 2025'te yayımlandı ve Mayıs 2025'te yayımlanan bir takip yazısı fikir birliği etkilerini ele aldı. Ironwood'dan sonraki yükseltme olan NU7 için aday olarak adlandırıldı, ancak 17 Eylül 2026'da üzerinde anlaşmaya varılan NU7 kapsamına dahil değildir: [ZIP 259](https://zips.z.cash/zip-0259), NU7'nin neyi devreye aldığını listeler ve [forum duyurusu](https://forum.zcashcommunity.com/t/nu7-timeline/57655), içinde yeni bir işlem formatının yer almadığını belirtir. Tachyon için henüz bir etkinleştirme tarihi belirlenmemiştir.
+Tachyon, Orchard protokolünde geriye dönük uyumlu bir değişiklik olarak tanımlanır. Mevcut Orchard havuzuna yükseltme olarak veya [turnike](https://zechub.wiki/zcash-tech/the-turnstile) aracılığıyla erişilen ayrı bir korumalı havuz olarak devreye alınabilir; bu, Zcash'in Ironwood için kullandığı mekanizmanın aynısıdır. Seçim tasarımı değil, devreye alma biçimini etkiler.
 
-Yazarın kendi çerçevesine göre bu, spekülatif araştırmadan ziyade uygulanabilir bir plandır; ancak Sapling ile karşılaştırılabilir bir mühendislik çabası gerektirir ve bazı daha zor sorular kasıtlı olarak sonraya bırakılmıştır.
+Orchard'den çeşitli unsurları korur: RedPallas anahtarı için yeniden rastgeleleştirme, homomorfik değer kriptografik taahhütleri ve bağlayıcı imzalar, ayrıca bir aygıtın harcama yetkisini devretmeden kanıt oluşturma yetkisini devretmesini sağlayan bölümlenmiş anahtar yapısı.
 
-İlgili çalışmalar şimdiden görünür durumdadır. Temmuz 2026'da yayımlanan tam düğüm [Zakura](https://zechub.wiki/zcash-tech/zakura-node), Project Tachyon ile Valar Group'un ortak çalışmasıdır ve bu ağ düzeyindeki değişikliklerin bazılarını önceden gösterir. [Özel bilgi erişimi](https://zechub.wiki/zcash-tech/private-information-retrieval) araştırması, aynı tarama darboğazını farklı bir açıdan hedefler.
+Ölçeklendirme çalışması, verilerin kendi doğruluğuna ilişkin bir kanıtla birlikte taşındığı ve bu verilerin başka kanıt taşıyan verilerle birleştirilmesiyle mevcut kanıtları devralıp genişleten bir sonuç elde edildiği **kanıt taşıyan veri (proof-carrying data)** tekniğine dayanır. Bu teknik, büyük miktarda doğrulanmış çalışmanın küçük ve hızlı denetlenebilir bir yapıya sıkıştırılmasını sağlar. Zcash ekibinin keşfettiği Halo, kanıt taşıyan verileri üzerine inşa edilebilecek kadar uygulanabilir kılmıştır.
+
+Üçüncü bileşen, korumalı durum değişikliklerinin nasıl iletildiğini değiştiren ve imzalama işleyişini de etkileyen **korumalı işlem toplamalarıdır (shielded transaction aggregates)**.
+
+<br/>
+
+## Çalışmaların durumu
+
+Tachyon, **kullanıma sunulmuş bir özellik değil, bir öneridir**. Nisan 2025'te yayımlanmış, Mayıs 2025'teki bir takip yazısında ise konsensüs üzerindeki etkileri ele alınmıştır. Ironwood sonrasındaki bir sonraki yükseltme olan NU7 için aday olarak adı geçmiştir; ancak 17 Eylül 2026'da üzerinde uzlaşılan NU7 kapsamına dahil edilmemiştir: [ZIP 259](https://zips.z.cash/zip-0259), NU7'in devreye alacağı değişiklikleri listeler ve [forum duyurusu](https://forum.zcashcommunity.com/t/nu7-timeline/57655), bu yükseltmede yeni bir işlem biçiminin yer almayacağını belirtir. Tachyon için herhangi bir etkinleştirme tarihi belirlenmemiştir.
+
+Yazarın kendi ifadesiyle bu, varsayımsal bir araştırmadan ziyade uygulanabilir bir plandır; ancak bazı daha zor soruları bilerek sonraya bırakan ve Sapling ile karşılaştırılabilir ölçekte mühendislik çalışması gerektiren bir plandır.
+
+İlgili çalışmalar şimdiden görülmeye başlanmıştır. Temmuz 2026'da yayımlanan bir tam düğüm olan [Zakura](https://zechub.wiki/zcash-tech/zakura-node), Project Tachyon ile Valar Group arasında ortak bir çalışmadır ve bu ağ düzeyindeki değişikliklerin bazılarını önceden gösterir. [Özel bilgi erişimi](https://zechub.wiki/zcash-tech/private-information-retrieval) araştırmaları, aynı tarama darboğazını farklı bir açıdan ele alır.
 
 <br/>
 
 ## Yaygın yanlış anlamalar
 
-- **Tachyon aktif değildir.** Bugün hiçbir cüzdan onu kullanmıyor ve hiçbir yükseltme onu etkinleştirmedi.
-- **Tachyon, Ironwood ile aynı değildir.** Ironwood Temmuz 2026'da etkinleştirildi ve Orchard havuzu ile turnstile'ı ele aldı. Tachyon, ölçekleme hakkında ayrı ve daha sonraki bir öneridir.
-- **Tachyon gizlilikte bir azalma değildir.** Amaç, gizliliği hız karşılığında takas etmek değil, ölçekleme maliyetini ortadan kaldırırken defter ayırt edilemezliğini korumaktır.
-- **zk-SNARK doğrulaması hiçbir zaman darboğaz olmadı.** Öneri, yavaş kısmın kanıtları kontrol etme maliyeti değil, cüzdanların durumu nasıl keşfedip koordine ettiği olduğunu açıkça belirtir.
-- **Tachyon, NU7'de yer almıyor.** Bir zamanlar aday olarak adlandırılmıştı, ancak Eylül 2026'da üzerinde anlaşmaya varılan kapsam 25 saniyelik blokları, ücret geri dönüşümünü ve sürüm 4 işlemlerinin sonunu kapsıyor; yeni bir işlem formatı içermiyor ([ZIP 259](https://zips.z.cash/zip-0259)).
+- **Tachyon henüz kullanıma sunulmamıştır.** Bugün hiçbir cüzdan bunu kullanmıyor ve hiçbir yükseltme etkinleştirmedi.
+- **Tachyon, Ironwood ile aynı şey değildir.** Ironwood Temmuz 2026'da etkinleştirilmiş; Orchard havuzunu ve turnikeyi ele almıştır. Tachyon ise ölçeklendirmeye ilişkin ayrı ve daha sonraki bir öneridir.
+- **Tachyon gizliliği azaltmaz.** Amaç, hız karşılığında gizlilikten ödün vermek değil, defterdeki ayırt edilemezliği korurken ölçeklendirme maliyetini ortadan kaldırmaktır.
+- **zk-SNARK doğrulaması hiçbir zaman darboğaz olmadı.** Öneride yavaşlığın, kanıtları denetleme maliyetinden değil, cüzdanların durumu keşfedip eşgüdümlemesinden kaynaklandığı açıkça belirtilir.
+- **Tachyon, NU7 kapsamında değildir.** Bir zamanlar aday olarak adı geçse de Eylül 2026'da üzerinde uzlaşılan kapsam; 25 saniyelik blokları, ücretlerin yeniden dağıtımını ve 4. sürüm işlemlerinin sona ermesini kapsar, ancak yeni bir işlem biçimini içermez ([ZIP 259](https://zips.z.cash/zip-0259)).
 
 <br/>
 
-## Sözlük
+## Terimler sözlüğü
 
 | Terim | Anlamı |
 |---|---|
-| Trial decryption | Size adreslenen işlemleri bulmak için işlemlerin şifresini tek tek çözmeye çalışmak |
-| In-band secret distribution | Zcash'in bugün yaptığı gibi, ödeme sırrını blok zincirindeki işlemin içine yerleştirmek |
-| Out-of-band payment | Ödeme ayrıntılarını zincir üzerinden değil, doğrudan gönderen ile alıcı arasında iletmek |
-| Oblivious synchronization | Bir cüzdanın ihtiyaç duyduğu zincir verisini, hangi verinin talep edildiğini açıklamadan getirmek |
-| Proof-carrying data (PCD) | Kendi doğruluğuna ilişkin bir kanıtla birlikte taşınan, böylece kanıtların birleştirilip sıkıştırılabildiği veri |
-| Shielded transaction aggregate | Tachyon'un korumalı durum değişikliklerini paketleme yöntemi; bunların nasıl iletildiğini ve imzalandığını değiştirir |
+| Trial decryption | Size yöneltilen işlemleri bulmak için işlemlerin şifresini tek tek çözmeye çalışmak |
+| In-band secret distribution | Zcash'in bugün yaptığı gibi, ödeme sırrını blokzincirdeki işlemin içine koymak |
+| Out-of-band payment | Ödeme ayrıntılarını Zincir üzerinden iletmek yerine doğrudan gönderici ile alıcı arasında paylaşmak |
+| Oblivious synchronization | Bir cüzdanın ihtiyaç duyduğu Zincir verilerini, hangi verilerin istendiğini açıklamadan almak |
+| Proof-carrying data (PCD) | Kendi doğruluğuna ilişkin kanıtla birlikte taşınan, böylece kanıtların birleştirilip sıkıştırılabildiği veri |
+| Shielded transaction aggregate | Tachyon'in korumalı durum değişikliklerini paketleme yöntemi; bu değişikliklerin iletilme ve imzalanma biçimini değiştirir |
 | ledger indistinguishability | Korumalı işlemlerin birbirinden ayırt edilememesi özelliği |
 
 <br/>
 
 ## SSS
 
-**Bu, cüzdanımın daha hızlı eşitlenmesini sağlayacak mı?** Amaç budur. Eşitleme süresi, zincirin boyutu yerine kendi etkinliğinizi takip eder. Henüz hiçbir şey yayınlanmadı; dolayısıyla alıntılanacak ölçülmüş bir rakam yok.
+**Bu, cüzdanımın daha hızlı eşzamanlanmasını sağlar mı?** Amaç budur. Eşzamanlama süresi, Zincir'in büyüklüğünden ziyade kendi etkinliğinizi izler. Henüz hiçbir şey kullanıma sunulmadığından aktarılabilecek ölçülmüş bir değer yoktur.
 
-**Şimdi bir şey yapmam gerekiyor mu?** Hayır. Tachyon bir öneridir. Benimsenirse, her zamanki bildirimle birlikte bir ağ yükseltmesi aracılığıyla gelir.
+**Şimdi bir şey yapmam gerekiyor mu?** Hayır. Tachyon bir öneridir. Kabul edilirse, olağan duyurularla birlikte bir ağ yükseltmesi aracılığıyla devreye alınır.
 
-**Görüntüleme anahtarlarının kaldırılması, okuma erişimini paylaşma yeteneğinin kaybedilmesi anlamına mı geliyor?** Öneri, bu yeteneği çekirdek protokolden çıkarıp cüzdan katmanına taşır. Bunun pratikte nasıl görüneceği açık sorulardan biridir.
+**Görüntüleme anahtarlarının kaldırılması, okuma erişimini paylaşma olanağını kaybetmek anlamına mı geliyor?** Öneri, bu olanağı temel protokolün dışına ve cüzdan katmanına taşır. Bunun uygulamada nasıl görüneceği, yanıt bekleyen sorulardan biridir.
 
-**Tachyon yayınlanırsa param risk altında mı olur?** Dağıtım, her ikisi de değerin herkese açık muhasebe kuralları altında hareket etmesi için tasarlanmış Orchard yükseltmesi veya turnstile kullanır. Ironwood sayfası bir turnstile'ın nasıl çalıştığını açıklar.
+**Tachyon kullanıma sunulursa param tehlikeye girer mi?** Devreye alma, bir Orchard yükseltmesi veya turnike aracılığıyla yapılır; ikisi de değerin herkese açık muhasebe kuralları kapsamında taşınmasını sağlayacak şekilde tasarlanmıştır. Ironwood sayfasında turnikenin nasıl çalıştığı açıklanır.
 
 <br/>
 
 ## İlgili sayfalar
 
 - [Özel Bilgi Erişimi](https://zechub.wiki/zcash-tech/private-information-retrieval) - aynı cüzdan tarama darboğazına yönelik başka bir yaklaşım
-- [Zakura Düğümü](https://zechub.wiki/zcash-tech/zakura-node) - kısmen Tachyon'un mühendislik çalışmasıyla oluşturulmuş bir düğüm
+- [Zakura Düğümü](https://zechub.wiki/zcash-tech/zakura-node) - kısmen Tachyon mühendislik çalışmasıyla oluşturulmuş bir düğüm
 - [Ironwood](https://zechub.wiki/zcash-tech/ironwood) - Temmuz 2026'da etkinleştirilen ve sıklıkla Tachyon ile karıştırılan yükseltme
-- [The Turnstile](https://zechub.wiki/zcash-tech/the-turnstile) - Tachyon kendi havuzu olarak dağıtılırsa kullanabileceği mekanizma
-- [Kuantum Sonrası Güvenlik](https://zechub.wiki/zcash-tech/post-quantum-security) - Tachyon'un daha uzun vadeli protokol çalışmalarıyla birlikte konumlandığı yer
-- [Zcash Nasıl Organize Edilir](https://zechub.wiki/start-here/how-zcash-is-organized) - bu çalışmayı kimin yaptığı ve ekosistemin nasıl bir araya geldiği
+- [Turnike](https://zechub.wiki/zcash-tech/the-turnstile) - Tachyon kendi havuzu olarak devreye alınırsa kullanabileceği mekanizma
+- [Kuantum Sonrası Güvenlik](https://zechub.wiki/zcash-tech/post-quantum-security) - Tachyon'in uzun vadeli protokol çalışmaları arasındaki yeri
+- [Zcash Nasıl Düzenleniyor](https://zechub.wiki/start-here/how-zcash-is-organized) - bu çalışmayı kimin yürüttüğü ve ekosistemin nasıl bir araya geldiği
 
 <br/>
 
 ## Kaynaklar
 
-- [Tachyon: Gizli Eşitleme ile Zcash'i Ölçeklendirmek](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 Nisan 2025, özgün öneri
-- [Uzaktan Tachyaction](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 Mayıs 2025, fikir birliği ve protokol etkileri; protokol geliştiricileri için yazılmıştır
-- [Sean Bowe'un blogu](https://seanbowe.com/blog/) - Tachyon serisinin yayımlandığı yer
+- [Tachyon: Farkında Olmadan Eşzamanlamayla Zcash Ölçeklendirme](https://seanbowe.com/blog/tachyon-scaling-zcash-oblivious-synchronization/) - Sean Bowe, 2 Nisan 2025; özgün öneri
+- [Uzaktan Takyon Etkisi](https://seanbowe.com/blog/tachyaction-at-a-distance/) - Sean Bowe, 15 Mayıs 2025; konsensüs ve protokol etkileri, protokol geliştiricileri için yazılmıştır
+- [Sean Bowe'in blogu](https://seanbowe.com/blog/) - Tachyon dizisinin yayımlandığı yer
 - [tachyon.z.cash](https://tachyon.z.cash/) - proje sitesi

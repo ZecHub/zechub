@@ -1,103 +1,103 @@
 <a href="https://github.com/zechub/zechub/edit/main/site/Privacy_Tools/Tor_and_I2P.md" target="_blank">
-  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı Düzenle"/>
+  <img src="https://img.shields.io/badge/Edit-blue" alt="Sayfayı düzenle"/>
 </a>
 
 
-# Gizlilik Neden Önemlidir
+# Gizlilik Neden Önemlidir?
 
-## Kısaca
+## Özet
 
-- **Tor** trafiğinizi üç aktarıcı üzerinden yönlendirir ve hem normal web hem de onion hizmetleri için çalışır — bugün cüzdan bağlantılarını ve gezinmeyi anonimleştirmek için pratik varsayılandır
-- **I2P**, kendi dahili hizmetleri için tasarlanmış, tamamen şifrelenmiş eşler arası bir örtü ağdır; **mevcut hiçbir Zcash düğüm I2P'yi yerel olarak desteklemez**
-- **Mobilde:** Bir Zcash cüzdanı, Orbot ("Tor Etkin Uygulamalar") ile birkaç dokunuşta Tor üzerinden yönlendirin
-- **Şu anda bir Zcash düğümünü Tor üzerinden çalıştırmak mümkün değildir:** `zcashd` 18 Temmuz 2026'da destek sonuna ulaştı ve Zebra'ın Tor özelliği hâlâ ana kaynakta devre dışı
-- Tor *nerede olduğunuzu* gizler, *zincir üzerinde ne yaptığınızı* değil — şeffaf işlemler herkese açık kalır
+- **Tor**, trafiğinizi üç aktarıcı üzerinden yönlendirir ve hem normal web’de hem de onion hizmetlerinde çalışır — günümüzde cüzdan bağlantılarını ve gezinme etkinliğini anonimleştirmek için en kullanışlı varsayılan seçenektir
+- **I2P**, kendi dahili hizmetleri için tasarlanmış, tamamen şifrelenmiş bir eşler arası yer paylaşım ağıdır; **güncel hiçbir Zcash düğümü I2P’yi yerel olarak desteklemez**
+- **Mobilde:** Bir Zcash cüzdanını Orbot ile birkaç dokunuşta Tor üzerinden yönlendirin (“Tor Etkin Uygulamalar”)
+- **Şu anda Zcash düğümünü Tor üzerinden çalıştırmak mümkün değil:** `zcashd`, 18 Temmuz 2026’da destek süresinin sonuna ulaştı ve Zebra'ın Tor özelliği upstream depoda hâlâ devre dışı
+- Tor *nerede olduğunuzu* gizler, *zincir üstünde ne yaptığınızı* değil — şeffaf işlemler herkese açık kalır
 
-Dijital çağda, [gizliliğinizi](https://www.privacyguides.org/en/) korumak giderek daha hayati hale geldi. Bazıları gizliliği kaybedilmiş bir dava olarak görebilir, ancak öyle değildir. Gizliliğiniz risk altındadır ve endişe konusu olmalıdır. Gizlilik, güç ile ilişkili olduğu için önemli bir değere sahiptir ve bu gücün sorumlu bir şekilde kullanılmasını sağlamak kritik önemdedir.
+Dijital çağda [gizliliğinizi](https://www.privacyguides.org/en/) korumak giderek daha önemli hâle geldi. Bazıları gizliliği kaybedilmiş bir dava olarak görse de öyle değildir. Gizliliğiniz tehlikededir ve önemsenmesi gerekir. Gizlilik, güçle ilişkili olduğu için büyük değer taşır; bu gücün sorumlu biçimde kullanılmasını sağlamak çok önemlidir.
 
 ## Tor ve I2P Teknolojileri
 
 ## Tor
 
-[Tor](https://www.privacyguides.org/en/tor/?h=tor), uygulamalar için bağlantılar kurmak üzere Tor ağını kullanan bir proxy aracıdır. Tor, trafiği Tor üzerinden yönlendirerek bunu gerçekleştirir ve böylece bu uygulamalar için [gizliliği ve anonimliğini](https://www.torproject.org/) artırır.
+[Tor](https://www.privacyguides.org/en/tor/?h=tor), uygulamalar için bağlantı kurmak üzere Tor ağını kullanan bir vekil araçtır. Tor, uygulamaların trafiğini Tor üzerinden yönlendirerek [gizlilik ve anonimliği](https://www.torproject.org/) artırır.
 
 ## I2P Ağı
 
-[I2P](https://geti2p.net/en/about/intro) ağı, yani Invisible Internet Project, tamamen şifrelenmiş eşler arası bir örtü ağıdır. Mesajların içeriğinin, kaynağının ve hedefinin gözlemcilerden gizlenmesini sağlar. Başka bir deyişle, hiç kimse trafiğin kaynağını veya hedefini ya da iletilen mesajların gerçek içeriğini göremez. I2P'de kullanılan şifreleme, kullanıcıları için yüksek düzeyde gizlilik ve anonimlik sağlar.
+[Görünmez İnternet Projesi](https://geti2p.net/en/about/intro) olarak da bilinen I2P ağı, tamamen şifrelenmiş bir eşler arası yer paylaşım ağıdır. İletilerin içeriğinin, kaynağının ve hedefinin gözlemcilerden gizlenmesini sağlar. Başka bir deyişle, hiç kimse trafiğin kaynağını veya hedefini ya da iletilen mesajların gerçek içeriğini göremez. I2P’de kullanılan şifreleme, kullanıcıları için yüksek düzeyde gizlilik ve anonimlik sağlar.
 
-### I2P Kurulumu
+### I2P’yi yükleme
 
-İki uygulaması vardır. Orijinal [Java I2P](https://geti2p.net/en/download), Windows, macOS, Linux ve Android üzerinde çalışır. C++ ile yazılmış olan [i2pd](https://i2pd.website/), daha hafiftir ve sunucularda ya da düşük güçlü makinelerde genellikle tercih edilen seçenektir.
+İki uygulama vardır. Özgün [Java I2P](https://geti2p.net/en/download), Windows, macOS, Linux ve Android üzerinde çalışır. C++ ile yazılmış [i2pd](https://i2pd.website/) daha hafiftir ve sunucularda veya düşük güçlü makinelerde genellikle tercih edilir.
 
-Çalışmaya başladığında, I2P `127.0.0.1:7657` üzerinde yerel bir konsol ve `127.0.0.1:4444` (HTTP) ile `127.0.0.1:4447` (SOCKS) üzerinde proxy'ler sunar. İlk başlatmada bunun birkaç dakika sürmesini bekleyin: I2P'nin herhangi bir şey çalışmadan önce ağ üzerinden tüneller oluşturması gerekir ve çevrimiçi kaldığı süre uzadıkça daha hızlı hale gelir.
+Çalışmaya başladıktan sonra I2P, `127.0.0.1:7657` adresinde yerel bir konsol ve `127.0.0.1:4444` (HTTP) ile `127.0.0.1:4447` (SOCKS) adreslerinde vekil sunucular sağlar. İlk başlatmada birkaç dakika sürmesini bekleyin: I2P’nin herhangi bir şey çalışmadan önce ağ üzerinden tüneller kurması gerekir. Çevrimiçi kaldıkça da hızlanır.
 
-### I2P'yi Zcash ile Kullanmak
+### I2P’yi Zcash ile kullanma
 
-Şunu bilin ki **mevcut hiçbir Zcash düğümü yerel olarak I2P konuşmaz.** Zebra'da I2P desteği yoktur ve zcashd'de de yoktu. Bir Zcash düğümünü I2P üzerinden çalıştırdığını iddia eden bir rehber görürseniz, bu yazılımın yapmadığı bir şeyi anlatıyordur.
+Şunu unutmayın: **Güncel hiçbir Zcash düğümü I2P’yi yerel olarak desteklemez.** Zebra I2P desteğine sahip değildir; zcashd de sahip değildi. I2P üzerinden bir Zcash düğümünün çalıştırılmasını anlattığını iddia eden bir kılavuz görürseniz, yazılımın yapmadığı bir şeyi tarif ediyordur.
 
-I2P'nin burada gerçekten faydalı olduğu alan, cüzdanın etrafındaki her şeydir: bir siteye, foruma veya hizmete adresinizi açığa çıkarmadan erişmek. Cüzdan bağlantısının kendisini anonimleştirmek için bugün pratik seçenek Tor'dur ve aşağıdaki bölümlerde bu anlatılmaktadır.
+Burada I2P’nin gerçekten yararlı olduğu alan, cüzdanla ilgili her şeydir: adresinizi açığa çıkarmadan bir siteye, foruma veya hizmete ulaşmak. Cüzdan bağlantısını anonimleştirmek için günümüzde kullanışlı seçenek Tor’dır; aşağıdaki bölümlerde bu konu ele alınmaktadır.
 
-## Tor ve I2P ortak özellikler paylaşır, ancak önemli farkları da vardır. 
+## Tor ve I2P ortak özelliklere sahip olsa da önemli farklılıkları da vardır.
 
-Tor ve I2P'nin her ikisi de merkeziyetsiz ve anonim eşler arası ağlardır, ancak I2P Tor'a kıyasla daha yüksek güvenlik seviyeleri sunar. Bununla birlikte, I2P öncelikle kendi ağı içinde e-posta, sohbet ve torrent gibi hizmetlere erişmek için tasarlanmıştır ve normal internete erişmek için kullanılamaz. Öte yandan Tor, kullanıcıların I2P gibi deep web'e erişmesine olanak tanır, ancak aynı zamanda surface web üzerindeki web sitelerine erişmek için normal bir tarayıcı olarak da işlev görür.
+Hem Tor hem de I2P merkeziyetsiz ve anonim eşler arası ağlardır; ancak I2P, Tor'e kıyasla daha yüksek güvenlik düzeyleri sunar. Bununla birlikte I2P, öncelikle kendi ağı içindeki e-posta, sohbet ve torrent gibi hizmetlere erişmek için tasarlanmıştır ve normal internete erişmek için kullanılamaz. Öte yandan Tor, kullanıcıların tıpkı I2P’de olduğu gibi derin ağa erişmesini sağlar; ayrıca açık web’deki sitelere erişmek için normal bir tarayıcı işlevi de görür.
 
-*Not: Tor ve I2P'nin benzerlikleri ve farklılıkları hakkında daha fazla bilgi için [burayı](https://geti2p.net/en/comparison/tor) ziyaret edin*
+*Not: Tor ve I2P arasındaki benzerlikler ve farklılıklar hakkında daha fazla bilgi için [burayı](https://geti2p.net/en/comparison/tor) ziyaret edin.*
 
-## Orbot ile mobil bir cüzdanı Tor üzerinden yönlendirme
+## Tor üzerinden mobil cüzdan trafiğini Orbot ile yönlendirme
 
-Orbot, akıllı telefonlar için tasarlanmış, cihazınızdaki tüm uygulamalardan gelen trafiği Tor ağı üzerinden yönlendiren ücretsiz bir sanal özel ağdır (VPN).
+Orbot, cihazınızdaki tüm uygulamaların trafiğini Tor ağı üzerinden yönlendiren, akıllı telefonlar için ücretsiz bir sanal özel ağdır (VPN).
 
-Bir Zcash cüzdanını Tor üzerinden yönlendirmek için şu talimatları izleyin. Bu rehberin önceki sürümlerinde kullanılan YWallet artık bakım almıyor ve Ironwood sonrasında ağı takip etmeyecek, bu yüzden [Wallets](/using-zcash/wallets) sayfasından bakım alan bir cüzdan seçin.
+Bir Zcash cüzdanını Tor üzerinden yönlendirmek için şu talimatları izleyin. Bu kılavuzun önceki sürümlerinde kullanılan YWallet artık güncellenmiyor ve Ironwood sonrasında ağı takip etmeyecek; bu nedenle [Cüzdanlar](/using-zcash/wallets) sayfasından güncel tutulan bir cüzdan seçin.
 
-1.  Uygulama mağazasından *Orbot*'u indirin ve kurun.
+1. Uygulama mağazasından *Orbot* uygulamasını indirin ve yükleyin.
 
-2.  Kurulumdan sonra bir karşılama mesajı görünecektir. *Orbot* ana sayfasına gidin ve *'Tor Enabled Apps'.* seçeneğine tıklayın.
+2. Yükleme tamamlandıktan sonra bir karşılama mesajı görünür. *Orbot* ana sayfasına geçin ve *“Tor Etkin Uygulamalar”* seçeneğine dokunun.
 
-3. Ekranda Tor ile uyumlu uygulamaları gösteren bir sayfa açılacaktır. Listede Zcash cüzdanınızı bulun ve seçili olduğundan emin olun.
+3. Ekranda Tor ile uyumlu uygulamaları gösteren bir sayfa açılır. Listeden Zcash cüzdanınızı bulun ve seçili olduğundan emin olun.
 
-4. Bir VPN kurmak için bir bağlantı isteği görünecektir; bu, *Orbot*'un ağ trafiğini izlemesine olanak tanıyacaktır. Bu izin onaylandıktan sonra *Orbot* başlatılacaktır. 
+4. VPN kurmak için bir bağlantı isteği görünür ve bu, *Orbot* uygulamasının ağ trafiğini izlemesine olanak tanır. Bu izin verildikten sonra *Orbot* başlatılır.
 
-5. Tor uygulamasının çalıştığını doğrulamak için görev çubuğunu veya Orbot ana sayfasını kontrol edin; 'Tor ağına bağlandı' ifadesini gördüğünüzde bu doğrulanır.
+5. Orbot ana sayfasını veya görev çubuğunu kontrol ederek Tor uygulamasının çalıştığını doğrulayın. “Tor ağına bağlandı” mesajını gördüğünüzde bağlantı kurulmuş demektir.
 
-*Not: Tor mobil ağınız tarafından engelleniyorsa, bağlanmak için alternatif bir yol olarak bir Bridge Server kullanabilirsiniz.*
+*Not: Tor mobil ağınız tarafından engelleniyorsa bağlantı kurmak için alternatif olarak bir Köprü Sunucusu kullanabilirsiniz.*
 
 
-## PC veya masaüstünde Tor kurulumu
+## Tor’ı bilgisayara veya masaüstüne yükleme
 
-* Tor Browser resmi web sitesinden indirilebilir, bağlantıya [buradan](https://download.torproject.org/) erişebilirsiniz.
+* Tor tarayıcısı resmî web sitesinden indirilebilir; bağlantıya [buradan](https://download.torproject.org/) erişebilirsiniz.
 
- Tor kurmanın en uygun yolu Tor Browser Bundle üzerinden yapmaktır. Başsız kurulumları tercih ediyorsanız, Tor daemon'unu ayrı olarak kurmayı seçebilirsiniz. 
+ Tor’ı yüklemenin en kolay yolu Tor Tarayıcı Paketini kullanmaktır. Başsız kurulumları tercih ediyorsanız Tor arka plan hizmetini ayrıca yükleyebilirsiniz.
 
-*Not: Varsayılan olarak, Tor Browser paketi tcp/9150 üzerinde bir SOCKS dinleyicisi sunar ve Tor daemon tcp/9050 üzerinde SOCKS dinleyicisini sunar.*
+*Not: Varsayılan olarak Tor Tarayıcı Paketi tcp/9150 üzerinde bir SOCKS dinleyicisi, Tor arka plan hizmeti ise tcp/9050 üzerinde bir SOCKS dinleyicisi sağlar.*
 
-* Tor Project tarafından sağlanan, işletim sisteminize özel kurulum [talimatlarına](https://support.torproject.org/little-t-tor/getting-started/installing/) bakın.
+* Tor Projesi tarafından sağlanan, işletim sisteminize özgü yükleme [talimatlarına](https://support.torproject.org/little-t-tor/getting-started/installing/) bakın.
 
-## Bir düğümü Tor üzerinden çalıştırmak
+## Tor üzerinden düğüm çalıştırma
 
-En çok değişen kısım burasıdır ve dürüst cevap, bunun şu anda eskisine göre daha zor olduğudur.
+En çok değişen bölüm burası ve dürüst yanıt şu: Şu anda bunu yapmak eskisinden daha zor.
 
-**zcashd artık yok.** Destek süresinin sonuna ulaştı ve 18 Temmuz 2026'da 3,417,100. blokta durdu. Yeniden başlamayacak, indirme sayfası 404 döndürüyor ve apt deposu artık sunulmuyor. Size `zcashd -proxy=127.0.0.1:9050` çalıştırmanızı söyleyen herhangi bir talimat artık hiçbir şey için geçerli değildir.
+**zcashd artık yok.** Destek süresi sona erdi ve 18 Temmuz 2026’da 3.417.100. blokta durdu. Yeniden başlatılmayacak; indirme sayfası 404 hatası veriyor ve apt deposu artık sunulmuyor. `zcashd -proxy=127.0.0.1:9050`’ı çalıştırmanızı söyleyen talimatlar artık hiçbir şey için geçerli değil.
 
-**Zebra da bunu henüz yapamıyor.** Zebra bakım alan düğümdür ve ağ crate'i Tor için yalıtılmış bağlantı kodu içerir, ancak özellik `zebra-network/Cargo.toml` içinde yorum satırına alınmıştır:
+**Zebra da henüz bunu yapamıyor.** Zebra, bakımı sürdürülen düğümdür ve ağ crate’i Tor için yalıtılmış bağlantı kodu içerir; ancak bu özellik `zebra-network/Cargo.toml` içinde yorum satırına alınmıştır:
 
 ```
 # tor = ["arti-client", "tor-rtcompat"]
 ```
 
-Crate dokümantasyonu da aynı şeyi açıkça söylüyor: *"`arti-client` bağımlılığı olan `x25519-dalek v1.2.0` güncellenene kadar Tor bağlantıları şu anda devre dışı bırakılmıştır."* `connect_isolated_tor` fonksiyonu da bununla birlikte yorum satırına alınmıştır. Dolayısıyla bugün bir Zcash düğümünü Tor üzerinden çalıştırmanın desteklenen bir yolu yoktur.
+Crate belgeleri de bunu açıkça söylüyor: *“Tor bağlantıları, `arti-client` bağımlılığı `x25519-dalek v1.2.0` güncellenene kadar şu anda devre dışıdır.”* `connect_isolated_tor` işlevi de aynı şekilde yorum satırına alınmıştır. Dolayısıyla bugün bir Zcash düğümünü Tor üzerinden çalıştırmanın desteklenen bir yolu yoktur.
 
-Şu anda düğüm düzeyinde anonimlik gerekiyorsa, işe yarayan yaklaşım düğümün kendisini yapılandırmak yerine tüm makineyi işletim sistemi düzeyinde Tor veya bir VPN arkasına koymaktır. Bu, oluşturulmamış düğüm özelliklerine dayanmak zorunda kalmadan ağ konumunuzu korur.
+Şu anda düğüm düzeyinde anonimlik istiyorsanız, uygulanabilir yöntem düğümün kendisini yapılandırmak yerine tüm makineyi işletim sistemi düzeyinde Tor veya bir VPN arkasına almaktır. Bu, henüz yazılıma eklenmemiş düğüm özelliklerine bağlı kalmadan ağ konumunuzu korur.
 
 ### Bugün hâlâ yapabilecekleriniz
 
-- **Mobilde cüzdanınızı Tor üzerinden yönlendirin**; yukarıda açıklandığı gibi Orbot ile. Bu, çoğu insan için pratik seçenektir ve cüzdanınızın konuştuğu lightwalletd sunucusundan IP adresinizi gizler
-- **Tor Browser kullanın**; block explorer'lar, forumlar ve adresinizle ilişkilendirilmek istemeyeceğiniz diğer her şey için
-- **Tor'un neyi gizlemediğini unutmayın.** Ağ konumunuzu anonimleştirir, zincir üstü etkinliğinizi değil. Şeffaf bir adresten gönderim yapmak hâlâ herkese açıktır ve korumalı havuzlar arasında geçen değer hâlâ miktarı yayımlar. Görünür kalanlar için [Shielded Pools](/using-zcash/shielded-pools) sayfasına bakın
+- **Yukarıda açıklandığı gibi, mobil cihazınızda Orbot ile cüzdanınızı Tor üzerinden yönlendirin.** Bu, çoğu kişi için en kullanışlı seçenektir ve cüzdanınızın iletişim kurduğu lightwalletd sunucusundan IP adresinizi gizler
+- **Blok gezginleri, forumlar ve adresinizle ilişkilendirilmek istemediğiniz diğer içerikler için Tor Tarayıcısını kullanın**
+- **Tor uygulamasının neleri gizlemediğini unutmayın.** Ağ konumunuzu anonimleştirir, zincir üstü etkinliğinizi değil. Şeffaf bir adresten gönderim yapmak herkese açık olmaya devam eder ve korumalı havuzlar arasında aktarılan değer miktarı yayımlar. Görünür kalmaya devam eden bilgiler için [Korumalı Havuzlar](/using-zcash/shielded-pools) sayfasına bakın
 
 ## İlgili sayfalar
 
 - [VPN ve DVPN](VPN_and_DVPN.md) — VPN alternatifleri ve karşılaştırmaları
-- [Web Tarayıcıları](Web_Browsers.md) — günlük gizlilik için tarayıcı güçlendirmesi
-- [Güvenli Mesajlaşma Uygulamaları](Secure_Messengers.md) — özel iletişim araçları
-- [Bir Blok Gezgini Neleri Görebilir](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — düğüm düzeyindeki gizliliğinizin koruduğu ve korumadığı şeyler
-- [Korumalı Havuzlar](/using-zcash/shielded-pools) — ağ katmanı anonimliğiyle bile zincir üzerinde görünür kalanlar
+- [Web Tarayıcıları](Web_Browsers.md) — gündelik gizlilik için tarayıcı güvenliğini artırma
+- [Güvenli Mesajlaşma Uygulamaları](Secure_Messengers.md) — gizli iletişim araçları
+- [Bir Blok Gezgini Neleri Görebilir?](../Zcash_Tech/What_a_Block_Explorer_Can_See.md) — düğüm düzeyindeki gizliliğin neleri koruyup neleri korumadığı
+- [Korumalı Havuzlar](/using-zcash/shielded-pools) — ağ katmanındaki anonimlik kullanılsa bile zincir üstünde görünür kalanlar

@@ -9,26 +9,26 @@
 
 # Zcash Topluluk Danışma Paneli 
 
-Zcash Topluluk Danışma Paneli ya da ZCAP, Zcash Topluluğu üyelerinden oluşan bir paneldir. Zcash Foundation'ın söz konusu topluluğu ilgilendiren veya etkileyen bir karar alması gerektiğinde, topluluğu sürece dahil etmek ve onların danışma niteliğindeki görüşlerini almak amacıyla kurulmuştur. 2018'deki kuruluşundan bu yana panel, Zcash Foundation için birçok önemli kararda izlenecek yönün belirlenmesine yardımcı olmuştur. Bunlardan bazıları şunlardır:
+Zcash Topluluk Danışma Paneli veya ZCAP, Zcash Topluluğu üyelerinden oluşan bir paneldir. Topluluğu sürece dahil etmek ve Zcash Foundation topluluğu ilgilendiren veya etkileyen bir karar alması gerektiğinde topluluğun danışma görüşlerini almak amacıyla kurulmuştur. Panel, 2018'deki kuruluşundan bu yana Zcash Foundation için önemli birçok kararda izlenecek yolu belirlemeye yardımcı olmuştur. Bunlardan bazıları şunlardır:
 
-[Zcash Ticari Markası](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Bu oylama, Zcash Foundation'ın Zcash ticari markasının sahipliği ve kontrolünü paylaşmak için Electric Coin Company (ECC) ile yasal bir anlaşma yapmayı sürdürüp sürdürmemesi hakkında idi
+[Zcash Markası](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Bu oylama, Zcash Foundation'ın Electric Coin Company (ECC) ile Zcash markasının mülkiyetini ve kontrolünü paylaşmak üzere yasal bir anlaşma yapmayı isteyip istemediği hakkındaydı.
 
-[Para Politikası](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Bu oylama, Zcash Foundation'ın ihraç oranı, yarılanma takvimi veya enflasyon oranı gibi Zcash para politikasındaki herhangi bir değişikliği savunup savunmaması hakkında idi
+[Parasal Politika](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/monetary-policy.md): Bu oylama, Zcash Foundation'ın Zcash para politikasında ihraç oranı, yarılanma takvimi veya enflasyon oranı gibi değişiklikleri savunup savunmaması hakkındaydı.
 
-[ASIC Direnci](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/asicresistance_ballot.md): Bu oylama, Zcash Foundation'ın ASIC direncini Zcash ağı için bir değer ve hedef olarak önceliklendirmesi gerekip gerekmediği hakkında idi
+[ASIC Direnci](https://github.com/ZcashFoundation/Elections/blob/master/2018-Q2/General-Measures/asicresistance_ballot.md): Bu oylama, Zcash Foundation'ın Zcash ağında bir değer ve hedef olarak ASIC direncine öncelik verip vermemesi hakkındaydı.
 
-[Zcash Topluluk Hibeleri Komitesi Seçimi](https://zfnd.org/zcg-election-june-2023/): Bu oylama, Zcash ile ilgili projeler için hibe başvurularını incelemek ve finanse etmekten sorumlu olan Zcash Community Grants (ZCG) komitesine iki üye seçilmesi hakkında idi
+[Zcash Community Grants Komitesi Seçimi](https://zfnd.org/zcg-election-june-2023/): Bu oylama, Zcash ile ilgili projelerin hibe tekliflerini incelemek ve finanse etmekten sorumlu olan Zcash Community Grants (ZCG) komitesinin iki üyesini seçmek hakkındaydı.
 
-[Zcash Küçük Hibeler Programı](https://zfnd.org/launching-the-zcash-minor-grants-program/): Bu oylama, Zcash Foundation'dan fon talep eden küçük ölçekli Zcash projeleri için yapılan hibe başvurularının onaylanması veya reddedilmesi hakkında idi
+[Zcash Küçük Hibeler Programı](https://zfnd.org/launching-the-zcash-minor-grants-program/): Bu oylama, Zcash Foundation'ndan finansman başvurusunda bulunan küçük ölçekli Zcash projelerinin hibe başvurularını onaylamak veya reddetmek hakkındaydı.
 
-[Zcash Shielded Assets'in benimsenmesi ve geliştirilmesi](https://vote.heliosvoting.org/helios/elections/5dd57b92-01ed-11ec-a0a8-ae3066fac55d/view); bu, varsayılan olarak gizli olan Zcash ekosistemi içinde genel DeFi varlıklarının kullanılmasını mümkün kılar.
+[Zcash ekosistemi içinde DeFi genel varlıklarının varsayılan olarak gizli kullanımını mümkün kılan Zcash korumalı varlıklarının benimsenmesi ve geliştirilmesi](https://vote.heliosvoting.org/helios/elections/5dd57b92-01ed-11ec-a0a8-ae3066fac55d/view).
 
 [Zcash Foundation Yönetim Kurulu üyelerinin seçimi](https://vote.heliosvoting.org/helios/elections/960b8832-60f9-11ed-b96e-ee6991044d9e/view)
 
 
-ZCAP'in arkasındaki fikir, farklı milletlerden, rollere ve görüşlere sahip çeşitli bir topluluk üyeleri grubundan oluşmasıdır; böylece açık ve çeşitli bir ağı sürdürürken, Zcash kullanıcılarının ve paydaşlarının sesini ve çıkarlarını temsil etme hedefine bağlı kalması garanti altına alınır.
+ZCAP'ın ardındaki fikir, Zcash kullanıcılarının ve paydaşlarının sesini ve çıkarlarını temsil etme hedefine bağlı kalmasını ve aynı zamanda açık ve çeşitli bir ağı sürdürmesini sağlamak için farklı uyruklara, rollere ve görüşlere sahip çeşitli topluluk üyelerinden oluşmasıdır.
 
-Ekim 2023 itibarıyla ZCAP, [188 üyeden](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0) oluşmaktadır ve sık sık genişletilmektedir. Ayrıca, Zcash Foundation "Zcash topluluğu üyeleri tarafından önerilen kriterler de dahil olmak üzere ZCAP üyeliği için uygunluk kriterlerini genişletmiştir".
+Ekim 2023 itibarıyla ZCAP, [188 üyeden](https://docs.google.com/spreadsheets/d/1Y-GbVFA1csIgPbvHOR-1ruOlh7YdA-CHvMtd6R8iSdY/edit#gid=0) oluşmaktadır ve düzenli olarak genişlemektedir. Ayrıca Zcash Foundation, “Zcash topluluğu üyelerinin önerdiği ölçütleri de dahil ederek ZCAP üyeliği için uygunluk ölçütlerini genişletmiştir”.
 
 ## Öne Çıkan Üyeler
 - Ian Miers

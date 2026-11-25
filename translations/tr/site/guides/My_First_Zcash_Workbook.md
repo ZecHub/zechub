@@ -4,13 +4,13 @@
 
 ## Giriş
 
-*İlk Zcash*, yeni öğrenenlerin, özellikle gençlerin ve kriptoya yeni başlayanların Zcash, finansal gizlilik, dijital para ve bu teknolojinin arkasındaki sistemlerin temellerini anlamasına yardımcı olmak için hazırlanmış eğitsel bir çalışma kitabıdır. Dünya genelindeki Zcash topluluğunun dört bir yanından gelen, yazılım geliştirme, tasarım, araştırma, eğitim ve gizlilik savunuculuğunu bir araya getiren çeşitli ve tutkulu bir katkıcı grubu tarafından geliştirilmiştir.
+*İlk Zcash*; özellikle gençlerin ve kriptoya yeni başlayanların Zcash, finansal gizlilik, dijital para ve bu teknolojinin arkasındaki sistemlerin temellerini anlamalarına yardımcı olmak için hazırlanmış eğitici bir çalışma kitabıdır. Yazılım geliştirme, tasarım, araştırma, eğitim ve gizlilik savunuculuğu alanlarını bir araya getiren, dünyanın dört bir yanındaki küresel Zcash topluluğundan çeşitli ve tutkulu katkı sağlayıcılar tarafından geliştirilmiştir.
 
-Bu rehber, çalışma kitabının temel öğrenme akışına genel bir bakış sunar ve dokuz ana bölüme ayrılır. Kitabın kendisinin yerine geçmez; aksine, eğitsel akışı özetleyen ve eğitmenler, öğrenciler ve topluluk eğitimcileri için önemli bilgileri öne çıkaran tamamlayıcı bir kaynaktır.
+Bu rehber, çalışma kitabının temel öğrenme akışına genel bir bakış sunar ve bu akışı 9 ana bölüme ayırır. Kitabın kendisinin yerini tutmaz; bunun yerine, eğitim akışını özetleyen ve eğitmenler, öğrenciler ve topluluk eğitimcileri için önemli bilgileri öne çıkaran tamamlayıcı bir kaynaktır.
 
 Çalışma kitabı PDF olarak ücretsiz indirilebilir:
 
-[Taslak](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
+[İçindekiler](https://drive.google.com/file/d/1eYWLgvAAHzCpr2b7bZ494FTZAtHqmtRk/view)
 
 [GitHub Deposu](https://github.com/massadoptionorg/My-First-Zcash) 
 
@@ -20,18 +20,18 @@ Bu rehber, çalışma kitabının temel öğrenme akışına genel bir bakış s
 
 ## 1. Zcash Nedir?
 
-Bu ilk bölüm, okurları dijital nakit fikriyle ve modern dijital toplumda gizliliğin neden önemli olduğu ile tanıştırır. Geleneksel finansal sistemleri şeffaf blokzincirlerle karşılaştırır ve çoğu kamuya açık defterin kullanıcı etkinliğini nasıl ortaya çıkardığını vurgular. Zcash, kullanıcıların kişisel finansal bilgilerini açığa çıkarmadan güvenli şekilde alışveriş yapmasına olanak tanıyan, gizliliği koruyan alternatif bir dijital para olarak tanımlanır.
+Bu ilk bölüm, okurlara dijital nakit kavramını ve modern dijital toplumda gizliliğin neden önemli olduğunu tanıtır. Geleneksel finans sistemlerini şeffaf blokzincirlerle karşılaştırarak çoğu herkese açık defterin kullanıcıların faaliyetlerini nasıl ortaya çıkardığını vurgular. Zcash, kullanıcıların kişisel finansal bilgilerini açığa çıkarmadan güvenli biçimde işlem yapmalarına imkân veren, gizliliği koruyan alternatif bir dijital para olarak tanımlanır.
 
- Çalışma kitabı, gizliliğin yanlış davranışları saklamakla değil, sıradan insanları gereksiz ifşa, gözetim ve veri sömürüsünden korumakla ilgili olduğunu vurgular. Öğrenciler, Zcash'in insanlara finansal yaşamları üzerinde gerçek kontrol sağlamak için nasıl yaratıldığını ve sıradan finansal işlemlerin fark ettiğimizden daha fazla kişisel bilgi açığa çıkardığını gösteren anlaşılır örneklerle yönlendirilir.
+Çalışma kitabı, gizliliğin yanlış bir şeyi saklamakla değil, sıradan insanları yersiz ifşa, gözetim ve verilerin kötüye kullanılmasına karşı korumakla ilgili olduğunu vurgular. Okurlara, Zcash'ın insanlara finansal yaşamları üzerinde gerçek kontrol sağlamak için nasıl oluşturulduğunu ve sıradan finansal işlemlerin fark ettiğimizden daha fazla kişisel bilgi açığa çıkardığını gösteren anlaşılır örnekler sunulur.
 
 
 ---
 
-## 2. Zcash'i Kim İnşa Etti ve Neden Var?
+## 2. Zcash'ı Kim Geliştirdi ve Neden Var?
 
-Bu bölüm, Zcash'in kökenlerini bilimsel araştırma ve kriptografi merceğinden açıklar. Korumalı özel işlemleri mümkün kılan çığır açıcı teknoloji olarak özellikle sıfır bilgi ispatlarını, yani "zk-SNARKs"i tanıtır.
+Bu bölüm, Zcash'ın kökenlerini bilimsel araştırma ve kriptografi merceğinden açıklar. Korumalı özel işlemleri mümkün kılan çığır açıcı teknoloji olarak, özellikle “zk-SNARKs” sıfır bilgi kanıtlarını tanıtır.
 
-Çalışma kitabı ayrıca Zcash'in lansman tarihçesine, kuruluş ilkelerine ve bugün ekosistemi sürdüren ve destekleyen küresel topluluğa da değinir. Misyon; bireyleri güçlendirmek, sansüre dayanıklı dijital paraya erişim sağlamak ve gizlilik teknolojisini herkes için ilerletmek çerçevesinde sunulur.
+Çalışma kitabı ayrıca Zcash'ın piyasaya sürülme tarihine, kuruluş ilkelerine ve bugün ekosistemi sürdüren ve destekleyen küresel topluluğa değinir. Misyon; bireyleri güçlendirmek, sansüre dayanıklı dijital para erişimi sağlamak ve herkes için gizlilik teknolojisini ilerletmek etrafında şekillenir.
 
 
 ---
@@ -40,36 +40,36 @@ Bu bölüm, Zcash'in kökenlerini bilimsel araştırma ve kriptografi merceğind
 
 Bu bölüm, Zcash protokolünün teknik temellerini anlaşılır bir dille açıklar. Temel kavramlar şunlardır:
 
-- Şeffaf adresler ve korumalı adresler  
-- Viewing Key ve kontrollü ifşa  
+- Şeffaf ve korumalı adresler  
+- Görüntüleme anahtarları ve kontrollü paylaşım  
 - Madencilerin/doğrulayıcıların rolü  
-- Sıfır bilgi ispatlarının işlemleri nasıl doğruladığı  
-- Ağın merkeziyetsiz ve güvenli kalması sağlanırken gizliliğin nasıl korunduğu  
+- Sıfır bilgi kanıtlarının işlemleri nasıl doğruladığı  
+- Ağın merkeziyetsiz ve güvenli kalmasını sağlarken gizliliğin nasıl korunduğu
 
-Çalışma kitabındaki diyagramlar ve görsel metaforlar, bu kavramları yeni başlayanlar için sadeleştirmeye yardımcı olur.
+Çalışma kitabındaki diyagramlar ve görsel benzetmeler, bu kavramları yeni başlayanlar için basitleştirmeye yardımcı olur.
 
-
----
-
-## 4. Günlük Hayatta Zcash Kullanımı
-
-Dördüncü bölüm gerçek kullanım örneklerine odaklanır. Birinin mobil cüzdanlar kullanarak nasıl Zcash gönderip alabileceğini, QR kodlarının ödemeleri nasıl kolaylaştırdığını ve kullanıcıların kişisel korunma, ticari gizlilik ya da sınır ötesi transferler için korumalı işlemleri nasıl kullandığını gösterir.
-
-Örnekler; sanatçılara bahşiş verme, yurt dışındaki akrabalara para gönderme, STK'ları anonim olarak destekleme ya da Zcash'i bir gencin özel dijital harçlığı olarak kullanma gibi gerçek hayat durumlarını gösterir.
 
 ---
 
-## 5. Zcash ile İnşa Etmek
+## 4. Zcash'ı Günlük Yaşamda Kullanmak
 
-Bu bölüm, geliştiricilerin, tasarımcıların, araştırmacıların ve eğitimcilerin Zcash üzerine nasıl inşa edebileceğini öne çıkarır. Şu gibi kavramları tanıtır:
+Dördüncü bölüm, gerçek kullanım örneklerine odaklanır. Mobil cüzdanlar kullanarak birinin Zcash'ı nasıl gönderip alabileceğini, QR kodlarının ödemeleri nasıl kolaylaştırdığını ve kullanıcıların kişisel korunma, ticari gizlilik veya sınır ötesi transferler için korumalı işlemleri nasıl kullandığını gösterir.
+
+Örneklerde sanatçılara bahşiş vermek, yurt dışındaki akrabalara para göndermek, sivil toplum kuruluşlarına anonim olarak destek olmak veya Zcash'ı bir gencin özel dijital harçlığı olarak kullanmak gibi gerçek yaşam durumları yer alır.
+
+---
+
+## 5. Zcash ile Geliştirme
+
+Bu bölüm, geliştiricilerin, tasarımcıların, araştırmacıların ve eğitimcilerin Zcash üzerine nasıl inşa edebileceğini vurgular. Şu kavramları tanıtır:
 
 - Zcash cüzdanları  
 - Geliştirici SDK'ları  
 - Topluluk çalışma grupları  
-- Açık kaynak geliştirmede katkıcıların rolü  
+- Açık kaynak geliştirmede katkı sağlayıcıların rolü  
 - Zcash ağ yükseltmelerinin protokolü nasıl geliştirdiği  
 
-Okurlar, Zcash'in zaman içinde nasıl evrildiğine ve küresel katkıcıların araçları, altyapıyı, uygulamaları ve eğitsel kaynakları genişletmeye nasıl yardımcı olduğuna dair fikir edinir.
+Okurlar, Zcash'ın zaman içinde nasıl geliştiğini ve dünyanın dört bir yanındaki katkı sağlayıcıların araçları, altyapıyı, uygulamaları ve eğitim kaynaklarını genişletmeye nasıl yardımcı olduğunu anlar.
 
 
 ---
@@ -78,29 +78,29 @@ Okurlar, Zcash'in zaman içinde nasıl evrildiğine ve küresel katkıcıların 
 
 Bu bölüm, temel dijital güvenlik alışkanlıklarını öğretir:
 
-- Anahtarları ve seed phrase'leri korumak  
-- Dolandırıcılıklardan kaçınmak  
-- Custodial ve non-custodial cüzdanlar arasındaki farkı anlamak  
-- Güçlü parola hijyeni uygulamak  
-- Hassas cüzdan bilgilerini kamuya açık şekilde paylaşmaktan kaçınmak  
+- Anahtarları ve kurtarma ifadelerini koruma  
+- Dolandırıcılıklardan kaçınma  
+- Gözetimli ve gözetimsiz cüzdanları anlama  
+- Güçlü parola alışkanlıkları edinme  
+- Hassas cüzdan bilgilerini herkese açık biçimde paylaşmaktan kaçınma
 
-Bu dersler, yeni kullanıcılara Zcash'in ötesine geçerek genel dijital yaşamda da işe yarayan temel alışkanlıklar kazandırır.
+Bu dersler, yeni kullanıcılara Zcash dışındaki genel dijital yaşamlarında da işlerine yarayacak temel alışkanlıklar kazandırır.
 
 
 ---
 
 ## 7. Küresel Zcash Topluluğu
 
-Zcash ekosistemi küresel, çeşitli ve topluluk odaklıdır. Bu bölüm, katkıcıların açık forumlar, GitHub, Discord ve çalışma grupları üzerinden nasıl iş birliği yaptığını açıklar. Açık kaynak geliştirme, gizlilik savunuculuğu ve tabandan eğitim kültürünü tanıtır.
+Zcash ekosistemi küresel, çeşitli ve topluluk odaklıdır. Bu bölüm, katkı sağlayıcıların açık forumlar, GitHub, Discord ve çalışma grupları aracılığıyla nasıl iş birliği yaptığını açıklar. Açık kaynak geliştirme, gizlilik savunuculuğu ve tabandan gelen eğitim kültürünü tanıtır.
 
-Çalışma kitabı ayrıca ekosistemde yer alan kuruluşları da açıklar; buna, ağı destekleyen ve Zcash'in merkeziyetsizliğini ve kamu yararı misyonunu sürdüren kâr amacı gütmeyen kuruluşlar, vakıflar ve bağımsız geliştiriciler dahildir.
+Çalışma kitabı ayrıca kâr amacı gütmeyen kuruluşlar, vakıflar ve ağı destekleyerek Zcash'ın merkeziyetsizliğini ve kamu yararı misyonunu sürdüren bağımsız geliştiriciler dâhil olmak üzere ekosistemde yer alan kuruluşları açıklar.
 
 
 ---
 
-## 8. Yaratıcılarla Tanışın - "Bunu Yapan İnsanlar!"
+## 8. Yaratıcılarla Tanışın - “Bunu Yapan Kişiler!”
 
-Bu bölüm, *İlk Zcash*'i mümkün kılan yetenekli katkıcıları öne çıkarır. Bunlar şunlardır:
+Bu bölüm, *İlk Zcash*'ı mümkün kılan yetenekli katkı sağlayıcıları tanıtır. Bunlar arasında şunlar yer alır:
 
 **Ice (@frostbyte11211)**
 
@@ -108,58 +108,58 @@ Gizlilik, bilgisayarlar, kriptografi ve psikolojiyle ilgilenen bir lise öğrenc
 
 **Pacu (@thecodebuffet)** 
 
-Uzun yıllardır Zcash cüzdan geliştiricisi; daha önce ECC'de SDK'lar ve Light Client teknolojisi üzerinde çalıştı, şimdi ise bir ZCG hibesi kapsamında ekosisteme katkı sunuyor.
+Uzun süredir Zcash cüzdanı geliştiren Pacu, daha önce ECC bünyesinde SDK'lar ve Hafif İstemci teknolojisi üzerinde çalışmış; şimdi ZCG hibesi kapsamında ekosisteme katkıda bulunuyor.
 
 **Marek** 
 
-Zcash Foundation'da bir mühendis.  
+Zcash Foundation'ta mühendis.
 
 **Alfredo Garcia** 
 
-Zcash Foundation'daki Zebra ekibinde çalışan bir Rust sistem mühendisi.
+Zcash Foundation bünyesindeki Zebra ekibinde çalışan bir Rust sistem mühendisi.
 
 **Pili (@mpguerra)** 
 
-Tor Project'teki çalışmalar da dahil olmak üzere 20 yılı aşkın deneyime sahip, Zcash Foundation'da yönetici.
+Zcash Foundation'ta, Tor Projesi üzerindeki çalışmaları da dâhil olmak üzere 20 yılı aşkın deneyime sahip yönetici.
 
 **Zksquirrel** 
 
-Zcash Arborist, topluluk not tutucusu ve ZecHub'ın eğitim girişimlerine katkı sunan biri.
+Zcash Arborist'i, topluluk not tutucusu ve ZecHub'ın eğitim girişimlerine katkı sağlayan kişi.
 
 **Tripleyouww** 
 
-Zcash Foundation'da Topluluk Destek Koordinatörü.  
+Zcash Foundation'ta Topluluk Destek Koordinatörü.
 
 **Mass Adoption Alliance** 
 
-Merkeziyetsiz kripto paralar ve finansal gizlilik üzerine eğitim yoluyla gençleri güçlendiren bir girişim.
+Gençleri merkeziyetsiz kripto paralar ve finansal gizlilik konusunda eğitim yoluyla güçlendiren bir girişim.
 
 ---
 
-Bu profiller, okurlara Zcash'in dünyanın dört bir yanından mühendisler, tasarımcılar, geliştiriciler, eğitimciler ve organizatörlerden oluşan çeşitli bir topluluk tarafından sürdürüldüğünü gösterir.
+Bu profiller, okurlara Zcash'ın dünyanın dört bir yanından mühendisler, tasarımcılar, geliştiriciler, eğitimciler ve organizatörlerden oluşan çeşitli bir topluluk tarafından sürdürüldüğünü gösterir.
 
 
 ---
 
-## 9. Nasıl Dahil Olunur?
+## 9. Katılım Yolları
 
-Son bölüm, okurları Zcash ekosisteminin bir parçası olmaya davet eder. Fırsatlar arasında şunlar yer alır:
+Son bölüm, okurları Zcash ekosisteminin bir parçası olmaya davet eder. Katılım fırsatları şunlardır:
 
-- Zcash Küresel Discord'a katılmak  
+- Zcash Küresel Discord'e katılmak  
 - Topluluk görüşmelerine ve çalışma gruplarına katılmak  
-- Gelecekteki çalışma kitabı çevirilerine katkıda bulunmak  
+- Çalışma kitabının gelecekteki çevirilerine katkıda bulunmak  
 - Açık kaynak eğitimi desteklemek  
-- İçerik, kod katkıları, sanat eseri veya geri bildirim oluşturmak  
-- Zcash Community Grants'yi keşfetmek
+- İçerik, kod katkıları, çizimler veya geri bildirim oluşturmak  
+- Zcash Community Grants'ı keşfetmek
 
-Mesaj açıktır: herkes katılabilir ve topluluk, her geçmişten ve her beceri seviyesinden katkıcıyı memnuniyetle karşılar.
+Mesaj açık: Herkes katılabilir ve topluluk, her geçmişten ve beceri düzeyinden katkı sağlayıcıları memnuniyetle karşılar.
 
-[Zcash Global Discord](https://discord.gg/F6DCkCDK)
+[Zcash Küresel Discord](https://discord.gg/F6DCkCDK)
 
 ---
 
 # Lisans
 
-*İlk Zcash*, **Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0)** lisansı ile lisanslanmıştır.
+*İlk Zcash*, **Creative Commons Atıf-AynıLisanslaPaylaş 4.0 Uluslararası Lisansı (CC BY-SA 4.0)** kapsamında lisanslanmıştır.
 
 [Lisans](https://creativecommons.org/licenses/by-sa/4.0/)
