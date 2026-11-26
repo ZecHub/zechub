@@ -78,7 +78,7 @@ In Zcash **Sapling** & **Orchard** shielded pools, the **Note Commitment Tree** 
 ![SHA256 block diagram](/content-images/Fn_PaVZXoAApHPf-936e479067.webp)
 
 #### 5. Equihash (Zcash Mining)
-**Equihash** is the hashing algorithm used in mining Zcash. It's also used by networks such as Komodo & Horizen.
+**Equihash** is the hashing algorithm used in mining Zcash. It's also used by networks such as Komodo & Horizen. See [Equihash](/zcash-tech/equihash) for how the puzzle works and how Zcash uses it.
 
 **Equihash: Asymmetric Proof-of-Work Based on the Generalized Birthday Problem** (Biryukov and Khovratovich): https://eprint.iacr.org/2015/946
 

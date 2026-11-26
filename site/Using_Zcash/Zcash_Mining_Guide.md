@@ -8,7 +8,7 @@
 
 ## TL;DR
 
-* Zcash uses Equihash proof of work. ASICs dominate the network, so GPUs are mainly for hobbyists and testing.
+* Zcash uses [Equihash](/zcash-tech/equihash) proof of work. ASICs dominate the network, so GPUs are mainly for hobbyists and testing.
 * Solo mining rarely finds a block for small setups. A pool combines hashrate and pays you a share of each block it finds.
 * You need three things: a Zcash wallet address for payouts, mining hardware, and mining software (or the ASIC's built-in dashboard).
 * Pools differ by fee (about 0-2%), payout method (PPLNS, PPS+), minimum payout and server location.
