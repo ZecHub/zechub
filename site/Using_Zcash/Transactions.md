@@ -88,11 +88,11 @@ These examples start with an already calculated logical-action count:
 
 ### Which marginal fee applies
 
-**Checked 11 November 2026:** ZIP 317 lists revision 2 and [ZIP 2009](https://zips.z.cash/zip-2009) as proposed. Before revision 2, the marginal fee is 5,000 zatoshis. Revision 2 specifies 1,000, giving a 2,000-zatoshi minimum rather than 10,000.
+**Checked 19 November 2026:** on Mainnet, revision 2 of ZIP 317 ([ZIP 2009](https://zips.z.cash/zip-2009)) applies from block **3,590,000**, mined on 19 November 2026. The marginal fee is now **1,000 zatoshis** per logical action, so a minimal transaction pays 2,000 zatoshis (0.00002 ZEC) instead of 10,000 (0.0001 ZEC). On Testnet it has applied since block 4,465,026, the Testnet NU7 height.
 
-The proposal specifies Mainnet height **3,590,000**, expected around 19 November 2026, and Testnet height **4,465,026**. A calendar estimate is not the activation condition. For wallets, the relevant height is the block in which the transaction is expected to be mined; nodes use the next block's height. Recheck the linked specifications and your wallet's release guidance as deployment changes.
+For wallets, the height that counts is the block in which the transaction is expected to be mined; nodes use the next block's height. Nodes shipped the new relay policy first, as ZIP 2009 requires: Zebra's mempool accepts 1,000 zatoshis per action from [v6.4.0](https://github.com/ZcashFoundation/zebra/releases/tag/v6.4.0), and from [v7.0.0](https://github.com/ZcashFoundation/zebra/releases/tag/v7.0.0) its `getstandardfee` RPC reports 1,000 once the next block is at height 3,590,000. Zakura's `getstandardfee` recommends at least 1,000 from [v1.8.4](https://github.com/zakura-core/zakura/releases/tag/v1.8.4). lightwalletd [v0.6.1](https://github.com/zcash/lightwalletd/releases/tag/v0.6.1) passes the backend's value on to light wallets through a new `GetStandardFee` call.
 
-Do not manually force the lower fee just because a proposal or software release mentions it. ZIP 2009 requires nodes to ship the new relay policy before wallets adopt the fee; nodes using the old parameters can refuse to relay the lower-fee transaction. Testnet and Mainnet also have different activation heights.
+Wallets switch on their own release schedules. [Zkool 6.37.0](https://github.com/hhanh00/zkool2/releases/tag/zkool-v6.37.0) follows ZIP 2009, with an override in its settings. A wallet that still pays 5,000 zatoshis per action overpays, but its transactions still relay. Until every wallet has switched, the fee can hint at which wallet software made a transaction, so update your wallet rather than setting the fee by hand.
 
 ### If the estimate looks wrong
 

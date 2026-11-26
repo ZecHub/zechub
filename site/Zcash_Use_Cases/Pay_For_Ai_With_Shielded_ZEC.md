@@ -81,7 +81,7 @@ You will get a QR code, a payment address, and a **transfer minimum** in ZEC for
 
 ### Step 5: Send from your wallet
 
-Copy the address into your wallet, enter the amount, and send. The network fee is about **0.00015 ZEC**.
+Copy the address into your wallet, enter the amount, and send. The network fee was **0.00015 ZEC** in testing (3 logical actions at the old 5,000 zatoshis each). A wallet that follows [ZIP 2009](https://zips.z.cash/zip-2009), in force since block 3,590,000, charges 0.00003 ZEC for the same payment.
 
 > **Send slightly over the minimum.** The quote is priced when the page loads and ZEC moves before your transaction confirms. Sending exactly the minimum landed **$0.99** instead of $1.00 in testing. Sending a little over landed $1.17 for the same nominal $1, because NanoGPT credits what you actually send.
 
