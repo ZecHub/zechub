@@ -26,7 +26,7 @@ Older shielded ZEC may need to be migrated as part of recovery. The route depend
 
 | Your funds are in | Migration route | What to do |
 | --- | --- | --- |
-| **Sprout** | **Sprout → Sapling → Ironwood** | If you have `wallet.dat` or a standalone Sprout spending key, try the current Argos recovery path first. If Argos is not suitable, use the legacy sidecar route in the full field guide. Sprout must land in Sapling first, then move onward to Ironwood. Since NU7 activated (block 3,543,405), Sprout funds cannot be moved on Mainnet; see the note above. |
+| **Sprout** | **Sprout → Sapling → Ironwood** (no longer possible) | Since NU7 activated (block 3,543,405), Sprout funds cannot be moved on Mainnet; see the note above. Keep your `wallet.dat` or Sprout spending key safe. Argos 2.0.0 removed Sprout scanning and spending, and the legacy sidecar route depends on the version 4 transactions that NU7 disallows. |
 | **Sapling** | **Sapling → Ironwood** | No Sprout recovery environment is needed. Use a current wallet that can both recover or spend your specific Sapling account and construct Ironwood transactions. Ironwood support alone does not prove legacy-Sapling recovery support. |
 | **Orchard** | **Orchard → Ironwood** | Orchard is exit-only. Use a current compatible wallet's built-in Orchard-to-Ironwood migration flow. See [Recovered funds and the Ironwood pool](#recovered-funds-and-the-ironwood-pool). |
 
@@ -34,7 +34,7 @@ Older shielded ZEC may need to be migrated as part of recovery. The route depend
 
 1. **Is it Sprout?** A seed phrase alone points to a later Sapling/Orchard-era recovery path, not Sprout. A `zc...` address, or a restored wallet reporting a Sprout balance, points to Sprout.
 2. **What recovery material do you have?** Look for `wallet.dat`, the old computer or datadir, a `z_exportwallet` backup, or an exported Sprout spending key. A `zc...` address alone is not enough.
-3. **Argos or the legacy sidecar?** If you have `wallet.dat` or a standalone Sprout spending key and simply want the funds out, try [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) first. Use the legacy sidecar route in the full field guide if Argos cannot handle the material or if you want the full recovery stack under your own control.
+3. **Argos or the legacy sidecar?** For Sprout, neither works since NU7: keep the keys and stop here. For transparent, Sapling or Orchard funds in a `wallet.dat`, a Zecwallet Lite seed or file, or a standalone Sapling spending key, use [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) 2.0.0 or later.
 4. **Do you already have a synchronized, unpruned zcashd datadir?** This matters only for the legacy sidecar route. Copy existing node data only after a clean shutdown; otherwise the field guide covers the snapshot/from-scratch options.
 5. **Where do the funds end up?** **Ironwood.** Sprout crosses through Sapling first because there is no single direct Sprout-to-Ironwood transaction. Do not stop at Sapling.
 
@@ -50,7 +50,7 @@ For the complete migration reference, including detailed recovery routes, comman
 >
 > If you think the funds are in **Sprout**, confirm that you still have spending authority before committing time to recovery. A `zc...` address or viewing material alone is not enough to move the funds.
 >
-> **YWallet no longer supports Zcash after Ironwood.** Use **Zkool** for ordinary non-Sprout restores from supported seeds and keys. Use **Argos** for Zecwallet Lite recovery, legacy wallet files, and standalone Sapling/Sprout spending keys. For Sprout, Argos is the first route to try; the full field guide covers the legacy sidecar fallback.
+> **YWallet no longer supports Zcash after Ironwood.** Use **Zkool** for ordinary non-Sprout restores from supported seeds and keys. Use **Argos** 2.0.0 or later for Zecwallet Lite recovery, legacy wallet files, and standalone Sapling spending keys. Sprout funds cannot be moved since NU7 (see the note above); Argos still identifies Sprout records in a wallet file but no longer scans or spends them.
 >
 > Use the table below based on **what you actually have**, not the recovery tool you remember using.
 
@@ -59,8 +59,8 @@ For the complete migration reference, including detailed recovery routes, comman
 | A seed phrase or supported **non-Sprout spending key** from a current or recently maintained wallet, including old YWallet Zcash material | [Zkool](#fund-recovery-with-zkool) |
 | A **viewing key only** | Zkool can import supported viewing keys for read-only access, but a viewing key cannot authorize recovery spending. Find the corresponding seed or spending key. |
 | A 24-word **Zecwallet Lite** seed | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos) |
-| A Zecwallet Lite or zcashd `wallet.dat`, or a standalone Sapling / Sprout spending key | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). As of September 18, 2026, v1.3.0 is current and preferred; use v1.2.0 or later for `wallet.dat` and Sprout recovery. |
-| Sprout material that Argos cannot handle, or a recovery where you want the legacy components under your own control | Use the legacy sidecar route in the [full field guide](/research/zec-pool-migration/view). |
+| A Zecwallet Lite or zcashd `wallet.dat`, or a standalone Sapling spending key | [Argos](#zecwallet-lite-and-legacy-wallet-recovery-with-argos). Use [v2.0.0](https://github.com/sovright/argos/releases/tag/v2.0.0) (November 13, 2026) or later: it is the NU7 release, and the Argos team asks users of 1.6.1 and earlier to upgrade before any new sweep. |
+| Sprout material (a `zc...` balance in a `wallet.dat`, or a Sprout spending key) | No tool can move it since NU7; see the note at the top of this page. Keep it safe. The legacy sidecar route in the [full field guide](/research/zec-pool-migration/view) no longer works on Mainnet. |
 | No working seed or spending key, but a locked device, forgotten password, or failed disk | [Professional recovery](#professional-recovery-when-you-do-not-have-the-seed). Never send a working seed or spending key to someone who contacts you unsolicited. |
 
 ## Fund Recovery with Zkool
@@ -121,7 +121,7 @@ Unshield All is useful when withdrawing to an exchange that only accepts transpa
 
 [Zecwallet Lite](https://github.com/adityapk00/zecwallet-lite) is no longer maintained and its repository is archived. Its seed derivation differs from the layout used by current wallets, so importing the same phrase into a modern wallet can miss funds held at Zecwallet Lite's additional derived addresses. [Argos](https://argos.sovright.com), from Sovright, is a desktop recovery workspace built for this and other legacy recovery cases.
 
-Argos reads Zecwallet Lite seeds and wallet files, zcashd `wallet.dat`, standalone Sapling extended spending keys, and Sprout spending material. For Sprout, a Zecwallet Lite seed alone is not enough because those keys were generated separately. Argos is a recovery tool, not a day-to-day wallet: inspect the source material locally, scan, then sweep into a maintained wallet you control.
+Argos reads Zecwallet Lite seeds and wallet files, zcashd `wallet.dat`, and standalone Sapling extended spending keys, and recovers transparent, Sapling and Orchard funds from them. Since 2.0.0 it no longer scans or spends Sprout: when a wallet file holds Sprout records, Argos identifies them, explains the NU7 restriction, and recovers the other keys. Argos is a recovery tool, not a day-to-day wallet: inspect the source material locally, scan, then sweep into a maintained wallet you control.
 
 Least Authority [audited](https://argos.sovright.com/assets/least-authority-argos-audit-2026-06-29.pdf) the tool. Recovery itself is free. An optional donation to Sovright can appear during the sweep.
 
@@ -130,7 +130,7 @@ Least Authority [audited](https://argos.sovright.com/assets/least-authority-argo
 ### Before you open Argos
 
 1. Download the desktop app from the [official Argos site](https://argos.sovright.com) or the [GitHub releases page](https://github.com/sovright/argos/releases). Verify checksums or signatures when they are published.
-2. Use the current Argos release. As of September 18, 2026, **v1.3.0** is current and preferred. Use **v1.2.0 or later for `wallet.dat` and Sprout recovery**. Builds older than 1.1.0 can still scan but construct pre-Ironwood sweeps that the network rejects; update and retry.
+2. Use **Argos 2.0.0 or later**. [2.0.0](https://github.com/sovright/argos/releases/tag/v2.0.0) (November 13, 2026) updates the consensus schedule for NU7, including transaction branch selection, expiry and shielded action limits, and splits large sweeps into batches. Users of 1.6.1 and earlier should upgrade before any new sweep. If a recovery was interrupted on an older build, keep the original wallet and the old recovery data: updating does not make old signed transactions valid. Check the saved transaction status, then run a fresh scan and review the proposal before sweeping again.
 3. Work on a machine you trust. Prefer full-disk encryption. Do not screen-share while a seed, passphrase, or spending key is visible.
 4. Have a destination Unified Address ready from a maintained wallet you control, such as [ZODL](https://zodl.com/). Confirm the address in that wallet before you paste it into Argos.
 
@@ -151,7 +151,7 @@ Broadcasting a sweep is irreversible. Keep the original wallet file until every 
 
 ### Wallet files and standalone keys
 
-On the welcome screen, **I have a wallet file** covers a Zecwallet Lite file, a zcashd `wallet.dat`, or standalone Sapling extended spending keys. Standalone Sprout spending-key recovery is handled by Argos's Sprout recovery path/CLI.
+On the welcome screen, **I have a wallet file** covers a Zecwallet Lite file, a zcashd `wallet.dat`, or standalone Sapling extended spending keys. Standalone Sprout spending keys can no longer be swept (see [Sprout notes](#sprout-notes)).
 
 Argos reads wallet files without modifying them. If the wallet is encrypted, enter the passphrase when asked; it is used in memory and is not written to disk. Review the transparent, Sapling, and Sprout key counts before you start a scan.
 
@@ -159,11 +159,9 @@ Viewing keys are not accepted for a sweep because they cannot authorize spending
 
 ### Sprout notes
 
-A Zecwallet Lite seed does not derive Sprout keys. Those keys were generated separately. Recover Sprout from a zcashd `wallet.dat`, or from a standalone spending key in the CLI.
+Argos 1.x could scan for Sprout notes and sweep them into Sapling. NU7 disallows version 4 transactions, the only format that can spend Sprout funds, so [Argos 2.0.0](https://github.com/sovright/argos/releases/tag/v2.0.0) removed Sprout scanning and spending. Wallet import still identifies Sprout records and explains the restriction while it recovers the supported keys.
 
-If the file already has spendable note data and a cached witness, Argos can offer **Sweep Sprout funds** without a chain scan. Otherwise it can run a resumable full-block scan over the P2P network. That scan is large and slow. The checkpoint it writes is spend-capable, so protect it like the original wallet.
-
-Sprout value can only land in Sapling. After the Sapling funds are confirmed and spendable, move them onward to **Ironwood** with a current wallet that supports the recovered Sapling account. Do not stop at Sapling.
+If you hold Sprout funds, keep the `wallet.dat`, the Sprout spending key and any spend-capable checkpoint an older Argos wrote. ZIP 2003 does not burn Sprout funds and leaves a future recovery method possible, though none is planned.
 
 ## Recovered funds and the Ironwood pool
 
