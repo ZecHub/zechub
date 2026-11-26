@@ -148,12 +148,11 @@ function proseMask(md) {
   });
 }
 
-// site/zechubglobal/ is a 511-page archive that nothing renders: it is absent
-// from the frontend's routes and holds 0 entries in translation/curated-pages.txt,
-// so no locale is derived from it and no reader reaches it. It also carries 788
-// of the corpus's 1,078 wrong spellings — 73% — which would make editing any of
-// those pages a wall of failures about text that ships nowhere. Excluded until
-// the archive is either routed or retired.
+// site/zechubglobal/, the 512-page legacy archive excluded here, was removed
+// from the tree (issue #2647); the exclusion stays harmless for history/branches
+// that still carry it. site/zechubglobal/ held 788 of the corpus's 1,078 wrong
+// spellings — 73% — which would have made editing any of those pages a wall of
+// failures about text that shipped nowhere.
 const UNROUTED = "site/zechubglobal/";
 const isScannable = (f) => f.startsWith("site/") && /\.md$/i.test(f) && !f.startsWith(UNROUTED);
 

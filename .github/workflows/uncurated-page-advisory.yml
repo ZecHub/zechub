@@ -69,7 +69,7 @@ jobs:
               core.setFailed(`the API listed ${files.length} of ${pr.changed_files} changed files; this PR is too large to check automatically, so a maintainer must check the translation lists by hand`);
               return;
             }
-            // English pages only; zechubglobal/** is hand-maintained per-language
+            // English pages only; zechubglobal/** was hand-maintained per-language
             // content outside the curated corpus (the detector excludes it too).
             const page = (f) => f && f.startsWith('site/') && f.endsWith('.md') && !f.startsWith('site/zechubglobal/');
             const rel = (f) => f.slice('site/'.length);
