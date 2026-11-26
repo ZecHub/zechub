@@ -90,6 +90,8 @@ If you are new to blockchains generally, [Mastering Bitcoin](https://github.com/
 
 [Arti](https://docs.rs/arti/latest/arti/) is the Rust implementation of Tor, used by zcash_client_backend to route wallet traffic. [Tailscale](https://github.com/tailscale/tailscale) comes up for connecting to a node you run yourself. [warp2](https://github.com/hhanh00/warp2) is a fast sync implementation by Hanh, though it has not been updated since 2023.
 
+If you build with an AI coding agent, [Zcash Agent Skills](/guides/zcash-agent-skills) covers Zcash Labs' zcash-skills: notes on the current stack (Zakura, Ironwood, light clients, zcash.js) that the agent reads before it writes code. Check their verified dates against the network upgrade pages.
+
 ## Community and events
 
 The [Zcash R&D Discord](https://discord.gg/6AK7keWFaK) is where protocol and wallet development is discussed, and the [Zcash Community Forum](https://forum.zcashcommunity.com/) carries longer proposals and support threads.
