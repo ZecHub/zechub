@@ -1,3 +1,0 @@
-# Eventi
-
-## Zcon Vozes
