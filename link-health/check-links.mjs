@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Link health scan for the ZecHub wiki.
 //
-// Reporting only. Reads site/**/*.md, resolves every link it finds, and writes a
+// Reporting only. Reads the published Markdown under site/, resolves links, and writes a
 // JSON result plus a Markdown summary. It never edits content and never opens a
 // pull request; the workflow publishes the Markdown to a single dashboard issue.
 //
@@ -105,8 +105,11 @@ async function walk(dir, out = []) {
   }
   for (const e of entries) {
     const p = join(dir, e.name);
-    if (e.isDirectory()) await walk(p, out);
-    else if (e.isFile() && e.name.toLowerCase().endsWith(".md")) out.push(p);
+    if (e.isDirectory()) {
+      // The wiki no longer serves the old hand-maintained translations.
+      if (relative("site", p) === "zechubglobal") continue;
+      await walk(p, out);
+    } else if (e.isFile() && e.name.toLowerCase().endsWith(".md")) out.push(p);
   }
   return out;
 }

@@ -6,9 +6,11 @@ Reporting only. The workflow never edits content and never opens a pull request.
 
 ## What it checks
 
-Every link in `site/**/*.md`, including markdown links, images, and the inline
-`src` / `href` attributes the icon markup uses. Links inside fenced code blocks
-are skipped, since those are examples rather than live links.
+The dashboard scans Markdown links, images, and inline `src` / `href` attributes
+in wiki pages under `site/`. It skips `site/zechubglobal/`, the old manual
+translations that the wiki no longer serves. To check those files directly,
+pass `--root site/zechubglobal`. Links inside fenced code blocks are skipped,
+since those are examples rather than live links.
 
 | Category | Meaning |
 |---|---|

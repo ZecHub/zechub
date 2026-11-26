@@ -27,6 +27,36 @@ const { classify, isPlaceholderHost, assetKey } = new Function(
 )();
 const site = fileURLToPath(new URL("../site", import.meta.url));
 
+test("the dashboard skips the legacy translation tree unless it is selected directly", async (t) => {
+  const dir = await mkdtemp(join(tmpdir(), "zechub-legacy-links-"));
+  t.after(() => rm(dir, { recursive: true, force: true }));
+  const pages = {
+    "site/Guide.md": "//live.invalid/root",
+    "site/Guides/zechubglobal/Guide.md": "//live.invalid/nested",
+    "site/zechubglobal/es/Guide.md": "//legacy.invalid/archive",
+  };
+  for (const [name, url] of Object.entries(pages)) {
+    const file = join(dir, name);
+    await mkdir(dirname(file), { recursive: true });
+    await writeFile(file, `[link](${url})\n`);
+  }
+
+  const checker = fileURLToPath(new URL("./check-links.mjs", import.meta.url));
+  const live = ["//live.invalid/nested", "//live.invalid/root"];
+  for (const [scope, findings] of [
+    [[], live],
+    [["--root", join(dir, "site")], live],
+    [["--root", "site/zechubglobal"], ["//legacy.invalid/archive"]],
+  ]) {
+    const run = spawnSync(process.execPath, [checker, "--offline", ...scope], { cwd: dir, encoding: "utf8" });
+    assert.ifError(run.error);
+    assert.equal(run.status, 0, run.stderr);
+    const report = JSON.parse(await readFile(join(dir, "link-health.json"), "utf8"));
+    assert.equal(report.filesScanned, findings.length);
+    assert.deepEqual(report.findings.map((f) => f.url).sort(), findings);
+  }
+});
+
 test("routes resolve like the app's transformUri (whole segments, Zero to Zero Knowledge)", () => {
   for (const [route, file] of [
     ["/zero-to-zero-knowledge/hash-functions", "/Zero_to_Zero_Knowledge/Hash_Functions"],
