@@ -62,6 +62,7 @@ ZODL is a self-custodial mobile wallet designed for private Zcash transactions. 
 - **Encrypted Messaging:** Zcash-level privacy for shielded memos alongside or independent of transactions
 - **Unified Addresses:** Simplified address management across Transparent, Sapling, and Orchard pools
 - **Tor Support:** Enhanced network-level privacy for transaction broadcasting
+- **Private Connection (OHTTP):** Since Android 3.20.0, wallet server requests go through an [Oblivious HTTP](/zcash-tech/oblivious-http) relay by default, so ZODL's servers don't see your IP address
 
 **Privacy Commitments:**
 - No tracking of wallet activity, transaction history, or user behavior
