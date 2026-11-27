@@ -235,7 +235,7 @@ async function loadAppRoutes(offline) {
 
 // ── internal route resolution ────────────────────────────────────────────────
 
-function routeExists(route, mdFiles, appRoutes) {
+function routeExists(route, mdFiles, appRoutes, contentRoot = "site") {
   // Locale prefixes the wiki app routes (src/i18n/routing.ts). /pt/x renders the
   // translation of /x, or the English page when there is none, so a localized
   // route resolves exactly when its English route does.
@@ -251,7 +251,7 @@ function routeExists(route, mdFiles, appRoutes) {
     return { ok: true, how: "app route" };
   }
 
-  const target = `site${transformUri(clean)}.md`;
+  const target = `${contentRoot}${transformUri(clean)}.md`;
   if (existsSync(target)) return { ok: true, how: "exact" };
 
   // The app falls back to a loose match inside the same folder, so a report that
@@ -533,7 +533,7 @@ async function main() {
       }
 
       if (kind === "route") {
-        const r = routeExists(link.url, mdFiles, appRoutes);
+        const r = routeExists(link.url, mdFiles, appRoutes, ROOT);
         if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
         continue;
       }

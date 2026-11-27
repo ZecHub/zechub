@@ -95,6 +95,15 @@ eq("unknown prefix is not a locale",
    routeExists("/xx/zcash-tech/zakura-node", zakura, appRoutes),
    { ok: false, how: "no file at site/Xx/Zcash_Tech/Zakura_Node.md" });
 
+const customRoot = "custom-content";
+const customPages = [`${customRoot}/Zcash_Tech/Zakura_Node.md`];
+eq("route resolves relative to the selected content root",
+   routeExists("/zcash-tech/zakura-node", customPages, appRoutes, customRoot),
+   { ok: true, how: `fuzzy → ${customPages[0]}` });
+eq("localized route resolves relative to the selected content root",
+   routeExists("/fr/zcash-tech/zakura-node#setup", customPages, appRoutes, customRoot),
+   { ok: true, how: `fuzzy → ${customPages[0]}` });
+
 // must NOT match: these are ordinary links and re-probing them is meaningless
 eq("not an archive host", originalOf("https://example.org/web/20250611203406/https://x.test/"), null);
 eq("archive without a target", originalOf(`${A}/20250611203406/`), null);
@@ -103,5 +112,5 @@ eq("the archive home page", originalOf("https://web.archive.org/"), null);
 eq("target without a host", originalOf(`${A}/2022/https://?`), null);
 eq("non-string input", originalOf(Symbol("x")), null);
 
-console.log(failed ? `${failed} failing` : "all 23 cases correct");
+console.log(failed ? `${failed} failing` : "all 25 cases correct");
 process.exit(failed ? 1 : 0);
