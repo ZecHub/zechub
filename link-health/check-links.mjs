@@ -16,7 +16,7 @@
 
 import { readFile, writeFile, readdir, stat } from "node:fs/promises";
 import { existsSync } from "node:fs";
-import { join, dirname, basename, relative, resolve } from "node:path";
+import { join, dirname, basename, isAbsolute, relative, resolve, sep } from "node:path";
 
 // ── args ─────────────────────────────────────────────────────────────────────
 
@@ -479,6 +479,11 @@ async function main() {
   }
 
   const mdFiles = await walk(ROOT);
+  // A subset of the main wiki keeps site/ as its URL root. A standalone
+  // Markdown tree resolves routes within that tree instead.
+  const relativeScanRoot = relative("site", ROOT);
+  const isWikiSubset = !isAbsolute(relativeScanRoot) && relativeScanRoot.split(sep)[0] !== "..";
+  const routeRoot = isWikiSubset || resolve(ROOT) === process.cwd() ? "site" : ROOT;
   const appRoutes = await loadAppRoutes(OFFLINE);
 
   // Assets live in the wiki app repo, so confirm them over the API when we can.
@@ -533,7 +538,7 @@ async function main() {
       }
 
       if (kind === "route") {
-        const r = routeExists(link.url, mdFiles, appRoutes, ROOT);
+        const r = routeExists(link.url, mdFiles, appRoutes, routeRoot);
         if (!r.ok) findings.push({ kind: "route", url: link.url, file: link.file, line: link.line, detail: r.how });
         continue;
       }
