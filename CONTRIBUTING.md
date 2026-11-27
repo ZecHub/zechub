@@ -2,7 +2,7 @@
 
 > ZecHub helps people learn about Zcash
 
-If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.xyz](https://www.zechub.xyz/) and other ZecHub social media :sparkles:
+If you're reading this page, we're really excited that you're considering contributing! Any contribution you make will be reflected on [zechub.wiki](https://zechub.wiki/) and other ZecHub social media :sparkles:
 
 
 ## New contributors
@@ -79,7 +79,7 @@ Our wiki-docs page provides Zcash education materials in an easy and digestible 
 - New user guides
 - Zcash community and ecosystem
 
-These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://wiki.zechub.xyz/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Follow the [ZecHub style](#style-guides) when writing a wiki page, and use an existing page in the same section as a structural reference.
+These are pretty broad areas, so there's a lot to work from. If you want some inspiration, check out our current [wiki-docs site](https://zechub.wiki/) and see what's missing. Once you determine what you want to write, [start to make your changes](#make-changes) and learn how to submit a PR to the ZecHub repo. All of our docs are created and maintained in this repo. Follow the [ZecHub style](#style-guides) when writing a wiki page, and use an existing page in the same section as a structural reference.
 
 After you submit a PR, please message @dismad or @tokidoki in the #zecwiki section of the discord, and they will review your PR and merge if it is ready to be added to the site. If merged, they will add the doc to the ZecHub website. If the doc is not ready, they will suggest edits for you in the PR.
 
@@ -110,7 +110,7 @@ Sometimes our information in the docs isn't spot on. That's okay. That's why we 
 
 ### ZecHub Wiki - broken link fixed
 
-If you find that a link is broken, or something important is mispelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
+If you find that a link is broken, or something important is misspelled, please go to the footer of the doc (which links to its Github page) and suggest the change via a PR.
 
 ### Newsletter - new edition
 

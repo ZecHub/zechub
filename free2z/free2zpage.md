@@ -6,9 +6,9 @@
 - We update this Free2z page with our latest content.
 - Like what we're doing? Come work with us! The project is completely open-sourced and needs contributors.
 
-The goal of [ZecHub](http://zechub.xyz) is to provide an educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem.
+The goal of [ZecHub](https://zechub.wiki) is to provide an educational platform where community members can work together on creating, validating, and promoting content that supports the Zcash ecosystem.
 
-We open-source our content for a few reasons. One, we want to give people the opportunity to suggest edits to content that might be incorrect, incomplete, or missing important context. Two, we want to create an environment that easily onboards people into the Zcash ecosystem. If you would like to find out more on how to contribute, join us on [Discord](https://discord.gg/zcash) & read how to get started [here](https://wiki.zechub.xyz/contribute).
+We open-source our content for a few reasons. One, we want to give people the opportunity to suggest edits to content that might be incorrect, incomplete, or missing important context. Two, we want to create an environment that easily onboards people into the Zcash ecosystem. If you would like to find out more on how to contribute, join us on [Discord](https://discord.gg/zcash) & read how to get started [here](https://zechub.wiki/contribute).
 
 Community members are welcome to post their own weekly blog or newsletter with ZecHub and claim a 0.2 ZEC contributor bounty. More information is available on the Discord Server!
 
@@ -20,7 +20,7 @@ Tasks are posted via [Github](https://github.com/zechub/zechub/issues) to severa
 
 - [The latest ZecWeekly Newsletter](https://zechub.substack.com/p/zecweekly-45) | [ZecWeekly em português](https://zechubrazil.substack.com/p/zecweekly-45) | [ZecWeekly по-Русски](https://ruzcash.substack.com/p/zcash-44) | [ZecHub in Italiano](https://zechubit.substack.com/p/zecweekly-45) | [Zecweekly en Français](https://zcashfr.io/2023/05/24/zecweekly-43/)
 - [The latest episode of our Podcast](https://www.youtube.com/watch?v=ILdMTGtVOD4)
-- [Our wiki-site with tons of information on Zcash & ZEC](https://wiki.zechub.xyz/)
+- [Our wiki-site with tons of information on Zcash & ZEC](https://zechub.wiki/)
 
 Check our content, stay up to date on Zcash, and most importantly, contribute! Let us know what you want to build :)
 
