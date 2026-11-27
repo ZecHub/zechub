@@ -222,6 +222,7 @@
   "guides/Raspberry_pi_4_Zebra_Node.md": "Raspberry Pi 4 Guide for Running Zebra",
   "guides/ShapeShift_Zcash.md": "ShapeShift and Zcash: Privacy-First Decentralized Trading",
   "guides/Thus_Spoke_Zakura_Akash.md": "Thus Spoke Zakura on Akash (Regtest)",
+  "guides/Thus_Spoke_Zakura_Local.md": "Thus Spoke Zakura (THS) — Local Regtest Development",
   "guides/Using_ZEC_Privately.md": "Using ZEC, privately",
   "guides/Using_ZEC_in_DeFi.md": "Using Zcash in DeFi",
   "guides/Verifying_Zcash_Releases.md": "Verifying Zcash Releases",
