@@ -138,6 +138,10 @@ A collaborative wallet and coordination platform that allows multiple team membe
 A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.  
 [Visit](https://github.com/auzum197/pendrake-watch)
 
+### ZecCheckout
+A self-hosted checkout service for merchants who want to accept shielded ZEC. The server holds only a viewing key (UFVK), so it cannot spend funds. Each invoice gets a fresh shielded unified address as a ZIP-321 QR code, payments are detected by trial-decrypting blocks from lightwalletd, and the shop receives a signed webhook. Working prototype, tested on testnet.  
+[Visit](https://github.com/samizdatproject/zeccheckout)
+
 ---
 
 ## Explorers, Data, and Network Dashboards
