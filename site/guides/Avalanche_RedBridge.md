@@ -15,7 +15,7 @@ Support for DeFi and DApps: Zcash holders can now participate in various DeFi pl
 
 **Decentralized ZavaX Oracle**
 Description: The ZavaX Oracle is crucial to the bridge, providing crosschain price feeds and enabling trustless ZEC to AVAX conversions.
-[Link to Oracle](https://zavax-oracle.red.dev)
+[Link to Oracle (archived; the live site no longer responds)](https://web.archive.org/web/20260823181644/https://zavax-oracle.red.dev/)
 
 **Cross Chain Bridge Contract**
 Description: The smart contract architecture supporting the Zcash Avalanche bridge, handling deposits, conversions, and withdrawals of ZEC.
