@@ -199,6 +199,10 @@ A privacy-focused static website that aggregates Zcash news, statistics, and edu
 A retro-style desktop interface that combines various Zcash ecosystem tools and information into one application. It includes a blockchain explorer, mempool viewer, network statistics, historical charts, shielded pool information, mining tools, a Unified Address decoder, calculator, games, terminal, and other utilities.  
 [Visit](https://www.zec-os.com/)
 
+### zipreader
+A community browser for Zcash Improvement Proposals (ZIPs) with search, category and upgrade filters, draft and new-PR tracking, and external adoption stats. Available in English and Spanish.  
+[Visit](https://www.zipreader.org/)
+
 ---
 
 ## Identity, Names, and User Experience
