@@ -24,7 +24,7 @@ Guide for deploying a zcashd Zcash full node (Electric Coin Co implementation) u
 
 ## What You're Deploying
 
-A full zcashd node that will:
+As originally written, this guide deployed a zcashd node that would (this no longer works, see the notice at the top):
 
 -> Sync the entire Zcash blockchain (350GB+ for mainnet, ~ 40GB for testnet)
 
@@ -46,7 +46,7 @@ A full zcashd node that will:
 
 -> zcashd's wallet has been replaced by [Zallet](/using-zcash/zallet-quick-reference-guide)
 
--> Use zcashd if you need wallet functionality or specific RPC APIs
+-> For wallet functionality use [Zallet](/using-zcash/zallet-quick-reference-guide), and for node RPC use [Zebra](/guides/akash-network-zebra). Do not deploy a new zcashd node
 
 
 ### **Important: Port Mapping on Akash**
