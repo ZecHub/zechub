@@ -32,7 +32,7 @@ ZEC gives people the opportunity to transfer data permissionlessly. Having a pee
 
 [A Shielded Ecosystem](https://web.archive.org/web/20260903010654/https://electriccoin.co/blog/shielded-ecosystem/)
 
-[Zcash Privacy Recommendations](https://z.cash/support/security/privacy-security-recommendations/)
+[Useful Tips when using Zcash](https://z.cash/learn/useful-tips-when-using-zcash/)
 
 ## What is Zcash?
 
