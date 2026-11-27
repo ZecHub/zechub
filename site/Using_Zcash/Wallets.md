@@ -5,7 +5,7 @@
 - Source Code: https://github.com/zodl-inc
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | 24-Word Seed Phrase
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | Keystone | Ledger | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Book | CrossPay | Flexa Payments | NEAR Intents | Payment Request | Shielded Memo | Spend before Sync | TEX Address | Tor Support | Voting | OHTTP
 - NU7: Compatible
@@ -95,7 +95,7 @@
 - Source Code: https://github.com/hhanh00/zkool2
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware | Ledger
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Address Rotation | Encrypted Backup | Multisig - FROST | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - Nym Mixnet: Supported
@@ -214,7 +214,7 @@
 - Source Code: https://github.com/anoma/zillions
 - Devices: Web
 - Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Keystone | Ledger
 - Pools: Transparent | Sapling | Ironwood
 - Features: Multi Account | Payment Links | Pool Transfer | Shielded Memo
 - NU7: Compatible
@@ -252,7 +252,7 @@
 ![logo](/content-images/wallets/exodus.webp "Exodus")
 - Devices: Mobile | Desktop
 - Operating System: Android | iOS | Windows | Linux | macOS
-- Wallet Support: Seed Phrase | Hardware
+- Wallet Support: Seed Phrase | Hardware | Trezor
 - Pools: Transparent
 - Features: Multi Coin | Swaps
 - NU7: Not Ready
@@ -276,7 +276,7 @@
 ![logo](/content-images/wallets/keystone.webp "Keystone")
 - Source Code: https://github.com/KeystoneHQ/keystone3-firmware/releases
 - Devices: Hardware
-- Wallet Support: Hardware | Unified Address
+- Wallet Support: Hardware | Keystone | Unified Address
 - Pools: Transparent | Orchard | Ironwood
 - Features: Multi Coin | Voting
 - NU7: Compatible
@@ -289,7 +289,7 @@
 - Source Code: https://github.com/LedgerHQ/app-zcash
 - Devices: Hardware
 - Operating System: Windows | macOS | Linux | Android | iOS
-- Wallet Support: Hardware
+- Wallet Support: Hardware | Ledger
 - Pools: Transparent | Ironwood
 - Features: Multi Coin
 - NU7: Compatible
@@ -302,7 +302,7 @@
 - Source Code: https://github.com/SafePalWallet/safepal-app
 - Devices: Mobile | Web
 - Operating System: Android | iOS | Browser
-- Wallet Support: Seed Phrase | Hardware
+- Wallet Support: Seed Phrase | Hardware | Ledger | Safepal
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
@@ -314,7 +314,7 @@
 ![logo](/content-images/wallets/trezor.webp "Trezor")
 - Source Code: https://github.com/trezor/trezor-firmware
 - Devices: Hardware
-- Wallet Support: Hardware
+- Wallet Support: Hardware | Trezor
 - Pools: Transparent
 - Features: Multi Coin
 - NU7: Not Ready
@@ -340,7 +340,7 @@
 - Source Code: https://github.com/chainapsis/vizor-wallet
 - Devices: Desktop | Mobile
 - Operating System: Windows | macOS | Linux | Android | iOS
-- Wallet Support: Seed Phrase | Unified Address | Hardware | 24-Word Seed Phrase
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Keystone | Ledger | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: Gift Cards | NEAR Intents | Shielded Memo | Testnet Support | Voting
 - NU7: Compatible
@@ -353,7 +353,7 @@
 - Source Code: https://github.com/NoirWallet/noir-wallet
 - Devices: Web | Desktop
 - Operating System: Browser
-- Wallet Support: Seed Phrase | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Unified Address | Hardware | Keystone | Ledger
 - Pools: Transparent | Sapling | Orchard | Ironwood
 - Features: DApp Connections | Lending & Borrowing | Swaps | ZNS Names | Voting
 - NU7: Compatible
@@ -379,7 +379,7 @@
 - Source Code: https://github.com/ZLabcash/zapp
 - Devices: Mobile
 - Operating System: Android | iOS
-- Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
+- Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Orchard | Ironwood | RAILGUN (0zkUSDC)
 - Features: Fiat Off-ramp | Messenger | NEAR Intents | P2P Payments | P2P Trading | Shielded Memo | Tor Support | Voting
 - NU7: Compatible
@@ -486,7 +486,7 @@
 - Source Code: https://github.com/rotkonetworks/zafu/
 - Devices: Web
 - Operating System: Windows | macOS | Linux
-- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | Self-Custody | Unified Address | Keystone | 24-Word Seed Phrase | 12-Word Seed Phrase
+- Wallet Support: Seed Phrase | Wallet Import | Viewing Keys | Cold Signing | Self-Custody | Unified Address | Hardware | Keystone | 24-Word Seed Phrase | 12-Word Seed Phrase
 - Pools: Transparent | Orchard | Ironwood | Penumbra Shielded
 - Features: Address Book | Automatic Shielding | Cross-Chain Bridge | DApp Connections | Encrypted Backup | Fiat Off-ramp | Multi Coin | Shielded Transactions | Shielded USDC | Swaps | Multisig - FROST | Messenger | NEAR Intents | Offline Signing | Payment Links | Pool Transfer | QR Payments | Reproducible Build
 - Nym Mixnet: Supported
