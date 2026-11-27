@@ -64,7 +64,7 @@ Fig 2: A chart showing the Orchard pool up to 29 October 2025, before Ironwood a
 
 <br/>
 
-The Orchard Shielded Pool was activated on May 31, 2022 as part of the NU5 network upgrade. Orchard introduced a new shielded protocol that eliminated the need for a trusted setup and became the primary shielded pool used by Unified Addresses (UAs).
+The Orchard Shielded Pool was activated on May 31, 2022 as part of the NU5 network upgrade. Orchard introduced a new [shielded protocol](/zcash-tech/orchard) that eliminated the need for a trusted setup and became the primary shielded pool used by Unified Addresses (UAs).
 
 Orchard significantly improved usability, efficiency, and privacy by reducing transaction metadata leakage and introducing a more flexible transaction model based on Actions rather than traditional shielded inputs and outputs.
 
