@@ -20,7 +20,7 @@ Files in IPFS are addressed using *content-addressing*, meaning each file is giv
 
 IPFS stores content as blocks identified by CIDs. Adding a file stores it on your node; it does not automatically copy it to other nodes. Keep a reachable copy online, or arrange remote pinning, so other readers can retrieve it. See [IPFS persistence](https://docs.ipfs.tech/concepts/persistence/).
 
-**Read: [An Introduction to IPFS](https://blog.infura.io/post/an-introduction-to-ipfs)**
+**Read: [What is IPFS?](https://docs.ipfs.tech/concepts/what-is-ipfs/)**
 
 ## Creating your Site
 
