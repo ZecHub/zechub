@@ -121,6 +121,7 @@
   "Zcash_Tech/Crosslink_Protocol.md": "Crosslink Protocol",
   "Zcash_Tech/Detecting_Shielded_Payments.md": "Detecting shielded payments: what scanning costs",
   "Zcash_Tech/FROST.md": "FROST",
+  "Zcash_Tech/FROST_Escrow.md": "FROST 2-of-3 Escrow",
   "Zcash_Tech/FROST_Threshold_Custody.md": "FROST & Threshold Custody for Shielded ZEC",
   "Zcash_Tech/Full_Nodes.md": "Full Nodes",
   "Zcash_Tech/Halo.md": "Halo",
