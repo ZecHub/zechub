@@ -97,7 +97,7 @@
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Address Rotation | Encrypted Backup | Multisig - FROST | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
+- Features: Address Rotation | Batch Payments |Encrypted Backup | Multisig - FROST | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
@@ -111,7 +111,7 @@
 - Operating System: Android | iOS | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Address Book | Address Rotation | Automatic Shielding | Multi Coin | Shielded Memo | Swaps | Tor Support
+- Features: Address Book | Address Rotation | Automatic Shielding | Batch Payments | Multi Coin | Shielded Memo | Swaps | Tor Support
 - NU7: Compatible
 - Source: Open Source
 
