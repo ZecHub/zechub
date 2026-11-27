@@ -30,11 +30,11 @@
 5. [Use Cases & Examples](#use-cases--examples)
 6. [Installation](#installation)
 7. [Setting Up the Zimppy Wallet](#setting-up-the-zimppy-wallet)
-8. [Integrating Zimppy](#integrating-zimppy--typescript-sdk)
-   - [Server (Shielded)](#typescript-server--shielded)
-   - [Server (Transparent)](#typescript-server--transparent)
+8. [Integrating Zimppy](#integrating-zimppy-typescript-sdk)
+   - [Server (Shielded)](#typescript-server-shielded)
+   - [Server (Transparent)](#typescript-server-transparent)
    - [Client](#typescript-client)
-9. [Integrating Zimppy - Rust SDK](#integrating-zimppy--rust-sdk)
+9. [Integrating Zimppy - Rust SDK](#integrating-zimppy-rust-sdk)
    - [Server (Axum)](#rust-server-axum)
    - [Client](#rust-client)
 10. [CLI Reference](#cli-reference)
@@ -276,9 +276,9 @@ Automatically handles the full 402 -> pay -> retry flow. Sessions are opened and
 
 ---
 
-## Integrating Zimppy - TypeScript SDK
+## Integrating Zimppy: TypeScript SDK
 
-### TypeScript Server - Shielded
+### TypeScript Server: Shielded
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -307,7 +307,7 @@ return result.withReceipt(Response.json({ data }))
 
 ---
 
-### TypeScript Server - Transparent
+### TypeScript Server: Transparent
 
 ```typescript
 import { Mppx } from 'mppx/server'
@@ -339,7 +339,7 @@ The client intercepts `402` responses, opens a session automatically, and retrie
 
 ---
 
-## Integrating Zimppy - Rust SDK
+## Integrating Zimppy: Rust SDK
 
 ### Rust Server (Axum)
 
