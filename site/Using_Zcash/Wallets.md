@@ -576,3 +576,44 @@
 - NU7: Not Verified
 - Stage: Beta
 - Source: Open Source
+
+---
+
+ ## [Cupcake Wallet](https://cupcakewallet.com/)
+ ![logo](/content-images/wallets/Cupcake Wallet.webp "Cupcake Wallet")
+ - Source Code: https://github.com/cake-tech/cupcake
+ - Devices: Mobile (Air-Gapped Signing Device)
+ - Operating System: Android | iOS
+ - Wallet Support: Seed Phrase | Offline Signing | QR Code Transaction Signing
+ - Pools: Transparent | Sapling | Orchard | Ironwood
+ - Features: Self-Custodial | Air-Gapped Signing | Shielded Transactions | On-Demand Shielding | QR Code Communication | Offline Private Key Storage
+ - NU7: Ready
+ - Stage: Stable (v1.2.0)
+ - Source: Open Source
+
+---
+
+## [Wizard Wallet](https://wizardwallet.app/)
+ ![logo](/content-images/wallets/Wizard Wallet.webp "Wizard Wallet")
+ - Source Code: https://github.com/principlezerolabs/wizard
+ - Devices: Mobile | Desktop
+ - Operating System: Android | macOS (iOS Coming Soon)
+ - Wallet Support: 24-Word Recovery Phrase | Self-Custodial | Secure Key Storage
+ - Pools: Transparent | Shielded (Pool Specification Not Disclosed)
+ - Features: Private Payments | Shielded Transactions | Payment Requests | QR Code Payments | .zcash Names | Payment Notifications | Biometric Authentication
+ - NU7: Not Verified
+ - Stage: Beta
+ - Source: Open Source
+
+---
+
+## [Shapeshift](https://shapeshift.com/)
+ ![logo](/content-images/wallets/Shapeshift.webp "Shapeshift")
+ - Source Code: https://github.com/shapeshift/web
+ - Devices: Web | Mobile
+ - Operating System: Web Browser | Android | iOS
+ - Wallet Support: Self-Custodial Wallet | Hardware Wallet Integration
+ - Pools: Transparent | Shielded (Sapling)
+ - Features: Self-Custodial | Multi-Chain | Decentralized Exchange (DEX) | Cross-Chain Swaps | ZEC Support | Shielded Transactions
+ - NU7: Not Verified
+ - Source: Open Source
