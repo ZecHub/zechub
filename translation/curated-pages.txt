@@ -183,6 +183,7 @@ Zcash_Use_Cases/Freelance_Privacy_Setup.md
 Zcash_Use_Cases/Journalist_Privacy_Setup.md
 Zcash_Use_Cases/Keeping_Records_With_Shielded_ZEC.md
 Zcash_Use_Cases/Pay_For_Ai_With_Shielded_ZEC.md
+Zcash_Use_Cases/Plan_A_ZEC_Inheritance.md
 Zcash_Use_Cases/Private_Community_Treasury.md
 Zcash_Use_Cases/Receive_Donations_Privately.md
 Zcash_Use_Cases/Run_A_ZEC_Fundraising_Campaign.md

@@ -65,3 +65,7 @@ Coin
 # 2026-11-17.
 Console
 MicroSD
+
+# Place name in the probate example on Zcash_Use_Cases/Plan_A_ZEC_Inheritance.md
+# ("England and Wales"); translations should use the local name. 2026-11-27.
+England
