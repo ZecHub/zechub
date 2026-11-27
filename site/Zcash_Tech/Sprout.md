@@ -24,6 +24,8 @@ Sprout created two kinds of addresses. Transparent addresses (t-addresses) work 
 
 The zk-SNARKs in Sprout needed a set of public parameters, and generating them safely required a one-time setup called the Ceremony. Six participants in separate, distant locations each generated a secret piece, called toxic waste. If anyone ever reassembled all the pieces, they could forge ZEC out of nothing. The design turned that risk into a simple rule: as long as at least one participant destroyed their piece, the full secret could never be rebuilt, so counterfeiting stayed impossible. The participants who have been named publicly include Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, and Derek Hinch of NCC Group. One participant chose to stay anonymous.
 
+The ceremony's published transcript later turned out to matter. In 2018 a flaw was found in the setup procedure of BCTV14, the proving system Sprout used: the transcript held extra values that could have been used to forge proofs. The Sapling upgrade fixed it, it was disclosed in 2019, and no sign of counterfeiting was found. See [Sprout Counterfeiting Vulnerability](../zcash-tech/sprout-counterfeiting-vulnerability).
+
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
 ## The origin
@@ -80,6 +82,8 @@ Sprout is the original launch of Zcash, not a later upgrade. It has been active 
 [Shielded Pools](../using-zcash/shielded-pools)
 
 [zk-SNARKs](../zcash-tech/zk-snarks)
+
+[Sprout Counterfeiting Vulnerability](../zcash-tech/sprout-counterfeiting-vulnerability)
 
 [Zcash Network Upgrades](../start-here/network-upgrades)
 

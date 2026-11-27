@@ -159,6 +159,7 @@ Zcash_Tech/Project_Tachyon.md
 Zcash_Tech/Sapling.md
 Zcash_Tech/Shielded_Cold_Signing.md
 Zcash_Tech/Sprout.md
+Zcash_Tech/Sprout_Counterfeiting_Vulnerability.md
 Zcash_Tech/Shielded_Coinholder_Voting.md
 Zcash_Tech/The_Turnstile.md
 Zcash_Tech/Unified_Addresses.md
