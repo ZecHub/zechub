@@ -87,7 +87,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Term | Definition |
 |------|-----------|
 | Index | CoinDesk's ZCX Index represents a real-time, USD-equivalent spot rate for Zcash. [Price Index](https://www.coindesk.com/indices/zcx/) |
-| Integrations | You can accept Zcash payments through a number of 3rd party providers. [Payment Processors](https://z.cash/zcash-for-business/) |
+| Integrations | You can accept Zcash payments through a number of 3rd party providers. [Payment Processors](/using-zcash/payment-processors) |
 | Interactive Proof System | An abstract machine that models computation as the exchange of messages between two parties: a Prover and a Verifier. |
 | Investment | A number of Financial options are available for institutional investors or family offices who want to gain exposure to Zcash. [Full list](https://z.cash/investors/) |
 | Ironwood | Network upgrade NU6.3, live on mainnet since block 3,428,143 on 28 July 2026. Ironwood adds a new shielded pool built on the corrected Orchard circuit and seals the original Orchard pool, so anyone can check that the circulating supply is honest. Its consensus rules are specified in [ZIP 258](https://zips.z.cash/zip-0258). [Ironwood](/zcash-tech/ironwood) |
