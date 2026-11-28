@@ -138,6 +138,11 @@ A collaborative wallet and coordination platform that allows multiple team membe
 A watch-only desktop wallet designed for individuals and organizations that need to monitor shielded funds without having the ability to spend them. It supports transaction and balance monitoring, Orchard and Sapling notes, memo viewing, historical fiat valuation, transaction notifications, wallet encryption, and privacy-focused screen-sharing features.  
 [Visit](https://github.com/auzum197/pendrake-watch)
 
+### Konclave
+Collective Zcash treasury built on FROST. The vault your group opens together — the key is born split across your members and never assembled. Every payment needs your quorum's signatures. Private outside, transparent inside. Local-first, no telemetry, real ZEC on mainnet, open source.  
+[Visit](https://www.konclave.xyz)
+
+
 ---
 
 ## Explorers, Data, and Network Dashboards
