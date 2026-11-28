@@ -45,7 +45,7 @@
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | 24-Word Seed Phrase
 - Pools: Transparent | Sapling | Ironwood
-- Features: Address Book | Financial Insights | Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
+- Features: Address Book | Financial Insights | Batch Payments |  Payment Request | PepperSync | Shielded Memo | Swaps | Testnet Support
 - Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
@@ -97,7 +97,7 @@
 - Operating System: Android | iOS | Windows | Linux | macOS
 - Wallet Support: Seed Phrase | Viewing Keys | Unified Address | Hardware
 - Pools: Transparent | Sapling | Orchard | Ironwood
-- Features: Address Rotation | Batch Payments |Encrypted Backup | Multisig - FROST | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
+- Features: Address Rotation | Batch Payments | Encrypted Backup | Multisig - FROST | Multi Account | Offline Signing | Shielded Memo | Testnet Support | Tor Support | Voting
 - Nym Mixnet: Supported
 - NU7: Compatible
 - Source: Open Source
