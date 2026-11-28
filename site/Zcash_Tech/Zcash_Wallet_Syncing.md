@@ -92,4 +92,5 @@ Also, the Zcash Foundation has been looking at other alternatives to improve the
 - [Lightwallet Nodes](/zcash-tech/lightwallet-nodes) — the lightwalletd infrastructure that light wallets rely on.
 - [Viewing Keys](/zcash-tech/viewing-keys) — the keys wallets use to detect and decrypt their own notes.
 - [Pepper Sync](/zcash-tech/pepper-sync) — another approach to Zcash wallet synchronization.
+- [Wallet Birthday Height](/using-zcash/wallet-birthday-height) — the block a wallet starts scanning from when you restore it.
 - [FROST](/zcash-tech/frost) — distributed signing authority for shielded ZEC.

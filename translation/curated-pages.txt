@@ -72,6 +72,7 @@ Using_Zcash/Testnet.md
 Using_Zcash/Transactions.md
 Using_Zcash/Transparent_Exchange_Addresses.md
 Using_Zcash/Unified_Addresses.md
+Using_Zcash/Wallet_Birthday_Height.md
 Using_Zcash/Zallet_Quick_Reference_Guide.md
 Using_Zcash/Zcash_Mining_Guide.md
 Using_Zcash/Zcash_Mining_Pools.md

@@ -138,7 +138,7 @@ Least Authority [audited](https://argos.sovright.com/assets/least-authority-argo
 
 1. Open Argos and choose **I have my 24-word seed phrase**. A seed recovery does not need a wallet file.
 2. Paste the phrase and click **Validate seed**. If it says the seed is valid, continue.
-3. Enter a **birthday block height**, or the closest estimate of when the wallet was created. An earlier height is slower but safer than guessing too late.
+3. Enter a [**birthday block height**](../using-zcash/wallet-birthday-height), or the closest estimate of when the wallet was created. An earlier height is slower but safer than guessing too late.
 4. Under the server controls, use the current-server preset, or enter lightwalletd URLs. Comma-separated URLs are tried in order. Public examples:
 
    `https://zec.rocks:443,https://zec-node.cakewallet.com:443,https://na.zec.rocks:443`
