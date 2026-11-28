@@ -120,11 +120,9 @@ Learn More on: <br /> 1. [THORChain Vision](https://thorchain.org/vision) <br />
 
 ## Templar Protocol
 
-[Templar Protocol](https://www.templarfi.org/) is a DeFi protocol focused on developing privacy-preserving financial solutions.
+[Templar Protocol](https://app.templarfi.org/) is an overcollateralized lending protocol on NEAR. Each market is an isolated, immutable smart contract that pairs one collateral asset with one borrow asset. Collateral held on other chains reaches NEAR through [NEAR Intents](https://docs.near.org/chain-abstraction/intents/overview).
 
-By combining DeFi concepts with blockchain privacy technology, Templar Protocol aims to create financial applications that remain open while protecting users’ sensitive data.
-
-For the Zcash ecosystem, this approach aligns with the vision of developing privacy-preserving finance based on zero-knowledge technology. The integration of privacy technology with DeFi enables the creation of financial services that are more secure, private, and user-oriented.
+For the Zcash ecosystem, Templar lists a market that accepts ZEC (via NEAR Intents) as collateral to borrow USDC on Stellar. This lets ZEC holders borrow against their position without selling it. Check the current collateral ratios and oracle sources in the [Templar risk parameters](https://docs.templarfi.org/guide/risk-parameters.html) before using it, and note that lending positions can be liquidated if the collateral value falls.
 
 Learn More on : [Templar Protocol Learn](https://docs.templarfi.org/guide/)
 
