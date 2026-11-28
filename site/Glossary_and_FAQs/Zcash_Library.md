@@ -119,7 +119,7 @@ A comprehensive glossary of key terms, concepts, and resources related to Zcash.
 | Metrics | Network metrics are available [here](https://tokenterminal.com/explorer/projects/zcash/metrics/all) |
 | Metadata | Data that is generated alongside a user's Zcash transaction. This can include block height, transaction version or expiry height etc. |
 | Mobile SDK | A lightweight SDK that connects Android to Zcash, allowing third-party Android apps to send and receive shielded transactions. [GitHub](https://github.com/zcash/zcash-android-wallet-sdk) |
-| Mining | The process where for each block, nodes in the Zcash network compete by doing complex mathematical calculations to find a solution based on a self-adjusting difficulty. [Guide](https://z.cash/mining-zcash/) |
+| Mining | The process where for each block, nodes in the Zcash network compete by doing complex mathematical calculations to find a solution based on a self-adjusting difficulty. [Guide](/using-zcash/zcash-mining-guide) |
 | Multisignature | An address which requires multiple private key signatures in order to spend funds. Currently, multisig functionality is only supported by transparent addresses. |
 
 ## N
