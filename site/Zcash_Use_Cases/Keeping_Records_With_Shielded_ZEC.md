@@ -84,3 +84,4 @@ The good news is that shielded Zcash does not stop you from meeting these obliga
 - [Memos](/using-zcash/memos) - how encrypted memos work
 - [Viewing Keys](/zcash-tech/viewing-keys) - how to export and share read only access
 - [Freelancer Privacy Setup](/zcash-use-cases/freelance-privacy-setup) - receiving income privately, the step before keeping records
+- [Plan a ZEC Inheritance](/zcash-use-cases/plan-a-zec-inheritance) - making sure your heirs can find and restore your ZEC

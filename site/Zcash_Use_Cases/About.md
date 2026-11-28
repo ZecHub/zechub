@@ -55,6 +55,9 @@ Raise ZEC for one goal, show progress donors can trust, and keep every gift priv
 ###  [Donate ZEC and Claim a US Tax Deduction](/zcash-use-cases/donate-zec-and-claim-a-us-tax-deduction)
 Give ZEC privately and still get the paperwork you need to deduct it
 
+###  [Plan a ZEC Inheritance](/zcash-use-cases/plan-a-zec-inheritance)
+Leave your heirs what they need to find and restore your shielded ZEC, and let an executor confirm it without the power to spend
+
 ###  [Journalist Privacy Setup](/zcash-use-cases/journalist-privacy-setup)   
 Use shielded addresses for all transactions and protect sources by avoiding traceable payments. Use memos carefully for secure communication
 
