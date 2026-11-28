@@ -219,6 +219,7 @@ guides/Raspberry_pi5_Zebra_Lightwalletd_Zingo.md
 guides/Raspberry_pi_4_Zebra_Node.md
 guides/ShapeShift_Zcash.md
 guides/Thus_Spoke_Zakura_Akash.md
+guides/Thus_Spoke_Zakura_Local.md
 guides/Using_ZEC_Privately.md
 guides/Using_ZEC_in_DeFi.md
 guides/Verifying_Zcash_Releases.md
