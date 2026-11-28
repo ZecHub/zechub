@@ -6,7 +6,17 @@
 
 > Zcash launched on October 28, 2016, with the Sprout shielded pool.
 
-> **Warning:** NU7 activated on mainnet at height 3,543,405 on 6 November 2026 (UTC; see [ZIP 259](https://zips.z.cash/zip-0259)). Since then, ZEC still in the Sprout pool is unspendable, because version 4 transactions are no longer valid (ZIP 2003). For background on recovery options, read [Recovering funds](../using-zcash/recovering-funds).
+> **Warning:** NU7 activated on mainnet at height 3,543,405 on 6 November 2026 (UTC; see [ZIP 259](https://zips.z.cash/zip-0259)). Since then, ZEC in the Sprout pool remains unspendable because version 4 transactions are no longer valid (ZIP 2003). For background on recovery options, read [Recovering funds](../using-zcash/recovering-funds).
+
+## TL;DR
+
+* Sprout launched Zcash, live since the genesis block on October 28, 2016.
+* It shipped the first practical zk-SNARK shielded transactions: sender, receiver, and amount stay hidden, and the network can verify the transaction.
+* Its public parameters came from the Ceremony, a six-person setup that stays safe if any one participant destroys their secret piece.
+* Sprout is the baseline for every later upgrade. ZIP 200 labels its rules as consensus branch ID 0.
+* Since NU7, ZEC left in the Sprout pool is unspendable. The coins were not burned. See [Recovering funds](/using-zcash/recovering-funds).
+
+## Core Explanation
 
 What you'll take away: Sprout is where Zcash began, the first time private, verifiable money ran on a live blockchain.
 
@@ -14,23 +24,37 @@ Sprout is the original launch of the Zcash network, not a later [network upgrade
 
 Why this matters. Every public blockchain before Sprout put your payments on display: anyone could see who paid whom and how much. Sprout was the first live, permissionless network to hide those details and still prove no one was cheating. That matters for ordinary financial privacy, the kind you expect from cash or a bank statement no one else can read. It also proved that strong on-chain privacy could work in practice, beyond a paper design. The trusted-setup Ceremony that made it possible became a reference point for later cryptography work, and the slow, memory-heavy proving system Sprout shipped with is exactly what pushed the team to build Sapling two years later.
 
-## First shielded pool
+### First shielded pool
 
 Sprout created two kinds of addresses. Transparent addresses (t-addresses) work like Bitcoin, with the details visible on the public ledger. Shielded addresses (z-addresses) send funds into the Sprout [shielded pool](../using-zcash/shielded-pools), where the sender, the receiver, and the amount stay hidden. The trick is [zk-SNARKs](../zcash-tech/zk-snarks), zero-knowledge proofs that let a transaction show it is valid, with no double spend and balances that add up, without revealing any of the details. Sprout was the first time this ran in production on a live cryptocurrency.
 
 ![Transparent transactions expose sender, receiver, and amount, while Sprout shielded transactions hide all three yet stay verifiable](/content-images/sprout-shielded-vs-transparent-61d3b1980c.webp)
 
-## The Ceremony
+### The Ceremony
 
 The zk-SNARKs in Sprout needed a set of public parameters, and generating them safely required a one-time setup called the Ceremony. Six participants in separate, distant locations each generated a secret piece, called toxic waste. If anyone ever reassembled all the pieces, they could forge ZEC out of nothing. The design turned that risk into a simple rule: as long as at least one participant destroyed their piece, the full secret could never be rebuilt, so counterfeiting stayed impossible. The participants who have been named publicly include Zooko Wilcox, Andrew Miller, Peter Van Valkenburgh, Peter Todd, and Derek Hinch of NCC Group. One participant chose to stay anonymous.
 
 ![The Ceremony: six participants generate private shards, then destroy the toxic waste, leaving only the public Sprout parameters](/content-images/sprout-ceremony-flow-ae16f6282a.webp)
 
-## The origin
+### The origin
 
-Sprout is the baseline that every later change builds on. When the network-upgrade mechanism arrived with Overwinter, it labeled the original rules as consensus branch id 0, which simply means no upgrade has been applied yet. Everything since then (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, and onward) sits on the chain Sprout started. The launch was announced in August 2016 for an October 28 genesis, the Ceremony ran in the weeks before, and the genesis block's hardcoded timestamp reads October 28, 2016, at 07:56 UTC.
+Sprout is the baseline that every later change builds on. When the network-upgrade mechanism arrived with Overwinter, it labeled the original rules as consensus branch ID 0, which simply means no upgrade has been applied yet. Everything since then (Overwinter, Sapling, Blossom, Heartwood, Canopy, NU5, NU6, and onward) sits on the chain Sprout started. The launch was announced in August 2016 for an October 28 genesis; the Ceremony ran in the weeks before, and the genesis block's hardcoded timestamp reads October 28, 2016, at 07:56 UTC.
 
 ![Timeline from the August 2016 announcement through the parameter Ceremony to the October 28, 2016 Sprout launch](/content-images/sprout-timeline-348766352a.webp)
+
+## Visual / Analogy
+
+Sprout works like the first post office with glass walls. Everyone can watch letters go in and come out, and everyone can check that each stamp was paid for. Nobody can read the names on the envelopes or see what is inside.
+
+The Ceremony works like a master stamp mold cut into six pieces and handed to six people in different cities. Each person melts their piece when the job is done. If even one piece is gone, nobody can rebuild the mold and print fake stamps.
+
+## Common Mistakes
+
+- **Calling Sprout a network upgrade.** Sprout is the launch itself. It has been active since block 0, so it has no activation height.
+- **Looking for a Sprout ZIP.** The ZIP process started later with Overwinter. Sprout is described by the Zcash Protocol Specification and the Zerocash construction.
+- **Thinking you had to trust all six Ceremony participants.** One honest participant who destroyed their piece is enough to rule out forged ZEC.
+- **Assuming your wallet uses the Sprout pool today.** Most wallets use newer shielded pools from Sapling onward.
+- **Expecting to move ZEC out of Sprout after NU7.** Version 4 transactions are no longer valid, so Sprout funds cannot be spent on the current network.
 
 ## Glossary
 
@@ -47,9 +71,9 @@ Sprout is the baseline that every later change builds on. When the network-upgra
 
 Does Sprout change my ZEC or my privacy today? No. Sprout is history, the launch that started the chain your ZEC lives on. Your coins and your privacy today depend on the wallet and shielded pool you use now, not on anything you need to do about Sprout.
 
-Why is there no ZIP number for Sprout? The ZIP process began later, with the Overwinter upgrade. Sprout is the original launch, described by the Zcash Protocol Specification and the Zerocash construction it was based on. ZIP 200 only mentions Sprout in hindsight, as consensus branch id 0, the baseline before any upgrade.
+Why is there no ZIP number for Sprout? The ZIP process began later, with the Overwinter upgrade. Sprout is the original launch, described by the Zcash Protocol Specification and the Zerocash construction it was based on. ZIP 200 only mentions Sprout in hindsight, as consensus branch ID 0, the baseline before any upgrade.
 
-Did I need to trust the six people in the Ceremony? The setup was built so you only needed one of them to be honest. Each held a secret piece, and as long as a single participant destroyed theirs, the full secret could never be rebuilt and no one could forge ZEC. Five participants have been named publicly and one stayed anonymous.
+Did I need to trust the six people in the Ceremony? The setup was built so you only needed one of them to be honest. Each held a secret piece, and as long as a single participant destroyed theirs, the full secret could never be rebuilt, and no one could forge ZEC. Five participants have been named publicly, and one stayed anonymous.
 
 Is the Sprout pool the one my wallet uses now? Probably not. Sprout was the first shielded pool, but later upgrades such as Sapling introduced a faster shielded design, and most wallets use newer pools today. Sprout still matters as the work that proved private, verifiable transactions could run on a live network.
 
@@ -62,7 +86,7 @@ Sprout is often called a network upgrade with an activation height. Why is that 
 <details>
 <summary>Answer</summary>
 
-Sprout is the original launch of Zcash, not a later upgrade. It has been active since the genesis block (block 0) on October 28, 2016, so there is no activation height to point to. The network-upgrade mechanism came later and labeled Sprout's rules as consensus branch id 0, the baseline before any upgrade.
+Sprout is the original launch of Zcash, not a later upgrade. It has been active since the genesis block (block 0) on October 28, 2016, so there is no activation height to point to. The network-upgrade mechanism came later and labeled Sprout's rules as consensus branch ID 0, the baseline before any upgrade.
 </details>
 
 ### Resources
@@ -86,6 +110,15 @@ Sprout is the original launch of Zcash, not a later upgrade. It has been active 
 [What is ZEC and Zcash](../start-here/what-is-zec-and-zcash)
 
 [Electric Coin Company](../zcash-organizations/electric-coin-company)
+
+## Related Pages
+
+- [Overwinter](/zcash-tech/overwinter): the first network upgrade after Sprout.
+- [Sapling](/zcash-tech/sapling): the faster shielded design that followed Sprout.
+- [zk-SNARKs](/zcash-tech/zk-snarks): the proofs that make Sprout transactions private and verifiable.
+- [Shielded Pools](/using-zcash/shielded-pools): how the Sprout pool compares with the pools in use today.
+- [NU7](/zcash-tech/nu7): the upgrade that ended spending from the Sprout pool.
+- [Recovering Funds](/using-zcash/recovering-funds): background on options for old balances.
 
 ---
 
