@@ -146,6 +146,7 @@
   "Zcash_Tech/Shielded_Coinholder_Voting.md": "Shielded Coinholder Voting",
   "Zcash_Tech/Shielded_Cold_Signing.md": "Shielded Cold Signing",
   "Zcash_Tech/Sprout.md": "Sprout",
+  "Zcash_Tech/Sprout_Counterfeiting_Vulnerability.md": "Sprout Counterfeiting Vulnerability (CVE-2019-7167)",
   "Zcash_Tech/The_Turnstile.md": "The turnstile",
   "Zcash_Tech/Unified_Addresses.md": "Unified Address (ZIP-316) Validation",
   "Zcash_Tech/Viewing_Keys.md": "Viewing Keys",
