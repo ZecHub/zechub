@@ -220,10 +220,6 @@ Privacy-first messenger that connects ZEC chats to real-world payments.
 Browser extension that converts fiat currency prices to ZEC in real time as you browse the web.  
 [Visit](https://chromewebstore.google.com/detail/zentat/lpndbahladndclecodadoljlplfaldac)
 
-### Shielded Wall
-Anonymous confession platform powered by Zcash privacy.  
-[Visit](https://web.archive.org/web/20260823052743/https://shieldedwall.org/)
-
 ### Ztrash
 Disposable email inbox paid for with shielded ZEC.  
 [Visit](https://ztrash.com/)
